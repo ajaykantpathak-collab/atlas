@@ -11,7 +11,7 @@ export const w_c9_scienceexploringmixturesandtheirseparationsim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Mixtures: Definition and Types (Homogeneous and Heterogeneous)',
     chapters: [],
     nodeIds: ['c9_chem_ch1_1', 'c9_chem_ch1_4', 'c9_chem_ch1_5', 'c9_chem_ch1_6', 'c9_chem_ch1_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Observe a glass of nimbu pani (lemonade) and a glass of sand-water mixture side by side.', goal: 'Master Mixtures: Definition and Types (Homogeneous and Heterogeneous).' },
     discovery: {
         question: 'What is the fundamental physical property that allows distillation to separate a mixture of two miscible liquids?',
@@ -20,7 +20,7 @@ export const w_c9_scienceexploringmixturesandtheirseparationsim: SimDef = {
         hook: 'Students often think the thermometer bulb should be dipped in the boiling liquid; actually it must be placed at the.',
     },
     teaching: [
-        { title: 'A mixture is a material composed of two or.', text: 'A mixture is a material composed of two or more substances (elements or compounds) physically combined in any proportion, where each substance retains its own chemical identity and properties.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A mixture is a material composed of two or.', text: 'A mixture is a material composed of two or more substances (elements or compounds) physically combined in any proportion, where each substance retains its own chemical identity and properties.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_chem_ch1_1', title: 'A mixture is a material composed of two.',

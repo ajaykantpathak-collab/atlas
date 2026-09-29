@@ -13,7 +13,7 @@ export const c1EngLetters: SimDef = {
     id: 'c1_eng_letters', title: 'Letter Sounds', subtitle: 'A for Apple!',
     classLevel: 1, subject: 'english', topic: 'Phonics — Letter Sounds',
     chapters: ['Mridang-1: My Family and Me', 'Marigold-1: rhymes'],
-    emoji: '🔤', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'letters' },
+    emoji: '🔤', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'letters' },
     scenario: { role: "a letter-detective", intro: "Every letter makes a sound! Match sounds to letters.", goal: "Match every letter to its sound." },
     discovery: {
         question: "If I say the sound 'buh' — can you point to the letter that makes it?",
@@ -22,10 +22,10 @@ export const c1EngLetters: SimDef = {
         hook: "Letters have sounds! B makes 'buh'. Let's match sounds to letters!",
     },
     teaching: [
-        { title: 'Letters Make Sounds! 🔤', text: 'Every letter has a sound. A says "aah" like Apple. B says "buh" like Ball. Sounds join to make words!', emoji: '🔤', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Letters Make Sounds! 🔤', text: 'Every letter has a sound. A says "aah" like Apple. B says "buh" like Ball. Sounds join to make words!', emoji: '🔤', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'A, B, C, D, E 🍎', text: 'A-Apple, B-Ball, C-Cat, D-Dog, E-Elephant. The first sound of the word tells you the letter!', emoji: '🍎', bgColor: 'from-rose-400 to-red-500' },
         { title: 'F, G, H, I, J 🐸', text: 'F-Fish, G-Goat, H-Hat, I-Ice cream, J-Jug. Listen to the beginning sound!', emoji: '🐸', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Big and Small Letters 🔠', text: 'Every letter has a big form (A) and a small form (a). They look different but sound the same!', emoji: '🔠', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Big and Small Letters 🔠', text: 'Every letter has a big form (A) and a small form (a). They look different but sound the same!', emoji: '🔠', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Sounds Build Words 🏗️', text: 'C-A-T says "cat"! When we put letter sounds together, we read words!', emoji: '🏗️', bgColor: 'from-amber-400 to-orange-500' },
     ],
         explore: { widget: 'trace', prompt: 'Trace it!', labels: ['A'] },
@@ -81,7 +81,7 @@ export const c1EngRhyme: SimDef = {
     },
     teaching: [
         { title: 'Words That Sound the Same! 🎵', text: 'Rhyming words end with the same sound: cat, hat, bat all end in "at"! Rhymes make poems fun!', emoji: '🎵', bgColor: 'from-pink-400 to-fuchsia-500' },
-        { title: 'Listen to the END 👂', text: 'To find rhymes, listen to the END of the word, not the start. Cat and hat rhyme — cat and cup do not!', emoji: '👂', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Listen to the END 👂', text: 'To find rhymes, listen to the END of the word, not the start. Cat and hat rhyme — cat and cup do not!', emoji: '👂', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Rhyme Families 👨‍👩‍👧', text: 'Rhyming words live in families: the "at" family has cat, bat, hat, mat. The "og" family has dog, log, frog!', emoji: '👨‍👩‍👧', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Rhymes in Poems 📜', text: 'Poems use rhymes to sound musical — "Twinkle twinkle little STAR, how I wonder what you ARE"!', emoji: '📜', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -128,7 +128,7 @@ export const c1EngWords: SimDef = {
     teaching: [
         { title: 'Naming Words 📝', text: 'Naming words name people, places, animals, and things: Riya, school, dog, ball. They answer "who?" or "what?"!', emoji: '📝', bgColor: 'from-teal-400 to-emerald-500' },
         { title: 'Doing Words 🏃', text: 'Doing words tell actions: run, jump, eat, sleep, sing. They answer "what is happening?"!', emoji: '🏃', bgColor: 'from-orange-400 to-amber-500' },
-        { title: 'Spot the Difference! 🔍', text: '"The dog runs." Dog is a naming word (a thing). Runs is a doing word (an action). See the difference?', emoji: '🔍', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Spot the Difference! 🔍', text: '"The dog runs." Dog is a naming word (a thing). Runs is a doing word (an action). See the difference?', emoji: '🔍', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Opposites ↔️', text: 'Some words have opposite partners: hot-cold, big-small, day-night. Opposites make language rich!', emoji: '↔️', bgColor: 'from-rose-400 to-pink-500' },
     ],
         explore: { widget: 'match', prompt: 'Naming or doing? Match the words!', labels: ['boy', 'naming', 'run', 'doing', 'ball', 'naming'] },
@@ -174,8 +174,8 @@ export const c1EngStory: SimDef = {
     },
     teaching: [
         { title: 'Stories Have an Order! 📖', text: 'Every story has a beginning, middle, and end. First this happens, THEN that, and LAST something else!', emoji: '📖', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Beginning 🌅', text: 'The beginning introduces who is in the story and where they are — like three little pigs leaving home!', emoji: '🌅', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Middle 🎭', text: 'The middle is where the action happens — the pigs build their houses and the wolf arrives!', emoji: '🎭', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Beginning 🌅', text: 'The beginning introduces who is in the story and where they are — like three little pigs leaving home!', emoji: '🌅', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Middle 🎭', text: 'The middle is where the action happens — the pigs build their houses and the wolf arrives!', emoji: '🎭', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'End 🏁', text: 'The end shows how it all finishes — the strong brick house keeps everyone safe!', emoji: '🏁', bgColor: 'from-emerald-400 to-teal-500' },
     ],
         explore: { widget: 'order', prompt: 'Put the story in order!', labels: ['First the seed', 'Then the sprout', 'Then the flower', 'Last the fruit'] },
@@ -221,7 +221,7 @@ export const c1HinVarnamala: SimDef = {
         { title: 'स्वर — Vowels अ', text: 'अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, अं, अः — these are the swar. They are the singing letters!', emoji: 'अ', bgColor: 'from-orange-400 to-red-500' },
         { title: 'व्यंजन — Consonants क', text: 'क, ख, ग, घ... are the vyanjan. They join with swar to make words: क + म = कम!', emoji: 'क', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'अ से अनार 🍎', text: 'अ for अनार (pomegranate), आ for आम (mango), इ for इमली (tamarind). Every letter has a picture friend!', emoji: '🍎', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'क से कबूतर 🕊️', text: 'क for कबूतर (pigeon), ख for खरगोश (rabbit), ग for गाय (cow). Listen to the first sound!', emoji: '🕊️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'क से कबूतर 🕊️', text: 'क for कबूतर (pigeon), ख for खरगोश (rabbit), ग for गाय (cow). Listen to the first sound!', emoji: '🕊️', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'trace', prompt: 'Trace it!', labels: ['क'] },
 challenges: [
@@ -273,9 +273,9 @@ export const c1HinWords: SimDef = {
     },
     teaching: [
         { title: 'अक्षर मिलकर शब्द 🧱', text: 'Letters join to make words! क + ल = कल (tomorrow) — when letters hold hands they become words!', emoji: '🧱', bgColor: 'from-amber-400 to-yellow-500' },
-        { title: 'नाम के शब्द 🏷️', text: 'Some words name things: घर (home), कुत्ता (dog), फूल (flower). They tell us WHAT!', emoji: '🏷️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'नाम के शब्द 🏷️', text: 'Some words name things: घर (home), कुत्ता (dog), फूल (flower). They tell us WHAT!', emoji: '🏷️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'काम के शब्द 🏃', text: 'Some words tell actions: खेलना (play), दौड़ना (run), गाना (sing). They tell us what is HAPPENING!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'उल्टे शब्द ↔️', text: 'Opposite words: दिन-रात (day-night), बड़ा-छोटा (big-small), ऊपर-नीचे (up-down)!', emoji: '↔️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'उल्टे शब्द ↔️', text: 'Opposite words: दिन-रात (day-night), बड़ा-छोटा (big-small), ऊपर-नीचे (up-down)!', emoji: '↔️', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'match', prompt: 'शब्द से चित्र मिलाओ!', labels: ['माँ', 'माँ', 'घर', 'घर', 'फल', 'फल'] },
 challenges: [
@@ -319,7 +319,7 @@ export const c1HinRhyme: SimDef = {
     },
     teaching: [
         { title: 'एक जैसी ध्वनि 🎶', text: 'Rhyming words end in the same sound: गाना-बाना, ताल-ढोल. That is तुकबंदी!', emoji: '🎶', bgColor: 'from-fuchsia-400 to-pink-500' },
-        { title: 'कविता में तुकबंदी 📜', text: 'Poems sound musical because of rhyming words — like "झूला झूले गुड़िया"!', emoji: '📜', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'कविता में तुकबंदी 📜', text: 'Poems sound musical because of rhyming words — like "झूला झूले गुड़िया"!', emoji: '📜', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'match', prompt: 'तुकबंदी जोड़े मिलाओ!', labels: ['गाय', 'माय', 'रात', 'बात', 'चाँद', 'गाँव'] },
 challenges: [

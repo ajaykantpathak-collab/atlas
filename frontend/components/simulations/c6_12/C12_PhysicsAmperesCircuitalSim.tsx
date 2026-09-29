@@ -1221,12 +1221,12 @@ function C12_PhysicsAmperesCircuitalSim({
         className="flex flex-wrap items-center justify-between pb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-3 bg-indigo-900/40 border border-indigo-700/50 rounded-2xl" aria-hidden="true">
+          <span className="text-3xl p-3 bg-gold-900/40 border border-gold-700/50 rounded-2xl" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2.5 py-0.5 rounded-full border border-indigo-800/60">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2.5 py-0.5 rounded-full border border-gold-800/60">
                 ISC Class 12 Physics
               </span>
               <span className="text-xs text-slate-400 font-mono">Ch 4: Magnetism</span>
@@ -1252,7 +1252,7 @@ function C12_PhysicsAmperesCircuitalSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-500 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1268,14 +1268,14 @@ function C12_PhysicsAmperesCircuitalSim({
           <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900/90 to-purple-950/40 rounded-3xl border border-indigo-700/40 shadow-xl"
+            className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900/90 to-purple-950/40 rounded-3xl border border-gold-700/40 shadow-xl"
           >
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚀 Operational Mission</span>
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm md:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-slate-900/80 rounded-2xl border border-slate-800 text-xs text-indigo-200 font-mono">
+            <div className="mt-4 p-3.5 bg-slate-900/80 rounded-2xl border border-slate-800 text-xs text-gold-200 font-mono">
               ⚡ Operational Alert: {SCENARIO.context}
             </div>
           </motion.div>
@@ -1300,7 +1300,7 @@ function C12_PhysicsAmperesCircuitalSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700/50 text-slate-400 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 hover:bg-slate-750 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800/80 border-slate-700 hover:bg-slate-750 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <div className="flex items-center justify-between gap-3">
@@ -1341,7 +1341,7 @@ function C12_PhysicsAmperesCircuitalSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-2xl font-bold shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-2xl font-bold shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                 >
                   <span>Launch Visual Electromagnetics Lab</span>
                   <span aria-hidden="true">→</span>
@@ -1356,7 +1356,7 @@ function C12_PhysicsAmperesCircuitalSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Interactive Concept Discovery ({currentSlide + 1} of {EXPLORATION_STEPS.length})
             </span>
             <span className="text-xs text-slate-400 font-mono">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
@@ -1391,7 +1391,7 @@ function C12_PhysicsAmperesCircuitalSim({
                     <div className="p-4 bg-slate-800/60 rounded-2xl border border-slate-700/60 space-y-3">
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Wire Current (I):</span>
-                        <span className="text-indigo-400 font-mono">{wireCurrentI} A</span>
+                        <span className="text-gold-400 font-mono">{wireCurrentI} A</span>
                       </div>
                       <input
                         type="range"
@@ -1400,12 +1400,12 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={wireCurrentI}
                         aria-label="Wire Current (I) in Amperes"
                         onChange={e => handleWireCurrentChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Loop Radius (r):</span>
-                        <span className="text-indigo-400 font-mono">{loopRadiusR.toFixed(2)} m</span>
+                        <span className="text-gold-400 font-mono">{loopRadiusR.toFixed(2)} m</span>
                       </div>
                       <input
                         type="range"
@@ -1415,7 +1415,7 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={loopRadiusR}
                         aria-label="Amperian Loop Radius (r) in meters"
                         onChange={e => handleLoopRadiusChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="flex gap-2 pt-2">
@@ -1424,7 +1424,7 @@ function C12_PhysicsAmperesCircuitalSim({
                           whileHover={{ scale: 1.02 }}
                           whileTap={{ scale: 0.98 }}
                           onClick={() => setEnclosedWiresCount(c => (c === 1 ? 2 : 1))}
-                          className="flex-1 py-2 px-3 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-xl text-xs font-bold"
+                          className="flex-1 py-2 px-3 bg-gold-950 border border-gold-700 text-gold-200 rounded-xl text-xs font-bold"
                         >
                           Enclosed Wires: {enclosedWiresCount}
                         </motion.button>
@@ -1441,8 +1441,8 @@ function C12_PhysicsAmperesCircuitalSim({
                     </div>
 
                     {/* Live Multirepresentation HUD */}
-                    <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-2">
-                      <div className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Live Physics Calculations</div>
+                    <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-2">
+                      <div className="text-xs font-bold text-gold-300 uppercase tracking-wider">Live Physics Calculations</div>
                       <div className="grid grid-cols-2 gap-2 text-xs font-mono">
                         <div className="p-2 bg-slate-900/80 rounded-xl border border-slate-800">
                           <div className="text-slate-400 text-[10px]">Net Enclosed I</div>
@@ -1453,7 +1453,7 @@ function C12_PhysicsAmperesCircuitalSim({
                           <div className="text-emerald-400 font-bold text-sm">{calculatedCirculation.bMag} μT</div>
                         </div>
                       </div>
-                      <div className="p-2 bg-slate-900/80 rounded-xl border border-slate-800 text-[11px] font-mono text-indigo-200">
+                      <div className="p-2 bg-slate-900/80 rounded-xl border border-slate-800 text-[11px] font-mono text-gold-200">
                         ∮ B · dl = μ₀(I_enc) = {calculatedCirculation.circ} T·m
                       </div>
                     </div>
@@ -1466,7 +1466,7 @@ function C12_PhysicsAmperesCircuitalSim({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   <div className="lg:col-span-7 bg-slate-950 rounded-2xl p-4 border border-slate-800 flex flex-col items-center justify-center relative min-h-[320px]">
                     <canvas ref={canvasRef} width={420} height={300} className="w-full max-w-md" aria-label="Lorentz force particle trajectory canvas" />
-                    <div className="absolute top-3 left-4 text-xs font-mono text-cyan-400">
+                    <div className="absolute top-3 left-4 text-xs font-mono text-gold-400">
                       Orbit Radius: r = mv_⊥ / (qB) = {chargeDynamics.radiusMm} mm
                     </div>
                     <div className="absolute bottom-3 left-4 text-xs font-mono text-purple-400">
@@ -1489,7 +1489,7 @@ function C12_PhysicsAmperesCircuitalSim({
                             }}
                             className={`flex-1 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                               chargeType === type
-                                ? 'bg-cyan-600 text-white shadow-md'
+                                ? 'bg-gold-600 text-white shadow-md'
                                 : 'bg-slate-900 text-slate-400 border border-slate-700'
                             }`}
                           >
@@ -1500,7 +1500,7 @@ function C12_PhysicsAmperesCircuitalSim({
 
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Speed (v):</span>
-                        <span className="text-cyan-400 font-mono">{particleSpeedV.toFixed(1)} × 10⁶ m/s</span>
+                        <span className="text-gold-400 font-mono">{particleSpeedV.toFixed(1)} × 10⁶ m/s</span>
                       </div>
                       <input
                         type="range"
@@ -1510,12 +1510,12 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={particleSpeedV}
                         aria-label="Particle Speed (v) in 10^6 m/s"
                         onChange={e => handleParticleSpeedChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Pitch Angle (θ):</span>
-                        <span className="text-cyan-400 font-mono">{particleAngleTheta}°</span>
+                        <span className="text-gold-400 font-mono">{particleAngleTheta}°</span>
                       </div>
                       <input
                         type="range"
@@ -1525,12 +1525,12 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={particleAngleTheta}
                         aria-label="Particle Entry Pitch Angle (θ) in degrees"
                         onChange={e => handleParticleAngleChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>B-Field Strength:</span>
-                        <span className="text-cyan-400 font-mono">{magneticFieldB.toFixed(2)} T</span>
+                        <span className="text-gold-400 font-mono">{magneticFieldB.toFixed(2)} T</span>
                       </div>
                       <input
                         type="range"
@@ -1540,12 +1540,12 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={magneticFieldB}
                         aria-label="Magnetic Field Strength (B) in Tesla"
                         onChange={e => handleMagneticFieldChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
-                    <div className="p-3 bg-cyan-950/30 rounded-2xl border border-cyan-800/50 text-xs font-mono space-y-1">
-                      <div className="text-cyan-300 font-bold">Lorentz Centripetal Force:</div>
+                    <div className="p-3 bg-gold-950/30 rounded-2xl border border-gold-800/50 text-xs font-mono space-y-1">
+                      <div className="text-gold-300 font-bold">Lorentz Centripetal Force:</div>
                       <div className="text-white">F_m = qvB sin(θ) = {chargeDynamics.forcePn} pN</div>
                       <div className="text-slate-400 text-[11px]">Period T = 2πm/(qB) = {chargeDynamics.periodNs} ns</div>
                     </div>
@@ -1558,8 +1558,8 @@ function C12_PhysicsAmperesCircuitalSim({
                 <div className="space-y-4">
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700/60 space-y-3">
-                      <div className="text-xs font-bold uppercase tracking-wider text-indigo-300">Hypothesis Checkpoint</div>
+                    <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700/60 space-y-3">
+                      <div className="text-xs font-bold uppercase tracking-wider text-gold-300">Hypothesis Checkpoint</div>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
@@ -1569,7 +1569,7 @@ function C12_PhysicsAmperesCircuitalSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 text-left bg-slate-900/90 border border-slate-700 hover:border-indigo-500 rounded-xl text-xs text-slate-200"
+                            className="p-3 text-left bg-slate-900/90 border border-slate-700 hover:border-gold-500 rounded-xl text-xs text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1645,7 +1645,7 @@ function C12_PhysicsAmperesCircuitalSim({
 
                         <div className="flex justify-between text-xs font-bold">
                           <span>Electric Field (E):</span>
-                          <span className="text-indigo-400 font-mono">{electricFieldE.toFixed(1)} × 10⁴ V/m</span>
+                          <span className="text-gold-400 font-mono">{electricFieldE.toFixed(1)} × 10⁴ V/m</span>
                         </div>
                         <input
                           type="range"
@@ -1655,12 +1655,12 @@ function C12_PhysicsAmperesCircuitalSim({
                           value={electricFieldE}
                           aria-label="Electric Field (E) in 10^4 V/m"
                           onChange={e => setElectricFieldE(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
 
                         <div className="flex justify-between text-xs font-bold">
                           <span>Magnetic Field (B):</span>
-                          <span className="text-cyan-400 font-mono">{selectorB.toFixed(2)} T</span>
+                          <span className="text-gold-400 font-mono">{selectorB.toFixed(2)} T</span>
                         </div>
                         <input
                           type="range"
@@ -1670,7 +1670,7 @@ function C12_PhysicsAmperesCircuitalSim({
                           value={selectorB}
                           aria-label="Magnetic Field (B) in Tesla"
                           onChange={e => setSelectorB(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
@@ -1751,7 +1751,7 @@ function C12_PhysicsAmperesCircuitalSim({
 
                       <div className="flex justify-between text-xs font-bold">
                         <span>Separation (d):</span>
-                        <span className="text-cyan-400 font-mono">{(parallelDistanceD * 100).toFixed(1)} cm</span>
+                        <span className="text-gold-400 font-mono">{(parallelDistanceD * 100).toFixed(1)} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1761,7 +1761,7 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={parallelDistanceD}
                         aria-label="Conductor Separation Distance (d) in meters"
                         onChange={e => handleParallelDistanceChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs font-bold">
@@ -1828,7 +1828,7 @@ function C12_PhysicsAmperesCircuitalSim({
                     <div className="p-4 bg-slate-800/60 rounded-2xl border border-slate-700/60 space-y-3">
                       <div className="flex justify-between text-xs font-bold">
                         <span>Input Current (I):</span>
-                        <span className="text-indigo-400 font-mono">{galvanometerCurrent.toFixed(2)} mA</span>
+                        <span className="text-gold-400 font-mono">{galvanometerCurrent.toFixed(2)} mA</span>
                       </div>
                       <input
                         type="range"
@@ -1838,12 +1838,12 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={galvanometerCurrent}
                         aria-label="Galvanometer Coil Current in milliAmperes"
                         onChange={e => handleGalvanometerCurrentChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs font-bold">
                         <span>Number of Turns (N):</span>
-                        <span className="text-indigo-400 font-mono">{galvanometerTurnsN}</span>
+                        <span className="text-gold-400 font-mono">{galvanometerTurnsN}</span>
                       </div>
                       <input
                         type="range"
@@ -1853,7 +1853,7 @@ function C12_PhysicsAmperesCircuitalSim({
                         value={galvanometerTurnsN}
                         aria-label="Galvanometer Coil Number of Turns (N)"
                         onChange={e => setGalvanometerTurnsN(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="p-2.5 bg-slate-900 rounded-xl text-[11px] font-mono text-slate-300 border border-slate-800">
@@ -1895,7 +1895,7 @@ function C12_PhysicsAmperesCircuitalSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1941,19 +1941,19 @@ function C12_PhysicsAmperesCircuitalSim({
 
               <div className="lg:col-span-4 space-y-3">
                 <div className="p-3 bg-slate-800/60 rounded-xl border border-slate-700 text-xs space-y-2">
-                  <div className="text-indigo-400 font-bold uppercase">Multimeter Design Sandbox</div>
+                  <div className="text-gold-400 font-bold uppercase">Multimeter Design Sandbox</div>
                   <div className="flex gap-2">
                     <button
                       aria-label="Select Ammeter mode"
                       onClick={() => setMeterType('ammeter')}
-                      className={`flex-1 py-1.5 rounded-lg font-bold ${meterType === 'ammeter' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'}`}
+                      className={`flex-1 py-1.5 rounded-lg font-bold ${meterType === 'ammeter' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'}`}
                     >
                       Ammeter (Shunt)
                     </button>
                     <button
                       aria-label="Select Voltmeter mode"
                       onClick={() => setMeterType('voltmeter')}
-                      className={`flex-1 py-1.5 rounded-lg font-bold ${meterType === 'voltmeter' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'}`}
+                      className={`flex-1 py-1.5 rounded-lg font-bold ${meterType === 'voltmeter' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'}`}
                     >
                       Voltmeter (Series)
                     </button>
@@ -1983,7 +1983,7 @@ function C12_PhysicsAmperesCircuitalSim({
                       </>
                     ) : (
                       <>
-                        <div className="text-cyan-400 font-bold">Series Multiplier Resistor:</div>
+                        <div className="text-gold-400 font-bold">Series Multiplier Resistor:</div>
                         <div className="text-white">R = V/I_g - R_g = {(meterFullScale / 0.001 - 50).toFixed(0)} Ω</div>
                         <div className="text-slate-400 text-[10px]">Voltmeter sits in PARALLEL with component</div>
                       </>
@@ -2020,7 +2020,7 @@ function C12_PhysicsAmperesCircuitalSim({
                     ? 'bg-emerald-950/80 border-emerald-600 text-emerald-300'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 border-rose-600 text-rose-300'
-                    : 'bg-indigo-950/80 border-indigo-600 text-indigo-300'
+                    : 'bg-gold-950/80 border-gold-600 text-gold-300'
                 }`}
               >
                 {difficulty} Tier
@@ -2029,7 +2029,7 @@ function C12_PhysicsAmperesCircuitalSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2044,7 +2044,7 @@ function C12_PhysicsAmperesCircuitalSim({
               wrongFlash ? 'bg-rose-950/60 border-rose-500' : 'border-slate-800'
             }`}
           >
-            <div className="flex items-center gap-2 mb-2 text-xs font-bold text-indigo-400">
+            <div className="flex items-center gap-2 mb-2 text-xs font-bold text-gold-400">
               <span>📌 Question ({challenge.nodeId})</span>
             </div>
             <h2 className="text-lg md:text-xl font-bold text-white leading-snug mb-6">{challenge.question}</h2>
@@ -2065,7 +2065,7 @@ function C12_PhysicsAmperesCircuitalSim({
                     className={`w-full text-left p-4 rounded-2xl text-sm font-medium transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <div className="flex items-center justify-between gap-3">
@@ -2104,7 +2104,7 @@ function C12_PhysicsAmperesCircuitalSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700/80 hover:bg-indigo-600 text-white text-xs font-bold rounded-xl cursor-grab border border-indigo-500/50 shadow"
+                      className="px-3.5 py-2 bg-gold-700/80 hover:bg-gold-600 text-white text-xs font-bold rounded-xl cursor-grab border border-gold-500/50 shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2134,7 +2134,7 @@ function C12_PhysicsAmperesCircuitalSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2163,7 +2163,7 @@ function C12_PhysicsAmperesCircuitalSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800/80 rounded-2xl border border-slate-700 text-slate-200 text-sm flex items-center gap-3 cursor-grab"
                   >
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-slate-700 text-xs font-bold text-indigo-300">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-slate-700 text-xs font-bold text-gold-300">
                       {displayIndex + 1}
                     </span>
                     <span>{item}</span>
@@ -2176,7 +2176,7 @@ function C12_PhysicsAmperesCircuitalSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Step Order
                 </motion.button>
@@ -2203,7 +2203,7 @@ function C12_PhysicsAmperesCircuitalSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                   >
                     Submit Value
                   </motion.button>
@@ -2223,7 +2223,7 @@ function C12_PhysicsAmperesCircuitalSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 text-xs rounded-xl font-mono"
+                      className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 text-xs rounded-xl font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2236,7 +2236,7 @@ function C12_PhysicsAmperesCircuitalSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-700 text-white rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-700 text-white rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       <span>{p}</span>
                       <button
@@ -2257,7 +2257,7 @@ function C12_PhysicsAmperesCircuitalSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Constructed Derivation
                 </motion.button>
@@ -2312,7 +2312,7 @@ function C12_PhysicsAmperesCircuitalSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-3xl border border-indigo-700/50 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-3xl border border-gold-700/50 text-center space-y-4">
             <h2 className="text-3xl font-black text-white">🏆 Module Assessment Complete!</h2>
             <div className="flex justify-center gap-6 text-sm font-mono">
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800">
@@ -2321,7 +2321,7 @@ function C12_PhysicsAmperesCircuitalSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800">
                 <div className="text-slate-400 text-xs">BKT Mastery Status</div>
-                <div className="text-2xl font-bold text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
 
@@ -2331,7 +2331,7 @@ function C12_PhysicsAmperesCircuitalSim({
                 errors === 0
                   ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                   : errors <= 3
-                  ? 'bg-indigo-950/60 border-indigo-500 text-indigo-200'
+                  ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                   : errors <= 7
                   ? 'bg-amber-950/60 border-amber-500 text-amber-200'
                   : 'bg-rose-950/60 border-rose-500 text-rose-200'
@@ -2379,10 +2379,10 @@ function C12_PhysicsAmperesCircuitalSim({
               </div>
 
               <div className={`p-3.5 rounded-2xl border transition-all ${
-                errors >= 1 && errors <= 3 ? 'bg-indigo-950/80 border-indigo-500 shadow-md ring-1 ring-indigo-400' : 'bg-slate-900/60 border-slate-800 opacity-60'
+                errors >= 1 && errors <= 3 ? 'bg-gold-950/80 border-gold-500 shadow-md ring-1 ring-gold-400' : 'bg-slate-900/60 border-slate-800 opacity-60'
               }`}>
                 <div className="font-bold text-slate-200">1–3 Errors (Reinforcing)</div>
-                <div className="text-indigo-400 font-mono text-sm font-extrabold mt-1">review in 3 days</div>
+                <div className="text-gold-400 font-mono text-sm font-extrabold mt-1">review in 3 days</div>
                 <div className="text-[11px] text-slate-400 mt-0.5">Strengthen problem-solving links</div>
               </div>
 
@@ -2438,7 +2438,7 @@ function C12_PhysicsAmperesCircuitalSim({
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800/80 text-xs text-slate-300 font-mono flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

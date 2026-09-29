@@ -149,7 +149,7 @@ export default function C11_BiologyCellUltrastructureSim() {
             {row(scope === 'LM' ? 'light microscope' : 'transmission EM', `M = ${mag >= 1000 ? `${(mag / 1000).toFixed(mag % 1000 ? 1 : 0)}k` : mag}×`)}
             {row('FOV = FN/M', `${m.fovUm < 1 ? (m.fovUm * 1000).toFixed(0) + ' nm' : m.fovUm.toFixed(1) + ' µm'}`, 'text-gold-300')}
             {row('→ fits N/2 nuclei across', m.nucleiAcross.toFixed(1))}
-            {row('resolution limit', scope === 'LM' ? '0.2 µm (≈λ/2)' : '0.0002 µm', 'text-cyan-300')}
+            {row('resolution limit', scope === 'LM' ? '0.2 µm (≈λ/2)' : '0.0002 µm', 'text-gold-300')}
             <div className="mt-1 border-t border-white/10 pt-1 text-[10px] text-surface-500">visibility check per organelle</div>
             {m.organelles.map((o) => (
               <div key={o.name} className="flex justify-between">

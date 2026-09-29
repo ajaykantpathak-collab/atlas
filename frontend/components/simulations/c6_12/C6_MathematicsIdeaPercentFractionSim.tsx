@@ -1088,13 +1088,13 @@ function C6_MathematicsIdeaPercentFractionSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-2xl border border-indigo-500/30"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 flex items-center justify-center text-2xl border border-gold-500/30"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs sm:text-sm text-indigo-400 font-medium">ICSE Class 6 Mathematics • Multi-Node Core Sim</p>
+            <p className="text-xs sm:text-sm text-gold-400 font-medium">ICSE Class 6 Mathematics • Multi-Node Core Sim</p>
           </div>
         </div>
 
@@ -1123,14 +1123,14 @@ function C6_MathematicsIdeaPercentFractionSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 sm:p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold mb-2">
+          <div className="p-5 sm:p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold mb-2">
               <span>🎪</span>
               <span>SCENARIO INTRO</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs sm:text-sm text-indigo-300/80 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs sm:text-sm text-gold-300/80 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
@@ -1156,7 +1156,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                       : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700/60'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {option}
                 </motion.button>
               ))}
@@ -1171,7 +1171,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2 whitespace-nowrap"
                 >
                   <span>Enter Discovery Lab</span>
                   <span>→</span>
@@ -1196,7 +1196,7 @@ function C6_MathematicsIdeaPercentFractionSim({
               className="p-5 sm:p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl space-y-4"
             >
               <div className="flex items-center justify-between">
-                <h3 className="text-lg sm:text-xl font-black text-indigo-300">
+                <h3 className="text-lg sm:text-xl font-black text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs font-bold text-slate-400 bg-slate-800 px-3 py-1 rounded-full">
@@ -1239,7 +1239,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Percent Shaded:</span>
-                        <span className="text-indigo-400 text-base">{percentSlider}%</span>
+                        <span className="text-gold-400 text-base">{percentSlider}%</span>
                       </div>
                       <input
                         type="range"
@@ -1250,7 +1250,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                           setPercentSlider(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set grid percentage"
                       />
                     </div>
@@ -1258,7 +1258,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     <div className="grid grid-cols-3 gap-2 bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                       <div className="p-2 bg-slate-900 rounded-lg">
                         <div className="text-[10px] text-slate-400 font-bold uppercase">Percent</div>
-                        <div className="text-sm font-black text-indigo-300">{percentSlider}%</div>
+                        <div className="text-sm font-black text-gold-300">{percentSlider}%</div>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg">
                         <div className="text-[10px] text-slate-400 font-bold uppercase">Fraction</div>
@@ -1297,7 +1297,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                       </motion.div>
                     </div>
 
-                    <div className="flex justify-between text-xs text-indigo-400 font-bold">
+                    <div className="flex justify-between text-xs text-gold-400 font-bold">
                       <span>Calculated Speed = {distanceVal} km ÷ {timeVal} h = <span className="text-emerald-400 text-sm">{(distanceVal / timeVal).toFixed(1)} km/h</span></span>
                       <span>({((distanceVal / timeVal) * (5 / 18)).toFixed(1)} m/s)</span>
                     </div>
@@ -1307,7 +1307,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-300 font-bold mb-1">
                         <span>Distance (d):</span>
-                        <span className="text-indigo-400">{distanceVal} km</span>
+                        <span className="text-gold-400">{distanceVal} km</span>
                       </div>
                       <input
                         type="range"
@@ -1316,7 +1316,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                         step={10}
                         value={distanceVal}
                         onChange={(e) => setDistanceVal(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set runner distance"
                       />
                     </div>
@@ -1375,7 +1375,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                         })
                       ))}
                     </svg>
-                    <span className="text-xs text-indigo-400 mt-2 font-mono">Side n = {patternN} → Total Squares = {patternN * patternN}</span>
+                    <span className="text-xs text-gold-400 mt-2 font-mono">Side n = {patternN} → Total Squares = {patternN * patternN}</span>
                   </div>
 
                   <div className="space-y-3">
@@ -1390,7 +1390,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                             audioManager.play('pop');
                           }}
                           className={`flex-1 py-2 rounded-xl text-xs font-bold ${
-                            patternN === num ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'
+                            patternN === num ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                           }`}
                         >
                           n = {num}
@@ -1403,7 +1403,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                       <div className="text-amber-300 font-mono">
                         {Array.from({ length: patternN }, (_, i) => 2 * (i + 1) - 1).join(' + ')} = <strong className="text-emerald-400">{patternN * patternN}</strong>
                       </div>
-                      <div className="text-indigo-300 pt-1 border-t border-slate-800">
+                      <div className="text-gold-300 pt-1 border-t border-slate-800">
                         General Rule: <strong>Sum of first n odd numbers = n²</strong>
                       </div>
                     </div>
@@ -1427,7 +1427,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     </svg>
 
                     <div className="mt-2 text-center text-sm font-bold text-slate-200">
-                      Equation: <span className="text-indigo-400">x + {scaleConstant} = {scaleBoxX + scaleConstant}</span>
+                      Equation: <span className="text-gold-400">x + {scaleConstant} = {scaleBoxX + scaleConstant}</span>
                     </div>
                   </div>
 
@@ -1446,7 +1446,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleBalanceAdjust(1)}
-                        className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg"
+                        className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg"
                       >
                         +1 Weight
                       </motion.button>
@@ -1472,7 +1472,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleShapeSelect(s.id)}
                         className={`p-3 rounded-xl flex flex-col items-center gap-1 w-20 ${
-                          selectedShape === s.id ? 'bg-indigo-600 text-white shadow-lg' : 'bg-slate-950 text-slate-300 border border-slate-800'
+                          selectedShape === s.id ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-950 text-slate-300 border border-slate-800'
                         }`}
                       >
                         <span className="text-2xl">{s.icon}</span>
@@ -1483,32 +1483,32 @@ function C6_MathematicsIdeaPercentFractionSim({
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 text-xs">
                     <div className="text-sm font-black text-white capitalize flex items-center gap-2">
-                      <span className="text-indigo-400">●</span>
+                      <span className="text-gold-400">●</span>
                       <span>{selectedShape} Properties</span>
                     </div>
                     {selectedShape === 'triangle' && (
                       <ul className="space-y-1 text-slate-300">
-                        <li>• <strong className="text-indigo-300">3 Straight Sides</strong> & <strong className="text-indigo-300">3 Corners (Vertices)</strong></li>
+                        <li>• <strong className="text-gold-300">3 Straight Sides</strong> & <strong className="text-gold-300">3 Corners (Vertices)</strong></li>
                         <li>• Real Models: Samosa, Yield Road Sign, Roof Truss</li>
                       </ul>
                     )}
                     {selectedShape === 'rectangle' && (
                       <ul className="space-y-1 text-slate-300">
-                        <li>• <strong className="text-indigo-300">4 Straight Sides</strong>, Opposite sides equal</li>
-                        <li>• <strong className="text-indigo-300">4 Right Angles (Corners)</strong></li>
+                        <li>• <strong className="text-gold-300">4 Straight Sides</strong>, Opposite sides equal</li>
+                        <li>• <strong className="text-gold-300">4 Right Angles (Corners)</strong></li>
                         <li>• Real Models: Textbook Cover, Blackboard, Door</li>
                       </ul>
                     )}
                     {selectedShape === 'square' && (
                       <ul className="space-y-1 text-slate-300">
-                        <li>• <strong className="text-indigo-300">4 Equal Straight Sides</strong> & <strong className="text-indigo-300">4 Right Angles</strong></li>
+                        <li>• <strong className="text-gold-300">4 Equal Straight Sides</strong> & <strong className="text-gold-300">4 Right Angles</strong></li>
                         <li>• Special case of a rectangle with all sides equal!</li>
                         <li>• Real Models: Floor Tiles, Square Wall Clock</li>
                       </ul>
                     )}
                     {selectedShape === 'circle' && (
                       <ul className="space-y-1 text-slate-300">
-                        <li>• <strong className="text-indigo-300">0 Straight Sides</strong> & <strong className="text-indigo-300">0 Corners</strong></li>
+                        <li>• <strong className="text-gold-300">0 Straight Sides</strong> & <strong className="text-gold-300">0 Corners</strong></li>
                         <li>• 1 continuous smooth curved boundary</li>
                         <li>• Real Models: One-Rupee Coin, Wheel, Dinner Plate</li>
                       </ul>
@@ -1523,7 +1523,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-xs font-bold text-slate-300">Adjust Train Speed:</span>
-                      <span className="text-sm font-black text-indigo-400">{converterKmh} km/h</span>
+                      <span className="text-sm font-black text-gold-400">{converterKmh} km/h</span>
                     </div>
                     <input
                       type="range"
@@ -1535,7 +1535,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                         setConverterKmh(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Set converter speed in km/h"
                     />
 
@@ -1544,8 +1544,8 @@ function C6_MathematicsIdeaPercentFractionSim({
                         <div className="text-[10px] text-slate-400 font-bold uppercase">Kilometres / Hour</div>
                         <div className="text-lg font-black text-white">{converterKmh} km/h</div>
                       </div>
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-700/50 text-center">
-                        <div className="text-[10px] text-indigo-400 font-bold uppercase">Metres / Second (× 5/18)</div>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-700/50 text-center">
+                        <div className="text-[10px] text-gold-400 font-bold uppercase">Metres / Second (× 5/18)</div>
                         <div className="text-lg font-black text-emerald-400">{((converterKmh * 5) / 18).toFixed(1)} m/s</div>
                       </div>
                     </div>
@@ -1576,7 +1576,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1597,7 +1597,7 @@ function C6_MathematicsIdeaPercentFractionSim({
       {/* ─── PHASE 3: SANDBOX (Free Play) ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/40 rounded-2xl border border-indigo-800/50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <h3 className="text-lg font-black text-white">Math Carnival Free Play Sandbox</h3>
               <p className="text-xs sm:text-sm text-slate-300">Play with algebraic values, evaluate polynomials in real-time, and observe balance changes without grading pressure.</p>
@@ -1615,7 +1615,7 @@ function C6_MathematicsIdeaPercentFractionSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Expression Evaluator Sandbox */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <div className="text-xs font-bold text-indigo-400 uppercase">Live Algebraic Evaluator</div>
+              <div className="text-xs font-bold text-gold-400 uppercase">Live Algebraic Evaluator</div>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Variable x: {exprVarX}</span>
@@ -1627,7 +1627,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                   max={10}
                   value={exprVarX}
                   onChange={(e) => setExprVarX(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                   aria-label="Set expression variable x"
                 />
                 <input
@@ -1670,11 +1670,11 @@ function C6_MathematicsIdeaPercentFractionSim({
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs text-slate-400 font-bold">
               <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-              <span className="text-indigo-400">Score: {scoreBreakdown.correct} / {scoreBreakdown.total}</span>
+              <span className="text-gold-400">Score: {scoreBreakdown.correct} / {scoreBreakdown.total}</span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1693,7 +1693,7 @@ function C6_MathematicsIdeaPercentFractionSim({
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
+              <span className="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 {challenge.competencyLevel.toUpperCase()}
               </span>
               <span className="text-[11px] font-mono text-slate-500">ID: {challenge.nodeId}</span>
@@ -1719,7 +1719,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                         : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700/60'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1738,7 +1738,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1769,7 +1769,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="w-full py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="w-full py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify All Placed Labels
                 </motion.button>
@@ -1796,7 +1796,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-600/40 text-indigo-300 flex items-center justify-center font-bold text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-600/40 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{challenge.sortItems![itemIdx]}</span>
@@ -1808,7 +1808,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i))}
-                  className="w-full py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="w-full py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Check Sequence
                 </motion.button>
@@ -1824,7 +1824,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value..."
-                    className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   {challenge.unit && <span className="text-xs font-bold text-slate-400">{challenge.unit}</span>}
                   <motion.button
@@ -1832,7 +1832,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     whileTap={{ scale: 0.95 }}
                     disabled={!numericInput}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl"
                   >
                     Submit
                   </motion.button>
@@ -1851,7 +1851,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700/60 hover:bg-indigo-600 text-white text-xs font-mono font-bold rounded-lg border border-indigo-500/30"
+                      className="px-3 py-1.5 bg-gold-700/60 hover:bg-gold-600 text-white text-xs font-mono font-bold rounded-lg border border-gold-500/30"
                     >
                       + {part}
                     </motion.button>
@@ -1860,7 +1860,7 @@ function C6_MathematicsIdeaPercentFractionSim({
 
                 <div className="min-h-[60px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-600 text-white rounded-lg text-xs font-mono font-bold flex items-center gap-1.5">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-600 text-white rounded-lg text-xs font-mono font-bold flex items-center gap-1.5">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -1942,7 +1942,7 @@ function C6_MathematicsIdeaPercentFractionSim({
       {/* ─── PHASE 5: COMPLETION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-3">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Mathematics Carnival Complete!</h2>
             <p className="text-sm text-slate-300">You engineered the fair with precision across all 10 ICSE Class 6 learning nodes.</p>
@@ -1954,7 +1954,7 @@ function C6_MathematicsIdeaPercentFractionSim({
               </div>
               <div className="px-5 py-3 bg-slate-900/80 rounded-2xl border border-slate-700">
                 <div className="text-[10px] text-slate-400 font-bold uppercase">Mastery State</div>
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -1971,8 +1971,8 @@ function C6_MathematicsIdeaPercentFractionSim({
           </div>
 
           {/* ─── REFLECTION QUESTIONS SECTION ─── */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/50 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/50 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span>
               <span>Reflect on Your Learning</span>
             </h3>
@@ -1987,7 +1987,7 @@ function C6_MathematicsIdeaPercentFractionSim({
                     <span className="text-xs font-bold text-slate-200">{q.prompt}</span>
                     <button
                       onClick={() => toggleReflectionHelp(q.id)}
-                      className="text-[11px] text-indigo-400 hover:text-indigo-300 font-medium underline"
+                      className="text-[11px] text-gold-400 hover:text-gold-300 font-medium underline"
                     >
                       {showReflectionHelp[q.id] ? 'Hide Example' : 'Show Example'}
                     </button>
@@ -1998,14 +1998,14 @@ function C6_MathematicsIdeaPercentFractionSim({
                     value={reflectionResponses[q.id] || ''}
                     onChange={(e) => handleReflectionChange(q.id, e.target.value)}
                     placeholder="Type your reflection here..."
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                   />
 
                   {showReflectionHelp[q.id] && (
                     <motion.div
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
-                      className="p-2.5 bg-indigo-950/40 rounded-lg border border-indigo-800/40 text-[11px] text-indigo-300 italic"
+                      className="p-2.5 bg-gold-950/40 rounded-lg border border-gold-800/40 text-[11px] text-gold-300 italic"
                     >
                       💡 Example thought: &quot;{q.sampleAnswer}&quot;
                     </motion.div>
@@ -2037,7 +2037,7 @@ function C6_MathematicsIdeaPercentFractionSim({
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span>
               <span>{REAL_WORLD_ACTIVITY.title}</span>
             </h3>
@@ -2045,7 +2045,7 @@ function C6_MathematicsIdeaPercentFractionSim({
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}
@@ -2053,7 +2053,7 @@ function C6_MathematicsIdeaPercentFractionSim({
           </div>
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 text-center text-xs text-slate-300">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 text-center text-xs text-slate-300">
             📅 Spaced Memory Review scheduled in <strong className="text-amber-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
           </div>
         </motion.div>

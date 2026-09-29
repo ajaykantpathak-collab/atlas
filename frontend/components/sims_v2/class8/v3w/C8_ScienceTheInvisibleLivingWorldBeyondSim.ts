@@ -11,7 +11,7 @@ export const w_c8_sciencetheinvisiblelivingworldbeyondsim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Discovery of the Microscopic World: Hooke and Leeuwenhoek',
     chapters: [],
     nodeIds: ['c8_bio_ch1_1', 'c8_bio_ch1_2', 'c8_bio_ch1_3', 'c8_bio_ch1_4', 'c8_bio_ch1_8', 'c8_bio_ch1_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'When you look at a drop of pond water from a local garden puddle, it looks clear or muddy to your naked eye,.', goal: 'Master Discovery of the Microscopic World: Hooke and Leeuwenhoek.' },
     discovery: {
         question: 'What specific plant material did Robert Hooke examine when he first observed and named "cells"?',
@@ -20,7 +20,7 @@ export const w_c8_sciencetheinvisiblelivingworldbeyondsim: SimDef = {
         hook: 'Students often think that Robert Hooke discovered living animal cells floating around when he looked at cork, or that.',
     },
     teaching: [
-        { title: 'The discovery of the microscopic world.', text: 'The discovery of the microscopic world refers to the historical breakthrough in the 17th century when scientists Robert Hooke and Antonie van Leeuwenhoek used newly invented magnifying instruments to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The discovery of the microscopic world.', text: 'The discovery of the microscopic world refers to the historical breakthrough in the 17th century when scientists Robert Hooke and Antonie van Leeuwenhoek used newly invented magnifying instruments to.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_bio_ch1_1', title: 'The discovery of the microscopic world.',

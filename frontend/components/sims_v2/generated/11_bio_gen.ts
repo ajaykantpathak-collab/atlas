@@ -64,7 +64,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Classification",
+    "title": "Classification Is The Scientific Process",
     "text": "Classification is the scientific process of grouping organisms into hierarchical categories (taxa) based on shared fundamental characteristics, enabling systematic study, universal nomenclature, and understanding of evolutionary relationships among the",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -167,7 +167,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "A good protocol includes: (1) field collection with GPS-tagged vouchers, (2) pressing in a standard plant press (45×30 cm) with daily newspaper changes",
      "Activity: \"The Mystery Vegetable.\" Teacher brings 5 vegetables (e.g., brinjal, ridge gourd, drumstick, colocasia, amaranth)"
     ],
-    "hint": "Straight from the 'Classification' slide -- match the key terms.",
+    "hint": "Straight from the 'Classification is the scientific' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Activity: \"The Mystery Vegetable.\" Teacher brings 5 vegetables (e.",
     "id": "gen_c11_bio_ch01_q4",
     "nodeId": "c11_bio_cbse_01_004",
@@ -593,7 +593,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Bacteria",
+    "title": "Bacteria Are Prokaryotic",
     "text": "Bacteria are prokaryotic, unicellular microorganisms lacking a true nucleus and membrane-bound organelles, characterised by a cell wall made of peptidoglycan, a nucleoid region containing circular DNA, plasmids, and reproduction primarily through binary",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -605,7 +605,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Lichens",
+    "title": "Lichens Are Obligate Symbiotic Associations",
     "text": "Lichens are obligate symbiotic associations between a fungal partner (mycobiont, typically Ascomycota) and a photosynthetic partner (phycobiont, green algae or cyanobacteria) where the mycobiont provides structural protection, water retention, and mineral",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -617,7 +617,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Prions",
+    "title": "Prions Are Infectious Proteinaceous",
     "text": "Prions are infectious proteinaceous particles devoid of nucleic acid that propagate by inducing misfolding of normal cellular prion protein (PrP^C) into the pathogenic isoform (PrP^Sc), causing transmissible spongiform encephalopathies.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -654,7 +654,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "SO₂ dissolves in the lichen's surface moisture forming sulfurous acid (H₂SO₃), which dissociates to H⁺ and bisulfite (HSO₃⁻)",
      "Cell wall (peptidoglycan) — provides structural support and shape, differs between Gram-positive (thick) and Gram-negative (thin)"
     ],
-    "hint": "Straight from the 'Bacteria' slide -- match the key terms.",
+    "hint": "Straight from the 'Bacteria are prokaryotic' slide -- match the key terms.",
     "misconception": "A wrong answer that labels the nucleoid as \"nucleus\" reveals the student has not distinguished prokaryotic from eukaryotic organisation.",
     "id": "gen_c11_bio_ch02_q2",
     "nodeId": "c11_bio_cbse_02_003",
@@ -696,7 +696,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The agent is a prion (PrP^Sc) causing bovine spongiform encephalopathy (BSE). Resistance to UV and nucleases confirms absence of nucleic acid",
      "SO₂ dissolves in the lichen's surface moisture forming sulfurous acid (H₂SO₃), which dissociates to H⁺ and bisulfite (HSO₃⁻)"
     ],
-    "hint": "Straight from the 'Lichens' slide -- match the key terms.",
+    "hint": "Straight from the 'Lichens are obligate symbiotic' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"SO₂ kills the fungus directly\" or \"lichens have stomata that close\" reveals misunderstanding of their unique poikilohydric physiology and the specific biochemical target (phycobiont photosynthesis).",
     "id": "gen_c11_bio_ch02_q4",
     "nodeId": "c11_bio_cbse_02_006",
@@ -888,7 +888,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Chemosynthetic autotrophs (e.g., *Nitrosomonas*, *Nitrobacter*, *Thiobacillus*) oxidize inorganic compounds (NH₄⁺ → NO₂⁻ → NO₃⁻",
      "Ectomycorrhiza: (a) fungal hyphae form a sheath (mantle) around root tip and grow between cortical cells (Hartig net) but do NOT penetrate cell walls"
     ],
-    "hint": "Straight from the 'Lichens' slide -- match the key terms.",
+    "hint": "Straight from the 'Lichens are obligate symbiotic' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Ectomycorrhiza: (a) fungal hyphae form a sheath (mantle) around root tip and grow between cortical cells (Hartig net)",
     "id": "gen_c11_bio_ch02_q10",
     "nodeId": "c11_bio_cbse_02_006",
@@ -918,7 +918,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Organism: *Nostoc* (cyanobacterium/blue-green alga). Nutritional group: photosynthetic autotrophic eubacteria",
      "The agent is a prion (PrP^Sc) causing bovine spongiform encephalopathy (BSE). Resistance to UV and nucleases confirms absence of nucleic acid"
     ],
-    "hint": "Straight from the 'Prions' slide -- match the key terms.",
+    "hint": "Straight from the 'Prions are infectious' slide -- match the key terms.",
     "misconception": "A wrong answer attributing the disease to a virus or suggesting normal autoclaving works reveals misunderstanding of prion's unique physicochemical stability and the implications for iatrogenic transmission.",
     "id": "gen_c11_bio_ch02_q12",
     "nodeId": "c11_bio_cbse_02_010",
@@ -933,7 +933,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Ectomycorrhiza: (a) fungal hyphae form a sheath (mantle) around root tip and grow between cortical cells (Hartig net) but do NOT penetrate cell walls",
      "In lichens, the mycobiont envelops the phycobiont cells within a dense hyphal mesh (medulla) with direct haustoria-like contact"
     ],
-    "hint": "Straight from the 'Prions' slide -- match the key terms.",
+    "hint": "Straight from the 'Prions are infectious' slide -- match the key terms.",
     "misconception": "A wrong answer treating both as \"fungus-algae/plant associations\" without distinguishing thallus-level vs organ-level integration misses the evolutionary significance of lichens as a distinct morphological entity.",
     "id": "gen_c11_bio_ch02_q13",
     "nodeId": "c11_bio_cbse_02_010",
@@ -948,7 +948,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "SO₂ dissolves in the lichen's surface moisture forming sulfurous acid (H₂SO₃), which dissociates to H⁺ and bisulfite (HSO₃⁻)",
      "Select 5-7 sites along a transect from city center (high traffic/industry) to rural area. At each site, use a 50 cm × 50 cm quadrat on 10 randomly chosen trees (same species"
     ],
-    "hint": "Straight from the 'Prions' slide -- match the key terms.",
+    "hint": "Straight from the 'Prions are infectious' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Select 5-7 sites along a transect from city center (high traffic/industry) to rural area.",
     "id": "gen_c11_bio_ch02_q14",
     "nodeId": "c11_bio_cbse_02_010",
@@ -963,7 +963,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Amoeba uses pseudopodia (false feet) for slow gliding and engulfing prey (phagocytosis), suited for benthic/moist soil environments where it creeps over surfaces",
      "Lichens lack a protective cuticle and absorb water and nutrients directly from the atmosphere over their entire thallus surface"
     ],
-    "hint": "Straight from the 'Prions' slide -- match the key terms.",
+    "hint": "Straight from the 'Prions are infectious' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"lichens die in pollution\" without explaining the physiological mechanism (direct absorption, no cuticle, photosynthetic inhibition) shows superficial memorization without understanding lichen anatomy-physiology linkage.",
     "id": "gen_c11_bio_ch02_q15",
     "nodeId": "c11_bio_cbse_02_010",
@@ -1026,7 +1026,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Algae",
+    "title": "Algae Are Chlorophyll-bearing",
     "text": "Algae are chlorophyll-bearing, simple, thalloid, autotrophic, and largely aquatic (freshwater and marine) organisms that lack true roots, stems, and leaves, and reproduce by vegetative (fragmentation), asexual (motile zoospores), and sexual (isogamy,",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1038,25 +1038,25 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Bryophytes",
+    "title": "Bryophytes Are Non-vascular",
     "text": "Bryophytes are non-vascular, terrestrial embryophytes in which the dominant, independent phase of the life cycle is the haploid gametophyte (either thalloid or leafy), which lacks true roots, stems, and leaves but possesses multicellular sex organs",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Pteridophytes",
+    "title": "Pteridophytes Are Vascular",
     "text": "Pteridophytes are vascular, seedless plants in which the dominant, independent plant body is a diploid sporophyte differentiated into true roots, stems, and leaves (microphylls or macrophylls), bearing sporangia on sporophylls that produce haploid spores via",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Gymnosperms",
+    "title": "Gymnosperms Are Vascular",
     "text": "Gymnosperms are vascular, seed-bearing plants in which the ovules are borne exposed on the surface of megasporophylls (not enclosed within an ovary), resulting in naked seeds after fertilisation; they are heterosporous, producing distinct microspores and",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Angiosperms",
+    "title": "Angiosperms Are Flowering Plants",
     "text": "Angiosperms are flowering plants characterized by the presence of ovules enclosed within an ovary (part of the pistil), which develops into a fruit after fertilization, thereby protecting the seeds; they possess specialized reproductive structures called",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1081,7 +1081,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "answer": "Cryptogamae are non-seed-bearing, non-flowering plants (algae, bryophytes, pteridophytes) that reproduce by spores",
     "options": [
      "The two classes are Dicotyledonae (dicots) and Monocotyledonae (monocots). The fundamental seed difference: dicot seeds have two cotyledons (e",
-     "Bryophytes are called amphibians of the plant kingdom because they live in soil (terrestrial habitat) but require an external film of water for sexual reproduction",
+     "The student can classify any given plant example into Cryptogamae or Phanerogamae and further into their respective subgroups (algae, bryophytes, pteridophytes, gymnosperms",
      "Cryptogamae are non-seed-bearing, non-flowering plants (algae, bryophytes, pteridophytes) that reproduce by spores"
     ],
     "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
@@ -1456,8 +1456,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the type of life cycle exhibited by *Volvox* and state the ploidy of its dominant vegetative colony. At what stage does meiosis occur in this cycle?",
     "answer": "*Volvox* exhibits a haplontic life cycle. Its dominant vegetative colony is haploid (n). Meiosis occurs in the zygote (zygotic meiosis) immediately after fertilization",
     "options": [
-     "Bryophytes are called amphibians of the plant kingdom because they live in soil (terrestrial habitat) but require an external film of water for sexual reproduction",
-     "The prothallus is haploid (n) and photosynthetic (autotrophic)",
+     "The student can classify any given plant example into Cryptogamae or Phanerogamae and further into their respective subgroups (algae, bryophytes, pteridophytes, gymnosperms",
+     "A thalloid plant body is an undifferentiated, flat or filamentous structure that is not organized into true roots, stems, and leaves",
      "*Volvox* exhibits a haplontic life cycle. Its dominant vegetative colony is haploid (n). Meiosis occurs in the zygote (zygotic meiosis) immediately after fertilization"
     ],
     "hint": "Straight from the 'Plant life cycles' slide -- match the key terms.",
@@ -1477,8 +1477,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the specific hydrocolloid obtained from brown algae and the specific hydrocolloid obtained from red algae, and state one commercial use for each.",
     "answer": "Algin is obtained from brown algae (Phaeophyceae) and is used as a thickener/emulsifier in ice creams and dental impressions",
     "options": [
-     "The prothallus is haploid (n) and photosynthetic (autotrophic)",
-     "Gymnosperms produce haploid microspores in microsporangia (on microsporophylls in male cones) and haploid megaspores in megasporangia (ovules on megasporophylls in female cones)",
+     "Students believe \"double fertilization means two sperm fertilize one egg\" — they confuse the two male gametes' targets",
+     "The student can correctly classify any given plant group (algae, bryophyte, pteridophyte, gymnosperm, angiosperm) into haplontic, diplontic, or haplodiplontic categories",
      "Algin is obtained from brown algae (Phaeophyceae) and is used as a thickener/emulsifier in ice creams and dental impressions"
     ],
     "hint": "Straight from the 'Economic importance of algae and' slide -- match the key terms.",
@@ -1494,6 +1494,98 @@ export const C11_BIO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Distinguish liverworts and mosses based",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Explain why bryophytes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Trace the complete haplo-diplontic life",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Distinguish liverworts and mosses based on gametophyte morphology, rhizoid type, and sporophyte",
+    "id": "gen_c11_bio_ch03_q10",
+    "nodeId": "c11_bio_cbse_03_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the complete life cycle of a fern",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish homosporous from heterosporous",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain why heterospory in Selaginella",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) distinguish homosporous from heterosporous pteridophytes by identifying spore types and",
+    "id": "gen_c11_bio_ch03_q11",
+    "nodeId": "c11_bio_cbse_03_005",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A student claims: \"All plants with vascular tissue belong to Phanerogamae because they have well-developed conducting tissues.\" Explain why this statement is incorrect using specific plant group examples.",
     "answer": "The statement is incorrect because pteridophytes (ferns, Selaginella) possess well-differentiated xylem and phloem but are Cryptogamae – they reproduce by spores, not seeds",
@@ -1504,7 +1596,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student assumes a linear progression where all \"advanced\" traits appear together, not understanding that vascular tissue and seed habit evolved at different evolutionary nodes.",
-    "id": "gen_c11_bio_ch03_q10",
+    "id": "gen_c11_bio_ch03_q12",
     "nodeId": "c11_bio_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1519,7 +1611,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"bryophytes have dominant sporophyte\") reveals confusion between the visible green plant body (gametophyte in bryophytes) and the reproductive phase.",
-    "id": "gen_c11_bio_ch03_q11",
+    "id": "gen_c11_bio_ch03_q13",
     "nodeId": "c11_bio_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1534,7 +1626,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 1a. Seeds present → go to 2; 1b. Seeds absent → go to 3. 2a. Seeds enclosed in ovary/fruit → Angiosperms; 2b.",
-    "id": "gen_c11_bio_ch03_q12",
+    "id": "gen_c11_bio_ch03_q14",
     "nodeId": "c11_bio_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1549,7 +1641,22 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"yes it's artificial because one character\") shows the student doesn't understand that a single character can be a synapomorphy defining a natural group if it represents a deep evolutionary split.",
-    "id": "gen_c11_bio_ch03_q13",
+    "id": "gen_c11_bio_ch03_q15",
+    "nodeId": "c11_bio_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can classify any given plant example into Cryptogamae or Phanerogamae and further into their respective subgroups (algae, bryophytes, pteridophytes, gymnosperms",
+    "options": [
+     "Students believe \"brown algae are brown because they lack chlorophyll\" and \"red algae are red because they lack chlorophyll",
+     "Student can construct a comparative table from memory differentiating the three classes across all six NCERT criteria (pigments, stored food, cell wall, flagella, habitat",
+     "The student can classify any given plant example into Cryptogamae or Phanerogamae and further into their respective subgroups (algae, bryophytes, pteridophytes, gymnosperms"
+    ],
+    "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can classify any given plant example into Cryptogamae or Phanerogamae and further into their respective",
+    "id": "gen_c11_bio_ch03_q16",
     "nodeId": "c11_bio_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1564,7 +1671,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Cryptogamae and Phanerogamae' slide -- match the key terms.",
     "misconception": "A wrong classification (e.g., placing Pinus in Cryptogamae because \"cones aren't fruits\") shows the student conflates \"fruit\" with \"seed\" – gymnosperms have seeds but not fruits.",
-    "id": "gen_c11_bio_ch03_q14",
+    "id": "gen_c11_bio_ch03_q17",
     "nodeId": "c11_bio_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1577,53 +1684,8 @@ export const C11_BIO_GEN: SimDef[] = [
      "The statement is incorrect because pteridophytes (ferns, Selaginella) possess well-differentiated xylem and phloem but are Cryptogamae – they reproduce by spores, not seeds",
      "The argument is flawed. Land plants evolved from charophyte green algae (Chlorophyceae), specifically the group Charophyta (e"
     ],
-    "hint": "Straight from the 'Algae' slide -- match the key terms.",
+    "hint": "Straight from the 'Algae are chlorophyll-bearing' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals misunderstanding of \"loss of trait\" vs \"primitive absence\" and confusion between convergent loss and shared ancestry.",
-    "id": "gen_c11_bio_ch03_q15",
-    "nodeId": "c11_bio_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student claims: \"All algae are aquatic because they need water for swimming sperm.\" Using the concepts of isogamy, anisogamy, and oogamy, evaluate this statement and identify which group of algae contradicts it.",
-    "answer": "The statement is partially correct but overgeneralized. Water is required for flagellated male gametes (antherozoids) in bryophytes and pteridophytes, but in algae",
-    "options": [
-     "The argument is flawed. Land plants evolved from charophyte green algae (Chlorophyceae), specifically the group Charophyta (e",
-     "The statement is incorrect because pteridophytes (ferns, Selaginella) possess well-differentiated xylem and phloem but are Cryptogamae – they reproduce by spores, not seeds",
-     "The statement is partially correct but overgeneralized. Water is required for flagellated male gametes (antherozoids) in bryophytes and pteridophytes, but in algae"
-    ],
-    "hint": "Straight from the 'Algae' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates failure to distinguish between flagellated and non-flagellated male gametes across algal classes.",
-    "id": "gen_c11_bio_ch03_q16",
-    "nodeId": "c11_bio_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "An unknown alga is collected from a marine habitat. It has chlorophyll a and c, stores mannitol and laminarin, has a cellulosic wall with algin coating, and produces biflagellate zoospores with unequal lateral flagella. Classify it into the correct class and justify each diagnostic feature.",
-    "answer": "The alga belongs to Phaeophyceae (brown algae). Step 1: Habitat — marine (matches Phaeophyceae: primarily marine)",
-    "options": [
-     "Phaeophyceae. Justification: (1) Cell wall of cellulose covered by algin (gelatinous coating) is characteristic of brown algae",
-     "Biorefinery Design: 1. From *Sargassum* (brown alga): Extract alginate (cell wall) → biomedical hydrogels/wound dressings",
-     "The alga belongs to Phaeophyceae (brown algae). Step 1: Habitat — marine (matches Phaeophyceae: primarily marine)"
-    ],
-    "hint": "Straight from the 'Algae' slide -- match the key terms.",
-    "misconception": "A wrong classification (e.g., Chlorophyceae) reveals inability to use the multi-character diagnostic key in Table 3.1 and over-reliance on a single trait like \"marine habitat\".",
-    "id": "gen_c11_bio_ch03_q17",
-    "nodeId": "c11_bio_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the evolutionary progression of sexual reproduction in algae from isogamy to oogamy. Explain how this progression relates to the division of labour between gametes and the protection of the zygote.",
-    "answer": "Isogamy (Ulothrix, Spirogyra): morphologically identical, flagellated gametes; no division of labour; both gametes motile and vulnerable",
-    "options": [
-     "In ferns, meiosis occurs in sporangia on the diploid sporophyte, producing haploid spores. In mosses",
-     "In both, the megaspore mother cell undergoes meiosis to produce four megaspores. In gymnosperms",
-     "Isogamy (Ulothrix, Spirogyra): morphologically identical, flagellated gametes; no division of labour; both gametes motile and vulnerable"
-    ],
-    "hint": "Straight from the 'Algae' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"oogamy evolved for faster swimming\") misses the core concept of gamete specialization and zygote protection, confusing it with sperm competition.",
     "id": "gen_c11_bio_ch03_q18",
     "nodeId": "c11_bio_cbse_03_002",
     "difficulty": "standard"
@@ -1750,7 +1812,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "(a) Place Planaria in Petri dish half-covered with black paper; shine light on illuminated half — observe negative phototaxis (move to dark)",
      "It belongs to Hydrozoa and illustrates polymorphism (division of labour among zooids)"
     ],
-    "hint": "Straight from the 'Phylum Cnidaria  includes' slide -- match the key terms.",
+    "hint": "Straight from the 'Phylum Cnidaria includes' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Scyphozoa\" or \"metagenesis\" shows confusion: Scyphozoa are predominantly medusoid with reduced polyp stage, and metagenesis refers to alternation of generations, not simultaneous functional specialisation within a colony.",
     "id": "gen_c11_bio_ch04_q2",
     "nodeId": "c11_bio_cbse_04_004",
@@ -1991,7 +2053,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Sycon (marine): calcareous spicules — rigid support. Euspongia (marine bath sponge): only spongin fibres — soft, elastic, used commercially",
      "Hydrozoa: thin, acellular mesoglea (polyp-dominant); Scyphozoa: thick, cellular mesoglea with amoebocytes (medusa-dominant, provides buoyancy)"
     ],
-    "hint": "Straight from the 'Phylum Cnidaria  includes' slide -- match the key terms.",
+    "hint": "Straight from the 'Phylum Cnidaria includes' slide -- match the key terms.",
     "misconception": "A student who describes all mesoglea as \"acellular jelly\" fails to link mesoglea cellularity to mechanical demands of the dominant life form — a key evolutionary adaptation.",
     "id": "gen_c11_bio_ch04_q8",
     "nodeId": "c11_bio_cbse_04_004",
@@ -2006,7 +2068,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Cyclostomata lack jaws (agnatha), have a cartilaginous cranium and vertebral column, possess 6-15 pairs of gill slits without operculum, lack paired fins and scales",
      "The claim is false. In Obelia, both polyp (asexual) and medusa (sexual) are diploid; meiosis occurs only during gamete formation in medusae (gametic meiosis)"
     ],
-    "hint": "Straight from the 'Phylum Cnidaria  includes' slide -- match the key terms.",
+    "hint": "Straight from the 'Phylum Cnidaria includes' slide -- match the key terms.",
     "misconception": "A student who agrees conflates life cycle patterns — a critical error in understanding animal vs. plant reproductive strategies.",
     "id": "gen_c11_bio_ch04_q9",
     "nodeId": "c11_bio_cbse_04_004",
@@ -2154,20 +2216,20 @@ export const C11_BIO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Phylum Porifera Consists Of mastered! 🎯",
+  "successLine": "Phylum Porifera Consists mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_bio_ch05",
-  "title": "Root",
+  "title": "Root Is The Non-green",
   "subtitle": "Biology · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Root",
+  "topic": "Root Is The Non-green",
   "chapters": [
-   "Biology Ch5: Root"
+   "Biology Ch5: Root Is The Non-green"
   ],
   "nodeIds": [
    "c11_bio_cbse_05_001",
@@ -2188,7 +2250,7 @@ export const C11_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Root suddenly stops working?",
+   "question": "What happens if Root Is The Non-green suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -2199,49 +2261,49 @@ export const C11_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Root",
+    "title": "Root Is The Non-green",
     "text": "The root is the non-green, descending, cylindrical axis of a flowering plant that develops from the radicle of the embryo, lacks nodes and internodes, bears unicellular root hairs for absorption, and is positively geotropic and hydrotropic in nature.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Stem",
+    "title": "The Stem Is The Ascending Aerial",
     "text": "The stem is the ascending aerial axis of a flowering plant that develops from the plumule, bearing nodes (points of leaf attachment) and internodes (segments between nodes), and carries buds (terminal and axillary), leaves, flowers, and fruits; its primary",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Leaf",
+    "title": "Leaf Is a Lateral",
     "text": "A leaf is a lateral, dorsiventrally flattened appendage of the stem borne at a node, possessing a bud in its axil, and serving as the primary photosynthetic organ of vascular plants; its structure comprises leaf base, petiole, and lamina with characteristic",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Inflorescence",
+    "title": "Inflorescence Is The Mode Of Development",
     "text": "Inflorescence is the mode of development and arrangement of flowers on the floral axis; it is classified into two principal types based on whether the shoot apical meristem converts into a flower (cymose, determinate) or continues vegetative growth (racemose,",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Flower",
+    "title": "Flower: Structure and Parts",
     "text": "A flower is the reproductive unit of angiosperms, defined as a modified shoot with limited growth where the shoot apical meristem transforms into a floral meristem, bearing four successive whorls—calyx (sepals), corolla (petals), androecium (stamens), and",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Androecium",
+    "title": "Androecium Is The Male Reproductive Whorl",
     "text": "Androecium is the male reproductive whorl of a flower composed of stamens, each consisting of a filament and a bilobed anther containing pollen sacs where microsporogenesis produces pollen grains.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Fruit",
+    "title": "Fruit Is The Mature",
     "text": "A fruit is the mature, ripened ovary of a flowering plant that develops after fertilization (or without fertilization in parthenocarpy), consisting of a pericarp (fruit wall) derived from the ovary wall and seeds derived from ovules.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Seed",
+    "title": "Seed Is a Mature",
     "text": "A seed is a mature, fertilized ovule consisting of a protective seed coat (testa and tegmen in dicots; fused seed coat and fruit wall in monocots), an embryo with an embryonal axis (radicle and plumule), and one or two cotyledons that store or absorb reserve",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2265,11 +2327,11 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the four regions of a root tip in correct acropetal order and state the one unique cellular feature that distinguishes the region of maturation from the region of elongation.",
     "answer": "Root cap → Region of meristematic activity → Region of elongation → Region of maturation. The region of maturation is distinguished by the presence of unicellular root hairs on",
     "options": [
-     "Inflorescence is the arrangement of flowers on the floral axis. The two major types are racemose (apical meristem remains vegetative",
-     "A staminode is a sterile stamen that does not produce functional pollen grains; it may be reduced or modified",
+     "The correct sequence is: Habit → Vegetative characters (Root, Stem, Leaf) → Floral characters (Inflorescence, Flower: Calyx, Corolla, Androecium",
+     "Student can: (1) distinguish racemose from cymose inflorescence by explaining the fate of the apical meristem and the resulting flower maturation sequence",
      "Root cap → Region of meristematic activity → Region of elongation → Region of maturation. The region of maturation is distinguished by the presence of unicellular root hairs on"
     ],
-    "hint": "Straight from the 'root' slide -- match the key terms.",
+    "hint": "Straight from the 'root is the non-green' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., swapping elongation and maturation, or citing \"vacuole size\" instead of root hairs) reveals the student has memorised the sequence without linking structure to absorptive function.",
     "id": "gen_c11_bio_ch05_q1",
     "nodeId": "c11_bio_cbse_05_001",
@@ -2412,11 +2474,11 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Define inflorescence and state the two major types based on the behaviour of the apical meristem.",
     "answer": "Inflorescence is the arrangement of flowers on the floral axis. The two major types are racemose (apical meristem remains vegetative",
     "options": [
-     "The two layers are the outer testa (from outer integument) and inner tegmen (from inner integument)",
-     "The correct sequence is: Habit → Vegetative characters (Root, Stem, Leaf) → Floral characters (Inflorescence, Flower: Calyx, Corolla, Androecium",
+     "Inflorescence is the mode of development and arrangement of flowers on the floral axis; it is classified into two principal types based on whether the shoot apical meristem",
+     "Student can: (1) distinguish racemose from cymose inflorescence by explaining the fate of the apical meristem and the resulting flower maturation sequence",
      "Inflorescence is the arrangement of flowers on the floral axis. The two major types are racemose (apical meristem remains vegetative"
     ],
-    "hint": "Straight from the 'Inflorescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Inflorescence is the mode of' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the meristem behaviour (e.g., saying racemose terminates in a flower) reveals confusion between determinate and indeterminate growth patterns.",
     "id": "gen_c11_bio_ch05_q4",
     "nodeId": "c11_bio_cbse_05_004",
@@ -2777,6 +2839,98 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "predict the adaptive advantage of a specific",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify a given stem modification",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish stem from root using",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) distinguish stem from root using at least three morphological criteria (nodes/internodes, buds,",
+    "id": "gen_c11_bio_ch05_q11",
+    "nodeId": "c11_bio_cbse_05_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain how specific",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Classify any given leaf as reticulate",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Identify and label all parts of a typical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Identify and label all parts of a typical leaf (leaf base, stipules, petiole, lamina, midrib,",
+    "id": "gen_c11_bio_ch05_q12",
+    "nodeId": "c11_bio_cbse_05_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "You are given a flower with the following description: \"Five sepals united at base, five petals free, stamens numerous and free, ovary superior with many ovules on a central column, no septa.",
     "sortItems": [
      {
@@ -2817,9 +2971,55 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., axile placentation) reveals confusion between central column with septa (axile) vs. without septa (free central)—a classic Class 11 error.",
-    "id": "gen_c11_bio_ch05_q11",
+    "id": "gen_c11_bio_ch05_q13",
     "nodeId": "c11_bio_cbse_05_005",
     "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how epipetalous vs epiphyllous",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify placentation types",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "differentiate between monadelphous",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) differentiate between monadelphous, diadelphous, and polyadelphous stamen cohesion with examples; (2)",
+    "id": "gen_c11_bio_ch05_q14",
+    "nodeId": "c11_bio_cbse_05_006",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -2830,9 +3030,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "The claim is incorrect. Homology refers to common evolutionary origin (same ancestral structure), not common function",
      "In monocots like maize, the primary root from the radicle is short-lived; it is replaced by a cluster of adventitious roots arising from the lower stem nodes"
     ],
-    "hint": "Straight from the 'root' slide -- match the key terms.",
+    "hint": "Straight from the 'root is the non-green' slide -- match the key terms.",
     "misconception": "If the student cannot distinguish radicle-derived vs. stem-derived roots, they lack the ontogenetic criterion for root classification.",
-    "id": "gen_c11_bio_ch05_q12",
+    "id": "gen_c11_bio_ch05_q15",
     "nodeId": "c11_bio_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2845,9 +3045,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "(a) Lotus: many free carpels; Mustard: two fused carpels. (b) Lotus: aggregate fruit (etaerio of achenes); Mustard: siliqua (dehiscent capsule from syncarpous ovary)",
      "All three are modified primary tap roots (not adventitious). Carrot = conical (broad base, tapering apex); Radish = fusiform (spindle-shaped, swollen in middle)"
     ],
-    "hint": "Straight from the 'root' slide -- match the key terms.",
+    "hint": "Straight from the 'root is the non-green' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: All three are modified primary tap roots (not adventitious). Carrot = conical (broad base, tapering apex); Radish =",
-    "id": "gen_c11_bio_ch05_q13",
+    "id": "gen_c11_bio_ch05_q16",
     "nodeId": "c11_bio_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2860,9 +3060,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "This is a stolon (a subaerial stem modification). The horizontal stem (stolon) grows aerially for a distance, then arches down to touch soil",
      "Use two sets of mustard seedlings in identical soil. Control: intact roots. Treatment: gently abrade root-hair zone with fine sandpaper (or use a root-hairless mutant if"
     ],
-    "hint": "Straight from the 'root' slide -- match the key terms.",
+    "hint": "Straight from the 'root is the non-green' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Use two sets of mustard seedlings in identical soil. Control: intact roots.",
-    "id": "gen_c11_bio_ch05_q14",
+    "id": "gen_c11_bio_ch05_q17",
     "nodeId": "c11_bio_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2875,65 +3075,20 @@ export const C11_BIO_GEN: SimDef[] = [
      "The statement is false. Hypogynous means gynoecium occupies highest position (superior ovary) but androecium adhesion is independent: mustard (hypogynous) has polyandrous stamens",
      "The claim is false. Adventitious roots modify for storage in: (1) Sweet potato (Ipomoea batatas) — tuberous adventitious roots, swollen singly without definite shape"
     ],
-    "hint": "Straight from the 'root' slide -- match the key terms.",
+    "hint": "Straight from the 'root is the non-green' slide -- match the key terms.",
     "misconception": "A student who cannot cite non-support adventitious modifications has over-generalised from banyan/maize examples.",
-    "id": "gen_c11_bio_ch05_q15",
-    "nodeId": "c11_bio_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You observe a plant growing in waterlogged mangrove mud with pencil-like roots sticking vertically out of the soil. Identify the root modification, name the tissue enabling its function, and predict what happens to the plant if these roots are experimentally removed.",
-    "answer": "Pneumatophores (respiratory roots) of Avicennia/Sonneratia. They contain aerenchyma — parenchyma with large air spaces — for oxygen diffusion to submerged roots",
-    "options": [
-     "⊕ ⚥ K5 C5 A4+2 G(2) A wrong answer like \"K5 C5 A6 G2\" reveals the student does not understand: (1) cohesion notation for tetradynamous stamens (A4+2)",
-     "The claim is partially correct but imprecise. Both are indeed modified vegetative buds (axillary buds) that function in vegetative propagation — so they are analogous in function",
-     "Pneumatophores (respiratory roots) of Avicennia/Sonneratia. They contain aerenchyma — parenchyma with large air spaces — for oxygen diffusion to submerged roots"
-    ],
-    "hint": "Straight from the 'root' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Pneumatophores (respiratory roots) of Avicennia/Sonneratia. They contain aerenchyma — parenchyma with large air spaces",
-    "id": "gen_c11_bio_ch05_q16",
-    "nodeId": "c11_bio_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A botanist claims: \"Bulbils in *Agave* and *Dioscorea* are homologous structures because both are modified vegetative buds that detach and grow into new plants.\" Evaluate this claim.",
-    "answer": "The claim is partially correct but imprecise. Both are indeed modified vegetative buds (axillary buds) that function in vegetative propagation — so they are analogous in function",
-    "options": [
-     "Select a plant with dichasial cyme (e.g., Dianthus) and one with scorpioid cyme (e.g., Heliotropium)",
-     "The claim is incorrect. Homology refers to common evolutionary origin (same ancestral structure), not common function",
-     "The claim is partially correct but imprecise. Both are indeed modified vegetative buds (axillary buds) that function in vegetative propagation — so they are analogous in function"
-    ],
-    "hint": "Straight from the 'stem' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls them fully homologous reveals a misunderstanding of homology (common ancestry/origin) vs. analogy (common function).",
-    "id": "gen_c11_bio_ch05_q17",
-    "nodeId": "c11_bio_cbse_05_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A plant in your school garden has weak, long stems that run horizontally on the soil surface. At every second node, it produces a tuft of roots downward and a rosette of leaves upward.",
-    "answer": "This is a stolon (a subaerial stem modification). The horizontal stem (stolon) grows aerially for a distance, then arches down to touch soil",
-    "options": [
-     "In monocots like maize, the primary root from the radicle is short-lived; it is replaced by a cluster of adventitious roots arising from the lower stem nodes",
-     "A robust protocol checks: (1) Axillary bud presence: At the base of each \"leaf-like unit\" — neem leaflets lack buds; mulberry simple leaves each have a bud in the axil",
-     "This is a stolon (a subaerial stem modification). The horizontal stem (stolon) grows aerially for a distance, then arches down to touch soil"
-    ],
-    "hint": "Straight from the 'stem' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"runner\" or \"offset\") reveals confusion between subaerial types: runners have longer internodes and form roots at every node (e.g., *Oxalis*), while stolons (e.g., *Mentha*, *Jasmine*) root at alternate nodes; offsets are short, thick, and found in aquatic plants (e.g., *Eichhornia*).",
     "id": "gen_c11_bio_ch05_q18",
-    "nodeId": "c11_bio_cbse_05_002",
+    "nodeId": "c11_bio_cbse_05_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about root?",
+    "What surprised you about root is the non-green?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Root mastered! 🎯",
+  "successLine": "Root Is The Non-green mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3396,16 +3551,47 @@ export const C11_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define \"fascicular cambium\" and \"interfascicular cambium\" and state their precise locations in a young dicot stem before the vascular cambium ring forms.",
-    "answer": "Fascicular cambium (intrafascicular cambium) is the strip of primary meristematic cells located between the primary xylem and primary phloem within each vascular bundle",
-    "options": [
-     "Vascular cambium produces secondary xylem (wood/timber) and secondary phloem (bast fibers, resins); cork cambium (phellogen) produces phellem (cork)",
-     "The three types are apical meristem (at root and shoot tips), lateral meristem (along the sides of stems and roots, e",
-     "Fascicular cambium (intrafascicular cambium) is the strip of primary meristematic cells located between the primary xylem and primary phloem within each vascular bundle"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "sequence the events of vascular cambium",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the bidirectional derivatives",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish the fate of primary tissues",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Secondary growth in dicot stem' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: If a student places interfascicular cambium \"inside the xylem\" or \"outside the phloem\", they confuse medullary rays with pith or cortex.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) sequence the events of vascular cambium formation from fascicular and interfascicular cambium into",
     "id": "gen_c11_bio_ch06_q7",
     "nodeId": "c11_bio_cbse_06_007",
     "difficulty": "advanced",
@@ -3492,8 +3678,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the two lateral meristems responsible for secondary growth in dicot stems and state the main commercial product derived from each.",
     "answer": "Vascular cambium produces secondary xylem (wood/timber) and secondary phloem (bast fibers, resins); cork cambium (phellogen) produces phellem (cork)",
     "options": [
-     "Parenchyma: thin primary wall (cellulose, hemicellulose, pectin), living at maturity. Collenchyma: unevenly thickened primary wall (extra cellulose/pectin at corners)",
-     "The four components are tracheids, vessels, xylem parenchyma, and xylem fibres. In angiosperms, vessels are the principal water-conducting elements",
+     "Student can identify anomalous secondary growth in transverse section diagrams of *Bignonia*, *Boerhaavia*, and *Dracaena*, explain the specific cambial anomaly in each case",
+     "The student can correctly label and annotate transverse sections of both dicot (e.g., sunflower) and monocot (e",
      "Vascular cambium produces secondary xylem (wood/timber) and secondary phloem (bast fibers, resins); cork cambium (phellogen) produces phellem (cork)"
     ],
     "hint": "Straight from the 'Commercial importance of' slide -- match the key terms.",
@@ -3665,8 +3851,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the three types of meristematic tissues classified on the basis of their location in the plant body.",
     "answer": "The three types are apical meristem (at root and shoot tips), lateral meristem (along the sides of stems and roots, e",
     "options": [
-     "The innermost layer of the cortex is the endodermis. Its radial and tangential walls have deposits of suberin, a waxy, water-impermeable substance, forming Casparian strips",
-     "An open vascular bundle is one in which cambium is present between xylem and phloem, allowing the formation of secondary xylem and secondary phloem",
+     "Parenchyma: thin primary wall (cellulose, hemicellulose, pectin), living at maturity. Collenchyma: unevenly thickened primary wall (extra cellulose/pectin at corners)",
+     "The student can classify any given plant tissue as meristematic or permanent, name the three types of meristematic tissues based on location (apical, lateral, intercalary)",
      "The three types are apical meristem (at root and shoot tips), lateral meristem (along the sides of stems and roots, e"
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
@@ -3677,15 +3863,15 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do meristematic cells typically have dense cytoplasm, a prominent nucleus, thin cellulosic walls, and lack large vacuoles?",
-    "answer": "These features support rapid cell division: dense cytoplasm and a large nucleus provide the metabolic machinery and genetic material for mitosis",
+    "question": "What common mix-up does this lesson flag about Plant tissues?",
+    "answer": "Students believe that meristematic tissue exists only at the root and shoot tips (apical meristem) and are unaware of lateral meristem (vascular cambium",
     "options": [
-     "In dorsiventral leaves, the upper surface receives more direct sunlight; vertically elongated palisade cells maximize light absorption per unit area",
-     "False. While sclerenchyma (fibres and sclereids) are dead at maturity and provide mechanical support, parenchyma remains living, thin-walled, and performs photosynthesis, storage",
-     "These features support rapid cell division: dense cytoplasm and a large nucleus provide the metabolic machinery and genetic material for mitosis"
+     "Complex tissues are heterogeneous tissues composed of more than one type of cell that coordinate to perform a common function",
+     "The student can classify any given plant tissue as meristematic or permanent, name the three types of meristematic tissues based on location (apical, lateral, intercalary)",
+     "Students believe that meristematic tissue exists only at the root and shoot tips (apical meristem) and are unaware of lateral meristem (vascular cambium"
     ],
     "hint": "Straight from the 'Plant tissues' slide -- match the key terms.",
-    "misconception": "A wrong answer citing \"storage of food\" or \"mechanical support\" indicates the student is attributing permanent tissue functions to meristematic cells.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe that meristematic tissue exists only at the root and shoot tips (apical meristem) and are unaware of",
     "id": "gen_c11_bio_ch06_q18",
     "nodeId": "c11_bio_cbse_06_001",
     "difficulty": "standard"
@@ -4030,8 +4216,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "List the components of the frog's alimentary canal in correct sequential order from mouth to cloaca.",
     "answer": "Correct sequence: Mouth → Buccal cavity → Pharynx → Oesophagus → Stomach → Intestine (duodenum + ileum) → Rectum → Cloaca → Cloacal aperture",
     "options": [
-     "The three divisions are: (1) Forebrain – contains olfactory lobes, paired cerebral hemispheres, and unpaired diencephalon; (2) Midbrain – characterised by a pair of optic lobes",
-     "The common Indian frog is Rana tigrina. Its protective coloration for camouflage is called mimicry",
+     "The student must be able to: (1) accurately trace the complete path of a blood cell through the frog's heart, portal systems, and respiratory surfaces in a labelled diagram",
+     "Student can draw and label a multipolar neuron showing all structural components (dendrites, cell body, axon, myelin sheath, nodes of Ranvier, synaptic terminals)",
      "Correct sequence: Mouth → Buccal cavity → Pharynx → Oesophagus → Stomach → Intestine (duodenum + ileum) → Rectum → Cloaca → Cloacal aperture"
     ],
     "hint": "Straight from the 'frog digestive system' slide -- match the key terms.",
@@ -4047,16 +4233,47 @@ export const C11_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A student observes a frog at rest on land and notes rhythmic movements of the floor of the buccal cavity. The student correctly identifies this as buccal respiration. What is the immediate fate of the air drawn into the buccal cavity during the first stroke of buccal pumping in a frog at rest on land?",
-    "answer": "The air drawn into the buccal cavity during the first stroke (buccal floor depression) mixes with residual air and is then pushed into the lungs during the second stroke (buccal",
-    "options": [
-     "Setup: Isolate frog sciatic nerve, place stimulating and recording electrodes at known distance. Apply lidocaine to a segment",
-     "The frog will burrow into deep soil and enter a dormant state called aestivation (summer sleep). During this period, metabolic rate drops drastically",
-     "The air drawn into the buccal cavity during the first stroke (buccal floor depression) mixes with residual air and is then pushed into the lungs during the second stroke (buccal"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "compare cutaneous",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the mechanism of buccal pumping",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "trace the complete path of air from external",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'frog respiratory system' slide -- match the key terms.",
-    "misconception": "A wrong answer revealing that air goes directly from nostrils to lungs in one continuous flow indicates the student misunderstands the two-stroke buccal pumping cycle and confuses it with mammalian tidal ventilation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) trace the complete path of air from external nostrils to pulmonary capillaries",
     "id": "gen_c11_bio_ch07_q7",
     "nodeId": "c11_bio_cbse_07_007",
     "difficulty": "advanced",
@@ -4544,25 +4761,25 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Mitochondria",
+    "title": "Mitochondria Are Double-membrane-bound",
     "text": "Mitochondria are double-membrane-bound organelles present in almost all eukaryotic cells that serve as the primary site of aerobic respiration, generating ATP through oxidative phosphorylation, while plastids are a family of double-membrane-bound organelles",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Ribosomes",
+    "title": "Ribosomes Are Non-membranous",
     "text": "Ribosomes are non-membranous ribonucleoprotein particles composed of ribosomal RNA (rRNA) and proteins that serve as the universal site of protein synthesis in all living cells.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Centrosome",
+    "title": "Centrosome Is a Non-membrane-bound Organelle",
     "text": "Centrosome is a non-membrane-bound organelle in animal cells comprising two perpendicular centrioles embedded in pericentriolar material, functioning as the primary microtubule-organizing centre for spindle apparatus formation during mitosis and basal body",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Microbodies",
+    "title": "Microbodies Are Small",
     "text": "Microbodies are small, single-membrane-bound organelles (e.g., peroxisomes, glyoxysomes) that contain specific oxidative enzymes for metabolic pathways like photorespiration and lipid metabolism; cell inclusions are non-living, non-membranous cytoplasmic",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4693,7 +4910,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The statement commits a category error: cell theory describes the *operation* of life once cellular organisation exists, not the *origin* of that organisation",
      "Stromules facilitate metabolite exchange between chloroplast stroma and cytosol, particularly under stress when diffusion distances increase"
     ],
-    "hint": "Straight from the 'Mitochondria' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitochondria are double-membrane-b' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"photosynthesis is impaired\") reveals failure to distinguish light reactions from carbon partitioning and to recognise stromules as dynamic metabolic interfaces.",
     "id": "gen_c11_bio_ch08_q5",
     "nodeId": "c11_bio_cbse_08_006",
@@ -4715,7 +4932,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Prokaryotes: 70S ribosome made of 50S and 30S subunits. Schleiden: 80S ribosome made of 60S and 40S subunits",
      "Prokaryotes: 70S ribosome made of 50S and 30S subunits. Eukaryotes: 80S ribosome made of 60S and 40S subunits"
     ],
-    "hint": "Straight from the 'Ribosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Ribosomes are non-membranous' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying 70S+80S=150S or confusing subunit values) reveals that the student treats Svedberg units as additive molecular weights rather than sedimentation coefficients that depend on both mass and shape.",
     "id": "gen_c11_bio_ch08_q6",
     "nodeId": "c11_bio_cbse_08_007",
@@ -4736,7 +4953,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "It fits \"prokaryote\" — cell theory requires cells (membrane-bound, metabolic, self-reproducing). Lack of nucleus = prokaryotic",
      "The result *supports* functional modularity: SPAS-1 is specifically required for pericentriolar material (PCM) recruitment of γ-tubulin ring complexes (γ-TuRCs) for spindle"
     ],
-    "hint": "Straight from the 'Centrosome' slide -- match the key terms.",
+    "hint": "Straight from the 'Centrosome is a non-membrane-bound' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"contradicts because centrosome does both\") misses the concept of modular PCM composition.",
     "id": "gen_c11_bio_ch08_q7",
     "nodeId": "c11_bio_cbse_08_009",
@@ -4993,7 +5210,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Stromules facilitate metabolite exchange between chloroplast stroma and cytosol, particularly under stress when diffusion distances increase",
      "Incubate cells with ³⁵S-methionine for a short pulse, then fractionate the cell into nuclear and cytoplasmic (ribosomal) fractions"
     ],
-    "hint": "Straight from the 'Ribosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Ribosomes are non-membranous' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Incubate cells with ³⁵S-methionine for a short pulse, then fractionate the cell into nuclear and cytoplasmic",
     "id": "gen_c11_bio_ch08_q17",
     "nodeId": "c11_bio_cbse_08_007",
@@ -5008,7 +5225,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Use phase-contrast microscopy: cyanobacteria will show no distinct nucleus, uniform cytoplasm with thylakoid membranes (no chloroplasts), and possible heterocysts",
      "Blue-black iodine stain → starch grains (polysaccharide storage); red Sudan III stain → lipid droplets (triglyceride storage)"
     ],
-    "hint": "Straight from the 'Microbodies' slide -- match the key terms.",
+    "hint": "Straight from the 'Microbodies are small' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"starch granules are plastids\" or \"lipid droplets are microbodies\") reveals inability to distinguish membranous organelles from non-living inclusions based on structure and function.",
     "id": "gen_c11_bio_ch08_q18",
     "nodeId": "c11_bio_cbse_08_010",
@@ -5027,14 +5244,14 @@ export const C11_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_bio_ch09",
-  "title": "Proteins",
+  "title": "Proteins Are Heteropolymers Composed Of Α-amino",
   "subtitle": "Biology · Chapter 9",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Proteins",
+  "topic": "Proteins Are Heteropolymers Composed Of Α-amino",
   "chapters": [
-   "Biology Ch9: Proteins"
+   "Biology Ch9: Proteins Are Heteropolymers Composed Of Α-amino"
   ],
   "nodeIds": [
    "c11_bio_cbse_09_002",
@@ -5052,7 +5269,7 @@ export const C11_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Proteins actually explain?",
+   "question": "In one line -- what does Proteins Are Heteropolymers actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -5063,19 +5280,19 @@ export const C11_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Proteins",
+    "title": "Proteins: Amino Acids and Peptide Bonds",
     "text": "Proteins are heteropolymers composed of α-amino acids linked by peptide bonds formed through condensation reactions between the carboxyl group of one amino acid and the amino group of another, releasing a water molecule.",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Lipids",
+    "title": "Lipids Are a Diverse Group",
     "text": "Lipids are a diverse group of hydrophobic biomolecules primarily composed of carbon, hydrogen, and oxygen, characterized by their insolubility in water and solubility in non-polar organic solvents.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Enzymes",
+    "title": "Enzymes Are Biological Catalysts",
     "text": "Enzymes are biological catalysts, predominantly proteins (with some catalytic RNA molecules called ribozymes), that accelerate biochemical reactions by lowering the activation energy through specific substrate binding at their active site, without being",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5093,13 +5310,13 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Living State",
+    "title": "The Living State Is a Non-equilibrium",
     "text": "The living state is a non-equilibrium steady state characterized by constant metabolic turnover where biomolecules are continuously synthesized and degraded, maintained by energy input from catabolic pathways.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Biomacromolecules",
+    "title": "Biomacromolecules Are High Molecular Weight",
     "text": "Biomacromolecules are high molecular weight (>10,000 Da) organic polymers (proteins, nucleic acids, polysaccharides) that precipitate in the acid-insoluble fraction during trichloroacetic acid extraction, while micromolecules are low molecular weight (<1000",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5178,7 +5395,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Correct explanation: Homogenization mechanically disrupts membranes into closed vesicles (liposomes) that are physically large and water-insoluble",
      "Procedure: Pour equal volumes of coconut oil and groundnut oil into separate transparent containers"
     ],
-    "hint": "Straight from the 'Lipids' slide -- match the key terms.",
+    "hint": "Straight from the 'Lipids are a diverse group' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Procedure: Pour equal volumes of coconut oil and groundnut oil into separate transparent containers.",
     "id": "gen_c11_bio_ch09_q2",
     "nodeId": "c11_bio_cbse_09_003",
@@ -5199,7 +5416,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Procedure: Pour equal volumes of coconut oil and groundnut oil into separate transparent containers",
      "At low [succinate], malonate effectively competes for the active site, significantly reducing V. At very high [succinate], succinate outcompetes malonate due to mass action"
     ],
-    "hint": "Straight from the 'Enzymes' slide -- match the key terms.",
+    "hint": "Straight from the 'Enzymes are biological catalysts' slide -- match the key terms.",
     "misconception": "A wrong answer stating Vmax decreases reveals confusion with non-competitive inhibition; an answer stating no effect at any [S] reveals misunderstanding of the reversible, concentration-dependent nature of competitive inhibition.",
     "id": "gen_c11_bio_ch09_q3",
     "nodeId": "c11_bio_cbse_09_005",
@@ -5257,10 +5474,10 @@ export const C11_BIO_GEN: SimDef[] = [
     "answer": "Metabolism is the sum of all enzyme-catalyzed chemical reactions in a living organism. Its two subdivisions are: (1) Catabolism — energy-releasing breakdown pathways, e",
     "options": [
      "The committed step of glycolysis is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate using ATP",
-     "At low [succinate], malonate effectively competes for the active site, significantly reducing V. At very high [succinate], succinate outcompetes malonate due to mass action",
+     "Student can trace the carbon fate of glucose through glycolysis and Krebs cycle, identify the specific steps where substrate-level phosphorylation occurs",
      "Metabolism is the sum of all enzyme-catalyzed chemical reactions in a living organism. Its two subdivisions are: (1) Catabolism — energy-releasing breakdown pathways, e"
     ],
-    "hint": "Straight from the 'living state' slide -- match the key terms.",
+    "hint": "Straight from the 'The living state is a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"metabolism is only digestion\" or \"metabolism is only breaking down food\") reveals the student confuses organism-level digestion with cellular metabolism, or equates metabolism solely with catabolism, ignoring the essential biosynthetic half.",
     "id": "gen_c11_bio_ch09_q6",
     "nodeId": "c11_bio_cbse_09_008",
@@ -5333,7 +5550,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Procedure: Pour equal volumes of coconut oil and groundnut oil into separate transparent containers",
      "Steps: (1) Place egg white (albumin) in cup A; add vinegar (acid) to cup B with egg white. (2) Heat both gently for 10 min"
     ],
-    "hint": "Straight from the 'Proteins' slide -- match the key terms.",
+    "hint": "Straight from the 'Proteins are heteropolymers' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"vinegar digests protein like stomach\") reveals confusion between chemical hydrolysis and enzymatic digestion, or missing the control.",
     "id": "gen_c11_bio_ch09_q8",
     "nodeId": "c11_bio_cbse_09_002",
@@ -5348,7 +5565,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "In one turn, the two carbons lost as CO₂ are the carboxyl carbons of isocitrate (C1) and α-ketoglutarate (C2)",
      "Lock-and-key: rigid, pre-formed active site exactly complementary to substrate (static fit). Induced-fit: flexible active site that undergoes conformational change upon substrate"
     ],
-    "hint": "Straight from the 'Enzymes' slide -- match the key terms.",
+    "hint": "Straight from the 'Enzymes are biological catalysts' slide -- match the key terms.",
     "misconception": "A wrong answer claiming lock-and-key explains conformational changes reveals the student hasn't grasped that lock-and-key assumes rigidity, while induced-fit was proposed specifically to account for observed flexibility.",
     "id": "gen_c11_bio_ch09_q9",
     "nodeId": "c11_bio_cbse_09_005",
@@ -5363,7 +5580,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Correct explanation: Homogenization mechanically disrupts membranes into closed vesicles (liposomes) that are physically large and water-insoluble",
      "Independent variable: temperature (e.g., 10°C, 25°C, 37°C, 50°C, 70°C). Dependent variable: rate of O₂ evolution (measured as volume of gas per minute or time for foam to reach a"
     ],
-    "hint": "Straight from the 'Enzymes' slide -- match the key terms.",
+    "hint": "Straight from the 'Enzymes are biological catalysts' slide -- match the key terms.",
     "misconception": "A poor answer omits controlled variables or predicts continuous increase, revealing confusion between reaction rate theory (rate doubles per 10°C) and protein stability limits.",
     "id": "gen_c11_bio_ch09_q10",
     "nodeId": "c11_bio_cbse_09_005",
@@ -5465,7 +5682,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "answer": "The committed step of glycolysis is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate using ATP",
     "options": [
      "Metabolism is the sum of all enzyme-catalyzed chemical reactions in a living organism. Its two subdivisions are: (1) Catabolism — energy-releasing breakdown pathways, e",
-     "Procedure: Pour equal volumes of coconut oil and groundnut oil into separate transparent containers",
+     "Student can trace the carbon fate of glucose through glycolysis and Krebs cycle, identify the specific steps where substrate-level phosphorylation occurs",
      "The committed step of glycolysis is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate using ATP"
     ],
     "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
@@ -5476,27 +5693,27 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare and contrast the metabolic state of a dormant wheat seed (12% moisture) and a 3-day-old wheat seedling. Analyze both in terms of: (i) proximity to thermodynamic equilibrium, (ii) major carbon flux direction, (iii) ATP source and turnover rate, (iv) role of stored macromolecules.",
-    "answer": "(i) Dormant seed: near equilibrium (minimal flux, low entropy production); Seedling: far from equilibrium (high flux, high energy dissipation)",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can trace the carbon fate of glucose through glycolysis and Krebs cycle, identify the specific steps where substrate-level phosphorylation occurs",
     "options": [
-     "Lock-and-key: rigid, pre-formed active site exactly complementary to substrate (static fit). Induced-fit: flexible active site that undergoes conformational change upon substrate",
-     "In one turn, the two carbons lost as CO₂ are the carboxyl carbons of isocitrate (C1) and α-ketoglutarate (C2)",
-     "(i) Dormant seed: near equilibrium (minimal flux, low entropy production); Seedling: far from equilibrium (high flux, high energy dissipation)"
+     "Metabolism is the sum of all enzyme-catalyzed chemical reactions in a living organism. Its two subdivisions are: (1) Catabolism — energy-releasing breakdown pathways, e",
+     "The committed step of glycolysis is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate using ATP",
+     "Student can trace the carbon fate of glucose through glycolysis and Krebs cycle, identify the specific steps where substrate-level phosphorylation occurs"
     ],
-    "hint": "Straight from the 'living state' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both are alive so both are far from equilibrium\") reveals inability to apply the steady-state concept quantitatively — dormancy is a protected near-equilibrium state, not a steady state.",
+    "hint": "Straight from the 'metabolic pathway' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can trace the carbon fate of glucose through glycolysis and Krebs cycle, identify the specific steps where",
     "id": "gen_c11_bio_ch09_q18",
-    "nodeId": "c11_bio_cbse_09_008",
-    "difficulty": "standard"
+    "nodeId": "c11_bio_cbse_09_007",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about proteins?",
+    "What surprised you about proteins are heteropolymers composed of α-amino?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Proteins mastered! 🎯",
+  "successLine": "Proteins Are Heteropolymers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5542,19 +5759,19 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Interphase",
+    "title": "Interphase Is The Longest Phase",
     "text": "Interphase is the longest phase of the cell cycle where a eukaryotic cell prepares for division by undergoing sequential growth (G1), DNA replication (S), and final preparation for mitosis (G2), without any visible chromosome condensation or nuclear division.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Mitosis",
+    "title": "Mitosis Is An Equational Cell Division",
     "text": "Mitosis is an equational cell division process in which a single diploid parent cell divides to produce two genetically identical diploid daughter cells, maintaining the chromosome number (2n) and DNA content (2C) across generations of somatic cells.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Meiosis",
+    "title": "Meiosis Is a Specialized Reductional Cell",
     "text": "Meiosis is a specialized reductional cell division in diploid germ cells that produces four genetically unique haploid gametes through two sequential divisions (Meiosis I and II) following a single DNA replication, thereby halving the chromosome number and",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5822,7 +6039,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as",
      "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and"
     ],
-    "hint": "Straight from the 'Interphase' slide -- match the key terms.",
+    "hint": "Straight from the 'Interphase is the longest phase' slide -- match the key terms.",
     "misconception": "A wrong answer that labels with a non-DNA precursor, or skips the chase, shows the student has missed that only cells replicating DNA take up thymidine, which is what makes the pulse S-phase specific.",
     "id": "gen_c11_bio_ch10_q5",
     "nodeId": "c11_bio_cbse_10_002",
@@ -5837,7 +6054,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as",
      "The contrast runs: (1) Human skin cells arise from diploid somatic divisions (2) The drone develops from an unfertilised haploid egg (3) Mitosis in the drone's tissues is"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is an equational cell' slide -- match the key terms.",
     "misconception": "A wrong answer that insists mitosis only occurs in diploid cells shows the student has missed that mitosis is equational, conserving the starting chromosome number in both cases.",
     "id": "gen_c11_bio_ch10_q6",
     "nodeId": "c11_bio_cbse_10_005",
@@ -5852,7 +6069,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The protocol runs: (1) Pulse the culture with radioactive thymidine for a short window (2) Replace it with excess unlabelled thymidine for the chase (3) Fix cells at intervals and",
      "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as"
     ],
-    "hint": "Straight from the 'Meiosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Meiosis is a specialized' slide -- match the key terms.",
     "misconception": "A wrong answer that uses unlinked genes or omits the test-cross shows the student has missed that measurable recombination needs heterozygous alleles revealed against a homozygous recessive parent.",
     "id": "gen_c11_bio_ch10_q7",
     "nodeId": "c11_bio_cbse_10_008",
@@ -5928,13 +6145,13 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Glycolysis",
+    "title": "Glycolysis Is The Universal",
     "text": "Glycolysis is the universal, ten-step enzymatic pathway in the cytoplasm where one molecule of glucose (6C) is partially oxidized into two molecules of pyruvic acid (3C), with a net gain of 2 ATP (substrate-level phosphorylation) and 2 NADH + H⁺ per glucose",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Fermentation",
+    "title": "Fermentation Is An Anaerobic Metabolic",
     "text": "Fermentation is an anaerobic metabolic pathway where pyruvic acid (the end product of glycolysis) undergoes incomplete oxidation in the absence of oxygen to form either ethanol and carbon dioxide (alcoholic fermentation) or lactic acid (lactic acid",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6033,11 +6250,11 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the enzyme that catalyzes the committed step of glycolysis and the allosteric activator that signals high energy demand in the cell.",
     "answer": "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate",
     "options": [
-     "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
      "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
+     "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)",
      "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate"
     ],
-    "hint": "Straight from the 'Glycolysis' slide -- match the key terms.",
+    "hint": "Straight from the 'Glycolysis is the universal' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming hexokinase or pyruvate kinase) reveals confusion between the first irreversible step (hexokinase) and the committed step (PFK-1), or ignorance of energy-charge regulation.",
     "id": "gen_c11_bio_ch12_q2",
     "nodeId": "c11_bio_cbse_12_002",
@@ -6073,8 +6290,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the enzyme complex that catalyzes the conversion of pyruvate to acetyl-CoA and list the three products formed per pyruvate molecule.",
     "answer": "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺",
     "options": [
-     "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)",
-     "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
+     "Student can trace the carbon skeleton transformations from acetyl-CoA to oxaloacetate, identify the three decarboxylation steps, the four redox steps (3 NAD⁺, 1 FAD)",
+     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
      "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺"
     ],
     "hint": "Straight from the 'Pyruvate oxidation' slide -- match the key terms.",
@@ -6234,7 +6451,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
      "Glucose → (glycolysis, 10 steps, cytoplasm) → 2 pyruvate + 2 ATP (net) + 2 NADH+H⁺. Under low O₂, pyruvate + NADH+H⁺ → (lactate dehydrogenase) → lactate + NAD⁺"
     ],
-    "hint": "Straight from the 'Fermentation' slide -- match the key terms.",
+    "hint": "Straight from the 'Fermentation is an anaerobic' slide -- match the key terms.",
     "misconception": "Wrong answer (e.g., 38 ATP or mentioning mitochondria) reveals confusion between anaerobic and aerobic ATP yields or compartmentalization.",
     "id": "gen_c11_bio_ch12_q8",
     "nodeId": "c11_bio_cbse_12_003",
@@ -6245,11 +6462,11 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the two enzymes that catalyze the conversion of pyruvic acid to ethanol in alcoholic fermentation, and state the cofactor required by the first enzyme.",
     "answer": "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)",
     "options": [
-     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
-     "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate",
+     "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
+     "Student can trace the carbon skeleton transformations from acetyl-CoA to oxaloacetate, identify the three decarboxylation steps, the four redox steps (3 NAD⁺, 1 FAD)",
      "The enzymes are pyruvic acid decarboxylase (requires thiamine pyrophosphate/TPP as cofactor) and alcohol dehydrogenase (uses NADH+H⁺ as reductant)"
     ],
-    "hint": "Straight from the 'Fermentation' slide -- match the key terms.",
+    "hint": "Straight from the 'Fermentation is an anaerobic' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming lactate dehydrogenase or omitting TPP) reveals the student confuses the two fermentation types or doesn't know enzyme-cofactor specificity, which is critical for understanding why yeast cannot perform lactic acid fermentation and vice versa.",
     "id": "gen_c11_bio_ch12_q9",
     "nodeId": "c11_bio_cbse_12_003",
@@ -6275,8 +6492,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Compare the carbon fate of the two carboxyl groups of oxaloacetate over two turns of the TCA cycle. Are they released as CO₂ in the first turn, second turn, or later?",
     "answer": "The two carboxyl carbons of oxaloacetate are NOT lost in the first turn; they become the two carboxyl groups of α-ketoglutarate and are released as CO₂ in the *second* turn (via",
     "options": [
+     "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
      "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH",
-     "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water",
      "The two carboxyl carbons of oxaloacetate are NOT lost in the first turn; they become the two carboxyl groups of α-ketoglutarate and are released as CO₂ in the *second* turn (via"
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
@@ -6317,6 +6534,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can trace the carbon skeleton transformations from acetyl-CoA to oxaloacetate, identify the three decarboxylation steps, the four redox steps (3 NAD⁺, 1 FAD)",
+    "options": [
+     "Pyruvate dehydrogenase complex; products: acetyl-CoA, CO₂, NADH + H⁺",
+     "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA",
+     "Student can trace the carbon skeleton transformations from acetyl-CoA to oxaloacetate, identify the three decarboxylation steps, the four redox steps (3 NAD⁺, 1 FAD)"
+    ],
+    "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can trace the carbon skeleton transformations from acetyl-CoA to oxaloacetate, identify the three",
+    "id": "gen_c11_bio_ch12_q14",
+    "nodeId": "c11_bio_cbse_12_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why does the TCA cycle produce GTP (or ATP) only at the succinyl-CoA → succinate step, despite multiple exergonic reactions?",
     "answer": "Only the succinyl-CoA → succinate step (catalyzed by succinyl-CoA synthetase) has a ΔG°' sufficiently negative (-33",
     "options": [
@@ -6326,7 +6558,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Krebs cycle' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ATP is made at every oxidation\") shows the student thinks all redox energy directly makes ATP, missing the distinction between substrate-level and oxidative phosphorylation.",
-    "id": "gen_c11_bio_ch12_q14",
+    "id": "gen_c11_bio_ch12_q15",
     "nodeId": "c11_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -6341,7 +6573,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'amphibolic pathway' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the",
-    "id": "gen_c11_bio_ch12_q15",
+    "id": "gen_c11_bio_ch12_q16",
     "nodeId": "c11_bio_cbse_12_008",
     "difficulty": "standard"
    },
@@ -6356,7 +6588,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'amphibolic pathway' slide -- match the key terms.",
     "misconception": "A wrong answer that says 'muscle only does catabolism, liver only anabolism' misses that both tissues can do both depending on conditions.",
-    "id": "gen_c11_bio_ch12_q16",
+    "id": "gen_c11_bio_ch12_q17",
     "nodeId": "c11_bio_cbse_12_008",
     "difficulty": "standard"
    },
@@ -6371,24 +6603,9 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Growth in plants' slide -- match the key terms.",
     "misconception": "A wrong answer that runs the test groups without a control shows the student has missed that each condition must be isolated by comparison with a normally growing set.",
-    "id": "gen_c11_bio_ch12_q17",
+    "id": "gen_c11_bio_ch12_q18",
     "nodeId": "c11_bio_cbse_13_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment to determine whether dormancy in a newly collected wild legume species is due to seed coat impermeability or physiological factors. List materials, steps, and the expected observation for each case.",
-    "answer": "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked)",
-    "options": [
-     "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate",
-     "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated",
-     "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked)"
-    ],
-    "hint": "Straight from the 'Seed dormancy' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm).",
-    "id": "gen_c11_bio_ch12_q18",
-    "nodeId": "c11_bio_cbse_13_008",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -6475,7 +6692,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Asthma",
+    "title": "Asthma Is a Chronic Inflammatory Disorder",
     "text": "Asthma is a chronic inflammatory disorder of the conducting airways (bronchi and bronchioles) characterised by reversible bronchoconstriction, excessive mucus secretion, and airway hyperresponsiveness to triggers, leading to episodic wheezing, dyspnoea, and",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6487,8 +6704,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the specific type of epithelium lining the trachea and primary bronchi, and state the function of its two main cell types.",
     "answer": "The trachea and primary bronchi are lined by ciliated pseudostratified columnar epithelium with goblet cells",
     "options": [
-     "The oxygen dissociation curve is a sigmoidal graph plotting percentage saturation of haemoglobin with oxygen against partial pressure of oxygen (pO₂)",
-     "70% of CO₂ is transported as bicarbonate (HCO₃⁻), catalysed by carbonic anhydrase inside erythrocytes",
+     "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration",
+     "TV ≈ 500 mL, IRV ≈ 2500–3000 mL, ERV ≈ 1000–1100 mL, RV ≈ 1100–1200 mL. RV cannot be measured by spirometry because it is the air that never leaves the lungs even after forced",
      "The trachea and primary bronchi are lined by ciliated pseudostratified columnar epithelium with goblet cells"
     ],
     "hint": "Straight from the 'human respiratory system' slide -- match the key terms.",
@@ -6504,16 +6721,47 @@ export const C11_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the approximate values of Tidal Volume (TV), Inspiratory Reserve Volume (IRV), Expiratory Reserve Volume (ERV), and Residual Volume (RV) for a healthy adult human. Which of these volumes CANNOT be measured directly by spirometry?",
-    "answer": "TV ≈ 500 mL, IRV ≈ 2500–3000 mL, ERV ≈ 1000–1100 mL, RV ≈ 1100–1200 mL. RV cannot be measured by spirometry because it is the air that never leaves the lungs even after forced",
-    "options": [
-     "Atmospheric air: pO₂ ≈ 159 mm Hg, pCO₂ ≈ 0.3 mm Hg. Alveolar air: pO₂ ≈ 104 mm Hg, pCO₂ ≈ 40 mm Hg. Deoxygenated (pulmonary arterial) blood: pO₂ ≈ 40 mm Hg, pCO₂ ≈ 45 mm Hg",
-     "The oxygen dissociation curve is a sigmoidal graph plotting percentage saturation of haemoglobin with oxygen against partial pressure of oxygen (pO₂)",
-     "TV ≈ 500 mL, IRV ≈ 2500–3000 mL, ERV ≈ 1000–1100 mL, RV ≈ 1100–1200 mL. RV cannot be measured by spirometry because it is the air that never leaves the lungs even after forced"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the complete sequence of muscular",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain why intra-pulmonary pressure becomes",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "calculate any respiratory volume or capacity",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Mechanism of breathing' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., saying all volumes are measurable) reveals the student does not understand that spirometry captures only *movable* air, confusing \"volume in lungs\" with \"volume exchanged.\"",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) trace the complete sequence of muscular actions and pressure changes during quiet and forced",
     "id": "gen_c11_bio_ch14_q2",
     "nodeId": "c11_bio_cbse_14_002",
     "difficulty": "standard",
@@ -6529,8 +6777,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "State the partial pressures of O₂ and CO₂ in atmospheric air, alveolar air, and deoxygenated blood arriving at the alveoli.",
     "answer": "Atmospheric air: pO₂ ≈ 159 mm Hg, pCO₂ ≈ 0.3 mm Hg. Alveolar air: pO₂ ≈ 104 mm Hg, pCO₂ ≈ 40 mm Hg. Deoxygenated (pulmonary arterial) blood: pO₂ ≈ 40 mm Hg, pCO₂ ≈ 45 mm Hg",
     "options": [
-     "TV ≈ 500 mL, IRV ≈ 2500–3000 mL, ERV ≈ 1000–1100 mL, RV ≈ 1100–1200 mL. RV cannot be measured by spirometry because it is the air that never leaves the lungs even after forced",
-     "The trachea and primary bronchi are lined by ciliated pseudostratified columnar epithelium with goblet cells",
+     "Alveolar exchange is the process of passive diffusion of oxygen (O₂) and carbon dioxide (CO₂) across the respiratory membrane (alveolar epithelium, capillary endothelium",
+     "The student can trace the complete path of an air molecule from the external nostril to the alveolar sac, label all structures on a diagram of the human respiratory system",
      "Atmospheric air: pO₂ ≈ 159 mm Hg, pCO₂ ≈ 0.3 mm Hg. Alveolar air: pO₂ ≈ 104 mm Hg, pCO₂ ≈ 40 mm Hg. Deoxygenated (pulmonary arterial) blood: pO₂ ≈ 40 mm Hg, pCO₂ ≈ 45 mm Hg"
     ],
     "hint": "Straight from the 'Alveolar exchange' slide -- match the key terms.",
@@ -6550,8 +6798,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Define the oxygen dissociation curve and state the percentage saturation of haemoglobin at a pO₂ of 100 mm Hg under normal physiological conditions.",
     "answer": "The oxygen dissociation curve is a sigmoidal graph plotting percentage saturation of haemoglobin with oxygen against partial pressure of oxygen (pO₂)",
     "options": [
-     "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration",
-     "Atmospheric air: pO₂ ≈ 159 mm Hg, pCO₂ ≈ 0.3 mm Hg. Alveolar air: pO₂ ≈ 104 mm Hg, pCO₂ ≈ 40 mm Hg. Deoxygenated (pulmonary arterial) blood: pO₂ ≈ 40 mm Hg, pCO₂ ≈ 45 mm Hg",
+     "The trachea and primary bronchi are lined by ciliated pseudostratified columnar epithelium with goblet cells",
+     "Student can draw and label the oxygen dissociation curve, explain the physiological significance of its sigmoidal shape",
      "The oxygen dissociation curve is a sigmoidal graph plotting percentage saturation of haemoglobin with oxygen against partial pressure of oxygen (pO₂)"
     ],
     "hint": "Straight from the 'Transport of oxygen in human blood' slide -- match the key terms.",
@@ -6571,8 +6819,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "What percentage of CO₂ is transported as bicarbonate in human blood, and which enzyme catalyses its formation inside erythrocytes?",
     "answer": "70% of CO₂ is transported as bicarbonate (HCO₃⁻), catalysed by carbonic anhydrase inside erythrocytes",
     "options": [
-     "The respiratory rhythm centre is located in the medulla oblongata; it generates the basic rhythmic pattern of inspiration and expiration by sending periodic signals to the",
-     "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration",
+     "Alveolar exchange is the process of passive diffusion of oxygen (O₂) and carbon dioxide (CO₂) across the respiratory membrane (alveolar epithelium, capillary endothelium",
+     "The student can trace the complete path of an air molecule from the external nostril to the alveolar sac, label all structures on a diagram of the human respiratory system",
      "70% of CO₂ is transported as bicarbonate (HCO₃⁻), catalysed by carbonic anhydrase inside erythrocytes"
     ],
     "hint": "Straight from the 'Transport of carbon dioxide in' slide -- match the key terms.",
@@ -6592,8 +6840,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the specific brain region that houses the respiratory rhythm centre and state its primary function in breathing regulation.",
     "answer": "The respiratory rhythm centre is located in the medulla oblongata; it generates the basic rhythmic pattern of inspiration and expiration by sending periodic signals to the",
     "options": [
-     "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration",
-     "The trachea and primary bronchi are lined by ciliated pseudostratified columnar epithelium with goblet cells",
+     "Mechanism of breathing is the physiological process by which air moves into (inspiration) and out of (expiration) the lungs due to pressure gradients generated between the",
+     "The student can explain how the respiratory rhythm centre, pneumotaxic centre, central chemoreceptors, and peripheral chemoreceptors interact to regulate breathing",
      "The respiratory rhythm centre is located in the medulla oblongata; it generates the basic rhythmic pattern of inspiration and expiration by sending periodic signals to the"
     ],
     "hint": "Straight from the 'Regulation of respiration' slide -- match the key terms.",
@@ -6613,11 +6861,11 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Define asthma and emphysema precisely, stating the primary anatomical site affected, the nature of the structural change (reversible/irreversible), and the key physiological consequence for airflow in each.",
     "answer": "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration",
     "options": [
-     "70% of CO₂ is transported as bicarbonate (HCO₃⁻), catalysed by carbonic anhydrase inside erythrocytes",
-     "The respiratory rhythm centre is located in the medulla oblongata; it generates the basic rhythmic pattern of inspiration and expiration by sending periodic signals to the",
+     "Students believe oxygen is the primary chemical regulator of breathing because \"we breathe to get oxygen",
+     "Student can draw and label the oxygen dissociation curve, explain the physiological significance of its sigmoidal shape",
      "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration"
     ],
-    "hint": "Straight from the 'Asthma' slide -- match the key terms.",
+    "hint": "Straight from the 'Asthma is a chronic inflammatory' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., stating both affect alveoli, or both are reversible) reveals confusion between conducting vs. respiratory zone pathology and failure to grasp that asthma is a functional, dynamic obstruction while emphysema is a fixed, structural destruction.",
     "id": "gen_c11_bio_ch14_q7",
     "nodeId": "c11_bio_cbse_14_007",
@@ -6691,6 +6939,21 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can trace the complete path of an air molecule from the external nostril to the alveolar sac, label all structures on a diagram of the human respiratory system",
+    "options": [
+     "Mechanism of breathing is the physiological process by which air moves into (inspiration) and out of (expiration) the lungs due to pressure gradients generated between the",
+     "Students believe expiration is always an active muscular process because they feel abdominal effort during heavy breathing (e.g., after running)",
+     "The student can trace the complete path of an air molecule from the external nostril to the alveolar sac, label all structures on a diagram of the human respiratory system"
+    ],
+    "hint": "Straight from the 'human respiratory system' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can trace the complete path of an air molecule from the external nostril to the alveolar sac, label all",
+    "id": "gen_c11_bio_ch14_q12",
+    "nodeId": "c11_bio_cbse_14_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why are the cartilaginous rings of the trachea and bronchi C-shaped (incomplete posteriorly) rather than complete rings?",
     "answer": "The posterior gap in the cartilaginous rings allows the oesophagus (which lies directly behind the trachea) to expand anteriorly when a food bolus passes during swallowing",
     "options": [
@@ -6700,7 +6963,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'human respiratory system' slide -- match the key terms.",
     "misconception": "A wrong answer — e.g., \"for flexibility during breathing\" — shows the student has not integrated anatomical relationships (trachea-oesophagus adjacency) with respiratory structure, a key Class 11 expectation.",
-    "id": "gen_c11_bio_ch14_q12",
+    "id": "gen_c11_bio_ch14_q13",
     "nodeId": "c11_bio_cbse_14_001",
     "difficulty": "standard"
    },
@@ -6715,7 +6978,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mechanism of breathing' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"no inspiration possible\" or \"internal intercostals take over\") reveals confusion between quiet vs. forced breathing muscles and the axes of rib movement.",
-    "id": "gen_c11_bio_ch14_q13",
+    "id": "gen_c11_bio_ch14_q14",
     "nodeId": "c11_bio_cbse_14_002",
     "difficulty": "standard"
    },
@@ -6730,7 +6993,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mechanism of breathing' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming external intercostals for forced expiration) reveals confusion between inspiratory and expiratory muscle roles.",
-    "id": "gen_c11_bio_ch14_q14",
+    "id": "gen_c11_bio_ch14_q15",
     "nodeId": "c11_bio_cbse_14_002",
     "difficulty": "standard"
    },
@@ -6745,7 +7008,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mechanism of breathing' slide -- match the key terms.",
     "misconception": "A poor answer (omitting the limitation or misassigning components) reveals inability to translate abstract physiology into physical analogy.",
-    "id": "gen_c11_bio_ch14_q15",
+    "id": "gen_c11_bio_ch14_q16",
     "nodeId": "c11_bio_cbse_14_002",
     "difficulty": "standard"
    },
@@ -6760,7 +7023,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mechanism of breathing' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"diaphragm pulls air in\" or \"negative pressure sucks air\") reveals the misconception that muscles actively suck air rather than creating a passive pressure gradient for bulk flow.",
-    "id": "gen_c11_bio_ch14_q16",
+    "id": "gen_c11_bio_ch14_q17",
     "nodeId": "c11_bio_cbse_14_002",
     "difficulty": "standard"
    },
@@ -6775,23 +7038,8 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mechanism of breathing' slide -- match the key terms.",
     "misconception": "A wrong evaluation (accepting the statement fully) reveals failure to distinguish regional thoracic mechanics and accessory muscle actions.",
-    "id": "gen_c11_bio_ch14_q17",
-    "nodeId": "c11_bio_cbse_14_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A patient has pulmonary fibrosis thickening the alveolar-capillary membrane to 2 µm (normal ≈ 0.5 µm). Predict the effect on O₂ and CO₂ exchange and explain why CO₂ exchange might be less affected initially.",
-    "answer": "O₂ exchange will decrease significantly because diffusion rate is inversely proportional to membrane thickness (Fick’s Law)",
-    "options": [
-     "Diaphragm contraction increases thoracic volume in the antero-posterior axis → pulmonary volume increases → by Boyle's Law (P ∝ 1/V at constant temperature)",
-     "Hyperventilation blows off CO₂, lowering blood pCO₂ and shifting the equilibrium CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺ leftward, reducing [H⁺] (respiratory alkalosis)",
-     "O₂ exchange will decrease significantly because diffusion rate is inversely proportional to membrane thickness (Fick’s Law)"
-    ],
-    "hint": "Straight from the 'Alveolar exchange' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming both gases are equally affected ignores the solubility factor; a student saying CO₂ is more affected confuses the direction of the gradient.",
     "id": "gen_c11_bio_ch14_q18",
-    "nodeId": "c11_bio_cbse_14_003",
+    "nodeId": "c11_bio_cbse_14_002",
     "difficulty": "standard"
    }
   ],
@@ -6807,14 +7055,14 @@ export const C11_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_bio_ch15",
-  "title": "Blood",
+  "title": "Blood Is a Specialized Connective Tissue",
   "subtitle": "Biology · Chapter 15",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Blood",
+  "topic": "Blood Is a Specialized Connective Tissue",
   "chapters": [
-   "Biology Ch15: Blood"
+   "Biology Ch15: Blood Is a Specialized Connective Tissue"
   ],
   "nodeIds": [
    "c11_bio_cbse_15_001",
@@ -6831,7 +7079,7 @@ export const C11_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Blood more about facts, or about reasoning?",
+   "question": "Is Blood Is a Specialized Connective more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -6842,7 +7090,7 @@ export const C11_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Blood",
+    "title": "Blood Is a Specialized Connective Tissue",
     "text": "Blood is a specialized connective tissue composed of a fluid matrix called plasma (55% by volume) and cellular components called formed elements (45% by volume) including erythrocytes (RBCs), leucocytes (WBCs), and platelets (thrombocytes), functioning in",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6866,13 +7114,13 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Hypertension",
+    "title": "Hypertension Is a Chronic Medical Condition",
     "text": "Hypertension is a chronic medical condition characterized by persistently elevated systemic arterial blood pressure (≥140/90 mmHg on repeated measurements) that damages vascular endothelium and target organs.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Lymph",
+    "title": "Lymph Is a Clear",
     "text": "Lymph is a clear, colourless fluid derived from interstitial fluid that enters the lymphatic capillaries, containing lymphocytes (mainly T and B cells) and serving as a medium for transport of nutrients, hormones, and absorbed fats (via lacteals), while also",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7130,7 +7378,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Correct evaluation: The statement is false on two counts. (1) Anti-D immunoglobulin (RhoGAM) is given *after* delivery (or at 28 weeks + after delivery)",
      "Lymph is colourless because it lacks erythrocytes (RBCs) and haemoglobin; during capillary filtration, the larger formed elements (RBCs, platelets"
     ],
-    "hint": "Straight from the 'Lymph' slide -- match the key terms.",
+    "hint": "Straight from the 'Lymph is a clear' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"lymph loses its colour in lymph nodes\") indicates confusion between filtration and cellular processing, and a lack of understanding of the size-based selectivity of capillary endothelium.",
     "id": "gen_c11_bio_ch15_q6",
     "nodeId": "c11_bio_cbse_15_008",
@@ -7222,6 +7470,52 @@ export const C11_BIO_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "determine safe donor-recipient pairs",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain the mechanism and prevention",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "predict ABO/Rh blood group from given",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) predict ABO/Rh blood group from given antigen/antibody profile, (2) determine safe donor-recipient",
+    "id": "gen_c11_bio_ch15_q8",
+    "nodeId": "c11_bio_cbse_15_002",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Compare and contrast the roles of neutrophils, eosinophils, basophils, lymphocytes (B and T), and monocytes in the immune response. Which two are phagocytic, and which are involved in allergic responses?",
     "answer": "Neutrophils and monocytes are phagocytic (engulf pathogens). Basophils release histamine/heparin — mediate allergic/inflammatory responses",
@@ -7230,9 +7524,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "Anti-A/anti-B are 'natural' antibodies: appear by 3-6 months of age without known exposure, stimulated by cross-reacting bacterial polysaccharides in gut flora",
      "Neutrophils and monocytes are phagocytic (engulf pathogens). Basophils release histamine/heparin — mediate allergic/inflammatory responses"
     ],
-    "hint": "Straight from the 'Blood' slide -- match the key terms.",
+    "hint": "Straight from the 'Blood is a specialized connective' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing which cells are phagocytic or assigning antibody production to T cells) reveals failure to distinguish innate vs adaptive immunity and granulocyte vs agranulocyte functional specialization.",
-    "id": "gen_c11_bio_ch15_q8",
+    "id": "gen_c11_bio_ch15_q9",
     "nodeId": "c11_bio_cbse_15_001",
     "difficulty": "standard"
    },
@@ -7245,9 +7539,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery",
      "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil"
     ],
-    "hint": "Straight from the 'Blood' slide -- match the key terms.",
+    "hint": "Straight from the 'Blood is a specialized connective' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Prepare a thin blood smear, fix with methanol, stain with Wright's stain.",
-    "id": "gen_c11_bio_ch15_q9",
+    "id": "gen_c11_bio_ch15_q10",
     "nodeId": "c11_bio_cbse_15_001",
     "difficulty": "standard"
    },
@@ -7260,9 +7554,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "Group O RBCs lack A and B antigens, so they are not attacked by anti-A/anti-B antibodies in any recipient's plasma — safe for red cell transfusion",
      "Mammalian RBCs lose their nucleus during maturation to maximize intracellular space for hemoglobin (increasing O₂-carrying capacity) and adopt a biconcave shape that increases"
     ],
-    "hint": "Straight from the 'Blood' slide -- match the key terms.",
+    "hint": "Straight from the 'Blood is a specialized connective' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"nucleus is lost to make them lighter\") shows the student cannot connect structural adaptations to physiological function and cellular limitations.",
-    "id": "gen_c11_bio_ch15_q10",
+    "id": "gen_c11_bio_ch15_q11",
     "nodeId": "c11_bio_cbse_15_001",
     "difficulty": "standard"
    },
@@ -7277,7 +7571,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., choosing B positive) shows the student ignores Rh compatibility or thinks \"same ABO group = always safe\".",
-    "id": "gen_c11_bio_ch15_q11",
+    "id": "gen_c11_bio_ch15_q12",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -7292,7 +7586,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying anti-D are naturally present) reveals confusion between the two systems' immunology, leading to inability to explain why first Rh-incompatible pregnancy is usually safe but first ABO-incompatible transfusion is dangerous.",
-    "id": "gen_c11_bio_ch15_q12",
+    "id": "gen_c11_bio_ch15_q13",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -7307,7 +7601,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A poor answer (missing Rh testing, wrong agglutination pattern for AB/O) reveals the student cannot translate the antigen-antibody logic into a practical diagnostic algorithm.",
-    "id": "gen_c11_bio_ch15_q13",
+    "id": "gen_c11_bio_ch15_q14",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -7322,7 +7616,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong evaluation shows the student misunderstands the timeline of sensitisation and the prophylactic purpose of anti-D immunoglobulin.",
-    "id": "gen_c11_bio_ch15_q14",
+    "id": "gen_c11_bio_ch15_q15",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -7337,7 +7631,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student memorised \"O = universal donor\" without distinguishing between cellular (RBC) and plasma components, a critical error for clinical transfusion practice.",
-    "id": "gen_c11_bio_ch15_q15",
+    "id": "gen_c11_bio_ch15_q16",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
@@ -7346,54 +7640,39 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "State the antigens present on RBCs and antibodies present in plasma for a person with blood group AB positive.",
     "answer": "Antigens on RBCs: A, B, and Rh (D). Antibodies in plasma: None (no anti-A, no anti-B, no anti-D unless previously sensitised)",
     "options": [
+     "The student can: (1) predict ABO/Rh blood group from given antigen/antibody profile, (2) determine safe donor-recipient pairs for whole blood and plasma transfusion using",
      "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil",
-     "Lymph is colourless because it lacks erythrocytes (RBCs) and haemoglobin; during capillary filtration, the larger formed elements (RBCs, platelets",
      "Antigens on RBCs: A, B, and Rh (D). Antibodies in plasma: None (no anti-A, no anti-B, no anti-D unless previously sensitised)"
     ],
     "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying anti-A or anti-B are present) reveals the student has not internalised Landsteiner's law: an individual cannot make antibodies against their own RBC antigens. They are confusing the donor's perspective (receiving antibodies) with the recipient's own plasma composition.",
-    "id": "gen_c11_bio_ch15_q16",
+    "id": "gen_c11_bio_ch15_q17",
     "nodeId": "c11_bio_cbse_15_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a simple bedside maneuver (using only a stethoscope and blood pressure cuff) to distinguish whether a patient's murmur occurs during systole or diastole, and explain the physiological basis.",
-    "answer": "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can: (1) predict ABO/Rh blood group from given antigen/antibody profile, (2) determine safe donor-recipient pairs for whole blood and plasma transfusion using",
     "options": [
-     "Only O negative is compatible. Reasoning: (1) Recipient is B negative → has B antigen and Rh-negative (no D antigen)",
-     "(a) The left leg drains into the thoracic duct; blockage would cause lymph accumulation (lymphedema) in the left leg and left side of the body",
-     "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery"
+     "Antigens on RBCs: A, B, and Rh (D). Antibodies in plasma: None (no anti-A, no anti-B, no anti-D unless previously sensitised)",
+     "Both valves prevent backflow from ventricles to atria during systole. The tricuspid valve (right AV valve) has three cusps; the bicuspid/mitral valve (left AV valve) has two",
+     "The student can: (1) predict ABO/Rh blood group from given antigen/antibody profile, (2) determine safe donor-recipient pairs for whole blood and plasma transfusion using"
     ],
-    "hint": "Straight from the 'cardiac cycle' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., \"listen for loudness\") shows no understanding of the cardiac cycle's pressure events or the physics of Korotkoff sounds.",
-    "id": "gen_c11_bio_ch15_q17",
-    "nodeId": "c11_bio_cbse_15_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A 45-year-old male has BP 150/95 mmHg, LDL 160 mg/dL, HDL 35 mg/dL, and smokes 10 cigarettes/day. Calculate his 10-year cardiovascular risk category using the concept of risk factor clustering and explain which single modifiable factor contributes most to atherosclerotic progression.",
-    "answer": "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45",
-    "options": [
-     "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery",
-     "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil",
-     "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45"
-    ],
-    "hint": "Straight from the 'Hypertension' slide -- match the key terms.",
-    "misconception": "Wrong answer attributing most risk to LDL alone ignores the multiplicative effect of smoking on plaque rupture.",
+    "hint": "Straight from the 'ABO blood group system classifies' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) predict ABO/Rh blood group from given antigen/antibody profile, (2) determine safe donor-recipient",
     "id": "gen_c11_bio_ch15_q18",
-    "nodeId": "c11_bio_cbse_15_007",
-    "difficulty": "advanced"
+    "nodeId": "c11_bio_cbse_15_002",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about blood?",
+    "What surprised you about blood is a specialized connective tissue?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Blood mastered! 🎯",
+  "successLine": "Blood Is a Specialized mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -7405,7 +7684,9 @@ export const C11_BIO_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "biology",
   "topic": "Human Excretory System",
-  "chapters": ["Biology Ch16: Human Excretory System"],
+  "chapters": [
+   "Biology Ch16: Human Excretory System"
+  ],
   "nodeIds": [
    "c11_bio_cbse_16_001",
    "c11_bio_cbse_16_002",
@@ -7440,7 +7721,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Nephron",
+    "title": "A Nephron Is The Microscopic Structural",
     "text": "A nephron is the microscopic structural and functional unit of the kidney, composed of a renal corpuscle (glomerulus enclosed by Bowman's capsule) and a renal tubule (proximal convoluted tubule, loop of Henle, distal convoluted tubule, and collecting duct),",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -7492,7 +7773,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Perfuse IMCD with radiolabeled urea ± phloretin (UT inhibitor) or high urea gradient; measure transepithelial urea flux (Jurea) and transepithelial voltage (Vt)",
      "Path: Abdominal aorta → left renal artery → segmental arteries → interlobar arteries → arcuate arteries → interlobular arteries → afferent arteriole → glomerular capillaries (1st"
     ],
-    "hint": "Straight from the 'human excretory system consists of' slide -- match the key terms.",
+    "hint": "Straight from the 'human excretory system' slide -- match the key terms.",
     "misconception": "A wrong answer often omits the efferent arteriole as a resistance site or confuses peritubular capillaries with vasa recta.",
     "id": "gen_c11_bio_ch16_q1",
     "nodeId": "c11_bio_cbse_16_001",
@@ -7513,7 +7794,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Urine volume decreases sharply (both hormones promote water retention), urine osmolarity increases (ADH allows water reabsorption in medullary gradient)",
      "The PCT's brush border massively increases apical surface area for *high-capacity active reabsorption* of glucose, amino acids, ions, and water (70-80% of filtrate)"
     ],
-    "hint": "Straight from the 'nephron' slide -- match the key terms.",
+    "hint": "Straight from the 'A nephron is the microscopic' slide -- match the key terms.",
     "misconception": "A student who says \"both absorb so both need microvilli\" confuses *quantity* and *mechanism* of transport — they miss that structural adaptations match the *specific transport workload* of each segment.",
     "id": "gen_c11_bio_ch16_q2",
     "nodeId": "c11_bio_cbse_16_002",
@@ -7663,16 +7944,47 @@ export const C11_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the hormone released by the neurohypophysis in response to increased blood osmolarity and state its primary action on the nephron.",
-    "answer": "Antidiuretic hormone (ADH) or vasopressin is released; it increases water permeability of the late distal tubule and collecting duct by inserting aquaporin-2 channels",
-    "options": [
-     "Lungs eliminate carbon dioxide and water vapour; liver eliminates bilirubin, biliverdin, cholesterol, degraded steroid hormones, and drugs via bile",
-     "Calcium oxalate is the most common constituent; precipitation occurs when urine becomes supersaturated with calcium and oxalate ions due to low urine volume (concentrated urine)",
-     "Antidiuretic hormone (ADH) or vasopressin is released; it increases water permeability of the late distal tubule and collecting duct by inserting aquaporin-2 channels"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the RAAS cascade step-by-step",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "trace the complete ADH pathway",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "describe how ANF counteracts RAAS",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Regulation of kidney function' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., naming aldosterone or saying ADH causes diuresis) reveals confusion between water-conserving and sodium-conserving hormones, or misunderstanding of ADH's anti-diuretic effect.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) trace the complete ADH pathway from osmoreceptor stimulation to water reabsorption in",
     "id": "gen_c11_bio_ch16_q5",
     "nodeId": "c11_bio_cbse_16_005",
     "difficulty": "standard",
@@ -7762,7 +8074,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "answer": "Lungs eliminate carbon dioxide and water vapour; liver eliminates bilirubin, biliverdin, cholesterol, degraded steroid hormones, and drugs via bile",
     "options": [
      "Antidiuretic hormone (ADH) or vasopressin is released; it increases water permeability of the late distal tubule and collecting duct by inserting aquaporin-2 channels",
-     "Calcium oxalate is the most common constituent; precipitation occurs when urine becomes supersaturated with calcium and oxalate ions due to low urine volume (concentrated urine)",
+     "Regulation of kidney function refers to the hormonal feedback mechanisms (primarily ADH, RAAS, and ANF) that maintain homeostasis of blood volume, osmolarity, blood pressure",
      "Lungs eliminate carbon dioxide and water vapour; liver eliminates bilirubin, biliverdin, cholesterol, degraded steroid hormones, and drugs via bile"
     ],
     "hint": "Straight from the 'Accessory excretory organs' slide -- match the key terms.",
@@ -7786,7 +8098,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "False. Angiotensin II preferentially constricts the efferent arteriole (higher AT1 receptor density), which increases glomerular hydrostatic pressure (P_GC) and thus GFR",
      "Partially correct but incomplete. The afferent-efferent diameter difference *does* elevate glomerular hydrostatic pressure (~45-60 mmHg), increasing GFR"
     ],
-    "hint": "Straight from the 'human excretory system consists of' slide -- match the key terms.",
+    "hint": "Straight from the 'human excretory system' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Partially correct but incomplete. The afferent-efferent diameter difference *does* elevate glomerular hydrostatic",
     "id": "gen_c11_bio_ch16_q9",
     "nodeId": "c11_bio_cbse_16_001",
@@ -7801,7 +8113,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Partially correct but incomplete. The afferent-efferent diameter difference *does* elevate glomerular hydrostatic pressure (~45-60 mmHg), increasing GFR",
      "Incorrect. The vasa recta do supply O₂/nutrients, but their *unique, critical role* is preserving the medullary osmotic gradient via counter-current *exchange*"
     ],
-    "hint": "Straight from the 'nephron' slide -- match the key terms.",
+    "hint": "Straight from the 'A nephron is the microscopic' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement treats vasa recta as *ordinary* capillaries, missing their specialised *counter-current exchange* geometry — a classic error of applying general capillary physiology to a specialised renal structure.",
     "id": "gen_c11_bio_ch16_q10",
     "nodeId": "c11_bio_cbse_16_002",
@@ -7930,7 +8242,7 @@ export const C11_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about human excretory system consists of?",
+    "What surprised you about human excretory system?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -7982,7 +8294,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Muscles",
+    "title": "Muscles Are Specialised Mesodermal Tissues",
     "text": "Muscles are specialised mesodermal tissues constituting 40–50% of adult human body mass, classified into three types based on location, striation pattern, and neural control: skeletal (striated, voluntary, attached to bones), smooth/visceral (non-striated,",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -8006,7 +8318,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Joint",
+    "title": "A Joint Is a Point",
     "text": "A joint (articulation) is a point of contact between two or more bones, or between bone and cartilage, that permits movement and provides mechanical support; structurally classified as fibrous, cartilaginous, or synovial based on the connecting tissue and",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -8024,9 +8336,9 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the type of movement exhibited by human leucocytes and macrophages, and identify the cytoskeletal element primarily responsible for it.",
     "answer": "Amoeboid movement; microfilaments (actin filaments)",
     "options": [
-     "The three structural classes are: (1) Fibrous joints — bones connected by dense fibrous connective tissue (e",
-     "Cardiac muscle; found only in the heart wall (myocardium)",
-     "Pi movement; microfilaments (actin filaments)",
+     "Students believe ciliary movement and muscular movement are similar because both involve \"beating\" or \"contraction\" - they think cilia are tiny muscles",
+     "Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves",
+     "S-shaped movement; microfilaments (actin filaments)",
      "Amoeboid movement; microfilaments (actin filaments)"
     ],
     "hint": "Straight from the 'Amoeboid, ciliary, and muscular' slide -- match the key terms.",
@@ -8046,12 +8358,12 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the muscle type that is both striated and involuntary, and state its exclusive location in the human body.",
     "answer": "Cardiac muscle; found only in the heart wall (myocardium)",
     "options": [
-     "The three structural classes are: (1) Fibrous joints — bones connected by dense fibrous connective tissue (e",
-     "Amoeboid movement; microfilaments (actin filaments)",
-     "Subsequent ATP muscle; found only in the heart wall (myocardium)",
+     "Muscles are specialised mesodermal tissues constituting 40–50% of adult human body mass, classified into three types based on location, striation pattern",
+     "Student can correctly classify a given muscle description or micrograph into skeletal, smooth, or cardiac type by stating its striation status",
+     "Pectoral muscle; found only in the heart wall (myocardium)",
      "Cardiac muscle; found only in the heart wall (myocardium)"
     ],
-    "hint": "Straight from the 'Muscles' slide -- match the key terms.",
+    "hint": "Straight from the 'Muscles are specialised' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"smooth muscle\" or \"skeletal muscle\") reveals confusion between striation pattern and control mechanism — the student has not internalised that striation and voluntary control do not always go together.",
     "id": "gen_c11_bio_ch17_q2",
     "nodeId": "c11_bio_cbse_17_002",
@@ -8120,8 +8432,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the specific protein complex on the thin filament that binds calcium ions during excitation-contraction coupling, and state the immediate conformational consequence of this binding.",
     "answer": "The troponin complex (specifically the troponin-C subunit) binds Ca²⁺. This binding causes a conformational change in the troponin-tropomyosin complex",
     "options": [
-     "Amoeboid movement; microfilaments (actin filaments)",
-     "Cardiac muscle; found only in the heart wall (myocardium)",
+     "The student must be able to sequentially explain the events from motor neuron signaling to sarcomere shortening, including the specific roles of acetylcholine",
+     "The student can classify any given joint into fibrous, cartilaginous, or synovial categories, name the six types of synovial joints with at least one human example each",
      "The troponin complex (specifically the troponin-C subunit) binds Ca²⁺. This binding causes a conformational change in the troponin-tropomyosin complex"
     ],
     "hint": "Straight from the 'Excitation-contraction coupling' slide -- match the key terms.",
@@ -8415,6 +8727,51 @@ export const C11_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Amoeboid, ciliary, and muscular movements?",
+    "answer": "Students believe ciliary movement and muscular movement are similar because both involve \"beating\" or \"contraction\" - they think cilia are tiny muscles",
+    "options": [
+     "Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves",
+     "Amoeboid movement; microfilaments (actin filaments)",
+     "Students believe ciliary movement and muscular movement are similar because both involve \"beating\" or \"contraction\" - they think cilia are tiny muscles"
+    ],
+    "hint": "Straight from the 'Amoeboid, ciliary, and muscular' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe ciliary movement and muscular movement are similar because both involve \"beating\" or \"contraction\" -",
+    "id": "gen_c11_bio_ch17_q14",
+    "nodeId": "c11_bio_cbse_17_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Amoeboid, ciliary, and muscular movements? State the definition given in this lesson.",
+    "answer": "Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves",
+    "options": [
+     "Students believe ciliary movement and muscular movement are similar because both involve \"beating\" or \"contraction\" - they think cilia are tiny muscles",
+     "Amoeboid movement; microfilaments (actin filaments)",
+     "Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves"
+    ],
+    "hint": "Straight from the 'Amoeboid, ciliary, and muscular' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by",
+    "id": "gen_c11_bio_ch17_q15",
+    "nodeId": "c11_bio_cbse_17_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can distinguish between the three movement types by identifying the cellular mechanism, location in the human body, and physiological function for each",
+    "options": [
+     "Student can correctly classify a given muscle description or micrograph into skeletal, smooth, or cardiac type by stating its striation status",
+     "The troponin complex (specifically the troponin-C subunit) binds Ca²⁺. This binding causes a conformational change in the troponin-tropomyosin complex",
+     "The student can distinguish between the three movement types by identifying the cellular mechanism, location in the human body, and physiological function for each"
+    ],
+    "hint": "Straight from the 'Amoeboid, ciliary, and muscular' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can distinguish between the three movement types by identifying the cellular mechanism, location in the",
+    "id": "gen_c11_bio_ch17_q16",
+    "nodeId": "c11_bio_cbse_17_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A histology slide shows long, cylindrical, multinucleate fibres with clear cross-striations. The tissue was taken from the wall of the urinary bladder. Identify the muscle type and explain why this identification is impossible.",
     "answer": "The described fibres match skeletal muscle, but the urinary bladder wall contains only smooth (visceral) muscle",
     "options": [
@@ -8422,9 +8779,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "Prediction: The muscle will exhibit constitutive (unregulated) contraction or severe weakness with impaired relaxation",
      "The described fibres match skeletal muscle, but the urinary bladder wall contains only smooth (visceral) muscle"
     ],
-    "hint": "Straight from the 'Muscles' slide -- match the key terms.",
+    "hint": "Straight from the 'Muscles are specialised' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it is skeletal muscle\") shows the student relies on a single feature (striation) and ignores location — a classic Class 11 error of not integrating all three classification criteria.",
-    "id": "gen_c11_bio_ch17_q14",
+    "id": "gen_c11_bio_ch17_q17",
     "nodeId": "c11_bio_cbse_17_002",
     "difficulty": "standard"
    },
@@ -8437,53 +8794,8 @@ export const C11_BIO_GEN: SimDef[] = [
      "Ciliary movement generates directional fluid/mucus flow over epithelial surfaces through coordinated metachronous beating",
      "The statement is partially correct: the core sliding filament mechanism (actin-myosin cross-bridge cycling) is conserved"
     ],
-    "hint": "Straight from the 'Muscles' slide -- match the key terms.",
+    "hint": "Straight from the 'Muscles are specialised' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"fully correct\" overlooks the physiological differences in Ca²⁺ handling and neural control that are crucial for heart rhythm.",
-    "id": "gen_c11_bio_ch17_q15",
-    "nodeId": "c11_bio_cbse_17_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the nuclear arrangement in skeletal, smooth, and cardiac muscle fibres. How does this structural difference reflect their mode of growth and repair?",
-    "answer": "Skeletal: multinucleate (syncytium from fusion of myoblasts) — permits hypertrophy but limited regeneration via satellite cells",
-    "options": [
-     "Tropomyosin is a fibrous protein that physically blocks myosin-binding sites on actin in the resting state",
-     "Contraction (Cross-bridge cycle): ATP binds to the myosin head (ATP-binding site), causing detachment of the cross-bridge from actin",
-     "Skeletal: multinucleate (syncytium from fusion of myoblasts) — permits hypertrophy but limited regeneration via satellite cells"
-    ],
-    "hint": "Straight from the 'Muscles' slide -- match the key terms.",
-    "misconception": "A wrong answer stating all three are uninucleate ignores the syncytial nature of skeletal muscle, a key distinction for understanding muscle repair.",
-    "id": "gen_c11_bio_ch17_q16",
-    "nodeId": "c11_bio_cbse_17_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple microscopic observation protocol (stains, magnification, key features to note) that would allow a Class 11 student to distinguish the three muscle types in unlabelled histological sections.",
-    "answer": "Use H&E stain at 400×. Skeletal: long parallel fibres, peripheral nuclei, clear A/I bands. Smooth: short spindle-shaped fibres, central nucleus, no striations",
-    "options": [
-     "Cardiac muscle is rich in myoglobin and mitochondria (red fibres), enabling continuous aerobic ATP production",
-     "Ciliary movement generates directional fluid/mucus flow over epithelial surfaces through coordinated metachronous beating",
-     "Use H&E stain at 400×. Skeletal: long parallel fibres, peripheral nuclei, clear A/I bands. Smooth: short spindle-shaped fibres, central nucleus, no striations"
-    ],
-    "hint": "Straight from the 'Muscles' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Use H&E stain at 400×. Skeletal: long parallel fibres, peripheral nuclei, clear A/I bands.",
-    "id": "gen_c11_bio_ch17_q17",
-    "nodeId": "c11_bio_cbse_17_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "During a marathon, a runner's leg muscles fatigue while her heart continues beating rhythmically. Using the concepts of myoglobin content, mitochondrial density, and fatigue resistance, explain why cardiac muscle does not fatigue under normal aerobic conditions whereas skeletal muscle does.",
-    "answer": "Cardiac muscle is rich in myoglobin and mitochondria (red fibres), enabling continuous aerobic ATP production",
-    "options": [
-     "Impaired: (b) mucus clearance from trachea and (c) ovum transport in fallopian tube. Dynein arms power ciliary beating; both processes depend on ciliary movement",
-     "Use H&E stain at 400×. Skeletal: long parallel fibres, peripheral nuclei, clear A/I bands. Smooth: short spindle-shaped fibres, central nucleus, no striations",
-     "Cardiac muscle is rich in myoglobin and mitochondria (red fibres), enabling continuous aerobic ATP production"
-    ],
-    "hint": "Straight from the 'Muscles' slide -- match the key terms.",
-    "misconception": "A wrong answer that attributes cardiac endurance solely to \"involuntary control\" misses the biochemical basis (myoglobin/mitochondria) taught in this chapter.",
     "id": "gen_c11_bio_ch17_q18",
     "nodeId": "c11_bio_cbse_17_002",
     "difficulty": "standard"
@@ -8495,20 +8807,20 @@ export const C11_BIO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Amoeboid, Ciliary, And mastered! 🎯",
+  "successLine": "Amoeboid, Ciliary, mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_bio_ch18",
-  "title": "Neuron",
+  "title": "A Neuron Is The Structural",
   "subtitle": "Biology · Chapter 18",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Neuron",
+  "topic": "A Neuron Is The Structural",
   "chapters": [
-   "Biology Ch18: Neuron"
+   "Biology Ch18: A Neuron Is The Structural"
   ],
   "nodeIds": [
    "c11_bio_cbse_18_001",
@@ -8528,7 +8840,7 @@ export const C11_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Neuron actually explain?",
+   "question": "In one line -- what does A Neuron Is The Structural actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -8539,7 +8851,7 @@ export const C11_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Neuron",
+    "title": "A Neuron Is The Structural",
     "text": "A neuron is the structural and functional unit of the neural system, specialized for detecting, receiving, and transmitting electrochemical signals via distinct regions: the cell body (soma) containing Nissl's granules, short branched dendrites that conduct",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -8551,7 +8863,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Synapse",
+    "title": "A Synapse Is a Specialized Junction",
     "text": "A synapse is a specialized junction between a pre-synaptic neuron and a post-synaptic neuron (or effector cell) where nerve impulses are transmitted either directly via electrical current flow (electrical synapse) or indirectly via chemical neurotransmitters",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -8569,7 +8881,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Peripheral Nervous System Consists",
+    "title": "Peripheral Nervous System",
     "text": "The peripheral nervous system (PNS) consists of all nerves arising from the central nervous system (brain and spinal cord) that connect the CNS to the rest of the body.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -8603,7 +8915,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Similarities: Both use hair cells with stereocilia/kinocilium; both rely on K⁺ influx from endolymph for depolarization",
      "Cranial nerves (myelinated) would show severely reduced conduction velocity because saltatory conduction at nodes of Ranvier is lost"
     ],
-    "hint": "Straight from the 'neuron' slide -- match the key terms.",
+    "hint": "Straight from the 'A neuron is the structural' slide -- match the key terms.",
     "misconception": "A wrong prediction (e.g., \"both equally affected\") reveals failure to link Schwann cell function to axon type-specific conduction mechanisms.",
     "id": "gen_c11_bio_ch18_q1",
     "nodeId": "c11_bio_cbse_18_001",
@@ -8620,8 +8932,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "State the exact ionic distribution across the axonal membrane at rest and name the protein responsible for maintaining it.",
     "answer": "At rest, the axoplasm has high K⁺ and negatively charged proteins, low Na⁺; the extracellular fluid has high Na⁺, low K⁺",
     "options": [
-     "Malleus → Incus → Stapes. The stapedius muscle dampens stapes movement to protect the inner ear from intense low-frequency sounds (acoustic reflex)",
-     "The three meningeal layers from outermost to innermost are: dura mater (outermost, tough fibrous layer), arachnoid (middle, thin web-like layer), and pia mater (innermost",
+     "The three meningeal layers from outermost to innermost are: dura mater (tough, fibrous outer layer), arachnoid mater (thin, web-like middle layer), and pia mater (delicate",
+     "The student can draw and label a transverse section of the spinal cord showing grey matter horns, white matter columns, central canal, and meninges",
      "At rest, the axoplasm has high K⁺ and negatively charged proteins, low Na⁺; the extracellular fluid has high Na⁺, low K⁺"
     ],
     "hint": "Straight from the 'generation and conduction of a' slide -- match the key terms.",
@@ -8645,7 +8957,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "(a) Monosynaptic: 1 synapse (sensory → motor); Polysynaptic: 2+ synapses (sensory → interneuron → motor)",
      "Electrical synapses are faster (near-instantaneous) because current flows directly through gap junctions; chemical synapses are slower (0"
     ],
-    "hint": "Straight from the 'synapse' slide -- match the key terms.",
+    "hint": "Straight from the 'A synapse is a specialized' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"chemical synapses are faster\" or \"both are equally modifiable\") reveals a failure to link the structural difference (cleft vs gap junction) to functional consequences for neural processing and adaptability.",
     "id": "gen_c11_bio_ch18_q3",
     "nodeId": "c11_bio_cbse_18_003",
@@ -8725,8 +9037,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the three meningeal layers covering the spinal cord from outermost to innermost, and state which layer is in direct contact with the spinal cord tissue.",
     "answer": "The three meningeal layers from outermost to innermost are: dura mater (tough, fibrous outer layer), arachnoid mater (thin, web-like middle layer), and pia mater (delicate",
     "options": [
-     "Correct sequence: Receptor → Sensory neuron → Interneuron (in spinal cord) → Motor neuron → Effector (muscle/gland)",
      "(1) Fibrous tunic – dense regular connective tissue (sclera) and transparent avascular collagen (cornea)",
+     "The student must be able to: (1) label all histological layers of the eyeball wall (fibrous, vascular, nervous) and internal chambers on a sagittal diagram",
      "The three meningeal layers from outermost to innermost are: dura mater (tough, fibrous outer layer), arachnoid mater (thin, web-like middle layer), and pia mater (delicate"
     ],
     "hint": "Straight from the 'spinal cord' slide -- match the key terms.",
@@ -8765,8 +9077,8 @@ export const C11_BIO_GEN: SimDef[] = [
     "question": "Name the five components of a reflex arc in the correct sequential order from stimulus to response.",
     "answer": "Correct sequence: Receptor → Sensory neuron → Interneuron (in spinal cord) → Motor neuron → Effector (muscle/gland)",
     "options": [
+     "The student can trace the complete reflex arc pathway for a given stimulus (e.g., touching a hot plate), identify each component's location and function",
      "Malleus → Incus → Stapes. The stapedius muscle dampens stapes movement to protect the inner ear from intense low-frequency sounds (acoustic reflex)",
-     "At rest, the axoplasm has high K⁺ and negatively charged proteins, low Na⁺; the extracellular fluid has high Na⁺, low K⁺",
      "Correct sequence: Receptor → Sensory neuron → Interneuron (in spinal cord) → Motor neuron → Effector (muscle/gland)"
     ],
     "hint": "Straight from the 'reflex action' slide -- match the key terms.",
@@ -8945,6 +9257,52 @@ export const C11_BIO_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the molecular mechanism",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "trace the neural pathway",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "label all histological layers of the eyeball",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) label all histological layers of the eyeball wall (fibrous, vascular, nervous) and",
+    "id": "gen_c11_bio_ch18_q12",
+    "nodeId": "c11_bio_cbse_18_008",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Compare the structural adaptations of a multipolar neuron in the cerebral cortex versus a bipolar neuron in the retina that enable their distinct roles in information processing. Include at least three specific structural differences with functional correlates.",
     "answer": "1. Dendritic complexity: Multipolar neurons have numerous highly branched dendrites with dendritic spines (increasing surface area for ~10,000 synaptic inputs for integration)",
@@ -8953,9 +9311,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "Cranial nerves (12 pairs) originate from the brain (mostly brainstem) and innervate structures of the head, neck, and thoracic/abdominal viscera (especially vagus X)",
      "1. Dendritic complexity: Multipolar neurons have numerous highly branched dendrites with dendritic spines (increasing surface area for ~10,000 synaptic inputs for integration)"
     ],
-    "hint": "Straight from the 'neuron' slide -- match the key terms.",
+    "hint": "Straight from the 'A neuron is the structural' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 1. Dendritic complexity: Multipolar neurons have numerous highly branched dendrites with dendritic spines (increasing",
-    "id": "gen_c11_bio_ch18_q12",
+    "id": "gen_c11_bio_ch18_q13",
     "nodeId": "c11_bio_cbse_18_001",
     "difficulty": "standard"
    },
@@ -8968,9 +9326,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "Depolarisation (Na⁺ influx) will occur normally, but repolarisation will be severely delayed or absent because K⁺ efflux is blocked",
      "Use osmium tetroxide (stains lipid-rich myelin black) or luxol fast blue (myelin-specific blue stain)"
     ],
-    "hint": "Straight from the 'neuron' slide -- match the key terms.",
+    "hint": "Straight from the 'A neuron is the structural' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Use osmium tetroxide (stains lipid-rich myelin black) or luxol fast blue (myelin-specific blue stain).",
-    "id": "gen_c11_bio_ch18_q13",
+    "id": "gen_c11_bio_ch18_q14",
     "nodeId": "c11_bio_cbse_18_001",
     "difficulty": "standard"
    },
@@ -8983,9 +9341,9 @@ export const C11_BIO_GEN: SimDef[] = [
      "The rising phase is brief because Na⁺ channels rapidly inactivate (not just close) within ~1 ms, and simultaneously voltage-gated K⁺ channels open",
      "The statement is false. Classification directly reflects functional circuitry: Multipolar (interneurons/motor) integrate multiple inputs for complex processing"
     ],
-    "hint": "Straight from the 'neuron' slide -- match the key terms.",
+    "hint": "Straight from the 'A neuron is the structural' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. Classification directly reflects functional circuitry: Multipolar (interneurons/motor)",
-    "id": "gen_c11_bio_ch18_q14",
+    "id": "gen_c11_bio_ch18_q15",
     "nodeId": "c11_bio_cbse_18_001",
     "difficulty": "standard"
    },
@@ -9000,7 +9358,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'generation and conduction of a' slide -- match the key terms.",
     "misconception": "A wrong prediction (e.g., \"action potentials become faster\") shows failure to link K⁺ efflux to both repolarisation and recovery from inactivation.",
-    "id": "gen_c11_bio_ch18_q15",
+    "id": "gen_c11_bio_ch18_q16",
     "nodeId": "c11_bio_cbse_18_002",
     "difficulty": "standard"
    },
@@ -9015,7 +9373,7 @@ export const C11_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'generation and conduction of a' slide -- match the key terms.",
     "misconception": "A student who says \"Na⁺ channels close slowly\" confuses inactivation with deactivation and misses the critical role of K⁺ efflux in terminating depolarisation.",
-    "id": "gen_c11_bio_ch18_q16",
+    "id": "gen_c11_bio_ch18_q17",
     "nodeId": "c11_bio_cbse_18_002",
     "difficulty": "standard"
    },
@@ -9028,35 +9386,20 @@ export const C11_BIO_GEN: SimDef[] = [
      "The facial nerve (VII) is damaged. It is a mixed nerve, but its motor component supplies the muscles of facial expression",
      "Stimulate the motor nerve electrically and record muscle contraction. Then apply a solution containing a competitive antagonist of the acetylcholine receptor (e"
     ],
-    "hint": "Straight from the 'synapse' slide -- match the key terms.",
+    "hint": "Straight from the 'A synapse is a specialized' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Stimulate the motor nerve electrically and record muscle contraction.",
-    "id": "gen_c11_bio_ch18_q17",
-    "nodeId": "c11_bio_cbse_18_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A researcher proposes: \"Since the limbic system includes the hippocampus and amygdala, and the hypothalamus controls hunger, we can cure obesity by electrically stimulating the amygdala to suppress appetite.\" Evaluate this proposal.",
-    "answer": "The proposal is flawed. The amygdala processes fear and emotional valence, not satiety; stimulating it may cause anxiety or aggression, not reduced hunger",
-    "options": [
-     "Depolarisation (Na⁺ influx) will occur normally, but repolarisation will be severely delayed or absent because K⁺ efflux is blocked",
-     "The dorsal horns receive afferent (sensory) impulses entering via dorsal roots, so they contain sensory neuron terminals and interneurons for initial processing",
-     "The proposal is flawed. The amygdala processes fear and emotional valence, not satiety; stimulating it may cause anxiety or aggression, not reduced hunger"
-    ],
-    "hint": "Straight from the 'human brain' slide -- match the key terms.",
-    "misconception": "A student who accepts the proposal confuses emotional processing with homeostatic regulation and ignores the specific nuclear organization of the hypothalamus.",
     "id": "gen_c11_bio_ch18_q18",
-    "nodeId": "c11_bio_cbse_18_004",
+    "nodeId": "c11_bio_cbse_18_003",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about neuron?",
+    "What surprised you about a neuron is the structural?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Neuron mastered! 🎯",
+  "successLine": "A Neuron Is The Structural mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -9103,7 +9446,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Pancreas",
+    "title": "The Pancreas Is a Composite Gland",
     "text": "The pancreas is a composite gland functioning as both an exocrine and endocrine organ; its endocrine portion consists of Islets of Langerhans containing α-cells that secrete glucagon (a hyperglycemic peptide hormone stimulating glycogenolysis and",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -9115,7 +9458,7 @@ export const C11_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Gonads",
+    "title": "Gonads Are Dual-function Organs",
     "text": "Gonads are dual-function organs (testis in males, ovary in females) that produce gametes and secrete steroid hormones—androgens (primarily testosterone) from Leydig cells of the testis, and estrogens (from growing follicles) and progesterone (from corpus",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9248,7 +9591,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The statement is false. Evidence: (1) Leydig cells in males produce testosterone, but Sertoli cells aromatize some testosterone to estradiol",
      "FSH binds to receptors on Sertoli cells, stimulating them to produce androgen-binding protein (ABP) and inhibin"
     ],
-    "hint": "Straight from the 'Gonads' slide -- match the key terms.",
+    "hint": "Straight from the 'Gonads are dual-function organs' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"FSH directly stimulates Leydig cells\") shows the student does not understand the cell-type specificity of gonadotropin action and the paracrine cooperation between Leydig and Sertoli cells.",
     "id": "gen_c11_bio_ch19_q4",
     "nodeId": "c11_bio_cbse_19_005",
@@ -9353,7 +9696,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "The patient will develop anemia (low RBC count) because damaged juxtaglomerular cells produce insufficient erythropoietin, reducing stimulation of erythropoiesis in bone marrow",
      "Treatments: (1) Control (basal), (2) + Glucagon (10 nM), (3) + Insulin (100 nM), (4) + Glucagon + Insulin"
     ],
-    "hint": "Straight from the 'pancreas' slide -- match the key terms.",
+    "hint": "Straight from the 'The pancreas is a composite gland' slide -- match the key terms.",
     "misconception": "A poor answer measuring only \"glucose uptake\" misses that hepatocytes take up glucose via GLUT2 bidirectionally; the key is net glycogen synthesis vs. breakdown, requiring direct glycogen quantification or radiolabel flux.",
     "id": "gen_c11_bio_ch19_q7",
     "nodeId": "c11_bio_cbse_19_003",
@@ -9383,7 +9726,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Treatments: (1) Control (basal), (2) + Glucagon (10 nM), (3) + Insulin (100 nM), (4) + Glucagon + Insulin",
      "LH surge triggers ovulation. Rising estrogen from the mature follicle exerts positive feedback on the anterior pituitary, causing a massive LH release"
     ],
-    "hint": "Straight from the 'Gonads' slide -- match the key terms.",
+    "hint": "Straight from the 'Gonads are dual-function organs' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"FSH surge causes ovulation\") indicates the student cannot differentiate the distinct roles of the two gonadotropins in the ovarian cycle.",
     "id": "gen_c11_bio_ch19_q9",
     "nodeId": "c11_bio_cbse_19_005",
@@ -9398,7 +9741,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Primary adrenal insufficiency (Addison's disease). Low cortisol → loss of negative feedback → high ACTH (which shares POMC precursor with MSH → hyperpigmentation)",
      "In the menstrual cycle, progesterone is secreted by the corpus luteum (formed from the ruptured follicle) and prepares the endometrium for implantation"
     ],
-    "hint": "Straight from the 'Gonads' slide -- match the key terms.",
+    "hint": "Straight from the 'Gonads are dual-function organs' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Progesterone comes from the adrenal cortex in pregnancy\") shows the student has not linked corpus luteum function to pregnancy maintenance.",
     "id": "gen_c11_bio_ch19_q10",
     "nodeId": "c11_bio_cbse_19_005",
@@ -9413,7 +9756,7 @@ export const C11_BIO_GEN: SimDef[] = [
      "Pheochromocytoma causes episodic catecholamine surges → α-adrenergic vasoconstriction + β₁ cardiac stimulation → paroxysmal BP spikes, headache, sweating",
      "The statement is false. Evidence: (1) Leydig cells in males produce testosterone, but Sertoli cells aromatize some testosterone to estradiol"
     ],
-    "hint": "Straight from the 'Gonads' slide -- match the key terms.",
+    "hint": "Straight from the 'Gonads are dual-function organs' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., agreeing with the statement) reveals a binary misconception that ignores the shared steroidogenic pathways and local conversion in both gonads.",
     "id": "gen_c11_bio_ch19_q11",
     "nodeId": "c11_bio_cbse_19_005",

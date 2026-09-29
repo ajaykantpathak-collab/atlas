@@ -1126,7 +1126,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-purple-950/80 text-purple-300 border-purple-700'
-                : 'bg-blue-950/80 text-blue-300 border-blue-700'
+                : 'bg-gold-950/80 text-gold-300 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1516,7 +1516,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>pH Level: {enzymePH.toFixed(1)}</span>
-                          <span className="text-blue-400 font-bold">
+                          <span className="text-gold-400 font-bold">
                             {enzymePH < 4 ? 'Acidic Inactivation' : enzymePH > 10 ? 'Alkaline Inactivation' : 'Optimum Neutral'}
                           </span>
                         </div>
@@ -1528,7 +1528,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                           value={enzymePH}
                           aria-label="Enzyme reaction pH level"
                           onChange={(e) => setEnzymePH(Number(e.target.value))}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1540,7 +1540,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                             aria-label={`Set inhibitor mode: ${mode}`}
                             className={`flex-1 py-1.5 px-2 rounded-lg text-xs capitalize border transition-all ${
                               hasInhibitor === mode
-                                ? 'bg-indigo-950 border-indigo-500 text-indigo-200 font-bold'
+                                ? 'bg-gold-950 border-gold-500 text-gold-200 font-bold'
                                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850'
                             }`}
                           >
@@ -1601,7 +1601,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[11px] text-slate-400 block">Ploidy / Morphology</span>
-                        <span className="text-sm font-bold text-blue-400">{dnaCValue.nVal}</span>
+                        <span className="text-sm font-bold text-gold-400">{dnaCValue.nVal}</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[11px] text-slate-400 block">Primary Event</span>
@@ -1697,7 +1697,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
 
             {/* Sandbox Panel 2: Enzyme Catalysis Engine */}
             <div className="p-4 bg-slate-900/90 border border-slate-800 rounded-2xl space-y-3">
-              <h4 className="text-xs font-bold text-indigo-300 uppercase">Catalytic Kinetics Simulator</h4>
+              <h4 className="text-xs font-bold text-gold-300 uppercase">Catalytic Kinetics Simulator</h4>
               <div className="grid grid-cols-2 gap-3">
                 <div>
                   <span className="text-[11px] text-slate-400">Temp: {enzymeTemp}°C</span>
@@ -1708,7 +1708,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                     value={enzymeTemp}
                     aria-label="Sandbox enzyme temperature"
                     onChange={(e) => setEnzymeTemp(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div>
@@ -1721,13 +1721,13 @@ function C11_BiologyCellWallPlasmodesmataSim({
                     value={enzymePH}
                     aria-label="Sandbox enzyme pH"
                     onChange={(e) => setEnzymePH(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
               <div className="p-2.5 bg-slate-950 rounded-xl text-xs flex justify-between items-center">
                 <span className="text-slate-400">Reaction Velocity:</span>
-                <span className="text-indigo-300 font-bold text-sm">{enzymeActivityRate} μmol/min</span>
+                <span className="text-gold-300 font-bold text-sm">{enzymeActivityRate} μmol/min</span>
               </div>
             </div>
           </div>
@@ -1818,7 +1818,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-600 text-indigo-200 text-xs font-bold rounded-lg cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-600 text-gold-200 text-xs font-bold rounded-lg cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -1953,7 +1953,7 @@ function C11_BiologyCellWallPlasmodesmataSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
                       aria-label={`Add component ${part}`}
-                      className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 text-indigo-300 text-xs font-semibold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-950 border border-gold-700 text-gold-300 text-xs font-semibold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2103,11 +2103,11 @@ function C11_BiologyCellWallPlasmodesmataSim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl text-xs text-slate-300 space-y-2">
-            <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">📅 Spaced Repetition Review Schedule</h4>
+          <div className="p-5 bg-gold-950/40 border border-gold-800/60 rounded-2xl text-xs text-slate-300 space-y-2">
+            <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">📅 Spaced Repetition Review Schedule</h4>
             <p>
               Based on the SuperMemo-2 (SM-2) memory consolidation curve, schedule your next rapid revision in{' '}
-              <strong className="text-indigo-300 font-bold">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</strong>.
+              <strong className="text-gold-300 font-bold">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</strong>.
             </p>
           </div>
 

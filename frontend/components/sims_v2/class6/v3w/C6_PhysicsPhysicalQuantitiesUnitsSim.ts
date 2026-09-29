@@ -11,7 +11,7 @@ export const w_c6_physicsphysicalquantitiesunitssim: SimDef = {
     classLevel: 6, subject: 'physics', topic: 'Measuring Time: From Sundials to Clocks',
     chapters: [],
     nodeIds: ['c6_physics_ch08_027', 'c6_physics_ch08_029', 'c6_physics_ch08_031', 'c6_physics_ch08_030'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for your favorite television show to start; do you check the clock in hours or.', goal: 'Master Measuring Time: From Sundials to Clocks.' },
     discovery: {
         question: 'What is the mathematical formula used to calculate the speed of a moving object?',
@@ -20,7 +20,7 @@ export const w_c6_physicsphysicalquantitiesunitssim: SimDef = {
         hook: 'Students often confuse the units of speed (km/h vs m/s) and treat them as interchangeable without conversion.',
     },
     teaching: [
-        { title: 'Time is a physical quantity used to measure.', text: 'Time is a physical quantity used to measure the duration of events or the interval between them, with the \'second\' serving as the basic SI unit.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Time is a physical quantity used to measure.', text: 'Time is a physical quantity used to measure the duration of events or the interval between them, with the \'second\' serving as the basic SI unit.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_physics_ch08_034', title: 'Time is a physical quantity used to.',

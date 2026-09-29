@@ -11,7 +11,7 @@ export const w_c11_commercetypesretailtradesim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Internal Trade: Meaning, Types and Importance',
     chapters: [],
     nodeIds: ['c11_bs_cbse_10_001', 'c11_bs_cbse_10_002', 'c11_bs_cbse_10_003', 'c11_bs_cbse_10_008', 'c11_bs_cbse_10_011', 'c11_bs_cbse_01_007', 'c11_bs_cbse_10_006', 'c11_bs_cbse_10_009', 'c11_bs_cbse_10_004', 'c11_bs_cbse_10_005', 'c11_bs_cbse_10_007', 'c11_bs_cbse_01_004', 'c11_bs_cbse_01_005', 'c11_bs_cbse_01_006', 'c11_bs_cbse_01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into your neighbourhood kirana store to buy a packet of biscuits — that biscuit was.', goal: 'Master Internal Trade: Meaning, Types and Importance.' },
     discovery: {
         question: 'A farmer in Punjab sells wheat to a flour mill in Punjab. The flour mill sells flour to a wholesaler in Delhi. The wholesaler sells to a retailer in Mumbai.',
@@ -20,7 +20,7 @@ export const w_c11_commercetypesretailtradesim: SimDef = {
         hook: 'Students believe "internal trade = local trade within a city/state" and "external trade = trade between states." They.',
     },
     teaching: [
-        { title: 'Internal trade refers to the buying and.', text: 'Internal trade refers to the buying and selling of goods and services within the geographical boundaries of a nation, where no custom duty or import duty is levied because goods are part of domestic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Internal trade refers to the buying and.', text: 'Internal trade refers to the buying and selling of goods and services within the geographical boundaries of a nation, where no custom duty or import duty is levied because goods are part of domestic.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_10_001', title: 'Internal trade refers to the buying and.',

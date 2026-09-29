@@ -591,7 +591,7 @@ const AtomicStructureDiagram: React.FC<{
 }> = ({ protons, neutrons, electrons, symbol, massNumber, charge }) => {
   return (
     <div className="flex flex-col items-center bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-xl">
-      <div className="text-xs font-mono text-cyan-400 mb-2">DYNAMIC NUCLIDE SCHEMATIC</div>
+      <div className="text-xs font-mono text-gold-400 mb-2">DYNAMIC NUCLIDE SCHEMATIC</div>
       <svg width="280" height="220" viewBox="0 0 280 220" className="overflow-visible">
         {/* Outer Shell Orbitals */}
         <circle cx="140" cy="110" r="85" fill="none" stroke="#334155" strokeWidth="1.5" strokeDasharray="4 4" />
@@ -661,7 +661,7 @@ const AtomicStructureDiagram: React.FC<{
       <div className="flex gap-4 text-xs mt-2 text-slate-300 font-mono">
         <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-red-500"></span> Protons: {protons}</span>
         <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-slate-500"></span> Neutrons: {neutrons}</span>
-        <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-sky-400"></span> Electrons: {electrons}</span>
+        <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-gold-400"></span> Electrons: {electrons}</span>
       </div>
     </div>
   );
@@ -676,8 +676,8 @@ const CrissCrossDiagram: React.FC<{
   resultFormula: string;
 }> = ({ cation, cationValency, anion, anionValency, resultFormula }) => {
   return (
-    <div className="flex flex-col items-center bg-slate-900 p-5 rounded-xl border border-cyan-800/50 shadow-2xl my-3">
-      <div className="text-xs font-mono text-cyan-300 mb-3 tracking-widest uppercase">IUPAC Criss-Cross Valency Exchange</div>
+    <div className="flex flex-col items-center bg-slate-900 p-5 rounded-xl border border-gold-800/50 shadow-2xl my-3">
+      <div className="text-xs font-mono text-gold-300 mb-3 tracking-widest uppercase">IUPAC Criss-Cross Valency Exchange</div>
       <svg width="340" height="180" viewBox="0 0 340 180" className="overflow-visible">
         {/* Cation Box */}
         <g transform="translate(40, 20)">
@@ -761,8 +761,8 @@ const DaltonVsBerzeliusDiagram: React.FC = () => {
 const PolyatomicRadicalDiagram: React.FC<{ radicalId: string }> = ({ radicalId }) => {
   const radical = RADICALS.find(r => r.id === radicalId) || RADICALS[4]; // default CO3
   return (
-    <div className="flex flex-col items-center bg-slate-950 p-4 rounded-xl border border-indigo-700/50">
-      <div className="text-xs font-mono text-indigo-300 mb-2 uppercase tracking-wide">
+    <div className="flex flex-col items-center bg-slate-950 p-4 rounded-xl border border-gold-700/50">
+      <div className="text-xs font-mono text-gold-300 mb-2 uppercase tracking-wide">
         Radical Structure: {radical.name} ({radical.formula})
       </div>
       <svg width="240" height="150" viewBox="0 0 240 150">
@@ -826,7 +826,7 @@ const PolyatomicRadicalDiagram: React.FC<{ radicalId: string }> = ({ radicalId }
           </g>
         )}
       </svg>
-      <div className="text-xs text-indigo-200 mt-1 font-mono">
+      <div className="text-xs text-gold-200 mt-1 font-mono">
         Net Radical Charge: <span className="text-pink-400 font-bold">{radical.charge > 0 ? `+${radical.charge}` : radical.charge}</span> | Structure: {radical.structure}
       </div>
     </div>
@@ -1086,11 +1086,11 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
       {/* TOP HEADER & NAVIGATION BAR */}
       <header className="w-full bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-4 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-white font-black text-2xl shadow-lg shadow-cyan-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center text-white font-black text-2xl shadow-lg shadow-gold-500/30">
             🧪
           </div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">CISCE / ICSE Class 9 Chemistry • Topic: Symbols of Elements</p>
@@ -1106,7 +1106,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
           <div className="w-px h-8 bg-slate-800" />
           <div className="text-center">
             <span className="text-[10px] text-slate-400 font-mono uppercase tracking-widest block">BKT Mastery</span>
-            <span className="text-lg font-black text-cyan-400">{overallMastery}%</span>
+            <span className="text-lg font-black text-gold-400">{overallMastery}%</span>
           </div>
         </div>
 
@@ -1116,7 +1116,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             onClick={() => handleTabChange('discovery')}
             className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'discovery'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1126,7 +1126,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             onClick={() => handleTabChange('lab')}
             className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'lab'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1136,7 +1136,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             onClick={() => handleTabChange('challenges')}
             className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'challenges'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1146,7 +1146,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             onClick={() => handleTabChange('summary')}
             className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'summary'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1161,18 +1161,18 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
         {activeTab === 'discovery' && (
           <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn">
             {/* Context & Scenario Banner */}
-            <div className="bg-gradient-to-br from-slate-900 to-indigo-950 p-6 rounded-2xl border border-indigo-800/50 shadow-2xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 p-8 opacity-10 text-9xl font-serif text-cyan-400 select-none pointer-events-none">
+            <div className="bg-gradient-to-br from-slate-900 to-gold-950 p-6 rounded-2xl border border-gold-800/50 shadow-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-8 opacity-10 text-9xl font-serif text-gold-400 select-none pointer-events-none">
                 IUPAC
               </div>
-              <h2 className="text-xl font-bold text-cyan-300 mb-2 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-300 mb-2 flex items-center gap-2">
                 <span>📋</span> Mission Briefing: IUPAC Chemical Inspection
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">
                 {SCENARIO.intro}
               </p>
               <div className="bg-slate-950/70 p-4 rounded-xl border border-slate-800 text-xs text-slate-300">
-                <strong className="text-indigo-400">Context: </strong> {SCENARIO.context}
+                <strong className="text-gold-400">Context: </strong> {SCENARIO.context}
               </div>
             </div>
 
@@ -1202,7 +1202,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                     disabled={discoverySubmitted}
                     className={`w-full text-left p-4 rounded-xl border transition-all text-sm font-medium ${
                       discoverySelected === idx
-                        ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 shadow-md shadow-cyan-500/10'
+                        ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-md shadow-gold-500/10'
                         : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1218,7 +1218,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoverySelected === null}
-                  className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold rounded-xl disabled:opacity-50 transition-all shadow-lg shadow-cyan-500/20"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-bold rounded-xl disabled:opacity-50 transition-all shadow-lg shadow-gold-500/20"
                 >
                   Confirm Answer
                 </button>
@@ -1234,7 +1234,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                   <p>{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => handleTabChange('lab')}
-                    className="mt-4 px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg transition-all"
+                    className="mt-4 px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg transition-all"
                   >
                     Proceed to Interactive Exploration Labs ➔
                   </button>
@@ -1244,17 +1244,17 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
             {/* MANDATORY PREDICTION QUESTIONS RENDERING */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
                 <span>🔮</span> Prediction Challenges (.map rendered)
               </h3>
               {PREDICTION_QUESTIONS.map((pq, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <div className="text-xs font-mono text-cyan-400 mb-1">Prediction #{idx + 1} ({pq.nodeId})</div>
+                  <div className="text-xs font-mono text-gold-400 mb-1">Prediction #{idx + 1} ({pq.nodeId})</div>
                   <p className="text-sm text-slate-200 font-semibold mb-3">{pq.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2">
                     {pq.options.map((opt, oIdx) => (
                       <div key={oIdx} className="p-2.5 bg-slate-900 rounded-lg text-xs text-slate-300 border border-slate-800">
-                        <strong className="text-cyan-400 mr-2">{String.fromCharCode(65 + oIdx)}.</strong> {opt}
+                        <strong className="text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</strong> {opt}
                       </div>
                     ))}
                   </div>
@@ -1279,11 +1279,11 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                   }}
                   className={`p-3 rounded-xl border text-left transition-all ${
                     activeLabStep === idx
-                      ? 'bg-gradient-to-b from-cyan-900/60 to-slate-900 border-cyan-500 text-white shadow-lg'
+                      ? 'bg-gradient-to-b from-gold-900/60 to-slate-900 border-gold-500 text-white shadow-lg'
                       : 'bg-slate-900/80 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <div className="text-[10px] font-mono text-cyan-400 uppercase tracking-widest mb-1">
+                  <div className="text-[10px] font-mono text-gold-400 uppercase tracking-widest mb-1">
                     Step {idx + 1}
                   </div>
                   <div className="text-xs font-bold line-clamp-2">{step.title}</div>
@@ -1295,7 +1295,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
               <span className="text-xl">💡</span>
               <div>
-                <strong className="text-cyan-300 font-bold">{EXPLORATION_STEPS[activeLabStep].title}: </strong>
+                <strong className="text-gold-300 font-bold">{EXPLORATION_STEPS[activeLabStep].title}: </strong>
                 {EXPLORATION_STEPS[activeLabStep].instruction}
               </div>
             </div>
@@ -1303,7 +1303,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             {/* LAB STEP INTERACTION IMPLEMENTATIONS */}
             {activeLabStep === 0 && (
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-cyan-300">Lab 1: IUPAC Capitalization & Case Formatter</h3>
+                <h3 className="text-lg font-bold text-gold-300">Lab 1: IUPAC Capitalization & Case Formatter</h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
@@ -1317,7 +1317,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                         audioManager.play('tap');
                         setTypedInput(e.target.value);
                       }}
-                      className="w-full p-4 bg-slate-950 border border-slate-700 rounded-xl text-2xl font-mono text-cyan-300 uppercase tracking-widest focus:border-cyan-500 outline-none"
+                      className="w-full p-4 bg-slate-950 border border-slate-700 rounded-xl text-2xl font-mono text-gold-300 uppercase tracking-widest focus:border-gold-500 outline-none"
                       maxLength={4}
                     />
 
@@ -1339,7 +1339,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
                   {/* Dynamic Inspection Output */}
                   <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
-                    <div className="text-xs font-mono text-cyan-400">IUPAC VALIDATOR ANALYSIS</div>
+                    <div className="text-xs font-mono text-gold-400">IUPAC VALIDATOR ANALYSIS</div>
                     {typedInput.toUpperCase() === 'CO' ? (
                       typedInput === 'Co' ? (
                         <div className="text-emerald-400 space-y-2">
@@ -1384,7 +1384,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
             {activeLabStep === 1 && (
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-cyan-300">Lab 2: Classical Latin & Origin Rosetta Stone</h3>
+                <h3 className="text-lg font-bold text-gold-300">Lab 2: Classical Latin & Origin Rosetta Stone</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   {ELEMENT_DATABASE.filter(e => e.derivation === 'Latin' || e.derivation === 'German').map(elem => (
@@ -1396,34 +1396,34 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                       }}
                       className={`p-4 rounded-xl border text-left transition-all ${
                         selectedLatinElement.id === elem.id
-                          ? 'bg-indigo-950/80 border-indigo-500 shadow-lg'
+                          ? 'bg-gold-950/80 border-gold-500 shadow-lg'
                           : 'bg-slate-950/60 border-slate-800 hover:border-slate-700'
                       }`}
                     >
                       <div className="flex justify-between items-center mb-1">
-                        <span className="text-2xl font-black font-mono text-cyan-300">{elem.symbol}</span>
+                        <span className="text-2xl font-black font-mono text-gold-300">{elem.symbol}</span>
                         <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono">
                           Z = {elem.atomicNumber}
                         </span>
                       </div>
                       <div className="text-sm font-bold text-white">{elem.name}</div>
-                      <div className="text-xs text-indigo-300 italic font-mono">Latin: {elem.latinName}</div>
+                      <div className="text-xs text-gold-300 italic font-mono">Latin: {elem.latinName}</div>
                     </button>
                   ))}
                 </div>
 
                 {/* Detailed Rosetta Card */}
-                <div className="bg-slate-950 p-6 rounded-xl border border-indigo-800/60 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="bg-slate-950 p-6 rounded-xl border border-gold-800/60 flex flex-col md:flex-row items-center justify-between gap-6">
                   <div className="space-y-2">
-                    <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest">SELECTED ELEMENT ETYMOLOGY</span>
+                    <span className="text-xs font-mono text-gold-400 uppercase tracking-widest">SELECTED ELEMENT ETYMOLOGY</span>
                     <h4 className="text-2xl font-black text-white">{selectedLatinElement.name} ({selectedLatinElement.symbol})</h4>
-                    <p className="text-sm text-cyan-300 font-mono">
-                      Classical Root: <strong className="text-indigo-300">{selectedLatinElement.latinName || selectedLatinElement.name}</strong>
+                    <p className="text-sm text-gold-300 font-mono">
+                      Classical Root: <strong className="text-gold-300">{selectedLatinElement.latinName || selectedLatinElement.name}</strong>
                     </p>
                     <p className="text-xs text-slate-300 max-w-lg">{selectedLatinElement.description}</p>
                   </div>
-                  <div className="w-24 h-24 rounded-2xl bg-slate-900 border-2 border-indigo-500 flex flex-col items-center justify-center text-center shadow-xl">
-                    <span className="text-3xl font-black font-mono text-indigo-300">{selectedLatinElement.symbol}</span>
+                  <div className="w-24 h-24 rounded-2xl bg-slate-900 border-2 border-gold-500 flex flex-col items-center justify-center text-center shadow-xl">
+                    <span className="text-3xl font-black font-mono text-gold-300">{selectedLatinElement.symbol}</span>
                     <span className="text-[10px] text-slate-400 font-mono mt-1">Z = {selectedLatinElement.atomicNumber}</span>
                   </div>
                 </div>
@@ -1432,7 +1432,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
             {activeLabStep === 2 && (
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-cyan-300">Lab 3: Nuclide & Diatomic Molecule Inspector</h3>
+                <h3 className="text-lg font-bold text-gold-300">Lab 3: Nuclide & Diatomic Molecule Inspector</h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <AtomicStructureDiagram
@@ -1445,7 +1445,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                   />
 
                   <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <div className="text-xs font-mono text-cyan-400">NUCLIDE CONTROLS</div>
+                    <div className="text-xs font-mono text-gold-400">NUCLIDE CONTROLS</div>
                     
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
@@ -1464,7 +1464,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                           const el = ELEMENT_DATABASE.find(item => item.atomicNumber === p);
                           if (el) setNuclideSymbol(el.symbol);
                         }}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1503,7 +1503,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                     </div>
 
                     <div className="pt-2 border-t border-slate-800 text-xs text-slate-300">
-                      <strong>Diatomic Gas Note:</strong> Elemental Oxygen symbol is <span className="font-mono text-cyan-400">O</span>, but room-temperature oxygen gas forms the diatomic molecule <span className="font-mono text-emerald-400">O₂</span> (2 bonded atoms).
+                      <strong>Diatomic Gas Note:</strong> Elemental Oxygen symbol is <span className="font-mono text-gold-400">O</span>, but room-temperature oxygen gas forms the diatomic molecule <span className="font-mono text-emerald-400">O₂</span> (2 bonded atoms).
                     </div>
                   </div>
                 </div>
@@ -1512,7 +1512,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
             {activeLabStep === 3 && (
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-cyan-300">Lab 4: Valency & Polyatomic Radical Studio</h3>
+                <h3 className="text-lg font-bold text-gold-300">Lab 4: Valency & Polyatomic Radical Studio</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                   {RADICALS.map(rad => (
@@ -1524,11 +1524,11 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                       }}
                       className={`p-3 rounded-xl border text-left transition-all ${
                         selectedRadicalId === rad.id
-                          ? 'bg-indigo-950 border-indigo-500 text-white shadow-md'
+                          ? 'bg-gold-950 border-gold-500 text-white shadow-md'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <div className="font-mono font-bold text-lg text-cyan-300">{rad.formula}</div>
+                      <div className="font-mono font-bold text-lg text-gold-300">{rad.formula}</div>
                       <div className="text-xs font-semibold">{rad.name}</div>
                       <div className="text-[10px] text-slate-400 mt-1">Valency: {Math.abs(rad.charge)}</div>
                     </button>
@@ -1541,12 +1541,12 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
             {activeLabStep === 4 && (
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
-                <h3 className="text-lg font-bold text-cyan-300">Lab 5: Interactive Criss-Cross Formula Synthesizer</h3>
+                <h3 className="text-lg font-bold text-gold-300">Lab 5: Interactive Criss-Cross Formula Synthesizer</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Cation Selection */}
-                  <div className="bg-slate-950 p-4 rounded-xl border border-indigo-800/50 space-y-3">
-                    <label className="text-xs font-mono text-indigo-300 block font-bold">SELECT CATION (+ Ion):</label>
+                  <div className="bg-slate-950 p-4 rounded-xl border border-gold-800/50 space-y-3">
+                    <label className="text-xs font-mono text-gold-300 block font-bold">SELECT CATION (+ Ion):</label>
                     <div className="grid grid-cols-2 gap-2">
                       {[
                         { symbol: 'Na', valency: 1 },
@@ -1563,7 +1563,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                           }}
                           className={`p-2.5 rounded-lg border font-mono text-xs text-center font-bold ${
                             selectedCation.symbol === cat.symbol
-                              ? 'bg-indigo-600 text-white border-indigo-400'
+                              ? 'bg-gold-600 text-white border-gold-400'
                               : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                           }`}
                         >
@@ -1621,12 +1621,12 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
 
             {/* MANDATORY OBSERVATION QUESTIONS RENDERING */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
                 <span>👁️</span> Lab Observation Checks (.map rendered)
               </h3>
               {OBSERVATION_QUESTIONS.map((oq, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <div className="text-xs font-mono text-cyan-400 mb-1">Observation #{idx + 1} ({oq.nodeId})</div>
+                  <div className="text-xs font-mono text-gold-400 mb-1">Observation #{idx + 1} ({oq.nodeId})</div>
                   <p className="text-sm text-slate-200 font-semibold mb-3">{oq.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {oq.observableOptions.map((opt, oIdx) => (
@@ -1654,7 +1654,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             {/* Challenge Header & Progress Bar */}
             <div className="bg-slate-900 p-4 rounded-2xl border border-slate-800 flex justify-between items-center">
               <div>
-                <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest block">
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-widest block">
                   CHALLENGE {currentChallengeIndex + 1} OF {CHALLENGES.length}
                 </span>
                 <span className="text-xs text-slate-400">
@@ -1663,7 +1663,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
               </div>
               <div className="w-32 bg-slate-950 h-3 rounded-full overflow-hidden border border-slate-800">
                 <div
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full transition-all duration-300"
+                  className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-300"
                   style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -1672,7 +1672,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             {/* Challenge Main Box */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-6">
               <div className="flex justify-between items-start">
-                <span className="px-3 py-1 bg-cyan-950 text-cyan-300 text-xs font-mono rounded-full border border-cyan-800">
+                <span className="px-3 py-1 bg-gold-950 text-gold-300 text-xs font-mono rounded-full border border-gold-800">
                   {CHALLENGES[currentChallengeIndex].nodeId}
                 </span>
                 <button
@@ -1704,7 +1704,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                       disabled={challengeSubmitted}
                       className={`w-full text-left p-4 rounded-xl border transition-all text-sm font-medium ${
                         challengeSelectedOption === idx
-                          ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1720,7 +1720,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
               {/* Formula Builder Interactive Input */}
               {CHALLENGES[currentChallengeIndex].type === 'formula_builder' && (
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <label className="text-xs font-mono text-cyan-400 block">
+                  <label className="text-xs font-mono text-gold-400 block">
                     TYPE EMPIRICAL CHEMICAL FORMULA (e.g. Al2O3, (NH4)2SO4, Fe2(CO3)3):
                   </label>
                   <div className="flex gap-2">
@@ -1730,7 +1730,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                       onChange={(e) => setFormulaInputCation(e.target.value)}
                       placeholder="Type formula string..."
                       disabled={challengeSubmitted}
-                      className="flex-grow p-3 bg-slate-900 border border-slate-700 rounded-xl font-mono text-lg text-cyan-300 outline-none focus:border-cyan-500"
+                      className="flex-grow p-3 bg-slate-900 border border-slate-700 rounded-xl font-mono text-lg text-gold-300 outline-none focus:border-gold-500"
                     />
                   </div>
                   <p className="text-[11px] text-slate-400">
@@ -1748,7 +1748,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                       ? challengeSelectedOption === null
                       : formulaInputCation.trim() === ''
                   }
-                  className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold rounded-xl disabled:opacity-50 transition-all shadow-lg shadow-cyan-500/20"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-bold rounded-xl disabled:opacity-50 transition-all shadow-lg shadow-gold-500/20"
                 >
                   Submit Challenge Answer
                 </button>
@@ -1780,7 +1780,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
           <div className="max-w-4xl mx-auto space-y-6 animate-fadeIn">
             {/* Mastery Grid Dashboard */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>📊</span> ICSE Topic Mastery Matrix (BKT & SM-2 SRS Tracked)
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
@@ -1790,9 +1790,9 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
                   return (
                     <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                       <div className="text-[10px] font-mono text-slate-400">{nodeId}</div>
-                      <div className="text-lg font-black text-cyan-400 my-1">{mast}%</div>
+                      <div className="text-lg font-black text-gold-400 my-1">{mast}%</div>
                       <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-                        <div className="bg-cyan-500 h-full" style={{ width: `${mast}%` }} />
+                        <div className="bg-gold-500 h-full" style={{ width: `${mast}%` }} />
                       </div>
                     </div>
                   );
@@ -1803,7 +1803,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
             {/* MANDATORY REAL-WORLD ACTIVITY RENDERING */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
               <div className="flex items-center gap-2">
-                <span className="px-3 py-1 bg-indigo-950 text-indigo-300 font-mono text-xs rounded-full border border-indigo-800">
+                <span className="px-3 py-1 bg-gold-950 text-gold-300 font-mono text-xs rounded-full border border-gold-800">
                   REAL WORLD EXTENSION
                 </span>
                 <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -1813,7 +1813,7 @@ export const C9_ChemistrySymbolsofelementsSim: React.FC<{
               <div className="space-y-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-cyan-900 text-cyan-300 font-mono font-bold text-xs flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 font-mono font-bold text-xs flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
                     <p className="text-xs text-slate-200 leading-relaxed">{step}</p>

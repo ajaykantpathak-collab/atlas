@@ -1193,15 +1193,15 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
   }, []);
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans selection:bg-indigo-500 selection:text-white">
+    <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans selection:bg-gold-500 selection:text-white">
       {/* ─── HEADER / NAV ─── */}
       <header className="mb-6 flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ICSE Class 7 Computer Science • Interactive Simulation Lab</p>
@@ -1211,7 +1211,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
         {/* Phase Badges & Difficulty */}
         <div className="flex items-center gap-2">
           <span className="text-xs px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-slate-300 capitalize font-mono">
-            Phase: <strong className="text-indigo-400">{phase}</strong>
+            Phase: <strong className="text-gold-400">{phase}</strong>
           </span>
           {phase === 'challenge' && (
             <motion.span
@@ -1222,7 +1222,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                   : difficulty === 'standard'
-                  ? 'bg-sky-950 text-sky-400 border border-sky-700'
+                  ? 'bg-gold-950 text-gold-400 border border-gold-700'
                   : 'bg-rose-950 text-rose-400 border border-rose-700'
               }`}
             >
@@ -1235,12 +1235,12 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/80 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-sky-400 mt-2 font-mono">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400 mt-2 font-mono">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1263,7 +1263,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   aria-label={`Option ${i + 1}: ${opt}`}
                   className="w-full text-left p-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 text-sm font-medium transition-all"
                 >
-                  <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1277,7 +1277,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg transition-colors text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg transition-colors text-sm"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1294,7 +1294,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs px-2 py-0.5 bg-indigo-600/30 text-indigo-300 font-bold rounded">
+                <span className="text-xs px-2 py-0.5 bg-gold-600/30 text-gold-300 font-bold rounded">
                   Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-xs text-slate-400 font-mono">[{EXPLORATION_STEPS[currentSlide].nodeId}]</span>
@@ -1319,7 +1319,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Controls */}
                     <div className="space-y-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <h3 className="text-sm font-bold text-sky-400 uppercase tracking-wide">1. Privacy Settings (Curtains on Window)</h3>
+                      <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wide">1. Privacy Settings (Curtains on Window)</h3>
                       <div className="grid grid-cols-3 gap-2">
                         {(['public', 'friends', 'strict'] as const).map((setting) => (
                           <motion.button
@@ -1332,7 +1332,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                             }}
                             className={`p-2.5 rounded-lg text-xs font-bold capitalize transition-all border ${
                               privacySetting === setting
-                                ? 'bg-indigo-600 text-white border-indigo-400'
+                                ? 'bg-gold-600 text-white border-gold-400'
                                 : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700'
                             }`}
                           >
@@ -1344,7 +1344,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       <div className="pt-2">
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Think Before Posting (Caution Index):</span>
-                          <span className="font-bold text-indigo-400">{postingCaution}%</span>
+                          <span className="font-bold text-gold-400">{postingCaution}%</span>
                         </div>
                         <input
                           type="range"
@@ -1356,12 +1356,12 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set Posting Caution Level"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
                       <div>
-                        <h3 className="text-sm font-bold text-sky-400 uppercase tracking-wide mb-1">Password Strength</h3>
+                        <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wide mb-1">Password Strength</h3>
                         <div className="grid grid-cols-3 gap-2">
                           {(['weak', 'medium', 'strong'] as const).map((lvl) => (
                             <motion.button
@@ -1457,7 +1457,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                 <motion.div key="lab1" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-4">
                   {/* Excel Formula Bar & Name Box */}
                   <div className="flex items-center gap-2 p-2 bg-slate-950 rounded-xl border border-slate-700">
-                    <div className="px-3 py-1 bg-slate-800 text-indigo-400 font-mono font-bold text-xs rounded border border-slate-600">
+                    <div className="px-3 py-1 bg-slate-800 text-gold-400 font-mono font-bold text-xs rounded border border-slate-600">
                       {activeCellAddress}
                     </div>
                     <div className="text-slate-500 font-serif font-bold text-sm">fx</div>
@@ -1467,7 +1467,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       onChange={(e) => handleCellInputChange(e.target.value)}
                       placeholder="Type number, text, or date (e.g. '0123 or 15/08/2024)..."
                       aria-label="Excel Formula Bar Entry"
-                      className="w-full bg-slate-900 border border-slate-700 text-white text-xs px-3 py-1.5 rounded-lg focus:outline-none focus:border-indigo-500 font-mono"
+                      className="w-full bg-slate-900 border border-slate-700 text-white text-xs px-3 py-1.5 rounded-lg focus:outline-none focus:border-gold-500 font-mono"
                     />
                   </div>
 
@@ -1488,16 +1488,16 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                           <td
                             onClick={() => handleCellClick('A1', gridData[0].raw)}
                             className={`p-2.5 border-r border-slate-700 cursor-pointer transition-colors ${
-                              activeCellAddress === 'A1' ? 'bg-indigo-900/60 ring-2 ring-indigo-400' : 'hover:bg-slate-800/50'
+                              activeCellAddress === 'A1' ? 'bg-gold-900/60 ring-2 ring-gold-400' : 'hover:bg-slate-800/50'
                             } text-left`}
                           >
-                            <span className="text-sky-300">{gridData[0].raw}</span>
+                            <span className="text-gold-300">{gridData[0].raw}</span>
                             <span className="text-[10px] text-slate-500 block">Left-aligned (Text)</span>
                           </td>
                           <td
                             onClick={() => handleCellClick('B1', gridData[1].raw)}
                             className={`p-2.5 border-r border-slate-700 cursor-pointer transition-colors ${
-                              activeCellAddress === 'B1' ? 'bg-indigo-900/60 ring-2 ring-indigo-400' : 'hover:bg-slate-800/50'
+                              activeCellAddress === 'B1' ? 'bg-gold-900/60 ring-2 ring-gold-400' : 'hover:bg-slate-800/50'
                             } text-right`}
                           >
                             <span className="text-emerald-400 font-bold">{gridData[1].raw}</span>
@@ -1506,7 +1506,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                           <td
                             onClick={() => handleCellClick('C1', gridData[2].raw)}
                             className={`p-2.5 cursor-pointer transition-colors ${
-                              activeCellAddress === 'C1' ? 'bg-indigo-900/60 ring-2 ring-indigo-400' : 'hover:bg-slate-800/50'
+                              activeCellAddress === 'C1' ? 'bg-gold-900/60 ring-2 ring-gold-400' : 'hover:bg-slate-800/50'
                             } text-right`}
                           >
                             <span className="text-amber-300">{gridData[2].raw}</span>
@@ -1518,10 +1518,10 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                           <td
                             onClick={() => handleCellClick('A2', gridData[3].raw)}
                             className={`p-2.5 border-r border-slate-700 cursor-pointer transition-colors ${
-                              activeCellAddress === 'A2' ? 'bg-indigo-900/60 ring-2 ring-indigo-400' : 'hover:bg-slate-800/50'
+                              activeCellAddress === 'A2' ? 'bg-gold-900/60 ring-2 ring-gold-400' : 'hover:bg-slate-800/50'
                             } text-left`}
                           >
-                            <span className="text-sky-300">{gridData[3].raw}</span>
+                            <span className="text-gold-300">{gridData[3].raw}</span>
                             <span className="text-[10px] text-slate-500 block">Leading \' keeps zero (Text)</span>
                           </td>
                           <td className="p-2.5 border-r border-slate-700 text-slate-600 text-right">-</td>
@@ -1533,8 +1533,8 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
 
                   {/* Observation Question */}
                   {!observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-indigo-800 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Scientific Observation:</p>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-gold-800 space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Scientific Observation:</p>
                       <p className="text-sm text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1559,7 +1559,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                 <motion.div key="lab2" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-6">
                   {/* Predict Then Check */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/70 border border-indigo-700 rounded-xl space-y-3">
+                    <div className="p-4 bg-gold-950/70 border border-gold-700 rounded-xl space-y-3">
                       <span className="text-xs px-2 py-0.5 bg-amber-500/30 text-amber-300 font-bold rounded">
                         Predict-Then-Check
                       </span>
@@ -1583,7 +1583,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Mark Sliders */}
                     <div className="space-y-3 p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <h3 className="text-xs font-bold text-sky-400 uppercase">Interactive Marks Input (Cells B1:B4)</h3>
+                      <h3 className="text-xs font-bold text-gold-400 uppercase">Interactive Marks Input (Cells B1:B4)</h3>
                       {[
                         { label: 'Student 1 (B1):', val: markS1, set: setMarkS1 },
                         { label: 'Student 2 (B2):', val: markS2, set: setMarkS2 },
@@ -1614,7 +1614,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                     {/* Live Formula Display & SVG Diagram */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between space-y-3">
                       <div>
-                        <h3 className="text-xs font-bold text-sky-400 uppercase mb-2">Select Built-In Function Recipe</h3>
+                        <h3 className="text-xs font-bold text-gold-400 uppercase mb-2">Select Built-In Function Recipe</h3>
                         <div className="grid grid-cols-4 gap-2 mb-3">
                           {(['SUM', 'AVERAGE', 'MAX', 'MIN'] as const).map((fn) => (
                             <motion.button
@@ -1627,7 +1627,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                               }}
                               className={`p-2 rounded-lg text-xs font-bold font-mono border ${
                                 selectedFunction === fn
-                                  ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                                  ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                                   : 'bg-slate-800 text-slate-400 border-slate-700'
                               }`}
                             >
@@ -1669,7 +1669,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                         </svg>
                       </div>
 
-                      <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-600/60 text-center">
+                      <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-600/60 text-center">
                         <span className="text-xs text-slate-300 block">Current Active Evaluation:</span>
                         <span className="text-2xl font-black text-white font-mono">{calculatedExcelValue}</span>
                       </div>
@@ -1689,7 +1689,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                          tableMode === 'datasheet' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          tableMode === 'datasheet' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Datasheet View (Data Grid)
@@ -1700,7 +1700,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                          tableMode === 'design' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          tableMode === 'design' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Design View (Structure & Types)
@@ -1776,7 +1776,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                     </div>
                   ) : (
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 font-mono text-xs space-y-3">
-                      <div className="grid grid-cols-3 font-bold text-sky-400 border-b border-slate-800 pb-2">
+                      <div className="grid grid-cols-3 font-bold text-gold-400 border-b border-slate-800 pb-2">
                         <span>Field Name</span>
                         <span>Data Type</span>
                         <span>Primary Key Status</span>
@@ -1789,7 +1789,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       ].map((f, i) => (
                         <div key={i} className="grid grid-cols-3 py-1.5 border-b border-slate-900 text-slate-300 items-center">
                           <span className="text-white font-bold">{f.name}</span>
-                          <span className="text-indigo-400">{f.type}</span>
+                          <span className="text-gold-400">{f.type}</span>
                           <span>{f.pk ? '🔑 Primary Key (Unique)' : 'Regular Field'}</span>
                         </div>
                       ))}
@@ -1803,7 +1803,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                 <motion.div key="lab4" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-4">
                   {/* Query Criteria Simulator */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <h3 className="text-xs font-bold text-sky-400 uppercase">Query Design Grid: Criteria Row (AND Logic)</h3>
+                    <h3 className="text-xs font-bold text-gold-400 uppercase">Query Design Grid: Criteria Row (AND Logic)</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
                         <label className="text-xs text-slate-300 block mb-1">
@@ -1819,7 +1819,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set Query Marks Filter"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1866,7 +1866,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                             <td className="p-2 text-amber-400">{rec.id}</td>
                             <td className="p-2">{rec.title}</td>
                             <td className="p-2 text-right text-emerald-400 font-bold">{rec.marks}</td>
-                            <td className="p-2 text-sky-300">{rec.city}</td>
+                            <td className="p-2 text-gold-300">{rec.city}</td>
                           </tr>
                         ))}
                       </tbody>
@@ -1901,7 +1901,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -1942,7 +1942,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Sandbox Module A: Formula Sandbox */}
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-sky-400 uppercase">A. Excel Engine</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">A. Excel Engine</h3>
               <div className="text-xs text-slate-300 space-y-1">
                 <div>Selected: <span className="font-mono text-amber-300 font-bold">={selectedFunction}(B1:B4)</span></div>
                 <div>Evaluated: <span className="font-mono text-emerald-400 font-bold text-base">{calculatedExcelValue}</span></div>
@@ -1956,7 +1956,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       audioManager.play('tap');
                     }}
                     className={`px-2 py-1 rounded text-[10px] font-mono font-bold ${
-                      selectedFunction === fn ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      selectedFunction === fn ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {fn}
@@ -1967,7 +1967,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
 
             {/* Sandbox Module B: Footprint Risk */}
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-sky-400 uppercase">B. Footprint Radar</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">B. Footprint Radar</h3>
               <div className="text-xs text-slate-300">
                 Exposure Risk: <span className="font-bold text-rose-400 font-mono">{footprintRisk}%</span>
               </div>
@@ -1985,7 +1985,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
 
             {/* Sandbox Module C: Query Quick-Runner */}
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-sky-400 uppercase">C. Access Dynamic Query</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">C. Access Dynamic Query</h3>
               <div className="text-xs text-slate-300">
                 Matches Found: <span className="font-bold text-emerald-400 font-mono">{filteredAccessRecords.length} / {rawAccessRecords.length}</span>
               </div>
@@ -2013,12 +2013,12 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
               <span>
                 Challenge <strong>{currentChallenge + 1}</strong> of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-bold capitalize">NEP Level: {challenge.competencyLevel}</span>
+              <span className="text-gold-400 font-bold capitalize">NEP Level: {challenge.competencyLevel}</span>
             </div>
             {/* Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2033,7 +2033,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs px-2.5 py-0.5 bg-indigo-900/50 text-indigo-300 border border-indigo-700 rounded font-mono">
+              <span className="text-xs px-2.5 py-0.5 bg-gold-900/50 text-gold-300 border border-gold-700 rounded font-mono">
                 Node: {challenge.nodeId}
               </span>
               <span className="text-xs px-2 py-0.5 bg-slate-800 text-slate-400 rounded capitalize">
@@ -2065,7 +2065,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                         : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2086,7 +2086,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag item ${item.label}`}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-lg cursor-grab text-white font-bold text-xs shadow"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 rounded-lg cursor-grab text-white font-bold text-xs shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2121,7 +2121,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Database Labels
                 </motion.button>
@@ -2153,7 +2153,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       aria-label={`Sort item ${displayIdx + 1}: ${item}`}
                       className="p-3 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl cursor-grab text-xs sm:text-sm text-slate-200 flex items-center gap-3 font-medium"
                     >
-                      <span className="px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded font-bold font-mono">
+                      <span className="px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded font-bold font-mono">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2166,7 +2166,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Submit Sequence
                 </motion.button>
@@ -2183,7 +2183,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated result..."
                     aria-label="Numeric answer input"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2191,7 +2191,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check
                   </motion.button>
@@ -2213,7 +2213,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                         setConstructParts((prev) => [...prev, part]);
                         audioManager.play('tap');
                       }}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300 font-bold"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300 font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2227,7 +2227,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 text-white rounded-lg text-xs font-mono flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 text-white rounded-lg text-xs font-mono flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2252,7 +2252,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0 || showExplanation}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Validate Formula Construction
                   </motion.button>
@@ -2273,7 +2273,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/90 to-slate-900 border border-indigo-700 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/90 to-slate-900 border border-gold-700 rounded-2xl space-y-4"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-amber-400 uppercase tracking-wide">
@@ -2337,8 +2337,8 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
       {/* ─── PHASE 5: COMPLETE & MASTERY REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl border border-indigo-700 text-center space-y-4 shadow-2xl">
-            <h2 className="text-2xl sm:text-3xl font-black bg-gradient-to-r from-emerald-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-3xl border border-gold-700 text-center space-y-4 shadow-2xl">
+            <h2 className="text-2xl sm:text-3xl font-black bg-gradient-to-r from-emerald-400 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               Mission Accomplished!
             </h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2354,7 +2354,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-700 min-w-[130px]">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-2xl font-black text-indigo-400 capitalize font-mono">
+                <div className="text-2xl font-black text-gold-400 capitalize font-mono">
                   {masteryLevel}
                 </div>
               </div>
@@ -2371,7 +2371,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                 : errors <= 3
-                ? 'bg-sky-950/60 border-sky-500 text-sky-200'
+                ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500 text-amber-200'
                 : 'bg-rose-950/60 border-rose-500 text-rose-200'
@@ -2392,10 +2392,10 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
           </div>
 
           {/* REQUIRED SECTION: REFLECTION QUESTIONS */}
-          <div className="p-6 bg-slate-900/95 border border-indigo-700/70 rounded-2xl space-y-4">
+          <div className="p-6 bg-slate-900/95 border border-gold-700/70 rounded-2xl space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-lg">💭</span>
-              <h3 className="text-sm sm:text-base font-bold text-indigo-300 uppercase tracking-wide">
+              <h3 className="text-sm sm:text-base font-bold text-gold-300 uppercase tracking-wide">
                 Student Reflection & Metacognition
               </h3>
             </div>
@@ -2413,12 +2413,12 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g., Even deleted posts or incognito browsing leave permanent trails on servers and routers..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label className="text-xs font-bold text-sky-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2426,7 +2426,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   value={reflectionAnswers.friendExplain}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, friendExplain: e.target.value })}
                   placeholder="e.g., Access links tables with Primary Keys so you don't repeat data, while Excel is a calculator grid..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2439,7 +2439,7 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g., Setting up a library catalog with Access or tracking class grades and attendance with Excel =AVERAGE..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2476,14 +2476,14 @@ function C7_ComputerScienceComputerEthicsUnethicalSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-sky-400 uppercase tracking-wide">
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wide">
               {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

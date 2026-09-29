@@ -11,7 +11,7 @@ export const w_c11_chemistrydiscoveryofsubatomicparticlessim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Heavy Water: Properties and Uses',
     chapters: [],
     nodeIds: ['c11_chem_cbse_09_010', 'c11_chem_cbse_02_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a glass of tap water — it looks ordinary, but hidden within is a rare "heavy" version.', goal: 'Master Heavy Water: Properties and Uses.' },
     discovery: {
         question: 'State the molecular formula and molar mass of heavy water. How does its molar mass differ from that of ordinary water?',
@@ -20,7 +20,7 @@ export const w_c11_chemistrydiscoveryofsubatomicparticlessim: SimDef = {
         hook: 'Students often believe heavy water is "radioactive" because it is associated with nuclear reactors.',
     },
     teaching: [
-        { title: 'Heavy water (D₂O) is the oxide of deuterium.', text: 'Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen containing one proton and one neutron in its nucleus, resulting in a molecular mass of approximately 20 g mol⁻¹ compared.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Heavy water (D₂O) is the oxide of deuterium.', text: 'Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen containing one proton and one neutron in its nucleus, resulting in a molecular mass of approximately 20 g mol⁻¹ compared.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_09_010', title: 'Heavy water (D₂O) is the oxide of.',

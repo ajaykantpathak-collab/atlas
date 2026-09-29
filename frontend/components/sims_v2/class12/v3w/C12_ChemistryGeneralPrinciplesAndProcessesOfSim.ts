@@ -11,7 +11,7 @@ export const w_c12_chemistrygeneralprinciplesandprocessesofsim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Electronic Configuration of d-Block Elements',
     chapters: [],
     nodeIds: ['c12_chem_cbse_04_002', 'c12_chem_cbse_04_006', 'c12_chem_cbse_04_007', 'c12_chem_cbse_04_001', 'c12_chem_cbse_04_008', 'c12_chem_cbse_04_010', 'c12_chem_cbse_09_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a student notices that chromium (Cr) in stainless steel utensils and.', goal: 'Master Electronic Configuration of d-Block Elements.' },
     discovery: {
         question: 'Evaluate the following statement: "Zinc (Zn, Z = 30) is a transition element because it is in the d-block and has electrons in the d orbital." Is this.',
@@ -20,7 +20,7 @@ export const w_c12_chemistrygeneralprinciplesandprocessesofsim: SimDef = {
         hook: 'Students write the electronic configuration of Pd (Z = 46) as [Kr] 4d⁸ 5s² by blindly following the Aufbau order, but.',
     },
     teaching: [
-        { title: 'The d-block elements (Groups 3–12) are those.', text: 'The d-block elements (Groups 3–12) are those in which the (n−1)d orbitals are progressively filled across four long periods (3d, 4d, 5d, 6d).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The d-block elements (Groups 3–12) are those.', text: 'The d-block elements (Groups 3–12) are those in which the (n−1)d orbitals are progressively filled across four long periods (3d, 4d, 5d, 6d).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_04_002', title: 'The d-block elements (Groups 3–12) are.',

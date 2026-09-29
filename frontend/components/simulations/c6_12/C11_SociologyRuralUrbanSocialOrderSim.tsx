@@ -43,7 +43,7 @@ export function C11_SociologyRuralUrbanSocialOrderSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Change and Order: From Village Custom to City Law</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Change and Order: From Village Custom to City Law</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -100,19 +100,19 @@ export function C11_SociologyRuralUrbanSocialOrderSim() {
           <div>
             <div className="flex justify-between text-xs text-slate-400">
               <span>Formal control (police, courts, contracts)</span>
-              <span className="font-mono text-sky-300">{derived.formalControl}%</span>
+              <span className="font-mono text-gold-300">{derived.formalControl}%</span>
             </div>
             <div className="h-3 bg-slate-800 rounded mt-1">
-              <div className="h-3 bg-sky-500 rounded" style={{ width: `${derived.formalControl}%`, transition: 'width 0.3s' }} />
+              <div className="h-3 bg-gold-500 rounded" style={{ width: `${derived.formalControl}%`, transition: 'width 0.3s' }} />
             </div>
           </div>
           <div>
             <div className="flex justify-between text-xs text-slate-400">
               <span>Heterogeneity (strangers, different groups)</span>
-              <span className="font-mono text-violet-300">{derived.heterogeneity}%</span>
+              <span className="font-mono text-gold-300">{derived.heterogeneity}%</span>
             </div>
             <div className="h-3 bg-slate-800 rounded mt-1">
-              <div className="h-3 bg-violet-500 rounded" style={{ width: `${derived.heterogeneity}%`, transition: 'width 0.3s' }} />
+              <div className="h-3 bg-gold-500 rounded" style={{ width: `${derived.heterogeneity}%`, transition: 'width 0.3s' }} />
             </div>
           </div>
           <div className="flex items-center justify-between pt-1">
@@ -138,9 +138,9 @@ export function C11_SociologyRuralUrbanSocialOrderSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Settlement size</span>
-            <span className="font-mono font-bold text-sky-300">{placeName}</span>
+            <span className="font-mono font-bold text-gold-300">{placeName}</span>
           </label>
-          <input type="range" aria-label="urbanism" min={0} max={100} step={5} value={urbanism} onChange={(e) => setUrbanism(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="urbanism" min={0} max={100} step={5} value={urbanism} onChange={(e) => setUrbanism(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -176,8 +176,8 @@ export function C11_SociologyRuralUrbanSocialOrderSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Slide settlement size from Hamlet to Metropolis with institutions fixed at 30. At what point do the two control bars swap -- and what happens to disorder?</li>
           <li>Compare &quot;A fast-growing city&quot; with &quot;Same city, strong institutions&quot;. Same city, same change speed -- what alone changed the disorder score?</li>

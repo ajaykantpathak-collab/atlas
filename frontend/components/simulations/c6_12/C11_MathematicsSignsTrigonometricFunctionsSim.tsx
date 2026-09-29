@@ -1222,12 +1222,12 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
         >
           <motion.span
             whileHover={{ scale: 1.15, rotate: 10 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 inline-block cursor-default"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 inline-block cursor-default"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300">
+            <h1 className="text-xl sm:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 11 ISC Mathematics • Trigonometry & Angular Analysis</p>
@@ -1247,7 +1247,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1256,7 +1256,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
             whileHover={{ scale: 1.05 }}
             className="px-3 py-1 bg-slate-900 rounded-full text-xs text-slate-300 border border-slate-800"
           >
-            Phase: <strong className="capitalize text-sky-400">{phase}</strong>
+            Phase: <strong className="capitalize text-gold-400">{phase}</strong>
           </motion.span>
         </motion.div>
       </motion.div>
@@ -1275,9 +1275,9 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 shadow-lg"
             >
-              <div className="flex items-center gap-2 text-indigo-300 font-bold mb-2">
+              <div className="flex items-center gap-2 text-gold-300 font-bold mb-2">
                 <span className="text-lg">🛰️</span>
                 <h2 className="text-lg">{SCENARIO.title}</h2>
               </div>
@@ -1315,11 +1315,11 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                             : isWrong
                             ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                             : 'bg-slate-950 border-slate-800 text-slate-400 opacity-60'
-                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                     >
                       <div>
-                        <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                         {opt}
                       </div>
                       {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && (
@@ -1344,7 +1344,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-sky-600 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Exploration Lab →
                   </motion.button>
@@ -1369,8 +1369,8 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
               animate={{ opacity: 1, y: 0 }}
               className="flex flex-wrap items-center justify-between gap-2 p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs"
             >
-              <span className="font-bold text-sky-400">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}</span>
-              <span className="text-slate-400">Node Ref: <code className="text-indigo-300">{EXPLORATION_STEPS[currentSlide].nodeId}</code></span>
+              <span className="font-bold text-gold-400">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}</span>
+              <span className="text-slate-400">Node Ref: <code className="text-gold-300">{EXPLORATION_STEPS[currentSlide].nodeId}</code></span>
             </motion.div>
 
             <AnimatePresence mode="wait">
@@ -1381,7 +1381,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                 exit={{ opacity: 0, x: -20 }}
                 className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800"
               >
-                <h3 className="text-lg font-bold text-indigo-300 mb-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300 mb-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-300 text-sm mb-4">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
 
                 {/* ─── SLIDE 0: ASTC UNIT CIRCLE LAB ─── */}
@@ -1456,7 +1456,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                           value={angleDeg}
                           aria-label="Angle theta slider from 0 to 360 degrees"
                           onChange={(e) => handleAngleChange(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
@@ -1479,9 +1479,9 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                           </motion.div>
                           <motion.div
                             whileHover={{ scale: 1.02 }}
-                            className="p-2 bg-slate-900 rounded-lg border border-sky-500/30"
+                            className="p-2 bg-slate-900 rounded-lg border border-gold-500/30"
                           >
-                            <p className="text-xs text-sky-400">y = sin(θ)</p>
+                            <p className="text-xs text-gold-400">y = sin(θ)</p>
                             <p className="font-mono font-bold text-lg">{sinVal.toFixed(3)}</p>
                             <span className={`text-xs px-2 py-0.5 rounded font-semibold flex items-center gap-1 w-fit ${sinVal >= 0 ? 'bg-emerald-950 text-emerald-400' : 'bg-rose-950 text-rose-400'}`}>
                               <span>{sinVal >= 0 ? '✓' : '✗'}</span>
@@ -1506,8 +1506,8 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
 
                       {/* Predict-then-Check Hook */}
                       {!predictionMade ? (
-                        <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
-                          <p className="text-xs font-bold text-indigo-300 mb-2">⚡ Quick Predict: {PREDICTION_QUESTIONS[0].question}</p>
+                        <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60">
+                          <p className="text-xs font-bold text-gold-300 mb-2">⚡ Quick Predict: {PREDICTION_QUESTIONS[0].question}</p>
                           <div className="space-y-1">
                             {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                               <motion.button
@@ -1557,7 +1557,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleFuncSelect(fn)}
                             className={`px-3 py-1 text-xs font-bold rounded-lg transition-all ${
-                              activeFunc === fn ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
+                              activeFunc === fn ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
                             }`}
                           >
                             {fn}
@@ -1575,7 +1575,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                           aria-label="Graph zoom slider"
                           value={zoomLevel}
                           onChange={(e) => setZoomLevel(Number(e.target.value))}
-                          className="w-24 accent-indigo-500"
+                          className="w-24 accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1627,7 +1627,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
-                          <span>Angle A: <strong className="text-indigo-400">{angleA}°</strong></span>
+                          <span>Angle A: <strong className="text-gold-400">{angleA}°</strong></span>
                           <span>Angle B: <strong className="text-pink-400">{angleB}°</strong></span>
                           <span>(A+B): <strong className="text-emerald-400">{angleA + angleB}°</strong></span>
                         </div>
@@ -1642,7 +1642,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                               aria-label="Angle A slider"
                               value={angleA}
                               onChange={(e) => handleAngleAChange(Number(e.target.value))}
-                              className="w-full accent-indigo-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
                           <div>
@@ -1712,7 +1712,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                         </div>
 
                         <div className="mt-3 p-3 bg-slate-900 rounded-lg border border-slate-700 font-mono text-xs space-y-1">
-                          <p className="text-indigo-300 font-bold">sin(A + B) Expansion:</p>
+                          <p className="text-gold-300 font-bold">sin(A + B) Expansion:</p>
                           <p className="text-slate-300">
                             = sin({angleA}°) cos({angleB}°) + cos({angleA}°) sin({angleB}°)
                           </p>
@@ -1729,7 +1729,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                           <h4 className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">Key Compound Identities</h4>
                           <ul className="text-xs text-slate-300 space-y-2 font-mono">
                             <motion.li whileHover={{ scale: 1.01 }} className="p-2 bg-slate-900 rounded border border-slate-800">
-                              <span className="text-sky-400 font-bold">sin(x ± y)</span> = sin x cos y ± cos x sin y
+                              <span className="text-gold-400 font-bold">sin(x ± y)</span> = sin x cos y ± cos x sin y
                             </motion.li>
                             <motion.li whileHover={{ scale: 1.01 }} className="p-2 bg-slate-900 rounded border border-slate-800">
                               <span className="text-purple-400 font-bold">cos(x ± y)</span> = cos x cos y ∓ sin x sin y
@@ -1757,7 +1757,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
-                          <span>Single Angle x: <strong className="text-sky-400">{doubleAngleX}°</strong></span>
+                          <span>Single Angle x: <strong className="text-gold-400">{doubleAngleX}°</strong></span>
                           <span>Double Angle 2x: <strong className="text-emerald-400">{2 * doubleAngleX}°</strong></span>
                         </div>
                         <input
@@ -1805,7 +1805,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
 
                         <div className="space-y-2 text-xs font-mono">
                           <motion.div whileHover={{ scale: 1.01 }} className="p-2 bg-slate-900 rounded border border-slate-800">
-                            <p className="text-sky-300 font-bold">sin(2x) = 2 sin x cos x</p>
+                            <p className="text-gold-300 font-bold">sin(2x) = 2 sin x cos x</p>
                             <p className="text-slate-400">
                               2 × ({Math.sin((doubleAngleX * Math.PI) / 180).toFixed(3)}) × ({Math.cos((doubleAngleX * Math.PI) / 180).toFixed(3)}) ={' '}
                               <strong className="text-white">{Math.sin((2 * doubleAngleX * Math.PI) / 180).toFixed(4)}</strong>
@@ -1823,7 +1823,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs space-y-2">
                         <h4 className="text-amber-400 font-bold uppercase tracking-wider">Triple Angle Polynomials</h4>
                         <motion.div whileHover={{ scale: 1.01 }} className="p-2 bg-slate-900 rounded border border-slate-800">
-                          <p className="text-indigo-300 font-bold">sin(3x) = 3 sin x - 4 sin³x</p>
+                          <p className="text-gold-300 font-bold">sin(3x) = 3 sin x - 4 sin³x</p>
                           <p className="text-slate-400 text-[11px] mt-1">Converts triple angle into a pure cubic in sin x.</p>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.01 }} className="p-2 bg-slate-900 rounded border border-slate-800">
@@ -1848,7 +1848,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-400 mb-2">
-                          <span>Carrier Frequency A: <strong className="text-sky-400">{carrierFreq} Hz</strong></span>
+                          <span>Carrier Frequency A: <strong className="text-gold-400">{carrierFreq} Hz</strong></span>
                           <span>Modulating Frequency B: <strong className="text-pink-400">{modFreq} Hz</strong></span>
                         </div>
                         <div className="space-y-2">
@@ -1862,7 +1862,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                               aria-label="Carrier Frequency A slider"
                               value={carrierFreq}
                               onChange={(e) => setCarrierFreq(Number(e.target.value))}
-                              className="w-full accent-sky-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
                           <div>
@@ -1883,7 +1883,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
 
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs">
                         <h4 className="text-amber-400 font-bold uppercase tracking-wider mb-2">Product-to-Sum Conversion</h4>
-                        <p className="text-sky-300 font-bold">2 sin(A) cos(B) = sin(A + B) + sin(A - B)</p>
+                        <p className="text-gold-300 font-bold">2 sin(A) cos(B) = sin(A + B) + sin(A - B)</p>
                         <p className="text-slate-300 mt-2">
                           Harmonics generated: <strong className="text-emerald-400">sin({carrierFreq + modFreq}t)</strong> +{' '}
                           <strong className="text-pink-400">sin({carrierFreq - modFreq}t)</strong>
@@ -1923,7 +1923,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide((s) => s + 1)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-semibold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold"
                 >
                   Next Lab →
                 </motion.button>
@@ -1954,7 +1954,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
+              className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
             >
               <div>
                 <h3 className="text-lg font-bold text-white">Free Trigonometric Testing Sandbox</h3>
@@ -1979,7 +1979,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                 animate={{ opacity: 1, x: 0 }}
                 className="lg:col-span-6 bg-slate-900 p-5 rounded-2xl border border-slate-800"
               >
-                <h4 className="text-xs font-bold text-sky-400 uppercase mb-3">Unit Circle Angle Manipulator</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase mb-3">Unit Circle Angle Manipulator</h4>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Angle θ: <strong className="text-amber-400 text-base">{angleDeg}°</strong></span>
                   <span className="text-emerald-400 font-bold">Quadrant {currentQuadrant}</span>
@@ -1991,7 +1991,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                   aria-label="Sandbox Angle slider"
                   value={angleDeg}
                   onChange={(e) => handleAngleChange(Number(e.target.value))}
-                  className="w-full accent-indigo-500 mb-4"
+                  className="w-full accent-gold-500 mb-4"
                 />
                 <div className="grid grid-cols-3 gap-2 text-center text-xs font-mono">
                   <motion.div whileHover={{ scale: 1.03 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -2038,7 +2038,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                   </p>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
-                  <p className="text-sky-400">Double Angle sin(2θ):</p>
+                  <p className="text-gold-400">Double Angle sin(2θ):</p>
                   <p className="text-slate-300">
                     sin({2 * angleDeg}°) = 2 sin({angleDeg}°) cos({angleDeg}°) ={' '}
                     <strong className="text-white">{(2 * sinVal * cosVal).toFixed(3)}</strong>
@@ -2068,7 +2068,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                 <span className="text-xs font-bold text-white">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-[10px] px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800 font-mono">
+                <span className="text-[10px] px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800 font-mono">
                   {challenge.competencyLevel}
                 </span>
               </div>
@@ -2081,13 +2081,13 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
 
             <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
             </div>
 
-            <div className="text-xs text-indigo-300 mt-1">
+            <div className="text-xs text-gold-300 mt-1">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -2123,11 +2123,11 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                             ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-medium'
                             : isSelectedWrong
                             ? 'bg-rose-950/70 border-rose-500 text-rose-200 font-medium'
-                            : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:bg-slate-800/80 hover:border-indigo-500'
+                            : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:bg-slate-800/80 hover:border-gold-500'
                         }`}
                       >
                         <div>
-                          <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                          <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                           {opt}
                         </div>
                         {showExplanation && i === challenge.correctIndex && (
@@ -2156,7 +2156,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold"
+                        className="px-3 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold"
                       >
                         {item.label}
                       </motion.div>
@@ -2189,7 +2189,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                   >
                     Verify Quadrant Mappings
                   </motion.button>
@@ -2217,7 +2217,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                         whileHover={{ scale: 1.01 }}
                         className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="px-2 py-1 bg-indigo-950 text-indigo-400 rounded font-mono font-bold">{displayIdx + 1}</span>
+                        <span className="px-2 py-1 bg-gold-950 text-gold-400 rounded font-mono font-bold">{displayIdx + 1}</span>
                         <span>{item}</span>
                       </motion.div>
                     ))}
@@ -2228,7 +2228,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : [0, 1, 2, 3])}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                   >
                     Verify Sequence
                   </motion.button>
@@ -2246,7 +2246,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter decimal answer..."
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-64"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-64"
                     />
                     <span className="text-sm text-slate-400">{challenge.unit}</span>
                     <motion.button
@@ -2255,7 +2255,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput === ''}
-                      className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold text-sm disabled:opacity-50"
+                      className="px-6 py-3 bg-gold-600 text-white rounded-xl font-bold text-sm disabled:opacity-50"
                     >
                       Check
                     </motion.button>
@@ -2275,7 +2275,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                       >
                         + {part}
                       </motion.button>
@@ -2283,7 +2283,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                     {constructParts.map((p, idx) => (
-                      <span key={idx} className="px-3 py-1 bg-indigo-900/80 text-white rounded-lg font-mono text-xs flex items-center gap-2">
+                      <span key={idx} className="px-3 py-1 bg-gold-900/80 text-white rounded-lg font-mono text-xs flex items-center gap-2">
                         {p}
                         <motion.button
                           aria-label={`Remove part ${p}`}
@@ -2304,7 +2304,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                   >
                     Verify Constructed Identity
                   </motion.button>
@@ -2377,7 +2377,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl border border-emerald-500/40 text-center shadow-2xl"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-3xl border border-emerald-500/40 text-center shadow-2xl"
             >
               <motion.span
                 initial={{ scale: 0 }}
@@ -2399,7 +2399,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                   errors === 0
                     ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                     : errors <= 3
-                    ? 'bg-sky-950/80 border-sky-500 text-sky-300'
+                    ? 'bg-gold-950/80 border-gold-500 text-gold-300'
                     : errors <= 7
                     ? 'bg-amber-950/80 border-amber-500 text-amber-300'
                     : 'bg-rose-950/80 border-rose-500 text-rose-300'
@@ -2416,11 +2416,11 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                   <span className="text-[10px] text-slate-500 uppercase block">Correct Answers</span>
-                  <strong className="text-xl text-sky-400">{scoreBreakdown.correct}</strong>
+                  <strong className="text-xl text-gold-400">{scoreBreakdown.correct}</strong>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                   <span className="text-[10px] text-slate-500 uppercase block">BKT Mastery Level</span>
-                  <strong className="text-xl text-indigo-400 capitalize">{masteryLevel}</strong>
+                  <strong className="text-xl text-gold-400 capitalize">{masteryLevel}</strong>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                   <span className="text-[10px] text-slate-500 uppercase block">SRS Review Due</span>
@@ -2483,7 +2483,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800"
             >
-              <h3 className="text-base font-bold text-indigo-300 mb-2">🔭 {REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300 mb-2">🔭 {REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-4">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="space-y-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
@@ -2492,7 +2492,7 @@ function C11_MathematicsSignsTrigonometricFunctionsSim({
                     whileHover={{ scale: 1.01 }}
                     className="flex items-start gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800/60 text-xs text-slate-300"
                   >
-                    <span className="px-2 py-0.5 bg-indigo-950 text-indigo-400 rounded font-mono font-bold">{idx + 1}</span>
+                    <span className="px-2 py-0.5 bg-gold-950 text-gold-400 rounded font-mono font-bold">{idx + 1}</span>
                     <span>{step}</span>
                   </motion.div>
                 ))}

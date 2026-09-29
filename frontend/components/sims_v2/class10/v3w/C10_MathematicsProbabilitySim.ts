@@ -11,7 +11,7 @@ export const w_c10_mathematicsprobabilitysim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Classical Definition of Probability: Equally Likely Outcomes',
     chapters: [],
     nodeIds: ['c10_math_cbse_14_001', 'c10_math_cbse_14_002', 'c10_math_cbse_14_003', 'c10_math_cbse_14_004', 'c10_math_cbse_14_005', 'c10_math_cbse_14_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine tossing a fair coin. There are two possible outcomes: Heads (H) and Tails (T).', goal: 'Master Classical Definition of Probability: Equally Likely Outcomes.' },
     discovery: {
         question: 'When rolling a single die, a student defines event E = {2, 4, 6} and event F = {1, 3, 5}. The student claims E and F are complementary events.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsprobabilitysim: SimDef = {
         hook: 'Students often treat unordered pairs as outcomes in multi-trial experiments.',
     },
     teaching: [
-        { title: 'The classical definition of probability.', text: 'The classical definition of probability states that if an experiment has n equally likely outcomes and m of them are favourable to an event E, then the probability of event E is P(E) = m/n, where 0 ≤.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The classical definition of probability.', text: 'The classical definition of probability states that if an experiment has n equally likely outcomes and m of them are favourable to an event E, then the probability of event E is P(E) = m/n, where 0 ≤.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_14_001', title: 'The classical definition of probability.',

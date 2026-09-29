@@ -11,7 +11,7 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
     classLevel: 10, subject: 'physics', topic: 'Image Formation by Concave Mirror: Ray Diagrams for All Positions',
     chapters: [],
     nodeIds: ['c10_phy_cbse_04_003', 'c10_phy_cbse_04_005', 'c10_phy_cbse_04_006', 'c10_phy_cbse_04_007', 'c10_phy_cbse_04_008', 'c10_phy_cbse_04_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe the concave mirror in your school laboratory or a shiny metal spoon\'s inner surface — notice how your.', goal: 'Master Image Formation by Concave Mirror: Ray Diagrams for All Positions.' },
     discovery: {
         question: 'State the mirror formula and magnification formula for spherical mirrors.',
@@ -20,7 +20,7 @@ export const w_c10_physicsscatteringlightsim: SimDef = {
         hook: 'Students believe magnification m = v/u (without the negative sign) and think positive m always means virtual image.',
     },
     teaching: [
-        { title: 'Image formation by a concave mirror is the.', text: 'Image formation by a concave mirror is the process of locating the position, size, nature (real or virtual), and orientation (erect or inverted) of the image formed when light rays from an object.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Image formation by a concave mirror is the.', text: 'Image formation by a concave mirror is the process of locating the position, size, nature (real or virtual), and orientation (erect or inverted) of the image formed when light rays from an object.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_phy_cbse_04_003', title: 'Image formation by a concave mirror is.',

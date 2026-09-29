@@ -1142,7 +1142,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
             ⚛️
           </div>
           <div>
-            <h1 className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-300 to-amber-300">
+            <h1 className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-amber-300">
               ICSE Atomic Structure Master Lab
             </h1>
             <p className="text-xs text-slate-400 font-medium">Class 7 Chemistry • Nodes c7_chem_009 to c7_chem_016</p>
@@ -1157,7 +1157,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
               onClick={() => handleTabChange(tab)}
               className={`px-4 py-2 rounded-lg text-xs font-bold transition-all uppercase tracking-wider ${
                 activeTab === tab
-                  ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-lg'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -1190,14 +1190,14 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* Scenario Intro Card */}
-            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 border border-slate-800 rounded-2xl p-6 shadow-xl">
+            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-gold-950 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center gap-2 text-amber-400 font-bold text-xs uppercase tracking-wider mb-2">
                 <span>🔬 Laboratory Scenario</span>
               </div>
               <h2 className="text-2xl font-extrabold text-white mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-4 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-sky-300 leading-relaxed">
-                <strong className="text-sky-400">Context: </strong>
+              <div className="p-4 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-gold-300 leading-relaxed">
+                <strong className="text-gold-400">Context: </strong>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1205,8 +1205,8 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
             {/* Counterintuitive Discovery Question */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <div className="flex items-center justify-between">
-                <h3 className="text-lg font-bold text-sky-400">Core Discovery Pre-Test</h3>
-                <span className="text-xs bg-sky-950 text-sky-300 px-2.5 py-1 rounded-full border border-sky-800 font-semibold">
+                <h3 className="text-lg font-bold text-gold-400">Core Discovery Pre-Test</h3>
+                <span className="text-xs bg-gold-950 text-gold-300 px-2.5 py-1 rounded-full border border-gold-800 font-semibold">
                   Preconception Challenge
                 </span>
               </div>
@@ -1222,11 +1222,11 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                     }}
                     className={`p-4 rounded-xl border text-left text-sm font-medium transition-all ${
                       discoverySelected === idx
-                        ? 'border-sky-500 bg-sky-950/50 text-white shadow-md'
+                        ? 'border-gold-500 bg-gold-950/50 text-white shadow-md'
                         : 'border-slate-800 bg-slate-950/50 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="font-extrabold text-sky-400 mr-2">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-extrabold text-gold-400 mr-2">{String.fromCharCode(65 + idx)}.</span>
                     {opt}
                   </button>
                 ))}
@@ -1245,7 +1245,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       audioManager.play('drop-wrong');
                     }
                   }}
-                  className="w-full py-3 bg-gradient-to-r from-sky-500 to-indigo-600 rounded-xl text-white font-bold text-sm disabled:opacity-50 hover:opacity-90 shadow-lg transition-all"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl text-white font-bold text-sm disabled:opacity-50 hover:opacity-90 shadow-lg transition-all"
                 >
                   Verify Discovery Answer
                 </button>
@@ -1267,7 +1267,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
 
             {/* PREDICTION QUESTIONS LIST */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-indigo-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <span>🔮 Theoretical Predictions</span>
               </h3>
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1283,7 +1283,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                         }}
                         className={`p-3 rounded-lg border text-xs font-medium text-left ${
                           predictionAnswers[pIdx] === oIdx
-                            ? 'border-indigo-500 bg-indigo-950/60 text-white'
+                            ? 'border-gold-500 bg-gold-950/60 text-white'
                             : 'border-slate-800 bg-slate-900 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1292,7 +1292,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                     ))}
                   </div>
                   {predictionAnswers[pIdx] !== undefined && (
-                    <div className="text-xs text-sky-400 bg-sky-950/30 p-2.5 rounded-lg border border-sky-900">
+                    <div className="text-xs text-gold-400 bg-gold-950/30 p-2.5 rounded-lg border border-gold-900">
                       <strong>Verification Guide: </strong> {pred.verifyInstruction}
                     </div>
                   )}
@@ -1377,8 +1377,8 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                 {/* Slider 3: Electrons */}
                 <div className="space-y-2">
                   <div className="flex justify-between items-center text-xs font-bold">
-                    <span className="text-sky-400 flex items-center gap-1.5">
-                      <span className="w-3 h-3 rounded-full bg-sky-400 inline-block"></span>
+                    <span className="text-gold-400 flex items-center gap-1.5">
+                      <span className="w-3 h-3 rounded-full bg-gold-400 inline-block"></span>
                       Electrons: {electrons}
                     </span>
                     <span className="text-slate-400">Charge -{electrons}</span>
@@ -1392,7 +1392,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       audioManager.play('tap');
                       setElectrons(parseInt(e.target.value));
                     }}
-                    className="w-full accent-sky-400 bg-slate-950 h-2 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-950 h-2 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1414,7 +1414,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                   </div>
                   <div className="flex justify-between items-center text-slate-300">
                     <span>Electron Configuration:</span>
-                    <span className="font-bold text-sky-300">
+                    <span className="font-bold text-gold-300">
                       ({shellDist.k}, {shellDist.l}, {shellDist.m})
                     </span>
                   </div>
@@ -1432,7 +1432,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                     <span>Net Electrical Charge:</span>
                     <span
                       className={`font-bold ${
-                        netCharge > 0 ? 'text-red-400' : netCharge < 0 ? 'text-sky-400' : 'text-emerald-400'
+                        netCharge > 0 ? 'text-red-400' : netCharge < 0 ? 'text-gold-400' : 'text-emerald-400'
                       }`}
                     >
                       {netCharge > 0 ? `+${netCharge} (Cation)` : netCharge < 0 ? `${netCharge} (Anion)` : '0 (Neutral)'}
@@ -1451,7 +1451,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                         setElectrons(1);
                         audioManager.play('tap');
                       }}
-                      className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-sky-300 font-semibold"
+                      className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-gold-300 font-semibold"
                     >
                       Protium (¹H)
                     </button>
@@ -1462,7 +1462,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                         setElectrons(11);
                         audioManager.play('tap');
                       }}
-                      className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-sky-300 font-semibold"
+                      className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-gold-300 font-semibold"
                     >
                       Sodium (Na)
                     </button>
@@ -1473,7 +1473,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                         setElectrons(18);
                         audioManager.play('tap');
                       }}
-                      className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-sky-300 font-semibold"
+                      className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-gold-300 font-semibold"
                     >
                       Cl⁻ Ion
                     </button>
@@ -1502,7 +1502,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Electron Mass Contribution:</span>
-                        <span className="text-sky-400 font-bold">{(electrons * 0.00054).toFixed(4)} u</span>
+                        <span className="text-gold-400 font-bold">{(electrons * 0.00054).toFixed(4)} u</span>
                       </div>
                       <hr className="border-slate-800" />
                       <div className="flex justify-between font-extrabold text-amber-300">
@@ -1517,13 +1517,13 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
 
             {/* EXPLORATION STEPS GUIDED LAB RENDER */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-sky-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <span>🧪 Guided Exploration Tasks</span>
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {EXPLORATION_STEPS.map((step, sIdx) => (
                   <div key={sIdx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                    <span className="text-[10px] font-extrabold text-indigo-400 uppercase tracking-widest">
+                    <span className="text-[10px] font-extrabold text-gold-400 uppercase tracking-widest">
                       Step {sIdx + 1}
                     </span>
                     <h4 className="text-sm font-bold text-white">{step.title}</h4>
@@ -1572,7 +1572,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-4">
                 <div>
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                     Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                   </span>
                   <h3 className="text-xl font-extrabold text-white mt-1">{activeChallenge.question}</h3>
@@ -1625,18 +1625,18 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       }}
                       className={`p-4 rounded-xl border text-left text-sm font-semibold transition-all ${
                         selectedMcqIndex === oIdx
-                          ? 'border-indigo-500 bg-indigo-950/60 text-white shadow-lg'
+                          ? 'border-gold-500 bg-gold-950/60 text-white shadow-lg'
                           : 'border-slate-800 bg-slate-950/40 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <span className="text-indigo-400 font-extrabold mr-3">{String.fromCharCode(65 + oIdx)}.</span>
+                      <span className="text-gold-400 font-extrabold mr-3">{String.fromCharCode(65 + oIdx)}.</span>
                       {optionText}
                     </button>
                   ))}
                   <button
                     disabled={selectedMcqIndex === null}
                     onClick={handleMcqSubmit}
-                    className="mt-3 w-full py-3.5 bg-gradient-to-r from-indigo-500 to-sky-500 rounded-xl text-white font-bold text-sm disabled:opacity-50 hover:opacity-90 transition-all shadow-lg"
+                    className="mt-3 w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-500 rounded-xl text-white font-bold text-sm disabled:opacity-50 hover:opacity-90 transition-all shadow-lg"
                   >
                     Submit Response
                   </button>
@@ -1652,12 +1652,12 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer..."
-                      className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-bold focus:outline-none focus:border-indigo-500"
+                      className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-bold focus:outline-none focus:border-gold-500"
                     />
                     <button
                       disabled={numericInput.trim() === ''}
                       onClick={handleNumericSubmit}
-                      className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-sky-500 rounded-xl text-white font-bold text-sm disabled:opacity-50 hover:opacity-90 shadow-lg"
+                      className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-500 rounded-xl text-white font-bold text-sm disabled:opacity-50 hover:opacity-90 shadow-lg"
                     >
                       Check Answer
                     </button>
@@ -1669,7 +1669,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
               {activeChallenge.type === 'build' && activeChallenge.targetAtom && (
                 <div className="space-y-4 pt-2">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <p className="text-xs text-sky-300">
+                    <p className="text-xs text-gold-300">
                       Use the interactive atomic sliders below or switch to the <strong>Atomic Lab</strong> tab to align
                       the parameters:
                     </p>
@@ -1680,7 +1680,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-700 text-slate-300">
                         Neutrons: {neutrons}
                       </div>
-                      <div className="p-2 bg-slate-900 rounded-lg border border-sky-900 text-sky-400">
+                      <div className="p-2 bg-slate-900 rounded-lg border border-gold-900 text-gold-400">
                         Electrons: {electrons}
                       </div>
                     </div>
@@ -1712,14 +1712,14 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                       />
                     </div>
                     <div>
-                      <label className="text-[10px] text-sky-400 font-bold uppercase">Electrons ({electrons})</label>
+                      <label className="text-[10px] text-gold-400 font-bold uppercase">Electrons ({electrons})</label>
                       <input
                         type="range"
                         min="0"
                         max="18"
                         value={electrons}
                         onChange={(e) => setElectrons(parseInt(e.target.value))}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                   </div>
@@ -1765,7 +1765,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
                   }}
                   className={`w-7 h-7 rounded-lg text-xs font-bold transition-all ${
                     idx === currentChallengeIndex
-                      ? 'bg-indigo-500 text-white ring-2 ring-indigo-300'
+                      ? 'bg-gold-500 text-white ring-2 ring-gold-300'
                       : completedChallengeIds.has(ch.id)
                       ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-700'
                       : 'bg-slate-900 text-slate-500 border border-slate-800'
@@ -1816,7 +1816,7 @@ export const C7_ChemistryAtomicstructureelectronsprotonsneutronsSim: React.FC<Si
 
             {/* REAL WORLD EXTENSION ACTIVITY */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-sky-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <span>🌐 Real-World Application Task</span>
               </h3>
               <h4 className="text-base font-extrabold text-white">{REAL_WORLD_ACTIVITY.title}</h4>

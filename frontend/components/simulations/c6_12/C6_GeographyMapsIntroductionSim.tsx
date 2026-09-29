@@ -1071,7 +1071,7 @@ export function C6_GeographyMapsIntroductionSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950 text-emerald-300 border-emerald-600'
                   : difficulty === 'standard'
-                  ? 'bg-blue-950 text-blue-300 border-blue-600'
+                  ? 'bg-gold-950 text-gold-300 border-gold-600'
                   : 'bg-rose-950 text-rose-300 border-rose-600'
               }`}
             >
@@ -1087,13 +1087,13 @@ export function C6_GeographyMapsIntroductionSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span>🧭</span> Narrative Scenario Hook
             </div>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 bg-indigo-950/60 p-3 rounded-xl border border-indigo-900/60 font-mono">
+            <p className="text-xs text-gold-300/80 bg-gold-950/60 p-3 rounded-xl border border-gold-900/60 font-mono">
               Mission Context: {SCENARIO.context}
             </p>
           </div>
@@ -1118,7 +1118,7 @@ export function C6_GeographyMapsIntroductionSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1238,7 +1238,7 @@ export function C6_GeographyMapsIntroductionSim({
                         </div>
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex justify-between">
                           <span className="text-slate-400">Statement Equivalent:</span>
-                          <span className="font-bold text-cyan-400">
+                          <span className="font-bold text-gold-400">
                             1 cm = {(scaleDenominator / 100000).toFixed(2)} km on ground
                           </span>
                         </div>
@@ -1321,7 +1321,7 @@ export function C6_GeographyMapsIntroductionSim({
                         value={compassAngle}
                         onChange={e => handleCompassRotate(Number(e.target.value))}
                         aria-label="Compass Angle Slider"
-                        className="w-full accent-cyan-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
 
                       <div className="grid grid-cols-4 gap-2 mt-4">
@@ -1343,7 +1343,7 @@ export function C6_GeographyMapsIntroductionSim({
                             aria-label={`Set direction ${pt.name}`}
                             className={`p-2 rounded-xl text-xs font-bold border ${
                               Math.abs(compassAngle - pt.deg) < 15
-                                ? 'bg-cyan-950 border-cyan-400 text-cyan-200'
+                                ? 'bg-gold-950 border-gold-400 text-gold-200'
                                 : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                             }`}
                           >
@@ -1353,7 +1353,7 @@ export function C6_GeographyMapsIntroductionSim({
                       </div>
 
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 mt-4 text-xs text-slate-300">
-                        <span className="text-cyan-400 font-bold">Rule of Bearings:</span> Angles are always measured{' '}
+                        <span className="text-gold-400 font-bold">Rule of Bearings:</span> Angles are always measured{' '}
                         <span className="text-white font-bold">clockwise from True North (0°)</span>.
                       </div>
                     </div>
@@ -1398,8 +1398,8 @@ export function C6_GeographyMapsIntroductionSim({
                 <div className="space-y-6">
                   {/* Predict-Then-Check */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 space-y-3">
-                      <p className="text-sm font-bold text-indigo-200">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 space-y-3">
+                      <p className="text-sm font-bold text-gold-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1445,7 +1445,7 @@ export function C6_GeographyMapsIntroductionSim({
                         </div>
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex justify-between">
                           <span className="text-slate-400">Downward Wave (Syncline):</span>
-                          <span className="font-bold text-cyan-400">
+                          <span className="font-bold text-gold-400">
                             {foldCompression > 20 ? 'Forming Valley Trough' : 'Flat Stratum'}
                           </span>
                         </div>
@@ -1705,7 +1705,7 @@ export function C6_GeographyMapsIntroductionSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="font-bold text-slate-300">Special Landmark Feature: </span>
-                        <span className="text-cyan-400">
+                        <span className="text-gold-400">
                           {valleyType === 'river'
                             ? 'Gorges and Canyons'
                             : valleyType === 'glacier'
@@ -1769,17 +1769,17 @@ export function C6_GeographyMapsIntroductionSim({
                   value={compassAngle}
                   onChange={e => handleCompassRotate(Number(e.target.value))}
                   aria-label="Sandbox Compass Angle"
-                  className="w-full accent-cyan-400 h-1.5 bg-slate-800 rounded cursor-pointer"
+                  className="w-full accent-gold-400 h-1.5 bg-slate-800 rounded cursor-pointer"
                 />
               </div>
-              <p className="text-[11px] text-cyan-300 font-mono bg-slate-950 p-2.5 rounded-lg border border-slate-800">
+              <p className="text-[11px] text-gold-300 font-mono bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                 Facing: {cardinalLabel}
               </p>
             </div>
 
             {/* Control Panel 2: Tectonic Forces */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">2. Earth Force Controls</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider">2. Earth Force Controls</h3>
               <div>
                 <label className="text-xs text-slate-400 block mb-1">Compression (Folding): {foldCompression}%</label>
                 <input
@@ -1789,7 +1789,7 @@ export function C6_GeographyMapsIntroductionSim({
                   value={foldCompression}
                   onChange={e => handleFoldCompression(Number(e.target.value))}
                   aria-label="Sandbox Fold Slider"
-                  className="w-full accent-indigo-500 h-1.5 bg-slate-800 rounded cursor-pointer"
+                  className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded cursor-pointer"
                 />
               </div>
               <div>
@@ -1889,7 +1889,7 @@ export function C6_GeographyMapsIntroductionSim({
           {/* Animated Challenge Progress Bar */}
           <div className="w-full h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2010,7 +2010,7 @@ export function C6_GeographyMapsIntroductionSim({
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between gap-3 text-sm text-slate-200 cursor-grab"
                   >
                     <div className="flex items-center gap-3">
-                      <span className="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                      <span className="w-6 h-6 rounded-lg bg-gold-950 text-gold-300 font-bold flex items-center justify-center text-xs">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2030,7 +2030,7 @@ export function C6_GeographyMapsIntroductionSim({
                   }}
                   disabled={showExplanation}
                   aria-label="Submit Ordered Steps"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Check Sequence Order ✓
                 </motion.button>
@@ -2117,9 +2117,9 @@ export function C6_GeographyMapsIntroductionSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-950 rounded-2xl border border-indigo-700/60 space-y-4 mt-6"
+                className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-950 rounded-2xl border border-gold-700/60 space-y-4 mt-6"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>📖</span> Detailed Step-by-Step Geological Explanation
                 </div>
 
@@ -2147,7 +2147,7 @@ export function C6_GeographyMapsIntroductionSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Reveal next step of explanation"
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Show Next Explanation Step →
                     </motion.button>
@@ -2190,7 +2190,7 @@ export function C6_GeographyMapsIntroductionSim({
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">Mastery Tier</span>
-                <span className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">Errors</span>
@@ -2231,12 +2231,12 @@ export function C6_GeographyMapsIntroductionSim({
           )}
 
           {/* Spaced Repetition Visibility Card */}
-          <div className="p-6 bg-gradient-to-br from-cyan-950/60 via-slate-900 to-slate-900 rounded-2xl border border-cyan-700/60 shadow-lg space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/60 shadow-lg space-y-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">🧠</span>
                 <div>
-                  <h3 className="text-sm font-bold text-cyan-300 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                     SM-2 Spaced Repetition (SRS) Memory Schedule
                   </h3>
                   <p className="text-xs text-slate-400">
@@ -2244,7 +2244,7 @@ export function C6_GeographyMapsIntroductionSim({
                   </p>
                 </div>
               </div>
-              <span className="px-3 py-1 bg-cyan-900/60 text-cyan-300 border border-cyan-500/40 rounded-full text-xs font-black font-mono">
+              <span className="px-3 py-1 bg-gold-900/60 text-gold-300 border border-gold-500/40 rounded-full text-xs font-black font-mono">
                 SRS ACTIVE
               </span>
             </div>
@@ -2301,7 +2301,7 @@ export function C6_GeographyMapsIntroductionSim({
 
           {/* Reflection Section */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span>💭</span> Post-Expedition Reflection
             </div>
             <h3 className="text-base font-bold text-white">Reflect on Your Learning</h3>
@@ -2341,10 +2341,10 @@ export function C6_GeographyMapsIntroductionSim({
           </div>
 
           {/* Real World Field Activity */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/50 space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/50 space-y-3">
             <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
-            <ul className="space-y-1.5 text-xs text-indigo-200">
+            <ul className="space-y-1.5 text-xs text-gold-200">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">{i + 1}.</span> {st}

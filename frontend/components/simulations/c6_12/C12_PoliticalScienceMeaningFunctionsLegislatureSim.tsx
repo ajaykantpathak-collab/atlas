@@ -1301,12 +1301,12 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
         className="mb-6 p-4 bg-slate-900/90 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-lg md:text-xl font-extrabold text-white tracking-wide">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">
+            <p className="text-xs text-gold-400 font-medium">
               Class 12 ISC Political Science • Section A & B Mastery
             </p>
           </div>
@@ -1325,7 +1325,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all capitalize ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1339,13 +1339,13 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold tracking-wider uppercase mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold tracking-wider uppercase mb-2">
               <span>🏛️ Narrative Hook</span>
             </div>
             <h2 className="text-xl md:text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-sm md:text-base text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs text-gold-200">
               ⚡ <span className="font-semibold">{SCENARIO.context}</span>
             </div>
           </div>
@@ -1395,7 +1395,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                   aria-label="Advance to Interactive Exploration Laboratories"
                 >
                   Enter Interactive Laboratories →
@@ -1423,7 +1423,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                   }`}
                   aria-label={`Go to ${s.title}`}
@@ -1447,7 +1447,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
               className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-lg md:text-xl font-black text-indigo-300">
+                <h3 className="text-lg md:text-xl font-black text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-sm text-amber-400 mt-1 font-medium">
@@ -1460,7 +1460,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                   <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div>
-                      <div className="flex justify-between text-xs font-bold text-indigo-400 mb-1">
+                      <div className="flex justify-between text-xs font-bold text-gold-400 mb-1">
                         <span>Legislative Authority (Parliament): {legPower}%</span>
                         <span>Makes Laws</span>
                       </div>
@@ -1470,7 +1470,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                         max={80}
                         value={legPower}
                         onChange={(e) => handleLegPowerChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Legislative authority slider"
                       />
                     </div>
@@ -1521,7 +1521,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                     <div className="grid grid-cols-3 gap-2 text-center">
                       <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                         <p className="text-[10px] text-slate-500">Bills passed per session (of 40)</p>
-                        <p className="font-mono font-bold text-indigo-300">{Math.round((legPower / 80) * 40)} bills</p>
+                        <p className="font-mono font-bold text-gold-300">{Math.round((legPower / 80) * 40)} bills</p>
                       </div>
                       <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                         <p className="text-[10px] text-slate-500">Executive orders struck down</p>
@@ -1552,9 +1552,9 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-3 bg-indigo-950/70 rounded-xl border border-indigo-700/60"
+                        className="p-3 bg-gold-950/70 rounded-xl border border-gold-700/60"
                       >
-                        <p className="text-xs font-bold text-indigo-200 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                        <p className="text-xs font-bold text-gold-200 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="space-y-1.5">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                             <motion.button
@@ -1616,7 +1616,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       <path d="M 150 90 L 150 60 L 230 40" stroke="#6366f1" strokeWidth="2" strokeDasharray="4 4" fill="none" />
                       <path d="M 450 90 L 450 60 L 370 40" stroke="#6366f1" strokeWidth="2" strokeDasharray="4 4" fill="none" />
                     </svg>
-                    <span className="text-[11px] text-indigo-400 mt-2 font-medium">Article 79: Union Parliament = President + Lok Sabha + Rajya Sabha</span>
+                    <span className="text-[11px] text-gold-400 mt-2 font-medium">Article 79: Union Parliament = President + Lok Sabha + Rajya Sabha</span>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
@@ -1651,11 +1651,11 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                         whileHover={{ scale: 1.02 }}
                         className={`p-3.5 rounded-xl border transition-all ${
                           billStage === st.id
-                            ? 'bg-indigo-950/80 border-indigo-500 text-white shadow-lg ring-1 ring-indigo-400'
+                            ? 'bg-gold-950/80 border-gold-500 text-white shadow-lg ring-1 ring-gold-400'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
-                        <div className="text-xs font-bold text-indigo-400">{st.title}</div>
+                        <div className="text-xs font-bold text-gold-400">{st.title}</div>
                         <div className="text-xs font-semibold text-slate-200 mt-0.5">{st.subtitle}</div>
                         <p className="text-[11px] text-slate-400 mt-1.5 leading-relaxed">{st.desc}</p>
                       </motion.div>
@@ -1676,7 +1676,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleBillStageStep}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg shadow"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow"
                       aria-label="Advance Bill to next legislative stage"
                     >
                       {billStage === 'enacted' ? 'Reset Legislative Flow ⟲' : 'Transmit Bill to Next Stage →'}
@@ -1718,7 +1718,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
 
                   {/* Predict Then Check Hook */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/50 mb-3">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/50 mb-3">
                       <span className="text-xs font-bold text-amber-400 block mb-1">
                         Predict-Then-Check Inquiry
                       </span>
@@ -1750,7 +1750,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                         systemComparison === 'india'
-                          ? 'bg-indigo-600 border-indigo-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                       aria-label="View India Parliamentary Architecture"
@@ -1777,7 +1777,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1">
+                      <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-1">
                         Executive Type
                       </h4>
                       <p className="text-sm font-semibold text-white">
@@ -1832,7 +1832,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                 <div className="space-y-4">
                   {/* Predict Then Check Hook */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/50 mb-3">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/50 mb-3">
                       <span className="text-xs font-bold text-amber-400 block mb-1">
                         Predict-Then-Check Inquiry
                       </span>
@@ -2007,7 +2007,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       {selectedPreambleWord === 'EQUALITY' && 'Rule of law under Article 14; prohibition of discrimination under Article 15.'}
                       {selectedPreambleWord === 'FRATERNITY' && 'Emotional integration and mutual brotherhood across 1.4 billion citizens.'}
                     </p>
-                    <div className="mt-3 inline-block px-2.5 py-1 bg-indigo-950/70 border border-indigo-700/50 rounded-lg text-xs font-mono text-indigo-300">
+                    <div className="mt-3 inline-block px-2.5 py-1 bg-gold-950/70 border border-gold-700/50 rounded-lg text-xs font-mono text-gold-300">
                       Constitutional Link: {selectedPreambleWord === 'SOCIALIST' || selectedPreambleWord === 'SECULAR' ? '42nd Amendment (1976)' : 'Original 1950 Text'}
                     </div>
                   </div>
@@ -2042,7 +2042,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 aria-label="Next laboratory"
               >
                 Next Lab →
@@ -2067,7 +2067,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex justify-between items-center mb-2">
-              <h3 className="text-lg font-black text-indigo-300">Constitutional Sandbox Laboratory</h3>
+              <h3 className="text-lg font-black text-gold-300">Constitutional Sandbox Laboratory</h3>
               <span className="px-2.5 py-1 bg-emerald-950/70 border border-emerald-700/60 rounded-lg text-[11px] font-bold text-emerald-400">
                 Free Exploration • Zero Pressure
               </span>
@@ -2080,7 +2080,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Control 1: Impeachment Threshold */}
             <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-indigo-400 block">
+              <span className="text-xs font-bold text-gold-400 block">
                 Judicial Removal Majority: {impeachmentThreshold}%
               </span>
               <input
@@ -2089,7 +2089,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                 max={90}
                 value={impeachmentThreshold}
                 onChange={(e) => setImpeachmentThreshold(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
                 aria-label="Impeachment threshold slider"
               />
               <p className="text-[11px] text-slate-400">
@@ -2154,7 +2154,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                 placeholder="Search articles (e.g., 79, 124, 368, money bill)..."
                 value={searchArticle}
                 onChange={(e) => setSearchArticle(e.target.value)}
-                className="px-3 py-1.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 w-full sm:w-64"
+                className="px-3 py-1.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500 w-full sm:w-64"
                 aria-label="Search constitutional articles"
               />
             </div>
@@ -2162,7 +2162,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 max-h-48 overflow-y-auto pr-1">
               {filteredArticles.map((a) => (
                 <div key={a.art} className="p-2.5 bg-slate-950 rounded-xl border border-slate-855">
-                  <span className="text-xs font-mono font-bold text-indigo-400 block">{a.art}</span>
+                  <span className="text-xs font-mono font-bold text-gold-400 block">{a.art}</span>
                   <p className="text-[11px] text-slate-300 mt-0.5 leading-snug">{a.desc}</p>
                 </div>
               ))}
@@ -2199,7 +2199,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                     ? 'bg-emerald-950 border border-emerald-700 text-emerald-400'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 border border-rose-700 text-rose-400'
-                    : 'bg-indigo-950 border border-indigo-700 text-indigo-400'
+                    : 'bg-gold-950 border border-gold-700 text-gold-400'
                 }`}
               >
                 {difficulty}
@@ -2210,14 +2210,14 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
             </div>
 
             <span className="text-xs font-mono text-slate-400">
-              Mastery: <span className="font-bold text-indigo-300">{masteryLevel}</span>
+              Mastery: <span className="font-bold text-gold-300">{masteryLevel}</span>
             </span>
           </div>
 
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2266,7 +2266,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow"
                       aria-label={`Draggable label: ${item.label}`}
                     >
                       ⠿ {item.label}
@@ -2301,7 +2301,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   aria-label="Verify dragged labels"
                 >
                   Verify Organ Functions →
@@ -2332,7 +2332,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       aria-label={`Sort item ${displayIndex + 1}: ${item}`}
                     >
                       <span>
-                        <span className="font-bold text-indigo-400 mr-2">{displayIndex + 1}.</span> {item}
+                        <span className="font-bold text-gold-400 mr-2">{displayIndex + 1}.</span> {item}
                       </span>
                       <span className="text-slate-600">⠿</span>
                     </motion.div>
@@ -2344,7 +2344,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   aria-label="Submit arranged order"
                 >
                   Check Sequence →
@@ -2361,7 +2361,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter number..."
-                    className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-48"
                     aria-label="Numeric answer input"
                   />
                   <span className="text-xs text-slate-400">{challenge.unit}</span>
@@ -2370,7 +2370,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
+                    className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
                     aria-label="Check numeric answer"
                   >
                     Check →
@@ -2390,7 +2390,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-xl text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-xl text-white text-xs font-bold shadow"
                       aria-label={`Add part ${part}`}
                     >
                       + {part}
@@ -2404,7 +2404,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900 border border-indigo-600 rounded-lg text-xs text-indigo-200 font-bold flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900 border border-gold-600 rounded-lg text-xs text-gold-200 font-bold flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2426,7 +2426,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
+                  className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
                   aria-label="Verify constructed sequence"
                 >
                   Verify Structure →
@@ -2439,9 +2439,9 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 bg-indigo-950/70 border border-indigo-700/60 rounded-xl space-y-3"
+                className="mt-4 p-4 bg-gold-950/70 border border-gold-700/60 rounded-xl space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 text-xs font-bold tracking-wider uppercase">
+                <div className="flex items-center gap-2 text-gold-300 text-xs font-bold tracking-wider uppercase">
                   <span>📜 Constitutional Explanation</span>
                 </div>
 
@@ -2454,7 +2454,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                       key={i}
                       initial={{ opacity: 0, x: -8 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-xs md:text-sm text-indigo-100 leading-relaxed"
+                      className="text-xs md:text-sm text-gold-100 leading-relaxed"
                     >
                       <span className="font-bold text-amber-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
@@ -2467,7 +2467,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                    className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                     aria-label="Reveal next explanation sentence"
                   >
                     Show next step →
@@ -2501,7 +2501,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
               Final Competency Score: <span className="font-mono font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span>
             </p>
             <p className="text-xs text-slate-400">
-              Assessed Mastery Level: <span className="font-bold text-indigo-300 uppercase">{masteryLevel}</span>
+              Assessed Mastery Level: <span className="font-bold text-gold-300 uppercase">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2511,7 +2511,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
               errors === 0
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                 : errors <= 3
-                ? 'bg-indigo-950/70 border-indigo-500 text-indigo-200'
+                ? 'bg-gold-950/70 border-gold-500 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/70 border-amber-500 text-amber-200'
                 : 'bg-rose-950/70 border-rose-500 text-rose-200'
@@ -2524,15 +2524,15 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
           </div>
 
           {/* ─── PROMINENT SPACED REPETITION VISIBILITY CARD ─── */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/90 via-slate-900 to-purple-950/90 rounded-2xl border border-indigo-500/50 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-r from-gold-950/90 via-slate-900 to-purple-950/90 rounded-2xl border border-gold-500/50 shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📅</span>
-                <span className="text-sm font-bold text-indigo-200 uppercase tracking-wide">
+                <span className="text-sm font-bold text-gold-200 uppercase tracking-wide">
                   Spaced Repetition Schedule (SM-2 Algorithm)
                 </span>
               </div>
-              <span className="px-3 py-1 bg-indigo-500/20 border border-indigo-400 text-indigo-300 rounded-full text-xs font-mono font-bold shadow-inner">
+              <span className="px-3 py-1 bg-gold-500/20 border border-gold-400 text-gold-300 rounded-full text-xs font-mono font-bold shadow-inner">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </span>
             </div>
@@ -2554,7 +2554,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
               <div
                 className={`p-3 rounded-xl border transition-all ${
                   errors >= 1 && errors <= 3
-                    ? 'bg-indigo-950/80 border-indigo-400 text-indigo-200 font-bold ring-2 ring-indigo-500/50 shadow-md'
+                    ? 'bg-gold-950/80 border-gold-400 text-gold-200 font-bold ring-2 ring-gold-500/50 shadow-md'
                     : 'bg-slate-900/60 border-slate-800 text-slate-500 opacity-60'
                 }`}
               >
@@ -2596,7 +2596,7 @@ function C12_PoliticalScienceMeaningFunctionsLegislatureSim({
 
           {/* Real World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (

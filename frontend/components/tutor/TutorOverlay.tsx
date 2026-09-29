@@ -623,9 +623,9 @@ function MessageBubble({
               </div>
             )}
             {onFailure && (
-              <div className="flex items-start gap-2 rounded-lg bg-blue-500/5 border border-blue-500/10 px-3 py-2">
-                <ArrowRight size={12} className="text-blue-400 flex-shrink-0 mt-0.5" />
-                <p className="text-xs text-blue-200/70">
+              <div className="flex items-start gap-2 rounded-lg bg-gold-500/5 border border-gold-500/10 px-3 py-2">
+                <ArrowRight size={12} className="text-gold-400 flex-shrink-0 mt-0.5" />
+                <p className="text-xs text-gold-200/70">
                   {onFailure.replace(/Review c\d+_phy_\d+\s*—?\s*/g, 'Review: ').replace(/c\d+_phy_\d+/g, 'the previous topic')}
                 </p>
               </div>
@@ -642,7 +642,7 @@ function MessageBubble({
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className={`rounded-2xl bg-blue-500/5 border border-blue-500/15 p-4 ${helpUsed ? 'opacity-40' : ''}`}
+        className={`rounded-2xl bg-gold-500/5 border border-gold-500/15 p-4 ${helpUsed ? 'opacity-40' : ''}`}
       >
         <p className="text-sm text-white/80 mb-3">{helpUsed ? '✓ Done' : 'Need more help with this one?'}</p>
         <div className="space-y-2">
@@ -659,7 +659,7 @@ function MessageBubble({
             disabled={helpUsed}
             className="w-full text-left px-3 py-2.5 rounded-xl bg-white/5 border border-white/10 text-sm text-white/80 hover:bg-white/10 hover:border-white/20 transition-all flex items-center gap-2 disabled:cursor-default disabled:hover:bg-white/5"
           >
-            <BookOpen size={14} className="text-sky-400" />
+            <BookOpen size={14} className="text-gold-400" />
             Show a worked example
           </button>
           <button
@@ -692,9 +692,9 @@ function MessageBubble({
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="bg-blue-500/5 border border-blue-500/15 rounded-2xl p-4"
+        className="bg-gold-500/5 border border-gold-500/15 rounded-2xl p-4"
       >
-        <div className="flex items-center gap-2 text-xs text-blue-400/70 font-mono mb-2">
+        <div className="flex items-center gap-2 text-xs text-gold-400/70 font-mono mb-2">
           <Lightbulb size={14} />
           {label}
         </div>
@@ -825,7 +825,7 @@ function QuizBubble({
   }
 
   const levelColors: Record<string, string> = {
-    recall: 'text-sky-400',
+    recall: 'text-gold-400',
     reasoning: 'text-green-400',
     evaluate: 'text-amber-400',
     apply: 'text-pink-400',

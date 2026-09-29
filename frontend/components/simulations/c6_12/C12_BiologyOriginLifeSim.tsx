@@ -1170,7 +1170,7 @@ function C12_BiologyOriginLifeSim({
         {/* Phase / Progress Indicator */}
         <div className="flex items-center gap-2 text-xs font-semibold">
           <span className="text-slate-400">Phase:</span>
-          <span className="px-3 py-1 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700 capitalize">
+          <span className="px-3 py-1 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700 capitalize">
             {phase}
           </span>
           {phase === 'challenge' && (
@@ -1195,13 +1195,13 @@ function C12_BiologyOriginLifeSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">🌋</span>
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs text-gold-200">
               <strong>Scenario Mission:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1338,7 +1338,7 @@ function C12_BiologyOriginLifeSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>💨 Methane (CH4) & Ammonia (NH3):</span>
-                        <span className="font-mono text-indigo-400">{methaneLevel}%</span>
+                        <span className="font-mono text-gold-400">{methaneLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1347,7 +1347,7 @@ function C12_BiologyOriginLifeSim({
                         value={methaneLevel}
                         onChange={e => setMethaneLevel(Number(e.target.value))}
                         aria-label="Methane Level Slider"
-                        className="w-full accent-indigo-500 h-1.5 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded-lg cursor-pointer"
                       />
                     </div>
 
@@ -1542,7 +1542,7 @@ function C12_BiologyOriginLifeSim({
                         onClick={() => handleAntigenSelect(ag)}
                         className={`p-2.5 rounded-xl text-xs font-bold capitalize border ${
                           selectedAntigen === ag
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-750'
                         }`}
                       >
@@ -1642,7 +1642,7 @@ function C12_BiologyOriginLifeSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextSlide}
                     aria-label="Next Lab"
-                    className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs md:text-sm font-bold shadow-md shadow-indigo-900/40"
+                    className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs md:text-sm font-bold shadow-md shadow-gold-900/40"
                   >
                     Next Lab →
                   </motion.button>
@@ -1684,7 +1684,7 @@ function C12_BiologyOriginLifeSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
             <div className="space-y-3">
-              <div className="text-xs font-bold text-indigo-300">Prebiotic Atmosphere Tuning:</div>
+              <div className="text-xs font-bold text-gold-300">Prebiotic Atmosphere Tuning:</div>
               <div>
                 <label className="text-xs text-slate-400 flex justify-between">
                   <span>Spark Discharge (kV):</span> <span>{sparkVoltage}</span>
@@ -1749,7 +1749,7 @@ function C12_BiologyOriginLifeSim({
               <div className="flex items-center gap-2">
                 <span className="font-bold text-white">Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
                 <span className="text-slate-500">|</span>
-                <span className="text-indigo-400 font-mono text-[11px]">{challenge.nodeId}</span>
+                <span className="text-gold-400 font-mono text-[11px]">{challenge.nodeId}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 uppercase font-bold text-[10px]">
@@ -1761,7 +1761,7 @@ function C12_BiologyOriginLifeSim({
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1826,7 +1826,7 @@ function C12_BiologyOriginLifeSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable label ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-semibold cursor-grab border border-indigo-500"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-semibold cursor-grab border border-gold-500"
                     >
                       🏷️ {item.label}
                     </motion.div>
@@ -1964,7 +1964,7 @@ function C12_BiologyOriginLifeSim({
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
                     aria-label="Submit Ordered List"
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Verify Order
                   </motion.button>
@@ -2026,7 +2026,7 @@ function C12_BiologyOriginLifeSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 rounded-lg text-xs text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-700 rounded-lg text-xs text-gold-200 flex items-center gap-2"
                     >
                       <span>{p}</span>
                       <button
@@ -2067,9 +2067,9 @@ function C12_BiologyOriginLifeSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 md:p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 space-y-3"
+                className="mt-6 p-4 md:p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>🔬 Step-by-Step Biological Explanation</span>
                 </div>
 
@@ -2084,7 +2084,7 @@ function C12_BiologyOriginLifeSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs md:text-sm leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono">{sIdx + 1}.</strong> {sentence}
+                      <strong className="text-gold-400 font-mono">{sIdx + 1}.</strong> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2095,7 +2095,7 @@ function C12_BiologyOriginLifeSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(r => r + 1)}
-                      className="px-4 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2142,7 +2142,7 @@ function C12_BiologyOriginLifeSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                 <div className="text-slate-400 text-xs">Mastery Level</div>
-                <div className="text-xl font-bold text-indigo-400 capitalize mt-0.5">{masteryLevel}</div>
+                <div className="text-xl font-bold text-gold-400 capitalize mt-0.5">{masteryLevel}</div>
               </div>
             </div>
             <p className="text-xs text-slate-300 max-w-lg mx-auto">
@@ -2155,8 +2155,8 @@ function C12_BiologyOriginLifeSim({
           </div>
 
           {/* Reflection Section */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/50 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/50 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭 Reflect & Consolidate</span>
             </h3>
             <p className="text-xs text-slate-400">Deepen your conceptual integration by articulating these insights:</p>
@@ -2169,7 +2169,7 @@ function C12_BiologyOriginLifeSim({
                     value={reflectionAnswers[ref.id] || ''}
                     onChange={e => setReflectionAnswers(prev => ({ ...prev, [ref.id]: e.target.value }))}
                     placeholder="Type your reflection here..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
               ))}
@@ -2211,7 +2211,7 @@ function C12_BiologyOriginLifeSim({
 
           {/* Real-World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">🔬 {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">🔬 {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

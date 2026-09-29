@@ -11,7 +11,7 @@ export const w_c8_chemistrychemicalequationsbalancingsim: SimDef = {
     classLevel: 8, subject: 'chemistry', topic: 'Particle Arrangement and Movement in Gases',
     chapters: [],
     nodeIds: ['c8_chem_ch2_8', 'c8_chem_ch2_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'When you open a bottle of perfume in one corner of a living room, the pleasant fragrance quickly spreads to.', goal: 'Master Particle Arrangement and Movement in Gases.' },
     discovery: {
         question: 'Which state of matter possesses the largest inter-particle space among solids, liquids, and gases?',
@@ -20,7 +20,7 @@ export const w_c8_chemistrychemicalequationsbalancingsim: SimDef = {
         hook: 'Students often believe that inter-particle space within liquids and gases is filled with air or another medium, rather.',
     },
     teaching: [
-        { title: 'In gases, particles are arranged with very.', text: 'In gases, particles are arranged with very large empty spaces between them and move about randomly at high speeds in all possible directions.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'In gases, particles are arranged with very.', text: 'In gases, particles are arranged with very large empty spaces between them and move about randomly at high speeds in all possible directions.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_chem_ch2_9', title: 'Inter-particle space refers to the.',

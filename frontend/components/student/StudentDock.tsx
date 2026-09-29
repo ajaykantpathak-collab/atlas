@@ -8,8 +8,10 @@
  * practice session, or landed on /progress or a lesson, had exactly one way
  * out — the browser Back button (the audit's link inventory for /practice
  * found a single anchor, "Skip to content"). Children don't use Back; they
- * give up. This dock rides above every student route with the five places
+ * give up. This dock rides above every student route with the places
  * a child actually needs, in child words ("Check-up", not "Diagnostic").
+ * Today joined the dock because the daily assembler (/today) had no
+ * inbound link anywhere in the app — unreachable ≠ optional.
  *
  * Design constraints honoured here:
  *  - No page owns its chrome, so the dock is a self-contained floating pill
@@ -26,10 +28,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, BookOpen, ClipboardCheck, Home, Target } from "lucide-react";
+import { BarChart3, BookOpen, ClipboardCheck, Home, Sunrise, Target } from "lucide-react";
 
 const DOCK_ITEMS = [
   { href: "/dashboard", label: "Home", icon: Home },
+  { href: "/today", label: "Today", icon: Sunrise },
   { href: "/learn", label: "Learn", icon: BookOpen },
   { href: "/practice", label: "Practice", icon: Target },
   { href: "/diagnostic", label: "Check-up", icon: ClipboardCheck },

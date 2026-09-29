@@ -692,13 +692,13 @@ function PendulumMultiRepSVG({ length, mass, gravity, angleDeg }: { length: numb
     <motion.div
       initial={{ opacity: 0, scale: 0.96 }}
       animate={{ opacity: 1, scale: 1 }}
-      className="p-4 bg-slate-900/90 rounded-2xl border border-indigo-900/60 shadow-lg space-y-3"
+      className="p-4 bg-slate-900/90 rounded-2xl border border-gold-900/60 shadow-lg space-y-3"
     >
       <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-        <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-1.5">
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
           <span>📐</span> Representation 1 & 2: Free Body Force Diagram & Energy Curve
         </span>
-        <span className="text-xs font-mono bg-indigo-950 px-2 py-0.5 rounded text-indigo-300 border border-indigo-700">
+        <span className="text-xs font-mono bg-gold-950 px-2 py-0.5 rounded text-gold-300 border border-gold-700">
           T = 2π√(L/g) = {period.toFixed(2)} s
         </span>
       </div>
@@ -767,7 +767,7 @@ function PendulumMultiRepSVG({ length, mass, gravity, angleDeg }: { length: numb
         </div>
         <div>
           <span className="text-slate-400 block">Restoring Stiffness k_eff:</span>
-          <span className="font-mono text-sky-400 font-bold">{(mass * gravity / length).toFixed(2)} N/m</span>
+          <span className="font-mono text-gold-400 font-bold">{(mass * gravity / length).toFixed(2)} N/m</span>
         </div>
         <div>
           <span className="text-slate-400 block">Small Angle Validity:</span>
@@ -784,13 +784,13 @@ function StandingWaveHarmonicsSVG({ modeN, systemType }: { modeN: number; system
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="p-4 bg-slate-900/90 rounded-2xl border border-sky-900/60 shadow-lg space-y-3"
+      className="p-4 bg-slate-900/90 rounded-2xl border border-gold-900/60 shadow-lg space-y-3"
     >
       <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-        <span className="text-xs font-bold text-sky-400 uppercase tracking-wider flex items-center gap-1.5">
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
           <span>🎵</span> Standing Wave Modal Envelope & Boundary Nodes (N) / Antinodes (A)
         </span>
-        <span className="text-xs font-mono bg-sky-950 px-2 py-0.5 rounded text-sky-300 border border-sky-700">
+        <span className="text-xs font-mono bg-gold-950 px-2 py-0.5 rounded text-gold-300 border border-gold-700">
           System: {systemType === 'string' ? 'String (Both Ends Fixed)' : systemType === 'openPipe' ? 'Open Organ Pipe (Both Ends Open)' : 'Closed Organ Pipe (One End Closed)'}
         </span>
       </div>
@@ -1691,13 +1691,13 @@ function C11_PhysicsSimplePendulumSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 flex items-center justify-center"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 flex items-center justify-center"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl sm:text-2xl font-bold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 11 • Physics Mechanics & Acoustics Lab</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 11 • Physics Mechanics & Acoustics Lab</p>
           </div>
         </div>
 
@@ -1705,25 +1705,25 @@ function C11_PhysicsSimplePendulumSim({
         <div className="flex items-center gap-2 text-xs">
           <motion.span
             whileHover={{ scale: 1.05 }}
-            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'discovery' ? 'bg-indigo-600/30 border-indigo-400 text-indigo-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
+            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'discovery' ? 'bg-gold-600/30 border-gold-400 text-gold-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
           >
             1. Discovery
           </motion.span>
           <motion.span
             whileHover={{ scale: 1.05 }}
-            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'explore' ? 'bg-indigo-600/30 border-indigo-400 text-indigo-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
+            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'explore' ? 'bg-gold-600/30 border-gold-400 text-gold-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
           >
             2. Labs
           </motion.span>
           <motion.span
             whileHover={{ scale: 1.05 }}
-            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'sandbox' ? 'bg-indigo-600/30 border-indigo-400 text-indigo-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
+            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'sandbox' ? 'bg-gold-600/30 border-gold-400 text-gold-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
           >
             3. Sandbox
           </motion.span>
           <motion.span
             whileHover={{ scale: 1.05 }}
-            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'challenge' ? 'bg-indigo-600/30 border-indigo-400 text-indigo-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
+            className={`px-3 py-1 rounded-full font-semibold border ${phase === 'challenge' ? 'bg-gold-600/30 border-gold-400 text-gold-200 shadow' : 'bg-slate-900 border-slate-800 text-slate-500'}`}
           >
             4. Competency
           </motion.span>
@@ -1743,10 +1743,10 @@ function C11_PhysicsSimplePendulumSim({
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900/90 rounded-2xl border border-indigo-800/60 shadow-lg"
+              className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900/90 rounded-2xl border border-gold-800/60 shadow-lg"
             >
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Field Scenario</span>
-              <h3 className="text-lg sm:text-xl font-bold text-indigo-200 mt-1">{SCENARIO.title}</h3>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Field Scenario</span>
+              <h3 className="text-lg sm:text-xl font-bold text-gold-200 mt-1">{SCENARIO.title}</h3>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-xs text-slate-400 mt-2 italic bg-slate-900/60 p-2.5 rounded-xl border border-slate-800">
                 {SCENARIO.context}
@@ -1776,7 +1776,7 @@ function C11_PhysicsSimplePendulumSim({
                         : 'bg-slate-800 hover:bg-slate-700/80 text-slate-200 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">
+                    <span className="font-bold mr-2 text-gold-400">
                       {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : discoveryAnswered ? '✗ ' : ''}
                       {String.fromCharCode(65 + i)}.
                     </span>
@@ -1799,7 +1799,7 @@ function C11_PhysicsSimplePendulumSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Interactive Labs"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1820,10 +1820,10 @@ function C11_PhysicsSimplePendulumSim({
           >
             <motion.div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800">
               <div className="flex flex-wrap items-center justify-between gap-3 mb-2">
-                <h3 className="text-lg font-bold text-indigo-300">
+                <h3 className="text-lg font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
-                <span className="text-xs bg-indigo-950 px-3 py-1 rounded-full text-indigo-300 border border-indigo-700 font-medium">
+                <span className="text-xs bg-gold-950 px-3 py-1 rounded-full text-gold-300 border border-gold-700 font-medium">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
               </div>
@@ -1850,7 +1850,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={pendulumLength}
                         aria-label="Pendulum Length"
                         onChange={(e) => setPendulumLength(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1863,7 +1863,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={pendulumMass}
                         aria-label="Bob Mass"
                         onChange={(e) => setPendulumMass(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1876,7 +1876,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={pendulumAngleDeg}
                         aria-label="Pendulum Angle"
                         onChange={(e) => setPendulumAngleDeg(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1889,7 +1889,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={gravityAcc}
                         aria-label="Gravity Acceleration"
                         onChange={(e) => setGravityAcc(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </>
@@ -1907,7 +1907,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={springK}
                         aria-label="Spring Stiffness k"
                         onChange={(e) => setSpringK(parseInt(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1920,7 +1920,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={springMass}
                         aria-label="Spring Mass"
                         onChange={(e) => setSpringMass(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1933,7 +1933,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={springAmplitude}
                         aria-label="Spring Amplitude"
                         onChange={(e) => setSpringAmplitude(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="flex items-center gap-2 pt-3">
@@ -1966,7 +1966,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={waveFreq}
                         aria-label="Wave Frequency"
                         onChange={(e) => setWaveFreq(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1979,7 +1979,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={waveWavelength}
                         aria-label="Wavelength"
                         onChange={(e) => setWaveWavelength(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1992,7 +1992,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={probeDist}
                         aria-label="Probe Spacing"
                         onChange={(e) => setProbeDist(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="flex items-center gap-2 pt-3">
@@ -2001,7 +2001,7 @@ function C11_PhysicsSimplePendulumSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label="Toggle Wave Propagation Direction"
                         onClick={() => setWaveTravelDirection((d) => (d === 'right' ? 'left' : 'right'))}
-                        className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg w-full border border-indigo-500"
+                        className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg w-full border border-gold-500"
                       >
                         Direction: {waveTravelDirection === 'right' ? 'Right (-ωt)' : 'Left (+ωt)'}
                       </motion.button>
@@ -2021,7 +2021,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={standingModeN}
                         aria-label="Harmonic Mode Number"
                         onChange={(e) => setStandingModeN(parseInt(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="flex items-center gap-1 col-span-2 pt-3">
@@ -2030,7 +2030,7 @@ function C11_PhysicsSimplePendulumSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label="Select String System"
                         onClick={() => setSystemType('string')}
-                        className={`flex-1 py-1 text-xs rounded font-bold border ${systemType === 'string' ? 'bg-sky-600 text-white border-sky-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
+                        className={`flex-1 py-1 text-xs rounded font-bold border ${systemType === 'string' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
                       >
                         String
                       </motion.button>
@@ -2039,7 +2039,7 @@ function C11_PhysicsSimplePendulumSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label="Select Open Pipe System"
                         onClick={() => setSystemType('openPipe')}
-                        className={`flex-1 py-1 text-xs rounded font-bold border ${systemType === 'openPipe' ? 'bg-sky-600 text-white border-sky-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
+                        className={`flex-1 py-1 text-xs rounded font-bold border ${systemType === 'openPipe' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
                       >
                         Open Pipe
                       </motion.button>
@@ -2048,7 +2048,7 @@ function C11_PhysicsSimplePendulumSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label="Select Closed Pipe System"
                         onClick={() => setSystemType('closedPipe')}
-                        className={`flex-1 py-1 text-xs rounded font-bold border ${systemType === 'closedPipe' ? 'bg-sky-600 text-white border-sky-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
+                        className={`flex-1 py-1 text-xs rounded font-bold border ${systemType === 'closedPipe' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
                       >
                         Closed Pipe
                       </motion.button>
@@ -2063,7 +2063,7 @@ function C11_PhysicsSimplePendulumSim({
                         value={pipeLength}
                         aria-label="Pipe Length"
                         onChange={(e) => setPipeLength(parseFloat(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </>
@@ -2167,7 +2167,7 @@ function C11_PhysicsSimplePendulumSim({
                     ))}
                   </div>
                 ) : (
-                  <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="p-3 bg-indigo-950/60 rounded-lg border border-indigo-700 text-xs text-indigo-200">
+                  <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="p-3 bg-gold-950/60 rounded-lg border border-gold-700 text-xs text-gold-200">
                     {PREDICTION_QUESTIONS[0].verifyInstruction}
                   </motion.div>
                 )}
@@ -2219,7 +2219,7 @@ function C11_PhysicsSimplePendulumSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Next Lab"
                   onClick={() => setCurrentSlide((s) => s + 1)}
-                  className="px-5 py-2 bg-indigo-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -2321,7 +2321,7 @@ function C11_PhysicsSimplePendulumSim({
                   <>
                     <div>
                       <label className="text-xs text-slate-400">Sound Speed (Laplace)</label>
-                      <p className="text-xs text-indigo-300 font-bold mt-1">{speedOfSoundInAir.toFixed(1)} m/s</p>
+                      <p className="text-xs text-gold-300 font-bold mt-1">{speedOfSoundInAir.toFixed(1)} m/s</p>
                     </div>
                     <div>
                       <label className="text-xs text-slate-400">Beat Frequency</label>
@@ -2333,7 +2333,7 @@ function C11_PhysicsSimplePendulumSim({
                     </div>
                     <div>
                       <label className="text-xs text-slate-400">Standing Mode Freq</label>
-                      <p className="text-xs text-sky-300 font-bold mt-1">{standingHarmonicFreq.toFixed(1)} Hz</p>
+                      <p className="text-xs text-gold-300 font-bold mt-1">{standingHarmonicFreq.toFixed(1)} Hz</p>
                     </div>
                   </>
                 )}
@@ -2378,7 +2378,7 @@ function C11_PhysicsSimplePendulumSim({
                       difficulty === 'foundation'
                         ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                         : difficulty === 'standard'
-                        ? 'bg-blue-950 text-blue-400 border-blue-700'
+                        ? 'bg-gold-950 text-gold-400 border-gold-700'
                         : 'bg-purple-950 text-purple-400 border-purple-700'
                     }`}
                   >
@@ -2394,7 +2394,7 @@ function C11_PhysicsSimplePendulumSim({
               {/* Animated Progress Bar */}
               <div className="w-full sm:w-48 bg-slate-800 h-2 rounded-full overflow-hidden border border-slate-700">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                   initial={{ width: 0 }}
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.4 }}
@@ -2433,7 +2433,7 @@ function C11_PhysicsSimplePendulumSim({
                           : 'bg-slate-800 hover:bg-slate-700/80 text-slate-200 border border-slate-700'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">
+                      <span className="font-bold mr-2 text-gold-400">
                         {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                         {String.fromCharCode(65 + i)}.
                       </span>
@@ -2456,7 +2456,7 @@ function C11_PhysicsSimplePendulumSim({
                         draggable
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.03 }}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
                       >
                         :: {item.label}
                       </motion.div>
@@ -2486,7 +2486,7 @@ function C11_PhysicsSimplePendulumSim({
                     whileTap={{ scale: 0.97 }}
                     aria-label="Verify Target Positions"
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Verify Target Positions →
                   </motion.button>
@@ -2516,7 +2516,7 @@ function C11_PhysicsSimplePendulumSim({
                         className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center justify-between"
                       >
                         <span>
-                          <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                          <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                         </span>
                         <span className="text-slate-500 text-xs">↕ Drag</span>
                       </motion.div>
@@ -2527,7 +2527,7 @@ function C11_PhysicsSimplePendulumSim({
                     whileTap={{ scale: 0.97 }}
                     aria-label="Verify Harmonic Sequence"
                     onClick={handleSortSubmit}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Verify Sequence →
                   </motion.button>
@@ -2544,7 +2544,7 @@ function C11_PhysicsSimplePendulumSim({
                     aria-label="Numeric calculation input"
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numeric answer"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2552,7 +2552,7 @@ function C11_PhysicsSimplePendulumSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Submit Calculated Value"
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Submit Value →
                   </motion.button>
@@ -2571,7 +2571,7 @@ function C11_PhysicsSimplePendulumSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Append formula part ${part}`}
                         onClick={() => handleConstructTogglePart(part)}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-lg text-xs font-mono font-semibold border border-slate-700"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-mono font-semibold border border-slate-700"
                       >
                         + {part}
                       </motion.button>
@@ -2584,7 +2584,7 @@ function C11_PhysicsSimplePendulumSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-900/60 border border-indigo-600 rounded-lg text-xs font-mono text-white flex items-center gap-1.5"
+                        className="px-3 py-1 bg-gold-900/60 border border-gold-600 rounded-lg text-xs font-mono text-white flex items-center gap-1.5"
                       >
                         {part}
                         <motion.button
@@ -2609,7 +2609,7 @@ function C11_PhysicsSimplePendulumSim({
                     aria-label="Validate Assembled Formula"
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl disabled:opacity-40"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl disabled:opacity-40"
                   >
                     Validate Assembled Formula →
                   </motion.button>
@@ -2703,7 +2703,7 @@ function C11_PhysicsSimplePendulumSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="px-5 py-3 bg-slate-950 rounded-2xl border border-slate-800">
                   <span className="text-xs text-slate-400 block font-medium">BKT Mastery Level</span>
-                  <span className="text-2xl font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                  <span className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="px-5 py-3 bg-slate-950 rounded-2xl border border-slate-800">
                   <span className="text-xs text-slate-400 block font-medium">Total Inaccuracies</span>
@@ -2720,7 +2720,7 @@ function C11_PhysicsSimplePendulumSim({
                 errors === 0
                   ? 'bg-emerald-950/60 border-emerald-500 text-emerald-100'
                   : errors <= 3
-                  ? 'bg-blue-950/60 border-blue-500 text-blue-100'
+                  ? 'bg-gold-950/60 border-gold-500 text-gold-100'
                   : errors <= 7
                   ? 'bg-amber-950/60 border-amber-500 text-amber-100'
                   : 'bg-rose-950/60 border-rose-500 text-rose-100'
@@ -2787,15 +2787,15 @@ function C11_PhysicsSimplePendulumSim({
             </motion.div>
 
             {/* Real-World Activity Card */}
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800 space-y-3">
-              <h4 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800 space-y-3">
+              <h4 className="text-base font-bold text-gold-300 flex items-center gap-2">
                 <span>🔭</span> {REAL_WORLD_ACTIVITY.title}
               </h4>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="space-y-1.5 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <p key={idx} className="text-xs text-slate-400 font-mono">
-                    <span className="text-indigo-400 font-bold mr-2">{idx + 1}.</span> {step}
+                    <span className="text-gold-400 font-bold mr-2">{idx + 1}.</span> {step}
                   </p>
                 ))}
               </div>

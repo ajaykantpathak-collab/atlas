@@ -11,7 +11,7 @@ export const w_c12_biotechnologyhostvectorsystemsim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Host-Vector System: Concept and Essential Components',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_01_001', 'c12_biotech_cbse_01_002', 'c12_biotech_cbse_01_003', 'c12_biotech_cbse_01_004', 'c12_biotech_cbse_01_005', 'c12_biotech_cbse_01_010', 'c12_biotech_cbse_01_012', 'c12_biotech_cbse_03_003', 'c12_biotech_cbse_03_010', 'c12_biotech_cbse_04_001', 'c12_biotech_cbse_04_002', 'c12_biotech_cbse_04_003', 'c12_biotech_cbse_04_005', 'c12_biotech_cbse_10_004', 'c12_biotech_cbse_08_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you have a human insulin gene and want bacteria to produce insulin for diabetic patients.', goal: 'Master Host-Vector System: Concept and Essential Components.' },
     discovery: {
         question: 'What are the four essential features that a DNA molecule must possess to function as a cloning vector in a host-vector system?',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologyhostvectorsystemsim: SimDef = {
         hook: 'Students often think "vector" and "plasmid" are synonyms, and that any plasmid can work in any bacterium.',
     },
     teaching: [
-        { title: 'A host-vector system is a compatible pair of.', text: 'A host-vector system is a compatible pair of a living host cell (which provides the cellular machinery for replication and expression) and a vector (a DNA molecule that can replicate independently.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A host-vector system is a compatible pair of.', text: 'A host-vector system is a compatible pair of a living host cell (which provides the cellular machinery for replication and expression) and a vector (a DNA molecule that can replicate independently.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_01_001', title: 'A host-vector system is a compatible.',

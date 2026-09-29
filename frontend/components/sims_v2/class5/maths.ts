@@ -9,7 +9,7 @@ export const c5Decimals: SimDef = {
     id: 'c5_decimals', title: 'Tenths and Hundredths', subtitle: 'Decimals!',
     classLevel: 5, subject: 'maths', topic: 'Decimals',
     chapters: ['Math-Magic-5 Ch10: Tenths and Hundredths'],
-    emoji: '🔟', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'decimals' },
+    emoji: '🔟', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'decimals' },
     scenario: { role: "a decimal-diver", intro: "Tenths and hundredths — dive into decimals!", goal: "Master decimal places." },
     discovery: {
         question: "Is 0.5 bigger or smaller than 1 - and what does the point do?",
@@ -18,8 +18,8 @@ export const c5Decimals: SimDef = {
         hook: "The decimal point separates whole from part!",
     },
     teaching: [
-        { title: 'Smaller Than One! 🔟', text: 'Cut 1 into 10 parts — each is a tenth = 0.1. Cut into 100 parts — each is a hundredth = 0.01!', emoji: '🔟', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'The Decimal Point .', text: 'The point separates whole from part: 2.5 = 2 wholes + 5 tenths. 3.45 = 3 + 4 tenths + 5 hundredths!', emoji: '➗', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Smaller Than One! 🔟', text: 'Cut 1 into 10 parts — each is a tenth = 0.1. Cut into 100 parts — each is a hundredth = 0.01!', emoji: '🔟', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'The Decimal Point .', text: 'The point separates whole from part: 2.5 = 2 wholes + 5 tenths. 3.45 = 3 + 4 tenths + 5 hundredths!', emoji: '➗', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Decimals are Fractions 🍕', text: '0.5 = ½ = 5 tenths. 0.25 = ¼ = 25 hundredths. Same value, different writing!', emoji: '🍕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Money is Decimal 💰', text: '₹2.50 = 2 rupees + 50 paise. Decimals are everywhere in money and measurement!', emoji: '💰', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -67,9 +67,9 @@ export const c5Factors: SimDef = {
     },
     teaching: [
         { title: 'Multiples Go Up! 📈', text: 'Multiples of 3: 3, 6, 9, 12, 15... They keep growing forever — 3 times something!', emoji: '📈', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Factors Divide Evenly ➗', text: 'Factors of 12: 1, 2, 3, 4, 6, 12 — numbers that divide 12 exactly. Factors are the builders!', emoji: '➗', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Factors Divide Evenly ➗', text: 'Factors of 12: 1, 2, 3, 4, 6, 12 — numbers that divide 12 exactly. Factors are the builders!', emoji: '➗', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Factor × Factor = Multiple 🤝', text: '3 × 4 = 12. So 3 and 4 are factors, and 12 is their multiple. They are family!', emoji: '🤝', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Prime Numbers 🌟', text: 'A prime has only 2 factors — itself and 1. Like 7 (only 1×7). 2, 3, 5, 7, 11 are primes!', emoji: '🌟', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Prime Numbers 🌟', text: 'A prime has only 2 factors — itself and 1. Like 7 (only 1×7). 2, 3, 5, 7, 11 are primes!', emoji: '🌟', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: "jump", prompt: "Hop in factor jumps — does it divide evenly?" },
     challenges: [
@@ -114,9 +114,9 @@ export const c5Area: SimDef = {
     },
     teaching: [
         { title: 'Area = Space Inside! 📐', text: 'Count the squares inside a shape — that is its area! A 4×3 rectangle covers 12 squares = 12 sq units!', emoji: '📐', bgColor: 'from-green-400 to-lime-500' },
-        { title: 'Perimeter = Boundary 🚧', text: 'The length around the edge = perimeter. Area is inside, perimeter is the fence around!', emoji: '🚧', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Perimeter = Boundary 🚧', text: 'The length around the edge = perimeter. Area is inside, perimeter is the fence around!', emoji: '🚧', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Area = Length × Width ⬜', text: 'No need to count every square — just multiply! 5 × 3 = 15 sq units. Fast!', emoji: '⬜', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Same Area, Different Shape 🔄', text: 'A 2×6 and a 3×4 rectangle both have area 12 — same area, different shape!', emoji: '🔄', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Same Area, Different Shape 🔄', text: 'A 2×6 and a 3×4 rectangle both have area 12 — same area, different shape!', emoji: '🔄', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: "stretch", prompt: "Measure length and width — find the area!" },
     challenges: [
@@ -152,7 +152,7 @@ export const c5Angles: SimDef = {
     id: 'c5_angles', title: 'Shapes and Angles', subtitle: 'Open wide or closed!',
     classLevel: 5, subject: 'maths', topic: 'Angles',
     chapters: ['Math-Magic-5 Ch2: Shapes and Angles'],
-    emoji: '📐', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'angles' },
+    emoji: '📐', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'angles' },
     scenario: { role: "an angle-measurer", intro: "Acute, right, obtuse — measure every angle!", goal: "Know every angle type." },
     discovery: {
         question: "The corner of your book is a perfect angle. What do we call it?",
@@ -161,8 +161,8 @@ export const c5Angles: SimDef = {
         hook: "A square corner is a right angle! Let's learn angles.",
     },
     teaching: [
-        { title: 'What is an Angle? 📐', text: 'When two lines meet at a point, they make an ANGLE — like scissors opening!', emoji: '📐', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Right Angle = 90° 📏', text: 'The corner of a book or a square is a RIGHT angle — perfectly square, 90 degrees!', emoji: '📏', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'What is an Angle? 📐', text: 'When two lines meet at a point, they make an ANGLE — like scissors opening!', emoji: '📐', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Right Angle = 90° 📏', text: 'The corner of a book or a square is a RIGHT angle — perfectly square, 90 degrees!', emoji: '📏', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Acute and Obtuse 🔪', text: 'Acute = sharp, smaller than 90°. Obtuse = wide, bigger than 90°!', emoji: '🔪', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: "tray", prompt: "Open an angle — acute, right, obtuse!" },
@@ -206,7 +206,7 @@ export const c5Volume: SimDef = {
     },
     teaching: [
         { title: 'Volume = Space Inside! 📦', text: 'How much a box can hold = its VOLUME. Count the little cubes inside!', emoji: '📦', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Cubes Count 🧊', text: 'A box 4×3×2 holds 4×3×2 = 24 small cubes. Volume = length × width × height!', emoji: '🧊', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Cubes Count 🧊', text: 'A box 4×3×2 holds 4×3×2 = 24 small cubes. Volume = length × width × height!', emoji: '🧊', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Big vs Heavy ⚖️', text: 'Big is not always heavy! A big balloon is light, a small stone is heavy. Size ≠ weight!', emoji: '⚖️', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { lab: "pour", prompt: "Try the lab — what do you discover?" },
@@ -239,7 +239,7 @@ export const c5Multiply: SimDef = {
     id: 'c5_multiply', title: 'Ways to Multiply and Divide', subtitle: 'Big numbers!',
     classLevel: 5, subject: 'maths', topic: 'Multiplication and Division',
     chapters: ['Math-Magic-5 Ch13: Ways to Multiply and Divide'],
-    emoji: '✖️', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'multiply' },
+    emoji: '✖️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'multiply' },
     scenario: { role: "a multiply-master", intro: "Big multiplications — break them down!", goal: "Multiply big numbers." },
     discovery: {
         question: "Is there a faster way than 5+5+5+5+5+5 to add six 5s?",
@@ -248,7 +248,7 @@ export const c5Multiply: SimDef = {
         hook: "Multiplication is the shortcut!",
     },
     teaching: [
-        { title: 'Big Multiplication! ✖️', text: '23 × 14: split it! 23 × 10 = 230, 23 × 4 = 92, total = 322. Split into tens and ones!', emoji: '✖️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Big Multiplication! ✖️', text: '23 × 14: split it! 23 × 10 = 230, 23 × 4 = 92, total = 322. Split into tens and ones!', emoji: '✖️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Long Division ➗', text: '144 ÷ 12: how many 12s in 144? 12 × 12 = 144, so answer = 12!', emoji: '➗', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Smart Shortcuts 💡', text: 'Multiply by 10 → add a zero. Multiply by 5 → multiply by 10 then halve!', emoji: '💡', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -286,7 +286,7 @@ export const c5Map: SimDef = {
     id: 'c5_map', title: 'Mapping Your Way', subtitle: 'Maps and scale!',
     classLevel: 5, subject: 'maths', topic: 'Maps and Scale',
     chapters: ['Math-Magic-5 Ch8: Mapping Your Way'],
-    emoji: '🗺️', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'map' },
+    emoji: '🗺️', theme: { bg: 'from-teal-100 to-gold-200', accent: 'teal', scene: 'map' },
     scenario: { role: "a map-reader", intro: "Scale shrinks the world — read every map!", goal: "Use map scale." },
     discovery: {
         question: "How can a whole city fit on a piece of paper?",
@@ -295,9 +295,9 @@ export const c5Map: SimDef = {
         hook: "Maps shrink the world with scale!",
     },
     teaching: [
-        { title: 'Maps Shrink the World! 🗺️', text: 'A map is a tiny picture of a big place. 1 cm on the map might mean 1 km in real life — that is SCALE!', emoji: '🗺️', bgColor: 'from-teal-400 to-cyan-500' },
-        { title: 'Scale 🔍', text: 'Scale 1 cm = 1 km: if two places are 5 cm apart on the map, they are 5 km apart in real life!', emoji: '🔍', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Directions on a Map 🧭', text: 'North is up, South is down, East is right, West is left. Use directions to read a map!', emoji: '🧭', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Maps Shrink the World! 🗺️', text: 'A map is a tiny picture of a big place. 1 cm on the map might mean 1 km in real life — that is SCALE!', emoji: '🗺️', bgColor: 'from-teal-400 to-gold-500' },
+        { title: 'Scale 🔍', text: 'Scale 1 cm = 1 km: if two places are 5 cm apart on the map, they are 5 km apart in real life!', emoji: '🔍', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Directions on a Map 🧭', text: 'North is up, South is down, East is right, West is left. Use directions to read a map!', emoji: '🧭', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: "stretch", prompt: "Measure the map — 1 cm = 1 km!" },
     challenges: [
@@ -339,7 +339,7 @@ export const c5Pattern: SimDef = {
     },
     teaching: [
         { title: 'Hidden Patterns! 🔍', text: 'Some patterns are tricky — multiply, add, or flip! 1, 2, 4, 8 — each DOUBLES!', emoji: '🔍', bgColor: 'from-pink-400 to-fuchsia-500' },
-        { title: 'Square Numbers ⬜', text: '1, 4, 9, 16, 25 — these are square numbers! 1², 2², 3², 4², 5²!', emoji: '⬜', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Square Numbers ⬜', text: '1, 4, 9, 16, 25 — these are square numbers! 1², 2², 3², 4², 5²!', emoji: '⬜', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Patterns Everywhere 🌸', text: 'Rangoli, tiles, nature — patterns repeat and grow. Find the rule!', emoji: '🌸', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: "tray-star", prompt: "Find the next in the sequence!" },
@@ -372,7 +372,7 @@ export const c5Fish: SimDef = {
     id: 'c5_fish', title: 'The Fish Tale', subtitle: 'Big numbers at sea!',
     classLevel: 5, subject: 'maths', topic: 'Large Numbers',
     chapters: ['Math-Magic-5 Ch1: The Fish Tale'],
-    emoji: '🐋', theme: { bg: 'from-cyan-100 to-blue-200', accent: 'cyan', scene: 'fish' },
+    emoji: '🐋', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'fish' },
     scenario: { role: "a sea-counter", intro: "Lakhs, tonnes — count the big catches!", goal: "Handle huge numbers." },
     discovery: {
         question: "A whale shark weighs 15,000 kg - is that 15 tonnes or 150?",
@@ -381,8 +381,8 @@ export const c5Fish: SimDef = {
         hook: "Big numbers need big units! Let's learn.",
     },
     teaching: [
-        { title: 'Whales are HUGE! 🐋', text: 'A whale shark can weigh 15,000 kg — that is 15 tonnes! Big numbers tell big stories!', emoji: '🐋', bgColor: 'from-cyan-400 to-blue-500' },
-        { title: 'Lakhs! 💯', text: 'After thousands come lakhs: 1,00,000 = one lakh. Indian counting: lakh, then crore!', emoji: '💯', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Whales are HUGE! 🐋', text: 'A whale shark can weigh 15,000 kg — that is 15 tonnes! Big numbers tell big stories!', emoji: '🐋', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Lakhs! 💯', text: 'After thousands come lakhs: 1,00,000 = one lakh. Indian counting: lakh, then crore!', emoji: '💯', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Speed of Fish 🏊', text: 'A sailfish swims 100 km in an hour — fastest fish! Speed = distance in a time!', emoji: '🏊', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { lab: "weigh", prompt: "Try the lab — what do you discover?" },
@@ -415,7 +415,7 @@ export const c5Charts: SimDef = {
     id: 'c5_charts', title: 'Smart Charts', subtitle: 'Tally, bar, pie!',
     classLevel: 5, subject: 'maths', topic: 'Data Handling',
     chapters: ['Math-Magic-5 Ch12: Smart Charts'],
-    emoji: '📊', theme: { bg: 'from-violet-100 to-indigo-200', accent: 'violet', scene: 'charts' },
+    emoji: '📊', theme: { bg: 'from-gold-100 to-gold-200', accent: 'violet', scene: 'charts' },
     scenario: { role: "a chart-expert", intro: "Pie charts and smart charts — read the data!", goal: "Interpret every chart." },
     discovery: {
         question: "Why does a pie chart look like a sliced pie?",
@@ -424,9 +424,9 @@ export const c5Charts: SimDef = {
         hook: "Each slice = a share! Let's read charts.",
     },
     teaching: [
-        { title: 'Many Kinds of Charts! 📊', text: 'Bar charts, pictographs, tally tables, pie charts — each shows data differently!', emoji: '📊', bgColor: 'from-violet-400 to-indigo-500' },
+        { title: 'Many Kinds of Charts! 📊', text: 'Bar charts, pictographs, tally tables, pie charts — each shows data differently!', emoji: '📊', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Pie Chart = Slices 🥧', text: 'A pie chart shows parts of a whole — the biggest slice is the most!', emoji: '🥧', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Read Carefully 🔍', text: 'Charts can trick you! Check the scale — does each bar count 1 or 10?', emoji: '🔍', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Read Carefully 🔍', text: 'Charts can trick you! Check the scale — does each bar count 1 or 10?', emoji: '🔍', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray-star", prompt: "Fill the chart — pie and bars!" },
         generate: { kind: 'data', count: 3, level: 5 },

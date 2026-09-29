@@ -1161,16 +1161,16 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400">
+            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400">
               {title}
             </h1>
             <p className="text-xs text-slate-400 flex items-center gap-2">
-              <span className="px-2 py-0.5 rounded bg-slate-800 text-indigo-300 font-mono">ICSE Class 8</span>
+              <span className="px-2 py-0.5 rounded bg-slate-800 text-gold-300 font-mono">ICSE Class 8</span>
               <span>Mensuration • Statistics • Probability • Sets</span>
             </p>
           </div>
@@ -1189,7 +1189,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-500/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
@@ -1202,15 +1202,15 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ───────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/50 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/50 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-gold-500/20 text-gold-300 border border-gold-500/30">
               Scenario Blueprint Challenge
             </span>
             <h2 className="text-2xl font-black text-white mt-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-slate-400 text-xs mt-3 bg-slate-950/60 p-3 rounded-xl border border-slate-800">
-              🎯 <strong className="text-indigo-300">Your Objective:</strong> {SCENARIO.context}
+              🎯 <strong className="text-gold-300">Your Objective:</strong> {SCENARIO.context}
             </p>
           </div>
 
@@ -1265,7 +1265,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 rounded-2xl bg-gradient-to-r from-indigo-500 to-sky-500 text-white font-black text-sm shadow-lg shadow-indigo-500/30 whitespace-nowrap"
+                  className="px-6 py-3 rounded-2xl bg-gradient-to-r from-gold-500 to-gold-500 text-white font-black text-sm shadow-lg shadow-gold-500/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1281,7 +1281,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
           {/* Exploration Navigation Bar */}
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="w-7 h-7 rounded-full bg-indigo-600 text-white font-black text-xs flex items-center justify-center">
+              <span className="w-7 h-7 rounded-full bg-gold-600 text-white font-black text-xs flex items-center justify-center">
                 {currentSlide + 1}
               </span>
               <span className="text-sm font-bold text-slate-200">{EXPLORATION_STEPS[currentSlide].title}</span>
@@ -1295,7 +1295,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                     audioManager.play('tap');
                   }}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    currentSlide === i ? 'bg-indigo-500 w-7' : 'bg-slate-700 hover:bg-slate-600'
+                    currentSlide === i ? 'bg-gold-500 w-7' : 'bg-slate-700 hover:bg-slate-600'
                   }`}
                   aria-label={`Go to slide ${i + 1}`}
                 />
@@ -1313,7 +1313,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
               transition={{ duration: 0.3 }}
               className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 shadow-xl space-y-6"
             >
-              <div className="flex items-center gap-2 text-sky-400 text-sm font-semibold bg-sky-950/40 p-3 rounded-2xl border border-sky-800/40">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold bg-gold-950/40 p-3 rounded-2xl border border-gold-800/40">
                 <span>��</span>
                 <span>{EXPLORATION_STEPS[currentSlide].instruction}</span>
               </div>
@@ -1419,7 +1419,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                             max={24}
                             value={trapA}
                             onChange={e => setTrapA(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div>
@@ -1432,7 +1432,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                             max={36}
                             value={trapB}
                             onChange={e => setTrapB(Number(e.target.value))}
-                            className="w-full accent-sky-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div>
@@ -1450,10 +1450,10 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                         </div>
                       </div>
 
-                      <div className="p-4 rounded-2xl bg-indigo-950/50 border border-indigo-800/60 space-y-2">
-                        <p className="text-xs text-indigo-300 font-bold uppercase tracking-wider">Live Derivation</p>
+                      <div className="p-4 rounded-2xl bg-gold-950/50 border border-gold-800/60 space-y-2">
+                        <p className="text-xs text-gold-300 font-bold uppercase tracking-wider">Live Derivation</p>
                         <p className="text-sm text-slate-200">
-                          Average Base = ({trapA} + {trapB}) / 2 = <span className="font-bold text-sky-300">{(trapA + trapB) / 2} m</span>
+                          Average Base = ({trapA} + {trapB}) / 2 = <span className="font-bold text-gold-300">{(trapA + trapB) / 2} m</span>
                         </p>
                         <p className="text-sm text-slate-200">
                           Area = 1/2 × ({trapA} + {trapB}) × {trapH} ={' '}
@@ -1464,8 +1464,8 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   </div>
 
                   {/* Brilliant Predict-then-Check Question 1 */}
-                  <div className="p-5 rounded-2xl bg-slate-950 border border-indigo-800/40 space-y-3">
-                    <div className="flex items-center gap-2 text-indigo-400 text-xs font-black uppercase tracking-wider">
+                  <div className="p-5 rounded-2xl bg-slate-950 border border-gold-800/40 space-y-3">
+                    <div className="flex items-center gap-2 text-gold-400 text-xs font-black uppercase tracking-wider">
                       <span>🔮</span>
                       <span>Predict & Verify Question</span>
                     </div>
@@ -1489,7 +1489,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                       ))}
                     </div>
                     {showPredictionFeedback[PREDICTION_QUESTIONS[0].id] && (
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-xs text-indigo-200 space-y-1">
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 text-xs text-gold-200 space-y-1">
                         <p><strong className="text-emerald-400">Explanation:</strong> {PREDICTION_QUESTIONS[0].explanation}</p>
                         <p className="text-amber-300">🔍 <strong className="text-amber-200">How to verify:</strong> {PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                       </div>
@@ -1538,7 +1538,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                           setCylUnrollNet(prev => !prev);
                           audioManager.play('swoop');
                         }}
-                        className="mt-3 px-5 py-2.5 rounded-2xl bg-indigo-600 text-white font-bold text-xs shadow-md shadow-indigo-600/30"
+                        className="mt-3 px-5 py-2.5 rounded-2xl bg-gold-600 text-white font-bold text-xs shadow-md shadow-gold-600/30"
                       >
                         {cylUnrollNet ? '🔄 Fold to 3D Cylinder' : '📜 Unroll into 2D Net'}
                       </motion.button>
@@ -1558,7 +1558,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                             step={3.5}
                             value={cylR}
                             onChange={e => setCylR(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div>
@@ -1572,7 +1572,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                             step={7}
                             value={cylH}
                             onChange={e => setCylH(Number(e.target.value))}
-                            className="w-full accent-sky-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                       </div>
@@ -1580,7 +1580,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                       <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 space-y-2 text-xs">
                         <div className="flex justify-between text-slate-300">
                           <span>Curved Surface Area (2πrh):</span>
-                          <span className="font-bold text-sky-400">{cylCSA.toFixed(1)} cm²</span>
+                          <span className="font-bold text-gold-400">{cylCSA.toFixed(1)} cm²</span>
                         </div>
                         <div className="flex justify-between text-slate-300">
                           <span>Total Surface Area 2πr(r+h):</span>
@@ -1596,8 +1596,8 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
 
                   {/* Brilliant Predict-then-Check Question 2 & Observation Question 1 */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="p-4 rounded-2xl bg-slate-950 border border-indigo-800/40 space-y-2.5">
-                      <div className="flex items-center gap-1.5 text-indigo-400 text-xs font-black uppercase tracking-wider">
+                    <div className="p-4 rounded-2xl bg-slate-950 border border-gold-800/40 space-y-2.5">
+                      <div className="flex items-center gap-1.5 text-gold-400 text-xs font-black uppercase tracking-wider">
                         <span>🔮</span>
                         <span>Predict & Verify #2</span>
                       </div>
@@ -1621,15 +1621,15 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                         ))}
                       </div>
                       {showPredictionFeedback[PREDICTION_QUESTIONS[1].id] && (
-                        <div className="p-2.5 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-[11px] text-indigo-200 space-y-1">
+                        <div className="p-2.5 bg-gold-950/40 rounded-xl border border-gold-800/60 text-[11px] text-gold-200 space-y-1">
                           <p><strong className="text-emerald-400">Explanation:</strong> {PREDICTION_QUESTIONS[1].explanation}</p>
                           <p className="text-amber-300">🔍 <strong className="text-amber-200">How to verify:</strong> {PREDICTION_QUESTIONS[1].verifyInstruction}</p>
                         </div>
                       )}
                     </div>
 
-                    <div className="p-4 rounded-2xl bg-slate-950 border border-sky-800/40 space-y-2.5">
-                      <div className="flex items-center gap-1.5 text-sky-400 text-xs font-black uppercase tracking-wider">
+                    <div className="p-4 rounded-2xl bg-slate-950 border border-gold-800/40 space-y-2.5">
+                      <div className="flex items-center gap-1.5 text-gold-400 text-xs font-black uppercase tracking-wider">
                         <span>👀</span>
                         <span>What Do You Notice? (Observation 1)</span>
                       </div>
@@ -1653,7 +1653,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                         ))}
                       </div>
                       {showObservationFeedback[OBSERVATION_QUESTIONS[0].id] && (
-                        <div className="p-2.5 bg-sky-950/40 rounded-xl border border-sky-800/60 text-[11px] text-sky-200">
+                        <div className="p-2.5 bg-gold-950/40 rounded-xl border border-gold-800/60 text-[11px] text-gold-200">
                           <strong className="text-emerald-400">Observation Takeaway:</strong> {OBSERVATION_QUESTIONS[0].explanation}
                         </div>
                       )}
@@ -1703,7 +1703,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                         max={100}
                         value={waterFillPercent}
                         onChange={e => setWaterFillPercent(Number(e.target.value))}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                   </div>
@@ -1711,15 +1711,15 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   {/* Tank Controls */}
                   <div className="lg:col-span-5 space-y-4">
                     <div className="p-4 bg-slate-950/60 rounded-2xl border border-slate-800 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Capacity Bridge</p>
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs space-y-1">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Capacity Bridge</p>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs space-y-1">
                         <p className="text-amber-300 font-bold">1 Litre = 1,000 cm³</p>
                         <p className="text-slate-300">1 Millilitre (mL) = 1 cm³</p>
                         <p className="text-slate-300">1 Cubic Metre (1 m³) = 1,000 Litres</p>
                       </div>
                       <p className="text-xs text-slate-300 pt-2">
                         Total Volume = {tankL} × {tankW} × {tankH} ={' '}
-                        <span className="font-bold text-sky-400">{tankVolumeCm3.toLocaleString()} cm³</span>
+                        <span className="font-bold text-gold-400">{tankVolumeCm3.toLocaleString()} cm³</span>
                       </p>
                       <p className="text-xs text-slate-300">
                         Max Capacity = {tankVolumeCm3} / 1,000 ={' '}
@@ -1783,12 +1783,12 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                       </svg>
 
                       <div className="grid grid-cols-2 gap-2 text-[11px] w-full mt-2">
-                        <div className="flex items-center gap-1.5 text-indigo-400">
-                          <span className="w-2.5 h-2.5 rounded bg-indigo-500" />
+                        <div className="flex items-center gap-1.5 text-gold-400">
+                          <span className="w-2.5 h-2.5 rounded bg-gold-500" />
                           <span>Walking: {pieAngles.walking.toFixed(1)}°</span>
                         </div>
-                        <div className="flex items-center gap-1.5 text-sky-400">
-                          <span className="w-2.5 h-2.5 rounded bg-sky-400" />
+                        <div className="flex items-center gap-1.5 text-gold-400">
+                          <span className="w-2.5 h-2.5 rounded bg-gold-400" />
                           <span>Cycling: {pieAngles.cycling.toFixed(1)}°</span>
                         </div>
                         <div className="flex items-center gap-1.5 text-emerald-400">
@@ -1815,7 +1815,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                             max={30}
                             value={pieWalking}
                             onChange={e => setPieWalking(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div>
@@ -1828,7 +1828,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                             max={30}
                             value={pieCycling}
                             onChange={e => setPieCycling(Number(e.target.value))}
-                            className="w-full accent-sky-400"
+                            className="w-full accent-gold-400"
                           />
                         </div>
                         <div>
@@ -1941,7 +1941,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                           max={45}
                           value={vennA}
                           onChange={e => setVennA(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1997,7 +1997,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 rounded-2xl bg-indigo-600 text-white font-bold text-xs shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 rounded-2xl bg-gold-600 text-white font-bold text-xs shadow-lg shadow-gold-600/30"
               >
                 Next Interactive Lab →
               </motion.button>
@@ -2046,14 +2046,14 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
               <div className="grid grid-cols-2 gap-3 text-center">
                 <div className="p-3 rounded-2xl bg-slate-950 border border-slate-800">
                   <p className="text-xs text-slate-400">Heads</p>
-                  <p className="text-xl font-black text-indigo-400">{coinFlips.heads}</p>
+                  <p className="text-xl font-black text-gold-400">{coinFlips.heads}</p>
                   <p className="text-[11px] text-slate-500">
                     P = {coinFlips.heads + coinFlips.tails > 0 ? (coinFlips.heads / (coinFlips.heads + coinFlips.tails)).toFixed(3) : '0.500'}
                   </p>
                 </div>
                 <div className="p-3 rounded-2xl bg-slate-950 border border-slate-800">
                   <p className="text-xs text-slate-400">Tails</p>
-                  <p className="text-xl font-black text-sky-400">{coinFlips.tails}</p>
+                  <p className="text-xl font-black text-gold-400">{coinFlips.tails}</p>
                   <p className="text-[11px] text-slate-500">
                     P = {coinFlips.heads + coinFlips.tails > 0 ? (coinFlips.tails / (coinFlips.heads + coinFlips.tails)).toFixed(3) : '0.500'}
                   </p>
@@ -2073,7 +2073,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleSimulateCoins(100)}
-                  className="flex-1 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow-md shadow-indigo-600/30"
+                  className="flex-1 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold text-white shadow-md shadow-gold-600/30"
                 >
                   +100 Flips
                 </motion.button>
@@ -2140,7 +2140,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/80 border border-emerald-500/60 text-emerald-400'
                   : difficulty === 'standard'
-                  ? 'bg-sky-950/80 border border-sky-500/60 text-sky-400'
+                  ? 'bg-gold-950/80 border border-gold-500/60 text-gold-400'
                   : 'bg-rose-950/80 border border-rose-500/60 text-rose-400'
               }`}
             >
@@ -2150,7 +2150,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
 
           <div className="h-2.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2202,7 +2202,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-base focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-base focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-slate-400 font-semibold text-sm">{challenge.unit}</span>
                 <motion.button
@@ -2210,7 +2210,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || numericInput === ''}
-                  className="px-6 py-3 rounded-2xl bg-indigo-600 text-white font-black text-sm shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-3 rounded-2xl bg-gold-600 text-white font-black text-sm shadow-lg shadow-gold-600/30"
                 >
                   Verify Answer
                 </motion.button>
@@ -2228,7 +2228,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 rounded-xl bg-indigo-700 text-white font-bold text-xs cursor-grab shadow"
+                      className="px-4 py-2 rounded-xl bg-gold-700 text-white font-bold text-xs cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2260,7 +2260,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="mt-3 px-6 py-3 rounded-2xl bg-indigo-600 text-white font-black text-xs"
+                  className="mt-3 px-6 py-3 rounded-2xl bg-gold-600 text-white font-black text-xs"
                 >
                   Check Placements
                 </motion.button>
@@ -2284,7 +2284,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 rounded-2xl bg-slate-800 border border-slate-700 text-slate-200 text-sm flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-700 text-center leading-6 font-bold text-xs text-indigo-400">
+                      <span className="w-6 h-6 rounded-full bg-slate-700 text-center leading-6 font-bold text-xs text-gold-400">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2296,7 +2296,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-3 rounded-2xl bg-indigo-600 text-white font-black text-xs mt-2"
+                  className="px-6 py-3 rounded-2xl bg-gold-600 text-white font-black text-xs mt-2"
                 >
                   Check Sequence
                 </motion.button>
@@ -2314,7 +2314,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                       whileHover={{ scale: 1.08 }}
                       whileTap={{ scale: 0.92 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs"
+                      className="px-3.5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs"
                     >
                       + {part}
                     </motion.button>
@@ -2326,7 +2326,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 rounded-lg bg-indigo-900 border border-indigo-700 text-indigo-200 font-bold text-xs flex items-center gap-1.5"
+                      className="px-2.5 py-1 rounded-lg bg-gold-900 border border-gold-700 text-gold-200 font-bold text-xs flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2358,9 +2358,9 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900 rounded-3xl border border-indigo-800/60 space-y-4"
+              className="p-6 bg-slate-900 rounded-3xl border border-gold-800/60 space-y-4"
             >
-              <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+              <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
                 <span>📚</span>
                 <span>Step-by-Step Solution & Reasoning:</span>
               </div>
@@ -2376,7 +2376,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-sm text-slate-200 leading-relaxed"
                   >
-                    <strong className="text-indigo-400 font-bold mr-1">Step {i + 1}:</strong> {sentence}
+                    <strong className="text-gold-400 font-bold mr-1">Step {i + 1}:</strong> {sentence}
                     {!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2387,7 +2387,7 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-2 rounded-xl bg-indigo-700 text-white font-bold text-xs"
+                    className="px-4 py-2 rounded-xl bg-gold-700 text-white font-bold text-xs"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2410,20 +2410,20 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & SRS PROFILE ────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-slate-300 text-sm">
               Your Mastery Level:{' '}
               <span className="font-black text-emerald-400 uppercase">{masteryLevel}</span> • Score:{' '}
-              <span className="font-black text-sky-400">{Math.max(0, 100 - errors * 5)}%</span>
+              <span className="font-black text-gold-400">{Math.max(0, 100 - errors * 5)}%</span>
             </p>
           </div>
 
           {/* Personalized Motivational Feedback based on errors */}
           <div className="p-5 rounded-3xl bg-slate-900 border border-slate-800">
             <h3 className="text-sm font-bold text-emerald-400 mb-1">Performance Feedback</h3>
-            <p className="text-lg font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400">
+            <p className="text-lg font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400">
               {errors === 0
                 ? 'PERFECT SCORE!'
                 : errors >= 1 && errors <= 3
@@ -2475,13 +2475,13 @@ function C8_MathematicsAreaTrapeziumPolygonSim({
           </div>
 
           {/* Real World Activity Capstone */}
-          <div className="p-6 rounded-3xl bg-indigo-950/40 border border-indigo-800/60 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 rounded-3xl bg-gold-950/40 border border-gold-800/60 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 rounded-2xl bg-slate-950 border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="text-indigo-400 font-black">{idx + 1}.</span>
+                  <span className="text-gold-400 font-black">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

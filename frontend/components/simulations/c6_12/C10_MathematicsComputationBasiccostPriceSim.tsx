@@ -700,7 +700,7 @@ function getSrsSchedule(errorsCount: number): { days: number; label: string; des
       days: 3,
       label: 'Review in 3 days',
       description: 'Solid conceptual footing! Review in 3 days to fix slight missteps and lock in complete mastery.',
-      badgeColor: 'bg-sky-500/20 text-sky-300 border-sky-500/40',
+      badgeColor: 'bg-gold-500/20 text-gold-300 border-gold-500/40',
     };
   } else {
     return {
@@ -1131,12 +1131,12 @@ function C10_MathematicsComputationBasiccostPriceSim({
           <motion.div
             whileHover={{ scale: 1.1, rotate: 10 }}
             whileTap={{ scale: 0.95 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 10 Mathematics • Complete Computation Blueprint</p>
@@ -1153,7 +1153,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
               onClick={() => setPhase(p)}
               className={`px-3 py-1.5 rounded-xl font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1166,13 +1166,13 @@ function C10_MathematicsComputationBasiccostPriceSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-3xl border border-indigo-800/50">
-            <div className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-semibold mb-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-3xl border border-gold-800/50">
+            <div className="inline-block px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full text-xs font-semibold mb-3">
               Startup Founder Scenario
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200 bg-indigo-950/80 p-3 rounded-xl border border-indigo-900/60">
+            <p className="text-xs text-gold-200 bg-gold-950/80 p-3 rounded-xl border border-gold-900/60">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1199,7 +1199,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1209,7 +1209,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800 text-sm space-y-3"
+                className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800 text-sm space-y-3"
               >
                 <p className={discoveryCorrect ? 'text-emerald-300 font-semibold' : 'text-amber-300'}>
                   {discoveryCorrect
@@ -1220,7 +1220,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-500/20 text-sm"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-500/20 text-sm"
                 >
                   Enter Interactive Mathematics Labs →
                 </motion.button>
@@ -1246,7 +1246,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                 }}
                 className={`flex-shrink-0 px-4 py-2 rounded-2xl text-xs font-bold border transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-500/30'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-500/30'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1264,7 +1264,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+                <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
                   Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-white mt-1">
@@ -1293,7 +1293,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                           setLab1ListPrice(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="List price slider"
                       />
                     </div>
@@ -1412,7 +1412,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-2">
                         <span>GST Bracket Applied</span>
-                        <span className="font-bold text-indigo-400">{lab2GSTRate}%</span>
+                        <span className="font-bold text-gold-400">{lab2GSTRate}%</span>
                       </div>
                       <div className="grid grid-cols-4 gap-2 pt-1">
                         {[5, 12, 18, 28].map(r => (
@@ -1424,7 +1424,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                             }}
                             className={`py-1 rounded-lg text-xs font-bold border ${
                               lab2GSTRate === r
-                                ? 'bg-indigo-600 border-indigo-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-800 border-slate-700 text-slate-300'
                             }`}
                           >
@@ -1445,7 +1445,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
 
                     <div className="text-center p-3">
                       <p className="text-xs text-amber-300 font-bold mb-1">Inverse Formula</p>
-                      <div className="p-2 bg-slate-900 rounded-lg border border-slate-700 font-mono text-xs text-indigo-300">
+                      <div className="p-2 bg-slate-900 rounded-lg border border-slate-700 font-mono text-xs text-gold-300">
                         Base = Final ÷ (1 + {lab2GSTRate / 100})
                       </div>
                       <p className="text-[10px] text-rose-300 mt-2">
@@ -1453,8 +1453,8 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       </p>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-center">
-                      <span className="text-xs text-indigo-300">Recovered Basic Pre-Tax Price</span>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 text-center">
+                      <span className="text-xs text-gold-300">Recovered Basic Pre-Tax Price</span>
                       <p className="text-2xl font-black text-white mt-1">₹{lab2BasePrice.toFixed(2)}</p>
                       <span className="text-xs text-slate-400">Total Tax inside = ₹{lab2TaxAmount.toFixed(2)}</span>
                     </div>
@@ -1469,7 +1469,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-2">
                         <span>Monthly Installment (P)</span>
-                        <span className="font-bold text-sky-400">₹{lab3MonthlyP}</span>
+                        <span className="font-bold text-gold-400">₹{lab3MonthlyP}</span>
                       </div>
                       <input
                         type="range"
@@ -1481,7 +1481,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                           setLab3MonthlyP(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Monthly installment slider"
                       />
                     </div>
@@ -1530,7 +1530,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                   {/* Staircase Graphic & Calculation Cards */}
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-3">
-                      <h4 className="text-sm font-bold text-indigo-300">Arithmetic Series Accumulation</h4>
+                      <h4 className="text-sm font-bold text-gold-300">Arithmetic Series Accumulation</h4>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Total Deposited Principal (P × n):</span>
@@ -1546,8 +1546,8 @@ function C10_MathematicsComputationBasiccostPriceSim({
                         </div>
                       </div>
 
-                      <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 text-center">
-                        <span className="text-xs text-indigo-300 font-semibold uppercase tracking-wider">
+                      <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 text-center">
+                        <span className="text-xs text-gold-300 font-semibold uppercase tracking-wider">
                           Final Maturity Value (MV = Pn + I)
                         </span>
                         <p className="text-2xl font-black text-white mt-1">
@@ -1626,7 +1626,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                               audioManager.play('tap');
                             }}
                             className={`flex-1 py-1 rounded text-[10px] font-bold border ${
-                              lab4FV === v ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700'
+                              lab4FV === v ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700'
                             }`}
                           >
                             ₹{v}
@@ -1638,7 +1638,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-[11px] text-slate-400">
                         <span>Market Value (MV)</span>
-                        <span className="font-bold text-sky-400">₹{lab4MV}</span>
+                        <span className="font-bold text-gold-400">₹{lab4MV}</span>
                       </div>
                       <input
                         type="range"
@@ -1650,7 +1650,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                           setLab4MV(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-sky-500 cursor-pointer"
+                        className="w-full mt-2 accent-gold-500 cursor-pointer"
                         aria-label="Market value slider"
                       />
                     </div>
@@ -1716,9 +1716,9 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       <span className="text-[10px] text-slate-500">Shares × Div/Share</span>
                     </div>
 
-                    <div className="p-3 bg-indigo-950/70 rounded-xl border border-indigo-700">
-                      <span className="text-[11px] text-indigo-300 font-bold">Return on Capital</span>
-                      <p className="text-lg font-black text-sky-300 mt-0.5">{lab4ReturnPercent.toFixed(2)}%</p>
+                    <div className="p-3 bg-gold-950/70 rounded-xl border border-gold-700">
+                      <span className="text-[11px] text-gold-300 font-bold">Return on Capital</span>
+                      <p className="text-lg font-black text-gold-300 mt-0.5">{lab4ReturnPercent.toFixed(2)}%</p>
                       <span className="text-[10px] text-slate-400">
                         {lab4MV > lab4FV ? 'Lower than div%' : lab4MV < lab4FV ? 'Higher than div%' : 'Equal'}
                       </span>
@@ -1744,7 +1744,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                           setLab5CoeffA(val === 0 ? 1 : val);
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-indigo-500 cursor-pointer"
+                        className="w-full mt-2 accent-gold-500 cursor-pointer"
                         aria-label="Coefficient a slider"
                       />
                       {lab5CoeffA < 0 && (
@@ -1766,7 +1766,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                           setLab5ConstB(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-sky-500 cursor-pointer"
+                        className="w-full mt-2 accent-gold-500 cursor-pointer"
                         aria-label="Constant b slider"
                       />
                     </div>
@@ -1782,7 +1782,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                               audioManager.play('tap');
                             }}
                             className={`py-1 rounded text-xs font-bold border ${
-                              lab5IneqOp === op ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700'
+                              lab5IneqOp === op ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700'
                             }`}
                           >
                             {op}
@@ -1931,7 +1931,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-500/30"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-500/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1968,7 +1968,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold rounded-2xl text-xs shadow-lg shadow-emerald-500/30"
+                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-2xl text-xs shadow-lg shadow-emerald-500/30"
               >
                 I Am Ready For Challenges! 🚀
               </motion.button>
@@ -1977,7 +1977,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
             {/* Quick Sandbox Selector */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-sky-400">⚡ Live GST Multiplier</span>
+                <span className="text-xs font-bold text-gold-400">⚡ Live GST Multiplier</span>
                 <div className="flex gap-2 items-center">
                   <input
                     type="number"
@@ -2023,7 +2023,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-300 border border-emerald-800'
                     : difficulty === 'standard'
-                    ? 'bg-sky-950 text-sky-300 border border-sky-800'
+                    ? 'bg-gold-950 text-gold-300 border border-gold-800'
                     : 'bg-rose-950 text-rose-300 border border-rose-800'
                 }`}
               >
@@ -2042,7 +2042,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
           {/* Progress Bar */}
           <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2083,7 +2083,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                           : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2101,7 +2101,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2130,7 +2130,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Mapped Labels
                 </motion.button>
@@ -2157,7 +2157,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       }}
                       className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-600/40 text-indigo-300 flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-lg bg-gold-600/40 text-gold-300 flex items-center justify-center font-bold">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -2171,7 +2171,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Order
                 </motion.button>
@@ -2187,7 +2187,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2196,7 +2196,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                     animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Submit Answer
                   </motion.button>
@@ -2214,7 +2214,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300"
+                      className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -2223,7 +2223,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 rounded-lg text-xs text-white flex items-center gap-2">
+                    <span key={idx} className="px-3 py-1 bg-gold-900/60 border border-gold-700 rounded-lg text-xs text-white flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2244,7 +2244,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Construction
                 </motion.button>
@@ -2256,9 +2256,9 @@ function C10_MathematicsComputationBasiccostPriceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800/80 space-y-3"
+                className="mt-6 p-4 bg-gold-950/60 rounded-2xl border border-gold-800/80 space-y-3"
               >
-                <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                   Step-by-Step Mathematical Explanation:
                 </p>
                 {activeChallenge.explanation
@@ -2285,7 +2285,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2294,7 +2294,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextChallenge}
-                      className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-sky-600 hover:from-emerald-500 hover:to-sky-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-emerald-500/30"
+                      className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-emerald-500/30"
                     >
                       {currentChallenge + 1 >= filteredChallenges.length
                         ? 'Finish & View Complete Profile →'
@@ -2323,7 +2323,7 @@ function C10_MathematicsComputationBasiccostPriceSim({
             <h2 className="text-2xl sm:text-3xl font-black text-white">Mathematics Mastery Achieved!</h2>
             
             {/* MOTIVATIONAL FEEDBACK */}
-            <div className="p-4 bg-gradient-to-r from-indigo-900/40 via-sky-900/40 to-emerald-900/40 rounded-2xl border border-indigo-700/50 max-w-md mx-auto">
+            <div className="p-4 bg-gradient-to-r from-gold-900/40 via-gold-900/40 to-emerald-900/40 rounded-2xl border border-gold-700/50 max-w-md mx-auto">
               <p className="text-lg font-black text-emerald-300">
                 {getMotivationalFeedback(errors)}
               </p>
@@ -2336,13 +2336,13 @@ function C10_MathematicsComputationBasiccostPriceSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-sky-950/70 rounded-2xl border border-indigo-600/40 max-w-lg mx-auto text-left shadow-lg space-y-2"
+              className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-gold-600/40 max-w-lg mx-auto text-left shadow-lg space-y-2"
             >
               <div className="flex items-center justify-between gap-3">
                 <div className="flex items-center gap-2.5">
                   <span className="text-2xl">📅</span>
                   <div>
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-300">
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-gold-300">
                       Spaced Repetition System (SRS)
                     </span>
                     <h4 className="text-base font-bold text-white">Recommended Memory Review</h4>
@@ -2368,30 +2368,30 @@ function C10_MathematicsComputationBasiccostPriceSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 w-28 sm:w-32">
                 <span className="text-xs text-slate-400">Mastery Level</span>
-                <p className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 w-28 sm:w-32">
                 <span className="text-xs text-slate-400">Next SRS</span>
-                <p className="text-2xl font-black text-sky-400">{getSrsSchedule(errors).days}d</p>
+                <p className="text-2xl font-black text-gold-400">{getSrsSchedule(errors).days}d</p>
               </div>
             </div>
           </div>
 
           {/* REFLECTION QUESTIONS */}
           <div className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-sky-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Post-Simulation Mathematical Reflection
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                <p className="text-xs font-bold text-indigo-300 mb-1">1. What was the most surprising thing you learned?</p>
+                <p className="text-xs font-bold text-gold-300 mb-1">1. What was the most surprising thing you learned?</p>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   How multiplying or dividing an inequation by a negative number inverts the boundary sign, and that dividend yield can greatly exceed nominal rate when bought below par!
                 </p>
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                <p className="text-xs font-bold text-sky-300 mb-1">2. How would you explain this to a friend?</p>
+                <p className="text-xs font-bold text-gold-300 mb-1">2. How would you explain this to a friend?</p>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   GST is applied solely to the actual discounted transaction value, and RD interest calculations sum stair-stepped monthly durations with n(n+1)/2.
                 </p>
@@ -2425,13 +2425,13 @@ function C10_MathematicsComputationBasiccostPriceSim({
           )}
 
           {/* Real World Activity Arc Completion */}
-          <div className="p-6 bg-indigo-950/50 rounded-3xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gold-950/50 rounded-3xl border border-gold-800/60 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs sm:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

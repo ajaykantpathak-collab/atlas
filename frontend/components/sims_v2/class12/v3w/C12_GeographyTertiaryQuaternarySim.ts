@@ -11,7 +11,7 @@ export const w_c12_geographytertiaryquaternarysim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Tertiary Activities: Definition and Types',
     chapters: [],
     nodeIds: ['c12_geo_cbse_07_001', 'c12_geo_cbse_07_002', 'c12_geo_cbse_07_005', 'c12_geo_cbse_07_006', 'c12_geo_cbse_07_007', 'c12_geo_cbse_07_010', 'c12_geo_cbse_07_011', 'c12_geo_cbse_06_007', 'c12_geo_cbse_06_011', 'c12_geo_cbse_02_009', 'c12_geo_cbse_07_009', 'c12_geo_cbse_07_003', 'c12_geo_cbse_07_004', 'c12_geo_cbse_06_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a typical urban morning: a student uses a metro (transport), checks WhatsApp (communication), buys.', goal: 'Master Tertiary Activities: Definition and Types.' },
     discovery: {
         question: 'Evaluate the statement: "India\'s tertiary sector contributes ~54% to GDP but employs only ~32% of the workforce (PLFS 2022-23); therefore, tertiary growth has.',
@@ -20,7 +20,7 @@ export const w_c12_geographytertiaryquaternarysim: SimDef = {
         hook: 'Students equate "tertiary activities" solely with "white-collar office jobs" (IT, banking) and exclude informal.',
     },
     teaching: [
-        { title: 'Tertiary activities are service-sector.', text: 'Tertiary activities are service-sector economic activities that provide intangible outputs — such as expertise, care, transport, communication, finance, and trade — to satisfy human wants directly or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Tertiary activities are service-sector.', text: 'Tertiary activities are service-sector economic activities that provide intangible outputs — such as expertise, care, transport, communication, finance, and trade — to satisfy human wants directly or.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_07_001', title: 'Tertiary activities are service-sector.',

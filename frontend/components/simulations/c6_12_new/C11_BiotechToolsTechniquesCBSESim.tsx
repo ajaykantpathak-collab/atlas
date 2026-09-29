@@ -811,7 +811,7 @@ const MicroscopeDiagram: React.FC<{ mode: string; wavelength: number; NA: number
   const d = ((wavelength / (2 * NA))).toFixed(1);
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 text-slate-100 flex flex-col items-center">
-      <h4 className="text-sm font-bold text-cyan-400 mb-2">Microscopy Optical Ray Trace Diagram</h4>
+      <h4 className="text-sm font-bold text-gold-400 mb-2">Microscopy Optical Ray Trace Diagram</h4>
       <svg width="340" height="220" viewBox="0 0 340 220" className="overflow-visible">
         {/* Background Grid */}
         <defs>
@@ -876,7 +876,7 @@ const ElectrophoresisDiagram: React.FC<{
 }> = ({ type, voltage, running }) => {
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 text-slate-100 flex flex-col items-center">
-      <h4 className="text-sm font-bold text-cyan-400 mb-1">
+      <h4 className="text-sm font-bold text-gold-400 mb-1">
         {type === 'agarose' ? 'Agarose Gel Electrophoresis (DNA)' : 'SDS-PAGE (Proteins)'}
       </h4>
       <div className="text-xs text-slate-400 mb-2 font-mono">Voltage: {voltage} V | Anode (+ Red) vs Cathode (- Black)</div>
@@ -939,7 +939,7 @@ const SpectrophotometerDiagram: React.FC<{
   const transmittance = Math.max(0, Math.min(100, Math.pow(10, -absorbance) * 100)).toFixed(1);
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 text-slate-100 flex flex-col items-center">
-      <h4 className="text-sm font-bold text-cyan-400 mb-1">UV-Vis Spectrophotometer & Beer-Lambert Law</h4>
+      <h4 className="text-sm font-bold text-gold-400 mb-1">UV-Vis Spectrophotometer & Beer-Lambert Law</h4>
       <div className="text-xs text-amber-300 font-mono mb-2">A = ε · c · l  ⇒  Absorbance = {absorbance.toFixed(3)} | Transmittance = {transmittance}%</div>
       <svg width="340" height="160" viewBox="0 0 340 160" className="bg-slate-950 rounded-lg border border-slate-800">
         {/* Light Source */}
@@ -975,7 +975,7 @@ const SpectrophotometerDiagram: React.FC<{
 const ChromatographyDiagram: React.FC<{ type: string }> = ({ type }) => {
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 text-slate-100 flex flex-col items-center">
-      <h4 className="text-sm font-bold text-cyan-400 mb-2">
+      <h4 className="text-sm font-bold text-gold-400 mb-2">
         {type === 'sanger' ? 'Sanger Dideoxy DNA Sequencing Electropherogram' : 'Column Chromatography Fractionation'}
       </h4>
       {type === 'sanger' ? (
@@ -1260,11 +1260,11 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
       {/* HEADER BAR */}
       <header className="bg-slate-900/90 border-b border-slate-800 backdrop-blur sticky top-0 z-50 px-6 py-3 flex items-center justify-between shadow-xl">
         <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-cyan-500 to-emerald-500 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg">
+          <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-gold-500 to-emerald-500 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg">
             BT
           </div>
           <div>
-            <h1 className="text-base font-bold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-base font-bold bg-gradient-to-r from-gold-400 to-emerald-400 bg-clip-text text-transparent">
               ISC Class 11 Biotechnology: Tools & Techniques
             </h1>
             <p className="text-xs text-slate-400 font-mono">
@@ -1280,13 +1280,13 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
             <span className="text-xs font-mono font-bold text-emerald-400">{overallMastery}%</span>
             <div className="w-16 h-2 bg-slate-700 rounded-full overflow-hidden">
               <div
-                className="h-full bg-gradient-to-r from-cyan-500 to-emerald-400 transition-all duration-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 transition-all duration-500"
                 style={{ width: `${overallMastery}%` }}
               />
             </div>
           </div>
 
-          <div className="text-xs font-mono text-cyan-300 bg-cyan-950/60 border border-cyan-800 px-3 py-1.5 rounded-full">
+          <div className="text-xs font-mono text-gold-300 bg-gold-950/60 border border-gold-800 px-3 py-1.5 rounded-full">
             Challenges: {correctCount}/{totalChallenges}
           </div>
         </div>
@@ -1309,7 +1309,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
             }}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-600 to-teal-600 text-white shadow-md shadow-cyan-900/40'
+                ? 'bg-gradient-to-r from-gold-600 to-teal-600 text-white shadow-md shadow-gold-900/40'
                 : 'bg-slate-800/60 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1324,9 +1324,9 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* Scenario Header Card */}
-            <div className="bg-gradient-to-r from-slate-900 via-slate-850 to-cyan-950 p-6 rounded-2xl border border-cyan-900/50 shadow-2xl relative overflow-hidden">
-              <div className="absolute right-0 top-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-              <h2 className="text-xl font-extrabold text-cyan-300 mb-2">{SCENARIO.title}</h2>
+            <div className="bg-gradient-to-r from-slate-900 via-slate-850 to-gold-950 p-6 rounded-2xl border border-gold-900/50 shadow-2xl relative overflow-hidden">
+              <div className="absolute right-0 top-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+              <h2 className="text-xl font-extrabold text-gold-300 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700/70 text-xs text-slate-300 font-mono">
                 <span className="text-amber-400 font-bold uppercase tracking-wider block mb-1">Laboratory Briefing:</span>
@@ -1362,7 +1362,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
               </div>
 
               {discoveryAnswered && (
-                <div className="mt-4 p-4 rounded-xl bg-cyan-950/60 border border-cyan-800/60 text-xs text-cyan-200 flex items-start space-x-3">
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/60 border border-gold-800/60 text-xs text-gold-200 flex items-start space-x-3">
                   <div className="text-lg">💡</div>
                   <div>
                     <span className="font-bold block mb-1">Key Insight:</span>
@@ -1374,7 +1374,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
 
             {/* Prediction Questions */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-6">
-              <h3 className="text-base font-bold text-cyan-400 flex items-center space-x-2">
+              <h3 className="text-base font-bold text-gold-400 flex items-center space-x-2">
                 <span>Hypothesis & Prediction Suite</span>
               </h3>
 
@@ -1425,11 +1425,11 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                   }}
                   className={`p-3 rounded-xl border text-left transition-all ${
                     selectedLabStep === idx
-                      ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 shadow-lg'
+                      ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-lg'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850'
                   }`}
                 >
-                  <div className="text-xs font-bold font-mono text-cyan-400">Lab Step {idx + 1}</div>
+                  <div className="text-xs font-bold font-mono text-gold-400">Lab Step {idx + 1}</div>
                   <div className="text-xs font-semibold line-clamp-1">{step.title.split(':')[1]}</div>
                 </button>
               ))}
@@ -1439,10 +1439,10 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-6">
               <div className="border-b border-slate-800 pb-3 flex justify-between items-center">
                 <div>
-                  <h3 className="text-base font-bold text-cyan-300">{EXPLORATION_STEPS[selectedLabStep].title}</h3>
+                  <h3 className="text-base font-bold text-gold-300">{EXPLORATION_STEPS[selectedLabStep].title}</h3>
                   <p className="text-xs text-slate-400">{EXPLORATION_STEPS[selectedLabStep].instruction}</p>
                 </div>
-                <span className="text-xs font-mono bg-cyan-950 border border-cyan-800 text-cyan-300 px-3 py-1 rounded-full">
+                <span className="text-xs font-mono bg-gold-950 border border-gold-800 text-gold-300 px-3 py-1 rounded-full">
                   Node: {EXPLORATION_STEPS[selectedLabStep].nodeId}
                 </span>
               </div>
@@ -1477,7 +1477,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                             }}
                             className={`p-2 rounded-lg text-xs font-semibold border ${
                               microscopeMode === m.id
-                                ? 'bg-cyan-600 border-cyan-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                             }`}
                           >
@@ -1491,7 +1491,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Wavelength (λ):</span>
-                          <span className="font-mono text-cyan-400">{microscopeWavelength} nm</span>
+                          <span className="font-mono text-gold-400">{microscopeWavelength} nm</span>
                         </div>
                         <input
                           type="range"
@@ -1500,7 +1500,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                           step="5"
                           value={microscopeWavelength}
                           onChange={e => setMicroscopeWavelength(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1551,7 +1551,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                         onClick={() => setCentrifugeMode('differential')}
                         className={`flex-1 p-2.5 rounded-xl text-xs font-bold border ${
                           centrifugeMode === 'differential'
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1561,7 +1561,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                         onClick={() => setCentrifugeMode('density')}
                         className={`flex-1 p-2.5 rounded-xl text-xs font-bold border ${
                           centrifugeMode === 'density'
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1573,7 +1573,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Rotor Speed (RPM):</span>
-                          <span className="font-mono text-cyan-400">{centrifugeRPM.toLocaleString()} RPM</span>
+                          <span className="font-mono text-gold-400">{centrifugeRPM.toLocaleString()} RPM</span>
                         </div>
                         <input
                           type="range"
@@ -1582,7 +1582,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                           step="1000"
                           value={centrifugeRPM}
                           onChange={e => setCentrifugeRPM(parseInt(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1617,20 +1617,20 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
 
                   {/* Visualizer tube */}
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 flex flex-col items-center justify-center">
-                    <h4 className="text-sm font-bold text-cyan-400 mb-3">Fractionation Sedimentation Tube</h4>
+                    <h4 className="text-sm font-bold text-gold-400 mb-3">Fractionation Sedimentation Tube</h4>
                     <div className="w-20 h-48 bg-slate-950 border-2 border-slate-700 rounded-b-3xl relative overflow-hidden flex flex-col justify-between p-1">
                       {centrifugeRPM < 5000 ? (
                         <div className="text-center text-xs text-slate-400 my-auto">Lysate Homogenate (Unfractionated)</div>
                       ) : centrifugeMode === 'differential' ? (
                         <>
-                          <div className="text-[10px] text-cyan-300 bg-cyan-950/80 p-1 rounded">Supernatant (Cytosol & Ribosomes)</div>
+                          <div className="text-[10px] text-gold-300 bg-gold-950/80 p-1 rounded">Supernatant (Cytosol & Ribosomes)</div>
                           <div className="h-8 bg-amber-600/80 rounded-b-2xl flex items-center justify-center text-[10px] font-bold text-slate-950">
                             {centrifugeRPM >= 50000 ? 'Ribosome Pellet' : centrifugeRPM >= 15000 ? 'Mitochondria Pellet' : 'Nuclear Pellet'}
                           </div>
                         </>
                       ) : (
                         <div className="space-y-1 my-auto">
-                          <div className="h-3 bg-blue-500/70 rounded text-[8px] text-center font-bold">DNA Band (1.71 g/cm³)</div>
+                          <div className="h-3 bg-gold-500/70 rounded text-[8px] text-center font-bold">DNA Band (1.71 g/cm³)</div>
                           <div className="h-3 bg-emerald-500/70 rounded text-[8px] text-center font-bold">RNA Band (1.90 g/cm³)</div>
                           <div className="h-3 bg-amber-500/70 rounded text-[8px] text-center font-bold">Protein Band (1.30 g/cm³)</div>
                         </div>
@@ -1649,7 +1649,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                         onClick={() => setGelType('agarose')}
                         className={`flex-1 p-2.5 rounded-xl text-xs font-bold border ${
                           gelType === 'agarose'
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1659,7 +1659,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                         onClick={() => setGelType('sds-page')}
                         className={`flex-1 p-2.5 rounded-xl text-xs font-bold border ${
                           gelType === 'sds-page'
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1671,7 +1671,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Applied Voltage:</span>
-                          <span className="font-mono text-cyan-400">{voltage} V</span>
+                          <span className="font-mono text-gold-400">{voltage} V</span>
                         </div>
                         <input
                           type="range"
@@ -1680,7 +1680,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                           step="10"
                           value={voltage}
                           onChange={e => setVoltage(parseInt(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1741,7 +1741,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                             }}
                             className={`p-2 rounded-lg text-xs font-semibold border ${
                               elisaType === el.id
-                                ? 'bg-cyan-600 border-cyan-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                             }`}
                           >
@@ -1755,7 +1755,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Biomolecule Concentration (c):</span>
-                          <span className="font-mono text-cyan-400">{concentration} µM</span>
+                          <span className="font-mono text-gold-400">{concentration} µM</span>
                         </div>
                         <input
                           type="range"
@@ -1764,7 +1764,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                           step="0.1"
                           value={concentration}
                           onChange={e => setConcentration(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1812,7 +1812,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                             }}
                             className={`p-2 rounded-lg text-xs font-semibold border ${
                               chromatographyType === ch.id
-                                ? 'bg-cyan-600 border-cyan-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                             }`}
                           >
@@ -1870,12 +1870,12 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex items-center justify-between">
               <div className="flex items-center space-x-3">
-                <span className="text-xs font-bold font-mono text-cyan-400">
+                <span className="text-xs font-bold font-mono text-gold-400">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase ${
                   CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
-                    ? 'bg-blue-950 border border-blue-800 text-blue-300'
+                    ? 'bg-gold-950 border border-gold-800 text-gold-300'
                     : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
                     ? 'bg-amber-950 border border-amber-800 text-amber-300'
                     : 'bg-purple-950 border border-purple-800 text-purple-300'
@@ -1901,7 +1901,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                     setCurrentChallengeIndex(prev => prev + 1);
                     setShowHint(false);
                   }}
-                  className="px-3 py-1.5 rounded-lg text-xs font-bold bg-cyan-600 hover:bg-cyan-500 text-white disabled:opacity-40"
+                  className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-600 hover:bg-gold-500 text-white disabled:opacity-40"
                 >
                   Next Challenge
                 </button>
@@ -1960,7 +1960,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                           placeholder="Enter calculated value..."
                           value={numericAnswers[ch.id] || ''}
                           onChange={e => handleNumericChallenge(e.target.value)}
-                          className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-2 text-sm text-cyan-300 font-mono focus:outline-none focus:border-cyan-500"
+                          className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-2 text-sm text-gold-300 font-mono focus:outline-none focus:border-gold-500"
                         />
                         <span className="self-center text-xs font-mono text-slate-400">{ch.unit}</span>
                       </div>
@@ -1995,7 +1995,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map((m, idx) => (
                   <div key={idx} className="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-2">
-                    <h4 className="text-xs font-bold text-cyan-300">{m.title}</h4>
+                    <h4 className="text-xs font-bold text-gold-300">{m.title}</h4>
                     <p className="text-xs text-red-300/90 font-medium">❌ Myth: {m.misconception}</p>
                     <p className="text-xs text-emerald-300/90 leading-relaxed">✓ Scientific Fact: {m.correction}</p>
                   </div>
@@ -2024,7 +2024,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                           onClick={() => handleDiagnosticSelect(q.id, oIdx)}
                           className={`p-3 rounded-lg text-xs text-left transition-all border ${
                             diagnosticAnswers[q.id] === oIdx
-                              ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-850'
                           }`}
                         >
@@ -2060,15 +2060,15 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
         {/* TAB 5: SUMMARY & REAL-WORLD ACTIVITY */}
         {activeTab === 'summary' && (
           <div className="space-y-6 animate-fadeIn">
-            <div className="bg-gradient-to-r from-slate-900 to-cyan-950 p-6 rounded-2xl border border-cyan-900/50 shadow-2xl space-y-4">
-              <h2 className="text-lg font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h2>
+            <div className="bg-gradient-to-r from-slate-900 to-gold-950 p-6 rounded-2xl border border-gold-900/50 shadow-2xl space-y-4">
+              <h2 className="text-lg font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h2>
               <p className="text-slate-300 text-xs leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="space-y-3 pt-2">
                 <h4 className="text-xs font-bold text-amber-400 uppercase tracking-wider">Experimental Protocol Execution:</h4>
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-900/90 p-4 rounded-xl border border-slate-800 text-xs text-slate-200 font-mono flex items-start space-x-3">
-                    <span className="w-5 h-5 rounded-full bg-cyan-950 border border-cyan-700 text-cyan-300 flex items-center justify-center font-bold text-[10px] shrink-0">
+                    <span className="w-5 h-5 rounded-full bg-gold-950 border border-gold-700 text-gold-300 flex items-center justify-center font-bold text-[10px] shrink-0">
                       {idx + 1}
                     </span>
                     <span>{step}</span>
@@ -2087,7 +2087,7 @@ const C11_BiotechToolsTechniquesCBSESim: React.FC<{
                   return (
                     <div key={nodeId} className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-center">
                       <div className="text-[9px] font-mono text-slate-400">Node #{idx + 399}</div>
-                      <div className="text-xs font-bold font-mono text-cyan-400">{masteryPct}%</div>
+                      <div className="text-xs font-bold font-mono text-gold-400">{masteryPct}%</div>
                     </div>
                   );
                 })}

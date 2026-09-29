@@ -39,7 +39,7 @@ export function C7_SocialScienceHumanEnvironmentTropicalSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 7 Geography - Human-Environment Interactions: the Tropical Lands</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 Geography - Human-Environment Interactions: the Tropical Lands</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Amazon Rainforest Storeys and the Climate That Builds Them</h1>
         </div>
         <button onClick={() => { setMonth(2); setLayer('canopy'); setClear(0); }}
@@ -66,17 +66,17 @@ export function C7_SocialScienceHumanEnvironmentTropicalSim() {
           <div className="flex flex-wrap gap-1 mt-2">
             {LAYERS.map((l) => (
               <button key={l.id} onClick={() => setLayer(l.id)}
-                className={`min-h-11 px-2 rounded-lg text-[10px] font-bold border transition-all ${l.id === layer ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-500'}`}>
+                className={`min-h-11 px-2 rounded-lg text-[10px] font-bold border transition-all ${l.id === layer ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-500'}`}>
                 {l.name}
               </button>
             ))}
           </div>
           <div className="p-3 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mt-2">
-            <p><span className="font-bold text-sky-300">And the subtropical half of the chapter:</span> the Ganga-Brahmaputra basin is the opposite extreme -- monsoon (rain mostly Jun-Sep), flat fertile plains of silt, so the interaction is dense life: paddy fields, fishing, and one of the world&apos;s busiest river deltas. Same river-plan, different climate, different human life.</p>
+            <p><span className="font-bold text-gold-300">And the subtropical half of the chapter:</span> the Ganga-Brahmaputra basin is the opposite extreme -- monsoon (rain mostly Jun-Sep), flat fertile plains of silt, so the interaction is dense life: paddy fields, fishing, and one of the world&apos;s busiest river deltas. Same river-plan, different climate, different human life.</p>
             <p className="mt-1"><span className="font-bold text-emerald-300">From the forest itself:</span> rubber, acai, Brazil nuts, hardwoods -- plus jungle homes built on stilts against the floods, and small boats instead of roads. People live FROM the storeys, not under them.</p>
           </div>
           <div className="mt-2 p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs leading-relaxed">
-            <p className="font-bold text-indigo-300">{sel.name} storey ({sel.label})</p>
+            <p className="font-bold text-gold-300">{sel.name} storey ({sel.label})</p>
             <p className="text-slate-300">{sel.fact}</p>
           </div>
         </div>
@@ -89,9 +89,9 @@ export function C7_SocialScienceHumanEnvironmentTropicalSim() {
                 className="min-h-11 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold transition-all">rain in {unit}</button>
             </div>
             <input type="range" min={0} max={11} value={month} aria-label="month"
-              onChange={(e) => setMonth(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+              onChange={(e) => setMonth(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             <div className="flex justify-between text-xs font-mono mt-1">
-              <span className="text-sky-300">{conv(RAIN[month])} rain</span>
+              <span className="text-gold-300">{conv(RAIN[month])} rain</span>
               <span className="text-amber-300">{TEMP[month].toFixed(1)} deg C</span>
             </div>
             <svg viewBox="0 0 300 100" className="w-full mt-2">
@@ -104,16 +104,16 @@ export function C7_SocialScienceHumanEnvironmentTropicalSim() {
               ))}
               <text x="150" y="12" fontSize="8" fill="#94a3b8" textAnchor="middle">monthly rainfall, Manaus-type station (every month is wet: no dry season)</text>
             </svg>
-            <p className="text-xs text-slate-300 mt-1">Year total: <span className="font-mono text-sky-300">{conv(annual)}</span> -- more than 20 times Delhi gets. Temp barely moves: <span className="font-mono text-amber-300">26.5-28.4 deg C</span> all year. Tap any bar to jump to that month.</p>
+            <p className="text-xs text-slate-300 mt-1">Year total: <span className="font-mono text-gold-300">{conv(annual)}</span> -- more than 20 times Delhi gets. Temp barely moves: <span className="font-mono text-amber-300">26.5-28.4 deg C</span> all year. Tap any bar to jump to that month.</p>
             <div className="mt-2">
               <p className="text-[10px] text-slate-500 mb-1">Annual rainfall compared (mm)</p>
               {[['Manaus (Amazon)', 2300], ['Delhi', 800], ['London', 600]].map(([city, mm]) => (
                 <div key={city as string} className="flex items-center gap-2 mt-1">
                   <span className="w-24 text-[10px] text-slate-400 text-right">{city}</span>
                   <div className="flex-1 h-3 rounded bg-slate-950 border border-slate-800 overflow-hidden">
-                    <div className="h-full bg-sky-600" style={{ width: `${((mm as number) / 2300) * 100}%` }} />
+                    <div className="h-full bg-gold-600" style={{ width: `${((mm as number) / 2300) * 100}%` }} />
                   </div>
-                  <span className="w-12 text-[10px] font-mono text-sky-300">{mm}</span>
+                  <span className="w-12 text-[10px] font-mono text-gold-300">{mm}</span>
                 </div>
               ))}
             </div>
@@ -129,7 +129,7 @@ export function C7_SocialScienceHumanEnvironmentTropicalSim() {
             <div className="grid grid-cols-3 gap-2 mt-2 text-center text-xs">
               <div className="p-2 rounded-lg bg-slate-950 border border-slate-800"><p className="text-[10px] text-slate-400">Tree height left</p><p className="font-mono text-emerald-300">{height} m</p></div>
               <div className="p-2 rounded-lg bg-slate-950 border border-slate-800"><p className="text-[10px] text-slate-400">Soil fertility</p><p className={`font-mono ${soilHealth > 60 ? 'text-emerald-300' : 'text-rose-300'}`}>{soilHealth}/100</p></div>
-              <div className="p-2 rounded-lg bg-slate-950 border border-slate-800"><p className="text-[10px] text-slate-400">Storeys standing</p><p className="font-mono text-indigo-300">{Math.max(0, 4 - Math.floor(clear / 25))}/4</p></div>
+              <div className="p-2 rounded-lg bg-slate-950 border border-slate-800"><p className="text-[10px] text-slate-400">Storeys standing</p><p className="font-mono text-gold-300">{Math.max(0, 4 - Math.floor(clear / 25))}/4</p></div>
             </div>
             <div className="h-2 mt-2 rounded-full bg-slate-950 border border-slate-800 overflow-hidden">
               <div className="h-full bg-emerald-500 transition-all duration-500" style={{ width: `${soilHealth}%` }} />
@@ -142,7 +142,7 @@ export function C7_SocialScienceHumanEnvironmentTropicalSim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Slide through all 12 months and note the lowest monthly rainfall -- would you call any month dry? Now explain in one line why the trees grow in storeys.</p>
         <p className="mt-1">2. Clear 50% of the forest -- which storey disappears first, and what happens to soil fertility after the trees are gone?</p>

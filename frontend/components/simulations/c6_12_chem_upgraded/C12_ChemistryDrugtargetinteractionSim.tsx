@@ -1389,7 +1389,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
       {/* TOP BAR HEADER */}
       <header className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col md:flex-row justify-between items-center gap-4 shadow-lg">
         <div>
-          <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
             {SCENARIO.title}
           </h1>
           <p className="text-xs md:text-sm text-slate-400">ISC Class 12 Chemistry • Drug-Target Interactions & Enzyme Kinetics</p>
@@ -1412,7 +1412,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                 }}
                 className={`px-3 py-1.5 rounded-md text-xs font-semibold capitalize transition-all ${
                   activeTab === tab
-                    ? 'bg-blue-600 text-white shadow'
+                    ? 'bg-gold-600 text-white shadow'
                     : 'text-slate-400 hover:text-white hover:bg-slate-700'
                 }`}
               >
@@ -1432,16 +1432,16 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
           <div className="flex flex-col gap-6 max-w-5xl mx-auto w-full">
             {/* Context Box */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-md">
-              <h2 className="text-lg font-bold text-blue-400 mb-2">Scenario & Objectives</h2>
+              <h2 className="text-lg font-bold text-gold-400 mb-2">Scenario & Objectives</h2>
               <p className="text-slate-300 text-sm mb-4">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-xs italic">{SCENARIO.context}</p>
             </div>
 
             {/* Discovery Question Card */}
-            <div className="bg-slate-900 border border-indigo-900/50 rounded-xl p-6 shadow-md">
+            <div className="bg-slate-900 border border-gold-900/50 rounded-xl p-6 shadow-md">
               <div className="flex items-center gap-2 mb-4">
-                <span className="bg-indigo-600 text-white text-xs font-bold px-2 py-1 rounded">DISCOVERY QUESTION</span>
-                <span className="text-xs text-indigo-300">Test your initial chemical intuition</span>
+                <span className="bg-gold-600 text-white text-xs font-bold px-2 py-1 rounded">DISCOVERY QUESTION</span>
+                <span className="text-xs text-gold-300">Test your initial chemical intuition</span>
               </div>
 
               <h3 className="text-md font-semibold text-slate-100 mb-4">{DISCOVERY_QUESTION.question}</h3>
@@ -1459,7 +1459,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                         : discoverySelected === idx
-                        ? 'bg-blue-900/60 border-blue-500 text-white'
+                        ? 'bg-gold-900/60 border-gold-500 text-white'
                         : 'bg-slate-800/80 border-slate-700 hover:bg-slate-800 text-slate-200'
                     }`}
                   >
@@ -1469,8 +1469,8 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-indigo-950/60 border border-indigo-700 rounded-lg p-4 text-xs text-indigo-200">
-                  <span className="font-bold text-indigo-400">Insight: </span>
+                <div className="bg-gold-950/60 border border-gold-700 rounded-lg p-4 text-xs text-gold-200">
+                  <span className="font-bold text-gold-400">Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1499,7 +1499,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                               ? 'bg-rose-900/60 border border-rose-500 text-rose-200'
                               : 'bg-slate-800 border border-slate-700 text-slate-500'
                             : predictionAnswers[pIdx] === oIdx
-                            ? 'bg-blue-600 text-white'
+                            ? 'bg-gold-600 text-white'
                             : 'bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300'
                         }`}
                       >
@@ -1534,11 +1534,11 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                   }}
                   className={`p-3 rounded-lg border text-left flex flex-col gap-1 transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-blue-900/80 border-blue-500 text-white shadow-lg'
+                      ? 'bg-gold-900/80 border-gold-500 text-white shadow-lg'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850 hover:text-slate-200'
                   }`}
                 >
-                  <span className="text-[10px] uppercase font-bold text-blue-400">Step {idx + 1}</span>
+                  <span className="text-[10px] uppercase font-bold text-gold-400">Step {idx + 1}</span>
                   <span className="text-xs font-semibold line-clamp-2">{step.title}</span>
                 </button>
               ))}
@@ -1547,7 +1547,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
             {/* Instruction Banner */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center justify-between">
               <div>
-                <h3 className="text-sm font-bold text-blue-300">
+                <h3 className="text-sm font-bold text-gold-300">
                   {EXPLORATION_STEPS[activeLabIndex].title}
                 </h3>
                 <p className="text-xs text-slate-400">
@@ -1572,7 +1572,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                   <div className="flex flex-col gap-4">
                     <div>
                       <div className="flex justify-between text-xs mb-1">
-                        <span className="text-blue-300 font-semibold">Hydrogen Bond Strength</span>
+                        <span className="text-gold-300 font-semibold">Hydrogen Bond Strength</span>
                         <span className="font-mono text-slate-400">{hBondStrength} kJ/mol x 5</span>
                       </div>
                       <input
@@ -1584,7 +1584,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                           setHBondStrength(Number(e.target.value));
                           audioManager.play('balance');
                         }}
-                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                       />
                     </div>
 
@@ -1658,7 +1658,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                             }}
                             className={`py-1.5 px-2 rounded text-xs font-semibold capitalize transition-all ${
                               inhibitorType === type
-                                ? 'bg-indigo-600 text-white shadow'
+                                ? 'bg-gold-600 text-white shadow'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1671,7 +1671,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-300">Substrate Concentration [S]</span>
-                        <span className="font-mono text-blue-400">{substrateConc} mM</span>
+                        <span className="font-mono text-gold-400">{substrateConc} mM</span>
                       </div>
                       <input
                         type="range"
@@ -1682,7 +1682,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                           setSubstrateConc(Number(e.target.value));
                           audioManager.play('balance');
                         }}
-                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                       />
                     </div>
 
@@ -1915,7 +1915,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
               {/* Progress Track */}
               <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden flex">
                 <div
-                  className="bg-gradient-to-r from-blue-500 via-teal-400 to-indigo-500 h-full transition-all duration-300"
+                  className="bg-gradient-to-r from-gold-500 via-teal-400 to-gold-500 h-full transition-all duration-300"
                   style={{ width: `${((currentChallengeIdx + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -1944,11 +1944,11 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                       }}
                       className={`p-4 rounded-lg border text-left text-sm transition-all flex items-start gap-3 ${
                         selectedOption === idx
-                          ? 'bg-blue-900/70 border-blue-500 text-white shadow-md'
+                          ? 'bg-gold-900/70 border-gold-500 text-white shadow-md'
                           : 'bg-slate-950 border-slate-800 hover:bg-slate-800 text-slate-300'
                       }`}
                     >
-                      <span className="font-bold text-blue-400 text-xs bg-slate-800 px-2 py-0.5 rounded border border-slate-700">
+                      <span className="font-bold text-gold-400 text-xs bg-slate-800 px-2 py-0.5 rounded border border-slate-700">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{opt}</span>
@@ -1967,7 +1967,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="e.g. 75"
-                    className="bg-slate-950 border border-slate-700 rounded-lg p-3 text-white text-lg font-mono focus:outline-none focus:border-blue-500"
+                    className="bg-slate-950 border border-slate-700 rounded-lg p-3 text-white text-lg font-mono focus:outline-none focus:border-gold-500"
                   />
                 </div>
               )}
@@ -2012,7 +2012,7 @@ const C12_ChemistryDrugtargetinteractionSim: React.FC<C12_ChemistryDrugtargetint
                     <button
                       onClick={handleChallengeSubmit}
                       disabled={selectedOption === null && numericInput === ''}
-                      className="px-5 py-2 rounded-lg bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 shadow-lg disabled:opacity-50 transition-all"
+                      className="px-5 py-2 rounded-lg bg-gold-600 text-white font-bold text-xs hover:bg-gold-500 shadow-lg disabled:opacity-50 transition-all"
                     >
                       Check Answer
                     </button>

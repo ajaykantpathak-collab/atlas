@@ -11,7 +11,7 @@ export const w_c12_physicsselfinductionselfinductancesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Faraday\'s Law of Electromagnetic Induction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_06_001', 'c12_phy_cbse_06_004', 'c12_phy_cbse_06_006', 'c12_phy_cbse_07_003', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_07_002', 'c12_phy_cbse_07_008', 'c12_phy_cbse_06_005', 'c12_phy_cbse_06_007', 'c12_phy_cbse_07_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a ceiling fan\'s motor — when you switch it on, the fan starts rotating due to induced currents from.', goal: 'Master Faraday\'s Law of Electromagnetic Induction.' },
     discovery: {
         question: 'A square loop of side 20 cm and resistance 2 Ω is placed with its plane perpendicular to a uniform magnetic field of 0.5 T.',
@@ -20,7 +20,7 @@ export const w_c12_physicsselfinductionselfinductancesim: SimDef = {
         hook: 'Students believe that a *strong* magnetic field alone induces emf, even if constant.',
     },
     teaching: [
-        { title: 'Faraday\'s Law of Electromagnetic Induction.', text: 'Faraday\'s Law of Electromagnetic Induction states that the magnitude of the induced electromotive force (emf) in a closed circuit is equal to the time rate of change of magnetic flux through the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Faraday\'s Law of Electromagnetic Induction.', text: 'Faraday\'s Law of Electromagnetic Induction states that the magnitude of the induced electromotive force (emf) in a closed circuit is equal to the time rate of change of magnetic flux through the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_06_001', title: 'Faraday\'s Law of Electromagnetic.',

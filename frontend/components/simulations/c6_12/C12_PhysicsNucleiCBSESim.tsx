@@ -976,7 +976,7 @@ export default function C12_PhysicsNucleiCBSESim() {
       {/* ─── HEADER BAR ─── */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-4 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-xl text-white shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-xl text-white shadow-lg shadow-gold-500/20">
             ⚛️
           </div>
           <div>
@@ -990,11 +990,11 @@ export default function C12_PhysicsNucleiCBSESim() {
           <div className="flex items-center gap-3 bg-slate-800/80 px-4 py-2 rounded-lg border border-slate-700/60">
             <div className="text-right">
               <div className="text-xs text-slate-400 font-medium">BKT Mastery Level</div>
-              <div className="text-sm font-bold text-cyan-400 capitalize">{overallMastery}</div>
+              <div className="text-sm font-bold text-gold-400 capitalize">{overallMastery}</div>
             </div>
             <div className="w-12 h-2 bg-slate-700 rounded-full overflow-hidden">
               <div
-                className="h-full bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-500"
+                className="h-full bg-gradient-to-r from-gold-400 to-gold-500 transition-all duration-500"
                 style={{
                   width: `${(Object.values(bktStates).reduce((a, b) => a + b.pKnown, 0) / ALL_NODE_IDS.length) * 100}%`,
                 }}
@@ -1021,7 +1021,7 @@ export default function C12_PhysicsNucleiCBSESim() {
             }}
             className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-300 border border-cyan-500/40 shadow-sm shadow-cyan-500/10'
+                ? 'bg-gradient-to-r from-gold-500/20 to-gold-500/20 text-gold-300 border border-gold-500/40 shadow-sm shadow-gold-500/10'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1042,11 +1042,11 @@ export default function C12_PhysicsNucleiCBSESim() {
             className="flex flex-col gap-6"
           >
             {/* Narrative Banner */}
-            <div className="bg-gradient-to-r from-blue-900/40 via-cyan-900/30 to-slate-900 p-6 rounded-2xl border border-cyan-500/30 shadow-xl">
-              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 mb-3">
+            <div className="bg-gradient-to-r from-gold-900/40 via-gold-900/30 to-slate-900 p-6 rounded-2xl border border-gold-500/30 shadow-xl">
+              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/20 text-gold-300 border border-gold-500/30 mb-3">
                 MISSION BRIEFING
               </span>
-              <h2 className="text-2xl font-bold text-cyan-100 mb-2">{SCENARIO.title}</h2>
+              <h2 className="text-2xl font-bold text-gold-100 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-slate-400 flex items-center gap-2">
                 <span>📍</span>
@@ -1078,7 +1078,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     }}
                     className={`p-4 rounded-xl text-left text-sm font-medium transition-all border ${
                       discoverySelected === idx
-                        ? 'bg-cyan-500/20 border-cyan-400 text-cyan-200'
+                        ? 'bg-gold-500/20 border-gold-400 text-gold-200'
                         : 'bg-slate-800/40 border-slate-700/60 text-slate-300 hover:bg-slate-800 hover:border-slate-600'
                     }`}
                   >
@@ -1098,7 +1098,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                   onClick={handleDiscoverySubmit}
                   className={`w-full py-3.5 rounded-xl font-bold text-sm tracking-wide transition-all ${
                     discoverySelected !== null
-                      ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25 hover:brightness-110'
+                      ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/25 hover:brightness-110'
                       : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                   }`}
                 >
@@ -1126,7 +1126,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                   </p>
                   <button
                     onClick={() => setActiveTab('slides')}
-                    className="mt-2 self-end px-5 py-2 rounded-lg bg-cyan-500/20 text-cyan-300 font-semibold text-xs border border-cyan-500/40 hover:bg-cyan-500/30"
+                    className="mt-2 self-end px-5 py-2 rounded-lg bg-gold-500/20 text-gold-300 font-semibold text-xs border border-gold-500/40 hover:bg-gold-500/30"
                   >
                     Proceed to Visual Learning →
                   </button>
@@ -1157,7 +1157,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                       audioManager.play('tap');
                     }}
                     className={`h-2.5 rounded-full transition-all ${
-                      slideIndex === idx ? 'w-8 bg-cyan-400' : 'w-2.5 bg-slate-700 hover:bg-slate-600'
+                      slideIndex === idx ? 'w-8 bg-gold-400' : 'w-2.5 bg-slate-700 hover:bg-slate-600'
                     }`}
                   />
                 ))}
@@ -1168,7 +1168,7 @@ export default function C12_PhysicsNucleiCBSESim() {
             <div className="bg-slate-900 rounded-2xl border border-slate-800 p-6 shadow-xl flex flex-col md:flex-row gap-6">
               <div className="flex-1 flex flex-col justify-between">
                 <div>
-                  <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+                  <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">
                     {TEACHING_SLIDES[slideIndex].subtitle}
                   </span>
                   <h2 className="text-2xl font-bold text-slate-100 mt-1 mb-4">
@@ -1180,14 +1180,14 @@ export default function C12_PhysicsNucleiCBSESim() {
 
                   {/* Math Formula Highlight */}
                   {TEACHING_SLIDES[slideIndex].formula && (
-                    <div className="p-4 rounded-xl bg-slate-950 border border-cyan-500/30 mb-6 font-mono text-xs md:text-sm text-cyan-300 flex items-center justify-center">
+                    <div className="p-4 rounded-xl bg-slate-950 border border-gold-500/30 mb-6 font-mono text-xs md:text-sm text-gold-300 flex items-center justify-center">
                       <code>{TEACHING_SLIDES[slideIndex].formula}</code>
                     </div>
                   )}
                 </div>
 
                 {/* Key Takeaway Box */}
-                <div className="p-4 rounded-xl bg-blue-950/30 border border-blue-500/30 text-blue-200 text-xs leading-relaxed">
+                <div className="p-4 rounded-xl bg-gold-950/30 border border-gold-500/30 text-gold-200 text-xs leading-relaxed">
                   <span className="font-bold block mb-1">💡 Key Concept takeaway:</span>
                   {TEACHING_SLIDES[slideIndex].keyTakeaway}
                 </div>
@@ -1238,7 +1238,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     <div className="p-3 bg-red-950/60 border border-red-500/40 rounded-lg text-xs text-red-300 font-mono">
                       α-Decay: Ejects ⁴₂He Nucleus
                     </div>
-                    <div className="p-3 bg-blue-950/60 border border-blue-500/40 rounded-lg text-xs text-blue-300 font-mono">
+                    <div className="p-3 bg-gold-950/60 border border-gold-500/40 rounded-lg text-xs text-gold-300 font-mono">
                       β⁻-Decay: n → p + e⁻ + ν̄_e
                     </div>
                     <div className="p-3 bg-purple-950/60 border border-purple-500/40 rounded-lg text-xs text-purple-300 font-mono">
@@ -1252,7 +1252,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     <div className="w-full p-3 bg-amber-950/40 border border-amber-500/40 rounded-lg text-xs text-amber-200">
                       ⚡ Fission: ²³⁵U + n → Ba + Kr + 3n + 200 MeV
                     </div>
-                    <div className="w-full p-3 bg-cyan-950/40 border border-cyan-500/40 rounded-lg text-xs text-cyan-200">
+                    <div className="w-full p-3 bg-gold-950/40 border border-gold-500/40 rounded-lg text-xs text-gold-200">
                       🔥 Fusion: ²H + ³H → ⁴He + n + 17.6 MeV
                     </div>
                   </div>
@@ -1287,7 +1287,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     audioManager.play('whoosh');
                   }
                 }}
-                className="px-6 py-2.5 rounded-xl text-sm font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 hover:brightness-110"
+                className="px-6 py-2.5 rounded-xl text-sm font-semibold bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/20 hover:brightness-110"
               >
                 {slideIndex < TEACHING_SLIDES.length - 1 ? 'Next Slide →' : 'Enter Interactive Lab 🔬'}
               </button>
@@ -1317,7 +1317,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                   }}
                   className={`flex-1 py-2.5 rounded-lg text-xs md:text-sm font-bold transition-all flex items-center justify-center gap-2 ${
                     labSubTab === sub.id
-                      ? 'bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-300 border border-cyan-500/40 shadow-sm'
+                      ? 'bg-gradient-to-r from-gold-500/20 to-gold-500/20 text-gold-300 border border-gold-500/40 shadow-sm'
                       : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/40'
                   }`}
                 >
@@ -1333,7 +1333,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                 {/* Visualizer Canvas */}
                 <div className="lg:col-span-2 bg-slate-900 rounded-2xl p-4 border border-slate-800 flex flex-col items-center justify-center relative shadow-xl">
                   <div className="w-full flex justify-between items-center mb-2 px-2">
-                    <span className="text-xs font-semibold text-cyan-400">3D Nucleon Packing Simulation</span>
+                    <span className="text-xs font-semibold text-gold-400">3D Nucleon Packing Simulation</span>
                     <span className="text-xs text-slate-400 font-mono">
                       Radius R = {nuclearRadiusFm.toFixed(2)} fm
                     </span>
@@ -1350,11 +1350,11 @@ export default function C12_PhysicsNucleiCBSESim() {
                       <span className="text-slate-300">Protons (Z = {zVal})</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="w-3 h-3 rounded-full bg-blue-500 inline-block" />
+                      <span className="w-3 h-3 rounded-full bg-gold-500 inline-block" />
                       <span className="text-slate-300">Neutrons (N = {nVal})</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span className="text-cyan-400 font-bold">A = {totalA}</span>
+                      <span className="text-gold-400 font-bold">A = {totalA}</span>
                     </div>
                   </div>
                 </div>
@@ -1387,7 +1387,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                   {/* Neutron Slider */}
                   <div className="flex flex-col gap-2">
                     <div className="flex justify-between text-xs font-semibold">
-                      <span className="text-blue-400">Neutrons N:</span>
+                      <span className="text-gold-400">Neutrons N:</span>
                       <span className="text-slate-200">{nVal}</span>
                     </div>
                     <input
@@ -1399,7 +1399,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                         setNVal(parseInt(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-blue-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1411,15 +1411,15 @@ export default function C12_PhysicsNucleiCBSESim() {
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
                       <span className="text-slate-400">Total Binding Energy (Eb):</span>
-                      <span className="font-mono text-cyan-400 font-bold">{ebTotalMeV.toFixed(1)} MeV</span>
+                      <span className="font-mono text-gold-400 font-bold">{ebTotalMeV.toFixed(1)} MeV</span>
                     </div>
-                    <div className="p-3 bg-slate-950 rounded-xl border border-cyan-500/30 text-xs flex justify-between items-center">
+                    <div className="p-3 bg-slate-950 rounded-xl border border-gold-500/30 text-xs flex justify-between items-center">
                       <span className="text-slate-400">BE per Nucleon (Ebn):</span>
                       <span className="font-mono text-emerald-400 font-bold">{ebnPerNucleonMeV.toFixed(2)} MeV/nucl</span>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
                       <span className="text-slate-400">Nuclear Matter Density:</span>
-                      <span className="font-mono text-indigo-400 font-bold">2.3 × 10¹⁷ kg/m³</span>
+                      <span className="font-mono text-gold-400 font-bold">2.3 × 10¹⁷ kg/m³</span>
                     </div>
                   </div>
                 </div>
@@ -1467,7 +1467,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs flex flex-col gap-2 font-mono">
                       <div className="flex justify-between">
                         <span className="text-slate-400">Decay Const λ:</span>
-                        <span className="text-cyan-400">{(Math.LN2 / decayHalfLife).toFixed(3)} s⁻¹</span>
+                        <span className="text-gold-400">{(Math.LN2 / decayHalfLife).toFixed(3)} s⁻¹</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Time Elapsed:</span>
@@ -1531,7 +1531,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                   <div className="flex flex-col gap-2">
                     <div className="flex justify-between text-xs font-semibold">
                       <span className="text-slate-300">Cadmium Control Rod Insertion:</span>
-                      <span className="text-cyan-400">{rodInsertion}%</span>
+                      <span className="text-gold-400">{rodInsertion}%</span>
                     </div>
                     <input
                       type="range"
@@ -1542,7 +1542,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                         setRodInsertion(parseInt(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500">
                       <span>0% (Supercritical)</span>
@@ -1564,7 +1564,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                           }}
                           className={`py-2 px-1 rounded-lg text-[10px] font-bold capitalize transition-all border ${
                             moderatorType === m
-                              ? 'bg-cyan-500/20 border-cyan-400 text-cyan-200'
+                              ? 'bg-gold-500/20 border-gold-400 text-gold-200'
                               : 'bg-slate-800 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1603,14 +1603,14 @@ export default function C12_PhysicsNucleiCBSESim() {
             {/* Challenge Progress */}
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-xl border border-slate-800">
               <div className="flex items-center gap-3">
-                <span className="px-3 py-1 rounded-full text-xs font-bold uppercase bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">
+                <span className="px-3 py-1 rounded-full text-xs font-bold uppercase bg-gold-500/20 text-gold-300 border border-gold-500/40">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <span className="text-xs font-semibold text-slate-400 capitalize">
                   Difficulty: {currentChallenge.difficulty}
                 </span>
               </div>
-              <span className="text-xs font-mono text-cyan-400">
+              <span className="text-xs font-mono text-gold-400">
                 Node ID: {currentChallenge.nodeId}
               </span>
             </div>
@@ -1634,7 +1634,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                       }}
                       className={`p-4 rounded-xl text-left text-sm font-medium transition-all border ${
                         challengeAnswer === idx
-                          ? 'bg-cyan-500/20 border-cyan-400 text-cyan-200'
+                          ? 'bg-gold-500/20 border-gold-400 text-gold-200'
                           : 'bg-slate-800/40 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
@@ -1660,7 +1660,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                       placeholder="Enter value..."
                       value={challengeAnswer || ''}
                       onChange={e => setChallengeAnswer(e.target.value)}
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-cyan-300 font-mono text-sm focus:outline-none focus:border-cyan-400 flex-1"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-gold-300 font-mono text-sm focus:outline-none focus:border-gold-400 flex-1"
                     />
                     <span className="text-sm font-bold text-slate-400">{currentChallenge.unit}</span>
                   </div>
@@ -1670,9 +1670,9 @@ export default function C12_PhysicsNucleiCBSESim() {
               {/* Balance Equation Select */}
               {currentChallenge.type === 'balance-equation' && (
                 <div className="flex flex-col gap-4">
-                  <div className="p-4 bg-slate-950 rounded-xl border border-cyan-500/30 text-center font-mono text-base text-cyan-300">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-500/30 text-center font-mono text-base text-gold-300">
                     {currentChallenge.equationParts?.reactant1} {currentChallenge.equationParts?.reactant2} {currentChallenge.equationParts?.product1}{' '}
-                    <span className="underline decoration-cyan-400 font-bold text-amber-400">
+                    <span className="underline decoration-gold-400 font-bold text-amber-400">
                       [ {challengeAnswer || '?'} ]
                     </span>
                   </div>
@@ -1687,7 +1687,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                         }}
                         className={`p-3 rounded-xl border text-sm font-mono font-medium transition-all ${
                           challengeAnswer === opt
-                            ? 'bg-cyan-500/20 border-cyan-400 text-cyan-200'
+                            ? 'bg-gold-500/20 border-gold-400 text-gold-200'
                             : 'bg-slate-800/40 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
@@ -1737,7 +1737,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     onClick={handleChallengeSubmit}
                     className={`flex-1 py-3.5 rounded-xl font-bold text-sm tracking-wide transition-all ${
                       challengeAnswer !== null || currentChallenge.type === 'drag-sort'
-                        ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 hover:brightness-110'
+                        ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/20 hover:brightness-110'
                         : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                     }`}
                   >
@@ -1813,7 +1813,7 @@ export default function C12_PhysicsNucleiCBSESim() {
                     key={misc.id}
                     className="p-5 bg-slate-950 rounded-xl border border-slate-800 flex flex-col gap-3"
                   >
-                    <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       {misc.title}
                     </span>
                     <div className="p-3 bg-red-950/30 border border-red-500/30 rounded-lg text-xs text-red-300">

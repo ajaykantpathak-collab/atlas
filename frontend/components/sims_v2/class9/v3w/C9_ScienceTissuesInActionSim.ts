@@ -11,7 +11,7 @@ export const w_c9_sciencetissuesinactionsim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Plant Tissues: Meristematic vs Permanent Tissues',
     chapters: [],
     nodeIds: ['c9_bio_ch2_1', 'c9_bio_ch2_2', 'c9_bio_ch2_3', 'c9_bio_ch2_4', 'c9_bio_ch2_6', 'c9_bio_ch2_8', 'c9_bio_ch3_2', 'c9_bio_ch3_11'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Observe a young mango sapling growing taller each month and a mature banyan tree trunk thickening over years.', goal: 'Master Plant Tissues: Meristematic vs Permanent Tissues.' },
     discovery: {
         question: 'A student examines a transverse section of a maize stem and sees thick-walled, lignified, dead cells with narrow lumens surrounding the vascular bundles.',
@@ -20,7 +20,7 @@ export const w_c9_sciencetissuesinactionsim: SimDef = {
         hook: 'Students believe **all thick-walled plant cells are sclerenchyma** and that "thick wall = dead cell." They see.',
     },
     teaching: [
-        { title: 'Meristematic tissue consists of.', text: 'Meristematic tissue consists of undifferentiated, actively dividing cells with dense cytoplasm, thin cell walls, and prominent nuclei that retain the capacity for continuous division, while permanent.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Meristematic tissue consists of.', text: 'Meristematic tissue consists of undifferentiated, actively dividing cells with dense cytoplasm, thin cell walls, and prominent nuclei that retain the capacity for continuous division, while permanent.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_bio_ch2_1', title: 'Meristematic tissue consists of.',

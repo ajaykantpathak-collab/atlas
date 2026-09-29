@@ -11,7 +11,7 @@ export const w_c12_appliedmathsrandomvariableprobabilitysim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Random Variables and Probability Distribution',
     chapters: [],
     nodeIds: ['c12_math_cbse_13_007', 'c12_math_cbse_13_008', 'c12_math_cbse_13_004', 'c12_math_cbse_13_005', 'c12_math_cbse_13_009', 'c12_math_cbse_13_010', 'c12_math_cbse_13_001', 'c12_math_cbse_13_002', 'c12_math_cbse_13_003', 'c12_math_cbse_13_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a Diwali mela playing a game: you draw two cards without replacement from a well-shuffled.', goal: 'Master Random Variables and Probability Distribution.' },
     discovery: {
         question: 'A student argues: "If two events are independent, they cannot happen together, so \\( P(E \\cap F) = 0 \\)." Is this correct?',
@@ -20,7 +20,7 @@ export const w_c12_appliedmathsrandomvariableprobabilitysim: SimDef = {
         hook: '**The "Mutually Exclusive = Independent" confusion:** Students repeatedly write: "Since A and B are independent, P(A ∩.',
     },
     teaching: [
-        { title: 'A random variable is a real-valued function.', text: 'A random variable is a real-valued function whose domain is the sample space of a random experiment. It assigns a unique real number to each outcome in the sample space.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A random variable is a real-valued function.', text: 'A random variable is a real-valued function whose domain is the sample space of a random experiment. It assigns a unique real number to each outcome in the sample space.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_13_007', title: 'A random variable is a real-valued.',

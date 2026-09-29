@@ -1108,10 +1108,10 @@ function C11_MathematicsRealValuedFunctionsSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/80 backdrop-blur rounded-2xl border border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-lg md:text-xl font-extrabold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 11 Mathematics • Relations, Functions & Unit Circle</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 11 Mathematics • Relations, Functions & Unit Circle</p>
           </div>
         </div>
 
@@ -1126,7 +1126,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                 ? 'bg-emerald-950/70 border-emerald-500/50 text-emerald-400'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-500/50 text-rose-400'
-                : 'bg-indigo-950/70 border-indigo-500/50 text-indigo-400'
+                : 'bg-gold-950/70 border-gold-500/50 text-gold-400'
             }`}
           >
             Tier: {difficulty}
@@ -1140,8 +1140,8 @@ function C11_MathematicsRealValuedFunctionsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-900/50 px-2.5 py-1 rounded-md">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider bg-gold-900/50 px-2.5 py-1 rounded-md">
               Scenario Calibration
             </span>
             <h2 className="text-xl font-bold text-white mt-2">{SCENARIO.title}</h2>
@@ -1175,7 +1175,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                       : 'bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1190,7 +1190,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Laboratory →
                 </motion.button>
@@ -1213,7 +1213,7 @@ function C11_MathematicsRealValuedFunctionsSim({
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
                 <div>
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                   </span>
                   <h3 className="text-lg font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1240,7 +1240,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                           }}
                           className={`px-3 py-2 rounded-lg text-xs font-bold capitalize transition-all ${
                             selectedFuncFamily === fam
-                              ? 'bg-indigo-600 text-white shadow-md'
+                              ? 'bg-gold-600 text-white shadow-md'
                               : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                           }`}
                         >
@@ -1263,7 +1263,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                             step={0.5}
                             value={paramA}
                             onChange={e => setParamA(parseFloat(e.target.value) || 1)}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                             aria-label="Quadratic curvature slider"
                           />
                         </div>
@@ -1278,14 +1278,14 @@ function C11_MathematicsRealValuedFunctionsSim({
                             step={1}
                             value={paramC}
                             onChange={e => setParamC(parseInt(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                             aria-label="Quadratic vertical shift slider"
                           />
                         </div>
                       </div>
                     )}
 
-                    <div className="p-3 bg-indigo-950/40 rounded-lg border border-indigo-800/40 text-xs text-indigo-300">
+                    <div className="p-3 bg-gold-950/40 rounded-lg border border-gold-800/40 text-xs text-gold-300">
                       <strong>Mathematical Law:</strong>{' '}
                       {selectedFuncFamily === 'quadratic'
                         ? `f(x) = ${paramA}x² + ${paramC}. Domain = R, Range = [${paramC}, ∞).`
@@ -1411,7 +1411,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                         max={10}
                         value={domainB}
                         onChange={e => setDomainB(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Domain end slider b"
                       />
                     </div>
@@ -1460,7 +1460,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                         max={12}
                         value={circleRadius}
                         onChange={e => setCircleRadius(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Circle radius slider"
                       />
                     </div>
@@ -1528,8 +1528,8 @@ function C11_MathematicsRealValuedFunctionsSim({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
                   <div className="lg:col-span-6 space-y-3 bg-slate-950/80 p-4 rounded-xl border border-slate-800">
                     {!predictionMade && (
-                      <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-2">
-                        <p className="text-xs font-bold text-indigo-300">Predict-then-Check:</p>
+                      <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800 space-y-2">
+                        <p className="text-xs font-bold text-gold-300">Predict-then-Check:</p>
                         <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[1].question}</p>
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
                           <motion.button
@@ -1548,7 +1548,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Rotate Angle θ: {circleAngleDeg}°</span>
-                        <span className="font-bold text-indigo-400">{currentQuadrant}</span>
+                        <span className="font-bold text-gold-400">{currentQuadrant}</span>
                       </div>
                       <input
                         type="range"
@@ -1557,7 +1557,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                         step={5}
                         value={circleAngleDeg}
                         onChange={e => handleAngleSliderChange(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Unit circle rotation slider"
                       />
                     </div>
@@ -1619,7 +1619,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                     <div
                       key={i}
                       className={`h-2 rounded-full transition-all ${
-                        currentSlide === i ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                        currentSlide === i ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1630,7 +1630,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1671,14 +1671,14 @@ function C11_MathematicsRealValuedFunctionsSim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400">Unit Angle: {circleAngleDeg}°</span>
+                <span className="text-xs font-bold text-gold-400">Unit Angle: {circleAngleDeg}°</span>
                 <input
                   type="range"
                   min={0}
                   max={360}
                   value={circleAngleDeg}
                   onChange={e => setCircleAngleDeg(parseInt(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox angle degrees slider"
                 />
                 <p className="text-xs text-slate-400">Angle in Radians: {(circleAngleRad).toFixed(3)} rad</p>
@@ -1716,7 +1716,7 @@ function C11_MathematicsRealValuedFunctionsSim({
             <div className="flex justify-between items-center text-xs">
               <span className="text-slate-400 font-medium">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length} •{' '}
-                <span className="text-indigo-400 uppercase font-bold">{challenge.competencyLevel}</span>
+                <span className="text-gold-400 uppercase font-bold">{challenge.competencyLevel}</span>
               </span>
               <span className="text-slate-400 font-mono">
                 Mastery: <strong className="text-white capitalize">{masteryLevel}</strong>
@@ -1724,7 +1724,7 @@ function C11_MathematicsRealValuedFunctionsSim({
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1738,7 +1738,7 @@ function C11_MathematicsRealValuedFunctionsSim({
             className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4 shadow-xl"
           >
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase bg-slate-800 text-indigo-300 border border-slate-700">
+              <span className="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase bg-slate-800 text-gold-300 border border-slate-700">
                 {challenge.type}
               </span>
               <span className="text-xs text-slate-400">ISC Node: {challenge.nodeId}</span>
@@ -1767,7 +1767,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                         : 'bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2.5 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2.5 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1785,7 +1785,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -1820,7 +1820,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg"
                 >
                   Verify Diagram Labels →
                 </motion.button>
@@ -1848,7 +1848,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                       className="p-3 bg-slate-800 hover:bg-slate-750 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                        <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                       </span>
                       <span className="text-slate-500 text-xs">↕ Drag</span>
                     </motion.div>
@@ -1860,7 +1860,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg"
                 >
                   Check Step Order →
                 </motion.button>
@@ -1877,7 +1877,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     aria-label="Numeric answer input"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
@@ -1886,7 +1886,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg disabled:opacity-40"
                   >
                     Submit Telemetry →
                   </motion.button>
@@ -1897,7 +1897,7 @@ function C11_MathematicsRealValuedFunctionsSim({
             {/* EQUATION CONSTRUCT INTERFACE */}
             {challenge.type === 'construct' && challenge.availableParts && (
               <div className="space-y-4 pt-2">
-                <p className="text-xs text-indigo-300 font-medium">{challenge.validationHint}</p>
+                <p className="text-xs text-gold-300 font-medium">{challenge.validationHint}</p>
 
                 <div className="flex flex-wrap gap-2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                   {challenge.availableParts.map((part, i) => (
@@ -1906,7 +1906,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -1919,7 +1919,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600/80 rounded-lg text-white font-mono text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600/80 rounded-lg text-white font-mono text-xs flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button onClick={() => handleConstructRemove(i)} className="text-rose-300 hover:text-white">✕</button>
@@ -1933,7 +1933,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg"
                 >
                   Verify Construction →
                 </motion.button>
@@ -1997,7 +1997,7 @@ function C11_MathematicsRealValuedFunctionsSim({
       {/* ─── PHASE 5: MISSION COMPLETION & CAPSTONE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/60 shadow-2xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/60 shadow-2xl space-y-4">
             <span className="px-3 py-1 bg-emerald-950 text-emerald-400 rounded-full text-xs font-bold border border-emerald-500/50">
               Flight Telemetry Completed
             </span>
@@ -2009,7 +2009,7 @@ function C11_MathematicsRealValuedFunctionsSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Total Attempts</span>
-                <p className="text-xl font-black text-indigo-400 mt-1">{scoreBreakdown.total}</p>
+                <p className="text-xl font-black text-gold-400 mt-1">{scoreBreakdown.total}</p>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Errors Rectified</span>
@@ -2055,7 +2055,7 @@ function C11_MathematicsRealValuedFunctionsSim({
           )}
 
           {/* Spaced Repetition SRS Notice & Visibility */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 to-purple-950/80 rounded-2xl border border-indigo-600/60 shadow-lg space-y-3">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 to-purple-950/80 rounded-2xl border border-gold-600/60 shadow-lg space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📅</span>
@@ -2063,7 +2063,7 @@ function C11_MathematicsRealValuedFunctionsSim({
                   Spaced Repetition System (SRS SM-2)
                 </span>
               </div>
-              <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 font-mono font-bold text-xs rounded-full border border-indigo-400/40">
+              <span className="px-3 py-1 bg-gold-500/20 text-gold-300 font-mono font-bold text-xs rounded-full border border-gold-400/40">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </span>
             </div>
@@ -2107,12 +2107,12 @@ function C11_MathematicsRealValuedFunctionsSim({
 
           {/* Real World Telemetry Capstone */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h4 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h4>
+            <h4 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

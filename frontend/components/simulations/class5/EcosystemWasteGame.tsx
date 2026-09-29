@@ -64,7 +64,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Non-Degradable Waste ♻️",
     text: "Non-degradable waste cannot be broken down by decomposers and stays in the environment for hundreds of years. Examples include plastic bags, glass bottles, and metal cans. We must reduce, reuse, and recycle them!",
     emoji: "♻️",
-    bgColor: "from-cyan-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Non-degradable waste like plastic and glass cannot be broken down by decomposers. We must reduce, reuse, and recycle them to protect Earth."
   },
 ];

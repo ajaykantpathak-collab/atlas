@@ -11,7 +11,7 @@ export const w_c12_physicsnucleicbsesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Nuclear Fission: Chain Reaction and Energy Release',
     chapters: [],
     nodeIds: ['c12_phy_cbse_13_004', 'c12_phy_cbse_13_005', 'c12_phy_cbse_13_006', 'c12_phy_cbse_13_007', 'c12_phy_cbse_12_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a household LPG cylinder: it stores chemical energy released by combustion.', goal: 'Master Nuclear Fission: Chain Reaction and Energy Release.' },
     discovery: {
         question: 'State the typical energy released per fission of a U-235 nucleus and the average number of neutrons emitted per fission.',
@@ -20,7 +20,7 @@ export const w_c12_physicsnucleicbsesim: SimDef = {
         hook: 'Students often think the energy in nuclear fission comes from "destroying protons/neutrons" or "converting mass into.',
     },
     teaching: [
-        { title: 'Nuclear fission is a nuclear reaction in.', text: 'Nuclear fission is a nuclear reaction in which a heavy nucleus (such as uranium-235 or plutonium-239) splits into two lighter nuclei (fission fragments) of comparable mass when bombarded by a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Nuclear fission is a nuclear reaction in.', text: 'Nuclear fission is a nuclear reaction in which a heavy nucleus (such as uranium-235 or plutonium-239) splits into two lighter nuclei (fission fragments) of comparable mass when bombarded by a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_13_004', title: 'Nuclear fission is a nuclear reaction.',

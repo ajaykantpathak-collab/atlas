@@ -11,7 +11,7 @@ export const w_c12_econationalincomecbsesim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Basic Concepts: GDP, GNP, NNP and National Income',
     chapters: [],
     nodeIds: ['c12_eco_cbse_08_001', 'c12_eco_cbse_08_002', 'c12_eco_cbse_08_004', 'c12_eco_cbse_08_005', 'c12_eco_cbse_08_006', 'c12_eco_cbse_08_008', 'c12_eco_cbse_08_009', 'c12_eco_cbse_08_010', 'c12_eco_cbse_01_006', 'c12_eco_cbse_01_008', 'c12_eco_cbse_07_001', 'c12_eco_cbse_07_002', 'c12_eco_cbse_07_005', 'c12_eco_cbse_10_003', 'c12_eco_cbse_10_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you read a headline: "India\'s GDP grows at 7.2% in 2023-24." GDP measures production inside India\'s.', goal: 'Master Basic Concepts: GDP, GNP, NNP and National Income.' },
     discovery: {
         question: 'Explain why GDP plus net factor income from abroad equals GNP, and give a concrete Indian example of a factor income flow that is added and one that is.',
@@ -20,7 +20,7 @@ export const w_c12_econationalincomecbsesim: SimDef = {
         hook: 'Students treat "Gross" and "Net" as mere adjectives and forget that "Gross" includes depreciation while "Net" excludes.',
     },
     teaching: [
-        { title: 'Gross Domestic Product (GDP) is the market.', text: 'Gross Domestic Product (GDP) is the market value of all final goods and services produced within the domestic territory of a country in an accounting year.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Gross Domestic Product (GDP) is the market.', text: 'Gross Domestic Product (GDP) is the market value of all final goods and services produced within the domestic territory of a country in an accounting year.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_08_001', title: 'Gross Domestic Product (GDP) is the.',

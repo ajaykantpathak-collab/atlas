@@ -11,11 +11,11 @@ export const w_c7_mathematicsmultiplicationdivisiondecimalsim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Operations with Large Numbers: Multiplication and Division',
     chapters: [],
     nodeIds: ['c7_math_ch01_011', 'c7_math_ch08_003', 'c7_math_ch12_004', 'c7_math_ch12_006', 'c7_math_ch12_007', 'c7_math_ch12_008', 'c7_math_ch12_009', 'c7_math_ch12_010', 'c7_math_ch10_002', 'c7_math_ch02_002', 'c7_math_ch02_008', 'c7_math_ch01_009', 'c7_math_ch01_006', 'c7_math_ch03_001', 'c7_math_ch12_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine your city\'s municipal corporation collects water bills from 35,420 households every single month, and.', goal: 'Master Operations with Large Numbers: Multiplication and Division.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Operations with large numbers:.', text: 'Operations with large numbers: multiplication and division involves finding the product of multi-digit numbers (up to 8 digits and beyond, into lakhs and crores) or sharing/distributing a large total.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Operations with large numbers:.', text: 'Operations with large numbers: multiplication and division involves finding the product of multi-digit numbers (up to 8 digits and beyond, into lakhs and crores) or sharing/distributing a large total.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch01_011', title: 'Operations with large numbers:.',

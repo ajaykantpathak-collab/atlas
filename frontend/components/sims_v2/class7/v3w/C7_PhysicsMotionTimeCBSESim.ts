@@ -11,7 +11,7 @@ export const w_c7_physicsmotiontimecbsesim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Simple Pendulum: Period and Oscillation',
     chapters: [],
     nodeIds: ['c7_physics_ch04_002', 'c7_physics_ch04_004', 'c7_physics_ch04_005', 'c7_physics_ch04_006', 'c7_physics_ch04_007', 'c7_physics_ch04_008', 'c7_physics_ch04_009', 'c7_physics_ch06_002', 'c7_physics_ch06_003', 'c7_physics_ch04_001', 'c7_physics_ch04_003', 'c7_physics_ch04_010', 'c7_physics_ch03_005', 'c7_physics_ch06_001', 'c7_physics_ch03_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you watch a traditional pendulum wall clock swing back and forth in your living room, you are observing.', goal: 'Master Simple Pendulum: Period and Oscillation.' },
     discovery: {
         question: 'A car travels along a straight highway, covering exactly 50 meters every 5 seconds. Is this motion uniform or non-uniform, and why?',
@@ -20,7 +20,7 @@ export const w_c7_physicsmotiontimecbsesim: SimDef = {
         hook: 'Students often believe that if an object is moving forward in a straight line, its motion is automatically uniform.',
     },
     teaching: [
-        { title: 'A simple pendulum consists of a small.', text: 'A simple pendulum consists of a small metallic ball (called the bob) suspended from a rigid stand by a light, inextensible thread.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A simple pendulum consists of a small.', text: 'A simple pendulum consists of a small metallic ball (called the bob) suspended from a rigid stand by a light, inextensible thread.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch04_002', title: 'A simple pendulum consists of a small.',

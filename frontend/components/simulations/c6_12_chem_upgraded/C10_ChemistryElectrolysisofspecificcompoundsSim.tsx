@@ -1210,7 +1210,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
       <header className="max-w-6xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 rounded-full text-xs font-bold uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 rounded-full text-xs font-bold uppercase tracking-wider">
               ICSE Class 10 Chemistry
             </span>
             <span className="px-3 py-1 bg-purple-500/20 text-purple-400 border border-purple-500/30 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -1228,7 +1228,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('discovery'); }}
             className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             1. Discovery
@@ -1236,7 +1236,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('lab'); }}
             className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             2. Interactive Lab
@@ -1244,7 +1244,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('challenges'); }}
             className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${
-              activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             3. Challenges ({CHALLENGES.length})
@@ -1252,7 +1252,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('summary'); }}
             className={`px-4 py-2 rounded-lg text-sm font-bold transition-all ${
-              activeTab === 'summary' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             4. Real-World & Mastery
@@ -1267,7 +1267,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
           <div className="space-y-6">
             {/* Scenario Narrative Box */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">Lab Scenario Briefing</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Lab Scenario Briefing</h2>
               <p className="text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             </div>
 
@@ -1287,13 +1287,13 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                     onClick={() => { audioManager.play('tap'); setDiscoverySelected(idx); }}
                     className={`w-full text-left p-4 rounded-xl border transition-all ${
                       discoverySelected === idx
-                        ? 'bg-cyan-950/60 border-cyan-500 text-white shadow-lg'
+                        ? 'bg-gold-950/60 border-gold-500 text-white shadow-lg'
                         : 'bg-slate-800/60 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
                     <div className="flex items-start gap-3">
                       <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
-                        discoverySelected === idx ? 'bg-cyan-500 text-slate-950' : 'bg-slate-700 text-slate-300'
+                        discoverySelected === idx ? 'bg-gold-500 text-slate-950' : 'bg-slate-700 text-slate-300'
                       }`}>
                         {String.fromCharCode(65 + idx)}
                       </span>
@@ -1307,7 +1307,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoverySelected === null || discoverySubmitted}
-                  className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 disabled:bg-slate-800 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Confirm Answer
                 </button>
@@ -1322,7 +1322,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
 
             {/* MANDATORY PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4">Pre-Lab Hypothesis & Predictions</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">Pre-Lab Hypothesis & Predictions</h3>
 
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1340,7 +1340,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                           }}
                           className={`p-3 rounded-lg text-xs font-semibold text-left border transition-all ${
                             predictionAnswers[pIdx] === oIdx
-                              ? 'bg-cyan-600 border-cyan-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-800'
                           }`}
                         >
@@ -1394,7 +1394,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                   <select
                     value={electrolyte}
                     onChange={(e) => { audioManager.play('tap'); setElectrolyte(e.target.value); }}
-                    className="w-full bg-slate-800 border border-slate-700 text-white font-semibold rounded-xl p-3 focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-800 border border-slate-700 text-white font-semibold rounded-xl p-3 focus:outline-none focus:border-gold-500"
                   >
                     <option value="acidified_water">Acidified Water (H2O + H2SO4)</option>
                     <option value="molten_pbbr2">Molten Lead Bromide (PbBr2 at 380°C)</option>
@@ -1411,7 +1411,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                     <button
                       onClick={() => { audioManager.play('tap'); setElectrodeType('inert'); }}
                       className={`p-3 rounded-xl font-bold text-xs border transition-all ${
-                        electrodeType === 'inert' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400'
+                        electrodeType === 'inert' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
                       Inert (Pt / Carbon)
@@ -1431,7 +1431,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                 <div className="mb-6">
                   <div className="flex justify-between text-xs font-bold mb-2">
                     <span className="text-slate-400 uppercase">DC Current Intensity</span>
-                    <span className="text-cyan-400 font-mono text-sm">{current.toFixed(1)} Amperes</span>
+                    <span className="text-gold-400 font-mono text-sm">{current.toFixed(1)} Amperes</span>
                   </div>
                   <input
                     type="range"
@@ -1440,7 +1440,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                     step="0.5"
                     value={current}
                     onChange={(e) => setCurrent(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1467,7 +1467,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-2 gap-4">
                 <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700/60">
                   <span className="text-[10px] font-bold uppercase text-slate-400">Elapsed Time</span>
-                  <p className="text-xl font-mono font-bold text-cyan-400">{elapsedSeconds} s</p>
+                  <p className="text-xl font-mono font-bold text-gold-400">{elapsedSeconds} s</p>
                 </div>
                 <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700/60">
                   <span className="text-[10px] font-bold uppercase text-slate-400">Deposited Mass (Faraday)</span>
@@ -1480,7 +1480,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                 <h4 className="text-xs font-bold uppercase text-slate-400 tracking-wider">Guided Interactive Labs</h4>
                 {EXPLORATION_STEPS.map((step, idx) => (
                   <div key={idx} className="bg-slate-800/50 p-3 rounded-xl border border-slate-700/40 text-xs">
-                    <span className="font-bold text-cyan-400">{step.title}</span>
+                    <span className="font-bold text-gold-400">{step.title}</span>
                     <p className="text-slate-300 mt-1">{step.instruction}</p>
                   </div>
                 ))}
@@ -1517,7 +1517,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
 
               {/* MANDATORY OBSERVATION QUESTIONS SECTION */}
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-                <h3 className="text-lg font-bold text-cyan-400 mb-4">Lab Observations</h3>
+                <h3 className="text-lg font-bold text-gold-400 mb-4">Lab Observations</h3>
                 <div className="space-y-4">
                   {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
                     <div key={oIdx} className="bg-slate-800/50 p-4 rounded-xl border border-slate-700/50 text-xs">
@@ -1562,7 +1562,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
             {/* Challenge Progress Header */}
             <div className="flex justify-between items-center mb-6 border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-extrabold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-extrabold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
@@ -1598,13 +1598,13 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                     onClick={() => { audioManager.play('tap'); setUserMcqOption(idx); }}
                     className={`w-full text-left p-4 rounded-xl border font-medium text-sm transition-all ${
                       userMcqOption === idx
-                        ? 'bg-cyan-950/60 border-cyan-500 text-white shadow-lg'
+                        ? 'bg-gold-950/60 border-gold-500 text-white shadow-lg'
                         : 'bg-slate-800/60 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
                     <div className="flex items-center gap-3">
                       <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold ${
-                        userMcqOption === idx ? 'bg-cyan-500 text-slate-950' : 'bg-slate-700 text-slate-300'
+                        userMcqOption === idx ? 'bg-gold-500 text-slate-950' : 'bg-slate-700 text-slate-300'
                       }`}>
                         {String.fromCharCode(65 + idx)}
                       </span>
@@ -1627,10 +1627,10 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                     value={userNumInput}
                     onChange={(e) => setUserNumInput(e.target.value)}
                     placeholder="Type value..."
-                    className="bg-slate-800 border border-slate-700 text-white font-mono text-lg rounded-xl p-4 w-64 focus:outline-none focus:border-cyan-500"
+                    className="bg-slate-800 border border-slate-700 text-white font-mono text-lg rounded-xl p-4 w-64 focus:outline-none focus:border-gold-500"
                   />
                   {activeChallenge.unit && (
-                    <span className="text-lg font-bold text-cyan-400">{activeChallenge.unit}</span>
+                    <span className="text-lg font-bold text-gold-400">{activeChallenge.unit}</span>
                   )}
                 </div>
               </div>
@@ -1642,7 +1642,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                 <p className="text-xs font-bold text-slate-400 uppercase">Click or reorder items into correct sequence:</p>
                 {userSortOrder.map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3 bg-slate-800 p-3 rounded-xl border border-slate-700">
-                    <span className="w-6 h-6 rounded-full bg-cyan-600 text-white flex items-center justify-center text-xs font-bold">
+                    <span className="w-6 h-6 rounded-full bg-gold-600 text-white flex items-center justify-center text-xs font-bold">
                       {idx + 1}
                     </span>
                     <span className="text-sm font-semibold text-slate-200 flex-1">{item}</span>
@@ -1685,7 +1685,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                 <p className="text-xs font-bold text-slate-400 uppercase">Match left column items to right column options:</p>
                 {activeChallenge.matchingPairs.map((pair, idx) => (
                   <div key={idx} className="grid grid-cols-1 md:grid-cols-2 gap-3 bg-slate-800/60 p-4 rounded-xl border border-slate-700">
-                    <div className="text-sm font-bold text-cyan-300 flex items-center">{pair.left}</div>
+                    <div className="text-sm font-bold text-gold-300 flex items-center">{pair.left}</div>
                     <select
                       disabled={challengeStatus !== 'unanswered'}
                       value={userMatching[pair.left] || ''}
@@ -1707,7 +1707,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               {challengeStatus === 'unanswered' ? (
                 <button
                   onClick={handleCheckChallenge}
-                  className="w-full py-4 bg-cyan-600 hover:bg-cyan-500 text-white font-extrabold text-base rounded-xl shadow-lg transition-all"
+                  className="w-full py-4 bg-gold-600 hover:bg-gold-500 text-white font-extrabold text-base rounded-xl shadow-lg transition-all"
                 >
                   Submit Answer
                 </button>
@@ -1754,7 +1754,7 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
 
             {/* Common Misconceptions Matrix */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4">ICSE Electrolysis Misconception Corrections</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">ICSE Electrolysis Misconception Corrections</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map((item) => (
                   <div key={item.id} className="bg-slate-800/40 border border-slate-700/50 p-4 rounded-xl space-y-2">
@@ -1780,9 +1780,9 @@ export default function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                     <div key={nodeId} className="bg-slate-800/60 border border-slate-700 p-3 rounded-xl text-center">
                       <span className="text-[10px] font-mono font-bold text-slate-400 uppercase">{nodeId}</span>
                       <div className="w-full bg-slate-700 h-2 rounded-full my-2 overflow-hidden">
-                        <div className="bg-cyan-500 h-full transition-all duration-500" style={{ width: `${perc}%` }} />
+                        <div className="bg-gold-500 h-full transition-all duration-500" style={{ width: `${perc}%` }} />
                       </div>
-                      <span className="text-xs font-bold text-cyan-400 font-mono">{perc}% Mastery</span>
+                      <span className="text-xs font-bold text-gold-400 font-mono">{perc}% Mastery</span>
                     </div>
                   );
                 })}

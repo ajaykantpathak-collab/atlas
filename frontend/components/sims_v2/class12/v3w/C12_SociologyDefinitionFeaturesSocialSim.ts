@@ -11,7 +11,7 @@ export const w_c12_sociologydefinitionfeaturessocialsim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'Social Movements: Definition, Features and the Difference from Collective Behaviour',
     chapters: [],
     nodeIds: ['c12_soc_cbse_15_001', 'c12_soc_cbse_15_011', 'c12_soc_cbse_03_001', 'c12_soc_cbse_09_001', 'c12_soc_cbse_13_002', 'c12_soc_cbse_01_008', 'c12_soc_cbse_10_001', 'c12_soc_cbse_10_002', 'c12_soc_cbse_01_001', 'c12_soc_cbse_04_004', 'c12_soc_cbse_04_001', 'c12_soc_cbse_03_002', 'c12_soc_cbse_03_006', 'c12_soc_cbse_03_010', 'c12_soc_cbse_09_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin by asking students: "You enjoy an 8-hour workday, weekends off, and the right to vote — did these just.', goal: 'Master Social Movements: Definition, Features and the Difference from Collective Behaviour.' },
     discovery: {
         question: 'Critique the statement: “Purity and pollution are merely religious beliefs; they have no material consequences for caste hierarchy today.” Use the NCERT link.',
@@ -20,7 +20,7 @@ export const w_c12_sociologydefinitionfeaturessocialsim: SimDef = {
         hook: 'Students often equate **varna** with **caste** and **jati** with **sub-caste**, assuming varna is the “real” caste and.',
     },
     teaching: [
-        { title: 'A social movement is a sustained, organised.', text: 'A social movement is a sustained, organised collective action with shared objectives and ideology that aims to bring about or prevent change in society, often by challenging state policies or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A social movement is a sustained, organised.', text: 'A social movement is a sustained, organised collective action with shared objectives and ideology that aims to bring about or prevent change in society, often by challenging state policies or.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_15_001', title: 'A social movement is a sustained,.',

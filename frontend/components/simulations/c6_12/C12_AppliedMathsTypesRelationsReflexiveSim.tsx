@@ -1202,12 +1202,12 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-white via-indigo-200 to-purple-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-white via-gold-200 to-purple-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">
@@ -1226,14 +1226,14 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-400'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/60 border-blue-500 text-blue-400'
+                ? 'bg-gold-950/60 border-gold-500 text-gold-400'
                 : 'bg-purple-950/60 border-purple-500 text-purple-400'
             }`}
           >
             {difficulty} Tier
           </motion.span>
           <span className="text-xs bg-slate-900 border border-slate-800 px-3 py-1 rounded-full text-slate-300">
-            Phase: <strong className="text-indigo-400 uppercase">{phase}</strong>
+            Phase: <strong className="text-gold-400 uppercase">{phase}</strong>
           </span>
         </div>
       </motion.header>
@@ -1246,9 +1246,9 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
           height={64}
           className="w-full h-16 block"
         />
-        <div className="absolute inset-0 flex items-center justify-between px-4 pointer-events-none text-xs text-indigo-300/80 font-mono">
+        <div className="absolute inset-0 flex items-center justify-between px-4 pointer-events-none text-xs text-gold-300/80 font-mono">
           <span className="flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-indigo-500 animate-ping inline-block" />
+            <span className="w-2 h-2 rounded-full bg-gold-500 animate-ping inline-block" />
             ISRO Neural Telemetry Waveform Engine
           </span>
           <span className="hidden sm:inline">Active Nodes: (Reflexive • Bijective • Inverse Trig)</span>
@@ -1264,13 +1264,13 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
           className="my-6 space-y-6"
         >
           {/* Narrative Scenario Hero */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/40 via-slate-900 to-purple-950/30 border border-indigo-900/50 shadow-inner">
-            <span className="text-xs font-bold uppercase tracking-widest text-indigo-400">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/40 via-slate-900 to-purple-950/30 border border-gold-900/50 shadow-inner">
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-400">
               🛰️ Mission Scenario
             </span>
             <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-3 italic">{SCENARIO.context}</p>
           </div>
 
           {/* Discovery Curiosity Question */}
@@ -1300,10 +1300,10 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">
+                  <span className="font-bold mr-2 text-gold-400">
                     {String.fromCharCode(65 + i)}.
                   </span>
                   {opt}
@@ -1330,7 +1330,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-500/25 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-xl font-bold shadow-lg shadow-gold-500/25 flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1349,7 +1349,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
         >
           {/* Lab Step Stepper Header */}
           <div className="flex flex-wrap items-center justify-between gap-2 p-3 bg-slate-900/80 rounded-xl border border-slate-800">
-            <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+            <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1359,7 +1359,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                   onClick={() => setCurrentSlide(idx)}
                   className={`w-3 h-3 rounded-full transition-all ${
                     idx === currentSlide
-                      ? 'bg-indigo-500 w-8'
+                      ? 'bg-gold-500 w-8'
                       : idx < currentSlide
                       ? 'bg-emerald-500'
                       : 'bg-slate-700'
@@ -1392,8 +1392,8 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                 <div className="space-y-6">
                   {/* PREDICT-THEN-CHECK IN LAB 1 */}
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
-                      <span className="text-xs font-bold text-indigo-400 uppercase">
+                    <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
+                      <span className="text-xs font-bold text-gold-400 uppercase">
                         Predict-then-Check Challenge
                       </span>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1447,7 +1447,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                                 className={`h-12 rounded-lg font-mono text-xs flex items-center justify-center border transition-all ${
                                   relMatrix[r][c]
                                     ? r === c
-                                      ? 'bg-indigo-600 border-indigo-400 text-white shadow-md shadow-indigo-500/30 font-bold'
+                                      ? 'bg-gold-600 border-gold-400 text-white shadow-md shadow-gold-500/30 font-bold'
                                       : 'bg-purple-600 border-purple-400 text-white font-bold'
                                     : 'bg-slate-900 border-slate-800 text-slate-600 hover:border-slate-700'
                                 }`}
@@ -1602,7 +1602,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       animate={{ opacity: 1 }}
                       className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3"
                     >
-                      <span className="text-xs font-bold text-cyan-400 uppercase">
+                      <span className="text-xs font-bold text-gold-400 uppercase">
                         Scientific Observation Check
                       </span>
                       <p className="text-sm text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
@@ -1640,7 +1640,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => handleSetRelationPreset('identity')}
-                      className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-sm font-semibold text-indigo-300"
+                      className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-sm font-semibold text-gold-300"
                     >
                       Preset: Identity Relation (I_A)
                     </motion.button>
@@ -1667,11 +1667,11 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     </div>
 
                     <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
-                      <div className="text-sm font-bold text-indigo-400">Identity Relation (I_A)</div>
+                      <div className="text-sm font-bold text-gold-400">Identity Relation (I_A)</div>
                       <p className="text-xs text-slate-400 leading-relaxed">
                         Contains exactly <strong>n = 3 diagonal pairs</strong>: (a,a). Every element is related ONLY to itself. It is the minimal equivalence relation on A.
                       </p>
-                      <div className="text-xs font-mono text-indigo-300 bg-slate-900 p-2 rounded">
+                      <div className="text-xs font-mono text-gold-300 bg-slate-900 p-2 rounded">
                         I_A = {'{(1,1), (2,2), (3,3)}'}
                       </div>
                     </div>
@@ -1700,7 +1700,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       </h4>
                       {[1, 2, 3].map((inp) => (
                         <div key={inp} className="flex items-center justify-between gap-3 bg-slate-900 p-2.5 rounded-lg">
-                          <span className="text-xs font-bold text-indigo-300">Input {inp} →</span>
+                          <span className="text-xs font-bold text-gold-300">Input {inp} →</span>
                           <div className="flex gap-2">
                             {['A', 'B', 'C'].map((tgt) => (
                               <button
@@ -1708,7 +1708,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                                 onClick={() => handleArrowTargetChange(inp, tgt)}
                                 className={`px-3 py-1 rounded text-xs font-bold transition-all ${
                                   arrowMappings[inp] === tgt
-                                    ? 'bg-indigo-600 text-white shadow-sm'
+                                    ? 'bg-gold-600 text-white shadow-sm'
                                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                                 }`}
                               >
@@ -1778,7 +1778,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                           step="0.5"
                           value={lineSlope}
                           onChange={(e) => setLineSlope(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1792,7 +1792,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                           step="1"
                           value={lineIntercept}
                           onChange={(e) => setLineIntercept(parseInt(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1811,7 +1811,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono">
-                        <div className="text-indigo-400">
+                        <div className="text-gold-400">
                           f(x) = {lineSlope}x {lineIntercept >= 0 ? `+ ${lineIntercept}` : `- ${Math.abs(lineIntercept)}`}
                         </div>
                         <div className="text-pink-400">
@@ -1892,7 +1892,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                         })()}
                       </svg>
                       <div className="flex justify-between text-[11px] text-slate-400 mt-2 px-2">
-                        <span className="text-indigo-400 font-bold">● Function f(x)</span>
+                        <span className="text-gold-400 font-bold">● Function f(x)</span>
                         <span className="text-slate-400 font-bold">--- Mirror Line y = x</span>
                         <span className="text-pink-400 font-bold">● Inverse f⁻¹(x)</span>
                       </div>
@@ -1935,7 +1935,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                               sin(θ) = {sinVal.toFixed(3)} ⟹ <span className="text-emerald-400 font-bold">sin⁻¹(val) = {principalSinDeg.toFixed(1)}° ∈ [-90°, +90°]</span>
                             </div>
                             <div className="text-slate-300">
-                              cos(θ) = {cosVal.toFixed(3)} ⟹ <span className="text-cyan-400 font-bold">cos⁻¹(val) = {principalCosDeg.toFixed(1)}° ∈ [0°, 180°]</span>
+                              cos(θ) = {cosVal.toFixed(3)} ⟹ <span className="text-gold-400 font-bold">cos⁻¹(val) = {principalCosDeg.toFixed(1)}° ∈ [0°, 180°]</span>
                             </div>
                             <div className="text-amber-300 pt-1 border-t border-slate-800">
                               Complementary Check: sin⁻¹(x) + cos⁻¹(x) = {(principalSinDeg + principalCosDeg).toFixed(1)}° = 90° (π/2 rad)
@@ -2002,7 +2002,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-500/20"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-500/20"
               >
                 Next Lab →
               </motion.button>
@@ -2049,7 +2049,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     onClick={() => setSandboxTab(tab.id as any)}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                       sandboxTab === tab.id
-                        ? 'bg-indigo-600 text-white'
+                        ? 'bg-gold-600 text-white'
                         : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                     }`}
                   >
@@ -2071,7 +2071,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                           onClick={() => handleToggleMatrixCell(r, c)}
                           className={`h-12 rounded-lg font-mono text-xs border ${
                             relMatrix[r][c]
-                              ? 'bg-indigo-600 border-indigo-400 text-white font-bold'
+                              ? 'bg-gold-600 border-gold-400 text-white font-bold'
                               : 'bg-slate-900 border-slate-800 text-slate-600'
                           }`}
                         >
@@ -2103,7 +2103,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                   <div className="flex justify-around">
                     {[1, 2, 3].map((inp) => (
                       <div key={inp} className="text-center space-y-2">
-                        <span className="text-xs font-bold text-indigo-400">Domain {inp}</span>
+                        <span className="text-xs font-bold text-gold-400">Domain {inp}</span>
                         <div className="flex flex-col gap-1">
                           {['A', 'B', 'C'].map((tgt) => (
                             <button
@@ -2140,9 +2140,9 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     step="0.5"
                     value={lineSlope}
                     onChange={(e) => setLineSlope(parseFloat(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
-                  <p className="text-xs text-indigo-300 font-mono text-center">
+                  <p className="text-xs text-gold-300 font-mono text-center">
                     f(x) = {lineSlope}x ⟺ f⁻¹(x) = x / {lineSlope} (Reflected across y = x)
                   </p>
                 </div>
@@ -2172,7 +2172,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-8 py-3 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white rounded-xl font-bold shadow-xl shadow-purple-500/25"
+                className="px-8 py-3 bg-gradient-to-r from-gold-600 via-purple-600 to-pink-600 text-white rounded-xl font-bold shadow-xl shadow-purple-500/25"
               >
                 Ready for Assessment Challenges! 🎯 →
               </motion.button>
@@ -2194,13 +2194,13 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
               <span className="text-slate-400">
                 Challenge <strong>{currentChallenge + 1}</strong> of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-gold-400 font-bold uppercase tracking-wider">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
                 animate={{
                   width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
                 }}
@@ -2229,7 +2229,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
               <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider uppercase bg-slate-800 border border-slate-700 text-slate-300">
                 Type: {activeChallenge.type}
               </span>
-              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider uppercase bg-indigo-950 border border-indigo-700 text-indigo-300">
+              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wider uppercase bg-gold-950 border border-gold-700 text-gold-300">
                 {activeChallenge.difficulty}
               </span>
             </div>
@@ -2258,10 +2258,10 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       className={`text-left p-4 rounded-xl border text-sm transition-all ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-500/20'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">
+                      <span className="font-bold mr-2 text-gold-400">
                         {String.fromCharCode(65 + i)}.
                       </span>
                       {opt}
@@ -2282,7 +2282,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2313,7 +2313,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Label Mappings
                 </motion.button>
@@ -2342,7 +2342,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-600/30 text-indigo-300 flex items-center justify-center font-bold">
+                    <span className="w-6 h-6 rounded-full bg-gold-600/30 text-gold-300 flex items-center justify-center font-bold">
                       {displayIdx + 1}
                     </span>
                     {item}
@@ -2360,7 +2360,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                         : activeChallenge.sortItems!.map((_, i) => i)
                     )
                   }
-                  className="px-5 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Confirm Sorted Sequence
                 </motion.button>
@@ -2376,7 +2376,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none w-64"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none w-64"
                   />
                   <span className="text-sm text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2385,7 +2385,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Submit Value
                   </motion.button>
@@ -2404,7 +2404,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 border border-slate-700 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2415,7 +2415,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 rounded-lg bg-indigo-600/30 border border-indigo-500 text-indigo-200 text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 rounded-lg bg-gold-600/30 border border-gold-500 text-gold-200 text-xs font-mono flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2441,7 +2441,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-5 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Constructed Expression
                 </motion.button>
@@ -2453,9 +2453,9 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 rounded-2xl bg-indigo-950/40 border border-indigo-700/60 space-y-3"
+                className="mt-6 p-5 rounded-2xl bg-gold-950/40 border border-gold-700/60 space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 text-sm font-bold">
+                <div className="flex items-center gap-2 text-gold-300 text-sm font-bold">
                   <span>📖 Step-by-Step Rigorous Proof</span>
                 </div>
 
@@ -2468,9 +2468,9 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                       key={idx}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-xs md:text-sm text-indigo-100 leading-relaxed"
+                      className="text-xs md:text-sm text-gold-100 leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono">Step {idx + 1}:</strong>{' '}
+                      <strong className="text-gold-400 font-mono">Step {idx + 1}:</strong>{' '}
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2482,7 +2482,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                   >
                     Reveal Next Logical Step →
                   </motion.button>
@@ -2517,7 +2517,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
           className="my-6 space-y-6"
         >
           {/* Hero Score Banner */}
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 border border-indigo-800 text-center space-y-4 shadow-2xl">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 border border-gold-800 text-center space-y-4 shadow-2xl">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2538,7 +2538,7 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                 <span className="text-slate-400 block text-xs">Mastery Level</span>
-                <strong className="text-indigo-300 text-lg uppercase">{masteryLevel}</strong>
+                <strong className="text-gold-300 text-lg uppercase">{masteryLevel}</strong>
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                 <span className="text-slate-400 block text-xs">Errors Logged</span>
@@ -2595,8 +2595,8 @@ export function C12_AppliedMathsTypesRelationsReflexiveSim({
           </div>
 
           {/* Real World ISRO Capstone Project */}
-          <div className="p-6 rounded-2xl bg-indigo-950/30 border border-indigo-900/60 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 rounded-2xl bg-gold-950/30 border border-gold-900/60 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="p-3 bg-slate-950 rounded-xl space-y-1 text-xs font-mono text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

@@ -88,6 +88,15 @@ function TeacherDashboardContent() {
             {updatedAt ? (
               <span className="hidden text-[11px] text-white/35 sm:block">Updated {updatedAt}</span>
             ) : null}
+            {/* P5 gap 2 wiring: /paper-lab builds class tests from the same
+                board_questions bank — a teacher tool that had no inbound link
+                anywhere in the teacher suite. */}
+            <a
+              href="/paper-lab"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-gold-500/30 bg-gold-500/10 px-3 py-1.5 text-xs font-semibold text-gold-300 transition-colors hover:bg-gold-500/20"
+            >
+              Paper Lab — build a class test
+            </a>
             <button
               onClick={refresh}
               className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-white/70 transition-colors hover:bg-white/10"
@@ -127,6 +136,17 @@ function TeacherDashboardContent() {
 
       {/* 5 — misconceptions leaderboard + socratic stats */}
       <Section index={4}>
+        {/* Deep view — the full Misconception Lab (trap heatmap + one-click
+            remediation bundles). Without this link the lab page was only
+            reachable by typing its URL. */}
+        <div className="mt-4 flex justify-end">
+          <a
+            href="/teacher-misconceptions"
+            className="text-xs font-semibold text-amber-300/90 hover:text-amber-200 transition-colors"
+          >
+            Open the full Misconception Lab →
+          </a>
+        </div>
         <div className="mt-6 grid grid-cols-1 items-start gap-6 xl:grid-cols-2">
           <Misconceptions refreshKey={refreshKey} />
           <SocraticStats refreshKey={refreshKey} />

@@ -181,7 +181,7 @@ export default function C11_BiologyNeuronSynapseSim() {
             {row('reference', ion === 'K' ? 'K⁺ ≈ −89 mV' : 'Na⁺ ≈ +67 mV')}
             <div className="mt-1 border-t border-white/10 pt-1 text-[10px] text-surface-500">conduction</div>
             {row('mode', myelin ? 'myelinated · saltatory' : 'unmyelinated · continuous')}
-            {row('speed v', `${m.v} m/s`, 'text-cyan-300')}
+            {row('speed v', `${m.v} m/s`, 'text-gold-300')}
             {row('time over 1 m', m.travelMs >= 1000 ? `${(m.travelMs / 1000).toFixed(1)} s` : `${m.travelMs.toFixed(0)} ms`, 'text-gold-300')}
           </div>
         </div>

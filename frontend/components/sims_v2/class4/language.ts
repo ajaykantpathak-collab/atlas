@@ -10,7 +10,7 @@ export const c4EngPreposition: SimDef = {
     id: 'c4_eng_prep', title: 'In, On, Under, Behind', subtitle: 'Position words!',
     classLevel: 4, subject: 'english', topic: 'Prepositions',
     chapters: ['Marigold-4: prepositions'],
-    emoji: '📍', theme: { bg: 'from-sky-100 to-cyan-200', accent: 'sky', scene: 'prep' },
+    emoji: '📍', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'prep' },
     scenario: { role: "a position-placer", intro: "In, on, under, behind — place things precisely!", goal: "Use prepositions." },
     discovery: {
         question: "Is the cat 'on' the box or 'in' the box - does one word change everything?",
@@ -19,9 +19,9 @@ export const c4EngPreposition: SimDef = {
         hook: "Position words matter! Let's learn in, on, under, behind.",
     },
     teaching: [
-        { title: 'Where Is It? 📍', text: 'Prepositions tell WHERE: the cat is ON the mat, UNDER the table, BEHIND the door, IN the box!', emoji: '📍', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Where Is It? 📍', text: 'Prepositions tell WHERE: the cat is ON the mat, UNDER the table, BEHIND the door, IN the box!', emoji: '📍', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'In, On, Under 📦', text: 'IN = inside. ON = touching the top. UNDER = below. Each shows a different position!', emoji: '📦', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Behind, Between, Beside ↔️', text: 'BEHIND = at the back. BETWEEN = in the middle of two. BESIDE = next to!', emoji: '↔️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Behind, Between, Beside ↔️', text: 'BEHIND = at the back. BETWEEN = in the middle of two. BESIDE = next to!', emoji: '↔️', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'match', prompt: 'Match the position word!', labels: ['the cat is ___ the box', 'in', 'the ball is ___ the table', 'under', 'the picture is ___ the wall', 'on'] },
 challenges: [
@@ -46,7 +46,7 @@ export const c4EngConj: SimDef = {
     id: 'c4_eng_conj', title: 'And, But, Or, Because', subtitle: 'Joining words!',
     classLevel: 4, subject: 'english', topic: 'Conjunctions',
     chapters: ['Marigold-4: conjunctions'],
-    emoji: '🔗', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'conj' },
+    emoji: '🔗', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'conj' },
     scenario: { role: "a sentence-joiner", intro: "And, but, or, because — join ideas!", goal: "Connect every sentence." },
     discovery: {
         question: "Can you join 'I like tea' and 'I like coffee' into one sentence?",
@@ -55,7 +55,7 @@ export const c4EngConj: SimDef = {
         hook: "And, but, or, because join ideas! Let's learn.",
     },
     teaching: [
-        { title: 'Joining Words! 🔗', text: 'Conjunctions join words and sentences: "I like tea AND coffee." "I am tired BUT happy."', emoji: '🔗', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Joining Words! 🔗', text: 'Conjunctions join words and sentences: "I like tea AND coffee." "I am tired BUT happy."', emoji: '🔗', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'And = Add ➕', text: 'AND adds ideas: "She sings and dances." BUT shows contrast: "Small but strong."', emoji: '➕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Or = Choice, Because = Reason 🔀', text: 'OR gives a choice: "Tea or milk?" BECAUSE gives a reason: "I stayed home because it rained."', emoji: '🔀', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -92,7 +92,7 @@ export const c4HinVilom: SimDef = {
     },
     teaching: [
         { title: 'विलोम = उल्टे शब्द ↔️', text: 'Vilom words are opposites: बड़ा ↔ छोटा, दिन ↔ रात, ऊपर ↔ नीचे!', emoji: '↔️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Opposites Are Everywhere 🌗', text: 'गरम ↔ ठंडा, खुश ↔ दुखी, आगे ↔ पीछे — pairs of opposite words!', emoji: '🌗', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Opposites Are Everywhere 🌗', text: 'गरम ↔ ठंडा, खुश ↔ दुखी, आगे ↔ पीछे — pairs of opposite words!', emoji: '🌗', bgColor: 'from-gold-400 to-gold-500' },
     ],
     // lexicon-driven: fresh opposite questions each run
     generate: {
@@ -130,7 +130,7 @@ export const c4HinVisheshan: SimDef = {
     },
     teaching: [
         { title: 'विशेषण = बताने वाले 🏷️', text: 'Visheshan describes a noun: "लाल फूल" (red flower), "बड़ा घर" (big house)!', emoji: '🏷️', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Kinds of Visheshan 🎨', text: 'Colour (लाल), size (बड़ा), number (तीन), quality (अच्छा) — all describe the noun!', emoji: '🎨', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Kinds of Visheshan 🎨', text: 'Colour (लाल), size (बड़ा), number (तीन), quality (अच्छा) — all describe the noun!', emoji: '🎨', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'match', prompt: 'विशेषण मिलाओ!', labels: ['लाल', 'गुलाब', 'बड़ा', 'घर', 'मीठा', 'आम'] },
 challenges: [
@@ -162,7 +162,7 @@ export const c4EngParagraph: SimDef = {
     },
     teaching: [
         { title: 'Sentences Build a Paragraph! 📝', text: 'A paragraph is sentences about ONE idea, in order: first the main idea, then details!', emoji: '📝', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Main Idea First 💡', text: 'Start with the main idea: "My dog is my best friend." Then add details about WHY!', emoji: '💡', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Main Idea First 💡', text: 'Start with the main idea: "My dog is my best friend." Then add details about WHY!', emoji: '💡', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Details Support 🔍', text: 'Details explain the main idea: "He plays with me. He waits for me. He is loyal."', emoji: '🔍', bgColor: 'from-amber-400 to-orange-500' },
     ],
         explore: { widget: 'order', prompt: 'Order the sentences into a paragraph!', labels: ['Morning is the best time to study', 'The mind is fresh', 'We can learn fast', 'So I study early every day'] },

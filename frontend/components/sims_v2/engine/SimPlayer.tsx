@@ -59,7 +59,7 @@ export interface SimPlayerProps {
 function SpeakButton({ text, junior }: { text: string; junior: boolean }) {
     return (
         <button onClick={(e) => { e.stopPropagation(); speechManager.speak(text); }}
-            className={`ml-2 inline-flex items-center justify-center rounded-full bg-sky-100 hover:bg-sky-200 border-2 border-sky-300 transition ${junior ? 'w-10 h-10 text-lg' : 'w-8 h-8 text-sm'}`}
+            className={`ml-2 inline-flex items-center justify-center rounded-full bg-gold-100 hover:bg-gold-200 border-2 border-gold-300 transition ${junior ? 'w-10 h-10 text-lg' : 'w-8 h-8 text-sm'}`}
             aria-label="Read aloud">🔊</button>
     );
 }
@@ -95,16 +95,16 @@ function TeachScreen({ def, junior, onDone }: { def: SimDef; junior: boolean; on
     if (recalling && junior && def.reflect?.prompts?.length) {
         return (
             <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
-                className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-sky-500 to-blue-600 shadow-2xl max-w-lg w-full my-auto">
+                className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-gold-500 to-gold-600 shadow-2xl max-w-lg w-full my-auto">
                 <div className="text-6xl mb-3">🗣️</div>
-                <div className="text-[11px] font-black uppercase tracking-widest text-sky-200 mb-2">Tell me back!</div>
+                <div className="text-[11px] font-black uppercase tracking-widest text-gold-200 mb-2">Tell me back!</div>
                 <h2 className="text-xl font-black text-white mb-5 flex items-center justify-center">
                     {def.reflect.prompts[0]}
                     <SpeakButton text={def.reflect.prompts[0]} junior={junior} />
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
                     <motion.button whileTap={{ scale: 0.95 }} onClick={onDone}
-                        className="px-4 py-3 rounded-2xl font-bold text-sm bg-white text-sky-800 shadow-md hover:bg-sky-50">
+                        className="px-4 py-3 rounded-2xl font-bold text-sm bg-white text-gold-800 shadow-md hover:bg-gold-50">
                         I can say it! 🎤
                     </motion.button>
                     <button onClick={() => setIdx(0)} className="px-4 py-2.5 rounded-2xl font-bold text-sm bg-white/20 text-white/80">
@@ -156,11 +156,11 @@ function IntroCard({ s, def, junior, onDone }: { s: NonNullable<SimDef['scenario
     useEffect(() => { if (junior) speechManager.speak(`${s.intro} ${s.goal}`); }, [s, junior]);
     return (
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}
-            className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-slate-800 to-indigo-900 shadow-2xl max-w-lg w-full my-auto border-4 border-indigo-400/50">
+            className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-slate-800 to-gold-900 shadow-2xl max-w-lg w-full my-auto border-4 border-gold-400/50">
             <div className="text-6xl mb-4 drop-shadow-lg">{def.emoji}</div>
-            <div className="text-[11px] font-black uppercase tracking-widest text-indigo-300 mb-1">You are...</div>
+            <div className="text-[11px] font-black uppercase tracking-widest text-gold-300 mb-1">You are...</div>
             <h2 className="text-2xl font-black text-white mb-3 drop-shadow">{s.role}</h2>
-            <p className="text-base font-semibold text-indigo-100 leading-relaxed mb-2">{s.intro}</p>
+            <p className="text-base font-semibold text-gold-100 leading-relaxed mb-2">{s.intro}</p>
             <p className="text-sm font-bold text-amber-300 mb-6">🎯 {s.goal}</p>
             <motion.button whileTap={{ scale: 0.92 }} onClick={onDone}
                 className="px-8 py-3 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-500 text-white font-black shadow-lg text-lg">
@@ -180,9 +180,9 @@ function DiscoveryCard({ d, junior, onDone }: { d: NonNullable<SimDef['discovery
     const answered = picked !== null;
     return (
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
-            className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-indigo-500 to-violet-600 shadow-2xl max-w-lg w-full my-auto">
+            className="z-10 flex flex-col items-center text-center rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-gold-500 to-gold-600 shadow-2xl max-w-lg w-full my-auto">
             <div className="text-5xl mb-3">🤔</div>
-            <div className="text-[11px] font-black uppercase tracking-widest text-indigo-200 mb-2">First — a question!</div>
+            <div className="text-[11px] font-black uppercase tracking-widest text-gold-200 mb-2">First — a question!</div>
             <h2 className="text-xl font-black text-white mb-5 flex items-center justify-center">{d.question}
                 <SpeakButton text={d.question} junior={junior} /></h2>
             <div className="flex flex-col gap-2 w-full">
@@ -191,7 +191,7 @@ function DiscoveryCard({ d, junior, onDone }: { d: NonNullable<SimDef['discovery
                         onClick={() => { setPicked(opt); audioManager.play(opt === d.answer ? 'success' : 'tap'); }}
                         className={`px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all ${answered
                             ? opt === d.answer ? 'bg-emerald-400 text-white scale-[1.02]' : opt === picked ? 'bg-rose-300 text-white' : 'bg-white/20 text-white/60'
-                            : 'bg-white text-indigo-900 hover:bg-indigo-50'}`}>
+                            : 'bg-white text-gold-900 hover:bg-gold-50'}`}>
                         {opt}
                     </motion.button>
                 ))}
@@ -199,9 +199,9 @@ function DiscoveryCard({ d, junior, onDone }: { d: NonNullable<SimDef['discovery
             <AnimatePresence>
                 {answered && (
                     <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="mt-4 w-full">
-                        <p className="text-indigo-100 font-semibold text-sm mb-3">{d.hook}</p>
+                        <p className="text-gold-100 font-semibold text-sm mb-3">{d.hook}</p>
                         <motion.button whileTap={{ scale: 0.92 }} onClick={onDone}
-                            className="px-8 py-2.5 rounded-2xl bg-white text-indigo-700 font-black shadow-lg">
+                            className="px-8 py-2.5 rounded-2xl bg-white text-gold-700 font-black shadow-lg">
                             Let's learn! 🚀
                         </motion.button>
                     </motion.div>
@@ -1185,7 +1185,7 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                             reveal the scaffold beats already offer. */}
                                         {attempts >= 3 && (
                                             <button onClick={() => setHint(`Expected answer: ${challenge.parts![partIdx].answer}`)}
-                                                className="text-[11px] font-bold text-indigo-500 underline">stuck? show the expected answer</button>
+                                                className="text-[11px] font-bold text-gold-500 underline">stuck? show the expected answer</button>
                                         )}
                                     </div>
                                     )}
@@ -1218,7 +1218,7 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                     const lvl = getMasteryLevel(p);
                                     const colors: Record<string, string> = {
                                         'not-started': 'bg-gray-300', 'beginner': 'bg-red-400',
-                                        'developing': 'bg-amber-400', 'proficient': 'bg-blue-500', 'mastered': 'bg-emerald-500',
+                                        'developing': 'bg-amber-400', 'proficient': 'bg-gold-500', 'mastered': 'bg-emerald-500',
                                     };
                                     // students see the topic name, never the internal node id
                                     const label = def.beats?.find(b => b.nodeId === nid && b.title)?.title
@@ -1289,7 +1289,7 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                             );
                         })()}
 
-                        <a href="/galaxy" className="mt-3 inline-block text-xs font-black text-indigo-400 hover:text-indigo-600 underline">
+                        <a href="/galaxy" className="mt-3 inline-block text-xs font-black text-gold-400 hover:text-gold-600 underline">
                             🌌 see your universe — {nodeIds.length} stars lit
                         </a>
 
@@ -1306,7 +1306,7 @@ export function SimPlayer({ def, mode, width = 720, height = 560, onComplete, on
                                     </p>
                                     {next.map(s => (
                                         <a key={s.id} href={`/sims-v2/${s.id}`}
-                                            className="block w-full mb-1.5 px-4 py-2 rounded-xl bg-indigo-50 border-2 border-indigo-200 text-indigo-800 font-bold text-sm hover:bg-indigo-100 text-center">
+                                            className="block w-full mb-1.5 px-4 py-2 rounded-xl bg-gold-50 border-2 border-gold-200 text-gold-800 font-bold text-sm hover:bg-gold-100 text-center">
                                             {s.t}
                                         </a>
                                     ))}

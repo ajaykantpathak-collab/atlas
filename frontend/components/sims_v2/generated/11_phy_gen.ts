@@ -75,7 +75,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "katex": "pc) = 1/p(arcsec)"
    },
    {
-    "title": "Mass",
+    "title": "Mass Is The Measure",
     "text": "Mass is the measure of the quantity of matter in a body, with the SI unit kilogram (kg) defined by fixing the numerical value of the Planck constant h to be 6.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -239,7 +239,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "The statement is physically impossible. A tape measure to the Moon (3.84×10⁸ m) would have enormous mass, would collapse under its own weight, and cannot be deployed in vacuum",
      "A caesium atomic clock locks an electronic oscillator to the hyperfine transition frequency of caesium-133 atoms (9,192,631,770 Hz)"
     ],
-    "hint": "Straight from the 'Mass' slide -- match the key terms.",
+    "hint": "Straight from the 'Mass is the measure' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"atomic clocks are more precise because they are digital\") reveals lack of understanding of the physical basis of frequency standards and the concept of a primary standard vs a secondary device.",
     "id": "gen_c11_phy_ch01_q6",
     "nodeId": "c11_phy_cbse_01_012",
@@ -368,7 +368,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Acceleration",
+    "title": "Acceleration Is The Rate Of Change",
     "text": "Acceleration is the rate of change of velocity with respect to time. Average acceleration over a time interval Δt is defined as the change in velocity Δv divided by Δt.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -740,7 +740,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS)",
      "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps)"
     ],
-    "hint": "Straight from the 'Acceleration' slide -- match the key terms.",
+    "hint": "Straight from the 'Acceleration is the rate of change' slide -- match the key terms.",
     "misconception": "A poor answer would only measure average acceleration over the whole ramp or confuse speed with acceleration. The key is understanding that instantaneous acceleration requires the limit process or derivative.",
     "id": "gen_c11_phy_ch02_q8",
     "nodeId": "c11_phy_cbse_02_004",
@@ -920,7 +920,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Principle Of Moments States That",
+    "title": "Principle Of Moments",
     "text": "The Principle of Moments states that for a rigid body in rotational equilibrium under the action of coplanar forces, the algebraic sum of the moments (torques) of all forces about any point in the plane is zero; equivalently, the sum of clockwise moments",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1064,7 +1064,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "The claim is incorrect. Mechanical Advantage = Load/Effort = 200/50 = 4 (or Effort arm/Load arm = 0",
      "Maximum weight of stone = 975 N (approx 99.5 kg). Effort arm = 1.5 - 0.2 = 1.3 m, Load arm = 0.2 m"
     ],
-    "hint": "Straight from the 'Principle of Moments states that' slide -- match the key terms.",
+    "hint": "Straight from the 'Principle of Moments' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student either swapped effort and load arms, or forgot to subtract the fulcrum distance from total length to get the effort arm.",
     "id": "gen_c11_phy_ch06_q4",
     "nodeId": "c11_phy_cbse_06_007",
@@ -1157,7 +1157,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "Measure: axle radius r, hanging mass m, time t for mass to fall distance h. Compute linear acceleration a = 2h/t²",
      "The claim is incorrect. Mechanical Advantage = Load/Effort = 200/50 = 4 (or Effort arm/Load arm = 0"
     ],
-    "hint": "Straight from the 'Principle of Moments states that' slide -- match the key terms.",
+    "hint": "Straight from the 'Principle of Moments' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals the student confuses Mechanical Advantage (force multiplication factor) with Velocity Ratio (distance ratio), a common error in simple machines.",
     "id": "gen_c11_phy_ch06_q9",
     "nodeId": "c11_phy_cbse_06_007",
@@ -1322,7 +1322,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "At midpoint: distance to each mass = d/2. V_mid = 2 × (-GM/(d/2)) = -4GM/d. At point on perpendicular bisector at distance d/2 from midpoint: distance to each mass = √((d/2)² +",
      "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))"
     ],
-    "hint": "Straight from the 'gravitational constant \\' slide -- match the key terms.",
+    "hint": "Straight from the 'gravitational constant G' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals confusion between measuring a quantity and needing its value in the formula.",
     "id": "gen_c11_phy_ch07_q2",
     "nodeId": "c11_phy_cbse_07_003",
@@ -1343,7 +1343,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "On the ISS, the torsion wire would not hang vertically under gravity; the bar would float. The apparatus must be mounted on a rigid support with the wire under tension (e",
      "Measure length L of pendulum and time period T for small oscillations. Use T = 2π√(L/g) → g = 4π²L/T²"
     ],
-    "hint": "Straight from the 'acceleration due to gravity  at' slide -- match the key terms.",
+    "hint": "Straight from the 'acceleration due to gravity at' slide -- match the key terms.",
     "misconception": "A poor answer uses free fall with a stopwatch (human reaction time too large) or forgets to square T.",
     "id": "gen_c11_phy_ch07_q3",
     "nodeId": "c11_phy_cbse_07_004",
@@ -1473,7 +1473,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "The claim is incorrect. The twist angle \\( \\theta \\) alone gives the gravitational torque \\( \\tau \\theta \\), but to extract the force \\( F \\) (and hence \\( G \\))",
      "On the ISS, the torsion wire would not hang vertically under gravity; the bar would float. The apparatus must be mounted on a rigid support with the wire under tension (e"
     ],
-    "hint": "Straight from the 'gravitational constant \\' slide -- match the key terms.",
+    "hint": "Straight from the 'gravitational constant G' slide -- match the key terms.",
     "misconception": "A poor answer suggesting \\( G \\) changes in space reveals a deep misconception: confusing the *measurement conditions* (weightlessness) with the *fundamental constant* being measured.",
     "id": "gen_c11_phy_ch07_q8",
     "nodeId": "c11_phy_cbse_07_003",
@@ -1501,22 +1501,22 @@ export const C11_PHY_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "The Acceleration Due To mastered! 🎯",
+  "successLine": "The Acceleration Due mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_phy_ch10",
-  "title": "Temperature",
+  "title": "Temperature Is a Scalar Physical Quantity",
   "subtitle": "Physics · Chapter 10",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Temperature",
+  "topic": "Temperature Is a Scalar Physical Quantity",
   "chapters": [
-   "Physics Ch10: Temperature",
-   "Physics Ch11: Temperature",
-   "Physics Ch12: Temperature"
+   "Physics Ch10: Temperature Is a Scalar Physical Quantity",
+   "Physics Ch11: Temperature Is a Scalar Physical Quantity",
+   "Physics Ch12: Temperature Is a Scalar Physical Quantity"
   ],
   "nodeIds": [
    "c11_phy_cbse_10_002",
@@ -1536,7 +1536,7 @@ export const C11_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Temperature outside the classroom?",
+   "question": "Quick guess -- where do you meet Temperature Is a Scalar Physical outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -1547,7 +1547,7 @@ export const C11_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Temperature",
+    "title": "Temperature Is a Scalar Physical Quantity",
     "text": "Temperature is a scalar physical quantity that quantifies the degree of hotness or coldness of a body on a defined scale; it is measured using a thermometric property (such as volume of a liquid, pressure of a gas, or electrical resistance) that varies",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500",
@@ -1572,13 +1572,13 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Calorimetry",
+    "title": "Calorimetry Is The Experimental Technique",
     "text": "Calorimetry is the experimental technique of measuring heat transfer between bodies in an isolated system based on the principle of conservation of energy: the total heat lost by hotter bodies equals the total heat gained by colder bodies, assuming no heat",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Change Of State",
+    "title": "Change Of State Is a Physical",
     "text": "Change of state is a physical process where matter transitions between solid, liquid, and gas phases due to heat exchange at constant temperature and pressure.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1596,7 +1596,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Convection",
+    "title": "Convection Is a Mode Of Heat",
     "text": "Convection is a mode of heat transfer in fluids (liquids and gases) where thermal energy is transported by the bulk motion of the fluid itself, driven by density differences arising from temperature gradients.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1855,7 +1855,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from",
      "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by"
     ],
-    "hint": "Straight from the 'Calorimetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Calorimetry is the experimental' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement ignores the calorimeter cup (and stirrer) which also absorbs heat.",
     "id": "gen_c11_phy_ch10_q5",
     "nodeId": "c11_phy_cbse_10_008",
@@ -1876,7 +1876,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by",
      "Pressure from the wire lowers the melting point of ice directly below it (water contracts on melting, so increased pressure favours liquid phase)"
     ],
-    "hint": "Straight from the 'Change of state' slide -- match the key terms.",
+    "hint": "Straight from the 'Change of state is a physical' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"wire is hot\" or \"ice evaporates\") shows ignorance of the Clausius-Clapeyron relation and water's anomalous expansion.",
     "id": "gen_c11_phy_ch10_q6",
     "nodeId": "c11_phy_cbse_10_009",
@@ -2023,7 +2023,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "The statement ignores the calorimeter cup (and stirrer) which also absorbs heat. The correct heat balance is: Heat lost by metal = Heat gained by water + Heat gained by",
      "Center heating: Symmetric toroidal roll. Hot water rises in a central plume, spreads radially at the surface, cools, and sinks along the cylindrical walls"
     ],
-    "hint": "Straight from the 'Convection' slide -- match the key terms.",
+    "hint": "Straight from the 'Convection is a mode of heat' slide -- match the key terms.",
     "misconception": "A wrong answer showing sinking at the center for center-heating reveals a failure to visualize the continuity of mass flow (what goes up must come down somewhere).",
     "id": "gen_c11_phy_ch10_q9",
     "nodeId": "c11_phy_cbse_10_013",
@@ -2044,7 +2044,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water",
      "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100"
     ],
-    "hint": "Straight from the 'Temperature' slide -- match the key terms.",
+    "hint": "Straight from the 'Temperature is a scalar physical' slide -- match the key terms.",
     "misconception": "A poor answer would just say \"measure at two points\" — that assumes linearity rather than verifying it.",
     "id": "gen_c11_phy_ch10_q10",
     "nodeId": "c11_phy_cbse_10_002",
@@ -2059,7 +2059,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "(1) Apparatus — two coaxial disks with narrow radial slots offset by a fixed angle and separated by a known distance L, (2) Selection",
      "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water"
     ],
-    "hint": "Straight from the 'Calorimetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Calorimetry is the experimental' slide -- match the key terms.",
     "misconception": "A poor answer uses a non-insulated cup or ignores the spoon's initial temperature.",
     "id": "gen_c11_phy_ch10_q11",
     "nodeId": "c11_phy_cbse_10_008",
@@ -2128,11 +2128,11 @@ export const C11_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about temperature?",
+    "What surprised you about temperature is a scalar physical quantity?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Temperature mastered! 🎯",
+  "successLine": "Temperature Is a Scalar mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2205,7 +2205,7 @@ export const C11_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Beats",
+    "title": "Beats Are The Periodic Waxing",
     "text": "Beats are the periodic waxing and waning of sound intensity that occurs when two harmonic sound waves of slightly different frequencies (ν₁ and ν₂, with |ν₁ - ν₂| ≈ 5-10 Hz) and comparable amplitudes superpose at a point; the beat frequency ν_beat = |ν₁ - ν₂|",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2416,7 +2416,7 @@ export const C11_PHY_GEN: SimDef[] = [
      "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod",
      "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e"
     ],
-    "hint": "Straight from the 'Beats' slide -- match the key terms.",
+    "hint": "Straight from the 'Beats are the periodic waxing' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation",
     "id": "gen_c11_phy_ch14_q6",
     "nodeId": "c11_phy_cbse_14_009",

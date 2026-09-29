@@ -69,11 +69,11 @@ export function C8_MathematicsAlgebraPlaySim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Algebra Play - Balance the See-Saw</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Algebra Play - Balance the See-Saw</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Golden rule:</span> an equation is a balance.
+          <span className="font-bold text-gold-700">Golden rule:</span> an equation is a balance.
           Add, subtract, multiply or divide <span className="font-semibold">both sides</span> by the
           same number and it stays balanced. Use the guess slider to test values - the see-saw tilts
           toward the heavier side. Goal: turn the equation into <span className="font-mono">x = ...</span>
@@ -81,7 +81,7 @@ export function C8_MathematicsAlgebraPlaySim() {
       </div>
 
       {/* See-saw visualization */}
-      <div className="mt-4 p-4 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+      <div className="mt-4 p-4 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
         <svg viewBox="0 0 560 190" className="w-full">
           <polygon points="280,150 260,180 300,180" fill="#78350f" />
           <g transform={`rotate(${-tilt} 280 140)`} style={{ transition: 'transform 400ms ease' }}>
@@ -119,7 +119,7 @@ export function C8_MathematicsAlgebraPlaySim() {
                 <button onClick={() => applySub(k)} disabled={solved} className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-rose-100 text-rose-700 hover:bg-rose-200 disabled:opacity-40 transition-all">
                   -{k}
                 </button>
-                <button onClick={() => applyMul(k)} disabled={solved} className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 disabled:opacity-40 transition-all">
+                <button onClick={() => applyMul(k)} disabled={solved} className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 disabled:opacity-40 transition-all">
                   x{k}
                 </button>
                 <button onClick={() => applyDiv(k)} disabled={solved} className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-amber-100 text-amber-700 hover:bg-amber-200 disabled:opacity-40 transition-all">
@@ -132,9 +132,9 @@ export function C8_MathematicsAlgebraPlaySim() {
             <span>Test guess for x</span>
             <span className="font-mono text-slate-700">{guess}</span>
           </label>
-          <input type="range" min={-10} max={15} value={guess} aria-label="Guess x" onChange={(e) => setGuess(Number(e.target.value))} className="w-full mt-2 accent-sky-600" />
+          <input type="range" min={-10} max={15} value={guess} aria-label="Guess x" onChange={(e) => setGuess(Number(e.target.value))} className="w-full mt-2 accent-gold-600" />
           <div className="mt-3 flex gap-2">
-            <button onClick={() => { setPuz(newPuzzle()); setMoves(0); setSolved(false); setLog(['New puzzle started']); }} className="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 text-white hover:bg-indigo-500 transition-all">
+            <button onClick={() => { setPuz(newPuzzle()); setMoves(0); setSolved(false); setLog(['New puzzle started']); }} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-600 text-white hover:bg-gold-500 transition-all">
               New puzzle
             </button>
           </div>
@@ -144,7 +144,7 @@ export function C8_MathematicsAlgebraPlaySim() {
           <p className="text-xs font-bold text-slate-500 mb-2">MOVE LOG (latest first)</p>
           <div className="font-mono text-sm space-y-1">
             {log.map((l, i) => (
-              <div key={i} className={i === 0 ? 'text-indigo-700 font-bold' : 'text-slate-500'}>
+              <div key={i} className={i === 0 ? 'text-gold-700 font-bold' : 'text-slate-500'}>
                 {l}
               </div>
             ))}

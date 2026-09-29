@@ -24,7 +24,7 @@ export const c7_gram_ch82: SimDef = {
             { id: 's3', label: 'Adjectives describe nouns a TALL', prompt: 'Which idea is this? — Adjectives describe nouns (a TALL building), adverbs describe verbs, adjectives, or other.', answer: 'Adjectives describe nouns a TALL', options: ['Adjectives describe nouns a TALL', 'Beyond aanthe sits the determiner', 'Subordinating conjunctions because although'] }
           ] } },
         { type: 'build', nodeId: 'c7_gram_cbse_82_002', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Clause first → comma; clause second → usually no comma.', 'Pick the subordinator whose job is that logic.', 'Name the logic between the clauses — reason, contrast.'], answer: 'Name the logic between the clauses — reason, contrast. Pick the subordinator whose job is that logic. Clause first → comma; clause second → usually no comma.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Name the logic between the clauses — reason, contrast.', 'Clause first → comma; clause second → usually no comma.', 'Pick the subordinator whose job is that logic.'], answer: 'Name the logic between the clauses — reason, contrast. Pick the subordinator whose job is that logic. Clause first → comma; clause second → usually no comma.' } },
         { type: 'case', nodeId: 'c7_gram_cbse_82_003', title: 'You made it',
           caseStudy: { intro: 'You finished Beyond a/an/the sits the determiner family. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

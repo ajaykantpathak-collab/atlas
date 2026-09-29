@@ -1188,12 +1188,12 @@ export function C11_MathematicsVariousFormsEquationSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800 mb-6"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-widest text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs uppercase font-bold tracking-widest text-gold-400 bg-gold-950 px-2 py-0.5 rounded-full border border-gold-800">
                 ISC Class 11 Mathematics
               </span>
               <motion.span
@@ -1204,7 +1204,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-800'
                     : 'bg-rose-950 text-rose-400 border border-rose-800'
                 }`}
               >
@@ -1222,7 +1222,7 @@ export function C11_MathematicsVariousFormsEquationSim({
               key={p}
               className={`text-xs font-semibold px-2.5 py-1 rounded-lg capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                   : 'bg-slate-900 text-slate-500 border border-slate-800'
               }`}
             >
@@ -1235,8 +1235,8 @@ export function C11_MathematicsVariousFormsEquationSim({
       {/* ─── LIVE ISRO RADAR HTML CANVAS BANNER ─── */}
       <div className="mb-6 p-3 bg-slate-900/70 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
         <div className="flex-1 min-w-[240px]">
-          <h2 className="text-xs font-bold text-cyan-400 uppercase tracking-widest flex items-center gap-1.5">
-            <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+          <h2 className="text-xs font-bold text-gold-400 uppercase tracking-widest flex items-center gap-1.5">
+            <span className="inline-block w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
             ISRO Satellite Radar & Parabolic Telemetry Feed
           </h2>
           <p className="text-xs text-slate-400 mt-1">
@@ -1257,8 +1257,8 @@ export function C11_MathematicsVariousFormsEquationSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚀 Mission Scenario</span>
             </div>
             <h2 className="text-2xl font-black text-white mb-3">{SCENARIO.title}</h2>
@@ -1292,7 +1292,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold text-indigo-400 mr-2">
+                  <span className="font-bold text-gold-400 mr-2">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : discoveryAnswered ? '✗ ' : `${String.fromCharCode(65 + i)}.`}
                   </span>
                   {opt}
@@ -1312,7 +1312,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Launch interactive Cartesian geometry laboratory"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-bold shadow-lg shadow-indigo-500/25 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white rounded-xl font-bold shadow-lg shadow-gold-500/25 flex items-center gap-2"
                 >
                   <span>Launch Interactive Laboratory</span>
                   <span>→</span>
@@ -1329,7 +1329,7 @@ export function C11_MathematicsVariousFormsEquationSim({
           {/* Exploration Navigation Header */}
           <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/90 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1351,7 +1351,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide((s) => s + 1)}
                   aria-label="Next exploration step"
-                  className="px-4 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold shadow-md shadow-indigo-500/30"
+                  className="px-4 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold shadow-md shadow-gold-500/30"
                 >
                   Next Step →
                 </motion.button>
@@ -1618,7 +1618,7 @@ export function C11_MathematicsVariousFormsEquationSim({
 
             {/* Interactive Control Gauges (5 cols) */}
             <div className="lg:col-span-5 bg-slate-900 rounded-2xl p-5 border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                 Real-Time Mathematical Parameters
               </h3>
 
@@ -1628,7 +1628,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Slope (m):</span>
-                      <span className="text-indigo-300 font-bold">{lineSlope.toFixed(2)}</span>
+                      <span className="text-gold-300 font-bold">{lineSlope.toFixed(2)}</span>
                     </label>
                     <input
                       type="range"
@@ -1638,14 +1638,14 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={lineSlope}
                       onChange={(e) => setLineSlope(parseFloat(e.target.value))}
                       aria-label="Adjust slope of line"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>y-Intercept (c):</span>
-                      <span className="text-indigo-300 font-bold">{lineIntercept}</span>
+                      <span className="text-gold-300 font-bold">{lineIntercept}</span>
                     </label>
                     <input
                       type="range"
@@ -1655,7 +1655,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={lineIntercept}
                       onChange={(e) => setLineIntercept(parseInt(e.target.value))}
                       aria-label="Adjust y-intercept of line"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1682,7 +1682,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Track 1 Constant (c₁):</span>
-                      <span className="text-indigo-300 font-bold">{parallelC1}</span>
+                      <span className="text-gold-300 font-bold">{parallelC1}</span>
                     </label>
                     <input
                       type="range"
@@ -1692,14 +1692,14 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={parallelC1}
                       onChange={(e) => setParallelC1(parseInt(e.target.value))}
                       aria-label="Adjust parallel line constant c1"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Track 2 Constant (c₂):</span>
-                      <span className="text-indigo-300 font-bold">{parallelC2}</span>
+                      <span className="text-gold-300 font-bold">{parallelC2}</span>
                     </label>
                     <input
                       type="range"
@@ -1709,7 +1709,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={parallelC2}
                       onChange={(e) => setParallelC2(parseInt(e.target.value))}
                       aria-label="Adjust parallel line constant c2"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1724,8 +1724,8 @@ export function C11_MathematicsVariousFormsEquationSim({
 
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade && (
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800">
-                      <p className="text-xs text-indigo-200 font-bold mb-2">{PREDICTION_QUESTIONS[1].question}</p>
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800">
+                      <p className="text-xs text-gold-200 font-bold mb-2">{PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-2 gap-1.5">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
                           <motion.button
@@ -1760,7 +1760,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       onClick={() => setIsExternalSection(false)}
                       aria-label="Switch to internal division"
                       className={`flex-1 py-1.5 rounded-lg text-xs font-bold border ${
-                        !isExternalSection ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'
+                        !isExternalSection ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'
                       }`}
                     >
                       Internal (m : n)
@@ -1781,7 +1781,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Ratio Weight m:</span>
-                      <span className="text-indigo-300 font-bold">{sectionM}</span>
+                      <span className="text-gold-300 font-bold">{sectionM}</span>
                     </label>
                     <input
                       type="range"
@@ -1790,14 +1790,14 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={sectionM}
                       onChange={(e) => setSectionM(parseInt(e.target.value))}
                       aria-label="Adjust ratio weight m"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Ratio Weight n:</span>
-                      <span className="text-indigo-300 font-bold">{sectionN}</span>
+                      <span className="text-gold-300 font-bold">{sectionN}</span>
                     </label>
                     <input
                       type="range"
@@ -1806,7 +1806,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={sectionN}
                       onChange={(e) => setSectionN(parseInt(e.target.value))}
                       aria-label="Adjust ratio weight n"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1827,7 +1827,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Radius (r):</span>
-                      <span className="text-indigo-300 font-bold">{circleR}</span>
+                      <span className="text-gold-300 font-bold">{circleR}</span>
                     </label>
                     <input
                       type="range"
@@ -1837,14 +1837,14 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={circleR}
                       onChange={(e) => setCircleR(parseFloat(e.target.value))}
                       aria-label="Adjust circle radius r"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Parametric Angle (θ):</span>
-                      <span className="text-indigo-300 font-bold">{circleTheta}°</span>
+                      <span className="text-gold-300 font-bold">{circleTheta}°</span>
                     </label>
                     <input
                       type="range"
@@ -1854,15 +1854,15 @@ export function C11_MathematicsVariousFormsEquationSim({
                       value={circleTheta}
                       onChange={(e) => setCircleTheta(parseInt(e.target.value))}
                       aria-label="Adjust circle parametric angle theta"
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1">
-                    <p className="text-indigo-300">
+                    <p className="text-gold-300">
                       <strong>Standard Form:</strong> (x - {circleH})² + (y - {circleK})² = {(circleR * circleR).toFixed(1)}
                     </p>
-                    <p className="text-sky-300">
+                    <p className="text-gold-300">
                       <strong>Parametric Coordinates:</strong> x = {parametricPoint.x.toFixed(2)}, y = {parametricPoint.y.toFixed(2)}
                     </p>
                   </div>
@@ -1899,15 +1899,15 @@ export function C11_MathematicsVariousFormsEquationSim({
                     <p className="text-rose-400">
                       <strong>Directrix:</strong> x = -{parabolaA}
                     </p>
-                    <p className="text-indigo-300">
+                    <p className="text-gold-300">
                       <strong>Latus Rectum Length:</strong> 4a = {4 * parabolaA} units
                     </p>
                   </div>
 
                   {/* OBSERVATION QUESTION */}
                   {!observationAnswered && (
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800">
-                      <p className="text-xs text-indigo-200 font-bold mb-2">{OBSERVATION_QUESTIONS[1].question}</p>
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800">
+                      <p className="text-xs text-gold-200 font-bold mb-2">{OBSERVATION_QUESTIONS[1].question}</p>
                       <div className="space-y-1">
                         {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1972,7 +1972,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                 onClick={() => setSelectedToolTab(tab.id as any)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                   selectedToolTab === tab.id
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-500/30'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -2023,11 +2023,11 @@ export function C11_MathematicsVariousFormsEquationSim({
                 <>
                   <div>
                     <label className="text-xs text-slate-400">Slope m: {lineSlope}</label>
-                    <input type="range" min={-3} max={3} step={0.1} value={lineSlope} onChange={(e) => setLineSlope(parseFloat(e.target.value))} aria-label="Sandbox slope slider" className="w-full accent-indigo-500" />
+                    <input type="range" min={-3} max={3} step={0.1} value={lineSlope} onChange={(e) => setLineSlope(parseFloat(e.target.value))} aria-label="Sandbox slope slider" className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-xs text-slate-400">Intercept c: {lineIntercept}</label>
-                    <input type="range" min={-5} max={5} value={lineIntercept} onChange={(e) => setLineIntercept(parseInt(e.target.value))} aria-label="Sandbox intercept slider" className="w-full accent-indigo-500" />
+                    <input type="range" min={-5} max={5} value={lineIntercept} onChange={(e) => setLineIntercept(parseInt(e.target.value))} aria-label="Sandbox intercept slider" className="w-full accent-gold-500" />
                   </div>
                 </>
               )}
@@ -2035,7 +2035,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                 <>
                   <div>
                     <label className="text-xs text-slate-400">Radius r: {circleR}</label>
-                    <input type="range" min={1} max={7} value={circleR} onChange={(e) => setCircleR(parseFloat(e.target.value))} aria-label="Sandbox circle radius slider" className="w-full accent-indigo-500" />
+                    <input type="range" min={1} max={7} value={circleR} onChange={(e) => setCircleR(parseFloat(e.target.value))} aria-label="Sandbox circle radius slider" className="w-full accent-gold-500" />
                   </div>
                 </>
               )}
@@ -2061,11 +2061,11 @@ export function C11_MathematicsVariousFormsEquationSim({
               <span>
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="uppercase text-indigo-400">Competency: {challenge.competencyLevel}</span>
+              <span className="uppercase text-gold-400">Competency: {challenge.competencyLevel}</span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2081,7 +2081,7 @@ export function C11_MathematicsVariousFormsEquationSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs font-extrabold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
+              <span className="text-xs font-extrabold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                 {challenge.difficulty}
               </span>
               <span className="text-xs text-slate-500">Node ID: {challenge.nodeId}</span>
@@ -2109,7 +2109,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                           : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">
+                      <span className="font-bold text-gold-400 mr-2">
                         {showExplanation && isCorrectAnswer ? '✓ ' : showExplanation ? '✗ ' : `${String.fromCharCode(65 + i)}.`}
                       </span>
                       {opt}
@@ -2134,7 +2134,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2164,7 +2164,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify diagram label assignments"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-500/25"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-500/25"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2195,7 +2195,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 hover:bg-slate-750 rounded-xl text-sm text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="font-bold text-indigo-400">{displayIdx + 1}.</span>
+                      <span className="font-bold text-gold-400">{displayIdx + 1}.</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2207,7 +2207,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Verify step ordering sequence"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-500/25"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-500/25"
                 >
                   Verify Step Ordering
                 </motion.button>
@@ -2225,7 +2225,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     aria-label={`Enter numerical value in ${challenge.unit || 'units'}`}
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-44"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-44"
                   />
                   <span className="text-slate-400 font-bold text-sm">{challenge.unit}</span>
                   <motion.button
@@ -2234,7 +2234,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit numeric calculation"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold disabled:opacity-40"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2254,7 +2254,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add component ${part}`}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs font-mono font-bold text-indigo-300 border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs font-mono font-bold text-gold-300 border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2263,7 +2263,7 @@ export function C11_MathematicsVariousFormsEquationSim({
 
                 <div className="min-h-[50px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900 text-white text-xs font-mono rounded flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900 text-white text-xs font-mono rounded flex items-center gap-1">
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2283,7 +2283,7 @@ export function C11_MathematicsVariousFormsEquationSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify constructed equation formula"
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Construction
                 </motion.button>
@@ -2351,7 +2351,7 @@ export function C11_MathematicsVariousFormsEquationSim({
             </div>
 
             <p className="text-slate-300 text-sm mb-4">
-              Final Calculated Score: <strong className="text-emerald-400 text-lg">{Math.max(0, 100 - errors * 5)}%</strong> • Adaptive Mastery: <span className="uppercase text-indigo-400 font-bold">{masteryLevel}</span>
+              Final Calculated Score: <strong className="text-emerald-400 text-lg">{Math.max(0, 100 - errors * 5)}%</strong> • Adaptive Mastery: <span className="uppercase text-gold-400 font-bold">{masteryLevel}</span>
             </p>
 
             <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-xs leading-relaxed text-slate-300">
@@ -2383,7 +2383,7 @@ export function C11_MathematicsVariousFormsEquationSim({
           )}
 
           {/* ─── SPACED REPETITION SCHEDULE (SRS VISIBILITY) ─── */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/70 to-purple-950/70 rounded-2xl border border-indigo-700/80 shadow-lg space-y-4">
+          <div className="p-6 bg-gradient-to-r from-gold-950/70 to-purple-950/70 rounded-2xl border border-gold-700/80 shadow-lg space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-2xl" aria-hidden="true">📅</span>
@@ -2391,19 +2391,19 @@ export function C11_MathematicsVariousFormsEquationSim({
                   <h3 className="text-base font-black text-white tracking-wide">
                     Spaced Repetition Schedule (SM-2 Learning System)
                   </h3>
-                  <p className="text-xs text-indigo-300">
+                  <p className="text-xs text-gold-300">
                     Optimized memory consolidation intervals for long-term retention
                   </p>
                 </div>
               </div>
-              <div className="px-3 py-1 bg-indigo-900/80 rounded-full border border-indigo-500/50 text-xs font-bold text-indigo-200">
+              <div className="px-3 py-1 bg-gold-900/80 rounded-full border border-gold-500/50 text-xs font-bold text-gold-200">
                 {errors === 0 ? 'Optimal Memory Phase' : errors <= 3 ? 'Reinforcement Phase' : 'Active Recall Phase'}
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <div className={`p-3 rounded-xl border flex flex-col justify-between ${
-                errors === 0 ? 'bg-indigo-900/40 border-indigo-400 shadow-md ring-1 ring-indigo-400/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
+                errors === 0 ? 'bg-gold-900/40 border-gold-400 shadow-md ring-1 ring-gold-400/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
               }`}>
                 <div className="text-xs font-semibold text-slate-300 flex items-center justify-between">
                   <span>0 Errors (Mastery)</span>
@@ -2416,7 +2416,7 @@ export function C11_MathematicsVariousFormsEquationSim({
               </div>
 
               <div className={`p-3 rounded-xl border flex flex-col justify-between ${
-                errors >= 1 && errors <= 3 ? 'bg-indigo-900/40 border-indigo-400 shadow-md ring-1 ring-indigo-400/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
+                errors >= 1 && errors <= 3 ? 'bg-gold-900/40 border-gold-400 shadow-md ring-1 ring-gold-400/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
               }`}>
                 <div className="text-xs font-semibold text-slate-300 flex items-center justify-between">
                   <span>1–3 Errors (Proficient)</span>
@@ -2429,7 +2429,7 @@ export function C11_MathematicsVariousFormsEquationSim({
               </div>
 
               <div className={`p-3 rounded-xl border flex flex-col justify-between ${
-                errors >= 4 ? 'bg-indigo-900/40 border-indigo-400 shadow-md ring-1 ring-indigo-400/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
+                errors >= 4 ? 'bg-gold-900/40 border-gold-400 shadow-md ring-1 ring-gold-400/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
               }`}>
                 <div className="text-xs font-semibold text-slate-300 flex items-center justify-between">
                   <span>4+ Errors (Review Needed)</span>
@@ -2442,7 +2442,7 @@ export function C11_MathematicsVariousFormsEquationSim({
               </div>
             </div>
 
-            <div className="p-3 bg-slate-950/80 rounded-xl border border-indigo-900/60 text-xs text-indigo-200 flex items-center justify-between">
+            <div className="p-3 bg-slate-950/80 rounded-xl border border-gold-900/60 text-xs text-gold-200 flex items-center justify-between">
               <span>
                 🎯 <strong>Recommended Next Review:</strong>{' '}
                 <strong className="text-amber-300 uppercase">

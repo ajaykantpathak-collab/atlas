@@ -459,7 +459,7 @@ const WilliamsonSimulator: React.FC<WilliamsonSimProps> = ({ onStateChange }) =>
           <select
             value={halide}
             onChange={(e) => setHalide(e.target.value as any)}
-            className="w-full bg-slate-800 border border-slate-600 rounded-lg p-2.5 text-sm font-mono text-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            className="w-full bg-slate-800 border border-slate-600 rounded-lg p-2.5 text-sm font-mono text-gold-300 focus:outline-none focus:ring-2 focus:ring-gold-500"
           >
             {Object.entries(halideNames).map(([key, name]) => (
               <option key={key} value={key}>{name}</option>
@@ -641,7 +641,7 @@ const InterhalogenVseprViewer: React.FC = () => {
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-5 text-white flex flex-col gap-4 shadow-xl">
       <div className="flex justify-between items-center border-b border-slate-700 pb-3">
-        <h3 className="font-bold text-lg text-cyan-400 flex items-center gap-2">
+        <h3 className="font-bold text-lg text-gold-400 flex items-center gap-2">
           <span>📐</span> Interhalogen & Polyhalide Geometry Explorer
         </h3>
         <span className="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">
@@ -656,7 +656,7 @@ const InterhalogenVseprViewer: React.FC = () => {
             key={key}
             onClick={() => handleSelect(key)}
             className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold transition-all ${
-              selectedItem === key ? 'bg-cyan-500 text-slate-950 shadow-md' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              selectedItem === key ? 'bg-gold-500 text-slate-950 shadow-md' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             {key}
@@ -744,7 +744,7 @@ const InterhalogenVseprViewer: React.FC = () => {
 
         {/* Specs Table */}
         <div className="bg-slate-800/80 border border-slate-700 rounded-lg p-4 flex flex-col gap-2 font-mono text-xs">
-          <div className="text-sm font-bold text-cyan-300 border-b border-slate-700 pb-1">
+          <div className="text-sm font-bold text-gold-300 border-b border-slate-700 pb-1">
             {curr.name} ({curr.type})
           </div>
           <div className="flex justify-between">
@@ -765,7 +765,7 @@ const InterhalogenVseprViewer: React.FC = () => {
           </div>
           <div className="flex justify-between">
             <span className="text-slate-400">Molecular Shape:</span>
-            <span className="text-cyan-400 font-bold">{curr.molecularShape}</span>
+            <span className="text-gold-400 font-bold">{curr.molecularShape}</span>
           </div>
           <div className="flex justify-between">
             <span className="text-slate-400">Bond Angle(s):</span>
@@ -900,10 +900,10 @@ const ZwitterionElectrophoresisLab: React.FC = () => {
       <div className="bg-slate-950 border border-slate-800 rounded-lg p-4 relative h-32 flex items-center justify-between px-8">
         {/* Cathode (-) Left */}
         <div className="flex flex-col items-center">
-          <div className="w-4 h-16 bg-blue-600 rounded flex items-center justify-center font-bold text-white text-xs">
+          <div className="w-4 h-16 bg-gold-600 rounded flex items-center justify-center font-bold text-white text-xs">
             -
           </div>
-          <span className="text-[10px] text-blue-400 font-mono font-bold mt-1">CATHODE (-)</span>
+          <span className="text-[10px] text-gold-400 font-mono font-bold mt-1">CATHODE (-)</span>
         </div>
 
         {/* Origin Center Line */}
@@ -992,7 +992,7 @@ const PolymerisationSim: React.FC = () => {
             setMonomerCount(3);
           }}
           className={`flex-1 py-2 rounded-lg font-mono text-xs font-bold transition-all ${
-            mechanism === 'cationic' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+            mechanism === 'cationic' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
           }`}
         >
           Cationic Pathway (BF3 Lewis Acid Initiator)
@@ -1380,7 +1380,7 @@ export default function C12_ChemistryWilliamsonethersynthesisSim() {
             <button
               onClick={() => setActiveLab('interhalogen')}
               className={`flex-1 py-2 text-xs font-bold rounded-lg transition-all ${
-                activeLab === 'interhalogen' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400'
+                activeLab === 'interhalogen' ? 'bg-gold-500 text-slate-950' : 'text-slate-400'
               }`}
             >
               Interhalogens VSEPR
@@ -1493,7 +1493,7 @@ export default function C12_ChemistryWilliamsonethersynthesisSim() {
             ) : (
               <button
                 onClick={handleNextChallenge}
-                className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg transition-all"
+                className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg transition-all"
               >
                 Next Challenge →
               </button>

@@ -1164,7 +1164,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
           animate={{ opacity: 1, scale: 1 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-800 to-indigo-950/60 rounded-2xl border border-emerald-500/30 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-800 to-gold-950/60 rounded-2xl border border-emerald-500/30 shadow-xl">
             <div className="flex items-center gap-2 text-emerald-400 font-bold mb-2">
               <span className="text-xl">🗺️</span>
               <h2 className="text-lg font-bold">{SCENARIO.title}</h2>
@@ -1308,7 +1308,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                         <span>Target Cropping Intensity</span>
-                        <span className="text-indigo-300">{croppingIntensityVal}%</span>
+                        <span className="text-gold-300">{croppingIntensityVal}%</span>
                       </div>
                       <input
                         type="range"
@@ -1317,7 +1317,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                         step={5}
                         value={croppingIntensityVal}
                         onChange={(e) => handleIntensityChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Cropping intensity slider"
                       />
                     </div>
@@ -1352,7 +1352,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                     <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <div className="text-xs font-bold text-slate-400 mb-1 flex justify-between">
                         <span>Hydrogeological Subsurface Profile (Canvas Animation)</span>
-                        <span className="text-sky-400 font-mono">Water Table Depth: {simCalculations.waterTableDepth}m</span>
+                        <span className="text-gold-400 font-mono">Water Table Depth: {simCalculations.waterTableDepth}m</span>
                       </div>
                       <canvas ref={canvasRef} width={480} height={140} className="w-full rounded-lg bg-slate-900 border border-slate-800" />
                     </div>
@@ -1360,7 +1360,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                       <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-700/60 text-center">
                         <div className="text-[11px] text-slate-400">Water Demand</div>
-                        <div className="text-sm md:text-base font-bold text-sky-400 font-mono">{simCalculations.waterDemand} m³</div>
+                        <div className="text-sm md:text-base font-bold text-gold-400 font-mono">{simCalculations.waterDemand} m³</div>
                       </div>
                       <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-700/60 text-center">
                         <div className="text-[11px] text-slate-400">Water Table</div>
@@ -1407,7 +1407,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                       >
                         <div className="font-bold text-sm text-white">{zone.name}</div>
                         <div className="text-xs text-slate-400 mt-1">
-                          <span className="text-amber-300">Soil: </span>{zone.soil} | <span className="text-sky-300">Rain: </span>{zone.rain}
+                          <span className="text-amber-300">Soil: </span>{zone.soil} | <span className="text-gold-300">Rain: </span>{zone.rain}
                         </div>
                         <div className="text-xs text-emerald-300 font-semibold mt-0.5">
                           Dominant Crops: {zone.crops}
@@ -1476,7 +1476,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                         onClick={() => handleFisherySelect('pelagic')}
                         className={`p-3 rounded-xl border text-left text-xs font-bold ${
                           selectedFisheryDepth === 'pelagic'
-                            ? 'bg-sky-900/70 border-sky-400 text-sky-100'
+                            ? 'bg-gold-900/70 border-gold-400 text-gold-100'
                             : 'bg-slate-900 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1489,7 +1489,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                         onClick={() => handleFisherySelect('demersal')}
                         className={`p-3 rounded-xl border text-left text-xs font-bold ${
                           selectedFisheryDepth === 'demersal'
-                            ? 'bg-indigo-900/70 border-indigo-400 text-indigo-100'
+                            ? 'bg-gold-900/70 border-gold-400 text-gold-100'
                             : 'bg-slate-900 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1504,13 +1504,13 @@ function C12_GeographyWaterResourcesIrrigationSim({
                         • <span className="text-amber-300 font-semibold">Kerala:</span> Leading marine fish producer (Kochi Harbour, backwater inshore).
                       </div>
                       <div className="text-slate-300">
-                        • <span className="text-sky-300 font-semibold">Andhra Pradesh:</span> Leading inland fish producer (reservoirs, tanks, aquaculture).
+                        • <span className="text-gold-300 font-semibold">Andhra Pradesh:</span> Leading inland fish producer (reservoirs, tanks, aquaculture).
                       </div>
                     </div>
                   </div>
 
                   <div className="md:col-span-7 bg-slate-950 p-4 rounded-xl border border-slate-800">
-                    <svg viewBox="0 0 400 200" className="w-full rounded-lg bg-gradient-to-b from-sky-900 via-blue-950 to-slate-950 border border-slate-800">
+                    <svg viewBox="0 0 400 200" className="w-full rounded-lg bg-gradient-to-b from-gold-900 via-gold-950 to-slate-950 border border-slate-800">
                       <line x1="0" y1="30" x2="400" y2="30" stroke="#38bdf8" strokeWidth="2" strokeDasharray="6 3" />
                       <text x="30" y="22" fill="#7dd3fc" fontSize="9">Sea Surface</text>
 
@@ -1584,12 +1584,12 @@ function C12_GeographyWaterResourcesIrrigationSim({
                         <div className="text-[9px] text-slate-400">Bhadla (RJ)</div>
                       </div>
                       <div className="p-2 bg-slate-800 rounded-lg">
-                        <div className="text-sky-400 font-bold">Wind</div>
+                        <div className="text-gold-400 font-bold">Wind</div>
                         <div className="font-mono text-slate-200">{selectedEnergyMix.wind}%</div>
                         <div className="text-[9px] text-slate-400">Muppandal</div>
                       </div>
                       <div className="p-2 bg-slate-800 rounded-lg">
-                        <div className="text-blue-400 font-bold">Hydro</div>
+                        <div className="text-gold-400 font-bold">Hydro</div>
                         <div className="font-mono text-slate-200">{selectedEnergyMix.hydro}%</div>
                         <div className="text-[9px] text-slate-400">Bhakra</div>
                       </div>
@@ -1757,14 +1757,14 @@ function C12_GeographyWaterResourcesIrrigationSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 space-y-3">
-              <span className="text-xs font-bold text-sky-400 uppercase">Cropping Intensity</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Cropping Intensity</span>
               <input
                 type="range"
                 min={100}
                 max={250}
                 value={croppingIntensityVal}
                 onChange={(e) => handleIntensityChange(Number(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
                 aria-label="Cropping intensity"
               />
               <div className="text-xs text-slate-400">
@@ -1800,7 +1800,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                 <span className="text-xs font-bold text-slate-400">
                   Question {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-xs px-2 py-0.5 rounded bg-slate-900 text-indigo-300 font-mono border border-slate-700">
+                <span className="text-xs px-2 py-0.5 rounded bg-slate-900 text-gold-300 font-mono border border-slate-700">
                   {challenge.nodeId}
                 </span>
               </div>
@@ -1817,7 +1817,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                 className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40' :
                   difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' :
-                  'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                  'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                 }`}
               >
                 {difficulty} Tier
@@ -1830,7 +1830,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700/60">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -1886,7 +1886,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2109,7 +2109,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
             </div>
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-700 text-center">
               <div className="text-xs text-slate-400 font-bold uppercase">BKT Mastery Level</div>
-              <div className="text-xl font-black text-indigo-300 capitalize mt-2">
+              <div className="text-xl font-black text-gold-300 capitalize mt-2">
                 {masteryLevel}
               </div>
             </div>
@@ -2122,7 +2122,7 @@ function C12_GeographyWaterResourcesIrrigationSim({
           </div>
 
           {/* ─── EXPLICIT SPACED REPETITION (SRS) VISIBILITY BANNER ─── */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-amber-500/40 flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-amber-500/40 flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-400/40 flex items-center justify-center text-2xl shrink-0">
                 📅
@@ -2172,8 +2172,8 @@ function C12_GeographyWaterResourcesIrrigationSim({
             </div>
           )}
 
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/50 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/50 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🧭</span> Capstone Project: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>

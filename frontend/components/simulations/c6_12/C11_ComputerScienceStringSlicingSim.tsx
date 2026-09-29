@@ -61,16 +61,16 @@ export function C11_ComputerScienceStringSlicingSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">CBSE Class 11 Computer Science - Strings</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 11 Computer Science - Strings</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">String Slicing Machine: s[start : stop : step]</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300">len = {len}</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">len = {len}</span>
       </header>
 
       {/* SAMPLE PICKER */}
       <div className="flex flex-wrap gap-2 mb-4">
         {SAMPLES.map((v) => (
-          <button key={v.id} onClick={() => pickSample(v.id)} className={`min-h-11 px-4 rounded-xl text-xs font-mono font-bold border ${sid === v.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+          <button key={v.id} onClick={() => pickSample(v.id)} className={`min-h-11 px-4 rounded-xl text-xs font-mono font-bold border ${sid === v.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
             {v.label}
           </button>
         ))}
@@ -81,10 +81,10 @@ export function C11_ComputerScienceStringSlicingSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>start</span>
-            <span className="text-indigo-300 font-mono font-bold">{start}</span>
+            <span className="text-gold-300 font-mono font-bold">{start}</span>
           </label>
           <input type="range" min={0} max={len - 1} step={1} value={start} aria-label="slice start index"
-            onChange={(e) => setStart(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setStart(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -142,13 +142,13 @@ export function C11_ComputerScienceStringSlicingSim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p>
-          <span className="font-bold text-sky-300">Misconception killer:</span> almost every wrong answer in exams comes from
+          <span className="font-bold text-gold-300">Misconception killer:</span> almost every wrong answer in exams comes from
           thinking stop is included. s[1:4] gives THREE characters (indices 1, 2, 3) -- the character at 4 stays behind. Strings are
           also immutable: slicing makes a new string, never a modified original.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-sky-950/60 to-slate-900 border border-sky-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Produce &quot;TY&quot; from PYTHON with one positive-step slice, then produce it again with a negative step. Which indices light up each time?</p>
         <p className="mt-1">2. Set s[::-1] by choosing start = last index, stop = 0, step = -1 -- but compare with s[len:0:-1] and explain why the reverse result is the same.</p>

@@ -11,7 +11,7 @@ export const w_c11_politicalsciencecitizenshipsim: SimDef = {
     classLevel: 11, subject: 'political_science', topic: 'What is citizenship: Full and equal membership of a political community',
     chapters: [],
     nodeIds: ['c11_ps_cbse_06_001', 'c11_ps_cbse_06_002', 'c11_ps_cbse_06_003', 'c11_ps_cbse_06_004', 'c11_ps_cbse_06_005', 'c11_ps_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a student from Bihar moving to Mumbai for an IT job but facing demands for \'local preference\' in.', goal: 'Master What is citizenship: Full and equal membership of a political community.' },
     discovery: {
         question: 'According to the NCERT Class 11 Political Theory textbook, how is citizenship defined in the opening section of Chapter 6?',
@@ -20,7 +20,7 @@ export const w_c11_politicalsciencecitizenshipsim: SimDef = {
         hook: 'Students often think \'full and equal membership\' means *identical treatment* for everyone in every sphere (e.g., "if.',
     },
     teaching: [
-        { title: 'Citizenship is the status of full and equal.', text: 'Citizenship is the status of full and equal membership in a political community (the state), which entitles individuals to a set of rights (political, civil, and socio-economic) and imposes.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Citizenship is the status of full and equal.', text: 'Citizenship is the status of full and equal membership in a political community (the state), which entitles individuals to a set of rights (political, civil, and socio-economic) and imposes.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ps_cbse_06_001', title: 'Citizenship is the status of full and.',

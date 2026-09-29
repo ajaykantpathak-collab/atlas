@@ -822,7 +822,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
     const pKa = bufferPkaMap[selectedBufferType];
     const diffFromPka = Math.abs(calculatedPh - pKa);
     if (diffFromPka <= 0.5 && bufferMolarity >= 0.1) return { level: 'Optimal Maximum', color: 'text-emerald-400', width: 95 };
-    if (diffFromPka <= 1.0 && bufferMolarity >= 0.05) return { level: 'Good Operational', color: 'text-blue-400', width: 70 };
+    if (diffFromPka <= 1.0 && bufferMolarity >= 0.05) return { level: 'Good Operational', color: 'text-gold-400', width: 70 };
     if (diffFromPka <= 1.5) return { level: 'Marginal / Vulnerable', color: 'text-amber-400', width: 40 };
     return { level: 'Buffer Depleted / Broken', color: 'text-rose-400', width: 10 };
   }, [calculatedPh, selectedBufferType, bufferMolarity, bufferPkaMap]);
@@ -1238,7 +1238,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1252,8 +1252,8 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/80 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚨</span> Narrative Mission Briefing
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
@@ -1365,7 +1365,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                             onClick={() => setSelectedBufferType(b)}
                             className={`p-2 rounded-lg text-xs font-bold capitalize border transition-all ${
                               selectedBufferType === b
-                                ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                                ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                                 : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                             }`}
                           >
@@ -1400,7 +1400,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Total Buffer Molarity:</span>
-                        <span className="text-blue-400 font-mono">{bufferMolarity.toFixed(2)} M</span>
+                        <span className="text-gold-400 font-mono">{bufferMolarity.toFixed(2)} M</span>
                       </div>
                       <input
                         type="range"
@@ -1410,7 +1410,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                         value={bufferMolarity}
                         onChange={e => setBufferMolarity(parseFloat(e.target.value))}
                         aria-label="Set buffer molarity"
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1435,8 +1435,8 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
 
                     {/* Predict-Then-Check Section */}
                     {!predictionMade && (
-                      <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800/80 space-y-2 mt-4">
-                        <p className="text-xs font-bold text-indigo-300">🎯 Predict-Then-Check:</p>
+                      <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800/80 space-y-2 mt-4">
+                        <p className="text-xs font-bold text-gold-300">🎯 Predict-Then-Check:</p>
                         <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-2 gap-1.5">
                           {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
@@ -1445,7 +1445,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                               whileHover={{ scale: 1.02 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => handlePrediction(idx)}
-                              className="p-1.5 text-left rounded-lg bg-slate-900 hover:bg-indigo-900/60 border border-slate-700 text-[11px] text-slate-300 font-semibold"
+                              className="p-1.5 text-left rounded-lg bg-slate-900 hover:bg-gold-900/60 border border-slate-700 text-[11px] text-slate-300 font-semibold"
                             >
                               {opt}
                             </motion.button>
@@ -1706,7 +1706,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                           onClick={() => handleCellCycleStep(p)}
                           className={`p-2.5 rounded-xl font-bold text-xs border ${
                             cellCyclePhase === p
-                              ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                              ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                               : 'bg-slate-900 text-slate-300 border-slate-800 hover:bg-slate-800'
                           }`}
                         >
@@ -1725,7 +1725,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                       </div>
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">CdK1 (Cdc2) Subunit:</span>
-                        <span className="text-blue-400 font-mono">100% Constant</span>
+                        <span className="text-gold-400 font-mono">100% Constant</span>
                       </div>
                     </div>
                   </div>
@@ -1811,7 +1811,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
               >
                 Next Lab →
               </motion.button>
@@ -1852,7 +1852,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Quick Buffer Sandbox */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">
                 Phosphate Buffer Refolding Calculator
               </span>
               <div className="flex justify-between items-center">
@@ -1935,12 +1935,12 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
             <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
               />
             </div>
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -1990,7 +1990,7 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2318,14 +2318,14 @@ function C11_BiotechnologyLowrybronstedTheoryAcidSim({
 
           {/* Real World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span>🏭</span> {REAL_WORLD_ACTIVITY.title}
             </div>
             <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-2.5 bg-slate-950 rounded-lg text-xs text-slate-300 flex items-start gap-2 border border-slate-800/80">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center text-[10px] font-bold shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center text-[10px] font-bold shrink-0">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

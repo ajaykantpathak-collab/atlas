@@ -29,11 +29,11 @@ export function C8_SciencePressureWindsStormsAndCyclonesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-sky-700">Pressure, Winds, Storms and Cyclones</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Pressure, Winds, Storms and Cyclones</h1>
 
-      <div className="mt-3 p-4 bg-sky-50 border border-sky-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-sky-700">The engine:</span> the Sun heats some regions
+          <span className="font-bold text-gold-700">The engine:</span> the Sun heats some regions
           more, warm air rises there, and pressure DROPS below it. Cooler, heavier air from the
           HIGH pressure region rushes in to fill the gap - we feel it as wind. Over warm oceans a
           deep low pressure starts spinning (Earth&apos;s rotation twists it) and can grow into a
@@ -51,7 +51,7 @@ export function C8_SciencePressureWindsStormsAndCyclonesSim() {
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Low pressure centre (hPa)</span><span className="font-mono text-rose-600">{pLow}</span></label>
             <input type="range" min={930} max={1020} value={pLow} aria-label="low pressure" onChange={(e) => setPLow(Number(e.target.value))} className="w-full mt-1 accent-rose-600" />
           </div>
-          <button onClick={() => setShowEye((s) => !s)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${showEye ? 'bg-sky-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button onClick={() => setShowEye((s) => !s)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${showEye ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {showEye ? 'Cyclone cross-section: ON' : 'Cyclone cross-section: OFF'}
           </button>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
@@ -68,7 +68,7 @@ export function C8_SciencePressureWindsStormsAndCyclonesSim() {
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 340 240" className="w-full">
             {/* pressure landscape with wind arrows */}
             <defs>

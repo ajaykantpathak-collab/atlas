@@ -11,7 +11,7 @@ export const w_c6_historycivicsscientificprogressguptasim: SimDef = {
     classLevel: 6, subject: 'history', topic: 'The Making of the Constitution',
     chapters: [],
     nodeIds: ['c6_history_ch12_051'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered how a country that was known as \'Jambudvīpa\' or \'Bhāratavarṣha\' thousands of years ago.', goal: 'Master The Making of the Constitution.' },
     discovery: {
         question: 'Why do we call India a "democracy" today?',
@@ -20,7 +20,7 @@ export const w_c6_historycivicsscientificprogressguptasim: SimDef = {
         hook: 'Students often think that the name \'India\' was the original name of the land, whereas it is actually a name derived.',
     },
     teaching: [
-        { title: 'India today is a democratic nation that has.', text: 'India today is a democratic nation that has evolved from its ancient roots into a modern, technologically advancing society known for significant scientific milestones.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'India today is a democratic nation that has.', text: 'India today is a democratic nation that has evolved from its ancient roots into a modern, technologically advancing society known for significant scientific milestones.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
 

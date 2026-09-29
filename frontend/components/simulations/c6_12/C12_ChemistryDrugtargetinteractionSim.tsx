@@ -89,8 +89,8 @@ const DrugTargetVisual: React.FC<{ type: 'competitive' | 'non-competitive' | 're
   };
 
   return (
-    <div className="flex flex-col items-center bg-slate-900/80 p-5 rounded-2xl border border-indigo-500/30 w-full">
-      <div className="text-sm font-semibold text-indigo-300 mb-3 flex items-center gap-2">
+    <div className="flex flex-col items-center bg-slate-900/80 p-5 rounded-2xl border border-gold-500/30 w-full">
+      <div className="text-sm font-semibold text-gold-300 mb-3 flex items-center gap-2">
         <span>Enzyme/Receptor Mechanism:</span>
         <span className="capitalize text-amber-400 font-bold">{type} Mode</span>
       </div>
@@ -182,7 +182,7 @@ const DrugTargetVisual: React.FC<{ type: 'competitive' | 'non-competitive' | 're
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-lg ${
             bound
               ? 'bg-rose-600 hover:bg-rose-500 text-white'
-              : 'bg-indigo-600 hover:bg-indigo-500 text-white'
+              : 'bg-gold-600 hover:bg-gold-500 text-white'
           }`}
         >
           {bound ? 'Release Inhibitor' : 'Bind Drug Inhibitor'}
@@ -234,7 +234,7 @@ const FoodChemVisual: React.FC = () => {
   const curr = foodData[selectedCategory];
 
   return (
-    <div className="bg-slate-900/80 p-5 rounded-2xl border border-sky-500/30 w-full">
+    <div className="bg-slate-900/80 p-5 rounded-2xl border border-gold-500/30 w-full">
       <div className="flex justify-center gap-2 mb-4">
         {(['preservative', 'antioxidant', 'sweetener'] as const).map((cat) => (
           <button
@@ -245,7 +245,7 @@ const FoodChemVisual: React.FC = () => {
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-all ${
               selectedCategory === cat
-                ? 'bg-sky-500 text-slate-950 font-bold shadow-md'
+                ? 'bg-gold-500 text-slate-950 font-bold shadow-md'
                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
@@ -510,7 +510,7 @@ const SoddyFajansVisual: React.FC = () => {
         </div>
         <div className="flex justify-between items-center">
           <span className="text-slate-400">Atomic Number (Z):</span>
-          <span className="text-sky-400 font-bold">{curr.deltaZ > 0 ? `+${curr.deltaZ}` : curr.deltaZ}</span>
+          <span className="text-gold-400 font-bold">{curr.deltaZ > 0 ? `+${curr.deltaZ}` : curr.deltaZ}</span>
         </div>
         <div className="mt-1 pt-2 border-t border-slate-800 text-center text-purple-300 font-bold">
           Periodic Shift: {curr.shift}
@@ -566,7 +566,7 @@ const HardySchulzeVisual: React.FC = () => {
             audioManager.play('tap');
           }}
           className={`px-3 py-1.5 rounded-lg transition-all ${
-            solType === 'positive' ? 'bg-indigo-500 text-white font-bold' : 'bg-slate-800 text-slate-400'
+            solType === 'positive' ? 'bg-gold-500 text-white font-bold' : 'bg-slate-800 text-slate-400'
           }`}
         >
           Positive Sol (e.g. Fe(OH)₃)
@@ -767,7 +767,7 @@ const CarbylamineTestSim: React.FC = () => {
       </div>
 
       <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 w-full max-w-md text-xs font-mono flex flex-col gap-2">
-        <div className="text-sky-300">Reagents: CHCl₃ + 3 KOH (alc.)</div>
+        <div className="text-gold-300">Reagents: CHCl₃ + 3 KOH (alc.)</div>
         <div className="text-amber-400 font-bold">Key Electrophile: :CCl₂ (Dichlorocarbene)</div>
         <div className="border-t border-slate-800 pt-2">
           {amineType === 'primary' ? (
@@ -821,7 +821,7 @@ const HoffmannDegradationSim: React.FC = () => {
         <div className="text-slate-300">
           Reagents: <span className="text-amber-400 font-bold">Br₂ + 4 NaOH</span>
         </div>
-        <div className="text-sky-300">
+        <div className="text-gold-300">
           Starting Amide: <span className="text-white font-bold">C{carbonCount} Amide</span>
         </div>
         <div className="border-t border-slate-800 pt-2 text-emerald-400 font-bold text-sm">
@@ -1126,7 +1126,7 @@ export default function C12_ChemistryDrugtargetinteractionSim() {
       {/* Header */}
       <header className="w-full max-w-4xl flex flex-col md:flex-row justify-between items-center gap-4 mb-6 pb-4 border-b border-slate-800">
         <div>
-          <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-indigo-400 via-sky-400 to-emerald-400 bg-clip-text text-transparent">
+          <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-gold-400 via-gold-400 to-emerald-400 bg-clip-text text-transparent">
             Class 12 ISC Chemistry Interactive Lab
           </h1>
           <p className="text-xs text-slate-400 mt-1">
@@ -1150,7 +1150,7 @@ export default function C12_ChemistryDrugtargetinteractionSim() {
             audioManager.play('tap');
           }}
           className={`px-5 py-2.5 rounded-xl text-xs font-bold transition-all ${
-            activeTab === 'learn' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+            activeTab === 'learn' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           Visual Concepts
@@ -1183,7 +1183,7 @@ export default function C12_ChemistryDrugtargetinteractionSim() {
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                     activeNodeIndex === idx
-                      ? 'bg-indigo-500 text-slate-950 font-bold shadow-md'
+                      ? 'bg-gold-500 text-slate-950 font-bold shadow-md'
                       : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
@@ -1194,7 +1194,7 @@ export default function C12_ChemistryDrugtargetinteractionSim() {
 
             {/* Active Visual Component */}
             <div className="w-full max-w-2xl">
-              <h2 className="text-lg font-bold text-indigo-300 mb-3 text-center">
+              <h2 className="text-lg font-bold text-gold-300 mb-3 text-center">
                 {nodeDescriptions[activeNodeIndex].title}
               </h2>
               {nodeDescriptions[activeNodeIndex].component}
@@ -1209,7 +1209,7 @@ export default function C12_ChemistryDrugtargetinteractionSim() {
             <SuccessBanner show={showSuccess} text="All ISC Chemistry Nodes Mastered!" />
 
             <div className="flex justify-between items-center mb-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Challenge {currentChallengeIdx + 1} of {challenges.length}
               </span>
               <span className="text-[10px] bg-slate-800 px-2.5 py-1 rounded-full text-slate-300 font-mono">
@@ -1285,7 +1285,7 @@ export default function C12_ChemistryDrugtargetinteractionSim() {
               {showFeedback && (
                 <button
                   onClick={nextChallenge}
-                  className="px-5 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg transition-all"
+                  className="px-5 py-2 rounded-xl text-xs font-bold bg-gold-600 hover:bg-gold-500 text-white shadow-lg transition-all"
                 >
                   {currentChallengeIdx < challenges.length - 1 ? 'Next Challenge →' : 'Finish Simulation'}
                 </button>

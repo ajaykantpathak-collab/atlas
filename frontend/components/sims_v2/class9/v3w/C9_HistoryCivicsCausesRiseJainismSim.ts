@@ -11,7 +11,7 @@ export const w_c9_historycivicscausesrisejainismsim: SimDef = {
     classLevel: 9, subject: 'history', topic: 'Vedic Society: Early and Later Vedic Periods',
     chapters: [],
     nodeIds: ['c9_hist_ch3_1', 'c9_hist_ch3_2', 'c9_hist_ch3_3', 'c9_hist_ch3_4', 'c9_hist_ch1_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Vedic Society: Early and Later Vedic Periods.' },
     discovery: {
         question: 'Name the three political assemblies mentioned in the Rigveda and state one primary function of each in the Early Vedic period.',
@@ -20,7 +20,7 @@ export const w_c9_historycivicscausesrisejainismsim: SimDef = {
         hook: 'Students often think Sabha and Samiti are simply "upper house" and "lower house" of a Vedic parliament, projecting the.',
     },
     teaching: [
-        { title: 'The Vedic Society spans two distinct phases:.', text: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Vedic Society spans two distinct phases:.', text: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_hist_ch3_1', title: 'The Vedic Society spans two distinct.',

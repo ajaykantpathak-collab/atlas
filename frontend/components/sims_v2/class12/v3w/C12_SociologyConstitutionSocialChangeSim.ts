@@ -11,7 +11,7 @@ export const w_c12_sociologyconstitutionsocialchangesim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions',
     chapters: [],
     nodeIds: ['c12_soc_cbse_03_004', 'c12_soc_cbse_09_010', 'c12_soc_cbse_03_007', 'c12_soc_cbse_03_008', 'c12_soc_cbse_09_001', 'c12_soc_cbse_09_003', 'c12_soc_cbse_09_008', 'c12_soc_cbse_09_011', 'c12_soc_cbse_10_010', 'c12_soc_cbse_03_003', 'c12_soc_cbse_09_006', 'c12_soc_cbse_09_007', 'c12_soc_cbse_10_003', 'c12_soc_cbse_10_004', 'c12_soc_cbse_10_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a 22-year-old engineering graduate from a traditional Brahmin family in Bengaluru who eats in the.', goal: 'Master Caste in Contemporary India: Continuity and Change in Ritual and Secular Dimensions.' },
     discovery: {
         question: 'Compare the long-term consequences of Sanskritisation vs. Christianisation on tribal kinship and gender relations.',
@@ -20,7 +20,7 @@ export const w_c12_sociologyconstitutionsocialchangesim: SimDef = {
         hook: 'Students often think **Sanskritisation = Hinduisation = becoming Hindu**.',
     },
     teaching: [
-        { title: 'Caste in contemporary India refers to the.', text: 'Caste in contemporary India refers to the persistence of the traditional varna-jati hierarchy in ritual domains (endogamy, purity-pollution rules, commensality) alongside its transformation in.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Caste in contemporary India refers to the.', text: 'Caste in contemporary India refers to the persistence of the traditional varna-jati hierarchy in ritual domains (endogamy, purity-pollution rules, commensality) alongside its transformation in.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_03_004', title: 'Caste in contemporary India refers to.',

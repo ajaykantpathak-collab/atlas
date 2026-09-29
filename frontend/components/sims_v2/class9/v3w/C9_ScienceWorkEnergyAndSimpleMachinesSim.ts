@@ -11,7 +11,7 @@ export const w_c9_scienceworkenergyandsimplemachinessim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Law of Conservation of Energy: Examples',
     chapters: [],
     nodeIds: ['c9_physics_ch4_8', 'c9_physics_ch4_10', 'c9_physics_ch4_1', 'c9_physics_ch4_11', 'c9_physics_ch4_2', 'c9_physics_ch4_3', 'c9_physics_ch4_4', 'c9_physics_ch4_5', 'c9_physics_ch4_7', 'c9_physics_ch4_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Watch a child on a swing in a playground: at the highest point the swing stops momentarily (zero kinetic,.', goal: 'Master Law of Conservation of Energy: Examples.' },
     discovery: {
         question: 'Two students, Arjun and Meera, push identical boxes with the same force of 80 N. Arjun\'s box moves 5 m before stopping. Meera\'s box moves 12 m before stopping.',
@@ -20,7 +20,7 @@ export const w_c9_scienceworkenergyandsimplemachinessim: SimDef = {
         hook: 'Students believe that holding a heavy object stationary (like a 20 kg suitcase) involves "doing work" because their.',
     },
     teaching: [
-        { title: 'The Law of Conservation of Energy states.', text: 'The Law of Conservation of Energy states that in an isolated system where only conservative forces (like gravity) act, the total mechanical energy (sum of kinetic energy and potential energy) remains.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Law of Conservation of Energy states.', text: 'The Law of Conservation of Energy states that in an isolated system where only conservative forces (like gravity) act, the total mechanical energy (sum of kinetic energy and potential energy) remains.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch4_8', title: 'The Law of Conservation of Energy.',

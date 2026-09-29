@@ -11,7 +11,7 @@ export const c3EngTense: SimDef = {
     id: 'c3_eng_tense', title: 'Is, Was, Will Be', subtitle: 'Now, before, later!',
     classLevel: 3, subject: 'english', topic: 'Tenses (Simple)',
     chapters: ['Marigold-3: verb tenses'],
-    emoji: '⏳', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'tense' },
+    emoji: '⏳', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'tense' },
     scenario: { role: "a tense-traveller", intro: "Words change with time — is, was, will be!", goal: "Use every tense." },
     discovery: {
         question: "If 'she plays' is now, what is 'she played'?",
@@ -20,10 +20,10 @@ export const c3EngTense: SimDef = {
         hook: "Words change with time! Let's learn tenses.",
     },
     teaching: [
-        { title: 'When Did It Happen? ⏳', text: 'Words change with time! "I play" (now), "I played" (before), "I will play" (later). Time changes the word!', emoji: '⏳', bgColor: 'from-indigo-400 to-blue-500' },
+        { title: 'When Did It Happen? ⏳', text: 'Words change with time! "I play" (now), "I played" (before), "I will play" (later). Time changes the word!', emoji: '⏳', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Present = Now ▶️', text: 'Happening right now: "She reads a book." Present tense = now!', emoji: '▶️', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Past = Already Done ⏪', text: 'Already happened: "She read a book." Often adds -ed: play→played, jump→jumped!', emoji: '⏪', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Future = Will Come ⏩', text: 'Not yet: "She will read a book." Future uses "will"!', emoji: '⏩', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Future = Will Come ⏩', text: 'Not yet: "She will read a book." Future uses "will"!', emoji: '⏩', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'match', prompt: 'Match to its time!', labels: ['is playing', 'now', 'played', 'before', 'will play', 'later'] },
 challenges: [
@@ -58,7 +58,7 @@ export const c3EngArticles: SimDef = {
     },
     teaching: [
         { title: 'A, An, The! 📌', text: 'Tiny words before names: "a cat", "an apple", "the sun". They come before naming words!', emoji: '📌', bgColor: 'from-teal-400 to-emerald-500' },
-        { title: 'A vs An 🔤', text: 'Use "an" before vowel sounds (a,e,i,o,u): an apple, an egg. Use "a" before others: a cat, a dog!', emoji: '🔤', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'A vs An 🔤', text: 'Use "an" before vowel sounds (a,e,i,o,u): an apple, an egg. Use "a" before others: a cat, a dog!', emoji: '🔤', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'The = That One 🎯', text: '"The" points to a special one: "the sun" (there is only one!). "A" means any one: "a cat" (any cat).', emoji: '🎯', bgColor: 'from-amber-400 to-orange-500' },
     ],
         explore: { widget: 'match', prompt: 'a, an or the?', labels: ['apple', 'an', 'ball', 'a', 'sun', 'the'] },
@@ -94,8 +94,8 @@ export const c3HinVakya: SimDef = {
     },
     teaching: [
         { title: 'शब्द मिलकर वाक्य 🧱', text: 'Words join to make sentences: "राम खेलता है" (Ram plays). Who + does + what!', emoji: '🧱', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'कर्ता और क्रिया 🏃', text: 'Every sentence has WHO (कर्ता) and DOES (क्रिया): "बिल्ली दूध पीती है" — cat drinks milk!', emoji: '🏃', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'क्रम ज़रूरी है 🔢', text: 'Order matters! "राम ने खाना खाया" not "खाया राम खाना" — right order makes sense!', emoji: '🔢', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'कर्ता और क्रिया 🏃', text: 'Every sentence has WHO (कर्ता) and DOES (क्रिया): "बिल्ली दूध पीती है" — cat drinks milk!', emoji: '🏃', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'क्रम ज़रूरी है 🔢', text: 'Order matters! "राम ने खाना खाया" not "खाया राम खाना" — right order makes sense!', emoji: '🔢', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'order', prompt: 'वाक्य सही क्रम में लगाओ!', labels: ['राम', 'स्कूल', 'जाता', 'है'] },
 challenges: [
@@ -127,7 +127,7 @@ export const c3HinSangya: SimDef = {
     },
     teaching: [
         { title: 'संज्ञा = नाम 🏷️', text: 'Sangya = naming words! Person (राम), place (स्कूल), thing (किताब), animal (कुत्ता) — all names are sangya!', emoji: '🏷️', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Kinds of Sangya 📚', text: 'व्यक्तिवाचक (one name: राम), जातिवाचक (a type: लड़का), भाववाचक (a feeling: खुशी)!', emoji: '📚', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Kinds of Sangya 📚', text: 'व्यक्तिवाचक (one name: राम), जातिवाचक (a type: लड़का), भाववाचक (a feeling: खुशी)!', emoji: '📚', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'match', prompt: 'संज्ञा मिलाओ!', labels: ['लड़का', 'पुरुष', 'नदी', 'स्थान', 'चूड़ी', 'वस्तु'] },
 challenges: [

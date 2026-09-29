@@ -11,7 +11,7 @@ export const w_c12_biotechnologygenecloningsim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Gene Cloning: Definition and Step-by-Step Overview',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_03_001', 'c12_biotech_cbse_03_003', 'c12_biotech_cbse_03_004', 'c12_biotech_cbse_03_006', 'c12_biotech_cbse_03_007', 'c12_biotech_cbse_03_008', 'c12_biotech_cbse_03_010', 'c12_biotech_cbse_03_011', 'c12_biotech_cbse_01_002', 'c12_biotech_cbse_01_007', 'c12_biotech_cbse_01_008', 'c12_biotech_cbse_01_011', 'c12_biotech_cbse_01_012', 'c12_biotech_cbse_04_001', 'c12_biotech_cbse_04_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a biotechnologist at Bharat Biotech tasked with producing human insulin for diabetes patients.', goal: 'Master Gene Cloning: Definition and Step-by-Step Overview.' },
     discovery: {
         question: 'A research team wants to clone a **eukaryotic gene with 5 introns** into *E. coli* for protein production.',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologygenecloningsim: SimDef = {
         hook: '**"Gene cloning = PCR because both amplify DNA."** Students memorize "cloning makes copies" and "PCR makes copies" and.',
     },
     teaching: [
-        { title: 'Gene cloning is the process of creating.', text: 'Gene cloning is the process of creating multiple identical copies (clones) of a specific gene or DNA fragment by inserting it into a vector (e.g., plasmid), introducing the recombinant DNA into a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Gene cloning is the process of creating.', text: 'Gene cloning is the process of creating multiple identical copies (clones) of a specific gene or DNA fragment by inserting it into a vector (e.g., plasmid), introducing the recombinant DNA into a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_03_001', title: 'Gene cloning is the process of creating.',

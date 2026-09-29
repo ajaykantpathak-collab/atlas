@@ -75,7 +75,7 @@ export default function AuthGuard({
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-50">
         <div className="text-center">
-          <div className="w-12 h-12 mx-auto mb-4 rounded-full border-4 border-indigo-200 border-t-indigo-600 animate-spin" />
+          <div className="w-12 h-12 mx-auto mb-4 rounded-full border-4 border-gold-200 border-t-gold-600 animate-spin" />
           <p className="text-gray-500">Loading...</p>
         </div>
       </div>

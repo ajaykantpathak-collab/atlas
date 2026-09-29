@@ -1176,10 +1176,10 @@ function C9_CommercialStudiesAidsTradeBankingSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-800/80 backdrop-blur rounded-2xl border border-slate-700/60"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-500/30">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-500/30">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-lg md:text-xl font-bold text-white tracking-wide">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">Class 9 ICSE Commercial Studies • Comprehensive 10-Node Mastery Lab</p>
+            <p className="text-xs text-gold-300 font-medium">Class 9 ICSE Commercial Studies • Comprehensive 10-Node Mastery Lab</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -1190,7 +1190,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
             className={`text-xs px-3 py-1.5 rounded-full font-bold uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' :
               difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
-              'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30'
+              'bg-gold-500/20 text-gold-300 border border-gold-500/30'
             }`}
           >
             {difficulty} Level
@@ -1204,13 +1204,13 @@ function C9_CommercialStudiesAidsTradeBankingSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-700/50">
-            <h2 className="text-xl font-bold text-indigo-200 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-700/50">
+            <h2 className="text-xl font-bold text-gold-200 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/40 rounded-xl border border-indigo-500/20">
-              <p className="text-xs text-indigo-300"><strong>Mission:</strong> {SCENARIO.context}</p>
+            <div className="mt-4 p-3 bg-gold-900/40 rounded-xl border border-gold-500/20">
+              <p className="text-xs text-gold-300"><strong>Mission:</strong> {SCENARIO.context}</p>
             </div>
           </div>
 
@@ -1235,7 +1235,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                       ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200 font-medium'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-800/50 border-slate-700/40 text-slate-400'
-                      : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-xs text-center leading-6 mr-2 font-bold">
@@ -1256,7 +1256,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to Interactive Exploration"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1270,13 +1270,13 @@ function C9_CommercialStudiesAidsTradeBankingSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-bold text-indigo-300">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}</h2>
+            <h2 className="text-lg font-bold text-gold-300">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}</h2>
             <div className="flex gap-1.5">
               {EXPLORATION_STEPS.map((_, i) => (
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-2.5 bg-slate-700'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-2.5 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1291,9 +1291,9 @@ function C9_CommercialStudiesAidsTradeBankingSim({
               exit={{ opacity: 0, x: -20 }}
               className="p-5 md:p-6 bg-slate-800 rounded-2xl border border-slate-700 space-y-6"
             >
-              <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 flex items-start gap-2">
+              <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 flex items-start gap-2">
                 <span className="text-amber-400 text-lg">💡</span>
-                <p className="text-xs md:text-sm text-indigo-200"><strong>Instruction:</strong> {EXPLORATION_STEPS[currentSlide].instruction}</p>
+                <p className="text-xs md:text-sm text-gold-200"><strong>Instruction:</strong> {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
               {/* SLIDE 0: Banking & Insurance Risk Transfer */}
@@ -1304,7 +1304,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 space-y-3">
                         <div className="flex justify-between items-center">
                           <label className="text-xs font-semibold text-slate-300">Export Cargo Value: ₹{cargoValueCr} Crore</label>
-                          <span className="text-xs text-indigo-400 font-mono">({tradeFinanceData.cargoLakh} Lakh ₹)</span>
+                          <span className="text-xs text-gold-400 font-mono">({tradeFinanceData.cargoLakh} Lakh ₹)</span>
                         </div>
                         <input
                           type="range"
@@ -1314,7 +1314,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                           value={cargoValueCr}
                           onChange={(e) => setCargoValueCr(Number(e.target.value))}
                           aria-label="Export Cargo Value Slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1337,7 +1337,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                           whileTap={{ scale: 0.97 }}
                           onClick={() => { setHasInsurance(!hasInsurance); audioManager.play('tap'); }}
                           className={`p-3 rounded-xl border text-left text-xs ${
-                            hasInsurance ? 'bg-indigo-950/60 border-indigo-500 text-indigo-200' : 'bg-rose-950/60 border-rose-500 text-rose-300'
+                            hasInsurance ? 'bg-gold-950/60 border-gold-500 text-gold-200' : 'bg-rose-950/60 border-rose-500 text-rose-300'
                           }`}
                         >
                           <div className="font-bold flex items-center justify-between">
@@ -1355,7 +1355,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         </div>
                         <div className="flex justify-between text-slate-300">
                           <span>New India Assurance 0.5% Premium:</span>
-                          <span className="font-bold text-indigo-400">₹{tradeFinanceData.insurancePremiumLakh} Lakh</span>
+                          <span className="font-bold text-gold-400">₹{tradeFinanceData.insurancePremiumLakh} Lakh</span>
                         </div>
                         <div className="pt-2 border-t border-slate-800 flex justify-between font-bold">
                           <span>Financial Loss Absorbed if Ship Sinks:</span>
@@ -1403,7 +1403,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   </div>
 
                   {/* Brilliant Observation Check 1 */}
-                  <div className="p-4 bg-slate-900/90 rounded-xl border border-indigo-500/30">
+                  <div className="p-4 bg-slate-900/90 rounded-xl border border-gold-500/30">
                     <span className="text-xs font-bold text-amber-400 uppercase tracking-widest block mb-2">
                       👁️ Observation Check: What do you notice?
                     </span>
@@ -1418,7 +1418,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                               ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200 font-semibold'
                               : showObservationFeedback[0] && observationAnswers[0] === oIdx
                               ? 'bg-rose-950/60 border-rose-500 text-rose-300'
-                              : 'bg-slate-800 border-slate-700 hover:border-indigo-400 text-slate-300'
+                              : 'bg-slate-800 border-slate-700 hover:border-gold-400 text-slate-300'
                           }`}
                         >
                           {opt}
@@ -1426,7 +1426,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                       ))}
                     </div>
                     {showObservationFeedback[0] && (
-                      <p className="text-xs text-indigo-300 mt-2">{OBSERVATION_QUESTIONS[0].explanation}</p>
+                      <p className="text-xs text-gold-300 mt-2">{OBSERVATION_QUESTIONS[0].explanation}</p>
                     )}
                   </div>
                 </div>
@@ -1490,7 +1490,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-700">
                           <p className="text-[11px] text-slate-400">CWC Storage Fee</p>
-                          <p className="text-sm font-bold text-indigo-400 mt-1">₹{warehouseEconomics.totalStorageCost}/t</p>
+                          <p className="text-sm font-bold text-gold-400 mt-1">₹{warehouseEconomics.totalStorageCost}/t</p>
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-700">
                           <p className="text-[11px] text-slate-400">Off-Season Sale</p>
@@ -1554,7 +1554,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         onClick={() => { setSelectedEntity(item.id); audioManager.play('tap'); }}
                         className={`p-3 rounded-xl border text-center transition-all ${
                           selectedEntity === item.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white font-bold shadow-md'
+                            ? 'bg-gold-600 border-gold-400 text-white font-bold shadow-md'
                             : 'bg-slate-900 border-slate-700 text-slate-300 hover:border-slate-500'
                         }`}
                       >
@@ -1567,7 +1567,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-700 grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-[11px] text-slate-400">Statutory Act & Minimum Members</p>
-                      <p className="text-sm font-bold text-indigo-300 mt-1">
+                      <p className="text-sm font-bold text-gold-300 mt-1">
                         {selectedEntity === 'sole' && 'Common Law • 1 Member'}
                         {selectedEntity === 'part' && 'Partnership Act 1932 • 2 Partners (Max 50)'}
                         {selectedEntity === 'opc' && 'Companies Act 2013 s.2(62) • 1 Member + Nominee'}
@@ -1612,7 +1612,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
               {currentSlide === 3 && (
                 <div className="space-y-5">
                   {/* Brilliant Prediction Question 1 */}
-                  <div className="p-4 bg-slate-900/90 rounded-xl border border-indigo-500/30">
+                  <div className="p-4 bg-slate-900/90 rounded-xl border border-gold-500/30">
                     <span className="text-xs font-bold text-amber-400 uppercase tracking-widest block mb-1">
                       🔮 Predict Before Experimenting
                     </span>
@@ -1627,7 +1627,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                               ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200 font-semibold'
                               : showPredictionFeedback[0] && predictionAnswers[0] === pIdx
                               ? 'bg-rose-950/60 border-rose-500 text-rose-300'
-                              : 'bg-slate-800 border-slate-700 hover:border-indigo-400 text-slate-300'
+                              : 'bg-slate-800 border-slate-700 hover:border-gold-400 text-slate-300'
                           }`}
                         >
                           {opt}
@@ -1635,7 +1635,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                       ))}
                     </div>
                     {showPredictionFeedback[0] && (
-                      <div className="mt-2 p-2 bg-slate-950 rounded border border-slate-800 text-xs text-indigo-200">
+                      <div className="mt-2 p-2 bg-slate-950 rounded border border-slate-800 text-xs text-gold-200">
                         <strong>Verify instruction:</strong> {PREDICTION_QUESTIONS[0].verifyInstruction}
                       </div>
                     )}
@@ -1653,7 +1653,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         whileTap={{ scale: 0.96 }}
                         onClick={() => { setSelectedDept(d.id); audioManager.play('tap'); }}
                         className={`p-3 rounded-xl border text-left ${
-                          selectedDept === d.id ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
+                          selectedDept === d.id ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
                         }`}
                       >
                         <div className="text-xl mb-1">{d.icon}</div>
@@ -1667,7 +1667,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                       <div className="flex justify-between items-center">
                         <label className="text-xs font-semibold text-slate-300">Assembly Line Speed: {prodSpeed}% Target</label>
-                        <span className="text-xs text-indigo-400">Defect Rate: {departmentMetrics.defectRate}%</span>
+                        <span className="text-xs text-gold-400">Defect Rate: {departmentMetrics.defectRate}%</span>
                       </div>
                       <input
                         type="range"
@@ -1676,7 +1676,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         value={prodSpeed}
                         onChange={(e) => setProdSpeed(Number(e.target.value))}
                         aria-label="Assembly Line Speed Slider"
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="grid grid-cols-4 gap-2 text-center text-xs">
@@ -1730,7 +1730,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                                   ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200 font-semibold'
                                   : showObservationFeedback[1] && observationAnswers[1] === oIdx
                                   ? 'bg-rose-950/60 border-rose-500 text-rose-300'
-                                  : 'bg-slate-800 border-slate-700 hover:border-indigo-400 text-slate-300'
+                                  : 'bg-slate-800 border-slate-700 hover:border-gold-400 text-slate-300'
                               }`}
                             >
                               {opt}
@@ -1738,7 +1738,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                           ))}
                         </div>
                         {showObservationFeedback[1] && (
-                          <p className="text-xs text-indigo-300 mt-2">{OBSERVATION_QUESTIONS[1].explanation}</p>
+                          <p className="text-xs text-gold-300 mt-2">{OBSERVATION_QUESTIONS[1].explanation}</p>
                         )}
                       </div>
                     </div>
@@ -1802,7 +1802,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         whileTap={{ scale: 0.96 }}
                         onClick={() => { setSelectedCommChannel(c.id); audioManager.play('tap'); }}
                         className={`p-3 rounded-xl border text-left ${
-                          selectedCommChannel === c.id ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
+                          selectedCommChannel === c.id ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
                         }`}
                       >
                         <p className="text-xs font-bold">{c.name}</p>
@@ -1863,7 +1863,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => { setCurrentSlide(s => s + 1); audioManager.play('whoosh'); }}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1901,7 +1901,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-800 rounded-2xl border border-slate-700 space-y-3">
-              <span className="text-xs font-bold text-indigo-300">1. Cargo & Risk (Cr ₹)</span>
+              <span className="text-xs font-bold text-gold-300">1. Cargo & Risk (Cr ₹)</span>
               <input
                 type="range"
                 min={1}
@@ -1910,10 +1910,10 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                 value={cargoValueCr}
                 onChange={(e) => setCargoValueCr(Number(e.target.value))}
                 aria-label="Sandbox Cargo Value Slider"
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <p className="text-xs text-slate-300">Current Value: <strong>₹{cargoValueCr} Crore</strong></p>
-              <p className="text-[11px] text-indigo-400">SBI Fee: ₹{tradeFinanceData.sbiFeeLakh}L | Marine: ₹{tradeFinanceData.insurancePremiumLakh}L</p>
+              <p className="text-[11px] text-gold-400">SBI Fee: ₹{tradeFinanceData.sbiFeeLakh}L | Marine: ₹{tradeFinanceData.insurancePremiumLakh}L</p>
             </div>
 
             <div className="p-4 bg-slate-800 rounded-2xl border border-slate-700 space-y-3">
@@ -1957,13 +1957,13 @@ function C9_CommercialStudiesAidsTradeBankingSim({
               <span className="font-semibold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="capitalize text-indigo-400 font-medium">
+              <span className="capitalize text-gold-400 font-medium">
                 NEP Competency: <strong className="text-white">{activeChallenge.competencyLevel}</strong>
               </span>
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -1998,7 +1998,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                         ? 'bg-emerald-900/70 border-emerald-500 text-emerald-100 font-medium'
                         : showExplanation && i !== activeChallenge.correctIndex
                         ? 'bg-slate-800/40 border-slate-700/40 text-slate-400 opacity-60'
-                        : 'bg-slate-900/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-900/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-xs text-center leading-6 mr-2 font-bold text-white">
@@ -2021,7 +2021,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                      className="px-3.5 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2057,7 +2057,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify Department Mapping
                 </motion.button>
@@ -2083,7 +2083,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-900/90 rounded-xl border border-slate-700 text-xs md:text-sm text-slate-200 flex items-center justify-between cursor-grab"
                     >
-                      <span><strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}</span>
+                      <span><strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}</span>
                       <span className="text-slate-500 text-xs">☰ Drag to Reorder</span>
                     </motion.div>
                   ))}
@@ -2094,7 +2094,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Check Sequence
                 </motion.button>
@@ -2111,7 +2111,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Numeric calculation answer input"
-                    className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none w-52"
+                    className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none w-52"
                   />
                   <span className="text-xs font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2119,7 +2119,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2129,7 +2129,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
 
             {activeChallenge.type === 'construct' && activeChallenge.availableParts && (
               <div className="space-y-4">
-                <p className="text-xs text-indigo-300">{activeChallenge.validationHint}</p>
+                <p className="text-xs text-gold-300">{activeChallenge.validationHint}</p>
                 <div className="flex flex-wrap gap-2">
                   {activeChallenge.availableParts.map((part, i) => (
                     <motion.button
@@ -2146,7 +2146,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((p, idx) => (
-                    <div key={idx} className="px-3 py-1 bg-indigo-800 rounded-lg text-xs text-white flex items-center gap-1.5">
+                    <div key={idx} className="px-3 py-1 bg-gold-800 rounded-lg text-xs text-white flex items-center gap-1.5">
                       <span>{p}</span>
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2164,7 +2164,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify Constructed Loop
                 </motion.button>
@@ -2222,7 +2222,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl border border-emerald-500/40 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-3xl border border-emerald-500/40 text-center space-y-3">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl font-bold text-white tracking-wide">Class 9 Commercial Studies Mastery Achieved!</h2>
             <p className="text-xs md:text-sm text-slate-300 max-w-xl mx-auto">
@@ -2233,7 +2233,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                 Final Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong>
               </span>
               <span className="px-4 py-1.5 bg-slate-800 rounded-full border border-slate-700 text-slate-300">
-                Mastery Status: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+                Mastery Status: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
               </span>
             </div>
           </div>
@@ -2250,7 +2250,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-800/90 rounded-2xl border border-slate-700 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Structured Reflection
             </h3>
             <div className="space-y-4">
@@ -2262,7 +2262,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   value={reflectionAnswers.q1}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q1: e.target.value }))}
                   placeholder="e.g. How insurance compensates financial loss rather than physically stopping accidents..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none h-20"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none h-20"
                 />
               </div>
               <div>
@@ -2273,7 +2273,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   value={reflectionAnswers.q2}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q2: e.target.value }))}
                   placeholder="e.g. Finance looks ahead to source funds while Accounting looks back to record historical data..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none h-20"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none h-20"
                 />
               </div>
               <div>
@@ -2284,7 +2284,7 @@ function C9_CommercialStudiesAidsTradeBankingSim({
                   value={reflectionAnswers.q3}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q3: e.target.value }))}
                   placeholder="e.g. Deciding between a partnership and an LLP when launching a startup to protect personal assets..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none h-20"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none h-20"
                 />
               </div>
             </div>
@@ -2310,9 +2310,9 @@ function C9_CommercialStudiesAidsTradeBankingSim({
           )}
 
           {/* Spaced Repetition Schedule Banner */}
-          <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800/50 flex items-center justify-between text-xs">
-            <span className="text-indigo-200 font-medium">Spaced Repetition (SM-2): Next Automated Review Scheduled in:</span>
-            <span className="px-3 py-1 bg-indigo-600 text-white font-bold rounded-lg">
+          <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800/50 flex items-center justify-between text-xs">
+            <span className="text-gold-200 font-medium">Spaced Repetition (SM-2): Next Automated Review Scheduled in:</span>
+            <span className="px-3 py-1 bg-gold-600 text-white font-bold rounded-lg">
               {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
             </span>
           </div>

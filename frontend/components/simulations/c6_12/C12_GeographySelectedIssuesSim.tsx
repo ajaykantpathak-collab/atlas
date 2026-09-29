@@ -114,7 +114,7 @@ export function C12_GeographySelectedIssuesSim() {
               { l: 'Urban population pressure', v: city, set: setCity, c: 'accent-pink-500', t: 'pink' },
               { l: 'Vehicles (lakhs)', v: vehicles, set: setVehicles, c: 'accent-amber-500', t: 'amber' },
               { l: 'Construction activity', v: construction, set: setConstruction, c: 'accent-stone-400', t: 'stone' },
-              { l: 'Groundwater pumping', v: pumping, set: setPumping, c: 'accent-sky-500', t: 'sky' }
+              { l: 'Groundwater pumping', v: pumping, set: setPumping, c: 'accent-gold-500', t: 'sky' }
             ].map((s) => (
               <div key={s.l}>
                 <div className="flex justify-between text-[11px] text-slate-400">

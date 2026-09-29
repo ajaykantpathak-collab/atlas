@@ -11,7 +11,7 @@ export const w_c11_psywhatispsychologycbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Functionalism: William James and Stream of Consciousness',
     chapters: [],
     nodeIds: ['c11_psy_cbse_01_005', 'c11_psy_cbse_06_008', 'c11_psy_cbse_03_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re watching a cricket match on TV while simultaneously thinking about your upcoming exam, hearing.', goal: 'Master Functionalism: William James and Stream of Consciousness.' },
     discovery: {
         question: 'Critique this statement using James\'s principles: "Since consciousness is a continuous stream, we can never scientifically study it—science requires fixed,.',
@@ -20,7 +20,7 @@ export const w_c11_psywhatispsychologycbsesim: SimDef = {
         hook: 'Students confuse "stream of consciousness" with "stream of thought" in literature (e.g., Joyce, Woolf), assuming James.',
     },
     teaching: [
-        { title: 'Functionalism is a school of psychology.', text: 'Functionalism is a school of psychology founded by William James that studies the adaptive functions of consciousness and behaviour—how mental processes help organisms survive and adjust to their.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Functionalism is a school of psychology.', text: 'Functionalism is a school of psychology founded by William James that studies the adaptive functions of consciousness and behaviour—how mental processes help organisms survive and adjust to their.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_01_005', title: 'Functionalism is a school of psychology.',

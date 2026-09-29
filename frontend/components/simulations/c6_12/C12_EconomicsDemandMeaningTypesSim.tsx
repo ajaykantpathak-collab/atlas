@@ -1149,7 +1149,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
           <motion.div
             whileHover={{ scale: 1.01 }}
-            className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-emerald-800/30 shadow-xl relative overflow-hidden"
+            className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-800/30 shadow-xl relative overflow-hidden"
           >
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-emerald-500/10 rounded-full blur-3xl" />
             <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">
@@ -1384,8 +1384,8 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/40 space-y-3">
-                      <span className="text-xs font-bold text-indigo-300 uppercase">Predict First</span>
+                    <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/40 space-y-3">
+                      <span className="text-xs font-bold text-gold-300 uppercase">Predict First</span>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1426,7 +1426,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <label htmlFor="income-slider">Consumer Income (Y) [Causes Shift]:</label>
-                          <span className="text-indigo-400 font-mono">Index {simIncome}</span>
+                          <span className="text-gold-400 font-mono">Index {simIncome}</span>
                         </div>
                         <input
                           id="income-slider"
@@ -1436,7 +1436,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                           max={90}
                           value={simIncome}
                           onChange={(e) => handleIncomeChange(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1539,7 +1539,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-center">
-                        <span className="text-xs text-indigo-400 font-bold uppercase">Household A (dA)</span>
+                        <span className="text-xs text-gold-400 font-bold uppercase">Household A (dA)</span>
                         <div className="text-2xl font-black text-white mt-1">{marketSumData.qa} units</div>
                         <span className="text-[10px] text-slate-500">Equation: 50 - 1.2*P</span>
                       </div>
@@ -1624,7 +1624,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                               ? 'text-rose-400'
                               : utilitySchedule[snackCount - 1]?.mu === 0
                               ? 'text-amber-400'
-                              : 'text-indigo-400'
+                              : 'text-gold-400'
                           }`}
                         >
                           {utilitySchedule[snackCount - 1]?.mu} Utils
@@ -1708,7 +1708,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <label htmlFor="mum-slider">Marginal Utility of Money (MUm):</label>
-                        <span className="font-mono text-indigo-400 font-bold">{marginalUtilMoney} utils/₹</span>
+                        <span className="font-mono text-gold-400 font-bold">{marginalUtilMoney} utils/₹</span>
                       </div>
                       <input
                         id="mum-slider"
@@ -1719,7 +1719,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                         step={0.1}
                         value={marginalUtilMoney}
                         onChange={(e) => handleMUmChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1861,7 +1861,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                     max={90}
                     value={simIncome}
                     onChange={(e) => handleIncomeChange(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -1899,7 +1899,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col justify-between">
-                <span className="text-xs font-bold text-indigo-400 uppercase">Instant Microeconomic Summary</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Instant Microeconomic Summary</span>
                 <div className="text-xs text-slate-300 space-y-1 my-2">
                   <div>
                     Quantity Demanded: <span className="text-emerald-400 font-bold">{demandCurveData.currentQ}</span>
@@ -1944,7 +1944,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/70 border-emerald-500 text-emerald-400'
                   : difficulty === 'standard'
-                  ? 'bg-indigo-950/70 border-indigo-500 text-indigo-400'
+                  ? 'bg-gold-950/70 border-gold-500 text-gold-400'
                   : 'bg-rose-950/70 border-rose-500 text-rose-400'
               }`}
             >
@@ -2247,7 +2247,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 w-36">
                 <span className="text-xs text-slate-400">Mastery Level</span>
-                <div className="text-2xl font-black text-indigo-400 mt-1 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</div>
               </div>
             </div>
 
@@ -2277,7 +2277,7 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <h4 className="text-xs font-bold uppercase text-indigo-400">Question 2</h4>
+                <h4 className="text-xs font-bold uppercase text-gold-400">Question 2</h4>
                 <p className="text-sm text-slate-200 font-semibold">How would you explain this to a friend?</p>
                 <p className="text-xs text-slate-400">
                   Explain consumer equilibrium (MUx/Px = MUm) using everyday canteen snacks and rupees spent.
@@ -2330,8 +2330,8 @@ function C12_EconomicsDemandMeaningTypesSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* Real World Executive Activity */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/50 to-slate-900 rounded-3xl border border-indigo-800/40 space-y-4">
-            <h3 className="text-lg font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 to-slate-900 rounded-3xl border border-gold-800/40 space-y-4">
+            <h3 className="text-lg font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-slate-300 text-xs leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

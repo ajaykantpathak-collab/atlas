@@ -11,7 +11,7 @@ export const w_c11_geographyremotesensingsim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Remote Sensing: Definition, Principle and Stages',
     chapters: [],
     nodeIds: ['c11_geo_cbse_26_001', 'c11_geo_cbse_26_002', 'c11_geo_cbse_26_003', 'c11_geo_cbse_26_004', 'c11_geo_cbse_26_005', 'c11_geo_cbse_26_006', 'c11_geo_cbse_26_007', 'c11_geo_cbse_26_008', 'c11_geo_cbse_25_008', 'c11_geo_cbse_13_006', 'c11_geo_cbse_18_002', 'c11_geo_cbse_22_002', 'c11_geo_cbse_25_003', 'c11_geo_cbse_25_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Look at your smartphone camera — it captures images by detecting visible light reflected off objects.', goal: 'Master Remote Sensing: Definition, Principle and Stages.' },
     discovery: {
         question: 'Evaluate the statement: "Higher spatial resolution always produces better thematic maps for agricultural monitoring." Justify with two arguments considering.',
@@ -20,7 +20,7 @@ export const w_c11_geographyremotesensingsim: SimDef = {
         hook: 'Students believe "remote sensing = satellite photography" and that FCC images show "real colours" of Earth.',
     },
     teaching: [
-        { title: 'Remote sensing is the science and technology.', text: 'Remote sensing is the science and technology of acquiring information about objects or phenomena on Earth\'s surface without physical contact, by detecting and measuring electromagnetic radiation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Remote sensing is the science and technology.', text: 'Remote sensing is the science and technology of acquiring information about objects or phenomena on Earth\'s surface without physical contact, by detecting and measuring electromagnetic radiation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_26_001', title: 'Remote sensing is the science and.',

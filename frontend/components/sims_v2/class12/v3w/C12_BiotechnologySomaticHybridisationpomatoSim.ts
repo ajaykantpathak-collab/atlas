@@ -11,7 +11,7 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Cell Totipotency: Concept and Biological Basis',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_009', 'c12_biotech_cbse_06_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you take a tiny piece of carrot root (a fully differentiated, orange, non-dividing cell) and place it.', goal: 'Master Cell Totipotency: Concept and Biological Basis.' },
     discovery: {
         question: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
         hook: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
     },
     teaching: [
-        { title: 'Cell totipotency is the inherent genetic.', text: 'Cell totipotency is the inherent genetic potential of a single plant cell to dedifferentiate, divide, and regenerate into a complete, fertile plant under appropriate in vitro culture conditions,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Cell totipotency is the inherent genetic.', text: 'Cell totipotency is the inherent genetic potential of a single plant cell to dedifferentiate, divide, and regenerate into a complete, fertile plant under appropriate in vitro culture conditions,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_001', title: 'Cell totipotency is the inherent.',

@@ -11,11 +11,11 @@ export const w_c11_sociologytoolsdatacollectionsim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Objectivity and Subjectivity in Social Research',
     chapters: [],
     nodeIds: ['c11_soc_cbse_05_002', 'c11_soc_cbse_05_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a sociologist studying the impact of a new metro rail project on street vendors in your city.', goal: 'Master Objectivity and Subjectivity in Social Research.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Objectivity in social research refers to the.', text: 'Objectivity in social research refers to the ideal of producing knowledge that is unbiased, neutral, and based solely on verifiable facts, independent of the researcher\'s personal values, beliefs, or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Objectivity in social research refers to the.', text: 'Objectivity in social research refers to the ideal of producing knowledge that is unbiased, neutral, and based solely on verifiable facts, independent of the researcher\'s personal values, beliefs, or.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_05_002', title: 'Objectivity in social research refers.',

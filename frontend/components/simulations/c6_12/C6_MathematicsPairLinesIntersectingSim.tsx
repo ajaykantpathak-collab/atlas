@@ -1273,13 +1273,13 @@ function C6_MathematicsPairLinesIntersectingSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded-full border border-gold-800">
                 Class 6 ICSE Math
               </span>
               <span className="text-xs text-slate-400">Node Cluster: c6_math_061 to 070</span>
@@ -1301,7 +1301,7 @@ function C6_MathematicsPairLinesIntersectingSim({
               }}
               className={`px-3 py-1.5 rounded-lg capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1325,7 +1325,7 @@ function C6_MathematicsPairLinesIntersectingSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="relative overflow-hidden p-6 md:p-8 rounded-2xl bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 border border-indigo-700/40 shadow-xl"
+              className="relative overflow-hidden p-6 md:p-8 rounded-2xl bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 border border-gold-700/40 shadow-xl"
             >
               <div className="max-w-2xl">
                 <span className="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-950/60 px-2.5 py-1 rounded-md border border-amber-800/60 inline-block mb-3">
@@ -1333,7 +1333,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                 </span>
                 <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
                 <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
-                <p className="text-xs text-indigo-300 bg-indigo-950/50 p-3 rounded-xl border border-indigo-900">
+                <p className="text-xs text-gold-300 bg-gold-950/50 p-3 rounded-xl border border-gold-900">
                   💡 <span className="font-semibold text-white">Your Mission:</span> {SCENARIO.context}
                 </p>
               </div>
@@ -1368,7 +1368,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                         : 'bg-slate-900/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">
+                    <span className="font-bold mr-2 text-gold-400">
                       {String.fromCharCode(65 + i)}.
                     </span>
                     {opt}
@@ -1380,7 +1380,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-5 p-4 rounded-xl bg-indigo-950/60 border border-indigo-700 flex flex-wrap items-center justify-between gap-4"
+                  className="mt-5 p-4 rounded-xl bg-gold-950/60 border border-gold-700 flex flex-wrap items-center justify-between gap-4"
                 >
                   <div>
                     <p
@@ -1396,7 +1396,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-indigo-500/25 transition-all"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-gold-500/25 transition-all"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1422,7 +1422,7 @@ function C6_MathematicsPairLinesIntersectingSim({
               className="flex items-center justify-between bg-slate-950 p-3 rounded-2xl border border-slate-800"
             >
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 bg-indigo-950 px-2.5 py-1 rounded-md border border-indigo-800">
+                <span className="text-xs font-bold text-gold-400 bg-gold-950 px-2.5 py-1 rounded-md border border-gold-800">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-sm md:text-base font-bold text-white">
@@ -1435,7 +1435,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     key={idx}
                     animate={{ width: idx === currentSlide ? 24 : 8 }}
                     className={`h-2 rounded-full transition-all ${
-                      idx === currentSlide ? 'bg-indigo-500' : 'bg-slate-700'
+                      idx === currentSlide ? 'bg-gold-500' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -1522,7 +1522,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                       className="space-y-4 bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col justify-between"
                     >
                       <div>
-                        <span className="text-xs uppercase font-bold text-indigo-400">Real-Time Classification</span>
+                        <span className="text-xs uppercase font-bold text-gold-400">Real-Time Classification</span>
                         <h4 className="text-lg font-black text-white mt-1">{angleCategoryName}</h4>
 
                         <div className="mt-4 p-3 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300 space-y-1.5">
@@ -1559,7 +1559,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                             setAngleSlider(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         />
                       </div>
                     </motion.div>
@@ -1569,7 +1569,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60"
+                    className="p-4 rounded-xl bg-gold-950/40 border border-gold-800/60"
                   >
                     {!predictionMade ? (
                       <div className="space-y-2">
@@ -1642,7 +1642,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                       className="space-y-4 bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col justify-between"
                     >
                       <div>
-                        <span className="text-xs uppercase font-bold text-indigo-400">Simultaneous Classifications</span>
+                        <span className="text-xs uppercase font-bold text-gold-400">Simultaneous Classifications</span>
                         <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                           <div>
                             <p className="text-xs text-slate-400 font-semibold">1. Basis of SIDES:</p>
@@ -1767,7 +1767,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                       className="space-y-4 bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col justify-between"
                     >
                       <div>
-                        <span className="text-xs uppercase font-bold text-indigo-400">Polygon Geometry</span>
+                        <span className="text-xs uppercase font-bold text-gold-400">Polygon Geometry</span>
                         <h4 className="text-xl font-black text-white mt-1">
                           {isRegularPolygon ? 'Regular' : 'Non-Regular (Irregular)'}{' '}
                           {polygonSides === 3
@@ -1790,7 +1790,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                           </motion.div>
                           <motion.div whileHover={{ scale: 1.05 }}>
                             <p className="text-xs text-slate-400">Vertices</p>
-                            <p className="text-lg font-black text-indigo-400">{polygonSides}</p>
+                            <p className="text-lg font-black text-gold-400">{polygonSides}</p>
                           </motion.div>
                           <motion.div whileHover={{ scale: 1.05 }}>
                             <p className="text-xs text-slate-400">Angles</p>
@@ -1828,7 +1828,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                             setPolygonSides(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         />
                       </div>
                     </motion.div>
@@ -1896,7 +1896,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                       className="space-y-4 bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col justify-between"
                     >
                       <div>
-                        <span className="text-xs uppercase font-bold text-indigo-400">Solid Elements Inspector</span>
+                        <span className="text-xs uppercase font-bold text-gold-400">Solid Elements Inspector</span>
                         <h4 className="text-xl font-black text-white mt-1">{solidDetails.name}</h4>
 
                         <div className="mt-3 grid grid-cols-3 gap-2 bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
@@ -1910,7 +1910,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                           </motion.div>
                           <motion.div whileHover={{ scale: 1.05 }}>
                             <p className="text-xs text-slate-400">Vertices (V)</p>
-                            <p className="text-lg font-black text-indigo-400">{solidDetails.vertices}</p>
+                            <p className="text-lg font-black text-gold-400">{solidDetails.vertices}</p>
                           </motion.div>
                         </div>
 
@@ -1932,7 +1932,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                             }}
                             className={`p-2 rounded-lg text-xs font-bold capitalize transition-all ${
                               selectedSolid === s
-                                ? 'bg-indigo-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                             }`}
                           >
@@ -1995,7 +1995,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                       className="space-y-4 bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col justify-between"
                     >
                       <div>
-                        <span className="text-xs uppercase font-bold text-indigo-400">Reflection Axis Analysis</span>
+                        <span className="text-xs uppercase font-bold text-gold-400">Reflection Axis Analysis</span>
                         <h4 className="text-xl font-black text-white mt-1">{symmetryInfo.name}</h4>
                         <p className="text-sm font-bold text-amber-400 mt-1">
                           Total Axes: {symmetryInfo.axes === Infinity ? '∞ (Infinitely Many)' : symmetryInfo.axes}
@@ -2019,7 +2019,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                               }}
                               className={`px-2.5 py-1 rounded text-xs font-bold capitalize transition-all ${
                                 activeSymmetryShape === sh
-                                  ? 'bg-indigo-600 text-white'
+                                  ? 'bg-gold-600 text-white'
                                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                               }`}
                             >
@@ -2099,7 +2099,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     setCurrentSlide((s) => s + 1);
                     audioManager.play('whoosh');
                   }}
-                  className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm transition-all shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm transition-all shadow-lg shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -2146,7 +2146,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-bold text-sm rounded-xl shadow-xl shadow-indigo-600/30"
+                className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 text-white font-bold text-sm rounded-xl shadow-xl shadow-gold-600/30"
               >
                 Ready for Architect Challenges! →
               </motion.button>
@@ -2171,7 +2171,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                         audioManager.play('tap');
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize ${
-                        sandboxLineType === t ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        sandboxLineType === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {t}
@@ -2227,7 +2227,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                         audioManager.play('tap');
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize ${
-                        sandboxSolidInspect === sol ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        sandboxSolidInspect === sol ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {sol}
@@ -2249,7 +2249,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                   {sandboxSolidInspect === 'prism' && (
                     <p>Triangular Prism: 5 faces (2 triangles + 3 rectangles) | Edges: 9 | Vertices: 6</p>
                   )}
-                  <p className="text-indigo-400 font-semibold pt-1">
+                  <p className="text-gold-400 font-semibold pt-1">
                     Euler Formula Test: F + V = E + 2 holds true for all flat polyhedra!
                   </p>
                 </div>
@@ -2279,7 +2279,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                 </span>
                 <h3 className="text-base font-bold text-white mt-0.5">
                   Competency Level:{' '}
-                  <span className="text-indigo-400 capitalize">{challenge.competencyLevel}</span>
+                  <span className="text-gold-400 capitalize">{challenge.competencyLevel}</span>
                 </h3>
               </div>
 
@@ -2311,7 +2311,7 @@ function C6_MathematicsPairLinesIntersectingSim({
             {/* Progress Bar */}
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 initial={{ width: 0 }}
                 animate={{
                   width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
@@ -2355,7 +2355,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                             : 'bg-slate-950/80 hover:bg-slate-800/80 border-slate-800 text-slate-200'
                         }`}
                       >
-                        <span className="font-bold text-indigo-400 mr-2">
+                        <span className="font-bold text-gold-400 mr-2">
                           {String.fromCharCode(65 + i)}.
                         </span>
                         {opt}
@@ -2378,7 +2378,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                        className="px-3.5 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2415,7 +2415,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     transition={{ duration: 0.4 }}
                     onClick={(e) => handleAnswer(droppedLabels, e)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                   >
                     Verify Drag Labels
                   </motion.button>
@@ -2443,7 +2443,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                       className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{idx + 1}.</strong>
+                        <strong className="text-gold-400 mr-2">{idx + 1}.</strong>
                         {item}
                       </span>
                       <span className="text-slate-500">☰</span>
@@ -2457,7 +2457,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     transition={{ duration: 0.4 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm mt-2"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm mt-2"
                   >
                     Check Sequence Order
                   </motion.button>
@@ -2473,7 +2473,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter exact number"
                     aria-label="Numeric challenge input"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-44"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-44"
                   />
                   <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2483,7 +2483,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     transition={{ duration: 0.4 }}
                     disabled={showExplanation || numericInput === ''}
                     onClick={(e) => handleAnswer(numericInput, e)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow"
                   >
                     Submit Value
                   </motion.button>
@@ -2504,7 +2504,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                           setConstructParts((prev) => [...prev, part]);
                           audioManager.play('tap');
                         }}
-                        className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-semibold"
+                        className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 rounded-lg text-xs font-semibold"
                       >
                         + {part}
                       </motion.button>
@@ -2518,7 +2518,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-600 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow"
+                        className="px-3 py-1 bg-gold-600 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow"
                       >
                         {p}
                         <motion.button
@@ -2527,7 +2527,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                           onClick={() =>
                             setConstructParts((prev) => prev.filter((_, i) => i !== idx))
                           }
-                          className="text-indigo-200 hover:text-white ml-1"
+                          className="text-gold-200 hover:text-white ml-1"
                         >
                           ✕
                         </motion.button>
@@ -2630,7 +2630,7 @@ function C6_MathematicsPairLinesIntersectingSim({
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-8 rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 border border-emerald-500/50 text-center shadow-2xl space-y-4"
+              className="p-8 rounded-3xl bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 border border-emerald-500/50 text-center shadow-2xl space-y-4"
             >
               <motion.span
                 animate={{ rotate: [0, -10, 10, -10, 0], scale: [1, 1.2, 1] }}
@@ -2662,7 +2662,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                   className="px-5 py-3 rounded-2xl bg-slate-900/80 border border-slate-700 text-center"
                 >
                   <span className="text-xs text-slate-400 uppercase font-bold">Mastery Level</span>
-                  <p className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</p>
+                  <p className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</p>
                 </motion.div>
               </div>
             </motion.div>
@@ -2712,11 +2712,11 @@ function C6_MathematicsPairLinesIntersectingSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-800 text-xs text-slate-300 flex items-center justify-between"
+              className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800 text-xs text-slate-300 flex items-center justify-between"
             >
               <div>
                 <p className="font-bold text-white">📅 Spaced Repetition Schedule (SM-2)</p>
-                <p className="text-indigo-300 mt-0.5">
+                <p className="text-gold-300 mt-0.5">
                   Next memory reinforcement review recommended in{' '}
                   <span className="font-bold text-white">
                     {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
@@ -2742,7 +2742,7 @@ function C6_MathematicsPairLinesIntersectingSim({
                     whileHover={{ scale: 1.02 }}
                     className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-300"
                   >
-                    <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span> {st}
+                    <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {st}
                   </motion.div>
                 ))}
               </div>

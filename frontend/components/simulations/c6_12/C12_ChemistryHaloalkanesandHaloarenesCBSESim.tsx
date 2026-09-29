@@ -443,11 +443,11 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
       {/* Header Bar */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-50">
         <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-tr from-cyan-500 to-blue-600 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-white shadow-lg shadow-cyan-500/20">
+          <div className="bg-gradient-to-tr from-gold-500 to-gold-600 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-white shadow-lg shadow-gold-500/20">
             C12
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 to-emerald-400 bg-clip-text text-transparent">
               Haloalkanes & Haloarenes
             </h1>
             <p className="text-xs text-slate-400">CBSE Class 12 Chemistry • Chapter 10 Master Engine</p>
@@ -459,7 +459,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
           <button
             onClick={() => { setActiveTab('classification'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'classification' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'classification' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             1. Classification
@@ -467,7 +467,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
           <button
             onClick={() => { setActiveTab('bond_props'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'bond_props' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'bond_props' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             2. C-X & Physical Props
@@ -475,7 +475,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
           <button
             onClick={() => { setActiveTab('reactions'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'reactions' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'reactions' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             3. Reactions & SN1/SN2
@@ -483,7 +483,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
           <button
             onClick={() => { setActiveTab('stereochem'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'stereochem' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'stereochem' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             4. Stereochemistry
@@ -491,7 +491,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
           <button
             onClick={() => { setActiveTab('polyhalogen'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'polyhalogen' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'polyhalogen' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             5. Polyhalogens
@@ -522,8 +522,8 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
               {/* Interactive Visualizer */}
               <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
                 <div>
-                  <h2 className="text-lg font-bold text-cyan-400 mb-2 flex items-center gap-2">
-                    <span className="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+                  <h2 className="text-lg font-bold text-gold-400 mb-2 flex items-center gap-2">
+                    <span className="w-2.5 h-2.5 rounded-full bg-gold-400"></span>
                     Molecular Structure & Hybridisation Explorer
                   </h2>
                   <p className="text-xs text-slate-400 mb-6">
@@ -535,7 +535,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       onClick={() => { setSelectedMolecule('alkyl1'); audioManager.play('pop'); }}
                       className={`p-2.5 rounded-xl border text-xs font-medium text-left transition ${
                         selectedMolecule === 'alkyl1'
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -546,7 +546,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       onClick={() => { setSelectedMolecule('alkyl3'); audioManager.play('pop'); }}
                       className={`p-2.5 rounded-xl border text-xs font-medium text-left transition ${
                         selectedMolecule === 'alkyl3'
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -557,7 +557,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       onClick={() => { setSelectedMolecule('allylic'); audioManager.play('pop'); }}
                       className={`p-2.5 rounded-xl border text-xs font-medium text-left transition ${
                         selectedMolecule === 'allylic'
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -568,7 +568,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       onClick={() => { setSelectedMolecule('benzylic'); audioManager.play('pop'); }}
                       className={`p-2.5 rounded-xl border text-xs font-medium text-left transition ${
                         selectedMolecule === 'benzylic'
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -579,7 +579,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       onClick={() => { setSelectedMolecule('vinylic'); audioManager.play('pop'); }}
                       className={`p-2.5 rounded-xl border text-xs font-medium text-left transition ${
                         selectedMolecule === 'vinylic'
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -590,7 +590,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       onClick={() => { setSelectedMolecule('aryl'); audioManager.play('pop'); }}
                       className={`p-2.5 rounded-xl border text-xs font-medium text-left transition ${
                         selectedMolecule === 'aryl'
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -705,26 +705,26 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   <h3 className="text-base font-bold text-slate-100 mb-2">Classification Key Concepts</h3>
                   <div className="space-y-3 text-xs text-slate-300 leading-relaxed">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">1. sp³ C-X Compounds ({NODE_IDS.c12_chem_cbse_302}):</span>
+                      <span className="text-gold-400 font-bold">1. sp³ C-X Compounds ({NODE_IDS.c12_chem_cbse_302}):</span>
                       <p className="mt-1 text-slate-400">
                         Halogen bonded to an sp³-hybridised carbon. Classified as 1° (primary), 2° (secondary), or 3° (tertiary) depending on the number of attached alkyl groups.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">2. Allylic & Benzylic ({NODE_IDS.c12_chem_cbse_303}):</span>
+                      <span className="text-gold-400 font-bold">2. Allylic & Benzylic ({NODE_IDS.c12_chem_cbse_303}):</span>
                       <p className="mt-1 text-slate-400">
                         Allylic: halogen attached to sp³ carbon next to C=C double bond.<br />
                         Benzylic: halogen attached to sp³ carbon directly linked to aromatic ring. Show strong resonance carbocation stability.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">3. sp² C-X Compounds ({NODE_IDS.c12_chem_cbse_304}):</span>
+                      <span className="text-gold-400 font-bold">3. sp² C-X Compounds ({NODE_IDS.c12_chem_cbse_304}):</span>
                       <p className="mt-1 text-slate-400">
                         Vinylic (C=C-X) and Aryl halides (Ar-X). Higher s-character (33%) makes sp² C more electronegative, forming shorter, stronger C-X bonds that are unreactive to nucleophilic attack.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">4. IUPAC Locants ({NODE_IDS.c12_chem_cbse_306}):</span>
+                      <span className="text-gold-400 font-bold">4. IUPAC Locants ({NODE_IDS.c12_chem_cbse_306}):</span>
                       <p className="mt-1 text-slate-400">
                         1,2-dihalobenzene = <em>o-</em> (ortho); 1,3-dihalobenzene = <em>m-</em> (meta); 1,4-dihalobenzene = <em>p-</em> (para).
                       </p>
@@ -747,7 +747,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
               {/* Halogen Interactive Parameter Selector */}
               <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
                 <div>
-                  <h2 className="text-lg font-bold text-cyan-400 mb-2">
+                  <h2 className="text-lg font-bold text-gold-400 mb-2">
                     C-X Bond Parameters & Trends Explorer
                   </h2>
                   <p className="text-xs text-slate-400 mb-4">
@@ -762,7 +762,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                         onClick={() => { setSelectedHalogen(hal); audioManager.play('tap'); }}
                         className={`flex-1 py-3 rounded-xl border font-bold text-sm transition ${
                           selectedHalogen === hal
-                            ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg shadow-cyan-600/30'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -775,7 +775,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
                       <div className="text-xs text-slate-400">Bond Length ({NODE_IDS.c12_chem_cbse_308})</div>
-                      <div className="text-xl font-bold text-cyan-400 mt-1">{activeCX.length}</div>
+                      <div className="text-xl font-bold text-gold-400 mt-1">{activeCX.length}</div>
                       <div className="text-[10px] text-slate-500 mt-1">Increases down group (size increases)</div>
                     </div>
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
@@ -798,7 +798,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   {/* Bond Visualiser Representation */}
                   <div className="p-6 bg-slate-950 border border-slate-800 rounded-xl flex items-center justify-center gap-6">
                     <div className="flex flex-col items-center">
-                      <div className="w-12 h-12 rounded-full fill-cyan-400 bg-cyan-500/20 border-2 border-cyan-400 flex items-center justify-center font-bold text-cyan-300">
+                      <div className="w-12 h-12 rounded-full fill-gold-400 bg-gold-500/20 border-2 border-gold-400 flex items-center justify-center font-bold text-gold-300">
                         δ+ C
                       </div>
                     </div>
@@ -807,7 +807,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                     <div className="flex-1 flex flex-col items-center">
                       <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden relative">
                         <div
-                          className="bg-gradient-to-r from-cyan-500 to-rose-500 h-full transition-all duration-500"
+                          className="bg-gradient-to-r from-gold-500 to-rose-500 h-full transition-all duration-500"
                           style={{
                             width:
                               selectedHalogen === 'F'
@@ -840,19 +840,19 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   <h3 className="text-base font-bold text-slate-100 mb-2">Physical Properties Insights</h3>
                   <div className="space-y-3 text-xs text-slate-300">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">1. Boiling Points ({NODE_IDS.c12_chem_cbse_315}):</span>
+                      <span className="text-gold-400 font-bold">1. Boiling Points ({NODE_IDS.c12_chem_cbse_315}):</span>
                       <p className="mt-1 text-slate-400">
                         Order: RI &gt; RBr &gt; RCl &gt; RF due to increasing molecular mass & van der Waals forces. Branching decreases surface area and lowers boiling point. Para-isomers have highest MP due to crystal symmetry.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">2. Density ({NODE_IDS.c12_chem_cbse_316}):</span>
+                      <span className="text-gold-400 font-bold">2. Density ({NODE_IDS.c12_chem_cbse_316}):</span>
                       <p className="mt-1 text-slate-400">
                         Bromo, iodo and polychloro derivatives are denser than water. Density increases with number of carbon atoms, halogen atoms, and atomic mass of halogen.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">3. Water Solubility ({NODE_IDS.c12_chem_cbse_317}):</span>
+                      <span className="text-gold-400 font-bold">3. Water Solubility ({NODE_IDS.c12_chem_cbse_317}):</span>
                       <p className="mt-1 text-slate-400">
                         Very slightly soluble in water because new haloalkane-water interactions are weaker than hydrogen bonds between water molecules. Highly soluble in organic solvents.
                       </p>
@@ -876,14 +876,14 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
               <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
                 <div>
                   <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-lg font-bold text-cyan-400">
+                    <h2 className="text-lg font-bold text-gold-400">
                       SN1 vs SN2 Reaction Simulator
                     </h2>
                     <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800">
                       <button
                         onClick={() => { setSnMechanism('SN2'); setSnProgress(0); audioManager.play('tap'); }}
                         className={`px-3 py-1 rounded-lg text-xs font-bold transition ${
-                          snMechanism === 'SN2' ? 'bg-cyan-600 text-white' : 'text-slate-400'
+                          snMechanism === 'SN2' ? 'bg-gold-600 text-white' : 'text-slate-400'
                         }`}
                       >
                         SN2 (Concerted)
@@ -891,7 +891,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                       <button
                         onClick={() => { setSnMechanism('SN1'); setSnProgress(0); audioManager.play('tap'); }}
                         className={`px-3 py-1 rounded-lg text-xs font-bold transition ${
-                          snMechanism === 'SN1' ? 'bg-cyan-600 text-white' : 'text-slate-400'
+                          snMechanism === 'SN1' ? 'bg-gold-600 text-white' : 'text-slate-400'
                         }`}
                       >
                         SN1 (Stepwise)
@@ -913,13 +913,13 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                     <button
                       onClick={handleStartSnAnim}
                       disabled={isSnAnimating}
-                      className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 disabled:opacity-50"
+                      className="px-5 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 disabled:opacity-50"
                     >
                       {isSnAnimating ? 'Simulating Reaction...' : '▶ Trigger Reaction Simulation'}
                     </button>
 
                     <div className="text-right text-xs text-slate-400">
-                      Mechanism Order: <span className="font-bold text-cyan-300">{snMechanism === 'SN2' ? '1° > 2° > 3°' : '3° > 2° > 1°'}</span>
+                      Mechanism Order: <span className="font-bold text-gold-300">{snMechanism === 'SN2' ? '1° > 2° > 3°' : '3° > 2° > 1°'}</span>
                     </div>
                   </div>
                 </div>
@@ -931,28 +931,28 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   <h3 className="text-base font-bold text-slate-100 mb-2">Key Chemical Reactions</h3>
                   <div className="space-y-3 text-xs text-slate-300">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Halogen Exchange ({NODE_IDS.c12_chem_cbse_312}):</span>
+                      <span className="text-gold-400 font-bold">Halogen Exchange ({NODE_IDS.c12_chem_cbse_312}):</span>
                       <p className="mt-1 text-slate-400">
                         • Finkelstein: R-Cl + NaI → R-I + NaCl↓ (in dry acetone)<br />
                         • Swarts: R-Cl + AgF → R-F + AgCl (Metals: AgF, Hg2F2, CoF2)
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Sandmeyer Reaction ({NODE_IDS.c12_chem_cbse_314}):</span>
+                      <span className="text-gold-400 font-bold">Sandmeyer Reaction ({NODE_IDS.c12_chem_cbse_314}):</span>
                       <p className="mt-1 text-slate-400">
                         Ar-NH2 + NaNO2 + 2HX (273-278K) → Ar-N2+ X- (Diazonium salt)<br />
                         Ar-N2+ X- + Cu2Cl2 → Ar-Cl + N2
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Ambident Nucleophiles ({NODE_IDS.c12_chem_cbse_322}):</span>
+                      <span className="text-gold-400 font-bold">Ambident Nucleophiles ({NODE_IDS.c12_chem_cbse_322}):</span>
                       <p className="mt-1 text-slate-400">
                         • KCN (ionic) → R-CN (Alkyl Cyanide)<br />
                         • AgCN (covalent) → R-NC (Isocyanide)
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Grignard & Wurtz ({NODE_IDS.c12_chem_cbse_327}, {NODE_IDS.c12_chem_cbse_328}):</span>
+                      <span className="text-gold-400 font-bold">Grignard & Wurtz ({NODE_IDS.c12_chem_cbse_327}, {NODE_IDS.c12_chem_cbse_328}):</span>
                       <p className="mt-1 text-slate-400">
                         • Grignard: R-X + Mg (dry ether) → R-MgX (Protic solvents protonate RMgX to R-H)<br />
                         • Wurtz: 2 R-X + 2 Na (dry ether) → R-R + 2 NaX
@@ -976,7 +976,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
               {/* Polarimeter Simulation */}
               <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
                 <div>
-                  <h2 className="text-lg font-bold text-cyan-400 mb-2">
+                  <h2 className="text-lg font-bold text-gold-400 mb-2">
                     Polarimeter & Chirality Simulator
                   </h2>
                   <p className="text-xs text-slate-400 mb-6">
@@ -987,7 +987,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                     <button
                       onClick={() => { setEnantiomerType('dextro'); setPolarimeterAngle(45); audioManager.play('pop'); }}
                       className={`flex-1 py-2.5 rounded-xl border text-xs font-bold transition ${
-                        enantiomerType === 'dextro' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        enantiomerType === 'dextro' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       (+) Dextrorotatory (d)
@@ -995,7 +995,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                     <button
                       onClick={() => { setEnantiomerType('laevo'); setPolarimeterAngle(-45); audioManager.play('pop'); }}
                       className={`flex-1 py-2.5 rounded-xl border text-xs font-bold transition ${
-                        enantiomerType === 'laevo' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        enantiomerType === 'laevo' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       (-) Laevorotatory (l)
@@ -1003,7 +1003,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                     <button
                       onClick={() => { setEnantiomerType('racemic'); setPolarimeterAngle(0); audioManager.play('pop'); }}
                       className={`flex-1 py-2.5 rounded-xl border text-xs font-bold transition ${
-                        enantiomerType === 'racemic' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        enantiomerType === 'racemic' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       (±) Racemic Mixture
@@ -1057,19 +1057,19 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   <h3 className="text-base font-bold text-slate-100 mb-2">Stereochemical Definitions</h3>
                   <div className="space-y-3 text-xs text-slate-300">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Chirality & Enantiomers ({NODE_IDS.c12_chem_cbse_324}):</span>
+                      <span className="text-gold-400 font-bold">Chirality & Enantiomers ({NODE_IDS.c12_chem_cbse_324}):</span>
                       <p className="mt-1 text-slate-400">
                         Molecules non-superimposable on their mirror images possess asymmetric carbons (stereocentres). Enantiomers rotate plane polarised light by equal magnitude in opposite directions.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Inversion (SN2) ({NODE_IDS.c12_chem_cbse_325}):</span>
+                      <span className="text-gold-400 font-bold">Inversion (SN2) ({NODE_IDS.c12_chem_cbse_325}):</span>
                       <p className="mt-1 text-slate-400">
                         Walden Inversion: Incoming nucleophile attacks from opposite side of leaving group, turning umbrella inside out.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Racemisation (SN1) ({NODE_IDS.c12_chem_cbse_325}):</span>
+                      <span className="text-gold-400 font-bold">Racemisation (SN1) ({NODE_IDS.c12_chem_cbse_325}):</span>
                       <p className="mt-1 text-slate-400">
                         Formation of 50:50 mixture of (+) and (-) enantiomers via planar carbocation, resulting in zero net optical activity.
                       </p>
@@ -1092,7 +1092,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
               {/* Interactive Iodoform Test Simulation */}
               <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
                 <div>
-                  <h2 className="text-lg font-bold text-cyan-400 mb-2">
+                  <h2 className="text-lg font-bold text-gold-400 mb-2">
                     Iodoform Lab Test Simulator (CHI₃)
                   </h2>
                   <p className="text-xs text-slate-400 mb-6">
@@ -1107,9 +1107,9 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                         audioManager.play('chime');
                         speechManager.speak('Positive iodoform test! Yellow CHI3 precipitate forms.');
                       }}
-                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-left hover:border-cyan-500 transition"
+                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-left hover:border-gold-500 transition"
                     >
-                      <div className="font-bold text-xs text-cyan-300">Ethanol / Acetone</div>
+                      <div className="font-bold text-xs text-gold-300">Ethanol / Acetone</div>
                       <div className="text-[10px] text-slate-400">Contains CH₃-CH(OH)- / CH₃-CO-</div>
                     </button>
                     <button
@@ -1119,9 +1119,9 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                         audioManager.play('error');
                         speechManager.speak('Negative test. No yellow precipitate.');
                       }}
-                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-left hover:border-cyan-500 transition"
+                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-left hover:border-gold-500 transition"
                     >
-                      <div className="font-bold text-xs text-cyan-300">Propan-1-ol / Benzene</div>
+                      <div className="font-bold text-xs text-gold-300">Propan-1-ol / Benzene</div>
                       <div className="text-[10px] text-slate-400">Lacks CH₃-CO- methyl ketone group</div>
                     </button>
                   </div>
@@ -1160,20 +1160,20 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   <h3 className="text-base font-bold text-slate-100 mb-2">Polyhalogen Compounds Summary</h3>
                   <div className="space-y-3 text-xs text-slate-300">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">DCM & Chloroform ({NODE_IDS.c12_chem_cbse_334}):</span>
+                      <span className="text-gold-400 font-bold">DCM & Chloroform ({NODE_IDS.c12_chem_cbse_334}):</span>
                       <p className="mt-1 text-slate-400">
                         • Dichloromethane (CH2Cl2): solvent, CNS harm.<br />
                         • Chloroform (CHCl3): oxidises in light/air to poisonous Phosgene gas (COCl2). Stored in dark sealed bottles.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">Freons & CCl4 ({NODE_IDS.c12_chem_cbse_267}):</span>
+                      <span className="text-gold-400 font-bold">Freons & CCl4 ({NODE_IDS.c12_chem_cbse_267}):</span>
                       <p className="mt-1 text-slate-400">
                         Freon-12 (CCl2F2) prepared via Swarts reaction. Extremely stable, releases Cl radicals in stratosphere destroying ozone layer.
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-cyan-400 font-bold">DDT & Environment ({NODE_IDS.c12_chem_cbse_268}, {NODE_IDS.c12_chem_cbse_269}):</span>
+                      <span className="text-gold-400 font-bold">DDT & Environment ({NODE_IDS.c12_chem_cbse_268}, {NODE_IDS.c12_chem_cbse_269}):</span>
                       <p className="mt-1 text-slate-400">
                         p,p&apos;-dichlorodiphenyltrichloroethane. Non-biodegradable fat-soluble insecticide causing severe bioaccumulation across food chains.
                       </p>
@@ -1197,7 +1197,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                 {/* Score & Progress Header */}
                 <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-800">
                   <div>
-                    <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       Question {currentChallengeIndex + 1} of {CHALLENGES.length}
                     </span>
                     <h3 className="text-lg font-bold text-white mt-1">
@@ -1218,9 +1218,9 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                 {/* Options List */}
                 <div className="space-y-3 mb-6">
                   {CHALLENGES[currentChallengeIndex].options.map((opt, idx) => {
-                    let btnStyle = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500';
+                    let btnStyle = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500';
                     if (selectedOption === idx) {
-                      btnStyle = 'bg-cyan-950 border-cyan-500 text-cyan-200';
+                      btnStyle = 'bg-gold-950 border-gold-500 text-gold-200';
                     }
                     if (isSubmitted) {
                       if (idx === CHALLENGES[currentChallengeIndex].correctIndex) {
@@ -1264,7 +1264,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                   ) : (
                     <button
                       onClick={nextChallenge}
-                      className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-xs rounded-xl shadow-lg"
+                      className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg"
                     >
                       {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Module'}
                     </button>
@@ -1281,7 +1281,7 @@ export function C12_ChemistryHaloalkanesandHaloarenesCBSESim() {
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-6 p-4 bg-slate-950 border border-slate-800 rounded-xl text-xs"
                   >
-                    <span className="font-bold text-cyan-400">CBSE Solution Explanation:</span>
+                    <span className="font-bold text-gold-400">CBSE Solution Explanation:</span>
                     <p className="mt-1 text-slate-300 leading-relaxed">
                       {CHALLENGES[currentChallengeIndex].explanation}
                     </p>

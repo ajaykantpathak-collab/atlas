@@ -74,7 +74,7 @@ export function C11_BiologyExcretionNitrogenousWastesSim() {
           <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Waste molecule</p>
           {(['ammonia', 'urea', 'uric'] as Mode[]).map((k) => (
             <button key={k} onClick={() => setMode(k)}
-              className={`w-full min-h-11 px-3 rounded-xl text-xs font-bold border text-left transition-all ${mode === k ? 'border-indigo-400 bg-indigo-950/50' : 'border-slate-800 bg-slate-950 hover:border-slate-600'}`}>
+              className={`w-full min-h-11 px-3 rounded-xl text-xs font-bold border text-left transition-all ${mode === k ? 'border-gold-400 bg-gold-950/50' : 'border-slate-800 bg-slate-950 hover:border-slate-600'}`}>
               {MODES[k].name} <span className="text-slate-400">- needs {MODES[k].water} mL/g</span>
             </button>
           ))}
@@ -84,7 +84,7 @@ export function C11_BiologyExcretionNitrogenousWastesSim() {
           <div className="grid grid-cols-2 gap-2">
             {ANIMALS.map((a, i) => (
               <button key={a.name} onClick={() => pickAnimal(i)}
-                className={`min-h-11 px-2 rounded-xl text-[11px] font-bold border transition-all ${animal === i ? 'border-violet-400 bg-violet-950/50 text-violet-200' : 'border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-600'}`}>
+                className={`min-h-11 px-2 rounded-xl text-[11px] font-bold border transition-all ${animal === i ? 'border-gold-400 bg-gold-950/50 text-gold-200' : 'border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-600'}`}>
                 {a.name}
               </button>
             ))}
@@ -97,10 +97,10 @@ export function C11_BiologyExcretionNitrogenousWastesSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Water available per day</span>
-            <span className="text-sky-300 font-mono font-bold">{water} mL</span>
+            <span className="text-gold-300 font-mono font-bold">{water} mL</span>
           </label>
           <input type="range" min={5} max={600} step={5} value={water} aria-label="water available per day"
-            onChange={(e) => setWater(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+            onChange={(e) => setWater(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Waste to remove</span>
             <span className="text-amber-300 font-mono font-bold">{grams.toFixed(1)} g/day</span>
@@ -143,13 +143,13 @@ export function C11_BiologyExcretionNitrogenousWastesSim() {
             <p className="text-[10px] uppercase tracking-wider text-slate-400">Water needed</p>
             <p className="text-base font-extrabold font-mono text-amber-300">{needed.toFixed(0)} mL/day</p>
           </div>
-          <div className="p-2 rounded-xl bg-slate-950 border border-sky-800 text-center">
+          <div className="p-2 rounded-xl bg-slate-950 border border-gold-800 text-center">
             <p className="text-[10px] uppercase tracking-wider text-slate-400">Water available</p>
-            <p className="text-base font-extrabold font-mono text-sky-300">{water} mL/day</p>
+            <p className="text-base font-extrabold font-mono text-gold-300">{water} mL/day</p>
           </div>
           <div className="p-2 rounded-xl bg-slate-950 border border-slate-800 text-center">
             <p className="text-[10px] uppercase tracking-wider text-slate-400">Energy paid (per NH3)</p>
-            <p className="text-base font-extrabold font-mono text-violet-300">{m.atp} ATP</p>
+            <p className="text-base font-extrabold font-mono text-gold-300">{m.atp} ATP</p>
           </div>
           <div className={`p-2 rounded-xl border text-center ${safe ? 'bg-emerald-950/60 border-emerald-700' : 'bg-rose-950/60 border-rose-700'}`}>
             <p className="text-[10px] uppercase tracking-wider text-slate-400">Verdict</p>

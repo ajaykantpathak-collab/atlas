@@ -11,7 +11,7 @@ export const c6EngRiver: SimDef = {
     classLevel: 6, subject: 'english', topic: 'Prose: River Spoke',
     chapters: ['English U1: The Day the River Spoke'],
     nodeIds: ['c6_english_u1_001','c6_english_u1_002','c6_english_u1_003','c6_english_u1_004','c6_english_u1_005','c6_english_u1_009'],
-    emoji: '🌊', theme: { bg: 'from-sky-900 to-blue-800', accent: 'sky', scene: 'river' },
+    emoji: '🌊', theme: { bg: 'from-gold-900 to-gold-800', accent: 'sky', scene: 'river' },
     scenario: { role: "a literary detective", intro: "A river speaks to a girl named Jahnavi — but what does the story really mean?", goal: "Uncover the plot, character, and theme." },
     discovery: {
         question: "A river 'speaks' to Jahnavi in the story. What do you think 'speaking' means here?",
@@ -332,7 +332,7 @@ export const c6EngPoetry: SimDef = {
     classLevel: 6, subject: 'english', topic: 'Poetry: Devices',
     chapters: ['English: Poetic Devices across units'],
     // nodeIds intentionally omitted: every c6_english_u* node is owned by exactly one unit sim (c6_eng_river..c6_eng_soldiers); this cross-unit sim falls back to its own simId for mastery attribution.
-    emoji: '📜', theme: { bg: 'from-violet-900 to-purple-800', accent: 'violet', scene: 'poetry' },
+    emoji: '📜', theme: { bg: 'from-gold-900 to-purple-800', accent: 'violet', scene: 'poetry' },
     scenario: { role: "a poetry-detective", intro: "Poems use special tricks — rhyme, metaphor, imagery — to create magic with words.", goal: "Identify and understand poetic devices." },
     discovery: {
         question: "'The moon is a silver coin in the sky' — what makes this poetic?",
@@ -341,9 +341,9 @@ export const c6EngPoetry: SimDef = {
         hook: "Metaphor = saying one thing IS another to paint a picture!",
     },
     teaching: [
-        { title: 'Metaphor 🎭', text: 'Metaphor says one thing IS another: "The moon is a silver coin." It creates a vivid image without using "like" or "as."', emoji: '🎭', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'Metaphor 🎭', text: 'Metaphor says one thing IS another: "The moon is a silver coin." It creates a vivid image without using "like" or "as."', emoji: '🎭', bgColor: 'from-gold-500 to-purple-600' },
         { title: 'Imagery 🖼️', text: 'Imagery paints pictures with words — appeals to senses (sight, sound, smell, touch). "Golden fields danced in the wind."', emoji: '🖼️', bgColor: 'from-amber-500 to-orange-600' },
-        { title: 'Rhyme & Rhythm 🎵', text: 'Rhyme = matching end sounds (cat/hat). Rhythm = the beat of the poem. Together they make poetry musical.', emoji: '🎵', bgColor: 'from-sky-500 to-blue-600' },
+        { title: 'Rhyme & Rhythm 🎵', text: 'Rhyme = matching end sounds (cat/hat). Rhythm = the beat of the poem. Together they make poetry musical.', emoji: '🎵', bgColor: 'from-gold-500 to-gold-600' },
         { title: 'Personification 🌟', text: 'Personification gives human qualities to non-human things: "The wind whispered." Makes nature feel alive.', emoji: '🌟', bgColor: 'from-emerald-500 to-teal-600' },
     ],
     explore: { widget: 'tray', prompt: 'Sort each line into metaphor, imagery, or personification!' },
@@ -391,7 +391,7 @@ export const c6EngPoetryForms: SimDef = {
     },
     teaching: [
         { title: 'Limerick 😄', text: 'A limerick: 5 lines, AABBA rhyme, funny/bouncy. Lines 1,2,5 are long; 3,4 are short. Often silly!', emoji: '😄', bgColor: 'from-fuchsia-500 to-pink-600' },
-        { title: 'Free Verse 🌊', text: 'Free verse: no fixed rhyme or rhythm — flows naturally like speech. Modern poetry often uses it.', emoji: '🌊', bgColor: 'from-sky-500 to-blue-600' },
+        { title: 'Free Verse 🌊', text: 'Free verse: no fixed rhyme or rhythm — flows naturally like speech. Modern poetry often uses it.', emoji: '🌊', bgColor: 'from-gold-500 to-gold-600' },
         { title: 'Acrostic 🔤', text: 'An acrostic spells a word with the first letter of each line: S-U-N down the side spells "SUN." Hidden message!', emoji: '🔤', bgColor: 'from-amber-500 to-orange-600' },
         { title: 'Diamante 💎', text: 'A diamante is diamond-shaped: 7 lines, specific structure (noun, adjectives, -ing words, nouns...). Symmetrical!', emoji: '💎', bgColor: 'from-emerald-500 to-teal-600' },
     ],
@@ -429,7 +429,7 @@ export const c6EngGrammar: SimDef = {
     classLevel: 6, subject: 'english', topic: 'Grammar: Parts of Speech & Tense',
     chapters: ['English: Grammar across units'],
     // nodeIds intentionally omitted: every c6_english_u* node is owned by exactly one unit sim (c6_eng_river..c6_eng_soldiers); this cross-unit sim falls back to its own simId for mastery attribution.
-    emoji: '📐', theme: { bg: 'from-cyan-900 to-blue-800', accent: 'cyan', scene: 'grammar' },
+    emoji: '📐', theme: { bg: 'from-gold-900 to-gold-800', accent: 'cyan', scene: 'grammar' },
     scenario: { role: "a grammar-mechanic", intro: "Sentences have rules — nouns, pronouns, tenses, voice — that make meaning clear.", goal: "Master the core grammar tools." },
     discovery: {
         question: "'She gave it to him' — which words are pronouns replacing names?",
@@ -438,10 +438,10 @@ export const c6EngGrammar: SimDef = {
         hook: "Pronouns replace nouns — she, it, him stand in for actual names!",
     },
     teaching: [
-        { title: 'Nouns & Pronouns 🏷️', text: 'Nouns name (person, place, thing). Pronouns replace them (he, she, it, they). "Ravi" → "he."', emoji: '🏷️', bgColor: 'from-cyan-500 to-blue-600' },
+        { title: 'Nouns & Pronouns 🏷️', text: 'Nouns name (person, place, thing). Pronouns replace them (he, she, it, they). "Ravi" → "he."', emoji: '🏷️', bgColor: 'from-gold-500 to-gold-600' },
         { title: 'Tenses ⏰', text: 'Tense = when. Past (was, played), Present (is, plays), Future (will be, will play). Same action, different time!', emoji: '⏰', bgColor: 'from-amber-500 to-orange-600' },
         { title: 'Adjectives & Adverbs 🎨', text: 'Adjectives describe nouns (big, red). Adverbs describe verbs (quickly, slowly). They add color to sentences.', emoji: '🎨', bgColor: 'from-emerald-500 to-teal-600' },
-        { title: 'Active vs Passive 🔄', text: 'Active: subject does the action ("Ravi hit the ball"). Passive: subject receives it ("The ball was hit by Ravi"). Same event, different focus.', emoji: '🔄', bgColor: 'from-purple-500 to-indigo-600' },
+        { title: 'Active vs Passive 🔄', text: 'Active: subject does the action ("Ravi hit the ball"). Passive: subject receives it ("The ball was hit by Ravi"). Same event, different focus.', emoji: '🔄', bgColor: 'from-purple-500 to-gold-600' },
     ],
     explore: { widget: 'tray', prompt: 'Sort words into noun, pronoun, adjective, adverb!' },
     challenges: [
@@ -480,7 +480,7 @@ export const c6EngWriting: SimDef = {
     classLevel: 6, subject: 'english', topic: 'Writing: Letters & Composition',
     chapters: ['English: Writing across units'],
     // nodeIds intentionally omitted: every c6_english_u* node is owned by exactly one unit sim (c6_eng_river..c6_eng_soldiers); this cross-unit sim falls back to its own simId for mastery attribution.
-    emoji: '📝', theme: { bg: 'from-teal-900 to-cyan-800', accent: 'teal', scene: 'writing' },
+    emoji: '📝', theme: { bg: 'from-teal-900 to-gold-800', accent: 'teal', scene: 'writing' },
     scenario: { role: "a writer-in-training", intro: "Good writing has structure — letters have format, dialogues have flow, narratives have order.", goal: "Master the craft of clear writing." },
     discovery: {
         question: "What makes a formal letter different from a note to a friend?",
@@ -489,10 +489,10 @@ export const c6EngWriting: SimDef = {
         hook: "Formal = structured format + respectful tone; informal = relaxed + personal!",
     },
     teaching: [
-        { title: 'Letter Format ✉️', text: 'Formal letter: sender\'s address → date → receiver\'s address → salutation (Dear Sir/Madam) → body → closing (Yours faithfully) → signature.', emoji: '✉️', bgColor: 'from-teal-500 to-cyan-600' },
+        { title: 'Letter Format ✉️', text: 'Formal letter: sender\'s address → date → receiver\'s address → salutation (Dear Sir/Madam) → body → closing (Yours faithfully) → signature.', emoji: '✉️', bgColor: 'from-teal-500 to-gold-600' },
         { title: 'Dialogue Writing 💬', text: 'Dialogue shows conversation — use quotation marks, new line per speaker, and natural speech. "Hello!" she said.', emoji: '💬', bgColor: 'from-amber-500 to-orange-600' },
         { title: 'Narrative Structure 📖', text: 'A narrative has: beginning (setting + characters) → middle (problem/conflict) → end (resolution). Order matters!', emoji: '📖', bgColor: 'from-emerald-500 to-teal-600' },
-        { title: 'Tone Matters 🎭', text: 'Formal tone = respectful, no slang ("I request"). Informal = relaxed, personal ("Hey! Guess what"). Match tone to audience.', emoji: '🎭', bgColor: 'from-purple-500 to-indigo-600' },
+        { title: 'Tone Matters 🎭', text: 'Formal tone = respectful, no slang ("I request"). Informal = relaxed, personal ("Hey! Guess what"). Match tone to audience.', emoji: '🎭', bgColor: 'from-purple-500 to-gold-600' },
     ],
     explore: { widget: 'tray', prompt: 'Build a letter — put the parts in the right order!' },
     challenges: [
@@ -542,9 +542,9 @@ export const c6EngSpeaking: SimDef = {
     },
     teaching: [
         { title: 'Storytelling 🗣️', text: 'Good storytelling uses expression, varied pace, and character voices — it brings the story to life for the listener.', emoji: '🗣️', bgColor: 'from-orange-500 to-amber-600' },
-        { title: 'Recitation 📖', text: 'Reciting a poem aloud needs rhythm, clear pronunciation, and feeling — the voice carries the poem\'s music.', emoji: '📖', bgColor: 'from-sky-500 to-blue-600' },
+        { title: 'Recitation 📖', text: 'Reciting a poem aloud needs rhythm, clear pronunciation, and feeling — the voice carries the poem\'s music.', emoji: '📖', bgColor: 'from-gold-500 to-gold-600' },
         { title: 'Active Listening 👂', text: 'Listening well means paying attention, not interrupting, and responding to what was actually said — not just waiting to talk.', emoji: '👂', bgColor: 'from-emerald-500 to-teal-600' },
-        { title: 'Discussion Skills 💬', text: 'In a discussion: share ideas clearly, listen to others, build on their points, and disagree respectfully.', emoji: '💬', bgColor: 'from-purple-500 to-indigo-600' },
+        { title: 'Discussion Skills 💬', text: 'In a discussion: share ideas clearly, listen to others, build on their points, and disagree respectfully.', emoji: '💬', bgColor: 'from-purple-500 to-gold-600' },
     ],
     explore: { widget: 'tray', prompt: 'Match the skill to its key technique!' },
     challenges: [

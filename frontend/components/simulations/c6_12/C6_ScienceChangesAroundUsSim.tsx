@@ -168,15 +168,15 @@ function C6_ScienceChangesAroundUsSim() {
           <button onClick={next} className="w-full px-3 py-2 rounded-xl bg-slate-100 text-slate-500 text-xs font-bold hover:bg-slate-200 transition-colors">
             Surprise me (random pair)
           </button>
-          <div className="p-2 rounded-xl bg-sky-50 border-2 border-sky-200 text-[11px] text-sky-800 font-bold text-center">
+          <div className="p-2 rounded-xl bg-gold-50 border-2 border-gold-200 text-[11px] text-gold-800 font-bold text-center">
             Score: {score.right}/{score.tried}
           </div>
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Find TWO different ways to change chocolate reversibly. What do both ways have in common? (Hint: think temperature.)</li>
           <li>Ice + "Bend" is irreversible, but clay + "Bend" is reversible. Try both -- what is different about the MATERIALS?</li>
         </ol>

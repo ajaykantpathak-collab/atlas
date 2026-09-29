@@ -11,7 +11,7 @@ export const w_c9_biologyhealthorganizationswhosim: SimDef = {
     classLevel: 9, subject: 'biology', topic: 'Sexual Reproduction in Animals: Male and Female Systems',
     chapters: [],
     nodeIds: ['c9_bio_ch3_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Observe a common Indian household scene: a pet dog or stray cat giving birth to puppies/kittens, or hens.', goal: 'Master Sexual Reproduction in Animals: Male and Female Systems.' },
     discovery: {
         question: 'Name the primary sex organs (gonads) in male and female vertebrates and state the type of gamete each produces.',
@@ -20,7 +20,7 @@ export const w_c9_biologyhealthorganizationswhosim: SimDef = {
         hook: 'Students believe that in all animals, the male deposits sperm directly into the female\'s vagina (like humans), and that.',
     },
     teaching: [
-        { title: 'Sexual reproduction in animals is a.', text: 'Sexual reproduction in animals is a biological process where two parents contribute specialized haploid gametes (sperm from male, ovum from female) that fuse during fertilization to form a diploid.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Sexual reproduction in animals is a.', text: 'Sexual reproduction in animals is a biological process where two parents contribute specialized haploid gametes (sperm from male, ovum from female) that fuse during fertilization to form a diploid.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_bio_ch3_8', title: 'Sexual reproduction in animals is a.',

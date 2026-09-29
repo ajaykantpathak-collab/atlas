@@ -58,7 +58,7 @@ export function C7_MathematicsLargeNumbersAroundUsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Large Numbers Around Us</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Large Numbers Around Us</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Number display */}
@@ -81,7 +81,7 @@ export function C7_MathematicsLargeNumbersAroundUsSim() {
           {PLACES.map((p, i) => (
             <div key={p.name} className="bg-slate-950 rounded-xl p-2 text-center border border-slate-700">
               <div className="text-[9px] text-slate-400 leading-tight h-6 flex items-center justify-center">{p.name}</div>
-              <div className="font-mono text-2xl font-black text-sky-300">{digits[i]}</div>
+              <div className="font-mono text-2xl font-black text-gold-300">{digits[i]}</div>
               <div className="flex justify-center gap-1 mt-1">
                 <button
                   aria-label={`decrease ${p.name}`}
@@ -108,7 +108,7 @@ export function C7_MathematicsLargeNumbersAroundUsSim() {
         <span className="text-xs text-slate-300">x10 machine:</span>
         <button
           onClick={() => setX10count((k) => Math.min(6, k + 1))}
-          className="px-4 py-2 rounded-xl text-sm font-bold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500"
+          className="px-4 py-2 rounded-xl text-sm font-bold border bg-gold-600 border-gold-400 hover:bg-gold-500"
         >
           Multiply by 10
         </button>
@@ -144,8 +144,8 @@ export function C7_MathematicsLargeNumbersAroundUsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Press the x10 machine starting from 999. What happens to the display the FIRST time? Where did the new digit come from?</li>
           <li>Make the largest number with digits in DECREASING order and then the smallest with INCREASING order (no leading zero). How far apart are they?</li>

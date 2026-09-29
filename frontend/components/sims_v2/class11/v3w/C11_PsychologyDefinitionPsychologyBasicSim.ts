@@ -11,7 +11,7 @@ export const w_c11_psychologydefinitionpsychologybasicsim: SimDef = {
     classLevel: 11, subject: 'psychology', topic: 'Erikson\'s Stages of Psychosocial Development',
     chapters: [],
     nodeIds: ['c11_psy_cbse_03_006', 'c11_psy_cbse_02_008', 'c11_psy_cbse_07_002', 'c11_psy_cbse_08_005', 'c11_psy_cbse_03_001', 'c11_psy_cbse_03_002', 'c11_psy_cbse_03_005', 'c11_psy_cbse_03_009', 'c11_psy_cbse_01_004', 'c11_psy_cbse_01_007', 'c11_psy_cbse_02_003', 'c11_psy_cbse_02_009', 'c11_psy_cbse_08_008', 'c11_psy_cbse_08_009', 'c11_psy_cbse_05_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a 14-year-old student, Rohan, who suddenly refuses to attend family functions, experiments with.', goal: 'Master Erikson\'s Stages of Psychosocial Development.' },
     discovery: {
         question: 'A REMEMBER level question: List the eight psychosocial stages in correct sequential order along with their corresponding crises (e.g., Stage 1: Trust vs.',
@@ -20,7 +20,7 @@ export const w_c11_psychologydefinitionpsychologybasicsim: SimDef = {
         hook: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write:.',
     },
     teaching: [
-        { title: 'Erikson\'s psychosocial theory proposes eight.', text: 'Erikson\'s psychosocial theory proposes eight sequential stages across the lifespan, each defined by a specific psychosocial crisis (e.g., Trust vs.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Erikson\'s psychosocial theory proposes eight.', text: 'Erikson\'s psychosocial theory proposes eight sequential stages across the lifespan, each defined by a specific psychosocial crisis (e.g., Trust vs.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_03_006', title: 'Erikson\'s psychosocial theory proposes.',

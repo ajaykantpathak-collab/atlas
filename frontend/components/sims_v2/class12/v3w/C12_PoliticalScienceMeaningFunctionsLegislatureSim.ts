@@ -11,7 +11,7 @@ export const w_c12_politicalsciencemeaningfunctionslegislaturesim: SimDef = {
     classLevel: 12, subject: 'political_science', topic: 'Environmental Movements and the Politics of Development',
     chapters: [],
     nodeIds: ['c12_ps_cbse_13_008', 'c12_ps_cbse_02_001', 'c12_ps_cbse_09_008', 'c12_ps_cbse_12_008', 'c12_ps_cbse_08_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a Class 12 student reading a news report about a new highway cutting through a tiger reserve.', goal: 'Master Environmental Movements and the Politics of Development.' },
     discovery: {
         question: 'Evaluate the claim: "The Forest Rights Act 2006 resolved the historical injustice against forest-dwelling communities." Use *three* specific implementation.',
@@ -20,7 +20,7 @@ export const w_c12_politicalsciencemeaningfunctionslegislaturesim: SimDef = {
         hook: '**Misconception:** "Environmental movements are \'anti-development\' and \'anti-national\' — they block progress, jobs, and.',
     },
     teaching: [
-        { title: 'Environmental Movements and the Politics of.', text: 'Environmental Movements and the Politics of Development refers to the contested terrain where grassroots ecological struggles challenge the state\'s top-down development paradigm, exposing how.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Environmental Movements and the Politics of.', text: 'Environmental Movements and the Politics of Development refers to the contested terrain where grassroots ecological struggles challenge the state\'s top-down development paradigm, exposing how.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_ps_cbse_13_008', title: 'Environmental Movements and the.',

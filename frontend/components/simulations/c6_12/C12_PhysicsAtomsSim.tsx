@@ -111,10 +111,10 @@ export function C12_PhysicsAtomsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Alpha kinetic energy</span><span className="font-mono font-bold text-sky-400">{keMeV} MeV</span>
+                <span>Alpha kinetic energy</span><span className="font-mono font-bold text-gold-400">{keMeV} MeV</span>
               </div>
               <input type="range" min={1} max={10} step={0.5} value={keMeV} aria-label="Alpha kinetic energy"
-                onChange={(e) => setKeMeV(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setKeMeV(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

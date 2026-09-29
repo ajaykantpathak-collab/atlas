@@ -1265,7 +1265,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
         >
           <motion.span
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50 cursor-pointer"
+            className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50 cursor-pointer"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
@@ -1276,7 +1276,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               <motion.span
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
-                className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 font-medium border border-indigo-700/40"
+                className="text-xs px-2.5 py-0.5 rounded-full bg-gold-900/60 text-gold-300 font-medium border border-gold-700/40"
               >
                 ISC Class 11
               </motion.span>
@@ -1292,7 +1292,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               key={p}
               whileHover={{ scale: 1.05 }}
               className={`text-xs px-3 py-1 rounded-lg capitalize font-medium transition-all cursor-default ${
-                phase === p ? 'bg-indigo-600 text-white shadow-md font-bold' : 'text-slate-400'
+                phase === p ? 'bg-gold-600 text-white shadow-md font-bold' : 'text-slate-400'
               }`}
             >
               {p}
@@ -1314,9 +1314,9 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40 shadow-lg"
             >
-              <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span aria-hidden="true">🏛️</span> {SCENARIO.title}
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1324,7 +1324,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15 }}
-                className="mt-4 p-3.5 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-indigo-200"
+                className="mt-4 p-3.5 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-gold-200"
               >
                 💡 <span className="font-semibold">Case Context:</span> {SCENARIO.context}
               </motion.div>
@@ -1361,7 +1361,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900/40 border-slate-800 text-slate-400 opacity-60'
-                        : 'bg-slate-900/90 border-slate-700/80 text-slate-200 hover:bg-indigo-950/50 hover:border-indigo-600'
+                        : 'bg-slate-900/90 border-slate-700/80 text-slate-200 hover:bg-gold-950/50 hover:border-gold-600'
                     }`}
                   >
                     <div className="flex items-center gap-2">
@@ -1399,7 +1399,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleAdvanceToExploration}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm flex items-center gap-2 shadow-lg"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm flex items-center gap-2 shadow-lg"
                     >
                       Enter Interactive Lab <span>→</span>
                     </motion.button>
@@ -1425,10 +1425,10 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               <motion.div
                 initial={{ opacity: 0, y: -8 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-3 bg-indigo-950/30 rounded-xl border border-indigo-900/40 flex items-center justify-between text-xs text-slate-400"
+                className="p-3 bg-gold-950/30 rounded-xl border border-gold-900/40 flex items-center justify-between text-xs text-slate-400"
               >
                 <span>📚 ISC Syllabus Core Modules 1 to 10 active</span>
-                <span className="text-indigo-300 font-mono">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
+                <span className="text-gold-300 font-mono">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
               </motion.div>
             )}
 
@@ -1442,10 +1442,10 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               >
                 <div>
                   <div className="flex items-center justify-between">
-                    <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                    <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                     <motion.span
                       whileHover={{ scale: 1.05 }}
-                      className="text-xs px-2.5 py-1 rounded bg-slate-900 text-indigo-300 font-mono border border-slate-800"
+                      className="text-xs px-2.5 py-1 rounded bg-slate-900 text-gold-300 font-mono border border-slate-800"
                     >
                       {EXPLORATION_STEPS[currentSlide].nodeId}
                     </motion.span>
@@ -1479,7 +1479,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         <div>
                           <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                             <span>External Stimulus (Exam Alarm Volume / Pressure)</span>
-                            <span className="text-indigo-400 font-mono font-bold">{stimulusIntensity}%</span>
+                            <span className="text-gold-400 font-mono font-bold">{stimulusIntensity}%</span>
                           </div>
                           <input
                             type="range"
@@ -1491,7 +1491,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                             aria-valuemax={100}
                             aria-valuenow={stimulusIntensity}
                             onChange={(e) => setStimulusIntensity(Number(e.target.value))}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
 
@@ -1551,13 +1551,13 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           </thead>
                           <tbody className="text-slate-300 divide-y divide-slate-800/60">
                             <tr>
-                              <td className="py-1.5 font-semibold text-indigo-300">Overt Behaviour:</td>
+                              <td className="py-1.5 font-semibold text-gold-300">Overt Behaviour:</td>
                               <td className={`py-1.5 font-bold ${derivedOvertAnxiety > 50 ? 'text-rose-400' : 'text-emerald-400'}`}>
                                 {derivedOvertAnxiety > 50 ? '✗ Trembling / Restlessness (' + derivedOvertAnxiety + '%)' : '✓ Calm Focused Writing (' + derivedOvertAnxiety + '%)'}
                               </td>
                             </tr>
                             <tr>
-                              <td className="py-1.5 font-semibold text-indigo-300">Covert Cognition:</td>
+                              <td className="py-1.5 font-semibold text-gold-300">Covert Cognition:</td>
                               <td className="py-1.5 text-[11px]">
                                 {cognitiveAppraisal === 'threat'
                                   ? '✗ "I will fail, memory is blank."'
@@ -1599,12 +1599,12 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           }}
                           className={`p-3 rounded-xl text-left border transition-all ${
                             selectedSchool === school.id
-                              ? 'bg-indigo-900/80 border-indigo-500 text-white shadow-lg font-bold'
+                              ? 'bg-gold-900/80 border-gold-500 text-white shadow-lg font-bold'
                               : 'bg-slate-900/70 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
                           <p className="font-bold text-xs">{school.name}</p>
-                          <p className="text-[10px] text-indigo-300 mt-0.5">{school.founder}</p>
+                          <p className="text-[10px] text-gold-300 mt-0.5">{school.founder}</p>
                         </motion.button>
                       ))}
                     </div>
@@ -1619,7 +1619,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       >
                         {selectedSchool === 'structuralism' && (
                           <div>
-                            <h4 className="font-bold text-indigo-300 text-sm">Structuralism (Wilhelm Wundt & E.B. Titchener)</h4>
+                            <h4 className="font-bold text-gold-300 text-sm">Structuralism (Wilhelm Wundt & E.B. Titchener)</h4>
                             <p className="text-slate-300 mt-1">
                               Focus: Decomposing conscious experience into basic structures — sensations, images, and affections through systematic Introspection.
                             </p>
@@ -1630,7 +1630,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         )}
                         {selectedSchool === 'functionalism' && (
                           <div>
-                            <h4 className="font-bold text-indigo-300 text-sm">Functionalism (William James & John Dewey)</h4>
+                            <h4 className="font-bold text-gold-300 text-sm">Functionalism (William James & John Dewey)</h4>
                             <p className="text-slate-300 mt-1">
                               Focus: How consciousness functions to help an organism adapt and survive in dynamic environments.
                             </p>
@@ -1641,7 +1641,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         )}
                         {selectedSchool === 'behaviourism' && (
                           <div>
-                            <h4 className="font-bold text-indigo-300 text-sm">Behaviourism (John B. Watson & B.F. Skinner)</h4>
+                            <h4 className="font-bold text-gold-300 text-sm">Behaviourism (John B. Watson & B.F. Skinner)</h4>
                             <p className="text-slate-300 mt-1">
                               Focus: Rejects unobservable mind; studies stimulus-response conditioning, reinforcement, and measurable overt habits.
                             </p>
@@ -1652,7 +1652,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         )}
                         {selectedSchool === 'psychoanalysis' && (
                           <div>
-                            <h4 className="font-bold text-indigo-300 text-sm">Psychoanalysis (Sigmund Freud & Girindrasekhar Bose)</h4>
+                            <h4 className="font-bold text-gold-300 text-sm">Psychoanalysis (Sigmund Freud & Girindrasekhar Bose)</h4>
                             <p className="text-slate-300 mt-1">
                               Focus: The unconscious mind, repressed childhood desires, defense mechanisms, and dream interpretation.
                             </p>
@@ -1663,7 +1663,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         )}
                         {selectedSchool === 'gestalt' && (
                           <div>
-                            <h4 className="font-bold text-indigo-300 text-sm">Gestalt Psychology (Max Wertheimer, Koffka, Kohler)</h4>
+                            <h4 className="font-bold text-gold-300 text-sm">Gestalt Psychology (Max Wertheimer, Koffka, Kohler)</h4>
                             <p className="text-slate-300 mt-1">
                               Focus: "The whole is greater than the sum of its parts." Perception is organized into meaningful total patterns (Phi phenomenon).
                             </p>
@@ -1691,7 +1691,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Biological (SSRIs/Sleep)</span>
-                          <span className="text-indigo-400 font-mono font-bold">{bioWeight}%</span>
+                          <span className="text-gold-400 font-mono font-bold">{bioWeight}%</span>
                         </div>
                         <input
                           type="range"
@@ -1703,13 +1703,13 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           aria-valuemax={100}
                           aria-valuenow={bioWeight}
                           onChange={(e) => setBioWeight(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Cognitive (Thought Reframing)</span>
-                          <span className="text-indigo-400 font-mono font-bold">{cogWeight}%</span>
+                          <span className="text-gold-400 font-mono font-bold">{cogWeight}%</span>
                         </div>
                         <input
                           type="range"
@@ -1721,13 +1721,13 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           aria-valuemax={100}
                           aria-valuenow={cogWeight}
                           onChange={(e) => setCogWeight(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Socio-Cultural (Family Counseling)</span>
-                          <span className="text-indigo-400 font-mono font-bold">{socioWeight}%</span>
+                          <span className="text-gold-400 font-mono font-bold">{socioWeight}%</span>
                         </div>
                         <input
                           type="range"
@@ -1739,14 +1739,14 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           aria-valuemax={100}
                           aria-valuenow={socioWeight}
                           onChange={(e) => setSocioWeight(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </motion.div>
                     </div>
 
                     <motion.div
                       whileHover={{ scale: 1.01 }}
-                      className="p-3 bg-indigo-950/50 rounded-lg border border-indigo-800/40 text-xs flex items-center justify-between"
+                      className="p-3 bg-gold-950/50 rounded-lg border border-gold-800/40 text-xs flex items-center justify-between"
                     >
                       <span>Integrated Clinical Recovery Index:</span>
                       <span className="text-emerald-300 font-bold font-mono text-sm flex items-center gap-1">
@@ -1768,7 +1768,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       <motion.div
                         initial={{ scale: 0.98 }}
                         animate={{ scale: 1 }}
-                        className="p-3.5 bg-indigo-950/60 rounded-xl border border-indigo-800 shadow-md"
+                        className="p-3.5 bg-gold-950/60 rounded-xl border border-gold-800 shadow-md"
                       >
                         <p className="text-xs font-bold text-amber-300 mb-2">🎯 Scientific Prediction Question 1 of 2:</p>
                         <p className="text-xs text-white mb-2">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1780,7 +1780,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                               whileHover={{ scale: 1.02 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => handlePrediction1(i)}
-                              className="w-full text-left p-2.5 rounded-lg bg-slate-900 border border-slate-700 hover:border-indigo-500 text-xs text-slate-200"
+                              className="w-full text-left p-2.5 rounded-lg bg-slate-900 border border-slate-700 hover:border-gold-500 text-xs text-slate-200"
                             >
                               {opt}
                             </motion.button>
@@ -1814,7 +1814,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Genetic IQ Potential (Genotype / Heredity)</span>
-                            <span className="text-indigo-400 font-mono font-bold">{geneticPotential}%</span>
+                            <span className="text-gold-400 font-mono font-bold">{geneticPotential}%</span>
                           </div>
                           <input
                             type="range"
@@ -1826,7 +1826,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                             aria-valuemax={100}
                             aria-valuenow={geneticPotential}
                             onChange={(e) => setGeneticPotential(Number(e.target.value))}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                         <div>
@@ -1855,7 +1855,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       >
                         <div className="flex justify-between">
                           <span className="text-slate-400">1. Genotypic Limits:</span>
-                          <span className="text-indigo-300 font-mono font-bold">
+                          <span className="text-gold-300 font-mono font-bold">
                             IQ {derivedPhenotypeIQ.minIQ} – {derivedPhenotypeIQ.maxIQ}
                           </span>
                         </div>
@@ -1885,7 +1885,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       <motion.div
                         initial={{ scale: 0.98 }}
                         animate={{ scale: 1 }}
-                        className="p-3.5 bg-indigo-950/60 rounded-xl border border-indigo-800 shadow-md"
+                        className="p-3.5 bg-gold-950/60 rounded-xl border border-gold-800 shadow-md"
                       >
                         <p className="text-xs font-bold text-amber-300 mb-2">🎯 Scientific Prediction Question 2 of 2:</p>
                         <p className="text-xs text-white mb-2">{PREDICTION_QUESTIONS[1].question}</p>
@@ -1897,7 +1897,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                               whileHover={{ scale: 1.02 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => handlePrediction2(i)}
-                              className="w-full text-left p-2.5 rounded-lg bg-slate-900 border border-slate-700 hover:border-indigo-500 text-xs text-slate-200"
+                              className="w-full text-left p-2.5 rounded-lg bg-slate-900 border border-slate-700 hover:border-gold-500 text-xs text-slate-200"
                             >
                               {opt}
                             </motion.button>
@@ -1926,7 +1926,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Independent Variable (IV): Music Relaxation</span>
-                            <span className="text-indigo-400 font-mono font-bold">{ivMusicLevel} min</span>
+                            <span className="text-gold-400 font-mono font-bold">{ivMusicLevel} min</span>
                           </div>
                           <input
                             type="range"
@@ -1938,7 +1938,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                             aria-valuemax={60}
                             aria-valuenow={ivMusicLevel}
                             onChange={(e) => setIvMusicLevel(Number(e.target.value))}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                         <div>
@@ -1984,7 +1984,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         animate={{ opacity: 1, y: 0 }}
                         className="p-3 bg-slate-900 rounded-lg border border-slate-800 shadow-md"
                       >
-                        <p className="text-xs font-bold text-indigo-300 mb-2">👁️ Scientific Observation Check:</p>
+                        <p className="text-xs font-bold text-gold-300 mb-2">👁️ Scientific Observation Check:</p>
                         <p className="text-xs text-white mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1994,7 +1994,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                               whileHover={{ scale: 1.02 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => handleObservation(i)}
-                              className="w-full text-left p-2 rounded bg-slate-950 border border-slate-800 hover:border-indigo-500 text-xs text-slate-300"
+                              className="w-full text-left p-2 rounded bg-slate-950 border border-slate-800 hover:border-gold-500 text-xs text-slate-300"
                             >
                               {opt}
                             </motion.button>
@@ -2032,7 +2032,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         setCurrentSlide((s) => s + 1);
                         audioManager.play('tap');
                       }}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold"
                     >
                       Next Module →
                     </motion.button>
@@ -2067,7 +2067,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-5 bg-gradient-to-r from-slate-800 to-indigo-950/60 rounded-2xl border border-indigo-800/40 shadow-xl"
+              className="p-5 bg-gradient-to-r from-slate-800 to-gold-950/60 rounded-2xl border border-gold-800/40 shadow-xl"
             >
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
                 <span aria-hidden="true">🎛️</span> Psychology Sandbox: Free Experimentation
@@ -2082,11 +2082,11 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                 whileHover={{ borderColor: '#6366f1' }}
                 className="p-4 bg-slate-800/80 rounded-xl border border-slate-700 space-y-3 transition-colors shadow-md"
               >
-                <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">S-O-R & Cognitive Tuning</h4>
+                <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">S-O-R & Cognitive Tuning</h4>
                 <div>
                   <div className="flex justify-between text-xs text-slate-300 mb-1">
                     <span>Stimulus Intensity</span>
-                    <span className="text-indigo-400 font-mono font-bold">{stimulusIntensity}%</span>
+                    <span className="text-gold-400 font-mono font-bold">{stimulusIntensity}%</span>
                   </div>
                   <input
                     type="range"
@@ -2098,7 +2098,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                     aria-valuemax={100}
                     aria-valuenow={stimulusIntensity}
                     onChange={(e) => setStimulusIntensity(Number(e.target.value))}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
                 <div className="flex gap-2">
@@ -2131,7 +2131,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                 whileHover={{ borderColor: '#6366f1' }}
                 className="p-4 bg-slate-800/80 rounded-xl border border-slate-700 space-y-3 transition-colors shadow-md"
               >
-                <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Nature vs Nurture Model</h4>
+                <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Nature vs Nurture Model</h4>
                 <div>
                   <div className="flex justify-between text-xs text-slate-300 mb-1">
                     <span>Heredity Potential: {geneticPotential}%</span>
@@ -2204,7 +2204,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                      : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                      : 'bg-gold-950/80 text-gold-300 border-gold-600'
                   }`}
                 >
                   {difficulty === 'foundation' ? '✓ ' : '★ '}
@@ -2222,7 +2222,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
             {/* Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden shadow-inner" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.35, ease: 'easeOut' }}
               />
@@ -2239,7 +2239,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               }`}
             >
               <div className="mb-4">
-                <span className="text-[11px] font-mono text-indigo-400 uppercase tracking-wider font-semibold">
+                <span className="text-[11px] font-mono text-gold-400 uppercase tracking-wider font-semibold">
                   Node: {currentCh.nodeId}
                 </span>
                 <p className="text-base sm:text-lg font-semibold text-white mt-1 leading-snug">{currentCh.question}</p>
@@ -2261,7 +2261,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         className={`w-full text-left p-3.5 rounded-xl text-xs sm:text-sm font-medium transition-all border ${
                           showExplanation && i === currentCh.correctIndex
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md'
-                            : 'bg-slate-900/90 border-slate-700/80 text-slate-200 hover:bg-slate-900 hover:border-indigo-500'
+                            : 'bg-slate-900/90 border-slate-700/80 text-slate-200 hover:bg-slate-900 hover:border-gold-500'
                         }`}
                       >
                         <div className="flex items-center gap-3">
@@ -2293,7 +2293,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onDragStart={() => handleDragStart(item.label)}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2321,7 +2321,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         }`}
                       >
                         <span className="text-[11px] text-slate-400 font-semibold">{target.title}</span>
-                        <span className="text-xs font-bold text-indigo-300 mt-1 flex items-center gap-1">
+                        <span className="text-xs font-bold text-gold-300 mt-1 flex items-center gap-1">
                           {droppedLabels[target.id] ? (
                             <>
                               <span>✓</span> {droppedLabels[target.id]}
@@ -2340,7 +2340,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length < 4}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40 shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40 shadow-lg"
                   >
                     Verify Mappings →
                   </motion.button>
@@ -2372,7 +2372,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         }}
                         className="p-3 bg-slate-900 rounded-xl border border-slate-700 flex items-center gap-3 text-xs sm:text-sm text-slate-200 cursor-grab shadow"
                       >
-                        <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 font-bold flex items-center justify-center text-xs shrink-0">
+                        <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 font-bold flex items-center justify-center text-xs shrink-0">
                           {displayIdx + 1}
                         </span>
                         {item}
@@ -2390,7 +2390,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       handleAnswer(ans);
                     }}
                     disabled={showExplanation}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Check Sequence →
                   </motion.button>
@@ -2408,7 +2408,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       aria-label={`Numerical answer input for ${currentCh.question}`}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical value"
-                      className="flex-1 px-4 py-2.5 bg-slate-900 rounded-xl border border-slate-700 text-white text-sm focus:border-indigo-500 outline-none"
+                      className="flex-1 px-4 py-2.5 bg-slate-900 rounded-xl border border-slate-700 text-white text-sm focus:border-gold-500 outline-none"
                     />
                     <span className="text-xs font-bold text-slate-400">{currentCh.unit}</span>
                     <motion.button
@@ -2417,7 +2417,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40 shadow-lg"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40 shadow-lg"
                     >
                       Submit
                     </motion.button>
@@ -2442,7 +2442,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                             audioManager.play('tap');
                           }
                         }}
-                        className="px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-indigo-200 hover:border-indigo-500 shadow"
+                        className="px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-gold-200 hover:border-gold-500 shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2460,7 +2460,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           key={i}
                           initial={{ scale: 0.8 }}
                           animate={{ scale: 1 }}
-                          className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 rounded-lg text-xs text-indigo-300 flex items-center gap-1.5"
+                          className="px-2.5 py-1 bg-gold-950 border border-gold-700 rounded-lg text-xs text-gold-300 flex items-center gap-1.5"
                         >
                           ✓ {part}
                           <motion.button
@@ -2486,7 +2486,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Verify Construction →
                   </motion.button>
@@ -2498,7 +2498,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                 <motion.div
                   initial={{ opacity: 0, y: 12 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 sm:p-5 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700/60 space-y-3 shadow-xl"
+                  className="mt-6 p-4 sm:p-5 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700/60 space-y-3 shadow-xl"
                 >
                   <div className="flex items-center justify-between">
                     <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1.5">
@@ -2522,7 +2522,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                           animate={{ opacity: 1, x: 0 }}
                           className="text-xs sm:text-sm text-slate-200 leading-relaxed"
                         >
-                          <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                          <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                           {!sentence.endsWith('.') && '.'}
                         </motion.p>
                       ))}
@@ -2535,7 +2535,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setRevealedSteps((s) => s + 1)}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                       >
                         Reveal Next Step →
                       </motion.button>
@@ -2575,7 +2575,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
             <motion.div
               initial={{ y: 20 }}
               animate={{ y: 0 }}
-              className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700 text-center space-y-3 shadow-2xl"
+              className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-700 text-center space-y-3 shadow-2xl"
             >
               <motion.span
                 initial={{ scale: 0 }}
@@ -2589,7 +2589,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               <h2 className="text-2xl font-bold text-white">Simulation Completed!</h2>
               <p className="text-sm text-slate-300">
                 Final Mastery Score: <span className="font-bold text-emerald-400 font-mono">✓ {Math.max(0, 100 - errors * 5)}%</span> |
-                BKT Status: <span className="text-indigo-300 font-bold uppercase">{masteryLevel}</span>
+                BKT Status: <span className="text-gold-300 font-bold uppercase">{masteryLevel}</span>
               </p>
 
               <motion.div
@@ -2613,7 +2613,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="p-5 bg-gradient-to-r from-amber-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border-2 border-amber-500/80 shadow-2xl space-y-3"
+              className="p-5 bg-gradient-to-r from-amber-950/70 via-slate-900 to-gold-950/70 rounded-2xl border-2 border-amber-500/80 shadow-2xl space-y-3"
             >
               <div className="flex items-center justify-between">
                 <h3 className="font-bold text-amber-300 text-sm flex items-center gap-2">
@@ -2636,7 +2636,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                 </div>
                 <div className="text-right text-[11px] text-slate-400 border-l border-slate-800 pl-3">
                   <p>Errors recorded: <span className="font-bold text-white font-mono">{errors}</span></p>
-                  <p className="text-indigo-300 font-medium">Interval: {srsDays === 7 ? 'Optimal Retention' : srsDays === 3 ? 'Reinforcement Needed' : 'Immediate Remediation'}</p>
+                  <p className="text-gold-300 font-medium">Interval: {srsDays === 7 ? 'Optimal Retention' : srsDays === 3 ? 'Reinforcement Needed' : 'Immediate Remediation'}</p>
                 </div>
               </div>
 
@@ -2684,7 +2684,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
               transition={{ delay: 0.4 }}
               className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-3 shadow-xl"
             >
-              <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                 <span aria-hidden="true">🔬</span> Real-World Applied Project: {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
@@ -2695,7 +2695,7 @@ export function C11_PsychologyDefinitionPsychologyBasicSim({
                     whileHover={{ scale: 1.02 }}
                     className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-300 shadow"
                   >
-                    <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span> {st}
+                    <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {st}
                   </motion.div>
                 ))}
               </div>

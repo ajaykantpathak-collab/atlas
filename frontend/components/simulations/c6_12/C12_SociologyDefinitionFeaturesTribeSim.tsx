@@ -1455,7 +1455,7 @@ function C12_SociologyDefinitionFeaturesTribeSim(props: Props = DEFAULT_PROPS) {
                       audioManager.play('tap');
                     }}
                     className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                      stratificationModel === 'class' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                      stratificationModel === 'class' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Modern Class Model (Achieved & Open)
@@ -1553,8 +1553,8 @@ function C12_SociologyDefinitionFeaturesTribeSim(props: Props = DEFAULT_PROPS) {
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-xs font-bold text-blue-400">Westernisation Lever (Secular Rationalism)</span>
-                      <span className="text-xs font-mono font-bold text-blue-300">{urbanizationLevel}%</span>
+                      <span className="text-xs font-bold text-gold-400">Westernisation Lever (Secular Rationalism)</span>
+                      <span className="text-xs font-mono font-bold text-gold-300">{urbanizationLevel}%</span>
                     </div>
                     <input
                       type="range"
@@ -1566,7 +1566,7 @@ function C12_SociologyDefinitionFeaturesTribeSim(props: Props = DEFAULT_PROPS) {
                         setUrbanizationLevel(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <p className="text-[11px] text-slate-400">
                       English education, IT sector jobs in Bengaluru, secular legal rights, and democratic civic mobilization.
@@ -1761,7 +1761,7 @@ function C12_SociologyDefinitionFeaturesTribeSim(props: Props = DEFAULT_PROPS) {
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
               <div className="flex justify-between text-xs">
                 <span className="text-slate-300 font-bold">Urban Higher Education Rate</span>
-                <span className="text-blue-400 font-mono">{urbanizationLevel}%</span>
+                <span className="text-gold-400 font-mono">{urbanizationLevel}%</span>
               </div>
               <input
                 type="range"
@@ -1770,7 +1770,7 @@ function C12_SociologyDefinitionFeaturesTribeSim(props: Props = DEFAULT_PROPS) {
                 max={100}
                 value={urbanizationLevel}
                 onChange={(e) => setUrbanizationLevel(Number(e.target.value))}
-                className="w-full accent-blue-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <span className="text-[10px] text-slate-400 block">Access to universities and professional service careers</span>
             </div>
@@ -1826,7 +1826,7 @@ function C12_SociologyDefinitionFeaturesTribeSim(props: Props = DEFAULT_PROPS) {
                     ? 'bg-emerald-950/80 border-emerald-600 text-emerald-300'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 border-rose-600 text-rose-300'
-                    : 'bg-blue-950/80 border-blue-600 text-blue-300'
+                    : 'bg-gold-950/80 border-gold-600 text-gold-300'
                 }`}
               >
                 {difficulty} Tier

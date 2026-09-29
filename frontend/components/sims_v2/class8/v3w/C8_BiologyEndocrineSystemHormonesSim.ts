@@ -11,11 +11,11 @@ export const w_c8_biologyendocrinesystemhormonessim: SimDef = {
     classLevel: 8, subject: 'biology', topic: 'Mental Health: Stress, Anxiety, and Well-Being',
     chapters: [],
     nodeIds: ['c8_bio_ch2_11'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Observe how your body reacts when you are running late for school or facing an unexpected examination.', goal: 'Master Mental Health: Stress, Anxiety, and Well-Being.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Mental health refers to a state of.', text: 'Mental health refers to a state of emotional, psychological, and social well-being in a person, where stress and anxiety are managed effectively to maintain homeostasis in daily life.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mental health refers to a state of.', text: 'Mental health refers to a state of emotional, psychological, and social well-being in a person, where stress and anxiety are managed effectively to maintain homeostasis in daily life.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_bio_ch2_11', title: 'Mental health refers to a state of.',

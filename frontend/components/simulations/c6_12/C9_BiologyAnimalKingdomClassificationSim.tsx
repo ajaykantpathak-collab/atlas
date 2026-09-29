@@ -1171,7 +1171,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-500 text-rose-300'
-                : 'bg-cyan-950/70 border-cyan-500 text-cyan-300'
+                : 'bg-gold-950/70 border-gold-500 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1185,12 +1185,12 @@ export function C9_BiologyAnimalKingdomClassificationSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/40 rounded-2xl">
-            <h2 className="text-lg font-black text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/40 rounded-2xl">
+            <h2 className="text-lg font-black text-gold-300 flex items-center gap-2">
               <span>🧭</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400 mt-2 font-medium">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400 mt-2 font-medium">{SCENARIO.context}</p>
           </div>
 
           <div className="p-5 bg-slate-900/90 border border-slate-800 rounded-2xl">
@@ -1219,7 +1219,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                   }`}
                   aria-label={`Discovery option ${i + 1}`}
                 >
-                  <span className="font-mono text-xs mr-2 text-indigo-400 font-bold">{['A', 'B', 'C', 'D'][i]}.</span>
+                  <span className="font-mono text-xs mr-2 text-gold-400 font-bold">{['A', 'B', 'C', 'D'][i]}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1387,7 +1387,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                         {selectedPhylum === 'echinodermata' && 'Spiny-skinned marine deuterostomes with hydraulic water vascular system. Example: Asterias (Starfish).'}
                         {selectedPhylum === 'chordata' && 'Possess notochord, dorsal nerve cord, pharyngeal slits. Classes: Pisces, Amphibia, Reptilia, Aves, Mammalia.'}
                       </p>
-                      <div className="pt-2 text-[11px] text-indigo-300 font-mono">ICSE Exam Tip: Always match defining features (e.g. tube feet vs setae).</div>
+                      <div className="pt-2 text-[11px] text-gold-300 font-mono">ICSE Exam Tip: Always match defining features (e.g. tube feet vs setae).</div>
                     </div>
                   </div>
                 </div>
@@ -1408,7 +1408,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                               audioManager.play('tap');
                             }}
                             className={`px-2.5 py-1 rounded text-xs font-bold uppercase ${
-                              enzymeSelected === enz ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                              enzymeSelected === enz ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {enz}
@@ -1487,7 +1487,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase ${
-                          jointType === j ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          jointType === j ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {j.replace('_', ' & ')}
@@ -1557,7 +1557,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center mb-2">
                         <span className="text-xs text-slate-400">Ambient Weather Simulation</span>
-                        <span className={`text-base font-black ${ambientTemp > 35 ? 'text-rose-400' : ambientTemp < 15 ? 'text-cyan-400' : 'text-emerald-400'}`}>
+                        <span className={`text-base font-black ${ambientTemp > 35 ? 'text-rose-400' : ambientTemp < 15 ? 'text-gold-400' : 'text-emerald-400'}`}>
                           {ambientTemp}°C
                         </span>
                       </div>
@@ -1579,7 +1579,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                       <div className="grid grid-cols-2 gap-2 mt-4">
                         <div className="p-2 bg-slate-900 rounded-lg">
                           <span className="text-[10px] text-slate-400">Dermal Capillaries</span>
-                          <p className="text-xs font-bold text-cyan-300">
+                          <p className="text-xs font-bold text-gold-300">
                             {ambientTemp > 28 ? 'VASODILATION (Wide)' : ambientTemp < 18 ? 'VASOCONSTRICTION (Narrow)' : 'Normal Caliber'}
                           </p>
                         </div>
@@ -1657,7 +1657,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                                 audioManager.play('tap');
                               }}
                               className={`p-2 rounded-lg text-xs font-bold uppercase text-left ${
-                                selectedDefense === def ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                                selectedDefense === def ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                               }`}
                             >
                               {def}
@@ -1682,10 +1682,10 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                         </div>
                       </div>
                       <div className="text-[11px] text-slate-400 space-y-1 mt-4">
-                        <p>• <span className="text-indigo-300">Antibiotic:</span> Kills bacteria (Penicillin); useless on viruses.</p>
-                        <p>• <span className="text-indigo-300">Vaccine:</span> Inoculates antigen to generate long-term memory immunity.</p>
-                        <p>• <span className="text-indigo-300">Antitoxin:</span> Ready-made antibodies for acute toxin neutralization (Tetanus ATS).</p>
-                        <p>• <span className="text-indigo-300">Antiseptic:</span> Mild agent safe for living skin tissues.</p>
+                        <p>• <span className="text-gold-300">Antibiotic:</span> Kills bacteria (Penicillin); useless on viruses.</p>
+                        <p>• <span className="text-gold-300">Vaccine:</span> Inoculates antigen to generate long-term memory immunity.</p>
+                        <p>• <span className="text-gold-300">Antitoxin:</span> Ready-made antibodies for acute toxin neutralization (Tetanus ATS).</p>
+                        <p>• <span className="text-gold-300">Antiseptic:</span> Mild agent safe for living skin tissues.</p>
                       </div>
                     </div>
                   </div>
@@ -1717,7 +1717,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
               >
                 Next Lab →
               </motion.button>
@@ -1739,7 +1739,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
           <div className="p-4 bg-slate-900 border border-slate-800 rounded-2xl">
-            <h2 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🎮</span> Free Simulation Sandbox (Ungraded)
             </h2>
             <p className="text-xs text-slate-400 mt-1">
@@ -1764,7 +1764,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
             </div>
 
             <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-cyan-400">Body Temp: {ambientTemp}°C</span>
+              <span className="text-xs font-bold text-gold-400">Body Temp: {ambientTemp}°C</span>
               <input
                 type="range"
                 min={0}
@@ -1778,7 +1778,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
             </div>
 
             <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-indigo-400">Joint Angle: {jointAngle}°</span>
+              <span className="text-xs font-bold text-gold-400">Joint Angle: {jointAngle}°</span>
               <input
                 type="range"
                 min={0}
@@ -1815,13 +1815,13 @@ export function C9_BiologyAnimalKingdomClassificationSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono text-[11px]">
+              <span className="text-gold-400 font-mono text-[11px]">
                 Node: {activeChallenge.nodeId} | NEP: {activeChallenge.competencyLevel.toUpperCase()}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1861,7 +1861,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                     }`}
                     aria-label={`Option ${i + 1}`}
                   >
-                    <span className="font-mono text-xs font-bold mr-2 text-indigo-400">{['A', 'B', 'C', 'D'][i]}.</span>
+                    <span className="font-mono text-xs font-bold mr-2 text-gold-400">{['A', 'B', 'C', 'D'][i]}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1880,7 +1880,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1938,7 +1938,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs font-semibold text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-mono font-bold text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-mono font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -1995,7 +1995,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts((prev) => [...prev, p])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-semibold"
                     >
                       + {p}
                     </motion.button>
@@ -2004,7 +2004,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-md text-xs flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-200 rounded-md text-xs flex items-center gap-1.5">
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2091,7 +2091,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Simulation Completed!</h2>
             <p className="text-sm text-slate-300">
-              Final Efficiency Score: <span className="font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="capitalize font-bold text-cyan-300">{masteryLevel}</span>
+              Final Efficiency Score: <span className="font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="capitalize font-bold text-gold-300">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2110,7 +2110,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Reflection & Deep Thinking
             </h3>
             <div className="space-y-2.5">
@@ -2119,11 +2119,11 @@ export function C9_BiologyAnimalKingdomClassificationSim({
                 <p className="text-xs text-slate-400 mt-1">Reflect on counter-intuitive biological concepts like bile emulsifying without enzymes or why antibiotics fail completely against viral flus.</p>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                <p className="text-xs font-semibold text-cyan-300">2. How would you explain this to a friend?</p>
+                <p className="text-xs font-semibold text-gold-300">2. How would you explain this to a friend?</p>
                 <p className="text-xs text-slate-400 mt-1">How would you summarize the differences between active vaccines vs ready-made antitoxins, or how dermal capillaries expand in high summer heat?</p>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                <p className="text-xs font-semibold text-indigo-300">3. Where in real life might you use this?</p>
+                <p className="text-xs font-semibold text-gold-300">3. Where in real life might you use this?</p>
                 <p className="text-xs text-slate-400 mt-1">Consider practical situations like treating wounds with antiseptics vs disinfectants, assessing emergency tetanus care, or choosing balanced dietary lipids.</p>
               </div>
             </div>
@@ -2157,7 +2157,7 @@ export function C9_BiologyAnimalKingdomClassificationSim({
 
           {/* Real-World Activity Card */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-2">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🌿</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-400">{REAL_WORLD_ACTIVITY.description}</p>

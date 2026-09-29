@@ -1633,11 +1633,11 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10 text-9xl font-black">
               📊
             </div>
-            <span className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-black uppercase rounded-full mb-3 tracking-wider">
+            <span className="inline-block px-3 py-1 bg-gold-500/20 text-gold-300 text-xs font-black uppercase rounded-full mb-3 tracking-wider">
               Real-World Narrative Context
             </span>
             <h2 className="text-2xl font-extrabold text-white mb-2">
@@ -1646,7 +1646,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
             <p className="text-slate-300 text-sm leading-relaxed mb-4">
               {SCENARIO.intro}
             </p>
-            <div className="p-3.5 bg-slate-900/80 rounded-xl border border-indigo-900/50 text-xs text-indigo-200">
+            <div className="p-3.5 bg-slate-900/80 rounded-xl border border-gold-900/50 text-xs text-gold-200">
               💡 <strong>Scenario Objective:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -2012,17 +2012,17 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     {(repView === 'all' || repView === 'equation') && (
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                         <div>
-                          <h4 className="text-xs font-bold text-indigo-400 uppercase mb-2 flex items-center justify-between">
+                          <h4 className="text-xs font-bold text-gold-400 uppercase mb-2 flex items-center justify-between">
                             <span>Representation 3: Algebraic Model</span>
                             <span className="text-[10px] text-slate-400">Equation Form</span>
                           </h4>
-                          <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 font-mono text-xs space-y-1.5 text-indigo-200">
+                          <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 font-mono text-xs space-y-1.5 text-gold-200">
                             <p><strong>Demand Function:</strong> Qd = 110 - 1.1·(P) + {incomeShiftFactor}</p>
                             <p><strong>At Price = ₹{onionPrice}:</strong></p>
                             <p className="text-rose-300">Qd = 110 - (1.1 × {onionPrice}) + {incomeShiftFactor} = <strong>{liveQuantityDemanded} Units</strong></p>
                           </div>
                         </div>
-                        <div className="p-2 bg-indigo-950/40 rounded-lg text-[11px] text-indigo-300 mt-2">
+                        <div className="p-2 bg-gold-950/40 rounded-lg text-[11px] text-gold-300 mt-2">
                           💡 <strong>ICSE Insight:</strong> Inverse slope = -1.1 shows downward sloping law of demand.
                         </div>
                       </div>
@@ -2035,7 +2035,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 border border-indigo-800 rounded-xl">
+                    <div className="p-4 bg-gold-950/60 border border-gold-800 rounded-xl">
                       <p className="text-sm font-bold text-white mb-2">
                         {PREDICTION_QUESTIONS[0].question}
                       </p>
@@ -2093,7 +2093,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
 
                       {/* Control 2: Income / Subsidy (Shift) */}
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                        <h4 className="text-xs font-bold text-indigo-400 uppercase mb-1">
+                        <h4 className="text-xs font-bold text-gold-400 uppercase mb-1">
                           Shift of the Curve (PM-Kisan Direct Benefit)
                         </h4>
                         <input
@@ -2106,11 +2106,11 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                             setIncomeShiftFactor(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                         <div className="flex justify-between text-xs text-slate-300 mt-1">
                           <span>Income Shock: {incomeShiftFactor > 0 ? '+' : ''}{incomeShiftFactor}%</span>
-                          <span className="font-bold text-indigo-300">
+                          <span className="font-bold text-gold-300">
                             {incomeShiftFactor > 0
                               ? 'Rightward Shift (Increase)'
                               : incomeShiftFactor < 0
@@ -2197,7 +2197,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     </div>
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/40 text-xs text-gold-200">
                     💡 <strong>Economic Rule:</strong> Stock ≥ Supply. Supply changes as MSP rises, but the physical harvest stock is fixed in the short run!
                   </div>
                 </div>
@@ -2403,7 +2403,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-300 mb-1">
                     <span>Demand Shift (Income / Taste)</span>
-                    <span className="text-indigo-400 font-bold">
+                    <span className="text-gold-400 font-bold">
                       {incomeShiftFactor > 0 ? '+' : ''}{incomeShiftFactor}
                     </span>
                   </div>
@@ -2414,7 +2414,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     max={30}
                     value={incomeShiftFactor}
                     onChange={(e) => setIncomeShiftFactor(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -2481,12 +2481,12 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     }}
                     className={`p-3 rounded-xl border text-left transition-all ${
                       selectedGoodType === gt.id
-                        ? 'bg-indigo-950 border-indigo-500 text-white shadow-lg'
+                        ? 'bg-gold-950 border-gold-500 text-white shadow-lg'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                     }`}
                   >
                     <p className="text-xs font-bold">{gt.name}</p>
-                    <p className="text-[10px] text-indigo-300 mt-1">{gt.slope}</p>
+                    <p className="text-[10px] text-gold-300 mt-1">{gt.slope}</p>
                   </button>
                 ))}
               </div>
@@ -2601,7 +2601,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                 <span className="text-xs font-black text-slate-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase bg-indigo-950 text-indigo-300 border border-indigo-800">
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase bg-gold-950 text-gold-300 border border-gold-800">
                   {challenge.competencyLevel}
                 </span>
               </div>
@@ -2620,7 +2620,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-400 border border-rose-800'
-                    : 'bg-indigo-950 text-indigo-400 border border-indigo-800'
+                    : 'bg-gold-950 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty}
@@ -2837,7 +2837,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 border border-indigo-800 text-indigo-200 rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-950 border border-gold-800 text-gold-200 rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -3073,10 +3073,10 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 shadow-xl space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 shadow-xl space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
-              <h3 className="text-sm font-black text-indigo-300 uppercase tracking-wider">
+              <h3 className="text-sm font-black text-gold-300 uppercase tracking-wider">
                 Post-Simulation Deep Reflection
               </h3>
             </div>
@@ -3097,7 +3097,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     setReflectionAnswers((prev) => ({ ...prev, surprising: e.target.value }))
                   }
                   placeholder="E.g., How Giffen and Veblen goods make the demand curve slope upward, or why stock does not equal supply..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:border-indigo-500 outline-none resize-none h-16"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:border-gold-500 outline-none resize-none h-16"
                 />
               </div>
 
@@ -3113,13 +3113,13 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     setReflectionAnswers((prev) => ({ ...prev, explainFriend: e.target.value }))
                   }
                   placeholder="E.g., Price changes move you on the same roller-coaster track, but an income bonus builds an entirely new track to the right..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:border-indigo-500 outline-none resize-none h-16"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:border-gold-500 outline-none resize-none h-16"
                 />
               </div>
 
               {/* Question 3 */}
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-cyan-300 flex items-center gap-1.5">
+                <label className="text-xs font-bold text-gold-300 flex items-center gap-1.5">
                   <span>3.</span> Where in real life might you use this?
                 </label>
                 <textarea
@@ -3129,7 +3129,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     setReflectionAnswers((prev) => ({ ...prev, realLife: e.target.value }))
                   }
                   placeholder="E.g., Pricing products for a startup, understanding why onion prices surge after rains, or evaluating petrol taxes..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:border-indigo-500 outline-none resize-none h-16"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:border-gold-500 outline-none resize-none h-16"
                 />
               </div>
 
@@ -3142,7 +3142,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
                     setReflectionSaved(true);
                     audioManager.play('success');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   {reflectionSaved ? 'Reflections Saved [✓]' : 'Submit Reflections'}
                 </motion.button>
@@ -3205,7 +3205,7 @@ export function C10_EconApplicationsDemandMeaningTypesSim({
 
           {/* Real World Policy Memo Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-black text-indigo-300 uppercase tracking-wider">
+            <h3 className="text-sm font-black text-gold-300 uppercase tracking-wider">
               📝 Real-World Policy Memo Assignment
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">

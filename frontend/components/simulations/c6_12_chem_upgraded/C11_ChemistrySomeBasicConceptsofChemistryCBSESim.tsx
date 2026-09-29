@@ -676,12 +676,12 @@ const MassSpecVisualizer: React.FC<{ cl35: number; cl37: number }> = ({ cl35, cl
   const avgMass = ((p35 * 34.969 + p37 * 36.966) / 100).toFixed(3);
 
   return (
-    <div className="bg-slate-900 border border-cyan-500/30 rounded-xl p-4 shadow-xl">
+    <div className="bg-slate-900 border border-gold-500/30 rounded-xl p-4 shadow-xl">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-semibold text-cyan-400 flex items-center gap-2">
+        <h4 className="text-sm font-semibold text-gold-400 flex items-center gap-2">
           <span>⚛️</span> High-Resolution Mass Spectrometer Output
         </h4>
-        <span className="text-xs bg-cyan-950 text-cyan-300 px-2 py-1 rounded border border-cyan-800 font-mono">
+        <span className="text-xs bg-gold-950 text-gold-300 px-2 py-1 rounded border border-gold-800 font-mono">
           Avg Mass: <strong className="text-yellow-400 text-sm">{avgMass} u</strong>
         </span>
       </div>
@@ -823,7 +823,7 @@ const SolutionPrepVisualizer: React.FC<{ moles: number; volumeL: number; tempC: 
           <span className="text-xs bg-purple-950 text-purple-300 px-2 py-1 rounded border border-purple-800 font-mono">
             Molarity: <strong className="text-yellow-400">{molarity} M</strong>
           </span>
-          <span className="text-xs bg-indigo-950 text-indigo-300 px-2 py-1 rounded border border-indigo-800 font-mono">
+          <span className="text-xs bg-gold-950 text-gold-300 px-2 py-1 rounded border border-gold-800 font-mono">
             Molality: <strong className="text-emerald-400">{molality} m</strong>
           </span>
         </div>
@@ -910,7 +910,7 @@ const EmpiricalFormulaVisualizer: React.FC<{ cPct: number; hPct: number; oPct: n
             Empirical: <strong className="text-yellow-300">C{rC > 1 ? rC : ''}H{rH > 1 ? rH : ''}O{rO > 1 ? rO : ''}</strong>
           </span>
           <span className="text-xs bg-orange-950 text-orange-300 px-2 py-1 rounded border border-orange-800">
-            Molecular: <strong className="text-cyan-300">C{rC * nFactor}H{rH * nFactor}O{rO * nFactor}</strong>
+            Molecular: <strong className="text-gold-300">C{rC * nFactor}H{rH * nFactor}O{rO * nFactor}</strong>
           </span>
         </div>
       </div>
@@ -918,19 +918,19 @@ const EmpiricalFormulaVisualizer: React.FC<{ cPct: number; hPct: number; oPct: n
       <div className="grid grid-cols-3 gap-3 bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs">
         <div className="bg-slate-900 p-2 rounded border border-slate-800">
           <div className="text-gray-400 font-medium">Carbon (C)</div>
-          <div className="text-cyan-400 text-sm font-bold">{cPct.toFixed(1)}%</div>
+          <div className="text-gold-400 text-sm font-bold">{cPct.toFixed(1)}%</div>
           <div className="text-gray-500 font-mono mt-1">{molesC.toFixed(2)} moles</div>
           <div className="text-amber-300 font-mono">Ratio: {rC}</div>
         </div>
         <div className="bg-slate-900 p-2 rounded border border-slate-800">
           <div className="text-gray-400 font-medium">Hydrogen (H)</div>
-          <div className="text-cyan-400 text-sm font-bold">{hPct.toFixed(1)}%</div>
+          <div className="text-gold-400 text-sm font-bold">{hPct.toFixed(1)}%</div>
           <div className="text-gray-500 font-mono mt-1">{molesH.toFixed(2)} moles</div>
           <div className="text-amber-300 font-mono">Ratio: {rH}</div>
         </div>
         <div className="bg-slate-900 p-2 rounded border border-slate-800">
           <div className="text-gray-400 font-medium">Oxygen (O)</div>
-          <div className="text-cyan-400 text-sm font-bold">{oPct.toFixed(1)}%</div>
+          <div className="text-gold-400 text-sm font-bold">{oPct.toFixed(1)}%</div>
           <div className="text-gray-500 font-mono mt-1">{molesO.toFixed(2)} moles</div>
           <div className="text-amber-300 font-mono">Ratio: {rO}</div>
         </div>
@@ -943,7 +943,7 @@ const EmpiricalFormulaVisualizer: React.FC<{ cPct: number; hPct: number; oPct: n
         </div>
         <div>
           <span className="text-gray-400">Multiplier n = Molar Mass / Emp Mass: </span>
-          <span className="text-cyan-400 font-mono font-bold">n = {nFactor}</span>
+          <span className="text-gold-400 font-mono font-bold">n = {nFactor}</span>
         </div>
       </div>
     </div>
@@ -1164,7 +1164,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div>
             <div className="flex items-center gap-2">
-              <span className="bg-cyan-950 text-cyan-400 text-xs font-bold px-2.5 py-1 rounded-full border border-cyan-800">
+              <span className="bg-gold-950 text-gold-400 text-xs font-bold px-2.5 py-1 rounded-full border border-gold-800">
                 ISC / CBSE CLASS 11 CHEMISTRY
               </span>
               <span className="text-xs text-slate-400 font-mono">Unit 1: Basic Concepts</span>
@@ -1178,7 +1178,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             <button
               onClick={() => handleTabChange('discovery')}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+                activeTab === 'discovery' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
               }`}
             >
               🔍 Discovery
@@ -1186,7 +1186,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             <button
               onClick={() => handleTabChange('lab')}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                activeTab === 'lab' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+                activeTab === 'lab' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
               }`}
             >
               🧪 Labs & Experiments
@@ -1194,7 +1194,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             <button
               onClick={() => handleTabChange('challenges')}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+                activeTab === 'challenges' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
               }`}
             >
               🎯 Practice ({completedChallenges.size}/{CHALLENGES.length})
@@ -1202,7 +1202,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             <button
               onClick={() => handleTabChange('summary')}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                activeTab === 'summary' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+                activeTab === 'summary' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
               }`}
             >
               🏆 Summary
@@ -1221,18 +1221,18 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             {/* Context & Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
               <div className="absolute -right-10 -bottom-10 opacity-10 text-9xl">⚛️</div>
-              <h2 className="text-lg font-bold text-cyan-400 mb-2 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-400 mb-2 flex items-center gap-2">
                 <span>📋</span> Lab Mission Context
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-400">
-                <strong className="text-cyan-300">Objective:</strong> {SCENARIO.context}
+                <strong className="text-gold-300">Objective:</strong> {SCENARIO.context}
               </div>
             </div>
 
             {/* Discovery Question Card */}
-            <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 shadow-xl">
-              <div className="flex items-center gap-2 text-cyan-400 text-sm font-bold mb-3">
+            <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-bold mb-3">
                 <span>💡</span> Pre-Lab Discovery Challenge
               </div>
               <p className="text-white text-base font-medium mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1245,11 +1245,11 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                     disabled={discoverySubmitted}
                     className={`w-full text-left p-3 rounded-xl border text-sm transition-all ${
                       discoveryAnswer === idx
-                        ? 'border-cyan-500 bg-cyan-950/50 text-white'
+                        ? 'border-gold-500 bg-gold-950/50 text-white'
                         : 'border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="font-mono text-cyan-400 mr-2">{String.fromCharCode(65 + idx)}.</span> {opt}
+                    <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + idx)}.</span> {opt}
                   </button>
                 ))}
               </div>
@@ -1258,12 +1258,12 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoveryAnswer === null}
-                  className="w-full bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold py-2.5 rounded-xl shadow transition-all text-sm"
+                  className="w-full bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold py-2.5 rounded-xl shadow transition-all text-sm"
                 >
                   Verify Discovery Prediction
                 </button>
               ) : (
-                <div className="p-4 rounded-xl bg-slate-950 border border-cyan-800 text-xs text-cyan-200">
+                <div className="p-4 rounded-xl bg-slate-950 border border-gold-800 text-xs text-gold-200">
                   <strong className="text-yellow-400">Insight:</strong> {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1308,7 +1308,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                   }}
                   className={`p-3 rounded-xl border text-xs font-semibold text-left transition-all ${
                     currentLabStepIndex === idx
-                      ? 'border-cyan-500 bg-cyan-950/80 text-cyan-200 shadow-lg'
+                      ? 'border-gold-500 bg-gold-950/80 text-gold-200 shadow-lg'
                       : 'border-slate-800 bg-slate-900 text-slate-400 hover:border-slate-700'
                   }`}
                 >
@@ -1319,16 +1319,16 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             </div>
 
             {/* Active Lab Display Banner */}
-            <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
               <div>
-                <h3 className="text-base font-bold text-cyan-300">
+                <h3 className="text-base font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentLabStepIndex].title}
                 </h3>
                 <p className="text-xs text-slate-300 mt-0.5">
                   {EXPLORATION_STEPS[currentLabStepIndex].instruction}
                 </p>
               </div>
-              <span className="text-xs bg-cyan-950 text-cyan-400 px-3 py-1 rounded-full border border-cyan-800 font-mono">
+              <span className="text-xs bg-gold-950 text-gold-400 px-3 py-1 rounded-full border border-gold-800 font-mono">
                 Node: {EXPLORATION_STEPS[currentLabStepIndex].nodeId}
               </span>
             </div>
@@ -1344,7 +1344,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                     <h4 className="text-sm font-bold text-slate-200 mb-4">Isotopic Abundance Controls</h4>
                     <div className="space-y-4">
                       <div>
-                        <div className="flex justify-between text-xs text-cyan-300 mb-1">
+                        <div className="flex justify-between text-xs text-gold-300 mb-1">
                           <span>35-Cl Abundance: {cl35Count}%</span>
                         </div>
                         <input
@@ -1358,7 +1358,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                             setCl37Count(100 - val);
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         />
                       </div>
                       <div>
@@ -1383,7 +1383,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                   </div>
 
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs text-slate-400 mt-4">
-                    <strong className="text-cyan-400">Formula:</strong> Average Atomic Mass = Σ (% Abundance × Isotope Mass) / 100
+                    <strong className="text-gold-400">Formula:</strong> Average Atomic Mass = Σ (% Abundance × Isotope Mass) / 100
                   </div>
                 </div>
               </div>
@@ -1410,7 +1410,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                   </div>
 
                   <div className="flex-1 max-w-md">
-                    <label className="text-xs text-cyan-400 font-bold block mb-1">
+                    <label className="text-xs text-gold-400 font-bold block mb-1">
                       Moles (n): <span className="text-white text-sm">{moleValue} mol</span>
                     </label>
                     <input
@@ -1423,15 +1423,15 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                         setMoleValue(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="bg-slate-950 p-4 rounded-xl border border-cyan-800/50 text-center">
+                  <div className="bg-slate-950 p-4 rounded-xl border border-gold-800/50 text-center">
                     <div className="text-slate-400 text-xs font-semibold">Mass (g)</div>
-                    <div className="text-2xl font-black text-cyan-400 my-1">{calculatedMass} g</div>
+                    <div className="text-2xl font-black text-gold-400 my-1">{calculatedMass} g</div>
                     <div className="text-[10px] text-slate-500 font-mono">Mass = n × Molar Mass</div>
                   </div>
 
@@ -1458,7 +1458,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
                   <h4 className="text-sm font-bold text-slate-200">Reactant Controls (2 H₂ + O₂ → 2 H₂O)</h4>
                   <div>
-                    <div className="flex justify-between text-xs text-cyan-300 mb-1">
+                    <div className="flex justify-between text-xs text-gold-300 mb-1">
                       <span>Hydrogen (H₂): {h2MolesInput} moles</span>
                     </div>
                     <input
@@ -1470,7 +1470,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                         setH2MolesInput(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
                   <div>
@@ -1516,7 +1516,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                     />
                   </div>
                   <div>
-                    <label className="text-xs text-cyan-300 block mb-1">Solution Volume: {solutionVolumeLInput} L</label>
+                    <label className="text-xs text-gold-300 block mb-1">Solution Volume: {solutionVolumeLInput} L</label>
                     <input
                       type="range"
                       min="0.2"
@@ -1527,7 +1527,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                         setSolutionVolumeLInput(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
                   <div>
@@ -1556,7 +1556,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
                   <h4 className="text-sm font-bold text-slate-200">Elemental Composition Controls</h4>
                   <div>
-                    <label className="text-xs text-cyan-300 block mb-1">% Carbon (C): {cPctInput.toFixed(1)}%</label>
+                    <label className="text-xs text-gold-300 block mb-1">% Carbon (C): {cPctInput.toFixed(1)}%</label>
                     <input
                       type="range"
                       min="10"
@@ -1571,7 +1571,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                         setOPctInput(rem * 0.85);
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
                   <div>
@@ -1595,7 +1595,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
 
             {/* PREDICTION & OBSERVATION CHECKS MAP */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-md font-bold text-cyan-400 flex items-center gap-2">
+              <h3 className="text-md font-bold text-gold-400 flex items-center gap-2">
                 <span>🔍</span> Guided Predictions & Observations Check
               </h3>
 
@@ -1683,7 +1683,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                     <span
                       className={`text-[10px] px-2 py-0.5 rounded uppercase font-mono ${
                         currentChallenge.type === 'foundation'
-                          ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                          ? 'bg-gold-950 text-gold-400 border border-gold-800'
                           : currentChallenge.type === 'standard'
                           ? 'bg-purple-950 text-purple-400 border border-purple-800'
                           : 'bg-amber-950 text-amber-400 border border-amber-800'
@@ -1709,7 +1709,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                     }}
                     className={`w-3.5 h-3.5 rounded-full transition-all ${
                       idx === currentChallengeIndex
-                        ? 'bg-cyan-400 ring-2 ring-cyan-400/50 scale-125'
+                        ? 'bg-gold-400 ring-2 ring-gold-400/50 scale-125'
                         : completedChallenges.has(c.id)
                         ? 'bg-emerald-500'
                         : 'bg-slate-800 hover:bg-slate-700'
@@ -1742,7 +1742,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                       btnStyle = 'border-red-500 bg-red-950/80 text-red-200';
                     }
                   } else if (isSelected) {
-                    btnStyle = 'border-cyan-500 bg-cyan-950/60 text-white font-medium';
+                    btnStyle = 'border-gold-500 bg-gold-950/60 text-white font-medium';
                   }
 
                   return (
@@ -1752,7 +1752,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                       disabled={challengeSubmitted}
                       className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start gap-3 ${btnStyle}`}
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-700 text-xs flex items-center justify-center font-bold text-cyan-400 shrink-0 mt-0.5">
+                      <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-700 text-xs flex items-center justify-center font-bold text-gold-400 shrink-0 mt-0.5">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span className="flex-1">{option}</span>
@@ -1786,7 +1786,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                     <button
                       onClick={handleChallengeSubmit}
                       disabled={selectedOption === null}
-                      className="flex-1 sm:flex-none px-6 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white text-xs font-bold shadow-lg transition-all"
+                      className="flex-1 sm:flex-none px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold shadow-lg transition-all"
                     >
                       Submit Answer
                     </button>
@@ -1868,7 +1868,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
 
             {/* BKT Mastery Matrix Grid */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-400 flex items-center gap-2">
+              <h3 className="text-md font-bold text-gold-400 flex items-center gap-2">
                 <span>📊</span> Knowledge Node BKT Mastery Matrix ({ALL_NODE_IDS.length} Nodes)
               </h3>
 
@@ -1884,7 +1884,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                       <div>
                         <div className="flex justify-between items-start gap-1">
                           <span className="font-bold text-white text-xs truncate">{info.title}</span>
-                          <span className="text-[10px] text-cyan-400 font-mono shrink-0">{pKnown}%</span>
+                          <span className="text-[10px] text-gold-400 font-mono shrink-0">{pKnown}%</span>
                         </div>
                         <p className="text-[10px] text-slate-400 line-clamp-2 mt-1">{info.description}</p>
                       </div>
@@ -1910,7 +1910,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
             </div>
 
             {/* Final Completion Action */}
-            <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 text-center space-y-4">
+            <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 text-center space-y-4">
               <h3 className="text-lg font-bold text-white">Laboratory Module Completed!</h3>
               <p className="text-slate-400 text-xs max-w-lg mx-auto">
                 You have demonstrated mastery over stoichiometry, limiting reagents, chemical laws, molar mass determination, and solution concentration calculations.
@@ -1920,7 +1920,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC<C11_Chem
                   if (onComplete) onComplete(score);
                   audioManager.play('celebration');
                 }}
-                className="bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm px-8 py-3 rounded-xl shadow-lg transition-all"
+                className="bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm px-8 py-3 rounded-xl shadow-lg transition-all"
               >
                 Return to Course Graph & Submit Score ({score} pts)
               </button>

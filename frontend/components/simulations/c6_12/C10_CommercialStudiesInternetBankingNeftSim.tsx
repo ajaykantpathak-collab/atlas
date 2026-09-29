@@ -1043,13 +1043,13 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.15, rotate: 5 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 block cursor-default"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 block cursor-default"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700">ICSE Class 10</span>
+              <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700">ICSE Class 10</span>
               <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">Commercial Studies</span>
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tight mt-0.5">{title}</h1>
@@ -1065,7 +1065,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
             className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300' :
               difficulty === 'advanced' ? 'bg-rose-950/80 border-rose-500 text-rose-300' :
-              'bg-blue-950/80 border-blue-500 text-blue-300'
+              'bg-gold-950/80 border-gold-500 text-gold-300'
             }`}
           >
             Level: {difficulty}
@@ -1074,7 +1074,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
             whileHover={{ scale: 1.05 }}
             className="px-3 py-1 bg-slate-900 rounded-full border border-slate-700 text-xs text-slate-300"
           >
-            Mastery: <span className="font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+            Mastery: <span className="font-bold text-gold-400 capitalize">{masteryLevel}</span>
           </motion.div>
         </div>
       </motion.header>
@@ -1092,14 +1092,14 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800 shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800 shadow-lg"
             >
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xl">💼</span>
-                <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+                <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
               </div>
               <p className="text-sm text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-              <div className="mt-4 p-3 bg-slate-950/80 rounded-xl border border-indigo-900 text-xs text-indigo-200">
+              <div className="mt-4 p-3 bg-slate-950/80 rounded-xl border border-gold-900 text-xs text-gold-200">
                 ⚡ <strong>Your Decision Challenge:</strong> {SCENARIO.context}
               </div>
             </motion.div>
@@ -1129,7 +1129,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                         : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1147,7 +1147,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg border border-indigo-400 flex items-center gap-2 shrink-0"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg border border-gold-400 flex items-center gap-2 shrink-0"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1178,7 +1178,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => { setCurrentSlide(idx); audioManager.play('tap'); }}
                     className={`px-3 py-1 text-xs rounded-lg font-bold transition-all whitespace-nowrap ${
-                      currentSlide === idx ? 'bg-indigo-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:text-slate-200'
+                      currentSlide === idx ? 'bg-gold-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                     }`}
                   >
                     Lab {idx + 1}
@@ -1198,7 +1198,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
               >
                 <div>
                   <h3 className="text-lg md:text-xl font-bold text-white flex items-center gap-2">
-                    <span className="text-indigo-400">🔬 Lab {currentSlide + 1}:</span> {EXPLORATION_STEPS[currentSlide].title}
+                    <span className="text-gold-400">🔬 Lab {currentSlide + 1}:</span> {EXPLORATION_STEPS[currentSlide].title}
                   </h3>
                   <p className="text-xs md:text-sm text-amber-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
@@ -1227,7 +1227,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                             value={transferAmount}
                             aria-label="Set Transfer Amount"
                             onChange={(e) => { setTransferAmount(Number(e.target.value)); audioManager.play('count'); }}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
 
@@ -1245,7 +1245,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                               onClick={() => { setSelectedRail(rail.id as any); audioManager.play('tap'); }}
                               className={`p-2.5 rounded-xl text-left border text-xs transition-all ${
                                 selectedRail === rail.id
-                                  ? 'bg-indigo-950 border-indigo-500 text-indigo-200 ring-2 ring-indigo-500/30'
+                                  ? 'bg-gold-950 border-gold-500 text-gold-200 ring-2 ring-gold-500/30'
                                   : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                               }`}
                             >
@@ -1256,7 +1256,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                         </div>
 
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-700 text-xs space-y-1">
-                          <div className="font-bold text-indigo-300">Statutory Regulatory Check:</div>
+                          <div className="font-bold text-gold-300">Statutory Regulatory Check:</div>
                           {selectedRail === 'RTGS' && transferAmount < 200000 && (
                             <p className="text-rose-400 font-semibold">❌ REJECTED: RTGS requires a statutory minimum of ₹2,00,000. Switch to IMPS or NEFT.</p>
                           )}
@@ -1264,7 +1264,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                             <p className="text-emerald-400 font-semibold">✓ APPROVED: ₹{transferAmount.toLocaleString('en-IN')} will settle individually in real-time gross settlement.</p>
                           )}
                           {selectedRail === 'NEFT' && (
-                            <p className="text-indigo-200">✓ APPROVED: Settle in next half-hourly batch (24x7x365 operated by RBI).</p>
+                            <p className="text-gold-200">✓ APPROVED: Settle in next half-hourly batch (24x7x365 operated by RBI).</p>
                           )}
                           {selectedRail === 'IMPS' && transferAmount <= 500000 && (
                             <p className="text-emerald-400">✓ APPROVED: Instant settlement 24x7 via NPCI infrastructure.</p>
@@ -1273,7 +1273,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                             <p className="text-amber-400">⚠️ NOTICE: ₹{transferAmount.toLocaleString('en-IN')} exceeds standard ₹5,00,000 per-transaction retail IMPS limit. Use RTGS.</p>
                           )}
                           {selectedRail === 'WALLET' && (
-                            <p className="text-blue-300">ℹ️ WALLET: Prepaid payment instrument. Cannot earn interest; cannot withdraw cash at ATM if semi-closed (e.g., Paytm).</p>
+                            <p className="text-gold-300">ℹ️ WALLET: Prepaid payment instrument. Cannot earn interest; cannot withdraw cash at ATM if semi-closed (e.g., Paytm).</p>
                           )}
                         </div>
                       </div>
@@ -1318,7 +1318,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                             <span>Mode</span><span>Settlement</span><span>Min Limit</span><span>Max Limit</span>
                           </div>
                           <div className="grid grid-cols-4 py-0.5 border-b border-slate-800">
-                            <span className="font-bold text-indigo-300">NEFT</span><span>Batches (30m)</span><span>None (₹1)</span><span>No Ceiling</span>
+                            <span className="font-bold text-gold-300">NEFT</span><span>Batches (30m)</span><span>None (₹1)</span><span>No Ceiling</span>
                           </div>
                           <div className="grid grid-cols-4 py-0.5 border-b border-slate-800">
                             <span className="font-bold text-emerald-300">RTGS</span><span>Real-Time</span><span className="text-emerald-400 font-bold">₹2,00,000</span><span>No Ceiling</span>
@@ -1451,7 +1451,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                       <div className="space-y-4">
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-                          <div className="text-xs font-bold text-indigo-300">Step 1: Inspect ATM Card Slot for Skimmers</div>
+                          <div className="text-xs font-bold text-gold-300">Step 1: Inspect ATM Card Slot for Skimmers</div>
                           <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
@@ -1484,7 +1484,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                             value={reportingDelayDays}
                             aria-label="Set Reporting Delay in Days"
                             onChange={(e) => { setReportingDelayDays(Number(e.target.value)); audioManager.play('count'); }}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                           <div className="text-[11px] text-slate-300">
                             Statutory Ceiling (RBI Circular 20 July 2017): Customer liability = <strong>₹{customerLiabilityTier.liability.toLocaleString()}</strong>
@@ -1531,7 +1531,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                           </div>
                         </div>
 
-                        <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800 text-[11px] text-indigo-200">
+                        <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800 text-[11px] text-gold-200">
                           📞 <strong>Immediate Action:</strong> Call SBI helpline (1800-112211) or National Cyber Crime 1930 to <em>Hotlist</em> card instantly!
                         </div>
                       </div>
@@ -1560,11 +1560,11 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                           onClick={() => { setInspectedFraudCase(fCase.id); audioManager.play('tap'); }}
                           className={`p-3 rounded-xl border text-left text-xs transition-all ${
                             inspectedFraudCase === fCase.id
-                              ? 'bg-indigo-950 border-indigo-500 text-white ring-2 ring-indigo-500/30'
+                              ? 'bg-gold-950 border-gold-500 text-white ring-2 ring-gold-500/30'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850'
                           }`}
                         >
-                          <div className="font-bold text-indigo-300">{fCase.title}</div>
+                          <div className="font-bold text-gold-300">{fCase.title}</div>
                           <div className="text-[10px] text-slate-300 font-semibold mt-0.5">{fCase.entity}</div>
                           <div className="text-[9px] text-slate-500 mt-1">{fCase.law}</div>
                         </motion.button>
@@ -1637,7 +1637,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                             value={factoryStackEmission}
                             aria-label="Set Chimney Particulate"
                             onChange={(e) => { setFactoryStackEmission(Number(e.target.value)); audioManager.play('count'); }}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
 
@@ -1649,14 +1649,14 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                       </div>
 
                       <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2 text-xs">
-                        <div className="font-bold text-indigo-300 border-b border-slate-800 pb-1.5">
+                        <div className="font-bold text-gold-300 border-b border-slate-800 pb-1.5">
                           Statutory Environmental Architecture in India
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="font-bold text-white">1. MoEFCC (Ministry):</span> Policy-making Union Department; frames rules under EPA 1986.
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
-                          <span className="font-bold text-indigo-400">2. CPCB (Central Board, Sep 1974):</span> Technical standard-setter, runs NAMP, assesses CEPI.
+                          <span className="font-bold text-gold-400">2. CPCB (Central Board, Sep 1974):</span> Technical standard-setter, runs NAMP, assesses CEPI.
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="font-bold text-emerald-400">3. SPCBs (State Boards, e.g. MPCB):</span> Grants Consent to Establish & Operate; inspects factories.
@@ -1686,7 +1686,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => { setCurrentSlide(s => s + 1); audioManager.play('whoosh'); }}
-                      className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs md:text-sm font-bold rounded-xl shadow-lg"
+                      className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs md:text-sm font-bold rounded-xl shadow-lg"
                     >
                       Next Lab →
                     </motion.button>
@@ -1727,7 +1727,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToChallenge}
-                  className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-black text-sm rounded-2xl shadow-xl border border-emerald-400 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-black text-sm rounded-2xl shadow-xl border border-emerald-400 flex items-center gap-2"
                 >
                   I Am Ready For Graded Challenges! 🎯 →
                 </motion.button>
@@ -1738,7 +1738,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                   whileHover={{ scale: 1.02 }}
                   className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3"
                 >
-                  <div className="text-xs font-bold text-indigo-300">1. Instant Transfer Validator</div>
+                  <div className="text-xs font-bold text-gold-300">1. Instant Transfer Validator</div>
                   <div className="text-xs text-slate-300 font-bold">Amount: ₹{transferAmount.toLocaleString('en-IN')}</div>
                   <input
                     type="range"
@@ -1748,7 +1748,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     value={transferAmount}
                     aria-label="Set Sandbox Transfer Amount"
                     onChange={(e) => { setTransferAmount(Number(e.target.value)); audioManager.play('count'); }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <div className="p-2 bg-slate-900 rounded-lg text-[11px] text-slate-300">
                     {transferAmount >= 200000 ? '✅ RTGS Eligible (Real-Time)' : '⚠️ Below RTGS minimum. Use NEFT / IMPS'}
@@ -1814,20 +1814,20 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
 
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div>
-                <div className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <div className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Competency: {challenge.competencyLevel} | Question {currentChallenge + 1} of {filteredChallenges.length}
                 </div>
                 <h3 className="text-base md:text-lg font-bold text-white mt-0.5">{challenge.question}</h3>
               </div>
               <div className="text-right">
-                <span className="text-xs font-black text-indigo-300">Score: {scoreBreakdown.correct}/{scoreBreakdown.total}</span>
+                <span className="text-xs font-black text-gold-300">Score: {scoreBreakdown.correct}/{scoreBreakdown.total}</span>
               </div>
             </div>
 
             {/* Motion Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
@@ -1860,7 +1860,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                           : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -1877,7 +1877,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -1892,7 +1892,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                         onDragOver={(e) => e.preventDefault()}
                         onDrop={() => handleDragDrop(targetId)}
                         className={`p-4 rounded-2xl border-2 border-dashed flex flex-col justify-center items-center text-center transition-all min-h-[90px] ${
-                          droppedLabels[targetId] ? 'bg-indigo-950/70 border-indigo-500' : 'bg-slate-950/60 border-slate-700'
+                          droppedLabels[targetId] ? 'bg-gold-950/70 border-gold-500' : 'bg-slate-950/60 border-slate-700'
                         }`}
                       >
                         <div className="text-[11px] text-slate-400 font-semibold mb-1">Target: {targetId.replace('target_', '').toUpperCase()}</div>
@@ -1908,7 +1908,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                   >
                     Verify Mappings →
                   </motion.button>
@@ -1949,7 +1949,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                       handleAnswer(ans);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                   >
                     Check Sequence Order →
                   </motion.button>
@@ -1965,7 +1965,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                       aria-label="Enter Numeric Value"
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter value"
-                      className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-48 focus:ring-2 focus:ring-indigo-500 outline-none"
+                      className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-48 focus:ring-2 focus:ring-gold-500 outline-none"
                     />
                     <span className="text-xs font-bold text-slate-400">{challenge.unit}</span>
                     <motion.button
@@ -1973,7 +1973,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput === ''}
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                     >
                       Submit Answer
                     </motion.button>
@@ -1991,7 +1991,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 border border-indigo-600 rounded-xl text-xs font-bold text-indigo-200"
+                        className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 border border-gold-600 rounded-xl text-xs font-bold text-gold-200"
                       >
                         + {part}
                       </motion.button>
@@ -2004,7 +2004,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1.5 bg-indigo-600 text-white font-bold text-xs rounded-xl flex items-center gap-2"
+                        className="px-3 py-1.5 bg-gold-600 text-white font-bold text-xs rounded-xl flex items-center gap-2"
                       >
                         <span>{idx + 1}. {part}</span>
                         <motion.button
@@ -2027,7 +2027,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                   >
                     Verify Construction →
                   </motion.button>
@@ -2096,13 +2096,13 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-3"
+              className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-3"
             >
               <span className="text-4xl">🎓</span>
               <h2 className="text-2xl font-black text-white">Commercial Studies Simulation Complete!</h2>
               <div className="flex justify-center gap-6 text-sm font-bold pt-2">
                 <span className="text-emerald-400">Final Score: {Math.max(0, 100 - errors * 5)}%</span>
-                <span className="text-indigo-300">Accuracy: {scoreBreakdown.correct}/{scoreBreakdown.total}</span>
+                <span className="text-gold-300">Accuracy: {scoreBreakdown.correct}/{scoreBreakdown.total}</span>
                 <span className="text-amber-300 capitalize">Mastery Level: {masteryLevel}</span>
               </div>
             </motion.div>
@@ -2112,7 +2112,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-4 bg-slate-900 rounded-2xl border border-slate-800"
             >
-              <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-1">Performance Evaluation:</h3>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-1">Performance Evaluation:</h3>
               <p className="text-xs md:text-sm text-slate-200">
                 {errors === 0
                   ? '🌟 Flawless Mastery! You demonstrated exceptional comprehension across NEFT/RTGS settlement rails, card security rules, corporate fraud statutes, and CPCB environmental standards.'
@@ -2127,11 +2127,11 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-900/80 space-y-4"
+              className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/60 rounded-2xl border border-gold-900/80 space-y-4"
             >
               <div className="flex items-center gap-2">
                 <span className="text-xl">💭</span>
-                <h3 className="text-sm md:text-base font-bold text-indigo-300">Post-Simulation Reflective Thinking</h3>
+                <h3 className="text-sm md:text-base font-bold text-gold-300">Post-Simulation Reflective Thinking</h3>
               </div>
               <p className="text-xs text-slate-400">Consolidate your learning by briefly reflecting on these three core questions:</p>
 
@@ -2144,7 +2144,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q1: e.target.value }))}
                     placeholder="e.g., Credit card interest compounds at ~40% APR, or RTGS has a ₹2 Lakh minimum..."
                     disabled={reflectionSubmitted}
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2156,7 +2156,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q2: e.target.value }))}
                     placeholder="e.g., Debit is your money, credit is a loan; always report card fraud in 3 days for zero liability..."
                     disabled={reflectionSubmitted}
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2168,7 +2168,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q3: e.target.value }))}
                     placeholder="e.g., Auditing business transfers, inspecting ATM card slots, checking environmental norms..."
                     disabled={reflectionSubmitted}
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               </div>
@@ -2181,7 +2181,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     setReflectionSubmitted(true);
                     audioManager.play('success');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Save Reflections ✓
                 </motion.button>
@@ -2236,7 +2236,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
               animate={{ opacity: 1 }}
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <h3 className="text-sm font-bold text-indigo-300">🚀 {REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300">🚀 {REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-400">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
@@ -2245,7 +2245,7 @@ export default function C10_CommercialStudiesInternetBankingNeftSim({
                     whileHover={{ x: 4 }}
                     className="flex gap-2"
                   >
-                    <span className="font-bold text-indigo-400">{idx + 1}.</span> {step}
+                    <span className="font-bold text-gold-400">{idx + 1}.</span> {step}
                   </motion.li>
                 ))}
               </ul>

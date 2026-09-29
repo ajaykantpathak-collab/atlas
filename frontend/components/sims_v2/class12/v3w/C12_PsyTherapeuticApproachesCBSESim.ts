@@ -11,7 +11,7 @@ export const w_c12_psytherapeuticapproachescbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters',
     chapters: [],
     nodeIds: ['c12_psy_cbse_05_003', 'c12_psy_cbse_05_004', 'c12_psy_cbse_05_008', 'c12_psy_cbse_05_010', 'c12_psy_cbse_05_001', 'c12_psy_cbse_05_002', 'c12_psy_cbse_05_009', 'c12_psy_cbse_05_006', 'c12_psy_cbse_05_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Rohan, who experiences intense anxiety before exams.', goal: 'Master Classification of Psychotherapies: Psychodynamic, Behavioural and Existential Parameters.' },
     discovery: {
         question: 'A client seeks therapy for social anxiety. The therapist focuses on "faulty conditioning patterns" and "maladaptive thought patterns" acquired through.',
@@ -20,7 +20,7 @@ export const w_c12_psytherapeuticapproachescbsesim: SimDef = {
         hook: 'Students treat the three classifications as merely "different techniques for the same problems" rather than.',
     },
     teaching: [
-        { title: 'Classification of psychotherapies is the.', text: 'Classification of psychotherapies is the systematic categorisation of therapeutic approaches based on six core parameters: (1) the presumed cause of psychological problems, (2) the origin of that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Classification of psychotherapies is the.', text: 'Classification of psychotherapies is the systematic categorisation of therapeutic approaches based on six core parameters: (1) the presumed cause of psychological problems, (2) the origin of that.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_psy_cbse_05_003', title: 'Classification of psychotherapies is.',

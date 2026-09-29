@@ -11,7 +11,7 @@ export const w_c10_scienceelectricitysim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Electric Current: Definition and Unit (Ampere)',
     chapters: [],
     nodeIds: ['c10_phy_cbse_01_001', 'c10_phy_cbse_01_002', 'c10_phy_cbse_01_003', 'c10_phy_cbse_01_004', 'c10_phy_cbse_01_005', 'c10_phy_cbse_01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a ceiling fan in your classroom: when you flip the switch, the fan starts rotating almost instantly.', goal: 'Master Electric Current: Definition and Unit (Ampere).' },
     discovery: {
         question: 'A charge of 300 coulombs passes through a cross-section of a wire in 5 minutes. Calculate the electric current in amperes. Show all steps with units.',
@@ -20,7 +20,7 @@ export const w_c10_scienceelectricitysim: SimDef = {
         hook: 'Students often think "current gets used up" in a circuit — e.g., "current is less after passing through a bulb because.',
     },
     teaching: [
-        { title: 'Electric current is the rate of flow of.', text: 'Electric current is the rate of flow of electric charge through a conductor. It is defined as the amount of charge (Q) passing through a cross-section of a conductor per unit time (t).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Electric current is the rate of flow of.', text: 'Electric current is the rate of flow of electric charge through a conductor. It is defined as the amount of charge (Q) passing through a cross-section of a conductor per unit time (t).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_phy_cbse_01_001', title: 'Electric current is the rate of flow of.',

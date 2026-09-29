@@ -1408,9 +1408,9 @@ export function SyncIndicator({
     if (!status.isOnline) return 'bg-red-600 text-white'
     if (status.syncError) return 'bg-orange-500 text-white'
     if (status.conflictCount > 0) return 'bg-amber-500 text-white'
-    if (status.isSyncing) return 'bg-blue-500 text-white'
-    if (status.pendingCount > 0) return 'bg-blue-400 text-white'
-    if (status.swUpdateAvailable) return 'bg-indigo-500 text-white'
+    if (status.isSyncing) return 'bg-gold-500 text-white'
+    if (status.pendingCount > 0) return 'bg-gold-400 text-white'
+    if (status.swUpdateAvailable) return 'bg-gold-500 text-white'
     return 'bg-emerald-500 text-white'
   }
 
@@ -1626,7 +1626,7 @@ function DiffViewer({
               </div>
               <div className="space-y-0.5">
                 <span className="text-xs opacity-70 block">Server version</span>
-                <span className="text-blue-200 font-mono text-xs break-all">
+                <span className="text-gold-200 font-mono text-xs break-all">
                   {formatValue(server)}
                 </span>
               </div>
@@ -1777,9 +1777,9 @@ export function ConflictResolutionModal({
               p-4
               rounded-xl
               border-2
-              border-blue-200
-              hover:border-blue-400
-              hover:bg-blue-50
+              border-gold-200
+              hover:border-gold-400
+              hover:bg-gold-50
               transition-all
               text-left
               disabled:opacity-50
@@ -1792,7 +1792,7 @@ export function ConflictResolutionModal({
               <p className="text-xs text-gray-500">Discard local changes, keep the server copy</p>
             </div>
             {resolution === 'server' && resolving && (
-              <span className="ml-auto text-blue-500 animate-spin">⏳</span>
+              <span className="ml-auto text-gold-500 animate-spin">⏳</span>
             )}
             {resolution === 'server' && !resolving && (
               <span className="ml-auto text-green-500">✓</span>

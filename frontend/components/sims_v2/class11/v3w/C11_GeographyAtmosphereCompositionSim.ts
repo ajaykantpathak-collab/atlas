@@ -11,7 +11,7 @@ export const w_c11_geographyatmospherecompositionsim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Origin of the Solar System and the Sun',
     chapters: [],
     nodeIds: ['c11_geo_cbse_02_004', 'c11_geo_cbse_02_006', 'c11_geo_cbse_02_008', 'c11_geo_cbse_06_004', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_02_007', 'c11_geo_cbse_10_003', 'c11_geo_cbse_26_001', 'c11_geo_cbse_26_003', 'c11_geo_cbse_26_005', 'c11_geo_cbse_06_003', 'c11_geo_cbse_06_005', 'c11_geo_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Look at a photograph of the Orion Nebula (M42) — a stellar nursery visible from India in winter evenings —.', goal: 'Master Origin of the Solar System and the Sun.' },
     discovery: {
         question: 'State the approximate age of the solar system and name the two primary processes that caused the solar nebula to flatten into a protoplanetary disk.',
@@ -20,7 +20,7 @@ export const w_c11_geographyatmospherecompositionsim: SimDef = {
         hook: 'Students often believe the Sun formed first as a star, then planets formed from material ejected by the Sun (e.g., "the.',
     },
     teaching: [
-        { title: 'The solar system originated approximately.', text: 'The solar system originated approximately 4.6 billion years ago from the gravitational collapse of a giant molecular cloud fragment (solar nebula), where conservation of angular momentum caused the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The solar system originated approximately.', text: 'The solar system originated approximately 4.6 billion years ago from the gravitational collapse of a giant molecular cloud fragment (solar nebula), where conservation of angular momentum caused the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_02_004', title: 'The solar system originated.',

@@ -737,7 +737,7 @@ const EcologicalSystemsDiagram: React.FC<{ activeSystem: string; onSelectSystem:
         </g>
       </svg>
       <div className="mt-3 text-xs text-slate-300 text-center max-w-md bg-slate-800/80 p-2.5 rounded-lg border border-slate-700">
-        <span className="font-semibold text-cyan-400 uppercase">{activeSystem}: </span>
+        <span className="font-semibold text-gold-400 uppercase">{activeSystem}: </span>
         {activeSystem === 'microsystem' && 'Direct immediate environments (family, school, peer group, neighborhood) where direct face-to-face interactions occur.'}
         {activeSystem === 'mesosystem' && 'Interrelations among two or more microsystems (e.g., interaction between child’s family and school teachers).'}
         {activeSystem === 'exosystem' && 'Social settings that do not contain the individual directly but still affect their development (e.g., parent’s workplace stress).'}
@@ -761,7 +761,7 @@ const PiagetianConservationDiagram: React.FC<{
         <div className="flex flex-col items-center">
           <div className="w-16 h-32 border-2 border-slate-400 border-t-0 bg-slate-800/50 rounded-b-md relative flex items-end overflow-hidden">
             <div
-              className="w-full bg-cyan-500/70 transition-all duration-700"
+              className="w-full bg-gold-500/70 transition-all duration-700"
               style={{ height: stage === 'equal' ? '60%' : '60%' }}
             />
           </div>
@@ -776,7 +776,7 @@ const PiagetianConservationDiagram: React.FC<{
             }`}
           >
             <div
-              className="w-full bg-cyan-500/70 transition-all duration-700"
+              className="w-full bg-gold-500/70 transition-all duration-700"
               style={{ height: stage === 'equal' ? '60%' : '96%' }}
             />
           </div>
@@ -789,7 +789,7 @@ const PiagetianConservationDiagram: React.FC<{
       <div className="flex items-center gap-3">
         <button
           onClick={onTogglePour}
-          className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold shadow transition-all"
+          className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold shadow transition-all"
         >
           {stage === 'equal' ? 'Pour Container B into Tall/Thin Glass' : 'Reset to Equal Glasses'}
         </button>
@@ -818,7 +818,7 @@ const MotorTrendsDiagram: React.FC<{ cephalocaudalVal: number; setCephalocaudalV
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-xl my-2">
         {/* Cephalocaudal Trend */}
         <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 flex flex-col items-center">
-          <span className="text-xs font-bold text-cyan-400 mb-2">1. Cephalocaudal Trend (Head-to-Toe)</span>
+          <span className="text-xs font-bold text-gold-400 mb-2">1. Cephalocaudal Trend (Head-to-Toe)</span>
           <svg width="140" height="200" viewBox="0 0 140 200" className="bg-slate-900 rounded border border-slate-700">
             {/* Infant Silhouette SVG */}
             <circle cx="70" cy="35" r="22" fill="#38bdf8" opacity={cephalocaudalVal >= 1 ? 1 : 0.3} />
@@ -868,9 +868,9 @@ const MotorTrendsDiagram: React.FC<{ cephalocaudalVal: number; setCephalocaudalV
           max="3"
           value={cephalocaudalVal}
           onChange={(e) => setCephalocaudalVal(parseInt(e.target.value))}
-          className="accent-indigo-500 cursor-pointer"
+          className="accent-gold-500 cursor-pointer"
         />
-        <span className="text-xs font-bold text-indigo-400">Step {cephalocaudalVal}/3</span>
+        <span className="text-xs font-bold text-gold-400">Step {cephalocaudalVal}/3</span>
       </div>
     </div>
   );
@@ -1053,7 +1053,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
       <header className="w-full max-w-6xl bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 mb-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 text-xs font-bold rounded-full uppercase tracking-wider">
+            <span className="px-2.5 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 text-xs font-bold rounded-full uppercase tracking-wider">
               CISCE Class 11 Psychology
             </span>
             <span className="px-2.5 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold rounded-full uppercase tracking-wider">
@@ -1074,7 +1074,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
             onClick={() => handleTabChange('discovery')}
             className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'discovery'
-                ? 'bg-indigo-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
             }`}
           >
@@ -1084,7 +1084,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
             onClick={() => handleTabChange('lab')}
             className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'lab'
-                ? 'bg-indigo-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
             }`}
           >
@@ -1094,7 +1094,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
             onClick={() => handleTabChange('challenges')}
             className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'challenges'
-                ? 'bg-indigo-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
             }`}
           >
@@ -1104,7 +1104,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
             onClick={() => handleTabChange('misconceptions')}
             className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'misconceptions'
-                ? 'bg-indigo-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
             }`}
           >
@@ -1114,7 +1114,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
             onClick={() => handleTabChange('summary')}
             className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'summary'
-                ? 'bg-indigo-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
             }`}
           >
@@ -1129,12 +1129,12 @@ export default function C11_PsyHumanDevelopmentCBSESim({
         {activeTab === 'discovery' && (
           <div className="flex flex-col gap-6">
             <div className="bg-slate-800/60 p-5 rounded-xl border border-slate-700/60">
-              <h2 className="text-lg font-bold text-indigo-400 mb-2">Scenario Orientation</h2>
+              <h2 className="text-lg font-bold text-gold-400 mb-2">Scenario Orientation</h2>
               <p className="text-sm text-slate-300">{SCENARIO.context}</p>
             </div>
 
             <div className="bg-slate-800/90 p-5 rounded-xl border border-slate-700">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Pre-Lab Assessment Question
               </span>
               <h3 className="text-base font-semibold text-slate-100 mt-2 mb-4">
@@ -1153,7 +1153,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                     }}
                     className={`w-full text-left p-3.5 rounded-xl text-xs md:text-sm font-medium transition-all border ${
                       discoveryChoice === idx
-                        ? 'bg-indigo-600/30 border-indigo-500 text-white'
+                        ? 'bg-gold-600/30 border-gold-500 text-white'
                         : 'bg-slate-900/60 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1167,7 +1167,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoveryChoice === null}
-                  className="mt-5 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 text-white rounded-xl text-xs font-bold shadow-lg transition-all"
+                  className="mt-5 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-700 text-white rounded-xl text-xs font-bold shadow-lg transition-all"
                 >
                   Submit Pre-Analysis Answer
                 </button>
@@ -1276,7 +1276,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                   }}
                   className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all border ${
                     selectedLabStep === idx
-                      ? 'bg-indigo-600 border-indigo-500 text-white shadow-lg'
+                      ? 'bg-gold-600 border-gold-500 text-white shadow-lg'
                       : 'bg-slate-800/80 border-slate-700 text-slate-400 hover:bg-slate-700 hover:text-white'
                   }`}
                 >
@@ -1286,9 +1286,9 @@ export default function C11_PsyHumanDevelopmentCBSESim({
             </div>
 
             {/* Instruction Banner */}
-            <div className="bg-indigo-950/40 border border-indigo-800/50 p-4 rounded-xl flex items-center justify-between">
+            <div className="bg-gold-950/40 border border-gold-800/50 p-4 rounded-xl flex items-center justify-between">
               <div>
-                <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest">
+                <span className="text-[10px] font-bold text-gold-400 uppercase tracking-widest">
                   Active Exploration Lab
                 </span>
                 <h3 className="text-sm font-bold text-white mt-0.5">
@@ -1320,7 +1320,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                 </h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-xl">
                   <div className="bg-slate-800 p-4 rounded-lg border border-slate-700">
-                    <label className="text-xs font-bold text-cyan-400 block mb-2">
+                    <label className="text-xs font-bold text-gold-400 block mb-2">
                       Gestational Age Window: {gestationalWeek} Weeks
                     </label>
                     <input
@@ -1329,7 +1329,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                       max="38"
                       value={gestationalWeek}
                       onChange={(e) => setGestationalWeek(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="text-[11px] text-slate-300 mt-2">
                       {gestationalWeek <= 2 && 'Germinal Stage (Weeks 0-2): Zygote cleavage; high risk of prenatal loss prior to implantation.'}
@@ -1430,10 +1430,10 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                 </h4>
                 <div className="bg-slate-800 p-4 rounded-lg border border-slate-700 text-xs text-slate-300 max-w-xl">
                   <p className="mb-3">
-                    <strong className="text-indigo-400">Scenario:</strong> Heinz’s wife is dying of a rare disease. A pharmacist demands an exorbitant price for the drug. Heinz cannot afford it and steals the drug to save his wife.
+                    <strong className="text-gold-400">Scenario:</strong> Heinz’s wife is dying of a rare disease. A pharmacist demands an exorbitant price for the drug. Heinz cannot afford it and steals the drug to save his wife.
                   </p>
                   <div className="space-y-2">
-                    <label className="font-bold text-cyan-400 block">Select Moral Level:</label>
+                    <label className="font-bold text-gold-400 block">Select Moral Level:</label>
                     <div className="flex flex-wrap gap-2">
                       {['Pre-Conventional (Stage 1-2)', 'Conventional (Stage 3-4)', 'Post-Conventional (Stage 5-6)'].map((lvl, idx) => (
                         <button
@@ -1444,7 +1444,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                           }}
                           className={`px-3 py-1.5 rounded text-xs font-bold border transition-all ${
                             moralStageIndex === idx
-                              ? 'bg-indigo-600 border-indigo-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1465,7 +1465,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
 
             {/* OBSERVATION QUESTIONS SECTION */}
             <div className="bg-slate-800/60 p-5 rounded-xl border border-slate-700/60 mt-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider mb-4">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider mb-4">
                 Empirical Observation Checks
               </h3>
               <div className="space-y-6">
@@ -1488,7 +1488,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                           }}
                           className={`p-2.5 text-left rounded-lg text-xs font-medium border transition-all ${
                             obsAnswers[oIdx] === optIdx
-                              ? 'bg-cyan-500/30 border-cyan-500 text-white'
+                              ? 'bg-gold-500/30 border-gold-500 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                           }`}
                         >
@@ -1507,7 +1507,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                           }
                         }}
                         disabled={obsAnswers[oIdx] === null}
-                        className="mt-3 px-4 py-1.5 bg-cyan-600 hover:bg-cyan-500 disabled:bg-slate-800 text-white rounded text-xs font-semibold"
+                        className="mt-3 px-4 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 text-white rounded text-xs font-semibold"
                       >
                         Verify Observation
                       </button>
@@ -1555,7 +1555,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
               <div className="flex items-center gap-4 mt-2 md:mt-0">
                 <div className="text-right">
                   <span className="text-xs text-slate-400 block">Total Points</span>
-                  <span className="text-xl font-extrabold text-indigo-400">{challengeScore}</span>
+                  <span className="text-xl font-extrabold text-gold-400">{challengeScore}</span>
                 </div>
               </div>
             </div>
@@ -1585,7 +1585,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                     }}
                     className={`w-full text-left p-4 rounded-xl text-xs md:text-sm font-medium transition-all border ${
                       selectedOption === idx
-                        ? 'bg-indigo-600/30 border-indigo-500 text-white'
+                        ? 'bg-gold-600/30 border-gold-500 text-white'
                         : 'bg-slate-900/60 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1613,7 +1613,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={selectedOption === null}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 text-white rounded-xl text-xs font-bold shadow-lg transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-700 text-white rounded-xl text-xs font-bold shadow-lg transition-all"
                   >
                     Submit Answer
                   </button>
@@ -1667,7 +1667,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                   className="bg-slate-900 p-5 rounded-xl border border-slate-800 hover:border-slate-700 transition-all flex flex-col justify-between"
                 >
                   <div>
-                    <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider block mb-1">
+                    <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wider block mb-1">
                       {misc.title}
                     </span>
                     <div className="mb-3 p-2.5 bg-rose-950/30 border border-rose-800/40 rounded-lg">
@@ -1708,7 +1708,7 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                     key={idx}
                     className="p-3.5 bg-slate-900 rounded-xl border border-slate-700/80 text-xs text-slate-200 flex items-start gap-3"
                   >
-                    <span className="px-2 py-0.5 bg-indigo-600 text-white font-bold rounded text-[10px]">
+                    <span className="px-2 py-0.5 bg-gold-600 text-white font-bold rounded text-[10px]">
                       {idx + 1}
                     </span>
                     <p className="flex-1">{st}</p>
@@ -1716,9 +1716,9 @@ export default function C11_PsyHumanDevelopmentCBSESim({
                 ))}
               </div>
 
-              <div className="mt-6 p-4 bg-indigo-950/40 border border-indigo-800/50 rounded-xl flex items-center justify-between">
+              <div className="mt-6 p-4 bg-gold-950/40 border border-gold-800/50 rounded-xl flex items-center justify-between">
                 <div>
-                  <h4 className="text-xs font-bold text-indigo-300 uppercase">
+                  <h4 className="text-xs font-bold text-gold-300 uppercase">
                     Lifespan Assessment Complete
                   </h4>
                   <p className="text-xs text-slate-300 mt-1">

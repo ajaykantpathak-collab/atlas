@@ -120,7 +120,7 @@ export function C11_GeographyRemoteSensingSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Image pixels</p>
-              <p className="font-mono font-bold text-sky-300">{totalCells}</p>
+              <p className="font-mono font-bold text-gold-300">{totalCells}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Cloud cover</p>

@@ -1486,12 +1486,12 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
 
                     <div>
                       <div className="flex justify-between text-xs mb-1 font-semibold">
-                        <span className="text-blue-400">Kerensky Provisional Government:</span>
-                        <span className="text-blue-400">{provGovPopularity}%</span>
+                        <span className="text-gold-400">Kerensky Provisional Government:</span>
+                        <span className="text-gold-400">{provGovPopularity}%</span>
                       </div>
                       <div className="h-3 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-blue-500 rounded-full"
+                          className="h-full bg-gold-500 rounded-full"
                           animate={{ width: `${provGovPopularity}%` }}
                         />
                       </div>
@@ -1526,7 +1526,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-300">Manufactured Goods Price Index:</span>
-                        <span className="text-cyan-400 font-bold">{industrialPriceRatio}% of 1913</span>
+                        <span className="text-gold-400 font-bold">{industrialPriceRatio}% of 1913</span>
                       </div>
                       <input
                         type="range"
@@ -1534,7 +1534,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
                         max={300}
                         value={industrialPriceRatio}
                         onChange={(e) => setIndustrialPriceRatio(Number(e.target.value))}
-                        className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                         aria-label="Set Industrial Price"
                       />
                     </div>
@@ -1888,7 +1888,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
                           🚨 Reichstag Paralyzed: Authoritarian decree rule paved the legal path for Hitler on 30 Jan 1933.
                         </span>
                       ) : (
-                        <span className="text-blue-300 font-semibold">
+                        <span className="text-gold-300 font-semibold">
                           Fragile Grand Coalition surviving via foreign loans (Dawes Plan).
                         </span>
                       )}
@@ -1964,7 +1964,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300">Stalin Nomenklatura Control (General Secretary):</span>
-                    <span className="text-cyan-400 font-bold">{stalinPartyControl}% Loyal Delegates</span>
+                    <span className="text-gold-400 font-bold">{stalinPartyControl}% Loyal Delegates</span>
                   </div>
                   <input
                     type="range"
@@ -1972,7 +1972,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
                     max={100}
                     value={stalinPartyControl}
                     onChange={(e) => setStalinPartyControl(Number(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-800 rounded-lg"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg"
                     aria-label="Set Stalin Control"
                   />
                 </div>
@@ -2038,7 +2038,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
                     ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
-                    : 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                    : 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                 }`}
               >
                 {difficulty}
@@ -2479,7 +2479,7 @@ function C11_HistoryWeaknessesProvisionalGovernmentSim({
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-full uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-full uppercase tracking-wider">
               Metacognitive Reflection
             </span>
             <h3 className="text-lg font-bold text-white">

@@ -80,7 +80,7 @@ export function C12_SociologyConstitutionSocialChangeSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Constitution as a Change Engine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Constitution as a Change Engine</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -88,7 +88,7 @@ export function C12_SociologyConstitutionSocialChangeSim() {
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-700 text-sm space-y-2">
           <div className="text-xs uppercase tracking-wide text-slate-400">Provision {idx + 1} of {STEPS.length}</div>
           <div className="flex items-baseline gap-2">
-            <span className="font-mono text-2xl font-black text-indigo-300">{step.year}</span>
+            <span className="font-mono text-2xl font-black text-gold-300">{step.year}</span>
             <span className="font-bold text-slate-200">{step.name}</span>
           </div>
           {mode === 'target' ? (
@@ -108,7 +108,7 @@ export function C12_SociologyConstitutionSocialChangeSim() {
           <div className="flex justify-between items-center pt-3 mt-1 border-t border-slate-800">
             {STEPS.map((s, i) => (
               <button key={s.year} onClick={() => setIdx(i)} aria-label={`jump to ${s.year}`}
-                className={`rounded-full text-[10px] font-mono border min-h-11 min-w-11 flex items-center justify-center ${i === idx ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-600 text-slate-400 hover:bg-slate-700'}`}>
+                className={`rounded-full text-[10px] font-mono border min-h-11 min-w-11 flex items-center justify-center ${i === idx ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-600 text-slate-400 hover:bg-slate-700'}`}>
                 {s.year.slice(2)}
               </button>
             ))}
@@ -145,14 +145,14 @@ export function C12_SociologyConstitutionSocialChangeSim() {
           <button onClick={() => setIdx((i) => Math.max(0, i - 1))} className="flex-1 min-h-11 rounded-xl text-sm font-semibold border bg-slate-900 border-slate-600 hover:bg-slate-700">
             Back one provision
           </button>
-          <button onClick={() => setIdx((i) => Math.min(STEPS.length - 1, i + 1))} className="flex-1 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+          <button onClick={() => setIdx((i) => Math.min(STEPS.length - 1, i + 1))} className="flex-1 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
             Next provision
           </button>
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Jump to a year</span>
-            <span className="font-mono font-bold text-sky-300">{step.year}</span>
+            <span className="font-mono font-bold text-gold-300">{step.year}</span>
           </label>
           <select value={idx} onChange={(e) => setIdx(Number(e.target.value))} aria-label="jump to year"
             className="mt-2 min-h-11 w-full rounded-xl bg-slate-900 border border-slate-600 text-xs text-slate-200 px-2">
@@ -172,8 +172,8 @@ export function C12_SociologyConstitutionSocialChangeSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Step from 1947 to 1993 without looking at the dials. Which provision moves the &quot;voice&quot; dial the most, and how many women does that decision reach today?</li>
           <li>Compare the 1950 and 2002 stops. Which dial needed TWO separate provisions to finish moving -- and what does that suggest about implementation gaps?</li>

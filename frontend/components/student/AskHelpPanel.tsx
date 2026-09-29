@@ -71,7 +71,7 @@ export default function AskHelpPanel({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="text-xs text-violet-300/80 hover:text-violet-200 underline underline-offset-2 transition-colors"
+        className="text-xs text-gold-300/80 hover:text-gold-200 underline underline-offset-2 transition-colors"
         data-testid="ask-help-open"
       >
         {label || 'Still stuck? Ask — Hindi/Hinglish mein bhi'}
@@ -81,7 +81,7 @@ export default function AskHelpPanel({
 
   return (
     <div
-      className="rounded-xl px-3.5 py-3 bg-violet-500/[0.07] border border-violet-400/25 text-left"
+      className="rounded-xl px-3.5 py-3 bg-gold-500/[0.07] border border-gold-400/25 text-left"
       data-testid="ask-help-panel"
     >
       <textarea
@@ -90,7 +90,7 @@ export default function AskHelpPanel({
         onChange={(e) => setQ(e.target.value)}
         rows={2}
         aria-label="Your doubt"
-        className="w-full rounded-lg bg-black/30 border border-white/10 px-3 py-2 text-sm text-white/90 placeholder-white/30 focus:outline-none focus:border-violet-400/50 resize-none"
+        className="w-full rounded-lg bg-black/30 border border-white/10 px-3 py-2 text-sm text-white/90 placeholder-white/30 focus:outline-none focus:border-gold-400/50 resize-none"
         placeholder="Type your doubt — English ya Hindi mein…"
       />
       <div className="flex gap-2 mt-2">
@@ -98,7 +98,7 @@ export default function AskHelpPanel({
           type="button"
           onClick={() => ask(false)}
           disabled={asking || !q.trim()}
-          className="flex-1 py-2 rounded-lg bg-violet-500/20 border border-violet-400/40 text-violet-200 text-xs font-medium hover:bg-violet-500/30 transition disabled:opacity-50"
+          className="flex-1 py-2 rounded-lg bg-gold-500/20 border border-gold-400/40 text-gold-200 text-xs font-medium hover:bg-gold-500/30 transition disabled:opacity-50"
           data-testid="ask-help-send"
         >
           {asking ? 'Asking…' : 'Ask'}

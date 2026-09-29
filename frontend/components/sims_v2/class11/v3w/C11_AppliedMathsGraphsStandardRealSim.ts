@@ -11,7 +11,7 @@ export const w_c11_appliedmathsgraphsstandardrealsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Functions: Definition and Types',
     chapters: [],
     nodeIds: ['c11_math_cbse_02_005', 'c11_math_cbse_02_011', 'c11_math_cbse_11_006', 'c11_math_cbse_11_009', 'c11_math_cbse_03_004', 'c11_math_cbse_02_006', 'c11_math_cbse_02_007', 'c11_math_cbse_02_008', 'c11_math_cbse_02_009', 'c11_math_cbse_13_006', 'c11_math_cbse_11_003', 'c11_math_cbse_11_007', 'c11_math_cbse_11_010', 'c11_math_cbse_06_005', 'c11_math_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a school cafeteria where every student (set \\(A\\)) must be assigned exactly one lunch menu (set.', goal: 'Master Functions: Definition and Types.' },
     discovery: {
         question: 'A student claims: "The relation \\(R = \\{(x,y) \\in \\mathbb{Z} \\times \\mathbb{Z} : y^2 = x\\}\\) is a function from \\(\\mathbb{Z}\\) to \\(\\mathbb{Z}\\) because every.',
@@ -20,7 +20,7 @@ export const w_c11_appliedmathsgraphsstandardrealsim: SimDef = {
         hook: 'Students often cancel common factors in a rational expression and declare the simplified expression as the function,.',
     },
     teaching: [
-        { title: 'A function \\(f\\) from a non-empty set \\(A\\).', text: 'A function \\(f\\) from a non-empty set \\(A\\) to a non-empty set \\(B\\) is a relation such that every element \\(x \\in A\\) has exactly one image \\(y \\in B\\); equivalently, the domain of \\(f\\) is \\(A\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A function \\(f\\) from a non-empty set \\(A\\).', text: 'A function \\(f\\) from a non-empty set \\(A\\) to a non-empty set \\(B\\) is a relation such that every element \\(x \\in A\\) has exactly one image \\(y \\in B\\); equivalently, the domain of \\(f\\) is \\(A\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_02_005', title: 'A function \\(f\\) from a non-empty set.',

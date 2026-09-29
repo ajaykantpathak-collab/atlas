@@ -1021,13 +1021,13 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">Class 7 ICSE & CBSE | 10 Unified Mastery Modules</p>
+            <p className="text-xs text-gold-400 font-medium">Class 7 ICSE & CBSE | 10 Unified Mastery Modules</p>
           </div>
         </div>
 
@@ -1036,7 +1036,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
             key={phase}
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
-            className="px-3 py-1 rounded-full text-xs font-bold uppercase bg-slate-800 border border-slate-700 text-indigo-300"
+            className="px-3 py-1 rounded-full text-xs font-bold uppercase bg-slate-800 border border-slate-700 text-gold-300"
           >
             Phase: {phase}
           </motion.span>
@@ -1047,7 +1047,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40' :
               difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40' :
-              'bg-blue-500/20 text-blue-400 border border-blue-500/40'
+              'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             {difficulty}
@@ -1069,9 +1069,9 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40"
+            className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40"
           >
-            <h2 className="text-xl font-bold text-indigo-300">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-300">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 italic">{SCENARIO.context}</p>
           </motion.div>
@@ -1098,7 +1098,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   aria-label={`Option: ${opt}`}
                   className="w-full text-left p-4 rounded-xl text-sm font-medium bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/50 transition-all text-slate-200"
                 >
-                  <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1116,7 +1116,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="mt-4 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="mt-4 px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Concept Labs →
                 </motion.button>
@@ -1131,7 +1131,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
         <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Interactive Lab {currentSlide + 1} of 5</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Interactive Lab {currentSlide + 1} of 5</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <motion.span
@@ -1178,7 +1178,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                           value={decA}
                           onChange={(e) => handleDecAChange(parseFloat(e.target.value))}
                           aria-label="Set vertical decimal height"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1195,7 +1195,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                           value={decB}
                           onChange={(e) => handleDecBChange(parseFloat(e.target.value))}
                           aria-label="Set horizontal decimal width"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1204,7 +1204,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                         className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2"
                       >
                         <p className="text-slate-300">
-                          Fraction Form: <span className="text-indigo-400 font-bold">{Math.round(decA * 10)}/10</span> × <span className="text-cyan-400 font-bold">{Math.round(decB * 10)}/10</span> = <span className="text-emerald-400 font-bold">{Math.round(decA * 10 * decB * 10)}/100</span>
+                          Fraction Form: <span className="text-gold-400 font-bold">{Math.round(decA * 10)}/10</span> × <span className="text-gold-400 font-bold">{Math.round(decB * 10)}/10</span> = <span className="text-emerald-400 font-bold">{Math.round(decA * 10 * decB * 10)}/100</span>
                         </p>
                         <p className="text-slate-300">
                           Decimal Product: <span className="font-mono text-emerald-400 font-black text-sm">{(decA * decB).toFixed(2)}</span>
@@ -1256,11 +1256,11 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-900/50 space-y-3"
+                    className="p-4 bg-gold-950/40 rounded-xl border border-gold-900/50 space-y-3"
                   >
                     {!predictionMade ? (
                       <div>
-                        <p className="text-xs font-bold text-indigo-300 mb-2">Predict-then-Check: {PREDICTION_QUESTIONS[0].question}</p>
+                        <p className="text-xs font-bold text-gold-300 mb-2">Predict-then-Check: {PREDICTION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-2 gap-2">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1398,7 +1398,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                     animate={{ opacity: 1 }}
                     className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2"
                   >
-                    <p className="text-xs font-bold text-indigo-300">Observation Check: {OBSERVATION_QUESTIONS[1].question}</p>
+                    <p className="text-xs font-bold text-gold-300">Observation Check: {OBSERVATION_QUESTIONS[1].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => (
                         <motion.button
@@ -1424,8 +1424,8 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
               {currentSlide === 2 && (
                 <div className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-indigo-800/40">
-                      <h4 className="text-xs font-bold text-indigo-400 uppercase">1. Multiplication Law</h4>
+                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-gold-800/40">
+                      <h4 className="text-xs font-bold text-gold-400 uppercase">1. Multiplication Law</h4>
                       <div className="my-2 text-xs font-mono text-slate-300">
                         2<sup>{lawM}</sup> × 2<sup>{lawN}</sup> = 2<sup>{lawM + lawN}</sup>
                       </div>
@@ -1435,13 +1435,13 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                       </div>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-cyan-800/40">
-                      <h4 className="text-xs font-bold text-cyan-400 uppercase">2. Division Law</h4>
+                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-gold-800/40">
+                      <h4 className="text-xs font-bold text-gold-400 uppercase">2. Division Law</h4>
                       <div className="my-2 text-xs font-mono text-slate-300">
                         2<sup>{lawM + lawN}</sup> ÷ 2<sup>{lawN}</sup> = 2<sup>{lawM}</sup>
                       </div>
                       <p className="text-[11px] text-slate-400">Subtract powers when dividing: aᵐ ÷ aⁿ = aᵐ⁻ⁿ</p>
-                      <div className="mt-3 text-xs text-cyan-400 font-bold">
+                      <div className="mt-3 text-xs text-gold-400 font-bold">
                         {Math.pow(2, lawM + lawN)} ÷ {Math.pow(2, lawN)} = {Math.pow(2, lawM)}
                       </div>
                     </motion.div>
@@ -1461,11 +1461,11 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   <div className="flex gap-6 items-center justify-center p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <label className="text-xs text-slate-300 flex items-center gap-2">
                       <span>Power m: <strong>{lawM}</strong></span>
-                      <input type="range" min={1} max={4} value={lawM} onChange={(e) => setLawM(parseInt(e.target.value))} className="accent-indigo-500" />
+                      <input type="range" min={1} max={4} value={lawM} onChange={(e) => setLawM(parseInt(e.target.value))} className="accent-gold-500" />
                     </label>
                     <label className="text-xs text-slate-300 flex items-center gap-2">
                       <span>Power n: <strong>{lawN}</strong></span>
-                      <input type="range" min={1} max={4} value={lawN} onChange={(e) => setLawN(parseInt(e.target.value))} className="accent-cyan-500" />
+                      <input type="range" min={1} max={4} value={lawN} onChange={(e) => setLawN(parseInt(e.target.value))} className="accent-gold-500" />
                     </label>
                   </div>
                 </div>
@@ -1482,7 +1482,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setActiveSetTab(tab)}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
-                          activeSetTab === tab ? 'bg-indigo-600 text-white shadow-lg' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                          activeSetTab === tab ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
                         {tab} Sets Demo
@@ -1494,13 +1494,13 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                     <div>
                       {activeSetTab === 'equivalent' && (
                         <div className="space-y-3">
-                          <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-500/30">
-                            <span className="text-xs text-indigo-400 font-bold">Set A (Numbers)</span>
+                          <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-500/30">
+                            <span className="text-xs text-gold-400 font-bold">Set A (Numbers)</span>
                             <div className="text-sm font-mono text-white mt-1">{`{ ${setItemsA.join(', ')} }`}</div>
                             <span className="text-xs text-slate-400">Cardinality n(A) = {setItemsA.length}</span>
                           </div>
-                          <div className="p-4 bg-cyan-950/40 rounded-xl border border-cyan-500/30">
-                            <span className="text-xs text-cyan-400 font-bold">Set B (Letters)</span>
+                          <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-500/30">
+                            <span className="text-xs text-gold-400 font-bold">Set B (Letters)</span>
                             <div className="text-sm font-mono text-white mt-1">{`{ ${setItemsB.join(', ')} }`}</div>
                             <span className="text-xs text-slate-400">Cardinality n(B) = {setItemsB.length}</span>
                           </div>
@@ -1533,7 +1533,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                             <p className="text-xs text-slate-300 mt-2">Even E = {'{ 2, 4, 6, 8, 10 }'} ⊆ U</p>
                             <p className="text-xs text-slate-300">Primes D = {'{ 2, 3, 5, 7 }'} ⊆ U</p>
                           </div>
-                          <p className="text-xs text-indigo-300 font-medium">
+                          <p className="text-xs text-gold-300 font-medium">
                             All subsets live within the boundaries of the Universal Container U.
                           </p>
                         </div>
@@ -1564,7 +1564,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                         {/* Outside elements */}
                         <text x="200" y="45" fill="#94a3b8" fontSize="9">6, 7</text>
                       </svg>
-                      <span className="text-[11px] text-indigo-300 mt-2 font-mono">
+                      <span className="text-[11px] text-gold-300 mt-2 font-mono">
                         Venn Diagram: Elements inside U with A ∩ B = {'{ 3 }'}
                       </span>
                     </div>
@@ -1581,7 +1581,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setUnitaryMode('direct')}
                       className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                        unitaryMode === 'direct' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        unitaryMode === 'direct' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Direct Variation (Pens & Cost)
@@ -1601,7 +1601,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800">
                     {unitaryMode === 'direct' ? (
                       <div className="space-y-4">
-                        <p className="text-xs text-indigo-300">Direct Rule: More pens = More cost. Find 1 unit (Divide), then multiply.</p>
+                        <p className="text-xs text-gold-300">Direct Rule: More pens = More cost. Find 1 unit (Divide), then multiply.</p>
                         <label className="text-xs text-slate-300 flex justify-between">
                           <span>Quantity of Pens: <strong>{unitaryInput}</strong></span>
                           <span>Cost = {unitaryInput} × ₹15 = <strong>₹{unitaryInput * 15}</strong></span>
@@ -1612,7 +1612,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                           max={10}
                           value={unitaryInput}
                           onChange={(e) => setUnitaryInput(parseInt(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                         <div className="p-3 bg-slate-900 rounded-xl text-xs font-mono text-slate-300">
                           Calculation: (₹60 ÷ 4 pens) = ₹15/pen → ₹15 × {unitaryInput} = ₹{unitaryInput * 15}
@@ -1669,7 +1669,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1695,7 +1695,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
             animate={{ scale: 1 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800"
           >
-            <h2 className="text-lg font-bold text-indigo-300">Free Mathematical Sandbox</h2>
+            <h2 className="text-lg font-bold text-gold-300">Free Mathematical Sandbox</h2>
             <p className="text-xs text-slate-400 mt-1">Play freely with decimal products, powers, sets, and percentages without scores.</p>
           </motion.div>
 
@@ -1704,7 +1704,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
               whileHover={{ scale: 1.01 }}
               className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
-              <h3 className="text-xs font-bold uppercase text-indigo-400">100-Grid Percentage & Decimal Simulator</h3>
+              <h3 className="text-xs font-bold uppercase text-gold-400">100-Grid Percentage & Decimal Simulator</h3>
               <div className="flex justify-between text-xs text-slate-300">
                 <span>Active Tenths: {(decA * 10).toFixed(0)} / 10</span>
                 <span>Percentage: {Math.round(decA * 100)}%</span>
@@ -1716,14 +1716,14 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                 step={0.1}
                 value={decA}
                 onChange={(e) => handleDecAChange(parseFloat(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="grid grid-cols-10 gap-1 p-2 bg-slate-950 rounded-xl">
                 {Array.from({ length: 100 }).map((_, i) => (
                   <div
                     key={i}
                     className={`h-3 rounded-sm transition-colors ${
-                      i < Math.round(decA * 100) ? 'bg-indigo-500' : 'bg-slate-800'
+                      i < Math.round(decA * 100) ? 'bg-gold-500' : 'bg-slate-800'
                     }`}
                   />
                 ))}
@@ -1784,13 +1784,13 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="font-mono text-indigo-400 uppercase tracking-wider">
+              <span className="font-mono text-gold-400 uppercase tracking-wider">
                 Competency: {challenge.competencyLevel} | Node: {challenge.nodeId}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-cyan-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1830,7 +1830,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                         : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700/50 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1850,7 +1850,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3.5 py-2 bg-indigo-600 rounded-xl text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-2 bg-gold-600 rounded-xl text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -1882,7 +1882,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Target Mappings
                 </motion.button>
@@ -1911,7 +1911,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                     whileTap={{ scale: 0.98 }}
                     className="p-3 bg-slate-800 rounded-xl text-xs text-slate-200 flex items-center gap-3 cursor-grab border border-slate-700"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-900 flex items-center justify-center font-bold text-indigo-400 text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-slate-900 flex items-center justify-center font-bold text-gold-400 text-[10px]">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1923,7 +1923,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Step Order
                 </motion.button>
@@ -1943,7 +1943,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                     aria-label="Numerical answer input"
                     animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                     transition={{ duration: 0.4 }}
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-60"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-60"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -1951,7 +1951,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Check Answer
                   </motion.button>
@@ -1970,7 +1970,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -1983,7 +1983,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                       key={i}
                       whileHover={{ scale: 1.05 }}
                       onClick={() => handleConstructRemove(i)}
-                      className="px-2.5 py-1 bg-indigo-900/60 border border-indigo-500/40 rounded text-xs font-mono text-white cursor-pointer hover:bg-rose-900/60"
+                      className="px-2.5 py-1 bg-gold-900/60 border border-gold-500/40 rounded text-xs font-mono text-white cursor-pointer hover:bg-rose-900/60"
                     >
                       {part} ✕
                     </motion.span>
@@ -1998,7 +1998,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Construction
                 </motion.button>
@@ -2062,14 +2062,14 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
           {/* Score Card */}
           <motion.div
             whileHover={{ scale: 1.01 }}
-            className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-800/50 text-center space-y-3"
+            className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-800/50 text-center space-y-3"
           >
             <h2 className="text-2xl font-black text-white">Class 7 ICSE Curriculum Mastered!</h2>
             <p className="text-sm text-slate-300">You achieved a final mastery score of:</p>
             <div className="text-4xl font-black text-emerald-400 font-mono">
               {Math.max(0, 100 - errors * 5)}%
             </div>
-            <p className="text-xs text-indigo-300">Mastery Level: <span className="uppercase font-bold">{masteryLevel}</span></p>
+            <p className="text-xs text-gold-300">Mastery Level: <span className="uppercase font-bold">{masteryLevel}</span></p>
           </motion.div>
 
           {/* MOTIVATIONAL FEEDBACK BANNER */}
@@ -2079,7 +2079,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
             className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed"
           >
             <strong className="text-amber-300 font-bold block mb-1">Motivational Feedback:</strong>
-            <p className="text-indigo-200 font-medium">{motivationalMessage}</p>
+            <p className="text-gold-200 font-medium">{motivationalMessage}</p>
           </motion.div>
 
           {/* SPACED REPETITION VISIBILITY SCHEDULE */}
@@ -2103,7 +2103,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
           >
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">Post-Mission Metacognitive Reflection</h3>
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Post-Mission Metacognitive Reflection</h3>
 
             <div className="space-y-3">
               <div>
@@ -2113,7 +2113,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g. Multiplying decimals yields smaller fractions..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2124,7 +2124,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   value={reflectionAnswers.explainFriend}
                   onChange={(e) => setReflectionAnswers(r => ({ ...r, explainFriend: e.target.value }))}
                   placeholder="e.g. Multiplication is repeated addition, but exponent is repeated multiplying..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2135,7 +2135,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers(r => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g. Comparing grocery discounts or budgeting team construction tasks..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2146,7 +2146,7 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
                   setReflectionSaved(true);
                   audioManager.play('drop-correct');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 {reflectionSaved ? '✓ Reflection Saved' : 'Save Reflection'}
               </motion.button>
@@ -2180,12 +2180,12 @@ function C7_MathematicsMultiplicationDivisionDecimalSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
           >
-            <h3 className="text-sm font-bold text-indigo-300 uppercase">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300 uppercase">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </li>
               ))}
             </ul>

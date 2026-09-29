@@ -51,7 +51,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Himalayas",
+    "title": "Himalayas Are The World's Tallest",
     "text": "The Himalayas are the world's tallest, youngest mountain range, forming a natural wall 2400 kilometres long across India’s northern border. They were created by the movement of massive land plates (tectonic plates) colliding over millions of years and",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -75,7 +75,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Island",
+    "title": "An Island Is a Piece",
     "text": "An island is a piece of land that is smaller than a continent and is completely surrounded by water on all sides. India’s two major island groups are the Andaman and Nicobar Islands in the Bay of Bengal and the Lakshadweep Islands in the Arabian Sea.",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -90,15 +90,15 @@ export const C6_GEO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Why can we say that India's geography is not \"random\"?",
-    "answer": "It is not random because the variety of landscapes is directly caused by India's specific location, its vast size, and its unique geological history",
+    "question": "Name two different types of geographical landscapes found in India mentioned in the text.",
+    "answer": "The two landscapes are the snow-capped Himalayas and the Thar Desert",
     "options": [
-     "They act as the western and eastern edges, forming a triangular shape that tapers toward the southern tip of India",
-     "They are called \"youngest\" because they formed relatively recently (about 50 million years ago) compared to ancient mountain ranges, and they are still rising",
-     "It is not random because the variety of landscapes is directly caused by India's specific location, its vast size, and its unique geological history"
+     "Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and forests, within a single country's borders",
+     "The student must be able to identify at least four distinct physical features of India and explain that this variety is a result of the country's unique location and size",
+     "The two landscapes are the snow-capped Himalayas and the Thar Desert"
     ],
     "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
-    "misconception": "Answering \"it's just nature\" shows the student missed the point that geographic features have specific, identifiable causes.",
+    "misconception": "A wrong answer shows the student has not yet grasped that a country can contain multiple, vastly different physical terrains.",
     "id": "gen_c6_geo_ch01_q1",
     "nodeId": "c6_geography_ch01_001",
     "difficulty": "standard",
@@ -114,11 +114,11 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What is the process that caused the formation of the Himalayan mountain range?",
     "answer": "The Himalayas formed when the Indian tectonic plate collided with the Eurasian plate",
     "options": [
-     "The student must be able to identify at least four distinct physical features of India and explain that this variety is a result of the country's unique location and size",
-     "The student must be able to explain how the Northern Plains were formed by river deposits and identify why this specific geography makes the area ideal for farming and dense human",
+     "The two landscapes are the snow-capped Himalayas and the Thar Desert",
+     "Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and forests, within a single country's borders",
      "The Himalayas formed when the Indian tectonic plate collided with the Eurasian plate"
     ],
-    "hint": "Straight from the 'Himalayas' slide -- match the key terms.",
+    "hint": "Straight from the 'Himalayas are the world's tallest' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks mountains just \"appeared\" or were made by volcanic activity, missing the concept of plate movement.",
     "id": "gen_c6_geo_ch01_q2",
     "nodeId": "c6_geography_ch01_002",
@@ -153,15 +153,16 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do geologists describe the Peninsular Plateau as an \"ancient\" landmass?",
-    "answer": "It was formed billions of years ago from very old rocks, whereas the Himalayas are \"young\" and still rising today",
+    "question": "Name two mountain ranges that act as northern boundaries for the Peninsular Plateau.",
+    "answer": "The Vindhya and Satpura ranges",
     "options": [
-     "Flat land is easier to plow, plant, and irrigate because water does not run off as quickly as it does on slopes",
-     "It is narrower because the Western Ghats mountains are situated very close to the Arabian Sea, leaving little space for a plain",
-     "It was formed billions of years ago from very old rocks, whereas the Himalayas are \"young\" and still rising today"
+     "The student must be able to correctly identify the location of India’s two island groups on a map and describe one key geographical difference between them",
+     "Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and forests, within a single country's borders",
+     "The Vindhya and India's ranges",
+     "The Vindhya and Satpura ranges"
     ],
     "hint": "Straight from the 'Peninsular Plateau' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student does not understand the difference between geological time scales.",
+    "misconception": "A wrong answer suggests the student is confusing northern mountain ranges like the Himalayas with the plateau's specific borders.",
     "id": "gen_c6_geo_ch01_q4",
     "nodeId": "c6_geography_ch01_004",
     "difficulty": "standard",
@@ -177,8 +178,8 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Why is the Western Coastal Plain considered \"narrower\" than the Eastern Coastal Plain?",
     "answer": "It is narrower because the Western Ghats mountains are situated very close to the Arabian Sea, leaving little space for a plain",
     "options": [
+     "The height acts as a barrier that prevents cold winds from Central Asia from entering India",
      "Flat land is easier to plow, plant, and irrigate because water does not run off as quickly as it does on slopes",
-     "It was formed billions of years ago from very old rocks, whereas the Himalayas are \"young\" and still rising today",
      "It is narrower because the Western Ghats mountains are situated very close to the Arabian Sea, leaving little space for a plain"
     ],
     "hint": "Straight from the 'coastal plains' slide -- match the key terms.",
@@ -195,15 +196,16 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Could a landmass that is only 5 kilometers wide and surrounded by water be called a continent? Why or why not?",
-    "answer": "No, it would be called an island because \"continent\" refers to massive, continuous landmasses, not small isolated pieces of land",
+    "question": "In which water body are the Andaman and Nicobar Islands located?",
+    "answer": "They are located in the Bay of Bengal",
     "options": [
-     "It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive size allows it to host several distinct environments at once",
-     "You would encounter the Greater Himalayas (Himadri) first",
-     "No, it would be called an island because \"continent\" refers to massive, continuous landmasses, not small isolated pieces of land"
+     "The student should suggest a clear container of water, soil/pebbles, and a way to simulate \"flowing\" motion",
+     "I would explain that because it is small and completely surrounded by water, it fits the definition of an island rather than a massive continent",
+     "They are located in the Vindhya of Bengal",
+     "They are located in the Bay of Bengal"
     ],
-    "hint": "Straight from the 'island' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a failure to grasp the scale difference between continents and islands.",
+    "hint": "Straight from the 'An island is a piece' slide -- match the key terms.",
+    "misconception": "A wrong answer here suggests the student has not yet learned to distinguish between the two major water bodies flanking the Indian peninsula.",
     "id": "gen_c6_geo_ch01_q6",
     "nodeId": "c6_geography_ch01_006",
     "difficulty": "standard",
@@ -219,8 +221,8 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What is the average annual rainfall in the Thar Desert region?",
     "answer": "The rainfall is usually less than 25 centimetres per year",
     "options": [
-     "The student must be able to identify at least four distinct physical features of India and explain that this variety is a result of the country's unique location and size",
-     "The Himalayas formed when the Indian tectonic plate collided with the Eurasian plate",
+     "The student must be able to describe at least three ways humans adapt to the Thar Desert's harsh climate and explain why the desert's physical features (like lack of rain and high",
+     "Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and forests, within a single country's borders",
      "The rainfall is usually less than 25 centimetres per year"
     ],
     "hint": "Straight from the 'Thar Desert, or the Great Indian' slide -- match the key terms.",
@@ -237,16 +239,76 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Compare the northern part of India with the southern part based on their physical features.",
+    "answer": "The north is characterized by high, snow-capped mountains (the Himalayas), while the south is a peninsula fringed by tropical beaches",
+    "options": [
+     "The Andaman group consists of over 500 islands and is mountainous with dense forests, whereas many other islands are smaller or flatter",
+     "Days are extremely hot, while nights can be quite cold. This requires people to have clothing and shelter that can handle both extremes, not just heat",
+     "The north is characterized by high, snow-capped mountains (the Himalayas), while the south is a peninsula fringed by tropical beaches"
+    ],
+    "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The north is characterized by high, snow-capped mountains (the Himalayas), while the south is a peninsula fringed by",
+    "id": "gen_c6_geo_ch01_q8",
+    "nodeId": "c6_geography_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you travel from the Thar Desert to the east of India, how does the environment change regarding rainfall?",
+    "answer": "The environment changes from a dry desert with sparse vegetation to a region with dense rainforests and some of the heaviest rainfall in the world",
+    "options": [
+     "No, this is incorrect; the Western coast is actually quite wet as it receives heavy monsoon rainfall",
+     "The student should list symbols for mountains, desert (sand dunes), beach/coastline, and rainforest",
+     "The environment changes from a dry desert with sparse vegetation to a region with dense rainforests and some of the heaviest rainfall in the world"
+    ],
+    "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student is failing to visualize the geographical contrast described in the text.",
+    "id": "gen_c6_geo_ch01_q9",
+    "nodeId": "c6_geography_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Imagine you are a cartographer drawing a map of India. List four symbols you would use to represent the different landscapes we have discussed.",
+    "answer": "The student should list symbols for mountains, desert (sand dunes), beach/coastline, and rainforest",
+    "options": [
+     "You would grow coconuts and spices. The climate is suitable because this region receives heavy monsoon rainfall, which these crops require to thrive",
+     "No, it is not uninhabitable; people have lived there for centuries by adapting their lifestyles. This justifies that human ingenuity allows for survival in harsh conditions",
+     "The student should list symbols for mountains, desert (sand dunes), beach/coastline, and rainforest"
+    ],
+    "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
+    "misconception": "A poor answer would include things like cities or borders, showing they do not understand the difference between physical geography and political maps.",
+    "id": "gen_c6_geo_ch01_q10",
+    "nodeId": "c6_geography_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Is it possible for a small country to have as much geographical diversity as India? Why or why not?",
     "answer": "It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive size allows it to host several distinct environments at once",
     "options": [
-     "No, it would be called an island because \"continent\" refers to massive, continuous landmasses, not small isolated pieces of land",
-     "I would explain that because it is small and completely surrounded by water, it fits the definition of an island rather than a massive continent",
+     "You would encounter the Greater Himalayas (Himadri) first",
+     "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year",
      "It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive size allows it to host several distinct environments at once"
     ],
     "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive",
-    "id": "gen_c6_geo_ch01_q8",
+    "id": "gen_c6_geo_ch01_q11",
+    "nodeId": "c6_geography_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Geographical diversity? State the definition given in this lesson.",
+    "answer": "Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and forests, within a single country's borders",
+    "options": [
+     "The Himalayas formed when the Indian tectonic plate collided with the Eurasian plate",
+     "The student must be able to describe how the Himalayas formed through plate collision and identify the three parallel mountain ranges, including the highest peaks",
+     "Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and forests, within a single country's borders"
+    ],
+    "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Geographical diversity refers to the existence of varied physical features, such as mountains, deserts, coastlines, and",
+    "id": "gen_c6_geo_ch01_q12",
     "nodeId": "c6_geography_ch01_001",
     "difficulty": "standard"
    },
@@ -255,13 +317,28 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify at least four distinct physical features of India and explain that this variety is a result of the country's unique location and size",
     "options": [
-     "The student must be able to explain how the Northern Plains were formed by river deposits and identify why this specific geography makes the area ideal for farming and dense human",
+     "The student must be able to correctly identify the location of India’s two island groups on a map and describe one key geographical difference between them",
      "The student must be able to describe at least three ways humans adapt to the Thar Desert's harsh climate and explain why the desert's physical features (like lack of rain and high",
      "The student must be able to identify at least four distinct physical features of India and explain that this variety is a result of the country's unique location and size"
     ],
     "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify at least four distinct physical features of India and explain that this variety is",
-    "id": "gen_c6_geo_ch01_q9",
+    "id": "gen_c6_geo_ch01_q13",
+    "nodeId": "c6_geography_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why can we say that India's geography is not \"random\"?",
+    "answer": "It is not random because the variety of landscapes is directly caused by India's specific location, its vast size, and its unique geological history",
+    "options": [
+     "The height acts as a barrier that prevents cold winds from Central Asia from entering India",
+     "They act as the western and eastern edges, forming a triangular shape that tapers toward the southern tip of India",
+     "It is not random because the variety of landscapes is directly caused by India's specific location, its vast size, and its unique geological history"
+    ],
+    "hint": "Straight from the 'Geographical diversity' slide -- match the key terms.",
+    "misconception": "Answering \"it's just nature\" shows the student missed the point that geographic features have specific, identifiable causes.",
+    "id": "gen_c6_geo_ch01_q14",
     "nodeId": "c6_geography_ch01_001",
     "difficulty": "standard"
    },
@@ -274,9 +351,9 @@ export const C6_GEO_GEN: SimDef[] = [
      "It is narrower because the Western Ghats mountains are situated very close to the Arabian Sea, leaving little space for a plain",
      "The height acts as a barrier that prevents cold winds from Central Asia from entering India"
     ],
-    "hint": "Straight from the 'Himalayas' slide -- match the key terms.",
+    "hint": "Straight from the 'Himalayas are the world's tallest' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student hasn't linked physical features (mountains) to their impact on climate.",
-    "id": "gen_c6_geo_ch01_q10",
+    "id": "gen_c6_geo_ch01_q15",
     "nodeId": "c6_geography_ch01_002",
     "difficulty": "standard"
    },
@@ -285,14 +362,29 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "If you were travelling from the northernmost point of India towards the plains, which of the three parallel ranges would you encounter first?",
     "answer": "You would encounter the Greater Himalayas (Himadri) first",
     "options": [
-     "The Northern Plains are more efficient because flat land provides more space for roads, housing, and large-scale farming",
+     "The answer should explain that India would lose its protection from cold northern winds and the water source for major rivers",
      "You would grow coconuts and spices. The climate is suitable because this region receives heavy monsoon rainfall, which these crops require to thrive",
-     "They would encounter the Greater Himalayas (Himadri) first",
+     "Steps would encounter the Greater Himalayas (Himadri) first",
      "You would encounter the Greater Himalayas (Himadri) first"
     ],
-    "hint": "Straight from the 'Himalayas' slide -- match the key terms.",
+    "hint": "Straight from the 'Himalayas are the world's tallest' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a failure to understand the North-to-South arrangement of the ranges.",
-    "id": "gen_c6_geo_ch01_q11",
+    "id": "gen_c6_geo_ch01_q16",
+    "nodeId": "c6_geography_ch01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Imagine if the Himalayas were a flat plateau instead of high mountains. How would life in Northern India change?",
+    "answer": "The answer should explain that India would lose its protection from cold northern winds and the water source for major rivers",
+    "options": [
+     "It is a tableland because, while it has hills and ranges, its general surface is a raised, flat-topped area",
+     "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year",
+     "The answer should explain that India would lose its protection from cold northern winds and the water source for major rivers"
+    ],
+    "hint": "Straight from the 'Himalayas are the world's tallest' slide -- match the key terms.",
+    "misconception": "A poor answer focuses only on scenery rather than the vital climate/water impact.",
+    "id": "gen_c6_geo_ch01_q17",
     "nodeId": "c6_geography_ch01_002",
     "difficulty": "standard"
    },
@@ -301,104 +393,14 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Is the height of the Himalayas fixed forever? Support your answer.",
     "answer": "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year",
     "options": [
-     "The answer should include features like thick walls, small windows (to limit sunlight entry), or light-colored roofs",
      "It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive size allows it to host several distinct environments at once",
+     "You would encounter the Greater Himalayas (Himadri) first",
      "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year"
     ],
-    "hint": "Straight from the 'Himalayas' slide -- match the key terms.",
+    "hint": "Straight from the 'Himalayas are the world's tallest' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student views the earth as static and unchanging.",
-    "id": "gen_c6_geo_ch01_q12",
-    "nodeId": "c6_geography_ch01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to describe how the Himalayas formed through plate collision and identify the three parallel mountain ranges, including the highest peaks",
-    "options": [
-     "The student must be able to describe at least three ways humans adapt to the Thar Desert's harsh climate and explain why the desert's physical features (like lack of rain and high",
-     "The student must be able to identify the boundaries of the plateau (Aravalli, Vindhya, Satpura",
-     "The student must be able to describe how the Himalayas formed through plate collision and identify the three parallel mountain ranges, including the highest peaks"
-    ],
-    "hint": "Straight from the 'Himalayas' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe how the Himalayas formed through plate collision and identify the three parallel",
-    "id": "gen_c6_geo_ch01_q13",
-    "nodeId": "c6_geography_ch01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do we describe the Himalayas as the \"youngest\" mountain range in the world?",
-    "answer": "They are called \"youngest\" because they formed relatively recently (about 50 million years ago) compared to ancient mountain ranges, and they are still rising",
-    "options": [
-     "It is not random because the variety of landscapes is directly caused by India's specific location, its vast size, and its unique geological history",
-     "Flat land is easier to plow, plant, and irrigate because water does not run off as quickly as it does on slopes",
-     "They are called \"youngest\" because they formed relatively recently (about 50 million years ago) compared to ancient mountain ranges, and they are still rising"
-    ],
-    "hint": "Straight from the 'Himalayas' slide -- match the key terms.",
-    "misconception": "If a student thinks \"youngest\" means they were formed yesterday, they miss the geological timescale of millions of years.",
-    "id": "gen_c6_geo_ch01_q14",
-    "nodeId": "c6_geography_ch01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the movement of sediment in a fast mountain river to the movement of sediment in a slow, flat plain river.",
-    "answer": "In mountains, the river carries sediment quickly; in the plains, the water slows down and drops the sediment",
-    "options": [
-     "Days are extremely hot, while nights can be quite cold. This requires people to have clothing and shelter that can handle both extremes, not just heat",
-     "The Konkan coast is on the Western side (Maharashtra/Goa), while the Coromandel coast is on the Eastern side (Tamil Nadu/Andhra Pradesh)",
-     "In mountains, the river carries sediment quickly; in the plains, the water slows down and drops the sediment"
-    ],
-    "hint": "Straight from the 'Northern Plains' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student hasn't visualized the relationship between water speed and sediment deposition.",
-    "id": "gen_c6_geo_ch01_q15",
-    "nodeId": "c6_geography_ch01_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment to show how water creates layers of sediment. What materials would you need?",
-    "answer": "The student should suggest a clear container of water, soil/pebbles, and a way to simulate \"flowing\" motion",
-    "options": [
-     "It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive size allows it to host several distinct environments at once",
-     "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year",
-     "The student should suggest a clear container of water, soil/pebbles, and a way to simulate \"flowing\" motion"
-    ],
-    "hint": "Straight from the 'Northern Plains' slide -- match the key terms.",
-    "misconception": "A poor answer fails to include the concept of settling or sediment movement.",
-    "id": "gen_c6_geo_ch01_q16",
-    "nodeId": "c6_geography_ch01_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a river stopped flowing for millions of years, what would happen to the fertility of the Northern Plains?",
-    "answer": "The land would lose its constant supply of fresh, nutrient-rich alluvium, eventually leading to a decline in soil fertility",
-    "options": [
-     "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year",
-     "The Northern Plains are more efficient because flat land provides more space for roads, housing, and large-scale farming",
-     "The land would lose its constant supply of fresh, nutrient-rich alluvium, eventually leading to a decline in soil fertility"
-    ],
-    "hint": "Straight from the 'Northern Plains' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a failure to understand that the plains are a living, active geological formation, not a static feature.",
-    "id": "gen_c6_geo_ch01_q17",
-    "nodeId": "c6_geography_ch01_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it more efficient to build a city in a narrow mountain valley or on the vast, flat Northern Plains? Why?",
-    "answer": "The Northern Plains are more efficient because flat land provides more space for roads, housing, and large-scale farming",
-    "options": [
-     "No, they are not fixed because the tectonic plates are still colliding, causing the mountains to rise by a few millimetres each year",
-     "No, because the plateau is made of very stable, ancient rock that is no longer rising or shifting significantly",
-     "The Northern Plains are more efficient because flat land provides more space for roads, housing, and large-scale farming"
-    ],
-    "hint": "Straight from the 'Northern Plains' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is not applying the concept of \"geographic suitability\" to human development.",
     "id": "gen_c6_geo_ch01_q18",
-    "nodeId": "c6_geography_ch01_003",
+    "nodeId": "c6_geography_ch01_002",
     "difficulty": "standard"
    }
   ],
@@ -414,14 +416,14 @@ export const C6_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_geo_ch02",
-  "title": "Weather",
+  "title": "Weather Is The Short-term",
   "subtitle": "Geography · Chapter 2",
   "classLevel": 6,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Weather",
+  "topic": "Weather Is The Short-term",
   "chapters": [
-   "Geography Ch2: Weather"
+   "Geography Ch2: Weather Is The Short-term"
   ],
   "nodeIds": [
    "c6_geography_ch02_008",
@@ -439,7 +441,7 @@ export const C6_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Weather outside the classroom?",
+   "question": "Quick guess -- where do you meet Weather Is The Short-term outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -450,25 +452,25 @@ export const C6_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Weather",
+    "title": "Weather Is The Short-term",
     "text": "Weather is the short-term state of the atmosphere at a specific time and place, while climate is the average pattern of weather conditions in a region observed over a long period (typically 30 years or more).",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Thermometer",
+    "title": "A Thermometer Is a Scientific Instrument",
     "text": "A thermometer is a scientific instrument designed to measure the degree of hotness or coldness of the air, known as temperature. It operates on the physical principle that liquids inside a sealed glass tube expand when heated and contract when cooled.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Rainfall",
+    "title": "Rainfall Is a Type Of Precipitation",
     "text": "Rainfall is a type of precipitation measured by an instrument called a rain gauge, which collects water in a funnel-topped cylinder to determine the depth of rainfall over a specific area.",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Wind",
+    "title": "Wind and Air Pressure: What Drives Weather",
     "text": "Wind is the movement of air across the Earth's surface, caused by differences in air pressure that force air to travel from high-pressure areas to low-pressure areas.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -486,7 +488,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Weather",
+    "title": "Weather Is",
     "text": "Weather is the state of the atmosphere at a specific place and time, involving conditions like temperature, rainfall, and wind. It dictates our daily choices, such as the clothes we wear, the food we eat, and the safety of activities like farming, fishing,",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -495,15 +497,15 @@ export const C6_GEO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Critique this statement: \"The climate of my city was rainy yesterday.\" Is this logically sound?",
-    "answer": "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday",
+    "question": "What is the most important factor that distinguishes \"weather\" from \"climate\"?",
+    "answer": "The factor is time. Weather is for a short period (daily/hourly), while climate is the average over a long period (30+ years)",
     "options": [
-     "The liquid expands and rises up the tube",
-     "It will go below the 20 mark because cold causes contraction",
-     "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday"
+     "The student must be able to classify a descriptive statement (e.g., \"It is raining today\") as weather and a long-term description (e.g., \"This region is usually dry\") as climate",
+     "Weather is the short-term state of the atmosphere at a specific time and place, while climate is the average pattern of weather conditions in a region observed over a long period",
+     "The factor is time. Weather is for a short period (daily/hourly), while climate is the average over a long period (30+ years)"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it is illogical because climate is not a single day's event. The student should identify that the statement should",
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student confuses the two as synonyms rather than seeing the duration as the key.",
     "id": "gen_c6_geo_ch02_q1",
     "nodeId": "c6_geography_ch02_008",
     "difficulty": "standard",
@@ -519,11 +521,11 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What is the primary substance inside the tube of a standard thermometer that allows it to work?",
     "answer": "It uses a liquid like mercury or alcohol",
     "options": [
-     "The student must be able to explain how weather conditions directly influence at least three different human activities (agriculture, transport, or lifestyle)",
-     "The student must be able to name the four main instruments (thermometer, rain gauge, barometer",
+     "The factor is time. Weather is for a short period (daily/hourly), while climate is the average over a long period (30+ years)",
+     "Weather is the short-term state of the atmosphere at a specific time and place, while climate is the average pattern of weather conditions in a region observed over a long period",
      "It uses a liquid like mercury or alcohol"
     ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
+    "hint": "Straight from the 'A thermometer is a scientific' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student hasn't grasped the physical mechanism of expansion, perhaps confusing it with a digital screen.",
     "id": "gen_c6_geo_ch02_q2",
     "nodeId": "c6_geography_ch02_009",
@@ -540,11 +542,11 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "If a region records 10 mm of rainfall, what does that number actually mean in terms of a layer of water?",
     "answer": "It means if the water spread out perfectly flat on the ground without soaking in or flowing away, it would be 10 mm high",
     "options": [
-     "No, because depth is an average height over an area; a large city would have a much higher volume of water than a small garden even if both record 10 mm of rain",
-     "They need to ensure there is enough water (rain gauge) and the right warmth (thermometer) for seeds to germinate",
+     "The student should suggest placing a straight-sided container in an open area and measuring the water level with a ruler",
+     "The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states to create a reliable measurement scale",
      "It means if the water spread out perfectly flat on the ground without soaking in or flowing away, it would be 10 mm high"
     ],
-    "hint": "Straight from the 'Rainfall' slide -- match the key terms.",
+    "hint": "Straight from the 'Rainfall is a type of' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student thinks '10 mm' refers to the total volume (like a bucket full) rather than the depth (height) of the water layer.",
     "id": "gen_c6_geo_ch02_q3",
     "nodeId": "c6_geography_ch02_010",
@@ -558,15 +560,15 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why does warm air rise?",
-    "answer": "Warm air expands, which makes it less dense and lighter, causing it to rise above the heavier, cooler air",
+    "question": "What is wind?",
+    "answer": "Wind is simply air in motion",
     "options": [
-     "A barometer measures air pressure, which changes before weather systems move in",
-     "A narrow bore makes it easier to see small changes in the volume of the liquid. If the tube were too wide, the liquid would barely move, making it hard to measure precise changes",
-     "Warm air expands, which makes it less dense and lighter, causing it to rise above the heavier, cooler air"
+     "Weather is the state of the atmosphere at a specific place and time, involving conditions like temperature, rainfall, and wind",
+     "The factor is time. Weather is for a short period (daily/hourly), while climate is the average over a long period (30+ years)",
+     "Wind is simply air in motion"
     ],
-    "hint": "Straight from the 'Wind' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"because it is fast\" suggests they are guessing rather than understanding density changes.",
+    "hint": "Straight from the 'Wind is the movement of air' slide -- match the key terms.",
+    "misconception": "A student who answers \"a type of gas\" or \"the weather\" is confusing the substance with the action; they need to recall that movement is the defining feature of wind.",
     "id": "gen_c6_geo_ch02_q4",
     "nodeId": "c6_geography_ch02_011",
     "difficulty": "standard",
@@ -579,15 +581,16 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Explain why a barometer is useful for understanding the weather even though it doesn't measure rain or temperature.",
-    "answer": "A barometer measures air pressure, which changes before weather systems move in",
+    "question": "If you see the cups on an anemometer spinning very fast, what can you conclude about the weather?",
+    "answer": "You can conclude that the wind speed is high",
     "options": [
-     "Warm air expands, which makes it less dense and lighter, causing it to rise above the heavier, cooler air",
-     "It ensures the data is consistent and comparable, allowing you to see true changes rather than differences caused by the time of day",
-     "A barometer measures air pressure, which changes before weather systems move in"
+     "It is incorrect because it describes a long-term pattern, not a single day's event",
+     "You have identified a weather pattern",
+     "Finally can conclude that the wind speed is high",
+     "You can conclude that the wind speed is high"
     ],
     "hint": "Straight from the 'Weather instruments' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks weather only consists of what we can feel (like heat or wetness), failing to understand that invisible air pressure drives those changes.",
+    "misconception": "If a student says the temperature is rising, they are incorrectly linking wind speed to temperature, showing a need to distinguish between different weather elements.",
     "id": "gen_c6_geo_ch02_q5",
     "nodeId": "c6_geography_ch02_012",
     "difficulty": "standard",
@@ -673,16 +676,91 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Analyze this: Why can the weather change within a few hours, but the climate of a place remains mostly the same for years?",
+    "answer": "Weather changes quickly because atmospheric conditions like wind or clouds shift rapidly; climate is an average, so one rainy day doesn't change a 30-year trend",
+    "options": [
+     "A narrow bore makes it easier to see small changes in the volume of the liquid. If the tube were too wide, the liquid would barely move, making it hard to measure precise changes",
+     "Millimetres tell us the 'depth' of the rain covering an area, which helps us understand how much the ground is saturated regardless of the size of the area",
+     "Weather changes quickly because atmospheric conditions like wind or clouds shift rapidly; climate is an average, so one rainy day doesn't change a 30-year trend"
+    ],
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks the atmosphere is static or that climate can shift as easily as a morning breeze.",
+    "id": "gen_c6_geo_ch02_q8",
+    "nodeId": "c6_geography_ch02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Create a scenario where you would need to check the \"climate\" of a region rather than the \"weather.\"",
     "answer": "A good answer would involve planning a long-term move to a new city or deciding what kind of crops to plant for the whole year",
     "options": [
-     "No, because climate represents long-term averages (years), whereas a week is just a temporary weather event",
-     "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday",
+     "You can conclude that the wind speed is high",
+     "They are talking about weather because it refers to a specific, short-term condition on one day",
      "A good answer would involve planning a long-term move to a new city or deciding what kind of crops to plant for the whole year"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
     "misconception": "A poor answer would focus on short-term tasks like \"checking if I need an umbrella for school,\" which relates only to weather.",
-    "id": "gen_c6_geo_ch02_q8",
+    "id": "gen_c6_geo_ch02_q9",
+    "nodeId": "c6_geography_ch02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Critique this statement: \"The climate of my city was rainy yesterday.\" Is this logically sound?",
+    "answer": "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday",
+    "options": [
+     "It will go below the 20 mark because cold causes contraction",
+     "No, the liquid would evaporate or spill out, and the pressure changes would make it inaccurate. This tests the understanding that a \"sealed\" environment is crucial for consistent",
+     "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday"
+    ],
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, it is illogical because climate is not a single day's event. The student should identify that the statement should",
+    "id": "gen_c6_geo_ch02_q10",
+    "nodeId": "c6_geography_ch02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a news reporter says, \"Today is very hot in Delhi,\" are they talking about weather or climate? Why?",
+    "answer": "They are talking about weather because it refers to a specific, short-term condition on one day",
+    "options": [
+     "They need to ensure there is enough water (rain gauge) and the right warmth (thermometer) for seeds to germinate",
+     "A good answer would involve: \"If the weather app shows a wind speed above X, all small boats must remain at the harbor",
+     "They are talking about weather because it refers to a specific, short-term condition on one day"
+    ],
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
+    "misconception": "If the student says \"climate,\" they likely think any mention of temperature is climate, ignoring the \"today\" aspect.",
+    "id": "gen_c6_geo_ch02_q11",
+    "nodeId": "c6_geography_ch02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If someone says, \"Mumbai usually has a hot and humid climate,\" why is it incorrect to call this \"weather\"?",
+    "answer": "It is incorrect because it describes a long-term pattern, not a single day's event",
+    "options": [
+     "A good answer would involve: \"If the weather app shows a wind speed above X, all small boats must remain at the harbor",
+     "I disagree. Weather affects large-scale activities like agriculture (food supply), aviation (safety), and sea travel, not just individual choices like carrying an umbrella",
+     "It is incorrect because it describes a long-term pattern, not a single day's event"
+    ],
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student does not understand that \"usually\" implies a long-term average, which is the definition of climate.",
+    "id": "gen_c6_geo_ch02_q12",
+    "nodeId": "c6_geography_ch02_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Weather? State the definition given in this lesson.",
+    "answer": "Weather is the short-term state of the atmosphere at a specific time and place, while climate is the average pattern of weather conditions in a region observed over a long period",
+    "options": [
+     "Weather is the state of the atmosphere at a specific place and time, involving conditions like temperature, rainfall, and wind",
+     "The factor is time. Weather is for a short period (daily/hourly), while climate is the average over a long period (30+ years)",
+     "Weather is the short-term state of the atmosphere at a specific time and place, while climate is the average pattern of weather conditions in a region observed over a long period"
+    ],
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Weather is the short-term state of the atmosphere at a specific time and place, while climate is the average pattern of",
+    "id": "gen_c6_geo_ch02_q13",
     "nodeId": "c6_geography_ch02_008",
     "difficulty": "standard"
    },
@@ -695,9 +773,9 @@ export const C6_GEO_GEN: SimDef[] = [
      "The student must be able to explain how weather conditions directly influence at least three different human activities (agriculture, transport, or lifestyle)",
      "The student must be able to classify a descriptive statement (e.g., \"It is raining today\") as weather and a long-term description (e.g., \"This region is usually dry\") as climate"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the short-term' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to classify a descriptive statement (e.g.",
-    "id": "gen_c6_geo_ch02_q9",
+    "id": "gen_c6_geo_ch02_q14",
     "nodeId": "c6_geography_ch02_008",
     "difficulty": "standard"
    },
@@ -706,13 +784,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Could a thermometer work if the glass tube were open at the top?",
     "answer": "No, the liquid would evaporate or spill out, and the pressure changes would make it inaccurate. This tests the understanding that a \"sealed\" environment is crucial for consistent",
     "options": [
-     "The student should suggest placing a straight-sided container in an open area and measuring the water level with a ruler",
-     "No, it is illogical because climate is not a single day's event. The student should identify that the statement should be \"The weather in my city was rainy yesterday",
+     "It is incorrect because it describes a long-term pattern, not a single day's event",
+     "The liquid expands and rises up the tube",
      "No, the liquid would evaporate or spill out, and the pressure changes would make it inaccurate. This tests the understanding that a \"sealed\" environment is crucial for consistent"
     ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
+    "hint": "Straight from the 'A thermometer is a scientific' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, the liquid would evaporate or spill out, and the pressure changes would make it inaccurate.",
-    "id": "gen_c6_geo_ch02_q10",
+    "id": "gen_c6_geo_ch02_q15",
     "nodeId": "c6_geography_ch02_009",
     "difficulty": "standard"
    },
@@ -721,13 +799,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "If you take a thermometer out of a cold room and put it into the hot sun, what happens to the liquid inside the tube?",
     "answer": "The liquid expands and rises up the tube",
     "options": [
-     "Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read",
-     "A good answer explains that a funnel catches rain from a large area and directs it into a thin tube",
+     "They need to ensure there is enough water (rain gauge) and the right warmth (thermometer) for seeds to germinate",
+     "No, the liquid would evaporate or spill out, and the pressure changes would make it inaccurate. This tests the understanding that a \"sealed\" environment is crucial for consistent",
      "The liquid expands and rises up the tube"
     ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
+    "hint": "Straight from the 'A thermometer is a scientific' slide -- match the key terms.",
     "misconception": "If a student says it \"contracts,\" they have reversed the basic principle of thermal expansion.",
-    "id": "gen_c6_geo_ch02_q11",
+    "id": "gen_c6_geo_ch02_q16",
     "nodeId": "c6_geography_ch02_009",
     "difficulty": "standard"
    },
@@ -736,13 +814,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "If you were to design a simple scale for a thermometer, what two \"anchor points\" would you choose to mark the tube?",
     "answer": "The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states to create a reliable measurement scale",
     "options": [
-     "The liquid expands and rises up the tube",
-     "You can conclude that the wind speed is high",
+     "It will go below the 20 mark because cold causes contraction",
+     "Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read",
      "The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states to create a reliable measurement scale"
     ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
+    "hint": "Straight from the 'A thermometer is a scientific' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states",
-    "id": "gen_c6_geo_ch02_q12",
+    "id": "gen_c6_geo_ch02_q17",
     "nodeId": "c6_geography_ch02_009",
     "difficulty": "standard"
    },
@@ -751,112 +829,37 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify a thermometer's main components and explain, in their own words, how liquid movement corresponds to temperature changes",
     "options": [
-     "The student must be able to explain how weather conditions directly influence at least three different human activities (agriculture, transport, or lifestyle)",
-     "The student must be able to identify a rain gauge, explain the units of measurement, and calculate total rainfall depth given a set of measurements or a visual representation",
+     "Wind is simply air in motion",
+     "Weather is the state of the atmosphere at a specific place and time, involving conditions like temperature, rainfall, and wind",
      "The student must be able to identify a thermometer's main components and explain, in their own words, how liquid movement corresponds to temperature changes"
     ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
+    "hint": "Straight from the 'A thermometer is a scientific' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify a thermometer's main components and explain, in their own words, how liquid",
-    "id": "gen_c6_geo_ch02_q13",
-    "nodeId": "c6_geography_ch02_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is it necessary for the glass tube of a thermometer to have a \"narrow bore\" (a very thin opening)?",
-    "answer": "A narrow bore makes it easier to see small changes in the volume of the liquid. If the tube were too wide, the liquid would barely move, making it hard to measure precise changes",
-    "options": [
-     "Farmers watch the forecast because unexpected rain during the harvest can ruin the quality of the crop",
-     "Millimetres tell us the 'depth' of the rain covering an area, which helps us understand how much the ground is saturated regardless of the size of the area",
-     "A narrow bore makes it easier to see small changes in the volume of the liquid. If the tube were too wide, the liquid would barely move, making it hard to measure precise changes"
-    ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A narrow bore makes it easier to see small changes in the volume of the liquid.",
-    "id": "gen_c6_geo_ch02_q14",
-    "nodeId": "c6_geography_ch02_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You are looking at a thermometer where the liquid level is at the mark '20'. If the temperature drops, will the liquid level go above or below the 20 mark?",
-    "answer": "It will go below the 20 mark because cold causes contraction",
-    "options": [
-     "You have identified a weather pattern",
-     "They need to ensure there is enough water (rain gauge) and the right warmth (thermometer) for seeds to germinate",
-     "It will go below the 20 mark because cold causes contraction"
-    ],
-    "hint": "Straight from the 'thermometer' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a failure to visualize the relationship between liquid volume and temperature.",
-    "id": "gen_c6_geo_ch02_q15",
-    "nodeId": "c6_geography_ch02_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A rain gauge shows 25 mm of water after a storm. If you empty that into a wider container of the same shape, will the height of the water change?",
-    "answer": "Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read",
-    "options": [
-     "It means if the water spread out perfectly flat on the ground without soaking in or flowing away, it would be 10 mm high",
-     "The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states to create a reliable measurement scale",
-     "Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read"
-    ],
-    "hint": "Straight from the 'Rainfall' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read.",
-    "id": "gen_c6_geo_ch02_q16",
-    "nodeId": "c6_geography_ch02_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment to demonstrate how a funnel helps measure rain more accurately than just leaving a bucket open.",
-    "answer": "A good answer explains that a funnel catches rain from a large area and directs it into a thin tube",
-    "options": [
-     "A good answer would involve planning a long-term move to a new city or deciding what kind of crops to plant for the whole year",
-     "Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read",
-     "A good answer explains that a funnel catches rain from a large area and directs it into a thin tube"
-    ],
-    "hint": "Straight from the 'Rainfall' slide -- match the key terms.",
-    "misconception": "A poor answer fails to mention the concentration of water into a narrower space to improve readability.",
-    "id": "gen_c6_geo_ch02_q17",
-    "nodeId": "c6_geography_ch02_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If two different cities receive the same amount of 'depth' in rainfall, does that mean the same amount of water fell in both places?",
-    "answer": "No, because depth is an average height over an area; a large city would have a much higher volume of water than a small garden even if both record 10 mm of rain",
-    "options": [
-     "The student should propose recording wind observations at two specific times (morning and afternoon) consistently for several days",
-     "The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states to create a reliable measurement scale",
-     "No, because depth is an average height over an area; a large city would have a much higher volume of water than a small garden even if both record 10 mm of rain"
-    ],
-    "hint": "Straight from the 'Rainfall' slide -- match the key terms.",
-    "misconception": "Students who answer 'yes' are failing to distinguish between the 'depth of a layer' and the 'total volume' of a substance.",
     "id": "gen_c6_geo_ch02_q18",
-    "nodeId": "c6_geography_ch02_010",
+    "nodeId": "c6_geography_ch02_009",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about weather?",
+    "What surprised you about weather is the short-term?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Weather mastered! 🎯",
+  "successLine": "Weather Is The Short-term mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_geo_ch03",
-  "title": "Climate",
+  "title": "Climate Is The Long-term Pattern",
   "subtitle": "Geography · Chapter 3",
   "classLevel": 6,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Climate",
+  "topic": "Climate Is The Long-term Pattern",
   "chapters": [
-   "Geography Ch3: Climate"
+   "Geography Ch3: Climate Is The Long-term Pattern"
   ],
   "nodeIds": [
    "c6_geography_ch03_015",
@@ -872,7 +875,7 @@ export const C6_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Climate more about facts, or about reasoning?",
+   "question": "Is Climate Is The Long-term Pattern more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -883,13 +886,13 @@ export const C6_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Climate",
+    "title": "Climate Is The Long-term Pattern",
     "text": "Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific region, typically calculated over a period of 30 years or more.",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Monsoon",
+    "title": "The Monsoon Is a Seasonal Reversal",
     "text": "The monsoon is a seasonal reversal of wind patterns that brings heavy, life-sustaining rainfall to India between June and September. It functions like a giant natural pump, where land heating creates low pressure that draws moist air from the Indian Ocean",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -916,15 +919,15 @@ export const C6_GEO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If you were asked to design a house for a place with a tropical, humid climate, what features would you include to keep it comfortable?",
-    "answer": "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat",
+    "question": "What is the minimum time period usually used to determine the climate of a place?",
+    "answer": "The climate is typically determined over a period of 30 years or more",
     "options": [
-     "Steps: 1. Identify that crops depend on this 75% of water. 2. Recognize that without the reversal, the moist air wouldn't reach the land",
-     "No, because India’s climate is diverse; it includes freezing mountain deserts, arid hot deserts, and humid tropical zones",
-     "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat"
+     "The student must be able to categorize a given Indian region as having a cold, hot, or humid climate based on provided environmental data",
+     "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself",
+     "The climate is typically determined over a period of 30 years or more"
     ],
-    "hint": "Straight from the 'Climate' slide -- match the key terms.",
-    "misconception": "A poor answer fails to connect the \"warm and humid\" description of the climate to practical living solutions.",
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "A student who answers \"a few days\" or \"one year\" confuses weather (daily changes) with climate (long-term average).",
     "id": "gen_c6_geo_ch03_q1",
     "nodeId": "c6_geography_ch03_015",
     "difficulty": "standard",
@@ -940,11 +943,11 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What does the word \"monsoon\" mean, and where does it come from?",
     "answer": "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself",
     "options": [
-     "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate",
-     "The student must be able to identify the four seasons, name the months they occur in, and describe one major characteristic or agricultural activity for each season",
+     "The climate is typically determined over a period of 30 years or more",
+     "Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific region, typically calculated over a period of 30 years or more",
      "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing",
     "id": "gen_c6_geo_ch03_q2",
     "nodeId": "c6_geography_ch03_016",
@@ -961,7 +964,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Why is winter considered the season for rabi crops like wheat and mustard?",
     "answer": "Winter is the season for these crops because they are sown in October-November and harvested in March-April, benefiting from the specific temperature range of the season",
     "options": [
-     "While most of India experiences a cold and dry winter, the Himalayas experience snowfall due to their high altitude",
+     "As altitude increases, the air becomes thinner and cooler, causing lower temperatures at higher elevations",
      "Cherrapunji receives massive amounts of rainfall (over 11,000 mm), whereas the Thar Desert receives very little (below 25 cm)",
      "Winter is the season for these crops because they are sown in October-November and harvested in March-April, benefiting from the specific temperature range of the season"
     ],
@@ -983,7 +986,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "answer": "Rice requires heavy rainfall (over 100 cm annually) and warm temperatures",
     "options": [
      "The student must be able to match specific crops (rice, wheat, cotton) to their required climatic conditions and explain why they grow in their respective Indian regions",
-     "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate",
+     "Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific region, typically calculated over a period of 30 years or more",
      "Rice requires heavy rainfall (over 100 cm annually) and warm temperatures"
     ],
     "hint": "Straight from the 'Climate and agriculture describe' slide -- match the key terms.",
@@ -1000,15 +1003,16 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Explain why Cherrapunji is considered one of the wettest places on Earth compared to the Thar Desert.",
-    "answer": "Cherrapunji receives massive amounts of rainfall (over 11,000 mm), whereas the Thar Desert receives very little (below 25 cm)",
+    "question": "Which Indian region is known as a \"cold desert\" and experiences temperatures as low as minus 30 degrees Celsius?",
+    "answer": "Ladakh is the cold desert",
     "options": [
-     "Winter is the season for these crops because they are sown in October-November and harvested in March-April, benefiting from the specific temperature range of the season",
-     "While most of India experiences a cold and dry winter, the Himalayas experience snowfall due to their high altitude",
-     "Cherrapunji receives massive amounts of rainfall (over 11,000 mm), whereas the Thar Desert receives very little (below 25 cm)"
+     "Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific region, typically calculated over a period of 30 years or more",
+     "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate",
+     "While is the cold desert",
+     "Ladakh is the cold desert"
     ],
     "hint": "Straight from the 'Climate diversity' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student does not understand that \"climate\" is defined by both temperature and precipitation.",
+    "misconception": "A wrong answer here suggests the student is confusing altitude-based cold regions with hot sandy deserts like the Thar.",
     "id": "gen_c6_geo_ch03_q5",
     "nodeId": "c6_geography_ch03_019",
     "difficulty": "standard",
@@ -1021,16 +1025,106 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "How does the distance from the sea influence the climate of a coastal city like Mumbai compared to a landlocked city like Delhi?",
+    "answer": "Coastal cities like Mumbai have a more moderate climate due to the cooling and warming effects of the sea, whereas inland cities experience more extreme temperature differences",
+    "options": [
+     "Ladakh is extremely cold with almost zero rainfall, while the Ganga plains have a moderate climate with significant seasonal rainfall",
+     "Winter is the season for these crops because they are sown in October-November and harvested in March-April, benefiting from the specific temperature range of the season",
+     "Coastal cities like Mumbai have a more moderate climate due to the cooling and warming effects of the sea, whereas inland cities experience more extreme temperature differences"
+    ],
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates confusion about the temperature-regulating role of large water bodies.",
+    "id": "gen_c6_geo_ch03_q6",
+    "nodeId": "c6_geography_ch03_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a city is located very close to the Equator, how would you describe its climate compared to a city near the North Pole?",
+    "answer": "The city near the Equator will have a warmer climate because it receives more direct sunlight",
+    "options": [
+     "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea",
+     "No, it is not accurate, because climate is an average over many years; one day of rain is just a weather event",
+     "The city near the Equator will have a warmer climate because it receives more direct sunlight"
+    ],
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student does not understand how latitude affects solar radiation intensity.",
+    "id": "gen_c6_geo_ch03_q7",
+    "nodeId": "c6_geography_ch03_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were asked to design a house for a place with a tropical, humid climate, what features would you include to keep it comfortable?",
+    "answer": "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat",
+    "options": [
+     "You should expect hot and dry weather, often with temperatures exceeding 45 degrees Celsius",
+     "The city near the Equator will have a warmer climate because it receives more direct sunlight",
+     "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat"
+    ],
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "A poor answer fails to connect the \"warm and humid\" description of the climate to practical living solutions.",
+    "id": "gen_c6_geo_ch03_q8",
+    "nodeId": "c6_geography_ch03_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it accurate to say that if it rains heavily today in a desert, the climate of that desert has changed? Why or why not?",
+    "answer": "No, it is not accurate, because climate is an average over many years; one day of rain is just a weather event",
+    "options": [
+     "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea",
+     "Steps: 1. Identify that crops depend on this 75% of water. 2. Recognize that without the reversal, the moist air wouldn't reach the land",
+     "No, it is not accurate, because climate is an average over many years; one day of rain is just a weather event"
+    ],
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals a fundamental misunderstanding of the stability of climate versus the variability of weather.",
+    "id": "gen_c6_geo_ch03_q9",
+    "nodeId": "c6_geography_ch03_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Climate? State the definition given in this lesson.",
+    "answer": "Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific region, typically calculated over a period of 30 years or more",
+    "options": [
+     "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself",
+     "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate",
+     "Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific region, typically calculated over a period of 30 years or more"
+    ],
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Climate is the long-term pattern of weather conditions—such as temperature, humidity, and rainfall—for a specific",
+    "id": "gen_c6_geo_ch03_q10",
+    "nodeId": "c6_geography_ch03_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate",
     "options": [
-     "The student must be able to identify the four seasons, name the months they occur in, and describe one major characteristic or agricultural activity for each season",
-     "The student must be able to match specific crops (rice, wheat, cotton) to their required climatic conditions and explain why they grow in their respective Indian regions",
+     "The student must be able to explain the \"land-sea heating\" process and identify why the monsoon is considered India's \"lifeline\" for agriculture and water supply",
+     "The student must be able to categorize a given Indian region as having a cold, hot, or humid climate based on provided environmental data",
      "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate"
     ],
-    "hint": "Straight from the 'Climate' slide -- match the key terms.",
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify",
-    "id": "gen_c6_geo_ch03_q6",
+    "id": "gen_c6_geo_ch03_q11",
+    "nodeId": "c6_geography_ch03_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why does a place at a very high altitude, like a mountain peak, often have a cold climate even if it is located in a tropical region?",
+    "answer": "As altitude increases, the air becomes thinner and cooler, causing lower temperatures at higher elevations",
+    "options": [
+     "Coastal cities like Mumbai have a more moderate climate due to the cooling and warming effects of the sea, whereas inland cities experience more extreme temperature differences",
+     "Wheat needs moderate rainfall and cool weather during its growth, which matches the winter climate of Northern India",
+     "As altitude increases, the air becomes thinner and cooler, causing lower temperatures at higher elevations"
+    ],
+    "hint": "Straight from the 'Climate is the long-term pattern' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a failure to connect height above sea level with temperature drop.",
+    "id": "gen_c6_geo_ch03_q12",
     "nodeId": "c6_geography_ch03_015",
     "difficulty": "standard"
    },
@@ -1039,13 +1133,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Compare the summer monsoon to a giant \"delivery system.\" What is it delivering, and why is it essential?",
     "answer": "It delivers moisture/water from the ocean to the land, which is essential for filling reservoirs and growing crops",
     "options": [
-     "While most of India experiences a cold and dry winter, the Himalayas experience snowfall due to their high altitude",
-     "No, while the seasons are broad cycles, regional variations exist; for example, while the North gets freezing cold in winter, the South remains mild",
+     "Rice needs high heat/rain (tropics/monsoon areas), while wheat needs cool, moderate conditions (temperate/winter areas)",
+     "Coastal cities like Mumbai have a more moderate climate due to the cooling and warming effects of the sea, whereas inland cities experience more extreme temperature differences",
      "It delivers moisture/water from the ocean to the land, which is essential for filling reservoirs and growing crops"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "If a student ignores the \"delivery\" aspect, they likely view the monsoon as just a static event rather than a dynamic process.",
-    "id": "gen_c6_geo_ch03_q7",
+    "id": "gen_c6_geo_ch03_q13",
     "nodeId": "c6_geography_ch03_016",
     "difficulty": "standard"
    },
@@ -1054,13 +1148,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "During the summer months, why does wind flow from the Indian Ocean toward the Indian landmass?",
     "answer": "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea",
     "options": [
-     "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat",
-     "You should expect hot and dry weather, often with temperatures exceeding 45 degrees Celsius",
+     "The city near the Equator will have a warmer climate because it receives more direct sunlight",
+     "No, it is not accurate, because climate is an average over many years; one day of rain is just a weather event",
      "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student doesn't understand that temperature differences cause pressure changes, which dictate wind direction.",
-    "id": "gen_c6_geo_ch03_q8",
+    "id": "gen_c6_geo_ch03_q14",
     "nodeId": "c6_geography_ch03_016",
     "difficulty": "standard"
    },
@@ -1073,9 +1167,9 @@ export const C6_GEO_GEN: SimDef[] = [
      "No, because India’s climate is diverse; it includes freezing mountain deserts, arid hot deserts, and humid tropical zones",
      "Steps: 1. Identify that crops depend on this 75% of water. 2. Recognize that without the reversal, the moist air wouldn't reach the land"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks rain happens randomly rather than due to this specific wind pattern.",
-    "id": "gen_c6_geo_ch03_q9",
+    "id": "gen_c6_geo_ch03_q15",
     "nodeId": "c6_geography_ch03_016",
     "difficulty": "standard"
    },
@@ -1085,12 +1179,12 @@ export const C6_GEO_GEN: SimDef[] = [
     "answer": "The poster should show a sun heating the land (low pressure) and arrows indicating air moving from the high-pressure ocean to the low-pressure land",
     "options": [
      "Steps: 1. Identify that crops depend on this 75% of water. 2. Recognize that without the reversal, the moist air wouldn't reach the land",
-     "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat",
+     "The city near the Equator will have a warmer climate because it receives more direct sunlight",
      "The poster should show a sun heating the land (low pressure) and arrows indicating air moving from the high-pressure ocean to the low-pressure land"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "A poor answer would just show clouds and rain, failing to explain *why* the air moves in that direction.",
-    "id": "gen_c6_geo_ch03_q10",
+    "id": "gen_c6_geo_ch03_q16",
     "nodeId": "c6_geography_ch03_016",
     "difficulty": "standard"
    },
@@ -1099,13 +1193,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Is it accurate to say the monsoon is just a rainy season? Why or why not?",
     "answer": "No, it is a seasonal reversal of winds; the rain is simply the result of that wind shift. Just calling it \"rainy season\" ignores the physical mechanism (the wind shift) that",
     "options": [
-     "Wheat needs moderate rainfall (50-75 cm); a dry region cannot provide this without extra help, and the heat would stress the plant during its required cool growing phase",
-     "This is true because the physical environment physically limits what seeds can germinate and grow",
+     "You should expect hot and dry weather, often with temperatures exceeding 45 degrees Celsius",
+     "No, while the seasons are broad cycles, regional variations exist; for example, while the North gets freezing cold in winter, the South remains mild",
      "No, it is a seasonal reversal of winds; the rain is simply the result of that wind shift. Just calling it \"rainy season\" ignores the physical mechanism (the wind shift) that"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, it is a seasonal reversal of winds; the rain is simply the result of that wind shift.",
-    "id": "gen_c6_geo_ch03_q11",
+    "id": "gen_c6_geo_ch03_q17",
     "nodeId": "c6_geography_ch03_016",
     "difficulty": "standard"
    },
@@ -1114,114 +1208,24 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to explain the \"land-sea heating\" process and identify why the monsoon is considered India's \"lifeline\" for agriculture and water supply",
     "options": [
-     "Rice requires heavy rainfall (over 100 cm annually) and warm temperatures",
-     "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself",
+     "The student must be able to categorize a given Indian region as having a cold, hot, or humid climate based on provided environmental data",
+     "The student must be able to distinguish between short-term weather changes and long-term climate patterns and identify the four primary factors that determine a region's climate",
      "The student must be able to explain the \"land-sea heating\" process and identify why the monsoon is considered India's \"lifeline\" for agriculture and water supply"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a seasonal reversal' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain the \"land-sea heating\" process and identify why the monsoon is considered India's",
-    "id": "gen_c6_geo_ch03_q12",
-    "nodeId": "c6_geography_ch03_016",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How do the climatic conditions of the Himalayan region differ from the rest of India during winter?",
-    "answer": "While most of India experiences a cold and dry winter, the Himalayas experience snowfall due to their high altitude",
-    "options": [
-     "Winter is the season for these crops because they are sown in October-November and harvested in March-April, benefiting from the specific temperature range of the season",
-     "Cherrapunji receives massive amounts of rainfall (over 11,000 mm), whereas the Thar Desert receives very little (below 25 cm)",
-     "While most of India experiences a cold and dry winter, the Himalayas experience snowfall due to their high altitude"
-    ],
-    "hint": "Straight from the 'climate of India' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates a lack of understanding of how altitude impacts weather patterns.",
-    "id": "gen_c6_geo_ch03_q13",
-    "nodeId": "c6_geography_ch03_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you live in Northern India and it is currently the 'Summer' season, what weather conditions should you expect?",
-    "answer": "You should expect hot and dry weather, often with temperatures exceeding 45 degrees Celsius",
-    "options": [
-     "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat",
-     "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea",
-     "You should expect hot and dry weather, often with temperatures exceeding 45 degrees Celsius"
-    ],
-    "hint": "Straight from the 'climate of India' slide -- match the key terms.",
-    "misconception": "If a student says \"rainy\" or \"cold,\" they have failed to distinguish between the heat of summer and the arrival of the monsoon.",
-    "id": "gen_c6_geo_ch03_q14",
-    "nodeId": "c6_geography_ch03_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were a farmer, how would you change your planting schedule if the Monsoon season arrived two months late?",
-    "answer": "The answer should reflect an understanding that crops rely on rain; a late monsoon would delay planting or require extra irrigation",
-    "options": [
-     "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea",
-     "Steps: 1. Identify that crops depend on this 75% of water. 2. Recognize that without the reversal, the moist air wouldn't reach the land",
-     "The answer should reflect an understanding that crops rely on rain; a late monsoon would delay planting or require extra irrigation"
-    ],
-    "hint": "Straight from the 'climate of India' slide -- match the key terms.",
-    "misconception": "A poor answer ignores the relationship between rainfall and agriculture.",
-    "id": "gen_c6_geo_ch03_q15",
-    "nodeId": "c6_geography_ch03_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it accurate to say that all of India experiences the exact same weather at the same time? Why or why not?",
-    "answer": "No, while the seasons are broad cycles, regional variations exist; for example, while the North gets freezing cold in winter, the South remains mild",
-    "options": [
-     "No, it is a seasonal reversal of winds; the rain is simply the result of that wind shift. Just calling it \"rainy season\" ignores the physical mechanism (the wind shift) that",
-     "You should expect hot and dry weather, often with temperatures exceeding 45 degrees Celsius",
-     "No, while the seasons are broad cycles, regional variations exist; for example, while the North gets freezing cold in winter, the South remains mild"
-    ],
-    "hint": "Straight from the 'climate of India' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student is overgeneralizing and ignoring geography.",
-    "id": "gen_c6_geo_ch03_q16",
-    "nodeId": "c6_geography_ch03_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify the four seasons, name the months they occur in, and describe one major characteristic or agricultural activity for each season",
-    "options": [
-     "The student must be able to match specific crops (rice, wheat, cotton) to their required climatic conditions and explain why they grow in their respective Indian regions",
-     "It comes from the Arabic word \"mausim,\" which means \"season.\" A student who guesses \"heavy rain\" or \"storm\" is focusing on the effect rather than the definition of the word itself",
-     "The student must be able to identify the four seasons, name the months they occur in, and describe one major characteristic or agricultural activity for each season"
-    ],
-    "hint": "Straight from the 'climate of India' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the four seasons, name the months they occur in, and describe one major",
-    "id": "gen_c6_geo_ch03_q17",
-    "nodeId": "c6_geography_ch03_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "\"Climate decides the menu for a region.\" Defend this statement using the examples of rice and wheat.",
-    "answer": "This is true because the physical environment physically limits what seeds can germinate and grow",
-    "options": [
-     "The house should have high ceilings, large windows for ventilation, and materials that don't trap heat",
-     "The land gets much hotter than the ocean, creating low pressure that sucks in the moist, cool air from the sea",
-     "This is true because the physical environment physically limits what seeds can germinate and grow"
-    ],
-    "hint": "Straight from the 'Climate and agriculture describe' slide -- match the key terms.",
-    "misconception": "If a student disagrees, they likely don't understand the biological dependence of plants on their environment.",
     "id": "gen_c6_geo_ch03_q18",
-    "nodeId": "c6_geography_ch03_018",
+    "nodeId": "c6_geography_ch03_016",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about climate?",
+    "What surprised you about climate is the long-term pattern?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Climate mastered! 🎯",
+  "successLine": "Climate Is The Long-term mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1301,15 +1305,16 @@ export const C6_GEO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Could a civilization exist if its agriculture was not \"productive\" enough to feed cities?",
-    "answer": "No, because cities require a large, stable food supply for people who are not farmers themselves (like craftspeople and administrators)",
+    "question": "Around what year did agriculture begin in the northwest region of the Indian subcontinent?",
+    "answer": "Agriculture began around 7000 BCE",
     "options": [
+     "You would have kept cattle, sheep, and goats. Steps: 1. Identify region (Northwest). 2. Recall historical evidence for that region",
      "The answer should focus on the stability of having a food source (crops) that stays in one place. A poor answer ignores the role of agriculture and suggests reasons like \"better",
-     "No, it remains subsistence farming because the main goal was still family consumption, and the sale of surplus is secondary",
-     "No, because cities require a large, stable food supply for people who are not farmers themselves (like craftspeople and administrators)"
+     "Agriculture began around 7000 Rice",
+     "Agriculture began around 7000 BCE"
     ],
     "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
-    "misconception": "If a student says \"yes,\" they misunderstand the dependency between rural food production and urban survival.",
+    "misconception": "If a student says \"2600 BCE,\" they are confusing the start of farming with the height of the Indus Valley Civilisation; this reveals they aren't distinguishing between the initial transition to farming and the later urban period.",
     "id": "gen_c6_geo_ch04_q1",
     "nodeId": "c6_geography_ch04_020",
     "difficulty": "standard",
@@ -1325,8 +1330,8 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What is the primary goal of a farmer practicing subsistence farming?",
     "answer": "The primary goal is to produce enough food to meet the needs of the farmer's own family",
     "options": [
-     "The student must be able to match specific crops (Rice, Wheat, Pulses) with their correct climatic requirements and typical sowing/harvesting seasons",
-     "Kharif crops are sown at the beginning of the monsoon (June-July)",
+     "Modern farming is a scientifically advanced approach to agriculture that uses controlled irrigation, chemical fertilizers, high-yield seeds",
+     "Farming seasons in India are distinct periods for growing crops, categorized into Kharif and Rabi based on when they are sown and their dependence on weather conditions like the",
      "The primary goal is to produce enough food to meet the needs of the farmer's own family"
     ],
     "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
@@ -1347,7 +1352,7 @@ export const C6_GEO_GEN: SimDef[] = [
     "answer": "Rice requires heavy rainfall (over 100 cm) and warm temperatures, which are found in these regions",
     "options": [
      "They grow a variety of crops like rice, pulses, and vegetables to ensure they have a complete, balanced diet for their family throughout the year",
-     "Crops have specific temperature and water requirements that only match certain seasons. A student failing this sees farming as a factory process rather than a system dependent on",
+     "They settled there because the rivers provided fertile soil and a consistent water supply for their crops and livestock",
      "Rice requires heavy rainfall (over 100 cm) and warm temperatures, which are found in these regions"
     ],
     "hint": "Straight from the 'Major crops in India' slide -- match the key terms.",
@@ -1367,9 +1372,9 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What is the primary factor that determines when Kharif crops are sown?",
     "answer": "Kharif crops are sown at the beginning of the monsoon (June-July)",
     "options": [
+     "The student must be able to classify given crops into Kharif or Rabi categories and explain why specific crops are grown in specific seasons based on their water and temperature",
      "The primary goal is to produce enough food to meet the needs of the farmer's own family",
-     "The student must be able to match specific crops (Rice, Wheat, Pulses) with their correct climatic requirements and typical sowing/harvesting seasons",
-     "Kharif crops are sown at the beginning of the monsoon (Profit)",
+     "Kharif crops are sown at the beginning of the monsoon (Cotton)",
      "Kharif crops are sown at the beginning of the monsoon (June-July)"
     ],
     "hint": "Straight from the 'Farming seasons in India' slide -- match the key terms.",
@@ -1407,15 +1412,15 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is the \"monsoon\" considered a challenge for Indian farmers?",
-    "answer": "The monsoon is a challenge because it is uncertain—it can be delayed, too weak, or bring excessive rainfall, all of which can destroy a season's crops",
+    "question": "What are two natural or human-made reasons why Indian farming faces challenges today?",
+    "answer": "Two main reasons are water scarcity caused by the over-pumping of groundwater and soil degradation due to the overuse of chemical fertilizers",
     "options": [
-     "Crops have specific temperature and water requirements that only match certain seasons. A student failing this sees farming as a factory process rather than a system dependent on",
-     "Fertilizers provide essential nutrients that help plants grow larger and faster, ensuring higher yields to feed more people",
-     "The monsoon is a challenge because it is uncertain—it can be delayed, too weak, or bring excessive rainfall, all of which can destroy a season's crops"
+     "The student must be able to identify at least three major challenges to Indian agriculture and propose one practical",
+     "Subsistence farming is an agricultural method where families grow food primarily to feed themselves",
+     "Two main reasons are water scarcity caused by the over-pumping of groundwater and soil degradation due to the overuse of chemical fertilizers"
     ],
     "hint": "Straight from the 'Indian farming faces significant' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the monsoon is always helpful, ignoring the risk of floods or droughts.",
+    "misconception": "A wrong answer here suggests the student is confusing environmental challenges with market prices or lack of labor, which are outside the scope of this topic.",
     "id": "gen_c6_geo_ch04_q6",
     "nodeId": "c6_geography_ch04_025",
     "difficulty": "advanced",
@@ -1428,16 +1433,61 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Imagine you are an early inhabitant. How would you explain to a friend why we are moving from moving from place to place to living in one village?",
-    "answer": "The answer should focus on the stability of having a food source (crops) that stays in one place. A poor answer ignores the role of agriculture and suggests reasons like \"better",
+    "question": "Could a civilization exist if its agriculture was not \"productive\" enough to feed cities?",
+    "answer": "No, because cities require a large, stable food supply for people who are not farmers themselves (like craftspeople and administrators)",
+    "options": [
+     "Wheat. The student must identify the specific climate needs of Wheat",
+     "Agriculture began around 7000 BCE",
+     "No, because cities require a large, stable food supply for people who are not farmers themselves (like craftspeople and administrators)"
+    ],
+    "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
+    "misconception": "If a student says \"yes,\" they misunderstand the dependency between rural food production and urban survival.",
+    "id": "gen_c6_geo_ch04_q7",
+    "nodeId": "c6_geography_ch04_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How did the discovery of rice cultivation in the Ganga region differ from the early wheat farming in the northwest?",
+    "answer": "It happened later, around 5000 BCE, and occurred in a different geographical region, showing that agriculture developed in stages across the subcontinent",
+    "options": [
+     "They grow a variety of crops like rice, pulses, and vegetables to ensure they have a complete, balanced diet for their family throughout the year",
+     "Crops have specific temperature and water requirements that only match certain seasons. A student failing this sees farming as a factory process rather than a system dependent on",
+     "It happened later, around 5000 BCE, and occurred in a different geographical region, showing that agriculture developed in stages across the subcontinent"
+    ],
+    "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
+    "misconception": "A student who misses the timeline difference fails to see that farming was not a single event but a spread of knowledge over time.",
+    "id": "gen_c6_geo_ch04_q8",
+    "nodeId": "c6_geography_ch04_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were a farmer in the northwest region around 6000 BCE, what animals would you likely have kept?",
+    "answer": "You would have kept cattle, sheep, and goats. Steps: 1. Identify region (Northwest). 2. Recall historical evidence for that region",
     "options": [
      "No, it remains subsistence farming because the main goal was still family consumption, and the sale of surplus is secondary",
      "Yes, but the *primary* purpose of their farming activity is to generate profit, not family self-sufficiency",
+     "You would have kept cattle, sheep, and goats. Steps: 1. Identify region (Northwest). 2. Recall historical evidence for that region"
+    ],
+    "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
+    "misconception": "If a student lists \"horses\" or \"chickens,\" they are applying modern knowledge rather than historical evidence.",
+    "id": "gen_c6_geo_ch04_q9",
+    "nodeId": "c6_geography_ch04_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Imagine you are an early inhabitant. How would you explain to a friend why we are moving from moving from place to place to living in one village?",
+    "answer": "The answer should focus on the stability of having a food source (crops) that stays in one place. A poor answer ignores the role of agriculture and suggests reasons like \"better",
+    "options": [
+     "A good answer would include columns for \"Daily Food Needs\" (subsistence) and \"Market Demand/Profit\" (commercial)",
+     "Wheat. The student must identify the specific climate needs of Wheat",
      "The answer should focus on the stability of having a food source (crops) that stays in one place. A poor answer ignores the role of agriculture and suggests reasons like \"better"
     ],
     "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
     "misconception": "A poor answer ignores the role of agriculture and suggests reasons like \"better weather,\" which ignores the human effort of farming.",
-    "id": "gen_c6_geo_ch04_q7",
+    "id": "gen_c6_geo_ch04_q10",
     "nodeId": "c6_geography_ch04_020",
     "difficulty": "standard"
    },
@@ -1446,13 +1496,28 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify the key geographical regions (northwest/Indus plains and the Ganga) where early agriculture began and list the specific crops associated with",
     "options": [
+     "The student must be able to describe how modern irrigation, fertilizers, and machinery work together to increase food production compared to traditional, rain-dependent methods",
      "The primary goal is to produce enough food to meet the needs of the farmer's own family",
-     "The student must be able to identify at least three major challenges to Indian agriculture and propose one practical",
      "The student must be able to identify the key geographical regions (northwest/Indus plains and the Ganga) where early agriculture began and list the specific crops associated with"
     ],
     "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the key geographical regions (northwest/Indus plains and the Ganga) where early",
-    "id": "gen_c6_geo_ch04_q8",
+    "id": "gen_c6_geo_ch04_q11",
+    "nodeId": "c6_geography_ch04_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why did early farmers prefer to settle near rivers like the Indus, Sarasvatī, and Ganga?",
+    "answer": "They settled there because the rivers provided fertile soil and a consistent water supply for their crops and livestock",
+    "options": [
+     "Fertilizers provide essential nutrients that help plants grow larger and faster, ensuring higher yields to feed more people",
+     "Rivers provide consistent water and enrich the soil, which is essential for the thirsty crops like wheat and rice mentioned in this chapter",
+     "They settled there because the rivers provided fertile soil and a consistent water supply for their crops and livestock"
+    ],
+    "hint": "Straight from the 'beginning of farming in India' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"to use boats for travel\" shows they missed the fundamental link between water, soil, and the survival of agricultural crops.",
+    "id": "gen_c6_geo_ch04_q12",
     "nodeId": "c6_geography_ch04_020",
     "difficulty": "standard"
    },
@@ -1467,7 +1532,7 @@ export const C6_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student doesn't understand the relationship between land scale and the purpose of farming.",
-    "id": "gen_c6_geo_ch04_q9",
+    "id": "gen_c6_geo_ch04_q13",
     "nodeId": "c6_geography_ch04_021",
     "difficulty": "standard"
    },
@@ -1482,7 +1547,7 @@ export const C6_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
     "misconception": "A poor answer ignores the family's basic survival needs, indicating a failure to prioritize household security in the subsistence model.",
-    "id": "gen_c6_geo_ch04_q10",
+    "id": "gen_c6_geo_ch04_q14",
     "nodeId": "c6_geography_ch04_021",
     "difficulty": "standard"
    },
@@ -1497,7 +1562,7 @@ export const C6_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that *any* sale of produce makes a farm \"commercial.\"",
-    "id": "gen_c6_geo_ch04_q11",
+    "id": "gen_c6_geo_ch04_q15",
     "nodeId": "c6_geography_ch04_021",
     "difficulty": "standard"
    },
@@ -1507,12 +1572,27 @@ export const C6_GEO_GEN: SimDef[] = [
     "answer": "Yes, but the *primary* purpose of their farming activity is to generate profit, not family self-sufficiency",
     "options": [
      "They should invest in a reliable irrigation system (like a tube well or canal network). Without consistent water, high-yield seeds and fertilizers will not work effectively",
-     "No, because cities require a large, stable food supply for people who are not farmers themselves (like craftspeople and administrators)",
+     "Agriculture began around 7000 BCE",
      "Yes, but the *primary* purpose of their farming activity is to generate profit, not family self-sufficiency"
     ],
     "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a rigid, binary thinking that fails to account for the primary business motivation in commercial models.",
-    "id": "gen_c6_geo_ch04_q12",
+    "id": "gen_c6_geo_ch04_q16",
+    "nodeId": "c6_geography_ch04_021",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Subsistence farming? State the definition given in this lesson.",
+    "answer": "Subsistence farming is an agricultural method where families grow food primarily to feed themselves",
+    "options": [
+     "Major crops in India are agricultural plants grown on a large scale to provide food for the population and raw materials for industry",
+     "The student must be able to identify key differences between subsistence and commercial farming based on the purpose of production, the scale of land",
+     "Subsistence farming is an agricultural method where families grow food primarily to feed themselves"
+    ],
+    "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Subsistence farming is an agricultural method where families grow food primarily to feed themselves, while commercial",
+    "id": "gen_c6_geo_ch04_q17",
     "nodeId": "c6_geography_ch04_021",
     "difficulty": "standard"
    },
@@ -1521,89 +1601,14 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify key differences between subsistence and commercial farming based on the purpose of production, the scale of land",
     "options": [
+     "The student must be able to classify given crops into Kharif or Rabi categories and explain why specific crops are grown in specific seasons based on their water and temperature",
      "The student must be able to identify the key geographical regions (northwest/Indus plains and the Ganga) where early agriculture began and list the specific crops associated with",
-     "The student must be able to describe how modern irrigation, fertilizers, and machinery work together to increase food production compared to traditional, rain-dependent methods",
      "The student must be able to identify key differences between subsistence and commercial farming based on the purpose of production, the scale of land"
     ],
     "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify key differences between subsistence and commercial farming based on the purpose of",
-    "id": "gen_c6_geo_ch04_q13",
-    "nodeId": "c6_geography_ch04_021",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do farmers practicing subsistence farming usually grow a \"mix\" of crops rather than just one?",
-    "answer": "They grow a variety of crops like rice, pulses, and vegetables to ensure they have a complete, balanced diet for their family throughout the year",
-    "options": [
-     "Crops have specific temperature and water requirements that only match certain seasons. A student failing this sees farming as a factory process rather than a system dependent on",
-     "The monsoon is a challenge because it is uncertain—it can be delayed, too weak, or bring excessive rainfall, all of which can destroy a season's crops",
-     "They grow a variety of crops like rice, pulses, and vegetables to ensure they have a complete, balanced diet for their family throughout the year"
-    ],
-    "hint": "Straight from the 'Subsistence farming' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student hasn't grasped that subsistence is about household security, not just market efficiency.",
-    "id": "gen_c6_geo_ch04_q14",
-    "nodeId": "c6_geography_ch04_021",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a 'Crop Calendar' for a small village: if you have a rainy season followed by a cool, dry winter, what crops would you plant and when?",
-    "answer": "The student should propose Rice for the rainy season and Wheat for the cool winter. A poor answer ignores the seasonal rainfall and temperature data provided in the text",
-    "options": [
-     "Yes, but the *primary* purpose of their farming activity is to generate profit, not family self-sufficiency",
-     "They should choose the Kharif season",
-     "The student should propose Rice for the rainy season and Wheat for the cool winter. A poor answer ignores the seasonal rainfall and temperature data provided in the text"
-    ],
-    "hint": "Straight from the 'Major crops in India' slide -- match the key terms.",
-    "misconception": "A poor answer ignores the seasonal rainfall and temperature data provided in the text.",
-    "id": "gen_c6_geo_ch04_q15",
-    "nodeId": "c6_geography_ch04_022",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate why the Harappan civilization, as discussed in your history chapter, relied on the rivers for their agriculture.",
-    "answer": "Rivers provide consistent water and enrich the soil, which is essential for the thirsty crops like wheat and rice mentioned in this chapter",
-    "options": [
-     "Crops have specific temperature and water requirements that only match certain seasons. A student failing this sees farming as a factory process rather than a system dependent on",
-     "Fertilizers provide essential nutrients that help plants grow larger and faster, ensuring higher yields to feed more people",
-     "Rivers provide consistent water and enrich the soil, which is essential for the thirsty crops like wheat and rice mentioned in this chapter"
-    ],
-    "hint": "Straight from the 'Major crops in India' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a failure to link physical geography (rivers) with agricultural success.",
-    "id": "gen_c6_geo_ch04_q16",
-    "nodeId": "c6_geography_ch04_022",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How do Pulses differ from staple grains like Rice and Wheat in terms of their role in an Indian diet?",
-    "answer": "Pulses are a category of protein-rich crops including lentils and beans (dal), which complement the carbohydrates provided by rice and wheat",
-    "options": [
-     "They grow a variety of crops like rice, pulses, and vegetables to ensure they have a complete, balanced diet for their family throughout the year",
-     "Rivers provide consistent water and enrich the soil, which is essential for the thirsty crops like wheat and rice mentioned in this chapter",
-     "Pulses are a category of protein-rich crops including lentils and beans (dal), which complement the carbohydrates provided by rice and wheat"
-    ],
-    "hint": "Straight from the 'Major crops in India' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a failure to distinguish between macronutrient sources in the Indian food basket.",
-    "id": "gen_c6_geo_ch04_q17",
-    "nodeId": "c6_geography_ch04_022",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were a farmer in Punjab and you wanted to grow a crop that needs moderate rainfall (50-75 cm) and cool weather, which crop would you choose?",
-    "answer": "Wheat. The student must identify the specific climate needs of Wheat",
-    "options": [
-     "No, it remains subsistence farming because the main goal was still family consumption, and the sale of surplus is secondary",
-     "The student should propose Rice for the rainy season and Wheat for the cool winter. A poor answer ignores the seasonal rainfall and temperature data provided in the text",
-     "Wheat. The student must identify the specific climate needs of Wheat"
-    ],
-    "hint": "Straight from the 'Major crops in India' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates they haven't connected the climate of Northern India to the requirements of the crop.",
     "id": "gen_c6_geo_ch04_q18",
-    "nodeId": "c6_geography_ch04_022",
+    "nodeId": "c6_geography_ch04_021",
     "difficulty": "standard"
    }
   ],
@@ -1619,21 +1624,16 @@ export const C6_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_geo_ch05",
-  "title": "Map",
+  "title": "India’s Neighbours",
   "subtitle": "Geography · Chapter 5",
   "classLevel": 6,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Map",
+  "topic": "India’s Neighbours",
   "chapters": [
-   "Geography Ch5: Map",
-   "Geography Ch6: Map",
-   "Geography Ch7: Map"
+   "Geography Ch5: India’s Neighbours"
   ],
   "nodeIds": [
-   "c6_geography_ch06_001",
-   "c6_geography_ch07_001",
-   "c6_geography_ch06_002",
    "c6_geography_ch05_026",
    "c6_geography_ch05_027",
    "c6_geography_ch05_028",
@@ -1648,34 +1648,16 @@ export const C6_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Map in real working life?",
+   "question": "Who uses India’s Neighbours in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "A map is a representation of an area — or the whole Earth — drawn to scale on a flat surface."
+   "hook": "India’s neighbours are the countries that share land borders with India, located in South Asia, along with island nations situated in the nearby"
   },
   "teaching": [
-   {
-    "title": "Map",
-    "text": "A map is a representation of an area — or the whole Earth — drawn to scale on a flat surface. Maps use symbols, directions, and a scale to show the location of places and features.",
-    "emoji": "🌍",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Oceans",
-    "text": "Oceans are the vast connected bodies of salt water covering about two-thirds of the Earth's surface — the five oceans are the Pacific, Atlantic, Indian, Arctic, and Southern.",
-    "emoji": "🌍",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Globe",
-    "text": "A globe is a three-dimensional spherical model of the Earth showing its true round shape. Latitudes are imaginary lines running east–west, parallel to the Equator, measuring how far north or south a place is — the Equator is 0°, the poles are 90°.",
-    "emoji": "🌍",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
    {
     "title": "India’s Neighbours",
     "text": "India’s neighbours are the countries that share land borders with India, located in South Asia, along with island nations situated in the nearby Indian Ocean. These neighbouring countries form the immediate geopolitical circle around India’s landmass.",
@@ -1716,77 +1698,16 @@ export const C6_GEO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What is a map?",
-    "answer": "A flat scaled drawing of a place. A map is a flat drawing that represents an area or the whole Earth to a fixed scale, using symbols, directions",
+    "question": "You would encounter Pakistan. If a student says China or Bangladesh, they are confusing the cardinal directions of the Indian map.",
+    "answer": "If you are traveling from the westernmost part of India (Gujarat), you are most likely to encounter Pakistan, which shares a long international land border with the state",
     "options": [
-     "Asia, Africa, North America, South America, Antarctica, Europe, Australia. Asia, Africa, North America, South America, Antarctica, Europe, and Australia",
-     "The shrinking ratio between map and ground. The scale is the fixed ratio between distance on the map and real distance on the ground",
-     "A flat scaled drawing of a place. A map is a flat drawing that represents an area or the whole Earth to a fixed scale, using symbols, directions"
-    ],
-    "hint": "Straight from the 'map' slide -- match the key terms.",
-    "misconception": "A wrong answer calls it a \"picture\" — the scale and symbols are what make it a map.",
-    "id": "gen_c6_geo_ch05_q1",
-    "nodeId": "c6_geography_ch06_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Draw your classroom on paper — a rectangle for the room, small boxes for desks, a mark for the door.",
-     "You just made a map: a place drawn flat, seen from above.",
-     "Now imagine drawing your whole town on the same paper — impossible unless everything shrinks.",
-     "That shrinking ratio is the scale: a fixed rule that says \"1 cm on this map = 1 km in the real world."
-    ]
-   },
-   {
-    "type": "math_input",
-    "question": "How much of the Earth's surface does the ocean cover?",
-    "answer": "1",
-    "mathInput": {
-     "tolerance": 0
-    },
-    "hint": "Work it step by step, then enter the final value.",
-    "misconception": "A wrong answer guesses half — the ocean dominates the surface.",
-    "id": "gen_c6_geo_ch05_q2",
-    "nodeId": "c6_geography_ch07_001",
-    "difficulty": "foundation",
-    "workedExample": [
-     "Look at a globe and the first thing you notice is the blue — most of the Earth's surface is ocean, about two-thirds of it; only about one-third is",
-     "The five oceans each have a character: the Pacific is the biggest and deepest; the Atlantic runs between the Americas and Europe-Africa; the Indian",
-     "Now the land: the seven continents are Asia (the largest — India is part of it), Africa, North America, South America, Antarctica (a real continent",
-     "Why should the oceans matter to you?"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is a globe?",
-    "answer": "A ball-shaped model of the Earth. A globe is a three-dimensional spherical model of the Earth that shows its true round shape with the correct sizes and distances of continents",
-    "options": [
-     "Pacific, Atlantic, Indian, Arctic, Southern. The Pacific, Atlantic, Indian, Arctic, and Southern oceans — the five large connected bodies of salt water covering most of the Earth",
-     "Use the lat-long grid to locate places. Define globe, latitude, and longitude; name the Equator and Prime Meridian and their 0° roles",
-     "A ball-shaped model of the Earth. A globe is a three-dimensional spherical model of the Earth that shows its true round shape with the correct sizes and distances of continents"
-    ],
-    "hint": "Straight from the 'globe' slide -- match the key terms.",
-    "misconception": "A wrong answer calls it \"a big map\" — it is a model, not a flattened map.",
-    "id": "gen_c6_geo_ch05_q3",
-    "nodeId": "c6_geography_ch06_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "A flat map shrinks a round Earth — and a ball squashed flat always stretches at the edges, which is why countries near the poles look stretched on",
-     "A globe is the Earth in miniature — it keeps the true shapes and distances of the lands and oceans.",
-     "Now wrap two sets of invisible lines around the globe.",
-     "First, latitudes — the flat rings running sideways, parallel to the Equator, which is the 0° line around the Earth's middle; count the degrees north"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Create a mnemonic or a simple sentence to help a classmate remember the countries that border India.",
-    "answer": "A good answer would be a creative sentence like \"China, Nepal, Bhutan, Bangladesh, Myanmar, Pakistan, and Afghanistan are our land friends",
-    "options": [
+     "The student should suggest adding labels like \"Mountainous,\" \"Desert,\" or \"Forested\" to the borders",
      "You would look for the presence of Buddhist traditions in Bhutan and trace them back to their origins in India",
-     "A good answer would mention the spread of Buddhism from India to Sri Lanka or the shared stories from the Ramayana",
-     "A good answer would be a creative sentence like \"China, Nepal, Bhutan, Bangladesh, Myanmar, Pakistan, and Afghanistan are our land friends"
+     "If you are traveling from the westernmost part of India (Gujarat), you are most likely to encounter Pakistan, which shares a long international land border with the state"
     ],
     "hint": "Straight from the 'India’s neighbours' slide -- match the key terms.",
-    "misconception": "A poor answer simply lists them without a structure, which does not demonstrate a creative grasp of the material.",
-    "id": "gen_c6_geo_ch05_q4",
+    "misconception": "A wrong answer reveals that the student has a fundamental misconception regarding India’s political geography and map orientation, likely confusing the cardinal directions or misidentifying India's neighboring countries.",
+    "id": "gen_c6_geo_ch05_q1",
     "nodeId": "c6_geography_ch05_026",
     "difficulty": "standard",
     "workedExample": [
@@ -1801,13 +1722,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Why is the border between India and China geographically different from the border with Pakistan?",
     "answer": "The India-China border runs along the high, rugged Himalayas, while the India-Pakistan border in the west is characterized by the Thar Desert and the plains of Punjab",
     "options": [
-     "Sri Lanka lies directly to the south of India, separated by a narrow stretch of water called the Palk Strait, while the Maldives is located further to the southwest",
-     "Real features cannot fit at map size. Real features cannot be drawn at map size, so agreed symbols stand for roads, rivers, trees, and buildings",
+     "An open border allows goods to move freely by road without complex obstacles, making trade faster and cheaper",
+     "While the Indian Ocean acts as a bridge for trade, the Himalayas act as a natural barrier to the north, protecting and defining India's land borders",
      "The India-China border runs along the high, rugged Himalayas, while the India-Pakistan border in the west is characterized by the Thar Desert and the plains of Punjab"
     ],
     "hint": "Straight from the 'India’s land borders' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student hasn't linked the border location to the specific landforms found in those regions.",
-    "id": "gen_c6_geo_ch05_q5",
+    "id": "gen_c6_geo_ch05_q2",
     "nodeId": "c6_geography_ch05_027",
     "difficulty": "standard",
     "workedExample": [
@@ -1822,13 +1743,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Why do we say India and Nepal have \"deep\" cultural links?",
     "answer": "Because they share roots in Hinduism and Buddhism, and many sacred sites like the Pashupatinath Temple are important to people in both countries",
     "options": [
-     "It creates a common cultural heritage because Buddhism was brought to Sri Lanka from India long ago",
-     "About two-thirds. About two-thirds of the Earth's surface is ocean — the land where we live is only about one-third",
+     "While the Indian Ocean acts as a bridge for trade, the Himalayas act as a natural barrier to the north, protecting and defining India's land borders",
+     "Sri Lanka lies directly to the south of India, separated by a narrow stretch of water called the Palk Strait, while the Maldives is located further to the southwest",
      "Because they share roots in Hinduism and Buddhism, and many sacred sites like the Pashupatinath Temple are important to people in both countries"
     ],
     "hint": "Straight from the 'Cultural links with neighbouring' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student might be focusing on geography instead of the shared heritage mentioned in the text.",
-    "id": "gen_c6_geo_ch05_q6",
+    "id": "gen_c6_geo_ch05_q3",
     "nodeId": "c6_geography_ch05_028",
     "difficulty": "standard",
     "workedExample": [
@@ -1840,16 +1761,17 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why does sharing an open border with a country like Nepal make trade \"substantial\"?",
-    "answer": "An open border allows goods to move freely by road without complex obstacles, making trade faster and cheaper",
+    "question": "What is one major item that India provides to Nepal as part of their trade relationship?",
+    "answer": "India supplies fuel and manufactured goods to Nepal",
     "options": [
-     "The India-China border runs along the high, rugged Himalayas, while the India-Pakistan border in the west is characterized by the Thar Desert and the plains of Punjab",
-     "While the Indian Ocean acts as a bridge for trade, the Himalayas act as a natural barrier to the north, protecting and defining India's land borders",
-     "An open border allows goods to move freely by road without complex obstacles, making trade faster and cheaper"
+     "The Lakshadweep Islands are in the west (Arabian Sea) and the Andaman and Nicobar Islands are in the east (Bay of Bengal)",
+     "India’s geopolitical significance refers to the strategic advantage its location provides, allowing it to influence global trade and maritime movement due to its central position",
+     "India supplies fuel and manufactured goods to Desert",
+     "India supplies fuel and manufactured goods to Nepal"
     ],
     "hint": "Straight from the 'Trade and economic relations' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks trade only happens by sea or air, missing the importance of land connectivity.",
-    "id": "gen_c6_geo_ch05_q7",
+    "misconception": "A wrong answer here suggests the student has not grasped the concept that trade involves sending finished products or energy to neighbors who need them.",
+    "id": "gen_c6_geo_ch05_q4",
     "nodeId": "c6_geography_ch05_029",
     "difficulty": "standard",
     "workedExample": [
@@ -1865,12 +1787,12 @@ export const C6_GEO_GEN: SimDef[] = [
     "answer": "Sri Lanka lies directly to the south of India, separated by a narrow stretch of water called the Palk Strait, while the Maldives is located further to the southwest",
     "options": [
      "It creates a common cultural heritage because Buddhism was brought to Sri Lanka from India long ago",
-     "The India-China border runs along the high, rugged Himalayas, while the India-Pakistan border in the west is characterized by the Thar Desert and the plains of Punjab",
+     "They are called maritime neighbours because they are separated from India by the sea rather than a land boundary",
      "Sri Lanka lies directly to the south of India, separated by a narrow stretch of water called the Palk Strait, while the Maldives is located further to the southwest"
     ],
     "hint": "Straight from the 'India’s maritime neighbours' slide -- match the key terms.",
     "misconception": "A wrong answer suggests a failure to distinguish between directions and distances on the map.",
-    "id": "gen_c6_geo_ch05_q8",
+    "id": "gen_c6_geo_ch05_q5",
     "nodeId": "c6_geography_ch05_030",
     "difficulty": "standard",
     "workedExample": [
@@ -1885,13 +1807,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "What are the two major island groups belonging to India that extend its presence into the Indian Ocean?",
     "answer": "The Lakshadweep Islands are in the west (Arabian Sea) and the Andaman and Nicobar Islands are in the east (Bay of Bengal)",
     "options": [
-     "Pacific ocean; Asia continent. The Pacific is the largest ocean — covering a third of the Earth — and Asia is the largest continent",
-     "Name the oceans and continents and why they matter. Name all five oceans and all seven continents, identify the largest of each, and state two ways oceans matter",
+     "The student must be able to describe how India's central position in the Indian Ocean impacts global trade routes and explain the defensive/strategic role of the Himalayas and the",
+     "India supplies fuel and manufactured goods to Nepal",
      "The Lakshadweep Islands are in the west (Arabian Sea) and the Andaman and Nicobar Islands are in the east (Bay of Bengal)"
     ],
     "hint": "Straight from the 'India’s geopolitical significance' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student hasn't identified the specific locations of India's island territories, indicating a lack of basic map familiarity.",
-    "id": "gen_c6_geo_ch05_q9",
+    "id": "gen_c6_geo_ch05_q6",
     "nodeId": "c6_geography_ch05_031",
     "difficulty": "advanced",
     "workedExample": [
@@ -1903,16 +1825,31 @@ export const C6_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to label all seven land-bordering countries and two major maritime island neighbours on a blank map of India",
+    "question": "Compare the location of Bangladesh to that of Bhutan; how do their positions relative to India differ?",
+    "answer": "Bangladesh is located to the northeast and shares a long border with India's eastern states, while Bhutan is situated further north",
     "options": [
-     "Scale, symbols, and direction. Scale (how much the area is shrunk), symbols (marks standing for features), and direction (the north arrow)",
-     "The student must be able to identify India's six land neighbors on a map and describe one unique physical characteristic of the border shared with each",
-     "The student must be able to label all seven land-bordering countries and two major maritime island neighbours on a blank map of India"
+     "You would look for the presence of Buddhist traditions in Bhutan and trace them back to their origins in India",
+     "Yes, because India’s long coastline and central location allow it to be a key player in ocean-based trade",
+     "Bangladesh is located to the northeast and shares a long border with India's eastern states, while Bhutan is situated further north"
     ],
     "hint": "Straight from the 'India’s neighbours' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to label all seven land-bordering countries and two major maritime island neighbours on a",
-    "id": "gen_c6_geo_ch05_q10",
+    "misconception": "Recheck the lesson slide -- the key claim is: Bangladesh is located to the northeast and shares a long border with India's eastern states, while Bhutan is situated",
+    "id": "gen_c6_geo_ch05_q7",
+    "nodeId": "c6_geography_ch05_026",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Create a mnemonic or a simple sentence to help a classmate remember the countries that border India.",
+    "answer": "A good answer would be a creative sentence like \"China, Nepal, Bhutan, Bangladesh, Myanmar, Pakistan, and Afghanistan are our land friends",
+    "options": [
+     "Yes, because India’s long coastline and central location allow it to be a key player in ocean-based trade",
+     "No, because India is a vast country where borders span across hot deserts, high mountain peaks, and tropical eastern plains",
+     "A good answer would be a creative sentence like \"China, Nepal, Bhutan, Bangladesh, Myanmar, Pakistan, and Afghanistan are our land friends"
+    ],
+    "hint": "Straight from the 'India’s neighbours' slide -- match the key terms.",
+    "misconception": "A poor answer simply lists them without a structure, which does not demonstrate a creative grasp of the material.",
+    "id": "gen_c6_geo_ch05_q8",
     "nodeId": "c6_geography_ch05_026",
     "difficulty": "standard"
    },
@@ -1921,13 +1858,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "How do physical features like the Himalayas or the Thar Desert influence the \"character\" of a border?",
     "answer": "Physical features act as natural barriers that define the environment, making some borders mountainous and cold, while others are flat and arid",
     "options": [
+     "It creates a common cultural heritage because Buddhism was brought to Sri Lanka from India long ago",
      "The India-China border runs along the high, rugged Himalayas, while the India-Pakistan border in the west is characterized by the Thar Desert and the plains of Punjab",
-     "Because they share roots in Hinduism and Buddhism, and many sacred sites like the Pashupatinath Temple are important to people in both countries",
      "Physical features act as natural barriers that define the environment, making some borders mountainous and cold, while others are flat and arid"
     ],
     "hint": "Straight from the 'India’s land borders' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student sees borders only as political lines rather than geographical realities.",
-    "id": "gen_c6_geo_ch05_q11",
+    "id": "gen_c6_geo_ch05_q9",
     "nodeId": "c6_geography_ch05_027",
     "difficulty": "standard"
    },
@@ -1936,13 +1873,28 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "If you had to design a map to explain India's neighbors to a friend, what labels would you add to the borders to make them easier to understand?",
     "answer": "The student should suggest adding labels like \"Mountainous,\" \"Desert,\" or \"Forested\" to the borders",
     "options": [
-     "You would look for the presence of Buddhist traditions in Bhutan and trace them back to their origins in India",
      "No, because India is a vast country where borders span across hot deserts, high mountain peaks, and tropical eastern plains",
+     "If you are traveling from the westernmost part of India (Gujarat), you are most likely to encounter Pakistan, which shares a long international land border with the state",
      "The student should suggest adding labels like \"Mountainous,\" \"Desert,\" or \"Forested\" to the borders"
     ],
     "hint": "Straight from the 'India’s land borders' slide -- match the key terms.",
     "misconception": "A poor answer would just list country names without acknowledging the physical differences discussed in the chapter.",
-    "id": "gen_c6_geo_ch05_q12",
+    "id": "gen_c6_geo_ch05_q10",
+    "nodeId": "c6_geography_ch05_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were traveling from the Thar Desert in the west to the forests of the northeast, which neighbors would you pass along the way?",
+    "answer": "You would start near Pakistan, move across the northern mountainous region near China, Nepal, and Bhutan, and end near Myanmar and Bangladesh",
+    "options": [
+     "If you are traveling from the westernmost part of India (Gujarat), you are most likely to encounter Pakistan, which shares a long international land border with the state",
+     "The student should suggest adding labels like \"Mountainous,\" \"Desert,\" or \"Forested\" to the borders",
+     "You would start near Pakistan, move across the northern mountainous region near China, Nepal, and Bhutan, and end near Myanmar and Bangladesh"
+    ],
+    "hint": "Straight from the 'India’s land borders' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a lack of awareness of the directional layout of India's neighboring countries.",
+    "id": "gen_c6_geo_ch05_q11",
     "nodeId": "c6_geography_ch05_027",
     "difficulty": "standard"
    },
@@ -1951,28 +1903,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Is it accurate to say that all of India's land borders share the same climate? Why or why not?",
     "answer": "No, because India is a vast country where borders span across hot deserts, high mountain peaks, and tropical eastern plains",
     "options": [
-     "A good answer would be a creative sentence like \"China, Nepal, Bhutan, Bangladesh, Myanmar, Pakistan, and Afghanistan are our land friends",
+     "If you are traveling from the westernmost part of India (Gujarat), you are most likely to encounter Pakistan, which shares a long international land border with the state",
      "The student should suggest adding labels like \"Mountainous,\" \"Desert,\" or \"Forested\" to the borders",
      "No, because India is a vast country where borders span across hot deserts, high mountain peaks, and tropical eastern plains"
     ],
     "hint": "Straight from the 'India’s land borders' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misunderstanding of how the size of a country impacts the diversity of its border regions.",
-    "id": "gen_c6_geo_ch05_q13",
-    "nodeId": "c6_geography_ch05_027",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify India's six land neighbors on a map and describe one unique physical characteristic of the border shared with each",
-    "options": [
-     "A flat scaled drawing of a place. A map is a flat drawing that represents an area or the whole Earth to a fixed scale, using symbols, directions",
-     "The shrinking ratio between map and ground. The scale is the fixed ratio between distance on the map and real distance on the ground",
-     "The student must be able to identify India's six land neighbors on a map and describe one unique physical characteristic of the border shared with each"
-    ],
-    "hint": "Straight from the 'India’s land borders' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify India's six land neighbors on a map and describe one unique physical",
-    "id": "gen_c6_geo_ch05_q14",
+    "id": "gen_c6_geo_ch05_q12",
     "nodeId": "c6_geography_ch05_027",
     "difficulty": "standard"
    },
@@ -1983,12 +1920,11 @@ export const C6_GEO_GEN: SimDef[] = [
     "options": [
      "The India-China border runs along the high, rugged Himalayas, while the India-Pakistan border in the west is characterized by the Thar Desert and the plains of Punjab",
      "While the Indian Ocean acts as a bridge for trade, the Himalayas act as a natural barrier to the north, protecting and defining India's land borders",
-     "It creates a common cultural heritage because Buddhism was brought to Palk Strait from India long ago",
      "It creates a common cultural heritage because Buddhism was brought to Sri Lanka from India long ago"
     ],
     "hint": "Straight from the 'Cultural links with neighbouring' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student thinks the link is only about current events, ignoring the ancient historical connection.",
-    "id": "gen_c6_geo_ch05_q15",
+    "id": "gen_c6_geo_ch05_q13",
     "nodeId": "c6_geography_ch05_028",
     "difficulty": "standard"
    },
@@ -1998,12 +1934,12 @@ export const C6_GEO_GEN: SimDef[] = [
     "answer": "You would look for the presence of Buddhist traditions in Bhutan and trace them back to their origins in India",
     "options": [
      "They might recognize Buddhist temples, rituals, or common stories that have roots in Indian traditions",
-     "They might see shared cultural or religious connections, such as the influence of Buddhism or the presence of Tamil-speaking communities",
+     "No, it is a bridge. It facilitates trade, tourism, and cultural exchange, which have historically linked these nations",
      "You would look for the presence of Buddhist traditions in Bhutan and trace them back to their origins in India"
     ],
     "hint": "Straight from the 'Cultural links with neighbouring' slide -- match the key terms.",
     "misconception": "If a student answers \"by looking at trade,\" they have missed the religious/cultural focus of this specific topic.",
-    "id": "gen_c6_geo_ch05_q16",
+    "id": "gen_c6_geo_ch05_q14",
     "nodeId": "c6_geography_ch05_028",
     "difficulty": "standard"
    },
@@ -2012,13 +1948,13 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Imagine a student from Bhutan visits India. What are two things they might find familiar in terms of traditions or beliefs?",
     "answer": "They might recognize Buddhist temples, rituals, or common stories that have roots in Indian traditions",
     "options": [
-     "Asia and the Indian Ocean. India is on the continent of Asia, and its southern coast lies along the Indian Ocean — which is named for it",
      "A good answer would mention the spread of Buddhism from India to Sri Lanka or the shared stories from the Ramayana",
+     "They might see shared cultural or religious connections, such as the influence of Buddhism or the presence of Tamil-speaking communities",
      "They might recognize Buddhist temples, rituals, or common stories that have roots in Indian traditions"
     ],
     "hint": "Straight from the 'Cultural links with neighbouring' slide -- match the key terms.",
     "misconception": "A poor answer would be generic (like \"food\" or \"weather\") without connecting it to the specific religious/cultural roots discussed.",
-    "id": "gen_c6_geo_ch05_q17",
+    "id": "gen_c6_geo_ch05_q15",
     "nodeId": "c6_geography_ch05_028",
     "difficulty": "standard"
    },
@@ -2027,24 +1963,54 @@ export const C6_GEO_GEN: SimDef[] = [
     "question": "Is it accurate to say that cultural links only happen because of modern travel? Why or why not?",
     "answer": "No, these links go back thousands of years, long before modern travel",
     "options": [
-     "Asia and the Indian Ocean. India is on the continent of Asia, and its southern coast lies along the Indian Ocean — which is named for it",
      "A good answer would be a creative sentence like \"China, Nepal, Bhutan, Bangladesh, Myanmar, Pakistan, and Afghanistan are our land friends",
+     "You would start near Pakistan, move across the northern mountainous region near China, Nepal, and Bhutan, and end near Myanmar and Bangladesh",
      "No, these links go back thousands of years, long before modern travel"
     ],
     "hint": "Straight from the 'Cultural links with neighbouring' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student doesn't understand that these connections are ancient and historical.",
-    "id": "gen_c6_geo_ch05_q18",
+    "id": "gen_c6_geo_ch05_q16",
     "nodeId": "c6_geography_ch05_028",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How does the trade relationship between India and its neighbors benefit the common people in both countries?",
+    "answer": "It ensures that neighbors get essential items like food or fuel quickly, while Indian farmers and businesses get a market to sell their products",
+    "options": [
+     "It means India sits at the heart of the ocean, acting as a bridge between the Middle East (west), Africa (southwest), and East Asia (east)",
+     "An open border allows goods to move freely by road without complex obstacles, making trade faster and cheaper",
+     "It ensures that neighbors get essential items like food or fuel quickly, while Indian farmers and businesses get a market to sell their products"
+    ],
+    "hint": "Straight from the 'Trade and economic relations' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a lack of understanding that trade is a two-way street for mutual survival.",
+    "id": "gen_c6_geo_ch05_q17",
+    "nodeId": "c6_geography_ch05_029",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If Bhutan has a lot of mountain rivers, what is one useful product India might import from them?",
+    "answer": "India imports hydroelectric power. The student must apply the logic that a country's natural geography (mountains/rivers) dictates what they can sell to others",
+    "options": [
+     "Because India sticks out into the Indian Ocean, creating a natural bottleneck that ships must pass by or through to complete their journey",
+     "Yes, because India’s long coastline and central location allow it to be a key player in ocean-based trade",
+     "India imports hydroelectric power. The student must apply the logic that a country's natural geography (mountains/rivers) dictates what they can sell to others"
+    ],
+    "hint": "Straight from the 'Trade and economic relations' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: India imports hydroelectric power. The student must apply the logic that a country's natural geography",
+    "id": "gen_c6_geo_ch05_q18",
+    "nodeId": "c6_geography_ch05_029",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about map?",
+    "What surprised you about india’s neighbours?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Map mastered! 🎯",
+  "successLine": "India’s Neighbours mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

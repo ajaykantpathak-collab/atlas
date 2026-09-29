@@ -11,7 +11,7 @@ export const w_c11_psychologytheoriesmotivationsim: SimDef = {
     classLevel: 11, subject: 'psychology', topic: 'Types of Motives: Biological (Physiological) Motives',
     chapters: [],
     nodeIds: ['c11_psy_cbse_08_002', 'c11_psy_cbse_08_004', 'c11_psy_cbse_04_007', 'c11_psy_cbse_05_006', 'c11_psy_cbse_08_001', 'c11_psy_cbse_08_003', 'c11_psy_cbse_07_004', 'c11_psy_cbse_07_009', 'c11_psy_cbse_04_001', 'c11_psy_cbse_08_005', 'c11_psy_cbse_08_006', 'c11_psy_cbse_08_007', 'c11_psy_cbse_08_008', 'c11_psy_cbse_08_009', 'c11_psy_cbse_05_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you skip breakfast and by 11 AM your stomach growls, you feel irritable, and the smell of samosas.', goal: 'Master Types of Motives: Biological (Physiological) Motives.' },
     discovery: {
         question: 'Critique the statement: "Since hunger and thirst are biological motives, they are identical across all humans and unaffected by culture or learning."',
@@ -20,7 +20,7 @@ export const w_c11_psychologytheoriesmotivationsim: SimDef = {
         hook: 'Students often believe that biological motives operate like simple reflexes: "low glucose → automatic eating" or "dry.',
     },
     teaching: [
-        { title: 'Biological (physiological) motives are.', text: 'Biological (physiological) motives are innate, genetically programmed drives arising from internal physiological imbalances or deficits (e.g., nutrient depletion, fluid loss, hormonal changes) that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Biological (physiological) motives are.', text: 'Biological (physiological) motives are innate, genetically programmed drives arising from internal physiological imbalances or deficits (e.g., nutrient depletion, fluid loss, hormonal changes) that.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_08_002', title: 'Biological (physiological) motives are.',

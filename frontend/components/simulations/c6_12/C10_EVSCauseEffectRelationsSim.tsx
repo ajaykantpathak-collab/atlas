@@ -1277,7 +1277,7 @@ function C10_EVSCauseEffectRelationsSim({
             key={phase}
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
-            className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-indigo-950 text-indigo-300 border border-indigo-800"
+            className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-gold-950 text-gold-300 border border-gold-800"
           >
             Phase: {phase}
           </motion.span>
@@ -1289,7 +1289,7 @@ function C10_EVSCauseEffectRelationsSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/80 text-blue-300 border-blue-700'
+                ? 'bg-gold-950/80 text-gold-300 border-gold-700'
                 : 'bg-rose-950/80 text-rose-300 border-rose-700'
             }`}
           >
@@ -1310,14 +1310,14 @@ function C10_EVSCauseEffectRelationsSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-900/50 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-900/50 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold uppercase tracking-wider mb-2">
               <span>🎯 Narrative Mission Briefing</span>
             </div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs md:text-sm text-indigo-200/80 italic bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs md:text-sm text-gold-200/80 italic bg-gold-950/60 p-3 rounded-xl border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1348,7 +1348,7 @@ function C10_EVSCauseEffectRelationsSim({
                   }`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1504,9 +1504,9 @@ function C10_EVSCauseEffectRelationsSim({
                         <div className="grid grid-cols-2 gap-3 pt-2">
                           <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                             <span className="text-xs text-slate-400">Remaining Ice Cover</span>
-                            <div className="text-xl font-black text-cyan-300">{iceCoverage}%</div>
+                            <div className="text-xl font-black text-gold-300">{iceCoverage}%</div>
                             <div className="h-1.5 bg-slate-800 rounded-full mt-1.5 overflow-hidden">
-                              <motion.div className="h-full bg-cyan-400" animate={{ width: `${iceCoverage}%` }} />
+                              <motion.div className="h-full bg-gold-400" animate={{ width: `${iceCoverage}%` }} />
                             </div>
                           </div>
                           <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
@@ -1520,14 +1520,14 @@ function C10_EVSCauseEffectRelationsSim({
 
                         {/* Predict-Then-Check In-Situ Hook */}
                         {!predictionMade && (
-                          <div className="mt-3 p-3 bg-indigo-950/50 rounded-lg border border-indigo-800 text-xs">
-                            <p className="font-semibold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                          <div className="mt-3 p-3 bg-gold-950/50 rounded-lg border border-gold-800 text-xs">
+                            <p className="font-semibold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                             <div className="space-y-1.5">
                               {PREDICTION_QUESTIONS[0].options.slice(0, 2).map((opt, i) => (
                                 <button
                                   key={i}
                                   onClick={() => handlePrediction(i)}
-                                  className="w-full text-left p-2 rounded bg-indigo-900/40 hover:bg-indigo-800/60 text-slate-200 transition"
+                                  className="w-full text-left p-2 rounded bg-gold-900/40 hover:bg-gold-800/60 text-slate-200 transition"
                                 >
                                   {opt}
                                 </button>
@@ -1656,7 +1656,7 @@ function C10_EVSCauseEffectRelationsSim({
                         <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 flex justify-between items-center">
                           <div>
                             <span className="text-xs text-slate-400">Dissolved Oxygen (DO)</span>
-                            <div className="text-lg font-black text-cyan-300">{dissolvedOxygen} mg/L</div>
+                            <div className="text-lg font-black text-gold-300">{dissolvedOxygen} mg/L</div>
                           </div>
                           <span
                             className={`px-2.5 py-1 rounded text-xs font-bold ${
@@ -1691,11 +1691,11 @@ function C10_EVSCauseEffectRelationsSim({
                           onClick={() => setSelectedPillar(p.id as 'art21' | 'art48a' | 'art51a')}
                           className={`p-4 text-left rounded-xl border transition ${
                             selectedPillar === p.id
-                              ? 'bg-indigo-950/80 border-indigo-500 text-white shadow-lg'
+                              ? 'bg-gold-950/80 border-gold-500 text-white shadow-lg'
                               : 'bg-slate-900/60 border-slate-800 text-slate-300 hover:bg-slate-800/80'
                           }`}
                         >
-                          <h4 className="font-bold text-sm text-indigo-300 mb-1">{p.title}</h4>
+                          <h4 className="font-bold text-sm text-gold-300 mb-1">{p.title}</h4>
                           <p className="text-xs text-slate-400">{p.desc}</p>
                         </motion.button>
                       ))}
@@ -1751,15 +1751,15 @@ function C10_EVSCauseEffectRelationsSim({
                       {/* Adaptation Panel */}
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                         <div className="flex items-center justify-between">
-                          <h4 className="font-bold text-sm text-cyan-400">🌊 Climate Adaptation (Build Resilience)</h4>
-                          <span className="text-xs bg-cyan-950 text-cyan-300 px-2 py-0.5 rounded border border-cyan-800">
+                          <h4 className="font-bold text-sm text-gold-400">🌊 Climate Adaptation (Build Resilience)</h4>
+                          <span className="text-xs bg-gold-950 text-gold-300 px-2 py-0.5 rounded border border-gold-800">
                             Bio-Shield Defense
                           </span>
                         </div>
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Sundarbans Mangrove Buffer Width:</span>
-                            <span className="font-bold text-cyan-400">{mangroveBufferMeters} Meters</span>
+                            <span className="font-bold text-gold-400">{mangroveBufferMeters} Meters</span>
                           </div>
                           <input
                             type="range"
@@ -1769,12 +1769,12 @@ function C10_EVSCauseEffectRelationsSim({
                             value={mangroveBufferMeters}
                             onChange={(e) => setMangroveBufferMeters(parseInt(e.target.value))}
                             aria-label="Set mangrove buffer width in meters"
-                            className="w-full accent-cyan-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                         <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs">
                           <span className="text-slate-400">Cyclone Storm Surge Wave Impact:</span>
-                          <div className="text-lg font-black text-cyan-400">{stormWaveEnergy}% (Attenuated)</div>
+                          <div className="text-lg font-black text-gold-400">{stormWaveEnergy}% (Attenuated)</div>
                         </div>
                       </div>
                     </div>
@@ -1904,7 +1904,7 @@ function C10_EVSCauseEffectRelationsSim({
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Ready for Adaptive Challenges"
-              className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-900/30"
+              className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/30"
             >
               Ready for Adaptive Challenges! →
             </motion.button>
@@ -1927,7 +1927,7 @@ function C10_EVSCauseEffectRelationsSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="text-indigo-400 uppercase tracking-wider text-[11px] bg-indigo-950 px-2 py-0.5 rounded border border-indigo-800">
+                <span className="text-gold-400 uppercase tracking-wider text-[11px] bg-gold-950 px-2 py-0.5 rounded border border-gold-800">
                   NEP 2020: {challenge.competencyLevel}
                 </span>
                 <span className="text-slate-400">
@@ -1982,7 +1982,7 @@ function C10_EVSCauseEffectRelationsSim({
                       }`}
                     >
                       <div className="flex items-start gap-2.5">
-                        <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                         <span>{opt}</span>
                       </div>
                     </motion.button>
@@ -2002,7 +2002,7 @@ function C10_EVSCauseEffectRelationsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 rounded-lg bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2033,7 +2033,7 @@ function C10_EVSCauseEffectRelationsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={(e) => handleAnswer(droppedLabels, e)}
                     disabled={showExplanation || Object.keys(droppedLabels).length < (challenge.dragItems?.length || 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-900/30 disabled:opacity-50"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-900/30 disabled:opacity-50"
                   >
                     Check Drag Placements
                   </motion.button>
@@ -2054,7 +2054,7 @@ function C10_EVSCauseEffectRelationsSim({
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center justify-between text-sm text-slate-200"
                   >
                     <div className="flex items-center gap-2">
-                      <span className="w-6 h-6 rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 flex items-center justify-center text-xs font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 border border-gold-700 text-gold-300 flex items-center justify-center text-xs font-bold">
                         {displayIdx + 1}
                       </span>
                       <span>{challenge.sortItems![itemIdx]}</span>
@@ -2090,7 +2090,7 @@ function C10_EVSCauseEffectRelationsSim({
                       )
                     }
                     disabled={showExplanation}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow"
                   >
                     Verify Order
                   </motion.button>
@@ -2117,7 +2117,7 @@ function C10_EVSCauseEffectRelationsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={(e) => handleAnswer(numericInput, e)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow disabled:opacity-50"
                   >
                     Submit Number
                   </motion.button>
@@ -2137,7 +2137,7 @@ function C10_EVSCauseEffectRelationsSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       disabled={showExplanation || constructParts.includes(part)}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 text-xs disabled:opacity-40"
+                      className="px-3 py-1.5 rounded-lg bg-gold-900/60 hover:bg-gold-800 text-gold-200 border border-gold-700 text-xs disabled:opacity-40"
                     >
                       + {part}
                     </motion.button>
@@ -2148,13 +2148,13 @@ function C10_EVSCauseEffectRelationsSim({
                   {constructParts.map((part, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1 bg-indigo-700 text-white rounded-lg text-xs flex items-center gap-1.5 shadow"
+                      className="px-3 py-1 bg-gold-700 text-white rounded-lg text-xs flex items-center gap-1.5 shadow"
                     >
                       <span>{idx + 1}. {part}</span>
                       {!showExplanation && (
                         <button
                           onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))}
-                          className="text-indigo-200 hover:text-white"
+                          className="text-gold-200 hover:text-white"
                         >
                           ✕
                         </button>
@@ -2172,7 +2172,7 @@ function C10_EVSCauseEffectRelationsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={(e) => handleAnswer(constructParts.join(' '), e)}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow disabled:opacity-50"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow disabled:opacity-50"
                   >
                     Validate Construct Chain
                   </motion.button>
@@ -2269,7 +2269,7 @@ function C10_EVSCauseEffectRelationsSim({
               </div>
               <div className="px-5 py-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Demonstrated Mastery</span>
-                <span className="text-xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2310,20 +2310,20 @@ function C10_EVSCauseEffectRelationsSim({
             <div>
               <h4 className="font-bold text-sm text-slate-200">📅 Spaced Repetition (SM-2 Algorithm)</h4>
               <p className="text-xs text-slate-400">
-                Scheduled review in <strong className="text-indigo-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to lock in permanent neuro-retention.
+                Scheduled review in <strong className="text-gold-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to lock in permanent neuro-retention.
               </p>
             </div>
             <span className="text-xl">🧠</span>
           </div>
 
           {/* Real-World Capstone Activity */}
-          <div className="p-6 bg-indigo-950/30 rounded-2xl border border-indigo-900/50 space-y-3">
-            <h3 className="font-bold text-base text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gold-950/30 rounded-2xl border border-gold-900/50 space-y-3">
+            <h3 className="font-bold text-base text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-900/70 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

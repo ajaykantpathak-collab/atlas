@@ -23,7 +23,7 @@ export const c8_hin_ch10_p1: SimDef = {
         labels: ['तरुण के स्वप्न —'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'build', nodeId: 'c8_hin_cbse_10_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['पाठ का विषय नेताजी का स्वप्न — स्वाधीन, संपन्न, समतामूलक.', 'रचनाकार सुभाष चंद्र बोस का काल/परिचय।', 'जुड़ाव — कवि का अनुभव पाठ में झलकता है।'], answer: 'रचनाकार सुभाष चंद्र बोस का काल/परिचय। पाठ का विषय नेताजी का स्वप्न — स्वाधीन, संपन्न, समतामूलक. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['रचनाकार सुभाष चंद्र बोस का काल/परिचय।', 'पाठ का विषय नेताजी का स्वप्न — स्वाधीन, संपन्न, समतामूलक.', 'जुड़ाव — कवि का अनुभव पाठ में झलकता है।'], answer: 'रचनाकार सुभाष चंद्र बोस का काल/परिचय। पाठ का विषय नेताजी का स्वप्न — स्वाधीन, संपन्न, समतामूलक. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
         { type: 'case', nodeId: 'c8_hin_cbse_10_006', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through तरुण के स्वप्न like a real scientist — observed, predicted, tested, retried.',
             decisions: [{ prompt: 'What comes next? तरुण के स्वप्न · Part 2/3 picks up right here.', options: [

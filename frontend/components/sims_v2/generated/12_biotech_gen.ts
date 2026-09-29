@@ -72,7 +72,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "PBR322",
+    "title": "PBR322 Is a 4",
     "text": "pBR322 is a 4,361 bp circular plasmid cloning vector derived from pMB1 (a ColE1-like plasmid), containing an origin of replication (ori), two selectable markers (ampicillin resistance gene *bla* and tetracycline resistance gene *tetR*), and multiple unique",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -84,7 +84,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Cosmids",
+    "title": "Cosmids Are Hybrid Cloning Vectors",
     "text": "Cosmids are hybrid cloning vectors that combine the cos (cohesive end) site from bacteriophage λ for in vitro packaging into phage heads with a plasmid origin of replication (ori) and selectable marker for propagation as a plasmid in *E.",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -281,11 +281,11 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "What are the two *cis*-acting DNA sequences absolutely required for T-DNA transfer from *Agrobacterium* to the plant genome, and what is their consensus length and orientation?",
     "answer": "The left border (LB) and right border (RB), each a 25-bp direct repeat (consensus: 5'-TGGT...-3') flanking the T-DNA",
     "options": [
-     "URA3 (orotidine-5'-phosphate decarboxylase, pyrimidine biosynthesis) and LEU2 (isopropylmalate isomerase, leucine biosynthesis)",
-     "The polyhedrin promoter (or polh promoter)",
+     "The student can explain the key components (baculovirus genome, polyhedrin promoter, transfer vector, insect host cells)",
+     "Student can (1) draw and label the three functional regions of a wild-type Ti plasmid (T-DNA with left/right borders, virulence region",
      "The left border (LB) and right border (RB), each a 25-bp direct repeat (consensus: 5'-TGGT...-3') flanking the T-DNA"
     ],
-    "hint": "Straight from the 'Ti  plasmid' slide -- match the key terms.",
+    "hint": "Straight from the 'Ti plasmid' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “inverted repeats” or “10-bp borders”) reveals the student confuses T-DNA borders with transposon inverted repeats or restriction sites, and does not understand that border *orientation* determines the direction of T-strand synthesis (nick at RB → 5'→3' synthesis toward LB).",
     "id": "gen_c12_biotech_ch01_q4",
     "nodeId": "c12_biotech_cbse_01_006",
@@ -306,7 +306,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "T-DNA transfer initiates at the RB nick and proceeds 5'→3' toward LB; if the T-DNA is large (>10 kb) or the *vir* genes are weak",
      "The *EcoRI* site lies in the *ori* region, outside both *bla* and *tetR* genes, so insertion does not disrupt either marker"
     ],
-    "hint": "Straight from the 'pBR322' slide -- match the key terms.",
+    "hint": "Straight from the 'pBR322 is a 4' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"use blue-white screening\") reveals the student confuses pBR322 (which lacks *lacZα*) with pUC vectors, and does not know pBR322 relies solely on antibiotic marker inactivation for recombinant selection.",
     "id": "gen_c12_biotech_ch01_q5",
     "nodeId": "c12_biotech_cbse_01_007",
@@ -379,7 +379,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "T-DNA transfer initiates at the RB nick and proceeds 5'→3' toward LB; if the T-DNA is large (>10 kb) or the *vir* genes are weak",
      "(a) Target backbone ≤ 12 kb (since 52 – 40 = 12 kb max backbone). (b) Essential elements: cos site, plasmid ori (e"
     ],
-    "hint": "Straight from the 'Cosmids' slide -- match the key terms.",
+    "hint": "Straight from the 'Cosmids are hybrid cloning vectors' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Target backbone ≤ 12 kb (since 52 – 40 = 12 kb max backbone). (b) Essential elements: cos site, plasmid ori (e.",
     "id": "gen_c12_biotech_ch01_q7",
     "nodeId": "c12_biotech_cbse_01_009",
@@ -400,7 +400,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "CHO cells grow robustly in chemically defined, serum‑free suspension culture, reach higher cell densities (>20 × 10⁶ cells/mL)",
      "ARS (Autonomously Replicating Sequence) acts as the origin of replication; CEN (Centromere) ensures proper segregation during mitosis"
     ],
-    "hint": "Straight from the 'BACs  and YACs' slide -- match the key terms.",
+    "hint": "Straight from the 'BACs and YACs' slide -- match the key terms.",
     "misconception": "A student who lists only \"origin and selectable marker\" shows they are applying plasmid logic to a eukaryotic chromosome mimic and miss the segregation/stability requirements unique to linear YACs.",
     "id": "gen_c12_biotech_ch01_q8",
     "nodeId": "c12_biotech_cbse_01_010",
@@ -630,7 +630,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "answer": "URA3 (orotidine-5'-phosphate decarboxylase, pyrimidine biosynthesis) and LEU2 (isopropylmalate isomerase, leucine biosynthesis)",
     "options": [
      "The left border (LB) and right border (RB), each a 25-bp direct repeat (consensus: 5'-TGGT...-3') flanking the T-DNA",
-     "The polyhedrin promoter (or polh promoter)",
+     "Saccharomyces cerevisiae (baker's yeast) is a unicellular, non-pathogenic, GRAS-status eukaryotic microorganism used as a host for recombinant protein production because it",
      "URA3 (orotidine-5'-phosphate decarboxylase, pyrimidine biosynthesis) and LEU2 (isopropylmalate isomerase, leucine biosynthesis)"
     ],
     "hint": "Straight from the 'Saccharomyces cerevisiae' slide -- match the key terms.",
@@ -641,32 +641,32 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A researcher wants to express a human membrane protein that requires correct disulfide bond formation and N-linked glycosylation. They have three host options: E. coli BL21(DE3), S.",
-    "answer": "Best choice: Sf9 insect cells. Reasoning: E. coli lacks both disulfide bond formation in cytoplasm (reducing environment) and N-glycosylation machinery; S",
+    "question": "What common mix-up does this lesson flag about Saccharomyces cerevisiae (baker's yeast)?",
+    "answer": "Students believe \"yeast glycosylation is just like human glycosylation because both are eukaryotes",
     "options": [
-     "A correct map shows a circular ~7.5 kb vector backbone with the above elements. Screening: transform into E",
-     "Replace the high-copy pMB1 origin with a low-copy *E. coli* origin (e.g., pSC101, ~5 copies/cell) or use a copy-number mutant of pMB1 (e",
-     "Best choice: Sf9 insect cells. Reasoning: E. coli lacks both disulfide bond formation in cytoplasm (reducing environment) and N-glycosylation machinery; S"
+     "CHO (Chinese Hamster Ovary) – derived from ovary of Chinese hamster; HEK293 (Human Embryonic Kidney 293)",
+     "The student can compare CHO and HEK293 lines on origin, glycosylation pattern, growth characteristics, and typical applications",
+     "Students believe \"yeast glycosylation is just like human glycosylation because both are eukaryotes"
     ],
-    "hint": "Straight from the 'Baculovirus-Insect Cell' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing yeast or E. coli indicates failure to link host PTM machinery to protein functional requirements.",
+    "hint": "Straight from the 'Saccharomyces cerevisiae' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe \"yeast glycosylation is just like human glycosylation because both are eukaryotes.",
     "id": "gen_c12_biotech_ch01_q17",
-    "nodeId": "c12_biotech_cbse_01_004",
+    "nodeId": "c12_biotech_cbse_01_003",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare and contrast the homologous recombination method versus the transposon-based (e.g., Tn7) method for generating recombinant baculovirus. Identify two advantages and one limitation of each method.",
-    "answer": "Homologous recombination: Advantages — (1) no foreign DNA sequences (e.g., transposon arms) remain in final virus, (2) well-established, low cost",
+    "question": "What is Saccharomyces cerevisiae (baker's yeast)? State the definition given in this lesson.",
+    "answer": "Saccharomyces cerevisiae (baker's yeast) is a unicellular, non-pathogenic, GRAS-status eukaryotic microorganism used as a host for recombinant protein production because it",
     "options": [
-     "CHO cells produce predominantly G0F, G1F, G2F N‑glycans with core fucose and limited α2,6‑sialylation",
-     "| Parameter | YEp (2μ ori) | YCp (ARS + CEN) | |-----------|--------------|-----------------| | Copy number in yeast | High (50–100) | Low (1–2",
-     "Homologous recombination: Advantages — (1) no foreign DNA sequences (e.g., transposon arms) remain in final virus, (2) well-established, low cost"
+     "CHO (Chinese Hamster Ovary) – derived from ovary of Chinese hamster; HEK293 (Human Embryonic Kidney 293)",
+     "The student can compare CHO and HEK293 lines on origin, glycosylation pattern, growth characteristics, and typical applications",
+     "Saccharomyces cerevisiae (baker's yeast) is a unicellular, non-pathogenic, GRAS-status eukaryotic microorganism used as a host for recombinant protein production because it"
     ],
-    "hint": "Straight from the 'Baculovirus-Insect Cell' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps advantages/limitations or misses the screening burden shows lack of practical workflow understanding.",
+    "hint": "Straight from the 'Saccharomyces cerevisiae' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Saccharomyces cerevisiae (baker's yeast) is a unicellular, non-pathogenic, GRAS-status eukaryotic microorganism used as",
     "id": "gen_c12_biotech_ch01_q18",
-    "nodeId": "c12_biotech_cbse_01_004",
+    "nodeId": "c12_biotech_cbse_01_003",
     "difficulty": "standard"
    }
   ],
@@ -958,7 +958,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Probe",
+    "title": "A Probe Is a Single-stranded Nucleic",
     "text": "A probe is a single-stranded nucleic acid (DNA or RNA) or oligonucleotide sequence that is complementary to a target nucleic acid sequence, allowing specific detection via hybridization; it carries a detectable label (radioactive, fluorescent,",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1059,7 +1059,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "The statement is incorrect. Transformation is the direct uptake of naked DNA from the environment by a competent cell",
      "The statement is incorrect. While ³²P probes historically offer high sensitivity (detection limit ~0"
     ],
-    "hint": "Straight from the 'probe' slide -- match the key terms.",
+    "hint": "Straight from the 'A probe is a single-stranded' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals a misconception that \"radioactive = superior\" and ignorance of modern non-radioactive detection systems emphasized in competitive exams (NEET/JEE).",
     "id": "gen_c12_biotech_ch03_q3",
     "nodeId": "c12_biotech_cbse_03_009",
@@ -1442,7 +1442,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "*S. cerevisiae* performs high-mannose N-glycosylation (Man₈₋₁₄GlcNAc₂) instead of human complex sialylated glycans",
      "The statement is partially correct but overconfident. The recombinant HGH amino acid sequence (191 aa) is identical to the mature pituitary hormone"
     ],
-    "hint": "Straight from the 'Human Growth Hormone  production' slide -- match the key terms.",
+    "hint": "Straight from the 'Human Growth Hormone production' slide -- match the key terms.",
     "misconception": "A wrong answer accepting \"zero risk\" ignores the difference between primary structure identity and product purity/contaminant profile.",
     "id": "gen_c12_biotech_ch04_q3",
     "nodeId": "c12_biotech_cbse_04_005",
@@ -1557,7 +1557,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "In vivo is preferred. Reason 1: Lung epithelial cells are not easily removable, cultureable, and re-implantable like blood cells",
      "Glucocerebroside (glucosylceramide). Glucocerebrosidase normally cleaves the glucose moiety from glucocerebroside to produce ceramide and glucose"
     ],
-    "hint": "Straight from the 'Enzyme Replacement Therapy  for' slide -- match the key terms.",
+    "hint": "Straight from the 'Enzyme Replacement Therapy for' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., sphingomyelin, GM2 ganglioside, heparan sulfate) reveals confusion between different LSDs — students often mix up substrates: sphingomyelin accumulates in Niemann-Pick types A/B, GM2 ganglioside in Tay-Sachs, heparan sulfate in Mucopolysaccharidoses.",
     "id": "gen_c12_biotech_ch04_q7",
     "nodeId": "c12_biotech_cbse_04_010",
@@ -1826,14 +1826,14 @@ export const C12_BIOTECH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_biotech_ch05",
-  "title": "Bioinformatics",
+  "title": "Bioinformatics Is The Interdisciplinary Science",
   "subtitle": "Biotechnology · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biotechnology",
-  "topic": "Bioinformatics",
+  "topic": "Bioinformatics Is The Interdisciplinary Science That",
   "chapters": [
-   "Biotechnology Ch5: Bioinformatics"
+   "Biotechnology Ch5: Bioinformatics Is The Interdisciplinary Science That"
   ],
   "nodeIds": [
    "c12_biotech_cbse_05_007",
@@ -1847,7 +1847,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Bioinformatics directly with your eyes?",
+   "question": "Can you see Bioinformatics Is The directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -1858,19 +1858,19 @@ export const C12_BIOTECH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Bioinformatics",
+    "title": "Bioinformatics Is The Interdisciplinary",
     "text": "Bioinformatics is the interdisciplinary science that creates, maintains, and analyses biological databases and computational tools to store, retrieve, and interpret genomic, transcriptomic, and proteomic data for understanding biological function and",
     "emoji": "🧬",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Proteomics",
+    "title": "Proteomics Is The Large-scale Study",
     "text": "Proteomics is the large-scale study of the complete set of proteins (proteome) expressed by a genome, cell, tissue, or organism at a given time under specific conditions, including their structures, functions, modifications, and interactions.",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Metabolomics",
+    "title": "Metabolomics Is The Comprehensive Study",
     "text": "Metabolomics is the comprehensive study of the complete set of small-molecule metabolites (the metabolome) present in a biological sample, providing a functional readout of cellular activity by integrating genomic, transcriptomic, and proteomic information.",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1886,7 +1886,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest metabolism (quenching)",
      "The statement is false. E-value (Expect value) is the number of hits expected by chance with a score ≥ the observed score"
     ],
-    "hint": "Straight from the 'Bioinformatics' slide -- match the key terms.",
+    "hint": "Straight from the 'Bioinformatics is the' slide -- match the key terms.",
     "misconception": "A student who thinks higher E-value is better confuses E-value with similarity percentage or bit score.",
     "id": "gen_c12_biotech_ch05_q1",
     "nodeId": "c12_biotech_cbse_05_007",
@@ -1907,7 +1907,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "(a) Randomized complete block design: 10 biological replicates per treatment (fertilizer vs. control), harvested at same developmental stage/time of day",
      "If both DBD and AD were fused to the same test protein, the transcription factor would be constitutively reconstituted regardless of any interaction"
     ],
-    "hint": "Straight from the 'Proteomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Proteomics is the large-scale' slide -- match the key terms.",
     "misconception": "A student who says \"it's just the protocol\" or \"to test two different proteins\" misses the core logic: the split domains act as a molecular AND gate. The wrong answer reveals failure to understand that Y2H is a proximity-based readout, not a simple expression test.",
     "id": "gen_c12_biotech_ch05_q2",
     "nodeId": "c12_biotech_cbse_05_010",
@@ -2081,7 +2081,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation",
      "1. Retrieve 2 kb upstream sequence of the gene from TAIR (The Arabidopsis Information Resource) in FASTA format"
     ],
-    "hint": "Straight from the 'Bioinformatics' slide -- match the key terms.",
+    "hint": "Straight from the 'Bioinformatics is the' slide -- match the key terms.",
     "misconception": "A poor answer lists tools without logical order or omits validation, showing inability to design a coherent bioinformatics pipeline.",
     "id": "gen_c12_biotech_ch05_q5",
     "nodeId": "c12_biotech_cbse_05_007",
@@ -2096,7 +2096,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "1. Retrieve 2 kb upstream sequence of the gene from TAIR (The Arabidopsis Information Resource) in FASTA format",
      "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation"
     ],
-    "hint": "Straight from the 'Proteomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Proteomics is the large-scale' slide -- match the key terms.",
     "misconception": "A poor answer tests only full-length or uses only one truncation series — revealing inability to design a systematic mapping experiment with proper controls.",
     "id": "gen_c12_biotech_ch05_q6",
     "nodeId": "c12_biotech_cbse_05_010",
@@ -2111,7 +2111,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation",
      "Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest metabolism (quenching)"
     ],
-    "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Metabolomics is the comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer omitting quenching or using only one extraction solvent reveals a failure to grasp metabolic lability and chemical diversity.",
     "id": "gen_c12_biotech_ch05_q7",
     "nodeId": "c12_biotech_cbse_05_011",
@@ -2126,7 +2126,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "1. Retrieve 2 kb upstream sequence of the gene from TAIR (The Arabidopsis Information Resource) in FASTA format",
      "Untargeted metabolomics aims to detect all measurable metabolites without prior bias, generating hypothesis-generating data (e"
     ],
-    "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Metabolomics is the comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the scenarios (e.g., using untargeted for clinical validation) shows confusion about throughput, quantification rigor, and biological question alignment.",
     "id": "gen_c12_biotech_ch05_q8",
     "nodeId": "c12_biotech_cbse_05_011",
@@ -2141,7 +2141,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation",
      "(a) Randomized complete block design: 10 biological replicates per treatment (fertilizer vs. control), harvested at same developmental stage/time of day"
     ],
-    "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Metabolomics is the comprehensive' slide -- match the key terms.",
     "misconception": "A poor answer lacking replication, QC, or multiple platforms shows inability to design a rigorous, publication-ready metabolomics study.",
     "id": "gen_c12_biotech_ch05_q9",
     "nodeId": "c12_biotech_cbse_05_011",
@@ -2156,7 +2156,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest metabolism (quenching)",
      "The statement is partially true but misleading. NMR has lower sensitivity (micromolar vs. nanomolar/picomolar for MS), but it offers: (1) Non-destructive analysis"
     ],
-    "hint": "Straight from the 'Metabolomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Metabolomics is the comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer that simply agrees reveals a one-dimensional view ignoring NMR's unique strengths in quantification and structure determination.",
     "id": "gen_c12_biotech_ch05_q10",
     "nodeId": "c12_biotech_cbse_05_011",
@@ -2165,11 +2165,11 @@ export const C12_BIOTECH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about bioinformatics?",
+    "What surprised you about bioinformatics is the interdisciplinary science that?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Bioinformatics mastered! 🎯",
+  "successLine": "Bioinformatics Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2249,7 +2249,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Competence is the intrinsic genetic ability of cells/tissues to respond to inductive signals (PGRs)",
      "Iron is immobile in plants; it cannot be translocated from older tissues to newer ones. Without iron, chlorophyll synthesis fails in developing leaves"
     ],
-    "hint": "Straight from the 'Murashige and Skoog  medium' slide -- match the key terms.",
+    "hint": "Straight from the 'Murashige and Skoog medium' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"iron deficiency causes general yellowing of all leaves\" or \"iron is mobile so old leaves turn yellow first\" shows confusion with mobile nutrients like nitrogen or potassium.",
     "id": "gen_c12_biotech_ch06_q1",
     "nodeId": "c12_biotech_cbse_06_003",
@@ -3153,7 +3153,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Pluripotency",
+    "title": "Pluripotency Is The Ability",
     "text": "Pluripotency is the ability of a stem cell to differentiate into all cell types of the three embryonic germ layers (ectoderm, mesoderm, endoderm) but not extra-embryonic tissues like placenta; multipotency is the ability to differentiate into a closely",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3234,8 +3234,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "State the exact source of human embryonic stem cells (hESCs) and the stage of embryonic development from which they are isolated.",
     "answer": "Human embryonic stem cells are isolated from the inner cell mass (ICM) of a blastocyst, which forms around 5–7 days after fertilisation",
     "options": [
-     "A stem cell niche is the specialized microenvironment that regulates stem cell fate. In the HSC niche: cellular components = osteoblasts and sinusoidal endothelial cells",
-     "A multipotent stem cell can differentiate into multiple cell types but only within a closely related lineage or family (e",
+     "Embryonic stem cells (ESCs) are pluripotent cells derived from the inner cell mass of a blastocyst (5–7 days post-fertilisation) that can differentiate into all three germ layers",
+     "The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of self-renewal and potency",
      "Human embryonic stem cells are isolated from the inner cell mass (ICM) of a blastocyst, which forms around 5–7 days after fertilisation"
     ],
     "hint": "Straight from the 'Embryonic stem cells' slide -- match the key terms.",
@@ -3255,11 +3255,11 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Define 'multipotent stem cell' and give one example from the human body.",
     "answer": "A multipotent stem cell can differentiate into multiple cell types but only within a closely related lineage or family (e",
     "options": [
-     "Directed differentiation is the intentional guidance of stem cells toward a specific lineage using defined extrinsic cues",
-     "The three main sources are: (1) Bone marrow (harvested by aspiration from the posterior iliac crests, typically 10–15 mL/kg donor body weight, ~500–1000 mL total for an adult)",
+     "Human embryonic stem cells are isolated from the inner cell mass (ICM) of a blastocyst, which forms around 5–7 days after fertilisation",
+     "The student must be able to classify a given stem cell example (e.g., zygote, inner cell mass, HSC, epidermal stem cell) into the correct potency category (totipotent",
      "A multipotent stem cell can differentiate into multiple cell types but only within a closely related lineage or family (e"
     ],
-    "hint": "Straight from the 'Pluripotency' slide -- match the key terms.",
+    "hint": "Straight from the 'Pluripotency is the ability' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"can differentiate into any cell type\" confuses multipotency with pluripotency; a wrong answer that says \"can form a complete organism\" confuses it with totipotency.",
     "id": "gen_c12_biotech_ch09_q3",
     "nodeId": "c12_biotech_cbse_09_003",
@@ -3432,8 +3432,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Define \"stem cell niche\" and name two cellular and two non-cellular components of the hematopoietic stem cell (HSC) niche in bone marrow.",
     "answer": "A stem cell niche is the specialized microenvironment that regulates stem cell fate. In the HSC niche: cellular components = osteoblasts and sinusoidal endothelial cells",
     "options": [
-     "Directed differentiation is the intentional guidance of stem cells toward a specific lineage using defined extrinsic cues",
-     "The primary ethical concern is the destruction of a human blastocyst (early embryo) to obtain the inner cell mass, which raises questions about the moral status of the embryo",
+     "Pluripotency is the ability of a stem cell to differentiate into all cell types of the three embryonic germ layers (ectoderm, mesoderm",
+     "Stem cells are unspecialized, undifferentiated cells found in multicellular organisms that possess two defining properties: (1) self-renewal",
      "A stem cell niche is the specialized microenvironment that regulates stem cell fate. In the HSC niche: cellular components = osteoblasts and sinusoidal endothelial cells"
     ],
     "hint": "Straight from the 'stem cell niche' slide -- match the key terms.",
@@ -3453,8 +3453,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Define \"directed differentiation\" of stem cells in one sentence and name the two fundamental properties of stem cells that make directed differentiation possible.",
     "answer": "Directed differentiation is the intentional guidance of stem cells toward a specific lineage using defined extrinsic cues",
     "options": [
+     "Student can explain at least four distinct clinical applications of stem cells (e.g., neurological, cardiac, skin",
      "Human embryonic stem cells are isolated from the inner cell mass (ICM) of a blastocyst, which forms around 5–7 days after fertilisation",
-     "A stem cell niche is the specialized microenvironment that regulates stem cell fate. In the HSC niche: cellular components = osteoblasts and sinusoidal endothelial cells",
      "Directed differentiation is the intentional guidance of stem cells toward a specific lineage using defined extrinsic cues"
     ],
     "hint": "Straight from the 'Methods of directing stem cell' slide -- match the key terms.",
@@ -3716,6 +3716,52 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "list the four Yamanaka factors and explain",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "compare iPSCs with embryonic stem cells",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "describe the stepwise reprogramming process",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) list the four Yamanaka factors and explain the role of each in reprogramming; (2)",
+    "id": "gen_c12_biotech_ch09_q13",
+    "nodeId": "c12_biotech_cbse_09_006",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A researcher isolates cells from adult bone marrow. These cells can self-renew and differentiate into erythrocytes, neutrophils, monocytes, and platelets. Classify these cells by potency and justify your classification. Would these cells be suitable for generating cardiomyocytes for heart repair? Why or why not?",
     "answer": "These are multipotent hematopoietic stem cells (HSCs). Justification: they self-renew AND differentiate into a closely related family of cells",
@@ -3726,7 +3772,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Stem cells' slide -- match the key terms.",
     "misconception": "Students often confuse multipotent (multiple but related lineages) with pluripotent (all embryonic lineages).",
-    "id": "gen_c12_biotech_ch09_q13",
+    "id": "gen_c12_biotech_ch09_q14",
     "nodeId": "c12_biotech_cbse_09_001",
     "difficulty": "standard"
    },
@@ -3741,68 +3787,53 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Stem cells' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The zygote is totipotent because it can give rise to all cell types of the embryo proper AND the extra-embryonic",
-    "id": "gen_c12_biotech_ch09_q14",
+    "id": "gen_c12_biotech_ch09_q15",
     "nodeId": "c12_biotech_cbse_09_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A research team wants to generate insulin-producing pancreatic beta cells for a Type 1 diabetes therapy. They have access to both human embryonic stem cells (hESCs) and hematopoietic stem cells (HSCs) from bone marrow. Which stem cell type should they choose and why? Justify based on potency and germ layer origin.",
-    "answer": "They should choose hESCs because pancreatic beta cells arise from endoderm, and hESCs are pluripotent — they can differentiate into all three germ layers including endoderm",
+    "question": "What common mix-up does this lesson flag about Stem cells?",
+    "answer": "Misconception: \"Pluripotent stem cells can form a complete organism because they can make all cell types of the body",
     "options": [
-     "Histotypic culture uses a single purified cell type (e.g., hepatocytes) at high density on scaffolds, lacking non-parenchymal cells (Kupffer, stellate, endothelial)",
-     "Adult (somatic) stem cells are present in umbilical cord, placenta after birth, and in children's tissues — not only in adults",
-     "They should choose hESCs because pancreatic beta cells arise from endoderm, and hESCs are pluripotent — they can differentiate into all three germ layers including endoderm"
+     "Student can explain at least four distinct clinical applications of stem cells (e.g., neurological, cardiac, skin",
+     "The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of self-renewal and potency",
+     "Misconception: \"Pluripotent stem cells can form a complete organism because they can make all cell types of the body"
     ],
-    "hint": "Straight from the 'Embryonic stem cells' slide -- match the key terms.",
-    "misconception": "A wrong choice (HSCs) indicates the student does not understand germ layer restrictions of multipotent adult stem cells.",
-    "id": "gen_c12_biotech_ch09_q15",
-    "nodeId": "c12_biotech_cbse_09_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student claims: \"Adult stem cells are called 'adult' because they are only found in fully grown humans.\" Explain why this statement is incorrect using the NCERT definition of adult (somatic) stem cells.",
-    "answer": "Adult (somatic) stem cells are present in umbilical cord, placenta after birth, and in children's tissues — not only in adults",
-    "options": [
-     "Totipotent – zygote/early blastomeres; Pluripotent – embryonic stem cells (inner cell mass); Multipotent – hematopoietic stem cells (HSCs) or mesenchymal stem cells (MSCs)",
-     "Workflow: (1) Isolate PBMCs (CD34+ erythroblasts or T-cells) from blood. (2) Reprogram using episomal plasmids (pEB-C5: Oct4, Sox2, Klf4, L-Myc, Lin28",
-     "Adult (somatic) stem cells are present in umbilical cord, placenta after birth, and in children's tissues — not only in adults"
-    ],
-    "hint": "Straight from the 'Embryonic stem cells' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student has not grasped that 'adult' is a historical misnomer; NCERT explicitly states they can come from children or umbilical cord and are more precisely called somatic stem cells.",
+    "hint": "Straight from the 'Stem cells' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Misconception: \"Pluripotent stem cells can form a complete organism because they can make all cell types of the body.",
     "id": "gen_c12_biotech_ch09_q16",
-    "nodeId": "c12_biotech_cbse_09_002",
+    "nodeId": "c12_biotech_cbse_09_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare the ethical concerns associated with embryonic stem cells versus adult stem cells. Why does the use of hESCs involve \"technical safety and ethical dilemma\" while adult stem cells have \"no controversies regarding safety and ethical issues\" (NCERT)?",
-    "answer": "hESCs require destruction of a human blastocyst (potential human life), raising ethical objections; they also risk teratoma formation due to unlimited self-renewal",
+    "question": "What is Stem cells? State the definition given in this lesson.",
+    "answer": "Stem cells are unspecialized, undifferentiated cells found in multicellular organisms that possess two defining properties: (1) self-renewal",
     "options": [
-     "HSCs are multipotent for *blood lineages only* (erythroid, myeloid, lymphoid) and are used to reconstitute hematopoiesis (e",
-     "Efficiency rank (high → low): (a) integrating virus > (b) Sendai virus > (c) episomal plasmids > (d) mRNA",
-     "hESCs require destruction of a human blastocyst (potential human life), raising ethical objections; they also risk teratoma formation due to unlimited self-renewal"
+     "Misconception: \"Pluripotent stem cells can form a complete organism because they can make all cell types of the body",
+     "The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of self-renewal and potency",
+     "Stem cells are unspecialized, undifferentiated cells found in multicellular organisms that possess two defining properties: (1) self-renewal"
     ],
-    "hint": "Straight from the 'Embryonic stem cells' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"both have same ethical issues\" or \"adult stem cells also destroy embryos\" shows failure to distinguish the fundamental ethical difference: embryo destruction vs. non-invasive harvest.",
+    "hint": "Straight from the 'Stem cells' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Stem cells are unspecialized, undifferentiated cells found in multicellular organisms that possess two defining",
     "id": "gen_c12_biotech_ch09_q17",
-    "nodeId": "c12_biotech_cbse_09_002",
+    "nodeId": "c12_biotech_cbse_09_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a hypothetical clinical scenario where a multipotent adult stem cell would be preferred over a pluripotent embryonic stem cell. Specify the disease, the stem cell source, and the rationale for your choice.",
-    "answer": "Example: Treating a patient with severe aplastic anaemia using autologous hematopoietic stem cells (HSCs) from their own bone marrow",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of self-renewal and potency",
     "options": [
-     "Pluripotent stem cells (e.g., inner cell mass of blastocyst) can form all three germ layers (ectoderm, mesoderm",
-     "MSCs are multipotent adult stem cells that can differentiate into chondrocytes (cartilage cells) and are autologous or immune-privileged, avoiding rejection",
-     "Example: Treating a patient with severe aplastic anaemia using autologous hematopoietic stem cells (HSCs) from their own bone marrow"
+     "The student must be able to: (1) list the four Yamanaka factors and explain the role of each in reprogramming",
+     "The student must be able to: (1) list the minimal criteria defining MSCs (plastic adherence, trilineage differentiation",
+     "The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of self-renewal and potency"
     ],
-    "hint": "Straight from the 'Embryonic stem cells' slide -- match the key terms.",
-    "misconception": "A poor answer that chooses ESCs for a blood disorder or ignores autologous advantage shows inability to match stem cell potency to therapeutic need.",
+    "hint": "Straight from the 'Stem cells' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of",
     "id": "gen_c12_biotech_ch09_q18",
-    "nodeId": "c12_biotech_cbse_09_002",
+    "nodeId": "c12_biotech_cbse_09_001",
     "difficulty": "standard"
    }
   ],
@@ -3900,7 +3931,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Pharmacogenomics",
+    "title": "Pharmacogenomics Is The Study Of How",
     "text": "Pharmacogenomics is the study of how an individual's entire genome (including multiple genes and their interactions) influences drug response, efficacy, and toxicity, enabling personalized medicine where drug selection and dosage are tailored to a patient's",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3918,7 +3949,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Biosensor",
+    "title": "A Biosensor Is An Analytical Device",
     "text": "A biosensor is an analytical device that integrates a biological recognition element (bioreceptor) with a physicochemical transducer to convert a biological interaction into a measurable electrical signal for quantitative or qualitative analysis of a target",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4214,11 +4245,11 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Define pharmacogenomics and state how it differs from pharmacogenetics in scope and clinical application.",
     "answer": "Pharmacogenomics studies genome-wide variation (multiple genes, gene-gene interactions, non-coding regions) influencing drug response",
     "options": [
+     "The student must be able to: (1) describe the complete workflow from gene cloning to purified therapeutic protein, including host selection criteria, expression strategies",
      "The six categories with examples: (1) Suicide gene therapy — HSV-tk (herpes simplex virus thymidine kinase); (2) Tumor suppressor gene replacement — TP53 (p53)",
-     "Flowchart logic: Start → Decision 1: Does the protein require complex N-/O-glycosylation for activity?",
      "Pharmacogenomics studies genome-wide variation (multiple genes, gene-gene interactions, non-coding regions) influencing drug response"
     ],
-    "hint": "Straight from the 'Pharmacogenomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Pharmacogenomics is the study of' slide -- match the key terms.",
     "misconception": "A wrong answer that equates the two terms reveals the student misses the critical distinction: pharmacogenomics is broader, capturing combined effects of metabolic enzymes, transporters, and targets, which is essential for drugs with complex pathways (e.g., warfarin requires CYP2C9 + VKORC1).",
     "id": "gen_c12_biotech_ch10_q8",
     "nodeId": "c12_biotech_cbse_10_008",
@@ -4279,7 +4310,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "1. Electroporate binary vector into *A. tumefaciens* LBA4404 and select on kanamycin. 2. Co-cultivate tomato cotyledon/leaf explants with transformed *Agrobacterium* (with",
      "The definition misses the transducer — the component that converts the biological recognition event (e"
     ],
-    "hint": "Straight from the 'biosensor' slide -- match the key terms.",
+    "hint": "Straight from the 'A biosensor is an analytical' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student thinks the biological reaction itself is the output, confusing biorecognition with signal generation.",
     "id": "gen_c12_biotech_ch10_q11",
     "nodeId": "c12_biotech_cbse_10_011",
@@ -4628,13 +4659,13 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Biofertilizers",
+    "title": "Biofertilizers Are Microorganisms That",
     "text": "Biofertilizers are microorganisms that enhance soil fertility by fixing atmospheric nitrogen, solubilizing phosphorus, or decomposing organic matter; Rhizobium forms symbiotic nodules on legume roots to fix nitrogen, Azotobacter fixes nitrogen freely in the",
     "emoji": "🧬",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Biopesticides",
+    "title": "Biopesticides Are Microorganisms Or Their",
     "text": "Biopesticides are microorganisms or their products used to control agricultural pests; *Bacillus thuringiensis* (Bt) is a bacterium that produces crystalline (Cry) proteins toxic to specific insect larvae upon ingestion, while *Trichoderma* is a fungus that",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4940,8 +4971,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Name two abiotic stresses and one transgenic gene used to confer tolerance for each stress.",
     "answer": "Drought — DREB1A (transcription factor activating dehydration-responsive genes); Salinity — NHX1 (vacuolar Na⁺/H⁺ antiporter sequestering Na⁺)",
     "options": [
-     "Expected answer: (a) *ZmDREB2A* (heat/drought-responsive TF) + *ZmHSP101* (heat-shock chaperone); (b) stress-inducible promoter (e",
-     "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited",
+     "The student must be able to: (1) classify abiotic stresses and match each with at least one transgenic strategy (gene + mechanism)",
+     "Abiotic stress-tolerant transgenic crops are genetically engineered plants that express introduced genes conferring tolerance to non-living environmental stresses such as drought",
      "Drought — DREB1A (transcription factor activating dehydration-responsive genes); Salinity — NHX1 (vacuolar Na⁺/H⁺ antiporter sequestering Na⁺)"
     ],
     "hint": "Straight from the 'Abiotic stress-tolerant' slide -- match the key terms.",
@@ -4965,7 +4996,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette",
      "No, Rhizobium will not increase soil nitrogen in wheat because Rhizobium forms nodules only on legume roots (e"
     ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
+    "hint": "Straight from the 'Biofertilizers are microorganisms' slide -- match the key terms.",
     "misconception": "A student who answers \"yes\" thinks Rhizobium works on all crops — a common misconception that ignores host specificity.",
     "id": "gen_c12_biotech_ch11_q7",
     "nodeId": "c12_biotech_cbse_11_009",
@@ -4986,7 +5017,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
      "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e",
      "The statement is over‑optimistic. *Trichoderma* efficacy depends on environmental conditions (moisture, temperature, pH), formulation quality, timing of application (preventive vs"
     ],
-    "hint": "Straight from the 'Biopesticides' slide -- match the key terms.",
+    "hint": "Straight from the 'Biopesticides are microorganisms' slide -- match the key terms.",
     "misconception": "A poor answer simply agrees or dismisses biopesticides altogether, showing lack of systems thinking.",
     "id": "gen_c12_biotech_ch11_q8",
     "nodeId": "c12_biotech_cbse_11_010",
@@ -5296,7 +5327,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Funding Sources For Biotech Ventures Refer",
+    "title": "Funding Sources For Biotech Ventures",
     "text": "Funding sources for biotech ventures refer to the various financial mechanisms and institutions that provide capital to biotechnology startups and companies at different stages of development, from early-stage research and proof-of-concept through clinical",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6304,7 +6335,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "GMOs",
+    "title": "GMOs Are Organisms",
     "text": "GMOs (Genetically Modified Organisms) are organisms whose genetic material has been altered using recombinant DNA technology to introduce specific desirable traits; their benefits include enhanced agricultural productivity, improved nutritional quality, and",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6346,13 +6377,13 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Biopiracy",
+    "title": "Biopiracy Is The Unauthorized Commercial",
     "text": "Biopiracy is the unauthorized commercial exploitation of indigenous biochemical or genetic resources and associated traditional knowledge without fair compensation, prior informed consent, or benefit-sharing with the originating communities.",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Farmer's Rights And Seed Sovereignty Refer",
+    "title": "Farmer's Rights And Seed Sovereignty",
     "text": "Farmer's Rights and Seed Sovereignty refer to the legal and ethical entitlement of farmers to save, use, exchange, and sell farm-saved seeds/propagating material, and to participate in decision-making on plant genetic resources, ensuring their control over",
     "emoji": "🧬",
     "bgColor": "from-violet-400 to-purple-500"
@@ -6422,11 +6453,11 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Define \"Genetically Modified Organism\" precisely, distinguishing it from organisms developed through conventional breeding or mutagenesis. Use the term \"recombinant DNA technology\" in your definition.",
     "answer": "A GMO is an organism whose genome has been altered by inserting a specific gene or genes from another organism (same or different species) using recombinant DNA technology in the",
     "options": [
-     "(1) Justice/equity – smallholder farmers who cannot afford proprietary seeds; (2) Environmental non-maleficence – ecosystems and biodiversity affected by gene flow",
-     "LMO stands for Living Modified Organism, defined as any living organism that possesses a novel combination of genetic material obtained through modern biotechnology",
+     "Misconception: \"If a food product tests negative for GM DNA/protein (by PCR/ELISA), it does not need a GM label in India",
+     "Biopiracy is the commercial exploitation of naturally occurring biochemical/genetic resources and associated traditional knowledge through patenting or other IPR claims without",
      "A GMO is an organism whose genome has been altered by inserting a specific gene or genes from another organism (same or different species) using recombinant DNA technology in the"
     ],
-    "hint": "Straight from the 'GMOs' slide -- match the key terms.",
+    "hint": "Straight from the 'GMOs are organisms' slide -- match the key terms.",
     "misconception": "WRONG ANSWER REVEALS: If student says \"any organism with changed DNA\" or includes mutagenesis/breeding, they conflate all genetic change with transgenic technology — a critical error because regulations, labeling, and biosafety assessments apply specifically to rDNA-derived organisms.",
     "id": "gen_c12_biotech_ch13_q2",
     "nodeId": "c12_biotech_cbse_13_002",
@@ -6527,8 +6558,8 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "question": "Define gene flow in the context of GM crops and name the two primary natural vectors responsible for transgene movement in flowering plants.",
     "answer": "Gene flow is the transfer of genetic material (here, the transgene and its regulatory sequences) from a GM crop to sexually compatible non-GM plants or wild relatives",
     "options": [
+     "The student must be able to (1) trace the complete pathway of transgene movement from a GM crop to a recipient plant via pollen or seed",
      "(1) Justice/equity – smallholder farmers who cannot afford proprietary seeds; (2) Environmental non-maleficence – ecosystems and biodiversity affected by gene flow",
-     "Public engagement in biotechnology is a two‑way, iterative dialogue between experts and diverse publics that integrates public values, concerns",
      "Gene flow is the transfer of genetic material (here, the transgene and its regulatory sequences) from a GM crop to sexually compatible non-GM plants or wild relatives"
     ],
     "hint": "Straight from the 'Gene flow from GM crops' slide -- match the key terms.",
@@ -7026,6 +7057,63 @@ export const C12_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Distinguish between animal welfare and",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Critique a case",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Apply CPCSEA guidelines to evaluate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Explain the 3Rs principle with specific",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Explain the 3Rs principle with specific biotechnology examples for each R, (2)",
+    "id": "gen_c12_biotech_ch13_q14",
+    "nodeId": "c12_biotech_cbse_13_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "A farmer in Karnataka develops a new drought-tolerant rice variety through selection over 15 years. A company registers a similar variety under PPV&FR Act. The farmer claims his variety was used. What legal steps can the farmer take under the PPV&FR Act, and what evidence must he provide?",
     "sortItems": [
      {
@@ -7066,7 +7154,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer suggesting only \"go to court\" or \"patent it\" reveals confusion between patent law (no protection for farmer-developed varieties) and the PPV&FR Act's specific farmer variety registration and opposition procedures.",
-    "id": "gen_c12_biotech_ch13_q14",
+    "id": "gen_c12_biotech_ch13_q15",
     "nodeId": "c12_biotech_cbse_13_010",
     "difficulty": "advanced"
    },
@@ -7134,7 +7222,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer listing only \"set up seed bank\" misses the legal integration of PBRs, PPV&FR registration, and TKDL — showing inability to synthesize across Acts.",
-    "id": "gen_c12_biotech_ch13_q15",
+    "id": "gen_c12_biotech_ch13_q16",
     "nodeId": "c12_biotech_cbse_13_010",
     "difficulty": "advanced"
    },
@@ -7149,7 +7237,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The gap arises from: (1) *Media amplification of outlier studies* (e.",
-    "id": "gen_c12_biotech_ch13_q16",
+    "id": "gen_c12_biotech_ch13_q17",
     "nodeId": "c12_biotech_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7164,21 +7252,6 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: In India, *religious beliefs* (e.g., vegetarianism, cow protection) make transgenic crops with animal genes (like Bt",
-    "id": "gen_c12_biotech_ch13_q17",
-    "nodeId": "c12_biotech_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: \"If scientists just explain the facts better, public opposition to GMOs will disappear.\" Use evidence from perception research.",
-    "answer": "The statement assumes the *deficit model* of science communication — that opposition stems solely from lack of knowledge",
-    "options": [
-     "The statement is false. Even without wild relatives, GM crops can form feral populations (volunteers) along roadsides and field margins",
-     "The statement is partially false. Section 39(1)(iv) permits sale of farm-saved seed except branded seed (seed packaged/labeled with variety name/brand)",
-     "The statement assumes the *deficit model* of science communication — that opposition stems solely from lack of knowledge"
-    ],
-    "hint": "Straight from the 'Public perception of' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement assumes the *deficit model* of science communication — that opposition stems solely from lack of",
     "id": "gen_c12_biotech_ch13_q18",
     "nodeId": "c12_biotech_cbse_13_001",
     "difficulty": "standard"
@@ -7190,7 +7263,7 @@ export const C12_BIOTECH_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Public Perception Of mastered! 🎯",
+  "successLine": "Public Perception mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

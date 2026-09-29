@@ -845,8 +845,8 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
       return {
         title: 'Great work! 👏',
         subtitle: 'Outstanding optical intuition! You are almost fully calibrated for the board exams. A quick polish on sign conventions and you are golden.',
-        color: 'text-sky-400',
-        badge: 'bg-sky-950/80 border-sky-500 text-sky-300',
+        color: 'text-gold-400',
+        badge: 'bg-gold-950/80 border-gold-500 text-gold-300',
       };
     }
     if (errorCount >= 4 && errorCount <= 7) {
@@ -1267,14 +1267,14 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
       >
         <div className="flex items-center gap-3">
           <span
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50"
             role="img"
             aria-label="Physics atom icon"
           >
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-mono">ISC Class 12 • 10 Core Optics & Wave Nodes</p>
@@ -1289,7 +1289,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-sky-950/60 text-sky-400 border-sky-700'
+                ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                 : 'bg-rose-950/60 text-rose-400 border-rose-700'
             }`}
           >
@@ -1299,7 +1299,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
             whileHover={{ scale: 1.05 }}
             className="px-3 py-1 bg-slate-900 rounded-full text-xs text-slate-300 border border-slate-700"
           >
-            Phase: <strong className="text-indigo-400 uppercase">{phase}</strong>
+            Phase: <strong className="text-gold-400 uppercase">{phase}</strong>
           </motion.span>
         </div>
       </motion.div>
@@ -1321,7 +1321,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
             aria-label={`Switch to ${p} phase`}
             className={`px-4 py-1.5 rounded-xl text-xs font-bold capitalize transition-all border ${
               phase === p
-                ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                 : 'bg-slate-900/80 border-slate-800 text-slate-400 hover:text-slate-200'
             }`}
           >
@@ -1346,11 +1346,11 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-inner"
+              className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-inner"
             >
-              <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-400/90 mt-3 font-mono">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-400/90 mt-3 font-mono">{SCENARIO.context}</p>
             </motion.div>
 
             <motion.div
@@ -1376,10 +1376,10 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                         ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-1">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-1">{String.fromCharCode(65 + i)}.</span>
                     <span className="flex-1">{opt}</span>
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && (
                       <span className="text-emerald-400 font-bold ml-1">✓</span>
@@ -1395,7 +1395,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60 flex flex-col md:flex-row items-center justify-between gap-4"
+                  className="mt-6 p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 flex flex-col md:flex-row items-center justify-between gap-4"
                 >
                   <p className={`text-sm ${discoveryCorrect ? 'text-emerald-400 font-semibold' : 'text-amber-300'}`}>
                     {discoveryCorrect ? '✓ Excellent physical deduction! Proceed to the dynamic optics laboratory.' : `✗ ${DISCOVERY_QUESTION.hintAfter}`}
@@ -1405,7 +1405,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter interactive optics labs"
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-sky-600 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Optics Labs →
                   </motion.button>
@@ -1421,7 +1421,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
               className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex justify-between items-center">
-                <h3 className="text-sm font-bold text-sky-400 uppercase tracking-wider">
+                <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                   Hypothesis & Prediction Chamber
                 </h3>
                 <span className="text-xs text-slate-400">Scientific Method Step 2</span>
@@ -1439,7 +1439,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     aria-label={`Predict option ${pIdx + 1}: ${predOpt}`}
                     className={`p-3 text-left rounded-xl text-xs font-medium border ${
                       predictionIndex === pIdx
-                        ? 'bg-sky-950 border-sky-400 text-sky-200 font-bold'
+                        ? 'bg-gold-950 border-gold-400 text-gold-200 font-bold'
                         : 'bg-slate-800 border-slate-700 text-slate-300 hover:border-slate-500'
                     }`}
                   >
@@ -1475,7 +1475,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
               animate={{ y: 0 }}
               className="flex flex-wrap items-center justify-between gap-3"
             >
-              <h2 className="text-lg font-bold text-sky-300">
+              <h2 className="text-lg font-bold text-gold-300">
                 {EXPLORATION_STEPS[currentSlide].title}
               </h2>
               <div className="flex gap-2">
@@ -1500,7 +1500,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     else handleAdvanceToSandbox();
                   }}
                   aria-label="Next laboratory station"
-                  className="px-4 py-1.5 bg-indigo-600 text-white text-xs font-bold rounded-lg shadow-md shadow-indigo-600/30"
+                  className="px-4 py-1.5 bg-gold-600 text-white text-xs font-bold rounded-lg shadow-md shadow-gold-600/30"
                 >
                   {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Go to Free Sandbox →' : 'Next Lab →'}
                 </motion.button>
@@ -1659,7 +1659,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                 {currentSlide === 4 && (
                   <div className="relative w-full h-[290px]">
                     <canvas ref={canvasRef} width={480} height={270} className="w-full h-full rounded-xl bg-slate-950" />
-                    <div className="absolute top-2 left-2 px-2.5 py-1 bg-slate-900/80 backdrop-blur rounded border border-slate-700 text-[10px] text-sky-400 font-mono">
+                    <div className="absolute top-2 left-2 px-2.5 py-1 bg-slate-900/80 backdrop-blur rounded border border-slate-700 text-[10px] text-gold-400 font-mono">
                       Fringe Width β = {ydseData.betaMM.toFixed(2)} mm • Slit d = {ydseSlitD} mm
                     </div>
                   </div>
@@ -1710,7 +1710,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Prism Refracting Angle A</span>
-                        <strong className="text-indigo-400">{prismAngle.toFixed(1)}°</strong>
+                        <strong className="text-gold-400">{prismAngle.toFixed(1)}°</strong>
                       </div>
                       <input
                         type="range"
@@ -1721,13 +1721,13 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => handlePrismAngleChange(parseFloat(e.target.value))}
                         aria-label="Adjust prism refracting angle"
                         aria-valuenow={prismAngle}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Cauchy Constant B</span>
-                        <strong className="text-sky-400">{cauchyB.toFixed(3)}</strong>
+                        <strong className="text-gold-400">{cauchyB.toFixed(3)}</strong>
                       </div>
                       <input
                         type="range"
@@ -1738,7 +1738,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => handleCauchyChange(parseFloat(e.target.value))}
                         aria-label="Adjust Cauchy dispersion constant B"
                         aria-valuenow={cauchyB}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1 font-mono text-slate-300">
@@ -1772,7 +1772,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Curvature Radius R</span>
-                        <strong className="text-sky-400">+{sphericalR} cm</strong>
+                        <strong className="text-gold-400">+{sphericalR} cm</strong>
                       </div>
                       <input
                         type="range"
@@ -1783,7 +1783,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => setSphericalR(parseInt(e.target.value))}
                         aria-label="Adjust spherical surface radius of curvature"
                         aria-valuenow={sphericalR}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl text-xs font-mono space-y-1 text-slate-300">
@@ -1798,7 +1798,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Surrounding Medium Index n</span>
-                        <strong className="text-sky-400">{mediumN.toFixed(2)}</strong>
+                        <strong className="text-gold-400">{mediumN.toFixed(2)}</strong>
                       </div>
                       <input
                         type="range"
@@ -1809,7 +1809,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => handleMediumChange(parseFloat(e.target.value))}
                         aria-label="Adjust surrounding medium refractive index"
                         aria-valuenow={mediumN}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl text-xs font-mono space-y-1 text-slate-300">
@@ -1825,7 +1825,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Objective Focal Length f_o</span>
-                        <strong className="text-sky-400">{telescopeFo} cm</strong>
+                        <strong className="text-gold-400">{telescopeFo} cm</strong>
                       </div>
                       <input
                         type="range"
@@ -1836,7 +1836,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => setTelescopeFo(parseInt(e.target.value))}
                         aria-label="Adjust telescope objective focal length"
                         aria-valuenow={telescopeFo}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1864,7 +1864,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Slit Separation d</span>
-                        <strong className="text-sky-400">{ydseSlitD} mm</strong>
+                        <strong className="text-gold-400">{ydseSlitD} mm</strong>
                       </div>
                       <input
                         type="range"
@@ -1875,7 +1875,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => handleYdseSlitChange(parseFloat(e.target.value))}
                         aria-label="Adjust double slit separation d"
                         aria-valuenow={ydseSlitD}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1903,7 +1903,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Objective Focal f_o</span>
-                        <strong className="text-sky-400">{microscopeFo.toFixed(1)} cm</strong>
+                        <strong className="text-gold-400">{microscopeFo.toFixed(1)} cm</strong>
                       </div>
                       <input
                         type="range"
@@ -1914,7 +1914,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         onChange={(e) => setMicroscopeFo(parseFloat(e.target.value))}
                         aria-label="Adjust microscope objective focal length"
                         aria-valuenow={microscopeFo}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -2002,7 +2002,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                 whileHover={{ y: -2 }}
                 className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2"
               >
-                <span className="text-xs font-bold text-indigo-400 uppercase">Prism Dispersion</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Prism Dispersion</span>
                 <p className="text-xs text-slate-400">Angle: {prismAngle}° | δ_v - δ_r = {dispersionData.angularDisp.toFixed(2)}°</p>
                 <input
                   type="range"
@@ -2013,7 +2013,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                   onChange={(e) => handlePrismAngleChange(parseFloat(e.target.value))}
                   aria-label="Sandbox prism angle"
                   aria-valuenow={prismAngle}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </motion.div>
 
@@ -2021,7 +2021,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                 whileHover={{ y: -2 }}
                 className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2"
               >
-                <span className="text-xs font-bold text-sky-400 uppercase">Medium Refractive Index</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Medium Refractive Index</span>
                 <p className="text-xs text-slate-400">n_med: {mediumN.toFixed(2)} ({mediumN > 1.5 ? '✗ Diverges!' : '✓ Converges'})</p>
                 <input
                   type="range"
@@ -2032,7 +2032,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                   onChange={(e) => handleMediumChange(parseFloat(e.target.value))}
                   aria-label="Sandbox medium index"
                   aria-valuenow={mediumN}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </motion.div>
 
@@ -2081,7 +2081,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
                 aria-label="Start board examination challenge questions"
-                className="px-8 py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold rounded-xl shadow-xl shadow-emerald-600/30 text-base flex items-center gap-2"
+                className="px-8 py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-xl shadow-xl shadow-emerald-600/30 text-base flex items-center gap-2"
               >
                 <span>I Am Ready for Challenges!</span>
                 <span>→</span>
@@ -2105,13 +2105,13 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                 <span className="font-mono">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="capitalize font-bold text-indigo-400">
+                <span className="capitalize font-bold text-gold-400">
                   Competency: {challenge.competencyLevel}
                 </span>
               </div>
               <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700/50">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+                  className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -2148,11 +2148,11 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
                           : showExplanation && i !== challenge.correctIndex
                           ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                          : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                       }`}
                     >
                       <div className="flex items-start gap-2">
-                        <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                         <span>{opt}</span>
                       </div>
                       {showExplanation && i === challenge.correctIndex && (
@@ -2181,7 +2181,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Draggable label: ${item.label}`}
-                        className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2214,7 +2214,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
                     aria-label="Verify diagram label mapping"
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md shadow-gold-600/30"
                   >
                     Verify Diagram Labels
                   </motion.button>
@@ -2241,7 +2241,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                       aria-label={`Sort sequence item ${idx + 1}: ${item}`}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-sm cursor-grab active:cursor-grabbing flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 text-xs flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 text-xs flex items-center justify-center font-bold">
                         {idx + 1}
                       </span>
                       <span>{item}</span>
@@ -2254,7 +2254,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
                     aria-label="Confirm sequential arrangement"
-                    className="mt-2 px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md shadow-indigo-600/30"
+                    className="mt-2 px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md shadow-gold-600/30"
                   >
                     Confirm Process Sequence
                   </motion.button>
@@ -2272,7 +2272,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter value"
                       aria-label={`Enter numerical answer in ${challenge.unit}`}
-                      className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none"
+                      className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none"
                     />
                     <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                     <motion.button
@@ -2281,7 +2281,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput === ''}
                       aria-label="Submit numeric calculation"
-                      className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md shadow-indigo-600/30"
+                      className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md shadow-gold-600/30"
                     >
                       Calculate & Submit
                     </motion.button>
@@ -2301,7 +2301,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleConstructToggle(part)}
                         aria-label={`Add token ${part} to formula`}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono font-bold text-sky-300"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono font-bold text-gold-300"
                       >
                         + {part}
                       </motion.button>
@@ -2314,7 +2314,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-900/70 border border-indigo-700 text-indigo-200 rounded text-xs font-mono flex items-center gap-1"
+                        className="px-2.5 py-1 bg-gold-900/70 border border-gold-700 text-gold-200 rounded text-xs font-mono flex items-center gap-1"
                       >
                         {p}
                         <motion.button
@@ -2339,7 +2339,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
                     aria-label="Verify constructed optical formula"
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md shadow-gold-600/30"
                   >
                     Verify Constructed Formula
                   </motion.button>
@@ -2410,7 +2410,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
             <motion.div
               initial={{ y: 20 }}
               animate={{ y: 0 }}
-              className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 text-center space-y-4 shadow-2xl"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 text-center space-y-4 shadow-2xl"
             >
               <motion.div
                 initial={{ scale: 0 }}
@@ -2443,7 +2443,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                   className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 w-36"
                 >
                   <span className="text-xs text-slate-400 block mb-1">Mastery Tier</span>
-                  <strong className="text-2xl font-black text-indigo-400 capitalize">
+                  <strong className="text-2xl font-black text-gold-400 capitalize">
                     {masteryLevel}
                   </strong>
                 </motion.div>
@@ -2468,7 +2468,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     setErrors(0);
                   }}
                   aria-label="Restart simulation exploration"
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow-md shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl shadow-md shadow-gold-600/30"
                 >
                   Re-explore Interactive Laboratories 🔄
                 </motion.button>
@@ -2480,16 +2480,16 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="p-6 bg-gradient-to-r from-indigo-950/60 via-purple-950/40 to-slate-900 rounded-2xl border border-indigo-700/50 space-y-4 shadow-lg"
+              className="p-6 bg-gradient-to-r from-gold-950/60 via-purple-950/40 to-slate-900 rounded-2xl border border-gold-700/50 space-y-4 shadow-lg"
             >
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="text-2xl" role="img" aria-label="Spaced repetition calendar">📅</span>
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                     Spaced Repetition Schedule (SRS)
                   </h3>
                 </div>
-                <span className="px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-indigo-900/80 border border-indigo-500 text-indigo-200">
+                <span className="px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-gold-900/80 border border-gold-500 text-gold-200">
                   {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
                 </span>
               </div>
@@ -2502,7 +2502,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                   <span className="text-sm font-black">Review in 7 days</span>
                   <span className="block text-[10px] mt-0.5 opacity-80">Long-term retention</span>
                 </div>
-                <div className={`p-3 rounded-xl border text-center transition-all ${errors >= 1 && errors <= 3 ? 'bg-sky-950/70 border-sky-500 text-sky-300 font-bold shadow-md' : 'bg-slate-900/60 border-slate-800 text-slate-500'}`}>
+                <div className={`p-3 rounded-xl border text-center transition-all ${errors >= 1 && errors <= 3 ? 'bg-gold-950/70 border-gold-500 text-gold-300 font-bold shadow-md' : 'bg-slate-900/60 border-slate-800 text-slate-500'}`}>
                   <span className="block text-[11px] uppercase tracking-wider">1–3 Errors</span>
                   <span className="text-sm font-black">Review in 3 days</span>
                   <span className="block text-[10px] mt-0.5 opacity-80">Targeted reinforcement</span>
@@ -2513,9 +2513,9 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                   <span className="block text-[10px] mt-0.5 opacity-80">Immediate review</span>
                 </div>
               </div>
-              <div className="text-xs text-indigo-400/90 font-mono flex items-center justify-between border-t border-indigo-900/50 pt-2">
+              <div className="text-xs text-gold-400/90 font-mono flex items-center justify-between border-t border-gold-900/50 pt-2">
                 <span>SM-2 Memory Decay Algorithm Active</span>
-                <span>Next Recommended Interval: <strong className="text-indigo-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong></span>
+                <span>Next Recommended Interval: <strong className="text-gold-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong></span>
               </div>
             </motion.div>
 
@@ -2555,7 +2555,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
               transition={{ delay: 0.2 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
@@ -2564,7 +2564,7 @@ export function C12_PhysicsDispersionThroughPrismSim(props: Props = DEFAULT_PROP
                     whileHover={{ x: 2 }}
                     className="text-xs text-slate-400 flex items-center gap-2"
                   >
-                    <span className="w-4 h-4 rounded-full bg-indigo-950 text-indigo-400 text-[10px] flex items-center justify-center font-bold">
+                    <span className="w-4 h-4 rounded-full bg-gold-950 text-gold-400 text-[10px] flex items-center justify-center font-bold">
                       {i + 1}
                     </span>
                     <span>{step}</span>

@@ -11,11 +11,11 @@ export const w_c7_mathematicscomparingquantitiessim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Real-Life Applications of Large Numbers (Population, Distance)',
     chapters: [],
     nodeIds: ['c7_math_ch01_009', 'c7_math_ch03_007', 'c7_math_ch02_003', 'c7_math_ch02_009', 'c7_math_ch01_005', 'c7_math_ch03_001', 'c7_math_ch03_005', 'c7_math_ch03_008', 'c7_math_ch03_009', 'c7_math_ch09_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine your school headmaster announces that a massive cricket stadium in Mumbai can hold $1,00,000$ people,.', goal: 'Master Real-Life Applications of Large Numbers (Population, Distance).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Real-life applications of large numbers.', text: 'Real-life applications of large numbers involve using numbers in lakhs and crores to quantify and interpret massive quantities from the physical world, such as national populations, inter-city.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Real-life applications of large numbers.', text: 'Real-life applications of large numbers involve using numbers in lakhs and crores to quantify and interpret massive quantities from the physical world, such as national populations, inter-city.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch01_009', title: 'Real-life applications of large numbers.',

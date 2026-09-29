@@ -11,7 +11,7 @@ export const w_c8_sciencepressurewindsstormsandcyclonessim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Cyclone Preparedness and Safety Measures',
     chapters: [],
     nodeIds: ['c8_physics_ch4_11', 'c8_physics_ch4_10', 'c8_physics_ch4_12', 'c8_physics_ch4_5', 'c8_physics_ch4_7', 'c8_physics_ch4_8', 'c8_physics_ch4_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are in Odisha during October and the IMD issues a "Red Alert" for a Very Severe Cyclonic Storm.', goal: 'Master Cyclone Preparedness and Safety Measures.' },
     discovery: {
         question: 'Compare the safety of two houses during a cyclone: House A is a pucca (concrete) single-story house on stilts 2 m above ground in a coastal zone.',
@@ -20,7 +20,7 @@ export const w_c8_sciencepressurewindsstormsandcyclonessim: SimDef = {
         hook: 'Students think "cyclone safety = only evacuation to shelter." They ignore that 60% of cyclone deaths in India occur.',
     },
     teaching: [
-        { title: 'Cyclone preparedness and safety measures.', text: 'Cyclone preparedness and safety measures refer to the systematic actions taken before, during, and after a tropical cyclone to protect life and property, based on understanding the cyclone\'s.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Cyclone preparedness and safety measures.', text: 'Cyclone preparedness and safety measures refer to the systematic actions taken before, during, and after a tropical cyclone to protect life and property, based on understanding the cyclone\'s.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch4_11', title: 'Cyclone preparedness and safety.',

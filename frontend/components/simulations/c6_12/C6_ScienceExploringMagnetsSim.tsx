@@ -98,8 +98,8 @@ function C6_ScienceExploringMagnetsSim() {
   const southLabel = flipped ? 'N' : 'S';
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-violet-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-violet-700">Exploring Magnets -- compass detective</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">Exploring Magnets -- compass detective</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         Every magnet has two poles: <b>north (N)</b> and <b>south (S)</b>. The space around it is filled with an
         invisible <b>magnetic field</b> -- strongest at the poles. A compass needle is a tiny magnet: its dark
@@ -107,7 +107,7 @@ function C6_ScienceExploringMagnetsSim() {
       </p>
 
       <div className="flex flex-wrap gap-2 mt-3">
-        <button onClick={() => setFlipped(!flipped)} className="px-4 py-1.5 rounded-full text-xs font-black bg-violet-600 text-white hover:bg-violet-700 transition-colors">
+        <button onClick={() => setFlipped(!flipped)} className="px-4 py-1.5 rounded-full text-xs font-black bg-gold-600 text-white hover:bg-gold-700 transition-colors">
           Flip the magnet ({northLabel} is left)
         </button>
         {[
@@ -122,7 +122,7 @@ function C6_ScienceExploringMagnetsSim() {
       </div>
 
       <div className="grid md:grid-cols-[1fr_220px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-violet-100 bg-violet-50/30 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/30 overflow-hidden">
           <svg
             ref={svgRef}
             viewBox={'0 0 ' + W + ' ' + H}
@@ -160,7 +160,7 @@ function C6_ScienceExploringMagnetsSim() {
         </div>
 
         <div className="space-y-3">
-          <div className="p-3 rounded-2xl bg-violet-600 text-white text-center">
+          <div className="p-3 rounded-2xl bg-gold-600 text-white text-center">
             <div className="text-xs uppercase tracking-widest opacity-80">Compass needle points</div>
             <div className="text-3xl font-black">{Math.round((needleDeg + 360) % 360)}&deg;</div>
             <div className="text-[11px] opacity-90">(0&deg; = right, 90&deg; = down)</div>
@@ -168,24 +168,24 @@ function C6_ScienceExploringMagnetsSim() {
           <div>
             <label className="flex justify-between text-xs font-semibold text-slate-500">
               <span>Field strength here</span>
-              <span className="text-violet-700 font-black">{(strength * 100).toFixed(0)}%</span>
+              <span className="text-gold-700 font-black">{(strength * 100).toFixed(0)}%</span>
             </label>
-            <div className="h-3 rounded-full bg-violet-100 mt-1 overflow-hidden">
-              <div className="h-full rounded-full bg-violet-500 transition-all duration-150" style={{ width: strength * 100 + '%' }} />
+            <div className="h-3 rounded-full bg-gold-100 mt-1 overflow-hidden">
+              <div className="h-full rounded-full bg-gold-500 transition-all duration-150" style={{ width: strength * 100 + '%' }} />
             </div>
           </div>
           <div className="p-3 rounded-2xl bg-amber-50 border-2 border-amber-200 text-[11px] text-amber-800 font-semibold">
             Move the compass close to a pole -- the needle snaps into line and the strength bar shoots up. Far away, the field gets weak.
           </div>
-          <div className="p-2 rounded-xl bg-sky-50 border-2 border-sky-200 text-[11px] text-sky-800 font-semibold">
+          <div className="p-2 rounded-xl bg-gold-50 border-2 border-gold-200 text-[11px] text-gold-800 font-semibold">
             At the MIDDLE of the magnet the field runs parallel to the bar. Find that spot!
           </div>
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Drag the compass in a big circle around the magnet. Where does the needle point straight back at the magnet? Which pole is it pointing to?</li>
           <li>Flip the magnet and repeat. What changed and what stayed the same? (Write N-tips-AWAY in your observation.)</li>
         </ol>

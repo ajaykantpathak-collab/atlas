@@ -11,7 +11,7 @@ export const w_c9_mathematicstrigonometricratiosstandardsim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Combination of Plane Figures: Composite Area Problems',
     chapters: [],
     nodeIds: ['c9_math_ch6_11', 'c9_math_ch6_4', 'c9_math_ch6_5', 'c9_math_ch6_7', 'c9_math_ch8_2'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a school is designing a new badge: a rectangular strip 10 cm by 3 cm with a semicircular top of.', goal: 'Master Combination of Plane Figures: Composite Area Problems.' },
     discovery: {
         question: 'In triangle ABC, angle B is obtuse (120°). Side AC is chosen as the base.',
@@ -20,7 +20,7 @@ export const w_c9_mathematicstrigonometricratiosstandardsim: SimDef = {
         hook: 'Students treat any side adjacent to the base as the height. For example, in a triangle with sides 5 cm, 6 cm, 7 cm, if.',
     },
     teaching: [
-        { title: 'A composite plane figure is a shape formed.', text: 'A composite plane figure is a shape formed by combining two or more basic plane figures (rectangles, triangles, circles, sectors, segments) such that they share boundaries but do not overlap.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A composite plane figure is a shape formed.', text: 'A composite plane figure is a shape formed by combining two or more basic plane figures (rectangles, triangles, circles, sectors, segments) such that they share boundaries but do not overlap.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch6_11', title: 'A composite plane figure is a shape.',

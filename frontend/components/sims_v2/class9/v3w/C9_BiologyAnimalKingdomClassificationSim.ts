@@ -11,7 +11,7 @@ export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
     classLevel: 9, subject: 'biology', topic: 'Need for Classification of Living Organisms',
     chapters: [],
     nodeIds: ['c9_bio_ch4_3', 'c9_bio_ch4_4', 'c9_bio_ch4_5', 'c9_bio_ch4_7', 'c9_bio_ch4_8', 'c9_bio_ch2_6', 'c9_bio_ch2_7', 'c9_bio_ch4_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine walking into a massive library in Delhi where millions of books are piled randomly on the floor with.', goal: 'Master Need for Classification of Living Organisms.' },
     discovery: {
         question: 'A farmer in Punjab discovers an unknown insect damaging wheat crops.',
@@ -20,7 +20,7 @@ export const w_c9_biologyanimalkingdomclassificationsim: SimDef = {
         hook: 'Students often believe classification is primarily about "naming things" or "putting labels on organisms" — a static.',
     },
     teaching: [
-        { title: 'Classification is the scientific process of.', text: 'Classification is the scientific process of grouping living organisms into hierarchical categories based on shared characteristics and evolutionary relationships, enabling systematic study,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Classification is the scientific process of.', text: 'Classification is the scientific process of grouping living organisms into hierarchical categories based on shared characteristics and evolutionary relationships, enabling systematic study,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_bio_ch4_3', title: 'Classification is the scientific.',

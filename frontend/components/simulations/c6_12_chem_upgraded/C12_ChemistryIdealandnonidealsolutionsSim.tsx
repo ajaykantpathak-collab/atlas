@@ -1001,7 +1001,7 @@ const VaporPressureGraphSVG: React.FC<VaporPressureGraphProps> = ({ system, curr
     <div className="flex flex-col items-center bg-slate-900 border border-slate-700 rounded-xl p-3 shadow-inner">
       <div className="flex justify-between items-center w-full px-2 mb-2 text-xs font-semibold text-slate-300">
         <span className="flex items-center gap-1.5">
-          <Activity className="w-4 h-4 text-cyan-400" />
+          <Activity className="w-4 h-4 text-gold-400" />
           Vapor Pressure vs Composition Diagram (25°C)
         </span>
         <span className="text-slate-400">
@@ -1112,7 +1112,7 @@ const VaporPressureGraphSVG: React.FC<VaporPressureGraphProps> = ({ system, curr
           <span className="w-3 h-1 bg-amber-500 rounded"></span> Total P_total
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="w-3 h-1 bg-blue-400 rounded"></span> Partial P_{system.componentA}
+          <span className="w-3 h-1 bg-gold-400 rounded"></span> Partial P_{system.componentA}
         </span>
         <span className="flex items-center gap-1.5">
           <span className="w-3 h-1 bg-emerald-400 rounded"></span> Partial P_{system.componentB}
@@ -1288,7 +1288,7 @@ const BoilingPointAzeotropeSVG: React.FC<BoilingPointDiagramProps> = ({ system, 
 
       <div className="flex gap-4 mt-2 text-xs text-slate-300">
         <span className="flex items-center gap-1.5">
-          <span className="w-3 h-1 bg-sky-500 rounded"></span> Liquidus Curve (Boiling Begins)
+          <span className="w-3 h-1 bg-gold-500 rounded"></span> Liquidus Curve (Boiling Begins)
         </span>
         <span className="flex items-center gap-1.5">
           <span className="w-3 h-0.5 border-t border-dashed border-rose-500"></span> Vaporus Curve (Dew Point)
@@ -1500,7 +1500,7 @@ const MolecularInteractionsCanvas: React.FC<MolecularCanvasProps> = ({ system, c
 
       <div className="flex gap-6 mt-2 text-xs text-slate-300">
         <span className="flex items-center gap-1.5">
-          <span className="w-3 h-3 bg-blue-500 rounded-full border border-white"></span> Component A ({system.componentA})
+          <span className="w-3 h-3 bg-gold-500 rounded-full border border-white"></span> Component A ({system.componentA})
         </span>
         <span className="flex items-center gap-1.5">
           <span className="w-3 h-3 bg-emerald-500 rounded-full border border-white"></span> Component B ({system.componentB})
@@ -1545,11 +1545,11 @@ const SolutionVolumeCalorimeterSVG: React.FC<CalorimeterProps> = ({ system, curr
     <div className="flex flex-col items-center bg-slate-900 border border-slate-700 rounded-xl p-3 shadow-inner w-full">
       <div className="flex justify-between items-center w-full px-2 mb-2 text-xs font-semibold text-slate-300">
         <span className="flex items-center gap-1.5">
-          <Beaker className="w-4 h-4 text-sky-400" />
+          <Beaker className="w-4 h-4 text-gold-400" />
           Mixing Calorimetry & Volume Change (ΔH_mix & ΔV_mix)
         </span>
         <span className="text-slate-400">
-          State: <strong className="text-cyan-400">x_A = {currXA.toFixed(2)}</strong>
+          State: <strong className="text-gold-400">x_A = {currXA.toFixed(2)}</strong>
         </span>
       </div>
 
@@ -1594,7 +1594,7 @@ const SolutionVolumeCalorimeterSVG: React.FC<CalorimeterProps> = ({ system, curr
           <div className="mt-2 text-center text-xs">
             <div className="font-semibold text-slate-200">
               ΔV_mix:{' '}
-              <span className={deltaVPercent > 0 ? 'text-amber-400' : deltaVPercent < 0 ? 'text-sky-400' : 'text-emerald-400'}>
+              <span className={deltaVPercent > 0 ? 'text-amber-400' : deltaVPercent < 0 ? 'text-gold-400' : 'text-emerald-400'}>
                 {deltaVPercent > 0 ? `+${deltaVPercent.toFixed(2)}% (Expansion)` : deltaVPercent < 0 ? `${deltaVPercent.toFixed(2)}% (Contraction)` : '0.00% (Additive)'}
               </span>
             </div>
@@ -1876,17 +1876,17 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
       {/* TOP HEADER / TITLE BAR */}
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-cyan-500/10 border border-cyan-500/30 rounded-xl text-cyan-400">
+          <div className="p-3 bg-gold-500/10 border border-gold-500/30 rounded-xl text-gold-400">
             <FlaskConical className="w-8 h-8 animate-pulse" />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 text-xs font-bold bg-cyan-500/20 text-cyan-300 rounded-full border border-cyan-500/30">
+              <span className="px-2.5 py-0.5 text-xs font-bold bg-gold-500/20 text-gold-300 rounded-full border border-gold-500/30">
                 ISC Class 12 Chemistry
               </span>
               <span className="text-xs text-slate-400 font-mono">Nodes: c12_chem_011 — c12_chem_020</span>
             </div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               Ideal & Non-Ideal Solutions Simulator
             </h1>
           </div>
@@ -1897,7 +1897,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
           <button
             onClick={() => { setActiveTab('discovery'); playSound('tap'); }}
             className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'discovery' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <BookOpen className="w-4 h-4" /> Discovery
@@ -1905,7 +1905,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
           <button
             onClick={() => { setActiveTab('lab'); playSound('tap'); }}
             className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'lab' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <FlaskConical className="w-4 h-4" /> Virtual Lab
@@ -1913,7 +1913,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
           <button
             onClick={() => { setActiveTab('challenges'); playSound('tap'); }}
             className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-              activeTab === 'challenges' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'challenges' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Award className="w-4 h-4" /> Challenges ({score} pts)
@@ -1921,7 +1921,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
           <button
             onClick={() => { setActiveTab('summary'); playSound('tap'); }}
             className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-              activeTab === 'summary' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'summary' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Layers className="w-4 h-4" /> Mastery
@@ -1939,7 +1939,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
             {/* Scenario Narrative */}
             <div className="lg:col-span-2 space-y-6">
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
-                <div className="flex items-center gap-2 text-cyan-400 font-bold mb-3">
+                <div className="flex items-center gap-2 text-gold-400 font-bold mb-3">
                   <Sparkles className="w-5 h-5" />
                   <span>Interactive Context & Lab Scenario</span>
                 </div>
@@ -1951,8 +1951,8 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
               </div>
 
               {/* Counterintuitive Discovery Question */}
-              <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/5 rounded-full blur-2xl pointer-events-none" />
+              <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gold-500/5 rounded-full blur-2xl pointer-events-none" />
                 <div className="flex items-center gap-2 text-amber-400 font-bold text-sm mb-2">
                   <HelpCircle className="w-5 h-5" />
                   <span>Pre-Lab Discovery Challenge</span>
@@ -1981,8 +1981,8 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                 </div>
 
                 {showDiscoveryExplanation && (
-                  <div className="mt-4 p-4 rounded-xl bg-slate-950 border border-cyan-500/40 text-xs text-cyan-200 leading-relaxed animate-fadeIn">
-                    <strong className="text-cyan-400 font-semibold block mb-1">Thermodynamic Analysis:</strong>
+                  <div className="mt-4 p-4 rounded-xl bg-slate-950 border border-gold-500/40 text-xs text-gold-200 leading-relaxed animate-fadeIn">
+                    <strong className="text-gold-400 font-semibold block mb-1">Thermodynamic Analysis:</strong>
                     {DISCOVERY_QUESTION.hintAfter}
                   </div>
                 )}
@@ -1991,7 +1991,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
               {/* Prediction Questions Array Renderer */}
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
                 <h3 className="text-base font-bold text-white mb-4 flex items-center gap-2">
-                  <Activity className="w-5 h-5 text-indigo-400" />
+                  <Activity className="w-5 h-5 text-gold-400" />
                   Theoretical Hypothesis Predictions
                 </h3>
                 <div className="space-y-6">
@@ -2020,7 +2020,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                       </div>
                       {predictionAnswers[pIdx] !== undefined && (
                         <p className="text-xs text-slate-400 bg-slate-900/80 p-2.5 rounded border border-slate-800">
-                          <strong className="text-cyan-400">Lab Verification Method:</strong> {pq.verifyInstruction}
+                          <strong className="text-gold-400">Lab Verification Method:</strong> {pq.verifyInstruction}
                         </p>
                       )}
                     </div>
@@ -2033,7 +2033,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
             <div className="space-y-6">
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-lg">
                 <h3 className="text-sm font-bold text-slate-200 mb-3 flex items-center gap-2">
-                  <BookOpen className="w-4 h-4 text-cyan-400" />
+                  <BookOpen className="w-4 h-4 text-gold-400" />
                   Syllabus Learning Nodes
                 </h3>
                 <div className="space-y-2.5">
@@ -2044,7 +2044,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                     return (
                       <div key={id} className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-col gap-1">
                         <div className="flex justify-between items-center">
-                          <span className="text-xs font-mono text-cyan-400">{info.code}</span>
+                          <span className="text-xs font-mono text-gold-400">{info.code}</span>
                           <span
                             className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${
                               level === 'mastered'
@@ -2087,12 +2087,12 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                     onClick={() => handleStepClick(sIdx)}
                     className={`p-3 rounded-xl border text-left transition-all flex flex-col justify-between ${
                       activeLabStep === sIdx
-                        ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200 shadow-md'
+                        ? 'bg-gold-500/20 border-gold-500 text-gold-200 shadow-md'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                     }`}
                   >
                     <div className="flex justify-between items-center mb-1">
-                      <span className="text-[10px] font-mono font-bold text-cyan-400">LAB {sIdx + 1}</span>
+                      <span className="text-[10px] font-mono font-bold text-gold-400">LAB {sIdx + 1}</span>
                       <span className="text-[10px] font-mono text-slate-500">{step.nodeId}</span>
                     </div>
                     <div className="text-xs font-semibold line-clamp-1">{step.title.split(':')[1] || step.title}</div>
@@ -2101,10 +2101,10 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
               </div>
 
               {/* Instruction banner for active step */}
-              <div className="mt-4 p-4 bg-cyan-950/40 border border-cyan-500/30 rounded-xl text-xs text-cyan-200 flex items-start gap-3">
-                <Info className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
+              <div className="mt-4 p-4 bg-gold-950/40 border border-gold-500/30 rounded-xl text-xs text-gold-200 flex items-start gap-3">
+                <Info className="w-5 h-5 text-gold-400 shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-cyan-300 font-bold block mb-0.5">{EXPLORATION_STEPS[activeLabStep].title}</strong>
+                  <strong className="text-gold-300 font-bold block mb-0.5">{EXPLORATION_STEPS[activeLabStep].title}</strong>
                   {EXPLORATION_STEPS[activeLabStep].instruction}
                 </div>
               </div>
@@ -2121,7 +2121,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                     setSelectedSystemId(e.target.value);
                     playSound('tap');
                   }}
-                  className="w-full bg-slate-950 border border-slate-700 text-slate-200 rounded-xl p-3 text-sm font-semibold focus:outline-none focus:border-cyan-500"
+                  className="w-full bg-slate-950 border border-slate-700 text-slate-200 rounded-xl p-3 text-sm font-semibold focus:outline-none focus:border-gold-500"
                 >
                   {SYSTEM_PRESETS.map((sys) => (
                     <option key={sys.id} value={sys.id}>
@@ -2138,7 +2138,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                   <span className="text-xs font-bold text-slate-300">
                     Mole Fraction Liquid {activeSystem.componentA} (x_A):
                   </span>
-                  <span className="text-sm font-mono font-bold text-cyan-400 px-3 py-1 bg-slate-900 rounded-lg border border-slate-800">
+                  <span className="text-sm font-mono font-bold text-gold-400 px-3 py-1 bg-slate-900 rounded-lg border border-slate-800">
                     x_A = {currXA.toFixed(2)} | x_B = {(1 - currXA).toFixed(2)}
                   </span>
                 </div>
@@ -2149,7 +2149,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                   step="0.01"
                   value={currXA}
                   onChange={(e) => setCurrXA(parseFloat(e.target.value))}
-                  className="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                  className="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                 />
                 <div className="flex justify-between text-[10px] text-slate-400 font-mono mt-1">
                   <span>Pure {activeSystem.componentB} (x_A = 0.0)</span>
@@ -2167,7 +2167,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
               </div>
               <div className="bg-slate-900 border border-slate-800 p-3 rounded-xl text-center">
                 <span className="text-[10px] text-slate-400 block font-semibold">Partial P_{activeSystem.componentA}</span>
-                <span className="text-base font-mono font-bold text-blue-400">{currentPressures.pA.toFixed(2)} kPa</span>
+                <span className="text-base font-mono font-bold text-gold-400">{currentPressures.pA.toFixed(2)} kPa</span>
               </div>
               <div className="bg-slate-900 border border-slate-800 p-3 rounded-xl text-center">
                 <span className="text-[10px] text-slate-400 block font-semibold">Partial P_{activeSystem.componentB}</span>
@@ -2175,7 +2175,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
               </div>
               <div className="bg-slate-900 border border-slate-800 p-3 rounded-xl text-center">
                 <span className="text-[10px] text-slate-400 block font-semibold">Vapor Fraction y_A</span>
-                <span className="text-base font-mono font-bold text-sky-300">{currentPressures.yA.toFixed(3)}</span>
+                <span className="text-base font-mono font-bold text-gold-300">{currentPressures.yA.toFixed(3)}</span>
               </div>
               <div className="bg-slate-900 border border-slate-800 p-3 rounded-xl text-center col-span-2 md:col-span-1">
                 <span className="text-[10px] text-slate-400 block font-semibold">Vapor Fraction y_B</span>
@@ -2224,7 +2224,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                       </div>
                     </div>
                     {observationAnswers[oIdx] !== undefined && (
-                      <div className="text-[11px] text-cyan-300 bg-slate-900 p-2 rounded border border-slate-800">
+                      <div className="text-[11px] text-gold-300 bg-slate-900 p-2 rounded border border-slate-800">
                         {observationAnswers[oIdx] === oq.correctIndex
                           ? '✓ Correct observation! Matches physical chemistry theory.'
                           : '✗ Review the interactive graphs above and test again.'}
@@ -2249,11 +2249,11 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                   <span>
                     Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                   </span>
-                  <span className="font-mono text-cyan-400">Score: {score} pts</span>
+                  <span className="font-mono text-gold-400">Score: {score} pts</span>
                 </div>
                 <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
                   <div
-                    className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-300"
+                    className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-300"
                     style={{ width: `${((currentChallengeIdx + 1) / CHALLENGES.length) * 100}%` }}
                   />
                 </div>
@@ -2312,7 +2312,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                             ? 'bg-emerald-500/20 border-emerald-500 text-emerald-200'
                             : challengeFeedback === 'incorrect'
                             ? 'bg-rose-500/20 border-rose-500 text-rose-200'
-                            : 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                            : 'bg-gold-500/20 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -2338,7 +2338,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                       value={userNumericInput}
                       onChange={(e) => setUserNumericInput(e.target.value)}
                       placeholder="e.g. 8.8"
-                      className="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-sm text-white font-mono focus:outline-none focus:border-cyan-500"
+                      className="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-sm text-white font-mono focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-xs font-mono text-slate-400">{activeChallenge.unit}</span>
                   </div>
@@ -2351,7 +2351,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={activeChallenge.type === 'numeric' ? !userNumericInput : userSelectedOption === null}
-                    className="w-full md:w-auto px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                    className="w-full md:w-auto px-6 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-gold-500/20"
                   >
                     Submit Answer
                   </button>
@@ -2440,7 +2440,7 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
             {/* BKT Knowledge State Matrix */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
               <h3 className="text-base font-bold text-white mb-4 flex items-center gap-2">
-                <Gauge className="w-5 h-5 text-cyan-400" />
+                <Gauge className="w-5 h-5 text-gold-400" />
                 BKT Bayesian Mastery Tracking Matrix
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
@@ -2450,10 +2450,10 @@ export default function C12_ChemistryIdealandnonidealsolutionsSim() {
                   const p = bkt ? bkt.pKnown * 100 : 0;
                   return (
                     <div key={id} className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
-                      <span className="text-[10px] font-mono text-cyan-400 block mb-1">{id}</span>
+                      <span className="text-[10px] font-mono text-gold-400 block mb-1">{id}</span>
                       <span className="text-xs font-bold text-slate-200 block truncate">{NODE_INFO[id].title}</span>
                       <div className="mt-2 w-full bg-slate-900 h-1.5 rounded-full overflow-hidden border border-slate-800">
-                        <div className="bg-cyan-400 h-full transition-all duration-300" style={{ width: `${p}%` }} />
+                        <div className="bg-gold-400 h-full transition-all duration-300" style={{ width: `${p}%` }} />
                       </div>
                       <span className="text-[10px] text-slate-400 font-mono mt-1 block">{p.toFixed(0)}% ({level})</span>
                     </div>

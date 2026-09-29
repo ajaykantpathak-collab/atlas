@@ -11,7 +11,7 @@ export const w_c6_sciencematerialsaroundussim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Light Travels in Straight Lines',
     chapters: [],
     nodeIds: ['c6_physics_ch11_036', 'c6_physics_ch11_035', 'c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_037', 'c6_physics_ch01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever tried to look at a light bulb through a garden hose?', goal: 'Master Light Travels in Straight Lines.' },
     discovery: {
         question: 'A light source is placed in front of a circular ball. If the ball is moved closer to the wall behind it, what happens to the size of the shadow?',
@@ -20,7 +20,7 @@ export const w_c6_sciencematerialsaroundussim: SimDef = {
         hook: 'Students often believe light "fills" a room like water fills a bucket, assuming it can go anywhere.',
     },
     teaching: [
-        { title: 'Light is a form of energy that travels in a.', text: 'Light is a form of energy that travels in a straight line, known as rectilinear propagation. This means it cannot bend around obstacles unless it is reflected or refracted.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Light is a form of energy that travels in a.', text: 'Light is a form of energy that travels in a straight line, known as rectilinear propagation. This means it cannot bend around obstacles unless it is reflected or refracted.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_physics_ch11_036', title: 'Light is a form of energy that travels.',

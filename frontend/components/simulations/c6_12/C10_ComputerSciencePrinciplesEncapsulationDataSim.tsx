@@ -1170,9 +1170,9 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
       {/* ─── HEADER BAR ─── */}
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 border border-cyan-700/50 rounded-2xl" role="img" aria-label="subject icon">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/60 border border-gold-700/50 rounded-2xl" role="img" aria-label="subject icon">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-300">
+            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 10 Computer Science • Stream Architecture Core</p>
@@ -1188,14 +1188,14 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-cyan-950/60 text-cyan-400 border-cyan-700'
+                ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                 : 'bg-purple-950/60 text-purple-400 border-purple-700'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <span className="text-xs font-mono text-slate-400 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">
-            Mastery: <strong className="text-cyan-300">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-300">{masteryLevel}</strong>
           </span>
         </div>
       </motion.div>
@@ -1203,18 +1203,18 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 border border-indigo-700/50 rounded-2xl">
-            <span className="text-xs font-bold uppercase tracking-widest text-indigo-400">Real-World Engineering Hook</span>
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 border border-gold-700/50 rounded-2xl">
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-400">Real-World Engineering Hook</span>
             <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 mt-2 italic bg-indigo-900/30 p-2 rounded-lg border border-indigo-800/40">
+            <p className="text-xs text-gold-300 mt-2 italic bg-gold-900/30 p-2 rounded-lg border border-gold-800/40">
               {SCENARIO.context}
             </p>
           </div>
 
           <div className="p-5 bg-slate-900/90 border border-slate-800 rounded-2xl space-y-4">
             <h3 className="text-base font-semibold text-slate-200">🔍 Pre-Exploration Curiosity Check:</h3>
-            <p className="text-sm font-mono text-cyan-300 bg-slate-950 p-3 rounded-xl border border-slate-800">
+            <p className="text-sm font-mono text-gold-300 bg-slate-950 p-3 rounded-xl border border-slate-800">
               {DISCOVERY_QUESTION.question}
             </p>
 
@@ -1235,7 +1235,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                       : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-cyan-400 mr-2">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + idx)}.</span>
                   {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                   {discoveryAnswered && !discoveryCorrect && idx !== DISCOVERY_QUESTION.correctIndex && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                   {option}
@@ -1244,7 +1244,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-cyan-950/40 border border-cyan-800/60 rounded-xl space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl space-y-3">
                 <p className={`text-xs md:text-sm font-medium ${discoveryCorrect ? 'text-emerald-300' : 'text-amber-300'}`}>
                   {discoveryCorrect ? '✓ Excellent intuition! In Java, reference variables store pointers, not separate data.' : DISCOVERY_QUESTION.hintAfter}
                 </p>
@@ -1253,7 +1253,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-cyan-950/50"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-950/50"
                 >
                   Enter Visual Labs →
                 </motion.button>
@@ -1278,7 +1278,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
             >
               ← Prev Lab
             </motion.button>
-            <span className="text-xs font-mono text-cyan-300">
+            <span className="text-xs font-mono text-gold-300">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </span>
             {currentSlide < EXPLORATION_STEPS.length - 1 ? (
@@ -1287,7 +1287,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-3 py-1.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl"
+                className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
               >
                 Next Lab →
               </motion.button>
@@ -1328,7 +1328,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col justify-between">
                     <div className="space-y-3">
                       <div className="flex items-center justify-between pb-2 border-b border-slate-800">
-                        <span className="text-xs font-bold text-cyan-400">Class BankAccount Capsule</span>
+                        <span className="text-xs font-bold text-gold-400">Class BankAccount Capsule</span>
                         <motion.button
                           aria-label={`Toggle access modifier. Currently ${isFieldPrivate ? 'private' : 'public'}`}
                           whileTap={{ scale: 0.9 }}
@@ -1427,8 +1427,8 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
               {currentSlide === 1 && (
                 <div className="space-y-4 pt-2">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/60 border border-indigo-700/60 rounded-2xl space-y-2">
-                      <p className="text-xs font-bold text-indigo-300">🤔 PREDICT-THEN-CHECK:</p>
+                    <div className="p-4 bg-gold-950/60 border border-gold-700/60 rounded-2xl space-y-2">
+                      <p className="text-xs font-bold text-gold-300">🤔 PREDICT-THEN-CHECK:</p>
                       <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1494,11 +1494,11 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                      <span className="text-xs font-bold text-sky-400">Stack Frames (Reference Variables)</span>
+                      <span className="text-xs font-bold text-gold-400">Stack Frames (Reference Variables)</span>
                       <div className="space-y-1.5 font-mono text-xs">
                         {stackReferences.map((ref, idx) => (
                           <div key={idx} className="flex justify-between p-2 bg-slate-900 rounded-lg border border-slate-800">
-                            <span className="text-sky-300">{ref.refName}</span>
+                            <span className="text-gold-300">{ref.refName}</span>
                             <span className="text-emerald-400">→ {ref.targetAddress}</span>
                           </div>
                         ))}
@@ -1509,7 +1509,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                           whileHover={{ scale: 1.02 }}
                           whileTap={{ scale: 0.98 }}
                           onClick={handleAssignReference}
-                          className="w-full py-1.5 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded-lg"
+                          className="w-full py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg"
                         >
                           + Assign Reference: Account acc2 = acc1;
                         </motion.button>
@@ -1585,19 +1585,19 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={handleSpawnAccount}
-                      className="w-full py-2 bg-gradient-to-r from-amber-600 to-indigo-600 text-white text-xs font-bold rounded-xl"
+                      className="w-full py-2 bg-gradient-to-r from-amber-600 to-gold-600 text-white text-xs font-bold rounded-xl"
                     >
                       + Instantiate New Object (new BankAccount)
                     </motion.button>
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                    <span className="text-xs font-bold text-cyan-400">📱 Per-Object Instance Variables (NON-STATIC)</span>
+                    <span className="text-xs font-bold text-gold-400">📱 Per-Object Instance Variables (NON-STATIC)</span>
                     <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
                       {instanceAccounts.map(acc => (
                         <div key={acc.id} className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 flex justify-between items-center text-xs font-mono">
                           <div>
-                            <span className="text-cyan-300 font-bold">obj_{acc.id} ({acc.name})</span>
+                            <span className="text-gold-300 font-bold">obj_{acc.id} ({acc.name})</span>
                             <p className="text-slate-400 text-[11px]">balance: ₹{acc.balance}</p>
                           </div>
                           <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-1 rounded">
@@ -1615,7 +1615,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                 <div className="space-y-4 pt-2">
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center pb-2 border-b border-slate-800">
-                      <span className="text-xs font-bold text-cyan-400">Compile-Time Method Signature Resolver</span>
+                      <span className="text-xs font-bold text-gold-400">Compile-Time Method Signature Resolver</span>
                       <span className="text-xs font-mono text-purple-400 font-bold">{resolvedMethodSignature}</span>
                     </div>
 
@@ -1631,7 +1631,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                               onClick={() => setSelectedParamType1(t)}
                               className={`py-1.5 text-xs font-mono font-bold rounded-lg border ${
                                 selectedParamType1 === t
-                                  ? 'bg-cyan-950 text-cyan-300 border-cyan-500'
+                                  ? 'bg-gold-950 text-gold-300 border-gold-500'
                                   : 'bg-slate-900 text-slate-400 border-slate-800'
                               }`}
                             >
@@ -1652,7 +1652,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                               onClick={() => setSelectedParamType2(t)}
                               className={`py-1.5 text-xs font-mono font-bold rounded-lg border ${
                                 selectedParamType2 === t
-                                  ? 'bg-cyan-950 text-cyan-300 border-cyan-500'
+                                  ? 'bg-gold-950 text-gold-300 border-gold-500'
                                   : 'bg-slate-900 text-slate-400 border-slate-800'
                               }`}
                             >
@@ -1677,7 +1677,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
               {currentSlide === 4 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                    <span className="text-xs font-bold text-indigo-300">Select Constructor Blueprint:</span>
+                    <span className="text-xs font-bold text-gold-300">Select Constructor Blueprint:</span>
                     <div className="space-y-2">
                       {[
                         { type: 'default' as const, label: 'Default: BankAccount()', desc: 'No arguments, zero/null state defaults' },
@@ -1692,7 +1692,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                           onClick={() => handleConstructorSelect(c.type)}
                           className={`w-full p-2.5 text-left rounded-xl border transition-all ${
                             constructorType === c.type
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1707,7 +1707,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                     <span className="text-xs font-bold text-emerald-400">Resulting Initialized Heap Object:</span>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs space-y-1">
                       <p className="text-slate-400">Class: BankAccount</p>
-                      <p className="text-cyan-300">name: <span className="text-white">"{constructedUser.name}"</span></p>
+                      <p className="text-gold-300">name: <span className="text-white">"{constructedUser.name}"</span></p>
                       <p className="text-emerald-300">balance: <span className="text-white">₹{constructedUser.balance}</span></p>
                       <p className="text-amber-300">upiPin: <span className="text-white">{constructedUser.upiPin}</span></p>
                     </div>
@@ -1722,7 +1722,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
       {/* ─── PHASE 3: FREE PLAY SANDBOX MODE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-cyan-950/40 border border-slate-800 rounded-2xl flex justify-between items-center">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 border border-slate-800 rounded-2xl flex justify-between items-center">
             <div>
               <h2 className="text-lg font-bold text-white">Interactive Sandbox & Multi-Representation Studio</h2>
               <p className="text-xs text-slate-400 mt-1">
@@ -1734,7 +1734,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white text-xs font-bold rounded-xl shadow-lg shadow-emerald-950/50"
+              className="px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-gold-600 text-white text-xs font-bold rounded-xl shadow-lg shadow-emerald-950/50"
             >
               Start Challenges →
             </motion.button>
@@ -1754,7 +1754,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-4 py-2 text-xs font-bold rounded-xl border transition-all ${
                   activeTab === tab.id
-                    ? 'bg-cyan-950 text-cyan-300 border-cyan-600'
+                    ? 'bg-gold-950 text-gold-300 border-gold-600'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-slate-300'
                 }`}
               >
@@ -1768,7 +1768,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Account Balance (Instance)</span>
-                <span className="text-cyan-300 font-mono font-bold">₹{sandboxSliderBalance}</span>
+                <span className="text-gold-300 font-mono font-bold">₹{sandboxSliderBalance}</span>
               </div>
               <input
                 aria-label="Adjust instance account balance"
@@ -1778,7 +1778,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                 step={500}
                 value={sandboxSliderBalance}
                 onChange={(e) => setSandboxSliderBalance(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
             </div>
 
@@ -1820,7 +1820,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
           <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 min-h-[160px]">
             {activeTab === 'blueprint' && (
               <div className="space-y-2">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Blueprint View: BankAccount</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Blueprint View: BankAccount</span>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1">
                     <p className="text-slate-400">// Encapsulated Fields</p>
@@ -1829,8 +1829,8 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   </div>
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1">
                     <p className="text-slate-400">// Public Methods</p>
-                    <p className="text-sky-300">public void deposit(double amt)</p>
-                    <p className="text-sky-300">public static double getRate()</p>
+                    <p className="text-gold-300">public void deposit(double amt)</p>
+                    <p className="text-gold-300">public static double getRate()</p>
                   </div>
                 </div>
               </div>
@@ -1838,8 +1838,8 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
 
             {activeTab === 'memory' && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs font-mono">
-                <div className="p-3 bg-slate-900 rounded-xl border border-sky-900/60">
-                  <span className="text-sky-300 font-bold block mb-1">Stack Frame</span>
+                <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/60">
+                  <span className="text-gold-300 font-bold block mb-1">Stack Frame</span>
                   <p className="text-slate-300">ref: user1 → 0x88F0</p>
                 </div>
                 <div className="p-3 bg-slate-900 rounded-xl border border-purple-900/60">
@@ -1876,11 +1876,11 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
           {/* Challenge Top Bar */}
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <h2 className="text-base md:text-lg font-bold text-white mt-0.5">
-                Competency: <span className="text-sky-300 uppercase">{currentChallengeObj.competencyLevel}</span>
+                Competency: <span className="text-gold-300 uppercase">{currentChallengeObj.competencyLevel}</span>
               </h2>
             </div>
 
@@ -1897,7 +1897,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-sky-400 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1933,7 +1933,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                         : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-cyan-400 mr-2 font-bold">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-mono text-gold-400 mr-2 font-bold">{String.fromCharCode(65 + idx)}.</span>
                     {showExplanation && idx === currentChallengeObj.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                     {option}
                   </motion.button>
@@ -1955,7 +1955,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-700/80 hover:bg-cyan-600 rounded-lg text-white font-mono text-xs cursor-grab"
+                      className="px-3 py-1.5 bg-gold-700/80 hover:bg-gold-600 rounded-lg text-white font-mono text-xs cursor-grab"
                     >
                       {item.label}
                     </motion.div>
@@ -1976,7 +1976,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                       className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 space-y-1"
                     >
                       <span className="text-[11px] text-slate-400 font-semibold">{slot.label}</span>
-                      <div className="p-2 bg-slate-900 rounded font-mono text-xs text-cyan-300 min-h-[32px]">
+                      <div className="p-2 bg-slate-900 rounded font-mono text-xs text-gold-300 min-h-[32px]">
                         {droppedLabels[slot.id] || '<Drop matching Java statement here>'}
                       </div>
                     </div>
@@ -1988,7 +1988,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Architecture Layout
                 </motion.button>
@@ -2029,7 +2029,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : [0, 1, 2, 3])}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Submit Order
                 </motion.button>
@@ -2056,7 +2056,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Check Answer
                   </motion.button>
@@ -2076,7 +2076,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-2.5 py-1 bg-slate-800 hover:bg-slate-750 text-cyan-300 font-mono text-xs rounded-lg border border-slate-700"
+                      className="px-2.5 py-1 bg-slate-800 hover:bg-slate-750 text-gold-300 font-mono text-xs rounded-lg border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2085,7 +2085,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-cyan-950 text-cyan-300 border border-cyan-800 rounded font-mono text-xs flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 text-gold-300 border border-gold-800 rounded font-mono text-xs flex items-center gap-1">
                       {part}
                       <button aria-label={`Remove block ${part}`} onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))} className="text-rose-400 hover:text-rose-300 ml-1">
                         ✕
@@ -2103,7 +2103,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   whileTap={{ scale: 0.98 }}
                   disabled={constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl disabled:opacity-50"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl disabled:opacity-50"
                 >
                   Validate Construction
                 </motion.button>
@@ -2154,11 +2154,11 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD RETENTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-cyan-950/60 border border-cyan-700/60 rounded-3xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-gold-950/60 border border-gold-700/60 rounded-3xl text-center space-y-3">
             <span className="text-4xl" role="img" aria-label="trophy">🏆</span>
             <h2 className="text-2xl font-black text-white">Mission Accomplished: PaySetu Core Secured!</h2>
             <p className="text-sm text-slate-300">
-              Final System Integrity Score: <strong className="text-cyan-300">{Math.max(0, 100 - errors * 5)}%</strong> • Tier Reached: <strong className="text-purple-300 uppercase">{difficulty}</strong>
+              Final System Integrity Score: <strong className="text-gold-300">{Math.max(0, 100 - errors * 5)}%</strong> • Tier Reached: <strong className="text-purple-300 uppercase">{difficulty}</strong>
             </p>
 
             {/* Motivational Feedback Banner */}
@@ -2187,12 +2187,12 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
           {/* ─── GUIDED REFLECTION SECTION ─── */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-4">
             <h3 className="text-base font-bold text-white flex items-center gap-2">
-              <span className="text-cyan-400">💡</span> Conceptual Reflection
+              <span className="text-gold-400">💡</span> Conceptual Reflection
             </h3>
             
             <div className="space-y-3">
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label htmlFor="ref_surprising" className="text-xs font-semibold text-cyan-300 block">
+                <label htmlFor="ref_surprising" className="text-xs font-semibold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <input
@@ -2202,12 +2202,12 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   placeholder="e.g., That 'a = b' copies the heap address, not a brand-new object clone..."
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers(p => ({ ...p, surprising: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label htmlFor="ref_explain" className="text-xs font-semibold text-sky-300 block">
+                <label htmlFor="ref_explain" className="text-xs font-semibold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <input
@@ -2217,12 +2217,12 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   placeholder="e.g., A class is a cookie cutter, objects are the cookies, and private fields are the secret recipe..."
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers(p => ({ ...p, explain: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-sky-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label htmlFor="ref_realLife" className="text-xs font-semibold text-indigo-300 block">
+                <label htmlFor="ref_realLife" className="text-xs font-semibold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <input
@@ -2232,7 +2232,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
                   placeholder="e.g., Designing secure banking PIN checks and shared transaction rate limits for UPI apps..."
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers(p => ({ ...p, realLife: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2260,7 +2260,7 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
           {/* Spaced Repetition Visibility */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold text-cyan-400">Spaced Repetition Schedule (SM-2):</span>
+              <span className="text-xs font-bold text-gold-400">Spaced Repetition Schedule (SM-2):</span>
               <p className="text-xs text-slate-400 mt-0.5">
                 Next scheduled review in <strong className="text-white">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to cement neural retention.
               </p>
@@ -2271,10 +2271,10 @@ function C10_ComputerSciencePrinciplesEncapsulationDataSim({
           </div>
 
           {/* Real-World Activity */}
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/40 border border-indigo-800/50 rounded-2xl space-y-3">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 border border-gold-800/50 rounded-2xl space-y-3">
             <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
-            <div className="space-y-1 text-xs font-mono text-cyan-300 bg-slate-950 p-3 rounded-xl border border-slate-800">
+            <div className="space-y-1 text-xs font-mono text-gold-300 bg-slate-950 p-3 rounded-xl border border-slate-800">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <p key={idx}>{step}</p>
               ))}

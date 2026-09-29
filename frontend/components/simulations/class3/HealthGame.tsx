@@ -41,7 +41,7 @@ const TEACHING_SLIDES = [
     title: 'Personal Cleanliness! 🧼',
     text: 'Keep your body clean to stop invisible germs! Wash hands with soap before eating and after toilet. Brush your teeth twice a day. Bathe daily, wear clean clothes, and trim your nails!',
     emoji: '🧼',
-    bgColor: 'from-blue-400 to-cyan-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Keep your body clean to stop invisible germs! Wash hands with soap before eating and after toilet. Brush your teeth twice a day. Bathe daily, wear clean clothes, and trim your nails!',
   },
   {
@@ -55,7 +55,7 @@ const TEACHING_SLIDES = [
     title: 'Clean Surroundings! 🗑️',
     text: 'Keep your home, school, and neighborhood clean! Throw garbage in covered dustbins. Never litter or spit in public. Use cloth bags instead of plastic polythene bags!',
     emoji: '🗑️',
-    bgColor: 'from-teal-400 to-cyan-600',
+    bgColor: 'from-teal-400 to-gold-600',
     spoken: 'Keep your home, school, and neighborhood clean! Throw garbage in covered dustbins. Never litter or spit in public. Use cloth bags instead of plastic polythene bags!',
   },
   {
@@ -69,7 +69,7 @@ const TEACHING_SLIDES = [
     title: 'Public Health Champions! 🌟',
     text: 'Public health means the health of the whole community! When everyone keeps themselves and their surroundings clean, everyone stays healthy and happy. Be a Cleanliness Champion!',
     emoji: '🌟',
-    bgColor: 'from-indigo-400 to-purple-500',
+    bgColor: 'from-gold-400 to-purple-500',
     spoken: 'Public health means the health of the whole community! When everyone keeps themselves and their surroundings clean, everyone stays healthy and happy. Be a Cleanliness Champion!',
   },
 ];
@@ -507,7 +507,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-sky-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[10px] font-bold text-gray-700 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -745,7 +745,7 @@ export function HealthGame({ width = 720, height = 560, onComplete }: HealthGame
       {/* Top Header Bar */}
       <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-10 shadow-sm">
         <div className="flex items-center gap-3">
-          <span className="text-xl font-extrabold text-blue-800">🏥 Health & Cleanliness Game</span>
+          <span className="text-xl font-extrabold text-gold-800">🏥 Health & Cleanliness Game</span>
         </div>
         {screen === 'play' && (
           <div className="flex items-center gap-4">
@@ -760,9 +760,9 @@ export function HealthGame({ width = 720, height = 560, onComplete }: HealthGame
       {/* ─── TEACHING SCREEN ───────────────────────────────────── */}
       {screen === 'teaching' && (
         <div className="absolute inset-0 pt-20 px-8 pb-8 flex flex-col items-center justify-between z-10">
-          <div className="w-full max-w-xl bg-white/95 backdrop-blur rounded-3xl p-6 shadow-xl border-4 border-sky-300 flex flex-col items-center text-center">
+          <div className="w-full max-w-xl bg-white/95 backdrop-blur rounded-3xl p-6 shadow-xl border-4 border-gold-300 flex flex-col items-center text-center">
             <div className="text-5xl mb-3">{TEACHING_SLIDES[slideIdx].emoji}</div>
-            <h2 className="text-2xl font-black text-blue-900 mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
+            <h2 className="text-2xl font-black text-gold-900 mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
             <p className="text-base font-medium text-gray-700 leading-relaxed mb-6">{TEACHING_SLIDES[slideIdx].text}</p>
 
             {/* Slide dots */}
@@ -770,7 +770,7 @@ export function HealthGame({ width = 720, height = 560, onComplete }: HealthGame
               {TEACHING_SLIDES.map((_, i) => (
                 <div
                   key={i}
-                  className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-blue-600 w-6' : 'bg-gray-300'}`}
+                  className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-gold-600 w-6' : 'bg-gray-300'}`}
                 />
               ))}
             </div>
@@ -797,7 +797,7 @@ export function HealthGame({ width = 720, height = 560, onComplete }: HealthGame
                     setScreen('play');
                   }
                 }}
-                className="px-8 py-2.5 rounded-xl font-bold text-white bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 shadow-lg"
+                className="px-8 py-2.5 rounded-xl font-bold text-white bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-700 hover:to-gold-600 shadow-lg"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Playing! 🚀' : 'Next ➜'}
               </button>
@@ -810,11 +810,11 @@ export function HealthGame({ width = 720, height = 560, onComplete }: HealthGame
       {screen === 'play' && (
         <div className="absolute inset-0 pt-20 px-6 pb-6 flex flex-col items-center justify-between z-10">
           {/* Question Box */}
-          <div className="w-full max-w-xl bg-white/95 backdrop-blur rounded-2xl p-4 shadow-lg border-2 border-sky-300 flex flex-col items-center text-center">
+          <div className="w-full max-w-xl bg-white/95 backdrop-blur rounded-2xl p-4 shadow-lg border-2 border-gold-300 flex flex-col items-center text-center">
             <h3 className="text-lg font-black text-gray-900 mb-1">{currentChallenge.question}</h3>
             <button
               onClick={handleShowHint}
-              className="text-xs font-bold text-blue-600 hover:text-blue-800 underline mt-1"
+              className="text-xs font-bold text-gold-600 hover:text-gold-800 underline mt-1"
             >
               Need a hint? 💡
             </button>
@@ -829,10 +829,10 @@ export function HealthGame({ width = 720, height = 560, onComplete }: HealthGame
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswerClick(option)}
-                  className="w-full py-3.5 px-6 rounded-2xl bg-white/95 hover:bg-sky-50 shadow-md font-bold text-gray-800 text-left border-2 border-sky-200 transition-all flex items-center justify-between"
+                  className="w-full py-3.5 px-6 rounded-2xl bg-white/95 hover:bg-gold-50 shadow-md font-bold text-gray-800 text-left border-2 border-gold-200 transition-all flex items-center justify-between"
                 >
                   <span>{option}</span>
-                  <div className="w-6 h-6 rounded-full border-2 border-sky-300 flex items-center justify-center text-xs font-extrabold text-sky-600">
+                  <div className="w-6 h-6 rounded-full border-2 border-gold-300 flex items-center justify-center text-xs font-extrabold text-gold-600">
                     {String.fromCharCode(65 + idx)}
                   </div>
                 </motion.button>

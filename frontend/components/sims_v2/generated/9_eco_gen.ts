@@ -182,8 +182,8 @@ export const C9_ECO_GEN: SimDef[] = [
     "question": "Compare two scenarios: (A) Price of milk rises → demand for cornflakes falls. (B) Price of tea rises → demand for coffee rises. Identify the relationship in each case. Then analyze: if the price of cornflakes itself falls, how does that affect the demand for milk differently than scenario A?",
     "answer": "Scenario A: milk and cornflakes are complements (price of milk up → demand for cornflakes down). Scenario B: tea and coffee are substitutes (price of tea up → demand for coffee",
     "options": [
+     "Substitute goods: an increase in the price of good Y leads to an increase in demand for good X (positive relationship)",
      "The chain runs: (1) The tax raises the price of aerated drinks (2) Fruit juices become relatively cheaper as substitute goods (3) Consumers switch toward juices and demand rises",
-     "Cars and petrol are complements. A rise in petrol price increases the cost of using a car, so demand for cars decreases — the demand curve for cars shifts leftward",
      "Scenario A: milk and cornflakes are complements (price of milk up → demand for cornflakes down). Scenario B: tea and coffee are substitutes (price of tea up → demand for coffee"
     ],
     "hint": "Straight from the 'Substitute goods' slide -- match the key terms.",
@@ -212,8 +212,8 @@ export const C9_ECO_GEN: SimDef[] = [
     "question": "Define substitute goods and complementary goods in terms of how the price of one good affects the demand for the other.",
     "answer": "Substitute goods: an increase in the price of good Y leads to an increase in demand for good X (positive relationship)",
     "options": [
-     "Example: Substitutes — bus travel and metro travel (price of bus fare up → metro demand up). Complements — printers and ink cartridges (price of printers down → ink demand up)",
-     "Step 1: Identify Samsung and Xiaomi as substitutes. Step 2: Samsung price falls → Samsung becomes relatively cheaper",
+     "The student can correctly predict the direction of the demand curve shift for a good when given a price change in a related good",
+     "Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the other",
      "Substitute goods: an increase in the price of good Y leads to an increase in demand for good X (positive relationship)"
     ],
     "hint": "Straight from the 'Substitute goods' slide -- match the key terms.",
@@ -266,6 +266,36 @@ export const C9_ECO_GEN: SimDef[] = [
     "id": "gen_c9_eco_ch02_q8",
     "nodeId": "c9_eco_ch2_5",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Substitute goods? State the definition given in this lesson.",
+    "answer": "Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the other",
+    "options": [
+     "Substitute goods: an increase in the price of good Y leads to an increase in demand for good X (positive relationship)",
+     "The student can correctly predict the direction of the demand curve shift for a good when given a price change in a related good",
+     "Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the other"
+    ],
+    "hint": "Straight from the 'Substitute goods' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the",
+    "id": "gen_c9_eco_ch02_q9",
+    "nodeId": "c9_eco_ch2_5",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can correctly predict the direction of the demand curve shift for a good when given a price change in a related good",
+    "options": [
+     "Substitute goods: an increase in the price of good Y leads to an increase in demand for good X (positive relationship)",
+     "Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the other",
+     "The student can correctly predict the direction of the demand curve shift for a good when given a price change in a related good"
+    ],
+    "hint": "Straight from the 'Substitute goods' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can correctly predict the direction of the demand curve shift for a good when given a price change in a",
+    "id": "gen_c9_eco_ch02_q10",
+    "nodeId": "c9_eco_ch2_5",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -275,6 +305,7 @@ export const C9_ECO_GEN: SimDef[] = [
    ]
   },
   "successLine": "Substitute Goods mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  }
 ];

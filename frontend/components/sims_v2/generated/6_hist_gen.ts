@@ -68,7 +68,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Great Bath Of Mohenjo-daro Was",
+    "title": "Great Bath Of Mohenjo-daro",
     "text": "The Great Bath of Mohenjo-daro was a large, rectangular public tank constructed from baked bricks and waterproofed with bitumen, designed to hold water for community use.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -83,15 +83,15 @@ export const C6_HIST_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Is it accurate to say cities appeared immediately after humans started using fire?",
-    "answer": "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming",
+    "question": "What was the primary way humans gathered food before they started farming?",
+    "answer": "Early humans survived by hunting animals and gathering wild plants and fruits",
     "options": [
-     "No, it is not accurate because they also relied on fishing, hunting, and highly developed crafts like pottery and bead-making to support their daily lives",
-     "I would look for specific styles of baked bricks, urban planning (grid patterns), and types of pottery or seals characteristic of the Harappan culture",
-     "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming"
+     "The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and identify two key reasons (food surplus and permanent settlement)",
+     "The streets followed a grid pattern, crossing each other at right angles",
+     "Early humans survived by hunting animals and gathering wild plants and fruits"
     ],
     "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, cities appeared much later, only after humans mastered farming and settled in one place.",
+    "misconception": "A wrong answer here suggests the student confuses \"hunter-gatherer\" lifestyles with \"farming\" lifestyles, likely forgetting that agriculture was a later invention.",
     "id": "gen_c6_hist_ch04_q1",
     "nodeId": "c6_history_ch04_001",
     "difficulty": "standard",
@@ -107,11 +107,11 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Why do historians classify the Harappan Civilisation as an \"urban\" civilisation?",
     "answer": "It is called urban because it featured large, complex cities like Harappa and Mohenjo-daro rather than small, scattered farming hamlets",
     "options": [
-     "It shows that the people did not rely on carrying water from far away, but planned the infrastructure to supply the bath directly",
-     "Because the city was divided into orderly rectangular blocks by straight streets, which is impossible to achieve if a city grows haphazardly",
+     "Animals provided a steady source of food (milk/meat) and labor, acting as a \"backup\" or supplement when harvests were unpredictable",
+     "In a temporary camp, everyone's energy is spent finding food; in a city, the surplus food allows some people to do other tasks like making pottery or tools",
      "It is called urban because it featured large, complex cities like Harappa and Mohenjo-daro rather than small, scattered farming hamlets"
     ],
-    "hint": "Straight from the 'Harappan Civilisation was one of' slide -- match the key terms.",
+    "hint": "Straight from the 'Harappan Civilisation was one' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student does not understand the difference between a simple village and a planned, city-based society.",
     "id": "gen_c6_hist_ch04_q2",
     "nodeId": "c6_history_ch04_002",
@@ -128,8 +128,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What geometric pattern did Harappan streets follow?",
     "answer": "The streets followed a grid pattern, crossing each other at right angles",
     "options": [
-     "The student must be able to describe the grid pattern of Harappan streets and explain how this structure indicates intentional city planning rather than haphazard growth",
-     "The student must be able to identify the approximate time period and geographical reach of the Harappan Civilisation and distinguish it as an urban society based on archaeological",
+     "Harappan town planning refers to the highly organized, systematic layout of ancient Indus cities characterized by a grid-like street pattern and the use of standardized baked",
+     "Early humans survived by hunting animals and gathering wild plants and fruits",
      "The streets followed a grid pattern, crossing each other at right angles"
     ],
     "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
@@ -146,15 +146,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why was the development of cotton cultivation significant for the Harappan people?",
-    "answer": "It was significant because they were among the first people in the world to cultivate and weave cotton, showing they had advanced skills in clothing production",
+    "question": "Name two crops that the Harappan people grew for food.",
+    "answer": "The Harappan people grew wheat and barley",
     "options": [
-     "The streets were wide enough for carts to pass, indicating that trade and transport of goods were important parts of city life",
-     "It shows that the people did not rely on carrying water from far away, but planned the infrastructure to supply the bath directly",
-     "It was significant because they were among the first people in the world to cultivate and weave cotton, showing they had advanced skills in clothing production"
+     "The streets followed a grid pattern, crossing each other at right angles",
+     "The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and identify two key reasons (food surplus and permanent settlement)",
+     "Poor people grew wheat and barley",
+     "The Harappan people grew wheat and barley"
     ],
     "hint": "Straight from the 'Harappan economy was a thriving' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks of the Harappans only as farmers and misses their role as innovators in textiles.",
+    "misconception": "A wrong answer here shows the student has not yet distinguished between early hunter-gatherers and the agricultural Harappan civilization.",
     "id": "gen_c6_hist_ch04_q4",
     "nodeId": "c6_history_ch04_004",
     "difficulty": "standard",
@@ -167,15 +168,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do archaeologists think the Great Bath was a significant part of the city of Mohenjo-daro?",
-    "answer": "It was significant because it was a large, carefully engineered public structure that suggests the city had a government or authority capable of organizing large-scale",
+    "question": "What were the two main materials used to make the Great Bath at Mohenjo-daro waterproof and durable?",
+    "answer": "The two main materials were baked bricks and bitumen",
     "options": [
-     "It was significant because they were among the first people in the world to cultivate and weave cotton, showing they had advanced skills in clothing production",
-     "It shows they were not an isolated group but a vast network of connected cities across a huge region",
-     "It was significant because it was a large, carefully engineered public structure that suggests the city had a government or authority capable of organizing large-scale"
+     "Early humans survived by hunting animals and gathering wild plants and fruits",
+     "The streets followed a grid pattern, crossing each other at right angles",
+     "The two main materials were baked bricks and bitumen"
     ],
-    "hint": "Straight from the 'Great Bath of Mohenjo-daro was' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks it was just a regular house tank, missing the \"public\" scale of the building.",
+    "hint": "Straight from the 'Great Bath of Mohenjo-daro' slide -- match the key terms.",
+    "misconception": "A wrong answer (like \"cement\" or \"tiles\") reveals the student is applying modern construction knowledge instead of historical context.",
     "id": "gen_c6_hist_ch04_q5",
     "nodeId": "c6_history_ch04_005",
     "difficulty": "foundation",
@@ -191,8 +192,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Why do historians use the word \"theory\" when discussing the decline of the Harappan cities?",
     "answer": "They use \"theory\" because there is no direct written record or single piece of evidence that explains exactly why the cities ended",
     "options": [
-     "Because the city was divided into orderly rectangular blocks by straight streets, which is impossible to achieve if a city grows haphazardly",
-     "The streets were wide enough for carts to pass, indicating that trade and transport of goods were important parts of city life",
+     "In a temporary camp, everyone's energy is spent finding food; in a city, the surplus food allows some people to do other tasks like making pottery or tools",
+     "Farming produced more food than people needed to survive, creating a \"surplus.\" This surplus allowed people to stop moving, live in permanent homes",
      "They use \"theory\" because there is no direct written record or single piece of evidence that explains exactly why the cities ended"
     ],
     "hint": "Straight from the 'decline of the Harappan' slide -- match the key terms.",
@@ -209,6 +210,36 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "How does a city differ from a small, temporary camp in terms of how people spend their time?",
+    "answer": "In a temporary camp, everyone's energy is spent finding food; in a city, the surplus food allows some people to do other tasks like making pottery or tools",
+    "options": [
+     "The streets were wide enough for carts to pass, indicating that trade and transport of goods were important parts of city life",
+     "It shows that the people did not rely on carrying water from far away, but planned the infrastructure to supply the bath directly",
+     "In a temporary camp, everyone's energy is spent finding food; in a city, the surplus food allows some people to do other tasks like making pottery or tools"
+    ],
+    "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates the student hasn't grasped how \"specialization\" or the division of labor happens when survival isn't the only priority.",
+    "id": "gen_c6_hist_ch04_q7",
+    "nodeId": "c6_history_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a group of people moves every season to find water and berries, would they be able to build a large city? Why or why not?",
+    "answer": "No, because cities require permanent buildings and large populations that stay in one place to organize and trade",
+    "options": [
+     "It tells us that they had specialized craftspeople who didn't just make basic bowls, but decorated them, indicating a prosperous economy where people had time for art",
+     "Steps: 1. Identify the river as a source of water. 2. Recognize water is needed for crops (agriculture) and daily life",
+     "No, because cities require permanent buildings and large populations that stay in one place to organize and trade"
+    ],
+    "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a failure to connect the \"sedentary\" (staying in one place) nature of farming with the structure of a city.",
+    "id": "gen_c6_hist_ch04_q8",
+    "nodeId": "c6_history_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Imagine you are a leader of an early human group. What is one rule you would create to help your village grow into a city?",
     "answer": "A good answer would involve sharing resources, organizing labor, or storing food for the future. A poor answer focuses on things irrelevant to urban growth",
     "options": [
@@ -218,7 +249,22 @@ export const C6_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
     "misconception": "A poor answer focuses on things irrelevant to urban growth, such as \"don't run in the halls,\" which shows a lack of understanding of social organization in early societies.",
-    "id": "gen_c6_hist_ch04_q7",
+    "id": "gen_c6_hist_ch04_q9",
+    "nodeId": "c6_history_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it accurate to say cities appeared immediately after humans started using fire?",
+    "answer": "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming",
+    "options": [
+     "It would be harder to call it planned, as the Harappan use of standardized bricks ensured uniformity and order",
+     "No, because cities require permanent buildings and large populations that stay in one place to organize and trade",
+     "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming"
+    ],
+    "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, cities appeared much later, only after humans mastered farming and settled in one place.",
+    "id": "gen_c6_hist_ch04_q10",
     "nodeId": "c6_history_ch04_001",
     "difficulty": "standard"
    },
@@ -228,12 +274,27 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and identify two key reasons (food surplus and permanent settlement)",
     "options": [
      "The student must be able to identify the location (Mohenjo-daro), the primary material (baked bricks), the waterproofing method (bitumen)",
-     "The student must be able to identify the approximate time period and geographical reach of the Harappan Civilisation and distinguish it as an urban society based on archaeological",
+     "The student must be able to describe the grid pattern of Harappan streets and explain how this structure indicates intentional city planning rather than haphazard growth",
      "The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and identify two key reasons (food surplus and permanent settlement)"
     ],
     "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and",
-    "id": "gen_c6_hist_ch04_q8",
+    "id": "gen_c6_hist_ch04_q11",
+    "nodeId": "c6_history_ch04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why did farming help villages grow into cities?",
+    "answer": "Farming produced more food than people needed to survive, creating a \"surplus.\" This surplus allowed people to stop moving, live in permanent homes",
+    "options": [
+     "It shows they were not an isolated group but a vast network of connected cities across a huge region",
+     "It shows that the people did not rely on carrying water from far away, but planned the infrastructure to supply the bath directly",
+     "Farming produced more food than people needed to survive, creating a \"surplus.\" This surplus allowed people to stop moving, live in permanent homes"
+    ],
+    "hint": "Straight from the 'Early cities were large,' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student does not understand that population growth is tied to food stability.",
+    "id": "gen_c6_hist_ch04_q12",
     "nodeId": "c6_history_ch04_001",
     "difficulty": "standard"
    },
@@ -242,13 +303,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Could we call the Harappan Civilisation \"modern\" because it had cities? Justify your stance.",
     "answer": "No, we call it \"early urban,\" because while they had cities, they lacked modern technology like electricity or the internet",
     "options": [
+     "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming",
      "It tells us that they had specialized craftspeople who didn't just make basic bowls, but decorated them, indicating a prosperous economy where people had time for art",
-     "A student should choose items like a bag of wheat, a spindle for cotton, and a decorated pot. Poor answers that include modern items or items not mentioned (like iron tools) show",
      "No, we call it \"early urban,\" because while they had cities, they lacked modern technology like electricity or the internet"
     ],
-    "hint": "Straight from the 'Harappan Civilisation was one of' slide -- match the key terms.",
+    "hint": "Straight from the 'Harappan Civilisation was one' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, we call it \"early urban,\" because while they had cities, they lacked modern technology like electricity or the",
-    "id": "gen_c6_hist_ch04_q9",
+    "id": "gen_c6_hist_ch04_q13",
     "nodeId": "c6_history_ch04_002",
     "difficulty": "standard"
    },
@@ -257,13 +318,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "How does the vast geographical extent (1.2 million square kilometres) change our understanding of these early people?",
     "answer": "It shows they were not an isolated group but a vast network of connected cities across a huge region",
     "options": [
-     "The streets were wide enough for carts to pass, indicating that trade and transport of goods were important parts of city life",
-     "Animals provided a steady source of food (milk/meat) and labor, acting as a \"backup\" or supplement when harvests were unpredictable",
+     "In a temporary camp, everyone's energy is spent finding food; in a city, the surplus food allows some people to do other tasks like making pottery or tools",
+     "Because the city was divided into orderly rectangular blocks by straight streets, which is impossible to achieve if a city grows haphazardly",
      "It shows they were not an isolated group but a vast network of connected cities across a huge region"
     ],
-    "hint": "Straight from the 'Harappan Civilisation was one of' slide -- match the key terms.",
+    "hint": "Straight from the 'Harappan Civilisation was one' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks of the civilisation as a small, single town rather than a widespread culture.",
-    "id": "gen_c6_hist_ch04_q10",
+    "id": "gen_c6_hist_ch04_q14",
     "nodeId": "c6_history_ch04_002",
     "difficulty": "standard"
    },
@@ -273,27 +334,12 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "I would look for specific styles of baked bricks, urban planning (grid patterns), and types of pottery or seals characteristic of the Harappan culture",
     "options": [
      "It is unlikely, as complex societies usually fail due to a combination of factors. Historians look at multiple theories because the environment is rarely affected by only one",
-     "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming",
+     "No, because cities require permanent buildings and large populations that stay in one place to organize and trade",
      "I would look for specific styles of baked bricks, urban planning (grid patterns), and types of pottery or seals characteristic of the Harappan culture"
     ],
-    "hint": "Straight from the 'Harappan Civilisation was one of' slide -- match the key terms.",
+    "hint": "Straight from the 'Harappan Civilisation was one' slide -- match the key terms.",
     "misconception": "A poor answer would focus on vague items like \"old tools\" which could belong to any time period.",
-    "id": "gen_c6_hist_ch04_q11",
-    "nodeId": "c6_history_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify the approximate time period and geographical reach of the Harappan Civilisation and distinguish it as an urban society based on archaeological",
-    "options": [
-     "The student must be able to describe the grid pattern of Harappan streets and explain how this structure indicates intentional city planning rather than haphazard growth",
-     "The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and identify two key reasons (food surplus and permanent settlement)",
-     "The student must be able to identify the approximate time period and geographical reach of the Harappan Civilisation and distinguish it as an urban society based on archaeological"
-    ],
-    "hint": "Straight from the 'Harappan Civilisation was one of' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the approximate time period and geographical reach of the Harappan Civilisation",
-    "id": "gen_c6_hist_ch04_q12",
+    "id": "gen_c6_hist_ch04_q15",
     "nodeId": "c6_history_ch04_002",
     "difficulty": "standard"
    },
@@ -303,12 +349,12 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "It would be harder to call it planned, as the Harappan use of standardized bricks ensured uniformity and order",
     "options": [
      "The report should hypothesize that the river shift caused a lack of irrigation, leading to agricultural failure and the eventual abandonment of the city by its residents",
-     "No, cities appeared much later, only after humans mastered farming and settled in one place. This tests the student's ability to sequence events on a timeline rather than assuming",
+     "No, because cities require permanent buildings and large populations that stay in one place to organize and trade",
      "It would be harder to call it planned, as the Harappan use of standardized bricks ensured uniformity and order"
     ],
     "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student doesn't understand that \"standardization\" is a key marker of organized, planned societies.",
-    "id": "gen_c6_hist_ch04_q13",
+    "id": "gen_c6_hist_ch04_q16",
     "nodeId": "c6_history_ch04_003",
     "difficulty": "standard"
    },
@@ -317,13 +363,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Design a simple map of a town using the Harappan \"grid\" style; what would be at the corners of your blocks?",
     "answer": "The map should show straight, crossing lines with clearly defined rectangular areas for houses or buildings",
     "options": [
-     "It tells us that they had specialized craftspeople who didn't just make basic bowls, but decorated them, indicating a prosperous economy where people had time for art",
+     "No, we call it \"early urban,\" because while they had cities, they lacked modern technology like electricity or the internet",
      "I would look for specific styles of baked bricks, urban planning (grid patterns), and types of pottery or seals characteristic of the Harappan culture",
      "The map should show straight, crossing lines with clearly defined rectangular areas for houses or buildings"
     ],
     "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The map should show straight, crossing lines with clearly defined rectangular areas for houses or buildings.",
-    "id": "gen_c6_hist_ch04_q14",
+    "id": "gen_c6_hist_ch04_q17",
     "nodeId": "c6_history_ch04_003",
     "difficulty": "standard"
    },
@@ -338,51 +384,6 @@ export const C6_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student is not connecting physical architecture to social or economic function.",
-    "id": "gen_c6_hist_ch04_q15",
-    "nodeId": "c6_history_ch04_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were to design a city today like the Harappans, how would you arrange your streets?",
-    "answer": "I would draw straight, parallel lines in one direction and cross them with perpendicular lines to form squares",
-    "options": [
-     "No, we call it \"early urban,\" because while they had cities, they lacked modern technology like electricity or the internet",
-     "Evidence would include its large size, connection to water systems (drains/wells), and its location in a central area of the city",
-     "I would draw straight, parallel lines in one direction and cross them with perpendicular lines to form squares"
-    ],
-    "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: I would draw straight, parallel lines in one direction and cross them with perpendicular lines to form squares.",
-    "id": "gen_c6_hist_ch04_q16",
-    "nodeId": "c6_history_ch04_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to describe the grid pattern of Harappan streets and explain how this structure indicates intentional city planning rather than haphazard growth",
-    "options": [
-     "The student must be able to list at least two environmental theories explaining the decline and explain why historians consider these to be \"theories\" rather than absolute facts",
-     "The student must be able to explain the transition from nomadic hunter-gatherer life to sedentary city life and identify two key reasons (food surplus and permanent settlement)",
-     "The student must be able to describe the grid pattern of Harappan streets and explain how this structure indicates intentional city planning rather than haphazard growth"
-    ],
-    "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe the grid pattern of Harappan streets and explain how this structure indicates",
-    "id": "gen_c6_hist_ch04_q17",
-    "nodeId": "c6_history_ch04_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do historians believe Harappan cities were planned before they were built?",
-    "answer": "Because the city was divided into orderly rectangular blocks by straight streets, which is impossible to achieve if a city grows haphazardly",
-    "options": [
-     "They use \"theory\" because there is no direct written record or single piece of evidence that explains exactly why the cities ended",
-     "It shows that the people did not rely on carrying water from far away, but planned the infrastructure to supply the bath directly",
-     "Because the city was divided into orderly rectangular blocks by straight streets, which is impossible to achieve if a city grows haphazardly"
-    ],
-    "hint": "Straight from the 'Harappan town planning' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student failed to link the \"grid\" design to the idea of \"intentional planning.\"",
     "id": "gen_c6_hist_ch04_q18",
     "nodeId": "c6_history_ch04_003",
     "difficulty": "standard"
@@ -488,15 +489,15 @@ export const C6_HIST_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Was the Mauryan Empire the very first group to settle in the Indian subcontinent? Defend your answer.",
-    "answer": "No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas",
+    "question": "Who was the founder of the Mauryan Empire, and who served as his main advisor?",
+    "answer": "Chandragupta Maurya founded the empire, and his advisor was Chanakya (also known as Kautilya)",
     "options": [
-     "A good answer would suggest building infrastructure, helping the displaced people, or focusing on internal prosperity",
-     "You would see them because the Mauryan central army was no longer strong enough to hold the northwest border",
-     "No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas"
+     "The student must be able to identify that the Mauryan Empire did not vanish instantly but transformed into several smaller regional powers and explain that the transition involved",
+     "Harshavardhana was a 7th-century ruler of northern India. His capital was at Kanauj",
+     "Chandragupta Maurya founded the empire, and his advisor was Chanakya (also known as Kautilya)"
     ],
     "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas.",
+    "misconception": "A wrong answer reveals the student is confusing the Mauryan period with other dynasties like the Nandas or later empires.",
     "id": "gen_c6_hist_ch05_q1",
     "nodeId": "c6_history_ch05_007",
     "difficulty": "standard",
@@ -509,15 +510,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If Ashoka were a king today, how might his decision to give up war affect his relationship with his neighbors?",
-    "answer": "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy",
+    "question": "Why did Ashoka feel \"remorse\" after the Kalinga War?",
+    "answer": "He felt deep regret because he saw the massive loss of life and the suffering of displaced people",
     "options": [
-     "No, it was a choice made from a position of strength after winning the war",
-     "It was a planned policy, evidenced by his systematic use of edicts and missionaries across the empire",
-     "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy"
+     "The council helped the emperor make major decisions and manage the empire's affairs effectively. An answer suggesting the council \"did all the work for the emperor\" misses the",
+     "Because mahajanapadas were independent kingdoms with their own kings, they likely competed with each other rather than working together",
+     "He felt deep regret because he saw the massive loss of life and the suffering of displaced people"
     ],
-    "hint": "Straight from the 'Ashoka was the third emperor of' slide -- match the key terms.",
-    "misconception": "A student who says he would be conquered immediately fails to understand that he remained an emperor; they are confusing \"giving up war\" with \"giving up power.\"",
+    "hint": "Straight from the 'Ashoka was the third emperor' slide -- match the key terms.",
+    "misconception": "A student who says he lost the war shows they missed the fact that he was the victor, but the human cost changed his perspective.",
     "id": "gen_c6_hist_ch05_q2",
     "nodeId": "c6_history_ch05_008",
     "difficulty": "standard",
@@ -533,8 +534,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What materials did Ashoka use to create his edicts, and why were these choices important?",
     "answer": "He used rock surfaces and sandstone pillars. These materials were chosen because they are durable and permanent, ensuring his messages would last for generations",
     "options": [
-     "Ashoka built stupas (dome-shaped monuments containing relics) and viharas (monasteries)",
-     "The student must be able to identify that the Mauryan Empire did not vanish instantly but transformed into several smaller regional powers and explain that the transition involved",
+     "The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to change his policy from military conquest to non-violence",
+     "The founder was Chandragupta I, who began his rule around 320 CE",
      "He used rock surfaces and sandstone pillars. These materials were chosen because they are durable and permanent, ensuring his messages would last for generations"
     ],
     "hint": "Straight from the 'Ashoka's edicts' slide -- match the key terms.",
@@ -554,9 +555,9 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Who were the officials responsible for managing specific government departments in the Mauryan Empire?",
     "answer": "They were called *amatyas*",
     "options": [
-     "The student must be able to identify the key rulers of the Gupta Empire and explain why this period is labeled the \"Golden Age\" in terms of stability and growth",
-     "The student must be able to list at least three specific methods Ashoka used to propagate Buddhist teachings and explain why his patronage was essential for the religion’s",
-     "Ashoka's were called *amatyas*",
+     "The student must be able to identify that the Mauryan Empire did not vanish instantly but transformed into several smaller regional powers and explain that the transition involved",
+     "Chandragupta Maurya founded the empire, and his advisor was Chanakya (also known as Kautilya)",
+     "Connect were called *amatyas*",
      "They were called *amatyas*"
     ],
     "hint": "Straight from the 'Mauryan administration was a' slide -- match the key terms.",
@@ -576,8 +577,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What were the two types of structures Ashoka built to help spread Buddhism?",
     "answer": "Ashoka built stupas (dome-shaped monuments containing relics) and viharas (monasteries)",
     "options": [
-     "He used rock surfaces and sandstone pillars. These materials were chosen because they are durable and permanent, ensuring his messages would last for generations",
-     "They were called *amatyas*",
+     "The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to change his policy from military conquest to non-violence",
+     "Chandragupta Maurya founded the empire, and his advisor was Chanakya (also known as Kautilya)",
      "Ashoka built stupas (dome-shaped monuments containing relics) and viharas (monasteries)"
     ],
     "hint": "Straight from the 'spread of Buddhism under Ashoka' slide -- match the key terms.",
@@ -597,9 +598,9 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Who was the general that ended the Mauryan dynasty and established the Shunga dynasty?",
     "answer": "The general was Pushyamitra Shunga",
     "options": [
-     "The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to change his policy from military conquest to non-violence",
-     "He used rock surfaces and sandstone pillars. These materials were chosen because they are durable and permanent, ensuring his messages would last for generations",
-     "The general was This",
+     "The student must be able to identify that the Mauryan Empire did not vanish instantly but transformed into several smaller regional powers and explain that the transition involved",
+     "Chandragupta Maurya founded the empire, and his advisor was Chanakya (also known as Kautilya)",
+     "The general was Military",
      "The general was Pushyamitra Shunga"
     ],
     "hint": "Straight from the 'Post-Mauryan period' slide -- match the key terms.",
@@ -616,15 +617,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you were a trader in the Gupta Empire, how would the \"political stability\" mentioned in the text help your business?",
-    "answer": "Steps: 1. Identify that stability means fewer wars and safer roads. 2. Recognize that safer roads mean easier travel",
+    "question": "Who was the founder of the Gupta Empire and in what year did he begin his rule?",
+    "answer": "The founder was Chandragupta I, who began his rule around 320 CE",
     "options": [
-     "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy",
-     "No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas",
-     "Steps: 1. Identify that stability means fewer wars and safer roads. 2. Recognize that safer roads mean easier travel"
+     "The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to change his policy from military conquest to non-violence",
+     "Chandragupta Maurya founded the empire, and his advisor was Chanakya (also known as Kautilya)",
+     "The founder was Chandragupta I, who began his rule around 320 CE"
     ],
     "hint": "Straight from the 'Gupta Empire was a powerful' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student does not understand how a peaceful government supports the economy.",
+    "misconception": "A wrong answer suggests the student is mixing up the Guptas with the Mauryan Empire (Chandragupta Maurya), which occurred much earlier.",
     "id": "gen_c6_hist_ch05_q7",
     "nodeId": "c6_history_ch05_013",
     "difficulty": "standard",
@@ -637,15 +638,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is Harshavardhana’s rise to power considered to be under \"difficult circumstances\"?",
-    "answer": "He inherited a small, unstable kingdom after the tragic deaths of his father and elder brother",
+    "question": "Who was Harshavardhana and where was his capital city located?",
+    "answer": "Harshavardhana was a 7th-century ruler of northern India. His capital was at Kanauj",
     "options": [
-     "A conqueror focuses on territorial expansion, while a patron invests in schools, scholars, and books",
-     "It shrank because the successors who followed Ashoka were not as capable, making it difficult to keep the vast empire united",
-     "He inherited a small, unstable kingdom after the tragic deaths of his father and elder brother"
+     "He used rock surfaces and sandstone pillars. These materials were chosen because they are durable and permanent, ensuring his messages would last for generations",
+     "The student must be able to describe Harsha’s rise to power, identify his capital city, and explain his role as a patron of arts and learning",
+     "Harshavardhana was a 7th-century ruler of northern India. His capital was at Kanauj"
     ],
     "hint": "Straight from the 'Harshavardhana was a prominent' slide -- match the key terms.",
-    "misconception": "If a student says \"he was born into a large empire,\" they have missed the key point about his personal struggle to build his kingdom from scratch.",
+    "misconception": "A wrong answer suggests the student is confusing him with earlier emperors like Ashoka or Gupta rulers.",
     "id": "gen_c6_hist_ch05_q8",
     "nodeId": "c6_history_ch05_014",
     "difficulty": "standard",
@@ -658,6 +659,21 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If Chandragupta Maurya wanted to add a neighboring land to his empire without starting a war, what method could he use?",
+    "answer": "He could use diplomacy, such as making treaties or alliances with local rulers",
+    "options": [
+     "No, while he was a Buddhist, he supported other faiths and traditions. This shows his inclusive approach to governance",
+     "No, it was a choice made from a position of strength after winning the war",
+     "He could use diplomacy, such as making treaties or alliances with local rulers"
+    ],
+    "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks conquest (war) is the only way empires grew, missing the role of negotiation.",
+    "id": "gen_c6_hist_ch05_q9",
+    "nodeId": "c6_history_ch05_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Imagine you are a leader in a small mahajanapada. If a massive empire like the Mauryan Empire approaches you, what are your options for survival?",
     "answer": "The student should suggest options like fighting, forming a diplomatic alliance, or surrendering to avoid destruction",
     "options": [
@@ -667,7 +683,67 @@ export const C6_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
     "misconception": "A poor answer ignores the political reality of the time and fails to apply the concept of \"conquest and diplomacy.\"",
-    "id": "gen_c6_hist_ch05_q9",
+    "id": "gen_c6_hist_ch05_q10",
+    "nodeId": "c6_history_ch05_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "In your own words, what was the biggest change in the Indian political landscape when the Mauryan Empire was established?",
+    "answer": "The change was the move from many small, separate mahajanapadas to one large, unified empire under a single authority",
+    "options": [
+     "Steps: 1. Identify the location (public spaces/routes). 2. Recognize the durability. 3. Connect to the reader",
+     "The map in 200 BCE would show a large, singular block (Mauryan), while the map in 100 BCE would show a fragmented landscape with many small, distinct color-coded regions",
+     "The change was the move from many small, separate mahajanapadas to one large, unified empire under a single authority"
+    ],
+    "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student does not understand the difference between a small kingdom and a vast empire.",
+    "id": "gen_c6_hist_ch05_q11",
+    "nodeId": "c6_history_ch05_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Was the Mauryan Empire the very first group to settle in the Indian subcontinent? Defend your answer.",
+    "answer": "No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas",
+    "options": [
+     "A good answer includes departments for Revenue (to fund the state), Justice (to settle disputes), and Military (to ensure security)",
+     "It was a planned policy, evidenced by his systematic use of edicts and missionaries across the empire",
+     "No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas"
+    ],
+    "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, the empire was formed long after the subcontinent was already populated and divided into mahajanapadas.",
+    "id": "gen_c6_hist_ch05_q12",
+    "nodeId": "c6_history_ch05_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify who founded the Mauryan Empire, the role of his advisor, and explain the shift from fragmented mahajanapadas to a unified empire",
+    "options": [
+     "The student must be able to identify that the edicts served as a public communication tool and explain at least two reasons why Ashoka chose to carve them on stone rather than",
+     "The student must be able to identify the core components of the administration (emperor, council",
+     "The student must be able to identify who founded the Mauryan Empire, the role of his advisor, and explain the shift from fragmented mahajanapadas to a unified empire"
+    ],
+    "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify who founded the Mauryan Empire, the role of his advisor, and explain the shift",
+    "id": "gen_c6_hist_ch05_q13",
+    "nodeId": "c6_history_ch05_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why was the existence of mahajanapadas a challenge to creating a single, strong nation?",
+    "answer": "Because mahajanapadas were independent kingdoms with their own kings, they likely competed with each other rather than working together",
+    "options": [
+     "It showed that he was personally committed to his cause, making the message more serious to others",
+     "He felt deep regret because he saw the massive loss of life and the suffering of displaced people",
+     "Because mahajanapadas were independent kingdoms with their own kings, they likely competed with each other rather than working together"
+    ],
+    "hint": "Straight from the 'Mauryan Empire was the first' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Because mahajanapadas were independent kingdoms with their own kings, they likely competed with each other rather than",
+    "id": "gen_c6_hist_ch05_q14",
     "nodeId": "c6_history_ch05_007",
     "difficulty": "standard"
    },
@@ -676,13 +752,28 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Compare the Ashoka before the Kalinga War to the Ashoka after it.",
     "answer": "Before, he was a conqueror focused on expansion; after, he was a ruler focused on non-violence and avoiding conflict",
     "options": [
-     "The Shunga kingdom was much smaller and mostly limited to the Ganga plain, unlike the vast Mauryan Empire that spanned almost the entire subcontinent",
      "Both use a system of specialized departments (like finance, defense, and justice) to manage a large population",
+     "The Shunga kingdom was much smaller and mostly limited to the Ganga plain, unlike the vast Mauryan Empire that spanned almost the entire subcontinent",
      "Before, he was a conqueror focused on expansion; after, he was a ruler focused on non-violence and avoiding conflict"
     ],
-    "hint": "Straight from the 'Ashoka was the third emperor of' slide -- match the key terms.",
+    "hint": "Straight from the 'Ashoka was the third emperor' slide -- match the key terms.",
     "misconception": "A student who fails to see the contrast suggests they do not understand the concept of a \"turning point.\"",
-    "id": "gen_c6_hist_ch05_q10",
+    "id": "gen_c6_hist_ch05_q15",
+    "nodeId": "c6_history_ch05_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If Ashoka were a king today, how might his decision to give up war affect his relationship with his neighbors?",
+    "answer": "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy",
+    "options": [
+     "It was a planned policy, evidenced by his systematic use of edicts and missionaries across the empire",
+     "No, while he was a Buddhist, he supported other faiths and traditions. This shows his inclusive approach to governance",
+     "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy"
+    ],
+    "hint": "Straight from the 'Ashoka was the third emperor' slide -- match the key terms.",
+    "misconception": "A student who says he would be conquered immediately fails to understand that he remained an emperor; they are confusing \"giving up war\" with \"giving up power.\"",
+    "id": "gen_c6_hist_ch05_q16",
     "nodeId": "c6_history_ch05_008",
     "difficulty": "standard"
    },
@@ -691,13 +782,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Imagine you are an advisor to Ashoka right after the Kalinga War. What is one peaceful way he could show his power instead of invading more land?",
     "answer": "A good answer would suggest building infrastructure, helping the displaced people, or focusing on internal prosperity",
     "options": [
-     "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy",
-     "No, while he was a Buddhist, he supported other faiths and traditions. This shows his inclusive approach to governance",
+     "He could use diplomacy, such as making treaties or alliances with local rulers",
+     "It was a planned policy, evidenced by his systematic use of edicts and missionaries across the empire",
      "A good answer would suggest building infrastructure, helping the displaced people, or focusing on internal prosperity"
     ],
-    "hint": "Straight from the 'Ashoka was the third emperor of' slide -- match the key terms.",
+    "hint": "Straight from the 'Ashoka was the third emperor' slide -- match the key terms.",
     "misconception": "A poor answer would focus on more fighting, showing they have not internalized the shift in his policy.",
-    "id": "gen_c6_hist_ch05_q11",
+    "id": "gen_c6_hist_ch05_q17",
     "nodeId": "c6_history_ch05_008",
     "difficulty": "standard"
    },
@@ -706,104 +797,14 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Was Ashoka's decision to stop fighting a sign of defeat? Justify your answer.",
     "answer": "No, it was a choice made from a position of strength after winning the war",
     "options": [
-     "The student should suggest options like fighting, forming a diplomatic alliance, or surrendering to avoid destruction",
-     "A good answer would suggest building infrastructure, helping the displaced people, or focusing on internal prosperity",
+     "A good answer would describe a public digital billboard or a social media campaign placed in a high-traffic area, focusing on moral conduct",
+     "The change was the move from many small, separate mahajanapadas to one large, unified empire under a single authority",
      "No, it was a choice made from a position of strength after winning the war"
     ],
-    "hint": "Straight from the 'Ashoka was the third emperor of' slide -- match the key terms.",
+    "hint": "Straight from the 'Ashoka was the third emperor' slide -- match the key terms.",
     "misconception": "A student who says \"yes\" misunderstands that Ashoka was the conqueror, not the conquered; his choice was moral, not forced.",
-    "id": "gen_c6_hist_ch05_q12",
-    "nodeId": "c6_history_ch05_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to change his policy from military conquest to non-violence",
-    "options": [
-     "The student must be able to identify the key rulers of the Gupta Empire and explain why this period is labeled the \"Golden Age\" in terms of stability and growth",
-     "The student must be able to identify that the Mauryan Empire did not vanish instantly but transformed into several smaller regional powers and explain that the transition involved",
-     "The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to change his policy from military conquest to non-violence"
-    ],
-    "hint": "Straight from the 'Ashoka was the third emperor of' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe the Kalinga War as a turning point in Ashoka’s life and explain why he decided to",
-    "id": "gen_c6_hist_ch05_q13",
-    "nodeId": "c6_history_ch05_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does the existence of the Kalinga War in the edicts change our view of Ashoka as a king?",
-    "answer": "It shows he was a leader who could change his mind and reflect on his mistakes, moving from a conqueror to a teacher of peace",
-    "options": [
-     "It shrank because the successors who followed Ashoka were not as capable, making it difficult to keep the vast empire united",
-     "The council helped the emperor make major decisions and manage the empire's affairs effectively. An answer suggesting the council \"did all the work for the emperor\" misses the",
-     "It shows he was a leader who could change his mind and reflect on his mistakes, moving from a conqueror to a teacher of peace"
-    ],
-    "hint": "Straight from the 'Ashoka's edicts' slide -- match the key terms.",
-    "misconception": "A wrong answer treats the edicts as just \"laws,\" missing the personal transformation revealed by the text.",
-    "id": "gen_c6_hist_ch05_q14",
-    "nodeId": "c6_history_ch05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If Ashoka wanted to reach villagers who could not travel to the capital, how did his choice of placing edicts on rocks help him?",
-    "answer": "Steps: 1. Identify the location (public spaces/routes). 2. Recognize the durability. 3. Connect to the reader",
-    "options": [
-     "Steps: 1. Identify that stability means fewer wars and safer roads. 2. Recognize that safer roads mean easier travel",
-     "Steps: 1. Identify his new goal (peace). 2. Compare with traditional war-based power. 3. Conclude that he would likely use diplomacy",
-     "Steps: 1. Identify the location (public spaces/routes). 2. Recognize the durability. 3. Connect to the reader"
-    ],
-    "hint": "Straight from the 'Ashoka's edicts' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student assumes messages were only for royal officials.",
-    "id": "gen_c6_hist_ch05_q15",
-    "nodeId": "c6_history_ch05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were a ruler today, what one \"moral rule\" would you carve on a pillar in your city square to make it a better place?",
-    "answer": "A good answer provides a rule related to community well-being (e.g., \"Respect all living beings\") and explains *why* it is important for the public to see it daily",
-    "options": [
-     "No, it was a choice made from a position of strength after winning the war",
-     "You would see them because the Mauryan central army was no longer strong enough to hold the northwest border",
-     "A good answer provides a rule related to community well-being (e.g., \"Respect all living beings\") and explains *why* it is important for the public to see it daily"
-    ],
-    "hint": "Straight from the 'Ashoka's edicts' slide -- match the key terms.",
-    "misconception": "A poor answer is trivial (e.g., \"Eat ice cream\") or lacks a reason, showing a failure to understand the social goal of Ashoka's *dhamma*.",
-    "id": "gen_c6_hist_ch05_q16",
-    "nodeId": "c6_history_ch05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it more accurate to call the edicts \"advertisements\" or \"monuments\"? Why?",
-    "answer": "They are more like \"public notices\" or \"social advertisements.\" They weren't built just to look pretty (like a monument), but to actively persuade people to adopt *dhamma*",
-    "options": [
-     "It was a planned policy, evidenced by his systematic use of edicts and missionaries across the empire",
-     "It is not entirely accurate; while the kings provided stability, the prosperity and culture were created by the people living under that stability",
-     "They are more like \"public notices\" or \"social advertisements.\" They weren't built just to look pretty (like a monument), but to actively persuade people to adopt *dhamma*"
-    ],
-    "hint": "Straight from the 'Ashoka's edicts' slide -- match the key terms.",
-    "misconception": "If a student says \"monument,\" they are ignoring the *content* and *purpose* of the writing.",
-    "id": "gen_c6_hist_ch05_q17",
-    "nodeId": "c6_history_ch05_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify that the edicts served as a public communication tool and explain at least two reasons why Ashoka chose to carve them on stone rather than",
-    "options": [
-     "The student must be able to identify the key rulers of the Gupta Empire and explain why this period is labeled the \"Golden Age\" in terms of stability and growth",
-     "The student must be able to identify that the Mauryan Empire did not vanish instantly but transformed into several smaller regional powers and explain that the transition involved",
-     "The student must be able to identify that the edicts served as a public communication tool and explain at least two reasons why Ashoka chose to carve them on stone rather than"
-    ],
-    "hint": "Straight from the 'Ashoka's edicts' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify that the edicts served as a public communication tool and explain at least two",
     "id": "gen_c6_hist_ch05_q18",
-    "nodeId": "c6_history_ch05_009",
+    "nodeId": "c6_history_ch05_008",
     "difficulty": "standard"
    }
   ],
@@ -893,15 +894,15 @@ export const C6_HIST_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Is it accurate to say the medieval period was only about the arrival of new religions?",
-    "answer": "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
+    "question": "What is the general timeframe used to define the medieval period in India?",
+    "answer": "The medieval period is generally dated from about 700 CE to 1700 CE",
     "options": [
-     "I would focus on height and grand scale, as these temples were designed to \"reach new heights\" in architectural ambition",
-     "Steps: 1. Identify the priest's role (rituals). 2. Identify the saint's role (devotion/accessibility)",
-     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity"
+     "The two main ways were through trade and through political conquest",
+     "The student must be able to identify and distinguish between the two primary ways Islam arrived (trade and political conquest) and name one key historical site or figure",
+     "The medieval period is generally dated from about 700 CE to 1700 CE"
     ],
     "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests a narrow view that ignores the complexity of social and artistic achievements.",
+    "misconception": "A wrong answer (like mentioning ancient dates) shows the student is confusing the medieval timeline with the ancient period (e.g., Harappan or Gupta eras).",
     "id": "gen_c6_hist_ch06_q1",
     "nodeId": "c6_history_ch06_015",
     "difficulty": "standard",
@@ -917,8 +918,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What is the main meaning of the word \"Bhakti\"?",
     "answer": "Bhakti means \"devotion\" or an intense, loving surrender to God",
     "options": [
+     "The student must be able to identify that the medieval period acts as a bridge between ancient history and the modern world by explaining at least two major changes that occurred",
      "The student must be able to identify and distinguish between the two primary ways Islam arrived (trade and political conquest) and name one key historical site or figure",
-     "The student must be able to categorize a historical power as either a Northern Rajput kingdom or a Southern regional kingdom and explain one defining characteristic of their rule",
      "Bhakti means \"devotion\" or an intense, loving surrender to God"
     ],
     "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
@@ -935,15 +936,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you were a person living in a busy, stressful city, why would you visit a Sufi saint?",
-    "answer": "Steps: 1. Identify the need (seeking peace/guidance). 2. Recall the Sufi focus (love/devotion). 3. Apply to context (the khanqah provides a quiet space)",
+    "question": "Why did Sufis establish places called 'khanqahs'?",
+    "answer": "Khanqahs were established as places where people could gather for spiritual guidance and meditation",
     "options": [
-     "Steps: 1. Identify the priest's role (rituals). 2. Identify the saint's role (devotion/accessibility)",
-     "The entry should mention goods traded (spices, textiles), the language barrier or learning the local language, and building friendships or homes in the port city",
-     "Steps: 1. Identify the need (seeking peace/guidance). 2. Recall the Sufi focus (love/devotion). 3. Apply to context (the khanqah provides a quiet space)"
+     "They influenced these regions because they visited for centuries to trade and eventually settled there, building communities",
+     "Trade is a gradual, voluntary interaction between individuals, while conquest involves a formal, often sudden, change in political administration",
+     "Khanqahs were established as places where people could gather for spiritual guidance and meditation"
     ],
     "hint": "Straight from the 'Sufi movement was a mystical' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks Sufis were only for political or worldly gain.",
+    "misconception": "A wrong answer (like \"to act as a palace for kings\") reveals a misunderstanding of the Sufi value of simplicity and service.",
     "id": "gen_c6_hist_ch06_q3",
     "nodeId": "c6_history_ch06_017",
     "difficulty": "standard",
@@ -959,8 +960,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What were the two main ways that Islam first arrived in the Indian subcontinent?",
     "answer": "The two main ways were through trade and through political conquest",
     "options": [
-     "Bhakti means \"devotion\" or an intense, loving surrender to God",
-     "The student must be able to contrast the Bhakti approach (personal devotion) with the earlier",
+     "The student must be able to identify at least one major literary work and one iconic temple, and explain why these represent a \"new beginning\" in Indian history",
+     "The student must be able to identify that the medieval period acts as a bridge between ancient history and the modern world by explaining at least two major changes that occurred",
      "The two main ways were through trade and through political conquest"
     ],
     "hint": "Straight from the 'arrival of Islam in the Indian' slide -- match the key terms.",
@@ -977,15 +978,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do we classify the Cholas, Cheras, and Pandyas as \"Southern\" powers in this period?",
-    "answer": "They held power in the southern part of the Indian peninsula",
+    "question": "Name two Rajput dynasties mentioned as powerful between the 8th and 12th centuries.",
+    "answer": "The Chauhans and the Tomars",
     "options": [
-     "By living in poverty, they removed the distractions of material wealth, allowing them to focus entirely on their inner spiritual life",
-     "They influenced these regions because they visited for centuries to trade and eventually settled there, building communities",
-     "They held power in the southern part of the Indian peninsula"
+     "The student must be able to identify that the medieval period acts as a bridge between ancient history and the modern world by explaining at least two major changes that occurred",
+     "The medieval period is generally dated from about 700 CE to 1700 CE",
+     "The Chauhans and the God",
+     "The Chauhans and the Tomars"
     ],
     "hint": "Straight from the 'medieval period was an era' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student is not using geography to differentiate between regional political developments.",
+    "misconception": "A wrong answer here suggests the student is confusing these medieval groups with ancient dynasties like the Mauryas or Guptas.",
     "id": "gen_c6_hist_ch06_q5",
     "nodeId": "c6_history_ch06_019",
     "difficulty": "standard",
@@ -1001,8 +1003,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Name one Sanskrit literary work and one regional language literary source mentioned in this period.",
     "answer": "Kalhana’s *Rajatarangini* (Sanskrit) and the Tamil works of the Chola period or Hindi works of the Bhakti saints",
     "options": [
-     "The two main ways were through trade and through political conquest",
-     "The student must be able to categorize a historical power as either a Northern Rajput kingdom or a Southern regional kingdom and explain one defining characteristic of their rule",
+     "Bhakti means \"devotion\" or an intense, loving surrender to God",
+     "The student must be able to identify at least one major literary work and one iconic temple, and explain why these represent a \"new beginning\" in Indian history",
      "Kalhana’s *Rajatarangini* (Sanskrit) and the Tamil works of the Chola period or Hindi works of the Bhakti saints"
     ],
     "hint": "Straight from the 'Cultural developments in the' slide -- match the key terms.",
@@ -1019,16 +1021,91 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Compare the concept of \"ancient\" vs \"medieval\" based on the idea of stability.",
+    "answer": "Ancient periods are often marked by the rise and fall of massive, centralized empires, whereas the medieval period is marked by the growth of regional kingdoms and more diverse",
+    "options": [
+     "Both were regional powers that rose to prominence after the decline of older, larger empires and controlled specific territories",
+     "It serves as physical evidence of a community existing in the 7th century, supporting the idea of early peaceful contact",
+     "Ancient periods are often marked by the rise and fall of massive, centralized empires, whereas the medieval period is marked by the growth of regional kingdoms and more diverse"
+    ],
+    "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student views all historical eras as identical in structure.",
+    "id": "gen_c6_hist_ch06_q7",
+    "nodeId": "c6_history_ch06_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were a historian, how would you decide that a new \"period\" has begun in a region?",
+    "answer": "Steps: 1. Observe if the ruling power has changed. 2. Look for changes in how people pray or dress",
+    "options": [
+     "I would focus on height and grand scale, as these temples were designed to \"reach new heights\" in architectural ambition",
+     "It was a time of new political organization because new dynasties emerged, created local stability, and established distinct cultural identities",
+     "Steps: 1. Observe if the ruling power has changed. 2. Look for changes in how people pray or dress"
+    ],
+    "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the student thinks \"periods\" are just random labels rather than markers of real human change.",
+    "id": "gen_c6_hist_ch06_q8",
+    "nodeId": "c6_history_ch06_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Imagine you are asked to rename the \"Medieval Period\" based on the changes mentioned in the text. What would you call it and why?",
     "answer": "A good answer would use a term like \"The Age of Regional Growth\" or \"The Era of Blending Cultures,\" justifying it by referencing the rise of regional kingdoms and the mixing of",
     "options": [
-     "A good answer would mention using words of longing, beauty, and intimate conversation with God. A poor answer focuses on dry, technical rules",
-     "It serves as physical evidence of a community existing in the 7th century, supporting the idea of early peaceful contact",
+     "Steps: 1. Observe if the ruling power has changed. 2. Look for changes in how people pray or dress",
+     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
      "A good answer would use a term like \"The Age of Regional Growth\" or \"The Era of Blending Cultures,\" justifying it by referencing the rise of regional kingdoms and the mixing of"
     ],
     "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
     "misconception": "A poor answer is just a random title without evidence from the text.",
-    "id": "gen_c6_hist_ch06_q7",
+    "id": "gen_c6_hist_ch06_q9",
+    "nodeId": "c6_history_ch06_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it accurate to say the medieval period was only about the arrival of new religions?",
+    "answer": "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
+    "options": [
+     "It is about how you feel, because the movement explicitly emphasizes personal love and surrender over the performance of external acts",
+     "They might sing a song in the local dialect or talk to people while they work in the fields. A poor answer is one that describes a formal lecture or a book",
+     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity"
+    ],
+    "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests a narrow view that ignores the complexity of social and artistic achievements.",
+    "id": "gen_c6_hist_ch06_q10",
+    "nodeId": "c6_history_ch06_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify that the medieval period acts as a bridge between ancient history and the modern world by explaining at least two major changes that occurred",
+    "options": [
+     "The two main ways were through trade and through political conquest",
+     "The student must be able to contrast the Bhakti approach (personal devotion) with the earlier",
+     "The student must be able to identify that the medieval period acts as a bridge between ancient history and the modern world by explaining at least two major changes that occurred"
+    ],
+    "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify that the medieval period acts as a bridge between ancient history and the modern",
+    "id": "gen_c6_hist_ch06_q11",
+    "nodeId": "c6_history_ch06_015",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why do historians call the medieval period a time of \"transformation\"?",
+    "answer": "It is called a time of transformation because old empires collapsed and new political powers, religions, and artistic styles emerged, fundamentally changing how people lived",
+    "options": [
+     "Khanqahs were established as places where people could gather for spiritual guidance and meditation",
+     "By living in poverty, they removed the distractions of material wealth, allowing them to focus entirely on their inner spiritual life",
+     "It is called a time of transformation because old empires collapsed and new political powers, religions, and artistic styles emerged, fundamentally changing how people lived"
+    ],
+    "hint": "Straight from the 'medieval period in Indian history' slide -- match the key terms.",
+    "misconception": "A wrong answer here suggests the student thinks history is \"static\" or never changes, ignoring the dynamic nature of societal evolution.",
+    "id": "gen_c6_hist_ch06_q12",
     "nodeId": "c6_history_ch06_015",
     "difficulty": "standard"
    },
@@ -1037,13 +1114,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "How does the Bhakti movement change the role of the \"priest\" in society?",
     "answer": "It reduces the priest's authority because people no longer feel they *must* rely on an intermediary to communicate with God",
     "options": [
-     "They did this so everyone, regardless of their background, could understand the message of God directly",
-     "Trade is a gradual, voluntary interaction between individuals, while conquest involves a formal, often sudden, change in political administration",
+     "It is called a time of transformation because old empires collapsed and new political powers, religions, and artistic styles emerged, fundamentally changing how people lived",
+     "Khanqahs were established as places where people could gather for spiritual guidance and meditation",
      "It reduces the priest's authority because people no longer feel they *must* rely on an intermediary to communicate with God"
     ],
     "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks the movement was about fighting people rather than changing ideas.",
-    "id": "gen_c6_hist_ch06_q8",
+    "id": "gen_c6_hist_ch06_q13",
     "nodeId": "c6_history_ch06_016",
     "difficulty": "standard"
    },
@@ -1052,13 +1129,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you were a person living in a village in the 8th century, why might you prefer a Bhakti saint over a traditional priest who only performs rituals?",
     "answer": "Steps: 1. Identify the priest's role (rituals). 2. Identify the saint's role (devotion/accessibility)",
     "options": [
-     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
-     "A good answer would use a term like \"The Age of Regional Growth\" or \"The Era of Blending Cultures,\" justifying it by referencing the rise of regional kingdoms and the mixing of",
+     "It is about how you feel, because the movement explicitly emphasizes personal love and surrender over the performance of external acts",
+     "Steps: 1. Observe if the ruling power has changed. 2. Look for changes in how people pray or dress",
      "Steps: 1. Identify the priest's role (rituals). 2. Identify the saint's role (devotion/accessibility)"
     ],
     "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a failure to link \"accessibility\" with \"personal comfort.\"",
-    "id": "gen_c6_hist_ch06_q9",
+    "id": "gen_c6_hist_ch06_q14",
     "nodeId": "c6_history_ch06_016",
     "difficulty": "standard"
    },
@@ -1067,13 +1144,28 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Imagine a Bhakti saint arrives in your town today. What is one thing they might do to share their message that a textbook cannot do?",
     "answer": "They might sing a song in the local dialect or talk to people while they work in the fields. A poor answer is one that describes a formal lecture or a book",
     "options": [
-     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
-     "A good answer would use a term like \"The Age of Regional Growth\" or \"The Era of Blending Cultures,\" justifying it by referencing the rise of regional kingdoms and the mixing of",
+     "Steps: 1. Identify the priest's role (rituals). 2. Identify the saint's role (devotion/accessibility)",
+     "No, because the rise of regional literature by Bhakti saints shows that culture was also spreading among common people, not just the elite",
      "They might sing a song in the local dialect or talk to people while they work in the fields. A poor answer is one that describes a formal lecture or a book"
     ],
     "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
     "misconception": "A poor answer is one that describes a formal lecture or a book, missing the \"personal and traveling\" nature of the saints.",
-    "id": "gen_c6_hist_ch06_q10",
+    "id": "gen_c6_hist_ch06_q15",
+    "nodeId": "c6_history_ch06_016",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is the Bhakti movement more about what you do (rituals) or how you feel (love)? Defend your answer.",
+    "answer": "It is about how you feel, because the movement explicitly emphasizes personal love and surrender over the performance of external acts",
+    "options": [
+     "No, it is a mystical tradition *within* Islam. It is a way of practicing the faith with a focus on deep, personal love rather than just the external rules",
+     "A good answer would mention using words of longing, beauty, and intimate conversation with God. A poor answer focuses on dry, technical rules",
+     "It is about how you feel, because the movement explicitly emphasizes personal love and surrender over the performance of external acts"
+    ],
+    "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
+    "misconception": "A wrong answer shows confusion between \"external show\" and \"internal faith.\"",
+    "id": "gen_c6_hist_ch06_q16",
     "nodeId": "c6_history_ch06_016",
     "difficulty": "standard"
    },
@@ -1082,13 +1174,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to contrast the Bhakti approach (personal devotion) with the earlier",
     "options": [
-     "Kalhana’s *Rajatarangini* (Sanskrit) and the Tamil works of the Chola period or Hindi works of the Bhakti saints",
-     "Bhakti means \"devotion\" or an intense, loving surrender to God",
+     "The student must be able to identify and distinguish between the two primary ways Islam arrived (trade and political conquest) and name one key historical site or figure",
+     "The medieval period is generally dated from about 700 CE to 1700 CE",
      "The student must be able to contrast the Bhakti approach (personal devotion) with the earlier"
     ],
     "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to contrast the Bhakti approach (personal devotion) with the earlier, rigid system",
-    "id": "gen_c6_hist_ch06_q11",
+    "id": "gen_c6_hist_ch06_q17",
     "nodeId": "c6_history_ch06_016",
     "difficulty": "standard"
    },
@@ -1097,104 +1189,14 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Why did Bhakti saints choose to preach in the language of the common people instead of Sanskrit?",
     "answer": "They did this so everyone, regardless of their background, could understand the message of God directly",
     "options": [
-     "They held power in the southern part of the Indian peninsula",
      "It reduces the priest's authority because people no longer feel they *must* rely on an intermediary to communicate with God",
+     "It is called a time of transformation because old empires collapsed and new political powers, religions, and artistic styles emerged, fundamentally changing how people lived",
      "They did this so everyone, regardless of their background, could understand the message of God directly"
     ],
     "hint": "Straight from the 'Bhakti Movement was a religious' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student doesn't realize that Sanskrit was an exclusive language that kept most people \"in the dark.\"",
-    "id": "gen_c6_hist_ch06_q12",
-    "nodeId": "c6_history_ch06_016",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does a Sufi's life of \"poverty\" help them focus on their goal?",
-    "answer": "By living in poverty, they removed the distractions of material wealth, allowing them to focus entirely on their inner spiritual life",
-    "options": [
-     "They influenced these regions because they visited for centuries to trade and eventually settled there, building communities",
-     "Trade is a gradual, voluntary interaction between individuals, while conquest involves a formal, often sudden, change in political administration",
-     "By living in poverty, they removed the distractions of material wealth, allowing them to focus entirely on their inner spiritual life"
-    ],
-    "hint": "Straight from the 'Sufi movement was a mystical' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks poverty was just a punishment rather than a deliberate, focused choice.",
-    "id": "gen_c6_hist_ch06_q13",
-    "nodeId": "c6_history_ch06_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine you are writing a poem to express your feelings about something you love. How might a Sufi use poetry to express their devotion to God?",
-    "answer": "A good answer would mention using words of longing, beauty, and intimate conversation with God. A poor answer focuses on dry, technical rules",
-    "options": [
-     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
-     "They might sing a song in the local dialect or talk to people while they work in the fields. A poor answer is one that describes a formal lecture or a book",
-     "A good answer would mention using words of longing, beauty, and intimate conversation with God. A poor answer focuses on dry, technical rules"
-    ],
-    "hint": "Straight from the 'Sufi movement was a mystical' slide -- match the key terms.",
-    "misconception": "A poor answer focuses on dry, technical rules, missing the emotional and mystical essence of Sufi poetry.",
-    "id": "gen_c6_hist_ch06_q14",
-    "nodeId": "c6_history_ch06_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to describe the core focus of the Sufi movement (personal devotion over ritual) and explain the function of a 'khanqah' as a place for spiritual guidance",
-    "options": [
-     "The student must be able to identify and distinguish between the two primary ways Islam arrived (trade and political conquest) and name one key historical site or figure",
-     "Bhakti means \"devotion\" or an intense, loving surrender to God",
-     "The student must be able to describe the core focus of the Sufi movement (personal devotion over ritual) and explain the function of a 'khanqah' as a place for spiritual guidance"
-    ],
-    "hint": "Straight from the 'Sufi movement was a mystical' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe the core focus of the Sufi movement (personal devotion over ritual) and explain",
-    "id": "gen_c6_hist_ch06_q15",
-    "nodeId": "c6_history_ch06_017",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does the arrival of Islam via trade differ from its arrival via conquest in terms of how it reaches people?",
-    "answer": "Trade is a gradual, voluntary interaction between individuals, while conquest involves a formal, often sudden, change in political administration",
-    "options": [
-     "They held power in the southern part of the Indian peninsula",
-     "They influenced these regions because they visited for centuries to trade and eventually settled there, building communities",
-     "Trade is a gradual, voluntary interaction between individuals, while conquest involves a formal, often sudden, change in political administration"
-    ],
-    "hint": "Straight from the 'arrival of Islam in the Indian' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Trade is a gradual, voluntary interaction between individuals, while conquest involves a formal, often sudden, change",
-    "id": "gen_c6_hist_ch06_q16",
-    "nodeId": "c6_history_ch06_018",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were a historian looking for evidence of the earliest arrival of Islam in India, why would the Cheraman Juma Masjid be a significant piece of evidence?",
-    "answer": "It serves as physical evidence of a community existing in the 7th century, supporting the idea of early peaceful contact",
-    "options": [
-     "No, while religion was a major factor, the period also saw massive developments in architecture, trade, and language, which shaped India’s identity",
-     "A good answer would use a term like \"The Age of Regional Growth\" or \"The Era of Blending Cultures,\" justifying it by referencing the rise of regional kingdoms and the mixing of",
-     "It serves as physical evidence of a community existing in the 7th century, supporting the idea of early peaceful contact"
-    ],
-    "hint": "Straight from the 'arrival of Islam in the Indian' slide -- match the key terms.",
-    "misconception": "A student who ignores the date (7th century) fails to connect the mosque to the timeline of early Islamic history.",
-    "id": "gen_c6_hist_ch06_q17",
-    "nodeId": "c6_history_ch06_018",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine you are writing a short diary entry from the perspective of an Arab merchant in Kerala during the 8th century. What details would you include to show how you interact with the locals?",
-    "answer": "The entry should mention goods traded (spices, textiles), the language barrier or learning the local language, and building friendships or homes in the port city",
-    "options": [
-     "Steps: 1. Identify the priest's role (rituals). 2. Identify the saint's role (devotion/accessibility)",
-     "They might sing a song in the local dialect or talk to people while they work in the fields. A poor answer is one that describes a formal lecture or a book",
-     "The entry should mention goods traded (spices, textiles), the language barrier or learning the local language, and building friendships or homes in the port city"
-    ],
-    "hint": "Straight from the 'arrival of Islam in the Indian' slide -- match the key terms.",
-    "misconception": "A poor answer would focus only on religion or fighting, failing to capture the daily life of a trader.",
     "id": "gen_c6_hist_ch06_q18",
-    "nodeId": "c6_history_ch06_018",
+    "nodeId": "c6_history_ch06_016",
     "difficulty": "standard"
    }
   ],
@@ -1269,7 +1271,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Life Under The Delhi Sultanate Was",
+    "title": "Life Under The Delhi Sultanate",
     "text": "Life under the Delhi Sultanate was a period where an Islamic ruling class governed a society that remained predominantly Hindu, leading to a unique blend of cultural practices, agricultural reliance, and trade expansion.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1284,15 +1286,15 @@ export const C6_HIST_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Calculation: 1526 minus 1206 equals 320 years. A wrong answer reveals a struggle with basic chronological subtraction, which is vital for understanding historical timelines.",
-    "answer": "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
+    "question": "Why do historians call 1206 CE the start of the Delhi Sultanate?",
+    "answer": "It is the year Qutbuddin Aibak declared himself independent ruler after his leader died",
     "options": [
-     "No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect misses the key historical context of how the Sultanate adapted to",
-     "A good response uses a memory trick like \"My Kite Takes Some Light\" (M-K-T-S-L). A poor answer simply lists the names without any structural memory aid",
-     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526"
+     "It shows the Sultan needed experts to handle specific complex areas like general administration and military affairs separately to ensure efficiency",
+     "Mortar allowed builders to create larger, more stable structures and curved shapes like arches and domes that could not be achieved easily with stone beams alone",
+     "It is the year Qutbuddin Aibak declared himself independent ruler after his leader died"
     ],
     "hint": "Straight from the 'Delhi Sultanate was the first' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals that the student likely lacks the foundational skill of chronological subtraction or is struggling with the concept of \"duration\" in historical timelines, perhaps attempting to add the two years together instead of finding the difference between them.",
+    "misconception": "If a student says it's just a random date, they misunderstand that the Sultanate began with a specific political action of independence.",
     "id": "gen_c6_hist_ch07_q1",
     "nodeId": "c6_history_ch07_021",
     "difficulty": "standard",
@@ -1305,15 +1307,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is Razia Sultan considered a unique figure in the history of the Delhi Sultanate?",
-    "answer": "She was the only woman to ever rule the Delhi Sultanate",
+    "question": "Who was the founder of the Slave (Mamluk) dynasty?",
+    "answer": "Qutbuddin Aibak founded the Slave dynasty",
     "options": [
-     "It shows the Sultan needed experts to handle specific complex areas like general administration and military affairs separately to ensure efficiency",
-     "It shows that military skill and loyalty could lead to high positions regardless of birth status",
-     "She was the only woman to ever rule the Delhi Sultanate"
+     "The student must be able to describe how the Sultanate maintained political control while allowing religious diversity among their subjects",
+     "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties",
+     "Qutbuddin Aibak founded the Decide dynasty",
+     "Qutbuddin Aibak founded the Slave dynasty"
     ],
     "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
-    "misconception": "If a student answers incorrectly, it shows they are not distinguishing between the individual rulers and are perhaps ignoring the significance of gender roles in medieval governance.",
+    "misconception": "A wrong answer here suggests the student is mixing up the founders of the different dynasties, likely confusing Aibak with the later Khalji rulers.",
     "id": "gen_c6_hist_ch07_q2",
     "nodeId": "c6_history_ch07_022",
     "difficulty": "standard",
@@ -1326,15 +1329,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "How does the division of tasks between the Wazir and the Diwan-i-Arz illustrate the Sultan's need for specialization?",
-    "answer": "It shows the Sultan needed experts to handle specific complex areas like general administration and military affairs separately to ensure efficiency",
+    "question": "Why did the Sultans divide their empire into smaller provinces known as 'iqtas'?",
+    "answer": "They divided the empire to make it easier to manage and govern large territories from a central point",
     "options": [
-     "It led to succession disputes, meaning different people fought to be the next Sultan instead of working together",
      "It shows that military skill and loyalty could lead to high positions regardless of birth status",
-     "It shows the Sultan needed experts to handle specific complex areas like general administration and military affairs separately to ensure efficiency"
+     "She was the only woman to ever rule the Delhi Sultanate",
+     "They divided the empire to make it easier to manage and govern large territories from a central point"
     ],
     "hint": "Straight from the 'administration of the Delhi' slide -- match the key terms.",
-    "misconception": "A wrong answer would ignore the \"specialization\" aspect and suggest they were all doing the same job.",
+    "misconception": "A student who says \"to increase taxes\" is assuming a revenue focus, which is outside the scope of this administrative structure analysis.",
     "id": "gen_c6_hist_ch07_q3",
     "nodeId": "c6_history_ch07_023",
     "difficulty": "standard",
@@ -1350,8 +1353,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What are two new structural features introduced by the architects of the Delhi Sultanate?",
     "answer": "The two features are the dome and the arch",
     "options": [
-     "The student must be able to describe how internal disputes and external threats like Timur’s invasion combined to weaken the Sultanate's authority",
      "The student must be able to identify three unique architectural features (arch, dome, minaret) and link them to the fusion of Persian and Indian cultural influences",
+     "Qutbuddin Aibak founded the Slave dynasty",
      "The two features are the dome and the arch"
     ],
     "hint": "Straight from the 'architecture of the Delhi' slide -- match the key terms.",
@@ -1375,7 +1378,7 @@ export const C6_HIST_GEN: SimDef[] = [
      "The two features are the dome and the arch",
      "The two main pillars were agriculture and trade"
     ],
-    "hint": "Straight from the 'Life under the Delhi Sultanate was' slide -- match the key terms.",
+    "hint": "Straight from the 'Life under the Delhi Sultanate' slide -- match the key terms.",
     "misconception": "A student who misses this likely confuses the Sultanate's political structure (the ruling class) with how the actual people earned their daily living.",
     "id": "gen_c6_hist_ch07_q5",
     "nodeId": "c6_history_ch07_025",
@@ -1393,7 +1396,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The ruler was Timur (also known as Tamerlane)",
     "options": [
      "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties",
-     "The student must be able to identify Qutbuddin Aibak as the founder and explain that the Sultanate was a political change that lasted from 1206 to 1526 CE",
+     "Qutbuddin Aibak founded the Slave dynasty",
      "The ruler was Timur (also known as Tamerlane)"
     ],
     "hint": "Straight from the 'decline of the Delhi Sultanate' slide -- match the key terms.",
@@ -1410,31 +1413,62 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "How did a \"former slave\" become a Sultan? What does this tell us about the society of that time?",
-    "answer": "It shows that military skill and loyalty could lead to high positions regardless of birth status",
+    "question": "Calculation: 1526 minus 1206 equals 320 years. A wrong answer reveals a struggle with basic chronological subtraction, which is vital for understanding historical timelines.",
+    "answer": "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
     "options": [
-     "It created a mixed environment where people practiced different faiths side-by-side, though there were occasional periods of intolerance",
-     "It led to succession disputes, meaning different people fought to be the next Sultan instead of working together",
-     "It shows that military skill and loyalty could lead to high positions regardless of birth status"
+     "The answer should describe how the arch distributes the weight of the wall outwards and downwards. A poor answer ignores the mechanical advantage of the arch and treats it only as",
+     "No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect misses the key historical context of how the Sultanate adapted to",
+     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526"
     ],
     "hint": "Straight from the 'Delhi Sultanate was the first' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks only people born into royal families could lead, missing the point of Aibak's unique rise.",
+    "misconception": "A wrong answer reveals that the student likely lacks the foundational skill of chronological subtraction or is struggling with the concept of \"duration\" in historical timelines, perhaps attempting to add the two years together instead of finding the difference between them.",
     "id": "gen_c6_hist_ch07_q7",
     "nodeId": "c6_history_ch07_021",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify Qutbuddin Aibak as the founder and explain that the Sultanate was a political change that lasted from 1206 to 1526 CE",
+    "question": "How did a \"former slave\" become a Sultan? What does this tell us about the society of that time?",
+    "answer": "It shows that military skill and loyalty could lead to high positions regardless of birth status",
     "options": [
-     "The two features are the dome and the arch",
-     "The student must be able to describe how the Sultanate maintained political control while allowing religious diversity among their subjects",
-     "The student must be able to identify Qutbuddin Aibak as the founder and explain that the Sultanate was a political change that lasted from 1206 to 1526 CE"
+     "Mortar allowed builders to create larger, more stable structures and curved shapes like arches and domes that could not be achieved easily with stone beams alone",
+     "It combines the vertical tower design influenced by Central Asian minarets with the intricate stone-carving skills of local Indian artisans",
+     "It shows that military skill and loyalty could lead to high positions regardless of birth status"
     ],
     "hint": "Straight from the 'Delhi Sultanate was the first' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify Qutbuddin Aibak as the founder and explain that the Sultanate was a political",
+    "misconception": "A wrong answer suggests the student thinks only people born into royal families could lead, missing the point of Aibak's unique rise.",
     "id": "gen_c6_hist_ch07_q8",
+    "nodeId": "c6_history_ch07_021",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Imagine you are a historian writing a headline for the year 1206 CE. What would it be?",
+    "answer": "A good answer would mention \"A New Era Begins\" or \"From General to Sultan.\" A poor answer is vague",
+    "options": [
+     "The answer should include handling diplomatic messages, managing alliances, or dealing with religious affairs",
+     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
+     "A good answer would mention \"A The Sayyid\" or \"From General to Sultan.\" A poor answer is vague",
+     "A good answer would mention \"A New Era Begins\" or \"From General to Sultan.\" A poor answer is vague"
+    ],
+    "hint": "Straight from the 'Delhi Sultanate was the first' slide -- match the key terms.",
+    "misconception": "A poor answer is vague, like \"The Sultanate happened,\" which fails to capture the significance of the transition.",
+    "id": "gen_c6_hist_ch07_q9",
+    "nodeId": "c6_history_ch07_021",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it accurate to say the Delhi Sultanate was ruled by only one family for 300 years? Why or why not?",
+    "answer": "No, it was ruled by five successive dynasties",
+    "options": [
+     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
+     "No, it consisted of five different dynasties that replaced one another over 300 years",
+     "No, it was ruled by five successive dynasties"
+    ],
+    "hint": "Straight from the 'Delhi Sultanate was the first' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates the student thinks \"Sultanate\" implies a single family line, missing the diversity of the five different groups that held power.",
+    "id": "gen_c6_hist_ch07_q10",
     "nodeId": "c6_history_ch07_021",
     "difficulty": "standard"
    },
@@ -1443,13 +1477,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Compare the roles of Jalaluddin Khalji and Alauddin Khalji. How do their positions differ in the history of their dynasty?",
     "answer": "Jalaluddin Khalji was the founder, while Alauddin Khalji was the most famous ruler who expanded the empire",
     "options": [
-     "The student must be able to identify the Sultan's role as the central power and match at least three specific ministerial titles to their primary administrative functions",
-     "You would be under the Khalji dynasty. To solve this, students should compare the date 1300 against the provided ranges (Slave: 1206-1290; Khalji: 1290-1320)",
+     "It shows that military skill and loyalty could lead to high positions regardless of birth status",
+     "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties",
      "Jalaluddin Khalji was the founder, while Alauddin Khalji was the most famous ruler who expanded the empire"
     ],
     "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
     "misconception": "A wrong answer shows a misunderstanding of the difference between \"founding\" an organization and \"expanding\" its influence.",
-    "id": "gen_c6_hist_ch07_q9",
+    "id": "gen_c6_hist_ch07_q11",
     "nodeId": "c6_history_ch07_022",
     "difficulty": "standard"
    },
@@ -1458,13 +1492,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Create a mnemonic or a short story to help remember the names of the five dynasties in order: Mamluk, Khalji, Tughlaq, Sayyid, Lodi.",
     "answer": "A good response uses a memory trick like \"My Kite Takes Some Light\" (M-K-T-S-L). A poor answer simply lists the names without any structural memory aid",
     "options": [
-     "No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect misses the key historical context of how the Sultanate adapted to",
-     "No, it consisted of five different dynasties that replaced one another over 300 years",
+     "They would need dressed stone for strength, mortar as a binding agent, and a stable foundation to support the weight of five storeys",
+     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
      "A good response uses a memory trick like \"My Kite Takes Some Light\" (M-K-T-S-L). A poor answer simply lists the names without any structural memory aid"
     ],
     "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
     "misconception": "A poor answer simply lists the names without any structural memory aid, indicating difficulty in retention.",
-    "id": "gen_c6_hist_ch07_q10",
+    "id": "gen_c6_hist_ch07_q12",
     "nodeId": "c6_history_ch07_022",
     "difficulty": "standard"
    },
@@ -1473,13 +1507,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Does the Delhi Sultanate represent a single, unchanging family line? Justify your answer.",
     "answer": "No, it consisted of five different dynasties that replaced one another over 300 years",
     "options": [
-     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
      "The answer should include handling diplomatic messages, managing alliances, or dealing with religious affairs",
+     "Steps: 1. Recognize the Sultan can no longer protect your region. 2. Realize the central government is disorganized",
      "No, it consisted of five different dynasties that replaced one another over 300 years"
     ],
     "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student thinks the \"Sultanate\" was one family tree rather than a sequence of different ruling houses.",
-    "id": "gen_c6_hist_ch07_q11",
+    "id": "gen_c6_hist_ch07_q13",
     "nodeId": "c6_history_ch07_022",
     "difficulty": "standard"
    },
@@ -1488,13 +1522,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you were living in the year 1300 CE, which dynasty would you be living under?",
     "answer": "You would be under the Khalji dynasty. To solve this, students should compare the date 1300 against the provided ranges (Slave: 1206-1290; Khalji: 1290-1320)",
     "options": [
-     "The answer should describe how the arch distributes the weight of the wall outwards and downwards. A poor answer ignores the mechanical advantage of the arch and treats it only as",
      "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
+     "No, it was ruled by five successive dynasties",
      "You would be under the Khalji dynasty. To solve this, students should compare the date 1300 against the provided ranges (Slave: 1206-1290; Khalji: 1290-1320)"
     ],
     "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
     "misconception": "A wrong answer suggests a failure to correlate dates with the dynasty timeline.",
-    "id": "gen_c6_hist_ch07_q12",
+    "id": "gen_c6_hist_ch07_q14",
     "nodeId": "c6_history_ch07_022",
     "difficulty": "standard"
    },
@@ -1503,14 +1537,45 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties",
     "options": [
-     "The student must be able to identify the Sultan's role as the central power and match at least three specific ministerial titles to their primary administrative functions",
-     "The student must be able to identify three unique architectural features (arch, dome, minaret) and link them to the fusion of Persian and Indian cultural influences",
+     "The two main pillars were agriculture and trade",
+     "The student must be able to describe how the Sultanate maintained political control while allowing religious diversity among their subjects",
      "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties"
     ],
     "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to name the five dynasties in chronological order and identify one major ruler associated with",
-    "id": "gen_c6_hist_ch07_q13",
+    "id": "gen_c6_hist_ch07_q15",
     "nodeId": "c6_history_ch07_022",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is Razia Sultan considered a unique figure in the history of the Delhi Sultanate?",
+    "answer": "She was the only woman to ever rule the Delhi Sultanate",
+    "options": [
+     "It shows that military skill and loyalty could lead to high positions regardless of birth status",
+     "They divided the empire to make it easier to manage and govern large territories from a central point",
+     "She was the only woman to ever rule the Indian",
+     "She was the only woman to ever rule the Delhi Sultanate"
+    ],
+    "hint": "Straight from the 'Delhi Sultanate' slide -- match the key terms.",
+    "misconception": "If a student answers incorrectly, it shows they are not distinguishing between the individual rulers and are perhaps ignoring the significance of gender roles in medieval governance.",
+    "id": "gen_c6_hist_ch07_q16",
+    "nodeId": "c6_history_ch07_022",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How does the division of tasks between the Wazir and the Diwan-i-Arz illustrate the Sultan's need for specialization?",
+    "answer": "It shows the Sultan needed experts to handle specific complex areas like general administration and military affairs separately to ensure efficiency",
+    "options": [
+     "She was the only woman to ever rule the Delhi Sultanate",
+     "Mortar allowed builders to create larger, more stable structures and curved shapes like arches and domes that could not be achieved easily with stone beams alone",
+     "It shows the Sultan needed experts to handle specific complex areas like general administration and military affairs separately to ensure efficiency"
+    ],
+    "hint": "Straight from the 'administration of the Delhi' slide -- match the key terms.",
+    "misconception": "A wrong answer would ignore the \"specialization\" aspect and suggest they were all doing the same job.",
+    "id": "gen_c6_hist_ch07_q17",
+    "nodeId": "c6_history_ch07_023",
     "difficulty": "standard"
    },
    {
@@ -1518,74 +1583,14 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you were the Sultan and needed to oversee foreign relations, what instructions would you give your Diwan-i-Rasalat?",
     "answer": "The answer should include handling diplomatic messages, managing alliances, or dealing with religious affairs",
     "options": [
-     "You would be under the Khalji dynasty. To solve this, students should compare the date 1300 against the provided ranges (Slave: 1206-1290; Khalji: 1290-1320)",
-     "The Delhi Sultanate lasted for a total of 320 years. This is calculated by subtracting the starting year of 1206 from the ending year of 1526",
+     "Steps: 1. Recognize the Sultan can no longer protect your region. 2. Realize the central government is disorganized",
+     "A good answer would mention \"A New Era Begins\" or \"From General to Sultan.\" A poor answer is vague",
      "The answer should include handling diplomatic messages, managing alliances, or dealing with religious affairs"
     ],
     "hint": "Straight from the 'administration of the Delhi' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The answer should include handling diplomatic messages, managing alliances, or dealing with religious affairs.",
-    "id": "gen_c6_hist_ch07_q14",
-    "nodeId": "c6_history_ch07_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it accurate to say the Sultanate's administration was based purely on foreign ideas? Why or why not?",
-    "answer": "No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect misses the key historical context of how the Sultanate adapted to",
-    "options": [
-     "A good response uses a memory trick like \"My Kite Takes Some Light\" (M-K-T-S-L). A poor answer simply lists the names without any structural memory aid",
-     "They would need dressed stone for strength, mortar as a binding agent, and a stable foundation to support the weight of five storeys",
-     "No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect misses the key historical context of how the Sultanate adapted to"
-    ],
-    "hint": "Straight from the 'administration of the Delhi' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect",
-    "id": "gen_c6_hist_ch07_q15",
-    "nodeId": "c6_history_ch07_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify the Sultan's role as the central power and match at least three specific ministerial titles to their primary administrative functions",
-    "options": [
-     "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties",
-     "The student must be able to describe how internal disputes and external threats like Timur’s invasion combined to weaken the Sultanate's authority",
-     "The student must be able to identify the Sultan's role as the central power and match at least three specific ministerial titles to their primary administrative functions"
-    ],
-    "hint": "Straight from the 'administration of the Delhi' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the Sultan's role as the central power and match at least three specific",
-    "id": "gen_c6_hist_ch07_q16",
-    "nodeId": "c6_history_ch07_023",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple sketch or description of a building that uses an arch. Why is the arch better than a flat beam for a wide doorway?",
-    "answer": "The answer should describe how the arch distributes the weight of the wall outwards and downwards. A poor answer ignores the mechanical advantage of the arch and treats it only as",
-    "options": [
-     "No, it combined Persian models with existing Indian realities. A student failing to mention the \"blending\" aspect misses the key historical context of how the Sultanate adapted to",
-     "No, it is a blend; while the arch and dome came from the Islamic world, the actual construction was performed by Indian craftsmen who used their traditional skills to carve and",
-     "The answer should describe how the arch distributes the weight of the wall outwards and downwards. A poor answer ignores the mechanical advantage of the arch and treats it only as"
-    ],
-    "hint": "Straight from the 'architecture of the Delhi' slide -- match the key terms.",
-    "misconception": "A poor answer ignores the mechanical advantage of the arch and treats it only as a decorative shape.",
-    "id": "gen_c6_hist_ch07_q17",
-    "nodeId": "c6_history_ch07_024",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does the Qutub Minar reflect a blend of traditions?",
-    "answer": "It combines the vertical tower design influenced by Central Asian minarets with the intricate stone-carving skills of local Indian artisans",
-    "options": [
-     "It led to succession disputes, meaning different people fought to be the next Sultan instead of working together",
-     "The Sayyid dynasty controlled a much smaller territory than the Tughlaqs, showing the Sultanate was shrinking",
-     "It combines the vertical tower design influenced by Central Asian minarets with the intricate stone-carving skills of local Indian artisans"
-    ],
-    "hint": "Straight from the 'architecture of the Delhi' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks the structure is entirely foreign or entirely local, ignoring the synthesis.",
     "id": "gen_c6_hist_ch07_q18",
-    "nodeId": "c6_history_ch07_024",
+    "nodeId": "c6_history_ch07_023",
     "difficulty": "standard"
    }
   ],
@@ -1679,8 +1684,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The founders were Harihara and Bukka",
     "options": [
      "The student must be able to identify at least two examples of regional kingdoms and describe how their specific artistic or literary contributions added to the overall tapestry of",
-     "The Bahmani Kingdom broke up, and the five Deccan Sultanates were the smaller kingdoms that formed from that break",
-     "The founders were The Rise and Bukka",
+     "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power",
+     "The founders were Bijapur and Bukka",
      "The founders were Harihara and Bukka"
     ],
     "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
@@ -1702,7 +1707,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "options": [
      "No, it is not accurate because Shivaji started his career serving the Deccan Sultanates before he built his own independent kingdom",
      "The student should propose a creative contribution (e.g., a specific style of dance or a local story collection) and explain why it reflects their kingdom's identity",
-     "It was founded in 1347 by Bijapur Shah",
+     "It was founded in 1347 by Rajput Shah",
      "It was founded in 1347 by Alauddin Hasan Bahman Shah"
     ],
     "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
@@ -1723,8 +1728,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The most famous ruler was Prithviraj Chauhan",
     "options": [
      "The founders were Harihara and Bukka",
-     "The Bahmani Kingdom broke up, and the five Deccan Sultanates were the smaller kingdoms that formed from that break",
-     "The most famous ruler was Victory Town",
+     "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power",
+     "The most famous ruler was Sikh Empire",
      "The most famous ruler was Prithviraj Chauhan"
     ],
     "hint": "Straight from the 'Rajput kingdoms were a collection' slide -- match the key terms.",
@@ -1804,15 +1809,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "How did Ranjit Singh change the way the Sikh community was organized in the late 18th century?",
-    "answer": "He unified the independent *misls* into a single, centralized Sikh Empire",
+    "question": "What was the name given to the military bands that controlled different parts of Punjab before they were unified?",
+    "answer": "They were called *misls*",
     "options": [
-     "They were defined by a social and military lifestyle centered on bravery, martial skills, and a commitment to defending their kingdom",
-     "He moved from serving these powers as a local chieftain to actively taking their forts and territories to build his own kingdom",
-     "He unified the independent *misls* into a single, centralized Sikh Empire"
+     "The student must be able to identify the transition from a single kingdom to five smaller sultanates and correctly name the five Deccan Sultanates",
+     "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power",
+     "Shah were called *misls*",
+     "They were called *misls*"
     ],
     "hint": "Straight from the 'Sikh Kingdom was a powerful' slide -- match the key terms.",
-    "misconception": "A student who says \"he became a Guru\" has misunderstood his role as a political and military ruler rather than a religious leader.",
+    "misconception": "A student who answers \"armies\" or \"kingdoms\" is confusing the specific organizational structure (the *misl*) with the general concept of military forces.",
     "id": "gen_c6_hist_ch08_q5",
     "nodeId": "c6_history_ch08_031",
     "difficulty": "standard",
@@ -1828,9 +1834,9 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Name two examples of regional kingdoms mentioned in the study material.",
     "answer": "The Vijayanagara Empire and the Deccan Sultanates",
     "options": [
+     "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power",
      "The Bahmani Kingdom broke up, and the five Deccan Sultanates were the smaller kingdoms that formed from that break",
-     "The student must be able to identify the transition from a single kingdom to five smaller sultanates and correctly name the five Deccan Sultanates",
-     "The Vijayanagara Empire and the It",
+     "The Vijayanagara Empire and the Delhi Sultanate",
      "The Vijayanagara Empire and the Deccan Sultanates"
     ],
     "hint": "Straight from the 'Regional kingdoms were' slide -- match the key terms.",
@@ -1847,16 +1853,46 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "How does the timeline (1336–1646) help us understand the longevity of the empire?",
+    "answer": "It shows the empire lasted for over three centuries, proving it was a long-lasting and stable power",
+    "options": [
+     "He moved from serving these powers as a local chieftain to actively taking their forts and territories to build his own kingdom",
+     "It is a strength because each kingdom added its own unique art, architecture, and literature to the Indian civilization, making the overall culture richer",
+     "It shows the empire lasted for over three centuries, proving it was a long-lasting and stable power"
+    ],
+    "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student struggles to interpret historical dates as periods of time.",
+    "id": "gen_c6_hist_ch08_q7",
+    "nodeId": "c6_history_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "If you were to name a new city based on the values of the Vijayanagara founders, what would you call it and why?",
     "answer": "The answer should reflect an understanding of \"victory,\" \"strength,\" or \"unity\" (e.g., \"Victory Town\")",
     "options": [
-     "You would draw five because the Bahmani Kingdom ended in 1527",
      "He would likely lead his army to defend the city rather than surrender, as their culture prioritized protection and pride in their territory",
+     "They would notice distinct styles: Vijayanagara's unique architecture compared to the blended Persian and local styles found in the Deccan Sultanates",
      "The answer should reflect an understanding of \"victory,\" \"strength,\" or \"unity\" (e.g., \"Victory Town\")"
     ],
     "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
     "misconception": "A poor answer fails to connect the historical name \"Vijayanagara\" to its literal meaning.",
-    "id": "gen_c6_hist_ch08_q7",
+    "id": "gen_c6_hist_ch08_q8",
+    "nodeId": "c6_history_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What does the name \"Vijayanagara\" mean, and why is it significant?",
+    "answer": "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power",
+    "options": [
+     "The Vijayanagara Empire and the Deccan Sultanates",
+     "The student must be able to identify the transition from a single kingdom to five smaller sultanates and correctly name the five Deccan Sultanates",
+     "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power"
+    ],
+    "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power.",
+    "id": "gen_c6_hist_ch08_q9",
     "nodeId": "c6_history_ch08_027",
     "difficulty": "standard"
    },
@@ -1865,13 +1901,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify the founders and the peak ruler of the empire and explain why the capital city was named \"city of victory\" in their own words",
     "options": [
-     "The Bahmani Kingdom broke up, and the five Deccan Sultanates were the smaller kingdoms that formed from that break",
-     "The most famous ruler was Prithviraj Chauhan",
+     "The student must be able to describe the transition from small military groups (*misls*) to a unified kingdom under Ranjit Singh and identify the capital city",
+     "The student must be able to identify at least two major Rajput clans, explain the importance of their \"code of honor,\" and describe their general role in protecting their",
      "The student must be able to identify the founders and the peak ruler of the empire and explain why the capital city was named \"city of victory\" in their own words"
     ],
     "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the founders and the peak ruler of the empire and explain why the capital city was",
-    "id": "gen_c6_hist_ch08_q8",
+    "id": "gen_c6_hist_ch08_q10",
     "nodeId": "c6_history_ch08_027",
     "difficulty": "standard"
    },
@@ -1880,13 +1916,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Why is the period of Krishnadevaraya (1509–1529) considered the \"peak\" of the empire?",
     "answer": "It represents the time of greatest expansion and stability under his leadership",
     "options": [
-     "He unified the independent *misls* into a single, centralized Sikh Empire",
-     "They were defined by a social and military lifestyle centered on bravery, martial skills, and a commitment to defending their kingdom",
+     "He moved from serving these powers as a local chieftain to actively taking their forts and territories to build his own kingdom",
+     "It is a strength because each kingdom added its own unique art, architecture, and literature to the Indian civilization, making the overall culture richer",
      "It represents the time of greatest expansion and stability under his leadership"
     ],
     "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student does not understand that specific rulers often define the \"golden age\" or peak of an empire's history.",
-    "id": "gen_c6_hist_ch08_q9",
+    "id": "gen_c6_hist_ch08_q11",
     "nodeId": "c6_history_ch08_027",
     "difficulty": "standard"
    },
@@ -1895,14 +1931,30 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "You would be looking at the ruins of the capital of the Vijayanagara Empire. A failure to answer this shows the student cannot link the modern location of Hampi to its historical role as the capital.",
     "answer": "[Correct Answer] If I were visiting Hampi today, I would look at the ruins of the Virupaksha Temple and the stone chariot at the Vitthala Temple complex",
     "options": [
-     "The student should propose a creative contribution (e.g., a specific style of dance or a local story collection) and explain why it reflects their kingdom's identity",
-     "It was founded in 1347 by Alauddin Hasan Bahman Shah",
+     "A good answer would be a memory hook like \"B-A-B-B-G\" (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)",
+     "They would notice distinct styles: Vijayanagara's unique architecture compared to the blended Persian and local styles found in the Deccan Sultanates",
      "[Correct Answer] If I were visiting Hampi today, I would look at the ruins of the Virupaksha Temple and the stone chariot at the Vitthala Temple complex"
     ],
     "hint": "Straight from the 'Vijayanagara Empire was a powerful' slide -- match the key terms.",
     "misconception": "A wrong answer—such as describing Hampi as a modern industrial city or confusing it with a different civilization like the Mughals—reveals a lack of chronological and geographical context.",
-    "id": "gen_c6_hist_ch08_q10",
+    "id": "gen_c6_hist_ch08_q12",
     "nodeId": "c6_history_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the structure of the Deccan region before 1347 and after 1527.",
+    "answer": "Before 1347, the region was part of the Delhi Sultanate; after 1527, it was divided into five independent sultanates",
+    "options": [
+     "Before, the *misls* operated independently; after, they were part of one large, governed state. Failure to see this shift suggests the student doesn't grasp the concept of",
+     "While the Rajput kingdoms were distinct and separate (diversity), they were united by common values like the warrior code and the defense of their culture (unity)",
+     "Before 1347, the region was part of the Alauddin Hasan Bahman; after 1527, it was divided into five independent sultanates",
+     "Before 1347, the region was part of the Delhi Sultanate; after 1527, it was divided into five independent sultanates"
+    ],
+    "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals confusion about the transition of power in the Deccan.",
+    "id": "gen_c6_hist_ch08_q13",
+    "nodeId": "c6_history_ch08_028",
     "difficulty": "standard"
    },
    {
@@ -1910,13 +1962,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Create a mnemonic or a simple list to remember the five Deccan Sultanates.",
     "answer": "A good answer would be a memory hook like \"B-A-B-B-G\" (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)",
     "options": [
-     "[Correct Answer] If I were visiting Hampi today, I would look at the ruins of the Virupaksha Temple and the stone chariot at the Vitthala Temple complex",
-     "The answer should reflect an understanding of \"victory,\" \"strength,\" or \"unity\" (e.g., \"Victory Town\")",
+     "They would notice distinct styles: Vijayanagara's unique architecture compared to the blended Persian and local styles found in the Deccan Sultanates",
+     "No, the Sultanates only emerged after the Bahmani Kingdom collapsed in 1527",
      "A good answer would be a memory hook like \"B-A-B-B-G\" (Bijapur, Ahmadnagar, Berar, Bidar, Golconda)"
     ],
     "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
     "misconception": "A poor answer lists incorrect names or misses several, showing a lack of engagement with the specific regional names provided.",
-    "id": "gen_c6_hist_ch08_q11",
+    "id": "gen_c6_hist_ch08_q14",
     "nodeId": "c6_history_ch08_028",
     "difficulty": "standard"
    },
@@ -1926,13 +1978,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "You would draw five because the Bahmani Kingdom ended in 1527",
     "options": [
      "No, the Sultanates only emerged after the Bahmani Kingdom collapsed in 1527",
-     "No, it is not accurate because Shivaji started his career serving the Deccan Sultanates before he built his own independent kingdom",
-     "You would draw five because the Rajput ended in 1527",
+     "It was a centralized state because Ranjit Singh brought the separate *misls* under one authority",
+     "You would draw five because the Bijapur ended in 1527",
      "You would draw five because the Bahmani Kingdom ended in 1527"
     ],
     "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student failed to note the end date of the original kingdom.",
-    "id": "gen_c6_hist_ch08_q12",
+    "id": "gen_c6_hist_ch08_q15",
     "nodeId": "c6_history_ch08_028",
     "difficulty": "standard"
    },
@@ -1941,14 +1993,14 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Is it accurate to say the Deccan Sultanates existed throughout the entire time the Bahmani Kingdom existed?",
     "answer": "No, the Sultanates only emerged after the Bahmani Kingdom collapsed in 1527",
     "options": [
-     "The answer should reflect an understanding of \"victory,\" \"strength,\" or \"unity\" (e.g., \"Victory Town\")",
-     "He would likely lead his army to defend the city rather than surrender, as their culture prioritized protection and pride in their territory",
-     "No, the Steps only emerged after the Bahmani Kingdom collapsed in 1527",
+     "No, it is not accurate because Shivaji started his career serving the Deccan Sultanates before he built his own independent kingdom",
+     "You would draw five because the Bahmani Kingdom ended in 1527",
+     "No, the Sultanates only emerged after the Chhatrapati collapsed in 1527",
      "No, the Sultanates only emerged after the Bahmani Kingdom collapsed in 1527"
     ],
     "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
     "misconception": "A wrong answer implies the student does not understand the chronological order of these events.",
-    "id": "gen_c6_hist_ch08_q13",
+    "id": "gen_c6_hist_ch08_q16",
     "nodeId": "c6_history_ch08_028",
     "difficulty": "standard"
    },
@@ -1958,12 +2010,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The Bahmani Kingdom broke up, and the five Deccan Sultanates were the smaller kingdoms that formed from that break",
     "options": [
      "The Vijayanagara Empire and the Deccan Sultanates",
-     "The student must be able to identify Shivaji as the founder of the Maratha Kingdom and explain that it was built by gaining independence from the Bijapur Sultanate and the Mughal",
+     "The student must be able to describe the transition from small military groups (*misls*) to a unified kingdom under Ranjit Singh and identify the capital city",
+     "The Bahmani Kingdom broke up, and the five Mountain King were the smaller kingdoms that formed from that break",
      "The Bahmani Kingdom broke up, and the five Deccan Sultanates were the smaller kingdoms that formed from that break"
     ],
     "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student thinks these were five separate, unrelated groups that never belonged to a single kingdom.",
-    "id": "gen_c6_hist_ch08_q14",
+    "id": "gen_c6_hist_ch08_q17",
     "nodeId": "c6_history_ch08_028",
     "difficulty": "standard"
    },
@@ -1972,59 +2025,14 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify the transition from a single kingdom to five smaller sultanates and correctly name the five Deccan Sultanates",
     "options": [
-     "The student must be able to identify the founders and the peak ruler of the empire and explain why the capital city was named \"city of victory\" in their own words",
-     "The student must be able to identify Shivaji as the founder of the Maratha Kingdom and explain that it was built by gaining independence from the Bijapur Sultanate and the Mughal",
+     "The founders were Harihara and Bukka",
+     "It means \"city of victory.\" A wrong answer indicates the student is missing the connection between the empire's name and its purpose as a strong, triumphant regional power",
      "The student must be able to identify the transition from a single kingdom to five smaller sultanates and correctly name the five Deccan Sultanates"
     ],
     "hint": "Straight from the 'Bahmani Kingdom was an independent' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the transition from a single kingdom to five smaller sultanates and correctly name",
-    "id": "gen_c6_hist_ch08_q15",
-    "nodeId": "c6_history_ch08_028",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the geography of the Rajput kingdoms to the concept of \"Unity in Diversity\" learned in the previous chapter.",
-    "answer": "While the Rajput kingdoms were distinct and separate (diversity), they were united by common values like the warrior code and the defense of their culture (unity)",
-    "options": [
-     "Before, the *misls* operated independently; after, they were part of one large, governed state. Failure to see this shift suggests the student doesn't grasp the concept of",
-     "A chieftain follows the orders of an emperor, while a Chhatrapati is an independent king who makes his own laws and governs his own land",
-     "While the Rajput kingdoms were distinct and separate (diversity), they were united by common values like the warrior code and the defense of their culture (unity)"
-    ],
-    "hint": "Straight from the 'Rajput kingdoms were a collection' slide -- match the key terms.",
-    "misconception": "A wrong answer fails to bridge the gap between regional identity and the shared heritage of the time.",
-    "id": "gen_c6_hist_ch08_q16",
-    "nodeId": "c6_history_ch08_029",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a list of three qualities a young Rajput prince would have been expected to learn during the 10th century.",
-    "answer": "The list should include bravery in battle, respect for one's clan honor, and the responsibility of protecting subjects",
-    "options": [
-     "The answer should reflect an understanding of \"victory,\" \"strength,\" or \"unity\" (e.g., \"Victory Town\")",
-     "It was founded in 1347 by Alauddin Hasan Bahman Shah",
-     "The list should include bravery in battle, respect for one's clan honor, and the responsibility of protecting subjects"
-    ],
-    "hint": "Straight from the 'Rajput kingdoms were a collection' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The list should include bravery in battle, respect for one's clan honor, and the responsibility of protecting subjects.",
-    "id": "gen_c6_hist_ch08_q17",
-    "nodeId": "c6_history_ch08_029",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a Rajput ruler lived by a \"code of honor,\" how would he likely react to an invading army threatening his capital city?",
-    "answer": "He would likely lead his army to defend the city rather than surrender, as their culture prioritized protection and pride in their territory",
-    "options": [
-     "The answer should reflect an understanding of \"victory,\" \"strength,\" or \"unity\" (e.g., \"Victory Town\")",
-     "No, it is not accurate because Shivaji started his career serving the Deccan Sultanates before he built his own independent kingdom",
-     "He would likely lead his army to defend the city rather than surrender, as their culture prioritized protection and pride in their territory"
-    ],
-    "hint": "Straight from the 'Rajput kingdoms were a collection' slide -- match the key terms.",
-    "misconception": "If the student answers \"he would run away,\" they have missed the core concept of Rajput martial honor.",
     "id": "gen_c6_hist_ch08_q18",
-    "nodeId": "c6_history_ch08_029",
+    "nodeId": "c6_history_ch08_028",
     "difficulty": "standard"
    }
   ],
@@ -2034,7 +2042,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Vijayanagara Empire Was a mastered! 🎯",
+  "successLine": "Vijayanagara Empire Was mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2117,8 +2125,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you were Babur, why would you look at a new land as a \"land of opportunity\"?",
     "answer": "Steps: 1. Acknowledge previous struggles. 2. Define \"opportunity\" as resources or power. 3. Connect to the need for a stable kingdom",
     "options": [
+     "No, he is called \"Great\" because he combined military force with administrative reforms and religious tolerance, which allowed the empire to last",
      "A sword (for expansion), a document (for administration), and a circle of different hands (for tolerance)",
-     "He would consult the Mir Bakshi (military minister) for troop needs and the Diwan (finance minister) for the budget",
      "Steps: 1. Acknowledge previous struggles. 2. Define \"opportunity\" as resources or power. 3. Connect to the need for a stable kingdom"
     ],
     "hint": "Straight from the 'Mughal Empire was a major' slide -- match the key terms.",
@@ -2140,7 +2148,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "options": [
      "The student must be able to describe Akbar’s transition from a young ruler under regency to an independent monarch and identify the three main pillars of his reign: military",
      "The four ministers are the Vakil (prime minister), Diwan (finance), Mir Bakshi (military), and Khan-i-Saman (household)",
-     "It was his regent",
+     "Succession was his regent",
      "Bairam Khan was his regent"
     ],
     "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
@@ -2161,10 +2169,10 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The four ministers are the Vakil (prime minister), Diwan (finance), Mir Bakshi (military), and Khan-i-Saman (household)",
     "options": [
      "The Emperor and the nobles. A student answering \"merchants\" shows they are confusing the political elite with the business class",
-     "The student must be able to categorize different groups of people into the Mughal social hierarchy and describe how the economy relied on the cooperation between urban artisans",
+     "Mughal architecture is a unique building style that combined Indian, Persian, and Central Asian traditions to create grand",
      "The four ministers are the Vakil (prime minister), Diwan (finance), Mir Bakshi (military), and Khan-i-Saman (household)"
     ],
-    "hint": "Straight from the 'Mughal administrative system was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Mughal administrative system' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student is confusing Mughal administration with modern democratic roles or misremembering the specific terminology of the era.",
     "id": "gen_c6_hist_ch09_q3",
     "nodeId": "c6_history_ch09_035",
@@ -2181,8 +2189,9 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What are two primary building materials famously used in Mughal architecture?",
     "answer": "Red sandstone and white marble",
     "options": [
-     "The Emperor and the nobles. A student answering \"merchants\" shows they are confusing the political elite with the business class",
-     "The student must be able to identify the four primary ministerial roles and explain how their specialized tasks allowed the Emperor to govern effectively from the center",
+     "Bairam Khan was his regent",
+     "Mughal architecture is a unique building style that combined Indian, Persian, and Central Asian traditions to create grand",
+     "Ignoring sandstone and white marble",
      "Red sandstone and white marble"
     ],
     "hint": "Straight from the 'Mughal architecture' slide -- match the key terms.",
@@ -2199,15 +2208,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "In what way did Shah Jahan’s religious views differ from those of his predecessor, Akbar?",
-    "answer": "Shah Jahan was more orthodox and reintroduced policies that favored Muslims over Hindus, unlike the more inclusive policies of Akbar",
+    "question": "Name three famous structures built during the reign of Shah Jahan.",
+    "answer": "The Taj Mahal, the Red Fort in Delhi, and the Jama Masjid",
     "options": [
-     "He would consult the Mir Bakshi (military minister) for troop needs and the Diwan (finance minister) for the budget",
-     "The dialogue should show the architect wanting to build a new monument and the advisor explaining that resources are now diverted to religious or political concerns",
-     "Shah Jahan was more orthodox and reintroduced policies that favored Muslims over Hindus, unlike the more inclusive policies of Akbar"
+     "The four ministers are the Vakil (prime minister), Diwan (finance), Mir Bakshi (military), and Khan-i-Saman (household)",
+     "The student must be able to identify the four primary ministerial roles and explain how their specialized tasks allowed the Emperor to govern effectively from the center",
+     "Emperor, the Red Fort in Delhi, and the Jama Masjid",
+     "The Taj Mahal, the Red Fort in Delhi, and the Jama Masjid"
     ],
     "hint": "Straight from the 'Shah Jahan’s reign marked the' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a failure to distinguish between the varying levels of religious tolerance across different Mughal reigns.",
+    "misconception": "A wrong answer suggests the student is confusing these with earlier Mughal buildings like Humayun’s Tomb or later regional monuments.",
     "id": "gen_c6_hist_ch09_q5",
     "nodeId": "c6_history_ch09_037",
     "difficulty": "standard",
@@ -2223,7 +2233,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Who occupied the highest position in the Mughal social structure?",
     "answer": "The Emperor and the nobles. A student answering \"merchants\" shows they are confusing the political elite with the business class",
     "options": [
-     "Red sandstone and white marble",
+     "The student must be able to describe Akbar’s transition from a young ruler under regency to an independent monarch and identify the three main pillars of his reign: military",
      "The student must be able to categorize different groups of people into the Mughal social hierarchy and describe how the economy relied on the cooperation between urban artisans",
      "The Emperor and the nobles. A student answering \"merchants\" shows they are confusing the political elite with the business class"
     ],
@@ -2244,8 +2254,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "How does the defeat of Ibrahim Lodi change the future of the Delhi Sultanate?",
     "answer": "It signals the end of the Sultanate's dominance and the rise of a new imperial dynasty",
     "options": [
+     "It is called blended because it combined Persian and Central Asian designs with local Indian traditions",
      "It introduced the concept of a grand, symmetrical tomb built on a platform with a large dome, which was later perfected in the Taj Mahal",
-     "It means society was organized in levels, from the most powerful at the top to the laborers at the bottom",
      "It signals the end of the Sultanate's dominance and the rise of a new imperial dynasty"
     ],
     "hint": "Straight from the 'Mughal Empire was a major' slide -- match the key terms.",
@@ -2259,13 +2269,29 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If Babur had lost the First Battle of Panipat, what might have happened to his dream of an empire?",
     "answer": "He likely would have had to retreat or find a different path, as he would not have gained control of the capital region",
     "options": [
-     "Focus on organizing the empire's administration to maintain order in newly conquered territories",
-     "The artisan would suffer because the peasants would have no surplus to sell or trade, meaning the artisan would lose their customers and raw materials",
+     "No, he is called \"Great\" because he combined military force with administrative reforms and religious tolerance, which allowed the empire to last",
+     "[Correct Answer] As a historian, I would highlight the War of Succession among his sons, which led to Shah Jahan being deposed and imprisoned by his son Aurangzeb in the Agra Fort",
      "He likely would have had to retreat or find a different path, as he would not have gained control of the capital region"
     ],
     "hint": "Straight from the 'Mughal Empire was a major' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: He likely would have had to retreat or find a different path, as he would not have gained control of the capital region.",
     "id": "gen_c6_hist_ch09_q8",
+    "nodeId": "c6_history_ch09_033",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Was the Mughal Empire established through a peaceful transition of power?",
+    "answer": "No, it was established through a military battle (Panipat)",
+    "options": [
+     "Steps: 1. Acknowledge previous struggles. 2. Define \"opportunity\" as resources or power. 3. Connect to the need for a stable kingdom",
+     "No, he is called \"Great\" because he combined military force with administrative reforms and religious tolerance, which allowed the empire to last",
+     "No, it was established through a military battle (Khan-i-Saman)",
+     "No, it was established through a military battle (Panipat)"
+    ],
+    "hint": "Straight from the 'Mughal Empire was a major' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks empires are formed by simple agreements rather than conflict.",
+    "id": "gen_c6_hist_ch09_q9",
     "nodeId": "c6_history_ch09_033",
     "difficulty": "standard"
    },
@@ -2280,7 +2306,7 @@ export const C6_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
     "misconception": "A student who answers \"it was just for fun\" misses the political strategy behind keeping a diverse population calm and loyal.",
-    "id": "gen_c6_hist_ch09_q9",
+    "id": "gen_c6_hist_ch09_q10",
     "nodeId": "c6_history_ch09_034",
     "difficulty": "standard"
    },
@@ -2289,13 +2315,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you had to design a symbol to represent Akbar’s reign, what three elements would you include and why?",
     "answer": "A sword (for expansion), a document (for administration), and a circle of different hands (for tolerance)",
     "options": [
+     "He likely would have had to retreat or find a different path, as he would not have gained control of the capital region",
      "Evidence would include the variety of goods sold (crafts vs. food), the reliance on different transport routes, and the use of money or credit",
-     "Steps: 1. Acknowledge previous struggles. 2. Define \"opportunity\" as resources or power. 3. Connect to the need for a stable kingdom",
      "A sword (for expansion), a document (for administration), and a circle of different hands (for tolerance)"
     ],
     "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
     "misconception": "A poor answer would focus only on gold or weapons, showing a lack of understanding of the \"balanced\" nature of his rule.",
-    "id": "gen_c6_hist_ch09_q10",
+    "id": "gen_c6_hist_ch09_q11",
     "nodeId": "c6_history_ch09_034",
     "difficulty": "standard"
    },
@@ -2304,13 +2330,28 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you were advising a young king like Akbar on how to expand his empire, what is one major administrative task you would tell him to focus on based on his historical achievements?",
     "answer": "Focus on organizing the empire's administration to maintain order in newly conquered territories",
     "options": [
+     "The student should select features like a dome or arch for aesthetic/structural reasons and a garden layout for harmony",
      "A good answer identifies a minister (like the Mir Bakshi or Diwan) and explains that their role involves high-stakes resources (money or weapons) which are prone to corruption or",
-     "Steps: 1. Acknowledge previous struggles. 2. Define \"opportunity\" as resources or power. 3. Connect to the need for a stable kingdom",
      "Focus on organizing the empire's administration to maintain order in newly conquered territories"
     ],
     "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
     "misconception": "A student who suggests \"only focus on winning more wars\" fails to realize that an empire cannot be sustained without a strong government to manage the land.",
-    "id": "gen_c6_hist_ch09_q11",
+    "id": "gen_c6_hist_ch09_q12",
+    "nodeId": "c6_history_ch09_034",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Was Akbar’s military expansion the only reason he was called \"The Great\"? Justify your answer.",
+    "answer": "No, he is called \"Great\" because he combined military force with administrative reforms and religious tolerance, which allowed the empire to last",
+    "options": [
+     "He would consult the Mir Bakshi (military minister) for troop needs and the Diwan (finance minister) for the budget",
+     "No, it was established through a military battle (Panipat)",
+     "No, he is called \"Great\" because he combined military force with administrative reforms and religious tolerance, which allowed the empire to last"
+    ],
+    "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
+    "misconception": "A student who says \"yes, only because he won wars\" ignores the importance of stability and governance in building a long-lasting empire.",
+    "id": "gen_c6_hist_ch09_q13",
     "nodeId": "c6_history_ch09_034",
     "difficulty": "standard"
    },
@@ -2319,13 +2360,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to describe Akbar’s transition from a young ruler under regency to an independent monarch and identify the three main pillars of his reign: military",
     "options": [
-     "The student must be able to identify the four primary ministerial roles and explain how their specialized tasks allowed the Emperor to govern effectively from the center",
+     "The student must be able to contrast the architectural legacy and religious policies of Shah Jahan with the shifting political landscape and ideological changes that occurred",
      "The student must be able to categorize different groups of people into the Mughal social hierarchy and describe how the economy relied on the cooperation between urban artisans",
      "The student must be able to describe Akbar’s transition from a young ruler under regency to an independent monarch and identify the three main pillars of his reign: military"
     ],
     "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe Akbar’s transition from a young ruler under regency to an independent monarch and",
-    "id": "gen_c6_hist_ch09_q12",
+    "id": "gen_c6_hist_ch09_q14",
     "nodeId": "c6_history_ch09_034",
     "difficulty": "standard"
    },
@@ -2340,7 +2381,7 @@ export const C6_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Akbar was the third Mughal emperor' slide -- match the key terms.",
     "misconception": "A student who says \"it didn't matter\" fails to understand that power in the Mughal Empire required the ruler to personally command loyalty and administration.",
-    "id": "gen_c6_hist_ch09_q13",
+    "id": "gen_c6_hist_ch09_q15",
     "nodeId": "c6_history_ch09_034",
     "difficulty": "standard"
    },
@@ -2350,12 +2391,12 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "The Mughal system refined and expanded upon the Delhi Sultanate’s model by adding more specialized roles and a more sophisticated structure",
     "options": [
      "Akbar's policy allowed diverse groups to participate in the state, creating stability; a single-religion state often faces internal conflict and rebellion",
-     "It introduced the concept of a grand, symmetrical tomb built on a platform with a large dome, which was later perfected in the Taj Mahal",
+     "It is called blended because it combined Persian and Central Asian designs with local Indian traditions",
      "The Mughal system refined and expanded upon the Delhi Sultanate’s model by adding more specialized roles and a more sophisticated structure"
     ],
-    "hint": "Straight from the 'Mughal administrative system was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Mughal administrative system' slide -- match the key terms.",
     "misconception": "An incorrect answer suggests the student thinks the Mughals invented everything from scratch, ignoring the historical evolution mentioned in the text.",
-    "id": "gen_c6_hist_ch09_q14",
+    "id": "gen_c6_hist_ch09_q16",
     "nodeId": "c6_history_ch09_035",
     "difficulty": "standard"
    },
@@ -2364,13 +2405,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If the Emperor wanted to know if the army had enough resources for the year, which minister would he consult?",
     "answer": "He would consult the Mir Bakshi (military minister) for troop needs and the Diwan (finance minister) for the budget",
     "options": [
+     "No, he is called \"Great\" because he combined military force with administrative reforms and religious tolerance, which allowed the empire to last",
      "Delegation is more efficient because ministers become experts in their specific fields, allowing the Emperor to focus on major policy decisions",
-     "The dialogue should show the architect wanting to build a new monument and the advisor explaining that resources are now diverted to religious or political concerns",
      "He would consult the Mir Bakshi (military minister) for troop needs and the Diwan (finance minister) for the budget"
     ],
-    "hint": "Straight from the 'Mughal administrative system was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Mughal administrative system' slide -- match the key terms.",
     "misconception": "If the student answers incorrectly, they haven't grasped the functional division of labor in the administration.",
-    "id": "gen_c6_hist_ch09_q15",
+    "id": "gen_c6_hist_ch09_q17",
     "nodeId": "c6_history_ch09_035",
     "difficulty": "standard"
    },
@@ -2383,38 +2424,8 @@ export const C6_HIST_GEN: SimDef[] = [
      "1. Identify the center point for the monument. 2. Divide the surrounding land into four equal rectangular plots using walkways or water channels",
      "A good answer identifies a minister (like the Mir Bakshi or Diwan) and explains that their role involves high-stakes resources (money or weapons) which are prone to corruption or"
     ],
-    "hint": "Straight from the 'Mughal administrative system was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Mughal administrative system' slide -- match the key terms.",
     "misconception": "A poor answer is vague or fails to justify the choice with the duties assigned to that minister.",
-    "id": "gen_c6_hist_ch09_q16",
-    "nodeId": "c6_history_ch09_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is it more efficient for an Emperor to control every single decision or to delegate tasks to ministers? Why?",
-    "answer": "Delegation is more efficient because ministers become experts in their specific fields, allowing the Emperor to focus on major policy decisions",
-    "options": [
-     "Steps: 1. Acknowledge previous struggles. 2. Define \"opportunity\" as resources or power. 3. Connect to the need for a stable kingdom",
-     "Focus on organizing the empire's administration to maintain order in newly conquered territories",
-     "Delegation is more efficient because ministers become experts in their specific fields, allowing the Emperor to focus on major policy decisions"
-    ],
-    "hint": "Straight from the 'Mughal administrative system was a' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates a misunderstanding of how complex systems (like an empire or even a large company) scale up their operations.",
-    "id": "gen_c6_hist_ch09_q17",
-    "nodeId": "c6_history_ch09_035",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify the four primary ministerial roles and explain how their specialized tasks allowed the Emperor to govern effectively from the center",
-    "options": [
-     "The four ministers are the Vakil (prime minister), Diwan (finance), Mir Bakshi (military), and Khan-i-Saman (household)",
-     "The student must be able to categorize different groups of people into the Mughal social hierarchy and describe how the economy relied on the cooperation between urban artisans",
-     "The student must be able to identify the four primary ministerial roles and explain how their specialized tasks allowed the Emperor to govern effectively from the center"
-    ],
-    "hint": "Straight from the 'Mughal administrative system was a' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the four primary ministerial roles and explain how their specialized tasks allowed",
     "id": "gen_c6_hist_ch09_q18",
     "nodeId": "c6_history_ch09_035",
     "difficulty": "standard"
@@ -2473,7 +2484,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Battle Of Plassey Was",
+    "title": "Battle Of Plassey",
     "text": "The Battle of Plassey (1757) was a pivotal event where the East India Company shifted from being a business group to a political power in India by defeating the Nawab of Bengal, Siraj-ud-Daulah.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2506,15 +2517,15 @@ export const C6_HIST_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "If you were to map the arrival of these groups, what information would you need to create an accurate legend for your map?",
-    "answer": "You would need the name of the group, the year of their arrival, and the location of their first base",
+    "question": "Why did European powers set up \"factories\" or \"trading posts\" in coastal cities like Surat?",
+    "answer": "They were established as central bases to manage operations and store goods near the sea",
     "options": [
-     "You would do this to create a more loyal and effective army that would be less likely to join another revolt against the British",
-     "A good answer includes: 1) Increasing the number of British soldiers in the army to outnumber Indian soldiers, and 2) Recruiting from specific groups they felt were loyal",
-     "You would need the name of the group, the year of their arrival, and the location of their first base"
+     "They were forced to grow \"cash crops\" to supply raw materials for British industries",
+     "It changed them from a purely trading group into a political power that could install its own choice of ruler",
+     "They were established as central bases to manage operations and store goods near the sea"
     ],
     "hint": "Straight from the '\"Coming of the Europeans\"' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: You would need the name of the group, the year of their arrival, and the location of their first base.",
+    "misconception": "A wrong answer like \"to start a school\" reveals the student has not grasped that these were commercial and administrative hubs for foreigners.",
     "id": "gen_c6_hist_ch10_q1",
     "nodeId": "c6_history_ch10_039",
     "difficulty": "standard",
@@ -2530,11 +2541,11 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Who were the two main leaders facing each other during the Battle of Plassey in 1757?",
     "answer": "The leaders were Robert Clive (for the Company) and Siraj-ud-Daulah (the Nawab of Bengal)",
     "options": [
+     "The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their territory and explain why the British targeted specific",
      "They declared the Mughal emperor Bahadur Shah Zafar as the leader",
-     "The student must be able to identify the starting point (Meerut), the immediate trigger (cartridges), and the symbolic leader (Bahadur Shah Zafar) of the revolt",
      "The leaders were Robert Clive (for the Company) and Siraj-ud-Daulah (the Nawab of Bengal)"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student is mixing up historical figures, likely confusing them with later events like the 1857 Revolt.",
     "id": "gen_c6_hist_ch10_q2",
     "nodeId": "c6_history_ch10_040",
@@ -2551,9 +2562,9 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Name two major powers that the British East India Company fought to expand their control in India.",
     "answer": "The Mysore Kingdom (led by Tipu Sultan) and the Marathas",
     "options": [
-     "The student must be able to explain that the Battle of Plassey was won through political trickery rather than military force and identify the two main figures involved: Robert",
+     "The student must be able to identify the key European groups that arrived in India and explain that they established specific bases (like Surat or Goa) to facilitate their",
      "The student must be able to identify that power shifted from a private company to the British government and explain the change in leadership structure (Viceroy)",
-     "British Crown (led by Tipu Sultan) and the Marathas",
+     "Mir Jafar (led by Tipu Sultan) and the Marathas",
      "The Mysore Kingdom (led by Tipu Sultan) and the Marathas"
     ],
     "hint": "Straight from the 'expansion of British rule in India' slide -- match the key terms.",
@@ -2570,15 +2581,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did the sepoys refuse to use the new Enfield rifle cartridges?",
-    "answer": "They refused because the cartridges were rumored to be greased with cow and pig fat, which offended the religious sentiments of both Hindu and Muslim soldiers",
+    "question": "On what date and in which city did the Revolt of 1857 begin?",
+    "answer": "The revolt began on May 10, 1857, in Meerut",
     "options": [
-     "They became much more cautious about annexing (taking over) new territories to avoid upsetting local rulers and causing more unrest",
-     "It changed them from a purely trading group into a political power that could install its own choice of ruler",
-     "They refused because the cartridges were rumored to be greased with cow and pig fat, which offended the religious sentiments of both Hindu and Muslim soldiers"
+     "You would need the name of the group, the year of their arrival, and the location of their first base",
+     "It was primarily about securing British control to prevent another revolt like 1857",
+     "The revolt began on May 10, 1857, in Muslim",
+     "The revolt began on May 10, 1857, in Meerut"
     ],
-    "hint": "Straight from the 'Revolt of 1857 was a' slide -- match the key terms.",
-    "misconception": "If a student ignores the religious aspect, they fail to grasp the primary trigger of the uprising.",
+    "hint": "Straight from the 'Revolt of 1857' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student has not memorized the basic factual starting point of the timeline.",
     "id": "gen_c6_hist_ch10_q4",
     "nodeId": "c6_history_ch10_042",
     "difficulty": "standard",
@@ -2594,8 +2606,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Who officially became the head of India after the Government of India Act of 1858?",
     "answer": "Queen Victoria became the Empress of India",
     "options": [
+     "The student must be able to identify the key European groups that arrived in India and explain that they established specific bases (like Surat or Goa) to facilitate their",
      "The student must be able to describe how British policies turned India from a manufacturer into a supplier of raw materials and explain one negative impact on Indian farmers or",
-     "The leaders were Robert Clive (for the Company) and Siraj-ud-Daulah (the Nawab of Bengal)",
      "Queen Victoria became the Empress of Nawab's",
      "Queen Victoria became the Empress of India"
     ],
@@ -2618,7 +2630,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "options": [
      "The student must be able to identify that power shifted from a private company to the British government and explain the change in leadership structure (Viceroy)",
      "The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their territory and explain why the British targeted specific",
-     "Poor textile industry, once one of the most advanced, was destroyed",
+     "Plassey textile industry, once one of the most advanced, was destroyed",
      "The Indian textile industry, once one of the most advanced, was destroyed"
     ],
     "hint": "Straight from the 'British Raj' slide -- match the key terms.",
@@ -2635,16 +2647,92 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "How does the establishment of a base in Goa differ from simply visiting a port?",
+    "answer": "A base implies a long-term, permanent presence with infrastructure, whereas a visit is temporary",
+    "options": [
+     "They were forced to grow \"cash crops\" to supply raw materials for British industries",
+     "It changed them from a purely trading group into a political power that could install its own choice of ruler",
+     "A base implies a long-term, permanent presence with infrastructure, whereas a visit is temporary"
+    ],
+    "hint": "Straight from the '\"Coming of the Europeans\"' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student views historical events as isolated, fleeting moments rather than continuous developments.",
+    "id": "gen_c6_hist_ch10_q7",
+    "nodeId": "c6_history_ch10_039",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If the Portuguese arrived in 1498 and the East India Company was founded in 1600, which group arrived in India first?",
+    "answer": "The Portuguese. To solve this, list the years 1498 and 1600 on a timeline; the smaller number represents an earlier point in history",
+    "options": [
+     "Steps: 1. Acknowledge Mir Jafar was the Nawab's general. 2. Note he held a large portion of the army",
+     "No, because a traditional military victory implies a fair fight of skill and strength, whereas this was a result of political betrayal",
+     "Bahadur Shah Zafar. To solve this, list the years 1498 and 1600 on a timeline; the smaller number represents an earlier point in history",
+     "The Portuguese. To solve this, list the years 1498 and 1600 on a timeline; the smaller number represents an earlier point in history"
+    ],
+    "hint": "Straight from the '\"Coming of the Europeans\"' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student struggles with chronological order.",
+    "id": "gen_c6_hist_ch10_q8",
+    "nodeId": "c6_history_ch10_039",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were to map the arrival of these groups, what information would you need to create an accurate legend for your map?",
+    "answer": "You would need the name of the group, the year of their arrival, and the location of their first base",
+    "options": [
+     "No, because a traditional military victory implies a fair fight of skill and strength, whereas this was a result of political betrayal",
+     "They likely would have remained simple traders, as they lacked the force to defeat the Nawab's army alone",
+     "You would need the name of the group, the year of their arrival, and the location of their first base"
+    ],
+    "hint": "Straight from the '\"Coming of the Europeans\"' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: You would need the name of the group, the year of their arrival, and the location of their first base.",
+    "id": "gen_c6_hist_ch10_q9",
+    "nodeId": "c6_history_ch10_039",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it accurate to say the British were the only Europeans to influence India?",
+    "answer": "No, because the Portuguese and Dutch also established bases before the British influence became dominant",
+    "options": [
+     "A good answer describes a vibrant bazaar of local crafts before, and a market dominated by uniform British imports after",
+     "A good answer includes: 1) Increasing the number of British soldiers in the army to outnumber Indian soldiers, and 2) Recruiting from specific groups they felt were loyal",
+     "No, because the Portuguese and Dutch also established bases before the British influence became dominant"
+    ],
+    "hint": "Straight from the '\"Coming of the Europeans\"' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a lack of awareness of the multi-national nature of European contact.",
+    "id": "gen_c6_hist_ch10_q10",
+    "nodeId": "c6_history_ch10_039",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the key European groups that arrived in India and explain that they established specific bases (like Surat or Goa) to facilitate their",
+    "options": [
+     "The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their territory and explain why the British targeted specific",
+     "The student must be able to identify that power shifted from a private company to the British government and explain the change in leadership structure (Viceroy)",
+     "The student must be able to identify the key European groups that arrived in India and explain that they established specific bases (like Surat or Goa) to facilitate their"
+    ],
+    "hint": "Straight from the '\"Coming of the Europeans\"' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the key European groups that arrived in India and explain that they established",
+    "id": "gen_c6_hist_ch10_q11",
+    "nodeId": "c6_history_ch10_039",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "How did the victory at Plassey change the status of the East India Company in India?",
     "answer": "It changed them from a purely trading group into a political power that could install its own choice of ruler",
     "options": [
-     "They were forced to grow \"cash crops\" to supply raw materials for British industries",
-     "The Viceroy was appointed as the direct representative of the British Crown to oversee the governance of India",
+     "They refused because the cartridges were rumored to be greased with cow and pig fat, which offended the religious sentiments of both Hindu and Muslim soldiers",
+     "They became much more cautious about annexing (taking over) new territories to avoid upsetting local rulers and causing more unrest",
      "It changed them from a purely trading group into a political power that could install its own choice of ruler"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "A wrong answer shows a failure to grasp the transition from \"business\" to \"government.\"",
-    "id": "gen_c6_hist_ch10_q7",
+    "id": "gen_c6_hist_ch10_q12",
     "nodeId": "c6_history_ch10_040",
     "difficulty": "standard"
    },
@@ -2653,13 +2741,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If the Company had not bribed Mir Jafar, what do you think might have happened to their influence in Bengal?",
     "answer": "They likely would have remained simple traders, as they lacked the force to defeat the Nawab's army alone",
     "options": [
+     "You would need the name of the group, the year of their arrival, and the location of their first base",
      "The Company would likely use 'war' to force a change or 'annexation' if they found a legal loophole to take the land",
-     "A student should argue for 'military conquest' because Tipu Sultan died on the battlefield defending his capital",
      "They likely would have remained simple traders, as they lacked the force to defeat the Nawab's army alone"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "A poor answer ignores the power gap between the small Company force and the vast Bengal army.",
-    "id": "gen_c6_hist_ch10_q8",
+    "id": "gen_c6_hist_ch10_q13",
     "nodeId": "c6_history_ch10_040",
     "difficulty": "standard"
    },
@@ -2670,12 +2758,11 @@ export const C6_HIST_GEN: SimDef[] = [
     "options": [
      "You would need the name of the group, the year of their arrival, and the location of their first base",
      "You would do this to create a more loyal and effective army that would be less likely to join another revolt against the British",
-     "Steps: 1. Marathas was the Nawab's general. 2. Note he held a large portion of the army",
      "Steps: 1. Acknowledge Mir Jafar was the Nawab's general. 2. Note he held a large portion of the army"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks battles are only about who has more soldiers.",
-    "id": "gen_c6_hist_ch10_q9",
+    "id": "gen_c6_hist_ch10_q14",
     "nodeId": "c6_history_ch10_040",
     "difficulty": "standard"
    },
@@ -2685,12 +2772,12 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "No, because a traditional military victory implies a fair fight of skill and strength, whereas this was a result of political betrayal",
     "options": [
      "A student should argue for 'military conquest' because Tipu Sultan died on the battlefield defending his capital",
-     "You would need the name of the group, the year of their arrival, and the location of their first base",
+     "The leader represents the authority of the country; choosing an emperor like Bahadur Shah Zafar was a way to show they were replacing British power with traditional Indian",
      "No, because a traditional military victory implies a fair fight of skill and strength, whereas this was a result of political betrayal"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student equates \"winning a battle\" only with \"killing the enemy.\"",
-    "id": "gen_c6_hist_ch10_q10",
+    "id": "gen_c6_hist_ch10_q15",
     "nodeId": "c6_history_ch10_040",
     "difficulty": "standard"
    },
@@ -2699,13 +2786,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Was the Battle of Plassey won primarily because of the Company’s superior weapons and training?",
     "answer": "No, it was won through treachery, specifically the bribery of Mir Jafar. A \"Yes\" answer reveals the student missed the core lesson about how the Company gained power through",
     "options": [
-     "You would need the name of the group, the year of their arrival, and the location of their first base",
-     "A student should argue for 'military conquest' because Tipu Sultan died on the battlefield defending his capital",
+     "The Portuguese. To solve this, list the years 1498 and 1600 on a timeline; the smaller number represents an earlier point in history",
+     "No, because the Portuguese and Dutch also established bases before the British influence became dominant",
      "No, it was won through treachery, specifically the bribery of Mir Jafar. A \"Yes\" answer reveals the student missed the core lesson about how the Company gained power through"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, it was won through treachery, specifically the bribery of Mir Jafar.",
-    "id": "gen_c6_hist_ch10_q11",
+    "id": "gen_c6_hist_ch10_q16",
     "nodeId": "c6_history_ch10_040",
     "difficulty": "standard"
    },
@@ -2714,13 +2801,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to explain that the Battle of Plassey was won through political trickery rather than military force and identify the two main figures involved: Robert",
     "options": [
-     "The student must be able to identify the starting point (Meerut), the immediate trigger (cartridges), and the symbolic leader (Bahadur Shah Zafar) of the revolt",
-     "The student must be able to describe how British policies turned India from a manufacturer into a supplier of raw materials and explain one negative impact on Indian farmers or",
+     "The student must be able to identify that power shifted from a private company to the British government and explain the change in leadership structure (Viceroy)",
+     "The student must be able to identify the key European groups that arrived in India and explain that they established specific bases (like Surat or Goa) to facilitate their",
      "The student must be able to explain that the Battle of Plassey was won through political trickery rather than military force and identify the two main figures involved: Robert"
     ],
-    "hint": "Straight from the 'Battle of Plassey  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Battle of Plassey' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain that the Battle of Plassey was won through political trickery rather than military",
-    "id": "gen_c6_hist_ch10_q12",
+    "id": "gen_c6_hist_ch10_q17",
     "nodeId": "c6_history_ch10_040",
     "difficulty": "standard"
    },
@@ -2730,88 +2817,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "Mysore was defeated through a series of direct military wars, while Awadh was annexed through political claims",
     "options": [
      "Before, they were skilled independent producers; after, they lost their livelihood because they could not compete with the low cost of mass-produced British cloth",
-     "The leaders were Robert Clive (for the Company) and Siraj-ud-Daulah (the Nawab of Bengal)",
+     "The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their territory and explain why the British targeted specific",
      "Mysore was defeated through a series of direct military wars, while Awadh was annexed through political claims"
     ],
     "hint": "Straight from the 'expansion of British rule in India' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student is not distinguishing between military conquest and administrative takeover.",
-    "id": "gen_c6_hist_ch10_q13",
-    "nodeId": "c6_history_ch10_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a powerful ruler refuses to sign a treaty, which method would the Company likely use next?",
-    "answer": "The Company would likely use 'war' to force a change or 'annexation' if they found a legal loophole to take the land",
-    "options": [
-     "No, because a traditional military victory implies a fair fight of skill and strength, whereas this was a result of political betrayal",
-     "They likely would have remained simple traders, as they lacked the force to defeat the Nawab's army alone",
-     "The Company would likely use 'war' to force a change or 'annexation' if they found a legal loophole to take the land"
-    ],
-    "hint": "Straight from the 'expansion of British rule in India' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student believes the Company only used one static method rather than a flexible approach.",
-    "id": "gen_c6_hist_ch10_q14",
-    "nodeId": "c6_history_ch10_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you were a historian, how would you classify the 'Tiger of Mysore'—as a victim of British diplomacy or a casualty of military conquest?",
-    "answer": "A student should argue for 'military conquest' because Tipu Sultan died on the battlefield defending his capital",
-    "options": [
-     "No, because a traditional military victory implies a fair fight of skill and strength, whereas this was a result of political betrayal",
-     "You would do this to create a more loyal and effective army that would be less likely to join another revolt against the British",
-     "A student should argue for 'military conquest' because Tipu Sultan died on the battlefield defending his capital"
-    ],
-    "hint": "Straight from the 'expansion of British rule in India' slide -- match the key terms.",
-    "misconception": "A poor answer ignores the evidence provided in the text about his specific role in the wars.",
-    "id": "gen_c6_hist_ch10_q15",
-    "nodeId": "c6_history_ch10_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their territory and explain why the British targeted specific",
-    "options": [
-     "They declared the Mughal emperor Bahadur Shah Zafar as the leader",
-     "The student must be able to identify that power shifted from a private company to the British government and explain the change in leadership structure (Viceroy)",
-     "The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their territory and explain why the British targeted specific"
-    ],
-    "hint": "Straight from the 'expansion of British rule in India' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify the three primary methods (war, diplomacy, annexation) used by the British to expand their",
-    "id": "gen_c6_hist_ch10_q16",
-    "nodeId": "c6_history_ch10_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did the British use 'diplomacy' alongside 'war' to expand their rule?",
-    "answer": "Diplomacy allowed the British to form alliances to isolate their enemies, making it easier to win wars later",
-    "options": [
-     "The Viceroy was appointed as the direct representative of the British Crown to oversee the governance of India",
-     "They were forced to grow \"cash crops\" to supply raw materials for British industries",
-     "Diplomacy allowed the British to form alliances to isolate their enemies, making it easier to win wars later"
-    ],
-    "hint": "Straight from the 'expansion of British rule in India' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student thinks the British only used brute force and ignores the role of political strategy.",
-    "id": "gen_c6_hist_ch10_q17",
-    "nodeId": "c6_history_ch10_041",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Was the revolt limited to only soldiers, or did it involve others?",
-    "answer": "The revolt started with sepoys, but it gained momentum as it spread, signaling a wider dissatisfaction with the British",
-    "options": [
-     "You would need the name of the group, the year of their arrival, and the location of their first base",
-     "No, it was won through treachery, specifically the bribery of Mir Jafar. A \"Yes\" answer reveals the student missed the core lesson about how the Company gained power through",
-     "The revolt started with sepoys, but it gained momentum as it spread, signaling a wider dissatisfaction with the British"
-    ],
-    "hint": "Straight from the 'Revolt of 1857 was a' slide -- match the key terms.",
-    "misconception": "A student who says \"only soldiers\" ignores the broader societal context of the uprising.",
     "id": "gen_c6_hist_ch10_q18",
-    "nodeId": "c6_history_ch10_042",
+    "nodeId": "c6_history_ch10_041",
     "difficulty": "standard"
    }
   ],
@@ -2904,9 +2916,9 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "In what year and which city was the Indian National Congress founded?",
     "answer": "It was founded in 1885 in Bombay",
     "options": [
-     "Steps: 1. Acknowledge the extreme nature of the slogan. 2. Connect it to the \"Quit India\" demand. 3",
-     "No, it was a different strategy to achieve the same goal of independence by applying pressure from outside",
-     "It was founded in 1885 in Gandhi",
+     "The slogan should focus on the idea that \"our money should not support those who rule us.\" A poor answer focuses on greed or laziness rather than the political protest element",
+     "Steps: 1. Acknowledge the need for non-violence. 2. Identify a peaceful action, like making salt at home or refusing to buy British-made goods",
+     "It was founded in 1885 in Indians",
      "It was founded in 1885 in Bombay"
     ],
     "hint": "Straight from the 'birth of Indian nationalism' slide -- match the key terms.",
@@ -2951,7 +2963,7 @@ export const C6_HIST_GEN: SimDef[] = [
      "He resigned due to differences with Gandhi regarding the best way to achieve independence",
      "He chose salt because it was a basic necessity used by everyone, rich or poor, and the British monopoly and tax on it represented how they exploited all Indians"
     ],
-    "hint": "Straight from the 'Civil Disobedience Movement was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Civil Disobedience Movement' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student does not understand that the protest was meant to connect with the daily lives of common people.",
     "id": "gen_c6_hist_ch11_q3",
     "nodeId": "c6_history_ch11_047",
@@ -2965,15 +2977,15 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did the Indian National Congress reject the Cripps Mission, leading to the Quit India Movement?",
-    "answer": "The Congress rejected it because it only offered \"dominion status\" after the war, rather than immediate independence",
+    "question": "What was the famous slogan given by Mahatma Gandhi during the launch of the Quit India Movement?",
+    "answer": "The slogan was \"Do or Die.\" A wrong answer suggests the student has not memorized the primary historical markers of the movement",
     "options": [
-     "Unlike protests happening within India, the INA brought the struggle to international locations and used external support",
-     "Railways allowed people from different parts of India to travel, meet, and exchange ideas, helping them realize they shared the same problems",
-     "The Congress rejected it because it only offered \"dominion status\" after the war, rather than immediate independence"
+     "The student must be able to explain why the movement was started and identify the British reaction to it",
+     "The student must be able to explain at least two reasons why Indians started feeling a sense of unity and identify the role of the early Indian National Congress in voicing these",
+     "The slogan was \"Do or Die.\" A wrong answer suggests the student has not memorized the primary historical markers of the movement"
     ],
-    "hint": "Straight from the 'Quit India Movement was a' slide -- match the key terms.",
-    "misconception": "If a student says \"because the British were winning the war,\" they are missing the political requirement of the Congress for immediate sovereignty.",
+    "hint": "Straight from the 'Quit India Movement' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student has not memorized the primary historical markers of the movement, indicating a need to re-read the opening statement.",
     "id": "gen_c6_hist_ch11_q4",
     "nodeId": "c6_history_ch11_048",
     "difficulty": "standard",
@@ -3014,7 +3026,7 @@ export const C6_HIST_GEN: SimDef[] = [
      "Non-violent resistance uses refusal to participate, whereas a revolt uses force. Confusing these two shows a failure to understand the philosophy of \"satyagraha\" as a moral force",
      "They argued that Muslims were a separate nation and required their own land to protect their interests"
     ],
-    "hint": "Straight from the 'Independence and Partition refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Independence and Partition' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks it was only about British policy, ignoring the internal political demands made by Indian groups.",
     "id": "gen_c6_hist_ch11_q6",
     "nodeId": "c6_history_ch11_050",
@@ -3047,7 +3059,7 @@ export const C6_HIST_GEN: SimDef[] = [
     "answer": "1. I would read stories about people in other provinces. 2. I would learn about the same problems they are facing",
     "options": [
      "You would seek help because these countries were also rivals of the British, potentially providing weapons and support for the Indian cause",
-     "No, it was an all-India mass movement involving people across the country. Stating it was regional shows a lack of understanding of the movement's scale and reach",
+     "Steps: 1. Identify the action (boycotting school). 2. Explain the impact (empty classrooms). 3. Connect to the goal (weakening British influence)",
      "1. I would read stories about people in other provinces. 2. I would learn about the same problems they are facing"
     ],
     "hint": "Straight from the 'birth of Indian nationalism' slide -- match the key terms.",
@@ -3061,8 +3073,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "If you were creating a symbol for Indian nationalism in 1885, what would you include and why?",
     "answer": "A good answer includes symbols of unity (like a map of the whole country or a tool that connects people, like a train or a pen for newspapers)",
     "options": [
-     "Steps: 1. Acknowledge the extreme nature of the slogan. 2. Connect it to the \"Quit India\" demand. 3",
-     "No, it was a different strategy to achieve the same goal of independence by applying pressure from outside",
+     "Steps: 1. Acknowledge the need for non-violence. 2. Identify a peaceful action, like making salt at home or refusing to buy British-made goods",
+     "Yes, it was effective because it turned a simple, legal issue into a national movement that gathered widespread support through non-violence",
      "A good answer includes symbols of unity (like a map of the whole country or a tool that connects people, like a train or a pen for newspapers)"
     ],
     "hint": "Straight from the 'birth of Indian nationalism' slide -- match the key terms.",
@@ -3076,8 +3088,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Is it fair to say that nationalism grew only because people hated the British? Why or why not?",
     "answer": "No, it is not entirely fair; while unfair rule was a negative cause, the positive growth of education, trade, and communication gave people the tools to actually talk and unite",
     "options": [
+     "No, it was an all-India mass movement involving people across the country. Stating it was regional shows a lack of understanding of the movement's scale and reach",
      "A good answer includes symbols of unity (like a map of the whole country or a tool that connects people, like a train or a pen for newspapers)",
-     "Yes, it was effective because it turned a simple, legal issue into a national movement that gathered widespread support through non-violence",
      "No, it is not entirely fair; while unfair rule was a negative cause, the positive growth of education, trade, and communication gave people the tools to actually talk and unite"
     ],
     "hint": "Straight from the 'birth of Indian nationalism' slide -- match the key terms.",
@@ -3091,8 +3103,8 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to explain at least two reasons why Indians started feeling a sense of unity and identify the role of the early Indian National Congress in voicing these",
     "options": [
-     "The student must be able to identify the key parties involved (Congress and Muslim League) and explain that partition was the result of differing political views on nationhood",
-     "The student must be able to identify why Bose chose a different path from the non-violent movement and describe his strategy of seeking international support to challenge British",
+     "The student must be able to explain why the movement was started and identify the British reaction to it",
+     "The slogan was \"Do or Die.\" A wrong answer suggests the student has not memorized the primary historical markers of the movement",
      "The student must be able to explain at least two reasons why Indians started feeling a sense of unity and identify the role of the early Indian National Congress in voicing these"
     ],
     "hint": "Straight from the 'birth of Indian nationalism' slide -- match the key terms.",
@@ -3118,16 +3130,46 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "Design a slogan that a person in 1920 might use to explain why they are not paying taxes to the British.",
+    "answer": "The slogan should focus on the idea that \"our money should not support those who rule us.\" A poor answer focuses on greed or laziness rather than the political protest element",
+    "options": [
+     "Steps: 1. Identify the action (boycotting school). 2. Explain the impact (empty classrooms). 3. Connect to the goal (weakening British influence)",
+     "1. I would read stories about people in other provinces. 2. I would learn about the same problems they are facing",
+     "The slogan should focus on the idea that \"our money should not support those who rule us.\" A poor answer focuses on greed or laziness rather than the political protest element"
+    ],
+    "hint": "Straight from the 'Non-Cooperation Movement was a' slide -- match the key terms.",
+    "misconception": "A poor answer focuses on greed or laziness rather than the political protest element.",
+    "id": "gen_c6_hist_ch11_q13",
+    "nodeId": "c6_history_ch11_046",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "How does \"non-violent resistance\" differ from a violent revolt?",
     "answer": "Non-violent resistance uses refusal to participate, whereas a revolt uses force. Confusing these two shows a failure to understand the philosophy of \"satyagraha\" as a moral force",
     "options": [
-     "Railways allowed people from different parts of India to travel, meet, and exchange ideas, helping them realize they shared the same problems",
      "They asked for better representation and fair treatment within the system rather than demanding complete independence immediately",
+     "He chose salt because it was a basic necessity used by everyone, rich or poor, and the British monopoly and tax on it represented how they exploited all Indians",
      "Non-violent resistance uses refusal to participate, whereas a revolt uses force. Confusing these two shows a failure to understand the philosophy of \"satyagraha\" as a moral force"
     ],
     "hint": "Straight from the 'Non-Cooperation Movement was a' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Non-violent resistance uses refusal to participate, whereas a revolt uses force.",
-    "id": "gen_c6_hist_ch11_q13",
+    "id": "gen_c6_hist_ch11_q14",
+    "nodeId": "c6_history_ch11_046",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were a student in 1920 supporting this movement, what would you do differently in your daily routine?",
+    "answer": "Steps: 1. Identify the action (boycotting school). 2. Explain the impact (empty classrooms). 3. Connect to the goal (weakening British influence)",
+    "options": [
+     "No, it is not entirely fair; while unfair rule was a negative cause, the positive growth of education, trade, and communication gave people the tools to actually talk and unite",
+     "You would seek help because these countries were also rivals of the British, potentially providing weapons and support for the Indian cause",
+     "Steps: 1. Identify the action (boycotting school). 2. Explain the impact (empty classrooms). 3. Connect to the goal (weakening British influence)"
+    ],
+    "hint": "Straight from the 'Non-Cooperation Movement was a' slide -- match the key terms.",
+    "misconception": "A wrong answer implies the student thinks the movement was about physical fighting rather than peaceful withdrawal.",
+    "id": "gen_c6_hist_ch11_q15",
     "nodeId": "c6_history_ch11_046",
     "difficulty": "standard"
    },
@@ -3136,28 +3178,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Was the Non-Cooperation Movement meant to be a regional protest? Why or why not?",
     "answer": "No, it was an all-India mass movement involving people across the country. Stating it was regional shows a lack of understanding of the movement's scale and reach",
     "options": [
-     "The slogan should focus on 'Salt is our right' or 'Free salt for all.' A poor answer would be a complex essay or a violent slogan, which fails to capture the spirit of simple",
      "Yes, it was effective because it turned a simple, legal issue into a national movement that gathered widespread support through non-violence",
+     "Steps: 1. Acknowledge the need for non-violence. 2. Identify a peaceful action, like making salt at home or refusing to buy British-made goods",
      "No, it was an all-India mass movement involving people across the country. Stating it was regional shows a lack of understanding of the movement's scale and reach"
     ],
     "hint": "Straight from the 'Non-Cooperation Movement was a' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, it was an all-India mass movement involving people across the country.",
-    "id": "gen_c6_hist_ch11_q14",
-    "nodeId": "c6_history_ch11_046",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to list at least three specific actions of non-cooperation and explain why these actions were considered a challenge to British authority",
-    "options": [
-     "The student must be able to identify why Bose chose a different path from the non-violent movement and describe his strategy of seeking international support to challenge British",
-     "The student can identify the Dandi March as the starting point of the movement and explain why a common item like salt was chosen as a symbol of protest against British oppression",
-     "The student must be able to list at least three specific actions of non-cooperation and explain why these actions were considered a challenge to British authority"
-    ],
-    "hint": "Straight from the 'Non-Cooperation Movement was a' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to list at least three specific actions of non-cooperation and explain why these actions were",
-    "id": "gen_c6_hist_ch11_q15",
+    "id": "gen_c6_hist_ch11_q16",
     "nodeId": "c6_history_ch11_046",
     "difficulty": "standard"
    },
@@ -3166,13 +3193,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Design a simple poster slogan that Gandhi might have used to explain the movement to villagers who could not read.",
     "answer": "The slogan should focus on 'Salt is our right' or 'Free salt for all.' A poor answer would be a complex essay or a violent slogan, which fails to capture the spirit of simple",
     "options": [
-     "1. I would read stories about people in other provinces. 2. I would learn about the same problems they are facing",
-     "Steps: 1. Acknowledge the extreme nature of the slogan. 2. Connect it to the \"Quit India\" demand. 3",
+     "No, it was an all-India mass movement involving people across the country. Stating it was regional shows a lack of understanding of the movement's scale and reach",
+     "The slogan should focus on the idea that \"our money should not support those who rule us.\" A poor answer focuses on greed or laziness rather than the political protest element",
      "The slogan should focus on 'Salt is our right' or 'Free salt for all.' A poor answer would be a complex essay or a violent slogan, which fails to capture the spirit of simple"
     ],
-    "hint": "Straight from the 'Civil Disobedience Movement was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Civil Disobedience Movement' slide -- match the key terms.",
     "misconception": "A poor answer would be a complex essay or a violent slogan, which fails to capture the spirit of simple, non-violent mass participation.",
-    "id": "gen_c6_hist_ch11_q16",
+    "id": "gen_c6_hist_ch11_q17",
     "nodeId": "c6_history_ch11_047",
     "difficulty": "standard"
    },
@@ -3181,27 +3208,12 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "How does the term 'Civil Disobedience' differ from a violent rebellion?",
     "answer": "Civil Disobedience is the peaceful, public refusal to follow a law one believes is unjust, whereas violent rebellion involves force and destruction",
     "options": [
-     "The Congress rejected it because it only offered \"dominion status\" after the war, rather than immediate independence",
-     "The British were occupied with World War II and could not afford to lose control of India, which was a vital resource for them",
+     "Non-violent resistance uses refusal to participate, whereas a revolt uses force. Confusing these two shows a failure to understand the philosophy of \"satyagraha\" as a moral force",
+     "Railways allowed people from different parts of India to travel, meet, and exchange ideas, helping them realize they shared the same problems",
      "Civil Disobedience is the peaceful, public refusal to follow a law one believes is unjust, whereas violent rebellion involves force and destruction"
     ],
-    "hint": "Straight from the 'Civil Disobedience Movement was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Civil Disobedience Movement' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between peaceful protest and armed conflict.",
-    "id": "gen_c6_hist_ch11_q17",
-    "nodeId": "c6_history_ch11_047",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Was the Dandi March an effective way to protest? Justify your answer.",
-    "answer": "Yes, it was effective because it turned a simple, legal issue into a national movement that gathered widespread support through non-violence",
-    "options": [
-     "The slogan should focus on 'Salt is our right' or 'Free salt for all.' A poor answer would be a complex essay or a violent slogan, which fails to capture the spirit of simple",
-     "It was founded in 1885 in Bombay",
-     "Yes, it was effective because it turned a simple, legal issue into a national movement that gathered widespread support through non-violence"
-    ],
-    "hint": "Straight from the 'Civil Disobedience Movement was a' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student believes only physical force can make a political impact.",
     "id": "gen_c6_hist_ch11_q18",
     "nodeId": "c6_history_ch11_047",
     "difficulty": "standard"
@@ -3219,21 +3231,16 @@ export const C6_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hist_ch12",
-  "title": "India Has Been Known By Several",
+  "title": "The Constitution Is The Fundamental Rulebook",
   "subtitle": "History · Chapter 12",
   "classLevel": 6,
   "mode": "senior",
   "subject": "history",
-  "topic": "India Has Been Known By Several",
+  "topic": "The Constitution Is The Fundamental Rulebook",
   "chapters": [
-   "History Ch12: India Has Been Known By Several",
-   "History Ch13: India Has Been Known By Several",
-   "History Ch14: India Has Been Known By Several"
+   "History Ch12: The Constitution Is The Fundamental Rulebook"
   ],
   "nodeIds": [
-   "c6_history_ch13_001",
-   "c6_history_ch14_001",
-   "c6_history_ch13_002",
    "c6_history_ch12_051",
    "c6_history_ch12_052",
    "c6_history_ch12_053",
@@ -3248,42 +3255,24 @@ export const C6_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does India Has Been Known By Several actually explain?",
+   "question": "In one line -- what does The Constitution Is The actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
     "Only how to score marks"
    ],
    "answer": "Why things around us behave the way they do",
-   "hook": "India has been known by several names across history."
+   "hook": "The Constitution is the fundamental rulebook of a country that defines how the government works and guarantees the basic rights of its citizens."
   },
   "teaching": [
    {
-    "title": "India Has Been Known By Several",
-    "text": "India has been known by several names across history. Ancient Indian texts called the land Bharatavarsha (the land of the Bharatas) and Jambudvipa (the island of the jamun tree).",
-    "emoji": "🏛️",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "India's Cultural Roots Rest On Three",
-    "text": "India's cultural roots rest on three streams. First, the Vedas — the four most ancient texts (Rig Veda, Yajur Veda, Sama Veda, Atharva Veda) — collections of hymns and prayers that shaped early Vedic culture with its rituals and the idea of brahman, one",
-    "emoji": "🏛️",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "History",
-    "text": "History is reconstructed from sources — clues the past left behind. Archaeological sources are dug-up objects: tools, pottery, coins, bones, buildings.",
-    "emoji": "🏛️",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Constitution",
+    "title": "The Constitution Is The Fundamental Rulebook",
     "text": "The Constitution is the fundamental rulebook of a country that defines how the government works and guarantees the basic rights of its citizens.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Integration Of Princely States Was",
+    "title": "Integration Of Princely",
     "text": "The integration of princely states was the political process of bringing over 500 autonomous territories, previously ruled by local monarchs under British control, into the newly independent Union of India.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3316,78 +3305,17 @@ export const C6_HIST_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "What were the ancient Indian names for the land we call India?",
-    "answer": "Ancient texts called it Bharatavarsha — 'the land of the Bharatas' — and Jambudvipa — 'the island of the jamun tree'",
+    "question": "Who was the chairman of the Drafting Committee responsible for preparing the Constitution?",
+    "answer": "The chairman was Dr. B.R. Ambedkar",
     "options": [
-     "The Persians — their language adapted the river's name into 'Hind'/'Hindu' for the land beyond it",
-     "The four Vedas are the Rig Veda, Yajur Veda, Sama Veda, and Atharva Veda — ancient collections of hymns and prayers; the Rig Veda is the oldest",
-     "Ancient texts called it Bharatavarsha — 'the land of the Bharatas' — and Jambudvipa — 'the island of the jamun tree'"
+     "The two missions are Chandrayaan (Moon mission) and Mangalyaan (Mars mission)",
+     "India today is a democratic nation that has evolved from its ancient roots into a modern, technologically advancing society known for significant scientific milestones",
+     "The chairman was Steps. B.R. Ambedkar",
+     "The chairman was Dr. B.R. Ambedkar"
     ],
-    "hint": "Straight from the 'India has been known by several' slide -- match the key terms.",
-    "misconception": "A wrong answer gives only 'India' — that is the name outsiders coined from the river Sindhu, not what ancient Indians called their own land.",
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
+    "misconception": "A wrong answer here suggests the student has not memorized the primary leadership figures mentioned in the historical record of the Assembly.",
     "id": "gen_c6_hist_ch12_q1",
-    "nodeId": "c6_history_ch13_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine tracing a name back through time the way you'd trace a river upstream.",
-     "Start at the end — the word 'India'.",
-     "Where did it come from?",
-     "Not from us — we didn't call our own land that."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are the four Vedas?",
-    "answer": "The four Vedas are the Rig Veda, Yajur Veda, Sama Veda, and Atharva Veda — ancient collections of hymns and prayers; the Rig Veda is the oldest",
-    "options": [
-     "'Veda' comes from the Sanskrit 'vid' — 'to know' — meaning knowledge; the Vedas contain thousands of hymns and prayers to the divine and the forces of nature",
-     "Ancient texts called it Bharatavarsha — 'the land of the Bharatas' — and Jambudvipa — 'the island of the jamun tree'",
-     "The four Vedas are the Rig Veda, Yajur Veda, Sama Veda, and Atharva Veda — ancient collections of hymns and prayers; the Rig Veda is the oldest"
-    ],
-    "hint": "Straight from the 'India's cultural roots rest on' slide -- match the key terms.",
-    "misconception": "A wrong answer names fewer than four or swaps in a later text — these four are the canonical set.",
-    "id": "gen_c6_hist_ch12_q2",
-    "nodeId": "c6_history_ch14_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Picture Indian culture as a great tree — and this chapter digs down to its roots.",
-     "The oldest root is the Vedas — four collections of hymns: the Rig Veda, Yajur Veda, Sama Veda, and Atharva Veda.",
-     "These were prayers sung to nature and the divine, passed mouth to ear for centuries before ever being written.",
-     "Around them grew Vedic culture — rituals called yajna, prayers, and a big idea that surfaced in the Upanishads: that everything — you, me, nature,"
-    ]
-   },
-   {
-    "type": "math_input",
-    "question": "How many years separate 100 BCE from 100 CE?",
-    "answer": "200",
-    "mathInput": {
-     "tolerance": 0,
-     "placeholder": "years"
-    },
-    "hint": "Work it step by step, then enter the final value in years.",
-    "misconception": "A wrong answer says 199 or subtracts — the missing year zero is the trap.",
-    "id": "gen_c6_hist_ch12_q3",
-    "nodeId": "c6_history_ch13_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Nobody alive today saw the Harappan cities or watched a king carve an edict — yet we know about them.",
-     "The past leaves clues, and each kind of clue is a different kind of source.",
-     "First, archaeological sources — things buried or built: a broken pot, a coin, a skeleton, a ruined wall.",
-     "Archaeologists dig them up and read them like a detective reads footprints — a coin tells us who ruled and when, a pot tells us what people ate."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "If you were part of the Constituent Assembly, why would it be important to have members from different regions and religions?",
-    "answer": "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair",
-    "options": [
-     "It is following a mixed economy. The steps are: (1) Identify that government control exists (post office), (2) identify that private ownership exists (shops)",
-     "It is important to balance both; history provides our identity and values, while technology provides tools for future growth",
-     "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair"
-    ],
-    "hint": "Straight from the 'Constitution' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse.",
-    "id": "gen_c6_hist_ch12_q4",
     "nodeId": "c6_history_ch12_051",
     "difficulty": "standard",
     "workedExample": [
@@ -3402,13 +3330,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What were the three specific choices offered to the rulers of the princely states at the time of independence?",
     "answer": "The rulers could choose to join India, join Pakistan, or remain independent",
     "options": [
+     "The student must be able to list the choices given to princely states, identify the key figures involved in the integration",
      "It means the state does not favor any specific religion and treats all citizens equally regardless of their faith",
-     "The student must be able to list three key pillars of Nehru’s nation-building (democracy, secularism",
      "The rulers could choose to join India, join Pakistan, or remain independent"
     ],
-    "hint": "Straight from the 'integration of princely states was' slide -- match the key terms.",
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
     "misconception": "A wrong answer here suggests the student thinks the British forced them into one specific option, ignoring the freedom of choice given to the local kings.",
-    "id": "gen_c6_hist_ch12_q5",
+    "id": "gen_c6_hist_ch12_q2",
     "nodeId": "c6_history_ch12_052",
     "difficulty": "standard",
     "workedExample": [
@@ -3420,16 +3348,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you were in charge of the First Five-Year Plan, why would you prioritize agriculture over building large factories?",
-    "answer": "You would prioritize agriculture because the population was starving and the country needed to be self-sufficient in food before it could support workers in factories",
+    "question": "Why did the government decide that the state (the government) should play a major role in the economy?",
+    "answer": "The government took a major role because the country faced massive challenges like extreme poverty and low industrialization that private individuals could not solve alone",
     "options": [
-     "No, it is a document that provides the structure for the country, though we are not focusing on how it changes here. It is a foundational framework for governance",
-     "A good answer includes: 1. A rule for choosing a class monitor (government structure), 2. A list of student rights (like freedom to speak), and 3",
-     "You would prioritize agriculture because the population was starving and the country needed to be self-sufficient in food before it could support workers in factories"
+     "India needed a Constitution to set up a stable government structure and protect the rights of its people",
+     "The number dropped from 389 to 299 due to the partition of India",
+     "The government took a major role because the country faced massive challenges like extreme poverty and low industrialization that private individuals could not solve alone"
     ],
     "hint": "Straight from the 'Economic planning' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student does not understand that basic survival needs must be met before industrial growth.",
-    "id": "gen_c6_hist_ch12_q6",
+    "misconception": "A wrong answer suggests the student thinks the government owned every shop and farm, rather than understanding it was managing national growth.",
+    "id": "gen_c6_hist_ch12_q3",
     "nodeId": "c6_history_ch12_053",
     "difficulty": "standard",
     "workedExample": [
@@ -3481,7 +3409,7 @@ export const C6_HIST_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer reveals confusion between pure socialism and mixed systems.",
-    "id": "gen_c6_hist_ch12_q7",
+    "id": "gen_c6_hist_ch12_q4",
     "nodeId": "c6_history_ch12_054",
     "difficulty": "standard",
     "workedExample": [
@@ -3493,16 +3421,16 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If a country experiences a \"stalemate\" in a war, what does that mean for the outcome?",
-    "answer": "A stalemate means neither side won a clear victory; the situation remained mostly unchanged, often leading to peace agreements like the Tashkent Declaration",
+    "question": "Why is the 1962 war with China considered a turning point for the Indian military?",
+    "answer": "It revealed weaknesses in India's military readiness, leading the government to start a major modernization program",
     "options": [
-     "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair",
-     "A good answer includes: 1. A rule for choosing a class monitor (government structure), 2. A list of student rights (like freedom to speak), and 3",
-     "A stalemate means neither side won a clear victory; the situation remained mostly unchanged, often leading to peace agreements like the Tashkent Declaration"
+     "The number dropped from 389 to 299 due to the partition of India",
+     "He is called this because he successfully persuaded hundreds of diverse princely states to unite into one country through firm, skillful negotiation",
+     "It revealed weaknesses in India's military readiness, leading the government to start a major modernization program"
     ],
     "hint": "Straight from the '\"Wars and Challenges\"' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks every war must have a clear winner and loser.",
-    "id": "gen_c6_hist_ch12_q8",
+    "misconception": "A wrong answer indicates the student missed the connection between a military defeat and the subsequent policy change to strengthen national security.",
+    "id": "gen_c6_hist_ch12_q5",
     "nodeId": "c6_history_ch12_055",
     "difficulty": "standard",
     "workedExample": [
@@ -3517,13 +3445,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Name two space missions launched by ISRO that show India's progress in science.",
     "answer": "The two missions are Chandrayaan (Moon mission) and Mangalyaan (Mars mission)",
     "options": [
-     "Name the four Vedas and their content, name the new 1st-millennium-BCE schools with one teaching each, and describe the folk/tribal contribution to Indian culture",
+     "India today is a democratic nation that has evolved from its ancient roots into a modern, technologically advancing society known for significant scientific milestones",
      "The student must be able to identify at least three major areas of India’s modern achievements and explain how India’s identity has evolved from ancient times to the present day",
      "The two missions are Chandrayaan (Moon mission) and Mangalyaan (Mars mission)"
     ],
     "hint": "Straight from the 'India today' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student is confusing ISRO's specific missions with general aerospace concepts or fictional events.",
-    "id": "gen_c6_hist_ch12_q9",
+    "id": "gen_c6_hist_ch12_q6",
     "nodeId": "c6_history_ch12_056",
     "difficulty": "standard",
     "workedExample": [
@@ -3535,16 +3463,47 @@ export const C6_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "How did the number of members in the Constituent Assembly change from 1946 to the final drafting period?",
+    "answer": "The number dropped from 389 to 299 due to the partition of India",
+    "options": [
+     "He is called this because he successfully persuaded hundreds of diverse princely states to unite into one country through firm, skillful negotiation",
+     "Patel provided the strong political leadership and decision-making, while Menon acted as the expert administrator who handled the technical paperwork and detailed negotiations",
+     "The number dropped from 389 to 299 due to the partition of Pakistan",
+     "The number dropped from 389 to 299 due to the partition of India"
+    ],
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates a lack of awareness of the historical context surrounding the timeline of the Assembly.",
+    "id": "gen_c6_hist_ch12_q7",
+    "nodeId": "c6_history_ch12_051",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were part of the Constituent Assembly, why would it be important to have members from different regions and religions?",
+    "answer": "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair",
+    "options": [
+     "No, because India would have been fragmented, making it impossible to have uniform laws, a single currency, or a strong central defense",
+     "A good answer would include: 1) The benefits of being part of a larger, stable market; 2) Protection under the Indian Constitution",
+     "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair"
+    ],
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse.",
+    "id": "gen_c6_hist_ch12_q8",
+    "nodeId": "c6_history_ch12_051",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Imagine you are writing a \"Constitution\" for your classroom. What are the first three things you would include to ensure everyone is treated fairly?",
     "answer": "A good answer includes: 1. A rule for choosing a class monitor (government structure), 2. A list of student rights (like freedom to speak), and 3",
     "options": [
-     "You would prioritize agriculture because the population was starving and the country needed to be self-sufficient in food before it could support workers in factories",
-     "A good answer will choose one and explain it through the lens of stability (e.g., \"I would choose democracy because it gives everyone a voice\")",
+     "The first priority should be fixing the food supply because students need to eat, followed by equipment repairs",
+     "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair",
      "A good answer includes: 1. A rule for choosing a class monitor (government structure), 2. A list of student rights (like freedom to speak), and 3"
     ],
-    "hint": "Straight from the 'Constitution' slide -- match the key terms.",
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
     "misconception": "A poor answer lists arbitrary rules like \"no homework,\" which ignores the concept of governance.",
-    "id": "gen_c6_hist_ch12_q10",
+    "id": "gen_c6_hist_ch12_q9",
     "nodeId": "c6_history_ch12_051",
     "difficulty": "standard"
    },
@@ -3553,13 +3512,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Is the Constitution a static document that never changes? (Based on the scope provided, judge the need for a structure).",
     "answer": "No, it is a document that provides the structure for the country, though we are not focusing on how it changes here. It is a foundational framework for governance",
     "options": [
+     "They would struggle with trade, security, and transportation, as they would be surrounded by a new nation with different laws and borders",
      "No, because India would have been fragmented, making it impossible to have uniform laws, a single currency, or a strong central defense",
-     "You would prioritize agriculture because the population was starving and the country needed to be self-sufficient in food before it could support workers in factories",
      "No, it is a document that provides the structure for the country, though we are not focusing on how it changes here. It is a foundational framework for governance"
     ],
-    "hint": "Straight from the 'Constitution' slide -- match the key terms.",
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks it is just a historical relic rather than a living, active framework.",
-    "id": "gen_c6_hist_ch12_q11",
+    "id": "gen_c6_hist_ch12_q10",
     "nodeId": "c6_history_ch12_051",
     "difficulty": "standard"
    },
@@ -3568,12 +3527,27 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify the purpose of the Constitution and describe the role of the Constituent Assembly and the Drafting Committee in its creation",
     "options": [
-     "The student must be able to identify at least three major areas of India’s modern achievements and explain how India’s identity has evolved from ancient times to the present day",
-     "Ancient texts called it Bharatavarsha — 'the land of the Bharatas' — and Jambudvipa — 'the island of the jamun tree'",
+     "India today is a democratic nation that has evolved from its ancient roots into a modern, technologically advancing society known for significant scientific milestones",
+     "The student must be able to list the choices given to princely states, identify the key figures involved in the integration",
      "The student must be able to identify the purpose of the Constitution and describe the role of the Constituent Assembly and the Drafting Committee in its creation"
     ],
-    "hint": "Straight from the 'Constitution' slide -- match the key terms.",
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the purpose of the Constitution and describe the role of the Constituent Assembly",
+    "id": "gen_c6_hist_ch12_q11",
+    "nodeId": "c6_history_ch12_051",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why did India need a Constitution immediately after becoming independent?",
+    "answer": "India needed a Constitution to set up a stable government structure and protect the rights of its people",
+    "options": [
+     "It revealed weaknesses in India's military readiness, leading the government to start a major modernization program",
+     "We call it a democracy because it is governed by a Constitution that gives the people the power to participate in the nation's progress",
+     "India needed a Constitution to set up a stable government structure and protect the rights of its people"
+    ],
+    "hint": "Straight from the 'The Constitution is the' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"to make laws for the British\") shows a failure to understand that the Constitution replaced colonial rule with a new, independent legal framework.",
     "id": "gen_c6_hist_ch12_q12",
     "nodeId": "c6_history_ch12_051",
     "difficulty": "standard"
@@ -3583,11 +3557,11 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "Could India have functioned as a modern democracy if the princely states had remained independent?",
     "answer": "No, because India would have been fragmented, making it impossible to have uniform laws, a single currency, or a strong central defense",
     "options": [
-     "A good answer will choose one and explain it through the lens of stability (e.g., \"I would choose democracy because it gives everyone a voice\")",
      "A stalemate means neither side won a clear victory; the situation remained mostly unchanged, often leading to peace agreements like the Tashkent Declaration",
+     "No, it is a document that provides the structure for the country, though we are not focusing on how it changes here. It is a foundational framework for governance",
      "No, because India would have been fragmented, making it impossible to have uniform laws, a single currency, or a strong central defense"
     ],
-    "hint": "Straight from the 'integration of princely states was' slide -- match the key terms.",
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, because India would have been fragmented, making it impossible to have uniform laws, a single currency, or a strong",
     "id": "gen_c6_hist_ch12_q13",
     "nodeId": "c6_history_ch12_052",
@@ -3598,13 +3572,43 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "How does the role of V.P. Menon complement the role of Sardar Patel in this process?",
     "answer": "Patel provided the strong political leadership and decision-making, while Menon acted as the expert administrator who handled the technical paperwork and detailed negotiations",
     "options": [
-     "Because it was the Persian way of saying 'Sindhu' — meaning 'the land beyond the Indus river' — a label for a place, not for the religion",
-     "Folk and tribal communities contributed their own songs, stories, deities, dances, festivals, and customs",
+     "It revealed weaknesses in India's military readiness, leading the government to start a major modernization program",
+     "The government took a major role because the country faced massive challenges like extreme poverty and low industrialization that private individuals could not solve alone",
      "Patel provided the strong political leadership and decision-making, while Menon acted as the expert administrator who handled the technical paperwork and detailed negotiations"
     ],
-    "hint": "Straight from the 'integration of princely states was' slide -- match the key terms.",
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Patel provided the strong political leadership and decision-making, while Menon acted as the expert administrator who",
     "id": "gen_c6_hist_ch12_q14",
+    "nodeId": "c6_history_ch12_052",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a princely state ruler wanted to remain independent in 1947, what major challenge would they face in the long run?",
+    "answer": "They would struggle with trade, security, and transportation, as they would be surrounded by a new nation with different laws and borders",
+    "options": [
+     "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair",
+     "No, it is a document that provides the structure for the country, though we are not focusing on how it changes here. It is a foundational framework for governance",
+     "They would struggle with trade, security, and transportation, as they would be surrounded by a new nation with different laws and borders"
+    ],
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student hasn't considered the practical difficulties of being a tiny, landlocked 'country' inside a much larger, sovereign nation.",
+    "id": "gen_c6_hist_ch12_q15",
+    "nodeId": "c6_history_ch12_052",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Imagine you are an advisor to a local king in 1947. What three reasons would you give him to convince him to join India instead of staying independent?",
+    "answer": "A good answer would include: 1) The benefits of being part of a larger, stable market; 2) Protection under the Indian Constitution",
+    "options": [
+     "You would prioritize agriculture because the population was starving and the country needed to be self-sufficient in food before it could support workers in factories",
+     "No, it is a document that provides the structure for the country, though we are not focusing on how it changes here. It is a foundational framework for governance",
+     "A good answer would include: 1) The benefits of being part of a larger, stable market; 2) Protection under the Indian Constitution"
+    ],
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A good answer would include: 1) The benefits of being part of a larger, stable market; 2) Protection under the Indian",
+    "id": "gen_c6_hist_ch12_q16",
     "nodeId": "c6_history_ch12_052",
     "difficulty": "standard"
    },
@@ -3613,13 +3617,13 @@ export const C6_HIST_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to list the choices given to princely states, identify the key figures involved in the integration",
     "options": [
-     "Ancient texts called it Bharatavarsha — 'the land of the Bharatas' — and Jambudvipa — 'the island of the jamun tree'",
-     "It means 'the land of the Bharatas' — the Bharatas being a group of people and later a line of kings in ancient texts",
+     "The student must be able to identify at least three major areas of India’s modern achievements and explain how India’s identity has evolved from ancient times to the present day",
+     "The chairman was Dr. B.R. Ambedkar",
      "The student must be able to list the choices given to princely states, identify the key figures involved in the integration"
     ],
-    "hint": "Straight from the 'integration of princely states was' slide -- match the key terms.",
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to list the choices given to princely states, identify the key figures involved in the",
-    "id": "gen_c6_hist_ch12_q15",
+    "id": "gen_c6_hist_ch12_q17",
     "nodeId": "c6_history_ch12_052",
     "difficulty": "standard"
    },
@@ -3632,50 +3636,20 @@ export const C6_HIST_GEN: SimDef[] = [
      "Patel provided the strong political leadership and decision-making, while Menon acted as the expert administrator who handled the technical paperwork and detailed negotiations",
      "He is called this because he successfully persuaded hundreds of diverse princely states to unite into one country through firm, skillful negotiation"
     ],
-    "hint": "Straight from the 'integration of princely states was' slide -- match the key terms.",
+    "hint": "Straight from the 'integration of princely' slide -- match the key terms.",
     "misconception": "If a student says it was only because of fighting, they miss the point that most states joined through diplomacy and administrative agreement.",
-    "id": "gen_c6_hist_ch12_q16",
-    "nodeId": "c6_history_ch12_052",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a simple \"Two-Year Plan\" for a school canteen that is running out of food and has broken equipment. What is your first priority and why?",
-    "answer": "The first priority should be fixing the food supply because students need to eat, followed by equipment repairs",
-    "options": [
-     "You would prioritize agriculture because the population was starving and the country needed to be self-sufficient in food before it could support workers in factories",
-     "Steps: 1. Identify the goal of unity. 2. Recognize that India is diverse. 3. Realize that laws must represent everyone to be fair",
-     "The first priority should be fixing the food supply because students need to eat, followed by equipment repairs"
-    ],
-    "hint": "Straight from the 'Economic planning' slide -- match the key terms.",
-    "misconception": "A poor answer focuses on non-essentials like decorations or luxury food items, showing a lack of understanding regarding \"prioritizing urgent needs.\"",
-    "id": "gen_c6_hist_ch12_q17",
-    "nodeId": "c6_history_ch12_053",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does a \"Five-Year Plan\" help a country compared to just letting the economy grow on its own?",
-    "answer": "A plan provides specific goals and timelines, ensuring that limited resources are spent on the most urgent needs first",
-    "options": [
-     "He is called this because he successfully persuaded hundreds of diverse princely states to unite into one country through firm, skillful negotiation",
-     "Sindhu was the ancient name of the Indus river; the Persians adapted it to 'Hind' or 'Hindu'; the Greeks, lacking the 'h' sound, said 'Indoi' or 'Indike'",
-     "A plan provides specific goals and timelines, ensuring that limited resources are spent on the most urgent needs first"
-    ],
-    "hint": "Straight from the 'Economic planning' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student doesn't see the difference between \"random growth\" and \"planned development.\"",
     "id": "gen_c6_hist_ch12_q18",
-    "nodeId": "c6_history_ch12_053",
+    "nodeId": "c6_history_ch12_052",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about india has been known by several?",
+    "What surprised you about the constitution is the fundamental rulebook?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "India Has Been Known By mastered! 🎯",
+  "successLine": "The Constitution Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

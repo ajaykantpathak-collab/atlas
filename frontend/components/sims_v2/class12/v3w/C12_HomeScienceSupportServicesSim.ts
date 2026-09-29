@@ -11,7 +11,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Death and Dying: Kubler-Ross Stages and Bereavement Process',
     chapters: [],
     nodeIds: ['c12_hs_cbse_07_012', 'c12_hs_cbse_03_011', 'c12_hs_cbse_08_010', 'c12_hs_cbse_11_009', 'c12_hs_cbse_11_011', 'c12_hs_cbse_05_007', 'c12_hs_cbse_03_005', 'c12_hs_cbse_03_008', 'c12_hs_cbse_03_010', 'c12_hs_cbse_11_002', 'c12_hs_cbse_05_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a 17-year-old student whose grandmother has been diagnosed with terminal cancer.', goal: 'Master Death and Dying: Kubler-Ross Stages and Bereavement Process.' },
     discovery: {
         question: 'A 45-year-old man whose wife died two months ago alternates between: (a) looking at her photos and crying intensely, and (b) focusing on repairing the house.',
@@ -20,7 +20,7 @@ export const w_c12_homesciencesupportservicessim: SimDef = {
         hook: 'Students believe Kübler-Ross\'s stages apply identically to both the dying person AND the bereaved family members.',
     },
     teaching: [
-        { title: 'Death and dying in human development refers.', text: 'Death and dying in human development refers to the final stage of the lifespan where individuals confront mortality, encompassing the psychological process of dying (Kübler-Ross\'s five stages:.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Death and dying in human development refers.', text: 'Death and dying in human development refers to the final stage of the lifespan where individuals confront mortality, encompassing the psychological process of dying (Kübler-Ross\'s five stages:.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hs_cbse_07_012', title: 'Death and dying in human development.',

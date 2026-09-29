@@ -904,7 +904,7 @@ const SkinnerBoxDiagram: React.FC<{
 const TolmanMazeDiagram: React.FC<{ group: string; day: number; errors: number }> = ({ group, day, errors }) => {
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-lg my-4">
-      <h4 className="text-cyan-400 font-semibold text-center text-sm mb-2">
+      <h4 className="text-gold-400 font-semibold text-center text-sm mb-2">
         Tolman & Honzik (1930) Latent Learning Maze Paradigm
       </h4>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -932,7 +932,7 @@ const TolmanMazeDiagram: React.FC<{ group: string; day: number; errors: number }
         <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 flex flex-col justify-between">
           <div>
             <div className="text-xs text-slate-400">Selected Experimental Condition:</div>
-            <div className="text-sm font-bold text-cyan-300 mb-1">
+            <div className="text-sm font-bold text-gold-300 mb-1">
               {group === 'rewarded' && 'Group A: Continuous Reward (Daily)'}
               {group === 'unrewarded' && 'Group B: Never Rewarded'}
               {group === 'delayed_reward' && 'Group C: Reward Introduced on Day 11'}
@@ -943,11 +943,11 @@ const TolmanMazeDiagram: React.FC<{ group: string; day: number; errors: number }
           <div className="my-2">
             <div className="flex justify-between text-xs mb-1">
               <span className="text-slate-400">Average Maze Errors:</span>
-              <span className="text-cyan-400 font-bold">{errors.toFixed(1)}</span>
+              <span className="text-gold-400 font-bold">{errors.toFixed(1)}</span>
             </div>
             <div className="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
               <div
-                className="bg-cyan-500 h-full transition-all duration-300"
+                className="bg-gold-500 h-full transition-all duration-300"
                 style={{ width: `${Math.min(100, (errors / 30) * 100)}%` }}
               ></div>
             </div>
@@ -970,7 +970,7 @@ const FittsCurveDiagram: React.FC<{ stage: string; practiceHours: number; errorR
 }) => {
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-lg my-4">
-      <h4 className="text-indigo-400 font-semibold text-center text-sm mb-2">
+      <h4 className="text-gold-400 font-semibold text-center text-sm mb-2">
         Fitts & Posner 3-Phase Motor Skill Acquisition Dynamics
       </h4>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1008,7 +1008,7 @@ const FittsCurveDiagram: React.FC<{ stage: string; practiceHours: number; errorR
         <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 flex flex-col justify-between">
           <div>
             <div className="text-xs text-slate-400">Current Skill Phase:</div>
-            <div className="text-base font-extrabold text-indigo-300 capitalize">
+            <div className="text-base font-extrabold text-gold-300 capitalize">
               {stage} Phase
             </div>
             <div className="text-xs text-slate-400 mt-1">Accumulated Practice: <span className="text-emerald-400 font-bold">{practiceHours} Hours</span></div>
@@ -1332,7 +1332,7 @@ export default function C11_PsyLearningCBSESim() {
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl mb-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+            <span className="bg-gold-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
               ISC Class 11 Psychology
             </span>
             <span className="bg-amber-500/20 text-amber-400 text-xs font-semibold px-3 py-1 rounded-full border border-amber-500/30">
@@ -1355,7 +1355,7 @@ export default function C11_PsyLearningCBSESim() {
           </div>
           <div className="bg-slate-950 border border-slate-800 rounded-xl px-4 py-2 text-center">
             <div className="text-xs text-slate-400 font-medium">Mastery Nodes</div>
-            <div className="text-xl font-black text-cyan-400">
+            <div className="text-xl font-black text-gold-400">
               {Object.values(bktStates).filter(b => getMasteryLevel(b) === 'mastered').length} / 25
             </div>
           </div>
@@ -1368,7 +1368,7 @@ export default function C11_PsyLearningCBSESim() {
           onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
           className={`px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-200 whitespace-nowrap ${
             activeTab === 'discovery'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-850'
           }`}
         >
@@ -1378,7 +1378,7 @@ export default function C11_PsyLearningCBSESim() {
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-200 whitespace-nowrap ${
             activeTab === 'lab'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-850'
           }`}
         >
@@ -1388,7 +1388,7 @@ export default function C11_PsyLearningCBSESim() {
           onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
           className={`px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-200 whitespace-nowrap ${
             activeTab === 'challenges'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-850'
           }`}
         >
@@ -1398,7 +1398,7 @@ export default function C11_PsyLearningCBSESim() {
           onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
           className={`px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-200 whitespace-nowrap ${
             activeTab === 'summary'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-850'
           }`}
         >
@@ -1412,8 +1412,8 @@ export default function C11_PsyLearningCBSESim() {
         {activeTab === 'discovery' && (
           <div className="space-y-8">
             {/* Scenario Card */}
-            <div className="bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border border-indigo-500/30 rounded-2xl p-6 md:p-8 shadow-xl">
-              <h2 className="text-xl md:text-2xl font-bold text-indigo-300 mb-3">{SCENARIO.title}</h2>
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 border border-gold-500/30 rounded-2xl p-6 md:p-8 shadow-xl">
+              <h2 className="text-xl md:text-2xl font-bold text-gold-300 mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-xs md:text-sm leading-relaxed">{SCENARIO.context}</p>
             </div>
@@ -1454,8 +1454,8 @@ export default function C11_PsyLearningCBSESim() {
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-indigo-950/50 border border-indigo-500/40 rounded-xl p-4 text-xs md:text-sm text-indigo-200">
-                  <span className="font-bold text-indigo-300">Theoretical Insight: </span>
+                <div className="bg-gold-950/50 border border-gold-500/40 rounded-xl p-4 text-xs md:text-sm text-gold-200">
+                  <span className="font-bold text-gold-300">Theoretical Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1467,7 +1467,7 @@ export default function C11_PsyLearningCBSESim() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                   <div key={pIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider block mb-2">
+                    <span className="text-xs text-gold-400 font-bold uppercase tracking-wider block mb-2">
                       Prediction #{pIdx + 1}
                     </span>
                     <p className="text-sm text-slate-200 font-medium mb-3">{pred.question}</p>
@@ -1500,7 +1500,7 @@ export default function C11_PsyLearningCBSESim() {
                   onClick={() => { setCurrentStepIndex(idx); audioManager.play('tap'); }}
                   className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
                     currentStepIndex === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-900 text-slate-400 hover:text-white'
                   }`}
                 >
@@ -1513,7 +1513,7 @@ export default function C11_PsyLearningCBSESim() {
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
                 <div>
-                  <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+                  <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                     Interactive Lab Station #{currentStepIndex + 1}
                   </span>
                   <h3 className="text-xl font-bold text-white mt-1">
@@ -1645,7 +1645,7 @@ export default function C11_PsyLearningCBSESim() {
                             onClick={() => { setTolmanGroup(grp); audioManager.play('tap'); }}
                             className={`w-full text-left p-3 text-xs font-bold rounded-lg border transition ${
                               tolmanGroup === grp
-                                ? 'bg-cyan-600 text-white border-cyan-500'
+                                ? 'bg-gold-600 text-white border-gold-500'
                                 : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-850'
                             }`}
                           >
@@ -1659,7 +1659,7 @@ export default function C11_PsyLearningCBSESim() {
 
                     <div>
                       <label className="text-xs text-slate-400 font-bold block mb-2">
-                        Simulation Trial Day: <span className="text-cyan-400 font-mono text-sm">{mazeDay}</span>
+                        Simulation Trial Day: <span className="text-gold-400 font-mono text-sm">{mazeDay}</span>
                       </label>
                       <input
                         type="range"
@@ -1668,7 +1668,7 @@ export default function C11_PsyLearningCBSESim() {
                         step="1"
                         value={mazeDay}
                         onChange={(e) => setMazeDay(Number(e.target.value))}
-                        className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 mt-2">
                         <span>Day 1 (Initial Maze Exploration)</span>
@@ -1692,7 +1692,7 @@ export default function C11_PsyLearningCBSESim() {
 
                   <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 mt-4">
                     <label className="text-xs text-slate-400 font-bold block mb-2">
-                      Accumulated Practice Time: <span className="text-indigo-400 font-mono text-sm">{practiceHours} Hours</span>
+                      Accumulated Practice Time: <span className="text-gold-400 font-mono text-sm">{practiceHours} Hours</span>
                     </label>
                     <input
                       type="range"
@@ -1701,7 +1701,7 @@ export default function C11_PsyLearningCBSESim() {
                       step="1"
                       value={practiceHours}
                       onChange={(e) => setPracticeHours(Number(e.target.value))}
-                      className="w-full accent-indigo-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-2">
                       <span>1h (Cognitive Stage: Heavy conscious effort)</span>
@@ -1747,19 +1747,19 @@ export default function C11_PsyLearningCBSESim() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                       <button
                         onClick={() => handleEvaluateStrategy('multisensory')}
-                        className="p-3 text-xs bg-slate-900 border border-slate-800 rounded-lg text-slate-200 hover:border-indigo-500 text-left"
+                        className="p-3 text-xs bg-slate-900 border border-slate-800 rounded-lg text-slate-200 hover:border-gold-500 text-left"
                       >
                         🧠 Multisensory Structured Language (VAK Approach)
                       </button>
                       <button
                         onClick={() => handleEvaluateStrategy('concrete-representational')}
-                        className="p-3 text-xs bg-slate-900 border border-slate-800 rounded-lg text-slate-200 hover:border-indigo-500 text-left"
+                        className="p-3 text-xs bg-slate-900 border border-slate-800 rounded-lg text-slate-200 hover:border-gold-500 text-left"
                       >
                         🔢 Concrete-Representational-Abstract (CRA) Math Sequencing
                       </button>
                       <button
                         onClick={() => handleEvaluateStrategy('fine-motor-tech')}
-                        className="p-3 text-xs bg-slate-900 border border-slate-800 rounded-lg text-slate-200 hover:border-indigo-500 text-left"
+                        className="p-3 text-xs bg-slate-900 border border-slate-800 rounded-lg text-slate-200 hover:border-gold-500 text-left"
                       >
                         ✍️ Speech-to-Text Assistive Tech & Ergonomic Adaptation
                       </button>
@@ -1785,7 +1785,7 @@ export default function C11_PsyLearningCBSESim() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
                   <div key={oIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider block mb-2">
+                    <span className="text-xs text-gold-400 font-bold uppercase tracking-wider block mb-2">
                       Observation Observation #{oIdx + 1}
                     </span>
                     <p className="text-sm text-slate-200 font-medium mb-3">{obs.question}</p>
@@ -1816,13 +1816,13 @@ export default function C11_PsyLearningCBSESim() {
             {/* Progress Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col md:flex-row justify-between items-center gap-4">
               <div>
-                <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
                   <span className={`text-xs font-bold px-2.5 py-0.5 rounded uppercase ${
                     CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
-                      ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                      ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                       : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
                       ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                       : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
@@ -1838,7 +1838,7 @@ export default function C11_PsyLearningCBSESim() {
               {/* Step indicator bar */}
               <div className="w-full md:w-64 bg-slate-950 h-3 rounded-full overflow-hidden border border-slate-800">
                 <div
-                  className="bg-indigo-500 h-full transition-all duration-300"
+                  className="bg-gold-500 h-full transition-all duration-300"
                   style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
                 ></div>
               </div>
@@ -1892,7 +1892,7 @@ export default function C11_PsyLearningCBSESim() {
 
                   <button
                     onClick={handleNextChallenge}
-                    className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-6 rounded-xl transition shadow-lg flex items-center justify-center gap-2"
+                    className="w-full bg-gold-600 hover:bg-gold-500 text-white font-bold py-3 px-6 rounded-xl transition shadow-lg flex items-center justify-center gap-2"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Unit Simulation'}
                   </button>
@@ -1924,7 +1924,7 @@ export default function C11_PsyLearningCBSESim() {
 
             {/* REAL-WORLD ACTIVITY RENDERED */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider block mb-2">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider block mb-2">
                 Applied Behavioral Psychology Task
               </span>
               <h3 className="text-xl font-bold text-white mb-3">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -1935,7 +1935,7 @@ export default function C11_PsyLearningCBSESim() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {REAL_WORLD_ACTIVITY.steps.map((stepStr, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex items-start gap-3">
-                    <span className="bg-indigo-600/30 text-indigo-300 border border-indigo-500/40 text-xs font-bold rounded-lg px-2.5 py-1 mt-0.5">
+                    <span className="bg-gold-600/30 text-gold-300 border border-gold-500/40 text-xs font-bold rounded-lg px-2.5 py-1 mt-0.5">
                       {sIdx + 1}
                     </span>
                     <span className="text-xs text-slate-300 leading-relaxed">{stepStr}</span>

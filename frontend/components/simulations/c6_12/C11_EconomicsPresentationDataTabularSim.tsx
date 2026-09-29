@@ -1082,7 +1082,7 @@ export default function C11_EconomicsPresentationDataTabularSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border-blue-700'
+                    ? 'bg-gold-950 text-gold-400 border-gold-700'
                     : 'bg-amber-950 text-amber-400 border-amber-700'
                 }`}
               >
@@ -1227,9 +1227,9 @@ export default function C11_EconomicsPresentationDataTabularSim({
                           <td className="py-1.5 px-2 text-right text-emerald-400 font-mono">{agriGVA}%</td>
                           <td className="py-1.5 px-2 text-right font-mono">{(agriGVA * 0.15).toFixed(1)} cm</td>
                         </tr>
-                        <tr className={selectedBarCategory === 'Industry' ? 'bg-blue-950/60 text-blue-300 font-bold' : ''}>
+                        <tr className={selectedBarCategory === 'Industry' ? 'bg-gold-950/60 text-gold-300 font-bold' : ''}>
                           <td className="py-1.5 px-2 font-medium">Industry & Manufacturing</td>
-                          <td className="py-1.5 px-2 text-right text-blue-400 font-mono">{indusGVA}%</td>
+                          <td className="py-1.5 px-2 text-right text-gold-400 font-mono">{indusGVA}%</td>
                           <td className="py-1.5 px-2 text-right font-mono">{(indusGVA * 0.15).toFixed(1)} cm</td>
                         </tr>
                         <tr className={selectedBarCategory === 'Services' ? 'bg-purple-950/60 text-purple-300 font-bold' : ''}>
@@ -1518,7 +1518,7 @@ export default function C11_EconomicsPresentationDataTabularSim({
                     ))}
                   </svg>
                   <div className="flex justify-between items-center text-[11px] text-slate-400 mt-2">
-                    <span className="text-cyan-400">■ Blue Rectangles: Histogram (Bars Touch)</span>
+                    <span className="text-gold-400">■ Blue Rectangles: Histogram (Bars Touch)</span>
                     <span className="text-amber-400 font-semibold">● Orange Line: Closed Frequency Polygon</span>
                   </div>
                 </div>
@@ -1633,10 +1633,10 @@ export default function C11_EconomicsPresentationDataTabularSim({
                       <span className="text-[10px] text-amber-300">Pulled rightward by outlier!</span>
                     </div>
 
-                    <div className="p-3 bg-slate-900 rounded-xl border border-blue-800/80">
+                    <div className="p-3 bg-slate-900 rounded-xl border border-gold-800/80">
                       <span className="text-[10px] uppercase text-slate-400">Median (50th %ile)</span>
-                      <p className="text-lg font-black text-blue-400 font-mono">₹{liveMedian.toLocaleString()}</p>
-                      <span className="text-[10px] text-blue-300">Unaffected by extremes</span>
+                      <p className="text-lg font-black text-gold-400 font-mono">₹{liveMedian.toLocaleString()}</p>
+                      <span className="text-[10px] text-gold-300">Unaffected by extremes</span>
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-purple-800/80">
@@ -1861,10 +1861,10 @@ export default function C11_EconomicsPresentationDataTabularSim({
                   <div
                     onDragOver={(e) => e.preventDefault()}
                     onDrop={() => handleDragDrop('header')}
-                    className="p-3 bg-slate-900 border border-dashed border-blue-600/60 rounded-xl min-h-[48px] flex items-center justify-between"
+                    className="p-3 bg-slate-900 border border-dashed border-gold-600/60 rounded-xl min-h-[48px] flex items-center justify-between"
                   >
                     <span className="text-slate-400">Column Tops:</span>
-                    <span className="font-bold text-blue-400">{droppedLabels.header || '[Drop Caption Here]'}</span>
+                    <span className="font-bold text-gold-400">{droppedLabels.header || '[Drop Caption Here]'}</span>
                   </div>
 
                   <div

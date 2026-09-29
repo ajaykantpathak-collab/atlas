@@ -1192,7 +1192,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
   // Spaced Repetition calculation
   const srsIntervalText = useMemo(() => {
     if (errors === 0) return { days: 7, text: 'Review in 7 days', badge: 'Optimal Retention (7 Days)', color: 'border-emerald-500 bg-emerald-950/60 text-emerald-300' };
-    if (errors <= 3) return { days: 3, text: 'Review in 3 days', badge: 'Solid Practice Needed (3 Days)', color: 'border-cyan-500 bg-cyan-950/60 text-cyan-300' };
+    if (errors <= 3) return { days: 3, text: 'Review in 3 days', badge: 'Solid Practice Needed (3 Days)', color: 'border-gold-500 bg-gold-950/60 text-gold-300' };
     return { days: 1, text: 'Review in 1 day', badge: 'Immediate Reinforcement (1 Day)', color: 'border-amber-500 bg-amber-950/60 text-amber-300' };
   }, [errors]);
 
@@ -1205,12 +1205,12 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
         className="mb-6 pb-4 border-b border-slate-800 flex flex-wrap items-center justify-between gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 border border-cyan-800 rounded-2xl">
+          <span className="text-3xl p-2 bg-gold-950/60 border border-gold-800 rounded-2xl">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
+              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ICSE Class 10
               </span>
               <span className="text-xs font-mono text-slate-400">c10_cs_031–c10_cs_043</span>
@@ -1232,7 +1232,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
               }}
               className={`px-3 py-1.5 rounded-xl font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1245,8 +1245,8 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-cyan-950/40 via-slate-900 to-indigo-950/30 rounded-2xl border border-cyan-800/40 shadow-inner">
-            <span className="text-xs uppercase tracking-wider font-bold text-cyan-400 bg-cyan-950/80 px-3 py-1 rounded-full border border-cyan-700">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/30 rounded-2xl border border-gold-800/40 shadow-inner">
+            <span className="text-xs uppercase tracking-wider font-bold text-gold-400 bg-gold-950/80 px-3 py-1 rounded-full border border-gold-700">
               Board Mission Scenario
             </span>
             <h2 className="text-xl font-bold text-white mt-3">{SCENARIO.title}</h2>
@@ -1255,7 +1255,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
           </div>
 
           <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800">
-            <h3 className="text-base font-semibold text-cyan-300 mb-4 flex items-center gap-2">
+            <h3 className="text-base font-semibold text-gold-300 mb-4 flex items-center gap-2">
               <span>⚡</span> Curiosity Hook: Think Before We Compute
             </h3>
             <p className="text-white text-base font-medium mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1274,10 +1274,10 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold'
                         : 'bg-slate-800/40 border-slate-700 text-slate-500'
-                      : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:border-cyan-500 hover:bg-slate-800'
+                      : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-cyan-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1291,7 +1291,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold shadow-lg shadow-cyan-600/30 text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 text-sm"
                 >
                   Enter Interactive Simulation Lab →
                 </motion.button>
@@ -1306,14 +1306,14 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900/60 p-3 rounded-xl border border-slate-800">
             <span className="text-xs text-slate-400">
-              Module Step <strong className="text-cyan-400">{currentSlide + 1}</strong> of {EXPLORATION_STEPS.length}
+              Module Step <strong className="text-gold-400">{currentSlide + 1}</strong> of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1">
               {EXPLORATION_STEPS.map((_, i) => (
                 <div
                   key={i}
                   className={`h-1.5 rounded-full transition-all ${
-                    i === currentSlide ? 'w-6 bg-cyan-500' : 'w-2 bg-slate-700'
+                    i === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1329,7 +1329,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
               className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-xl space-y-6"
             >
               <div>
-                <h2 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
+                <h2 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
                 <p className="text-sm text-amber-300 mt-1 flex items-center gap-1.5">
                   <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1343,9 +1343,9 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                     <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
                       <div className="flex items-center justify-between">
                         <label className="text-xs font-semibold text-slate-300">
-                          Calculate <strong className="text-cyan-400 font-mono text-base">{factN}!</strong>
+                          Calculate <strong className="text-gold-400 font-mono text-base">{factN}!</strong>
                         </label>
-                        <span className="text-xs px-2.5 py-1 bg-cyan-950 border border-cyan-800 text-cyan-300 rounded-lg font-mono">
+                        <span className="text-xs px-2.5 py-1 bg-gold-950 border border-gold-800 text-gold-300 rounded-lg font-mono">
                           Value = {factorialResult.toLocaleString()}
                         </span>
                       </div>
@@ -1357,12 +1357,12 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                         value={factN}
                         aria-label="Factorial input value"
                         onChange={(e) => handleFactChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       {/* Topic-Specific SVG #1: Recursion Tree & Call Stack */}
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                        <span className="text-xs font-mono text-cyan-300 mb-2 block font-semibold">
+                        <span className="text-xs font-mono text-gold-300 mb-2 block font-semibold">
                           SVG 1: JVM Recursion Tree & Unwinding Path
                         </span>
                         <svg viewBox="0 0 450 160" className="w-full h-40">
@@ -1427,7 +1427,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                               className={`p-1.5 rounded border text-xs font-mono flex items-center justify-between ${
                                 frame.call === 'factorial(0)'
                                   ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
-                                  : 'bg-slate-800/80 border-slate-700 text-cyan-200'
+                                  : 'bg-slate-800/80 border-slate-700 text-gold-200'
                               }`}
                             >
                               <span>{frame.call}</span>
@@ -1447,7 +1447,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                           onClick={() => setActiveTab('recursion')}
                           className={`px-3 py-1 text-xs rounded-lg font-mono font-bold ${
                             activeTab === 'recursion'
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1459,7 +1459,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
                           onClick={() => setActiveTab('iteration')}
                           className={`px-3 py-1 text-xs rounded-lg font-mono font-bold ${
                             activeTab === 'iteration'
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1469,7 +1469,7 @@ export function C10_ComputerScienceJavaProgramFactorialSim(props: Props = DEFAUL
 
                       <div className="p-4 bg-slate-900/90 rounded-lg border border-slate-800 font-mono text-xs leading-relaxed text-slate-300 overflow-x-auto">
                         {activeTab === 'recursion' ? (
-                          <pre className="text-cyan-300">
+                          <pre className="text-gold-300">
 {`int factorial(int n) {
     if (n == 0)      // BASE CASE
         return 1;
@@ -1495,8 +1495,8 @@ System.out.println(fact);`}
                   </div>
 
                   {/* Observation Question for Step 0 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/50">
-                    <p className="text-xs font-semibold text-indigo-300 mb-2">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/50">
+                    <p className="text-xs font-semibold text-gold-300 mb-2">
                       🔬 Scientific Observation: {OBSERVATION_QUESTIONS[0].question}
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1511,7 +1511,7 @@ System.out.println(fact);`}
                               ? i === OBSERVATION_QUESTIONS[0].correctIndex
                                 ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                                 : 'bg-slate-900 border-slate-800 text-slate-500'
-                              : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500'
+                              : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           {opt}
@@ -1527,8 +1527,8 @@ System.out.println(fact);`}
                 <div className="space-y-6">
                   {/* Predict-then-check block */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-slate-950 rounded-xl border border-cyan-800/50">
-                      <p className="text-xs font-semibold text-cyan-300 mb-2">
+                    <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/50">
+                      <p className="text-xs font-semibold text-gold-300 mb-2">
                         🔮 Make a Prediction: {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1538,7 +1538,7 @@ System.out.println(fact);`}
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="text-left p-2.5 rounded-lg text-xs bg-slate-900 border border-slate-800 hover:border-cyan-500 text-slate-200"
+                            className="text-left p-2.5 rounded-lg text-xs bg-slate-900 border border-slate-800 hover:border-gold-500 text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1546,7 +1546,7 @@ System.out.println(fact);`}
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-cyan-950/40 rounded-lg border border-cyan-800 text-xs text-cyan-300 flex items-center justify-between">
+                    <div className="p-3 bg-gold-950/40 rounded-lg border border-gold-800 text-xs text-gold-300 flex items-center justify-between">
                       <span>✓ {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                       <span className="font-bold">Verified Factor Search Active</span>
                     </div>
@@ -1556,7 +1556,7 @@ System.out.println(fact);`}
                     <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
                       <div className="flex justify-between items-center">
                         <label className="text-xs font-semibold text-slate-300">
-                          Candidate Number N: <strong className="text-cyan-400 font-mono">{primeCandidate}</strong>
+                          Candidate Number N: <strong className="text-gold-400 font-mono">{primeCandidate}</strong>
                         </label>
                         <span
                           className={`text-xs px-2.5 py-1 rounded-lg font-bold ${
@@ -1578,7 +1578,7 @@ System.out.println(fact);`}
                             onClick={() => handlePrimeCandidateChange(num)}
                             className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold ${
                               primeCandidate === num
-                                ? 'bg-cyan-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                             }`}
                           >
@@ -1589,7 +1589,7 @@ System.out.println(fact);`}
 
                       {/* Topic-Specific SVG #2: Square Root Divisor Boundary Gauge */}
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                        <span className="text-xs font-mono text-cyan-300 mb-1 block font-semibold">
+                        <span className="text-xs font-mono text-gold-300 mb-1 block font-semibold">
                           SVG 2: Divisor Search Boundary [2 → √{primeCandidate}]
                         </span>
                         <svg viewBox="0 0 420 100" className="w-full h-24">
@@ -1628,7 +1628,7 @@ System.out.println(fact);`}
                         <div className="text-slate-400">
                           Square root bound: <strong>√{primeCandidate} ≈ {Math.sqrt(primeCandidate).toFixed(2)}</strong>
                         </div>
-                        <div className="text-cyan-300">
+                        <div className="text-gold-300">
                           Loop range: <code>i = 2; i * i &lt;= {primeCandidate}; (i up to {Math.floor(Math.sqrt(primeCandidate))})</code>
                         </div>
                       </div>
@@ -1636,7 +1636,7 @@ System.out.println(fact);`}
 
                     <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs space-y-2">
                       <span className="text-slate-400 block font-bold">Standard ICSE Prime Method:</span>
-                      <pre className="text-cyan-300 p-3 bg-slate-900 rounded-lg overflow-x-auto">
+                      <pre className="text-gold-300 p-3 bg-slate-900 rounded-lg overflow-x-auto">
 {`boolean isPrime = true;
 if (n <= 1) isPrime = false;
 for (int i = 2; i * i <= n; i++) {
@@ -1659,7 +1659,7 @@ for (int i = 2; i * i <= n; i++) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Armstrong Box with Topic-Specific SVG #3 */}
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       Armstrong Number (Sum of Digit Cubes)
                     </span>
                     <div className="flex gap-2">
@@ -1674,7 +1674,7 @@ for (int i = 2; i * i <= n; i++) {
                           }}
                           className={`px-3 py-1 text-xs font-mono font-bold rounded-lg ${
                             armstrongInput === num
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-300'
                           }`}
                         >
@@ -1685,7 +1685,7 @@ for (int i = 2; i * i <= n; i++) {
 
                     {/* Topic Specific SVG #3: Digit Extractor Pipeline */}
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                      <span className="text-xs font-mono text-cyan-300 mb-1 block font-semibold">
+                      <span className="text-xs font-mono text-gold-300 mb-1 block font-semibold">
                         SVG 3: Modulo & Division Digit Slicing Pipeline
                       </span>
                       <svg viewBox="0 0 420 120" className="w-full h-28">
@@ -1716,7 +1716,7 @@ for (int i = 2; i * i <= n; i++) {
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs font-mono space-y-2">
                       <div className="flex items-center gap-2">
                         {armstrongDetails.digits.map((d, i) => (
-                          <span key={i} className="px-2 py-1 bg-slate-800 rounded text-cyan-300">
+                          <span key={i} className="px-2 py-1 bg-slate-800 rounded text-gold-300">
                             {d}³ = {d * d * d}
                           </span>
                         ))}
@@ -1737,11 +1737,11 @@ for (int i = 2; i * i <= n; i++) {
 
                   {/* Fibonacci Box */}
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       Fibonacci Series (c = a + b)
                     </span>
                     <div className="flex items-center justify-between text-xs text-slate-300">
-                      <label>Terms to Generate: <strong className="text-indigo-400 font-mono">{fibCount}</strong></label>
+                      <label>Terms to Generate: <strong className="text-gold-400 font-mono">{fibCount}</strong></label>
                       <input
                         type="range"
                         min={3}
@@ -1752,7 +1752,7 @@ for (int i = 2; i * i <= n; i++) {
                           setFibCount(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-32 accent-indigo-500 cursor-pointer"
+                        className="w-32 accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1762,7 +1762,7 @@ for (int i = 2; i * i <= n; i++) {
                           key={idx}
                           initial={{ scale: 0.8 }}
                           animate={{ scale: 1 }}
-                          className="px-2.5 py-1 bg-indigo-950/80 border border-indigo-700 text-indigo-200 rounded-lg font-bold"
+                          className="px-2.5 py-1 bg-gold-950/80 border border-gold-700 text-gold-200 rounded-lg font-bold"
                         >
                           {val}
                         </motion.span>
@@ -1785,7 +1785,7 @@ for(int i = 3; i <= n; i++) {
               {currentSlide === 3 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       Nested Loop Pattern Controller
                     </span>
 
@@ -1801,7 +1801,7 @@ for(int i = 3; i <= n; i++) {
                           }}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize ${
                             patternType === mode
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1811,7 +1811,7 @@ for(int i = 3; i <= n; i++) {
                     </div>
 
                     <div className="flex items-center justify-between text-xs text-slate-300">
-                      <label>Rows (N): <strong className="text-cyan-400 font-mono">{patternRows}</strong></label>
+                      <label>Rows (N): <strong className="text-gold-400 font-mono">{patternRows}</strong></label>
                       <input
                         type="range"
                         min={2}
@@ -1822,19 +1822,19 @@ for(int i = 3; i <= n; i++) {
                           setPatternRows(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-40 accent-cyan-500 cursor-pointer"
+                        className="w-40 accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
 
-                  <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 font-mono text-cyan-300 flex flex-col justify-center items-center min-h-[160px] bg-grid-pattern">
+                  <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 font-mono text-gold-300 flex flex-col justify-center items-center min-h-[160px] bg-grid-pattern">
                     <div className="space-y-1 text-center">
                       {patternLines.map((line, idx) => (
                         <motion.div
                           key={idx}
                           initial={{ opacity: 0, x: -10 }}
                           animate={{ opacity: 1, x: 0 }}
-                          className="tracking-widest font-black text-sm text-cyan-400"
+                          className="tracking-widest font-black text-sm text-gold-400"
                         >
                           {line}
                         </motion.div>
@@ -1859,7 +1859,7 @@ for(int i = 3; i <= n; i++) {
                         }}
                         className={`px-4 py-1.5 rounded-xl text-xs font-bold uppercase tracking-wider ${
                           selectedTopology === top
-                            ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                            ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1999,7 +1999,7 @@ for(int i = 3; i <= n; i++) {
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-cyan-600/30"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2049,7 +2049,7 @@ for(int i = 3; i <= n; i++) {
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold uppercase ${
                   sandboxMode === mode
-                    ? 'bg-cyan-600 text-white'
+                    ? 'bg-gold-600 text-white'
                     : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                 }`}
               >
@@ -2070,9 +2070,9 @@ for(int i = 3; i <= n; i++) {
                   value={factN}
                   aria-label="Sandbox Factorial Input"
                   onChange={(e) => handleFactChange(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
-                <div className="p-4 bg-slate-950 rounded-xl font-mono text-xs text-cyan-300">
+                <div className="p-4 bg-slate-950 rounded-xl font-mono text-xs text-gold-300">
                   {factN}! = {factorialResult.toLocaleString()}
                 </div>
               </div>
@@ -2105,7 +2105,7 @@ for(int i = 3; i <= n; i++) {
                     setSqlQueryInput(e.target.value);
                     audioManager.play('tap');
                   }}
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-xs text-cyan-300"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-xs text-gold-300"
                 />
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <table className="w-full text-left text-xs font-mono">
@@ -2165,26 +2165,26 @@ for(int i = 3; i <= n; i++) {
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-500'
                     : difficulty === 'standard'
-                    ? 'bg-cyan-950 text-cyan-400 border-cyan-500'
+                    ? 'bg-gold-950 text-gold-400 border-gold-500'
                     : 'bg-rose-950 text-rose-400 border-rose-500'
                 }`}
               >
                 {difficulty.toUpperCase()} TIER
               </motion.span>
-              <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-indigo-300 border border-indigo-700/50">
+              <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-gold-300 border border-gold-700/50">
                 NEP 2020: {challenge.competencyLevel.toUpperCase()}
               </span>
             </div>
 
             <div className="text-xs text-slate-400 font-mono">
-              Score: <strong className="text-cyan-400">{scoreBreakdown.correct}</strong> / {scoreBreakdown.total}
+              Score: <strong className="text-gold-400">{scoreBreakdown.correct}</strong> / {scoreBreakdown.total}
             </div>
           </div>
 
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2212,10 +2212,10 @@ for(int i = 3; i <= n; i++) {
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-cyan-500 hover:bg-slate-800'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -2232,7 +2232,7 @@ for(int i = 3; i <= n; i++) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       ☰ {item.label}
                     </motion.div>
@@ -2263,7 +2263,7 @@ for(int i = 3; i <= n; i++) {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Verify Topology Labels
                 </motion.button>
@@ -2290,7 +2290,7 @@ for(int i = 3; i <= n; i++) {
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs font-mono flex items-center justify-between cursor-grab"
                   >
                     <span>
-                      <strong className="text-cyan-400 mr-2">{displayIdx + 1}.</strong> {item}
+                      <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                     </span>
                     <span className="text-slate-500 text-xs">☰ Drag</span>
                   </motion.div>
@@ -2300,7 +2300,7 @@ for(int i = 3; i <= n; i++) {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Confirm SQL Order
                 </motion.button>
@@ -2316,14 +2316,14 @@ for(int i = 3; i <= n; i++) {
                   aria-label="Numeric answer input"
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-cyan-500 outline-none"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                 />
                 <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                 >
                   Submit
                 </motion.button>
@@ -2343,7 +2343,7 @@ for(int i = 3; i <= n; i++) {
                         setConstructParts((prev) => [...prev, part]);
                         audioManager.play('tap');
                       }}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-cyan-300 rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-gold-300 rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2355,7 +2355,7 @@ for(int i = 3; i <= n; i++) {
                     <span
                       key={i}
                       onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
-                      className="px-3 py-1 bg-cyan-900/60 border border-cyan-600 text-cyan-200 rounded-lg font-mono text-xs cursor-pointer hover:bg-rose-950"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-600 text-gold-200 rounded-lg font-mono text-xs cursor-pointer hover:bg-rose-950"
                     >
                       {part} ✕
                     </span>
@@ -2369,7 +2369,7 @@ for(int i = 3; i <= n; i++) {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Validate Constructed Code
                 </motion.button>
@@ -2434,7 +2434,7 @@ for(int i = 3; i <= n; i++) {
       {/* ─── 5. COMPLETION PHASE (With Mandatory Reflection & SRS Visibility) ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-cyan-950 via-slate-900 to-indigo-950 rounded-3xl border border-cyan-800 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-gold-950 rounded-3xl border border-gold-800 shadow-2xl text-center space-y-4">
             <span className="text-5xl">🎓</span>
             <h2 className="text-2xl font-black text-white">ICSE Module Certified Complete!</h2>
             <p className="text-sm text-slate-300 max-w-lg mx-auto">
@@ -2444,7 +2444,7 @@ for(int i = 3; i <= n; i++) {
             <div className="flex justify-center gap-6 py-4">
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block uppercase">Final Score</span>
-                <strong className="text-2xl font-mono text-cyan-400">{Math.max(0, 100 - errors * 5)}%</strong>
+                <strong className="text-2xl font-mono text-gold-400">{Math.max(0, 100 - errors * 5)}%</strong>
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block uppercase">BKT Mastery</span>
@@ -2479,7 +2479,7 @@ for(int i = 3; i <= n; i++) {
             </p>
             <div className="flex items-center gap-2 pt-1 text-[11px] text-slate-400">
               <span>Next Review Target:</span>
-              <span className="font-mono text-cyan-300 font-semibold">
+              <span className="font-mono text-gold-300 font-semibold">
                 {new Date(Date.now() + srsIntervalText.days * 24 * 60 * 60 * 1000).toLocaleDateString(undefined, {
                   weekday: 'short',
                   month: 'short',
@@ -2491,7 +2491,7 @@ for(int i = 3; i <= n; i++) {
 
           {/* ─── POST-COMPLETION REFLECTION SECTION ─── */}
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Metacognitive Reflection & Consolidation
             </h3>
             <p className="text-xs text-slate-400">
@@ -2509,7 +2509,7 @@ for(int i = 3; i <= n; i++) {
                   placeholder="e.g., How factorial(0) must return 1 to preserve products..."
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-cyan-200 focus:border-cyan-500 outline-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-gold-200 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2523,7 +2523,7 @@ for(int i = 3; i <= n; i++) {
                   placeholder="e.g., Recursion is like delegating a smaller task until reaching the simplest base answer..."
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-cyan-200 focus:border-cyan-500 outline-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-gold-200 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2537,7 +2537,7 @@ for(int i = 3; i <= n; i++) {
                   placeholder="e.g., Designing school database queries or debugging bank network topologies..."
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-cyan-200 focus:border-cyan-500 outline-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-gold-200 focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2564,12 +2564,12 @@ for(int i = 3; i <= n; i++) {
 
           {/* Real World Activity */}
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono text-cyan-400 font-bold">{i + 1}.</span> {step}
+                  <span className="font-mono text-gold-400 font-bold">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

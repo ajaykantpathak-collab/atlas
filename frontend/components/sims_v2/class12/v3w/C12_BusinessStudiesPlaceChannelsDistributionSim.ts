@@ -11,7 +11,7 @@ export const w_c12_businessstudiesplacechannelsdistributionsim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Marketing Mix: 4 Ps (Product, Price, Place, Promotion)',
     chapters: [],
     nodeIds: ['c12_bs_cbse_11_004', 'c12_bs_cbse_11_005', 'c12_bs_cbse_11_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are launching a new brand of cold-pressed juice in India.', goal: 'Master Marketing Mix: 4 Ps (Product, Price, Place, Promotion).' },
     discovery: {
         question: 'Define Marketing Mix and list its four components.',
@@ -20,7 +20,7 @@ export const w_c12_businessstudiesplacechannelsdistributionsim: SimDef = {
         hook: 'Students often treat the 4 Ps as independent checklists rather than an integrated system.',
     },
     teaching: [
-        { title: 'Marketing Mix refers to the set of.', text: 'Marketing Mix refers to the set of controllable tactical marketing tools — Product, Price, Place, and Promotion — that a firm blends to produce the desired response in the target market.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Marketing Mix refers to the set of.', text: 'Marketing Mix refers to the set of controllable tactical marketing tools — Product, Price, Place, and Promotion — that a firm blends to produce the desired response in the target market.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_11_004', title: 'Marketing Mix refers to the set of.',

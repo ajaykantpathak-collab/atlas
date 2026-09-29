@@ -11,7 +11,7 @@ export const w_c8_mathematicsalgebraicexpressionsandidentitiessim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Applications of Algebraic Identities in Simplifying Expressions',
     chapters: [],
     nodeIds: ['c8_math_ch6_11', 'c8_math_ch6_5', 'c8_math_ch6_6', 'c8_math_ch6_7', 'c8_math_ch6_8', 'c8_math_ch6_9', 'c8_math_ch6_10', 'c8_math_ch6_4', 'c8_math_ch6_1', 'c8_math_ch6_2', 'c8_math_ch1_6', 'c8_math_ch1_12', 'c8_math_ch1_3', 'c8_math_ch5_6', 'c8_math_ch5_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor whose side length is (2x + 3) metres.', goal: 'Master Applications of Algebraic Identities in Simplifying Expressions.' },
     discovery: {
         question: 'If we have two numbers where the first number is larger than the second (a > b), and we increase the first by 1 while decreasing the second by 1, will the.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsalgebraicexpressionsandidentitiessim: SimDef = {
         hook: 'Students often think that increasing one factor by 1 and decreasing the other by 1 leaves the product unchanged because.',
     },
     teaching: [
-        { title: 'Applications of algebraic identities involve.', text: 'Applications of algebraic identities involve recognizing algebraic expressions that match the patterns of standard identities — (a+b)² = a² + 2ab + b², (a-b)² = a² - 2ab + b², and (a+b)(a-b) = a² -.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Applications of algebraic identities involve.', text: 'Applications of algebraic identities involve recognizing algebraic expressions that match the patterns of standard identities — (a+b)² = a² + 2ab + b², (a-b)² = a² - 2ab + b², and (a+b)(a-b) = a² -.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch6_11', title: 'Applications of algebraic identities.',

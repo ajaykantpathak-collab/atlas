@@ -11,7 +11,7 @@ export const w_c12_biotechbioremediationcbsesim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Biotechnology Industry: Scope and Major Sectors',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_12_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student asked: "Biotechnology is everywhere — from the insulin a diabetic relative.', goal: 'Master Biotechnology Industry: Scope and Major Sectors.' },
     discovery: {
         question: 'Compare and contrast **organoids** and **spheroids** as 3D culture models for drug screening.',
@@ -20,7 +20,7 @@ export const w_c12_biotechbioremediationcbsesim: SimDef = {
         hook: '**Misconception:** "Environmental biotechnology = bioremediation only." Students equate the entire sector with cleaning.',
     },
     teaching: [
-        { title: 'The biotechnology industry encompasses the.', text: 'The biotechnology industry encompasses the commercial application of biological systems, living organisms, or their derivatives to develop products and processes across five major innovation sectors:.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The biotechnology industry encompasses the.', text: 'The biotechnology industry encompasses the commercial application of biological systems, living organisms, or their derivatives to develop products and processes across five major innovation sectors:.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_12_001', title: 'The biotechnology industry encompasses.',

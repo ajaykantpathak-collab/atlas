@@ -11,7 +11,7 @@ export const w_c12_commercebonusissuerightssim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Capital Market: Meaning and Components (Primary and Secondary Market)',
     chapters: [],
     nodeIds: ['c12_bs_cbse_10_003', 'c12_bs_cbse_10_004', 'c12_bs_cbse_10_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a fast-growing Indian EV startup needs ₹500 crore to build a new battery plant — it cannot borrow.', goal: 'Master Capital Market: Meaning and Components (Primary and Secondary Market).' },
     discovery: {
         question: 'A company issues bonus shares to existing shareholders. Is this a primary market or secondary market transaction? Justify your answer in two sentences.',
@@ -20,7 +20,7 @@ export const w_c12_commercebonusissuerightssim: SimDef = {
         hook: '**Misconception:** "Secondary market transactions increase the company\'s share capital." **Why students make this.',
     },
     teaching: [
-        { title: 'Capital Market refers to the institutional.', text: 'Capital Market refers to the institutional arrangement for borrowing and lending long-term funds (typically above one year) through financial instruments like equity shares, preference shares,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Capital Market refers to the institutional.', text: 'Capital Market refers to the institutional arrangement for borrowing and lending long-term funds (typically above one year) through financial instruments like equity shares, preference shares,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_10_003', title: 'Capital Market refers to the.',

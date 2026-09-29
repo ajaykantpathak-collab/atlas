@@ -1234,12 +1234,12 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="text-3xl p-2 bg-indigo-950/70 border border-indigo-700/50 rounded-2xl inline-block"
+            className="text-3xl p-2 bg-gold-950/70 border border-gold-700/50 rounded-2xl inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ISC Class 11 Applied Mathematics • CISCE 2026 Core Syllabus</p>
@@ -1257,7 +1257,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                 ? 'bg-emerald-950/60 border-emerald-500/50 text-emerald-300'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 border-rose-500/50 text-rose-300'
-                : 'bg-indigo-950/60 border-indigo-500/50 text-indigo-300'
+                : 'bg-gold-950/60 border-gold-500/50 text-gold-300'
             }`}
           >
             {difficulty.toUpperCase()} TIER
@@ -1277,15 +1277,15 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
           <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 border border-indigo-800/60 rounded-2xl"
+            className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 border border-gold-800/60 rounded-2xl"
           >
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏙️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="mt-3 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/30 text-xs text-indigo-200"
+              className="mt-3 p-3 bg-gold-900/30 rounded-xl border border-gold-700/30 text-xs text-gold-200"
             >
               📌 <strong>Objective:</strong> {SCENARIO.context}
             </motion.div>
@@ -1320,7 +1320,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700 hover:border-slate-600'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1345,7 +1345,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToPredict}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-900/50 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/50 flex items-center gap-2"
                   >
                     Start Prediction Lab →
                   </motion.button>
@@ -1360,7 +1360,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
       {phase === 'predict' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-5">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
               Predict-Then-Check: Question {predIndex + 1} of {PREDICTION_QUESTIONS.length}
             </span>
             <div className="flex gap-1">
@@ -1368,7 +1368,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                 <div
                   key={idx}
                   className={`h-1.5 rounded-full transition-all ${
-                    idx === predIndex ? 'w-6 bg-indigo-400' : 'w-2 bg-slate-700'
+                    idx === predIndex ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1408,11 +1408,11 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         ? 'bg-rose-950/60 border-rose-500 text-rose-200'
                         : 'bg-slate-900 border-slate-800 text-slate-400 opacity-60'
                       : predSelected === i
-                      ? 'bg-indigo-900/60 border-indigo-500 text-indigo-200 ring-2 ring-indigo-500'
+                      ? 'bg-gold-900/60 border-gold-500 text-gold-200 ring-2 ring-gold-500'
                       : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1428,7 +1428,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                     const isCorrect = predSelected === PREDICTION_QUESTIONS[predIndex].correctIndex;
                     audioManager.play(isCorrect ? 'success' : 'pop');
                   }}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-900/50"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/50"
                 >
                   Submit Prediction
                 </motion.button>
@@ -1441,7 +1441,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   🔍 <strong>How to verify in lab:</strong> {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                 </div>
                 <p className="text-xs sm:text-sm text-slate-300">
-                  <strong className="text-indigo-400">Mathematical Insight:</strong> {PREDICTION_QUESTIONS[predIndex].explanation}
+                  <strong className="text-gold-400">Mathematical Insight:</strong> {PREDICTION_QUESTIONS[predIndex].explanation}
                 </p>
                 <div className="flex justify-end pt-2">
                   {predIndex < PREDICTION_QUESTIONS.length - 1 ? (
@@ -1453,7 +1453,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         setPredSelected(null);
                         setPredSubmitted(false);
                       }}
-                      className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                     >
                       Next Prediction →
                     </motion.button>
@@ -1482,7 +1482,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
             animate={{ opacity: 1, y: 0 }}
             className="flex items-center justify-between"
           >
-            <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
               Interactive Concept Discovery ({currentSlide + 1} of {EXPLORATION_STEPS.length})
             </span>
             <div className="flex gap-1">
@@ -1491,7 +1491,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   key={idx}
                   animate={{ scale: idx === currentSlide ? 1.2 : 1 }}
                   className={`h-1.5 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-400' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1507,7 +1507,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
               className="p-5 sm:p-6 bg-slate-900 border border-slate-800 rounded-2xl space-y-5"
             >
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-sm mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </motion.div>
 
@@ -1529,15 +1529,15 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         max={10}
                         value={apDiff}
                         onChange={(e) => setApDiff(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="AP Common Difference Slider"
                       />
                       <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="p-3 bg-indigo-950/40 rounded-lg border border-indigo-800/40"
+                        className="p-3 bg-gold-950/40 rounded-lg border border-gold-800/40"
                       >
-                        <p className="text-xs font-semibold text-indigo-300 mb-1">
+                        <p className="text-xs font-semibold text-gold-300 mb-1">
                           Arithmetic Progression (AP): T_n = a + (n - 1)d
                         </p>
                         <div className="flex gap-2 text-xs font-mono text-white flex-wrap">
@@ -1545,13 +1545,13 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                             <motion.span
                               key={i}
                               whileHover={{ scale: 1.08 }}
-                              className="px-2 py-1 bg-indigo-900/60 rounded"
+                              className="px-2 py-1 bg-gold-900/60 rounded"
                             >
                               T_{i + 1}={term}
                             </motion.span>
                           ))}
                         </div>
-                        <p className="text-xs text-indigo-200 mt-2">
+                        <p className="text-xs text-gold-200 mt-2">
                           Sum S₆ = (6/2)(2a + 5d) = <strong className="text-amber-300">{apSum6}</strong>
                         </p>
                       </motion.div>
@@ -1637,7 +1637,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         <span>Inclination θ = {lineAngleDeg}°</span>
                         <span>
                           Slope m₁ = tan({lineAngleDeg}°) ={' '}
-                          <strong className="text-indigo-400">{Math.tan((lineAngleDeg * Math.PI) / 180).toFixed(2)}</strong>
+                          <strong className="text-gold-400">{Math.tan((lineAngleDeg * Math.PI) / 180).toFixed(2)}</strong>
                         </span>
                       </div>
                       <input
@@ -1646,7 +1646,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         max={85}
                         value={lineAngleDeg}
                         onChange={(e) => setLineAngleDeg(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Line Inclination Angle Slider"
                       />
                       <div className="text-xs text-slate-300">
@@ -1820,7 +1820,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       onClick={() => setLimitFunctionType('rational')}
                       className={`px-3 py-1.5 text-xs rounded-lg font-bold border transition-colors ${
                         limitFunctionType === 'rational'
-                          ? 'bg-indigo-600 border-indigo-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-800 border-slate-700 text-slate-300'
                       }`}
                     >
@@ -1862,9 +1862,9 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                     <div className="grid grid-cols-3 gap-2 text-center pt-2">
                       <motion.div
                         whileHover={{ scale: 1.05 }}
-                        className="p-2 bg-indigo-950/50 rounded-lg border border-indigo-800"
+                        className="p-2 bg-gold-950/50 rounded-lg border border-gold-800"
                       >
-                        <span className="text-[10px] text-indigo-300">LHL (x = 2 - δ)</span>
+                        <span className="text-[10px] text-gold-300">LHL (x = 2 - δ)</span>
                         <p className="text-sm font-bold text-white font-mono">{limitValues.leftVal}</p>
                       </motion.div>
                       <motion.div
@@ -1882,9 +1882,9 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       </motion.div>
                       <motion.div
                         whileHover={{ scale: 1.05 }}
-                        className="p-2 bg-indigo-950/50 rounded-lg border border-indigo-800"
+                        className="p-2 bg-gold-950/50 rounded-lg border border-gold-800"
                       >
-                        <span className="text-[10px] text-indigo-300">RHL (x = 2 + δ)</span>
+                        <span className="text-[10px] text-gold-300">RHL (x = 2 + δ)</span>
                         <p className="text-sm font-bold text-white font-mono">{limitValues.rightVal}</p>
                       </motion.div>
                     </div>
@@ -1913,7 +1913,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-900/50"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/50"
               >
                 Next Lab →
               </motion.button>
@@ -1935,7 +1935,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
       {phase === 'observe' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-5">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
               Observation Analysis: Checkpoint {obsIndex + 1} of {OBSERVATION_QUESTIONS.length}
             </span>
             <div className="flex gap-1">
@@ -1943,7 +1943,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                 <div
                   key={idx}
                   className={`h-1.5 rounded-full transition-all ${
-                    idx === obsIndex ? 'w-6 bg-indigo-400' : 'w-2 bg-slate-700'
+                    idx === obsIndex ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1956,7 +1956,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
             animate={{ opacity: 1, scale: 1 }}
             className="p-5 sm:p-6 bg-slate-900 border border-slate-800 rounded-2xl space-y-4"
           >
-            <span className="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 rounded-full text-xs font-semibold">
+            <span className="inline-block px-3 py-1 bg-gold-500/20 text-gold-300 border border-gold-500/30 rounded-full text-xs font-semibold">
               🧐 What Did You Observe?
             </span>
             <p className="text-base sm:text-lg font-semibold text-white">
@@ -1983,11 +1983,11 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         ? 'bg-rose-950/60 border-rose-500 text-rose-200'
                         : 'bg-slate-900 border-slate-800 text-slate-400 opacity-60'
                       : obsSelected === i
-                      ? 'bg-indigo-900/60 border-indigo-500 text-indigo-200 ring-2 ring-indigo-500'
+                      ? 'bg-gold-900/60 border-gold-500 text-gold-200 ring-2 ring-gold-500'
                       : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -2003,7 +2003,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                     const isCorrect = obsSelected === OBSERVATION_QUESTIONS[obsIndex].correctIndex;
                     audioManager.play(isCorrect ? 'success' : 'pop');
                   }}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-900/50"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/50"
                 >
                   Verify Observation
                 </motion.button>
@@ -2025,7 +2025,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                         setObsSelected(null);
                         setObsSubmitted(false);
                       }}
-                      className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                     >
                       Next Observation →
                     </motion.button>
@@ -2054,7 +2054,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
             animate={{ opacity: 1, scale: 1 }}
             className="p-4 bg-slate-900 border border-slate-800 rounded-2xl"
           >
-            <h3 className="text-base font-bold text-indigo-300">🎨 Free-Play Mathematical Sandbox</h3>
+            <h3 className="text-base font-bold text-gold-300">🎨 Free-Play Mathematical Sandbox</h3>
             <p className="text-xs text-slate-400 mt-1">
               Test combinations of sequence generators, origin-shifted straight lines, and conics without grading.
             </p>
@@ -2076,7 +2076,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   max={80}
                   value={sandboxAngle}
                   onChange={(e) => setSandboxAngle(Number(e.target.value))}
-                  className="w-full accent-indigo-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                   aria-label="Sandbox Angle Slider"
                 />
               </div>
@@ -2136,14 +2136,14 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                 key={currentChallengeItem.competencyLevel}
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="text-indigo-400 font-semibold uppercase"
+                className="text-gold-400 font-semibold uppercase"
               >
                 {currentChallengeItem.competencyLevel} Competency
               </motion.span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -2191,7 +2191,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                           : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-700 hover:border-slate-600'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2208,7 +2208,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 outline-none"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                     aria-label="Numerical answer input"
                   />
                   <span className="text-xs text-slate-400 font-medium">{currentChallengeItem.unit}</span>
@@ -2218,7 +2218,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Value
                 </motion.button>
@@ -2236,7 +2236,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-mono font-bold rounded-lg cursor-grab active:cursor-grabbing border border-indigo-500 shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-mono font-bold rounded-lg cursor-grab active:cursor-grabbing border border-gold-500 shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2259,7 +2259,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       <span className="capitalize font-medium">
                         {item.targetId.replace('form_', '').replace('_', ' ')}
                       </span>
-                      <span className="font-mono font-bold text-indigo-300">
+                      <span className="font-mono font-bold text-gold-300">
                         {droppedLabels[item.targetId] || '[Drop Here]'}
                       </span>
                     </motion.div>
@@ -2271,7 +2271,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
                 >
                   Check Mapping
                 </motion.button>
@@ -2300,7 +2300,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab active:cursor-grabbing flex items-center gap-2"
                     >
-                      <span className="font-bold text-indigo-400">{displayIdx + 1}.</span> {item}
+                      <span className="font-bold text-gold-400">{displayIdx + 1}.</span> {item}
                     </motion.div>
                   ))}
                 </div>
@@ -2310,7 +2310,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Sequence Order
                 </motion.button>
@@ -2328,7 +2328,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold border border-indigo-600"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold border border-gold-600"
                     >
                       + {part}
                     </motion.button>
@@ -2344,7 +2344,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900 border border-indigo-700 text-white text-xs font-mono rounded flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-900 border border-gold-700 text-white text-xs font-mono rounded flex items-center gap-1"
                     >
                       {p}
                       <motion.button
@@ -2367,7 +2367,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Equation
                 </motion.button>
@@ -2379,7 +2379,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 bg-slate-950 border border-indigo-800/80 rounded-xl space-y-3"
+                className="mt-5 p-4 bg-slate-950 border border-gold-800/80 rounded-xl space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <motion.span
@@ -2402,7 +2402,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans"
                     >
-                      <strong className="text-indigo-400">{idx + 1}.</strong> {sentence}
+                      <strong className="text-gold-400">{idx + 1}.</strong> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2441,7 +2441,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-emerald-950/60 border border-indigo-700/60 rounded-3xl text-center space-y-3"
+            className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-emerald-950/60 border border-gold-700/60 rounded-3xl text-center space-y-3"
           >
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Applied Mathematics Mission Complete!</h2>
             <p className="text-base text-slate-300">
@@ -2462,7 +2462,7 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500/60 text-emerald-200'
                 : errors <= 3
-                ? 'bg-indigo-950/60 border-indigo-500/60 text-indigo-200'
+                ? 'bg-gold-950/60 border-gold-500/60 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500/60 text-amber-200'
                 : 'bg-rose-950/60 border-rose-500/60 text-rose-200'
@@ -2530,12 +2530,12 @@ function C11_AppliedMathsGeneralTermSumSim(props: Props = DEFAULT_PROPS) {
             animate={{ opacity: 1, y: 0 }}
             className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-3"
           >
-            <h3 className="text-base font-bold text-indigo-300">🌐 Real-World Capstone Exercise</h3>
+            <h3 className="text-base font-bold text-gold-300">🌐 Real-World Capstone Exercise</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <motion.li key={i} whileHover={{ x: 3 }} className="flex gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </motion.li>
               ))}
             </ul>

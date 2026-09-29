@@ -72,8 +72,8 @@ const ENGINES = [
     icon: BookOpenCheck,
     title: "Chapter Test",
     body: "15-25 questions spanning a whole chapter, with a per-topic report and Story links for weak topics.",
-    accent: "text-sky-300",
-    bg: "bg-sky-500/10 border-sky-500/20",
+    accent: "text-gold-300",
+    bg: "bg-gold-500/10 border-gold-500/20",
   },
   {
     href: "/exam-prep",

@@ -953,16 +953,16 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-sky-500 selection:text-white pb-12">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-gold-500 selection:text-white pb-12">
       {/* HEADER BAR */}
       <header className="bg-slate-900/90 border-b border-slate-800 backdrop-blur-md sticky top-0 z-40 px-4 py-3 shadow-md">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center font-bold text-lg text-white shadow-lg">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-lg text-white shadow-lg">
               H₂O
             </div>
             <div>
-              <h1 className="text-lg font-bold bg-gradient-to-r from-sky-400 to-indigo-300 bg-clip-text text-transparent">
+              <h1 className="text-lg font-bold bg-gradient-to-r from-gold-400 to-gold-300 bg-clip-text text-transparent">
                 ICSE Class 8 Chemistry: Water Properties & Composition
               </h1>
               <p className="text-xs text-slate-400">Node Codes: c8_chem_017, c8_chem_018, c8_chem_019, c8_chem_020</p>
@@ -973,31 +973,31 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
           <nav className="flex space-x-1 bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs">
             <button
               onClick={() => navigateTab('scenario')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'scenario' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
+              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'scenario' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
             >
               Scenario
             </button>
             <button
               onClick={() => navigateTab('discovery')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'discovery' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
+              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
             >
               Discovery
             </button>
             <button
               onClick={() => navigateTab('exploration')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'exploration' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
+              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'exploration' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
             >
               Interactive Labs ({EXPLORATION_STEPS.length})
             </button>
             <button
               onClick={() => navigateTab('challenges')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'challenges' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
+              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
             >
               Challenges ({CHALLENGES.length})
             </button>
             <button
               onClick={() => navigateTab('summary')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'summary' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
+              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${activeTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'}`}
             >
               Real World & Mastery
             </button>
@@ -1017,25 +1017,25 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
         {activeTab === 'scenario' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
             <div className="border-b border-slate-800 pb-4">
-              <span className="px-3 py-1 bg-sky-950 text-sky-400 border border-sky-800/60 rounded-full text-xs font-semibold uppercase tracking-wide">
+              <span className="px-3 py-1 bg-gold-950 text-gold-400 border border-gold-800/60 rounded-full text-xs font-semibold uppercase tracking-wide">
                 Lab Environment Overview
               </span>
               <h2 className="text-2xl font-bold text-white mt-2">{SCENARIO.title}</h2>
             </div>
             <p className="text-slate-300 leading-relaxed text-base">{SCENARIO.intro}</p>
             <p className="text-slate-400 leading-relaxed text-sm bg-slate-950/60 p-4 rounded-xl border border-slate-800">
-              <strong className="text-sky-400">Context: </strong>{SCENARIO.context}
+              <strong className="text-gold-400">Context: </strong>{SCENARIO.context}
             </p>
 
             {/* Topic Badges */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
-              <div className="p-4 bg-slate-950/80 rounded-xl border border-sky-900/40">
-                <div className="text-sky-400 font-bold text-sm mb-1">c8_chem_017</div>
+              <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/40">
+                <div className="text-gold-400 font-bold text-sm mb-1">c8_chem_017</div>
                 <div className="text-white font-semibold text-sm">Physical Properties</div>
                 <p className="text-slate-400 text-xs mt-1">Anomalous density at 4°C, universal solvent action, high specific heat capacity.</p>
               </div>
-              <div className="p-4 bg-slate-950/80 rounded-xl border border-indigo-900/40">
-                <div className="text-indigo-400 font-bold text-sm mb-1">c8_chem_018</div>
+              <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/40">
+                <div className="text-gold-400 font-bold text-sm mb-1">c8_chem_018</div>
                 <div className="text-white font-semibold text-sm">Water Composition</div>
                 <p className="text-slate-400 text-xs mt-1">Electrolysis volumetric 2:1 ratio (H₂:O₂), Hofmann voltameter, electrode reactions.</p>
               </div>
@@ -1054,7 +1054,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
             <div className="pt-4 flex justify-end">
               <button
                 onClick={() => navigateTab('discovery')}
-                className="px-6 py-3 bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-bold rounded-xl shadow-lg hover:brightness-110 transition-all"
+                className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl shadow-lg hover:brightness-110 transition-all"
               >
                 Proceed to Discovery Challenge →
               </button>
@@ -1082,7 +1082,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                     }}
                     className={`p-4 rounded-xl border text-left transition-all ${
                       selectedDiscoveryOpt === idx
-                        ? 'bg-sky-950/80 border-sky-500 text-white ring-2 ring-sky-500/30'
+                        ? 'bg-gold-950/80 border-gold-500 text-white ring-2 ring-gold-500/30'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1108,7 +1108,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                       audioManager.play('error');
                     }
                   }}
-                  className="px-6 py-2.5 bg-sky-600 disabled:opacity-50 text-white font-bold rounded-xl hover:bg-sky-500 transition-all"
+                  className="px-6 py-2.5 bg-gold-600 disabled:opacity-50 text-white font-bold rounded-xl hover:bg-gold-500 transition-all"
                 >
                   Verify Discovery Answer
                 </button>
@@ -1124,14 +1124,14 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
 
             {/* MANDATORY PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
-              <h3 className="text-lg font-bold text-sky-400 border-b border-slate-800 pb-2">
+              <h3 className="text-lg font-bold text-gold-400 border-b border-slate-800 pb-2">
                 Laboratory Hypothesis Predictions ({PREDICTION_QUESTIONS.length})
               </h3>
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <div className="flex justify-between items-center text-xs text-slate-400">
                     <span className="font-semibold text-slate-300">Prediction #{pIdx + 1}</span>
-                    <span className="font-mono text-sky-400">{pred.nodeId}</span>
+                    <span className="font-mono text-gold-400">{pred.nodeId}</span>
                   </div>
                   <p className="text-white text-sm font-medium">{pred.question}</p>
 
@@ -1147,7 +1147,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                         }}
                         className={`p-3 rounded-lg border text-xs text-left transition-all ${
                           predictionAnswers[pIdx] === oIdx
-                            ? 'bg-indigo-950 border-indigo-500 text-white font-semibold'
+                            ? 'bg-gold-950 border-gold-500 text-white font-semibold'
                             : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                         }`}
                       >
@@ -1169,7 +1169,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                           audioManager.play('drop-wrong');
                         }
                       }}
-                      className="px-4 py-1.5 bg-indigo-600 disabled:opacity-50 text-white text-xs font-bold rounded-lg hover:bg-indigo-500 transition-all"
+                      className="px-4 py-1.5 bg-gold-600 disabled:opacity-50 text-white text-xs font-bold rounded-lg hover:bg-gold-500 transition-all"
                     >
                       Check Prediction #{pIdx + 1}
                     </button>
@@ -1202,12 +1202,12 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                   }}
                   className={`w-full p-3 rounded-xl border text-left transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-sky-950 border-sky-500 text-white shadow-lg'
+                      ? 'bg-gold-950 border-gold-500 text-white shadow-lg'
                       : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-sky-400">{step.nodeId}</span>
+                    <span className="text-xs font-bold text-gold-400">{step.nodeId}</span>
                     <span className="text-[10px] bg-slate-800 px-2 py-0.5 rounded text-slate-400">Lab {idx + 1}</span>
                   </div>
                   <p className="text-xs font-semibold text-white mt-1">{step.title}</p>
@@ -1272,7 +1272,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
               <div>
                 <div className="flex items-center justify-between border-b border-slate-800 pb-3 mb-4">
                   <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
-                  <span className="px-3 py-1 bg-sky-950 text-sky-400 border border-sky-800 text-xs font-mono font-bold rounded-full">
+                  <span className="px-3 py-1 bg-gold-950 text-gold-400 border border-gold-800 text-xs font-mono font-bold rounded-full">
                     {EXPLORATION_STEPS[activeLabIndex].nodeId}
                   </span>
                 </div>
@@ -1286,7 +1286,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                     <AnomalousExpansionSVG temp={labTemp} />
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between items-center text-xs font-semibold">
-                        <span className="text-slate-400">Temperature Control: <strong className="text-sky-400">{labTemp}°C</strong></span>
+                        <span className="text-slate-400">Temperature Control: <strong className="text-gold-400">{labTemp}°C</strong></span>
                         <span className="text-amber-400">{labTemp === 4 ? '★ MAXIMUM DENSITY STATE (1.000 g/cm³)' : labTemp < 0 ? 'ICE CRYSTAL LATTICE' : 'LIQUID WATER'}</span>
                       </div>
                       <input
@@ -1299,7 +1299,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                           audioManager.play('tap');
                           setLabTemp(parseFloat(e.target.value));
                         }}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="text-[11px] text-slate-400 leading-normal">
                         <strong>Molecular Mechanism:</strong> Between 0°C and 4°C, hydrogen bonds contract open hexagonal ice cages into close-packed liquid clusters. Above 4°C, normal thermal expansion dominates.
@@ -1347,7 +1347,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                               setVoltameterVoltage(v);
                             }}
                             className={`px-3 py-1 rounded text-xs font-mono font-bold ${
-                              voltameterVoltage === v ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                              voltameterVoltage === v ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {v}V
@@ -1374,7 +1374,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                             }}
                             className={`p-2.5 rounded-xl border text-xs font-bold transition-all ${
                               selectedReactant === sub
-                                ? 'bg-sky-600 border-sky-400 text-white ring-2 ring-sky-400/30'
+                                ? 'bg-gold-600 border-gold-400 text-white ring-2 ring-gold-400/30'
                                 : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                             }`}
                           >
@@ -1409,7 +1409,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                                 setWaterSampleType(samp.id as typeof waterSampleType);
                               }}
                               className={`p-2 rounded text-xs text-left border ${
-                                waterSampleType === samp.id ? 'bg-sky-950 border-sky-500 text-sky-200 font-bold' : 'bg-slate-900 border-slate-800 text-slate-400'
+                                waterSampleType === samp.id ? 'bg-gold-950 border-gold-500 text-gold-200 font-bold' : 'bg-slate-900 border-slate-800 text-slate-400'
                               }`}
                             >
                               {samp.label}
@@ -1434,7 +1434,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                                 setSofteningMethod(m.id as typeof softeningMethod);
                               }}
                               className={`p-2 rounded text-xs text-left border ${
-                                softeningMethod === m.id ? 'bg-indigo-950 border-indigo-500 text-indigo-200 font-bold' : 'bg-slate-900 border-slate-800 text-slate-400'
+                                softeningMethod === m.id ? 'bg-gold-950 border-gold-500 text-gold-200 font-bold' : 'bg-slate-900 border-slate-800 text-slate-400'
                               }`}
                             >
                               {m.label}
@@ -1495,7 +1495,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                 <div className="flex items-center space-x-2">
                   <span className={`px-2.5 py-0.5 rounded text-[10px] font-bold uppercase ${
                     CHALLENGES[currentChallengeIdx].difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                    CHALLENGES[currentChallengeIdx].difficulty === 'standard' ? 'bg-sky-950 text-sky-400 border border-sky-800' :
+                    CHALLENGES[currentChallengeIdx].difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                     'bg-purple-950 text-purple-400 border border-purple-800'
                   }`}>
                     {CHALLENGES[currentChallengeIdx].difficulty} Tier
@@ -1523,7 +1523,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                     }}
                     className={`w-4 h-4 rounded-full text-[9px] font-mono flex items-center justify-center transition-all ${
                       i === currentChallengeIdx
-                        ? 'bg-sky-500 text-white ring-2 ring-sky-400 scale-110'
+                        ? 'bg-gold-500 text-white ring-2 ring-gold-400 scale-110'
                         : challengeCompleted[i]
                         ? 'bg-emerald-600 text-white'
                         : 'bg-slate-800 text-slate-500 hover:bg-slate-700'
@@ -1553,7 +1553,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                       }}
                       className={`p-4 rounded-xl border text-left text-sm transition-all ${
                         selectedOption === oIdx
-                          ? 'bg-sky-950 border-sky-500 text-white ring-2 ring-sky-500/30 font-medium'
+                          ? 'bg-gold-950 border-gold-500 text-white ring-2 ring-gold-500/30 font-medium'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1578,7 +1578,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                     value={numericAnswer}
                     onChange={(e) => setNumericAnswer(e.target.value)}
                     placeholder="Type numeric value..."
-                    className="w-full max-w-xs bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-white font-mono text-base focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none"
+                    className="w-full max-w-xs bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-white font-mono text-base focus:border-gold-500 focus:ring-1 focus:ring-gold-500 outline-none"
                   />
                 </div>
               )}
@@ -1589,7 +1589,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                   <button
                     disabled={selectedOption === null && numericAnswer.trim() === ''}
                     onClick={handleChallengeSubmit}
-                    className="px-6 py-2.5 bg-sky-600 disabled:opacity-40 text-white font-bold rounded-xl hover:bg-sky-500 transition-all shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 disabled:opacity-40 text-white font-bold rounded-xl hover:bg-gold-500 transition-all shadow-md"
                   >
                     Submit Answer
                   </button>
@@ -1644,7 +1644,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
           <div className="space-y-6">
             {/* MANDATORY REAL WORLD ACTIVITY SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-4">
-              <div className="flex items-center space-x-2 text-sky-400 text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center space-x-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                 <span>🌐 Applied Industrial Chemistry Case Study</span>
               </div>
               <h3 className="text-xl font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -1653,7 +1653,7 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-1">
-                    <span className="text-xs font-bold text-sky-400 uppercase">Phase {sIdx + 1}</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Phase {sIdx + 1}</span>
                     <p className="text-slate-300 text-xs leading-normal">{step}</p>
                   </div>
                 ))}
@@ -1690,18 +1690,18 @@ export const C8_ChemistryWaterpropertiesandcompositionSim: React.FC<DefaultProps
                   const prob = (bktStates[node].pKnown * 100).toFixed(0);
                   return (
                     <div key={node} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-                      <span className="text-xs font-bold text-sky-400">{node}</span>
+                      <span className="text-xs font-bold text-gold-400">{node}</span>
                       <div className="flex justify-between items-baseline">
                         <span className="text-xl font-bold text-white">{prob}%</span>
                         <span className={`text-xs font-semibold px-2 py-0.5 rounded ${
                           level === 'mastered' ? 'bg-emerald-950 text-emerald-400' :
-                          level === 'proficient' ? 'bg-sky-950 text-sky-400' : 'bg-amber-950 text-amber-400'
+                          level === 'proficient' ? 'bg-gold-950 text-gold-400' : 'bg-amber-950 text-amber-400'
                         }`}>
                           {level}
                         </span>
                       </div>
                       <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
-                        <div className="bg-gradient-to-r from-sky-500 to-emerald-400 h-full transition-all" style={{ width: `${prob}%` }} />
+                        <div className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all" style={{ width: `${prob}%` }} />
                       </div>
                     </div>
                   );

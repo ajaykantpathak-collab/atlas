@@ -11,11 +11,11 @@ export const w_c10_mathematicscomputationbasiccostpricesim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Word Problems: Surface Area and Volume of Combined Solids',
     chapters: [],
     nodeIds: ['c10_math_cbse_12_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine a water tank in your village shaped like a cylinder with a hemispherical top — the panchayat wants to.', goal: 'Master Word Problems: Surface Area and Volume of Combined Solids.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Word problems on surface area and volume of.', text: 'Word problems on surface area and volume of combined solids require translating a real-world description of a 3D object (formed by joining two or more basic solids like cylinders, cones, hemispheres,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Word problems on surface area and volume of.', text: 'Word problems on surface area and volume of combined solids require translating a real-world description of a 3D object (formed by joining two or more basic solids like cylinders, cones, hemispheres,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_12_010', title: 'Word problems on surface area and.',

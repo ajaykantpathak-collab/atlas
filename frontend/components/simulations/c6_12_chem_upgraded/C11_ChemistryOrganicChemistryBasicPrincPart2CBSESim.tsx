@@ -1347,11 +1347,11 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-4 flex flex-col md:flex-row items-center justify-between shadow-xl">
         <div className="flex items-center space-x-3 mb-2 md:mb-0">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-white text-xl">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-white text-xl">
             C2
           </div>
           <div>
-            <h1 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-300">
+            <h1 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-300">
               ISC Chemistry 11: Organic Principles & Analysis
             </h1>
             <p className="text-xs text-slate-400">Electronic Effects, Reactive Intermediates, Purification & Elemental Analysis</p>
@@ -1363,7 +1363,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
           <button
             onClick={() => { setActiveTab('scenario'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-              activeTab === 'scenario' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'scenario' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             Scenario
@@ -1371,7 +1371,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             Discovery
@@ -1379,7 +1379,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             Virtual Lab
@@ -1387,7 +1387,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-              activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             Challenges ({currentChallengeIndex + 1}/{CHALLENGES.length})
@@ -1395,7 +1395,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
           <button
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-              activeTab === 'summary' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             Summary & Report
@@ -1408,13 +1408,13 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
         {/* TAB 1: SCENARIO */}
         {activeTab === 'scenario' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl">
-            <h2 className="text-2xl font-bold text-cyan-400 mb-4">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-bold text-gold-400 mb-4">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed mb-4 text-base">{SCENARIO.intro}</p>
             <p className="text-slate-400 leading-relaxed mb-6 text-sm">{SCENARIO.context}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="bg-slate-800 p-4 rounded-xl border border-slate-700">
-                <h3 className="font-semibold text-cyan-300 text-sm mb-1">Core Modules Covered</h3>
+                <h3 className="font-semibold text-gold-300 text-sm mb-1">Core Modules Covered</h3>
                 <ul className="text-xs text-slate-300 space-y-1 list-disc list-inside">
                   <li>Inductive, Electromeric, Resonance Effects</li>
                   <li>Hyperconjugation & α-Hydrogen counting</li>
@@ -1422,7 +1422,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                 </ul>
               </div>
               <div className="bg-slate-800 p-4 rounded-xl border border-slate-700">
-                <h3 className="font-semibold text-indigo-300 text-sm mb-1">Purification Techniques</h3>
+                <h3 className="font-semibold text-gold-300 text-sm mb-1">Purification Techniques</h3>
                 <ul className="text-xs text-slate-300 space-y-1 list-disc list-inside">
                   <li>Steam & Fractional Distillation</li>
                   <li>Vacuum Distillation for Glycerol</li>
@@ -1441,7 +1441,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             <button
               onClick={() => { setActiveTab('discovery'); audioManager.play('swoop'); }}
-              className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold text-white shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all"
+              className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all"
             >
               Begin Discovery Investigation →
             </button>
@@ -1451,7 +1451,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
         {/* TAB 2: DISCOVERY */}
         {activeTab === 'discovery' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
-            <h2 className="text-xl font-bold text-cyan-400">Discovery & Preconception Inquiry</h2>
+            <h2 className="text-xl font-bold text-gold-400">Discovery & Preconception Inquiry</h2>
 
             <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-4">
               <p className="font-semibold text-slate-200">{DISCOVERY_QUESTION.question}</p>
@@ -1473,7 +1473,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                 ))}
               </div>
               {discoveryFeedback && (
-                <div className="p-3 bg-slate-900 rounded-lg text-xs text-cyan-300 border border-slate-700">
+                <div className="p-3 bg-slate-900 rounded-lg text-xs text-gold-300 border border-slate-700">
                   {discoveryFeedback}
                 </div>
               )}
@@ -1481,7 +1481,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             {/* MANDATORY PREDICTION QUESTIONS SECTION */}
             <div className="space-y-4 border-t border-slate-800 pt-4">
-              <h3 className="text-lg font-bold text-indigo-300">Predictive Chemistry Questions</h3>
+              <h3 className="text-lg font-bold text-gold-300">Predictive Chemistry Questions</h3>
               {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                 <div key={qIdx} className="bg-slate-800/80 p-4 rounded-xl border border-slate-700 space-y-3">
                   <p className="text-xs font-bold text-slate-200">{pq.question}</p>
@@ -1518,7 +1518,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             <button
               onClick={() => { setActiveTab('lab'); audioManager.play('swoop'); }}
-              className="w-full py-3 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-xl font-bold text-white shadow-lg hover:from-indigo-400 hover:to-cyan-400 transition-all"
+              className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-500 rounded-xl font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-400 transition-all"
             >
               Enter Interactive Virtual Lab →
             </button>
@@ -1536,7 +1536,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   onClick={() => { setActiveLabIndex(idx); audioManager.play('tap'); }}
                   className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                      ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:bg-slate-750'
                   }`}
                 >
@@ -1563,7 +1563,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   />
                 </div>
                 <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-4">
-                  <h3 className="font-bold text-cyan-300 text-sm">Substituent & Electronic Effect Controls</h3>
+                  <h3 className="font-bold text-gold-300 text-sm">Substituent & Electronic Effect Controls</h3>
                   <p className="text-xs text-slate-400">Select a functional group to observe its Inductive (-I/+I) and Resonance (-R/+R) impact on benzene/alkanes.</p>
                   
                   <div className="grid grid-cols-2 gap-2">
@@ -1573,7 +1573,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                         onClick={() => { setSubstituent(sub); audioManager.play('pop'); }}
                         className={`py-2 px-3 rounded-lg text-xs font-semibold border transition-all ${
                           substituent === sub
-                            ? 'bg-cyan-600 text-white border-cyan-400 shadow'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow'
                             : 'bg-slate-700 text-slate-300 border-slate-600 hover:bg-slate-650'
                         }`}
                       >
@@ -1583,8 +1583,8 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 text-slate-300">
-                    <p><span className="font-bold text-cyan-400">Inductive Effect:</span> Permanent displacement of σ-electrons along saturated carbon chain.</p>
-                    <p><span className="font-bold text-indigo-400">Resonance Effect:</span> Delocalization of π-electrons / lone pairs in conjugated systems.</p>
+                    <p><span className="font-bold text-gold-400">Inductive Effect:</span> Permanent displacement of σ-electrons along saturated carbon chain.</p>
+                    <p><span className="font-bold text-gold-400">Resonance Effect:</span> Delocalization of π-electrons / lone pairs in conjugated systems.</p>
                   </div>
                 </div>
               </div>
@@ -1604,7 +1604,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   />
                 </div>
                 <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-4">
-                  <h3 className="font-bold text-indigo-300 text-sm">Intermediate Stability & Cleavage Dynamics</h3>
+                  <h3 className="font-bold text-gold-300 text-sm">Intermediate Stability & Cleavage Dynamics</h3>
 
                   <div className="space-y-2">
                     <label className="text-xs text-slate-400 font-semibold">Select Cleavage Type:</label>
@@ -1620,7 +1620,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                       <button
                         onClick={() => { setCleavageType('heterolytic'); audioManager.play('whoosh'); }}
                         className={`flex-1 py-2 rounded-lg text-xs font-bold transition-all ${
-                          cleavageType === 'heterolytic' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          cleavageType === 'heterolytic' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         Heterolytic (Cation / Anion)
@@ -1636,7 +1636,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                           key={type}
                           onClick={() => { setIntermediateType(type); audioManager.play('pop'); }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold capitalize transition-all ${
-                            intermediateType === type ? 'bg-cyan-600 text-white' : 'bg-slate-700 text-slate-300'
+                            intermediateType === type ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                           }`}
                         >
                           {type}
@@ -1657,25 +1657,25 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
             {activeLabIndex === 2 && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-4">
-                  <h3 className="font-bold text-cyan-300 text-sm">Electrophiles vs Nucleophiles Classifier</h3>
+                  <h3 className="font-bold text-gold-300 text-sm">Electrophiles vs Nucleophiles Classifier</h3>
                   <div className="grid grid-cols-2 gap-2 text-xs">
-                    <div className="bg-slate-900 p-3 rounded-lg border border-cyan-800">
-                      <h4 className="font-bold text-cyan-400 mb-2">Electrophiles (E+)</h4>
+                    <div className="bg-slate-900 p-3 rounded-lg border border-gold-800">
+                      <h4 className="font-bold text-gold-400 mb-2">Electrophiles (E+)</h4>
                       <p className="text-slate-400 text-[11px] mb-2">Electron-loving, electron deficient (Lewis Acids)</p>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-cyan-300 text-[10px] font-mono mr-1 mb-1">H+</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-cyan-300 text-[10px] font-mono mr-1 mb-1">NO2+</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-cyan-300 text-[10px] font-mono mr-1 mb-1">BF3</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-cyan-300 text-[10px] font-mono mr-1 mb-1">AlCl3</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-cyan-300 text-[10px] font-mono mr-1 mb-1">R3C+</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">H+</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">NO2+</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">BF3</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">AlCl3</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">R3C+</span>
                     </div>
-                    <div className="bg-slate-900 p-3 rounded-lg border border-indigo-800">
-                      <h4 className="font-bold text-indigo-400 mb-2">Nucleophiles (Nu:)</h4>
+                    <div className="bg-slate-900 p-3 rounded-lg border border-gold-800">
+                      <h4 className="font-bold text-gold-400 mb-2">Nucleophiles (Nu:)</h4>
                       <p className="text-slate-400 text-[11px] mb-2">Nucleus-loving, electron-rich (Lewis Bases)</p>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-indigo-300 text-[10px] font-mono mr-1 mb-1">OH-</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-indigo-300 text-[10px] font-mono mr-1 mb-1">CN-</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-indigo-300 text-[10px] font-mono mr-1 mb-1">NH3</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-indigo-300 text-[10px] font-mono mr-1 mb-1">H2O</span>
-                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-indigo-300 text-[10px] font-mono mr-1 mb-1">R-MgX</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">OH-</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">CN-</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">NH3</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">H2O</span>
+                      <span className="inline-block bg-slate-800 px-2 py-1 rounded text-gold-300 text-[10px] font-mono mr-1 mb-1">R-MgX</span>
                     </div>
                   </div>
                 </div>
@@ -1684,10 +1684,10 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   <h3 className="font-bold text-emerald-300 text-sm">4 Major Reaction Types Matrix</h3>
                   <div className="space-y-2 text-xs">
                     <div className="bg-slate-900 p-2.5 rounded-lg">
-                      <span className="font-bold text-cyan-400">1. Substitution:</span> Attacking species replaces a substituent group (e.g., CH3Cl + OH- → CH3OH + Cl-).
+                      <span className="font-bold text-gold-400">1. Substitution:</span> Attacking species replaces a substituent group (e.g., CH3Cl + OH- → CH3OH + Cl-).
                     </div>
                     <div className="bg-slate-900 p-2.5 rounded-lg">
-                      <span className="font-bold text-indigo-400">2. Addition:</span> Reagents add across double/triple bond (e.g., CH2=CH2 + HBr → CH3CH2Br).
+                      <span className="font-bold text-gold-400">2. Addition:</span> Reagents add across double/triple bond (e.g., CH2=CH2 + HBr → CH3CH2Br).
                     </div>
                     <div className="bg-slate-900 p-2.5 rounded-lg">
                       <span className="font-bold text-amber-400">3. Elimination:</span> Small molecule removed forming unsaturation (e.g., CH3CH2OH → CH2=CH2 + H2O).
@@ -1708,7 +1708,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   <DistillationSetupSVG mode={distillationMode} />
                 </div>
                 <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-4">
-                  <h3 className="font-bold text-cyan-300 text-sm">Separation Apparatus Controls</h3>
+                  <h3 className="font-bold text-gold-300 text-sm">Separation Apparatus Controls</h3>
 
                   <div className="space-y-2">
                     <label className="text-xs text-slate-400 font-semibold">Distillation Mode:</label>
@@ -1718,7 +1718,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                           key={mode}
                           onClick={() => { setDistillationMode(mode); audioManager.play('tap'); }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold capitalize transition-all ${
-                            distillationMode === mode ? 'bg-cyan-600 text-white' : 'bg-slate-700 text-slate-300'
+                            distillationMode === mode ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                           }`}
                         >
                           {mode}
@@ -1730,7 +1730,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs text-slate-300">
                       <span>TLC Mobile Phase Polarity:</span>
-                      <span className="font-bold text-cyan-400">{solventPolarity}%</span>
+                      <span className="font-bold text-gold-400">{solventPolarity}%</span>
                     </div>
                     <input
                       type="range"
@@ -1738,7 +1738,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                       max={90}
                       value={solventPolarity}
                       onChange={(e) => setSolventPolarity(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1775,7 +1775,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                           step="0.01"
                           value={massSample}
                           onChange={(e) => setMassSample(Number(e.target.value))}
-                          className="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-cyan-300"
+                          className="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-gold-300"
                         />
                       </div>
                       <div>
@@ -1785,7 +1785,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                           step="0.01"
                           value={massCO2}
                           onChange={(e) => setMassCO2(Number(e.target.value))}
-                          className="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-cyan-300"
+                          className="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-gold-300"
                         />
                       </div>
                       <div>
@@ -1795,14 +1795,14 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                           step="0.01"
                           value={massH2O}
                           onChange={(e) => setMassH2O(Number(e.target.value))}
-                          className="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-cyan-300"
+                          className="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-gold-300"
                         />
                       </div>
                     </div>
 
                     <div className="flex justify-between items-center p-2 bg-slate-900 rounded border border-slate-700 text-xs">
                       <div>
-                        % Carbon = <span className="font-bold text-cyan-400">{calculatedC}%</span>
+                        % Carbon = <span className="font-bold text-gold-400">{calculatedC}%</span>
                       </div>
                       <div>
                         % Hydrogen = <span className="font-bold text-emerald-400">{calculatedH}%</span>
@@ -1812,7 +1812,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                 </div>
 
                 <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-4">
-                  <h3 className="font-bold text-cyan-300 text-sm">Quantitative Methods Reference</h3>
+                  <h3 className="font-bold text-gold-300 text-sm">Quantitative Methods Reference</h3>
 
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs text-slate-300">
@@ -1832,7 +1832,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
                   <div className="space-y-2 text-xs">
                     <div className="p-2.5 bg-slate-900 rounded-lg">
-                      <p className="font-bold text-cyan-400">Dumas Method (N2 Gas):</p>
+                      <p className="font-bold text-gold-400">Dumas Method (N2 Gas):</p>
                       <p className="text-slate-400 text-[11px]">%N = (28 / 22400) × (V_STP / mass) × 100</p>
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-lg">
@@ -1850,7 +1850,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             {/* MANDATORY OBSERVATION QUESTIONS SECTION */}
             <div className="space-y-4 border-t border-slate-800 pt-4">
-              <h3 className="text-lg font-bold text-cyan-400">Lab Observation Questions</h3>
+              <h3 className="text-lg font-bold text-gold-400">Lab Observation Questions</h3>
               {OBSERVATION_QUESTIONS.map((oq, oqIdx) => (
                 <div key={oqIdx} className="bg-slate-800/80 p-4 rounded-xl border border-slate-700 space-y-3">
                   <p className="text-xs font-bold text-slate-200">{oq.question}</p>
@@ -1886,7 +1886,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             <button
               onClick={() => { setActiveTab('challenges'); audioManager.play('swoop'); }}
-              className="w-full py-3 bg-gradient-to-r from-cyan-500 to-indigo-600 rounded-xl font-bold text-white shadow-lg hover:from-cyan-400 hover:to-indigo-500 transition-all"
+              className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all"
             >
               Proceed to Mastery Challenges →
             </button>
@@ -1899,7 +1899,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
             {/* Challenge Progress Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span className={`ml-3 px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
@@ -1913,7 +1913,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                 </span>
               </div>
               <div className="text-xs text-slate-400">
-                Score: <span className="font-bold text-cyan-400">{score} pts</span>
+                Score: <span className="font-bold text-gold-400">{score} pts</span>
               </div>
             </div>
 
@@ -1931,7 +1931,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric answer..."
-                  className="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-cyan-300 text-sm focus:outline-none focus:border-cyan-500"
+                  className="w-full p-3 bg-slate-800 border border-slate-700 rounded-xl text-gold-300 text-sm focus:outline-none focus:border-gold-500"
                 />
               </div>
             ) : (
@@ -1942,7 +1942,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                     onClick={() => { setSelectedOption(idx); audioManager.play('pop'); }}
                     className={`p-3 text-left rounded-xl text-xs font-medium transition-all ${
                       selectedOption === idx
-                        ? 'bg-cyan-600 text-white border border-cyan-400 shadow'
+                        ? 'bg-gold-600 text-white border border-gold-400 shadow'
                         : 'bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-750'
                     }`}
                   >
@@ -1970,14 +1970,14 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
               {!feedback ? (
                 <button
                   onClick={handleChallengeSubmit}
-                  className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold text-white shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all"
                 >
                   Submit Answer
                 </button>
               ) : (
                 <button
                   onClick={handleNextChallenge}
-                  className="w-full py-3 bg-gradient-to-r from-emerald-500 to-cyan-600 rounded-xl font-bold text-white shadow-lg hover:from-emerald-400 hover:to-cyan-500 transition-all"
+                  className="w-full py-3 bg-gradient-to-r from-emerald-500 to-gold-600 rounded-xl font-bold text-white shadow-lg hover:from-emerald-400 hover:to-gold-500 transition-all"
                 >
                   {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Finish Simulation Lab'}
                 </button>
@@ -1990,7 +1990,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
         {activeTab === 'summary' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
-              <h2 className="text-xl font-bold text-cyan-400">Organic Lab Executive Report & Mastery Summary</h2>
+              <h2 className="text-xl font-bold text-gold-400">Organic Lab Executive Report & Mastery Summary</h2>
               <span className="text-xs bg-emerald-900 text-emerald-300 px-3 py-1 rounded-full font-bold">
                 Final Score: {score} / 220
               </span>
@@ -1998,12 +1998,12 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             {/* MANDATORY REAL WORLD ACTIVITY SECTION */}
             <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 space-y-3">
-              <h3 className="text-base font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="space-y-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-900 p-3 rounded-lg text-xs text-slate-300 border border-slate-750">
-                    <span className="font-bold text-cyan-400 mr-2">Phase {sIdx + 1}:</span>
+                    <span className="font-bold text-gold-400 mr-2">Phase {sIdx + 1}:</span>
                     {step}
                   </div>
                 ))}
@@ -2012,7 +2012,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             {/* MISCONCEPTIONS & CORRECTIONS MATRIX */}
             <div className="space-y-3">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">Common Misconceptions & Clarifications</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Common Misconceptions & Clarifications</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {MISCONCEPTIONS.map((m) => (
                   <div key={m.id} className="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700 space-y-1.5 text-xs">
@@ -2025,12 +2025,12 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
 
             {/* DIAGNOSTIC RECAP TABLE */}
             <div className="space-y-3">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Concept Mastery Diagnostics</h3>
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Concept Mastery Diagnostics</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {DIAGNOSTIC_QUESTIONS.map((dq) => (
                   <div key={dq.id} className="bg-slate-800 p-3 rounded-xl border border-slate-700 text-xs space-y-1">
                     <p className="font-semibold text-slate-200">{dq.question}</p>
-                    <p className="text-cyan-300 font-bold">Answer: {dq.options[dq.correctIndex]}</p>
+                    <p className="text-gold-300 font-bold">Answer: {dq.options[dq.correctIndex]}</p>
                     <p className="text-slate-400 text-[11px]">{dq.explanation}</p>
                   </div>
                 ))}
@@ -2044,7 +2044,7 @@ export const C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim: React.FC<{
                 setActiveTab('scenario');
                 audioManager.play('swoop');
               }}
-              className="w-full py-3 bg-gradient-to-r from-cyan-500 to-indigo-600 rounded-xl font-bold text-white shadow-lg hover:from-cyan-400 hover:to-indigo-500 transition-all"
+              className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all"
             >
               Restart Full Simulation Lab
             </button>

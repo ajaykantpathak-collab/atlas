@@ -1159,7 +1159,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
   return (
     <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans relative overflow-hidden">
       {/* Background Glow */}
-      <div className="absolute -top-32 -left-32 w-96 h-96 bg-indigo-600/15 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -top-32 -left-32 w-96 h-96 bg-gold-600/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-emerald-600/15 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header bar */}
@@ -1167,14 +1167,14 @@ export function C12_CommerceComparisonTaylorFayolSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-500/20 border border-indigo-400/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-500/20 border border-gold-400/30 flex items-center justify-center text-2xl shadow-inner"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 12 Commerce (ISC)</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 Commerce (ISC)</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">10 Syllabi Nodes</span>
             </div>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1196,7 +1196,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
               }}
               className={`px-3 py-1 rounded-xl text-xs font-bold uppercase tracking-wider transition-all ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-500 to-purple-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1210,14 +1210,14 @@ export function C12_CommerceComparisonTaylorFayolSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Scenario Hero */}
-          <div className="p-6 rounded-3xl bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 border border-indigo-500/30 relative overflow-hidden shadow-xl">
+          <div className="p-6 rounded-3xl bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 border border-gold-500/30 relative overflow-hidden shadow-xl">
             <div className="flex items-start gap-4">
               <span className="text-4xl" aria-hidden="true">🏛️</span>
               <div>
-                <span className="text-xs font-bold uppercase tracking-widest text-indigo-400">Narrative Case</span>
+                <span className="text-xs font-bold uppercase tracking-widest text-gold-400">Narrative Case</span>
                 <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
                 <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-                <p className="text-indigo-200/80 text-xs mt-2 italic">{SCENARIO.context}</p>
+                <p className="text-gold-200/80 text-xs mt-2 italic">{SCENARIO.context}</p>
               </div>
             </div>
           </div>
@@ -1270,9 +1270,9 @@ export function C12_CommerceComparisonTaylorFayolSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 rounded-2xl bg-indigo-950/50 border border-indigo-500/30 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-5 p-4 rounded-2xl bg-gold-950/50 border border-gold-500/30 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
-                <div className="text-xs sm:text-sm text-indigo-200">
+                <div className="text-xs sm:text-sm text-gold-200">
                   <span className="font-bold text-amber-300">Takeaway: </span>
                   {discoveryCorrect
                     ? '✓ Spot on! Taylor handles the operational micro-layer while Fayol coordinates the organizational macro-layer.'
@@ -1283,7 +1283,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Enter Interactive Exploration Laboratory"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold text-sm shrink-0 shadow-lg"
+                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-purple-600 text-white font-bold text-sm shrink-0 shadow-lg"
                 >
                   Enter Exploration Lab →
                 </motion.button>
@@ -1311,7 +1311,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                 }}
                 className={`px-3 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all flex items-center gap-2 border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1334,7 +1334,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
               {/* Step Header */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-slate-800">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                  <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                     Interactive Discovery • Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                   </span>
                   <h2 className="text-xl font-bold text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1351,7 +1351,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   {/* Topic-Specific SVG 1: Taylor vs Fayol Enterprise Balance Diagram */}
                   <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800">
                     <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                      <span className="font-bold text-indigo-300">SVG Architecture 1: Taylor Shop-Floor vs Fayol Boardroom Scalar Flow</span>
+                      <span className="font-bold text-gold-300">SVG Architecture 1: Taylor Shop-Floor vs Fayol Boardroom Scalar Flow</span>
                       <span className="text-emerald-400 font-bold">Productivity: {enterpriseProductivity}%</span>
                     </div>
                     <svg viewBox="0 0 600 130" className="w-full h-auto bg-slate-900/80 rounded-xl" aria-label="Taylor versus Fayol dual engine organizational diagram">
@@ -1395,16 +1395,16 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   {/* Dual Sliders */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Taylor Shop Floor */}
-                    <div className="p-5 rounded-2xl bg-slate-950 border border-indigo-500/30 space-y-4">
+                    <div className="p-5 rounded-2xl bg-slate-950 border border-gold-500/30 space-y-4">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2">
                           <span className="text-2xl" aria-hidden="true">⚙️</span>
                           <div>
                             <h3 className="text-sm font-bold text-white">F.W. Taylor: Scientific Management</h3>
-                            <span className="text-[11px] text-indigo-400 font-semibold">Shop-Floor Production Efficiency</span>
+                            <span className="text-[11px] text-gold-400 font-semibold">Shop-Floor Production Efficiency</span>
                           </div>
                         </div>
-                        <span className="text-lg font-black text-indigo-400">{taylorLevel}%</span>
+                        <span className="text-lg font-black text-gold-400">{taylorLevel}%</span>
                       </div>
 
                       <input
@@ -1414,7 +1414,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                         aria-label="Taylor shop floor efficiency slider"
                         value={taylorLevel}
                         onChange={(e) => handleTaylorChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
 
                       <div className="text-xs text-slate-400 space-y-1 bg-slate-900 p-3 rounded-xl">
@@ -1456,8 +1456,8 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   </div>
 
                   {/* Predict Then Check Unit */}
-                  <div className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-500/20 space-y-3">
-                    <div className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Predict-Then-Check Experiment</div>
+                  <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-500/20 space-y-3">
+                    <div className="text-xs font-bold text-gold-300 uppercase tracking-wider">Predict-Then-Check Experiment</div>
                     <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1516,7 +1516,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handlePlanRungClick(i); }}
                         className={`p-4 rounded-2xl cursor-pointer border transition-all flex flex-col justify-between ${
                           activePlanRung === i
-                            ? 'bg-gradient-to-b from-indigo-900/90 to-slate-900 border-indigo-400 shadow-xl'
+                            ? 'bg-gradient-to-b from-gold-900/90 to-slate-900 border-gold-400 shadow-xl'
                             : 'bg-slate-950/70 border-slate-800 hover:border-slate-700'
                         }`}
                       >
@@ -1524,7 +1524,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                           <div className="flex items-center justify-between mb-2">
                             <span className="text-xl" aria-hidden="true">{rung.icon}</span>
                             <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                              activePlanRung === i ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'
+                              activePlanRung === i ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                             }`}>
                               Step {rung.step}
                             </span>
@@ -1539,7 +1539,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   {/* Interactive Plan Breakdown Banner */}
                   <div className="p-5 rounded-2xl bg-slate-950 border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <div className="space-y-1">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Planning Step Insights</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Planning Step Insights</span>
                       <h3 className="text-base font-bold text-white">
                         {activePlanRung === 0 && 'Step 1: Objectives give direction to the entire firm'}
                         {activePlanRung === 1 && 'Step 2: A plan with 1 option is a default, not a plan'}
@@ -1558,7 +1558,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label="Advance to next planning step"
                       onClick={() => setActivePlanRung((activePlanRung + 1) % 5)}
-                      className="px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold shrink-0"
+                      className="px-4 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold shrink-0"
                     >
                       Next Step →
                     </motion.button>
@@ -1581,7 +1581,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                       }}
                       className={`flex-1 p-3 rounded-2xl font-bold text-xs uppercase tracking-wider border transition-all ${
                         planMatrixTab === 'standing'
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1626,11 +1626,11 @@ export function C12_CommerceComparisonTaylorFayolSim({
                           onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handlePlanTypeSelect(p.type); }}
                           className={`p-4 rounded-2xl cursor-pointer border transition-all ${
                             selectedPlanType === p.type
-                              ? 'bg-indigo-950 border-indigo-400 shadow-md'
+                              ? 'bg-gold-950 border-gold-400 shadow-md'
                               : 'bg-slate-950 border-slate-800'
                           }`}
                         >
-                          <span className="text-xs font-bold text-indigo-400 uppercase">{p.type}</span>
+                          <span className="text-xs font-bold text-gold-400 uppercase">{p.type}</span>
                           <p className="text-xs text-white font-semibold mt-1">{p.desc}</p>
                           <p className="text-[10px] text-slate-400 mt-2 italic">e.g. {p.ex}</p>
                         </motion.div>
@@ -1684,7 +1684,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                         onClick={() => handleStructureToggle('functional')}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
                           structureType === 'functional'
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1720,7 +1720,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                           else setStructureType('functional');
                           audioManager.play('count');
                         }}
-                        className="w-24 accent-indigo-500"
+                        className="w-24 accent-gold-500"
                       />
                       <span className="text-xs font-bold text-white">{orgProductCount} {orgProductCount === 1 ? 'Product' : 'Products'}</span>
                     </div>
@@ -1783,8 +1783,8 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-                    <div className="p-3 bg-slate-950 rounded-xl border border-indigo-500/30">
-                      <span className="font-bold text-indigo-300">Functional Merits:</span> Deep functional specialization, zero resource duplication, lower administrative costs. Demerits: Silos, slow cross-functional decisions.
+                    <div className="p-3 bg-slate-950 rounded-xl border border-gold-500/30">
+                      <span className="font-bold text-gold-300">Functional Merits:</span> Deep functional specialization, zero resource duplication, lower administrative costs. Demerits: Silos, slow cross-functional decisions.
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-purple-500/30">
                       <span className="font-bold text-purple-300">Divisional Merits:</span> Autonomous P&L accountability, fast market agility. Demerits: Duplication of functional teams (higher cost).
@@ -1799,7 +1799,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   {/* Topic-Specific SVG 3: TCS NQT Staffing Funnel & Filter Pipeline */}
                   <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800">
                     <div className="flex items-center justify-between text-xs text-slate-400 mb-2">
-                      <span className="font-bold text-indigo-300">SVG Architecture 3: TCS 5-Stage Negative Selection Funnel & Filter Pipeline</span>
+                      <span className="font-bold text-gold-300">SVG Architecture 3: TCS 5-Stage Negative Selection Funnel & Filter Pipeline</span>
                       <span className="text-emerald-400 font-bold">Applications: 300k → Final Hires: 40k</span>
                     </div>
                     <svg viewBox="0 0 600 160" className="w-full h-auto bg-slate-900/80 rounded-xl" aria-label="Staffing and selection funnel diagram">
@@ -1855,7 +1855,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                         }}
                         className={`flex-1 p-3 rounded-2xl font-bold text-xs uppercase tracking-wider border transition-all ${
                           trainingTypeTab === 'off-job'
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1882,8 +1882,8 @@ export function C12_CommerceComparisonTaylorFayolSim({
                           { name: 'Case Study', desc: 'Analytical classroom debate on real business dilemmas', ex: 'IIM Ahmedabad Tata Nano failure case' },
                           { name: 'Role Playing', desc: 'Acting out customer negotiations and sales dilemmas', ex: 'HUL sales rep discount negotiations' },
                         ].map((m, i) => (
-                          <div key={i} className="p-4 rounded-2xl bg-slate-950 border border-indigo-500/30">
-                            <span className="text-xs font-bold text-indigo-400 uppercase">{m.name}</span>
+                          <div key={i} className="p-4 rounded-2xl bg-slate-950 border border-gold-500/30">
+                            <span className="text-xs font-bold text-gold-400 uppercase">{m.name}</span>
                             <p className="text-xs text-white mt-1">{m.desc}</p>
                             <p className="text-[10px] text-slate-400 mt-2 italic">e.g. {m.ex}</p>
                           </div>
@@ -1917,7 +1917,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Go to next lab"
                     onClick={handleNextSlide}
-                    className="px-5 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold"
+                    className="px-5 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1967,7 +1967,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   aria-label="Sandbox total workforce slider"
                   value={sandboxWorkerCount}
                   onChange={(e) => setSandboxWorkerCount(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2023,8 +2023,8 @@ export function C12_CommerceComparisonTaylorFayolSim({
 
             {/* Calculated Dashboard Matrix */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-500/30">
-                <span className="text-[11px] font-bold text-indigo-400 uppercase">Annual Replacement Hiring</span>
+              <div className="p-4 rounded-2xl bg-gold-950/40 border border-gold-500/30">
+                <span className="text-[11px] font-bold text-gold-400 uppercase">Annual Replacement Hiring</span>
                 <div className="text-2xl font-black text-white mt-1">{annualHiringNeeded.toLocaleString()} recruits</div>
                 <p className="text-[10px] text-slate-400 mt-1">Covers {sandboxAttritionRate}% attrition + 8% expansion growth</p>
               </div>
@@ -2052,7 +2052,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Launch challenges mode"
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-indigo-600 text-white font-bold text-sm shadow-xl shrink-0"
+                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-gold-600 text-white font-bold text-sm shadow-xl shrink-0"
               >
                 Launch Challenges 🚀
               </motion.button>
@@ -2078,14 +2078,14 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 border-emerald-500/40 text-emerald-300'
                     : difficulty === 'standard'
-                    ? 'bg-blue-500/20 border-blue-500/40 text-blue-300'
+                    ? 'bg-gold-500/20 border-gold-500/40 text-gold-300'
                     : 'bg-rose-500/20 border-rose-500/40 text-rose-300'
                 }`}
               >
                 <span>{difficulty === 'foundation' ? '🟢' : difficulty === 'standard' ? '🔵' : '🔴'}</span>
                 <span>{difficulty}</span>
               </motion.span>
-              <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-800 text-indigo-300 border border-slate-700">
+              <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-800 text-gold-300 border border-slate-700">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
@@ -2093,14 +2093,14 @@ export function C12_CommerceComparisonTaylorFayolSim({
             <div className="flex items-center gap-4 text-xs font-bold">
               <span className="text-emerald-400">✓ {scoreBreakdown.correct} Correct</span>
               <span className="text-rose-400">✗ {errors} Errors</span>
-              <span className="text-slate-400">Mastery: <span className="text-indigo-400 uppercase">{masteryLevel}</span></span>
+              <span className="text-slate-400">Mastery: <span className="text-gold-400 uppercase">{masteryLevel}</span></span>
             </div>
           </div>
 
           {/* Progress Bar */}
           <div className="w-full h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2116,7 +2116,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                 : 'bg-slate-900 border-slate-800 shadow-xl'
             }`}
           >
-            <div className="flex items-center justify-between gap-2 text-xs text-indigo-400 font-bold uppercase tracking-wider mb-2">
+            <div className="flex items-center justify-between gap-2 text-xs text-gold-400 font-bold uppercase tracking-wider mb-2">
               <span>Target Node: {challenge.nodeId}</span>
               <span className="text-slate-400">Type: {challenge.type}</span>
             </div>
@@ -2175,7 +2175,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 rounded-xl bg-gold-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2193,7 +2193,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                       onDrop={() => handleDragDrop(stepKey)}
                       className={`p-4 rounded-2xl border-2 border-dashed flex flex-col items-center justify-center min-h-[90px] text-center transition-all ${
                         droppedLabels[stepKey]
-                          ? 'bg-indigo-950/60 border-indigo-400 text-white'
+                          ? 'bg-gold-950/60 border-gold-400 text-white'
                           : 'bg-slate-950 border-slate-800 text-slate-500'
                       }`}
                     >
@@ -2209,7 +2209,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   aria-label="Verify stages ordering"
                   onClick={handleCheckDragLabels}
                   disabled={showExplanation}
-                  className="px-6 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow"
+                  className="px-6 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold shadow"
                 >
                   Verify Stages Order ✓
                 </motion.button>
@@ -2257,7 +2257,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   aria-label="Verify Selection Order"
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow"
+                  className="px-6 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold shadow"
                 >
                   Verify Selection Order ✓
                 </motion.button>
@@ -2283,7 +2283,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                     aria-label="Submit numeric calculation"
                     onClick={handleNumericSubmit}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow"
+                    className="px-6 py-3 rounded-xl bg-gold-600 text-white text-xs font-bold shadow"
                   >
                     Check Calculation ✓
                   </motion.button>
@@ -2303,7 +2303,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Add part ${part}`}
                       onClick={() => handleAddConstructPart(part)}
-                      className="px-3 py-1.5 rounded-xl bg-indigo-700 text-white text-xs font-bold"
+                      className="px-3 py-1.5 rounded-xl bg-gold-700 text-white text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2316,7 +2316,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                       key={idx}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 rounded-lg bg-indigo-900/80 border border-indigo-500 text-white text-xs flex items-center gap-1.5"
+                      className="px-3 py-1 rounded-lg bg-gold-900/80 border border-gold-500 text-white text-xs flex items-center gap-1.5"
                     >
                       <span>{idx + 1}. {p}</span>
                       <button
@@ -2337,7 +2337,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
                   aria-label="Verify hierarchy construction order"
                   onClick={handleConstructSubmit}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow"
+                  className="px-6 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold shadow"
                 >
                   Verify Hierarchy Construction ✓
                 </motion.button>
@@ -2407,12 +2407,12 @@ export function C12_CommerceComparisonTaylorFayolSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Hero Banner */}
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/70 border border-emerald-500/30 text-center space-y-3">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/70 border border-emerald-500/30 text-center space-y-3">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Management Simulation Mastered!</h2>
             <div className="flex justify-center gap-6 text-sm font-bold mt-2">
               <span className="text-emerald-400">✓ Final Score: {Math.max(0, 100 - errors * 5)}%</span>
-              <span className="text-indigo-400">Mastery Level: {masteryLevel.toUpperCase()}</span>
+              <span className="text-gold-400">Mastery Level: {masteryLevel.toUpperCase()}</span>
               <span className="text-slate-300">Errors: ✗ {errors}</span>
             </div>
             <p className="text-xs text-slate-400 max-w-lg mx-auto">
@@ -2428,16 +2428,16 @@ export function C12_CommerceComparisonTaylorFayolSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 rounded-3xl bg-gradient-to-r from-indigo-950/80 via-slate-900 to-purple-950/80 border-2 border-indigo-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6"
+            className="p-6 rounded-3xl bg-gradient-to-r from-gold-950/80 via-slate-900 to-purple-950/80 border-2 border-gold-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6"
           >
             <div className="flex items-center gap-4 text-center sm:text-left">
-              <div className="w-14 h-14 rounded-2xl bg-indigo-500/20 border border-indigo-400/40 flex items-center justify-center text-3xl shadow-inner shrink-0">
+              <div className="w-14 h-14 rounded-2xl bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-3xl shadow-inner shrink-0">
                 📅
               </div>
               <div className="space-y-1">
                 <div className="flex items-center justify-center sm:justify-start gap-2">
-                  <span className="text-xs font-extrabold uppercase tracking-widest text-indigo-400">Spaced Repetition System</span>
-                  <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-200 border border-indigo-700/50">SM-2 Algorithm</span>
+                  <span className="text-xs font-extrabold uppercase tracking-widest text-gold-400">Spaced Repetition System</span>
+                  <span className="text-[10px] px-2 py-0.5 rounded-full bg-gold-900/60 text-gold-200 border border-gold-700/50">SM-2 Algorithm</span>
                 </div>
                 <h3 className="text-lg font-bold text-white">
                   Scheduled Retention Review
@@ -2449,7 +2449,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
             </div>
 
             {/* SRS Action Badge */}
-            <div className="shrink-0 flex flex-col items-center sm:items-end gap-1.5 p-4 rounded-2xl bg-slate-950/80 border border-indigo-500/30">
+            <div className="shrink-0 flex flex-col items-center sm:items-end gap-1.5 p-4 rounded-2xl bg-slate-950/80 border border-gold-500/30">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Target Review Window</span>
               <div className="text-xl sm:text-2xl font-black bg-gradient-to-r from-amber-300 to-emerald-400 bg-clip-text text-transparent">
                 Review in {srsDays} {srsDays === 1 ? 'day' : 'days'}
@@ -2484,7 +2484,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
 
           {/* Real-World Activity Blueprint */}
           <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 space-y-3">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span aria-hidden="true">🚀</span>
               <span>Capstone Project</span>
             </div>
@@ -2493,7 +2493,7 @@ export function C12_CommerceComparisonTaylorFayolSim({
             <div className="space-y-2 mt-3">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2.5 text-xs text-slate-400">
-                  <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-indigo-300 shrink-0 mt-0.5">
+                  <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-gold-300 shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{st}</span>

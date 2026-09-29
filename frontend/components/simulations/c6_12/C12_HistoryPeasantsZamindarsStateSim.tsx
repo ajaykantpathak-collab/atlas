@@ -91,7 +91,7 @@ export function C12_HistoryPeasantsZamindarsStateSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Total demand</p>
-              <p className="font-mono font-bold text-sky-300">{stateShare + zamindarCut}%</p>
+              <p className="font-mono font-bold text-gold-300">{stateShare + zamindarCut}%</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Collection eff.</p>
@@ -117,7 +117,7 @@ export function C12_HistoryPeasantsZamindarsStateSim() {
             {[
               { l: 'Harvest size (maunds)', v: harvest, set: setHarvest, c: 'accent-lime-500' },
               { l: 'Grain price (Rs/maund)', v: price, set: setPrice, c: 'accent-amber-500' },
-              { l: 'State assessed share (%)', v: stateShare, set: setStateShare, c: 'accent-sky-500' },
+              { l: 'State assessed share (%)', v: stateShare, set: setStateShare, c: 'accent-gold-500' },
               { l: 'Zamindar collection cut (%)', v: zamindarCut, set: setZamindarCut, c: 'accent-yellow-500' },
               { l: 'Peasant resistance level', v: peasantResistance, set: setPeasantResistance, c: 'accent-rose-500' }
             ].map((s) => (

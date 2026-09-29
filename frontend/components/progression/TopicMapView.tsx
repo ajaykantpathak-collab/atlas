@@ -49,7 +49,7 @@ export function TopicMapView({ classLevel, onSelectTopic }: TopicMapViewProps) {
             onClick={() => setSelectedSubject(subj)}
             className={`px-3 py-1.5 rounded-lg text-sm font-bold transition-all ${
               selectedSubject === subj
-                ? 'bg-indigo-500 text-white shadow-md'
+                ? 'bg-gold-500 text-white shadow-md'
                 : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'
             }`}
           >
@@ -63,7 +63,7 @@ export function TopicMapView({ classLevel, onSelectTopic }: TopicMapViewProps) {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl p-4 text-white shadow-lg"
+          className="bg-gradient-to-r from-gold-500 to-purple-500 rounded-xl p-4 text-white shadow-lg"
         >
           <div className="flex items-center gap-3">
             <span className="text-2xl">⭐</span>
@@ -80,7 +80,7 @@ export function TopicMapView({ classLevel, onSelectTopic }: TopicMapViewProps) {
             </div>
             <button
               onClick={() => onSelectTopic?.(recommended)}
-              className="ml-auto px-4 py-2 rounded-lg bg-white text-indigo-600 font-bold text-sm hover:bg-indigo-50 transition-all"
+              className="ml-auto px-4 py-2 rounded-lg bg-white text-gold-600 font-bold text-sm hover:bg-gold-50 transition-all"
             >
               Start →
             </button>
@@ -116,7 +116,7 @@ export function TopicMapView({ classLevel, onSelectTopic }: TopicMapViewProps) {
 
               {/* Recommended badge */}
               {isRecommended && (
-                <div className="absolute top-2 left-2 px-1.5 py-0.5 rounded bg-indigo-500 text-white text-xs font-bold">
+                <div className="absolute top-2 left-2 px-1.5 py-0.5 rounded bg-gold-500 text-white text-xs font-bold">
                   ⭐
                 </div>
               )}

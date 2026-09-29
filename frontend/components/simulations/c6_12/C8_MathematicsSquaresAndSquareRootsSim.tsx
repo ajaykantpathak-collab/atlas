@@ -34,11 +34,11 @@ export function C8_MathematicsSquaresAndSquareRootsSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Squares and Square Roots: L-Layers and Root Hunting</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Squares and Square Roots: L-Layers and Root Hunting</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Two ideas:</span> (1) every square number is a
+          <span className="font-bold text-gold-700">Two ideas:</span> (1) every square number is a
           pile of L-shaped odd layers - that is why 1 + 3 + ... + (2n-1) = n^2. (2) To find a square
           root, trap M between two perfect squares: root(M) lives between their roots. The units
           digit of M even tells you how the root must end!
@@ -50,7 +50,7 @@ export function C8_MathematicsSquaresAndSquareRootsSim() {
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200">
           <p className="text-xs font-bold text-slate-500 mb-2">PART 1 - BUILD n^2 FROM ODD LAYERS</p>
           <div className="flex flex-wrap gap-2 items-center">
-            <button onClick={() => setN((v) => Math.min(8, v + 1))} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-600 text-white hover:bg-indigo-500 transition-all">
+            <button onClick={() => setN((v) => Math.min(8, v + 1))} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-600 text-white hover:bg-gold-500 transition-all">
               Add layer ({n})
             </button>
             <button onClick={() => setN((v) => Math.max(1, v - 1))} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-200 hover:bg-slate-300 transition-all">
@@ -84,7 +84,7 @@ export function C8_MathematicsSquaresAndSquareRootsSim() {
             )}
           </svg>
           <div className="mt-2 p-2 bg-white rounded-xl border border-slate-200 font-mono text-xs">
-            <div>{layers.join(' + ')} = <span className="text-indigo-700 font-bold">{oddSum} = {n}^2</span></div>
+            <div>{layers.join(' + ')} = <span className="text-gold-700 font-bold">{oddSum} = {n}^2</span></div>
             <div className="text-slate-500">each colored L adds the next odd number</div>
           </div>
         </div>
@@ -94,9 +94,9 @@ export function C8_MathematicsSquaresAndSquareRootsSim() {
           <p className="text-xs font-bold text-slate-500 mb-2">PART 2 - HUNT root(M)</p>
           <label className="text-xs font-semibold text-slate-500 flex justify-between">
             <span>M (1 to 144)</span>
-            <span className="font-mono text-indigo-600">{m}</span>
+            <span className="font-mono text-gold-600">{m}</span>
           </label>
-          <input type="range" min={1} max={144} value={m} aria-label="number M" onChange={(e) => { setM(Number(e.target.value)); setPicked(null); }} className="w-full mt-2 accent-indigo-600" />
+          <input type="range" min={1} max={144} value={m} aria-label="number M" onChange={(e) => { setM(Number(e.target.value)); setPicked(null); }} className="w-full mt-2 accent-gold-600" />
           <div className="mt-3 p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             <div>
               trap: {loSq} = {root}^2 &lt;= {m} &lt; {hiSq} = {root + 1}^2
@@ -117,7 +117,7 @@ export function C8_MathematicsSquaresAndSquareRootsSim() {
                 <button
                   key={g}
                   onClick={() => setPicked(g)}
-                  className={`w-9 h-9 rounded-lg text-xs font-bold transition-all ${picked === g ? 'bg-indigo-600 text-white' : guessCheck !== null && g === Math.round(estimate) ? 'bg-emerald-200 text-emerald-800' : 'bg-slate-200 hover:bg-slate-300'}`}
+                  className={`w-9 h-9 rounded-lg text-xs font-bold transition-all ${picked === g ? 'bg-gold-600 text-white' : guessCheck !== null && g === Math.round(estimate) ? 'bg-emerald-200 text-emerald-800' : 'bg-slate-200 hover:bg-slate-300'}`}
                 >
                   {g}
                 </button>

@@ -11,7 +11,7 @@ export const w_c12_accountancydisclosuresharecapitalsim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'Presentation of Share Capital in Balance Sheet (Schedule III, Part I)',
     chapters: [],
     nodeIds: ['c12_acc_cbse_05_010', 'c12_acc_cbse_07_004', 'c12_acc_cbse_07_005', 'c12_acc_cbse_05_001', 'c12_acc_cbse_05_003', 'c12_acc_cbse_05_005', 'c12_acc_cbse_05_006', 'c12_acc_cbse_05_007', 'c12_acc_cbse_05_009', 'c12_acc_cbse_09_008', 'c12_acc_cbse_07_009', 'c12_acc_cbse_09_003', 'c12_acc_cbse_09_007', 'c12_acc_cbse_06_002', 'c12_acc_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are the accountant of "TechNova Ltd." which has just completed its IPO.', goal: 'Master Presentation of Share Capital in Balance Sheet (Schedule III, Part I).' },
     discovery: {
         question: 'Why does Schedule III require separate disclosure of "Subscribed and fully paid‑up" and "Subscribed but not fully paid‑up" under Subscribed Capital?',
@@ -20,7 +20,7 @@ export const w_c12_accountancydisclosuresharecapitalsim: SimDef = {
         hook: 'Students often think "Paid‑up Capital" in the Balance Sheet is simply "Issued Capital minus Calls in Arrears".',
     },
     teaching: [
-        { title: 'Presentation of Share Capital in the Balance.', text: 'Presentation of Share Capital in the Balance Sheet as per Schedule III, Part I of the Companies Act, 2013 requires a company to disclose its share capital under "Equity and Liabilities →.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Presentation of Share Capital in the Balance.', text: 'Presentation of Share Capital in the Balance Sheet as per Schedule III, Part I of the Companies Act, 2013 requires a company to disclose its share capital under "Equity and Liabilities →.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_05_010', title: 'Presentation of Share Capital in the.',

@@ -29,7 +29,7 @@ export const c8_gram_ch8384: SimDef = {
     },
     teaching: [
         { title: 'Strip surgery', text: 'Delete of-phrases and comma-inserts (along with, as well as) — agree with the surviving head. "There is/are" inverts: the subject follows the verb.', emoji: '✂️', bgColor: 'from-emerald-500 to-teal-600' },
-        { title: 'Same shape, different job', text: '"Swimming is fun" — gerund (noun-job). "The swimming champion" — participle (adjective-job). The job names the form.', emoji: '🎭', bgColor: 'from-teal-500 to-cyan-600' },
+        { title: 'Same shape, different job', text: '"Swimming is fun" — gerund (noun-job). "The swimming champion" — participle (adjective-job). The job names the form.', emoji: '🎭', bgColor: 'from-teal-500 to-gold-600' },
     ],
 
     beats: [

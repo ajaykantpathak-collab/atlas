@@ -31,11 +31,11 @@ export function C8_MathematicsTalesByDotsAndLinesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Tales by Dots and Lines: A Week of Weather</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Tales by Dots and Lines: A Week of Weather</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Read the story:</span> bars make each day
+          <span className="font-bold text-gold-700">Read the story:</span> bars make each day
           easy to compare; a line makes the TREND jump out. The dashed green line is the mean - the
           balance point of the whole week. Days above it lend their extra heat; days below borrow
           exactly that much, so the ups and downs cancel to zero.
@@ -43,10 +43,10 @@ export function C8_MathematicsTalesByDotsAndLinesSim() {
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        <button onClick={() => setChart('bar')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${chart === 'bar' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setChart('bar')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${chart === 'bar' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Bar graph
         </button>
-        <button onClick={() => setChart('line')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${chart === 'line' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setChart('line')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${chart === 'line' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Line graph
         </button>
         <button onClick={() => setTemps([24, 26, 29, 27, 25, 31, 33])} className="px-4 py-2 rounded-xl text-sm font-bold bg-slate-100 hover:bg-slate-200 transition-all">
@@ -55,7 +55,7 @@ export function C8_MathematicsTalesByDotsAndLinesSim() {
       </div>
 
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 300 180" className="w-full">
             <line x1={25} y1={H - 20} x2={290} y2={H - 20} stroke="#94a3b8" />
             {[15, 20, 25, 30, 35, 40].map((t) => (
@@ -106,14 +106,14 @@ export function C8_MathematicsTalesByDotsAndLinesSim() {
               <button onClick={() => setTemps((t) => t.map((v, j) => (j === i ? Math.max(15, v - 1) : v)))} className="w-7 h-7 rounded-md bg-slate-200 hover:bg-slate-300 text-sm font-bold transition-all">-</button>
               <span className="w-10 text-center font-mono text-sm">{temps[i]}</span>
               <button onClick={() => setTemps((t) => t.map((v, j) => (j === i ? Math.min(40, v + 1) : v)))} className="w-7 h-7 rounded-md bg-emerald-100 text-emerald-700 hover:bg-emerald-200 text-sm font-bold transition-all">+</button>
-              <span className={`ml-auto font-mono text-xs ${deviations[i] >= 0 ? 'text-rose-600' : 'text-sky-600'}`}>
+              <span className={`ml-auto font-mono text-xs ${deviations[i] >= 0 ? 'text-rose-600' : 'text-gold-600'}`}>
                 {deviations[i] >= 0 ? '+' : ''}{deviations[i]}
               </span>
             </div>
           ))}
           <div className="mt-3 p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div>mean = sum / 7 = {temps.reduce((s, t) => s + t, 0)} / 7 = <span className="text-indigo-700 font-bold">{Math.round(mean * 100) / 100}</span></div>
-            <div>range = {max} - {min} = <span className="text-indigo-700 font-bold">{range}</span></div>
+            <div>mean = sum / 7 = {temps.reduce((s, t) => s + t, 0)} / 7 = <span className="text-gold-700 font-bold">{Math.round(mean * 100) / 100}</span></div>
+            <div>range = {max} - {min} = <span className="text-gold-700 font-bold">{range}</span></div>
             <div className="text-emerald-700">sum of deviations = <span className="font-bold">{devSum}</span> (the balancing act!)</div>
           </div>
           <div className="mt-2 text-xs text-slate-600 font-semibold">

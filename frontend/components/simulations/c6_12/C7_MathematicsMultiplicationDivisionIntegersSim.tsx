@@ -1064,7 +1064,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
       return {
         title: 'Great work!',
         desc: 'Strong mathematical thinking! You navigated complex rational signs and multi-step BODMAS problems with impressive competence.',
-        color: 'text-cyan-400',
+        color: 'text-gold-400',
         badge: '✓ High Proficiency',
       };
     } else if (errCount >= 4 && errCount <= 7) {
@@ -1100,13 +1100,13 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-600 to-blue-500 flex items-center justify-center text-2xl shadow-lg shadow-cyan-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-500 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
             aria-label="Simulation Category Icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 7 ICSE Mathematics</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 ICSE Mathematics</span>
             <h1 className="text-lg md:text-xl font-black text-white">{title}</h1>
           </div>
         </div>
@@ -1123,14 +1123,14 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-cyan-950/60 text-cyan-400 border-cyan-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             <span>{difficulty === 'foundation' ? '✓' : difficulty === 'advanced' ? '★' : '◆'}</span>
             {difficulty} Tier
           </motion.span>
           <div className="bg-slate-900 px-3 py-1 rounded-full border border-slate-800 text-xs text-slate-300" aria-label={`Current mastery: ${masteryLevel}`}>
-            Mastery: <span className="text-cyan-400 font-bold capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1138,7 +1138,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
       {/* ─── CANVAS TELEMETRY MONITOR ─── */}
       <div className="relative w-full h-10 mt-3 rounded-xl overflow-hidden bg-slate-900 border border-slate-800/80">
         <canvas ref={canvasRef} width={800} height={40} className="w-full h-full opacity-60" aria-hidden="true" />
-        <div className="absolute inset-0 flex items-center justify-between px-4 text-[10px] font-mono text-cyan-400 tracking-widest">
+        <div className="absolute inset-0 flex items-center justify-between px-4 text-[10px] font-mono text-gold-400 tracking-widest">
           <span>✓ TELEMETRY: ACTIVE</span>
           <span>NODES: 10/10 LOADED</span>
           <span>PHASE: {phase.toUpperCase()}</span>
@@ -1148,8 +1148,8 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 rounded-2xl bg-gradient-to-r from-blue-950/40 via-cyan-950/20 to-slate-900 border border-cyan-800/40">
-            <h2 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+          <div className="p-5 rounded-2xl bg-gradient-to-r from-gold-950/40 via-gold-950/20 to-slate-900 border border-gold-800/40">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>❄️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1174,7 +1174,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900 border-slate-800 text-slate-400 opacity-50'
-                      : 'bg-slate-800/90 border-slate-700 hover:bg-slate-800 text-slate-200 hover:border-cyan-500'
+                      : 'bg-slate-800/90 border-slate-700 hover:bg-slate-800 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-center gap-2 font-medium">
@@ -1188,7 +1188,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-slate-950 border border-cyan-800/60">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-slate-950 border border-gold-800/60">
                 <p className={`text-sm flex items-center gap-2 ${discoveryCorrect ? 'text-emerald-300' : 'text-amber-300'}`}>
                   <span>{discoveryCorrect ? '✓' : '💡'}</span>
                   {discoveryCorrect ? 'Correct intuition! Removing debts results in positive net worth.' : DISCOVERY_QUESTION.hintAfter}
@@ -1199,7 +1199,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Interactive Labs"
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl font-bold shadow-lg shadow-cyan-500/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl font-bold shadow-lg shadow-gold-500/30 flex items-center gap-2"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1214,7 +1214,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-4">
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800">
-            <span className="text-xs font-bold text-cyan-400">
+            <span className="text-xs font-bold text-gold-400">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5" aria-hidden="true">
@@ -1222,7 +1222,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'w-6 bg-cyan-400' : 'w-2 bg-slate-700'
+                    i === currentSlide ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1238,7 +1238,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
               <div>
-                <h3 className="text-lg font-black text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-300 text-sm mt-1 flex items-center gap-2">
                   <span>🔍</span> {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1248,8 +1248,8 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               {currentSlide === 0 && (
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                   {!predictionMade ? (
-                    <div className="p-3 bg-blue-950/40 rounded-xl border border-blue-800/40">
-                      <p className="text-xs font-semibold text-cyan-300">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
+                      <p className="text-xs font-semibold text-gold-300">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1287,7 +1287,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                           setFactorA(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-cyan-400 cursor-pointer"
+                        className="w-full mt-2 accent-gold-400 cursor-pointer"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1305,7 +1305,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                           setFactorB(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-cyan-400 cursor-pointer"
+                        className="w-full mt-2 accent-gold-400 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1359,7 +1359,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
 
                   <div className="p-3 bg-slate-900 rounded-xl flex items-center justify-between text-xs border border-slate-800">
                     <span className="text-slate-400 font-mono">Sign Logic:</span>
-                    <span className="font-bold text-cyan-300">
+                    <span className="font-bold text-gold-300">
                       {factorA < 0 && factorB < 0 && '(-) × (-) = (+) [Same signs → Positive product]'}
                       {factorA > 0 && factorB > 0 && '(+) × (+) = (+) [Same signs → Positive product]'}
                       {((factorA < 0 && factorB > 0) || (factorA > 0 && factorB < 0)) && '(+) × (-) = (-) [Opposite signs → Negative product]'}
@@ -1396,7 +1396,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-300 font-mono">
                         <span>Numerator p (Integer):</span>
-                        <span className="text-cyan-400 font-bold">{rationalP}</span>
+                        <span className="text-gold-400 font-bold">{rationalP}</span>
                       </div>
                       <input
                         type="range"
@@ -1408,7 +1408,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                           setRationalP(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-cyan-400 cursor-pointer"
+                        className="w-full mt-2 accent-gold-400 cursor-pointer"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1475,7 +1475,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
 
                   <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300 font-mono flex items-center justify-between">
                     <span>Classification:</span>
-                    <span className="font-bold text-cyan-300">
+                    <span className="font-bold text-gold-300">
                       {rationalP === 0 ? 'Zero Rational (0/q = 0)' : (rationalP > 0 ? 'Positive Rational (+)' : 'Negative Rational (-)')}
                     </span>
                   </div>
@@ -1488,11 +1488,11 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-[11px] text-slate-400">Op 1 Num: {fracOpNum1}</label>
-                      <input type="range" min={1} max={3} value={fracOpNum1} aria-label="Fraction 1 Numerator" onChange={e => setFracOpNum1(Number(e.target.value))} className="w-full accent-cyan-400" />
+                      <input type="range" min={1} max={3} value={fracOpNum1} aria-label="Fraction 1 Numerator" onChange={e => setFracOpNum1(Number(e.target.value))} className="w-full accent-gold-400" />
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-[11px] text-slate-400">Op 1 Den: {fracOpDen1}</label>
-                      <input type="range" min={2} max={4} value={fracOpDen1} aria-label="Fraction 1 Denominator" onChange={e => setFracOpDen1(Number(e.target.value))} className="w-full accent-cyan-400" />
+                      <input type="range" min={2} max={4} value={fracOpDen1} aria-label="Fraction 1 Denominator" onChange={e => setFracOpDen1(Number(e.target.value))} className="w-full accent-gold-400" />
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-[11px] text-slate-400">Op 2 Num: {fracOpNum2}</label>
@@ -1527,7 +1527,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                               isDoubleShaded
                                 ? 'bg-gradient-to-br from-emerald-500/80 to-teal-500/80 text-white font-bold text-xs'
                                 : isRowShaded
-                                ? 'bg-cyan-900/30'
+                                ? 'bg-gold-900/30'
                                 : isColShaded
                                 ? 'bg-purple-900/30'
                                 : 'bg-transparent'
@@ -1541,7 +1541,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
 
                     <div className="space-y-2 text-center md:text-left">
                       <p className="text-xs font-mono text-slate-400">Mathematical Interpretation:</p>
-                      <p className="text-base font-bold text-cyan-300">
+                      <p className="text-base font-bold text-gold-300">
                         {fracOpNum1}/{fracOpDen1} OF {fracOpNum2}/{fracOpDen2} = ({fracOpNum1} × {fracOpNum2}) / ({fracOpDen1} × {fracOpDen2})
                       </p>
                       <p className="text-xl font-extrabold text-emerald-400">
@@ -1561,7 +1561,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   <div className="flex gap-4">
                     <div className="w-1/2 p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400">Numerator a: {recipNum}</label>
-                      <input type="range" min={1} max={9} value={recipNum} aria-label="Numerator a for reciprocal" onChange={e => setRecipNum(Number(e.target.value))} className="w-full accent-cyan-400" />
+                      <input type="range" min={1} max={9} value={recipNum} aria-label="Numerator a for reciprocal" onChange={e => setRecipNum(Number(e.target.value))} className="w-full accent-gold-400" />
                     </div>
                     <div className="w-1/2 p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400">Denominator b: {recipDen}</label>
@@ -1618,7 +1618,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                         aria-label={`Inspect fraction ${frac}`}
                         className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                           selectedFractionDemo === frac
-                            ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/30'
+                            ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/30'
                             : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1630,7 +1630,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between items-center text-sm">
                       <span className="text-slate-400 font-mono">Prime Factorization of Denominator:</span>
-                      <span className="text-cyan-300 font-bold">
+                      <span className="text-gold-300 font-bold">
                         {selectedFractionDemo === '7/20' && '20 = 2² × 5 (Only 2 and 5)'}
                         {selectedFractionDemo === '1/3' && '3 = 3 (Contains prime 3)'}
                         {selectedFractionDemo === '5/11' && '11 = 11 (Contains prime 11)'}
@@ -1675,7 +1675,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       audioManager.play('whoosh');
                     }}
                     aria-label="Next Lab Slide"
-                    className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1699,8 +1699,8 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
       {/* ─── 3. SANDBOX PHASE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-5">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/40">
-            <h3 className="text-base font-black text-indigo-300">Free Mathematical Sandbox</h3>
+          <div className="p-5 bg-gradient-to-r from-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/40">
+            <h3 className="text-base font-black text-gold-300">Free Mathematical Sandbox</h3>
             <p className="text-xs text-slate-300 mt-1">
               Zero pressure, no timers, no grading! Experiment with multiplying signed integers and converting rationals before entering challenges.
             </p>
@@ -1708,11 +1708,11 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
 
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-3">
-              <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Signed Multiplier Lab</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Signed Multiplier Lab</h4>
               <div className="flex gap-3">
                 <div className="w-1/2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <label className="text-[11px] text-slate-400">Int A: {factorA}</label>
-                  <input type="range" min={-8} max={8} value={factorA} aria-label="Sandbox Factor A" onChange={e => setFactorA(Number(e.target.value))} className="w-full accent-cyan-400" />
+                  <input type="range" min={-8} max={8} value={factorA} aria-label="Sandbox Factor A" onChange={e => setFactorA(Number(e.target.value))} className="w-full accent-gold-400" />
                 </div>
                 <div className="w-1/2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <label className="text-[11px] text-slate-400">Int B: {factorB}</label>
@@ -1732,7 +1732,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               <div className="flex gap-3">
                 <div className="w-1/2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <label className="text-[11px] text-slate-400">p: {rationalP}</label>
-                  <input type="range" min={-9} max={9} value={rationalP} aria-label="Sandbox Numerator p" onChange={e => setRationalP(Number(e.target.value))} className="w-full accent-cyan-400" />
+                  <input type="range" min={-9} max={9} value={rationalP} aria-label="Sandbox Numerator p" onChange={e => setRationalP(Number(e.target.value))} className="w-full accent-gold-400" />
                 </div>
                 <div className="w-1/2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <label className="text-[11px] text-slate-400">q (≠0): {rationalQ}</label>
@@ -1741,7 +1741,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-center border border-slate-800">
                 <span className="text-xs text-slate-400">Decimal Value & Reciprocal:</span>
-                <p className="text-sm font-mono font-bold text-cyan-300">
+                <p className="text-sm font-mono font-bold text-gold-300">
                   {rationalP}/{rationalQ} = {rationalDecimal.toFixed(3)}
                 </p>
                 <p className="text-xs text-purple-400 mt-1">
@@ -1757,7 +1757,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Ready for Mission Challenges"
-              className="px-8 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-2xl font-black text-sm shadow-xl shadow-emerald-500/20 flex items-center gap-2"
+              className="px-8 py-3 bg-gradient-to-r from-emerald-500 to-gold-500 text-white rounded-2xl font-black text-sm shadow-xl shadow-emerald-500/20 flex items-center gap-2"
             >
               Ready for Mission Challenges! 🚀
             </motion.button>
@@ -1773,7 +1773,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               <span className="text-xs font-bold text-slate-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2 py-0.5 rounded text-[10px] font-mono uppercase bg-slate-800 text-cyan-400 border border-slate-700">
+              <span className="px-2 py-0.5 rounded text-[10px] font-mono uppercase bg-slate-800 text-gold-400 border border-slate-700">
                 {challenge.competencyLevel}
               </span>
             </div>
@@ -1785,7 +1785,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
 
           <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden" aria-hidden="true">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-600 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1819,7 +1819,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                     className={`p-3.5 rounded-xl text-left text-xs md:text-sm font-medium transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-900/30'
-                        : 'bg-slate-800/90 border-slate-700 hover:bg-slate-800 text-slate-200 hover:border-cyan-500'
+                        : 'bg-slate-800/90 border-slate-700 hover:bg-slate-800 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-center gap-2.5">
@@ -1847,7 +1847,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       🏷️ {item.label}
                     </motion.div>
@@ -1864,7 +1864,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       className="p-3 bg-slate-900 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[70px] flex flex-col justify-center items-center"
                     >
                       <span className="text-[10px] text-slate-500 uppercase font-mono">{zoneId.replace('_', ' ')}</span>
-                      <span className="text-xs font-bold text-cyan-300 mt-1 flex items-center gap-1">
+                      <span className="text-xs font-bold text-gold-300 mt-1 flex items-center gap-1">
                         {droppedLabels[zoneId] ? `✓ ${droppedLabels[zoneId]}` : 'Drop Tag Here'}
                       </span>
                     </div>
@@ -1876,7 +1876,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify Number Line Tags"
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Verify Number Line Tags
                 </motion.button>
@@ -1904,10 +1904,10 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                         handleSortMove(fromIdx, idx);
                       }}
                       whileHover={{ scale: 1.01 }}
-                      className="p-3 bg-slate-800 rounded-xl text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between border border-slate-700 hover:border-cyan-500"
+                      className="p-3 bg-slate-800 rounded-xl text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between border border-slate-700 hover:border-gold-500"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-5 h-5 rounded-full bg-cyan-900 text-cyan-300 flex items-center justify-center text-xs font-bold">
+                        <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center text-xs font-bold">
                           {idx + 1}
                         </span>
                         {item}
@@ -1923,7 +1923,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Verify Step Order"
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Verify Step Order
                 </motion.button>
@@ -1940,7 +1940,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric answer"
                   aria-label={`Numeric input for ${challenge.question}`}
-                  className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                  className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-xs text-slate-400">{challenge.unit}</span>
                 <motion.button
@@ -1949,7 +1949,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || numericInput.trim() === ''}
                   aria-label="Submit numeric answer"
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Submit Value
                 </motion.button>
@@ -1968,7 +1968,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add token ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 rounded-lg text-white text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-700 rounded-lg text-white text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -1981,7 +1981,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900 border border-indigo-600 rounded-lg text-xs font-mono text-indigo-200 flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900 border border-gold-600 rounded-lg text-xs font-mono text-gold-200 flex items-center gap-1.5"
                     >
                       {p}
                       <button
@@ -2004,7 +2004,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Equation Proof"
-                  className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Verify Equation Proof
                 </motion.button>
@@ -2016,9 +2016,9 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 rounded-xl bg-slate-950 border border-cyan-800/60 space-y-3"
+                className="mt-5 p-4 rounded-xl bg-slate-950 border border-gold-800/60 space-y-3"
               >
-                <div className="flex items-center gap-2 text-cyan-300 text-xs font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 text-xs font-bold uppercase tracking-wider">
                   <span>✓</span> Detailed Pedagogical Breakdown:
                 </div>
 
@@ -2033,7 +2033,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 font-sans leading-relaxed"
                     >
-                      <span className="font-bold text-cyan-400">Step {sIdx + 1}:</span> {sentence}
+                      <span className="font-bold text-gold-400">Step {sIdx + 1}:</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2045,7 +2045,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
                     aria-label="Show Next Step in Explanation"
-                    className="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-lg text-xs font-bold"
+                    className="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-bold"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2059,7 +2059,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextChallenge}
                       aria-label="Proceed to Next Challenge or Finish"
-                      className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl text-xs font-black shadow-lg shadow-cyan-500/30"
+                      className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl text-xs font-black shadow-lg shadow-gold-500/30"
                     >
                       {currentChallenge + 1 >= filteredChallenges.length ? 'Finalize Mission Score →' : 'Next Challenge →'}
                     </motion.button>
@@ -2074,12 +2074,12 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 rounded-3xl bg-gradient-to-tr from-cyan-950/60 to-slate-900 border border-cyan-500/40 text-center space-y-3">
+          <div className="p-6 rounded-3xl bg-gradient-to-tr from-gold-950/60 to-slate-900 border border-gold-500/40 text-center space-y-3">
             <span className="text-4xl">���️</span>
             <h2 className="text-2xl font-black text-white">Antarctic Telemetry Audit Complete!</h2>
             <p className="text-sm text-slate-300">
               Final Accuracy Score:{' '}
-              <span className="text-cyan-300 font-bold font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span>
+              <span className="text-gold-300 font-bold font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span>
             </p>
             <p className="text-xs text-slate-400">
               Mastery Tier Achieved:{' '}
@@ -2141,14 +2141,14 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
           </motion.div>
 
           {/* ── REFLECTION SECTION ── */}
-          <div className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/40 rounded-2xl border border-indigo-800/40 space-y-4">
-            <h3 className="text-sm font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/40 space-y-4">
+            <h3 className="text-sm font-bold uppercase tracking-wider text-gold-300 flex items-center gap-2">
               <span>💭</span> Expedition Mathematical Reflection
             </h3>
 
             <div className="space-y-3">
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                <label className="text-xs font-bold text-cyan-300 block mb-1">
+                <label className="text-xs font-bold text-gold-300 block mb-1">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2156,12 +2156,12 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. Why multiplying two negative integers always yields a positive value..."
                   aria-label="Reflection Question: What was the most surprising thing you learned?"
-                  className="w-full text-xs p-2.5 bg-slate-900 rounded-lg text-slate-200 border border-slate-700 focus:outline-none focus:border-cyan-500 resize-none h-16"
+                  className="w-full text-xs p-2.5 bg-slate-900 rounded-lg text-slate-200 border border-slate-700 focus:outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
 
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                <label className="text-xs font-bold text-cyan-300 block mb-1">
+                <label className="text-xs font-bold text-gold-300 block mb-1">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2169,12 +2169,12 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Dividing by a fraction is like multiplying by its upside-down reciprocal..."
                   aria-label="Reflection Question: How would you explain this to a friend?"
-                  className="w-full text-xs p-2.5 bg-slate-900 rounded-lg text-slate-200 border border-slate-700 focus:outline-none focus:border-cyan-500 resize-none h-16"
+                  className="w-full text-xs p-2.5 bg-slate-900 rounded-lg text-slate-200 border border-slate-700 focus:outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
 
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                <label className="text-xs font-bold text-cyan-300 block mb-1">
+                <label className="text-xs font-bold text-gold-300 block mb-1">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2182,7 +2182,7 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. Tracking sub-zero temperature changes, diving depths, or fuel budgeting..."
                   aria-label="Reflection Question: Where in real life might you use this?"
-                  className="w-full text-xs p-2.5 bg-slate-900 rounded-lg text-slate-200 border border-slate-700 focus:outline-none focus:border-cyan-500 resize-none h-16"
+                  className="w-full text-xs p-2.5 bg-slate-900 rounded-lg text-slate-200 border border-slate-700 focus:outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
             </div>
@@ -2211,12 +2211,12 @@ export function C7_MathematicsMultiplicationDivisionIntegersSim(props: Props = D
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-cyan-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

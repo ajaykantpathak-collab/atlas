@@ -89,7 +89,7 @@ export function C11_HistoryChangingCulturalTraditionsSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Books printed / yr</p>
-              <p className="font-mono font-bold text-sky-300">{booksPerYear}</p>
+              <p className="font-mono font-bold text-gold-300">{booksPerYear}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Literacy (est.)</p>
@@ -116,10 +116,10 @@ export function C11_HistoryChangingCulturalTraditionsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Printing press spread (1450+)</span><span className="font-mono font-bold text-sky-400">{press}</span>
+                <span>Printing press spread (1450+)</span><span className="font-mono font-bold text-gold-400">{press}</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={press} aria-label="printing press"
-                onChange={(e) => setPress(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setPress(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <button onClick={() => { setVp({ x: 230, y: 120 }); setPerspective(70); setPatron(50); setPress(30); }}
               className="min-h-11 w-full rounded-xl text-xs font-bold bg-slate-700 hover:bg-slate-600">Reset</button>

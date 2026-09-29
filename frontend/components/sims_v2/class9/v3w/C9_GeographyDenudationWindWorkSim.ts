@@ -11,7 +11,7 @@ export const w_c9_geographydenudationwindworksim: SimDef = {
     classLevel: 9, subject: 'geography', topic: 'Earthquakes: Causes, Measurement and Effects',
     chapters: [],
     nodeIds: ['c9_geo_ch1_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you feel a sudden shaking while sitting in your classroom in Delhi — the fan swings, windows rattle,.', goal: 'Master Earthquakes: Causes, Measurement and Effects.' },
     discovery: {
         question: 'Explain why the Richter scale is logarithmic and what it means when an earthquake of magnitude 6 releases approximately 32 times more energy than a magnitude 5.',
@@ -20,7 +20,7 @@ export const w_c9_geographydenudationwindworksim: SimDef = {
         hook: 'Students believe that the magnitude of an earthquake (Richter number) directly determines the damage everywhere — e.g.,.',
     },
     teaching: [
-        { title: 'An earthquake is a sudden release of.', text: 'An earthquake is a sudden release of accumulated strain energy in the Earth\'s crust that generates seismic waves, causing ground shaking; it originates at a point called the focus (hypocenter) inside.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An earthquake is a sudden release of.', text: 'An earthquake is a sudden release of accumulated strain energy in the Earth\'s crust that generates seismic waves, causing ground shaking; it originates at a point called the focus (hypocenter) inside.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch1_6', title: 'An earthquake is a sudden release of.',

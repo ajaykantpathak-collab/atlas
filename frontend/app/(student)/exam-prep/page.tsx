@@ -8,7 +8,7 @@
  * content.
  */
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft, CheckCircle2, ChevronRight, ClipboardList, Clock,
@@ -18,10 +18,11 @@ import { getAuthToken } from '@/lib/api';
 
 // Relative fetches (no baked absolute base): same-origin on :80 nginx and
 // on the :3001 Next server — immune to the NEXT_PUBLIC_API_URL CORS gap.
-async function apiGet<T>(path: string): Promise<T> {
+async function apiGet<T>(path: string, init?: RequestInit): Promise<T> {
   const token = getAuthToken();
   const res = await fetch(path, {
-    headers: token ? { Authorization: `Bearer ${token}` } : {},
+    ...init,
+    headers: { ...(init?.headers ?? {}), ...(token ? { Authorization: `Bearer ${token}` } : {}) },
   });
   if (!res.ok) throw new Error(`API error ${res.status}`);
   return res.json();
@@ -131,6 +132,12 @@ export default function ExamPrepPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [starting, setStarting] = useState(false);
+  // P5 gap 3: /api/preboard/papers could hang far past any reasonable wait,
+  // leaving this surface silently blank (spinner forever, no papers, no
+  // message). The list fetch now hard-times-out at 10s and the page says so
+  // honestly, with a manual retry.
+  const [papersTimedOut, setPapersTimedOut] = useState(false);
+  const papersAbortRef = useRef<AbortController | null>(null);
 
   const [session, setSession] = useState<PaperSession | null>(null);
   const [answers, setAnswers] = useState<Record<string, string>>({});
@@ -139,12 +146,34 @@ export default function ExamPrepPage() {
   const [submitting, setSubmitting] = useState(false);
   const [report, setReport] = useState<PaperReport | null>(null);
 
+  const PAPERS_TIMEOUT_MS = 10_000;
+
   const loadPapers = useCallback((cls: number) => {
+    // Cancel any in-flight list request before starting a new one.
+    papersAbortRef.current?.abort();
+    const ctrl = new AbortController();
+    papersAbortRef.current = ctrl;
+    const timer = setTimeout(() => ctrl.abort(), PAPERS_TIMEOUT_MS);
     setLoading(true);
-    api.get<{ papers: PaperMeta[] }>(`/api/preboard/papers?class_level=${cls}`)
-      .then((d) => setPapers(d.papers ?? []))
-      .catch(() => setPapers([]))
-      .finally(() => setLoading(false));
+    setPapersTimedOut(false);
+    api.get<{ papers: PaperMeta[] }>(`/api/preboard/papers?class_level=${cls}`, {
+      signal: ctrl.signal,
+    })
+      .then((d) => {
+        if (papersAbortRef.current !== ctrl) return; // superseded by a newer load
+        setPapers(d.papers ?? []);
+      })
+      .catch((e: unknown) => {
+        if (papersAbortRef.current !== ctrl) return;
+        if (e instanceof DOMException && e.name === 'AbortError') {
+          setPapersTimedOut(true);
+        }
+        setPapers([]);
+      })
+      .finally(() => {
+        clearTimeout(timer);
+        if (papersAbortRef.current === ctrl) setLoading(false);
+      });
   }, []);
 
   useEffect(() => { if (phase === 'select') loadPapers(classLevel); }, [phase, classLevel, loadPapers]);
@@ -290,6 +319,24 @@ export default function ExamPrepPage() {
               </div>
             )}
 
+            {/* P5 gap 3: the honest "taking long" state. When the paper bank
+                does not answer within 10s the surface says so and offers a
+                manual retry — never a silently blank page. */}
+            {papersTimedOut && !loading && (
+              <div className="rounded-xl border border-amber-400/30 bg-amber-500/5 px-4 py-4 text-center space-y-3" role="status">
+                <p className="text-amber-200 text-sm">
+                  The paper bank is taking unusually long to answer (over 10 seconds).
+                  It may still be assembling papers on the server.
+                </p>
+                <button
+                  onClick={() => loadPapers(classLevel)}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-brand-500 text-white text-sm font-medium"
+                >
+                  <RefreshCw className="w-4 h-4" aria-hidden="true" /> Try again
+                </button>
+              </div>
+            )}
+
             <div className="grid sm:grid-cols-2 gap-4">
               {papers.map((p) => (
                 <div key={p.subject} className="rounded-2xl border border-white/10 bg-white/5 p-5">
@@ -321,11 +368,29 @@ export default function ExamPrepPage() {
                 </div>
               ))}
             </div>
-            {!loading && papers.length === 0 && (
+            {!loading && papers.length === 0 && !papersTimedOut && (
               <p className="text-white/50 text-sm py-6 text-center">
                 No pre-board papers available for this class yet.
               </p>
             )}
+
+            {/* P5 gap 2 wiring: /paper-lab (custom paper generator over the
+                same board_questions bank) had no inbound link anywhere. */}
+            <Link
+              href="/paper-lab"
+              data-testid="paper-lab-link"
+              className="flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 transition-colors hover:border-gold-500/40"
+            >
+              <span>
+                <span className="block font-display text-sm font-bold text-white">
+                  Paper Lab — build your own paper
+                </span>
+                <span className="block text-xs text-white/50 mt-0.5">
+                  Pick class, subject, chapters and marks — a board-pattern paper with an answer key.
+                </span>
+              </span>
+              <span className="shrink-0 text-xs font-semibold text-gold-300">Open →</span>
+            </Link>
 
             {error && (
               <p className="text-rose-300 text-sm bg-rose-500/10 border border-rose-400/30 rounded-lg p-3">{error}</p>

@@ -1395,7 +1395,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
       <header className="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4 shadow-xl">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2.5 py-1 text-xs font-bold rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
+            <span className="px-2.5 py-1 text-xs font-bold rounded-full bg-gold-500/20 text-gold-400 border border-gold-500/30">
               ISC Class 12 Biotechnology
             </span>
             <span className="text-xs text-slate-400">Nodes: 45 Modules (c12_bt_cbse_025 - 069)</span>
@@ -1416,7 +1416,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
               }}
               className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 capitalize ${
                 activeTab === tab
-                  ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800/50'
               }`}
             >
@@ -1438,15 +1438,15 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* Scenario Banner */}
-            <div className="bg-gradient-to-r from-slate-900 via-cyan-950 to-slate-900 p-6 rounded-2xl border border-cyan-800/40 shadow-2xl">
-              <h2 className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 p-6 rounded-2xl border border-gold-800/40 shadow-2xl">
+              <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
                 <span>🔬</span> {SCENARIO.title}
               </h2>
               <p className="mt-2 text-slate-300 leading-relaxed text-sm md:text-base">
                 {SCENARIO.intro}
               </p>
               <div className="mt-4 p-4 bg-slate-900/80 rounded-xl border border-slate-700/60 text-xs md:text-sm text-slate-300">
-                <strong className="text-cyan-400">Your Objective: </strong> {SCENARIO.context}
+                <strong className="text-gold-400">Your Objective: </strong> {SCENARIO.context}
               </div>
             </div>
 
@@ -1479,7 +1479,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                           : discoverySelected === idx
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : 'bg-slate-950/50 border-slate-800 text-slate-500'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500 hover:bg-slate-800/60'
+                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500 hover:bg-slate-800/60'
                     }`}
                   >
                     <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span> {opt}
@@ -1488,7 +1488,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
               </div>
 
               {discoveryAnswered && (
-                <div className="mt-4 p-4 rounded-xl bg-cyan-950/40 border border-cyan-800/50 text-xs md:text-sm text-cyan-200 animate-fadeIn">
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/40 border border-gold-800/50 text-xs md:text-sm text-gold-200 animate-fadeIn">
                   <strong>Lab Insight: </strong> {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1496,7 +1496,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
 
             {/* Prediction Questions */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <span>🔮</span> Pre-Lab Prediction Hypotheses
               </h3>
 
@@ -1563,7 +1563,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                     }}
                     className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all border ${
                       selectedExplorationIndex === idx
-                        ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg shadow-cyan-600/30'
+                        ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                     }`}
                   >
@@ -1572,7 +1572,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                 ))}
               </div>
               <div className="mt-3 p-3 bg-slate-950 rounded-lg text-xs text-slate-300 border border-slate-800">
-                <strong className="text-cyan-400">Guided Instruction: </strong>
+                <strong className="text-gold-400">Guided Instruction: </strong>
                 {EXPLORATION_STEPS[selectedExplorationIndex].instruction}
               </div>
             </div>
@@ -1581,7 +1581,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
               {/* Left Column: Interactive Incubator & Media Controls (5 Cols) */}
               <div className="lg:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-5">
-                <h3 className="text-base font-bold text-cyan-400 flex items-center justify-between">
+                <h3 className="text-base font-bold text-gold-400 flex items-center justify-between">
                   <span>🎛️ Incubator &amp; Culture Controls</span>
                   <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400">
                     Hours Elapsed: {cellState.timeElapsedHours}h
@@ -1602,7 +1602,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                         onClick={() => handleCellTypeChange(cl.id as CellLineState['type'])}
                         className={`p-2 rounded-lg text-xs font-semibold border transition-all ${
                           cellState.type === cl.id
-                            ? 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                            ? 'bg-gold-950 border-gold-500 text-gold-300'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1645,7 +1645,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                   <select
                     value={cellState.mediaType}
                     onChange={(e) => handleMediaChange(e.target.value as CellLineState['mediaType'])}
-                    className="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-slate-200 font-semibold focus:border-cyan-500 outline-none"
+                    className="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-slate-200 font-semibold focus:border-gold-500 outline-none"
                   >
                     <option value="DMEM_high_glucose">DMEM High Glucose (Complex Basal)</option>
                     <option value="RPMI_1640">RPMI-1640 (Lymphoid / Suspension)</option>
@@ -1658,7 +1658,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Temperature Target</span>
-                      <span className="font-bold text-cyan-400">{cellState.temperature}°C</span>
+                      <span className="font-bold text-gold-400">{cellState.temperature}°C</span>
                     </div>
                     <input
                       type="range"
@@ -1666,14 +1666,14 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       max="42"
                       value={cellState.temperature}
                       onChange={(e) => setCellState((p) => ({ ...p, temperature: parseFloat(e.target.value) }))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Incubator CO₂ Level</span>
-                      <span className="font-bold text-cyan-400">{cellState.co2Percent.toFixed(1)}%</span>
+                      <span className="font-bold text-gold-400">{cellState.co2Percent.toFixed(1)}%</span>
                     </div>
                     <input
                       type="range"
@@ -1682,14 +1682,14 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       step="0.1"
                       value={cellState.co2Percent}
                       onChange={(e) => setCellState((p) => ({ ...p, co2Percent: parseFloat(e.target.value) }))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Fetal Bovine Serum (FBS)</span>
-                      <span className="font-bold text-cyan-400">{cellState.serumPercent}%</span>
+                      <span className="font-bold text-gold-400">{cellState.serumPercent}%</span>
                     </div>
                     <input
                       type="range"
@@ -1697,14 +1697,14 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       max="20"
                       value={cellState.serumPercent}
                       onChange={(e) => setCellState((p) => ({ ...p, serumPercent: parseInt(e.target.value) }))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>HEPES Chemical Buffer</span>
-                      <span className="font-bold text-cyan-400">{cellState.hepesmM} mM</span>
+                      <span className="font-bold text-gold-400">{cellState.hepesmM} mM</span>
                     </div>
                     <input
                       type="range"
@@ -1713,7 +1713,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       step="5"
                       value={cellState.hepesmM}
                       onChange={(e) => setCellState((p) => ({ ...p, hepesmM: parseInt(e.target.value) }))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-1.5 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1742,7 +1742,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       <button
                         onClick={() => setActiveAssay('none')}
                         className={`px-2.5 py-1 rounded text-xs font-semibold ${
-                          activeAssay === 'none' ? 'bg-cyan-600 text-white' : 'bg-slate-950 text-slate-400'
+                          activeAssay === 'none' ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400'
                         }`}
                       >
                         Brightfield
@@ -1750,7 +1750,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       <button
                         onClick={() => setActiveAssay('trypan_blue')}
                         className={`px-2.5 py-1 rounded text-xs font-semibold ${
-                          activeAssay === 'trypan_blue' ? 'bg-blue-600 text-white' : 'bg-slate-950 text-slate-400'
+                          activeAssay === 'trypan_blue' ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400'
                         }`}
                       >
                         Trypan Blue
@@ -1778,7 +1778,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                     </div>
                     <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800">
                       <span className="text-slate-400 block">Confluence</span>
-                      <span className="font-bold text-sm text-cyan-400">{cellState.confluence.toFixed(1)}%</span>
+                      <span className="font-bold text-sm text-gold-400">{cellState.confluence.toFixed(1)}%</span>
                     </div>
                     <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800">
                       <span className="text-slate-400 block">Cell Viability</span>
@@ -1797,7 +1797,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
 
             {/* Observation Questions in Lab */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-base font-bold text-cyan-400 flex items-center gap-2">
+              <h3 className="text-base font-bold text-gold-400 flex items-center gap-2">
                 <span>👁️</span> Post-Lab Observation Assessments
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1844,7 +1844,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-white mt-0.5">
-                  Node: <span className="text-cyan-400 font-mono">{currentChallenge.nodeId}</span>
+                  Node: <span className="text-gold-400 font-mono">{currentChallenge.nodeId}</span>
                 </h3>
               </div>
               <div className="flex items-center gap-3">
@@ -1857,7 +1857,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                 }`}>
                   {currentChallenge.difficulty} ({currentChallenge.competencyLevel})
                 </span>
-                <span className="text-sm font-extrabold text-cyan-400 bg-slate-950 px-3 py-1 rounded-lg border border-slate-800">
+                <span className="text-sm font-extrabold text-gold-400 bg-slate-950 px-3 py-1 rounded-lg border border-slate-800">
                   Score: {score}
                 </span>
               </div>
@@ -1876,9 +1876,9 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                     <button
                       key={idx}
                       onClick={() => handleAnswerSubmit(idx)}
-                      className="w-full p-4 rounded-xl text-left text-sm font-semibold bg-slate-950 border border-slate-800 text-slate-300 hover:border-cyan-500 hover:bg-slate-800/80 transition-all flex items-center gap-3"
+                      className="w-full p-4 rounded-xl text-left text-sm font-semibold bg-slate-950 border border-slate-800 text-slate-300 hover:border-gold-500 hover:bg-slate-800/80 transition-all flex items-center gap-3"
                     >
-                      <span className="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-cyan-400 shrink-0">
+                      <span className="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-gold-400 shrink-0">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{option}</span>
@@ -1898,7 +1898,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                         className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl flex justify-between items-center text-xs md:text-sm font-medium"
                       >
                         <span className="flex items-center gap-3">
-                          <span className="text-cyan-400 font-bold">{idx + 1}.</span> {item}
+                          <span className="text-gold-400 font-bold">{idx + 1}.</span> {item}
                         </span>
                         <div className="flex gap-1">
                           <button
@@ -1935,7 +1935,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                   </div>
                   <button
                     onClick={() => handleAnswerSubmit(dragSortedItems)}
-                    className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 rounded-xl text-sm transition-all"
+                    className="w-full bg-gold-600 hover:bg-gold-500 text-white font-bold py-3 rounded-xl text-sm transition-all"
                   >
                     Submit Ordered Sequence
                   </button>
@@ -1952,11 +1952,11 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                       placeholder="Enter calculated numerical value..."
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
-                      className="flex-1 bg-slate-950 border border-slate-800 rounded-xl p-3 text-sm text-white focus:border-cyan-500 outline-none"
+                      className="flex-1 bg-slate-950 border border-slate-800 rounded-xl p-3 text-sm text-white focus:border-gold-500 outline-none"
                     />
                     <button
                       onClick={() => handleAnswerSubmit(numericInput)}
-                      className="bg-cyan-600 hover:bg-cyan-500 text-white font-bold px-6 rounded-xl text-sm transition-all"
+                      className="bg-gold-600 hover:bg-gold-500 text-white font-bold px-6 rounded-xl text-sm transition-all"
                     >
                       Verify Answer
                     </button>
@@ -1970,13 +1970,13 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {currentChallenge.matchingPairs.map((pair, pIdx) => (
                       <div key={pIdx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                        <span className="text-xs font-bold text-cyan-400 block">{pair.left}</span>
+                        <span className="text-xs font-bold text-gold-400 block">{pair.left}</span>
                         <select
                           value={matchingSelections[pair.left] || ''}
                           onChange={(e) =>
                             setMatchingSelections((prev) => ({ ...prev, [pair.left]: e.target.value }))
                           }
-                          className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-slate-200 outline-none focus:border-cyan-500"
+                          className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-slate-200 outline-none focus:border-gold-500"
                         >
                           <option value="">-- Select Matching Application --</option>
                           {currentChallenge.matchingPairs?.map((mOpt, mIdx) => (
@@ -1990,7 +1990,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
                   </div>
                   <button
                     onClick={() => handleAnswerSubmit(matchingSelections)}
-                    className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 rounded-xl text-sm transition-all"
+                    className="w-full bg-gold-600 hover:bg-gold-500 text-white font-bold py-3 rounded-xl text-sm transition-all"
                   >
                     Confirm Matching Pairs
                   </button>
@@ -2010,7 +2010,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
               <button
                 onClick={nextChallenge}
                 disabled={currentChallengeIndex === CHALLENGES.length - 1}
-                className="px-5 py-2.5 rounded-xl text-xs font-bold bg-cyan-600 text-white disabled:opacity-40 hover:bg-cyan-500 transition-all"
+                className="px-5 py-2.5 rounded-xl text-xs font-bold bg-gold-600 text-white disabled:opacity-40 hover:bg-gold-500 transition-all"
               >
                 Next Challenge →
               </button>
@@ -2052,7 +2052,7 @@ export default function C12_BiotechAnimalCellCultureCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map((m, idx) => (
                   <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                    <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">{m.title}</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">{m.title}</h4>
                     <p className="text-xs text-rose-300 line-through">❌ Myth: {m.fallacy}</p>
                     <p className="text-xs text-emerald-300 font-semibold">✓ Truth: {m.truth}</p>
                     <p className="text-xs text-slate-400 leading-normal">{m.correctionDetail}</p>

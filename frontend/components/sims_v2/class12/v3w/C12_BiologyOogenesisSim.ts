@@ -11,7 +11,7 @@ export const w_c12_biologyoogenesissim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Female Reproductive System: Ovaries and Uterus',
     chapters: [],
     nodeIds: ['c12_bio_cbse_03_002', 'c12_bio_cbse_03_003', 'c12_bio_cbse_03_004', 'c12_bio_cbse_01_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin by observing a diagram of the female reproductive system in the NCERT textbook (Figure 3.2).', goal: 'Master Female Reproductive System: Ovaries and Uterus.' },
     discovery: {
         question: 'A histology slide shows a seminiferous tubule cross-section with large cells having prominent nucleoli near the basement membrane, smaller cells with condensed.',
@@ -20,7 +20,7 @@ export const w_c12_biologyoogenesissim: SimDef = {
         hook: 'Students often think "spermatogenesis = meiosis only" and forget the mitotic stem-cell amplification phase.',
     },
     teaching: [
-        { title: 'The female reproductive system comprises the.', text: 'The female reproductive system comprises the ovaries (paired gonads that produce ova and secrete steroid hormones) and the uterus (a muscular hollow organ where implantation occurs and the fetus.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The female reproductive system comprises the.', text: 'The female reproductive system comprises the ovaries (paired gonads that produce ova and secrete steroid hormones) and the uterus (a muscular hollow organ where implantation occurs and the fetus.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_03_002', title: 'The female reproductive system.',

@@ -52,7 +52,7 @@ function AssetLiabilityMismatchSVG({ termLoan }: { termLoan: number }) {
     <div className="w-full bg-slate-950 p-4 rounded-xl border border-slate-800">
       <div className="text-xs font-bold text-slate-400 mb-2 flex items-center justify-between">
         <span>STRUCTURE DIAGRAM 1: ASSET-LIABILITY MATURITY MATCHING</span>
-        <span className="text-indigo-400">FI vs Commercial Bank</span>
+        <span className="text-gold-400">FI vs Commercial Bank</span>
       </div>
       <svg viewBox="0 0 600 180" className="w-full h-auto" aria-label="Asset-Liability Mismatch Diagram">
         {/* Commercial Bank Side */}
@@ -98,7 +98,7 @@ function CashCreditDrawingPowerSVG({ stockVal, margin, dp }: { stockVal: number;
     <div className="w-full bg-slate-950 p-4 rounded-xl border border-slate-800">
       <div className="text-xs font-bold text-slate-400 mb-2 flex items-center justify-between">
         <span>STRUCTURE DIAGRAM 2: HYPOTHECATED STOCK & DRAWING POWER</span>
-        <span className="text-sky-400">SBI Cash Credit Mechanism</span>
+        <span className="text-gold-400">SBI Cash Credit Mechanism</span>
       </div>
       <svg viewBox="0 0 600 160" className="w-full h-auto" aria-label="Cash Credit Drawing Power Diagram">
         {/* Total Stock Bar */}
@@ -1297,10 +1297,10 @@ function C12_BusinessStudiesLoansFromFinancialSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+              <span className="text-xs uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-gold-500/10 text-gold-400 border border-gold-500/20">
                 ISC Class 12 Commerce & Business Studies
               </span>
               <motion.span 
@@ -1309,7 +1309,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                 animate={{ scale: 1 }} 
                 className={`text-xs font-bold px-2.5 py-0.5 rounded-full border ${
                   difficulty === 'foundation' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30' :
-                  difficulty === 'standard' ? 'bg-sky-500/10 text-sky-400 border-sky-500/30' :
+                  difficulty === 'standard' ? 'bg-gold-500/10 text-gold-400 border-gold-500/30' :
                   'bg-purple-500/10 text-purple-400 border-purple-500/30'
                 }`}
               >
@@ -1327,7 +1327,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
               key={p}
               className={`px-3 py-1 rounded-xl text-xs font-bold transition-all ${
                 phase === p 
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30' 
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' 
                   : 'text-slate-400 opacity-60'
               }`}
             >
@@ -1340,13 +1340,13 @@ function C12_BusinessStudiesLoansFromFinancialSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/40 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/40 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️</span> Narrative Scenario Case
             </div>
             <h3 className="text-xl font-bold text-white">{SCENARIO.title}</h3>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 p-3 bg-indigo-950/60 rounded-xl border border-indigo-800/30">
+            <p className="text-xs text-gold-300/80 mt-2 p-3 bg-gold-950/60 rounded-xl border border-gold-800/30">
               💡 <strong>Executive Mission:</strong> {SCENARIO.context}
             </p>
           </div>
@@ -1376,7 +1376,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/70 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1397,7 +1397,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2"
+                  className="w-full py-3.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1412,7 +1412,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Interactive Discovery Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Interactive Discovery Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
               <h2 className="text-xl font-bold text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <div className="flex items-center gap-2">
@@ -1429,7 +1429,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
-                className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-xs font-bold rounded-lg text-white shadow"
+                className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-xs font-bold rounded-lg text-white shadow"
               >
                 {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Lab →' : 'Enter Free Sandbox →'}
               </motion.button>
@@ -1453,7 +1453,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">FI Term Loan Sanction (SIDBI/IFCI)</span>
-                        <span className="text-indigo-400 font-bold">₹{termLoanAmount} Crore</span>
+                        <span className="text-gold-400 font-bold">₹{termLoanAmount} Crore</span>
                       </div>
                       <input
                         type="range"
@@ -1462,7 +1462,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         step={10}
                         value={termLoanAmount}
                         onChange={(e) => setTermLoanAmount(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="FI Term Loan Amount"
                       />
                     </div>
@@ -1470,7 +1470,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">Agreed Interest Rate</span>
-                        <span className="text-indigo-400 font-bold">{termLoanRate}% p.a.</span>
+                        <span className="text-gold-400 font-bold">{termLoanRate}% p.a.</span>
                       </div>
                       <input
                         type="range"
@@ -1479,7 +1479,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         step={0.5}
                         value={termLoanRate}
                         onChange={(e) => setTermLoanRate(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Interest Rate"
                       />
                     </div>
@@ -1487,7 +1487,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">Repayment Tenure</span>
-                        <span className="text-indigo-400 font-bold">{termLoanTenure} Years</span>
+                        <span className="text-gold-400 font-bold">{termLoanTenure} Years</span>
                       </div>
                       <input
                         type="range"
@@ -1495,7 +1495,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         max={15}
                         value={termLoanTenure}
                         onChange={(e) => setTermLoanTenure(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Tenure"
                       />
                     </div>
@@ -1543,8 +1543,8 @@ function C12_BusinessStudiesLoansFromFinancialSim({
 
                 {/* Predict-then-check block */}
                 {!predictionMade ? (
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40 space-y-3">
-                    <span className="text-xs font-bold text-indigo-400 uppercase">Step Challenge: Predict Before Testing</span>
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40 space-y-3">
+                    <span className="text-xs font-bold text-gold-400 uppercase">Step Challenge: Predict Before Testing</span>
                     <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1578,7 +1578,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">Hypothecated Stock Value</span>
-                        <span className="text-sky-400 font-bold">₹{stockValue} Crore</span>
+                        <span className="text-gold-400 font-bold">₹{stockValue} Crore</span>
                       </div>
                       <input
                         type="range"
@@ -1587,7 +1587,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         step={5}
                         value={stockValue}
                         onChange={(e) => setStockValue(Number(e.target.value))}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Stock Value"
                       />
                     </div>
@@ -1595,7 +1595,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">Bank Margin Requirement</span>
-                        <span className="text-sky-400 font-bold">{bankMargin}%</span>
+                        <span className="text-gold-400 font-bold">{bankMargin}%</span>
                       </div>
                       <input
                         type="range"
@@ -1604,7 +1604,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         step={5}
                         value={bankMargin}
                         onChange={(e) => setBankMargin(Number(e.target.value))}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Bank Margin"
                       />
                     </div>
@@ -1612,7 +1612,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">Actual Utilised/Drawn Amount</span>
-                        <span className="text-sky-400 font-bold">₹{utilisedCC} Crore</span>
+                        <span className="text-gold-400 font-bold">₹{utilisedCC} Crore</span>
                       </div>
                       <input
                         type="range"
@@ -1621,7 +1621,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         step={5}
                         value={utilisedCC}
                         onChange={(e) => setUtilisedCC(Number(e.target.value))}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Utilised Amount"
                       />
                     </div>
@@ -1657,7 +1657,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                 {/* Observation Question */}
                 {!observationAnswered ? (
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <span className="text-xs font-bold text-sky-400 uppercase">Observation Check: What do you notice?</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Observation Check: What do you notice?</span>
                     <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1692,7 +1692,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => { setFinancingType('bill-discounting'); audioManager.play('tap'); }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                        financingType === 'bill-discounting' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        financingType === 'bill-discounting' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Bill Discounting (Bank)
@@ -1702,7 +1702,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => { setFinancingType('factoring'); audioManager.play('tap'); }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                        financingType === 'factoring' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        financingType === 'factoring' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Factoring (SBI Factors/NBFC)
@@ -1732,7 +1732,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <span className="text-xs text-slate-400">Ledger Administration:</span>
-                    <h4 className="text-sm font-bold text-indigo-300">
+                    <h4 className="text-sm font-bold text-gold-300">
                       {financingType === 'factoring' ? 'Outsourced to Factor' : 'Retained by Titan EV Internal Staff'}
                     </h4>
                     <p className="text-[11px] text-slate-500">
@@ -1754,7 +1754,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
                     <div className="flex justify-between items-center border-b border-slate-800 pb-2">
-                      <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Secondary Market Order Terminal</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Secondary Market Order Terminal</span>
                       <span className="text-xs text-emerald-400 font-mono">NSE T+1 LIVE</span>
                     </div>
 
@@ -1834,7 +1834,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                             onClick={() => { setProductQualityTier(tier); audioManager.play('tap'); }}
                             className={`py-2 rounded-lg text-xs font-bold border transition-all ${
                               productQualityTier === tier
-                                ? 'bg-indigo-600 border-indigo-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-950 border-slate-800 text-slate-400'
                             }`}
                           >
@@ -1853,7 +1853,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                             onClick={() => { setPricingStrategy(strat); audioManager.play('tap'); }}
                             className={`py-2 rounded-lg text-xs font-bold border transition-all ${
                               pricingStrategy === strat
-                                ? 'bg-sky-600 border-sky-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-950 border-slate-800 text-slate-400'
                             }`}
                           >
@@ -1866,7 +1866,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-400">Brand Promotion Spend</span>
-                        <span className="text-indigo-400 font-bold">₹{adSpendCrore} Crore</span>
+                        <span className="text-gold-400 font-bold">₹{adSpendCrore} Crore</span>
                       </div>
                       <input
                         type="range"
@@ -1874,7 +1874,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         max={30}
                         value={adSpendCrore}
                         onChange={(e) => setAdSpendCrore(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Ad Spend"
                       />
                     </div>
@@ -1885,18 +1885,18 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     <div>
                       <div className="flex justify-between items-center mb-2">
                         <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Marketing Competitiveness Index</span>
-                        <span className="text-sm font-black text-indigo-400">{marketingIndex}/100</span>
+                        <span className="text-sm font-black text-gold-400">{marketingIndex}/100</span>
                       </div>
                       <div className="h-4 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+                          className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                           animate={{ width: `${marketingIndex}%` }}
                         />
                       </div>
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1 text-xs">
-                      <p className="text-indigo-300 font-bold">4Ps Alignment Analysis:</p>
+                      <p className="text-gold-300 font-bold">4Ps Alignment Analysis:</p>
                       <p className="text-slate-300">
                         {pricingStrategy === 'Skimming' && productQualityTier !== 'Luxury'
                           ? '⚠️ Skimming without luxury positioning risks high buyer resistance!'
@@ -1917,7 +1917,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
       {/* ─── PHASE 3: SANDBOX FREE PLAY ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40 flex flex-wrap items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40 flex flex-wrap items-center justify-between gap-4">
             <div>
               <h3 className="text-lg font-bold text-white">🎮 Free Exploration Sandbox</h3>
               <p className="text-xs text-slate-300 mt-1">
@@ -1936,7 +1936,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase">Term Debt & Covenants Engine</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Term Debt & Covenants Engine</span>
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-400">Term Loan Sanction</span>
@@ -1949,7 +1949,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   step={10}
                   value={termLoanAmount}
                   onChange={(e) => setTermLoanAmount(Number(e.target.value))}
-                  className="w-full accent-indigo-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1">
@@ -1965,7 +1965,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
             </div>
 
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-sky-400 uppercase">Cash Credit Drawing Power Engine</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Cash Credit Drawing Power Engine</span>
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-400">Stock Hypothecated</span>
@@ -1978,13 +1978,13 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   step={5}
                   value={stockValue}
                   onChange={(e) => setStockValue(Number(e.target.value))}
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1">
                 <div className="flex justify-between">
                   <span className="text-slate-400">Bank Margin:</span>
-                  <span className="font-bold text-sky-400">{bankMargin}%</span>
+                  <span className="font-bold text-gold-400">{bankMargin}%</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Drawing Power:</span>
@@ -2006,13 +2006,13 @@ function C12_BusinessStudiesLoansFromFinancialSim({
               <span className="text-slate-400 uppercase tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 uppercase">
+              <span className="text-gold-400 uppercase">
                 Competency: {activeChallenge.competencyLevel.toUpperCase()}
               </span>
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-sky-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2050,7 +2050,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                         : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2068,7 +2068,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2089,7 +2089,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center space-y-1"
                     >
                       <span className="text-[11px] text-slate-400 block">{target.title}</span>
-                      <div className="text-sm font-bold text-indigo-300">
+                      <div className="text-sm font-bold text-gold-300">
                         {droppedLabels[target.id] || '📥 Drop Component Here'}
                       </div>
                     </div>
@@ -2102,7 +2102,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 font-bold rounded-xl text-white text-sm"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 font-bold rounded-xl text-white text-sm"
                 >
                   Verify Dragged Labels
                 </motion.button>
@@ -2130,7 +2130,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs sm:text-sm text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="font-mono text-indigo-400 font-bold">{displayIdx + 1}.</span>
+                      <span className="font-mono text-gold-400 font-bold">{displayIdx + 1}.</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2141,7 +2141,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : [0, 1, 2, 3, 4])}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 font-bold rounded-xl text-white text-sm"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 font-bold rounded-xl text-white text-sm"
                 >
                   Confirm Chronological Order
                 </motion.button>
@@ -2167,7 +2167,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 font-bold rounded-xl text-white text-sm shadow"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 font-bold rounded-xl text-white text-sm shadow"
                   >
                     Check
                   </motion.button>
@@ -2185,7 +2185,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2194,7 +2194,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[90px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-3 py-1 bg-slate-800 rounded-lg text-xs font-bold text-indigo-300 flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-slate-800 rounded-lg text-xs font-bold text-gold-300 flex items-center gap-2">
                       {p}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-400">✕</button>
                     </span>
@@ -2208,7 +2208,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 font-bold rounded-xl text-white text-sm"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 font-bold rounded-xl text-white text-sm"
                 >
                   Validate Decision Architecture
                 </motion.button>
@@ -2277,14 +2277,14 @@ function C12_BusinessStudiesLoansFromFinancialSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">BKT Mastery Status</span>
-                <span className="text-xl font-black text-sky-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
 
           {/* MOTIVATIONAL FEEDBACK SECTION */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700/50 text-center space-y-2">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Executive Assessment Feedback</span>
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700/50 text-center space-y-2">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Executive Assessment Feedback</span>
             <h3 className="text-xl font-extrabold text-white">{motivationalMessage}</h3>
             <p className="text-xs sm:text-sm text-slate-300">
               {errors === 0
@@ -2313,7 +2313,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g. Learning why secondary market trades do not provide funds to the company..."
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2326,7 +2326,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="e.g. Explaining the difference between bank overdraft on current account vs cash credit against stock..."
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2339,7 +2339,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="e.g. Structuring financing for my own startup or analyzing public companies on the stock market..."
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2352,7 +2352,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
                     setReflectionSubmitted(true);
                     audioManager.play('success');
                   }}
-                  className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 font-bold text-xs rounded-xl text-white transition-all shadow"
+                  className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 font-bold text-xs rounded-xl text-white transition-all shadow"
                 >
                   Save Reflection Notes
                 </motion.button>
@@ -2384,7 +2384,7 @@ function C12_BusinessStudiesLoansFromFinancialSim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/40 text-xs text-indigo-300 flex items-center justify-between">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/40 text-xs text-gold-300 flex items-center justify-between">
             <span>📅 <strong>SM-2 Spaced Repetition Due:</strong> Review recommended in <strong>{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to consolidate long-term synaptic retention.</span>
           </div>
 

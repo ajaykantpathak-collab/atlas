@@ -9,7 +9,7 @@ export const c2Riddles: SimDef = {
     id: 'c2_riddles', title: 'Number Riddles', subtitle: 'I am a mystery number — find me!',
     classLevel: 2, subject: 'maths', topic: 'Number Riddles & Logic',
     chapters: ['NIPUN Lakshya 3NE6: solving riddles with numbers and shapes'],
-    emoji: '🧩', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'riddles' },
+    emoji: '🧩', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'riddles' },
     scenario: { role: "a riddle-solver", intro: "The cave of numbers hides answers in clues. Solve each riddle!", goal: "Crack every riddle." },
     discovery: {
         question: "I am bigger than 5 but smaller than 7. Who am I?",
@@ -18,11 +18,11 @@ export const c2Riddles: SimDef = {
         hook: "6 sits right between 5 and 7 — you just solved a riddle!",
     },
     teaching: [
-        { title: 'What is a Riddle? 🧩', text: 'A riddle hides a number in clues! "I am after 7" means the answer is 8. Clues tell you what to look for!', emoji: '🧩', bgColor: 'from-purple-400 to-violet-500' },
+        { title: 'What is a Riddle? 🧩', text: 'A riddle hides a number in clues! "I am after 7" means the answer is 8. Clues tell you what to look for!', emoji: '🧩', bgColor: 'from-purple-400 to-gold-500' },
         { title: 'Even and Odd 🎭', text: 'Even numbers pair up: 2, 4, 6, 8. Odd numbers leave one alone: 3, 5, 7. A clue saying "even" cuts out half the numbers!', emoji: '🎭', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Before, After, Between ↔️', text: '"I come after 9" is 10. "I am between 4 and 6" is 5. Neighbour clues are the easiest!', emoji: '↔️', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Shape Riddles Too! 🔺', text: '"I have 3 sides" — triangle! "I roll and have no corners" — circle! Riddles work for shapes, not just numbers!', emoji: '🔺', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Check Every Clue ✅', text: 'Every clue must be true. If a number fails even one clue, it is out!', emoji: '✅', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Check Every Clue ✅', text: 'Every clue must be true. If a number fails even one clue, it is out!', emoji: '✅', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'numberline', prompt: 'Hop on the number line and test your riddle guesses!' },
     predict: {
@@ -79,9 +79,9 @@ export const c2EngReading: SimDef = {
     },
     teaching: [
         { title: 'Read Every Word 👀', text: 'Do not guess! Read each word slowly: "The dog is brown" — brown is the dog\'s colour!', emoji: '👀', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Who? What? Where? 🔍', text: 'Every sentence answers questions. WHO does it? WHAT happens? WHERE? Find them in the words!', emoji: '🔍', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Who? What? Where? 🔍', text: 'Every sentence answers questions. WHO does it? WHAT happens? WHERE? Find them in the words!', emoji: '🔍', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'One Sentence at a Time ⏸️', text: 'Stop after each sentence. Ask: what did I just learn? Then read the next!', emoji: '⏸️', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Answer from the Text ✅', text: 'The answer is always inside the sentence — point to the words that prove it!', emoji: '✅', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Answer from the Text ✅', text: 'The answer is always inside the sentence — point to the words that prove it!', emoji: '✅', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'fluency', prompt: 'Read it aloud!', labels: ['The cat sat on the mat.', 'She had a red hat.', 'The dog ran fast.'] },
     challenges: [

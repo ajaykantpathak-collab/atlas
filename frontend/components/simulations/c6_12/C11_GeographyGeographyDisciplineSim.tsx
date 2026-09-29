@@ -1143,7 +1143,7 @@ function C11_GeographyGeographyDisciplineSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-sky-950/60 text-sky-400 border-sky-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             {difficulty}
@@ -1408,7 +1408,7 @@ function C11_GeographyGeographyDisciplineSim({
                         <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1.5 text-xs">
                           <div className="flex items-center justify-between">
                             <span className="text-slate-400">P-Wave Speed:</span>
-                            <span className="text-sky-400 font-mono font-bold">8.1 to 13.6 km/s (Passes All)</span>
+                            <span className="text-gold-400 font-mono font-bold">8.1 to 13.6 km/s (Passes All)</span>
                           </div>
                           <div className="flex items-center justify-between">
                             <span className="text-slate-400">S-Wave Speed:</span>
@@ -1669,7 +1669,7 @@ function C11_GeographyGeographyDisciplineSim({
 
                         <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs">
                           <span className="text-slate-400 font-bold">Deformation Regime:</span>
-                          <p className="text-sky-300 font-semibold mt-0.5">
+                          <p className="text-gold-300 font-semibold mt-0.5">
                             {foldCompressStress < 75 ? 'Ductile Plastic Bending (Folding)' : 'Brittle Failure & Thrust Shearing (Faulting)'}
                           </p>
                         </div>
@@ -1713,7 +1713,7 @@ function C11_GeographyGeographyDisciplineSim({
                         </svg>
 
                         <div className="mt-2 text-xs text-center text-slate-300">
-                          Current Environment: <strong className="text-amber-400">{rockTemp}°C</strong> | <strong className="text-sky-400">{rockPressure} kbar</strong> →{' '}
+                          Current Environment: <strong className="text-amber-400">{rockTemp}°C</strong> | <strong className="text-gold-400">{rockPressure} kbar</strong> →{' '}
                           <span className="text-emerald-400 font-bold">
                             {rockTemp > 800 ? 'Magma (Melting phase)' : rockPressure > 5 ? 'Regional Gneiss / Schist' : 'Contact Marble'}
                           </span>
@@ -1744,7 +1744,7 @@ function C11_GeographyGeographyDisciplineSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-400 mb-1">
                             <span>Lithostatic Pressure:</span>
-                            <span className="text-sky-400 font-mono font-bold">{rockPressure} kbar</span>
+                            <span className="text-gold-400 font-mono font-bold">{rockPressure} kbar</span>
                           </div>
                           <input
                             type="range"
@@ -1755,7 +1755,7 @@ function C11_GeographyGeographyDisciplineSim({
                               setRockPressure(Number(e.target.value));
                               audioManager.play('count');
                             }}
-                            className="w-full accent-sky-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                             aria-label="Set lithostatic pressure"
                           />
                         </div>
@@ -1797,7 +1797,7 @@ function C11_GeographyGeographyDisciplineSim({
                         <div className="grid grid-cols-3 gap-2 mt-3 text-center text-xs">
                           <div className="p-2 rounded bg-slate-950 border border-slate-800">
                             <span className="text-slate-400 block font-bold">Youth Stage (0-80 km)</span>
-                            <span className="text-sky-400 text-xs">V-Valleys &amp; Waterfalls</span>
+                            <span className="text-gold-400 text-xs">V-Valleys &amp; Waterfalls</span>
                           </div>
                           <div className="p-2 rounded bg-slate-950 border border-slate-800">
                             <span className="text-slate-400 block font-bold">Mature Stage (80-200 km)</span>
@@ -1834,7 +1834,7 @@ function C11_GeographyGeographyDisciplineSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-400 mb-1">
                             <span>Monsoon Water Discharge:</span>
-                            <span className="text-sky-400 font-mono font-bold">{riverDischarge} m³/s</span>
+                            <span className="text-gold-400 font-mono font-bold">{riverDischarge} m³/s</span>
                           </div>
                           <input
                             type="range"
@@ -1845,7 +1845,7 @@ function C11_GeographyGeographyDisciplineSim({
                               setRiverDischarge(Number(e.target.value));
                               audioManager.play('count');
                             }}
-                            className="w-full accent-sky-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                             aria-label="Set monsoon water discharge"
                           />
                         </div>
@@ -1970,7 +1970,7 @@ function C11_GeographyGeographyDisciplineSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Stream Slope Gradient:</span>
-                    <span className="text-sky-400 font-mono font-bold">{riverGradient}°</span>
+                    <span className="text-gold-400 font-mono font-bold">{riverGradient}°</span>
                   </div>
                   <input
                     type="range"
@@ -1978,13 +1978,13 @@ function C11_GeographyGeographyDisciplineSim({
                     max={25}
                     value={riverGradient}
                     onChange={(e) => setRiverGradient(Number(e.target.value))}
-                    className="w-full accent-sky-500"
+                    className="w-full accent-gold-500"
                     aria-label="Adjust river slope gradient"
                   />
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs">
                   <span className="text-slate-400 block font-bold">Dominant Work of River:</span>
-                  <p className="text-sky-300 mt-0.5">
+                  <p className="text-gold-300 mt-0.5">
                     {riverGradient > 12 ? 'Deep Vertical Downcutting & Canyon Excavation' : 'Lateral Meandering, Levees & Deltaic Aggradation'}
                   </p>
                 </div>
@@ -2111,7 +2111,7 @@ function C11_GeographyGeographyDisciplineSim({
                 {/* Drop Slots */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 bg-slate-800 rounded-xl border border-slate-700 space-y-3">
-                    <span className="text-xs font-bold text-sky-300 block">Physical Geography (Abiotic/Biotic):</span>
+                    <span className="text-xs font-bold text-gold-300 block">Physical Geography (Abiotic/Biotic):</span>
                     <div
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop('slot_phys1')}

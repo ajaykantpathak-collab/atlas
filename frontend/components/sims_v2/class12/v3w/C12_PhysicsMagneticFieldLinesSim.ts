@@ -11,7 +11,7 @@ export const w_c12_physicsmagneticfieldlinessim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Bar Magnet: Properties and Magnetic Field Lines',
     chapters: [],
     nodeIds: ['c12_phy_cbse_05_001', 'c12_phy_cbse_05_003', 'c12_phy_cbse_04_006', 'c12_phy_cbse_02_004', 'c12_phy_cbse_05_002', 'c12_phy_cbse_05_004', 'c12_phy_cbse_05_005', 'c12_phy_cbse_05_006', 'c12_phy_cbse_05_007', 'c12_phy_cbse_08_001', 'c12_phy_cbse_08_002', 'c12_phy_cbse_08_004', 'c12_phy_cbse_08_005', 'c12_phy_cbse_04_001', 'c12_phy_cbse_04_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: take a bar magnet from the school physics lab, place it on a table, and.', goal: 'Master Bar Magnet: Properties and Magnetic Field Lines.' },
     discovery: {
         question: 'Design a simple experiment using only a bar magnet, a small compass needle, a sheet of paper, and a pencil to plot the magnetic field lines of the bar magnet.',
@@ -20,7 +20,7 @@ export const w_c12_physicsmagneticfieldlinessim: SimDef = {
         hook: '**Misconception:** "Magnetic field lines are lines of force — they show the direction of force on a moving charge or a.',
     },
     teaching: [
-        { title: 'A bar magnet is a rectangular piece of.', text: 'A bar magnet is a rectangular piece of ferromagnetic material (such as iron, steel, or alnico) that exhibits permanent magnetic properties with two distinct poles — a north pole and a south pole —.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A bar magnet is a rectangular piece of.', text: 'A bar magnet is a rectangular piece of ferromagnetic material (such as iron, steel, or alnico) that exhibits permanent magnetic properties with two distinct poles — a north pole and a south pole —.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_05_001', title: 'A bar magnet is a rectangular piece of.',

@@ -58,14 +58,14 @@ const TEACHING_SLIDES = [
     title: 'The Five Sense Organs! 👀',
     text: 'You have five wonderful sense organs! Eyes help you see, ears help you hear, nose helps you smell, tongue helps you taste, and skin helps you feel!',
     emoji: '👁️',
-    bgColor: 'from-blue-450 to-indigo-500',
+    bgColor: 'from-gold-450 to-gold-500',
     spoken: 'You have five wonderful sense organs! Eyes help you see, ears help you hear, nose helps you smell, tongue helps you taste, and skin helps you feel!',
   },
   {
     title: 'Special Jobs for Every Part! 🧠',
     text: 'Each body part has its own special job. Never confuse them! Eyes are for seeing, ears are for hearing. Hands hold things, and legs walk!',
     emoji: '🎯',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'Each body part has its own special job. Eyes are for seeing, ears are for hearing. Hands hold things, and legs walk!',
   },
   {
@@ -435,15 +435,15 @@ function ClinicScene({ width, height }: { width: number; height: number }) {
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #E0F2FE 0%, #BAE6FD 50%, #7DD3FC 100%)' }} />
 
       {/* Window showing park */}
-      <div className="absolute top-6 left-12 w-48 h-36 bg-white rounded-2xl border-4 border-blue-200 shadow-inner overflow-hidden flex flex-col">
-        <div className="flex-1 bg-gradient-to-b from-sky-300 to-green-200 relative">
+      <div className="absolute top-6 left-12 w-48 h-36 bg-white rounded-2xl border-4 border-gold-200 shadow-inner overflow-hidden flex flex-col">
+        <div className="flex-1 bg-gradient-to-b from-gold-300 to-green-200 relative">
           {/* Sun */}
           <circle cx="35" cy="25" r="12" fill="#FEF08A" />
           {/* Green tree outside */}
           <circle cx="110" cy="80" r="30" fill="#22C55E" />
           <rect x="106" y="90" width="8" height="40" fill="#78350F" />
         </div>
-        <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 border-4 border-blue-200 pointer-events-none" />
+        <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 border-4 border-gold-200 pointer-events-none" />
       </div>
 
       {/* Body Chart poster on wall */}
@@ -461,7 +461,7 @@ function ClinicScene({ width, height }: { width: number; height: number }) {
 
       {/* Clinic Floor */}
       <div className="absolute bottom-0 left-0 right-0 h-28" style={{ background: 'linear-gradient(180deg, #F1F5F9 0%, #E2E8F0 100%)' }} />
-      <div className="absolute bottom-28 left-0 right-0 h-2 bg-blue-300 opacity-60" />
+      <div className="absolute bottom-28 left-0 right-0 h-2 bg-gold-300 opacity-60" />
     </div>
   );
 }
@@ -528,19 +528,19 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
   };
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-between p-6 bg-gradient-to-b from-blue-50 to-indigo-100 z-30">
+    <div className="absolute inset-0 flex flex-col items-center justify-between p-6 bg-gradient-to-b from-gold-50 to-gold-100 z-30">
       {/* Top Header */}
       <div className="flex items-center justify-between w-full max-w-xl">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🩺</span>
-          <h2 className="text-xl font-black text-indigo-900">Doctor Disha&apos;s Clinic</h2>
+          <h2 className="text-xl font-black text-gold-900">Doctor Disha&apos;s Clinic</h2>
         </div>
         <div className="flex gap-1.5">
           {TEACHING_SLIDES.map((_, i) => (
             <div
               key={i}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                i === currentSlide ? 'bg-indigo-600 w-6' : 'bg-indigo-200'
+                i === currentSlide ? 'bg-gold-600 w-6' : 'bg-gold-200'
               }`}
             />
           ))}
@@ -572,13 +572,13 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
           onClick={handlePrev}
           disabled={currentSlide === 0}
           className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${
-            currentSlide === 0 ? 'bg-gray-300 opacity-50 cursor-not-allowed' : 'bg-indigo-500 hover:bg-indigo-600 active:scale-95'
+            currentSlide === 0 ? 'bg-gray-300 opacity-50 cursor-not-allowed' : 'bg-gold-500 hover:bg-gold-600 active:scale-95'
           }`}
         >
           ⬅️ Back
         </button>
 
-        <span className="text-sm font-bold text-indigo-700">
+        <span className="text-sm font-bold text-gold-700">
           Slide {currentSlide + 1} of {TEACHING_SLIDES.length}
         </span>
 
@@ -797,7 +797,7 @@ export function BodyFunctionsGame({ width = 720, height = 560, onComplete }: Bod
           {/* Top Header Bar */}
           <div className="flex items-center justify-between bg-white/80 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-md">
             <div className="flex items-center gap-3">
-              <span className="text-xl font-black text-indigo-900">
+              <span className="text-xl font-black text-gold-900">
                 Challenge {currentChallengeIndex + 1} / {CHALLENGES.length}
               </span>
               <StarRow count={stars} total={CHALLENGES.length} />
@@ -832,10 +832,10 @@ export function BodyFunctionsGame({ width = 720, height = 560, onComplete }: Bod
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswerSelect(option)}
-                    className="w-full bg-white/95 hover:bg-indigo-50 border-2 border-indigo-200 text-indigo-950 font-bold py-3.5 px-6 rounded-2xl shadow-md transition-all text-left flex items-center justify-between"
+                    className="w-full bg-white/95 hover:bg-gold-50 border-2 border-gold-200 text-gold-950 font-bold py-3.5 px-6 rounded-2xl shadow-md transition-all text-left flex items-center justify-between"
                   >
                     <span>{option}</span>
-                    <span className="text-indigo-400 text-lg">👉</span>
+                    <span className="text-gold-400 text-lg">👉</span>
                   </motion.button>
                 ))}
               </div>
@@ -849,13 +849,13 @@ export function BodyFunctionsGame({ width = 720, height = 560, onComplete }: Bod
                   {challenge.bins.map((bin, index) => (
                     <div
                       key={bin.id}
-                      className="flex flex-col items-center justify-center rounded-2xl border-4 border-dashed border-indigo-300 bg-white/70 backdrop-blur-sm shadow-inner p-3"
+                      className="flex flex-col items-center justify-center rounded-2xl border-4 border-dashed border-gold-300 bg-white/70 backdrop-blur-sm shadow-inner p-3"
                       style={{
                         width: `${Math.floor((width - 60) / challenge.bins!.length)}px`,
                         height: '110px',
                       }}
                     >
-                      <span className="text-xs font-black text-indigo-900 text-center">{bin.label}</span>
+                      <span className="text-xs font-black text-gold-900 text-center">{bin.label}</span>
                     </div>
                   ))}
                 </div>

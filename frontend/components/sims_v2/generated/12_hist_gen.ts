@@ -74,7 +74,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Citadel And Lower Town Represent",
+    "title": "Citadel And Lower Town",
     "text": "The Citadel and Lower Town represent the dual-sector urban layout of Mohenjodaro (c. 2600–1900 BCE), where a smaller, elevated western mound (Citadel) built on massive mud-brick platforms and fortified by a perimeter wall housed monumental public architecture",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -128,8 +128,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Who was the first Director-General of the Archaeological Survey of India (ASI) and what was his primary archaeological interest that caused him to overlook the Harappan Civilisation's antiquity?",
     "answer": "Alexander Cunningham was the first Director-General of the ASI (appointed 1861). His primary interest was the Early Historic period (c",
     "options": [
-     "The Late Harappan phase spans c. 1900–1300 BCE. It is defined by the disappearance of distinctive Mature Harappan artefacts (seals, script, standardised weights",
-     "Main drains were U-shaped or rectangular channels built with bricks set in gypsum/lime mortar",
+     "Can evaluate multiple causal theories (climate, rivers, tectonics, human agency) using archaeological evidence",
+     "The student can explain how the architectural features and spatial placement of granaries/warehouses function as primary evidence for surplus production",
      "Alexander Cunningham was the first Director-General of the ASI (appointed 1861). His primary interest was the Early Historic period (c"
     ],
     "hint": "Straight from the 'discovery of the Harappan' slide -- match the key terms.",
@@ -145,16 +145,47 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "On Map 1 in the NCERT textbook, which of the following sites is NOT located in the Sarasvati (Ghaggar-Hakra) basin: Rakhigarhi, Banawali, Kalibangan, or Mohenjodaro?",
-    "answer": "Mohenjodaro. It lies on the right bank of the Indus River in Sindh, Pakistan, well west of the Sarasvati basin",
-    "options": [
-     "(a) Citadel on highest natural ground (west), Lower Town east — per Mohenjodaro/Dholavira. (b) Streets N-S/E-W, main drains along streets — grid first, houses later",
-     "Horizontal excavation mixes artefacts from different time periods into the same unit, destroying the vertical stratigraphic sequence that reveals cultural evolution",
-     "Mohenjodaro. It lies on the right bank of the Indus River in Sindh, Pakistan, well west of the Sarasvati basin"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "locate and label all five major Mature",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate why the Sarasvati basin hosted",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the strategic relationship between",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Mature Harappan phase' slide -- match the key terms.",
-    "misconception": "A student who selects Kalibangan may be confusing the Ghaggar-Hakra with the Indus tributaries; Kalibangan is on the left bank of the Ghaggar, not the Indus.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) locate and label all five major Mature Harappan cities and at least ten secondary sites on an",
     "id": "gen_c12_hist_ch01_q2",
     "nodeId": "c12_hist_cbse_01_002",
     "difficulty": "advanced",
@@ -222,8 +253,9 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the typical cross-section shape of a main street drain at Mohenjodaro, and what material was used for its removable cover?",
     "answer": "Main drains were U-shaped or rectangular channels built with bricks set in gypsum/lime mortar",
     "options": [
-     "The two sectors are the Citadel (smaller, higher, western) and the Lower Town (larger, lower, eastern)",
-     "Bricks set on edge and gypsum mortar",
+     "Alexander Cunningham was the first Director-General of the ASI (appointed 1861). His primary interest was the Early Historic period (c",
+     "The student can explain how the interpretation of Harappan artefacts changed from Cunningham's confusion to Marshall's announcement and Wheeler's methodological reform",
+     "Main drains were Daya Ram Sahni or rectangular channels built with bricks set in gypsum/lime mortar",
      "Main drains were U-shaped or rectangular channels built with bricks set in gypsum/lime mortar"
     ],
     "hint": "Straight from the 'Harappan drainage system' slide -- match the key terms.",
@@ -243,11 +275,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What are the two main sectors of Mohenjodaro's settlement layout, and which is higher and smaller?",
     "answer": "The two sectors are the Citadel (smaller, higher, western) and the Lower Town (larger, lower, eastern)",
     "options": [
-     "Nageshwar and Balakot, both located near the coast in Gujarat (Nageshwar) and Pakistan (Balakot) respectively",
+     "The student can (1) identify and explain the four pillars of Harappan urban planning — bipartite division, grid streets, standardized bricks, and fortifications",
      "The warehouse was excavated at Mohenjodaro on the Citadel; Ernest Mackay described it in *Further Excavations at Mohenjodaro* (1937)",
      "The two sectors are the Citadel (smaller, higher, western) and the Lower Town (larger, lower, eastern)"
     ],
-    "hint": "Straight from the 'Citadel and Lower Town represent' slide -- match the key terms.",
+    "hint": "Straight from the 'Citadel and Lower Town' slide -- match the key terms.",
     "misconception": "A wrong answer — e.g., reversing their relative size or elevation — reveals the student has not visualized the site plan (Fig. 1.7) and confuses the Citadel's platform-based elevation with natural topography.",
     "id": "gen_c12_hist_ch01_q5",
     "nodeId": "c12_hist_cbse_01_005",
@@ -260,17 +292,47 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What are the two specific materials used to make the Great Bath watertight, as reported in the NCERT text?",
-    "answer": "Bricks set on edge and gypsum mortar",
-    "options": [
-     "Nageshwar and Balakot, both located near the coast in Gujarat (Nageshwar) and Pakistan (Balakot) respectively",
-     "The two sectors are the Citadel (smaller, higher, western) and the Lower Town (larger, lower, eastern)",
-     "Mature set on edge and gypsum mortar",
-     "Bricks set on edge and gypsum mortar"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe the Great Bath's architectural",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how its spatial context",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate the strengths and limitations",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Great Bath of Mohenjodaro' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"bitumen\" or \"lime mortar\") reveals the student is conflating the Great Bath with Mesopotamian waterproofing (bitumen) or later Indian construction (lime), missing the specific Harappan technique explicitly stated in the textbook.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) describe the Great Bath's architectural components and waterproofing techniques using precise",
     "id": "gen_c12_hist_ch01_q6",
     "nodeId": "c12_hist_cbse_01_006",
     "difficulty": "advanced",
@@ -338,8 +400,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name two Harappan settlements that were specialized centres for shell working and state their geographical location.",
     "answer": "Nageshwar and Balakot, both located near the coast in Gujarat (Nageshwar) and Pakistan (Balakot) respectively",
     "options": [
-     "The two sectors are the Citadel (smaller, higher, western) and the Lower Town (larger, lower, eastern)",
-     "Harappan seals were primarily made of steatite (a soft soapstone), and the script comprises 375–400 distinct signs",
+     "The student can explain how the interpretation of Harappan artefacts changed from Cunningham's confusion to Marshall's announcement and Wheeler's methodological reform",
+     "Student can compare Harappan burial evidence (Cemetery R37) with contemporary Egyptian/Mesopotamian practices to evaluate the degree of social stratification",
      "Nageshwar and Balakot, both located near the coast in Gujarat (Nageshwar) and Pakistan (Balakot) respectively"
     ],
     "hint": "Straight from the 'Harappan craft production' slide -- match the key terms.",
@@ -359,8 +421,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the primary material used for making Harappan seals, and what is the approximate range of distinct signs in the Harappan script?",
     "answer": "Harappan seals were primarily made of steatite (a soft soapstone), and the script comprises 375–400 distinct signs",
     "options": [
-     "The ratio is 4:2:1 (length:breadth:height). This ratio has been confirmed at *all* major Harappan sites",
-     "Alexander Cunningham was the first Director-General of the ASI (appointed 1861). His primary interest was the Early Historic period (c",
+     "The Late Harappan phase spans c. 1900–1300 BCE. It is defined by the disappearance of distinctive Mature Harappan artefacts (seals, script, standardised weights",
+     "2600–1900 BCE) are small, square/rectangular artefacts made primarily of steatite, engraved with a short line of undeciphered script (375–400 distinct signs",
      "Harappan seals were primarily made of steatite (a soft soapstone), and the script comprises 375–400 distinct signs"
     ],
     "hint": "Straight from the 'Harappan seals' slide -- match the key terms.",
@@ -443,11 +505,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the specific name and location of the Harappan cemetery where the largest number of Mature Harappan burials have been excavated, and what is the predominant burial posture found there?",
     "answer": "Cemetery R37 at Harappa (Punjab, Pakistan); predominant posture is extended inhumation — body laid supine (on back), fully extended",
     "options": [
-     "The ratio is 4:2:1 (length:breadth:height). This ratio has been confirmed at *all* major Harappan sites",
-     "Harappan seals were primarily made of steatite (a soft soapstone), and the script comprises 375–400 distinct signs",
+     "The student can explain how the interpretation of Harappan artefacts changed from Cunningham's confusion to Marshall's announcement and Wheeler's methodological reform",
+     "Student can compare Harappan burial evidence (Cemetery R37) with contemporary Egyptian/Mesopotamian practices to evaluate the degree of social stratification",
      "Cemetery R37 at Harappa (Punjab, Pakistan); predominant posture is extended inhumation — body laid supine (on back), fully extended"
     ],
-    "hint": "Straight from the 'Harappan burial practices refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Harappan burial practices' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Mohenjodaro\" or \"fractional burial\") reveals confusion between Mature Harappan cemeteries and Late Harappan Cemetery H practices, or between Harappan sites — a common error because textbooks often discuss Mohenjodaro's architecture more than Harappa's cemeteries.",
     "id": "gen_c12_hist_ch01_q11",
     "nodeId": "c12_hist_cbse_01_011",
@@ -527,6 +589,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain how the interpretation of Harappan artefacts changed from Cunningham's confusion to Marshall's announcement and Wheeler's methodological reform",
+    "options": [
+     "The student can compare the architectural form, spatial organization, and inferred functions of the Citadel and Lower Town using archaeological evidence",
+     "The student can (1) locate and label all five major Mature Harappan cities and at least ten secondary sites on an outline map of the subcontinent",
+     "The student can explain how the interpretation of Harappan artefacts changed from Cunningham's confusion to Marshall's announcement and Wheeler's methodological reform"
+    ],
+    "hint": "Straight from the 'discovery of the Harappan' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain how the interpretation of Harappan artefacts changed from Cunningham's confusion to Marshall's",
+    "id": "gen_c12_hist_ch01_q16",
+    "nodeId": "c12_hist_cbse_01_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why did John Marshall's 1924 announcement of a \"new civilisation in the Indus valley\" change the chronological framework of Indian history?",
     "answer": "Marshall's announcement was based on the discovery of similar seals at Harappa (by Daya Ram Sahni) and Mohenjodaro (by Rakhal Das Banerji) in stratigraphic layers older than Early",
     "options": [
@@ -536,7 +613,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'discovery of the Harappan' slide -- match the key terms.",
     "misconception": "A wrong answer that focuses only on the seal discoveries without the Mesopotamian correlation shows incomplete understanding of how cross-cultural dating works.",
-    "id": "gen_c12_hist_ch01_q16",
+    "id": "gen_c12_hist_ch01_q17",
     "nodeId": "c12_hist_cbse_01_001",
     "difficulty": "advanced"
    },
@@ -551,21 +628,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mature Harappan phase' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (c) Shortughai. It is located in northern Afghanistan near the Badakhshan lapis lazuli mines — the *only* known source",
-    "id": "gen_c12_hist_ch01_q17",
-    "nodeId": "c12_hist_cbse_01_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the site distribution in the Sarasvati basin (Map 1) with the Early Harappan cultures shown on Map 2 (Amri-Nal, Kot Diji, Damb Sadaat, Siswal). What does the spatial overlap suggest about the transition from Early to Mature Harappan?",
-    "answer": "The Mature Harappan sites densely occupy the same geographical corridor (Ghaggar-Hakra plains) where Early Harappan cultures (Siswal, Kot Diji) were already established",
-    "options": [
-     "Climate change better explains regional variation: the Ghaggar-Hakra basin (Cholistan) was most vulnerable to monsoon decline and river capture, leading to early abandonment (c",
-     "Harappan: nearly every house at Mohenjodaro had a private bathroom + direct drain connection. Mesopotamian: drains served temples/palaces",
-     "The Mature Harappan sites densely occupy the same geographical corridor (Ghaggar-Hakra plains) where Early Harappan cultures (Siswal, Kot Diji) were already established"
-    ],
-    "hint": "Straight from the 'Mature Harappan phase' slide -- match the key terms.",
-    "misconception": "A student who sees a \"break\" or \"invasion\" is ignoring the continuity in settlement location, subsistence base (wheat/barley), and material culture (pottery traditions) documented in the NCERT.",
     "id": "gen_c12_hist_ch01_q18",
     "nodeId": "c12_hist_cbse_01_002",
     "difficulty": "advanced"
@@ -642,7 +704,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Arthashastra",
+    "title": "The Arthashastra: Kautilya's Treatise",
     "text": "The Arthashastra is a Sanskrit treatise on statecraft, economic policy, and military strategy attributed to Kautilya (also known as Chanakya), traditionally identified as the chief minister of Chandragupta Maurya (c.",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -765,9 +827,9 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the three major rulers of the Mauryan Empire in chronological order and give the approximate date of Chandragupta Maurya's accession.",
     "answer": "Chandragupta Maurya (c. 321 BCE), Bindusara, Ashoka (c. 268–231 BCE)",
     "options": [
-     "Pushyamitra Shunga, a Brahmin commander-in-chief (senapati), founded the Shunga dynasty c. 185 BCE by assassinating the last Mauryan ruler Brihadratha during a military parade",
-     "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta)",
-     "Chandragupta Maurya (c. 321 BCE), Arthashastra, Ashoka (c. 268–231 BCE)",
+     "The student can explain how the Arthashastra reflects the theoretical ideals of Mauryan governance",
+     "The two routes are Uttarapatha (Northern Route) and Dakshinapatha (Southern Route). A major city on Uttarapatha is Taxila (or Mathura, Ujjayini)",
+     "Chandragupta Maurya (c. 321 BCE), Rajagaha's, Ashoka (c. 268–231 BCE)",
      "Chandragupta Maurya (c. 321 BCE), Bindusara, Ashoka (c. 268–231 BCE)"
     ],
     "hint": "Straight from the 'Mauryan Empire' slide -- match the key terms.",
@@ -887,16 +949,58 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name any four mahajanapadas from the Buddhist list and their respective capitals.",
-    "answer": "Correct: Magadha (Rajagaha/Pataliputra), Kosala (Shravasti), Vatsa (Kaushambi), Avanti (Ujjayini)",
-    "options": [
-     "The Arthashastra is traditionally attributed to Kautilya (also called Chanakya or Vishnugupta), who is identified as the chief minister (*mantrin*) of Chandragupta Maurya",
-     "Pushyamitra Shunga, a Brahmin commander-in-chief (senapati), founded the Shunga dynasty c. 185 BCE by assassinating the last Mauryan ruler Brihadratha during a military parade",
-     "Correct: Magadha (Rajagaha/Pataliputra), Kosala (Shravasti), Vatsa (Kaushambi), Avanti (Ujjayini)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "contrast early Buddhist/Jaina",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "explain Magadha's rise using both",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between monarchical",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "list the sixteen mahajanapadas and locate",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Sixteen Mahajanapadas were the' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., naming Mauryan provinces like Taxila or Ujjain as mahajanapada capitals) reveals confusion between the pre-Mauryan mahajanapada period and the later Mauryan administrative centres — a common chronological compression error.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) list the sixteen mahajanapadas and locate their capitals on a map, (2) distinguish between",
     "id": "gen_c12_hist_ch02_q5",
     "nodeId": "c12_hist_cbse_02_005",
     "difficulty": "advanced",
@@ -912,8 +1016,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name two gana/sangha polities mentioned in Buddhist texts and give the modern location of their capitals.",
     "answer": "Vajji (Vrijji) confederacy with capital at Vaishali (modern Basarh, Bihar) and the Mallas with twin capitals at Kusinara (modern Kasia, Uttar Pradesh) and Pava (modern Fazilnagar",
     "options": [
-     "Chandragupta Maurya (c. 321 BCE), Bindusara, Ashoka (c. 268–231 BCE)",
-     "The Arthashastra is traditionally attributed to Kautilya (also called Chanakya or Vishnugupta), who is identified as the chief minister (*mantrin*) of Chandragupta Maurya",
+     "The student can explain the step-by-step methodology Prinsep used to decipher Brahmi (working backwards from modern scripts) and Kharoshthi (using bilingual Indo-Greek coins)",
+     "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta)",
      "Vajji (Vrijji) confederacy with capital at Vaishali (modern Basarh, Bihar) and the Mallas with twin capitals at Kusinara (modern Kasia, Uttar Pradesh) and Pava (modern Fazilnagar"
     ],
     "hint": "Straight from the 'Ganas or Sanghas were' slide -- match the key terms.",
@@ -933,8 +1037,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Who founded the Shunga dynasty, and in what year did he seize power from the last Mauryan ruler?",
     "answer": "Pushyamitra Shunga, a Brahmin commander-in-chief (senapati), founded the Shunga dynasty c. 185 BCE by assassinating the last Mauryan ruler Brihadratha during a military parade",
     "options": [
-     "Vajji (Vrijji) confederacy with capital at Vaishali (modern Basarh, Bihar) and the Mallas with twin capitals at Kusinara (modern Kasia, Uttar Pradesh) and Pava (modern Fazilnagar",
-     "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta)",
+     "Chandragupta Maurya (c. 321 BCE), Bindusara, Ashoka (c. 268–231 BCE)",
+     "The two scripts are Kharosthi (used for Prakrit) and Greek/Aramaic (used for Greek and Aramaic languages respectively)",
      "Pushyamitra Shunga, a Brahmin commander-in-chief (senapati), founded the Shunga dynasty c. 185 BCE by assassinating the last Mauryan ruler Brihadratha during a military parade"
     ],
     "hint": "Straight from the 'Shungas , Kanvas' slide -- match the key terms.",
@@ -1173,8 +1277,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What are the three main irrigation methods mentioned in the NCERT for early India (c. 600 BCE – 600 CE)?",
     "answer": "The three main irrigation methods are wells, tanks, and canals",
     "options": [
+     "The Second Urbanisation spans c. 6th century BCE to 3rd century CE; its most distinctive archaeological marker is Northern Black Polished Ware (NBPW), a glossy",
      "Chandragupta Maurya (c. 321 BCE), Bindusara, Ashoka (c. 268–231 BCE)",
-     "Punch-marked coins (silver and copper), appearing from the 6th century BCE onwards",
      "The three main irrigation methods are wells, tanks, and canals"
     ],
     "hint": "Straight from the 'Agricultural expansion in early' slide -- match the key terms.",
@@ -1236,6 +1340,52 @@ export const C12_HIST_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate the historiographical debate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "interpret coin finds",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "sequence the major coin series",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) sequence the major coin series chronologically and link each to specific political powers or economic",
+    "id": "gen_c12_hist_ch02_q14",
+    "nodeId": "c12_hist_cbse_02_011",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Compare the decipherment strategies for Brahmi and Kharoshthi. Why did Brahmi require \"working backwards\" while Kharoshthi used bilingual coins?",
     "answer": "Brahmi had no bilingual texts in the 1830s; its descendants (Devanagari, Bengali, etc.) were living scripts",
@@ -1246,7 +1396,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
     "misconception": "A wrong answer conflates the two methods, showing the student doesn't understand that *decipherment strategy depends on what evidence survives* — a core principle in epigraphy.",
-    "id": "gen_c12_hist_ch02_q14",
+    "id": "gen_c12_hist_ch02_q15",
     "nodeId": "c12_hist_cbse_02_001",
     "difficulty": "advanced"
    },
@@ -1257,11 +1407,12 @@ export const C12_HIST_GEN: SimDef[] = [
     "options": [
      "A good timeline would include: Mauryan period – Sudarshana lake built by governor (c. 300 BCE), repaired by Rudradaman (c",
      "(1) Arthashastra (Book 2, 10) — look for parallel descriptions of military organization, especially the roles of the navadhyaksha, rathadhyaksha, hastyadhyaksha, etc",
+     "1. 1784: Asiatic Society founded (institutional base). 2. 1810s: Devanampiya Piyadassi collects 8,000+ inscriptions (raw data corpus)",
      "1. 1784: Asiatic Society founded (institutional base). 2. 1810s: Colin Mackenzie collects 8,000+ inscriptions (raw data corpus)"
     ],
     "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
     "misconception": "A poor answer lists random dates or omits the pandits' role — revealing the student sees history as isolated events, not a research trajectory.",
-    "id": "gen_c12_hist_ch02_q15",
+    "id": "gen_c12_hist_ch02_q16",
     "nodeId": "c12_hist_cbse_02_001",
     "difficulty": "advanced"
    },
@@ -1276,7 +1427,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
     "misconception": "A wrong answer reflects the \"great man\" fallacy — ignoring the collaborative, cumulative nature of historical science.",
-    "id": "gen_c12_hist_ch02_q16",
+    "id": "gen_c12_hist_ch02_q17",
     "nodeId": "c12_hist_cbse_02_001",
     "difficulty": "advanced"
    },
@@ -1291,21 +1442,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he guessed the language first\") misses that *bilingual coins provided the controlled comparison* — the methodological gold standard in decipherment.",
-    "id": "gen_c12_hist_ch02_q17",
-    "nodeId": "c12_hist_cbse_02_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Who was James Prinsep, and what was his official position when he deciphered Brahmi and Kharoshthi?",
-    "answer": "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta)",
-    "options": [
-     "The two scripts are Kharosthi (used for Prakrit) and Greek/Aramaic (used for Greek and Aramaic languages respectively)",
-     "The Arthashastra is traditionally attributed to Kautilya (also called Chanakya or Vishnugupta), who is identified as the chief minister (*mantrin*) of Chandragupta Maurya",
-     "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta)"
-    ],
-    "hint": "Straight from the 'decipherment of Brahmi and' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"he was a historian\" or \"he worked for the Asiatic Society\") reveals the student misses how his *mint job* provided direct access to the coin evidence that cracked Kharoshthi.",
     "id": "gen_c12_hist_ch02_q18",
     "nodeId": "c12_hist_cbse_02_001",
     "difficulty": "advanced"
@@ -1317,7 +1453,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Decipherment Of Brahmi And mastered! 🎯",
+  "successLine": "Decipherment Of Brahmi mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1461,8 +1597,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Who is traditionally credited as the compiler of the Mahabharata in the Sanskrit tradition, and what does the Critical Edition reveal about this attribution?",
     "answer": "The sage Vyasa is traditionally credited as the compiler. The Critical Edition, however, shows the text grew from under 10,000 verses to ~100,000 over ~1,000 years (c",
     "options": [
-     "The Brahmanical Puranas (e.g., Matsya, Vishnu) describe the Mauryas as of low/Shudra origin",
-     "Patriliny means tracing descent and inheritance from father to son, grandson, and so on. The Mahabharata's central story — the Kaurava-Pandava conflict over the Kuru throne",
+     "The two rules are: (1) a woman must give up her father’s gotra and adopt her husband’s gotra upon marriage",
+     "The student can (1) explain the two key gotra rules and their theological basis, (2) compare the Brahmanical prescription of exogamy with the endogamous practice evident in",
      "The sage Vyasa is traditionally credited as the compiler. The Critical Edition, however, shows the text grew from under 10,000 verses to ~100,000 over ~1,000 years (c"
     ],
     "hint": "Straight from the 'Mahabharata's authorship' slide -- match the key terms.",
@@ -1478,16 +1614,58 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What are the two principal gotra rules prescribed in Brahmanical texts from c. 1000 BCE onwards?",
-    "answer": "The two rules are: (1) a woman must give up her father’s gotra and adopt her husband’s gotra upon marriage",
-    "options": [
-     "The three explanations are: (1) Kunti's command to share whatever Arjuna won, which she could not retract",
-     "Correct order: Brahmana (study/teach Vedas, perform sacrifices), Kshatriya (warfare, protection, administration), Vaishya (agriculture, pastoralism, trade)",
-     "The two rules are: (1) a woman must give up her father’s gotra and adopt her husband’s gotra upon marriage"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the two key gotra rules",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "analyze how metronymics in Satavahana",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "compare the Brahmanical prescription",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "evaluate why historians treat",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'This node examines the' slide -- match the key terms.",
-    "misconception": "A wrong answer—such as stating that gotra is inherited only from the mother or that gotra rules apply only to Kshatriyas—reveals confusion about the patrilineal basis of gotra and its universal Brahmanical claim.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain the two key gotra rules and their theological basis, (2) compare the Brahmanical",
     "id": "gen_c12_hist_ch03_q3",
     "nodeId": "c12_hist_cbse_03_003",
     "difficulty": "advanced",
@@ -1733,12 +1911,12 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Which two major textual traditions give directly contradictory accounts of the Maurya dynasty's varna origins, and what does each claim?",
     "answer": "The Brahmanical Puranas (e.g., Matsya, Vishnu) describe the Mauryas as of low/Shudra origin",
     "options": [
-     "The term is cāturvarṇyaṃ (the fourfold varna). The verse states it is created by guṇa (qualities/dispositions) and karma (actions/duties)",
-     "The sage Vyasa is traditionally credited as the compiler. The Critical Edition, however, shows the text grew from under 10,000 verses to ~100,000 over ~1,000 years (c",
-     "In Satavahana (e.g., Matsya, Vishnu) describe the Mauryas as of low/Shudra origin",
+     "The student can explain the three textual justifications for Draupadi's polyandry, distinguish between the practice's possible historical reality and its literary representation",
+     "The student can compare and contrast Brahmanical, Buddhist, and Jain accounts of Nanda and Maurya origins",
+     "Buddha's (e.g., Matsya, Vishnu) describe the Mauryas as of low/Shudra origin",
      "The Brahmanical Puranas (e.g., Matsya, Vishnu) describe the Mauryas as of low/Shudra origin"
     ],
-    "hint": "Straight from the 'Nanda  and' slide -- match the key terms.",
+    "hint": "Straight from the 'Nanda and Maurya dynasties' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing only one tradition or confusing the Nandas with the Mauryas) reveals the student has not grasped that historical narratives are shaped by the sectarian affiliations of their authors — Brahmanas hostile to Maurya patronage of Buddhism/Jainism versus Buddhists celebrating them as",
     "id": "gen_c12_hist_ch03_q8",
     "nodeId": "c12_hist_cbse_03_008",
@@ -1969,6 +2147,52 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze the Draupadi dice-game episode",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how patriliny determined succession",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "define stridhana",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) explain how patriliny determined succession and inheritance in elite families using the",
+    "id": "gen_c12_hist_ch03_q13",
+    "nodeId": "c12_hist_cbse_03_012",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A historian finds that a particular Mahabharata episode appears in 90% of northern manuscripts but only 40% of southern manuscripts, with the southern versions containing a distinct local deity. Using Critical Edition methodology, how should the historian interpret this distribution?",
     "answer": "The episode likely entered the northern tradition earlier or was more strongly preserved there",
@@ -1979,7 +2203,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the northern version is authentic, southern is wrong\") reveals the persistent misconception that the Critical Edition declares one version \"true\" and others \"false,\" whereas it actually maps transmission history.",
-    "id": "gen_c12_hist_ch03_q13",
+    "id": "gen_c12_hist_ch03_q14",
     "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -1994,7 +2218,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. The Critical Edition reconstructs the earliest *recoverable* text (c.",
-    "id": "gen_c12_hist_ch03_q14",
+    "id": "gen_c12_hist_ch03_q15",
     "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -2009,7 +2233,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: \"How did the gotra exogamy rule (Source 3, NCERT p. 58) vary in Mahabharata manuscripts from Kashmir vs.",
-    "id": "gen_c12_hist_ch03_q15",
+    "id": "gen_c12_hist_ch03_q16",
     "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -2024,7 +2248,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Bhandarkar as editor, or dating it to 1947) reveals confusion between the institute's founder (R.G. Bhandarkar) and the project leader, or ignorance of the project's pre-Independence origins — a common error because textbooks often mention \"Bhandarkar\" in the institute's name but not",
-    "id": "gen_c12_hist_ch03_q16",
+    "id": "gen_c12_hist_ch03_q17",
     "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -2039,21 +2263,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"accuracy of the main text\" misses the epistemological shift: the variations ARE the data for social history.",
-    "id": "gen_c12_hist_ch03_q17",
-    "nodeId": "c12_hist_cbse_03_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did the Critical Edition team publish the \"common verses\" as the main text and relegate variations to footnotes/appendices? What does this editorial choice assume about textual transmission?",
-    "answer": "The team assumed that verses appearing in most manuscripts across regions represent the earliest common ancestor (the \"archetype\")",
-    "options": [
-     "The inscriptions show Satavahana rulers using metronymics (e.g., Gotami-puta, Vasithi-puta), indicating mothers’ gotras were publicly acknowledged",
-     "In the Upanishad, metronymics identify teachers/students in a renunciatory, intellectual lineage where maternal ancestry may reflect the mother’s scholarly family",
-     "The team assumed that verses appearing in most manuscripts across regions represent the earliest common ancestor (the \"archetype\")"
-    ],
-    "hint": "Straight from the 'Critical Edition of the' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"they chose the most popular version\" or \"they voted on the best verses\") shows the student misses the rigorous comparative method and treats the edition as subjective selection rather than historical reconstruction.",
     "id": "gen_c12_hist_ch03_q18",
     "nodeId": "c12_hist_cbse_03_001",
     "difficulty": "advanced"
@@ -2065,7 +2274,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Critical Edition Of The mastered! 🎯",
+  "successLine": "Critical Edition mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2077,7 +2286,9 @@ export const C12_HIST_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "history",
   "topic": "Sacrificial Tradition",
-  "chapters": ["History Ch4: Sacrificial Tradition"],
+  "chapters": [
+   "History Ch4: Sacrificial Tradition"
+  ],
   "nodeIds": [
    "c12_hist_cbse_04_001",
    "c12_hist_cbse_04_002",
@@ -2122,7 +2333,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Jainism",
+    "title": "Jainism Is An Ancient Indian Shramana",
     "text": "Jainism is an ancient Indian shramana tradition centered on the teachings of 24 Tirthankaras (ford-makers), with Mahavira (Vardhamana, c. 599–527 BCE or c.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2164,13 +2375,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Stupa",
+    "title": "A Stupa Is a Hemispherical Buddhist",
     "text": "A stupa is a hemispherical Buddhist funerary monument originating as a simple earthen mound (anda) enshrining relics of the Buddha or revered monks; it evolved into a complex sacred structure comprising the anda (cosmic egg), harmika (balcony representing the",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Chaityas",
+    "title": "Chaityas Are Rock-cut Buddhist Prayer Halls",
     "text": "Chaityas are rock-cut Buddhist prayer halls characterized by an apsidal (semi-circular) end housing a stupa, a vaulted roof often with stone ribs imitating timber, and a pillared nave flanked by side aisles for circumambulation.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2192,7 +2403,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Expected timeline (key annotations): - c. 483 BCE: 1st Council (Rajagriha) — oral recitation of Dhamma/Vinaya by 500 arhants",
      "B. The Rigvedic hymns (Source 1 in NCERT) explicitly invoke Agni for \"abundant food,\" \"mighty wealth,\" \"a son,\" and \"offspring that continues our line"
     ],
-    "hint": "Straight from the 'sacrificial tradition  in the' slide -- match the key terms.",
+    "hint": "Straight from the 'sacrificial tradition' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student chooses A, they are projecting later Buddhist/Jaina goals onto the early Vedic period — a classic anachronism.",
     "id": "gen_c12_hist_ch04_q1",
     "nodeId": "c12_hist_cbse_04_001",
@@ -2209,8 +2420,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the literal meaning of *kutagarashala* and what role did it play in 6th century BCE intellectual life?",
     "answer": "*Kutagarashala* literally means \"a hut with a pointed roof\"; it served as a venue where travelling teachers debated philosophy and attracted disciples",
     "options": [
-     "Correct: Third Council at Pataliputra (c. 250 BCE) under Emperor Ashoka; outcome was the expulsion of dissenting monks, finalization of the Pali Tipitaka",
      "The five Mahavratas are: 1) Ahimsa — non-violence in thought, word, and deed toward all living beings; 2) Satya — speaking truth that is also beneficial and non-hurtful",
+     "The 23rd Tirthankara was Parshvanatha, traditionally placed 250 years before Mahavira (c. 8th–7th century BCE)",
      "*Kutagarashala* literally means \"a hut with a pointed roof\"; it served as a venue where travelling teachers debated philosophy and attracted disciples"
     ],
     "hint": "Straight from the 'Shramana Challenge' slide -- match the key terms.",
@@ -2230,11 +2441,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Who was the 23rd Tirthankara immediately preceding Mahavira, and what is the traditional time gap between them according to Jain tradition?",
     "answer": "The 23rd Tirthankara was Parshvanatha, traditionally placed 250 years before Mahavira (c. 8th–7th century BCE)",
     "options": [
-     "The three baskets are Vinaya Pitaka (monastic discipline), Sutta Pitaka (discourses), and Abhidhamma Pitaka (philosophical analysis). The Vinaya Pitaka contains the monastic code",
-     "Correct: Third Council at Pataliputra (c. 250 BCE) under Emperor Ashoka; outcome was the expulsion of dissenting monks, finalization of the Pali Tipitaka",
+     "Student can explain the socio-religious context (urbanization, new kingdoms, critique of ritual) that gave rise to Shramana movements",
+     "The five Mahavratas are: 1) Ahimsa — non-violence in thought, word, and deed toward all living beings; 2) Satya — speaking truth that is also beneficial and non-hurtful",
      "The 23rd Tirthankara was Parshvanatha, traditionally placed 250 years before Mahavira (c. 8th–7th century BCE)"
     ],
-    "hint": "Straight from the 'Jainism' slide -- match the key terms.",
+    "hint": "Straight from the 'Jainism is an ancient Indian' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Rishabhanatha as the immediate predecessor or giving a gap of 1000 years) reveals confusion between the first and the penultimate Tirthankara and ignorance of the Jain chronological framework used in texts like the Kalpa Sutra.",
     "id": "gen_c12_hist_ch04_q3",
     "nodeId": "c12_hist_cbse_04_003",
@@ -2251,8 +2462,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "List the five Mahavratas in the correct Sanskrit terms and give the one-sentence practical meaning of each for a Jain monk.",
     "answer": "The five Mahavratas are: 1) Ahimsa — non-violence in thought, word, and deed toward all living beings; 2) Satya — speaking truth that is also beneficial and non-hurtful",
     "options": [
-     "The three baskets are Vinaya Pitaka (monastic discipline), Sutta Pitaka (discourses), and Abhidhamma Pitaka (philosophical analysis). The Vinaya Pitaka contains the monastic code",
-     "Correct: Third Council at Pataliputra (c. 250 BCE) under Emperor Ashoka; outcome was the expulsion of dissenting monks, finalization of the Pali Tipitaka",
+     "The student can label every architectural component of a stupa on a plan and elevation, explain the symbolic meaning of each element using Buddhist cosmology",
+     "The student can explain the historical context of Mahavira’s life, the concept of the 24 Tirthankaras, and the core Jain doctrines of animism, ahimsa, karma, and renunciation",
      "The five Mahavratas are: 1) Ahimsa — non-violence in thought, word, and deed toward all living beings; 2) Satya — speaking truth that is also beneficial and non-hurtful"
     ],
     "hint": "Straight from the 'Jain philosophy centers on the' slide -- match the key terms.",
@@ -2328,7 +2539,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Anekantavada (via nayavada) allows multiple valid perspectives: from the monk's viewpoint (naya), total renunciation (mahavratas) is the only path",
      "Lumbini is in present-day Nepal, near the Indian border in the Terai region"
     ],
-    "hint": "Straight from the 'life of Siddhartha Gautama (c' slide -- match the key terms.",
+    "hint": "Straight from the 'life of Siddhartha Gautama' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., India, Sri Lanka, or Tibet) reveals the student has not connected the Buddha's life geography to modern political boundaries — a common error in map-based questions in CUET and board exams where students confuse Lumbini with Bodh Gaya (Bihar) or Sarnath (Uttar Pradesh).",
     "id": "gen_c12_hist_ch04_q6",
     "nodeId": "c12_hist_cbse_04_006",
@@ -2398,7 +2609,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "answer": "The three baskets are Vinaya Pitaka (monastic discipline), Sutta Pitaka (discourses), and Abhidhamma Pitaka (philosophical analysis). The Vinaya Pitaka contains the monastic code",
     "options": [
      "Correct: Third Council at Pataliputra (c. 250 BCE) under Emperor Ashoka; outcome was the expulsion of dissenting monks, finalization of the Pali Tipitaka",
-     "*Kutagarashala* literally means \"a hut with a pointed roof\"; it served as a venue where travelling teachers debated philosophy and attracted disciples",
+     "The student can label every architectural component of a stupa on a plan and elevation, explain the symbolic meaning of each element using Buddhist cosmology",
      "The three baskets are Vinaya Pitaka (monastic discipline), Sutta Pitaka (discourses), and Abhidhamma Pitaka (philosophical analysis). The Vinaya Pitaka contains the monastic code"
     ],
     "hint": "Straight from the 'Buddhist Sangha was the monastic' slide -- match the key terms.",
@@ -2418,8 +2629,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the venue and royal patron of the Third Buddhist Council, and state its most significant doctrinal outcome.",
     "answer": "Correct: Third Council at Pataliputra (c. 250 BCE) under Emperor Ashoka; outcome was the expulsion of dissenting monks, finalization of the Pali Tipitaka",
     "options": [
-     "The three baskets are Vinaya Pitaka (monastic discipline), Sutta Pitaka (discourses), and Abhidhamma Pitaka (philosophical analysis). The Vinaya Pitaka contains the monastic code",
-     "*Kutagarashala* literally means \"a hut with a pointed roof\"; it served as a venue where travelling teachers debated philosophy and attracted disciples",
+     "Student can: (1) sequence the four Buddhist councils with their dates, locations, patrons, and outcomes",
+     "The student can explain how the Vedic sacrificial tradition evolved from simple household rituals to complex royal ceremonies",
      "Correct: Third Council at Pataliputra (c. 250 BCE) under Emperor Ashoka; outcome was the expulsion of dissenting monks, finalization of the Pali Tipitaka"
     ],
     "hint": "Straight from the 'Buddhist Councils were a series' slide -- match the key terms.",
@@ -2439,11 +2650,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the literal meaning of the word 'stupa' in Sanskrit, and what was its earliest physical form before stone elaboration?",
     "answer": "'Stupa' means 'a heap'; the earliest form was a simple semi-circular mound of earth called anda",
     "options": [
-     "*Kutagarashala* literally means \"a hut with a pointed roof\"; it served as a venue where travelling teachers debated philosophy and attracted disciples",
-     "The 23rd Tirthankara was Parshvanatha, traditionally placed 250 years before Mahavira (c. 8th–7th century BCE)",
+     "Chaityas are rock-cut Buddhist prayer halls characterized by an apsidal (semi-circular) end housing a stupa, a vaulted roof often with stone ribs imitating timber",
+     "Student can compare the linguistic, doctrinal, and geographical characteristics of Pali, Sanskrit, and Prakrit Buddhist canons",
      "'Stupa' means 'a heap'; the earliest form was a simple semi-circular mound of earth called anda"
     ],
-    "hint": "Straight from the 'stupa' slide -- match the key terms.",
+    "hint": "Straight from the 'A stupa is a hemispherical' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'stupa means a tower' or 'earliest form was a square platform') reveals confusion with later shikhara temples or a failure to grasp the funerary-mound origin.",
     "id": "gen_c12_hist_ch04_q10",
     "nodeId": "c12_hist_cbse_04_010",
@@ -2456,16 +2667,47 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the three major rock-cut cave sites in the Western Deccan discussed in this chapter that contain both chaityas and viharas.",
-    "answer": "The three major sites are Karle, Ajanta, and Nasik",
-    "options": [
-     "The 23rd Tirthankara was Parshvanatha, traditionally placed 250 years before Mahavira (c. 8th–7th century BCE)",
-     "The five Mahavratas are: 1) Ahimsa — non-violence in thought, word, and deed toward all living beings; 2) Satya — speaking truth that is also beneficial and non-hurtful",
-     "The three major sites are Karle, Ajanta, and Nasik"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the architectural evolution",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish the plan",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how donor inscriptions at these",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Chaityas' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., Barabar, Ellora, or Udayagiri) reveals confusion between the early Mauryan caves (Barabar, made for Ajivikas), the later multi-religious complex at Ellora (6th–10th century CE), or the early historic caves of Odisha (Udayagiri-Khandagiri, Jain).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish the plan, elevation, and ritual function of a chaitya from a vihara; (2) identify the",
     "id": "gen_c12_hist_ch04_q11",
     "nodeId": "c12_hist_cbse_04_011",
     "difficulty": "advanced",
@@ -2639,7 +2881,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "A strong answer will have the Brahmin cite Vedic authority and the efficacy of yajna for worldly and heavenly rewards",
      "B. The ashvamedha was a *political act* — the horse's free wanderings for a year symbolised the king's unchallenged authority over the territory it covered"
     ],
-    "hint": "Straight from the 'sacrificial tradition  in the' slide -- match the key terms.",
+    "hint": "Straight from the 'sacrificial tradition' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: B. The ashvamedha was a *political act* — the horse's free wanderings for a year symbolised the king's unchallenged",
     "id": "gen_c12_hist_ch04_q15",
     "nodeId": "c12_hist_cbse_04_001",
@@ -2654,9 +2896,24 @@ export const C12_HIST_GEN: SimDef[] = [
      "The Mathura inscription shows craft guilds (ivory workers) directly commissioning standalone Tirthankara icons for worship",
      "Correct evaluation: It redefines sacrifice metaphysically rather than rejecting it outright. The Upanishad retains the *language* of sacrifice (yajna) but shifts the referent from"
     ],
-    "hint": "Straight from the 'sacrificial tradition  in the' slide -- match the key terms.",
+    "hint": "Straight from the 'sacrificial tradition' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Saying \"it rejects Vedic ritual\" ignores the Upanishads' Vedic lineage — they are *Vedanta* (end of Vedas), not anti-Vedic.",
     "id": "gen_c12_hist_ch04_q16",
+    "nodeId": "c12_hist_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain how the Vedic sacrificial tradition evolved from simple household rituals to complex royal ceremonies",
+    "options": [
+     "The 23rd Tirthankara was Parshvanatha, traditionally placed 250 years before Mahavira (c. 8th–7th century BCE)",
+     "Jainism is an ancient Indian shramana tradition centered on the teachings of 24 Tirthankaras (ford-makers), with Mahavira (Vardhamana, c",
+     "The student can explain how the Vedic sacrificial tradition evolved from simple household rituals to complex royal ceremonies"
+    ],
+    "hint": "Straight from the 'sacrificial tradition' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain how the Vedic sacrificial tradition evolved from simple household rituals to complex royal",
+    "id": "gen_c12_hist_ch04_q17",
     "nodeId": "c12_hist_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2669,31 +2926,16 @@ export const C12_HIST_GEN: SimDef[] = [
      "The vinaya required monks to observe a three-month varshavasa in one place during the monsoon. Temporary wooden huts were vulnerable to rain, fire, and decay",
      "B. The NCERT text states: \"More elaborate sacrifices, such as the rajasuya and ashvamedha, were performed by chiefs and kings who depended on Brahmana priests to conduct the"
     ],
-    "hint": "Straight from the 'sacrificial tradition  in the' slide -- match the key terms.",
+    "hint": "Straight from the 'sacrificial tradition' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: A is false — the Rigveda knows no such royal rituals; they are later Vedic developments.",
-    "id": "gen_c12_hist_ch04_q17",
-    "nodeId": "c12_hist_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A teacher in a kutagarashala says: \"Pleasure and pain are measured out; neither wisdom nor folly can alter them. Like a ball of string unwinding, all beings reach the end of sorrow automatically.\" Which school does this represent, and what is its view on human agency?",
-    "answer": "This is the Ajivika (fatalist) position of Makkhali Gosala: everything is predetermined (niyati), human effort cannot change karma",
-    "options": [
-     "Correct evaluation: It redefines sacrifice metaphysically rather than rejecting it outright. The Upanishad retains the *language* of sacrifice (yajna) but shifts the referent from",
-     "The Mathura inscription shows craft guilds (ivory workers) directly commissioning standalone Tirthankara icons for worship",
-     "This is the Ajivika (fatalist) position of Makkhali Gosala: everything is predetermined (niyati), human effort cannot change karma"
-    ],
-    "hint": "Straight from the 'Shramana Challenge' slide -- match the key terms.",
-    "misconception": "A wrong identification as \"Buddhist\" or \"Jain\" shows failure to distinguish fatalism from the karmic ethics of Mahavira/Buddha, where *current* effort shapes future rebirth.",
     "id": "gen_c12_hist_ch04_q18",
-    "nodeId": "c12_hist_cbse_04_002",
+    "nodeId": "c12_hist_cbse_04_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about sacrificial tradition in the?",
+    "What surprised you about sacrificial tradition?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -2780,7 +3022,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Ibn Battuta's Account Of 14th-century",
+    "title": "Ibn Battuta's Account Of 14th-century Indian",
     "text": "Ibn Battuta's account of 14th-century Indian towns, bazaars, and the coconut economy refers to the Moroccan traveller's detailed observations in his *Rihla* (1333-1347 CE) of urban life under the Delhi Sultanate, particularly the prosperity of cities like",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2922,16 +3164,47 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "In which work and language did Al-Biruni record his description of the Indian caste system, and approximately when was it written?",
-    "answer": "Al-Biruni wrote the *Kitab-ul-Hind* (Book of India) in Arabic around 1030 CE",
-    "options": [
-     "1. Positionality: Who was the traveller (origin, education, role) and for whom did they write? (Ibn Battuta: Moroccan scholar-qazi, wrote for Moroccan ruler)",
-     "Support: His outsider position allowed him to apply natural-law reasoning (universal, empirical) rather than dharmic reasoning (contextual, scriptural)",
-     "Al-Biruni wrote the *Kitab-ul-Hind* (Book of India) in Arabic around 1030 CE"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate his cross-cultural comparison",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain Al-Biruni's methodology of using",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "contrast his textual description of the four",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Al-Biruni's analysis of the caste' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., Persian language, *Rihla*, or 14th century) reveals confusion between Al-Biruni and Ibn Battuta, or ignorance of the linguistic and chronological specificity of each traveller's work — a frequent board exam error where students conflate the three travellers' timelines and languages.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) explain Al-Biruni's methodology of using Brahmanical texts as primary sources while identifying",
     "id": "gen_c12_hist_ch05_q3",
     "nodeId": "c12_hist_cbse_05_003",
     "difficulty": "advanced",
@@ -3003,7 +3276,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "1. Positionality: Who was the traveller (origin, education, role) and for whom did they write? (Ibn Battuta: Moroccan scholar-qazi, wrote for Moroccan ruler)",
      "Ibn Battuta left Tangier in 1325 CE at age 22, primarily to perform the Hajj (pilgrimage to Mecca)"
     ],
-    "hint": "Straight from the 'Ibn Battuta  was a Moroccan' slide -- match the key terms.",
+    "hint": "Straight from the 'Ibn Battuta was a Moroccan' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he came to India first\" or \"he was a merchant\") reveals confusion between his initial pilgrimage motive and his later, decades-long wanderings driven by curiosity and patronage-seeking.",
     "id": "gen_c12_hist_ch05_q5",
     "nodeId": "c12_hist_cbse_05_005",
@@ -3039,8 +3312,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What were the two plant products Ibn Battuta described in greatest detail because they were unfamiliar to his West Asian audience, and what specific analogy did he use for the coconut?",
     "answer": "The two plant products were the coconut and paan (betel leaf). For the coconut, Ibn Battuta wrote: \"The nut of a coconut tree resembles a man's head",
     "options": [
-     "Bernier called Mughal cities \"camp towns\" (villes de camp), implying they owed their existence to the imperial camp, flourished only when the court was present",
-     "(1) Language — Sanskrit’s enormous range and structural difference from Arabic/Persian; (2) Religious beliefs and practices",
+     "The student can explain how Ibn Battuta's outsider perspective shaped his representation of Indian urban life",
+     "The student can extract and interpret specific details from Ibn Battuta's description of Delhi (ramparts, gates, bazaars, cemetery, postal system)",
      "The two plant products were the coconut and paan (betel leaf). For the coconut, Ibn Battuta wrote: \"The nut of a coconut tree resembles a man's head"
     ],
     "hint": "Straight from the 'Ibn Battuta's account of' slide -- match the key terms.",
@@ -3060,8 +3333,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What were the two distinct types of postal systems Ibn Battuta described in India, and what were their local names?",
     "answer": "The two systems were the horse-post called uluq (horses every 4 miles) and the foot-post called dawa (runners every 1/3 mile)",
     "options": [
-     "Bernier called Mughal cities \"camp towns\" (villes de camp), implying they owed their existence to the imperial camp, flourished only when the court was present",
-     "The two plant products were the coconut and paan (betel leaf). For the coconut, Ibn Battuta wrote: \"The nut of a coconut tree resembles a man's head",
+     "Al-Biruni (11th century, Uzbekistan), Ibn Battuta (14th century, Morocco), François Bernier (17th century, France)",
+     "Student can explain the operational mechanics of both the uluq and dawa systems, compare their speed and function",
      "The two systems were the horse-post called uluq (horses every 4 miles) and the foot-post called dawa (runners every 1/3 mile)"
     ],
     "hint": "Straight from the 'postal system' slide -- match the key terms.",
@@ -3129,16 +3402,47 @@ export const C12_HIST_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "In which work did François Bernier articulate his critique of Mughal land ownership, and to whom was it dedicated?",
-    "answer": "Bernier articulated his critique in *Travels in the Mughal Empire* (published 1670–71), dedicated to Louis XIV of France",
-    "options": [
-     "His insider access yields precise administrative details (postal relay distances, gate names, grain storage in ramparts) impossible for outsiders",
-     "Bernier carried: (1) two Turkoman horses, (2) a Persian camel with driver, (3) a portable bed of four light canes, plus servants (groom, cook, water-carrier), a tent, carpet",
-     "Bernier articulated his critique in *Travels in the Mughal Empire* (published 1670–71), dedicated to Louis XIV of France"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how this critique fed",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "contrast it with Mughal fiscal records",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "reconstruct Bernier's argument linking crown",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Bernier's Critique' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., naming *Rihla* or *Kitab-ul-Hind*) reveals confusion between the three travellers' works — a basic identification error that undermines all subsequent analysis.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) reconstruct Bernier's argument linking crown ownership of land to socioeconomic decline, (2)",
     "id": "gen_c12_hist_ch05_q10",
     "nodeId": "c12_hist_cbse_05_010",
     "difficulty": "advanced",
@@ -3206,11 +3510,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the three travellers compared in this chapter and identify the century each belonged to.",
     "answer": "Al-Biruni (11th century, Uzbekistan), Ibn Battuta (14th century, Morocco), François Bernier (17th century, France)",
     "options": [
-     "The two systems were the horse-post called uluq (horses every 4 miles) and the foot-post called dawa (runners every 1/3 mile)",
-     "Bernier called Mughal cities \"camp towns\" (villes de camp), implying they owed their existence to the imperial camp, flourished only when the court was present",
+     "The three barriers Al-Biruni identified were: (1) language — Sanskrit's enormous range and structural difference from Arabic/Persian made translation difficult",
+     "Can explain Al-Biruni's three barriers to understanding Indian sciences, analyze how his translation choices reflect both critique and cultural mediation",
      "Al-Biruni (11th century, Uzbekistan), Ibn Battuta (14th century, Morocco), François Bernier (17th century, France)"
     ],
-    "hint": "Straight from the 'This node synthesizes the' slide -- match the key terms.",
+    "hint": "Straight from the 'This node synthesizes the accounts' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing centuries or nationalities) reveals the student has not anchored each traveller in their specific historical context — essential because their intellectual worlds (Islamic Golden Age, post-Mongol Afro-Eurasian connectivity, early modern European state-building) directly shaped their",
     "id": "gen_c12_hist_ch05_q12",
     "nodeId": "c12_hist_cbse_05_012",
@@ -3277,7 +3581,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Al-Biruni's *Panchatantra* translation (via earlier Arabic versions like Ibn al-Muqaffa's *Kalila wa Dimna*) embedded Indian political wisdom — *niti* as practical statecraft",
      "(1) A question, (2) description based on Sanskritic traditions, (3) comparison with other cultures"
     ],
-    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
+    "hint": "Straight from the 'Al-Biruni was a Persian' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “narrative storytelling” or “chronological order”) misses the analytical, almost axiomatic method that distinguishes Al-Biruni from later travelogue writers.",
     "id": "gen_c12_hist_ch05_q14",
     "nodeId": "c12_hist_cbse_05_001",
@@ -3292,7 +3596,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "1017 CE; Al-Biruni arrived as a hostage/scholar taken captive along with other poets and scholars",
      "| Traveller | Century | Origin | Language | Motive | Structural Feature | |-----------|---------|--------|----------|--------|-------------------| | Al-Biruni | 11th | Khwarizm"
     ],
-    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
+    "hint": "Straight from the 'Al-Biruni was a Persian' slide -- match the key terms.",
     "misconception": "A poor answer mixes up centuries, languages, or motives (e.g., placing Bernier in the 14th century), indicating failure to synthesize the chapter’s comparative framework.",
     "id": "gen_c12_hist_ch05_q15",
     "nodeId": "c12_hist_cbse_05_001",
@@ -3307,7 +3611,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The claim is false. Al-Biruni explicitly framed his work as \"a help to those who want to discuss religious questions with them (Hindus)\"",
      "The claim is partially valid but incomplete. Al-Biruni *did* rely heavily on normative texts (Vedas, Puranas, Manusmriti) which prescribe ideal rules, not lived reality — e"
     ],
-    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
+    "hint": "Straight from the 'Al-Biruni was a Persian' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is partially valid but incomplete. Al-Biruni *did* rely heavily on normative texts (Vedas, Puranas,",
     "id": "gen_c12_hist_ch05_q16",
     "nodeId": "c12_hist_cbse_05_001",
@@ -3318,11 +3622,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Identify the three “barriers” Al-Biruni explicitly acknowledged as obstructing his understanding of India, and explain which barrier he considered the most fundamental.",
     "answer": "(1) Language — Sanskrit’s enormous range and structural difference from Arabic/Persian; (2) Religious beliefs and practices",
     "options": [
-     "The two plant products were the coconut and paan (betel leaf). For the coconut, Ibn Battuta wrote: \"The nut of a coconut tree resembles a man's head",
-     "The two systems were the horse-post called uluq (horses every 4 miles) and the foot-post called dawa (runners every 1/3 mile)",
+     "Student can compare the three travellers across motives, methods, and biases; explain how each traveller's background shaped their representation of India",
+     "Can explain Al-Biruni's three barriers to understanding Indian sciences, analyze how his translation choices reflect both critique and cultural mediation",
      "(1) Language — Sanskrit’s enormous range and structural difference from Arabic/Persian; (2) Religious beliefs and practices"
     ],
-    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
+    "hint": "Straight from the 'Al-Biruni was a Persian' slide -- match the key terms.",
     "misconception": "A wrong answer that omits “self-absorption” or ranks religion first reveals a superficial reading of the NCERT text (p. 124).",
     "id": "gen_c12_hist_ch05_q17",
     "nodeId": "c12_hist_cbse_05_001",
@@ -3337,7 +3641,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The Shudras originate from the feet of Brahman. This signifies their prescribed position as the lowest varna, destined for service",
      "1017 CE; Al-Biruni arrived as a hostage/scholar taken captive along with other poets and scholars"
     ],
-    "hint": "Straight from the 'Al-Biruni  was a Persian' slide -- match the key terms.",
+    "hint": "Straight from the 'Al-Biruni was a Persian' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “he came voluntarily as a courtier” or “1025 CE”) reveals confusion between Al-Biruni’s forced relocation and the voluntary travels of Ibn Battuta or Bernier, and misplaces the Ghaznavid conquest chronology.",
     "id": "gen_c12_hist_ch05_q18",
     "nodeId": "c12_hist_cbse_05_001",
@@ -3433,7 +3737,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Kabir Was",
+    "title": "Kabir",
     "text": "Kabir (c. 14th–15th century CE) was a nirguna bhakti poet-saint from the Awadh region (present-day Uttar Pradesh) whose verses — composed in sant bhasha and preserved orally before compilation in the Bijak, Granthavali, and Adi Granth — used ulatbansi",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3457,7 +3761,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Ziyarat, Qawwali, And The Dargah Represent",
+    "title": "Ziyarat, Qawwali, And The Dargah",
     "text": "Ziyarat, qawwali, and the dargah represent the core devotional practices of the Chishti Sufi order in medieval India (12th–17th centuries), where pilgrimage to saintly tombs (ziyarat), mystical music sessions (qawwali/sama'), and the shrine complex (dargah)",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3475,8 +3779,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the approximate time period and region referred to by 'Religious Ferment in North India' in this chapter, and which three major religious traditions are highlighted in the node title?",
     "answer": "The period is c. 8th century, the region is North India, and the three traditions are Tantrism, Jainism, and Buddhism",
     "options": [
-     "Andal is the only woman among the twelve Alvars. Her two major compositions are Tiruppavai (30 verses) and Nachiyar Tirumoli (143 verses), both in Tamil",
-     "The four major silsilas are: (1) Chishti — named after the town of Chisht in central Afghanistan; (2) Suhrawardi — named after Shaikh Shihabuddin Suhrawardi of Baghdad",
+     "8th century) refers to the dynamic interplay between Brahmanical Puranic traditions, Tantric practices (influencing Shaivism and Buddhism)",
+     "The student can explain the religious landscape of 8th-century North India by identifying the coexistence and tension between Brahmanical, Tantric, Buddhist, and Jain traditions",
      "The period is c. 8th century, the region is North India, and the three traditions are Tantrism, Jainism, and Buddhism"
     ],
     "hint": "Straight from the 'Religious ferment in North India' slide -- match the key terms.",
@@ -3548,9 +3852,9 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the Tamil Shaiva canonical collection formed by the hymns of Appar, Sambandar, and Sundarar, and state the century in which it was compiled.",
     "answer": "The collection is the Tevaram, compiled in the 10th century CE",
     "options": [
-     "The period is c. 8th century, the region is North India, and the three traditions are Tantrism, Jainism, and Buddhism",
-     "Matsyendranath and Gorakhnath (c. 11th–12th century); the Nath tradition gained prominence in North India from the 12th century onward",
-     "The collection is the Tevaram, compiled in the 10th century India",
+     "Student can explain how the lives and hymns of Appar, Sambandar, and Sundarar transformed Shaivite worship in Tamil Nadu",
+     "The *Nalayira Divyaprabandham* was compiled by Nathamuni in the 10th century CE",
+     "The collection is the Tevaram, compiled in the 10th century Jilani",
      "The collection is the Tevaram, compiled in the 10th century CE"
     ],
     "hint": "Straight from the 'Nayanars were Tamil Shaivite' slide -- match the key terms.",
@@ -3633,8 +3937,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the specific Alvar saint who is the only woman among the twelve Alvars, and identify the two major Tamil compositions attributed to her that are still sung in Vishnu temples today.",
     "answer": "Andal is the only woman among the twelve Alvars. Her two major compositions are Tiruppavai (30 verses) and Nachiyar Tirumoli (143 verses), both in Tamil",
     "options": [
-     "The collection is the Tevaram, compiled in the 10th century CE",
-     "The *Nalayira Divyaprabandham* was compiled by Nathamuni in the 10th century CE",
+     "The four major silsilas are: (1) Chishti — named after the town of Chisht in central Afghanistan; (2) Suhrawardi — named after Shaikh Shihabuddin Suhrawardi of Baghdad",
+     "Urs literally means 'marriage' and is observed on the death anniversary of a Sufi saint, signifying the union of the saint's soul with God",
      "Andal is the only woman among the twelve Alvars. Her two major compositions are Tiruppavai (30 verses) and Nachiyar Tirumoli (143 verses), both in Tamil"
     ],
     "hint": "Straight from the 'This node examines three' slide -- match the key terms.",
@@ -4144,15 +4448,15 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did the Naths, Jogis, and Siddhas — despite their popularity among artisanal groups — fail to win the support of ruling elites in 8th-century North India?",
-    "answer": "Rajput states depended on Brahmanas for legitimising rituals and administrative functions; the Naths/Jogis/Siddhas questioned Vedic authority and caste norms",
+    "question": "What is Religious ferment in North India (c? State the definition given in this lesson.",
+    "answer": "8th century) refers to the dynamic interplay between Brahmanical Puranic traditions, Tantric practices (influencing Shaivism and Buddhism)",
     "options": [
-     "The Cholas used bhakti as political technology: (1) Magnificent temples materialized the Nayanars' poetic visions, making royal patronage *visible* as divine service",
-     "The claim is well-supported: (1) The NCERT explicitly states Buddhism/Jainism \"had been prevalent",
-     "Rajput states depended on Brahmanas for legitimising rituals and administrative functions; the Naths/Jogis/Siddhas questioned Vedic authority and caste norms"
+     "The student can explain the religious landscape of 8th-century North India by identifying the coexistence and tension between Brahmanical, Tantric, Buddhist, and Jain traditions",
+     "Matsyendranath and Gorakhnath (c. 11th–12th century); the Nath tradition gained prominence in North India from the 12th century onward",
+     "8th century) refers to the dynamic interplay between Brahmanical Puranic traditions, Tantric practices (influencing Shaivism and Buddhism)"
     ],
     "hint": "Straight from the 'Religious ferment in North India' slide -- match the key terms.",
-    "misconception": "A student who answers 'they were not popular' or 'kings were Muslim' shows misunderstanding: the Turks had not yet arrived, and these groups were popular among commoners but excluded from court patronage due to their anti-Brahmanical stance.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 8th century) refers to the dynamic interplay between Brahmanical Puranic traditions, Tantric practices (influencing",
     "id": "gen_c12_hist_ch06_q18",
     "nodeId": "c12_hist_cbse_06_001",
     "difficulty": "standard"
@@ -4277,7 +4581,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vijayanagara's Economy Was",
+    "title": "Vijayanagara's Economy",
     "text": "Vijayanagara's economy (c. 1336–1565 CE) was a state-directed commercial system centred on the control of long-distance trade routes, particularly the import of war-horses from Arabia and Central Asia via Arab and later Portuguese merchants, and the export of",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4345,7 +4649,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Expected timeline: - Sangama (1336–1485): Founding by Harihara/Bukka (1336) → Overthrown by Saluva commanders (1485) - Saluva (1485–1503): Saluva Narasimha's usurpation → Weak",
      "The Vijayanagara Empire was founded in 1336 CE by the brothers Harihara I and Bukka I"
     ],
-    "hint": "Straight from the 'Sangama dynasty  was the' slide -- match the key terms.",
+    "hint": "Straight from the 'Sangama dynasty' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1347 — the Bahmani founding date, or naming Krishnadeva Raya as founder) reveals confusion between the Sangama founding and later dynastic peaks, or conflation of the Vijayanagara and Bahmani timelines which are parallel but distinct.",
     "id": "gen_c12_hist_ch07_q2",
     "nodeId": "c12_hist_cbse_07_002",
@@ -4364,6 +4668,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "options": [
      "The Vijayanagara Empire was founded in 1336 CE by the brothers Harihara I and Bukka I",
      "Timeline: (a) 1311 — Hoysala capital Dvarasamudra sacked by Malik Kafur (Khilji); (b) 1336 — Harihara-Bukka found Vijayanagara; (c) 1347 — Bahmani kingdom founded by Hasan Gangu",
+     "The Vijayanagara Empire was founded in 1336 by the Sangama dynasty (Royal Centre I and Bukka I)",
      "The Vijayanagara Empire was founded in 1336 by the Sangama dynasty (Harihara I and Bukka I)"
     ],
     "hint": "Straight from the 'succession of four ruling' slide -- match the key terms.",
@@ -4383,8 +4688,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the literal meaning of the term \"amara\" in the Amara-Nayaka system, and which two linguistic roots do historians propose for it?",
     "answer": "\"Amara\" is derived either from Sanskrit *samara* (battle/war) or Persian *amir* (high noble/commander); both reflect the military character of the office",
     "options": [
-     "The NCERT uses the term raya gopuram (royal gateway)",
-     "The two platforms are the \"audience hall\" and the \"Mahanavami Dibba\". The Mahanavami Dibba has a base of about 11,000 sq. ft. and rises to a height of 40 ft",
+     "Student can explain the multi-phase methodology (survey, epigraphy, photography, textual collation) used to reconstruct Vijayanagara's history",
+     "The student can explain how Harihara and Bukka transformed a regional chiefdom into an imperial structure by adapting Hoysala administrative practices",
      "\"Amara\" is derived either from Sanskrit *samara* (battle/war) or Persian *amir* (high noble/commander); both reflect the military character of the office"
     ],
     "hint": "Straight from the 'Amara-Nayaka system was the' slide -- match the key terms.",
@@ -4403,8 +4708,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the name of the most important tank built in the early 15th century to meet Vijayanagara’s water needs, and from which river did the Hiriya canal draw water?",
     "answer": "The Kamalapuram tank (early 15th century) and the Hiriya canal drew water from the Tungabhadra River via a dam",
     "options": [
-     "The Mahanavami Dibba was a massive stone platform (approx. 11,000 sq. ft base, 40 ft high) in the royal centre of Vijayanagara, decorated with relief carvings",
-     "\"Amara\" is derived either from Sanskrit *samara* (battle/war) or Persian *amir* (high noble/commander); both reflect the military character of the office",
+     "Student can explain the multi-phase methodology (survey, epigraphy, photography, textual collation) used to reconstruct Vijayanagara's history",
+     "Students believe \"Vijayanagara imported horses *from* the Portuguese\" — conflating the *carrier* (Portuguese ships) with the *source* (Arabia/Persia/Central Asia)",
      "The Kamalapuram tank (early 15th century) and the Hiriya canal drew water from the Tungabhadra River via a dam"
     ],
     "hint": "Straight from the 'geographical setting of' slide -- match the key terms.",
@@ -4591,8 +4896,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What is the term used in the NCERT for the towering royal gateways of Vijayanagara temples that often dwarf the central shrine's tower?",
     "answer": "The NCERT uses the term raya gopuram (royal gateway)",
     "options": [
-     "\"Amara\" is derived either from Sanskrit *samara* (battle/war) or Persian *amir* (high noble/commander); both reflect the military character of the office",
-     "The Kamalapuram tank (early 15th century) and the Hiriya canal drew water from the Tungabhadra River via a dam",
+     "The Mahanavami Dibba was a massive stone platform (approx. 11,000 sq. ft base, 40 ft high) in the royal centre of Vijayanagara, decorated with relief carvings",
+     "The Kamalapuram tank, built in the early 15th century, irrigated nearby fields and supplied water to the royal centre via a channel",
      "The NCERT uses the term raya gopuram (royal gateway)"
     ],
     "hint": "Straight from the 'Temple architecture in' slide -- match the key terms.",
@@ -4731,7 +5036,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Horses were a *strategic military necessity* — cavalry decided battles against Deccan Sultanates",
      "Horses were imported from Arabia and Central Asia; the trade was initially controlled by Arab traders"
     ],
-    "hint": "Straight from the 'Vijayanagara's economy  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Vijayanagara's economy' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Portugal and Persia\" or \"Indian merchants\") reveals the student confuses the *source* of horses with the *carriers*, or conflates the pre- and post-1498 periods — a common error when students memorise \"Portuguese brought horses\" without understanding the earlier Arab-dominated supply chain.",
     "id": "gen_c12_hist_ch07_q12",
     "nodeId": "c12_hist_cbse_07_012",
@@ -4820,15 +5125,15 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did Mackenzie rely heavily on the priests of the Virupaksha temple and the shrine of Pampadevi for his initial information?",
-    "answer": "The priests maintained living oral traditions linking the ruins to the local mother goddess Pampadevi and the deity Virupaksha",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can explain the multi-phase methodology (survey, epigraphy, photography, textual collation) used to reconstruct Vijayanagara's history",
     "options": [
-     "Krishnadeva Raya expanded Virupaksha because it was the dynastic deity — the Vijayanagara kings ruled as deputies of Virupaksha (orders signed \"Shri Virupaksha\")",
-     "*Net benefit is false.* Short-term: Portuguese muskets and naval power *did* help Krishnadeva Raya (e",
-     "The priests maintained living oral traditions linking the ruins to the local mother goddess Pampadevi and the deity Virupaksha"
+     "\"Amara\" is derived either from Sanskrit *samara* (battle/war) or Persian *amir* (high noble/commander); both reflect the military character of the office",
+     "The student can explain how the Amara-Nayaka system adapted the Delhi Sultanate's iqta model to South Indian conditions",
+     "Student can explain the multi-phase methodology (survey, epigraphy, photography, textual collation) used to reconstruct Vijayanagara's history"
     ],
     "hint": "Straight from the 'discovery of Vijayanagara' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"priests had written records\" or \"Mackenzie knew Sanskrit\") misses the specific role of *oral tradition* in bridging the gap between a deserted city (post-1565) and 19th-century investigation, and overlooks that Mackenzie's informants were indigenous knowledge-holders, not colonial archives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can explain the multi-phase methodology (survey, epigraphy, photography, textual collation) used to reconstruct",
     "id": "gen_c12_hist_ch07_q18",
     "nodeId": "c12_hist_cbse_07_001",
     "difficulty": "standard"
@@ -4846,14 +5151,14 @@ export const C12_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hist_ch08",
-  "title": "Ain-i-Akbari",
+  "title": "Ain-i-Akbari Is The Third Volume Of The Akbar",
   "subtitle": "History · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "history",
-  "topic": "Ain-i-Akbari",
+  "topic": "Ain-i-Akbari Is The Third Volume Of The Akbar Nama",
   "chapters": [
-   "History Ch8: Ain-i-Akbari"
+   "History Ch8: Ain-i-Akbari Is The Third Volume Of The Akbar Nama"
   ],
   "nodeIds": [
    "c12_hist_cbse_08_001",
@@ -4876,7 +5181,7 @@ export const C12_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Ain-i-Akbari outside the classroom?",
+   "question": "Quick guess -- where do you meet Ain-i-Akbari Is The Third Volume outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4887,7 +5192,7 @@ export const C12_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Ain-i-Akbari",
+    "title": "The Ain-i-Akbari of Abu'l Fazl: Structure",
     "text": "The Ain-i-Akbari (1598) is the third volume of the Akbar Nama, authored by Abu'l Fazl under Emperor Akbar's commission, structured as a five-book (daftar) administrative manual and statistical gazetteer that systematically records the Mughal Empire's fiscal,",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4941,7 +5246,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Mughal Agrarian Society Was",
+    "title": "Mughal Agrarian Society",
     "text": "Mughal agrarian society (c. 1556–1707) was a stratified rural order in which caste (jati) structured access to land, labour, and artisanal services, while the jajmani system governed hereditary, reciprocal exchanges between peasant cultivators and village",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4984,8 +5289,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the two major seasonal crop cycles in Mughal India and the primary staple associated with each.",
     "answer": "The two cycles are kharif (autumn, sown with monsoon rains, staple: rice/millets) and rabi (spring, sown after monsoon, staple: wheat/barley)",
     "options": [
-     "Mughal sources used the term majur for menial-agricultural labourers. Groups such as halalkhoran (scavengers) in Muslim communities and mallahzadas (boatmen’s sons) in Bihar were",
-     "The three constituents were: (1) the cultivators (peasants), (2) the panchayat (assembly of elders)",
+     "The two main categories are khud-kashta (resident cultivators) and pahi-kashta (non-resident cultivators)",
+     "The student can explain how the Mughal state negotiated revenue collection rights with zamindars",
      "The two cycles are kharif (autumn, sown with monsoon rains, staple: rice/millets) and rabi (spring, sown after monsoon, staple: wheat/barley)"
     ],
     "hint": "Straight from the 'Agricultural production in Mughal' slide -- match the key terms.",
@@ -5057,8 +5362,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What are the two main categories of peasants mentioned in seventeenth-century Mughal sources such as the Ain-i-Akbari?",
     "answer": "The two main categories are khud-kashta (resident cultivators) and pahi-kashta (non-resident cultivators)",
     "options": [
-     "The three constituents were: (1) the cultivators (peasants), (2) the panchayat (assembly of elders)",
-     "The two cycles are kharif (autumn, sown with monsoon rains, staple: rice/millets) and rabi (spring, sown after monsoon, staple: wheat/barley)",
+     "The Ain-i Akbari records: 384,558 cavalry, 4,277,057 infantry, 1,863 elephants, 4,260 cannons, and 4,500 boats",
+     "Student can explain the five-daiftar structure of the Ain-i-Akbari, articulate its dual purpose as both an administrative tool and an ideological project",
      "The two main categories are khud-kashta (resident cultivators) and pahi-kashta (non-resident cultivators)"
     ],
     "hint": "Straight from the 'Khud-kashta and pahi-kashta were' slide -- match the key terms.",
@@ -5382,11 +5687,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What term did Mughal sources use for village menial-cum-agricultural labourers, and which caste-like groups were typically relegated to this status?",
     "answer": "Mughal sources used the term majur for menial-agricultural labourers. Groups such as halalkhoran (scavengers) in Muslim communities and mallahzadas (boatmen’s sons) in Bihar were",
     "options": [
-     "The three constituents were: (1) the cultivators (peasants), (2) the panchayat (assembly of elders)",
-     "The two main categories are khud-kashta (resident cultivators) and pahi-kashta (non-resident cultivators)",
+     "Agricultural production in Mughal India (c",
+     "The student can explain the structure of agricultural trade from village mandi to global market",
      "Mughal sources used the term majur for menial-agricultural labourers. Groups such as halalkhoran (scavengers) in Muslim communities and mallahzadas (boatmen’s sons) in Bihar were"
     ],
-    "hint": "Straight from the 'Mughal agrarian society  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Mughal agrarian society' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"kisan\" or \"raiyat\") reveals confusion between cultivating peasants and landless menials, missing the critical distinction that majurs lacked land rights and were caste-bound to degrading labour.",
     "id": "gen_c12_hist_ch08_q10",
     "nodeId": "c12_hist_cbse_08_010",
@@ -5403,8 +5708,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What were the two major seasonal crop cycles in Mughal India, and which staple crops dominated each?",
     "answer": "The two cycles were kharif (autumn harvest, sown with monsoon rains) dominated by rice, millets, and cotton, and rabi (spring harvest, sown in winter) dominated by wheat, barley",
     "options": [
-     "Mughal sources used the term majur for menial-agricultural labourers. Groups such as halalkhoran (scavengers) in Muslim communities and mallahzadas (boatmen’s sons) in Bihar were",
-     "The three constituents were: (1) the cultivators (peasants), (2) the panchayat (assembly of elders)",
+     "The student can explain the interlocking causes of the Mughal fiscal crisis (jama-hasil gap, jagirdari transfers, peasant flight",
+     "The student can explain how zamindar military power (retainers and forts) shaped agrarian power relations, analyze why the Mughal state tolerated this parallel military structure",
      "The two cycles were kharif (autumn harvest, sown with monsoon rains) dominated by rice, millets, and cotton, and rabi (spring harvest, sown in winter) dominated by wheat, barley"
     ],
     "hint": "Straight from the 'Trade in agricultural goods' slide -- match the key terms.",
@@ -5626,6 +5931,52 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between Zabt",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "apply Akbar's four-fold land classification",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate the system's flexibility",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) distinguish between Zabt, Kankut, Batai, and their variants by explaining the operational steps of",
+    "id": "gen_c12_hist_ch08_q17",
+    "nodeId": "c12_hist_cbse_08_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "By the 1680s, Aurangzeb faced a severe bejagiri (shortage of jagirs) crisis. Evaluate the argument: \"The jagirdari crisis was primarily caused by the Deccan wars expanding the mansabdar corps without a proportional increase in productive jagir land.",
     "sortItems": [
      {
@@ -5666,33 +6017,18 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer blaming only \"corruption\" or \"Aurangzeb's bigotry\" ignores the structural demographic-fiscal mismatch documented in the Ain's mulk-abadi tables.",
-    "id": "gen_c12_hist_ch08_q17",
+    "id": "gen_c12_hist_ch08_q18",
     "nodeId": "c12_hist_cbse_08_008",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A historian finds that the Ain's mulk-abadi provides detailed caste breakdowns of zamindars for Agra and Delhi subas but omits this data for Bengal and Orissa. Using the NCERT's discussion of the Ain's limitations, explain TWO reasons why this unevenness occurs and how it affects the study of agrarian relations in",
-    "answer": "First, data collection was not uniform across provinces — the Ain's quantitative richness reflects the imperial centre's priorities and access",
-    "options": [
-     "The order shows reduced flexibility: it demands granular, standardized data (maujudat, asamiwar) to maximize jama (\"keeping in view the financial interests of the government\")",
-     "The two-season cycle ensured year-round land use; abundant uncultivated land allowed peasants to migrate and clear new fields (as Babur noted)",
-     "First, data collection was not uniform across provinces — the Ain's quantitative richness reflects the imperial centre's priorities and access"
-    ],
-    "hint": "Straight from the 'Ain-i-Akbari' slide -- match the key terms.",
-    "misconception": "A student who says \"the Ain is incomplete\" without specifying the provincial bias misses the methodological lesson: source limitations are structured, not random.",
-    "id": "gen_c12_hist_ch08_q18",
-    "nodeId": "c12_hist_cbse_08_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about ain-i-akbari?",
+    "What surprised you about ain-i-akbari is the third volume of the akbar nama?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Ain-i-Akbari mastered! 🎯",
+  "successLine": "Ain-i-Akbari Is The Third mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5780,7 +6116,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Deccan Riots Of 1875 Were",
+    "title": "Deccan Riots Of 1875",
     "text": "The Deccan Riots of 1875 were a widespread peasant uprising in the Bombay Deccan where ryots (cultivators) attacked moneylenders (sahukars), burnt account books (bahi khatas) and debt bonds, and socially boycotted moneylenders to protest exploitative interest",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5812,7 +6148,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "options": [
      "The claim is partially true but misleading. While the zamindar was removed, the state demand of 2/3 of rental value (1833) was higher than the Permanent Settlement's effective",
      "Chain: Ryotwari (direct settlement, 30-year revision) → High initial demand (1820s) → Structural borrowing → Cotton boom: easy credit",
-     "Interest was introduced in 1793 under Governor-General Lord Cornwallis",
+     "Confined was introduced in 1793 under Governor-General Lord Cornwallis",
      "The Permanent Settlement was introduced in 1793 under Governor-General Lord Cornwallis"
     ],
     "hint": "Straight from the 'Permanent Settlement of 1793,' slide -- match the key terms.",
@@ -5938,11 +6274,11 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Who were the jotedars and in which region of Bengal were they most powerful according to Francis Buchanan's survey?",
     "answer": "The jotedars were a class of rich peasants who acquired vast landholdings, controlled local trade and moneylending, and cultivated land through sharecroppers (adhiyars/bargadars)",
     "options": [
-     "The Sunset Law required the zamindar to deposit the revenue demand in the Company treasury by sunset on the fixed date",
-     "The estate is liable to be auctioned immediately. This was oppressive because revenue had to be paid regardless of harvest failure, low prices, or ryots' inability to pay rent",
+     "The student can explain how the Mahalwari System differed from both the Permanent Settlement and the Ryotwari System in terms of revenue fixation, unit of settlement",
+     "Student can explain the ecological and economic transformation of the Rajmahal hills from Paharia shifting cultivation to Santhal settled agriculture",
      "The jotedars were a class of rich peasants who acquired vast landholdings, controlled local trade and moneylending, and cultivated land through sharecroppers (adhiyars/bargadars)"
     ],
-    "hint": "Straight from the 'Jotedars were a class of' slide -- match the key terms.",
+    "hint": "Straight from the 'Jotedars were a class' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"jotedars were zamindars\" or \"they were powerful all over Bengal\") reveals confusion between revenue collectors (zamindars) and village-level cultivator-capitalists, and ignorance of the regional specificity of the jotedar phenomenon.",
     "id": "gen_c12_hist_ch09_q4",
     "nodeId": "c12_hist_cbse_09_004",
@@ -5963,7 +6299,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Chain: (1) Ricardian theory → state claims \"surplus\" as revenue; (2) Ryotwari design: direct settlement, field-level assessment, 30-year revision, no intermediaries",
      "Damin-i-Koh was demarcated in 1832 with the condition that at least one-tenth of the area must be cleared and cultivated within the first ten years"
     ],
-    "hint": "Straight from the 'Santhal Rebellion  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Santhal Rebellion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1855 or no condition) reveals the student confuses the rebellion date with the settlement policy date, missing the Company's deliberate revenue-driven colonization strategy.",
     "id": "gen_c12_hist_ch09_q5",
     "nodeId": "c12_hist_cbse_09_005",
@@ -6001,8 +6337,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What was the \"Sunset Law\" under the Permanent Settlement, and what immediate consequence did it stipulate for a zamindar who failed to pay revenue by the deadline?",
     "answer": "The Sunset Law required the zamindar to deposit the revenue demand in the Company treasury by sunset on the fixed date",
     "options": [
-     "The jotedars were a class of rich peasants who acquired vast landholdings, controlled local trade and moneylending, and cultivated land through sharecroppers (adhiyars/bargadars)",
-     "The first ryotwari settlement (1820s) was harsh; prices fell after 1832, causing famine and desertion",
+     "Student can explain the economic and political rise of jotedars by linking the Permanent Settlement's high revenue demand to zamindar default",
+     "The student can explain how the Mahalwari System differed from both the Permanent Settlement and the Ryotwari System in terms of revenue fixation, unit of settlement",
      "The Sunset Law required the zamindar to deposit the revenue demand in the Company treasury by sunset on the fixed date"
     ],
     "hint": "Straight from the 'Zamindars' Default' slide -- match the key terms.",
@@ -6026,7 +6362,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The estate is liable to be auctioned immediately. This was oppressive because revenue had to be paid regardless of harvest failure, low prices, or ryots' inability to pay rent",
      "The Deccan Riots began on 12 May 1875 at Supa village in Poona (Pune) district"
     ],
-    "hint": "Straight from the 'Deccan Riots of 1875 were' slide -- match the key terms.",
+    "hint": "Straight from the 'Deccan Riots of 1875' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1857 or 1876, or a different village like Ahmednagar) reveals the student has not anchored the event in its precise spatio-temporal context — a basic requirement for board exam source-based questions that cite the District Magistrate's letter of 15 May 1875.",
     "id": "gen_c12_hist_ch09_q8",
     "nodeId": "c12_hist_cbse_09_008",
@@ -6117,7 +6453,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Under the 1878 Act, Protected Forests allowed the state to regulate (not extinguish) rights — but only rights *recorded* at settlement",
      "The first Ryotwari settlement was introduced in the 1820s, and lands were resurveyed every 30 years with revenue rates increased at each revision"
     ],
-    "hint": "Straight from the 'Ryotwari system, implemented in' slide -- match the key terms.",
+    "hint": "Straight from the 'Ryotwari system, implemented' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"1790s\" or \"permanent settlement\") reveals confusion with the Bengal Permanent Settlement or misunderstanding that Ryotwari rates were fixed forever.",
     "id": "gen_c12_hist_ch09_q11",
     "nodeId": "c12_hist_cbse_09_011",
@@ -6191,6 +6527,21 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain the reasons for the Permanent Settlement, analyze why zamindars defaulted on revenue payments, evaluate the impact on zamindars and ryots",
+    "options": [
+     "The student can explain the ecological and economic logic of Paharia shifting cultivation, contrast British extermination and pacification policies with their outcomes",
+     "The student can explain how Ricardian rent theory shaped the Ryotwari settlement's design, trace the chain from high fixed revenue demands to peasant indebtedness and the 1875",
+     "The student can explain the reasons for the Permanent Settlement, analyze why zamindars defaulted on revenue payments, evaluate the impact on zamindars and ryots"
+    ],
+    "hint": "Straight from the 'Permanent Settlement of 1793,' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain the reasons for the Permanent Settlement, analyze why zamindars defaulted on revenue payments,",
+    "id": "gen_c12_hist_ch09_q16",
+    "nodeId": "c12_hist_cbse_09_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why did the East India Company fix the revenue demand permanently high at the time of the Permanent Settlement?",
     "answer": "The Company set the demand high to capture future increases in agricultural produce and prices",
     "options": [
@@ -6200,7 +6551,7 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Permanent Settlement of 1793,' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to help zamindars\" or \"because of current high prices\") shows misunderstanding of the Company's fiscal anxiety and the depressed agricultural prices of the 1790s.",
-    "id": "gen_c12_hist_ch09_q16",
+    "id": "gen_c12_hist_ch09_q17",
     "nodeId": "c12_hist_cbse_09_001",
     "difficulty": "advanced"
    },
@@ -6215,21 +6566,6 @@ export const C12_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ryotwari System was a land' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting \"he can petition for remission\" or \"revenue adjusts automatically\" ignores the NCERT's emphasis on the system's rigidity and the collectors' pressure to show efficiency.",
-    "id": "gen_c12_hist_ch09_q17",
-    "nodeId": "c12_hist_cbse_09_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the revenue flexibility of the Permanent Settlement (Bengal) and the Ryotwari Settlement (Bombay Deccan) during the 1830s price depression. Which system created greater immediate pressure on the primary revenue-payer, and why?",
-    "answer": "The Ryotwari System created greater immediate pressure. In Bengal, the zamindar bore the fixed demand and could sometimes delay/evade payment (fictitious sales, NCERT p",
-    "options": [
-     "Jotedars lived in villages, controlled local trade and moneylending, cultivated land through sharecroppers, and directly mobilized ryots",
-     "The zamindar's power derived from a state contract (Permanent Settlement) to collect revenue over hundreds of villages",
-     "The Ryotwari System created greater immediate pressure. In Bengal, the zamindar bore the fixed demand and could sometimes delay/evade payment (fictitious sales, NCERT p"
-    ],
-    "hint": "Straight from the 'Ryotwari System was a land' slide -- match the key terms.",
-    "misconception": "A wrong answer claiming \"both were equally rigid\" misses the intermediation buffer in Bengal and the 30-year revision clause that *increased* Deccan demands over time.",
     "id": "gen_c12_hist_ch09_q18",
     "nodeId": "c12_hist_cbse_09_002",
     "difficulty": "advanced"
@@ -6247,13 +6583,15 @@ export const C12_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hist_ch10",
-  "title": "The Mutiny at Meerut: Mangal Pandey,",
+  "title": "Mutiny At Meerut",
   "subtitle": "History · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "history",
-  "topic": "The Mutiny at Meerut: Mangal Pandey,",
-  "chapters": ["History Ch10: The Mutiny at Meerut: Mangal Pandey,"],
+  "topic": "Mutiny At Meerut",
+  "chapters": [
+   "History Ch10: Mutiny At Meerut"
+  ],
   "nodeIds": [
    "c12_hist_cbse_10_001",
    "c12_hist_cbse_10_002",
@@ -6274,7 +6612,7 @@ export const C12_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if The Mutiny at Meerut: Mangal suddenly stops working?",
+   "question": "What happens if Mutiny At Meerut suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -6473,6 +6811,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "options": [
      "The decline is (67-38)/67 ≈ 43%. British officials believed removing taluqdars would allow direct settlement with \"actual cultivators,\" reducing peasant exploitation and",
      "1801: Subsidiary Alliance disarms Nawab, empowers taluqdars. 1856 Feb: Annexation, Wajid Ali Shah exiled",
+     "Mughal-era was introduced in 1856. Its core assumption was that taluqdars were interlopers with no permanent stakes in land",
      "The Summary Settlement was introduced in 1856. Its core assumption was that taluqdars were interlopers with no permanent stakes in land"
     ],
     "hint": "Straight from the 'Awadh Revolt' slide -- match the key terms.",
@@ -6693,7 +7032,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "answer": "A \"low-caste\" khalasi (magazine worker) asked a Brahmin sepoy for water from his lota; the sepoy refused citing caste pollution",
     "options": [
      "Lord Dalhousie annexed Awadh in 1856 on the pretext of \"misgovernment\" by Nawab Wajid Ali Shah",
-     "The British passed a series of Acts in May–June 1857 placing North India under martial law and empowering military officers and even ordinary Britons to try and punish Indians",
+     "The student can explain the step-by-step process from Subsidiary Alliance (1801) to annexation (1856)",
      "A \"low-caste\" khalasi (magazine worker) asked a Brahmin sepoy for water from his lota; the sepoy refused citing caste pollution"
     ],
     "hint": "Straight from the '\"Role of Rumours\"' slide -- match the key terms.",
@@ -6867,7 +7206,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The proclamation articulated a vision of unity but lacked an enforcement mechanism: it was a declarative document issued by a nominal leader (Bahadur Shah) with no administrative",
      "A strong answer identifies: (1) Sepoy network — khalasi-to-sepoy conversation at Dum Dum magazine → regimental lines across Bengal Army via letters/emissaries (e"
     ],
-    "hint": "Straight from the 'Mutiny at Meerut (10 May' slide -- match the key terms.",
+    "hint": "Straight from the 'Mutiny at Meerut' slide -- match the key terms.",
     "misconception": "A poor answer lists events without distinguishing networks or mechanisms, treating the rumour as a single undifferentiated wave.",
     "id": "gen_c12_hist_ch10_q13",
     "nodeId": "c12_hist_cbse_10_001",
@@ -6882,7 +7221,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Public servants (natives in British civil and military service)",
      "It is primarily a conservative restoration: it appeals to Mughal-era hierarchies (Badshahi government, zemindari dignity, merchant monopolies"
     ],
-    "hint": "Straight from the 'Mutiny at Meerut (10 May' slide -- match the key terms.",
+    "hint": "Straight from the 'Mutiny at Meerut' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"revolutionary\" ignores its feudal language; calling it \"purely feudal\" ignores its responsive character to peasant and artisan suffering.",
     "id": "gen_c12_hist_ch10_q14",
     "nodeId": "c12_hist_cbse_10_001",
@@ -6951,11 +7290,11 @@ export const C12_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the mutiny at meerut: mangal pandey,?",
+    "What surprised you about mutiny at meerut?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "The Mutiny at Meerut: Mangal mastered! 🎯",
+  "successLine": "Mutiny At Meerut mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -7004,7 +7343,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Rowlatt Satyagraha Was",
+    "title": "Rowlatt Satyagraha",
     "text": "The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest organised by Mahatma Gandhi against the Rowlatt Act (Anarchical and Revolutionary Crimes Act, 1919), which extended wartime emergency powers — detention without trial, press",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -7016,13 +7355,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Civil Disobedience Movement Was",
+    "title": "Civil Disobedience Movement",
     "text": "The Civil Disobedience Movement (1930-34) was a mass nationalist campaign launched by Mahatma Gandhi with the historic Dandi Salt March (12 March – 6 April 1930), where Gandhi and 78 satyagrahis walked 385 km from Sabarmati Ashram to Dandi to illegally",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Gandhi-Irwin Pact Was",
+    "title": "Gandhi-Irwin Pact",
     "text": "The Gandhi-Irwin Pact (March 1931) was a political agreement between Mahatma Gandhi and Viceroy Lord Irwin that suspended the Civil Disobedience Movement in exchange for the release of political prisoners and permission for coastal salt production, followed",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -7077,7 +7416,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The claim is false. Within 18 months of the BHU speech, Gandhi led three *localized* peasant/worker struggles",
      "The Jallianwala Bagh massacre occurred on 13 April 1919 (Baisakhi day). Brigadier-General Reginald Dyer ordered his troops to fire without warning on an unarmed crowd of"
     ],
-    "hint": "Straight from the 'Rowlatt Satyagraha  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Rowlatt Satyagraha' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Gandhi was leading the protest\" or \"it was a planned satyagraha meeting\") reveals the student confuses the spontaneous Baisakhi gathering with an organised nationalist demonstration, and does not know Gandhi was detained en route to Punjab and not present.",
     "id": "gen_c12_hist_ch11_q2",
     "nodeId": "c12_hist_cbse_11_002",
@@ -7099,7 +7438,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The police report is partially reliable but biased. Source 8 (Champaran, March 1930",
      "The police report is partially reliable but biased. Source 8 (Fortnightly Reports, March 1930"
     ],
-    "hint": "Straight from the 'Non-Cooperation Movement  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Non-Cooperation Movement' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student accepts the police report at face value, they fail to recognize the colonial archive’s inherent bias — officials had a vested interest in minimizing the movement’s scale to justify inaction or repression.",
     "id": "gen_c12_hist_ch11_q3",
     "nodeId": "c12_hist_cbse_11_003",
@@ -7120,7 +7459,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The charkha simultaneously addressed economic, social, and symbolic dimensions: (1) Economic",
      "Gandhi chose salt because it was a universal necessity consumed by every Indian regardless of class, caste, religion, or region"
     ],
-    "hint": "Straight from the 'Civil Disobedience Movement  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Civil Disobedience Movement' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"peasant grievances\" reveals the student misses Gandhi's strategic genius: he needed an issue that unified the entire nation, not just one social group, to transform civil disobedience into a truly mass movement.",
     "id": "gen_c12_hist_ch11_q4",
     "nodeId": "c12_hist_cbse_11_004",
@@ -7141,7 +7480,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The police report is partially reliable but biased. Source 8 (Fortnightly Reports, March 1930",
      "A strong answer sequences: Dandi March (mass mobilisation, global attention) → British repression (60,000 arrests) → First RTC (Congress absent"
     ],
-    "hint": "Straight from the 'Gandhi-Irwin Pact  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Gandhi-Irwin Pact' slide -- match the key terms.",
     "misconception": "A poor answer lists events without causal links or misses the British agency in shaping the sequence.",
     "id": "gen_c12_hist_ch11_q5",
     "nodeId": "c12_hist_cbse_11_005",
@@ -7300,7 +7639,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Both were *legalized exploitation* targeting a specific racial/occupational group: the Black Act criminalized Indian presence through fingerprinting and passes",
      "Differences: (1) Scale & geography: Earlier satyagrahas were local (district-level agrarian/labour disputes)"
     ],
-    "hint": "Straight from the 'Rowlatt Satyagraha  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Rowlatt Satyagraha' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"more people joined\" misses the qualitative shift from *issue-based* to *regime-challenging* protest, and from *negotiated settlement* to *confrontation*.",
     "id": "gen_c12_hist_ch11_q12",
     "nodeId": "c12_hist_cbse_11_002",
@@ -7315,7 +7654,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Both were *legalized exploitation* targeting a specific racial/occupational group: the Black Act criminalized Indian presence through fingerprinting and passes",
      "Industrial workers (e.g., in Ahmedabad, Bombay, Bengal) struck for better wages, working conditions, and union recognition"
     ],
-    "hint": "Straight from the 'Non-Cooperation Movement  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Non-Cooperation Movement' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student lumps them together as “poor people protesting,” they miss the class-specific economic structures (industrial capitalism vs. agrarian feudalism) that shaped demands.",
     "id": "gen_c12_hist_ch11_q13",
     "nodeId": "c12_hist_cbse_11_003",
@@ -7330,7 +7669,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Differences: (1) Scale & geography: Earlier satyagrahas were local (district-level agrarian/labour disputes)",
      "In Non-Cooperation, women participated mainly in boycotts and picketing from within domestic spaces"
     ],
-    "hint": "Straight from the 'Civil Disobedience Movement  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Civil Disobedience Movement' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"women participated equally in both movements\" reveals ignorance of the deliberate exclusion Gandhi initially maintained and the strategic intervention by feminist nationalists to change it.",
     "id": "gen_c12_hist_ch11_q14",
     "nodeId": "c12_hist_cbse_11_004",
@@ -7345,7 +7684,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The view is inaccurate. Phoenix housed Tamil, Telugu, Gujarati, Hindu, Muslim, Parsi, and Christian residents — including indentured labourers and their descendants",
      "The Home Department's early reports (first half of March) reflected colonial arrogance and reliance on officials who underestimated Gandhi's ability to mobilise beyond Congress"
     ],
-    "hint": "Straight from the 'Civil Disobedience Movement  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Civil Disobedience Movement' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the British were surprised by the numbers\" misses the structural reason: the colonial state's intelligence apparatus was designed to monitor elite politics, not mass civil disobedience organised through linguistic provinces and vernacular press.",
     "id": "gen_c12_hist_ch11_q15",
     "nodeId": "c12_hist_cbse_11_004",
@@ -7415,7 +7754,9 @@ export const C12_HIST_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "history",
   "topic": "Constituent Assembly",
-  "chapters": ["History Ch12: Constituent Assembly"],
+  "chapters": [
+   "History Ch12: Constituent Assembly"
+  ],
   "nodeIds": [
    "c12_hist_cbse_12_001",
    "c12_hist_cbse_12_002",
@@ -7478,13 +7819,13 @@ export const C12_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "This Node Examines The Intense",
+    "title": "This Node Examines The Intense Constituent",
     "text": "This node examines the intense Constituent Assembly debates (1946–1949) on three critical Fundamental Rights: the right to property (Articles 19(1)(f) and 31), freedom of speech and expression (Article 19(1)(a)), and preventive detention (Article 22).",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Directive Principles Of State",
+    "title": "The Directive Principles Of State Policy",
     "text": "The Directive Principles of State Policy (DPSP), enshrined in Part IV (Articles 36–51) of the Indian Constitution, are non-justiciable guidelines directing the State to promote social, economic, and political justice.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7530,7 +7871,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The Drafting Committee performed the *synthesis* function: it integrated reports from 13+ committees (Union Powers, Provincial Constitution, Advisory, Minorities",
      "The Constituent Assembly held its first session on 9 December 1946, constituted under the Cabinet Mission Plan (May 1946) which provided for indirect election by provincial"
     ],
-    "hint": "Straight from the 'Constituent Assembly  was the' slide -- match the key terms.",
+    "hint": "Straight from the 'Constituent Assembly' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"August 1947\" or \"direct election\") reveals confusion between the Assembly's formation and Independence, or misunderstanding of the limited franchise — students often assume universal adult suffrage existed in 1946, but the 1935 Act electorate covered only 10–15% of adults.",
     "id": "gen_c12_hist_ch12_q1",
     "nodeId": "c12_hist_cbse_12_001",
@@ -7545,8 +7886,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "Name the seven members of the Drafting Committee and identify who served as its Chairman, Constitutional Advisor, and Chief Draughtsman.",
     "answer": "The Drafting Committee members were: Dr. B.R. Ambedkar (Chairman), K.M. Munshi, Alladi Krishnaswamy Aiyar, N",
     "options": [
-     "The Constituent Assembly adopted the Constitution (including the Preamble) on 26 November 1949. The 42nd Amendment (1976) added the words \"Socialist\" and \"Secular\" between",
-     "C) Federal structure with Union, State, and Concurrent Lists. The Government of India Act 1935 introduced a three-list federal division (Federal, Provincial",
+     "The student can explain how the Constituent Assembly's composition (indirect election, Congress dominance, League boycott) shaped its legitimacy debates",
+     "The student can explain the historical context and content of the Objectives Resolution, analyze Nehru's references to past revolutions and his insistence on not mechanically",
      "The Drafting Committee members were: Dr. B.R. Ambedkar (Chairman), K.M. Munshi, Alladi Krishnaswamy Aiyar, N"
     ],
     "hint": "Straight from the 'Drafting Committee, constituted' slide -- match the key terms.",
@@ -7672,7 +8013,7 @@ export const C12_HIST_GEN: SimDef[] = [
     "options": [
      "Nehru argued \"republic\" inherently contains \"democratic\" — a republic cannot be undemocratic",
      "The Objectives Resolution was moved on 13 December 1946. It proclaimed India as an Independent Sovereign Republic and guaranteed justice (social, economic, political), equality",
-     "His Committee was chaired by Sardar Vallabhbhai Patel",
+     "Court Committee was chaired by Sardar Vallabhbhai Patel",
      "The Provincial Constitution Committee was chaired by Sardar Vallabhbhai Patel"
     ],
     "hint": "Straight from the 'Federalism in the Indian' slide -- match the key terms.",
@@ -7854,7 +8195,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Continuities: (1) Executive responsible to legislature (provincial ministries under 1935 Act were responsible to provincial legislatures",
      "In separate electorates, only members of a specific community (e.g., Muslims) vote for candidates from that community, creating segregated political constituencies"
     ],
-    "hint": "Straight from the 'debate on separate electorates and' slide -- match the key terms.",
+    "hint": "Straight from the 'debate on separate electorates' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student says \"both are the same\" or \"reserved seats mean only SCs vote for SCs,\" they confuse the *electorate* (who votes) with the *candidature* (who can contest).",
     "id": "gen_c12_hist_ch12_q9",
     "nodeId": "c12_hist_cbse_12_009",
@@ -7871,8 +8212,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What was the original constitutional status of the Right to Property in the Constitution of India as adopted on 26 January 1950?",
     "answer": "The Right to Property was originally a Fundamental Right under Article 19(1)(f) (right to acquire, hold",
     "options": [
-     "Jawaharlal Nehru moved the Objectives Resolution. He stated: “We are not going just to copy… whatever system of government we may establish here must fit in with the temper of our",
-     "The Language Committee recommended: (1) Hindi in Devanagari script shall be the official language of the Union",
+     "Students think \"Indian federalism is quasi-federal because the Constitution says so\" — they memorise K.C",
+     "Student can explain the competing arguments in the Assembly on property, free speech, and preventive detention",
      "The Right to Property was originally a Fundamental Right under Article 19(1)(f) (right to acquire, hold"
     ],
     "hint": "Straight from the 'Debate on the Right to Property' slide -- match the key terms.",
@@ -7892,8 +8233,8 @@ export const C12_HIST_GEN: SimDef[] = [
     "question": "What was the exact date on which the Constituent Assembly adopted the Preamble (and the Constitution), and which two words were added to it by the 42nd Amendment Act of 1976?",
     "answer": "The Constituent Assembly adopted the Constitution (including the Preamble) on 26 November 1949. The 42nd Amendment (1976) added the words \"Socialist\" and \"Secular\" between",
     "options": [
-     "The Right to Property was originally a Fundamental Right under Article 19(1)(f) (right to acquire, hold",
-     "C) Federal structure with Union, State, and Concurrent Lists. The Government of India Act 1935 introduced a three-list federal division (Federal, Provincial",
+     "Student can explain the competing arguments in the Assembly on property, free speech, and preventive detention",
+     "Can explain why the Constituent Assembly rejected separate electorates for religious minorities but adopted reservations for Scheduled Castes, Scheduled Tribes",
      "The Constituent Assembly adopted the Constitution (including the Preamble) on 26 November 1949. The 42nd Amendment (1976) added the words \"Socialist\" and \"Secular\" between"
     ],
     "hint": "Straight from the 'Preamble to the Constitution of' slide -- match the key terms.",
@@ -8015,7 +8356,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The 1935 Act gave provinces greater fiscal autonomy (e.g., provincial control over land revenue, irrigation, local taxes) with limited Centre sharing",
      "Bahadur argued minorities need *institutional separation* (separate electorates) to ensure their distinct voices are heard, as non-minorities cannot understand minority needs"
     ],
-    "hint": "Straight from the 'Constituent Assembly  was the' slide -- match the key terms.",
+    "hint": "Straight from the 'Constituent Assembly' slide -- match the key terms.",
     "misconception": "A wrong answer reducing this to \"Hindu vs Muslim\" misses the constitutional theory — Patel invoked \"no free country with separate electorates,\" Pant invoked \"citizen as base and summit of social pyramid.\"",
     "id": "gen_c12_hist_ch12_q14",
     "nodeId": "c12_hist_cbse_12_001",
@@ -8030,7 +8371,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The Constituent Assembly held its first session on 9 December 1946, constituted under the Cabinet Mission Plan (May 1946) which provided for indirect election by provincial",
      "Timeline: (a) 9 Dec 1946 — First session; League boycott already announced, Assembly meets amid Cabinet Mission collapse"
     ],
-    "hint": "Straight from the 'Constituent Assembly  was the' slide -- match the key terms.",
+    "hint": "Straight from the 'Constituent Assembly' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Timeline: (a) 9 Dec 1946 — First session; League boycott already announced, Assembly meets amid Cabinet Mission",
     "id": "gen_c12_hist_ch12_q15",
     "nodeId": "c12_hist_cbse_12_001",
@@ -8045,7 +8386,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "The Assembly had just witnessed Partition violence fueled by hate speech and communal propaganda; members like T",
      "Ranga redefined \"minority\" economically: the poor, tribals, villagers exploited by moneylenders, landlords, merchants — groups *numerically* majority but *structurally* powerless"
     ],
-    "hint": "Straight from the 'Constituent Assembly  was the' slide -- match the key terms.",
+    "hint": "Straight from the 'Constituent Assembly' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Ranga redefined \"minority\" economically: the poor, tribals, villagers exploited by moneylenders, landlords, merchants —",
     "id": "gen_c12_hist_ch12_q16",
     "nodeId": "c12_hist_cbse_12_001",
@@ -8060,7 +8401,7 @@ export const C12_HIST_GEN: SimDef[] = [
      "Nehru argued that \"republic\" inherently contains democracy because a republic means rule by the people, not a monarch",
      "Nehru argued \"republic\" inherently contains \"democratic\" — a republic cannot be undemocratic"
     ],
-    "hint": "Straight from the 'Constituent Assembly  was the' slide -- match the key terms.",
+    "hint": "Straight from the 'Constituent Assembly' slide -- match the key terms.",
     "misconception": "A wrong answer claiming Nehru avoided \"democratic\" to appease socialists or British misses his own words: he wanted to avoid \"redundant words\" while embedding substantive democratic and socialist principles.",
     "id": "gen_c12_hist_ch12_q17",
     "nodeId": "c12_hist_cbse_12_001",
@@ -8068,15 +8409,15 @@ export const C12_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did the Muslim League boycott the Constituent Assembly, and how did this affect the Assembly's composition and perceived legitimacy?",
-    "answer": "The Muslim League boycotted the Assembly (June 1946 onwards) demanding a separate Constituent Assembly for Pakistan, leaving the Congress with 82% of seats",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain how the Constituent Assembly's composition (indirect election, Congress dominance, League boycott) shaped its legitimacy debates",
     "options": [
-     "Gandhi saw Hindustani as a composite, spoken language of the masses that bridged Hindu-Muslim and North-South divides",
-     "Ambedkar was appointed on Mahatma Gandhi's advice to ensure the Constitution commanded legitimacy across *all* communities, especially Dalits who distrusted the Congress",
-     "The Muslim League boycotted the Assembly (June 1946 onwards) demanding a separate Constituent Assembly for Pakistan, leaving the Congress with 82% of seats"
+     "The student can explain the historical context and content of the Objectives Resolution, analyze Nehru's references to past revolutions and his insistence on not mechanically",
+     "Jawaharlal Nehru moved the Objectives Resolution. He stated: “We are not going just to copy… whatever system of government we may establish here must fit in with the temper of our",
+     "The student can explain how the Constituent Assembly's composition (indirect election, Congress dominance, League boycott) shaped its legitimacy debates"
     ],
-    "hint": "Straight from the 'Constituent Assembly  was the' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"Congress dominance\" misses the structural cause — the Cabinet Mission's grouping scheme failed, and the League's withdrawal turned the Assembly into a de facto Congress body, forcing it to negotiate minority rights without the main minority party present.",
+    "hint": "Straight from the 'Constituent Assembly' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain how the Constituent Assembly's composition (indirect election, Congress dominance, League",
     "id": "gen_c12_hist_ch12_q18",
     "nodeId": "c12_hist_cbse_12_001",
     "difficulty": "advanced"
@@ -8084,7 +8425,7 @@ export const C12_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about constituent assembly was the?",
+    "What surprised you about constituent assembly?",
     "Which challenge was hardest -- and why?"
    ]
   },

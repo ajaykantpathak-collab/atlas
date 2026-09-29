@@ -11,7 +11,7 @@ export const w_c12_mathematicsconsistencyinconsistencysystemssim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Solution of System of Linear Equations: Matrix Method',
     chapters: [],
     nodeIds: ['c12_math_cbse_04_008', 'c12_math_cbse_04_009', 'c12_math_cbse_04_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you go to a stationery shop and buy 2 pens and 3 pencils for ₹35, while your friend buys 4 pens and 1.', goal: 'Master Solution of System of Linear Equations: Matrix Method.' },
     discovery: {
         question: 'Compare Cramer\'s Rule and the Matrix Inverse Method (X = A⁻¹B) for solving a 3×3 system.',
@@ -20,7 +20,7 @@ export const w_c12_mathematicsconsistencyinconsistencysystemssim: SimDef = {
         hook: 'The most frequent error is replacing the wrong column when forming Δₓ, Δᵧ, Δz.',
     },
     teaching: [
-        { title: 'The matrix method solves a system of linear.', text: 'The matrix method solves a system of linear equations \\(AX = B\\) by computing \\(X = A^{-1}B\\), where \\(A\\) is the coefficient matrix, \\(X\\) is the column matrix of variables, and \\(B\\) is the column.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The matrix method solves a system of linear.', text: 'The matrix method solves a system of linear equations \\(AX = B\\) by computing \\(X = A^{-1}B\\), where \\(A\\) is the coefficient matrix, \\(X\\) is the column matrix of variables, and \\(B\\) is the column.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_04_008', title: 'The matrix method solves a system of.',

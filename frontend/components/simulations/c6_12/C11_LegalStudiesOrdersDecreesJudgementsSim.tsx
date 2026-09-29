@@ -1158,7 +1158,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
       <motion.header
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 p-5 border border-slate-700/60 shadow-lg"
+        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 via-slate-800 to-gold-950 p-5 border border-slate-700/60 shadow-lg"
       >
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
           <div className="flex items-center gap-3">
@@ -1191,7 +1191,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-700'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-700'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-700'
               }`}
             >
               ⚖️ Tier: {difficulty}
@@ -1230,7 +1230,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
           {/* Discovery Question Card */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Discovery Question (Ungraded Curiosity Hook)
               </span>
               <span className="text-xs text-slate-400">Step 1 of 5 Flow</span>
@@ -1280,7 +1280,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-amber-500 to-indigo-600 text-white rounded-xl font-black text-sm shadow-lg shadow-indigo-950/50 flex items-center gap-2 whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-amber-500 to-gold-600 text-white rounded-xl font-black text-sm shadow-lg shadow-gold-950/50 flex items-center gap-2 whitespace-nowrap"
                 >
                   Enter Interactive Chambers →
                 </motion.button>
@@ -1425,7 +1425,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                             }}
                             className={`p-2 rounded-xl text-xs font-bold uppercase transition-all border ${
                               pronouncementType === type
-                                ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                                ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                                 : 'bg-slate-900 text-slate-400 border-slate-800'
                             }`}
                           >
@@ -1437,7 +1437,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                       <div className="p-3.5 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2">
                         {pronouncementType === 'judgement' && (
                           <>
-                            <p className="text-indigo-300 font-bold">Section 2(9) CPC — Judgement:</p>
+                            <p className="text-gold-300 font-bold">Section 2(9) CPC — Judgement:</p>
                             <p className="text-slate-300">
                               Statement in writing by the judge setting out the facts, points of determination, findings, and legal reasoning (Order XX).
                             </p>
@@ -1629,7 +1629,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                         </div>
                         <div className="p-2 bg-slate-900 rounded-xl border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">HAMA 1956</span>
-                          <span className="font-bold text-indigo-300">Sec 18</span>
+                          <span className="font-bold text-gold-300">Sec 18</span>
                           <span className="text-slate-500 block text-[10px]">Wife Support</span>
                         </div>
                         <div className="p-2 bg-slate-900 rounded-xl border border-slate-800">
@@ -1647,7 +1647,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
               {currentSlide === 3 && (
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
                   <div className="md:col-span-6 bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-4">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">
                       Ajay Hasia Instrumentality Controls
                     </span>
 
@@ -1662,7 +1662,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                         max={100}
                         value={govtFundingPct}
                         onChange={(e) => setGovtFundingPct(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1672,7 +1672,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                         type="checkbox"
                         checked={hasMonopolyStatus}
                         onChange={(e) => setHasMonopolyStatus(e.target.checked)}
-                        className="rounded text-indigo-500"
+                        className="rounded text-gold-500"
                       />
                     </label>
 
@@ -1682,7 +1682,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                         type="checkbox"
                         checked={deepStateControl}
                         onChange={(e) => setDeepStateControl(e.target.checked)}
-                        className="rounded text-indigo-500"
+                        className="rounded text-gold-500"
                       />
                     </label>
                   </div>
@@ -1736,7 +1736,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                         }}
                         className={`p-3 rounded-2xl text-left border transition-all ${
                           selectedWritCase === idx
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                             : 'bg-slate-950 text-slate-400 border-slate-800 hover:bg-slate-900'
                         }`}
                       >
@@ -1844,8 +1844,8 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
             </p>
 
             <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
-              <div className="p-3.5 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
-                <span className="font-bold block text-sm text-indigo-300 mb-1">Moot Fact Pattern:</span>
+              <div className="p-3.5 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-200">
+                <span className="font-bold block text-sm text-gold-300 mb-1">Moot Fact Pattern:</span>
                 "A State Municipal Corporation cuts off water supply to a colony of 10,000 workers due to an unnotified infrastructure lease to a private commercial hotel."
               </div>
 
@@ -1921,7 +1921,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-400">
-                Competency: <span className="text-indigo-300 font-bold capitalize">{challenge.competencyLevel}</span> | Node: <span className="font-mono text-slate-300">{challenge.nodeId}</span>
+                Competency: <span className="text-gold-300 font-bold capitalize">{challenge.competencyLevel}</span> | Node: <span className="font-mono text-slate-300">{challenge.nodeId}</span>
               </span>
             </div>
 
@@ -1933,7 +1933,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
               </div>
               <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-amber-500 to-indigo-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-amber-500 to-gold-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2006,7 +2006,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-md shadow-indigo-950"
+                      className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-md shadow-gold-950"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2027,12 +2027,12 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                       className={`p-4 rounded-2xl border-2 border-dashed transition-all ${
                         droppedLabels[target.id]
                           ? 'bg-emerald-950/40 border-emerald-500'
-                          : 'bg-slate-950 border-slate-800 hover:border-indigo-500'
+                          : 'bg-slate-950 border-slate-800 hover:border-gold-500'
                       }`}
                     >
                       <span className="text-xs font-bold text-amber-400 block">{target.title}</span>
                       <p className="text-[11px] text-slate-400 mt-0.5">{target.desc}</p>
-                      <div className="mt-2.5 p-2.5 bg-slate-900 rounded-xl text-center text-xs font-black text-indigo-300">
+                      <div className="mt-2.5 p-2.5 bg-slate-900 rounded-xl text-center text-xs font-black text-gold-300">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop matching Writ here'}
                       </div>
                     </div>
@@ -2044,7 +2044,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-black shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-black shadow-lg"
                 >
                   Verify Writ Allocations
                 </motion.button>
@@ -2090,7 +2090,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-black shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-black shadow-lg"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2102,7 +2102,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 border border-amber-500/40 rounded-2xl space-y-4 shadow-xl"
+                className="p-5 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 border border-amber-500/40 rounded-2xl space-y-4 shadow-xl"
               >
                 <div className="flex items-center gap-2">
                   <span className="text-amber-400 font-bold text-sm">📖 Comprehensive Legal Reasoning:</span>
@@ -2144,7 +2144,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextChallenge}
-                      className="px-6 py-3 bg-gradient-to-r from-emerald-500 to-indigo-600 text-white rounded-xl font-black text-xs shadow-lg shadow-emerald-950"
+                      className="px-6 py-3 bg-gradient-to-r from-emerald-500 to-gold-600 text-white rounded-xl font-black text-xs shadow-lg shadow-emerald-950"
                     >
                       {currentChallenge + 1 >= filteredChallenges.length ? 'Conclude Judicial Session →' : 'Next Legal Challenge →'}
                     </motion.button>
@@ -2195,10 +2195,10 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-500/30 space-y-4 shadow-xl">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-500/30 space-y-4 shadow-xl">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                 Critical Reflection & Synthesis
               </h3>
             </div>
@@ -2213,7 +2213,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                   value={reflectionResponses.surprising}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, surprising: e.target.value })}
                   placeholder="e.g., Difference between void & voidable marriages, or non-waivability of Fundamental Rights..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none h-20"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none h-20"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
@@ -2223,17 +2223,17 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
                   value={reflectionResponses.explain}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, explain: e.target.value })}
                   placeholder="e.g., Decrees decide final rights whereas orders are procedural steps along the way..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none h-20"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none h-20"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-cyan-400 block">3. Real-World Application</span>
+                <span className="text-xs font-bold text-gold-400 block">3. Real-World Application</span>
                 <p className="text-xs text-slate-200 font-medium">Where in real life might you use this?</p>
                 <textarea
                   value={reflectionResponses.realLife}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, realLife: e.target.value })}
                   placeholder="e.g., Knowing when to file a PIL under Art 32 vs a standard civil suit under CPC..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none h-20"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none h-20"
                 />
               </div>
             </div>
@@ -2277,7 +2277,7 @@ export function C11_LegalStudiesOrdersDecreesJudgementsSim({
 
           {/* Real World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
               {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>

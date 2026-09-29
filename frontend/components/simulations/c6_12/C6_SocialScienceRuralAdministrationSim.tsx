@@ -51,7 +51,7 @@ export function C6_SocialScienceRuralAdministrationSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 6 Civics - Rural Administration</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 6 Civics - Rural Administration</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Land Complaint Journey: Pick the Right Office</h1>
         </div>
         <button onClick={() => reset()} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -67,7 +67,7 @@ export function C6_SocialScienceRuralAdministrationSim() {
             </select>
             <p className="text-sm mt-2 text-slate-200">{c.story}</p>
             <div className="flex gap-2 mt-3 text-xs">
-              <span className="px-3 py-1 rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 font-bold">Day {days}</span>
+              <span className="px-3 py-1 rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-bold">Day {days}</span>
               <button onClick={() => setShowRecord((s) => !s)} className="min-h-11 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 font-bold transition-all">
                 {showRecord ? 'Hide' : 'Show'} khasra record
               </button>
@@ -80,14 +80,14 @@ export function C6_SocialScienceRuralAdministrationSim() {
               <p>Khasra no: 112/2 &nbsp; Area: 0.60 ha &nbsp; Owner: Ravi (as per record)</p>
               <p>Neighbour khasra 113/1 &nbsp; Status: boundary unmarked</p>
               <div className="h-2 rounded-full bg-slate-800 overflow-hidden mt-2">
-                <div className={`h-full transition-all duration-700 ${step === c.steps.length ? 'w-full bg-emerald-500' : 'bg-indigo-500'}`} style={{ width: `${(step / c.steps.length) * 100}%` }} />
+                <div className={`h-full transition-all duration-700 ${step === c.steps.length ? 'w-full bg-emerald-500' : 'bg-gold-500'}`} style={{ width: `${(step / c.steps.length) * 100}%` }} />
               </div>
               <p className="text-slate-500">record status: {done ? 'CORRECTED - case closed' : `step ${step + 1} of ${c.steps.length}`}</p>
             </div>
           )}
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">The field as the patwari sees it</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">The field as the patwari sees it</p>
             <svg viewBox="0 0 300 110" className="w-full">
               <rect x="20" y="20" width="160" height="70" fill="#14532d" stroke="#4ade80" strokeWidth="2" />
               <rect x="180" y="20" width="100" height="70" fill="#3f6212" stroke="#a3e635" strokeWidth="2" />
@@ -114,8 +114,8 @@ export function C6_SocialScienceRuralAdministrationSim() {
             <div className="grid grid-cols-2 gap-2">
               {STOPS.map((s) => (
                 <button key={s.id} onClick={() => go(s.id)} disabled={done}
-                  className="min-h-11 p-3 text-left rounded-xl border transition-all border-slate-800 bg-slate-950 hover:border-indigo-500 hover:bg-indigo-950/30 disabled:opacity-40">
-                  <div className="text-sm font-bold text-indigo-300">{s.name}</div>
+                  className="min-h-11 p-3 text-left rounded-xl border transition-all border-slate-800 bg-slate-950 hover:border-gold-500 hover:bg-gold-950/30 disabled:opacity-40">
+                  <div className="text-sm font-bold text-gold-300">{s.name}</div>
                   <div className="text-[11px] text-slate-400 leading-snug">{s.job}</div>
                 </button>
               ))}
@@ -123,7 +123,7 @@ export function C6_SocialScienceRuralAdministrationSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">Case diary</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Case diary</p>
             <p className="text-[11px] text-slate-500 mb-2">Real fact: most land disputes end at the tehsildar&apos;s office. The court is the last resort, not the first door.</p>
             {log.length === 0 && <p className="text-xs text-slate-500">Nothing yet -- choose your first department.</p>}
             <div className="space-y-2 max-h-56 overflow-y-auto">
@@ -143,7 +143,7 @@ export function C6_SocialScienceRuralAdministrationSim() {
         ))}
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Solve the encroachment case in the minimum 45 days -- which single department do people WRONGLY visit first, and why?</p>
         <p className="mt-1">2. Switch to the threat case and compare: why does the correct route start at the police thana instead of the patwari?</p>

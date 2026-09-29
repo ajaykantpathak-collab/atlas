@@ -11,11 +11,11 @@ export const w_c12_computersciencesecurityaspectssim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'E-Waste Management and Disposal',
     chapters: [],
     nodeIds: ['c12_cs_cbse_13_003', 'c12_cs_cbse_13_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine your family just upgraded from a 5-year-old CRT television to a new smart TV.', goal: 'Master E-Waste Management and Disposal.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'E-Waste (Electronic Waste) refers to.', text: 'E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and refrigerators that have reached the end of their useful life.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'E-Waste (Electronic Waste) refers to.', text: 'E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and refrigerators that have reached the end of their useful life.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_13_003', title: 'E-Waste (Electronic Waste) refers to.',

@@ -1219,13 +1219,13 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700"
+            className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">ISC Class 12 • 10 Connected Topics • Applied Mathematics</p>
+            <p className="text-xs text-gold-300 font-medium">ISC Class 12 • 10 Connected Topics • Applied Mathematics</p>
           </div>
         </div>
 
@@ -1240,7 +1240,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1263,9 +1263,9 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
         {/* SVG Diagram 1: Matrix Inversion & Parallelogram Area Transformation */}
         <motion.div
           whileHover={{ scale: 1.02 }}
-          className="p-3 bg-slate-900/80 border border-indigo-900/50 rounded-2xl flex flex-col items-center"
+          className="p-3 bg-slate-900/80 border border-gold-900/50 rounded-2xl flex flex-col items-center"
         >
-          <span className="text-[11px] font-bold text-indigo-300 uppercase tracking-wide mb-1">
+          <span className="text-[11px] font-bold text-gold-300 uppercase tracking-wide mb-1">
             1. Determinant Area & Inversion
           </span>
           <svg viewBox="0 0 200 120" className="w-full h-24">
@@ -1287,9 +1287,9 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
         {/* SVG Diagram 2: Cramer's Rule & Consistency Diagnostics */}
         <motion.div
           whileHover={{ scale: 1.02 }}
-          className="p-3 bg-slate-900/80 border border-indigo-900/50 rounded-2xl flex flex-col items-center"
+          className="p-3 bg-slate-900/80 border border-gold-900/50 rounded-2xl flex flex-col items-center"
         >
-          <span className="text-[11px] font-bold text-indigo-300 uppercase tracking-wide mb-1">
+          <span className="text-[11px] font-bold text-gold-300 uppercase tracking-wide mb-1">
             2. System Consistency Pipeline
           </span>
           <svg viewBox="0 0 200 120" className="w-full h-24">
@@ -1309,9 +1309,9 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
         {/* SVG Diagram 3: Calculus Chain Rule & Tangent Curvature */}
         <motion.div
           whileHover={{ scale: 1.02 }}
-          className="p-3 bg-slate-900/80 border border-indigo-900/50 rounded-2xl flex flex-col items-center"
+          className="p-3 bg-slate-900/80 border border-gold-900/50 rounded-2xl flex flex-col items-center"
         >
-          <span className="text-[11px] font-bold text-indigo-300 uppercase tracking-wide mb-1">
+          <span className="text-[11px] font-bold text-gold-300 uppercase tracking-wide mb-1">
             3. Chain Rule & Curvature
           </span>
           <svg viewBox="0 0 200 120" className="w-full h-24">
@@ -1338,7 +1338,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
             onClick={() => setRepresentationMode('visual')}
             className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
               representationMode === 'visual'
-                ? 'bg-indigo-600 text-white shadow'
+                ? 'bg-gold-600 text-white shadow'
                 : 'bg-slate-800 text-slate-400 hover:text-white'
             }`}
           >
@@ -1350,7 +1350,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
             onClick={() => setRepresentationMode('equation')}
             className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
               representationMode === 'equation'
-                ? 'bg-indigo-600 text-white shadow'
+                ? 'bg-gold-600 text-white shadow'
                 : 'bg-slate-800 text-slate-400 hover:text-white'
             }`}
           >
@@ -1362,7 +1362,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
             onClick={() => setRepresentationMode('tabular')}
             className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
               representationMode === 'tabular'
-                ? 'bg-indigo-600 text-white shadow'
+                ? 'bg-gold-600 text-white shadow'
                 : 'bg-slate-800 text-slate-400 hover:text-white'
             }`}
           >
@@ -1377,9 +1377,9 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
           initial={{ opacity: 0, y: -5 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0 }}
-          className="mb-6 p-4 bg-slate-900 border border-indigo-800/60 rounded-2xl text-xs font-mono space-y-2"
+          className="mb-6 p-4 bg-slate-900 border border-gold-800/60 rounded-2xl text-xs font-mono space-y-2"
         >
-          <p className="text-indigo-300 font-bold">1. Matrix Inverse Law: A · A⁻¹ = I = (1/|A|) · adj(A)</p>
+          <p className="text-gold-300 font-bold">1. Matrix Inverse Law: A · A⁻¹ = I = (1/|A|) · adj(A)</p>
           <p className="text-emerald-300 font-bold">2. Martin's Rule Formulation: AX = B ⟹ X = A⁻¹ B</p>
           <p className="text-amber-300 font-bold">3. Chain Rule Calculus: (f ∘ g)'(x) = f'(g(x)) · g'(x)</p>
           <p className="text-purple-300 font-bold">4. Parametric Derivative: dy/dx = (dy/dt) / (dx/dt)</p>
@@ -1391,11 +1391,11 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
           initial={{ opacity: 0, y: -5 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0 }}
-          className="mb-6 p-4 bg-slate-900 border border-indigo-800/60 rounded-2xl text-xs overflow-x-auto"
+          className="mb-6 p-4 bg-slate-900 border border-gold-800/60 rounded-2xl text-xs overflow-x-auto"
         >
           <table className="w-full text-left font-mono">
             <thead>
-              <tr className="border-b border-slate-700 text-indigo-400">
+              <tr className="border-b border-slate-700 text-gold-400">
                 <th className="py-1 px-2">Operation</th>
                 <th className="py-1 px-2">Active Formula</th>
                 <th className="py-1 px-2">Current Lab Value</th>
@@ -1438,9 +1438,9 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
           >
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80"
+              className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80"
             >
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Scenario Introduction</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Scenario Introduction</span>
               <h2 className="text-2xl font-black text-white mt-1 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-xs mt-3 bg-slate-900/60 p-3 rounded-lg border border-slate-800">
@@ -1468,11 +1468,11 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                         ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                        : 'bg-slate-800/90 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/90 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <div className="flex items-start gap-2">
-                      <span className="font-mono text-indigo-400 font-bold">0{i + 1}.</span>
+                      <span className="font-mono text-gold-400 font-bold">0{i + 1}.</span>
                       <span>{opt}</span>
                     </div>
                   </motion.button>
@@ -1492,7 +1492,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1509,7 +1509,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
           <motion.div key="explore" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-6">
             <div className="flex items-center justify-between">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
                 <h2 className="text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
               </div>
               <motion.span whileHover={{ scale: 1.05 }} className="text-xs text-slate-400 font-mono">
@@ -1550,7 +1550,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
               <div className="lg:col-span-5 flex flex-col justify-between space-y-4">
                 {currentSlide === 0 && (
                   <div className="space-y-3">
-                    <span className="text-xs font-bold text-indigo-300">Matrix A = [[a, b], [c, d]]</span>
+                    <span className="text-xs font-bold text-gold-300">Matrix A = [[a, b], [c, d]]</span>
                     <div className="grid grid-cols-2 gap-2">
                       <div>
                         <label className="text-xs text-slate-400">a: {matA}</label>
@@ -1560,7 +1560,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                           max={5}
                           value={matA}
                           onChange={e => setMatA(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set matrix entry a"
                         />
                       </div>
@@ -1572,7 +1572,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                           max={5}
                           value={matB}
                           onChange={e => setMatB(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set matrix entry b"
                         />
                       </div>
@@ -1584,7 +1584,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                           max={5}
                           value={matC}
                           onChange={e => setMatC(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set matrix entry c"
                         />
                       </div>
@@ -1596,7 +1596,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                           max={5}
                           value={matD}
                           onChange={e => setMatD(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set matrix entry d"
                         />
                       </div>
@@ -1604,7 +1604,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1 font-mono text-xs">
                       <p className="text-emerald-400 font-bold">|A| = ({matA})({matD}) - ({matB})({matC}) = {determinant}</p>
-                      <p className="text-indigo-300">adj(A) = [[{adjoint.a11}, {adjoint.a12}], [{adjoint.a21}, {adjoint.a22}]]</p>
+                      <p className="text-gold-300">adj(A) = [[{adjoint.a11}, {adjoint.a12}], [{adjoint.a21}, {adjoint.a22}]]</p>
                       <p className="text-slate-300">
                         A⁻¹ = {inverseMatrix ? `(1/${determinant}) adj(A)` : 'Undefined (|A| = 0)'}
                       </p>
@@ -1614,7 +1614,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
 
                 {currentSlide === 1 && (
                   <div className="space-y-3">
-                    <span className="text-xs font-bold text-indigo-300">System: 2x + 3y = 7 and 4x + ky = 14</span>
+                    <span className="text-xs font-bold text-gold-300">System: 2x + 3y = 7 and 4x + ky = 14</span>
                     <div>
                       <label className="text-xs text-slate-400">Parameter k: {systemK}</label>
                       <input
@@ -1623,7 +1623,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         max={12}
                         value={systemK}
                         onChange={e => setSystemK(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set system parameter k"
                       />
                     </div>
@@ -1638,7 +1638,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
 
                 {currentSlide === 2 && (
                   <div className="space-y-3">
-                    <span className="text-xs font-bold text-indigo-300">y = (2x² + 1)⁵ → u = 2x² + 1</span>
+                    <span className="text-xs font-bold text-gold-300">y = (2x² + 1)⁵ → u = 2x² + 1</span>
                     <div>
                       <label className="text-xs text-slate-400">x-coordinate: {chainX}</label>
                       <input
@@ -1648,13 +1648,13 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         step={0.5}
                         value={chainX}
                         onChange={e => setChainX(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set chain rule x coordinate"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
-                      <p className="text-indigo-300">du/dx = 4x = {4 * chainX}</p>
-                      <p className="text-indigo-300">dy/du = 5u⁴ = 5({(2 * chainX * chainX + 1).toFixed(1)})⁴</p>
+                      <p className="text-gold-300">du/dx = 4x = {4 * chainX}</p>
+                      <p className="text-gold-300">dy/du = 5u⁴ = 5({(2 * chainX * chainX + 1).toFixed(1)})⁴</p>
                       <p className="text-emerald-400 font-bold">dy/dx = (dy/du) · (du/dx) = {(20 * chainX * Math.pow(2 * chainX * chainX + 1, 4)).toLocaleString()}</p>
                     </div>
                   </div>
@@ -1662,7 +1662,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
 
                 {currentSlide === 3 && (
                   <div className="space-y-3">
-                    <span className="text-xs font-bold text-indigo-300">Implicit Curve x² + y² = 25</span>
+                    <span className="text-xs font-bold text-gold-300">Implicit Curve x² + y² = 25</span>
                     <div>
                       <label className="text-xs text-slate-400">Angle θ on circle: {circleAngle}°</label>
                       <input
@@ -1671,7 +1671,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         max={80}
                         value={circleAngle}
                         onChange={e => setCircleAngle(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set circle angle"
                       />
                     </div>
@@ -1692,7 +1692,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
 
                 {currentSlide === 4 && (
                   <div className="space-y-3">
-                    <span className="text-xs font-bold text-indigo-300">Parametric: x = 3t², y = 2t³</span>
+                    <span className="text-xs font-bold text-gold-300">Parametric: x = 3t², y = 2t³</span>
                     <div>
                       <label className="text-xs text-slate-400">Parameter t: {paramT}</label>
                       <input
@@ -1702,7 +1702,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         step={0.1}
                         value={paramT}
                         onChange={e => setParamT(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set parametric variable t"
                       />
                     </div>
@@ -1715,8 +1715,8 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                 )}
 
                 {currentSlide === 0 && !predictionMade && (
-                  <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800">
-                    <p className="text-xs font-bold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                  <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800">
+                    <p className="text-xs font-bold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="space-y-1.5">
                       {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
                         <motion.button
@@ -1754,7 +1754,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     whileHover={{ scale: 1.2 }}
                     onClick={() => setCurrentSlide(idx)}
                     className={`w-3 h-3 rounded-full transition-all ${
-                      idx === currentSlide ? 'bg-indigo-500 scale-125' : 'bg-slate-800'
+                      idx === currentSlide ? 'bg-gold-500 scale-125' : 'bg-slate-800'
                     }`}
                     aria-label={`Jump to lab ${idx + 1}`}
                   />
@@ -1766,7 +1766,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold"
                 >
                   Next Lab →
                 </motion.button>
@@ -1811,29 +1811,29 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
               </div>
 
               <div className="lg:col-span-5 space-y-4">
-                <span className="text-xs font-bold text-indigo-300">Interactive 2×2 Matrix Rig</span>
+                <span className="text-xs font-bold text-gold-300">Interactive 2×2 Matrix Rig</span>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
                     <label className="text-xs text-slate-400">Entry a: {matA}</label>
-                    <input type="range" min={-4} max={4} value={matA} onChange={e => setMatA(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={-4} max={4} value={matA} onChange={e => setMatA(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-xs text-slate-400">Entry b: {matB}</label>
-                    <input type="range" min={-4} max={4} value={matB} onChange={e => setMatB(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={-4} max={4} value={matB} onChange={e => setMatB(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-xs text-slate-400">Entry c: {matC}</label>
-                    <input type="range" min={-4} max={4} value={matC} onChange={e => setMatC(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={-4} max={4} value={matC} onChange={e => setMatC(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-xs text-slate-400">Entry d: {matD}</label>
-                    <input type="range" min={-4} max={4} value={matD} onChange={e => setMatD(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={-4} max={4} value={matD} onChange={e => setMatD(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2 font-mono text-xs">
                   <p className="text-emerald-400">Determinant |A| = {determinant}</p>
-                  <p className="text-indigo-300">adj(A) = [[{adjoint.a11}, {adjoint.a12}], [{adjoint.a21}, {adjoint.a22}]]</p>
+                  <p className="text-gold-300">adj(A) = [[{adjoint.a11}, {adjoint.a12}], [{adjoint.a21}, {adjoint.a22}]]</p>
                   <p className="text-slate-300">A⁻¹ = {inverseMatrix ? `[[${inverseMatrix.a11}, ${inverseMatrix.a12}], [${inverseMatrix.a21}, ${inverseMatrix.a22}]]` : 'Singular (No Inverse)'}</p>
                 </div>
               </div>
@@ -1852,11 +1852,11 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
             <div className="space-y-2">
               <div className="flex items-center justify-between text-xs text-slate-400">
                 <span className="font-bold text-white">Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-                <span className="font-mono text-indigo-400">Competency: {challenge.competencyLevel.toUpperCase()}</span>
+                <span className="font-mono text-gold-400">Competency: {challenge.competencyLevel.toUpperCase()}</span>
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -1870,7 +1870,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex items-center justify-between gap-2">
-                <motion.span whileHover={{ scale: 1.05 }} className="px-2.5 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-md text-xs font-bold">
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2.5 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-md text-xs font-bold">
                   Node: {challenge.nodeId}
                 </motion.span>
                 <span className="text-xs text-slate-400 font-mono">Hints Used: {hintCount}/3</span>
@@ -1896,11 +1896,11 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/90 border-slate-700 hover:border-indigo-500 text-slate-200'
+                          : 'bg-slate-800/90 border-slate-700 hover:border-gold-500 text-slate-200'
                       }`}
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center font-mono text-xs text-indigo-300">
+                        <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center font-mono text-xs text-gold-300">
                           {String.fromCharCode(65 + i)}
                         </span>
                         <span>{opt}</span>
@@ -1924,7 +1924,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         whileTap={{ scale: 0.95 }}
                         role="button"
                         aria-label={`Draggable matrix entry ${item.label}`}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-sm font-mono font-bold cursor-grab active:cursor-grabbing shadow-md"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-sm font-mono font-bold cursor-grab active:cursor-grabbing shadow-md"
                       >
                         {item.label}
                       </motion.div>
@@ -1953,7 +1953,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                   >
                     Verify Adjoint Mapping
                   </motion.button>
@@ -1980,7 +1980,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-slate-200 text-sm flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-md bg-indigo-950 border border-indigo-700 flex items-center justify-center text-xs font-bold text-indigo-300">
+                      <span className="w-6 h-6 rounded-md bg-gold-950 border border-gold-700 flex items-center justify-center text-xs font-bold text-gold-300">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -1992,7 +1992,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                   >
                     Check Systematic Sequence
                   </motion.button>
@@ -2008,7 +2008,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                       value={numericInput}
                       onChange={e => setNumericInput(e.target.value)}
                       placeholder="Enter calculated value"
-                      className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none w-48"
+                      className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none w-48"
                       aria-label="Numeric answer input"
                     />
                     <span className="text-slate-400 text-sm font-mono">{challenge.unit}</span>
@@ -2017,7 +2017,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm disabled:opacity-50"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm disabled:opacity-50"
                     >
                       Submit Answer
                     </motion.button>
@@ -2028,7 +2028,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
               {/* Construct Type */}
               {challenge.type === 'construct' && challenge.availableParts && (
                 <div className="space-y-4 pt-2">
-                  <p className="text-xs text-indigo-300 font-mono">{challenge.validationHint}</p>
+                  <p className="text-xs text-gold-300 font-mono">{challenge.validationHint}</p>
                   <div className="flex flex-wrap gap-2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                     {challenge.availableParts.map((part, idx) => (
                       <motion.button
@@ -2036,7 +2036,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-mono font-bold"
+                        className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-lg text-xs font-mono font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2049,14 +2049,14 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                         key={idx}
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
-                        className="px-3 py-1 bg-indigo-700 text-white font-mono text-xs rounded-md flex items-center gap-2 shadow"
+                        className="px-3 py-1 bg-gold-700 text-white font-mono text-xs rounded-md flex items-center gap-2 shadow"
                       >
                         <span>{part}</span>
                         <motion.button
                           whileHover={{ scale: 1.2 }}
                           whileTap={{ scale: 0.8 }}
                           onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
-                          className="text-indigo-200 hover:text-white"
+                          className="text-gold-200 hover:text-white"
                           aria-label={`Remove part ${part}`}
                         >
                           ✕
@@ -2073,7 +2073,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm disabled:opacity-50"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm disabled:opacity-50"
                   >
                     Verify Constructed Derivative
                   </motion.button>
@@ -2138,11 +2138,11 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
           <motion.div key="complete" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} className="space-y-6">
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-8 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-4"
+              className="p-8 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-4"
             >
               <span className="text-4xl">🏆</span>
               <h2 className="text-3xl font-black text-white">Applied Mathematics Simulation Mastered!</h2>
-              <p className="text-indigo-300 text-sm max-w-xl mx-auto">
+              <p className="text-gold-300 text-sm max-w-xl mx-auto">
                 You successfully solved matrix inverses, checked multi-variable consistency, and performed multi-layer differential calculus.
               </p>
 
@@ -2175,13 +2175,13 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-900/80 space-y-4"
+              className="p-6 bg-slate-900/90 rounded-2xl border border-gold-900/80 space-y-4"
             >
               <div className="flex items-center gap-2">
                 <span className="text-lg">🧠</span>
                 <h3 className="text-base font-bold text-white">Metacognitive Self-Reflection</h3>
               </div>
-              <p className="text-xs text-indigo-300">
+              <p className="text-xs text-gold-300">
                 Consolidate your long-term understanding by reflecting on what you just solved.
               </p>
 
@@ -2195,7 +2195,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     value={reflectionResponses.surprising}
                     onChange={e => setReflectionResponses({ ...reflectionResponses, surprising: e.target.value })}
                     placeholder="e.g., How determinant = 0 collapses the geometric area completely..."
-                    className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                    className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                   />
                 </div>
                 <div>
@@ -2207,7 +2207,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     value={reflectionResponses.explain}
                     onChange={e => setReflectionResponses({ ...reflectionResponses, explain: e.target.value })}
                     placeholder="e.g., Martin uses inverse pre-multiplication X = A⁻¹B, while Cramer uses column replacement..."
-                    className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                    className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                   />
                 </div>
                 <div>
@@ -2219,7 +2219,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     value={reflectionResponses.realLife}
                     onChange={e => setReflectionResponses({ ...reflectionResponses, realLife: e.target.value })}
                     placeholder="e.g., Analyzing power-law growth rates or compound elasticity in logistics..."
-                    className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                    className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                   />
                 </div>
 
@@ -2232,7 +2232,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     speechManager.speak('Reflection saved! Outstanding metacognition.');
                   }}
                   disabled={reflectionSubmitted || (!reflectionResponses.surprising && !reflectionResponses.explain)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow disabled:opacity-50"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow disabled:opacity-50"
                 >
                   {reflectionSubmitted ? '✓ Reflection Saved' : 'Save Reflection Log'}
                 </motion.button>
@@ -2292,7 +2292,7 @@ function C12_AppliedMathsAdjointInverseMatrixSim({
                     whileHover={{ x: 4 }}
                     className="text-xs text-slate-400 flex items-start gap-2"
                   >
-                    <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                    <span className="text-gold-400 font-bold">{idx + 1}.</span>
                     <span>{step}</span>
                   </motion.li>
                 ))}

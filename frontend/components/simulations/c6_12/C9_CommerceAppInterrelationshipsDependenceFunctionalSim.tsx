@@ -1122,10 +1122,10 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-lg sm:text-xl font-black text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">ICSE Class 9 • Commerce Applications • Section II</p>
+            <p className="text-xs text-gold-300 font-medium">ICSE Class 9 • Commerce Applications • Section II</p>
           </div>
         </div>
 
@@ -1139,7 +1139,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-600/40'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-600/40'
+                : 'bg-gold-950/60 text-gold-400 border-gold-600/40'
             }`}
           >
             Tier: {difficulty}
@@ -1153,9 +1153,9 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
       {/* ── PHASE 1: DISCOVERY HOOK ── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60">
-            <span className="px-2.5 py-0.5 bg-indigo-600 text-white rounded-md text-[10px] font-bold uppercase tracking-wider">Scenario Case</span>
-            <h2 className="text-xl font-black text-indigo-200 mt-2">{SCENARIO.title}</h2>
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60">
+            <span className="px-2.5 py-0.5 bg-gold-600 text-white rounded-md text-[10px] font-bold uppercase tracking-wider">Scenario Case</span>
+            <h2 className="text-xl font-black text-gold-200 mt-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 italic bg-slate-900/80 p-3 rounded-lg border border-slate-800">{SCENARIO.context}</p>
           </div>
@@ -1181,13 +1181,13 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       : 'bg-slate-900 hover:bg-slate-700/80 text-slate-200 border border-slate-700/80'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-indigo-950/60 border border-indigo-700/50 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-gold-950/60 border border-gold-700/50 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className={`text-sm ${discoveryCorrect ? 'text-emerald-300 font-semibold' : 'text-amber-300'}`}>
                   {discoveryCorrect ? '✓ Spot on! One department delay triggers a multi-crore ripple effect.' : `ℹ ${DISCOVERY_QUESTION.hintAfter}`}
                 </p>
@@ -1196,7 +1196,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to interactive exploration labs"
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-xl font-bold shadow-lg shadow-indigo-900/40 whitespace-nowrap text-sm"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-xl font-bold shadow-lg shadow-gold-900/40 whitespace-nowrap text-sm"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1222,7 +1222,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                 }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-950'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-950'
                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-200'
                 }`}
               >
@@ -1241,7 +1241,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div>
-                  <h3 className="text-base font-black text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                  <h3 className="text-base font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-amber-300 mt-0.5">🔍 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
                 <span className="text-xs font-mono text-slate-400">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
@@ -1252,7 +1252,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                 <div className="space-y-4">
                   {/* Predict-then-Check Hook */}
                   {!predictionMade && (
-                    <div className="p-3.5 bg-indigo-950/60 rounded-xl border border-indigo-700/60">
+                    <div className="p-3.5 bg-gold-950/60 rounded-xl border border-gold-700/60">
                       <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-1">Make a Prediction First</p>
                       <p className="text-sm font-semibold text-white mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1284,7 +1284,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       value={delayDays}
                       onChange={(e) => handleDelayChange(Number(e.target.value))}
                       aria-label="Adjust JSW steel delivery delay in days"
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                     />
 
                     {/* Real-time Telemetry Grid */}
@@ -1355,7 +1355,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                     </svg>
 
                     {selectedDepartment && (
-                      <div className="mt-2 p-2.5 bg-slate-900 rounded-lg text-xs text-indigo-300 border border-slate-700">
+                      <div className="mt-2 p-2.5 bg-slate-900 rounded-lg text-xs text-gold-300 border border-slate-700">
                         <span className="font-bold text-white uppercase">{selectedDepartment}: </span>
                         {selectedDepartment === 'purchase' && 'Receives indent from Production; issues POs to JSW Steel & Bosch.'}
                         {selectedDepartment === 'production' && 'Halted by steel shortages; 800 workers sit idle on shift rosters.'}
@@ -1369,7 +1369,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   </div>
 
                   {/* Brilliant.org Observation Question 1 */}
-                  <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-3">
+                  <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-3">
                     <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Brilliant Observation Check #1</span>
                     <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="space-y-2">
@@ -1390,7 +1390,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                               : 'bg-slate-900 hover:bg-slate-700 text-slate-200 border border-slate-700'
                           }`}
                         >
-                          <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
+                          <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
                           {opt}
                         </motion.button>
                       ))}
@@ -1407,7 +1407,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
               {/* ── LAB 2: CRISIS CROSS-LINKAGES (NESTLÉ MAGGI 2015) ── */}
               {currentSlide === 1 && (
                 <div className="space-y-4">
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 text-xs leading-relaxed text-slate-300">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 text-xs leading-relaxed text-slate-300">
                     <span className="font-bold text-amber-400">Case Trigger: </span>
                     FSSAI ordered a nationwide recall of Maggi noodles (June 2015). Notice how non-adjacent departments connect directly without going through the linear chain.
                   </div>
@@ -1476,7 +1476,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                         onClick={() => handleCrossLinkClick(cl.id)}
                         className={`p-3.5 rounded-xl cursor-pointer border transition-all ${
                           activeCrossLink === cl.id
-                            ? 'bg-indigo-950/80 border-indigo-500 shadow-lg shadow-indigo-950'
+                            ? 'bg-gold-950/80 border-gold-500 shadow-lg shadow-gold-950'
                             : 'bg-slate-900/80 border-slate-700 hover:border-slate-500'
                         }`}
                       >
@@ -1495,7 +1495,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center text-xs font-semibold">
                       <span className="text-slate-300">Scale Enterprise Workforce:</span>
-                      <span className="text-indigo-400 font-mono text-sm">{orgScale.toLocaleString()} Employees</span>
+                      <span className="text-gold-400 font-mono text-sm">{orgScale.toLocaleString()} Employees</span>
                     </div>
                     <input
                       type="range"
@@ -1505,7 +1505,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       value={orgScale}
                       onChange={(e) => handleOrgScaleChange(Number(e.target.value))}
                       aria-label="Scale organizational workforce"
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                     />
 
                     {/* Scale Comparison Card */}
@@ -1538,7 +1538,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
               {/* ── LAB 4: VERBAL & NON-VERBAL ALIGNMENT (MEHRABIAN) ── */}
               {currentSlide === 3 && (
                 <div className="space-y-4">
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 text-xs text-slate-300 leading-relaxed">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 text-xs text-slate-300 leading-relaxed">
                     <span className="font-bold text-amber-400">Mehrabian Rule (7-38-55): </span>
                     In emotional face-to-face interactions, Body Language contributes 55%, Tone 38%, and literal Words just 7%.
                   </div>
@@ -1570,7 +1570,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs font-semibold">
                         <span className="text-slate-300">Vocal Tone (Warmth & Pitch):</span>
-                        <span className="text-indigo-400 font-mono">{voiceTone}%</span>
+                        <span className="text-gold-400 font-mono">{voiceTone}%</span>
                       </div>
                       <input
                         type="range"
@@ -1579,12 +1579,12 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                         value={voiceTone}
                         onChange={(e) => handleVoiceToneChange(Number(e.target.value))}
                         aria-label="Adjust voice tone"
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs font-semibold pt-2">
                         <span className="text-slate-300">Body Posture & Eye Contact:</span>
-                        <span className="text-indigo-400 font-mono">{bodyPosture}%</span>
+                        <span className="text-gold-400 font-mono">{bodyPosture}%</span>
                       </div>
                       <input
                         type="range"
@@ -1593,7 +1593,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                         value={bodyPosture}
                         onChange={(e) => handleBodyPostureChange(Number(e.target.value))}
                         aria-label="Adjust body posture and eye contact"
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
                     </div>
 
@@ -1612,7 +1612,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   </div>
 
                   {/* Brilliant.org Observation Question 2 */}
-                  <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-3">
+                  <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-3">
                     <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Brilliant Observation Check #2</span>
                     <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[1].question}</p>
                     <div className="space-y-2">
@@ -1633,7 +1633,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                               : 'bg-slate-900 hover:bg-slate-700 text-slate-200 border border-slate-700'
                           }`}
                         >
-                          <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
+                          <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
                           {opt}
                         </motion.button>
                       ))}
@@ -1659,7 +1659,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                         onClick={() => setSelectedToolScenario(idx)}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
                           selectedToolScenario === idx
-                            ? 'bg-indigo-600 text-white'
+                            ? 'bg-gold-600 text-white'
                             : 'bg-slate-900 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
@@ -1720,7 +1720,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
                     aria-label="Next laboratory slide"
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold shadow-md shadow-indigo-950"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold shadow-md shadow-gold-950"
                   >
                     Next Lab →
                   </motion.button>
@@ -1746,7 +1746,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-4 space-y-4">
           <div className="p-4 bg-gradient-to-r from-slate-800 to-slate-800/80 rounded-2xl border border-slate-700 flex justify-between items-center">
             <div>
-              <h3 className="text-base font-black text-indigo-300">Free Play Operations Sandbox</h3>
+              <h3 className="text-base font-black text-gold-300">Free Play Operations Sandbox</h3>
               <p className="text-xs text-slate-400 mt-0.5">Test variables without grading pressure. Observe cross-functional outcomes freely.</p>
             </div>
             <motion.button
@@ -1765,7 +1765,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
               <div className="space-y-2">
                 <label className="text-xs text-slate-300 font-semibold flex justify-between">
                   <span>Supply Delay Days:</span>
-                  <span className="text-indigo-400 font-mono">{delayDays} Days</span>
+                  <span className="text-gold-400 font-mono">{delayDays} Days</span>
                 </label>
                 <input
                   type="range"
@@ -1774,14 +1774,14 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   value={delayDays}
                   onChange={(e) => handleDelayChange(Number(e.target.value))}
                   aria-label="Sandbox supplier delay slider"
-                  className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                 />
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs text-slate-300 font-semibold flex justify-between">
                   <span>Workforce Scale:</span>
-                  <span className="text-indigo-400 font-mono">{orgScale.toLocaleString()} staff</span>
+                  <span className="text-gold-400 font-mono">{orgScale.toLocaleString()} staff</span>
                 </label>
                 <input
                   type="range"
@@ -1790,7 +1790,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   value={orgScale}
                   onChange={(e) => handleOrgScaleChange(Number(e.target.value))}
                   aria-label="Sandbox workforce scale slider"
-                  className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                 />
               </div>
             </div>
@@ -1810,7 +1810,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">Communication Mode</span>
-                <p className="text-xs font-bold text-indigo-300">{orgScale < 10 ? 'Oral Verbal' : 'Enterprise ERP'}</p>
+                <p className="text-xs font-bold text-gold-300">{orgScale < 10 ? 'Oral Verbal' : 'Enterprise ERP'}</p>
               </div>
             </div>
           </div>
@@ -1826,10 +1826,10 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
           {/* Challenge Header */}
           <div className="flex flex-wrap items-center justify-between gap-2">
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 bg-indigo-600 text-white rounded-md text-xs font-black">
+              <span className="px-2.5 py-0.5 bg-gold-600 text-white rounded-md text-xs font-black">
                 Q {currentChallenge + 1} / {filteredChallenges.length}
               </span>
-              <span className="px-2 py-0.5 bg-slate-800 text-indigo-300 rounded-md text-[10px] font-bold uppercase tracking-wider border border-slate-700">
+              <span className="px-2 py-0.5 bg-slate-800 text-gold-300 rounded-md text-[10px] font-bold uppercase tracking-wider border border-slate-700">
                 NEP 2020: {challenge.competencyLevel}
               </span>
             </div>
@@ -1839,7 +1839,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
           {/* Progress Bar */}
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1876,7 +1876,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                         : 'bg-slate-900 hover:bg-slate-700/80 text-slate-200 border border-slate-700/80'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1896,7 +1896,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3.5 py-2 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md shadow-indigo-950"
+                      className="px-3.5 py-2 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md shadow-gold-950"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -1933,7 +1933,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Submit dropped labels for verification"
-                  className="mt-2 px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-950"
+                  className="mt-2 px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                 >
                   Verify Matched Tools
                 </motion.button>
@@ -1965,7 +1965,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       aria-label={`Sort item ${displayIndex + 1}: ${item}`}
                       className="p-3 bg-slate-900 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 flex items-center justify-center font-bold text-[10px] border border-indigo-700">
+                      <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 flex items-center justify-center font-bold text-[10px] border border-gold-700">
                         {displayIndex + 1}
                       </span>
                       {item}
@@ -1981,7 +1981,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Submit sorted chronological order"
-                  className="mt-2 px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-950"
+                  className="mt-2 px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                 >
                   Confirm Operational Order
                 </motion.button>
@@ -1998,7 +1998,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     aria-label="Enter numeric answer"
-                    className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 text-xs font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2009,7 +2009,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Check numeric calculation"
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-950 disabled:opacity-40"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950 disabled:opacity-40"
                   >
                     Check Calculation
                   </motion.button>
@@ -2029,7 +2029,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-semibold shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-semibold shadow-sm"
                     >
                       + {part}
                     </motion.button>
@@ -2042,7 +2042,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-2.5 py-1 bg-indigo-950 text-indigo-300 rounded-md text-xs font-bold border border-indigo-700 flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-950 text-gold-300 rounded-md text-xs font-bold border border-gold-700 flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2065,7 +2065,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Validate assembled framework"
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-950"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                 >
                   Validate Decision Model
                 </motion.button>
@@ -2139,8 +2139,8 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
           </div>
 
           {/* Explicit Spaced Repetition Visibility */}
-          <div className="p-4 bg-indigo-950/70 border-2 border-indigo-500 rounded-2xl text-center space-y-2 shadow-xl shadow-indigo-950/50">
-            <span className="text-xs font-bold uppercase tracking-widest text-indigo-300">Spaced Repetition System (SRS) Schedule</span>
+          <div className="p-4 bg-gold-950/70 border-2 border-gold-500 rounded-2xl text-center space-y-2 shadow-xl shadow-gold-950/50">
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-300">Spaced Repetition System (SRS) Schedule</span>
             <h3 className="text-xl font-black text-amber-400">
               {errors === 0
                 ? 'Next Review Scheduled: In 7 Days'
@@ -2160,7 +2160,7 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
             </div>
             <div className="p-4 bg-slate-800 rounded-xl border border-slate-700 text-center">
               <span className="text-xs text-slate-400 uppercase font-bold">Assessed BKT Mastery</span>
-              <p className="text-2xl font-black text-indigo-400 mt-1 uppercase">{masteryLevel}</p>
+              <p className="text-2xl font-black text-gold-400 mt-1 uppercase">{masteryLevel}</p>
             </div>
             <div className="p-4 bg-slate-800 rounded-xl border border-slate-700 text-center">
               <span className="text-xs text-slate-400 uppercase font-bold">SRS Review Target</span>
@@ -2202,13 +2202,13 @@ function C9_CommerceAppInterrelationshipsDependenceFunctionalSim({
           )}
 
           {/* Real World Activity Arc */}
-          <div className="p-5 bg-indigo-950/60 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-base font-black text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/60 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-base font-black text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <p key={i} className="text-xs text-slate-400">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </p>
               ))}
             </div>

@@ -35,10 +35,10 @@ interface Props {
 }
 
 const BEAT_STYLE: Record<string, { chip: string; icon: string; card: string }> = {
-    mission:  { chip: 'from-violet-500 to-indigo-600', icon: '🎯', card: 'border-violet-300 shadow-violet-200/60' },
+    mission:  { chip: 'from-gold-500 to-gold-600', icon: '🎯', card: 'border-gold-300 shadow-gold-200/60' },
     scaffold: { chip: 'from-amber-400 to-orange-500',  icon: '🪜', card: 'border-amber-300 shadow-amber-200/60' },
     case:     { chip: 'from-rose-500 to-pink-600',     icon: '⚖️', card: 'border-rose-300 shadow-rose-200/60' },
-    dissect:  { chip: 'from-cyan-500 to-sky-600',      icon: '🔬', card: 'border-cyan-300 shadow-cyan-200/60' },
+    dissect:  { chip: 'from-gold-500 to-gold-600',      icon: '🔬', card: 'border-gold-300 shadow-gold-200/60' },
     build:    { chip: 'from-emerald-500 to-teal-600',  icon: '🔧', card: 'border-emerald-300 shadow-emerald-200/60' },
     drill:    { chip: 'from-orange-500 to-red-500',    icon: '⚡', card: 'border-orange-300 shadow-orange-200/60' },
 };
@@ -107,9 +107,9 @@ function MissionBeat({ beat, signal, onPass, junior }: B) {
                     className="px-6 py-2.5 rounded-2xl bg-emerald-500 text-white font-black shadow">Check ✅</motion.button>
             ) : (
                 <div className="flex flex-col items-center gap-2">
-                    {m.observePrompt && <p className="text-sm font-semibold text-indigo-700 text-center">{m.observePrompt}</p>}
+                    {m.observePrompt && <p className="text-sm font-semibold text-gold-700 text-center">{m.observePrompt}</p>}
                     <motion.button whileTap={{ scale: 0.94 }} onClick={onPass}
-                        className="px-6 py-2.5 rounded-2xl bg-indigo-500 text-white font-black shadow">Continue →</motion.button>
+                        className="px-6 py-2.5 rounded-2xl bg-gold-500 text-white font-black shadow">Continue →</motion.button>
                 </div>
             )}
             {failed && <p className="text-xs font-bold text-rose-500">Not yet — adjust and check again.</p>}
@@ -161,8 +161,8 @@ function ScaffoldBeat({ beat, signal, onPass }: B) {
             <p className="text-sm font-bold text-gray-700 mb-3"><LazyAutoMath text={s.problem} /></p>
             <div className="space-y-2 mb-4">
                 {s.steps.map((st, i) => (
-                    <div key={i} className="flex items-start gap-2 bg-indigo-50 rounded-xl px-3 py-2">
-                        <span className="font-black text-indigo-400 text-sm">{i + 1}.</span>
+                    <div key={i} className="flex items-start gap-2 bg-gold-50 rounded-xl px-3 py-2">
+                        <span className="font-black text-gold-400 text-sm">{i + 1}.</span>
                         {st.faded ? (
                             revealed[i] ? (
                                 <p className="text-sm font-semibold text-emerald-700"><LazyAutoMath text={st.blankAnswer ?? st.text} /></p>
@@ -170,10 +170,10 @@ function ScaffoldBeat({ beat, signal, onPass }: B) {
                                 <div className="flex-1 flex flex-col gap-1">
                                     <input value={answers[i] ?? ''} onChange={e => setAnswers(a => ({ ...a, [i]: e.target.value }))}
                                         placeholder={checked && !allRight ? 'try again…' : 'your answer'}
-                                        className="px-2 py-0.5 rounded-lg border-2 border-indigo-300 font-bold text-sm" />
+                                        className="px-2 py-0.5 rounded-lg border-2 border-gold-300 font-bold text-sm" />
                                     {checked && !allRight && (
                                         <button onClick={() => setRevealed(r => ({ ...r, [i]: true }))}
-                                            className="text-[10px] font-bold text-indigo-500 underline text-left">stuck? show me this step</button>
+                                            className="text-[10px] font-bold text-gold-500 underline text-left">stuck? show me this step</button>
                                     )}
                                 </div>
                             )
@@ -200,7 +200,7 @@ function CaseBeat({ beat, signal, onPass }: B) {
     // authored options are correct-first — shuffle display order (seeded,
     // stable) so position never leaks the answer; `picked` indexes `opts`
     const opts = useMemo(() => dec ? shuffled(dec.options, dec.prompt) : [], [dec]);
-    if (!dec) return <button onClick={onPass} className="px-6 py-2.5 rounded-2xl bg-indigo-500 text-white font-black shadow">Continue →</button>;
+    if (!dec) return <button onClick={onPass} className="px-6 py-2.5 rounded-2xl bg-gold-500 text-white font-black shadow">Continue →</button>;
     return (
         <div className="w-full max-w-lg">
             {di === 0 && picked === null && <p className="text-sm font-semibold text-gray-600 mb-3 text-center">{c.intro}</p>}
@@ -209,7 +209,7 @@ function CaseBeat({ beat, signal, onPass }: B) {
                 {opts.map((o, i) => (
                     <motion.button key={i} whileTap={{ scale: 0.97 }} disabled={picked !== null}
                         onClick={() => { setPicked(i); signal({ correct: !o.reveals }); }}
-                        className={`px-4 py-2.5 rounded-xl font-bold text-sm text-left shadow border-2 ${picked === i ? 'border-indigo-500 bg-indigo-50' : 'border-gray-200 bg-white'}`}>
+                        className={`px-4 py-2.5 rounded-xl font-bold text-sm text-left shadow border-2 ${picked === i ? 'border-gold-500 bg-gold-50' : 'border-gray-200 bg-white'}`}>
                         {o.text}
                     </motion.button>
                 ))}
@@ -221,7 +221,7 @@ function CaseBeat({ beat, signal, onPass }: B) {
                     </p>
                     <motion.button whileTap={{ scale: 0.94 }}
                         onClick={() => { setPicked(null); di < c.decisions.length - 1 ? setDi(d => d + 1) : onPass(); }}
-                        className="mt-3 px-6 py-2.5 rounded-2xl bg-indigo-500 text-white font-black shadow">
+                        className="mt-3 px-6 py-2.5 rounded-2xl bg-gold-500 text-white font-black shadow">
                         {di < c.decisions.length - 1 ? 'Next decision →' : 'Done →'}
                     </motion.button>
                 </motion.div>
@@ -236,10 +236,10 @@ function DissectBeat({ beat, signal, onPass }: B) {
     const [si, setSi] = useState(0);
     const spot = d.spots[si];
     const spotOpts = useMemo(() => spot ? shuffled(spot.options ?? [spot.answer], spot.prompt) : [], [spot]);
-    if (!spot) return <button onClick={onPass} className="px-6 py-2.5 rounded-2xl bg-indigo-500 text-white font-black shadow">Continue →</button>;
+    if (!spot) return <button onClick={onPass} className="px-6 py-2.5 rounded-2xl bg-gold-500 text-white font-black shadow">Continue →</button>;
     return (
         <div className="w-full max-w-lg">
-            <p className="text-xs font-black text-indigo-400 uppercase mb-1">Spot {si + 1}/{d.spots.length}: {spot.label}</p>
+            <p className="text-xs font-black text-gold-400 uppercase mb-1">Spot {si + 1}/{d.spots.length}: {spot.label}</p>
             <p className="text-sm font-bold text-gray-800 mb-3">{spot.prompt}</p>
             <div className="flex flex-wrap gap-2">
                 {spotOpts.map((o, i) => (
@@ -265,12 +265,12 @@ function BuildBeat({ beat, signal, onPass }: B) {
                 <div className="flex flex-wrap gap-2 justify-center">
                     {b.blocks.map((bl, i) => (
                         <button key={i} onClick={() => setAns(a => a ? a + ' ' + bl : bl)}
-                            className="px-3 py-1.5 rounded-lg bg-indigo-100 border-2 border-indigo-300 font-bold text-xs text-indigo-900">{bl}</button>
+                            className="px-3 py-1.5 rounded-lg bg-gold-100 border-2 border-gold-300 font-bold text-xs text-gold-900">{bl}</button>
                     ))}
                 </div>
             ) : null}
             <input value={ans} onChange={e => setAns(e.target.value)} placeholder="construct your answer"
-                className="px-4 py-2.5 rounded-xl border-2 border-indigo-300 font-bold w-64 text-center" />
+                className="px-4 py-2.5 rounded-xl border-2 border-gold-300 font-bold w-64 text-center" />
             <motion.button whileTap={{ scale: 0.94 }}
                 onClick={() => { setTried(true); signal({ correct: ok }); if (ok) setTimeout(onPass, 700); }}
                 className="px-6 py-2.5 rounded-2xl bg-emerald-500 text-white font-black shadow">Check ✅</motion.button>
@@ -285,10 +285,10 @@ function DrillBeat({ beat, classLevel, signal, onPass }: B & { classLevel: numbe
     const [items] = useState(() => generateChallenges(d.kind, d.count, d.level ?? classLevel));
     const [i, setI] = useState(0);
     const item = items[i];
-    if (!item) return <button onClick={onPass} className="px-6 py-2.5 rounded-2xl bg-indigo-500 text-white font-black shadow">Continue →</button>;
+    if (!item) return <button onClick={onPass} className="px-6 py-2.5 rounded-2xl bg-gold-500 text-white font-black shadow">Continue →</button>;
     return (
         <div className="w-full max-w-lg flex flex-col items-center gap-3">
-            <p className="text-xs font-black text-indigo-400 uppercase">drill {i + 1}/{items.length}</p>
+            <p className="text-xs font-black text-gold-400 uppercase">drill {i + 1}/{items.length}</p>
             <p className="text-base font-black text-gray-800 text-center">{item.question}</p>
             <div className="flex flex-wrap gap-2 justify-center">
                 {(item.options ?? []).map((o, j) => (

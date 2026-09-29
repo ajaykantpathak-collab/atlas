@@ -11,7 +11,7 @@ export const w_c8_mathematicsdirectandinverseproportionssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Unitary Method: Finding One Unit Then Scaling',
     chapters: [],
     nodeIds: ['c8_math_ch7_6', 'c8_math_ch7_8', 'c8_math_ch7_9', 'c8_math_ch10_1', 'c8_math_ch10_10', 'c8_math_ch10_6', 'c8_math_ch10_7', 'c8_math_ch10_9', 'c8_math_ch7_1', 'c8_math_ch7_4', 'c8_math_ch7_5', 'c8_math_ch7_7', 'c8_math_ch10_4', 'c8_math_ch10_5', 'c8_math_ch10_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are at a vegetable market in Delhi: 3.5 kg of tomatoes cost ₹105.', goal: 'Master Unitary Method: Finding One Unit Then Scaling.' },
     discovery: {
         question: 'A car travels a fixed distance of 240 km. Explain why the speed of the car and the time taken are in inverse proportion, using the concept of constant product.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsdirectandinverseproportionssim: SimDef = {
         hook: 'Students mechanically apply the direct proportion formula \\(x_1/y_1 = x_2/y_2\\) to *every* problem with two quantities,.',
     },
     teaching: [
-        { title: 'The unitary method is a technique for.', text: 'The unitary method is a technique for solving proportional problems by first finding the value of a single unit from the given value of multiple units, then scaling that unit value to find the value.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The unitary method is a technique for.', text: 'The unitary method is a technique for solving proportional problems by first finding the value of a single unit from the given value of multiple units, then scaling that unit value to find the value.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch7_6', title: 'The unitary method is a technique for.',

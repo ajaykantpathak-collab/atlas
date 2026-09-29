@@ -1282,12 +1282,12 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
         className="flex flex-wrap items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded-md uppercase tracking-wider">
+              <span className="text-xs font-semibold px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded-md uppercase tracking-wider">
                 ISC Class 11 Physics
               </span>
               <span className="text-xs text-slate-400">Chapters: Thermo, KTG & Oscillations</span>
@@ -1312,7 +1312,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
               }}
               className={`px-3 py-1.5 rounded-xl capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1325,13 +1325,13 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm tracking-wider uppercase mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wider uppercase mb-2">
               <span>🚀 Scenario Briefing</span>
             </div>
             <h2 className="text-2xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-            <div className="p-3.5 bg-slate-900/90 rounded-xl border border-slate-700/60 text-xs text-indigo-200">
+            <div className="p-3.5 bg-slate-900/90 rounded-xl border border-slate-700/60 text-xs text-gold-200">
               <span className="font-bold text-amber-400">Context: </span>
               {SCENARIO.context}
             </div>
@@ -1360,10 +1360,10 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold text-indigo-400 mr-2 flex-shrink-0">
+                  <span className="font-bold text-gold-400 mr-2 flex-shrink-0">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && '✓ '}
                     {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && '✗ '}
                     {String.fromCharCode(65 + i)}.
@@ -1388,7 +1388,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm whitespace-nowrap shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm whitespace-nowrap shadow-lg shadow-gold-600/30"
                 >
                   Explore Interactive Labs →
                 </motion.button>
@@ -1404,9 +1404,9 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
           {/* ─── BRILLIANT.ORG PREDICTION & OBSERVATION BANNER ─── */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Prediction Card */}
-            <div className="p-4 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/50 space-y-2">
+            <div className="p-4 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/50 space-y-2">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-1.5">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
                   <span>🔮 Predict-Then-Check #{predIndex + 1}</span>
                 </span>
                 <div className="flex gap-1">
@@ -1415,7 +1415,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       key={i}
                       onClick={() => setPredIndex(i)}
                       className={`w-6 h-6 rounded-full text-xs font-bold ${
-                        predIndex === i ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        predIndex === i ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {i + 1}
@@ -1445,7 +1445,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                 ))}
               </div>
               {showPredFeedback[predIndex] && (
-                <div className="mt-2 p-2 bg-slate-950 rounded-lg border border-indigo-900/50 text-[11px] text-indigo-300">
+                <div className="mt-2 p-2 bg-slate-950 rounded-lg border border-gold-900/50 text-[11px] text-gold-300">
                   <span className="font-bold text-amber-400">Verify Instruction: </span>
                   {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                 </div>
@@ -1511,7 +1511,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
-                <span className="text-xs font-bold px-2.5 py-1 bg-indigo-950 text-indigo-300 border border-indigo-800 rounded-lg uppercase tracking-wider">
+                <span className="text-xs font-bold px-2.5 py-1 bg-gold-950 text-gold-300 border border-gold-800 rounded-lg uppercase tracking-wider">
                   Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-xs text-slate-400 font-mono">
@@ -1528,7 +1528,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <label htmlFor="piston-compression-slider">Piston Compression Ratio:</label>
-                        <span className="font-bold text-indigo-400">{compressionRatio.toFixed(1)}x</span>
+                        <span className="font-bold text-gold-400">{compressionRatio.toFixed(1)}x</span>
                       </div>
                       <input
                         id="piston-compression-slider"
@@ -1542,7 +1542,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                           setCompressionRatio(parseFloat(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1556,7 +1556,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                           onClick={() => handleGasTypeSelect(t)}
                           className={`flex-1 py-2 rounded-xl text-xs font-bold capitalize border ${
                             gasType === t
-                              ? 'bg-indigo-600 border-indigo-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1568,7 +1568,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     <div className="grid grid-cols-2 gap-3 text-xs">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">Final Pressure P2:</span>
-                        <p className="text-lg font-mono font-bold text-indigo-300">
+                        <p className="text-lg font-mono font-bold text-gold-300">
                           {(adiabaticCalculations.P2 / 1000).toFixed(1)} kPa
                         </p>
                       </div>
@@ -1669,13 +1669,13 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                           step={10}
                           value={carnotT2}
                           onChange={(e) => setCarnotT2(Number(e.target.value))}
-                          className="w-full accent-cyan-500 mt-1"
+                          className="w-full accent-gold-500 mt-1"
                         />
-                        <span className="text-sm font-bold text-cyan-400">{carnotT2} K</span>
+                        <span className="text-sm font-bold text-gold-400">{carnotT2} K</span>
                       </div>
                     </div>
 
-                    <div className="p-4 bg-gradient-to-r from-slate-900 to-indigo-950/40 rounded-xl border border-indigo-900/50">
+                    <div className="p-4 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-xl border border-gold-900/50">
                       <span className="text-xs text-slate-400">Theoretical Carnot Max Efficiency:</span>
                       <p className="text-2xl font-black text-emerald-400 font-mono">
                         η = {(adiabaticCalculations.carnotEff * 100).toFixed(1)}%
@@ -1689,8 +1689,8 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       {[
                         { title: '1. Isothermal Expansion', desc: `Absorbs Q1 at ${carnotT1} K`, col: 'text-rose-400' },
                         { title: '2. Adiabatic Expansion', desc: `Cools Q=0 from ${carnotT1}K to ${carnotT2}K`, col: 'text-amber-400' },
-                        { title: '3. Isothermal Compression', desc: `Rejects Q2 at ${carnotT2} K`, col: 'text-cyan-400' },
-                        { title: '4. Adiabatic Compression', desc: `Heats Q=0 from ${carnotT2}K to ${carnotT1}K`, col: 'text-indigo-400' }
+                        { title: '3. Isothermal Compression', desc: `Rejects Q2 at ${carnotT2} K`, col: 'text-gold-400' },
+                        { title: '4. Adiabatic Compression', desc: `Heats Q=0 from ${carnotT2}K to ${carnotT1}K`, col: 'text-gold-400' }
                       ].map((stg, idx) => (
                         <motion.button
                           key={idx}
@@ -1702,7 +1702,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                           }}
                           className={`w-full text-left p-2.5 rounded-xl border text-xs flex justify-between items-center ${
                             activeCarnotStage === idx
-                              ? 'bg-slate-800 border-indigo-500 font-bold'
+                              ? 'bg-slate-800 border-gold-500 font-bold'
                               : 'bg-slate-900/60 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1769,7 +1769,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     <div className="grid grid-cols-2 gap-3 text-xs">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">RMS Speed (c_rms):</span>
-                        <p className="text-lg font-mono font-bold text-indigo-300">
+                        <p className="text-lg font-mono font-bold text-gold-300">
                           {kineticCalculations.c_rms.toFixed(1)} m/s
                         </p>
                       </div>
@@ -1781,7 +1781,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">Avg KE / Molecule:</span>
-                        <p className="text-sm font-mono font-bold text-cyan-300">
+                        <p className="text-sm font-mono font-bold text-gold-300">
                           {(kineticCalculations.avgKE_molecule * 1e21).toFixed(2)} × 10⁻²¹ J
                         </p>
                       </div>
@@ -1819,11 +1819,11 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                         onClick={() => handleGasTypeSelect(g.type as any)}
                         className={`p-4 rounded-xl text-left border transition-all ${
                           gasType === g.type
-                            ? 'bg-indigo-950 border-indigo-500 shadow-lg shadow-indigo-600/20'
+                            ? 'bg-gold-950 border-gold-500 shadow-lg shadow-gold-600/20'
                             : 'bg-slate-900 border-slate-800'
                         }`}
                       >
-                        <span className="text-xs font-bold text-indigo-400 block">{g.name}</span>
+                        <span className="text-xs font-bold text-gold-400 block">{g.name}</span>
                         <p className="text-lg font-black text-white mt-1">{g.f}</p>
                         <p className="text-[11px] text-slate-400 mt-1">{g.modes}</p>
                         <div className="mt-3 pt-2 border-t border-slate-800 flex justify-between text-xs font-mono">
@@ -1835,7 +1835,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs leading-relaxed text-slate-300">
-                    <span className="font-bold text-indigo-300">Law of Equipartition: </span>
+                    <span className="font-bold text-gold-300">Law of Equipartition: </span>
                     Every active degree of freedom receives equal energy = <span className="text-amber-300 font-mono">(1/2)kT</span> per molecule or <span className="text-amber-300 font-mono">(1/2)RT</span> per mole. Rotational mode along the diatomic bond axis is neglected because its moment of inertia is near zero.
                   </div>
                 </div>
@@ -1856,9 +1856,9 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                           max={150}
                           value={shmStiffness}
                           onChange={(e) => setShmStiffness(Number(e.target.value))}
-                          className="w-full accent-indigo-500 mt-1"
+                          className="w-full accent-gold-500 mt-1"
                         />
-                        <span className="text-xs font-bold text-indigo-300">{shmStiffness} N/m</span>
+                        <span className="text-xs font-bold text-gold-300">{shmStiffness} N/m</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <label htmlFor="shm-amplitude-slider" className="text-xs text-slate-400 block">Amplitude (A):</label>
@@ -1886,7 +1886,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       </div>
                       <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">Potential Energy (PE)</span>
-                        <p className="text-base font-bold font-mono text-cyan-400">
+                        <p className="text-base font-bold font-mono text-gold-400">
                           {shmCalculations.potentialEnergy.toFixed(3)} J
                         </p>
                       </div>
@@ -1899,13 +1899,13 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
-                      <span>Time Period: <strong className="text-indigo-300">{shmCalculations.period.toFixed(3)} s</strong></span>
-                      <span>Frequency: <strong className="text-indigo-300">{shmCalculations.frequency.toFixed(2)} Hz</strong></span>
+                      <span>Time Period: <strong className="text-gold-300">{shmCalculations.period.toFixed(3)} s</strong></span>
+                      <span>Frequency: <strong className="text-gold-300">{shmCalculations.frequency.toFixed(2)} Hz</strong></span>
                       <motion.button
                         aria-label={isShmRunning ? "Pause oscillation animation" : "Resume oscillation animation"}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setIsShmRunning(r => !r)}
-                        className="px-3 py-1 bg-indigo-600 rounded-lg font-bold text-white text-xs"
+                        className="px-3 py-1 bg-gold-600 rounded-lg font-bold text-white text-xs"
                       >
                         {isShmRunning ? 'Pause' : 'Resume'}
                       </motion.button>
@@ -1946,7 +1946,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1989,7 +1989,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Thermo Controls */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">1. Adiabatic & Carnot</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">1. Adiabatic & Carnot</span>
               <div>
                 <label htmlFor="sandbox-compression-slider" className="text-[11px] text-slate-400 flex justify-between">
                   <span>Compression Ratio:</span>
@@ -2004,7 +2004,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   step={0.1}
                   value={compressionRatio}
                   onChange={(e) => setCompressionRatio(parseFloat(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-2.5 bg-slate-950 rounded-xl text-xs space-y-1">
@@ -2046,11 +2046,11 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
               <div className="p-2.5 bg-slate-950 rounded-xl text-xs space-y-1">
                 <div className="flex justify-between">
                   <span className="text-slate-400">RMS Velocity c_rms:</span>
-                  <span className="font-mono text-indigo-300">{kineticCalculations.c_rms.toFixed(0)} m/s</span>
+                  <span className="font-mono text-gold-300">{kineticCalculations.c_rms.toFixed(0)} m/s</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Kinetic Pressure:</span>
-                  <span className="font-mono text-cyan-300">{(kineticCalculations.pressure / 1000).toFixed(1)} kPa</span>
+                  <span className="font-mono text-gold-300">{(kineticCalculations.pressure / 1000).toFixed(1)} kPa</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Mean Free Path λ:</span>
@@ -2090,7 +2090,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Frequency f:</span>
-                  <span className="font-mono text-indigo-300">{shmCalculations.frequency.toFixed(2)} Hz</span>
+                  <span className="font-mono text-gold-300">{shmCalculations.frequency.toFixed(2)} Hz</span>
                 </div>
               </div>
             </div>
@@ -2116,7 +2116,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                       : difficulty === 'standard'
-                      ? 'bg-indigo-950 text-indigo-400 border border-indigo-800'
+                      ? 'bg-gold-950 text-gold-400 border border-gold-800'
                       : 'bg-rose-950 text-rose-400 border border-rose-800'
                   }`}
                 >
@@ -2134,7 +2134,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
             {/* Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2168,10 +2168,10 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
-                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2 flex-shrink-0">
+                    <span className="font-bold text-gold-400 mr-2 flex-shrink-0">
                       {showExplanation && i === challenge.correctIndex && '✓ '}
                       {String.fromCharCode(65 + i)}.
                     </span>
@@ -2195,7 +2195,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2233,7 +2233,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 text-white font-bold text-sm rounded-xl"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold text-sm rounded-xl"
                 >
                   Check Diagram Placements
                 </motion.button>
@@ -2265,7 +2265,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-indigo-900/60 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                    <span className="w-6 h-6 rounded-lg bg-gold-900/60 text-gold-300 font-bold flex items-center justify-center text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2278,7 +2278,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-md"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-md"
                 >
                   Verify Sequence Order
                 </motion.button>
@@ -2296,16 +2296,16 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-48"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-48"
                   />
-                  <span className="text-sm font-bold text-indigo-300">{challenge.unit}</span>
+                  <span className="text-sm font-bold text-gold-300">{challenge.unit}</span>
                   <motion.button
                     aria-label="Submit numeric answer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-md disabled:opacity-50"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-md disabled:opacity-50"
                   >
                     Submit Answer
                   </motion.button>
@@ -2325,7 +2325,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, p])}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 rounded-lg text-xs font-mono font-bold"
                     >
                       + {p}
                     </motion.button>
@@ -2334,12 +2334,12 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-600 text-white rounded-md text-xs font-mono flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-600 text-white rounded-md text-xs font-mono flex items-center gap-1">
                       {part}
                       <button
                         aria-label={`Remove ${part}`}
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
-                        className="text-indigo-200 hover:text-white ml-1 font-bold"
+                        className="text-gold-200 hover:text-white ml-1 font-bold"
                       >
                         ×
                       </button>
@@ -2357,7 +2357,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0 || showExplanation}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl disabled:opacity-50"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl disabled:opacity-50"
                   >
                     Verify Equation
                   </motion.button>
@@ -2434,7 +2434,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-4 shadow-2xl">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-3xl font-black text-white">Simulation Mastery Complete!</h2>
             <div className="flex justify-center gap-6 text-center pt-2">
@@ -2446,7 +2446,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 uppercase">Mastery Tier</span>
-                <p className="text-3xl font-black text-indigo-400 capitalize mt-1">
+                <p className="text-3xl font-black text-gold-400 capitalize mt-1">
                   {masteryLevel}
                 </p>
               </div>
@@ -2463,12 +2463,12 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* ─── SPACED REPETITION (SRS) VISIBILITY CARD ─── */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/90 to-purple-950/90 rounded-2xl border border-indigo-600/60 shadow-lg space-y-3">
+          <div className="p-6 bg-gradient-to-r from-gold-950/90 to-purple-950/90 rounded-2xl border border-gold-600/60 shadow-lg space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-2xl" aria-hidden="true">🧠</span>
                 <div>
-                  <h3 className="text-sm font-bold text-indigo-200 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-200 uppercase tracking-wider">
                     Spaced Repetition Schedule (SM-2 Algorithm)
                   </h3>
                   <p className="text-xs text-slate-400">
@@ -2476,7 +2476,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   </p>
                 </div>
               </div>
-              <span className="px-3 py-1 bg-indigo-600/80 text-white font-mono font-bold text-xs rounded-lg border border-indigo-400/40">
+              <span className="px-3 py-1 bg-gold-600/80 text-white font-mono font-bold text-xs rounded-lg border border-gold-400/40">
                 {errors === 0 ? 'Optimal Memory Strength' : errors <= 3 ? 'Good Retention' : 'Review Needed Soon'}
               </span>
             </div>
@@ -2496,7 +2496,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
               </div>
             </div>
 
-            <div className="p-3 bg-slate-950/80 rounded-xl border border-indigo-900/40 text-xs text-indigo-300 flex justify-between items-center">
+            <div className="p-3 bg-slate-950/80 rounded-xl border border-gold-900/40 text-xs text-gold-300 flex justify-between items-center">
               <span>
                 📅 Your personalized next review interval: <strong className="text-white underline">{errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}</strong>.
               </span>
@@ -2508,7 +2508,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl" aria-hidden="true">💭</span>
-              <h3 className="text-base font-bold text-indigo-300">Self-Reflection & Conceptual Consolidation</h3>
+              <h3 className="text-base font-bold text-gold-300">Self-Reflection & Conceptual Consolidation</h3>
             </div>
             <p className="text-xs text-slate-400">
               Take a moment to solidify what you have explored and connected across thermodynamics and oscillation mechanics.
@@ -2525,7 +2525,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   value={reflections.surprising}
                   onChange={(e) => setReflections(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g., How adiabatic compression heats a gas purely through mechanical work without any heat added..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-750 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 placeholder:text-slate-600"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-750 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder:text-slate-600"
                 />
               </div>
 
@@ -2540,7 +2540,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   value={reflections.explain}
                   onChange={(e) => setReflections(r => ({ ...r, explain: e.target.value }))}
                   placeholder="e.g., Simple harmonic motion is like an energetic pendulum trading maximum speed for maximum stretch..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-750 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 placeholder:text-slate-600"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-750 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder:text-slate-600"
                 />
               </div>
 
@@ -2555,7 +2555,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                   value={reflections.realLife}
                   onChange={(e) => setReflections(r => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g., In designing vehicle shock absorbers, refrigeration heat pumps, and cryogenic rocket pressurization..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-750 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 placeholder:text-slate-600"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-750 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder:text-slate-600"
                 />
               </div>
             </div>
@@ -2582,7 +2582,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
 
           {/* Real-World Challenge Brief */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
@@ -2606,7 +2606,7 @@ export function C11_PhysicsWorkDoneAdiabaticSim(props: Props = DEFAULT_PROPS) {
                 setCurrentChallenge(0);
                 audioManager.play('whoosh');
               }}
-              className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-xl shadow-indigo-600/30"
+              className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-xl shadow-gold-600/30"
             >
               Replay Simulation Lab 🔄
             </motion.button>

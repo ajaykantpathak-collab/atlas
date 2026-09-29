@@ -70,14 +70,14 @@ const TEACHING_SLIDES = [
     title: 'Wonders of Water 💧',
     text: 'Water is a liquid that takes the shape of whatever container you pour it into! Pure, clean water is transparent, colourless, tasteless, and odourless. It dissolves sugar and salt to form solutions!',
     emoji: '💧',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'Water is a liquid that takes the shape of its container. Pure clean water is transparent and dissolves sugar and salt!',
   },
   {
     title: 'Water as Our Resource 🚰',
     text: 'Water is Earth\'s most precious resource! All living things need water to survive. We use water for drinking, cooking, bathing, washing, farming, and industries. We must keep water clean by boiling or filtering!',
     emoji: '🌊',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Water is Earth\'s most precious resource. We use it for drinking, cooking, and farming. Always boil or filter water before drinking!',
   },
   {
@@ -815,7 +815,7 @@ export function WaterSunGame({ width = 720, height = 560, onComplete }: WaterSun
 
   return (
     <div
-      className="relative select-none overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-sky-300 to-emerald-400 font-sans"
+      className="relative select-none overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-gold-300 to-emerald-400 font-sans"
       style={{ width, height }}
     >
       {/* Background Scene */}
@@ -900,7 +900,7 @@ export function WaterSunGame({ width = 720, height = 560, onComplete }: WaterSun
           {/* Top Status Bar */}
           <div className="flex justify-between items-center bg-white/90 backdrop-blur px-6 py-3 rounded-2xl shadow-lg border border-white">
             <div className="flex items-center gap-3">
-              <span className="text-xl font-extrabold text-blue-800">
+              <span className="text-xl font-extrabold text-gold-800">
                 Challenge {challengeIdx + 1} / {CHALLENGES.length}
               </span>
             </div>
@@ -925,7 +925,7 @@ export function WaterSunGame({ width = 720, height = 560, onComplete }: WaterSun
                 {currentChallenge.options.map((option, idx) => {
                   const isSelected = selectedAnswer === option;
                   const isCorrectOption = option === currentChallenge.answer;
-                  let btnStyle = 'bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200 text-gray-800 hover:bg-blue-100';
+                  let btnStyle = 'bg-gradient-to-r from-gold-50 to-gold-50 border-gold-200 text-gray-800 hover:bg-gold-100';
                   if (selectedAnswer) {
                     if (isCorrectOption) btnStyle = 'bg-green-500 text-white border-green-600 scale-102';
                     else if (isSelected) btnStyle = 'bg-red-500 text-white border-red-600';

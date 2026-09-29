@@ -11,7 +11,7 @@ export const w_c11_biologymitosisdetailedstagessim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Cell Cycle: Phases and Duration',
     chapters: [],
     nodeIds: ['c11_bio_cbse_10_001', 'c11_bio_cbse_10_004', 'c11_bio_cbse_10_005', 'c11_bio_cbse_10_006', 'c11_bio_cbse_10_002', 'c11_bio_cbse_10_003', 'c11_bio_cbse_10_007', 'c11_bio_cbse_02_004', 'c11_bio_cbse_08_009', 'c11_bio_cbse_04_006', 'c11_bio_cbse_04_014', 'c11_bio_cbse_12_001', 'c11_bio_cbse_11_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a healing skin wound: new cells appear daily to close the gap.', goal: 'Master Cell Cycle: Phases and Duration.' },
     discovery: {
         question: 'What are the two main phases of the cell cycle, and which phase occupies more than 95% of the total cycle duration in a typical human cell?',
@@ -20,7 +20,7 @@ export const w_c11_biologymitosisdetailedstagessim: SimDef = {
         hook: 'Students think "Interphase is a resting phase where nothing happens" because the nucleus looks calm.',
     },
     teaching: [
-        { title: 'The cell cycle is an ordered sequence of.', text: 'The cell cycle is an ordered sequence of events in which a eukaryotic cell duplicates its genome, synthesizes other cellular constituents, and divides into two genetically identical daughter cells,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The cell cycle is an ordered sequence of.', text: 'The cell cycle is an ordered sequence of events in which a eukaryotic cell duplicates its genome, synthesizes other cellular constituents, and divides into two genetically identical daughter cells,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_10_001', title: 'The cell cycle is an ordered sequence.',

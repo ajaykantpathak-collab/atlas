@@ -6,7 +6,7 @@ export const c10_phy_ch01_p2: SimDef = {
     id: 'v3_c10_phy_ch01_p2',
     title: 'Electricity',
     subtitle: 'Build circuits, measure current, and learn why your house wiring is designed the way it is.',
-    classLevel: 10, subject: 'physics', topic: 'Electricity · Part 2/2',
+    classLevel: 10, subject: 'physics', topic: 'Electricity',
     chapters: ['c10_phy_ch01'],
     nodeIds: ['c10_phy_cbse_01_007', 'c10_phy_cbse_01_008', 'c10_phy_cbse_01_009', 'c10_phy_cbse_01_010', 'c10_phy_cbse_01_011'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

@@ -66,10 +66,10 @@ export function C12_HomeScienceDevCommJournalismSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-violet-400">CBSE Class 12 Home Science - Development Communication and Journalism</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Home Science - Development Communication and Journalism</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Message Spread: media vs word of mouth</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-violet-950 border border-violet-700 text-violet-300">Diffusion Lab</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Diffusion Lab</span>
       </header>
 
       <p className="text-xs text-slate-400 mb-3 max-w-3xl">
@@ -82,10 +82,10 @@ export function C12_HomeScienceDevCommJournalismSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Mass media reach (radio, TV, press)</span>
-            <span className="text-sky-300 font-mono font-bold">{mediaPct.toFixed(1)} %/cycle</span>
+            <span className="text-gold-300 font-mono font-bold">{mediaPct.toFixed(1)} %/cycle</span>
           </label>
           <input type="range" min={0} max={8} step={0.1} value={mediaPct} aria-label="mass media reach percent per cycle"
-            onChange={(e) => setMediaPct(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-sky-500" />
+            onChange={(e) => setMediaPct(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -98,14 +98,14 @@ export function C12_HomeScienceDevCommJournalismSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Community size</span>
-            <span className="text-indigo-300 font-mono font-bold">{population.toLocaleString('en-IN')} people</span>
+            <span className="text-gold-300 font-mono font-bold">{population.toLocaleString('en-IN')} people</span>
           </label>
           <input type="range" min={5000} max={100000} step={5000} value={population} aria-label="community population"
-            onChange={(e) => setPopulation(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setPopulation(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
       </div>
       <div className="flex gap-2 mb-4">
-        <button onClick={() => setRunning(!running)} className={`flex-1 min-h-11 px-4 rounded-2xl text-sm font-bold border ${running ? 'bg-amber-950/60 border-amber-700 text-amber-300' : 'bg-violet-600 border-violet-500 text-white'}`}>
+        <button onClick={() => setRunning(!running)} className={`flex-1 min-h-11 px-4 rounded-2xl text-sm font-bold border ${running ? 'bg-amber-950/60 border-amber-700 text-amber-300' : 'bg-gold-600 border-gold-500 text-white'}`}>
           {running ? 'Pause campaign' : 'Run campaign'}
         </button>
         <button onClick={reset} className="min-h-11 px-4 rounded-2xl text-sm font-bold bg-slate-900 border border-slate-700 text-slate-300 hover:bg-slate-800">Reset</button>
@@ -132,7 +132,7 @@ export function C12_HomeScienceDevCommJournalismSim() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Adopted so far</p>
-          <p className="text-lg font-extrabold text-indigo-300 font-mono">{Math.round(adoptedNow).toLocaleString('en-IN')}</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{Math.round(adoptedNow).toLocaleString('en-IN')}</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Penetration</p>
@@ -148,18 +148,18 @@ export function C12_HomeScienceDevCommJournalismSim() {
         </div>
       </div>
       <p className="text-xs text-slate-400 p-3 rounded-xl bg-slate-900 border border-slate-800 mb-3">
-        Of the people persuaded this cycle, about <span className="font-mono font-bold text-sky-300">{mediaShare.toFixed(0)}%</span> came from media
+        Of the people persuaded this cycle, about <span className="font-mono font-bold text-gold-300">{mediaShare.toFixed(0)}%</span> came from media
         and the rest from interpersonal channels. Development communication theory: media creates awareness, but word of mouth drives adoption.
       </p>
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p>
-          <span className="font-bold text-violet-300">Misconception killer:</span> a loud media campaign alone rarely changes behaviour --
+          <span className="font-bold text-gold-300">Misconception killer:</span> a loud media campaign alone rarely changes behaviour --
           set media to 8% and word of mouth to 0 and watch adoption crawl, then restore word of mouth and watch the S-curve take off.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-violet-950/60 to-slate-900 border border-violet-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set media reach to 0 and word of mouth to 0.5. Does the message still spread? Who starts it, and what does that imply for choosing influencers?</p>
         <p className="mt-1">2. Try to reach 50% adoption by cycle 30 using the smallest possible media spend -- what word-of-mouth strength do you need?</p>

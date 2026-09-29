@@ -11,7 +11,7 @@ export const w_c12_chemistrydrugtargetinteractionsim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Importance and Applications of Coordination Compounds',
     chapters: [],
     nodeIds: ['c12_chem_cbse_05_009', 'c12_chem_cbse_09_004', 'c12_chem_cbse_09_009', 'c12_chem_cbse_10_010', 'c12_chem_cbse_09_006', 'c12_chem_cbse_10_006', 'c12_chem_cbse_10_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: When you get a blood test, the red color comes from hemoglobin — an iron.', goal: 'Master Importance and Applications of Coordination Compounds.' },
     discovery: {
         question: 'A student writes: "EDTA is used in water hardness titration because it forms a stable complex with Ca²⁺ and Mg²⁺." Is this statement complete?',
@@ -20,7 +20,7 @@ export const w_c12_chemistrydrugtargetinteractionsim: SimDef = {
         hook: 'Students think "chelate effect" only means "multidentate ligands form more stable complexes" and write it as a blanket.',
     },
     teaching: [
-        { title: 'Coordination compounds are complex entities.', text: 'Coordination compounds are complex entities where a central metal atom/ion is bonded to surrounding ligands via coordinate bonds, exhibiting unique properties (color, magnetism, stability) that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Coordination compounds are complex entities.', text: 'Coordination compounds are complex entities where a central metal atom/ion is bonded to surrounding ligands via coordinate bonds, exhibiting unique properties (color, magnetism, stability) that.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_05_009', title: 'Coordination compounds are complex.',

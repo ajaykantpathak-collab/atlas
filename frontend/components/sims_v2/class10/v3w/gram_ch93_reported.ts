@@ -9,7 +9,7 @@ export const c10_gram_ch93: SimDef = {
     classLevel: 10, subject: 'english-grammar', topic: 'Direct and indirect speech',
     chapters: ['c10_gram_ch93'],
     nodeIds: ['c10_gram_cbse_93_001', 'c10_gram_cbse_93_002', 'c10_gram_cbse_93_003'],
-    emoji: '📨', theme: { bg: 'from-slate-900 to-sky-950', accent: 'sky', scene: 'senior' },
+    emoji: '📨', theme: { bg: 'from-slate-900 to-gold-950', accent: 'sky', scene: 'senior' },
 
     scenario: {
         role: 'a court reporter converting live testimony into the official record',
@@ -28,8 +28,8 @@ export const c10_gram_ch93: SimDef = {
         hook: 'The backshift machine has one exemption: facts that are still true refuse to move.',
     },
     teaching: [
-        { title: 'The backshift engine', text: 'present→past, past→past perfect, will→would, can→could — plus pronouns and deictics re-anchor to the reporter.', emoji: '⚙️', bgColor: 'from-sky-500 to-blue-600' },
-        { title: 'Three sentence types, three rules', text: 'Statements take "that"; questions lose question-order and take if/whether or keep the wh-word; commands become told + object + to-infinitive.', emoji: '🧭', bgColor: 'from-blue-500 to-indigo-600' },
+        { title: 'The backshift engine', text: 'present→past, past→past perfect, will→would, can→could — plus pronouns and deictics re-anchor to the reporter.', emoji: '⚙️', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Three sentence types, three rules', text: 'Statements take "that"; questions lose question-order and take if/whether or keep the wh-word; commands become told + object + to-infinitive.', emoji: '🧭', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

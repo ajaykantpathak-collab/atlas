@@ -163,10 +163,10 @@ export function C11_PsychologyMethodsEnquirySim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Sample size</span>
-                <span className="font-mono font-bold text-sky-400">{sample} people</span>
+                <span className="font-mono font-bold text-gold-400">{sample} people</span>
               </div>
               <input type="range" min={10} max={200} step={10} value={sample} aria-label="sample size"
-                onChange={(e) => setSample(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setSample(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div className="grid grid-cols-2 gap-2">
               {method === 'experiment' && (

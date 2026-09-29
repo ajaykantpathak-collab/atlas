@@ -11,11 +11,11 @@ export const w_c8_sciencekeepingtimewiththeskiessim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Time Measurement Using Moon Phases: Ancient Calendars',
     chapters: [],
     nodeIds: ['c8_physics_ch7_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Look at a calendar hanging in your kitchen — notice how months have 30 or 31 days but the Moon\'s phases don\'t.', goal: 'Master Time Measurement Using Moon Phases: Ancient Calendars.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'A lunar calendar measures time by tracking.', text: 'A lunar calendar measures time by tracking the cyclic pattern of Moon phases, where one month equals one complete lunar cycle (synodic month) of approximately 29.5 days from New Moon to the next New.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A lunar calendar measures time by tracking.', text: 'A lunar calendar measures time by tracking the cyclic pattern of Moon phases, where one month equals one complete lunar cycle (synodic month) of approximately 29.5 days from New Moon to the next New.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch7_7', title: 'A lunar calendar measures time by.',

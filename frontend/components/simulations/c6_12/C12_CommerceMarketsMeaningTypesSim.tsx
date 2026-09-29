@@ -1182,7 +1182,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
         <div className="flex items-center gap-3">
           <div className="text-right hidden sm:block">
             <p className="text-xs text-slate-400">Mastery Level</p>
-            <p className="text-sm font-bold text-indigo-400 capitalize">{masteryLevel}</p>
+            <p className="text-sm font-bold text-gold-400 capitalize">{masteryLevel}</p>
           </div>
           <motion.span
             key={difficulty}
@@ -1220,7 +1220,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
             {/* Discovery Curiosity Question */}
             <div className="p-6 bg-slate-800/80 border border-slate-700 rounded-2xl space-y-4">
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 text-xs font-bold uppercase">Curiosity Hook</span>
+                <span className="px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 text-xs font-bold uppercase">Curiosity Hook</span>
                 <span className="text-xs text-slate-400">Test your business instincts before we dive in</span>
               </div>
               <h3 className="text-lg font-bold text-white">{DISCOVERY_QUESTION.question}</h3>
@@ -1273,7 +1273,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Interactive Marketing Labs"
-                    className="w-full py-3.5 bg-gradient-to-r from-amber-500 to-indigo-600 text-white font-bold rounded-xl text-base shadow-lg shadow-amber-500/20"
+                    className="w-full py-3.5 bg-gradient-to-r from-amber-500 to-gold-600 text-white font-bold rounded-xl text-base shadow-lg shadow-amber-500/20"
                   >
                     Enter Interactive Marketing Labs →
                   </motion.button>
@@ -1438,7 +1438,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                       {selectedMarketTab === 'industrial' && (
                         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
                           <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-                            <span className="text-sm font-bold text-indigo-400">✓ Industrial / B2B Market</span>
+                            <span className="text-sm font-bold text-gold-400">✓ Industrial / B2B Market</span>
                             <span className="text-xs text-slate-400">Fewer Buyers • Large Volume • Rational Specs</span>
                           </div>
                           <p className="text-xs text-slate-300 leading-relaxed">
@@ -1468,7 +1468,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                       {selectedMarketTab === 'digital' && (
                         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
                           <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-                            <span className="text-sm font-bold text-cyan-400">✓ Digital Markets & ONDC Network</span>
+                            <span className="text-sm font-bold text-gold-400">✓ Digital Markets & ONDC Network</span>
                             <span className="text-xs text-slate-400">Zero Physical Boundary • Open Protocols</span>
                           </div>
                           <p className="text-xs text-slate-300 leading-relaxed">
@@ -1504,7 +1504,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                           aria-label={`Select philosophy ${p.label}`}
                           className={`p-3 rounded-xl border text-center text-xs font-bold transition-all ${
                             selectedPhilosophy === p.id
-                              ? 'bg-indigo-600/30 border-indigo-400 text-indigo-200'
+                              ? 'bg-gold-600/30 border-gold-400 text-gold-200'
                               : 'bg-slate-900 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1638,7 +1638,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                         onClick={() => setSelectedProductType('service')}
                         aria-label="Select Intangible Service"
                         className={`flex-1 py-2 rounded-xl text-xs font-bold border ${
-                          selectedProductType === 'service' ? 'bg-indigo-500/20 border-indigo-500 text-indigo-300' : 'bg-slate-900 border-slate-700 text-slate-400'
+                          selectedProductType === 'service' ? 'bg-gold-500/20 border-gold-500 text-gold-300' : 'bg-slate-900 border-slate-700 text-slate-400'
                         }`}
                       >
                         ⚡ Intangible Service (e.g. Wellness Spa / Flight)
@@ -1687,7 +1687,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                             { code: 'P', title: 'Perishability', desc: 'Cannot be stored for future resale' },
                           ].map(item => (
                             <div key={item.title} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                              <div className="text-base font-black text-indigo-400">{item.code}</div>
+                              <div className="text-base font-black text-gold-400">{item.code}</div>
                               <div className="text-xs font-bold text-white mt-0.5">{item.title}</div>
                               <div className="text-[10px] text-slate-400 mt-1">{item.desc}</div>
                             </div>
@@ -1748,7 +1748,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                         <div>
                           <div className="flex justify-between text-xs mb-1">
                             <span className="text-slate-400">Customer Perceived Value:</span>
-                            <span className="font-bold text-cyan-400">₹{perceivedValue}</span>
+                            <span className="font-bold text-gold-400">₹{perceivedValue}</span>
                           </div>
                           <input
                             type="range"
@@ -1757,7 +1757,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                             value={perceivedValue}
                             onChange={e => setPerceivedValue(Number(e.target.value))}
                             aria-label="Customer perceived value slider"
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
 
@@ -1872,7 +1872,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {/* Physical distribution trade-off */}
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                        <span className="text-xs font-bold text-cyan-400">Physical Logistics Trade-off (c12_comm_049)</span>
+                        <span className="text-xs font-bold text-gold-400">Physical Logistics Trade-off (c12_comm_049)</span>
                         <div>
                           <div className="flex justify-between text-xs mb-1">
                             <span className="text-slate-400">Regional Warehouses:</span>
@@ -1885,7 +1885,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                             value={warehouseCount}
                             onChange={e => setWarehouseCount(Number(e.target.value))}
                             aria-label="Regional warehouse depots count slider"
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
 
@@ -1935,7 +1935,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                               value={personalSellingBudget}
                               onChange={e => setPersonalSellingBudget(Number(e.target.value))}
                               aria-label="Personal selling budget percentage slider"
-                              className="w-full accent-indigo-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
                         </div>
@@ -2035,7 +2035,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
               </div>
 
               <div className="p-4 bg-slate-800/80 border border-slate-700 rounded-2xl space-y-3">
-                <span className="text-xs font-bold text-cyan-400">2. Place & Distribution</span>
+                <span className="text-xs font-bold text-gold-400">2. Place & Distribution</span>
                 <div className="space-y-2 text-xs">
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">Channel Type:</span>
@@ -2043,7 +2043,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                       value={channelChoice}
                       onChange={e => setChannelChoice(e.target.value as any)}
                       aria-label="Select Distribution Channel"
-                      className="bg-slate-900 border border-slate-700 rounded px-2 py-0.5 text-cyan-300"
+                      className="bg-slate-900 border border-slate-700 rounded px-2 py-0.5 text-gold-300"
                     >
                       <option value="zero">Zero-Level (D2C Direct)</option>
                       <option value="one">1-Level (Retailer)</option>
@@ -2061,11 +2061,11 @@ export function C12_CommerceMarketsMeaningTypesSim({
               </div>
 
               <div className="p-4 bg-slate-800/80 border border-slate-700 rounded-2xl space-y-3">
-                <span className="text-xs font-bold text-indigo-400">3. Promotion Blend</span>
+                <span className="text-xs font-bold text-gold-400">3. Promotion Blend</span>
                 <div className="space-y-2 text-xs">
                   <div className="flex justify-between">
                     <span className="text-slate-400">Primary Focus:</span>
-                    <span className="font-bold text-indigo-300">
+                    <span className="font-bold text-gold-300">
                       {adBudget > personalSellingBudget ? 'Pull Strategy (Mass Ads)' : 'Push Strategy (Direct Salesforce)'}
                     </span>
                   </div>
@@ -2089,7 +2089,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
               </span>
               <div className="flex items-center gap-2">
                 <span className="text-slate-400">Competency:</span>
-                <span className="px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-300 border border-indigo-700 font-bold uppercase">
+                <span className="px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 border border-gold-700 font-bold uppercase">
                   {challenge.competencyLevel}
                 </span>
               </div>
@@ -2098,7 +2098,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
             {/* Motion Progress Bar */}
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-amber-500 via-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-amber-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2166,7 +2166,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                        className="px-3 py-1.5 bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2241,7 +2241,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
                     aria-label="Check sequence order"
-                    className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Check Sequence Order
                   </motion.button>
@@ -2296,7 +2296,7 @@ export function C12_CommerceMarketsMeaningTypesSim({
 
                   <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl min-h-[60px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((part, i) => (
-                      <span key={i} className="px-2 py-1 rounded bg-indigo-900/60 border border-indigo-600 text-xs text-white flex items-center gap-1">
+                      <span key={i} className="px-2 py-1 rounded bg-gold-900/60 border border-gold-600 text-xs text-white flex items-center gap-1">
                         {part}
                         <button
                           onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))}
@@ -2413,9 +2413,9 @@ export function C12_CommerceMarketsMeaningTypesSim({
             )}
 
             {/* Spaced Repetition Schedule */}
-            <div className="p-4 bg-indigo-950/40 border border-indigo-700/50 rounded-2xl flex items-center justify-between text-xs">
+            <div className="p-4 bg-gold-950/40 border border-gold-700/50 rounded-2xl flex items-center justify-between text-xs">
               <div>
-                <span className="font-bold text-indigo-300 block">SM-2 Spaced Repetition Schedule</span>
+                <span className="font-bold text-gold-300 block">SM-2 Spaced Repetition Schedule</span>
                 <span className="text-slate-400">
                   Next review due in <strong className="text-amber-400">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</strong>.
                 </span>

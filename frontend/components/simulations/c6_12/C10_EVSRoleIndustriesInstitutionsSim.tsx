@@ -1314,7 +1314,7 @@ export function C10_EVSRoleIndustriesInstitutionsSim({
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-emerald-400 font-semibold tracking-wider uppercase">
@@ -1633,7 +1633,7 @@ export function C10_EVSRoleIndustriesInstitutionsSim({
                         </div>
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                           <span className="text-[10px] text-slate-400 block">Stormwater Runoff</span>
-                          <span className="text-base font-black text-cyan-400">{stormwaterRunoffPercent}%</span>
+                          <span className="text-base font-black text-gold-400">{stormwaterRunoffPercent}%</span>
                         </div>
                       </div>
                     </div>
@@ -1776,7 +1776,7 @@ export function C10_EVSRoleIndustriesInstitutionsSim({
                     )}
                     {activeSensorMode === 'radar' && (
                       <div className="text-xs text-slate-300 space-y-1">
-                        <strong className="text-cyan-400 block">Active Synthetic Aperture RADAR & LiDAR:</strong>
+                        <strong className="text-gold-400 block">Active Synthetic Aperture RADAR & LiDAR:</strong>
                         <p>Emits microwave and laser pulses that penetrate clouds, haze, and rain day and night. Measures Himalayan glacier thickness retreat and detects illegal logging.</p>
                       </div>
                     )}
@@ -1887,14 +1887,14 @@ export function C10_EVSRoleIndustriesInstitutionsSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-cyan-400 block">Public EV & Bike Share</span>
+                <span className="text-xs font-bold text-gold-400 block">Public EV & Bike Share</span>
                 <input
                   type="range"
                   min={10}
                   max={90}
                   value={publicTransitShare}
                   onChange={(e) => setPublicTransitShare(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                   aria-label="Transit Share Slider"
                 />
                 <div className="text-[11px] text-slate-400 flex justify-between">
@@ -1954,7 +1954,7 @@ export function C10_EVSRoleIndustriesInstitutionsSim({
                       ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                       : difficulty === 'advanced'
                       ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
-                      : 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
+                      : 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                   }`}
                 >
                   {difficulty}
@@ -2349,7 +2349,7 @@ export function C10_EVSRoleIndustriesInstitutionsSim({
 
           {/* REAL-WORLD CAMPUS ACTION */}
           <div className="p-5 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-black text-cyan-400">📋 Real-World Campus Action</h3>
+            <h3 className="text-sm font-black text-gold-400">📋 Real-World Campus Action</h3>
             <ul className="space-y-1.5 text-xs text-slate-300">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">

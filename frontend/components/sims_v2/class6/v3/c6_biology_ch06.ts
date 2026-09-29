@@ -6,7 +6,7 @@ export const c6_biology_ch06: SimDef = {
     id: 'v3_c6_biology_ch06',
     title: 'Testing What We Eat — Nutrients, Millets & Food Miles',
     subtitle: 'What is really hiding inside your food?',
-    classLevel: 6, subject: 'biology', topic: 'Mindful Eating — Testing Our Food',
+    classLevel: 6, subject: 'biology', topic: 'Testing What We Eat — Nutrients, Millets & Food Miles',
     chapters: ['c6_biology_ch06'],
     nodeIds: ['c6_biology_ch06_001', 'c6_biology_ch06_002'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

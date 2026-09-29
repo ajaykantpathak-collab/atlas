@@ -1242,11 +1242,11 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-blue-900/40 border border-blue-500/30 rounded-2xl" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-900/40 border border-gold-500/30 rounded-2xl" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-blue-400">
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">
               ICSE Class 10 Commercial Applications
             </span>
             <h1 className="text-xl sm:text-2xl font-black text-white">{title}</h1>
@@ -1263,7 +1263,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border-rose-700'
-                : 'bg-blue-950 text-blue-400 border-blue-700'
+                : 'bg-gold-950 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1279,8 +1279,8 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
       {/* ─────────────────────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-blue-950/60 via-indigo-950/40 to-slate-900 rounded-2xl border border-blue-800/40">
-            <h2 className="text-lg font-bold text-blue-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-r from-gold-950/60 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/40">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🎯</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1340,7 +1340,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToPredict}
                     aria-label="Proceed to Brilliant-style Prediction Stage"
-                    className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 flex items-center gap-2 text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                   >
                     <span>Proceed to Prediction Stage</span>
                     <span aria-hidden="true">→</span>
@@ -1357,7 +1357,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
       {/* ─────────────────────────────────────────────────────────── */}
       {phase === 'predict' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-purple-950/50 via-slate-900 to-blue-950/50 rounded-2xl border border-purple-800/40">
+          <div className="p-5 bg-gradient-to-r from-purple-950/50 via-slate-900 to-gold-950/50 rounded-2xl border border-purple-800/40">
             <span className="text-xs font-bold text-purple-400 uppercase tracking-wide">
               Step 1 of Scientific Inquiry: Predict Before Testing
             </span>
@@ -1406,11 +1406,11 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
             </div>
 
             {predictionSubmitted && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-blue-900/50 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-gold-900/50 space-y-3">
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  <strong className="text-blue-400">Scientific Explanation:</strong> {PREDICTION_QUESTIONS[currentPredictionIdx].explanation}
+                  <strong className="text-gold-400">Scientific Explanation:</strong> {PREDICTION_QUESTIONS[currentPredictionIdx].explanation}
                 </p>
-                <div className="p-2.5 bg-blue-950/40 rounded-lg border border-blue-800/40 text-xs text-amber-300 font-medium">
+                <div className="p-2.5 bg-gold-950/40 rounded-lg border border-gold-800/40 text-xs text-amber-300 font-medium">
                   🔍 <strong className="text-amber-200">How to Verify:</strong> {PREDICTION_QUESTIONS[currentPredictionIdx].verifyInstruction}
                 </div>
 
@@ -1454,7 +1454,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
           {/* Real-Time Market Trade Pipeline HTML Canvas Animation */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-bold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span className="font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 Live HTML5 Simulation Canvas: Pan-India Trade & Logistics Pipeline
               </span>
@@ -1481,7 +1481,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-blue-600 text-white shadow-md shadow-blue-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1499,7 +1499,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
               className="p-5 sm:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div>
-                <span className="text-xs font-bold text-blue-400 uppercase tracking-wide">Guided Discovery Lab</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">Guided Discovery Lab</span>
                 <h3 className="text-lg font-bold text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs sm:text-sm text-amber-300 mt-1 flex items-center gap-1.5">
                   <span aria-hidden="true">👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
@@ -1510,7 +1510,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
               {currentSlide === 0 && (
                 <div className="space-y-4 pt-2">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-xs font-bold text-blue-400 mb-2 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 mb-2 uppercase tracking-wider">
                       SVG Concept Map: The 4 Ps Marketing Mix Interaction
                     </span>
                     <svg
@@ -1564,7 +1564,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                             onClick={() => setTargetSegment('mass')}
                             aria-label="Select Mass FMCG segment"
                             className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                              targetSegment === 'mass' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                              targetSegment === 'mass' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             Mass FMCG (Tata Salt / Patanjali)
@@ -1585,7 +1585,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Product Quality & R&D:</span>
-                          <span className="font-bold text-blue-400">{productQuality}/100</span>
+                          <span className="font-bold text-gold-400">{productQuality}/100</span>
                         </div>
                         <input
                           type="range"
@@ -1597,7 +1597,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                             setProductQuality(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1666,10 +1666,10 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                         <div className="grid grid-cols-2 gap-3 mt-3">
                           <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                             <p className="text-xs text-slate-400">Market Adoption</p>
-                            <p className="text-xl font-black text-blue-400">{calculated4PMetrics.customerAdoption}%</p>
+                            <p className="text-xl font-black text-gold-400">{calculated4PMetrics.customerAdoption}%</p>
                             <div className="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
                               <motion.div
-                                className="h-full bg-blue-500"
+                                className="h-full bg-gold-500"
                                 animate={{ width: `${calculated4PMetrics.customerAdoption}%` }}
                               />
                             </div>
@@ -1777,7 +1777,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                         aria-label={`Select PLC Stage ${idx + 1}: ${d.stage}`}
                         className={`p-2.5 rounded-xl text-xs font-bold border transition-all ${
                           selectedPlcStage === idx
-                            ? 'bg-blue-600 border-blue-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-850'
                         }`}
                       >
@@ -1818,13 +1818,13 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                     <div>
-                      <span className="text-xs font-bold text-blue-400">Selected: {plcChartData[selectedPlcStage].stage} Stage</span>
+                      <span className="text-xs font-bold text-gold-400">Selected: {plcChartData[selectedPlcStage].stage} Stage</span>
                       <p className="text-xs text-slate-300 mt-0.5">
                         <strong className="text-amber-300">Indian Business Example:</strong> {plcChartData[selectedPlcStage].desc}
                       </p>
                     </div>
                     <div className="text-xs bg-slate-900 p-2 rounded-lg border border-slate-800 text-slate-300">
-                      Sales: <span className="font-bold text-blue-400">{plcChartData[selectedPlcStage].sales} pts</span> | Profit:{' '}
+                      Sales: <span className="font-bold text-gold-400">{plcChartData[selectedPlcStage].sales} pts</span> | Profit:{' '}
                       <span
                         className={`font-bold ${
                           plcChartData[selectedPlcStage].profit >= 0 ? 'text-emerald-400' : 'text-rose-400'
@@ -2006,7 +2006,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                         aria-label={`Select ${ch.title}: ${ch.sub}`}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedChannelLevel === ch.level
-                            ? 'bg-blue-600 border-blue-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-850'
                         }`}
                       >
@@ -2079,7 +2079,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>Consistent Annual Advertising (₹ Cr):</span>
-                          <span className="font-bold text-blue-400">₹{advBudget} Cr</span>
+                          <span className="font-bold text-gold-400">₹{advBudget} Cr</span>
                         </div>
                         <input
                           type="range"
@@ -2091,7 +2091,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                             setAdvBudget(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -2146,7 +2146,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                   audioManager.play('tap');
                 }}
                 aria-label="Go to next lab"
-                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-xl"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
               >
                 Next Lab →
               </motion.button>
@@ -2187,7 +2187,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-blue-400 uppercase">1. Product & Price</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase">1. Product & Price</h4>
               <div>
                 <label className="text-xs text-slate-400">Unit Cost: ₹{unitCost}</label>
                 <input
@@ -2197,7 +2197,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                   value={unitCost}
                   aria-label="Sandbox adjust unit cost in rupees"
                   onChange={e => setUnitCost(Number(e.target.value))}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div>
@@ -2281,7 +2281,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
               </h2>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-[10px] font-bold px-2 py-0.5 bg-blue-900/60 text-blue-300 border border-blue-700/50 rounded uppercase">
+              <span className="text-[10px] font-bold px-2 py-0.5 bg-gold-900/60 text-gold-300 border border-gold-700/50 rounded uppercase">
                 {challenge.competencyLevel}
               </span>
               <span className="text-[10px] font-bold px-2 py-0.5 bg-slate-800 text-slate-300 rounded uppercase">
@@ -2293,7 +2293,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2360,7 +2360,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2400,7 +2400,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
                   aria-label="Validate placed labels"
-                  className="px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Validate Placements
                 </motion.button>
@@ -2430,7 +2430,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="font-bold text-blue-400">{displayIdx + 1}.</span>
+                      <span className="font-bold text-gold-400">{displayIdx + 1}.</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2441,7 +2441,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Verify the arranged order of stages"
-                  className="px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Order
                 </motion.button>
@@ -2458,7 +2458,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     aria-label="Numeric answer input in rupees"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-40 focus:outline-none focus:border-blue-500"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-40 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2467,7 +2467,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit numeric calculation"
-                    className="px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2487,7 +2487,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-900/70 hover:bg-indigo-800 text-indigo-200 rounded-lg text-xs font-bold border border-indigo-700"
+                      className="px-3 py-1.5 bg-gold-900/70 hover:bg-gold-800 text-gold-200 rounded-lg text-xs font-bold border border-gold-700"
                     >
                       + {part}
                     </motion.button>
@@ -2500,7 +2500,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                       key={i}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-2.5 py-1 bg-blue-600 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-600 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5"
                     >
                       <span>{part}</span>
                       <button
@@ -2523,7 +2523,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify strategy formulation"
-                  className="px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Formulation
                 </motion.button>
@@ -2594,7 +2594,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
       {/* ─────────────────────────────────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-blue-950/60 rounded-3xl border border-emerald-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-700/50 text-center space-y-3">
             <h2 className="text-2xl sm:text-3xl font-black text-white">Commercial Applications Mastered!</h2>
             <p className="text-sm text-slate-300">
               Final Score: <span className="font-extrabold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span> |
@@ -2604,7 +2604,7 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
 
           {/* Motivational Feedback Banner */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 text-center space-y-2">
-            <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wide">Performance Appraisal</h3>
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wide">Performance Appraisal</h3>
             <div className="text-xl font-black text-amber-300 py-1">
               {motivationalMessage}
             </div>
@@ -2657,14 +2657,14 @@ function C10_CommerceAppDefinitionMarketsMarketingSim({
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-blue-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">💼</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-blue-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

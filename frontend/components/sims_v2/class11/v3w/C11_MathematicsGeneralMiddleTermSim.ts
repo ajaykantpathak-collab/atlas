@@ -11,7 +11,7 @@ export const w_c11_mathematicsgeneralmiddletermsim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Binomial Theorem: Statement and Proof',
     chapters: [],
     nodeIds: ['c11_math_cbse_08_001', 'c11_math_cbse_08_003', 'c11_math_cbse_08_002', 'c11_math_cbse_08_004', 'c11_math_cbse_08_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you need to calculate (102)^5 for a compound interest problem where principal is ₹100 and rate is 2%.', goal: 'Master Binomial Theorem: Statement and Proof.' },
     discovery: {
         question: 'State the position(s) of the middle term(s) in the expansion of (2x - 3y)^9. Do not compute the term(s), only give the term number(s) T_k.',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsgeneralmiddletermsim: SimDef = {
         hook: 'Students consistently confuse the term index (k in T_k) with the r-value in the general term formula T_{r+1}.',
     },
     teaching: [
-        { title: 'The Binomial Theorem for a positive integer.', text: 'The Binomial Theorem for a positive integer index n states that for any real numbers a and b, the expansion of (a + b)^n is given by (a + b)^n = Σ_{k=0}^{n} ^nC_k a^{n-k} b^k, where ^nC_k =.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Binomial Theorem for a positive integer.', text: 'The Binomial Theorem for a positive integer index n states that for any real numbers a and b, the expansion of (a + b)^n is given by (a + b)^n = Σ_{k=0}^{n} ^nC_k a^{n-k} b^k, where ^nC_k =.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_08_001', title: 'The Binomial Theorem for a positive.',

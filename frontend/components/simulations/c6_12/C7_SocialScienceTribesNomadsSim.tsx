@@ -49,7 +49,7 @@ export function C7_SocialScienceTribesNomadsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 7 History - Tribes, Nomads and Settled Communities</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 History - Tribes, Nomads and Settled Communities</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Gaddi Migration: Chasing the Grass up the Mountain</h1>
         </div>
         <button onClick={() => { setM(4); setPlaying(false); setSettled(false); }}
@@ -81,7 +81,7 @@ export function C7_SocialScienceTribesNomadsSim() {
           <p className="text-[11px] text-slate-400 mt-1 leading-snug">Season rhythm: winter in Shivalik foothills -- climb in spring -- high meadows (dhars) June-September -- descend before the snow closes the passes.</p>
           <div className="flex gap-2 mt-2">
             <button onClick={() => setPlaying((p) => !p)}
-              className={`flex-1 min-h-11 rounded-xl text-xs font-bold border transition-all ${playing ? 'bg-violet-600 border-violet-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-violet-500'}`}>
+              className={`flex-1 min-h-11 rounded-xl text-xs font-bold border transition-all ${playing ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-gold-500'}`}>
               {playing ? 'Pause migration' : 'Play the year'}
             </button>
             <button onClick={() => setSettled((s) => !s)}
@@ -94,10 +94,10 @@ export function C7_SocialScienceTribesNomadsSim() {
         <div className="md:col-span-2 space-y-4">
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
             <label className="text-xs font-semibold text-slate-400 flex justify-between">
-              <span>Month dial</span><span className="font-mono text-indigo-300">{label}</span>
+              <span>Month dial</span><span className="font-mono text-gold-300">{label}</span>
             </label>
             <input type="range" min={1} max={12.9} step={0.1} value={m} aria-label="month"
-              onChange={(e) => { setPlaying(false); setM(Number(e.target.value)); }} className="w-full mt-1 min-h-11 accent-indigo-500" />
+              onChange={(e) => { setPlaying(false); setM(Number(e.target.value)); }} className="w-full mt-1 min-h-11 accent-gold-500" />
             <div className="grid grid-cols-3 gap-2 mt-2 text-center">
               <div className="p-2 rounded-lg bg-slate-950 border border-slate-800"><p className="text-[10px] text-slate-400">Herd altitude</p><p className="font-mono text-sm text-emerald-300">{Math.round(herdAlt)} m</p></div>
               <div className="p-2 rounded-lg bg-slate-950 border border-slate-800"><p className="text-[10px] text-slate-400">Grass here</p><p className={`font-mono text-sm ${grass > 5 ? 'text-emerald-300' : 'text-rose-400'}`}>{grass.toFixed(1)} kg/animal/day</p></div>
@@ -106,7 +106,7 @@ export function C7_SocialScienceTribesNomadsSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">Grass calendar (route vs staying home)</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Grass calendar (route vs staying home)</p>
             <svg viewBox="0 0 320 70" className="w-full">
               <polyline points={grassCurve} fill="none" stroke="#4ade80" strokeWidth="2.5" />
               <polyline points={Array.from({ length: 49 }, (_, i) => { const mo = 1 + i / 4; return `${xOf(mo)},${yOf(600 * (grassAt(mo, 600) / 10))}`; }).join(' ')} fill="none" stroke="#f43f5e" strokeWidth="2.5" />
@@ -117,14 +117,14 @@ export function C7_SocialScienceTribesNomadsSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-1 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">Other lives beyond the village fields</p>
-            <p><span className="font-bold text-sky-300">Banjaras:</span> caravan traders who moved grain with bullock trains called tanda, timed to harvest prices.</p>
+            <p className="font-bold text-gold-300 mb-1">Other lives beyond the village fields</p>
+            <p><span className="font-bold text-gold-300">Banjaras:</span> caravan traders who moved grain with bullock trains called tanda, timed to harvest prices.</p>
             <p><span className="font-bold text-emerald-300">Gonds:</span> forest dwellers of central India who built their own Gond kingdoms with rajas and forts.</p>
-            <p><span className="font-bold text-violet-300">Ahoms of Assam:</span> a tribe that migrated from Myanmar and built a state run on forced labour (paiks) -- they ruled for 600 years.</p>
+            <p><span className="font-bold text-gold-300">Ahoms of Assam:</span> a tribe that migrated from Myanmar and built a state run on forced labour (paiks) -- they ruled for 600 years.</p>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">The same world today</p>
+            <p className="font-bold text-gold-300 mb-1">The same world today</p>
             <p>Gaddis still climb to the dhars every June. Gujjar and Bakarwal herders cross the Pir Panjal. Census records listed many craft-working nomads as &quot;itinerant groups&quot;. Mobility is a livelihood strategy, not a failure to settle.</p>
             <p className="mt-1">Tribal communities were also counted, taxed and -- under British rule -- often pushed off forests they had managed for centuries, which is how many tribal movements began.</p>
           </div>
@@ -142,7 +142,7 @@ export function C7_SocialScienceTribesNomadsSim() {
         ))}
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Pause in mid-October and predict where the herd is BEFORE reading the altitude -- then check. Which direction is it travelling and why now?</p>
         <p className="mt-1">2. Settle the herd permanently and play the year -- in which months does grass hit zero, and what does that say about why nomads kept moving?</p>

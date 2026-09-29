@@ -202,7 +202,7 @@ export function C12_ComputerScienceSecurityAspectsSim() {
             </div>
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Data siphoned</p>
-              <p className="font-mono font-bold text-violet-300">{stolen.toFixed(1)} MB</p>
+              <p className="font-mono font-bold text-gold-300">{stolen.toFixed(1)} MB</p>
             </div>
           </div>
           <p className="text-[10px] text-slate-500 text-center">outbreak clock {mm}:{ss} · signature coverage {coverage} %</p>
@@ -224,10 +224,10 @@ export function C12_ComputerScienceSecurityAspectsSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>File-sharing activity</span>
-                <span className="font-mono font-bold text-violet-400">{activity} opens/h</span>
+                <span className="font-mono font-bold text-gold-400">{activity} opens/h</span>
               </div>
               <input type="range" min={0} max={10} step={1} value={activity} aria-label="file sharing activity"
-                onChange={(e) => setActivity(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setActivity(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -248,7 +248,7 @@ export function C12_ComputerScienceSecurityAspectsSim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={release} className="min-h-11 rounded-xl text-xs font-bold bg-rose-500 text-slate-950">Release malware</button>
-              <button onClick={scan} className="min-h-11 rounded-xl text-xs font-bold bg-sky-500 text-slate-950">Full scan</button>
+              <button onClick={scan} className="min-h-11 rounded-xl text-xs font-bold bg-gold-500 text-slate-950">Full scan</button>
             </div>
             <button onClick={reset} className="min-h-11 w-full rounded-xl text-xs font-bold bg-slate-700 hover:bg-slate-600">Reset</button>
           </div>

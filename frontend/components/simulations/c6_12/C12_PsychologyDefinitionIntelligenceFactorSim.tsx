@@ -789,8 +789,8 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
   const iqCategory = useMemo(() => {
     if (simIq >= 130) return { label: 'Gifted / Very Superior', color: 'text-emerald-400', desc: 'Rapid learning, exceptional originality (Terman).' };
     if (simIq >= 120) return { label: 'Superior', color: 'text-teal-400', desc: 'High abstract reasoning and problem solving.' };
-    if (simIq >= 110) return { label: 'High Average', color: 'text-cyan-400', desc: 'Above-average academic performance.' };
-    if (simIq >= 90) return { label: 'Average (Normal Curve Peak - 68%)', color: 'text-indigo-300', desc: 'Typical representative functioning.' };
+    if (simIq >= 110) return { label: 'High Average', color: 'text-gold-400', desc: 'Above-average academic performance.' };
+    if (simIq >= 90) return { label: 'Average (Normal Curve Peak - 68%)', color: 'text-gold-300', desc: 'Typical representative functioning.' };
     if (simIq >= 80) return { label: 'Low Average', color: 'text-amber-300', desc: 'Can manage schooling with consistent practice.' };
     if (simIq >= 70) return { label: 'Borderline', color: 'text-amber-500', desc: 'Independent living with minimal occupational guidance.' };
     if (simIq >= 50) return { label: 'Mild Intellectual Disability (~85%)', color: 'text-rose-400', desc: 'Class 6 academics, semi-independent living with NIEPID support.' };
@@ -1186,7 +1186,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1206,13 +1206,13 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-purple-950/40 to-slate-900 rounded-2xl border border-indigo-800/60 space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-purple-950/40 to-slate-900 rounded-2xl border border-gold-800/60 space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-lg">🏛️</span>
-              <h2 className="text-lg font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-200">{SCENARIO.title}</h2>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/90 font-medium bg-indigo-900/30 p-3 rounded-xl border border-indigo-800/40">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/90 font-medium bg-gold-900/30 p-3 rounded-xl border border-gold-800/40">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
@@ -1248,7 +1248,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-purple-500/25 transition-all"
+                  className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-purple-500/25 transition-all"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1333,11 +1333,11 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
 
                     <div className="space-y-2 pt-2 border-t border-slate-800">
                       <div className="flex justify-between items-center text-xs">
-                        <span className="text-cyan-400 font-semibold">Fluid Intelligence (Gf):</span>
-                        <span className="font-mono font-bold text-cyan-300">{Math.round(gfScore)}%</span>
+                        <span className="text-gold-400 font-semibold">Fluid Intelligence (Gf):</span>
+                        <span className="font-mono font-bold text-gold-300">{Math.round(gfScore)}%</span>
                       </div>
                       <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
-                        <motion.div className="h-full bg-cyan-500 rounded-full" animate={{ width: `${gfScore}%` }} />
+                        <motion.div className="h-full bg-gold-500 rounded-full" animate={{ width: `${gfScore}%` }} />
                       </div>
 
                       <div className="flex justify-between items-center text-xs pt-1">
@@ -1449,7 +1449,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
                         <p className="text-xs text-slate-200">{GARDNER_DATA[selectedIntelligence].exemplar}</p>
                       </div>
                       <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 space-y-1">
-                        <p className="text-[11px] font-bold text-cyan-300">🧠 Neural Substrate:</p>
+                        <p className="text-[11px] font-bold text-gold-300">🧠 Neural Substrate:</p>
                         <p className="text-xs text-slate-300 font-mono">{GARDNER_DATA[selectedIntelligence].brain}</p>
                       </div>
                     </motion.div>
@@ -1761,7 +1761,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
                 className="w-full accent-purple-500 cursor-pointer"
               />
               <div className="grid grid-cols-2 gap-2 text-xs font-mono">
-                <div className="p-2 bg-slate-950 rounded-lg border border-cyan-800 text-cyan-300">Fluid (Gf): {Math.round(gfScore)}%</div>
+                <div className="p-2 bg-slate-950 rounded-lg border border-gold-800 text-gold-300">Fluid (Gf): {Math.round(gfScore)}%</div>
                 <div className="p-2 bg-slate-950 rounded-lg border border-emerald-800 text-emerald-300">Crystallised (Gc): {Math.round(gcScore)}%</div>
               </div>
             </div>
@@ -1823,7 +1823,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
                 ? 'text-emerald-400 border-emerald-800 bg-emerald-950/50'
                 : challenge.difficulty === 'advanced'
                 ? 'text-rose-400 border-rose-800 bg-rose-950/50'
-                : 'text-indigo-400 border-indigo-800 bg-indigo-950/50'
+                : 'text-gold-400 border-gold-800 bg-gold-950/50'
             }`}>
               {challenge.difficulty}
             </span>
@@ -1832,7 +1832,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
           {/* Motion Animated Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-purple-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2017,7 +2017,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[70px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-800 text-white text-xs rounded-lg flex items-center gap-2">
+                    <span key={idx} className="px-3 py-1 bg-gold-800 text-white text-xs rounded-lg flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2105,7 +2105,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
       {/* ─── PHASE 5: COMPLETION & SYNTHESIS ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-purple-950/80 via-indigo-950/60 to-slate-900 rounded-3xl border border-purple-700 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-purple-950/80 via-gold-950/60 to-slate-900 rounded-3xl border border-purple-700 text-center space-y-3">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Assessment Complete!</h2>
             <p className="text-purple-300 text-sm">
@@ -2143,7 +2143,7 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <p className="text-xs font-bold text-cyan-300">What was the most surprising thing you learned?</p>
+                <p className="text-xs font-bold text-gold-300">What was the most surprising thing you learned?</p>
                 <p className="text-[11px] text-slate-400 leading-relaxed">
                   Reflect on how Cattell's Fluid vs Crystallised intelligence diverge with age, or how Indian joint families alter the classical Freudian dynamics.
                 </p>
@@ -2183,23 +2183,23 @@ export function C12_PsychologyDefinitionIntelligenceFactorSim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-indigo-950/60 rounded-2xl border border-indigo-500/60 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div className="p-5 bg-gold-950/60 rounded-2xl border border-gold-500/60 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <span className="text-lg">🔁</span>
-                <h3 className="text-sm font-bold text-indigo-200 uppercase tracking-wider">Spaced Repetition Schedule (SRS)</h3>
+                <h3 className="text-sm font-bold text-gold-200 uppercase tracking-wider">Spaced Repetition Schedule (SRS)</h3>
               </div>
               <p className="text-xs text-slate-300">
                 Based on your error count ({errors} error{errors === 1 ? '' : 's'}), your optimal memory retention interval is calculated below:
               </p>
-              <div className="inline-block mt-1 px-3 py-1 bg-indigo-900/80 rounded-lg border border-indigo-400/50">
-                <span className="text-xs font-semibold text-indigo-300">Next Review: </span>
+              <div className="inline-block mt-1 px-3 py-1 bg-gold-900/80 rounded-lg border border-gold-400/50">
+                <span className="text-xs font-semibold text-gold-300">Next Review: </span>
                 <span className="text-sm font-black text-white">
                   {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
                 </span>
               </div>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-slate-900 rounded-xl border border-indigo-700/50 text-indigo-300 text-xs font-mono font-bold">
+            <div className="flex items-center gap-2 px-4 py-2 bg-slate-900 rounded-xl border border-gold-700/50 text-gold-300 text-xs font-mono font-bold">
               <span>📅 {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span>
             </div>
           </div>

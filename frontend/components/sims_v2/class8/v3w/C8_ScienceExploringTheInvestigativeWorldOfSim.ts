@@ -11,7 +11,7 @@ export const w_c8_scienceexploringtheinvestigativeworldofsim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Overview of Class 8 Science Topics: From Microbes to Planets',
     chapters: [],
     nodeIds: ['c8_physics_ch1_10', 'c8_physics_ch1_1', 'c8_physics_ch1_3', 'c8_physics_ch1_5', 'c8_physics_ch1_6', 'c8_physics_ch1_7', 'c8_physics_ch1_8', 'c8_physics_ch1_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine a Class 8 student opening their new NCERT Science textbook and seeing chapter titles like.', goal: 'Master Overview of Class 8 Science Topics: From Microbes to Planets.' },
     discovery: {
         question: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?',
@@ -20,7 +20,7 @@ export const w_c8_scienceexploringtheinvestigativeworldofsim: SimDef = {
         hook: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How.',
     },
     teaching: [
-        { title: 'An overview of the major themes and topics.', text: 'An overview of the major themes and topics in Class 8 Science, connecting prior knowledge from Classes 6–7 to new concepts in physics (force, friction, sound, light, chemical effects of current),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An overview of the major themes and topics.', text: 'An overview of the major themes and topics in Class 8 Science, connecting prior knowledge from Classes 6–7 to new concepts in physics (force, friction, sound, light, chemical effects of current),.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch1_10', title: 'An overview of the major themes and.',

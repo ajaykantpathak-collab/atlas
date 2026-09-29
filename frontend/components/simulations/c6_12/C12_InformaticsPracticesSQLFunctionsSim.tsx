@@ -77,16 +77,16 @@ export function C12_InformaticsPracticesSQLFunctionsSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">CBSE Class 12 Informatics Practices - Querying and SQL Functions</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Informatics Practices - Querying and SQL Functions</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Aggregate Functions Stepper (live table)</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300">SQL Engine</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">SQL Engine</span>
       </header>
 
       {/* QUERY PICKER + CONTROLS */}
       <div className="flex flex-wrap gap-2 mb-3">
         {QUERIES.map((v) => (
-          <button key={v.id} onClick={() => setQid(v.id)} className={`min-h-11 px-3 rounded-xl text-xs font-mono font-bold border ${qid === v.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
+          <button key={v.id} onClick={() => setQid(v.id)} className={`min-h-11 px-3 rounded-xl text-xs font-mono font-bold border ${qid === v.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
             {v.label}
           </button>
         ))}
@@ -124,7 +124,7 @@ export function C12_InformaticsPracticesSQLFunctionsSim() {
               {EMP.map((e) => {
                 const lit = showExec && result.activeRows.includes(e.id);
                 return (
-                  <tr key={e.id} className={`border-b border-slate-800 transition-all duration-300 ${lit ? 'bg-indigo-950/70' : 'opacity-60'}`}>
+                  <tr key={e.id} className={`border-b border-slate-800 transition-all duration-300 ${lit ? 'bg-gold-950/70' : 'opacity-60'}`}>
                     <td className="py-1 px-1">{e.id}</td>
                     <td className="py-1 px-1">{e.name}</td>
                     <td className={`py-1 px-1 ${result.activeCol === 'dept' && lit ? 'text-amber-300 font-bold' : ''}`}>{e.dept}</td>
@@ -168,13 +168,13 @@ export function C12_InformaticsPracticesSQLFunctionsSim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mt-4 mb-3">
         <p>
-          <span className="font-bold text-sky-300">Execution order:</span> FROM --&gt; WHERE --&gt; GROUP BY --&gt; HAVING --&gt; SELECT.
+          <span className="font-bold text-gold-300">Execution order:</span> FROM --&gt; WHERE --&gt; GROUP BY --&gt; HAVING --&gt; SELECT.
           <span className="font-bold text-amber-300"> Misconception killer:</span> COUNT(*) and COUNT(COMM) give different answers
           on this very table (8 vs 5) -- aggregates silently skip NULLs, and WHERE can never filter on an aggregate like AVG.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-sky-950/60 to-slate-900 border border-sky-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Run COUNT(*) then COUNT(COMM) and read the highlighted rows -- explain the 3 missing employees in terms of NULL.</p>
         <p className="mt-1">2. Use GROUP BY + HAVING and slide X from 30000 upward: which department drops out first, and at exactly what X does the result become empty?</p>

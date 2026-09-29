@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C7_CHEM_GEN: SimDef[] = [
  {
   "id": "gen_c7_chem_ch01",
-  "title": "Metals",
+  "title": "Metals Are Naturally Occurring Chemical Elements",
   "subtitle": "Chemistry · Chapter 1",
   "classLevel": 7,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Metals",
+  "topic": "Metals Are Naturally Occurring Chemical Elements",
   "chapters": [
-   "Chemistry Ch1: Metals"
+   "Chemistry Ch1: Metals Are Naturally Occurring Chemical Elements"
   ],
   "nodeIds": [
    "c7_chem_ch01_001",
@@ -39,7 +39,7 @@ export const C7_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Metals more about facts, or about reasoning?",
+   "question": "Is Metals Are Naturally Occurring more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -50,25 +50,25 @@ export const C7_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Metals",
+    "title": "Metals Are Naturally Occurring Chemical",
     "text": "Metals are naturally occurring chemical elements that are typically lustrous, malleable, ductile, and good conductors of heat and electricity (such as iron, copper, and aluminium), whereas non-metals are elements that generally lack these properties,",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Malleability",
+    "title": "Malleability Is The Physical Property",
     "text": "Malleability is the physical property of a substance that allows it to be beaten, rolled, or hammered into thin sheets without breaking or shattering.",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Ductility",
+    "title": "Ductility Is The Physical Property",
     "text": "Ductility is the physical property of a metal that allows it to be drawn or stretched into thin wires without breaking. This property arises from the ability of metal atoms to slide past one another when subjected to pulling (tensile) forces, holding together",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Sonority",
+    "title": "Sonority: Metals Produce Sound on Striking",
     "text": "Sonority is the physical property of certain materials, particularly metals, that causes them to produce a deep, ringing sound when struck with a solid object.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -80,7 +80,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Metals",
+    "title": "Metals Are Good Conductors Of Electricity",
     "text": "Metals are good conductors of electricity, allowing electric current to pass through them easily due to the presence of free-moving electrons, whereas most non-metals (with the exception of graphite) are poor conductors or insulators.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -92,19 +92,19 @@ export const C7_CHEM_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Corrosion",
+    "title": "Corrosion Is The Gradual Destruction",
     "text": "Corrosion is the gradual destruction or degradation of metals through chemical or electrochemical reactions with their environment, such as oxygen, moisture, and atmospheric gases.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Metalloids",
+    "title": "Metalloids Are a Special Group",
     "text": "Metalloids are a special group of elements that possess properties intermediate between those of metals and non-metals. Common examples include silicon (Si), germanium (Ge), and arsenic (As), which may look shiny like metals but are brittle and are poor",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Non-metals",
+    "title": "Non-metals Are Essential Chemical",
     "text": "Non-metals are essential chemical elements—such as oxygen, carbon, nitrogen, and phosphorus—that lack metallic properties like luster and malleability, yet are fundamental to sustaining biological life, agriculture, and modern technology.",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
@@ -128,12 +128,12 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "Which of the following is a liquid non-metal commonly found in laboratory thermometers?",
     "answer": "Bromine is the correct answer",
     "options": [
-     "Oxygen and water (moisture)",
-     "The two essential factors are oxygen (from the air) and moisture (water)",
-     "They is the correct answer",
+     "Students can successfully distinguish between sonorous (metals) and non-sonorous (non-metals) materials by predicting and explaining the acoustic response when struck",
+     "Non-metals are essential chemical elements—such as oxygen, carbon, nitrogen, and phosphorus—that lack metallic properties like luster and malleability",
+     "Applying is the correct answer",
      "Bromine is the correct answer"
     ],
-    "hint": "Straight from the 'Metals' slide -- match the key terms.",
+    "hint": "Straight from the 'Metals are naturally occurring' slide -- match the key terms.",
     "misconception": "A student who answers \"Mercury\" is confusing a liquid metal (mercury) with a liquid non-metal (bromine), revealing a failure to distinguish between the physical states of metals and non-metals.",
     "id": "gen_c7_chem_ch01_q1",
     "nodeId": "c7_chem_ch01_001",
@@ -154,7 +154,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "Gold has an exceptionally high level of ductility compared to most other metals, allowing an extremely small mass to cover a massive linear distance",
      "Steps for prediction: 1. Identify sulfur as a non-metal based on material classification. 2. Recall that non-metals lack the property of malleability"
     ],
-    "hint": "Straight from the 'Malleability' slide -- match the key terms.",
+    "hint": "Straight from the 'Malleability is the physical' slide -- match the key terms.",
     "misconception": "A student who predicts sulfur will form a sheet is confusing non-metals with metals.",
     "id": "gen_c7_chem_ch01_q2",
     "nodeId": "c7_chem_ch01_002",
@@ -175,7 +175,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "Copper is a metal that possesses high electrical conductivity, allowing electric current to flow smoothly",
      "Copper is a metal with strong metallic bonds that allow its atomic layers to slide past one another under tensile stress without breaking the overall structure, making it ductile"
     ],
-    "hint": "Straight from the 'Ductility' slide -- match the key terms.",
+    "hint": "Straight from the 'Ductility is the physical property' slide -- match the key terms.",
     "misconception": "A wrong answer often assumes all solid objects behave the same way under tension.",
     "id": "gen_c7_chem_ch01_q3",
     "nodeId": "c7_chem_ch01_003",
@@ -192,11 +192,11 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "What type of sound do metals typically produce when struck with a hard object, and what is this property called?",
     "answer": "Metals produce a ringing or resonant sound when struck, and this property is called sonority",
     "options": [
-     "Hydrogen gas is released",
-     "The correct answer is C) Copper wire. Copper is a metal, and all common metals possess free electrons and tightly packed lattice structures that allow thermal energy to pass",
+     "Can write balanced chemical equations for reactions of different metals with oxygen, water, and dilute acids",
+     "Corrosion is the gradual destruction or degradation of metals through chemical or electrochemical reactions with their environment, such as oxygen, moisture, and atmospheric gases",
      "Metals produce a ringing or resonant sound when struck, and this property is called sonority"
     ],
-    "hint": "Straight from the 'Sonority' slide -- match the key terms.",
+    "hint": "Straight from the 'Sonority is the physical property' slide -- match the key terms.",
     "misconception": "If a student answers that metals produce a dull sound, it reveals a confusion between the properties of metals and non-metals, as non-metals like sulfur or coal make dull thuds rather than ringing sounds.",
     "id": "gen_c7_chem_ch01_q4",
     "nodeId": "c7_chem_ch01_004",
@@ -291,7 +291,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The statement is false. While almost all metals (like iron, copper, gold) are solid at room temperature",
      "The correct answer is B) Copper has free-moving particles that carry electrical charge, whereas plastic holds its particles tightly bound"
     ],
-    "hint": "Straight from the 'Metals' slide -- match the key terms.",
+    "hint": "Straight from the 'Metals are good conductors of' slide -- match the key terms.",
     "misconception": "A student who chooses option D confuses electrical conductivity with magnetism, showing a misunderstanding of what electric current actually is.",
     "id": "gen_c7_chem_ch01_q6",
     "nodeId": "c7_chem_ch01_006",
@@ -308,9 +308,9 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "What are the two absolute, non-negotiable environmental factors required for an iron nail to rust?",
     "answer": "Oxygen and water (moisture)",
     "options": [
-     "The two essential factors are oxygen (from the air) and moisture (water)",
-     "Bromine is the correct answer",
-     "Connect and water (moisture)",
+     "Non-metals are essential chemical elements—such as oxygen, carbon, nitrogen, and phosphorus—that lack metallic properties like luster and malleability",
+     "Students can identify key non-metals essential for daily life and biological processes, explain their specific functions in living organisms and agriculture",
+     "Check and water (moisture)",
      "Oxygen and water (moisture)"
     ],
     "hint": "Straight from the 'rusting of iron' slide -- match the key terms.",
@@ -330,11 +330,11 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "What are the two essential environmental factors required for the rusting of iron to occur?",
     "answer": "The two essential factors are oxygen (from the air) and moisture (water)",
     "options": [
-     "Hydrogen gas is released",
-     "Bromine is the correct answer",
+     "Non-metals are essential chemical elements—such as oxygen, carbon, nitrogen, and phosphorus—that lack metallic properties like luster and malleability",
+     "Students can identify key non-metals essential for daily life and biological processes, explain their specific functions in living organisms and agriculture",
      "The two essential factors are oxygen (from the air) and moisture (water)"
     ],
-    "hint": "Straight from the 'Corrosion' slide -- match the key terms.",
+    "hint": "Straight from the 'Corrosion is the gradual' slide -- match the key terms.",
     "misconception": "A student who answers only \"water\" or only \"oxygen\" reveals an incomplete understanding of the combined gas-liquid reaction needed to form hydrated iron oxide.",
     "id": "gen_c7_chem_ch01_q8",
     "nodeId": "c7_chem_ch01_008",
@@ -351,11 +351,11 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "Compare the electrical conductivity of a copper wire, a sulfur lump, and a silicon chip at room temperature. How do their conductivity levels reflect their classification?",
     "answer": "Copper is a metal and has very high electrical conductivity, allowing free electrons to move easily",
     "options": [
-     "The statement is false. While almost all metals (like iron, copper, gold) are solid at room temperature",
-     "Malleable group: Aluminium rod and Copper coin. Non-malleable group: Sulfur lump and Pencil lead (graphite)",
+     "To test malleability, place a copper wire and a piece of chalk on a hard wooden surface and gently strike each once with a small plastic mallet using equal force",
+     "The correct answer is C) Copper wire. Copper is a metal, and all common metals possess free electrons and tightly packed lattice structures that allow thermal energy to pass",
      "Copper is a metal and has very high electrical conductivity, allowing free electrons to move easily"
     ],
-    "hint": "Straight from the 'Metalloids' slide -- match the key terms.",
+    "hint": "Straight from the 'Metalloids are a special group' slide -- match the key terms.",
     "misconception": "A student who states that silicon conducts electricity as well as copper does not understand the intermediate nature of metalloid electronic properties.",
     "id": "gen_c7_chem_ch01_q9",
     "nodeId": "c7_chem_ch01_009",
@@ -376,7 +376,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The green coating on copper is a mixture of copper carbonate and copper hydroxide ($CuCO_3 \\cdot Cu(OH)_2$), formed when copper reacts with oxygen, carbon dioxide",
      "Carbon can form stable covalent bonds with many elements, including itself, creating complex molecules like carbohydrates, proteins, and fats necessary for life"
     ],
-    "hint": "Straight from the 'Non-metals' slide -- match the key terms.",
+    "hint": "Straight from the 'Non-metals are essential chemical' slide -- match the key terms.",
     "misconception": "A wrong answer suggests students think living things are made entirely of metals or water without organic molecules.",
     "id": "gen_c7_chem_ch01_q10",
     "nodeId": "c7_chem_ch01_010",
@@ -414,9 +414,9 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "What gas is typically released when a reactive metal like zinc reacts with a dilute acid such as hydrochloric acid?",
     "answer": "Hydrogen gas is released",
     "options": [
-     "Metals produce a ringing or resonant sound when struck, and this property is called sonority",
-     "Oxygen and water (moisture)",
-     "Oil gas is released",
+     "The correct answer is C) Copper wire. Copper is a metal, and all common metals possess free electrons and tightly packed lattice structures that allow thermal energy to pass",
+     "Bromine is the correct answer",
+     "Recall gas is released",
      "Hydrogen gas is released"
     ],
     "hint": "Straight from the 'reactivity of metals' slide -- match the key terms.",
@@ -440,7 +440,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The statement is inaccurate. Paint does not change the chemical nature of iron; instead, it acts as a physical barrier that blocks oxygen and moisture from reaching the iron",
      "The statement is false. While almost all metals (like iron, copper, gold) are solid at room temperature"
     ],
-    "hint": "Straight from the 'Metals' slide -- match the key terms.",
+    "hint": "Straight from the 'Metals are naturally occurring' slide -- match the key terms.",
     "misconception": "A student who answers \"True\" has overgeneralized the physical properties of metals without remembering liquid metal exceptions.",
     "id": "gen_c7_chem_ch01_q13",
     "nodeId": "c7_chem_ch01_001",
@@ -455,7 +455,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The correct answer is B) Copper has free-moving particles that carry electrical charge, whereas plastic holds its particles tightly bound",
      "Copper is a metal that possesses high electrical conductivity, allowing electric current to flow smoothly"
     ],
-    "hint": "Straight from the 'Metals' slide -- match the key terms.",
+    "hint": "Straight from the 'Metals are naturally occurring' slide -- match the key terms.",
     "misconception": "A student who says \"because sulfur is too heavy\" shows a misunderstanding of electrical properties versus mass.",
     "id": "gen_c7_chem_ch01_q14",
     "nodeId": "c7_chem_ch01_001",
@@ -470,7 +470,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The correct answer is B) To prevent heat from conducting to the user's hand, protecting them from burns",
      "Malleable group: Aluminium rod and Copper coin. Non-malleable group: Sulfur lump and Pencil lead (graphite)"
     ],
-    "hint": "Straight from the 'Malleability' slide -- match the key terms.",
+    "hint": "Straight from the 'Malleability is the physical' slide -- match the key terms.",
     "misconception": "A student who places graphite or sulfur in the malleable group fails to recognize that non-metals lack this physical property.",
     "id": "gen_c7_chem_ch01_q15",
     "nodeId": "c7_chem_ch01_002",
@@ -485,7 +485,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "Criteria for a good answer: The student should set up Test Tube 1 with an iron nail, tap water, and air (control, will rust)",
      "To test malleability, place a copper wire and a piece of chalk on a hard wooden surface and gently strike each once with a small plastic mallet using equal force"
     ],
-    "hint": "Straight from the 'Malleability' slide -- match the key terms.",
+    "hint": "Straight from the 'Malleability is the physical' slide -- match the key terms.",
     "misconception": "A poor answer would suggest heating the materials or testing electrical conductivity instead of physical deformation under impact.",
     "id": "gen_c7_chem_ch01_q16",
     "nodeId": "c7_chem_ch01_002",
@@ -500,7 +500,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The student's evaluation is correct. Sulfur is a non-metal that lacks a metallic lattice, so it cannot transmit vibrations efficiently and is non-sonorous",
      "The statement is incorrect. While metals are malleable and can be hammered into sheets (e.g., gold and silver can be beaten into extremely thin foils)"
     ],
-    "hint": "Straight from the 'Malleability' slide -- match the key terms.",
+    "hint": "Straight from the 'Malleability is the physical' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement fails to distinguish between hardness, strength, and malleability.",
     "id": "gen_c7_chem_ch01_q17",
     "nodeId": "c7_chem_ch01_002",
@@ -515,7 +515,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "Criteria for a good answer: The student should set up Test Tube 1 with an iron nail, tap water, and air (control, will rust)",
      "The claim is scientifically incorrect because breaking into powder under force indicates brittleness, not ductility"
     ],
-    "hint": "Straight from the 'Ductility' slide -- match the key terms.",
+    "hint": "Straight from the 'Ductility is the physical property' slide -- match the key terms.",
     "misconception": "A wrong answer mistakes crushing or crumbling for stretching.",
     "id": "gen_c7_chem_ch01_q18",
     "nodeId": "c7_chem_ch01_003",
@@ -524,11 +524,11 @@ export const C7_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about metals?",
+    "What surprised you about metals are naturally occurring chemical elements?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Metals mastered! 🎯",
+  "successLine": "Metals Are Naturally mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -584,13 +584,13 @@ export const C7_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Distinguishing Physical And Chemical",
+    "title": "Distinguishing Physical And Chemical Changes",
     "text": "Distinguishing physical and chemical changes involves comparing whether a process alters the intrinsic chemical identity and composition of a substance (forming new chemical species) or merely changes its external form, state, or appearance without altering",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Combustion",
+    "title": "Combustion Is a Chemical Change",
     "text": "Combustion is a chemical change in which a substance reacts with oxygen to release energy in the form of heat and light. For example, when wood burns, carbon in the wood combines with oxygen from the air to form carbon dioxide gas, water vapour, ash, and",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -614,7 +614,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Erosion",
+    "title": "Erosion Is a Slow Natural Geological",
     "text": "Erosion is a slow natural geological process in which surface soil, rock, and mineral particles are loosened, detached, and transported away from one location to another by agents such as flowing water, wind, or ice.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -769,10 +769,10 @@ export const C7_CHEM_GEN: SimDef[] = [
     "answer": "The three essential requirements are fuel, oxygen (air), and ignition temperature (heat)",
     "options": [
      "The correct answer is B. Desirable changes are those that bring positive outcomes, utility, or benefits to human life, such as cooking food or germination of seeds",
-     "The two indicators are the evolution of a gas (bubbling) and the release of heat (test tube becomes warm)",
+     "Students can classify any given chemical or physical change in everyday life as desirable or undesirable, justify their classification based on usefulness or harm",
      "The three essential requirements are fuel, oxygen (air), and ignition temperature (heat)"
     ],
-    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "hint": "Straight from the 'Combustion is a chemical change' slide -- match the key terms.",
     "misconception": "A student who answers \"just wood and fire\" demonstrates a recall error by missing oxygen, which is the chemical reactant necessary for the oxidation process to occur.",
     "id": "gen_c7_chem_ch02_q4",
     "nodeId": "c7_chem_ch02_006",
@@ -811,7 +811,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     "answer": "The correct answer is B. Desirable changes are those that bring positive outcomes, utility, or benefits to human life, such as cooking food or germination of seeds",
     "options": [
      "The two indicators are the evolution of a gas (bubbling) and the release of heat (test tube becomes warm)",
-     "The correct answer is B. The black coating is a completely new chemical substance formed by a reaction between silver and atmospheric gases",
+     "Students can classify any given chemical or physical change in everyday life as desirable or undesirable, justify their classification based on usefulness or harm",
      "The correct answer is B. Desirable changes are those that bring positive outcomes, utility, or benefits to human life, such as cooking food or germination of seeds"
     ],
     "hint": "Straight from the 'desirable change' slide -- match the key terms.",
@@ -856,7 +856,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The correct answer is A. Melting involves wax changing from solid to liquid (physical), whereas combustion of the vaporized wax reacts with oxygen to form new gases like carbon",
      "Weathering is the breakdown of rocks in place, while erosion is the transport of those broken fragments away from their original location by agents like water or wind"
     ],
-    "hint": "Straight from the 'Erosion' slide -- match the key terms.",
+    "hint": "Straight from the 'Erosion is a slow natural' slide -- match the key terms.",
     "misconception": "A student who thinks weathering and erosion are identical fails to distinguish between the breakdown of materials and their physical movement.",
     "id": "gen_c7_chem_ch02_q8",
     "nodeId": "c7_chem_ch02_010",
@@ -873,8 +873,8 @@ export const C7_CHEM_GEN: SimDef[] = [
     "question": "When a strip of zinc metal is dropped into dilute hydrochloric acid ($\\text{HCl}$), vigorous bubbling occurs and the test tube becomes warm. State two indicators of chemical change observed here and write the chemical formula for the gas typically released in such metal-acid reactions.",
     "answer": "The two indicators are the evolution of a gas (bubbling) and the release of heat (test tube becomes warm)",
     "options": [
-     "The three essential requirements are fuel, oxygen (air), and ignition temperature (heat)",
-     "The correct answer is B. Desirable changes are those that bring positive outcomes, utility, or benefits to human life, such as cooking food or germination of seeds",
+     "Erosion is a slow natural geological process in which surface soil, rock, and mineral particles are loosened, detached",
+     "The student can distinguish between weathering and erosion, identify the primary natural agents of erosion (water, wind, ice)",
      "The two indicators are the evolution of a gas (bubbling) and the release of heat (test tube becomes warm)"
     ],
     "hint": "Straight from the 'Indicators of chemical change' slide -- match the key terms.",
@@ -940,7 +940,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     "answer": "The correct answer is B. The black coating is a completely new chemical substance formed by a reaction between silver and atmospheric gases",
     "options": [
      "The two indicators are the evolution of a gas (bubbling) and the release of heat (test tube becomes warm)",
-     "The three essential requirements are fuel, oxygen (air), and ignition temperature (heat)",
+     "Students can classify any given chemical or physical change in everyday life as desirable or undesirable, justify their classification based on usefulness or harm",
      "The correct answer is B. The black coating is a completely new chemical substance formed by a reaction between silver and atmospheric gases"
     ],
     "hint": "Straight from the 'Distinguishing physical and' slide -- match the key terms.",
@@ -958,7 +958,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The bubbling indicates the formation of carbon dioxide gas, which is a new substance not present initially as a gas in either reactant",
      "Steps: 1. Identify the fuel as the candle wax and the oxidant as the oxygen in the air inside the tumbler"
     ],
-    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "hint": "Straight from the 'Combustion is a chemical change' slide -- match the key terms.",
     "misconception": "A student who incorrectly states that carbon dioxide was consumed shows a misconception about the roles of gases in combustion.",
     "id": "gen_c7_chem_ch02_q14",
     "nodeId": "c7_chem_ch02_006",
@@ -973,7 +973,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The correct answer is A. Melting involves wax changing from solid to liquid (physical), whereas combustion of the vaporized wax reacts with oxygen to form new gases like carbon",
      "Both rusting and combustion are chemical changes involving the reaction of a substance with oxygen"
     ],
-    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "hint": "Straight from the 'Combustion is a chemical change' slide -- match the key terms.",
     "misconception": "A student who claims they have nothing in common fails to recognize that both are oxidation reactions differing only in speed and energy release.",
     "id": "gen_c7_chem_ch02_q15",
     "nodeId": "c7_chem_ch02_006",
@@ -988,7 +988,7 @@ export const C7_CHEM_GEN: SimDef[] = [
      "The expected answer should recognize that context dictates desirability. While random food spoilage is undesirable",
      "Steps: 1. Fix a small candle on a flat plate and light it. 2. Observe the stable flame burning in open air"
     ],
-    "hint": "Straight from the 'Combustion' slide -- match the key terms.",
+    "hint": "Straight from the 'Combustion is a chemical change' slide -- match the key terms.",
     "misconception": "A poor answer would lack safety precautions or fail to link the extinguishing of the flame to oxygen depletion.",
     "id": "gen_c7_chem_ch02_q16",
     "nodeId": "c7_chem_ch02_006",
@@ -1031,7 +1031,7 @@ export const C7_CHEM_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Identifying Changes In mastered! 🎯",
+  "successLine": "Identifying Changes mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

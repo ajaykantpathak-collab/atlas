@@ -1243,7 +1243,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* SCENARIO CARD */}
-            <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-indigo-950/40 p-6 rounded-2xl border border-slate-800 shadow-xl relative overflow-hidden">
+            <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-gold-950/40 p-6 rounded-2xl border border-slate-800 shadow-xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
               <div className="flex items-start space-x-4">
                 <div className="p-3 bg-amber-500/10 rounded-xl border border-amber-500/30 text-amber-400">
@@ -1313,21 +1313,21 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
             {/* PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-6">
               <h3 className="text-lg font-bold text-slate-100 flex items-center space-x-2">
-                <span className="w-3 h-3 rounded-full bg-cyan-400" />
+                <span className="w-3 h-3 rounded-full bg-gold-400" />
                 <span>Pre-Experiment Predictions (Mandatory Verification)</span>
               </h3>
 
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
                 <div key={pIdx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                   <p className="text-sm font-medium text-slate-200">
-                    <span className="text-cyan-400 font-mono font-bold">Prediction {pIdx + 1}:</span> {pq.question}
+                    <span className="text-gold-400 font-mono font-bold">Prediction {pIdx + 1}:</span> {pq.question}
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {pq.options.map((opt, oIdx) => {
                       const isSel = predAnswers[pIdx] === oIdx;
                       const isSubmitted = predSubmitted[pIdx];
                       const isCorrect = oIdx === pq.correctIndex;
-                      let style = 'bg-slate-900 border-slate-700 text-slate-300 hover:border-cyan-500';
+                      let style = 'bg-slate-900 border-slate-700 text-slate-300 hover:border-gold-500';
                       if (isSubmitted) {
                         if (isCorrect) style = 'bg-emerald-950 border-emerald-500 text-emerald-200';
                         else if (isSel) style = 'bg-rose-950 border-rose-500 text-rose-200';
@@ -1345,7 +1345,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
                     })}
                   </div>
                   {predSubmitted[pIdx] && (
-                    <p className="text-xs text-cyan-300 italic bg-cyan-950/40 p-2.5 rounded border border-cyan-800/40">
+                    <p className="text-xs text-gold-300 italic bg-gold-950/40 p-2.5 rounded border border-gold-800/40">
                       <strong>Verification Guide:</strong> {pq.verifyInstruction}
                     </p>
                   )}
@@ -1490,7 +1490,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
                         setIonMode('cation');
                       }}
                       className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                        ionMode === 'cation' ? 'bg-blue-600 text-white shadow' : 'text-slate-400 hover:text-white'
+                        ionMode === 'cation' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
                       }`}
                     >
                       Cation (+e⁻ loss)
@@ -1536,7 +1536,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
                       step="0.1"
                       value={customShielding}
                       onChange={(e) => setCustomShielding(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
                   <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-center font-mono">
@@ -1584,7 +1584,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-center">
                       <p className="text-[10px] text-slate-400 uppercase font-mono">Ionic Radius</p>
-                      <p className="text-lg font-bold text-cyan-400 font-mono">
+                      <p className="text-lg font-bold text-gold-400 font-mono">
                         {currentElement.ionicRadius ? `${currentElement.ionicRadius} pm` : 'N/A'}
                       </p>
                     </div>
@@ -1873,7 +1873,7 @@ export const C10_ChemistryPeriodicpropertiesatomicsizeSim: React.FC<{
               </div>
               <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 text-center flex flex-col items-center justify-center">
                 <span className="text-xs text-slate-400 uppercase font-mono">Spaced Repetition (SM-2)</span>
-                <span className="text-2xl font-bold text-cyan-400 font-mono mt-1">Interval: 3 Days</span>
+                <span className="text-2xl font-bold text-gold-400 font-mono mt-1">Interval: 3 Days</span>
                 <span className="text-xs text-slate-500 mt-1">Next Review Scheduled</span>
               </div>
             </div>

@@ -1244,13 +1244,13 @@ export function C6_EVSHumanImpactEnvironmentSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase mb-2">
+          <div className="p-5 md:p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase mb-2">
               <span>🌟 Mission Scenario</span>
             </div>
             <h2 className="text-xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-indigo-900/30 text-xs text-indigo-200">
+            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-gold-900/30 text-xs text-gold-200">
               💡 <span className="font-semibold">Your Mission:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1341,8 +1341,8 @@ export function C6_EVSHumanImpactEnvironmentSim({
               <div className="lg:col-span-5 space-y-3">
                 <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Select Environmental Sphere</p>
                 {[
-                  { id: 'air', name: 'Air Realm', icon: '💨', color: 'border-sky-500 bg-sky-950/40 text-sky-300', desc: 'Vehicles, Smog, CO, Acid Rain' },
-                  { id: 'water', name: 'Water Realm', icon: '🌊', color: 'border-blue-500 bg-blue-950/40 text-blue-300', desc: 'Sewage, Dyes, Microplastics, Dysentery' },
+                  { id: 'air', name: 'Air Realm', icon: '💨', color: 'border-gold-500 bg-gold-950/40 text-gold-300', desc: 'Vehicles, Smog, CO, Acid Rain' },
+                  { id: 'water', name: 'Water Realm', icon: '🌊', color: 'border-gold-500 bg-gold-950/40 text-gold-300', desc: 'Sewage, Dyes, Microplastics, Dysentery' },
                   { id: 'soil', name: 'Soil Realm', icon: '🌱', color: 'border-amber-500 bg-amber-950/40 text-amber-300', desc: 'Fertilizers, DDT, Plastic Degradation' },
                   { id: 'noise', name: 'Sound Realm', icon: '📢', color: 'border-rose-500 bg-rose-950/40 text-rose-300', desc: 'Horns >85dB, Stress, Wildlife Trauma' },
                 ].map((realm) => (
@@ -1461,7 +1461,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
                       </button>
                       <button
                         onClick={() => handleSortLabWaste(item.id, 'blue')}
-                        className="px-2 py-0.5 bg-blue-700 hover:bg-blue-600 rounded text-[10px] text-white"
+                        className="px-2 py-0.5 bg-gold-700 hover:bg-gold-600 rounded text-[10px] text-white"
                         title="Sort to Blue Bin"
                       >
                         Blue Bin
@@ -1496,17 +1496,17 @@ export function C6_EVSHumanImpactEnvironmentSim({
                 </div>
 
                 {/* Blue Bin */}
-                <div className="p-4 bg-blue-950/40 rounded-xl border-2 border-blue-500/50">
+                <div className="p-4 bg-gold-950/40 rounded-xl border-2 border-gold-500/50">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-extrabold text-blue-300">🔵 Blue Bin (Non-Biodegradable / Dry)</span>
-                    <span className="text-xs text-blue-400">Target: Recycling Plant</span>
+                    <span className="text-sm font-extrabold text-gold-300">🔵 Blue Bin (Non-Biodegradable / Dry)</span>
+                    <span className="text-xs text-gold-400">Target: Recycling Plant</span>
                   </div>
                   <p className="text-xs text-slate-400 mb-3">Plastic containers, glass jars, paper, metal cans, cartons.</p>
                   <div className="space-y-1.5 min-h-[60px]">
                     {sortedLabWaste.filter(w => w.placedIn === 'blue').map(item => (
-                      <div key={item.id} className="p-2 bg-blue-900/60 rounded-lg text-xs font-semibold text-blue-100 flex justify-between">
+                      <div key={item.id} className="p-2 bg-gold-900/60 rounded-lg text-xs font-semibold text-gold-100 flex justify-between">
                         <span>✓ {item.name}</span>
-                        <span className="text-[10px] text-blue-400">Reprocessed Material</span>
+                        <span className="text-[10px] text-gold-400">Reprocessed Material</span>
                       </div>
                     ))}
                   </div>
@@ -1520,8 +1520,8 @@ export function C6_EVSHumanImpactEnvironmentSim({
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
               {/* Predict-then-check block */}
               {!predictionMade ? (
-                <div className="p-4 bg-indigo-950/60 border border-indigo-700/60 rounded-xl space-y-3">
-                  <div className="flex items-center gap-2 text-indigo-300 text-xs font-bold uppercase">
+                <div className="p-4 bg-gold-950/60 border border-gold-700/60 rounded-xl space-y-3">
+                  <div className="flex items-center gap-2 text-gold-300 text-xs font-bold uppercase">
                     <span>🔬 Formulate a Scientific Hypothesis First</span>
                   </div>
                   <p className="text-sm text-white font-bold">{PREDICTION_QUESTIONS[1].question}</p>
@@ -1787,7 +1787,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
                   max={100}
                   value={sewageDischarge}
                   onChange={(e) => setSewageDischarge(Number(e.target.value))}
-                  className="w-full accent-blue-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
@@ -1836,7 +1836,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
                   max={100}
                   value={renewableEnergyShare}
                   onChange={(e) => setRenewableEnergyShare(Number(e.target.value))}
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
@@ -1859,7 +1859,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
             {/* Column 3: Live Output Dashboard */}
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3 flex flex-col justify-between">
               <div>
-                <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">Live Eco Dashboard</h4>
+                <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Live Eco Dashboard</h4>
                 <div className="space-y-2 text-xs">
                   <div className="flex justify-between p-2 bg-slate-900 rounded">
                     <span className="text-slate-400">Simulated Temp</span>
@@ -1871,7 +1871,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
                   </div>
                   <div className="flex justify-between p-2 bg-slate-900 rounded">
                     <span className="text-slate-400">River Oxygen Health</span>
-                    <span className="font-bold text-sky-400">{Math.max(10, 100 - sewageDischarge)}%</span>
+                    <span className="font-bold text-gold-400">{Math.max(10, 100 - sewageDischarge)}%</span>
                   </div>
                 </div>
               </div>
@@ -1911,7 +1911,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
                     ? 'bg-emerald-950 text-emerald-300 border border-emerald-800'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-300 border border-rose-800'
-                    : 'bg-blue-950 text-blue-300 border border-blue-800'
+                    : 'bg-gold-950 text-gold-300 border border-gold-800'
                 }`}
               >
                 Tier: {difficulty}
@@ -1923,7 +1923,7 @@ export function C6_EVSHumanImpactEnvironmentSim({
           {/* Progress Bar */}
           <div className="w-full h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />

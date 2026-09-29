@@ -11,7 +11,7 @@ export const w_c12_physicsrayopticsandopticalinstrumentssim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Spherical Mirrors: Mirror Formula and Magnification',
     chapters: [],
     nodeIds: ['c12_phy_cbse_09_002', 'c12_phy_cbse_09_006', 'c12_phy_cbse_09_007', 'c12_phy_cbse_09_003', 'c12_phy_cbse_09_004', 'c12_phy_cbse_09_008', 'c12_phy_cbse_09_010', 'c12_phy_cbse_09_011', 'c12_phy_cbse_10_007', 'c12_phy_cbse_09_001', 'c12_phy_cbse_09_009', 'c12_phy_cbse_09_005', 'c12_phy_cbse_10_001', 'c12_phy_cbse_10_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe the side-view mirror of a parked car (convex mirror): objects appear smaller and farther than they.', goal: 'Master Spherical Mirrors: Mirror Formula and Magnification.' },
     discovery: {
         question: 'State the formula for the effective focal length \\(F\\) of three thin lenses of focal lengths \\(f_1, f_2, f_3\\) placed in contact.',
@@ -20,7 +20,7 @@ export const w_c12_physicsrayopticsandopticalinstrumentssim: SimDef = {
         hook: 'Students often think that when a convex and a concave lens of equal focal length magnitude (e.g., +20 cm and –20 cm).',
     },
     teaching: [
-        { title: 'The mirror formula relates the object.', text: 'The mirror formula relates the object distance (u), image distance (v), and focal length (f) of a spherical mirror through the equation 1/v + 1/u = 1/f, where distances are measured from the pole.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The mirror formula relates the object.', text: 'The mirror formula relates the object distance (u), image distance (v), and focal length (f) of a spherical mirror through the equation 1/v + 1/u = 1/f, where distances are measured from the pole.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_09_002', title: 'The mirror formula relates the object.',

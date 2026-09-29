@@ -11,7 +11,7 @@ export const w_c12_computersciencesoftwaretestingunitsim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Eavesdropping and Man-in-the-Middle Attacks',
     chapters: [],
     nodeIds: ['c12_cs_cbse_12_004', 'c12_cs_cbse_12_002', 'c12_cs_cbse_12_005', 'c12_cs_cbse_12_009', 'c12_cs_cbse_12_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are sitting in a café using the free "Cafe_Free_WiFi" to check your bank balance.', goal: 'Master Eavesdropping and Man-in-the-Middle Attacks.' },
     discovery: {
         question: 'Explain in your own words why a Trojan horse is **not** considered a virus or a worm, even though it can cause similar damage.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencesoftwaretestingunitsim: SimDef = {
         hook: '**Misconception:** "All malware that steals data is spyware, and all malware that demands money is ransomware." **Why.',
     },
     teaching: [
-        { title: 'Eavesdropping is the unauthorized real-time.', text: 'Eavesdropping is the unauthorized real-time interception and monitoring of private communications (such as VoIP calls, instant messages, video conferences, or fax transmissions) between two entities.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Eavesdropping is the unauthorized real-time.', text: 'Eavesdropping is the unauthorized real-time interception and monitoring of private communications (such as VoIP calls, instant messages, video conferences, or fax transmissions) between two entities.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_12_004', title: 'Eavesdropping is the unauthorized.',

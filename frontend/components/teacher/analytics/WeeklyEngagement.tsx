@@ -44,7 +44,7 @@ function EngagementTooltip({ active, payload }: {
       </p>
       <div className="mt-2 space-y-1 text-[11px] text-white/70">
         <p><span className="text-gold-300">{fmtInt(w.questions)}</span> questions answered</p>
-        <p><span className="text-sky-300">{fmtInt(w.learners)}</span> active learner{w.learners === 1 ? '' : 's'}</p>
+        <p><span className="text-gold-300">{fmtInt(w.learners)}</span> active learner{w.learners === 1 ? '' : 's'}</p>
         <p><span className="text-emerald-300">{fmtInt(w.masteries)}</span> masteries achieved</p>
         <p className="text-white/55">{fmtDuration(w.seconds)} of learning time</p>
         {w.questions > 0 && (
@@ -189,7 +189,7 @@ export default function WeeklyEngagement({ refreshKey = 0 }: { refreshKey?: numb
 
           <div className="mt-1 flex flex-wrap items-center gap-x-5 gap-y-1.5 px-2 text-[11px] text-white/50">
             <span className="flex items-center gap-1.5"><span className="h-2 w-3 rounded-sm" style={{ background: 'linear-gradient(to bottom, #fcd34d, #f59e0b)' }} /> Questions answered</span>
-            <span className="flex items-center gap-1.5"><span className="h-0.5 w-4 rounded-full bg-sky-400" /> Active learners</span>
+            <span className="flex items-center gap-1.5"><span className="h-0.5 w-4 rounded-full bg-gold-400" /> Active learners</span>
             <span className="flex items-center gap-1.5"><span className="h-0.5 w-4 rounded-full bg-emerald-400" /> Masteries achieved</span>
             <span className="ml-auto text-white/35">{fmtDuration(totals.seconds)} total learning time</span>
           </div>

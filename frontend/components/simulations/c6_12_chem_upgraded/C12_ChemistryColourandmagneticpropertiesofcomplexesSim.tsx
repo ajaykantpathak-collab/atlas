@@ -1016,7 +1016,7 @@ const SpectrochemicalSeriesSVG: React.FC<{ selectedIndex: number; onSelect: (idx
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-800">
       <div className="flex justify-between items-center mb-2">
         <span className="text-xs font-bold text-red-400">WEAK FIELD (High Spin, Small Δ)</span>
-        <span className="text-xs font-bold text-indigo-400">STRONG FIELD (Low Spin, Large Δ)</span>
+        <span className="text-xs font-bold text-gold-400">STRONG FIELD (Low Spin, Large Δ)</span>
       </div>
       <div className="relative h-12 flex items-center justify-between px-2 bg-slate-950 rounded-lg border border-slate-800">
         {/* Gradient line */}
@@ -1032,7 +1032,7 @@ const SpectrochemicalSeriesSVG: React.FC<{ selectedIndex: number; onSelect: (idx
                 onSelect(idx);
               }}
               className={`relative z-10 flex flex-col items-center justify-center w-8 h-8 rounded-full transition-all duration-200 ${
-                isSelected ? 'scale-125 ring-4 ring-cyan-400 font-extrabold shadow-lg shadow-cyan-500/50' : 'hover:scale-110 opacity-80'
+                isSelected ? 'scale-125 ring-4 ring-gold-400 font-extrabold shadow-lg shadow-gold-500/50' : 'hover:scale-110 opacity-80'
               }`}
               style={{ backgroundColor: lig.color }}
             >
@@ -1043,7 +1043,7 @@ const SpectrochemicalSeriesSVG: React.FC<{ selectedIndex: number; onSelect: (idx
       </div>
       <div className="mt-3 text-center text-xs text-slate-300 bg-slate-800/80 p-2 rounded-lg border border-slate-700">
         Selected Ligand:{' '}
-        <span className="font-bold text-cyan-300">{ligands[selectedIndex].name}</span> — Field Strength:{' '}
+        <span className="font-bold text-gold-300">{ligands[selectedIndex].name}</span> — Field Strength:{' '}
         <span className="font-semibold text-emerald-300">{ligands[selectedIndex].type}</span> (Rank {selectedIndex + 1}/10)
       </div>
     </div>
@@ -1106,7 +1106,7 @@ const ColorWheelAbsorptionSVG: React.FC<{
         {/* Info & Slider Box */}
         <div className="flex flex-col space-y-3 bg-slate-950 p-3 rounded-lg border border-slate-800">
           <div>
-            <label className="text-xs text-slate-400 font-medium">Absorbed Wavelength (λ): <span className="text-cyan-400 font-bold">{absorbedWavelength} nm</span></label>
+            <label className="text-xs text-slate-400 font-medium">Absorbed Wavelength (λ): <span className="text-gold-400 font-bold">{absorbedWavelength} nm</span></label>
             <input
               type="range"
               min="400"
@@ -1116,7 +1116,7 @@ const ColorWheelAbsorptionSVG: React.FC<{
               onChange={(e) => {
                 onWavelengthChange(Number(e.target.value));
               }}
-              className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+              className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
             />
           </div>
 
@@ -1196,7 +1196,7 @@ const GouyBalanceSVG: React.FC<{
       </svg>
 
       <div className="mt-2 text-xs text-slate-300 text-center">
-        Complex: <span className="text-cyan-300 font-bold">{complexName}</span> | Unpaired Electrons (n):{' '}
+        Complex: <span className="text-gold-300 font-bold">{complexName}</span> | Unpaired Electrons (n):{' '}
         <span className="text-amber-400 font-bold">{unpairedElectrons}</span> | Formula:{' '}
         <span className="font-mono text-emerald-400 font-bold">μ = √(n(n+2)) = {mu.toFixed(2)} BM</span>
       </div>
@@ -1563,7 +1563,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-2xl mb-6">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
           <div className="flex items-center space-x-3">
-            <div className="p-3 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 rounded-xl shadow-lg">
+            <div className="p-3 bg-gradient-to-br from-gold-500 via-purple-500 to-pink-500 rounded-xl shadow-lg">
               <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
               </svg>
@@ -1573,7 +1573,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                 <span className="px-2 py-0.5 text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 rounded">
                   CISCE / ISC Class 12
                 </span>
-                <span className="px-2 py-0.5 text-[10px] font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 rounded">
+                <span className="px-2 py-0.5 text-[10px] font-bold bg-gold-500/20 text-gold-300 border border-gold-500/30 rounded">
                   Chemistry Lab
                 </span>
               </div>
@@ -1590,11 +1590,11 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
               <div className="flex items-center space-x-2 mt-1">
                 <div className="w-32 h-3 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                   <div
-                    className="h-full bg-gradient-to-r from-cyan-400 via-emerald-400 to-amber-400 transition-all duration-500"
+                    className="h-full bg-gradient-to-r from-gold-400 via-emerald-400 to-amber-400 transition-all duration-500"
                     style={{ width: `${overallMasteryPercent}%` }}
                   />
                 </div>
-                <span className="text-sm font-extrabold text-cyan-300 font-mono">{overallMasteryPercent}%</span>
+                <span className="text-sm font-extrabold text-gold-300 font-mono">{overallMasteryPercent}%</span>
               </div>
             </div>
 
@@ -1629,7 +1629,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
               }}
               className={`flex items-center space-x-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
                 activeTab === tab.id
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/20'
                   : 'bg-slate-800/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1649,17 +1649,17 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
           <div className="space-y-6 animate-fadeIn">
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
               <div className="flex items-center space-x-3 mb-3">
-                <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 font-bold text-xs rounded-full border border-cyan-500/30">
+                <span className="px-3 py-1 bg-gold-500/20 text-gold-300 font-bold text-xs rounded-full border border-gold-500/30">
                   ISC Lab Context
                 </span>
                 <span className="text-xs text-slate-400 font-mono">NODE: c12_chem_061 - c12_chem_070</span>
               </div>
               <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-cyan-200 leading-normal">
-                <strong className="text-cyan-400">Mission Objective: </strong>
+              <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-gold-200 leading-normal">
+                <strong className="text-gold-400">Mission Objective: </strong>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1710,8 +1710,8 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
               </div>
 
               {discoveryAnswered && (
-                <div className="p-4 bg-indigo-950/60 border border-indigo-800/80 rounded-xl text-xs text-indigo-200 animate-fadeIn">
-                  <strong className="text-indigo-300 block mb-1">Scientific Explanation:</strong>
+                <div className="p-4 bg-gold-950/60 border border-gold-800/80 rounded-xl text-xs text-gold-200 animate-fadeIn">
+                  <strong className="text-gold-300 block mb-1">Scientific Explanation:</strong>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1757,7 +1757,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                     })}
                   </div>
                   {predictionAnswers[qIdx] !== undefined && (
-                    <div className="text-xs text-cyan-300 bg-cyan-950/40 p-2 rounded border border-cyan-800/50">
+                    <div className="text-xs text-gold-300 bg-gold-950/40 p-2 rounded border border-gold-800/50">
                       💡 <strong>Verification Guide: </strong> {pq.verifyInstruction}
                     </div>
                   )}
@@ -1786,7 +1786,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                     }}
                     className={`p-3 rounded-xl border text-left transition-all ${
                       isActive
-                        ? 'bg-gradient-to-br from-cyan-600 to-blue-700 border-cyan-400 text-white shadow-lg shadow-cyan-500/20'
+                        ? 'bg-gradient-to-br from-gold-600 to-gold-700 border-gold-400 text-white shadow-lg shadow-gold-500/20'
                         : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                     }`}
                   >
@@ -1801,7 +1801,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
               <div className="flex justify-between items-start">
                 <div>
-                  <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                     Interactive Lab {activeLabIndex + 1} of 5
                   </span>
                   <h3 className="text-xl font-bold text-white mt-1">
@@ -1811,7 +1811,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                     {EXPLORATION_STEPS[activeLabIndex].instruction}
                   </p>
                 </div>
-                <span className="px-2.5 py-1 bg-slate-800 text-cyan-300 border border-slate-700 text-xs rounded-lg font-mono">
+                <span className="px-2.5 py-1 bg-slate-800 text-gold-300 border border-slate-700 text-xs rounded-lg font-mono">
                   Node: {EXPLORATION_STEPS[activeLabIndex].nodeId}
                 </span>
               </div>
@@ -1837,7 +1837,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                       }}
                       className={`py-2 text-xs font-bold rounded-lg border transition ${
                         geometry === 'octahedral'
-                          ? 'bg-cyan-600 border-cyan-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1851,7 +1851,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                       }}
                       className={`py-2 text-xs font-bold rounded-lg border transition ${
                         geometry === 'tetrahedral'
-                          ? 'bg-cyan-600 border-cyan-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1909,7 +1909,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                         }}
                         className={`py-2 text-xs font-bold rounded-lg border transition ${
                           !isHighSpin
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -2033,7 +2033,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                         challengeFilter === filter.id
-                          ? 'bg-cyan-500 text-white shadow-md'
+                          ? 'bg-gold-500 text-white shadow-md'
                           : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                       }`}
                     >
@@ -2074,7 +2074,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                       Competency: <strong className="text-slate-200">{activeChallenge.competencyLevel}</strong>
                     </span>
                   </div>
-                  <span className="text-xs font-mono text-cyan-400 bg-slate-950 px-2 py-1 rounded border border-slate-800">
+                  <span className="text-xs font-mono text-gold-400 bg-slate-950 px-2 py-1 rounded border border-slate-800">
                     Node: {activeChallenge.nodeId}
                   </span>
                 </div>
@@ -2094,7 +2094,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                         if (isRight) btnStyle = 'bg-emerald-950 border-emerald-500 text-emerald-200 font-bold';
                         else if (isChosen) btnStyle = 'bg-rose-950 border-rose-500 text-rose-200';
                       } else if (isChosen) {
-                        btnStyle = 'bg-cyan-950 border-cyan-500 text-cyan-200 font-bold';
+                        btnStyle = 'bg-gold-950 border-gold-500 text-gold-200 font-bold';
                       }
 
                       return (
@@ -2127,7 +2127,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="e.g. 3.87"
-                      className="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono font-bold text-lg focus:outline-none focus:border-cyan-500"
+                      className="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono font-bold text-lg focus:outline-none focus:border-gold-500"
                     />
                   </div>
                 )}
@@ -2228,7 +2228,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                         (activeChallenge.type === 'mcq' && selectedOption === null) ||
                         (activeChallenge.type === 'numeric' && !numericInput)
                       }
-                      className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-bold text-sm rounded-xl shadow-lg transition active:scale-95 disabled:opacity-50"
+                      className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white font-bold text-sm rounded-xl shadow-lg transition active:scale-95 disabled:opacity-50"
                     >
                       Submit Answer
                     </button>
@@ -2287,7 +2287,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                 {DIAGNOSTIC_QUESTIONS.map((dq, idx) => (
                   <div key={dq.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between items-start">
-                      <span className="text-xs font-bold text-cyan-400">Question {idx + 1}</span>
+                      <span className="text-xs font-bold text-gold-400">Question {idx + 1}</span>
                       <span className="text-[10px] font-mono text-slate-500">{dq.nodeId}</span>
                     </div>
                     <p className="text-sm text-slate-200 font-semibold">{dq.question}</p>
@@ -2317,7 +2317,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                 {REAL_WORLD_ACTIVITY.steps.map((stepText, idx) => (
                   <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                    <span className="text-xs font-extrabold text-cyan-400">Phase {idx + 1}</span>
+                    <span className="text-xs font-extrabold text-gold-400">Phase {idx + 1}</span>
                     <p className="text-xs text-slate-300 leading-relaxed">{stepText}</p>
                   </div>
                 ))}
@@ -2336,12 +2336,12 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
                   return (
                     <div key={nodeId} className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between items-center text-[10px]">
-                        <span className="font-mono text-cyan-400">{meta.code}</span>
+                        <span className="font-mono text-gold-400">{meta.code}</span>
                         <span className="font-bold text-emerald-400 font-mono">{masterPercent}%</span>
                       </div>
                       <div className="text-xs font-bold text-slate-200 truncate">{meta.title}</div>
                       <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
-                        <div className="h-full bg-cyan-400 transition-all duration-500" style={{ width: `${masterPercent}%` }} />
+                        <div className="h-full bg-gold-400 transition-all duration-500" style={{ width: `${masterPercent}%` }} />
                       </div>
                     </div>
                   );
@@ -2350,7 +2350,7 @@ export const C12_ChemistryColourandmagneticpropertiesofcomplexesSim: React.FC<Si
             </div>
 
             {/* Final Certificate & Action Button */}
-            <div className="bg-gradient-to-r from-cyan-900/50 via-slate-900 to-blue-900/50 border border-cyan-500/30 rounded-2xl p-6 text-center space-y-4">
+            <div className="bg-gradient-to-r from-gold-900/50 via-slate-900 to-gold-900/50 border border-gold-500/30 rounded-2xl p-6 text-center space-y-4">
               <h3 className="text-xl font-extrabold text-white">Lab Synthesis Complete!</h3>
               <p className="text-xs text-slate-300 max-w-lg mx-auto">
                 You have demonstrated competency across crystal field theory, spectrochemical splitting, d-d absorption spectra, and magnetic susceptibility.

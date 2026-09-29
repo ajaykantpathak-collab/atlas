@@ -1097,7 +1097,7 @@ const StateSymbolsDiagramSVG: React.FC = () => (
       <p className="text-xs text-slate-400">Fixed shape & volume. Packed atomic lattice.</p>
     </div>
     <div className="bg-slate-900 border border-slate-700 rounded-lg p-3 text-center">
-      <div className="inline-block px-2.5 py-1 rounded bg-cyan-500/20 text-cyan-400 font-mono font-bold text-sm mb-1">
+      <div className="inline-block px-2.5 py-1 rounded bg-gold-500/20 text-gold-400 font-mono font-bold text-sm mb-1">
         (l) Liquid
       </div>
       <p className="text-xs text-slate-400">Fluid pure liquid state (e.g., pure H₂O).</p>
@@ -1225,7 +1225,7 @@ const AtomParticleCanvas: React.FC<{
     <div className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 flex flex-col items-center">
       <div className="flex items-center justify-between w-full mb-2">
         <span className="text-xs font-semibold text-slate-400 flex items-center gap-1">
-          <Zap className="w-3.5 h-3.5 text-cyan-400" /> Kinetic Collision & Atom Rearrangement Chamber
+          <Zap className="w-3.5 h-3.5 text-gold-400" /> Kinetic Collision & Atom Rearrangement Chamber
         </span>
         <span className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded">
           Live Kinetic Model
@@ -1525,11 +1525,11 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl bg-slate-900/90 border border-slate-800 rounded-2xl p-5 mb-6 backdrop-blur-md flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-cyan-500/10 border border-cyan-500/30 rounded-xl">
-            <Atom className="w-8 h-8 text-cyan-400 animate-spin-slow" />
+          <div className="p-3 bg-gold-500/10 border border-gold-500/30 rounded-xl">
+            <Atom className="w-8 h-8 text-gold-400 animate-spin-slow" />
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-400 to-gold-400 bg-clip-text text-transparent">
               Chemical Equations & Balancing
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 8 Chemistry • Stoichiometry Workbench</p>
@@ -1561,7 +1561,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
         <button
           onClick={() => { setActiveTab('discovery'); triggerAudio('tap'); }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg font-semibold text-xs transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'discovery' ? 'bg-cyan-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'discovery' ? 'bg-gold-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <Lightbulb className="w-4 h-4" /> 1. Discovery & Scenario
@@ -1570,7 +1570,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
         <button
           onClick={() => { setActiveTab('lab'); triggerAudio('tap'); }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg font-semibold text-xs transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'lab' ? 'bg-cyan-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'lab' ? 'bg-gold-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <FlaskIcon className="w-4 h-4" /> 2. Interactive Lab
@@ -1579,7 +1579,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
         <button
           onClick={() => { setActiveTab('challenges'); triggerAudio('tap'); }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg font-semibold text-xs transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'challenges' ? 'bg-cyan-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'challenges' ? 'bg-gold-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <Target className="w-4 h-4" /> 3. Challenges ({completedChallenges.size}/{CHALLENGES.length})
@@ -1588,7 +1588,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
         <button
           onClick={() => { setActiveTab('summary'); triggerAudio('tap'); }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg font-semibold text-xs transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'summary' ? 'bg-cyan-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'summary' ? 'bg-gold-500 text-slate-950 shadow-lg font-bold' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <FileText className="w-4 h-4" /> 4. Summary & SRS
@@ -1603,12 +1603,12 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
               <div className="flex items-center gap-3 mb-4">
-                <BookOpen className="w-6 h-6 text-cyan-400" />
+                <BookOpen className="w-6 h-6 text-gold-400" />
                 <h2 className="text-xl font-bold text-slate-100">{SCENARIO.title}</h2>
               </div>
               <p className="text-sm text-slate-300 mb-3 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-sm text-slate-400 leading-relaxed bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">
-                <strong className="text-cyan-400">Mission Briefing:</strong> {SCENARIO.context}
+                <strong className="text-gold-400">Mission Briefing:</strong> {SCENARIO.context}
               </p>
             </div>
 
@@ -1628,7 +1628,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                     disabled={discoverySubmitted}
                     className={`w-full text-left p-4 rounded-xl text-sm transition-all border ${
                       discoverySelected === idx
-                        ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                        ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800/60'
                     }`}
                   >
@@ -1641,7 +1641,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoverySelected === null}
-                  className="px-6 py-3 bg-cyan-500 text-slate-950 font-bold rounded-xl hover:bg-cyan-400 transition-colors disabled:opacity-50"
+                  className="px-6 py-3 bg-gold-500 text-slate-950 font-bold rounded-xl hover:bg-gold-400 transition-colors disabled:opacity-50"
                 >
                   Submit Answer
                 </button>
@@ -1658,13 +1658,13 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
             {/* Prediction Questions Section */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-slate-100 mb-4 flex items-center gap-2">
-                <Eye className="w-5 h-5 text-indigo-400" /> Pre-Lab Predictions
+                <Eye className="w-5 h-5 text-gold-400" /> Pre-Lab Predictions
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {PREDICTION_QUESTIONS.map((pq, idx) => (
                   <div key={idx} className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
-                      <div className="text-xs font-bold text-indigo-400 mb-2">PREDICTION #{idx + 1}</div>
+                      <div className="text-xs font-bold text-gold-400 mb-2">PREDICTION #{idx + 1}</div>
                       <p className="text-sm font-semibold text-slate-200 mb-3">{pq.question}</p>
                       <div className="space-y-2 mb-4">
                         {pq.options.map((opt, oIdx) => (
@@ -1679,7 +1679,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                             disabled={predictionSubmitted[idx]}
                             className={`w-full text-left p-2.5 rounded-lg text-xs border ${
                               predictionAnswers[idx] === oIdx
-                                ? 'bg-indigo-500/20 border-indigo-500 text-indigo-200'
+                                ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                                 : 'bg-slate-900 border-slate-800 text-slate-300'
                             }`}
                           >
@@ -1693,7 +1693,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                       <button
                         onClick={() => handlePredictionSubmit(idx)}
                         disabled={predictionAnswers[idx] === null}
-                        className="w-full py-2 bg-indigo-600 text-white font-semibold text-xs rounded-lg hover:bg-indigo-500 disabled:opacity-50"
+                        className="w-full py-2 bg-gold-600 text-white font-semibold text-xs rounded-lg hover:bg-gold-500 disabled:opacity-50"
                       >
                         Verify Prediction
                       </button>
@@ -1715,7 +1715,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
             {/* Exploration Lab Step Guide Banner */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-lg flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-3">
-                <div className="px-3 py-1 bg-cyan-500/20 text-cyan-400 font-bold rounded-lg text-xs">
+                <div className="px-3 py-1 bg-gold-500/20 text-gold-400 font-bold rounded-lg text-xs">
                   Lab Step {activeLabStep + 1} of 5
                 </div>
                 <div>
@@ -1743,7 +1743,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                     triggerAudio('tap');
                   }}
                   disabled={activeLabStep === EXPLORATION_STEPS.length - 1}
-                  className="px-3 py-1.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-lg text-xs font-bold disabled:opacity-40"
+                  className="px-3 py-1.5 bg-gold-500 hover:bg-gold-400 text-slate-950 rounded-lg text-xs font-bold disabled:opacity-40"
                 >
                   Next Lab Step
                 </button>
@@ -1762,7 +1762,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                       setSelectedEqIndex(Number(e.target.value));
                       triggerAudio('tap');
                     }}
-                    className="bg-slate-950 border border-slate-700 text-cyan-400 font-bold text-xs rounded-lg px-3 py-2 outline-none"
+                    className="bg-slate-950 border border-slate-700 text-gold-400 font-bold text-xs rounded-lg px-3 py-2 outline-none"
                   >
                     {EQUATION_DATASET.map((eq, i) => (
                       <option key={eq.id} value={i}>
@@ -1803,7 +1803,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                           >
                             -
                           </button>
-                          <span className="w-8 text-center text-lg font-black text-cyan-400 font-mono">
+                          <span className="w-8 text-center text-lg font-black text-gold-400 font-mono">
                             {coefficients[i]}
                           </span>
                           <button
@@ -1823,8 +1823,8 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
 
                   {/* Reaction Arrow */}
                   <div className="flex flex-col items-center px-2">
-                    <ArrowRight className="w-8 h-8 text-indigo-400 animate-pulse" />
-                    <span className="text-[10px] font-bold text-indigo-400">YIELDS</span>
+                    <ArrowRight className="w-8 h-8 text-gold-400 animate-pulse" />
+                    <span className="text-[10px] font-bold text-gold-400">YIELDS</span>
                   </div>
 
                   {/* Products Steppers */}
@@ -1909,7 +1909,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                     <thead>
                       <tr className="border-b border-slate-800 text-slate-400 font-semibold">
                         <th className="pb-2">Element Symbol</th>
-                        <th className="pb-2 text-cyan-400">Reactant Side Total</th>
+                        <th className="pb-2 text-gold-400">Reactant Side Total</th>
                         <th className="pb-2 text-emerald-400">Product Side Total</th>
                         <th className="pb-2">Conservation Status</th>
                       </tr>
@@ -1922,7 +1922,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                         return (
                           <tr key={elem} className="hover:bg-slate-900/40">
                             <td className="py-2.5 font-bold text-slate-200">{elem}</td>
-                            <td className="py-2.5 text-cyan-400 font-bold">{lCount} atoms</td>
+                            <td className="py-2.5 text-gold-400 font-bold">{lCount} atoms</td>
                             <td className="py-2.5 text-emerald-400 font-bold">{rCount} atoms</td>
                             <td className="py-2.5">
                               <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${match ? 'bg-emerald-500/20 text-emerald-400' : 'bg-rose-500/20 text-rose-400'}`}>
@@ -2013,7 +2013,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                 <h3 className="text-base font-bold text-slate-100 flex items-center gap-2">
                   <span className={`px-2.5 py-0.5 rounded text-xs font-bold ${
                     CHALLENGES[currentChallengeIdx].difficulty === 'foundation'
-                      ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                      ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                       : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
                       ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                       : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
@@ -2027,7 +2027,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
               {/* Progress Bar */}
               <div className="w-full md:w-64 bg-slate-950 h-3 rounded-full border border-slate-800 overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-cyan-500 to-indigo-500 h-full transition-all duration-300"
+                  className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-300"
                   style={{ width: `${((currentChallengeIdx + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -2052,11 +2052,11 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                       disabled={challengeSubmitted}
                       className={`w-full text-left p-4 rounded-xl text-sm transition-all border ${
                         selectedOption === idx
-                          ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200 shadow-md'
+                          ? 'bg-gold-500/20 border-gold-500 text-gold-200 shadow-md'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800/60'
                       }`}
                     >
-                      <span className="font-bold mr-3 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold mr-3 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {option}
                     </button>
                   ))}
@@ -2075,7 +2075,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                     onChange={(e) => setTextAnswer(e.target.value)}
                     disabled={challengeSubmitted}
                     placeholder="e.g., 3"
-                    className="w-full md:w-48 bg-slate-950 border border-slate-700 text-slate-100 font-mono text-lg rounded-xl p-3 outline-none focus:border-cyan-500"
+                    className="w-full md:w-48 bg-slate-950 border border-slate-700 text-slate-100 font-mono text-lg rounded-xl p-3 outline-none focus:border-gold-500"
                   />
                 </div>
               )}
@@ -2109,14 +2109,14 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={selectedOption === null && textAnswer.trim() === ''}
-                    className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl transition disabled:opacity-40"
+                    className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition disabled:opacity-40"
                   >
                     Submit Response
                   </button>
                 ) : (
                   <button
                     onClick={nextChallenge}
-                    className="flex items-center gap-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition shadow-lg"
+                    className="flex items-center gap-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl transition shadow-lg"
                   >
                     <span>Next Challenge</span>
                     <ChevronRight className="w-4 h-4" />
@@ -2142,10 +2142,10 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
               <p className="text-sm text-slate-300 mb-4 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               
               <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
-                <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Industrial Operating Steps:</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Industrial Operating Steps:</h4>
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="flex items-start gap-3 text-xs text-slate-300">
-                    <span className="w-5 h-5 bg-cyan-500/20 text-cyan-400 font-bold rounded-full flex items-center justify-center flex-shrink-0 text-[10px]">
+                    <span className="w-5 h-5 bg-gold-500/20 text-gold-400 font-bold rounded-full flex items-center justify-center flex-shrink-0 text-[10px]">
                       {idx + 1}
                     </span>
                     <p className="leading-relaxed">{step}</p>
@@ -2157,7 +2157,7 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
             {/* Node Mastery & BKT Breakdown Table */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
               <h3 className="text-lg font-bold text-slate-100 mb-4 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-cyan-400" /> BKT Skill Node Mastery Breakdown
+                <TrendingUp className="w-5 h-5 text-gold-400" /> BKT Skill Node Mastery Breakdown
               </h3>
               <div className="space-y-3">
                 {ALL_NODE_IDS.map(nodeId => {
@@ -2172,9 +2172,9 @@ const C8_ChemistryChemicalequationsbalancingSim: React.FC<ComponentProps> = ({
                       </div>
                       <div className="flex items-center gap-4">
                         <div className="w-32 bg-slate-900 h-2.5 rounded-full overflow-hidden border border-slate-800">
-                          <div className="bg-cyan-500 h-full transition-all" style={{ width: `${masteryPercent}%` }} />
+                          <div className="bg-gold-500 h-full transition-all" style={{ width: `${masteryPercent}%` }} />
                         </div>
-                        <span className="text-xs font-bold text-cyan-400 w-12 text-right">{masteryPercent}%</span>
+                        <span className="text-xs font-bold text-gold-400 w-12 text-right">{masteryPercent}%</span>
                         <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-800 text-slate-300">{level}</span>
                       </div>
                     </div>

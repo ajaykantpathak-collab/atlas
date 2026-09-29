@@ -125,7 +125,7 @@ export function C11_PhysicsThermodynamicsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setProcess('isothermal')}
-                className={`py-2 rounded-xl text-xs font-bold ${process === 'isothermal' ? 'bg-sky-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-xs font-bold ${process === 'isothermal' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Isothermal (slow)
               </button>
               <button onClick={() => setProcess('adiabatic')}
@@ -142,10 +142,10 @@ export function C11_PhysicsThermodynamicsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Start volume V1</span><span className="font-mono font-bold text-sky-400">{v1} L</span>
+                <span>Start volume V1</span><span className="font-mono font-bold text-gold-400">{v1} L</span>
               </div>
               <input type="range" min={5} max={40} step={1} value={v1} aria-label="Initial volume"
-                onChange={(e) => setV1(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setV1(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -156,11 +156,11 @@ export function C11_PhysicsThermodynamicsSim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setGammaMode('mono')}
-                className={`py-1.5 rounded-lg text-[11px] font-bold ${gammaMode === 'mono' ? 'bg-indigo-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-1.5 rounded-lg text-[11px] font-bold ${gammaMode === 'mono' ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Monatomic gamma 5/3
               </button>
               <button onClick={() => setGammaMode('di')}
-                className={`py-1.5 rounded-lg text-[11px] font-bold ${gammaMode === 'di' ? 'bg-indigo-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-1.5 rounded-lg text-[11px] font-bold ${gammaMode === 'di' ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Diatomic gamma 7/5
               </button>
             </div>

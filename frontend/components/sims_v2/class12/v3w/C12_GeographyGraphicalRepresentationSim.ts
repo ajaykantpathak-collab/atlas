@@ -11,7 +11,7 @@ export const w_c12_geographygraphicalrepresentationsim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Graphical Representation: Need and General Rules for Construction',
     chapters: [],
     nodeIds: ['c12_geo_cbse_20_001', 'c12_geo_cbse_20_004', 'c12_geo_cbse_20_006', 'c12_geo_cbse_20_007', 'c12_geo_cbse_20_008', 'c12_geo_cbse_20_010', 'c12_geo_cbse_20_011', 'c12_geo_cbse_18_001', 'c12_geo_cbse_19_003', 'c12_geo_cbse_19_005', 'c12_geo_cbse_20_002', 'c12_geo_cbse_20_003', 'c12_geo_cbse_20_005', 'c12_geo_cbse_20_009', 'c12_geo_cbse_20_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Open any newspaper and you will see a temperature–rainfall graph for your city, a bar chart of state-wise.', goal: 'Master Graphical Representation: Need and General Rules for Construction.' },
     discovery: {
         question: 'State the formula used to calculate the central angle of a sector in a pie diagram when the data are given as percentages.',
@@ -20,7 +20,7 @@ export const w_c12_geographygraphicalrepresentationsim: SimDef = {
         hook: 'Students often think the "percentage" column in a pie-diagram table is the final answer and forget to convert it to.',
     },
     teaching: [
-        { title: 'Graphical representation is the.', text: 'Graphical representation is the transformation of numerical or spatial data into visual forms — such as graphs, diagrams, and maps — to reveal patterns, trends, and relationships that remain obscured.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Graphical representation is the.', text: 'Graphical representation is the transformation of numerical or spatial data into visual forms — such as graphs, diagrams, and maps — to reveal patterns, trends, and relationships that remain obscured.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_20_001', title: 'Graphical representation is the.',

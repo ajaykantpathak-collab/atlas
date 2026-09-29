@@ -37,14 +37,14 @@ const TEACHING_SLIDES = [
     title: 'Welcome to Paint Studio! 🎨',
     text: 'Paint is your digital drawing book! You open it from the Start menu. The canvas is your blank page, and the ribbon holds all your amazing tools!',
     emoji: '🎨',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Welcome to Paint Studio! Paint is your digital drawing book where you can create wonderful digital art!',
   },
   {
     title: 'Magic Paint Tools! ✏️',
     text: 'Use the Pencil for thin freehand lines, Brush for thick strokes, Eraser to rub out mistakes, Fill Tool (paint bucket) to fill closed shapes with colour, and Shapes for circles and rectangles!',
     emoji: '🖌️',
-    bgColor: 'from-indigo-400 to-purple-500',
+    bgColor: 'from-gold-400 to-purple-500',
     spoken: 'Use the Pencil for thin lines, Brush for thick strokes, Eraser to rub out mistakes, and Fill Tool to colour shapes!',
   },
   {
@@ -404,8 +404,8 @@ function StudioScene({ width, height }: { width: number; height: number }) {
         <rect width={width} height={height} fill="url(#studio-wall)" />
       </svg>
       {/* Window showing sky */}
-      <div className="absolute top-6 left-8 w-28 h-36 bg-sky-200 border-4 border-amber-900 rounded-lg overflow-hidden opacity-70">
-        <div className="w-full h-full bg-gradient-to-b from-sky-300 to-sky-100 flex flex-col items-center justify-center">
+      <div className="absolute top-6 left-8 w-28 h-36 bg-gold-200 border-4 border-amber-900 rounded-lg overflow-hidden opacity-70">
+        <div className="w-full h-full bg-gradient-to-b from-gold-300 to-gold-100 flex flex-col items-center justify-center">
           <div className="w-12 h-6 bg-white rounded-full opacity-80 mb-2" />
           <div className="w-8 h-4 bg-white rounded-full opacity-80" />
         </div>
@@ -696,7 +696,7 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
   };
 
   return (
-    <div className="relative overflow-hidden select-none flex flex-col items-center justify-center bg-indigo-950 font-sans rounded-3xl shadow-2xl" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none flex flex-col items-center justify-center bg-gold-950 font-sans rounded-3xl shadow-2xl" style={{ width, height }}>
       {/* Background Studio Scene */}
       <StudioScene width={width} height={height} />
 
@@ -714,10 +714,10 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
         <div className="relative z-10 flex flex-col items-center justify-between w-full h-full p-8">
           {/* Header */}
           <div className="flex items-center justify-between w-full bg-white/90 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg">
-            <h1 className="text-xl font-extrabold text-indigo-900">🎨 Paint Studio & File Guide</h1>
+            <h1 className="text-xl font-extrabold text-gold-900">🎨 Paint Studio & File Guide</h1>
             <div className="flex gap-2">
               {TEACHING_SLIDES.map((_, i) => (
-                <div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slideIndex ? 'bg-indigo-600 w-6' : 'bg-indigo-200'}`} />
+                <div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slideIndex ? 'bg-gold-600 w-6' : 'bg-gold-200'}`} />
               ))}
             </div>
           </div>
@@ -740,7 +740,7 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
             <button
               onClick={handlePrevSlide}
               disabled={slideIndex === 0}
-              className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${slideIndex === 0 ? 'bg-gray-400 opacity-50 cursor-not-allowed' : 'bg-indigo-600 hover:bg-indigo-700'}`}
+              className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${slideIndex === 0 ? 'bg-gray-400 opacity-50 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-700'}`}
             >
               ⬅️ Back
             </button>
@@ -760,7 +760,7 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
           {/* Top Status Bar */}
           <div className="flex items-center justify-between w-full bg-white/90 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg">
             <div className="flex items-center gap-3">
-              <span className="text-sm font-extrabold text-indigo-900">Level {challengeIndex + 1} / {CHALLENGES.length}</span>
+              <span className="text-sm font-extrabold text-gold-900">Level {challengeIndex + 1} / {CHALLENGES.length}</span>
               <StarRow count={stars} total={CHALLENGES.length} />
             </div>
             <div className="flex items-center gap-4">
@@ -779,9 +779,9 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
             key={challengeIndex}
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="flex flex-col items-center justify-center bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 w-full max-w-xl border-4 border-indigo-200"
+            className="flex flex-col items-center justify-center bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 w-full max-w-xl border-4 border-gold-200"
           >
-            <h2 className="text-xl font-black text-indigo-950 text-center mb-6">{CHALLENGES[challengeIndex].question}</h2>
+            <h2 className="text-xl font-black text-gold-950 text-center mb-6">{CHALLENGES[challengeIndex].question}</h2>
 
             {/* Multiple Choice Options */}
             {CHALLENGES[challengeIndex].options.length > 0 && (
@@ -792,7 +792,7 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswerSelect(opt)}
-                    className="flex items-center justify-center px-6 py-4 rounded-2xl font-bold text-gray-800 bg-gradient-to-r from-indigo-50 to-blue-50 border-2 border-indigo-200 shadow-md hover:border-indigo-500 hover:bg-indigo-100 transition-all text-base"
+                    className="flex items-center justify-center px-6 py-4 rounded-2xl font-bold text-gray-800 bg-gradient-to-r from-gold-50 to-gold-50 border-2 border-gold-200 shadow-md hover:border-gold-500 hover:bg-gold-100 transition-all text-base"
                   >
                     {opt}
                   </motion.button>
@@ -802,7 +802,7 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
 
             {/* Drag and Drop Sort Challenge */}
             {CHALLENGES[challengeIndex].type.startsWith('sort') && CHALLENGES[challengeIndex].sortItems && (
-              <div className="relative w-full h-80 bg-indigo-50/60 rounded-2xl border-2 border-dashed border-indigo-300 overflow-hidden">
+              <div className="relative w-full h-80 bg-gold-50/60 rounded-2xl border-2 border-dashed border-gold-300 overflow-hidden">
                 {/* Render Bins on Right */}
                 {CHALLENGES[challengeIndex].bins?.map((bin, idx) => (
                   <SortBin
@@ -853,12 +853,12 @@ export function ComputerFilesGame({ width = 720, height = 560, onComplete }: Com
           className="relative z-10 flex flex-col items-center justify-center bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 max-w-md w-full border-4 border-emerald-300 text-center"
         >
           <span className="text-6xl mb-3">🏆</span>
-          <h2 className="text-3xl font-black text-indigo-950 mb-2">Master Artist!</h2>
+          <h2 className="text-3xl font-black text-gold-950 mb-2">Master Artist!</h2>
           <p className="text-gray-600 font-medium mb-6">You successfully completed all Paint and File management challenges with flying colours!</p>
 
-          <div className="bg-indigo-50 rounded-2xl p-4 w-full mb-6 flex justify-around">
+          <div className="bg-gold-50 rounded-2xl p-4 w-full mb-6 flex justify-around">
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-black text-indigo-700">{score}</span>
+              <span className="text-2xl font-black text-gold-700">{score}</span>
               <span className="text-xs font-bold text-gray-500">Score</span>
             </div>
             <div className="flex flex-col items-center">

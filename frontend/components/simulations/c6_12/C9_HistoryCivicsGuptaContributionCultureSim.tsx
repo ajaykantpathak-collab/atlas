@@ -858,8 +858,8 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
     if (errorCount >= 4 && errorCount <= 7) {
       return {
         badge: 'Good effort!',
-        color: 'text-blue-400',
-        bg: 'bg-blue-950/60 border-blue-500',
+        color: 'text-gold-400',
+        bg: 'bg-gold-950/60 border-gold-500',
         message: 'Strong analytical foundation! Reviewing key temple epigraphy and Sultanate market mechanisms will elevate you to expert status.',
       };
     }
@@ -1234,7 +1234,7 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
       {/* ───────────────────────────���────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-800/40 shadow-inner">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-800/40 shadow-inner">
             <h2 className="text-lg font-bold text-amber-300 flex items-center gap-2">
               <span aria-hidden="true">📜</span> {SCENARIO.title}
             </h2>
@@ -1452,7 +1452,7 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
                       </motion.button>
 
                       {drawnCandidate && (
-                        <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700/60 text-xs text-indigo-200">
+                        <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/60 text-xs text-gold-200">
                           <span className="font-bold text-amber-300">✓ Variyam Committee Member Selected:</span>
                           <p className="mt-1 font-mono">{drawnCandidate}</p>
                         </motion.div>
@@ -1467,8 +1467,8 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
                 <div className="space-y-4">
                   {/* Predict Then Check Hook */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 space-y-3">
-                      <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Predict Before Interacting:</span>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 space-y-3">
+                      <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Predict Before Interacting:</span>
                       <p className="text-sm font-medium text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1679,7 +1679,7 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[10px] text-slate-400 uppercase font-bold">Cavalry Troopers</span>
-                        <p className="text-base font-extrabold text-blue-400 mt-1">{simSawar} Troopers</p>
+                        <p className="text-base font-extrabold text-gold-400 mt-1">{simSawar} Troopers</p>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[10px] text-slate-400 uppercase font-bold">Warhorses (Do-Aspa 2x)</span>
@@ -2109,7 +2109,7 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-[10px] uppercase font-bold text-slate-400">Total Nodes Mastered</span>
-                <p className="text-2xl font-black text-blue-400 mt-0.5">10 / 10</p>
+                <p className="text-2xl font-black text-gold-400 mt-0.5">10 / 10</p>
               </div>
             </div>
           </div>
@@ -2177,8 +2177,8 @@ export function C9_HistoryCivicsGuptaContributionCultureSim({
           </div>
 
           {/* Real World Activity Card */}
-          <div className="p-6 bg-indigo-950/30 rounded-2xl border border-indigo-900/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+          <div className="p-6 bg-gold-950/30 rounded-2xl border border-gold-900/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
               🌍 Real-World Analytical Brief: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

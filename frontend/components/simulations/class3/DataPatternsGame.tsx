@@ -41,14 +41,14 @@ const TEACHING_SLIDES = [
     title: 'What is Data? 📊',
     text: 'Data is information we gather by asking questions, counting, or observing! For example, counting favourite fruits or vehicles outside school.',
     emoji: '📊',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Data is information we gather by asking questions, counting, or observing! For example, counting favourite fruits or vehicles outside school.',
   },
   {
     title: 'Pictographs & Tables 🍎',
     text: 'A pictograph uses pictures or symbols to show data! A table organizes data in rows and columns. Each picture stands for one or more items.',
     emoji: '🖼️',
-    bgColor: 'from-indigo-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'A pictograph uses pictures or symbols to show data! A table organizes data in rows and columns. Each picture stands for one or more items.',
   },
   {
@@ -606,7 +606,7 @@ function TeachingScreen({ onStartPlay }: { onStartPlay: () => void }) {
   const slide = TEACHING_SLIDES[currSlide];
 
   return (
-    <div className="relative w-full h-full flex flex-col items-center justify-between p-6 bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white select-none">
+    <div className="relative w-full h-full flex flex-col items-center justify-between p-6 bg-gradient-to-br from-slate-900 via-gold-950 to-gold-950 text-white select-none">
       {/* Top Bar */}
       <div className="w-full flex items-center justify-between max-w-2xl">
         <div className="flex items-center gap-2">
@@ -863,9 +863,9 @@ export function DataPatternsGame({ width = 720, height = 560, onComplete }: Data
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => handleAnswerSelect(opt)}
-                className="w-full py-3 px-5 bg-gradient-to-r from-slate-800 to-indigo-950 hover:from-slate-700 hover:to-indigo-900 border-2 border-indigo-500/40 hover:border-indigo-400 rounded-2xl text-white font-bold text-sm shadow-lg transition-all text-left flex items-center gap-3"
+                className="w-full py-3 px-5 bg-gradient-to-r from-slate-800 to-gold-950 hover:from-slate-700 hover:to-gold-900 border-2 border-gold-500/40 hover:border-gold-400 rounded-2xl text-white font-bold text-sm shadow-lg transition-all text-left flex items-center gap-3"
               >
-                <div className="w-7 h-7 rounded-xl bg-indigo-500/30 flex items-center justify-center text-indigo-300 font-black text-xs shrink-0">
+                <div className="w-7 h-7 rounded-xl bg-gold-500/30 flex items-center justify-center text-gold-300 font-black text-xs shrink-0">
                   {String.fromCharCode(65 + idx)}
                 </div>
                 <span className="flex-1">{opt}</span>

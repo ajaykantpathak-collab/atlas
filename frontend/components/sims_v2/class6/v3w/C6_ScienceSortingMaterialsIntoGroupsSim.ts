@@ -11,7 +11,7 @@ export const w_c6_sciencesortingmaterialsintogroupssim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
     nodeIds: ['c6_chemistry_ch04_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are looking at your school bag. Why is it made of fabric or plastic, but not glass?', goal: 'Master What Are Materials and Why We Classify Them.' },
     discovery: {
         question: 'What are the two essential characteristics that define anything as "matter"?',
@@ -20,7 +20,7 @@ export const w_c6_sciencesortingmaterialsintogroupssim: SimDef = {
         hook: 'Students often confuse "transparent" with "colorless." They might think a colored glass is opaque because it isn\'t.',
     },
     teaching: [
-        { title: 'Materials are substances used to create.', text: 'Materials are substances used to create objects, and matter is anything that occupies space (volume) and has mass.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Materials are substances used to create.', text: 'Materials are substances used to create objects, and matter is anything that occupies space (volume) and has mass.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_chemistry_ch04_001', title: 'Materials are substances used to create.',

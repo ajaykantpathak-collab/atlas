@@ -11,7 +11,7 @@ export const w_c12_biologyfloweringplantdoublefertilisationsim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Agents of Pollination: Wind, Water, Insects',
     chapters: [],
     nodeIds: ['c12_bio_cbse_02_007', 'c12_bio_cbse_02_005', 'c12_bio_cbse_02_008', 'c12_bio_cbse_02_009', 'c12_bio_cbse_02_010', 'c12_bio_cbse_02_012', 'c12_bio_cbse_01_004', 'c12_bio_cbse_01_006', 'c12_bio_cbse_01_007', 'c12_bio_cbse_02_001', 'c12_bio_cbse_01_002', 'c12_bio_cbse_02_002', 'c12_bio_cbse_02_003', 'c12_bio_cbse_02_004', 'c12_bio_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a maize field on a breezy day: clouds of yellow dust rise when you shake the tassels – that is wind.', goal: 'Master Agents of Pollination: Wind, Water, Insects.' },
     discovery: {
         question: 'Name the three major agents of pollination covered in the NCERT Class 12 syllabus and give the technical term for each.',
@@ -20,7 +20,7 @@ export const w_c12_biologyfloweringplantdoublefertilisationsim: SimDef = {
         hook: 'Students often think “hydrophily means pollen floats on water like a boat” and assume all water-pollinated flowers are.',
     },
     teaching: [
-        { title: 'Agents of pollination are biotic (insects,.', text: 'Agents of pollination are biotic (insects, birds, bats) and abiotic (wind, water) vectors that transfer pollen grains from the anther to the stigma of a flower, enabling fertilisation in flowering.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Agents of pollination are biotic (insects,.', text: 'Agents of pollination are biotic (insects, birds, bats) and abiotic (wind, water) vectors that transfer pollen grains from the anther to the stigma of a flower, enabling fertilisation in flowering.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_02_007', title: 'Agents of pollination are biotic.',

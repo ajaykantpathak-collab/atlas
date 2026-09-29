@@ -35,7 +35,7 @@ export default function WeeklyDigest({
   return (
     <div
       data-testid="weekly-digest"
-      className="rounded-2xl bg-slate-800 p-6 shadow-md border border-indigo-500/20 mb-8"
+      className="rounded-2xl bg-slate-800 p-6 shadow-md border border-gold-500/20 mb-8"
     >
       <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
         <h2 className="text-lg font-bold text-slate-200">📅 Weekly Digest</h2>
@@ -99,7 +99,7 @@ export default function WeeklyDigest({
               {data.by_day.map((d) => (
                 <div key={d.date} className="flex flex-1 flex-col items-center justify-end gap-1">
                   <div
-                    className="w-full rounded-t bg-indigo-500/70"
+                    className="w-full rounded-t bg-gold-500/70"
                     style={{ height: `${(d.questions / maxDayQ) * 100}%`, minHeight: d.questions > 0 ? 6 : 2, opacity: d.questions > 0 ? 1 : 0.25 }}
                     title={`${d.date}: ${d.questions} questions`}
                   />

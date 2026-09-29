@@ -436,10 +436,10 @@ export function C10_ScienceControlAndCoordinationSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Arm-to-cord path length</span>
-                <span className="font-mono font-bold text-sky-400">{pathLen.toFixed(1)} m</span>
+                <span className="font-mono font-bold text-gold-400">{pathLen.toFixed(1)} m</span>
               </div>
               <input type="range" min={0.3} max={2} step={0.1} value={pathLen} aria-label="path length"
-                onChange={(e) => { setPathLen(Number(e.target.value)); setFired(false); }} className="w-full accent-sky-500" />
+                onChange={(e) => { setPathLen(Number(e.target.value)); setFired(false); }} className="w-full accent-gold-500" />
             </div>
           </div>
 

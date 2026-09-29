@@ -9,7 +9,7 @@ export const c11_comp_ch86: SimDef = {
     classLevel: 11, subject: 'english-composition', topic: 'Speech, article and report writing',
     chapters: ['c11_comp_ch86'],
     nodeIds: ['c11_engl_cbse_86_001', 'c11_engl_cbse_86_002', 'c11_engl_cbse_86_003'],
-    emoji: '🎤', theme: { bg: 'from-slate-900 to-indigo-950', accent: 'indigo', scene: 'senior' },
+    emoji: '🎤', theme: { bg: 'from-slate-900 to-gold-950', accent: 'indigo', scene: 'senior' },
 
     scenario: {
         role: 'a writer who must switch between the podium, the magazine page, and the press desk on the same day',
@@ -28,8 +28,8 @@ export const c11_comp_ch86: SimDef = {
         hook: 'Speeches written for the EAR need greeting + hook — a question or startling fact, never an announcement.',
     },
     teaching: [
-        { title: 'The three contracts', text: 'Speech = greeting + hook + addressed points + call-to-action. Article = title + byline + engaging intro + takeaway. Report = headline + 4W lead + pyramid + attributed quote.', emoji: '📜', bgColor: 'from-indigo-500 to-violet-600' },
-        { title: 'Voice allowed, voice forbidden', text: 'Essay argues; article may perform; report must not. The middle register is the hardest to hold — slang breaks it, dryness wastes it.', emoji: '🎛️', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'The three contracts', text: 'Speech = greeting + hook + addressed points + call-to-action. Article = title + byline + engaging intro + takeaway. Report = headline + 4W lead + pyramid + attributed quote.', emoji: '📜', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Voice allowed, voice forbidden', text: 'Essay argues; article may perform; report must not. The middle register is the hardest to hold — slang breaks it, dryness wastes it.', emoji: '🎛️', bgColor: 'from-gold-500 to-purple-600' },
     ],
 
     beats: [

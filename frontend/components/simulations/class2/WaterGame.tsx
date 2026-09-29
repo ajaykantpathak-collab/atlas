@@ -26,21 +26,21 @@ const TEACHING_SLIDES = [
     title: 'Storage of Water! 🏺',
     text: 'Water collected from taps, rain, or wells must be stored safely! We keep water in covered containers like clay pots (matkas), steel buckets, and water tanks so dust and insects cannot get in.',
     emoji: '🏺',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Water collected from taps, rain, or wells must be stored safely in covered containers!'
   },
   {
     title: 'Simple Properties of Water! ✨',
     text: 'Pure, clean water has NO colour, NO taste, and NO smell! When poured into a clear glass, you can see right through it. It is transparent like a clear window!',
     emoji: '💧',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Pure clean water has no colour, no taste, and no smell! You can see right through it.'
   },
   {
     title: 'Vessels and Containers! 🪣',
     text: 'Different vessels have different jobs! A clay pot (matka) keeps drinking water cool naturally. A bucket helps us carry water for bathing. A water tank stores large amounts for the whole house!',
     emoji: '🪣',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'Different vessels have different jobs! Clay pots keep water cool, buckets carry water for bathing.'
   },
   {
@@ -323,7 +323,7 @@ function JalwalaJayaMascot({ mood, speaking }: { mood: 'happy' | 'celebrate' | '
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-cyan-400"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-400"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -459,7 +459,7 @@ function SortCard({ item, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={item.id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={120} height={100}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-cyan-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} p-2`} style={{ width: 120, height: 100 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} p-2`} style={{ width: 120, height: 100 }}>
         {renderTopicIcon(item.icon, 48)}
         <span className="text-xs font-bold text-gray-800 text-center mt-1">{item.label}</span>
       </div>
@@ -495,12 +495,12 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
       {/* Top Header */}
       <div className="w-full flex items-center justify-between max-w-xl">
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-black text-cyan-800">💧 Water Game</span>
-          <span className="text-xs bg-cyan-600 text-white px-2 py-0.5 rounded-full font-bold">Class 2</span>
+          <span className="text-2xl font-black text-gold-800">💧 Water Game</span>
+          <span className="text-xs bg-gold-600 text-white px-2 py-0.5 rounded-full font-bold">Class 2</span>
         </div>
         <div className="flex gap-1.5">
           {TEACHING_SLIDES.map((_, i) => (
-            <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === currentSlide ? 'w-8 bg-cyan-600' : 'w-2.5 bg-cyan-300'}`} />
+            <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === currentSlide ? 'w-8 bg-gold-600' : 'w-2.5 bg-gold-300'}`} />
           ))}
         </div>
       </div>
@@ -512,16 +512,16 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.95, y: -20 }}
         transition={{ duration: 0.4 }}
-        className="w-full max-w-xl bg-white rounded-3xl shadow-2xl p-8 border-4 border-cyan-200 flex flex-col items-center text-center my-auto"
+        className="w-full max-w-xl bg-white rounded-3xl shadow-2xl p-8 border-4 border-gold-200 flex flex-col items-center text-center my-auto"
       >
         <div className="w-20 h-20 rounded-2xl flex items-center justify-center text-5xl mb-4 shadow-inner" style={{ background: 'linear-gradient(135deg, #E0F2FE 0%, #7DD3FC 100%)' }}>
           {slide.emoji}
         </div>
-        <h2 className="text-2xl font-black text-cyan-900 mb-3">{slide.title}</h2>
+        <h2 className="text-2xl font-black text-gold-900 mb-3">{slide.title}</h2>
         <p className="text-base text-gray-700 leading-relaxed font-medium mb-6">{slide.text}</p>
-        <div className="bg-cyan-50 rounded-2xl p-4 border border-cyan-200 w-full">
-          <p className="text-xs font-bold text-cyan-800">💡 ICSE Curriculum Note:</p>
-          <p className="text-xs text-cyan-700 mt-1">Water is precious! Store it properly in covered vessels, know its pure properties, and conserve every drop.</p>
+        <div className="bg-gold-50 rounded-2xl p-4 border border-gold-200 w-full">
+          <p className="text-xs font-bold text-gold-800">💡 ICSE Curriculum Note:</p>
+          <p className="text-xs text-gold-700 mt-1">Water is precious! Store it properly in covered vessels, know its pure properties, and conserve every drop.</p>
         </div>
       </motion.div>
 
@@ -530,7 +530,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
         <button
           onClick={handlePrev}
           disabled={currentSlide === 0}
-          className={`px-6 py-3 rounded-2xl font-bold text-sm shadow-md transition-all ${currentSlide === 0 ? 'opacity-40 cursor-not-allowed bg-gray-200 text-gray-400' : 'bg-white text-cyan-700 hover:bg-cyan-50'}`}
+          className={`px-6 py-3 rounded-2xl font-bold text-sm shadow-md transition-all ${currentSlide === 0 ? 'opacity-40 cursor-not-allowed bg-gray-200 text-gray-400' : 'bg-white text-gold-700 hover:bg-gold-50'}`}
         >
           ← Back
         </button>
@@ -709,7 +709,7 @@ export function WaterGame({ width = 720, height = 560, onComplete }: WaterGamePr
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-between select-none overflow-hidden rounded-3xl shadow-2xl border-4 border-cyan-300 bg-sky-50" style={{ width, height }}>
+    <div className="relative flex flex-col items-center justify-between select-none overflow-hidden rounded-3xl shadow-2xl border-4 border-gold-300 bg-gold-50" style={{ width, height }}>
       {/* Background Scene */}
       <WaterGameBackground width={width} height={height} />
 
@@ -719,10 +719,10 @@ export function WaterGame({ width = 720, height = 560, onComplete }: WaterGamePr
       )}
 
       {/* Top Navigation & Score Bar */}
-      <div className="w-full flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md border-b-2 border-cyan-200 z-20 shadow-sm">
+      <div className="w-full flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md border-b-2 border-gold-200 z-20 shadow-sm">
         <div className="flex items-center gap-3">
-          <span className="text-xl font-black text-cyan-900">💧 Water Game</span>
-          <span className="text-xs bg-cyan-600 text-white px-2.5 py-1 rounded-full font-bold">
+          <span className="text-xl font-black text-gold-900">💧 Water Game</span>
+          <span className="text-xs bg-gold-600 text-white px-2.5 py-1 rounded-full font-bold">
             Challenge {currentChallengeIndex + 1} / {CHALLENGES.length}
           </span>
         </div>
@@ -739,7 +739,7 @@ export function WaterGame({ width = 720, height = 560, onComplete }: WaterGamePr
           initial={{ opacity: 0, y: 20, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.3 }}
-          className="w-full bg-white/95 backdrop-blur-md rounded-3xl shadow-xl p-6 border-4 border-cyan-200 flex flex-col items-center text-center"
+          className="w-full bg-white/95 backdrop-blur-md rounded-3xl shadow-xl p-6 border-4 border-gold-200 flex flex-col items-center text-center"
         >
           <h2 className="text-xl font-black text-gray-800 mb-6">{challenge.question}</h2>
 
@@ -752,10 +752,10 @@ export function WaterGame({ width = 720, height = 560, onComplete }: WaterGamePr
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswerSelect(option)}
-                  className="w-full py-4 px-6 rounded-2xl font-bold text-base text-cyan-900 bg-gradient-to-r from-cyan-50 to-blue-50 border-2 border-cyan-300 shadow-md hover:bg-cyan-100 transition-all flex items-center justify-between"
+                  className="w-full py-4 px-6 rounded-2xl font-bold text-base text-gold-900 bg-gradient-to-r from-gold-50 to-gold-50 border-2 border-gold-300 shadow-md hover:bg-gold-100 transition-all flex items-center justify-between"
                 >
                   <span>{option}</span>
-                  <span className="text-cyan-600 font-black">→</span>
+                  <span className="text-gold-600 font-black">→</span>
                 </motion.button>
               ))}
             </div>

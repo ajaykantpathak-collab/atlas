@@ -43,10 +43,10 @@ import { speechManager } from '../../../lib/sim-engine/speech';
 import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine/feedback';
 // ─── Teaching slides (from enrichment DEFINITION + TEXT_WALKTHROUGH) ──
 const TEACHING_SLIDES = [
-    { title: 'What is a Computer? 💻', text: 'A computer is a smart electronic machine made by humans! It runs on electricity, works very fast, remembers many things, and never gets tired!', emoji: '🖥️', bgColor: 'from-blue-500 to-indigo-600', spoken: 'A computer is a smart electronic machine made by humans! It runs on electricity and works very fast!' },
-    { title: 'Types of Computers 📱', text: 'Computers come in many shapes and sizes! We have big desktop computers on desks, portable laptops, handheld tablets, and pocket-sized smartphones!', emoji: '📱', bgColor: 'from-indigo-500 to-purple-600', spoken: 'Computers come in many shapes and sizes! Desktops, laptops, tablets, and smartphones!' },
-    { title: 'Parts of a Computer ⌨️', text: 'A computer has main parts working together! The Monitor is the screen, the CPU is the smart brain, the Keyboard is for typing, and the Mouse is for clicking!', emoji: '🖱️', bgColor: 'from-cyan-500 to-blue-600', spoken: 'A computer has main parts! The monitor screen, the CPU brain, the keyboard, and the mouse!' },
-    { title: 'What Do We Use Computers For? 🎨', text: 'We use computers for so many fun and useful things! We can draw pictures, learn math, write stories, play educational games, and watch educational videos!', emoji: '🎨', bgColor: 'from-teal-500 to-cyan-600', spoken: 'We use computers to draw pictures, learn math, write stories, play games, and watch videos!' },
+    { title: 'What is a Computer? 💻', text: 'A computer is a smart electronic machine made by humans! It runs on electricity, works very fast, remembers many things, and never gets tired!', emoji: '🖥️', bgColor: 'from-gold-500 to-gold-600', spoken: 'A computer is a smart electronic machine made by humans! It runs on electricity and works very fast!' },
+    { title: 'Types of Computers 📱', text: 'Computers come in many shapes and sizes! We have big desktop computers on desks, portable laptops, handheld tablets, and pocket-sized smartphones!', emoji: '📱', bgColor: 'from-gold-500 to-purple-600', spoken: 'Computers come in many shapes and sizes! Desktops, laptops, tablets, and smartphones!' },
+    { title: 'Parts of a Computer ⌨️', text: 'A computer has main parts working together! The Monitor is the screen, the CPU is the smart brain, the Keyboard is for typing, and the Mouse is for clicking!', emoji: '🖱️', bgColor: 'from-gold-500 to-gold-600', spoken: 'A computer has main parts! The monitor screen, the CPU brain, the keyboard, and the mouse!' },
+    { title: 'What Do We Use Computers For? 🎨', text: 'We use computers for so many fun and useful things! We can draw pictures, learn math, write stories, play educational games, and watch educational videos!', emoji: '🎨', bgColor: 'from-teal-500 to-gold-600', spoken: 'We use computers to draw pictures, learn math, write stories, play games, and watch videos!' },
     { title: 'Input and Output 🔄', text: 'Input devices like keyboards and mice send instructions to the computer. Output devices like monitors and speakers show and tell us the results!', emoji: '🔊', bgColor: 'from-emerald-500 to-teal-600', spoken: 'Input devices send instructions like keyboards and mice. Output devices show results like monitors and speakers!' },
 ];
 // ─── Types ────────────────────────────────────────────────────
@@ -250,11 +250,11 @@ function ComputerLabScene({ width, height }: {
       {/* Wall gradient */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #1E293B 0%, #0F172A 50%, #090D16 100%)' }}/>
       {/* Window showing sci-fi city sky */}
-      <div className="absolute top-4 left-10 w-48 h-36 rounded-2xl border-4 border-slate-600 bg-gradient-to-b from-sky-400 via-indigo-600 to-slate-900 opacity-60 overflow-hidden">
+      <div className="absolute top-4 left-10 w-48 h-36 rounded-2xl border-4 border-slate-600 bg-gradient-to-b from-gold-400 via-gold-600 to-slate-900 opacity-60 overflow-hidden">
         {/* Stars / Binary in window */}
-        <div className="absolute top-2 left-4 text-[10px] text-cyan-300 font-mono opacity-80">10101</div>
-        <div className="absolute top-6 right-6 text-[10px] text-cyan-300 font-mono opacity-60">01100</div>
-        <div className="absolute top-12 left-10 text-[10px] text-blue-300 font-mono opacity-70">11001</div>
+        <div className="absolute top-2 left-4 text-[10px] text-gold-300 font-mono opacity-80">10101</div>
+        <div className="absolute top-6 right-6 text-[10px] text-gold-300 font-mono opacity-60">01100</div>
+        <div className="absolute top-12 left-10 text-[10px] text-gold-300 font-mono opacity-70">11001</div>
       </div>
       {/* Server rack in corner */}
       <div className="absolute bottom-20 right-6 w-16 h-40 bg-slate-800 border-2 border-slate-700 rounded-lg flex flex-col justify-around p-2 opacity-50">
@@ -264,10 +264,10 @@ function ComputerLabScene({ width, height }: {
           </div>))}
       </div>
       {/* Floating binary digits decoration */}
-      <motion.div className="absolute top-1/4 left-1/3 text-cyan-400 font-mono text-sm opacity-25" animate={{ y: [0, -20, 0] }} transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}>
+      <motion.div className="absolute top-1/4 left-1/3 text-gold-400 font-mono text-sm opacity-25" animate={{ y: [0, -20, 0] }} transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}>
         01001100 💻
       </motion.div>
-      <motion.div className="absolute top-1/3 right-1/3 text-blue-400 font-mono text-sm opacity-20" animate={{ y: [0, 20, 0] }} transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}>
+      <motion.div className="absolute top-1/3 right-1/3 text-gold-400 font-mono text-sm opacity-20" animate={{ y: [0, 20, 0] }} transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}>
         11010010 ⚡
       </motion.div>
       {/* Desk and floor */}
@@ -474,11 +474,11 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
 
       {/* Top Header */}
       <div className="z-10 flex items-center justify-between w-full max-w-xl bg-slate-900/80 backdrop-blur rounded-2xl px-6 py-3 border border-slate-700">
-        <h1 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
+        <h1 className="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-400">
           Computer Lab Adventure 💻
         </h1>
         <div className="flex gap-1.5">
-          {TEACHING_SLIDES.map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slide ? 'bg-cyan-400 scale-125' : 'bg-slate-600'}`}/>))}
+          {TEACHING_SLIDES.map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slide ? 'bg-gold-400 scale-125' : 'bg-slate-600'}`}/>))}
         </div>
       </div>
 
@@ -494,7 +494,7 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
         <button onClick={handlePrev} disabled={slide === 0} className={`px-6 py-3 rounded-2xl font-bold text-white transition-all shadow-lg ${slide === 0 ? 'bg-slate-700/50 opacity-40 cursor-not-allowed' : 'bg-slate-700 hover:bg-slate-600 active:scale-95'}`}>
           ⬅️ Back
         </button>
-        <button onClick={handleNext} className="px-8 py-3 rounded-2xl font-black text-white bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 active:scale-95 shadow-xl transition-all">
+        <button onClick={handleNext} className="px-8 py-3 rounded-2xl font-black text-white bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 active:scale-95 shadow-xl transition-all">
           {slide === total - 1 ? 'Start Playing! 🚀' : 'Next ➡️'}
         </button>
       </div>
@@ -660,10 +660,10 @@ export function ComputerBasicsGame({ width = 720, height = 560, onComplete }: Co
       {/* Top Status Bar */}
       <div className="z-10 flex items-center justify-between w-full max-w-2xl bg-slate-900/80 backdrop-blur rounded-2xl px-5 py-2.5 border border-slate-700 shadow-lg">
         <div className="flex items-center gap-3">
-          <span className="text-sm font-bold text-cyan-300">Level {currentIndex + 1} / {CHALLENGES.length}</span>
+          <span className="text-sm font-bold text-gold-300">Level {currentIndex + 1} / {CHALLENGES.length}</span>
           <StarRow count={stars} total={CHALLENGES.length}/>
         </div>
-        <div className="text-sm font-black text-cyan-400">Score: {score}</div>
+        <div className="text-sm font-black text-gold-400">Score: {score}</div>
       </div>
 
       {/* Challenge Question Card */}
@@ -674,7 +674,7 @@ export function ComputerBasicsGame({ width = 720, height = 560, onComplete }: Co
       {/* Challenge Interaction Area */}
       <div className="z-10 relative flex-1 w-full max-w-2xl flex items-center justify-center my-2">
         {challenge.answer !== 'sort' ? (<div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full px-4">
-            {challenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={(e) => handleOptionClick(opt, e)} className="bg-slate-800 hover:bg-slate-700 border-2 border-slate-600 hover:border-cyan-400 rounded-2xl p-5 text-white font-bold text-sm shadow-xl flex flex-col items-center justify-center gap-2 transition-all min-h-[110px]">
+            {challenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={(e) => handleOptionClick(opt, e)} className="bg-slate-800 hover:bg-slate-700 border-2 border-slate-600 hover:border-gold-400 rounded-2xl p-5 text-white font-bold text-sm shadow-xl flex flex-col items-center justify-center gap-2 transition-all min-h-[110px]">
                 {opt.includes('Desktop') || opt.includes('computer') ? <DesktopIcon size={48}/> :
                     opt.includes('Laptop') ? <LaptopIcon size={48}/> :
                         opt.includes('CPU') ? <CpuIcon size={48}/> :
@@ -704,7 +704,7 @@ export function ComputerBasicsGame({ width = 720, height = 560, onComplete }: Co
         <button onClick={() => {
             setShowHint(true);
             audioManager.play('hint');
-        }} className="text-xs font-bold text-cyan-300 hover:text-cyan-200 bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700 shadow flex items-center gap-1.5 transition-all">
+        }} className="text-xs font-bold text-gold-300 hover:text-gold-200 bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700 shadow flex items-center gap-1.5 transition-all">
           💡 Need a hint?
         </button>
       </div>

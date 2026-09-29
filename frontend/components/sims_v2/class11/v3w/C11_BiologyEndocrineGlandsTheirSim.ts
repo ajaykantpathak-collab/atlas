@@ -11,7 +11,7 @@ export const w_c11_biologyendocrineglandstheirsim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Endocrine Glands: Hypothalamus and Pituitary',
     chapters: [],
     nodeIds: ['c11_bio_cbse_19_001', 'c11_bio_cbse_19_002', 'c11_bio_cbse_19_003', 'c11_bio_cbse_19_004', 'c11_bio_cbse_19_007', 'c11_bio_cbse_19_008', 'c11_bio_cbse_19_005', 'c11_bio_cbse_19_006', 'c11_bio_cbse_18_004', 'c11_bio_cbse_18_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing up quickly after sitting for a long time and feel dizzy for a moment — your body.', goal: 'Master Endocrine Glands: Hypothalamus and Pituitary.' },
     discovery: {
         question: 'Explain why the anterior pituitary is called the "master gland" even though it is itself controlled by the hypothalamus.',
@@ -20,7 +20,7 @@ export const w_c11_biologyendocrineglandstheirsim: SimDef = {
         hook: 'Students often believe that oxytocin and ADH are synthesized in the posterior pituitary.',
     },
     teaching: [
-        { title: 'The hypothalamus is a neuroendocrine region.', text: 'The hypothalamus is a neuroendocrine region of the diencephalon that synthesizes releasing and inhibiting hormones to regulate the anterior pituitary via a hypophyseal portal system, while the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The hypothalamus is a neuroendocrine region.', text: 'The hypothalamus is a neuroendocrine region of the diencephalon that synthesizes releasing and inhibiting hormones to regulate the anterior pituitary via a hypophyseal portal system, while the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_19_001', title: 'The hypothalamus is a neuroendocrine.',

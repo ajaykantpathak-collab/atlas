@@ -1211,7 +1211,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-6 mb-8 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 bg-blue-600/30 border border-blue-500 text-blue-400 text-xs font-semibold rounded-full uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-600/30 border border-gold-500 text-gold-400 text-xs font-semibold rounded-full uppercase tracking-wider">
               Class 11 ISC Geography
             </span>
             <span className="text-slate-400 text-xs font-mono">
@@ -1230,11 +1230,11 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
         <div className="w-full md:w-72 bg-slate-800/80 border border-slate-700/60 rounded-xl p-4 flex flex-col gap-2">
           <div className="flex justify-between items-center text-xs text-slate-300 font-medium">
             <span>BKT Mastery Index:</span>
-            <span className="text-blue-400 font-bold">{masteryLevel}%</span>
+            <span className="text-gold-400 font-bold">{masteryLevel}%</span>
           </div>
           <div className="w-full bg-slate-700 h-3 rounded-full overflow-hidden">
             <div
-              className="bg-gradient-to-r from-blue-500 to-indigo-500 h-full transition-all duration-500"
+              className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-500"
               style={{ width: `${masteryLevel}%` }}
             />
           </div>
@@ -1261,7 +1261,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
             }}
             className={`px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1275,7 +1275,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
         <div className="max-w-7xl mx-auto space-y-8">
           {/* Scenario Card */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-            <h2 className="text-xl font-bold text-blue-400 mb-3">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
             <p className="text-slate-400 text-sm leading-relaxed">{SCENARIO.context}</p>
           </div>
@@ -1349,7 +1349,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       </button>
                     ))}
                   </div>
-                  <p className="text-xs text-blue-400 italic">Instruction: {pq.verifyInstruction}</p>
+                  <p className="text-xs text-gold-400 italic">Instruction: {pq.verifyInstruction}</p>
                 </div>
               ))}
             </div>
@@ -1371,7 +1371,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                 }}
                 className={`px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all ${
                   activeLabIndex === idx
-                    ? 'bg-blue-600 text-white shadow'
+                    ? 'bg-gold-600 text-white shadow'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
                 }`}
               >
@@ -1404,7 +1404,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                           }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold border ${
                             fluvialStage === sIdx
-                              ? 'bg-blue-600 border-blue-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -1416,7 +1416,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
 
                   <div>
                     <label className="block text-xs font-semibold text-slate-300 mb-2">
-                      River Stream Discharge: <span className="text-blue-400">{fluvialDischarge} m³/s</span>
+                      River Stream Discharge: <span className="text-gold-400">{fluvialDischarge} m³/s</span>
                     </label>
                     <input
                       type="range"
@@ -1424,13 +1424,13 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       max="100"
                       value={fluvialDischarge}
                       onChange={e => setFluvialDischarge(Number(e.target.value))}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="block text-xs font-semibold text-slate-300 mb-2">
-                      Slope Gradient: <span className="text-blue-400">{fluvialGradient}°</span>
+                      Slope Gradient: <span className="text-gold-400">{fluvialGradient}°</span>
                     </label>
                     <input
                       type="range"
@@ -1438,7 +1438,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       max="45"
                       value={fluvialGradient}
                       onChange={e => setFluvialGradient(Number(e.target.value))}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1488,7 +1488,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-800/50 p-6 rounded-xl border border-slate-700">
                   <div>
                     <label className="block text-xs font-semibold text-slate-300 mb-2">
-                      Glacial Ice Thickness: <span className="text-sky-400">{glacierThickness} meters</span>
+                      Glacial Ice Thickness: <span className="text-gold-400">{glacierThickness} meters</span>
                     </label>
                     <input
                       type="range"
@@ -1496,13 +1496,13 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       max="300"
                       value={glacierThickness}
                       onChange={e => setGlacierThickness(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="block text-xs font-semibold text-slate-300 mb-2">
-                      Summer Melt / Ablation Rate: <span className="text-sky-400">{glacierAblation} mm/yr</span>
+                      Summer Melt / Ablation Rate: <span className="text-gold-400">{glacierAblation} mm/yr</span>
                     </label>
                     <input
                       type="range"
@@ -1510,7 +1510,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       max="800"
                       value={glacierAblation}
                       onChange={e => setGlacierAblation(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1524,7 +1524,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-800/50 p-6 rounded-xl border border-slate-700">
                   <div>
                     <label className="block text-xs font-semibold text-slate-300 mb-2">
-                      Wave Hydraulic Force: <span className="text-cyan-400">{coastalWaveEnergy} kW/m</span>
+                      Wave Hydraulic Force: <span className="text-gold-400">{coastalWaveEnergy} kW/m</span>
                     </label>
                     <input
                       type="range"
@@ -1532,13 +1532,13 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       max="120"
                       value={coastalWaveEnergy}
                       onChange={e => setCoastalWaveEnergy(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="block text-xs font-semibold text-slate-300 mb-2">
-                      Relative Sea Level Elevation: <span className="text-cyan-400">{coastalSeaLevel} meters</span>
+                      Relative Sea Level Elevation: <span className="text-gold-400">{coastalSeaLevel} meters</span>
                     </label>
                     <input
                       type="range"
@@ -1546,7 +1546,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
                       max="40"
                       value={coastalSeaLevel}
                       onChange={e => setCoastalSeaLevel(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1638,7 +1638,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
             </span>
             <button
               onClick={nextChallenge}
-              className="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-500 text-xs font-semibold shadow"
+              className="px-4 py-2 rounded-lg bg-gold-600 text-white hover:bg-gold-500 text-xs font-semibold shadow"
             >
               {currentChallengeIdx === CHALLENGES.length - 1 ? 'Finish & Summary →' : 'Next Challenge →'}
             </button>
@@ -1750,7 +1750,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
 
               <div className="bg-slate-800/60 border border-slate-700 p-6 rounded-xl">
                 <span className="block text-slate-400 text-xs uppercase font-semibold">BKT Mastery Score</span>
-                <span className="text-3xl font-black text-blue-400 mt-2 block">{masteryLevel}%</span>
+                <span className="text-3xl font-black text-gold-400 mt-2 block">{masteryLevel}%</span>
               </div>
 
               <div className="bg-slate-800/60 border border-slate-700 p-6 rounded-xl">
@@ -1762,13 +1762,13 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
 
           {/* Real-World Activity Render */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-            <h3 className="text-xl font-bold text-blue-400 mb-3">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-xl font-bold text-gold-400 mb-3">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-slate-300 text-sm mb-6 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="space-y-4">
               {REAL_WORLD_ACTIVITY.steps.map((stepText, stIdx) => (
                 <div key={stIdx} className="flex items-start gap-4 bg-slate-800/40 p-4 rounded-xl border border-slate-700">
-                  <span className="w-8 h-8 rounded-full bg-blue-600/30 text-blue-400 border border-blue-500/50 flex items-center justify-center font-bold text-sm flex-shrink-0">
+                  <span className="w-8 h-8 rounded-full bg-gold-600/30 text-gold-400 border border-gold-500/50 flex items-center justify-center font-bold text-sm flex-shrink-0">
                     {stIdx + 1}
                   </span>
                   <p className="text-slate-200 text-sm leading-relaxed mt-1">{stepText}</p>
@@ -1783,7 +1783,7 @@ export const C11_GeoLandformsEvolutionCBSESim: React.FC<SimProps> = ({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {DIAGNOSTIC_QUESTIONS.map((dq) => (
                 <div key={dq.id} className="bg-slate-800/50 border border-slate-700 p-4 rounded-xl space-y-2">
-                  <span className="text-xs font-mono text-blue-400">{dq.nodeId}</span>
+                  <span className="text-xs font-mono text-gold-400">{dq.nodeId}</span>
                   <p className="text-slate-200 text-xs md:text-sm font-semibold">{dq.question}</p>
                   <p className="text-emerald-400 text-xs font-medium">Answer: {dq.options[dq.correctIndex]}</p>
                 </div>

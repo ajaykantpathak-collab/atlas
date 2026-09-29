@@ -1086,9 +1086,9 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-900/40 rounded-xl border border-indigo-700/50" aria-hidden="true">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-900/40 rounded-xl border border-gold-700/50" aria-hidden="true">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400">
+            <h1 className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ISC Class 11 Applied Mathematics | NEP 2020 Competency Lab</p>
@@ -1102,8 +1102,8 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950 px-2 py-1 rounded">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950 px-2 py-1 rounded">
               Logistics Scenario Hook
             </span>
             <h2 className="text-xl font-bold text-white mt-2">{SCENARIO.title}</h2>
@@ -1150,7 +1150,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                 >
                   Step Into Interactive Labs →
                 </motion.button>
@@ -1164,7 +1164,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🔬 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
               <span className="text-white">{EXPLORATION_STEPS[currentSlide].title}</span>
             </h2>
@@ -1173,7 +1173,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-700'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1209,7 +1209,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                             onClick={() => toggleElementInSet(num)}
                             className={`w-11 h-11 rounded-xl font-bold flex items-center justify-center transition-all ${
                               isSelected
-                                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30 ring-2 ring-indigo-400'
+                                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30 ring-2 ring-gold-400'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1224,7 +1224,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         S = {'{ '}{selectedElements.length === 0 ? '∅' : selectedElements.join(', ')}{' }'}
                       </p>
                       <p className="text-xs text-slate-400 uppercase font-semibold mt-2">Set-Builder Representation:</p>
-                      <p className="text-sm font-mono text-sky-400">
+                      <p className="text-sm font-mono text-gold-400">
                         {selectedElements.length === 0
                           ? 'S = { x ∈ N | x ≠ x } (Empty Set ∅)'
                           : `S = { x ∈ N | x is selected from universe U, |S| = ${selectedElements.length} }`}
@@ -1257,8 +1257,8 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                 <div className="space-y-4">
                   {/* Predict-then-check block */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
-                      <p className="text-sm text-indigo-200 font-semibold mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                      <p className="text-sm text-gold-200 font-semibold mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1289,7 +1289,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                           aria-label={`Toggle left boundary bracket. Currently ${leftClosed ? 'closed' : 'open'}`}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setLeftClosed(!leftClosed)}
-                          className={`px-3 py-1 rounded-lg text-xs font-bold ${leftClosed ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-amber-300 border border-slate-700'}`}
+                          className={`px-3 py-1 rounded-lg text-xs font-bold ${leftClosed ? 'bg-gold-600 text-white' : 'bg-slate-800 text-amber-300 border border-slate-700'}`}
                         >
                           {leftClosed ? '[ Closed (≤)' : '( Open (<)'}
                         </motion.button>
@@ -1301,7 +1301,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         max={intervalRight - 1}
                         value={intervalLeft}
                         onChange={e => handleIntervalChange(Number(e.target.value), intervalRight)}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
 
                       <div className="flex items-center justify-between mt-2">
@@ -1310,7 +1310,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                           aria-label={`Toggle right boundary bracket. Currently ${rightClosed ? 'closed' : 'open'}`}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setRightClosed(!rightClosed)}
-                          className={`px-3 py-1 rounded-lg text-xs font-bold ${rightClosed ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-amber-300 border border-slate-700'}`}
+                          className={`px-3 py-1 rounded-lg text-xs font-bold ${rightClosed ? 'bg-gold-600 text-white' : 'bg-slate-800 text-amber-300 border border-slate-700'}`}
                         >
                           {rightClosed ? '] Closed (≤)' : ') Open (<)'}
                         </motion.button>
@@ -1322,7 +1322,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         max={6}
                         value={intervalRight}
                         onChange={e => handleIntervalChange(intervalLeft, Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1331,7 +1331,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                       <p className="text-2xl font-mono text-emerald-400 font-bold my-1">
                         {leftClosed ? '[' : '('}{intervalLeft}, {intervalRight}{rightClosed ? ']' : ')'}
                       </p>
-                      <p className="text-xs font-mono text-sky-400">
+                      <p className="text-xs font-mono text-gold-400">
                         {`{ x ∈ R | ${intervalLeft} ${leftClosed ? '≤' : '<'} x ${rightClosed ? '≤' : '<'} ${intervalRight} }`}
                       </p>
                       <div className="mt-4 pt-3 border-t border-slate-800 text-xs text-slate-400">
@@ -1364,7 +1364,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         }}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                           activeVennOp === op.id
-                            ? 'bg-gradient-to-r from-indigo-600 to-sky-600 text-white shadow-md'
+                            ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                             : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1442,7 +1442,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         </span>
                       </div>
                       <div className="pt-3 border-t border-slate-800 text-xs text-slate-400">
-                        <p className="font-semibold text-indigo-300">Inclusion-Exclusion Principle:</p>
+                        <p className="font-semibold text-gold-300">Inclusion-Exclusion Principle:</p>
                         <p className="font-mono text-emerald-400 mt-1">n(A ∪ B) = n(A) + n(B) − n(A ∩ B)</p>
                       </div>
                     </div>
@@ -1522,7 +1522,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                       <button
                         aria-label="Reset mapping to 1-to-1 function"
                         onClick={() => setMappingPairs([{ from: 'x₁', to: 'y₁' }, { from: 'x₂', to: 'y₂' }, { from: 'x₃', to: 'y₃' }])}
-                        className="px-2.5 py-1 bg-indigo-900/60 text-indigo-200 rounded text-xs font-mono"
+                        className="px-2.5 py-1 bg-gold-900/60 text-gold-200 rounded text-xs font-mono"
                       >
                         Reset 1-to-1
                       </button>
@@ -1552,7 +1552,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         }}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                           activeFuncType === fn.id
-                            ? 'bg-gradient-to-r from-indigo-600 to-sky-600 text-white shadow-md'
+                            ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                             : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1586,7 +1586,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                           step={0.1}
                           value={funcInputX}
                           onChange={e => setFuncInputX(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500 mt-1"
+                          className="w-full accent-gold-500 mt-1"
                         />
                       </div>
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 space-y-1">
@@ -1595,7 +1595,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                           f({funcInputX.toFixed(1)}) = {isNaN(liveFunctionOutput) ? 'UNDEFINED (Domain Gap)' : liveFunctionOutput.toFixed(2)}
                         </p>
                         <p className="text-xs text-slate-400">
-                          Domain: <span className="text-indigo-300 font-semibold">{activeFuncType === 'rational' ? `R − {${rationalAsymptote}}` : 'R'}</span> | Range: <span className="text-indigo-300 font-semibold">{activeFuncType === 'floor' ? 'Z (All Integers)' : activeFuncType === 'signum' ? '{−1, 0, 1}' : activeFuncType === 'modulus' ? '[0, ∞)' : 'R'}</span>
+                          Domain: <span className="text-gold-300 font-semibold">{activeFuncType === 'rational' ? `R − {${rationalAsymptote}}` : 'R'}</span> | Range: <span className="text-gold-300 font-semibold">{activeFuncType === 'floor' ? 'Z (All Integers)' : activeFuncType === 'signum' ? '{−1, 0, 1}' : activeFuncType === 'modulus' ? '[0, ∞)' : 'R'}</span>
                         </p>
                       </div>
                     </div>
@@ -1626,7 +1626,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1658,7 +1658,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-sky-600 text-white font-bold rounded-xl shadow-lg text-sm"
+              className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-xl shadow-lg text-sm"
             >
               Ready for Graded Challenges! →
             </motion.button>
@@ -1667,7 +1667,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Left Sandbox Panel: Set Venn Simulator */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-indigo-300 uppercase">Live Venn Calculator</h4>
+              <h4 className="text-xs font-bold text-gold-300 uppercase">Live Venn Calculator</h4>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs text-slate-400">
                   <span>Size n(A): {vennSizeA}</span>
@@ -1681,7 +1681,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   max={Math.min(vennSizeA, vennSizeB)}
                   value={vennOverlap}
                   onChange={e => handleVennChange(vennSizeA, vennSizeB, Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs text-slate-300 space-y-1">
@@ -1694,7 +1694,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
 
             {/* Right Sandbox Panel: Real-Valued Function Evaluator */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-sky-300 uppercase">Live Function Evaluator</h4>
+              <h4 className="text-xs font-bold text-gold-300 uppercase">Live Function Evaluator</h4>
               <div className="flex gap-1.5 flex-wrap">
                 {(['modulus', 'signum', 'floor', 'polynomial', 'rational'] as const).map(type => (
                   <button
@@ -1702,7 +1702,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                     aria-label={`Select function type ${type}`}
                     onClick={() => setActiveFuncType(type)}
                     className={`px-2.5 py-1 rounded-lg text-xs font-bold ${
-                      activeFuncType === type ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                      activeFuncType === type ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {type}
@@ -1717,7 +1717,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                 step={0.1}
                 value={funcInputX}
                 onChange={e => setFuncInputX(parseFloat(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs text-slate-300 space-y-1">
                 <p>Input x = {funcInputX.toFixed(2)}</p>
@@ -1741,7 +1741,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                 <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
                 <span className="text-xs text-slate-400 font-normal">| Score: {scoreBreakdown.correct}/{scoreBreakdown.total}</span>
               </h2>
-              <p className="text-xs text-slate-400">Competency: <span className="text-indigo-300 font-bold uppercase">{challenge.competencyLevel}</span></p>
+              <p className="text-xs text-slate-400">Competency: <span className="text-gold-300 font-bold uppercase">{challenge.competencyLevel}</span></p>
             </div>
             <motion.span
               key={difficulty}
@@ -1751,7 +1751,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                   : difficulty === 'standard'
-                  ? 'bg-sky-950 text-sky-400 border border-sky-700'
+                  ? 'bg-gold-950 text-gold-400 border border-gold-700'
                   : 'bg-rose-950 text-rose-400 border border-rose-700'
               }`}
             >
@@ -1762,7 +1762,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1816,7 +1816,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md focus:outline-none focus:ring-2 focus:ring-gold-400"
                     >
                       {item.label}
                     </motion.div>
@@ -1864,7 +1864,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 4}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg disabled:opacity-40"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg disabled:opacity-40"
                 >
                   Verify Dropped Labels →
                 </motion.button>
@@ -1893,9 +1893,9 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                         handleSortMove(fromIdx, displayIndex);
                       }}
                       whileHover={{ scale: 1.01 }}
-                      className="p-3 bg-slate-800 hover:bg-slate-750 text-slate-200 rounded-xl cursor-grab text-sm font-medium border border-slate-700 flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                      className="p-3 bg-slate-800 hover:bg-slate-750 text-slate-200 rounded-xl cursor-grab text-sm font-medium border border-slate-700 flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-gold-400"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 text-xs font-bold flex items-center justify-center">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 text-xs font-bold flex items-center justify-center">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -1910,7 +1910,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                 >
                   Verify Arrangement →
                 </motion.button>
@@ -1927,7 +1927,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-56"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-56"
                   />
                   <span className="text-sm text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -1938,7 +1938,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg disabled:opacity-40"
                   >
                     Check Number
                   </motion.button>
@@ -1958,7 +1958,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 font-mono font-bold rounded-lg text-sm border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 font-mono font-bold rounded-lg text-sm border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -1967,7 +1967,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] flex items-center flex-wrap gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900 text-white font-mono rounded-lg text-sm flex items-center gap-1.5">
+                    <span key={i} className="px-3 py-1 bg-gold-900 text-white font-mono rounded-lg text-sm flex items-center gap-1.5">
                       {part}
                       <button aria-label={`Remove part ${part}`} onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-400 text-xs">✕</button>
                     </span>
@@ -1984,7 +1984,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(constructParts.join(''))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg disabled:opacity-40"
                   >
                     Verify Construction
                   </motion.button>
@@ -2035,16 +2035,16 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REVIEW ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl font-black text-white">Module Mastery Achieved!</h2>
             <p className="text-sm text-slate-300">
-              Final Accuracy Score: <span className="text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-indigo-400 font-bold capitalize">{masteryLevel}</span>
+              Final Accuracy Score: <span className="text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
             </p>
           </div>
 
           {/* Motivational Feedback */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/70 to-slate-900 border-2 border-indigo-600/50 rounded-2xl shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-gold-950/70 to-slate-900 border-2 border-gold-600/50 rounded-2xl shadow-lg">
             <h3 className="text-lg font-black text-amber-300 mb-1">
               {errors === 0
                 ? 'PERFECT SCORE!'
@@ -2067,7 +2067,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
 
           {/* Reflection Section */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-md font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
               <span>🤔 Conceptual Reflection</span>
             </h3>
             <div className="space-y-3">
@@ -2082,7 +2082,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   onChange={e => setReflectionResponses({ ...reflectionResponses, surprising: e.target.value })}
                   placeholder="e.g., How floor functions handle negative decimals, or how intervals contain infinite real numbers..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2097,7 +2097,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   onChange={e => setReflectionResponses({ ...reflectionResponses, explain: e.target.value })}
                   placeholder="e.g., Explain the difference between an empty set and zero, or why a function must have only one output per input..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2112,7 +2112,7 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
                   onChange={e => setReflectionResponses({ ...reflectionResponses, realLife: e.target.value })}
                   placeholder="e.g., Designing delivery pricing slabs, querying customer databases, or filtering sensor inputs..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2145,12 +2145,12 @@ export function C11_AppliedMathsSetsRepresentationsEmptySim({
 
           {/* Real-World Applied Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-md font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-md font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

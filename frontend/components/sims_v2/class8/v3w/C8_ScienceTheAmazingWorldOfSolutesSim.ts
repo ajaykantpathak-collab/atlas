@@ -11,7 +11,7 @@ export const w_c8_sciencetheamazingworldofsolutessim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Solution: Definition and Components (Solute + Solvent)',
     chapters: [],
     nodeIds: ['c8_physics_ch5_1'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Observe a glass of nimbu pani (lemonade) being made at home: sugar crystals disappear when stirred into.', goal: 'Master Solution: Definition and Components (Solute + Solvent).' },
     discovery: {
         question: 'Air is a solution of gases. Which gas is the solvent and which are solutes? Explain why air qualifies as a solution even though all components are gases.',
@@ -20,7 +20,7 @@ export const w_c8_sciencetheamazingworldofsolutessim: SimDef = {
         hook: 'Students often believe "the solute is always the solid and the solvent is always the liquid" because most classroom.',
     },
     teaching: [
-        { title: 'A solution is a homogeneous mixture of two.', text: 'A solution is a homogeneous mixture of two or more substances where the particles are uniformly distributed at the molecular level and do not settle out.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A solution is a homogeneous mixture of two.', text: 'A solution is a homogeneous mixture of two or more substances where the particles are uniformly distributed at the molecular level and do not settle out.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch5_1', title: 'A solution is a homogeneous mixture of.',

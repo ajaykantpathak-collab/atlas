@@ -1567,7 +1567,7 @@ export default function C12_BiotechMicrobialCultureCBSESim({
             <div>
               <span className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${
                 CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
-                  ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                  ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                   : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
                   ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                   : 'bg-purple-500/20 text-purple-400 border border-purple-500/30'

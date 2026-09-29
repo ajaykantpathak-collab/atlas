@@ -326,7 +326,7 @@ function Toggle(props: { label: string; on: boolean; onToggle: () => void }) {
   return (
     <button onClick={props.onToggle}
       className={`min-h-11 px-4 rounded-xl text-sm font-bold border transition-all duration-200 ${
-        props.on ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-900/40'
+        props.on ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-900/40'
           : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
       }`}>
       {props.label}: {props.on ? 'ON' : 'OFF'}
@@ -592,7 +592,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
         <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
           <div>
             <h1 className="text-lg sm:text-xl font-bold flex items-center gap-2">
-              <ArrowRight className="w-5 h-5 text-indigo-400" /> Relations &amp; Functions
+              <ArrowRight className="w-5 h-5 text-gold-400" /> Relations &amp; Functions
             </h1>
             <p className="text-xs text-slate-400">Class 11 Maths - mappings, vertical line test, domain &amp; range - CBSE Chapter Lab</p>
           </div>
@@ -616,7 +616,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
           ] as Array<[typeof activeTab, string, JSX.Element]>).map(([tab, label, icon]) => (
             <button key={tab} onClick={() => setActiveTab(tab)}
               className={`min-h-11 px-4 rounded-xl text-sm font-bold flex items-center gap-2 border transition-all whitespace-nowrap ${
-                activeTab === tab ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-900/40'
+                activeTab === tab ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-900/40'
                   : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
               }`}>
               {icon} {label}
@@ -631,14 +631,14 @@ export default function C11_MathsRelationsAndFunctionsSim({
           <div className="space-y-6 animate-fadeIn">
             {/* mapping machine */}
             <div className="bg-slate-900 border border-slate-800 rounded-3xl p-5 shadow-xl">
-              <h2 className="text-lg font-bold text-indigo-300 mb-3 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 mb-3 flex items-center gap-2">
                 <ArrowRight className="w-5 h-5" /> Mapping machine - function or just a relation?
               </h2>
               <div className="flex flex-wrap gap-2 mb-4">
                 {RULES.map((r) => (
                   <button key={r.key} onClick={() => setRuleKey(r.key)}
                     className={`min-h-11 px-4 rounded-xl text-sm font-bold border transition-all ${
-                      ruleKey === r.key ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-900/40' : 'bg-slate-800 border-slate-700 text-slate-300'
+                      ruleKey === r.key ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-900/40' : 'bg-slate-800 border-slate-700 text-slate-300'
                     }`}>
                     {r.label}
                   </button>
@@ -661,7 +661,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
 
             {/* vertical line tester */}
             <div className="bg-slate-900 border border-slate-800 rounded-3xl p-5 shadow-xl">
-              <h2 className="text-lg font-bold text-violet-300 mb-3 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 mb-3 flex items-center gap-2">
                 <TrendingUp className="w-5 h-5" /> Vertical line tester
               </h2>
               <GraphTester curve={curve} testX={testX} showSweep={showSweep} />
@@ -719,7 +719,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
               const isRight = chosen === pred.correctIndex;
               return (
                 <div key={pred.id} className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl">
-                  <p className="text-[10px] uppercase tracking-wider text-indigo-400 font-bold mb-2">Predict first - then verify</p>
+                  <p className="text-[10px] uppercase tracking-wider text-gold-400 font-bold mb-2">Predict first - then verify</p>
                   <h3 className="text-base font-bold text-slate-100 mb-4">{pred.question}</h3>
                   <div className="space-y-2">
                     {pred.options.map((opt, i) => {
@@ -731,7 +731,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
                           className={`w-full text-left min-h-11 px-4 py-3 rounded-xl border text-sm transition-all ${
                             revealCorrect ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                               : revealWrong ? 'bg-rose-950/70 border-rose-500 text-rose-200'
-                              : isChosen ? 'bg-indigo-950/70 border-indigo-500 text-indigo-100'
+                              : isChosen ? 'bg-gold-950/70 border-gold-500 text-gold-100'
                               : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-600'
                           }`}>
                           {opt}
@@ -767,7 +767,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
                 </div>
               </div>
               <div className="w-full bg-slate-800 h-1.5 rounded-full mb-5 overflow-hidden">
-                <div className="bg-indigo-500 h-full transition-all duration-500" style={{ width: `${(currentChallengeIndex / CHALLENGES.length) * 100}%` }} />
+                <div className="bg-gold-500 h-full transition-all duration-500" style={{ width: `${(currentChallengeIndex / CHALLENGES.length) * 100}%` }} />
               </div>
               <h3 className="text-base font-bold text-slate-100 mb-5">{currentChallenge.question}</h3>
               {currentChallenge.type === 'mcq' && (
@@ -781,7 +781,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
                         className={`w-full text-left min-h-11 px-4 py-3 rounded-xl border text-sm transition-all ${
                           submitted && isCorrectOpt ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                             : submitted && isChosen ? 'bg-rose-950/70 border-rose-500 text-rose-200'
-                            : isChosen ? 'bg-indigo-950/70 border-indigo-500 text-indigo-100'
+                            : isChosen ? 'bg-gold-950/70 border-gold-500 text-gold-100'
                             : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-600'
                         }`}>
                         {opt}
@@ -794,7 +794,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
                 <div className="flex items-center gap-3">
                   <input type="number" value={numericInput} disabled={challengeFeedback?.submitted}
                     onChange={(e) => setNumericInput(e.target.value)} placeholder="Type your number..."
-                    className="flex-1 min-h-11 bg-slate-950 border border-slate-700 rounded-xl px-4 text-lg font-mono text-slate-100 focus:border-indigo-500 outline-none" />
+                    className="flex-1 min-h-11 bg-slate-950 border border-slate-700 rounded-xl px-4 text-lg font-mono text-slate-100 focus:border-gold-500 outline-none" />
                   {currentChallenge.unit && <span className="text-slate-400 font-semibold">{currentChallenge.unit}</span>}
                 </div>
               )}
@@ -878,9 +878,9 @@ export default function C11_MathsRelationsAndFunctionsSim({
                     <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <p className="text-[10px] text-slate-400 font-semibold mb-1 leading-tight">{NODE_METADATA[nodeId].title}</p>
                       <p className="text-[9px] font-mono text-slate-600 mb-1">{nodeId}</p>
-                      <div className="text-lg font-bold text-indigo-400">{m}%</div>
+                      <div className="text-lg font-bold text-gold-400">{m}%</div>
                       <div className="w-full bg-slate-800 h-1.5 rounded-full mt-1 overflow-hidden">
-                        <div className="bg-indigo-500 h-full transition-all duration-500" style={{ width: `${m}%` }} />
+                        <div className="bg-gold-500 h-full transition-all duration-500" style={{ width: `${m}%` }} />
                       </div>
                     </div>
                   );
@@ -892,7 +892,7 @@ export default function C11_MathsRelationsAndFunctionsSim({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {CBSE_NODES.map((n) => (
                   <div key={n} className="bg-slate-950 border border-slate-800 rounded-xl p-3">
-                    <p className="text-[10px] text-indigo-300 font-bold">{NODE_METADATA[n].title}</p>
+                    <p className="text-[10px] text-gold-300 font-bold">{NODE_METADATA[n].title}</p>
                     <p className="text-xs font-mono text-slate-300 mt-1">{NODE_METADATA[n].formula}</p>
                   </div>
                 ))}

@@ -18,7 +18,7 @@
  */
 
 import { motion } from "framer-motion";
-import { Compass, ShieldCheck, Sparkles } from "lucide-react";
+import { Compass, Download, Settings as SettingsIcon, ShieldCheck, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { PrismLogo } from "@/components/prism/PrismLogo";
 import { AtlasGalaxy } from "@/components/atlas/AtlasGalaxy";
@@ -26,7 +26,6 @@ import { useDashboardData } from "@/components/dashboard/useDashboardData";
 import CommandBriefing from "@/components/dashboard/CommandBriefing";
 import StudyPlan from "@/components/studyplan/StudyPlan";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
-import { isJunior } from "@/lib/classBands";
 import MasteryOverview, {
   MasteryError, MasteryLoading,
 } from "@/components/dashboard/MasteryOverview";
@@ -106,6 +105,23 @@ export default function DashboardPage() {
             )}
             {/* EN/हिंदी chrome toggle — real translation map, authored content unaffected */}
             <LanguageSwitcher />
+            {/* Offline library + Settings — icon-only entries. Both surfaces
+                existed but nothing linked to them (settings was reachable
+                only on the premium shell; the offline library by URL alone). */}
+            <Link
+              href="/offline"
+              aria-label="Offline library"
+              className="inline-flex items-center justify-center w-8 h-8 rounded-xl border border-white/10 text-surface-600 hover:text-white hover:border-white/25 transition"
+            >
+              <Download className="w-3.5 h-3.5" aria-hidden="true" />
+            </Link>
+            <Link
+              href="/settings"
+              aria-label="Settings"
+              className="inline-flex items-center justify-center w-8 h-8 rounded-xl border border-white/10 text-surface-600 hover:text-white hover:border-white/25 transition"
+            >
+              <SettingsIcon className="w-3.5 h-3.5" aria-hidden="true" />
+            </Link>
             {/* Galaxy Home — the living universe is the primary way in.
                 Icon-only on phones so the label never clips. */}
             <Link
@@ -154,10 +170,10 @@ export default function DashboardPage() {
 
             {/* CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 8): /junior is the
                 one surface designed FOR young children — pastel, mascot,
-                big targets — but nothing ever linked to it. Only classes 1-5
-                see the door (lib/classBands). This read `<= 7`, which pushed
-                the elephant card at Class 6 and 7 children too. */}
-            {isJunior(dash.data?.user?.class_level as number | undefined) && (
+                big targets — but nothing ever linked to it. Classes 6-7
+                get a visible door. Older classes never see it. */}
+            {(dash.data?.user?.class_level ?? 0) > 0 &&
+              (dash.data?.user?.class_level as number) <= 7 && (
               <Link
                 href="/junior"
                 data-testid="junior-mode-card"
@@ -181,11 +197,32 @@ export default function DashboardPage() {
               </Link>
             )}
 
+            {/* Homework — the student side of teacher assignments. The
+                teacher suite publishes real assignments; without this card
+                the homework page was reachable only by typing its URL. */}
+            <Link
+              href="/homework"
+              data-testid="homework-card"
+              className="group flex items-center gap-4 rounded-2xl border border-gold-400/30 bg-gradient-to-r from-gold-500/[0.12] via-gold-500/[0.06] to-transparent px-5 py-4 transition-colors hover:border-gold-400/60"
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gold-500/15 border border-gold-400/30 text-2xl" aria-hidden>
+                📋
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-display text-sm font-bold text-white">
+                  Homework — from your teachers
+                </span>
+                <span className="block text-xs text-surface-600 mt-0.5">
+                  Real class assignments with due dates, graded the moment you submit.
+                </span>
+              </span>
+              <span className="hidden sm:flex shrink-0 items-center gap-1 text-xs font-semibold text-gold-300">
+                Open
+                <Compass className="w-3.5 h-3.5" aria-hidden />
+              </span>
+            </Link>
+
             {/* The week's personal plan — real tasks from real data:
-                due reviews → weakest topic → next chapter → stretch.
-                Completion ticks come from recorded activity or the
-                student's own mark; a new student's plan honestly starts
-                at "take your first diagnostic". */}
             <StudyPlan
               dash={dash.data}
               dashStatus={dash.status}
@@ -211,6 +248,43 @@ export default function DashboardPage() {
             {/* §5/§7: "Your mix-ups" — the self-named error-pattern journal
                 practice writes on wrong answers. Hides when empty. */}
             <MixupsCard />
+
+            {/* P5 gap 2 wiring: real, working surfaces that had NO inbound
+                link anywhere in the app (orphaned-but-reachable). Each one is
+                a live engine — not a demo. Matches the dashboard card style. */}
+            <section aria-label="More study tools" className="space-y-3">
+              <h2 className="font-display text-sm font-semibold text-white/80 flex items-center gap-2">
+                <Compass className="w-4 h-4 text-gold-300" aria-hidden="true" />
+                More study tools
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <ToolLink
+                  href="/examiner"
+                  title="Examiner Mode"
+                  body="Photograph or paste your answer — graded against the real marking scheme."
+                />
+                <ToolLink
+                  href="/practice/deterministic"
+                  title="Verified practice"
+                  body="Step-by-step maths and science practice where every answer is computed and checked."
+                />
+                <ToolLink
+                  href="/quizzes"
+                  title="Quizzes"
+                  body="Quick launches into the quiz engines, with your real quiz history."
+                />
+                <ToolLink
+                  href="/next-best"
+                  title="Next best topic"
+                  body="What you're ready to learn next — and what to repair first."
+                />
+                <ToolLink
+                  href="/study-tools"
+                  title="Study library"
+                  body="Extra class content and notes, browsable by class and subject."
+                />
+              </div>
+            </section>
 
             {/* Continue learning */}
             <ContinueLearning
@@ -257,5 +331,21 @@ export default function DashboardPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+/** Compact link card used by the "More study tools" row (P5 gap 2). */
+function ToolLink({ href, title, body }: { href: string; title: string; body: string }) {
+  return (
+    <Link
+      href={href}
+      className="group rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3.5 transition-colors hover:border-gold-500/40"
+    >
+      <span className="flex items-center justify-between gap-2">
+        <span className="text-sm font-semibold text-white font-display">{title}</span>
+        <Compass className="w-3.5 h-3.5 text-gold-300 opacity-0 transition-opacity group-hover:opacity-100" aria-hidden="true" />
+      </span>
+      <span className="block text-xs text-surface-600 mt-1">{body}</span>
+    </Link>
   );
 }

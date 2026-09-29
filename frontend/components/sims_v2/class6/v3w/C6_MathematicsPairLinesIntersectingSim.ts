@@ -11,7 +11,7 @@ export const w_c6_mathematicspairlinesintersectingsim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Types of Lines: Parallel, Intersecting, Perpendicular',
     chapters: [],
     nodeIds: ['c6_math_ch07_071', 'c6_math_ch07_082', 'c6_math_ch07_080', 'c6_math_ch02_019', 'c6_math_ch11_116'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a railway track and wondered why the two iron rails never touch each other?', goal: 'Master Types of Lines: Parallel, Intersecting, Perpendicular.' },
     discovery: {
         question: 'Two lines are drawn on a paper. One is horizontal and one is vertical. They meet at a corner. Are they parallel, intersecting, or perpendicular?',
@@ -20,7 +20,7 @@ export const w_c6_mathematicspairlinesintersectingsim: SimDef = {
         hook: 'Students often believe that if two lines are "close" to each other but don\'t touch on the paper, they are parallel.',
     },
     teaching: [
-        { title: 'Lines are classified by their mutual.', text: 'Lines are classified by their mutual position: parallel lines never intersect despite infinite extension, intersecting lines share exactly one common point, and perpendicular lines are a special case.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Lines are classified by their mutual.', text: 'Lines are classified by their mutual position: parallel lines never intersect despite infinite extension, intersecting lines share exactly one common point, and perpendicular lines are a special case.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch07_071', title: 'Lines are classified by their mutual.',

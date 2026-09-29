@@ -1037,11 +1037,11 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-indigo-300 via-sky-300 to-pink-300 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gold-300 via-gold-300 to-pink-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs sm:text-sm text-slate-400">ISC Class 11 Mathematics • Combinatorics & Binomial Theorem</p>
@@ -1061,7 +1061,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
               }}
               className={`px-3 py-1.5 rounded-xl capitalize font-medium transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1075,17 +1075,17 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-3xl border border-indigo-800/50 shadow-xl">
-            <span className="text-xs font-semibold px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full border border-indigo-500/30">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-3xl border border-gold-800/50 shadow-xl">
+            <span className="text-xs font-semibold px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full border border-gold-500/30">
               MISSION SCENARIO
             </span>
             <h2 className="text-2xl font-bold text-white mt-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 text-sm sm:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-950 rounded-3xl border border-slate-800">
-            <h3 className="text-lg font-semibold text-sky-300 mb-2">Curiosity Discovery: Slot Machine PIN</h3>
+            <h3 className="text-lg font-semibold text-gold-300 mb-2">Curiosity Discovery: Slot Machine PIN</h3>
             <p className="text-slate-200 mb-4">{DISCOVERY_QUESTION.question}</p>
 
             <div className="grid grid-cols-1 gap-3">
@@ -1101,11 +1101,11 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-900 border-slate-800 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-900 border-slate-800 text-slate-200 hover:border-gold-500'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
-                  <span className="font-mono text-xs px-2 py-1 bg-slate-800 rounded-lg mr-3 text-indigo-300">
+                  <span className="font-mono text-xs px-2 py-1 bg-slate-800 rounded-lg mr-3 text-gold-300">
                     {String.fromCharCode(65 + i)}
                   </span>
                   {opt}
@@ -1117,14 +1117,14 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/40 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-5 p-4 bg-gold-950/40 rounded-2xl border border-gold-800/40 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
-                <p className="text-sm text-indigo-200">{DISCOVERY_QUESTION.hintAfter}</p>
+                <p className="text-sm text-gold-200">{DISCOVERY_QUESTION.hintAfter}</p>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-500 to-sky-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-500/25 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-500/25 whitespace-nowrap"
                   aria-label="Proceed to Interactive Labs"
                 >
                   Launch Interactive Lab →
@@ -1139,7 +1139,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold px-3 py-1 bg-sky-500/20 text-sky-300 rounded-full border border-sky-500/30">
+            <span className="text-xs font-semibold px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full border border-gold-500/30">
               STEP {currentSlide + 1} OF {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-2">
@@ -1173,7 +1173,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
               className="p-6 bg-slate-950 rounded-3xl border border-slate-800 shadow-xl space-y-5"
             >
               <div>
-                <h3 className="text-xl font-bold text-sky-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-xl font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-sm text-amber-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1191,7 +1191,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         max={4}
                         value={labStageCount}
                         onChange={e => handleStageCountChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Stage 1 Routes"
                       />
                     </div>
@@ -1205,7 +1205,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         max={4}
                         value={labOptionCount}
                         onChange={e => handleOptionCountChange(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Stage 2 Vehicles"
                       />
                     </div>
@@ -1216,7 +1216,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         className={`w-full py-2 rounded-xl text-xs font-bold border transition-all ${
                           isAlternativeMode
                             ? 'bg-pink-900/60 border-pink-500 text-pink-200'
-                            : 'bg-indigo-900/60 border-indigo-500 text-indigo-200'
+                            : 'bg-gold-900/60 border-gold-500 text-gold-200'
                         }`}
                       >
                         Mode: {isAlternativeMode ? 'ADDITION (Either/Or)' : 'MULTIPLICATION (Sequential AND)'}
@@ -1262,13 +1262,13 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                     </svg>
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800 text-center">
-                    <span className="text-sm font-semibold text-indigo-200">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800 text-center">
+                    <span className="text-sm font-semibold text-gold-200">
                       Mathematical Result:{' '}
                       {isAlternativeMode ? (
                         <span className="text-pink-300 font-mono text-base">{labStageCount} + {labOptionCount} = {labStageCount + labOptionCount} Alternatives</span>
                       ) : (
-                        <span className="text-sky-300 font-mono text-base">{labStageCount} × {labOptionCount} = {labStageCount * labOptionCount} Distinct Compound Outcomes</span>
+                        <span className="text-gold-300 font-mono text-base">{labStageCount} × {labOptionCount} = {labStageCount * labOptionCount} Distinct Compound Outcomes</span>
                       )}
                     </span>
                   </div>
@@ -1286,10 +1286,10 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       max={7}
                       value={factorialN}
                       onChange={e => handleFactorialChange(Number(e.target.value))}
-                      className="flex-1 accent-indigo-500"
+                      className="flex-1 accent-gold-500"
                       aria-label="Set Factorial n"
                     />
-                    <span className="text-xs px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-lg font-mono">
+                    <span className="text-xs px-2.5 py-1 bg-gold-500/20 text-gold-300 rounded-lg font-mono">
                       {factorialN}! = {factorial(factorialN)}
                     </span>
                   </div>
@@ -1301,10 +1301,10 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
                         transition={{ delay: i * 0.08 }}
-                        className="p-3 bg-slate-950 rounded-xl border border-indigo-700/50 text-center"
+                        className="p-3 bg-slate-950 rounded-xl border border-gold-700/50 text-center"
                       >
                         <span className="text-xs text-slate-400">Slot {i + 1}</span>
-                        <div className="text-xl font-bold text-sky-400 font-mono mt-1">
+                        <div className="text-xl font-bold text-gold-400 font-mono mt-1">
                           {factorialN - i}
                         </div>
                         <span className="text-[10px] text-slate-500">choices</span>
@@ -1330,7 +1330,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         max={7}
                         value={combN}
                         onChange={e => handleCombNChange(Number(e.target.value))}
-                        className="accent-indigo-500 w-24"
+                        className="accent-gold-500 w-24"
                       />
                     </div>
                     <div className="flex items-center gap-2">
@@ -1341,7 +1341,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         max={combN}
                         value={combR}
                         onChange={e => handleCombRChange(Number(e.target.value))}
-                        className="accent-sky-500 w-24"
+                        className="accent-gold-500 w-24"
                       />
                     </div>
                     <motion.button
@@ -1349,7 +1349,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       onClick={() => setIsPermutationMode(!isPermutationMode)}
                       className={`px-4 py-1.5 rounded-xl text-xs font-bold border transition-all ${
                         isPermutationMode
-                          ? 'bg-indigo-900/60 border-indigo-500 text-indigo-200'
+                          ? 'bg-gold-900/60 border-gold-500 text-gold-200'
                           : 'bg-emerald-900/60 border-emerald-500 text-emerald-200'
                       }`}
                     >
@@ -1358,8 +1358,8 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="p-4 bg-indigo-950/30 rounded-2xl border border-indigo-800/50 text-center">
-                      <span className="text-xs text-indigo-300 font-semibold">PERMUTATIONS (nPr)</span>
+                    <div className="p-4 bg-gold-950/30 rounded-2xl border border-gold-800/50 text-center">
+                      <span className="text-xs text-gold-300 font-semibold">PERMUTATIONS (nPr)</span>
                       <div className="text-2xl font-bold text-white font-mono mt-1">
                         {nPr(combN, combR)}
                       </div>
@@ -1390,7 +1390,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                         max={8}
                         value={circularSeatCount}
                         onChange={e => setCircularSeatCount(Number(e.target.value))}
-                        className="accent-indigo-500"
+                        className="accent-gold-500"
                       />
                     </div>
                     <motion.button
@@ -1399,7 +1399,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                         isNecklaceFlipped
                           ? 'bg-pink-900/60 border-pink-500 text-pink-200'
-                          : 'bg-indigo-900/60 border-indigo-500 text-indigo-200'
+                          : 'bg-gold-900/60 border-gold-500 text-gold-200'
                       }`}
                     >
                       {isNecklaceFlipped ? '3D Necklace View (Flipped: /2)' : 'Round Table View ((n-1)!)'}
@@ -1429,7 +1429,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                     {isNecklaceFlipped ? (
                       <span>Necklace/Garland count = ({circularSeatCount} - 1)! / 2 = <strong className="text-pink-300">{factorial(circularSeatCount - 1) / 2}</strong></span>
                     ) : (
-                      <span>Round table seating = ({circularSeatCount} - 1)! = <strong className="text-sky-300">{factorial(circularSeatCount - 1)}</strong></span>
+                      <span>Round table seating = ({circularSeatCount} - 1)! = <strong className="text-gold-300">{factorial(circularSeatCount - 1)}</strong></span>
                     )}
                   </div>
                 </div>
@@ -1460,7 +1460,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                                   isHovered
                                     ? 'bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/50'
                                     : isParent
-                                    ? 'bg-indigo-500 text-white'
+                                    ? 'bg-gold-500 text-white'
                                     : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                                 }`}
                               >
@@ -1501,14 +1501,14 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handlePrediction(i)}
-                    className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-left text-slate-300 hover:border-indigo-500"
+                    className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-left text-slate-300 hover:border-gold-500"
                   >
                     {opt}
                   </motion.button>
                 ))}
               </div>
             ) : (
-              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800 text-xs text-indigo-200">
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-gold-950/40 rounded-xl border border-gold-800 text-xs text-gold-200">
                 {PREDICTION_QUESTIONS[0].verifyInstruction}
               </motion.div>
             )}
@@ -1520,7 +1520,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToSandbox}
-              className="px-6 py-2.5 bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-bold rounded-xl shadow-lg shadow-sky-500/20"
+              className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-gold-500/20"
             >
               Open Sandbox Mode →
             </motion.button>
@@ -1534,7 +1534,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
           <div className="p-6 bg-slate-950 rounded-3xl border border-slate-800">
             <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
               <div>
-                <h3 className="text-xl font-bold text-sky-300">Combinatorics Sandbox</h3>
+                <h3 className="text-xl font-bold text-gold-300">Combinatorics Sandbox</h3>
                 <p className="text-xs text-slate-400">Manipulate mathematical structures freely</p>
               </div>
 
@@ -1544,7 +1544,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                     key={tab}
                     onClick={() => setSandboxTab(tab)}
                     className={`px-3 py-1 rounded-lg capitalize font-medium ${
-                      sandboxTab === tab ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-slate-200'
+                      sandboxTab === tab ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-slate-200'
                     }`}
                   >
                     {tab}
@@ -1562,7 +1562,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       <motion.div
                         key={i}
                         whileHover={{ scale: 1.1 }}
-                        className="px-3 py-1.5 bg-indigo-950 rounded-xl border border-indigo-700/50 text-xs font-mono text-sky-300"
+                        className="px-3 py-1.5 bg-gold-950 rounded-xl border border-gold-700/50 text-xs font-mono text-gold-300"
                       >
                         Path #{i + 1}
                       </motion.div>
@@ -1576,12 +1576,12 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   <div className="flex justify-center items-center gap-3">
                     <span className="text-xs text-slate-400">Slots:</span>
                     {Array.from({ length: 4 }).map((_, i) => (
-                      <div key={i} className="w-12 h-12 bg-slate-950 rounded-xl border border-indigo-500 flex items-center justify-center font-bold text-sky-300 text-lg">
+                      <div key={i} className="w-12 h-12 bg-slate-950 rounded-xl border border-gold-500 flex items-center justify-center font-bold text-gold-300 text-lg">
                         {7 - i}
                       </div>
                     ))}
                   </div>
-                  <p className="text-center text-xs text-indigo-300">7P4 = 7 × 6 × 5 × 4 = 840 arrangements</p>
+                  <p className="text-center text-xs text-gold-300">7P4 = 7 × 6 × 5 × 4 = 840 arrangements</p>
                 </div>
               )}
 
@@ -1602,10 +1602,10 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       max={5}
                       value={binomialPower}
                       onChange={e => setBinomialPower(Number(e.target.value))}
-                      className="accent-indigo-500"
+                      className="accent-gold-500"
                     />
                   </div>
-                  <p className="text-center font-mono text-sm text-sky-300">
+                  <p className="text-center font-mono text-sm text-gold-300">
                     (x + y)^{binomialPower} ={' '}
                     {Array.from({ length: binomialPower + 1 })
                       .map((_, k) => {
@@ -1650,7 +1650,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
                     : difficulty === 'standard'
-                    ? 'bg-sky-500/20 text-sky-300 border-sky-500/30'
+                    ? 'bg-gold-500/20 text-gold-300 border-gold-500/30'
                     : 'bg-rose-500/20 text-rose-300 border-rose-500/30'
                 }`}
               >
@@ -1666,7 +1666,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-pink-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-pink-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1696,10 +1696,10 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       className={`w-full text-left p-4 rounded-2xl border text-sm sm:text-base transition-all ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-900 border-slate-800 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-900 border-slate-800 text-slate-200 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-mono text-xs px-2 py-1 bg-slate-800 rounded-lg mr-3 text-indigo-300">
+                      <span className="font-mono text-xs px-2 py-1 bg-slate-800 rounded-lg mr-3 text-gold-300">
                         {String.fromCharCode(65 + i)}
                       </span>
                       {opt}
@@ -1720,7 +1720,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter computed value"
-                  className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-gold-500"
                   disabled={showExplanation}
                 />
                 <span className="text-slate-400 text-sm">{challenge.unit}</span>
@@ -1729,7 +1729,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || numericInput === ''}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30"
                 >
                   Verify
                 </motion.button>
@@ -1746,7 +1746,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
-                      className="px-3.5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-mono cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-600 text-white rounded-xl text-xs font-mono cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1759,7 +1759,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       key={slotId}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(slotId)}
-                      className="p-4 bg-slate-900 border border-dashed border-slate-700 rounded-2xl text-center min-h-[60px] flex items-center justify-center text-xs font-mono text-sky-300"
+                      className="p-4 bg-slate-900 border border-dashed border-slate-700 rounded-2xl text-center min-h-[60px] flex items-center justify-center text-xs font-mono text-gold-300"
                     >
                       {droppedLabels[slotId] || `Drop Formula: ${slotId.replace('slot_', '')}`}
                     </div>
@@ -1773,7 +1773,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-sky-600 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                 >
                   Confirm Mapping
                 </motion.button>
@@ -1799,7 +1799,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-900 rounded-xl border border-slate-800 text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-slate-800 text-indigo-400 font-bold flex items-center justify-center text-xs">
+                    <span className="w-6 h-6 rounded-full bg-slate-800 text-gold-400 font-bold flex items-center justify-center text-xs">
                       {dIdx + 1}
                     </span>
                     {item}
@@ -1813,7 +1813,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                 >
                   Validate Order
                 </motion.button>
@@ -1830,7 +1830,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 text-sky-300 rounded-lg text-xs font-mono border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 text-gold-300 rounded-lg text-xs font-mono border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -1839,7 +1839,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
 
                 <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-950 text-white rounded-md text-xs font-mono border border-indigo-700 flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 text-white rounded-md text-xs font-mono border border-gold-700 flex items-center gap-1.5">
                       {p}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
@@ -1859,7 +1859,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Algebraic Proof
                 </motion.button>
@@ -1915,13 +1915,13 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
       {/* ─── PHASE 5: MISSION COMPLETION & MASTERY PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/50 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/50 shadow-2xl text-center space-y-4">
             <span className="text-4xl">🛰️</span>
             <h2 className="text-3xl font-extrabold text-white">Gaganyaan Mission Complete!</h2>
-            <p className="text-sky-300 text-sm sm:text-base">
+            <p className="text-gold-300 text-sm sm:text-base">
               Mastery Score:{' '}
               <strong className="text-emerald-400 text-xl">{Math.max(0, 100 - errors * 5)}%</strong> (Status:{' '}
-              <span className="capitalize text-indigo-300">{masteryLevel}</span>)
+              <span className="capitalize text-gold-300">{masteryLevel}</span>)
             </p>
 
             {/* MOTIVATIONAL FEEDBACK WITH EXACT TIERS */}
@@ -1968,7 +1968,7 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
                 setCurrentChallenge(0);
                 setErrors(0);
               }}
-              className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+              className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
             >
               Re-explore Labs
             </motion.button>
@@ -1976,12 +1976,12 @@ function C11_MathematicsFundamentalPrincipleCountingSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-950 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-lg font-bold text-sky-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-lg font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs sm:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

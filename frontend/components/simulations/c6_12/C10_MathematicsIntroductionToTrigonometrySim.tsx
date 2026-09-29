@@ -62,9 +62,9 @@ export function C10_MathematicsIntroductionToTrigonometrySim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">📏</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">📏</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 10 -- Introduction to Trigonometry</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 -- Introduction to Trigonometry</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Ratios of a Right Triangle, Live</h1>
         </div>
       </div>
@@ -128,24 +128,24 @@ export function C10_MathematicsIntroductionToTrigonometrySim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Hypotenuse h</span>
-                <span className="font-mono font-bold text-indigo-400">{hyp}</span>
+                <span className="font-mono font-bold text-gold-400">{hyp}</span>
               </div>
               <input type="range" min={4} max={14} value={hyp} aria-label="Hypotenuse"
-                onChange={(e) => setHyp(Number(e.target.value))} className="w-full accent-indigo-500" />
+                onChange={(e) => setHyp(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setLabelMode('names')}
-                className={`py-2 rounded-xl text-xs font-bold ${labelMode === 'names' ? 'bg-sky-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-xs font-bold ${labelMode === 'names' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Side names
               </button>
               <button onClick={() => setLabelMode('letters')}
-                className={`py-2 rounded-xl text-xs font-bold ${labelMode === 'letters' ? 'bg-sky-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-xs font-bold ${labelMode === 'letters' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Vertex letters
               </button>
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4 space-y-2">
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 space-y-2">
             {row('sin (theta)', 'Opp/Hyp', sinV, exact?.sin, 'text-pink-300')}
             {row('cos (theta)', 'Adj/Hyp', cosV, exact?.cos, 'text-emerald-300')}
             {row('tan (theta)', 'Opp/Adj', tanV, exact?.tan, 'text-amber-300')}
@@ -164,8 +164,8 @@ export function C10_MathematicsIntroductionToTrigonometrySim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Slide theta to 45. What do you notice about the two legs? Why must that happen?</p>
             <p>2. Find the angle where sin equals cos, then prove why the complementary angle must give the same swap.</p>
           </div>

@@ -270,7 +270,7 @@ function ReporterRiya({ mood, speaking }: { mood: MascotMood; speaking: string |
             initial={{ scale: 0, opacity: 0, y: 10 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
-            className="mb-2 bg-white border-2 border-cyan-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
+            className="mb-2 bg-white border-2 border-gold-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
           >
             <p className="text-xs font-bold text-gray-800 leading-relaxed">{speaking}</p>
           </motion.div>
@@ -319,7 +319,7 @@ function ReporterRiya({ mood, speaking }: { mood: MascotMood; speaking: string |
 
 function StarRow({ count, total }: { count: number; total: number }) {
   return (
-    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-cyan-200">
+    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-gold-200">
       {Array.from({ length: total }).map((_, i) => (
         <motion.div
           key={i}
@@ -343,14 +343,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Welcome to Riya's Newsroom! 📰",
     text: "Reporter Riya investigates percentages, data graphs, and number patterns every day to bring exciting mathematical news to students!",
     emoji: "📰",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Welcome to Riya's Newsroom! Riya investigates percentages, data graphs, and number patterns every day!"
   },
   {
     title: "Introduction to Percentages (%) 💯",
     text: "Percent means 'per hundred' or 'out of every hundred'. The symbol % is shorthand for '/100'. So 25% is exactly 25 out of 100, or the fraction 25/100!",
     emoji: "💯",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Percent means per hundred! The symbol percent is shorthand for over 100. So 25 percent is 25 out of 100!"
   },
   {
@@ -695,7 +695,7 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
               <span>{TEACHING_SLIDES[slideIdx].emoji}</span>
               <span>{TEACHING_SLIDES[slideIdx].title}</span>
             </h1>
-            <span className="text-sm font-bold text-cyan-300 bg-cyan-950/60 px-3 py-1 rounded-full border border-cyan-500">
+            <span className="text-sm font-bold text-gold-300 bg-gold-950/60 px-3 py-1 rounded-full border border-gold-500">
               Slide {slideIdx + 1} of {TEACHING_SLIDES.length}
             </span>
           </div>
@@ -721,7 +721,7 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
               }}
               disabled={slideIdx === 0}
               className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${
-                slideIdx === 0 ? 'bg-gray-600 opacity-50 cursor-not-allowed' : 'bg-cyan-600 hover:bg-cyan-500 active:scale-95'
+                slideIdx === 0 ? 'bg-gray-600 opacity-50 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500 active:scale-95'
               }`}
             >
               Previous
@@ -732,7 +732,7 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
                 <div
                   key={i}
                   className={`h-3 rounded-full transition-all duration-300 ${
-                    i === slideIdx ? 'w-8 bg-cyan-400' : 'w-3 bg-white/40'
+                    i === slideIdx ? 'w-8 bg-gold-400' : 'w-3 bg-white/40'
                   }`}
                 />
               ))}
@@ -759,9 +759,9 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
       {screen === 'play' && (
         <div className="absolute inset-0 z-10 flex flex-col justify-between p-6">
           {/* Top Bar */}
-          <div className="flex justify-between items-center bg-white/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-xl border border-cyan-200">
+          <div className="flex justify-between items-center bg-white/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-xl border border-gold-200">
             <div className="flex items-center gap-4">
-              <span className="text-sm font-black text-cyan-900 bg-cyan-100 px-3 py-1 rounded-xl">
+              <span className="text-sm font-black text-gold-900 bg-gold-100 px-3 py-1 rounded-xl">
                 Challenge {challengeIdx + 1} / {CHALLENGES.length}
               </span>
               <StarRow count={Math.floor(score / 15)} total={6} />
@@ -773,7 +773,7 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
               >
                 💡 Hint
               </button>
-              <div className="text-sm font-extrabold text-cyan-900 bg-cyan-50 px-3 py-1 rounded-xl border border-cyan-200">
+              <div className="text-sm font-extrabold text-gold-900 bg-gold-50 px-3 py-1 rounded-xl border border-gold-200">
                 Score: {score}
               </div>
             </div>
@@ -785,9 +785,9 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
               key={challengeIdx}
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="bg-white/95 backdrop-blur-md p-6 rounded-3xl shadow-2xl border-4 border-cyan-300 w-full text-center flex flex-col items-center"
+              className="bg-white/95 backdrop-blur-md p-6 rounded-3xl shadow-2xl border-4 border-gold-300 w-full text-center flex flex-col items-center"
             >
-              <div className="flex items-center gap-2 mb-3 bg-cyan-100 text-cyan-800 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center gap-2 mb-3 bg-gold-100 text-gold-800 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
                 <span>{currentChallenge.type === 'sort' ? '🧩 Drag & Drop Sort' : '❓ Multiple Choice'}</span>
               </div>
               <h2 className="text-xl font-extrabold text-slate-800 mb-6 leading-snug">
@@ -800,7 +800,7 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
                   {currentChallenge.options.map((opt, idx) => {
                     const isSelected = selectedOpt === opt;
                     const isCorrect = opt === currentChallenge.answer;
-                    let btnStyle = "bg-slate-100 hover:bg-cyan-50 text-slate-800 border-slate-300";
+                    let btnStyle = "bg-slate-100 hover:bg-gold-50 text-slate-800 border-slate-300";
                     if (selectedOpt) {
                       if (isCorrect) btnStyle = "bg-emerald-500 text-white border-emerald-600 shadow-lg scale-105";
                       else if (isSelected) btnStyle = "bg-rose-500 text-white border-rose-600 animate-shake";
@@ -857,7 +857,7 @@ export function PercentageDataGame({ width = 720, height = 560, onComplete }: Pe
                           height={80}
                         >
                           <div
-                            className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-cyan-400 bg-white ${
+                            className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-gold-400 bg-white ${
                               placed ? 'opacity-40 scale-90' : 'hover:scale-105 cursor-grab'
                             }`}
                             style={{ width: 110, height: 80 }}

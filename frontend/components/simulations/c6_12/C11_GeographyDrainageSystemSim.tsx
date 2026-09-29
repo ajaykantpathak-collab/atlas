@@ -67,9 +67,9 @@ export function C11_GeographyDrainageSystemSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700">🏞️</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🏞️</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 11 -- Drainage System</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Drainage System</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Basin Machine: Pattern, Rock and the Storm Hydrograph</h1>
         </div>
       </div>
@@ -110,7 +110,7 @@ export function C11_GeographyDrainageSystemSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs mt-1">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Discharge now</p>
-              <p className="font-mono font-bold text-cyan-300">{q.toFixed(0)} m3/s</p>
+              <p className="font-mono font-bold text-gold-300">{q.toFixed(0)} m3/s</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Storm peak</p>
@@ -128,17 +128,17 @@ export function C11_GeographyDrainageSystemSim() {
             <div className="grid grid-cols-3 gap-2">
               {PATTERNS.map((p) => (
                 <button key={p.id} onClick={() => setPattern(p.id)}
-                  className={`min-h-11 rounded-xl text-xs font-bold ${pattern === p.id ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                  className={`min-h-11 rounded-xl text-xs font-bold ${pattern === p.id ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                   {p.label}
                 </button>
               ))}
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Storm rainfall</span><span className="font-mono font-bold text-sky-400">{rain} mm/hr</span>
+                <span>Storm rainfall</span><span className="font-mono font-bold text-gold-400">{rain} mm/hr</span>
               </div>
               <input type="range" min={5} max={100} step={1} value={rain} aria-label="rainfall"
-                onChange={(e) => setRain(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setRain(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -174,8 +174,8 @@ export function C11_GeographyDrainageSystemSim() {
             </p>
           </div>
 
-          <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-            <p className="font-bold text-cyan-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Set permeability 0% and rain 100 mm/hr -- find the peak. Then set 100% permeability. How many times smaller is the peak?</p>
             <p>2. Switch to Trellis and justify the rock type from the 90-degree joins alone.</p>
           </div>

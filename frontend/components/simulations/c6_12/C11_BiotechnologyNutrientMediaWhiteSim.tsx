@@ -1227,7 +1227,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/50 rounded-2xl border border-emerald-800/60 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/50 rounded-2xl border border-emerald-800/60 shadow-xl">
             <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm mb-2">
               <span className="animate-pulse">●</span> MISSION BRIEFING
             </div>
@@ -1616,13 +1616,13 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                     <label className="flex items-center justify-between cursor-pointer">
-                      <span className="text-xs font-bold text-blue-300">Cryoprotectant (10% DMSO / Glycerol)</span>
+                      <span className="text-xs font-bold text-gold-300">Cryoprotectant (10% DMSO / Glycerol)</span>
                       <input
                         type="checkbox"
                         aria-label="Toggle Cryoprotectant 10% DMSO"
                         checked={hasCryoprotectant}
                         onChange={e => setHasCryoprotectant(e.target.checked)}
-                        className="accent-blue-500 w-4 h-4"
+                        className="accent-gold-500 w-4 h-4"
                       />
                     </label>
                   </div>
@@ -1630,7 +1630,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                       <label htmlFor="cooling-rate-slider">Cooling Rate (Controlled Rate Freezer)</label>
-                      <span className="font-mono text-cyan-400">{coolingRate.toFixed(1)} °C/min</span>
+                      <span className="font-mono text-gold-400">{coolingRate.toFixed(1)} °C/min</span>
                     </div>
                     <input
                       id="cooling-rate-slider"
@@ -1641,7 +1641,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                       step={0.5}
                       value={coolingRate}
                       onChange={e => setCoolingRate(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                     <div className="text-[11px] text-slate-400 mt-0.5">Gold standard: Exactly -1.0°C per minute</div>
                   </div>
@@ -1653,7 +1653,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                       whileTap={{ scale: 0.98 }}
                       onClick={handleStartCryoFreeze}
                       disabled={cryoStage === 'slow_cooling'}
-                      className="flex-1 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold text-xs shadow-md shadow-blue-950"
+                      className="flex-1 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md shadow-gold-950"
                     >
                       ❄️ Start -1°C/min Freeze
                     </motion.button>
@@ -1672,7 +1672,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                   <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 text-xs space-y-1">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Current Chamber Temp:</span>
-                      <span className="font-mono font-bold text-cyan-300">{cryoTemp} °C</span>
+                      <span className="font-mono font-bold text-gold-300">{cryoTemp} °C</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Cryo Stage:</span>
@@ -1741,13 +1741,13 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                   </label>
 
                   <label className="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-800 cursor-pointer">
-                    <span className="text-xs font-bold text-cyan-300">70% Ethanol Glove Antisepsis</span>
+                    <span className="text-xs font-bold text-gold-300">70% Ethanol Glove Antisepsis</span>
                     <input
                       type="checkbox"
                       aria-label="Toggle 70% Ethanol Glove Antisepsis"
                       checked={operatorGlovesEthanol}
                       onChange={e => setOperatorGlovesEthanol(e.target.checked)}
-                      className="accent-cyan-500 w-4 h-4"
+                      className="accent-gold-500 w-4 h-4"
                     />
                   </label>
 
@@ -1837,7 +1837,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                         <button
                           aria-label="Apply Crystal Violet primary stain"
                           onClick={() => setGramStainPhase('crystal_violet')}
-                          className="p-2 bg-indigo-900/70 hover:bg-indigo-800 text-indigo-200 rounded-lg font-bold"
+                          className="p-2 bg-gold-900/70 hover:bg-gold-800 text-gold-200 rounded-lg font-bold"
                         >
                           1. Crystal Violet (Primary)
                         </button>
@@ -2024,7 +2024,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
 
             {/* Cryo Parameters */}
             <div className="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-cyan-300 uppercase">Cryo Kinetics</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase">Cryo Kinetics</h3>
               <label className="flex items-center justify-between text-xs cursor-pointer">
                 <span>DMSO (10%) Cryoprotectant:</span>
                 <input
@@ -2032,11 +2032,11 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                   aria-label="Toggle DMSO Cryoprotectant in sandbox"
                   checked={hasCryoprotectant}
                   onChange={e => setHasCryoprotectant(e.target.checked)}
-                  className="accent-cyan-500 w-4 h-4"
+                  className="accent-gold-500 w-4 h-4"
                 />
               </label>
               <div className="text-xs text-slate-300">
-                Cooling Rate: <strong className="text-cyan-400 font-mono">{coolingRate} °C/min</strong>
+                Cooling Rate: <strong className="text-gold-400 font-mono">{coolingRate} °C/min</strong>
               </div>
               <input
                 aria-label="Cooling rate in sandbox"
@@ -2046,10 +2046,10 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                 step={0.5}
                 value={coolingRate}
                 onChange={e => setCoolingRate(parseFloat(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1">
-                <div>Temp: <span className="font-mono text-cyan-300">{cryoTemp} °C</span></div>
+                <div>Temp: <span className="font-mono text-gold-300">{cryoTemp} °C</span></div>
                 <div>Viability: <span className="font-mono text-emerald-400">{cellSurvivalRate}%</span></div>
               </div>
             </div>
@@ -2091,7 +2091,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                 <span className="text-xs px-2 py-0.5 bg-slate-800 text-slate-300 rounded font-mono">
                   Competency: {challenge.competencyLevel.toUpperCase()}
                 </span>
-                <span className="text-xs px-2 py-0.5 bg-indigo-950 text-indigo-300 border border-indigo-800 rounded font-mono">
+                <span className="text-xs px-2 py-0.5 bg-gold-950 text-gold-300 border border-gold-800 rounded font-mono">
                   Node: {challenge.nodeId}
                 </span>
               </div>
@@ -2106,7 +2106,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                   ? 'bg-emerald-950/80 text-emerald-400 border-emerald-800'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-400 border-rose-800'
-                  : 'bg-blue-950/80 text-blue-400 border-blue-800'
+                  : 'bg-gold-950/80 text-gold-400 border-gold-800'
               }`}
             >
               {difficulty} Tier
@@ -2116,7 +2116,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2300,7 +2300,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-2 bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 rounded-xl text-xs font-semibold"
+                      className="px-3 py-2 bg-gold-900/60 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-xl text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2456,7 +2456,7 @@ function C11_BiotechnologyNutrientMediaWhiteSim({
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs">
-                <span className="font-bold text-cyan-300 block mb-1">2. How would you explain this to a friend?</span>
+                <span className="font-bold text-gold-300 block mb-1">2. How would you explain this to a friend?</span>
                 <p className="text-slate-300 leading-relaxed">
                   Nutrient media are like custom biochemical menus: bacteria thrive on LB broth, plant shoots/roots respond to precise auxin:cytokinin switches in MS/White&apos;s media, and animal cells require glucose-rich DMEM supplemented with 10% Fetal Bovine Serum to divide.
                 </p>

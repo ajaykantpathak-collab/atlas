@@ -40,14 +40,14 @@ const TEACHING_SLIDES = [
     title: "Desktop & Wallpaper 🖥️",
     text: "The desktop is your computer's workspace! You can customise it by changing the wallpaper (background picture), arranging icons, and adding shortcuts with small arrows!",
     emoji: "🖥️",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "The desktop is your computer workspace! You can customise it by changing the wallpaper, arranging icons, and adding shortcuts with small arrows!"
   },
   {
     title: "Word Processor Tools 🔍",
     text: "Word processors have magic proofing tools! Find and Replace swaps words instantly. Spell check marks spelling errors with red wavy lines. Word count shows how many words you wrote!",
     emoji: "🔍",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Word processors have magic proofing tools! Find and Replace swaps words instantly. Spell check marks spelling errors with red wavy lines."
   },
   {
@@ -68,7 +68,7 @@ const TEACHING_SLIDES = [
     title: "Text Cases & Shortcuts ⌨️",
     text: "Change text case to UPPERCASE, lowercase, or Title Case! Use keyboard shortcuts like Ctrl+B for bold, Ctrl+I for italic, Ctrl+U for underline, and Ctrl+Z to undo!",
     emoji: "⌨️",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "Change text case to UPPERCASE, lowercase, or Title Case! Use keyboard shortcuts like Control B for bold and Control Z to undo!"
   },
 ];
@@ -300,9 +300,9 @@ function EditorEshan({ mood, speaking }: { mood: MascotMood; speaking: string | 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[220px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[220px] border-2 border-gold-200"
           >
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -598,7 +598,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-indigo-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 42)}
         <span className="text-[10px] font-bold text-gray-800 text-center mt-1 truncate max-w-full">{label}</span>
       </div>
@@ -835,7 +835,7 @@ export function WordFormattingGame({ width = 720, height = 560, onComplete }: Wo
       {/* Header bar */}
       <div className="relative z-10 w-full px-6 py-3 flex items-center justify-between bg-slate-900/70 backdrop-blur-md border-b border-white/10">
         <div className="flex items-center gap-3">
-          <div className="bg-indigo-600 text-white font-black px-3 py-1 rounded-xl text-sm shadow-md">
+          <div className="bg-gold-600 text-white font-black px-3 py-1 rounded-xl text-sm shadow-md">
             {screen === 'teaching' ? 'Learn' : `Q ${challengeIdx + 1}/${CHALLENGES.length}`}
           </div>
           <StarRow count={Math.min(5, Math.floor(score / 15))} total={5} />
@@ -860,16 +860,16 @@ export function WordFormattingGame({ width = 720, height = 560, onComplete }: Wo
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.3 }}
-              className="flex flex-col items-center max-w-lg bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-indigo-300 text-center"
+              className="flex flex-col items-center max-w-lg bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-gold-300 text-center"
             >
               <div className="text-5xl mb-3">{TEACHING_SLIDES[slideIdx].emoji}</div>
-              <h2 className="text-xl font-black text-indigo-900 mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
+              <h2 className="text-xl font-black text-gold-900 mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
               <p className="text-sm font-medium text-gray-700 leading-relaxed mb-6">{TEACHING_SLIDES[slideIdx].text}</p>
 
               <div className="flex items-center justify-between w-full">
                 <div className="flex gap-1.5">
                   {TEACHING_SLIDES.map((_, i) => (
-                    <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-indigo-600' : 'w-2.5 bg-gray-300'}`} />
+                    <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-600' : 'w-2.5 bg-gray-300'}`} />
                   ))}
                 </div>
                 <button
@@ -882,7 +882,7 @@ export function WordFormattingGame({ width = 720, height = 560, onComplete }: Wo
                       setScreen('play');
                     }
                   }}
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white font-black px-6 py-2.5 rounded-2xl shadow-lg transition-transform active:scale-95 text-sm"
+                  className="bg-gold-600 hover:bg-gold-700 text-white font-black px-6 py-2.5 rounded-2xl shadow-lg transition-transform active:scale-95 text-sm"
                 >
                   {slideIdx < TEACHING_SLIDES.length - 1 ? 'Next ➔' : 'Start Game! 🚀'}
                 </button>
@@ -898,7 +898,7 @@ export function WordFormattingGame({ width = 720, height = 560, onComplete }: Wo
               className="flex flex-col items-center w-full max-w-2xl"
             >
               {/* Question card */}
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-indigo-200 text-center mb-6 max-w-xl w-full">
+              <div className="bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-200 text-center mb-6 max-w-xl w-full">
                 <p className="text-sm md:text-base font-black text-slate-800">{currentChallenge.question}</p>
               </div>
 
@@ -908,7 +908,7 @@ export function WordFormattingGame({ width = 720, height = 560, onComplete }: Wo
                   {currentChallenge.options.map((opt, idx) => {
                     const isSelected = selectedOpt === opt;
                     const isCorrect = opt === currentChallenge.answer;
-                    let btnStyle = "bg-white hover:bg-indigo-50 text-slate-800 border-indigo-200";
+                    let btnStyle = "bg-white hover:bg-gold-50 text-slate-800 border-gold-200";
                     if (selectedOpt) {
                       if (isCorrect) btnStyle = "bg-emerald-500 text-white border-emerald-600 shadow-lg";
                       else if (isSelected) btnStyle = "bg-rose-500 text-white border-rose-600 shadow-lg";

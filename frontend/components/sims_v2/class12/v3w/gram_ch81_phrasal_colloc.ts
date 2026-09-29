@@ -29,7 +29,7 @@ export const c12_gram_ch81: SimDef = {
     },
     teaching: [
         { title: 'The pronoun rule', text: 'Separable verbs split around pronouns: turn it down, pick her up, put it off. Inseparables never split: look after her, run into him.', emoji: '✂️', bgColor: 'from-emerald-500 to-teal-600' },
-        { title: 'The married pairs', text: 'different FROM, married TO, afraid OF, insist ON, good AT. And the redundant partners: discuss (no about), return (no back), comprise (no of).', emoji: '💍', bgColor: 'from-teal-500 to-cyan-600' },
+        { title: 'The married pairs', text: 'different FROM, married TO, afraid OF, insist ON, good AT. And the redundant partners: discuss (no about), return (no back), comprise (no of).', emoji: '💍', bgColor: 'from-teal-500 to-gold-600' },
     ],
 
     beats: [

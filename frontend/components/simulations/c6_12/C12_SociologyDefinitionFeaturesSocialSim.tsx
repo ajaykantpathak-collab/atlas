@@ -1294,7 +1294,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700/50'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-400 border-rose-700/50'
-                : 'bg-indigo-950/80 text-indigo-400 border-indigo-700/50'
+                : 'bg-gold-950/80 text-gold-400 border-gold-700/50'
             }`}
           >
             TIER: {difficulty.toUpperCase()}
@@ -1308,7 +1308,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-700/40">
+          <div className="p-5 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-700/40">
             <h2 className="text-lg font-bold text-amber-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-slate-400 text-xs mt-2 italic">{SCENARIO.context}</p>
@@ -1505,7 +1505,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                         aria-label={`Select ${deg} kinship degree`}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
                           selectedKinDegree === deg
-                            ? 'bg-indigo-600 text-white shadow-md'
+                            ? 'bg-gold-600 text-white shadow-md'
                             : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
@@ -1608,7 +1608,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                         {selectedKinDegree === 'tertiary' &&
                           'Primary kin of secondary kin (e.g., Uncle’s wife / Chachi, Cousin’s spouse). 151 categories according to Murdock.'}
                       </p>
-                      <span className="inline-block text-xs text-indigo-300 bg-indigo-950/80 px-2 py-1 rounded border border-indigo-700/50">
+                      <span className="inline-block text-xs text-gold-300 bg-gold-950/80 px-2 py-1 rounded border border-gold-700/50">
                         Active Selection: <strong>{selectedRelative}</strong>
                       </span>
                     </div>
@@ -1764,7 +1764,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Female Higher Literacy & Workforce Rate:</span>
-                          <span className="text-cyan-400">{femaleLiteracyRate}%</span>
+                          <span className="text-gold-400">{femaleLiteracyRate}%</span>
                         </div>
                         <input
                           type="range"
@@ -1773,7 +1773,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                           value={femaleLiteracyRate}
                           onChange={(e) => handleLiteracyChange(Number(e.target.value))}
                           aria-label="Female Literacy Slider"
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1799,9 +1799,9 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-slate-950 rounded-xl border border-indigo-600/50"
+                      className="p-4 bg-slate-950 rounded-xl border border-gold-600/50"
                     >
-                      <span className="text-xs font-bold text-indigo-400 block mb-1">
+                      <span className="text-xs font-bold text-gold-400 block mb-1">
                         🔬 What Do You Notice From The Visualization?
                       </span>
                       <p className="text-white text-xs font-semibold mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
@@ -1881,8 +1881,8 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                         </div>
                       )}
                       {activeReligionScienceTab === 'science' && (
-                        <div className="p-3 bg-cyan-950/40 border border-cyan-700/50 rounded-lg">
-                          <strong className="text-cyan-300 block mb-1">Empirical Scientific Invalidation & Progress</strong>
+                        <div className="p-3 bg-gold-950/40 border border-gold-700/50 rounded-lg">
+                          <strong className="text-gold-300 block mb-1">Empirical Scientific Invalidation & Progress</strong>
                           <p className="text-slate-300">
                             Science relies on provisional truths, falsifiability, and measurable evidence. Unlike eternal religious dogma, scientific theories evolve through continuous empirical testing.
                           </p>
@@ -1966,7 +1966,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Proceed to Challenge Phase"
-              className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-black rounded-xl text-xs shadow-lg shadow-indigo-900/40 whitespace-nowrap"
+              className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-black rounded-xl text-xs shadow-lg shadow-gold-900/40 whitespace-nowrap"
             >
               Ready For ISC Challenges! →
             </motion.button>
@@ -1994,7 +1994,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                 value={femaleLiteracyRate}
                 onChange={(e) => setFemaleLiteracyRate(Number(e.target.value))}
                 aria-label="Sandbox Female Education"
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-2 bg-slate-900 rounded text-[11px] text-slate-400">
                 TFR Output: <strong className="text-emerald-400">{simulatedTFR}</strong> | Replacement: 2.1
@@ -2065,13 +2065,13 @@ function C12_SociologyDefinitionFeaturesSocialSim({
               <span className="text-slate-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 uppercase tracking-wider">
+              <span className="text-gold-400 uppercase tracking-wider">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-amber-500 via-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-amber-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2093,7 +2093,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-amber-300 border border-slate-700 font-mono">
                 {challenge.nodeId}
               </span>
-              <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800 font-semibold uppercase">
+              <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800 font-semibold uppercase">
                 {challenge.type}
               </span>
             </div>
@@ -2147,7 +2147,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                       whileTap={{ scale: 0.97 }}
                       role="button"
                       aria-label={`Draggable kin label: ${item.label}`}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2281,7 +2281,7 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-300 rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-300 rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2456,10 +2456,10 @@ function C12_SociologyDefinitionFeaturesSocialSim({
           )}
 
           {/* Spaced Repetition Visibility Card (SRS) */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-600/60 shadow-lg shadow-indigo-950/40 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-600/60 shadow-lg shadow-gold-950/40 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="space-y-1.5 flex-1">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 bg-indigo-900/80 px-2.5 py-0.5 rounded-full border border-indigo-700">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-300 bg-gold-900/80 px-2.5 py-0.5 rounded-full border border-gold-700">
                   Spaced Repetition Schedule (SM-2 Active)
                 </span>
               </div>
@@ -2477,11 +2477,11 @@ function C12_SociologyDefinitionFeaturesSocialSim({
                 to maximize long-term sociological concept retention and board exam recall.
               </p>
             </div>
-            <div className="flex items-center gap-3 px-4 py-3 bg-slate-900/90 rounded-xl border border-indigo-700/60 text-center min-w-[140px]">
+            <div className="flex items-center gap-3 px-4 py-3 bg-slate-900/90 rounded-xl border border-gold-700/60 text-center min-w-[140px]">
               <span className="text-3xl">📅</span>
               <div className="text-left">
                 <span className="text-[10px] uppercase tracking-wider text-slate-400 block font-semibold">SRS Interval</span>
-                <span className="text-sm font-black text-indigo-300 capitalize">
+                <span className="text-sm font-black text-gold-300 capitalize">
                   {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
                 </span>
               </div>

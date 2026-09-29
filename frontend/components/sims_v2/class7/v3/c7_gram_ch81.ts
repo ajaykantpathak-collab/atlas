@@ -24,7 +24,7 @@ export const c7_gram_ch81: SimDef = {
             { id: 's3', label: 'Past perfect is the earlier-past', prompt: 'Which idea is this? — Past perfect is the earlier-past: \'When I reached the station, the train HAD LEFT\' — two.', answer: 'Past perfect is the earlier-past', options: ['Past perfect is the earlier-past', 'Continuous tenses add be', 'Present perfect connects a past'] }
           ] } },
         { type: 'build', nodeId: 'c7_gram_cbse_81_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Is the action a film (in progress) or a snapshot.', 'Film → be (right time) + V-ing.', 'Never -ing alone — \'she reading\' is broken English.'], answer: 'Is the action a film (in progress) or a snapshot. Film → be (right time) + V-ing. Never -ing alone — \'she reading\' is broken English.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Film → be (right time) + V-ing.', 'Never -ing alone — \'she reading\' is broken English.', 'Is the action a film (in progress) or a snapshot.'], answer: 'Is the action a film (in progress) or a snapshot. Film → be (right time) + V-ing. Never -ing alone — \'she reading\' is broken English.' } },
         { type: 'case', nodeId: 'c7_gram_cbse_81_003', title: 'You made it',
           caseStudy: { intro: 'You finished Continuous tenses add \'be + V-ing\' to show. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

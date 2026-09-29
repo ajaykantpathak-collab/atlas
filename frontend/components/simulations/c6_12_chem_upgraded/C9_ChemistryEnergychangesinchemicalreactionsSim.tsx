@@ -1352,7 +1352,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
       {/* TOP BAR / HEADER */}
       <header className="bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-lg flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-extrabold bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-2xl font-extrabold bg-gradient-to-r from-gold-400 via-gold-500 to-gold-400 bg-clip-text text-transparent">
             {SCENARIO.title}
           </h1>
           <p className="text-xs text-slate-400 mt-1">ICSE Class 9 Chemistry • Energetics & Chemical Thermodynamics</p>
@@ -1363,7 +1363,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
           <button
             onClick={() => handleTabChange('discovery')}
             className={`px-4 py-2 text-xs font-bold rounded-lg transition-all ${
-              currentTab === 'discovery' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              currentTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             1. Discovery & Concepts
@@ -1371,7 +1371,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
           <button
             onClick={() => handleTabChange('lab')}
             className={`px-4 py-2 text-xs font-bold rounded-lg transition-all ${
-              currentTab === 'lab' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              currentTab === 'lab' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             2. Interactive Labs
@@ -1379,7 +1379,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
           <button
             onClick={() => handleTabChange('challenges')}
             className={`px-4 py-2 text-xs font-bold rounded-lg transition-all ${
-              currentTab === 'challenges' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              currentTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             3. Challenges ({completedCount}/{CHALLENGES.length})
@@ -1387,7 +1387,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
           <button
             onClick={() => handleTabChange('summary')}
             className={`px-4 py-2 text-xs font-bold rounded-lg transition-all ${
-              currentTab === 'summary' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              currentTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             4. Summary & Mastery
@@ -1401,8 +1401,8 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
         {currentTab === 'discovery' && (
           <div className="space-y-6 max-w-5xl mx-auto">
             {/* Context Box */}
-            <div className="bg-slate-900 border border-cyan-800/40 rounded-2xl p-6 shadow-md">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">Laboratory Context</h2>
+            <div className="bg-slate-900 border border-gold-800/40 rounded-2xl p-6 shadow-md">
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Laboratory Context</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-xs leading-relaxed">{SCENARIO.context}</p>
             </div>
@@ -1410,7 +1410,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
             {/* Discovery Core Question */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-md space-y-4">
               <div className="flex items-center gap-2">
-                <span className="bg-cyan-500/20 text-cyan-300 text-xs font-bold px-2.5 py-1 rounded-md">
+                <span className="bg-gold-500/20 text-gold-300 text-xs font-bold px-2.5 py-1 rounded-md">
                   Core Discovery Question
                 </span>
               </div>
@@ -1426,11 +1426,11 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                     }}
                     className={`p-4 text-left rounded-xl border text-sm font-medium transition-all ${
                       discoveryAnswer === idx
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-200 shadow-md'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200 shadow-md'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="inline-block w-6 font-bold text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     {option}
                   </button>
                 ))}
@@ -1440,13 +1440,13 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoveryAnswer === null}
-                  className="mt-4 px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white text-sm font-bold rounded-xl transition-all shadow-lg"
+                  className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-sm font-bold rounded-xl transition-all shadow-lg"
                 >
                   Confirm Hypothesis
                 </button>
               ) : (
                 <div className="mt-4 p-4 rounded-xl bg-slate-950 border border-slate-800 text-sm">
-                  <p className="font-bold text-cyan-400 mb-1">Scientific Insight:</p>
+                  <p className="font-bold text-gold-400 mb-1">Scientific Insight:</p>
                   <p className="text-slate-300">{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1457,7 +1457,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
               <h3 className="text-lg font-bold text-slate-100">Lab Hypotheses & Predictions</h3>
               {PREDICTION_QUESTIONS.map((pq, idx) => (
                 <div key={idx} className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
-                  <p className="text-sm font-semibold text-cyan-300">{pq.question}</p>
+                  <p className="text-sm font-semibold text-gold-300">{pq.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {pq.options.map((opt, oIdx) => (
                       <button
@@ -1470,7 +1470,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                         }}
                         className={`p-3 text-left rounded-lg text-xs font-medium border transition-all ${
                           predictionAnswers[idx] === oIdx
-                            ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                            ? 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                         }`}
                       >
@@ -1483,13 +1483,13 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                     <button
                       onClick={() => handlePredictionSubmit(idx)}
                       disabled={predictionAnswers[idx] === null}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white text-xs font-bold rounded-lg transition-all"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-lg transition-all"
                     >
                       Verify Prediction
                     </button>
                   ) : (
-                    <div className="p-3 bg-slate-900 rounded-lg border border-indigo-900 text-xs">
-                      <p className="text-indigo-300 font-bold mb-1">Verification Instructions:</p>
+                    <div className="p-3 bg-slate-900 rounded-lg border border-gold-900 text-xs">
+                      <p className="text-gold-300 font-bold mb-1">Verification Instructions:</p>
                       <p className="text-slate-300">{pq.verifyInstruction}</p>
                     </div>
                   )}
@@ -1521,7 +1521,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                           }}
                           className={`p-2.5 text-left rounded-lg text-xs border transition-all ${
                             diagnosticAnswers[qIdx] === optIdx
-                              ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                           }`}
                         >
@@ -1541,7 +1541,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
               {!diagnosticSubmitted && (
                 <button
                   onClick={handleDiagnosticSubmit}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl shadow-md transition-all"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md transition-all"
                 >
                   Submit Diagnostic Assessment
                 </button>
@@ -1564,11 +1564,11 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                   }}
                   className={`p-3 text-left rounded-xl border transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-950 border-cyan-500 text-cyan-200 shadow-md'
+                      ? 'bg-gold-950 border-gold-500 text-gold-200 shadow-md'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <p className="text-xs font-bold text-cyan-400">Lab {idx + 1}</p>
+                  <p className="text-xs font-bold text-gold-400">Lab {idx + 1}</p>
                   <p className="text-xs font-medium truncate">{step.title.split(':')[1] || step.title}</p>
                 </button>
               ))}
@@ -1577,7 +1577,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
             {/* Instruction Banner */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center justify-between">
               <div>
-                <h3 className="text-sm font-bold text-cyan-300">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
+                <h3 className="text-sm font-bold text-gold-300">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
                 <p className="text-xs text-slate-300 mt-1">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
               </div>
             </div>
@@ -1625,7 +1625,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                         audioManager.play('tap');
                         setLab1Mass(Number(e.target.value));
                       }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1635,7 +1635,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                       setLab1IsReacting(true);
                     }}
                     disabled={lab1IsReacting}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white text-xs font-bold rounded-xl transition-all shadow-md"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-xl transition-all shadow-md"
                   >
                     {lab1IsReacting ? 'Reacting...' : 'Initiate Reaction & Record ΔT'}
                   </button>
@@ -1643,7 +1643,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                   <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs space-y-1">
                     <p className="text-slate-400">Initial Temperature (T1): <span className="text-slate-200 font-bold">{lab1TempStart.toFixed(1)} °C</span></p>
                     <p className="text-slate-400">Current Temperature (T2): <span className="text-slate-200 font-bold">{lab1TempCurrent.toFixed(1)} °C</span></p>
-                    <p className="text-cyan-400 font-bold pt-1">
+                    <p className="text-gold-400 font-bold pt-1">
                       Calculated Q = m·c·ΔT = {((lab1Mass * 4.18 * Math.abs(lab1TempCurrent - lab1TempStart)) / 1000).toFixed(3)} kJ
                     </p>
                   </div>
@@ -1722,7 +1722,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                       setLab2IsRunning(true);
                     }}
                     disabled={lab2IsRunning}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white text-xs font-bold rounded-xl transition-all shadow-md"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-xl transition-all shadow-md"
                   >
                     Simulate Molecular Trajectory
                   </button>
@@ -1747,7 +1747,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                         setLab3Stage('reactants');
                       }}
                       className={`flex-1 py-2 text-xs font-bold rounded-lg border transition-all ${
-                        lab3Stage === 'reactants' ? 'bg-blue-900 border-blue-500 text-blue-200' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        lab3Stage === 'reactants' ? 'bg-gold-900 border-gold-500 text-gold-200' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       1. Reactant Bonds
@@ -1778,7 +1778,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2">
                     <p className="text-slate-300">
-                      <span className="font-bold text-blue-400">H-H Bond:</span> 436 kJ/mol
+                      <span className="font-bold text-gold-400">H-H Bond:</span> 436 kJ/mol
                     </p>
                     <p className="text-slate-300">
                       <span className="font-bold text-emerald-400">Cl-Cl Bond:</span> 243 kJ/mol
@@ -1856,12 +1856,12 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                         audioManager.play('tap');
                         setLab5Voltage(Number(e.target.value));
                       }}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2">
-                    <p className="text-blue-400 font-bold">Electrochemical Energy Transformation:</p>
+                    <p className="text-gold-400 font-bold">Electrochemical Energy Transformation:</p>
                     <p className="text-slate-300">
                       External electrical work drives non-spontaneous oxidation-reduction reactions:
                     </p>
@@ -1878,7 +1878,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
               <h3 className="text-lg font-bold text-slate-100">Lab Observations & Empirical Deductions</h3>
               {OBSERVATION_QUESTIONS.map((oq, idx) => (
                 <div key={idx} className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
-                  <p className="text-sm font-semibold text-cyan-300">{oq.question}</p>
+                  <p className="text-sm font-semibold text-gold-300">{oq.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {oq.observableOptions.map((opt, oIdx) => (
                       <button
@@ -1939,7 +1939,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
               <div className="flex items-center gap-2">
                 <span className={`px-3 py-1 text-xs font-bold rounded-full ${
                   CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-800'
                     : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
                     ? 'bg-amber-950 text-amber-400 border border-amber-800'
                     : 'bg-purple-950 text-purple-400 border border-purple-800'
@@ -1967,11 +1967,11 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                       }}
                       className={`p-4 text-left rounded-xl border text-sm font-medium transition-all ${
                         userMcqChoice === idx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200 shadow-md'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200 shadow-md'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <span className="inline-block w-6 font-bold text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {opt}
                     </button>
                   ))}
@@ -1988,9 +1988,9 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                       placeholder="Enter value"
                       value={userNumericInput}
                       onChange={(e) => setUserNumericInput(e.target.value)}
-                      className="bg-slate-950 border border-slate-700 text-slate-100 text-sm rounded-xl px-4 py-3 w-48 focus:outline-none focus:border-cyan-500"
+                      className="bg-slate-950 border border-slate-700 text-slate-100 text-sm rounded-xl px-4 py-3 w-48 focus:outline-none focus:border-gold-500"
                     />
-                    <span className="text-sm font-bold text-cyan-400">
+                    <span className="text-sm font-bold text-gold-400">
                       {CHALLENGES[currentChallengeIndex].unit}
                     </span>
                   </div>
@@ -2010,7 +2010,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                           audioManager.play('tap');
                           setUserClassifyMapping({ ...userClassifyMapping, [item.id]: e.target.value });
                         }}
-                        className="bg-slate-900 border border-slate-700 text-xs text-cyan-300 rounded-lg p-2"
+                        className="bg-slate-900 border border-slate-700 text-xs text-gold-300 rounded-lg p-2"
                       >
                         <option value="">Select Category</option>
                         {CHALLENGES[currentChallengeIndex].categories?.map((cat) => (
@@ -2026,7 +2026,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
               <div className="pt-4 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
                 <button
                   onClick={handleChallengeSubmit}
-                  className="w-full md:w-auto px-8 py-3 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all"
+                  className="w-full md:w-auto px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all"
                 >
                   Submit Answer
                 </button>
@@ -2061,13 +2061,13 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
             {/* Overall Score Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
-                <h2 className="text-xl font-extrabold text-cyan-400">Thermochemistry Mastery Summary</h2>
+                <h2 className="text-xl font-extrabold text-gold-400">Thermochemistry Mastery Summary</h2>
                 <p className="text-xs text-slate-400 mt-1">
                   Track Bayesian Knowledge Tracing (BKT) and Spaced Repetition (SM-2) schedules across nodes.
                 </p>
               </div>
               <div className="text-center bg-slate-950 px-6 py-4 rounded-xl border border-slate-800">
-                <p className="text-3xl font-black text-cyan-400">{overallProgressPercent}%</p>
+                <p className="text-3xl font-black text-gold-400">{overallProgressPercent}%</p>
                 <p className="text-xs text-slate-400 font-semibold mt-1">Challenges Mastered</p>
               </div>
             </div>
@@ -2116,7 +2116,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim({
                   return (
                     <div key={nodeId} className="p-3 bg-slate-950 border border-slate-800 rounded-xl flex items-center justify-between text-xs">
                       <div>
-                        <p className="font-bold text-cyan-300">{nodeId}</p>
+                        <p className="font-bold text-gold-300">{nodeId}</p>
                         <p className="text-slate-400">pKnow: {(bkt.pKnown * 100).toFixed(0)}%</p>
                       </div>
                       <span className={`px-2.5 py-1 rounded-md font-bold text-xs ${

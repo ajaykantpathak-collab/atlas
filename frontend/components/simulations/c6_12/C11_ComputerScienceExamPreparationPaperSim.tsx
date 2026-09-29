@@ -1126,13 +1126,13 @@ export function C11_ComputerScienceExamPreparationPaperSim({
         className="flex flex-col md:flex-row items-start md:items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
-              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800">
+              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-400 border border-gold-800">
                 ISC 868 Class 11
               </span>
             </h1>
@@ -1156,7 +1156,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
               }}
               className={`px-3 py-1.5 text-xs font-bold rounded-xl transition-all capitalize ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
             >
@@ -1176,20 +1176,20 @@ export function C11_ComputerScienceExamPreparationPaperSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold tracking-widest uppercase mb-2">
+            <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold tracking-widest uppercase mb-2">
                 <span>⚡ Curiosity Challenge</span>
               </div>
-              <h2 className="text-xl font-black text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-black text-gold-200">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <div className="mt-4 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-xs text-indigo-300">
+              <div className="mt-4 p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 text-xs text-gold-300">
                 ⚠️ <span className="font-bold">Examiner Insight:</span> {SCENARIO.context}
               </div>
             </div>
 
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-lg">
               <p className="text-base font-bold text-white mb-4 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
+                <span className="w-2 h-2 rounded-full bg-gold-400"></span>
                 {DISCOVERY_QUESTION.question}
               </p>
 
@@ -1207,10 +1207,10 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
                           : 'bg-slate-800/60 border-slate-700/60 text-slate-400'
-                        : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                        : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                     }`}
                   >
-                    <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
+                    <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
                     {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && <span className="mr-1 text-emerald-400">✓</span>}
                     {discoveryAnswered && idx !== DISCOVERY_QUESTION.correctIndex && <span className="mr-1 text-rose-400">✗</span>}
                     {option}
@@ -1232,7 +1232,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-cyan-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Begin Interactive Labs →
                   </motion.button>
@@ -1261,7 +1261,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 shadow-2xl"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-                <span className="text-xs font-black tracking-wider uppercase text-cyan-400 bg-cyan-950/80 px-3 py-1 rounded-full border border-cyan-800">
+                <span className="text-xs font-black tracking-wider uppercase text-gold-400 bg-gold-950/80 px-3 py-1 rounded-full border border-gold-800">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-xs text-slate-400 font-mono">
@@ -1270,8 +1270,8 @@ export function C11_ComputerScienceExamPreparationPaperSim({
               </div>
 
               <h2 className="text-xl font-bold text-white mb-2">{EXPLORATION_STEPS[currentSlide].title}</h2>
-              <p className="text-sm text-indigo-300 mb-6 bg-indigo-950/40 p-3 rounded-xl border border-indigo-900/60">
-                👉 <strong className="text-indigo-200">Action:</strong> {EXPLORATION_STEPS[currentSlide].instruction}
+              <p className="text-sm text-gold-300 mb-6 bg-gold-950/40 p-3 rounded-xl border border-gold-900/60">
+                👉 <strong className="text-gold-200">Action:</strong> {EXPLORATION_STEPS[currentSlide].instruction}
               </p>
 
               {/* ── LAB 1: NUMBER SYSTEM & BIT TOGGLES WITH TOPIC SVG 1 ─�� */}
@@ -1279,7 +1279,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                 <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-6">
                   {/* SVG DIAGRAM 1: 8-BIT REGISTER ARCHITECTURE */}
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <div className="text-xs font-mono text-cyan-400 mb-2 font-bold">Topic SVG Diagram 1: 8-Bit Architecture Register Map</div>
+                    <div className="text-xs font-mono text-gold-400 mb-2 font-bold">Topic SVG Diagram 1: 8-Bit Architecture Register Map</div>
                     <svg viewBox="0 0 540 80" className="w-full max-w-xl" aria-label="8-bit binary register architecture diagram">
                       <rect x="10" y="10" width="520" height="60" rx="8" fill="#0f172a" stroke="#334155" strokeWidth="2" />
                       {bitArray.map((b, i) => {
@@ -1325,7 +1325,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                             onClick={() => handleToggleBit(idx)}
                             className={`flex flex-col items-center justify-center p-3 rounded-xl border transition-all ${
                               bit === 1
-                                ? 'bg-cyan-600/30 border-cyan-400 text-cyan-300 shadow-lg shadow-cyan-500/20'
+                                ? 'bg-gold-600/30 border-gold-400 text-gold-300 shadow-lg shadow-gold-500/20'
                                 : 'bg-slate-900 border-slate-800 text-slate-500'
                             }`}
                           >
@@ -1342,11 +1342,11 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
                     <div className="p-4 bg-slate-900/90 rounded-xl border border-slate-800">
                       <div className="text-xs text-slate-400">Unsigned Decimal (Base 10)</div>
-                      <div className="text-2xl font-black text-cyan-400 mt-1">{decimalValue}</div>
+                      <div className="text-2xl font-black text-gold-400 mt-1">{decimalValue}</div>
                     </div>
                     <div className="p-4 bg-slate-900/90 rounded-xl border border-slate-800">
                       <div className="text-xs text-slate-400">Hexadecimal (Base 16)</div>
-                      <div className="text-2xl font-black text-indigo-400 mt-1">0x{hexValue}</div>
+                      <div className="text-2xl font-black text-gold-400 mt-1">0x{hexValue}</div>
                     </div>
                     <div className="p-4 bg-slate-900/90 rounded-xl border border-slate-800">
                       <div className="text-xs text-slate-400">Two's Complement (Signed 8-Bit)</div>
@@ -1355,8 +1355,8 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                   </div>
 
                   {/* PREDICT-THEN-CHECK */}
-                  <div className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-800/50">
-                    <p className="text-xs font-bold text-indigo-300 mb-2">🧠 Predict-Then-Check:</p>
+                  <div className="p-4 bg-gold-950/30 rounded-xl border border-gold-800/50">
+                    <p className="text-xs font-bold text-gold-300 mb-2">🧠 Predict-Then-Check:</p>
                     {!predictionMade ? (
                       <div>
                         <p className="text-xs text-slate-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1368,7 +1368,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                               whileHover={{ scale: 1.02 }}
                               whileTap={{ scale: 0.98 }}
                               onClick={() => handlePrediction(i)}
-                              className="text-left p-2.5 bg-slate-900 rounded-lg text-xs text-slate-300 border border-slate-800 hover:border-indigo-500"
+                              className="text-left p-2.5 bg-slate-900 rounded-lg text-xs text-slate-300 border border-slate-800 hover:border-gold-500"
                             >
                               {opt}
                             </motion.button>
@@ -1398,7 +1398,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                         onClick={() => handleSelectGate(g)}
                         className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                           selectedGate === g
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1485,7 +1485,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
 
                   {/* Observation Question */}
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <p className="text-xs font-bold text-cyan-300 mb-2">👁️ Observation Query:</p>
+                    <p className="text-xs font-bold text-gold-300 mb-2">👁️ Observation Query:</p>
                     <p className="text-xs text-slate-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-2 gap-2">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1500,7 +1500,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                               ? i === OBSERVATION_QUESTIONS[0].correctIndex
                                 ? 'bg-emerald-950 border-emerald-500 text-emerald-300 font-bold'
                                 : 'bg-slate-950 border-slate-800 text-slate-500'
-                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500'
+                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           {observationAnswered && i === OBSERVATION_QUESTIONS[0].correctIndex && <span className="mr-1 text-emerald-400">✓</span>}
@@ -1518,7 +1518,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                 <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-6">
                   {/* TOPIC SVG DIAGRAM 3: STACK VS HEAP MEMORY */}
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <div className="text-xs font-mono text-cyan-400 mb-2 font-bold">Topic SVG Diagram 3: Java JVM Stack Reference vs Heap Object Allocation</div>
+                    <div className="text-xs font-mono text-gold-400 mb-2 font-bold">Topic SVG Diagram 3: Java JVM Stack Reference vs Heap Object Allocation</div>
                     <svg viewBox="0 0 540 140" className="w-full max-w-xl" aria-label="Java Stack and Heap Memory Reference Map">
                       {/* Stack Box */}
                       <rect x="20" y="15" width="200" height="110" rx="8" fill="#1e1b4b" stroke="#6366f1" strokeWidth="2" />
@@ -1543,23 +1543,23 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="p-4 bg-slate-900 rounded-xl border border-indigo-900/60">
-                      <div className="text-xs font-bold text-indigo-400 uppercase mb-3 flex items-center justify-between">
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-900/60">
+                      <div className="text-xs font-bold text-gold-400 uppercase mb-3 flex items-center justify-between">
                         <span>Stack Frame (Local References)</span>
                         <span className="text-[10px] text-slate-500 font-mono">Fast / LIFO</span>
                       </div>
                       <div className="space-y-3 font-mono text-xs">
                         <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 flex items-center justify-between">
                           <div>
-                            <span className="text-cyan-400">Student</span> s1
+                            <span className="text-gold-400">Student</span> s1
                           </div>
-                          <span className="text-indigo-300">→ points to {ref1PointsTo}</span>
+                          <span className="text-gold-300">→ points to {ref1PointsTo}</span>
                         </div>
                         <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 flex items-center justify-between">
                           <div>
-                            <span className="text-cyan-400">Student</span> s2
+                            <span className="text-gold-400">Student</span> s2
                           </div>
-                          <span className="text-indigo-300">→ points to {ref2PointsTo}</span>
+                          <span className="text-gold-300">→ points to {ref2PointsTo}</span>
                         </div>
                       </div>
                       <div className="mt-4 flex gap-2">
@@ -1572,7 +1572,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                             setRef2PointsTo(ref1PointsTo);
                             speechManager.speak('s2 is now assigned s1 reference. Both point to the exact same heap memory!');
                           }}
-                          className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                         >
                           Execute: s2 = s1;
                         </motion.button>
@@ -1587,15 +1587,15 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                             setRef2PointsTo(newId);
                             speechManager.speak('s2 now references a distinct new Student instance allocated on heap.');
                           }}
-                          className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 text-white rounded-lg text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                         >
                           Execute: s2 = new Student();
                         </motion.button>
                       </div>
                     </div>
 
-                    <div className="p-4 bg-slate-900 rounded-xl border border-cyan-900/60">
-                      <div className="text-xs font-bold text-cyan-400 uppercase mb-3 flex items-center justify-between">
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-900/60">
+                      <div className="text-xs font-bold text-gold-400 uppercase mb-3 flex items-center justify-between">
                         <span>Heap Memory (Dynamic Objects)</span>
                         <span className="text-[10px] text-slate-500 font-mono">Garbage Collected</span>
                       </div>
@@ -1609,7 +1609,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                               <div className="text-xs font-mono text-emerald-400">Memory @{obj.id}</div>
                               <div className="text-xs font-bold text-white">{obj.name}</div>
                             </div>
-                            <span className="text-xs bg-slate-800 px-2 py-1 rounded text-cyan-300 font-mono">
+                            <span className="text-xs bg-slate-800 px-2 py-1 rounded text-gold-300 font-mono">
                               marks = {obj.val}
                             </span>
                           </div>
@@ -1625,7 +1625,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                 <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-6">
                   {/* TOPIC SVG DIAGRAM 4: CIRCULAR QUEUE BUFFER */}
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <div className="text-xs font-mono text-cyan-400 mb-2 font-bold">Topic SVG Diagram 4: Circular Queue Modulo Wrap-Around Ring (Capacity = 6)</div>
+                    <div className="text-xs font-mono text-gold-400 mb-2 font-bold">Topic SVG Diagram 4: Circular Queue Modulo Wrap-Around Ring (Capacity = 6)</div>
                     <svg viewBox="0 0 300 200" className="w-full max-w-xs" aria-label="Circular Queue Modulo Ring Buffer">
                       <circle cx="150" cy="100" r="70" fill="none" stroke="#334155" strokeWidth="24" />
                       {[0, 1, 2, 3, 4, 5].map((idx) => {
@@ -1659,7 +1659,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                   <div>
                     <div className="text-xs font-bold text-slate-400 uppercase mb-3 flex items-center justify-between">
                       <span>Circular Array Buffer (Size = 6)</span>
-                      <span className="text-xs font-mono text-cyan-400">
+                      <span className="text-xs font-mono text-gold-400">
                         Front: [{queueFront}] • Rear: [{queueRear}]
                       </span>
                     </div>
@@ -1672,7 +1672,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                             key={idx}
                             className={`flex flex-col items-center justify-center p-4 rounded-xl border relative transition-all ${
                               val !== null
-                                ? 'bg-indigo-950/70 border-indigo-500 text-indigo-200'
+                                ? 'bg-gold-950/70 border-gold-500 text-gold-200'
                                 : 'bg-slate-900 border-slate-800 text-slate-600'
                             }`}
                           >
@@ -1727,7 +1727,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-2">
                         <span>Section A (25 Marks)</span>
-                        <span className="text-cyan-400">{studyHoursA} hrs</span>
+                        <span className="text-gold-400">{studyHoursA} hrs</span>
                       </div>
                       <input
                         type="range"
@@ -1739,7 +1739,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                           setStudyHoursA(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[11px] text-slate-400 mt-2">Hardware, Encoders, K-Maps & Numeration</p>
                     </div>
@@ -1747,7 +1747,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-2">
                         <span>Section B (30 Marks)</span>
-                        <span className="text-indigo-400">{studyHoursB} hrs</span>
+                        <span className="text-gold-400">{studyHoursB} hrs</span>
                       </div>
                       <input
                         type="range"
@@ -1759,7 +1759,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                           setStudyHoursB(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[11px] text-slate-400 mt-2">Java OOP, Recursion, Arrays & Stacks/Queues</p>
                     </div>
@@ -1791,7 +1791,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       <div className="text-xl font-bold text-white">{studyHoursA + studyHoursB + studyHoursC} Hours Planned</div>
                     </div>
                     <div className="text-right">
-                      <span className="text-xs px-3 py-1 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">
+                      <span className="text-xs px-3 py-1 rounded-full bg-gold-950 text-gold-300 border border-gold-800">
                         {studyHoursB >= 12 ? '✓ Balanced Section B Priority' : '⚠️ Allocate more time to Java'}
                       </span>
                     </div>
@@ -1820,7 +1820,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     <div
                       key={i}
                       className={`w-2.5 h-2.5 rounded-full transition-all ${
-                        i === currentSlide ? 'bg-indigo-500 scale-125' : 'bg-slate-700'
+                        i === currentSlide ? 'bg-gold-500 scale-125' : 'bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1835,7 +1835,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1881,7 +1881,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToChallenge}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white rounded-2xl font-black text-sm shadow-xl shadow-indigo-600/30"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 via-purple-600 to-pink-600 text-white rounded-2xl font-black text-sm shadow-xl shadow-gold-600/30"
                 >
                   Ready For Graded Challenges! 🎯
                 </motion.button>
@@ -1893,7 +1893,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                  <div className="text-xs font-bold text-cyan-400 uppercase mb-3">Live 8-Bit Converter</div>
+                  <div className="text-xs font-bold text-gold-400 uppercase mb-3">Live 8-Bit Converter</div>
                   <div className="grid grid-cols-4 gap-2 mb-3">
                     {bitArray.slice(0, 4).map((b, i) => (
                       <motion.button
@@ -1903,7 +1903,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleToggleBit(i)}
                         className={`p-2 rounded-lg text-sm font-black border ${
-                          b ? 'bg-cyan-600/40 border-cyan-400 text-cyan-200' : 'bg-slate-900 border-slate-800 text-slate-500'
+                          b ? 'bg-gold-600/40 border-gold-400 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-500'
                         }`}
                       >
                         {b}
@@ -1911,7 +1911,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     ))}
                   </div>
                   <div className="text-xs text-slate-300">
-                    Decimal: <span className="text-cyan-400 font-mono font-bold">{decimalValue}</span> | Hex: <span className="text-indigo-400 font-mono font-bold">0x{hexValue}</span>
+                    Decimal: <span className="text-gold-400 font-mono font-bold">{decimalValue}</span> | Hex: <span className="text-gold-400 font-mono font-bold">0x{hexValue}</span>
                   </div>
                 </div>
 
@@ -1975,7 +1975,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       ? 'bg-emerald-950/80 text-emerald-400 border-emerald-800'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950/80 text-rose-400 border-rose-800'
-                      : 'bg-cyan-950/80 text-cyan-400 border-cyan-800'
+                      : 'bg-gold-950/80 text-gold-400 border-gold-800'
                   }`}
                 >
                   {difficulty} TIER
@@ -1987,7 +1987,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
 
               <div className="w-full md:w-48 h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={(currentChallenge + 1) / filteredChallenges.length * 100} aria-valuemin={0} aria-valuemax={100}>
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-gold-500"
                   animate={{
                     width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`
                   }}
@@ -2025,10 +2025,10 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
-                          : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-850 hover:border-indigo-500'
+                          : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-850 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                      <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                       {showExplanation && i === activeChallenge.correctIndex && <span className="mr-1 text-emerald-400">✓</span>}
                       {opt}
                     </motion.button>
@@ -2050,7 +2050,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2070,7 +2070,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                         <span className="text-[10px] text-slate-500 font-mono mb-1">
                           {targetId.replace('target_', '').toUpperCase()}
                         </span>
-                        <span className="text-xs font-bold text-cyan-300 text-center">
+                        <span className="text-xs font-bold text-gold-300 text-center">
                           {droppedLabels[targetId] ? `✓ ${droppedLabels[targetId]}` : 'Drop Here'}
                         </span>
                       </div>
@@ -2082,7 +2082,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Validate Architecture Mapping
                   </motion.button>
@@ -2124,7 +2124,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-950 rounded-xl text-xs text-slate-200 border border-slate-800 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center font-mono text-[10px] text-indigo-400">
+                      <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center font-mono text-[10px] text-gold-400">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2140,7 +2140,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       handleAnswer(answer);
                     }}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Check Order Sequence
                   </motion.button>
@@ -2157,7 +2157,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter integer / numerical answer"
-                      className="px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-sm text-white font-mono focus:outline-none focus:border-indigo-500 w-64"
+                      className="px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-sm text-white font-mono focus:outline-none focus:border-gold-500 w-64"
                     />
                     <span className="text-xs text-slate-400 font-mono">[{activeChallenge.unit}]</span>
                     <motion.button
@@ -2166,7 +2166,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                       whileTap={{ scale: 0.96 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                      className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                     >
                       Submit Number
                     </motion.button>
@@ -2188,7 +2188,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                           setConstructParts(prev => [...prev, part]);
                           audioManager.play('pop');
                         }}
-                        className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono"
+                        className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono"
                       >
                         + {part}
                       </motion.button>
@@ -2199,7 +2199,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     {constructParts.map((part, idx) => (
                       <span
                         key={idx}
-                        className="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-mono"
+                        className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-mono"
                       >
                         {part}
                         <button
@@ -2222,7 +2222,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Validate Code Assembly
                   </motion.button>
@@ -2297,7 +2297,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
             animate={{ opacity: 1, scale: 1 }}
             className="space-y-6"
           >
-            <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 text-center space-y-4">
+            <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 text-center space-y-4">
               <span className="text-5xl" aria-hidden="true">🏆</span>
               <h2 className="text-2xl md:text-3xl font-black text-white">ISC Examination Simulation Complete</h2>
               <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2307,7 +2307,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg mx-auto pt-2">
                 <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800">
                   <div className="text-xs text-slate-400">Calculated Score</div>
-                  <div className="text-3xl font-black text-cyan-400 mt-1">{Math.max(0, 100 - errors * 5)}%</div>
+                  <div className="text-3xl font-black text-gold-400 mt-1">{Math.max(0, 100 - errors * 5)}%</div>
                 </div>
                 <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800">
                   <div className="text-xs text-slate-400">Total Errors</div>
@@ -2321,7 +2321,7 @@ export function C11_ComputerScienceExamPreparationPaperSim({
             </div>
 
             {/* Motivational Performance Message */}
-            <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-700/50 text-indigo-200 text-sm md:text-base font-bold leading-relaxed text-center">
+            <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-700/50 text-gold-200 text-sm md:text-base font-bold leading-relaxed text-center">
               {errors === 0
                 ? '🌟 PERFECT SCORE!'
                 : errors <= 3
@@ -2351,26 +2351,26 @@ export function C11_ComputerScienceExamPreparationPaperSim({
             )}
 
             {/* Spaced Repetition Schedule */}
-            <div className="p-5 bg-indigo-950/30 rounded-2xl border border-indigo-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="p-5 bg-gold-950/30 rounded-2xl border border-gold-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div>
-                <div className="text-xs font-bold text-indigo-300">Spaced Repetition System (SRS) Schedule</div>
+                <div className="text-xs font-bold text-gold-300">Spaced Repetition System (SRS) Schedule</div>
                 <p className="text-xs text-slate-400 mt-1">
                   Topic retention decays over time. Your personalized memory retention review schedule:
                 </p>
               </div>
-              <span className="text-sm font-black px-4 py-2 rounded-xl bg-indigo-700 text-white whitespace-nowrap">
+              <span className="text-sm font-black px-4 py-2 rounded-xl bg-gold-700 text-white whitespace-nowrap">
                 {errors === 0 ? 'Review in 7 days (Maintenance)' : errors <= 3 ? 'Review in 3 days (Reinforcement)' : 'Review in 1 day (Active Recall)'}
               </span>
             </div>
 
             {/* Real World Activity */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((st, idx) => (
                   <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{idx + 1}.</span> {st}
+                    <span className="text-gold-400 font-bold">{idx + 1}.</span> {st}
                   </li>
                 ))}
               </ul>

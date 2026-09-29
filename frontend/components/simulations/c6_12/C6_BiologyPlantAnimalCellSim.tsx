@@ -1168,7 +1168,7 @@ export function C6_BiologyPlantAnimalCellSim({
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium flex items-center gap-2">
@@ -1191,7 +1191,7 @@ export function C6_BiologyPlantAnimalCellSim({
                   ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
-                  : 'bg-cyan-500/10 text-cyan-400 border-cyan-500/30'
+                  : 'bg-gold-500/10 text-gold-400 border-gold-500/30'
               }`}
             >
               Tier: {difficulty}
@@ -1404,7 +1404,7 @@ export function C6_BiologyPlantAnimalCellSim({
                           }}
                           className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
                             selectedCellType === 'animal'
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                           }`}
                         >
@@ -1777,14 +1777,14 @@ export function C6_BiologyPlantAnimalCellSim({
                                 audioManager.play('count');
                               }}
                               aria-label="Diaphragm contraction slider"
-                              className="w-full accent-cyan-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
 
                           <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
                             <motion.div whileHover={{ scale: 1.03 }} className="p-2 bg-slate-950 rounded-lg">
                               <span className="text-slate-400 block text-[10px]">Thoracic Volume</span>
-                              <span className="text-cyan-400 font-mono font-bold text-sm">{lungVolume} mL</span>
+                              <span className="text-gold-400 font-mono font-bold text-sm">{lungVolume} mL</span>
                             </motion.div>
                             <motion.div whileHover={{ scale: 1.03 }} className="p-2 bg-slate-950 rounded-lg">
                               <span className="text-slate-400 block text-[10px]">Intra-Pulmonary Pressure</span>
@@ -1861,7 +1861,7 @@ export function C6_BiologyPlantAnimalCellSim({
 
                           <div className="space-y-1 bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                             <p className="text-slate-400">Heart Rate: <strong className="text-rose-400">{activeHeartRate} bpm</strong></p>
-                            <p className="text-slate-400">Cardiac Output: <strong className="text-cyan-400">{cardiacOutput} L/min</strong></p>
+                            <p className="text-slate-400">Cardiac Output: <strong className="text-gold-400">{cardiacOutput} L/min</strong></p>
                           </div>
                           <p className="text-slate-400 text-[11px]">
                             <strong>Double Circulation:</strong> Blood visits the heart twice—Pulmonary loop (lungs) and Systemic loop (rest of the body).
@@ -2001,7 +2001,7 @@ export function C6_BiologyPlantAnimalCellSim({
                   />
                   <div className="text-xs space-y-1 text-slate-300">
                     <p>Heart Rate: <strong className="text-rose-400">{activeHeartRate} bpm</strong></p>
-                    <p>Oxygen Transport: <strong className="text-cyan-400">{(activeHeartRate * 1.4).toFixed(0)} mL/min</strong></p>
+                    <p>Oxygen Transport: <strong className="text-gold-400">{(activeHeartRate * 1.4).toFixed(0)} mL/min</strong></p>
                   </div>
                 </motion.div>
 
@@ -2010,7 +2010,7 @@ export function C6_BiologyPlantAnimalCellSim({
                   whileHover={{ scale: 1.02 }}
                   className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3"
                 >
-                  <span className="text-xs font-bold text-cyan-400 uppercase">Diaphragm Pulmonary Depth</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase">Diaphragm Pulmonary Depth</span>
                   <input
                     type="range"
                     min="0"
@@ -2018,10 +2018,10 @@ export function C6_BiologyPlantAnimalCellSim({
                     value={diaphragmPosition}
                     onChange={e => setDiaphragmPosition(Number(e.target.value))}
                     aria-label="Diaphragm pulmonary depth slider"
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="text-xs space-y-1 text-slate-300">
-                    <p>Lung Volume: <strong className="text-cyan-400">{lungVolume} mL</strong></p>
+                    <p>Lung Volume: <strong className="text-gold-400">{lungVolume} mL</strong></p>
                     <p>Pressure Delta: <strong className="text-amber-400">{(760 - Number(lungPressure)).toFixed(1)} mmHg</strong></p>
                   </div>
                 </motion.div>
@@ -2075,13 +2075,13 @@ export function C6_BiologyPlantAnimalCellSim({
                   )}
                   {(diseaseFilter === 'all' || diseaseFilter === 'non-communicable') && (
                     <>
-                      <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-cyan-950/40 border border-cyan-800/50 rounded-lg text-cyan-300">
+                      <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-gold-950/40 border border-gold-800/50 rounded-lg text-gold-300">
                         <strong>Diabetes</strong> (Metabolic / Insulin)
                       </motion.div>
-                      <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-cyan-950/40 border border-cyan-800/50 rounded-lg text-cyan-300">
+                      <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-gold-950/40 border border-gold-800/50 rounded-lg text-gold-300">
                         <strong>Asthma</strong> (Allergic Bronchospasm)
                       </motion.div>
-                      <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-cyan-950/40 border border-cyan-800/50 rounded-lg text-cyan-300">
+                      <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-gold-950/40 border border-gold-800/50 rounded-lg text-gold-300">
                         <strong>Hypertension</strong> (Cardiac / Diet)
                       </motion.div>
                     </>
@@ -2561,7 +2561,7 @@ export function C6_BiologyPlantAnimalCellSim({
                 </div>
                 <div className="p-3 bg-slate-950/70 rounded-xl border border-slate-800">
                   <span className="text-slate-400 block text-[10px] uppercase font-bold">Recommended Target Date</span>
-                  <span className="text-cyan-300 font-mono font-bold text-base">{srsReviewInfo.formattedDate}</span>
+                  <span className="text-gold-300 font-mono font-bold text-base">{srsReviewInfo.formattedDate}</span>
                 </div>
               </div>
 

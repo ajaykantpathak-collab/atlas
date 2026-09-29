@@ -1211,13 +1211,13 @@ function C12_MathematicsMatrixMultiplicationSim({
         >
           <motion.span
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 inline-block"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 12 ISC • Mathematics</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 ISC • Mathematics</span>
               <motion.span
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -1241,7 +1241,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1263,11 +1263,11 @@ function C12_MathematicsMatrixMultiplicationSim({
           <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800 shadow-lg"
+            className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800 shadow-lg"
           >
             <div className="flex items-center gap-3 mb-2">
               <span className="text-2xl">🚀</span>
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <motion.div
@@ -1284,7 +1284,7 @@ function C12_MathematicsMatrixMultiplicationSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-col items-center"
           >
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2 self-start">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2 self-start">
               Telemetry Dimension Mapping Diagram
             </span>
             <svg viewBox="0 0 560 120" className="w-full max-w-lg bg-slate-950 rounded-xl border border-slate-800 p-2">
@@ -1312,7 +1312,7 @@ function C12_MathematicsMatrixMultiplicationSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800"
           >
-            <span className="text-xs font-bold uppercase text-indigo-400 tracking-wider">Curiosity Diagnostic Hook</span>
+            <span className="text-xs font-bold uppercase text-gold-400 tracking-wider">Curiosity Diagnostic Hook</span>
             <p className="text-base font-semibold text-white mt-2 mb-4">{DISCOVERY_QUESTION.question}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -1329,7 +1329,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-800/50 border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200 hover:bg-slate-750'
+                      : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200 hover:bg-slate-750'
                   }`}
                 >
                   <div className="flex items-start gap-2">
@@ -1353,7 +1353,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToPredictions}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 text-sm flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 text-sm flex items-center gap-2"
                 >
                   Start Hypothesizing (Predict-Then-Check) →
                 </motion.button>
@@ -1368,10 +1368,10 @@ function C12_MathematicsMatrixMultiplicationSim({
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 Prediction Hypothesis {currentPredictionIdx + 1} of {PREDICTION_QUESTIONS.length}
               </span>
-              <span className="text-xs px-2.5 py-1 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700">
+              <span className="text-xs px-2.5 py-1 rounded-full bg-gold-950 text-gold-300 border border-gold-700">
                 Predict Before Testing
               </span>
             </div>
@@ -1387,8 +1387,8 @@ function C12_MathematicsMatrixMultiplicationSim({
                   onClick={() => !predictionSubmitted && setPredictionSelected(idx)}
                   className={`p-3.5 text-left rounded-xl text-sm transition-all border ${
                     predictionSelected === idx
-                      ? 'bg-indigo-950/90 border-indigo-500 text-indigo-200'
-                      : 'bg-slate-800 border-slate-700 hover:border-indigo-400 text-slate-200'
+                      ? 'bg-gold-950/90 border-gold-500 text-gold-200'
+                      : 'bg-slate-800 border-slate-700 hover:border-gold-400 text-slate-200'
                   } ${predictionSubmitted && idx === PREDICTION_QUESTIONS[currentPredictionIdx].correctIndex ? 'ring-2 ring-emerald-500 bg-emerald-950/40 text-emerald-200' : ''}`}
                 >
                   <div className="flex items-center gap-2.5">
@@ -1415,15 +1415,15 @@ function C12_MathematicsMatrixMultiplicationSim({
                     }
                   }}
                   disabled={predictionSelected === null}
-                  className="px-6 py-2.5 bg-indigo-600 disabled:opacity-40 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 disabled:opacity-40 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Lock In Prediction
                 </button>
               </div>
             ) : (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4 pt-3 border-t border-slate-800">
-                <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 text-xs text-slate-300 space-y-2">
-                  <p className="font-bold text-indigo-300">
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 text-xs text-slate-300 space-y-2">
+                  <p className="font-bold text-gold-300">
                     ���� Explanation: {PREDICTION_QUESTIONS[currentPredictionIdx].explanation}
                   </p>
                   <p className="text-amber-300 font-semibold">
@@ -1439,7 +1439,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                         setPredictionSelected(null);
                         setPredictionSubmitted(false);
                       }}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold"
                     >
                       Next Prediction →
                     </button>
@@ -1473,7 +1473,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all border flex items-center gap-2 ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1492,7 +1492,7 @@ function C12_MathematicsMatrixMultiplicationSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl space-y-5"
             >
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Concept Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-xl font-black text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1505,7 +1505,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center bg-slate-950 p-4 rounded-2xl border border-slate-800">
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-xs font-bold text-indigo-300">Matrix A (2×3)</span>
+                        <span className="text-xs font-bold text-gold-300">Matrix A (2×3)</span>
                         <span className="text-[10px] text-slate-500">Click a row</span>
                       </div>
                       <div className="space-y-1.5">
@@ -1520,11 +1520,11 @@ function C12_MathematicsMatrixMultiplicationSim({
                             }}
                             className={`flex gap-2 p-2 rounded-lg cursor-pointer transition-all border ${
                               selectedRowA === rIdx
-                                ? 'bg-indigo-950 border-indigo-500 text-indigo-200 shadow-md'
+                                ? 'bg-gold-950 border-gold-500 text-gold-200 shadow-md'
                                 : 'bg-slate-800/60 border-transparent hover:border-slate-700 text-slate-300'
                             }`}
                           >
-                            <span className="text-xs text-indigo-400 font-mono font-bold">R{rIdx + 1}</span>
+                            <span className="text-xs text-gold-400 font-mono font-bold">R{rIdx + 1}</span>
                             {row.map((val, cIdx) => (
                               <span key={cIdx} className="flex-1 text-center font-mono font-bold text-sm">
                                 {val}
@@ -1603,13 +1603,13 @@ function C12_MathematicsMatrixMultiplicationSim({
                   <motion.div
                     initial={{ opacity: 0, y: 5 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="p-4 bg-slate-950/80 rounded-xl border border-indigo-900/60 flex flex-wrap items-center justify-between gap-3"
+                    className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/60 flex flex-wrap items-center justify-between gap-3"
                   >
                     <div>
                       <span className="text-xs text-slate-400 font-semibold block">
                         Computation for Entry (Row {selectedRowA + 1}, Col {selectedColB + 1}):
                       </span>
-                      <p className="text-base font-mono font-bold text-indigo-300 mt-0.5">
+                      <p className="text-base font-mono font-bold text-gold-300 mt-0.5">
                         (AB)
                         <sub>
                           {selectedRowA + 1}
@@ -1618,7 +1618,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                         = {currentDotProductBreakdown.formula}
                       </p>
                     </div>
-                    <span className="px-3 py-1 bg-indigo-900/60 rounded-lg text-xs font-mono text-indigo-200 border border-indigo-700">
+                    <span className="px-3 py-1 bg-gold-900/60 rounded-lg text-xs font-mono text-gold-200 border border-gold-700">
                       Dot Product of R{selectedRowA + 1} • C{selectedColB + 1}
                     </span>
                   </motion.div>
@@ -1638,7 +1638,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                         lab2Mode === 'standard'
-                          ? 'bg-indigo-600 border-indigo-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1665,15 +1665,15 @@ function C12_MathematicsMatrixMultiplicationSim({
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Product AB</span>
+                          <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Product AB</span>
                           <p className="text-xs text-slate-400 mt-1">
                             [[1, 2], [3, 4]] × [[5, 6], [7, 8]]
                           </p>
-                          <div className="mt-3 grid grid-cols-2 gap-2 text-center font-mono font-bold text-indigo-300">
-                            <div className="p-2 bg-indigo-950/60 rounded-lg border border-indigo-800">19</div>
-                            <div className="p-2 bg-indigo-950/60 rounded-lg border border-indigo-800">22</div>
-                            <div className="p-2 bg-indigo-950/60 rounded-lg border border-indigo-800">43</div>
-                            <div className="p-2 bg-indigo-950/60 rounded-lg border border-indigo-800">50</div>
+                          <div className="mt-3 grid grid-cols-2 gap-2 text-center font-mono font-bold text-gold-300">
+                            <div className="p-2 bg-gold-950/60 rounded-lg border border-gold-800">19</div>
+                            <div className="p-2 bg-gold-950/60 rounded-lg border border-gold-800">22</div>
+                            <div className="p-2 bg-gold-950/60 rounded-lg border border-gold-800">43</div>
+                            <div className="p-2 bg-gold-950/60 rounded-lg border border-gold-800">50</div>
                           </div>
                         </div>
 
@@ -1706,7 +1706,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center text-center font-mono">
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-700">
                           <span className="text-xs text-slate-400 font-sans block mb-1">Matrix A ≠ 0</span>
-                          <div className="grid grid-cols-2 gap-1 text-sm font-bold text-indigo-300">
+                          <div className="grid grid-cols-2 gap-1 text-sm font-bold text-gold-300">
                             <span>1</span>
                             <span>1</span>
                             <span>-1</span>
@@ -1737,7 +1737,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between">
                     <div>
-                      <span className="text-xs font-bold text-indigo-400 uppercase">Cofactor Checkerboard Signs (-1)^(i+j)</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Cofactor Checkerboard Signs (-1)^(i+j)</span>
                       <p className="text-[11px] text-slate-400">Alternating sign grid applied to minors</p>
                     </div>
                     <svg viewBox="0 0 150 90" className="w-36 h-20 bg-slate-900 rounded-lg p-1 border border-slate-800">
@@ -1776,7 +1776,7 @@ function C12_MathematicsMatrixMultiplicationSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                      <span className="text-xs font-bold text-indigo-300 uppercase">3×3 Matrix: Click an element a_ij</span>
+                      <span className="text-xs font-bold text-gold-300 uppercase">3×3 Matrix: Click an element a_ij</span>
                       <div className="grid grid-cols-3 gap-2">
                         {mat3x3.map((row, r) =>
                           row.map((val, c) => {
@@ -1790,7 +1790,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                                 onClick={() => handleMinorCellSelect(r, c)}
                                 className={`p-3 rounded-xl font-mono text-center transition-all border ${
                                   isSelected
-                                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg ring-2 ring-indigo-400/40 font-black'
+                                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg ring-2 ring-gold-400/40 font-black'
                                     : isDeleted
                                     ? 'bg-rose-950/40 border-rose-900/60 text-slate-500 line-through'
                                     : 'bg-slate-800 border-slate-700 text-emerald-300 font-bold hover:bg-slate-755'
@@ -1817,7 +1817,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 font-mono text-sm">
                         <div className="flex justify-between items-center text-xs text-slate-400">
                           <span>Surviving 2×2 Submatrix:</span>
-                          <span className="text-indigo-400">
+                          <span className="text-gold-400">
                             [[{currentSubmatrix.sub[0][0]}, {currentSubmatrix.sub[0][1]}], [{currentSubmatrix.sub[1][0]}, {currentSubmatrix.sub[1][1]}]]
                           </span>
                         </div>
@@ -1830,7 +1830,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                           Sign Factor (-1)<sup>{selectedMinorRow + 1}+{selectedMinorCol + 1}</sup> ={' '}
                           <strong>{currentSubmatrix.sign > 0 ? '+1' : '-1'}</strong>
                         </div>
-                        <div className="p-2 bg-indigo-950/80 rounded-lg border border-indigo-800 text-indigo-200 font-bold">
+                        <div className="p-2 bg-gold-950/80 rounded-lg border border-gold-800 text-gold-200 font-bold">
                           Cofactor C<sub>{selectedMinorRow + 1}{selectedMinorCol + 1}</sub> = ({currentSubmatrix.sign > 0 ? '+1' : '-1'}) × ({currentSubmatrix.minorVal}) ={' '}
                           <span className="text-amber-300 text-base">{currentSubmatrix.cofactorVal}</span>
                         </div>
@@ -1844,7 +1844,7 @@ function C12_MathematicsMatrixMultiplicationSim({
               {currentSlide === 3 && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                    <span className="text-xs font-bold text-indigo-300 uppercase">Radar Grid (10×10 km)</span>
+                    <span className="text-xs font-bold text-gold-300 uppercase">Radar Grid (10×10 km)</span>
                     <svg viewBox="0 0 300 240" className="w-full bg-slate-900 rounded-xl border border-slate-800">
                       {Array.from({ length: 11 }).map((_, i) => (
                         <g key={i}>
@@ -1889,7 +1889,7 @@ function C12_MathematicsMatrixMultiplicationSim({
 
                     <div className="grid grid-cols-3 gap-2">
                       <div>
-                        <label className="text-[10px] text-sky-400 block font-bold">Vertex A (X, Y)</label>
+                        <label className="text-[10px] text-gold-400 block font-bold">Vertex A (X, Y)</label>
                         <div className="flex gap-1 mt-1">
                           <input
                             type="number"
@@ -1962,11 +1962,11 @@ function C12_MathematicsMatrixMultiplicationSim({
                       <p className="text-slate-300">
                         Area = (1/2) |det [[{vertexA.x}, {vertexA.y}, 1], [{vertexB.x}, {vertexB.y}, 1], [{vertexC.x}, {vertexC.y}, 1]]|
                       </p>
-                      <div className="p-2 bg-slate-950 rounded-lg text-indigo-300">
+                      <div className="p-2 bg-slate-950 rounded-lg text-gold-300">
                         det = {vertexA.x}({vertexB.y} - {vertexC.y}) + {vertexB.x}({vertexC.y} - {vertexA.y}) + {vertexC.x}({vertexA.y} - {vertexB.y}) ={' '}
                         <strong>{triangleAreaCalc.det.toFixed(1)}</strong>
                       </div>
-                      <div className="p-3 bg-indigo-950 rounded-lg border border-indigo-800 text-white font-bold text-sm">
+                      <div className="p-3 bg-gold-950 rounded-lg border border-gold-800 text-white font-bold text-sm">
                         Enclosed Area = (1/2) |{triangleAreaCalc.det.toFixed(1)}| ={' '}
                         <span className="text-amber-300 text-lg">{triangleAreaCalc.area.toFixed(2)} sq units</span>
                       </div>
@@ -1992,7 +1992,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <span className="text-xs font-bold text-indigo-400 uppercase">System: AX = B</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">System: AX = B</span>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs font-mono space-y-2">
                         <div className="flex items-center gap-2">
                           <input
@@ -2013,7 +2013,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                             type="number"
                             value={bConst1}
                             onChange={(e) => setBConst1(Number(e.target.value))}
-                            className="w-12 p-1 bg-indigo-900 rounded text-center font-bold"
+                            className="w-12 p-1 bg-gold-900 rounded text-center font-bold"
                           />
                         </div>
                         <div className="flex items-center gap-2">
@@ -2035,7 +2035,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                             type="number"
                             value={bConst2}
                             onChange={(e) => setBConst2(Number(e.target.value))}
-                            className="w-12 p-1 bg-indigo-900 rounded text-center font-bold"
+                            className="w-12 p-1 bg-gold-900 rounded text-center font-bold"
                           />
                         </div>
                       </div>
@@ -2091,7 +2091,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       setCurrentSlide((s) => s + 1);
                       audioManager.play('whoosh');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -2224,7 +2224,7 @@ function C12_MathematicsMatrixMultiplicationSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
               <div className="space-y-4">
-                <span className="text-xs font-bold text-indigo-300 uppercase">Input Matrix A: [[a, b], [c, d]]</span>
+                <span className="text-xs font-bold text-gold-300 uppercase">Input Matrix A: [[a, b], [c, d]]</span>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">a = {sandboxA}</label>
@@ -2274,7 +2274,7 @@ function C12_MathematicsMatrixMultiplicationSim({
 
                 <div className="p-3 bg-slate-900 rounded-xl font-mono text-xs flex justify-between">
                   <span>Matrix A:</span>
-                  <span className="text-indigo-300 font-bold">
+                  <span className="text-gold-300 font-bold">
                     [[{sandboxA}, {sandboxB}], [{sandboxC}, {sandboxD}]]
                   </span>
                 </div>
@@ -2309,7 +2309,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 text-sm flex items-center gap-2"
+                className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 text-sm flex items-center gap-2"
               >
                 Ready for CISCE Board Challenges! →
               </motion.button>
@@ -2328,7 +2328,7 @@ function C12_MathematicsMatrixMultiplicationSim({
           >
             <div className="flex justify-between items-center mb-1 px-1">
               <span className="text-[10px] font-mono text-slate-400 uppercase">ISRO Lunar Telemetry Stream</span>
-              <span className="text-[10px] font-mono text-indigo-400">Real-time Orbit Tracking</span>
+              <span className="text-[10px] font-mono text-gold-400">Real-time Orbit Tracking</span>
             </div>
             <canvas ref={canvasRef} width={500} height={70} className="w-full rounded-xl bg-slate-950" />
           </motion.div>
@@ -2340,7 +2340,7 @@ function C12_MathematicsMatrixMultiplicationSim({
           >
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="ml-3 text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono border border-slate-700">
@@ -2354,7 +2354,7 @@ function C12_MathematicsMatrixMultiplicationSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2392,7 +2392,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       className={`p-3.5 text-left rounded-xl text-sm font-medium transition-all border ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200 hover:bg-slate-755'
+                          : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200 hover:bg-slate-755'
                       }`}
                     >
                       <div className="flex items-center gap-2.5">
@@ -2416,7 +2416,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2432,7 +2432,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       className="p-4 bg-slate-900 rounded-xl border-2 border-dashed border-slate-700 text-center flex flex-col items-center justify-center min-h-[70px]"
                     >
                       <span className="text-[10px] text-slate-500 font-mono block">Position: {posId}</span>
-                      <span className="text-xs font-bold text-indigo-300 mt-1">
+                      <span className="text-xs font-bold text-gold-300 mt-1">
                         {droppedLabels[posId] || 'Drop Sign Factor Here'}
                       </span>
                     </div>
@@ -2443,7 +2443,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Drag Placement
                 </motion.button>
@@ -2470,7 +2470,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 cursor-grab text-xs font-medium text-slate-200 flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 text-[10px] font-bold flex items-center justify-center">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 text-[10px] font-bold flex items-center justify-center">
                         {idx + 1}
                       </span>
                       <span>{item}</span>
@@ -2489,7 +2489,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Confirm Step Sequence
                 </motion.button>
@@ -2504,7 +2504,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numeric answer"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none w-48"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none w-48"
                   />
                   {activeChallenge.unit && <span className="text-xs text-slate-400 font-mono">{activeChallenge.unit}</span>}
                   <motion.button
@@ -2512,7 +2512,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-5 py-3 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-3 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Submit Answer
                   </motion.button>
@@ -2530,7 +2530,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2541,7 +2541,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-2.5 py-1 bg-indigo-600 text-white rounded text-xs font-mono flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-600 text-white rounded text-xs font-mono flex items-center gap-1.5"
                     >
                       {part}
                       <motion.button
@@ -2564,7 +2564,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Proof Construction
                 </motion.button>
@@ -2633,7 +2633,7 @@ function C12_MathematicsMatrixMultiplicationSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-8 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-3"
+            className="p-8 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-3"
           >
             <span className="text-5xl block">🌕 🚀</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Mission Accomplished: Lunar Orbit Locked!</h2>
@@ -2643,14 +2643,14 @@ function C12_MathematicsMatrixMultiplicationSim({
             <div className="flex justify-center gap-4 pt-2">
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="px-5 py-2.5 bg-slate-950 rounded-2xl border border-indigo-800"
+                className="px-5 py-2.5 bg-slate-950 rounded-2xl border border-gold-800"
               >
                 <span className="text-xs text-slate-400 block font-mono">Final Score</span>
                 <span className="text-2xl font-black text-amber-400">{Math.max(0, 100 - errors * 5)}%</span>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="px-5 py-2.5 bg-slate-950 rounded-2xl border border-indigo-800"
+                className="px-5 py-2.5 bg-slate-950 rounded-2xl border border-gold-800"
               >
                 <span className="text-xs text-slate-400 block font-mono">Mastery Rank</span>
                 <span className="text-2xl font-black text-emerald-400 capitalize">{masteryLevel}</span>
@@ -2665,7 +2665,7 @@ function C12_MathematicsMatrixMultiplicationSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500'
                 : errors <= 3
-                ? 'bg-indigo-950/60 border-indigo-500'
+                ? 'bg-gold-950/60 border-gold-500'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500'
                 : 'bg-rose-950/60 border-rose-500'
@@ -2700,7 +2700,7 @@ function C12_MathematicsMatrixMultiplicationSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-r from-purple-950/70 via-indigo-950/80 to-slate-900 rounded-2xl border border-purple-600 shadow-xl"
+            className="p-6 bg-gradient-to-r from-purple-950/70 via-gold-950/80 to-slate-900 rounded-2xl border border-purple-600 shadow-xl"
           >
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div className="space-y-1">
@@ -2738,7 +2738,7 @@ function C12_MathematicsMatrixMultiplicationSim({
           >
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
-              <h3 className="text-base font-bold text-indigo-300">Mission Reflection & Knowledge Synthesis</h3>
+              <h3 className="text-base font-bold text-gold-300">Mission Reflection & Knowledge Synthesis</h3>
             </div>
             <p className="text-xs text-slate-400">
               Deepen your cognitive retention by reflecting on how these mathematical principles connect to broader concepts.
@@ -2753,7 +2753,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g. Non-zero matrices can multiply to zero, or order AB vs BA completely changes result..."
-                  className="w-full bg-slate-900 text-xs text-slate-200 p-2.5 rounded-lg border border-slate-700 outline-none focus:border-indigo-500 min-h-[50px]"
+                  className="w-full bg-slate-900 text-xs text-slate-200 p-2.5 rounded-lg border border-slate-700 outline-none focus:border-gold-500 min-h-[50px]"
                 />
               </div>
 
@@ -2765,19 +2765,19 @@ function C12_MathematicsMatrixMultiplicationSim({
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="e.g. Determinants measure spatial scaling, and Martin's Rule is like dividing by a matrix using its inverse..."
-                  className="w-full bg-slate-900 text-xs text-slate-200 p-2.5 rounded-lg border border-slate-700 outline-none focus:border-indigo-500 min-h-[50px]"
+                  className="w-full bg-slate-900 text-xs text-slate-200 p-2.5 rounded-lg border border-slate-700 outline-none focus:border-gold-500 min-h-[50px]"
                 />
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <label className="text-xs font-semibold text-sky-300 block mb-1">
+                <label className="text-xs font-semibold text-gold-300 block mb-1">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="e.g. 3D computer graphics transformations, satellite orbital telemetry, economic input-output models..."
-                  className="w-full bg-slate-900 text-xs text-slate-200 p-2.5 rounded-lg border border-slate-700 outline-none focus:border-indigo-500 min-h-[50px]"
+                  className="w-full bg-slate-900 text-xs text-slate-200 p-2.5 rounded-lg border border-slate-700 outline-none focus:border-gold-500 min-h-[50px]"
                 />
               </div>
             </div>
@@ -2793,7 +2793,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   setReflectionSaved(true);
                   audioManager.play('drop-correct');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Save Reflections
               </motion.button>
@@ -2831,9 +2831,9 @@ function C12_MathematicsMatrixMultiplicationSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-800 space-y-3"
+            className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-800 space-y-3"
           >
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
@@ -2844,7 +2844,7 @@ function C12_MathematicsMatrixMultiplicationSim({
                   whileHover={{ scale: 1.02 }}
                   className="p-2.5 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-slate-400"
                 >
-                  <span className="font-bold text-indigo-400 mr-1.5">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400 mr-1.5">{idx + 1}.</span>
                   {step}
                 </motion.div>
               ))}

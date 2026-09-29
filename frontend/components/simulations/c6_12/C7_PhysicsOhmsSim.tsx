@@ -1386,9 +1386,9 @@ export function C7_PhysicsOhmsSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950 rounded-2xl border border-indigo-700">⚡</span>
+          <span className="text-3xl p-2 bg-gold-950 rounded-2xl border border-gold-700">⚡</span>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-indigo-400">
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">
               ICSE Class 7 Physics • Master Sim
             </span>
             <h1 className="text-lg md:text-xl font-extrabold text-white">{title}</h1>
@@ -1406,7 +1406,7 @@ export function C7_PhysicsOhmsSim({
                   ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                  : 'bg-cyan-950 text-cyan-400 border border-cyan-700'
+                  : 'bg-gold-950 text-gold-400 border border-gold-700'
               }`}
             >
               {difficulty}
@@ -1414,7 +1414,7 @@ export function C7_PhysicsOhmsSim({
           )}
 
           <span className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full font-medium">
-            Phase: <strong className="capitalize text-indigo-300">{phase}</strong>
+            Phase: <strong className="capitalize text-gold-300">{phase}</strong>
           </span>
         </div>
       </motion.header>
@@ -1428,8 +1428,8 @@ export function C7_PhysicsOhmsSim({
           animate={{ opacity: 1, y: 0 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 italic">{SCENARIO.context}</p>
           </div>
@@ -1471,7 +1471,7 @@ export function C7_PhysicsOhmsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 rounded-xl bg-slate-950 border border-indigo-900/80 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-5 p-4 rounded-xl bg-slate-950 border border-gold-900/80 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
                 <p
                   className={`text-sm ${
@@ -1488,7 +1488,7 @@ export function C7_PhysicsOhmsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to Interactive Exploration"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md transition-all whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md transition-all whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1505,7 +1505,7 @@ export function C7_PhysicsOhmsSim({
         <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs font-semibold text-indigo-400">
+              <span className="text-xs font-semibold text-gold-400">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">
@@ -1542,7 +1542,7 @@ export function C7_PhysicsOhmsSim({
                       />
                       <div className="flex justify-between w-full mt-3 text-xs text-slate-400 px-2">
                         <span>🔋 DC Source: {simVoltage} V</span>
-                        <span className="text-cyan-400 font-bold">⚡ Current: {simCurrent.toFixed(2)} A</span>
+                        <span className="text-gold-400 font-bold">⚡ Current: {simCurrent.toFixed(2)} A</span>
                         <span>🟨 Resistor: {simResistance} Ω</span>
                       </div>
                     </div>
@@ -1551,7 +1551,7 @@ export function C7_PhysicsOhmsSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Potential Difference (Voltage, V):</span>
-                          <span className="text-indigo-400">{simVoltage} Volts</span>
+                          <span className="text-gold-400">{simVoltage} Volts</span>
                         </div>
                         <input
                           type="range"
@@ -1560,7 +1560,7 @@ export function C7_PhysicsOhmsSim({
                           value={simVoltage}
                           onChange={e => setSimVoltage(Number(e.target.value))}
                           aria-label="Set Voltage slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1580,11 +1580,11 @@ export function C7_PhysicsOhmsSim({
                         />
                       </div>
 
-                      <div className="p-3 bg-slate-950 rounded-xl border border-indigo-900/60 text-xs space-y-1">
-                        <p className="text-indigo-300 font-bold">Ohm’s Law Formula: V = I × R</p>
+                      <div className="p-3 bg-slate-950 rounded-xl border border-gold-900/60 text-xs space-y-1">
+                        <p className="text-gold-300 font-bold">Ohm’s Law Formula: V = I × R</p>
                         <p className="text-slate-300">
                           Current I = V / R = {simVoltage} V / {simResistance} Ω ={' '}
-                          <strong className="text-cyan-400 text-sm font-extrabold">
+                          <strong className="text-gold-400 text-sm font-extrabold">
                             {simCurrent.toFixed(2)} A
                           </strong>
                         </p>
@@ -1598,7 +1598,7 @@ export function C7_PhysicsOhmsSim({
 
                   {/* PREDICT-THEN-CHECK ACCORDION */}
                   <div className="mt-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <p className="text-xs font-bold text-cyan-400 mb-2">🎯 Predict-Then-Check:</p>
+                    <p className="text-xs font-bold text-gold-400 mb-2">🎯 Predict-Then-Check:</p>
                     {!predictionMade ? (
                       <div>
                         <p className="text-sm font-medium text-slate-200 mb-3">
@@ -1689,7 +1689,7 @@ export function C7_PhysicsOhmsSim({
                     </div>
 
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1.5">
-                      <p className="text-cyan-400 font-bold">Right-Hand Thumb Rule:</p>
+                      <p className="text-gold-400 font-bold">Right-Hand Thumb Rule:</p>
                       <p className="text-slate-300">
                         1. Point your <strong>Right Thumb</strong> along current ({currentDirection === 'up' ? 'Upward' : 'Downward'}).
                       </p>
@@ -1718,7 +1718,7 @@ export function C7_PhysicsOhmsSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Output Resistance / Weight (Load):</span>
-                          <span className="text-cyan-400">{machineLoad} N</span>
+                          <span className="text-gold-400">{machineLoad} N</span>
                         </div>
                         <input
                           type="range"
@@ -1728,7 +1728,7 @@ export function C7_PhysicsOhmsSim({
                           value={machineLoad}
                           onChange={e => setMachineLoad(Number(e.target.value))}
                           aria-label="Set Machine Load slider"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1801,7 +1801,7 @@ export function C7_PhysicsOhmsSim({
                         aria-label={`Select Class ${cls} Lever`}
                         className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
                           leverClass === cls
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                             : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                         }`}
                       >
@@ -1897,7 +1897,7 @@ export function C7_PhysicsOhmsSim({
                     <div className="mt-3 p-3 bg-slate-900 rounded-lg text-xs flex justify-between items-center text-slate-300">
                       <span>
                         MA = Effort Arm / Load Arm = {leverEffortArm} / {leverLoadArm} ={' '}
-                        <strong className="text-cyan-400 font-extrabold">{leverMA.toFixed(2)}</strong>
+                        <strong className="text-gold-400 font-extrabold">{leverMA.toFixed(2)}</strong>
                       </span>
                       <span>
                         Required Effort for {leverAppliedLoad} N Load:{' '}
@@ -1965,7 +1965,7 @@ export function C7_PhysicsOhmsSim({
                           );
                         })()}
                       </svg>
-                      <p className="mt-2 text-xs font-bold text-cyan-300">{flotationState}</p>
+                      <p className="mt-2 text-xs font-bold text-gold-300">{flotationState}</p>
                     </div>
 
                     <div className="space-y-3 flex flex-col justify-center text-xs">
@@ -1989,7 +1989,7 @@ export function C7_PhysicsOhmsSim({
                       <div>
                         <div className="flex justify-between font-bold text-slate-300 mb-1">
                           <span>Outer Enclosed Volume:</span>
-                          <span className="text-indigo-400">{objectVolume} m³</span>
+                          <span className="text-gold-400">{objectVolume} m³</span>
                         </div>
                         <input
                           type="range"
@@ -1999,7 +1999,7 @@ export function C7_PhysicsOhmsSim({
                           value={objectVolume}
                           onChange={e => setObjectVolume(Number(e.target.value))}
                           aria-label="Set Object Volume slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -2009,7 +2009,7 @@ export function C7_PhysicsOhmsSim({
                         </p>
                         <p className="text-slate-300">
                           Relative Density (vs Water):{' '}
-                          <strong className="text-cyan-400">{relativeDensity.toFixed(2)}</strong>
+                          <strong className="text-gold-400">{relativeDensity.toFixed(2)}</strong>
                         </p>
                         <p className="text-slate-400">
                           Submerged Fraction:{' '}
@@ -2046,7 +2046,7 @@ export function C7_PhysicsOhmsSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
                 aria-label="Next Exploration Lab"
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md transition-all"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md transition-all"
               >
                 Next Lab →
               </motion.button>
@@ -2072,7 +2072,7 @@ export function C7_PhysicsOhmsSim({
         <motion.section initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h2 className="text-base font-bold text-indigo-300">🔬 Free Play Sandbox Mode</h2>
+              <h2 className="text-base font-bold text-gold-300">🔬 Free Play Sandbox Mode</h2>
               <p className="text-xs text-slate-400">
                 Explore any physics tool without penalty or test timers.
               </p>
@@ -2109,7 +2109,7 @@ export function C7_PhysicsOhmsSim({
                 aria-label={`Switch to ${tab.label}`}
                 className={`py-2 px-3.5 rounded-xl text-xs font-bold border transition-all ${
                   sandboxTab === tab.id
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                 }`}
               >
@@ -2131,7 +2131,7 @@ export function C7_PhysicsOhmsSim({
                     max={48}
                     value={simVoltage}
                     onChange={e => setSimVoltage(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                   <label className="text-slate-400">Resistance: {simResistance} Ω</label>
                   <input
@@ -2144,7 +2144,7 @@ export function C7_PhysicsOhmsSim({
                   />
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs flex flex-col justify-center space-y-2">
-                  <p className="text-slate-300 font-mono">Current: <span className="text-cyan-400 text-lg font-bold">{simCurrent.toFixed(2)} A</span></p>
+                  <p className="text-slate-300 font-mono">Current: <span className="text-gold-400 text-lg font-bold">{simCurrent.toFixed(2)} A</span></p>
                   <p className="text-slate-300 font-mono">Power: <span className="text-emerald-400 text-lg font-bold">{simPower.toFixed(2)} W</span></p>
                 </div>
               </div>
@@ -2199,7 +2199,7 @@ export function C7_PhysicsOhmsSim({
               <div className="space-y-2 text-xs">
                 <h3 className="font-bold text-white text-sm">Fluid Flotation Tester</h3>
                 <p className="text-slate-400">Density: {objectDensity.toFixed(1)} kg/m³ | Relative Density: {relativeDensity.toFixed(2)}</p>
-                <p className="text-cyan-400 font-bold">Status: {flotationState}</p>
+                <p className="text-gold-400 font-bold">Status: {flotationState}</p>
               </div>
             )}
           </div>
@@ -2218,12 +2218,12 @@ export function C7_PhysicsOhmsSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span>
-                Competency: <strong className="capitalize text-indigo-300">{activeChallenge.competencyLevel}</strong>
+                Competency: <strong className="capitalize text-gold-300">{activeChallenge.competencyLevel}</strong>
               </span>
             </div>
             <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-cyan-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
                 initial={{ width: 0 }}
                 animate={{
                   width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`
@@ -2243,7 +2243,7 @@ export function C7_PhysicsOhmsSim({
                 : 'bg-slate-900 border-slate-800'
             }`}
           >
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 block mb-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400 block mb-1">
               {activeChallenge.nodeId} • {activeChallenge.type}
             </span>
             <h3 className="text-base font-semibold text-white leading-relaxed mb-4">
@@ -2295,7 +2295,7 @@ export function C7_PhysicsOhmsSim({
                       whileTap={{ scale: 0.95 }}
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2329,7 +2329,7 @@ export function C7_PhysicsOhmsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Check Drag-Label Answer"
-                  className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Verify Placements ✓
                 </motion.button>
@@ -2363,7 +2363,7 @@ export function C7_PhysicsOhmsSim({
                       className="p-3 bg-slate-800 hover:bg-slate-750 text-slate-200 text-xs rounded-xl border border-slate-700 flex items-center justify-between cursor-grab active:cursor-grabbing"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong>
+                        <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong>
                         {activeChallenge.sortItems?.[itemIdx]}
                       </span>
                       <span className="text-slate-500 text-sm">☰</span>
@@ -2382,7 +2382,7 @@ export function C7_PhysicsOhmsSim({
                     )
                   }
                   aria-label="Submit Order"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Confirm Order ✓
                 </motion.button>
@@ -2400,7 +2400,7 @@ export function C7_PhysicsOhmsSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value..."
                     aria-label="Numeric answer input"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-60"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-60"
                   />
                   <span className="text-sm font-bold text-slate-400">
                     {activeChallenge.unit}
@@ -2411,7 +2411,7 @@ export function C7_PhysicsOhmsSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit Numeric Answer"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Check Answer
                   </motion.button>
@@ -2447,7 +2447,7 @@ export function C7_PhysicsOhmsSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-700 text-gold-200 rounded-lg text-xs font-bold flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2472,7 +2472,7 @@ export function C7_PhysicsOhmsSim({
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
                     aria-label="Validate Construction"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Validate Sequence ✓
                   </motion.button>
@@ -2493,10 +2493,10 @@ export function C7_PhysicsOhmsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3"
+                className="mt-5 p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Step-by-Step Physics Breakdown
                   </span>
                   <span className="text-xs text-slate-500">
@@ -2517,7 +2517,7 @@ export function C7_PhysicsOhmsSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs text-slate-300 leading-relaxed"
                       >
-                        <strong className="text-indigo-400 font-mono mr-1.5">{idx + 1}.</strong>
+                        <strong className="text-gold-400 font-mono mr-1.5">{idx + 1}.</strong>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2565,7 +2565,7 @@ export function C7_PhysicsOhmsSim({
       {/* ═════════════════════════════════════════════════════════════════ */}
       {phase === 'complete' && (
         <motion.section initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-emerald-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-700/60 text-center space-y-3">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Simulation Completed!</h2>
             
@@ -2577,7 +2577,7 @@ export function C7_PhysicsOhmsSim({
                 </span>
               )}
               {errors >= 1 && errors <= 3 && (
-                <span className="text-cyan-400 bg-cyan-950/80 px-4 py-1.5 rounded-full border border-cyan-500/60 shadow-lg">
+                <span className="text-gold-400 bg-gold-950/80 px-4 py-1.5 rounded-full border border-gold-500/60 shadow-lg">
                   👏 Great work!
                 </span>
               )}
@@ -2606,13 +2606,13 @@ export function C7_PhysicsOhmsSim({
               </div>
               <div className="p-3.5 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-500 block uppercase font-bold">BKT Mastery</span>
-                <strong className="text-xl text-cyan-400 font-extrabold capitalize">
+                <strong className="text-xl text-gold-400 font-extrabold capitalize">
                   {masteryLevel}
                 </strong>
               </div>
               <div className="p-3.5 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-500 block uppercase font-bold">Questions Cleared</span>
-                <strong className="text-xl text-indigo-400 font-extrabold">
+                <strong className="text-xl text-gold-400 font-extrabold">
                   {filteredChallenges.length}
                 </strong>
               </div>
@@ -2621,7 +2621,7 @@ export function C7_PhysicsOhmsSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Post-Simulation Reflection
             </h3>
             <p className="text-xs text-slate-400">
@@ -2639,7 +2639,7 @@ export function C7_PhysicsOhmsSim({
                   }
                   placeholder="e.g., How huge hollow ships float because effective density is lower than water..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2654,7 +2654,7 @@ export function C7_PhysicsOhmsSim({
                   }
                   placeholder="e.g., Levers and electromagnets act like physics multipliers that trade force or turn magnetism on/off..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2669,7 +2669,7 @@ export function C7_PhysicsOhmsSim({
                   }
                   placeholder="e.g., Choosing crowbars at construction sites, checking circuit resistors, or understanding submarine ballast tanks..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 placeholder-slate-500 text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2701,7 +2701,7 @@ export function C7_PhysicsOhmsSim({
 
           {/* REAL-WORLD CAPSTONE ACTIVITY */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
               🚢 {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">
@@ -2717,9 +2717,9 @@ export function C7_PhysicsOhmsSim({
           </div>
 
           {/* SPACED REPETITION SCHEDULE BANNER */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex items-center justify-between gap-4 text-xs">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex items-center justify-between gap-4 text-xs">
             <div>
-              <span className="font-bold text-indigo-300 block">
+              <span className="font-bold text-gold-300 block">
                 🧠 Spaced Repetition (SM-2 Interval):
               </span>
               <span className="text-slate-400">

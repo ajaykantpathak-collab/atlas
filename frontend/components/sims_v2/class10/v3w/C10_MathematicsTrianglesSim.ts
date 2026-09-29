@@ -11,7 +11,7 @@ export const w_c10_mathematicstrianglessim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Similar Figures vs Congruent Figures: Distinction',
     chapters: [],
     nodeIds: ['c10_math_cbse_06_001', 'c10_math_cbse_06_002', 'c10_math_cbse_06_003', 'c10_math_cbse_06_004', 'c10_math_cbse_06_005', 'c10_math_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you have two photographs of the Taj Mahal — one printed on a 10 cm × 15 cm postcard and another.', goal: 'Master Similar Figures vs Congruent Figures: Distinction.' },
     discovery: {
         question: 'Analyze the following statement: "If two triangles are similar, then their corresponding medians are in the same ratio as their corresponding sides." Is this.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicstrianglessim: SimDef = {
         hook: '**Misconception:** "If two figures have the same shape, they are congruent." Students often equate "same shape" with.',
     },
     teaching: [
-        { title: 'Two figures are **similar** if they have the.', text: 'Two figures are **similar** if they have the same shape but not necessarily the same size; corresponding angles are equal and corresponding sides are in proportion.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Two figures are **similar** if they have the.', text: 'Two figures are **similar** if they have the same shape but not necessarily the same size; corresponding angles are equal and corresponding sides are in proportion.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_06_001', title: 'Two figures are **similar** if they.',

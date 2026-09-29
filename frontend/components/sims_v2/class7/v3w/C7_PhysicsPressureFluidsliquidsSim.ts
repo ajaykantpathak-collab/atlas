@@ -11,11 +11,11 @@ export const w_c7_physicspressurefluidsliquidssim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Convection: Heat Transfer in Liquids and Gases',
     chapters: [],
     nodeIds: ['c7_physics_ch03_004', 'c7_physics_ch03_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Observe what happens when water is heated in a steel vessel on a kitchen stove: the water at the bottom gets.', goal: 'Master Convection: Heat Transfer in Liquids and Gases.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Convection is the transfer of heat energy.', text: 'Convection is the transfer of heat energy through the actual movement of fluid particles (liquids and gases) from a region of higher temperature to a region of lower temperature.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Convection is the transfer of heat energy.', text: 'Convection is the transfer of heat energy through the actual movement of fluid particles (liquids and gases) from a region of higher temperature to a region of lower temperature.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch03_004', title: 'Convection is the transfer of heat.',

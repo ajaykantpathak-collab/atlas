@@ -11,7 +11,7 @@ export const w_c10_geographyenergyresourcesconventionalsim: SimDef = {
     classLevel: 10, subject: 'geography', topic: 'Non-Conventional Energy: Solar, Wind and Tidal Energy',
     chapters: [],
     nodeIds: ['c10_geo_cbse_05_006', 'c10_geo_cbse_05_008', 'c10_geo_cbse_05_005', 'c10_geo_cbse_05_007', 'c10_geo_cbse_05_001', 'c10_geo_cbse_01_001', 'c10_geo_cbse_01_002', 'c10_geo_cbse_03_008', 'c10_geo_cbse_06_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Look at your own rooftop or a neighbour\'s house — you have likely seen blue-black rectangular panels angled.', goal: 'Master Non-Conventional Energy: Solar, Wind and Tidal Energy.' },
     discovery: {
         question: 'On an outline map of India, mark and label: (a) the state with the highest installed wind power capacity, (b) the mountain pass enabling wind funneling in that.',
@@ -20,7 +20,7 @@ export const w_c10_geographyenergyresourcesconventionalsim: SimDef = {
         hook: 'Students believe that "India has huge tidal energy potential because it has a 7,500 km coastline" — they confuse.',
     },
     teaching: [
-        { title: 'Non-conventional energy sources are.', text: 'Non-conventional energy sources are renewable, inexhaustible energy resources that do not deplete with use and cause minimal environmental pollution; in the Indian context, solar energy (harnessed.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Non-conventional energy sources are.', text: 'Non-conventional energy sources are renewable, inexhaustible energy resources that do not deplete with use and cause minimal environmental pollution; in the Indian context, solar energy (harnessed.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_geo_cbse_05_006', title: 'Non-conventional energy sources are.',

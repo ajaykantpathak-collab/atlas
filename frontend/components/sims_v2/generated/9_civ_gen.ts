@@ -139,7 +139,7 @@ export const C9_CIV_GEN: SimDef[] = [
      "The Roman Republic introduced representative government — citizens elected consuls, senators, and tribunes who governed on their behalf",
      "The FAA should uphold the refusal. Section 8(1)(j) exempts personal information unless larger public interest justifies disclosure"
     ],
-    "hint": "Straight from the 'Right to Information  Act' slide -- match the key terms.",
+    "hint": "Straight from the 'Right to Information Act' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The FAA should uphold the refusal. Section 8(1)(j) exempts personal information unless larger public interest justifies",
     "id": "gen_c9_civ_ch01_q4",
     "nodeId": "c9_civ_ch1_12",
@@ -160,7 +160,7 @@ export const C9_CIV_GEN: SimDef[] = [
      "The FAA should uphold the refusal. Section 8(1)(j) exempts personal information unless larger public interest justifies disclosure",
      "No, this is misuse. Civic responsibility under RTI means seeking information that advances public accountability — exposing corruption, policy failures, or rights violations"
     ],
-    "hint": "Straight from the 'Right to Information  Act' slide -- match the key terms.",
+    "hint": "Straight from the 'Right to Information Act' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, this is misuse. Civic responsibility under RTI means seeking information that advances public accountability —",
     "id": "gen_c9_civ_ch01_q5",
     "nodeId": "c9_civ_ch1_12",
@@ -764,7 +764,7 @@ export const C9_CIV_GEN: SimDef[] = [
      "(i) National Party → same reserved symbol (e.g., Lotus) in every constituency nationwide. (ii) State Party outside its State → free symbol from the pool",
      "The EVM-VVPAT system provides a stronger guarantee against voter intimidation because the voter's choice is recorded electronically inside a sealed machine"
     ],
-    "hint": "Straight from the 'Free and fair elections refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Free and fair elections' slide -- match the key terms.",
     "misconception": "A wrong answer that claims ballot papers are more secret because they are 'physical' reveals a lack of understanding of how booth capturing and forced display of ballot papers historically undermined secrecy.",
     "id": "gen_c9_civ_ch02_q18",
     "nodeId": "c9_civ_ch2_7",

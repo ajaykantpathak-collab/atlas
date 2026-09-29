@@ -333,7 +333,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Comparing Fractions with LCM 📊",
     text: "To compare fractions with different denominators, find the LCM of the denominators and convert each fraction to an equivalent fraction with that common denominator. Then compare numerators! 1/2, 2/3, 3/4 → LCM of 2,3,4 = 12 → 6/12, 8/12, 9/12.",
     emoji: "📊",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "To compare fractions with different denominators, find the LCM and convert to equivalent fractions with a common denominator. Then compare numerators!"
   },
   {
@@ -354,7 +354,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Dividing Fractions — Reciprocal Method ➗",
     text: "To divide by a fraction, multiply by its reciprocal (flip it upside down). 1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2. This means 'how many 1/4 pieces fit into 1/2?' The answer is 2!",
     emoji: "➗",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "To divide by a fraction, multiply by its reciprocal. Flip the divisor upside down and multiply. This tells you how many pieces of the divisor fit into the dividend!"
   },
 ];

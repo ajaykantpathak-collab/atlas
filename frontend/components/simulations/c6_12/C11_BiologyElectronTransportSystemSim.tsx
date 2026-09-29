@@ -1204,11 +1204,11 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
       {/* ─── DISCOVERY PHASE ─────────────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-900/50 shadow-xl">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Expedition Briefing</span>
-            <h2 className="text-2xl font-black text-indigo-200 mt-1">{SCENARIO.title}</h2>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-900/50 shadow-xl">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Expedition Briefing</span>
+            <h2 className="text-2xl font-black text-gold-200 mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-3 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 font-mono">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 font-mono">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-lg">
@@ -1241,11 +1241,11 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                         ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                         : discoveryAnswered && !discoveryCorrect
                         ? 'bg-slate-800/50 border-slate-700 text-slate-400 opacity-60'
-                        : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <div>
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </div>
                     {discoveryAnswered && (
@@ -1322,10 +1322,10 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
               {currentSlide === 0 && (
                 <div className="space-y-4">
                   {/* PREDICT-THEN-CHECK CARD #1 */}
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="px-2 py-0.5 rounded bg-indigo-800 text-indigo-200 text-[10px] font-bold uppercase tracking-wider">Predict & Check</span>
-                      <span className="text-xs text-indigo-300 font-semibold">Brilliant Intuition Prompt</span>
+                      <span className="px-2 py-0.5 rounded bg-gold-800 text-gold-200 text-[10px] font-bold uppercase tracking-wider">Predict & Check</span>
+                      <span className="text-xs text-gold-300 font-semibold">Brilliant Intuition Prompt</span>
                     </div>
                     <p className="text-xs md:text-sm text-slate-200 font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1344,17 +1344,17 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                                 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                                 : isRevealed && isChosen && !isCorrect
                                 ? 'bg-rose-950/80 border-rose-500 text-rose-200'
-                                : 'bg-slate-900/80 border-slate-700 hover:border-indigo-400 text-slate-300'
+                                : 'bg-slate-900/80 border-slate-700 hover:border-gold-400 text-slate-300'
                             }`}
                           >
-                            <span className="font-bold mr-1.5 text-indigo-400">{String.fromCharCode(65 + optIdx)}.</span>
+                            <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + optIdx)}.</span>
                             {opt}
                           </button>
                         );
                       })}
                     </div>
                     {predictionRevealed[PREDICTION_QUESTIONS[0].id] && (
-                      <div className="p-3 bg-slate-950/90 rounded-lg border border-indigo-900/60 text-xs text-indigo-200 space-y-1">
+                      <div className="p-3 bg-slate-950/90 rounded-lg border border-gold-900/60 text-xs text-gold-200 space-y-1">
                         <p className="font-bold text-emerald-400">🔍 How to verify below:</p>
                         <p>{PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                       </div>
@@ -1380,7 +1380,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Terminal [O₂] Concentration:</span>
-                        <span className="text-cyan-400 font-mono">{o2Level}%</span>
+                        <span className="text-gold-400 font-mono">{o2Level}%</span>
                       </div>
                       <input
                         type="range"
@@ -1389,7 +1389,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                         max="100"
                         value={o2Level}
                         onChange={(e) => setO2Level(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="flex items-center justify-between">
@@ -1487,7 +1487,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                       </div>
                       <div className="text-center">
                         <span className="text-slate-400">Electron State:</span>
-                        <p className={`font-bold ${complexIVBlocked ? 'text-rose-400' : 'text-cyan-400'}`}>
+                        <p className={`font-bold ${complexIVBlocked ? 'text-rose-400' : 'text-gold-400'}`}>
                           {complexIVBlocked ? 'Stalled / Chain Reduced' : 'Continuous Flow to O₂'}
                         </p>
                       </div>
@@ -1687,10 +1687,10 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
               {currentSlide === 3 && (
                 <div className="space-y-4">
                   {/* PREDICT-THEN-CHECK CARD #2 */}
-                  <div className="p-4 bg-cyan-950/40 rounded-xl border border-cyan-800/60 space-y-3">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="px-2 py-0.5 rounded bg-cyan-800 text-cyan-200 text-[10px] font-bold uppercase tracking-wider">Predict & Check</span>
-                      <span className="text-xs text-cyan-300 font-semibold">High-Altitude Respiratory Dynamic</span>
+                      <span className="px-2 py-0.5 rounded bg-gold-800 text-gold-200 text-[10px] font-bold uppercase tracking-wider">Predict & Check</span>
+                      <span className="text-xs text-gold-300 font-semibold">High-Altitude Respiratory Dynamic</span>
                     </div>
                     <p className="text-xs md:text-sm text-slate-200 font-medium">{PREDICTION_QUESTIONS[1].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1709,17 +1709,17 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                                 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                                 : isRevealed && isChosen && !isCorrect
                                 ? 'bg-rose-950/80 border-rose-500 text-rose-200'
-                                : 'bg-slate-900/80 border-slate-700 hover:border-cyan-400 text-slate-300'
+                                : 'bg-slate-900/80 border-slate-700 hover:border-gold-400 text-slate-300'
                             }`}
                           >
-                            <span className="font-bold mr-1.5 text-cyan-400">{String.fromCharCode(65 + optIdx)}.</span>
+                            <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + optIdx)}.</span>
                             {opt}
                           </button>
                         );
                       })}
                     </div>
                     {predictionRevealed[PREDICTION_QUESTIONS[1].id] && (
-                      <div className="p-3 bg-slate-950/90 rounded-lg border border-cyan-900/60 text-xs text-cyan-200 space-y-1">
+                      <div className="p-3 bg-slate-950/90 rounded-lg border border-gold-900/60 text-xs text-gold-200 space-y-1">
                         <p className="font-bold text-emerald-400">🔍 How to verify below:</p>
                         <p>{PREDICTION_QUESTIONS[1].verifyInstruction}</p>
                       </div>
@@ -1730,7 +1730,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Altitude (m above sea level):</span>
-                        <span className="text-cyan-400 font-mono">{altitudeMeters}m (Leh: 3500m)</span>
+                        <span className="text-gold-400 font-mono">{altitudeMeters}m (Leh: 3500m)</span>
                       </div>
                       <input
                         type="range"
@@ -1740,7 +1740,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                         step="100"
                         value={altitudeMeters}
                         onChange={(e) => setAltitudeMeters(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1763,10 +1763,10 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Alveolar Capillary Gradient</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Alveolar Capillary Gradient</span>
                       <div className="flex justify-between text-sm pt-2">
                         <span className="text-slate-400">Alveolar pO₂:</span>
-                        <span className="font-mono font-bold text-cyan-300">{alveolarPO2} mmHg</span>
+                        <span className="font-mono font-bold text-gold-300">{alveolarPO2} mmHg</span>
                       </div>
                       <div className="flex justify-between text-sm">
                         <span className="text-slate-400">Arterial Hb Saturation:</span>
@@ -1774,7 +1774,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                       </div>
                       <div className="h-2 bg-slate-800 rounded-full overflow-hidden mt-2">
                         <motion.div
-                          className="h-full bg-gradient-to-r from-cyan-500 to-emerald-500"
+                          className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
                           animate={{ width: `${arterialSaturation}%` }}
                         />
                       </div>
@@ -1949,7 +1949,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-bold text-xs shadow-lg"
+                className="px-6 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-xs shadow-lg"
               >
                 Open Free Sandbox Mode →
               </motion.button>
@@ -1963,7 +1963,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
             <div>
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Free Exploration Sandbox</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Free Exploration Sandbox</span>
               <h3 className="text-lg font-bold text-white">Full Physiological Variable Control</h3>
               <p className="text-xs text-slate-400 mt-1">Manipulate and observe live coupled bioenergetic responses with zero test pressure.</p>
             </div>
@@ -2005,7 +2005,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800/80">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">Alveolar pO₂</span>
-                <p className="text-xl font-mono font-black text-cyan-400">{alveolarPO2} mmHg</p>
+                <p className="text-xl font-mono font-black text-gold-400">{alveolarPO2} mmHg</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800/80">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">Proton Motive Gradient</span>
@@ -2030,7 +2030,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
 
             <div className="flex items-center gap-2">
               <span className="text-xs text-slate-400">Target Competency:</span>
-              <span className="text-xs px-2.5 py-1 rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 font-bold uppercase">
+              <span className="text-xs px-2.5 py-1 rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-bold uppercase">
                 {activeChallenge.competencyLevel}
               </span>
               <motion.span
@@ -2042,7 +2042,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                    : 'bg-cyan-950 text-cyan-400 border border-cyan-700'
+                    : 'bg-gold-950 text-gold-400 border border-gold-700'
                 }`}
               >
                 {difficulty}
@@ -2053,7 +2053,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length} aria-label="Challenge progress">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2126,7 +2126,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2148,7 +2148,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                         className="p-4 rounded-xl bg-slate-950 border-2 border-dashed border-slate-700 flex flex-col justify-center items-center min-h-[70px]"
                       >
                         <span className="text-[10px] text-slate-400 font-mono mb-1">Position #{index + 1}</span>
-                        <span className="text-xs font-bold text-cyan-300 flex items-center gap-1.5">
+                        <span className="text-xs font-bold text-gold-300 flex items-center gap-1.5">
                           {droppedLabels[slotId] || 'Drop Complex / Shuttle Here'}
                           {isFilled && (
                             <span aria-hidden="true">{isSlotCorrect ? '✓' : '✗'}</span>
@@ -2164,7 +2164,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Electron Sequence
                 </motion.button>
@@ -2196,7 +2196,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <span className="font-bold text-cyan-400 mr-2">{displayIdx + 1}.</span> {item}
+                        <span className="font-bold text-gold-400 mr-2">{displayIdx + 1}.</span> {item}
                       </span>
                       <span className="text-slate-500 text-xs">☰ Drag to Reorder</span>
                     </motion.div>
@@ -2254,7 +2254,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-700 text-gold-200 rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2357,19 +2357,19 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
             </div>
             <h2 className="text-2xl md:text-3xl font-black text-white">ISC Biology Mastery Attained!</h2>
             <p className="text-sm text-slate-300">
-              Final Accuracy Score: <span className="font-mono font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span> | Errors: <span className="font-mono font-bold text-amber-400">{errors}</span> | BKT Tier: <span className="uppercase text-cyan-400 font-bold">{masteryLevel}</span>
+              Final Accuracy Score: <span className="font-mono font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span> | Errors: <span className="font-mono font-bold text-amber-400">{errors}</span> | BKT Tier: <span className="uppercase text-gold-400 font-bold">{masteryLevel}</span>
             </p>
           </div>
 
           {/* Spaced Repetition (SRS) Scheduled Visibility Box */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-700/70 shadow-lg flex flex-wrap items-center justify-between gap-4">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-700/70 shadow-lg flex flex-wrap items-center justify-between gap-4">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <span className="text-base" aria-hidden="true">📅</span>
-                <span className="text-xs font-bold text-indigo-300 uppercase tracking-widest">Spaced Repetition Schedule (SRS)</span>
+                <span className="text-xs font-bold text-gold-300 uppercase tracking-widest">Spaced Repetition Schedule (SRS)</span>
               </div>
               <p className="text-sm text-slate-200">
-                Optimal Retention Interval: <span className="font-bold text-cyan-300">Review in {srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}</span>
+                Optimal Retention Interval: <span className="font-bold text-gold-300">Review in {srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}</span>
               </p>
               <p className="text-xs text-slate-400">
                 {errors === 0
@@ -2379,8 +2379,8 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                   : '✓ Reinforcement recommended. Daily retrieval will solidify synaptic plasticity.'}
               </p>
             </div>
-            <div className="px-4 py-2 bg-indigo-900/80 border border-indigo-500 rounded-xl text-center">
-              <span className="text-[10px] text-indigo-300 uppercase font-mono">Next Session</span>
+            <div className="px-4 py-2 bg-gold-900/80 border border-gold-500 rounded-xl text-center">
+              <span className="text-[10px] text-gold-300 uppercase font-mono">Next Session</span>
               <p className="text-base font-extrabold text-white">In {srsIntervalDays} {srsIntervalDays === 1 ? 'Day' : 'Days'}</p>
             </div>
           </div>
@@ -2410,7 +2410,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-semibold text-cyan-300 block">
+                <label className="text-xs font-semibold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2418,12 +2418,12 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Think of mitochondria like a battery charging factory and the heart as a synchronized double-action pump..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-cyan-500 focus:outline-none min-h-[60px]"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none min-h-[60px]"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-semibold text-indigo-300 block">
+                <label className="text-xs font-semibold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2431,7 +2431,7 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. High-altitude trekking protocols in Ladakh, blood bank transfusion compatibility, agricultural ripening..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none min-h-[60px]"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none min-h-[60px]"
                 />
               </div>
             </div>
@@ -2458,12 +2458,12 @@ export function C11_BiologyElectronTransportSystemSim(props: Props = DEFAULT_PRO
 
           {/* Real World Application Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">{REAL_WORLD_ACTIVITY.title}</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">{REAL_WORLD_ACTIVITY.title}</span>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="font-mono font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-mono font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

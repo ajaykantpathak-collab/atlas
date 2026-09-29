@@ -11,7 +11,7 @@ export const w_c11_economicsayurvedahealthsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Sustainable Development in India: Policies and Programmes',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_010', 'c11_eco_cbse_07_003', 'c11_eco_cbse_07_004', 'c11_eco_cbse_07_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a policy advisor in 1998 Delhi, where the Supreme Court has just mandated conversion of all.', goal: 'Master Sustainable Development in India: Policies and Programmes.' },
     discovery: {
         question: 'Name the three specific clean fuel programmes for rural and urban households mentioned in the NCERT Class 11 textbook as strategies for sustainable development.',
@@ -20,7 +20,7 @@ export const w_c11_economicsayurvedahealthsim: SimDef = {
         hook: 'Students believe "sustainable development policies in India" are only about environmental protection (planting trees,.',
     },
     teaching: [
-        { title: 'Sustainable Development Policies and.', text: 'Sustainable Development Policies and Programmes in India refer to the specific government interventions, regulatory frameworks, and promotional schemes designed to achieve the Brundtland goal of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Sustainable Development Policies and.', text: 'Sustainable Development Policies and Programmes in India refer to the specific government interventions, regulatory frameworks, and promotional schemes designed to achieve the Brundtland goal of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_07_010', title: 'Sustainable Development Policies and.',

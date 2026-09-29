@@ -48,9 +48,9 @@ export function C12_BiologyEnvironmentalIssuesSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700 font-mono">DO</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">DO</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 12 -- Environmental Issues</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Environmental Issues</span>
           <h1 className="text-xl md:text-2xl font-extrabold">The Oxygen Sag: A River Digesting Sewage</h1>
         </div>
       </div>
@@ -83,7 +83,7 @@ export function C12_BiologyEnvironmentalIssuesSim() {
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-3 gap-2">
             <div><span className="text-slate-500">Minimum DO</span><div className={`font-bold text-sm ${fishSafe ? 'text-emerald-300' : 'text-rose-400'}`}>{doMin.toFixed(2)} mg/L</div></div>
             <div><span className="text-slate-500">Aquatic verdict</span><div className={`font-bold text-sm ${fishSafe ? 'text-emerald-300' : 'text-rose-400'}`}>{fishSafe ? 'fish survive' : 'fish kill likely'}</div></div>
-            <div><span className="text-slate-500">Clean-zone species return</span><div className="text-sky-300 font-bold text-sm">{recoveryKm !== null ? `after ${recoveryKm.toFixed(0)} km` : 'beyond 400 km'}</div></div>
+            <div><span className="text-slate-500">Clean-zone species return</span><div className="text-gold-300 font-bold text-sm">{recoveryKm !== null ? `after ${recoveryKm.toFixed(0)} km` : 'beyond 400 km'}</div></div>
           </div>
         </div>
 
@@ -98,10 +98,10 @@ export function C12_BiologyEnvironmentalIssuesSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Reaeration rate k2 (turbulence)</span><span className="font-mono font-bold text-sky-400">{k2.toFixed(2)} /day</span>
+                <span>Reaeration rate k2 (turbulence)</span><span className="font-mono font-bold text-gold-400">{k2.toFixed(2)} /day</span>
               </div>
               <input type="range" min={0.1} max={0.9} step={0.01} value={k2} aria-label="Reaeration rate"
-                onChange={(e) => setK2(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setK2(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -118,8 +118,8 @@ export function C12_BiologyEnvironmentalIssuesSim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-sky-300 font-bold">Two competing rates (Streeter-Phelps)</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Two competing rates (Streeter-Phelps)</div>
             <div className="text-slate-400">microbes consume O2 at k1 x BOD = {(K1 * bod).toFixed(1)} mg/L/day</div>
             <div className="text-slate-400">surface re-aerates water at k2 x deficit</div>
             <div className="text-slate-500">sag bottom = where consumption just stops beating re-aeration</div>
@@ -136,8 +136,8 @@ export function C12_BiologyEnvironmentalIssuesSim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Keep the load but raise flow speed from 8 to 60 km/day: does the MINIMUM DO change, or only the distance where it happens? Why?</p>
             <p>2. Using raw sewage settings, find the k2 (how much turbulence) needed to keep fish alive -- what engineering device mimics this?</p>
           </div>

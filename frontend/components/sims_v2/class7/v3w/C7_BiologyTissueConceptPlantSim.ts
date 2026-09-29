@@ -11,7 +11,7 @@ export const w_c7_biologytissueconceptplantsim: SimDef = {
     classLevel: 7, subject: 'biology', topic: 'Transport in Plants: Xylem and Water Movement',
     chapters: [],
     nodeIds: ['c7_bio_ch03_008', 'c7_bio_ch03_009', 'c7_bio_ch03_003', 'c7_bio_ch01_009', 'c7_bio_ch01_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you water a potted hibiscus plant in your school courtyard, the dry soil becomes moist, and within a few.', goal: 'Master Transport in Plants: Xylem and Water Movement.' },
     discovery: {
         question: 'What is the primary substance transported upward through the xylem tissue in plants?',
@@ -20,7 +20,7 @@ export const w_c7_biologytissueconceptplantsim: SimDef = {
         hook: 'Students often think that water is "pumped" upward by the roots like a mechanical water pump pushing water into an.',
     },
     teaching: [
-        { title: 'Xylem is a specialized, tube-like vascular.', text: 'Xylem is a specialized, tube-like vascular tissue in plants that transports water and dissolved minerals upward from the roots to the stem, leaves, and other aerial parts.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Xylem is a specialized, tube-like vascular.', text: 'Xylem is a specialized, tube-like vascular tissue in plants that transports water and dissolved minerals upward from the roots to the stem, leaves, and other aerial parts.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_bio_ch03_008', title: 'Xylem is a specialized, tube-like.',

@@ -1096,7 +1096,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between border-b border-slate-800 pb-4 mb-6">
         <div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-amber-300 to-emerald-400">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-amber-300 to-emerald-400">
             CBSE Class 7 Physics: Light, Shadows & Reflections
           </h1>
           <p className="text-sm text-slate-400 mt-1">{SCENARIO.title}</p>
@@ -1113,7 +1113,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
               }}
               className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all ${
                 activeTab === tab
-                  ? 'bg-sky-500 text-slate-950 shadow-lg shadow-sky-500/30'
+                  ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                   : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
@@ -1135,8 +1135,8 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
         {/* ─── MODE 1: DISCOVERY QUESTION ─── */}
         {activeTab === 'discovery' && (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-            <div className="bg-sky-950/40 border border-sky-800/50 p-6 rounded-xl">
-              <span className="text-xs font-bold text-sky-400 tracking-wider uppercase">Predict Before You Learn</span>
+            <div className="bg-gold-950/40 border border-gold-800/50 p-6 rounded-xl">
+              <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">Predict Before You Learn</span>
               <h2 className="text-xl font-bold text-slate-100 mt-2">{DISCOVERY_QUESTION.question}</h2>
               <p className="text-sm text-slate-400 mt-1">{DISCOVERY_QUESTION.hintAfter}</p>
             </div>
@@ -1165,7 +1165,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
 
             {discoveryAnswered && (
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-800 rounded-xl border border-slate-700 flex justify-between items-center">
-                <p className="text-sm text-sky-300">
+                <p className="text-sm text-gold-300">
                   {discoverySelected === DISCOVERY_QUESTION.correctIndex
                     ? 'Correct! Light reflection is essential for human sight.'
                     : 'Remember: Sight requires light rays bouncing off an object into your eye!'}
@@ -1175,7 +1175,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                     setActiveTab('teach');
                     triggerAudio('swoop');
                   }}
-                  className="px-5 py-2 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold rounded-lg shadow-md"
+                  className="px-5 py-2 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-lg shadow-md"
                 >
                   Start Guided Lessons →
                 </button>
@@ -1208,7 +1208,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                     setSlideIndex((p) => p + 1);
                     triggerAudio('tap');
                   }}
-                  className="px-3 py-1 bg-sky-600 hover:bg-sky-500 disabled:opacity-40 rounded text-sm font-semibold"
+                  className="px-3 py-1 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 rounded text-sm font-semibold"
                 >
                   Next
                 </button>
@@ -1221,12 +1221,12 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
               return (
                 <div className="bg-slate-800/40 border border-slate-700 p-6 rounded-xl space-y-4">
                   <h2 className="text-2xl font-bold text-amber-400">{slide.title}</h2>
-                  <h3 className="text-md font-semibold text-sky-300">{slide.subtitle}</h3>
+                  <h3 className="text-md font-semibold text-gold-300">{slide.subtitle}</h3>
 
                   <ul className="space-y-3">
                     {slide.content.map((point, i) => (
                       <li key={i} className="flex items-start gap-3 text-slate-300 text-sm">
-                        <span className="text-sky-400 font-bold">•</span>
+                        <span className="text-gold-400 font-bold">•</span>
                         <span>{point}</span>
                       </li>
                     ))}
@@ -1238,8 +1238,8 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                     </div>
                   )}
 
-                  <div className="p-3 bg-sky-950/50 border border-sky-800/40 rounded-lg text-xs text-sky-200">
-                    <strong className="text-sky-400">Core Takeaway: </strong> {slide.conceptSummary}
+                  <div className="p-3 bg-gold-950/50 border border-gold-800/40 rounded-lg text-xs text-gold-200">
+                    <strong className="text-gold-400">Core Takeaway: </strong> {slide.conceptSummary}
                   </div>
                 </div>
               );
@@ -1299,7 +1299,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Object Distance ($u$):</span>
-                      <span className="font-mono text-sky-400">{pinholeObjDist} cm</span>
+                      <span className="font-mono text-gold-400">{pinholeObjDist} cm</span>
                     </label>
                     <input
                       type="range"
@@ -1307,14 +1307,14 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       max={500}
                       value={pinholeObjDist}
                       onChange={(e) => setPinholeObjDist(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Box Depth / Screen Dist ($v$):</span>
-                      <span className="font-mono text-sky-400">{pinholeScreenDist} cm</span>
+                      <span className="font-mono text-gold-400">{pinholeScreenDist} cm</span>
                     </label>
                     <input
                       type="range"
@@ -1322,14 +1322,14 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       max={40}
                       value={pinholeScreenDist}
                       onChange={(e) => setPinholeScreenDist(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Pinhole Diameter:</span>
-                      <span className="font-mono text-sky-400">{pinholeAperture} mm</span>
+                      <span className="font-mono text-gold-400">{pinholeAperture} mm</span>
                     </label>
                     <input
                       type="range"
@@ -1338,7 +1338,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       step={0.5}
                       value={pinholeAperture}
                       onChange={(e) => setPinholeAperture(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
@@ -1406,7 +1406,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Obstacle Distance:</span>
-                      <span className="font-mono text-sky-400">{obstacleDistance} cm</span>
+                      <span className="font-mono text-gold-400">{obstacleDistance} cm</span>
                     </label>
                     <input
                       type="range"
@@ -1414,14 +1414,14 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       max={100}
                       value={obstacleDistance}
                       onChange={(e) => setObstacleDistance(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Screen Distance:</span>
-                      <span className="font-mono text-sky-400">{screenDistanceShadow} cm</span>
+                      <span className="font-mono text-gold-400">{screenDistanceShadow} cm</span>
                     </label>
                     <input
                       type="range"
@@ -1429,7 +1429,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       max={220}
                       value={screenDistanceShadow}
                       onChange={(e) => setScreenDistanceShadow(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                 </div>
@@ -1466,7 +1466,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       id="normCheck"
                       checked={showNormal}
                       onChange={(e) => setShowNormal(e.target.checked)}
-                      className="accent-sky-400"
+                      className="accent-gold-400"
                     />
                     <label htmlFor="normCheck" className="text-xs text-slate-300">
                       Display Normal Line ($90^\circ$)
@@ -1479,7 +1479,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       id="virtCheck"
                       checked={showVirtualImage}
                       onChange={(e) => setShowVirtualImage(e.target.checked)}
-                      className="accent-sky-400"
+                      className="accent-gold-400"
                     />
                     <label htmlFor="virtCheck" className="text-xs text-slate-300">
                       Display Plane Mirror Virtual Image
@@ -1506,7 +1506,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Top Mirror Angle:</span>
-                      <span className="font-mono text-sky-400">{mirror1Angle}°</span>
+                      <span className="font-mono text-gold-400">{mirror1Angle}°</span>
                     </label>
                     <input
                       type="range"
@@ -1514,14 +1514,14 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       max={90}
                       value={mirror1Angle}
                       onChange={(e) => setMirror1Angle(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
                       <span>Bottom Mirror Angle:</span>
-                      <span className="font-mono text-sky-400">{mirror2Angle}°</span>
+                      <span className="font-mono text-gold-400">{mirror2Angle}°</span>
                     </label>
                     <input
                       type="range"
@@ -1529,7 +1529,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       max={90}
                       value={mirror2Angle}
                       onChange={(e) => setMirror2Angle(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
@@ -1539,7 +1539,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                       setMirror2Angle(45);
                       triggerAudio('chime');
                     }}
-                    className="w-full py-2 bg-sky-600 hover:bg-sky-500 text-xs font-bold rounded-lg text-slate-950"
+                    className="w-full py-2 bg-gold-600 hover:bg-gold-500 text-xs font-bold rounded-lg text-slate-950"
                   >
                     Auto-Align Mirrors to 45°
                   </button>
@@ -1556,7 +1556,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
             <div className="flex justify-between items-center bg-slate-800/60 p-4 rounded-xl border border-slate-700">
               <div>
                 <span className="text-xs text-slate-400 uppercase tracking-wider">Challenge</span>
-                <h3 className="text-lg font-bold text-sky-400">
+                <h3 className="text-lg font-bold text-gold-400">
                   {challengeIndex + 1} of {CHALLENGES.length}
                 </h3>
               </div>
@@ -1586,7 +1586,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                           onClick={() => setUserSelectedOption(i)}
                           className={`p-3.5 rounded-xl text-left text-sm font-medium border transition-all ${
                             userSelectedOption === i
-                              ? 'bg-sky-950 border-sky-400 text-sky-200'
+                              ? 'bg-gold-950 border-gold-400 text-gold-200'
                               : 'bg-slate-900/80 border-slate-700 text-slate-300 hover:bg-slate-800'
                           }`}
                         >
@@ -1604,7 +1604,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                         placeholder="Enter numerical answer"
                         value={userNumericInput}
                         onChange={(e) => setUserNumericInput(e.target.value)}
-                        className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 font-mono text-lg focus:outline-none focus:border-sky-400 w-full sm:w-64"
+                        className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 font-mono text-lg focus:outline-none focus:border-gold-400 w-full sm:w-64"
                       />
                       <span className="text-slate-400 font-bold text-sm">{curCh.unit || ''}</span>
                     </div>
@@ -1674,7 +1674,7 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                     ) : (
                       <button
                         onClick={nextChallenge}
-                        className="px-6 py-2.5 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold rounded-xl shadow-lg"
+                        className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl shadow-lg"
                       >
                         {challengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'View Mission Summary'}
                       </button>
@@ -1722,9 +1722,9 @@ export default function C7_PhysicsLightShadowsReflectionsCBSESim() {
                     <span className="text-[10px] text-slate-400 uppercase font-mono">Node #{idx + 1}</span>
                     <div className="text-xs font-bold text-slate-200 truncate">{nodeId}</div>
                     <div className="w-full bg-slate-900 h-2 rounded-full mt-2 overflow-hidden">
-                      <div className="bg-sky-400 h-full transition-all" style={{ width: `${masteryPct}%` }} />
+                      <div className="bg-gold-400 h-full transition-all" style={{ width: `${masteryPct}%` }} />
                     </div>
-                    <span className="text-[10px] text-sky-300 font-mono mt-1 block">{masteryPct}% Mastery</span>
+                    <span className="text-[10px] text-gold-300 font-mono mt-1 block">{masteryPct}% Mastery</span>
                   </div>
                 );
               })}

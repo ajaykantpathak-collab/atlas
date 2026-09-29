@@ -988,10 +988,10 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
     <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans">
       {/* HEADER SECTION */}
       <header className="max-w-6xl mx-auto mb-8 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 relative z-10">
           <div>
-            <div className="flex items-center gap-2 text-xs font-bold tracking-widest text-sky-400 uppercase mb-2">
+            <div className="flex items-center gap-2 text-xs font-bold tracking-widest text-gold-400 uppercase mb-2">
               <span>ISC Class 11 Chemistry</span>
               <span>•</span>
               <span>Chapter 2: Subatomic Structure</span>
@@ -1020,7 +1020,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                 }}
                 className={`px-4 py-2 rounded-lg font-semibold text-xs transition-all duration-200 ${
                   activeTab === tab.id
-                    ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/30'
+                    ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/30'
                     : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
                 }`}
               >
@@ -1052,7 +1052,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
 
             {/* DISCOVERY QUESTION CARD */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-              <h3 className="text-lg font-bold text-sky-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>💡 Discovery Challenge</span>
               </h3>
               <p className="text-slate-200 text-base mb-6 font-medium">{DISCOVERY_QUESTION.question}</p>
@@ -1068,7 +1068,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                     disabled={discoverySubmitted}
                     className={`w-full text-left p-4 rounded-xl border transition-all duration-200 flex items-start gap-3 ${
                       selectedDiscoveryOption === idx
-                        ? 'bg-sky-500/10 border-sky-500 text-sky-200'
+                        ? 'bg-gold-500/10 border-gold-500 text-gold-200'
                         : 'bg-slate-800/50 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1084,13 +1084,13 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={selectedDiscoveryOption === null}
-                  className="w-full py-3 bg-sky-500 hover:bg-sky-400 disabled:opacity-50 text-white font-bold rounded-xl transition-all shadow-lg shadow-sky-500/20"
+                  className="w-full py-3 bg-gold-500 hover:bg-gold-400 disabled:opacity-50 text-white font-bold rounded-xl transition-all shadow-lg shadow-gold-500/20"
                 >
                   Confirm Discovery Intuition
                 </button>
               ) : (
-                <div className="p-4 bg-sky-950/60 border border-sky-800 rounded-xl">
-                  <p className="text-sky-300 text-sm font-semibold mb-1">Historical Context:</p>
+                <div className="p-4 bg-gold-950/60 border border-gold-800 rounded-xl">
+                  <p className="text-gold-300 text-sm font-semibold mb-1">Historical Context:</p>
                   <p className="text-slate-300 text-xs leading-relaxed">{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1150,11 +1150,11 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                   }}
                   className={`px-4 py-3 rounded-xl border text-left shrink-0 transition-all ${
                     activeLabIndex === index
-                      ? 'bg-sky-500/20 border-sky-500 text-sky-200 shadow-md'
+                      ? 'bg-gold-500/20 border-gold-500 text-gold-200 shadow-md'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <div className="text-xs font-bold uppercase tracking-wider text-sky-400 mb-1">
+                  <div className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-1">
                     Lab Step {index + 1}
                   </div>
                   <div className="text-sm font-semibold">{lab.title}</div>
@@ -1181,7 +1181,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Anode Accelerator Potential (V)</span>
-                        <span className="font-mono text-sky-400">{voltage} kV</span>
+                        <span className="font-mono text-gold-400">{voltage} kV</span>
                       </div>
                       <input
                         type="range"
@@ -1189,7 +1189,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                         max="25"
                         value={voltage}
                         onChange={e => setVoltage(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1232,7 +1232,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                         {mField > 0 ? `${((eField * 1e3) / (mField * 1e-3) / 1e6).toFixed(2)} × 10⁶ m/s` : '∞ (B=0)'}
                       </div>
                       <div className="text-slate-400 pt-1">Derived e/m Ratio:</div>
-                      <div className="text-sky-300 font-bold">1.7588 × 10¹¹ C/kg (Constant)</div>
+                      <div className="text-gold-300 font-bold">1.7588 × 10¹¹ C/kg (Constant)</div>
                     </div>
                   </div>
                 )}
@@ -1243,7 +1243,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Chamber Plate Voltage (V)</span>
-                        <span className="font-mono text-sky-400">{millikanVoltage} V</span>
+                        <span className="font-mono text-gold-400">{millikanVoltage} V</span>
                       </div>
                       <input
                         type="range"
@@ -1252,7 +1252,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                         step="50"
                         value={millikanVoltage}
                         onChange={e => setMillikanVoltage(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1312,7 +1312,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                         onClick={() => setAnodeGas(gas)}
                         className={`w-full p-3 rounded-xl border text-left text-xs font-semibold transition-all ${
                           anodeGas === gas
-                            ? 'bg-sky-500/20 border-sky-500 text-sky-200'
+                            ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                             : 'bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1355,7 +1355,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Impact Parameter (b)</span>
-                        <span className="font-mono text-sky-400">{impactParam} pm</span>
+                        <span className="font-mono text-gold-400">{impactParam} pm</span>
                       </div>
                       <input
                         type="range"
@@ -1364,7 +1364,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                         step="0.5"
                         value={impactParam}
                         onChange={e => setImpactParam(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1392,7 +1392,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Paraffin Block Distance</span>
-                        <span className="font-mono text-sky-400">{paraffinDistance} cm</span>
+                        <span className="font-mono text-gold-400">{paraffinDistance} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1403,7 +1403,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                           setParaffinDistance(Number(e.target.value));
                           setProtonCount(Math.round(20000 / (Number(e.target.value) + 2)));
                         }}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1436,7 +1436,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                 )}
                 {activeLabIndex === 4 && (
                   <div className="w-full p-6 bg-slate-950 rounded-xl border border-slate-800 text-center space-y-4">
-                    <div className="text-sm font-bold text-sky-400">Chadwick Neutron Bombardment Chamber</div>
+                    <div className="text-sm font-bold text-gold-400">Chadwick Neutron Bombardment Chamber</div>
                     <div className="flex items-center justify-between gap-2 p-4 bg-slate-900 rounded-lg">
                       <div className="p-3 bg-red-900/40 border border-red-700 rounded-lg text-xs font-bold text-red-300">
                         Alpha Beam (⁴He²⁺)
@@ -1501,7 +1501,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <span className="text-xs font-bold text-slate-400">Challenge</span>
-                <span className="px-3 py-1 bg-sky-500/20 border border-sky-500 text-sky-300 font-mono text-xs font-bold rounded-full">
+                <span className="px-3 py-1 bg-gold-500/20 border border-gold-500 text-gold-300 font-mono text-xs font-bold rounded-full">
                   {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span className={`px-2.5 py-0.5 rounded-md text-[10px] font-extrabold uppercase tracking-wider ${
@@ -1538,7 +1538,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
               return (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl space-y-6">
                   <div className="space-y-2">
-                    <span className="text-xs font-bold text-sky-400 uppercase tracking-widest">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                       Competency: {challenge.competencyLevel}
                     </span>
                     <h3 className="text-lg md:text-xl font-bold text-white leading-relaxed">
@@ -1559,7 +1559,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                           disabled={isSubmitted}
                           className={`w-full text-left p-4 rounded-xl border transition-all flex items-start gap-3 ${
                             challengeAnswers[challenge.id] === oIdx
-                              ? 'bg-sky-500/15 border-sky-500 text-sky-200'
+                              ? 'bg-gold-500/15 border-gold-500 text-gold-200'
                               : 'bg-slate-800/60 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                           }`}
                         >
@@ -1585,7 +1585,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                         value={numericInputs[challenge.id] || ''}
                         onChange={e => setNumericInputs({ ...numericInputs, [challenge.id]: e.target.value })}
                         disabled={isSubmitted}
-                        className="w-full max-w-xs p-3 bg-slate-950 border border-slate-700 rounded-xl font-mono text-emerald-400 text-lg focus:border-sky-500 focus:outline-none"
+                        className="w-full max-w-xs p-3 bg-slate-950 border border-slate-700 rounded-xl font-mono text-emerald-400 text-lg focus:border-gold-500 focus:outline-none"
                       />
                     </div>
                   )}
@@ -1594,7 +1594,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
                   {!isSubmitted ? (
                     <button
                       onClick={() => handleChallengeSubmit(challenge)}
-                      className="w-full py-3.5 bg-sky-500 hover:bg-sky-400 text-white font-bold rounded-xl shadow-lg shadow-sky-500/25 transition-all"
+                      className="w-full py-3.5 bg-gold-500 hover:bg-gold-400 text-white font-bold rounded-xl shadow-lg shadow-gold-500/25 transition-all"
                     >
                       Check Answer
                     </button>
@@ -1631,7 +1631,7 @@ export const C11_ChemistryDiscoveryofsubatomicparticlesSim: React.FC<SimProps> =
           <div className="space-y-8">
             {/* REAL WORLD ACTIVITY SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl space-y-4">
-              <div className="flex items-center gap-2 text-sky-400 font-bold text-lg">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-lg">
                 <span>🚀 Real-World Extension Activity</span>
               </div>
               <h3 className="text-xl font-extrabold text-white">{REAL_WORLD_ACTIVITY.title}</h3>

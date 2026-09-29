@@ -349,7 +349,7 @@ export function LeverSimulation({ onComplete, className }: LeverSimulationProps)
       {!challenge.effortFixed && (
         <div className="px-4 py-2 border-t border-white/10">
           <div className="flex items-center gap-3">
-            <label className="text-xs font-mono text-sky-400 w-16">Effort</label>
+            <label className="text-xs font-mono text-gold-400 w-16">Effort</label>
             <input
               type="range"
               min={1}
@@ -357,7 +357,7 @@ export function LeverSimulation({ onComplete, className }: LeverSimulationProps)
               step={1}
               value={effort}
               onChange={(e) => setEffort(Number(e.target.value))}
-              className="flex-1 accent-sky-400"
+              className="flex-1 accent-gold-400"
             />
             <span className="text-xs font-mono text-white/60 w-12 text-right">{effort} N</span>
           </div>

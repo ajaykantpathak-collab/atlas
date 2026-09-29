@@ -11,7 +11,7 @@ export const w_c11_physicssimplependulumsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Periodic and Oscillatory Motion: Definitions',
     chapters: [],
     nodeIds: ['c11_phy_cbse_13_001', 'c11_phy_cbse_13_002', 'c11_phy_cbse_13_003', 'c11_phy_cbse_13_004', 'c11_phy_cbse_13_005', 'c11_phy_cbse_13_010', 'c11_phy_cbse_13_007', 'c11_phy_cbse_13_009', 'c11_phy_cbse_05_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan rotating at constant speed — its motion repeats but the blade does not move to and fro.', goal: 'Master Periodic and Oscillatory Motion: Definitions.' },
     discovery: {
         question: 'State the defining equation for displacement in SHM and name each symbol with its SI unit.',
@@ -20,7 +20,7 @@ export const w_c11_physicssimplependulumsim: SimDef = {
         hook: 'Students often think that **any oscillatory motion is SHM** (e.g., a simple pendulum at large angles, a ball bouncing.',
     },
     teaching: [
-        { title: 'Periodic motion is a motion that repeats.', text: 'Periodic motion is a motion that repeats itself identically after a fixed interval of time called the period (T).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Periodic motion is a motion that repeats.', text: 'Periodic motion is a motion that repeats itself identically after a fixed interval of time called the period (T).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_13_001', title: 'Periodic motion is a motion that.',

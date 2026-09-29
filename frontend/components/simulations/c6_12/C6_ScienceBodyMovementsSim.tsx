@@ -144,9 +144,9 @@ function C6_ScienceBodyMovementsSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Swing the shoulder a full circle, then try the same with the elbow. Which one refuses, and what do we call that kind of joint?</li>
           <li>Press "Wave hello" and watch which joint does all the work. Now bend your own arm -- which joint are YOU using?</li>
         </ol>

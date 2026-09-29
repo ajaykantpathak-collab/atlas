@@ -1447,10 +1447,10 @@ function C6_MathematicsConstructionsDrawingLineSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900/90 border border-indigo-900/70 rounded-2xl space-y-4"
+              className="p-6 bg-slate-900/90 border border-gold-900/70 rounded-2xl space-y-4"
             >
               <div className="flex items-center justify-between">
-                <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+                <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
                   <span>🔮</span> Brilliant Prediction Challenge ({predictionIndex + 1} of {PREDICTION_QUESTIONS.length})
                 </h3>
                 <div className="flex gap-1.5">
@@ -1460,7 +1460,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
                       onClick={() => setPredictionIndex(pIdx)}
                       className={`px-2.5 py-1 text-xs rounded-lg font-bold ${
                         predictionIndex === pIdx
-                          ? 'bg-indigo-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-800 text-slate-400'
                       }`}
                     >
@@ -1505,7 +1505,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
                       }`}
                     >
                       <span>
-                        <span className="font-bold mr-2 text-indigo-400">
+                        <span className="font-bold mr-2 text-gold-400">
                           {String.fromCharCode(65 + i)}.
                         </span>
                         {opt}
@@ -1521,9 +1521,9 @@ function C6_MathematicsConstructionsDrawingLineSim({
                 <motion.div
                   initial={{ opacity: 0, y: 6 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-3.5 bg-indigo-950/50 border border-indigo-700/60 rounded-xl text-xs space-y-1.5"
+                  className="p-3.5 bg-gold-950/50 border border-gold-700/60 rounded-xl text-xs space-y-1.5"
                 >
-                  <p className="text-indigo-200 font-bold">
+                  <p className="text-gold-200 font-bold">
                     🔬 How to verify in the lab:
                   </p>
                   <p className="text-slate-300">
@@ -1814,7 +1814,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleStepAngle}
-                        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                        className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                       >
                         {angleStepCount === 1
                           ? 'Step Compass Again -> 120°'
@@ -2091,7 +2091,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
                         <span className="text-xs text-slate-400">
                           Total Boundary (Perimeter)
                         </span>
-                        <p className="text-lg font-black text-cyan-400">
+                        <p className="text-lg font-black text-gold-400">
                           {rectPerimeter} cm
                         </p>
                       </motion.div>
@@ -2342,7 +2342,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToSandbox}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Enter Sandbox →
                 </motion.button>
@@ -2493,7 +2493,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-600'
                       : difficulty === 'standard'
-                      ? 'bg-blue-900/60 text-blue-300 border border-blue-600'
+                      ? 'bg-gold-900/60 text-gold-300 border border-gold-600'
                       : 'bg-rose-900/60 text-rose-300 border border-rose-600'
                   }`}
                 >
@@ -2508,7 +2508,7 @@ function C6_MathematicsConstructionsDrawingLineSim({
             {/* Progress Bar */}
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-cyan-500"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                 animate={{
                   width: `${
                     ((currentChallenge + 1) / filteredChallenges.length) * 100
@@ -2956,9 +2956,9 @@ function C6_MathematicsConstructionsDrawingLineSim({
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="p-5 bg-indigo-950/40 border border-indigo-800/80 rounded-2xl space-y-3"
+              className="p-5 bg-gold-950/40 border border-gold-800/80 rounded-2xl space-y-3"
             >
-              <h3 className="text-base font-bold text-indigo-300">
+              <h3 className="text-base font-bold text-gold-300">
                 🛠️ {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">

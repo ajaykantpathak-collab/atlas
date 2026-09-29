@@ -81,14 +81,14 @@ const TOOLS: ToolMeta[] = [
     name: 'Flashcards',
     description: 'Flip through quick revision cards to reinforce key concepts.',
     icon: Layers,
-    accent: 'from-indigo-500 to-purple-500',
+    accent: 'from-gold-500 to-purple-500',
   },
   {
     id: 'formula_bank',
     name: 'Formula Bank',
     description: 'Searchable library of every formula you need to memorise.',
     icon: Sigma,
-    accent: 'from-sky-500 to-cyan-500',
+    accent: 'from-gold-500 to-gold-500',
   },
   {
     id: 'glossary',
@@ -235,8 +235,8 @@ export default function StudyToolsPage() {
           transition={{ duration: 0.5 }}
           className="mb-10 text-center"
         >
-          <div className="mb-4 inline-flex items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 p-4 ring-1 ring-white/10">
-            <Wrench className="h-8 w-8 text-indigo-300" />
+          <div className="mb-4 inline-flex items-center justify-center rounded-2xl bg-gradient-to-br from-gold-500/20 to-purple-500/20 p-4 ring-1 ring-white/10">
+            <Wrench className="h-8 w-8 text-gold-300" />
           </div>
           <h1 className="bg-gradient-to-r from-white to-white/70 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl">
             Study Tools
@@ -397,7 +397,7 @@ function ToolView({
       {/* Body */}
       {loading ? (
         <div className="flex flex-col items-center justify-center py-24">
-          <Loader2 className="h-10 w-10 animate-spin text-indigo-300" />
+          <Loader2 className="h-10 w-10 animate-spin text-gold-300" />
           <p className="mt-4 text-sm text-white/60">Loading {meta.name}…</p>
         </div>
       ) : error ? (
@@ -490,7 +490,7 @@ function Flashcards({ items }: { items: ContentItem[] }) {
       </div>
       <div className="mb-6 h-1.5 w-full overflow-hidden rounded-full bg-white/10">
         <motion.div
-          className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500"
+          className="h-full rounded-full bg-gradient-to-r from-gold-500 to-purple-500"
           animate={{ width: `${((index + 1) / total) * 100}%` }}
           transition={{ duration: 0.3 }}
         />
@@ -513,7 +513,7 @@ function Flashcards({ items }: { items: ContentItem[] }) {
             className="glass-card absolute inset-0 flex flex-col items-center justify-center rounded-3xl p-8 text-center"
             style={{ backfaceVisibility: 'hidden' }}
           >
-            <Layers className="mb-4 h-8 w-8 text-indigo-300" />
+            <Layers className="mb-4 h-8 w-8 text-gold-300" />
             <p className="text-xs uppercase tracking-wider text-white/40">
               Question
             </p>
@@ -594,7 +594,7 @@ function SearchBar({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder}
-        className="glass-card w-full rounded-xl py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-indigo-400/50"
+        className="glass-card w-full rounded-xl py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-gold-400/50"
       />
     </div>
   )
@@ -621,7 +621,7 @@ function FormulaBank({ items }: { items: ContentItem[] }) {
             className="glass-card rounded-2xl p-5"
           >
             <div className="mb-2 flex items-center gap-2">
-              <Sigma className="h-4 w-4 text-sky-300" />
+              <Sigma className="h-4 w-4 text-gold-300" />
               <h3 className="font-semibold text-white">{it.title}</h3>
             </div>
             <p className="whitespace-pre-wrap text-sm leading-relaxed text-white/70">

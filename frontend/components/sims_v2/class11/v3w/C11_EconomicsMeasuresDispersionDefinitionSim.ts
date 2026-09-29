@@ -11,7 +11,7 @@ export const w_c11_economicsmeasuresdispersiondefinitionsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'State of India\'s Environment: Air Pollution and Quality',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_004', 'c11_eco_cbse_07_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy Delhi intersection at 8 AM on a November morning — the air smells of.', goal: 'Master State of India\'s Environment: Air Pollution and Quality.' },
     discovery: {
         question: 'Analyze the following two scenarios and identify which violates carrying capacity and which violates absorptive capacity.',
@@ -20,7 +20,7 @@ export const w_c11_economicsmeasuresdispersiondefinitionsim: SimDef = {
         hook: 'Students often believe "renewable resources are unlimited and can never be exhausted" because they regenerate.',
     },
     teaching: [
-        { title: 'Air pollution refers to the contamination of.', text: 'Air pollution refers to the contamination of the atmosphere by harmful substances — including particulate matter (PM2.5, PM10), nitrogen oxides (NOx), sulphur dioxide (SO2), carbon monoxide (CO),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Air pollution refers to the contamination of.', text: 'Air pollution refers to the contamination of the atmosphere by harmful substances — including particulate matter (PM2.5, PM10), nitrogen oxides (NOx), sulphur dioxide (SO2), carbon monoxide (CO),.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_07_004', title: 'Air pollution refers to the.',

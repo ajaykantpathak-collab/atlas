@@ -56,10 +56,10 @@ export function C9_ScienceHowForcesAffectMotionSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Force and Laws of Motion</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Force and Laws of Motion</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">How Forces Affect Motion: Push a Crate</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300 font-mono">
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-mono">
           t = {t.toFixed(1)} s
         </span>
       </header>
@@ -69,10 +69,10 @@ export function C9_ScienceHowForcesAffectMotionSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Mass m</span>
-            <span className="text-indigo-300 font-mono font-bold">{mass} kg</span>
+            <span className="text-gold-300 font-mono font-bold">{mass} kg</span>
           </label>
           <input type="range" min={1} max={20} value={mass} aria-label="mass"
-            onChange={(e) => { setMass(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => { setMass(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -133,11 +133,11 @@ export function C9_ScienceHowForcesAffectMotionSim() {
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] text-slate-400 uppercase">a = F/m</p>
-          <p className="text-sm font-mono font-bold text-indigo-300">{dynamics.a.toFixed(2)} m/s2</p>
+          <p className="text-sm font-mono font-bold text-gold-300">{dynamics.a.toFixed(2)} m/s2</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] text-slate-400 uppercase">Velocity</p>
-          <p className="text-sm font-mono font-bold text-sky-300">{v.toFixed(2)} m/s</p>
+          <p className="text-sm font-mono font-bold text-gold-300">{v.toFixed(2)} m/s</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] text-slate-400 uppercase">Position</p>
@@ -152,14 +152,14 @@ export function C9_ScienceHowForcesAffectMotionSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> a net force changes velocity, never position directly. The crate
+          <span className="font-bold text-gold-300">Big idea:</span> a net force changes velocity, never position directly. The crate
           accelerates only when the push beats friction: a = (F - friction) / m. When the push exactly balances friction the forces cancel
           and the crate keeps whatever velocity it has (first law); bigger mass means smaller acceleration for the same net force (second law).
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set m = 10 kg and mu = 0.25. Find the smallest push that just starts the crate moving (compare with friction limit = 24.5 N).</p>
         <p className="mt-1">2. Push hard for 3 s, then slide the force to 0 N and watch friction decelerate the crate to rest - read the stopping time.</p>

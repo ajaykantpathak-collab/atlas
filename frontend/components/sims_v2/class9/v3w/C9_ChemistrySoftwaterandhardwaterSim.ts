@@ -11,7 +11,7 @@ export const w_c9_chemistrysoftwaterandhardwatersim: SimDef = {
     classLevel: 9, subject: 'chemistry', topic: 'Properties of Ionic Compounds vs Covalent Compounds',
     chapters: [],
     nodeIds: ['c9_chem_ch3_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Begin with a real-world observation: ask students why common salt (NaCl) dissolves in water and conducts.', goal: 'Master Properties of Ionic Compounds vs Covalent Compounds.' },
     discovery: {
         question: 'Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent).',
@@ -20,7 +20,7 @@ export const w_c9_chemistrysoftwaterandhardwatersim: SimDef = {
         hook: 'Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.',
     },
     teaching: [
-        { title: 'Ionic compounds are crystalline solids.', text: 'Ionic compounds are crystalline solids formed by electrostatic attraction between cations and anions, exhibiting high melting points, solubility in polar solvents, and electrical conductivity in.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Ionic compounds are crystalline solids.', text: 'Ionic compounds are crystalline solids formed by electrostatic attraction between cations and anions, exhibiting high melting points, solubility in polar solvents, and electrical conductivity in.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_chem_ch3_8', title: 'Ionic compounds are crystalline solids.',

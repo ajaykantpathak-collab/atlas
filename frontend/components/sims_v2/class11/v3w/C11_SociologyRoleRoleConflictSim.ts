@@ -11,7 +11,7 @@ export const w_c11_sociologyroleroleconflictsim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Functionalist Perspective on Social Processes: System Maintenance and Solidarity',
     chapters: [],
     nodeIds: ['c11_soc_cbse_06_005', 'c11_soc_cbse_02_004', 'c11_soc_cbse_02_005', 'c11_soc_cbse_02_009', 'c11_soc_cbse_02_010', 'c11_soc_cbse_03_001', 'c11_soc_cbse_03_006', 'c11_soc_cbse_09_005', 'c11_soc_cbse_08_009', 'c11_soc_cbse_06_001', 'c11_soc_cbse_02_002', 'c11_soc_cbse_03_003', 'c11_soc_cbse_06_002', 'c11_soc_cbse_06_003', 'c11_soc_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine your school suddenly cancels all exams, timetables, and rules — would learning still happen?', goal: 'Master Functionalist Perspective on Social Processes: System Maintenance and Solidarity.' },
     discovery: {
         question: 'A tribal community practices shifting cultivation with minimal specialization; a metropolitan city runs on IT, finance, healthcare, and logistics sectors.',
@@ -20,7 +20,7 @@ export const w_c11_sociologyroleroleconflictsim: SimDef = {
         hook: 'Students often think "functionalist perspective = everything in society is good/functional." They confuse *functional.',
     },
     teaching: [
-        { title: 'The functionalist perspective views society.', text: 'The functionalist perspective views society as a self-regulating system where social processes (cooperation, competition, conflict) serve essential functions for system maintenance and solidarity.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The functionalist perspective views society.', text: 'The functionalist perspective views society as a self-regulating system where social processes (cooperation, competition, conflict) serve essential functions for system maintenance and solidarity.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_06_005', title: 'The functionalist perspective views.',

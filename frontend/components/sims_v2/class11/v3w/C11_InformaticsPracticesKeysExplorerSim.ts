@@ -11,7 +11,7 @@ export const w_c11_informaticspracticeskeysexplorersim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Introduction to Dictionaries: Key-Value Pairs',
     chapters: [],
     nodeIds: ['c11_ip_cbse_04_009', 'c11_ip_cbse_04_010', 'c11_ip_cbse_04_011', 'c11_ip_cbse_04_012', 'c11_ip_cbse_07_001', 'c11_ip_cbse_07_002', 'c11_ip_cbse_07_003', 'c11_ip_cbse_06_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you need to store contact information for your classmates: each name (unique) maps to a phone number.', goal: 'Master Introduction to Dictionaries: Key-Value Pairs.' },
     discovery: {
         question: 'Compare and contrast: How does dictionary key-based access fundamentally differ from list index-based access in terms of (a) lookup mechanism, (b) semantic.',
@@ -20,7 +20,7 @@ export const w_c11_informaticspracticeskeysexplorersim: SimDef = {
         hook: 'Students believe dictionary keys can be any data type including lists, sets, or other dictionaries because "values can.',
     },
     teaching: [
-        { title: 'A dictionary in Python is an ordered,.', text: 'A dictionary in Python is an ordered, mutable collection of key-value pairs where each unique immutable key maps to exactly one value, enabling direct access to values via their associated keys.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A dictionary in Python is an ordered,.', text: 'A dictionary in Python is an ordered, mutable collection of key-value pairs where each unique immutable key maps to exactly one value, enabling direct access to values via their associated keys.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ip_cbse_04_009', title: 'A dictionary in Python is an ordered,.',

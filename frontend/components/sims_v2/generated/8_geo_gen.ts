@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C8_GEO_GEN: SimDef[] = [
  {
   "id": "gen_c8_geo_ch01",
-  "title": "Resource",
+  "title": "A Resource Is Any Element",
   "subtitle": "Geography · Chapter 1",
   "classLevel": 8,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Resource",
+  "topic": "A Resource Is Any Element",
   "chapters": [
-   "Geography Ch1: Resource"
+   "Geography Ch1: A Resource Is Any Element"
   ],
   "nodeIds": [
    "c8_geo_ch1_1",
@@ -39,7 +39,7 @@ export const C8_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Resource directly with your eyes?",
+   "question": "Can you see A Resource Is Any Element directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -50,7 +50,7 @@ export const C8_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Resource",
+    "title": "A Resource Is Any Element",
     "text": "A resource is any element of the natural environment (matter or energy) that has utility to satisfy human needs, provided it is technologically accessible, economically feasible, and culturally acceptable.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -210,8 +210,8 @@ export const C8_GEO_GEN: SimDef[] = [
     "question": "Which of the following is a non-renewable natural resource? A) Wind energy harnessed in Tamil Nadu B) Coal deposits found in the Damodar River Valley C) Solar radiation received in the Thar Desert D) Fresh water flowing in the Ganga River",
     "answer": "B) Coal deposits found in the Damodar River Valley. Coal takes millions of years of heat and pressure underground to form from buried plant matter",
     "options": [
-     "Biotic resources originate from living organisms or organic matter within the biosphere (e.g., Pine trees or Himalayan Brown Bears)",
-     "B) Geological history and ancient vegetative burial under sediment layers. Explanation of misconception: A student choosing A or D confuses modern climatic/environmental",
+     "Renewable energy resources are inexhaustible or naturally replenished energy sources—specifically solar, wind, hydro",
+     "Uneven resource distribution refers to the non-uniform geographic allocation of natural resources—such as water, minerals, fertile soil",
      "B) Coal deposits found in the Damodar River Valley. Coal takes millions of years of heat and pressure underground to form from buried plant matter"
     ],
     "hint": "Straight from the 'Resources classified by' slide -- match the key terms.",
@@ -231,8 +231,8 @@ export const C8_GEO_GEN: SimDef[] = [
     "question": "What is the primary criterion used to classify natural resources into biotic and abiotic categories?",
     "answer": "The primary criterion is their origin—whether they are derived from living biological organisms (biosphere) or from non-living, inorganic physical materials (lithosphere",
     "options": [
-     "B) Coal deposits found in the Damodar River Valley. Coal takes millions of years of heat and pressure underground to form from buried plant matter",
-     "B) Geological history and ancient vegetative burial under sediment layers. Explanation of misconception: A student choosing A or D confuses modern climatic/environmental",
+     "Natural resources classified by origin are divided into Biotic resources, which are obtained from the biosphere and possess life or are derived from living matter (such as",
+     "Can analyze how the presence, abundance, or scarcity of specific natural resources shapes human population density, primary economic activities",
      "The primary criterion is their origin—whether they are derived from living biological organisms (biosphere) or from non-living, inorganic physical materials (lithosphere"
     ],
     "hint": "Straight from the 'Natural resources classified by' slide -- match the key terms.",
@@ -252,8 +252,8 @@ export const C8_GEO_GEN: SimDef[] = [
     "question": "Which of the following physical factors is primarily responsible for the rich coal deposits found in specific regions like Jharkhand and West Bengal, but absent in the Northern Plains?",
     "answer": "B) Geological history and ancient vegetative burial under sediment layers. Explanation of misconception: A student choosing A or D confuses modern climatic/environmental",
     "options": [
-     "Fertile alluvial soil and abundant fresh river water",
-     "The rate of resource extraction must not exceed the natural rate of replenishment or regeneration",
+     "Students can identify the key physical factors (terrain, climate, geology) causing non-uniform resource distribution globally and within India",
+     "Sustainable use of natural resources is the practice of utilizing physical and biological assets—such as freshwater, forests",
      "B) Geological history and ancient vegetative burial under sediment layers. Explanation of misconception: A student choosing A or D confuses modern climatic/environmental"
     ],
     "hint": "Straight from the 'Uneven resource distribution' slide -- match the key terms.",
@@ -585,7 +585,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "The statement is geographically and ecologically false. Open-cast extraction of abiotic iron ore requires clearing forest canopy, stripping topsoil",
      "No, it should not be classified as a fully viable resource immediately. While it has high economic utility and technological accessibility"
     ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "hint": "Straight from the 'A resource is any element' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: If a student answers \"Yes, because mobile phones are more important than local beliefs,\" they ignore the socio-cultural pillar of resource geography, demonstrating a lack of understanding of how human-cultural factors limit resource utilization.",
     "id": "gen_c8_geo_ch01_q15",
     "nodeId": "c8_geo_ch1_1",
@@ -600,7 +600,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "In the Thar Desert, extreme water scarcity forces human settlements to form compact clusters around rare oases or deep wells, with flat-roofed thick mud houses to resist heat",
      "Two hundred years ago, wind in the Thar Desert was a natural weather phenomenon with low utility (used only for simple sailing or localized windmills)"
     ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "hint": "Straight from the 'A resource is any element' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: If a student says \"the wind became stronger over time,\" they make a physical geography error, failing to analyze the human-technological intervention that drives resource creation.",
     "id": "gen_c8_geo_ch01_q16",
     "nodeId": "c8_geo_ch1_1",
@@ -615,7 +615,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "No, it should not be classified as a fully viable resource immediately. While it has high economic utility and technological accessibility",
      "- Step 1: Identify the natural substance (iron ore) and its potential utility (making steel). - Step 2: Check technological accessibility (we can dig deep"
     ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "hint": "Straight from the 'A resource is any element' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: If a student says \"Yes, because iron is very useful for building things,\" they fail to apply the economic feasibility criterion, showing they confuse physical availability with resource status.",
     "id": "gen_c8_geo_ch01_q17",
     "nodeId": "c8_geo_ch1_1",
@@ -630,7 +630,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "A successful plan must propose: 1) Constructing check dams and contour bunds to retain topsoil and capture seasonal runoff (restoring abiotic water and soil moisture)",
      "The proposed framework should include: 1. Technological & Environmental Assessment: Check if local technology can harness the geothermal heat without damaging the fragile mountain"
     ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "hint": "Straight from the 'A resource is any element' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: A poor answer would focus only on \"building the plant immediately to make money,\" which shows a failure to integrate the complex criteria of sustainability, cultural acceptance, and physical geographic constraints in a sensitive region like Ladakh.",
     "id": "gen_c8_geo_ch01_q18",
     "nodeId": "c8_geo_ch1_1",
@@ -639,24 +639,24 @@ export const C8_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about resource?",
+    "What surprised you about a resource is any element?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Resource mastered! 🎯",
+  "successLine": "A Resource Is Any Element mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_geo_ch02",
-  "title": "Earth",
+  "title": "Earth Is An Oblate Spheroid",
   "subtitle": "Geography · Chapter 2",
   "classLevel": 8,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Earth",
+  "topic": "Earth Is An Oblate Spheroid",
   "chapters": [
-   "Geography Ch2: Earth"
+   "Geography Ch2: Earth Is An Oblate Spheroid"
   ],
   "nodeIds": [
    "c8_geo_ch2_1",
@@ -676,7 +676,7 @@ export const C8_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Earth outside the classroom?",
+   "question": "Quick guess -- where do you meet Earth Is An Oblate Spheroid outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -687,7 +687,7 @@ export const C8_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Earth",
+    "title": "Earth Is An Oblate Spheroid",
     "text": "The Earth is an oblate spheroid (also described as a geoid), meaning it is a sphere flattened at the North and South Poles and bulging at the Equator. This shape is caused by the outward centrifugal force generated by Earth's rotation on its axis.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -723,7 +723,7 @@ export const C8_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Desert",
+    "title": "A Desert Is An Arid Geographic",
     "text": "A desert is an arid geographic region receiving less than 25 centimetres (250 mm) of precipitation annually, resulting in low moisture levels, extreme daily or seasonal temperature fluctuations, and sparse vegetation cover.",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -751,7 +751,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "This non-standard map design severely impairs communication because physical map colors follow universal international cartographic conventions established so anyone",
      "They will weigh slightly more at the North Pole because the polar surface is closer (~21 km closer) to Earth's center of mass than the Equatorial surface"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is an oblate spheroid' slide -- match the key terms.",
     "misconception": "A wrong answer choosing the Equator shows the student incorrectly assumes a larger distance from the center increases surface gravity.",
     "id": "gen_c8_geo_ch02_q1",
     "nodeId": "c8_geo_ch2_1",
@@ -877,7 +877,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "This non-standard map design severely impairs communication because physical map colors follow universal international cartographic conventions established so anyone",
      "B. The cold Humboldt (Peru) Ocean Current that cools the air, preventing it from holding moisture and rising to form rain clouds"
     ],
-    "hint": "Straight from the 'desert' slide -- match the key terms.",
+    "hint": "Straight from the 'A desert is an arid geographic' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: B. The cold Humboldt (Peru) Ocean Current that cools the air, preventing it from holding moisture and rising to form",
     "id": "gen_c8_geo_ch02_q7",
     "nodeId": "c8_geo_ch2_9",
@@ -993,7 +993,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "The choice is completely justified. The Mercator projection preserves angles and represents lines of constant compass bearing (rhumb lines) as straight lines",
      "The statement is incorrect. Although 42 km is small relative to Earth's size, any curved 3D surface—whether a perfect sphere or an oblate spheroid—cannot be flattened onto a 2D"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is an oblate spheroid' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the student shows a misunderstanding of spatial projection limitations.",
     "id": "gen_c8_geo_ch02_q10",
     "nodeId": "c8_geo_ch2_1",
@@ -1008,7 +1008,7 @@ export const C8_GEO_GEN: SimDef[] = [
      "The Northern Sea Route significantly reduces distance and fuel consumption between ports like Shanghai and Rotterdam compared to the Suez route, saving transit time and emissions",
      "A successful design involves joining strips of flexible paper/plastic into a circular loop, attaching the top to a fixed point on a central wooden skewer"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is an oblate spheroid' slide -- match the key terms.",
     "misconception": "A poor answer that just spins a rigid ball fails to model deformation caused by rotational force.",
     "id": "gen_c8_geo_ch02_q11",
     "nodeId": "c8_geo_ch2_1",
@@ -1077,11 +1077,11 @@ export const C8_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about earth?",
+    "What surprised you about earth is an oblate spheroid?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Earth mastered! 🎯",
+  "successLine": "Earth Is An Oblate Spheroid mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

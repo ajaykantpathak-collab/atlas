@@ -126,7 +126,7 @@ function Slider({ label, value, min, max, step, onChange, unit }:
       <span className="w-24 text-slate-400 font-semibold">{label}</span>
       <input type="range" min={min} max={max} step={step} value={value}
         onChange={e => onChange(Number(e.target.value))}
-        className="flex-1 accent-sky-400" />
+        className="flex-1 accent-gold-400" />
       <span className="w-16 text-right font-mono text-slate-200">
         {fmt(value)}{unit ? ` ${unit}` : ''}
       </span>
@@ -224,7 +224,7 @@ export default function PhysicsSandbox() {
         <div className="flex gap-1.5 flex-wrap mb-1.5">
           {PHYSICS_SANDBOX_CLASSES.map(b => (
             <button key={b.key} onClick={() => { setBandKey(b.key); setChapterKey(b.chapters[0].key); setTopic(null) }}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {b.label}
             </button>
           ))}
@@ -253,7 +253,7 @@ export default function PhysicsSandbox() {
       <div className="flex gap-1 px-3 pt-2.5 border-b border-slate-800 bg-slate-900/40 overflow-x-auto">
         {TABS.map(tb => (
           <button key={tb.key} onClick={() => setTab(tb.key)}
-            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === tb.key ? 'border-sky-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
+            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === tb.key ? 'border-gold-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
             <tb.icon className="w-3.5 h-3.5" />
             {tb.label}
           </button>
@@ -304,9 +304,9 @@ function SolveTab({ topic, markExplored }:
       <div className="flex gap-2">
         <textarea value={text} onChange={e => setText(e.target.value)} rows={2}
           placeholder="Type a textbook-style problem…"
-          className="flex-1 rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-sky-400" />
+          className="flex-1 rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-gold-400" />
         <button onClick={run} disabled={res.loading}
-          className="self-stretch px-4 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-50 text-slate-950 font-black text-sm flex items-center gap-1.5">
+          className="self-stretch px-4 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-50 text-slate-950 font-black text-sm flex items-center gap-1.5">
           <Play className="w-4 h-4" />Solve
         </button>
       </div>
@@ -359,7 +359,7 @@ function ProjectileTab() {
           the same kinematics equations you study — drag and watch them move.
         </p>
         <button onClick={() => askPhysicsThen(`A ball is thrown vertically upward with a velocity of ${fmt(uy)} m/s (g = 9.8 m/s^2). Find the maximum height reached`, setSolver, setMiscon)}
-          className="w-full px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-[11px]">
+          className="w-full px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-[11px]">
           Solver: max height steps
         </button>
         <button onClick={() => askPhysicsThen(`A ball is thrown vertically upward with a velocity of ${fmt(uy)} m/s. How long will it take to reach the maximum height (g = 9.8)?`, setSolver, setMiscon)}
@@ -484,7 +484,7 @@ function InclineTab() {
           <Row k="downhill mg·sinθ" v={`${fmt(downhill)} N`} accent />
         </div>
         <button onClick={askFriction}
-          className="w-full px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-[11px]">
+          className="w-full px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-[11px]">
           Solver: friction steps (f = μN)
         </button>
         <button onClick={askAccel}
@@ -604,7 +604,7 @@ function CircuitTab({ markExplored }: { markExplored: (k: string) => void }) {
         <div className="flex gap-1.5">
           {([true, false] as const).map(s => (
             <button key={String(s)} onClick={() => setSeries(s)}
-              className={`px-3 py-1 rounded-lg text-xs font-bold border ${series === s ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-3 py-1 rounded-lg text-xs font-bold border ${series === s ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {s ? 'series' : 'parallel'}
             </button>
           ))}
@@ -615,14 +615,14 @@ function CircuitTab({ markExplored }: { markExplored: (k: string) => void }) {
           <span className="w-24 text-slate-400 font-semibold">R₁ (type)</span>
           <input value={custom} onChange={e => setCustom(e.target.value)}
             inputMode="decimal"
-            className="w-24 rounded-lg bg-slate-800/70 border border-slate-600 px-2 py-1 text-xs text-white font-mono focus:outline-none focus:border-sky-400" />
+            className="w-24 rounded-lg bg-slate-800/70 border border-slate-600 px-2 py-1 text-xs text-white font-mono focus:outline-none focus:border-gold-400" />
         </label>
         <div className="rounded-xl bg-slate-800/60 border border-slate-700 px-3 py-2 space-y-1">
           <Row k={`R total (${series ? 'series' : 'parallel'})`} v={bad ? '—' : `${fmt(rtot)} Ω`} />
           <Row k="current I = V/R" v={current === null ? '—' : `${fmt(current)} A`} accent />
         </div>
         <button onClick={askRtot} disabled={bad}
-          className="w-full px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-[11px]">
+          className="w-full px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-[11px]">
           Solver: total resistance steps
         </button>
         <button onClick={askCurrent} disabled={bad}
@@ -733,7 +733,7 @@ function OpticsTab() {
         <div className="flex flex-wrap gap-1.5">
           {(['lens-convex', 'lens-concave', 'mirror-concave', 'mirror-convex'] as OpticKind[]).map(k => (
             <button key={k} onClick={() => setKind(k)}
-              className={`px-2 py-1 rounded-md text-[10px] font-semibold border ${k === kind ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2 py-1 rounded-md text-[10px] font-semibold border ${k === kind ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {k.replace('-', ' ')}
             </button>
           ))}
@@ -745,7 +745,7 @@ function OpticsTab() {
           <Row k="nature" v={atFocal ? 'undefined (parallel rays)' : vImg && vImg > 0 ? 'real' : 'virtual'} accent />
         </div>
         <button onClick={askImage}
-          className="w-full px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-[11px]">
+          className="w-full px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-[11px]">
           Solver: image distance steps
         </button>
         <StepsList s={solver} />
@@ -793,7 +793,7 @@ function WavesTab() {
           energy, never the speed.
         </p>
         <button onClick={askSpeed}
-          className="w-full px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-[11px]">
+          className="w-full px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-[11px]">
           Solver: wave speed steps (v = f λ)
         </button>
         <StepsList s={solver} />
@@ -841,7 +841,7 @@ function GravityTab() {
           is why orbits are stable and why r = 0 is not a physical state.
         </p>
         <button onClick={askForce}
-          className="w-full px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-[11px]">
+          className="w-full px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-[11px]">
           Solver: gravitational force steps
         </button>
         <StepsList s={solver} />

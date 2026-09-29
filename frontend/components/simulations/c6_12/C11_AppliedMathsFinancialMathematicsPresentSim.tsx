@@ -1403,12 +1403,12 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
           className="space-y-5 my-4"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider">
+          <div className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider">
               <span>🏢</span> Corporate Scenario: {SCENARIO.title}
             </div>
             <p className="mt-2 text-slate-200 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="mt-2 text-xs text-indigo-300/80 border-t border-indigo-900/50 pt-2">
+            <p className="mt-2 text-xs text-gold-300/80 border-t border-gold-900/50 pt-2">
               {SCENARIO.context}
             </p>
           </div>
@@ -1581,7 +1581,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                   {/* Predict Then Check Block */}
                   {!predictionMade && (
                     <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
-                      <div className="text-xs font-bold text-indigo-400 uppercase">Step A: Form Your Hypothesis</div>
+                      <div className="text-xs font-bold text-gold-400 uppercase">Step A: Form Your Hypothesis</div>
                       <p className="text-sm text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1600,11 +1600,11 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                   )}
 
                   {predictionMade && !predictionVerified && (
-                    <div className="p-3 rounded-xl bg-indigo-950/60 border border-indigo-700 text-xs text-indigo-200 flex items-center justify-between">
+                    <div className="p-3 rounded-xl bg-gold-950/60 border border-gold-700 text-xs text-gold-200 flex items-center justify-between">
                       <span>{PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                       <button
                         onClick={() => setPredictionVerified(true)}
-                        className="px-2.5 py-1 bg-indigo-600 rounded-lg font-bold text-white text-[11px]"
+                        className="px-2.5 py-1 bg-gold-600 rounded-lg font-bold text-white text-[11px]"
                       >
                         Got It ✓
                       </button>
@@ -1815,7 +1815,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
 
                       <label className="text-xs font-semibold text-slate-300 flex justify-between">
                         <span>Duration (n periods):</span>
-                        <span className="text-indigo-400 font-mono font-bold">{annuityPeriods} yrs</span>
+                        <span className="text-gold-400 font-mono font-bold">{annuityPeriods} yrs</span>
                       </label>
                       <input
                         type="range"
@@ -1827,7 +1827,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                           setAnnuityPeriods(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set annuity duration in periods"
                       />
                     </div>
@@ -1861,7 +1861,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                       {/* Comparative Formula Cards */}
                       <div className="grid grid-cols-2 gap-2 mt-2 pt-2 border-t border-slate-800 text-[11px]">
                         <div className="p-2 rounded bg-slate-900">
-                          <span className="text-sky-400 font-bold">Ordinary (End):</span> FV = PMT × [((1+r)ⁿ − 1)/r] = ₹{annuityCalculation.ordinaryFV.toLocaleString('en-IN')}
+                          <span className="text-gold-400 font-bold">Ordinary (End):</span> FV = PMT × [((1+r)ⁿ − 1)/r] = ₹{annuityCalculation.ordinaryFV.toLocaleString('en-IN')}
                         </div>
                         <div className="p-2 rounded bg-slate-900">
                           <span className="text-emerald-400 font-bold">Due (Start):</span> FV = Ordinary × (1+r) = ₹{annuityCalculation.dueFV.toLocaleString('en-IN')}
@@ -1960,7 +1960,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                             }}
                             className={`flex-1 py-1 rounded text-xs font-bold border ${
                               gstRate === rate
-                                ? 'bg-indigo-600 border-indigo-500 text-white'
+                                ? 'bg-gold-600 border-gold-500 text-white'
                                 : 'bg-slate-900 border-slate-800 text-slate-400'
                             }`}
                           >
@@ -1984,11 +1984,11 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
 
                       {supplyType === 'intra' && (
                         <>
-                          <div className="flex justify-between py-1 text-sky-400 bg-sky-950/30 px-2 rounded">
+                          <div className="flex justify-between py-1 text-gold-400 bg-gold-950/30 px-2 rounded">
                             <span>Central GST (CGST @ {gstRate / 2}%):</span>
                             <span>+₹{gstCalculation.cgst.toLocaleString('en-IN')}</span>
                           </div>
-                          <div className="flex justify-between py-1 text-indigo-400 bg-indigo-950/30 px-2 rounded">
+                          <div className="flex justify-between py-1 text-gold-400 bg-gold-950/30 px-2 rounded">
                             <span>State GST (SGST @ {gstRate / 2}%):</span>
                             <span>+₹{gstCalculation.sgst.toLocaleString('en-IN')}</span>
                           </div>
@@ -2004,7 +2004,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
 
                       {supplyType === 'ut' && (
                         <>
-                          <div className="flex justify-between py-1 text-sky-400 bg-sky-950/30 px-2 rounded">
+                          <div className="flex justify-between py-1 text-gold-400 bg-gold-950/30 px-2 rounded">
                             <span>Central GST (CGST @ {gstRate / 2}%):</span>
                             <span>+₹{gstCalculation.cgst.toLocaleString('en-IN')}</span>
                           </div>
@@ -2152,7 +2152,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                           <span>Fixed Connection Fee:</span>
                           <span>+₹{fixedDemandCharge.toFixed(2)}</span>
                         </div>
-                        <div className="flex justify-between text-indigo-400">
+                        <div className="flex justify-between text-gold-400">
                           <span>Electricity Duty ({electricityDutyPct}% on Subtotal):</span>
                           <span>+₹{tariffCalculation.electricityDuty.toFixed(2)}</span>
                         </div>
@@ -2182,13 +2182,13 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
 
                     <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
                       <div className="text-[11px] text-slate-400 font-bold">2. Annuities (c11_072)</div>
-                      <div className="text-sm font-extrabold text-sky-400 font-mono">FV(Due) = Ord × (1+r)</div>
+                      <div className="text-sm font-extrabold text-gold-400 font-mono">FV(Due) = Ord × (1+r)</div>
                       <p className="text-[11px] text-slate-300">Timing at period start grants 1 extra period of compounding.</p>
                     </div>
 
                     <div className="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
                       <div className="text-[11px] text-slate-400 font-bold">3. GST Regimes (c11_073)</div>
-                      <div className="text-sm font-extrabold text-indigo-400 font-mono">CGST:SGST = 50:50</div>
+                      <div className="text-sm font-extrabold text-gold-400 font-mono">CGST:SGST = 50:50</div>
                       <p className="text-[11px] text-slate-300">Intra-State splits in half; Inter-State assigns 100% to IGST.</p>
                     </div>
 
@@ -2338,7 +2338,7 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
                       ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950/80 text-rose-400 border-rose-700'
-                      : 'bg-sky-950/80 text-sky-400 border-sky-700'
+                      : 'bg-gold-950/80 text-gold-400 border-gold-700'
                   }`}
                 >
                   {difficulty} Tier
@@ -2712,14 +2712,14 @@ function C11_AppliedMathsFinancialMathematicsPresentSim({
 
           {/* Real World Portfolio Audit Section */}
           <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
               {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-[11px] text-slate-300 flex items-start gap-2">
-                  <span className="w-4 h-4 rounded bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold shrink-0 text-[10px]">
+                  <span className="w-4 h-4 rounded bg-gold-900 text-gold-300 flex items-center justify-center font-bold shrink-0 text-[10px]">
                     {i + 1}
                   </span>
                   <span>{step}</span>

@@ -11,7 +11,7 @@ export const w_c6_historycivicsearlyvedicpoliticalsim: SimDef = {
     classLevel: 6, subject: 'history', topic: 'The Birth of Indian Nationalism',
     chapters: [],
     nodeIds: ['c6_history_ch11_045', 'c6_history_ch11_049', 'c6_history_ch12_051', 'c6_history_ch04_001', 'c6_history_ch04_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are part of a team where everyone has different ideas, but you all decide to work together.', goal: 'Master The Birth of Indian Nationalism.' },
     discovery: {
         question: 'What was the primary method Subhas Chandra Bose believed was necessary to gain independence, contrasting with the non-violent approach?',
@@ -20,7 +20,7 @@ export const w_c6_historycivicsearlyvedicpoliticalsim: SimDef = {
         hook: 'Students often think Bose was "against" Gandhi, implying personal hatred.',
     },
     teaching: [
-        { title: 'The birth of Indian nationalism refers to.', text: 'The birth of Indian nationalism refers to the late 19th-century process where people across India began to see themselves as a single, united nation against British rule.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The birth of Indian nationalism refers to.', text: 'The birth of Indian nationalism refers to the late 19th-century process where people across India began to see themselves as a single, united nation against British rule.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_history_ch11_049', title: 'Subhas Chandra Bose, known as Netaji,.',

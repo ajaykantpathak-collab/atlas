@@ -70,7 +70,7 @@ const DISCOVERY_QUESTION = {
 function BooleanConsensusSVG({ a, b, c, termAB, termNotAC, termBC, out }: { a: boolean; b: boolean; c: boolean; termAB: boolean; termNotAC: boolean; termBC: boolean; out: boolean }) {
   return (
     <div className="w-full bg-slate-950 p-4 rounded-xl border border-slate-800">
-      <div className="text-xs font-bold text-indigo-400 mb-2 flex items-center justify-between">
+      <div className="text-xs font-bold text-gold-400 mb-2 flex items-center justify-between">
         <span>⚡ Schematic 1: Consensus Logic Core (F = AB + A&apos;C + BC)</span>
         <span className="text-[10px] text-amber-400 font-mono">Consensus: BC Redundant</span>
       </div>
@@ -155,7 +155,7 @@ function BooleanConsensusSVG({ a, b, c, termAB, termNotAC, termBC, out }: { a: b
 function CarryLookAheadSVG({ opA, opB, claSignals }: { opA: number; opB: number; claSignals: any }) {
   return (
     <div className="w-full bg-slate-950 p-4 rounded-xl border border-slate-800">
-      <div className="text-xs font-bold text-sky-400 mb-2 flex items-center justify-between">
+      <div className="text-xs font-bold text-gold-400 mb-2 flex items-center justify-between">
         <span>⚡ Schematic 2: 4-Bit Carry Look-Ahead Generator (CLA ALU)</span>
         <span className="text-[10px] text-emerald-400 font-mono">Propagation: O(1) Parallel</span>
       </div>
@@ -219,9 +219,9 @@ function PipelineStageDiagramSVG({ pipeCycle, pipeStall }: { pipeCycle: number; 
 
   return (
     <div className="w-full bg-slate-950 p-4 rounded-xl border border-slate-800">
-      <div className="text-xs font-bold text-indigo-400 mb-2 flex items-center justify-between">
+      <div className="text-xs font-bold text-gold-400 mb-2 flex items-center justify-between">
         <span>⚡ Schematic 3: 5-Stage RISC Processor Pipelining Architecture</span>
-        <span className="text-[10px] text-sky-400 font-mono">Cycle {pipeCycle} | Steady Throughput: 1 IPC</span>
+        <span className="text-[10px] text-gold-400 font-mono">Cycle {pipeCycle} | Steady Throughput: 1 IPC</span>
       </div>
       <svg viewBox="0 0 540 180" className="w-full h-auto max-h-52 select-none font-mono">
         <defs>
@@ -1563,13 +1563,13 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-900/60 border border-indigo-500 flex items-center justify-center text-2xl shadow-inner shadow-indigo-500/30"
+            className="w-12 h-12 rounded-2xl bg-gold-900/60 border border-gold-500 flex items-center justify-center text-2xl shadow-inner shadow-gold-500/30"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 12 Computer Science
               </span>
               <span className="text-xs text-slate-400">Paper 1 (Theory) & Practical</span>
@@ -1596,7 +1596,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
           </motion.span>
           <div className="text-xs bg-slate-900 px-3 py-1.5 rounded-xl border border-slate-800">
             <span className="text-slate-400">Mastery: </span>
-            <span className="font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+            <span className="font-bold text-gold-400 capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.header>
@@ -1618,13 +1618,13 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
           className="mt-6 space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm tracking-wider uppercase">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wider uppercase">
               <span>🚀 Mission Briefing</span>
             </div>
             <h2 className="text-2xl font-extrabold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
+            <div className="mt-3 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-200">
               <strong>Architecture Context:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1657,7 +1657,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-mono text-xs mt-0.5 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-xs mt-0.5 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1679,7 +1679,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Silicon Lab →
                 </motion.button>
@@ -1705,11 +1705,11 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
             <span>
               Exploration Module {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
-            <span className="text-indigo-400">{EXPLORATION_STEPS[currentSlide].title}</span>
+            <span className="text-gold-400">{EXPLORATION_STEPS[currentSlide].title}</span>
           </div>
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-sky-400"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
               animate={{ width: `${((currentSlide + 1) / EXPLORATION_STEPS.length) * 100}%` }}
             />
           </div>
@@ -1724,7 +1724,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
             >
               <div>
                 <h3 className="text-xl font-bold text-white flex items-center gap-2">
-                  <span className="w-7 h-7 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-sm font-black">
+                  <span className="w-7 h-7 rounded-lg bg-gold-600 text-white flex items-center justify-center text-sm font-black">
                     {currentSlide + 1}
                   </span>
                   {EXPLORATION_STEPS[currentSlide].title}
@@ -1739,8 +1739,8 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                 <div className="space-y-6">
                   {/* Predict Then Check Box */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-2">
-                      <p className="text-xs font-bold uppercase text-indigo-300 tracking-wider">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-2">
+                      <p className="text-xs font-bold uppercase text-gold-300 tracking-wider">
                         Predict-Then-Check Challenge
                       </p>
                       <p className="text-sm text-slate-100">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1764,7 +1764,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      className="p-3 bg-indigo-900/30 rounded-xl border border-indigo-800 text-xs text-indigo-200"
+                      className="p-3 bg-gold-900/30 rounded-xl border border-gold-800 text-xs text-gold-200"
                     >
                       {PREDICTION_QUESTIONS[0].verifyInstruction}
                     </motion.div>
@@ -1847,7 +1847,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-center">
                         <p className="text-xs text-slate-400 font-mono">Term 1: AB</p>
-                        <p className="text-lg font-black text-indigo-400 mt-1">{termAB ? '1 (TRUE)' : '0 (FALSE)'}</p>
+                        <p className="text-lg font-black text-gold-400 mt-1">{termAB ? '1 (TRUE)' : '0 (FALSE)'}</p>
                         <p className="text-[10px] text-slate-500 mt-0.5">
                           {boolA ? '1' : '0'} · {boolB ? '1' : '0'}
                         </p>
@@ -1855,7 +1855,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
 
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-center">
                         <p className="text-xs text-slate-400 font-mono">Term 2: A&apos;C</p>
-                        <p className="text-lg font-black text-indigo-400 mt-1">
+                        <p className="text-lg font-black text-gold-400 mt-1">
                           {termNotAC ? '1 (TRUE)' : '0 (FALSE)'}
                         </p>
                         <p className="text-[10px] text-slate-500 mt-0.5">
@@ -1873,14 +1873,14 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     </div>
 
                     {/* Full vs Simplified Output Equality Banner */}
-                    <div className="p-4 bg-slate-900 rounded-xl border border-indigo-500/30 flex flex-wrap items-center justify-between gap-3">
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-500/30 flex flex-wrap items-center justify-between gap-3">
                       <div>
                         <p className="text-xs text-slate-400">Full Function: F = AB + A&apos;C + BC</p>
                         <p className="text-sm font-bold text-white">
                           Output: <span className={fullOutput ? 'text-emerald-400' : 'text-rose-400'}>{fullOutput ? 'HIGH (1)' : 'LOW (0)'}</span>
                         </p>
                       </div>
-                      <div className="text-2xl font-black text-indigo-400">≡</div>
+                      <div className="text-2xl font-black text-gold-400">≡</div>
                       <div>
                         <p className="text-xs text-slate-400">Simplified Form: F = AB + A&apos;C</p>
                         <p className="text-sm font-bold text-white">
@@ -1895,7 +1895,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     {/* Observation Question */}
                     {!observationAnswered && (
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                        <p className="text-xs font-bold text-indigo-300 uppercase">Scientific Observation</p>
+                        <p className="text-xs font-bold text-gold-300 uppercase">Scientific Observation</p>
                         <p className="text-sm text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="space-y-1.5 mt-2">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1937,7 +1937,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                           onClick={() => handleToggleMinterm(m)}
                           className={`px-3 py-2 rounded-xl text-xs font-mono font-bold transition-all border ${
                             isSel
-                              ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg shadow-indigo-600/30'
+                              ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-600/30'
                               : 'bg-slate-800 text-slate-400 border-slate-750 hover:bg-slate-700'
                           }`}
                         >
@@ -1956,7 +1956,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       return (
                         <div key={groupCount} className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                           <div className="flex items-center justify-between pb-1 border-b border-slate-800">
-                            <span className="text-xs font-bold text-indigo-400">Group {groupCount}</span>
+                            <span className="text-xs font-bold text-gold-400">Group {groupCount}</span>
                             <span className="text-[10px] text-slate-500">({groupCount} ones)</span>
                           </div>
                           <div className="mt-2 space-y-1">
@@ -2001,7 +2001,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                         max={15}
                         value={opA}
                         onChange={(e) => handleOpAChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2014,7 +2014,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                         max={15}
                         value={opB}
                         onChange={(e) => handleOpBChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -2030,8 +2030,8 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                           <th className="py-1 text-left">Stage</th>
                           <th className="py-1">Ai</th>
                           <th className="py-1">Bi</th>
-                          <th className="py-1 text-indigo-400">Gi = AiBi</th>
-                          <th className="py-1 text-sky-400">Pi = Ai ⊕ Bi</th>
+                          <th className="py-1 text-gold-400">Gi = AiBi</th>
+                          <th className="py-1 text-gold-400">Pi = Ai ⊕ Bi</th>
                           <th className="py-1 text-amber-400">Carry In (Ci)</th>
                           <th className="py-1 text-emerald-400">Sum (Si)</th>
                         </tr>
@@ -2042,8 +2042,8 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                             <td className="py-2 text-left font-bold text-slate-300">Bit {i}</td>
                             <td>{claSignals.aBits[i]}</td>
                             <td>{claSignals.bBits[i]}</td>
-                            <td className="text-indigo-400 font-bold">{claSignals.G[i]}</td>
-                            <td className="text-sky-400 font-bold">{claSignals.P[i]}</td>
+                            <td className="text-gold-400 font-bold">{claSignals.G[i]}</td>
+                            <td className="text-gold-400 font-bold">{claSignals.P[i]}</td>
                             <td className="text-amber-400 font-bold">{claSignals.C[i]}</td>
                             <td className="text-emerald-400 font-bold">{claSignals.Sum[i]}</td>
                           </tr>
@@ -2089,7 +2089,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       max={8}
                       value={pipeCycle}
                       onChange={(e) => handlePipeCycleChange(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -2116,18 +2116,18 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       max={2047}
                       value={logicalAddress}
                       onChange={(e) => handleLogicalAddressChange(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   {/* MMU Translation Flow */}
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <p className="text-xs font-bold text-indigo-400">1. Logical Address Split</p>
+                      <p className="text-xs font-bold text-gold-400">1. Logical Address Split</p>
                       <p className="text-xs text-slate-400 mt-1">Page Size = 512 bytes</p>
                       <div className="mt-2 text-xs font-mono space-y-1">
                         <div>Page No = floor({logicalAddress} / 512) = <strong className="text-white">{pageNumber}</strong></div>
-                        <div>Offset = {logicalAddress} mod 512 = <strong className="text-sky-400">{pageOffset}</strong></div>
+                        <div>Offset = {logicalAddress} mod 512 = <strong className="text-gold-400">{pageOffset}</strong></div>
                       </div>
                     </div>
 
@@ -2180,7 +2180,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSlideNext}
-                    className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow-lg shadow-indigo-600/30"
+                    className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow-lg shadow-gold-600/30"
                   >
                     Next Concept →
                   </motion.button>
@@ -2234,14 +2234,14 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
             {/* Live Dual Control Panels */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <p className="text-xs font-bold text-indigo-400">1. Boolean Consensus Logic Lab</p>
+                <p className="text-xs font-bold text-gold-400">1. Boolean Consensus Logic Lab</p>
                 <div className="flex gap-4">
                   <label className="text-xs text-slate-300 flex items-center gap-2">
                     <input
                       type="checkbox"
                       checked={boolA}
                       onChange={(e) => setBoolA(e.target.checked)}
-                      className="accent-indigo-500 w-4 h-4 rounded"
+                      className="accent-gold-500 w-4 h-4 rounded"
                     />
                     A = {boolA ? '1' : '0'}
                   </label>
@@ -2250,7 +2250,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       type="checkbox"
                       checked={boolB}
                       onChange={(e) => setBoolB(e.target.checked)}
-                      className="accent-indigo-500 w-4 h-4 rounded"
+                      className="accent-gold-500 w-4 h-4 rounded"
                     />
                     B = {boolB ? '1' : '0'}
                   </label>
@@ -2259,7 +2259,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       type="checkbox"
                       checked={boolC}
                       onChange={(e) => setBoolC(e.target.checked)}
-                      className="accent-indigo-500 w-4 h-4 rounded"
+                      className="accent-gold-500 w-4 h-4 rounded"
                     />
                     C = {boolC ? '1' : '0'}
                   </label>
@@ -2271,7 +2271,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <p className="text-xs font-bold text-sky-400">2. Look-Ahead Carry Live Synthesizer</p>
+                <p className="text-xs font-bold text-gold-400">2. Look-Ahead Carry Live Synthesizer</p>
                 <div className="grid grid-cols-2 gap-2">
                   <div>
                     <span className="text-[10px] text-slate-400">A = {opA}</span>
@@ -2281,7 +2281,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       max={15}
                       value={opA}
                       onChange={(e) => setOpA(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -2292,7 +2292,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       max={15}
                       value={opB}
                       onChange={(e) => setOpB(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -2322,7 +2322,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
               <span className="font-bold text-white text-sm">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono text-[11px] border border-indigo-500/30">
+              <span className="px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 font-mono text-[11px] border border-gold-500/30">
                 Node: {challenge.nodeId}
               </span>
               <span className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-semibold capitalize text-[11px]">
@@ -2349,7 +2349,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
           {/* Progress Bar */}
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2389,7 +2389,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       aria-label={`Option ${i + 1}: ${opt}`}
                     >
                       <div className="flex items-start gap-3">
-                        <span className="font-mono text-xs mt-0.5 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                        <span className="font-mono text-xs mt-0.5 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                         <span>{opt}</span>
                       </div>
                     </motion.button>
@@ -2409,7 +2409,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
                     >
@@ -2433,7 +2433,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       className="p-4 rounded-xl bg-slate-950 border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[90px] text-center"
                     >
                       <span className="text-xs text-slate-400">{target.title}</span>
-                      <span className="text-sm font-bold text-indigo-300 mt-1">
+                      <span className="text-sm font-bold text-gold-300 mt-1">
                         {droppedLabels[target.id] || '👉 Drop Label Here'}
                       </span>
                     </div>
@@ -2445,7 +2445,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Full Adder Diagram Labels
                 </motion.button>
@@ -2472,7 +2472,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-900 text-indigo-400 flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-full bg-slate-900 text-gold-400 flex items-center justify-center font-bold">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2485,7 +2485,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Check Algorithm Sequence Order
                 </motion.button>
@@ -2502,7 +2502,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                     aria-label="Enter your numeric answer"
                   />
                   <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
@@ -2511,7 +2511,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs disabled:opacity-40"
                   >
                     Validate Calculation
                   </motion.button>
@@ -2530,7 +2530,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2544,7 +2544,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 rounded bg-indigo-600 text-white font-mono text-xs flex items-center gap-1.5"
+                      className="px-3 py-1 rounded bg-gold-600 text-white font-mono text-xs flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2566,7 +2566,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs disabled:opacity-40"
                   >
                     Verify Construction
                   </motion.button>
@@ -2587,9 +2587,9 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-700/60 space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-700/60 space-y-4"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>📐 Step-by-Step Mathematical & Architectural Solution</span>
                 </div>
 
@@ -2618,7 +2618,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-700/70 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-700/70 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Proof Step →
                   </motion.button>
@@ -2654,19 +2654,19 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
           className="mt-6 space-y-6"
         >
           {/* Completion Banner */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-2xl border border-indigo-600 text-center space-y-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-2xl border border-gold-600 text-center space-y-2">
             <h2 className="text-3xl font-black text-white">Silicon Simulation Mastered!</h2>
             <p className="text-sm text-slate-300">
               Final Architecture Certification Score:{' '}
               <strong className="text-emerald-400 font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</strong>
             </p>
-            <p className="text-xs text-indigo-300 font-medium capitalize">
+            <p className="text-xs text-gold-300 font-medium capitalize">
               Adaptive Mastery Achieved: {masteryLevel} (ISC Class 12 CS Syllabus Complete)
             </p>
           </div>
 
           {/* MOTIVATIONAL FEEDBACK BANNER */}
-          <div className="p-5 bg-gradient-to-r from-indigo-900/60 to-emerald-900/60 rounded-2xl border border-indigo-500/50 text-center space-y-1">
+          <div className="p-5 bg-gradient-to-r from-gold-900/60 to-emerald-900/60 rounded-2xl border border-gold-500/50 text-center space-y-1">
             <div className="text-xl font-black text-amber-300 tracking-wide">
               {getMotivationalMessage(errors)}
             </div>
@@ -2707,7 +2707,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭 Deep Architecture Reflection</span>
             </h3>
             <p className="text-xs text-slate-400">
@@ -2723,7 +2723,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g. How the consensus term BC contributes nothing to the truth table..."
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2736,7 +2736,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g. Pipelining is like an automated laundry assembly line with overlapping stages..."
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2749,7 +2749,7 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g. Designing supercomputer ALUs, compiler optimizations, or memory managers..."
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2767,12 +2767,12 @@ export default function C12_ComputerScienceAdvancedBooleanAlgebraSim(props: Prop
 
           {/* Real-World Application Wrap-Up */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

@@ -1674,8 +1674,8 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
 
                       {/* Prediction verification */}
                       {!predictionMade ? (
-                        <div className="p-3.5 bg-slate-900 rounded-xl border border-indigo-800/60 space-y-2">
-                          <p className="text-xs font-bold text-indigo-300">{PREDICTION_QUESTIONS[0].question}</p>
+                        <div className="p-3.5 bg-slate-900 rounded-xl border border-gold-800/60 space-y-2">
+                          <p className="text-xs font-bold text-gold-300">{PREDICTION_QUESTIONS[0].question}</p>
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                             {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                               <motion.button
@@ -1750,7 +1750,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                   {/* Topic-Specific SVG Diagram 2 */}
                   <div>
                     <div className="flex items-center justify-between mb-1.5">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                         Figure 2: The 1991 New Economic Policy LPG Pillars Framework
                       </span>
                     </div>
@@ -1790,7 +1790,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                     {selectedLpgPillar === 'lib' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-3">
                         <div className="flex items-center gap-2">
-                          <span className="text-xs font-bold uppercase px-2 py-0.5 rounded bg-blue-500/20 text-blue-300">
+                          <span className="text-xs font-bold uppercase px-2 py-0.5 rounded bg-gold-500/20 text-gold-300">
                             Liberalisation Concept
                           </span>
                           <span className="text-xs text-slate-400">Removing Government Regulations & Controls</span>
@@ -1809,7 +1809,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                           </div>
                           <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                             <span className="text-slate-400 block">Reserved Sectors:</span>
-                            <span className="font-bold text-blue-400 text-sm">Cut 17 → 3</span>
+                            <span className="font-bold text-gold-400 text-sm">Cut 17 → 3</span>
                           </div>
                           <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                             <span className="text-slate-400 block">FDI Inflows:</span>
@@ -1865,7 +1865,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                           </div>
                           <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                             <span className="text-slate-400 block">Vaccine Supply:</span>
-                            <span className="font-bold text-blue-400 text-sm">60% World Total</span>
+                            <span className="font-bold text-gold-400 text-sm">60% World Total</span>
                           </div>
                           <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                             <span className="text-slate-400 block">Forex Reserves:</span>
@@ -1873,7 +1873,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                           </div>
                           <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                             <span className="text-slate-400 block">WTO Integration:</span>
-                            <span className="font-bold text-indigo-400 text-sm">Founder (1995)</span>
+                            <span className="font-bold text-gold-400 text-sm">Founder (1995)</span>
                           </div>
                         </div>
                       </motion.div>
@@ -2219,13 +2219,13 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
 
             {/* Sandbox Module 3: Urban Livability Index */}
             <div className="p-5 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-blue-400 flex items-center gap-1.5">
+              <h3 className="text-sm font-bold text-gold-400 flex items-center gap-1.5">
                 <span>🏙️</span> Smart City Livability
               </h3>
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between items-center">
                   <span className="text-slate-300">Current Livability Index:</span>
-                  <span className="text-lg font-black text-blue-400">{urbanLivabilityScore} / 100</span>
+                  <span className="text-lg font-black text-gold-400">{urbanLivabilityScore} / 100</span>
                 </div>
                 <div className="grid grid-cols-2 gap-1.5 pt-1">
                   {Object.entries(smartLayers).map(([key, val]) => (
@@ -2234,7 +2234,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleSmartLayerToggle(key as keyof typeof smartLayers)}
                       className={`p-1.5 text-[10px] rounded font-bold ${
-                        val ? 'bg-blue-600 text-white' : 'bg-slate-950 text-slate-500'
+                        val ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-500'
                       }`}
                       aria-label={`Toggle sandbox ${key}`}
                     >
@@ -2272,7 +2272,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                     ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
-                    : 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                    : 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                 }`}
               >
                 {difficulty} Tier
@@ -2281,7 +2281,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
 
             <div className="h-2 bg-slate-950 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2596,7 +2596,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
               <div className="h-10 w-px bg-slate-800" />
               <div>
                 <span className="text-xs text-slate-400 block font-bold uppercase">Mastery Tier</span>
-                <span className="text-xl font-extrabold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-extrabold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="h-10 w-px bg-slate-800" />
               <div>
@@ -2716,7 +2716,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
           </motion.div>
 
           {/* ─── REFLECTION SECTION ─��─ */}
-          <div className="p-6 bg-gradient-to-br from-slate-900 via-indigo-950/30 to-slate-900 rounded-2xl border border-indigo-700/50 space-y-5">
+          <div className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/30 to-slate-900 rounded-2xl border border-gold-700/50 space-y-5">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
               <div>
@@ -2742,14 +2742,14 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
 
               {/* Question 2 */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-blue-400 block">
+                <label className="text-xs font-bold text-gold-400 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="E.g., India's economy is like building a house: welfare schemes create the protective floor, LPG reforms opened the doors and windows for trade, and Digital India installed the smart electrical system..."
-                  className="w-full h-20 p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500 resize-none"
+                  className="w-full h-20 p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                   aria-label="Reflection question 2"
                 />
               </div>
@@ -2777,7 +2777,7 @@ export function C9_EconomicsGovernmentSchemesRemoveSim({
                   setReflectionSubmitted(true);
                   audioManager.play('success');
                 }}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-950"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-950"
                 aria-label="Save reflections"
               >
                 {reflectionSubmitted ? '✓ Reflections Saved' : 'Submit Reflections →'}

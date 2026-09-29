@@ -42,7 +42,7 @@ export function C7_ScienceLifeProcessesInAnimalsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Life Processes in Animals: Heart and Breath Rates</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Life Processes in Animals: Heart and Breath Rates</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Animal picker */}
@@ -51,7 +51,7 @@ export function C7_ScienceLifeProcessesInAnimalsSim() {
           <button
             key={a}
             onClick={() => setAnimal(a)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${animal === a ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${animal === a ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {DATA[a].emoji} {DATA[a].name}
           </button>
@@ -83,7 +83,7 @@ export function C7_ScienceLifeProcessesInAnimalsSim() {
           >
             <div className="text-6xl">{animal === 'fish' ? '🫧' : '🫁'}</div>
           </div>
-          <div className="mt-2 font-mono text-2xl font-black text-sky-400">{animal === 'fish' ? `${Math.round(br)} gill flows/min` : `${Math.round(br)} breaths/min`}</div>
+          <div className="mt-2 font-mono text-2xl font-black text-gold-400">{animal === 'fish' ? `${Math.round(br)} gill flows/min` : `${Math.round(br)} breaths/min`}</div>
           <div className="text-xs text-slate-400">{active ? 'oxygen demand high' : 'calm and steady'}</div>
         </div>
       </div>
@@ -128,8 +128,8 @@ export function C7_ScienceLifeProcessesInAnimalsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Switch every animal to Running. Whose rate multiplies the MOST compared to rest -- mouse or elephant? Why can a mouse not sprint for long?</li>
           <li>Count the visible beats for 10 seconds with a real clock while the human rests, multiply by 6, and check against the shown number.</li>

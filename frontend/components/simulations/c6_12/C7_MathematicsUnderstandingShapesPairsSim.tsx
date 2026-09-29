@@ -1287,7 +1287,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
         className="flex flex-wrap items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-blue-950/80 rounded-2xl border border-blue-700">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
             <p className="text-xs text-slate-400 font-medium">ICSE Class 7 Mathematics • Nodes: c7_math_031 to c7_math_040</p>
@@ -1304,7 +1304,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-purple-950 text-purple-400 border border-purple-700'
-                : 'bg-blue-950 text-blue-400 border border-blue-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1318,15 +1318,15 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-blue-950/60 to-slate-900 rounded-2xl border border-blue-800/60">
-            <h2 className="text-xl font-bold text-blue-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🏗️</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
               <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
                 <span className="text-slate-400 block font-semibold">📍 Engineering Project Site:</span>
-                <span className="text-blue-300 font-medium">{SCENARIO.siteLocation}</span>
+                <span className="text-gold-300 font-medium">{SCENARIO.siteLocation}</span>
               </div>
               <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
                 <span className="text-slate-400 block font-semibold">📐 Target Standards:</span>
@@ -1359,7 +1359,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       : 'bg-slate-800/80 hover:bg-slate-700/90 text-slate-200 border-slate-700'
                   }`}
                 >
-                  <span className="font-bold text-blue-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1382,7 +1382,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Geometry Labs {'→'}
                 </motion.button>
@@ -1407,7 +1407,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
             >
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="text-lg font-bold text-blue-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                  <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <span className="text-xs text-slate-400">
                     Topic: {NODE_METADATA[EXPLORATION_STEPS[currentSlide].nodeId]?.title || 'Geometry'}
                   </span>
@@ -1458,8 +1458,8 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     </svg>
 
                     <div className="w-full md:w-1/3 space-y-3 text-xs">
-                      <div className="p-3 bg-blue-950/40 rounded-xl border border-blue-900">
-                        <span className="font-bold text-blue-400">Vertically Opposite (Equal):</span>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900">
+                        <span className="font-bold text-gold-400">Vertically Opposite (Equal):</span>
                         <p className="text-slate-300 mt-1">∠1 = ∠3 = {intersectAngle}°</p>
                         <p className="text-slate-300">∠2 = ∠4 = {supplementaryAngle}°</p>
                       </div>
@@ -1483,7 +1483,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       value={intersectAngle}
                       onChange={e => handleIntersectSlider(Number(e.target.value))}
                       aria-label="Set Intersection Angle"
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1532,8 +1532,8 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     </svg>
 
                     <div className="w-full md:w-1/3 space-y-2 text-xs">
-                      <div className="p-2.5 bg-blue-950/40 rounded-lg border border-blue-900">
-                        <span className="font-bold text-blue-400">Corresponding Angles (=):</span>
+                      <div className="p-2.5 bg-gold-950/40 rounded-lg border border-gold-900">
+                        <span className="font-bold text-gold-400">Corresponding Angles (=):</span>
                         <p className="text-slate-300">Matching corners = {transversalAngle}°</p>
                       </div>
                       <div className="p-2.5 bg-emerald-950/40 rounded-lg border border-emerald-900">
@@ -1621,9 +1621,9 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     </svg>
 
                     <div className="mt-3 grid grid-cols-2 gap-3 text-xs">
-                      <div className="p-2.5 bg-blue-950/40 rounded-xl border border-blue-900 text-center">
+                      <div className="p-2.5 bg-gold-950/40 rounded-xl border border-gold-900 text-center">
                         <span className="text-slate-400">Angle Sum Property:</span>
-                        <p className="text-base font-bold text-blue-300">
+                        <p className="text-base font-bold text-gold-300">
                           {calculatedTriangleAngles.angleB}° + {calculatedTriangleAngles.angleTop}° + {calculatedTriangleAngles.angleC}° = 180°
                         </p>
                       </div>
@@ -1645,7 +1645,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       value={triangleTopX}
                       onChange={e => setTriangleTopX(Number(e.target.value))}
                       aria-label="Set Top Vertex Position"
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1686,7 +1686,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">Leg b = {pythagLegB} m</span>
-                        <p className="text-blue-400 font-bold text-sm">b² = {pythagLegB * pythagLegB}</p>
+                        <p className="text-gold-400 font-bold text-sm">b² = {pythagLegB * pythagLegB}</p>
                       </div>
                       <div className="p-3 bg-amber-950/40 rounded-xl border border-amber-900">
                         <span className="text-amber-400 font-bold">Hypotenuse Square h²:</span>
@@ -1717,7 +1717,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                         max={16}
                         value={pythagLegB}
                         onChange={e => handlePythagLegBSlider(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1735,7 +1735,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => setSelectedShape(shape)}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition ${
-                          selectedShape === shape ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                          selectedShape === shape ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
                         {shape}
@@ -1770,7 +1770,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     <div className="w-full md:w-1/3 text-xs space-y-2">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="font-bold text-white">Current Rotation:</span>
-                        <p className="text-xl font-bold text-blue-400 mt-1">{rotAngle}°</p>
+                        <p className="text-xl font-bold text-gold-400 mt-1">{rotAngle}°</p>
                         <p className="text-slate-400 mt-1">
                           {selectedShape === 'square' && 'Matches at 90°, 180°, 270°, 360° (Order 4)'}
                           {selectedShape === 'triangle' && 'Matches at 120°, 240°, 360° (Order 3)'}
@@ -1788,7 +1788,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       max={360}
                       value={rotAngle}
                       onChange={e => handleRotationSlider(Number(e.target.value))}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1925,7 +1925,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab {'→'}
                   </motion.button>
@@ -1959,17 +1959,17 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-blue-400 uppercase">Girder Intersection Controls</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Girder Intersection Controls</span>
               <input
                 type="range"
                 min={20}
                 max={160}
                 value={intersectAngle}
                 onChange={e => handleIntersectSlider(Number(e.target.value))}
-                className="w-full accent-blue-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-3 bg-slate-950 rounded-xl text-xs text-slate-300">
-                Opposite: <span className="text-blue-400 font-bold">{intersectAngle}°</span> | Adjacent:{' '}
+                Opposite: <span className="text-gold-400 font-bold">{intersectAngle}°</span> | Adjacent:{' '}
                 <span className="text-purple-400 font-bold">{180 - intersectAngle}°</span>
               </div>
             </div>
@@ -1991,7 +1991,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                   max={20}
                   value={pythagLegB}
                   onChange={e => handlePythagLegBSlider(Number(e.target.value))}
-                  className="w-1/2 accent-blue-500"
+                  className="w-1/2 accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs text-slate-300">
@@ -2005,7 +2005,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-2xl shadow-xl shadow-blue-600/30 text-sm flex justify-center items-center gap-2"
+            className="w-full py-4 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold rounded-2xl shadow-xl shadow-gold-600/30 text-sm flex justify-center items-center gap-2"
           >
             I am Ready for Structural Challenges! {'→'}
           </motion.button>
@@ -2021,11 +2021,11 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
               <span>
                 CHALLENGE {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
-              <span className="capitalize text-blue-400">Competency: {challenge.competencyLevel}</span>
+              <span className="capitalize text-gold-400">Competency: {challenge.competencyLevel}</span>
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-blue-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2041,7 +2041,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
             }`}
           >
             <div className="flex justify-between items-center mb-4">
-              <span className="text-xs font-bold text-blue-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 {NODE_METADATA[challenge.nodeId]?.title || 'ICSE Mathematics'}
               </span>
               <span className="text-xs bg-slate-800 px-2.5 py-1 rounded-lg text-slate-400">
@@ -2070,7 +2070,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                           : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-blue-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2088,7 +2088,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-blue-700 text-white rounded-xl text-xs font-bold cursor-grab shadow"
+                      className="px-4 py-2 bg-gold-700 text-white rounded-xl text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2123,7 +2123,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-blue-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2149,7 +2149,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-xs font-medium cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-blue-900 text-blue-300 flex items-center justify-center font-bold text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                       {i + 1}
                     </span>
                     {item}
@@ -2164,7 +2164,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       sortArrangement.length > 0 ? sortArrangement : challenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(ans);
                   }}
-                  className="px-6 py-2.5 bg-blue-600 text-white font-bold rounded-xl text-xs mt-2"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs mt-2"
                 >
                   Verify Step Order
                 </motion.button>
@@ -2179,14 +2179,14 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-blue-500"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-3 bg-blue-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-3 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Submit Answer
                 </motion.button>
@@ -2204,7 +2204,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-blue-300 rounded-xl text-xs border border-slate-700"
+                      className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-xl text-xs border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2213,7 +2213,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
 
                 <div className="min-h-[90px] p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <div key={idx} className="px-3 py-1.5 bg-blue-950 text-blue-200 rounded-lg text-xs border border-blue-800 flex items-center gap-2">
+                    <div key={idx} className="px-3 py-1.5 bg-gold-950 text-gold-200 rounded-lg text-xs border border-gold-800 flex items-center gap-2">
                       <span>{part}</span>
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2233,7 +2233,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-blue-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Algebraic Construction
                 </motion.button>
@@ -2245,10 +2245,10 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-blue-950/40 border border-blue-800/80 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800/80 rounded-2xl space-y-3"
               >
                 <div className="flex justify-between items-center">
-                  <p className="text-xs font-bold text-blue-300 uppercase">Step-by-Step Solution Breakdown</p>
+                  <p className="text-xs font-bold text-gold-300 uppercase">Step-by-Step Solution Breakdown</p>
                   <span className="text-[10px] text-slate-400">
                     Step {revealedSteps + 1} of {challenge.explanation.split('. ').filter(s => s.trim().length > 0).length}
                   </span>
@@ -2265,7 +2265,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs text-slate-200 leading-relaxed"
                     >
-                      <span className="font-bold text-blue-400">{i + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2276,7 +2276,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-1.5 bg-blue-800 text-white rounded-lg text-xs font-bold"
+                    className="px-4 py-1.5 bg-gold-800 text-white rounded-lg text-xs font-bold"
                   >
                     Reveal Next Step {'→'}
                   </motion.button>
@@ -2309,7 +2309,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
             <h2 className="text-2xl md:text-3xl font-black text-white">Structural Certification Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
               You scored <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> with{' '}
-              <span className="text-blue-400 font-bold uppercase">{masteryLevel}</span> geometric mastery.
+              <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span> geometric mastery.
             </p>
           </div>
 
@@ -2320,7 +2320,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
                 🌟 PERFECT SCORE! Every beam angle, theorem, and symmetry rotation was executed flawlessly.
               </p>
             ) : errors <= 3 ? (
-              <p className="text-blue-300 font-bold">
+              <p className="text-gold-300 font-bold">
                 👍 Great execution! You have strong command over angle pairs, parallel lines, and triangle properties.
               </p>
             ) : (
@@ -2331,7 +2331,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
           </div>
 
           {/* SPACED REPETITION VISIBILITY (SM-2 Visual Schedule Card) */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/40 via-slate-900 to-blue-950/40 rounded-3xl border border-amber-800/80 space-y-4 shadow-xl">
+          <div className="p-6 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-amber-800/80 space-y-4 shadow-xl">
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">📅</span>
@@ -2364,7 +2364,7 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
 
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 space-y-1">
                 <span className="text-slate-400 font-semibold block">Topics Scheduled for Recall</span>
-                <p className="text-sm font-bold text-blue-300">Complementary, Transversals, Pythagoras</p>
+                <p className="text-sm font-bold text-gold-300">Complementary, Transversals, Pythagoras</p>
                 <p className="text-[11px] text-slate-500">10 Curriculum Nodes Synchronized</p>
               </div>
             </div>
@@ -2393,14 +2393,14 @@ export function C7_MathematicsUnderstandingShapesPairsSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-blue-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📐</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-blue-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

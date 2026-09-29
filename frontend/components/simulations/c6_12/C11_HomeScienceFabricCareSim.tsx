@@ -103,7 +103,7 @@ export function C11_HomeScienceFabricCareSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs">
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Water temp</p>
-              <p className={`font-mono font-bold ${temp > f.maxTemp ? 'text-rose-300' : 'text-sky-300'}`}>{temp} °C</p>
+              <p className={`font-mono font-bold ${temp > f.maxTemp ? 'text-rose-300' : 'text-gold-300'}`}>{temp} °C</p>
             </div>
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Shrinkage</p>
@@ -137,18 +137,18 @@ export function C11_HomeScienceFabricCareSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Wash temperature</span>
-                <span className="font-mono font-bold text-sky-400">{temp} °C (safe ≤ {f.maxTemp} °C)</span>
+                <span className="font-mono font-bold text-gold-400">{temp} °C (safe ≤ {f.maxTemp} °C)</span>
               </div>
               <input type="range" min={5} max={90} step={5} value={temp} aria-label="wash temperature"
-                onChange={(e) => setTemp(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setTemp(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Agitation (rubbing / spin)</span>
-                <span className="font-mono font-bold text-violet-400">{agitation} / 10</span>
+                <span className="font-mono font-bold text-gold-400">{agitation} / 10</span>
               </div>
               <input type="range" min={0} max={10} step={1} value={agitation} aria-label="agitation level"
-                onChange={(e) => setAgitation(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setAgitation(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <p className="text-[11px] text-slate-400 mb-1">Drying method</p>

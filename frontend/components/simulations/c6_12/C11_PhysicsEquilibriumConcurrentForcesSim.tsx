@@ -1199,12 +1199,12 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl font-extrabold text-white tracking-wide">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 11 Physics • Mechanics Master Lab</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 11 Physics • Mechanics Master Lab</p>
           </div>
         </div>
 
@@ -1218,7 +1218,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             {difficulty} Tier
@@ -1239,13 +1239,13 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
           animate={{ opacity: 1, y: 0 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-lg text-xs font-bold uppercase tracking-wide">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/80 shadow-lg">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-300 rounded-lg text-xs font-bold uppercase tracking-wide">
               Engineering Mission
             </span>
             <h2 className="text-2xl font-black text-white mt-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-3 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-indigo-300 text-xs mt-2 italic bg-indigo-950/50 p-2.5 rounded-xl border border-indigo-900/50">
+            <p className="text-gold-300 text-xs mt-2 italic bg-gold-950/50 p-2.5 rounded-xl border border-gold-900/50">
               {SCENARIO.context}
             </p>
           </div>
@@ -1274,7 +1274,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       : 'bg-slate-800 hover:bg-slate-700/80 text-slate-200 border border-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1294,7 +1294,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1309,7 +1309,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           {/* Step Navigator Bar */}
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-2xl border border-slate-800">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </span>
             <div className="flex gap-1.5">
@@ -1317,7 +1317,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                 <div
                   key={s}
                   className={`h-2 rounded-full transition-all ${
-                    s === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                    s === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1410,7 +1410,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       <span className={Math.abs(netFy) < 0.1 ? 'text-emerald-400' : 'text-amber-400'}>
                         ΣFy: {netFy} N
                       </span>
-                      <span className="text-indigo-400">
+                      <span className="text-gold-400">
                         Status: {Math.abs(netFx) < 0.1 && Math.abs(netFy) < 0.1 ? 'EQUILIBRIUM ✓' : 'UNBALANCED'}
                       </span>
                     </div>
@@ -1420,7 +1420,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Cable A Angle (θA)</span>
-                        <span className="text-sky-400">{angleA}°</span>
+                        <span className="text-gold-400">{angleA}°</span>
                       </div>
                       <input
                         type="range"
@@ -1428,7 +1428,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         max={75}
                         value={angleA}
                         onChange={e => setAngleA(Number(e.target.value))}
-                        className="w-full mt-1 accent-sky-500"
+                        className="w-full mt-1 accent-gold-500"
                         aria-label="Cable A Angle"
                       />
                     </div>
@@ -1468,7 +1468,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 space-y-1">
                       <p className="text-slate-200 font-bold">Lami’s Theorem Relation:</p>
-                      <p className="font-mono text-indigo-300">T_A / sin(90° + θB) = T_B / sin(90° + θA) = W / sin(180° - θA - θB)</p>
+                      <p className="font-mono text-gold-300">T_A / sin(90° + θB) = T_B / sin(90° + θA) = W / sin(180° - θA - θB)</p>
                     </div>
                   </div>
                 </div>
@@ -1534,7 +1534,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         Max Static fs(max): <b className="text-amber-400">{(muStatic * blockMass * 9.8).toFixed(1)} N</b>
                       </span>
                       <span className="text-slate-300">
-                        Kinetic fk: <b className="text-sky-400">{(muKinetic * blockMass * 9.8).toFixed(1)} N</b>
+                        Kinetic fk: <b className="text-gold-400">{(muKinetic * blockMass * 9.8).toFixed(1)} N</b>
                       </span>
                       <span className={`px-2 py-0.5 rounded font-bold ${isSlipping ? 'bg-rose-950 text-rose-400' : 'bg-emerald-950 text-emerald-400'}`}>
                         {isSlipping ? 'SLIDING ACCELERATING' : 'STATIC REST'}
@@ -1579,7 +1579,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Block Mass</span>
-                        <span className="text-indigo-400">{blockMass} kg</span>
+                        <span className="text-gold-400">{blockMass} kg</span>
                       </div>
                       <input
                         type="range"
@@ -1587,7 +1587,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         max={20}
                         value={blockMass}
                         onChange={e => setBlockMass(Number(e.target.value))}
-                        className="w-full mt-1 accent-indigo-500"
+                        className="w-full mt-1 accent-gold-500"
                         aria-label="Block Mass"
                       />
                     </div>
@@ -1698,7 +1698,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       <p className="text-slate-200 font-bold">Equations for Motion Down Incline:</p>
                       <p className="font-mono text-emerald-400">N = mg cos θ</p>
                       <p className="font-mono text-rose-400">F_net = mg sin θ - μ mg cos θ = m a</p>
-                      <p className="font-mono text-indigo-400">a = g(sin θ - μ cos θ)</p>
+                      <p className="font-mono text-gold-400">a = g(sin θ - μ cos θ)</p>
                     </div>
                   </div>
                 </div>
@@ -1756,7 +1756,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                           ? 'bg-emerald-950 text-emerald-400'
                           : carSpeedKmH > idealBankSpeed
                           ? 'bg-amber-950 text-amber-400'
-                          : 'bg-sky-950 text-sky-400'
+                          : 'bg-gold-950 text-gold-400'
                       }`}>
                         {Math.abs(carSpeedKmH - idealBankSpeed) < 5
                           ? 'IDEAL BALANCE ✓'
@@ -1771,7 +1771,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Banking Angle (θ)</span>
-                        <span className="text-sky-400">{bankAngle}°</span>
+                        <span className="text-gold-400">{bankAngle}°</span>
                       </div>
                       <input
                         type="range"
@@ -1779,7 +1779,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         max={35}
                         value={bankAngle}
                         onChange={e => setBankAngle(Number(e.target.value))}
-                        className="w-full mt-1 accent-sky-500"
+                        className="w-full mt-1 accent-gold-500"
                         aria-label="Banking Angle"
                       />
                     </div>
@@ -1787,7 +1787,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Turn Radius (r)</span>
-                        <span className="text-indigo-400">{curveRadius} m</span>
+                        <span className="text-gold-400">{curveRadius} m</span>
                       </div>
                       <input
                         type="range"
@@ -1796,7 +1796,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         step={10}
                         value={curveRadius}
                         onChange={e => setCurveRadius(Number(e.target.value))}
-                        className="w-full mt-1 accent-indigo-500"
+                        className="w-full mt-1 accent-gold-500"
                         aria-label="Turn Radius"
                       />
                     </div>
@@ -1819,7 +1819,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 space-y-1">
                       <p className="text-slate-200 font-bold">Key Banking Derivation:</p>
-                      <p className="font-mono text-indigo-300">N sin θ = m v² / r</p>
+                      <p className="font-mono text-gold-300">N sin θ = m v² / r</p>
                       <p className="font-mono text-emerald-400">N cos θ = m g</p>
                       <p className="font-mono text-amber-300">tan θ = v² / (r g)</p>
                     </div>
@@ -1855,7 +1855,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Spring Constant (k)</span>
-                        <span className="text-sky-400">{springK} N/m</span>
+                        <span className="text-gold-400">{springK} N/m</span>
                       </div>
                       <input
                         type="range"
@@ -1864,7 +1864,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         step={25}
                         value={springK}
                         onChange={e => setSpringK(Number(e.target.value))}
-                        className="w-full mt-1 accent-sky-500"
+                        className="w-full mt-1 accent-gold-500"
                         aria-label="Spring Constant"
                       />
                     </div>
@@ -1892,8 +1892,8 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 space-y-1">
                       <p className="text-slate-200 font-bold">Conservation of Mechanical Energy:</p>
                       <p className="font-mono text-emerald-400">U_max = (1/2) k A² = {(0.5 * springK * springAmplitude * springAmplitude).toFixed(2)} J</p>
-                      <p className="font-mono text-sky-400">K_max = (1/2) m v_max² = U_max</p>
-                      <p className="font-mono text-indigo-300">v_max = √(k/m) · A = {(Math.sqrt(springK / springMass) * springAmplitude).toFixed(2)} m/s</p>
+                      <p className="font-mono text-gold-400">K_max = (1/2) m v_max² = U_max</p>
+                      <p className="font-mono text-gold-300">v_max = √(k/m) · A = {(Math.sqrt(springK / springMass) * springAmplitude).toFixed(2)} m/s</p>
                     </div>
                   </div>
                 </div>
@@ -1922,7 +1922,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1966,7 +1966,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-sm font-bold text-indigo-300">Inclined Plane & Friction Sandbox</h4>
+                <h4 className="text-sm font-bold text-gold-300">Inclined Plane & Friction Sandbox</h4>
                 <div className="flex justify-between text-xs text-slate-400">
                   <span>θ: {inclineAngle}°</span>
                   <span>μ: {inclineMu}</span>
@@ -1978,13 +1978,13 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   max={75}
                   value={inclineAngle}
                   onChange={e => setInclineAngle(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox Incline Angle"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-sm font-bold text-sky-300">Spring Energy Converter</h4>
+                <h4 className="text-sm font-bold text-gold-300">Spring Energy Converter</h4>
                 <div className="flex justify-between text-xs text-slate-400">
                   <span>k: {springK} N/m</span>
                   <span>A: {springAmplitude} m</span>
@@ -1996,7 +1996,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   max={500}
                   value={springK}
                   onChange={e => setSpringK(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox Spring Constant"
                 />
               </div>
@@ -2011,7 +2011,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2026,7 +2026,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
             }`}
           >
             <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-              <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-lg text-xs font-bold uppercase tracking-wider">
+              <span className="px-3 py-1 bg-gold-500/20 text-gold-300 rounded-lg text-xs font-bold uppercase tracking-wider">
                 NEP 2020 Competency: {challenge.competencyLevel}
               </span>
               <span className="text-xs text-slate-400">Node: {challenge.nodeId}</span>
@@ -2052,7 +2052,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         : 'bg-slate-800 hover:bg-slate-700/80 text-slate-200 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2070,7 +2070,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing shadow"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2090,7 +2090,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       onDrop={() => handleDragDrop(slot.id)}
                       className={`p-4 rounded-xl border-2 border-dashed flex flex-col justify-center min-h-[70px] transition-colors ${
                         droppedLabels[slot.id]
-                          ? 'bg-indigo-950/60 border-indigo-500'
+                          ? 'bg-gold-950/60 border-gold-500'
                           : 'bg-slate-950/50 border-slate-700'
                       }`}
                     >
@@ -2108,7 +2108,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Verify Force Placement
                 </motion.button>
@@ -2136,7 +2136,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-sm font-medium flex items-center justify-between cursor-grab"
                     >
                       <span>
-                        <b className="text-indigo-400 mr-2">#{dIdx + 1}</b> {item}
+                        <b className="text-gold-400 mr-2">#{dIdx + 1}</b> {item}
                       </span>
                       <span className="text-slate-500 text-xs">↕ Drag to reorder</span>
                     </motion.div>
@@ -2150,7 +2150,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Submit Order
                 </motion.button>
@@ -2166,7 +2166,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   aria-label="Numeric answer input"
                 />
                 <span className="text-slate-300 font-bold text-sm">{challenge.unit}</span>
@@ -2177,7 +2177,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30 disabled:opacity-50"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30 disabled:opacity-50"
                 >
                   Check Numerical Solution
                 </motion.button>
@@ -2195,7 +2195,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2204,7 +2204,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-700 text-white rounded-md text-xs font-mono font-bold">
+                    <span key={i} className="px-2.5 py-1 bg-gold-700 text-white rounded-md text-xs font-mono font-bold">
                       {p}
                     </span>
                   ))}
@@ -2225,7 +2225,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Validate Proof Construction
                 </motion.button>
@@ -2237,9 +2237,9 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800/80 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800/80 rounded-2xl space-y-4"
               >
-                <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                   Physics Walkthrough & Explanation:
                 </span>
 
@@ -2255,7 +2255,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                         animate={{ opacity: 1, x: 0 }}
                         className="text-slate-200 text-sm leading-relaxed"
                       >
-                        <span className="text-indigo-400 font-bold mr-2">Step {sIdx + 1}:</span>
+                        <span className="text-gold-400 font-bold mr-2">Step {sIdx + 1}:</span>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2269,7 +2269,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2303,12 +2303,12 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
           className="mt-6 space-y-6"
         >
           {/* Main Completion & Motivational Hero */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-black text-white">Mechanics Mastery Achieved!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="py-2 px-4 inline-block rounded-2xl bg-indigo-900/60 border border-indigo-500">
+            <div className="py-2 px-4 inline-block rounded-2xl bg-gold-900/60 border border-gold-500">
               <p className="text-lg font-black text-amber-300 tracking-wide uppercase">
                 {motivationalMessage}
               </p>
@@ -2326,14 +2326,14 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
 
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 text-center min-w-[120px]">
                 <span className="text-xs text-slate-400 font-bold uppercase">BKT Mastery</span>
-                <p className="text-2xl font-black text-indigo-400 mt-1 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🤔</span> Reflection & Conceptual Synthesis:
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -2346,7 +2346,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
                   <textarea
                     rows={3}
                     placeholder="Reflect on this question..."
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               ))}
@@ -2376,7 +2376,7 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
 
           {/* Spaced Repetition (SRS) Schedule */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-2">
-            <h3 className="text-sm font-bold text-indigo-300">📅 Spaced Repetition Memory Schedule (SM-2):</h3>
+            <h3 className="text-sm font-bold text-gold-300">📅 Spaced Repetition Memory Schedule (SM-2):</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
               Based on your response latency and score, your next review session is scheduled in{' '}
               <b className="text-amber-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</b>.
@@ -2385,13 +2385,13 @@ function C11_PhysicsEquilibriumConcurrentForcesSim(props: Props = DEFAULT_PROPS)
           </div>
 
           {/* Real World Transit Challenge Arc */}
-          <div className="p-6 bg-indigo-950/50 rounded-3xl border border-indigo-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">🏔️ {REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gold-950/50 rounded-3xl border border-gold-800 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">🏔️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span> {st}
+                  <span className="text-gold-400 font-bold">{i + 1}.</span> {st}
                 </li>
               ))}
             </ul>

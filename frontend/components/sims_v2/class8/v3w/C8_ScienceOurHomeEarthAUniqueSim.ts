@@ -11,11 +11,11 @@ export const w_c8_scienceourhomeearthauniquesim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Earth as a Unique Planet: Conditions for Life',
     chapters: [],
     nodeIds: ['c8_physics_ch9_1', 'c8_physics_ch9_2'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Look up at the night sky from your terrace in Delhi or a village in Kerala — you see the Moon, maybe Venus or.', goal: 'Master Earth as a Unique Planet: Conditions for Life.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Earth is a unique planet in our solar system.', text: 'Earth is a unique planet in our solar system because it possesses a specific combination of physical conditions — including a stable temperature range allowing liquid water, a protective atmosphere.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Earth is a unique planet in our solar system.', text: 'Earth is a unique planet in our solar system because it possesses a specific combination of physical conditions — including a stable temperature range allowing liquid water, a protective atmosphere.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch9_1', title: 'Earth is a unique planet in our solar.',

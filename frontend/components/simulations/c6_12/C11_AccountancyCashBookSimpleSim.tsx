@@ -1476,7 +1476,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                 ? 'bg-emerald-950 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-300 border-rose-600'
-                : 'bg-indigo-950 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950 text-gold-300 border-gold-600'
             }`}
           >
             {difficulty}
@@ -1491,7 +1491,7 @@ export default function C11_AccountancyCashBookSimpleSim({
           animate={{ opacity: 1, y: 0 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-5 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-800/60 shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-800/60 shadow-lg">
             <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm">
               <span>🏢</span> {SCENARIO.title}
             </div>
@@ -1732,8 +1732,8 @@ export default function C11_AccountancyCashBookSimpleSim({
               {currentSlide === 1 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 border border-indigo-700/60 rounded-xl">
-                      <p className="text-sm font-semibold text-indigo-200 mb-2">
+                    <div className="p-4 bg-gold-950/40 border border-gold-700/60 rounded-xl">
+                      <p className="text-sm font-semibold text-gold-200 mb-2">
                         {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1744,7 +1744,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
                             aria-label={`Select prediction: ${opt}`}
-                            className="p-2.5 rounded-lg text-xs text-left bg-slate-800 hover:bg-indigo-900/60 border border-slate-700 text-slate-200"
+                            className="p-2.5 rounded-lg text-xs text-left bg-slate-800 hover:bg-gold-900/60 border border-slate-700 text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1765,7 +1765,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                         </div>
                         <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-center">
                           <div className="text-xs text-slate-400">SBI Bank Account</div>
-                          <div className="text-lg font-black text-indigo-400 font-mono">
+                          <div className="text-lg font-black text-gold-400 font-mono">
                             ₹{contraBankBalance.toLocaleString()}
                           </div>
                         </div>
@@ -1795,7 +1795,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                           whileTap={{ scale: 0.98 }}
                           onClick={handleWithdrawFromBank}
                           aria-label={`Withdraw ₹${contraWithdrawAmount.toLocaleString()} from SBI for Office`}
-                          className="flex-1 p-2.5 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white shadow"
+                          className="flex-1 p-2.5 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white shadow"
                         >
                           - Withdraw ₹{contraWithdrawAmount.toLocaleString()} for Office (C)
                         </motion.button>
@@ -1848,7 +1848,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between text-center">
                       <div className="text-xs font-bold text-slate-400">Fixed Monthly Float</div>
-                      <div className="text-2xl font-black text-indigo-400 font-mono">₹{imprestFloat}</div>
+                      <div className="text-2xl font-black text-gold-400 font-mono">₹{imprestFloat}</div>
                       <div className="h-3 bg-slate-800 rounded-full overflow-hidden my-2">
                         <motion.div
                           className="h-full bg-emerald-500"
@@ -1987,7 +1987,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                               <button
                                 aria-label="Route to Journal Proper"
                                 onClick={() => handleRouteItem(item.id, 'jp')}
-                                className="px-2 py-1 bg-slate-800 hover:bg-indigo-700 rounded text-[11px] text-slate-300"
+                                className="px-2 py-1 bg-slate-800 hover:bg-gold-700 rounded text-[11px] text-slate-300"
                               >
                                 Journal Proper
                               </button>
@@ -2005,12 +2005,12 @@ export default function C11_AccountancyCashBookSimpleSim({
                     </div>
 
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3 text-xs">
-                      <div className="font-bold text-indigo-300">Subsidiary Book Audit Rules:</div>
+                      <div className="font-bold text-gold-300">Subsidiary Book Audit Rules:</div>
                       <div className="p-2 bg-slate-900 rounded border border-slate-800">
                         <strong className="text-emerald-400">Sales / Purchases Day Books:</strong> Strictly for <em>credit trading goods</em>. Cash sales go to Cash Book.
                       </div>
                       <div className="p-2 bg-slate-900 rounded border border-slate-800">
-                        <strong className="text-indigo-400">Journal Proper:</strong> Residual book for credit purchase/sale of <em>Fixed Assets</em> (computers, vans, machinery) and adjustment entries.
+                        <strong className="text-gold-400">Journal Proper:</strong> Residual book for credit purchase/sale of <em>Fixed Assets</em> (computers, vans, machinery) and adjustment entries.
                       </div>
                       <div className="p-2 bg-slate-900 rounded border border-slate-800">
                         <strong className="text-amber-400">Return Day Books:</strong> Sales Return uses <em>Credit Note</em> (issued by seller); Purchases Return uses <em>Debit Note</em> (issued by buyer).
@@ -2053,10 +2053,10 @@ export default function C11_AccountancyCashBookSimpleSim({
 
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
                       <div className="text-xs text-slate-400 font-bold uppercase">SBI Pass Book (Bank Record)</div>
-                      <div className="text-2xl font-black text-indigo-400 font-mono my-2">
+                      <div className="text-2xl font-black text-gold-400 font-mono my-2">
                         ₹{calculatedPassBookBalance.toLocaleString()}
                       </div>
-                      <div className="text-xs text-indigo-300">
+                      <div className="text-xs text-gold-300">
                         Difference: ₹{Math.abs(calculatedPassBookBalance - brsBaseCashBook).toLocaleString()}
                       </div>
                     </div>
@@ -2142,7 +2142,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
                 aria-label="Enter Free Sandbox Mode"
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
               >
                 Enter Free Sandbox Mode →
               </motion.button>
@@ -2196,7 +2196,7 @@ export default function C11_AccountancyCashBookSimpleSim({
             </div>
 
             <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-3">
-              <div className="text-xs font-bold text-indigo-400 uppercase">Live Parameter Adjustments</div>
+              <div className="text-xs font-bold text-gold-400 uppercase">Live Parameter Adjustments</div>
               <div className="space-y-2 text-xs">
                 <div>
                   <div className="flex justify-between text-slate-400">
@@ -2236,7 +2236,7 @@ export default function C11_AccountancyCashBookSimpleSim({
 
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300">
                 Calculated Cash c/d: <span className="font-mono font-bold text-emerald-400">₹{cashClosingBalance}</span> |
-                Trial Balance Total: <span className="font-mono font-bold text-indigo-400">₹{(totalReceipts + 60000).toLocaleString()}</span>
+                Trial Balance Total: <span className="font-mono font-bold text-gold-400">₹{(totalReceipts + 60000).toLocaleString()}</span>
               </div>
             </div>
           </div>
@@ -2258,7 +2258,7 @@ export default function C11_AccountancyCashBookSimpleSim({
             </div>
             <div className="h-2 bg-slate-950 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                 animate={{
                   width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
                 }}
@@ -2349,7 +2349,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                       className="p-4 bg-slate-900 rounded-xl border border-dashed border-slate-700 min-h-[90px] flex flex-col justify-between"
                       aria-label={`Drop target zone for ${target.title}`}
                     >
-                      <span className="text-xs font-bold text-indigo-300">{target.title}</span>
+                      <span className="text-xs font-bold text-gold-300">{target.title}</span>
                       <div className="text-xs text-emerald-400 font-mono font-medium">
                         {droppedSlots[target.id] ? `✓ ${droppedSlots[target.id]}` : 'Drop matching transaction here...'}
                       </div>
@@ -2454,7 +2454,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                       key={i}
                       aria-label={`Add accounting part: ${part}`}
                       onClick={() => setAssembledParts((prev) => [...prev, part])}
-                      className="px-2.5 py-1.5 bg-indigo-800/80 hover:bg-indigo-700 rounded-lg text-xs text-white"
+                      className="px-2.5 py-1.5 bg-gold-800/80 hover:bg-gold-700 rounded-lg text-xs text-white"
                     >
                       + {part}
                     </button>
@@ -2543,7 +2543,7 @@ export default function C11_AccountancyCashBookSimpleSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={handleNextChallenge}
                     aria-label="Proceed to Next Challenge or Final Report"
-                    className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg block"
+                    className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg block"
                   >
                     {currentChallenge + 1 >= filteredChallenges.length
                       ? 'Finalise Audit Report →'
@@ -2604,11 +2604,11 @@ export default function C11_AccountancyCashBookSimpleSim({
           )}
 
           {/* Spaced Repetition (SRS) Prominent Status & Visibility */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 to-purple-950/80 rounded-2xl border border-indigo-500/50 shadow-lg flex items-center justify-between">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 to-purple-950/80 rounded-2xl border border-gold-500/50 shadow-lg flex items-center justify-between">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <span className="text-base" role="img" aria-label="Calendar">📅</span>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-300">
                   Spaced Repetition System (SRS)
                 </span>
               </div>
@@ -2622,12 +2622,12 @@ export default function C11_AccountancyCashBookSimpleSim({
                     : 'review in 1 day (Targeted Practice)'}
                 </span>
               </p>
-              <p className="text-xs text-indigo-200/80">
+              <p className="text-xs text-gold-200/80">
                 Next review scheduled: {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'} to optimize long-term memory retention.
               </p>
             </div>
-            <div className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-400/40 rounded-xl text-center">
-              <div className="text-[10px] text-indigo-300 font-bold uppercase">Next Review</div>
+            <div className="px-3 py-1.5 bg-gold-900/60 border border-gold-400/40 rounded-xl text-center">
+              <div className="text-[10px] text-gold-300 font-bold uppercase">Next Review</div>
               <div className="text-sm font-black text-amber-300 font-mono">
                 {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
               </div>

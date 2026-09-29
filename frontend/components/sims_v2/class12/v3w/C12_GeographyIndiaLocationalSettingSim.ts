@@ -11,7 +11,7 @@ export const w_c12_geographyindialocationalsettingsim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India',
     chapters: [],
     nodeIds: ['c12_geo_cbse_17_007', 'c12_geo_cbse_12_007', 'c12_geo_cbse_17_008', 'c12_geo_cbse_21_001', 'c12_geo_cbse_21_003', 'c12_geo_cbse_21_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Start with a real observation: "Look at the news — every year we hear of Assam floods, Maharashtra droughts,.', goal: 'Master Natural Disasters: Earthquakes, Floods, Droughts, Cyclones in India.' },
     discovery: {
         question: 'Name the four seismic zones of India (Zone II to V) in order of increasing hazard and state the primary tectonic feature responsible for Zone V.',
@@ -20,7 +20,7 @@ export const w_c12_geographyindialocationalsettingsim: SimDef = {
         hook: 'Students think "drought = no rain" and "flood = too much rain", ignoring that drought is a slow-onset deficit relative.',
     },
     teaching: [
-        { title: 'Natural disasters in India are extreme.', text: 'Natural disasters in India are extreme geophysical or hydro-meteorological events — earthquakes, floods, droughts, and cyclones — that exceed local coping capacity, causing widespread loss of life,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Natural disasters in India are extreme.', text: 'Natural disasters in India are extreme geophysical or hydro-meteorological events — earthquakes, floods, droughts, and cyclones — that exceed local coping capacity, causing widespread loss of life,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_17_007', title: 'Natural disasters in India are extreme.',

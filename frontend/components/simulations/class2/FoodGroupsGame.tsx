@@ -58,7 +58,7 @@ const TEACHING_SLIDES = [
     title: 'Milk & Milk Products! 🥛',
     text: 'Milk comes from animals and is packed with calcium! Curd, paneer, cheese, butter, and ghee are all wonderful milk products that make our bones and teeth strong!',
     emoji: '🥛',
-    bgColor: 'from-blue-400 to-cyan-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Milk and milk products like curd and paneer give us calcium for strong bones and teeth!',
   },
   {
@@ -290,9 +290,9 @@ function KitchenScene({ width, height }: { width: number; height: number }) {
       {/* Wall gradient (warm kitchen yellow) */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #FEF3C7 0%, #FDE68A 50%, #F59E0B 100%)' }} />
       {/* Window showing blue sky */}
-      <div className="absolute top-6 left-8 w-28.5 h-36 bg-sky-200 border-4 border-amber-800 rounded-t-xl overflow-hidden shadow-inner" style={{ width: 110, height: 140 }}>
+      <div className="absolute top-6 left-8 w-28.5 h-36 bg-gold-200 border-4 border-amber-800 rounded-t-xl overflow-hidden shadow-inner" style={{ width: 110, height: 140 }}>
         {/* Sky */}
-        <div className="absolute inset-0 bg-gradient-to-b from-sky-400 to-sky-200" />
+        <div className="absolute inset-0 bg-gradient-to-b from-gold-400 to-gold-200" />
         {/* Sun */}
         <circle cx="80" cy="40" r="14" fill="#FACC15" />
         {/* Cloud */}

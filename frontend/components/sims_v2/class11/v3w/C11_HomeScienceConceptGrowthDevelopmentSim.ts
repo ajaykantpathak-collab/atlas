@@ -11,7 +11,7 @@ export const w_c11_homescienceconceptgrowthdevelopmentsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Puberty and Pubescence: Physical and Biological Changes',
     chapters: [],
     nodeIds: ['c11_hs_cbse_02_008', 'c11_hs_cbse_02_001', 'c11_hs_cbse_02_002', 'c11_hs_cbse_02_006', 'c11_hs_cbse_02_010', 'c11_hs_cbse_01_006', 'c11_hs_cbse_08_001', 'c11_hs_cbse_08_002', 'c11_hs_cbse_08_003', 'c11_hs_cbse_08_008', 'c11_hs_cbse_08_010', 'c11_hs_cbse_09_008', 'c11_hs_cbse_09_009', 'c11_hs_cbse_09_010', 'c11_hs_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are looking at two Class 11 students: Rohan, who has a deep voice and facial hair, and Priya, who.', goal: 'Master Puberty and Pubescence: Physical and Biological Changes.' },
     discovery: {
         question: 'A Class 11 student claims, "Menarche is the first sign of puberty in girls." Using the NCERT sequence of changes for girls, explain why this statement is.',
@@ -20,7 +20,7 @@ export const w_c11_homescienceconceptgrowthdevelopmentsim: SimDef = {
         hook: '**Misconception:** "Puberty and pubescence are synonyms; menarche/spermarche is the *start* of the process; and the.',
     },
     teaching: [
-        { title: 'Puberty is the specific point in time when.', text: 'Puberty is the specific point in time when an individual attains sexual maturity, marked by menarche (first menstruation) in girls and spermatogenesis (production of spermatozoa) in boys.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Puberty is the specific point in time when.', text: 'Puberty is the specific point in time when an individual attains sexual maturity, marked by menarche (first menstruation) in girls and spermatogenesis (production of spermatozoa) in boys.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hs_cbse_02_008', title: 'Puberty is the specific point in time.',

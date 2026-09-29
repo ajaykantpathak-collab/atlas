@@ -286,7 +286,7 @@ const AirCompositionVisualizer: React.FC<{ activeGas: string; onSelectGas: (gas:
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 flex flex-col items-center">
       <div className="flex justify-between items-center w-full mb-3">
-        <span className="text-xs font-semibold text-sky-400 uppercase tracking-wider">Atmospheric Gas Mixture (100 Particles)</span>
+        <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">Atmospheric Gas Mixture (100 Particles)</span>
         <div className="flex gap-2">
           {['ALL', 'N2', 'O2', 'CO2'].map((gas) => (
             <button
@@ -297,7 +297,7 @@ const AirCompositionVisualizer: React.FC<{ activeGas: string; onSelectGas: (gas:
               }}
               className={`px-2.5 py-1 text-xs rounded-md transition-all ${
                 activeGas === gas
-                  ? 'bg-sky-500 text-white font-bold shadow-md shadow-sky-500/30'
+                  ? 'bg-gold-500 text-white font-bold shadow-md shadow-gold-500/30'
                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
@@ -308,7 +308,7 @@ const AirCompositionVisualizer: React.FC<{ activeGas: string; onSelectGas: (gas:
       </div>
       <canvas ref={canvasRef} width={380} height={180} className="rounded-lg bg-slate-950 border border-slate-800" />
       <div className="grid grid-cols-3 gap-2 w-full mt-3 text-center text-xs">
-        <div className="bg-blue-950/60 border border-blue-800/50 p-2 rounded-lg text-blue-300">
+        <div className="bg-gold-950/60 border border-gold-800/50 p-2 rounded-lg text-gold-300">
           <div className="font-bold text-sm">78% N₂</div>
           <div className="text-[10px] text-slate-400">Unreactive diluent; essential for fertilizers</div>
         </div>
@@ -347,7 +347,7 @@ const TajMahalAcidRainVisualizer: React.FC = () => {
             setIsRaining(!isRaining);
           }}
           className={`px-3 py-1 text-xs font-semibold rounded-lg transition-all ${
-            isRaining ? 'bg-indigo-600 text-white animate-pulse' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+            isRaining ? 'bg-gold-600 text-white animate-pulse' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
           }`}
         >
           {isRaining ? '🌧️ Rain Simulation ACTIVE' : 'Start Rain Simulation'}
@@ -396,7 +396,7 @@ const TajMahalAcidRainVisualizer: React.FC = () => {
                   duration: 0.6 + (i % 5) * 0.1,
                   delay: (i % 7) * 0.08
                 }}
-                className={`absolute w-0.5 h-4 rounded-full ${rainPh < 5.0 ? 'bg-red-400' : 'bg-sky-400'}`}
+                className={`absolute w-0.5 h-4 rounded-full ${rainPh < 5.0 ? 'bg-red-400' : 'bg-gold-400'}`}
               />
             ))}
           </div>
@@ -473,9 +473,9 @@ const WaterStateParticleCanvas: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const stateName = useMemo(() => {
-    if (temperature < 0) return { name: "SOLID ICE", color: "text-cyan-300", desc: "Fixed rigid crystal lattice; particles vibrate in position." };
+    if (temperature < 0) return { name: "SOLID ICE", color: "text-gold-300", desc: "Fixed rigid crystal lattice; particles vibrate in position." };
     if (temperature === 0) return { name: "MELTING POINT (0°C)", color: "text-emerald-400", desc: "Solid ice melting into liquid water at equilibrium." };
-    if (temperature < 100) return { name: "LIQUID WATER", color: "text-blue-400", desc: "Fluid state; particles slide past each other smoothly." };
+    if (temperature < 100) return { name: "LIQUID WATER", color: "text-gold-400", desc: "Fluid state; particles slide past each other smoothly." };
     if (temperature === 100) return { name: "BOILING POINT (100°C)", color: "text-amber-400", desc: "Rapid vaporization throughout the liquid forming steam." };
     return { name: "GASEOUS STEAM", color: "text-red-400", desc: "Gas state; H₂O molecules move rapidly with large gaps." };
   }, [temperature]);
@@ -565,7 +565,7 @@ const WaterStateParticleCanvas: React.FC = () => {
   return (
     <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-2">
-        <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+        <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">
           Water Physical States & Interconversion
         </span>
         <span className={`text-xs font-bold ${stateName.color}`}>{stateName.name}</span>
@@ -590,12 +590,12 @@ const WaterStateParticleCanvas: React.FC = () => {
             if (val === 0 || val === 100) audioManager.play('sparkle');
             else audioManager.play('tap');
           }}
-          className="w-full accent-cyan-400 cursor-pointer"
+          className="w-full accent-gold-400 cursor-pointer"
         />
         <div className="flex justify-between text-[10px] text-slate-500 mt-1">
           <span>-20°C (Ice)</span>
-          <span className="text-cyan-400 font-bold">0°C (Melting/Freezing)</span>
-          <span className="text-blue-400">25°C (Room Temp)</span>
+          <span className="text-gold-400 font-bold">0°C (Melting/Freezing)</span>
+          <span className="text-gold-400">25°C (Room Temp)</span>
           <span className="text-amber-400 font-bold">100°C (Boiling)</span>
           <span>120°C (Steam)</span>
         </div>
@@ -697,7 +697,7 @@ const WaterChemicalReactionLab: React.FC = () => {
       <div className="relative w-full h-44 bg-slate-950 rounded-lg border border-slate-800 p-4 flex flex-col justify-between overflow-hidden">
         {/* Animated reaction graphics inside beaker */}
         <div className="absolute inset-0 flex items-center justify-center opacity-30 pointer-events-none">
-          <div className={`w-32 h-32 rounded-full blur-2xl ${tempDelta > 0 ? 'bg-amber-500' : tempDelta < 0 ? 'bg-cyan-500' : 'bg-emerald-500'}`} />
+          <div className={`w-32 h-32 rounded-full blur-2xl ${tempDelta > 0 ? 'bg-amber-500' : tempDelta < 0 ? 'bg-gold-500' : 'bg-emerald-500'}`} />
         </div>
 
         <div className="relative z-10">
@@ -707,7 +707,7 @@ const WaterChemicalReactionLab: React.FC = () => {
               className={`text-[10px] px-2 py-0.5 rounded font-bold ${
                 reactionDetails.type.includes('CHEMICAL')
                   ? 'bg-red-900/80 text-red-200 border border-red-700'
-                  : 'bg-blue-900/80 text-blue-200 border border-blue-700'
+                  : 'bg-gold-900/80 text-gold-200 border border-gold-700'
               }`}
             >
               {reactionDetails.type}
@@ -725,7 +725,7 @@ const WaterChemicalReactionLab: React.FC = () => {
           </div>
           <div className="bg-slate-900/80 p-2 rounded border border-slate-800 flex flex-col justify-center items-center">
             <span className="text-slate-400 text-[10px]">Temp Shift:</span>
-            <span className={`text-base font-bold ${tempDelta > 0 ? 'text-amber-400' : tempDelta < 0 ? 'text-cyan-400' : 'text-slate-300'}`}>
+            <span className={`text-base font-bold ${tempDelta > 0 ? 'text-amber-400' : tempDelta < 0 ? 'text-gold-400' : 'text-slate-300'}`}>
               {tempDelta > 0 ? `+${tempDelta}°C 🔥` : tempDelta < 0 ? `${tempDelta}°C ❄️` : '0°C (Constant)'}
             </span>
           </div>
@@ -989,7 +989,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
         <div className="bg-slate-900/90 border-b border-slate-800 p-4 flex flex-col sm:flex-row justify-between items-center gap-3">
           <div>
             <div className="flex items-center gap-2">
-              <span className="bg-sky-500/20 text-sky-400 border border-sky-500/30 text-xs px-2.5 py-0.5 rounded-full font-mono font-bold">
+              <span className="bg-gold-500/20 text-gold-400 border border-gold-500/30 text-xs px-2.5 py-0.5 rounded-full font-mono font-bold">
                 Class 6 ICSE Chemistry
               </span>
               <span className="text-xs text-slate-400">c6_chem_017 • c6_chem_018 • c6_chem_019</span>
@@ -1009,7 +1009,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                 }}
                 className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                   activeTab === tab
-                    ? 'bg-sky-600 text-white shadow-md shadow-sky-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1030,7 +1030,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
         {/* Global Progress Bar */}
         <div className="w-full bg-slate-950 h-1.5 overflow-hidden">
           <div
-            className="bg-gradient-to-r from-sky-500 via-indigo-500 to-emerald-400 h-full transition-all duration-300"
+            className="bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-400 h-full transition-all duration-300"
             style={{
               width: `${
                 activeTab === 'DISCOVERY'
@@ -1054,8 +1054,8 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
           {/* ========================================== */}
           {activeTab === 'DISCOVERY' && (
             <div className="flex flex-col gap-4">
-              <div className="bg-sky-950/40 border border-sky-800/60 p-4 rounded-xl">
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wider block mb-1">
+              <div className="bg-gold-950/40 border border-gold-800/60 p-4 rounded-xl">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-1">
                   🔍 Discovery Predictor Challenge
                 </span>
                 <h3 className="text-base font-bold text-slate-100">
@@ -1102,7 +1102,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                       audioManager.play('whoosh');
                       setActiveTab('SLIDES');
                     }}
-                    className="self-end bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold px-4 py-2 rounded-lg transition-all"
+                    className="self-end bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold px-4 py-2 rounded-lg transition-all"
                   >
                     Continue to Concept Slides →
                   </button>
@@ -1138,7 +1138,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                       audioManager.play('whoosh');
                       setCurrentSlideIndex(prev => prev + 1);
                     }}
-                    className="px-3 py-1 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded-lg transition-all"
+                    className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg transition-all"
                   >
                     Next →
                   </button>
@@ -1154,7 +1154,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                   exit={{ opacity: 0, x: -20 }}
                   className="flex flex-col gap-3"
                 >
-                  <h3 className="text-base font-bold text-sky-300">
+                  <h3 className="text-base font-bold text-gold-300">
                     {TEACHING_SLIDES[currentSlideIndex].title}
                   </h3>
 
@@ -1206,7 +1206,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                   audioManager.play('whoosh');
                   setActiveTab('CHALLENGES');
                 }}
-                className="w-full bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-lg shadow-sky-600/20"
+                className="w-full bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-lg shadow-gold-600/20"
               >
                 Proceed to Adaptive Mastery Challenges →
               </button>
@@ -1220,7 +1220,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
             <div className="flex flex-col gap-4">
               {/* Question Header Info */}
               <div className="flex justify-between items-center bg-slate-950 p-2.5 rounded-xl border border-slate-800 text-xs">
-                <span className="font-bold text-sky-400">
+                <span className="font-bold text-gold-400">
                   Question {currentChallengeIndex + 1} of {DIAGNOSTIC_QUESTIONS.length}
                 </span>
                 <div className="flex gap-3 text-slate-400 font-mono">
@@ -1256,7 +1256,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                       btnStyle = 'bg-slate-900 border-slate-800 text-slate-500 opacity-50';
                     }
                   } else if (selectedOption === idx) {
-                    btnStyle = 'bg-sky-700 border-sky-400 text-white font-bold ring-2 ring-sky-400/30';
+                    btnStyle = 'bg-gold-700 border-gold-400 text-white font-bold ring-2 ring-gold-400/30';
                   }
 
                   return (
@@ -1291,7 +1291,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                 ) : (
                   <button
                     onClick={handleNextChallenge}
-                    className="w-full bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-lg shadow-sky-600/20"
+                    className="w-full bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-lg shadow-gold-600/20"
                   >
                     {currentChallengeIndex < DIAGNOSTIC_QUESTIONS.length - 1 ? 'Next Question →' : 'Complete Challenge & View Summary →'}
                   </button>
@@ -1353,7 +1353,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                   </div>
                   <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
                     <span className="text-[10px] text-slate-400 block uppercase">Nodes Mastered</span>
-                    <span className="text-lg font-extrabold text-sky-400">3 / 3</span>
+                    <span className="text-lg font-extrabold text-gold-400">3 / 3</span>
                   </div>
                 </div>
 
@@ -1361,7 +1361,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                 <div className="flex flex-col gap-2 w-full text-left mb-4">
                   <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800 flex justify-between items-center text-xs">
                     <div>
-                      <span className="font-bold text-sky-300">c6_chem_017</span>
+                      <span className="font-bold text-gold-300">c6_chem_017</span>
                       <span className="text-slate-400 block text-[11px]">Carbon Dioxide & Nitrogen in Air</span>
                     </div>
                     <span className="bg-emerald-950 text-emerald-400 border border-emerald-800 px-2 py-0.5 rounded font-bold text-[10px]">
@@ -1370,7 +1370,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                   </div>
                   <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800 flex justify-between items-center text-xs">
                     <div>
-                      <span className="font-bold text-sky-300">c6_chem_018</span>
+                      <span className="font-bold text-gold-300">c6_chem_018</span>
                       <span className="text-slate-400 block text-[11px]">Water - Physical Properties & State Changes</span>
                     </div>
                     <span className="bg-emerald-950 text-emerald-400 border border-emerald-800 px-2 py-0.5 rounded font-bold text-[10px]">
@@ -1379,7 +1379,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                   </div>
                   <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800 flex justify-between items-center text-xs">
                     <div>
-                      <span className="font-bold text-sky-300">c6_chem_019</span>
+                      <span className="font-bold text-gold-300">c6_chem_019</span>
                       <span className="text-slate-400 block text-[11px]">Water - Chemical Properties & Reactions</span>
                     </div>
                     <span className="bg-emerald-950 text-emerald-400 border border-emerald-800 px-2 py-0.5 rounded font-bold text-[10px]">
@@ -1395,7 +1395,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({ onComplet
                     setCurrentChallengeIndex(0);
                     setScore(0);
                   }}
-                  className="bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold px-6 py-2.5 rounded-xl transition-all"
+                  className="bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold px-6 py-2.5 rounded-xl transition-all"
                 >
                   🔄 Restart Laboratory & Quiz
                 </button>

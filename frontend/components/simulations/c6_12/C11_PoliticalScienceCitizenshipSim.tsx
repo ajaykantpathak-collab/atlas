@@ -35,9 +35,9 @@ export function C11_PoliticalScienceCitizenshipSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-blue-950/80 rounded-2xl border border-blue-700">🛂</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🛂</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-blue-400">Class 11 -- Citizenship</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Citizenship</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Border Desk: Who Becomes a Citizen, Who Stays Out?</h1>
         </div>
       </div>
@@ -83,7 +83,7 @@ export function C11_PoliticalScienceCitizenshipSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs mt-1">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Route</p>
-              <p className="font-mono font-bold text-blue-300 capitalize">{route}</p>
+              <p className="font-mono font-bold text-gold-300 capitalize">{route}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Decision</p>
@@ -101,7 +101,7 @@ export function C11_PoliticalScienceCitizenshipSim() {
             <div className="grid grid-cols-2 gap-2">
               {(['birth', 'descent', 'naturalisation', 'refugee'] as Route[]).map((r) => (
                 <button key={r} onClick={() => setRoute(r)}
-                  className={`min-h-11 rounded-xl text-[10px] font-bold capitalize ${route === r ? 'bg-blue-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                  className={`min-h-11 rounded-xl text-[10px] font-bold capitalize ${route === r ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                   {r}
                 </button>
               ))}
@@ -124,12 +124,12 @@ export function C11_PoliticalScienceCitizenshipSim() {
                 onChange={(e) => setResidenceYears(Number(e.target.value))} className="w-full min-h-11 accent-amber-500" />
             </div>
             <button onClick={() => setLanguageTest(!languageTest)}
-              className={`min-h-11 w-full rounded-xl text-xs font-bold ${languageTest ? 'bg-sky-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+              className={`min-h-11 w-full rounded-xl text-xs font-bold ${languageTest ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
               Language test: {languageTest ? 'passed' : 'failed'}
             </button>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setShowDebate(!showDebate)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${showDebate ? 'bg-violet-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${showDebate ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Boundary cases
               </button>
               <button onClick={() => { setRoute('naturalisation'); setBornHere(false); setParentCitizen(true); setResidenceYears(4); setLanguageTest(true); setShowDebate(false); }}
@@ -138,8 +138,8 @@ export function C11_PoliticalScienceCitizenshipSim() {
           </div>
 
           {showDebate && (
-            <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs space-y-1">
-              <p className="font-bold text-violet-300 mb-1">Boundary cases (think like a judge)</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs space-y-1">
+              <p className="font-bold text-gold-300 mb-1">Boundary cases (think like a judge)</p>
               <p>A child born to citizens abroad -- soil or blood?</p>
               <p>A refugee born here, parents not citizens -- which rule wins?</p>
               <p>Should residence alone ever be enough? What about language tests?</p>
@@ -155,8 +155,8 @@ export function C11_PoliticalScienceCitizenshipSim() {
             </p>
           </div>
 
-          <div className="bg-blue-950/40 rounded-2xl border border-blue-800/50 p-4 text-xs">
-            <p className="font-bold text-blue-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Build an applicant who passes BOTH birth and descent routes at once. Then break each rule with one switch.</p>
             <p>2. Set route to naturalisation with 6 years of residence, then flip the language test. Should a state be allowed to refuse on that alone?</p>
           </div>

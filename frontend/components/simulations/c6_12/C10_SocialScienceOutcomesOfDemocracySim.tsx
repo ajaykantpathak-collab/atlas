@@ -493,7 +493,7 @@ function Chip({ children, tone = 'slate' }: { children: React.ReactNode; tone?: 
     green: 'bg-emerald-950 text-emerald-300 border-emerald-800',
     red: 'bg-rose-950 text-rose-300 border-rose-800',
     amber: 'bg-amber-950 text-amber-300 border-amber-800',
-    indigo: 'bg-indigo-950 text-indigo-300 border-indigo-800',
+    indigo: 'bg-gold-950 text-gold-300 border-gold-800',
   };
   return (
     <span className={`px-2 py-0.5 rounded-lg text-[10px] font-bold border ${tones[tone] ?? tones.slate}`}>
@@ -714,9 +714,9 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       {/* ── header ── */}
       <header className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">\u2696\ufe0f</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">\u2696\ufe0f</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">
             Class 10 Civics \u2014 Outcomes of Democracy
           </p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">
@@ -742,7 +742,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -757,8 +757,8 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
       {/* ============================================================ */}
       {tab === 'discovery' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-indigo-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-indigo-400 mb-2">
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">
               Before you touch anything \u2014 predict
             </p>
             <p className="text-sm text-slate-200 leading-relaxed">{DISCOVERY_QUESTION.question}</p>
@@ -766,7 +766,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
               {DISCOVERY_QUESTION.options.map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === DISCOVERY_QUESTION.correctIndex;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-indigo-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -793,7 +793,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
                 </p>
                 <button
                   onClick={() => setTab('race')}
-                  className="mt-2 min-h-9 px-4 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-bold"
+                  className="mt-2 min-h-9 px-4 rounded-lg bg-gold-600 hover:bg-gold-500 text-xs font-bold"
                 >
                   Open the Race Lab \u2192
                 </button>
@@ -805,13 +805,13 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
             {EXPLORATION_STEPS.map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-600 text-[10px] font-black mr-1.5">
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">
                     {i + 1}
                   </span>
                   {s.title}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.instruction}</p>
-                <p className="mt-1.5 text-[10px] uppercase tracking-wider text-indigo-400">
+                <p className="mt-1.5 text-[10px] uppercase tracking-wider text-gold-400">
                   watch: {s.focus}
                 </p>
               </div>
@@ -909,7 +909,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
               <div>
                 <label className="text-xs font-semibold text-slate-400 flex justify-between">
                   <span>Election gap (democracy)</span>
-                  <span className="font-mono text-indigo-300">every {gap} yr</span>
+                  <span className="font-mono text-gold-300">every {gap} yr</span>
                 </label>
                 <input
                   type="range"
@@ -921,7 +921,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
                     setGap(Number(e.target.value));
                     reset();
                   }}
-                  className="w-full mt-1 min-h-11 accent-indigo-500"
+                  className="w-full mt-1 min-h-11 accent-gold-500"
                 />
               </div>
               <button
@@ -931,7 +931,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
                 }}
                 className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${
                   press
-                    ? 'bg-violet-600 border-violet-500 text-white'
+                    ? 'bg-gold-600 border-gold-500 text-white'
                     : 'bg-slate-950 border-slate-700 text-slate-300'
                 }`}
               >
@@ -945,7 +945,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
 
             <div className="grid grid-cols-2 gap-2">
               <StatCard label="Year" value={`${year}/${YEARS}`} color="text-amber-300" />
-              <StatCard label="Rulers changed (demo.)" value={`${changes} times`} color="text-indigo-300" />
+              <StatCard label="Rulers changed (demo.)" value={`${changes} times`} color="text-gold-300" />
               <StatCard
                 label="Welfare \u00b7 democracy"
                 value={Math.round(dNow).toString()}
@@ -975,7 +975,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
             )}
 
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-              <p className="font-bold text-indigo-300 mb-1">Outcomes you cannot put on a chart</p>
+              <p className="font-bold text-gold-300 mb-1">Outcomes you cannot put on a chart</p>
               <p>- Dignity: a Dalit woman\u2019s vote counts the same as a landlord\u2019s.</p>
               <p>- Conflict resolution: groups settle differences by negotiation, not war.</p>
               <p>- Self-correction: a bad decision (Emergency 1975-77) was undone by voters, not by violence.</p>
@@ -993,7 +993,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
             </div>
           </div>
 
-          <footer className="md:col-span-5 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+          <footer className="md:col-span-5 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
             <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
             <p>
               1. Start corruption at 90 and run with free press ON vs OFF -- how many extra points of
@@ -1025,7 +1025,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
             </div>
             <h2 className="text-base font-extrabold text-white mb-2">{evidence.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{evidence.body}</p>
-            <div className="mt-3 p-3 rounded-xl bg-indigo-950/50 border border-indigo-800 text-xs text-indigo-200 italic leading-relaxed">
+            <div className="mt-3 p-3 rounded-xl bg-gold-950/50 border border-gold-800 text-xs text-gold-200 italic leading-relaxed">
               {evidence.read}
             </div>
             <div className="mt-3 flex gap-2">
@@ -1037,7 +1037,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
               </button>
               <button
                 onClick={() => setEvidenceIdx((i) => (i + 1) % EVIDENCE.length)}
-                className="min-h-9 px-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-bold"
+                className="min-h-9 px-3 rounded-lg bg-gold-600 hover:bg-gold-500 text-xs font-bold"
               >
                 next record \u2192
               </button>
@@ -1051,7 +1051,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
                 onClick={() => setEvidenceIdx(i)}
                 className={`p-2 rounded-xl border text-[10px] font-bold leading-tight transition-all ${
                   i === evidenceIdx
-                    ? 'bg-indigo-600 border-indigo-500 text-white'
+                    ? 'bg-gold-600 border-gold-500 text-white'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-600'
                 }`}
               >
@@ -1089,7 +1089,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
                   key={t}
                   onClick={() => setTierFilter(t)}
                   className={`min-h-9 px-3 rounded-lg text-[11px] font-bold capitalize transition-all ${
-                    tierFilter === t ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                    tierFilter === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
                   {t}
@@ -1123,7 +1123,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
                 <p className="text-sm text-slate-200 leading-relaxed mb-2.5">{ch.question}</p>
                 <div className="space-y-1.5">
                   {ch.options.map((opt, i) => {
-                    let cls = 'border-slate-700 bg-slate-950 hover:border-indigo-600';
+                    let cls = 'border-slate-700 bg-slate-950 hover:border-gold-600';
                     if (isRevealed && i === ch.correctIndex) cls = 'border-emerald-600 bg-emerald-950/60';
                     else if (isRevealed && i === chosen) cls = 'border-rose-600 bg-rose-950/60';
                     return (
@@ -1214,7 +1214,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
       {tab === 'summary' && (
         <div className="space-y-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-            <StatCard label="Races run this session" value={String(changes > 0 || year > 0 ? 1 : 0)} sub="at least one" color="text-indigo-300" />
+            <StatCard label="Races run this session" value={String(changes > 0 || year > 0 ? 1 : 0)} sub="at least one" color="text-gold-300" />
             <StatCard label="Years simulated" value={`${year}`} color="text-amber-300" />
             <StatCard label="Peaceful ruler changes" value={String(changes)} color="text-emerald-300" />
             <StatCard
@@ -1225,7 +1225,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
           </div>
 
           <div className="p-5 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
               What you now know that a textbook paragraph cannot show
             </p>
             <ol className="space-y-2 text-sm text-slate-300 leading-relaxed list-decimal ml-5">
@@ -1269,7 +1269,7 @@ export function C10_SocialScienceOutcomesOfDemocracySim() {
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => setTab('race')}
-              className="min-h-11 px-5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold"
+              className="min-h-11 px-5 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold"
             >
               Back to the race
             </button>

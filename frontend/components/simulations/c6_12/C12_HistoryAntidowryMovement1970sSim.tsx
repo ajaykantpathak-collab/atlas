@@ -1742,7 +1742,7 @@ function C12_HistoryAntidowryMovement1970sSim({
                 <span className="text-xs font-bold text-amber-300">3. Maoist Agrarian Stages</span>
                 <p className="text-xs text-slate-400">1950 Private land → 1953 Lower APC → 1956 Higher APC → 1958 Communes.</p>
                 <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
-                  <div className="h-full bg-indigo-500 w-[70%]" />
+                  <div className="h-full bg-gold-500 w-[70%]" />
                 </div>
               </div>
             </div>

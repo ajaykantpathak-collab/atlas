@@ -11,7 +11,7 @@ export const w_c8_mathematicstalesbydotsandlinessim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Line Plots and Bar Graphs for Data Representation',
     chapters: [],
     nodeIds: ['c8_math_ch12_12', 'c8_math_ch12_2'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine your Class 8 teacher asks: "How many hours did each student spend on homework last week?" You collect.', goal: 'Master Line Plots and Bar Graphs for Data Representation.' },
     discovery: {
         question: 'What does each dot represent in a dot plot, and how is the mean visually identified as a balancing point?',
@@ -20,7 +20,7 @@ export const w_c8_mathematicstalesbydotsandlinessim: SimDef = {
         hook: 'Students think the mean is always one of the data values or the value with the most dots.',
     },
     teaching: [
-        { title: 'A line plot (dot plot) displays individual.', text: 'A line plot (dot plot) displays individual data points as dots or X marks above a number line, showing the frequency of each value.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A line plot (dot plot) displays individual.', text: 'A line plot (dot plot) displays individual data points as dots or X marks above a number line, showing the frequency of each value.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch12_12', title: 'A line plot (dot plot) displays.',

@@ -11,7 +11,7 @@ export const w_c11_mathematicssignstrigonometricfunctionssim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Conversion Between Degrees and Radians',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_002', 'c11_math_cbse_03_003', 'c11_math_cbse_03_006', 'c11_math_cbse_03_008', 'c11_math_cbse_02_009', 'c11_math_cbse_03_001', 'c11_math_cbse_03_004', 'c11_math_cbse_03_005', 'c11_math_cbse_03_007', 'c11_math_cbse_03_009', 'c11_math_cbse_03_010', 'c11_math_cbse_03_011', 'c11_math_cbse_03_012', 'c11_math_cbse_03_013', 'c11_math_cbse_03_014'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a Ferris wheel for a Diwali mela. The wheel has a radius of 10 metres, and the.', goal: 'Master Conversion Between Degrees and Radians.' },
     discovery: {
         question: 'State the exact conversion factor to change an angle from degrees to radians, and write the formula for converting 150° to radians in terms of π.',
@@ -20,7 +20,7 @@ export const w_c11_mathematicssignstrigonometricfunctionssim: SimDef = {
         hook: 'Students frequently confuse the direction of the conversion factor: they multiply by π/180 when converting radians to.',
     },
     teaching: [
-        { title: 'The conversion between degree measure and.', text: 'The conversion between degree measure and radian measure is based on the equivalence of a full revolution: 360° = 2π radians, which simplifies to the fundamental relation π radians = 180°.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The conversion between degree measure and.', text: 'The conversion between degree measure and radian measure is based on the equivalence of a full revolution: 360° = 2π radians, which simplifies to the fundamental relation π radians = 180°.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_03_002', title: 'The conversion between degree measure.',

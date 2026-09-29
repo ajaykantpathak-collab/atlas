@@ -11,7 +11,7 @@ export const w_c12_physicsenergylevelshydrogensim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Rutherford\'s Nuclear Model: Alpha Scattering Experiment',
     chapters: [],
     nodeIds: ['c12_phy_cbse_12_001', 'c12_phy_cbse_12_002', 'c12_phy_cbse_12_003', 'c12_phy_cbse_12_004', 'c12_phy_cbse_12_005', 'c12_phy_cbse_14_001', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that light passes.', goal: 'Master Rutherford\'s Nuclear Model: Alpha Scattering Experiment.' },
     discovery: {
         question: 'The Geiger-Marsden experiment used a gold foil of thickness 2.1 × 10⁻⁷ m.',
@@ -20,7 +20,7 @@ export const w_c12_physicsenergylevelshydrogensim: SimDef = {
         hook: 'Students often believe that **the α-particle "hits" the nucleus in a head-on collision and stops because of a contact.',
     },
     teaching: [
-        { title: 'Rutherford\'s nuclear model of the atom.', text: 'Rutherford\'s nuclear model of the atom states that the entire positive charge and nearly all the mass of an atom are concentrated in a tiny, dense nucleus (radius ~10⁻¹⁵ m), while electrons revolve.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Rutherford\'s nuclear model of the atom.', text: 'Rutherford\'s nuclear model of the atom states that the entire positive charge and nearly all the mass of an atom are concentrated in a tiny, dense nucleus (radius ~10⁻¹⁵ m), while electrons revolve.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_12_001', title: 'Rutherford\'s nuclear model of the atom.',

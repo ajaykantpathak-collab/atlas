@@ -9,7 +9,7 @@ export const c7_gram_ch80: SimDef = {
     classLevel: 7, subject: 'english-grammar', topic: 'Phrases, clauses and sentence structures',
     chapters: ['c7_gram_ch80'],
     nodeIds: ['c7_gram_cbse_80_001', 'c7_gram_cbse_80_002', 'c7_gram_cbse_80_003'],
-    emoji: '🔍', theme: { bg: 'from-slate-900 to-blue-950', accent: 'blue', scene: 'junior' },
+    emoji: '🔍', theme: { bg: 'from-slate-900 to-gold-950', accent: 'blue', scene: 'junior' },
 
     scenario: {
         role: 'a grammar detective who finds the hidden subject-verb pairs inside sentences',
@@ -28,8 +28,8 @@ export const c7_gram_ch80: SimDef = {
         hook: 'The subject-verb test decides everything — length is a lie.',
     },
     teaching: [
-        { title: 'The engine test', text: 'Clause = has a subject-verb pair. Phrase = no pair. Dependent clause = clause that leans (because/when/if…).', emoji: '🧪', bgColor: 'from-blue-500 to-indigo-600' },
-        { title: 'Equals vs leaners', text: 'Compound = two independent clauses + coordinator (and/but/so). Complex = main + dependent + subordinator (because/although/when).', emoji: '⚖️', bgColor: 'from-indigo-500 to-violet-600' },
+        { title: 'The engine test', text: 'Clause = has a subject-verb pair. Phrase = no pair. Dependent clause = clause that leans (because/when/if…).', emoji: '🧪', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Equals vs leaners', text: 'Compound = two independent clauses + coordinator (and/but/so). Complex = main + dependent + subordinator (because/although/when).', emoji: '⚖️', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

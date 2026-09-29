@@ -47,7 +47,7 @@ export function C9_ScienceTissuesInActionSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Tissues</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Tissues</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Tissues in Action: Match the Job to the Tissue</h1>
         </div>
         <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-950 border border-emerald-700 text-emerald-300">
@@ -60,7 +60,7 @@ export function C9_ScienceTissuesInActionSim() {
         {(['all', 'plant', 'animal'] as const).map((g) => (
           <button key={g} onClick={() => switchGroup(g)}
             className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
-              group === g ? 'bg-indigo-600 text-white' : 'bg-slate-900 border border-slate-800 text-slate-400 hover:bg-slate-800'}`}>
+              group === g ? 'bg-gold-600 text-white' : 'bg-slate-900 border border-slate-800 text-slate-400 hover:bg-slate-800'}`}>
             {g === 'all' ? 'Mixed (all tissues)' : g === 'plant' ? 'Plant tissues' : 'Animal tissues'}
           </button>
         ))}
@@ -114,12 +114,12 @@ export function C9_ScienceTissuesInActionSim() {
         <div className="md:col-span-3 space-y-3">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-gold-400">
                 Question {qIdx + 1} of {deck.length} - {q.group} tissue
               </span>
               <div className="flex gap-1">
                 {deck.map((_, i) => (
-                  <div key={i} className={`h-1.5 w-4 rounded-full ${i === qIdx ? 'bg-indigo-500' : i < qIdx ? 'bg-indigo-800' : 'bg-slate-800'}`} />
+                  <div key={i} className={`h-1.5 w-4 rounded-full ${i === qIdx ? 'bg-gold-500' : i < qIdx ? 'bg-gold-800' : 'bg-slate-800'}`} />
                 ))}
               </div>
             </div>
@@ -128,7 +128,7 @@ export function C9_ScienceTissuesInActionSim() {
               {q.options.map((opt, i) => (
                 <button key={i} onClick={() => pick(i)} disabled={answered}
                   className={`p-3 text-left text-xs font-semibold rounded-xl border transition-all ${
-                    !answered ? 'bg-slate-950 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                    !answered ? 'bg-slate-950 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                     : i === q.correct ? 'bg-emerald-950/70 border-emerald-600 text-emerald-300'
                     : i === picked ? 'bg-rose-950/70 border-rose-700 text-rose-300'
                     : 'bg-slate-950 border-slate-800 text-slate-500'}`}>
@@ -142,7 +142,7 @@ export function C9_ScienceTissuesInActionSim() {
               </div>
             )}
             <div className="flex gap-2 mt-3">
-              <button onClick={next} disabled={!answered} className="flex-1 py-2 rounded-lg bg-indigo-600 text-white text-xs font-bold disabled:opacity-40">
+              <button onClick={next} disabled={!answered} className="flex-1 py-2 rounded-lg bg-gold-600 text-white text-xs font-bold disabled:opacity-40">
                 Next question
               </button>
               <button onClick={() => { switchGroup(group); setScore({ right: 0, tries: 0 }); }}
@@ -161,14 +161,14 @@ export function C9_ScienceTissuesInActionSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> a tissue is a group of similar cells doing one job. Structure predicts
+          <span className="font-bold text-gold-300">Big idea:</span> a tissue is a group of similar cells doing one job. Structure predicts
           function everywhere: hollow lignified xylem vessels carry water, sieve-tube phloem carries food, tightly packed epithelium
           protects, long muscle cells contract, and branched neurons signal. Plants can keep growing because meristems never stop dividing.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Finish the plant deck without a wrong answer, then say why xylem cells are dead at maturity but phloem cells stay alive.</p>
         <p className="mt-1">2. Switch to animal tissues and name the tissue family for blood, bone, and fat before pressing their cards.</p>

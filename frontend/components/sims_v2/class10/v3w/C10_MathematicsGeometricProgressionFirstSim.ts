@@ -11,7 +11,7 @@ export const w_c10_mathematicsgeometricprogressionfirstsim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Sum of AP Given First Term, Last Term and Number of Terms',
     chapters: [],
     nodeIds: ['c10_math_cbse_05_009', 'c10_math_cbse_05_010', 'c10_math_cbse_05_011', 'c10_math_cbse_05_012', 'c10_math_cbse_05_001', 'c10_math_cbse_05_002', 'c10_math_cbse_05_003', 'c10_math_cbse_05_004', 'c10_math_cbse_05_006', 'c10_math_cbse_05_007', 'c10_math_cbse_05_008', 'c10_math_cbse_05_005', 'c10_math_cbse_06_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are saving money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on,.', goal: 'Master Sum of AP Given First Term, Last Term and Number of Terms.' },
     discovery: {
         question: 'A student says: "The heights of students in a class form an AP because they increase." Explain why this reasoning is incorrect and state the precise condition.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsgeometricprogressionfirstsim: SimDef = {
         hook: '**Misidentifying \'n\' in "find the number of terms" problems**: Students often treat the term number (e.g., "10th term").',
     },
     teaching: [
-        { title: 'The sum of the first n terms of an.', text: 'The sum of the first n terms of an arithmetic progression when the first term (a), the last term (l), and the number of terms (n) are known is given by the formula Sₙ = n/2 (a + l).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The sum of the first n terms of an.', text: 'The sum of the first n terms of an arithmetic progression when the first term (a), the last term (l), and the number of terms (n) are known is given by the formula Sₙ = n/2 (a + l).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_05_009', title: 'The sum of the first n terms of an.',

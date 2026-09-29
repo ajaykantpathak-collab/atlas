@@ -186,7 +186,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Biotic & Abiotic Components 🐾",
     text: "Living things like plants, animals, humans, and micro-organisms form the biotic components. Non-living things like air, water, soil, sunlight, and temperature form the abiotic components. Together they form ecosystems like a pond!",
     emoji: "🐾",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Living things form biotic components while non-living things like air, water, and soil form abiotic components."
   },
   {
@@ -200,14 +200,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Natural Resources 💧",
     text: "Natural resources are gifts of nature we use to live. Renewable resources like sunlight, wind, water, and forests can be replenished quickly. Non-renewable resources like coal, petroleum, and minerals take millions of years to form and will run out.",
     emoji: "💧",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "Natural resources include renewable ones like water and sunlight, and non-renewable ones like coal and petroleum."
   },
   {
     title: "Conservation & Sustainability 🛡️",
     text: "Conservation means using resources wisely. We practice the 3 Rs: Reduce, Reuse, and Recycle! Sustainable development means meeting our needs today without destroying the chance for future generations to meet theirs.",
     emoji: "🛡️",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "Conservation means using resources wisely through the 3 Rs, ensuring future generations have what they need."
   }
 ];
@@ -738,7 +738,7 @@ export function EnvironmentResourcesGame({ width = 720, height = 560, onComplete
 
   return (
     <div
-      className="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-sky-100 select-none flex flex-col items-center justify-between font-sans shadow-2xl rounded-3xl border-4 border-emerald-500"
+      className="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-gold-100 select-none flex flex-col items-center justify-between font-sans shadow-2xl rounded-3xl border-4 border-emerald-500"
       style={{ width, height }}
     >
       <EnvironmentSceneBackground width={width} height={height} />

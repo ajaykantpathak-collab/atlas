@@ -50,7 +50,7 @@ const TEACHING_SLIDES = [
     title: 'Organising Files & Folders 📁',
     text: 'A computer folder is like a cupboard with labelled drawers! Subfolders are smaller folders placed inside main folders. Good organisation keeps your drawings, poems, and worksheets easy to find.',
     emoji: '📁',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'A computer folder is like a cupboard with labelled drawers! Subfolders are smaller folders placed inside main folders. Good organisation keeps your drawings, poems, and worksheets easy to find.',
   },
   {
@@ -71,7 +71,7 @@ const TEACHING_SLIDES = [
     title: 'Magical Keyboard Shortcuts ⌨️',
     text: 'Work faster in Word with Ctrl keys! Ctrl+C copies text, Ctrl+V pastes it, Ctrl+X cuts it to move, Ctrl+Z undoes your last mistake, and Ctrl+A selects everything instantly!',
     emoji: '⌨️',
-    bgColor: 'from-violet-400 to-purple-600',
+    bgColor: 'from-gold-400 to-purple-600',
     spoken: 'Work faster in Word with control keys! Ctrl plus C copies text, Ctrl plus V pastes it, Ctrl plus X cuts it to move, Ctrl plus Z undoes your last mistake, and Ctrl plus A selects everything instantly!',
   },
 ];
@@ -200,9 +200,9 @@ function ArtistAkhil({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thinki
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-300"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300"
           >
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -464,7 +464,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[10px] font-bold text-gray-800 text-center mt-1">{label}</span>
       </div>
@@ -672,7 +672,7 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
   };
 
   return (
-    <div className="relative select-none flex flex-col items-center justify-center bg-indigo-950 font-sans overflow-hidden rounded-3xl shadow-2xl" style={{ width, height }}>
+    <div className="relative select-none flex flex-col items-center justify-center bg-gold-950 font-sans overflow-hidden rounded-3xl shadow-2xl" style={{ width, height }}>
       {/* Background Studio Scene */}
       <ArtStudioScene width={width} height={height} />
 
@@ -683,7 +683,7 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
       <div className="absolute top-4 left-4 right-24 z-20 flex items-center justify-between bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-md">
         <div className="flex items-center gap-2">
           <span className="text-xl">🎨</span>
-          <h1 className="text-base font-black text-indigo-900">Paint, Files & Shortcuts Game</h1>
+          <h1 className="text-base font-black text-gold-900">Paint, Files & Shortcuts Game</h1>
         </div>
         {screen === 'play' && (
           <div className="flex items-center gap-4">
@@ -699,11 +699,11 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
       <div className="relative z-10 w-full h-full flex flex-col items-center justify-center px-6 pt-20 pb-6">
         {screen === 'teaching' ? (
           /* ─── TEACHING SLIDES SCREEN ─── */
-          <div className="flex flex-col items-center justify-center max-w-lg w-full bg-white/95 backdrop-blur-lg rounded-3xl p-6 shadow-2xl border-4 border-indigo-200">
+          <div className="flex flex-col items-center justify-center max-w-lg w-full bg-white/95 backdrop-blur-lg rounded-3xl p-6 shadow-2xl border-4 border-gold-200">
             <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${TEACHING_SLIDES[slideIdx].bgColor} flex items-center justify-center text-4xl shadow-lg mb-4`}>
               {TEACHING_SLIDES[slideIdx].emoji}
             </div>
-            <h2 className="text-xl font-black text-indigo-950 mb-2 text-center">
+            <h2 className="text-xl font-black text-gold-950 mb-2 text-center">
               {TEACHING_SLIDES[slideIdx].title}
             </h2>
             <p className="text-sm font-medium text-gray-700 text-center leading-relaxed mb-6">
@@ -715,7 +715,7 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
               {TEACHING_SLIDES.map((_, i) => (
                 <div
                   key={i}
-                  className={`h-2.5 rounded-full transition-all ${i === slideIdx ? 'w-8 bg-indigo-600' : 'w-2.5 bg-gray-300'}`}
+                  className={`h-2.5 rounded-full transition-all ${i === slideIdx ? 'w-8 bg-gold-600' : 'w-2.5 bg-gray-300'}`}
                 />
               ))}
             </div>
@@ -743,7 +743,7 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
                     audioManager.play('whoosh');
                   }
                 }}
-                className="flex-1 py-3 rounded-2xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 font-bold text-white shadow-lg transition-transform active:scale-95"
+                className="flex-1 py-3 rounded-2xl bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-700 hover:to-purple-700 font-bold text-white shadow-lg transition-transform active:scale-95"
               >
                 {slideIdx < TEACHING_SLIDES.length - 1 ? 'Next ➡️' : 'Start Playing! 🚀'}
               </button>
@@ -751,10 +751,10 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
           </div>
         ) : (
           /* ─── PLAY SCREEN ─── */
-          <div className="flex flex-col items-center justify-center max-w-xl w-full bg-white/95 backdrop-blur-lg rounded-3xl p-6 shadow-2xl border-4 border-indigo-200">
+          <div className="flex flex-col items-center justify-center max-w-xl w-full bg-white/95 backdrop-blur-lg rounded-3xl p-6 shadow-2xl border-4 border-gold-200">
             {/* Question Card */}
-            <div className="bg-indigo-50 border-2 border-indigo-200 rounded-2xl p-4 w-full mb-6 text-center shadow-inner">
-              <h3 className="text-base font-black text-indigo-950">
+            <div className="bg-gold-50 border-2 border-gold-200 rounded-2xl p-4 w-full mb-6 text-center shadow-inner">
+              <h3 className="text-base font-black text-gold-950">
                 {currentChallenge.question}
               </h3>
             </div>
@@ -768,10 +768,10 @@ export function PaintFilesGame({ width = 720, height = 560, onComplete }: PaintF
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswer(opt)}
-                    className="w-full py-3.5 px-5 rounded-2xl bg-gradient-to-r from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 border-2 border-indigo-200 font-bold text-indigo-950 text-left shadow-md flex items-center justify-between"
+                    className="w-full py-3.5 px-5 rounded-2xl bg-gradient-to-r from-gold-50 to-purple-50 hover:from-gold-100 hover:to-purple-100 border-2 border-gold-200 font-bold text-gold-950 text-left shadow-md flex items-center justify-between"
                   >
                     <span>{opt}</span>
-                    <span className="w-6 h-6 rounded-full bg-indigo-200 flex items-center justify-center text-xs font-black text-indigo-800">
+                    <span className="w-6 h-6 rounded-full bg-gold-200 flex items-center justify-center text-xs font-black text-gold-800">
                       {String.fromCharCode(65 + idx)}
                     </span>
                   </motion.button>

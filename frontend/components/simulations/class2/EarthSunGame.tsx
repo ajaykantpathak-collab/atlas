@@ -47,7 +47,7 @@ const TEACHING_SLIDES = [
     title: 'Earth is Our Home! 🌍',
     text: 'Earth is our home planet! It is round like a ball (a sphere). It floats in space and has land (mountains and plains) and water (rivers and oceans)!',
     emoji: '🌍',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Earth is our home planet! It is round like a ball. It has land and water!',
   },
   {
@@ -61,14 +61,14 @@ const TEACHING_SLIDES = [
     title: 'Day and Night! 🌙',
     text: 'Earth spins like a spinning top! When our side faces the Sun, it is day. When our side faces away, it is night! The Sun rises in the east and sets in the west.',
     emoji: '🌙',
-    bgColor: 'from-indigo-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'Earth spins like a top! When our side faces the Sun, it is day. When it faces away, it is night!',
   },
   {
     title: 'Weather Observation! 🌤️',
     text: 'Weather is what the sky looks like each day! It can be sunny, cloudy, rainy, windy, or snowy. We record temperature as hot, warm, cool, or cold!',
     emoji: '🌤️',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'Weather is what the sky looks like each day! Sunny, cloudy, rainy, windy, or snowy!',
   },
   {
@@ -482,7 +482,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: Sor
       width={115}
       height={95}
     >
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'}`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'}`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1 px-1">{label}</span>
       </div>
@@ -581,7 +581,7 @@ function TeachingScreen({ onStartPlay }: TeachingScreenProps) {
 
         <button
           onClick={handleNext}
-          className="px-8 py-3 rounded-2xl font-black text-base bg-white text-indigo-600 shadow-xl hover:bg-indigo-50 active:scale-95 transition-all flex items-center gap-2"
+          className="px-8 py-3 rounded-2xl font-black text-base bg-white text-gold-600 shadow-xl hover:bg-gold-50 active:scale-95 transition-all flex items-center gap-2"
         >
           {currentSlide === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
         </button>
@@ -814,7 +814,7 @@ export function EarthSunGame({ width = 720, height = 560, onComplete }: EarthSun
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleOptionSelect(opt)}
-                        className="w-full py-3.5 px-5 rounded-2xl font-bold text-sm text-gray-800 bg-gradient-to-r from-indigo-50 to-blue-50 border-2 border-indigo-200 shadow-md hover:border-indigo-400 hover:bg-indigo-100 transition-all text-left flex items-center justify-between"
+                        className="w-full py-3.5 px-5 rounded-2xl font-bold text-sm text-gray-800 bg-gradient-to-r from-gold-50 to-gold-50 border-2 border-gold-200 shadow-md hover:border-gold-400 hover:bg-gold-100 transition-all text-left flex items-center justify-between"
                       >
                         <span>{opt}</span>
                         <span className="text-lg">⭐</span>
@@ -825,7 +825,7 @@ export function EarthSunGame({ width = 720, height = 560, onComplete }: EarthSun
 
                 {/* Sort Challenge */}
                 {currentChallenge.type === 'sort' && currentChallenge.sortItems && currentChallenge.bins && (
-                  <div className="relative w-full h-[310px] bg-indigo-50/60 rounded-2xl border-2 border-dashed border-indigo-200">
+                  <div className="relative w-full h-[310px] bg-gold-50/60 rounded-2xl border-2 border-dashed border-gold-200">
                     {/* Bins on right */}
                     <SortBin
                       id={currentChallenge.bins[0].id}

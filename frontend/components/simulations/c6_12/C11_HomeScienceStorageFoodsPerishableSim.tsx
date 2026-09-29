@@ -1348,7 +1348,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
           {/* Narrative Scenario Box */}
           <motion.div
             whileHover={{ scale: 1.005 }}
-            className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/40 rounded-3xl border border-emerald-700/40 shadow-xl"
+            className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-700/40 shadow-xl"
           >
             <div className="flex items-center gap-2 text-emerald-300 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🌾</span> Real-World Case Scenario
@@ -1648,7 +1648,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-                      <span className="text-xs font-bold text-indigo-400">HUMAN RESOURCES</span>
+                      <span className="text-xs font-bold text-gold-400">HUMAN RESOURCES</span>
                       <p className="text-xs text-slate-300 mt-1">
                         Homemaker Time, Culinary Skills, Health Energy, Family Planning Attitude.
                       </p>
@@ -1917,10 +1917,10 @@ function C11_HomeScienceStorageFoodsPerishableSim({
               </div>
 
               {/* ─── BRILLIANT.ORG 'WHAT DO YOU NOTICE?' OBSERVATION SECTION ─── */}
-              <div className="p-5 bg-gradient-to-r from-indigo-950/40 via-slate-900 to-indigo-950/20 rounded-2xl border border-indigo-600/30 space-y-3">
+              <div className="p-5 bg-gradient-to-r from-gold-950/40 via-slate-900 to-gold-950/20 rounded-2xl border border-gold-600/30 space-y-3">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="text-indigo-400 font-bold text-xs uppercase tracking-wider">
+                    <span className="text-gold-400 font-bold text-xs uppercase tracking-wider">
                       👁️ Observation Check {observationIndex + 1} of {OBSERVATION_QUESTIONS.length}
                     </span>
                   </div>
@@ -1930,7 +1930,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                       setObservationSelected(null);
                       setObservationChecked(false);
                     }}
-                    className="text-xs text-indigo-300 underline font-semibold"
+                    className="text-xs text-gold-300 underline font-semibold"
                   >
                     Switch Observation Question ↻
                   </button>
@@ -1957,8 +1957,8 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                             ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                             : 'bg-slate-900/60 border-slate-800 text-slate-500'
                           : observationSelected === i
-                          ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
-                          : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-indigo-500/50'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
+                          : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/50'
                       }`}
                     >
                       <span className="font-bold mr-1.5">{String.fromCharCode(65 + i)}.</span> {opt}
@@ -1970,7 +1970,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                   <motion.div
                     initial={{ opacity: 0, y: 5 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="p-3 bg-slate-900/80 rounded-xl border border-indigo-500/40 text-xs text-indigo-200"
+                    className="p-3 bg-slate-900/80 rounded-xl border border-gold-500/40 text-xs text-gold-200"
                   >
                     <strong>Key Insight:</strong> {OBSERVATION_QUESTIONS[observationIndex].explanation}
                   </motion.div>
@@ -2005,7 +2005,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-black text-sm shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-black text-sm shadow-lg shadow-gold-600/30"
               >
                 Try Free Sandbox Mode →
               </motion.button>
@@ -2025,7 +2025,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
         >
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-4">
             <div>
-              <span className="text-xs uppercase font-bold text-indigo-400">Sandbox Playground</span>
+              <span className="text-xs uppercase font-bold text-gold-400">Sandbox Playground</span>
               <h2 className="text-xl font-bold text-white">Free Exploration & Variable Tuning</h2>
               <p className="text-xs text-slate-400">
                 Test any combinations freely. Real-time visualization updates instantly as you drag.
@@ -2086,13 +2086,13 @@ function C11_HomeScienceStorageFoodsPerishableSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400">TIME & ENERGY CURVE</span>
+              <span className="text-xs font-bold text-gold-400">TIME & ENERGY CURVE</span>
               <div className="flex gap-2">
                 <button
                   onClick={() => setPreNightPrep(!preNightPrep)}
                   className={`p-2 rounded-lg text-xs font-bold w-full border ${
                     preNightPrep
-                      ? 'bg-indigo-900/60 border-indigo-500 text-white'
+                      ? 'bg-gold-900/60 border-gold-500 text-white'
                       : 'bg-slate-800 border-slate-700 text-slate-400'
                   }`}
                 >
@@ -2104,7 +2104,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                   onClick={() => setDelegateTiffins(!delegateTiffins)}
                   className={`p-2 rounded-lg text-xs font-bold w-full border ${
                     delegateTiffins
-                      ? 'bg-indigo-900/60 border-indigo-500 text-white'
+                      ? 'bg-gold-900/60 border-gold-500 text-white'
                       : 'bg-slate-800 border-slate-700 text-slate-400'
                   }`}
                 >
@@ -2166,7 +2166,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                     ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                    : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                    : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
                 }`}
               >
                 {difficulty}
@@ -2187,7 +2187,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
           {/* Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2251,7 +2251,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                       whileTap={{ scale: 0.95 }}
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2370,7 +2370,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-2 bg-slate-800 hover:bg-indigo-700 border border-slate-700 rounded-xl text-white text-xs font-bold"
+                      className="px-3 py-2 bg-slate-800 hover:bg-gold-700 border border-slate-700 rounded-xl text-white text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2381,7 +2381,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 rounded-lg text-white text-xs font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 rounded-lg text-white text-xs font-bold flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2523,8 +2523,8 @@ function C11_HomeScienceStorageFoodsPerishableSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-950 rounded-3xl border border-indigo-900/40 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-950 rounded-3xl border border-gold-900/40 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Reflection & Deep Processing
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -2534,7 +2534,7 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="E.g., How multiple hurdles like salt and oil completely replace refrigeration..."
-                  className="w-full h-24 p-2.5 text-xs bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full h-24 p-2.5 text-xs bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
@@ -2543,16 +2543,16 @@ function C11_HomeScienceStorageFoodsPerishableSim({
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="E.g., Why work simplification is about posture and smart sequences rather than taking shortcuts..."
-                  className="w-full h-24 p-2.5 text-xs bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full h-24 p-2.5 text-xs bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-indigo-400">Where in real life might you use this?</p>
+                <p className="text-xs font-bold text-gold-400">Where in real life might you use this?</p>
                 <textarea
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="E.g., Rearranging the home kitchen counter and pre-soaking dals to manage morning peak load..."
-                  className="w-full h-24 p-2.5 text-xs bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full h-24 p-2.5 text-xs bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
             </div>

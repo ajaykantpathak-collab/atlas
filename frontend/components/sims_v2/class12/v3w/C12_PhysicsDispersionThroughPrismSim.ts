@@ -11,7 +11,7 @@ export const w_c12_physicsdispersionthroughprismsim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Prism: Refraction Through Prism and Dispersion',
     chapters: [],
     nodeIds: ['c12_phy_cbse_09_008', 'c12_phy_cbse_09_003', 'c12_phy_cbse_09_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a triangular glass prism on a sunny windowsill — you see a rainbow spectrum projected on the floor.', goal: 'Master Prism: Refraction Through Prism and Dispersion.' },
     discovery: {
         question: 'A ray of light is incident on one face of a prism of refracting angle A = 60° at an angle of incidence i = 45°.',
@@ -20,7 +20,7 @@ export const w_c12_physicsdispersionthroughprismsim: SimDef = {
         hook: 'Students often believe that "minimum deviation occurs when the ray passes through the prism symmetrically" means the.',
     },
     teaching: [
-        { title: 'A prism is a transparent optical medium.', text: 'A prism is a transparent optical medium bounded by two plane refracting surfaces inclined at an angle A (called the refracting angle or angle of prism).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A prism is a transparent optical medium.', text: 'A prism is a transparent optical medium bounded by two plane refracting surfaces inclined at an angle A (called the refracting angle or angle of prism).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_09_008', title: 'A prism is a transparent optical medium.',

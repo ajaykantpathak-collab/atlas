@@ -11,7 +11,7 @@ export const w_c11_geolandformsevolutioncbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Fluvial Processes: River Erosion Mechanisms',
     chapters: [],
     nodeIds: ['c11_geo_cbse_07_001', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_004', 'c11_geo_cbse_09_006', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_07_009', 'c11_geo_cbse_07_004', 'c11_geo_cbse_07_005', 'c11_geo_cbse_07_006', 'c11_geo_cbse_07_007', 'c11_geo_cbse_07_008', 'c11_geo_cbse_06_007', 'c11_geo_cbse_09_005', 'c11_geo_cbse_01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Stand on a bridge over the Yamuna near Delhi during monsoon and observe the turbid, sediment-laden water.', goal: 'Master Fluvial Processes: River Erosion Mechanisms.' },
     discovery: {
         question: 'Define hydraulic action in fluvial erosion and state the specific condition of bedrock that makes it most effective.',
@@ -20,7 +20,7 @@ export const w_c11_geolandformsevolutioncbsesim: SimDef = {
         hook: 'Students believe "corrasion" and "corrosion" are synonyms for the same process, or that attrition is a bedrock erosion.',
     },
     teaching: [
-        { title: 'Fluvial erosion mechanisms are the four.', text: 'Fluvial erosion mechanisms are the four primary processes by which flowing river water mechanically wears away and removes bedrock and sediment from the channel bed and banks: hydraulic action (force.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Fluvial erosion mechanisms are the four.', text: 'Fluvial erosion mechanisms are the four primary processes by which flowing river water mechanically wears away and removes bedrock and sediment from the channel bed and banks: hydraulic action (force.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_07_001', title: 'Fluvial erosion mechanisms are the four.',

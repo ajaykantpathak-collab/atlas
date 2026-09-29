@@ -1332,7 +1332,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
       <header className="max-w-6xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-6 mb-6 shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-sky-500/10 text-sky-400 border border-sky-500/20 text-xs font-mono font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+            <span className="bg-gold-500/10 text-gold-400 border border-gold-500/20 text-xs font-mono font-bold px-3 py-1 rounded-full uppercase tracking-wider">
               ICSE Class 6 Chemistry
             </span>
             <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold px-3 py-1 rounded-full">
@@ -1349,11 +1349,11 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
         <div className="w-full md:w-64 bg-slate-950 border border-slate-800 p-3 rounded-xl">
           <div className="flex justify-between items-center text-xs mb-1 font-mono">
             <span className="text-slate-400">BKT Concept Mastery:</span>
-            <span className="text-sky-400 font-bold">{overallMasteryPercent}%</span>
+            <span className="text-gold-400 font-bold">{overallMasteryPercent}%</span>
           </div>
           <div className="w-full h-3 bg-slate-800 rounded-full overflow-hidden">
             <div
-              className="h-full bg-gradient-to-r from-sky-500 to-emerald-400 transition-all duration-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 transition-all duration-500"
               style={{ width: `${overallMasteryPercent}%` }}
             />
           </div>
@@ -1375,7 +1375,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
             onClick={() => handleTabChange(tab.id)}
             className={`px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30 border border-sky-400'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 border border-gold-400'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1393,14 +1393,14 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
           <div className="space-y-6">
             {/* Lab Context Box */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-lg">
-              <h2 className="text-xl font-bold text-sky-400 mb-2">Scenario Context</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Scenario Context</h2>
               <p className="text-slate-300 leading-relaxed text-sm">{SCENARIO.intro}</p>
               <p className="text-slate-400 leading-relaxed text-sm mt-2">{SCENARIO.context}</p>
             </div>
 
             {/* Discovery Question Card */}
-            <div className="bg-slate-900 border border-sky-500/30 p-6 rounded-2xl shadow-xl">
-              <span className="text-xs font-mono font-bold text-sky-400 uppercase tracking-widest">
+            <div className="bg-slate-900 border border-gold-500/30 p-6 rounded-2xl shadow-xl">
+              <span className="text-xs font-mono font-bold text-gold-400 uppercase tracking-widest">
                 Discovery Pre-Check
               </span>
               <h3 className="text-lg font-bold text-white mt-1 mb-4">{DISCOVERY_QUESTION.question}</h3>
@@ -1426,8 +1426,8 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
               </div>
 
               {discoveryCompleted && (
-                <div className="mt-4 p-4 bg-slate-950 border border-sky-500/30 rounded-xl text-sm text-sky-200">
-                  <span className="font-bold text-sky-400">Scientific Truth: </span>
+                <div className="mt-4 p-4 bg-slate-950 border border-gold-500/30 rounded-xl text-sm text-gold-200">
+                  <span className="font-bold text-gold-400">Scientific Truth: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1461,7 +1461,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                       ))}
                     </div>
                     {predictionAnswers[pqIdx] !== undefined && (
-                      <p className="mt-2 text-xs font-mono text-sky-400">{pq.verifyInstruction}</p>
+                      <p className="mt-2 text-xs font-mono text-gold-400">{pq.verifyInstruction}</p>
                     )}
                   </div>
                 ))}
@@ -1486,11 +1486,11 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                   }}
                   className={`p-3 rounded-xl border text-xs font-semibold text-left transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-sky-600 border-sky-400 text-white shadow-lg shadow-sky-600/20'
+                      ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/20'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
-                  <div className="text-[10px] font-mono text-sky-300 uppercase">Lab {idx + 1}</div>
+                  <div className="text-[10px] font-mono text-gold-300 uppercase">Lab {idx + 1}</div>
                   <div className="truncate mt-0.5">{step.title.split(':')[1] || step.title}</div>
                 </button>
               ))}
@@ -1531,7 +1531,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                         max="120"
                         value={labTemp}
                         onChange={handleTempSliderChange}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="flex justify-between text-[10px] font-mono text-slate-500 mt-1">
                         <span>-20°C (Solid Ice)</span>
@@ -1554,14 +1554,14 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                   </div>
                   <div className="space-y-4">
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
-                      <h4 className="font-bold text-sky-400 text-sm mb-2">Gas Mass Experiment Controls</h4>
+                      <h4 className="font-bold text-gold-400 text-sm mb-2">Gas Mass Experiment Controls</h4>
                       <p className="text-xs text-slate-400 mb-4">
                         Pump air molecules into the right balloon to test whether invisible gases add mass to the balance scale.
                       </p>
                       <div className="flex gap-3">
                         <button
                           onClick={handleAddBalloon}
-                          className="px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-lg text-xs font-bold transition-all"
+                          className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold transition-all"
                         >
                           Pump Air (+0.45g CO₂/O₂/N₂)
                         </button>
@@ -1581,7 +1581,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Air Gas Added:</span>
-                        <span className="font-mono text-sky-400">{(inflatedBalloons * 0.45).toFixed(2)} g</span>
+                        <span className="font-mono text-gold-400">{(inflatedBalloons * 0.45).toFixed(2)} g</span>
                       </div>
                       <div className="flex justify-between font-bold border-t border-slate-800 pt-2 text-emerald-400">
                         <span>Total Inflated Mass:</span>
@@ -1596,10 +1596,10 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
               {activeLabIndex === 2 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <div className="bg-slate-950 border border-slate-800 p-6 rounded-xl flex flex-col items-center justify-center min-h-[220px]">
-                    <div className="w-32 h-40 border-2 border-sky-500/50 rounded-b-2xl relative overflow-hidden bg-slate-900">
+                    <div className="w-32 h-40 border-2 border-gold-500/50 rounded-b-2xl relative overflow-hidden bg-slate-900">
                       {/* Water Liquid */}
                       <div
-                        className="absolute bottom-0 w-full bg-sky-500/30 transition-all duration-300"
+                        className="absolute bottom-0 w-full bg-gold-500/30 transition-all duration-300"
                         style={{ height: `${60 + sugarSoluteGrams * 0.3}%` }}
                       >
                         {/* Solute Dots */}
@@ -1622,7 +1622,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
 
                   <div className="space-y-4">
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
-                      <h4 className="font-bold text-sky-400 text-sm mb-2">Mass Conservation Controls</h4>
+                      <h4 className="font-bold text-gold-400 text-sm mb-2">Mass Conservation Controls</h4>
                       <p className="text-xs text-slate-400 mb-4">
                         Add granulated sugar into 100g of pure water. Watch the mass increase exact g by g!
                       </p>
@@ -1684,7 +1684,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                                 : a.type === 'O'
                                 ? 'bg-red-500 text-white'
                                 : a.type === 'Fe'
-                                ? 'bg-blue-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-yellow-500 text-slate-900'
                             }`}
                           >
@@ -1697,7 +1697,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
 
                   <div className="space-y-4">
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
-                      <h4 className="font-bold text-sky-400 text-sm mb-2">Atomic Assembly Bench</h4>
+                      <h4 className="font-bold text-gold-400 text-sm mb-2">Atomic Assembly Bench</h4>
                       <p className="text-xs text-slate-400 mb-4">
                         Click atoms to assemble elements, compounds, or physical mixtures.
                       </p>
@@ -1716,7 +1716,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                         </button>
                         <button
                           onClick={() => handleAddAtomToBuilder('Fe')}
-                          className="px-3 py-2 bg-blue-900/50 border border-blue-500/40 text-blue-200 rounded-lg text-xs font-bold hover:bg-blue-800/50"
+                          className="px-3 py-2 bg-gold-900/50 border border-gold-500/40 text-gold-200 rounded-lg text-xs font-bold hover:bg-gold-800/50"
                         >
                           + Iron (Fe)
                         </button>
@@ -1751,20 +1751,20 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
 
                   <div className="space-y-4">
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
-                      <h4 className="font-bold text-sky-400 text-sm mb-2">Phase Transition Heat Chamber</h4>
+                      <h4 className="font-bold text-gold-400 text-sm mb-2">Phase Transition Heat Chamber</h4>
                       <p className="text-xs text-slate-400 mb-3">
                         Control thermal energy from -20°C up to 120°C to observe phase boundaries.
                       </p>
                       <div className="flex gap-2 mb-3">
                         <button
                           onClick={() => setHeatingTemp(-10)}
-                          className="px-3 py-1.5 bg-blue-600 text-white rounded text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-600 text-white rounded text-xs font-bold"
                         >
                           Ice (-10°C)
                         </button>
                         <button
                           onClick={() => setHeatingTemp(0)}
-                          className="px-3 py-1.5 bg-cyan-600 text-white rounded text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-600 text-white rounded text-xs font-bold"
                         >
                           Melting Point (0°C)
                         </button>
@@ -1782,7 +1782,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                         </button>
                       </div>
                       <div className="text-xs font-mono text-slate-300">
-                        Selected Temperature: <span className="text-sky-400 font-bold">{heatingTemp}°C</span>
+                        Selected Temperature: <span className="text-gold-400 font-bold">{heatingTemp}°C</span>
                       </div>
                     </div>
                   </div>
@@ -1832,7 +1832,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 border border-slate-800 p-4 rounded-2xl flex flex-wrap items-center justify-between gap-4">
               <div className="flex items-center gap-3">
-                <span className="font-mono text-xs font-bold text-sky-400 bg-sky-500/10 px-3 py-1 rounded-full border border-sky-500/20">
+                <span className="font-mono text-xs font-bold text-gold-400 bg-gold-500/10 px-3 py-1 rounded-full border border-gold-500/20">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span
@@ -1869,7 +1869,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                       disabled={challengeFeedback?.submitted}
                       className={`p-4 rounded-xl text-left text-sm border transition-all ${
                         userMCQChoice === idx
-                          ? 'bg-sky-600 border-sky-400 text-white font-semibold'
+                          ? 'bg-gold-600 border-gold-400 text-white font-semibold'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1892,7 +1892,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                     onChange={(e) => setUserNumericInput(e.target.value)}
                     disabled={challengeFeedback?.submitted}
                     placeholder="e.g. 175"
-                    className="w-full md:w-64 p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-white focus:border-sky-500 outline-none"
+                    className="w-full md:w-64 p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-white focus:border-gold-500 outline-none"
                   />
                 </div>
               )}
@@ -1917,10 +1917,10 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                         copy[nextIdx] = temp;
                         setUserSortingOrder(copy);
                       }}
-                      className="p-3 bg-slate-950 border border-slate-800 hover:border-sky-500 rounded-xl cursor-pointer text-sm font-medium flex justify-between items-center"
+                      className="p-3 bg-slate-950 border border-slate-800 hover:border-gold-500 rounded-xl cursor-pointer text-sm font-medium flex justify-between items-center"
                     >
                       <span>
-                        <span className="font-mono text-sky-400 font-bold mr-2">{idx + 1}.</span>
+                        <span className="font-mono text-gold-400 font-bold mr-2">{idx + 1}.</span>
                         {item}
                       </span>
                       <span className="text-xs font-mono text-slate-500">⇄ Tap to Swap</span>
@@ -1947,7 +1947,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                           });
                         }}
                         disabled={challengeFeedback?.submitted}
-                        className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs font-mono text-sky-300 outline-none focus:border-sky-500"
+                        className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs font-mono text-gold-300 outline-none focus:border-gold-500"
                       >
                         <option value="">-- Select Category Match --</option>
                         {currentChallenge.matchingPairs!.map((m, mIdx) => (
@@ -1966,7 +1966,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                 <div className="flex gap-3">
                   <button
                     onClick={handleChallengeSubmit}
-                    className="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-sky-600/30 transition-all"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 transition-all"
                   >
                     Submit Answer
                   </button>
@@ -2011,7 +2011,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
           <div className="space-y-6">
             {/* Real World Activity (Mandatory Render) */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
-              <span className="text-xs font-mono font-bold text-sky-400 uppercase tracking-widest">
+              <span className="text-xs font-mono font-bold text-gold-400 uppercase tracking-widest">
                 Industrial Application
               </span>
               <h3 className="text-xl font-bold text-white mt-1 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2020,7 +2020,7 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="p-4 bg-slate-950 border border-slate-800 rounded-xl text-xs">
-                    <span className="font-mono text-sky-400 font-bold block mb-1">Process Step {sIdx + 1}</span>
+                    <span className="font-mono text-gold-400 font-bold block mb-1">Process Step {sIdx + 1}</span>
                     <span className="text-slate-300">{step}</span>
                   </div>
                 ))}
@@ -2040,11 +2040,11 @@ export const C6_ChemistryMatteranditscompositionSim: React.FC<C6_ChemistryMatter
                       <div className="text-xs font-bold text-slate-200 line-clamp-1">{meta.title}</div>
                       <div className="flex justify-between items-center text-xs font-mono">
                         <span className="text-slate-400">Mastery:</span>
-                        <span className="text-sky-400 font-bold">{masterLvl}%</span>
+                        <span className="text-gold-400 font-bold">{masterLvl}%</span>
                       </div>
                       <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
                         <div
-                          className="h-full bg-sky-500 transition-all duration-300"
+                          className="h-full bg-gold-500 transition-all duration-300"
                           style={{ width: `${masterLvl}%` }}
                         />
                       </div>

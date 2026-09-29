@@ -11,7 +11,7 @@ export const w_c12_economicsmarketmechanismequilibriumsim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Price Ceiling: Meaning, Rationale and Effects (Black Market)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_05_006', 'c12_eco_cbse_04_006', 'c12_eco_cbse_11_011', 'c12_eco_cbse_05_001', 'c12_eco_cbse_05_002', 'c12_eco_cbse_05_003', 'c12_eco_cbse_05_004', 'c12_eco_cbse_05_005', 'c12_eco_cbse_05_007', 'c12_eco_cbse_05_008', 'c12_eco_cbse_01_002', 'c12_eco_cbse_10_007', 'c12_eco_cbse_10_010', 'c12_eco_cbse_11_010', 'c12_eco_cbse_11_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you go to a fair-price shop in Delhi to buy wheat at the government-fixed rate of ₹22/kg, but the.', goal: 'Master Price Ceiling: Meaning, Rationale and Effects (Black Market).' },
     discovery: {
         question: '"In the long run, a perfectly competitive firm produces at the minimum point of its LAC curve.',
@@ -20,7 +20,7 @@ export const w_c12_economicsmarketmechanismequilibriumsim: SimDef = {
         hook: 'Students often think that in long-run equilibrium, the firm\'s profit is zero in the accounting sense (i.e., the owner.',
     },
     teaching: [
-        { title: 'A price ceiling is a government-imposed.', text: 'A price ceiling is a government-imposed maximum legal price that sellers can charge for a good or service, set below the market equilibrium price to make essential goods affordable for consumers.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A price ceiling is a government-imposed.', text: 'A price ceiling is a government-imposed maximum legal price that sellers can charge for a good or service, set below the market equilibrium price to make essential goods affordable for consumers.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_05_006', title: 'A price ceiling is a government-imposed.',

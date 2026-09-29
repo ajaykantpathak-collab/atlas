@@ -1112,7 +1112,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
             aria-label="Simulation subject icon"
           >
             {subjectConfig.emoji}
@@ -1121,7 +1121,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tight flex items-center gap-2">
               {title}
             </h1>
-            <p className="text-xs text-indigo-400 font-medium">
+            <p className="text-xs text-gold-400 font-medium">
               ICSE Class 8 • NEP 2020 Competency Simulator • Active Node: <span className="font-mono text-slate-300">{nodeId}</span>
             </p>
           </div>
@@ -1140,7 +1140,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
               }}
               aria-label={`Switch to ${p} phase`}
               className={`px-3 py-1.5 rounded-xl capitalize transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1162,16 +1162,16 @@ function C8_MathematicsFactorisationsimpleCasesSim({
             {/* Narrative Scenario Banner */}
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 shadow-xl relative overflow-hidden"
+              className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 shadow-xl relative overflow-hidden"
             >
-              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
               <div className="relative z-10">
-                <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-bold uppercase tracking-wider border border-indigo-500/30">
+                <span className="px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full text-xs font-bold uppercase tracking-wider border border-gold-500/30">
                   Architectural Mission
                 </span>
                 <h2 className="text-xl md:text-2xl font-bold text-white mt-2">{SCENARIO.title}</h2>
                 <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-                <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-indigo-300 font-mono">
+                <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-gold-300 font-mono">
                   🏛️ Mission Target: Master Factorisation (c8_math_021), Polygons (c8_math_023-024), 3D Polyhedra (c8_math_025-026), Symmetry (c8_math_028), Circles (c8_math_029), and Coordinate Graphs (c8_math_030).
                 </div>
               </div>
@@ -1207,7 +1207,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     }`}
                   >
                     <span>
-                      <span className="font-mono text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                     </span>
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && (
                       <span className="text-emerald-400 font-bold ml-2">✓ Correct</span>
@@ -1223,7 +1223,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 mt-4 space-y-3"
+                  className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 mt-4 space-y-3"
                 >
                   <p className={discoveryCorrect ? 'text-emerald-400 text-sm font-bold flex items-center gap-1' : 'text-amber-300 text-sm font-bold flex items-center gap-1'}>
                     <span>{discoveryCorrect ? '✓' : '👉'}</span>
@@ -1235,7 +1235,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Launch Interactive Labs"
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
                   >
                     Launch Interactive Labs →
                   </motion.button>
@@ -1259,7 +1259,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
             {/* Exploration Slide Header */}
             <div className="flex flex-wrap items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800 gap-2">
               <div>
-                <span className="text-xs font-mono text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-wider">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1308,7 +1308,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="tile-a-slider">
                       <span>Tile Parameter a:</span>
-                      <span className="text-indigo-400 font-mono">{tileA}</span>
+                      <span className="text-gold-400 font-mono">{tileA}</span>
                     </label>
                     <input
                       id="tile-a-slider"
@@ -1321,7 +1321,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         setTileA(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="tile-b-slider">
@@ -1343,8 +1343,8 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     />
                   </div>
 
-                  <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800">
-                    <span className="text-xs text-indigo-300 font-bold uppercase tracking-wider">Multi-Representation:</span>
+                  <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-800">
+                    <span className="text-xs text-gold-300 font-bold uppercase tracking-wider">Multi-Representation:</span>
                     <p className="text-base font-black text-white font-mono mt-1">{factorisedExpression}</p>
                     <p className="text-xs text-slate-300 mt-1">
                       Middle term splitting: {tileA + tileB}x breaks into {tileA}x + {tileB}x.
@@ -1433,7 +1433,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="angle-a-slider">
                       <span>Angle A:</span>
-                      <span className="text-indigo-400 font-mono">{quadAngleA}°</span>
+                      <span className="text-gold-400 font-mono">{quadAngleA}°</span>
                     </label>
                     <input
                       id="angle-a-slider"
@@ -1446,12 +1446,12 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         setQuadAngleA(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="angle-b-slider">
                       <span>Angle B:</span>
-                      <span className="text-indigo-400 font-mono">{quadAngleB}°</span>
+                      <span className="text-gold-400 font-mono">{quadAngleB}°</span>
                     </label>
                     <input
                       id="angle-b-slider"
@@ -1464,12 +1464,12 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         setQuadAngleB(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="angle-c-slider">
                       <span>Angle C:</span>
-                      <span className="text-indigo-400 font-mono">{quadAngleC}°</span>
+                      <span className="text-gold-400 font-mono">{quadAngleC}°</span>
                     </label>
                     <input
                       id="angle-c-slider"
@@ -1482,7 +1482,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         setQuadAngleC(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <motion.button
@@ -1499,8 +1499,8 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     </motion.button>
                   </div>
 
-                  <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800 text-xs text-slate-300">
-                    <span className="font-bold text-indigo-300">Deductive Proof:</span> Any quadrilateral splits along a diagonal into 2 triangles. Since ΔABC = 180° and ΔACD = 180°, the sum of all 4 corners equals 360°.
+                  <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800 text-xs text-slate-300">
+                    <span className="font-bold text-gold-300">Deductive Proof:</span> Any quadrilateral splits along a diagonal into 2 triangles. Since ΔABC = 180° and ΔACD = 180°, the sum of all 4 corners equals 360°.
                   </div>
                 </div>
               </motion.div>
@@ -1650,7 +1650,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         aria-label={`Select polyhedron shape: ${poly}`}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                           selectedPolyhedron === poly
-                            ? 'bg-indigo-600 text-white shadow-lg'
+                            ? 'bg-gold-600 text-white shadow-lg'
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1710,7 +1710,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     <div className="grid grid-cols-3 gap-2 text-center">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-400">Vertices (V)</span>
-                        <p className="text-lg font-black text-indigo-400 font-mono">{polyData.v}</p>
+                        <p className="text-lg font-black text-gold-400 font-mono">{polyData.v}</p>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-400">Edges (E)</span>
@@ -1722,7 +1722,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       </div>
                     </div>
 
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800 font-mono text-xs text-center text-indigo-300 font-bold">
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800 font-mono text-xs text-center text-gold-300 font-bold">
                       {polyData.verified}
                     </div>
                   </div>
@@ -1805,7 +1805,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
 
                     <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="circle-arc-slider">
                       <span>Sector Central Angle:</span>
-                      <span className="text-sky-400 font-mono">{circleArcAngle}°</span>
+                      <span className="text-gold-400 font-mono">{circleArcAngle}°</span>
                     </label>
                     <input
                       id="circle-arc-slider"
@@ -1818,7 +1818,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         setCircleArcAngle(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <div className="flex gap-2">
@@ -1830,7 +1830,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                           audioManager.play('tap');
                         }}
                         aria-label="Toggle circle sector visibility"
-                        className="flex-1 py-2 bg-slate-800 text-xs font-bold rounded-xl text-sky-300 border border-slate-700"
+                        className="flex-1 py-2 bg-slate-800 text-xs font-bold rounded-xl text-gold-300 border border-slate-700"
                       >
                         {showSector ? 'Hide Sector' : 'Show Sector'}
                       </motion.button>
@@ -1849,7 +1849,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     </div>
                   </div>
 
-                  <div className="p-4 bg-sky-950/40 rounded-2xl border border-sky-800 text-xs text-sky-200">
+                  <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800 text-xs text-gold-200">
                     <span className="font-bold">Crucial Distinction:</span> Sector = 2 Radii + Arc (contains centre). Segment = 1 Chord + Arc (does not contain centre).
                   </div>
                 </div>
@@ -1874,7 +1874,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                   <div
                     key={i}
                     className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      currentSlide === i ? 'bg-indigo-500 w-6' : 'bg-slate-700'
+                      currentSlide === i ? 'bg-gold-500 w-6' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -1886,7 +1886,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleSlideChange(currentSlide + 1)}
                   aria-label="Next laboratory step"
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold rounded-xl"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold rounded-xl"
                 >
                   Next Lab →
                 </motion.button>
@@ -1976,7 +1976,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                   <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="slope-m-slider">
                     <span>Slope / Multiplier m:</span>
-                    <span className="text-indigo-400 font-mono">{cartesianM}</span>
+                    <span className="text-gold-400 font-mono">{cartesianM}</span>
                   </label>
                   <input
                     id="slope-m-slider"
@@ -1989,12 +1989,12 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       setCartesianM(Number(e.target.value));
                       audioManager.play('tap');
                     }}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
 
                   <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="intercept-c-slider">
                     <span>Y-Intercept c:</span>
-                    <span className="text-indigo-400 font-mono">{cartesianC}</span>
+                    <span className="text-gold-400 font-mono">{cartesianC}</span>
                   </label>
                   <input
                     id="intercept-c-slider"
@@ -2007,7 +2007,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       setCartesianC(Number(e.target.value));
                       audioManager.play('tap');
                     }}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
 
                   <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="point-x-slider">
@@ -2059,7 +2059,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
             {/* Challenge Progress Header */}
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
-                <span className="text-xs font-mono text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
@@ -2072,7 +2072,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                         : difficulty === 'advanced'
                         ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
-                        : 'bg-sky-500/20 text-sky-300 border border-sky-500/30'
+                        : 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                     }`}
                   >
                     {difficulty} TIER
@@ -2085,20 +2085,20 @@ function C8_MathematicsFactorisationsimpleCasesSim({
 
               <div className="text-right">
                 <span className="text-xs text-slate-400">Mastery Level:</span>
-                <p className="text-sm font-black text-indigo-400 capitalize">{masteryLevel}</p>
+                <p className="text-sm font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
 
             {/* Animated Progress Bar */}
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
             </div>
 
-            <div className="text-xs text-indigo-300 mt-1">
+            <div className="text-xs text-gold-300 mt-1">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -2140,7 +2140,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       }`}
                     >
                       <span>
-                        <span className="font-mono text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                        <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                       </span>
                       {showExplanation && i === challenge.correctIndex && (
                         <span className="text-emerald-400 font-bold ml-2">✓ Correct</span>
@@ -2168,7 +2168,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Draggable label: ${item.label}`}
-                        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
+                        className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
                       >
                         {item.label}
                       </motion.div>
@@ -2240,7 +2240,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     aria-label="Validate placed labels on diagram"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Check Label Placements
                   </motion.button>
@@ -2271,7 +2271,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       aria-label={`Sort item ${index + 1}: ${item}`}
                       className="p-3.5 bg-slate-800 rounded-2xl border border-slate-700 text-slate-200 text-xs font-semibold cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-600/40 text-indigo-300 flex items-center justify-center font-mono">
+                      <span className="w-6 h-6 rounded-full bg-gold-600/40 text-gold-300 flex items-center justify-center font-mono">
                         {index + 1}
                       </span>
                       <span>{item}</span>
@@ -2284,7 +2284,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
                     aria-label="Submit sorted step sequence"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Verify Step Sequence
                   </motion.button>
@@ -2301,7 +2301,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter value"
                       aria-label={`Numeric input in ${challenge.unit || 'units'}`}
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-base focus:outline-none focus:border-indigo-500"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-base focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
                     <motion.button
@@ -2310,7 +2310,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
                       aria-label="Submit numeric answer"
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-2xl shadow-md"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-2xl shadow-md"
                     >
                       Submit Answer
                     </motion.button>
@@ -2330,7 +2330,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleAddConstructPart(part)}
                         aria-label={`Add expression part: ${part}`}
-                        className="px-3.5 py-2 bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-700/60 rounded-xl text-xs font-mono font-bold"
+                        className="px-3.5 py-2 bg-gold-900/60 hover:bg-gold-800 text-gold-200 border border-gold-700/60 rounded-xl text-xs font-mono font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2343,7 +2343,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                         key={i}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3.5 py-1.5 bg-indigo-600 text-white font-mono text-xs font-bold rounded-xl flex items-center gap-2 shadow"
+                        className="px-3.5 py-1.5 bg-gold-600 text-white font-mono text-xs font-bold rounded-xl flex items-center gap-2 shadow"
                       >
                         <span>{part}</span>
                         <button
@@ -2366,7 +2366,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
                     aria-label="Validate algebraic construction"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Validate Construction
                   </motion.button>
@@ -2465,14 +2465,14 @@ function C8_MathematicsFactorisationsimpleCasesSim({
                 </div>
                 <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800">
                   <span className="text-xs text-slate-400">Mastery Tier</span>
-                  <p className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</p>
+                  <p className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</p>
                 </div>
               </div>
             </div>
 
             {/* Personalized Motivational Feedback Banner based on error count */}
-            <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 text-center">
-              <h3 className="text-lg font-black text-indigo-300 mb-1">
+            <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/60 text-center">
+              <h3 className="text-lg font-black text-gold-300 mb-1">
                 {errors === 0
                   ? 'PERFECT SCORE!'
                   : errors >= 1 && errors <= 3
@@ -2534,7 +2534,7 @@ function C8_MathematicsFactorisationsimpleCasesSim({
               <div className="space-y-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                    <span className="font-mono text-indigo-400 font-bold">{i + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{i + 1}.</span>
                     <span>{step}</span>
                   </div>
                 ))}

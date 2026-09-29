@@ -1290,7 +1290,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
               <span className="text-xs font-bold tracking-widest text-emerald-400 uppercase">
                 ISC Class 12 • {subjectConfig.name}
               </span>
-              <span className="px-2 py-0.5 text-[10px] font-semibold bg-indigo-900/60 text-indigo-300 rounded-full border border-indigo-700/40">
+              <span className="px-2 py-0.5 text-[10px] font-semibold bg-gold-900/60 text-gold-300 rounded-full border border-gold-700/40">
                 NEP 2020 Competency
               </span>
             </div>
@@ -1321,14 +1321,14 @@ export function C12_GeographyIndustriesAgrobasedSim({
       {/* ── PHASE 1: DISCOVERY NARRATIVE HOOK & PREDICTION QUESTIONS ── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-900/50 shadow-xl relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-900/50 shadow-xl relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none text-9xl">🏭</div>
-            <span className="px-3 py-1 text-xs font-bold bg-indigo-600 text-white rounded-md uppercase tracking-wider">
+            <span className="px-3 py-1 text-xs font-bold bg-gold-600 text-white rounded-md uppercase tracking-wider">
               Real-World Spatial Scenario
             </span>
-            <h2 className="text-2xl font-black text-indigo-200 mt-2">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-black text-gold-200 mt-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-4">
@@ -1352,7 +1352,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900 border-slate-800 text-slate-400 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1386,10 +1386,10 @@ export function C12_GeographyIndustriesAgrobasedSim({
           </div>
 
           {/* ── BRILLIANT.ORG PREDICTION QUESTIONS (Predict-Then-Check) ── */}
-          <div className="p-6 bg-slate-900/60 rounded-2xl border border-indigo-950 space-y-4">
+          <div className="p-6 bg-slate-900/60 rounded-2xl border border-gold-950 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">🔮</span>
-              <h3 className="text-base font-black text-indigo-200 uppercase tracking-wider">
+              <h3 className="text-base font-black text-gold-200 uppercase tracking-wider">
                 Pre-Exploration Hypotheses (Predict Before Testing)
               </h3>
             </div>
@@ -1409,7 +1409,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                           }}
                           className={`w-full text-left p-2.5 rounded-lg text-xs transition-all border ${
                             isSelected
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200 font-bold'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200 font-bold'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -1575,7 +1575,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between items-center text-sm">
                         <span className="text-slate-400 font-semibold">Relative Humidity:</span>
-                        <span className="text-cyan-400 font-bold font-mono text-base">{humidityLevel}% RH</span>
+                        <span className="text-gold-400 font-bold font-mono text-base">{humidityLevel}% RH</span>
                       </div>
                       <input
                         type="range"
@@ -1588,7 +1588,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                           audioManager.play('count');
                         }}
                         aria-label="Adjust Relative Humidity Slider"
-                        className="w-full accent-cyan-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 font-mono">
                         <span>20% (Dry Inland)</span>
@@ -1606,16 +1606,16 @@ export function C12_GeographyIndustriesAgrobasedSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[10px] text-slate-400 block uppercase font-bold">Spin Speed</span>
-                        <span className="text-lg font-black text-cyan-400 font-mono">{cottonCalculations.spinningEfficiency}%</span>
+                        <span className="text-lg font-black text-gold-400 font-mono">{cottonCalculations.spinningEfficiency}%</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[10px] text-slate-400 block uppercase font-bold">Tensile Str.</span>
-                        <span className="text-lg font-black text-indigo-400 font-mono">{cottonCalculations.tensileStrength} cN</span>
+                        <span className="text-lg font-black text-gold-400 font-mono">{cottonCalculations.tensileStrength} cN</span>
                       </div>
                     </div>
 
                     <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800 text-xs text-slate-300">
-                      <strong className="text-cyan-300">Cottonopolis Factor:</strong> Humid sea air prevents fine cotton yarn from snapping during high-speed spinning. Combined with port trade and Deccan black soil cotton, Mumbai & Ahmedabad became textile giants.
+                      <strong className="text-gold-300">Cottonopolis Factor:</strong> Humid sea air prevents fine cotton yarn from snapping during high-speed spinning. Combined with port trade and Deccan black soil cotton, Mumbai & Ahmedabad became textile giants.
                     </div>
                   </div>
 
@@ -1672,8 +1672,8 @@ export function C12_GeographyIndustriesAgrobasedSim({
                       <span className="flex items-center gap-1 text-rose-400">
                         <span className="w-3 h-3 rounded-full bg-rose-500 inline-block"></span> Integrated Steel (Steep Slope)
                       </span>
-                      <span className="flex items-center gap-1 text-cyan-400">
-                        <span className="w-3 h-3 rounded-full bg-cyan-500 inline-block"></span> Electronics (Flat Slope)
+                      <span className="flex items-center gap-1 text-gold-400">
+                        <span className="w-3 h-3 rounded-full bg-gold-500 inline-block"></span> Electronics (Flat Slope)
                       </span>
                     </div>
                   </div>
@@ -1711,7 +1711,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <span className="text-[10px] text-slate-400 block uppercase font-bold">Electronics Freight @ {haulDistance}km</span>
-                      <span className="text-lg font-black text-cyan-400 font-mono">₹{liveFreightCost.electronics} / t</span>
+                      <span className="text-lg font-black text-gold-400 font-mono">₹{liveFreightCost.electronics} / t</span>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <span className="text-[10px] text-slate-400 block uppercase font-bold">Cost Multiple Ratio</span>
@@ -1771,7 +1771,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[10px] text-slate-400 block uppercase font-bold">Water Demand</span>
-                        <span className="text-lg font-black text-cyan-400 font-mono">{tourismMetrics.waterDemandMLD} MLD</span>
+                        <span className="text-lg font-black text-gold-400 font-mono">{tourismMetrics.waterDemandMLD} MLD</span>
                       </div>
                     </div>
 
@@ -1850,7 +1850,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                         aria-label={`Select region tab: ${tab}`}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all border ${
                           activeRegionTab === tab
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                             : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                         }`}
                       >
@@ -1877,7 +1877,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                           <p className="text-xs text-slate-300">Tribal rearing of wild Tasar silkworms on forest trees + cultivated Mulberry cocoons, woven into traditional handloom sarees.</p>
                         </div>
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="text-cyan-400 text-sm font-bold block mb-1">🌾 Agriculture Pillar</span>
+                          <span className="text-gold-400 text-sm font-bold block mb-1">🌾 Agriculture Pillar</span>
                           <p className="text-xs text-slate-300">Mahanadi basin "Rice Bowl of Central India", supplemented by pulse cultivation and tribal oilseed production.</p>
                         </div>
                       </motion.div>
@@ -1892,11 +1892,11 @@ export function C12_GeographyIndustriesAgrobasedSim({
                         className="grid grid-cols-1 md:grid-cols-3 gap-4"
                       >
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="text-indigo-400 text-sm font-bold block mb-1">🏛️ High-Tech Node</span>
+                          <span className="text-gold-400 text-sm font-bold block mb-1">🏛️ High-Tech Node</span>
                           <p className="text-xs text-slate-300">Clustered in Electronics City & Whitefield; pioneered by Infosys, Wipro, and defense R&D (ISRO, DRDO, HAL).</p>
                         </div>
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="text-cyan-400 text-sm font-bold block mb-1">🌐 Global Linkages</span>
+                          <span className="text-gold-400 text-sm font-bold block mb-1">🌐 Global Linkages</span>
                           <p className="text-xs text-slate-300">Direct export pipelines to Silicon Valley, European markets, and international high-speed satellite gateways.</p>
                         </div>
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
@@ -1915,7 +1915,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                         className="grid grid-cols-1 md:grid-cols-3 gap-4"
                       >
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="text-cyan-400 text-sm font-bold block mb-1">🚢 Port Location</span>
+                          <span className="text-gold-400 text-sm font-bold block mb-1">🚢 Port Location</span>
                           <p className="text-xs text-slate-300">Situated at Hugli-Haldi river confluence as a deep-water supplementary gateway to silting Kolkata port.</p>
                         </div>
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
@@ -2009,7 +2009,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
                     aria-label="Enter Free Sandbox Exploration"
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-900/30"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30"
                   >
                     Enter Free Interactive Sandbox →
                   </motion.button>
@@ -2026,7 +2026,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div>
-                <span className="px-2.5 py-1 text-[11px] font-bold bg-indigo-950 text-indigo-400 border border-indigo-800 rounded-md uppercase">
+                <span className="px-2.5 py-1 text-[11px] font-bold bg-gold-950 text-gold-400 border border-gold-800 rounded-md uppercase">
                   Free Geographic Sandbox
                 </span>
                 <h3 className="text-xl font-black text-white mt-1">Interactive Economic Map of India</h3>
@@ -2218,7 +2218,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
             <div className="flex flex-wrap justify-between items-center gap-2">
               <div className="flex items-center gap-2">
-                <span className="px-2.5 py-1 text-xs font-black bg-indigo-600 text-white rounded-lg">
+                <span className="px-2.5 py-1 text-xs font-black bg-gold-600 text-white rounded-lg">
                   Q {currentChallenge + 1} / {filteredChallenges.length}
                 </span>
                 <span className="text-xs font-bold text-slate-400 uppercase">
@@ -2235,7 +2235,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2266,7 +2266,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                     className={`w-full text-left p-4 rounded-xl text-sm font-semibold transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -2293,7 +2293,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag item: ${item.label}`}
-                      className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3.5 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2326,7 +2326,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Check Drag-Label Answer"
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Mapping →
                 </motion.button>
@@ -2369,7 +2369,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check Drag-Sort Order"
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Confirm Sequence →
                 </motion.button>
@@ -2385,7 +2385,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated tonnage"
                     aria-label="Enter numeric answer"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-mono w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-mono w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 text-sm font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2394,7 +2394,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit numeric answer"
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Check →
                   </motion.button>
@@ -2422,7 +2422,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] flex flex-wrap items-center gap-2">
                   {constructParts.map((p, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-lg text-xs font-bold flex items-center gap-2 border border-indigo-700">
+                    <span key={idx} className="px-3 py-1 bg-gold-900 text-gold-200 rounded-lg text-xs font-bold flex items-center gap-2 border border-gold-700">
                       {p}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))} className="text-rose-400 font-black">
                         ✕
@@ -2438,7 +2438,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Constructed Formula"
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Charge →
                 </motion.button>
@@ -2501,7 +2501,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
             <h2 className="text-2xl md:text-3xl font-black text-white">Spatial Geography Mastery Achieved</h2>
             <p className="text-sm text-slate-300 max-w-2xl mx-auto">
               Score: <strong className="text-emerald-400 font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</strong> • Performance Tier:{' '}
-              <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+              <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
             </p>
 
             <div className="p-4 bg-emerald-950/60 rounded-2xl border border-emerald-700/60 max-w-2xl mx-auto text-xs text-emerald-200">
@@ -2535,7 +2535,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
           )}
 
           {/* ── REQUIRED REFLECTION SECTION ── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">💭</span>
               <h3 className="text-lg font-bold text-white">Post-Simulation Spatial Reflection</h3>
@@ -2554,12 +2554,12 @@ export function C12_GeographyIndustriesAgrobasedSim({
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h4 className="text-xs font-bold text-cyan-400">2. How would you explain this to a friend?</h4>
+                <h4 className="text-xs font-bold text-gold-400">2. How would you explain this to a friend?</h4>
                 <textarea
                   value={reflections.q2}
                   onChange={(e) => setReflections(r => ({ ...r, q2: e.target.value }))}
                   placeholder="E.g., Heavy weight-losing factories are anchored to raw material mines, while electronics can float anywhere..."
-                  className="w-full h-24 p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-cyan-500"
+                  className="w-full h-24 p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2589,7 +2589,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
           </div>
 
           {/* Real-World Capstone Activity */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">🗺️</span>
               <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2598,7 +2598,7 @@ export function C12_GeographyIndustriesAgrobasedSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900/80 text-indigo-300 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
+                  <span className="w-5 h-5 rounded-full bg-gold-900/80 text-gold-300 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{step}</span>

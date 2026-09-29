@@ -9,7 +9,7 @@ export const c9_comp_ch86: SimDef = {
     classLevel: 9, subject: 'english-composition', topic: 'Formal letter and notice writing',
     chapters: ['c9_comp_ch86'],
     nodeIds: ['c9_engl_cbse_86_001', 'c9_engl_cbse_86_002', 'c9_engl_cbse_86_003'],
-    emoji: '📮', theme: { bg: 'from-slate-900 to-cyan-950', accent: 'cyan', scene: 'senior' },
+    emoji: '📮', theme: { bg: 'from-slate-900 to-gold-950', accent: 'cyan', scene: 'senior' },
 
     scenario: {
         role: 'a correspondent whose letters must survive a clerk\'s desk and whose notices must pass the noticeboard test',
@@ -28,8 +28,8 @@ export const c9_comp_ch86: SimDef = {
         hook: 'Salutation and subscription are a contract — most students never see the pairing rule.',
     },
     teaching: [
-        { title: 'The legal order', text: "sender's address → date → receiver's address → subject → salutation → body → subscription → name. Positional, all marked.", emoji: '🦴', bgColor: 'from-cyan-500 to-sky-600' },
-        { title: 'Register is deletion', text: 'No contractions, slang, exclamations, or vague words. Convert feelings to facts: "smells gross" → "poses a health hazard".', emoji: '🎩', bgColor: 'from-sky-500 to-blue-600' },
+        { title: 'The legal order', text: "sender's address → date → receiver's address → subject → salutation → body → subscription → name. Positional, all marked.", emoji: '🦴', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Register is deletion', text: 'No contractions, slang, exclamations, or vague words. Convert feelings to facts: "smells gross" → "poses a health hazard".', emoji: '🎩', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

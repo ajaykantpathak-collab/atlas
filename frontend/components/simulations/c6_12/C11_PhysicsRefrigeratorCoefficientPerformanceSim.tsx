@@ -1259,7 +1259,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-cyan-900/50 shadow-2xl font-sans"
+      className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-gold-900/50 shadow-2xl font-sans"
     >
       {/* ─── HEADER ─── */}
       <motion.div
@@ -1271,12 +1271,12 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
           <motion.div
             whileHover={{ scale: 1.1, rotate: 15 }}
             whileTap={{ scale: 0.95 }}
-            className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-cyan-600 to-blue-600 flex items-center justify-center text-2xl shadow-lg shadow-cyan-500/20"
+            className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs font-semibold tracking-wider text-cyan-400 uppercase">Class 11 ISC Physics</span>
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase">Class 11 ISC Physics</span>
             <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1292,7 +1292,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-400'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-500 text-rose-400'
-                : 'bg-cyan-950/70 border-cyan-500 text-cyan-400'
+                : 'bg-gold-950/70 border-gold-500 text-gold-400'
             }`}
           >
             {difficulty} Tier
@@ -1319,13 +1319,13 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-800/60"
+              className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-800/60"
             >
-              <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>🚀</span> {SCENARIO.title}
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-200/70 mt-2 font-mono">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-200/70 mt-2 font-mono">{SCENARIO.context}</p>
             </motion.div>
 
             <motion.div
@@ -1346,7 +1346,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     onClick={() => handleDiscoveryAnswer(i)}
                     className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/60 text-slate-200 text-sm transition-all"
                   >
-                    <span className="font-mono text-cyan-400 mr-2 font-bold">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-mono text-gold-400 mr-2 font-bold">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1364,7 +1364,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm shadow-lg shadow-cyan-500/25"
+                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-500/25"
                   >
                     Enter Interactive Laboratory →
                   </motion.button>
@@ -1386,7 +1386,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
             className="mt-6 space-y-5"
           >
             <motion.div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-cyan-400 tracking-wider uppercase">
+              <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
                 Lab Station {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <div className="flex gap-1">
@@ -1395,7 +1395,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     key={idx}
                     animate={{ scale: idx === currentSlide ? 1.1 : 1 }}
                     className={`h-1.5 w-6 rounded-full transition-all ${
-                      idx === currentSlide ? 'bg-cyan-400' : 'bg-slate-800'
+                      idx === currentSlide ? 'bg-gold-400' : 'bg-slate-800'
                     }`}
                   />
                 ))}
@@ -1411,7 +1411,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                 className="p-5 md:p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-4"
               >
                 <div>
-                  <h2 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
+                  <h2 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
                   <p className="text-sm text-slate-300 mt-1">{EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
 
@@ -1432,12 +1432,12 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800"
                     >
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Thermodynamic Controls</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Thermodynamic Controls</span>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Cold Chamber T₂ (Freezer)</span>
-                          <span className="font-mono text-cyan-400">{tempColdK} K ({tempColdK - 273}°C)</span>
+                          <span className="font-mono text-gold-400">{tempColdK} K ({tempColdK - 273}°C)</span>
                         </div>
                         <input
                           type="range"
@@ -1445,7 +1445,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           max={280}
                           value={tempColdK}
                           onChange={e => setTempColdK(Number(e.target.value))}
-                          className="w-full accent-cyan-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                           aria-label="Set cold temperature T2 in Kelvin"
                         />
                       </div>
@@ -1533,7 +1533,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                         </text>
                       </svg>
 
-                      <div className="mt-2 text-center text-xs text-cyan-300 font-mono bg-cyan-950/40 p-2 rounded-lg border border-cyan-800/40">
+                      <div className="mt-2 text-center text-xs text-gold-300 font-mono bg-gold-950/40 p-2 rounded-lg border border-gold-800/40">
                         Carnot Formula: α = T₂ / (T₁ - T₂) = {tempColdK} / {tempHotK - tempColdK} = <span className="font-bold text-amber-300">{copCarnot}</span>
                       </div>
                     </motion.div>
@@ -1548,12 +1548,12 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800"
                     >
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Oscillator Parameters</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Oscillator Parameters</span>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Mass (m)</span>
-                          <span className="font-mono text-cyan-400">{springMass} kg</span>
+                          <span className="font-mono text-gold-400">{springMass} kg</span>
                         </div>
                         <input
                           type="range"
@@ -1562,7 +1562,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           step={0.5}
                           value={springMass}
                           onChange={e => setSpringMass(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                           aria-label="Set mass in kg"
                         />
                       </div>
@@ -1585,7 +1585,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono text-slate-300">
-                        <p>Time Period T = 2π√(m/k) = <span className="text-cyan-400 font-bold">{shmPeriod} s</span></p>
+                        <p>Time Period T = 2π√(m/k) = <span className="text-gold-400 font-bold">{shmPeriod} s</span></p>
                         <p>Angular Frequency ω = √(k/m) = <span className="text-emerald-400 font-bold">{(2 * Math.PI / shmPeriod).toFixed(2)} rad/s</span></p>
                         <p>Static Gravity Sag x₀ = mg/k = <span className="text-amber-400 font-bold">{((springMass * 9.8) / springStiffness).toFixed(3)} m</span></p>
                       </div>
@@ -1647,7 +1647,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800"
                     >
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Incline & Body Selector</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Incline & Body Selector</span>
 
                       <div className="flex gap-2">
                         {(['sphere', 'disc', 'ring'] as const).map(shape => (
@@ -1658,7 +1658,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                             onClick={() => setRollingShape(shape)}
                             className={`flex-1 py-2 rounded-lg text-xs font-bold uppercase transition-all ${
                               rollingShape === shape
-                                ? 'bg-cyan-600 text-white shadow-md'
+                                ? 'bg-gold-600 text-white shadow-md'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1670,7 +1670,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Incline Angle θ</span>
-                          <span className="font-mono text-cyan-400">{inclineAngleDeg}°</span>
+                          <span className="font-mono text-gold-400">{inclineAngleDeg}°</span>
                         </div>
                         <input
                           type="range"
@@ -1678,7 +1678,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           max={60}
                           value={inclineAngleDeg}
                           onChange={e => setInclineAngleDeg(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                           aria-label="Set incline angle in degrees"
                         />
                       </div>
@@ -1740,12 +1740,12 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800"
                     >
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Efflux Tank Parameters</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Efflux Tank Parameters</span>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Orifice Depth h below surface</span>
-                          <span className="font-mono text-cyan-400">{orificeDepth} m</span>
+                          <span className="font-mono text-gold-400">{orificeDepth} m</span>
                         </div>
                         <input
                           type="range"
@@ -1754,14 +1754,14 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           step={0.1}
                           value={orificeDepth}
                           onChange={e => setOrificeDepth(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                           aria-label="Set orifice depth in meters"
                         />
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono space-y-1">
                         <p>Total Tank Height H = {tankHeight} m</p>
-                        <p>Efflux Velocity v = √(2gh) = <span className="text-cyan-300 font-bold">{effluxVelocity} m/s</span></p>
+                        <p>Efflux Velocity v = √(2gh) = <span className="text-gold-300 font-bold">{effluxVelocity} m/s</span></p>
                         <p>Horizontal Range R = 2√(h(H - h)) = <span className="text-amber-300 font-bold">{effluxRange} m</span></p>
                         <p className="text-emerald-400">Max Range occurs at h = H/2 = {(tankHeight / 2).toFixed(1)} m (R_max = {tankHeight} m)</p>
                       </div>
@@ -1831,12 +1831,12 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800"
                     >
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Elevator Simulation</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Elevator Simulation</span>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Frame Acceleration a (+ Up / - Down)</span>
-                          <span className="font-mono text-cyan-400">{elevatorAccel > 0 ? `+${elevatorAccel}` : elevatorAccel} m/s²</span>
+                          <span className="font-mono text-gold-400">{elevatorAccel > 0 ? `+${elevatorAccel}` : elevatorAccel} m/s²</span>
                         </div>
                         <input
                           type="range"
@@ -1845,7 +1845,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           step={0.5}
                           value={elevatorAccel}
                           onChange={e => setElevatorAccel(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                           aria-label="Set elevator acceleration in m/s^2"
                         />
                       </div>
@@ -1863,7 +1863,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="bg-slate-950/80 p-4 rounded-xl border border-slate-800 text-xs space-y-2 flex flex-col justify-center"
                     >
-                      <p className="text-cyan-300 font-bold">Non-Inertial Frame Transformations:</p>
+                      <p className="text-gold-300 font-bold">Non-Inertial Frame Transformations:</p>
                       <p className="text-slate-300">1. Linear: Apply fictitious force F_pseudo = -m a_frame opposite to the reference frame acceleration.</p>
                       <p className="text-slate-300">2. Rotating Frame: Centrifugal F_cf = m ω² r directed radially outward from the axis of rotation.</p>
                       <p className="text-slate-300">3. Moving Object in Rotating Frame: Coriolis F_cor = -2m(ω × v_rel).</p>
@@ -1892,7 +1892,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextSlide}
-                  className="px-5 py-2 rounded-xl bg-cyan-600 text-white text-xs font-bold shadow-md shadow-cyan-600/20"
+                  className="px-5 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold shadow-md shadow-gold-600/20"
                 >
                   Next Lab →
                 </motion.button>
@@ -1924,10 +1924,10 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
             <motion.div
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-4 rounded-2xl bg-cyan-950/40 border border-cyan-800/50 flex justify-between items-center"
+              className="p-4 rounded-2xl bg-gold-950/40 border border-gold-800/50 flex justify-between items-center"
             >
               <div>
-                <h2 className="text-base font-bold text-cyan-300">Unrestricted Physics Sandbox</h2>
+                <h2 className="text-base font-bold text-gold-300">Unrestricted Physics Sandbox</h2>
                 <p className="text-xs text-slate-400">Tweak all variables freely without scoring or time limits.</p>
               </div>
               <motion.button
@@ -1945,7 +1945,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                 whileHover={{ scale: 1.01 }}
                 className="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-3"
               >
-                <span className="text-xs font-bold text-cyan-400 uppercase">Thermodynamic Heat Pump</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Thermodynamic Heat Pump</span>
                 <div className="flex justify-between text-xs">
                   <span>Freezer T₂: {tempColdK} K</span>
                   <span>Room T₁: {tempHotK} K</span>
@@ -1956,11 +1956,11 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                   max={280}
                   value={tempColdK}
                   onChange={e => setTempColdK(Number(e.target.value))}
-                  className="w-full accent-cyan-400"
+                  className="w-full accent-gold-400"
                   aria-label="Freezer temperature T2"
                 />
                 <div className="p-2 bg-slate-950 rounded text-xs font-mono flex justify-between">
-                  <span>Carnot COP: <strong className="text-cyan-300">{copCarnot}</strong></span>
+                  <span>Carnot COP: <strong className="text-gold-300">{copCarnot}</strong></span>
                   <span>Work for 1kJ Q₂: <strong className="text-amber-300">{workInputRequired} J</strong></span>
                 </div>
               </motion.div>
@@ -2008,13 +2008,13 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
             <div className="space-y-2">
               <div className="flex justify-between items-center text-xs font-medium text-slate-400">
                 <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-                <span className="capitalize text-cyan-400 font-bold tracking-wide">
+                <span className="capitalize text-gold-400 font-bold tracking-wide">
                   NEP Competency: {challenge.competencyLevel}
                 </span>
               </div>
               <div className="h-2 rounded-full bg-slate-800 overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-600 rounded-full"
                   initial={{ width: 0 }}
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
@@ -2065,7 +2065,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700/60 text-slate-200'
                       }`}
                     >
-                      <span className="font-mono text-cyan-400 font-bold mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-mono text-gold-400 font-bold mr-2">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2084,7 +2084,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onDragStart={() => handleDragStart(item.label)}
-                        className="px-3 py-1.5 rounded-lg bg-cyan-700 hover:bg-cyan-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 rounded-lg bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2115,7 +2115,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 rounded-xl bg-cyan-600 text-white font-bold text-xs"
+                    className="px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs"
                   >
                     Verify Thermal Labels →
                   </motion.button>
@@ -2144,7 +2144,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                         }}
                         className="p-3 rounded-xl bg-slate-800 border border-slate-700 text-slate-200 text-xs font-semibold cursor-grab flex items-center gap-3"
                       >
-                        <span className="w-5 h-5 rounded-full bg-cyan-900 text-cyan-300 flex items-center justify-center font-mono">
+                        <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-mono">
                           {displayIdx + 1}
                         </span>
                         {item}
@@ -2156,7 +2156,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 rounded-xl bg-cyan-600 text-white font-bold text-xs"
+                    className="px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs"
                   >
                     Submit Order →
                   </motion.button>
@@ -2173,7 +2173,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       value={numericInput}
                       onChange={e => setNumericInput(e.target.value)}
                       placeholder="Enter numeric value..."
-                      className="px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-cyan-500 w-48 font-mono"
+                      className="px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-gold-500 w-48 font-mono"
                       aria-label="Enter calculated numeric answer"
                     />
                     <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
@@ -2182,7 +2182,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-5 py-2.5 rounded-xl bg-cyan-600 text-white font-bold text-xs shadow-md shadow-cyan-600/20"
+                      className="px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs shadow-md shadow-gold-600/20"
                     >
                       Check Answer →
                     </motion.button>
@@ -2201,7 +2201,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleAddConstructPart(part)}
-                        className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 font-mono text-xs font-bold border border-slate-700"
+                        className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-gold-300 font-mono text-xs font-bold border border-slate-700"
                       >
                         + {part}
                       </motion.button>
@@ -2215,7 +2215,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                         onClick={() => handleRemoveConstructPart(i)}
-                        className="px-2.5 py-1 rounded bg-cyan-900/60 border border-cyan-500 text-cyan-200 font-mono text-xs cursor-pointer hover:bg-rose-900/60 transition-colors"
+                        className="px-2.5 py-1 rounded bg-gold-900/60 border border-gold-500 text-gold-200 font-mono text-xs cursor-pointer hover:bg-rose-900/60 transition-colors"
                         title="Click to remove"
                       >
                         {part} ×
@@ -2231,7 +2231,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2.5 rounded-xl bg-cyan-600 text-white font-bold text-xs"
+                    className="px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs"
                   >
                     Verify Constructed Formula →
                   </motion.button>
@@ -2243,9 +2243,9 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-5 p-4 rounded-xl bg-cyan-950/40 border border-cyan-800/60 space-y-3"
+                  className="mt-5 p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 space-y-3"
                 >
-                  <div className="flex items-center gap-2 text-cyan-300 font-bold text-xs uppercase tracking-wider">
+                  <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                     <span>📘</span> Step-by-Step Physical Explanation
                   </div>
 
@@ -2261,7 +2261,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                           animate={{ opacity: 1, x: 0 }}
                           className="text-xs text-slate-200 leading-relaxed font-sans"
                         >
-                          <span className="font-bold text-cyan-400 font-mono">{sIdx + 1}.</span> {sentence}
+                          <span className="font-bold text-gold-400 font-mono">{sIdx + 1}.</span> {sentence}
                           {!sentence.endsWith('.') && '.'}
                         </motion.p>
                       ))}
@@ -2272,7 +2272,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-3 py-1.5 rounded-lg bg-cyan-800/70 hover:bg-cyan-700 text-cyan-100 text-xs font-bold"
+                      className="px-3 py-1.5 rounded-lg bg-gold-800/70 hover:bg-gold-700 text-gold-100 text-xs font-bold"
                     >
                       Reveal Next Reasoning Step ↓
                     </motion.button>
@@ -2307,11 +2307,11 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
             <motion.div
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="p-6 rounded-2xl bg-gradient-to-br from-slate-900 via-cyan-950 to-blue-950 border border-cyan-700/50 text-center space-y-2"
+              className="p-6 rounded-2xl bg-gradient-to-br from-slate-900 via-gold-950 to-gold-950 border border-gold-700/50 text-center space-y-2"
             >
               <span className="text-4xl">🏆</span>
               <h2 className="text-2xl font-bold text-white">ISC Physics Mastery Achieved!</h2>
-              <p className="text-sm text-cyan-300">
+              <p className="text-sm text-gold-300">
                 Final Competency Score: <strong className="text-white text-base">{Math.max(0, 100 - errors * 5)}%</strong> ({scoreBreakdown.correct} of {scoreBreakdown.total} challenges correct)
               </p>
             </motion.div>
@@ -2325,7 +2325,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                 errors === 0
                   ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300'
                   : errors <= 3
-                  ? 'bg-cyan-950/60 border-cyan-500 text-cyan-300'
+                  ? 'bg-gold-950/60 border-gold-500 text-gold-300'
                   : errors <= 7
                   ? 'bg-amber-950/60 border-amber-500 text-amber-300'
                   : 'bg-rose-950/60 border-rose-500 text-rose-300'
@@ -2347,7 +2347,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
               <div className="flex items-center gap-2">
                 <span className="text-xl">🧠</span>
                 <div>
-                  <h3 className="text-sm font-bold text-cyan-300 uppercase tracking-wider">Conceptual Reflection</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Conceptual Reflection</h3>
                   <p className="text-xs text-slate-400">Synthesize your insights to lock in deep understanding.</p>
                 </div>
               </div>
@@ -2364,7 +2364,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                       onChange={e => setReflectionAnswers(prev => ({ ...prev, [rq.id]: e.target.value }))}
                       placeholder={rq.placeholder}
                       disabled={reflectionsSubmitted}
-                      className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-100 placeholder-slate-600 focus:outline-none focus:border-cyan-500"
+                      className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-100 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                     />
                   </div>
                 ))}
@@ -2379,7 +2379,7 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
                     audioManager.play('success');
                     speechManager.speak('Great reflections! Self-explanation cements neural connections.');
                   }}
-                  className="px-5 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs shadow-md shadow-cyan-600/20"
+                  className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow-md shadow-gold-600/20"
                 >
                   Save Reflection Insights →
                 </motion.button>
@@ -2443,14 +2443,14 @@ export function C11_PhysicsRefrigeratorCoefficientPerformanceSim({
               transition={{ delay: 0.5 }}
               className="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-3"
             >
-              <h3 className="text-sm font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                 <span>🛰️</span> {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-400">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <li key={i} className="flex gap-2">
-                    <span className="font-mono text-cyan-400">{i + 1}.</span> {st}
+                    <span className="font-mono text-gold-400">{i + 1}.</span> {st}
                   </li>
                 ))}
               </ul>

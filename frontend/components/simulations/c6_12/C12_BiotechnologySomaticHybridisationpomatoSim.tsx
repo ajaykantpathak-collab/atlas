@@ -1545,8 +1545,8 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                 <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 space-y-6">
                   {/* Predict Check 1 */}
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-900/90 rounded-xl border border-indigo-900/50 mb-4">
-                      <p className="text-sm font-semibold text-indigo-300 mb-2">
+                    <div className="p-4 bg-slate-900/90 rounded-xl border border-gold-900/50 mb-4">
+                      <p className="text-sm font-semibold text-gold-300 mb-2">
                         🔮 {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1717,7 +1717,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                       onClick={() => handleTriggerRnai('dicer_cut')}
                       className={`px-4 py-2 text-xs font-bold rounded-xl border transition-all ${
                         rnaiStep === 'dicer_cut'
-                          ? 'bg-cyan-600 border-cyan-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-900 border-slate-700 text-slate-300'
                       }`}
                     >
@@ -1731,7 +1731,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                       disabled={rnaiStep === 'idle'}
                       className={`px-4 py-2 text-xs font-bold rounded-xl border transition-all ${
                         rnaiStep === 'risc_loaded'
-                          ? 'bg-indigo-600 border-indigo-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-900 border-slate-700 text-slate-300 disabled:opacity-40'
                       }`}
                     >
@@ -1880,14 +1880,14 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                           step={0.1}
                           value={rollerRpm}
                           onChange={(e) => setRollerRpm(Number(e.target.value))}
-                          className="w-full mt-2 accent-sky-500 cursor-pointer"
+                          className="w-full mt-2 accent-gold-500 cursor-pointer"
                         />
                       </div>
 
                       <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 text-xs space-y-2 text-slate-300">
                         <div className="flex justify-between">
                           <span>Adherent Surface Area:</span>
-                          <span className="font-bold text-sky-400">850 cm² (Cylindrical Wall)</span>
+                          <span className="font-bold text-gold-400">850 cm² (Cylindrical Wall)</span>
                         </div>
                         <div className="flex justify-between">
                           <span>Oxygen Dissolution:</span>
@@ -2025,7 +2025,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                         onClick={() => setAlignmentMode('local')}
                         className={`px-3 py-1 text-xs font-bold rounded-lg border ${
                           alignmentMode === 'local'
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -2036,7 +2036,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                         onClick={() => setAlignmentMode('global')}
                         className={`px-3 py-1 text-xs font-bold rounded-lg border ${
                           alignmentMode === 'global'
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -2053,7 +2053,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                   <div className="p-4 bg-slate-900 rounded-xl font-mono text-sm overflow-x-auto border border-slate-800 space-y-2">
                     <div className="flex items-center gap-4 text-slate-400 text-xs">
                       <span className="w-20">Query:</span>
-                      <span className="text-sky-300 tracking-widest font-bold">A T G C C G T A A T T G C</span>
+                      <span className="text-gold-300 tracking-widest font-bold">A T G C C G T A A T T G C</span>
                     </div>
 
                     <div className="flex items-center gap-4 text-slate-400 text-xs">
@@ -2077,7 +2077,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <label htmlFor="blast-offset-slider" className="text-xs text-slate-300 font-semibold flex justify-between">
                       <span>Shift Query Alignment Window:</span>
-                      <span className="text-indigo-400 font-bold">
+                      <span className="text-gold-400 font-bold">
                         {seqOffset === -2 ? '✓ Optimal Homology Score: 92% (E-value: 1e-12)' : '✗ Suboptimal Score: 28%'}
                       </span>
                     </label>
@@ -2089,7 +2089,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                       max={4}
                       value={seqOffset}
                       onChange={(e) => setSeqOffset(Number(e.target.value))}
-                      className="w-full mt-2 accent-indigo-500 cursor-pointer"
+                      className="w-full mt-2 accent-gold-500 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -2206,7 +2206,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
 
                 {/* Sandbox Control 2: Roller Bottle RPM */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-sky-400">Roller Bioreactor Speed</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Roller Bioreactor Speed</h3>
                   <div>
                     <label htmlFor="sandbox-rpm" className="text-xs text-slate-400 flex justify-between">
                       <span>Rotation Speed:</span>
@@ -2221,7 +2221,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                       step={0.1}
                       value={rollerRpm}
                       onChange={(e) => setRollerRpm(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <p className="text-[11px] text-slate-400">
@@ -2259,7 +2259,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                       : difficulty === 'standard'
-                      ? 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                      ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                       : 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
                   }`}
                 >
@@ -2639,7 +2639,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
                 </div>
                 <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[140px]">
                   <p className="text-xs text-slate-400">BKT Mastery Tier</p>
-                  <p className="text-2xl font-black text-sky-400 mt-1 capitalize">{masteryLevel}</p>
+                  <p className="text-2xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</p>
                 </div>
                 <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[140px]">
                   <p className="text-xs text-slate-400">SRS Spaced Review</p>
@@ -2686,7 +2686,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
 
             {/* Reflection Questions Section */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4 text-left">
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                 <span>🤔</span> Reflection & Metacognition
               </div>
               <h3 className="text-base font-bold text-white">Consolidate Your Learning</h3>
@@ -2756,7 +2756,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
 
             {/* Real World Capstone Case Study */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                 <span>🏥</span> Clinical Application Arc
               </div>
               <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2767,7 +2767,7 @@ export function C12_BiotechnologySomaticHybridisationpomatoSim({
               <div className="space-y-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                    <span className="w-5 h-5 rounded-full bg-indigo-900/70 text-indigo-300 font-bold flex items-center justify-center flex-shrink-0">
+                    <span className="w-5 h-5 rounded-full bg-gold-900/70 text-gold-300 font-bold flex items-center justify-center flex-shrink-0">
                       {i + 1}
                     </span>
                     <span>{step}</span>

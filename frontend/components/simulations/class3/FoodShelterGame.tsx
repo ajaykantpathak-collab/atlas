@@ -71,14 +71,14 @@ const TEACHING_SLIDES = [
     title: 'Local Travel & Transport 🚌',
     text: 'To go from place to place we use transport! Walking and cycling are great for short distances. Buses and trains are public transport carrying many people. Cars and auto-rickshaws give personal service!',
     emoji: '🚲',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'To go from place to place we use transport! Walking and cycling are great for short distances. Buses carry many people, and cars give personal service!',
   },
   {
     title: 'Simple Crafts: Clay & Paper 🎨',
     text: 'Crafts make our fingers clever! We shape soft clay into pots and diyas for Diwali. We fold paper into boats and aeroplanes without scissors or glue. We draw colourful pictures with crayons!',
     emoji: '🎨',
-    bgColor: 'from-purple-400 to-indigo-600',
+    bgColor: 'from-purple-400 to-gold-600',
     spoken: 'Crafts make our fingers clever! We shape soft clay into pots and diyas. We fold paper into boats. We draw colourful pictures with crayons!',
   },
 ];
@@ -651,7 +651,7 @@ export function FoodShelterGame({ width = 720, height = 560, onComplete }: FoodS
 
   return (
     <div
-      className="relative select-none overflow-hidden rounded-3xl shadow-2xl bg-sky-100 flex flex-col items-center justify-between"
+      className="relative select-none overflow-hidden rounded-3xl shadow-2xl bg-gold-100 flex flex-col items-center justify-between"
       style={{ width, height, fontFamily: 'system-ui, sans-serif' }}
     >
       {/* ─── SCREENS ────────────────────────────────────────── */}

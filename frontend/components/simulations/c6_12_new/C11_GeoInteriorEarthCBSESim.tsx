@@ -506,7 +506,7 @@ const EarthCrossSectionSVG: React.FC<{
 
   return (
     <div className="relative flex flex-col items-center bg-slate-900 p-4 rounded-xl shadow-inner border border-slate-700">
-      <h3 className="text-sm font-bold text-cyan-300 mb-2">Earth Interior Structure & Discontinuities Diagram</h3>
+      <h3 className="text-sm font-bold text-gold-300 mb-2">Earth Interior Structure & Discontinuities Diagram</h3>
       <svg width="400" height="400" className="cursor-pointer select-none">
         {/* Outer Crust */}
         <circle cx={cx} cy={cy} r={radius} fill="#94a3b8" stroke="#cbd5e1" strokeWidth="2" />
@@ -576,7 +576,7 @@ const SeismicRayPathSVG: React.FC<{
 
   return (
     <div className="relative flex flex-col items-center bg-slate-900 p-4 rounded-xl border border-slate-700">
-      <h3 className="text-sm font-bold text-cyan-300 mb-2">Seismic Wave Ray Path & Shadow Zone Detector</h3>
+      <h3 className="text-sm font-bold text-gold-300 mb-2">Seismic Wave Ray Path & Shadow Zone Detector</h3>
       <svg width="400" height="400">
         {/* Earth outer circle */}
         <circle cx={cx} cy={cy} r={R} fill="#0f172a" stroke="#64748b" strokeWidth="2" />
@@ -701,7 +701,7 @@ const SeismicRayPathSVG: React.FC<{
         {waveType === 'S' ? (
           <span className="text-amber-400 font-semibold">S-Wave Shadow Zone: 105° to 105° (Spans 150° of Earth surface - blocked by liquid outer core!)</span>
         ) : (
-          <span className="text-blue-400 font-semibold">P-Wave Shadow Zones: 105° to 140° on both sides (refracted away by core)</span>
+          <span className="text-gold-400 font-semibold">P-Wave Shadow Zones: 105° to 140° on both sides (refracted away by core)</span>
         )}
       </div>
     </div>
@@ -715,7 +715,7 @@ const IntrusiveIgneousSVG: React.FC<{
 }> = ({ activeStructure, onSelectStructure }) => {
   return (
     <div className="relative flex flex-col items-center bg-slate-900 p-4 rounded-xl border border-slate-700">
-      <h3 className="text-sm font-bold text-cyan-300 mb-2">Subterranean Intrusive Igneous Architecture</h3>
+      <h3 className="text-sm font-bold text-gold-300 mb-2">Subterranean Intrusive Igneous Architecture</h3>
       <svg width="420" height="260" className="select-none">
         {/* Background Crustal Strata */}
         <rect x="10" y="10" width="400" height="240" fill="#1e293b" rx="8" />
@@ -1097,7 +1097,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-6 mb-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-cyan-500/10 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full border border-cyan-500/30">
+            <span className="bg-gold-500/10 text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30">
               CISCE Class 11 Geography
             </span>
             <span className="bg-amber-500/10 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">
@@ -1128,7 +1128,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
               }}
               className={`px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all ${
                 activeTab === tab.id
-                  ? 'bg-cyan-600 text-white shadow-lg'
+                  ? 'bg-gold-600 text-white shadow-lg'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-700/50'
               }`}
             >
@@ -1149,9 +1149,9 @@ export default function C11_GeoInteriorEarthCBSESim() {
           <div className="space-y-6">
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-3">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-              <div className="bg-cyan-950/40 border border-cyan-800/50 p-4 rounded-xl text-cyan-200 text-sm">
+              <div className="bg-gold-950/40 border border-gold-800/50 p-4 rounded-xl text-gold-200 text-sm">
                 <strong>Mission Objective:</strong> {SCENARIO.context}
               </div>
             </div>
@@ -1171,7 +1171,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                     }}
                     className={`p-4 rounded-xl text-left text-sm border transition-all ${
                       discoveryAns === idx
-                        ? 'bg-cyan-600/20 border-cyan-500 text-white font-semibold'
+                        ? 'bg-gold-600/20 border-gold-500 text-white font-semibold'
                         : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1187,7 +1187,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                 <button
                   disabled={discoveryAns === null}
                   onClick={handleDiscoverySubmit}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white rounded-xl font-bold text-sm transition-all"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl font-bold text-sm transition-all"
                 >
                   Submit Hypothesis
                 </button>
@@ -1210,7 +1210,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
 
             {/* PREDICTION QUESTIONS */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-indigo-400 mb-4">Pre-Lab Predictive Hypotheses</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">Pre-Lab Predictive Hypotheses</h3>
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                   <div key={pIdx} className="bg-slate-800/50 border border-slate-700 p-4 rounded-xl">
@@ -1227,7 +1227,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                           }}
                           className={`p-3 rounded-lg text-xs text-left border ${
                             predAns[pIdx] === oIdx
-                              ? 'bg-indigo-600/30 border-indigo-400 text-white'
+                              ? 'bg-gold-600/30 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1241,13 +1241,13 @@ export default function C11_GeoInteriorEarthCBSESim() {
                         setPredSubmitted((prev) => ({ ...prev, [pIdx]: true }));
                         audioManager.play(predAns[pIdx] === pred.correctIndex ? 'success' : 'error');
                       }}
-                      className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
+                      className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
                     >
                       Verify Prediction
                     </button>
                     {predSubmitted[pIdx] && (
                       <div className="mt-3 text-xs bg-slate-900 p-3 rounded-lg border border-slate-700 text-slate-300">
-                        <strong className="text-cyan-400">Lab Verification Instruction:</strong> {pred.verifyInstruction}
+                        <strong className="text-gold-400">Lab Verification Instruction:</strong> {pred.verifyInstruction}
                       </div>
                     )}
                   </div>
@@ -1271,7 +1271,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                   }}
                   className={`p-3 rounded-xl border text-xs text-left font-semibold transition-all ${
                     selectedLabStep === idx
-                      ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg'
+                      ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
@@ -1281,11 +1281,11 @@ export default function C11_GeoInteriorEarthCBSESim() {
             </div>
 
             {/* Instruction Banner */}
-            <div className="bg-cyan-950/30 border border-cyan-800 p-4 rounded-xl text-cyan-200 text-sm flex justify-between items-center">
+            <div className="bg-gold-950/30 border border-gold-800 p-4 rounded-xl text-gold-200 text-sm flex justify-between items-center">
               <span>
                 <strong>Lab Task:</strong> {EXPLORATION_STEPS[selectedLabStep].instruction}
               </span>
-              <span className="text-xs font-mono bg-cyan-900/60 px-2.5 py-1 rounded border border-cyan-700 text-cyan-300">
+              <span className="text-xs font-mono bg-gold-900/60 px-2.5 py-1 rounded border border-gold-700 text-gold-300">
                 Node ID: {EXPLORATION_STEPS[selectedLabStep].nodeId}
               </span>
             </div>
@@ -1297,12 +1297,12 @@ export default function C11_GeoInteriorEarthCBSESim() {
 
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
                   <div>
-                    <h3 className="text-lg font-bold text-cyan-300 mb-4">Deep Probe Control & Telemetry</h3>
+                    <h3 className="text-lg font-bold text-gold-300 mb-4">Deep Probe Control & Telemetry</h3>
 
                     <div className="mb-6">
                       <label className="block text-xs text-slate-400 mb-1 flex justify-between">
                         <span>Depth Below Surface:</span>
-                        <span className="text-cyan-400 font-bold">{probeDepth} km</span>
+                        <span className="text-gold-400 font-bold">{probeDepth} km</span>
                       </label>
                       <input
                         type="range"
@@ -1314,7 +1314,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                           setProbeDepth(parseFloat(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1329,7 +1329,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                       </div>
                       <div className="flex justify-between border-b border-slate-800 pb-2">
                         <span className="text-slate-400">Hydrostatic Pressure:</span>
-                        <span className="font-bold text-blue-400">{layerProps.pressure} GPa</span>
+                        <span className="font-bold text-gold-400">{layerProps.pressure} GPa</span>
                       </div>
                       <div className="flex justify-between border-b border-slate-800 pb-2">
                         <span className="text-slate-400">Rock Mass Density:</span>
@@ -1341,7 +1341,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                       </div>
                       <div className="flex justify-between pt-1">
                         <span className="text-slate-400">Nearest Discontinuity:</span>
-                        <span className="font-semibold text-cyan-300 text-xs">{layerProps.discontinuity}</span>
+                        <span className="font-semibold text-gold-300 text-xs">{layerProps.discontinuity}</span>
                       </div>
                     </div>
                   </div>
@@ -1359,7 +1359,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                 <SeismicRayPathSVG waveType={waveType} showShadowZone={showShadowZone} />
 
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6">
-                  <h3 className="text-lg font-bold text-cyan-300">Seismological Wave Generator</h3>
+                  <h3 className="text-lg font-bold text-gold-300">Seismological Wave Generator</h3>
 
                   <div className="space-y-3">
                     <label className="text-xs text-slate-400 font-semibold block">Select Seismic Wave Type:</label>
@@ -1371,7 +1371,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                         }}
                         className={`p-3 rounded-xl border text-sm font-bold ${
                           waveType === 'P'
-                            ? 'bg-blue-600 border-blue-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1478,12 +1478,12 @@ export default function C11_GeoInteriorEarthCBSESim() {
                 </div>
 
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6">
-                  <h3 className="text-lg font-bold text-cyan-300">Magma Rheology Controls</h3>
+                  <h3 className="text-lg font-bold text-gold-300">Magma Rheology Controls</h3>
 
                   <div>
                     <label className="block text-xs text-slate-400 mb-1 flex justify-between">
                       <span>Silica Content ($SiO_2$):</span>
-                      <span className="text-cyan-400 font-bold">{silicaContent}% (Viscosity)</span>
+                      <span className="text-gold-400 font-bold">{silicaContent}% (Viscosity)</span>
                     </label>
                     <input
                       type="range"
@@ -1494,7 +1494,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                         setSilicaContent(parseInt(e.target.value));
                         audioManager.play('pop');
                       }}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <span className="text-[10px] text-slate-500">
                       45% = Basaltic (Fluid) | 60% = Andesitic | 75% = Rhyolitic (Viscous)
@@ -1540,7 +1540,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                 />
 
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
-                  <h3 className="text-lg font-bold text-cyan-300">Intrusive Formation Inspector</h3>
+                  <h3 className="text-lg font-bold text-gold-300">Intrusive Formation Inspector</h3>
 
                   <div className="grid grid-cols-3 gap-2">
                     {['Batholith', 'Laccolith', 'Lopolith', 'Phacolith', 'Sill', 'Dyke'].map((name) => (
@@ -1601,18 +1601,18 @@ export default function C11_GeoInteriorEarthCBSESim() {
             {selectedLabStep === 4 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between items-center">
-                  <h3 className="text-lg font-bold text-cyan-300 mb-2">Gravimetric & Magnetic Scanner</h3>
+                  <h3 className="text-lg font-bold text-gold-300 mb-2">Gravimetric & Magnetic Scanner</h3>
 
                   {/* Dial/Scan Visualizer */}
                   <div className="relative w-64 h-64 bg-slate-950 rounded-full border-4 border-slate-800 flex items-center justify-center p-4 my-2">
                     <div
-                      className="absolute w-full h-1 bg-cyan-500 origin-center transition-transform"
+                      className="absolute w-full h-1 bg-gold-500 origin-center transition-transform"
                       style={{ transform: `rotate(${scanLongitude}deg)` }}
                     />
                     <circle cx="128" cy="128" r="8" fill="#38bdf8" className="animate-ping" />
                     <div className="z-10 text-center bg-slate-900/90 p-3 rounded-xl border border-slate-800">
                       <p className="text-[10px] text-slate-400">Scan Angle</p>
-                      <p className="text-xl font-extrabold text-cyan-400">{scanLongitude}°</p>
+                      <p className="text-xl font-extrabold text-gold-400">{scanLongitude}°</p>
                       <p className="text-xs font-semibold text-emerald-400">{anomalyData.gravity} cm/s²</p>
                     </div>
                   </div>
@@ -1626,12 +1626,12 @@ export default function C11_GeoInteriorEarthCBSESim() {
                       setScanLongitude(parseInt(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-cyan-500 cursor-pointer mt-2"
+                    className="w-full accent-gold-500 cursor-pointer mt-2"
                   />
                 </div>
 
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
-                  <h3 className="text-lg font-bold text-cyan-300">Survey Telemetry Analysis</h3>
+                  <h3 className="text-lg font-bold text-gold-300">Survey Telemetry Analysis</h3>
 
                   <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
                     <div className="flex justify-between border-b border-slate-800 pb-2">
@@ -1651,7 +1651,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                   </div>
 
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2">
-                    <p className="font-bold text-cyan-400">Geophysical Survey Rules:</p>
+                    <p className="font-bold text-gold-400">Geophysical Survey Rules:</p>
                     <p>
                       1. <strong>Positive Gravity Anomaly ($\Delta g &gt; 0$):</strong> Mass excess underground (e.g. iron ore deposits, dense SIMA oceanic crust).
                     </p>
@@ -1713,7 +1713,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
               <div>
-                <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-1">
@@ -1730,7 +1730,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                     CHALLENGES[currentChallengeIdx].difficulty === 'advanced'
                       ? 'bg-purple-900/50 border-purple-500 text-purple-300'
                       : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
-                      ? 'bg-blue-900/50 border-blue-500 text-blue-300'
+                      ? 'bg-gold-900/50 border-gold-500 text-gold-300'
                       : 'bg-emerald-900/50 border-emerald-500 text-emerald-300'
                   }`}
                 >
@@ -1757,7 +1757,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                       }}
                       className={`p-4 rounded-xl text-left text-sm border transition-all ${
                         selectedOption === idx
-                          ? 'bg-cyan-600/30 border-cyan-500 text-white font-semibold'
+                          ? 'bg-gold-600/30 border-gold-500 text-white font-semibold'
                           : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
@@ -1778,7 +1778,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numeric answer"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 font-bold">{CHALLENGES[currentChallengeIdx].unit}</span>
                 </div>
@@ -1865,7 +1865,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                 {isCorrect === null ? (
                   <button
                     onClick={() => handleChallengeSubmit()}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-sm shadow-lg transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg transition-all"
                   >
                     Submit Answer
                   </button>
@@ -1893,14 +1893,14 @@ export default function C11_GeoInteriorEarthCBSESim() {
           <div className="space-y-6">
             {/* Real World Activity Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h2>
               <p className="text-slate-300 text-sm mb-4">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="space-y-3">
                 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Applied Field Protocol:</h3>
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="flex items-start gap-3 bg-slate-950 p-3.5 rounded-xl border border-slate-800 text-xs">
-                    <span className="bg-cyan-600 text-white font-bold w-5 h-5 rounded-full flex items-center justify-center shrink-0">
+                    <span className="bg-gold-600 text-white font-bold w-5 h-5 rounded-full flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
                     <span className="text-slate-200">{step}</span>
@@ -1938,7 +1938,7 @@ export default function C11_GeoInteriorEarthCBSESim() {
                           masterLevel === 'mastered'
                             ? 'text-emerald-400'
                             : masterLevel === 'proficient'
-                            ? 'text-blue-400'
+                            ? 'text-gold-400'
                             : 'text-amber-400'
                         }`}
                       >

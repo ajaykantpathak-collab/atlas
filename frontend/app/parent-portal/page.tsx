@@ -54,8 +54,8 @@ function ParentDashboardContent() {
 
         {/* Weekly stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <StatCard icon={<Clock className="w-5 h-5" />} label="Time this week" value="4h 30m" color="text-blue-400" />
-          <StatCard icon={<BookOpen className="w-5 h-5" />} label="Questions answered" value="87" color="text-indigo-400" />
+          <StatCard icon={<Clock className="w-5 h-5" />} label="Time this week" value="4h 30m" color="text-gold-400" />
+          <StatCard icon={<BookOpen className="w-5 h-5" />} label="Questions answered" value="87" color="text-gold-400" />
           <StatCard icon={<Award className="w-5 h-5" />} label="Mastery achieved" value="3" color="text-green-400" />
           <StatCard icon={<TrendingUp className="w-5 h-5" />} label="Accuracy" value="78%" color="text-purple-400" />
         </div>
@@ -63,7 +63,7 @@ function ParentDashboardContent() {
         {/* Mastery heatmap */}
         <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6 mb-6">
           <h2 className="text-lg font-semibold text-white flex items-center gap-2 mb-4">
-            <Brain className="w-5 h-5 text-indigo-400" />
+            <Brain className="w-5 h-5 text-gold-400" />
             Mastery Heatmap
           </h2>
           {mastery && mastery.length > 0 ? (
@@ -97,7 +97,7 @@ function ParentDashboardContent() {
         {/* Weekly engagement */}
         <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6 mb-6">
           <h2 className="text-lg font-semibold text-white flex items-center gap-2 mb-4">
-            <Calendar className="w-5 h-5 text-indigo-400" />
+            <Calendar className="w-5 h-5 text-gold-400" />
             Weekly Activity
           </h2>
           {engagement && engagement.length > 0 ? (
@@ -123,11 +123,11 @@ function ParentDashboardContent() {
 
         {/* Quick links */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="/parent-dashboard" className="bg-slate-900/50 border border-slate-800 rounded-xl p-4 hover:border-indigo-500/50 transition-colors flex items-center justify-between">
+          <Link href="/parent-dashboard" className="bg-slate-900/50 border border-slate-800 rounded-xl p-4 hover:border-gold-500/50 transition-colors flex items-center justify-between">
             <span className="text-sm text-slate-300">View detailed progress</span>
             <ChevronRight className="w-4 h-4 text-slate-500" />
           </Link>
-          <Link href="/parent-dashboard" className="bg-slate-900/50 border border-slate-800 rounded-xl p-4 hover:border-indigo-500/50 transition-colors flex items-center justify-between">
+          <Link href="/parent-dashboard" className="bg-slate-900/50 border border-slate-800 rounded-xl p-4 hover:border-gold-500/50 transition-colors flex items-center justify-between">
             <span className="text-sm text-slate-300">Upcoming reviews</span>
             <ChevronRight className="w-4 h-4 text-slate-500" />
           </Link>

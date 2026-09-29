@@ -1289,9 +1289,9 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
       return {
         badge: 'Good effort!',
         subtext: 'Solid understanding of ancient Indian history! Review the distinctions between Prakrit and Sanskrit, and Samudragupta’s southern tributary campaigns.',
-        color: 'text-indigo-400',
-        bg: 'bg-indigo-950/50',
-        border: 'border-indigo-500/50',
+        color: 'text-gold-400',
+        bg: 'bg-gold-950/50',
+        border: 'border-gold-500/50',
       };
     } else {
       return {
@@ -1358,7 +1358,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
           <span className="text-xs font-semibold text-amber-300/80 tracking-widest uppercase">
             Imperial Timeline: 261 BCE (Kalinga) ➔ 250 BCE (Council) ➔ 319 CE (Gupta Era) ➔ 409 CE (Vikramaditya)
           </span>
-          <span className="text-xs font-mono text-indigo-300">
+          <span className="text-xs font-mono text-gold-300">
             Node Track: c6_histciv_041 – 050
           </span>
         </div>
@@ -1367,7 +1367,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-amber-600/30 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-amber-600/30 shadow-xl">
             <div className="flex items-center gap-2 mb-3">
               <span className="px-3 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-bold">
                 Archival Scenario
@@ -1450,7 +1450,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 whitespace-nowrap ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                      ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                       : 'bg-slate-800/60 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1476,7 +1476,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                 <h3 className="text-lg font-black text-amber-200">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
-                <span className="text-xs px-2.5 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-800/60 font-mono">
+                <span className="text-xs px-2.5 py-1 rounded-lg bg-gold-950 text-gold-300 border border-gold-800/60 font-mono">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1578,7 +1578,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300">
-                        <span className="font-bold text-indigo-400">💡 Linguistic Strategy:</span> Ashoka chose <strong className="text-amber-300">Prakrit</strong> (mass vernacular) over Sanskrit and adapted scripts: <strong>Brahmi</strong> (L-to-R), <strong>Kharoshthi</strong> in northwest (R-to-L), and <strong>Greek/Aramaic</strong> in Kandahar.
+                        <span className="font-bold text-gold-400">💡 Linguistic Strategy:</span> Ashoka chose <strong className="text-amber-300">Prakrit</strong> (mass vernacular) over Sanskrit and adapted scripts: <strong>Brahmi</strong> (L-to-R), <strong>Kharoshthi</strong> in northwest (R-to-L), and <strong>Greek/Aramaic</strong> in Kandahar.
                       </div>
                     </div>
 
@@ -1614,12 +1614,12 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                         }}
                         className={`p-3 rounded-2xl border cursor-pointer transition-all ${
                           selectedCityBoard === board.id
-                            ? 'bg-indigo-950/60 border-indigo-500 shadow-lg shadow-indigo-500/20'
+                            ? 'bg-gold-950/60 border-gold-500 shadow-lg shadow-gold-500/20'
                             : 'bg-slate-900 border-slate-800 hover:border-slate-700'
                         }`}
                       >
                         <div className="flex items-center justify-between mb-1">
-                          <span className="text-xs font-bold text-indigo-300">{board.title}</span>
+                          <span className="text-xs font-bold text-gold-300">{board.title}</span>
                           <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">5 Members</span>
                         </div>
                         <p className="text-[11px] text-slate-300 leading-relaxed">{board.desc}</p>
@@ -1702,7 +1702,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                         setGoldenAgeBalance(Number(e.target.value));
                         audioManager.play('balance');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Golden Age Perspective Dial"
                     />
                   </div>
@@ -1758,7 +1758,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-indigo-600/30 transition-all"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-gold-600/30 transition-all"
               >
                 Next Step →
               </motion.button>
@@ -1798,7 +1798,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
 
           {/* Predict-Then-Check Container */}
           <div className="p-5 bg-slate-900/80 rounded-3xl border border-slate-800 space-y-4">
-            <h4 className="text-sm font-bold text-indigo-300">🔮 Predict-Then-Check: Multi-Faith Governance</h4>
+            <h4 className="text-sm font-bold text-gold-300">🔮 Predict-Then-Check: Multi-Faith Governance</h4>
             {!predictionMade ? (
               <div className="space-y-2">
                 <p className="text-xs text-slate-300">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1879,7 +1879,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                       ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                       : difficulty === 'advanced'
                       ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
-                      : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
+                      : 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                   }`}
                 >
                   {difficulty}
@@ -1894,7 +1894,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
             <div className="flex items-center gap-3">
               <div className="w-32 bg-slate-800 h-2.5 rounded-full overflow-hidden border border-slate-700">
                 <motion.div
-                  className="bg-gradient-to-r from-amber-500 to-indigo-500 h-full rounded-full"
+                  className="bg-gradient-to-r from-amber-500 to-gold-500 h-full rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -1953,7 +1953,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600/80 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600/80 hover:bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -1982,7 +1982,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Script Mapping
                 </motion.button>
@@ -2016,7 +2016,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(sortArrangement.length ? sortArrangement : challenge.sortItems!.map((_, i) => i))}
-                  className="px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Chronology
                 </motion.button>
@@ -2074,7 +2074,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 rounded-lg bg-indigo-950 text-indigo-200 border border-indigo-700 text-xs font-semibold flex items-center gap-2"
+                      className="px-3 py-1 rounded-lg bg-gold-950 text-gold-200 border border-gold-700 text-xs font-semibold flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2173,15 +2173,15 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
           </div>
 
           {/* Spaced Repetition Schedule (SRS) Card */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/60 via-slate-900 to-purple-950/60 rounded-3xl border border-indigo-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-gold-950/60 via-slate-900 to-purple-950/60 rounded-3xl border border-gold-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-2xl shrink-0">
+              <div className="w-12 h-12 rounded-2xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-2xl shrink-0">
                 🔄
               </div>
               <div>
-                <h4 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+                <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                   <span>Spaced Repetition Schedule (SM-2)</span>
-                  <span className="px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-[10px] font-mono uppercase">
+                  <span className="px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30 text-[10px] font-mono uppercase">
                     SRS Active
                   </span>
                 </h4>
@@ -2191,7 +2191,7 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
               </div>
             </div>
             <div className="flex items-center gap-3 shrink-0">
-              <div className="text-center px-4 py-2 bg-slate-950/80 rounded-2xl border border-indigo-500/30">
+              <div className="text-center px-4 py-2 bg-slate-950/80 rounded-2xl border border-gold-500/30">
                 <div className="text-lg font-black text-amber-400">
                   {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
                 </div>
@@ -2233,14 +2233,14 @@ function C6_HistoryCivicsAshokasConversionBuddhismSim({
             <div className="space-y-4">
               {/* Question 1 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="block text-xs font-bold text-indigo-300">
+                <label className="block text-xs font-bold text-gold-300">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g., How Ashoka opened the world's first animal hospitals, or that Dhamma was not sectarian Buddhism..."
-                  className="w-full p-3 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder:text-slate-600 focus:outline-none focus:border-indigo-500 resize-none h-18"
+                  className="w-full p-3 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder:text-slate-600 focus:outline-none focus:border-gold-500 resize-none h-18"
                 />
               </div>
 

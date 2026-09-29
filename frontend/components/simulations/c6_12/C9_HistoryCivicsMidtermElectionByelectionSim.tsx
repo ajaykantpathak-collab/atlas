@@ -1231,7 +1231,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
             animate={{ scale: 1 }}
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40' :
-              difficulty === 'standard' ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40' :
+              difficulty === 'standard' ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40' :
               'bg-rose-500/20 text-rose-300 border border-rose-500/40'
             }`}
           >
@@ -1246,7 +1246,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-amber-950/40 rounded-2xl border border-indigo-700/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-amber-950/40 rounded-2xl border border-gold-700/40 shadow-xl">
             <span className="text-xs font-bold uppercase tracking-widest text-amber-400">Investigative Briefing</span>
             <h2 className="text-xl md:text-2xl font-bold text-white mt-1 mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-200 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
@@ -1295,7 +1295,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-amber-600 to-indigo-600 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-amber-600 to-gold-600 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Guided Laboratories →
                 </motion.button>
@@ -1344,7 +1344,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   <h3 className="text-lg font-bold text-amber-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-slate-400">{EXPLORATION_STEPS[currentSlide].subtitle}</p>
                 </div>
-                <span className="text-xs px-2.5 py-1 bg-slate-900 text-indigo-300 rounded-lg border border-slate-700 font-mono">
+                <span className="text-xs px-2.5 py-1 bg-slate-900 text-gold-300 rounded-lg border border-slate-700 font-mono">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1365,7 +1365,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                         audioManager.play('pop');
                       }}
                       className={`flex-1 py-2.5 rounded-xl font-bold text-xs transition-all ${
-                        electionMode === 'midterm' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-800 text-slate-300'
+                        electionMode === 'midterm' ? 'bg-gold-600 text-white shadow' : 'bg-slate-800 text-slate-300'
                       }`}
                     >
                       Scenario A: Premature Dissolution (Mid-Term)
@@ -1461,7 +1461,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   </div>
 
                   {!obsAnswered && (
-                    <div className="p-3 bg-slate-900 rounded-xl border border-indigo-800/60">
+                    <div className="p-3 bg-slate-900 rounded-xl border border-gold-800/60">
                       <p className="text-xs font-bold text-amber-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1492,7 +1492,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                         setBathWaterFilled(!bathWaterFilled);
                         audioManager.play('pop');
                       }}
-                      className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                      className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                     >
                       {bathWaterFilled ? 'Drain Great Bath Basin' : 'Fill Great Bath Basin'}
                     </motion.button>
@@ -1574,7 +1574,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                       setRainfallIntensity(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-sky-400 cursor-pointer"
+                    className="w-full accent-gold-400 cursor-pointer"
                     aria-label="Adjust Precipitation Intensity"
                   />
                   <canvas ref={canvasRef} width={500} height={100} className="w-full rounded-xl border border-slate-700" />
@@ -1671,7 +1671,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('pop');
                 }}
-                className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-sm font-bold shadow"
+                className="px-4 py-2 bg-gold-600 text-white rounded-xl text-sm font-bold shadow"
               >
                 Next Lab →
               </motion.button>
@@ -1701,7 +1701,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Civics Sandbox: Assembly vs Council Capacity</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Civics Sandbox: Assembly vs Council Capacity</span>
               <div className="flex justify-between text-xs text-slate-300">
                 <span>MLAs in Assembly: {assemblyMembers}</span>
                 <span>Max Council Ceiling: {maxCouncilStrength}</span>
@@ -1712,7 +1712,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                 max={500}
                 value={assemblyMembers}
                 onChange={(e) => setAssemblyMembers(Number(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="p-2.5 bg-slate-900 rounded-lg text-xs text-slate-400 leading-relaxed">
                 Article 170 mandates assembly membership between 60 and 500 MLAs. Article 171 caps the Council at 1/3 of the assembly.
@@ -1743,7 +1743,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-4 bg-gradient-to-r from-amber-600 to-indigo-600 text-white rounded-2xl font-black text-base shadow-xl"
+            className="w-full py-4 bg-gradient-to-r from-amber-600 to-gold-600 text-white rounded-2xl font-black text-base shadow-xl"
           >
             Launch Assessment Challenges →
           </motion.button>
@@ -1761,7 +1761,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-amber-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-amber-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1771,7 +1771,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
           {/* Question Card */}
           <div className="p-6 bg-slate-800 rounded-2xl border border-slate-700 space-y-4 shadow-xl">
             <div className="flex items-center gap-2">
-              <span className="text-xs px-2.5 py-1 bg-indigo-950 text-indigo-300 rounded-lg font-bold border border-indigo-800 font-mono">
+              <span className="text-xs px-2.5 py-1 bg-gold-950 text-gold-300 rounded-lg font-bold border border-gold-800 font-mono">
                 {activeChallenge.nodeId}
               </span>
               <span className="text-xs px-2.5 py-1 bg-slate-900 text-slate-400 rounded-lg font-semibold uppercase">
@@ -1824,7 +1824,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-2 bg-indigo-700 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                      className="px-3 py-2 bg-gold-700 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1857,7 +1857,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-xl font-bold text-sm shadow"
+                  className="w-full py-3 bg-gold-600 text-white rounded-xl font-bold text-sm shadow"
                 >
                   Verify Electorate Quota Mapping
                 </motion.button>
@@ -1896,7 +1896,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-xl font-bold text-sm shadow"
+                  className="w-full py-3 bg-gold-600 text-white rounded-xl font-bold text-sm shadow"
                 >
                   Submit Sequential Order
                 </motion.button>
@@ -1922,7 +1922,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-xl font-bold text-sm shadow"
+                  className="w-full py-3 bg-gold-600 text-white rounded-xl font-bold text-sm shadow"
                 >
                   Verify Numerical Calculation
                 </motion.button>
@@ -1948,7 +1948,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                 </div>
                 <div className="min-h-[60px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900 border border-indigo-600 text-white rounded-lg text-xs font-bold flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-900 border border-gold-600 text-white rounded-lg text-xs font-bold flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
@@ -1968,7 +1968,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-xl font-bold text-sm shadow"
+                  className="w-full py-3 bg-gold-600 text-white rounded-xl font-bold text-sm shadow"
                 >
                   Validate Assembled Phrase
                 </motion.button>
@@ -2022,12 +2022,12 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
       {/* ─── 5. COMPLETION & REFLECTION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-amber-950 rounded-2xl border border-indigo-700/60 text-center space-y-3 shadow-2xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-amber-950 rounded-2xl border border-gold-700/60 text-center space-y-3 shadow-2xl">
             <h2 className="text-2xl md:text-3xl font-black text-white">Mastery Assessment Complete!</h2>
             <p className="text-slate-300 text-sm">
               Your overall proficiency score: <strong className="text-amber-400 text-2xl">{Math.max(0, 100 - errors * 4)}%</strong>
             </p>
-            <div className="inline-block px-4 py-1.5 bg-indigo-900/80 border border-indigo-500 rounded-full text-xs font-bold text-indigo-200 uppercase tracking-wider">
+            <div className="inline-block px-4 py-1.5 bg-gold-900/80 border border-gold-500 rounded-full text-xs font-bold text-gold-200 uppercase tracking-wider">
               Assessed Competency Level: {masteryLevel.toUpperCase()}
             </div>
           </div>
@@ -2065,7 +2065,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
           )}
 
           {/* ─── REFLECTION JOURNAL SECTION ─── */}
-          <div className="p-6 bg-slate-800/95 border border-indigo-600/50 rounded-2xl space-y-4 shadow-xl">
+          <div className="p-6 bg-slate-800/95 border border-gold-600/50 rounded-2xl space-y-4 shadow-xl">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
               <h3 className="text-base font-bold text-amber-300 uppercase tracking-wider">Metacognitive Reflection & Consolidation</h3>
@@ -2096,7 +2096,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                         setReflectionResponses(prev => ({ ...prev, [idx]: prompt.defaultAnswer || '' }));
                         audioManager.play('tap');
                       }}
-                      className="text-[11px] text-indigo-400 hover:text-indigo-300 underline"
+                      className="text-[11px] text-gold-400 hover:text-gold-300 underline"
                     >
                       Fill with sample insight
                     </button>
@@ -2114,7 +2114,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
                   audioManager.play('success');
                   speechManager.speak('Reflection journal recorded! Great metacognitive synthesis.');
                 }}
-                className="w-full py-3 bg-gradient-to-r from-amber-600 to-indigo-600 text-white rounded-xl font-bold text-xs shadow-lg uppercase tracking-wider"
+                className="w-full py-3 bg-gradient-to-r from-amber-600 to-gold-600 text-white rounded-xl font-bold text-xs shadow-lg uppercase tracking-wider"
               >
                 Save My Metacognitive Reflection Journal
               </motion.button>
@@ -2134,7 +2134,7 @@ function C9_HistoryCivicsMidtermElectionByelectionSim({
           </div>
 
           {/* Real-World Capstone Activity */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-3 shadow-lg">
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-3 shadow-lg">
             <h3 className="text-base font-bold text-amber-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 pt-2">

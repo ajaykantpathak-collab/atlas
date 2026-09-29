@@ -260,8 +260,8 @@ export function Chip({ children, tone = 'neutral' }: {
     gold: 'border-gold-400/30 bg-gold-400/10 text-gold-300',
     emerald: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-300',
     rose: 'border-rose-400/30 bg-rose-400/10 text-rose-300',
-    sky: 'border-sky-400/30 bg-sky-400/10 text-sky-300',
-    violet: 'border-violet-400/30 bg-violet-400/10 text-violet-300',
+    sky: 'border-gold-400/30 bg-gold-400/10 text-gold-300',
+    violet: 'border-gold-400/30 bg-gold-400/10 text-gold-300',
   }
   return (
     <span className={`inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-[10px] font-medium ${tones[tone]}`}>

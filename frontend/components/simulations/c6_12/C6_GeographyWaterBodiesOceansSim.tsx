@@ -1197,7 +1197,7 @@ function C6_GeographyWaterBodiesOceansSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/60 text-gold-300 border-gold-600'
             }`}
           >
             {difficulty}
@@ -1226,13 +1226,13 @@ function C6_GeographyWaterBodiesOceansSim({
           className="mt-6 space-y-6"
         >
           {/* Narrative Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <span className="text-xs font-bold tracking-widest text-indigo-400 uppercase">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <span className="text-xs font-bold tracking-widest text-gold-400 uppercase">
               Expedition Scenario Brief
             </span>
             <h2 className="text-2xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs text-gold-200">
               📌 {SCENARIO.context}
             </div>
           </div>
@@ -1260,7 +1260,7 @@ function C6_GeographyWaterBodiesOceansSim({
                       : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-slate-600'
                   }`}
                 >
-                  <span className="font-mono text-xs mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-mono text-xs mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1447,11 +1447,11 @@ function C6_GeographyWaterBodiesOceansSim({
                       whileHover={{ scale: 1.02 }}
                       className={`p-4 rounded-xl border transition-all ${
                         riverSlope >= 25 && riverSlope <= 60
-                          ? 'bg-indigo-950/40 border-indigo-500 shadow-md'
+                          ? 'bg-gold-950/40 border-gold-500 shadow-md'
                           : 'bg-slate-950 border-slate-800'
                       }`}
                     >
-                      <span className="text-xs font-bold text-indigo-400">2. Middle Course (Plains)</span>
+                      <span className="text-xs font-bold text-gold-400">2. Middle Course (Plains)</span>
                       <h5 className="font-bold text-white text-sm mt-1">Lateral Meandering</h5>
                       <p className="text-xs text-slate-300 mt-1">
                         Gradient flattens. River widens and forms sinuous bends called meanders.
@@ -1542,7 +1542,7 @@ function C6_GeographyWaterBodiesOceansSim({
                         className={`px-5 py-2.5 rounded-xl text-sm font-black transition-all border ${
                           selectedSeason === season
                             ? season === 'Kharif'
-                              ? 'bg-blue-600 border-blue-400 text-white shadow-lg'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                               : season === 'Rabi'
                               ? 'bg-amber-600 border-amber-400 text-white shadow-lg'
                               : 'bg-emerald-600 border-emerald-400 text-white shadow-lg'
@@ -1633,7 +1633,7 @@ function C6_GeographyWaterBodiesOceansSim({
                         onClick={() => handleMineralSelect(min)}
                         className={`p-3 rounded-xl text-center border font-bold capitalize text-xs sm:text-sm transition-all ${
                           selectedMineral === min
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                         }`}
                       >
@@ -1701,7 +1701,7 @@ function C6_GeographyWaterBodiesOceansSim({
                       <button
                         onClick={() => setActiveContinentTab('NA')}
                         className={`px-4 py-1.5 rounded-lg text-xs font-bold ${
-                          activeContinentTab === 'NA' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          activeContinentTab === 'NA' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         North America
@@ -1709,7 +1709,7 @@ function C6_GeographyWaterBodiesOceansSim({
                       <button
                         onClick={() => setActiveContinentTab('SA')}
                         className={`px-4 py-1.5 rounded-lg text-xs font-bold ${
-                          activeContinentTab === 'SA' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          activeContinentTab === 'SA' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         South America
@@ -1770,7 +1770,7 @@ function C6_GeographyWaterBodiesOceansSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1842,7 +1842,7 @@ function C6_GeographyWaterBodiesOceansSim({
             {/* Interactive Variables Workbench with Real-time Sliders */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400">Bathymetry Scanner</span>
+                <span className="text-xs font-bold text-gold-400">Bathymetry Scanner</span>
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Current Depth:</span>
                   <span className="text-white font-mono">{probeDepth} m</span>
@@ -1853,7 +1853,7 @@ function C6_GeographyWaterBodiesOceansSim({
                   max={11000}
                   value={probeDepth}
                   onChange={(e) => setProbeDepth(Number(e.target.value))}
-                  className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                   aria-label="Bathymetry scanner depth slider"
                 />
                 <p className="text-xs text-slate-300">
@@ -1897,7 +1897,7 @@ function C6_GeographyWaterBodiesOceansSim({
               <span className="text-slate-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 uppercase tracking-wider font-mono">
+              <span className="text-gold-400 uppercase tracking-wider font-mono">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
@@ -1905,7 +1905,7 @@ function C6_GeographyWaterBodiesOceansSim({
             {/* Dynamic Animated Progress Bar */}
             <div className="h-2.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -1943,7 +1943,7 @@ function C6_GeographyWaterBodiesOceansSim({
                       }`}
                       aria-label={`Option ${String.fromCharCode(65 + i)}: ${opt}`}
                     >
-                      <span className="font-mono text-xs mr-3 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-mono text-xs mr-3 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -1962,7 +1962,7 @@ function C6_GeographyWaterBodiesOceansSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow-md"
                       role="button"
                       aria-label={`Draggable label ${item.label}`}
                     >
@@ -2056,7 +2056,7 @@ function C6_GeographyWaterBodiesOceansSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Validate Boundary Map
                   </motion.button>
@@ -2099,7 +2099,7 @@ function C6_GeographyWaterBodiesOceansSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Confirm Geographic Sequence
                 </motion.button>
@@ -2115,7 +2115,7 @@ function C6_GeographyWaterBodiesOceansSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     aria-label="Numeric calculation answer input"
                   />
                   <span className="text-xs font-bold text-slate-400 font-mono">{challenge.unit}</span>
@@ -2124,7 +2124,7 @@ function C6_GeographyWaterBodiesOceansSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2143,7 +2143,7 @@ function C6_GeographyWaterBodiesOceansSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2177,7 +2177,7 @@ function C6_GeographyWaterBodiesOceansSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0 || showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                 >
                   Verify Constructed Cross-Section
                 </motion.button>
@@ -2269,7 +2269,7 @@ function C6_GeographyWaterBodiesOceansSim({
               <div className="w-px h-12 bg-slate-800" />
               <div className="text-center">
                 <span className="text-xs text-slate-400">Mastery Rating</span>
-                <p className="text-3xl font-black text-indigo-400 uppercase tracking-wider">{masteryLevel}</p>
+                <p className="text-3xl font-black text-gold-400 uppercase tracking-wider">{masteryLevel}</p>
               </div>
             </div>
           </div>
@@ -2291,7 +2291,7 @@ function C6_GeographyWaterBodiesOceansSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h4 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h4 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Post-Expedition Reflections
             </h4>
             <div className="space-y-3">
@@ -2357,8 +2357,8 @@ function C6_GeographyWaterBodiesOceansSim({
           </div>
 
           {/* Real-World Activity Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/50 to-slate-900 rounded-2xl border border-indigo-800/60 space-y-3">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 to-slate-900 rounded-2xl border border-gold-800/60 space-y-3">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
               Real-World Capstone Assignment
             </span>
             <h4 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h4>

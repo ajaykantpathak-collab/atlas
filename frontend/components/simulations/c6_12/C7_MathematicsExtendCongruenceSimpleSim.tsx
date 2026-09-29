@@ -1078,12 +1078,12 @@ function C7_MathematicsExtendCongruenceSimpleSim({
         className="flex flex-wrap items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700">
+              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700">
                 Class 7 ICSE Math
               </span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400">
@@ -1107,7 +1107,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-colors ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1121,13 +1121,13 @@ function C7_MathematicsExtendCongruenceSimpleSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-3xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-3xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold uppercase tracking-wider mb-2">
               🏛️ Scenario Mission Hook
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 bg-indigo-900/30 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300/80 mt-3 bg-gold-900/30 p-3 rounded-xl border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1157,7 +1157,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                   }`}
                   aria-label={`Discovery option ${i + 1}`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1167,7 +1167,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/50 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-6 p-4 rounded-2xl bg-gold-950/40 border border-gold-800/50 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
                 <div>
                   <p className={`text-sm font-bold ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -1183,7 +1183,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-2xl font-black text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white rounded-2xl font-black text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   aria-label="Enter Interactive Labs"
                 >
                   Step into the 5 Labs →
@@ -1199,7 +1199,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           {/* Exploration Header & Progress */}
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 bg-indigo-950/60 px-3 py-1 rounded-full border border-indigo-800">
+            <span className="text-xs font-bold text-gold-400 bg-gold-950/60 px-3 py-1 rounded-full border border-gold-800">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1207,7 +1207,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all duration-300 ${
-                    idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1244,10 +1244,10 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                             setSuperimposeOffset(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-32 sm:w-48 accent-indigo-500"
+                          className="w-32 sm:w-48 accent-gold-500"
                           aria-label="Superimpose offset slider"
                         />
-                        <span className="text-xs font-mono text-indigo-400">{superimposeOffset}% offset</span>
+                        <span className="text-xs font-mono text-gold-400">{superimposeOffset}% offset</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <label className="text-xs font-semibold text-slate-300">Scale:</label>
@@ -1334,7 +1334,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                           }}
                           className={`px-4 py-2 rounded-xl text-xs font-black uppercase transition-all ${
                             activeCriterion === crit
-                              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40'
+                              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40'
                               : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1345,14 +1345,14 @@ function C7_MathematicsExtendCongruenceSimpleSim({
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                        <h4 className="text-sm font-bold text-indigo-300">Active Rule: {activeCriterion}</h4>
+                        <h4 className="text-sm font-bold text-gold-300">Active Rule: {activeCriterion}</h4>
                         <p className="text-xs text-slate-300 mt-2 leading-relaxed">
                           {activeCriterion === 'SSS' && 'If all 3 sides of ΔABC equal corresponding 3 sides of ΔPQR, shapes are locked identically.'}
                           {activeCriterion === 'SAS' && 'Two sides and the INCLUDED angle between them are equal. (SSA is invalid!).'}
                           {activeCriterion === 'ASA' && 'Two angles and the INCLUDED side common to both angles fix the scale and shape.'}
                           {activeCriterion === 'RHS' && 'Right angle (90°), Hypotenuse, and one corresponding Side equal.'}
                         </p>
-                        <div className="mt-3 p-2.5 bg-indigo-950/40 rounded-lg border border-indigo-800 text-xs text-emerald-400 font-mono">
+                        <div className="mt-3 p-2.5 bg-gold-950/40 rounded-lg border border-gold-800 text-xs text-emerald-400 font-mono">
                           CPCTC Guarantee: All 6 elements coincide!
                         </div>
                       </div>
@@ -1397,7 +1397,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                             setOuterRadius(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Outer radius slider"
                         />
                         <label className="text-xs font-semibold text-slate-300">Inner Radius r: {innerRadius} m</label>
@@ -1413,9 +1413,9 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                           className="w-full accent-purple-500"
                           aria-label="Inner radius slider"
                         />
-                        <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800 text-xs font-mono">
+                        <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800 text-xs font-mono">
                           <div>Ring Area = π(R² - r²)</div>
-                          <div className="text-indigo-300 font-bold mt-1">
+                          <div className="text-gold-300 font-bold mt-1">
                             = (22/7) × ({outerRadius}² - {innerRadius}²) = {calculatedRingArea} sq m
                           </div>
                         </div>
@@ -1446,7 +1446,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                         {dataset.map((val, i) => (
                           <span
                             key={i}
-                            className="px-2 py-0.5 bg-slate-800 rounded-md text-xs font-mono text-indigo-300 border border-slate-700 flex items-center gap-1"
+                            className="px-2 py-0.5 bg-slate-800 rounded-md text-xs font-mono text-gold-300 border border-slate-700 flex items-center gap-1"
                           >
                             {val}
                             <button
@@ -1471,7 +1471,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                         <motion.button
                           whileTap={{ scale: 0.95 }}
                           onClick={handleAddDatasetNumber}
-                          className="px-2.5 py-1 bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                          className="px-2.5 py-1 bg-gold-600 text-white rounded-lg text-xs font-bold"
                         >
                           + Add
                         </motion.button>
@@ -1479,9 +1479,9 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                     </div>
 
                     <div className="grid grid-cols-3 gap-2">
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-900 text-center">
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-900 text-center">
                         <div className="text-[10px] text-slate-400 uppercase font-bold">Mean (Average)</div>
-                        <div className="text-lg font-black text-indigo-300">{calculatedStats.mean}</div>
+                        <div className="text-lg font-black text-gold-300">{calculatedStats.mean}</div>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-purple-900 text-center">
                         <div className="text-[10px] text-slate-400 uppercase font-bold">Median (Middle)</div>
@@ -1528,7 +1528,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => handleFlipCoin(1)}
-                          className="px-3 py-1.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                         >
                           Flip Coin (1x)
                         </motion.button>
@@ -1536,7 +1536,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => handleFlipCoin(20)}
-                          className="px-3 py-1.5 bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-700 text-white rounded-xl text-xs font-bold"
                         >
                           Flip Batch (20x)
                         </motion.button>
@@ -1561,13 +1561,13 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       {/* Coin Results */}
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                         <h4 className="text-xs font-bold text-slate-300 mb-2">Coin Toss Empirical Balance</h4>
-                        <div className="flex items-center justify-between text-xs font-mono text-indigo-300 mb-2">
+                        <div className="flex items-center justify-between text-xs font-mono text-gold-300 mb-2">
                           <span>Heads: {coinHeads} ({coinHeads + coinTails > 0 ? Math.round((coinHeads / (coinHeads + coinTails)) * 100) : 0}%)</span>
                           <span>Tails: {coinTails} ({coinHeads + coinTails > 0 ? Math.round((coinTails / (coinHeads + coinTails)) * 100) : 0}%)</span>
                         </div>
                         <div className="h-3 bg-slate-800 rounded-full overflow-hidden flex">
                           <motion.div
-                            className="bg-indigo-500 h-full"
+                            className="bg-gold-500 h-full"
                             style={{
                               width: `${coinHeads + coinTails > 0 ? (coinHeads / (coinHeads + coinTails)) * 100 : 50}%`,
                             }}
@@ -1590,7 +1590,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                               key={i}
                               className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
                                 out === 'H'
-                                  ? 'bg-indigo-900/60 text-indigo-300'
+                                  ? 'bg-gold-900/60 text-gold-300'
                                   : out === 'T'
                                   ? 'bg-purple-900/60 text-purple-300'
                                   : 'bg-emerald-900/60 text-emerald-300'
@@ -1611,8 +1611,8 @@ function C7_MathematicsExtendCongruenceSimpleSim({
 
               {/* Predict-Then-Check & Observation Question section inside Slide */}
               {currentSlide === 0 && (
-                <div className="mt-4 p-4 bg-indigo-950/30 rounded-2xl border border-indigo-800/40">
-                  <p className="text-xs font-bold text-indigo-300 uppercase">Interactive Observation Check</p>
+                <div className="mt-4 p-4 bg-gold-950/30 rounded-2xl border border-gold-800/40">
+                  <p className="text-xs font-bold text-gold-300 uppercase">Interactive Observation Check</p>
                   <p className="text-sm text-white font-medium mt-1">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1656,7 +1656,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 aria-label="Next Lab"
               >
                 Next Lab →
@@ -1693,7 +1693,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white rounded-2xl text-xs font-black shadow-xl shadow-emerald-600/30"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-2xl text-xs font-black shadow-xl shadow-emerald-600/30"
               aria-label="Begin Graded Challenges"
             >
               Ready for Challenges! 🎯
@@ -1707,7 +1707,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                 onClick={() => setSandboxTab(tab)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
                   sandboxTab === tab
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1730,10 +1730,10 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                     max={360}
                     value={shapeRotation}
                     onChange={e => setShapeRotation(Number(e.target.value))}
-                    className="w-48 accent-indigo-500"
+                    className="w-48 accent-gold-500"
                     aria-label="Triangle rotation"
                   />
-                  <span className="text-xs font-mono text-indigo-400">{shapeRotation}°</span>
+                  <span className="text-xs font-mono text-gold-400">{shapeRotation}°</span>
                 </div>
                 <svg viewBox="0 0 400 180" className="w-full h-44 bg-slate-950 rounded-xl">
                   <polygon points="100,140 240,140 170,40" fill="rgba(99, 102, 241, 0.2)" stroke="#6366f1" strokeWidth="2" />
@@ -1755,7 +1755,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       max={20}
                       value={parallelogramBase}
                       onChange={e => setParallelogramBase(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                       aria-label="Parallelogram base slider"
                     />
                     <label className="text-xs text-slate-300 mt-2 block">
@@ -1770,7 +1770,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       className="w-full accent-purple-500"
                       aria-label="Parallelogram height slider"
                     />
-                    <div className="mt-3 p-3 bg-indigo-950/40 rounded-xl text-xs font-mono text-indigo-300">
+                    <div className="mt-3 p-3 bg-gold-950/40 rounded-xl text-xs font-mono text-gold-300">
                       Area = Base × Height = {parallelogramBase} × {parallelogramHeight} ={' '}
                       <span className="font-bold text-emerald-400">{parallelogramBase * parallelogramHeight} sq cm</span>
                     </div>
@@ -1805,7 +1805,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                 </p>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex justify-around font-mono">
                   <span>Dataset: [{dataset.join(', ')}]</span>
-                  <span className="text-indigo-400 font-bold">Mean: {calculatedStats.mean}</span>
+                  <span className="text-gold-400 font-bold">Mean: {calculatedStats.mean}</span>
                   <span className="text-purple-400 font-bold">Median: {calculatedStats.median}</span>
                   <span className="text-emerald-400 font-bold">Mode: {calculatedStats.mode}</span>
                 </div>
@@ -1827,7 +1827,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                 <div className="grid grid-cols-6 gap-2 text-center text-xs font-mono">
                   {diceCounts.map((cnt, i) => (
                     <div key={i} className="p-2 bg-slate-950 rounded-lg border border-slate-800">
-                      <div className="text-indigo-400 font-bold">Face {i + 1}</div>
+                      <div className="text-gold-400 font-bold">Face {i + 1}</div>
                       <div className="text-white mt-1">{cnt}</div>
                     </div>
                   ))}
@@ -1858,7 +1858,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                     ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
-                    : 'bg-indigo-500/20 text-indigo-400 border-indigo-500/40'
+                    : 'bg-gold-500/20 text-gold-400 border-gold-500/40'
                 }`}
               >
                 {difficulty} Tier
@@ -1876,7 +1876,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1909,7 +1909,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       }`}
                       aria-label={`Option ${String.fromCharCode(65 + i)}`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -1928,7 +1928,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                       role="button"
                       aria-label={`Draggable label ${item.label}`}
                     >
@@ -1962,7 +1962,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                   aria-label="Validate Dropped Labels"
                 >
                   Verify Mappings
@@ -1990,7 +1990,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-2"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                       {displayIndex + 1}
                     </span>
                     {item}
@@ -2001,7 +2001,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                   aria-label="Validate sorted order"
                 >
                   Check Sequence
@@ -2028,7 +2028,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                     aria-label="Submit numeric answer"
                   >
                     Validate
@@ -2048,7 +2048,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-lg text-xs font-mono border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-mono border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2059,7 +2059,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 bg-indigo-900/60 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-mono flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-900/60 text-gold-200 border border-gold-700 rounded-lg text-xs font-mono flex items-center gap-1"
                     >
                       {part}
                       <button
@@ -2080,7 +2080,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                   aria-label="Validate Proof Construction"
                 >
                   Verify Construction
@@ -2093,9 +2093,9 @@ function C7_MathematicsExtendCongruenceSimpleSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/60 space-y-3"
+                className="mt-6 p-4 rounded-2xl bg-gold-950/40 border border-gold-800/60 space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   📖 Step-by-Step ICSE Derivation
                 </div>
                 {challenge.explanation
@@ -2109,7 +2109,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs text-slate-200 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2119,7 +2119,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-3.5 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                    className="px-3.5 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                   >
                     Show next step →
                   </motion.button>
@@ -2142,13 +2142,13 @@ function C7_MathematicsExtendCongruenceSimpleSim({
       {/* ─── PHASE 5: COMPLETE (Reflection & Persistence) ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Curriculum Competency Mastered!</h2>
             <div className="flex justify-center gap-4 text-sm font-mono text-slate-300">
               <span>Final Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong></span>
               <span>•</span>
-              <span>Mastery: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong></span>
+              <span>Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong></span>
             </div>
             <p className="text-xs text-slate-300 max-w-xl mx-auto leading-relaxed">
               {errors === 0
@@ -2180,7 +2180,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
 
           {/* Reflection Prompts */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-black text-indigo-300 uppercase tracking-wider">
+            <h3 className="text-sm font-black text-gold-300 uppercase tracking-wider">
               🤔 Reflect & Consolidate
             </h3>
             <ul className="space-y-2 text-xs text-slate-300">
@@ -2205,7 +2205,7 @@ function C7_MathematicsExtendCongruenceSimpleSim({
                 setCurrentSlide(0);
                 setErrors(0);
               }}
-              className="px-4 py-2 bg-indigo-600 text-white rounded-xl font-bold"
+              className="px-4 py-2 bg-gold-600 text-white rounded-xl font-bold"
             >
               Revisit Labs ↺
             </motion.button>
@@ -2213,14 +2213,14 @@ function C7_MathematicsExtendCongruenceSimpleSim({
 
           {/* Real-World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <div className="flex items-center gap-2 text-xs font-bold text-indigo-400 uppercase">
+            <div className="flex items-center gap-2 text-xs font-bold text-gold-400 uppercase">
               🏛️ {REAL_WORLD_ACTIVITY.title}
             </div>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400 mr-2">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span>
                   {step}
                 </div>
               ))}

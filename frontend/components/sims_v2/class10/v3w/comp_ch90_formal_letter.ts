@@ -9,7 +9,7 @@ export const c10_comp_ch90: SimDef = {
     classLevel: 10, subject: 'english-composition', topic: 'Formal letter — skeleton and register',
     chapters: ['c10_comp_ch90'],
     nodeIds: ['c10_engl_cbse_90_001', 'c10_engl_cbse_90_002'],
-    emoji: '📮', theme: { bg: 'from-slate-900 to-cyan-950', accent: 'cyan', scene: 'senior' },
+    emoji: '📮', theme: { bg: 'from-slate-900 to-gold-950', accent: 'cyan', scene: 'senior' },
 
     scenario: {
         role: 'a municipal correspondent whose letter must survive a clerk\'s desk',
@@ -28,8 +28,8 @@ export const c10_comp_ch90: SimDef = {
         hook: 'Salutation and subscription are a contract — "Dear Sir" + "Yours sincerely" is a format error most students never see.',
     },
     teaching: [
-        { title: 'The skeleton', text: 'sender addr → date → receiver addr → subject → salutation → body → subscription → name. Eight blocks, one legal order.', emoji: '🦴', bgColor: 'from-cyan-500 to-sky-600' },
-        { title: 'The register', text: 'No contractions, no slang, no exclamations, no vague words. Facts stated, courtesy deployed — "I would be grateful" commands better than "you must".', emoji: '🎩', bgColor: 'from-sky-500 to-blue-600' },
+        { title: 'The skeleton', text: 'sender addr → date → receiver addr → subject → salutation → body → subscription → name. Eight blocks, one legal order.', emoji: '🦴', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'The register', text: 'No contractions, no slang, no exclamations, no vague words. Facts stated, courtesy deployed — "I would be grateful" commands better than "you must".', emoji: '🎩', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

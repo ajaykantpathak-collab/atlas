@@ -8,478 +8,46 @@ import type { SimDef } from '../engine/types';
 
 export const C6_BIO_GEN: SimDef[] = [
  {
-  "id": "gen_c6_bio_ch01",
-  "title": "Food",
-  "subtitle": "Biology · Chapter 1",
+  "id": "gen_c6_bio_ch06",
+  "title": "The Components Of Food Can Be",
+  "subtitle": "Biology · Chapter 6",
   "classLevel": 6,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Food",
+  "topic": "The Components Of Food Can Be",
   "chapters": [
-   "Biology Ch1: Food"
+   "Biology Ch6: The Components Of Food Can Be"
   ],
   "nodeIds": [
-   "c6_biology_ch01_001"
+   "c6_biology_ch06_001",
+   "c6_biology_ch06_002"
   ],
   "emoji": "🌿",
   "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
+   "bg": "from-emerald-100 to-teal-200",
+   "accent": "emerald",
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Food in real working life?",
+   "question": "Who uses The Components Of Food Can Be in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Food is any substance that a living organism consumes to obtain energy for life processes, raw materials for growth and repair, and protection"
+   "hook": "The components of food can be detected by simple chemical tests."
   },
   "teaching": [
    {
-    "title": "Food",
-    "text": "Food is any substance that a living organism consumes to obtain energy for life processes, raw materials for growth and repair, and protection against diseases.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Name the two ultimate sources of all food on Earth.",
-    "answer": "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate",
-    "options": [
-     "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore",
-     "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat",
-     "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"the shop\" or \"the kitchen\" shows the student confuses where food is bought with where food is made.",
-    "id": "gen_c6_bio_ch01_q1",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Take any meal you ate today — rice, dal, a glass of milk, maybe an egg.",
-     "Now play detective and trace each item back to where it really began.",
-     "The rice came from a rice plant in a field.",
-     "The dal came from a pulse plant."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A deer eats grass. A tiger eats the deer. Where does the energy in the tiger's body ultimately come from?",
-    "answer": "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight",
-    "options": [
-     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
-     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
-     "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "A wrong answer stops at the deer, showing the student traces only one step instead of following energy back to its true source.",
-    "id": "gen_c6_bio_ch01_q2",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Classify the crow, the lion, and the cow as herbivore, carnivore, or omnivore.",
-    "answer": "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
-    "options": [
-     "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight",
-     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
-     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "A wrong answer usually places the crow as a carnivore — the student forgets it also eats grains and seeds.",
-    "id": "gen_c6_bio_ch01_q3",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is honey a plant product or an animal product? Explain.",
-    "answer": "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
-    "options": [
-     "From plants — the tiger's food came from the deer, and the deer's food came from grass, so the energy originally entered the chain when the grass made food using sunlight",
-     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
-     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "A student who answers only \"plant product\" misses the maker; one who says only \"animal product\" misses the source — the full answer needs both steps.",
-    "id": "gen_c6_bio_ch01_q4",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore",
-    "options": [
-     "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat",
-     "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate",
-     "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants,",
-    "id": "gen_c6_bio_ch01_q5",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What would happen to animals if all green plants disappeared?",
-    "answer": "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat",
-    "options": [
-     "Classify everyday food items by their plant or animal origin, explain why every food chain begins with green plants, and group animals as herbivore, carnivore, or omnivore",
-     "Plants and animals. All food items trace back either to a plant source or to an animal source — and even animal sources trace back further to the plants those animals ate",
-     "All animals would eventually die, because every food chain begins with green plants — animals cannot make their own food, so without plants there would be nothing to eat"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"animals would eat other food\" shows the student does not yet see plants as the base of all food.",
-    "id": "gen_c6_bio_ch01_q6",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why are plants called producers?",
-    "answer": "Plants are called producers because they make their own food using sunlight, water, air, and chlorophyll through photosynthesis — no animal can do this",
-    "options": [
-     "Honey is an animal product because bees make it — but bees make honey from nectar collected from flowers, so its raw material is still plant-based",
-     "The crow is an omnivore (eats grains and small animals), the lion is a carnivore (eats only flesh), and the cow is a herbivore (eats only plants)",
-     "Plants are called producers because they make their own food using sunlight, water, air, and chlorophyll through photosynthesis — no animal can do this"
-    ],
-    "hint": "Straight from the 'Food' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"because they give us vegetables\" misses the deeper reason: plants alone can create food energy from sunlight.",
-    "id": "gen_c6_bio_ch01_q7",
-    "nodeId": "c6_biology_ch01_001",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about food?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Food mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
- },
- {
-  "id": "gen_c6_bio_ch02",
-  "title": "Nutrients",
-  "subtitle": "Biology · Chapter 2",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Nutrients",
-  "chapters": [
-   "Biology Ch2: Nutrients"
-  ],
-  "nodeIds": [
-   "c6_biology_ch02_001",
-   "c6_biology_ch02_002"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Nutrients in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Nutrients are the components of food that the body uses for specific functions."
-  },
-  "teaching": [
-   {
-    "title": "Nutrients",
-    "text": "Nutrients are the components of food that the body uses for specific functions. The major nutrients are carbohydrates and fats (energy-giving), proteins (body-building), vitamins and minerals (protective), plus water and roughage (dietary fibre), which aid",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Balanced Diet",
-    "text": "A balanced diet is one that contains all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage — in amounts suited to the body's age and activity.",
+    "title": "The Components Of Food Can Be",
+    "text": "The components of food can be detected by simple chemical tests. Starch turns blue-black when iodine solution is added; fats leave a greasy translucent patch when rubbed on paper; and proteins can be detected by tests that produce a characteristic colour",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Name the five nutrient groups and the main job of each.",
-    "answer": "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
-    "options": [
-     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
-     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
-     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "A wrong answer usually drops roughage or treats vitamins as energy sources — they are protectors, not fuel.",
-    "id": "gen_c6_bio_ch02_q1",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Look at an ordinary plate: rice, dal, a little ghee, cucumber salad, a glass of water.",
-     "That plate secretly holds an entire nutrient team doing different jobs.",
-     "The carbohydrates in the rice and the fat in the ghee are your fuel — they burn slowly inside to give energy for running, playing, even thinking.",
-     "The proteins in the dal are your bricks — they build muscles, skin, and blood, and they repair every cut and worn-out part."
-    ]
    },
    {
-    "type": "mcq",
-    "question": "What is a balanced diet?",
-    "answer": "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
-    "options": [
-     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
-     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
-     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "A wrong answer lists only \"healthy food\" without the idea of all groups in the right proportion.",
-    "id": "gen_c6_bio_ch02_q2",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Think of your body as a cricket team that needs every position filled — fuel players (carbohydrates and fats), builder players (proteins), and",
-     "A balanced diet simply means all the players are on the field every day, in the right amounts for your age and how active you are.",
-     "Now imagine removing one player for months — the team starts losing in a specific way.",
-     "No vitamin A for a long time and your eyes struggle to see in dim light; that is night blindness."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Classify rice, dal, ghee, cucumber, and water by their main nutrient role.",
-    "answer": "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)",
-    "options": [
-     "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)",
-     "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion",
-     "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "A wrong answer often calls dal \"energy food\" — missing its protein role.",
-    "id": "gen_c6_bio_ch02_q3",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is roughage and why is it needed?",
-    "answer": "Roughage is dietary fibre — the part of plant food the body cannot digest — and it adds bulk so the intestine can push waste out smoothly, preventing constipation",
-    "options": [
-     "Proteins — they build muscles, skin, and blood and heal damaged tissue",
-     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
-     "Roughage is dietary fibre — the part of plant food the body cannot digest — and it adds bulk so the intestine can push waste out smoothly, preventing constipation"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "A wrong answer treats it as useless because it is \"not digested\" — its job is movement, not nourishment.",
-    "id": "gen_c6_bio_ch02_q4",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
-    "options": [
-     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
-     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
-     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain",
-    "id": "gen_c6_bio_ch02_q5",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Which nutrient gives the most energy per gram — carbohydrate or fat?",
-    "answer": "Fat gives more energy per gram than carbohydrate, which is why the body stores extra energy as fat",
-    "options": [
-     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
-     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
-     "Fat gives more energy per gram than carbohydrate, which is why the body stores extra energy as fat"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "A wrong answer that says carbohydrate confuses the everyday fuel with the concentrated reserve.",
-    "id": "gen_c6_bio_ch02_q6",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Which nutrient group is mainly responsible for growth and repair of the body?",
-    "answer": "Proteins — they build muscles, skin, and blood and heal damaged tissue",
-    "options": [
-     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
-     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
-     "Proteins — they build muscles, skin, and blood and heal damaged tissue"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"carbohydrates\" confuses energy-giving with body-building — fuel does not build new tissue, bricks do.",
-    "id": "gen_c6_bio_ch02_q7",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is eating only rice every day called an unbalanced diet?",
-    "answer": "Rice supplies mostly carbohydrates — so a rice-only diet gives energy but lacks proteins for growth, vitamins and minerals for protection, and roughage for digestion",
-    "options": [
-     "A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body, athletes need extra energy foods",
-     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
-     "Rice supplies mostly carbohydrates — so a rice-only diet gives energy but lacks proteins for growth, vitamins and minerals for protection, and roughage for digestion"
-    ],
-    "hint": "Straight from the 'Nutrients' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"rice is filling so it is enough\" confuses a full stomach with a nourished body.",
-    "id": "gen_c6_bio_ch02_q8",
-    "nodeId": "c6_biology_ch02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Match the deficiency to the disease: iron, vitamin D, vitamin C.",
-    "answer": "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)",
-    "options": [
-     "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion",
-     "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)",
-     "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C",
-    "id": "gen_c6_bio_ch02_q9",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name one cheap, common food that protects against vitamin A deficiency and one against iron deficiency.",
-    "answer": "Carrot or leafy vegetables supply vitamin A; jaggery or green leafy vegetables supply iron",
-    "options": [
-     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
-     "Proteins — they build muscles, skin, and blood and heal damaged tissue",
-     "Carrot or leafy vegetables supply vitamin A; jaggery or green leafy vegetables supply iron"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "A wrong answer names expensive foods — protection comes from cheap, everyday foods.",
-    "id": "gen_c6_bio_ch02_q10",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Two friends eat daily: one eats only chapati and butter, the other eats chapati, dal, vegetables, curd, and fruit. Whose diet is balanced and why?",
-    "answer": "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion",
-    "options": [
-     "Iron deficiency → anaemia (tiredness, pale skin); vitamin D deficiency → rickets (weak, bent bones); vitamin C deficiency → scurvy (bleeding gums)",
-     "Rice is rich in carbohydrates (energy); dal is rich in protein (body-building); ghee is a fat (energy)",
-     "The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and roughage for protection and digestion"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The second friend's diet is balanced — it includes energy foods, protein for growth, and vitamins, minerals, and",
-    "id": "gen_c6_bio_ch02_q11",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is a deficiency disease? Give one example.",
-    "answer": "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C",
-    "options": [
-     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
-     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
-     "A deficiency disease is an illness caused by a long-term shortage of a specific nutrient — for example, scurvy is caused by lack of vitamin C"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "A wrong answer treats any illness as a deficiency — infections are not deficiency diseases.",
-    "id": "gen_c6_bio_ch02_q12",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods",
-    "options": [
-     "Name the five nutrient groups with their main job each, classify familiar foods by their major nutrient, and explain why a single-food diet is unbalanced",
-     "A balanced diet is a diet containing all the nutrients — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage",
-     "Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and design a simple one-day balanced menu using common foods"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Define balanced diet and deficiency disease, match at least three deficiency diseases to their missing nutrient, and",
-    "id": "gen_c6_bio_ch02_q13",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do growing children and athletes need a diet different from a person who sits at a desk all day?",
-    "answer": "A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body, athletes need extra energy foods",
-    "options": [
-     "Rice supplies mostly carbohydrates — so a rice-only diet gives energy but lacks proteins for growth, vitamins and minerals for protection, and roughage for digestion",
-     "Carbohydrates and fats give energy; proteins build and repair the body; vitamins and minerals protect against diseases; water and roughage support digestion and transport",
-     "A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body, athletes need extra energy foods"
-    ],
-    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A balanced diet must match the body's needs — growing children need extra protein and minerals to build the body,",
-    "id": "gen_c6_bio_ch02_q14",
-    "nodeId": "c6_biology_ch02_002",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about nutrients?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Nutrients mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
-  "id": "gen_c6_bio_ch03",
-  "title": "Typical Flowering Plant Has Two Systems",
-  "subtitle": "Biology · Chapter 3",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Typical Flowering Plant Has Two Systems",
-  "chapters": [
-   "Biology Ch3: Typical Flowering Plant Has Two Systems"
-  ],
-  "nodeIds": [
-   "c6_biology_ch03_001"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Typical Flowering Plant Has Two in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "A typical flowering plant has two systems: the shoot system above the ground — stem, leaves, flowers, and fruits — and the root system below it."
-  },
-  "teaching": [
-   {
-    "title": "Typical Flowering Plant Has Two Systems",
-    "text": "A typical flowering plant has two systems: the shoot system above the ground — stem, leaves, flowers, and fruits — and the root system below it.",
+    "title": "Millets Are Small-seeded Cereal Crops —",
+    "text": "Millets are small-seeded cereal crops — such as ragi (finger millet), jowar (sorghum), and bajra (pearl millet) — that are rich in nutrients and can grow in dry regions with less water.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    }
@@ -487,1000 +55,234 @@ export const C6_BIO_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Name the two systems of a plant and the parts in each.",
-    "answer": "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)",
+    "question": "Describe the iodine test for starch and its positive result.",
+    "answer": "A few drops of iodine solution are added to the food sample; if starch is present the food turns blue-black — the colour change is the positive result",
     "options": [
-     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
-     "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces",
-     "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)"
+     "Low food miles mean the food needed less transport, fuel, and packaging — so less pollution — and the food reaches the plate fresher",
+     "Rub the food on a piece of paper — if a greasy, translucent patch remains and does not dry away, the food contains fat",
+     "A few drops of iodine solution are added to the food sample; if starch is present the food turns blue-black — the colour change is the positive result"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "A wrong answer lumps everything above ground as \"the plant\" and forgets the roots' equal share.",
-    "id": "gen_c6_bio_ch03_q1",
-    "nodeId": "c6_biology_ch03_001",
-    "difficulty": "standard",
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"turns black\" without blue, or forgets that iodine is the reagent.",
+    "id": "gen_c6_bio_ch06_q1",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced",
     "workedExample": [
-     "Pull up a small plant carefully — a mustard seedling or a tuft of grass — and hold the whole thing in your hand.",
-     "The part that was under the soil is the root system; everything above is the shoot system.",
-     "Look at the roots first: they grip the soil like an anchor so wind cannot topple the plant, and they drink — drawing water and minerals up from the",
-     "Some plants push one thick main root straight down, like the carrot or mustard — that is a taproot; others spread a bunch of thin, equal roots, like"
+     "A plate of rice and a bowl of dal look different — but what is actually inside them?",
+     "Tests answer it.",
+     "The starch test is the simplest: add a drop of iodine solution to a food sample — if the food contains starch, the drop turns blue-black; try it on",
+     "The fat test is even simpler — rub the food firmly on a piece of paper and hold it to the light: a greasy, see-through patch that does not dry means"
     ]
    },
    {
     "type": "mcq",
-    "question": "A plant's stem is cut. Which two functions stop working?",
-    "answer": "Support — the plant cannot stand upright — and transport — water from roots to leaves and food from leaves to other parts can no longer move",
+    "question": "What are millets? Name any two.",
+    "answer": "Millets are small-seeded cereal crops that are nutritious and grow in dry conditions — examples: ragi (finger millet), jowar (sorghum), and bajra (pearl millet)",
     "options": [
-     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
-     "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)",
-     "Support — the plant cannot stand upright — and transport — water from roots to leaves and food from leaves to other parts can no longer move"
+     "Millets need less water and can grow in poor, dry soil where rice and wheat struggle — and they are richer in protein, minerals, and fibre than polished rice",
+     "Dal and egg are rich in proteins — a protein test on the sample gives a violet/characteristic colour confirming the body-building nutrient is present",
+     "Millets are small-seeded cereal crops that are nutritious and grow in dry conditions — examples: ragi (finger millet), jowar (sorghum), and bajra (pearl millet)"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "A wrong answer mentions only the standing-up role and misses the pipeline role.",
-    "id": "gen_c6_bio_ch03_q2",
-    "nodeId": "c6_biology_ch03_001",
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "A wrong answer names only rice or wheat — millets are the smaller, tougher grains.",
+    "id": "gen_c6_bio_ch06_q2",
+    "nodeId": "c6_biology_ch06_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Ask at home: did your grandparents eat rice and wheat every day?",
+     "Probably not — they ate ragi roti, bajra khichdi, and jowar bhakri.",
+     "Those small grains are millets, and they were everyday food before polished rice took over.",
+     "What makes millets tough is that they grow on less water, in poorer soil, and in hotter weather than rice or wheat — farmers call them hardy crops."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A food sample turns blue-black on adding iodine. Which nutrient does it contain, and name one such food.",
+    "answer": "It contains starch. Rice, potato, and wheat are examples of starch-rich foods giving this blue-black result",
+    "options": [
+     "The neighbour's mango has far fewer food miles — it travelled metres, not countries — so it used almost no transport fuel and is fresher than the imported cherries",
+     "It shows butter contains fat — fats leave a greasy translucent mark on paper that does not dry away",
+     "It contains starch. Rice, potato, and wheat are examples of starch-rich foods giving this blue-black result"
+    ],
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"fat\" — confusing the paper test with the iodine test.",
+    "id": "gen_c6_bio_ch06_q3",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Butter rubbed on paper leaves a greasy see-through patch. What does this show?",
+    "answer": "It shows butter contains fat — fats leave a greasy translucent mark on paper that does not dry away",
+    "options": [
+     "The neighbour's mango has far fewer food miles — it travelled metres, not countries — so it used almost no transport fuel and is fresher than the imported cherries",
+     "It contains starch. Rice, potato, and wheat are examples of starch-rich foods giving this blue-black result",
+     "It shows butter contains fat — fats leave a greasy translucent mark on paper that does not dry away"
+    ],
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"butter is wet\" — water would dry; the greasy patch that stays is the proof of fat.",
+    "id": "gen_c6_bio_ch06_q4",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "How do you test a food sample for fat?",
+    "answer": "Rub the food on a piece of paper — if a greasy, translucent patch remains and does not dry away, the food contains fat",
+    "options": [
+     "Low food miles mean the food needed less transport, fuel, and packaging — so less pollution — and the food reaches the plate fresher",
+     "Taste cannot tell nutrients apart — a food that is not sweet may still contain starch or fat. Only a chemical test shows which nutrient is actually inside",
+     "Rub the food on a piece of paper — if a greasy, translucent patch remains and does not dry away, the food contains fat"
+    ],
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests adding iodine — that is the starch test, not the fat test.",
+    "id": "gen_c6_bio_ch06_q5",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test result",
+    "options": [
+     "Food miles is the distance food travels from where it is produced to where it is eaten — from the farm to the plate",
+     "Name two millets with one advantage each, define food miles with a benefit of low food miles, and compare a millet-based meal with a rice meal on nutrient value",
+     "Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test result"
+    ],
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test",
+    "id": "gen_c6_bio_ch06_q6",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Which nutrient group would you expect in dal and egg, and how would a test confirm it?",
+    "answer": "Dal and egg are rich in proteins — a protein test on the sample gives a violet/characteristic colour confirming the body-building nutrient is present",
+    "options": [
+     "Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test result",
+     "Name two millets with one advantage each, define food miles with a benefit of low food miles, and compare a millet-based meal with a rice meal on nutrient value",
+     "Dal and egg are rich in proteins — a protein test on the sample gives a violet/characteristic colour confirming the body-building nutrient is present"
+    ],
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"fat\" because eggs look oily — the protein test is the decider.",
+    "id": "gen_c6_bio_ch06_q7",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "Why can you not rely on taste to find out which nutrients a food contains?",
+    "answer": "Taste cannot tell nutrients apart — a food that is not sweet may still contain starch or fat. Only a chemical test shows which nutrient is actually inside",
+    "options": [
+     "Rub the food on a piece of paper — if a greasy, translucent patch remains and does not dry away, the food contains fat",
+     "Low food miles mean the food needed less transport, fuel, and packaging — so less pollution — and the food reaches the plate fresher",
+     "Taste cannot tell nutrients apart — a food that is not sweet may still contain starch or fat. Only a chemical test shows which nutrient is actually inside"
+    ],
+    "hint": "Straight from the 'The components of food can be' slide -- match the key terms.",
+    "misconception": "A wrong answer trusts taste — but starch tastes bland and sugar tastes sweet though both are carbohydrates.",
+    "id": "gen_c6_bio_ch06_q8",
+    "nodeId": "c6_biology_ch06_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A mango from your neighbour's tree and imported cherries reach your plate. Which has fewer food miles and why does it matter?",
+    "answer": "The neighbour's mango has far fewer food miles — it travelled metres, not countries — so it used almost no transport fuel and is fresher than the imported cherries",
+    "options": [
+     "It shows butter contains fat — fats leave a greasy translucent mark on paper that does not dry away",
+     "It contains starch. Rice, potato, and wheat are examples of starch-rich foods giving this blue-black result",
+     "The neighbour's mango has far fewer food miles — it travelled metres, not countries — so it used almost no transport fuel and is fresher than the imported cherries"
+    ],
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "A wrong answer judges by taste or price, not distance.",
+    "id": "gen_c6_bio_ch06_q9",
+    "nodeId": "c6_biology_ch06_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "How are a carrot's roots different from a wheat plant's roots?",
-    "answer": "A carrot has a taproot — one thick main root with side branches; wheat has fibrous roots — a cluster of many thin, equal roots with no main one",
+    "question": "Compare a plate of ragi roti with a plate of polished rice in terms of nutrition.",
+    "answer": "Ragi roti generally gives more protein, fibre, calcium, and iron, while polished rice mainly gives carbohydrates — so the millet meal is more balanced",
     "options": [
-     "The leaf is called the kitchen because it prepares food for the whole plant by photosynthesis — using sunlight, water, and carbon dioxide to make sugar",
-     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
-     "A carrot has a taproot — one thick main root with side branches; wheat has fibrous roots — a cluster of many thin, equal roots with no main one"
+     "Low food miles mean the food needed less transport, fuel, and packaging — so less pollution — and the food reaches the plate fresher",
+     "Millets are small-seeded cereal crops that are nutritious and grow in dry conditions — examples: ragi (finger millet), jowar (sorghum), and bajra (pearl millet)",
+     "Ragi roti generally gives more protein, fibre, calcium, and iron, while polished rice mainly gives carbohydrates — so the millet meal is more balanced"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "A wrong answer confuses the two types or names the plant part wrong (carrot's root is eaten, wheat's is not).",
-    "id": "gen_c6_bio_ch03_q3",
-    "nodeId": "c6_biology_ch03_001",
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "A wrong answer treats them as equal staples — the millet carries more than just fuel.",
+    "id": "gen_c6_bio_ch06_q10",
+    "nodeId": "c6_biology_ch06_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "What are the two main jobs of roots?",
-    "answer": "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
+    "question": "Give two reasons why millets are called hardy or smart crops.",
+    "answer": "Millets need less water and can grow in poor, dry soil where rice and wheat struggle — and they are richer in protein, minerals, and fibre than polished rice",
     "options": [
-     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
-     "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces",
-     "Roots anchor the plant firmly in the soil and absorb water and minerals from it"
+     "Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test result",
+     "Food miles is the distance food travels from where it is produced to where it is eaten — from the farm to the plate",
+     "Millets need less water and can grow in poor, dry soil where rice and wheat struggle — and they are richer in protein, minerals, and fibre than polished rice"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "A wrong answer mentions only anchoring — forgetting that roots are also the plant's mouth, taking in everything the shoot needs.",
-    "id": "gen_c6_bio_ch03_q4",
-    "nodeId": "c6_biology_ch03_001",
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "A wrong answer says only \"they are cheap\" — missing both the toughness and the nutrition.",
+    "id": "gen_c6_bio_ch06_q11",
+    "nodeId": "c6_biology_ch06_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "What does a flower develop into, and why does it matter?",
-    "answer": "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces",
+    "question": "What does \"food miles\" mean?",
+    "answer": "Food miles is the distance food travels from where it is produced to where it is eaten — from the farm to the plate",
     "options": [
-     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
-     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
-     "A flower develops into a fruit containing seeds — it matters because the seeds grow into new plants; flowers are how the plant reproduces"
+     "Dal and egg are rich in proteins — a protein test on the sample gives a violet/characteristic colour confirming the body-building nutrient is present",
+     "Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test result",
+     "Food miles is the distance food travels from where it is produced to where it is eaten — from the farm to the plate"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "A wrong answer treats the flower as decoration only, missing its reproductive job.",
-    "id": "gen_c6_bio_ch03_q5",
-    "nodeId": "c6_biology_ch03_001",
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "A wrong answer thinks it is a price or a quality score — it is a distance.",
+    "id": "gen_c6_bio_ch06_q12",
+    "nodeId": "c6_biology_ch06_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
     "question": "What must you be able to do to master this topic?",
-    "answer": "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each",
+    "answer": "Name two millets with one advantage each, define food miles with a benefit of low food miles, and compare a millet-based meal with a rice meal on nutrient value",
     "options": [
-     "The root system (roots, below ground) and the shoot system (stem, leaves, flowers, and fruits, above ground)",
-     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
-     "Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of each"
+     "Dal and egg are rich in proteins — a protein test on the sample gives a violet/characteristic colour confirming the body-building nutrient is present",
+     "Describe the iodine test for starch, the paper test for fat, and each positive result; predict the nutrient from a test result",
+     "Name two millets with one advantage each, define food miles with a benefit of low food miles, and compare a millet-based meal with a rice meal on nutrient value"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Name the four main parts of a plant with the job of each, distinguish taproot from fibrous root with one example of",
-    "id": "gen_c6_bio_ch03_q6",
-    "nodeId": "c6_biology_ch03_001",
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Name two millets with one advantage each, define food miles with a benefit of low food miles, and compare a",
+    "id": "gen_c6_bio_ch06_q13",
+    "nodeId": "c6_biology_ch06_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why is the leaf called the kitchen of the plant?",
-    "answer": "The leaf is called the kitchen because it prepares food for the whole plant by photosynthesis — using sunlight, water, and carbon dioxide to make sugar",
+    "question": "Why are low food miles better for the environment?",
+    "answer": "Low food miles mean the food needed less transport, fuel, and packaging — so less pollution — and the food reaches the plate fresher",
     "options": [
-     "A carrot has a taproot — one thick main root with side branches; wheat has fibrous roots — a cluster of many thin, equal roots with no main one",
-     "Roots anchor the plant firmly in the soil and absorb water and minerals from it",
-     "The leaf is called the kitchen because it prepares food for the whole plant by photosynthesis — using sunlight, water, and carbon dioxide to make sugar"
+     "Taste cannot tell nutrients apart — a food that is not sweet may still contain starch or fat. Only a chemical test shows which nutrient is actually inside",
+     "Rub the food on a piece of paper — if a greasy, translucent patch remains and does not dry away, the food contains fat",
+     "Low food miles mean the food needed less transport, fuel, and packaging — so less pollution — and the food reaches the plate fresher"
     ],
-    "hint": "Straight from the 'typical flowering plant has two' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"because leaves are eaten\" — the kitchen is where food is made, not where it is eaten.",
-    "id": "gen_c6_bio_ch03_q7",
-    "nodeId": "c6_biology_ch03_001",
+    "hint": "Straight from the 'Millets are small-seeded cereal' slide -- match the key terms.",
+    "misconception": "A wrong answer says \"it is cheaper\" only — the deeper benefit is less fuel burned and less pollution.",
+    "id": "gen_c6_bio_ch06_q14",
+    "nodeId": "c6_biology_ch06_002",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about typical flowering plant has two systems?",
+    "What surprised you about the components of food can be?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Typical Flowering Plant Has mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
- },
- {
-  "id": "gen_c6_bio_ch04",
-  "title": "Diversity In The Living World",
-  "subtitle": "Biology · Chapter 4",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Diversity In The Living World",
-  "chapters": [
-   "Biology Ch4: Diversity In The Living World"
-  ],
-  "nodeIds": [
-   "c6_biology_ch04_001"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Diversity In The Living World in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Diversity in the living world means the great variety of living organisms that differ in size, shape, habitat, food habits, and ways of moving and"
-  },
-  "teaching": [
-   {
-    "title": "Diversity In The Living World",
-    "text": "Diversity in the living world means the great variety of living organisms that differ in size, shape, habitat, food habits, and ways of moving and reproducing.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "What does \"diversity in the living world\" mean?",
-    "answer": "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction",
-    "options": [
-     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
-     "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them",
-     "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "A wrong answer treats diversity as just \"many kinds\" without the idea of differing features.",
-    "id": "gen_c6_bio_ch04_q1",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Step outside or picture a park — grass, a banyan tree, an ant, a pigeon, a dog, a butterfly, and you.",
-     "All alive, all different.",
-     "The ant is tiny, the banyan is huge; the fish breathes underwater, the camel survives deserts; the bird flies, the snake crawls, the tree does not",
-     "Now notice the problem — there are lakhs of kinds of living things, and nobody can remember them one by one."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A gardener sees a mushroom growing on a dead tree trunk. Is it a plant? Discuss.",
-    "answer": "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)",
-    "options": [
-     "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees",
-     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
-     "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "A wrong answer calls it a plant based on shape alone.",
-    "id": "gen_c6_bio_ch04_q2",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Group these into water-dwellers and land-dwellers: fish, dog, lotus, eagle, whale, cat.",
-    "answer": "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees",
-    "options": [
-     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
-     "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)",
-     "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "A wrong answer puts the eagle only in water or the lotus only on land.",
-    "id": "gen_c6_bio_ch04_q3",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a whale a fish? Answer using the idea of grouping by features.",
-    "answer": "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
-    "options": [
-     "Water-dwellers: fish, lotus, whale. Land-dwellers: dog, cat. The eagle is an air-and-land dweller — it flies but nests on land or trees",
-     "A mushroom looks plant-like but is a fungus — it cannot make its own food because it has no green colour (chlorophyll)",
-     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "A wrong answer stops at \"it swims, so it is a fish.\"",
-    "id": "gen_c6_bio_ch04_q4",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name three features by which living organisms can be grouped.",
-    "answer": "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
-    "options": [
-     "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them",
-     "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction",
-     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "A wrong answer lists non-observable traits like \"beautiful\" — grouping needs measurable features.",
-    "id": "gen_c6_bio_ch04_q5",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them",
-    "options": [
-     "Diversity in the living world means the great variety of living organisms that differ from one another in size, shape, habitat, food habits, movement, and reproduction",
-     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
-     "Name at least five different organisms with one differing feature each, explain why grouping helps scientists study them"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Name at least five different organisms with one differing feature each, explain why grouping helps scientists study",
-    "id": "gen_c6_bio_ch04_q6",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do scientists group or classify living organisms?",
-    "answer": "There are millions of kinds of organisms, so studying each one separately is impossible — grouping by common features lets scientists study them systematically and identify them",
-    "options": [
-     "Organisms can be grouped by habitat (where they live — land, water, air), by food habit (what they eat — plants, flesh, both), and by mode of movement (how they move",
-     "No. Living in water does not make it a fish — a whale breathes air through lungs, gives birth to babies, and feeds milk, which are mammal features",
-     "There are millions of kinds of organisms, so studying each one separately is impossible — grouping by common features lets scientists study them systematically and identify them"
-    ],
-    "hint": "Straight from the 'Diversity in the living world' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"to make a list\" misses that classification is a tool for understanding, not just counting.",
-    "id": "gen_c6_bio_ch04_q7",
-    "nodeId": "c6_biology_ch04_001",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about diversity in the living world?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Diversity In The Living World mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
- },
- {
-  "id": "gen_c6_bio_ch05",
-  "title": "Habitat",
-  "subtitle": "Biology · Chapter 5",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Habitat",
-  "chapters": [
-   "Biology Ch5: Habitat"
-  ],
-  "nodeIds": [
-   "c6_biology_ch05_001"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Habitat in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "A habitat is the natural home of a living organism — the place where it lives and gets food, water, shelter, and air."
-  },
-  "teaching": [
-   {
-    "title": "Habitat",
-    "text": "A habitat is the natural home of a living organism — the place where it lives and gets food, water, shelter, and air. Adaptation is a special feature of the body or behaviour of an organism that helps it survive in its particular habitat — for example, a",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "What is a habitat? Give two examples.",
-    "answer": "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
-    "options": [
-     "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit",
-     "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water",
-     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "A wrong answer names just \"a place\" — a habitat must supply everything the organism needs.",
-    "id": "gen_c6_bio_ch05_q1",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Imagine you had to move house permanently — to a desert, or underwater, or to a frozen land.",
-     "You would need completely different tools and clothing for each.",
-     "Creatures cannot move like that — instead, their bodies are already built for their home.",
-     "That home is the habitat: the ocean for a fish, the desert for a camel, the Arctic ice for a polar bear, the river bank for a frog, the soil for an"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A frog lives on land and in water. Name one adaptation for each part of its habitat.",
-    "answer": "For water: the frog has webbed feet for swimming. For land: it has strong hind legs for jumping and lungs to breathe air",
-    "options": [
-     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
-     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
-     "For water: the frog has webbed feet for swimming. For land: it has strong hind legs for jumping and lungs to breathe air"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "A wrong answer lists only one habitat's toolkit — amphibians carry features for both.",
-    "id": "gen_c6_bio_ch05_q2",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How do a fish's gills and fins act as adaptations?",
-    "answer": "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat",
-    "options": [
-     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
-     "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare",
-     "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "A wrong answer lists the parts without connecting them to survival in water.",
-    "id": "gen_c6_bio_ch05_q3",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How is a cactus adapted to live in a desert?",
-    "answer": "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare",
-    "options": [
-     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
-     "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat",
-     "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "A wrong answer names only \"spines\" without the water-saving reason.",
-    "id": "gen_c6_bio_ch05_q4",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is adaptation? Explain with one example.",
-    "answer": "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water",
-    "options": [
-     "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit",
-     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
-     "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "A wrong answer calls adaptation a \"choice\" — features are inherited, not decided.",
-    "id": "gen_c6_bio_ch05_q5",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit",
-    "options": [
-     "A habitat is the natural home of an organism where it finds food, water, shelter, and air. Examples: the ocean is a fish's habitat; the desert is a camel's habitat",
-     "Adaptation is a special body feature or behaviour that helps an organism survive in its habitat. Example: a camel's hump stores fat that becomes energy and water",
-     "Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and a polar bear with its survival benefit"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Define habitat and adaptation, match five organisms to their habitats, and give one adaptation of a fish, a camel, and",
-    "id": "gen_c6_bio_ch05_q6",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why would a polar bear's white fur fail as an adaptation in a forest?",
-    "answer": "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats",
-    "options": [
-     "Gills take dissolved oxygen out of water so the fish can breathe underwater, and fins work like oars and rudders for swimming — both are features built for a water habitat",
-     "A cactus stores water in its thick fleshy stem, has leaves reduced to spines so almost no water is lost, and has a waxy coating — all features that save water where rain is rare",
-     "In a forest, white fur would make the bear easy to spot against the dark trees — it is camouflage only in snow. An adaptation suits one habitat, not all habitats"
-    ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"fur is always good\" — missing that camouflage works only in its own setting.",
-    "id": "gen_c6_bio_ch05_q7",
-    "nodeId": "c6_biology_ch05_001",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about habitat?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Habitat mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
- },
- {
-  "id": "gen_c6_bio_ch07",
-  "title": "Living Things",
-  "subtitle": "Biology · Chapter 7",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Living Things",
-  "chapters": [
-   "Biology Ch7: Living Things"
-  ],
-  "nodeIds": [
-   "c6_biology_ch07_001",
-   "c6_biology_ch07_002"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Living Things in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Living things are set apart from non-living things by characteristics they all share: they need food for energy (nutrition), they grow, they respire,"
-  },
-  "teaching": [
-   {
-    "title": "Living Things",
-    "text": "Living things are set apart from non-living things by characteristics they all share: they need food for energy (nutrition), they grow, they respire, they respond to stimuli around them, they remove waste (excretion), they move or show movement inside, and",
-    "emoji": "🌿",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Life Cycle",
-    "text": "A life cycle is the sequence of stages an organism passes through from birth to the production of offspring — typically beginning at a seed or egg, passing through growth stages, reaching an adult that reproduces, and ending with death.",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Name any five characteristics that distinguish living things from non-living things.",
-    "answer": "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these",
-    "options": [
-     "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed",
-     "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction",
-     "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "A wrong answer lists only movement — the easy trap this node exists to break.",
-    "id": "gen_c6_bio_ch07_q1",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Is a car living?",
-     "It moves and needs petrol — but it does not grow from a baby car into an adult car, it does not breathe, and it never makes baby cars.",
-     "Movement alone is not enough.",
-     "Now walk the checklist of life."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is a life cycle?",
-    "answer": "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies",
-    "options": [
-     "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction",
-     "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these",
-     "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "A wrong answer stops at \"being born and dying\" and misses the repeating loop.",
-    "id": "gen_c6_bio_ch07_q2",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Watch a seed buried in wet soil — it swells, splits, sends a root down and a shoot up; that is germination, the start of a plant's life cycle.",
-     "Follow the seedling as it grows into a plant with stems and leaves, until one day it flowers — the flower is where the plant makes seeds.",
-     "The flowers turn into fruits carrying seeds, the seeds scatter, and the cycle starts again: seed → plant → flower → seed.",
-     "Now the mosquito — eggs laid on still water hatch into wrigglers (larvae) that swim in the water; each wriggler becomes a pupa, and the pupa splits"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "A cloud grows bigger and moves. Is it living? Explain.",
-    "answer": "No. A cloud grows only by collecting more water vapour — it does not eat, respire, or reproduce, so it is non-living despite growing and moving",
-    "options": [
-     "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation",
-     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
-     "No. A cloud grows only by collecting more water vapour — it does not eat, respire, or reproduce, so it is non-living despite growing and moving"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "A wrong answer trusts growth and movement as proof — neither alone is enough.",
-    "id": "gen_c6_bio_ch07_q3",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A dried seed lies in a packet for months. Is it living or non-living?",
-    "answer": "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth",
-    "options": [
-     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
-     "No. A cloud grows only by collecting more water vapour — it does not eat, respire, or reproduce, so it is non-living despite growing and moving",
-     "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "A wrong answer calls it dead because it does not move — dormancy is paused life, not death.",
-    "id": "gen_c6_bio_ch07_q4",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does a plant show the characteristic of responding to stimuli?",
-    "answer": "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
-    "options": [
-     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
-     "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again",
-     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "A wrong answer claims plants do not respond because they do not \"move.\"",
-    "id": "gen_c6_bio_ch07_q5",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a car a living thing? Why or why not?",
-    "answer": "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
-    "options": [
-     "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth",
-     "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation",
-     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "A wrong answer stops at \"it moves.\"",
-    "id": "gen_c6_bio_ch07_q6",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living",
-    "options": [
-     "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies",
-     "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed",
-     "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a",
-    "id": "gen_c6_bio_ch07_q7",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is growth alone not enough to call something living?",
-    "answer": "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
-    "options": [
-     "Because the last stage — the adult reproducing — produces new seeds or eggs that begin the sequence all over again, so the stages loop back to the start, making a circle",
-     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
-     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells"
-    ],
-    "hint": "Straight from the 'Living things' slide -- match the key terms.",
-    "misconception": "A wrong answer treats size increase as proof of life.",
-    "id": "gen_c6_bio_ch07_q8",
-    "nodeId": "c6_biology_ch07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "At which stage does a plant actually make new seeds?",
-    "answer": "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation",
-    "options": [
-     "It is living but dormant — the seed is alive inside in a resting state, and it germinates (grows and breathes) the moment it gets water, air, and warmth",
-     "No. A car moves and consumes fuel, but it does not grow, respire, respond on its own, or reproduce — it fails most of the living characteristics, so it is non-living",
-     "At the flower stage — after pollination the flower develops into a fruit that carries the seeds which start the next generation"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"the seed makes seeds\" — seeds come from flowers.",
-    "id": "gen_c6_bio_ch07_q9",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Describe the life cycle of a mosquito.",
-    "answer": "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again",
-    "options": [
-     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
-     "Both start with eggs in water, but the frog's immature stage is a tadpole that breathes with gills and grows legs while losing its tail — becoming a land-living adult",
-     "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "A wrong answer treats the wriggler as a separate animal rather than the mosquito's own young stage.",
-    "id": "gen_c6_bio_ch07_q10",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How is a frog's life cycle different from a mosquito's?",
-    "answer": "Both start with eggs in water, but the frog's immature stage is a tadpole that breathes with gills and grows legs while losing its tail — becoming a land-living adult",
-    "options": [
-     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
-     "Because non-living things can also increase in size — a crystal grows, a sand heap piles up, a balloon swells",
-     "Both start with eggs in water, but the frog's immature stage is a tadpole that breathes with gills and grows legs while losing its tail — becoming a land-living adult"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"they are the same\" — the immature stages differ completely.",
-    "id": "gen_c6_bio_ch07_q11",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "List the stages of a plant's life cycle in order.",
-    "answer": "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed",
-    "options": [
-     "A life cycle is the sequence of stages an organism passes through — from birth, through growth, to an adult that reproduces and finally dies",
-     "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living",
-     "Seed → germination → seedling → adult plant → flower → fruit containing seeds → seed dispersal → new seed"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "A wrong answer skips the flower or the seed-dispersal step — the loop only closes when seeds leave and sprout again.",
-    "id": "gen_c6_bio_ch07_q12",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction",
-    "options": [
-     "Living things need food (nutrition), grow, respire, respond to stimuli, excrete waste, move (internally or externally), and reproduce — any five of these",
-     "List at least five characteristics distinguishing living from non-living things, apply the list to decide whether a car, a cloud, or a seed is living",
-     "Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from birth to reproduction"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Order the stages of a plant's life cycle and of a mosquito's or frog's life cycle, define a life cycle as stages from",
-    "id": "gen_c6_bio_ch07_q13",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is the life cycle called a cycle and not a line?",
-    "answer": "Because the last stage — the adult reproducing — produces new seeds or eggs that begin the sequence all over again, so the stages loop back to the start, making a circle",
-    "options": [
-     "A mosquito's life cycle is egg → larva (wriggler, lives in water) → pupa → adult flying mosquito → which lays eggs again",
-     "A touch-me-not (chhui-mui) plant folds its leaves when touched, and a shoot bends toward light — plants respond to touch and light even though they do not move from place to place",
-     "Because the last stage — the adult reproducing — produces new seeds or eggs that begin the sequence all over again, so the stages loop back to the start, making a circle"
-    ],
-    "hint": "Straight from the 'life cycle' slide -- match the key terms.",
-    "misconception": "A wrong answer treats it as a one-way line ending at death — the offspring restart it.",
-    "id": "gen_c6_bio_ch07_q14",
-    "nodeId": "c6_biology_ch07_002",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about living things?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Living Things mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
-  "id": "gen_c6_bio_ch08",
-  "title": "Air",
-  "subtitle": "Biology · Chapter 8",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Air",
-  "chapters": [
-   "Biology Ch8: Air"
-  ],
-  "nodeIds": [
-   "c6_biology_ch08_001",
-   "c6_biology_ch08_002"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-yellow-100 to-amber-200",
-   "accent": "amber",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Who uses Air in real working life?",
-   "options": [
-    "Scientists, engineers and professionals use it daily",
-    "Nobody actually uses it",
-    "Only teachers use it"
-   ],
-   "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Air is the mixture of gases around the Earth — mainly nitrogen and oxygen with small amounts of carbon dioxide and other gases — that all living"
-  },
-  "teaching": [
-   {
-    "title": "Air",
-    "text": "Air is the mixture of gases around the Earth — mainly nitrogen and oxygen with small amounts of carbon dioxide and other gases — that all living things need for respiration and plants need for photosynthesis.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Forests",
-    "text": "Forests are large areas covered with trees that provide wood, medicines, oxygen, and shelter for wildlife and help conserve soil and water. Soil is the thin top layer of Earth where plants grow; rocks are the hard minerals beneath it.",
-    "emoji": "🌿",
-    "bgColor": "from-amber-400 to-orange-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "What is air made of, and which gas do living things need for breathing?",
-    "answer": "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)",
-    "options": [
-     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
-     "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas",
-     "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"air is just oxygen\" — nitrogen makes up most of it.",
-    "id": "gen_c6_bio_ch08_q1",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Hold your breath for ten seconds — uncomfortable, right?",
-     "That invisible stuff you just missed is air, and the part your body wants is oxygen.",
-     "Air is not empty space; it is a real mixture — mostly nitrogen and oxygen, with a pinch of carbon dioxide and other gases.",
-     "Plants use carbon dioxide to make food and release the oxygen animals need; animals breathe out carbon dioxide — a natural swap that keeps both alive."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Name three things forests provide us.",
-    "answer": "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water",
-    "options": [
-     "Air is polluted by smoke from vehicles and factories and by dust and burning; it makes breathing difficult, irritates eyes, and can cause diseases",
-     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
-     "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "A wrong answer lists only \"wood\" — forests give far more than timber.",
-    "id": "gen_c6_bio_ch08_q2",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Start with a forest — not just a pretty place of trees, but a treasure house.",
-     "Forests give us wood for furniture and houses, medicines from plants, oxygen to breathe, and homes for countless animals.",
-     "But their hidden work is even bigger — tree roots hold the soil together so rain cannot wash it away, and forests soak up rainwater like a sponge,",
-     "Now dig down: the top layer of Earth where plants grow is soil — a living mix of broken rock, water, air, and dead leaves — and without it no farm"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "How do plants and animals exchange gases through air?",
-    "answer": "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs",
-    "options": [
-     "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater",
-     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
-     "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "A wrong answer says plants \"breathe oxygen like us\" — they also respire, but their signature move is releasing oxygen.",
-    "id": "gen_c6_bio_ch08_q3",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name three sources of fresh water.",
-    "answer": "Rain, rivers, and groundwater (from wells and pumps) — lakes and ponds also store fresh water",
-    "options": [
-     "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible",
-     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
-     "Rain, rivers, and groundwater (from wells and pumps) — lakes and ponds also store fresh water"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "A wrong answer lists the ocean — seawater is salty and not directly usable.",
-    "id": "gen_c6_bio_ch08_q4",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name two ways air gets polluted and one effect it has on us.",
-    "answer": "Air is polluted by smoke from vehicles and factories and by dust and burning; it makes breathing difficult, irritates eyes, and can cause diseases",
-    "options": [
-     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
-     "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)",
-     "Air is polluted by smoke from vehicles and factories and by dust and burning; it makes breathing difficult, irritates eyes, and can cause diseases"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "A wrong answer names only one source — pollution has several everyday causes.",
-    "id": "gen_c6_bio_ch08_q5",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Suggest two actions to conserve water at home or school.",
-    "answer": "Fix leaking taps and collect rainwater for gardens (rainwater harvesting); also, turning the tap off while brushing or reusing wash-water for plants saves water daily",
-    "options": [
-     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
-     "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water",
-     "Fix leaking taps and collect rainwater for gardens (rainwater harvesting); also, turning the tap off while brushing or reusing wash-water for plants saves water daily"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests big engineering only — small habits conserve too.",
-    "id": "gen_c6_bio_ch08_q6",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
-    "options": [
-     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
-     "Air is a mixture of gases — mainly nitrogen and oxygen with small amounts of carbon dioxide and others. Living things need oxygen for breathing (respiration)",
-     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be",
-    "id": "gen_c6_bio_ch08_q7",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why should we save water even though the Earth looks blue and full of it?",
-    "answer": "Most of Earth's water is salty ocean water that we cannot drink or use for farming — fresh usable water is only a small fraction, so wasting it can create real scarcity",
-    "options": [
-     "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs",
-     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
-     "Most of Earth's water is salty ocean water that we cannot drink or use for farming — fresh usable water is only a small fraction, so wasting it can create real scarcity"
-    ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
-    "misconception": "A wrong answer assumes the blue on the globe is drinkable — it is almost all salt water.",
-    "id": "gen_c6_bio_ch08_q8",
-    "nodeId": "c6_biology_ch08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How do forests protect soil and water?",
-    "answer": "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater",
-    "options": [
-     "Plants take in carbon dioxide for photosynthesis and release oxygen; animals breathe in oxygen and breathe out carbon dioxide — each supplies what the other needs",
-     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
-     "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "A wrong answer says only \"trees give shade\" — missing the soil-holding and water-saving roles.",
-    "id": "gen_c6_bio_ch08_q9",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name two ways to conserve fossil fuels.",
-    "answer": "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible",
-    "options": [
-     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
-     "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas",
-     "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests only \"stop all fuel\" — conservation means wiser use, not zero use.",
-    "id": "gen_c6_bio_ch08_q10",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What are fossil fuels? Name them.",
-    "answer": "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas",
-    "options": [
-     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
-     "Use less electricity and petrol (walk, carpool, switch off lights) and use cleaner fuels or renewable energy like solar and wind where possible",
-     "Fossil fuels are fuels formed from the buried remains of ancient plants and animals over millions of years — coal, petroleum, and natural gas"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "A wrong answer calls them \"minerals we dig up\" — missing that they are ancient life turned to fuel.",
-    "id": "gen_c6_bio_ch08_q11",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is soil, and why is it important?",
-    "answer": "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
-    "options": [
-     "Name the main gases in air and the gas living things need, name three sources of fresh water and why water must be conserved",
-     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
-     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "A wrong answer calls soil \"just dirt\" — it is the living base of farming and forests.",
-    "id": "gen_c6_bio_ch08_q12",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter",
-    "options": [
-     "Forests provide wood, medicines from plants, oxygen, and shelter for wildlife — plus they conserve soil and water",
-     "Soil is the thin top layer of Earth made of broken rock, water, air, and the remains of dead plants and animals — it is important because all our food grows in it",
-     "List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: List three uses of forests and two ways forests protect soil and water, explain why soil and rocks matter, and describe",
-    "id": "gen_c6_bio_ch08_q13",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why are fossil fuels called non-renewable resources?",
-    "answer": "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out",
-    "options": [
-     "Most of Earth's water is salty ocean water that we cannot drink or use for farming — fresh usable water is only a small fraction, so wasting it can create real scarcity",
-     "Tree roots hold soil together so rain cannot wash it away, and forests soak up rainwater like a sponge so it seeps down and refills groundwater",
-     "They took millions of years to form and cannot be replaced once used — we are using them far faster than nature makes them, so they will run out"
-    ],
-    "hint": "Straight from the 'Forests' slide -- match the key terms.",
-    "misconception": "A wrong answer thinks we can \"make more\" — the timescale is the problem.",
-    "id": "gen_c6_bio_ch08_q14",
-    "nodeId": "c6_biology_ch08_002",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about air?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Air mastered! 🎯",
+  "successLine": "The Components Of Food Can Be mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

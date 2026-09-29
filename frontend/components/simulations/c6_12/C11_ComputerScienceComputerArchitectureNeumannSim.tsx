@@ -1230,13 +1230,13 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
           <motion.div
             whileHover={{ rotate: 360, scale: 1.1 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-xl bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400 bg-cyan-950/70 px-2 py-0.5 rounded border border-cyan-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/70 px-2 py-0.5 rounded border border-gold-800">
                 ISC Class 11 CS • Paper 1
               </span>
               <span className="text-xs text-slate-400 font-mono">c11_cs_001 → c11_cs_010</span>
@@ -1256,7 +1256,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
               aria-label={`Switch to ${tab} phase`}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all ${
                 phase === tab
-                  ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                  ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
@@ -1277,15 +1277,15 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
             className="space-y-6"
           >
             {/* Mission Narrative Banner */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-cyan-950/60 rounded-2xl border border-indigo-700/50 relative overflow-hidden">
+            <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-gold-950/60 rounded-2xl border border-gold-700/50 relative overflow-hidden">
               <div className="absolute top-0 right-0 p-8 opacity-10 text-9xl">🛰️</div>
               <div className="relative z-10 max-w-3xl">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest bg-cyan-950/90 px-2.5 py-1 rounded-full border border-cyan-800">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest bg-gold-950/90 px-2.5 py-1 rounded-full border border-gold-800">
                   National Mission • SCL Mohali & IIT Madras
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-2 mb-3">{SCENARIO.title}</h2>
                 <p className="text-slate-300 text-sm sm:text-base leading-relaxed">{SCENARIO.intro}</p>
-                <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-indigo-900/50 text-xs text-indigo-300 flex items-center gap-2">
+                <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-gold-900/50 text-xs text-gold-300 flex items-center gap-2">
                   <span>💡</span>
                   <span>{SCENARIO.context}</span>
                 </div>
@@ -1331,7 +1331,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 rounded-xl bg-slate-950 border border-cyan-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
+                  className="mt-6 p-4 rounded-xl bg-slate-950 border border-gold-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
                 >
                   <div>
                     <p className={`text-sm font-bold ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -1344,7 +1344,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Advance to interactive lab"
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold rounded-xl shadow-lg shadow-cyan-500/20 text-sm whitespace-nowrap"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-gold-500/20 text-sm whitespace-nowrap"
                   >
                     Launch Interactive Hardware Lab →
                   </motion.button>
@@ -1365,7 +1365,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
           >
             {/* Step Navigation Bar */}
             <div className="flex items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800">
-              <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
               </span>
               <div className="flex gap-1.5">
@@ -1375,7 +1375,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     onClick={() => setCurrentSlide(i)}
                     aria-label={`Jump to exploration step ${i + 1}`}
                     className={`w-3 h-3 rounded-full transition-all ${
-                      currentSlide === i ? 'bg-cyan-400 w-6' : 'bg-slate-700 hover:bg-slate-500'
+                      currentSlide === i ? 'bg-gold-400 w-6' : 'bg-slate-700 hover:bg-slate-500'
                     }`}
                   />
                 ))}
@@ -1401,7 +1401,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   {/* Bus Frequency Slider Control */}
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
                     <div>
-                      <span className="text-xs font-bold text-cyan-400">System Bus Clock Frequency:</span>
+                      <span className="text-xs font-bold text-gold-400">System Bus Clock Frequency:</span>
                       <span className="ml-2 font-mono text-white text-sm font-bold">{busClockSpeed} MHz</span>
                     </div>
                     <div className="flex items-center gap-3 w-full sm:w-64">
@@ -1412,7 +1412,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                         max="400"
                         value={busClockSpeed}
                         onChange={(e) => setBusClockSpeed(Number(e.target.value))}
-                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                       />
                       <span className="text-[10px] text-slate-500">400 MHz</span>
                     </div>
@@ -1469,7 +1469,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div>
                       <span className="text-xs text-slate-400">Current Phase:</span>
-                      <p className="text-lg font-bold text-cyan-400 font-mono">CYCLE [{cpuCycleStage}]</p>
+                      <p className="text-lg font-bold text-gold-400 font-mono">CYCLE [{cpuCycleStage}]</p>
                     </div>
 
                     <motion.button
@@ -1477,14 +1477,14 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={handleStepCpuCycle}
                       aria-label="Step CPU fetch-decode-execute cycle"
-                      className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm flex items-center gap-2 shadow-lg shadow-cyan-600/20"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm flex items-center gap-2 shadow-lg shadow-gold-600/20"
                     >
                       <span>Next Clock Pulse ➔</span>
                     </motion.button>
                   </div>
 
                   {/* OBSERVATION QUESTION 1 */}
-                  <div className="p-4 bg-slate-950/80 rounded-xl border border-cyan-800/40 space-y-3">
+                  <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-800/40 space-y-3">
                     <div className="flex items-center gap-2">
                       <span className="text-amber-400 font-bold text-xs uppercase tracking-wider">🔬 Brilliant Observation Hook 1</span>
                     </div>
@@ -1509,7 +1509,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       ))}
                     </div>
                     {observationAnswers[OBSERVATION_QUESTIONS[0].id] !== undefined && (
-                      <p className="text-xs text-cyan-300 bg-cyan-950/60 p-2.5 rounded-lg border border-cyan-800/60">
+                      <p className="text-xs text-gold-300 bg-gold-950/60 p-2.5 rounded-lg border border-gold-800/60">
                         {OBSERVATION_QUESTIONS[0].explanation}
                       </p>
                     )}
@@ -1523,10 +1523,10 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   {/* Real-time Range Slider Input */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center">
-                      <label htmlFor="decimal-slider" className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                      <label htmlFor="decimal-slider" className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                         Real-Time Value Drag Slider (0 to 255)
                       </label>
-                      <span className="text-2xl font-black font-mono text-cyan-300">{decimalValue}</span>
+                      <span className="text-2xl font-black font-mono text-gold-300">{decimalValue}</span>
                     </div>
                     <input
                       id="decimal-slider"
@@ -1535,7 +1535,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       max="255"
                       value={decimalValue}
                       onChange={(e) => handleSliderDecimalChange(Number(e.target.value))}
-                      className="w-full h-3 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                      className="w-full h-3 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 font-mono">
                       <span>0x00 (0)</span>
@@ -1557,7 +1557,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                           aria-label={`Toggle bit ${7 - idx} with weight ${Math.pow(2, 7 - idx)}`}
                           className={`p-3 sm:p-4 rounded-xl flex flex-col items-center justify-center gap-1 transition-all border ${
                             bit === 1
-                              ? 'bg-cyan-950/80 border-cyan-400 text-cyan-300 shadow-lg shadow-cyan-500/20'
+                              ? 'bg-gold-950/80 border-gold-400 text-gold-300 shadow-lg shadow-gold-500/20'
                               : 'bg-slate-900 border-slate-700 text-slate-500 hover:border-slate-500'
                           }`}
                         >
@@ -1584,8 +1584,8 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       <p className="text-2xl font-black text-emerald-300 mt-1 font-mono">{octalValue}_8</p>
                     </div>
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-indigo-400">Packed BCD</span>
-                      <p className="text-xs font-bold text-indigo-300 mt-2 font-mono break-all">{bcdValue}</p>
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-gold-400">Packed BCD</span>
+                      <p className="text-xs font-bold text-gold-300 mt-2 font-mono break-all">{bcdValue}</p>
                     </div>
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
                       <span className="text-[10px] font-bold uppercase tracking-wider text-purple-400">Gray Code</span>
@@ -1594,7 +1594,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   </div>
 
                   {/* OBSERVATION QUESTION 2 */}
-                  <div className="p-4 bg-slate-950/80 rounded-xl border border-cyan-800/40 space-y-3">
+                  <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-800/40 space-y-3">
                     <div className="flex items-center gap-2">
                       <span className="text-amber-400 font-bold text-xs uppercase tracking-wider">🔬 Brilliant Observation Hook 2</span>
                     </div>
@@ -1619,7 +1619,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       ))}
                     </div>
                     {observationAnswers[OBSERVATION_QUESTIONS[1].id] !== undefined && (
-                      <p className="text-xs text-cyan-300 bg-cyan-950/60 p-2.5 rounded-lg border border-cyan-800/60">
+                      <p className="text-xs text-gold-300 bg-gold-950/60 p-2.5 rounded-lg border border-gold-800/60">
                         {OBSERVATION_QUESTIONS[1].explanation}
                       </p>
                     )}
@@ -1636,21 +1636,21 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     <button
                       onClick={() => setInputA(a => (a === 1 ? 0 : 1))}
                       aria-label="Toggle Input A"
-                      className={`px-4 py-2 rounded-lg font-bold text-sm ${inputA ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-4 py-2 rounded-lg font-bold text-sm ${inputA ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       Input A = {inputA}
                     </button>
                     <button
                       onClick={() => setInputB(b => (b === 1 ? 0 : 1))}
                       aria-label="Toggle Input B"
-                      className={`px-4 py-2 rounded-lg font-bold text-sm ${inputB ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-4 py-2 rounded-lg font-bold text-sm ${inputB ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       Input B = {inputB}
                     </button>
                     <button
                       onClick={() => setInputCin(c => (c === 1 ? 0 : 1))}
                       aria-label="Toggle Carry-In"
-                      className={`px-4 py-2 rounded-lg font-bold text-sm ${inputCin ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-4 py-2 rounded-lg font-bold text-sm ${inputCin ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       Carry In (Cin) = {inputCin}
                     </button>
@@ -1695,10 +1695,10 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
               {currentSlide === 3 && (
                 <div className="space-y-6">
                   {/* PREDICTION QUESTION 1 */}
-                  <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-3">
+                  <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">🎯 Prediction Challenge 1</span>
-                      <span className="text-[10px] text-indigo-300">Predict before pulsing the clock</span>
+                      <span className="text-[10px] text-gold-300">Predict before pulsing the clock</span>
                     </div>
                     <p className="text-xs sm:text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-2 gap-2">
@@ -1721,7 +1721,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       ))}
                     </div>
                     {predictionAnswers[PREDICTION_QUESTIONS[0].id] !== undefined && (
-                      <div className="p-3 bg-slate-950 rounded-lg border border-indigo-800/50 text-xs text-indigo-200 space-y-1">
+                      <div className="p-3 bg-slate-950 rounded-lg border border-gold-800/50 text-xs text-gold-200 space-y-1">
                         <p className="font-bold text-amber-300">🔍 Verification Task:</p>
                         <p>{PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                       </div>
@@ -1766,13 +1766,13 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     <div className="flex items-center gap-3">
                       <button
                         onClick={() => setInputJ(j => (j === 1 ? 0 : 1))}
-                        className={`px-3 py-1.5 rounded-lg font-bold text-xs ${inputJ ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-lg font-bold text-xs ${inputJ ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         Input J = {inputJ}
                       </button>
                       <button
                         onClick={() => setInputK(k => (k === 1 ? 0 : 1))}
-                        className={`px-3 py-1.5 rounded-lg font-bold text-xs ${inputK ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-lg font-bold text-xs ${inputK ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         Input K = {inputK}
                       </button>
@@ -1789,10 +1789,10 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   </div>
 
                   {/* PREDICTION QUESTION 2 */}
-                  <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-3">
+                  <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">🎯 Prediction Challenge 2</span>
-                      <span className="text-[10px] text-indigo-300">Gray Code Logic Test</span>
+                      <span className="text-[10px] text-gold-300">Gray Code Logic Test</span>
                     </div>
                     <p className="text-xs sm:text-sm text-white font-medium">{PREDICTION_QUESTIONS[1].question}</p>
                     <div className="grid grid-cols-2 gap-2">
@@ -1815,7 +1815,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       ))}
                     </div>
                     {predictionAnswers[PREDICTION_QUESTIONS[1].id] !== undefined && (
-                      <div className="p-3 bg-slate-950 rounded-lg border border-indigo-800/50 text-xs text-indigo-200 space-y-1">
+                      <div className="p-3 bg-slate-950 rounded-lg border border-gold-800/50 text-xs text-gold-200 space-y-1">
                         <p className="font-bold text-amber-300">🔍 Verification Task:</p>
                         <p>{PREDICTION_QUESTIONS[1].verifyInstruction}</p>
                       </div>
@@ -1833,7 +1833,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       <button
                         onClick={() => setOsAlgorithm('first-fit')}
                         className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                          osAlgorithm === 'first-fit' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                          osAlgorithm === 'first-fit' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         First-Fit
@@ -1841,7 +1841,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       <button
                         onClick={() => setOsAlgorithm('best-fit')}
                         className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                          osAlgorithm === 'best-fit' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                          osAlgorithm === 'best-fit' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Best-Fit
@@ -1887,14 +1887,14 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                         </div>
                         <div className="mt-2 h-2 bg-slate-800 rounded-full overflow-hidden">
                           <div
-                            className="h-full bg-cyan-500 rounded-full"
+                            className="h-full bg-gold-500 rounded-full"
                             style={{ width: `${(part.used / part.size) * 100}%` }}
                           />
                         </div>
                       </div>
                     ))}
                   </div>
-                  <p className="text-xs font-mono text-cyan-300">{osMessage}</p>
+                  <p className="text-xs font-mono text-gold-300">{osMessage}</p>
                 </div>
               )}
 
@@ -1915,7 +1915,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Step →
                   </motion.button>
@@ -1956,8 +1956,8 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
             <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-6">
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Live Value Range Drag Slider</span>
-                  <span className="text-2xl font-bold text-cyan-300 font-mono">{decimalValue}</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Live Value Range Drag Slider</span>
+                  <span className="text-2xl font-bold text-gold-300 font-mono">{decimalValue}</span>
                 </div>
                 <input
                   type="range"
@@ -1965,19 +1965,19 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   max="255"
                   value={decimalValue}
                   onChange={(e) => handleSliderDecimalChange(Number(e.target.value))}
-                  className="w-full h-3 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                  className="w-full h-3 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                 />
               </div>
 
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">8-Bit Bus Bit Switches</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">8-Bit Bus Bit Switches</span>
                 <div className="grid grid-cols-8 gap-2 mt-2">
                   {bitArray.map((bit, idx) => (
                     <button
                       key={idx}
                       onClick={() => handleToggleBit(idx)}
                       className={`p-3 rounded-lg font-bold font-mono text-center border ${
-                        bit === 1 ? 'bg-cyan-500 text-slate-950 border-cyan-300' : 'bg-slate-950 text-slate-500 border-slate-800'
+                        bit === 1 ? 'bg-gold-500 text-slate-950 border-gold-300' : 'bg-slate-950 text-slate-500 border-slate-800'
                       }`}
                     >
                       {bit}
@@ -1989,7 +1989,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                   <span>Hex: <strong className="text-amber-400">0x{hexValue}</strong></span>
                   <span>Oct: <strong className="text-emerald-400">{octalValue}_8</strong></span>
                   <span>Gray: <strong className="text-purple-400">{grayCodeValue}</strong></span>
-                  <span>BCD: <strong className="text-indigo-400">{bcdValue}</strong></span>
+                  <span>BCD: <strong className="text-gold-400">{bcdValue}</strong></span>
                 </div>
               </div>
 
@@ -1997,7 +1997,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="w-full py-3 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold rounded-xl shadow-lg shadow-cyan-500/20 text-sm"
+                className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-gold-500/20 text-sm"
               >
                 Launch Certified Challenges (20+ Items) →
               </motion.button>
@@ -2021,7 +2021,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                 </span>
                 <span className={`px-2.5 py-0.5 rounded text-xs font-bold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
-                  : difficulty === 'standard' ? 'bg-cyan-950 text-cyan-400 border border-cyan-800'
+                  : difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-800'
                   : 'bg-purple-950 text-purple-400 border border-purple-800'
                 }`}>
                   {difficulty}
@@ -2033,7 +2033,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
 
               <div className="w-32 sm:w-48 h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2084,7 +2084,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                        className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                       >
                         {item.label}
                       </motion.div>
@@ -2115,7 +2115,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-5 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Subsystem Mapping
                   </motion.button>
@@ -2141,7 +2141,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-950 text-cyan-400 font-bold flex items-center justify-center shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-slate-950 text-gold-400 font-bold flex items-center justify-center shrink-0">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2154,7 +2154,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     transition={{ duration: 0.4 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Check Cycle Sequence
                   </motion.button>
@@ -2170,7 +2170,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-400"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-400"
                   />
                   <span className="text-sm text-slate-400 font-medium">{challenge.unit}</span>
                   <motion.button
@@ -2180,7 +2180,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Validate
                   </motion.button>
@@ -2246,7 +2246,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
             className="space-y-6"
           >
             {/* MOTIVATIONAL FEEDBACK HEADER */}
-            <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-cyan-950 rounded-3xl border border-cyan-500/40 text-center relative overflow-hidden">
+            <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-gold-950 rounded-3xl border border-gold-500/40 text-center relative overflow-hidden">
               <div className="text-6xl mb-3">🚀</div>
               <motion.h3
                 initial={{ scale: 0.8 }}
@@ -2256,7 +2256,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                 {motivationalMessage}
               </motion.h3>
               <h2 className="text-xl sm:text-2xl font-extrabold text-white">Shakti-Core Architecture Certified!</h2>
-              <p className="text-cyan-300 text-sm mt-1">ISC Class 11 Computer Science Syllabus Mastery Verified</p>
+              <p className="text-gold-300 text-sm mt-1">ISC Class 11 Computer Science Syllabus Mastery Verified</p>
 
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl mx-auto mt-6">
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
@@ -2265,7 +2265,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                 </div>
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                   <span className="text-[10px] text-slate-400">Mastery Level</span>
-                  <p className="text-base font-bold text-cyan-400 capitalize">{masteryLevel}</p>
+                  <p className="text-base font-bold text-gold-400 capitalize">{masteryLevel}</p>
                 </div>
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                   <span className="text-[10px] text-slate-400">Total Solved</span>
@@ -2295,7 +2295,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
                   <span className="text-[10px] uppercase font-bold text-slate-500">Recommended Review Target</span>
-                  <p className="text-lg font-bold text-cyan-300 mt-0.5">
+                  <p className="text-lg font-bold text-gold-300 mt-0.5">
                     Review in <span className="text-white underline">{srsSchedule.intervalDays} day{srsSchedule.intervalDays > 1 ? 's' : ''}</span> ({srsSchedule.nextDate})
                   </p>
                 </div>
@@ -2308,7 +2308,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
             </div>
 
             {/* REAL WORLD ACTIVITY SECTION */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950/40 via-slate-900 to-cyan-950/40 rounded-2xl border border-indigo-700/50 space-y-4">
+            <div className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-700/50 space-y-4">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🛠️</span>
                 <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2318,18 +2318,18 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step) => (
                   <div key={step.stepNumber} className="p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs space-y-1">
-                    <p className="font-bold text-cyan-400">Step {step.stepNumber}: {step.title}</p>
+                    <p className="font-bold text-gold-400">Step {step.stepNumber}: {step.title}</p>
                     <p className="text-slate-300 leading-relaxed">{step.action}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-indigo-300 bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/60 font-medium">
+              <p className="text-xs text-gold-300 bg-gold-950/60 p-3 rounded-xl border border-gold-800/60 font-medium">
                 🌟 National Takeaway: {REAL_WORLD_ACTIVITY.takeaway}
               </p>
             </div>
 
             {/* MANDATORY REFLECTION SECTION */}
-            <div className="p-6 bg-slate-900 rounded-2xl border border-cyan-800/60 space-y-4">
+            <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/60 space-y-4">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🧠</span>
                 <h3 className="text-lg font-bold text-white">Metacognitive Reflection</h3>
@@ -2338,7 +2338,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
 
               <div className="space-y-4 mt-2">
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <label htmlFor="ref-q1" className="text-xs font-bold text-cyan-400">
+                  <label htmlFor="ref-q1" className="text-xs font-bold text-gold-400">
                     What was the most surprising concept you discovered about stored-program computing?
                   </label>
                   <textarea
@@ -2347,12 +2347,12 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     onChange={(e) => setReflections(r => ({ ...r, surprising: e.target.value }))}
                     placeholder="e.g. How instructions and data bit patterns are completely identical in memory..."
                     rows={2}
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-400"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-400"
                   />
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <label htmlFor="ref-q2" className="text-xs font-bold text-cyan-400">
+                  <label htmlFor="ref-q2" className="text-xs font-bold text-gold-400">
                     How would you explain the JK Flip-Flop toggle property to a fellow student?
                   </label>
                   <textarea
@@ -2361,12 +2361,12 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     onChange={(e) => setReflections(r => ({ ...r, explain: e.target.value }))}
                     placeholder="e.g. J=1 and K=1 fixes the SR forbidden state by flipping the bit on each clock tick..."
                     rows={2}
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-400"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-400"
                   />
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <label htmlFor="ref-q3" className="text-xs font-bold text-cyan-400">
+                  <label htmlFor="ref-q3" className="text-xs font-bold text-gold-400">
                     Where in Indian digital infrastructure (UPI, ISRO, IRCTC) is this knowledge applied?
                   </label>
                   <textarea
@@ -2375,7 +2375,7 @@ export function C11_ComputerScienceComputerArchitectureNeumannSim({
                     onChange={(e) => setReflections(r => ({ ...r, realLife: e.target.value }))}
                     placeholder="e.g. In designing fault-tolerant hardware adders to prevent integer overflows in banking..."
                     rows={2}
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-400"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-400"
                   />
                 </div>
               </div>

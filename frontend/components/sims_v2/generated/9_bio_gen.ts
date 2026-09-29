@@ -48,7 +48,7 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Nucleus",
+    "title": "The Nucleus Is a Double-membrane-bound",
     "text": "The nucleus is a double-membrane-bound organelle that houses the genetic material (DNA organized into chromosomes) and serves as the control center of eukaryotic cells by regulating gene expression, DNA replication, and cell division.",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -60,7 +60,7 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vacuole",
+    "title": "Vacuole Is a Membrane-bound Organelle",
     "text": "A vacuole is a membrane-bound organelle filled with cell sap (a solution of water, enzymes, ions, sugars, and waste products) bounded by a single membrane called the tonoplast; in mature plant cells, a large central vacuole occupies up to 90% of cell volume",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -319,7 +319,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "The statement is partially correct but oversimplified: enucleated cells (mammalian RBCs, cytoplasts) survive for limited periods using pre-existing mRNA and proteins",
      "Step 1: The concentrated salt solution has lower water potential (more negative) than the potato cell sap"
     ],
-    "hint": "Straight from the 'vacuole' slide -- match the key terms.",
+    "hint": "Straight from the 'vacuole is a membrane-bound' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"salt enters the vacuole and kills the cell\" or \"water moves into the vacuole\" reveals misunderstanding of water potential direction and the physical consequence of vacuolar volume change on tissue texture.",
     "id": "gen_c9_bio_ch01_q5",
     "nodeId": "c9_bio_ch1_11",
@@ -349,7 +349,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Step 1: Insulin mRNA translated on ribosomes attached to rough ER → polypeptide enters ER lumen. Step 2: Proinsulin folds, disulfide bonds form in ER lumen",
      "The statement is partially correct but oversimplified: enucleated cells (mammalian RBCs, cytoplasts) survive for limited periods using pre-existing mRNA and proteins"
     ],
-    "hint": "Straight from the 'nucleus' slide -- match the key terms.",
+    "hint": "Straight from the 'The nucleus is a double-membrane-b' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"cell dies instantly\" or \"cell lives forever\") shows lack of understanding of mRNA/protein half-life and the distinction between genetic control and metabolic maintenance.",
     "id": "gen_c9_bio_ch01_q7",
     "nodeId": "c9_bio_ch1_5",
@@ -486,13 +486,13 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Bone",
+    "title": "Bone Is a Rigid",
     "text": "Bone is a rigid, vascularized connective tissue composed of a collagen matrix mineralized with calcium phosphate (hydroxyapatite) that provides structural support, protection, and mineral storage; cartilage is a flexible, avascular connective tissue composed",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Joint",
+    "title": "Joint Is a Point Where Two Or More Bones",
     "text": "A joint (articulation) is a point where two or more bones meet, enabling movement and providing mechanical support to the skeleton; it is classified structurally by the type of connective tissue binding the bones (fibrous, cartilaginous, synovial) and",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -679,7 +679,7 @@ export const C9_BIO_GEN: SimDef[] = [
     "answer": "The three basic shapes are squamous (flat, scale-like), cuboidal (cube-shaped), and columnar (tall, pillar-like)",
     "options": [
      "The three main parts are: (1) Cyton (cell body) - contains nucleus and organelles, maintains cell metabolism",
-     "The three structural classes are: (1) Fibrous joints — bones united by dense fibrous connective tissue, e",
+     "The student can classify any given joint in the human body by its structural type (fibrous, cartilaginous, synovial) and functional category (synarthrosis, amphiarthrosis",
      "The three basic shapes are squamous (flat, scale-like), cuboidal (cube-shaped), and columnar (tall, pillar-like)"
     ],
     "hint": "Straight from the 'Epithelial tissue' slide -- match the key terms.",
@@ -720,8 +720,8 @@ export const C9_BIO_GEN: SimDef[] = [
     "question": "Define striated muscle tissue and state two microscopic features that distinguish it from cardiac muscle tissue.",
     "answer": "Striated (skeletal) muscle tissue consists of long, cylindrical, unbranched, multinucleated fibers showing alternating light and dark transverse striations",
     "options": [
-     "The three basic shapes are squamous (flat, scale-like), cuboidal (cube-shaped), and columnar (tall, pillar-like)",
-     "The three main parts are: (1) Cyton (cell body) - contains nucleus and organelles, maintains cell metabolism",
+     "Muscular tissue is a specialized animal tissue composed of elongated cells (muscle fibers) containing contractile proteins (actin and myosin) that enable movement through",
+     "The two divisions are the axial skeleton (80 bones) and the appendicular skeleton (126 bones)",
      "Striated (skeletal) muscle tissue consists of long, cylindrical, unbranched, multinucleated fibers showing alternating light and dark transverse striations"
     ],
     "hint": "Straight from the 'Muscular tissue' slide -- match the key terms.",
@@ -793,11 +793,11 @@ export const C9_BIO_GEN: SimDef[] = [
     "question": "Name the two main types of bone tissue based on porosity and state one location for each in the human skeleton.",
     "answer": "Compact (cortical) bone – forms the dense outer shell of all bones, e.g., shaft of femur; Spongy (cancellous) bone – forms the porous inner network, e",
     "options": [
+     "The student can correctly classify any named human bone as axial or appendicular, explain the functional difference between the two divisions",
      "The two divisions are the axial skeleton (80 bones) and the appendicular skeleton (126 bones)",
-     "The three structural classes are: (1) Fibrous joints — bones united by dense fibrous connective tissue, e",
      "Compact (cortical) bone – forms the dense outer shell of all bones, e.g., shaft of femur; Spongy (cancellous) bone – forms the porous inner network, e"
     ],
-    "hint": "Straight from the 'Bone' slide -- match the key terms.",
+    "hint": "Straight from the 'Bone is a rigid' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming \"long bone\" and \"flat bone\") reveals confusion between gross anatomical classification and histological tissue types.",
     "id": "gen_c9_bio_ch02_q9",
     "nodeId": "c9_bio_ch2_9",
@@ -1106,7 +1106,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "A good answer lists: (1) Ball-and-socket — shoulder/hip — circumduction — 3 axes; (2) Hinge — elbow/knee — flexion/extension — 1 axis",
      "Step 1: The knee is a synovial joint (fluid-filled cavity). Step 2: It is a modified hinge joint (allows flexion/extension + slight rotation when flexed)"
     ],
-    "hint": "Straight from the 'joint' slide -- match the key terms.",
+    "hint": "Straight from the 'joint is a point where two or' slide -- match the key terms.",
     "misconception": "A wrong answer that calls the knee a simple hinge or omits the ACL's rotational restraint reveals incomplete understanding of synovial sub-types and ligament function.",
     "id": "gen_c9_bio_ch02_q15",
     "nodeId": "c9_bio_ch2_10",
@@ -1121,7 +1121,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Skeletal muscle is under somatic (voluntary) nervous control via motor neurons releasing acetylcholine at neuromuscular junctions, enabling conscious movement of bones",
      "Atlantoaxial joint = pivot joint (dens of axis rotates within atlas ring) → permits only rotational movement (shaking head \"no\")"
     ],
-    "hint": "Straight from the 'joint' slide -- match the key terms.",
+    "hint": "Straight from the 'joint is a point where two or' slide -- match the key terms.",
     "misconception": "A wrong answer that lists movements without linking surface geometry to degrees of freedom fails the board's \"structure-function\" requirement.",
     "id": "gen_c9_bio_ch02_q16",
     "nodeId": "c9_bio_ch2_10",
@@ -1136,7 +1136,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Partially correct. Mature neurons are amitotic (don't undergo mitosis), so CNS neurons cannot be replaced if cell body dies",
      "A good answer lists: (1) Ball-and-socket — shoulder/hip — circumduction — 3 axes; (2) Hinge — elbow/knee — flexion/extension — 1 axis"
     ],
-    "hint": "Straight from the 'joint' slide -- match the key terms.",
+    "hint": "Straight from the 'joint is a point where two or' slide -- match the key terms.",
     "misconception": "A poor answer confuses condyloid with saddle, omits axes, or uses non-synovial joints (e.g., skull sutures), showing inability to map joint shape to movement repertoire.",
     "id": "gen_c9_bio_ch02_q17",
     "nodeId": "c9_bio_ch2_10",
@@ -1151,7 +1151,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "The statement is largely correct: cardiac muscle shares striations and sarcomere organization with skeletal muscle (for strong, rapid contractions)",
      "Yes, the reasoning is valid. Structural classification depends on the connecting material (fibrous, cartilage, synovial cavity)"
     ],
-    "hint": "Straight from the 'joint' slide -- match the key terms.",
+    "hint": "Straight from the 'joint is a point where two or' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"sutures are immovable so they are not synovial\" without distinguishing the two classification systems confuses correlation with definition.",
     "id": "gen_c9_bio_ch02_q18",
     "nodeId": "c9_bio_ch2_10",
@@ -1215,19 +1215,19 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Meiosis",
+    "title": "Meiosis Is a Specialized Type",
     "text": "Meiosis is a specialized type of cell division that reduces the chromosome number by half, producing four genetically distinct haploid daughter cells (gametes) from a single diploid parent cell, and is the cellular basis for sexual reproduction.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Flower",
+    "title": "A Flower Is The Reproductive Structure",
     "text": "A flower is the reproductive structure of angiosperms (flowering plants) consisting of four whorls — calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels/pistils) — arranged on a thalamus, where the androecium produces male gametes",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Pollination",
+    "title": "Pollination Is The Transfer Of Pollen",
     "text": "Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower, enabling fertilisation. Self-pollination occurs when pollen lands on the stigma of the same flower or another flower on the same plant, while",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1251,13 +1251,13 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Pregnancy",
+    "title": "Pregnancy Is The Physiological",
     "text": "Pregnancy is the physiological state in a female mammal beginning from the implantation of a blastocyst in the uterine wall and continuing through embryonic and fetal development until parturition, characterized by sequential morphological stages: zygote,",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Contraception",
+    "title": "Contraception Refers To The Deliberate Use",
     "text": "Contraception refers to the deliberate use of artificial or natural methods to prevent fertilization or implantation, thereby avoiding unintended pregnancy while maintaining sexual health.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1300,7 +1300,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Experiment: Take 20 uniform stem cuttings (2 nodes each) of money plant. Divide into two groups of 10: Control — dip basal end in water",
      "A good model: Draw one pair of homologous chromosomes (one maternal, one paternal), each replicated into two sister chromatids"
     ],
-    "hint": "Straight from the 'Meiosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Meiosis is a specialized type' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., just drawing chromosomes without allele exchange) reveals the student treats crossing over as a visual event without understanding its genetic consequence — recombination.",
     "id": "gen_c9_bio_ch03_q2",
     "nodeId": "c9_bio_ch3_4",
@@ -1384,7 +1384,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Not always correct. A flower may have both stamens and carpels structurally (bisexual) but be functionally unisexual if one set is sterile or non-functional — e",
      "Wheat offspring will be genetically uniform (true to type) because self-pollination maintains homozygosity"
     ],
-    "hint": "Straight from the 'Pollination' slide -- match the key terms.",
+    "hint": "Straight from the 'Pollination is the transfer of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying both will be uniform) reveals the student does not connect pollination type to genetic consequences and the concept of heterozygosity in hybrids.",
     "id": "gen_c9_bio_ch03_q4",
     "nodeId": "c9_bio_ch3_6",
@@ -1464,8 +1464,8 @@ export const C9_BIO_GEN: SimDef[] = [
     "question": "Name the primary sex organs (gonads) in male and female vertebrates and state the type of gamete each produces.",
     "answer": "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete)",
     "options": [
-     "Bacterial: Gonorrhea (Neisseria gonorrhoeae), Syphilis (Treponema pallidum). Viral: HIV/AIDS (Human Immunodeficiency Virus), Genital herpes (Herpes Simplex Virus type 2)",
      "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels/pistils)",
+     "The student can label all four whorls in a longitudinal section of a typical bisexual flower (e.g., hibiscus, mustard), explain the function of each part in sexual reproduction",
      "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete)"
     ],
     "hint": "Straight from the 'Sexual reproduction in animals' slide -- match the key terms.",
@@ -1580,10 +1580,10 @@ export const C9_BIO_GEN: SimDef[] = [
     "answer": "Male condom and female condom (or diaphragm/cervical cap); they act by physically preventing sperm from entering the uterus and reaching the egg",
     "options": [
      "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete)",
-     "A blastocyst is a hollow ball of cells formed around day 5-6 after fertilization, consisting of an outer trophoblast layer and an inner cell mass",
+     "Student can classify contraceptive methods into barrier, hormonal, intrauterine, surgical, and natural categories, explain the mechanism of action for each category",
      "Male condom and female condom (or diaphragm/cervical cap); they act by physically preventing sperm from entering the uterus and reaching the egg"
     ],
-    "hint": "Straight from the 'Contraception' slide -- match the key terms.",
+    "hint": "Straight from the 'Contraception refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer like \"copper-T and oral pills\" reveals confusion between barrier methods and intrauterine/hormonal methods, indicating the student cannot categorize mechanisms.",
     "id": "gen_c9_bio_ch03_q9",
     "nodeId": "c9_bio_ch3_11",
@@ -1600,8 +1600,8 @@ export const C9_BIO_GEN: SimDef[] = [
     "question": "Name any two bacterial STIs and two viral STIs, and state the specific causative organism for each.",
     "answer": "Bacterial: Gonorrhea (Neisseria gonorrhoeae), Syphilis (Treponema pallidum). Viral: HIV/AIDS (Human Immunodeficiency Virus), Genital herpes (Herpes Simplex Virus type 2)",
     "options": [
-     "Male condom and female condom (or diaphragm/cervical cap); they act by physically preventing sperm from entering the uterus and reaching the egg",
-     "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels/pistils)",
+     "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete)",
+     "The student can classify at least five common STIs by their causative agent (bacterial, viral, parasitic), explain the specific transmission route for each",
      "Bacterial: Gonorrhea (Neisseria gonorrhoeae), Syphilis (Treponema pallidum). Viral: HIV/AIDS (Human Immunodeficiency Virus), Genital herpes (Herpes Simplex Virus type 2)"
     ],
     "hint": "Straight from the 'Sexually Transmitted Infections' slide -- match the key terms.",
@@ -1625,7 +1625,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "The test detects hCG in urine, secreted by the trophoblast cells of the implanting blastocyst (later by the placenta)",
      "The statement is false. Maternal and fetal blood do NOT mix; they are separated by the placental barrier (syncytiotrophoblast, basal lamina, fetal capillary endothelium)"
     ],
-    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals the student holds the common misconception of direct blood connection, missing the critical concept of a selective barrier.",
     "id": "gen_c9_bio_ch03_q11",
     "nodeId": "c9_bio_ch3_10",
@@ -1640,7 +1640,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "A good model: Draw one pair of homologous chromosomes (one maternal, one paternal), each replicated into two sister chromatids",
      "The test detects hCG in urine, secreted by the trophoblast cells of the implanting blastocyst (later by the placenta)"
     ],
-    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ovary\" or \"pituitary\") reveals confusion between maternal and embryonic hormone sources.",
     "id": "gen_c9_bio_ch03_q12",
     "nodeId": "c9_bio_ch3_10",
@@ -1655,7 +1655,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Similarity: Both are prevented by consistent condom use and mutual monogamy with an uninfected partner",
      "Amniotic fluid provides mechanical protection (cushioning), temperature stability, allows fetal movement for musculoskeletal development, and prevents adhesion"
     ],
-    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates them (e.g., \"both provide nutrition\") reveals the student cannot separate physical protection from physiological exchange — a key board-level distinction.",
     "id": "gen_c9_bio_ch03_q13",
     "nodeId": "c9_bio_ch3_10",
@@ -1666,11 +1666,11 @@ export const C9_BIO_GEN: SimDef[] = [
     "question": "Define the term \"blastocyst\" and state its significance in human pregnancy.",
     "answer": "A blastocyst is a hollow ball of cells formed around day 5-6 after fertilization, consisting of an outer trophoblast layer and an inner cell mass",
     "options": [
+     "Bacterial: Gonorrhea (Neisseria gonorrhoeae), Syphilis (Treponema pallidum). Viral: HIV/AIDS (Human Immunodeficiency Virus), Genital herpes (Herpes Simplex Virus type 2)",
      "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels/pistils)",
-     "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete)",
      "A blastocyst is a hollow ball of cells formed around day 5-6 after fertilization, consisting of an outer trophoblast layer and an inner cell mass"
     ],
-    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it a \"fertilized egg\" or \"morula\") reveals the student cannot distinguish pre-implantation stages or understand that implantation requires a specific structural stage with trophoblast cells capable of invading the endometrium.",
     "id": "gen_c9_bio_ch03_q14",
     "nodeId": "c9_bio_ch3_10",
@@ -1685,7 +1685,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "A good model: Draw one pair of homologous chromosomes (one maternal, one paternal), each replicated into two sister chromatids",
      "A good answer includes: Week 1: fertilization → zygote → cleavage → morula → blastocyst; Week 2: implantation begins; Week 3: gastrulation, neural plate forms"
     ],
-    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
     "misconception": "A poor answer (random events, wrong sequence) reveals inability to organize developmental chronology — a skill tested in board diagram-labeling questions.",
     "id": "gen_c9_bio_ch03_q15",
     "nodeId": "c9_bio_ch3_10",
@@ -1693,47 +1693,47 @@ export const C9_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why does the corpus luteum degenerate if pregnancy does not occur, but persist and enlarge if implantation succeeds?",
-    "answer": "Without pregnancy, the corpus luteum degenerates due to falling LH levels, causing progesterone drop and menstruation",
+    "question": "What common mix-up does this lesson flag about Pregnancy?",
+    "answer": "Students believe the embryo \"breathes\" and \"eats\" like a newborn — i.e., that the fetus uses its lungs for gas exchange and its gut for digestion during pregnancy",
     "options": [
-     "The statement is false. A negative test in the first trimester only rules out infection *before* that test",
-     "The claim is false. Two biological advantages: (1) Disease elimination: Banana is propagated vegetatively, so viral/fungal pathogens accumulate in suckers/cuttings",
-     "Without pregnancy, the corpus luteum degenerates due to falling LH levels, causing progesterone drop and menstruation"
+     "Male condom and female condom (or diaphragm/cervical cap); they act by physically preventing sperm from entering the uterus and reaching the egg",
+     "The student can classify at least five common STIs by their causative agent (bacterial, viral, parasitic), explain the specific transmission route for each",
+     "Students believe the embryo \"breathes\" and \"eats\" like a newborn — i.e., that the fetus uses its lungs for gas exchange and its gut for digestion during pregnancy"
     ],
-    "hint": "Straight from the 'Pregnancy' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"progesterone maintains itself\") reveals the student misses the critical embryonic signal (hCG) that establishes maternal-fetal endocrine communication.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe the embryo \"breathes\" and \"eats\" like a newborn — i.",
     "id": "gen_c9_bio_ch03_q16",
     "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A 28-year-old woman wants a long-term, reversible contraceptive that does not require daily action and has minimal hormonal side effects. Which method would you recommend and why?",
-    "answer": "Copper-T (Cu-T) intrauterine device — it releases copper ions that are toxic to sperm, preventing fertilization, lasts 5–10 years, is reversible upon removal",
+    "question": "What is Pregnancy? State the definition given in this lesson.",
+    "answer": "Pregnancy is the physiological state in a female mammal beginning from the implantation of a blastocyst in the uterine wall and continuing through embryonic and fetal development",
     "options": [
-     "The claim is incorrect. Cucumber is monoecious — it bears separate male and female flowers on the same plant",
-     "Steps: 1) Collect 5-6 fresh flowers each of tomato, brinjal, chilli, pumpkin. 2) Dissect each under a hand lens: check presence/absence of all four whorls (complete = all four",
-     "Copper-T (Cu-T) intrauterine device — it releases copper ions that are toxic to sperm, preventing fertilization, lasts 5–10 years, is reversible upon removal"
+     "The student can label all four whorls in a longitudinal section of a typical bisexual flower (e.g., hibiscus, mustard), explain the function of each part in sexual reproduction",
+     "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete)",
+     "Pregnancy is the physiological state in a female mammal beginning from the implantation of a blastocyst in the uterine wall and continuing through embryonic and fetal development"
     ],
-    "hint": "Straight from the 'Contraception' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"oral pills\" or \"condom\" fails to match the criteria (long-term, reversible, non-hormonal, low user-dependence), showing inability to apply method characteristics to user needs.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Pregnancy is the physiological state in a female mammal beginning from the implantation of a blastocyst in the uterine",
     "id": "gen_c9_bio_ch03_q17",
-    "nodeId": "c9_bio_ch3_11",
+    "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A student argues: \"Emergency contraceptive pills (ECPs) can be used as regular contraception because they also prevent pregnancy.\" Evaluate this statement.",
-    "answer": "The statement is incorrect. ECPs contain high-dose progestin/anti-progestin to delay ovulation or prevent implantation after unprotected intercourse",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can sequence the stages of human embryonic development from fertilization to birth with correct terminology and timeframes",
     "options": [
-     "The statement is false. Maternal and fetal blood do NOT mix; they are separated by the placental barrier (syncytiotrophoblast, basal lamina, fetal capillary endothelium)",
-     "Seed propagation involves sexual reproduction: meiosis creates genetically unique gametes, and fertilization combines alleles from two parents (the prized tree and an unknown",
-     "The statement is incorrect. ECPs contain high-dose progestin/anti-progestin to delay ovulation or prevent implantation after unprotected intercourse"
+     "Student can classify contraceptive methods into barrier, hormonal, intrauterine, surgical, and natural categories, explain the mechanism of action for each category",
+     "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels/pistils)",
+     "The student can sequence the stages of human embryonic development from fertilization to birth with correct terminology and timeframes"
     ],
-    "hint": "Straight from the 'Contraception' slide -- match the key terms.",
-    "misconception": "A wrong agreement shows inability to distinguish emergency vs. routine use based on mechanism, efficacy, and safety profile.",
+    "hint": "Straight from the 'Pregnancy is the physiological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can sequence the stages of human embryonic development from fertilization to birth with correct terminology",
     "id": "gen_c9_bio_ch03_q18",
-    "nodeId": "c9_bio_ch3_11",
+    "nodeId": "c9_bio_ch3_10",
     "difficulty": "standard"
    }
   ],
@@ -1749,14 +1749,14 @@ export const C9_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_bio_ch04",
-  "title": "Evolution",
+  "title": "Evolution Is The Gradual",
   "subtitle": "Biology · Chapter 4",
   "classLevel": 9,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Evolution",
+  "topic": "Evolution Is The Gradual",
   "chapters": [
-   "Biology Ch4: Evolution"
+   "Biology Ch4: Evolution Is The Gradual"
   ],
   "nodeIds": [
    "c9_bio_ch4_2",
@@ -1776,7 +1776,7 @@ export const C9_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Evolution more about facts, or about reasoning?",
+   "question": "Is Evolution Is The Gradual more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -1787,13 +1787,13 @@ export const C9_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Evolution",
+    "title": "Evolution Is The Gradual",
     "text": "Evolution is the gradual, cumulative change in the heritable characteristics of populations of organisms over successive generations, driven by mechanisms such as natural selection, genetic drift, and mutation, resulting in the diversity of life observed",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Classification",
+    "title": "Classification Is The Scientific Process",
     "text": "Classification is the scientific process of grouping living organisms into hierarchical categories based on shared characteristics and evolutionary relationships, enabling systematic study, identification, and communication about the vast diversity of life.",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1811,7 +1811,7 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Adaptation",
+    "title": "Adaptation Is a Heritable Structural",
     "text": "Adaptation is a heritable structural, behavioural, or physiological trait that enhances an organism's ability to survive and reproduce in its specific environment.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1829,13 +1829,13 @@ export const C9_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Fossils",
+    "title": "Fossils Are The Preserved Remains",
     "text": "Fossils are the preserved remains, impressions, or traces of once-living organisms from past geological ages, typically embedded in sedimentary rock, that provide direct physical evidence of evolutionary history and past biodiversity.",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Extinction",
+    "title": "Extinction Is The Irreversible Termination",
     "text": "Extinction is the irreversible termination of a species when the last living individual dies, resulting in the permanent loss of its unique genetic information and ecological role from the biosphere.",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2125,7 +2125,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
      "Mass nesting is a behavioural adaptation because it is an inherited, instinctive pattern of synchronous egg-laying by thousands of females"
     ],
-    "hint": "Straight from the 'Adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'Adaptation is a heritable' slide -- match the key terms.",
     "misconception": "A wrong answer that calls it \"a habit they learned\" or \"they gather for safety\" reveals a misunderstanding that behavioural adaptations are genetically programmed, not learned, and misses the specific mechanism (predator satiation) that makes it adaptive.",
     "id": "gen_c9_bio_ch04_q5",
     "nodeId": "c9_bio_ch4_6",
@@ -2240,7 +2240,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "The shared genus *Panthera* indicates that lions and tigers belong to the same genus and are closely related evolutionarily, a relationship invisible in the common names",
      "In-situ (protected river stretches like National Chambal Sanctuary) preserves natural breeding behaviour, ecological interactions"
     ],
-    "hint": "Straight from the 'Extinction' slide -- match the key terms.",
+    "hint": "Straight from the 'Extinction is the irreversible' slide -- match the key terms.",
     "misconception": "A wrong answer favouring only one approach reveals inability to match strategy to threat: ex-situ buys time for critically small populations while in-situ addresses root causes; both needed for species with complex life cycles in degraded habitats.",
     "id": "gen_c9_bio_ch04_q9",
     "nodeId": "c9_bio_ch4_10",
@@ -2307,7 +2307,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
      "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins"
     ],
-    "hint": "Straight from the 'Evolution' slide -- match the key terms.",
+    "hint": "Straight from the 'Evolution is the gradual' slide -- match the key terms.",
     "misconception": "A poor answer only compares \"both used for flying,\" ignoring structural and developmental criteria.",
     "id": "gen_c9_bio_ch04_q11",
     "nodeId": "c9_bio_ch4_2",
@@ -2322,7 +2322,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Kingdom Protista. Step 1: Cell structure—presence of true nucleus → eukaryotic → excludes Monera. Step 2: Body organization—unicellular/acellular slime mold (plasmodium) →",
      "The shared pentadactyl limb pattern (one upper bone, two lower bones, wrist bones, five digits) across mammals and reptiles indicates inheritance from a common ancestor that had"
     ],
-    "hint": "Straight from the 'Evolution' slide -- match the key terms.",
+    "hint": "Straight from the 'Evolution is the gradual' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"similarity proves common design\" misses the critical point: the *suboptimal* retention of the same bones for different functions (e.g., whale flipper bones not ideal for swimming) is strong evidence of historical constraint from common ancestry.",
     "id": "gen_c9_bio_ch04_q12",
     "nodeId": "c9_bio_ch4_2",
@@ -2337,7 +2337,7 @@ export const C9_BIO_GEN: SimDef[] = [
      "Yes, the statement is correct. International rules allow abbreviating the genus to its initial capital letter followed by a period once the full genus has been written in the same",
      "The hierarchy builds: (1) Sort items into broad groups by shared biological origin (2) Split each group into subgroups by plant part or family (3) Name every level after its"
     ],
-    "hint": "Straight from the 'Classification' slide -- match the key terms.",
+    "hint": "Straight from the 'Classification is the scientific' slide -- match the key terms.",
     "misconception": "A wrong answer that mixes culinary use with biological origin, or lets an item sit in two subgroups, shows the student has not grasped that classification imposes a single consistent hierarchy that supports identification, communication and the study of relationships among organisms.",
     "id": "gen_c9_bio_ch04_q13",
     "nodeId": "c9_bio_ch4_3",
@@ -2421,11 +2421,11 @@ export const C9_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about evolution?",
+    "What surprised you about evolution is the gradual?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Evolution mastered! 🎯",
+  "successLine": "Evolution Is The Gradual mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

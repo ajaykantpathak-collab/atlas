@@ -1416,7 +1416,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-xl bg-gradient-to-tr from-emerald-600 to-indigo-600 flex items-center justify-center text-2xl shadow-lg shadow-emerald-950"
+            className="w-12 h-12 rounded-xl bg-gradient-to-tr from-emerald-600 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-emerald-950"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1457,14 +1457,14 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
           exit={{ opacity: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/40">
-            <div className="flex items-center gap-2 text-indigo-400 font-semibold mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/40">
+            <div className="flex items-center gap-2 text-gold-400 font-semibold mb-2">
               <span>🌾</span>
               <span>Case Scenario Hook: 2022 Vidarbha & Pune</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-200">
               ⚡ <strong>Your Role:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1489,7 +1489,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/40 border-slate-700/50 text-slate-400 opacity-60'
-                      : 'bg-slate-800/90 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800/90 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <div className="flex items-start gap-2">
@@ -1548,7 +1548,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                 }}
                 className={`px-3 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all flex items-center gap-1.5 ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-950'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-950'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1594,9 +1594,9 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700/50 mb-4"
+                      className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700/50 mb-4"
                     >
-                      <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">Predict First</span>
+                      <span className="text-xs font-bold uppercase tracking-wider text-gold-300">Predict First</span>
                       <p className="text-sm text-white font-medium mt-1 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1605,7 +1605,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-2.5 text-left rounded-xl bg-slate-900 border border-indigo-800/60 hover:border-indigo-400 text-xs text-slate-200"
+                            className="p-2.5 text-left rounded-xl bg-slate-900 border border-gold-800/60 hover:border-gold-400 text-xs text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1770,13 +1770,13 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       onClick={() => handleSelectAgent('producer')}
                       className={`p-4 rounded-2xl border cursor-pointer transition-all ${
                         selectedAgent === 'producer'
-                          ? 'bg-indigo-950/60 border-indigo-500 ring-2 ring-indigo-500/30'
+                          ? 'bg-gold-950/60 border-gold-500 ring-2 ring-gold-500/30'
                           : 'bg-slate-950 border-slate-800'
                       }`}
                     >
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-xl">🏭</span>
-                        <span className="text-xs px-2 py-0.5 rounded font-bold bg-indigo-500/20 text-indigo-400">
+                        <span className="text-xs px-2 py-0.5 rounded font-bold bg-gold-500/20 text-gold-400">
                           PRICE-MAKER GAINS
                         </span>
                       </div>
@@ -1784,7 +1784,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       <p className="text-[11px] text-slate-400 mt-1">Petrochemical Refineries</p>
                       <div className="mt-3 pt-2 border-t border-slate-800 text-xs">
                         <span className="text-slate-400">Inventory Effect:</span>
-                        <p className="font-mono font-bold text-sm text-indigo-300">Appreciation Gain</p>
+                        <p className="font-mono font-bold text-sm text-gold-300">Appreciation Gain</p>
                       </div>
                     </motion.div>
                   </div>
@@ -1888,7 +1888,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       </h4>
                       <div className="space-y-3 text-xs">
                         <div className="p-2.5 rounded-lg bg-slate-950 border border-slate-800">
-                          <span className="font-bold text-indigo-400">1. Agency Functions:</span>
+                          <span className="font-bold text-gold-400">1. Agency Functions:</span>
                           <p className="text-slate-300 text-[11px] mt-0.5">
                             Collecting dividend cheques, auto-debit of electricity bills/SIPs, executing standing instructions, acting as trustee/executor.
                           </p>
@@ -1917,7 +1917,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 bg-slate-950 rounded-2xl border border-slate-800">
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
-                        <span className="font-semibold text-indigo-400">Initial Cash Deposit (₹):</span>
+                        <span className="font-semibold text-gold-400">Initial Cash Deposit (₹):</span>
                         <span className="font-mono font-bold text-white">₹{initialCashDeposit.toLocaleString()}</span>
                       </div>
                       <input
@@ -1931,7 +1931,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                           audioManager.play('count');
                         }}
                         aria-label="Set Initial Cash Deposit"
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1980,7 +1980,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     <div className="p-3.5 bg-slate-950 rounded-2xl border border-slate-800">
                       <span className="text-[11px] text-slate-400">Total Reserve (CRR+SLR):</span>
-                      <p className="text-lg font-mono font-bold text-indigo-400">{(crrPercent + slrPercent).toFixed(1)}%</p>
+                      <p className="text-lg font-mono font-bold text-gold-400">{(crrPercent + slrPercent).toFixed(1)}%</p>
                     </div>
                     <div className="p-3.5 bg-slate-950 rounded-2xl border border-slate-800">
                       <span className="text-[11px] text-slate-400">Credit Multiplier:</span>
@@ -2082,7 +2082,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                         whileHover={{ y: -3 }}
                         className="p-3 bg-slate-950 rounded-2xl border border-slate-800 text-center flex flex-col justify-between"
                       >
-                        <div className="text-xs text-indigo-400 font-bold mb-1">Step {pipe.step}</div>
+                        <div className="text-xs text-gold-400 font-bold mb-1">Step {pipe.step}</div>
                         <div className="text-xl my-1">{pipe.icon}</div>
                         <div className="text-[11px] text-slate-300 font-medium">{pipe.title}</div>
                         <div className="mt-2 text-xs font-mono font-bold text-emerald-400 bg-slate-900 py-1 rounded-lg">
@@ -2131,7 +2131,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       }}
                       className={`flex-1 py-2 rounded-xl text-xs font-bold transition-all ${
                         selectedToolCategory === 'quantitative'
-                          ? 'bg-indigo-600 text-white shadow-md'
+                          ? 'bg-gold-600 text-white shadow-md'
                           : 'text-slate-400 hover:text-white'
                       }`}
                     >
@@ -2169,7 +2169,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                           className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col justify-between"
                         >
                           <div>
-                            <h4 className="text-xs font-bold text-indigo-300">{tool.name}</h4>
+                            <h4 className="text-xs font-bold text-gold-300">{tool.name}</h4>
                             <p className="text-[11px] text-slate-400 mt-1 leading-snug">{tool.desc}</p>
                           </div>
                           <div className="mt-3 text-[10px] font-semibold text-emerald-400 bg-slate-900 p-1.5 rounded-lg">
@@ -2236,7 +2236,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-lg shadow-indigo-950"
+                className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-lg shadow-gold-950"
               >
                 Next Lab →
               </motion.button>
@@ -2279,7 +2279,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-400">1. Inflation vs Fixed Incomes & Loans</h3>
+              <h3 className="text-sm font-bold text-gold-400">1. Inflation vs Fixed Incomes & Loans</h3>
               <div>
                 <label className="text-xs text-slate-400 flex justify-between">
                   <span>Inflation Rate:</span>
@@ -2390,7 +2390,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                     ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
-                    : 'bg-indigo-500/20 text-indigo-400 border-indigo-500/40'
+                    : 'bg-gold-500/20 text-gold-400 border-gold-500/40'
                 }`}
               >
                 {difficulty} Tier
@@ -2403,7 +2403,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
 
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2440,7 +2440,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                           ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
                           : wrongFlash
                           ? 'bg-rose-900/40 border-rose-500 text-rose-200'
-                          : 'bg-slate-950 border-slate-800 hover:border-indigo-500 text-slate-200'
+                          : 'bg-slate-950 border-slate-800 hover:border-gold-500 text-slate-200'
                       }`}
                     >
                       <div className="flex items-start gap-2.5">
@@ -2468,7 +2468,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag role ${item.label}`}
-                      className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2538,7 +2538,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       aria-label={`Step ${displayIdx + 1}: ${item}`}
                       className="p-3.5 bg-slate-950 rounded-2xl border border-slate-800 flex items-center gap-3 cursor-grab text-xs font-medium text-slate-200"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-400 flex items-center justify-center font-mono font-bold shrink-0">
+                      <span className="w-6 h-6 rounded-lg bg-gold-950 text-gold-400 flex items-center justify-center font-mono font-bold shrink-0">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2557,7 +2557,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence →
                 </motion.button>
@@ -2574,7 +2574,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
                     aria-label="Numerical answer input"
-                    className="px-4 py-3 bg-slate-950 rounded-2xl border border-slate-800 text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 rounded-2xl border border-slate-800 text-white font-mono text-base focus:border-gold-500 focus:outline-none w-64"
                   />
                   <span className="text-sm font-bold text-slate-400 font-mono">{activeChallenge.unit}</span>
                   <motion.button
@@ -2601,7 +2601,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add component ${part}`}
-                      className="px-3 py-2 bg-slate-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-medium border border-slate-700"
+                      className="px-3 py-2 bg-slate-800 hover:bg-gold-700 text-white rounded-xl text-xs font-medium border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2614,7 +2614,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                     {constructParts.map((part, idx) => (
                       <span
                         key={idx}
-                        className="px-3 py-1 bg-indigo-900/80 text-indigo-200 rounded-lg text-xs font-bold flex items-center gap-2 border border-indigo-700"
+                        className="px-3 py-1 bg-gold-900/80 text-gold-200 rounded-lg text-xs font-bold flex items-center gap-2 border border-gold-700"
                       >
                         {part}
                         <button
@@ -2711,7 +2711,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
               <span className="px-4 py-1.5 rounded-full bg-slate-900 border border-slate-700 text-emerald-400 font-bold">
                 Final Score: {Math.max(0, 100 - errors * 5)}%
               </span>
-              <span className="px-4 py-1.5 rounded-full bg-slate-900 border border-slate-700 text-indigo-300 font-bold">
+              <span className="px-4 py-1.5 rounded-full bg-slate-900 border border-slate-700 text-gold-300 font-bold">
                 Mastery: {masteryLevel.toUpperCase()}
               </span>
             </div>
@@ -2725,9 +2725,9 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
           </div>
 
           {/* ── MANDATORY REFLECTION SECTION ─────────────────────────────────── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-700/50 space-y-6 shadow-xl">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-700/50 space-y-6 shadow-xl">
             <div className="flex items-center gap-3">
-              <span className="w-10 h-10 rounded-xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-xl">
+              <span className="w-10 h-10 rounded-xl bg-gold-600/30 border border-gold-500/40 flex items-center justify-center text-xl">
                 💭
               </span>
               <div>
@@ -2750,7 +2750,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., How borrowers/debtors actually benefit when inflation runs hotter than nominal loan interest..."
                   rows={2}
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2793,7 +2793,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                     audioManager.play('success');
                     speechManager.speak('Thank you for your thoughtful reflections! Your conceptual synthesis is complete.');
                   }}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-500 to-teal-500 text-slate-950 font-bold rounded-xl text-xs shadow-md shadow-indigo-950"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-teal-500 text-slate-950 font-bold rounded-xl text-xs shadow-md shadow-gold-950"
                 >
                   Save Reflection & Insights ✓
                 </motion.button>
@@ -2872,7 +2872,7 @@ function C10_EconApplicationsEffectsInflationDebtorsSim({
                 setErrors(0);
                 audioManager.play('whoosh');
               }}
-              className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-indigo-950"
+              className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-gold-950"
             >
               Re-explore Labs & Simulations ↺
             </motion.button>

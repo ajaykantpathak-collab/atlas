@@ -1267,7 +1267,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty.toUpperCase()}
@@ -1279,13 +1279,13 @@ export function C10_BiologyPollutionTypesSourcesSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
           {/* Narrative Scenario Box */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-inner">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-extrabold uppercase tracking-widest mb-1">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-inner">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-extrabold uppercase tracking-widest mb-1">
               <span>🌿 Investigation Scenario</span>
             </div>
             <h2 className="text-lg md:text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 bg-indigo-950/40 p-2.5 rounded-xl border border-indigo-900/50">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 bg-gold-950/40 p-2.5 rounded-xl border border-gold-900/50">{SCENARIO.context}</p>
           </div>
 
           {/* Low-Stakes Discovery Question */}
@@ -1309,7 +1309,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                       : 'bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-xs mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-mono text-xs mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1360,7 +1360,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
-                  className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-xs font-bold rounded-lg text-white"
+                  className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-xs font-bold rounded-lg text-white"
                 >
                   Next Lab &rarr;
                 </motion.button>
@@ -1398,8 +1398,8 @@ export function C10_BiologyPollutionTypesSourcesSim({
                 <div className="space-y-4">
                   {/* Predict Then Check */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl">
-                      <p className="text-xs font-bold text-indigo-300 uppercase mb-1">Step 1: Scientific Prediction</p>
+                    <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl">
+                      <p className="text-xs font-bold text-gold-300 uppercase mb-1">Step 1: Scientific Prediction</p>
                       <p className="text-sm text-white font-medium mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1408,7 +1408,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 text-left bg-slate-800/90 hover:bg-indigo-900/60 rounded-xl text-xs text-slate-200 border border-slate-700"
+                            className="p-3 text-left bg-slate-800/90 hover:bg-gold-900/60 rounded-xl text-xs text-slate-200 border border-slate-700"
                           >
                             {opt}
                           </motion.button>
@@ -1598,7 +1598,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
                     {[
                       { level: 1, name: 'T1: Producers', organism: 'Grass & Phytoplankton', energy: '10,000 kJ', ddt: '0.04 ppm', color: 'border-emerald-600 bg-emerald-950/40' },
-                      { level: 2, name: 'T2: Herbivores', organism: 'Grasshoppers & Zooplankton', energy: '1,000 kJ', ddt: '0.5 ppm', color: 'border-blue-600 bg-blue-950/40' },
+                      { level: 2, name: 'T2: Herbivores', organism: 'Grasshoppers & Zooplankton', energy: '1,000 kJ', ddt: '0.5 ppm', color: 'border-gold-600 bg-gold-950/40' },
                       { level: 3, name: 'T3: Carnivores', organism: 'Frogs & Small Fish', energy: '100 kJ', ddt: '2.0 ppm', color: 'border-amber-600 bg-amber-950/40' },
                       { level: 4, name: 'T4: Apex Predator', organism: 'Hawks & Bengal Tigers', energy: '10 kJ', ddt: '25.0 ppm', color: 'border-rose-600 bg-rose-950/40' },
                     ].map(t => (
@@ -1622,7 +1622,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <span className="font-bold text-indigo-400">Lindeman 10% Law in Action:</span> At each step, 90% of energy is lost as metabolic heat (respiration & locomotion). In contrast, persistent lipophilic poisons like DDT cannot be broken down, concentrating higher at each level (Biomagnification).
+                    <span className="font-bold text-gold-400">Lindeman 10% Law in Action:</span> At each step, 90% of energy is lost as metabolic heat (respiration & locomotion). In contrast, persistent lipophilic poisons like DDT cannot be broken down, concentrating higher at each level (Biomagnification).
                   </div>
                 </div>
               )}
@@ -1699,7 +1699,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <span className="font-bold text-indigo-400">GEAC Regulation:</span> The Genetic Engineering Appraisal Committee (GEAC) under MoEFCC regulates GM crops in India to prevent weed gene flow and protect non-target beneficial pollinators.
+                    <span className="font-bold text-gold-400">GEAC Regulation:</span> The Genetic Engineering Appraisal Committee (GEAC) under MoEFCC regulates GM crops in India to prevent weed gene flow and protect non-target beneficial pollinators.
                   </div>
                 </div>
               )}
@@ -1787,7 +1787,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-300 font-semibold">T1 Producer Solar Energy:</span>
-                  <span className="text-indigo-400 font-mono">{biomassFactor} kJ</span>
+                  <span className="text-gold-400 font-mono">{biomassFactor} kJ</span>
                 </div>
                 <input
                   type="range"
@@ -1800,7 +1800,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                     setBiomassFactor(val);
                     handleBiomassSlider(val);
                   }}
-                  className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
+                  className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                 />
                 <div className="flex justify-between text-xs text-slate-400 pt-1">
                   <span>Apex Tiger Energy: <strong className="text-white">{(biomassFactor * 0.001).toFixed(1)} kJ</strong></span>
@@ -1817,7 +1817,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
           {/* Progress & Difficulty Header */}
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-mono font-bold text-indigo-400">
+              <span className="text-xs font-mono font-bold text-gold-400">
                 QUESTION {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
               <h3 className="text-sm md:text-base font-bold text-white flex items-center gap-2 mt-0.5">
@@ -1859,7 +1859,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                         : 'bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-xs mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-mono text-xs mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1877,7 +1877,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1931,7 +1931,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="font-mono text-indigo-400 font-bold">{displayIdx + 1}.</span>
+                      <span className="font-mono text-gold-400 font-bold">{displayIdx + 1}.</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -1982,7 +1982,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-xl text-xs font-semibold text-white shadow"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-xl text-xs font-semibold text-white shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2012,8 +2012,8 @@ export function C10_BiologyPollutionTypesSourcesSim({
 
             {/* Progressive Step-by-Step Explanation Reveal */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-5 bg-gradient-to-br from-indigo-950/40 to-slate-900 border border-indigo-800/80 rounded-2xl space-y-3">
-                <h4 className="text-xs font-extrabold text-indigo-300 uppercase tracking-wider">Step-by-Step Biological Explanation:</h4>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-5 bg-gradient-to-br from-gold-950/40 to-slate-900 border border-gold-800/80 rounded-2xl space-y-3">
+                <h4 className="text-xs font-extrabold text-gold-300 uppercase tracking-wider">Step-by-Step Biological Explanation:</h4>
                 <div className="space-y-2">
                   {challenge.explanation
                     .split('. ')
@@ -2031,7 +2031,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Show next step &rarr;
                   </motion.button>
@@ -2086,14 +2086,14 @@ export function C10_BiologyPollutionTypesSourcesSim({
             )}
 
             {/* Spaced Repetition (SRS) Prominent Notification */}
-            <div className="p-5 bg-indigo-950/70 border-2 border-indigo-500/80 rounded-2xl max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-left shadow-lg">
+            <div className="p-5 bg-gold-950/70 border-2 border-gold-500/80 rounded-2xl max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-left shadow-lg">
               <div className="flex items-center gap-3.5">
-                <div className="w-11 h-11 rounded-xl bg-indigo-900 border border-indigo-400 flex items-center justify-center text-xl shrink-0 shadow-inner">
+                <div className="w-11 h-11 rounded-xl bg-gold-900 border border-gold-400 flex items-center justify-center text-xl shrink-0 shadow-inner">
                   📅
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <p className="text-xs font-extrabold text-indigo-300 uppercase tracking-wider">Spaced Repetition Schedule (SRS)</p>
+                    <p className="text-xs font-extrabold text-gold-300 uppercase tracking-wider">Spaced Repetition Schedule (SRS)</p>
                     <span className="px-2 py-0.5 bg-emerald-950 border border-emerald-600 text-emerald-300 text-[10px] font-bold rounded-md">Optimal Retention</span>
                   </div>
                   <p className="text-sm font-bold text-white mt-0.5">
@@ -2103,13 +2103,13 @@ export function C10_BiologyPollutionTypesSourcesSim({
                       ? 'Review in 3 days (1-3 errors — Consolidating concepts)'
                       : 'Review in 1 day (4+ errors — Active remediation needed)'}
                   </p>
-                  <p className="text-xs text-indigo-200/80 mt-1">
+                  <p className="text-xs text-gold-200/80 mt-1">
                     Your next spaced review is scheduled in <strong className="text-amber-300 underline underline-offset-2">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to lock in permanent neural recall for the ICSE Board Exam.
                   </p>
                 </div>
               </div>
-              <div className="shrink-0 px-4 py-2 bg-indigo-900/90 border border-indigo-400/60 rounded-xl text-center">
-                <span className="text-[10px] uppercase font-bold text-indigo-300 block">Next Review</span>
+              <div className="shrink-0 px-4 py-2 bg-gold-900/90 border border-gold-400/60 rounded-xl text-center">
+                <span className="text-[10px] uppercase font-bold text-gold-300 block">Next Review</span>
                 <span className="text-sm font-black text-amber-300 font-mono">
                   {errors === 0 ? 'in 7 days' : errors <= 3 ? 'in 3 days' : 'in 1 day'}
                 </span>
@@ -2120,7 +2120,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
             <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 text-left space-y-4 max-w-3xl mx-auto">
               <div className="flex items-center gap-2">
                 <span className="text-xl">💭</span>
-                <h3 className="text-base font-bold text-indigo-300">Metacognitive Reflection</h3>
+                <h3 className="text-base font-bold text-gold-300">Metacognitive Reflection</h3>
               </div>
               <p className="text-xs text-slate-400">Taking a moment to synthesize your understanding solidifies long-term neural recall.</p>
 
@@ -2144,7 +2144,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={handleReflectionSubmit}
-                  className="mt-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="mt-2 px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Save Reflection Notes &rarr;
                 </motion.button>
@@ -2157,7 +2157,7 @@ export function C10_BiologyPollutionTypesSourcesSim({
 
             {/* Real World Activity */}
             <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 text-left space-y-3 max-w-3xl mx-auto">
-              <h4 className="text-sm font-bold text-indigo-300">📋 {REAL_WORLD_ACTIVITY.title}</h4>
+              <h4 className="text-sm font-bold text-gold-300">📋 {REAL_WORLD_ACTIVITY.title}</h4>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 pt-1 text-xs text-slate-400">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

@@ -1136,14 +1136,14 @@ export default function C9_PhysicsWeightMassComparisonSim({
       <div className="mb-6 flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4">
         <div className="flex items-center gap-3">
           <motion.span 
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner"
             whileHover={{ rotate: 15, scale: 1.1 }}
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-semibold uppercase tracking-wider">CISCE Class 9 Physics • High-Fidelity Multi-System Simulation</p>
+            <p className="text-xs text-gold-400 font-semibold uppercase tracking-wider">CISCE Class 9 Physics • High-Fidelity Multi-System Simulation</p>
           </div>
         </div>
 
@@ -1163,7 +1163,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
               className={`px-3 py-1 rounded-full text-xs font-black tracking-wider uppercase border ${
                 difficulty === 'foundation' ? 'bg-emerald-950/80 border-emerald-500 text-emerald-400' :
                 difficulty === 'advanced' ? 'bg-rose-950/80 border-rose-500 text-rose-400' :
-                'bg-cyan-950/80 border-cyan-500 text-cyan-400'
+                'bg-gold-950/80 border-gold-500 text-gold-400'
               }`}
             >
               {difficulty} TIER
@@ -1175,12 +1175,12 @@ export default function C9_PhysicsWeightMassComparisonSim({
       {/* ─── 1. DISCOVERY PHASE ─────────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <h2 className="text-lg font-black text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <h2 className="text-lg font-black text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-gold-900/40 text-xs text-gold-200">
               <strong>Mission Context:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1228,7 +1228,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Guided Labs"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-black rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-black rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Guided Labs →
                 </motion.button>
@@ -1252,7 +1252,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                 aria-label={`Jump to lab step ${idx + 1}`}
                 className={`px-3 py-2 rounded-xl text-xs font-bold whitespace-nowrap border transition-all ${
                   currentSlide === idx 
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-md shadow-indigo-600/30' 
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md shadow-gold-600/30' 
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1295,7 +1295,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                           aria-label={`Select celestial environment ${body}`}
                           className={`p-3 rounded-xl text-xs font-black border transition-all ${
                             selectedBody === body 
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' 
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg' 
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1310,7 +1310,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Payload Mass (Matter quantity): {massValue} kg</span>
-                        <span className="text-indigo-400 font-mono">Constant everywhere</span>
+                        <span className="text-gold-400 font-mono">Constant everywhere</span>
                       </div>
                       <input
                         type="range"
@@ -1319,7 +1319,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                         value={massValue}
                         onChange={(e) => handleMassChange(Number(e.target.value))}
                         aria-label="Adjust payload mass in kg"
-                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
+                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                       />
                     </div>
 
@@ -1387,7 +1387,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                           aria-label={`Select test fluid ${fluid}`}
                           className={`flex-1 p-3 rounded-xl text-xs font-bold border transition-all ${
                             selectedFluid === fluid
-                              ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1402,7 +1402,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Submersion Depth (h): {fluidDepth} m</span>
-                        <span className="text-cyan-400 font-mono">Formula: p = h · ρ · g</span>
+                        <span className="text-gold-400 font-mono">Formula: p = h · ρ · g</span>
                       </div>
                       <input
                         type="range"
@@ -1411,7 +1411,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                         value={fluidDepth}
                         onChange={(e) => handleDepthChange(Number(e.target.value))}
                         aria-label="Adjust depth in meters"
-                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-500"
+                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                       />
                     </div>
 
@@ -1422,15 +1422,15 @@ export default function C9_PhysicsWeightMassComparisonSim({
                       </div>
                       <div className="text-center">
                         <span className="text-xs text-slate-400 block">Depth (h)</span>
-                        <span className="text-base font-mono font-bold text-cyan-400">{fluidDepth} m</span>
+                        <span className="text-base font-mono font-bold text-gold-400">{fluidDepth} m</span>
                       </div>
                       <div className="text-center">
                         <span className="text-xs text-slate-400 block">Gravity (g)</span>
                         <span className="text-base font-mono font-bold text-white">9.8 m/s²</span>
                       </div>
-                      <div className="text-center bg-cyan-950/60 p-3 rounded-xl border border-cyan-800/60">
-                        <span className="text-xs text-cyan-300 font-bold block">Hydrostatic Gauge Pressure (p)</span>
-                        <span className="text-lg font-mono font-black text-cyan-200">{hydrostaticPressurePa.toLocaleString()} Pa</span>
+                      <div className="text-center bg-gold-950/60 p-3 rounded-xl border border-gold-800/60">
+                        <span className="text-xs text-gold-300 font-bold block">Hydrostatic Gauge Pressure (p)</span>
+                        <span className="text-lg font-mono font-black text-gold-200">{hydrostaticPressurePa.toLocaleString()} Pa</span>
                       </div>
                     </div>
                   </div>
@@ -1446,7 +1446,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                           type="range" min={5} max={100} value={inputForce}
                           onChange={(e) => setInputForce(Number(e.target.value))}
                           aria-label="Adjust input force F1"
-                          className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
+                          className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                         />
                       </div>
                       <div className="space-y-2">
@@ -1455,7 +1455,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                           type="range" min={50} max={500} step={25} value={piston2Area}
                           onChange={(e) => setPiston2Area(Number(e.target.value))}
                           aria-label="Adjust output piston area A2"
-                          className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
+                          className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1467,7 +1467,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                       </div>
                       <div>
                         <span className="text-xs text-slate-400 block">Magnification (A₂ / A₁)</span>
-                        <span className="text-sm font-mono font-bold text-indigo-400">{(piston2Area / piston1Area).toFixed(1)}×</span>
+                        <span className="text-sm font-mono font-bold text-gold-400">{(piston2Area / piston1Area).toFixed(1)}×</span>
                       </div>
                       <div>
                         <span className="text-xs text-slate-400 block">Output Force (F₂)</span>
@@ -1531,7 +1531,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                       </div>
                       <div className="text-center">
                         <span className="text-xs text-slate-400 block">360 / θ Ratio</span>
-                        <span className="text-lg font-mono font-bold text-indigo-400">{(360 / mirrorAngle).toFixed(1)}</span>
+                        <span className="text-lg font-mono font-bold text-gold-400">{(360 / mirrorAngle).toFixed(1)}</span>
                       </div>
                       <div className="text-center bg-pink-950/60 p-3 rounded-xl border border-pink-800/60">
                         <span className="text-xs text-pink-300 font-bold block">Distinct Images (n)</span>
@@ -1562,7 +1562,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
                     aria-label="Next Lab"
-                    className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow-md shadow-indigo-600/30"
+                    className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold text-white shadow-md shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1607,20 +1607,20 @@ export default function C9_PhysicsWeightMassComparisonSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Mechanics & Fluids Widget */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">1. Mechanics & Hydrostatic Fluid</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">1. Mechanics & Hydrostatic Fluid</span>
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <div>
                     <label className="text-slate-400 block">Mass: {massValue} kg</label>
-                    <input type="range" min={1} max={50} value={massValue} onChange={(e) => setMassValue(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={1} max={50} value={massValue} onChange={(e) => setMassValue(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-slate-400 block">Depth: {fluidDepth} m</label>
-                    <input type="range" min={1} max={30} value={fluidDepth} onChange={(e) => setFluidDepth(Number(e.target.value))} className="w-full accent-cyan-500" />
+                    <input type="range" min={1} max={30} value={fluidDepth} onChange={(e) => setFluidDepth(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
                 <div className="p-3 bg-slate-900 rounded-lg text-[11px] font-mono space-y-1">
                   <div className="flex justify-between"><span>Earth Weight (9.8 m/s²):</span><span className="text-amber-300">{(massValue * 9.8).toFixed(1)} N</span></div>
-                  <div className="flex justify-between"><span>Water Pressure at {fluidDepth}m:</span><span className="text-cyan-300">{(fluidDepth * 1000 * 9.8).toLocaleString()} Pa</span></div>
+                  <div className="flex justify-between"><span>Water Pressure at {fluidDepth}m:</span><span className="text-gold-300">{(fluidDepth * 1000 * 9.8).toLocaleString()} Pa</span></div>
                 </div>
               </div>
 
@@ -1656,7 +1656,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
             <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
             <div className="flex items-center gap-2">
               <span className="text-slate-500">Competency:</span>
-              <span className="text-indigo-400 uppercase bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-800/40">
+              <span className="text-gold-400 uppercase bg-gold-950/60 px-2 py-0.5 rounded border border-gold-800/40">
                 {challenge.competencyLevel}
               </span>
             </div>
@@ -1665,7 +1665,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-cyan-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1725,7 +1725,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1759,7 +1759,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Submit Drag Labels"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-black rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-black rounded-xl shadow"
                 >
                   Validate Labels →
                 </motion.button>
@@ -1786,7 +1786,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-800/90 hover:bg-slate-700/80 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-950 flex items-center justify-center text-indigo-400 font-bold border border-indigo-700/50">
+                    <span className="w-5 h-5 rounded-full bg-gold-950 flex items-center justify-center text-gold-400 font-bold border border-gold-700/50">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1799,7 +1799,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Submit Sorted Order"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-black rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-black rounded-xl shadow"
                 >
                   Check Sequence →
                 </motion.button>
@@ -1817,7 +1817,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Enter numeric answer"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -1826,7 +1826,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit numeric answer"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-black rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-black rounded-xl shadow"
                   >
                     Verify Calculation →
                   </motion.button>
@@ -1846,7 +1846,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAddConstructPart(part)}
                       aria-label={`Add component ${part}`}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-lg text-xs font-bold border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-bold border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -1859,7 +1859,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-700 rounded-lg text-xs font-bold flex items-center gap-2"
                     >
                       {part}
                       <button onClick={() => handleRemoveConstructPart(i)} className="text-rose-400 hover:text-rose-300">✕</button>
@@ -1876,7 +1876,7 @@ export default function C9_PhysicsWeightMassComparisonSim({
                   onClick={handleConstructSubmit}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Validate construct sequence"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-black rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-black rounded-xl shadow"
                 >
                   Verify Assembly →
                 </motion.button>
@@ -1983,14 +1983,14 @@ export default function C9_PhysicsWeightMassComparisonSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-black text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-black text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 flex items-center justify-center font-bold text-[10px] shrink-0 border border-indigo-700/50">
+                  <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 flex items-center justify-center font-bold text-[10px] shrink-0 border border-gold-700/50">
                     {i + 1}
                   </span>
                   <span>{st}</span>

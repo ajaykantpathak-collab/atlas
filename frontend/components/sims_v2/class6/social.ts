@@ -13,7 +13,7 @@ export const c6CivGovernment: SimDef = {
     classLevel: 6, subject: 'social', topic: 'Government',
     chapters: ['Civics Ch11-12: Government & Grassroots'],
     nodeIds: ['c6_civics_ch11_009','c6_civics_ch11_010','c6_civics_ch11_011','c6_civics_ch11_012','c6_civics_ch11_013','c6_civics_ch11_014','c6_civics_ch12_015','c6_civics_ch12_018','c6_civics_ch12_019','c6_civics_ch12_020','c6_civics_ch12_022'],
-    emoji: '🏛️', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'government' },
+    emoji: '🏛️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'government' },
     scenario: { role: "a young voter", intro: "India is a democracy — people elect leaders at village, state, and national levels.", goal: "Understand how government works." },
     discovery: {
         question: "Who chooses the leaders in a democracy?",
@@ -192,7 +192,7 @@ export const c6GeoClimate: SimDef = {
     classLevel: 6, subject: 'social', topic: 'Climate',
     chapters: ['Geography Ch2-3: Weather & Climate'],
     nodeIds: ['c6_geography_ch03_015','c6_geography_ch03_016','c6_geography_ch03_017','c6_geography_ch03_018','c6_geography_ch03_019'],
-    emoji: '🌦️', theme: { bg: 'from-sky-100 to-blue-200', accent: 'sky', scene: 'climate' },
+    emoji: '🌦️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'climate' },
     scenario: { role: "a weather-scientist", intro: "Weather changes daily; climate is the long-term pattern. India runs on the monsoon!", goal: "Understand weather, climate, and the monsoon." },
     discovery: {
         question: "Why does India get most of its rain in just a few months?",
@@ -306,7 +306,7 @@ export const c6HistEmpires: SimDef = {
     classLevel: 6, subject: 'social', topic: 'Indian Empires',
     chapters: ['History Ch5-9: Empires'],
     nodeIds: ['c6_history_ch05_007','c6_history_ch05_008','c6_history_ch05_009','c6_history_ch05_010','c6_history_ch05_011','c6_history_ch05_012','c6_history_ch05_013','c6_history_ch05_014','c6_history_ch09_034','c6_history_ch09_035','c6_history_ch09_036','c6_history_ch09_037','c6_history_ch09_038'],
-    emoji: '👑', theme: { bg: 'from-purple-100 to-violet-200', accent: 'purple', scene: 'empires' },
+    emoji: '👑', theme: { bg: 'from-purple-100 to-gold-200', accent: 'purple', scene: 'empires' },
     scenario: { role: "a history-chronicler", intro: "India saw great empires — Mauryas under Ashoka, the golden Guptas, and the mighty Mughals.", goal: "Trace India's great empires." },
     discovery: {
         question: "Emperor Ashoka won a terrible war, then gave up war forever. Why?",
@@ -682,7 +682,7 @@ export const c6GeoWeather: SimDef = {
     classLevel: 6, subject: 'social', topic: 'Weather',
     chapters: ['Geography Ch2: Weather'],
     nodeIds: ['c6_geography_ch02_008','c6_geography_ch02_009','c6_geography_ch02_011','c6_geography_ch02_012'],
-    emoji: '🌡️', theme: { bg: 'from-cyan-100 to-sky-200', accent: 'cyan', scene: 'weather' },
+    emoji: '🌡️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'weather' },
     scenario: { role: "a meteorologist", intro: "Weather is the day-to-day state of the air — temperature, rain, wind — and we measure it with instruments.", goal: "Understand weather and how we measure it." },
     discovery: {
         question: "Why do weather forecasters need to measure wind, rain, AND temperature — not just one?",
@@ -909,7 +909,7 @@ export const c6CivEconomy: SimDef = {
     classLevel: 6, subject: 'social', topic: 'Economic Activities',
     chapters: ['Civics Ch16: Economy'],
     nodeIds: [],
-    emoji: '💼', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'economy' },
+    emoji: '💼', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'economy' },
     scenario: { role: "a young economist", intro: "People work to earn a living — economic activities produce goods and services, and workers have rights.", goal: "Understand economic activities and workers' rights." },
     discovery: {
         question: "A farmer, a teacher, and a shopkeeper all work — what do they have in common?",

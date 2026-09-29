@@ -11,7 +11,7 @@ export const w_c11_biotechnologynutrientmediawhitesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Cell Culture: Animal and Plant Cell Culture Techniques',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_12_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you need to produce a life-saving monoclonal antibody for cancer treatment — you cannot extract it.', goal: 'Master Cell Culture: Animal and Plant Cell Culture Techniques.' },
     discovery: {
         question: 'A student prepares MS medium for plant tissue culture but forgets to add agar. The medium remains liquid after autoclaving.',
@@ -20,7 +20,7 @@ export const w_c11_biotechnologynutrientmediawhitesim: SimDef = {
         hook: 'Students believe "animal cells need serum, plant cells need hormones" as a rigid dichotomy, leading to errors like: (1).',
     },
     teaching: [
-        { title: 'Cell culture is the laboratory technique of.', text: 'Cell culture is the laboratory technique of growing and maintaining animal or plant cells, tissues, or organs under controlled artificial conditions (aseptic environment, defined nutrient media,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Cell culture is the laboratory technique of.', text: 'Cell culture is the laboratory technique of growing and maintaining animal or plant cells, tissues, or organs under controlled artificial conditions (aseptic environment, defined nutrient media,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_12_011', title: 'Cell culture is the laboratory.',

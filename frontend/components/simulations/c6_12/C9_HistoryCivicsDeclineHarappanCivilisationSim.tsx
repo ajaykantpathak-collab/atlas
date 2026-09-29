@@ -1505,8 +1505,8 @@ function C9_HistoryCivicsDeclineHarappanCivilisationSim({
                     <motion.div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400">Classification of Sacred Ancient Literature:</h4>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="p-3 bg-indigo-950/40 rounded-lg border border-indigo-700/50">
-                          <p className="font-bold text-indigo-300 text-sm">Shruti ("That which is Heard")</p>
+                        <div className="p-3 bg-gold-950/40 rounded-lg border border-gold-700/50">
+                          <p className="font-bold text-gold-300 text-sm">Shruti ("That which is Heard")</p>
                           <p className="text-xs text-slate-300 mt-1">Divinely revealed to rishis; highest authority. Includes only the 4 Vedas and their 4 internal tiers.</p>
                         </div>
                         <div className="p-3 bg-purple-950/40 rounded-lg border border-purple-700/50">
@@ -1735,13 +1735,13 @@ function C9_HistoryCivicsDeclineHarappanCivilisationSim({
                         <p className="text-[10px] text-slate-400 italic">Note: Digambara sect rejects Angas as corrupted, relying on lost Purvas.</p>
                       </div>
 
-                      <div className="p-4 bg-slate-950 rounded-xl border border-blue-800/40 space-y-2">
+                      <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/40 space-y-2">
                         <div className="flex justify-between items-center">
-                          <span className="font-bold text-blue-300 text-sm">Tripitaka ("3 Baskets")</span>
-                          <span className="text-[10px] bg-blue-950 text-blue-400 px-2 py-0.5 rounded border border-blue-600/30">Buddhism (Pali Canon)</span>
+                          <span className="font-bold text-gold-300 text-sm">Tripitaka ("3 Baskets")</span>
+                          <span className="text-[10px] bg-gold-950 text-gold-400 px-2 py-0.5 rounded border border-gold-600/30">Buddhism (Pali Canon)</span>
                         </div>
                         <p className="text-xs text-slate-300 leading-relaxed">
-                          Compiled at the <span className="text-blue-400 font-semibold">First Council at Rajagriha (c. 483 BCE)</span> under Mahakassapa. Divided into:
+                          Compiled at the <span className="text-gold-400 font-semibold">First Council at Rajagriha (c. 483 BCE)</span> under Mahakassapa. Divided into:
                         </p>
                         <ul className="text-[11px] text-slate-300 space-y-1 list-disc list-inside">
                           <li><span className="text-white font-semibold">Sutta Pitaka:</span> Discourses & Dhammapada</li>
@@ -1940,7 +1940,7 @@ function C9_HistoryCivicsDeclineHarappanCivilisationSim({
                   <span className="text-[11px] font-mono text-slate-400 bg-slate-800 px-2 py-0.5 rounded">
                     {activeChallenge.nodeId}
                   </span>
-                  <span className="text-[11px] font-semibold text-sky-400 bg-sky-950/60 px-2 py-0.5 rounded border border-sky-600/30 uppercase">
+                  <span className="text-[11px] font-semibold text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded border border-gold-600/30 uppercase">
                     NEP: {activeChallenge.competencyLevel}
                   </span>
                 </div>
@@ -1964,7 +1964,7 @@ function C9_HistoryCivicsDeclineHarappanCivilisationSim({
               </div>
             </motion.div>
 
-            <div className="text-xs text-indigo-300 mt-1">
+            <div className="text-xs text-gold-300 mt-1">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -2192,7 +2192,7 @@ function C9_HistoryCivicsDeclineHarappanCivilisationSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 min-w-[120px]">
                   <p className="text-[11px] text-slate-400">Nodes Mastered</p>
-                  <p className="text-xl font-extrabold text-sky-400">10 / 10</p>
+                  <p className="text-xl font-extrabold text-gold-400">10 / 10</p>
                 </motion.div>
               </div>
             </motion.div>

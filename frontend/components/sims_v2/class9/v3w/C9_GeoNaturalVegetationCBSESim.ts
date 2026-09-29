@@ -11,11 +11,11 @@ export const w_c9_geonaturalvegetationcbsesim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Weathering: Physical, Chemical and Biological',
     chapters: [],
     nodeIds: ['c9_geo_ch1_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a hillside near Bengaluru in the Deccan Plateau and notice large, curved sheets.', goal: 'Master Weathering: Physical, Chemical and Biological.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Weathering is the in-situ breakdown and.', text: 'Weathering is the in-situ breakdown and decomposition of rocks and minerals at or near the Earth\'s surface through physical (mechanical), chemical, and biological processes, without significant.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Weathering is the in-situ breakdown and.', text: 'Weathering is the in-situ breakdown and decomposition of rocks and minerals at or near the Earth\'s surface through physical (mechanical), chemical, and biological processes, without significant.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch1_7', title: 'Weathering is the in-situ breakdown and.',

@@ -1469,7 +1469,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                       <div>
                         <div className="flex justify-between text-slate-300 font-semibold mb-1">
                           <span>Pluralist Associational Autonomy (Laski):</span>
-                          <span className="text-sky-400">{pluralistAutonomy}%</span>
+                          <span className="text-gold-400">{pluralistAutonomy}%</span>
                         </div>
                         <input
                           type="range"
@@ -1477,7 +1477,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                           max={100}
                           value={pluralistAutonomy}
                           onChange={(e) => setPluralistAutonomy(Number(e.target.value))}
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                           aria-label="Pluralist Autonomy Slider"
                         />
                       </div>
@@ -1699,7 +1699,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
                     {/* SVG Diagram 3: Isaiah Berlin Two Concepts of Liberty Spectrum */}
                     <div className="lg:col-span-6 bg-slate-950 p-4 rounded-2xl border border-slate-800">
-                      <p className="text-xs font-bold text-sky-400 mb-2">Two Dimensions of Freedom (Berlin Spectrum)</p>
+                      <p className="text-xs font-bold text-gold-400 mb-2">Two Dimensions of Freedom (Berlin Spectrum)</p>
                       <svg viewBox="0 0 400 200" className="w-full h-auto">
                         {/* Negative Liberty Zone */}
                         <rect x="20" y="20" width="170" height="160" rx="12" fill="#042f2e" stroke="#14b8a6" strokeWidth="2" />
@@ -1753,7 +1753,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                         <div>
                           <div className="flex justify-between font-bold text-slate-300 mb-1">
                             <span>Positive Liberty (Welfare & Capabilities):</span>
-                            <span className="text-indigo-400">{positiveLibertyLevel}%</span>
+                            <span className="text-gold-400">{positiveLibertyLevel}%</span>
                           </div>
                           <input
                             type="range"
@@ -1761,7 +1761,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                             max={100}
                             value={positiveLibertyLevel}
                             onChange={(e) => setPositiveLibertyLevel(Number(e.target.value))}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                       </div>
@@ -1773,7 +1773,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                         <div className="text-2xl font-black text-white mt-0.5">{capabilityIndex}/100</div>
                         <div className="w-full bg-slate-800 h-2.5 rounded-full mt-2 overflow-hidden">
                           <motion.div
-                            className="bg-gradient-to-r from-teal-500 to-indigo-500 h-full rounded-full"
+                            className="bg-gradient-to-r from-teal-500 to-gold-500 h-full rounded-full"
                             animate={{ width: `${capabilityIndex}%` }}
                           />
                         </div>
@@ -1787,7 +1787,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                         </div>
                         <div className="bg-slate-950 rounded-lg p-2 border border-slate-800 text-center">
                           <p className="text-[10px] text-slate-500">Citizens who can USE their freedom (of 100)</p>
-                          <p className="font-mono font-bold text-indigo-300">{positiveLibertyLevel} / 100 citizens</p>
+                          <p className="font-mono font-bold text-gold-300">{positiveLibertyLevel} / 100 citizens</p>
                         </div>
                       </div>
                       <p className="text-[11px] text-slate-500">
@@ -1811,9 +1811,9 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
               {currentSlide === 4 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* John Rawls Card */}
-                  <div className="p-5 bg-slate-950 rounded-2xl border border-indigo-900/50 space-y-3">
+                  <div className="p-5 bg-slate-950 rounded-2xl border border-gold-900/50 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                      <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                         John Rawls (A Theory of Justice)
                       </span>
                       <button
@@ -1823,7 +1823,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                         }}
                         className={
                           'px-3 py-1 text-xs font-bold rounded-lg border ' +
-                          (veilActive ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300')
+                          (veilActive ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300')
                         }
                       >
                         {veilActive ? 'Veil of Ignorance: ACTIVE' : 'Toggle Veil of Ignorance'}
@@ -1835,9 +1835,9 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                     </p>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1.5">
-                      <p className="text-indigo-300 font-bold">1. Liberty Principle:</p>
+                      <p className="text-gold-300 font-bold">1. Liberty Principle:</p>
                       <p className="text-slate-400">Equal basic liberties for all (lexical priority over wealth).</p>
-                      <p className="text-indigo-300 font-bold">2. Difference Principle:</p>
+                      <p className="text-gold-300 font-bold">2. Difference Principle:</p>
                       <p className="text-slate-400">
                         Inequalities permitted ONLY if they work to the maximum benefit of the least advantaged (e.g., MGNREGA / EWS / SC-ST provisions).
                       </p>
@@ -1927,7 +1927,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
-                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-sky-600 text-white text-xs font-bold rounded-xl shadow-lg"
+                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white text-xs font-bold rounded-xl shadow-lg"
                   >
                     Open Free Play Sandbox →
                   </motion.button>
@@ -2041,7 +2041,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
               {/* Progress Bar */}
               <div className="w-full sm:w-48 bg-slate-800 h-2.5 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-emerald-500 to-sky-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2341,7 +2341,7 @@ function C11_PoliticalScienceSovereigntyMeaningDefinitionSim({
               <div className="flex justify-center items-center gap-6 text-sm font-bold">
                 <span className="text-emerald-400">Score: {Math.max(0, 100 - errors * 5)}%</span>
                 <span className="text-slate-400">|</span>
-                <span className="text-sky-400">Mastery: {masteryLevel.toUpperCase()}</span>
+                <span className="text-gold-400">Mastery: {masteryLevel.toUpperCase()}</span>
                 <span className="text-slate-400">|</span>
                 <span className="text-amber-400">Errors: {errors}</span>
               </div>

@@ -11,7 +11,7 @@ export const w_c6_sciencethewonderfulworldofsciencesim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'What is Science and Why It Matters',
     chapters: [],
     nodeIds: ['c6_physics_ch01_001', 'c6_physics_ch01_002', 'c6_physics_ch01_003', 'c6_physics_ch01_004', 'c6_chemistry_ch04_001', 'c6_physics_ch02_006', 'c6_physics_ch02_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine your favorite flashlight suddenly stops working; what is the first thing you do?', goal: 'Master What is Science and Why It Matters.' },
     discovery: {
         question: 'What is the very first step in the scientific method?',
@@ -20,7 +20,7 @@ export const w_c6_sciencethewonderfulworldofsciencesim: SimDef = {
         hook: 'Students often think the scientific method is a rigid, linear path that *must* always lead to a "correct" discovery.',
     },
     teaching: [
-        { title: 'Science is a systematic method of exploring.', text: 'Science is a systematic method of exploring the natural world by making observations, asking questions about how things work, and testing those questions to find evidence-based answers.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Science is a systematic method of exploring.', text: 'Science is a systematic method of exploring the natural world by making observations, asking questions about how things work, and testing those questions to find evidence-based answers.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_physics_ch01_002', title: 'The scientific method is a structured,.',

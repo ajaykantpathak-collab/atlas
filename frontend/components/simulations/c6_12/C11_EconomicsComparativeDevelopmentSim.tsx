@@ -73,7 +73,7 @@ export function C11_EconomicsComparativeDevelopmentSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Three Roads from 1950: India, Pakistan, China</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Three Roads from 1950: India, Pakistan, China</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -106,7 +106,7 @@ export function C11_EconomicsComparativeDevelopmentSim() {
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-700 text-sm space-y-2">
           <div className="text-xs uppercase tracking-wide text-slate-400">Focused country: {focused}</div>
           <div className="text-slate-300">
-            {ind.label}: <span className="font-mono text-sky-300 font-bold">{ind.values[focused].toLocaleString()}</span> {ind.unit}
+            {ind.label}: <span className="font-mono text-gold-300 font-bold">{ind.values[focused].toLocaleString()}</span> {ind.unit}
           </div>
           <div className="text-slate-300">
             Position on this indicator: <span className="font-mono text-amber-300">#{focusRank}</span> of 3
@@ -132,7 +132,7 @@ export function C11_EconomicsComparativeDevelopmentSim() {
               <button
                 key={i.key}
                 onClick={() => setIndKey(i.key)}
-                className={`min-h-11 rounded-xl text-[11px] font-semibold border px-1 ${indKey === i.key ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                className={`min-h-11 rounded-xl text-[11px] font-semibold border px-1 ${indKey === i.key ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
               >
                 {i.label}
                 <span className="block text-[9px] font-normal text-slate-400">{i.higherBetter ? 'higher = better' : 'lower = better'}</span>
@@ -148,7 +148,7 @@ export function C11_EconomicsComparativeDevelopmentSim() {
                 <button
                   key={c}
                   onClick={() => setFocused(c)}
-                  className={`flex-1 min-h-11 rounded-xl text-xs font-semibold border ${focused === c ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                  className={`flex-1 min-h-11 rounded-xl text-xs font-semibold border ${focused === c ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
                 >
                   {c}
                 </button>
@@ -165,7 +165,7 @@ export function C11_EconomicsComparativeDevelopmentSim() {
       </div>
 
       <div className="flex flex-wrap gap-2 mt-4">
-        <button onClick={() => { setIndKey('imr'); setFocused('Pakistan'); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={() => { setIndKey('imr'); setFocused('Pakistan'); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Show the starkest gap (infant mortality)
         </button>
         <button onClick={reset} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -173,8 +173,8 @@ export function C11_EconomicsComparativeDevelopmentSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Switch between GNI per capita and HDI rank. Does the leader ever change? What does that tell you about China vs its neighbours?</li>
           <li>Focus on India and flip the scale to &quot;% of best performer&quot;. On which indicator is India closest to China, and on which is it furthest behind?</li>

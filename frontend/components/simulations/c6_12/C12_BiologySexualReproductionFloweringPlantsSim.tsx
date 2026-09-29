@@ -192,7 +192,7 @@ export function C12_BiologySexualReproductionFloweringPlantsSim() {
               <div className="grid grid-cols-3 gap-2">
                 {(['self', 'cross', 'other'] as Source[]).map((s) => (
                   <button key={s} onClick={() => setSource(s)}
-                    className={`min-h-11 rounded-xl text-[10px] font-bold ${source === s ? 'bg-violet-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                    className={`min-h-11 rounded-xl text-[10px] font-bold ${source === s ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                     {s === 'self' ? 'Same flower' : s === 'cross' ? 'Other plant' : 'Other species'}
                   </button>
                 ))}
@@ -222,7 +222,7 @@ export function C12_BiologySexualReproductionFloweringPlantsSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs">
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">On stigma</p>
-              <p className="font-mono font-bold text-sky-300">{landed}/{grains.length}</p>
+              <p className="font-mono font-bold text-gold-300">{landed}/{grains.length}</p>
             </div>
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Germinated</p>

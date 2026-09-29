@@ -9,7 +9,7 @@ import type { SimDef } from '../engine/types';
 export const C6_HIN_GEN: SimDef[] = [
  {
   "id": "gen_c6_hin_ch01",
-  "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
+  "title": "पाठ 1",
   "subtitle": "HIN · Chapter 1",
   "classLevel": 6,
   "mode": "senior",
@@ -56,7 +56,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
     "text": "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — किसी पाठ के लेखक का जीवन परिचय, उनकी लेखन शैली, रचनाकाल की सामाजिक-सांस्कृतिक परिस्थितियाँ, और उन प्रेरणाओं को जानना जिनसे वह रचना उत्पन्न हुई।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "कथानक कहानी की घटनाओं का",
@@ -68,13 +68,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ्य-परिवेश किसी रचना में वर्णित",
     "text": "पाठ्य-परिवेश (Setting) किसी रचना में वर्णित वह काल, स्थान, सामाजिक-सांस्कृतिक परिस्थितियाँ और भौतिक वातावरण है जो कथानक की पृष्ठभूमि बनता है और पात्रों के व्यवहार तथा घटनाओं को प्रभावित करता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पात्र-चित्रण वह साहित्यिक कौशल",
     "text": "पात्र-चित्रण (Character Sketch) वह साहित्यिक कौशल है जिसमें हम कहानी के प्रमुख पात्र (नायक) के बाह्य रूप, आंतरिक स्वभाव, संवाद शैली, कार्य-व्यवहार, संबंधों और कथानक के साथ उसके विकास को प्रमाण सहित व्यवस्थित रूप से प्रस्तुत करते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र वे चरित्र होते हैं",
@@ -86,25 +86,25 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "मुख्य विषय",
     "text": "The मुख्य विषय (main theme) is the central topic or idea that the text revolves around, while the संदेश (message) is the deeper lesson, moral, or insight the author wants the reader to take away from the text.",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "गौण विषय कहानी या कविता",
     "text": "गौण विषय (Sub-theme) कहानी या कविता में मुख्य विषय के साथ चलने वाला वह सहायक विचार या प्रसंग है जो मुख्य विषय को स्पष्ट, समृद्ध या विस्तारित करता है, परन्तु स्वयं स्वतंत्र रूप से कथा का केंद्र नहीं होता।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "बिंब",
     "text": "बिंब (Imagery) is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create a mental picture or physical sensation in the reader's mind.",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "विरोधाभास वह साहित्यिक युक्ति है",
     "text": "विरोधाभास (Paradox) वह साहित्यिक युक्ति है जिसमें दो विरोधी बातें एक साथ कहकर एक गहरा सत्य प्रकट किया जाता है। प्रतीक (Symbol) वह शब्द, वस्तु या क्रिया है जो अपने शाब्दिक अर्थ के अलावा किसी अमूर्त विचार, भावना या अवधारणा का प्रतिनिधित्व करता है।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पदावली",
@@ -116,13 +116,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "भाषा-प्रयोग का अर्थ है किसी पाठ",
     "text": "भाषा-प्रयोग का अर्थ है किसी पाठ में शब्दों, वाक्यों, विराम चिह्नों और शैली का ऐसा चयन करना जो प्रसंग, पात्र, भाव और उद्देश्य के अनुकूल हो — यह व्याकरण के नियमों से आगे जाकर प्रयोगगत उपयुक्तता (appropriateness) की समझ है।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "'ऊँचा खड़ा हिमालय' के वस्तुनिष्ठ प्रश्न",
     "text": "Vastu-nishth (objective) questions test recall of explicit facts, details, or events directly stated in the text. Aashay-soochak (inferential/intent-indicative) questions require students to read between the lines, using textual evidence to deduce implied",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "आलोचनात्मक चिंतन किसी पाठ",
@@ -140,7 +140,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "'वाचन-श्रवण",
     "text": "'वाचन-श्रवण: चर्चा-बिंदु' का अर्थ है किसी पाठ को पढ़ने (वाचन) या सुनने (श्रवण) के बाद, उसमें आए विषयों, पात्रों, घटनाओं या संदेशों पर कक्षा में सामूहिक रूप से विचार-विमर्श करने के लिए निर्धारित मुख्य बिंदु, जिनसे छात्रों की विश्लेषणात्मक क्षमता और अभिव्यक्ति",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [
@@ -574,7 +574,7 @@ export const C6_HIN_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hin_ch02",
-  "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
+  "title": "पाठ 2",
   "subtitle": "HIN · Chapter 2",
   "classLevel": 6,
   "mode": "senior",
@@ -602,7 +602,7 @@ export const C6_HIN_GEN: SimDef[] = [
   ],
   "emoji": "🎓",
   "theme": {
-   "bg": "from-violet-100 to-purple-200",
+   "bg": "from-gold-100 to-purple-200",
    "accent": "violet",
    "scene": "lesson"
   },
@@ -621,7 +621,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
     "text": "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — पाठ लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक संदर्भ समझना तथा रचनाकार के जीवन, विचारधारा और लेखन शैली की उन विशेषताओं को पहचानना जो पाठ को समझने में सहायक हों।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "कथानक कहानी की घटनाओं का",
@@ -633,19 +633,19 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ्य-परिवेश और वातावरण किसी रचना में",
     "text": "पाठ्य-परिवेश और वातावरण किसी रचना में वर्णित वह समग्र पृष्ठभूमि है जिसमें काल (समय), स्थान (भूगोल), मौसम, सामाजिक-सांस्कृतिक परिस्थितियाँ, आर्थिक परिवेश और भावनात्मक माहौल सम्मिलित होते हैं; यह पात्रों के व्यवहार, कथानक की दिशा और रचना के स्वर (tone) को",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पात्र-चित्रण नायक या प्रमुख",
     "text": "पात्र-चित्रण (Character Sketch) नायक या प्रमुख पात्र के व्यक्तित्व, स्वभाव, विचारों, कार्यों और अन्य पात्रों के साथ संबंधों का व्यवस्थित विश्लेषण है जो पाठ के प्रमाणों (संवाद, कार्य, विचार) पर आधारित होता है। यह केवल विशेषणों की सूची नहीं, बल्कि पाठ-आधारित",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र वे पात्र",
     "text": "सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो प्रमुख पात्र/नायक के साथ कहानी को आगे बढ़ाते हैं, उसके व्यक्तित्व के विभिन्न पहलुओं को उजागर करते हैं, और कथानक में आवश्यक मोड़ लाते हैं। वे नायक के मित्र, शत्रु, गुरु, परिवारजन या अजनबी हो सकते हैं",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय वह केंद्रीय",
@@ -657,7 +657,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "गौण विषय कहानी का वह",
     "text": "गौण विषय (Sub-theme) कहानी का वह सहायक केंद्रीय विचार है जो मुख्य विषय का समर्थन करता है, उसे गहराई देता है, या उसके विभिन्न पहलुओं को उजागर करता है; यह स्वतंत्र रूप से कहानी नहीं चला सकता, पर मुख्य विषय को अर्थपूर्ण बनाता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "बिंब वह साहित्यिक युक्ति है",
@@ -675,7 +675,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पदावली",
     "text": "पदावली: मुख्य शब्द वे चुनिंदा, महत्वपूर्ण शब्द होते हैं जो किसी पाठ के केंद्रीय विषय, भाव या प्रसंग को स्पष्ट करने के लिए आवश्यक होते हैं; इनके अर्थ जाने बिना पाठ का सही आशय समझना कठिन होता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
@@ -693,7 +693,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "आलोचनात्मक चिंतन एक ऐसी",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) एक ऐसी सोचने की प्रक्रिया है जिसमें हम किसी पाठ को ध्यान से पढ़कर उसके भागों को अलग करते हैं (विश्लेषण/Analysis), फिर उनके अर्थ और महत्त्व को अपने शब्दों में समझाते हैं (व्याख्या/Interpretation), और अंत में तर्क के साथ",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "लेखन कौशल",
@@ -705,7 +705,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "चर्चा-बिंदु वे मुख्य विषय",
     "text": "चर्चा-बिंदु (Discussion Points) वे मुख्य विषय या प्रश्न होते हैं जिन पर समूह में विचार-विमर्श किया जाता है, ताकि प्रतिभागी अपने विचार व्यक्त कर सकें, दूसरों के दृष्टिकोण समझ सकें और सामूहिक समझ विकसित कर सकें।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [
@@ -1394,7 +1394,7 @@ export const C6_HIN_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hin_ch03",
-  "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
+  "title": "पाठ 3",
   "subtitle": "HIN · Chapter 3",
   "classLevel": 6,
   "mode": "senior",
@@ -1441,13 +1441,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
     "text": "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — किसी साहित्यिक रचना के लिखे जाने का ऐतिहासिक, सामाजिक, सांस्कृतिक संदर्भ (पृष्ठभूमि) तथा रचनाकार के जीवन, विचारधारा, लेखन-शैली एवं प्रमुख कृतियों का संक्षिप्त परिचय, जिससे पाठ की गहरी समझ बने।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "कथानक कहानी की घटनाओं का कारण-परिणाम",
     "text": "कथानक कहानी की घटनाओं का कारण-परिणाम से बँधा क्रमिक सिलसिला है, जबकि आख्यान-संरचना उन घटनाओं को प्रस्तुत करने का कलात्मक ढंग (क्रम, गति, दृष्टिकोण) है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ्य-परिवेश कहानी घटित होने का",
@@ -1459,7 +1459,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पात्र-चित्रण किसी कहानी या",
     "text": "पात्र-चित्रण (Character Sketch) किसी कहानी या उपन्यास के प्रमुख पात्र (नायक) के व्यक्तित्व का व्यवस्थित विश्लेषण है जिसमें उसकी शारीरिक विशेषताएँ, कर्म, वचन, विचार, अन्य पात्रों से संबंध और कथानक में भूमिका को प्रमाण सहित प्रस्तुत किया जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र",
@@ -1471,13 +1471,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "मुख्य विषय",
     "text": "मुख्य विषय (Main Theme) is the central idea or universal concept that runs through the entire text, connecting characters, events, and settings.",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "गौण विषय वे सहायक",
     "text": "गौण विषय (Sub-theme/Minor theme) वे सहायक विषय होते हैं जो पाठ के मुख्य विषय का समर्थन करते हैं, उसे गहराई देते हैं, और कथानक को अधिक यथार्थवादी तथा बहुआयामी बनाते हैं; ये मुख्य कथानक के समानांतर चलते हैं और पात्रों, समाज या परिवेश के विभिन्न पहलुओं को उजागर",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब वह साहित्यिक युक्ति है",
@@ -1489,7 +1489,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "विरोधाभास एक ऐसा कथन है",
     "text": "विरोधाभास (Paradox) एक ऐसा कथन है जो पहली नज़र में स्वयं का खंडन करता हुआ लगता है, किंतु गहराई से विश्लेषण करने पर एक गहरा सत्य प्रकट करता है। प्रतीक (Symbol) कोई वस्तु, व्यक्ति, स्थान या क्रिया है जो अपने शाब्दिक अर्थ के अतिरिक्त एक अमूर्त विचार, भावना या",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पदावली",
@@ -1501,7 +1501,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
     "text": "पाठ में भाषा-प्रयोग का अर्थ है — लेखक द्वारा रचना में शब्द-चयन (शब्दावली), वाक्य-संरचना, शैलीगत युक्तियाँ (जैसे अलंकार, मुहावरे), तथा विराम-चिह्नों का प्रयोग करके अर्थ, भाव और वातावरण को प्रभावी बनाना।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "'पावस का प्रथम दिवस' के वस्तुनिष्ठ",
@@ -1513,13 +1513,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें",
     "text": "आलोचनात्मक चिंतन वह प्रक्रिया है जिसमें हम किसी पाठ को गहराई से पढ़ते हैं, उसके अर्थ को समझते हैं, फिर उसके पीछे के कारण, संदेश और लेखक के इरादे का मूल्यांकन करते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ-आधारित लेखन कौशल का अर्थ है",
     "text": "पाठ-आधारित लेखन कौशल का अर्थ है: किसी दिए गए पाठ (कहानी, कविता, निबंध) को पढ़कर, उससे संबंधित प्रश्नों के उत्तर एक सुसंगत संरचना (PEEL: Point, Evidence, Explanation, Link) में लिखना, जहाँ हर उत्तर में मुख्य विचार, पाठ से उद्धरण/संदर्भ, तर्कसंगत व्याख्या और",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "'वाचन-श्रवण",
@@ -2080,7 +2080,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "कथानक वह क्रम है जिसमें कहानी",
     "text": "कथानक वह क्रम है जिसमें कहानी की घटनाएं होती हैं, जबकि आख्यान-संरचना कहानी को शुरू, मध्य और अंत के तीन भागों में विभाजित करने का तरीका है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ्य-परिवेश कहानी घटित होने का",
@@ -2092,13 +2092,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पात्र-चित्रण वह साहित्यिक कौशल",
     "text": "पात्र-चित्रण (Character Sketch) वह साहित्यिक कौशल है जिसमें कहानी के प्रमुख पात्र (नायक) के बाहरी रूप, व्यवहार, संवाद, विचारों, दूसरों से संबंधों और कहानी में हुए परिवर्तनों का पाठ्य-आधारित प्रमाणों (Textual Evidence) के साथ व्यवस्थित विश्लेषण किया जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र वह पात्र",
     "text": "सहायक पात्र (Supporting Character) वह पात्र है जो नायक/प्रमुख पात्र के साथ अंतर्क्रिया करके कथानक को आगे बढ़ाता है, नायक के गुण-दोष प्रकट करता है, या कथानक में मोड़ लाने वाला उत्प्रेरक (catalyst) बनता है। इसका अस्तित्व नायक से स्वतंत्र न होकर, नायक की यात्रा",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "मुख्य विषय वह केंद्रीय",
@@ -2110,7 +2110,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "गौण विषय वह सहायक विचार",
     "text": "गौण विषय (Sub-theme) वह सहायक विचार या कथानक है जो मुख्य विषय के समानांतर चलता है, उसे सहारा देता है, पात्रों के विभिन्न पहलू उजागर करता है और रचना में गहराई लाता है।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब शब्दों द्वारा पाठक की",
@@ -2122,7 +2122,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "विरोधाभास दो विपरीत बातों का एक",
     "text": "विरोधाभास दो विपरीत बातों का एक साथ होना है जो सोचने पर मजबूर करता है, जबकि प्रतीक कोई वस्तु, चित्र या क्रिया है जो किसी गहरे अर्थ का संकेत देती है बिना उसे सीधे कहा जाए।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पदावली",
@@ -2134,7 +2134,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "भाषा-प्रयोग",
     "text": "भाषा-प्रयोग (Language Usage) refers to the conscious selection of vocabulary (शब्दावली), sentence structure (वाक्य संरचना), and tone (शैली/लहजा) appropriate to the specific context, audience, and purpose of a text, distinguishing between formal (औपचारिक),",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "वस्तुनिष्ठ प्रश्न Test Literal",
@@ -2659,7 +2659,7 @@ export const C6_HIN_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hin_ch05",
-  "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
+  "title": "पाठ 5",
   "subtitle": "HIN · Chapter 5",
   "classLevel": 6,
   "mode": "senior",
@@ -2706,7 +2706,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
     "text": "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — किसी रचना (कहानी, कविता, निबंध) को लिखने वाले लेखक का जीवन-परिचय, उनकी साहित्यिक यात्रा, और उस समय की सामाजिक-सांस्कृतिक परिस्थितियाँ जिनमें रचना लिखी गई थी।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "कथानक कहानी में घटित घटनाओं",
@@ -2718,31 +2718,31 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ्य-परिवेश कहानी के घटित होने",
     "text": "पाठ्य-परिवेश (Setting) कहानी के घटित होने का भौतिक स्थान, समयकाल और सामाजिक परिस्थितियों का योग है। पाठ्य-वातावरण (Atmosphere/Mood) लेखक द्वारा शब्दों, बिंबों और विवरणों से रचा गया वह भावनात्मक माहौल है जो पाठक के मन में विशेष अनुभूति (भय, आनंद, रहस्य, करुणा)",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पात्र-चित्रण एक साहित्यिक विश्लेषण कौशल है",
     "text": "पात्र-चित्रण एक साहित्यिक विश्लेषण कौशल है जिसमें कहानी के प्रमुख पात्र (नायक) के बाह्य स्वरूप, आंतरिक गुण, संवाद, कार्य, विचार और अन्य पात्रों से संबंधों के आधार पर उसके व्यक्तित्व का व्यवस्थित विवरण प्रस्तुत किया जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "सहायक पात्र",
     "text": "सहायक पात्र (Supporting Characters) are those characters in a story who are not the main protagonist but play essential roles in advancing the plot, revealing the protagonist's traits, or embodying thematic contrasts.",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "किसी साहित्यिक रचना का मुख्य विषय",
     "text": "किसी साहित्यिक रचना का मुख्य विषय वह केंद्रीय विचार या भाव है जिसे रचनाकार पूरी रचना के माध्यम से व्यक्त करना चाहता है, जबकि संदेश वह व्यावहारिक सीख या निष्कर्ष है जो पाठक को उस विषय से ग्रहण करना चाहिए।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "गौण विषय वे सहायक विचार",
     "text": "गौण विषय (उप-विषय) वे सहायक विचार या प्रसंग होते हैं जो पाठ के मुख्य विषय को पूरक करते हैं, उसे विस्तार देते हैं, और पात्रों या परिवेश की गहराई दिखाते हैं, परन्तु स्वयं कहानी का केंद्रीय संदेश नहीं होते।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब वह साहित्यिक युक्ति है",
@@ -2766,7 +2766,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "\"पाठ में भाषा-प्रयोग\"",
     "text": "\"पाठ में भाषा-प्रयोग\" means studying how an author purposefully selects and arranges words — nouns, verbs, adjectives, conjunctions, tenses, and sentence structures — to create specific effects such as clarity, emotion, rhythm, or emphasis in the given text.",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "वस्तुनिष्ठ प्रश्न वे प्रश्न हैं",
@@ -2778,7 +2778,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "आलोचनात्मक चिंतन का अर्थ",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) का अर्थ है पाठ के स्पष्ट अर्थ से आगे जाकर उसके अंतर्निहित अर्थ, लेखक के उद्देश्य, साहित्यिक युक्तियों के प्रभाव और विषयगत गहराई का विश्लेषण (Analysis) और व्याख्या (Interpretation) करना।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ-आधारित लेखन कौशल का अर्थ है",
@@ -3258,7 +3258,7 @@ export const C6_HIN_GEN: SimDef[] = [
   ],
   "emoji": "🎓",
   "theme": {
-   "bg": "from-indigo-100 to-blue-200",
+   "bg": "from-gold-100 to-gold-200",
    "accent": "indigo",
    "scene": "lesson"
   },
@@ -3277,13 +3277,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि कहानी के समय, स्थान",
     "text": "पृष्ठभूमि (Background) कहानी के समय, स्थान, सामाजिक-सांस्कृतिक परिवेश और ऐतिहासिक संदर्भ का विवरण है, जबकि रचनाकार परिचय (Author Introduction) लेखक के जीवन, उनकी लेखन शैली, प्रमुख रचनाएँ और साहित्य में उनके योगदान का संक्षिप्त परिचय देता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "कथानक कहानी की घटनाओं का",
     "text": "कथानक (Plot) कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) से जुड़ा हुआ क्रम है, जबकि आख्यान-संरचना (Narrative Structure) लेखक द्वारा उन घटनाओं को पाठक के सामने प्रस्तुत करने का कलात्मक ढंग या क्रम (जैसे रैखिक, अरैखिक, फ्लैशबैक) है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ्य-परिवेश कहानी के घटित होने",
@@ -3295,49 +3295,49 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पात्र-चित्रण एक साहित्यिक कौशल",
     "text": "पात्र-चित्रण (Character Sketch) एक साहित्यिक कौशल है जिसमें कहानी के प्रमुख पात्र (नायक) के बाह्य रूप, स्वभाव, विचार, संवाद, कार्य और अन्य पात्रों से संबंधों का विश्लेषण करके उसके व्यक्तित्व का समग्र चित्र प्रस्तुत किया जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र वे पात्र होते हैं",
     "text": "सहायक पात्र वे पात्र होते हैं जो कहानी में नायक/प्रमुख पात्र के साथ बातचीत करके कथानक को आगे बढ़ाते हैं, नायक के गुण-दोष उजागर करते हैं, या कथानक में आवश्यक मोड़ लाते हैं, परन्तु कहानी का केंद्रीय फोकस उन पर नहीं होता।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय वह केंद्रीय विचार या",
     "text": "मुख्य विषय वह केंद्रीय विचार या संदेश है जो लेखक अपनी कहानी के माध्यम से पाठकों तक पहुँचाना चाहता है, जो अक्सर मानवीय मूल्यों, जीवन के सबक या सामाजिक सच्चाइयों से जुड़ा होता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "गौण विषय कहानी का वह",
     "text": "गौण विषय (Sub-theme) कहानी का वह सहायक विचार या प्रसंग है जो मुख्य विषय के साथ समानांतर चलता है, उसे सहारा देता है, विस्तार देता है या उसके किसी पहलू को उजागर करता है, परन्तु कहानी का केंद्रीय संदेश नहीं होता।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब",
     "text": "बिंब (Imagery) is the use of vivid, sensory language (sight, sound, smell, taste, touch) to create a mental picture or sensation in the reader's mind.",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "विरोधाभास वह साहित्यिक युक्ति है जिसमें",
     "text": "विरोधाभास वह साहित्यिक युक्ति है जिसमें कथन पहली नज़र में असंगत या बेतुका लगता है, लेकिन गहराई से देखने पर एक गहरा सत्य प्रकट करता है। प्रतीक वह वस्तु, व्यक्ति, स्थान या क्रिया है जो अपने शाब्दिक अर्थ के साथ-साथ किसी अमूर्त विचार, भावना या अवधारणा को भी",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पदावली के मुख्य शब्द वे महत्वपूर्ण",
     "text": "पदावली के मुख्य शब्द वे महत्वपूर्ण शब्द/पद हैं जो पाठ के केंद्रीय विषय, पात्रों की मनोदशा, और लेखक के अभिप्राय को स्पष्ट करने के लिए बार-बार या निर्णायक प्रसंगों में प्रयुक्त हुए हैं, जिनका अर्थ पाठ के संदर्भ (Context) में शब्दकोशीय अर्थ से भिन्न या अधिक गहरा",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
     "text": "पाठ में भाषा-प्रयोग का अर्थ है किसी रचना में प्रयुक्त वाक्य-रचना (सरल, संयुक्त, मिश्र), काल (भूत, वर्तमान, भविष्य), वाच्य (कर्तृवाच्य, कर्मवाच्य), और शब्द-चयन (तत्सम, तद्भव, देशज, विदेशी) का विश्लेषण करके यह समझना कि लेखक ने अपनी बात को स्पष्ट, रोचक और",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Objective Questions Test Factual",
@@ -3349,7 +3349,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "आलोचनात्मक चिंतन किसी पाठ",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ को गहराई से पढ़कर, उसके तथ्यों, तर्कों, साहित्यिक युक्तियों और अंतर्निहित अर्थों को अलग-अलग करके (विश्लेषण/Analysis) और फिर उन्हें जोड़कर अपना सुविचारित मत बनाना (व्याख्या/Interpretation) है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ-आधारित लेखन कौशल का अर्थ है",
@@ -3361,7 +3361,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "वाचन-श्रवण",
     "text": "वाचन-श्रवण: चर्चा-बिंदु एक भाषा कौशल है जिसमें छात्र किसी पाठ को पढ़कर या सुनकर उसके मुख्य विचारों को समझते हैं, अपने विचार बनाते हैं, और फिर समूह चर्चा में स्पष्ट, तर्कसंगत और सम्मानजनक ढंग से भाग लेकर सामूहिक समझ विकसित करते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [
@@ -3968,19 +3968,19 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "'पृष्ठभूमि और रचनाकार परिचय' किसी साहित्यिक",
     "text": "'पृष्ठभूमि और रचनाकार परिचय' किसी साहित्यिक कृति के लेखक के जीवन परिचय, लेखन काल की सामाजिक-सांस्कृतिक परिस्थितियों, और रचना के उद्देश्य या प्रेरणा का संक्षिप्त विवेचन है जो पाठ के गहन अर्थ तक पहुँचने का आधार तैयार करता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "कथानक किसी कहानी में घटनाओं",
     "text": "कथानक (Plot) किसी कहानी में घटनाओं का कारण-परिणाम (Cause-Effect) से बँधा हुआ सुव्यवस्थित क्रम है जो आरंभ, मध्य, चरम (Climax) और अंत तक जाता है। आख्यान-संरचना (Narrative Structure) वह कलात्मक ढाँचा (Framework) है जिसके भीतर लेखक कथानक को प्रस्तुत करता है —",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ्य-परिवेश और वातावरण का अर्थ है",
     "text": "पाठ्य-परिवेश और वातावरण का अर्थ है कहानी में घटनाओं के घटित होने का समय, स्थान, भौगोलिक परिस्थितियाँ, सामाजिक-सांस्कृतिक पृष्ठभूमि और भावनात्मक माहौल — ये सभी मिलकर पात्रों के जीवन और कथानक को प्रभावित करते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पात्र-चित्रण एक साहित्यिक विश्लेषण",
@@ -3992,13 +3992,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "सहायक पात्र वे पात्र होते हैं",
     "text": "सहायक पात्र वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ रहकर कथानक को गति देते हैं, नायक के गुण-दोष उजागर करते हैं और कहानी के विषय को गहराई प्रदान करते हैं, भले ही वे केंद्रीय न हों।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय वह केंद्रीय",
     "text": "मुख्य विषय (Central Theme) वह केंद्रीय विचार या संदेश है जो पूरी रचना में व्याप्त रहता है और जिसे लेखक पाठक तक पहुँचाना चाहता है; यह कहानी के पात्रों, घटनाओं और संघर्षों के माध्यम से प्रकट होता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "गौण विषय वह सहायक",
@@ -4022,7 +4022,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पदावली के मुख्य शब्द वे विशिष्ट",
     "text": "पदावली के मुख्य शब्द वे विशिष्ट शब्द होते हैं जिन्हें लेखक ने कथ्य के केंद्रभाव, विषय या पात्र की मनोदशा को सटीकता से व्यक्त करने के लिए चुना होता है; ये शब्द पाठ के अर्थ को खोलने की 'कुंजी' होते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "भाषा-प्रयोग से तात्पर्य है",
@@ -4034,13 +4034,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "वस्तुनिष्ठ प्रश्न वे हैं",
     "text": "वस्तुनिष्ठ प्रश्न (Objective Questions) वे हैं जिनका उत्तर पाठ में स्पष्ट रूप से दिया होता है और केवल एक सही उत्तर होता है; आशय-सूचक प्रश्न (Inferential Questions) वे हैं जिनका उत्तर पाठ में छिपे भाव, कारण या निहितार्थ को समझकर अपने शब्दों में देना पड़ता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "आलोचनात्मक चिंतन का अर्थ",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) का अर्थ है किसी पाठ को केवल पढ़कर समझना नहीं, बल्कि उसके तर्कों, प्रमाणों, मान्यताओं और निष्कर्षों की जाँच करना — फिर तर्कसंगत ढंग से अपनी व्याख्या (Interpretation) प्रस्तुत करना।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "लेखन कौशल",
@@ -4052,7 +4052,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "चर्चा-बिंदु",
     "text": "चर्चा-बिंदु (Discussion Points) are structured prompts or open-ended questions designed to initiate collaborative dialogue about a text, enabling students to analyze themes, evaluate characters, interpret literary devices, and construct personal meaning",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    }
   ],
   "challenges": [
@@ -4474,13 +4474,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि किसी रचना का ऐतिहासिक",
     "text": "पृष्ठभूमि (Background) किसी रचना का ऐतिहासिक, सामाजिक, सांस्कृतिक और भौगोलिक परिवेश है जिसमें कहानी घटित होती है, जबकि रचनाकार परिचय (Author Introduction) लेखक के जीवन, उनकी साहित्यिक यात्रा, प्रमुख कृतियों और लेखन शैली का संक्षिप्त विवरण है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "कथानक कहानी की घटनाओं का",
     "text": "कथानक (Plot) कहानी की घटनाओं का कारण-कार्य संबंध सहित तार्किक क्रम है (कारण → कार्य → परिणाम)। आख्यान-संरचना (Narrative Structure) लेखक द्वारा उन घटनाओं को प्रस्तुत करने का कलात्मक ढंग है — जैसे रैखिक (Linear), अरैखिक (Non-linear), फ्लैशबैक, या बहु-स्तरीय",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ्य-परिवेश और वातावरण का अर्थ है",
@@ -4492,13 +4492,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पात्र-चित्रण एक संरचित विश्लेषण",
     "text": "पात्र-चित्रण (Character Sketch) एक संरचित विश्लेषण है जिसमें कहानी के प्रमुख पात्र (नायक) के बाह्य व्यक्तित्व (दिखावट, बोली, क्रियाएँ), आंतरिक व्यक्तित्व (विचार, भावनाएँ, प्रेरणाएँ), अन्य पात्रों से संबंध, और कहानी के दौरान उसमें आए परिवर्तन को पाठ्य साक्ष्य",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "सहायक पात्र वे पात्र",
     "text": "सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ रहकर कथानक को आगे बढ़ाते हैं, नायक के चरित्र के विभिन्न पहलुओं को उजागर करते हैं, और कहानी में संघर्ष, सहयोग या परिवर्तन के अवसर प्रदान करते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय वह मूल",
@@ -4516,43 +4516,43 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "बिंब",
     "text": "बिंब (Imagery) is the use of descriptive language that appeals to the five senses (sight, sound, smell, taste, touch) to create a vivid mental picture for the reader.",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "विरोधाभास एक ऐसी साहित्यिक युक्ति है",
     "text": "विरोधाभास एक ऐसी साहित्यिक युक्ति है जिसमें दो परस्पर विरोधी बातें या विचार एक साथ प्रस्तुत किए जाते हैं, जो पहली नज़र में असंगत लगते हैं लेकिन गहराई से देखने पर एक सार्थक सत्य उजागर करते हैं। प्रतीक कोई ऐसी वस्तु, व्यक्ति, स्थान या क्रिया है जो अपने शाब्दिक",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पदावली",
     "text": "पदावली: मुख्य शब्द refers to the curated list of significant words in a text that are essential for understanding the central theme, mood, or cultural context, often requiring explanation of their connotative meaning beyond the dictionary definition.",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "भाषा-प्रयोग का अर्थ है किसी पाठ",
     "text": "भाषा-प्रयोग का अर्थ है किसी पाठ में शब्दों, वाक्य-रचना, मुहावरों, लोकोक्तियों और शैलीगत विशेषताओं का वह चुनाव जो लेखक के उद्देश्य, पात्र की प्रकृति और प्रसंग के अनुकूल हो।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "'एंजेला' के वस्तुनिष्ठ प्रश्न — जिनके",
     "text": "वस्तुनिष्ठ प्रश्न (Objective Questions) have a single, factual answer directly stated in the text (who, what, when, where). आशय-सूचक प्रश्न (Inferential/Intent Questions) require the reader to read between the lines, combine clues from the text with logic,",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "आलोचनात्मक चिंतन पाठ के",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) पाठ के तथ्यों, तर्कों और साहित्यिक युक्तियों की जाँच करके स्वतंत्र, तर्कसंगत व्याख्या बनाने की प्रक्रिया है — न कि केवल लेखक की बात मान लेना।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ-आधारित लेखन वह कौशल है जिसमें",
     "text": "पाठ-आधारित लेखन वह कौशल है जिसमें छात्र किसी दिए गए पाठ (गद्य/पद्य) से प्रमाण (evidence) चुनकर, PEEL ढांचे (Point, Evidence, Explanation, Link) का उपयोग करते हुए, तर्कसंगत, संरचित और विषय-केंद्रित उत्तर लिखते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "'वाचन-श्रवण",
@@ -5144,7 +5144,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "कथानक कहानी में घटित घटनाओं",
     "text": "कथानक (Plot) कहानी में घटित घटनाओं का कारण-परिणाम (cause-effect) के क्रम में व्यवस्थित क्रम है, जबकि आख्यान-संरचना (Narrative Structure) लेखक द्वारा उन घटनाओं को प्रस्तुत करने का कला-कौशल (जैसे फ्लैशबैक, समानांतर कथानक, रैखिक क्रम) है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पाठ्य-परिवेश कहानी घटित होने का",
@@ -5168,19 +5168,19 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "मुख्य विषय वह केंद्रीय विचार",
     "text": "मुख्य विषय वह केंद्रीय विचार या थीम है जिसके इर्द-गिर्द पूरी कहानी बुनी गई होती है (जैसे: प्रेम, त्याग, साहस, न्याय)। संदेश वह नैतिक शिक्षा या सीख है जो लेखक पाठक को उस विषय के माध्यम से देना चाहता है (जैसे: \"सच्चा मित्र वही जो संकट में काम आए\")।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "गौण विषय",
     "text": "गौण विषय (Sub-theme) refers to the secondary ideas, issues, or motifs in a literary text that run parallel to the मुख्य विषय (main theme), supporting, contrasting, or deepening it without being the central message.",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब शब्दों के माध्यम से",
     "text": "बिंब (Imagery) शब्दों के माध्यम से पाठक के मन में इंद्रियों (दृश्य, श्रवण, घ्राण, स्पर्श, स्वाद) से संबंधित सजीव चित्र उत्पन्न करना है। रूपक (Metaphor) एक अलंकार है जहाँ किसी वस्तु या भाव को दूसरी वस्तु के साथ सीधे स्थापित कर दिया जाता है (बिना 'जैसा', 'सा',",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "विरोधाभास एक ऐसा कथन या",
@@ -5192,13 +5192,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पदावली",
     "text": "पदावली: मुख्य शब्द का अर्थ है किसी पाठ में आए उन चुनिंदा महत्त्वपूर्ण शब्दों की सूची और उनका अध्ययन जो पाठ का केंद्रीय भाव, विषय या प्रसंग समझने के लिए अनिवार्य हैं; इसमें शब्द के अर्थ, प्रसंगानुसार प्रयोग, समानार्थी/विलोम और वाक्य-रचना में भूमिका शामिल होती",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
     "text": "पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा शब्दों, वाक्य-रचना, मुहावरों, लोकोक्तियों और शैलीगत विशेषताओं का सचेत चयन ताकि विषय, भाव और पात्रों की प्रकृति प्रभावी ढंग से व्यक्त हो सके।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "वस्तुनिष्ठ प्रश्न वे प्रश्न",
@@ -5216,13 +5216,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ-आधारित लेखन कौशल",
     "text": "पाठ-आधारित लेखन कौशल (Text-based Writing Skill) वह क्षमता है जिसमें छात्र किसी दिए गए पाठ (गद्य/पद्य) से विशिष्ट प्रमाण (quotes, events, details) चुनकर, उन्हें अपने तर्क (argument) के समर्थन में व्यवस्थित ढंग से प्रस्तुत करते हैं, न कि केवल सामान्य ज्ञान या",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "चर्चा-बिंदु वे विशिष्ट विषय",
     "text": "चर्चा-बिंदु (Discussion Points) वे विशिष्ट विषय, प्रश्न या मुद्दे होते हैं जिन पर समूह चर्चा के दौरान विचार-विमर्श किया जाता है, जिससे प्रतिभागी अपने विचार व्यक्त कर सकें, दूसरों के दृष्टिकोण समझ सकें और सामूहिक निर्णय या गहरी समझ तक पहुँच सकें।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    }
   ],
   "challenges": [
@@ -5787,7 +5787,7 @@ export const C6_HIN_GEN: SimDef[] = [
   ],
   "emoji": "🎓",
   "theme": {
-   "bg": "from-indigo-100 to-blue-200",
+   "bg": "from-gold-100 to-gold-200",
    "accent": "indigo",
    "scene": "lesson"
   },
@@ -5818,13 +5818,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ्य-परिवेश और वातावरण का अर्थ है",
     "text": "पाठ्य-परिवेश और वातावरण का अर्थ है — कहानी या कविता में दर्शाया गया वह सम्पूर्ण भौतिक, सामाजिक, सांस्कृतिक और समयगत संदर्भ जिसमें पात्र जीते हैं, घटनाएँ घटती हैं और कथानक आगे बढ़ता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पात्र-चित्रण एक साहित्यिक कौशल",
     "text": "पात्र-चित्रण (Character Sketch) एक साहित्यिक कौशल है जिसमें कहानी के प्रमुख पात्र (नायक) के शारीरिक गुण, मानसिक प्रवृत्तियाँ, व्यवहार, संवाद, विचार और अन्य पात्रों से संबंधों का व्यवस्थित विश्लेषण करके उसके संपूर्ण व्यक्तित्व को उजागर किया जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र",
@@ -5836,7 +5836,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "मुख्य विषय वह केंद्रीय",
     "text": "मुख्य विषय (Central Theme) वह केंद्रीय विचार या अंतर्निहित संदेश है जिसे लेखक पूरी रचना के माध्यम से पाठक तक पहुँचाना चाहता है; यह सार्वभौमिक मानवीय अनुभवों (जैसे प्रेम, त्याग, न्याय, लालच) से जुड़ा होता है। संदेश (Message) उस विषय का वह व्यावहारिक निष्कर्ष",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "गौण विषय कहानी या कविता",
@@ -5848,13 +5848,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "बिंब वह साहित्यिक युक्ति है",
     "text": "बिंब (Imagery) वह साहित्यिक युक्ति है जिसमें शब्दों के माध्यम से पाठक की इंद्रियों (दृष्टि, श्रवण, गंध, स्पर्श, स्वाद) के सामने एक जीवंत तस्वीर या अनुभूति उत्पन्न की जाती है। रूपक (Metaphor) वह अलंकार है जिसमें एक वस्तु या विचार को दूसरी वस्तु या विचार के रूप",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "विरोधाभास एक साहित्यिक युक्ति है जहाँ",
     "text": "विरोधाभास एक साहित्यिक युक्ति है जहाँ कथन पहली नज़र में स्वयं का खंडन करता प्रतीत होता है, पर गहराई में एक सार्थक सत्य प्रकट करता है। प्रतीक कोई वस्तु, व्यक्ति, स्थान या क्रिया है जो अपने शाब्दिक अर्थ के साथ-साथ एक अमूर्त विचार, भाव या अवधारणा को भी दर्शाता",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पदावली के अंतर्गत मुख्य शब्द वे",
@@ -5866,7 +5866,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
     "text": "पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा वाक्य-रचना, सर्वनाम, विशेषण, क्रिया-काल और वाच्य का ऐसा चयन करना जिससे अर्थ स्पष्ट, सहज और प्रभावी बने।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "वस्तुनिष्ठ प्रश्न वे प्रश्न हैं",
@@ -5890,7 +5890,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "'वाचन-श्रवण",
     "text": "'वाचन-श्रवण: चर्चा-बिंदु' का अर्थ है किसी पाठ, कविता या विषय को पढ़कर या सुनकर उस पर सार्थक संवाद करना, जहाँ विद्यार्थी अपने विचार व्यक्त करते हैं, दूसरों के विचारों को ध्यानपूर्वक सुनते हैं, प्रश्न पूछते हैं और सामूहिक समझ विकसित करते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [
@@ -6405,7 +6405,7 @@ export const C6_HIN_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hin_ch11",
-  "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
+  "title": "पाठ 11",
   "subtitle": "HIN · Chapter 11",
   "classLevel": 6,
   "mode": "senior",
@@ -6433,7 +6433,7 @@ export const C6_HIN_GEN: SimDef[] = [
   ],
   "emoji": "🎓",
   "theme": {
-   "bg": "from-indigo-100 to-blue-200",
+   "bg": "from-gold-100 to-gold-200",
    "accent": "indigo",
    "scene": "lesson"
   },
@@ -6452,7 +6452,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पृष्ठभूमि और रचनाकार परिचय का अर्थ",
     "text": "पृष्ठभूमि और रचनाकार परिचय का अर्थ है — किसी साहित्यिक कृति के लिखे जाने का ऐतिहासिक-सामाजिक संदर्भ (पृष्ठभूमि) और रचनाकार के जीवन की प्रमुख घटनाएँ, विचारधारा तथा लेखन शैली (रचनाकार परिचय) को समझना, ताकि पाठ के अंतर्निहित अर्थ तक पहुँचा जा सके।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "कथानक कहानी की घटनाओं का",
@@ -6464,7 +6464,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ्य-परिवेश और वातावरण किसी कहानी या",
     "text": "पाठ्य-परिवेश और वातावरण किसी कहानी या पाठ में घटनाओं के घटित होने का स्थान (जहाँ), समय (कब), सामाजिक-सांस्कृतिक परिस्थितियाँ, और भावनात्मक माहौल को मिलाकर बनने वाला समग्र ढाँचा है जो पात्रों के व्यवहार और कथानक की दिशा को निर्धारित करता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पात्र-चित्रण एक साहित्यिक विधा",
@@ -6476,19 +6476,19 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "सहायक पात्र वे पात्र",
     "text": "सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ रहकर कथानक को आगे बढ़ाते हैं, उसकी विशेषताओं को उभारते हैं (foil का कार्य करते हैं), या कथानक में आवश्यक मोड़ लाते हैं; इनका अस्तित्व नायक से स्वतंत्र नहीं होता, बल्कि नायक के",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय वह केंद्रीय",
     "text": "मुख्य विषय (Main Theme) वह केंद्रीय विचार या सार्वभौमिक सत्य है जो पूरी कहानी/कविता में बार-बार उभरता है और रचनाकार पाठक तक पहुँचाना चाहता है; संदेश (Message) वह व्यावहारिक सीख या नैतिक निर्देश है जो विषय से निकलकर पाठक के जीवन में लागू होता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "गौण विषय वह सहायक विचार",
     "text": "गौण विषय (Sub-theme) वह सहायक विचार या कथानक है जो पाठ के मुख्य विषय (Main Theme) के साथ समानांतर चलता है, उसे स्पष्ट करता है, पात्रों के विभिन्न पहलू उजागर करता है और कथानक को गहराई तथा विस्तार प्रदान करता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब",
@@ -6500,13 +6500,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "विरोधाभास एक ऐसा कथन है",
     "text": "विरोधाभास (Paradox) एक ऐसा कथन है जो पहली नज़र में असंगत या झूठा लगता है, लेकिन गहराई से सोचने पर एक गहरा सत्य प्रकट करता है। प्रतीक (Symbol) कोई वस्तु, व्यक्ति, स्थान या क्रिया है जो अपने शाब्दिक अर्थ के अलावा एक अमूर्त विचार, भावना या अवधारणा को दर्शाता है।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "पदावली",
     "text": "पदावली: मुख्य शब्द उस पाठ के सबसे महत्त्वपूर्ण 8-10 शब्द होते हैं जो रचना के केंद्रीय विषय, प्रमुख भाव, पात्र की विशेषता या कथानक के मोड़ को सीधे अभिव्यक्त करते हैं और जिनके बिना पाठ का मूल अर्थ अधूरा रह जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
@@ -6524,13 +6524,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "आलोचनात्मक चिंतन एक ऐसी",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) एक ऐसी प्रक्रिया है जिसमें हम किसी पाठ, घटना या विचार को केवल पढ़ते या सुनते नहीं, बल्कि उसके विभिन्न पहलुओं (कारण, परिणाम, साक्ष्य, दृष्टिकोण) को तोड़कर (विश्लेषण/Analysis) जांचते हैं और फिर उनके आधार पर अपना सुविचारित",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ-आधारित लेखन कौशल का अर्थ है",
     "text": "पाठ-आधारित लेखन कौशल का अर्थ है किसी पाठ (कहानी, कविता, निबंध) को पढ़कर उससे जुड़े प्रश्नों का उत्तर एक संरचित तरीके से देना, जहाँ हर उत्तर में मुख्य बिंदु, पाठ्य साक्ष्य, तार्किक व्याख्या और विषय से संबंध स्पष्ट रूप से शामिल हों।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "'रण-बीच चौकड़ी भर-भरकर' पर वाचन-श्रवण और",
@@ -7028,7 +7028,7 @@ export const C6_HIN_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hin_ch12",
-  "title": "'पृष्ठभूमि और रचनाकार परिचय' किसी पाठ",
+  "title": "पाठ 12",
   "subtitle": "HIN · Chapter 12",
   "classLevel": 6,
   "mode": "senior",
@@ -7056,7 +7056,7 @@ export const C6_HIN_GEN: SimDef[] = [
   ],
   "emoji": "🎓",
   "theme": {
-   "bg": "from-violet-100 to-purple-200",
+   "bg": "from-gold-100 to-purple-200",
    "accent": "violet",
    "scene": "lesson"
   },
@@ -7081,7 +7081,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "कथानक कहानी की घटनाओं का तार्किक",
     "text": "कथानक कहानी की घटनाओं का तार्किक और कारण-परिणाम (cause-effect) क्रम में व्यवस्थित ढांचा है, जबकि आख्यान-संरचना उस ढांचे को प्रस्तुत करने का कलात्मक तरीका है (जैसे फ्लैशबैक, समानांतर कथाएँ, या दृष्टिकोण)।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "पाठ्य-परिवेश कहानी के घटित होने",
@@ -7093,13 +7093,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पात्र-चित्रण एक साहित्यिक विश्लेषण",
     "text": "पात्र-चित्रण (Character Sketch) एक साहित्यिक विश्लेषण है जिसमें कहानी के नायक/प्रमुख पात्र के व्यक्तित्व, स्वभाव, विचार, कार्य, संवाद और संबंधों के आधार पर उनके गुण-दोषों का व्यवस्थित वर्णन किया जाता है, और हर बात के लिए पाठ से प्रमाण (सबूत) दिया जाता है।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र वे पात्र होते हैं",
     "text": "सहायक पात्र वे पात्र होते हैं जो कथानक में नायक/प्रमुख पात्र के साथ रहकर कथानक को आगे बढ़ाते हैं, नायक के गुण-दोष उजागर करते हैं, या कथानक में मोड़ लाने का कार्य करते हैं। ये पात्र नायक के पूरक, विरोधी, मार्गदर्शक, या साथी के रूप में कार्य कर सकते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय कहानी का",
@@ -7111,7 +7111,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "गौण विषय वह सहायक विचार",
     "text": "गौण विषय (Sub-theme) वह सहायक विचार या प्रसंग है जो पाठ के मुख्य विषय को स्पष्ट करने, उसे गहराई देने या पात्रों के जीवन को वास्तविक बनाने के लिए साथ-साथ चलता है, परंतु पाठ का केंद्रीय संदेश नहीं होता।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "बिंब",
@@ -7129,13 +7129,13 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पदावली किसी पाठ में प्रयुक्त",
     "text": "पदावली (शब्दावली) किसी पाठ में प्रयुक्त उन मुख्य शब्दों का समूह है जो पाठ के विषय, भाव, वातावरण और पात्रों की मानसिकता को स्पष्ट करने के लिए लेखक द्वारा सायास (जानबूझकर) चुने गए होते हैं; इनके अर्थ संदर्भ (context) के अनुसार बदलते या गहरे होते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "भाषा-प्रयोग का अर्थ है",
     "text": "भाषा-प्रयोग (Language Use) का अर्थ है किसी पाठ में लेखक द्वारा शब्दों, वाक्य-संरचना, मुहावरों, लोकोक्तियों, अलंकारों और व्याकरणिक संरचनाओं का सजग चयन और उनका विशेष प्रभाव पैदा करने के लिए व्यवहार। यह केवल व्याकरण के नियम जानना नहीं, बल्कि नियमों को रचनात्मक",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "वस्तुनिष्ठ प्रश्न वे प्रश्न",
@@ -7153,7 +7153,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ-आधारित लेखन कौशल",
     "text": "पाठ-आधारित लेखन कौशल (Text-based writing skill) means constructing written responses where every claim or interpretation is directly supported by evidence (quotes, paraphrased events, or specific details) from the given literary text, following a structured",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "चर्चा-बिंदु वे मुख्य विषय",
@@ -7740,7 +7740,7 @@ export const C6_HIN_GEN: SimDef[] = [
  },
  {
   "id": "gen_c6_hin_ch13",
-  "title": "'पृष्ठभूमि और रचनाकार परिचय' किसी पाठ",
+  "title": "पाठ 13",
   "subtitle": "HIN · Chapter 13",
   "classLevel": 6,
   "mode": "senior",
@@ -7805,19 +7805,19 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पात्र-चित्रण एक साहित्यिक विश्लेषण कौशल है",
     "text": "पात्र-चित्रण एक साहित्यिक विश्लेषण कौशल है जिसमें किसी कहानी या उपन्यास के प्रमुख पात्र (नायक) के बाह्य व्यक्तित्व (रूप-रंग, वेशभूषा), आंतरिक व्यक्तित्व (स्वभाव, विचार, भावनाएँ, प्रेरणाएँ), कथानक में भूमिका, अन्य पात्रों से संबंध, और कहानी के दौरान उसमें आए",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "सहायक पात्र वे पात्र",
     "text": "सहायक पात्र (Supporting Characters) वे पात्र होते हैं जो नायक/प्रमुख पात्र के साथ रहकर कथानक को आगे बढ़ाते हैं, नायक के चरित्र के विभिन्न पहलुओं को उजागर करते हैं, और कहानी में संघर्ष, सहयोग या विरोध के माध्यम से विषय-वस्तु (Theme) को गहराई देते हैं।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "मुख्य विषय वह केंद्रीय विचार है",
     "text": "मुख्य विषय वह केंद्रीय विचार है जिसे लेखक अपनी कहानी के माध्यम से बताना चाहता है, जबकि संदेश वह उपयोगी सीख है जिसे पाठक अपने जीवन में लागू कर सकता है।",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "गौण विषय वह द्वितीयक विचार या",
@@ -7847,7 +7847,7 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "पाठ में भाषा-प्रयोग का अर्थ है",
     "text": "पाठ में भाषा-प्रयोग का अर्थ है लेखक द्वारा शब्दों, वाक्य-रचना, काल, वाच्य, और विराम चिह्नों का जानबूझकर किया गया चुनाव ताकि भाव, अर्थ और प्रभाव स्पष्ट हो सके।",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Vastu-nishtha Questions Test Literal",
@@ -7859,19 +7859,19 @@ export const C6_HIN_GEN: SimDef[] = [
     "title": "आलोचनात्मक चिंतन किसी पाठ",
     "text": "आलोचनात्मक चिंतन (Critical Thinking) किसी पाठ को तार्किक ढंग से तोड़कर (विश्लेषण/Analysis) उसके भागों — विषय, पात्र, भाषा, युक्तियाँ — को समझना, फिर उन भागों का अर्थ निकालकर (व्याख्या/Interpretation) पाठ का गहरा मर्म बताना है, और हर दावे के लिए पाठ से प्रमाण",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "लेखन कौशल",
     "text": "लेखन कौशल: पाठ-आधारित का अर्थ है किसी पाठ (गद्य/पद्य) को पढ़कर, उससे संबंधित प्रश्नों के उत्तर देते समय प्वाइंट, एविडेंस, एक्सप्लेनेशन, लिंक (PEEL) संरचना का उपयोग करके तर्कसंगत और प्रमाण-आधारित उत्तर लिखना।",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "'वाचन-श्रवण",
     "text": "'वाचन-श्रवण: चर्चा-बिंदु' पाठ को पढ़ने (वाचन) और सुनने (श्रवण) के बाद, पाठ के मुख्य विषय, पात्रों के निर्णय, नैतिक दुविधाओं या सामाजिक संदेशों पर आधारित खुले प्रश्नों (open-ended questions) पर कक्षा में संवाद करने की प्रक्रिया है, जहाँ हर विद्यार्थी अपने तर्क",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    }
   ],
   "challenges": [

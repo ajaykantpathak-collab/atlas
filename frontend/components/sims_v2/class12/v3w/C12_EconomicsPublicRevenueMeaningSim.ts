@@ -11,7 +11,7 @@ export const w_c12_economicspublicrevenuemeaningsim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_003', 'c12_eco_cbse_01_008', 'c12_eco_cbse_11_001', 'c12_eco_cbse_11_006', 'c12_eco_cbse_04_006', 'c12_eco_cbse_01_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you hold a ₹500 note — notice the promise "I promise to pay the bearer the sum of five hundred.', goal: 'Master Functions of the Central Bank (RBI): Issuer of Currency and Banker to Government.' },
     discovery: {
         question: 'Compare the currency issue mechanism under the Proportional Reserve System (pre-1957) and the Minimum Reserve System (post-1957).',
@@ -20,7 +20,7 @@ export const w_c12_economicspublicrevenuemeaningsim: SimDef = {
         hook: '**Misconception:** "RBI prints money and gives it to the government to spend — that\'s how the fiscal deficit is.',
     },
     teaching: [
-        { title: 'The Reserve Bank of India (RBI) as the.', text: 'The Reserve Bank of India (RBI) as the central bank performs two foundational functions: (1) **Issuer of Currency** — it has the sole monopoly to issue banknotes (except one-rupee notes and coins.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Reserve Bank of India (RBI) as the.', text: 'The Reserve Bank of India (RBI) as the central bank performs two foundational functions: (1) **Issuer of Currency** — it has the sole monopoly to issue banknotes (except one-rupee notes and coins.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_09_003', title: 'The Reserve Bank of India (RBI) as the.',

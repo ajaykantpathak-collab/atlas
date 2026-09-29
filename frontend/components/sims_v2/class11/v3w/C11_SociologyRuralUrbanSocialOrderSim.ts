@@ -11,7 +11,7 @@ export const w_c11_sociologyruralurbansocialordersim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Social Change: Definition, Scope and the Historical Pace of Change',
     chapters: [],
     nodeIds: ['c11_soc_cbse_07_001', 'c11_soc_cbse_07_007', 'c11_soc_cbse_07_008', 'c11_soc_cbse_07_010', 'c11_soc_cbse_07_011', 'c11_soc_cbse_07_009', 'c11_soc_cbse_08_004', 'c11_soc_cbse_08_006', 'c11_soc_cbse_08_007', 'c11_soc_cbse_01_005', 'c11_soc_cbse_07_002', 'c11_soc_cbse_07_003', 'c11_soc_cbse_07_004', 'c11_soc_cbse_07_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by asking: "List five things in your daily life—smartphone, packaged milk, motorbike, internet, plastic.', goal: 'Master Social Change: Definition, Scope and the Historical Pace of Change.' },
     discovery: {
         question: 'State the core legal entitlement that MGNREGA provides to a rural household, and name the level of government primarily responsible for its implementation.',
@@ -20,7 +20,7 @@ export const w_c11_sociologyruralurbansocialordersim: SimDef = {
         hook: 'Students often think MGNREGA is just a \'cash transfer\' or \'free money\' scheme, ignoring that it is a *work-guarantee*.',
     },
     teaching: [
-        { title: 'Social change refers to significant.', text: 'Social change refers to significant alterations in the underlying structure of society—including its institutions, norms, values, and social relationships—that are both intensive (transforming.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Social change refers to significant.', text: 'Social change refers to significant alterations in the underlying structure of society—including its institutions, norms, values, and social relationships—that are both intensive (transforming.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_07_001', title: 'Social change refers to significant.',

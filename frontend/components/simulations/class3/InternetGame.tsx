@@ -41,21 +41,21 @@ const TEACHING_SLIDES = [
     title: 'What is the Internet? 🌍',
     text: 'The Internet is a vast worldwide network that connects millions of computers all over the world! It lets people share information, watch learning videos, and talk across countries instantly.',
     emoji: '🌐',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'The Internet is a vast worldwide network that connects millions of computers all over the world. It lets people share information, watch learning videos, and talk across countries instantly.',
   },
   {
     title: 'What is a Web Browser? 🖥️',
     text: 'A web browser is a special computer program like Google Chrome or Microsoft Edge. It acts as a door into the Internet, helping you look at websites, pictures, and games!',
     emoji: '🧭',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'A web browser is a special computer program like Google Chrome or Microsoft Edge. It acts as a door into the internet, helping you look at websites, pictures, and games.',
   },
   {
     title: 'The Address Bar & URL 🔗',
     text: 'At the top of your browser window is the address bar. This is where you type a website address called a URL (Uniform Resource Locator), like https://www.wikipedia.org, with NO spaces!',
     emoji: '⌨️',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'At the top of your browser window is the address bar. This is where you type a website address called a URL, like wikipedia.org, with no spaces.',
   },
   {
@@ -69,7 +69,7 @@ const TEACHING_SLIDES = [
     title: 'Safe Browsing Habits 🛡️',
     text: 'Always ask your parents before visiting new websites. Never share your home address or personal details online. Safe internet explorers are smart and careful explorers!',
     emoji: '🔒',
-    bgColor: 'from-indigo-400 to-purple-500',
+    bgColor: 'from-gold-400 to-purple-500',
     spoken: 'Always ask your parents before visiting new websites. Never share your home address or personal details online. Safe internet explorers are smart and careful explorers.',
   },
 ];
@@ -231,7 +231,7 @@ function WaseemMascot({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'think
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-300"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -522,7 +522,7 @@ interface SortCardProps {
 function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: SortCardProps) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-blue-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1">{label}</span>
       </div>
@@ -546,7 +546,7 @@ interface SortBinProps {
 function SortBin({ label, color, x, y, width, height, isHovering }: SortBinProps) {
   return (
     <div
-      className={`absolute rounded-2xl border-4 flex flex-col items-center justify-center p-2 shadow-inner transition-all duration-200 ${isHovering ? 'scale-105 bg-blue-50' : 'bg-white/90'}`}
+      className={`absolute rounded-2xl border-4 flex flex-col items-center justify-center p-2 shadow-inner transition-all duration-200 ${isHovering ? 'scale-105 bg-gold-50' : 'bg-white/90'}`}
       style={{ left: x, top: y, width, height, borderColor: color }}
     >
       <span className="text-xs font-bold text-gray-800 text-center">{label}</span>
@@ -775,12 +775,12 @@ export function InternetGame({ width = 720, height = 560, onComplete }: Internet
       {/* Top Header Bar */}
       <div className="relative z-10 flex items-center justify-between px-6 py-3 bg-slate-900/80 backdrop-blur-md border-b border-slate-700">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-blue-500 flex items-center justify-center shadow-md">
+          <div className="w-9 h-9 rounded-full bg-gold-500 flex items-center justify-center shadow-md">
             <span className="text-lg">🌐</span>
           </div>
           <div>
             <h1 className="text-sm font-extrabold text-white">Internet & Web Browser</h1>
-            <p className="text-[11px] font-medium text-blue-300">Class 3 • Computer Science</p>
+            <p className="text-[11px] font-medium text-gold-300">Class 3 • Computer Science</p>
           </div>
         </div>
 
@@ -832,7 +832,7 @@ export function InternetGame({ width = 720, height = 560, onComplete }: Internet
               </button>
               <button
                 onClick={handleNextSlide}
-                className="px-6 py-2.5 rounded-xl font-bold text-sm bg-white text-blue-900 shadow-lg hover:bg-blue-50 transition-all cursor-pointer"
+                className="px-6 py-2.5 rounded-xl font-bold text-sm bg-white text-gold-900 shadow-lg hover:bg-gold-50 transition-all cursor-pointer"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Playing! 🚀' : 'Next →'}
               </button>
@@ -861,7 +861,7 @@ export function InternetGame({ width = 720, height = 560, onComplete }: Internet
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleOptionSelect(option)}
-                    className="w-full py-3.5 px-5 bg-slate-800/90 hover:bg-blue-600 text-white font-semibold rounded-xl shadow-lg border border-slate-700 hover:border-blue-400 transition-all text-sm text-left flex items-center justify-between cursor-pointer"
+                    className="w-full py-3.5 px-5 bg-slate-800/90 hover:bg-gold-600 text-white font-semibold rounded-xl shadow-lg border border-slate-700 hover:border-gold-400 transition-all text-sm text-left flex items-center justify-between cursor-pointer"
                   >
                     <span>{option}</span>
                     <span className="w-5 h-5 rounded-full border border-slate-600 flex items-center justify-center text-xs text-slate-400">
@@ -934,7 +934,7 @@ export function InternetGame({ width = 720, height = 560, onComplete }: Internet
             audioManager.play('hint');
             speechManager.speak(currentChallenge.hint);
           }}
-          className="px-4 py-1.5 rounded-lg bg-blue-600/30 hover:bg-blue-600/50 text-blue-300 text-xs font-bold transition-all border border-blue-500/30 cursor-pointer"
+          className="px-4 py-1.5 rounded-lg bg-gold-600/30 hover:bg-gold-600/50 text-gold-300 text-xs font-bold transition-all border border-gold-500/30 cursor-pointer"
         >
           💡 Need Hint?
         </button>

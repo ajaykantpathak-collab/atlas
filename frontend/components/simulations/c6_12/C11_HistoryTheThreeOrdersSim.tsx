@@ -89,7 +89,7 @@ export function C11_HistoryTheThreeOrdersSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Field wage index</p>
-              <p className="font-mono font-bold text-sky-300">{wages}</p>
+              <p className="font-mono font-bold text-gold-300">{wages}</p>
             </div>
           </div>
         </div>
@@ -105,10 +105,10 @@ export function C11_HistoryTheThreeOrdersSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Church tithe</span><span className="font-mono font-bold text-violet-300">{tithe}%</span>
+                <span>Church tithe</span><span className="font-mono font-bold text-gold-300">{tithe}%</span>
               </div>
               <input type="range" min={0} max={25} step={1} value={tithe} aria-label="tithe"
-                onChange={(e) => setTithe(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setTithe(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

@@ -240,7 +240,7 @@ export default function C11_PhysicsSatelliteOrbitsSim() {
             <div className="mt-1.5 border-t border-white/10 pt-1.5 text-[10px] uppercase tracking-wider text-surface-500">gold probe (integrated)</div>
             <div className="flex justify-between"><span className="text-surface-500">launch factor k</span><span className="text-white">{kLaunch.toFixed(2)} × v_circ ({(kLaunch * vc / 1000).toFixed(2)} km/s)</span></div>
             <div className="flex justify-between"><span className="text-surface-500">current r</span><span className="text-white">{(live.r / 1000).toFixed(0)} km</span></div>
-            <div className="flex justify-between"><span className="text-surface-500">specific energy ε</span><span className={bound ? 'text-sky-300' : 'text-rose-300'}>{live.eps.toFixed(2)} (scene) {bound ? '· bound' : '· unbound'}</span></div>
+            <div className="flex justify-between"><span className="text-surface-500">specific energy ε</span><span className={bound ? 'text-gold-300' : 'text-rose-300'}>{live.eps.toFixed(2)} (scene) {bound ? '· bound' : '· unbound'}</span></div>
             <div className="flex justify-between"><span className="text-surface-500">verdict</span><span className="text-gold-300">{cls}</span></div>
           </div>
         </div>

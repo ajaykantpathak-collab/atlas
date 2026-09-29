@@ -43,9 +43,9 @@ export function C11_PhysicsUnitsAndMeasurementSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700 font-mono">+/-</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">+/-</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 11 -- Units and Measurement</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Units and Measurement</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Measuring g: Precision, Error Propagation, Dimensions</h1>
         </div>
       </div>
@@ -81,7 +81,7 @@ export function C11_PhysicsUnitsAndMeasurementSim() {
           </svg>
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-2 gap-2">
-            <div><span className="text-slate-500">Measured total time</span><div className="text-sky-300 font-bold text-sm">{tMeasured.toFixed(2)} s for {oscillations} swings</div></div>
+            <div><span className="text-slate-500">Measured total time</span><div className="text-gold-300 font-bold text-sm">{tMeasured.toFixed(2)} s for {oscillations} swings</div></div>
             <div><span className="text-slate-500">T = t/N</span><div className="text-amber-300 font-bold text-sm">{Tmeas.toFixed(4)} s</div></div>
             <div><span className="text-slate-500">g = 4 pi^2 L / T^2</span><div className="text-rose-300 font-bold text-sm">{gMeas.toFixed(3)} m/s^2</div></div>
             <div><span className="text-slate-500">Bias vs truth</span><div className={`${Math.abs(bias) < relErrG * 100 ? 'text-emerald-300' : 'text-rose-400'} font-bold text-sm`}>{bias >= 0 ? '+' : ''}{bias.toFixed(2)} %</div></div>
@@ -92,17 +92,17 @@ export function C11_PhysicsUnitsAndMeasurementSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Pendulum length L</span><span className="font-mono font-bold text-sky-400">{lengthCm} cm</span>
+                <span>Pendulum length L</span><span className="font-mono font-bold text-gold-400">{lengthCm} cm</span>
               </div>
               <input type="range" min={20} max={200} step={1} value={lengthCm} aria-label="Pendulum length"
-                onChange={(e) => setLengthCm(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setLengthCm(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Length uncertainty dL</span><span className="font-mono font-bold text-indigo-400">{dLengthMm} mm</span>
+                <span>Length uncertainty dL</span><span className="font-mono font-bold text-gold-400">{dLengthMm} mm</span>
               </div>
               <input type="range" min={1} max={20} step={1} value={dLengthMm} aria-label="Length uncertainty"
-                onChange={(e) => setDLengthMm(Number(e.target.value))} className="w-full accent-indigo-500" />
+                onChange={(e) => setDLengthMm(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -127,17 +127,17 @@ export function C11_PhysicsUnitsAndMeasurementSim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-cyan-800/60 p-4 text-xs font-mono">
-            <div className="text-cyan-300 font-bold mb-1">Error propagation (max-limit rule)</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono">
+            <div className="text-gold-300 font-bold mb-1">Error propagation (max-limit rule)</div>
             <div className="text-slate-400">dg/g = dL/L + 2 dT/T</div>
             <div className="text-slate-300 mt-1">
-              = {(dL / L).toFixed(4)} + {((2 * dT) / Tmeas).toFixed(4)} = <span className="text-cyan-300 font-bold">{(relErrG * 100).toFixed(2)} %</span>
+              = {(dL / L).toFixed(4)} + {((2 * dT) / Tmeas).toFixed(4)} = <span className="text-gold-300 font-bold">{(relErrG * 100).toFixed(2)} %</span>
             </div>
             <div className="text-slate-500 mt-1 text-[10px]">Counting 20+ swings divides the reaction error by N -- the classic trick.</div>
           </div>
 
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-2">
-            <p className="text-xs font-bold text-cyan-300">Dimensional elimination: which formula CAN be a period?</p>
+            <p className="text-xs font-bold text-gold-300">Dimensional elimination: which formula CAN be a period?</p>
             {candidates.map((c, i) => (
               <button key={i} onClick={() => setFormulaChoice(i)}
                 className={`w-full text-left px-3 py-2 rounded-xl text-[11px] font-mono transition ${formulaChoice === i ? (c.valid ? 'bg-emerald-950 border border-emerald-500 text-emerald-200' : 'bg-rose-950 border border-rose-500 text-rose-200') : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
@@ -151,8 +151,8 @@ export function C11_PhysicsUnitsAndMeasurementSim() {
             )}
           </div>
 
-          <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-            <p className="font-bold text-cyan-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Set bias +1.0 s and find N that pushes the bias INSIDE the error bar (grey band covers green line). Compare N = 5 vs N = 50.</p>
             <p>2. Make dL/L equal to 2dT/T. Which slider had to move more, and what does that say about the dominant error source?</p>
           </div>

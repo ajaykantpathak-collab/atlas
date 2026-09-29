@@ -11,7 +11,7 @@ export const w_c12_biotechplanttissueculturecbsesim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'History and Milestones of Plant Tissue Culture',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_003', 'c12_biotech_cbse_06_004', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_007', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_011', 'c12_biotech_cbse_07_001', 'c12_biotech_cbse_07_003', 'c12_biotech_cbse_07_005', 'c12_biotech_cbse_07_006', 'c12_biotech_cbse_07_010', 'c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_07_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a plant breeder in 1900 trying to propagate a rare medicinal plant that produces seeds only.', goal: 'Master History and Milestones of Plant Tissue Culture.' },
     discovery: {
         question: 'A student prepares MS medium but forgets to add the iron source (FeSO₄·7H₂O and Na₂EDTA).',
@@ -20,7 +20,7 @@ export const w_c12_biotechplanttissueculturecbsesim: SimDef = {
         hook: 'Students often think "MS medium" is a single fixed recipe that must never be altered.',
     },
     teaching: [
-        { title: 'The history and milestones of plant tissue.', text: 'The history and milestones of plant tissue culture trace the chronological development of in vitro plant cultivation from Gottlieb Haberlandt\'s 1902 concept of cellular totipotency through key.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The history and milestones of plant tissue.', text: 'The history and milestones of plant tissue culture trace the chronological development of in vitro plant cultivation from Gottlieb Haberlandt\'s 1902 concept of cellular totipotency through key.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_002', title: 'The history and milestones of plant.',

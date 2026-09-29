@@ -165,9 +165,9 @@ function C6_MathematicsPerimeterAndAreaSim() {
         </div>
       )}
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Make two different rectangles that BOTH have perimeter 20 (try 9x1, 8x2, 6x4...). Which one has the biggest area? What shape wins?</li>
           <li>Set width 6 and height 4, then switch to the triangle. Its area is exactly HALF the rectangle -- can you see why from the tiles?</li>
         </ol>

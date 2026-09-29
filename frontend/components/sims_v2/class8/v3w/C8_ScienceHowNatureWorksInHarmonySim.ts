@@ -11,7 +11,7 @@ export const w_c8_sciencehownatureworksinharmonysim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Electromagnet: Construction and Working Principle',
     chapters: [],
     nodeIds: ['c8_physics_ch2_3', 'c8_physics_ch2_10', 'c8_physics_ch2_4', 'c8_physics_ch2_5', 'c8_physics_ch2_8', 'c8_physics_ch2_9', 'c8_physics_ch6_8', 'c8_physics_ch4_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Observe how a doorbell works — when you press the button, a metal striker hits the bell, but there is no.', goal: 'Master Electromagnet: Construction and Working Principle.' },
     discovery: {
         question: 'You wind 100 turns of insulated copper wire around a soft iron nail and connect it to a 1.5 V cell. The nail picks up 5 paper clips.',
@@ -20,7 +20,7 @@ export const w_c8_sciencehownatureworksinharmonysim: SimDef = {
         hook: 'Students think the iron core becomes a permanent magnet that "stores" magnetism like a battery stores charge.',
     },
     teaching: [
-        { title: 'An electromagnet is a temporary magnet.', text: 'An electromagnet is a temporary magnet created by passing an electric current through a coil of insulated copper wire wound around a soft iron core; it exhibits magnetic properties only while current.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An electromagnet is a temporary magnet.', text: 'An electromagnet is a temporary magnet created by passing an electric current through a coil of insulated copper wire wound around a soft iron core; it exhibits magnetic properties only while current.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch2_3', title: 'An electromagnet is a temporary magnet.',

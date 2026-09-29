@@ -11,7 +11,7 @@ export const w_c11_ecoindianeconomycbsesim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Planning and Five Year Plans: Objectives and Features',
     chapters: [],
     nodeIds: ['c11_eco_cbse_02_001', 'c11_eco_cbse_01_005', 'c11_eco_cbse_01_012', 'c11_eco_cbse_07_007', 'c11_eco_cbse_03_008', 'c11_eco_cbse_02_003', 'c11_eco_cbse_02_004', 'c11_eco_cbse_02_007', 'c11_eco_cbse_02_008', 'c11_eco_cbse_02_011', 'c11_eco_cbse_01_002', 'c11_eco_cbse_01_011', 'c11_eco_cbse_02_005', 'c11_eco_cbse_02_006', 'c11_eco_cbse_02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine your family is planning a major home renovation over the next five years.', goal: 'Master Planning and Five Year Plans: Objectives and Features.' },
     discovery: {
         question: 'Compare the impact of railways on (a) village self-sufficiency and (b) volume of India\'s exports.',
@@ -20,7 +20,7 @@ export const w_c11_ecoindianeconomycbsesim: SimDef = {
         hook: 'Students often believe that because the British built a vast railway network, they "modernised" India\'s economy.',
     },
     teaching: [
-        { title: 'A Five Year Plan in India is a comprehensive.', text: 'A Five Year Plan in India is a comprehensive policy document formulated by the Planning Commission (now NITI Aayog) that specifies the quantitative targets and qualitative objectives for the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Five Year Plan in India is a comprehensive.', text: 'A Five Year Plan in India is a comprehensive policy document formulated by the Planning Commission (now NITI Aayog) that specifies the quantitative targets and qualitative objectives for the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_02_001', title: 'A Five Year Plan in India is a.',

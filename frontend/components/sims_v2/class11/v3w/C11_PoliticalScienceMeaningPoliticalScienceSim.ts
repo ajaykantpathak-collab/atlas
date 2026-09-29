@@ -11,7 +11,7 @@ export const w_c11_politicalsciencemeaningpoliticalsciencesim: SimDef = {
     classLevel: 11, subject: 'political_science', topic: 'Equality of opportunity: Meaning and limits',
     chapters: [],
     nodeIds: ['c11_ps_cbse_03_003', 'c11_ps_cbse_03_004', 'c11_ps_cbse_03_009', 'c11_ps_cbse_04_004', 'c11_ps_cbse_04_006', 'c11_ps_cbse_09_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine two Class 11 students, Arjun and Bina, both preparing for the NEET medical entrance exam.', goal: 'Master Equality of opportunity: Meaning and limits.' },
     discovery: {
         question: 'A state government introduces a policy: "All candidates for the state civil services exam must pay a ₹50,000 application fee, waived only for SC/ST.',
@@ -20,7 +20,7 @@ export const w_c11_politicalsciencemeaningpoliticalsciencesim: SimDef = {
         hook: 'Students believe **equality of opportunity means "same rules for everyone" (formal equality)** and therefore view any.',
     },
     teaching: [
-        { title: 'Equality of opportunity is the principle.', text: 'Equality of opportunity is the principle that all individuals should have the same legal rights and fair access to social goods (education, healthcare, employment) to develop their talents and pursue.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Equality of opportunity is the principle.', text: 'Equality of opportunity is the principle that all individuals should have the same legal rights and fair access to social goods (education, healthcare, employment) to develop their talents and pursue.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ps_cbse_03_003', title: 'Equality of opportunity is the.',

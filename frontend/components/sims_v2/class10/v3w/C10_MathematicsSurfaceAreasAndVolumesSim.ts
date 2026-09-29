@@ -11,11 +11,11 @@ export const w_c10_mathematicssurfaceareasandvolumessim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Area of a Combination of Plane Figures (Circle + Polygon)',
     chapters: [],
     nodeIds: ['c10_math_cbse_11_008', 'c10_math_cbse_12_005', 'c10_math_cbse_12_009', 'c10_math_cbse_12_010', 'c10_math_cbse_11_010', 'c10_math_cbse_12_001', 'c10_math_cbse_12_002', 'c10_math_cbse_12_006', 'c10_math_cbse_12_007', 'c10_math_cbse_12_003', 'c10_math_cbse_12_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine a circular park with a square fountain built inside it.', goal: 'Master Area of a Combination of Plane Figures (Circle + Polygon).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The area of a combination of plane figures.', text: 'The area of a combination of plane figures (such as a circle and a polygon) is found by adding or subtracting the areas of the individual component shapes.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The area of a combination of plane figures.', text: 'The area of a combination of plane figures (such as a circle and a polygon) is found by adding or subtracting the areas of the individual component shapes.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_11_008', title: 'The area of a combination of plane.',

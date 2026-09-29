@@ -879,9 +879,9 @@ const REAL_WORLD_ACTIVITY = {
 function RiskPoolingSvgDiagram({ poolSize = 1000 }: { poolSize: number }) {
   const stabilityPct = Math.min(100, Math.round(20 + Math.log10(poolSize) * 20));
   return (
-    <div className="w-full bg-slate-950 p-4 rounded-2xl border border-indigo-900/60 flex flex-col items-center">
+    <div className="w-full bg-slate-950 p-4 rounded-2xl border border-gold-900/60 flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-2 px-2">
-        <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">SVG Diagram 1: Actuarial Risk Pooling Mechanism</span>
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">SVG Diagram 1: Actuarial Risk Pooling Mechanism</span>
         <span className="text-xs text-emerald-400 font-mono">Pool Stability: {stabilityPct}%</span>
       </div>
       <svg viewBox="0 0 800 320" className="w-full h-auto max-h-72 select-none" aria-label="Risk Pooling Architecture Diagram">
@@ -1058,9 +1058,9 @@ function PrinciplesEcosystemSvgDiagram() {
   ];
 
   return (
-    <div className="w-full bg-slate-950 p-4 rounded-2xl border border-indigo-900/60 flex flex-col items-center">
+    <div className="w-full bg-slate-950 p-4 rounded-2xl border border-gold-900/60 flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-2 px-2">
-        <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">SVG Diagram 2: 7 Cardinal Principles of Insurance Law</span>
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">SVG Diagram 2: 7 Cardinal Principles of Insurance Law</span>
         <span className="text-xs text-slate-400">Hover nodes to reveal judicial doctrine</span>
       </div>
       <svg viewBox="0 0 800 380" className="w-full h-auto max-h-80 select-none" aria-label="7 Principles of Insurance Ecosystem Diagram">
@@ -1133,7 +1133,7 @@ function PrinciplesEcosystemSvgDiagram() {
         })}
       </svg>
       {hoveredPrinciple !== null && (
-        <div className="w-full mt-2 p-3 bg-indigo-950/80 rounded-xl border border-indigo-700 text-xs text-indigo-200 text-center">
+        <div className="w-full mt-2 p-3 bg-gold-950/80 rounded-xl border border-gold-700 text-xs text-gold-200 text-center">
           <span className="font-bold text-white">{principles[hoveredPrinciple].title}: </span>
           {hoveredPrinciple === 0 && 'Both proposer and insurer must disclose all material facts fully without concealment (Carter v Boehm).'}
           {hoveredPrinciple === 1 && 'Proposer must suffer direct financial loss upon destruction of subject-matter (Dalby Case).'}
@@ -1161,9 +1161,9 @@ function ReinsuranceLayeringSvgDiagram({
   retrocession: number;
 }) {
   return (
-    <div className="w-full bg-slate-950 p-4 rounded-2xl border border-indigo-900/60 flex flex-col items-center">
+    <div className="w-full bg-slate-950 p-4 rounded-2xl border border-gold-900/60 flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-2 px-2">
-        <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">SVG Diagram 3: Treaty Re-insurance & Retrocession Waterfall</span>
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">SVG Diagram 3: Treaty Re-insurance & Retrocession Waterfall</span>
         <span className="text-xs text-purple-400 font-mono">₹1,000 Cr Risk Allocation</span>
       </div>
       <svg viewBox="0 0 800 300" className="w-full h-auto max-h-72 select-none" aria-label="Reinsurance Layering Architecture Diagram">
@@ -1679,12 +1679,12 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15, scale: 1.2 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ISC Class 11 Business Studies • Statutory Nodes: c11_bs_031 to c11_bs_035</p>
@@ -1696,7 +1696,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
           <button
             onClick={() => setActiveTab('simulation')}
             className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              activeTab === 'simulation' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+              activeTab === 'simulation' ? 'bg-gold-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
             }`}
           >
             🎮 Risk Engine
@@ -1704,7 +1704,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
           <button
             onClick={() => setActiveTab('caselaws')}
             className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              activeTab === 'caselaws' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+              activeTab === 'caselaws' ? 'bg-gold-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
             }`}
           >
             ⚖️ Landmark Cases ({LANDMARK_CASE_LAWS.length})
@@ -1712,7 +1712,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
           <button
             onClick={() => setActiveTab('statutes')}
             className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              activeTab === 'statutes' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+              activeTab === 'statutes' ? 'bg-gold-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
             }`}
           >
             📜 Statutes & Acts
@@ -1730,7 +1730,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1753,7 +1753,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
             </div>
             <button
               onClick={() => setActiveTab('simulation')}
-              className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+              className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
             >
               Back to Sim
             </button>
@@ -1762,8 +1762,8 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
             {LANDMARK_CASE_LAWS.map((c, i) => (
               <div key={i} className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-2">
                 <div className="flex justify-between items-start">
-                  <h3 className="text-sm font-bold text-indigo-300">{c.name}</h3>
-                  <span className="text-[10px] bg-indigo-950 text-indigo-400 px-2 py-0.5 rounded border border-indigo-800">
+                  <h3 className="text-sm font-bold text-gold-300">{c.name}</h3>
+                  <span className="text-[10px] bg-gold-950 text-gold-400 px-2 py-0.5 rounded border border-gold-800">
                     {c.doctrine}
                   </span>
                 </div>
@@ -1787,7 +1787,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
             </div>
             <button
               onClick={() => setActiveTab('simulation')}
-              className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+              className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
             >
               Back to Sim
             </button>
@@ -1813,21 +1813,21 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
           {phase === 'discovery' && (
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
               {/* Executive Scenario Narrative */}
-              <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl space-y-4">
-                <div className="flex items-center gap-2 text-indigo-400 font-semibold text-xs tracking-wider uppercase">
+              <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl space-y-4">
+                <div className="flex items-center gap-2 text-gold-400 font-semibold text-xs tracking-wider uppercase">
                   <span>⚡</span>
                   <span>CRO EXECUTIVE CRISIS DIRECTIVE</span>
                 </div>
                 <h2 className="text-2xl font-extrabold text-white">{SCENARIO.title}</h2>
                 <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-                <div className="p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-300/90">
+                <div className="p-3 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-300/90">
                   {SCENARIO.context}
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
                   {SCENARIO.milestones.map((m, i) => (
                     <div key={i} className="p-3 bg-slate-900/70 rounded-xl border border-slate-800 text-xs">
-                      <span className="font-bold text-indigo-400 block mb-0.5">{m.title}</span>
+                      <span className="font-bold text-gold-400 block mb-0.5">{m.title}</span>
                       <span className="text-slate-400">{m.desc}</span>
                     </div>
                   ))}
@@ -1859,7 +1859,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                           : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {option}
                     </motion.button>
                   ))}
@@ -1877,7 +1877,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                       <span className="text-xs font-bold text-slate-400 block uppercase">Legal Step-by-Step Adjudication:</span>
                       {DISCOVERY_QUESTION.analysisSteps.map((step, sIdx) => (
                         <p key={sIdx} className="text-xs text-slate-300 flex items-start gap-2">
-                          <span className="text-indigo-400 font-bold">✓</span>
+                          <span className="text-gold-400 font-bold">✓</span>
                           <span>{step}</span>
                         </p>
                       ))}
@@ -1888,7 +1888,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleAdvanceToExploration}
-                        className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
+                        className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
                       >
                         <span>Enter Guided Interactive Risk Labs</span>
                         <span>→</span>
@@ -1907,7 +1907,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
               {/* Progress Navigator */}
               <div className="flex items-center justify-between bg-slate-900/80 p-3 rounded-2xl border border-slate-800">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Interactive Risk Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <div className="flex gap-1.5">
@@ -1915,7 +1915,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                     <div
                       key={i}
                       className={`h-2 rounded-full transition-all duration-300 ${
-                        i === currentSlide ? 'w-8 bg-indigo-500' : i < currentSlide ? 'w-3 bg-emerald-500' : 'w-3 bg-slate-700'
+                        i === currentSlide ? 'w-8 bg-gold-500' : i < currentSlide ? 'w-3 bg-emerald-500' : 'w-3 bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1949,7 +1949,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         <div className="flex flex-wrap items-center justify-between gap-4">
                           <div>
                             <label className="text-xs text-slate-400 block mb-1">Pool Size (N Insured Units):</label>
-                            <span className="text-2xl font-bold text-indigo-400">{poolMembers.toLocaleString()} Lives / Units</span>
+                            <span className="text-2xl font-bold text-gold-400">{poolMembers.toLocaleString()} Lives / Units</span>
                           </div>
                           <div className="w-full md:w-80">
                             <input
@@ -1963,7 +1963,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                                 audioManager.play('count');
                               }}
                               aria-label="Adjust pool size slider"
-                              className="w-full accent-indigo-500 cursor-pointer"
+                              className="w-full accent-gold-500 cursor-pointer"
                             />
                             <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                               <span>100 (High Volatility)</span>
@@ -1998,7 +1998,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         </div>
 
                         {/* Guided Observation Check */}
-                        <div className="p-4 bg-slate-900 rounded-xl border border-indigo-900/50">
+                        <div className="p-4 bg-slate-900 rounded-xl border border-gold-900/50">
                           <p className="text-sm font-semibold text-white mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, idx) => (
@@ -2031,8 +2031,8 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                       <div className="space-y-4 bg-slate-950 p-5 rounded-2xl border border-slate-800/80">
                         {/* Predict-First Question Hook */}
                         {!predictionMade && (
-                          <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800">
-                            <p className="text-sm font-bold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                          <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800">
+                            <p className="text-sm font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                               {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
                                 <motion.button
@@ -2063,13 +2063,13 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                                 audioManager.play('count');
                               }}
                               aria-label="Stock Value Slider"
-                              className="w-full accent-blue-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
 
                           <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                             <label className="text-xs text-slate-400 block mb-1">Sum Insured (Policy Ceiling)</label>
-                            <span className="text-xl font-bold text-indigo-400 mb-2 block">₹{sumInsured} Lakh</span>
+                            <span className="text-xl font-bold text-gold-400 mb-2 block">₹{sumInsured} Lakh</span>
                             <input
                               type="range"
                               min={10}
@@ -2080,7 +2080,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                                 audioManager.play('count');
                               }}
                               aria-label="Sum Insured Slider"
-                              className="w-full accent-indigo-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
 
@@ -2110,7 +2110,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                               id="avgClauseToggle"
                               checked={applyAverageClause}
                               onChange={(e) => setApplyAverageClause(e.target.checked)}
-                              className="h-4 w-4 accent-indigo-600 rounded cursor-pointer"
+                              className="h-4 w-4 accent-gold-600 rounded cursor-pointer"
                             />
                             <label htmlFor="avgClauseToggle" className="text-xs text-slate-300 font-semibold cursor-pointer">
                               Apply Average Clause (Enforces Pro-Rata Under-Insurance Penalty on Partial Losses)
@@ -2124,15 +2124,15 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         </div>
 
                         {/* Calculated Payout Panel */}
-                        <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/50 to-slate-900 rounded-2xl border border-indigo-800 flex flex-col md:flex-row items-center justify-between gap-4">
+                        <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/50 to-slate-900 rounded-2xl border border-gold-800 flex flex-col md:flex-row items-center justify-between gap-4">
                           <div>
                             <span className="text-xs uppercase font-bold text-slate-400 block">Surveyor Admitted Indemnity Payout</span>
                             <h4 className="text-3xl font-extrabold text-emerald-400">₹{calculatedIndemnityPayout} Lakh</h4>
                             <p className="text-xs text-slate-400 mt-1">
                               {applyAverageClause && isUnderInsured ? (
-                                <span>Formula: <code className="bg-slate-800 px-1.5 py-0.5 rounded text-indigo-300">(₹{sumInsured}L / ₹{stockValue}L) × ₹{actualLoss}L = ₹{calculatedIndemnityPayout}L</code></span>
+                                <span>Formula: <code className="bg-slate-800 px-1.5 py-0.5 rounded text-gold-300">(₹{sumInsured}L / ₹{stockValue}L) × ₹{actualLoss}L = ₹{calculatedIndemnityPayout}L</code></span>
                               ) : (
-                                <span>Formula: <code className="bg-slate-800 px-1.5 py-0.5 rounded text-indigo-300">Min(Loss: ₹{actualLoss}L, Sum Insured: ₹{sumInsured}L)</code></span>
+                                <span>Formula: <code className="bg-slate-800 px-1.5 py-0.5 rounded text-gold-300">Min(Loss: ₹{actualLoss}L, Sum Insured: ₹{sumInsured}L)</code></span>
                               )}
                             </p>
                           </div>
@@ -2155,7 +2155,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                     <div className="space-y-6">
                       <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                         <div className="flex justify-between items-center">
-                          <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Multi-Link Causation Chain Lab</span>
+                          <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Multi-Link Causation Chain Lab</span>
                           <span className="text-xs text-slate-400">Hamilton v. Pandorf (1887) Case Study</span>
                         </div>
                         <p className="text-xs text-slate-300">
@@ -2179,11 +2179,11 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                               }}
                               className={`p-4 rounded-xl cursor-pointer border transition-all ${
                                 activeCauseStep === item.step
-                                  ? 'bg-indigo-950/90 border-indigo-500 ring-2 ring-indigo-400/30'
+                                  ? 'bg-gold-950/90 border-gold-500 ring-2 ring-gold-400/30'
                                   : 'bg-slate-900 border-slate-800 hover:border-slate-700'
                               }`}
                             >
-                              <span className="text-xs font-bold text-indigo-400 block mb-1">Link #{item.step}</span>
+                              <span className="text-xs font-bold text-gold-400 block mb-1">Link #{item.step}</span>
                               <h4 className="font-bold text-white text-sm mb-1">{item.title}</h4>
                               <span className={`text-[10px] font-bold px-2 py-0.5 rounded inline-block mb-2 ${
                                 item.step === 2
@@ -2198,7 +2198,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         </div>
 
                         {activeCauseStep !== null && (
-                          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 text-xs text-indigo-200 leading-relaxed">
+                          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 text-xs text-gold-200 leading-relaxed">
                             <span className="font-bold text-white">Judicial Ruling Breakdown: </span>
                             In <em>Hamilton, Fraser & Co v. Pandorf (1887)</em>, the House of Lords held that the active, efficient, proximate cause was the incursion of sea water, which is a Peril of the Sea. The rat bites were a remote cause. Therefore, the claim was fully admitted despite the policy excluding vermin damage!
                           </motion.div>
@@ -2221,7 +2221,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                             <label className="text-xs text-slate-400 block mb-1">Direct Insurer Net Retention Limit (%)</label>
-                            <span className="text-xl font-bold text-blue-400 mb-2 block">{retentionPct}% (₹{10 * retentionPct} Crore)</span>
+                            <span className="text-xl font-bold text-gold-400 mb-2 block">{retentionPct}% (₹{10 * retentionPct} Crore)</span>
                             <input
                               type="range"
                               min={10}
@@ -2232,7 +2232,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                                 audioManager.play('count');
                               }}
                               aria-label="Direct insurer retention slider"
-                              className="w-full accent-blue-500"
+                              className="w-full accent-gold-500"
                             />
                           </div>
 
@@ -2259,7 +2259,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                           <div>
                             <span className="text-xs text-slate-400 uppercase font-bold block">₹500 Crore Cyclone Claim Settlement Split</span>
                             <div className="flex gap-4 mt-1 text-xs">
-                              <span className="text-blue-400 font-bold">Cedant: ₹{(500 * (retentionPct / 100)).toFixed(1)} Cr</span>
+                              <span className="text-gold-400 font-bold">Cedant: ₹{(500 * (retentionPct / 100)).toFixed(1)} Cr</span>
                               <span className="text-emerald-400 font-bold">GIC Re: ₹{(500 * (gicReSharePct / 100)).toFixed(1)} Cr</span>
                               <span className="text-purple-400 font-bold">Retrocession: ₹{(500 * (globalRetrocessionPct / 100)).toFixed(1)} Cr</span>
                             </div>
@@ -2275,7 +2275,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                     <div className="space-y-6">
                       <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                         <div className="flex justify-between items-center">
-                          <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Multi-Line Asset Binding Lab</span>
+                          <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Multi-Line Asset Binding Lab</span>
                           <span className="text-xs text-slate-400">ISC Class 11 Corporate Taxonomy</span>
                         </div>
                         <p className="text-xs text-slate-300">
@@ -2302,7 +2302,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                               }}
                               className={`p-3.5 rounded-xl text-left border transition-all ${
                                 portfolioCoverage[asset.id]
-                                  ? 'bg-indigo-950/80 border-indigo-500 ring-1 ring-indigo-400/30'
+                                  ? 'bg-gold-950/80 border-gold-500 ring-1 ring-gold-400/30'
                                   : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                               }`}
                             >
@@ -2344,7 +2344,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('whoosh');
                     }}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm rounded-xl font-bold shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm rounded-xl font-bold shadow-lg"
                   >
                     Next Lab →
                   </motion.button>
@@ -2388,7 +2388,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                       value={stockValue}
                       onChange={(e) => setStockValue(Number(e.target.value))}
                       aria-label="Sandbox stock slider"
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -2401,7 +2401,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                       value={sumInsured}
                       onChange={(e) => setSumInsured(Number(e.target.value))}
                       aria-label="Sandbox sum insured slider"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -2419,7 +2419,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                   </div>
                 </div>
 
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 flex justify-between items-center">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 flex justify-between items-center">
                   <div>
                     <span className="text-xs text-slate-400 block">Calculated Claim Indemnity Payout:</span>
                     <span className="text-2xl font-bold text-emerald-400">₹{calculatedIndemnityPayout} Lakh</span>
@@ -2451,7 +2451,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
               {/* Challenge Header */}
               <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900/90 p-4 rounded-2xl border border-slate-800">
                 <div>
-                  <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider block">
+                  <span className="text-xs text-gold-400 font-bold uppercase tracking-wider block">
                     Challenge {currentChallenge + 1} of {filteredChallenges.length}
                   </span>
                   <span className="text-xs text-slate-400">
@@ -2463,7 +2463,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                 <div className="w-full md:w-64">
                   <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                     <motion.div
-                      className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                      className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                       animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                     />
                   </div>
@@ -2481,8 +2481,8 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                 }`}
               >
                 {challenge.scenarioSnippet && (
-                  <div className="mb-3 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-indigo-300">
-                    <span className="font-bold text-indigo-400">Case Scenario: </span>{challenge.scenarioSnippet}
+                  <div className="mb-3 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-gold-300">
+                    <span className="font-bold text-gold-400">Case Scenario: </span>{challenge.scenarioSnippet}
                   </div>
                 )}
 
@@ -2505,7 +2505,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                             : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                         }`}
                       >
-                        <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                         {opt}
                       </motion.button>
                     ))}
@@ -2525,7 +2525,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                           whileTap={{ scale: 0.95 }}
                           role="button"
                           aria-label={`Draggable label: ${item.label}`}
-                          className="px-3.5 py-2 bg-indigo-700 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                          className="px-3.5 py-2 bg-gold-700 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                         >
                           {item.label}
                         </motion.div>
@@ -2559,7 +2559,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(droppedLabels)}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                     >
                       Verify Legal Mappings
                     </motion.button>
@@ -2587,7 +2587,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         whileTap={{ scale: 0.99 }}
                         className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="h-6 w-6 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold">
+                        <span className="h-6 w-6 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2602,7 +2602,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         handleAnswer(answer);
                       }}
                       disabled={showExplanation}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                     >
                       Validate Sequence
                     </motion.button>
@@ -2619,7 +2619,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         onChange={(e) => setNumericInput(e.target.value)}
                         placeholder="Enter numerical value..."
                         aria-label="Numeric answer input"
-                        className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500"
+                        className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                       />
                       <span className="text-xs font-semibold text-slate-400 whitespace-nowrap">{challenge.unit}</span>
                       <motion.button
@@ -2627,7 +2627,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleAnswer(numericInput)}
                         disabled={showExplanation || !numericInput}
-                        className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                        className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                       >
                         Submit
                       </motion.button>
@@ -2646,7 +2646,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setConstructParts(prev => [...prev, part])}
-                          className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs rounded-lg font-medium"
+                          className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs rounded-lg font-medium"
                         >
                           + {part}
                         </motion.button>
@@ -2659,7 +2659,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                           key={i}
                           initial={{ scale: 0.8 }}
                           animate={{ scale: 1 }}
-                          className="px-2.5 py-1 bg-indigo-900 text-indigo-200 rounded-lg text-xs font-mono flex items-center gap-1.5 border border-indigo-700"
+                          className="px-2.5 py-1 bg-gold-900 text-gold-200 rounded-lg text-xs font-mono flex items-center gap-1.5 border border-gold-700"
                         >
                           {part}
                           <button
@@ -2681,7 +2681,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleAnswer(constructParts.join(' '))}
                         disabled={constructParts.length === 0 || showExplanation}
-                        className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                        className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                       >
                         Validate Formula
                       </motion.button>
@@ -2754,11 +2754,11 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
           {phase === 'complete' && (
             <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
               {/* Executive Milestone Score Banner */}
-              <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800 text-center space-y-3">
+              <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-800 text-center space-y-3">
                 <span className="text-4xl">🏆</span>
                 <h2 className="text-2xl md:text-3xl font-extrabold text-white">Chief Risk Officer Capstone Mastered!</h2>
                 <p className="text-slate-300 text-sm max-w-lg mx-auto">
-                  Final Assessed Score: <span className="font-bold text-emerald-400">{Math.max(0, 100 - errors * 3)}%</span> • Mastery Tier: <span className="font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                  Final Assessed Score: <span className="font-bold text-emerald-400">{Math.max(0, 100 - errors * 3)}%</span> • Mastery Tier: <span className="font-bold text-gold-400 capitalize">{masteryLevel}</span>
                 </p>
 
                 <div className="p-4 bg-emerald-950/50 rounded-xl border border-emerald-800/80 max-w-xl mx-auto text-xs text-emerald-300 leading-relaxed">
@@ -2806,7 +2806,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
 
               {/* Real World Executive Memorandum */}
               <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-                <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+                <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
                   <span>💼</span>
                   <span>{REAL_WORLD_ACTIVITY.title}</span>
                 </h3>
@@ -2814,7 +2814,7 @@ export function C11_BusinessStudiesInsuranceMeaningFeaturesSim({
                 <div className="space-y-2">
                   {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                     <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                      <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                      <span className="text-gold-400 font-bold">{idx + 1}.</span>
                       <span>{step}</span>
                     </div>
                   ))}

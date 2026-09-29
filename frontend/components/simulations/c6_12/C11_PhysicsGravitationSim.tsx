@@ -67,9 +67,9 @@ export function C11_PhysicsGravitationSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 font-mono">g</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">g</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 11 -- Gravitation</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Gravitation</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Design a Planet, Launch a Satellite</h1>
         </div>
       </div>
@@ -117,24 +117,24 @@ export function C11_PhysicsGravitationSim() {
               {PRESETS.map((p) => (
                 <button key={p.name}
                   onClick={() => { setMassE(p.mass); setRadiusKm(p.radius); }}
-                  className={`px-2.5 py-1 rounded-lg text-xs font-bold transition ${massE === p.mass ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}>
+                  className={`px-2.5 py-1 rounded-lg text-xs font-bold transition ${massE === p.mass ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}>
                   {p.name}
                 </button>
               ))}
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Mass M</span><span className="font-mono font-bold text-indigo-400">{massE.toFixed(2)} Earth masses</span>
+                <span>Mass M</span><span className="font-mono font-bold text-gold-400">{massE.toFixed(2)} Earth masses</span>
               </div>
               <input type="range" min={0.01} max={320} step={0.01} value={massE} aria-label="Planet mass"
-                onChange={(e) => setMassE(Number(e.target.value))} className="w-full accent-indigo-500" />
+                onChange={(e) => setMassE(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Radius R</span><span className="font-mono font-bold text-sky-400">{radiusKm} km</span>
+                <span>Radius R</span><span className="font-mono font-bold text-gold-400">{radiusKm} km</span>
               </div>
               <input type="range" min={500} max={71500} step={10} value={radiusKm} aria-label="Planet radius"
-                onChange={(e) => setRadiusKm(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setRadiusKm(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -149,9 +149,9 @@ export function C11_PhysicsGravitationSim() {
             </button>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-indigo-800/60 p-4 grid grid-cols-2 gap-x-3 gap-y-2 text-xs font-mono">
-            <div><span className="text-slate-500">g surface</span><div className="text-indigo-300 font-bold text-sm">{gSurface.toFixed(2)} m/s^2</div></div>
-            <div><span className="text-slate-500">v escape</span><div className="text-sky-300 font-bold text-sm">{vEsc.toFixed(2)} km/s</div></div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 grid grid-cols-2 gap-x-3 gap-y-2 text-xs font-mono">
+            <div><span className="text-slate-500">g surface</span><div className="text-gold-300 font-bold text-sm">{gSurface.toFixed(2)} m/s^2</div></div>
+            <div><span className="text-slate-500">v escape</span><div className="text-gold-300 font-bold text-sm">{vEsc.toFixed(2)} km/s</div></div>
             <div><span className="text-slate-500">v orbit</span><div className="text-emerald-300 font-bold text-sm">{vOrb.toFixed(2)} km/s</div></div>
             <div><span className="text-slate-500">Period T</span><div className="text-amber-300 font-bold text-sm">{periodMin < 200 ? `${periodMin.toFixed(1)} min` : `${(periodMin / 60).toFixed(1)} h`}</div></div>
             <div className="col-span-2"><span className="text-slate-500">g at orbit altitude</span>
@@ -171,8 +171,8 @@ export function C11_PhysicsGravitationSim() {
             </p>
           </div>
 
-          <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-            <p className="font-bold text-indigo-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Make the Moon&apos;s mass with Earth&apos;s radius: what is g? Now shrink Earth to lunar size -- which change hurts g more, and why?</p>
             <p>2. Find the altitude where the period becomes exactly 24 h (a geostationary orbit). Verify r^3/T^2 is identical to the 400 km case.</p>
           </div>

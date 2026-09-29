@@ -11,7 +11,7 @@ export const w_c11_geographymapscalesim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Maps: Definition, Types and Essential Elements',
     chapters: [],
     nodeIds: ['c11_geo_cbse_22_001', 'c11_geo_cbse_22_002', 'c11_geo_cbse_22_003', 'c11_geo_cbse_22_005', 'c11_geo_cbse_23_001', 'c11_geo_cbse_23_002', 'c11_geo_cbse_23_003', 'c11_geo_cbse_23_004', 'c11_geo_cbse_23_006', 'c11_geo_cbse_23_007', 'c11_geo_cbse_23_009', 'c11_geo_cbse_24_001', 'c11_geo_cbse_24_002', 'c11_geo_cbse_24_003', 'c11_geo_cbse_24_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by showing students a familiar object: a Google Maps screenshot of their school locality on a phone.', goal: 'Master Maps: Definition, Types and Essential Elements.' },
     discovery: {
         question: 'A map has a Statement of Scale: "2 cm represents 1 km". If this map is reduced to half its original size during photocopying, what happens to the accuracy of.',
@@ -20,7 +20,7 @@ export const w_c11_geographymapscalesim: SimDef = {
         hook: 'Students believe "large scale" means "covers a large area" (like a world map) because the word "large" suggests big.',
     },
     teaching: [
-        { title: 'A map is a scaled, symbolized, and.', text: 'A map is a scaled, symbolized, and generalized representation of the whole or a part of the Earth\'s surface on a flat plane, showing selected physical and human features using a specific projection.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A map is a scaled, symbolized, and.', text: 'A map is a scaled, symbolized, and generalized representation of the whole or a part of the Earth\'s surface on a flat plane, showing selected physical and human features using a specific projection.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_22_001', title: 'A map is a scaled, symbolized, and.',

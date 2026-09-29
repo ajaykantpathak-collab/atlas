@@ -511,7 +511,7 @@ function LivePreview({ settings }: { settings: AccessibilitySettings }) {
           </p>
 
           <div
-            className={`p-3 rounded-lg ${settings.cognitiveSimplifiedUI ? "bg-gray-50 border border-gray-200" : "bg-indigo-50 border border-indigo-100"}`}
+            className={`p-3 rounded-lg ${settings.cognitiveSimplifiedUI ? "bg-gray-50 border border-gray-200" : "bg-gold-50 border border-gold-100"}`}
             style={{ backgroundColor: settings.visualHighContrast ? "#ffffcc" : undefined, borderColor: settings.visualHighContrast ? "#000" : undefined }}
           >
             <label
@@ -531,7 +531,7 @@ function LivePreview({ settings }: { settings: AccessibilitySettings }) {
 
           <div className="flex flex-wrap gap-2">
             <button
-              className={`font-medium rounded-lg transition-colors ${settings.motorLargeTouchTargets ? "px-6 py-4 text-base" : "px-4 py-2 text-sm"} bg-indigo-500 text-white hover:bg-indigo-600 focus-visible:ring-2 focus-visible:ring-indigo-300`}
+              className={`font-medium rounded-lg transition-colors ${settings.motorLargeTouchTargets ? "px-6 py-4 text-base" : "px-4 py-2 text-sm"} bg-gold-500 text-white hover:bg-gold-600 focus-visible:ring-2 focus-visible:ring-gold-300`}
               style={{ backgroundColor: settings.visualHighContrast ? "#0000ff" : undefined }}
             >
               {t.previewButton}
@@ -1234,7 +1234,7 @@ export default function AccessibilitySettingsPage() {
               <h3 className="font-bold text-gray-900">{t.previewHeading}</h3>
               <p className="text-gray-600 text-sm">{t.previewCard}</p>
               <div className="flex gap-2">
-                <span className="px-3 py-2 bg-indigo-500 text-white text-sm rounded-lg">{t.previewButton}</span>
+                <span className="px-3 py-2 bg-gold-500 text-white text-sm rounded-lg">{t.previewButton}</span>
                 <span className="px-3 py-2 bg-pink-500 text-white text-sm rounded-lg">{t.previewButton}</span>
               </div>
               {cognitiveExtendedTime !== "none" && (

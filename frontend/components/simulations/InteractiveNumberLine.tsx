@@ -58,7 +58,7 @@ export function InteractiveNumberLine({ max, start = 0, answer, showCorrect, onH
 
   return (
     <div className="mt-3 select-none">
-      <div className="text-center text-xs font-bold text-indigo-600 mb-2">
+      <div className="text-center text-xs font-bold text-gold-600 mb-2">
         {hopping ? `Hopping... ${position}` : '👆 Click a number to hop there!'}
       </div>
       <div className="flex items-end justify-center">
@@ -82,10 +82,10 @@ export function InteractiveNumberLine({ max, start = 0, answer, showCorrect, onH
                 showCorrect && n === answer
                   ? 'bg-green-500 text-white border-green-600 scale-125 shadow-lg'
                   : n === position
-                  ? 'bg-indigo-500 text-white border-indigo-600 scale-110'
+                  ? 'bg-gold-500 text-white border-gold-600 scale-110'
                   : n === start
-                  ? 'bg-blue-200 text-blue-700 border-blue-400'
-                  : 'bg-white text-gray-600 border-gray-300 hover:bg-indigo-50 hover:border-indigo-300'
+                  ? 'bg-gold-200 text-gold-700 border-gold-400'
+                  : 'bg-white text-gray-600 border-gray-300 hover:bg-gold-50 hover:border-gold-300'
               }`}
             >
               {n}

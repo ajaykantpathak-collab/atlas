@@ -1295,7 +1295,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
           <span className="text-[10px] font-mono px-2 py-0.5 bg-slate-950/80 text-emerald-400 border border-emerald-800/40 rounded-full">
             Soil Carbon: {soilCarbonPercent}%
           </span>
-          <span className="text-[10px] font-mono px-2 py-0.5 bg-slate-950/80 text-sky-400 border border-sky-800/40 rounded-full">
+          <span className="text-[10px] font-mono px-2 py-0.5 bg-slate-950/80 text-gold-400 border border-gold-800/40 rounded-full">
             Drawdown: {groundwaterPlungeRate} m/yr
           </span>
         </div>
@@ -1426,7 +1426,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
               </div>
             </div>
 
-            <div className="p-3 bg-indigo-950/40 border border-indigo-800/40 rounded-xl text-xs sm:text-sm text-indigo-300 flex items-center gap-2">
+            <div className="p-3 bg-gold-950/40 border border-gold-800/40 rounded-xl text-xs sm:text-sm text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">👉</span>
               <span>{EXPLORATION_STEPS[currentSlide].instruction}</span>
             </div>
@@ -1484,7 +1484,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                         </div>
                         <div className="flex justify-between py-1 border-b border-slate-900">
                           <span className="text-slate-400">Nutritional Profile:</span>
-                          <span className="font-bold text-sky-400">
+                          <span className="font-bold text-gold-400">
                             {selectedOrganism === 'gir'
                               ? '✓ A2 Beta-Casein Rich Milk'
                               : selectedOrganism === 'ragi'
@@ -1691,7 +1691,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                       animate={{ opacity: 1, y: 0 }}
                       className="p-3 bg-slate-900 border border-slate-700 rounded-xl space-y-2"
                     >
-                      <p className="text-xs font-bold text-sky-300">
+                      <p className="text-xs font-bold text-gold-300">
                         🔍 Observation Check: {OBSERVATION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1702,7 +1702,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handleObservationSubmit(i)}
-                            className="p-2 text-left bg-slate-950 border border-slate-800 hover:border-sky-500 rounded-lg text-xs text-slate-200"
+                            className="p-2 text-left bg-slate-950 border border-slate-800 hover:border-gold-500 rounded-lg text-xs text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1829,7 +1829,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleSlideNav('next')}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg"
                 >
                   Explore Next Principle →
                 </motion.button>
@@ -1893,7 +1893,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs">
                     <span className="text-slate-400">Groundwater Tubewell Pumping:</span>
-                    <span className="font-mono text-sky-400 font-bold">{waterExtractionRate}%</span>
+                    <span className="font-mono text-gold-400 font-bold">{waterExtractionRate}%</span>
                   </div>
                   <input
                     type="range"
@@ -1902,7 +1902,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                     aria-label="Sandbox Groundwater Pumping Slider"
                     value={waterExtractionRate}
                     onChange={e => handleWaterExtractionChange(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
               </div>
@@ -1910,7 +1910,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
               <div className="md:col-span-2 p-4 bg-slate-950 rounded-2xl border border-slate-800 grid grid-cols-2 sm:grid-cols-4 gap-2.5">
                 <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                   <span className="text-xs text-slate-400 block">Lake Oxygen</span>
-                  <span className="text-base font-mono font-bold text-sky-400">{lakeDissolvedOxygen} ppm</span>
+                  <span className="text-base font-mono font-bold text-gold-400">{lakeDissolvedOxygen} ppm</span>
                   <span className="text-[10px] text-slate-500 block mt-0.5">
                     {(lakeDissolvedOxygen < 4) ? '✗ Dead Zone' : '✓ Aerobic'}
                   </span>
@@ -1972,13 +1972,13 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950/70 text-emerald-300 border-emerald-700'
                       : difficulty === 'standard'
-                      ? 'bg-sky-950/70 text-sky-300 border-sky-700'
+                      ? 'bg-gold-950/70 text-gold-300 border-gold-700'
                       : 'bg-rose-950/70 text-rose-300 border-rose-700'
                   }`}
                 >
                   {difficulty} TIER
                 </motion.span>
-                <span className="text-[10px] font-mono uppercase px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded border border-indigo-800">
+                <span className="text-[10px] font-mono uppercase px-2 py-0.5 bg-gold-950 text-gold-300 rounded border border-gold-800">
                   NEP: {currentChallengeObj.competencyLevel}
                 </span>
               </div>
@@ -1990,7 +1990,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
 
             <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-sky-500"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2177,7 +2177,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold shadow"
+                        className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2292,7 +2292,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                   🌟 Perfect Score! You have attained total mastery over India&apos;s native crop-livestock biodiversity, traditional water harvesting, and the ecological dynamics of intensive agriculture.
                 </span>
               ) : errors <= 3 ? (
-                <span className="text-sky-300 font-bold">
+                <span className="text-gold-300 font-bold">
                   🌿 Exceptional Performance! You demonstrated deep analytical acumen on eutrophication, biomagnification, and environmental justice.
                 </span>
               ) : (
@@ -2303,7 +2303,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
             </div>
 
             {/* ─── VISIBLE SPACED REPETITION (SRS) SCHEDULE CARD ─── */}
-            <div className="p-5 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-indigo-950/80 rounded-2xl border-2 border-indigo-500/50 shadow-xl space-y-3">
+            <div className="p-5 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 rounded-2xl border-2 border-gold-500/50 shadow-xl space-y-3">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="text-2xl" aria-hidden="true">📅</span>
@@ -2311,12 +2311,12 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                     <h4 className="text-sm font-bold text-white uppercase tracking-wider">
                       Spaced Repetition (SRS) Review Schedule
                     </h4>
-                    <p className="text-xs text-indigo-300">
+                    <p className="text-xs text-gold-300">
                       Automated SM-2 Memory Retention Engine
                     </p>
                   </div>
                 </div>
-                <span className="px-3 py-1 bg-indigo-900/80 text-indigo-200 border border-indigo-400/50 rounded-xl text-xs font-mono font-bold">
+                <span className="px-3 py-1 bg-gold-900/80 text-gold-200 border border-gold-400/50 rounded-xl text-xs font-mono font-bold">
                   {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
                 </span>
               </div>
@@ -2326,8 +2326,8 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                   <span className="text-xs font-bold text-emerald-400 block">0 Errors</span>
                   <span className="text-[11px] text-slate-300">Next Review: 7 Days</span>
                 </div>
-                <div className={`p-2.5 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-sky-950/60 border-sky-500 shadow-lg shadow-sky-950/40' : 'bg-slate-950/50 border-slate-800 opacity-60'}`}>
-                  <span className="text-xs font-bold text-sky-400 block">1–3 Errors</span>
+                <div className={`p-2.5 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-gold-950/60 border-gold-500 shadow-lg shadow-gold-950/40' : 'bg-slate-950/50 border-slate-800 opacity-60'}`}>
+                  <span className="text-xs font-bold text-gold-400 block">1–3 Errors</span>
                   <span className="text-[11px] text-slate-300">Next Review: 3 Days</span>
                 </div>
                 <div className={`p-2.5 rounded-xl border ${errors >= 4 ? 'bg-amber-950/60 border-amber-500 shadow-lg shadow-amber-950/40' : 'bg-slate-950/50 border-slate-800 opacity-60'}`}>
@@ -2338,8 +2338,8 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
             </div>
 
             {/* ─── REFLECTION SECTION ─── */}
-            <div className="p-5 bg-indigo-950/30 rounded-2xl border border-indigo-800/50 space-y-4">
-              <h4 className="text-sm font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-2">
+            <div className="p-5 bg-gold-950/30 rounded-2xl border border-gold-800/50 space-y-4">
+              <h4 className="text-sm font-bold uppercase tracking-wider text-gold-300 flex items-center gap-2">
                 <span>🤔</span> Personal Agro-Ecological Reflection
               </h4>
               <div className="space-y-3">
@@ -2354,7 +2354,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                     value={reflectionAnswers.surprising}
                     onChange={e => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                     placeholder="e.g. How ragi contains 8x more calcium than wheat, or how DDT magnifies 500,000x in eagles..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none"
                   />
                 </div>
 
@@ -2369,7 +2369,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                     value={reflectionAnswers.explain}
                     onChange={e => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                     placeholder="e.g. NPK causes algae blooms that block sunlight, then bacteria consume all dissolved oxygen decomposing the dead algae..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none"
                   />
                 </div>
 
@@ -2384,7 +2384,7 @@ function C9_EVSDomesticatedBiodiversityNativeSim({
                     value={reflectionAnswers.application}
                     onChange={e => setReflectionAnswers({ ...reflectionAnswers, application: e.target.value })}
                     placeholder="e.g. Composting organic waste, growing native medicinal plants like Tulsi and Neem, choosing millets..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none"
                   />
                 </div>
               </div>

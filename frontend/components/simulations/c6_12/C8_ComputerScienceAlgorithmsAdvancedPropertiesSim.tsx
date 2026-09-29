@@ -849,7 +849,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
   // ─── DERIVED SELECTION BRANCH ─────────────────────────────────────────────────
   const selectionStatus = useMemo(() => {
     if (sensorAltitude > 400) {
-      return { zone: 'Deep Orbit', color: 'text-indigo-400', thrusterState: 'Idle (Coasting)', code: 'if (alt > 400) Mode = ORBIT;' };
+      return { zone: 'Deep Orbit', color: 'text-gold-400', thrusterState: 'Idle (Coasting)', code: 'if (alt > 400) Mode = ORBIT;' };
     } else if (sensorAltitude >= 100) {
       return { zone: 'Mesosphere Descent', color: 'text-amber-400', thrusterState: 'Active Pulsing (50% Thrust)', code: 'else if (alt >= 100) Mode = DESCENT;' };
     } else {
@@ -1231,14 +1231,14 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-cyan-500 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-500 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
             aria-label="Computer Science icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ICSE Class 8 Computer Science • Chandrayaan Mission Series</p>
+            <p className="text-xs text-gold-400 font-medium">ICSE Class 8 Computer Science • Chandrayaan Mission Series</p>
           </div>
         </div>
 
@@ -1256,7 +1256,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
               }}
               className={`px-3 py-1.5 rounded-xl capitalize font-bold transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1269,9 +1269,9 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
       {/* ─── DISCOVERY PHASE (CURIOSITY HOOK) ───────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/50 relative overflow-hidden shadow-xl">
-            <div className="absolute -right-10 -bottom-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="px-3 py-1 rounded-full text-xs font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/50 relative overflow-hidden shadow-xl">
+            <div className="absolute -right-10 -bottom-10 w-48 h-48 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="px-3 py-1 rounded-full text-xs font-bold bg-gold-500/20 text-gold-300 border border-gold-500/30 uppercase tracking-wider">
               Mission Context
             </span>
             <h2 className="text-2xl font-bold text-white mt-3">{SCENARIO.title}</h2>
@@ -1299,10 +1299,10 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-900/60 border-2 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/60 text-slate-500 border border-slate-800'
-                      : 'bg-slate-900 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-indigo-500'
+                      : 'bg-slate-900 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {option}
                   {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && (
                     <span className="ml-2 font-bold text-emerald-400" aria-label="Correct answer">✓ Correct</span>
@@ -1322,7 +1322,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Enter Algorithm and Java Labs"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-cyan-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Algorithm & Java Labs →
                 </motion.button>
@@ -1337,7 +1337,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-950 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">Guided Exploration</span>
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Guided Exploration</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <span className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full font-mono">
@@ -1351,10 +1351,10 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
 
           {/* ─── BRILLIANT.ORG PREDICTION PROMPT (PREDICT-THEN-CHECK) ─────────── */}
           {currentSlide < PREDICTION_QUESTIONS.length && (
-            <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-500/40 space-y-3">
+            <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-500/40 space-y-3">
               <div className="flex items-center gap-2">
                 <span className="text-lg">🔮</span>
-                <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                   Predict First (Brilliant.org Check)
                 </h3>
               </div>
@@ -1378,12 +1378,12 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                         : 'bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-1 text-indigo-400">{String.fromCharCode(65 + optIdx)}.</span> {opt}
+                    <span className="font-bold mr-1 text-gold-400">{String.fromCharCode(65 + optIdx)}.</span> {opt}
                   </button>
                 ))}
               </div>
               {predSubmitted[PREDICTION_QUESTIONS[currentSlide].id] && (
-                <p className="text-xs text-cyan-300 bg-cyan-950/40 p-2.5 rounded-lg border border-cyan-800/40 font-mono">
+                <p className="text-xs text-gold-300 bg-gold-950/40 p-2.5 rounded-lg border border-gold-800/40 font-mono">
                   🔍 <span className="font-bold">How to verify:</span> {PREDICTION_QUESTIONS[currentSlide].verifyInstruction}
                 </p>
               )}
@@ -1455,7 +1455,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                           setGcdA(Number(e.target.value));
                           setGcdHistory([{ a: Number(e.target.value), b: gcdB, action: 'Updated A' }]);
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -1473,7 +1473,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                           setGcdB(Number(e.target.value));
                           setGcdHistory([{ a: gcdA, b: Number(e.target.value), action: 'Updated B' }]);
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="flex gap-2 items-center">
@@ -1484,7 +1484,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                         onClick={handleGcdStep}
                         disabled={gcdA === gcdB}
                         className={`flex-1 py-3 px-4 rounded-xl font-bold text-sm ${
-                          gcdA === gcdB ? 'bg-emerald-600 text-white' : 'bg-indigo-600 hover:bg-indigo-500 text-white'
+                          gcdA === gcdB ? 'bg-emerald-600 text-white' : 'bg-gold-600 hover:bg-gold-500 text-white'
                         }`}
                       >
                         {gcdA === gcdB ? `✓ GCD = ${gcdA}` : 'Next Subtraction Step →'}
@@ -1505,7 +1505,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 max-h-36 overflow-y-auto font-mono text-xs text-slate-300 space-y-1">
                     <p className="text-slate-500 font-bold">Execution Trace (Finiteness in action):</p>
                     {gcdHistory.map((h, idx) => (
-                      <p key={idx} className="text-indigo-300">
+                      <p key={idx} className="text-gold-300">
                         [{idx}] A={h.a}, B={h.b} ➔ {h.action}
                       </p>
                     ))}
@@ -1632,7 +1632,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       <div className="grid grid-cols-2 gap-3 text-xs font-mono">
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block">Counter (c):</span>
-                          <span className="text-xl font-bold text-cyan-400">{fcCounter}</span>
+                          <span className="text-xl font-bold text-gold-400">{fcCounter}</span>
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block">Accumulator (f):</span>
@@ -1646,7 +1646,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label="Advance flowchart execution step"
                       onClick={handleFlowchartStep}
-                      className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30"
+                      className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                     >
                       Step Flowchart Execution ➔
                     </motion.button>
@@ -1698,7 +1698,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                         }}
                         className={`p-3 rounded-xl text-xs font-bold transition-all text-center ${
                           activePsPhase === idx
-                            ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                            ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
                         }`}
                       >
@@ -1710,7 +1710,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     {activePsPhase === 0 && (
                       <div>
-                        <h4 className="text-base font-bold text-indigo-300">Phase 1: Analyse</h4>
+                        <h4 className="text-base font-bold text-gold-300">Phase 1: Analyse</h4>
                         <p className="text-sm text-slate-300 mt-1">
                           Carefully determine inputs, preconditions, and required output formats. (e.g., Input: Fuel Mass in kg, Output: Thrust Duration).
                         </p>
@@ -1718,7 +1718,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                     )}
                     {activePsPhase === 1 && (
                       <div>
-                        <h4 className="text-base font-bold text-cyan-300">Phase 2: Design</h4>
+                        <h4 className="text-base font-bold text-gold-300">Phase 2: Design</h4>
                         <p className="text-sm text-slate-300 mt-1">
                           Draft numbered algorithm steps and construct formal flowcharts before touching any programming language syntax.
                         </p>
@@ -1757,16 +1757,16 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Class Diagram Box */}
-                    <div className="p-4 bg-slate-950 rounded-xl border border-indigo-500/40 space-y-3">
+                    <div className="p-4 bg-slate-950 rounded-xl border border-gold-500/40 space-y-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-indigo-400">Class Diagram Blueprint</span>
-                        <span className="text-xs px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded font-mono">LunarLander.class</span>
+                        <span className="text-xs font-bold text-gold-400">Class Diagram Blueprint</span>
+                        <span className="text-xs px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded font-mono">LunarLander.class</span>
                       </div>
                       <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 text-xs font-mono text-slate-300 space-y-1">
                         <p className="text-purple-400">class LunarLander &#123;</p>
                         <p className="text-slate-400 pl-4">int fuel = 100;</p>
                         <p className="text-slate-400 pl-4">int thrust = 0;</p>
-                        <p className="text-cyan-400 pl-4">void fireThruster() &#123; ... &#125;</p>
+                        <p className="text-gold-400 pl-4">void fireThruster() &#123; ... &#125;</p>
                         <p className="text-purple-400">&#125;</p>
                       </div>
                       <motion.button
@@ -1774,7 +1774,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                         whileTap={{ scale: 0.97 }}
                         aria-label="Instantiate new LunarLander object"
                         onClick={handleCreateLanderObject}
-                        className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                       >
                         + new LunarLander() (Instantiate on Object Bench)
                       </motion.button>
@@ -1794,7 +1794,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                             aria-label={`Lunar Lander instance ${lander.name}`}
                             className={`p-3 rounded-xl border text-xs space-y-2 cursor-pointer transition-all ${
                               selectedLanderId === lander.id
-                                ? 'bg-indigo-950/80 border-indigo-500 text-white'
+                                ? 'bg-gold-950/80 border-gold-500 text-white'
                                 : 'bg-slate-800 border-slate-700 text-slate-300'
                             }`}
                             onClick={() => setSelectedLanderId(lander.id)}
@@ -1846,7 +1846,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
                           programMode === mode
-                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                            ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                             : 'bg-slate-950 text-slate-400 border border-slate-800'
                         }`}
                       >
@@ -1858,7 +1858,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-slate-400">Iterations (N): {loopN}</span>
-                      <span className="text-indigo-400 font-mono font-bold">{programCalculation.formula}</span>
+                      <span className="text-gold-400 font-mono font-bold">{programCalculation.formula}</span>
                     </div>
                     <input
                       aria-label="Set Iterations N slider"
@@ -1870,7 +1870,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                         setLoopN(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     {/* Step-by-step trace chart */}
@@ -1913,7 +1913,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1945,24 +1945,24 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
               whileTap={{ scale: 0.95 }}
               aria-label="Proceed to Mission Challenges"
               onClick={handleAdvanceToChallenge}
-              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+              className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
             >
               Ready for Challenges! →
             </motion.button>
           </div>
 
           {/* ─── BRILLIANT.ORG OBSERVATION QUESTIONS ('WHAT DO YOU NOTICE?') ──── */}
-          <div className="p-5 bg-slate-950 rounded-2xl border border-cyan-500/30 space-y-4">
+          <div className="p-5 bg-slate-950 rounded-2xl border border-gold-500/30 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">👁️</span>
-              <h3 className="text-xs font-bold text-cyan-300 uppercase tracking-wider">
+              <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                 Guided Observation (Brilliant.org Check)
               </h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {OBSERVATION_QUESTIONS.map((obsQ, qIdx) => (
                 <div key={obsQ.id} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2.5">
-                  <span className="text-[11px] font-bold text-cyan-400 uppercase tracking-wider">
+                  <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider">
                     Observation #{qIdx + 1}
                   </span>
                   <p className="text-xs font-medium text-slate-200">{obsQ.question}</p>
@@ -1985,7 +1985,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                             : 'bg-slate-950 hover:bg-slate-800 text-slate-300 border border-slate-800'
                         }`}
                       >
-                        <span className="font-bold mr-1 text-cyan-400">{String.fromCharCode(65 + optIdx)}.</span> {opt}
+                        <span className="font-bold mr-1 text-gold-400">{String.fromCharCode(65 + optIdx)}.</span> {opt}
                       </button>
                     ))}
                   </div>
@@ -2007,7 +2007,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Selection Gate Controller */}
             <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Selection Logic Gate (`if - else if - else`)</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Selection Logic Gate (`if - else if - else`)</span>
               <div>
                 <label htmlFor="sensor-alt" className="text-xs text-slate-400 block mb-1">Spacecraft Altitude: {sensorAltitude} km</label>
                 <input
@@ -2021,7 +2021,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                     setSensorAltitude(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2034,7 +2034,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   <span className="text-slate-400">Thruster Status:</span>
                   <span className="font-mono text-white">{selectionStatus.thrusterState}</span>
                 </div>
-                <div className="mt-2 p-2 bg-slate-900 rounded font-mono text-[11px] text-cyan-300 border border-slate-800">
+                <div className="mt-2 p-2 bg-slate-900 rounded font-mono text-[11px] text-gold-300 border border-slate-800">
                   {selectionStatus.code}
                 </div>
               </div>
@@ -2042,7 +2042,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
 
             {/* Loop Accumulator Workbench */}
             <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-4">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Iterative Accumulator Register</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Iterative Accumulator Register</span>
               <div className="flex gap-2">
                 {(['sum', 'factorial', 'fibonacci'] as const).map((m) => (
                   <button
@@ -2050,7 +2050,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                     aria-label={`Select ${m} mode`}
                     onClick={() => setProgramMode(m)}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize ${
-                      programMode === m ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400'
+                      programMode === m ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                     }`}
                   >
                     {m}
@@ -2074,7 +2074,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
           {/* Progress & Adaptive Difficulty Badge */}
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 font-mono font-bold">
+              <span className="text-xs text-gold-400 font-mono font-bold">
                 QUESTION {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-500 ml-2">[{challenge.competencyLevel.toUpperCase()}]</span>
@@ -2087,7 +2087,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                   : difficulty === 'standard'
-                  ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                  ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                   : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
               }`}
             >
@@ -2097,7 +2097,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-cyan-400 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2128,10 +2128,10 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       className={`w-full text-left p-4 rounded-xl text-sm font-medium transition-all ${
                         showExplanation && idx === challenge.correctIndex
                           ? 'bg-emerald-900/60 border-2 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-900 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-indigo-500'
+                          : 'bg-slate-900 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {opt}
                       {showExplanation && idx === challenge.correctIndex && (
                         <span className="ml-2 font-bold text-emerald-400" aria-label="Correct answer">✓</span>
                       )}
@@ -2154,7 +2154,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2172,7 +2172,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[90px]"
                     >
                       <span className="text-[11px] text-slate-500 mb-1 font-mono uppercase">{targetId}</span>
-                      <span className="text-sm font-bold text-cyan-300">
+                      <span className="text-sm font-bold text-gold-300">
                         {droppedLabels[targetId] ? `✓ ${droppedLabels[targetId]}` : 'Drop Symbol Here'}
                       </span>
                     </div>
@@ -2184,7 +2184,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   whileTap={{ scale: 0.98 }}
                   aria-label="Verify Diagram Labels"
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2213,7 +2213,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-900 rounded-xl border border-slate-700 text-sm font-mono text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-indigo-600/30 text-indigo-300 flex items-center justify-center text-xs font-bold">
+                    <span className="w-6 h-6 rounded-lg bg-gold-600/30 text-gold-300 flex items-center justify-center text-xs font-bold">
                       {displayIdx + 1}
                     </span>
                     {item}
@@ -2225,7 +2225,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   whileTap={{ scale: 0.98 }}
                   aria-label="Check Pipeline Sequence"
                   onClick={handleSortSubmit}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
                 >
                   Check Pipeline Sequence
                 </motion.button>
@@ -2241,7 +2241,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric result"
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 flex-1"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 flex-1"
                 />
                 <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
                 <motion.button
@@ -2249,7 +2249,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Submit numeric value"
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md shadow-indigo-600/30"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md shadow-gold-600/30"
                 >
                   Submit Value
                 </motion.button>
@@ -2267,7 +2267,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Add keyword ${part}`}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-600/30 border border-indigo-500/40 text-indigo-200 rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-600/30 border border-gold-500/40 text-gold-200 rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2278,13 +2278,13 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   {constructParts.map((p, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 bg-indigo-600 text-white text-xs font-mono rounded-lg flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-600 text-white text-xs font-mono rounded-lg flex items-center gap-1.5"
                     >
                       {p}
                       <button
                         aria-label={`Remove keyword ${p}`}
                         onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))}
-                        className="text-indigo-200 hover:text-white"
+                        className="text-gold-200 hover:text-white"
                       >
                         ✕
                       </button>
@@ -2300,7 +2300,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   whileTap={{ scale: 0.98 }}
                   aria-label="Verify Method Signature"
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
                 >
                   Verify Method Signature
                 </motion.button>
@@ -2367,12 +2367,12 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
       {/* ─── COMPLETION PHASE ────────────────────────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-500/40 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-500/40 text-center space-y-4 shadow-2xl">
             <span className="text-5xl block">🚀</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Mission Success: Software Verified!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="inline-block px-5 py-2 rounded-2xl bg-gradient-to-r from-amber-500/20 via-indigo-500/20 to-emerald-500/20 border border-amber-400/40">
+            <div className="inline-block px-5 py-2 rounded-2xl bg-gradient-to-r from-amber-500/20 via-gold-500/20 to-emerald-500/20 border border-amber-400/40">
               <span className="text-lg font-black text-amber-300 tracking-wide uppercase">
                 {motivationalMessage}
               </span>
@@ -2389,7 +2389,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
               </div>
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Mastery Tier</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 col-span-2 sm:col-span-1">
                 <span className="text-xs text-slate-400 block">Review Due</span>
@@ -2399,13 +2399,13 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
           </div>
 
           {/* ─── SPACED REPETITION (SRS) VISIBILITY BANNER ────────────────────── */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 to-purple-950/80 rounded-2xl border border-indigo-500/40 space-y-3">
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 to-purple-950/80 rounded-2xl border border-gold-500/40 space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🧠</span>
-                <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">Spaced Repetition Schedule (SRS)</h3>
+                <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Spaced Repetition Schedule (SRS)</h3>
               </div>
-              <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-mono font-bold border border-indigo-500/30">
+              <span className="px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full text-xs font-mono font-bold border border-gold-500/30">
                 SM-2 Adaptive Engine
               </span>
             </div>
@@ -2434,7 +2434,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300">Mission Debrief & Reflection</h3>
+            <h3 className="text-base font-bold text-gold-300">Mission Debrief & Reflection</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                 <label htmlFor="ref-surprising" className="text-xs font-bold text-amber-300 block">
@@ -2446,11 +2446,11 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, surprising: e.target.value }))}
                   placeholder="Type your reflection..."
-                  className="w-full h-24 p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-indigo-500"
+                  className="w-full h-24 p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="ref-explanation" className="text-xs font-bold text-cyan-300 block">
+                <label htmlFor="ref-explanation" className="text-xs font-bold text-gold-300 block">
                   How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2459,7 +2459,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   value={reflectionAnswers.explanation}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, explanation: e.target.value }))}
                   placeholder="Type your explanation..."
-                  className="w-full h-24 p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-indigo-500"
+                  className="w-full h-24 p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
@@ -2472,7 +2472,7 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, realLife: e.target.value }))}
                   placeholder="Type real world applications..."
-                  className="w-full h-24 p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-indigo-500"
+                  className="w-full h-24 p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2497,12 +2497,12 @@ export function C8_ComputerScienceAlgorithmsAdvancedPropertiesSim({
 
           {/* REAL WORLD ACTIVITY */}
           <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

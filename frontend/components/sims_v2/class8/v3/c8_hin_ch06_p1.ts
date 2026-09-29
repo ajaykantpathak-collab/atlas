@@ -23,7 +23,7 @@ export const c8_hin_ch06_p1: SimDef = {
         labels: ['एक टोकरी भर मट्टिी'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'build', nodeId: 'c8_hin_cbse_06_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['रचनाकार (सामाजिक कथा) का काल/परिचय।', 'पाठ का विषय गरीबी और अत्याचार — ज़मींदार के महल के पास.', 'जुड़ाव — कवि का अनुभव पाठ में झलकता है।'], answer: 'रचनाकार (सामाजिक कथा) का काल/परिचय। पाठ का विषय गरीबी और अत्याचार — ज़मींदार के महल के पास. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['पाठ का विषय गरीबी और अत्याचार — ज़मींदार के महल के पास.', 'रचनाकार (सामाजिक कथा) का काल/परिचय।', 'जुड़ाव — कवि का अनुभव पाठ में झलकता है।'], answer: 'रचनाकार (सामाजिक कथा) का काल/परिचय। पाठ का विषय गरीबी और अत्याचार — ज़मींदार के महल के पास. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
         { type: 'case', nodeId: 'c8_hin_cbse_06_006', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through एक टोकरी भर मट्टिी like a real scientist — observed, predicted, tested, retried.',
             decisions: [{ prompt: 'What comes next? एक टोकरी भर मट्टिी · Part 2/3 picks up right here.', options: [

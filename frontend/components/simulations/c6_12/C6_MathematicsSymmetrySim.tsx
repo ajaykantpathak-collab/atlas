@@ -150,9 +150,9 @@ function C6_MathematicsSymmetrySim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Find the mirror position where the square matches, then the triangle. How many matching mirror lines does each shape really have? (Fold paper to check!)</li>
           <li>In spin mode, count how many times the star "looks the same" during one full 360-degree turn. Then try the letter F -- why does it never match?</li>
         </ol>

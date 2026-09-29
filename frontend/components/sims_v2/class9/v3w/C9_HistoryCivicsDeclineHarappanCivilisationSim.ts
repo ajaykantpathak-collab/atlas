@@ -11,7 +11,7 @@ export const w_c9_historycivicsdeclineharappancivilisationsim: SimDef = {
     classLevel: 9, subject: 'history', topic: 'Mehrgarh: Early Agricultural Settlement',
     chapters: [],
     nodeIds: ['c9_hist_ch2_6', 'c9_hist_ch2_7', 'c9_hist_ch2_8', 'c9_hist_ch2_10', 'c9_hist_ch2_5', 'c9_hist_ch2_9', 'c9_hist_ch2_11'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting a museum and see a display of tiny, charred wheat grains and a clay figurine from a.', goal: 'Master Mehrgarh: Early Agricultural Settlement.' },
     discovery: {
         question: 'A newly excavated Harappan site shows a citadel mound but no grid streets in the lower town — instead, lanes curve organically.',
@@ -20,7 +20,7 @@ export const w_c9_historycivicsdeclineharappancivilisationsim: SimDef = {
         hook: 'Students believe Harappan cities were "all identical clones" — that every city had a Great Bath, a granary, and the.',
     },
     teaching: [
-        { title: 'Mehrgarh is a Neolithic archaeological site.', text: 'Mehrgarh is a Neolithic archaeological site located in the Kachi Plain of Balochistan, Pakistan, dating from approximately 7000 BCE to 2500 BCE.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mehrgarh is a Neolithic archaeological site.', text: 'Mehrgarh is a Neolithic archaeological site located in the Kachi Plain of Balochistan, Pakistan, dating from approximately 7000 BCE to 2500 BCE.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_hist_ch2_6', title: 'Mehrgarh is a Neolithic archaeological.',

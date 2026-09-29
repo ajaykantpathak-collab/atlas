@@ -102,7 +102,7 @@ export function C12_PhysicsSemiconductorElectronicsMaterialsDevicesAndSim() {
             </svg>
             <div className="text-xs font-mono grid grid-cols-3 gap-2 mt-1">
               <div><span className="text-slate-500">VD across diode</span><div className="text-pink-300 font-bold text-sm">{q.vD.toFixed(3)} V</div></div>
-              <div><span className="text-slate-500">Dynamic resistance VT/ID</span><div className="text-sky-300 font-bold text-sm">{rd < 1e6 ? rd.toFixed(1) + ' ohm' : '--'}</div></div>
+              <div><span className="text-slate-500">Dynamic resistance VT/ID</span><div className="text-gold-300 font-bold text-sm">{rd < 1e6 ? rd.toFixed(1) + ' ohm' : '--'}</div></div>
               <div><span className="text-slate-500">Diode dissipation</span><div className="text-amber-300 font-bold text-sm">{pDiode.toFixed(2)} mW</div></div>
             </div>
           </div>
@@ -126,10 +126,10 @@ export function C12_PhysicsSemiconductorElectronicsMaterialsDevicesAndSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Junction temperature</span><span className="font-mono font-bold text-sky-400">{tempK} K (VT = {vT.toFixed(4)} V)</span>
+                <span>Junction temperature</span><span className="font-mono font-bold text-gold-400">{tempK} K (VT = {vT.toFixed(4)} V)</span>
               </div>
               <input type="range" min={250} max={420} step={5} value={tempK} aria-label="Temperature"
-                onChange={(e) => setTempK(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setTempK(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

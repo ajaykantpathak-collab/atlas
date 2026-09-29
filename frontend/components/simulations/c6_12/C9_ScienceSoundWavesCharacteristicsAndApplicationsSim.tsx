@@ -54,10 +54,10 @@ export function C9_ScienceSoundWavesCharacteristicsAndApplicationsSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Sound</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Sound</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Sound Waves: Pitch, Loudness and Echo</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300 font-mono">
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-mono">
           lambda = {lambda.toFixed(3)} m
         </span>
       </header>
@@ -67,10 +67,10 @@ export function C9_ScienceSoundWavesCharacteristicsAndApplicationsSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Frequency</span>
-            <span className="text-indigo-300 font-mono font-bold">{freq} Hz</span>
+            <span className="text-gold-300 font-mono font-bold">{freq} Hz</span>
           </label>
           <input type="range" min={10} max={40000} step={10} value={freq} aria-label="frequency"
-            onChange={(e) => setFreq(Number(e.target.value))} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => setFreq(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -116,11 +116,11 @@ export function C9_ScienceSoundWavesCharacteristicsAndApplicationsSim() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] text-slate-400 uppercase">Wave equation</p>
-          <p className="text-xs font-mono font-bold text-sky-300 mt-1">{freq} x {lambda.toFixed(3)} = {v} m/s</p>
+          <p className="text-xs font-mono font-bold text-gold-300 mt-1">{freq} x {lambda.toFixed(3)} = {v} m/s</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] text-slate-400 uppercase">Time period</p>
-          <p className="text-sm font-mono font-bold text-indigo-300 mt-1">{periodMs.toFixed(2)} ms</p>
+          <p className="text-sm font-mono font-bold text-gold-300 mt-1">{periodMs.toFixed(2)} ms</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] text-slate-400 uppercase">Pitch</p>
@@ -138,14 +138,14 @@ export function C9_ScienceSoundWavesCharacteristicsAndApplicationsSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> sound is a mechanical longitudinal wave. Its speed is fixed by the
+          <span className="font-bold text-gold-300">Big idea:</span> sound is a mechanical longitudinal wave. Its speed is fixed by the
           medium, so v = f x lambda ties the three numbers together: raise the frequency and the wavelength must shrink. Frequency sets pitch,
           amplitude sets loudness, and an echo needs at least 0.1 s of travel time (about 17 m from a wall in air) to be heard separately.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Keep f = 342 Hz and switch medium air to steel: watch the wavelength jump - explain why pitch is unchanged but lambda changes.</p>
         <p className="mt-1">2. Find the minimum wall distance for a distinct echo in air (expect about 17 m), then repeat in water.</p>

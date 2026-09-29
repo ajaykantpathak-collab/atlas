@@ -1,6 +1,12 @@
 import { NextResponse } from 'next/server'
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
+// Backend base for server-side route handlers: INTERNAL_API_URL is set in the
+// frontend container (http://backends:8000). localhost:8001 does not exist there
+// — see app/api/achievements/route.ts for the same policy. Dev fallback kept.
+const API_BASE =
+  process.env.INTERNAL_API_URL ||
+  process.env.NEXT_PUBLIC_API_URL ||
+  'http://localhost:8001'
 
 export async function GET() {
   try {

@@ -106,7 +106,7 @@ export function C12_ChemistryGeneralPrinciplesAndProcessesOfSim() {
           </svg>
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-3 gap-2">
-            <div><span className="text-slate-500">dG oxide line at T</span><div className="text-sky-300 font-bold text-sm">{gOx.toFixed(0)} kJ</div></div>
+            <div><span className="text-slate-500">dG oxide line at T</span><div className="text-gold-300 font-bold text-sm">{gOx.toFixed(0)} kJ</div></div>
             <div><span className="text-slate-500">dG 2C -&gt; 2CO at T</span><div className="text-amber-300 font-bold text-sm">{gCO.toFixed(0)} kJ</div></div>
             <div><span className="text-slate-500">dG C -&gt; CO2 at T</span><div className="text-slate-300 font-bold text-sm">{gCO2.toFixed(0)} kJ</div></div>
           </div>
@@ -119,7 +119,7 @@ export function C12_ChemistryGeneralPrinciplesAndProcessesOfSim() {
               <div className="grid grid-cols-2 gap-1.5">
                 {OXIDES.map((o, i) => (
                   <button key={o.key} onClick={() => setOxideIdx(i)}
-                    className={`py-2 rounded-xl text-xs font-bold ${oxideIdx === i ? 'bg-sky-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
+                    className={`py-2 rounded-xl text-xs font-bold ${oxideIdx === i ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
                     {o.key}
                   </button>
                 ))}

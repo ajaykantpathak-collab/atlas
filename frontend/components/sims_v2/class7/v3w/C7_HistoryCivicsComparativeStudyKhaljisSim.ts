@@ -11,7 +11,7 @@ export const w_c7_historycivicscomparativestudykhaljissim: SimDef = {
     classLevel: 7, subject: 'history', topic: 'Influence of Civilisational Heritage on the Constitution',
     chapters: [],
     nodeIds: ['c7_civ_ch02_006', 'c7_civ_ch02_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine walking through an ancient stone temple or reading a classical text that speaks of universal harmony,.', goal: 'Master Influence of Civilisational Heritage on the Constitution.' },
     discovery: {
         question: 'What is the term used to describe a system of government where power is divided between a central government and regional (state) governments?',
@@ -20,7 +20,7 @@ export const w_c7_historycivicscomparativestudykhaljissim: SimDef = {
         hook: 'Students often think that "federalism" means the central government can abolish state governments whenever it wants,.',
     },
     teaching: [
-        { title: 'The influence of civilisational heritage on.', text: 'The influence of civilisational heritage on the Indian Constitution refers to how ancient Indian philosophical traditions, cultural values of pluralism, ethics of non-violence, and historical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The influence of civilisational heritage on.', text: 'The influence of civilisational heritage on the Indian Constitution refers to how ancient Indian philosophical traditions, cultural values of pluralism, ethics of non-violence, and historical.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_civ_ch02_006', title: 'The influence of civilisational.',

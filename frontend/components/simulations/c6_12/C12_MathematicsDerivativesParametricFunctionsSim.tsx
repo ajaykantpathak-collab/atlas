@@ -1599,13 +1599,13 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-semibold tracking-wide">
+            <p className="text-xs text-gold-400 font-semibold tracking-wide">
               ISC Class 12 Science & Engineering | Telemetry Calculus Suite
             </p>
           </div>
@@ -1620,7 +1620,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-indigo-950/80 text-indigo-400 border-indigo-700'
+                ? 'bg-gold-950/80 text-gold-400 border-gold-700'
                 : 'bg-rose-950/80 text-rose-400 border-rose-700'
             }`}
           >
@@ -1636,7 +1636,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
       <div className="mb-6 p-4 bg-slate-900/90 rounded-2xl border border-slate-800">
         <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Multi-Representation Matrix
             </span>
             <span className="text-[11px] text-slate-400">
@@ -1650,7 +1650,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                 onClick={() => setRepresentationMode(mode)}
                 className={`px-3 py-1 rounded-lg text-xs font-bold capitalize transition-all ${
                   representationMode === mode
-                    ? 'bg-indigo-600 text-white shadow'
+                    ? 'bg-gold-600 text-white shadow'
                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                 }`}
               >
@@ -1664,7 +1664,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
         {representationMode === 'equation' && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs font-mono p-3 bg-slate-950 rounded-xl border border-slate-800">
             <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
-              <span className="text-indigo-400 font-bold block mb-1">1. Parametric Chain Rule</span>
+              <span className="text-gold-400 font-bold block mb-1">1. Parametric Chain Rule</span>
               <p className="text-slate-200">dy/dx = (dy/dt) ÷ (dx/dt)</p>
               <p className="text-slate-400 text-[10px] mt-1">Condition: dx/dt ≠ 0</p>
             </div>
@@ -1685,7 +1685,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
           <div className="overflow-x-auto p-2 bg-slate-950 rounded-xl border border-slate-800">
             <table className="w-full text-left text-xs font-mono">
               <thead>
-                <tr className="text-indigo-400 border-b border-slate-800">
+                <tr className="text-gold-400 border-b border-slate-800">
                   <th className="p-2">Interval / Point</th>
                   <th className="p-2">f'(x) Sign</th>
                   <th className="p-2">f''(x) Sign</th>
@@ -1705,8 +1705,8 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                   <td className="p-2 font-bold text-white">x = -1 (Critical Point)</td>
                   <td className="p-2 text-amber-400">0 (Zero Tangent)</td>
                   <td className="p-2 text-rose-400">-6 &lt; 0</td>
-                  <td className="p-2 text-sky-400 font-bold">Local Maximum Crest</td>
-                  <td className="p-2 text-sky-400">Peak Trajectory Apogee</td>
+                  <td className="p-2 text-gold-400 font-bold">Local Maximum Crest</td>
+                  <td className="p-2 text-gold-400">Peak Trajectory Apogee</td>
                 </tr>
                 <tr>
                   <td className="p-2">(-1, 1)</td>
@@ -1730,7 +1730,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
         {representationMode === 'graph' && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div className="space-y-1">
-              <span className="text-[11px] font-bold text-sky-400 block">SVG 1: Parametric Trajectory Curve</span>
+              <span className="text-[11px] font-bold text-gold-400 block">SVG 1: Parametric Trajectory Curve</span>
               <ParametricTrajectorySVG tVal={paramT} />
             </div>
             <div className="space-y-1">
@@ -1752,7 +1752,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                 <span className="text-amber-400 font-bold block mb-1">Vector Decomposition of Trajectory:</span>
                 <p className="text-slate-300">Horizontal Velocity Vector: v_x = dx/dt = 2t</p>
                 <p className="text-slate-300">Vertical Velocity Vector: v_y = dy/dt = 1.5t²</p>
-                <p className="text-indigo-400 font-bold mt-1">Trajectory Slope: dy/dx = v_y / v_x</p>
+                <p className="text-gold-400 font-bold mt-1">Trajectory Slope: dy/dx = v_y / v_x</p>
               </div>
               <p className="text-slate-400 text-[11px]">
                 The tangent line direction in spatial coordinates (x, y) is precisely the angle of the instantaneous velocity vector v = (dx/dt)î + (dy/dt)ĵ.
@@ -1765,13 +1765,13 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ──────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900/90 rounded-2xl border border-indigo-700/50 shadow-lg">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest block mb-1">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900/90 rounded-2xl border border-gold-700/50 shadow-lg">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest block mb-1">
               Mission Scenario
             </span>
             <h2 className="text-xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 italic bg-indigo-950/40 p-2.5 rounded-xl border border-indigo-900/40">
+            <p className="text-xs text-gold-300/80 mt-2 italic bg-gold-950/40 p-2.5 rounded-xl border border-gold-900/40">
               {SCENARIO.context}
             </p>
           </div>
@@ -1798,7 +1798,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + idx)})</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">({String.fromCharCode(65 + idx)})</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1820,7 +1820,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Flight Dynamics Laboratory →
                 </motion.button>
@@ -1834,7 +1834,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between bg-slate-900/80 p-3 rounded-2xl border border-slate-800 gap-2">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Lab Module {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1842,7 +1842,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-700'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1859,7 +1859,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
             >
               <div>
                 <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-indigo-400 animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-gold-400 animate-pulse" />
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-xs text-amber-300/90 font-medium mt-1">
@@ -1890,7 +1890,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1 text-xs">
                         <div className="text-slate-400 font-mono">Curve: x(t) = t², y(t) = 0.5 t³</div>
                         <div className="text-emerald-400 font-mono font-bold">dx/dt = 2t = {paramDerivs.dx_dt.toFixed(2)}</div>
-                        <div className="text-indigo-400 font-mono font-bold">dy/dt = 1.5 t² = {paramDerivs.dy_dt.toFixed(2)}</div>
+                        <div className="text-gold-400 font-mono font-bold">dy/dt = 1.5 t² = {paramDerivs.dy_dt.toFixed(2)}</div>
                         <div className="text-amber-400 font-mono font-bold text-sm pt-1 border-t border-slate-800">
                           dy/dx = (dy/dt)/(dx/dt) = {paramDerivs.slope.toFixed(2)}
                         </div>
@@ -1899,7 +1899,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Time Parameter t:</span>
-                          <span className="font-mono font-bold text-indigo-400">{paramT.toFixed(2)} s</span>
+                          <span className="font-mono font-bold text-gold-400">{paramT.toFixed(2)} s</span>
                         </div>
                         <input
                           type="range"
@@ -1909,14 +1909,14 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                           value={paramT}
                           onChange={(e) => handleParamTSlider(parseFloat(e.target.value))}
                           aria-label="Time Parameter t slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
                       {/* Predict-Then-Check Embedded in Slide 0 */}
                       {!predictionMade ? (
-                        <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 space-y-2">
-                          <p className="text-xs font-semibold text-indigo-200">{PREDICTION_QUESTIONS[0].question}</p>
+                        <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 space-y-2">
+                          <p className="text-xs font-semibold text-gold-200">{PREDICTION_QUESTIONS[0].question}</p>
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
                               key={i}
@@ -1942,8 +1942,8 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                     <div className="space-y-3 text-xs">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1.5 font-mono">
                         <div className="text-slate-400">u(x) = sin(x²), v(x) = x²</div>
-                        <div className="text-indigo-300">du/dx = cos(x²) · 2x = {funcWrtDerivs.du_dx.toFixed(3)}</div>
-                        <div className="text-sky-300">dv/dx = 2x = {funcWrtDerivs.dv_dx.toFixed(3)}</div>
+                        <div className="text-gold-300">du/dx = cos(x²) · 2x = {funcWrtDerivs.du_dx.toFixed(3)}</div>
+                        <div className="text-gold-300">dv/dx = 2x = {funcWrtDerivs.dv_dx.toFixed(3)}</div>
                         <div className="text-emerald-400 font-bold border-t border-slate-800 pt-1">
                           du/dv = (du/dx)/(dv/dx) = cos(x²) = {funcWrtDerivs.du_dv.toFixed(3)}
                         </div>
@@ -1952,7 +1952,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Common Variable x:</span>
-                          <span className="font-mono font-bold text-indigo-400">{xValFuncWrt.toFixed(2)}</span>
+                          <span className="font-mono font-bold text-gold-400">{xValFuncWrt.toFixed(2)}</span>
                         </div>
                         <input
                           type="range"
@@ -1962,7 +1962,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                           value={xValFuncWrt}
                           onChange={(e) => setXValFuncWrt(parseFloat(e.target.value))}
                           aria-label="Common Variable x slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <p className="text-[11px] text-slate-400 italic">
@@ -1990,7 +1990,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Point of Contact x:</span>
-                          <span className="font-mono font-bold text-indigo-400">{tangentX.toFixed(2)}</span>
+                          <span className="font-mono font-bold text-gold-400">{tangentX.toFixed(2)}</span>
                         </div>
                         <input
                           type="range"
@@ -2000,7 +2000,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                           value={tangentX}
                           onChange={(e) => handleTangentXSlider(parseFloat(e.target.value))}
                           aria-label="Point of contact x slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -2033,7 +2033,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                     <div className="space-y-3 text-xs">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1 font-mono">
                         <div className="text-slate-400">Function: f(x) = x³ - 3x</div>
-                        <div className="text-sky-400">f'(x) = 3x² - 3 = {cubicDerivs.fPrime.toFixed(2)}</div>
+                        <div className="text-gold-400">f'(x) = 3x² - 3 = {cubicDerivs.fPrime.toFixed(2)}</div>
                         <div className="text-purple-400">f''(x) = 6x = {cubicDerivs.fDoublePrime.toFixed(2)}</div>
                         <div className="text-amber-400 font-bold border-t border-slate-800 pt-1">
                           State: {cubicDerivs.classification}
@@ -2043,7 +2043,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Inspect Point x:</span>
-                          <span className="font-mono font-bold text-indigo-400">{cubicX.toFixed(2)}</span>
+                          <span className="font-mono font-bold text-gold-400">{cubicX.toFixed(2)}</span>
                         </div>
                         <input
                           type="range"
@@ -2053,7 +2053,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                           value={cubicX}
                           onChange={(e) => handleCubicXSlider(parseFloat(e.target.value))}
                           aria-label="Inspect Point x slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <p className="text-[11px] text-slate-400">
@@ -2122,7 +2122,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-md"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -2175,7 +2175,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs text-slate-300">
                     <span>Parametric Telemetry Time (t):</span>
-                    <span className="font-mono font-bold text-indigo-400">{paramT.toFixed(2)} s</span>
+                    <span className="font-mono font-bold text-gold-400">{paramT.toFixed(2)} s</span>
                   </div>
                   <input
                     type="range"
@@ -2185,7 +2185,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                     value={paramT}
                     onChange={(e) => handleParamTSlider(parseFloat(e.target.value))}
                     aria-label="Sandbox Time slider"
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -2225,7 +2225,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
 
                 <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1 font-mono">
                   <div className="text-slate-400 font-bold text-[11px] uppercase tracking-wider">Live Telemetry Matrix</div>
-                  <div className="text-sky-400">dy/dx (Parametric) = {paramDerivs.slope.toFixed(2)}</div>
+                  <div className="text-gold-400">dy/dx (Parametric) = {paramDerivs.slope.toFixed(2)}</div>
                   <div className="text-emerald-400">Tangent Slope m_t = {tangentX.toFixed(2)}</div>
                   <div className="text-purple-400">Concavity f''(x) = {cubicDerivs.fDoublePrime.toFixed(2)}</div>
                 </div>
@@ -2244,13 +2244,13 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
               <span>
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono">
+              <span className="text-gold-400 font-mono">
                 Competency: {challenge.competencyLevel.toUpperCase()}
               </span>
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700/60">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2265,7 +2265,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="px-2.5 py-0.5 rounded-md bg-indigo-950 text-indigo-300 text-[11px] font-mono font-bold border border-indigo-800">
+              <span className="px-2.5 py-0.5 rounded-md bg-gold-950 text-gold-300 text-[11px] font-mono font-bold border border-gold-800">
                 {challenge.nodeId}
               </span>
               <span className="text-xs text-slate-400 font-medium capitalize">
@@ -2298,7 +2298,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                           : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -2315,7 +2315,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-semibold shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-semibold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2343,7 +2343,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2370,7 +2370,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 hover:bg-slate-700/90 rounded-2xl border border-slate-700 text-slate-200 text-xs flex items-center gap-3 cursor-grab shadow-sm"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center font-bold text-indigo-300">
+                      <span className="w-6 h-6 rounded-full bg-gold-600/30 border border-gold-500/50 flex items-center justify-center font-bold text-gold-300">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2383,7 +2383,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Confirm Ordering
                 </motion.button>
@@ -2400,7 +2400,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   {challenge.unit && <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>}
                   <motion.button
@@ -2408,7 +2408,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Submit Answer
                   </motion.button>
@@ -2427,7 +2427,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-mono rounded-lg shadow-sm"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs font-mono rounded-lg shadow-sm"
                     >
                       + {part}
                     </motion.button>
@@ -2440,7 +2440,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-600 rounded-lg text-white font-mono text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 rounded-lg text-white font-mono text-xs flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2461,7 +2461,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Validate Construction
                 </motion.button>
@@ -2535,7 +2535,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
       {/* ─── PHASE 5: MISSION COMPLETION & MASTERY PROFILE ─────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-6 bg-gradient-to-br from-slate-900 to-gold-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2556,7 +2556,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
               </div>
               <div className="px-5 py-3 bg-slate-900/80 rounded-2xl border border-slate-700 text-center">
                 <span className="text-xs text-slate-400 block">BKT Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2567,7 +2567,7 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
               errors === 0
                 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                 : errors <= 3
-                ? 'bg-indigo-950/80 border-indigo-500 text-indigo-300'
+                ? 'bg-gold-950/80 border-gold-500 text-gold-300'
                 : errors <= 7
                 ? 'bg-amber-950/80 border-amber-500 text-amber-300'
                 : 'bg-rose-950/80 border-rose-500 text-rose-300'
@@ -2628,8 +2628,8 @@ export default function C12_MathematicsDerivativesParametricFunctionsSim({
           </div>
 
           {/* Reflection Prompts */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-2 text-xs">
-            <span className="font-bold text-indigo-300 block text-sm">Self-Reflection Prompts:</span>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-2 text-xs">
+            <span className="font-bold text-gold-300 block text-sm">Self-Reflection Prompts:</span>
             <ul className="list-disc list-inside space-y-1 text-slate-300">
               <li>How does the chain rule link horizontal speed, vertical speed, and spatial curve slope?</li>
               <li>Why does finding the second derivative f''(c) save computation time compared to sign charts?</li>

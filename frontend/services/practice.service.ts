@@ -18,7 +18,8 @@ export interface PracticeQuestion {
   id: string;
   text: string;
   options: string[];
-  correct_option?: number; // omitted for student view
+  // No answer key on the client: MCQ grading happens server-side in
+  // /submit, which returns is_correct (see useSubmitAnswer below).
   explanation?: string;
   difficulty: "easy" | "medium" | "hard";
   subject: string;
@@ -542,16 +543,14 @@ export function useSubmitAnswer(sessionId: string) {
       const cachedQuestions = await idb.getCachedQuestions(sessionId);
 
       if (cached && cachedQuestions) {
-        const question = cachedQuestions.find((q) => q.id === payload.question_id);
-        const isCorrect = question
-          ? payload.selected_option === question.correct_option
-          : optimistic?.is_correct ?? false;
-
+        // No key is cached any more (grading is server-side), so an offline
+        // answer stays UNGRADED: queued for sync, shown an honest "saved"
+        // message — never marked right or wrong locally.
         const localFeedback: Feedback = {
-          is_correct: isCorrect,
-          correct_answer: question?.correct_option ?? payload.selected_option,
-          explanation: question?.explanation || "Synced when back online",
-          points_earned: isCorrect ? 10 : 0,
+          is_correct: optimistic?.is_correct ?? false,
+          correct_answer: payload.selected_option,
+          explanation: "You're offline — your answer will be checked when you're back online",
+          points_earned: 0,
           streak: optimistic?.streak ?? 0,
         };
 

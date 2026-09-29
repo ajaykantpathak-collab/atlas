@@ -47,9 +47,9 @@ export function C11_GeographyOceanWaterMovementsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700">🌊</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🌊</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 11 -- Movements of Ocean Water</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Movements of Ocean Water</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Wave Factory: Wind, Fetch and Duration</h1>
         </div>
       </div>
@@ -99,15 +99,15 @@ export function C11_GeographyOceanWaterMovementsSim() {
           <div className="grid grid-cols-4 gap-2 text-center text-xs mt-1">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Wave height</p>
-              <p className="font-mono font-bold text-cyan-300">{waveHeight.toFixed(1)} m</p>
+              <p className="font-mono font-bold text-gold-300">{waveHeight.toFixed(1)} m</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Period</p>
-              <p className="font-mono font-bold text-sky-300">{period.toFixed(1)} s</p>
+              <p className="font-mono font-bold text-gold-300">{period.toFixed(1)} s</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Length</p>
-              <p className="font-mono font-bold text-indigo-300">{waveLength().toFixed(0)} m</p>
+              <p className="font-mono font-bold text-gold-300">{waveLength().toFixed(0)} m</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Steepness H/L</p>
@@ -123,7 +123,7 @@ export function C11_GeographyOceanWaterMovementsSim() {
                 <span>Wind speed</span><span className="font-mono font-bold text-slate-200">{wind} m/s</span>
               </div>
               <input type="range" min={2} max={30} step={1} value={wind} aria-label="wind speed"
-                onChange={(e) => setWind(Number(e.target.value))} className="w-full min-h-11 accent-sky-400" />
+                onChange={(e) => setWind(Number(e.target.value))} className="w-full min-h-11 accent-gold-400" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -148,7 +148,7 @@ export function C11_GeographyOceanWaterMovementsSim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setShowOrbits(!showOrbits)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${showOrbits ? 'bg-cyan-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${showOrbits ? 'bg-gold-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Orbits: {showOrbits ? 'ON' : 'OFF'}
               </button>
               <button onClick={() => { setWind(10); setFetchKm(200); setHours(6); setShore(120); setShowOrbits(true); }}
@@ -165,8 +165,8 @@ export function C11_GeographyOceanWaterMovementsSim() {
             </p>
           </div>
 
-          <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-            <p className="font-bold text-cyan-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Triple the wind from 10 to 30 m/s. By what factor does wave height grow -- 3, 6 or 9? (Hint: it scales with wind squared.)</p>
             <p>2. Shrink the shore depth until breakers appear. Why does a 6 m wave suddenly stand up there?</p>
           </div>

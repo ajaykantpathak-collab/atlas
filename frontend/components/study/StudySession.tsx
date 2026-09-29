@@ -229,13 +229,13 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
     }
 
     if (state === 'loading') {
-        return <div className="min-h-[60vh] flex items-center justify-center"><Loader2 className="w-8 h-8 animate-spin text-indigo-400" /></div>
+        return <div className="min-h-[60vh] flex items-center justify-center"><Loader2 className="w-8 h-8 animate-spin text-gold-400" /></div>
     }
     if (state === 'error' || !topic) {
         return (
             <div className="min-h-[60vh] flex flex-col items-center justify-center gap-3 text-surface-400">
                 <p>Couldn't load this lesson.</p>
-                <button onClick={() => router.back()} className="text-indigo-400 text-sm">← go back</button>
+                <button onClick={() => router.back()} className="text-gold-400 text-sm">← go back</button>
             </div>
         )
     }
@@ -249,7 +249,7 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
             {/* ── progress rail ── */}
             <div className="sticky top-0 z-20 backdrop-blur-xl bg-surface-950/80 border-b border-white/5">
                 <div className="h-0.5 bg-white/5">
-                    <motion.div className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                    <motion.div className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                         animate={{ width: `${progress * 100}%` }} transition={{ duration: 0.4, ease }} />
                 </div>
                 <div className="max-w-3xl mx-auto px-4 py-2.5 flex items-center gap-1">
@@ -263,12 +263,12 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
                             <button key={s} onClick={() => goTo(i)} title={Sm.label}
                                 className="flex-1 flex flex-col items-center gap-0.5 py-1 group">
                                 <div className={`w-7 h-7 rounded-full flex items-center justify-center transition-all
-                                    ${active ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/40 scale-110'
+                                    ${active ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/40 scale-110'
                                         : doneS ? 'bg-emerald-500/20 text-emerald-400'
                                         : 'bg-white/5 text-surface-500 group-hover:bg-white/10'}`}>
                                     {doneS ? <CheckCircle2 className="w-4 h-4" /> : <Sm.icon className="w-3.5 h-3.5" />}
                                 </div>
-                                <span className={`text-[9px] font-medium tracking-wide ${active ? 'text-indigo-300' : 'text-surface-600'}`}>{Sm.label}</span>
+                                <span className={`text-[9px] font-medium tracking-wide ${active ? 'text-gold-300' : 'text-surface-600'}`}>{Sm.label}</span>
                             </button>
                         )
                     })}
@@ -351,7 +351,7 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
                                             </div>
                                             {probeAnswered === 'wrong' && prereqs.length > 0 && (
                                                 <button onClick={() => router.push(`/learn/${prereqs[0].node_id}`)}
-                                                    className="w-full mt-1 p-3 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-surface-300 hover:border-indigo-500/40 flex items-center justify-between">
+                                                    className="w-full mt-1 p-3 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-surface-300 hover:border-gold-500/40 flex items-center justify-between">
                                                     <span>60-sec detour: {prereqs[0].name || 'the foundation this needs'}</span>
                                                     <ChevronRight className="w-4 h-4" />
                                                 </button>
@@ -372,10 +372,10 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
                                     <DoodleCardImage nodeId={nodeId} />
                                 </div>
                                 <h1 className="text-3xl sm:text-4xl font-display font-bold text-surface-50 leading-tight">{topic.title}</h1>
-                                <div className="relative p-6 rounded-2xl bg-gradient-to-br from-indigo-500/10 to-purple-500/5 border border-indigo-500/20 overflow-hidden">
-                                    <div className="absolute -top-8 -right-8 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl" />
+                                <div className="relative p-6 rounded-2xl bg-gradient-to-br from-gold-500/10 to-purple-500/5 border border-gold-500/20 overflow-hidden">
+                                    <div className="absolute -top-8 -right-8 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl" />
                                     <div className="flex items-start gap-3">
-                                        <Sparkles className="w-6 h-6 text-indigo-300 shrink-0 mt-1" />
+                                        <Sparkles className="w-6 h-6 text-gold-300 shrink-0 mt-1" />
                                         <AuthoredText text={topic.eli5!} className="text-lg text-surface-100 leading-relaxed" />
                                     </div>
                                 </div>
@@ -539,9 +539,9 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
                                         <p className="text-xs font-semibold uppercase tracking-wider text-surface-500">Unlocks next</p>
                                         {forward.slice(0, 4).map(f => (
                                             <button key={f.node_id} onClick={() => router.push(`/learn/${f.node_id}`)}
-                                                className="w-full flex items-center justify-between p-4 rounded-xl bg-white/[0.03] border border-white/10 hover:border-indigo-500/40 hover:bg-indigo-500/5 transition-all group">
+                                                className="w-full flex items-center justify-between p-4 rounded-xl bg-white/[0.03] border border-white/10 hover:border-gold-500/40 hover:bg-gold-500/5 transition-all group">
                                                 <span className="text-sm text-surface-200">{f.name || 'Next topic'}</span>
-                                                <ChevronRight className="w-4 h-4 text-surface-500 group-hover:text-indigo-400" />
+                                                <ChevronRight className="w-4 h-4 text-surface-500 group-hover:text-gold-400" />
                                             </button>
                                         ))}
                                     </div>
@@ -565,7 +565,7 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
                                 <div className="flex flex-col sm:flex-row gap-2 justify-center">
                                     {forward[0] && (
                                         <button onClick={() => router.push(`/learn/${forward[0].node_id}`)}
-                                            className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white font-semibold shadow-lg shadow-indigo-500/25">
+                                            className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold shadow-lg shadow-gold-500/25">
                                             Keep going →
                                         </button>
                                     )}
@@ -635,11 +635,11 @@ export default function StudySession({ nodeId }: { nodeId: string }) {
                             <HelpCircle className="w-4 h-4" /> Stuck
                         </button>
                         <button onClick={() => { setAskOpen(o => !o); setStuckOpen(false) }}
-                            className={`h-11 px-4 rounded-xl border text-sm flex items-center gap-1.5 transition-colors ${askOpen ? 'bg-indigo-500/20 border-indigo-500/40 text-indigo-300' : 'bg-white/5 border-white/10 text-surface-300'}`}>
+                            className={`h-11 px-4 rounded-xl border text-sm flex items-center gap-1.5 transition-colors ${askOpen ? 'bg-gold-500/20 border-gold-500/40 text-gold-300' : 'bg-white/5 border-white/10 text-surface-300'}`}>
                             <MessageCircleQuestion className="w-4 h-4" /> Ask
                         </button>
                         <motion.button whileTap={{ scale: 0.97 }} onClick={next} disabled={(stage === 'probe' && !probeAnswered) || done}
-                            className="flex-1 h-11 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white text-sm font-semibold shadow-lg shadow-indigo-500/20 flex items-center justify-center gap-2 disabled:opacity-40">
+                            className="flex-1 h-11 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white text-sm font-semibold shadow-lg shadow-gold-500/20 flex items-center justify-center gap-2 disabled:opacity-40">
                             {done ? 'Done' : last ? 'Finish node' : 'Continue'}
                             <ArrowRight className="w-4 h-4" />
                         </motion.button>
@@ -677,10 +677,10 @@ function RecallStage({ title, criteria, onDone }: { title: string; criteria: str
                 </p>
                 <textarea value={brain} onChange={e => setBrain(e.target.value)}
                     placeholder="I remember that…"
-                    className="w-full h-32 rounded-xl bg-white/[0.04] border border-white/10 p-3 text-sm text-surface-100 placeholder:text-surface-600 focus:border-violet-500/50 focus:outline-none resize-none" />
+                    className="w-full h-32 rounded-xl bg-white/[0.04] border border-white/10 p-3 text-sm text-surface-100 placeholder:text-surface-600 focus:border-gold-500/50 focus:outline-none resize-none" />
                 <button onClick={() => { setRevealed(true); setChecks(new Array(items.length).fill(false)) }}
                     disabled={brain.trim().length < 10}
-                    className="mt-3 w-full py-2.5 rounded-xl bg-violet-500/15 border border-violet-500/30 text-violet-300 text-sm font-medium disabled:opacity-40">
+                    className="mt-3 w-full py-2.5 rounded-xl bg-gold-500/15 border border-gold-500/30 text-gold-300 text-sm font-medium disabled:opacity-40">
                     I wrote what I remember — show the checklist
                 </button>
             </Card>
@@ -699,7 +699,7 @@ function RecallStage({ title, criteria, onDone }: { title: string; criteria: str
                             ))}
                         </div>
                         <button onClick={() => { if (!teachMode) { setTeachMode(true) } else { onDone() } }} disabled={!allGood || (teachMode && teachText.trim().length < 20)}
-                            className="mt-4 w-full py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white text-sm font-semibold disabled:opacity-40">
+                            className="mt-4 w-full py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white text-sm font-semibold disabled:opacity-40">
                             {!allGood
                                 ? `Check every item you honestly recalled (${claimed}/${items.length})`
                                 : teachMode
@@ -707,11 +707,11 @@ function RecallStage({ title, criteria, onDone }: { title: string; criteria: str
                                 : 'I recalled it — now teach it to a friend →'}
                         </button>
                         {teachMode && (
-                            <div className="mt-3 p-4 rounded-xl bg-indigo-500/5 border border-indigo-500/20">
-                                <p className="text-xs font-semibold text-indigo-300 mb-2">Explain it like you&apos;re teaching a younger student — small words, no jargon:</p>
+                            <div className="mt-3 p-4 rounded-xl bg-gold-500/5 border border-gold-500/20">
+                                <p className="text-xs font-semibold text-gold-300 mb-2">Explain it like you&apos;re teaching a younger student — small words, no jargon:</p>
                                 <textarea value={teachText} onChange={e => setTeachText(e.target.value)}
                                     placeholder="Imagine a friend who never heard of this. Tell them what it is in 3 sentences…"
-                                    className="w-full h-24 rounded-xl bg-white/[0.04] border border-white/10 p-3 text-sm text-surface-100 placeholder:text-surface-600 focus:border-indigo-500/50 focus:outline-none resize-none" />
+                                    className="w-full h-24 rounded-xl bg-white/[0.04] border border-white/10 p-3 text-sm text-surface-100 placeholder:text-surface-600 focus:border-gold-500/50 focus:outline-none resize-none" />
                                 <p className="mt-1 text-[10px] text-surface-600">If you can&apos;t explain it simply, the concept isn&apos;t yours yet — that&apos;s the test.</p>
                             </div>
                         )}
@@ -736,8 +736,8 @@ function StuckBtn({ label, onClick }: { label: string; onClick: () => void }) {
 
 function Card({ label, tone, children }: { label: string; tone: 'indigo' | 'violet' | 'emerald' | 'amber'; children: React.ReactNode }) {
     const tones = {
-        indigo: 'border-indigo-500/20 bg-indigo-500/[0.06] text-indigo-300',
-        violet: 'border-violet-500/20 bg-violet-500/[0.06] text-violet-300',
+        indigo: 'border-gold-500/20 bg-gold-500/[0.06] text-gold-300',
+        violet: 'border-gold-500/20 bg-gold-500/[0.06] text-gold-300',
         emerald: 'border-emerald-500/20 bg-emerald-500/[0.06] text-emerald-300',
         amber: 'border-amber-500/20 bg-amber-500/[0.06] text-amber-300',
     }[tone]
@@ -751,7 +751,7 @@ function Card({ label, tone, children }: { label: string; tone: 'indigo' | 'viol
 
 function Chip({ children, accent, dim }: { children: React.ReactNode; accent?: boolean; dim?: boolean }) {
     return (
-        <span className={`px-2.5 py-1 rounded-full text-[11px] font-medium border ${accent ? 'bg-indigo-500/10 border-indigo-500/30 text-indigo-300' : dim ? 'bg-white/[0.03] border-white/10 text-surface-500' : 'bg-white/5 border-white/10 text-surface-300'}`}>
+        <span className={`px-2.5 py-1 rounded-full text-[11px] font-medium border ${accent ? 'bg-gold-500/10 border-gold-500/30 text-gold-300' : dim ? 'bg-white/[0.03] border-white/10 text-surface-500' : 'bg-white/5 border-white/10 text-surface-300'}`}>
             {children}
         </span>
     )

@@ -1262,7 +1262,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
               className={`px-3 py-1 text-xs font-bold rounded-full ${
                 difficulty === 'foundation' ? 'bg-green-950 text-green-400 border border-green-700' :
                 difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-700' :
-                'bg-blue-950 text-blue-400 border border-blue-700'
+                'bg-gold-950 text-gold-400 border border-gold-700'
               }`}
             >
               TIER: {difficulty.toUpperCase()}
@@ -1284,8 +1284,8 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
          ═══════════════════════════════════════════════════════════════════════ */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-700/40">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-700/40">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏢</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1403,12 +1403,12 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Issued Shares: <strong>{(issuedShares / 100000).toFixed(1)} Lakh shares</strong></span>
-                        <span className="text-blue-400">₹{(calcIssuedCap / 100000).toFixed(0)} Lakh</span>
+                        <span className="text-gold-400">₹{(calcIssuedCap / 100000).toFixed(0)} Lakh</span>
                       </div>
                       <input 
                         type="range" min={200000} max={authShares} step={50000} value={issuedShares}
                         onChange={(e) => setIssuedShares(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                         aria-label="Issued Shares"
                       />
                     </div>
@@ -1500,8 +1500,8 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                 <div className="space-y-4">
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-700/50 space-y-2">
-                      <span className="text-xs font-bold text-indigo-300 uppercase">Predict First</span>
+                    <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-700/50 space-y-2">
+                      <span className="text-xs font-bold text-gold-300 uppercase">Predict First</span>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1553,7 +1553,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setDebRedeemType(type)}
                             className={`px-3 py-1 rounded-lg font-bold uppercase ${
-                              debRedeemType === type ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              debRedeemType === type ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {type} ({type === 'par' ? 'Par' : `${debRedeemPremRate}% Prem`})
@@ -1576,7 +1576,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
 
                     {/* Journal Entry Generator */}
                     <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-3 font-mono text-xs">
-                      <div className="text-indigo-300 font-bold border-b border-slate-800 pb-2">
+                      <div className="text-gold-300 font-bold border-b border-slate-800 pb-2">
                         JOURNAL ENTRY AT ISSUE & WRITE-OFF (SEC 52)
                       </div>
 
@@ -1647,7 +1647,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                       <input 
                         type="range" min={5000} max={35000} step={1000} value={vendorDebShares}
                         onChange={(e) => setVendorDebShares(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Debentures Issued"
                       />
                     </div>
@@ -1688,7 +1688,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                     <div className="space-y-1 pt-2 border-t border-slate-800">
                       <div className="flex justify-between text-slate-300">
                         <span>Purchase Consideration ({vendorDebShares} × ₹{vendorIssuePrice}):</span>
-                        <span className="font-bold text-indigo-300">₹{vendorPurchaseConsideration.toLocaleString('en-IN')}</span>
+                        <span className="font-bold text-gold-300">₹{vendorPurchaseConsideration.toLocaleString('en-IN')}</span>
                       </div>
                     </div>
 
@@ -1724,7 +1724,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                       </div>
 
                       <div className="space-y-1 text-slate-300">
-                        <div className="text-indigo-400 font-bold">I. EQUITY AND LIABILITIES</div>
+                        <div className="text-gold-400 font-bold">I. EQUITY AND LIABILITIES</div>
                         <div className="pl-2 font-semibold text-slate-400">1. Shareholders\' Funds:</div>
                         <div className="pl-4 flex justify-between">
                           <span>(a) Share Capital [Note 1]:</span>
@@ -1758,7 +1758,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                       </div>
 
                       <div className="space-y-1 text-slate-300 pt-2 border-t border-slate-800">
-                        <div className="text-indigo-400 font-bold">II. ASSETS</div>
+                        <div className="text-gold-400 font-bold">II. ASSETS</div>
                         <div className="pl-2 font-semibold text-slate-400">1. Non-Current Assets:</div>
                         <div className="pl-4 flex justify-between">
                           <span>(a) PPE and Intangible Assets:</span>
@@ -1800,7 +1800,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                         </ResponsiveContainer>
                       </div>
                       <div className="flex justify-center gap-4 text-[10px] text-slate-400">
-                        <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-indigo-500 rounded-sm"></span> Equity</span>
+                        <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-gold-500 rounded-sm"></span> Equity</span>
                         <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-amber-500 rounded-sm"></span> Liabilities</span>
                         <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-emerald-500 rounded-sm"></span> Assets</span>
                       </div>
@@ -1833,10 +1833,10 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                     {/* Amendment 2 */}
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                       <div className="flex justify-between items-center">
-                        <span className="text-xs font-bold text-blue-400">2. PPE & Intangibles Renaming</span>
+                        <span className="text-xs font-bold text-gold-400">2. PPE & Intangibles Renaming</span>
                         <input 
                           type="checkbox" checked={ppeRenameApplied} onChange={(e) => setPpeRenameApplied(e.target.checked)}
-                          className="w-4 h-4 accent-blue-500 rounded"
+                          className="w-4 h-4 accent-gold-500 rounded"
                           aria-label="Toggle PPE renaming amendment"
                         />
                       </div>
@@ -1963,10 +1963,10 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* Column 1: Capital & Reserves */}
             <div className="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-3 text-xs">
-              <h4 className="font-bold text-indigo-400 uppercase">1. Shareholders\' Funds</h4>
+              <h4 className="font-bold text-gold-400 uppercase">1. Shareholders\' Funds</h4>
               <div>
                 <span className="text-slate-400">Issued Shares:</span>
-                <input type="range" min={300000} max={1000000} step={50000} value={issuedShares} onChange={(e) => setIssuedShares(Number(e.target.value))} className="w-full accent-indigo-500" />
+                <input type="range" min={300000} max={1000000} step={50000} value={issuedShares} onChange={(e) => setIssuedShares(Number(e.target.value))} className="w-full accent-gold-500" />
                 <div className="text-right text-slate-200">{(issuedShares / 100000).toFixed(1)} Lakh shares</div>
               </div>
               <div>
@@ -2007,8 +2007,8 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
               </div>
               <div>
                 <span className="text-slate-400">Current Assets (Trade Rec + Cash):</span>
-                <input type="range" min={1000000} max={6000000} step={200000} value={cashEquivalents} onChange={(e) => setCashEquivalents(Number(e.target.value))} className="w-full accent-blue-500" />
-                <div className="text-right text-blue-300">₹{((tradeReceivables + cashEquivalents) / 100000).toFixed(1)} Lakh</div>
+                <input type="range" min={1000000} max={6000000} step={200000} value={cashEquivalents} onChange={(e) => setCashEquivalents(Number(e.target.value))} className="w-full accent-gold-500" />
+                <div className="text-right text-gold-300">₹{((tradeReceivables + cashEquivalents) / 100000).toFixed(1)} Lakh</div>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl font-mono text-[11px] text-emerald-300">
                 Total Assets: ₹{(totalAssetsCalc / 100000).toFixed(2)} Lakh
@@ -2031,12 +2031,12 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-slate-400">
-                Competency: <strong className="text-indigo-400 uppercase">{challenge.competencyLevel}</strong>
+                Competency: <strong className="text-gold-400 uppercase">{challenge.competencyLevel}</strong>
               </span>
             </div>
             <div className="h-2.5 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div 
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2107,7 +2107,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2227,7 +2227,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[70px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono">
+                    <span key={idx} className="px-3 py-1 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono">
                       {part}
                     </span>
                   ))}
@@ -2306,7 +2306,7 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
               </div>
               <div className="px-4 py-2 bg-slate-900 rounded-xl border border-slate-800">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-xl font-black text-indigo-400 uppercase">{masteryLevel}</div>
+                <div className="text-xl font-black text-gold-400 uppercase">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2356,15 +2356,15 @@ export default function C12_AccountancyDisclosureShareCapitalSim({
           </div>
 
           {/* Real World Activity */}
-          <div className="p-6 bg-indigo-950/30 rounded-2xl border border-indigo-800/50 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gold-950/30 rounded-2xl border border-gold-800/50 space-y-3">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🔍</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="font-mono text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

@@ -11,7 +11,7 @@ export const w_c12_biotechgenometechnologycbsesim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Structural Genomics: Goals and Sequencing Methods',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_002', 'c12_biotech_cbse_12_001', 'c12_biotech_cbse_05_001', 'c12_biotech_cbse_05_003', 'c12_biotech_cbse_05_004', 'c12_biotech_cbse_05_005', 'c12_biotech_cbse_05_009', 'c12_biotech_cbse_05_010', 'c12_biotech_cbse_05_006', 'c12_biotech_cbse_04_002', 'c12_biotech_cbse_04_003', 'c12_biotech_cbse_04_004', 'c12_biotech_cbse_04_007', 'c12_biotech_cbse_04_008', 'c12_biotech_cbse_04_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are handed a 3-billion-base-pair instruction manual (the human genome) with no page numbers, no.', goal: 'Master Structural Genomics: Goals and Sequencing Methods.' },
     discovery: {
         question: 'Compare the *principle of base detection* in Illumina (second-generation) and Oxford Nanopore (third-generation) sequencing.',
@@ -20,7 +20,7 @@ export const w_c12_biotechgenometechnologycbsesim: SimDef = {
         hook: 'Students conflate "structural genomics" with "whole-genome sequencing" — they think the *goal* is just to get the.',
     },
     teaching: [
-        { title: 'Structural genomics is the systematic.', text: 'Structural genomics is the systematic determination and analysis of the three-dimensional structures of all proteins encoded by a genome (protein-centric view) AND the physical organisation of DNA.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Structural genomics is the systematic.', text: 'Structural genomics is the systematic determination and analysis of the three-dimensional structures of all proteins encoded by a genome (protein-centric view) AND the physical organisation of DNA.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_05_002', title: 'Structural genomics is the systematic.',

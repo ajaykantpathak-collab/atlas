@@ -82,7 +82,7 @@ export function C12_BiologyHumanHealthImmunitySim() {
       {/* CONTROLS */}
       <div className="flex flex-wrap gap-2 mb-3">
         {DISEASES.map((d) => (
-          <button key={d.id} onClick={() => { setR0(d.r0); setDay(0); }} className={`min-h-11 px-3 rounded-xl text-xs font-bold border ${r0 === d.r0 ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+          <button key={d.id} onClick={() => { setR0(d.r0); setDay(0); }} className={`min-h-11 px-3 rounded-xl text-xs font-bold border ${r0 === d.r0 ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
             {d.label}
           </button>
         ))}
@@ -132,7 +132,7 @@ export function C12_BiologyHumanHealthImmunitySim() {
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Herd threshold</p>
-          <p className="text-lg font-extrabold text-indigo-300 font-mono">{herdThreshold.toFixed(0)} %</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{herdThreshold.toFixed(0)} %</p>
         </div>
         <div className={`p-3 rounded-2xl border text-center ${protectedEnough ? 'bg-emerald-950/60 border-emerald-700' : 'bg-rose-950/60 border-rose-700'}`}>
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Peak infected</p>

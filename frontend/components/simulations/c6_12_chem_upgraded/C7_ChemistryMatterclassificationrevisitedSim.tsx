@@ -1561,11 +1561,11 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
       {/* HEADER & MASTERY BAR */}
       <header className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4 bg-slate-900 border border-slate-800 p-4 rounded-2xl shadow-xl mb-6">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-xl text-white shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center font-bold text-xl text-white shadow-lg">
             C7
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-400 to-gold-300 bg-clip-text text-transparent">
               Matter Classification Revisited
             </h1>
             <p className="text-xs text-slate-400 font-medium">
@@ -1609,7 +1609,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
           }}
           className={`flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 ${
             activeTab === 'discovery'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1623,7 +1623,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
           }}
           className={`flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 ${
             activeTab === 'lab'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1637,7 +1637,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
           }}
           className={`flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 ${
             activeTab === 'challenges'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1651,7 +1651,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
           }}
           className={`flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 ${
             activeTab === 'summary'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1664,17 +1664,17 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
         <main className="w-full max-w-6xl flex flex-col gap-6">
           {/* Scenario Banner */}
           <section className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-2xl font-bold text-cyan-400 mb-2">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-bold text-gold-400 mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
-            <div className="bg-slate-800/60 border-l-4 border-cyan-500 p-4 rounded-r-xl text-sm text-slate-300">
-              <span className="font-bold text-cyan-300">Lab Context: </span>
+            <div className="bg-slate-800/60 border-l-4 border-gold-500 p-4 rounded-r-xl text-sm text-slate-300">
+              <span className="font-bold text-gold-300">Lab Context: </span>
               {SCENARIO.context}
             </div>
           </section>
 
           {/* Discovery Counterintuitive Question */}
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase mb-3">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase mb-3">
               <span>💡 Discovery Hypothesis Probe</span>
             </div>
             <h3 className="text-lg font-semibold text-slate-100 mb-4">{DISCOVERY_QUESTION.question}</h3>
@@ -1689,11 +1689,11 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                   }}
                   className={`p-4 rounded-xl border text-left font-medium text-sm transition-all ${
                     discoverySelected === idx
-                      ? 'border-cyan-500 bg-cyan-950/40 text-cyan-200 shadow-md'
+                      ? 'border-gold-500 bg-gold-950/40 text-gold-200 shadow-md'
                       : 'border-slate-800 bg-slate-900/40 text-slate-300 hover:border-slate-700'
                   }`}
                 >
-                  <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + idx)}.</span>
                   {opt}
                 </button>
               ))}
@@ -1703,13 +1703,13 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
               <button
                 onClick={handleDiscoverySubmit}
                 disabled={discoverySelected === null}
-                className="py-3 px-6 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
+                className="py-3 px-6 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
               >
                 Submit Discovery Answer
               </button>
             ) : (
-              <div className="bg-slate-800/80 border border-cyan-500/30 p-4 rounded-xl">
-                <p className="font-bold text-cyan-300 text-base mb-1">
+              <div className="bg-slate-800/80 border border-gold-500/30 p-4 rounded-xl">
+                <p className="font-bold text-gold-300 text-base mb-1">
                   {discoverySelected === DISCOVERY_QUESTION.correctIndex ? '🎯 Spot on!' : '🤔 Interesting Hypothesis!'}
                 </p>
                 <p className="text-slate-300 text-sm">{DISCOVERY_QUESTION.hintAfter}</p>
@@ -1719,11 +1719,11 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
 
           {/* PREDICTION QUESTIONS ARRAY (MANDATORY RENDER) */}
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-xl font-bold text-indigo-300 mb-4">🔮 Predict Chemistry Phenomena</h3>
+            <h3 className="text-xl font-bold text-gold-300 mb-4">🔮 Predict Chemistry Phenomena</h3>
             <div className="flex flex-col gap-6">
               {PREDICTION_QUESTIONS.map((pred, idx) => (
                 <div key={idx} className="bg-slate-950/60 border border-slate-800 rounded-xl p-5">
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">Prediction #{idx + 1}</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">Prediction #{idx + 1}</span>
                   <p className="font-semibold text-slate-200 text-base mt-1 mb-3">{pred.question}</p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">
@@ -1733,7 +1733,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                         onClick={() => setPredictionAnswers((prev) => ({ ...prev, [idx]: oIdx }))}
                         className={`p-3 rounded-lg text-left text-sm font-medium border transition-all ${
                           predictionAnswers[idx] === oIdx
-                            ? 'border-indigo-500 bg-indigo-950/50 text-indigo-200'
+                            ? 'border-gold-500 bg-gold-950/50 text-gold-200'
                             : 'border-slate-800 bg-slate-900/30 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1746,12 +1746,12 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                     <button
                       onClick={() => handlePredictionSubmit(idx)}
                       disabled={predictionAnswers[idx] === undefined}
-                      className="py-2 px-4 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white text-xs font-bold rounded-lg shadow"
+                      className="py-2 px-4 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-lg shadow"
                     >
                       Lock Prediction
                     </button>
                   ) : (
-                    <div className="bg-indigo-950/40 border border-indigo-500/30 p-3 rounded-lg text-xs text-indigo-200">
+                    <div className="bg-gold-950/40 border border-gold-500/30 p-3 rounded-lg text-xs text-gold-200">
                       <span className="font-bold">Verification Guide: </span> {pred.verifyInstruction}
                     </div>
                   )}
@@ -1773,7 +1773,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                 onClick={() => handleLabChange(idx)}
                 className={`p-3 rounded-xl border text-center transition-all ${
                   activeLabIndex === idx
-                    ? 'border-cyan-500 bg-cyan-950/50 text-cyan-300 font-bold shadow-md'
+                    ? 'border-gold-500 bg-gold-950/50 text-gold-300 font-bold shadow-md'
                     : 'border-slate-800 bg-slate-900/60 text-slate-400 hover:border-slate-700'
                 }`}
               >
@@ -1787,7 +1787,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col lg:flex-row gap-6">
             <div className="lg:w-1/2 flex flex-col justify-between">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Node: {EXPLORATION_STEPS[activeLabIndex].nodeId}
                 </span>
                 <h2 className="text-2xl font-bold text-slate-100 mt-1 mb-2">
@@ -1808,7 +1808,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                 <div className="flex flex-col gap-1">
                   <div className="flex justify-between text-xs font-semibold text-slate-300">
                     <span>Solution Temperature:</span>
-                    <span className="text-cyan-400">{temperature} °C</span>
+                    <span className="text-gold-400">{temperature} °C</span>
                   </div>
                   <input
                     type="range"
@@ -1816,7 +1816,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                     max="100"
                     value={temperature}
                     onChange={(e) => setTemperature(Number(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1824,7 +1824,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                 <div className="flex flex-col gap-1">
                   <div className="flex justify-between text-xs font-semibold text-slate-300">
                     <span>Added Solute (NaCl / KNO3):</span>
-                    <span className="text-cyan-400">{soluteAmount} g</span>
+                    <span className="text-gold-400">{soluteAmount} g</span>
                   </div>
                   <input
                     type="range"
@@ -1832,7 +1832,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                     max="100"
                     value={soluteAmount}
                     onChange={(e) => setSoluteAmount(Number(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1871,7 +1871,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                       setStirringSpeed((prev) => (prev % 3) + 1);
                       if (soundEnabled) audioManager.play('tap');
                     }}
-                    className="py-2 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-cyan-300 rounded-lg"
+                    className="py-2 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-gold-300 rounded-lg"
                   >
                     🌀 Stirring Speed: {stirringSpeed}x
                   </button>
@@ -1905,7 +1905,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
               <div className="w-full grid grid-cols-3 gap-2 mt-4 text-center">
                 <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                   <div className="text-[10px] text-slate-400 uppercase">Saturation</div>
-                  <div className="text-sm font-bold text-cyan-400">{saturationPercentage}%</div>
+                  <div className="text-sm font-bold text-gold-400">{saturationPercentage}%</div>
                 </div>
                 <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                   <div className="text-[10px] text-slate-400 uppercase">System Temp</div>
@@ -1913,7 +1913,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                 </div>
                 <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                   <div className="text-[10px] text-slate-400 uppercase">Rf Value</div>
-                  <div className="text-sm font-bold text-indigo-400">{rfValueReading}</div>
+                  <div className="text-sm font-bold text-gold-400">{rfValueReading}</div>
                 </div>
               </div>
             </div>
@@ -1989,7 +1989,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                 }}
                 className={`flex-1 py-2.5 rounded-lg text-xs font-bold capitalize transition-all ${
                   activeTier === tier
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'text-slate-400 hover:text-white hover:bg-slate-800'
                 }`}
               >
@@ -2005,7 +2005,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
               <div className="flex items-center justify-between border-b border-slate-800 pb-4">
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-indigo-950 text-indigo-300 border border-indigo-800/50">
+                    <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-gold-950 text-gold-300 border border-gold-800/50">
                       {currentChallenge.competencyLevel}
                     </span>
                     <span className="text-xs font-mono text-slate-400">Node: {currentChallenge.nodeId}</span>
@@ -2044,11 +2044,11 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                       }}
                       className={`p-4 rounded-xl border text-left text-sm font-medium transition-all ${
                         selectedOptionIndex === oIdx
-                          ? 'border-indigo-500 bg-indigo-950/50 text-indigo-200 shadow-md'
+                          ? 'border-gold-500 bg-gold-950/50 text-gold-200 shadow-md'
                           : 'border-slate-800 bg-slate-950/40 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">
+                      <span className="font-bold text-gold-400 mr-2">
                         {String.fromCharCode(65 + oIdx)}.
                       </span>
                       {opt}
@@ -2069,7 +2069,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                     value={numericInputValue}
                     onChange={(e) => setNumericInputValue(e.target.value)}
                     placeholder="e.g. 40"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-indigo-500"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-gold-500"
                   />
                 </div>
               )}
@@ -2086,7 +2086,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
                       className="p-3 bg-slate-900 border border-slate-800 rounded-lg text-sm text-slate-200 flex justify-between items-center"
                     >
                       <span>{item.text}</span>
-                      <span className="text-xs font-bold text-indigo-400">{item.category}</span>
+                      <span className="text-xs font-bold text-gold-400">{item.category}</span>
                     </div>
                   ))}
                 </div>
@@ -2112,7 +2112,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
               <div className="flex items-center justify-between border-t border-slate-800 pt-4">
                 <button
                   onClick={handleChallengeSubmit}
-                  className="py-3 px-6 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="py-3 px-6 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Verify Answer
                 </button>
@@ -2136,7 +2136,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
         <main className="w-full max-w-6xl flex flex-col gap-6">
           {/* Classification Hierarchy Reference Diagram */}
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-xl font-bold text-cyan-400 mb-4">🌳 Master Matter Classification Tree</h3>
+            <h3 className="text-xl font-bold text-gold-400 mb-4">🌳 Master Matter Classification Tree</h3>
             <PhaseCompositionDiagram />
           </section>
 
@@ -2163,7 +2163,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {MISCONCEPTIONS.map((m, idx) => (
                 <div key={idx} className="bg-slate-950/80 border border-slate-800 rounded-xl p-4">
-                  <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wide">Node: {m.nodeId}</span>
+                  <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wide">Node: {m.nodeId}</span>
                   <h4 className="text-sm font-bold text-rose-400 mt-1 mb-2">❌ Misconception: {m.misconception}</h4>
                   <p className="text-xs text-emerald-300 leading-relaxed">💡 Correcting Principle: {m.correction}</p>
                 </div>
@@ -2175,7 +2175,7 @@ export const C7_ChemistryMatterclassificationrevisitedSim: React.FC<C7_Chemistry
           <div className="flex justify-center my-4">
             <button
               onClick={handleFinalCompletion}
-              className="py-4 px-10 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 hover:from-emerald-400 hover:to-cyan-400 text-slate-950 font-black text-lg rounded-2xl shadow-2xl transition-all transform hover:scale-105"
+              className="py-4 px-10 bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 hover:from-emerald-400 hover:to-gold-400 text-slate-950 font-black text-lg rounded-2xl shadow-2xl transition-all transform hover:scale-105"
             >
               🎓 Complete ICSE Simulation & Record Score
             </button>

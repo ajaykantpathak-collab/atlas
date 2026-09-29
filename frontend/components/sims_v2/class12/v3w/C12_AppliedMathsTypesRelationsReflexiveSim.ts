@@ -11,7 +11,7 @@ export const w_c12_appliedmathstypesrelationsreflexivesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Types of Relations: Reflexive, Symmetric, Transitive',
     chapters: [],
     nodeIds: ['c12_math_cbse_01_001', 'c12_math_cbse_01_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are organising a school sports day and need to group students for relay races.', goal: 'Master Types of Relations: Reflexive, Symmetric, Transitive.' },
     discovery: {
         question: 'State the precise mathematical condition for a relation R on a set A to be reflexive. Use set notation and quantifiers.',
@@ -20,7 +20,7 @@ export const w_c12_appliedmathstypesrelationsreflexivesim: SimDef = {
         hook: '**Misconception: "If a relation has (a,b) and (b,c), it must have (a,c) to be transitive — so I just need to check the.',
     },
     teaching: [
-        { title: 'A relation R on a set A is a subset of the.', text: 'A relation R on a set A is a subset of the Cartesian product A × A. It is called **reflexive** if every element is related to itself, i.e., (a, a) ∈ R for all a ∈ A.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A relation R on a set A is a subset of the.', text: 'A relation R on a set A is a subset of the Cartesian product A × A. It is called **reflexive** if every element is related to itself, i.e., (a, a) ∈ R for all a ∈ A.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_01_001', title: 'A relation R on a set A is a subset of.',

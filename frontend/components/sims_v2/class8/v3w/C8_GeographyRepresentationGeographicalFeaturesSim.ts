@@ -11,11 +11,11 @@ export const w_c8_geographyrepresentationgeographicalfeaturessim: SimDef = {
     classLevel: 8, subject: 'geography', topic: 'Physical Maps: Reading Colours (Blue, Green, Brown, White)',
     chapters: [],
     nodeIds: ['c8_geo_ch2_4', 'c8_geo_ch2_1', 'c8_geo_ch2_3', 'c8_geo_ch2_6', 'c8_geo_ch2_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'When looking at a physical map of India, you immediately notice broad green areas along the northern river.', goal: 'Master Physical Maps: Reading Colours (Blue, Green, Brown, White).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'A physical map uses a standardized.', text: 'A physical map uses a standardized international color convention to represent the relief (elevation above sea level) and depth (bathymetric depth below sea level) of Earth\'s natural surface.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A physical map uses a standardized.', text: 'A physical map uses a standardized international color convention to represent the relief (elevation above sea level) and depth (bathymetric depth below sea level) of Earth\'s natural surface.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_geo_ch2_1', title: 'The Earth is an oblate spheroid (also.',

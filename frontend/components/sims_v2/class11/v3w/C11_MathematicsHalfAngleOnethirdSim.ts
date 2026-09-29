@@ -11,11 +11,11 @@ export const w_c11_mathematicshalfangleonethirdsim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Trigonometric Identities: Double Angle',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_010', 'c11_math_cbse_03_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a skateboard ramp for your school\'s sports fest.', goal: 'Master Trigonometric Identities: Double Angle.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Double angle formulas express trigonometric.', text: 'Double angle formulas express trigonometric functions of angle \\(2x\\) in terms of functions of angle \\(x\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Double angle formulas express trigonometric.', text: 'Double angle formulas express trigonometric functions of angle \\(2x\\) in terms of functions of angle \\(x\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_03_010', title: 'Double angle formulas express.',

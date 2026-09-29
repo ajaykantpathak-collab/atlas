@@ -11,7 +11,7 @@ export const w_c11_physicsrefrigeratorcoefficientperformancesim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Second Law of Thermodynamics: Kelvin-Planck and Clausius',
     chapters: [],
     nodeIds: ['c11_phy_cbse_11_009', 'c11_phy_cbse_11_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a hot cup of chai left on a table in a Delhi winter: it spontaneously cools down, transferring heat.', goal: 'Master Second Law of Thermodynamics: Kelvin-Planck and Clausius.' },
     discovery: {
         question: 'An inventor proposes a refrigerator that transfers 500 J of heat from a cold compartment at 270 K to a hot room at 300 K *without any external electricity or.',
@@ -20,7 +20,7 @@ export const w_c11_physicsrefrigeratorcoefficientperformancesim: SimDef = {
         hook: 'Students often believe the Second Law only applies to "real" engines with friction, and that a *frictionless, ideal*.',
     },
     teaching: [
-        { title: 'The Second Law of Thermodynamics introduces.', text: 'The Second Law of Thermodynamics introduces a fundamental directionality to natural processes that the First Law (energy conservation) alone cannot explain.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Second Law of Thermodynamics introduces.', text: 'The Second Law of Thermodynamics introduces a fundamental directionality to natural processes that the First Law (energy conservation) alone cannot explain.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_11_009', title: 'The Second Law of Thermodynamics.',

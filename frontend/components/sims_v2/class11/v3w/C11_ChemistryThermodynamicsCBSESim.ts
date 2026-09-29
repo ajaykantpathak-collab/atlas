@@ -11,7 +11,7 @@ export const w_c11_chemistrythermodynamicscbsesim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Thermodynamic Terms: System, Surroundings, State',
     chapters: [],
     nodeIds: ['c11_chem_cbse_06_001', 'c11_chem_cbse_06_002', 'c11_chem_cbse_06_003', 'c11_chem_cbse_06_007', 'c11_chem_cbse_06_008', 'c11_chem_cbse_06_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a pressure cooker whistling on a gas stove — the steam inside is the **system**, the metal pot and.', goal: 'Master Thermodynamic Terms: System, Surroundings, State.' },
     discovery: {
         question: 'Classify each as open, closed, or isolated system: (a) a sealed soda bottle before opening, (b) an earthen pot (matka) cooling water by evaporation, (c) a.',
@@ -20,7 +20,7 @@ export const w_c11_chemistrythermodynamicscbsesim: SimDef = {
         hook: 'Students often think a **closed system** cannot exchange **heat** — they equate "closed" with "thermally insulated".',
     },
     teaching: [
-        { title: 'In thermodynamics, a **system** is the.', text: 'In thermodynamics, a **system** is the specific portion of the universe (e.g., reactants in a beaker, gas in a piston) chosen for study; the **surroundings** comprise everything else that can.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'In thermodynamics, a **system** is the.', text: 'In thermodynamics, a **system** is the specific portion of the universe (e.g., reactants in a beaker, gas in a piston) chosen for study; the **surroundings** comprise everything else that can.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_06_001', title: 'In thermodynamics, a **system** is the.',

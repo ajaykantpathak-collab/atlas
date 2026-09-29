@@ -11,7 +11,7 @@ export const w_c12_economicsdemandmeaningtypessim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Money: Meaning and Functions (Medium of Exchange, Unit of Account)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_001', 'c12_eco_cbse_09_008', 'c12_eco_cbse_10_001', 'c12_eco_cbse_11_010', 'c12_eco_cbse_06_006', 'c12_eco_cbse_06_009', 'c12_eco_cbse_10_007', 'c12_eco_cbse_11_003', 'c12_eco_cbse_11_005', 'c12_eco_cbse_05_001', 'c12_eco_cbse_05_006', 'c12_eco_cbse_05_007', 'c12_eco_cbse_02_008', 'c12_eco_cbse_09_003', 'c12_eco_cbse_11_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a local mandi in Maharashtra wanting to buy 5 kg of tomatoes.', goal: 'Master Money: Meaning and Functions (Medium of Exchange, Unit of Account).' },
     discovery: {
         question: 'Why is a current account deposit considered a primary function of a commercial bank, while providing a safe deposit locker is a secondary function?',
@@ -20,7 +20,7 @@ export const w_c12_economicsdemandmeaningtypessim: SimDef = {
         hook: 'Students often think "discounting of bills of exchange" is a secondary/agency function because it involves a document.',
     },
     teaching: [
-        { title: 'Money is a universally accepted medium of.', text: 'Money is a universally accepted medium of exchange that serves as a unit of account, a store of value, and a standard of deferred payment, enabling the valuation and exchange of goods and services.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Money is a universally accepted medium of.', text: 'Money is a universally accepted medium of exchange that serves as a unit of account, a store of value, and a standard of deferred payment, enabling the valuation and exchange of goods and services.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_09_001', title: 'Money is a universally accepted medium.',

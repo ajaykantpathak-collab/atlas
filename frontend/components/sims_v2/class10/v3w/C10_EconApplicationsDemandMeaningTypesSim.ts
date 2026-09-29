@@ -11,7 +11,7 @@ export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
     classLevel: 10, subject: 'economics', topic: 'How to Create More Employment: Government Initiatives',
     chapters: [],
     nodeIds: ['c10_eco_cbse_02_006', 'c10_eco_cbse_05_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine a village in Maharashtra where farmers grow only one rain-fed crop per year, leaving them jobless for.', goal: 'Master n Applications Demand Meaning Types.' },
     discovery: {
         question: 'Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment?',
@@ -20,7 +20,7 @@ export const w_c10_econapplicationsdemandmeaningtypessim: SimDef = {
         hook: 'Students believe government creates employment only by directly hiring workers (like MGNREGA) or giving cash transfers.',
     },
     teaching: [
-        { title: 'Government employment generation initiatives.', text: 'Government employment generation initiatives refer to policies and programs designed to create job opportunities across primary, secondary, and tertiary sectors by addressing structural bottlenecks.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Government employment generation initiatives.', text: 'Government employment generation initiatives refer to policies and programs designed to create job opportunities across primary, secondary, and tertiary sectors by addressing structural bottlenecks.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_eco_cbse_02_006', title: 'Government employment generation.',

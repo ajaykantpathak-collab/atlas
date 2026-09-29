@@ -1245,7 +1245,7 @@ function C9_EconomicsBasicEconomicProblemSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-900/40 border-emerald-500 text-emerald-300'
                 : difficulty === 'standard'
-                ? 'bg-blue-900/40 border-blue-500 text-blue-300'
+                ? 'bg-gold-900/40 border-gold-500 text-gold-300'
                 : 'bg-purple-900/40 border-purple-500 text-purple-300'
             }`}
           >
@@ -1260,12 +1260,12 @@ function C9_EconomicsBasicEconomicProblemSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/50 shadow-inner">
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm mb-1">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/50 shadow-inner">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm mb-1">
               <span>🏛️</span> {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-sm md:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
@@ -1357,8 +1357,8 @@ function C9_EconomicsBasicEconomicProblemSim({
                 <div className="space-y-4">
                   {/* Predict Then Check */}
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-950 rounded-xl border border-indigo-800/60">
-                      <p className="text-sm font-semibold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-950 rounded-xl border border-gold-800/60">
+                      <p className="text-sm font-semibold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1489,7 +1489,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                         }}
                         className={`p-2.5 rounded-lg text-xs font-bold border ${
                           irrigationType === 'flood'
-                            ? 'bg-blue-950 border-blue-500 text-blue-200'
+                            ? 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1528,7 +1528,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                           audioManager.play('count');
                         }}
                         aria-label="Water Liters Slider"
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1539,7 +1539,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                       </p>
                       <p className="text-slate-400">
                         Output ÷ Input Ratio:{' '}
-                        <span className="text-blue-300 font-bold">{irrigationResult.ratio} kg/L</span>
+                        <span className="text-gold-300 font-bold">{irrigationResult.ratio} kg/L</span>
                       </p>
                       <p className="text-slate-400">
                         PMKSY "Per Drop More Crop" Water Saved:{' '}
@@ -1603,7 +1603,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                         }}
                         className={`p-3 rounded-xl text-xs font-bold border transition-all ${
                           selectedCentralProblem === tab.id
-                            ? 'bg-indigo-950/80 border-indigo-500 text-indigo-200'
+                            ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1616,7 +1616,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs md:text-sm space-y-2">
                     {selectedCentralProblem === 'what' && (
                       <div>
-                        <h4 className="font-bold text-indigo-300">What to Produce & in What Quantities?</h4>
+                        <h4 className="font-bold text-gold-300">What to Produce & in What Quantities?</h4>
                         <p className="text-slate-300 mt-1">
                           Deciding between <strong>Capital Goods</strong> (Steel, Turbines, Freight Corridors) vs{' '}
                           <strong>Consumer Goods</strong> (Food, Textiles, Phones).
@@ -1628,7 +1628,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                     )}
                     {selectedCentralProblem === 'how' && (
                       <div>
-                        <h4 className="font-bold text-indigo-300">How to Produce? (Choice of Technique)</h4>
+                        <h4 className="font-bold text-gold-300">How to Produce? (Choice of Technique)</h4>
                         <p className="text-slate-300 mt-1">
                           Deciding between <strong>Labour-Intensive</strong> (abundant Indian workforce, e.g. MGNREGA manual earthwork) vs{' '}
                           <strong>Capital-Intensive</strong> (robotic precision assembly, e.g. Maruti Suzuki Manesar).
@@ -1640,7 +1640,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                     )}
                     {selectedCentralProblem === 'whom' && (
                       <div>
-                        <h4 className="font-bold text-indigo-300">For Whom to Produce? (Distribution Mechanism)</h4>
+                        <h4 className="font-bold text-gold-300">For Whom to Produce? (Distribution Mechanism)</h4>
                         <p className="text-slate-300 mt-1">
                           Market capitalist systems distribute goods by <strong>Purchasing Power</strong>. Socialist systems distribute by <strong>Need</strong>.
                         </p>
@@ -1869,7 +1869,7 @@ function C9_EconomicsBasicEconomicProblemSim({
 
             {/* Box B: Macro Economy GVA Sector Visualizer */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-blue-400">2. India Sectoral GVA Share (Economic Survey)</h4>
+              <h4 className="text-sm font-bold text-gold-400">2. India Sectoral GVA Share (Economic Survey)</h4>
               <div className="h-44 w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <PieChart>
@@ -1885,7 +1885,7 @@ function C9_EconomicsBasicEconomicProblemSim({
               <div className="grid grid-cols-3 text-[11px] text-center gap-1">
                 <span className="text-emerald-400 font-bold">Primary: 18%</span>
                 <span className="text-purple-400 font-bold">Secondary: 28%</span>
-                <span className="text-blue-400 font-bold">Tertiary: 54%</span>
+                <span className="text-gold-400 font-bold">Tertiary: 54%</span>
               </div>
             </div>
           </div>
@@ -1901,13 +1901,13 @@ function C9_EconomicsBasicEconomicProblemSim({
               <span className="text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-bold uppercase">
+              <span className="text-gold-400 font-bold uppercase">
                 NEP 2020 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1956,7 +1956,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                           : 'bg-slate-800 hover:bg-slate-700 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -1974,7 +1974,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2064,7 +2064,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Confirm Order
                 </motion.button>
@@ -2124,7 +2124,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900 border border-indigo-600 rounded-lg text-xs text-white flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900 border border-gold-600 rounded-lg text-xs text-white flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2229,7 +2229,7 @@ function C9_EconomicsBasicEconomicProblemSim({
             <p className="text-sm text-slate-300">
               Final Mastery Score: <strong className="text-emerald-400 text-xl">{Math.max(0, 100 - errors * 5)}%</strong>
             </p>
-            <p className="text-xs text-indigo-300 font-semibold">
+            <p className="text-xs text-gold-300 font-semibold">
               Assessed Knowledge Level: <span className="uppercase font-bold text-white">{masteryLevel}</span>
             </p>
           </div>
@@ -2266,7 +2266,7 @@ function C9_EconomicsBasicEconomicProblemSim({
           )}
 
           {/* ─── SPACED REPETITION (SRS) VISIBILITY BOX ─── */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border-2 border-amber-500/60 shadow-lg space-y-3">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border-2 border-amber-500/60 shadow-lg space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">📅</span>
@@ -2292,7 +2292,7 @@ function C9_EconomicsBasicEconomicProblemSim({
                 <div className="text-[10px] uppercase">0 Errors</div>
                 <div className="font-black text-sm mt-0.5">review in 7 days</div>
               </div>
-              <div className={`p-2.5 rounded-xl border text-xs ${errors >= 1 && errors <= 3 ? 'bg-blue-950/80 border-blue-500 text-blue-200 font-bold ring-2 ring-blue-500/40' : 'bg-slate-950/50 border-slate-800 text-slate-500'}`}>
+              <div className={`p-2.5 rounded-xl border text-xs ${errors >= 1 && errors <= 3 ? 'bg-gold-950/80 border-gold-500 text-gold-200 font-bold ring-2 ring-gold-500/40' : 'bg-slate-950/50 border-slate-800 text-slate-500'}`}>
                 <div className="text-[10px] uppercase">1–3 Errors</div>
                 <div className="font-black text-sm mt-0.5">review in 3 days</div>
               </div>
@@ -2304,15 +2304,15 @@ function C9_EconomicsBasicEconomicProblemSim({
           </div>
 
           {/* Real-World Activity Card */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/50 to-slate-900 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase">
+          <div className="p-5 bg-gradient-to-br from-gold-950/50 to-slate-900 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 uppercase">
               🏛️ {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="flex items-center gap-2 text-xs text-slate-400">
-                  <span className="h-4 w-4 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center text-[10px] font-bold">
+                  <span className="h-4 w-4 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center text-[10px] font-bold">
                     {i + 1}
                   </span>
                   <span>{step}</span>

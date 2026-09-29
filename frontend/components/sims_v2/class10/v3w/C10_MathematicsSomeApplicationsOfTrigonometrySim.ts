@@ -11,7 +11,7 @@ export const w_c10_mathematicssomeapplicationsoftrigonometrysim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Trigonometric Ratios of 30 and 60 Degrees',
     chapters: [],
     nodeIds: ['c10_math_cbse_08_004', 'c10_math_cbse_08_007', 'c10_math_cbse_08_008', 'c10_math_cbse_08_010', 'c10_math_cbse_09_001', 'c10_math_cbse_08_001', 'c10_math_cbse_08_002', 'c10_math_cbse_08_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a triangular roof truss for a house in Kerala where the roof makes a 30° angle with.', goal: 'Master Trigonometric Ratios of 30 and 60 Degrees.' },
     discovery: {
         question: 'Compare the identities \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) and \\(1 + \\tan^2\\theta = \\sec^2\\theta\\). Which is more fundamental? How are their domains different?',
@@ -20,7 +20,7 @@ export const w_c10_mathematicssomeapplicationsoftrigonometrysim: SimDef = {
         hook: 'Students write \\(\\sec\\theta = 1 + \\tan\\theta\\) after taking square root of \\(1 + \\tan^2\\theta = \\sec^2\\theta\\),.',
     },
     teaching: [
-        { title: 'The trigonometric ratios for 30° and 60° are.', text: 'The trigonometric ratios for 30° and 60° are exact values derived from a 30-60-90 right triangle (half of an equilateral triangle).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The trigonometric ratios for 30° and 60° are.', text: 'The trigonometric ratios for 30° and 60° are exact values derived from a 30-60-90 right triangle (half of an equilateral triangle).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_08_004', title: 'The trigonometric ratios for 30° and.',

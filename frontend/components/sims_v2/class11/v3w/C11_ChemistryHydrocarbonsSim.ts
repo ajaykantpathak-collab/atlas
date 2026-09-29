@@ -11,11 +11,11 @@ export const w_c11_chemistryhydrocarbonssim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Preparation of Dihydrogen: Laboratory and Industrial',
     chapters: [],
     nodeIds: ['c11_chem_cbse_09_003', 'c11_chem_cbse_09_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a kitchen gas stove: the blue flame comes from combustion of methane, but the hydrogen in methane can.', goal: 'Master Preparation of Dihydrogen: Laboratory and Industrial.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Dihydrogen (H₂) is prepared in the.', text: 'Dihydrogen (H₂) is prepared in the laboratory by the reaction of metals (Zn, Fe) with dilute acids (H₂SO₄, HCl) or with aqueous alkalis (NaOH), and by the reaction of metals (Mg, Fe) with steam.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Dihydrogen (H₂) is prepared in the.', text: 'Dihydrogen (H₂) is prepared in the laboratory by the reaction of metals (Zn, Fe) with dilute acids (H₂SO₄, HCl) or with aqueous alkalis (NaOH), and by the reaction of metals (Mg, Fe) with steam.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_09_003', title: 'Dihydrogen (H₂) is prepared in the.',

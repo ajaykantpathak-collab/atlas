@@ -681,17 +681,17 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
   return (
     <div className="w-full min-h-screen bg-slate-950 text-slate-100 font-sans p-4 md:p-6 flex flex-col items-center">
       {/* Header & Title */}
-      <header className="w-full max-w-6xl mb-6 bg-slate-900/80 border border-cyan-500/30 rounded-2xl p-4 md:p-6 backdrop-blur flex flex-col md:flex-row justify-between items-center shadow-lg shadow-cyan-950/40">
+      <header className="w-full max-w-6xl mb-6 bg-slate-900/80 border border-gold-500/30 rounded-2xl p-4 md:p-6 backdrop-blur flex flex-col md:flex-row justify-between items-center shadow-lg shadow-gold-950/40">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 rounded-full text-xs font-semibold uppercase tracking-wide">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full text-xs font-semibold uppercase tracking-wide">
               CBSE Class 12 Chemistry
             </span>
             <span className="px-3 py-1 bg-purple-500/20 text-purple-300 border border-purple-500/40 rounded-full text-xs font-semibold">
               Chapter 3: Electrochemistry
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 mt-2">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 mt-2">
             Interactive Electrochemistry Virtual Simulator
           </h1>
           <p className="text-xs md:text-sm text-slate-400 mt-1">
@@ -703,7 +703,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
         <div className="mt-4 md:mt-0 flex items-center gap-4 bg-slate-800/80 px-4 py-2.5 rounded-xl border border-slate-700">
           <div className="text-right">
             <div className="text-xs text-slate-400 uppercase font-bold">Mastery Level</div>
-            <div className="text-lg font-black text-cyan-400">
+            <div className="text-lg font-black text-gold-400">
               {(masteryProb(bktState) * 100).toFixed(0)}%
             </div>
           </div>
@@ -724,7 +724,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           }}
           className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all flex items-center gap-2 ${
             activeTab === 'simulations'
-              ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25'
+              ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/25'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -739,7 +739,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           }}
           className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all flex items-center gap-2 ${
             activeTab === 'challenges'
-              ? 'bg-gradient-to-r from-purple-500 to-indigo-600 text-white shadow-lg shadow-purple-500/25'
+              ? 'bg-gradient-to-r from-purple-500 to-gold-600 text-white shadow-lg shadow-purple-500/25'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -773,7 +773,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
               }}
               className={`py-2 px-3 rounded-lg text-xs font-semibold transition-all ${
                 activeSimModule === 'daniell'
-                  ? 'bg-cyan-500 text-slate-950 font-bold'
+                  ? 'bg-gold-500 text-slate-950 font-bold'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -786,7 +786,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
               }}
               className={`py-2 px-3 rounded-lg text-xs font-semibold transition-all ${
                 activeSimModule === 'she'
-                  ? 'bg-cyan-500 text-slate-950 font-bold'
+                  ? 'bg-gold-500 text-slate-950 font-bold'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -799,7 +799,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
               }}
               className={`py-2 px-3 rounded-lg text-xs font-semibold transition-all ${
                 activeSimModule === 'kohlrausch'
-                  ? 'bg-cyan-500 text-slate-950 font-bold'
+                  ? 'bg-gold-500 text-slate-950 font-bold'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -812,7 +812,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
               }}
               className={`py-2 px-3 rounded-lg text-xs font-semibold transition-all ${
                 activeSimModule === 'faraday'
-                  ? 'bg-cyan-500 text-slate-950 font-bold'
+                  ? 'bg-gold-500 text-slate-950 font-bold'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -825,7 +825,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
               }}
               className={`py-2 px-3 rounded-lg text-xs font-semibold transition-all ${
                 activeSimModule === 'fuelcell'
-                  ? 'bg-cyan-500 text-slate-950 font-bold'
+                  ? 'bg-gold-500 text-slate-950 font-bold'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -837,7 +837,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           {activeSimModule === 'daniell' && (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-slate-900/90 border border-slate-800 p-6 rounded-2xl">
               <div className="lg:col-span-7 flex flex-col items-center">
-                <h3 className="text-lg font-bold text-cyan-400 mb-2">
+                <h3 className="text-lg font-bold text-gold-400 mb-2">
                   Daniell Cell Setup: Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s)
                 </h3>
                 <canvas
@@ -858,7 +858,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div className="mb-4">
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-slate-300 font-medium">External Opposing Voltage (E_ext)</span>
-                      <span className="text-cyan-400 font-bold">{eExt.toFixed(2)} V</span>
+                      <span className="text-gold-400 font-bold">{eExt.toFixed(2)} V</span>
                     </div>
                     <input
                       type="range"
@@ -870,7 +870,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                         setEExt(parseFloat(e.target.value));
                         audioManager.play('pop');
                       }}
-                      className="w-full accent-cyan-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-0.5">
                       <span>0.0 V (Pure Galvanic)</span>
@@ -915,10 +915,10 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </div>
 
                 {/* Real-time Nernst Calculations Display */}
-                <div className="bg-slate-950 p-4 rounded-xl border border-cyan-500/20 font-mono text-xs text-slate-300 space-y-2">
+                <div className="bg-slate-950 p-4 rounded-xl border border-gold-500/20 font-mono text-xs text-slate-300 space-y-2">
                   <div className="flex justify-between">
                     <span className="text-slate-400">Nernst Potential E_cell:</span>
-                    <span className="text-cyan-400 font-bold">{daniellCalculations.eNernst.toFixed(4)} V</span>
+                    <span className="text-gold-400 font-bold">{daniellCalculations.eNernst.toFixed(4)} V</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Gibbs Free Energy ΔG:</span>
@@ -944,7 +944,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           {activeSimModule === 'she' && (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-slate-900/90 border border-slate-800 p-6 rounded-2xl">
               <div className="lg:col-span-6 flex flex-col items-center bg-slate-950 p-4 rounded-xl border border-slate-800">
-                <h3 className="text-md font-bold text-cyan-400 mb-3 text-center">
+                <h3 className="text-md font-bold text-gold-400 mb-3 text-center">
                   Standard Hydrogen Electrode (SHE) Reference Setup
                 </h3>
 
@@ -973,7 +973,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </svg>
 
                 <div className="mt-3 text-center text-xs text-slate-400">
-                  SHE Half-Reaction: <span className="text-cyan-300 font-mono">2H⁺(aq, 1M) + 2e⁻ ⇌ H₂(g, 1 bar)</span> | E° = <span className="text-emerald-400 font-bold">0.00 V</span>
+                  SHE Half-Reaction: <span className="text-gold-300 font-mono">2H⁺(aq, 1M) + 2e⁻ ⇌ H₂(g, 1 bar)</span> | E° = <span className="text-emerald-400 font-bold">0.00 V</span>
                 </div>
               </div>
 
@@ -990,7 +990,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       setSelectedElectrodeId(e.target.value);
                       audioManager.play('pop');
                     }}
-                    className="w-full bg-slate-900 border border-slate-700 text-cyan-300 p-2.5 rounded-lg text-sm font-bold focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-900 border border-slate-700 text-gold-300 p-2.5 rounded-lg text-sm font-bold focus:outline-none focus:border-gold-500"
                   >
                     {ELECTRODE_SERIES.filter(e => e.id !== 'SHE').map(e => (
                       <option key={e.id} value={e.id}>
@@ -1002,7 +1002,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div className="mt-4 p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs space-y-2">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Selected Standard Potential:</span>
-                      <span className="font-bold text-cyan-400">{currentPairData.selected.e0.toFixed(2)} V</span>
+                      <span className="font-bold text-gold-400">{currentPairData.selected.e0.toFixed(2)} V</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Measured Cell EMF (E°cell):</span>
@@ -1020,11 +1020,11 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 {/* Cell Notation Box */}
                 <div className="bg-slate-950 p-4 rounded-xl border border-purple-500/30">
                   <h5 className="text-xs text-purple-400 uppercase font-bold mb-1">Standard IUPAC Cell Notation:</h5>
-                  <div className="font-mono text-sm text-cyan-300 bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-center">
+                  <div className="font-mono text-sm text-gold-300 bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-center">
                     {currentPairData.notation}
                   </div>
                   <p className="text-[11px] text-slate-400 mt-2">
-                    By convention, oxidation half-cell (Anode) is written on the LEFT and reduction half-cell (Cathode) on the RIGHT, separated by salt bridge <span className="text-cyan-400 font-bold">||</span>.
+                    By convention, oxidation half-cell (Anode) is written on the LEFT and reduction half-cell (Cathode) on the RIGHT, separated by salt bridge <span className="text-gold-400 font-bold">||</span>.
                   </p>
                 </div>
               </div>
@@ -1035,7 +1035,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           {activeSimModule === 'kohlrausch' && (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-slate-900/90 border border-slate-800 p-6 rounded-2xl">
               <div className="lg:col-span-7 flex flex-col items-center">
-                <h3 className="text-sm font-bold text-cyan-400 mb-2">
+                <h3 className="text-sm font-bold text-gold-400 mb-2">
                   Variation of Molar Conductivity (Λm) vs √c
                 </h3>
                 <canvas
@@ -1061,9 +1061,9 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       step="0.005"
                       value={solutionConc}
                       onChange={(e) => setSolutionConc(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
                     />
-                    <div className="flex justify-between text-xs text-cyan-300 mt-1">
+                    <div className="flex justify-between text-xs text-gold-300 mt-1">
                       <span>c = {solutionConc.toFixed(3)} M</span>
                       <span>√c = {Math.sqrt(solutionConc).toFixed(3)}</span>
                     </div>
@@ -1082,7 +1082,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                         </div>
                         <div className="flex justify-between">
                           <span>Λ°m (Infinite Dilution):</span>
-                          <span className="text-cyan-400">390.5 S cm² mol⁻¹</span>
+                          <span className="text-gold-400">390.5 S cm² mol⁻¹</span>
                         </div>
                         <div className="flex justify-between">
                           <span>Λm (at conc c):</span>
@@ -1098,11 +1098,11 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </div>
 
                 <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1">
-                  <div className="font-bold text-cyan-400 mb-1">Kohlrausch Law of Independent Migration:</div>
+                  <div className="font-bold text-gold-400 mb-1">Kohlrausch Law of Independent Migration:</div>
                   <p className="text-[11px] leading-relaxed text-slate-400">
                     "At infinite dilution, molar conductivity of an electrolyte is equal to the sum of limiting ionic conductivities of its constituent cations and anions."
                   </p>
-                  <div className="font-mono text-cyan-300 text-[11px] mt-1 bg-slate-900 p-2 rounded">
+                  <div className="font-mono text-gold-300 text-[11px] mt-1 bg-slate-900 p-2 rounded">
                     Λ°m(CH₃COOH) = λ°(H⁺) + λ°(CH₃COO⁻) = 349.6 + 40.9 = 390.5 S cm² mol⁻¹
                   </div>
                 </div>
@@ -1114,7 +1114,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           {activeSimModule === 'faraday' && (
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-slate-900/90 border border-slate-800 p-6 rounded-2xl">
               <div className="lg:col-span-6 flex flex-col gap-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                <h3 className="text-sm font-bold text-cyan-400 mb-1">
+                <h3 className="text-sm font-bold text-gold-400 mb-1">
                   Faraday's Quantitative Electrolysis Visualiser
                 </h3>
 
@@ -1136,7 +1136,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                         }}
                         className={`p-2 rounded-lg text-xs font-semibold text-left border ${
                           electrolysisTarget === item.id
-                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                            ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1151,7 +1151,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-slate-300">Electric Current (I):</span>
-                      <span className="text-cyan-400 font-bold">{currentAmp.toFixed(1)} A</span>
+                      <span className="text-gold-400 font-bold">{currentAmp.toFixed(1)} A</span>
                     </div>
                     <input
                       type="range"
@@ -1160,7 +1160,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       step="0.5"
                       value={currentAmp}
                       onChange={(e) => setCurrentAmp(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1191,7 +1191,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div className="space-y-2.5 font-mono text-xs">
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 flex justify-between">
                       <span className="text-slate-400">Total Charge Q = I × t:</span>
-                      <span className="text-cyan-400 font-bold">{faradayCalculations.totalCharge.toLocaleString()} Coulombs</span>
+                      <span className="text-gold-400 font-bold">{faradayCalculations.totalCharge.toLocaleString()} Coulombs</span>
                     </div>
 
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 flex justify-between">
@@ -1212,7 +1212,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                     {electrolysisTarget === 'H2' && (
                       <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 flex justify-between">
                         <span className="text-slate-400">Gas Volume at STP (22.7 L/mol):</span>
-                        <span className="text-sky-400 font-bold">{faradayCalculations.volumeGasSTP} L</span>
+                        <span className="text-gold-400 font-bold">{faradayCalculations.volumeGasSTP} L</span>
                       </div>
                     )}
                   </div>
@@ -1220,7 +1220,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
 
                 <div className="mt-4 p-3 bg-slate-900 rounded-lg border border-slate-800 text-[11px] text-slate-400">
                   <span className="text-amber-400 font-bold">Faraday's First Law Formula:</span>
-                  <div className="font-mono text-cyan-300 mt-0.5">m = (M × I × t) / (n × F)</div>
+                  <div className="font-mono text-gold-300 mt-0.5">m = (M × I × t) / (n × F)</div>
                   Where M = Molar Mass, n = valency factor, F = 96485 C mol⁻¹.
                 </div>
               </div>
@@ -1230,7 +1230,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           {/* Module E: Hydrogen Fuel Cell */}
           {activeSimModule === 'fuelcell' && (
             <div className="bg-slate-900/90 border border-slate-800 p-6 rounded-2xl flex flex-col items-center">
-              <h3 className="text-lg font-bold text-cyan-400 mb-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-2">
                 Hydrogen-Oxygen Fuel Cell (Clean Electrochemical Energy)
               </h3>
               <p className="text-xs text-slate-400 max-w-2xl text-center mb-6">
@@ -1293,7 +1293,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
             {/* Challenge Progress Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-4 mb-6">
               <div>
-                <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Challenge {challengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-xl font-extrabold text-white mt-0.5">
@@ -1313,10 +1313,10 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
             {/* Multiple Choice Options */}
             <div className="space-y-3 mb-6">
               {CHALLENGES[challengeIndex].options.map((option, idx) => {
-                let btnStyle = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500/50 hover:bg-slate-800/50';
+                let btnStyle = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500/50 hover:bg-slate-800/50';
 
                 if (selectedAnswer === idx) {
-                  btnStyle = 'bg-cyan-500/20 border-cyan-500 text-cyan-300 font-semibold';
+                  btnStyle = 'bg-gold-500/20 border-gold-500 text-gold-300 font-semibold';
                 }
 
                 if (isAnswerSubmitted) {
@@ -1356,7 +1356,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
 
               <button
                 onClick={() => speechManager.speak(CHALLENGES[challengeIndex].question)}
-                className="text-xs text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-1.5 bg-sky-500/10 border border-sky-500/30 px-3 py-1.5 rounded-lg"
+                className="text-xs text-gold-400 hover:text-gold-300 font-semibold flex items-center gap-1.5 bg-gold-500/10 border border-gold-500/30 px-3 py-1.5 rounded-lg"
               >
                 <span>🔊 Read Question</span>
               </button>
@@ -1393,7 +1393,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   disabled={selectedAnswer === null}
                   className={`px-6 py-3 rounded-xl font-bold text-sm shadow-lg transition-all ${
                     selectedAnswer !== null
-                      ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:opacity-90 shadow-cyan-500/25'
+                      ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white hover:opacity-90 shadow-gold-500/25'
                       : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                   }`}
                 >
@@ -1415,16 +1415,16 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
       {/* TAB 3: THEORY & KEY FORMULAS */}
       {activeTab === 'theory' && (
         <div className="w-full max-w-5xl bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
-          <h2 className="text-xl font-extrabold text-cyan-400 border-b border-slate-800 pb-3">
+          <h2 className="text-xl font-extrabold text-gold-400 border-b border-slate-800 pb-3">
             CBSE Class 12 Electrochemistry — Quick Reference & Master Formula Sheet
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
               <h3 className="font-bold text-amber-400 text-sm">1. Nernst Equation & Gibbs Free Energy</h3>
-              <p className="font-mono text-cyan-300">Ecell = E°cell - (0.0591 / n) log10(Q)</p>
-              <p className="font-mono text-cyan-300">ΔG = -n F Ecell</p>
-              <p className="font-mono text-cyan-300">E°cell = (0.0591 / n) log10(Kc)</p>
+              <p className="font-mono text-gold-300">Ecell = E°cell - (0.0591 / n) log10(Q)</p>
+              <p className="font-mono text-gold-300">ΔG = -n F Ecell</p>
+              <p className="font-mono text-gold-300">E°cell = (0.0591 / n) log10(Kc)</p>
               <p className="text-slate-400 text-[11px] mt-1">
                 At 298 K, 2.303 RT / F = 0.0591 V. n = number of moles of electrons involved.
               </p>
@@ -1432,15 +1432,15 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
 
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
               <h3 className="font-bold text-purple-400 text-sm">2. Conductance & Kohlrausch's Law</h3>
-              <p className="font-mono text-cyan-300">Cell Constant G* = l / A = R × κ</p>
-              <p className="font-mono text-cyan-300">Molar Conductance Λm = (κ × 1000) / M</p>
-              <p className="font-mono text-cyan-300">Degree of Dissociation α = Λm / Λ°m</p>
-              <p className="font-mono text-cyan-300">Ka = (c × α²) / (1 - α)</p>
+              <p className="font-mono text-gold-300">Cell Constant G* = l / A = R × κ</p>
+              <p className="font-mono text-gold-300">Molar Conductance Λm = (κ × 1000) / M</p>
+              <p className="font-mono text-gold-300">Degree of Dissociation α = Λm / Λ°m</p>
+              <p className="font-mono text-gold-300">Ka = (c × α²) / (1 - α)</p>
             </div>
 
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
               <h3 className="font-bold text-emerald-400 text-sm">3. Faraday's Laws of Electrolysis</h3>
-              <p className="font-mono text-cyan-300">m = Z × Q = (M × I × t) / (n × F)</p>
+              <p className="font-mono text-gold-300">m = Z × Q = (M × I × t) / (n × F)</p>
               <p className="text-slate-400 text-[11px] mt-1">
                 1 Faraday (F) = 96485 C mol⁻¹ = charge on 1 mole of electrons.
               </p>
@@ -1449,7 +1449,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
               <h3 className="font-bold text-rose-400 text-sm">4. Standard Hydrogen Electrode (SHE)</h3>
               <p className="text-slate-300">Reference potential assigned zero volts at all temperatures.</p>
-              <p className="font-mono text-cyan-300">Pt(s) | H2(g, 1 bar) | H+(aq, 1 M)</p>
+              <p className="font-mono text-gold-300">Pt(s) | H2(g, 1 bar) | H+(aq, 1 M)</p>
             </div>
           </div>
         </div>

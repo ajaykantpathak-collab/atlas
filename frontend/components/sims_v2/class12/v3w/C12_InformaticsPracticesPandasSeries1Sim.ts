@@ -11,7 +11,7 @@ export const w_c12_informaticspracticespandasseries1sim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Handling missing data: isnull, dropna, and fillna',
     chapters: [],
     nodeIds: ['c12_ip_cbse_02_006', 'c12_ip_cbse_02_010', 'c12_ip_cbse_02_012', 'c12_ip_cbse_02_002', 'c12_ip_cbse_02_008', 'c12_ip_cbse_02_004', 'c12_ip_cbse_02_007', 'c12_ip_cbse_02_001', 'c12_ip_cbse_02_005', 'c12_ip_cbse_02_009', 'c12_ip_cbse_02_011', 'c12_ip_cbse_02_003', 'c12_ip_cbse_03_001', 'c12_ip_cbse_05_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you downloaded a CSV of Class 12 board exam results from your school portal, but some students were.', goal: 'Master Handling missing data: isnull, dropna, and fillna.' },
     discovery: {
         question: 'What does `df.isnull().sum()` return when applied to a DataFrame with 3 columns and 5 rows where column \'A\' has 2 NaN, column \'B\' has 0 NaN, and column \'C\' has.',
@@ -20,7 +20,7 @@ export const w_c12_informaticspracticespandasseries1sim: SimDef = {
         hook: 'Students believe `fillna(0)` is a universal "safe" fix for missing numeric data.',
     },
     teaching: [
-        { title: 'Missing data handling in Pandas refers to.', text: 'Missing data handling in Pandas refers to the systematic detection, removal, or replacement of `NaN` (Not a Number) values in Series and DataFrames using three core methods: `isnull()` identifies.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Missing data handling in Pandas refers to.', text: 'Missing data handling in Pandas refers to the systematic detection, removal, or replacement of `NaN` (Not a Number) values in Series and DataFrames using three core methods: `isnull()` identifies.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_ip_cbse_02_006', title: 'Missing data handling in Pandas refers.',

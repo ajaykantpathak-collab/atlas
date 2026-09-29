@@ -11,7 +11,7 @@ export const w_c12_historyghana19571966backgroundsim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind',
     chapters: [],
     nodeIds: ['c12_hist_cbse_05_001', 'c12_hist_cbse_05_005', 'c12_hist_cbse_05_009', 'c12_hist_cbse_05_012', 'c12_hist_cbse_11_002', 'c12_hist_cbse_11_009', 'c12_hist_cbse_11_011', 'c12_hist_cbse_06_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student visiting the Qutb Minar complex in Delhi and noticing the Iron Pillar — a.', goal: 'Master Al-Biruni: Background, Arrival in India and the Kitab-ul-Hind.' },
     discovery: {
         question: 'Why did Al-Biruni choose to write the *Kitab-ul-Hind* in Arabic rather than Persian or Sanskrit, and for whom did he intend it?',
@@ -20,7 +20,7 @@ export const w_c12_historyghana19571966backgroundsim: SimDef = {
         hook: 'Students often think Al-Biruni “travelled widely across India like Ibn Battuta” and wrote a travelogue.',
     },
     teaching: [
-        { title: 'Al-Biruni (973–1048 CE) was a Persian.', text: 'Al-Biruni (973–1048 CE) was a Persian scholar from Khwarizm (present-day Uzbekistan) who accompanied Mahmud of Ghazni to India in 1017 CE and authored the *Kitab-ul-Hind*, a comprehensive 80-chapter.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Al-Biruni (973–1048 CE) was a Persian.', text: 'Al-Biruni (973–1048 CE) was a Persian scholar from Khwarizm (present-day Uzbekistan) who accompanied Mahmud of Ghazni to India in 1017 CE and authored the *Kitab-ul-Hind*, a comprehensive 80-chapter.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_05_001', title: 'Al-Biruni (973–1048 CE) was a Persian.',

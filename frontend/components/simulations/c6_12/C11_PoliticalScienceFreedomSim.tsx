@@ -109,10 +109,10 @@ export function C11_PoliticalScienceFreedomSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Resources and ability (income, health, schooling)</span><span className="font-mono font-bold text-violet-400">{resources}</span>
+                <span>Resources and ability (income, health, schooling)</span><span className="font-mono font-bold text-gold-400">{resources}</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={resources} aria-label="resources"
-                onChange={(e) => setResources(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setResources(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

@@ -1175,12 +1175,12 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300">
+            <h1 className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 11 ISC Computer Science (2026 NEP Standard)</p>
@@ -1198,13 +1198,13 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                 ? 'bg-emerald-950/60 border-emerald-500/50 text-emerald-400'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 border-rose-500/50 text-rose-400'
-                : 'bg-indigo-950/60 border-indigo-500/50 text-indigo-400'
+                : 'bg-gold-950/60 border-gold-500/50 text-gold-400'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <span className="px-3 py-1 bg-slate-800/80 rounded-full text-xs text-slate-300 border border-slate-700">
-            Phase: <strong className="text-sky-400 capitalize">{phase}</strong>
+            Phase: <strong className="text-gold-400 capitalize">{phase}</strong>
           </span>
         </div>
       </motion.div>
@@ -1212,8 +1212,8 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
       {/* ── PHASE 1: DISCOVERY HOOK ── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 border border-indigo-500/30">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Scenario Mission</span>
+          <div className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 border border-gold-500/30">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Scenario Mission</span>
             <h2 className="text-lg md:text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-amber-300/90 mt-2 font-medium bg-amber-950/30 p-2.5 rounded-lg border border-amber-800/40">
@@ -1258,7 +1258,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
           </div>
 
           <div className="p-5 rounded-2xl bg-slate-800/60 border border-slate-700">
-            <span className="text-xs text-sky-400 font-bold uppercase tracking-wider">Discovery Challenge</span>
+            <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Discovery Challenge</span>
             <p className="text-base font-semibold text-white mt-2 mb-4">{DISCOVERY_QUESTION.question}</p>
 
             <div className="space-y-3">
@@ -1293,7 +1293,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2 text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                 >
                   Enter Interactive Architecture Lab →
                 </motion.button>
@@ -1308,7 +1308,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-6 space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs uppercase font-bold tracking-widest text-indigo-400">
+              <span className="text-xs uppercase font-bold tracking-widest text-gold-400">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1330,14 +1330,14 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   if (currentSlide < EXPLORATION_STEPS.length - 1) setCurrentSlide(s => s + 1);
                   else handleAdvanceToSandbox();
                 }}
-                className="px-3.5 py-1.5 bg-indigo-600 rounded-lg text-xs font-bold text-white shadow"
+                className="px-3.5 py-1.5 bg-gold-600 rounded-lg text-xs font-bold text-white shadow"
               >
                 {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next →' : 'Enter Sandbox →'}
               </motion.button>
             </div>
           </div>
 
-          <p className="text-xs md:text-sm text-sky-300 bg-sky-950/40 p-3 rounded-xl border border-sky-800/40 flex items-center gap-2">
+          <p className="text-xs md:text-sm text-gold-300 bg-gold-950/40 p-3 rounded-xl border border-gold-800/40 flex items-center gap-2">
             <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
           </p>
 
@@ -1351,7 +1351,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                     STACK ARRAY (Capacity: {stackCapacity}) | <span className="text-amber-400 font-bold">top = {stackTop}</span>
                   </div>
                   {/* Vertical Stack Container */}
-                  <div className="w-56 h-64 border-2 border-t-0 border-indigo-500/60 rounded-b-xl bg-slate-900/60 p-2 flex flex-col-reverse gap-2 relative">
+                  <div className="w-56 h-64 border-2 border-t-0 border-gold-500/60 rounded-b-xl bg-slate-900/60 p-2 flex flex-col-reverse gap-2 relative">
                     {Array.from({ length: stackCapacity }).map((_, index) => {
                       const item = stackItems[index];
                       const isTop = index === stackTop && item !== undefined;
@@ -1363,7 +1363,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                           className={`h-9 rounded-lg flex items-center justify-between px-3 font-mono text-xs border transition-all ${
                             item !== undefined
                               ? isTop
-                                ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-500/40 font-bold'
+                                ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-500/40 font-bold'
                                 : 'bg-slate-800 border-slate-700 text-slate-200'
                               : 'border-dashed border-slate-700/60 text-slate-600'
                           }`}
@@ -1380,13 +1380,13 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                 {/* Stack Controls */}
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-indigo-300 mb-3">Stack Operations (LIFO)</h3>
+                    <h3 className="text-sm font-bold text-gold-300 mb-3">Stack Operations (LIFO)</h3>
                     <div className="flex flex-wrap gap-2">
                       <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleStackPush}
-                        className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-xs font-bold shadow"
+                        className="px-4 py-2 bg-gold-600 text-white rounded-lg text-xs font-bold shadow"
                       >
                         Push({stackInputVal})
                       </motion.button>
@@ -1428,8 +1428,8 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-indigo-950/40 border border-indigo-800/40 rounded-xl">
-                      <p className="text-xs text-sky-300 font-medium">{PREDICTION_QUESTIONS[0].verifyInstruction}</p>
+                    <div className="p-3 bg-gold-950/40 border border-gold-800/40 rounded-xl">
+                      <p className="text-xs text-gold-300 font-medium">{PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                     </div>
                   )}
                 </div>
@@ -1458,12 +1458,12 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                         layout
                         className={`h-24 rounded-xl border-2 flex flex-col items-center justify-center p-2 text-center transition-all ${
                           passenger !== null
-                            ? 'bg-slate-800 border-indigo-500 text-white shadow-md'
+                            ? 'bg-slate-800 border-gold-500 text-white shadow-md'
                             : 'bg-slate-900 border-dashed border-slate-700 text-slate-600'
                         }`}
                       >
                         <span className="text-[10px] text-slate-400 font-mono">[{idx}]</span>
-                        <span className="text-sm font-bold my-1 text-sky-300">{passenger || 'empty'}</span>
+                        <span className="text-sm font-bold my-1 text-gold-300">{passenger || 'empty'}</span>
                         <div className="flex gap-1 mt-1">
                           {isFront && <span className="text-[9px] bg-emerald-500 text-slate-950 font-black px-1 rounded">FRONT</span>}
                           {isRear && <span className="text-[9px] bg-amber-400 text-slate-950 font-black px-1 rounded">REAR</span>}
@@ -1478,7 +1478,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleQueueEnqueue}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Enqueue({queuePassengerName}) [Rear +1]
                   </motion.button>
@@ -1499,14 +1499,14 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
               <div className="space-y-6">
                 <div className="flex flex-wrap gap-2 items-center justify-between">
                   <span className="text-xs font-mono text-slate-400">
-                    HEAD POINTER → <strong className="text-indigo-400">{linkedList.length > 0 ? linkedList[0].address : 'null'}</strong>
+                    HEAD POINTER → <strong className="text-gold-400">{linkedList.length > 0 ? linkedList[0].address : 'null'}</strong>
                   </span>
                   <div className="flex gap-2">
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleLinkedListInsertHead}
-                      className="px-3 py-1.5 bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-600 text-white text-xs font-bold rounded-lg"
                     >
                       + Insert Head ({newListNodeVal})
                     </motion.button>
@@ -1528,18 +1528,18 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       <motion.div
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
-                        className="flex border-2 border-indigo-500/70 rounded-xl bg-slate-950 overflow-hidden shadow-lg"
+                        className="flex border-2 border-gold-500/70 rounded-xl bg-slate-950 overflow-hidden shadow-lg"
                       >
-                        <div className="p-2.5 bg-indigo-950/60 border-r border-indigo-500/40 text-center">
+                        <div className="p-2.5 bg-gold-950/60 border-r border-gold-500/40 text-center">
                           <span className="text-[9px] text-slate-400 block font-mono">DATA</span>
                           <span className="text-sm font-bold text-white font-mono">{node.val}</span>
                         </div>
                         <div className="p-2.5 bg-slate-900 text-center min-w-[70px]">
                           <span className="text-[9px] text-slate-400 block font-mono">NEXT PTR</span>
-                          <span className="text-xs font-mono text-sky-400">{node.nextAddress || 'null'}</span>
+                          <span className="text-xs font-mono text-gold-400">{node.nextAddress || 'null'}</span>
                         </div>
                       </motion.div>
-                      {i < linkedList.length - 1 && <span className="text-indigo-400 font-bold text-lg">➔</span>}
+                      {i < linkedList.length - 1 && <span className="text-gold-400 font-bold text-lg">➔</span>}
                     </React.Fragment>
                   ))}
                   {linkedList.length === 0 && <p className="text-xs text-slate-500 italic">List is empty (head == null)</p>}
@@ -1578,7 +1578,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   {/* Real-time Big-O Operation Calculator */}
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs text-slate-400 mb-2">
-                      <span>Input Size (n): <strong className="text-sky-300">{inputSizeN}</strong></span>
+                      <span>Input Size (n): <strong className="text-gold-300">{inputSizeN}</strong></span>
                     </div>
                     <input
                       type="range"
@@ -1587,7 +1587,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       value={inputSizeN}
                       onChange={e => setInputSizeN(Number(e.target.value))}
                       aria-label="Input size n slider"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <div className="grid grid-cols-2 gap-2 mt-4 text-xs font-mono">
@@ -1597,7 +1597,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       </div>
                       <div className="p-2 bg-slate-950 rounded border border-slate-800">
                         <span className="text-slate-400 block">O(log n):</span>
-                        <strong className="text-sky-400">{Math.round(Math.log2(inputSizeN))} ops</strong>
+                        <strong className="text-gold-400">{Math.round(Math.log2(inputSizeN))} ops</strong>
                       </div>
                       <div className="p-2 bg-slate-950 rounded border border-slate-800">
                         <span className="text-slate-400 block">O(n log n):</span>
@@ -1621,7 +1621,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setActiveSortAlgo(algo)}
                           className={`px-2.5 py-1 rounded text-[11px] font-bold capitalize transition-colors ${
-                            activeSortAlgo === algo ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeSortAlgo === algo ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           {algo}
@@ -1668,8 +1668,8 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
               <div className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* Parent Table */}
-                  <div className="p-3 bg-slate-900 rounded-xl border border-indigo-500/40">
-                    <span className="text-[11px] font-bold text-indigo-300 block mb-2">PARENT TABLE: TRAIN</span>
+                  <div className="p-3 bg-slate-900 rounded-xl border border-gold-500/40">
+                    <span className="text-[11px] font-bold text-gold-300 block mb-2">PARENT TABLE: TRAIN</span>
                     <table className="w-full text-xs font-mono">
                       <thead>
                         <tr className="text-slate-400 border-b border-slate-800">
@@ -1691,26 +1691,26 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   </div>
 
                   {/* Child Table with Foreign Key */}
-                  <div className="p-3 bg-slate-900 rounded-xl border border-sky-500/40">
-                    <span className="text-[11px] font-bold text-sky-300 block mb-2">CHILD TABLE: BOOKING</span>
+                  <div className="p-3 bg-slate-900 rounded-xl border border-gold-500/40">
+                    <span className="text-[11px] font-bold text-gold-300 block mb-2">CHILD TABLE: BOOKING</span>
                     <table className="w-full text-xs font-mono">
                       <thead>
                         <tr className="text-slate-400 border-b border-slate-800">
                           <th className="text-left pb-1 text-amber-400">PNR [PK]</th>
                           <th className="text-left pb-1">Passenger</th>
-                          <th className="text-left pb-1 text-sky-400 font-bold">TrainNo [FK]</th>
+                          <th className="text-left pb-1 text-gold-400 font-bold">TrainNo [FK]</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="border-b border-slate-800/40">
                           <td className="py-1">821034</td>
                           <td>Aarav Mehta</td>
-                          <td className="text-sky-300 font-bold">12951</td>
+                          <td className="text-gold-300 font-bold">12951</td>
                         </tr>
                         <tr>
                           <td className="py-1">821035</td>
                           <td>Pooja Sharma</td>
-                          <td className="text-sky-300 font-bold">12951</td>
+                          <td className="text-gold-300 font-bold">12951</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1767,9 +1767,9 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Quick Stack Sandbox */}
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-              <span className="text-xs font-bold text-indigo-400 block mb-2">Stack (LIFO)</span>
+              <span className="text-xs font-bold text-gold-400 block mb-2">Stack (LIFO)</span>
               <div className="flex gap-2 mb-3">
-                <button onClick={handleStackPush} className="px-3 py-1 bg-indigo-600 text-xs rounded font-bold">Push</button>
+                <button onClick={handleStackPush} className="px-3 py-1 bg-gold-600 text-xs rounded font-bold">Push</button>
                 <button onClick={handleStackPop} className="px-3 py-1 bg-rose-600 text-xs rounded font-bold">Pop</button>
               </div>
               <p className="text-xs font-mono text-slate-300">Stack: [{stackItems.join(', ')}]</p>
@@ -1778,9 +1778,9 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
 
             {/* Quick Queue Sandbox */}
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-              <span className="text-xs font-bold text-sky-400 block mb-2">Queue (FIFO)</span>
+              <span className="text-xs font-bold text-gold-400 block mb-2">Queue (FIFO)</span>
               <div className="flex gap-2 mb-3">
-                <button onClick={handleQueueEnqueue} className="px-3 py-1 bg-sky-600 text-xs rounded font-bold">Enqueue</button>
+                <button onClick={handleQueueEnqueue} className="px-3 py-1 bg-gold-600 text-xs rounded font-bold">Enqueue</button>
                 <button onClick={handleQueueDequeue} className="px-3 py-1 bg-rose-600 text-xs rounded font-bold">Dequeue</button>
               </div>
               <p className="text-xs font-mono text-slate-300">Queue: [{queueItems.filter(Boolean).join(', ')}]</p>
@@ -1811,7 +1811,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-1">
-                <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-indigo-950 border border-indigo-800 text-indigo-300 uppercase">
+                <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-gold-950 border border-gold-800 text-gold-300 uppercase">
                   {challenge.competencyLevel}
                 </span>
                 <span className="text-[11px] font-mono text-slate-400">Node: {challenge.nodeId}</span>
@@ -1822,7 +1822,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
             <div className="w-36 md:w-48">
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-sky-400"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -1879,7 +1879,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1961,7 +1961,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -1989,7 +1989,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-600/30 text-indigo-300 flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-600/30 text-gold-300 flex items-center justify-center font-bold">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2001,7 +2001,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow mt-2"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow mt-2"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2017,7 +2017,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter value"
                   aria-label="Numeric input answer"
-                  className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-xl text-sm text-white font-mono focus:border-indigo-500 focus:outline-none"
+                  className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-xl text-sm text-white font-mono focus:border-gold-500 focus:outline-none"
                 />
                 <span className="text-xs text-slate-400">{challenge.unit}</span>
                 <motion.button
@@ -2025,7 +2025,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Submit Value
                 </motion.button>
@@ -2043,7 +2043,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1 bg-slate-900 border border-indigo-500/50 text-indigo-300 rounded-lg text-xs font-mono"
+                      className="px-3 py-1 bg-slate-900 border border-gold-500/50 text-gold-300 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2052,7 +2052,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-700 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-600 text-white rounded text-xs font-mono flex items-center gap-1">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-600 text-white rounded text-xs font-mono flex items-center gap-1">
                       {part}
                       <button onClick={() => setConstructParts(p => p.filter((_, i) => i !== idx))} className="text-rose-300 font-bold ml-1">
                         ×
@@ -2067,7 +2067,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Constructed Code
                 </motion.button>
@@ -2080,7 +2080,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-indigo-950/50 border border-indigo-700/60 rounded-2xl space-y-3"
+              className="p-5 bg-gold-950/50 border border-gold-700/60 rounded-2xl space-y-3"
             >
               <span className="text-xs font-bold uppercase tracking-wider text-amber-300">
                 Step-by-Step Technical Explanation:
@@ -2097,7 +2097,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-xs md:text-sm text-slate-200 leading-relaxed"
                   >
-                    <strong className="text-indigo-400 font-mono">[{idx + 1}]</strong> {sentence}
+                    <strong className="text-gold-400 font-mono">[{idx + 1}]</strong> {sentence}
                     {!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2109,7 +2109,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2144,8 +2144,8 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
           </div>
 
           {/* MOTIVATIONAL FEEDBACK BASED ON ERRORS */}
-          <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 to-indigo-950 border border-indigo-500/40 text-center shadow-lg">
-            <h3 className="text-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-sky-300 to-emerald-300 mb-1">
+          <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 to-gold-950 border border-gold-500/40 text-center shadow-lg">
+            <h3 className="text-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-gold-300 to-emerald-300 mb-1">
               {errors === 0
                 ? 'PERFECT SCORE!'
                 : errors <= 3
@@ -2166,7 +2166,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
           </div>
 
           {/* SPACED REPETITION VISIBILITY CARD */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-indigo-950/50 to-slate-900 rounded-2xl border border-amber-500/40 shadow-md flex items-center justify-between flex-wrap gap-4">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-gold-950/50 to-slate-900 rounded-2xl border border-amber-500/40 shadow-md flex items-center justify-between flex-wrap gap-4">
             <div className="flex items-center gap-3">
               <span className="text-3xl">📅</span>
               <div>
@@ -2188,7 +2188,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-4">
-            <h3 className="text-sm font-bold text-sky-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Key Concept Reflections:
             </h3>
 
@@ -2202,7 +2202,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                 value={reflectionResponses.surprising}
                 onChange={e => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                 placeholder="e.g., Selection Sort is unstable because long-distance swaps bypass equal elements, or array index access is always O(1)..."
-                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none"
+                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none"
               />
             </div>
 
@@ -2216,7 +2216,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                 value={reflectionResponses.explain}
                 onChange={e => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                 placeholder="e.g., A stack is like a stack of trays (LIFO) while a queue is a ticket line (FIFO), and linked lists link memory using pointers..."
-                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none"
+                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none"
               />
             </div>
 
@@ -2230,7 +2230,7 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
                 value={reflectionResponses.realLife}
                 onChange={e => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                 placeholder="e.g., Designing real-time reservation queues in IRCTC, browser back button history with stacks, or database foreign keys for e-commerce..."
-                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none"
+                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none"
               />
             </div>
           </div>
@@ -2255,13 +2255,13 @@ function C11_ComputerScienceDataStructuresIntroductionSim({
           )}
 
           {/* Real World Activity Arc */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

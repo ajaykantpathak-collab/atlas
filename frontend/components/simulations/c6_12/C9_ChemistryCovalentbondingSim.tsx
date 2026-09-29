@@ -41,7 +41,7 @@ export function C9_ChemistryCovalentbondingSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Build a covalent bond: shared pairs only</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Build a covalent bond: shared pairs only</h1>
       <p className="mt-1 text-sm text-slate-400">
         Pick an element, then add shared pairs. The octet (or duet for hydrogen) tells you when to stop.
       </p>
@@ -71,13 +71,13 @@ export function C9_ChemistryCovalentbondingSim() {
         </button>
         <button
           onClick={() => setPairs((v) => Math.min(maxPairs, v + 1))}
-          className="min-h-11 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold transition-colors"
+          className="min-h-11 px-4 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold transition-colors"
         >
           + shared pair
         </button>
         <button
           onClick={() => setShowLone((v) => !v)}
-          className={`min-h-11 px-4 rounded-xl text-sm font-bold border transition-colors ${showLone ? 'bg-violet-600 border-violet-500' : 'bg-slate-800 border-slate-700 hover:bg-slate-700'}`}
+          className={`min-h-11 px-4 rounded-xl text-sm font-bold border transition-colors ${showLone ? 'bg-gold-600 border-gold-500' : 'bg-slate-800 border-slate-700 hover:bg-slate-700'}`}
         >
           {showLone ? 'Hide lone pairs' : 'Show lone pairs'}
         </button>
@@ -126,11 +126,11 @@ export function C9_ChemistryCovalentbondingSim() {
           <div className="grid grid-cols-2 gap-2">
             <div className="p-3 bg-slate-900/70 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Valence electrons</div>
-              <div className="font-mono text-indigo-300 font-bold text-lg">{e.valence}</div>
+              <div className="font-mono text-gold-300 font-bold text-lg">{e.valence}</div>
             </div>
             <div className="p-3 bg-slate-900/70 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Shared pairs</div>
-              <div className="font-mono text-violet-300 font-bold text-lg">{shared}</div>
+              <div className="font-mono text-gold-300 font-bold text-lg">{shared}</div>
             </div>
             <div className="p-3 bg-slate-900/70 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Electrons around atom</div>
@@ -143,7 +143,7 @@ export function C9_ChemistryCovalentbondingSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-sm text-slate-300">
-            {elem} has {e.valence} valence electrons, so it needs <span className="font-bold text-indigo-300">{e.needs} shared pair(s)</span> to
+            {elem} has {e.valence} valence electrons, so it needs <span className="font-bold text-gold-300">{e.needs} shared pair(s)</span> to
             complete its {elem === 'H' ? 'duet' : 'octet'}. Right now the bond has {shared} pair(s): each atom counts{' '}
             {e.valence} + {gained} = <span className={happy ? 'text-emerald-300' : 'text-rose-300'}>{around}</span> electrons.
             {shared > e.needs && ' That is too many for this element — real ' + elem + ' does not bond this way.'}

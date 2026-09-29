@@ -1361,7 +1361,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
           {/* ─── BRILLIANT.ORG PREDICTION-THEN-CHECK MODULE ─── */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 shadow-xl space-y-4">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                 <span>🔮 Predict-Then-Check Inquiries (Brilliant Pattern)</span>
               </div>
               <div className="flex gap-2">
@@ -1370,7 +1370,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                     key={pIdx}
                     onClick={() => setActivePredIdx(pIdx)}
                     className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                      activePredIdx === pIdx ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                      activePredIdx === pIdx ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Prediction {pIdx + 1}
@@ -1397,7 +1397,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                             : isChosen
                             ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                             : 'bg-slate-900 border-slate-800 text-slate-500'
-                          : 'bg-slate-900 border-slate-800 text-slate-200 hover:border-cyan-500/50'
+                          : 'bg-slate-900 border-slate-800 text-slate-200 hover:border-gold-500/50'
                       }`}
                     >
                       <span className="font-bold mr-2">{String.fromCharCode(65 + optIdx)}.</span>
@@ -1408,8 +1408,8 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
               </div>
 
               {predChecked[activePredIdx] && (
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-3 p-3 bg-cyan-950/30 border border-cyan-800/40 rounded-xl space-y-1">
-                  <p className="text-xs text-cyan-300 font-semibold">{PREDICTION_QUESTIONS[activePredIdx].explanation}</p>
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-3 p-3 bg-gold-950/30 border border-gold-800/40 rounded-xl space-y-1">
+                  <p className="text-xs text-gold-300 font-semibold">{PREDICTION_QUESTIONS[activePredIdx].explanation}</p>
                   <p className="text-[11px] text-amber-300 font-mono mt-1">
                     🔍 <strong>How to Verify:</strong> {PREDICTION_QUESTIONS[activePredIdx].verifyInstruction}
                   </p>
@@ -1745,7 +1745,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                     {[
                       { id: 'preparedness', title: '1. Preparedness', desc: 'Pre-disaster sirens, drills & stock', color: 'border-amber-500 text-amber-300' },
                       { id: 'response', title: '2. Response', desc: 'Search, rescue & medical triage', color: 'border-rose-500 text-rose-300' },
-                      { id: 'recovery', title: '3. Recovery', desc: 'Rehabilitation & reconstruction', color: 'border-blue-500 text-blue-300' },
+                      { id: 'recovery', title: '3. Recovery', desc: 'Rehabilitation & reconstruction', color: 'border-gold-500 text-gold-300' },
                       { id: 'mitigation', title: '4. Mitigation', desc: 'Building codes & mangrove belts', color: 'border-emerald-500 text-emerald-300' }
                     ].map((phaseItem) => (
                       <motion.button
@@ -1926,7 +1926,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>Healthcare & Maternal Care:</span>
-                          <strong className="text-blue-400">{healthInvestment}%</strong>
+                          <strong className="text-gold-400">{healthInvestment}%</strong>
                         </div>
                         <input
                           type="range"
@@ -1935,7 +1935,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                           value={healthInvestment}
                           aria-label="Healthcare Investment Slider"
                           onChange={(e) => setHealthInvestment(Number(e.target.value))}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -2116,7 +2116,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Annual Rainfall:</span>
-                    <strong className="text-blue-400">{sandboxRainfall} cm</strong>
+                    <strong className="text-gold-400">{sandboxRainfall} cm</strong>
                   </div>
                   <input
                     type="range"
@@ -2125,7 +2125,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                     value={sandboxRainfall}
                     aria-label="Annual rainfall slider"
                     onChange={(e) => setSandboxRainfall(Number(e.target.value))}
-                    className="w-full accent-blue-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="text-[10px] text-slate-400 mt-0.5">
                     Vegetation Biome: {sandboxRainfall > 200 ? 'Tropical Evergreen Rainforest' : sandboxRainfall > 75 ? 'Tropical Deciduous Forest' : sandboxRainfall > 25 ? 'Thorny Scrub & Savanna' : 'Arid Desert Xerophytes'}
@@ -2149,7 +2149,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                 </div>
                 <div className="flex justify-between py-1">
                   <span className="text-slate-400">Continentality Factor:</span>
-                  <span className="font-bold text-blue-400">{asiaContinentalityDistance} km inland</span>
+                  <span className="font-bold text-gold-400">{asiaContinentalityDistance} km inland</span>
                 </div>
               </div>
             </div>
@@ -2175,7 +2175,7 @@ function C8_GeographyRepresentationGeographicalFeaturesSim({
                     ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-300 border-rose-500/40'
-                    : 'bg-blue-500/20 text-blue-300 border-blue-500/40'
+                    : 'bg-gold-500/20 text-gold-300 border-gold-500/40'
                 }`}
               >
                 {difficulty} Tier

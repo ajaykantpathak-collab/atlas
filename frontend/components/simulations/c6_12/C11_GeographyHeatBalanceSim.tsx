@@ -126,17 +126,17 @@ export function C11_GeographyHeatBalanceSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Cloudiness</span><span className="font-mono font-bold text-sky-300">{cloud}%</span>
+                <span>Cloudiness</span><span className="font-mono font-bold text-gold-300">{cloud}%</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={cloud} aria-label="cloudiness"
-                onChange={(e) => setCloud(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setCloud(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Greenhouse strength</span><span className="font-mono font-bold text-violet-300">x{gh.toFixed(2)}</span>
+                <span>Greenhouse strength</span><span className="font-mono font-bold text-gold-300">x{gh.toFixed(2)}</span>
               </div>
               <input type="range" min={0.5} max={1.5} step={0.05} value={gh} aria-label="greenhouse"
-                onChange={(e) => setGh(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setGh(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <button onClick={() => { setLat(0); setAlbedo(30); setCloud(50); setGh(1.0); }}
               className="min-h-11 w-full rounded-xl text-xs font-bold bg-slate-700 hover:bg-slate-600">Reset</button>

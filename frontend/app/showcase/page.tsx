@@ -16,6 +16,7 @@ import {
   Spotlight, Marquee, Typewriter, BorderBeam,
   StaggerContainer, StaggerItem,
 } from '@/components/premium'
+import InternalDemoBadge from "@/components/InternalDemoBadge";
 
 // three.js components load on demand so the WebGL bundle never blocks first paint
 const ShaderBackground = dynamic(
@@ -38,6 +39,7 @@ export default function ShowcasePage() {
 
   return (
     <div className="min-h-screen bg-surface-0 overflow-x-hidden">
+      <InternalDemoBadge what="WebGL visual showcase" />
       <CustomCursor enabled={cursorEnabled} />
 
       {/* Background layer */}

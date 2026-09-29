@@ -189,7 +189,7 @@ export default function ThinkingQuestion({ problemType, onComplete }: ThinkingQu
     >
       {/* Header badge */}
       <div className="flex items-center justify-center gap-2 mb-4">
-        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-indigo-500/15 text-indigo-300 border border-indigo-400/20">
+        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-gold-500/15 text-gold-300 border border-gold-400/20">
           <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
           </svg>
@@ -228,7 +228,7 @@ export default function ThinkingQuestion({ problemType, onComplete }: ThinkingQu
         {/* Question text */}
         <div className="mb-5">
           <p className="text-sm text-zinc-400 mb-2 flex items-center gap-1.5">
-            <svg className="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <svg className="w-4 h-4 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
             </svg>
             Pehle soch: konse rule lagana hai?
@@ -259,8 +259,8 @@ export default function ThinkingQuestion({ problemType, onComplete }: ThinkingQu
                 textClass = 'text-zinc-500';
               }
             } else if (isSelected) {
-              bgClass = 'bg-indigo-500/15 border-indigo-400/30';
-              textClass = 'text-indigo-200';
+              bgClass = 'bg-gold-500/15 border-gold-400/30';
+              textClass = 'text-gold-200';
             }
 
             return (
@@ -284,7 +284,7 @@ export default function ThinkingQuestion({ problemType, onComplete }: ThinkingQu
                 {/* Option letter badge */}
                 <span
                   className={
-                    `flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center\n                    text-xs font-bold transition-colors duration-300\n                    ${isSelected ? 'bg-indigo-500/30 text-indigo-200' : 'bg-white/[0.06] text-zinc-500 group-hover:bg-white/[0.1] group-hover:text-zinc-400'}\n                    ${hasAnswered && isCorrectAnswer ? '!bg-emerald-500/30 !text-emerald-300' : ''}\n                    ${hasAnswered && isSelected && !isCorrect ? '!bg-red-500/30 !text-red-300' : ''}`
+                    `flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center\n                    text-xs font-bold transition-colors duration-300\n                    ${isSelected ? 'bg-gold-500/30 text-gold-200' : 'bg-white/[0.06] text-zinc-500 group-hover:bg-white/[0.1] group-hover:text-zinc-400'}\n                    ${hasAnswered && isCorrectAnswer ? '!bg-emerald-500/30 !text-emerald-300' : ''}\n                    ${hasAnswered && isSelected && !isCorrect ? '!bg-red-500/30 !text-red-300' : ''}`
                 }
                 >
                   {String.fromCharCode(65 + index)}

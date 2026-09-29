@@ -11,7 +11,7 @@ export const w_c11_psylearningcbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Behaviourism: Watson and the Stimulus-Response Approach',
     chapters: [],
     nodeIds: ['c11_psy_cbse_01_006', 'c11_psy_cbse_01_007', 'c11_psy_cbse_01_011', 'c11_psy_cbse_05_001', 'c11_psy_cbse_05_002', 'c11_psy_cbse_05_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are watching a Class 11 student, Rohan, flinch and cover his ears instantly when a loud Diwali.', goal: 'Master Behaviourism: Watson and the Stimulus-Response Approach.' },
     discovery: {
         question: 'A student says: "Watson ignored the mind because he didn\'t believe it existed." Explain why this statement is a misinterpretation of Watson\'s position, using.',
@@ -20,7 +20,7 @@ export const w_c11_psylearningcbsesim: SimDef = {
         hook: 'Students often believe "Behaviourism ignores internal processes entirely" and therefore think Watson would deny that.',
     },
     teaching: [
-        { title: 'Behaviourism, as founded by John B. Watson,.', text: 'Behaviourism, as founded by John B. Watson, defines psychology as the scientific study of observable and measurable behaviour (responses) elicited by environmental stimuli, rejecting introspection.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Behaviourism, as founded by John B. Watson,.', text: 'Behaviourism, as founded by John B. Watson, defines psychology as the scientific study of observable and measurable behaviour (responses) elicited by environmental stimuli, rejecting introspection.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_01_006', title: 'Behaviourism, as founded by John B..',

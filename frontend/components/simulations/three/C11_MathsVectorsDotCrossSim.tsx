@@ -207,7 +207,7 @@ export default function C11_MathsVectorsDotCrossSim() {
             {compSlider('a₃', a[2], (v) => setA([a[0], a[1], v]), ROSE)}
           </div>
         </div>
-        <div className="rounded-xl border border-blue-400/20 bg-blue-500/[0.04] p-4">
+        <div className="rounded-xl border border-gold-400/20 bg-gold-500/[0.04] p-4">
           <div className="font-display text-xs font-bold" style={{ color: BLUE }}>VECTOR b (metres)</div>
           <div className="mt-2 space-y-1">
             {compSlider('b₁', b[0], (v) => setB([v, b[1], b[2]]), BLUE)}

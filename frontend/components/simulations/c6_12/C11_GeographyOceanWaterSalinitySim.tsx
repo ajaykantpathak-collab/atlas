@@ -862,7 +862,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
       return {
         days: 3,
         label: '3 Days (Consolidation Needed)',
-        badgeColor: 'bg-sky-950 text-sky-300 border-sky-600',
+        badgeColor: 'bg-gold-950 text-gold-300 border-gold-600',
         recommendation: 'Good conceptual grasp with minor slips. Next Spaced Repetition (SRS) review is scheduled in 3 days to lock in memory.'
       };
     } else {
@@ -1221,13 +1221,13 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.2, rotate: 10 }}
-            className="text-4xl p-2 bg-sky-950/70 border border-sky-600 rounded-2xl shadow-inner"
+            className="text-4xl p-2 bg-gold-950/70 border border-gold-600 rounded-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-sky-900/60 text-sky-400 border border-sky-700">
+              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-gold-900/60 text-gold-400 border border-gold-700">
                 ISC Class 11 Geography
               </span>
               <span className="text-xs text-slate-400 font-mono">BKT: {masteryLevel}</span>
@@ -1249,7 +1249,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase transition-all ${
                 phase === pStep
-                  ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/40 border border-sky-400'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40 border border-gold-400'
                   : 'bg-slate-800 text-slate-400 hover:bg-slate-750 border border-slate-700'
               }`}
             >
@@ -1267,13 +1267,13 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
           exit={{ opacity: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-sky-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-sky-800/60 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-gold-800/60 shadow-xl">
             <div className="flex items-center gap-3 mb-3">
               <span className="text-2xl">🚢</span>
-              <h2 className="text-lg font-bold text-sky-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-sky-900/40 text-xs text-sky-200/80">
+            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-gold-900/40 text-xs text-gold-200/80">
               {SCENARIO.context}
             </div>
           </div>
@@ -1302,7 +1302,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-sky-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                   {opt}
                   {discoveryAnswered && (
                     <span className="ml-2 font-bold font-mono">
@@ -1317,7 +1317,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="mt-4 p-4 rounded-2xl bg-sky-950/40 border border-sky-800/80 space-y-3"
+                className="mt-4 p-4 rounded-2xl bg-gold-950/40 border border-gold-800/80 space-y-3"
               >
                 <p className={`text-sm ${discoveryCorrect ? 'text-emerald-300' : 'text-amber-300'}`}>
                   {discoveryCorrect
@@ -1330,7 +1330,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                     whileTap={{ scale: 0.97 }}
                     aria-label="Enter Prediction Arena"
                     onClick={handleAdvanceToPrediction}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     Start Predict-then-Check Arena →
                   </motion.button>
@@ -1353,7 +1353,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🔮</span>
-                <span className="text-xs uppercase font-bold text-indigo-400 tracking-wider">
+                <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">
                   Prediction Challenge {predictionIndex + 1} of {PREDICTION_QUESTIONS.length}
                 </span>
               </div>
@@ -1385,7 +1385,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                         : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-indigo-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
+                    <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
                     {opt}
                   </motion.button>
                 );
@@ -1396,12 +1396,12 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="mt-4 p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/80 space-y-3"
+                className="mt-4 p-4 rounded-2xl bg-gold-950/40 border border-gold-800/80 space-y-3"
               >
-                <div className="text-xs font-bold text-indigo-300 uppercase">
+                <div className="text-xs font-bold text-gold-300 uppercase">
                   Verification Instruction:
                 </div>
-                <p className="text-xs text-slate-200 leading-relaxed bg-slate-950/60 p-3 rounded-xl border border-indigo-900/50">
+                <p className="text-xs text-slate-200 leading-relaxed bg-slate-950/60 p-3 rounded-xl border border-gold-900/50">
                   🔍 {PREDICTION_QUESTIONS[predictionIndex].verifyInstruction}
                 </p>
                 <p className="text-xs text-slate-400">
@@ -1413,7 +1413,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={handleNextPrediction}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs shadow-lg shadow-gold-600/30"
                   >
                     {predictionIndex + 1 < PREDICTION_QUESTIONS.length
                       ? 'Next Prediction →'
@@ -1436,7 +1436,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
         >
           <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-sky-400 font-bold uppercase">
+              <span className="text-xs text-gold-400 font-bold uppercase">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1467,7 +1467,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                     handleAdvanceToSandbox();
                   }
                 }}
-                className="px-4 py-1.5 bg-sky-600 hover:bg-sky-500 text-white text-xs rounded-xl font-bold shadow-md"
+                className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs rounded-xl font-bold shadow-md"
               >
                 {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Free Sandbox Mode →' : 'Next Lab →'}
               </motion.button>
@@ -1493,7 +1493,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                       <div className="flex justify-between items-center text-xs">
                         <span className="text-slate-300 font-bold">Surface Temperature (°C)</span>
-                        <span className="text-sky-400 font-mono font-bold">{simTemperature} °C</span>
+                        <span className="text-gold-400 font-mono font-bold">{simTemperature} °C</span>
                       </div>
                       <input
                         type="range"
@@ -1506,7 +1506,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                           setSimTemperature(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1545,9 +1545,9 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       </div>
                     </div>
 
-                    <div className="p-4 bg-gradient-to-r from-sky-950/60 to-indigo-950/60 rounded-2xl border border-sky-800/50 flex items-center justify-between">
+                    <div className="p-4 bg-gradient-to-r from-gold-950/60 to-gold-950/60 rounded-2xl border border-gold-800/50 flex items-center justify-between">
                       <div>
-                        <span className="text-[11px] text-sky-300 uppercase tracking-wider font-bold">
+                        <span className="text-[11px] text-gold-300 uppercase tracking-wider font-bold">
                           Calculated Seawater Density
                         </span>
                         <div className="text-2xl font-black text-white font-mono mt-0.5">
@@ -1641,7 +1641,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                         onClick={() => setSelectedCurrentId(c.id)}
                         className={`p-3 rounded-2xl text-left border transition-all ${
                           selectedCurrentId === c.id
-                            ? 'bg-sky-950/80 border-sky-500 shadow-md shadow-sky-600/30'
+                            ? 'bg-gold-950/80 border-gold-500 shadow-md shadow-gold-600/30'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-850'
                         }`}
                       >
@@ -1649,7 +1649,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                           <span className="font-bold text-white">{c.name}</span>
                           <span
                             className={`text-[10px] px-1.5 py-0.5 rounded font-bold ${
-                              c.type === 'Warm' ? 'bg-rose-900/60 text-rose-300' : 'bg-sky-900/60 text-sky-300'
+                              c.type === 'Warm' ? 'bg-rose-900/60 text-rose-300' : 'bg-gold-900/60 text-gold-300'
                             }`}
                           >
                             {c.type === 'Warm' ? '♨ Warm' : '❄ Cold'}
@@ -1757,8 +1757,8 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       </div>
                     </div>
 
-                    <div className="p-4 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-800/60 space-y-2">
-                      <div className="text-xs font-bold text-indigo-300">{tidalStatus.type}</div>
+                    <div className="p-4 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-800/60 space-y-2">
+                      <div className="text-xs font-bold text-gold-300">{tidalStatus.type}</div>
                       <div className="text-sm font-semibold text-white">{tidalStatus.amplitude}</div>
                       <p className="text-[11px] text-slate-400">
                         {tidalStatus.type.includes('Spring')
@@ -1830,7 +1830,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                     {[
                       { level: 'Apex Carnivore (Tiger / Eagle)', factor: 0.001, color: 'bg-rose-900/80 border-rose-500' },
                       { level: 'Secondary Consumer (Frogs / Small Fish)', factor: 0.01, color: 'bg-amber-900/80 border-amber-500' },
-                      { level: 'Primary Consumer (Herbivores / Zooplankton)', factor: 0.1, color: 'bg-sky-900/80 border-sky-500' },
+                      { level: 'Primary Consumer (Herbivores / Zooplankton)', factor: 0.1, color: 'bg-gold-900/80 border-gold-500' },
                       { level: 'Primary Producer (Forest Trees / Phytoplankton)', factor: 1.0, color: 'bg-emerald-900/80 border-emerald-500' }
                     ].map((t, idx) => {
                       const energy = (simSunEnergy * t.factor).toLocaleString();
@@ -1892,7 +1892,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       </div>
                       <div className="grid grid-cols-2 gap-3 text-xs mt-3">
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="font-bold text-sky-300 block mb-1">✓ IN-SITU (On-Site)</span>
+                          <span className="font-bold text-gold-300 block mb-1">✓ IN-SITU (On-Site)</span>
                           <p className="text-[11px] text-slate-400">
                             Protects species within wild ecosystems (e.g., Silent Valley National Park, Nilgiri Biosphere Reserve).
                           </p>
@@ -1927,7 +1927,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
         >
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex justify-between items-center">
             <div>
-              <h2 className="text-lg font-bold text-sky-300">Free Physical Geography Sandbox</h2>
+              <h2 className="text-lg font-bold text-gold-300">Free Physical Geography Sandbox</h2>
               <p className="text-xs text-slate-400">No grading, no timers. Manipulate all variables and verify hypotheses freely.</p>
             </div>
             <motion.button
@@ -1943,7 +1943,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-sky-400">Ocean Salinity (ppt): {simSalinity}</span>
+              <span className="text-xs font-bold text-gold-400">Ocean Salinity (ppt): {simSalinity}</span>
               <input
                 type="range"
                 min={10}
@@ -1951,7 +1951,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                 aria-label="Ocean salinity sandbox slider in ppt"
                 value={simSalinity}
                 onChange={(e) => setSimSalinity(Number(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
               />
             </div>
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
@@ -1997,7 +1997,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
           <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-sky-400 uppercase">
+                <span className="text-xs font-bold text-gold-400 uppercase">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
@@ -2014,7 +2014,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                 difficulty === 'foundation'
                   ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                   : difficulty === 'standard'
-                  ? 'bg-sky-950 text-sky-400 border border-sky-700'
+                  ? 'bg-gold-950 text-gold-400 border border-gold-700'
                   : 'bg-rose-950 text-rose-400 border border-rose-700'
               }`}
             >
@@ -2024,7 +2024,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
 
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-sky-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2059,7 +2059,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       }`}
                     >
                       <div>
-                        <span className="font-mono text-sky-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                        <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                         {opt}
                       </div>
                       {showExplanation && (
@@ -2086,7 +2086,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-sky-700 hover:bg-sky-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2104,7 +2104,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       <span className="text-[10px] text-slate-500 uppercase font-mono mb-1">
                         Target Location: {targetKey.replace('loc_', '').replace('_', ' ')}
                       </span>
-                      <span className="text-xs font-bold text-sky-300">
+                      <span className="text-xs font-bold text-gold-300">
                         {droppedLabels[targetKey] ? `✓ ${droppedLabels[targetKey]}` : '⬇ Drop Label Here'}
                       </span>
                     </div>
@@ -2117,7 +2117,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                   aria-label="Verify Target Placements"
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="mt-2 px-6 py-2.5 bg-sky-600 text-white rounded-2xl text-xs font-bold"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 text-white rounded-2xl text-xs font-bold"
                 >
                   Verify Target Placements
                 </motion.button>
@@ -2159,7 +2159,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                   aria-label="Verify Trophic Sequence"
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-sky-600 text-white rounded-2xl text-xs font-bold mt-2"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-2xl text-xs font-bold mt-2"
                 >
                   Verify Trophic Sequence
                 </motion.button>
@@ -2185,7 +2185,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                     aria-label="Submit numeric answer"
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-2xl text-xs font-bold"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl text-xs font-bold"
                   >
                     Check Answer
                   </motion.button>
@@ -2204,7 +2204,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Add factor ${part}`}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-750 text-sky-300 rounded-xl text-xs font-semibold border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-750 text-gold-300 rounded-xl text-xs font-semibold border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2215,7 +2215,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 bg-sky-900/60 border border-sky-600 rounded-xl text-xs text-sky-200 flex items-center gap-1"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-600 rounded-xl text-xs text-gold-200 flex items-center gap-1"
                     >
                       {part}
                       <button
@@ -2238,7 +2238,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
                   aria-label="Verify Constructed Combination"
                   onClick={() => handleAnswer(constructParts.join(' + '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-sky-600 text-white rounded-2xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-2xl text-xs font-bold"
                 >
                   Verify Constructed Combination
                 </motion.button>
@@ -2310,12 +2310,12 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
           animate={{ opacity: 1, scale: 1 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-sky-950 rounded-3xl border border-emerald-600 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-600 shadow-2xl text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-black text-white">Expedition Completed with Distinction!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="inline-block px-4 py-1.5 bg-sky-900/60 border border-sky-400 rounded-full text-sm font-bold text-sky-200">
+            <div className="inline-block px-4 py-1.5 bg-gold-900/60 border border-gold-400 rounded-full text-sm font-bold text-gold-200">
               {motivationalFeedback}
             </div>
 
@@ -2328,7 +2328,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
               </div>
               <div className="p-3 bg-slate-950/70 rounded-2xl border border-slate-800">
                 <span className="text-slate-400 text-xs block">BKT Mastery Level</span>
-                <span className="text-xl font-black text-sky-400">{masteryLevel.toUpperCase()}</span>
+                <span className="text-xl font-black text-gold-400">{masteryLevel.toUpperCase()}</span>
               </div>
               <div className="p-3 bg-slate-950/70 rounded-2xl border border-slate-800">
                 <span className="text-slate-400 text-xs block">Total Errors</span>
@@ -2341,12 +2341,12 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950/60 rounded-3xl border border-indigo-700/60 shadow-xl space-y-3 text-left"
+            className="p-6 bg-gradient-to-br from-slate-900 to-gold-950/60 rounded-3xl border border-gold-700/60 shadow-xl space-y-3 text-left"
           >
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">📅</span>
-                <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                   Spaced Repetition System (SM-2 SRS Schedule)
                 </h3>
               </div>
@@ -2361,7 +2361,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
               <div className={`p-2.5 rounded-xl border ${errors === 0 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold' : 'bg-slate-950/60 border-slate-800 text-slate-400'}`}>
                 <span>0 Errors: Review in 7 days</span>
               </div>
-              <div className={`p-2.5 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-sky-950/80 border-sky-500 text-sky-200 font-bold' : 'bg-slate-950/60 border-slate-800 text-slate-400'}`}>
+              <div className={`p-2.5 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-gold-950/80 border-gold-500 text-gold-200 font-bold' : 'bg-slate-950/60 border-slate-800 text-slate-400'}`}>
                 <span>1–3 Errors: Review in 3 days</span>
               </div>
               <div className={`p-2.5 rounded-xl border ${errors >= 4 ? 'bg-amber-950/80 border-amber-500 text-amber-200 font-bold' : 'bg-slate-950/60 border-slate-800 text-slate-400'}`}>
@@ -2374,13 +2374,13 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4 text-left">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
-              <h3 className="text-sm font-bold text-sky-300 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                 Post-Expedition Reflection & Synthesis
               </h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-sky-200">
+                <p className="text-xs font-bold text-gold-200">
                   1. What was the most surprising thing you learned?
                 </p>
                 <p className="text-[11px] text-slate-400 leading-relaxed">
@@ -2427,7 +2427,7 @@ function C11_GeographyOceanWaterSalinitySim(props: Props = DEFAULT_PROPS) {
 
           {/* Real-World Practicum Card */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3 text-left">
-            <h3 className="text-sm font-bold text-sky-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 pl-4 list-disc">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (

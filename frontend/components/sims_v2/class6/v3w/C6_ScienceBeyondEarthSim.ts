@@ -11,7 +11,7 @@ export const w_c6_sciencebeyondearthsim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Revolution of the Earth: The Year',
     chapters: [],
     nodeIds: ['c6_physics_ch12_046', 'c6_physics_ch12_049', 'c6_physics_ch12_045', 'c6_physics_ch12_047', 'c6_physics_ch12_048', 'c6_physics_ch12_050', 'c6_physics_ch12_051'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Think about your birthday—it happens every year, but have you ever wondered why we suddenly have an extra day.', goal: 'Master Revolution of the Earth: The Year.' },
     discovery: {
         question: 'What three celestial objects must align in a straight line for a solar eclipse to happen?',
@@ -20,7 +20,7 @@ export const w_c6_sciencebeyondearthsim: SimDef = {
         hook: 'Students often believe that the Sun "goes out" or "vanishes" during an eclipse.',
     },
     teaching: [
-        { title: 'The revolution of the Earth is its movement.', text: 'The revolution of the Earth is its movement in an elliptical orbit around the Sun, which takes approximately 365.25 days to complete one full cycle.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The revolution of the Earth is its movement.', text: 'The revolution of the Earth is its movement in an elliptical orbit around the Sun, which takes approximately 365.25 days to complete one full cycle.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_physics_ch12_049', title: 'A solar eclipse occurs when the Moon.',

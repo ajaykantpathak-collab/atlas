@@ -6,7 +6,7 @@ export const c11_bio_ch08_p2: SimDef = {
     id: 'v3_c11_bio_ch08_p2',
     title: 'Cell: The Unit of Life',
     subtitle: 'Shrink to the scale where everything alive is made of the same basic machine.',
-    classLevel: 11, subject: 'biology', topic: 'Cell: The Unit of Life · Part 2/2',
+    classLevel: 11, subject: 'biology', topic: 'Cell: The Unit of Life',
     chapters: ['c11_bio_ch08'],
     nodeIds: ['c11_bio_cbse_08_007', 'c11_bio_cbse_08_008', 'c11_bio_cbse_08_009', 'c11_bio_cbse_08_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

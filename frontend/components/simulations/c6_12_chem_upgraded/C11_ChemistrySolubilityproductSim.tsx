@@ -849,8 +849,8 @@ const CHALLENGES: Challenge[] = [
 
 const DynamicEquilibriumDiagram: React.FC<{ sVal: number; kspVal: number }> = ({ sVal, kspVal }) => {
   return (
-    <div className="flex flex-col items-center bg-slate-900/80 p-4 rounded-xl border border-cyan-500/30 shadow-lg">
-      <h4 className="text-cyan-400 text-sm font-semibold mb-2 flex items-center gap-2">
+    <div className="flex flex-col items-center bg-slate-900/80 p-4 rounded-xl border border-gold-500/30 shadow-lg">
+      <h4 className="text-gold-400 text-sm font-semibold mb-2 flex items-center gap-2">
         <span>⚗️</span> Dynamic Solubility Equilibrium & Hydration Shell
       </h4>
       <svg width="340" height="200" viewBox="0 0 340 200" className="overflow-visible">
@@ -898,7 +898,7 @@ const DynamicEquilibriumDiagram: React.FC<{ sVal: number; kspVal: number }> = ({
         </text>
       </svg>
       <div className="flex justify-between w-full text-xs text-slate-300 mt-2 px-2">
-        <span>Computed Molar Solubility s: <strong className="text-cyan-300">{sVal.toExponential(2)} M</strong></span>
+        <span>Computed Molar Solubility s: <strong className="text-gold-300">{sVal.toExponential(2)} M</strong></span>
         <span>Ksp: <strong className="text-amber-300">{kspVal.toExponential(2)}</strong></span>
       </div>
     </div>
@@ -1174,16 +1174,16 @@ const DiscoveryTab: React.FC<DiscoveryTabProps> = ({ onStartLab }) => {
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
       {/* Scenario Lab Context Banner */}
-      <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/40 p-6 rounded-2xl shadow-xl">
+      <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-500/40 p-6 rounded-2xl shadow-xl">
         <div className="flex items-center gap-3 mb-3">
           <span className="text-3xl">🔬</span>
           <div>
-            <h2 className="text-xl font-bold text-indigo-300">{SCENARIO.title}</h2>
-            <p className="text-xs text-indigo-200/80">ISC Chemistry Class 11 • Module 6</p>
+            <h2 className="text-xl font-bold text-gold-300">{SCENARIO.title}</h2>
+            <p className="text-xs text-gold-200/80">ISC Chemistry Class 11 • Module 6</p>
           </div>
         </div>
         <p className="text-slate-300 text-sm mb-3 leading-relaxed">{SCENARIO.intro}</p>
-        <div className="bg-indigo-900/40 border border-indigo-500/30 p-3 rx-lg rounded-xl text-xs text-indigo-200">
+        <div className="bg-gold-900/40 border border-gold-500/30 p-3 rx-lg rounded-xl text-xs text-gold-200">
           <strong>Lab Objective:</strong> {SCENARIO.context}
         </div>
       </div>
@@ -1199,7 +1199,7 @@ const DiscoveryTab: React.FC<DiscoveryTabProps> = ({ onStartLab }) => {
           {DISCOVERY_QUESTION.options.map((opt, i) => {
             const isChosen = selectedOpt === i;
             const isCorrect = i === DISCOVERY_QUESTION.correctIndex;
-            let btnStyle = 'bg-slate-800 text-slate-200 border-slate-700 hover:border-indigo-500';
+            let btnStyle = 'bg-slate-800 text-slate-200 border-slate-700 hover:border-gold-500';
 
             if (showExplanation) {
               if (isCorrect) btnStyle = 'bg-emerald-950 text-emerald-200 border-emerald-500 font-semibold';
@@ -1231,7 +1231,7 @@ const DiscoveryTab: React.FC<DiscoveryTabProps> = ({ onStartLab }) => {
 
       {/* Prediction Questions Section */}
       <div className="bg-slate-900 border border-slate-700 p-6 rounded-2xl shadow-lg space-y-4">
-        <h3 className="text-md font-bold text-cyan-400 flex items-center gap-2">
+        <h3 className="text-md font-bold text-gold-400 flex items-center gap-2">
           <span>🔮</span> Lab Hypotheses & Predictions
         </h3>
         {PREDICTION_QUESTIONS.map((pq, qIdx) => (
@@ -1264,7 +1264,7 @@ const DiscoveryTab: React.FC<DiscoveryTabProps> = ({ onStartLab }) => {
               })}
             </div>
             {predAnswers[qIdx] !== undefined && (
-              <p className="text-[11px] text-cyan-300 italic mt-1">
+              <p className="text-[11px] text-gold-300 italic mt-1">
                 🔎 Verification Guide: {pq.verifyInstruction}
               </p>
             )}
@@ -1279,7 +1279,7 @@ const DiscoveryTab: React.FC<DiscoveryTabProps> = ({ onStartLab }) => {
             audioManager.play('swoop');
             onStartLab();
           }}
-          className="bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all flex items-center gap-2 text-sm"
+          className="bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all flex items-center gap-2 text-sm"
         >
           <span>Enter Interactive Chemistry Lab</span>
           <span>🚀</span>
@@ -1339,11 +1339,11 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
               }}
               className={`p-3 rounded-xl border text-left transition-all ${
                 isActive
-                  ? 'bg-indigo-600 text-white border-indigo-400 font-bold shadow-lg ring-2 ring-indigo-400/50'
+                  ? 'bg-gold-600 text-white border-gold-400 font-bold shadow-lg ring-2 ring-gold-400/50'
                   : 'bg-slate-900 text-slate-400 border-slate-800 hover:border-slate-700 hover:text-slate-200'
               }`}
             >
-              <div className="text-[10px] uppercase font-mono text-indigo-200">Lab Step 0{idx + 1}</div>
+              <div className="text-[10px] uppercase font-mono text-gold-200">Lab Step 0{idx + 1}</div>
               <div className="text-xs truncate">{step.title.split(':')[1] || step.title}</div>
             </button>
           );
@@ -1353,7 +1353,7 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
       {/* Active Step Context Box */}
       <div className="bg-slate-900 border border-slate-700 p-4 rounded-xl shadow-md flex justify-between items-center gap-4">
         <div>
-          <h3 className="text-sm font-bold text-cyan-300">{currentStep.title}</h3>
+          <h3 className="text-sm font-bold text-gold-300">{currentStep.title}</h3>
           <p className="text-xs text-slate-300">{currentStep.instruction}</p>
         </div>
         <button
@@ -1393,7 +1393,7 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
                   }}
                   className={`py-1.5 px-2 rounded-lg text-xs font-semibold border transition-all ${
                     saltType === s.val
-                      ? 'bg-indigo-600 text-white border-indigo-400'
+                      ? 'bg-gold-600 text-white border-gold-400'
                       : 'bg-slate-800 text-slate-300 border-slate-700 hover:border-slate-600'
                   }`}
                 >
@@ -1407,7 +1407,7 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
           <div>
             <div className="flex justify-between text-xs text-slate-300 mb-1">
               <span>Cation Concentration [M⁺]:</span>
-              <span className="font-mono text-cyan-400">{cationConc.toFixed(5)} M</span>
+              <span className="font-mono text-gold-400">{cationConc.toFixed(5)} M</span>
             </div>
             <input
               type="range"
@@ -1416,7 +1416,7 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
               step="0.0001"
               value={cationConc}
               onChange={(e) => setCationConc(parseFloat(e.target.value))}
-              className="w-full accent-cyan-400 cursor-pointer"
+              className="w-full accent-gold-400 cursor-pointer"
             />
           </div>
 
@@ -1478,11 +1478,11 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
 
           {/* pH & Ligand Controls for Lab Step 5 */}
           {activeStepIdx === 4 && (
-            <div className="space-y-3 bg-indigo-950/40 border border-indigo-500/30 p-3 rounded-xl">
+            <div className="space-y-3 bg-gold-950/40 border border-gold-500/30 p-3 rounded-xl">
               <div>
-                <div className="flex justify-between text-xs text-indigo-200 mb-1">
+                <div className="flex justify-between text-xs text-gold-200 mb-1">
                   <span>Solution pH:</span>
-                  <span className="font-mono text-cyan-300">{phValue.toFixed(1)}</span>
+                  <span className="font-mono text-gold-300">{phValue.toFixed(1)}</span>
                 </div>
                 <input
                   type="range"
@@ -1491,11 +1491,11 @@ const LabTab: React.FC<LabTabProps> = ({ onCompleteLabStep }) => {
                   step="0.5"
                   value={phValue}
                   onChange={(e) => setPhValue(parseFloat(e.target.value))}
-                  className="w-full accent-cyan-400 cursor-pointer"
+                  className="w-full accent-gold-400 cursor-pointer"
                 />
               </div>
               <div>
-                <div className="flex justify-between text-xs text-indigo-200 mb-1">
+                <div className="flex justify-between text-xs text-gold-200 mb-1">
                   <span>Added Ligand [NH₃]:</span>
                   <span className="font-mono text-emerald-300">{nh3LigandConc.toFixed(2)} M</span>
                 </div>
@@ -1665,7 +1665,7 @@ const ChallengesTab: React.FC<ChallengesTabProps> = ({ challenges, onAnswerChall
       {/* Competency & Progress Navigation Bar */}
       <div className="bg-slate-900 border border-slate-800 p-4 rounded-2xl shadow-lg flex flex-wrap justify-between items-center gap-4">
         <div>
-          <span className="text-xs uppercase font-mono text-cyan-400 tracking-wider">
+          <span className="text-xs uppercase font-mono text-gold-400 tracking-wider">
             Challenge {currentIdx + 1} of {challenges.length}
           </span>
           <h3 className="text-sm font-bold text-slate-200">{currentNodeInfo?.title}</h3>
@@ -1684,7 +1684,7 @@ const ChallengesTab: React.FC<ChallengesTabProps> = ({ challenges, onAnswerChall
 
           <div className="text-right">
             <div className="text-[10px] text-slate-400">Node Mastery</div>
-            <div className="text-xs font-mono font-bold text-cyan-300">{(nodeMastery * 100).toFixed(0)}%</div>
+            <div className="text-xs font-mono font-bold text-gold-300">{(nodeMastery * 100).toFixed(0)}%</div>
           </div>
         </div>
       </div>
@@ -1701,7 +1701,7 @@ const ChallengesTab: React.FC<ChallengesTabProps> = ({ challenges, onAnswerChall
             {currentChallenge.options.map((opt, i) => {
               const isChosen = selectedOpt === i;
               const isRight = i === currentChallenge.correctIndex;
-              let style = 'bg-slate-800 text-slate-200 border-slate-700 hover:border-indigo-500';
+              let style = 'bg-slate-800 text-slate-200 border-slate-700 hover:border-gold-500';
 
               if (feedback) {
                 if (isRight) style = 'bg-emerald-950 text-emerald-200 border-emerald-500 font-semibold';
@@ -1733,12 +1733,12 @@ const ChallengesTab: React.FC<ChallengesTabProps> = ({ challenges, onAnswerChall
                 value={numericVal}
                 onChange={(e) => setNumericVal(e.target.value)}
                 disabled={feedback !== null}
-                className="bg-slate-900 border border-slate-700 text-cyan-300 font-mono text-sm px-4 py-2 rounded-xl focus:border-cyan-400 focus:outline-none flex-grow"
+                className="bg-slate-900 border border-slate-700 text-gold-300 font-mono text-sm px-4 py-2 rounded-xl focus:border-gold-400 focus:outline-none flex-grow"
               />
               <button
                 disabled={feedback !== null || !numericVal}
                 onClick={handleSubmitNumeric}
-                className="bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold px-5 py-2 rounded-xl text-xs transition-all"
+                className="bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold px-5 py-2 rounded-xl text-xs transition-all"
               >
                 Submit Answer
               </button>
@@ -1823,22 +1823,22 @@ const SummaryTab: React.FC<SummaryTabProps> = ({ bktState, gameScore }) => {
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
       {/* Final Score Banner */}
-      <div className="bg-gradient-to-r from-indigo-900 via-purple-900 to-slate-900 border border-indigo-500/40 p-6 rounded-2xl shadow-xl flex flex-wrap justify-between items-center gap-4">
+      <div className="bg-gradient-to-r from-gold-900 via-purple-900 to-slate-900 border border-gold-500/40 p-6 rounded-2xl shadow-xl flex flex-wrap justify-between items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
             <span>🏆</span> Module Mastery Summary
           </h2>
-          <p className="text-xs text-indigo-200">ISC Class 11 Chemistry • Solubility Product & Ionic Equilibria</p>
+          <p className="text-xs text-gold-200">ISC Class 11 Chemistry • Solubility Product & Ionic Equilibria</p>
         </div>
-        <div className="bg-slate-900/80 border border-cyan-400/40 px-6 py-3 rounded-xl text-center">
+        <div className="bg-slate-900/80 border border-gold-400/40 px-6 py-3 rounded-xl text-center">
           <div className="text-[10px] uppercase tracking-wider text-slate-400 font-mono">Total Game Score</div>
-          <div className="text-2xl font-black text-cyan-300">{gameScore} pts</div>
+          <div className="text-2xl font-black text-gold-300">{gameScore} pts</div>
         </div>
       </div>
 
       {/* Node Mastery Breakdown Grid */}
       <div className="bg-slate-900 border border-slate-700 p-6 rounded-2xl shadow-lg space-y-4">
-        <h3 className="text-md font-bold text-cyan-300 flex items-center gap-2">
+        <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
           <span>📊</span> Sub-Topic Bayesian Mastery (BKT Tracker)
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -1852,12 +1852,12 @@ const SummaryTab: React.FC<SummaryTabProps> = ({ bktState, gameScore }) => {
               <div key={nodeId} className="bg-slate-800/60 p-3 rounded-xl border border-slate-700 space-y-1.5">
                 <div className="flex justify-between items-center text-xs">
                   <span className="font-bold text-slate-200">{info.title}</span>
-                  <span className="font-mono text-cyan-400 font-bold">{pct}%</span>
+                  <span className="font-mono text-gold-400 font-bold">{pct}%</span>
                 </div>
                 {/* Progress Bar */}
                 <div className="w-full bg-slate-900 h-2 rounded-full overflow-hidden border border-slate-700">
                   <div
-                    className="bg-gradient-to-r from-cyan-500 to-indigo-500 h-full transition-all duration-500"
+                    className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-500"
                     style={{ width: `${pct}%` }}
                   />
                 </div>
@@ -1982,14 +1982,14 @@ export const C11_ChemistrySolubilityproductSim: React.FC<SolubilityProductSimPro
       {/* Upper Navigation Header Bar */}
       <header className="max-w-6xl mx-auto mb-6 bg-slate-900/90 border border-slate-800 p-4 rounded-2xl shadow-2xl flex flex-wrap justify-between items-center gap-4 backdrop-blur-md">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-xl font-bold shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-xl font-bold shadow-lg">
             🧪
           </div>
           <div>
             <h1 className="text-base sm:text-lg font-bold text-white tracking-wide">
               Solubility Product ($K_{'{sp}'}$) Simulator
             </h1>
-            <p className="text-[11px] text-cyan-400 font-mono">ISC Class 11 Chemistry • Module c11_chem_061–070</p>
+            <p className="text-[11px] text-gold-400 font-mono">ISC Class 11 Chemistry • Module c11_chem_061–070</p>
           </div>
         </div>
 
@@ -2011,7 +2011,7 @@ export const C11_ChemistrySolubilityproductSim: React.FC<SolubilityProductSimPro
                 }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
                   isActive
-                    ? 'bg-gradient-to-r from-indigo-600 to-cyan-600 text-white shadow-md'
+                    ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
                 }`}
               >

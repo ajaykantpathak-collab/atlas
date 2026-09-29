@@ -821,10 +821,10 @@ const PermutitSvgDiagram: React.FC = () => {
   return (
     <div className="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-xl">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-cyan-400 font-bold text-sm flex items-center gap-2">
+        <h4 className="text-gold-400 font-bold text-sm flex items-center gap-2">
           <Filter className="w-4 h-4" /> Zeolite / Permutit Ion-Exchange Softener Column
         </h4>
-        <span className="text-xs bg-slate-800 text-cyan-300 px-2 py-0.5 rounded border border-slate-700">
+        <span className="text-xs bg-slate-800 text-gold-300 px-2 py-0.5 rounded border border-slate-700">
           Na₂-Zeolite Bed
         </span>
       </div>
@@ -1046,7 +1046,7 @@ const IonDynamicsCanvas: React.FC<{ activeTab: string }> = ({ activeTab }) => {
   return (
     <div className="relative w-full overflow-hidden rounded-xl border border-slate-700 bg-slate-900 shadow-inner">
       <div className="absolute top-2 left-3 z-10 text-[11px] font-bold text-slate-300 flex items-center gap-1.5 bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700">
-        <Activity className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
+        <Activity className="w-3.5 h-3.5 text-gold-400 animate-pulse" />
         Live Kinetic Ion & Scum Micro-Simulation
       </div>
       <canvas ref={canvasRef} width={600} height={140} className="w-full h-[140px] block" />
@@ -1336,7 +1336,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
   };
 
   return (
-    <div className="w-full min-h-screen bg-slate-950 text-slate-100 font-sans p-3 md:p-6 flex flex-col gap-6 selection:bg-cyan-500 selection:text-slate-950">
+    <div className="w-full min-h-screen bg-slate-950 text-slate-100 font-sans p-3 md:p-6 flex flex-col gap-6 selection:bg-gold-500 selection:text-slate-950">
       {/* UI Overlay Effects */}
       <Confetti show={showConfetti} />
       <SuccessBanner show={showSuccessBanner} text="Complete Hard Water Mastery Achieved!" />
@@ -1346,12 +1346,12 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
       {/* TOP HEADER BAR */}
       <header className="w-full bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-4">
-          <div className="p-3 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl text-slate-950 shadow-lg shadow-cyan-500/20">
+          <div className="p-3 bg-gradient-to-br from-gold-500 to-gold-600 rounded-xl text-slate-950 shadow-lg shadow-gold-500/20">
             <Droplets className="w-8 h-8" />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-800">
+              <span className="text-xs font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-gold-950 text-gold-400 border border-gold-800">
                 ICSE Class 9 Chemistry
               </span>
               <span className="text-xs font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800">
@@ -1379,7 +1379,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
             className="p-3 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl border border-slate-700 transition"
             title={soundMuted ? 'Unmute Audio' : 'Mute Audio'}
           >
-            {soundMuted ? <VolumeX className="w-5 h-5 text-rose-400" /> : <Volume2 className="w-5 h-5 text-cyan-400" />}
+            {soundMuted ? <VolumeX className="w-5 h-5 text-rose-400" /> : <Volume2 className="w-5 h-5 text-gold-400" />}
           </button>
         </div>
       </header>
@@ -1404,7 +1404,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
               }}
               className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-sm transition-all ${
                 isActive
-                  ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg shadow-cyan-600/20'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg shadow-gold-600/20'
                   : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800 border border-slate-800'
               }`}
             >
@@ -1423,16 +1423,16 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
           {/* Scenario & Context Card */}
           <div className="lg:col-span-7 flex flex-col gap-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-2xl pointer-events-none" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gold-500/10 rounded-full blur-2xl pointer-events-none" />
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 bg-cyan-950 text-cyan-400 rounded-lg border border-cyan-800">
+                <div className="p-2 bg-gold-950 text-gold-400 rounded-lg border border-gold-800">
                   <Activity className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-white">{SCENARIO.title}</h3>
               </div>
               <p className="text-slate-300 leading-relaxed mb-4 text-sm">{SCENARIO.intro}</p>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 leading-relaxed">
-                <strong className="text-cyan-400 block mb-1">YOUR LAB MISSION:</strong>
+                <strong className="text-gold-400 block mb-1">YOUR LAB MISSION:</strong>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1474,10 +1474,10 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
               </div>
 
               {discoverySubmitted && (
-                <div className="p-4 bg-cyan-950/50 border border-cyan-800 rounded-xl text-xs text-cyan-200 flex items-start gap-3">
-                  <Info className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
+                <div className="p-4 bg-gold-950/50 border border-gold-800 rounded-xl text-xs text-gold-200 flex items-start gap-3">
+                  <Info className="w-5 h-5 text-gold-400 shrink-0 mt-0.5" />
                   <div>
-                    <strong className="block font-bold text-cyan-300 mb-1">Scientific Explanation:</strong>
+                    <strong className="block font-bold text-gold-300 mb-1">Scientific Explanation:</strong>
                     {DISCOVERY_QUESTION.hintAfter}
                   </div>
                 </div>
@@ -1487,7 +1487,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
             {/* Prediction Questions (Mandatory Render) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <h3 className="text-base font-bold text-white mb-4 flex items-center gap-2">
-                <Zap className="w-5 h-5 text-cyan-400" /> Interactive Predictions
+                <Zap className="w-5 h-5 text-gold-400" /> Interactive Predictions
               </h3>
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1519,7 +1519,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       ))}
                     </div>
                     {predictionSubmitted[pIdx] && (
-                      <p className="text-[11px] text-cyan-400 font-mono bg-cyan-950/40 p-2 rounded border border-cyan-900">
+                      <p className="text-[11px] text-gold-400 font-mono bg-gold-950/40 p-2 rounded border border-gold-900">
                         🔍 <strong>Verification Instruction:</strong> {pred.verifyInstruction}
                       </p>
                     )}
@@ -1558,12 +1558,12 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                 }}
                 className={`w-full text-left p-4 rounded-xl border transition-all flex flex-col gap-1 ${
                   currentLabStep === idx
-                    ? 'bg-gradient-to-r from-cyan-950 to-slate-900 border-cyan-500 shadow-lg shadow-cyan-950/50'
+                    ? 'bg-gradient-to-r from-gold-950 to-slate-900 border-gold-500 shadow-lg shadow-gold-950/50'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850 hover:text-slate-200'
                 }`}
               >
                 <div className="flex items-center justify-between">
-                  <span className={`text-xs font-bold ${currentLabStep === idx ? 'text-cyan-400' : 'text-slate-500'}`}>
+                  <span className={`text-xs font-bold ${currentLabStep === idx ? 'text-gold-400' : 'text-slate-500'}`}>
                     LAB 0{idx + 1}
                   </span>
                   <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded font-mono">
@@ -1578,7 +1578,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
 
             {/* Observation Questions (Mandatory Render) */}
             <div className="mt-4 bg-slate-900 border border-slate-800 rounded-xl p-4">
-              <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider mb-3">
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-3">
                 Lab Observation Checkpoints
               </h4>
               <div className="space-y-4">
@@ -1619,7 +1619,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
           {/* Interactive Lab Workspace */}
           <div className="lg:col-span-8 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col gap-6">
             <div>
-              <span className="text-xs font-mono font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-mono font-bold text-gold-400 uppercase tracking-wider">
                 {EXPLORATION_STEPS[currentLabStep].nodeId} — Interactive Experiment
               </span>
               <h2 className="text-xl font-black text-white mt-1">
@@ -1649,7 +1649,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                           onClick={() => setLab1WaterType(w.id as typeof lab1WaterType)}
                           className={`p-2 rounded-lg text-xs font-semibold border transition ${
                             lab1WaterType === w.id
-                              ? 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                              ? 'bg-gold-950 border-gold-500 text-gold-300'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -1662,7 +1662,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Soap Drops Added:</span>
-                      <span className="text-cyan-400">{lab1SoapDrops} drops</span>
+                      <span className="text-gold-400">{lab1SoapDrops} drops</span>
                     </div>
                     <input
                       type="range"
@@ -1670,7 +1670,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       max="20"
                       value={lab1SoapDrops}
                       onChange={(e) => setLab1SoapDrops(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1719,7 +1719,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
 
                   <div className="mt-3 text-center space-y-1">
                     <div className="text-xs text-slate-400">
-                      Hardness: <strong className="text-cyan-300">{lab1Data.hardness} ppm</strong>
+                      Hardness: <strong className="text-gold-300">{lab1Data.hardness} ppm</strong>
                     </div>
                     <div className="text-xs text-slate-400">
                       Lather Height: <strong className="text-emerald-400">{lab1Data.latherHeight.toFixed(1)} cm</strong>
@@ -1754,7 +1754,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Clark's Lime Ca(OH)₂ Added:</span>
-                      <span className="text-cyan-400">{lab2LimeAdded} mg/L</span>
+                      <span className="text-gold-400">{lab2LimeAdded} mg/L</span>
                     </div>
                     <input
                       type="range"
@@ -1762,20 +1762,20 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       max="250"
                       value={lab2LimeAdded}
                       onChange={(e) => setLab2LimeAdded(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono">
                     <div className="text-amber-300">Ca(HCO₃)₂ —heat→ CaCO₃ ↓ + H₂O + CO₂ ↑</div>
-                    <div className="text-cyan-300">Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃ ↓ + 2H₂O</div>
+                    <div className="text-gold-300">Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃ ↓ + 2H₂O</div>
                   </div>
                 </div>
 
                 <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col items-center justify-center min-h-[220px]">
                   <div className="relative w-36 h-36 flex items-center justify-center">
                     {/* Flask Outline */}
-                    <div className="w-32 h-32 rounded-full border-4 border-slate-700 bg-cyan-950/30 overflow-hidden relative">
+                    <div className="w-32 h-32 rounded-full border-4 border-slate-700 bg-gold-950/30 overflow-hidden relative">
                       {/* Thermal bubbles if boiling */}
                       {lab2Temperature > 70 && (
                         <div className="absolute inset-0 flex items-center justify-center gap-2 animate-bounce opacity-70">
@@ -1814,7 +1814,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Washing Soda (Na₂CO₃) Dosage:</span>
-                      <span className="text-cyan-400">{lab3Na2CO3Added} mg/L</span>
+                      <span className="text-gold-400">{lab3Na2CO3Added} mg/L</span>
                     </div>
                     <input
                       type="range"
@@ -1822,11 +1822,11 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       max="400"
                       value={lab3Na2CO3Added}
                       onChange={(e) => setLab3Na2CO3Added(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
-                  <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono text-cyan-300">
+                  <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono text-gold-300">
                     <div>CaCl₂ + Na₂CO₃ → CaCO₃ ↓ + 2NaCl</div>
                     <div>MgSO₄ + Na₂CO₃ → MgCO₃ ↓ + Na₂SO₄</div>
                   </div>
@@ -1834,7 +1834,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
 
                 <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col items-center justify-center min-h-[220px]">
                   <div className="w-full max-w-[200px] h-36 border-2 border-slate-700 bg-slate-900 rounded-lg relative overflow-hidden flex flex-col justify-end">
-                    <div className="w-full bg-cyan-900/50 flex-1 relative">
+                    <div className="w-full bg-gold-900/50 flex-1 relative">
                       {lab3Data.curdPrecipitate > 0 && (
                         <div
                           className="w-full bg-slate-100 transition-all duration-300"
@@ -1848,7 +1848,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       Remaining Permanent Hardness: <strong className="text-rose-400">{lab3Data.remainingHardness} ppm</strong>
                     </div>
                     <div className="text-xs text-slate-400">
-                      Carbonate Curd Formed: <strong className="text-cyan-300">{lab3Data.curdPrecipitate} mg/L</strong>
+                      Carbonate Curd Formed: <strong className="text-gold-300">{lab3Data.curdPrecipitate} mg/L</strong>
                     </div>
                   </div>
                 </div>
@@ -1862,7 +1862,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Hard Water Volume Passed:</span>
-                      <span className="text-cyan-400">{lab4VolumePassed} Liters</span>
+                      <span className="text-gold-400">{lab4VolumePassed} Liters</span>
                     </div>
                     <input
                       type="range"
@@ -1870,7 +1870,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       max="100"
                       value={lab4VolumePassed}
                       onChange={(e) => setLab4VolumePassed(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1897,7 +1897,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                     <div className="w-full bg-slate-800 h-4 rounded-full overflow-hidden border border-slate-700">
                       <div
                         className={`h-full transition-all duration-300 ${
-                          lab4Data.remainingCap > 20 ? 'bg-cyan-500' : 'bg-rose-500 animate-pulse'
+                          lab4Data.remainingCap > 20 ? 'bg-gold-500' : 'bg-rose-500 animate-pulse'
                         }`}
                         style={{ width: `${lab4Data.remainingCap}%` }}
                       />
@@ -1923,7 +1923,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Burette 0.01M EDTA Added:</span>
-                      <span className="text-cyan-400">{lab5EdtaVolume.toFixed(1)} mL</span>
+                      <span className="text-gold-400">{lab5EdtaVolume.toFixed(1)} mL</span>
                     </div>
                     <input
                       type="range"
@@ -1932,13 +1932,13 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       step="0.5"
                       value={lab5EdtaVolume}
                       onChange={(e) => setLab5EdtaVolume(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono">
                     <div className="text-slate-400">Formula: Hardness (ppm) =</div>
-                    <div className="text-cyan-300">(V_EDTA × M_EDTA × 100 × 1000) / V_sample</div>
+                    <div className="text-gold-300">(V_EDTA × M_EDTA × 100 × 1000) / V_sample</div>
                   </div>
                 </div>
 
@@ -1951,7 +1951,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   </div>
                   <div className="mt-4 text-center text-xs space-y-1">
                     <div className="text-slate-400">
-                      Calculated Total Hardness: <strong className="text-cyan-300 font-bold">{lab5Data.calculatedPpm} ppm CaCO₃ eq</strong>
+                      Calculated Total Hardness: <strong className="text-gold-300 font-bold">{lab5Data.calculatedPpm} ppm CaCO₃ eq</strong>
                     </div>
                   </div>
                 </div>
@@ -1973,7 +1973,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                 currentChallenge.tier === 'foundation'
                   ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                   : currentChallenge.tier === 'standard'
-                  ? 'bg-cyan-950 text-cyan-400 border-cyan-800'
+                  ? 'bg-gold-950 text-gold-400 border-gold-800'
                   : 'bg-purple-950 text-purple-400 border-purple-800'
               }`}>
                 {currentChallenge.tier} Tier
@@ -1997,7 +1997,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
             {currentChallenge.type === 'multiple-choice' && currentChallenge.options && (
               <div className="space-y-3">
                 {currentChallenge.options.map((optionText, idx) => {
-                  let btnStyle = 'bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500';
+                  let btnStyle = 'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500';
                   if (challengeSubmitted) {
                     if (idx === currentChallenge.correctIndex) {
                       btnStyle = 'bg-emerald-950 border-emerald-500 text-emerald-200 font-bold';
@@ -2005,7 +2005,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                       btnStyle = 'bg-rose-950 border-rose-500 text-rose-200';
                     }
                   } else if (selectedOption === idx) {
-                    btnStyle = 'bg-cyan-950 border-cyan-500 text-cyan-200';
+                    btnStyle = 'bg-gold-950 border-gold-500 text-gold-200';
                   }
 
                   return (
@@ -2038,9 +2038,9 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                     value={numericAnswer}
                     onChange={(e) => setNumericAnswer(e.target.value)}
                     placeholder="Enter numerical value..."
-                    className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-base focus:outline-none focus:border-cyan-500 w-full max-w-xs"
+                    className="p-3.5 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-base focus:outline-none focus:border-gold-500 w-full max-w-xs"
                   />
-                  <span className="text-sm font-bold text-cyan-400">{currentChallenge.unit}</span>
+                  <span className="text-sm font-bold text-gold-400">{currentChallenge.unit}</span>
                 </div>
               </div>
             )}
@@ -2053,7 +2053,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                   setCurrentHintText(currentChallenge.hints[0] || 'Consider the chemical displacement kinetics.');
                   playAudio('hint');
                 }}
-                className="text-xs font-bold text-slate-400 hover:text-cyan-400 flex items-center gap-1.5 transition"
+                className="text-xs font-bold text-slate-400 hover:text-gold-400 flex items-center gap-1.5 transition"
               >
                 <HelpCircle className="w-4 h-4" /> Need Hint?
               </button>
@@ -2062,7 +2062,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                 <button
                   onClick={handleAnswerChallenge}
                   disabled={selectedOption === null && numericAnswer.trim() === ''}
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-black rounded-xl transition shadow-lg disabled:opacity-50"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-slate-950 font-black rounded-xl transition shadow-lg disabled:opacity-50"
                 >
                   Submit Answer
                 </button>
@@ -2109,11 +2109,11 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
                     <div key={nodeId} className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
                       <div className="flex justify-between items-center text-xs">
                         <span className="font-bold text-slate-200">{NODE_TITLES[nodeId]}</span>
-                        <span className="font-mono font-bold text-cyan-400">{m}%</span>
+                        <span className="font-mono font-bold text-gold-400">{m}%</span>
                       </div>
                       <div className="w-full bg-slate-900 h-2 rounded-full overflow-hidden border border-slate-800">
                         <div
-                          className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full transition-all duration-500"
+                          className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-500"
                           style={{ width: `${m}%` }}
                         />
                       </div>
@@ -2145,7 +2145,7 @@ const C9_ChemistrySoftwaterandhardwaterSim: React.FC<C9_ChemistrySoftwaterandhar
               <h3 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
                 <Zap className="w-5 h-5 text-amber-400" /> Industrial Case Study Activity
               </h3>
-              <h4 className="text-sm font-bold text-cyan-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h4>
+              <h4 className="text-sm font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h4>
               <p className="text-xs text-slate-300 leading-relaxed mb-4">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((stepStr, sIdx) => (

@@ -8,6 +8,7 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
+import InternalDemoBadge from "@/components/InternalDemoBadge";
 
 interface CognitiveMetric {
   name: string
@@ -59,6 +60,7 @@ const exercises = [
 export default function CognitivePage() {
   return (
     <div className="min-h-screen mesh-bg">
+      <InternalDemoBadge what="hardcoded cognitive mock" />
       {/* Top bar */}
       <div className="sticky top-0 z-40 glass-strong border-b border-surface-300/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">

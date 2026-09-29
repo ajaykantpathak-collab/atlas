@@ -1188,13 +1188,13 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           <motion.div
             whileHover={{ scale: 1.1, rotate: 10 }}
             whileTap={{ scale: 0.95 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-800/60">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2.5 py-0.5 rounded-full border border-gold-800/60">
                 ISC Class 11 • Applied Maths
               </span>
               <motion.span
@@ -1206,7 +1206,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                     ? 'bg-emerald-950/60 border-emerald-800 text-emerald-400'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/60 border-rose-800 text-rose-400'
-                    : 'bg-indigo-950/60 border-indigo-800 text-indigo-400'
+                    : 'bg-gold-950/60 border-gold-800 text-gold-400'
                 }`}
               >
                 {difficulty}
@@ -1232,7 +1232,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
@@ -1246,13 +1246,13 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/40">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/40">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold mb-2">
               <span>🚀</span>
               <span>{SCENARIO.title}</span>
             </div>
             <p className="text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 bg-indigo-950/40 p-3 rounded-xl border border-indigo-900/40">
+            <p className="text-xs text-gold-300/80 mt-3 bg-gold-950/40 p-3 rounded-xl border border-gold-900/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1290,7 +1290,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       : 'bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-2">✓</span>}
                   {opt}
                 </motion.button>
@@ -1307,7 +1307,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Enter Interactive Labs</span>
                   <span>→</span>
@@ -1324,7 +1324,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           {/* Exploration Header & Stepper */}
           <div className="flex flex-wrap items-center justify-between gap-4 bg-slate-900/80 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1356,7 +1356,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                     setCurrentSlide((s) => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Next Lab →
                 </motion.button>
@@ -1393,7 +1393,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       }}
                       className={`p-2.5 rounded-xl text-xs font-bold text-left transition-all ${
                         selectedFunction === fn
-                          ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                          ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                           : 'bg-slate-950 hover:bg-slate-800 text-slate-300 border border-slate-800'
                       }`}
                     >
@@ -1411,7 +1411,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Parameter a (scale/base):</span>
-                      <span className="font-mono text-indigo-400">{paramA}</span>
+                      <span className="font-mono text-gold-400">{paramA}</span>
                     </div>
                     <input
                       type="range"
@@ -1421,13 +1421,13 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       step={0.1}
                       value={paramA}
                       onChange={(e) => setParamA(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Parameter b (shift):</span>
-                      <span className="font-mono text-indigo-400">{paramB}</span>
+                      <span className="font-mono text-gold-400">{paramB}</span>
                     </div>
                     <input
                       type="range"
@@ -1437,7 +1437,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       step={0.5}
                       value={paramB}
                       onChange={(e) => setParamB(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1466,7 +1466,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       {isNaN(graphEval.y) ? 'Undefined' : graphEval.y.toFixed(3)}
                     </span>
                   </div>
-                  <p className="text-indigo-300 font-medium">{graphEval.featureNote}</p>
+                  <p className="text-gold-300 font-medium">{graphEval.featureNote}</p>
                 </div>
               </div>
 
@@ -1655,11 +1655,11 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
             <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-4">
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Function Arithmetic Engine</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Function Arithmetic Engine</span>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Ingredient f(x):</span>
-                      <span className="font-mono text-indigo-300 font-bold">f(x) = x² - 1 (Domain: R)</span>
+                      <span className="font-mono text-gold-300 font-bold">f(x) = x² - 1 (Domain: R)</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Ingredient g(x):</span>
@@ -1680,7 +1680,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                         }}
                         className={`flex-1 py-2 rounded-xl text-xs font-bold uppercase transition-all ${
                           funcOp === op
-                            ? 'bg-indigo-600 text-white shadow-md'
+                            ? 'bg-gold-600 text-white shadow-md'
                             : 'bg-slate-950 text-slate-400 border border-slate-800'
                         }`}
                       >
@@ -1790,13 +1790,13 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                 </div>
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-medium text-slate-200">
-                  ASTC Sign Rule: <span className="font-bold text-indigo-300">{unitCircleMath.astcRule}</span>
+                  ASTC Sign Rule: <span className="font-bold text-gold-300">{unitCircleMath.astcRule}</span>
                 </div>
 
                 {/* Exact Coordinate Readouts */}
                 <div className="grid grid-cols-3 gap-2 text-center font-mono">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-xs text-blue-400 block font-sans">cos θ (x)</span>
+                    <span className="text-xs text-gold-400 block font-sans">cos θ (x)</span>
                     <span className="text-sm font-bold text-white">{unitCircleMath.cosVal.toFixed(3)}</span>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1812,13 +1812,13 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                 </div>
 
                 {/* S = rθ and Sector Area */}
-                <div className="p-3.5 bg-indigo-950/40 rounded-xl border border-indigo-900/40 space-y-1.5 text-xs">
+                <div className="p-3.5 bg-gold-950/40 rounded-xl border border-gold-900/40 space-y-1.5 text-xs">
                   <div className="flex justify-between">
-                    <span className="text-indigo-300 font-bold">Arc Length S = rθ (r={radiusLength} km):</span>
+                    <span className="text-gold-300 font-bold">Arc Length S = rθ (r={radiusLength} km):</span>
                     <span className="font-mono text-emerald-400 font-bold">{unitCircleMath.arcLength.toFixed(2)} km</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-indigo-300 font-bold">Sector Area A = (1/2)r²θ:</span>
+                    <span className="text-gold-300 font-bold">Sector Area A = (1/2)r²θ:</span>
                     <span className="font-mono text-purple-400 font-bold">{unitCircleMath.sectorArea.toFixed(2)} km²</span>
                   </div>
                 </div>
@@ -1829,14 +1829,14 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           {/* ─── LAB SLIDE 3: Compound & Product-to-Sum Waves ─── */}
           {currentSlide === 3 && (
             <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Compound Wave Interference Lab</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Compound Wave Interference Lab</span>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-4">
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Primary Angle A:</span>
-                      <span className="font-mono text-indigo-400 font-bold">{compoundAngleA}°</span>
+                      <span className="font-mono text-gold-400 font-bold">{compoundAngleA}°</span>
                     </div>
                     <input
                       type="range"
@@ -1845,7 +1845,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       max={90}
                       value={compoundAngleA}
                       onChange={(e) => setCompoundAngleA(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1870,7 +1870,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3 text-xs">
                   <div className="p-2.5 bg-slate-900 rounded-lg space-y-1">
                     <div className="flex justify-between">
-                      <span className="text-indigo-400 font-mono">sin(A+B) = sin({compoundAngleA + compoundAngleB}°):</span>
+                      <span className="text-gold-400 font-mono">sin(A+B) = sin({compoundAngleA + compoundAngleB}°):</span>
                       <span className="font-mono font-bold text-white">{compoundMath.sinAPlusB.toFixed(4)}</span>
                     </div>
                     <div className="flex justify-between text-slate-400">
@@ -1897,14 +1897,14 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           {/* ─── LAB SLIDE 4: Logarithm Scale Explorer ─── */}
           {currentSlide === 4 && (
             <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Logarithm Scale & Inverse Lab</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Logarithm Scale & Inverse Lab</span>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-4">
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Base a (a &gt; 0, a ≠ 1):</span>
-                      <span className="font-mono text-indigo-400 font-bold">{logBase}</span>
+                      <span className="font-mono text-gold-400 font-bold">{logBase}</span>
                     </div>
                     <input
                       type="range"
@@ -1913,7 +1913,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       max={10}
                       value={logBase}
                       onChange={(e) => setLogBase(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1977,7 +1977,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           {/* Combined Sandbox Panels */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Radar Angle Sandbox</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Radar Angle Sandbox</span>
               <div className="flex justify-between text-xs text-slate-300">
                 <span>Angle: {unitAngleDeg}°</span>
                 <span className="font-mono text-emerald-400">cos: {unitCircleMath.cosVal.toFixed(2)}, sin: {unitCircleMath.sinVal.toFixed(2)}</span>
@@ -1989,7 +1989,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                 max={360}
                 value={unitAngleDeg}
                 onChange={(e) => setUnitAngleDeg(parseInt(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
             </div>
 
@@ -2021,7 +2021,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-xs font-mono px-2 py-0.5 rounded-md bg-slate-800 text-slate-300">
@@ -2042,7 +2042,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
             {/* Framer-Motion Animated Progress Bar */}
             <div className="h-2 bg-slate-950 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2074,7 +2074,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                         : 'bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-xs text-indigo-400 mr-2.5">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-xs text-gold-400 mr-2.5">[{String.fromCharCode(65 + i)}]</span>
                     {showExplanation && i === activeChallenge.correctIndex && <span className="text-emerald-400 font-bold mr-2">✓ Correct: </span>}
                     {opt}
                   </motion.button>
@@ -2096,7 +2096,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2126,7 +2126,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Labels →
                 </motion.button>
@@ -2155,7 +2155,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-indigo-950 border border-indigo-800 flex items-center justify-center text-indigo-300 font-mono font-bold">
+                    <span className="w-6 h-6 rounded-lg bg-gold-950 border border-gold-800 flex items-center justify-center text-gold-300 font-mono font-bold">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2168,7 +2168,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Logical Order →
                 </motion.button>
@@ -2185,7 +2185,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer..."
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 flex-1"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 flex-1"
                   />
                   {activeChallenge.unit && (
                     <span className="text-xs font-bold text-slate-400 bg-slate-950 px-3 py-3 rounded-xl border border-slate-800">
@@ -2198,7 +2198,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                   >
                     Check →
                   </motion.button>
@@ -2217,7 +2217,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-300 rounded-xl text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-300 rounded-xl text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2231,7 +2231,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-bold flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2254,7 +2254,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Formula Construction →
                 </motion.button>
@@ -2318,12 +2318,12 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
       {/* ─── 5. COMPLETION PHASE & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-800/60 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-800/60 text-center space-y-4">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Module Mastery Achieved!</h2>
             <div className="flex justify-center gap-6 text-sm font-mono">
               <span className="text-slate-300">Final Score: <strong className="text-emerald-400">✓ {Math.max(0, 100 - errors * 5)}%</strong></span>
-              <span className="text-slate-300">BKT Mastery: <strong className="text-indigo-400 uppercase">{masteryLevel}</strong></span>
+              <span className="text-slate-300">BKT Mastery: <strong className="text-gold-400 uppercase">{masteryLevel}</strong></span>
             </div>
 
             {/* Motivational Performance Message */}
@@ -2337,19 +2337,19 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* ─── SPACED REPETITION (SRS) SCHEDULE CARD ─── */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-indigo-900/30 rounded-2xl border-2 border-indigo-500/40 shadow-xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-gold-900/30 rounded-2xl border-2 border-gold-500/40 shadow-xl space-y-4">
             <div className="flex items-center justify-between flex-wrap gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-3xl">📅</span>
                 <div>
-                  <h3 className="text-sm font-bold text-indigo-200 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-200 uppercase tracking-wider">
                     Spaced Repetition Schedule (SRS)
                   </h3>
                   <p className="text-xs text-slate-400">Next scheduled memory consolidation review interval</p>
                 </div>
               </div>
-              <div className="px-4 py-2 bg-indigo-500/20 border border-indigo-400/50 rounded-xl text-center">
-                <span className="text-xs text-indigo-300 block uppercase font-bold tracking-wider">Recommended Action</span>
+              <div className="px-4 py-2 bg-gold-500/20 border border-gold-400/50 rounded-xl text-center">
+                <span className="text-xs text-gold-300 block uppercase font-bold tracking-wider">Recommended Action</span>
                 <span className="text-base sm:text-lg font-black text-emerald-400">
                   {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
                 </span>
@@ -2382,7 +2382,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
               </div>
             </div>
 
-            <div className="flex items-center justify-between pt-2 border-t border-indigo-900/40 text-xs text-slate-400">
+            <div className="flex items-center justify-between pt-2 border-t border-gold-900/40 text-xs text-slate-400">
               <span>Target retention rate: <strong className="text-white">90%+ SM-2 Algorithm</strong></span>
               <motion.button
                 aria-label="Replay interactive labs"
@@ -2402,7 +2402,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400">
+            <div className="flex items-center gap-2 text-gold-400">
               <span className="text-lg">💭</span>
               <h3 className="text-sm font-bold uppercase tracking-wider">Metacognitive Reflection</h3>
             </div>
@@ -2419,7 +2419,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., How algebraic cancellation does NOT remove domain punctures at x = 1..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2433,7 +2433,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g., On the unit circle, horizontal is cosine and vertical is sine; ASTC gives the quadrant signs..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2447,7 +2447,7 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
                   value={reflectionAnswers.reallife}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, reallife: e.target.value }))}
                   placeholder="e.g., Radar satellite tracking angles, audio synthesizer compound frequencies, or decibel power scaling..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2478,12 +2478,12 @@ function C11_AppliedMathsGraphsStandardRealSim(props: Props = DEFAULT_PROPS) {
 
           {/* Real World Capstone Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-400">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-400">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800/80 text-xs text-slate-400">
-                  <span className="text-indigo-400 font-mono font-bold mr-1.5">{i + 1}.</span>
+                  <span className="text-gold-400 font-mono font-bold mr-1.5">{i + 1}.</span>
                   {step}
                 </div>
               ))}

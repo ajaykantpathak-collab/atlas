@@ -11,7 +11,7 @@ export const w_c8_mathematicsunderstandingquadrilateralssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Visualising Solids: Nets of 3D Shapes',
     chapters: [],
     nodeIds: ['c8_math_ch11_7', 'c8_math_ch12_1', 'c8_math_ch4_1', 'c8_math_ch4_11', 'c8_math_ch4_12', 'c8_math_ch4_2', 'c8_math_ch4_5', 'c8_math_ch4_6', 'c8_math_ch4_7', 'c8_math_ch4_8', 'c8_math_ch4_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you have a cardboard box shaped like a cuboid (like a shoebox) and you carefully cut along some edges.', goal: 'Master Visualising Solids: Nets of 3D Shapes.' },
     discovery: {
         question: 'A student draws a straight line of 6 squares connected edge-to-edge and claims it is a net of a cube.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsunderstandingquadrilateralssim: SimDef = {
         hook: 'Students believe any arrangement of the correct number and shape of faces forms a valid net.',
     },
     teaching: [
-        { title: 'A net of a 3D solid is a two-dimensional.', text: 'A net of a 3D solid is a two-dimensional arrangement of polygons (faces) connected along their edges that can be folded along those edges to form the closed surface of the solid without gaps or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A net of a 3D solid is a two-dimensional.', text: 'A net of a 3D solid is a two-dimensional arrangement of polygons (faces) connected along their edges that can be folded along those edges to form the closed surface of the solid without gaps or.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch11_7', title: 'A net of a 3D solid is a.',

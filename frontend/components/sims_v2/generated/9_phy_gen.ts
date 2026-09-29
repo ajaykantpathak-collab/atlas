@@ -53,13 +53,13 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Observation",
+    "title": "Observation Is The Direct Gathering",
     "text": "Observation is the direct gathering of information through the senses or instruments, recorded as factual, verifiable data (qualitative or quantitative).",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Hypothesis",
+    "title": "Hypothesis Is a Testable",
     "text": "A hypothesis is a testable, falsifiable prediction about the relationship between variables, stated in a form that allows experimental verification or rejection; testing involves designing a controlled investigation where only the independent variable is",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -157,7 +157,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "A hot plate is significantly safer because it has no open flame; ethanol vapors are heavier than air and can travel to a Bunsen burner flame causing a flash fire",
      "An observation is a direct, factual record from senses/instruments (e.g., \"The pendulum completed 20 oscillations in 30"
     ],
-    "hint": "Straight from the 'Observation' slide -- match the key terms.",
+    "hint": "Straight from the 'Observation is the direct' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling the period an observation) reveals the student confuses measured/calculated values with raw sensory data, a critical error in lab reporting.",
     "id": "gen_c9_phy_ch01_q2",
     "nodeId": "c9_physics_ch1_3",
@@ -178,7 +178,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "The trend generally supports the hypothesis (more turns → more clips) but the 40-turn anomaly (11 clips vs 12 at 30 turns) suggests uncontrolled factors (e",
      "The statement is not falsifiable (it asserts a \"because\" mechanism without a testable prediction structure) and it confuses hypothesis with explanation"
     ],
-    "hint": "Straight from the 'hypothesis' slide -- match the key terms.",
+    "hint": "Straight from the 'hypothesis is a testable' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student still treats hypotheses as guesses or explanations rather than structured, testable predictions that can be rejected by evidence.",
     "id": "gen_c9_phy_ch01_q3",
     "nodeId": "c9_physics_ch1_4",
@@ -320,7 +320,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "question": "What is the primary purpose of peer review in scientific publishing?",
     "answer": "Peer review subjects a manuscript to independent evaluation by experts in the same field to assess validity, significance, and originality before publication",
     "options": [
-     "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism",
+     "The procedure runs: (1) Mark positions at 20 cm intervals along the plank (2) Release the car from rest at the top (3) Record the time at which the car passes each mark (4)",
      "The primary purpose is to provide a standardized, language-independent visual warning about the specific type of hazard a chemical poses (e",
      "Peer review subjects a manuscript to independent evaluation by experts in the same field to assess validity, significance, and originality before publication"
     ],
@@ -340,8 +340,8 @@ export const C9_PHY_GEN: SimDef[] = [
     "question": "What is the primary purpose of the Globally Harmonized System (GHS) hazard pictograms on chemical containers in a school laboratory?",
     "answer": "The primary purpose is to provide a standardized, language-independent visual warning about the specific type of hazard a chemical poses (e",
     "options": [
-     "Peer review subjects a manuscript to independent evaluation by experts in the same field to assess validity, significance, and originality before publication",
-     "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism",
+     "The student can reliably separate observations from inferences in any given experimental description, justify why a statement is an observation or an inference",
+     "Laboratory safety is the systematic practice of identifying, assessing, and controlling hazards (chemical, electrical, thermal, mechanical",
      "The primary purpose is to provide a standardized, language-independent visual warning about the specific type of hazard a chemical poses (e"
     ],
     "hint": "Straight from the 'Laboratory safety' slide -- match the key terms.",
@@ -501,7 +501,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "question": "Name one physics principle from Class 9 (motion, force, gravitation, work/energy, or sound) that enables the working of a bicycle, and state the technology it directly produces.",
     "answer": "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism",
     "options": [
-     "The primary purpose is to provide a standardized, language-independent visual warning about the specific type of hazard a chemical poses (e",
+     "The student can independently conduct a risk assessment for a given Class 9 physics experiment (e.g",
      "The data collection runs: (1) Raise one end of a wooden plank to make an incline (2) Mark the ramp at equal intervals up to 100 cm (3) Release the car from rest and time its",
      "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism"
     ],
@@ -513,17 +513,17 @@ export const C9_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A Class 9 lab report contains: \"The iron nail turned reddish-brown after being left in water for a week, so rust formed.\" Evaluate this entry. Is the reasoning valid? What additional observation would strengthen the inference?",
-    "answer": "The entry mixes observation (color change to reddish-brown) and inference (rust formed). The reasoning is plausible but not conclusive",
+    "question": "What common mix-up does this lesson flag about Science and Society?",
+    "answer": "Students think \"science impacts society only through big inventions like rockets or smartphones\" and overlook how fundamental principles (e",
     "options": [
-     "Judgment: Reject. Three criteria violated: (1) No peer-reviewed publication — WhatsApp is not a vetted scientific channel",
-     "Student A's statement is a qualitative observation (mass/volume decrease visible). Student B's statement is an inference (vaporization and combustion are not directly seen)",
-     "The entry mixes observation (color change to reddish-brown) and inference (rust formed). The reasoning is plausible but not conclusive"
+     "Observation is the direct gathering of information through the senses or instruments, recorded as factual, verifiable data (qualitative or quantitative)",
+     "Students believe that any statement using scientific vocabulary (e.g., \"photosynthesis occurred\", \"electrons flow\") is an observation because it \"sounds scientific\"",
+     "Students think \"science impacts society only through big inventions like rockets or smartphones\" and overlook how fundamental principles (e"
     ],
-    "hint": "Straight from the 'Observation' slide -- match the key terms.",
-    "misconception": "A wrong evaluation shows the student accepts inferences as facts without demanding corroborating evidence.",
+    "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students think \"science impacts society only through big inventions like rockets or smartphones\" and overlook how",
     "id": "gen_c9_phy_ch01_q18",
-    "nodeId": "c9_physics_ch1_3",
+    "nodeId": "c9_physics_ch1_10",
     "difficulty": "standard"
    }
   ],
@@ -539,13 +539,15 @@ export const C9_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_phy_ch03",
-  "title": "Force: Definition and Effects on Objects",
+  "title": "Newton's First Law Of Motion",
   "subtitle": "Physics · Chapter 3",
   "classLevel": 9,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Force: Definition and Effects on Objects",
-  "chapters": ["Physics Ch3: Force: Definition and Effects on Objects"],
+  "topic": "Newton's First Law Of Motion",
+  "chapters": [
+   "Physics Ch3: Newton's First Law Of Motion"
+  ],
   "nodeIds": [
    "c9_physics_ch3_1",
    "c9_physics_ch3_2",
@@ -564,7 +566,7 @@ export const C9_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Force: Definition and Effects on directly with your eyes?",
+   "question": "Can you see Newton's First Law Of Motion directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -587,7 +589,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Newton's First Law Of Motion States",
+    "title": "Newton's First Law Of Motion",
     "text": "Newton's First Law of Motion states that an object remains at rest or in uniform motion in a straight line unless acted upon by a net external force; this inherent property of matter to resist changes in its state of motion is called inertia, and it is",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -599,7 +601,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Momentum",
+    "title": "Momentum Is a Vector Quantity Defined",
     "text": "Momentum is a vector quantity defined as the product of an object's mass and its velocity (p = mv), measured in kilogram metres per second (kg·m/s).",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -639,7 +641,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Given: m₁ = 1500 kg, u₁ = 20 m/s east; m₂ = 1000 kg, u₂ = 0 m/s; v₁ = 5 m/s east. Find v₂. Step 1: Choose east as positive",
      "The passenger and car are moving together. When the car brakes, the car decelerates (a force acts on the car)"
     ],
-    "hint": "Straight from the 'Newton's First Law of Motion (Law' slide -- match the key terms.",
+    "hint": "Straight from the 'Newton's First Law of Motion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the passenger is pushed forward\") implies a force pushes the passenger — there is no forward force; the passenger simply continues moving while the car stops.",
     "id": "gen_c9_phy_ch03_q1",
     "nodeId": "c9_physics_ch3_1",
@@ -854,7 +856,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "The statement correctly identifies the action-reaction pair (horse pulls cart forward, cart pulls horse backward) but incorrectly concludes the cart should not move",
      "Given: m₁ = 1500 kg, u₁ = 20 m/s east; m₂ = 1000 kg, u₂ = 0 m/s; v₁ = 5 m/s east. Find v₂. Step 1: Choose east as positive"
     ],
-    "hint": "Straight from the 'Momentum' slide -- match the key terms.",
+    "hint": "Straight from the 'Momentum is a vector quantity' slide -- match the key terms.",
     "misconception": "A wrong sign or magnitude reveals failure to assign direction signs or algebraic error in solving for v₂.",
     "id": "gen_c9_phy_ch03_q12",
     "nodeId": "c9_physics_ch3_6",
@@ -869,7 +871,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "The statement correctly identifies the action-reaction pair (horse pulls cart forward, cart pulls horse backward) but incorrectly concludes the cart should not move",
      "Setup: Thread a straw on a long horizontal string stretched across the room. Inflate a balloon, tape it to the straw (opening backward), hold the balloon closed, then release"
     ],
-    "hint": "Straight from the 'Momentum' slide -- match the key terms.",
+    "hint": "Straight from the 'Momentum is a vector quantity' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"just watch it move\") reveals inability to identify the system, isolate variables, or connect observation to quantitative principle.",
     "id": "gen_c9_phy_ch03_q13",
     "nodeId": "c9_physics_ch3_6",
@@ -893,11 +895,11 @@ export const C9_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about force: definition and effects on objects?",
+    "What surprised you about newton's first law of motion?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Force: Definition and Effects mastered! 🎯",
+  "successLine": "Newton's First Law Of Motion mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -946,13 +948,13 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Work-Energy Theorem States That",
+    "title": "The Work-Energy Theorem",
     "text": "The Work-Energy Theorem states that the net work done by all forces acting on an object is equal to the change in its kinetic energy. Mathematically, \\(W_{\\text{net}} = \\Delta K = \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2\\), where \\(W_{\\text{net}}\\) is the net work",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Energy",
+    "title": "Energy Is The Capacity Of a System To Do",
     "text": "Energy is the capacity of a system to do work, measured in joules (J) in the SI system. This node focuses on four specific forms: heat energy (internal energy transfer due to temperature difference), light energy (electromagnetic radiation visible to the",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -982,7 +984,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Power",
+    "title": "Power Is The Rate",
     "text": "Power is the rate at which work is done or energy is transferred, measured as work done per unit time. Its SI unit is the watt (W), where 1 watt = 1 joule per second (1 W = 1 J/s).",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500",
@@ -1039,7 +1041,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "The claim is false. The battery does not *create* energy; it *stores* energy from the charger as chemical potential energy (reversing the discharge reaction) and releases it later",
      "Even LED bulbs produce some heat because no energy conversion is 100% efficient; a fraction of electrical energy always dissipates as heat due to resistance in the circuit and"
     ],
-    "hint": "Straight from the 'Energy' slide -- match the key terms.",
+    "hint": "Straight from the 'Energy is the capacity of a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"LEDs produce no heat\") reveals the misconception that \"efficient\" means \"zero heat loss\", confusing high efficiency with perfect conversion.",
     "id": "gen_c9_phy_ch04_q3",
     "nodeId": "c9_physics_ch4_4",
@@ -1176,7 +1178,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Elastic potential energy = ½ × 200 N/m × (0.05 m)² = 0.25 J. Kinetic energy = ½mv² = 0.25 J → ½ × 0.5 kg × v² = 0.25 J → v² = 1 → v = 1 m/s",
      "Given: \\(m = 1500\\,\\text{kg}\\), \\(u = 10\\,\\text{m/s}\\), \\(v = 25\\,\\text{m/s}\\). Step 1: Identify formula: \\(W_{\\text{net}} = \\frac{1}{2}m(v^2 - u^2)\\)"
     ],
-    "hint": "Straight from the 'The Work-Energy Theorem states' slide -- match the key terms.",
+    "hint": "Straight from the 'The Work-Energy Theorem' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., using \\(v-u\\) instead of \\(v^2-u^2\\)) shows the student treats kinetic energy as linear in velocity, missing the square dependence.",
     "id": "gen_c9_phy_ch04_q10",
     "nodeId": "c9_physics_ch4_3",
@@ -1191,7 +1193,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Spring B stores twice the energy of Spring A (U_B = 2U_A). The formula U = ½kx² shows energy is directly proportional to k when x is constant",
      "The claim is false. The battery does not *create* energy; it *stores* energy from the charger as chemical potential energy (reversing the discharge reaction) and releases it later"
     ],
-    "hint": "Straight from the 'Energy' slide -- match the key terms.",
+    "hint": "Straight from the 'Energy is the capacity of a' slide -- match the key terms.",
     "misconception": "A wrong evaluation (agreeing with the claim) reveals the deep misconception that energy can be created by a device, ignoring the input during charging.",
     "id": "gen_c9_phy_ch04_q11",
     "nodeId": "c9_physics_ch4_4",
@@ -1206,7 +1208,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Even LED bulbs produce some heat because no energy conversion is 100% efficient; a fraction of electrical energy always dissipates as heat due to resistance in the circuit and",
      "Gas stove: Chemical (LPG) → Heat (flame) → Heat (water). Immersion rod: Electrical → Heat (rod) → Heat (water)"
     ],
-    "hint": "Straight from the 'Energy' slide -- match the key terms.",
+    "hint": "Straight from the 'Energy is the capacity of a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying gas stove starts with \"heat energy\") reveals confusion between energy *source* (fuel) and energy *form* (chemical potential).",
     "id": "gen_c9_phy_ch04_q12",
     "nodeId": "c9_physics_ch4_4",
@@ -1221,7 +1223,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Power = 1.5 kW = 1500 W. Time = 2 h = 7200 s. Energy in joules = P × t = 1500 × 7200 = 10,800,000 J = 1.08 × 10^7 J. Energy in kWh = 1.5 kW × 2 h = 3 kWh",
      "Materials: Lemon, copper coin (cathode), zinc-coated nail (anode), LED (low current red) or a sensitive galvanometer from school lab"
     ],
-    "hint": "Straight from the 'Energy' slide -- match the key terms.",
+    "hint": "Straight from the 'Energy is the capacity of a' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"use a voltmeter\" without explaining the chemical reaction, or expecting bright light) reveals lack of understanding of the electrochemical cell principle and energy magnitude.",
     "id": "gen_c9_phy_ch04_q13",
     "nodeId": "c9_physics_ch4_4",
@@ -1316,14 +1318,14 @@ export const C9_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_phy_ch05",
-  "title": "Sound",
+  "title": "Sound Is a Form Of Mechanical",
   "subtitle": "Physics · Chapter 5",
   "classLevel": 9,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Sound",
+  "topic": "Sound Is a Form Of Mechanical",
   "chapters": [
-   "Physics Ch5: Sound"
+   "Physics Ch5: Sound Is a Form Of Mechanical"
   ],
   "nodeIds": [
    "c9_physics_ch5_1",
@@ -1344,7 +1346,7 @@ export const C9_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Sound outside the classroom?",
+   "question": "Quick guess -- where do you meet Sound Is a Form Of Mechanical outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -1355,7 +1357,7 @@ export const C9_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Sound",
+    "title": "Sound Is a Form Of Mechanical",
     "text": "Sound is a form of mechanical energy produced by the vibration of an object, which creates alternating regions of compression and rarefaction in a surrounding medium; the vibrating object is called the source of sound.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1373,7 +1375,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Wavelength",
+    "title": "Wavelength Is The Distance Between",
     "text": "Wavelength (λ) is the distance between two consecutive compressions or rarefactions in a sound wave, measured in metres (m). Frequency (f) is the number of complete oscillations per second, measured in hertz (Hz).",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1403,7 +1405,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Ultrasound",
+    "title": "Ultrasound Refers To Sound Waves",
     "text": "Ultrasound refers to sound waves with frequencies greater than 20 kHz, which are inaudible to humans but can penetrate materials and reflect at boundaries, enabling imaging and detection.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1421,11 +1423,11 @@ export const C9_PHY_GEN: SimDef[] = [
     "question": "State the necessary condition for an object to become a source of sound.",
     "answer": "The object must vibrate (oscillate about a mean position)",
     "options": [
-     "Ultrasound is sound with frequency above 20,000 Hz (20 kHz), above the human audible upper limit. Medical ultrasound typically uses 2-15 MHz (million Hz)",
-     "The human audible range is approximately 20 Hz to 20,000 Hz (20 kHz). Sounds within this range can be detected by the human ear",
+     "Student can identify the three requirements for sound production (vibrating source, medium, receiver), explain how vibrations create compressions and rarefactions in a medium",
+     "Students think sound can travel through vacuum (like light)",
      "The object must vibrate (oscillate about a mean position)"
     ],
-    "hint": "Straight from the 'Sound' slide -- match the key terms.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
     "misconception": "A wrong answer like \"the object must be made of metal\" or \"the object must be hit hard\" reveals the student thinks material or force magnitude alone creates sound, ignoring the essential vibratory motion.",
     "id": "gen_c9_phy_ch05_q1",
     "nodeId": "c9_physics_ch5_1",
@@ -1519,7 +1521,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "The statement is incorrect. Echo and reverberation are related (both involve sound reflection) but different",
      "Less than 1 second. Frequency of 500 Hz means 500 oscillations occur in 1 second, so one oscillation takes 1/500 = 0.002 s"
     ],
-    "hint": "Straight from the 'Wavelength' slide -- match the key terms.",
+    "hint": "Straight from the 'Wavelength is the distance between' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"greater than 1 second\") reveals the student thinks higher frequency means longer time period, confusing the inverse relationship.",
     "id": "gen_c9_phy_ch05_q4",
     "nodeId": "c9_physics_ch5_4",
@@ -1577,8 +1579,8 @@ export const C9_PHY_GEN: SimDef[] = [
     "question": "State the audible range of the human ear.",
     "answer": "The human audible range is approximately 20 Hz to 20,000 Hz (20 kHz). Sounds within this range can be detected by the human ear",
     "options": [
-     "Ultrasound is sound with frequency above 20,000 Hz (20 kHz), above the human audible upper limit. Medical ultrasound typically uses 2-15 MHz (million Hz)",
-     "The object must vibrate (oscillate about a mean position)",
+     "Student can state the audible range (20 Hz - 20,000 Hz), define infrasound and ultrasound, explain why the upper limit decreases with age",
+     "Ultrasound applications are the technological and medical uses of sound waves with frequencies above 20,000 Hz (the human audible upper limit)",
      "The human audible range is approximately 20 Hz to 20,000 Hz (20 kHz). Sounds within this range can be detected by the human ear"
     ],
     "hint": "Straight from the 'audible range' slide -- match the key terms.",
@@ -1670,8 +1672,8 @@ export const C9_PHY_GEN: SimDef[] = [
     "question": "State the law of reflection for sound and compare it with the law for light.",
     "answer": "The law of reflection for sound: the angle of incidence equals the angle of reflection (measured from the normal to the surface)",
     "options": [
-     "Infrasound: sound with frequency below 20 Hz — inaudible to humans, often felt as vibration (e.g., earthquakes, elephant communication)",
-     "Ultrasound is sound with frequency above 20,000 Hz (20 kHz), above the human audible upper limit. Medical ultrasound typically uses 2-15 MHz (million Hz)",
+     "Students think sound can travel through vacuum (like light)",
+     "Students believe sound is produced *only* when an object is struck or plucked (an external impact), overlooking that sustained vibration",
      "The law of reflection for sound: the angle of incidence equals the angle of reflection (measured from the normal to the surface)"
     ],
     "hint": "Straight from the 'Reflection of sound' slide -- match the key terms.",
@@ -1752,7 +1754,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Procedure: Place the metal rod on a table. Student A taps one end gently with a stone. Student B listens at the other end with one ear on the rod (solid path) and times the",
      "Yes, a sounding board increases loudness. The ruler's small surface area moves little air; the board's larger area couples with more air particles"
     ],
-    "hint": "Straight from the 'Sound' slide -- match the key terms.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Yes, a sounding board increases loudness. The ruler's small surface area moves little air; the board's larger area",
     "id": "gen_c9_phy_ch05_q12",
     "nodeId": "c9_physics_ch5_1",
@@ -1767,7 +1769,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Materials: Decibel meter (or smartphone with sound meter app), Bluetooth speaker, measuring tape, quiet corridor",
      "Damping stops the vibration of the rubber band; without vibration, no compressions/rarefactions are created in the air, so no sound is produced"
     ],
-    "hint": "Straight from the 'Sound' slide -- match the key terms.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
     "misconception": "A wrong answer focusing on \"tension is gone\" or \"air is blocked\" shows confusion between the static condition (stretch) and the dynamic requirement (oscillatory motion).",
     "id": "gen_c9_phy_ch05_q13",
     "nodeId": "c9_physics_ch5_1",
@@ -1782,7 +1784,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Materials: smartphone with frequency analyser app, tuning forks of different known frequencies (or app-generated tones), ruler, quiet room",
      "(a) Vibrating string, (b) Vibrating air column, (c) Vibrating membrane, (d) Vibrating solid plate"
     ],
-    "hint": "Straight from the 'Sound' slide -- match the key terms.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
     "misconception": "A wrong classification (e.g., calling the shehnai a string) reveals the student memorises instrument names without linking them to the physical vibrating component.",
     "id": "gen_c9_phy_ch05_q14",
     "nodeId": "c9_physics_ch5_1",
@@ -1797,7 +1799,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "(a) Vibrating string, (b) Vibrating air column, (c) Vibrating membrane, (d) Vibrating solid plate",
      "Tie the spoon at the midpoint of a 1 m thread, wrap thread ends around index fingers, press fingers gently against ears, lean forward so spoon hangs freely"
     ],
-    "hint": "Straight from the 'Sound' slide -- match the key terms.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Tie the spoon at the midpoint of a 1 m thread, wrap thread ends around index fingers, press fingers gently against",
     "id": "gen_c9_phy_ch05_q15",
     "nodeId": "c9_physics_ch5_1",
@@ -1812,7 +1814,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Procedure: Place the metal rod on a table. Student A taps one end gently with a stone. Student B listens at the other end with one ear on the rod (solid path) and times the",
      "Pitch depends on vibration frequency (determined by fork's mass and stiffness), which is unchanged; loudness depends on vibration amplitude, which increases with striking force"
     ],
-    "hint": "Straight from the 'Sound' slide -- match the key terms.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
     "misconception": "A wrong answer claiming pitch changes with force confuses frequency (intrinsic property) with amplitude (energy-dependent).",
     "id": "gen_c9_phy_ch05_q16",
     "nodeId": "c9_physics_ch5_1",
@@ -1820,42 +1822,42 @@ export const C9_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student claims: \"Infrasound from a volcanic eruption can be heard by humans if we amplify it enough.\" Evaluate this statement.",
-    "answer": "False. Infrasound is below 20 Hz; human ears cannot perceive it regardless of amplitude because the cochlea's hair cells do not respond to such low frequencies",
+    "question": "What common mix-up does this lesson flag about Sound?",
+    "answer": "Students believe sound is produced *only* when an object is struck or plucked (an external impact), overlooking that sustained vibration",
     "options": [
-     "The statement is incorrect. Echo and reverberation are related (both involve sound reflection) but different",
-     "The statement is too vague. Not all motion produces sound — a slowly moving object does not produce sound",
-     "False. Infrasound is below 20 Hz; human ears cannot perceive it regardless of amplitude because the cochlea's hair cells do not respond to such low frequencies"
+     "Infrasound: sound with frequency below 20 Hz — inaudible to humans, often felt as vibration (e.g., earthquakes, elephant communication)",
+     "Ultrasound applications are the technological and medical uses of sound waves with frequencies above 20,000 Hz (the human audible upper limit)",
+     "Students believe sound is produced *only* when an object is struck or plucked (an external impact), overlooking that sustained vibration"
     ],
-    "hint": "Straight from the 'Ultrasound' slide -- match the key terms.",
-    "misconception": "A wrong answer (agreeing) reveals confusion between loudness (amplitude) and pitch (frequency).",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe sound is produced *only* when an object is struck or plucked (an external impact), overlooking that",
     "id": "gen_c9_phy_ch05_q17",
-    "nodeId": "c9_physics_ch5_10",
+    "nodeId": "c9_physics_ch5_1",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "An ultrasonic flaw detector sends a pulse into a steel rail (speed of sound in steel = 5960 m/s). The reflected pulse from a crack returns after 40 μs. Calculate the distance of the crack from the detector.",
-    "answer": "Given: v = 5960 m/s, t = 40 μs = 40 × 10⁻⁶ s. The pulse travels to the crack and back, so total distance = v × t = 5960 × 40 × 10⁻⁶ = 0",
+    "question": "What is Sound? State the definition given in this lesson.",
+    "answer": "Sound is a form of mechanical energy produced by the vibration of an object, which creates alternating regions of compression and rarefaction in a surrounding medium",
     "options": [
-     "The statement is incorrect. Echo and reverberation are related (both involve sound reflection) but different",
-     "The statement is too vague. Not all motion produces sound — a slowly moving object does not produce sound",
-     "Given: v = 5960 m/s, t = 40 μs = 40 × 10⁻⁶ s. The pulse travels to the crack and back, so total distance = v × t = 5960 × 40 × 10⁻⁶ = 0"
+     "Students believe sound is produced *only* when an object is struck or plucked (an external impact), overlooking that sustained vibration",
+     "Student can state the audible range (20 Hz - 20,000 Hz), define infrasound and ultrasound, explain why the upper limit decreases with age",
+     "Sound is a form of mechanical energy produced by the vibration of an object, which creates alternating regions of compression and rarefaction in a surrounding medium"
     ],
-    "hint": "Straight from the 'Ultrasound' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., forgetting to halve the distance) reveals the student does not account for the round-trip travel time.",
+    "hint": "Straight from the 'Sound is a form of mechanical' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Sound is a form of mechanical energy produced by the vibration of an object, which creates alternating regions of",
     "id": "gen_c9_phy_ch05_q18",
-    "nodeId": "c9_physics_ch5_10",
+    "nodeId": "c9_physics_ch5_1",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about sound?",
+    "What surprised you about sound is a form of mechanical?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Sound mastered! 🎯",
+  "successLine": "Sound Is a Form Of Mechanical mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1901,7 +1903,7 @@ export const C9_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Latitude",
+    "title": "Latitude Is The Angular Distance",
     "text": "Latitude is the angular distance of a place north or south of the Earth's equator measured in degrees, and its effect on temperature arises because the angle of incidence of solar radiation decreases with increasing latitude, causing the same amount of solar",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1956,7 +1958,7 @@ export const C9_PHY_GEN: SimDef[] = [
      "Materials: Large transparent tank, water, tray of sand, heat lamp (representing sun), incense stick (smoke tracer)",
      "Independent variable: angle of incidence (simulated latitude) from 0° to 70° in 10° steps. Dependent variable: temperature rise of a thermometer placed on the graph paper after 5"
     ],
-    "hint": "Straight from the 'Latitude' slide -- match the key terms.",
+    "hint": "Straight from the 'Latitude is the angular distance' slide -- match the key terms.",
     "misconception": "A poor answer that varies distance instead of angle, or expects a straight-line graph, shows misunderstanding of the cosine relationship and experimental control.",
     "id": "gen_c9_phy_ch06_q2",
     "nodeId": "c9_physics_ch6_2",

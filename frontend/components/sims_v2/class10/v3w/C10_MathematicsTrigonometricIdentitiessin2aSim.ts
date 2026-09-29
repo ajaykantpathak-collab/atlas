@@ -11,7 +11,7 @@ export const w_c10_mathematicstrigonometricidentitiessin2asim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Trigonometric Ratios: sin, cos, tan in a Right Triangle',
     chapters: [],
     nodeIds: ['c10_math_cbse_08_001', 'c10_math_cbse_08_004', 'c10_math_cbse_08_005', 'c10_math_cbse_08_006', 'c10_math_cbse_08_007', 'c10_math_cbse_08_008', 'c10_math_cbse_08_010', 'c10_math_cbse_08_011', 'c10_math_cbse_08_002', 'c10_math_cbse_08_003', 'c10_math_cbse_08_009', 'c10_math_cbse_09_005', 'c10_math_cbse_09_006', 'c10_math_cbse_09_007', 'c10_math_cbse_09_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are standing 20 metres away from the base of a mobile tower in your neighbourhood and you want to.', goal: 'Master Trigonometric Ratios: sin, cos, tan in a Right Triangle.' },
     discovery: {
         question: 'In a right triangle PQR, right-angled at Q, PQ = 12 cm and QR = 5 cm. Find sin R, cos R, and tan R. (Angle R is at vertex R.)',
@@ -20,7 +20,7 @@ export const w_c10_mathematicstrigonometricidentitiessin2asim: SimDef = {
         hook: 'Students consistently confuse "opposite" and "adjacent" when the reference angle is not the standard one (e.g., angle.',
     },
     teaching: [
-        { title: 'In a right-angled triangle, for an acute.', text: 'In a right-angled triangle, for an acute angle θ, the trigonometric ratios are defined as: sine θ = length of side opposite to θ / length of hypotenuse, cosine θ = length of side adjacent to θ /.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'In a right-angled triangle, for an acute.', text: 'In a right-angled triangle, for an acute angle θ, the trigonometric ratios are defined as: sine θ = length of side opposite to θ / length of hypotenuse, cosine θ = length of side adjacent to θ /.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_08_001', title: 'In a right-angled triangle, for an.',

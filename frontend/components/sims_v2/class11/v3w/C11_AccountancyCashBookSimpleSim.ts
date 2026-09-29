@@ -11,7 +11,7 @@ export const w_c11_accountancycashbooksimplesim: SimDef = {
     classLevel: 11, subject: 'accountancy', topic: 'Cash Book: Simple Cash Book',
     chapters: [],
     nodeIds: ['c11_acc_cbse_04_001', 'c11_acc_cbse_03_007', 'c11_acc_cbse_03_010', 'c11_acc_cbse_04_002', 'c11_acc_cbse_04_003', 'c11_acc_cbse_04_004', 'c11_acc_cbse_04_005', 'c11_acc_cbse_04_006', 'c11_acc_cbse_04_007', 'c11_acc_cbse_04_008', 'c11_acc_cbse_04_009', 'c11_acc_cbse_09_008', 'c11_acc_cbse_09_005', 'c11_acc_cbse_01_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small kirana store. Every day you receive cash from customers and pay cash for purchases,.', goal: 'Master Cash Book: Simple Cash Book.' },
     discovery: {
         question: 'In the ledger account for "Cash", a journal entry shows "Cash A/c Dr. 10,000 To Sales A/c 10,000".',
@@ -20,7 +20,7 @@ export const w_c11_accountancycashbooksimplesim: SimDef = {
         hook: 'Students believe the Particulars column in a ledger account should repeat the account\'s own name (e.g., writing.',
     },
     teaching: [
-        { title: 'A Simple Cash Book (Single Column Cash Book).', text: 'A Simple Cash Book (Single Column Cash Book) is a subsidiary book that records only cash receipts and cash payments in chronological order, with a single amount column on each side (debit for.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Simple Cash Book (Single Column Cash Book).', text: 'A Simple Cash Book (Single Column Cash Book) is a subsidiary book that records only cash receipts and cash payments in chronological order, with a single amount column on each side (debit for.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_acc_cbse_04_001', title: 'A Simple Cash Book (Single Column Cash.',

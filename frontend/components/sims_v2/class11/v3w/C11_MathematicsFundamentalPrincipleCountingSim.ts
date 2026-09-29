@@ -11,7 +11,7 @@ export const w_c11_mathematicsfundamentalprinciplecountingsim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Fundamental Principle of Counting',
     chapters: [],
     nodeIds: ['c11_math_cbse_07_001', 'c11_math_cbse_07_003', 'c11_math_cbse_07_004', 'c11_math_cbse_07_006', 'c11_math_cbse_01_002', 'c11_math_cbse_07_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re packing for a school trip: you have 3 different shirts and 2 different pairs of trousers.', goal: 'Master Fundamental Principle of Counting.' },
     discovery: {
         question: 'A student solves: "How many 3-digit even numbers can be formed from digits 1, 2, 3, 4, 5 if repetition is allowed?" Their working: "Units digit must be even: 2.',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsfundamentalprinciplecountingsim: SimDef = {
         hook: 'The most pervasive Class 11 error is applying the Multiplication Principle to dependent sequential choices without.',
     },
     teaching: [
-        { title: 'The Fundamental Principle of Counting.', text: 'The Fundamental Principle of Counting (Multiplication Principle) states that if an event can occur in \\(m\\) different ways and, following it, another independent event can occur in \\(n\\) different.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Fundamental Principle of Counting.', text: 'The Fundamental Principle of Counting (Multiplication Principle) states that if an event can occur in \\(m\\) different ways and, following it, another independent event can occur in \\(n\\) different.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_07_001', title: 'The Fundamental Principle of Counting.',

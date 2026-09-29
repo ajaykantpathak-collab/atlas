@@ -665,7 +665,7 @@ export function C10_ScienceAcidsBasesAndSaltsSim() {
                 <div className="text-sm space-y-1">
                   <p className="font-bold text-slate-200">{substance.name}</p>
                   <p className="font-mono text-xs text-rose-300">[H\u207a] = 10^\u2212{substance.ph} = {hConc.toExponential(1)} mol/L</p>
-                  <p className="font-mono text-xs text-sky-300">[OH\u207b] = {ohConc.toExponential(1)} mol/L</p>
+                  <p className="font-mono text-xs text-gold-300">[OH\u207b] = {ohConc.toExponential(1)} mol/L</p>
                   <p className="font-mono text-xs text-slate-500">pOH = {(14 - substance.ph).toFixed(1)}</p>
                   <p className="text-[11px] text-slate-500">[H\u207a] is {substance.ph < 7 ? `${Math.pow(10, 7 - substance.ph).toExponential(0)}\u00d7` : 'the neutral amount of'} the pure-water level</p>
                 </div>
@@ -731,7 +731,7 @@ export function C10_ScienceAcidsBasesAndSaltsSim() {
                 </div>
                 <div className="flex-1 space-y-1 text-xs font-mono">
                   <p className="text-rose-300">mmol H\u207a = {acidM} \u00d7 {acidML} = {mmolH.toFixed(2)}</p>
-                  <p className="text-sky-300">mmol OH\u207b = {baseM} \u00d7 {naohML} = {mmolOH.toFixed(2)}</p>
+                  <p className="text-gold-300">mmol OH\u207b = {baseM} \u00d7 {naohML} = {mmolOH.toFixed(2)}</p>
                   <p className="text-slate-300">{status}</p>
                   {atEquivalence && <p className="text-emerald-400 font-bold animate-pulse">EQUIVALENCE POINT -- salt NaCl + water only</p>}
                   <p className="text-slate-500 text-[10px] font-sans">
@@ -747,7 +747,7 @@ export function C10_ScienceAcidsBasesAndSaltsSim() {
 
           <div className="lg:col-span-2 space-y-4">
             <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
-              {slider('NaOH added', naohML, setNaohML, 0, 50, 0.5, 'mL', 'accent-sky-500')}
+              {slider('NaOH added', naohML, setNaohML, 0, 50, 0.5, 'mL', 'accent-gold-500')}
               {slider('HCl volume', acidML, setAcidML, 5, 50, 1, 'mL', 'accent-rose-500')}
               {slider('HCl concentration', acidM, setAcidM, 0.02, 0.2, 0.01, 'M', 'accent-amber-500')}
               {slider('NaOH concentration', baseM, setBaseM, 0.02, 0.2, 0.01, 'M', 'accent-emerald-500')}

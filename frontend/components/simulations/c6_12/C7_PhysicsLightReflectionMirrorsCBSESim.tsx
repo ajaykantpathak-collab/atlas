@@ -715,13 +715,13 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
   return (
     <div className="w-full min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans select-none overflow-x-hidden">
       {/* ─── HEADER / NAVIGATION BAR ─── */}
-      <header className="w-full bg-slate-900/90 border-b border-cyan-800/40 backdrop-blur-md px-4 py-3 sticky top-0 z-50 flex items-center justify-between">
+      <header className="w-full bg-slate-900/90 border-b border-gold-800/40 backdrop-blur-md px-4 py-3 sticky top-0 z-50 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center shadow-lg shadow-gold-500/30">
             <span className="text-xl font-black text-white">💡</span>
           </div>
           <div>
-            <h1 className="text-lg font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-lg font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               ISRO Optics Lab: Light & Reflection
             </h1>
             <p className="text-xs text-slate-400">Class 7 CBSE Physics • Interactive Ray Laboratory</p>
@@ -739,7 +739,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               }}
               className={`px-4 py-1.5 rounded-lg text-xs font-semibold capitalize transition-all duration-200 ${
                 mode === m
-                  ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
+                  ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20 font-bold'
                   : 'text-slate-300 hover:text-white hover:bg-slate-700/50'
               }`}
             >
@@ -750,9 +750,9 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
 
         {/* SCORE & MASTERY READOUT */}
         <div className="flex items-center space-x-4">
-          <div className="bg-slate-800/90 border border-cyan-500/30 px-3 py-1 rounded-lg flex items-center space-x-2">
+          <div className="bg-slate-800/90 border border-gold-500/30 px-3 py-1 rounded-lg flex items-center space-x-2">
             <span className="text-xs text-slate-400">Mastery</span>
-            <span className="text-sm font-bold text-cyan-400">{overallMastery}%</span>
+            <span className="text-sm font-bold text-gold-400">{overallMastery}%</span>
           </div>
           <div className="bg-slate-800/90 border border-amber-500/30 px-3 py-1 rounded-lg flex items-center space-x-2">
             <span className="text-xs text-slate-400">Score</span>
@@ -771,7 +771,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               audioManager.play('tap');
             }}
             className={`px-2 py-1 rounded text-xs font-medium capitalize ${
-              mode === m ? 'bg-cyan-500 text-slate-950 font-bold' : 'text-slate-400'
+              mode === m ? 'bg-gold-500 text-slate-950 font-bold' : 'text-slate-400'
             }`}
           >
             {m}
@@ -791,8 +791,8 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               exit={{ opacity: 0, y: -15 }}
               className="space-y-6"
             >
-              <div className="bg-slate-900/80 border border-cyan-500/30 rounded-2xl p-6 shadow-2xl space-y-4 backdrop-blur">
-                <div className="inline-block px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/40 text-cyan-300 text-xs font-semibold">
+              <div className="bg-slate-900/80 border border-gold-500/30 rounded-2xl p-6 shadow-2xl space-y-4 backdrop-blur">
+                <div className="inline-block px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/40 text-gold-300 text-xs font-semibold">
                   Discovery Phase • Predict Before Learning
                 </div>
                 <h2 className="text-xl md:text-2xl font-bold text-slate-100">{SCENARIO.title}</h2>
@@ -800,7 +800,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               </div>
 
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-                <h3 className="text-lg font-bold text-sky-300 flex items-center space-x-2">
+                <h3 className="text-lg font-bold text-gold-300 flex items-center space-x-2">
                   <span>🤔 Curiosity Challenge:</span>
                 </h3>
                 <p className="text-base text-slate-200">{DISCOVERY_QUESTION.question}</p>
@@ -817,7 +817,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       }}
                       className={`p-4 rounded-xl border text-left text-sm transition-all duration-200 ${
                         predictSelected === idx
-                          ? 'border-cyan-400 bg-cyan-950/40 text-cyan-200 shadow-md shadow-cyan-500/20'
+                          ? 'border-gold-400 bg-gold-950/40 text-gold-200 shadow-md shadow-gold-500/20'
                           : 'border-slate-800 bg-slate-850 hover:border-slate-700 text-slate-300'
                       }`}
                     >
@@ -837,7 +837,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     onClick={handlePredictSubmit}
                     className={`w-full py-3 rounded-xl font-bold transition-all shadow-lg ${
                       predictSelected !== null
-                        ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 shadow-cyan-500/25 hover:brightness-110'
+                        ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 shadow-gold-500/25 hover:brightness-110'
                         : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                     }`}
                   >
@@ -863,7 +863,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                         setMode('learn');
                         audioManager.play('whoosh');
                       }}
-                      className="w-full py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-bold shadow-lg hover:brightness-110"
+                      className="w-full py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-500 text-white font-bold shadow-lg hover:brightness-110"
                     >
                       Proceed to Interactive Visual Lessons →
                     </button>
@@ -886,7 +886,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
                 <div className="flex items-center space-x-2">
                   <span className="text-xs text-slate-400">Lesson Progress:</span>
-                  <span className="text-sm font-bold text-cyan-400">
+                  <span className="text-sm font-bold text-gold-400">
                     {currentSlideIndex + 1} / {TEACHING_SLIDES.length}
                   </span>
                 </div>
@@ -900,7 +900,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                         audioManager.play('tap');
                       }}
                       className={`w-3 h-3 rounded-full transition-all ${
-                        currentSlideIndex === idx ? 'bg-cyan-400 scale-125' : 'bg-slate-700 hover:bg-slate-600'
+                        currentSlideIndex === idx ? 'bg-gold-400 scale-125' : 'bg-slate-700 hover:bg-slate-600'
                       }`}
                     />
                   ))}
@@ -913,12 +913,12 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                 return (
                   <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
                     <div className="lg:col-span-7 space-y-4">
-                      <span className="px-3 py-1 rounded-full bg-cyan-950 border border-cyan-700/50 text-cyan-300 text-xs font-semibold">
+                      <span className="px-3 py-1 rounded-full bg-gold-950 border border-gold-700/50 text-gold-300 text-xs font-semibold">
                         {slide.subtitle}
                       </span>
                       <h2 className="text-2xl font-bold text-white">{slide.title}</h2>
                       <p className="text-slate-300 text-sm leading-relaxed">{slide.content}</p>
-                      <div className="p-3 bg-slate-950 rounded-xl border border-indigo-500/30 font-mono text-xs text-indigo-300">
+                      <div className="p-3 bg-slate-950 rounded-xl border border-gold-500/30 font-mono text-xs text-gold-300">
                         🔑 {slide.keyFormula}
                       </div>
                     </div>
@@ -984,7 +984,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                               <span className="text-xs text-slate-400">Object Hand</span>
                               <div className="text-3xl mt-1">✋ (Right)</div>
                             </div>
-                            <div className="h-16 w-1 bg-cyan-400 shadow-md shadow-cyan-400/50" />
+                            <div className="h-16 w-1 bg-gold-400 shadow-md shadow-gold-400/50" />
                             <div className="text-center">
                               <span className="text-xs text-slate-400">Virtual Mirror Image</span>
                               <div className="text-3xl mt-1 scale-x-[-1]">✋ (Left)</div>
@@ -1025,7 +1025,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       {slide.visualType === 'dispersion' && (
                         <div className="w-full space-y-3 text-center">
                           <div className="w-full h-36 bg-slate-900 rounded-lg flex items-center justify-center p-2 border border-slate-800">
-                            <div className="h-6 w-full rounded-md bg-gradient-to-r from-red-500 via-yellow-400 via-green-500 via-blue-500 to-purple-600 shadow-lg flex items-center justify-center text-[10px] font-bold text-slate-950 tracking-wider">
+                            <div className="h-6 w-full rounded-md bg-gradient-to-r from-red-500 via-yellow-400 via-green-500 via-gold-500 to-purple-600 shadow-lg flex items-center justify-center text-[10px] font-bold text-slate-950 tracking-wider">
                               V I B G Y O R
                             </div>
                           </div>
@@ -1064,7 +1064,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       audioManager.play('celebration');
                     }
                   }}
-                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold text-sm shadow-lg shadow-cyan-500/20 hover:brightness-110"
+                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-bold text-sm shadow-lg shadow-gold-500/20 hover:brightness-110"
                 >
                   {currentSlideIndex < TEACHING_SLIDES.length - 1 ? 'Next Visual Slide →' : 'Enter Interactive Optics Lab 🔬'}
                 </button>
@@ -1083,7 +1083,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
             >
               {/* LAB SELECTOR SUB-TABS */}
               <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-3 rounded-2xl border border-slate-800">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Select Experiment Apparatus:</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Select Experiment Apparatus:</span>
                 <div className="flex flex-wrap gap-2">
                   {[
                     { id: 'spherical', label: '🔍 Spherical Mirror Lab' },
@@ -1099,7 +1099,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       }}
                       className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
                         labTab === tab.id
-                          ? 'bg-cyan-500 text-slate-950 font-bold shadow-md shadow-cyan-500/20'
+                          ? 'bg-gold-500 text-slate-950 font-bold shadow-md shadow-gold-500/20'
                           : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                       }`}
                     >
@@ -1127,7 +1127,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                           audioManager.play('pop');
                         }}
                         className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                          mirrorType === 'concave' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+                          mirrorType === 'concave' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
                         }`}
                       >
                         Concave Mirror
@@ -1138,7 +1138,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                           audioManager.play('pop');
                         }}
                         className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                          mirrorType === 'convex' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+                          mirrorType === 'convex' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
                         }`}
                       >
                         Convex Mirror
@@ -1254,7 +1254,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center text-xs">
                         <span className="text-slate-400">Focal Length (f):</span>
-                        <span className="font-bold text-cyan-400">{focalLength} cm</span>
+                        <span className="font-bold text-gold-400">{focalLength} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1266,7 +1266,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                           setFocalLength(Number(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
 
                       <div className="flex justify-between items-center text-xs">
@@ -1288,7 +1288,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     </div>
 
                     <div className="md:col-span-2 bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3 font-mono text-xs">
-                      <div className="text-cyan-300 font-bold flex items-center justify-between border-b border-slate-800 pb-2">
+                      <div className="text-gold-300 font-bold flex items-center justify-between border-b border-slate-800 pb-2">
                         <span>📊 Real-Time Optics Formula Output:</span>
                         <span className="text-[10px] text-slate-400 font-normal">Mirror Formula: 1/f = 1/v + 1/u</span>
                       </div>
@@ -1366,7 +1366,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       <div className="w-full space-y-2 mt-2">
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Adjust Angle of Incidence (∠i):</span>
-                          <span className="font-bold text-cyan-400">{incidentAngle}°</span>
+                          <span className="font-bold text-gold-400">{incidentAngle}°</span>
                         </div>
                         <input
                           type="range"
@@ -1377,7 +1377,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                             setIncidentAngle(Number(e.target.value));
                             audioManager.play('tap');
                           }}
-                          className="w-full accent-cyan-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
                     </div>
@@ -1385,7 +1385,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     {/* Lateral Inversion Text Simulator */}
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-4 flex flex-col justify-between">
                       <div>
-                        <h4 className="text-sm font-bold text-cyan-300 mb-2">Lateral Inversion Live Display</h4>
+                        <h4 className="text-sm font-bold text-gold-300 mb-2">Lateral Inversion Live Display</h4>
                         <p className="text-xs text-slate-400 mb-3">
                           Type text below to see how a plane mirror laterally reverses every character!
                         </p>
@@ -1394,12 +1394,12 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                           value={mirrorText}
                           onChange={(e) => setMirrorText(e.target.value)}
                           maxLength={12}
-                          className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-sm text-cyan-300 font-mono focus:outline-none focus:border-cyan-400"
+                          className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-sm text-gold-300 font-mono focus:outline-none focus:border-gold-400"
                           placeholder="Type word here..."
                         />
                       </div>
 
-                      <div className="p-4 bg-slate-900 rounded-xl border border-cyan-500/30 text-center space-y-2">
+                      <div className="p-4 bg-slate-900 rounded-xl border border-gold-500/30 text-center space-y-2">
                         <p className="text-xs text-slate-400">Virtual Mirror Image (Reversed):</p>
                         <div className="text-2xl font-mono font-bold text-amber-400 scale-x-[-1] inline-block tracking-widest">
                           {mirrorText}
@@ -1419,7 +1419,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-4">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Pinhole Screen Distance:</span>
-                        <span className="font-bold text-cyan-400">{pinholeDistance} cm</span>
+                        <span className="font-bold text-gold-400">{pinholeDistance} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1427,7 +1427,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                         max="100"
                         value={pinholeDistance}
                         onChange={(e) => setPinholeDistance(Number(e.target.value))}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs">
@@ -1446,7 +1446,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
 
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center justify-center text-center space-y-3 font-mono text-xs">
                       <p className="text-slate-400">Calculated Pinhole Image Height:</p>
-                      <p className="text-2xl font-bold text-cyan-300">
+                      <p className="text-2xl font-bold text-gold-300">
                         {((objectHeight * pinholeDistance) / 100).toFixed(1)} cm
                       </p>
                       <p className="text-slate-400 text-[11px]">
@@ -1466,7 +1466,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     {/* Prism Spectrum Canvas */}
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <h4 className="text-sm font-bold text-cyan-300">Prism Light Spectrum Canvas</h4>
+                        <h4 className="text-sm font-bold text-gold-300">Prism Light Spectrum Canvas</h4>
                         <span className="text-xs text-slate-400">VIBGYOR Dispersion</span>
                       </div>
                       <canvas ref={prismCanvasRef} width={420} height={220} className="w-full h-52 bg-slate-950 rounded-lg" />
@@ -1489,7 +1489,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                     {/* Newton Spinning Disc Canvas */}
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3 flex flex-col items-center">
                       <div className="flex items-center justify-between w-full">
-                        <h4 className="text-sm font-bold text-cyan-300">Newton’s Color Recombination Disc</h4>
+                        <h4 className="text-sm font-bold text-gold-300">Newton’s Color Recombination Disc</h4>
                         <span className="text-xs text-slate-400">{discRPM} RPM</span>
                       </div>
 
@@ -1498,7 +1498,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       <div className="w-full space-y-2">
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Spin Velocity (RPM):</span>
-                          <span className="font-bold text-indigo-400">{discRPM} RPM</span>
+                          <span className="font-bold text-gold-400">{discRPM} RPM</span>
                         </div>
                         <input
                           type="range"
@@ -1510,7 +1510,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                             setDiscRPM(Number(e.target.value));
                             if (Number(e.target.value) > 600) audioManager.play('whoosh');
                           }}
-                          className="w-full accent-indigo-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
                       <p className="text-[11px] text-slate-400 text-center">
@@ -1529,7 +1529,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                   setMode('challenges');
                   audioManager.play('celebration');
                 }}
-                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-slate-950 font-black text-base shadow-xl hover:brightness-110"
+                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-gold-500 text-slate-950 font-black text-base shadow-xl hover:brightness-110"
               >
                 Proceed to Competency Diagnostic Challenges ⚡
               </button>
@@ -1548,7 +1548,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               {/* CHALLENGE HEADER BAR */}
               <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
                 <div className="flex items-center space-x-3">
-                  <span className="w-8 h-8 rounded-lg bg-cyan-500/20 text-cyan-300 flex items-center justify-center font-bold text-sm">
+                  <span className="w-8 h-8 rounded-lg bg-gold-500/20 text-gold-300 flex items-center justify-center font-bold text-sm">
                     {currentChallengeIndex + 1}
                   </span>
                   <div>
@@ -1595,7 +1595,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                             value={numericAnswer}
                             onChange={(e) => setNumericAnswer(e.target.value)}
                             placeholder="Enter calculated value..."
-                            className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-lg font-mono text-cyan-300 focus:outline-none focus:border-cyan-400 w-64"
+                            className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-lg font-mono text-gold-300 focus:outline-none focus:border-gold-400 w-64"
                           />
                           <span className="text-sm font-bold text-slate-400">{ch.unit}</span>
                         </div>
@@ -1610,7 +1610,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                             onClick={() => handleChallengeOptionSelect(idx)}
                             className={`p-4 rounded-xl border text-left text-sm transition-all ${
                               selectedOption === idx
-                                ? 'border-cyan-400 bg-cyan-950/40 text-cyan-200 shadow-md shadow-cyan-500/20 font-semibold'
+                                ? 'border-gold-400 bg-gold-950/40 text-gold-200 shadow-md shadow-gold-500/20 font-semibold'
                                 : 'border-slate-800 bg-slate-950 hover:border-slate-700 text-slate-300'
                             }`}
                           >
@@ -1632,7 +1632,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                         onClick={handleChallengeSubmit}
                         className={`w-full py-3.5 rounded-xl font-bold text-base transition-all shadow-lg ${
                           (ch.type === 'numeric' ? numericAnswer : selectedOption !== null)
-                            ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 hover:brightness-110 shadow-cyan-500/25'
+                            ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 hover:brightness-110 shadow-gold-500/25'
                             : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                         }`}
                       >
@@ -1653,7 +1653,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
 
                         <button
                           onClick={handleNextChallenge}
-                          className="w-full py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 text-white font-bold text-base shadow-lg hover:brightness-110"
+                          className="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-500 text-white font-bold text-base shadow-lg hover:brightness-110"
                         >
                           {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Optics Challenge →' : 'Complete Diagnostic Mission 🏆'}
                         </button>
@@ -1674,8 +1674,8 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
               exit={{ opacity: 0 }}
               className="space-y-6 text-center"
             >
-              <div className="bg-slate-900 border border-cyan-500/40 rounded-2xl p-8 shadow-2xl space-y-6 max-w-2xl mx-auto">
-                <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-amber-400 to-cyan-400 flex items-center justify-center text-4xl shadow-lg shadow-cyan-500/30">
+              <div className="bg-slate-900 border border-gold-500/40 rounded-2xl p-8 shadow-2xl space-y-6 max-w-2xl mx-auto">
+                <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-tr from-amber-400 to-gold-400 flex items-center justify-center text-4xl shadow-lg shadow-gold-500/30">
                   🏆
                 </div>
 
@@ -1687,7 +1687,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                 <div className="grid grid-cols-2 gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div>
                     <span className="text-xs text-slate-400 block">Overall Concept Mastery</span>
-                    <span className="text-2xl font-black text-cyan-400">{overallMastery}%</span>
+                    <span className="text-2xl font-black text-gold-400">{overallMastery}%</span>
                   </div>
                   <div>
                     <span className="text-xs text-slate-400 block">Total Diagnostic Score</span>
@@ -1699,7 +1699,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                   <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Mastered Concept Nodes:</h4>
                   <div className="flex flex-wrap gap-2 pt-1">
                     {ALL_NODE_IDS.map((nodeId) => (
-                      <span key={nodeId} className="px-2.5 py-1 rounded-md bg-cyan-950 border border-cyan-700/40 text-[11px] font-mono text-cyan-300">
+                      <span key={nodeId} className="px-2.5 py-1 rounded-md bg-gold-950 border border-gold-700/40 text-[11px] font-mono text-gold-300">
                         {nodeId} ✓
                       </span>
                     ))}
@@ -1722,7 +1722,7 @@ export default function C7_PhysicsLightReflectionMirrorsCBSESim() {
                       setMode('challenges');
                       audioManager.play('whoosh');
                     }}
-                    className="flex-1 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold text-sm shadow-lg hover:brightness-110"
+                    className="flex-1 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-bold text-sm shadow-lg hover:brightness-110"
                   >
                     Replay Challenges
                   </button>

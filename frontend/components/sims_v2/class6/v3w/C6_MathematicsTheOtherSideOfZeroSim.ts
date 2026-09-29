@@ -11,7 +11,7 @@ export const w_c6_mathematicstheothersideofzerosim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Integers',
     chapters: [],
     nodeIds: ['c6_math_ch02_016', 'c6_math_ch07_073', 'c6_math_ch07_078', 'c6_math_ch07_083', 'c6_math_ch11_113', 'c6_math_ch10_105', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021', 'c6_math_ch02_022', 'c6_math_ch02_023', 'c6_math_ch02_024', 'c6_math_ch02_027'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are in an elevator of a building with a basement. When you press the \'0\' button, you are at the.', goal: 'Master Introduction to Integers.' },
     discovery: {
         question: 'What are the three components that make up the set of integers?',
@@ -20,7 +20,7 @@ export const w_c6_mathematicstheothersideofzerosim: SimDef = {
         hook: 'Students often believe that -10 is "bigger" than -1 because 10 is bigger than 1.',
     },
     teaching: [
-        { title: 'Integers are a set of numbers that include.', text: 'Integers are a set of numbers that include all positive counting numbers (1, 2, 3...), their negative counterparts (-1, -2, -3...), and zero.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Integers are a set of numbers that include.', text: 'Integers are a set of numbers that include all positive counting numbers (1, 2, 3...), their negative counterparts (-1, -2, -3...), and zero.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch02_016', title: 'Integers are a set of numbers that.',

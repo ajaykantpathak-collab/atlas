@@ -11,7 +11,7 @@ export const w_c11_physicsresolutionvectorsrectangularsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Addition of Vectors: Analytical Method (Components)',
     chapters: [],
     nodeIds: ['c11_phy_cbse_03_003', 'c11_phy_cbse_03_004', 'c11_phy_cbse_03_001', 'c11_phy_cbse_03_002', 'c11_phy_cbse_03_005', 'c11_phy_cbse_04_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a kite flying at a 40° angle above the horizontal with a string tension of 15 N.', goal: 'Master Addition of Vectors: Analytical Method (Components).' },
     discovery: {
         question: 'State the x- and y-components of a force vector **F** = 20 N acting at an angle of 30° with the positive x-axis. Write the vector in unit vector notation.',
@@ -20,7 +20,7 @@ export const w_c11_physicsresolutionvectorsrectangularsim: SimDef = {
         hook: 'Students often believe that the component of a vector along an axis is "part of the vector" that exists physically as a.',
     },
     teaching: [
-        { title: 'The analytical method of vector addition.', text: 'The analytical method of vector addition resolves each vector into its rectangular components along mutually perpendicular axes (typically x and y), adds the corresponding components algebraically to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The analytical method of vector addition.', text: 'The analytical method of vector addition resolves each vector into its rectangular components along mutually perpendicular axes (typically x and y), adds the corresponding components algebraically to.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_03_003', title: 'The analytical method of vector.',

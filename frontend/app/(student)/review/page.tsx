@@ -86,6 +86,9 @@ export default function ReviewPage() {
     const [revealed, setRevealed] = useState(false)
     const [startedAt, setStartedAt] = useState<number>(Date.now())
     const [loading, setLoading] = useState(true)
+    /** Honest-failure flag: a queue fetch that errored must NOT read as
+     *  "nothing due" — the empty state is reserved for a real empty queue. */
+    const [loadError, setLoadError] = useState(false)
     const [done, setDone] = useState(0)
     /** Instant feedback for the item just graded: the scheduler's verdict. */
     const [verdict, setVerdict] = useState<
@@ -114,8 +117,10 @@ export default function ReviewPage() {
             setRevealed(false)
             setVerdict(null)
             setStartedAt(Date.now())
+            setLoadError(false)
         } catch {
             setQueue([])
+            setLoadError(true)
         } finally {
             setLoading(false)
         }
@@ -220,6 +225,25 @@ export default function ReviewPage() {
 
                 {loading ? (
                     <div className="glass-card p-12 animate-pulse h-64" />
+                ) : loadError ? (
+                    <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="glass-card p-10 text-center"
+                    >
+                        <RotateCcw className="w-10 h-10 mx-auto mb-4 text-surface-500" />
+                        <h2 className="font-display text-xl font-semibold text-white mb-2">
+                            Couldn&apos;t load your review queue
+                        </h2>
+                        <p className="text-sm text-surface-600 mb-6">
+                            The scheduler didn&apos;t answer — nothing was rescheduled.
+                            Check your connection and try again.
+                        </p>
+                        <button onClick={load} className="btn-primary px-6 py-2.5 inline-flex items-center gap-2">
+                            <RotateCcw className="w-4 h-4" />
+                            Retry
+                        </button>
+                    </motion.div>
                 ) : !item ? (
                     <motion.div
                         initial={{ opacity: 0, y: 10 }}

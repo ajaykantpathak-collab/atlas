@@ -15,7 +15,9 @@ export const C11_MATH_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "maths",
   "topic": "Set A Is a Subset Of Set B",
-  "chapters": ["Mathematics Ch1: Set A Is a Subset Of Set B"],
+  "chapters": [
+   "Mathematics Ch1: Set A Is a Subset Of Set B"
+  ],
   "nodeIds": [
    "c11_math_cbse_01_004",
    "c11_math_cbse_01_012",
@@ -51,7 +53,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Word Problems On Set Operations Involve",
+    "title": "Word Problems On Set Operations",
     "text": "Word problems on set operations involve translating real-world scenarios involving collections of objects (people, items, outcomes) into mathematical statements using set notation (union, intersection, difference, complement) and solving for unknown",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -212,7 +214,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families",
      "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B"
     ],
-    "hint": "Straight from the 'set A' slide -- match the key terms.",
+    "hint": "Straight from the 'set A is a subset of set B' slide -- match the key terms.",
     "misconception": "A wrong answer that calls this a contradiction of transitivity shows the student has missed that the law needs both premises, and a false second premise ends the argument.",
     "id": "gen_c11_math_ch01_q4",
     "nodeId": "c11_math_cbse_01_004",
@@ -227,7 +229,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families",
      "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement"
     ],
-    "hint": "Straight from the 'complement of a set \\ with' slide -- match the key terms.",
+    "hint": "Straight from the 'complement of a set A with' slide -- match the key terms.",
     "misconception": "A wrong answer that keeps the union on the right shows the student has swapped the two De Morgan identities from memory.",
     "id": "gen_c11_math_ch01_q5",
     "nodeId": "c11_math_cbse_01_012",
@@ -252,7 +254,7 @@ export const C11_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about set a?",
+    "What surprised you about set a is a subset of set b?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -343,7 +345,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Example: R = {(Delhi,10), (Mumbai,20)}. Hindi = {Delhi, Mumbai}, Range = {10,20}, Codomain = {10,20,30,40}",
      "Example: R = {(Delhi,10), (Mumbai,20)}. Domain = {Delhi, Mumbai}, Range = {10,20}, Codomain = {10,20,30,40}"
     ],
-    "hint": "Straight from the 'For a relation R from' slide -- match the key terms.",
+    "hint": "Straight from the 'For a relation R' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., using all three cities, or having range size 3) shows they cannot control the size of domain/range independently of the codomain.",
     "id": "gen_c11_math_ch02_q2",
     "nodeId": "c11_math_cbse_02_004",
@@ -524,8 +526,8 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "State the Principle of Mathematical Induction precisely, naming the two required conditions and the conclusion.",
     "answer": "Let P(n) be a statement involving natural number n. If (i) P(1) is true, and (ii) for every k ∈ ℕ, P(k) ⇒ P(k+1) is true, then P(n) is true for all n ∈ ℕ",
     "options": [
-     "The three steps are: (1) Base Case: Verify P(n₀) is true for the smallest integer n₀. (2) Inductive Hypothesis: Assume P(k) is true for an arbitrary but fixed integer k ≥ n₀, i",
-     "The Principle of Mathematical Induction: To prove a statement P(n) for all natural numbers n, (1) prove P(1) is true (base case)",
+     "The induction hypothesis is: Assume the formula holds for some arbitrary natural number k, i.e., 1 + 2 + 3 + ... + k = k(k+1)/2",
+     "The student can articulate the two-step structure of mathematical induction in their own words",
      "Let P(n) be a statement involving natural number n. If (i) P(1) is true, and (ii) for every k ∈ ℕ, P(k) ⇒ P(k+1) is true, then P(n) is true for all n ∈ ℕ"
     ],
     "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
@@ -545,8 +547,8 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "State the exact algebraic step required to verify the base case for the statement: P(n): 1 + 3 + 5 + ... + (2n-1) = n².",
     "answer": "Substitute n = 1 into both sides: LHS = 1 (the first term when n=1), RHS = 1² = 1. Since LHS = RHS, P(1) is true",
     "options": [
-     "The inductive hypothesis is: \"Assume P(k) is true for some arbitrary but fixed k ∈ ℕ.\" The variable k represents an arbitrary natural number",
-     "The Principle of Mathematical Induction: To prove a statement P(n) for all natural numbers n, (1) prove P(1) is true (base case)",
+     "The two conditions are: (1) Base case: \\( P(1) \\) is true, i.e., \\( f(1) \\) is divisible by \\( m \\)",
+     "The student can independently identify the statement P(n) for a given problem, correctly verify the base case, formulate the inductive hypothesis P(k)",
      "Substitute n = 1 into both sides: LHS = 1 (the first term when n=1), RHS = 1² = 1. Since LHS = RHS, P(1) is true"
     ],
     "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
@@ -618,8 +620,8 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "What is the induction hypothesis when proving the formula for the sum of the first n natural numbers, 1 + 2 + 3 + ... + n = n(n+1)/2?",
     "answer": "The induction hypothesis is: Assume the formula holds for some arbitrary natural number k, i.e., 1 + 2 + 3 + ... + k = k(k+1)/2",
     "options": [
-     "Let P(n) be a statement involving natural number n. If (i) P(1) is true, and (ii) for every k ∈ ℕ, P(k) ⇒ P(k+1) is true, then P(n) is true for all n ∈ ℕ",
-     "Substitute n = 1 into both sides: LHS = 1 (the first term when n=1), RHS = 1² = 1. Since LHS = RHS, P(1) is true",
+     "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for all natural numbers n",
+     "The inductive hypothesis is: \"Assume P(k) is true for some arbitrary but fixed k ∈ ℕ.\" The variable k represents an arbitrary natural number",
      "The induction hypothesis is: Assume the formula holds for some arbitrary natural number k, i.e., 1 + 2 + 3 + ... + k = k(k+1)/2"
     ],
     "hint": "Straight from the 'Proving summation formulas by' slide -- match the key terms.",
@@ -640,7 +642,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "answer": "The two conditions are: (1) Base case: \\( P(1) \\) is true, i.e., \\( f(1) \\) is divisible by \\( m \\)",
     "options": [
      "The Principle of Mathematical Induction: To prove a statement P(n) for all natural numbers n, (1) prove P(1) is true (base case)",
-     "Let P(n) be a statement involving natural number n. If (i) P(1) is true, and (ii) for every k ∈ ℕ, P(k) ⇒ P(k+1) is true, then P(n) is true for all n ∈ ℕ",
+     "The student can articulate the two-step structure of mathematical induction in their own words",
      "The two conditions are: (1) Base case: \\( P(1) \\) is true, i.e., \\( f(1) \\) is divisible by \\( m \\)"
     ],
     "hint": "Straight from the 'Proving divisibility by' slide -- match the key terms.",
@@ -712,8 +714,8 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "State the precise logical structure of the inductive hypothesis in a standard mathematical induction proof. What exactly do we assume, and for which values?",
     "answer": "The inductive hypothesis assumes that the statement P(k) is true for some arbitrary but fixed natural number k (k ≥ base case)",
     "options": [
-     "The Principle of Mathematical Induction: To prove a statement P(n) for all natural numbers n, (1) prove P(1) is true (base case)",
-     "Let P(n) be a statement involving natural number n. If (i) P(1) is true, and (ii) for every k ∈ ℕ, P(k) ⇒ P(k+1) is true, then P(n) is true for all n ∈ ℕ",
+     "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for every natural number n ∈ ℕ",
+     "Student can independently structure a complete induction proof for inequalities including: identifying the correct base case (which may not be n=1)",
      "The inductive hypothesis assumes that the statement P(k) is true for some arbitrary but fixed natural number k (k ≥ base case)"
     ],
     "hint": "Straight from the 'Common pitfalls in mathematical' slide -- match the key terms.",
@@ -806,8 +808,8 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "State the general form of a quadratic inequality in one variable and write the condition on the leading coefficient for the parabola to open upward.",
     "answer": "The general form is \\(ax^2 + bx + c > 0\\) (or \\(<, \\geq, \\leq\\)) with \\(a, b, c \\in \\mathbb{R}, a \\neq 0\\). The parabola opens upward when \\(a > 0\\)",
     "options": [
-     "The two conditions are: (1) Base case: \\( P(1) \\) is true, i.e., \\( f(1) \\) is divisible by \\( m \\)",
-     "The three steps are: (1) Base Case: Verify P(n₀) is true for the smallest integer n₀. (2) Inductive Hypothesis: Assume P(k) is true for an arbitrary but fixed integer k ≥ n₀, i",
+     "Students treat the inductive hypothesis as \"P(k) is true for all k\" rather than \"P(k) is true for some arbitrary but fixed k\"",
+     "The student can articulate the two-step structure of mathematical induction in their own words",
      "The general form is \\(ax^2 + bx + c > 0\\) (or \\(<, \\geq, \\leq\\)) with \\(a, b, c \\in \\mathbb{R}, a \\neq 0\\). The parabola opens upward when \\(a > 0\\)"
     ],
     "hint": "Straight from the 'quadratic inequality in one' slide -- match the key terms.",
@@ -899,48 +901,47 @@ export const C11_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student verifies the base case for P(n): 1² + 2² + ... + n² = n(n+1)(2n+1)/6 by writing: \"For n=1, LHS = 1² = 1, RHS = 1(2)(3)/6 = 1. So true.\" Identify if this is sufficient for full marks in CBSE board exam and justify.",
-    "answer": "The working is mathematically correct but incomplete for board exams. CBSE requires explicit statement: \"P(1) is true\" or \"Hence the statement holds for n=1",
+    "question": "What common mix-up does this lesson flag about Mathematical induction?",
+    "answer": "Students treat the inductive hypothesis as \"P(k) is true for all k\" rather than \"P(k) is true for some arbitrary but fixed k\"",
     "options": [
-     "Base case (n=1): \\( 5^{3} + 3^{2} \\cdot 2^{0} = 125 + 9 = 134 = 19 \\times 7 \\). True. Inductive hypothesis: Assume for \\( n=k \\)",
-     "Base case (n=1): Sum of first 1 odd number = 1 = 1². True. Inductive hypothesis: Assume 1 + 3 + 5 + ",
-     "The working is mathematically correct but incomplete for board exams. CBSE requires explicit statement: \"P(1) is true\" or \"Hence the statement holds for n=1"
+     "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for all natural numbers n",
+     "The student can identify and correct at least five distinct common errors in flawed induction proofs, and can construct a complete, rigorous induction proof for summation",
+     "Students treat the inductive hypothesis as \"P(k) is true for all k\" rather than \"P(k) is true for some arbitrary but fixed k\""
     ],
-    "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The working is mathematically correct but incomplete for board exams.",
+    "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students treat the inductive hypothesis as \"P(k) is true for all k\" rather than \"P(k) is true for some arbitrary but",
     "id": "gen_c11_math_ch04_q16",
-    "nodeId": "c11_math_cbse_04_002",
+    "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Create a statement P(n) involving a summation where the base case n=1 gives LHS = 0 and RHS = 0, and explain why this is a valid (though trivial) base case.",
-    "answer": "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: LHS = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0",
+    "question": "What is Mathematical induction? State the definition given in this lesson.",
+    "answer": "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for every natural number n ∈ ℕ",
     "options": [
-     "Base case (n=1): \\( 5^{3} + 3^{2} \\cdot 2^{0} = 125 + 9 = 134 = 19 \\times 7 \\). True. Inductive hypothesis: Assume for \\( n=k \\)",
-     "Statement: \\( 4^n + 15n - 1 \\) is divisible by 9 for all \\( n \\in \\mathbb{N} \\). (Not exactly \\( a^n + b^n \\) but a valid divisibility induction problem",
-     "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: However = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0",
-     "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: LHS = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0"
+     "The Principle of Mathematical Induction: To prove a statement P(n) for all natural numbers n, (1) prove P(1) is true (base case)",
+     "The student can independently verify the base case for any given induction problem by correctly substituting n = 1, simplifying both sides using algebraic rules",
+     "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for every natural number n ∈ ℕ"
     ],
-    "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
-    "misconception": "A poor answer would create a statement where n=1 is not in the domain (e.g., \"for n≥2\") or where the series notation is ambiguous. This tests understanding of summation notation from c9_math_ch8_1 and the concept that 0=0 is a true equality.",
+    "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for every natural",
     "id": "gen_c11_math_ch04_q17",
-    "nodeId": "c11_math_cbse_04_002",
+    "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Evaluate this base case verification for P(n): n(n+1)(n+2) is divisible by 6. Student writes: \"For n=1, 1×2×3 = 6. 6/6 = 1. So divisible.\" Is this fully correct? If not, what is missing?",
-    "answer": "The computation is correct but the reasoning is incomplete. \"6/6 = 1\" shows the quotient is integer, but the student should explicitly state: \"6 = 6 × 1, where 1 ∈ ℤ",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can articulate the two-step structure of mathematical induction in their own words",
     "options": [
-     "We are not proving P(k); we are proving the implication P(k) ⇒ P(k+1). In logic, to prove \"if A then B\", we temporarily assume A and deduce B",
-     "The induction hypothesis gives us the fact that \\( f(k) \\) is a multiple of \\( m \\). By writing \\( f(k+1) = f(k) + m \\cdot g(k) \\)",
-     "The computation is correct but the reasoning is incomplete. \"6/6 = 1\" shows the quotient is integer, but the student should explicitly state: \"6 = 6 × 1, where 1 ∈ ℤ"
+     "The induction hypothesis is: Assume the formula holds for some arbitrary natural number k, i.e., 1 + 2 + 3 + ... + k = k(k+1)/2",
+     "Proving summation formulas by induction is the process of establishing that a closed-form expression for the sum of a sequence of terms holds for all natural numbers n by",
+     "The student can articulate the two-step structure of mathematical induction in their own words"
     ],
-    "hint": "Straight from the 'base case in mathematical' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The computation is correct but the reasoning is incomplete. \"6/6 = 1\" shows the quotient is integer, but the student",
+    "hint": "Straight from the 'Mathematical induction' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can articulate the two-step structure of mathematical induction in their own words, correctly identify the",
     "id": "gen_c11_math_ch04_q18",
-    "nodeId": "c11_math_cbse_04_002",
+    "nodeId": "c11_math_cbse_04_001",
     "difficulty": "standard"
    }
   ],
@@ -956,13 +957,17 @@ export const C11_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_math_ch11",
-  "title": "Distance Between Two Points",
+  "title": "Distance Between Two Points P And Q",
   "subtitle": "Mathematics · Chapter 11",
   "classLevel": 11,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Distance Between Two Points",
-  "chapters": ["Mathematics Ch9: Distance Between Two Points", "Mathematics Ch10: Distance Between Two Points", "Mathematics Ch11: Distance Between Two Points"],
+  "topic": "Distance Between Two Points P And Q In The Cartesian",
+  "chapters": [
+   "Mathematics Ch9: Distance Between Two Points P And Q In The Cartesian",
+   "Mathematics Ch10: Distance Between Two Points P And Q In The Cartesian",
+   "Mathematics Ch11: Distance Between Two Points P And Q In The Cartesian"
+  ],
   "nodeIds": [
    "c11_math_cbse_10_002",
    "c11_math_cbse_09_003",
@@ -978,7 +983,7 @@ export const C11_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Distance Between Two Points suddenly stops working?",
+   "question": "What happens if Distance Between Two Points P And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -995,7 +1000,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "The Sum Of The First",
+    "title": "The Sum Of The First n",
     "text": "The sum of the first n terms of an Arithmetic Progression (AP) with first term a and common difference d is given by S_n = n/2 [2a + (n-1)d]. Equivalently, if the last term (nth term) is denoted by l, then S_n = n/2 (a + l).",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500",
@@ -1008,13 +1013,13 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Parabola",
+    "title": "A Parabola Is The Set",
     "text": "A parabola is the set of all points in a plane that are equidistant from a fixed point (focus) and a fixed line (directrix). For the standard parabola \\(y^2 = 4ax\\) (opening right, \\(a>0\\)), the focus is \\(F(a,0)\\), the directrix is the line \\(x = -a\\), and",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Ellipse",
+    "title": "An Ellipse Is The Set",
     "text": "An ellipse is the set of all points in a plane such that the sum of their distances from two fixed points (called foci) is a constant greater than the distance between the foci.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1139,7 +1144,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\)",
      "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)"
     ],
-    "hint": "Straight from the 'parabola' slide -- match the key terms.",
+    "hint": "Straight from the 'A parabola is the set' slide -- match the key terms.",
     "misconception": "A poor answer would give an equation not in standard form or misplace the focus, showing lack of understanding of the reflective property.",
     "id": "gen_c11_math_ch11_q4",
     "nodeId": "c11_math_cbse_11_005",
@@ -1160,7 +1165,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
      "Example problem: \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart"
     ],
-    "hint": "Straight from the 'ellipse' slide -- match the key terms.",
+    "hint": "Straight from the 'An ellipse is the set' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., using \\(a=10, c=26\\) or giving a circle equation) reveals the student cannot translate the verbal description into the parameters \\(a, b, c\\) and their geometric meanings.",
     "id": "gen_c11_math_ch11_q5",
     "nodeId": "c11_math_cbse_11_006",
@@ -1202,7 +1207,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm)",
      "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55"
     ],
-    "hint": "Straight from the 'The sum of the first' slide -- match the key terms.",
+    "hint": "Straight from the 'The sum of the first n' slide -- match the key terms.",
     "misconception": "A wrong answer of 45 shows the student paired only the outer terms and forgot the middle term counts half a pair.",
     "id": "gen_c11_math_ch11_q7",
     "nodeId": "c11_math_cbse_09_003",
@@ -1217,7 +1222,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Ellipse: Ray from one focus reflects to the other focus. Parabola: Ray parallel to axis reflects to focus (or vice versa)",
      "The contrast runs: (1) Form the right triangle with legs 3 and 4 between the points (2) Apply Pythagoras to get the straight-line distance of 5 units (3) Add the legs directly to"
     ],
-    "hint": "Straight from the 'distance between two points \\\\)' slide -- match the key terms.",
+    "hint": "Straight from the 'distance between two points P and' slide -- match the key terms.",
     "misconception": "A wrong answer that treats the two distances as equal shows the student has confused the Pythagorean theorem with simple addition of leg lengths.",
     "id": "gen_c11_math_ch11_q8",
     "nodeId": "c11_math_cbse_10_002",
@@ -1226,11 +1231,11 @@ export const C11_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about distance between two points?",
+    "What surprised you about distance between two points p and q in the cartesian?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Distance Between Two Points mastered! 🎯",
+  "successLine": "Distance Between Two Points P mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -1288,7 +1293,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Midpoint Of a Line",
+    "title": "The Midpoint Of a Line Segment",
     "text": "The midpoint of a line segment joining two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in three-dimensional space is the point M that divides the segment internally in the ratio 1:1.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500",
@@ -1381,7 +1386,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Yes, the statement is correct. By definition, the midpoint divides the segment into two equal parts, so AM = MB",
      "The midpoint's x-coordinate is (x₁+x₂)/2. To maximize this, we need the pair with the largest sum of x-coordinates"
     ],
-    "hint": "Straight from the 'The midpoint of a line' slide -- match the key terms.",
+    "hint": "Straight from the 'The midpoint of a line segment' slide -- match the key terms.",
     "misconception": "A wrong answer choosing B and C shows the student compared individual x-values (6 and 0) instead of sums. A wrong answer choosing A and C shows the student misunderstood \"largest x-coordinate of midpoint\" as \"largest individual x-coordinate\".",
     "id": "gen_c11_math_ch12_q4",
     "nodeId": "c11_math_cbse_12_004",
@@ -1535,7 +1540,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "The solution is correct. PA² = (0-1)² + (0-2)² + (z-3)² = 1 + 4 + (z-3)² = 5 + (z-3)². PB² = (0-4)² + (0-5)² + (z-6)² = 16 + 25 + (z-6)² = 41 + (z-6)². Equating gives z = 10.5",
      "Yes, the statement is correct. By definition, the midpoint divides the segment into two equal parts, so AM = MB"
     ],
-    "hint": "Straight from the 'The midpoint of a line' slide -- match the key terms.",
+    "hint": "Straight from the 'The midpoint of a line segment' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"only true in 2D\" reveals the student thinks 3D distance behaves differently. A wrong answer saying \"only true if coordinates are positive\" reveals confusion about coordinate signs not affecting distances.",
     "id": "gen_c11_math_ch12_q13",
     "nodeId": "c11_math_cbse_12_004",
@@ -1550,7 +1555,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "Check if vectors AB and DC are equal, or diagonals bisect each other. AB = (3, 3, 3). If ABCD is a parallelogram, midpoint of AC = midpoint of BD",
      "Example problem: \"A drone flies from point A(100, 50, 200) to point B(300, 150, 400) in metres (x=east, y=north, z=altitude)"
     ],
-    "hint": "Straight from the 'The midpoint of a line' slide -- match the key terms.",
+    "hint": "Straight from the 'The midpoint of a line segment' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example problem: \"A drone flies from point A(100, 50, 200) to point B(300, 150, 400) in metres (x=east, y=north,",
     "id": "gen_c11_math_ch12_q14",
     "nodeId": "c11_math_cbse_12_004",
@@ -1684,7 +1689,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Implication",
+    "title": "Implications: If-Then Statements",
     "text": "An implication (if-then statement) is a compound statement of the form \"If p, then q\" denoted symbolically as p → q, where p is the hypothesis (antecedent) and q is the conclusion (consequent).",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1702,7 +1707,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Quantifier",
+    "title": "A Quantifier Is a Logical Symbol",
     "text": "A quantifier is a logical symbol that specifies the quantity of elements in a domain for which a predicate (open statement) holds true. The universal quantifier ∀ (read as \"for all\" or \"for every\") asserts that a predicate is true for every element in the",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1721,7 +1726,7 @@ export const C11_MATH_GEN: SimDef[] = [
     "answer": "(b) \"The sum of interior angles of a triangle is 180°.\" This is a declarative sentence with a definite truth value (true)",
     "options": [
      "The compound statement is FALSE. Component statements: p: \"2 + 2 = 4\" (TRUE), q: \"3 × 3 = 10\" (FALSE)",
-     "The four methods are: (1) Direct Method, (2) Contrapositive Method, (3) Method of Contradiction, (4) Using a Counterexample",
+     "Validating a statement means determining its truth value (true or false) using logical reasoning",
      "(b) \"The sum of interior angles of a triangle is 180°.\" This is a declarative sentence with a definite truth value (true)"
     ],
     "hint": "Straight from the 'mathematical statement' slide -- match the key terms.",
@@ -1810,16 +1815,47 @@ export const C11_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Write the truth table for the implication p → q. In which row(s) is the implication false?",
-    "answer": "The truth table for p → q: | p | q | p → q | |---|---|-------| | T | T | T | | T | F | F | | F | T | T | | F | F | T | The implication is FALSE only in the second row (p true",
-    "options": [
-     "(a) TRUE: For n=1, 1²=1≥1; for n≥2, n²≥2n>n. (b) FALSE: No natural number satisfies n²<n (since n≥1 implies n²≥n)",
-     "Example TRUE statement: ∀n∈ℤ, ∃m∈ℤ, m = n + 1 (every integer has a successor). Example FALSE statement: ∃m∈ℤ, ∀n∈ℤ",
-     "The truth table for p → q: | p | q | p → q | |---|---|-------| | T | T | T | | T | F | F | | F | T | T | | F | F | T | The implication is FALSE only in the second row (p true"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Distinguish between implication",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Translate natural language statements",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Construct and interpret the truth table for",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'implication' slide -- match the key terms.",
-    "misconception": "A wrong answer where a student marks row 3 or 4 as false reveals the misconception that \"false hypothesis makes implication false\" — they are confusing implication with everyday causal reasoning where \"if it rains, the ground gets wet\" feels wrong if it doesn't rain but ground is wet.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Translate natural language statements into symbolic implication form p → q and identify",
     "id": "gen_c11_math_ch14_q4",
     "nodeId": "c11_math_cbse_14_004",
     "difficulty": "standard",
@@ -1976,7 +2012,7 @@ export const C11_MATH_GEN: SimDef[] = [
      "The negation is: \"The number x is not even OR x is not greater than 10\" (i.e., x is odd or x ≤ 10)",
      "Domain: ℤ (integers). Predicate: P(x) = \"x is even or x is odd\". Symbolic form: ∀x∈ℤ, P(x) or ∀x∈ℤ, (x is even ∨ x is odd)"
     ],
-    "hint": "Straight from the 'quantifier' slide -- match the key terms.",
+    "hint": "Straight from the 'A quantifier is a logical symbol' slide -- match the key terms.",
     "misconception": "A wrong answer like ∃x∈ℤ, P(x) reveals the student confuses \"every\" (universal) with \"some\" (existential). Writing just ∀x, P(x) without specifying the domain ℤ reveals the student doesn't understand that the domain must be explicitly stated for the statement to be mathematically precise.",
     "id": "gen_c11_math_ch14_q7",
     "nodeId": "c11_math_cbse_14_007",
@@ -1993,9 +2029,9 @@ export const C11_MATH_GEN: SimDef[] = [
     "question": "State the contrapositive of the implication: \"If a number is divisible by 6, then it is divisible by 3.\" Write it in words and in symbolic form (p → q).",
     "answer": "Contrapositive: \"If a number is NOT divisible by 3, then it is NOT divisible by 6.\" Symbolically: ~q → ~p",
     "options": [
-     "The four methods are: (1) Direct Method, (2) Contrapositive Method, (3) Method of Contradiction, (4) Using a Counterexample",
-     "(b) \"The sum of interior angles of a triangle is 180°.\" This is a declarative sentence with a definite truth value (true)",
-     "Contrapositive: \"If a number is NOT divisible by 3, then it is NOT divisible by 6.\" Statement: ~q → ~p",
+     "The student can: (1) Translate natural language statements into symbolic implication form p → q and identify hypothesis/consequent correctly",
+     "The student can correctly write the negation of any simple or compound statement (including those with quantifiers) in natural language and symbolic form",
+     "Contrapositive: \"If a number is NOT divisible by 3, then it is NOT divisible by 6.\" Let: ~q → ~p",
      "Contrapositive: \"If a number is NOT divisible by 3, then it is NOT divisible by 6.\" Symbolically: ~q → ~p"
     ],
     "hint": "Straight from the 'Applications of Mathematical' slide -- match the key terms.",
@@ -2087,6 +2123,21 @@ export const C11_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can correctly classify any given sentence as a statement or non-statement, justify the classification by referencing the requirement of a definite truth value",
+    "options": [
+     "Student can correctly construct truth tables for compound statements with \"and\" and \"or\", determine truth values of compound statements given truth values of components",
+     "The student can: (1) Translate natural language statements into symbolic implication form p → q and identify hypothesis/consequent correctly",
+     "The student can correctly classify any given sentence as a statement or non-statement, justify the classification by referencing the requirement of a definite truth value"
+    ],
+    "hint": "Straight from the 'mathematical statement' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can correctly classify any given sentence as a statement or non-statement, justify the classification by",
+    "id": "gen_c11_math_ch14_q14",
+    "nodeId": "c11_math_cbse_14_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student writes the negation of \"Some integers are negative\" as \"Some integers are not negative.\" Is this correct? Justify your answer.",
     "answer": "No, it is incorrect. \"Some integers are negative\" means \"There exists an integer that is negative.\" Its negation is \"No integer is negative\" or \"All integers are non-negative",
     "options": [
@@ -2096,7 +2147,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'negation of a statement p,' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, it is incorrect. \"Some integers are negative\" means \"There exists an integer that is negative.",
-    "id": "gen_c11_math_ch14_q14",
+    "id": "gen_c11_math_ch14_q15",
     "nodeId": "c11_math_cbse_14_002",
     "difficulty": "standard"
    },
@@ -2111,7 +2162,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'negation of a statement p,' slide -- match the key terms.",
     "misconception": "A wrong answer like \"For every real number x, x^2 < 0\" reveals the student negated the predicate but kept the universal quantifier.",
-    "id": "gen_c11_math_ch14_q15",
+    "id": "gen_c11_math_ch14_q16",
     "nodeId": "c11_math_cbse_14_002",
     "difficulty": "standard"
    },
@@ -2126,7 +2177,7 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'negation of a statement p,' slide -- match the key terms.",
     "misconception": "A student who tries to create such an example reveals they do not grasp the law of excluded middle or think truth values depend on external facts rather than logical structure.",
-    "id": "gen_c11_math_ch14_q16",
+    "id": "gen_c11_math_ch14_q17",
     "nodeId": "c11_math_cbse_14_002",
     "difficulty": "standard"
    },
@@ -2141,21 +2192,6 @@ export const C11_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'negation of a statement p,' slide -- match the key terms.",
     "misconception": "A wrong answer stating ∼p is false reveals the student thinks negation preserves truth value or confuses the statement's content with its truth value.",
-    "id": "gen_c11_math_ch14_q17",
-    "nodeId": "c11_math_cbse_14_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Write the negation of the compound statement: \"The number x is even and x is greater than 10.\" Use De Morgan's law conceptually.",
-    "answer": "The negation is: \"The number x is not even OR x is not greater than 10\" (i.e., x is odd or x ≤ 10)",
-    "options": [
-     "(i) Statement, false (2 is prime and even). (ii) Statement, false (no real number squares to -1). (iii) Not a statement (imperative/command)",
-     "Negation: \"There exists a real number x such that x^2 < 0.\" This negation is false because the original statement is true (square of any real number is non-negative)",
-     "The negation is: \"The number x is not even OR x is not greater than 10\" (i.e., x is odd or x ≤ 10)"
-    ],
-    "hint": "Straight from the 'negation of a statement p,' slide -- match the key terms.",
-    "misconception": "A wrong answer \"x is not even and x is not greater than 10\" reveals the student did not switch 'and' to 'or' when negating a conjunction.",
     "id": "gen_c11_math_ch14_q18",
     "nodeId": "c11_math_cbse_14_002",
     "difficulty": "standard"

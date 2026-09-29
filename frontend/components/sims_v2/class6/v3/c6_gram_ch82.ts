@@ -24,7 +24,7 @@ export const c6_gram_ch82: SimDef = {
             { id: 's3', label: 'Past and future have matching', prompt: 'Which idea is this? — Past and future have matching pairs: simple past for finished actions (\'She danced.', answer: 'Past and future have matching', options: ['Past and future have matching', 'A verb is the engine', 'Present tense has two gears'] }
           ] } },
         { type: 'build', nodeId: 'c6_gram_cbse_82_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Ask which word carries the action or the being.', 'Check for helpers (is/was/will/has) — they ride with the.', 'Match the gear: -ed/past form = past, will+base = future.'], answer: 'Ask which word carries the action or the being. Check for helpers (is/was/will/has) — they ride with the. Match the gear: -ed/past form = past, will+base = future.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Match the gear: -ed/past form = past, will+base = future.', 'Check for helpers (is/was/will/has) — they ride with the.', 'Ask which word carries the action or the being.'], answer: 'Ask which word carries the action or the being. Check for helpers (is/was/will/has) — they ride with the. Match the gear: -ed/past form = past, will+base = future.' } },
         { type: 'case', nodeId: 'c6_gram_cbse_82_003', title: 'You made it',
           caseStudy: { intro: 'You finished A verb is the engine word — it names an action. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

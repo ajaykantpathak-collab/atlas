@@ -11,7 +11,7 @@ export const w_c10_mathematicscoordinategeometrysim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Section Formula: Finding the Midpoint',
     chapters: [],
     nodeIds: ['c10_math_cbse_07_005', 'c10_math_cbse_07_006', 'c10_math_cbse_07_007', 'c10_math_cbse_07_008', 'c10_math_cbse_07_009', 'c10_math_cbse_06_007', 'c10_math_cbse_06_009', 'c10_math_cbse_06_011', 'c10_math_cbse_10_003', 'c10_math_cbse_10_006', 'c10_math_cbse_10_008', 'c10_math_cbse_10_010', 'c10_math_cbse_11_010', 'c10_math_cbse_07_001', 'c10_math_cbse_07_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a rectangular garden plot for your school\'s eco-club.', goal: 'Master Section Formula: Finding the Midpoint.' },
     discovery: {
         question: 'Points A(2, 3), B(6, 7), C(8, 3), and D(4, -1) form a quadrilateral.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicscoordinategeometrysim: SimDef = {
         hook: 'Students often treat the midpoint formula as (x₂ - x₁)/2, (y₂ - y₁)/2 (i.e., half the difference) instead of (x₁ +.',
     },
     teaching: [
-        { title: 'The midpoint of a line segment joining two.', text: 'The midpoint of a line segment joining two points A(x₁, y₁) and B(x₂, y₂) is the point M(x, y) that divides the segment internally in the ratio 1:1.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The midpoint of a line segment joining two.', text: 'The midpoint of a line segment joining two points A(x₁, y₁) and B(x₂, y₂) is the point M(x, y) that divides the segment internally in the ratio 1:1.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_07_005', title: 'The midpoint of a line segment joining.',

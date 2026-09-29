@@ -11,7 +11,7 @@ export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
     classLevel: 9, subject: 'history', topic: 'Democracy: Definition and Core Principles',
     chapters: [],
     nodeIds: ['c9_civ_ch1_1', 'c9_civ_ch1_3', 'c9_civ_ch2_1'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are reading a news report about a country that holds regular elections but the opposition leaders.', goal: 'Master Democracy: Definition and Core Principles.' },
     discovery: {
         question: 'A country holds elections every five years with universal adult franchise.',
@@ -20,7 +20,7 @@ export const w_c9_historycivicsdefinitionconstitutionsignificancesim: SimDef = {
         hook: 'Students often think "democracy = majority rule" and therefore believe that if a government wins an election with 51%.',
     },
     teaching: [
-        { title: 'Democracy is a system of government in which.', text: 'Democracy is a system of government in which supreme political power is vested in the people, who exercise it either directly or through freely elected representatives, under a constitutional.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Democracy is a system of government in which.', text: 'Democracy is a system of government in which supreme political power is vested in the people, who exercise it either directly or through freely elected representatives, under a constitutional.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_civ_ch1_1', title: 'Democracy is a system of government in.',

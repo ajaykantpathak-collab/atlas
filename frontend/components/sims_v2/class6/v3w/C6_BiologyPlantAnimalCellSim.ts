@@ -11,7 +11,7 @@ export const w_c6_biologyplantanimalcellsim: SimDef = {
     classLevel: 6, subject: 'biology', topic: 'How Do Plants Grow? From Seed to Tree',
     chapters: [],
     nodeIds: ['c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_001', 'c6_biology_ch09_002', 'c6_biology_ch09_005', 'c6_biology_ch09_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered if a tree "breathes" while you are sleeping at night?', goal: 'Master How Do Plants Grow? From Seed to Tree.' },
     discovery: {
         question: 'Why does the body need accessory organs like the liver and pancreas if we already have a long muscular tube?',
@@ -20,7 +20,7 @@ export const w_c6_biologyplantanimalcellsim: SimDef = {
         hook: 'Students often believe that "digestion" only happens in the stomach.',
     },
     teaching: [
-        { title: 'Plant respiration is the process by which.', text: 'Plant respiration is the process by which all living plant cells take in oxygen and release carbon dioxide to break down food and release energy required for survival.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Plant respiration is the process by which.', text: 'Plant respiration is the process by which all living plant cells take in oxygen and release carbon dioxide to break down food and release energy required for survival.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_biology_ch10_004', title: 'Plant respiration is the process by.',

@@ -39,7 +39,7 @@ const TEACHING_SLIDES = [
     title: 'The Respiratory System! 👃',
     text: 'We breathe air through our nose, down the windpipe (trachea), and into the lungs! The nose filters dust with tiny hairs and sticky mucus.',
     emoji: '👃',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'We breathe air through our nose, down the windpipe, and into the lungs! The nose filters dust with tiny hairs and sticky mucus.',
   },
   {
@@ -53,7 +53,7 @@ const TEACHING_SLIDES = [
     title: 'Air Pollution & Clean Lungs! 🌳',
     text: 'Smoke from vehicles and factories, dust, and burning garbage pollute the air! Polluted air causes coughing and asthma. Plant trees and wear masks to protect your lungs!',
     emoji: '🌳',
-    bgColor: 'from-purple-400 to-indigo-600',
+    bgColor: 'from-purple-400 to-gold-600',
     spoken: 'Smoke from vehicles and factories, dust, and burning garbage pollute the air! Polluted air causes coughing and asthma. Plant trees and wear masks to protect your lungs!',
   },
 ];
@@ -197,7 +197,7 @@ function DoctorDeepa({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thinki
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-cyan-300"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -745,7 +745,7 @@ export function LivingThingsGame({ width = 720, height = 560, onComplete }: Livi
   };
 
   return (
-    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-slate-900 border-4 border-cyan-400" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-slate-900 border-4 border-gold-400" style={{ width, height }}>
       {/* Background */}
       <HospitalScene width={width} height={height} />
 
@@ -763,13 +763,13 @@ export function LivingThingsGame({ width = 720, height = 560, onComplete }: Livi
         <div className="absolute inset-0 flex flex-col items-center justify-between p-6 bg-slate-900/60 backdrop-blur-sm z-10">
           {/* Header */}
           <div className="flex items-center justify-between w-full max-w-xl">
-            <div className="flex items-center gap-2 bg-cyan-500/30 px-4 py-1.5 rounded-full border border-cyan-300">
+            <div className="flex items-center gap-2 bg-gold-500/30 px-4 py-1.5 rounded-full border border-gold-300">
               <span className="text-xl">🩺</span>
               <span className="text-white font-extrabold text-sm">Class 3 Biology Explorer</span>
             </div>
             <div className="flex gap-1">
               {TEACHING_SLIDES.map((_, i) => (
-                <div key={i} className={`h-2.5 rounded-full transition-all ${i === slideIdx ? 'w-8 bg-cyan-400' : 'w-2.5 bg-white/30'}`} />
+                <div key={i} className={`h-2.5 rounded-full transition-all ${i === slideIdx ? 'w-8 bg-gold-400' : 'w-2.5 bg-white/30'}`} />
               ))}
             </div>
           </div>
@@ -796,7 +796,7 @@ export function LivingThingsGame({ width = 720, height = 560, onComplete }: Livi
                 if (slideIdx > 0) setSlideIdx(prev => prev - 1);
               }}
               disabled={slideIdx === 0}
-              className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${slideIdx === 0 ? 'bg-slate-700/50 opacity-40 cursor-not-allowed' : 'bg-cyan-600 hover:bg-cyan-500 active:scale-95'}`}
+              className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${slideIdx === 0 ? 'bg-slate-700/50 opacity-40 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500 active:scale-95'}`}
             >
               Previous
             </button>
@@ -823,7 +823,7 @@ export function LivingThingsGame({ width = 720, height = 560, onComplete }: Livi
           {/* Top Bar */}
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-3">
-              <span className="bg-cyan-600 text-white font-extrabold px-3 py-1.5 rounded-full text-xs shadow">
+              <span className="bg-gold-600 text-white font-extrabold px-3 py-1.5 rounded-full text-xs shadow">
                 Level {challengeIdx + 1} / {CHALLENGES.length}
               </span>
               <StarRow count={Math.floor(score / 15)} total={5} />
@@ -842,7 +842,7 @@ export function LivingThingsGame({ width = 720, height = 560, onComplete }: Livi
           </div>
 
           {/* Question Box */}
-          <div className="bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-cyan-300 max-w-xl mx-auto w-full text-center my-2">
+          <div className="bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-300 max-w-xl mx-auto w-full text-center my-2">
             <h3 className="text-base font-extrabold text-gray-800">{currentChallenge.question}</h3>
           </div>
 
@@ -853,7 +853,7 @@ export function LivingThingsGame({ width = 720, height = 560, onComplete }: Livi
                 {currentChallenge.options.map((opt, i) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnColor = 'bg-white hover:bg-cyan-50 text-gray-800 border-cyan-200';
+                  let btnColor = 'bg-white hover:bg-gold-50 text-gray-800 border-gold-200';
                   if (isSelected && isCorrectAnswer) btnColor = 'bg-emerald-500 text-white border-emerald-600';
                   if (isSelected && !isCorrectAnswer) btnColor = 'bg-rose-500 text-white border-rose-600';
 

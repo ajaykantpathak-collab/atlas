@@ -752,7 +752,7 @@ const getMotivationalFeedback = (errCount: number) => {
       title: 'Great work!',
       badge: '⭐ Skilled Policy Planner',
       desc: 'Very strong analytical thinking! You demonstrated sound grasp over economic infrastructure and labor market mismatches.',
-      color: 'text-sky-400',
+      color: 'text-gold-400',
       srsReviewDays: 3,
     };
   }
@@ -1233,7 +1233,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
               difficulty === 'foundation'
                 ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                 : difficulty === 'standard'
-                ? 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                 : 'bg-purple-500/20 text-purple-300 border border-purple-500/40'
             }`}
           >
@@ -1256,7 +1256,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
           {/* Narrative Scenario Box */}
           <motion.div
             whileHover={{ scale: 1.005 }}
-            className="p-5 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/50 rounded-2xl border border-emerald-800/60 shadow-lg"
+            className="p-5 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/50 rounded-2xl border border-emerald-800/60 shadow-lg"
           >
             <div className="flex items-center gap-2 text-emerald-300 font-bold text-sm tracking-wide uppercase">
               <span aria-hidden="true">🏛️</span> {SCENARIO.title}
@@ -1423,8 +1423,8 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
               {currentSlide === 0 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-2">
-                      <p className="text-xs text-indigo-300 font-bold uppercase">Hypothesis Check:</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-2">
+                      <p className="text-xs text-gold-300 font-bold uppercase">Hypothesis Check:</p>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1494,9 +1494,9 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <span className="text-xs text-slate-400">Avg Rural Farm Income</span>
-                      <p className="text-lg font-black text-sky-300 mt-1">₹{ruralIncomeLevel.toLocaleString()}/mo</p>
+                      <p className="text-lg font-black text-gold-300 mt-1">₹{ruralIncomeLevel.toLocaleString()}/mo</p>
                       <div className="w-full bg-slate-800 h-1.5 rounded-full mt-2">
-                        <motion.div className="bg-sky-500 h-1.5 rounded-full" animate={{ width: `${Math.min(100, (ruralIncomeLevel / 17000) * 100)}%` }} />
+                        <motion.div className="bg-gold-500 h-1.5 rounded-full" animate={{ width: `${Math.min(100, (ruralIncomeLevel / 17000) * 100)}%` }} />
                       </div>
                     </div>
 
@@ -1564,7 +1564,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                           audioManager.play('count');
                         }}
                         aria-label="Factory Production Output Slider"
-                        className="w-full accent-blue-500 h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg"
                       />
                     </div>
 
@@ -1723,7 +1723,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                     )}
                     {selectedTertiaryNode === 'banking' && (
                       <div className="space-y-1">
-                        <h4 className="text-sm font-bold text-sky-300">Banking — Financial Intermediation</h4>
+                        <h4 className="text-sm font-bold text-gold-300">Banking — Financial Intermediation</h4>
                         <p className="text-xs text-slate-300 leading-relaxed">
                           Mobilizes household savings to fund Kisan Credit Cards (4% subsidized rate) and MSME credit, eliminating extortionate village moneylenders charging 36% interest.
                         </p>
@@ -1851,7 +1851,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                           audioManager.play('count');
                         }}
                         aria-label="Family Member Count Slider"
-                        className="w-full accent-sky-500 h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg"
                       />
                     </div>
 
@@ -1871,7 +1871,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                           onClick={() => handleLocationToggle(true)}
                           aria-label="Set standard to Urban: 2100 kcal"
                           className={`flex-1 py-2 rounded-lg text-xs font-bold ${
-                            isUrban ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                            isUrban ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Urban (2100 kcal)
@@ -2029,7 +2029,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
                 aria-label="Proceed to Macroeconomic Sandbox Mode"
-                className="px-5 py-2 bg-gradient-to-r from-emerald-600 to-sky-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                className="px-5 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
               >
                 Enter Sandbox Mode 🎮 →
               </motion.button>
@@ -2089,7 +2089,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
             </div>
 
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-              <label htmlFor="sb-industrial" className="text-xs font-bold text-sky-400">
+              <label htmlFor="sb-industrial" className="text-xs font-bold text-gold-400">
                 2. Industrial Output: {industrialOutput}%
               </label>
               <input
@@ -2103,7 +2103,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                   audioManager.play('count');
                 }}
                 aria-label="Sandbox Industrial Output Slider"
-                className="w-full accent-sky-500 h-2 bg-slate-800 rounded-lg"
+                className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg"
               />
               <div className="text-[11px] text-slate-300 flex justify-between">
                 <span>Calculated AQI: {calculatedAQI}</span>
@@ -2177,7 +2177,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 bg-indigo-950 text-indigo-300 border border-indigo-800 rounded text-[10px] uppercase font-bold">
+                <span className="px-2 py-0.5 bg-gold-950 text-gold-300 border border-gold-800 rounded text-[10px] uppercase font-bold">
                   Competency: {challenge.competencyLevel}
                 </span>
                 <span className="font-mono text-emerald-400 font-bold">
@@ -2188,7 +2188,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-sky-500"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2508,7 +2508,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400">BKT Mastery</span>
-                <p className="text-xl font-black text-sky-400 uppercase">{masteryLevel}</p>
+                <p className="text-xl font-black text-gold-400 uppercase">{masteryLevel}</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400">Mistakes / Gaps</span>
@@ -2618,8 +2618,8 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
           )}
 
           {/* Real-World Activity Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/50 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
@@ -2628,7 +2628,7 @@ export default function C9_EconomicsInterdependenceAgricultureIndustrySim({
             <div className="space-y-2 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-300">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold shrink-0">
                     {i + 1}
                   </span>
                   <p>{st}</p>

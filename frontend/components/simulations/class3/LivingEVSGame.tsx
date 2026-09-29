@@ -77,21 +77,21 @@ const TEACHING_SLIDES = [
     title: 'Plants and Animals 🌲🐕',
     text: 'Both are alive and grow! But plants make their own food in their green leaves using sunlight. Animals cannot make food — they must eat plants or other animals!',
     emoji: '🦌',
-    bgColor: 'from-teal-400 to-cyan-600',
+    bgColor: 'from-teal-400 to-gold-600',
     spoken: 'Both plants and animals are alive and grow. But plants make their own food using sunlight, while animals must eat plants or other animals.'
   },
   {
     title: 'Human and Animal Needs 🧡',
     text: 'Humans and animals share basic needs: food, water, air, and sleep! Both grow, feel hunger, and have babies. Both have eyes, ears, and noses to sense the world!',
     emoji: '🐾',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'Humans and animals share basic needs like food, water, air, and sleep. Both have eyes, ears, and noses to sense the world around them.'
   },
   {
     title: 'External Body Parts 👁️👂',
     text: 'Our body parts have special jobs! Eyes are for seeing, ears for hearing, nose for smelling, tongue for tasting, and skin for feeling. Animals have wings, fins, tails, and paws!',
     emoji: '🔍',
-    bgColor: 'from-blue-400 to-indigo-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'Our body parts have special jobs. Eyes are for seeing, ears for hearing, nose for smelling. Animals have wings, fins, tails, and paws suited to their homes!'
   },
 ];

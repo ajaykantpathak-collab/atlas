@@ -699,8 +699,8 @@ const IndiaSpatialMapSVG: React.FC<{
   showGrid: boolean;
 }> = ({ selectedExtremity, onSelectExtremity, showTropicOfCancer, showMeridian, showGrid }) => {
   return (
-    <div className="w-full bg-slate-900/90 rounded-xl p-4 border border-cyan-500/30 shadow-2xl relative overflow-hidden">
-      <div className="flex justify-between items-center mb-2 text-xs text-cyan-400 font-mono">
+    <div className="w-full bg-slate-900/90 rounded-xl p-4 border border-gold-500/30 shadow-2xl relative overflow-hidden">
+      <div className="flex justify-between items-center mb-2 text-xs text-gold-400 font-mono">
         <span>GEOSPATIAL COORDINATE PROJECTION: INDIA REALM</span>
         <span>LAT: 6°45'N - 37°6'N | LONG: 68°7'E - 97°25'E</span>
       </div>
@@ -953,8 +953,8 @@ const SunLatitudeDiagramSVG: React.FC<{
 // Diagram 3: Maritime Strategic Hub & Historic Silk/Spice Trade Routes
 const MaritimeTradeRoutesSVG: React.FC<{ activeRoute: string }> = ({ activeRoute }) => {
   return (
-    <div className="w-full bg-slate-900/90 rounded-xl p-4 border border-indigo-500/30 shadow-2xl">
-      <div className="flex justify-between items-center mb-2 text-xs text-indigo-400 font-mono">
+    <div className="w-full bg-slate-900/90 rounded-xl p-4 border border-gold-500/30 shadow-2xl">
+      <div className="flex justify-between items-center mb-2 text-xs text-gold-400 font-mono">
         <span>STRATEGIC INDIAN OCEAN MARITIME RIM & SILK ROUTE NETWORK</span>
         <span>ROUTE FOCUS: {activeRoute.toUpperCase()}</span>
       </div>
@@ -1210,17 +1210,17 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
       />
 
       {/* Main Header Banner */}
-      <header className="w-full max-w-6xl bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 shadow-2xl mb-6 relative overflow-hidden flex flex-col md:flex-row justify-between items-center gap-4">
+      <header className="w-full max-w-6xl bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-2xl mb-6 relative overflow-hidden flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="z-10">
           <div className="flex items-center gap-3 mb-1">
-            <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 rounded-full text-xs font-semibold tracking-wide">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full text-xs font-semibold tracking-wide">
               CLASS 9 ICSE / CBSE GEOGRAPHY
             </span>
-            <span className="px-3 py-1 bg-indigo-500/20 text-indigo-400 border border-indigo-500/40 rounded-full text-xs font-semibold">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full text-xs font-semibold">
               CHAPTER 1: INDIA - SIZE AND LOCATION
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-amber-300">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-teal-300 to-amber-300">
             {SCENARIO.title}
           </h1>
           <p className="text-slate-400 text-xs md:text-sm mt-1 max-w-2xl">
@@ -1242,7 +1242,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           <div className="h-8 w-[1px] bg-slate-800" />
           <div className="text-center">
             <div className="text-xs text-slate-400 font-medium">MASTERY</div>
-            <div className="text-xl font-bold text-cyan-400">{overallMastery}%</div>
+            <div className="text-xl font-bold text-gold-400">{overallMastery}%</div>
           </div>
         </div>
       </header>
@@ -1256,7 +1256,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           }}
           className={`flex-1 py-3 rounded-lg font-semibold text-xs md:text-sm transition-all duration-200 ${
             activeTab === 'discovery'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1269,7 +1269,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           }}
           className={`flex-1 py-3 rounded-lg font-semibold text-xs md:text-sm transition-all duration-200 ${
             activeTab === 'lab'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1282,7 +1282,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           }}
           className={`flex-1 py-3 rounded-lg font-semibold text-xs md:text-sm transition-all duration-200 ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1295,7 +1295,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           }}
           className={`flex-1 py-3 rounded-lg font-semibold text-xs md:text-sm transition-all duration-200 ${
             activeTab === 'summary'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1309,8 +1309,8 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
       {activeTab === 'discovery' && (
         <div className="w-full max-w-6xl space-y-6">
           {/* Narrative Scenario Box */}
-          <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-xl font-bold text-cyan-400 mb-2">Cartographic Scenario & Context</h2>
+          <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+            <h2 className="text-xl font-bold text-gold-400 mb-2">Cartographic Scenario & Context</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-4">
               {SCENARIO.context}
             </p>
@@ -1330,7 +1330,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                     onClick={() => setDiscoveryOption(idx)}
                     className={`w-full text-left p-4 rounded-lg text-xs md:text-sm transition-all ${
                       discoveryOption === idx
-                        ? 'bg-cyan-900/50 border-2 border-cyan-400 text-cyan-200'
+                        ? 'bg-gold-900/50 border-2 border-gold-400 text-gold-200'
                         : 'bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300'
                     }`}
                   >
@@ -1343,12 +1343,12 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                 <button
                   disabled={discoveryOption === null}
                   onClick={handleDiscoverySubmit}
-                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-lg disabled:opacity-50 hover:from-cyan-400 hover:to-blue-500 transition-all shadow-md"
+                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-lg disabled:opacity-50 hover:from-gold-400 hover:to-gold-500 transition-all shadow-md"
                 >
                   Verify Discovery Answer
                 </button>
               ) : (
-                <div className="mt-4 p-4 rounded-lg bg-cyan-950/60 border border-cyan-500/40 text-cyan-200 text-xs md:text-sm">
+                <div className="mt-4 p-4 rounded-lg bg-gold-950/60 border border-gold-500/40 text-gold-200 text-xs md:text-sm">
                   <span className="font-bold text-amber-400">Geographic Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1409,7 +1409,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                 }}
                 className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
                   currentLabStep === idx
-                    ? 'bg-gradient-to-r from-cyan-500 to-indigo-600 text-white shadow-md'
+                    ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                     : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
                 }`}
               >
@@ -1419,7 +1419,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           </div>
 
           {/* Active Lab Instruction Banner */}
-          <div className="bg-slate-900/90 border border-cyan-500/30 p-4 rounded-xl text-xs md:text-sm text-cyan-200 flex items-start gap-3">
+          <div className="bg-slate-900/90 border border-gold-500/30 p-4 rounded-xl text-xs md:text-sm text-gold-200 flex items-start gap-3">
             <span className="text-xl">📍</span>
             <div>
               <span className="font-bold text-white">Lab Objective: </span>
@@ -1467,7 +1467,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                       type="checkbox"
                       checked={showGrid}
                       onChange={(e) => setShowGrid(e.target.checked)}
-                      className="accent-cyan-500 rounded"
+                      className="accent-gold-500 rounded"
                     />
                     Lat / Long Grid Lines
                   </label>
@@ -1530,9 +1530,9 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                     </div>
                   </div>
 
-                  <div className="bg-slate-900 p-4 rounded-xl border border-cyan-500/30 text-center">
+                  <div className="bg-slate-900 p-4 rounded-xl border border-gold-500/30 text-center">
                     <div className="text-xs text-slate-400">OFFICIAL IST WATCH TIME</div>
-                    <div className="text-2xl font-bold text-cyan-400 mt-1">12:00 PM</div>
+                    <div className="text-2xl font-bold text-gold-400 mt-1">12:00 PM</div>
                     <div className="text-[10px] text-slate-500 mt-1">82°30' E Standard Meridian</div>
                   </div>
 
@@ -1576,7 +1576,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                 </div>
 
                 <div>
-                  <label className="text-xs font-bold text-indigo-400 block mb-2">
+                  <label className="text-xs font-bold text-gold-400 block mb-2">
                     Season / Day of Year: Day {dayOfYear} ({dayOfYear < 100 ? 'Spring' : dayOfYear < 200 ? 'Summer Solstice' : dayOfYear < 300 ? 'Autumn' : 'Winter Solstice'})
                   </label>
                   <input
@@ -1588,7 +1588,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                       audioManager.play('count');
                       setDayOfYear(parseInt(e.target.value));
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                    className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                   />
                   <div className="flex justify-between text-[10px] text-slate-400 mt-1 font-mono">
                     <span>Jan 1</span>
@@ -1621,10 +1621,10 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800">
                   <div className="text-xs text-slate-400 font-bold uppercase mb-2">Coastline & Maritime Domain (~7,516.6 km)</div>
                   <ul className="text-xs text-slate-300 space-y-2 font-mono">
-                    <li className="flex justify-between"><span>Mainland Coastline:</span> <span className="text-cyan-400 font-bold">6,100.0 km</span></li>
-                    <li className="flex justify-between"><span>Island Archipelagos:</span> <span className="text-cyan-400 font-bold">1,416.6 km</span></li>
-                    <li className="flex justify-between"><span>Territorial Sea Limit:</span> <span className="text-cyan-400 font-bold">12 Nautical Miles</span></li>
-                    <li className="flex justify-between"><span>EEZ Limit:</span> <span className="text-cyan-400 font-bold">200 Nautical Miles</span></li>
+                    <li className="flex justify-between"><span>Mainland Coastline:</span> <span className="text-gold-400 font-bold">6,100.0 km</span></li>
+                    <li className="flex justify-between"><span>Island Archipelagos:</span> <span className="text-gold-400 font-bold">1,416.6 km</span></li>
+                    <li className="flex justify-between"><span>Territorial Sea Limit:</span> <span className="text-gold-400 font-bold">12 Nautical Miles</span></li>
+                    <li className="flex justify-between"><span>EEZ Limit:</span> <span className="text-gold-400 font-bold">200 Nautical Miles</span></li>
                   </ul>
                 </div>
               </div>
@@ -1644,7 +1644,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                     }}
                     className={`px-4 py-2 rounded-lg text-xs font-bold uppercase transition-all ${
                       activeRoute === rt
-                        ? 'bg-indigo-600 text-white shadow-md'
+                        ? 'bg-gold-600 text-white shadow-md'
                         : 'bg-slate-900 text-slate-400 border border-slate-800'
                     }`}
                   >
@@ -1658,7 +1658,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
 
           {/* OBSERVATION QUESTIONS SECTION */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-lg font-bold text-cyan-400 mb-4">Empirical Spatial Observations</h3>
+            <h3 className="text-lg font-bold text-gold-400 mb-4">Empirical Spatial Observations</h3>
             <div className="space-y-6">
               {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
                 <div key={oIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800">
@@ -1698,7 +1698,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           {/* Progress Header */}
           <div className="flex justify-between items-center pb-4 border-b border-slate-800">
             <div>
-              <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest">
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-widest">
                 CHALLENGE {currentChallengeIdx + 1} OF {CHALLENGES.length}
               </span>
               <div className="flex items-center gap-2 mt-1">
@@ -1749,7 +1749,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                   }}
                   className={`w-full text-left p-4 rounded-xl text-xs md:text-sm font-medium transition-all ${
                     selectedOptionIdx === idx
-                      ? 'bg-cyan-900/60 border-2 border-cyan-400 text-cyan-100 shadow-md'
+                      ? 'bg-gold-900/60 border-2 border-gold-400 text-gold-100 shadow-md'
                       : 'bg-slate-950 border border-slate-800 hover:border-slate-700 text-slate-300'
                   }`}
                 >
@@ -1766,7 +1766,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                 value={calcInput}
                 onChange={(e) => setCalcInput(e.target.value)}
                 placeholder="Enter calculated value (e.g., 5:30 PM or 117 minutes)..."
-                className="w-full bg-slate-950 border border-slate-700 rounded-xl p-4 text-sm text-cyan-200 focus:outline-none focus:border-cyan-400 font-mono"
+                className="w-full bg-slate-950 border border-slate-700 rounded-xl p-4 text-sm text-gold-200 focus:outline-none focus:border-gold-400 font-mono"
               />
             </div>
           )}
@@ -1783,7 +1783,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                   }}
                   className={`w-full text-left p-4 rounded-xl text-xs md:text-sm font-medium transition-all ${
                     selectedOptionIdx === idx
-                      ? 'bg-indigo-900/60 border-2 border-indigo-400 text-indigo-100'
+                      ? 'bg-gold-900/60 border-2 border-gold-400 text-gold-100'
                       : 'bg-slate-950 border border-slate-800 hover:border-slate-700 text-slate-300'
                   }`}
                 >
@@ -1826,7 +1826,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
               <button
                 disabled={selectedOptionIdx === null && calcInput.trim() === ''}
                 onClick={handleAnswerSubmit}
-                className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-xs md:text-sm rounded-xl disabled:opacity-50 hover:from-cyan-400 hover:to-indigo-500 transition-all shadow-lg"
+                className="px-8 py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs md:text-sm rounded-xl disabled:opacity-50 hover:from-gold-400 hover:to-gold-500 transition-all shadow-lg"
               >
                 Submit Spatial Analysis
               </button>
@@ -1856,7 +1856,7 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
 
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center">
               <div className="text-xs font-bold text-slate-400 uppercase">Spatial Mastery Level</div>
-              <div className="text-4xl font-extrabold text-cyan-400 mt-2">{overallMastery}%</div>
+              <div className="text-4xl font-extrabold text-gold-400 mt-2">{overallMastery}%</div>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl text-center">
@@ -1868,15 +1868,15 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
           </div>
 
           {/* REAL-WORLD EXTENSION ACTIVITY */}
-          <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-xl font-bold text-cyan-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+            <h3 className="text-xl font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-slate-300 text-sm mb-4">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="space-y-3 bg-slate-950 p-5 rounded-xl border border-slate-800">
               <span className="text-xs font-bold text-amber-400 uppercase tracking-wide">Operational Protocol Steps</span>
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-start gap-3 text-xs md:text-sm text-slate-300">
-                  <span className="px-2 py-0.5 bg-cyan-900/50 text-cyan-300 rounded font-bold font-mono">
+                  <span className="px-2 py-0.5 bg-gold-900/50 text-gold-300 rounded font-bold font-mono">
                     Step {idx + 1}
                   </span>
                   <span>{step}</span>
@@ -1910,9 +1910,9 @@ export const C9_GeoIndiaSizeLocationCBSESim: React.FC<{
                     <span className="font-mono text-slate-400">{nodeId}</span>
                     <div className="flex items-center gap-3">
                       <div className="w-24 bg-slate-800 h-2 rounded-full overflow-hidden">
-                        <div className="bg-cyan-500 h-full" style={{ width: `${nodeMastery}%` }} />
+                        <div className="bg-gold-500 h-full" style={{ width: `${nodeMastery}%` }} />
                       </div>
-                      <span className="font-bold text-cyan-400 w-10 text-right">{nodeMastery}%</span>
+                      <span className="font-bold text-gold-400 w-10 text-right">{nodeMastery}%</span>
                     </div>
                   </div>
                 );

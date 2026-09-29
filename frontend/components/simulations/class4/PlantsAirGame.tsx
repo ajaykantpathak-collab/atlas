@@ -62,14 +62,14 @@ const TEACHING_SLIDES = [
     title: "Transpiration: Leaf Cooling 💧",
     text: "Leaves lose extra water as water vapour through tiny pores called stomata! This transpiration keeps the plant cool on hot days and helps pull fresh water up from the roots.",
     emoji: "💧",
-    bgColor: "from-cyan-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Leaves lose extra water as water vapour through tiny pores called stomata! This transpiration keeps the plant cool and pulls water up from the roots."
   },
   {
     title: "Composition of Air 🌬️",
     text: "Air is a mixture of gases! Nitrogen makes up about 78 percent of air. Oxygen makes up about 21 percent. Carbon dioxide is about 0.04 percent. Air also has water vapour and dust.",
     emoji: "🌬️",
-    bgColor: "from-blue-400 to-indigo-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Air is a mixture of gases! Nitrogen makes up about 78 percent of air. Oxygen makes up about 21 percent. Carbon dioxide is a tiny bit at 0.04 percent."
   },
   {

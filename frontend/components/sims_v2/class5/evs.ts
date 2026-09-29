@@ -9,7 +9,7 @@ export const c5Senses: SimDef = {
     id: 'c5_senses', title: 'Super Senses', subtitle: 'How animals sense!',
     classLevel: 5, subject: 'evs', topic: 'Senses',
     chapters: ['Looking Around-5 Ch1: Super Senses'],
-    emoji: '👃', theme: { bg: 'from-purple-100 to-violet-200', accent: 'purple', scene: 'senses' },
+    emoji: '👃', theme: { bg: 'from-purple-100 to-gold-200', accent: 'purple', scene: 'senses' },
     scenario: { role: "a sense-scientist", intro: "Bats echolocate, dogs smell — super senses!", goal: "Learn every super sense." },
     discovery: {
         question: "Can a bat 'see' in total darkness - how?",
@@ -18,9 +18,9 @@ export const c5Senses: SimDef = {
         hook: "Bats hear their way in the dark! Let's learn super senses.",
     },
     teaching: [
-        { title: 'Animal Superpowers! 👃', text: 'Dogs smell what we cannot, eagles see far, bats hear in the dark. Animals have super senses!', emoji: '👃', bgColor: 'from-purple-400 to-violet-500' },
+        { title: 'Animal Superpowers! 👃', text: 'Dogs smell what we cannot, eagles see far, bats hear in the dark. Animals have super senses!', emoji: '👃', bgColor: 'from-purple-400 to-gold-500' },
         { title: 'Smell and Mark 🐕', text: 'Dogs mark territory with smell. Ants follow smell trails. Smell is a language for animals!', emoji: '🐕', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Sight and Sound 🦇', text: 'Eagles see tiny prey from high. Bats use echoes to "see" in the dark — echolocation!', emoji: '🦇', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Sight and Sound 🦇', text: 'Eagles see tiny prey from high. Bats use echoes to "see" in the dark — echolocation!', emoji: '🦇', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "Match animals to their super senses!" },
     challenges: [
@@ -69,7 +69,7 @@ export const c5Digestion: SimDef = {
     },
     teaching: [
         { title: 'The Food Journey! 🍽️', text: 'Food travels: mouth (chew) → food pipe → stomach (churn) → intestine (absorb) → out!', emoji: '🍽️', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Teeth Start It 🦷', text: 'Teeth break food, saliva softens it. Chewing well helps the stomach!', emoji: '🦷', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Teeth Start It 🦷', text: 'Teeth break food, saliva softens it. Chewing well helps the stomach!', emoji: '🦷', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Germs and Mosquitoes 🦟', text: 'Mosquitoes spread malaria and dengue. Keep water from collecting, use nets!', emoji: '🦟', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: "tray", prompt: "Trace food through the body!" },
@@ -116,7 +116,7 @@ export const c5Seeds: SimDef = {
     teaching: [
         { title: 'Seeds Travel! 🌱', text: 'Seeds fly on wind, float on water, stick to animals, or pop out. They spread far to grow!', emoji: '🌱', bgColor: 'from-green-400 to-emerald-500' },
         { title: 'A Seed Needs 🌰', text: 'A seed needs water, air, and warmth to sprout. Inside is a tiny baby plant waiting!', emoji: '🌰', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'How Seeds Move 💨', text: 'Dandelion seeds fly, coconut floats, burrs stick to fur, pea pods burst open!', emoji: '💨', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'How Seeds Move 💨', text: 'Dandelion seeds fly, coconut floats, burrs stick to fur, pea pods burst open!', emoji: '💨', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "How do seeds travel?" },
     challenges: [
@@ -152,7 +152,7 @@ export const c5WaterSave: SimDef = {
     id: 'c5_watersave', title: 'Every Drop Counts', subtitle: 'Save water!',
     classLevel: 5, subject: 'evs', topic: 'Water Conservation',
     chapters: ['Looking Around-5 Ch6: Every Drop Counts', 'Ch7: Experiments with Water'],
-    emoji: '💧', theme: { bg: 'from-blue-100 to-cyan-200', accent: 'blue', scene: 'water' },
+    emoji: '💧', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'water' },
     scenario: { role: "a water-guardian", intro: "Fresh water is rare — learn to save it!", goal: "Master conservation." },
     discovery: {
         question: "If 97% of water is salty sea, how much is left for us to drink?",
@@ -161,9 +161,9 @@ export const c5WaterSave: SimDef = {
         hook: "Fresh water is rare and precious! Let's learn to save it.",
     },
     teaching: [
-        { title: 'Water is Precious! 💧', text: 'Only a little of Earth\'s water is fresh and drinkable. Most is salty sea water. Save every drop!', emoji: '💧', bgColor: 'from-blue-400 to-cyan-500' },
+        { title: 'Water is Precious! 💧', text: 'Only a little of Earth\'s water is fresh and drinkable. Most is salty sea water. Save every drop!', emoji: '💧', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Old Water Wisdom 🏺', text: 'Long ago people built stepwells, tanks, and bunds to save rainwater. Clever water saving!', emoji: '🏺', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Water Experiments 🧪', text: 'Some things float, some sink. Water has surface tension — a needle can rest on it!', emoji: '🧪', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Water Experiments 🧪', text: 'Some things float, some sink. Water has surface tension — a needle can rest on it!', emoji: '🧪', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: "pour", prompt: "Try the lab — what do you discover?" },
     challenges: [
@@ -193,7 +193,7 @@ export const c5Space: SimDef = {
     id: 'c5_space', title: 'Sunita in Space', subtitle: 'Up in the stars!',
     classLevel: 5, subject: 'evs', topic: 'Space and Earth',
     chapters: ['Looking Around-5 Ch11: Sunita in Space', 'Ch12: What if it Finishes?'],
-    emoji: '🚀', theme: { bg: 'from-indigo-100 to-violet-200', accent: 'indigo', scene: 'space' },
+    emoji: '🚀', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'space' },
     scenario: { role: "an astronaut", intro: "Gravity, orbits, planets — explore space!", goal: "Know the solar system." },
     discovery: {
         question: "Why do astronauts FLOAT in space - are they light?",
@@ -202,8 +202,8 @@ export const c5Space: SimDef = {
         hook: "In space nothing pulls you down! Let's explore.",
     },
     teaching: [
-        { title: 'Sunita in Space! 🚀', text: 'Sunita Williams floated in space — no gravity! Earth looks like a blue marble from up there.', emoji: '🚀', bgColor: 'from-indigo-400 to-violet-500' },
-        { title: 'Floating Astronauts 🧑‍🚀', text: 'In space there is no gravity pulling down — astronauts float, water forms balls, food floats!', emoji: '🧑‍🚀', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Sunita in Space! 🚀', text: 'Sunita Williams floated in space — no gravity! Earth looks like a blue marble from up there.', emoji: '🚀', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Floating Astronauts 🧑‍🚀', text: 'In space there is no gravity pulling down — astronauts float, water forms balls, food floats!', emoji: '🧑‍🚀', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Earth is Special 🌍', text: 'Earth has air, water, and life. From space it looks mostly blue — the oceans!', emoji: '🌍', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { lab: "orbit", prompt: "Try the lab — what do you discover?" },
@@ -242,7 +242,7 @@ export const c5Disaster: SimDef = {
     teaching: [
         { title: 'When the Earth Shakes! 🌍', text: 'An earthquake is the ground shaking. Drop, cover, and hold on — stay safe under a table!', emoji: '🌍', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'People Help People 🤝', text: 'After a disaster, everyone helps — rescue teams, doctors, neighbours. Community is strength!', emoji: '🤝', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Every Job Matters 🧹', text: 'Cleaners, sweepers, helpers — every job is important. Respect all work!', emoji: '🧹', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Every Job Matters 🧹', text: 'Cleaners, sweepers, helpers — every job is important. Respect all work!', emoji: '🧹', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "What to do in an earthquake?" },
     challenges: [
@@ -280,7 +280,7 @@ export const c5Forests: SimDef = {
     teaching: [
         { title: 'Whose Forests? 🌲', text: 'Forests belong to the animals, the people who live there, and all of us. Everyone shares them!', emoji: '🌲', bgColor: 'from-emerald-400 to-green-500' },
         { title: 'Forest Life 🦌', text: 'Forests are home to animals, birds, and tribal people. They take only what they need!', emoji: '🦌', bgColor: 'from-lime-400 to-green-500' },
-        { title: 'Nature\'s Balance ⚖️', text: 'Forests give air, rain, and homes. Destroy them and the balance breaks!', emoji: '⚖️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Nature\'s Balance ⚖️', text: 'Forests give air, rain, and homes. Destroy them and the balance breaks!', emoji: '⚖️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: "grow", prompt: "Grow a forest — who lives there?" },
     challenges: [

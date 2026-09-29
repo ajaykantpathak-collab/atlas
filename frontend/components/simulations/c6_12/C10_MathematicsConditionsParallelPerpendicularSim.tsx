@@ -1163,12 +1163,12 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">
@@ -1188,14 +1188,14 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             {difficulty} Tier
           </motion.span>
           <div className="text-right hidden sm:block">
             <span className="text-[10px] uppercase tracking-wider text-slate-400 block">Mastery</span>
-            <span className="text-xs font-bold text-sky-400 capitalize">{masteryLevel}</span>
+            <span className="text-xs font-bold text-gold-400 capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.header>
@@ -1204,8 +1204,8 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Card */}
-          <div className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900/90 rounded-2xl border border-indigo-700/50 shadow-xl space-y-3">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm tracking-wider uppercase">
+          <div className="p-5 md:p-6 bg-gradient-to-br from-gold-950/70 to-slate-900/90 rounded-2xl border border-gold-700/50 shadow-xl space-y-3">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wider uppercase">
               <span>🚇</span> {SCENARIO.title}
             </div>
             <p className="text-sm md:text-base text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
@@ -1261,7 +1261,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 text-sm whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 text-sm whitespace-nowrap"
                 >
                   Enter Geometric Labs →
                 </motion.button>
@@ -1285,7 +1285,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
               {/* Step Navigation Header */}
               <div className="flex items-center justify-between">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                  <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                     Guided Exploration Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                   </span>
                   <h2 className="text-lg md:text-xl font-bold text-white mt-1">
@@ -1297,7 +1297,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                     <div
                       key={idx}
                       className={`h-2 rounded-full transition-all ${
-                        idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                        idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1382,7 +1382,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                             isParallel
                               ? 'bg-emerald-950 text-emerald-400 border border-emerald-600'
                               : isPerpendicular
-                              ? 'bg-sky-950 text-sky-400 border border-sky-600'
+                              ? 'bg-gold-950 text-gold-400 border border-gold-600'
                               : 'bg-slate-800 text-slate-300'
                           }`}
                         >
@@ -1395,7 +1395,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   <div className="lg:col-span-5 space-y-4">
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
-                        <span className="text-indigo-400">Line 1 Slope (m1)</span>
+                        <span className="text-gold-400">Line 1 Slope (m1)</span>
                         <span className="font-mono text-white">{slope1.toFixed(2)}</span>
                       </div>
                       <input
@@ -1405,14 +1405,14 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                         step="0.1"
                         value={slope1}
                         onChange={(e) => handleSlope1Change(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Line 1 Slope"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
-                        <span className="text-sky-400">Line 2 Slope (m2)</span>
+                        <span className="text-gold-400">Line 2 Slope (m2)</span>
                         <span className="font-mono text-white">{slope2.toFixed(2)}</span>
                       </div>
                       <input
@@ -1422,7 +1422,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                         step="0.1"
                         value={slope2}
                         onChange={(e) => handleSlope2Change(parseFloat(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Line 2 Slope"
                       />
                     </div>
@@ -1435,7 +1435,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                           setSlope1(1.5);
                           setSlope2(1.5);
                         }}
-                        className="px-3 py-1.5 rounded-lg bg-indigo-950/60 border border-indigo-700 text-indigo-300 text-xs font-semibold"
+                        className="px-3 py-1.5 rounded-lg bg-gold-950/60 border border-gold-700 text-gold-300 text-xs font-semibold"
                       >
                         Snap Parallel (m=1.5)
                       </motion.button>
@@ -1446,7 +1446,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                           setSlope1(2.0);
                           setSlope2(-0.5);
                         }}
-                        className="px-3 py-1.5 rounded-lg bg-sky-950/60 border border-sky-700 text-sky-300 text-xs font-semibold"
+                        className="px-3 py-1.5 rounded-lg bg-gold-950/60 border border-gold-700 text-gold-300 text-xs font-semibold"
                       >
                         Snap Perpendicular (2 · -0.5 = -1)
                       </motion.button>
@@ -1459,7 +1459,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 border border-indigo-700/60 rounded-xl space-y-3">
+                    <div className="p-4 bg-gold-950/40 border border-gold-700/60 rounded-xl space-y-3">
                       <p className="text-sm font-bold text-white">🔮 {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1534,11 +1534,11 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                       <div className="w-full grid grid-cols-3 gap-2 mt-2 text-center text-xs">
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block">Linear Scale (k)</span>
-                          <span className="font-bold text-sky-400 text-sm font-mono">{scaleFactorK.toFixed(1)}×</span>
+                          <span className="font-bold text-gold-400 text-sm font-mono">{scaleFactorK.toFixed(1)}×</span>
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block">Perimeter Ratio</span>
-                          <span className="font-bold text-indigo-400 text-sm font-mono">{scaleFactorK.toFixed(1)}×</span>
+                          <span className="font-bold text-gold-400 text-sm font-mono">{scaleFactorK.toFixed(1)}×</span>
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block">Area Ratio (k²)</span>
@@ -1552,7 +1552,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                     <div className="md:col-span-5 space-y-4">
                       <div>
                         <div className="flex justify-between text-xs font-bold mb-1">
-                          <span className="text-sky-400">Scale Factor (k)</span>
+                          <span className="text-gold-400">Scale Factor (k)</span>
                           <span className="font-mono text-white">{scaleFactorK.toFixed(1)}</span>
                         </div>
                         <input
@@ -1562,7 +1562,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                           step="0.1"
                           value={scaleFactorK}
                           onChange={(e) => handleScaleFactorChange(parseFloat(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set Scale Factor k"
                         />
                       </div>
@@ -1641,7 +1641,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                     </svg>
 
                     <div className="w-full mt-2 p-3 bg-slate-900 rounded-xl border border-slate-800 flex justify-around text-xs font-mono font-bold">
-                      <div className="text-indigo-300">
+                      <div className="text-gold-300">
                         Left Ratio AD/DB = {(bptSplitRatio / (1 - bptSplitRatio)).toFixed(2)}
                       </div>
                       <div className="text-emerald-300">
@@ -1653,7 +1653,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   <div className="md:col-span-5 space-y-4">
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
-                        <span className="text-indigo-400">Position of Parallel Line DE</span>
+                        <span className="text-gold-400">Position of Parallel Line DE</span>
                         <span className="font-mono text-white">{Math.round(bptSplitRatio * 100)}%</span>
                       </div>
                       <input
@@ -1663,7 +1663,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                         step="0.05"
                         value={bptSplitRatio}
                         onChange={(e) => handleBptRatioChange(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Parallel Line DE Position"
                       />
                     </div>
@@ -1716,7 +1716,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   <div className="md:col-span-5 space-y-4">
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
-                        <span className="text-indigo-400">Fixed Distance (Radius r)</span>
+                        <span className="text-gold-400">Fixed Distance (Radius r)</span>
                         <span className="font-mono text-white">{circleRadius} m</span>
                       </div>
                       <input
@@ -1726,14 +1726,14 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                         step="5"
                         value={circleRadius}
                         onChange={(e) => handleCircleRadiusChange(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Circle Radius"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
-                        <span className="text-sky-400">Rotate Position Angle</span>
+                        <span className="text-gold-400">Rotate Position Angle</span>
                         <span className="font-mono text-white">{pointAngle}°</span>
                       </div>
                       <input
@@ -1743,7 +1743,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                         step="5"
                         value={pointAngle}
                         onChange={(e) => setPointAngle(parseInt(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                         aria-label="Rotate Position Angle"
                       />
                     </div>
@@ -1845,7 +1845,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide((s) => s + 1)}
-                    className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md shadow-indigo-600/30"
+                    className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-md shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1899,7 +1899,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                 onClick={() => setSandboxTab(tab.id as any)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                   sandboxTab === tab.id
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-900 text-slate-400 hover:text-white'
                 }`}
               >
@@ -1912,7 +1912,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
             {sandboxTab === 'slopes' && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                 <div className="space-y-4">
-                  <h3 className="text-sm font-bold text-indigo-300">Slope Calculator</h3>
+                  <h3 className="text-sm font-bold text-gold-300">Slope Calculator</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Line 1 Slope: {slope1.toFixed(2)}</label>
                     <input
@@ -1940,7 +1940,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center space-y-2">
                   <span className="text-xs text-slate-400">Slope Product</span>
-                  <p className="text-2xl font-mono font-bold text-sky-400">{slopeProduct}</p>
+                  <p className="text-2xl font-mono font-bold text-gold-400">{slopeProduct}</p>
                   <p className="text-xs font-semibold text-emerald-400">
                     {isParallel ? '✓ Lines are Parallel' : isPerpendicular ? '✓ Lines are Perpendicular' : 'Intersecting'}
                   </p>
@@ -1963,7 +1963,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <span className="text-xs text-slate-400 block">Perimeter Multiplier</span>
-                    <span className="text-xl font-bold text-indigo-400 font-mono">{scaleFactorK.toFixed(1)}×</span>
+                    <span className="text-xl font-bold text-gold-400 font-mono">{scaleFactorK.toFixed(1)}×</span>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <span className="text-xs text-slate-400 block">Area Multiplier (k²)</span>
@@ -1987,7 +1987,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   onChange={(e) => handleBptRatioChange(parseFloat(e.target.value))}
                   className="w-full"
                 />
-                <p className="text-xs text-indigo-300">
+                <p className="text-xs text-gold-300">
                   Thales Equality: AD/DB ({(bptSplitRatio / (1 - bptSplitRatio)).toFixed(2)}) = AE/EC ({(bptSplitRatio / (1 - bptSplitRatio)).toFixed(2)})
                 </p>
               </div>
@@ -2021,11 +2021,11 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
             <div className="flex items-center gap-3">
               <canvas ref={canvasRef} width={80} height={40} className="rounded-lg bg-slate-950 border border-slate-800" />
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <h2 className="text-sm md:text-base font-bold text-white">
-                  NEP Competency: <span className="capitalize text-sky-400">{challenge.competencyLevel}</span>
+                  NEP Competency: <span className="capitalize text-gold-400">{challenge.competencyLevel}</span>
                 </h2>
               </div>
             </div>
@@ -2037,7 +2037,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2095,7 +2095,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2124,7 +2124,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2164,7 +2164,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Order
                 </motion.button>
@@ -2180,7 +2180,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter value"
-                  className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                 />
                 {challenge.unit && <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>}
                 <motion.button
@@ -2188,7 +2188,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || numericInput === ''}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Check Answer
                 </motion.button>
@@ -2217,7 +2217,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   {constructParts.map((part, idx) => (
                     <motion.div
                       key={idx}
-                      className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-300 rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-300 rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2238,7 +2238,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Derivation
                 </motion.button>
@@ -2266,7 +2266,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-300 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2302,7 +2302,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
       {/* ─── PHASE 5: COMPLETION & MASTERY PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 md:p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-4 shadow-2xl">
+          <div className="p-6 md:p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-4 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Smart City Masterplan Approved!</h2>
             <p className="text-slate-300 text-sm md:text-base max-w-xl mx-auto">
@@ -2318,7 +2318,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
               </div>
               <div className="p-3 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-[10px] uppercase tracking-wider text-slate-400 block">Mastery Tier</span>
-                <span className="text-2xl font-black text-sky-400 capitalize font-mono">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize font-mono">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2329,7 +2329,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500/80 text-emerald-200'
                 : errors <= 3
-                ? 'bg-sky-950/60 border-sky-500/80 text-sky-200'
+                ? 'bg-gold-950/60 border-gold-500/80 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500/80 text-amber-200'
                 : 'bg-rose-950/60 border-rose-500/80 text-rose-200'
@@ -2353,7 +2353,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
           <div className="p-6 bg-slate-900/90 border border-slate-800 rounded-2xl space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-lg">💭</span>
-              <h3 className="text-base font-bold text-indigo-300 uppercase tracking-wider">
+              <h3 className="text-base font-bold text-gold-300 uppercase tracking-wider">
                 Reflection & Deep Understanding
               </h3>
             </div>
@@ -2381,7 +2381,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
               ].map((item, idx) => (
                 <div key={item.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                   <label className="text-xs font-bold text-slate-200 block">
-                    <span className="text-indigo-400 mr-1.5">{idx + 1}.</span>
+                    <span className="text-gold-400 mr-1.5">{idx + 1}.</span>
                     {item.question}
                   </label>
                   <textarea
@@ -2391,7 +2391,7 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
                       setReflectionResponses((prev) => ({ ...prev, [item.id]: e.target.value }))
                     }
                     placeholder={item.placeholder}
-                    className="w-full bg-slate-900 border border-slate-700/80 rounded-lg p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-700/80 rounded-lg p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
               ))}
@@ -2419,14 +2419,14 @@ function C10_MathematicsConditionsParallelPerpendicularSim({
 
           {/* Real-World Activity Card */}
           <div className="p-5 bg-slate-900/90 border border-slate-800 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
               🏗️ Real-World Engineering Challenge: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

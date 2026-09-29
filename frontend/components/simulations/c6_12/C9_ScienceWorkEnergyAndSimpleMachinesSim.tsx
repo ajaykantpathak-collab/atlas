@@ -51,11 +51,11 @@ export function C9_ScienceWorkEnergyAndSimpleMachinesSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Work and Energy</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Work and Energy</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Work, Energy, and Simple Machines</h1>
         </div>
         <div className="flex gap-2">
-          <button onClick={() => setTab('energy')} className={`px-3 py-1.5 rounded-full text-xs font-bold ${tab === 'energy' ? 'bg-sky-600 text-white' : 'bg-slate-900 border border-slate-700 text-slate-400'}`}>
+          <button onClick={() => setTab('energy')} className={`px-3 py-1.5 rounded-full text-xs font-bold ${tab === 'energy' ? 'bg-gold-600 text-white' : 'bg-slate-900 border border-slate-700 text-slate-400'}`}>
             Energy drop
           </button>
           <button onClick={() => setTab('lever')} className={`px-3 py-1.5 rounded-full text-xs font-bold ${tab === 'lever' ? 'bg-amber-600 text-white' : 'bg-slate-900 border border-slate-700 text-slate-400'}`}>
@@ -85,18 +85,18 @@ export function C9_ScienceWorkEnergyAndSimpleMachinesSim() {
           </div>
           <div className="md:col-span-2 space-y-3">
             <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
-              <label className="text-xs text-slate-400 flex justify-between"><span>Mass</span><span className="text-sky-300 font-mono font-bold">{mass} kg</span></label>
-              <input type="range" min={1} max={20} value={mass} aria-label="mass" onChange={(e) => setMass(Number(e.target.value))} className="w-full mt-2 accent-sky-500" />
-              <label className="text-xs text-slate-400 flex justify-between mt-3"><span>Drop height</span><span className="text-indigo-300 font-mono font-bold">{height} m</span></label>
-              <input type="range" min={1} max={20} value={height} aria-label="drop height" onChange={(e) => { setHeight(Number(e.target.value)); setDropT(null); }} className="w-full mt-2 accent-indigo-500" />
-              <button onClick={() => setDropT(0)} className="w-full mt-3 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-sm font-bold">
+              <label className="text-xs text-slate-400 flex justify-between"><span>Mass</span><span className="text-gold-300 font-mono font-bold">{mass} kg</span></label>
+              <input type="range" min={1} max={20} value={mass} aria-label="mass" onChange={(e) => setMass(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
+              <label className="text-xs text-slate-400 flex justify-between mt-3"><span>Drop height</span><span className="text-gold-300 font-mono font-bold">{height} m</span></label>
+              <input type="range" min={1} max={20} value={height} aria-label="drop height" onChange={(e) => { setHeight(Number(e.target.value)); setDropT(null); }} className="w-full mt-2 accent-gold-500" />
+              <button onClick={() => setDropT(0)} className="w-full mt-3 py-2 rounded-lg bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold">
                 Drop the ball
               </button>
             </div>
             <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-sm space-y-1 font-mono">
-              <p className="text-xs uppercase font-bold text-indigo-400 tracking-wider font-sans">Energy audit</p>
+              <p className="text-xs uppercase font-bold text-gold-400 tracking-wider font-sans">Energy audit</p>
               <p className="text-amber-300">PE at top = mgh = {pe} J</p>
-              <p className="text-indigo-300">Height now: {Math.max(0, height - fallen).toFixed(1)} m</p>
+              <p className="text-gold-300">Height now: {Math.max(0, height - fallen).toFixed(1)} m</p>
               <p className="text-emerald-300">Speed now: {fallen === 0 ? '0.00' : (Math.sqrt(2 * G * fallen)).toFixed(2)} m/s</p>
               <p className="text-slate-400">At impact all {pe} J is KE at {impactV.toFixed(1)} m/s</p>
             </div>
@@ -140,7 +140,7 @@ export function C9_ScienceWorkEnergyAndSimpleMachinesSim() {
               </div>
             </div>
             <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-sm space-y-1 font-mono">
-              <p className="text-xs uppercase font-bold text-indigo-400 tracking-wider font-sans">Machine maths</p>
+              <p className="text-xs uppercase font-bold text-gold-400 tracking-wider font-sans">Machine maths</p>
               <p className="text-emerald-300">MA = effort arm / load arm = {ma.toFixed(2)}</p>
               <p className="text-amber-300">Effort needed = load / MA = {effortNeeded.toFixed(1)} N</p>
               <p className={balanced ? 'text-lime-300 font-bold' : 'text-slate-400'}>
@@ -154,14 +154,14 @@ export function C9_ScienceWorkEnergyAndSimpleMachinesSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> work W = F x d transfers energy, measured in joules. A ball of mass m at
+          <span className="font-bold text-gold-300">Big idea:</span> work W = F x d transfers energy, measured in joules. A ball of mass m at
           height h stores PE = mgh; as it falls, PE converts into KE until at the bottom v = sqrt(2gh) - energy is transformed, never lost.
           A lever trades distance for force: the mechanical advantage MA = effort arm / load arm lets a small effort balance a big load.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Double the drop height from 5 m to 20 m and check that the impact speed only doubles (v depends on sqrt(h), not h).</p>
         <p className="mt-1">2. Set the load to 160 N and load arm 2.0 m, then tune your effort until the beam balances and compare with load / MA.</p>

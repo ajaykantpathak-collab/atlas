@@ -178,7 +178,7 @@ function C6_ScienceFibreToFabricSim() {
                 <span className="text-rose-700 font-black">{density}</span>
               </label>
               <input type="range" min={2} max={10} value={density} onChange={(e) => setDensity(Number(e.target.value))} className="w-full accent-rose-500" />
-              <button onClick={() => setKnit(!knit)} className="w-full mt-2 px-3 py-2 rounded-xl text-xs font-black bg-sky-500 text-white hover:bg-sky-600 transition-colors">
+              <button onClick={() => setKnit(!knit)} className="w-full mt-2 px-3 py-2 rounded-xl text-xs font-black bg-gold-500 text-white hover:bg-gold-600 transition-colors">
                 Switch to {knit ? 'weaving (loom)' : 'knitting (loops)'}
               </button>
             </div>
@@ -194,9 +194,9 @@ function C6_ScienceFibreToFabricSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Set twist to 1 and run the pull test, then set twist to 10 and test again. How many turns does yarn need to survive?</li>
           <li>On the loom, compare 2 threads/cm with 10 threads/cm. Which fabric would let more wind through on a hot day?</li>
         </ol>

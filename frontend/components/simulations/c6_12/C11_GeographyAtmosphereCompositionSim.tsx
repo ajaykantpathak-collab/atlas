@@ -76,9 +76,9 @@ export function C11_GeographyAtmosphereCompositionSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700">🎈</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🎈</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 11 -- Composition and Structure of Atmosphere</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Composition and Structure of Atmosphere</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Probe the Air: What It Is Made Of, Layer by Layer</h1>
         </div>
       </div>
@@ -140,7 +140,7 @@ export function C11_GeographyAtmosphereCompositionSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Pressure</p>
-              <p className="font-mono font-bold text-sky-300">{pressure.toFixed(0)} hPa</p>
+              <p className="font-mono font-bold text-gold-300">{pressure.toFixed(0)} hPa</p>
             </div>
           </div>
         </div>
@@ -188,8 +188,8 @@ export function C11_GeographyAtmosphereCompositionSim() {
             </p>
           </div>
 
-          <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs">
-            <p className="font-bold text-violet-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Ride the probe from 0 to 100 km. Count the temperature direction changes (falls-rises-falls-rises). Those flips ARE the layer boundaries.</p>
             <p>2. Push water vapor to 4% (tropical air). Which two slices shrink to make room, and by how much?</p>
           </div>

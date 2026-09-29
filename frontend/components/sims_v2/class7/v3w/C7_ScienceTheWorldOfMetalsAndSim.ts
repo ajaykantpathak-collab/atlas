@@ -11,7 +11,7 @@ export const w_c7_sciencetheworldofmetalsandsim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Introduction to Metals and Non-metals: Examples',
     chapters: [],
     nodeIds: ['c7_chem_ch01_001', 'c7_chem_ch01_008', 'c7_chem_ch01_002', 'c7_chem_ch01_003', 'c7_chem_ch01_004', 'c7_chem_ch01_005', 'c7_chem_ch01_006', 'c7_chem_ch01_007', 'c7_chem_ch01_009', 'c7_chem_ch01_010', 'c7_chem_ch01_011', 'c7_chem_ch01_012', 'c7_physics_ch01_004', 'c7_physics_ch01_008', 'c7_physics_ch01_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When walking through your school kitchen or examining household utensils in India, you notice that pressure.', goal: 'Master Introduction to Metals and Non-metals: Examples.' },
     discovery: {
         question: 'Which of the following is a liquid non-metal commonly found in laboratory thermometers?',
@@ -20,7 +20,7 @@ export const w_c7_sciencetheworldofmetalsandsim: SimDef = {
         hook: 'Students often assume that all shiny materials are metals and all dull materials are non-metals.',
     },
     teaching: [
-        { title: 'Metals are naturally occurring chemical.', text: 'Metals are naturally occurring chemical elements that are typically lustrous, malleable, ductile, and good conductors of heat and electricity (such as iron, copper, and aluminium), whereas non-metals.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Metals are naturally occurring chemical.', text: 'Metals are naturally occurring chemical elements that are typically lustrous, malleable, ductile, and good conductors of heat and electricity (such as iron, copper, and aluminium), whereas non-metals.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_chem_ch01_001', title: 'Metals are naturally occurring chemical.',

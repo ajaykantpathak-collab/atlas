@@ -11,7 +11,7 @@ export const w_c10_econapplicationselasticitysupplymeaningsim: SimDef = {
     classLevel: 10, subject: 'economics', topic: 'Modern Forms of Money: Currency and Bank Deposits',
     chapters: [],
     nodeIds: ['c10_eco_cbse_03_002', 'c10_eco_cbse_03_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you buy a textbook for ₹450. You can pay with a ₹500 note (currency) or scan a UPI QR code (bank.', goal: 'Master n Applications Elasticity Supply Meaning.' },
     discovery: {
         question: 'Riya has ₹50,000 in her savings account. She writes a cheque for ₹12,000 to Rohan. Rohan deposits the cheque in his current account.',
@@ -20,7 +20,7 @@ export const w_c10_econapplicationselasticitysupplymeaningsim: SimDef = {
         hook: 'Students often think **"Money in my bank account is just a record; real money is only cash."** They write in exams:.',
     },
     teaching: [
-        { title: 'Modern forms of money in India consist of.', text: 'Modern forms of money in India consist of **currency** (paper notes and coins) issued by the Reserve Bank of India (RBI) on behalf of the central government, and **bank deposits** (demand deposits).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Modern forms of money in India consist of.', text: 'Modern forms of money in India consist of **currency** (paper notes and coins) issued by the Reserve Bank of India (RBI) on behalf of the central government, and **bank deposits** (demand deposits).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_eco_cbse_03_002', title: 'Modern forms of money in India consist.',

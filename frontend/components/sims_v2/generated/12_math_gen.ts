@@ -84,13 +84,13 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Differential Of a Function y = f",
+    "title": "Differential Of a Function y",
     "text": "The differential of a function y = f(x) is defined as dy = f'(x) dx, where dx = Δx is a small change in the independent variable x, and dy approximates the corresponding change Δy in the dependent variable y.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "A First-order, First-degree Differential",
+    "title": "First-order, First-degree Differential",
     "text": "A first-order, first-degree differential equation of the form \\(\\frac{dy}{dx} = F(x, y)\\) is called homogeneous if \\(F(x, y)\\) is a homogeneous function of degree zero, i.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -114,13 +114,13 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Binary Operation * On a Set S",
+    "title": "Binary Operation On a Set S",
     "text": "A binary operation * on a set S is commutative if a * b = b * a for every a, b ∈ S. It is associative if (a * b) * c = a * (b * c) for every a, b, c ∈ S.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Mean Value Theorem States",
+    "title": "Mean Value Theorem",
     "text": "The Mean Value Theorem (MVT) states: If a function \\( f \\) is continuous on the closed interval \\([a, b]\\) and differentiable on the open interval \\((a, b)\\), then there exists at least one point \\( c \\in (a, b) \\) such that \\( f'(c) = \\frac{f(b) - f(a)}{b -",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -202,16 +202,58 @@ export const C12_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the degree of the differential equation: (d²y/dx²)³ + 2(dy/dx)² + 3y = 0. Is the degree defined? Justify in one sentence.",
-    "answer": "The degree is 3. The equation is a polynomial in derivatives (y'' and y'), the highest order derivative is d²y/dx² (order 2), and its highest power is 3",
-    "options": [
-     "The integrating factor is \\(e^{\\int \\frac{2}{x} dx} = e^{2 \\ln x} = x^2\\)",
-     "(C) Equation (C) contains the derivative \\( \\frac{dy}{dx} \\), making it a differential equation. Equations (A), (B), and (D) involve only variables and constants, not derivatives",
-     "The degree is 3. The equation is a polynomial in derivatives (y'' and y'), the highest order derivative is d²y/dx² (order 2), and its highest power is 3"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "If polynomial",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "State \"degree not defined\" with",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Identify whether a given differential",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Determine the order correctly",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'degree of a differential equation' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., degree = 2) reveals the student confused the power of the first derivative with the power of the highest order derivative, or forgot that degree refers specifically to the highest order derivative.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Identify whether a given differential equation is a polynomial in its derivatives, (2)",
     "id": "gen_c12_math_ch09_q2",
     "nodeId": "c12_math_cbse_09_002",
     "difficulty": "standard",
@@ -617,7 +659,7 @@ export const C12_MATH_GEN: SimDef[] = [
     "options": [
      "Order = 2 Step 1: Identify all derivatives: \\( \\frac{d^2y}{dx^2} \\) (second derivative) and \\( \\frac{dy}{dx} \\) (first derivative)",
      "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives",
-     "Start, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
+     "Let, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
      "Yes, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)"
     ],
     "hint": "Straight from the 'A first-order first-degree' slide -- match the key terms.",
@@ -760,6 +802,63 @@ export const C12_MATH_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the dependent and independent",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between ordinary differential",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "state the order by locating the highest",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "examine any given equation and correctly",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) examine any given equation and correctly decide whether it is a differential equation, (2) identify",
+    "id": "gen_c12_math_ch09_q13",
+    "nodeId": "c12_math_cbse_09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "CREATE: Construct a homogeneous differential equation (first order, first degree) whose general solution is the family of curves \\(x^2 + y^2 = 2Cx\\) (where \\(C\\) is an arbitrary constant). Show the steps to derive the differential equation from the given solution.",
     "sortItems": [
      {
@@ -833,7 +932,7 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer reveals: If a student gives \\(y' = \\frac{y^2 - x^2}{2xy}\\) but forgets to verify homogeneity, they may not understand the definition.",
-    "id": "gen_c12_math_ch09_q13",
+    "id": "gen_c12_math_ch09_q14",
     "nodeId": "c12_math_cbse_09_006",
     "difficulty": "advanced"
    },
@@ -846,9 +945,9 @@ export const C12_MATH_GEN: SimDef[] = [
      "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR",
      "(1) The investigation — checking the two-element tables shows that the symmetric ones, such as the exclusive-or, logical-and and equivalence tables"
     ],
-    "hint": "Straight from the 'binary operation * on a set S' slide -- match the key terms.",
+    "hint": "Straight from the 'binary operation on a set S' slide -- match the key terms.",
     "misconception": "A student who asserts a table without verifying associativity for every triple produces a wrong example.",
-    "id": "gen_c12_math_ch09_q14",
+    "id": "gen_c12_math_ch09_q15",
     "nodeId": "c12_math_cbse_01_009",
     "difficulty": "standard"
    },
@@ -863,7 +962,7 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Simplifying expressions using' slide -- match the key terms.",
     "misconception": "A student who assumes sin-inverse of sin always returns the angle has a dangerous habit that fails on extended domains.",
-    "id": "gen_c12_math_ch09_q15",
+    "id": "gen_c12_math_ch09_q16",
     "nodeId": "c12_math_cbse_02_007",
     "difficulty": "advanced"
    },
@@ -876,9 +975,9 @@ export const C12_MATH_GEN: SimDef[] = [
      "Equation (A) has degree 1 (polynomial in y''). Equation (B) has degree NOT DEFINED because √(d²y/dx²) = (d²y/dx²)^(1/2) is a fractional power",
      "(1) Rolle's theorem — when the endpoint values are equal, the function has an interior point where its derivative vanishes, (2) The generalisation"
     ],
-    "hint": "Straight from the 'Mean Value Theorem  states' slide -- match the key terms.",
+    "hint": "Straight from the 'Mean Value Theorem' slide -- match the key terms.",
     "misconception": "A student who omits the constant term or writes the wrong bracket has missed the geometric idea of subtracting the secant to equalise the endpoints.",
-    "id": "gen_c12_math_ch09_q16",
+    "id": "gen_c12_math_ch09_q17",
     "nodeId": "c12_math_cbse_05_013",
     "difficulty": "standard"
    },
@@ -891,26 +990,11 @@ export const C12_MATH_GEN: SimDef[] = [
      "Differentiate the student's solution implicitly w.r.t \\(x\\): \\(\\frac{1}{x^2+y^2}(2x + 2y y') = \\frac{2}{1+(y/x)^2} \\cdot \\frac{x y' - y}{x^2}\\)",
      "(1) Why it works — the tangent line approximates a curve only in a small neighbourhood, because the function is locally linear and the curve and its tangent become"
     ],
-    "hint": "Straight from the 'differential of a function y = f' slide -- match the key terms.",
+    "hint": "Straight from the 'differential of a function y' slide -- match the key terms.",
     "misconception": "A student who says the formula works for any step size applies it blindly, which is the classic trap.",
-    "id": "gen_c12_math_ch09_q17",
+    "id": "gen_c12_math_ch09_q18",
     "nodeId": "c12_math_cbse_06_006",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student writes: \"The order of the differential equation \\( y''' + 2y'' + y' = 0 \\) is 3 because there are three terms.\" Evaluate this statement and correct it if necessary.",
-    "answer": "The statement is incorrect. The order is 3, but the reason is wrong. The order is 3 because the highest derivative present is \\( y''' \\) (third derivative)",
-    "options": [
-     "Equation (I): Ordinary differential equation (ODE), order = 2. Only one independent variable \\( x \\); highest derivative is \\( \\frac{d^2y}{dx^2} \\)",
-     "Yes, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\)",
-     "The statement is incorrect. The order is 3, but the reason is wrong. The order is 3 because the highest derivative present is \\( y''' \\) (third derivative)"
-    ],
-    "hint": "Straight from the 'differential equation' slide -- match the key terms.",
-    "misconception": "If the student had written \"order is 3 because the highest derivative is the third derivative\", that would be correct.",
-    "id": "gen_c12_math_ch09_q18",
-    "nodeId": "c12_math_cbse_09_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -925,15 +1009,15 @@ export const C12_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_math_ch12",
-  "title": "The Shortest Distance Between Two",
+  "title": "Linear Programming Problem",
   "subtitle": "Mathematics · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "maths",
-  "topic": "The Shortest Distance Between Two",
+  "topic": "Linear Programming Problem",
   "chapters": [
-   "Mathematics Ch11: The Shortest Distance Between Two",
-   "Mathematics Ch12: The Shortest Distance Between Two"
+   "Mathematics Ch11: Linear Programming Problem",
+   "Mathematics Ch12: Linear Programming Problem"
   ],
   "nodeIds": [
    "c12_math_cbse_12_001",
@@ -951,7 +1035,7 @@ export const C12_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see The Shortest Distance Between Two directly with your eyes?",
+   "question": "Can you see Linear Programming Problem directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -974,7 +1058,7 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Shortest Distance Between Two",
+    "title": "The Shortest Distance Between Two Skew",
     "text": "The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -986,7 +1070,7 @@ export const C12_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Shortest Distance Between Two",
+    "title": "The Shortest Distance Between Two Parallel",
     "text": "The shortest distance between two parallel lines in three-dimensional space is the length of the perpendicular segment drawn from any point on one line to the other line.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1066,7 +1150,7 @@ export const C12_MATH_GEN: SimDef[] = [
      "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
      "Example: A toy maker produces cars (₹200 profit) and dolls (₹150 profit). Each car needs 2 hrs machine time, each doll 1 hr; total 20 hrs available"
     ],
-    "hint": "Straight from the 'graphical method for solving a' slide -- match the key terms.",
+    "hint": "Straight from the 'graphical method for solving' slide -- match the key terms.",
     "misconception": "A poor answer gives constraints that produce a different feasible region or forgets non-negativity.",
     "id": "gen_c12_math_ch12_q2",
     "nodeId": "c12_math_cbse_12_002",
@@ -1157,8 +1241,8 @@ export const C12_MATH_GEN: SimDef[] = [
     "question": "State the exact mathematical condition that distinguishes a bounded feasible region from an unbounded one in a two-variable linear programming problem.",
     "answer": "A feasible region is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction)",
     "options": [
-     "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised",
-     "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has no point in",
+     "The student can translate a real‑world optimisation scenario (investment, diet, production",
+     "The student can independently read a word problem (diet, manufacturing, or transportation), identify decision variables",
      "A feasible region is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction)"
     ],
     "hint": "Straight from the 'feasible region in a linear' slide -- match the key terms.",
@@ -1277,7 +1361,7 @@ export const C12_MATH_GEN: SimDef[] = [
      "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
      "B) 4x + 2y ≥ 80. The requirement is \"at least 80 units\", so the total vitamin A from both foods (4x from X and 2y from Y) must be greater than or equal to 80"
     ],
-    "hint": "Straight from the 'Linear Programming Problem  word' slide -- match the key terms.",
+    "hint": "Straight from the 'Linear Programming Problem word' slide -- match the key terms.",
     "misconception": "A wrong answer A (≤) would mean the diet provides at most 80 units, which fails the minimum requirement. Choosing C or D shows confusion between vitamin A and vitamin B coefficients.",
     "id": "gen_c12_math_ch12_q7",
     "nodeId": "c12_math_cbse_12_006",
@@ -1456,13 +1540,28 @@ export const C12_MATH_GEN: SimDef[] = [
     "question": "State the three essential components of a Linear Programming Problem in standard form.",
     "answer": "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised",
     "options": [
-     "A feasible region is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction)",
-     "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres",
+     "The student can translate a real‑world optimisation scenario (investment, diet, production",
+     "The student can independently read a word problem (diet, manufacturing, or transportation), identify decision variables",
      "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised"
     ],
     "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing only \"objective function and constraints\" but omitting non‑negativity) reveals that the student does not recognise non‑negativity restrictions as a separate, mandatory component — a frequent source of errors in board exams where forgetting \\(x, y \\ge 0\\) leads to an unbounded feasible",
     "id": "gen_c12_math_ch12_q16",
+    "nodeId": "c12_math_cbse_12_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can translate a real‑world optimisation scenario (investment, diet, production",
+    "options": [
+     "The student can independently read a word problem (diet, manufacturing, or transportation), identify decision variables",
+     "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised",
+     "The student can translate a real‑world optimisation scenario (investment, diet, production"
+    ],
+    "hint": "Straight from the 'Linear Programming Problem' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can translate a real‑world optimisation scenario (investment, diet, production, transportation) into a",
+    "id": "gen_c12_math_ch12_q17",
     "nodeId": "c12_math_cbse_12_001",
     "difficulty": "standard"
    },
@@ -1477,22 +1576,6 @@ export const C12_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'feasible region in a linear' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\".",
-    "id": "gen_c12_math_ch12_q17",
-    "nodeId": "c12_math_cbse_12_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Determine whether the feasible region for the following constraints is bounded or unbounded. If unbounded, state the direction(s) in which it extends infinitely. Constraints: x + 2y ≥ 10, 3x + 4y ≤ 24, x ≥ 0, y ≥ 0.",
-    "answer": "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
-    "options": [
-     "The first student is correct. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\"",
-     "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley. Objective: Maximise \\(Z = 5000x + 3000y\\) Constraints: Land: \\(x + y \\le 10\\) Labour: \\(2x + y \\le 15\\) Fertiliser: \\(3x",
-     "Evaluation the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))",
-     "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6))"
-    ],
-    "hint": "Straight from the 'feasible region in a linear' slide -- match the key terms.",
-    "misconception": "A student who says \"unbounded because ≥ constraint\" reveals the misconception that any ≥ constraint makes the region unbounded; they must check intersection of all half-planes.",
     "id": "gen_c12_math_ch12_q18",
     "nodeId": "c12_math_cbse_12_004",
     "difficulty": "standard"
@@ -1500,11 +1583,11 @@ export const C12_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the shortest distance between two?",
+    "What surprised you about linear programming problem?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "The Shortest Distance Between mastered! 🎯",
+  "successLine": "Linear Programming Problem mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

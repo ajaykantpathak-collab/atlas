@@ -11,7 +11,7 @@ export const w_c11_sociologysocietysocietysim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Individual and Society: The Dialectic Relationship',
     chapters: [],
     nodeIds: ['c11_soc_cbse_01_001', 'c11_soc_cbse_01_003', 'c11_soc_cbse_01_005', 'c11_soc_cbse_01_006', 'c11_soc_cbse_01_007', 'c11_soc_cbse_01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Start with the relatable scenario: "You\'re choosing subjects for Class 11.', goal: 'Master Individual and Society: The Dialectic Relationship.' },
     discovery: {
         question: 'A student says: "Unemployment is a personal trouble because the person didn\'t study hard enough." Using C.',
@@ -20,7 +20,7 @@ export const w_c11_sociologysocietysocietysim: SimDef = {
         hook: 'Students often think \'dialectical\' means \'conflict\' or \'argument\' — they write "individual vs society" as a battle.',
     },
     teaching: [
-        { title: 'The dialectical relationship between.', text: 'The dialectical relationship between individual and society refers to the ongoing, dynamic interplay where social structures (institutions, norms, culture, economic systems) shape individual choices.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The dialectical relationship between.', text: 'The dialectical relationship between individual and society refers to the ongoing, dynamic interplay where social structures (institutions, norms, culture, economic systems) shape individual choices.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_01_001', title: 'The dialectical relationship between.',

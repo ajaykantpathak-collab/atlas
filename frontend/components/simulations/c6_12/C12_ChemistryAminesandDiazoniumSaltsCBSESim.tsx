@@ -597,15 +597,15 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-cyan-500 selection:text-slate-950">
+    <div className="w-full min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-gold-500 selection:text-slate-950">
       {/* Top Banner & Header */}
       <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-50">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-slate-950 text-xl shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-slate-950 text-xl shadow-lg shadow-gold-500/20">
             N
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               Amines & Diazonium Salts
             </h1>
             <p className="text-xs text-slate-400">CBSE Class 12 Chemistry • Interactive Simulation</p>
@@ -629,7 +629,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
               }}
               className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ${
                 activeTab === tab.id
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 shadow-md shadow-cyan-500/20'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 shadow-md shadow-gold-500/20'
                   : 'text-slate-300 hover:text-white hover:bg-slate-700/50'
               }`}
             >
@@ -641,7 +641,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
         {/* Master Score Display */}
         <div className="flex items-center gap-3 bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700">
           <span className="text-xs text-slate-400 font-medium">Arena Score</span>
-          <span className="text-lg font-extrabold text-cyan-400">{score}</span>
+          <span className="text-lg font-extrabold text-gold-400">{score}</span>
         </div>
       </header>
 
@@ -667,7 +667,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                   }}
                   className={`p-3 rounded-xl text-xs font-bold transition-all ${
                     currentModule === idx
-                      ? 'bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 shadow-sm'
+                      ? 'bg-gold-500/10 border border-gold-500/50 text-gold-400 shadow-sm'
                       : 'text-slate-400 hover:bg-slate-800/60 hover:text-slate-200'
                   }`}
                 >
@@ -682,7 +682,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                      <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                         c12_chem_cbse_300 • c12_chem_cbse_301
                       </span>
                       <h2 className="text-xl font-bold mt-2 text-white">
@@ -773,9 +773,9 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     </svg>
 
                     <div className="absolute top-4 right-4 bg-slate-900/90 border border-slate-800 p-3 rounded-lg text-xs font-mono">
-                      <div>Hybridization: <span className="text-cyan-400 font-bold">sp³</span></div>
+                      <div>Hybridization: <span className="text-gold-400 font-bold">sp³</span></div>
                       <div>C-N-C Angle: <span className="text-amber-400 font-bold">{bondAngle}°</span></div>
-                      <div>Geometry: <span className="text-indigo-300 font-bold">Pyramidal</span></div>
+                      <div>Geometry: <span className="text-gold-300 font-bold">Pyramidal</span></div>
                     </div>
                   </div>
 
@@ -794,7 +794,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                           setBondAngle(Number(e.target.value));
                           playAudio('tap');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -810,7 +810,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                             }}
                             className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all ${
                               substituentType === deg
-                                ? 'bg-cyan-500 text-slate-950'
+                                ? 'bg-gold-500 text-slate-950'
                                 : 'bg-slate-800 text-slate-400 hover:text-white'
                             }`}
                           >
@@ -825,7 +825,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 {/* Hydrogen Bonding Live Canvas Simulation */}
                 <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
                   <div>
-                    <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                    <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                       c12_chem_cbse_311 • c12_chem_cbse_312
                     </span>
                     <h3 className="text-lg font-bold mt-2 text-white">Hydrogen Bonding & Water Solubility</h3>
@@ -841,7 +841,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                   <div className="bg-slate-950/80 p-3.5 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2">
                     <div className="flex items-center justify-between">
                       <span className="font-semibold text-slate-400">Boiling Point Order (Isomeric):</span>
-                      <span className="font-mono font-bold text-cyan-400">1° &gt; 2° &gt; 3°</span>
+                      <span className="font-mono font-bold text-gold-400">1° &gt; 2° &gt; 3°</span>
                     </div>
                     <p className="text-[11px] text-slate-400">
                       Primary amines form 2 intermolecular H-bonds per molecule, secondary form 1, while tertiary amines cannot form intermolecular H-bonds with themselves due to lack of N-H bonds!
@@ -855,7 +855,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             {currentModule === 1 && (
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
                 <div>
-                  <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                  <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                     c12_chem_cbse_302 • c12_chem_cbse_303 • c12_chem_cbse_304 • c12_chem_cbse_305
                   </span>
                   <h2 className="text-xl font-bold text-white mt-2">
@@ -889,11 +889,11 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                   ].map((card, i) => (
                     <div
                       key={i}
-                      className="bg-slate-950 border border-slate-800 p-5 rounded-xl space-y-3 hover:border-cyan-500/50 transition-all"
+                      className="bg-slate-950 border border-slate-800 p-5 rounded-xl space-y-3 hover:border-gold-500/50 transition-all"
                     >
                       <div className="flex justify-between items-center">
-                        <span className="text-sm font-bold text-cyan-400">{card.class}</span>
-                        <span className="text-xs font-mono bg-slate-800 px-2 py-0.5 rounded text-indigo-300">
+                        <span className="text-sm font-bold text-gold-400">{card.class}</span>
+                        <span className="text-xs font-mono bg-slate-800 px-2 py-0.5 rounded text-gold-300">
                           {card.formula}
                         </span>
                       </div>
@@ -926,27 +926,27 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                       </thead>
                       <tbody className="divide-y divide-slate-800">
                         <tr>
-                          <td className="p-2.5 font-mono text-cyan-300">CH₃-CH₂-NH₂</td>
+                          <td className="p-2.5 font-mono text-gold-300">CH₃-CH₂-NH₂</td>
                           <td className="p-2.5">Ethylamine</td>
                           <td className="p-2.5 font-bold text-emerald-400">Ethanamine</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 font-mono text-cyan-300">CH₃-CH(NH₂)-CH₃</td>
+                          <td className="p-2.5 font-mono text-gold-300">CH₃-CH(NH₂)-CH₃</td>
                           <td className="p-2.5">Isopropylamine</td>
                           <td className="p-2.5 font-bold text-emerald-400">Propan-2-amine</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 font-mono text-cyan-300">CH₃-NH-CH₂-CH₃</td>
+                          <td className="p-2.5 font-mono text-gold-300">CH₃-NH-CH₂-CH₃</td>
                           <td className="p-2.5">Methyl ethyl amine</td>
                           <td className="p-2.5 font-bold text-emerald-400">N-Methylethanamine</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 font-mono text-cyan-300">H₂N-(CH₂)₆-NH₂</td>
+                          <td className="p-2.5 font-mono text-gold-300">H₂N-(CH₂)₆-NH₂</td>
                           <td className="p-2.5">Hexamethylenediamine</td>
                           <td className="p-2.5 font-bold text-emerald-400">Hexane-1,6-diamine</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 font-mono text-cyan-300">C₆H₅-NH₂</td>
+                          <td className="p-2.5 font-mono text-gold-300">C₆H₅-NH₂</td>
                           <td className="p-2.5">Aniline</td>
                           <td className="p-2.5 font-bold text-emerald-400">Benzenamine</td>
                         </tr>
@@ -962,7 +962,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                 <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-5">
                   <div>
-                    <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                    <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                       c12_chem_cbse_313 • c12_chem_cbse_314
                     </span>
                     <h2 className="text-xl font-bold text-white mt-2">
@@ -977,7 +977,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     <div className="bg-slate-950 border border-slate-800 p-3 rounded-lg text-xs">
-                      <div className="text-cyan-400 font-bold mb-1">1. Inductive (+I)</div>
+                      <div className="text-gold-400 font-bold mb-1">1. Inductive (+I)</div>
                       <p className="text-slate-400">Alkyl groups push electron density to N, favoring basicity (3° &gt; 2° &gt; 1°).</p>
                     </div>
                     <div className="bg-slate-950 border border-slate-800 p-3 rounded-lg text-xs">
@@ -1001,7 +1001,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                             playAudio('tap');
                           }}
                           className={`px-3 py-1 rounded text-xs font-bold ${
-                            mediumType === 'gas' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                            mediumType === 'gas' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Gas Phase (No Solvation)
@@ -1012,7 +1012,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                             playAudio('tap');
                           }}
                           className={`px-3 py-1 rounded text-xs font-bold ${
-                            mediumType === 'aqueous' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                            mediumType === 'aqueous' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Aqueous Solution
@@ -1029,7 +1029,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                             playAudio('tap');
                           }}
                           className={`px-3 py-1 rounded text-xs font-bold ${
-                            alkylGroup === 'methyl' ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'
+                            alkylGroup === 'methyl' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Methyl (-CH₃)
@@ -1040,7 +1040,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                             playAudio('tap');
                           }}
                           className={`px-3 py-1 rounded text-xs font-bold ${
-                            alkylGroup === 'ethyl' ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'
+                            alkylGroup === 'ethyl' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Ethyl (-C₂H₅)
@@ -1049,9 +1049,9 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     </div>
 
                     {/* Result Card */}
-                    <div className="bg-slate-900 border border-cyan-500/30 p-4 rounded-lg">
+                    <div className="bg-slate-900 border border-gold-500/30 p-4 rounded-lg">
                       <div className="text-xs text-slate-400 font-mono">Resulting Basicity Order:</div>
-                      <div className="text-lg font-bold text-cyan-400 mt-1">
+                      <div className="text-lg font-bold text-gold-400 mt-1">
                         {mediumType === 'gas' ? (
                           <span>3° &gt; 2° &gt; 1° &gt; NH₃</span>
                         ) : alkylGroup === 'ethyl' ? (
@@ -1099,7 +1099,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             {currentModule === 3 && (
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
                 <div>
-                  <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                  <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                     c12_chem_cbse_315 • c12_chem_cbse_320
                   </span>
                   <h2 className="text-xl font-bold text-white mt-2">
@@ -1184,7 +1184,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                         }}
                         className={`w-9 h-9 rounded-full font-bold text-xs transition-all ${
                           resStep === step
-                            ? 'bg-cyan-500 text-slate-950 scale-110 shadow-lg shadow-cyan-500/30'
+                            ? 'bg-gold-500 text-slate-950 scale-110 shadow-lg shadow-gold-500/30'
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1208,7 +1208,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             {currentModule === 4 && (
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
                 <div>
-                  <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                  <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                     c12_chem_cbse_323 • c12_chem_cbse_325 • c12_chem_cbse_326 • c12_chem_cbse_327
                   </span>
                   <h2 className="text-xl font-bold text-white mt-2">
@@ -1219,7 +1219,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Synthesis Scheme */}
                   <div className="bg-slate-950 border border-slate-800 p-5 rounded-xl space-y-3">
-                    <h3 className="text-sm font-bold text-cyan-400">Preparation by Diazotisation</h3>
+                    <h3 className="text-sm font-bold text-gold-400">Preparation by Diazotisation</h3>
                     <div className="bg-slate-900 p-3 rounded-lg font-mono text-xs text-slate-200 border border-slate-800">
                       C₆H₅NH₂ + NaNO₂ + 2HCl <br />
                       <span className="text-amber-400">--- (273 - 278 K) ---&gt;</span> <br />
@@ -1232,7 +1232,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
                   {/* Sandmeyer & Displacement Reactions */}
                   <div className="bg-slate-950 border border-slate-800 p-5 rounded-xl space-y-3">
-                    <h3 className="text-sm font-bold text-cyan-400">Synthetic Transformations</h3>
+                    <h3 className="text-sm font-bold text-gold-400">Synthetic Transformations</h3>
                     <div className="space-y-2 text-xs">
                       <div className="flex justify-between items-center border-b border-slate-800 pb-1.5">
                         <span className="text-slate-300 font-mono">Cu₂Cl₂ / HCl (Sandmeyer)</span>
@@ -1262,7 +1262,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
         {activeTab === 'lab' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
             <div>
-              <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+              <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                 c12_chem_cbse_306 • c12_chem_cbse_308 • c12_chem_cbse_310 • c12_chem_cbse_323
               </span>
               <h2 className="text-2xl font-bold text-white mt-2">Organic Reaction Builder</h2>
@@ -1289,7 +1289,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                         }}
                         className={`p-2.5 rounded-lg text-xs font-bold border text-left transition-all ${
                           startingMat === mat.id
-                            ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400'
+                            ? 'bg-gold-500/10 border-gold-500 text-gold-400'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1304,7 +1304,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                   <select
                     value={reagent}
                     onChange={e => setReagent(e.target.value)}
-                    className="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-xs text-slate-200 font-mono focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-xs text-slate-200 font-mono focus:outline-none focus:border-gold-500"
                   >
                     <option value="Fe/HCl">Fe + conc. HCl (Reduction)</option>
                     <option value="H2/Pd-C">H₂ / Pd catalyst in ethanol</option>
@@ -1316,7 +1316,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
                 <button
                   onClick={handleExecuteReaction}
-                  className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-extrabold rounded-lg shadow-lg shadow-cyan-500/20 hover:opacity-95 transition-all"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-extrabold rounded-lg shadow-lg shadow-gold-500/20 hover:opacity-95 transition-all"
                 >
                   ⚡ Execute Transformation
                 </button>
@@ -1335,12 +1335,12 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
                       <div>
                         <div className="text-xs text-slate-500">Chemical Equation:</div>
-                        <div className="bg-slate-900 p-3 rounded-lg font-mono text-xs text-cyan-300 border border-slate-800 mt-1">
+                        <div className="bg-slate-900 p-3 rounded-lg font-mono text-xs text-gold-300 border border-slate-800 mt-1">
                           {reactionOutput.equation}
                         </div>
                       </div>
 
-                      <div className="p-3 bg-cyan-950/40 border border-cyan-800/60 rounded-lg text-xs text-cyan-200 leading-relaxed">
+                      <div className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-lg text-xs text-gold-200 leading-relaxed">
                         {reactionOutput.note}
                       </div>
                     </div>
@@ -1359,7 +1359,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
         {activeTab === 'tests' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
             <div>
-              <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+              <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                 c12_chem_cbse_317 • c12_chem_cbse_318 • c12_chem_cbse_319
               </span>
               <h2 className="text-2xl font-bold text-white mt-2">Laboratory Distinction Tests Visualizer</h2>
@@ -1385,7 +1385,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                         }}
                         className={`flex-1 py-2 rounded-lg text-xs font-bold transition-all ${
                           testAmine === sample.id
-                            ? 'bg-cyan-500 text-slate-950'
+                            ? 'bg-gold-500 text-slate-950'
                             : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'
                         }`}
                       >
@@ -1411,7 +1411,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                         }}
                         className={`w-full p-3 rounded-lg text-xs font-bold text-left border transition-all ${
                           testReagent === r.id
-                            ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400'
+                            ? 'bg-gold-500/10 border-gold-500 text-gold-400'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1470,7 +1470,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     </div>
                     <div>
                       <span className="text-slate-500 font-bold">Equation:</span>
-                      <div className="font-mono text-cyan-300 text-[11px] mt-0.5">{testResult.equation}</div>
+                      <div className="font-mono text-gold-300 text-[11px] mt-0.5">{testResult.equation}</div>
                     </div>
                     <p className="text-[11px] text-slate-400 border-t border-slate-800 pt-2">{testResult.explanation}</p>
                   </div>
@@ -1488,7 +1488,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             {/* Header / Progress Bar */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-md border border-cyan-800">
+                <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800">
                   {CHALLENGES[currentChallengeIdx].nodeId}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-2">
@@ -1502,7 +1502,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     key={idx}
                     className={`w-3 h-3 rounded-full transition-all ${
                       idx === currentChallengeIdx
-                        ? 'bg-cyan-400 ring-4 ring-cyan-500/20 scale-125'
+                        ? 'bg-gold-400 ring-4 ring-gold-500/20 scale-125'
                         : challengeCompleted[idx]
                         ? 'bg-emerald-500'
                         : 'bg-slate-800'
@@ -1567,7 +1567,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
               {selectedOption !== null && (
                 <button
                   onClick={nextChallenge}
-                  className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-lg transition-all shadow-lg shadow-cyan-500/20"
+                  className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-lg transition-all shadow-lg shadow-gold-500/20"
                 >
                   {currentChallengeIdx < CHALLENGES.length - 1 ? 'Next Question →' : 'Finish Challenge Set'}
                 </button>
@@ -1587,7 +1587,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 animate={{ opacity: 1, y: 0 }}
                 className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed mt-4"
               >
-                <strong className="text-cyan-400 block mb-1">NCERT Explanation:</strong>
+                <strong className="text-gold-400 block mb-1">NCERT Explanation:</strong>
                 {CHALLENGES[currentChallengeIdx].explanation}
               </motion.div>
             )}

@@ -1202,7 +1202,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
           exit={{ opacity: 0, y: -20 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-teal-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-teal-800/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-teal-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-teal-800/40 shadow-xl">
             <div className="flex items-center gap-2 text-teal-400 font-bold mb-2">
               <span aria-hidden="true">🔬</span>
               <span>Case Scenario Hook</span>
@@ -1271,7 +1271,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-teal-600 to-indigo-600 text-white font-bold rounded-xl shadow-lg shadow-teal-500/20 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-teal-600 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-teal-500/20 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1338,7 +1338,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                             max={400}
                             value={totalCells}
                             onChange={(e) => setTotalCells(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                       </div>
@@ -1358,8 +1358,8 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                   </div>
 
                   {/* Brilliant Observation Pattern: MI Observation */}
-                  <div className="p-5 bg-slate-950 rounded-2xl border border-indigo-900/40 space-y-3">
-                    <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
+                  <div className="p-5 bg-slate-950 rounded-2xl border border-gold-900/40 space-y-3">
+                    <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
                       <span>👁️ Observation Check</span>
                     </div>
                     <p className="text-sm text-slate-200 font-semibold">{OBSERVATION_QUESTIONS[0].question}</p>
@@ -1380,14 +1380,14 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                                 : 'bg-slate-900/80 hover:bg-slate-800 border-slate-800 text-slate-300'
                             }`}
                           >
-                            <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
+                            <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
                             {opt}
                           </button>
                         );
                       })}
                     </div>
                     {observationRevealed['obs_1'] && (
-                      <p className="text-xs text-indigo-300 bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-800/40">
+                      <p className="text-xs text-gold-300 bg-gold-950/40 p-2.5 rounded-lg border border-gold-800/40">
                         💡 {OBSERVATION_QUESTIONS[0].explanation}
                       </p>
                     )}
@@ -1644,7 +1644,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                     <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>pH:</span>
-                        <span className="text-indigo-400 font-bold">{phVal}</span>
+                        <span className="text-gold-400 font-bold">{phVal}</span>
                       </div>
                       <input
                         aria-label="Bioreactor pH level"
@@ -1654,7 +1654,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                         step={0.2}
                         value={phVal}
                         onChange={(e) => setPhVal(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1685,7 +1685,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                     </div>
                     <div>
                       <p className="text-xs text-slate-400">Apparent Vmax</p>
-                      <p className="text-2xl font-black text-indigo-400">{enzymeKinetics.vmax} <span className="text-xs text-slate-400 font-normal">μmol/min</span></p>
+                      <p className="text-2xl font-black text-gold-400">{enzymeKinetics.vmax} <span className="text-xs text-slate-400 font-normal">μmol/min</span></p>
                     </div>
                     <div>
                       <p className="text-xs text-slate-400">Apparent Km</p>
@@ -1694,8 +1694,8 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                   </div>
 
                   {/* Second Observation Pattern Question */}
-                  <div className="p-5 bg-slate-950 rounded-2xl border border-indigo-900/40 space-y-3">
-                    <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
+                  <div className="p-5 bg-slate-950 rounded-2xl border border-gold-900/40 space-y-3">
+                    <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
                       <span>👁️ Kinetics Observation Check</span>
                     </div>
                     <p className="text-sm text-slate-200 font-semibold">{OBSERVATION_QUESTIONS[1].question}</p>
@@ -1716,14 +1716,14 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                                 : 'bg-slate-900/80 hover:bg-slate-800 border-slate-800 text-slate-300'
                             }`}
                           >
-                            <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
+                            <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
                             {opt}
                           </button>
                         );
                       })}
                     </div>
                     {observationRevealed['obs_2'] && (
-                      <p className="text-xs text-indigo-300 bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-800/40">
+                      <p className="text-xs text-gold-300 bg-gold-950/40 p-2.5 rounded-lg border border-gold-800/40">
                         💡 {OBSERVATION_QUESTIONS[1].explanation}
                       </p>
                     )}
@@ -1838,7 +1838,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                 <canvas ref={canvasRef} width={380} height={140} className="w-full rounded-xl border border-slate-800" aria-label="Bioreactor Simulation Canvas" />
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Calculated Mitotic Index: <strong className="text-teal-400">{calculatedMI}%</strong></span>
-                  <span>Enzyme Velocity: <strong className="text-indigo-400">{enzymeKinetics.v} μmol/min</strong></span>
+                  <span>Enzyme Velocity: <strong className="text-gold-400">{enzymeKinetics.v} μmol/min</strong></span>
                 </div>
               </div>
 
@@ -1872,7 +1872,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                     step={0.2}
                     value={phVal}
                     onChange={(e) => setPhVal(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div className="flex gap-2 pt-2">
@@ -1911,7 +1911,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
 
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5">
               <motion.div
-                className="h-full bg-gradient-to-r from-teal-500 via-indigo-500 to-purple-500 rounded-full"
+                className="h-full bg-gradient-to-r from-teal-500 via-gold-500 to-purple-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1990,7 +1990,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-gradient-to-r from-teal-600 to-indigo-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow-md flex items-center gap-1.5"
+                      className="px-4 py-2 bg-gradient-to-r from-teal-600 to-gold-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow-md flex items-center gap-1.5"
                     >
                       <span>⠿</span>
                       <span>{item.label}</span>
@@ -2219,7 +2219,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextChallenge}
-                    className="px-6 py-2.5 bg-gradient-to-r from-teal-600 to-indigo-600 text-white font-bold rounded-xl text-sm shadow-lg shadow-teal-500/20"
+                    className="px-6 py-2.5 bg-gradient-to-r from-teal-600 to-gold-600 text-white font-bold rounded-xl text-sm shadow-lg shadow-teal-500/20"
                   >
                     {currentChallenge + 1 >= filteredChallenges.length ? 'Finish Biotechnology Module →' : 'Next Competency Challenge →'}
                   </motion.button>
@@ -2233,7 +2233,7 @@ export function C11_BiotechnologySignificanceMitosisMeiosisSim({
       {/* ─── PHASE 5: COMPLETE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-8 bg-gradient-to-br from-teal-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-teal-700/50 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-teal-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-teal-700/50 text-center space-y-4">
             <h2 className="text-3xl font-black text-white">Biotechnology Unit Mastered!</h2>
             <p className="text-slate-300 text-sm">
               Your overall competency score: <strong className="text-teal-400 text-xl">{Math.max(0, 100 - errors * 5)}%</strong>

@@ -116,8 +116,8 @@ export const c11_cs_ch09_p1: SimDef = {
           hint: 'Revisit the introduction to file handling (c11_cs_cbse_09_001), focusing on the.',
           misconception: '**“`open()` reads the file content into memory.”** Many students believe that `f = open(\'file.txt\')` loads the entire.',
           parts: [
-                { id: 'a', prompt: 'Write a single Python statement to open the file `data.csv` located in the subfolder `records` (relative to the current script) for reading in text mode, and.', answer: '`f = open(\'records/data.csv\', \'r\')` — relative path, text-read mode',
-                  options: ['`f = open(\'records/data.csv\', \'r\')` — relative path, text-read mode', '`open()` reads the file content into memory', '`f = open(\'file'],
+                { id: 'a', prompt: 'Write a single Python statement to open the file `data.csv` located in the subfolder `records` (relative to the current script) for reading in text mode, and.', answer: '`f = open(\'records/data.csv\', \'r\')` Steps: 1) Identify the relative path',
+                  options: ['`f = open(\'records/data.csv\', \'r\')` Steps: 1) Identify the relative path', '`open()` reads the file content into memory', '`f = open(\'file'],
                   hint: 'Revisit the introduction to file handling (c11_cs_cbse_09_001), focusing on the definitions of text.',
                   misconception: '**“`open()` reads the file content into memory.”** Many students believe that `f = open(\'file.txt\')` loads the entire file into the.' },
                 { id: 'b', prompt: 'If you execute `f = open(\'missing.txt\', \'r\')` and the file `missing.txt` does not exist, what happens? Why is this behaviour important to anticipate?', answer: 'Python raises a `FileNotFoundError` exception',

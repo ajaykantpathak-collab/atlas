@@ -11,7 +11,7 @@ export const w_c12_chemistrysolutionscbsesim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Types of Solutions: Solid, Liquid, Gaseous',
     chapters: [],
     nodeIds: ['c12_chem_cbse_01_001', 'c12_chem_cbse_01_002', 'c12_chem_cbse_01_003', 'c12_chem_cbse_01_004', 'c12_chem_cbse_01_005', 'c12_chem_cbse_01_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Look around your kitchen: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid),.', goal: 'Master Types of Solutions: Solid, Liquid, Gaseous.' },
     discovery: {
         question: 'Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.',
@@ -20,7 +20,7 @@ export const w_c12_chemistrysolutionscbsesim: SimDef = {
         hook: 'Students often think the solute\'s physical state decides the solution type.',
     },
     teaching: [
-        { title: 'A solution is a homogeneous mixture of two.', text: 'A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A solution is a homogeneous mixture of two.', text: 'A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_01_001', title: 'A solution is a homogeneous mixture of.',

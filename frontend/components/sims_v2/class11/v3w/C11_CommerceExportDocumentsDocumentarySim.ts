@@ -11,7 +11,7 @@ export const w_c11_commerceexportdocumentsdocumentarysim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Documents Required for Export-Import Transactions',
     chapters: [],
     nodeIds: ['c11_bs_cbse_11_008', 'c11_bs_cbse_11_001', 'c11_bs_cbse_11_002', 'c11_bs_cbse_11_003', 'c11_bs_cbse_11_004', 'c11_bs_cbse_01_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re Mr. Manchanda\'s son from the textbook case, helping your father export automobile components.', goal: 'Master Documents Required for Export-Import Transactions.' },
     discovery: {
         question: 'Explain why a Bill of Lading is called a "document of title" while a Shipping Bill is not, even though both are issued during export.',
@@ -20,7 +20,7 @@ export const w_c11_commerceexportdocumentsdocumentarysim: SimDef = {
         hook: 'Students believe **Bill of Entry is an export document** because it sounds like "Bill of Lading" and both have "Bill".',
     },
     teaching: [
-        { title: 'Export-import documentation refers to the.', text: 'Export-import documentation refers to the systematic set of legally mandated commercial, regulatory, and financial documents that facilitate the cross-border movement of goods, transfer of title,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Export-import documentation refers to the.', text: 'Export-import documentation refers to the systematic set of legally mandated commercial, regulatory, and financial documents that facilitate the cross-border movement of goods, transfer of title,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_11_008', title: 'Export-import documentation refers to.',

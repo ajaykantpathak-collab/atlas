@@ -1129,11 +1129,11 @@ export default function C12_BiologyHumanReproductionCBSESim({
             <span className="px-2.5 py-0.5 bg-pink-500/20 text-pink-400 border border-pink-500/40 rounded-full text-xs font-semibold">
               ISC Class 12 Biology
             </span>
-            <span className="px-2.5 py-0.5 bg-sky-500/20 text-sky-400 border border-sky-500/40 rounded-full text-xs font-semibold">
+            <span className="px-2.5 py-0.5 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full text-xs font-semibold">
               Chapter: Human Reproduction
             </span>
           </div>
-          <h1 className="text-2xl font-extrabold bg-gradient-to-r from-pink-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent mt-1">
+          <h1 className="text-2xl font-extrabold bg-gradient-to-r from-pink-400 via-gold-300 to-gold-400 bg-clip-text text-transparent mt-1">
             Human Reproduction & Developmental Physiology Interactive Simulation
           </h1>
         </div>
@@ -1168,7 +1168,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
             }}
             className={`px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-pink-600 to-indigo-600 text-white shadow-lg shadow-pink-500/25'
+                ? 'bg-gradient-to-r from-pink-600 to-gold-600 text-white shadow-lg shadow-pink-500/25'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1190,7 +1190,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
 
           <div className="grid md:grid-cols-3 gap-4">
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
-              <h3 className="font-semibold text-sky-400 text-sm mb-1">Gametogenesis Focus</h3>
+              <h3 className="font-semibold text-gold-400 text-sm mb-1">Gametogenesis Focus</h3>
               <p className="text-xs text-slate-400">Master spermatogenesis in seminiferous tubules & unequal cytokinesis in oogenesis.</p>
             </div>
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
@@ -1198,7 +1198,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
               <p className="text-xs text-slate-400">Simulate GnRH, FSH, LH, Estrogen, Progesterone, hCG, and Oxytocin pathways.</p>
             </div>
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
-              <h3 className="font-semibold text-indigo-400 text-sm mb-1">Fertilisation & Gestation</h3>
+              <h3 className="font-semibold text-gold-400 text-sm mb-1">Fertilisation & Gestation</h3>
               <p className="text-xs text-slate-400">Analyze acrosome reaction, zona block to polyspermy, blastocyst implantation, and birth.</p>
             </div>
           </div>
@@ -1270,7 +1270,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
 
           {/* Prediction Questions Card Container */}
           <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-6">
-            <h3 className="text-base font-bold text-sky-400">Clinical Prediction Scenarios</h3>
+            <h3 className="text-base font-bold text-gold-400">Clinical Prediction Scenarios</h3>
             {PREDICTION_QUESTIONS.map((pq, idx) => (
               <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                 <p className="text-sm font-semibold text-slate-200">{pq.question}</p>
@@ -1298,7 +1298,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
                 </div>
                 {predictionAnswers[idx] !== null && (
                   <p className="text-[11px] text-slate-400 italic mt-1">
-                    <span className="font-semibold text-sky-400">Verification Hint: </span>{pq.verifyInstruction}
+                    <span className="font-semibold text-gold-400">Verification Hint: </span>{pq.verifyInstruction}
                   </p>
                 )}
               </div>
@@ -1316,7 +1316,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
             <div className="grid grid-cols-1 md:grid-cols-5 gap-2 text-xs">
               {EXPLORATION_STEPS.map((step, i) => (
                 <div key={i} className="p-2 bg-slate-950 rounded border border-slate-800">
-                  <span className="font-bold text-sky-400">Station {i + 1}:</span> {step.title.split(':')[1]}
+                  <span className="font-bold text-gold-400">Station {i + 1}:</span> {step.title.split(':')[1]}
                 </div>
               ))}
             </div>
@@ -1357,9 +1357,9 @@ export default function C12_BiologyHumanReproductionCBSESim({
                 <span className="text-[10px] text-purple-400 font-semibold uppercase">LH Level</span>
                 <div className="text-lg font-bold text-purple-300">{Math.round(hormoneLevels.lh)} mIU/mL</div>
               </div>
-              <div className="bg-slate-950 p-3 rounded-lg border border-cyan-500/30">
-                <span className="text-[10px] text-cyan-400 font-semibold uppercase">FSH Level</span>
-                <div className="text-lg font-bold text-cyan-300">{Math.round(hormoneLevels.fsh)} mIU/mL</div>
+              <div className="bg-slate-950 p-3 rounded-lg border border-gold-500/30">
+                <span className="text-[10px] text-gold-400 font-semibold uppercase">FSH Level</span>
+                <div className="text-lg font-bold text-gold-300">{Math.round(hormoneLevels.fsh)} mIU/mL</div>
               </div>
               <div className="bg-slate-950 p-3 rounded-lg border border-pink-500/30">
                 <span className="text-[10px] text-pink-400 font-semibold uppercase">Estrogen</span>
@@ -1380,13 +1380,13 @@ export default function C12_BiologyHumanReproductionCBSESim({
           <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-base font-bold text-sky-400">Station 2: Gametogenesis Pipeline Comparator</h3>
+                <h3 className="text-base font-bold text-gold-400">Station 2: Gametogenesis Pipeline Comparator</h3>
                 <p className="text-xs text-slate-400">Compare meiotic progression, chromosome counts, and polar body ejection between sexes.</p>
               </div>
               <div className="flex gap-2">
                 <button
                   onClick={() => { setGametoType('spermatogenesis'); audioManager.play('tap'); }}
-                  className={`px-3 py-1.5 rounded text-xs font-semibold ${gametoType === 'spermatogenesis' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                  className={`px-3 py-1.5 rounded text-xs font-semibold ${gametoType === 'spermatogenesis' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                 >
                   Spermatogenesis (♂)
                 </button>
@@ -1400,32 +1400,32 @@ export default function C12_BiologyHumanReproductionCBSESim({
             </div>
 
             {gametoType === 'spermatogenesis' ? (
-              <div className="bg-slate-950 p-4 rounded-lg border border-sky-500/30 space-y-4">
+              <div className="bg-slate-950 p-4 rounded-lg border border-gold-500/30 space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-3 text-center text-xs">
                   <div className="p-3 bg-slate-900 rounded border border-slate-800">
-                    <div className="font-bold text-sky-400">1. Spermatogonia</div>
+                    <div className="font-bold text-gold-400">1. Spermatogonia</div>
                     <div className="text-slate-300 font-mono mt-1">2n = 46 (Diploid)</div>
                     <div className="text-[10px] text-slate-400 mt-1">Mitotic renewal at basement membrane</div>
                   </div>
                   <div className="p-3 bg-slate-900 rounded border border-slate-800">
-                    <div className="font-bold text-sky-400">2. Primary Spermatocyte</div>
+                    <div className="font-bold text-gold-400">2. Primary Spermatocyte</div>
                     <div className="text-slate-300 font-mono mt-1">2n = 46</div>
                     <div className="text-[10px] text-slate-400 mt-1">Undergoes Meiosis I</div>
                   </div>
                   <div className="p-3 bg-slate-900 rounded border border-slate-800">
-                    <div className="font-bold text-sky-400">3. Secondary Spermatocytes</div>
+                    <div className="font-bold text-gold-400">3. Secondary Spermatocytes</div>
                     <div className="text-slate-300 font-mono mt-1">n = 23 (2 cells)</div>
                     <div className="text-[10px] text-slate-400 mt-1">Undergoes Meiosis II</div>
                   </div>
                   <div className="p-3 bg-slate-900 rounded border border-slate-800">
-                    <div className="font-bold text-sky-400">4. Spermatids / Sperm</div>
+                    <div className="font-bold text-gold-400">4. Spermatids / Sperm</div>
                     <div className="text-slate-300 font-mono mt-1">n = 23 (4 functional)</div>
                     <div className="text-[10px] text-slate-400 mt-1">Spermiogenesis via Sertoli cells</div>
                   </div>
                 </div>
 
                 <div className="p-3 bg-slate-900 rounded border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-sky-400">Key Feature: </span> Continuous production throughout adult male lifespan (200–300 million sperm produced daily). Symmetric cytokinesis yields 4 equal viable spermatozoa.
+                  <span className="font-bold text-gold-400">Key Feature: </span> Continuous production throughout adult male lifespan (200–300 million sperm produced daily). Symmetric cytokinesis yields 4 equal viable spermatozoa.
                 </div>
               </div>
             ) : (
@@ -1464,14 +1464,14 @@ export default function C12_BiologyHumanReproductionCBSESim({
 
           {/* STATION 3: SPERM MOTILITY & FERTILISATION LAB */}
           <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-400">Station 3: Sperm Dynamics & Acrosome Reaction Simulator</h3>
+            <h3 className="text-base font-bold text-gold-400">Station 3: Sperm Dynamics & Acrosome Reaction Simulator</h3>
 
             <SpermStructureSVG />
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-950 p-4 rounded-lg border border-slate-800 text-xs">
               <div>
                 <label className="font-semibold text-slate-300 block mb-1">
-                  Sperm Progressive Motility: <span className="text-sky-400">{spermMotility}%</span>
+                  Sperm Progressive Motility: <span className="text-gold-400">{spermMotility}%</span>
                 </label>
                 <input
                   type="range"
@@ -1479,13 +1479,13 @@ export default function C12_BiologyHumanReproductionCBSESim({
                   max="100"
                   value={spermMotility}
                   onChange={(e) => setSpermMotility(parseInt(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
               <div>
                 <label className="font-semibold text-slate-300 block mb-1">
-                  Acrosomal Enzyme Pool (Acrosin/Hyaluronidase): <span className="text-sky-400">{acrosomeEnzyme}%</span>
+                  Acrosomal Enzyme Pool (Acrosin/Hyaluronidase): <span className="text-gold-400">{acrosomeEnzyme}%</span>
                 </label>
                 <input
                   type="range"
@@ -1493,7 +1493,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
                   max="100"
                   value={acrosomeEnzyme}
                   onChange={(e) => setAcrosomeEnzyme(parseInt(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1513,7 +1513,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-slate-950 p-4 rounded-lg border border-slate-800">
               <button
                 onClick={runFertilisationSim}
-                className="px-6 py-2.5 bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-bold rounded-lg shadow-md hover:from-sky-400 hover:to-indigo-500 transition-all text-xs"
+                className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-lg shadow-md hover:from-gold-400 hover:to-gold-500 transition-all text-xs"
               >
                 Simulate Sperm Insemination & Fertilisation &rarr;
               </button>
@@ -1552,7 +1552,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
               <div className="p-4 bg-slate-950 rounded-lg border border-slate-800 space-y-2">
-                <h4 className="font-bold text-sky-400">Cleavage & Implantation (Week 1–2)</h4>
+                <h4 className="font-bold text-gold-400">Cleavage & Implantation (Week 1–2)</h4>
                 <p className="text-slate-300">{'Zygote undergoes rapid mitotic cleavage (2 → 4 → 8 → 16 morula) traveling through'} oviduct. Blastocyst implants outer trophoblast into endometrium on Day 6–7.</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-lg border border-slate-800 space-y-2">
@@ -1613,7 +1613,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
 
           {/* Observation Questions Section in Lab Tab */}
           <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-sky-400">Lab Observation Assessment Questions</h3>
+            <h3 className="text-base font-bold text-gold-400">Lab Observation Assessment Questions</h3>
             {OBSERVATION_QUESTIONS.map((oq, idx) => (
               <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                 <p className="text-xs font-semibold text-slate-200">{oq.question}</p>
@@ -1669,7 +1669,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
                 }`}>
                   {CHALLENGES[currentChallengeIdx].difficulty}
                 </span>
-                <span className="px-2.5 py-1 rounded text-[10px] font-bold uppercase bg-sky-500/20 text-sky-400 border border-sky-500/40">
+                <span className="px-2.5 py-1 rounded text-[10px] font-bold uppercase bg-gold-500/20 text-gold-400 border border-gold-500/40">
                   {CHALLENGES[currentChallengeIdx].competencyLevel}
                 </span>
               </div>
@@ -1747,7 +1747,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
               ) : (
                 <button
                   onClick={handleNextChallenge}
-                  className="px-6 py-2.5 bg-gradient-to-r from-pink-600 to-indigo-600 hover:from-pink-500 hover:to-indigo-500 text-white font-bold text-xs rounded-lg shadow-lg transition-all"
+                  className="px-6 py-2.5 bg-gradient-to-r from-pink-600 to-gold-600 hover:from-pink-500 hover:to-gold-500 text-white font-bold text-xs rounded-lg shadow-lg transition-all"
                 >
                   {currentChallengeIdx < CHALLENGES.length - 1 ? 'Next Challenge &rarr;' : 'Finish & View Diagnostic Summary'}
                 </button>
@@ -1781,7 +1781,7 @@ export default function C12_BiologyHumanReproductionCBSESim({
 
           {/* Real World Activity Container */}
           <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-sky-400">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-400">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (

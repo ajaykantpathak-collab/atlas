@@ -1119,7 +1119,7 @@ function C8_BiologyDiffusionOsmosisSim({
           <span className="text-slate-600">→</span>
           <span className={`px-2 py-0.5 rounded-md ${phase === 'explore' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'text-slate-500'}`}>2. Guided Labs</span>
           <span className="text-slate-600">→</span>
-          <span className={`px-2 py-0.5 rounded-md ${phase === 'sandbox' ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30' : 'text-slate-500'}`}>3. Sandbox</span>
+          <span className={`px-2 py-0.5 rounded-md ${phase === 'sandbox' ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30' : 'text-slate-500'}`}>3. Sandbox</span>
           <span className="text-slate-600">→</span>
           <span className={`px-2 py-0.5 rounded-md ${phase === 'challenge' ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' : 'text-slate-500'}`}>4. Challenges</span>
         </div>
@@ -1257,7 +1257,7 @@ function C8_BiologyDiffusionOsmosisSim({
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Microscopic Membrane Simulator</span>
-                        <span className="text-cyan-400 font-mono text-[10px]">● Blue: Water | ● Yellow: Solute</span>
+                        <span className="text-gold-400 font-mono text-[10px]">● Blue: Water | ● Yellow: Solute</span>
                       </div>
                       <canvas ref={canvasRef} width={280} height={120} className="w-full rounded-lg bg-slate-900 border border-slate-800" />
                     </div>
@@ -1345,7 +1345,7 @@ function C8_BiologyDiffusionOsmosisSim({
                         aria-label="Select Xylem transport"
                         className={`flex-1 p-3 rounded-xl font-bold text-xs border transition-all ${
                           vascularMode === 'xylem'
-                            ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 shadow-md'
+                            ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-md'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1429,9 +1429,9 @@ function C8_BiologyDiffusionOsmosisSim({
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Humidity</span>
-                        <span className="text-cyan-400 font-mono">{humidity}%</span>
+                        <span className="text-gold-400 font-mono">{humidity}%</span>
                       </div>
-                      <input type="range" min={10} max={90} value={humidity} onChange={e => setHumidity(Number(e.target.value))} aria-label="Humidity slider" className="w-full accent-cyan-500" />
+                      <input type="range" min={10} max={90} value={humidity} onChange={e => setHumidity(Number(e.target.value))} aria-label="Humidity slider" className="w-full accent-gold-500" />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
@@ -1569,7 +1569,7 @@ function C8_BiologyDiffusionOsmosisSim({
                     <div className="w-48 p-2 bg-amber-950/80 border border-amber-500/50 rounded text-center text-[11px] font-bold text-amber-200">
                       Secondary (Frogs/Snakes): {(producerCount * 0.01).toFixed(0)} kg
                     </div>
-                    <div className="w-72 p-2.5 bg-cyan-950/80 border border-cyan-500/50 rounded text-center text-xs font-bold text-cyan-200">
+                    <div className="w-72 p-2.5 bg-gold-950/80 border border-gold-500/50 rounded text-center text-xs font-bold text-gold-200">
                       Primary Consumers (Grasshoppers): {(producerCount * 0.1).toFixed(0)} kg
                     </div>
                     <div className="w-96 p-3 bg-emerald-950/80 border border-emerald-500/50 rounded text-center text-sm font-bold text-emerald-200 shadow-lg">
@@ -1619,7 +1619,7 @@ function C8_BiologyDiffusionOsmosisSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
                 aria-label="Open free sandbox mode"
-                className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-emerald-600 hover:from-cyan-500 hover:to-emerald-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-emerald-600 hover:from-gold-500 hover:to-emerald-500 text-white text-xs font-bold rounded-xl shadow-lg"
               >
                 Enter Free Sandbox Mode →
               </motion.button>
@@ -1634,7 +1634,7 @@ function C8_BiologyDiffusionOsmosisSim({
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
             <div>
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-cyan-950 border border-cyan-700 text-cyan-400 text-xs font-bold uppercase">Sandbox Mode</span>
+                <span className="px-2 py-0.5 rounded bg-gold-950 border border-gold-700 text-gold-400 text-xs font-bold uppercase">Sandbox Mode</span>
                 <span className="text-xs text-slate-400">Zero grading pressure — test edge cases!</span>
               </div>
               <h2 className="text-xl font-black text-white mt-1">Multi-Physiology Sandbox Simulator</h2>
@@ -1663,12 +1663,12 @@ function C8_BiologyDiffusionOsmosisSim({
 
             {/* Control Pod 2: Weather & Transpiration */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-cyan-400 uppercase">2. Transpiration Engine</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">2. Transpiration Engine</h3>
               <div className="text-xs text-slate-300 font-mono">Suction: {transpirationRate} units</div>
               <div className="space-y-1">
                 <div className="flex justify-between text-[10px] text-slate-400"><span>Temp ({temperature}°C)</span><span>Humidity ({humidity}%)</span></div>
                 <input type="range" min={10} max={45} value={temperature} onChange={e => setTemperature(Number(e.target.value))} aria-label="Temperature slider" className="w-full accent-amber-500" />
-                <input type="range" min={10} max={90} value={humidity} onChange={e => setHumidity(Number(e.target.value))} aria-label="Humidity slider" className="w-full accent-cyan-500" />
+                <input type="range" min={10} max={90} value={humidity} onChange={e => setHumidity(Number(e.target.value))} aria-label="Humidity slider" className="w-full accent-gold-500" />
               </div>
             </div>
 
@@ -1705,7 +1705,7 @@ function C8_BiologyDiffusionOsmosisSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 border-emerald-500/50 text-emerald-400'
                       : difficulty === 'standard'
-                      ? 'bg-blue-950 border-blue-500/50 text-blue-400'
+                      ? 'bg-gold-950 border-gold-500/50 text-gold-400'
                       : 'bg-rose-950 border-rose-500/50 text-rose-400'
                   }`}
                 >

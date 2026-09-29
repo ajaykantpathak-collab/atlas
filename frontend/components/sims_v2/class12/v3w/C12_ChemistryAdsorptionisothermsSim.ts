@@ -11,7 +11,7 @@ export const w_c12_chemistryadsorptionisothermssim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'General Properties: Catalytic Activity',
     chapters: [],
     nodeIds: ['c12_chem_cbse_04_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a real-world Indian context: the Contact Process for sulfuric acid production uses V₂O₅, the Haber.', goal: 'Master General Properties: Catalytic Activity.' },
     discovery: {
         question: 'In the Contact Process, V₂O₅ catalyzes the oxidation of SO₂ to SO₃.',
@@ -20,7 +20,7 @@ export const w_c12_chemistryadsorptionisothermssim: SimDef = {
         hook: 'Students often believe catalytic activity arises from ONLY one factor — typically "variable oxidation states" — and.',
     },
     teaching: [
-        { title: 'Catalytic activity of transition metals.', text: 'Catalytic activity of transition metals refers to their ability to accelerate chemical reactions by providing an alternative reaction pathway with lower activation energy, utilizing their variable.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Catalytic activity of transition metals.', text: 'Catalytic activity of transition metals refers to their ability to accelerate chemical reactions by providing an alternative reaction pathway with lower activation energy, utilizing their variable.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_04_006', title: 'Catalytic activity of transition metals.',

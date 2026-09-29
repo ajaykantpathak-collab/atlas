@@ -168,7 +168,7 @@ const TEACHING_SLIDES = [
     title: "Iron & Vitamin Deficiencies 🩸",
     text: "Lack of iron causes anaemia, making us feel tired and pale (prevent with green leafy vegetables and jaggery). Lack of Vitamin A causes night blindness. Lack of Iodine causes goitre (swollen neck).",
     emoji: "🩸",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Lack of iron causes anaemia, making you feel tired and weak. Vitamin A prevents night blindness, and iodine prevents goitre.",
   },
   {
@@ -182,7 +182,7 @@ const TEACHING_SLIDES = [
     title: "Preventing Disease & Staying Healthy ✨",
     text: "We can prevent lifestyle and deficiency diseases by eating a balanced diet with fruits, vegetables, pulses, and whole grains, exercising daily, drinking plenty of water, and sleeping for eight hours!",
     emoji: "✨",
-    bgColor: "from-cyan-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Protect yourself by eating a balanced diet, exercising daily, drinking enough water, and getting plenty of rest.",
   },
 ];

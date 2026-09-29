@@ -11,7 +11,7 @@ export const w_c11_psychologyforgettingoccurssim: SimDef = {
     classLevel: 11, subject: 'psychology', topic: 'Theories of Forgetting: Interference, Decay and Repression',
     chapters: [],
     nodeIds: ['c11_psy_cbse_06_007', 'c11_psy_cbse_06_004', 'c11_psy_cbse_06_006', 'c11_psy_cbse_06_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you studied Hindi vocabulary yesterday, then French vocabulary today, and now you cannot recall the.', goal: 'Master Theories of Forgetting: Interference, Decay and Repression.' },
     discovery: {
         question: 'State the core assumption of Trace Decay Theory and name the classic experimental finding that contradicts it.',
@@ -20,7 +20,7 @@ export const w_c11_psychologyforgettingoccurssim: SimDef = {
         hook: '**Misconception**: "Proactive and retroactive interference are just \'forgetting because of other learning\' — the.',
     },
     teaching: [
-        { title: 'Forgetting theories explain why stored.', text: 'Forgetting theories explain why stored information becomes inaccessible: **Trace Decay Theory** proposes memory traces physically fade over time due to disuse; **Interference Theory** states.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Forgetting theories explain why stored.', text: 'Forgetting theories explain why stored information becomes inaccessible: **Trace Decay Theory** proposes memory traces physically fade over time due to disuse; **Interference Theory** states.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_06_007', title: 'Forgetting theories explain why stored.',

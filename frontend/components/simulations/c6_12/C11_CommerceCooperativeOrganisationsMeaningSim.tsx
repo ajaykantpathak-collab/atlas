@@ -1112,10 +1112,10 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
       {/* ─── HEADER BAR ─────────────────────────────────────────────────────── */}
       <motion.div initial={{ opacity: 0, y: -15 }} animate={{ opacity: 1, y: 0 }} className="mb-6 flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4">
         <motion.div initial={{ x: -20 }} animate={{ x: 0 }} className="flex items-center gap-3">
-          <motion.span whileHover={{ rotate: 10 }} className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">{subjectConfig.emoji}</motion.span>
+          <motion.span whileHover={{ rotate: 10 }} className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">{subjectConfig.emoji}</motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ISC Class 11 Commerce</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ISC Class 11 Commerce</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono">CISCE 2026 Ready</span>
             </div>
             <h1 className="text-xl sm:text-2xl font-black text-white">{title}</h1>
@@ -1133,13 +1133,13 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-cyan-950/60 text-cyan-400 border-cyan-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <motion.span whileHover={{ scale: 1.05 }} className="text-xs px-3 py-1 rounded-xl bg-slate-900 border border-slate-800 text-slate-300">
-            Mastery: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
           </motion.span>
         </motion.div>
       </motion.div>
@@ -1152,14 +1152,14 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ───────────────────��───────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} className="space-y-6">
-          <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/40">
+          <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/40">
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-0.5 text-xs font-black rounded-full bg-indigo-600 text-white uppercase">Historical Dilemma</span>
-              <span className="text-xs text-indigo-300">1946 Kaira Milk Union (Amul Genesis)</span>
+              <span className="px-2.5 py-0.5 text-xs font-black rounded-full bg-gold-600 text-white uppercase">Historical Dilemma</span>
+              <span className="text-xs text-gold-300">1946 Kaira Milk Union (Amul Genesis)</span>
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed text-sm">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-200/80 mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">{SCENARIO.context}</p>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-slate-900 rounded-3xl border border-slate-800">
@@ -1183,7 +1183,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                       : 'bg-slate-850 hover:bg-slate-800 border-slate-750 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && (i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : '✗ ')}
                   {opt}
                 </motion.button>
@@ -1191,7 +1191,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-2xl bg-gold-950/40 border border-gold-800 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className={`text-sm ${discoveryCorrect ? 'text-emerald-300' : 'text-amber-300'}`}>
                   {discoveryCorrect ? '✓ Spot on! Co-operatives distribute surplus by patronage, not by capital.' : `💡 ${DISCOVERY_QUESTION.hintAfter}`}
                 </p>
@@ -1200,7 +1200,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Enter Interactive Labs"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap text-sm"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1216,7 +1216,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
           {/* Step Navigator */}
           <motion.div initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="flex items-center justify-between bg-slate-900 p-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-indigo-400">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}:</span>
+              <span className="text-xs font-bold text-gold-400">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}:</span>
               <span className="text-sm font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -1225,7 +1225,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   key={idx}
                   animate={{ scale: idx === currentSlide ? 1.25 : 1 }}
                   className={`w-2.5 h-2.5 rounded-full transition-all ${
-                    idx === currentSlide ? 'bg-indigo-500' : idx < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
+                    idx === currentSlide ? 'bg-gold-500' : idx < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1267,8 +1267,8 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
 
                   {/* Predict then check */}
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 mb-4">
-                      <p className="text-sm font-bold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 mb-4">
+                      <p className="text-sm font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
                           <motion.button
@@ -1301,7 +1301,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                           aria-label="Farmer Dev Capital Contribution Slider"
                           value={farmerDevCapital}
                           onChange={(e) => setFarmerDevCapital(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </motion.div>
 
@@ -1331,7 +1331,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                           aria-label="Annual Co-operative Surplus Slider"
                           value={coopTotalSurplus}
                           onChange={(e) => setCoopTotalSurplus(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </motion.div>
                     </div>
@@ -1340,7 +1340,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                     <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-4 text-xs">
                       <div className="flex items-center justify-between pb-2 border-b border-slate-800">
                         <span className="font-bold text-slate-300">Feature</span>
-                        <span className="font-bold text-indigo-400">Co-operative Society (Act 1912)</span>
+                        <span className="font-bold text-gold-400">Co-operative Society (Act 1912)</span>
                         <span className="font-bold text-amber-400">Joint Stock Company</span>
                       </div>
 
@@ -1464,7 +1464,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
 
                     {/* Liability Attachment Breakdown */}
                     <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3 text-xs">
-                      <h4 className="font-bold text-indigo-300 uppercase">Legal Debt Attachment Status</h4>
+                      <h4 className="font-bold text-gold-300 uppercase">Legal Debt Attachment Status</h4>
                       <div className="p-2.5 rounded-lg bg-slate-850 flex justify-between">
                         <span>Paid from Ancestral Assets:</span>
                         <strong className="text-emerald-400">₹{hufLiabilityAnalysis.coveredByFamilyProperty} Lakh</strong>
@@ -1507,13 +1507,13 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                               updated[yr] = Number(e.target.value);
                               setCsrProfits(updated);
                             }}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
-                          <span className="text-xs font-mono text-indigo-300 w-16 text-right">₹{csrProfits[yr]} Cr</span>
+                          <span className="text-xs font-mono text-gold-300 w-16 text-right">₹{csrProfits[yr]} Cr</span>
                         </motion.div>
                       ))}
 
-                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/60 mt-4">
+                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/60 mt-4">
                         <div className="flex justify-between text-xs mb-1">
                           <span>3-Year Average Net Profit:</span>
                           <strong>₹{calculatedCsr.avgProfit} Cr</strong>
@@ -1566,7 +1566,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                         }}
                         className={`p-3 rounded-xl border text-left text-xs transition-all ${
                           activeScopeModule === mod.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-850'
                         }`}
                       >
@@ -1594,8 +1594,8 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                       )}
                     </svg>
                     <p className="text-xs text-slate-300 mt-3 text-center">
-                      Selected Module: <strong className="text-indigo-400 uppercase">{activeScopeModule}</strong> is categorized as{' '}
-                      <strong className={activeScopeModule === 'checkout' ? 'text-emerald-400' : 'text-indigo-300'}>
+                      Selected Module: <strong className="text-gold-400 uppercase">{activeScopeModule}</strong> is categorized as{' '}
+                      <strong className={activeScopeModule === 'checkout' ? 'text-emerald-400' : 'text-gold-300'}>
                         {activeScopeModule === 'checkout' ? 'E-Commerce (and also E-Business)' : 'E-Business only (No buying/selling exchange)'}
                       </strong>.
                     </p>
@@ -1737,7 +1737,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold text-white shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1779,7 +1779,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Box 1 */}
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-xs font-bold text-indigo-400 uppercase">Co-op Patronage Calculator</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">Co-op Patronage Calculator</h4>
                 <label className="text-[11px] text-slate-400">Farmer Dev Patronage: {farmerDevMilk}%</label>
                 <input
                   type="range"
@@ -1788,7 +1788,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   aria-label="Sandbox Farmer Dev Patronage Slider"
                   value={farmerDevMilk}
                   onChange={(e) => setFarmerDevMilk(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="text-xs p-2 bg-slate-900 rounded-lg text-emerald-300 font-bold">
                   Surplus Share: ₹{coopPatronageDev.devShare.toLocaleString('en-IN')}
@@ -1830,7 +1830,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   }}
                   className="w-full accent-emerald-500"
                 />
-                <div className="text-xs p-2 bg-slate-900 rounded-lg text-indigo-300 font-bold">
+                <div className="text-xs p-2 bg-slate-900 rounded-lg text-gold-300 font-bold">
                   2% Mandatory: ₹{calculatedCsr.mandatorySpend} Cr
                 </div>
               </motion.div>
@@ -1845,7 +1845,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
           {/* Challenge Top Bar */}
           <motion.div initial={{ y: -10 }} animate={{ y: 0 }} className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-black uppercase text-indigo-400 tracking-wider">
+              <span className="text-xs font-black uppercase text-gold-400 tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
@@ -1861,7 +1861,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
             {/* Animated Progress Bar */}
             <div className="w-36 sm:w-48 bg-slate-800 h-2.5 rounded-full overflow-hidden border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1901,7 +1901,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                         : 'bg-slate-850 hover:bg-slate-800 border-slate-750 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {showExplanation && (i === challenge.correctIndex ? '✓ ' : '✗ ')}
                     {opt}
                   </motion.button>
@@ -1924,7 +1924,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1958,7 +1958,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   aria-label="Verify Target Mappings"
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Target Mappings
                 </motion.button>
@@ -1990,7 +1990,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                       className="p-3.5 bg-slate-850 hover:bg-slate-800 rounded-2xl border border-slate-750 text-slate-200 text-xs sm:text-sm cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                        <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                       </span>
                       <span className="text-slate-500 text-xs">☰</span>
                     </motion.div>
@@ -2003,7 +2003,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   aria-label="Verify Step Sequence"
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Step Sequence
                 </motion.button>
@@ -2020,7 +2020,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     aria-label="Calculated answer input"
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:border-indigo-500 outline-none w-48"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:border-gold-500 outline-none w-48"
                   />
                   <span className="text-xs font-bold text-slate-400 uppercase">{challenge.unit}</span>
                   <motion.button
@@ -2029,7 +2029,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                     aria-label="Check Calculation"
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-xs"
                   >
                     Check Calculation
                   </motion.button>
@@ -2049,7 +2049,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Add part: ${part}`}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-750 text-indigo-300 rounded-xl text-xs border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-750 text-gold-300 rounded-xl text-xs border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2058,7 +2058,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
 
                 <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[80px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <motion.span key={idx} initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 rounded-lg text-xs text-white flex items-center gap-1.5">
+                    <motion.span key={idx} initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="px-3 py-1 bg-gold-900/60 border border-gold-700 rounded-lg text-xs text-white flex items-center gap-1.5">
                       {part}
                       <motion.button
                         whileHover={{ scale: 1.2 }}
@@ -2080,7 +2080,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
                   aria-label="Verify Assembly"
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Assembly
                 </motion.button>
@@ -2137,7 +2137,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
       {/* ─── PHASE 5: COMPLETION & REFLECTION ───────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <motion.div whileHover={{ scale: 1.005 }} className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 text-center space-y-4">
+          <motion.div whileHover={{ scale: 1.005 }} className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 text-center space-y-4">
             <motion.span initial={{ scale: 0 }} animate={{ scale: 1, rotate: [0, 10, -10, 0] }} transition={{ duration: 0.5 }} className="text-5xl inline-block">🏆</motion.span>
             <h2 className="text-3xl font-black text-white">Curriculum Simulation Complete!</h2>
             <div className="flex justify-center gap-6 text-sm">
@@ -2147,7 +2147,7 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800">
                 <span className="text-slate-400 block text-xs">BKT Cognitive Tier</span>
-                <strong className="text-2xl text-indigo-400 capitalize">{masteryLevel}</strong>
+                <strong className="text-2xl text-gold-400 capitalize">{masteryLevel}</strong>
               </motion.div>
             </div>
 
@@ -2198,13 +2198,13 @@ function C11_CommerceCooperativeOrganisationsMeaningSim({
           </motion.div>
 
           {/* Real World Advisory Blueprint */}
-          <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-indigo-950/50 to-slate-900 rounded-3xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-gold-950/50 to-slate-900 rounded-3xl border border-gold-800/60 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <motion.div key={i} whileHover={{ x: 3 }} className="text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </motion.div>
               ))}

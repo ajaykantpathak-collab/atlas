@@ -227,7 +227,7 @@ function NavigatorNikhil({ mood, speaking }: { mood: MascotMood; speaking: strin
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white/95 backdrop-blur rounded-xl px-3 py-2 shadow-xl max-w-[220px] border border-blue-200"
+            className="mb-1 bg-white/95 backdrop-blur rounded-xl px-3 py-2 shadow-xl max-w-[220px] border border-gold-200"
           >
             <p className="text-xs font-bold text-slate-800">{speaking}</p>
           </motion.div>
@@ -319,14 +319,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "What is the Internet & WWW? 🌐",
     text: "A computer network links computers together. The Internet is the world's largest network! The WWW (World Wide Web) is the massive library of websites that runs on the Internet.",
     emoji: "🌐",
-    bgColor: "from-blue-600 to-indigo-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "A computer network links computers together. The Internet is the world's largest network! The World Wide Web is the massive library of websites that runs on the Internet."
   },
   {
     title: "ISP, URL, and HTTP 📡",
     text: "An ISP (like Jio, Airtel, or BSNL) gives you Internet access. A URL is a web address like https://www.india.gov.in. HTTP is the rule protocol for sending web pages!",
     emoji: "📡",
-    bgColor: "from-indigo-600 to-purple-700",
+    bgColor: "from-gold-600 to-purple-700",
     spoken: "An ISP like Jio or Airtel gives you Internet access. A URL is a web address. HTTP is the rule protocol for sending web pages!"
   },
   {
@@ -340,14 +340,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Search Engines & Keywords 🔍",
     text: "A search engine like Google helps you find web pages. Instead of a long sentence, type short, important words called keywords, like 'Bengal tiger India'!",
     emoji: "🔍",
-    bgColor: "from-blue-500 to-cyan-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "A search engine like Google helps you find web pages. Instead of a long sentence, type short, important words called keywords!"
   },
   {
     title: "Web Browser Components 🗂️",
     text: "Browsers have title bars, address bars for URLs, tabs to keep multiple pages open, bookmarks for saved shortcuts, history to see past visits, and refresh buttons!",
     emoji: "🗂️",
-    bgColor: "from-cyan-600 to-teal-700",
+    bgColor: "from-gold-600 to-teal-700",
     spoken: "Browsers have title bars, address bars for URLs, tabs for multiple pages, bookmarks for saved shortcuts, and history!"
   }
 ];
@@ -744,7 +744,7 @@ export function InternetBrowserGame({ width = 720, height = 560, onComplete }: I
                   audioManager.play('whoosh');
                 }
               }}
-              className="px-6 py-2.5 rounded-xl font-black text-white bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 shadow-lg transform hover:scale-105 transition-all"
+              className="px-6 py-2.5 rounded-xl font-black text-white bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 shadow-lg transform hover:scale-105 transition-all"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
             </button>
@@ -758,7 +758,7 @@ export function InternetBrowserGame({ width = 720, height = 560, onComplete }: I
           {/* Top Bar */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="bg-blue-600/30 border border-blue-400/40 px-3 py-1 rounded-xl text-blue-300 font-bold text-xs">
+              <div className="bg-gold-600/30 border border-gold-400/40 px-3 py-1 rounded-xl text-gold-300 font-bold text-xs">
                 Question {challengeIdx + 1} of {CHALLENGES.length}
               </div>
               <div className="bg-amber-500/20 border border-amber-400/40 px-3 py-1 rounded-xl text-amber-300 font-bold text-xs flex items-center gap-1">

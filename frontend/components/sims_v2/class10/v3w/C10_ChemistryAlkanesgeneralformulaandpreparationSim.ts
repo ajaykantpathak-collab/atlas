@@ -11,7 +11,7 @@ export const w_c10_chemistryalkanesgeneralformulaandpreparationsim: SimDef = {
     classLevel: 10, subject: 'chemistry', topic: 'Soaps and Detergents: Structure, Action and Difference',
     chapters: [],
     nodeIds: ['c10_chem_cbse_04_012', 'c10_chem_cbse_04_004', 'c10_chem_cbse_04_007', 'c10_chem_cbse_04_002', 'c10_chem_cbse_04_005', 'c10_chem_cbse_04_008', 'c10_chem_cbse_04_006', 'c10_chem_cbse_02_001', 'c10_chem_cbse_02_012', 'c10_chem_cbse_04_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a greasy plate after eating oily Indian food like parathas or pakoras.', goal: 'Master Soaps and Detergents: Structure, Action and Difference.' },
     discovery: {
         question: 'A student takes 5 g of castor oil (a triglyceride) and adds 20 mL of 20% NaOH solution. The mixture is heated and then common salt (NaCl) is added.',
@@ -20,7 +20,7 @@ export const w_c10_chemistryalkanesgeneralformulaandpreparationsim: SimDef = {
         hook: 'Students often think that the hydrophobic tail of soap "dissolves" in oil and the hydrophilic head "dissolves" in.',
     },
     teaching: [
-        { title: 'Soaps are sodium or potassium salts of.', text: 'Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty acids) with the general formula RCOO⁻Na⁺/K⁺, where R is a long hydrocarbon chain (typically 12–18 carbons).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Soaps are sodium or potassium salts of.', text: 'Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty acids) with the general formula RCOO⁻Na⁺/K⁺, where R is a long hydrocarbon chain (typically 12–18 carbons).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_chem_cbse_04_012', title: 'Soaps are sodium or potassium salts of.',

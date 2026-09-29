@@ -11,7 +11,7 @@ export const w_c9_historycivicsmidtermelectionbyelectionsim: SimDef = {
     classLevel: 9, subject: 'history', topic: 'Parliamentary vs Presidential Democracy',
     chapters: [],
     nodeIds: ['c9_civ_ch1_6', 'c9_hist_ch3_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are watching the news: the Indian Prime Minister faces a no-confidence motion in Lok Sabha, while.', goal: 'Master Parliamentary vs Presidential Democracy.' },
     discovery: {
         question: 'Compare the role of the *mahattara* (village headman) in Gupta administration with the *gramika* in Mauryan administration.',
@@ -20,7 +20,7 @@ export const w_c9_historycivicsmidtermelectionbyelectionsim: SimDef = {
         hook: 'Students believe the Gupta "Golden Age" was a period of uniform prosperity and centralized power like the Mauryas,.',
     },
     teaching: [
-        { title: 'Parliamentary democracy is a system where.', text: 'Parliamentary democracy is a system where the executive (Prime Minister and Council of Ministers) is drawn from and accountable to the legislature (Parliament), while the head of state (President) is.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Parliamentary democracy is a system where.', text: 'Parliamentary democracy is a system where the executive (Prime Minister and Council of Ministers) is drawn from and accountable to the legislature (Parliament), while the head of state (President) is.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_civ_ch1_6', title: 'Parliamentary democracy is a system.',

@@ -1254,15 +1254,15 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
           <motion.div
             whileHover={{ rotate: 360, scale: 1.1 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 12 ISC • Science</span>
-              <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-indigo-950 text-indigo-300 border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 ISC • Science</span>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-gold-950 text-gold-300 border border-gold-800">
                 10 Syllabus Nodes
               </span>
             </div>
@@ -1308,12 +1308,12 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <h2 className="text-lg font-bold text-indigo-300 mb-2 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <h2 className="text-lg font-bold text-gold-300 mb-2 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-gold-900/40 text-xs text-gold-200">
               <strong>Mission Context:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1336,7 +1336,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <span>
@@ -1367,7 +1367,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Exploration Lab"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Exploration Lab →
                 </motion.button>
@@ -1382,7 +1382,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex justify-between items-center bg-slate-800/60 p-3 rounded-xl border border-slate-700">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Step {currentSlide + 1} of 5</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Step {currentSlide + 1} of 5</span>
               <h3 className="text-base font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
             </div>
             <span className="text-xs text-amber-400 font-semibold bg-amber-950/60 px-3 py-1 rounded-full border border-amber-800">
@@ -1408,7 +1408,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   aria-label="Switch to Genomic Library Mode"
                   className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                     libraryType === 'genomic'
-                      ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                      ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                       : 'bg-slate-800 border-slate-700 text-slate-300'
                   }`}
                 >
@@ -1547,7 +1547,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     value={crisprMatchPercent}
                     onChange={(e) => setCrisprMatchPercent(Number(e.target.value))}
                     aria-label="sgRNA Complementarity percentage"
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div className="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1613,7 +1613,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   whileTap={{ scale: 0.97 }}
                   onClick={handleCrisprCut}
                   aria-label="Trigger Cas9 Endonuclease Cleavage"
-                  className="px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-pink-600 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2.5 bg-gradient-to-r from-gold-600 to-pink-600 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   ⚡ Trigger Cas9 Endonuclease Cleavage
                 </motion.button>
@@ -1639,7 +1639,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     onChange={(e) => setVoltage(Number(e.target.value))}
                     disabled={electrophoresisRunning}
                     aria-label="Applied Voltage in Volts"
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div>
@@ -1760,7 +1760,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
             <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
               <div className="flex justify-between items-center">
                 <div>
-                  <h4 className="text-sm font-bold text-indigo-300">Pseudomonas putida Multi-Plasmid System</h4>
+                  <h4 className="text-sm font-bold text-gold-300">Pseudomonas putida Multi-Plasmid System</h4>
                   <p className="text-xs text-slate-400">Plasmids: CAM (Camphor) + OCT (Octane) + XYL (Xylene) + NAH (Naphthalene)</p>
                 </div>
                 <motion.button
@@ -1797,7 +1797,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                 </div>
               </div>
 
-              <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+              <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/40 text-xs text-gold-200">
                 <strong>Ananda Chakrabarty's Landmark Milestone:</strong> The multi-plasmid Pseudomonas putida was the first genetically engineered living organism ever granted a patent (Diamond v. Chakrabarty, 1980).
               </div>
             </div>
@@ -1831,7 +1831,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     aria-label={`Select enzyme: ${enz}`}
                     className={`p-3 rounded-xl text-xs font-bold capitalize border transition-all ${
                       selectedEnzyme === enz
-                        ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                        ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                         : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1852,7 +1852,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     value={chamberPh}
                     onChange={(e) => setChamberPh(Number(e.target.value))}
                     aria-label="Chamber pH level"
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div>
@@ -1878,7 +1878,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   <span className="text-2xl font-black text-emerald-400">✓ {enzymeActivity}%</span>
                 </div>
                 <div className="text-right text-xs text-slate-300">
-                  <span className="font-semibold text-indigo-300 capitalize">{selectedEnzyme} Application:</span>
+                  <span className="font-semibold text-gold-300 capitalize">{selectedEnzyme} Application:</span>
                   <p className="text-[11px] text-slate-400">
                     {selectedEnzyme === 'subtilisin' && 'Alkaline laundry detergents (blood/protein stains)'}
                     {selectedEnzyme === 'papain' && 'Meat tenderization, beer chill-proofing, wound debridement'}
@@ -1909,7 +1909,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
                 aria-label="Next Lab Slide"
-                className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow-md"
+                className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1941,16 +1941,16 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Ready for Board Challenges"
-              className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+              className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
             >
               Ready for Board Challenges →
             </motion.button>
           </div>
 
           {/* PREDICTION CHECKER CARD (Brilliant Predict-Then-Check) */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-700/60 space-y-3">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-700/60 space-y-3">
             <div className="flex justify-between items-center">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 🔬 Prediction Check {predStep + 1} of {PREDICTION_QUESTIONS.length}
               </span>
               <span className="text-[11px] text-slate-400">Predict before testing in simulation</span>
@@ -1971,7 +1971,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                       : predChecked && idx === selectedPredOption
                       ? 'bg-rose-950/60 border-rose-600 text-rose-300'
-                      : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-300'
+                      : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-300'
                   }`}
                 >
                   <span className="font-bold mr-1.5">{String.fromCharCode(65 + idx)}.</span> {opt}
@@ -1981,7 +1981,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
 
             {predChecked && (
               <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2">
-                <p className="text-indigo-300">
+                <p className="text-gold-300">
                   <strong>Verification Step:</strong> {PREDICTION_QUESTIONS[predStep].verifyInstruction}
                 </p>
                 <p className="text-slate-300">{PREDICTION_QUESTIONS[predStep].explanation}</p>
@@ -1993,7 +1993,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       setPredChecked(false);
                       audioManager.play('tap');
                     }}
-                    className="px-4 py-1.5 bg-indigo-600 text-white font-bold rounded-lg text-xs"
+                    className="px-4 py-1.5 bg-gold-600 text-white font-bold rounded-lg text-xs"
                   >
                     Next Prediction Question →
                   </button>
@@ -2069,7 +2069,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-bold uppercase transition-all ${
                     activeBlotTab === tab
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-900 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -2081,7 +2081,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block font-semibold">Target Macromolecule</span>
-                <span className="text-base font-bold text-indigo-400">
+                <span className="text-base font-bold text-gold-400">
                   {activeBlotTab === 'southern' ? 'DNA Fragments' : activeBlotTab === 'northern' ? 'mRNA Transcripts' : 'Proteins'}
                 </span>
               </div>
@@ -2099,7 +2099,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
               </div>
             </div>
 
-            <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+            <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-900/40 text-xs text-gold-200">
               <strong>Mnemonic Rule:</strong> S-N-W corresponds to D-R-P (<strong>S</strong>outhern = <strong>D</strong>NA, <strong>N</strong>orthern = <strong>R</strong>NA, <strong>W</strong>estern = <strong>P</strong>rotein).
             </div>
           </div>
@@ -2115,13 +2115,13 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
               <span className="font-semibold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="capitalize text-indigo-400 font-bold">
+              <span className="capitalize text-gold-400 font-bold">
                 Competency: {challenge.competencyLevel} (CISCE 2026)
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2157,11 +2157,11 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-center justify-between ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
-                          : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-200'
+                          : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-200'
                       }`}
                     >
                       <span>
-                        <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                       </span>
                       {showExplanation && i === challenge.correctIndex && (
                         <span className="text-emerald-400 font-bold ml-2">✓ Correct</span>
@@ -2186,7 +2186,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-semibold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-semibold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2202,14 +2202,14 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       aria-label={`Target slot for ${item.targetId.replace('slot_', '').replace('_', ' ')}`}
                       className={`p-4 rounded-xl border-2 border-dashed min-h-[64px] flex items-center justify-between transition-all ${
                         droppedLabels[item.targetId]
-                          ? 'bg-indigo-950/50 border-indigo-500 text-white'
+                          ? 'bg-gold-950/50 border-gold-500 text-white'
                           : 'bg-slate-900/60 border-slate-700 text-slate-400'
                       }`}
                     >
                       <span className="text-xs font-bold capitalize text-slate-300">
                         {item.targetId.replace('slot_', '').replace('_', ' ')}:
                       </span>
-                      <span className="text-xs font-semibold text-indigo-300 flex items-center gap-1">
+                      <span className="text-xs font-semibold text-gold-300 flex items-center gap-1">
                         {droppedLabels[item.targetId] ? (
                           <>
                             <span>✓</span>
@@ -2229,7 +2229,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Verify Mapping Labels"
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Mapping
                 </motion.button>
@@ -2260,7 +2260,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-900 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-950 border border-indigo-700 flex items-center justify-center font-bold text-indigo-300">
+                    <span className="w-6 h-6 rounded-full bg-gold-950 border border-gold-700 flex items-center justify-center font-bold text-gold-300">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2279,7 +2279,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   }}
                   disabled={showExplanation}
                   aria-label="Verify Sequence Order"
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow-md mt-2"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow-md mt-2"
                 >
                   Verify Sequence Order
                 </motion.button>
@@ -2296,7 +2296,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter base pairs"
                     aria-label="Fastest migrating fragment size in base pairs"
-                    className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 outline-none w-48"
+                    className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none w-48"
                   />
                   <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2305,7 +2305,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit numeric value"
-                    className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Submit Value
                   </motion.button>
@@ -2326,7 +2326,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-700 text-indigo-200 text-xs font-semibold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-700 text-gold-200 text-xs font-semibold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2337,13 +2337,13 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-lg flex items-center gap-1 shadow"
+                      className="px-3 py-1 bg-gold-600 text-white text-xs font-bold rounded-lg flex items-center gap-1 shadow"
                     >
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
                         aria-label={`Remove part: ${part}`}
-                        className="text-indigo-200 hover:text-white text-xs ml-1"
+                        className="text-gold-200 hover:text-white text-xs ml-1"
                       >
                         ✕
                       </button>
@@ -2361,7 +2361,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
                     aria-label="Validate Construction formula"
-                    className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Validate Construction
                   </motion.button>
@@ -2381,11 +2381,11 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/60 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/60 rounded-2xl space-y-4"
               >
                 <div className="flex items-center gap-2">
                   <span className="text-base" aria-hidden="true">💡</span>
-                  <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">
+                  <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wide">
                     Step-by-Step Molecular Explanation
                   </h4>
                 </div>
@@ -2402,7 +2402,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs text-slate-200 leading-relaxed"
                       >
-                        <strong className="text-indigo-400 mr-1.5">{idx + 1}.</strong>
+                        <strong className="text-gold-400 mr-1.5">{idx + 1}.</strong>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2416,7 +2416,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((r) => r + 1)}
                     aria-label="Reveal next sentence of explanation"
-                    className="px-4 py-1.5 bg-indigo-800 text-white text-xs font-bold rounded-lg"
+                    className="px-4 py-1.5 bg-gold-800 text-white text-xs font-bold rounded-lg"
                   >
                     Reveal Next Sentence →
                   </motion.button>
@@ -2449,7 +2449,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
       {/* ─── PHASE 5: COMPLETION & MASTERY PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl" aria-hidden="true">🎓</span>
             <h2 className="text-2xl font-black text-white">Biotechnology Curriculum Mastery Achieved!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2461,7 +2461,7 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
                 <span>✓</span>
                 <span>Final Score: {Math.max(0, 100 - errors * 5)}%</span>
               </span>
-              <span className="px-4 py-2 bg-indigo-950/80 text-indigo-300 border border-indigo-600 rounded-xl capitalize flex items-center gap-1">
+              <span className="px-4 py-2 bg-gold-950/80 text-gold-300 border border-gold-600 rounded-xl capitalize flex items-center gap-1">
                 <span>★</span>
                 <span>Mastery Level: {masteryLevel}</span>
               </span>
@@ -2516,14 +2516,14 @@ function C12_BiotechnologyGenomicCdnaLibrariesSim(props: Props = DEFAULT_PROPS) 
 
           {/* Real-World Capstone Activity */}
           <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🔬</span> Capstone Application: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">•</span> {step}
+                  <span className="text-gold-400 font-bold">•</span> {step}
                 </li>
               ))}
             </ul>

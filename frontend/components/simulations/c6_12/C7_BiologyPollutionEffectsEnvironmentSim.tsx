@@ -1518,7 +1518,7 @@ export function C7_BiologyPollutionEffectsEnvironmentSim({
                         </div>
                         <div className="flex items-center justify-between p-2 bg-slate-900 rounded-xl">
                           <span className="text-slate-400">Diagnostic Skin Covering:</span>
-                          <span className="font-bold text-indigo-300">
+                          <span className="font-bold text-gold-300">
                             {selectedAnimal === 'fish' && 'Dermal Mucous Scales'}
                             {selectedAnimal === 'amphibian' && 'Smooth Glandular Moist Skin'}
                             {selectedAnimal === 'reptile' && 'Dry Epidermal Horny Scales'}
@@ -1676,7 +1676,7 @@ export function C7_BiologyPollutionEffectsEnvironmentSim({
                           <p className="text-xs text-slate-400">Dissolved Oxygen</p>
                           <p
                             className={`text-2xl font-black font-mono mt-1 ${
-                              dissolvedOxygen < 3.0 ? 'text-rose-400' : 'text-cyan-400'
+                              dissolvedOxygen < 3.0 ? 'text-rose-400' : 'text-gold-400'
                             }`}
                           >
                             {dissolvedOxygen} mg/L
@@ -2020,7 +2020,7 @@ export function C7_BiologyPollutionEffectsEnvironmentSim({
               </div>
               <div className="p-2 bg-slate-950 rounded-xl text-xs flex justify-between">
                 <span>Dissolved O₂:</span>
-                <span className={`font-mono font-bold ${dissolvedOxygen < 3 ? 'text-rose-400' : 'text-cyan-400'}`}>
+                <span className={`font-mono font-bold ${dissolvedOxygen < 3 ? 'text-rose-400' : 'text-gold-400'}`}>
                   {dissolvedOxygen < 3 ? '✗' : '✓'} {dissolvedOxygen} mg/L
                 </span>
               </div>
@@ -2028,7 +2028,7 @@ export function C7_BiologyPollutionEffectsEnvironmentSim({
 
             {/* Control Pod 3 */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase">Physiology & Biomechanics</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Physiology & Biomechanics</span>
               <div>
                 <label className="text-[11px] text-slate-300">Knee Joint Flex: {jointAngle}°</label>
                 <input
@@ -2038,7 +2038,7 @@ export function C7_BiologyPollutionEffectsEnvironmentSim({
                   value={jointAngle}
                   aria-label="Joint Flexion Angle slider"
                   onChange={e => setJointAngle(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="flex justify-between items-center">
@@ -2082,7 +2082,7 @@ export function C7_BiologyPollutionEffectsEnvironmentSim({
                   ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/20 text-rose-300 border-rose-500/30'
-                  : 'bg-blue-500/20 text-blue-300 border-blue-500/30'
+                  : 'bg-gold-500/20 text-gold-300 border-gold-500/30'
               }`}
             >
               {difficulty} TIER

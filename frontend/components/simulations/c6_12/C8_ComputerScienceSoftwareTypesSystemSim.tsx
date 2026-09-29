@@ -1156,11 +1156,11 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-bold text-cyan-400 tracking-wider uppercase">ICSE Class 8 Computer Science</span>
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">ICSE Class 8 Computer Science</span>
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1184,7 +1184,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                 ? 'bg-emerald-950/90 text-emerald-300 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/90 text-rose-300 border border-rose-700'
-                : 'bg-cyan-950/90 text-cyan-300 border border-cyan-700'
+                : 'bg-gold-950/90 text-gold-300 border border-gold-700'
             }`}
           >
             {difficulty}
@@ -1195,12 +1195,12 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/40 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/40 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/90 mt-2 font-medium">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400/90 mt-2 font-medium">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800">
@@ -1220,10 +1220,10 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-cyan-500/80 hover:bg-slate-800'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500/80 hover:bg-slate-800'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1238,7 +1238,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to Interactive Exploration"
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1253,7 +1253,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-4">
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800 text-xs text-slate-400">
             <span>
-              Laboratory <strong className="text-cyan-400">{currentSlide + 1}</strong> of {EXPLORATION_STEPS.length}
+              Laboratory <strong className="text-gold-400">{currentSlide + 1}</strong> of {EXPLORATION_STEPS.length}
             </span>
             <span>Interactive Concept Mastery</span>
           </div>
@@ -1267,7 +1267,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-xl space-y-4"
             >
               <div>
-                <h3 className="text-lg font-black text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-xs md:text-sm font-medium mt-1">
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1340,13 +1340,13 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                           aria-label={`Select layer: ${layer.name}`}
                           className={`p-2 rounded-lg border text-left transition-all ${
                             selectedLayer === layer.id
-                              ? 'bg-slate-800 border-cyan-400 shadow-md'
+                              ? 'bg-slate-800 border-gold-400 shadow-md'
                               : 'bg-slate-900/70 border-slate-800 text-slate-400 hover:border-slate-700'
                           }`}
                         >
                           <div className="flex justify-between items-center">
                             <span className="font-bold text-xs" style={{ color: layer.color }}>{layer.name}</span>
-                            {selectedLayer === layer.id && <span className="text-[10px] text-cyan-400 font-semibold">Active Layer</span>}
+                            {selectedLayer === layer.id && <span className="text-[10px] text-gold-400 font-semibold">Active Layer</span>}
                           </div>
                           <p className="text-[11px] text-slate-400">{layer.examples}</p>
                         </motion.button>
@@ -1372,7 +1372,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                       </p>
                     )}
                     {selectedLayer === 'application' && (
-                      <p className="text-sm text-cyan-200 leading-relaxed">
+                      <p className="text-sm text-gold-200 leading-relaxed">
                         <strong>Application Software:</strong> Sits on top of the OS. Programs like Microsoft Word and Excel solve specific end-user problems (writing essays or computing mark sheets).
                       </p>
                     )}
@@ -1393,7 +1393,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                           onClick={() => handleOsModeSwitch(mode)}
                           aria-label={`Switch OS mode to ${mode}`}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase ${
-                            osMode === mode ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                            osMode === mode ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                           }`}
                         >
                           {mode === 'general' ? 'Desktop OS' : mode === 'rtos' ? 'Real-Time (RTOS)' : 'Distributed Cluster'}
@@ -1471,7 +1471,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400 font-semibold">Real-world Example:</span>
-                      <p className="text-cyan-300 font-bold mt-0.5">
+                      <p className="text-gold-300 font-bold mt-0.5">
                         {osMode === 'general' ? 'Windows 11 / macOS' : osMode === 'rtos' ? 'Car ABS / Airbag Controller' : 'Google Search Cluster'}
                       </p>
                     </div>
@@ -1486,7 +1486,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
                       <div className="flex items-center justify-between pb-2 border-b border-slate-800 mb-3">
-                        <span className="text-xs font-bold text-cyan-400 flex items-center gap-1">
+                        <span className="text-xs font-bold text-gold-400 flex items-center gap-1">
                           <span>🖥️</span> Graphical User Interface (GUI)
                         </span>
                         <div className="flex gap-1.5">
@@ -1506,7 +1506,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             aria-label={`File ${f}`}
-                            className="p-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-cyan-200 flex items-center gap-1.5 cursor-grab"
+                            className="p-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-gold-200 flex items-center gap-1.5 cursor-grab"
                           >
                             <span>📄</span> {f}
                           </motion.div>
@@ -1551,8 +1551,8 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   {/* Predict-Then-Check Hook inside Lab 4 */}
                   {!predictionMade && (
-                    <div className="p-3 bg-indigo-950/70 border border-indigo-700/50 rounded-xl">
-                      <p className="text-xs font-bold text-indigo-300">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-3 bg-gold-950/70 border border-gold-700/50 rounded-xl">
+                      <p className="text-xs font-bold text-gold-300">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1592,7 +1592,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
-                        <span>Base Quantity (B2):</span> <strong className="text-cyan-400">{excelQty}</strong>
+                        <span>Base Quantity (B2):</span> <strong className="text-gold-400">{excelQty}</strong>
                       </label>
                       <input
                         type="range"
@@ -1601,12 +1601,12 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                         value={excelQty}
                         onChange={e => setExcelQty(Number(e.target.value))}
                         aria-label="Set Excel Quantity"
-                        className="w-full mt-1 accent-cyan-500"
+                        className="w-full mt-1 accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
-                        <span>Unit Price (C2):</span> <strong className="text-cyan-400">₹{excelUnitPrice}</strong>
+                        <span>Unit Price (C2):</span> <strong className="text-gold-400">₹{excelUnitPrice}</strong>
                       </label>
                       <input
                         type="range"
@@ -1615,12 +1615,12 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                         value={excelUnitPrice}
                         onChange={e => setExcelUnitPrice(Number(e.target.value))}
                         aria-label="Set Excel Unit Price"
-                        className="w-full mt-1 accent-cyan-500"
+                        className="w-full mt-1 accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
-                        <span>Pinned GST Rate ($F$1):</span> <strong className="text-cyan-400">{excelTaxRate}%</strong>
+                        <span>Pinned GST Rate ($F$1):</span> <strong className="text-gold-400">{excelTaxRate}%</strong>
                       </label>
                       <input
                         type="range"
@@ -1629,7 +1629,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                         value={excelTaxRate}
                         onChange={e => setExcelTaxRate(Number(e.target.value))}
                         aria-label="Set Pinned GST Rate"
-                        className="w-full mt-1 accent-cyan-500"
+                        className="w-full mt-1 accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1644,7 +1644,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                           <th className="p-2 border-r border-slate-800">B (Qty)</th>
                           <th className="p-2 border-r border-slate-800">C (Unit Price)</th>
                           <th className="p-2 border-r border-slate-800">D Total Formula: =B2*C2*(1+$F$1)</th>
-                          <th className="p-2 bg-indigo-950/40 text-indigo-300">F1 (Tax Constant: {excelTaxRate}%)</th>
+                          <th className="p-2 bg-gold-950/40 text-gold-300">F1 (Tax Constant: {excelTaxRate}%)</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -1652,13 +1652,13 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                           <tr key={r.row} className="border-b border-slate-800/60 hover:bg-slate-900/40">
                             <td className="p-2 border-r border-slate-800 text-center font-bold text-slate-500">{r.row}</td>
                             <td className="p-2 border-r border-slate-800 font-medium text-slate-200">{r.item}</td>
-                            <td className="p-2 border-r border-slate-800 text-cyan-300">{r.qty}</td>
-                            <td className="p-2 border-r border-slate-800 text-cyan-300">₹{r.price}</td>
+                            <td className="p-2 border-r border-slate-800 text-gold-300">{r.qty}</td>
+                            <td className="p-2 border-r border-slate-800 text-gold-300">₹{r.price}</td>
                             <td className={`p-2 border-r border-slate-800 font-bold ${r.isError ? 'text-rose-400' : 'text-emerald-400'}`}>
                               ₹{r.total}
                             </td>
                             {r.row === 1 ? (
-                              <td className="p-2 font-bold text-indigo-300 bg-indigo-950/20">{excelTaxRate}%</td>
+                              <td className="p-2 font-bold text-gold-300 bg-gold-950/20">{excelTaxRate}%</td>
                             ) : (
                               <td className="p-2 text-slate-600">---</td>
                             )}
@@ -1686,7 +1686,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                           }}
                           aria-label={`Select chart type ${t}`}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase ${
-                            chartType === t ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                            chartType === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                           }`}
                         >
                           {t} Chart
@@ -1704,7 +1704,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                         }}
                         aria-label="Toggle Chart Legend"
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          chartShowLegend ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          chartShowLegend ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {chartShowLegend ? 'Legend: ON' : 'Legend: OFF'}
@@ -1714,7 +1714,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
 
                   {/* SVG Chart Rendering Engine */}
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <h4 className="text-center font-bold text-sm text-cyan-300 mb-2">{chartTitleText}</h4>
+                    <h4 className="text-center font-bold text-sm text-gold-300 mb-2">{chartTitleText}</h4>
                     <svg viewBox="0 0 500 200" className="w-full h-48">
                       {/* Column Chart */}
                       {chartType === 'column' && (
@@ -1807,7 +1807,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
 
                     {chartShowLegend && (
                       <div className="flex justify-center gap-4 mt-2 text-xs text-slate-400">
-                        <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-cyan-400 rounded-sm inline-block" /> Series 1: Primary Data</span>
+                        <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-gold-400 rounded-sm inline-block" /> Series 1: Primary Data</span>
                         <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-emerald-400 rounded-sm inline-block" /> Series 2: Benchmark</span>
                       </div>
                     )}
@@ -1842,7 +1842,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   audioManager.play('whoosh');
                 }}
                 aria-label="Next Lab Slide"
-                className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1865,7 +1865,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-4">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-base font-bold text-cyan-300">Free Interactive Sandbox: No Grading</h3>
+            <h3 className="text-base font-bold text-gold-300">Free Interactive Sandbox: No Grading</h3>
             <p className="text-xs text-slate-400 mt-1">
               Experiment with formula calculations, inject worksheet errors, or switch OS task dispatching without penalty.
             </p>
@@ -1906,7 +1906,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
 
             {/* Live Chart Quick Switcher */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Quick Chart Switcher</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Quick Chart Switcher</span>
               <div className="flex gap-2">
                 {(['column', 'bar', 'line', 'pie'] as const).map(t => (
                   <motion.button
@@ -1919,7 +1919,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                     }}
                     aria-label={`Set sandbox chart to ${t}`}
                     className={`px-3 py-1 rounded-lg text-xs font-bold uppercase ${
-                      chartType === t ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                      chartType === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {t}
@@ -1951,15 +1951,15 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
           <div className="space-y-2">
             <div className="flex justify-between items-center text-xs">
               <span className="font-bold text-slate-300">
-                Challenge <strong className="text-cyan-400">{currentChallenge + 1}</strong> of {filteredChallenges.length}
+                Challenge <strong className="text-gold-400">{currentChallenge + 1}</strong> of {filteredChallenges.length}
               </span>
               <span className="text-slate-400 uppercase tracking-wider text-[11px]">
-                Competency: <strong className="text-cyan-300">{challenge.competencyLevel}</strong>
+                Competency: <strong className="text-gold-300">{challenge.competencyLevel}</strong>
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1983,7 +1983,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase bg-cyan-950 border border-cyan-800 text-cyan-300">
+              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase bg-gold-950 border border-gold-800 text-gold-300">
                 {challenge.type}
               </span>
               <span className="text-xs text-slate-400">Node: {challenge.nodeId}</span>
@@ -2007,10 +2007,10 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                     className={`w-full text-left p-3.5 rounded-xl border text-sm transition-all flex items-start gap-3 ${
                       showExplanation && idx === challenge.correctIndex
                         ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-cyan-500'
+                        : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                     }`}
                   >
-                    <span className="font-bold text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     <span className="flex-1 leading-snug">{opt}</span>
                     {showExplanation && idx === challenge.correctIndex && <span className="text-emerald-400 font-bold">✓</span>}
                   </motion.button>
@@ -2030,7 +2030,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3.5 py-2 bg-cyan-700 hover:bg-cyan-600 rounded-xl text-xs font-bold text-white cursor-grab shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2059,7 +2059,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Validate Drag Labels"
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2091,7 +2091,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                       aria-label={`Step ${displayIdx + 1}: ${item}`}
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-cyan-900 text-cyan-300 flex items-center justify-center font-bold text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2104,7 +2104,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Submit Sorted Sequence"
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Confirm Execution Order
                 </motion.button>
@@ -2122,7 +2122,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
                     aria-label="Numeric answer input"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   {challenge.unit && <span className="text-xs text-slate-400">{challenge.unit}</span>}
                   <motion.button
@@ -2131,7 +2131,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit Numeric Answer"
-                    className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-600/30"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                   >
                     Check Value
                   </motion.button>
@@ -2154,7 +2154,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                         audioManager.play('tap');
                       }}
                       aria-label={`Add token: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-mono font-bold text-white"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-mono font-bold text-white"
                     >
                       + {part}
                     </motion.button>
@@ -2165,7 +2165,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   {constructParts.map((p, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-md text-xs font-mono text-cyan-300 flex items-center gap-1"
+                      className="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-md text-xs font-mono text-gold-300 flex items-center gap-1"
                     >
                       {p}
                       <button
@@ -2185,7 +2185,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Validate Formula Construction"
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Verify Formula Construction
                 </motion.button>
@@ -2197,10 +2197,10 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 bg-slate-950/80 rounded-xl border border-cyan-700/40 space-y-3"
+                className="mt-5 p-4 bg-slate-950/80 rounded-xl border border-gold-700/40 space-y-3"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Step-by-Step Solution:</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Step-by-Step Solution:</span>
                   <span className="text-xs text-slate-400">
                     Step {Math.min(revealedSteps + 1, challenge.explanation.split('. ').filter(s => s.trim().length > 0).length)} of{' '}
                     {challenge.explanation.split('. ').filter(s => s.trim().length > 0).length}
@@ -2218,7 +2218,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-300 leading-relaxed"
                     >
-                      <strong className="text-cyan-400 mr-1.5">{idx + 1}.</strong>
+                      <strong className="text-gold-400 mr-1.5">{idx + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2231,7 +2231,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Reveal next step of explanation"
-                      className="px-4 py-1.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2270,7 +2270,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
 
           {/* Motivational Feedback */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-            <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider mb-1">Performance Assessment:</h4>
+            <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-1">Performance Assessment:</h4>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
               {errors === 0
                 ? 'PERFECT SCORE! You have mastered software classification, OS architectures, deterministic scheduling, and Excel analytical engineering completely!'
@@ -2281,8 +2281,8 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
           </div>
 
           {/* ─── STRUCTURAL REQUIREMENT: REFLECTION SECTION ─── */}
-          <div className="p-5 bg-slate-900/90 rounded-2xl border border-indigo-700/50 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-700/50 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Deep Learning Reflections
             </h3>
             <div className="space-y-3 text-xs">
@@ -2295,7 +2295,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   onChange={e => setReflection1(e.target.value)}
                   placeholder="e.g. How an RTOS requires strict bounded deadlines, unlike desktop operating systems..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2308,7 +2308,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   onChange={e => setReflection2(e.target.value)}
                   placeholder="e.g. System software is the foundation, application software is what you use to create work..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2321,7 +2321,7 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
                   onChange={e => setReflection3(e.target.value)}
                   placeholder="e.g. Automated school grading sheets, accounting taxes with $ absolute pinning, and medical equipment controllers..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2345,24 +2345,24 @@ function C8_ComputerScienceSoftwareTypesSystemSim({
           )}
 
           {/* Spaced Repetition Review Schedule */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 text-xs space-y-1">
-            <h4 className="font-bold text-indigo-300">Spaced Repetition Schedule (SM-2 Memory Retention):</h4>
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/50 text-xs space-y-1">
+            <h4 className="font-bold text-gold-300">Spaced Repetition Schedule (SM-2 Memory Retention):</h4>
             <p className="text-slate-300">
               Based on your score, your first review interval is scheduled in{' '}
-              <strong className="text-indigo-200">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
+              <strong className="text-gold-200">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
             </p>
           </div>
 
           {/* Real World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🎯</span> Real-World Practical Mission: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="font-bold text-cyan-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

@@ -47,7 +47,7 @@ const TEACHING_SLIDES = [
         title: 'Rectangle 🚪 (4 Sides)',
         text: 'A rectangle has 4 straight sides and 4 corners. Opposite sides are equal! Like a classroom door or a book!',
         emoji: '🚪',
-        bgColor: 'from-blue-400 to-indigo-500',
+        bgColor: 'from-gold-400 to-gold-500',
         spoken: 'A rectangle has four straight sides and four corners. Opposite sides are equal!',
     },
     {
@@ -199,8 +199,8 @@ function RikuMascot({ mood, speaking }: {
 }) {
     return (<div className="absolute top-16 right-3 z-20 flex flex-col items-center">
       <AnimatePresence>
-        {speaking && (<motion.div initial={{ scale: 0, opacity: 0, y: 10 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 15 }} className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-200">
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+        {speaking && (<motion.div initial={{ scale: 0, opacity: 0, y: 10 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 15 }} className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-200">
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>)}
       </AnimatePresence>
 
@@ -374,7 +374,7 @@ function SortCard({ id, label, type, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-200 ${placed ? 'opacity-40' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(id, 48)}
         <span className="text-xs font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>
@@ -423,28 +423,28 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
       <div className="relative z-10 w-full flex items-center justify-between bg-white/80 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg border border-white/40">
         <div className="flex items-center gap-3">
           <span className="text-3xl">{current.emoji}</span>
-          <h1 className="text-xl font-extrabold text-indigo-900">Shape Sorter School 📐</h1>
+          <h1 className="text-xl font-extrabold text-gold-900">Shape Sorter School 📐</h1>
         </div>
         <div className="flex items-center gap-2">
-          {TEACHING_SLIDES.map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slide ? 'bg-indigo-600 scale-125' : 'bg-gray-300'}`}/>))}
+          {TEACHING_SLIDES.map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slide ? 'bg-gold-600 scale-125' : 'bg-gray-300'}`}/>))}
         </div>
       </div>
 
       {/* Slide Card */}
       <div className="relative z-10 w-full max-w-xl my-auto">
-        <motion.div key={slide} initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -50 }} transition={{ duration: 0.3 }} className="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-4 border-indigo-200 text-center flex flex-col items-center gap-6">
+        <motion.div key={slide} initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -50 }} transition={{ duration: 0.3 }} className="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-4 border-gold-200 text-center flex flex-col items-center gap-6">
           <div className={`w-24 h-24 rounded-3xl bg-gradient-to-br ${current.bgColor} flex items-center justify-center text-5xl shadow-lg`}>
             {current.emoji}
           </div>
           <div>
-            <h2 className="text-2xl font-black text-indigo-950 mb-3">{current.title}</h2>
+            <h2 className="text-2xl font-black text-gold-950 mb-3">{current.title}</h2>
             <p className="text-base font-medium text-gray-700 leading-relaxed">{current.text}</p>
           </div>
         </motion.div>
       </div>
     { /* Navigation Buttons */ }
     <div className="relative z-10 w-full max-w-xl flex justify-between items-center mt-4">
-        <button onClick={handlePrev} disabled={slide === 0} className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${slide === 0 ? 'bg-gray-300 opacity-50 cursor-not-allowed' : 'bg-indigo-500 hover:bg-indigo-600 active:scale-95'}`}>
+        <button onClick={handlePrev} disabled={slide === 0} className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${slide === 0 ? 'bg-gray-300 opacity-50 cursor-not-allowed' : 'bg-gold-500 hover:bg-gold-600 active:scale-95'}`}>
           ⬅️ Back
         </button>
         <button onClick={handleNext} className="px-8 py-3 rounded-2xl font-extrabold text-white bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 shadow-xl active:scale-95 transition-all">
@@ -622,17 +622,17 @@ export function ShapeSortGame({ width = 720, height = 560, onComplete }: ShapeSo
     if (screen === 'teaching') {
         return <TeachingScreen onStart={() => setScreen('play')} width={width} height={height}/>;
     }
-    return (<div className="relative flex flex-col items-center justify-between p-6 select-none overflow-hidden bg-sky-100" style={{ width, height }}>
+    return (<div className="relative flex flex-col items-center justify-between p-6 select-none overflow-hidden bg-gold-100" style={{ width, height }}>
       <ShapeScene width={width} height={height}/>
 
       {/* Header */}
       <div className="relative z-10 w-full flex items-center justify-between bg-white/85 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg border border-white/50">
         <div className="flex items-center gap-3">
           <span className="text-2xl">📐</span>
-          <h1 className="text-lg font-extrabold text-indigo-900">Shape Sorter Game</h1>
+          <h1 className="text-lg font-extrabold text-gold-900">Shape Sorter Game</h1>
         </div>
         <div className="flex items-center gap-4">
-          <span className="text-xs font-bold text-indigo-700">Level {currentChallenge + 1} / {CHALLENGES.length}</span>
+          <span className="text-xs font-bold text-gold-700">Level {currentChallenge + 1} / {CHALLENGES.length}</span>
           <StarRow count={stars} total={CHALLENGES.length}/>
         </div>
       </div>
@@ -642,12 +642,12 @@ export function ShapeSortGame({ width = 720, height = 560, onComplete }: ShapeSo
 
       {/* Game Content Area */}
       <div className="relative z-10 flex flex-col items-center justify-center my-auto w-full max-w-2xl px-4">
-        <div className="bg-white/90 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-indigo-200 w-full flex flex-col items-center text-center">
-          <h2 className="text-xl font-black text-indigo-950 mb-6">{challenge.question}</h2>
+        <div className="bg-white/90 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-gold-200 w-full flex flex-col items-center text-center">
+          <h2 className="text-xl font-black text-gold-950 mb-6">{challenge.question}</h2>
 
           {/* Multiple Choice Challenge */}
           {challenge.type === 'identify' && (<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full">
-              {challenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => handleAnswerSelect(opt)} className="bg-gradient-to-br from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white font-bold py-4 px-6 rounded-2xl shadow-lg transition-all text-base border-2 border-indigo-300">
+              {challenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => handleAnswerSelect(opt)} className="bg-gradient-to-br from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white font-bold py-4 px-6 rounded-2xl shadow-lg transition-all text-base border-2 border-gold-300">
                   {opt}
                 </motion.button>))}
             </div>)}

@@ -9,15 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C8_CHEM_GEN: SimDef[] = [
  {
   "id": "gen_c8_chem_ch03",
-  "title": "Mixture",
+  "title": "A Mixture Is a Physical Combination",
   "subtitle": "Chemistry · Chapter 3",
   "classLevel": 8,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Mixture",
+  "topic": "A Mixture Is a Physical Combination",
   "chapters": [
-   "Chemistry Ch2: Mixture",
-   "Chemistry Ch3: Mixture"
+   "Chemistry Ch2: A Mixture Is a Physical Combination",
+   "Chemistry Ch3: A Mixture Is a Physical Combination"
   ],
   "nodeIds": [
    "c8_chem_ch3_1",
@@ -37,7 +37,7 @@ export const C8_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Mixture in real working life?",
+   "question": "Who uses A Mixture Is a Physical in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -48,19 +48,19 @@ export const C8_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Mixture",
+    "title": "A Mixture Is a Physical Combination",
     "text": "A mixture is a physical combination of two or more substances (elements or compounds) in any proportion, where each component retains its individual chemical properties and can be separated by physical methods.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Atom",
+    "title": "An Atom Is The Smallest Unit",
     "text": "An atom is the smallest unit of an element that retains all the chemical properties of that element and can take part in a chemical reaction. Atoms are the fundamental building blocks of all matter in the universe, represented symbolically by chemical symbols",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Air",
+    "title": "Air Is a Homogeneous Mixture Of Various",
     "text": "Air is a homogeneous mixture of various gases, primarily nitrogen (approx. 78%) and oxygen (approx. 21%), along with small amounts of argon, carbon dioxide, water vapor, and trace gases.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -72,7 +72,7 @@ export const C8_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Evaporation",
+    "title": "Evaporation Is The Physical Process",
     "text": "Evaporation is the physical process by which a liquid solvent transitions into its vapor state (at any temperature below its boiling point), leaving behind dissolved, non-volatile solid solutes.",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
@@ -84,19 +84,19 @@ export const C8_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Element",
+    "title": "An Element Is a Pure Substance",
     "text": "An element is a pure substance consisting of only one type of atom that cannot be broken down into simpler substances by any physical or ordinary chemical means (such as heating, electrolysis, or chemical reactions).",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Mixture",
+    "title": "A Mixture Is a Substance Formed",
     "text": "A mixture is a substance formed by physically mixing two or more substances together such that they retain their individual chemical properties and can be separated by physical means.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Alloy",
+    "title": "Alloy Is a Homogeneous Mixture Of Two",
     "text": "An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal, created by melting them together and cooling them to enhance desirable physical properties like strength, hardness, and corrosion resistance.",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -112,7 +112,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
      "The correct answer is B. Iron filings and sulfur powder mixed together form a physical mixture"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a physical' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student assumes any combination of two elements automatically creates a compound or a solution.",
     "id": "gen_c8_chem_ch03_q1",
     "nodeId": "c8_chem_ch3_1",
@@ -236,7 +236,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can",
      "Condensation. *What a wrong answer reveals:* If a student writes \"evaporation\" or \"melting,\" they are confusing the direction of the phase change (gas-to-liquid vs"
     ],
-    "hint": "Straight from the 'Evaporation' slide -- match the key terms.",
+    "hint": "Straight from the 'Evaporation is the physical' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student writes \"evaporation\" or \"melting,\" they are confusing the direction of the phase change (gas-to-liquid vs. liquid-to-gas or solid-to-liquid). If they write \"precipitation,\" they are using meteorological terms instead of the specific chemical physical change term.",
     "id": "gen_c8_chem_ch03_q5",
     "nodeId": "c8_chem_ch3_5",
@@ -278,7 +278,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1",
      "1. In Container X (pure iron), the magnet attracts the iron, but no separation occurs because only one substance (the element iron) is present"
     ],
-    "hint": "Straight from the 'element' slide -- match the key terms.",
+    "hint": "Straight from the 'An element is a pure substance' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks the iron in rust can be separated by a magnet, they do not understand that elements lose their individual properties when they chemically react to form compounds.",
     "id": "gen_c8_chem_ch03_q7",
     "nodeId": "c8_chem_ch3_8",
@@ -299,7 +299,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1",
      "In a mixture of iron and sulphur, you can see distinct yellow sulphur particles and grey iron particles separately under a magnifying glass"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a substance formed' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks the compound iron sulphide is still magnetic because \"it contains iron,\" they do not understand that elements completely lose their individual physical properties (like magnetism) when they chemically react to form a compound.",
     "id": "gen_c8_chem_ch03_q8",
     "nodeId": "c8_chem_ch3_10",
@@ -320,7 +320,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "The evaluation is partially flawed. While a cloth sieve will trap large chalk particles, microscopic chalk dust can pass through larger cloth pores",
      "Pure iron atoms are arranged in neat layers that slide easily over one another, making pure iron soft and prone to rapid rusting and bending under heavy loads"
     ],
-    "hint": "Straight from the 'alloy' slide -- match the key terms.",
+    "hint": "Straight from the 'alloy is a homogeneous mixture of' slide -- match the key terms.",
     "misconception": "A student who answers that steel is a pure chemical compound with a fixed formula misses the point that alloys are variable mixtures.",
     "id": "gen_c8_chem_ch03_q9",
     "nodeId": "c8_chem_ch3_11",
@@ -341,7 +341,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
      "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can"
     ],
-    "hint": "Straight from the 'atom' slide -- match the key terms.",
+    "hint": "Straight from the 'An atom is the smallest unit' slide -- match the key terms.",
     "misconception": "A wrong answer that calls the smallest unit a molecule shows the student has confused the smallest unit of an element with the smallest independent unit of a compound, and an analogy with no structural match shows a weak grasp of how microscopic units build macroscopic matter.",
     "id": "gen_c8_chem_ch03_q10",
     "nodeId": "c8_chem_ch2_3",
@@ -356,7 +356,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume",
      "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a substance formed' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* The student is over-relying on \"uniform appearance\" (homogeneity) and \"difficulty of mechanical separation\" as proof of a compound, failing to recognize that alloys are homogeneous mixtures.",
     "id": "gen_c8_chem_ch03_q11",
     "nodeId": "c8_chem_ch3_10",
@@ -371,7 +371,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "1. In Container X (pure iron), the magnet attracts the iron, but no separation occurs because only one substance (the element iron) is present",
      "Steps: 1. Identify the components: Copper (Cu) and Tin (Sn) in roughly an 85:15 ratio. 2. Match with known alloys: Copper and tin form bronze"
     ],
-    "hint": "Straight from the 'alloy' slide -- match the key terms.",
+    "hint": "Straight from the 'alloy is a homogeneous mixture of' slide -- match the key terms.",
     "misconception": "A student who identifies this as brass confuses tin with zinc; brass is made from copper and zinc, whereas bronze is copper and tin.",
     "id": "gen_c8_chem_ch03_q12",
     "nodeId": "c8_chem_ch3_11",
@@ -386,7 +386,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "Iron nails are sharp and mixed with fine sawdust, making hand picking tedious, dangerous, and time-consuming",
      "Brass is a substitutional alloy where zinc atoms replace some copper atoms in the crystal lattice, altering the electron density and surface reactivity"
     ],
-    "hint": "Straight from the 'alloy' slide -- match the key terms.",
+    "hint": "Straight from the 'alloy is a homogeneous mixture of' slide -- match the key terms.",
     "misconception": "A student who believes brass is a chemical compound will incorrectly assume a new chemical formula protects it, rather than understanding that altered atomic spacing in a mixture changes reaction rates.",
     "id": "gen_c8_chem_ch03_q13",
     "nodeId": "c8_chem_ch3_11",
@@ -401,7 +401,7 @@ export const C8_CHEM_GEN: SimDef[] = [
      "The student's claim is incorrect. Brass is a homogeneous mixture (an alloy), not a compound, because: 1",
      "Steps: 1. Identify the total volume of air given: 100 liters. 2. Recall the percentage of oxygen in dry air: approximately 21% by volume"
     ],
-    "hint": "Straight from the 'Air' slide -- match the key terms.",
+    "hint": "Straight from the 'Air is a homogeneous mixture of' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses percentage composition with total mass or uses nitrogen's percentage (78%).",
     "id": "gen_c8_chem_ch03_q14",
     "nodeId": "c8_chem_ch3_3",
@@ -410,11 +410,11 @@ export const C8_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mixture?",
+    "What surprised you about a mixture is a physical combination?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mixture mastered! 🎯",
+  "successLine": "A Mixture Is a Physical mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

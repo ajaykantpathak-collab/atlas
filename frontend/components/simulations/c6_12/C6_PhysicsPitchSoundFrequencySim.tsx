@@ -1225,13 +1225,13 @@ export function C6_PhysicsPitchSoundFrequencySim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-cyan-500/20 flex items-center justify-center text-3xl border border-cyan-500/40"
+            className="w-12 h-12 rounded-2xl bg-gold-500/20 flex items-center justify-center text-3xl border border-gold-500/40"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800">
+              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-gold-950 text-gold-400 border border-gold-800">
                 ICSE Class 6 Physics
               </span>
               <motion.span
@@ -1241,7 +1241,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                 className={`text-xs px-2.5 py-0.5 rounded-full font-bold uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
                   difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-800' :
-                  'bg-sky-950 text-sky-400 border border-sky-800'
+                  'bg-gold-950 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty} Tier
@@ -1263,7 +1263,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                 audioManager.play('tap');
               }}
               className={`px-3 py-1 text-xs font-semibold rounded-lg capitalize transition-colors ${
-                phase === p ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1275,8 +1275,8 @@ export function C6_PhysicsPitchSoundFrequencySim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-cyan-950/50 via-slate-900 to-slate-950 rounded-2xl border border-cyan-800/60 shadow-lg">
-            <h2 className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🏔️</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 mt-2 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
@@ -1286,7 +1286,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
           </div>
 
           <div className="p-6 bg-slate-800/60 rounded-2xl border border-slate-700">
-            <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider block mb-2">Curiosity Diagnostic Check</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-2">Curiosity Diagnostic Check</span>
             <h3 className="text-lg font-bold text-white mb-4">{DISCOVERY_QUESTION.question}</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -1302,7 +1302,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect && idx !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-900 border-slate-700 text-slate-200 hover:border-cyan-500 hover:bg-slate-800'
+                      : 'bg-slate-900 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                   }`}
                 >
                   <span className="inline-block w-6 h-6 rounded-full bg-slate-800 text-center leading-6 text-xs mr-2 font-bold">
@@ -1322,7 +1322,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-600/30 text-sm whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 text-sm whitespace-nowrap"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1344,7 +1344,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
               className="p-6 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-4"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-700/80 pb-3">
-                <h3 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <span className="text-xs px-2.5 py-1 rounded-full bg-slate-900 text-slate-300 border border-slate-700">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
@@ -1357,7 +1357,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   <div className="lg:col-span-2 space-y-3">
                     <div className="flex justify-between items-center text-xs text-slate-400">
                       <span>Oscilloscope Waveform Display</span>
-                      <span className="font-mono text-cyan-400">{frequencyVal} Hz | {frequencyVal > 400 ? 'High Pitch (Shrill)' : frequencyVal < 200 ? 'Low Pitch (Grave)' : 'Medium Pitch'}</span>
+                      <span className="font-mono text-gold-400">{frequencyVal} Hz | {frequencyVal > 400 ? 'High Pitch (Shrill)' : frequencyVal < 200 ? 'Low Pitch (Grave)' : 'Medium Pitch'}</span>
                     </div>
                     <canvas ref={canvasWaveRef} width={500} height={180} className="w-full bg-slate-900 rounded-xl border border-slate-800 shadow-inner" />
                   </div>
@@ -1367,7 +1367,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <span>Frequency: {frequencyVal} Hz</span>
-                          <span className="text-cyan-400">{frequencyVal} vib/s</span>
+                          <span className="text-gold-400">{frequencyVal} vib/s</span>
                         </div>
                         <input
                           type="range"
@@ -1379,7 +1379,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                             setFrequencyVal(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                           aria-label="Frequency in Hertz"
                         />
                       </div>
@@ -1404,7 +1404,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={handlePlaySoundTone}
-                        className="w-full py-2.5 bg-cyan-600 hover:bg-cyan-500 font-bold rounded-xl text-white text-xs flex items-center justify-center gap-2 shadow"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 font-bold rounded-xl text-white text-xs flex items-center justify-center gap-2 shadow"
                       >
                         🔊 {soundPlaying ? 'Playing Tone...' : 'Auditory Pitch Test'}
                       </motion.button>
@@ -1413,7 +1413,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                     {/* PREDICT-THEN-CHECK HOOK */}
                     {!predictionMade ? (
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                        <p className="font-bold text-cyan-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                        <p className="font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1451,7 +1451,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
 
                   <div className="space-y-4 flex flex-col justify-between">
                     <div className="space-y-3 bg-slate-900 p-4 rounded-xl border border-slate-800">
-                      <span className="text-xs font-bold text-cyan-400 uppercase">Circuit Controls</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Circuit Controls</span>
 
                       <motion.button
                         whileHover={{ scale: 1.02 }}
@@ -1493,7 +1493,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
               {/* SLIDE 2: FAULT FINDER LAB */}
               {currentSlide === 2 && (
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h4 className="text-sm font-bold text-cyan-300">Open Circuit Gap Diagnostics</h4>
+                  <h4 className="text-sm font-bold text-gold-300">Open Circuit Gap Diagnostics</h4>
                   <p className="text-xs text-slate-400">
                     Test how different common faults create air gaps and instantly prevent current flow:
                   </p>
@@ -1514,7 +1514,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
 
                   {/* OBSERVATION QUESTION HOOK */}
                   {!observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-900 rounded-xl border border-cyan-800/60 mt-3">
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-900 rounded-xl border border-gold-800/60 mt-3">
                       <p className="text-sm font-bold text-white mb-2">{OBSERVATION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => (
@@ -1537,7 +1537,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
               {currentSlide === 3 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-950 p-5 rounded-xl border border-slate-800">
                   <div className="space-y-4">
-                    <span className="text-xs font-bold text-cyan-400 uppercase">Interactive Bar Magnet</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Interactive Bar Magnet</span>
                     <svg viewBox="0 0 320 120" className="w-full bg-slate-900 rounded-xl border border-slate-800">
                       {/* Bar Magnet */}
                       <rect x="40" y="40" width="120" height="40" rx="4" fill="#dc2626" />
@@ -1565,7 +1565,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   </div>
 
                   <div className="space-y-3 bg-slate-900 p-4 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-cyan-400 uppercase">Material Attraction Tester</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Material Attraction Tester</span>
                     <div className="grid grid-cols-2 gap-2">
                       {(['iron', 'nickel', 'copper', 'wood'] as const).map((mat) => (
                         <motion.button
@@ -1577,7 +1577,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                             audioManager.play(mat === 'iron' || mat === 'nickel' ? 'pickup' : 'pop');
                           }}
                           className={`p-2.5 rounded-xl text-xs font-bold capitalize transition-colors ${
-                            testedMaterial === mat ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'
+                            testedMaterial === mat ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                           }`}
                         >
                           {mat === 'iron' ? '🧲 Iron Nail' : mat === 'nickel' ? '🪙 Nickel Coin' : mat === 'copper' ? '🔌 Copper Wire' : '🪵 Wooden Block'}
@@ -1603,7 +1603,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
               {currentSlide === 4 && (
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
                   <div className="flex justify-between items-center text-xs">
-                    <span className="font-bold text-cyan-400">Non-Contact Magnetic Force Lab</span>
+                    <span className="font-bold text-gold-400">Non-Contact Magnetic Force Lab</span>
                     <span className={`px-2.5 py-1 rounded-full font-bold ${
                       magneticForceCalculated.isLike ? 'bg-rose-950 text-rose-300 border border-rose-800' : 'bg-emerald-950 text-emerald-300 border border-emerald-800'
                     }`}>
@@ -1648,7 +1648,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                         max={100}
                         value={magnetDistance}
                         onChange={(e) => setMagnetDistance(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                         aria-label="Magnet separation distance"
                       />
                     </div>
@@ -1699,7 +1699,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-md"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1722,7 +1722,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 flex flex-wrap justify-between items-center gap-4">
             <div>
-              <h3 className="text-lg font-bold text-cyan-300">Physics Laboratory: Free Exploration Mode</h3>
+              <h3 className="text-lg font-bold text-gold-300">Physics Laboratory: Free Exploration Mode</h3>
               <p className="text-xs text-slate-400 mt-1">
                 Zero grading, zero pressure! Test frequency pitch shifts, switch combinations, and magnetic interactions freely.
               </p>
@@ -1740,7 +1740,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Interactive Compass Dial */}
             <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase">Field Compass Simulation</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Field Compass Simulation</span>
               <div className="flex justify-center p-4">
                 <svg viewBox="0 0 200 200" className="w-48 h-48">
                   {/* Outer Compass Housing */}
@@ -1781,7 +1781,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
 
             {/* Quick Circuit Mini-Sandbox */}
             <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3 flex flex-col justify-between">
-              <span className="text-xs font-bold text-cyan-400 uppercase">Circuit Quick-Test</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Circuit Quick-Test</span>
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-center space-y-3">
                 <div className="text-4xl">{switchClosed && filamentIntact ? '💡' : '⚫'}</div>
                 <div className="text-xs font-bold text-slate-300">
@@ -1792,7 +1792,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setSwitchClosed(!switchClosed)}
-                className="w-full py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow"
+                className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow"
               >
                 Toggle Torch Switch ({switchClosed ? 'ON' : 'OFF'})
               </motion.button>
@@ -1807,7 +1807,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
           {/* Challenge Header Status */}
           <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-800/80 rounded-2xl border border-slate-700">
             <div>
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Competency: {currentChallengeItem.competencyLevel.toUpperCase()}
               </span>
               <h2 className="text-base md:text-lg font-bold text-white">
@@ -1825,7 +1825,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                 className={`text-xs px-2.5 py-1 rounded-full font-bold uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-300 border border-emerald-800' :
                   difficulty === 'advanced' ? 'bg-rose-950 text-rose-300 border border-rose-800' :
-                  'bg-sky-950 text-sky-300 border border-sky-800'
+                  'bg-gold-950 text-gold-300 border border-gold-800'
                 }`}
               >
                 {difficulty}
@@ -1836,7 +1836,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
           {/* Animated Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1869,10 +1869,10 @@ export function C6_PhysicsPitchSoundFrequencySim({
                     className={`w-full text-left p-4 rounded-xl border text-sm font-medium transition-all ${
                       showExplanation && idx === currentChallengeItem.correctIndex
                         ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-900/90 border-slate-700 hover:border-cyan-500 text-slate-200 hover:bg-slate-800'
+                        : 'bg-slate-900/90 border-slate-700 hover:border-gold-500 text-slate-200 hover:bg-slate-800'
                     }`}
                   >
-                    <span className="inline-block w-6 h-6 rounded-full bg-slate-800 text-center leading-6 text-xs mr-3 font-bold text-cyan-400">
+                    <span className="inline-block w-6 h-6 rounded-full bg-slate-800 text-center leading-6 text-xs mr-3 font-bold text-gold-400">
                       {String.fromCharCode(65 + idx)}
                     </span>
                     {option}
@@ -1892,7 +1892,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-cyan-700 hover:bg-cyan-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       🏷️ {item.label}
                     </motion.div>
@@ -1913,7 +1913,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                       className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center space-y-2 min-h-[90px] flex flex-col justify-center"
                     >
                       <span className="text-xs text-slate-400">{target.name}</span>
-                      <div className="text-xs font-bold text-cyan-300">
+                      <div className="text-xs font-bold text-gold-300">
                         {droppedLabels[target.id] ? droppedLabels[target.id] : '[Drop Label Here]'}
                       </div>
                     </div>
@@ -1925,7 +1925,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Verify Target Placements
                 </motion.button>
@@ -1952,7 +1952,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                     className="p-3.5 bg-slate-900 rounded-xl border border-slate-700 flex items-center justify-between cursor-grab text-xs md:text-sm text-slate-200"
                   >
                     <span>
-                      <strong className="text-cyan-400 mr-2">{displayIdx + 1}.</strong> {item}
+                      <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                     </span>
                     <span className="text-slate-500 text-xs">☰ Drag to reorder</span>
                   </motion.div>
@@ -1963,7 +1963,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-4 px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Submit Sequence
                 </motion.button>
@@ -1979,9 +1979,9 @@ export function C6_PhysicsPitchSoundFrequencySim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:border-cyan-500 outline-none w-64"
+                    className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none w-64"
                   />
-                  <span className="text-sm font-bold text-cyan-400">{currentChallengeItem.unit}</span>
+                  <span className="text-sm font-bold text-gold-400">{currentChallengeItem.unit}</span>
                 </div>
 
                 <motion.button
@@ -1989,7 +1989,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Validate Calculation
                 </motion.button>
@@ -2006,7 +2006,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-cyan-950 text-cyan-300 border border-cyan-800 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-950 text-gold-300 border border-gold-800 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2015,7 +2015,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-cyan-700 text-white rounded-lg text-xs font-bold flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-700 text-white rounded-lg text-xs font-bold flex items-center gap-2">
                       {part}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-300 hover:text-white">✕</button>
                     </span>
@@ -2030,7 +2030,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Check Construction
                 </motion.button>
@@ -2042,9 +2042,9 @@ export function C6_PhysicsPitchSoundFrequencySim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-slate-900 to-cyan-950/60 rounded-xl border border-cyan-700/60 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-slate-900 to-gold-950/60 rounded-xl border border-gold-700/60 space-y-3"
               >
-                <div className="flex items-center gap-2 text-cyan-300 font-bold text-sm">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
                   <span>🔬</span> Scientific Concept Breakdown:
                 </div>
 
@@ -2055,7 +2055,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-xs md:text-sm text-slate-200 leading-relaxed"
                   >
-                    <strong className="text-cyan-400">Point {idx + 1}:</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                    <strong className="text-gold-400">Point {idx + 1}:</strong> {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
 
@@ -2065,7 +2065,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-lg text-xs font-bold border border-slate-700"
+                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-bold border border-slate-700"
                     >
                       Reveal Next Scientific Point →
                     </motion.button>
@@ -2089,7 +2089,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
       {/* ─── PHASE 5: EXPEDITION COMPLETION & SRS REVIEW ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-slate-900 via-cyan-950/40 to-slate-950 rounded-3xl border border-cyan-600/60 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-950 rounded-3xl border border-gold-600/60 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-extrabold text-white">Expedition Physics Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto leading-relaxed">
@@ -2099,7 +2099,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
             <div className="flex justify-center gap-6 py-4">
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs font-bold text-slate-400 block uppercase">Final Score</span>
-                <span className="text-2xl font-black text-cyan-400">{Math.max(0, 100 - errors * 5)}%</span>
+                <span className="text-2xl font-black text-gold-400">{Math.max(0, 100 - errors * 5)}%</span>
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs font-bold text-slate-400 block uppercase">BKT Mastery</span>
@@ -2118,10 +2118,10 @@ export function C6_PhysicsPitchSoundFrequencySim({
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-800/80 rounded-2xl border border-cyan-700/60 space-y-4 shadow-lg">
+          <div className="p-6 bg-slate-800/80 rounded-2xl border border-gold-700/60 space-y-4 shadow-lg">
             <div className="flex items-center gap-2 border-b border-slate-700 pb-3">
               <span className="text-xl">🤔</span>
-              <h3 className="text-base font-bold text-cyan-300 uppercase tracking-wide">
+              <h3 className="text-base font-bold text-gold-300 uppercase tracking-wide">
                 Reflective Scientific Thinking
               </h3>
             </div>
@@ -2140,7 +2140,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, surprising: e.target.value })}
                   placeholder="e.g., I was surprised that a mosquito has a higher pitch than a roaring lion because of its frequency..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:border-cyan-500 focus:outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:border-gold-500 focus:outline-none resize-none"
                 />
               </div>
 
@@ -2154,7 +2154,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, explanation: e.target.value })}
                   placeholder="e.g., A circuit is like a circular train track: if there's any gap or open switch, the electricity stops completely..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:border-cyan-500 focus:outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:border-gold-500 focus:outline-none resize-none"
                 />
               </div>
 
@@ -2168,7 +2168,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, realLife: e.target.value })}
                   placeholder="e.g., Fixing a broken torch or fairy lights at home, tuning a musical instrument, or navigating with a compass on a trek..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:border-cyan-500 focus:outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:border-gold-500 focus:outline-none resize-none"
                 />
               </div>
             </div>
@@ -2200,7 +2200,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
             <div>
               <h3 className="text-xs font-bold text-amber-400 uppercase tracking-wider">SM-2 Spaced Repetition Memory Cycle</h3>
               <p className="text-xs text-slate-400 mt-1">
-                Next scheduled review in <span className="font-bold text-cyan-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span> to lock in long-term memory retention.
+                Next scheduled review in <span className="font-bold text-gold-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span> to lock in long-term memory retention.
               </p>
             </div>
             <motion.button
@@ -2212,7 +2212,7 @@ export function C6_PhysicsPitchSoundFrequencySim({
                 setCurrentChallenge(0);
                 audioManager.play('whoosh');
               }}
-              className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-xl text-xs font-bold border border-slate-700"
+              className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-xl text-xs font-bold border border-slate-700"
             >
               🔄 Replay Simulation
             </motion.button>
@@ -2220,14 +2220,14 @@ export function C6_PhysicsPitchSoundFrequencySim({
 
           {/* REAL-WORLD ACTIVITY COMPLETION */}
           <div className="p-6 bg-slate-800/60 rounded-2xl border border-slate-700 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🏕️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-cyan-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

@@ -1448,10 +1448,10 @@ function C11_EVSInternationalLegalRegimesSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/50 shadow-xl"
+              className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/50 shadow-xl"
             >
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-1">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1">
                   <span>🔮</span> Predict-Then-Verify (Question {predIndex + 1} of {PREDICTION_QUESTIONS.length})
                 </span>
                 <span className="text-xs text-slate-400 font-mono">{PREDICTION_QUESTIONS[predIndex].nodeId}</span>
@@ -1494,9 +1494,9 @@ function C11_EVSInternationalLegalRegimesSim({
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="mt-4 p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 space-y-3"
+                  className="mt-4 p-4 bg-gold-950/40 rounded-xl border border-gold-800 space-y-3"
                 >
-                  <p className="text-xs sm:text-sm text-indigo-300">
+                  <p className="text-xs sm:text-sm text-gold-300">
                     🔬 <strong>Verification Clue:</strong> {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                   </p>
                   <p className="text-xs text-slate-300">
@@ -1514,7 +1514,7 @@ function C11_EVSInternationalLegalRegimesSim({
                           setPredSubmitted(false);
                           audioManager.play('whoosh');
                         }}
-                        className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                        className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
                       >
                         Next Prediction →
                       </motion.button>
@@ -1797,7 +1797,7 @@ function C11_EVSInternationalLegalRegimesSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setAerationActive(!aerationActive)}
                         className={`w-full py-2 rounded-xl text-xs font-bold transition-all ${
-                          aerationActive ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                          aerationActive ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
                         {aerationActive ? '✓ Emergency Aerators Active (+3.5 mg/L DO)' : '+ Activate Emergency Micro-Aerators'}
@@ -2127,7 +2127,7 @@ function C11_EVSInternationalLegalRegimesSim({
                 whileHover={{ scale: 1.02 }}
                 className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3"
               >
-                <span className="text-xs font-bold text-cyan-400 uppercase">Ecosystem Inflows</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Ecosystem Inflows</span>
                 <div className="text-xs text-slate-400">Phosphorus: {phosphorusLoading} mg/L</div>
                 <input
                   type="range"
@@ -2136,7 +2136,7 @@ function C11_EVSInternationalLegalRegimesSim({
                   step={0.005}
                   value={phosphorusLoading}
                   onChange={(e) => setPhosphorusLoading(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox phosphorus loading"
                 />
                 <div className="text-xs text-slate-300 font-bold">{lakeState.dissolvedOxygen} mg/L DO ({lakeState.status})</div>
@@ -2186,7 +2186,7 @@ function C11_EVSInternationalLegalRegimesSim({
                 className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-900/80 text-emerald-300 border border-emerald-600'
                   : difficulty === 'advanced' ? 'bg-rose-900/80 text-rose-300 border border-rose-600'
-                  : 'bg-indigo-900/80 text-indigo-300 border border-indigo-600'
+                  : 'bg-gold-900/80 text-gold-300 border border-gold-600'
                 }`}
               >
                 {difficulty} Tier ({activeChallenge.competencyLevel})
@@ -2535,12 +2535,12 @@ function C11_EVSInternationalLegalRegimesSim({
             {/* SPACED REPETITION VISIBILITY */}
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-700/60 flex flex-col sm:flex-row items-center justify-between gap-4"
+              className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-700/60 flex flex-col sm:flex-row items-center justify-between gap-4"
             >
               <div className="space-y-1 text-center sm:text-left">
                 <div className="flex items-center gap-2 justify-center sm:justify-start">
                   <span className="text-lg">🧠</span>
-                  <span className="font-extrabold text-indigo-300 text-sm uppercase tracking-wider">SM-2 Spaced Repetition Schedule</span>
+                  <span className="font-extrabold text-gold-300 text-sm uppercase tracking-wider">SM-2 Spaced Repetition Schedule</span>
                 </div>
                 <p className="text-xs text-slate-300">
                   Optimal memory retention schedule based on your error count ({errors} errors):
@@ -2551,9 +2551,9 @@ function C11_EVSInternationalLegalRegimesSim({
               </div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="px-4 py-2 bg-indigo-900/60 border border-indigo-500 rounded-xl text-center"
+                className="px-4 py-2 bg-gold-900/60 border border-gold-500 rounded-xl text-center"
               >
-                <span className="text-xs text-indigo-200 block uppercase font-mono">Next Interval</span>
+                <span className="text-xs text-gold-200 block uppercase font-mono">Next Interval</span>
                 <span className="text-lg font-black text-white font-mono">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</span>
               </motion.div>
             </motion.div>

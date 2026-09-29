@@ -642,7 +642,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
         <text x={200} y={105} textAnchor="middle" fill="#64748b" fontSize={9}>Scope of Chemistry</text>
       </svg>
       {/* Background Ambience */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-600/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Floating Helper Components */}
@@ -655,12 +655,12 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
       <header className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 mb-6 border-b border-slate-800 pb-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-2.5 py-1 bg-cyan-500/20 text-cyan-400 text-xs font-bold rounded-md border border-cyan-500/30">
+            <span className="px-2.5 py-1 bg-gold-500/20 text-gold-400 text-xs font-bold rounded-md border border-gold-500/30">
               Class 11 ISC Chemistry
             </span>
             <span className="text-xs text-slate-400 font-mono">10 Nodes Covered</span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-white mt-1 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-white mt-1 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-teal-300 to-gold-400">
             Importance & Scope of Chemistry
           </h1>
         </div>
@@ -709,7 +709,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
             }}
             className={`px-4 py-2.5 rounded-xl font-medium text-sm flex items-center gap-2 transition-all ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-500 to-teal-600 text-white shadow-lg shadow-cyan-500/20 font-bold'
+                ? 'bg-gradient-to-r from-gold-500 to-teal-600 text-white shadow-lg shadow-gold-500/20 font-bold'
                 : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800 border border-slate-800'
             }`}
           >
@@ -730,7 +730,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                 onClick={() => handleSelectNode(idx)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 border ${
                   isSelected
-                    ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300 font-bold'
+                    ? 'bg-gold-500/20 border-gold-400 text-gold-300 font-bold'
                     : 'bg-slate-900/60 border-slate-800 text-slate-400 hover:bg-slate-800 hover:text-slate-300'
                 }`}
               >
@@ -746,8 +746,8 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
       {activeTab === 'discovery' && (
         <main className="max-w-4xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="bg-slate-900/90 rounded-2xl p-6 md:p-8 border border-slate-800 shadow-2xl">
-            <div className="flex items-center gap-3 text-cyan-400 mb-4">
-              <span className="p-2 bg-cyan-500/10 rounded-lg border border-cyan-500/20 text-xl">💡</span>
+            <div className="flex items-center gap-3 text-gold-400 mb-4">
+              <span className="p-2 bg-gold-500/10 rounded-lg border border-gold-500/20 text-xl">💡</span>
               <span className="text-sm font-bold uppercase tracking-wider">Predict Before You Learn</span>
             </div>
             <h2 className="text-xl md:text-2xl font-bold text-slate-100 mb-6">{DISCOVERY_QUESTION.question}</h2>
@@ -777,8 +777,8 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
             </div>
 
             {discoverySubmitted && (
-              <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="p-4 bg-cyan-950/40 border border-cyan-800/50 rounded-xl mb-6">
-                <p className="text-cyan-200 text-sm leading-relaxed">{DISCOVERY_QUESTION.explanation}</p>
+              <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="p-4 bg-gold-950/40 border border-gold-800/50 rounded-xl mb-6">
+                <p className="text-gold-200 text-sm leading-relaxed">{DISCOVERY_QUESTION.explanation}</p>
               </motion.div>
             )}
 
@@ -788,7 +788,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                   triggerAudio('tap');
                   setActiveTab('slides');
                 }}
-                className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-400 hover:to-teal-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-500/20 flex items-center gap-2"
+                className="px-6 py-3 bg-gradient-to-r from-gold-500 to-teal-600 hover:from-gold-400 hover:to-teal-500 text-white font-bold rounded-xl shadow-lg shadow-gold-500/20 flex items-center gap-2"
               >
                 <span>Continue to Teaching Slides</span>
                 <span>→</span>
@@ -809,11 +809,11 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                 <div className="p-6 md:p-8 bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border-b border-slate-800 flex justify-between items-start gap-4">
                   <div>
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xs font-mono px-2 py-0.5 bg-cyan-500/20 text-cyan-300 rounded border border-cyan-500/30">{NODE_INFO[slide.nodeId].shortCode}</span>
+                      <span className="text-xs font-mono px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded border border-gold-500/30">{NODE_INFO[slide.nodeId].shortCode}</span>
                       <span className="text-xs text-slate-400">Node {currentSlideIndex + 1} of 10</span>
                     </div>
                     <h2 className="text-2xl md:text-3xl font-extrabold text-white">{slide.title}</h2>
-                    <p className="text-cyan-400 text-sm mt-1">{slide.subtitle}</p>
+                    <p className="text-gold-400 text-sm mt-1">{slide.subtitle}</p>
                   </div>
                   <button
                     onClick={() => {audioManager.play('tap'); 
@@ -834,9 +834,9 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                       <p className="text-slate-200 text-sm leading-relaxed whitespace-pre-line">{slide.content}</p>
                     </div>
 
-                    <div className="bg-cyan-950/30 p-4 rounded-xl border border-cyan-800/40">
-                      <h3 className="text-xs font-bold uppercase text-cyan-400 tracking-wider mb-1">Key Concept & Formula</h3>
-                      <p className="text-cyan-200 text-sm font-medium">{slide.keyConcept}</p>
+                    <div className="bg-gold-950/30 p-4 rounded-xl border border-gold-800/40">
+                      <h3 className="text-xs font-bold uppercase text-gold-400 tracking-wider mb-1">Key Concept & Formula</h3>
+                      <p className="text-gold-200 text-sm font-medium">{slide.keyConcept}</p>
                     </div>
 
                     <div className="bg-amber-950/20 p-4 rounded-xl border border-amber-800/30">
@@ -844,9 +844,9 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                       <p className="text-amber-200 text-xs italic">{slide.eli5}</p>
                     </div>
 
-                    <div className="bg-indigo-950/30 p-4 rounded-xl border border-indigo-800/40">
-                      <h3 className="text-xs font-bold uppercase text-indigo-400 tracking-wider mb-1">Indian Real-World Context</h3>
-                      <p className="text-indigo-200 text-xs">{slide.indianContext}</p>
+                    <div className="bg-gold-950/30 p-4 rounded-xl border border-gold-800/40">
+                      <h3 className="text-xs font-bold uppercase text-gold-400 tracking-wider mb-1">Indian Real-World Context</h3>
+                      <p className="text-gold-200 text-xs">{slide.indianContext}</p>
                     </div>
                   </div>
 
@@ -856,12 +856,12 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
 
                     {slide.visualType === 'branches' && (
                       <div className="space-y-4 w-full">
-                        <div className="w-24 h-24 mx-auto bg-cyan-500/10 border-2 border-cyan-400 rounded-full flex items-center justify-center text-cyan-300 font-bold text-lg shadow-lg shadow-cyan-500/20">
+                        <div className="w-24 h-24 mx-auto bg-gold-500/10 border-2 border-gold-400 rounded-full flex items-center justify-center text-gold-300 font-bold text-lg shadow-lg shadow-gold-500/20">
                           Chemistry
                         </div>
                         <div className="grid grid-cols-2 gap-2 text-xs">
                           <span className="p-2 bg-slate-900 border border-slate-800 rounded text-emerald-400">Organic (Carbon)</span>
-                          <span className="p-2 bg-slate-900 border border-slate-800 rounded text-blue-400">Inorganic (Metals)</span>
+                          <span className="p-2 bg-slate-900 border border-slate-800 rounded text-gold-400">Inorganic (Metals)</span>
                           <span className="p-2 bg-slate-900 border border-slate-800 rounded text-purple-400">Physical (Thermo)</span>
                           <span className="p-2 bg-slate-900 border border-slate-800 rounded text-amber-400">Analytical (Tests)</span>
                         </div>
@@ -871,7 +871,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                     {slide.visualType === 'laws' && (
                       <div className="w-full space-y-3 text-left font-mono text-xs">
                         <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg">
-                          <span className="text-cyan-400 font-bold">12g Carbon</span> + <span className="text-teal-400 font-bold">32g Oxygen</span>
+                          <span className="text-gold-400 font-bold">12g Carbon</span> + <span className="text-teal-400 font-bold">32g Oxygen</span>
                           <div className="text-slate-400 mt-1">➔ Exactly <span className="text-amber-400 font-bold">44g CO₂</span></div>
                         </div>
                         <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg">
@@ -883,9 +883,9 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                     {slide.visualType === 'dalton' && (
                       <div className="space-y-3 w-full text-center">
                         <div className="flex justify-center gap-3 items-center">
-                          <div className="w-12 h-12 rounded-full bg-cyan-500/30 border-2 border-cyan-400 flex items-center justify-center font-bold text-cyan-200">Atom</div>
+                          <div className="w-12 h-12 rounded-full bg-gold-500/30 border-2 border-gold-400 flex items-center justify-center font-bold text-gold-200">Atom</div>
                           <span className="text-slate-500">+</span>
-                          <div className="w-12 h-12 rounded-full bg-cyan-500/30 border-2 border-cyan-400 flex items-center justify-center font-bold text-cyan-200">Atom</div>
+                          <div className="w-12 h-12 rounded-full bg-gold-500/30 border-2 border-gold-400 flex items-center justify-center font-bold text-gold-200">Atom</div>
                         </div>
                         <p className="text-xs text-slate-400">Dalton: Indivisible sphere units</p>
                       </div>
@@ -902,8 +902,8 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
 
                     {slide.visualType === 'mole' && (
                       <div className="w-full text-center space-y-2">
-                        <div className="p-4 bg-cyan-950/40 border border-cyan-800 rounded-xl font-mono text-sm">
-                          <p className="text-cyan-300 font-bold">1 Mole = 6.022 × 10²³ Particles</p>
+                        <div className="p-4 bg-gold-950/40 border border-gold-800 rounded-xl font-mono text-sm">
+                          <p className="text-gold-300 font-bold">1 Mole = 6.022 × 10²³ Particles</p>
                           <p className="text-emerald-400 text-xs mt-1">At STP = 22.4 Litres Gas</p>
                         </div>
                       </div>
@@ -915,14 +915,14 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                           Empirical: <span className="text-amber-400">CH₂O</span> (Mass: 30)
                         </div>
                         <div className="p-2.5 bg-slate-900 border border-slate-800 rounded">
-                          Molecular: <span className="text-cyan-400">(CH₂O)₆ = C₆H₁₂O₆</span> (Mass: 180)
+                          Molecular: <span className="text-gold-400">(CH₂O)₆ = C₆H₁₂O₆</span> (Mass: 180)
                         </div>
                       </div>
                     )}
 
                     {slide.visualType === 'stoichiometry' && (
                       <div className="w-full text-xs font-mono space-y-2">
-                        <p className="text-indigo-300">N₂ + 3 H₂ ➔ 2 NH₃</p>
+                        <p className="text-gold-300">N₂ + 3 H₂ ➔ 2 NH₃</p>
                         <div className="p-2 bg-slate-900 border border-slate-800 rounded text-slate-400">
                           1 mol N₂ needs 3 mol H₂
                         </div>
@@ -931,7 +931,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
 
                     {slide.visualType === 'sigfigs' && (
                       <div className="w-full text-xs font-mono space-y-2 text-left">
-                        <div className="p-2 bg-slate-900 border border-slate-800 rounded text-cyan-300">
+                        <div className="p-2 bg-slate-900 border border-slate-800 rounded text-gold-300">
                           0.0250 L ➔ <span className="font-bold text-amber-400">3 Sig Figs</span>
                         </div>
                       </div>
@@ -980,7 +980,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                           setSelectedNodeIndex(idx);
                         }}
                         className={`w-3 h-3 rounded-full cursor-pointer transition-all ${
-                          idx === currentSlideIndex ? 'bg-cyan-400 scale-125' : 'bg-slate-800 hover:bg-slate-700'
+                          idx === currentSlideIndex ? 'bg-gold-400 scale-125' : 'bg-slate-800 hover:bg-slate-700'
                         }`}
                       />
                     ))}
@@ -996,7 +996,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                         setActiveTab('lab');
                       }
                     }}
-                    className="px-5 py-2 bg-cyan-500 hover:bg-cyan-400 text-white font-bold text-sm rounded-lg shadow-md shadow-cyan-500/20"
+                    className="px-5 py-2 bg-gold-500 hover:bg-gold-400 text-white font-bold text-sm rounded-lg shadow-md shadow-gold-500/20"
                   >
                     {currentSlideIndex < TEACHING_SLIDES.length - 1 ? 'Next Slide →' : 'Open Laboratory →'}
                   </button>
@@ -1014,7 +1014,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
           <div className="bg-slate-900/90 rounded-2xl p-6 border border-slate-800 shadow-2xl">
             <div className="flex justify-between items-center mb-6">
               <div>
-                <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest">Interactive Chemistry Lab</span>
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-widest">Interactive Chemistry Lab</span>
                 <h2 className="text-2xl font-bold text-white">{NODE_INFO[ALL_NODE_IDS[selectedNodeIndex]].name}</h2>
               </div>
               <button
@@ -1036,7 +1036,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                   <p className="text-sm text-slate-300">Click a branch to inspect its domain and daily life applications in India:</p>
                   {[
                     { id: 'organic', name: 'Organic Chemistry', color: 'text-emerald-400', desc: 'Study of carbon compounds (Hydrocarbons, Aspirin, Paracetamol)' },
-                    { id: 'inorganic', name: 'Inorganic Chemistry', color: 'text-blue-400', desc: 'Metals, minerals, coordination compounds & Urea fertilizer' },
+                    { id: 'inorganic', name: 'Inorganic Chemistry', color: 'text-gold-400', desc: 'Metals, minerals, coordination compounds & Urea fertilizer' },
                     { id: 'physical', name: 'Physical Chemistry', color: 'text-purple-400', desc: 'Thermodynamics, chemical kinetics & energy transformations' },
                     { id: 'analytical', name: 'Analytical Chemistry', color: 'text-amber-400', desc: 'Qualitative & quantitative analysis, titrations, water purity' },
                     { id: 'biochem', name: 'Biochemistry', color: 'text-pink-400', desc: 'Life chemical pathways, enzymes, DNA, metabolic cycles' }
@@ -1049,7 +1049,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                       }}
                       className={`w-full text-left p-3.5 rounded-xl border transition-all ${
                         activeBranch === branch.id
-                          ? 'bg-slate-800 border-cyan-400 shadow-lg shadow-cyan-500/10'
+                          ? 'bg-slate-800 border-gold-400 shadow-lg shadow-gold-500/10'
                           : 'bg-slate-950/60 border-slate-800 hover:bg-slate-850'
                       }`}
                     >
@@ -1060,10 +1060,10 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                 </div>
 
                 <div className="bg-slate-950 rounded-xl p-6 border border-slate-800 flex flex-col justify-center items-center text-center">
-                  <div className="w-32 h-32 rounded-full border-4 border-cyan-500/40 flex items-center justify-center p-4 bg-cyan-950/20 text-cyan-300 font-bold text-lg mb-4 shadow-xl shadow-cyan-500/10">
+                  <div className="w-32 h-32 rounded-full border-4 border-gold-500/40 flex items-center justify-center p-4 bg-gold-950/20 text-gold-300 font-bold text-lg mb-4 shadow-xl shadow-gold-500/10">
                     {activeBranch.toUpperCase()}
                   </div>
-                  <p className="text-xs text-cyan-400 font-mono mb-2">Central Science Connection</p>
+                  <p className="text-xs text-gold-400 font-mono mb-2">Central Science Connection</p>
                   <p className="text-sm text-slate-300 leading-relaxed">
                     {activeBranch === 'organic' && 'Connects directly with medicinal chemistry and industrial pharmaceutical synthesis across India.'}
                     {activeBranch === 'inorganic' && 'Connects with metallurgy in Jharkhand mineral belts and fertilizer production in Punjab.'}
@@ -1079,7 +1079,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
             {selectedNodeIndex === 1 && (
               <div className="space-y-6">
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs">
-                  <p className="text-cyan-400 font-bold mb-1">Law of Conservation of Mass Simulator</p>
+                  <p className="text-gold-400 font-bold mb-1">Law of Conservation of Mass Simulator</p>
                   <p className="text-slate-400">Carbon (C) + Oxygen (O₂) ➔ Carbon Dioxide (CO₂)</p>
                 </div>
 
@@ -1097,7 +1097,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                           triggerAudio('pop');
                           setLawCarbonMass(Number(e.target.value));
                         }}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                     <div>
@@ -1112,7 +1112,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                           triggerAudio('pop');
                           setLawOxygenMass(Number(e.target.value));
                         }}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                   </div>
@@ -1120,8 +1120,8 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                   <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 text-center font-mono space-y-3">
                     <p className="text-xs text-slate-400">Total Mass Balance Scale</p>
                     <div className="flex justify-around items-center text-sm">
-                      <div className="p-3 bg-cyan-950/40 border border-cyan-800 rounded-lg">
-                        <p className="text-cyan-400 font-bold">Reactants</p>
+                      <div className="p-3 bg-gold-950/40 border border-gold-800 rounded-lg">
+                        <p className="text-gold-400 font-bold">Reactants</p>
                         <p className="text-white text-lg">{lawCarbonMass + lawOxygenMass} g</p>
                       </div>
                       <span className="text-amber-400 text-xl font-bold font-sans">==</span>
@@ -1146,7 +1146,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                       setDaltonViewMode('dalton');
                     }}
                     className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                      daltonViewMode === 'dalton' ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-400'
+                      daltonViewMode === 'dalton' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     1808 Dalton View
@@ -1180,8 +1180,8 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                         <div className="w-8 h-8 rounded-full bg-rose-500/40 border border-rose-400 text-[10px] flex items-center justify-center font-bold text-rose-200">
                           Nucleus
                         </div>
-                        <div className="absolute top-2 left-2 w-3 h-3 bg-cyan-400 rounded-full animate-ping" />
-                        <span className="text-[10px] text-cyan-300 mt-2">e- Cloud</span>
+                        <div className="absolute top-2 left-2 w-3 h-3 bg-gold-400 rounded-full animate-ping" />
+                        <span className="text-[10px] text-gold-300 mt-2">e- Cloud</span>
                       </div>
                       <p className="text-xs text-purple-300 max-w-md mx-auto">
                         Modern Discovery: Atoms contain subatomic electrons, protons, and neutrons, and exist as isotopes!
@@ -1204,7 +1204,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                         setSelectedMolecule(mol);
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                        selectedMolecule === mol ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-400'
+                        selectedMolecule === mol ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {mol}
@@ -1214,7 +1214,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
 
                 <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 text-center font-mono space-y-3">
                   <p className="text-xs text-slate-400">Carbon-12 Relative Scale Calculator</p>
-                  <h3 className="text-xl font-extrabold text-cyan-300">{moleculeMassData?.name}</h3>
+                  <h3 className="text-xl font-extrabold text-gold-300">{moleculeMassData?.name}</h3>
                   <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg inline-block text-sm">
                     <span className="text-slate-400">Sum: </span>
                     <span className="text-amber-300">{moleculeMassData?.sumStr}</span> ={' '}
@@ -1242,14 +1242,14 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                       triggerAudio('pop');
                       setMolePistonValue(Number(e.target.value));
                     }}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-4 font-mono text-center">
                   <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
                     <p className="text-xs text-slate-400">Particle Count (N)</p>
-                    <p className="text-lg font-bold text-cyan-300">{(molePistonValue * 6.022).toFixed(3)} × 10²³</p>
+                    <p className="text-lg font-bold text-gold-300">{(molePistonValue * 6.022).toFixed(3)} × 10²³</p>
                   </div>
                   <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl">
                     <p className="text-xs text-slate-400">Water Mass (m)</p>
@@ -1278,7 +1278,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                       triggerAudio('pop');
                       setSynthMolarMass(Number(e.target.value));
                     }}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
 
@@ -1286,7 +1286,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                   <p className="text-xs text-slate-400">Empirical ➔ Molecular Derivation</p>
                   <div className="flex justify-center gap-4 text-xs">
                     <span className="p-2 bg-slate-900 border border-slate-800 rounded text-amber-300">Empirical: CH₂O (30 g/mol)</span>
-                    <span className="p-2 bg-slate-900 border border-slate-800 rounded text-cyan-300">n-factor = {formulaSynthesisData.nFactor}</span>
+                    <span className="p-2 bg-slate-900 border border-slate-800 rounded text-gold-300">n-factor = {formulaSynthesisData.nFactor}</span>
                   </div>
                   <p className="text-xl font-bold text-emerald-400">Molecular Formula: {formulaSynthesisData.molFormula}</p>
                 </div>
@@ -1309,7 +1309,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                         triggerAudio('pop');
                         setReactN2Moles(Number(e.target.value));
                       }}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                   <div>
@@ -1324,7 +1324,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                         triggerAudio('pop');
                         setReactH2Moles(Number(e.target.value));
                       }}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                 </div>
@@ -1352,7 +1352,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                     type="text"
                     value={sigFigInput}
                     onChange={(e) => setSigFigInput(e.target.value)}
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-cyan-300 text-sm focus:outline-none focus:border-cyan-400"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-gold-300 text-sm focus:outline-none focus:border-gold-400"
                   />
                 </div>
 
@@ -1376,7 +1376,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                         setEqSubstance(sub);
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                        eqSubstance === sub ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-400'
+                        eqSubstance === sub ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {sub}
@@ -1405,7 +1405,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
 
                 <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 font-mono text-center space-y-3">
                   <p className="text-xs text-slate-400">Equivalent Weight = Molar Mass / n-factor</p>
-                  <p className="text-sm text-cyan-300">{eqData.desc}</p>
+                  <p className="text-sm text-gold-300">{eqData.desc}</p>
                   <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg inline-block text-sm">
                     <span className="text-slate-400">E = {eqData.molMass} / {eqData.nFactor} = </span>
                     <span className="text-emerald-400 font-bold">{eqData.eqWeight} g</span>
@@ -1423,13 +1423,13 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                   <div className="flex justify-center items-center gap-6">
                     <div className="w-16 h-48 bg-slate-900 border-2 border-slate-700 rounded-lg relative overflow-hidden flex flex-col justify-end p-1">
                       <div
-                        className="w-full bg-cyan-400/60 rounded transition-all duration-300"
+                        className="w-full bg-gold-400/60 rounded transition-all duration-300"
                         style={{ height: `${Math.min(100, (titrantVolume / 25) * 100)}%` }}
                       />
                     </div>
 
                     <div className="text-left font-mono text-xs space-y-2">
-                      <p>Titrant Added: <span className="text-cyan-300 font-bold">{titrantVolume} mL</span></p>
+                      <p>Titrant Added: <span className="text-gold-300 font-bold">{titrantVolume} mL</span></p>
                       <p>Target Equivalence: <span className="text-amber-300 font-bold">25.0 mL</span></p>
 
                       <button
@@ -1445,7 +1445,7 @@ export default function C11_ChemistryImportanceandscopeofchemistrySim() {
                             setTitrantVolume((prev) => prev + 5);
                           }
                         }}
-                        className="px-4 py-2 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-30 text-white font-bold rounded-lg"
+                        className="px-4 py-2 bg-gold-500 hover:bg-gold-400 disabled:opacity-30 text-white font-bold rounded-lg"
                       >
                         Drop 5 mL Titrant
                       </button>

@@ -1209,7 +1209,7 @@ const PortClassificationSVG: React.FC<{
 
   return (
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-      <h3 className="text-lg font-bold text-sky-400 mb-3 text-center">
+      <h3 className="text-lg font-bold text-gold-400 mb-3 text-center">
         Classification of Ports by Location & Function
       </h3>
 
@@ -1222,7 +1222,7 @@ const PortClassificationSVG: React.FC<{
               onClick={() => onSelectType(cat.type)}
               className={`p-3 rounded-lg border text-center transition-all ${
                 isSelected
-                  ? 'bg-sky-600 border-sky-400 text-white shadow-lg'
+                  ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                   : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
               }`}
             >
@@ -1330,7 +1330,7 @@ const PortClassificationSVG: React.FC<{
       {/* Description box */}
       <div className="mt-3 p-3 bg-slate-800 rounded-lg border border-slate-700">
         <p className="text-sm text-slate-200">
-          <span className="font-bold text-sky-400">
+          <span className="font-bold text-gold-400">
             {portCategories.find((c) => c.type === activeType)?.title}:
           </span>{' '}
           {portCategories.find((c) => c.type === activeType)?.desc}
@@ -1591,14 +1591,14 @@ export default function C12_GeoInternationalTradeCBSESim({
       {/* Top Header Bar */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap justify-between items-center shadow-md">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center font-bold text-white shadow-lg text-xl">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-white shadow-lg text-xl">
             🚢
           </div>
           <div>
             <h1 className="text-xl font-bold text-white tracking-wide">
               ISC Class 12 Geography: International Trade & Gateway Ports
             </h1>
-            <p className="text-xs text-sky-400">
+            <p className="text-xs text-gold-400">
               Interactive Lab • Nodes c12_geo_cbse_253 to 286
             </p>
           </div>
@@ -1612,7 +1612,7 @@ export default function C12_GeoInternationalTradeCBSESim({
               onClick={() => handleTabChange(tab)}
               className={`px-4 py-2 rounded-lg text-sm font-semibold capitalize transition-all ${
                 activeTab === tab
-                  ? 'bg-sky-500 text-white shadow-lg shadow-sky-500/30'
+                  ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/30'
                   : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-200'
               }`}
             >
@@ -1631,20 +1631,20 @@ export default function C12_GeoInternationalTradeCBSESim({
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* Scenario Banner */}
-            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 rounded-2xl p-6 shadow-xl">
-              <span className="bg-indigo-500/20 text-indigo-300 text-xs font-bold px-3 py-1 rounded-full border border-indigo-500/40">
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+              <span className="bg-gold-500/20 text-gold-300 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/40">
                 LAB SCENARIO
               </span>
               <h2 className="text-2xl font-bold text-white mt-3 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <p className="text-slate-400 text-sm border-l-4 border-indigo-500 pl-3 italic">
+              <p className="text-slate-400 text-sm border-l-4 border-gold-500 pl-3 italic">
                 {SCENARIO.context}
               </p>
             </div>
 
             {/* Counterintuitive Discovery Question */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
-              <span className="text-sky-400 text-xs font-bold tracking-wider uppercase">
+              <span className="text-gold-400 text-xs font-bold tracking-wider uppercase">
                 Discovery Challenge
               </span>
               <h3 className="text-lg font-bold text-white mt-2 mb-4">
@@ -1678,8 +1678,8 @@ export default function C12_GeoInternationalTradeCBSESim({
               </div>
 
               {discoveryAnswer !== null && (
-                <div className="mt-4 p-4 bg-sky-950/50 border border-sky-800/50 rounded-xl text-sky-200 text-sm">
-                  <strong className="text-sky-400">Insight: </strong>
+                <div className="mt-4 p-4 bg-gold-950/50 border border-gold-800/50 rounded-xl text-gold-200 text-sm">
+                  <strong className="text-gold-400">Insight: </strong>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1736,7 +1736,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                   onClick={() => handleStepChange(idx)}
                   className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
                     currentLabStepIndex === idx
-                      ? 'bg-sky-500 text-white shadow-md'
+                      ? 'bg-gold-500 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                   }`}
                 >
@@ -1748,7 +1748,7 @@ export default function C12_GeoInternationalTradeCBSESim({
             {/* Active Lab Step Instruction */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center justify-between">
               <div>
-                <h3 className="text-base font-bold text-sky-400">
+                <h3 className="text-base font-bold text-gold-400">
                   {EXPLORATION_STEPS[currentLabStepIndex].title}
                 </h3>
                 <p className="text-sm text-slate-300">
@@ -1777,7 +1777,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                 <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
                   <div className="flex justify-between items-center border-b border-slate-800 pb-2">
                     <h4 className="text-lg font-bold text-white">{selectedPort.name}</h4>
-                    <span className="px-2 py-1 bg-sky-500/20 text-sky-300 rounded text-xs font-semibold">
+                    <span className="px-2 py-1 bg-gold-500/20 text-gold-300 rounded text-xs font-semibold">
                       {selectedPort.coast.toUpperCase()} COAST
                     </span>
                   </div>
@@ -1785,7 +1785,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                   <div className="space-y-3 text-sm">
                     <div>
                       <span className="text-slate-400 block text-xs">Port Architecture Type</span>
-                      <strong className="text-sky-300">{selectedPort.type}</strong>
+                      <strong className="text-gold-300">{selectedPort.type}</strong>
                     </div>
 
                     <div>
@@ -1826,7 +1826,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                       }}
                       className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
                         selectedEra === era
-                          ? 'bg-sky-500 text-white'
+                          ? 'bg-gold-500 text-white'
                           : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                       }`}
                     >
@@ -1848,7 +1848,7 @@ export default function C12_GeoInternationalTradeCBSESim({
             {currentLabStepIndex === 2 && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
-                  <h4 className="text-base font-bold text-sky-400">Trade Balance Adjuster</h4>
+                  <h4 className="text-base font-bold text-gold-400">Trade Balance Adjuster</h4>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
@@ -1930,7 +1930,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                         audioManager.play('tap');
                       }}
                       className={`px-3 py-1 rounded text-xs font-bold transition-all ${
-                        wtoActive ? 'bg-sky-500 text-white' : 'bg-slate-800 text-slate-400'
+                        wtoActive ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {wtoActive ? 'ACTIVE (Rule-Based)' : 'SUSPENDED'}
@@ -1947,7 +1947,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                           audioManager.play('pop');
                         }}
                         className={`px-3 py-1 rounded text-xs uppercase font-bold transition-all ${
-                          activeBloc === bloc ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          activeBloc === bloc ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {bloc}
@@ -1979,7 +1979,7 @@ export default function C12_GeoInternationalTradeCBSESim({
 
             {/* OBSERVATION QUESTIONS ARRAY MANDATORY RENDER */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg space-y-4 mt-6">
-              <h3 className="text-lg font-bold text-sky-400 flex items-center space-x-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center space-x-2">
                 <span>👁️</span>
                 <span>Lab Observations & Diagnostic Verification</span>
               </h3>
@@ -2028,7 +2028,7 @@ export default function C12_GeoInternationalTradeCBSESim({
             </div>
             <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
               <div
-                className="bg-sky-500 h-full transition-all duration-300"
+                className="bg-gold-500 h-full transition-all duration-300"
                 style={{
                   width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%`,
                 }}
@@ -2070,7 +2070,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                           btnStyle = 'bg-rose-950 border-rose-500 text-rose-200';
                         }
                       } else if (isSelected) {
-                        btnStyle = 'bg-sky-950 border-sky-500 text-sky-200';
+                        btnStyle = 'bg-gold-950 border-gold-500 text-gold-200';
                       }
 
                       return (
@@ -2109,7 +2109,7 @@ export default function C12_GeoInternationalTradeCBSESim({
                         disabled={selectedOption === null}
                         className={`px-6 py-2.5 rounded-xl text-sm font-bold transition-all ${
                           selectedOption !== null
-                            ? 'bg-sky-500 hover:bg-sky-400 text-white shadow-lg shadow-sky-500/30'
+                            ? 'bg-gold-500 hover:bg-gold-400 text-white shadow-lg shadow-gold-500/30'
                             : 'bg-slate-800 text-slate-600 cursor-not-allowed'
                         }`}
                       >
@@ -2136,8 +2136,8 @@ export default function C12_GeoInternationalTradeCBSESim({
         {activeTab === 'summary' && (
           <div className="space-y-6">
             {/* REAL WORLD ACTIVITY MANDATORY RENDER */}
-            <div className="bg-gradient-to-r from-slate-900 via-sky-950 to-slate-900 border border-sky-500/30 rounded-2xl p-6 shadow-xl">
-              <span className="bg-sky-500/20 text-sky-300 text-xs font-bold px-3 py-1 rounded-full border border-sky-500/40">
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+              <span className="bg-gold-500/20 text-gold-300 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/40">
                 REAL-WORLD APPLICATION TASK
               </span>
               <h3 className="text-xl font-bold text-white mt-3 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2146,7 +2146,7 @@ export default function C12_GeoInternationalTradeCBSESim({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="p-3 bg-slate-900/80 border border-slate-800 rounded-xl text-xs text-slate-300 flex space-x-3">
-                    <span className="w-6 h-6 rounded-full bg-sky-500/20 text-sky-400 font-bold flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-500/20 text-gold-400 font-bold flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
                     <span>{step}</span>
@@ -2178,7 +2178,7 @@ export default function C12_GeoInternationalTradeCBSESim({
               <div className="space-y-3">
                 {DIAGNOSTIC_QUESTIONS.map((dq) => (
                   <div key={dq.id} className="p-3 bg-slate-800/40 rounded-lg text-xs space-y-1">
-                    <p className="font-semibold text-sky-300">{dq.question}</p>
+                    <p className="font-semibold text-gold-300">{dq.question}</p>
                     <p className="text-slate-300">
                       Correct Answer: <span className="text-emerald-400">{dq.options[dq.correctIndex]}</span>
                     </p>

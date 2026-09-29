@@ -1227,7 +1227,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
   const nodeMasteryVal = masteryProb(bktState[currentChal.nodeId] || createBKTState(currentChal.nodeId));
 
   return (
-    <div className="w-full min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-cyan-500 selection:text-white">
+    <div className="w-full min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-gold-500 selection:text-white">
       {/* Dynamic Visual Feedback Overlays */}
       <Confetti show={showConfetti} />
       <SuccessBanner show={showSuccess} text="Mastery Complete! Molecular Basis of Inheritance Achieved." />
@@ -1238,14 +1238,14 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
       <header className="max-w-6xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <div className="flex items-center gap-3 mb-2">
-            <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 rounded-full text-xs font-semibold tracking-wider uppercase">
+            <span className="px-3 py-1 bg-gold-500/10 text-gold-400 border border-gold-500/30 rounded-full text-xs font-semibold tracking-wider uppercase">
               CISCE Class 12 Biology
             </span>
             <span className="px-3 py-1 bg-purple-500/10 text-purple-400 border border-purple-500/30 rounded-full text-xs font-semibold">
               Mastery Engine
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-400 to-purple-500">
             {SCENARIO.title}
           </h1>
           <p className="text-sm text-slate-400 mt-1 max-w-2xl">{SCENARIO.intro}</p>
@@ -1253,8 +1253,8 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
 
         {/* Global Progress Card */}
         <div className="bg-slate-950/80 border border-slate-800 rounded-xl p-4 flex items-center gap-4 min-w-[220px]">
-          <div className="w-12 h-12 rounded-full border-4 border-cyan-500 border-t-transparent animate-spin flex items-center justify-center">
-            <span className="text-xs font-bold text-cyan-400 animate-none">
+          <div className="w-12 h-12 rounded-full border-4 border-gold-500 border-t-transparent animate-spin flex items-center justify-center">
+            <span className="text-xs font-bold text-gold-400 animate-none">
               {Math.round((completedChallenges.size / CHALLENGES.length) * 100)}%
             </span>
           </div>
@@ -1278,7 +1278,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
             }}
             className={`flex-1 min-w-[120px] py-2.5 px-4 rounded-lg text-sm font-semibold capitalize transition-all duration-200 ${
               activeTab === tab
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg shadow-cyan-500/20'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg shadow-gold-500/20'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
@@ -1296,7 +1296,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">Discovery Challenge: Nucleotide Preconceptions</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Discovery Challenge: Nucleotide Preconceptions</h2>
               <p className="text-slate-300 text-sm mb-6">{DISCOVERY_QUESTION.question}</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1312,7 +1312,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                           : idx === discoverySelected
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : 'bg-slate-950/50 border-slate-800 text-slate-500'
-                        : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-cyan-500/50'
+                        : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -1326,8 +1326,8 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
               </div>
 
               {discoverySubmitted && (
-                <div className="mt-6 p-4 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-cyan-200 text-sm leading-relaxed">
-                  <span className="font-bold text-cyan-400">Scientific Insight: </span>
+                <div className="mt-6 p-4 rounded-xl bg-gold-950/40 border border-gold-500/30 text-gold-200 text-sm leading-relaxed">
+                  <span className="font-bold text-gold-400">Scientific Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1397,7 +1397,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                   }}
                   className={`py-2 px-3 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-950 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1409,7 +1409,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
             {/* Selected Exploration Step Detail Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="mb-4">
-                <h3 className="text-lg font-bold text-cyan-400">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
+                <h3 className="text-lg font-bold text-gold-400">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
                 <p className="text-xs text-slate-400 mt-1">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
               </div>
 
@@ -1429,7 +1429,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                         max="90"
                         value={gcPercent}
                         onChange={(e) => setGcPercent(Number(e.target.value))}
-                        className="w-full mt-2 accent-cyan-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                       <p className="text-xs text-slate-400 mt-2">
                         Higher G-C content increases thermal denaturation melting temperature (Tm) due to 3 hydrogen bonds per pair.
@@ -1482,7 +1482,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
               {activeLabIndex === 2 && (
                 <div className="space-y-6">
                   <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 text-center">
-                    <h4 className="text-sm font-bold text-cyan-400 mb-2">Transcription & mRNA Processing Engine</h4>
+                    <h4 className="text-sm font-bold text-gold-400 mb-2">Transcription & mRNA Processing Engine</h4>
                     <p className="text-xs text-slate-400 mb-4">
                       RNA Polymerase II transcribes 5' to 3' starting from TATA box promoter. Spliceosome removes introns, adding 7-methylguanosine cap and Poly-A tail.
                     </p>
@@ -1495,7 +1495,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                           audioManager.play('chime');
                           speechManager.speak('Spliceosome removing intron segment');
                         }}
-                        className="py-2.5 px-6 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold"
+                        className="py-2.5 px-6 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold"
                       >
                         Execute Pre-mRNA Splicing
                       </button>
@@ -1572,7 +1572,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
 
             {/* OBSERVATION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4">Empirical Observation Checkpoints</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">Empirical Observation Checkpoints</h3>
               <div className="space-y-6">
                 {OBSERVATION_QUESTIONS.map((oq, oqIdx) => (
                   <div key={oqIdx} className="p-4 rounded-xl bg-slate-950 border border-slate-800">
@@ -1601,7 +1601,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                                   : isSelected
                                   ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                                   : 'bg-slate-900 border-slate-800 text-slate-500'
-                                : 'bg-slate-900 border-slate-800 hover:border-cyan-500/50 text-slate-300'
+                                : 'bg-slate-900 border-slate-800 hover:border-gold-500/50 text-slate-300'
                             }`}
                           >
                             {opt}
@@ -1624,7 +1624,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6 border-b border-slate-800 pb-4">
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
+                    <span className="text-xs font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded bg-gold-500/10 text-gold-400 border border-gold-500/30">
                       Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                     </span>
                     <span className="text-xs font-semibold px-2.5 py-0.5 rounded bg-slate-800 text-slate-300 capitalize">
@@ -1635,7 +1635,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                     </span>
                   </div>
                   <div className="text-xs text-slate-400 mt-2">
-                    Node: <span className="font-mono text-cyan-400">{currentChal.nodeId}</span> | Mastery Level: <span className="font-bold text-emerald-400">{Math.round(nodeMasteryVal * 100)}%</span>
+                    Node: <span className="font-mono text-gold-400">{currentChal.nodeId}</span> | Mastery Level: <span className="font-bold text-emerald-400">{Math.round(nodeMasteryVal * 100)}%</span>
                   </div>
                 </div>
 
@@ -1671,7 +1671,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                     value={userNumericInput}
                     onChange={(e) => setUserNumericInput(e.target.value)}
                     placeholder="e.g. 2240"
-                    className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-sm text-cyan-300 focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-sm text-gold-300 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               ) : (
@@ -1682,7 +1682,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                       onClick={() => setUserAnswerIndex(idx)}
                       className={`p-4 rounded-xl text-left text-sm font-medium border transition-all ${
                         userAnswerIndex === idx
-                          ? 'bg-cyan-950/80 border-cyan-500 text-cyan-100 shadow-md shadow-cyan-500/20'
+                          ? 'bg-gold-950/80 border-gold-500 text-gold-100 shadow-md shadow-gold-500/20'
                           : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -1713,7 +1713,7 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                 <button
                   onClick={handleChallengeSubmit}
                   disabled={userAnswerIndex === null && userNumericInput.trim() === ''}
-                  className="w-full md:w-auto py-3 px-8 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold text-sm shadow-lg shadow-cyan-600/30 disabled:opacity-40"
+                  className="w-full md:w-auto py-3 px-8 rounded-xl bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm shadow-lg shadow-gold-600/30 disabled:opacity-40"
                 >
                   Submit Answer
                 </button>
@@ -1782,9 +1782,9 @@ export const C12_BiologyMolecularBasisofInheritanceCBSESim: React.FC<DefaultProp
                 ))}
               </div>
 
-              <div className="p-4 rounded-xl bg-cyan-950/40 border border-cyan-500/30 flex justify-between items-center">
+              <div className="p-4 rounded-xl bg-gold-950/40 border border-gold-500/30 flex justify-between items-center">
                 <div>
-                  <div className="text-xs text-cyan-400 font-bold uppercase tracking-wider">Mastery Status</div>
+                  <div className="text-xs text-gold-400 font-bold uppercase tracking-wider">Mastery Status</div>
                   <div className="text-lg font-bold text-white">
                     {completedChallenges.size} of {CHALLENGES.length} Modules Certified
                   </div>

@@ -1403,8 +1403,8 @@ function C8_HistoryCivicsBattlePlassey1757Sim({
 
                   {/* Dual Government Visual Flow Description */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div className="p-3 bg-indigo-950/40 border border-indigo-700 rounded-xl space-y-1">
-                      <h4 className="text-xs font-bold text-indigo-300">🏢 Company Diwani (Revenue Power)</h4>
+                    <div className="p-3 bg-gold-950/40 border border-gold-700 rounded-xl space-y-1">
+                      <h4 className="text-xs font-bold text-gold-300">🏢 Company Diwani (Revenue Power)</h4>
                       <p className="text-xs text-slate-300">Revenue Extracted: <strong>₹{revenueSqueeze} Lakh</strong></p>
                       <p className="text-xs text-slate-400">Expenditure on Bengal Welfare: <strong className="text-rose-400">₹0 (ZERO)</strong></p>
                       <p className="text-[11px] text-slate-400">Surplus used to buy Indian cloth and fund British armies across India.</p>
@@ -1612,12 +1612,12 @@ function C8_HistoryCivicsBattlePlassey1757Sim({
                       </div>
                     </div>
 
-                    <div className="p-3 bg-slate-900 border border-blue-600/50 rounded-xl space-y-1">
-                      <h4 className="text-xs font-bold text-blue-400">2. Ryotwari System (1820)</h4>
+                    <div className="p-3 bg-slate-900 border border-gold-600/50 rounded-xl space-y-1">
+                      <h4 className="text-xs font-bold text-gold-400">2. Ryotwari System (1820)</h4>
                       <p className="text-[11px] text-slate-400">Region: Madras & Bombay (Munro)</p>
                       <p className="text-[11px] text-slate-400">Intermediary: <strong>None (Direct from Ryot)</strong></p>
                       <div className="mt-2 p-2 bg-slate-950 rounded text-xs space-y-1">
-                        <p className="text-blue-400">State Direct Tax (~50%): ₹{Math.round(grossHarvest * 0.50)}</p>
+                        <p className="text-gold-400">State Direct Tax (~50%): ₹{Math.round(grossHarvest * 0.50)}</p>
                         <p className="text-slate-400">Revisable: Every 30 years</p>
                         <p className="text-rose-400">Result: Heavy debt to moneylenders</p>
                       </div>
@@ -1774,7 +1774,7 @@ function C8_HistoryCivicsBattlePlassey1757Sim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl text-xs space-y-1">
                 <p className="text-slate-300">Permanent Settlement 89% Company Demand: <strong className="text-amber-400">₹{Math.round(grossHarvest * 0.89)}</strong></p>
-                <p className="text-slate-300">Ryotwari 50% Direct State Demand: <strong className="text-blue-400">₹{Math.round(grossHarvest * 0.50)}</strong></p>
+                <p className="text-slate-300">Ryotwari 50% Direct State Demand: <strong className="text-gold-400">₹{Math.round(grossHarvest * 0.50)}</strong></p>
                 <p className="text-slate-300">Dacca Muslin Export Capacity: <strong className="text-rose-400">{grossHarvest > 1500 ? 'COLLAPSED (Duty-free UK Imports)' : 'Ruined'}</strong></p>
               </div>
             </div>
@@ -2198,13 +2198,13 @@ function C8_HistoryCivicsBattlePlassey1757Sim({
           )}
 
           {/* Real World Activity */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">🌍 {REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300">🌍 {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

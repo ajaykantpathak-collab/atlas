@@ -1126,12 +1126,12 @@ function C12_PhysicsElectricChargestypesSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 mb-6 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="p-3 bg-cyan-950/70 border border-cyan-800/80 rounded-2xl text-2xl shadow-inner" aria-hidden="true">
+          <span className="p-3 bg-gold-950/70 border border-gold-800/80 rounded-2xl text-2xl shadow-inner" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest font-bold text-cyan-400 bg-cyan-950/60 px-2 py-0.5 rounded border border-cyan-800">
+              <span className="text-xs uppercase tracking-widest font-bold text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded border border-gold-800">
                 ISC Class 12
               </span>
               <span className="text-xs text-slate-400 font-mono">10 Curricular Nodes</span>
@@ -1150,7 +1150,7 @@ function C12_PhysicsElectricChargestypesSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-300 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1163,7 +1163,7 @@ function C12_PhysicsElectricChargestypesSim({
       <div className="relative w-full h-8 bg-slate-900/60 rounded-xl overflow-hidden border border-slate-800 mb-4">
         <canvas ref={canvasRef} width={900} height={32} className="w-full h-full block" />
         <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
-          <span className="text-[10px] uppercase font-mono tracking-widest text-cyan-400/80">
+          <span className="text-[10px] uppercase font-mono tracking-widest text-gold-400/80">
             ⚡ Electrostatic Potential Monitor: Active Field Sensor
           </span>
         </div>
@@ -1172,13 +1172,13 @@ function C12_PhysicsElectricChargestypesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🔬</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-slate-400">
-              <strong className="text-cyan-400 font-semibold">Laboratory Objective:</strong> {SCENARIO.context}
+              <strong className="text-gold-400 font-semibold">Laboratory Objective:</strong> {SCENARIO.context}
             </div>
           </div>
 
@@ -1205,7 +1205,7 @@ function C12_PhysicsElectricChargestypesSim({
                       : 'bg-slate-800/70 hover:bg-slate-700/80 border border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-cyan-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                   {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                   {opt}
@@ -1224,7 +1224,7 @@ function C12_PhysicsElectricChargestypesSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-950/50 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-950/50 flex items-center gap-2"
                   >
                     <span>Launch Interactive Labs</span> →
                   </motion.button>
@@ -1240,7 +1240,7 @@ function C12_PhysicsElectricChargestypesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900/80 p-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}:
               </span>
               <h2 className="text-sm sm:text-base font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1315,15 +1315,15 @@ function C12_PhysicsElectricChargestypesSim({
                           step={1}
                           value={electronCount}
                           onChange={(e) => handleElectronPumpChange(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
-                      <div className="p-4 bg-cyan-950/40 border border-cyan-800/60 rounded-2xl space-y-2">
-                        <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-300">Quantisation Calculus:</h3>
+                      <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl space-y-2">
+                        <h3 className="text-xs font-bold uppercase tracking-wider text-gold-300">Quantisation Calculus:</h3>
                         <p className="text-xs text-slate-300 font-mono">Q = ± n × e</p>
                         <p className="text-xs text-slate-300 font-mono">
-                          Q = ({electronCount} × 10¹²) × (1.6 × 10⁻¹⁹ C) = <span className="text-cyan-400 font-bold">{calculatedCharge.coulombs.toExponential(2)} C</span>
+                          Q = ({electronCount} × 10¹²) × (1.6 × 10⁻¹⁹ C) = <span className="text-gold-400 font-bold">{calculatedCharge.coulombs.toExponential(2)} C</span>
                         </p>
                         <p className="text-xs text-emerald-400 font-medium">✓ Guaranteed integer packet multiples only</p>
                       </div>
@@ -1336,7 +1336,7 @@ function C12_PhysicsElectricChargestypesSim({
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/60 border border-indigo-700/70 rounded-2xl">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/60 border border-gold-700/70 rounded-2xl">
                       <p className="text-white text-sm font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1429,7 +1429,7 @@ function C12_PhysicsElectricChargestypesSim({
                           step={0.01}
                           value={coulombDistance}
                           onChange={(e) => handleCoulombDistanceChange(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1448,7 +1448,7 @@ function C12_PhysicsElectricChargestypesSim({
                               whileTap={{ scale: 0.97 }}
                               onClick={() => handleDielectricChange(med.er, med.name)}
                               className={`p-2 rounded-lg text-xs font-bold ${
-                                dielectricConst === med.er ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'
+                                dielectricConst === med.er ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                               }`}
                             >
                               {med.name} (ε={med.er})
@@ -1499,7 +1499,7 @@ function C12_PhysicsElectricChargestypesSim({
 
                     <div className="space-y-3">
                       <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                        <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Superposition at Probe (x={probePos.x}, y={probePos.y}):</h3>
+                        <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Superposition at Probe (x={probePos.x}, y={probePos.y}):</h3>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Net Intensity |E_net|:</span>
                           <span className="font-mono text-purple-400 font-bold">{probeFieldVector.formatted}</span>
@@ -1514,7 +1514,7 @@ function C12_PhysicsElectricChargestypesSim({
                       </div>
 
                       {!observationAnswered && (
-                        <div className="p-4 bg-indigo-950/60 border border-indigo-700/60 rounded-2xl">
+                        <div className="p-4 bg-gold-950/60 border border-gold-700/60 rounded-2xl">
                           <p className="text-xs font-semibold text-white mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                           <div className="space-y-1.5">
                             {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1669,7 +1669,7 @@ function C12_PhysicsElectricChargestypesSim({
                           step={5}
                           value={dipoleAngle}
                           onChange={(e) => handleDipoleAngleChange(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1680,7 +1680,7 @@ function C12_PhysicsElectricChargestypesSim({
                         </div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Torque τ = pE sin θ:</span>
-                          <span className="font-mono text-cyan-400 font-bold">{dipolePhysics.torqueFormatted}</span>
+                          <span className="font-mono text-gold-400 font-bold">{dipolePhysics.torqueFormatted}</span>
                         </div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Potential Energy U = -pE cos θ:</span>
@@ -1711,7 +1711,7 @@ function C12_PhysicsElectricChargestypesSim({
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    currentSlide === i ? 'w-6 bg-cyan-400' : 'w-2 bg-slate-800'
+                    currentSlide === i ? 'w-6 bg-gold-400' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1723,7 +1723,7 @@ function C12_PhysicsElectricChargestypesSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow-lg"
+                className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -1747,7 +1747,7 @@ function C12_PhysicsElectricChargestypesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div>
-              <h2 className="text-base font-bold text-cyan-300">Free Exploration Sandbox</h2>
+              <h2 className="text-base font-bold text-gold-300">Free Exploration Sandbox</h2>
               <p className="text-xs text-slate-400">Tweak any electrostatic parameter freely with no scoring or timer pressure.</p>
             </div>
             <motion.button
@@ -1755,7 +1755,7 @@ function C12_PhysicsElectricChargestypesSim({
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-bold text-xs rounded-xl shadow-lg"
+              className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg"
             >
               I am Ready for Challenges! →
             </motion.button>
@@ -1764,20 +1764,20 @@ function C12_PhysicsElectricChargestypesSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
               <label htmlFor="q1-sandbox" className="text-xs font-bold text-slate-400">Charge Q₁: {coulombQ1} μC</label>
-              <input id="q1-sandbox" aria-label="Charge Q1 Slider" type="range" min={-10} max={10} step={1} value={coulombQ1} onChange={(e) => setCoulombQ1(Number(e.target.value))} className="w-full accent-cyan-500" />
+              <input id="q1-sandbox" aria-label="Charge Q1 Slider" type="range" min={-10} max={10} step={1} value={coulombQ1} onChange={(e) => setCoulombQ1(Number(e.target.value))} className="w-full accent-gold-500" />
               <label htmlFor="q2-sandbox" className="text-xs font-bold text-slate-400">Charge Q₂: {coulombQ2} μC</label>
-              <input id="q2-sandbox" aria-label="Charge Q2 Slider" type="range" min={-10} max={10} step={1} value={coulombQ2} onChange={(e) => setCoulombQ2(Number(e.target.value))} className="w-full accent-cyan-500" />
+              <input id="q2-sandbox" aria-label="Charge Q2 Slider" type="range" min={-10} max={10} step={1} value={coulombQ2} onChange={(e) => setCoulombQ2(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
               <label htmlFor="r-sandbox" className="text-xs font-bold text-slate-400">Separation r: {coulombDistance.toFixed(2)} m</label>
-              <input id="r-sandbox" aria-label="Separation Distance Sandbox Slider" type="range" min={0.05} max={0.5} step={0.01} value={coulombDistance} onChange={(e) => setCoulombDistance(Number(e.target.value))} className="w-full accent-cyan-500" />
+              <input id="r-sandbox" aria-label="Separation Distance Sandbox Slider" type="range" min={0.05} max={0.5} step={0.01} value={coulombDistance} onChange={(e) => setCoulombDistance(Number(e.target.value))} className="w-full accent-gold-500" />
               <div className="text-xs text-amber-400 font-mono mt-3">Force: {calculatedCoulombForce.formatted} ({calculatedCoulombForce.isRepulsive ? 'Repulsion' : 'Attraction'})</div>
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
               <label htmlFor="angle-sandbox" className="text-xs font-bold text-slate-400">Dipole Angle: {dipoleAngle}°</label>
-              <input id="angle-sandbox" aria-label="Dipole Angle Sandbox Slider" type="range" min={0} max={180} step={5} value={dipoleAngle} onChange={(e) => setDipoleAngle(Number(e.target.value))} className="w-full accent-cyan-500" />
+              <input id="angle-sandbox" aria-label="Dipole Angle Sandbox Slider" type="range" min={0} max={180} step={5} value={dipoleAngle} onChange={(e) => setDipoleAngle(Number(e.target.value))} className="w-full accent-gold-500" />
               <div className="text-xs text-purple-400 font-mono mt-3">Torque: {dipolePhysics.torqueFormatted}</div>
             </div>
           </div>
@@ -1789,7 +1789,7 @@ function C12_PhysicsElectricChargestypesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs uppercase font-bold text-cyan-400 tracking-wider">
+              <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="ml-2 text-xs font-mono text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
@@ -1803,7 +1803,7 @@ function C12_PhysicsElectricChargestypesSim({
 
           <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1831,7 +1831,7 @@ function C12_PhysicsElectricChargestypesSim({
                         : 'bg-slate-800/80 hover:bg-slate-700/90 border border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-cyan-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                     {showExplanation && i === activeChallenge.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                     {opt}
                   </motion.button>
@@ -1854,7 +1854,7 @@ function C12_PhysicsElectricChargestypesSim({
                     draggable
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.04 }}
-                    className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                    className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                   >
                     {item.label}
                   </motion.div>
@@ -1873,7 +1873,7 @@ function C12_PhysicsElectricChargestypesSim({
                     <span className="text-[11px] font-bold text-slate-500 uppercase mb-1">
                       {i === 0 ? '1D Line' : i === 1 ? '2D Surface' : '3D Volume'}
                     </span>
-                    <span className="text-xs font-bold text-cyan-400">
+                    <span className="text-xs font-bold text-gold-400">
                       {droppedLabels[slotId] ? `✓ ${droppedLabels[slotId]}` : 'Drop Density Here'}
                     </span>
                   </div>
@@ -1885,7 +1885,7 @@ function C12_PhysicsElectricChargestypesSim({
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleAnswer(droppedLabels)}
-                className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
               >
                 Check Density Mappings
               </motion.button>
@@ -1916,7 +1916,7 @@ function C12_PhysicsElectricChargestypesSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-2"
                   >
-                    <span className="p-1 bg-slate-900 text-cyan-400 font-mono rounded text-[10px] font-bold">
+                    <span className="p-1 bg-slate-900 text-gold-400 font-mono rounded text-[10px] font-bold">
                       #{idx + 1}
                     </span>
                     {item}
@@ -1929,7 +1929,7 @@ function C12_PhysicsElectricChargestypesSim({
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={handleSortSubmit}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
               >
                 Verify Chronological Order
               </motion.button>
@@ -1948,15 +1948,15 @@ function C12_PhysicsElectricChargestypesSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric magnitude"
-                  className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                  className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                 />
-                <span className="text-sm font-bold text-cyan-400">{activeChallenge.unit}</span>
+                <span className="text-sm font-bold text-gold-400">{activeChallenge.unit}</span>
                 <motion.button
                   aria-label="Submit Value"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-5 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl"
+                  className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                 >
                   Submit Value
                 </motion.button>
@@ -1977,7 +1977,7 @@ function C12_PhysicsElectricChargestypesSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => setConstructParts((prev) => [...prev, part])}
-                    className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-cyan-300 rounded-lg text-xs font-mono font-bold"
+                    className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-gold-300 rounded-lg text-xs font-mono font-bold"
                   >
                     + {part}
                   </motion.button>
@@ -1986,7 +1986,7 @@ function C12_PhysicsElectricChargestypesSim({
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                 {constructParts.map((p, i) => (
-                  <span key={i} className="px-2.5 py-1 bg-indigo-900/80 border border-indigo-700 rounded text-xs font-mono text-white flex items-center gap-1">
+                  <span key={i} className="px-2.5 py-1 bg-gold-900/80 border border-gold-700 rounded text-xs font-mono text-white flex items-center gap-1">
                     {p}
                     <button aria-label={`Remove part ${p}`} onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))} className="text-rose-400 hover:text-rose-300">✕</button>
                   </span>
@@ -1999,7 +1999,7 @@ function C12_PhysicsElectricChargestypesSim({
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleAnswer(constructParts.join(' '))}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
               >
                 Validate Formula Construct
               </motion.button>
@@ -2007,15 +2007,15 @@ function C12_PhysicsElectricChargestypesSim({
           )}
 
           {showExplanation && (
-            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-700 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-700 space-y-4">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                 <span aria-hidden="true">📘</span> Step-by-Step Rigorous Physics Solution:
               </h3>
 
               <div className="space-y-2">
                 {activeChallenge.explanation.split('. ').filter((s) => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, idx) => (
                   <motion.p key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans">
-                    <span className="font-bold text-cyan-400 mr-1.5">Step {idx + 1}:</span>
+                    <span className="font-bold text-gold-400 mr-1.5">Step {idx + 1}:</span>
                     {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2028,7 +2028,7 @@ function C12_PhysicsElectricChargestypesSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                   >
                     Reveal Next Step →
                   </motion.button>
@@ -2077,17 +2077,17 @@ function C12_PhysicsElectricChargestypesSim({
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-700/60 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-700/60 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span aria-hidden="true">🤔</span> Post-Simulation Reflections
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-cyan-400">1. Key Surprise</p>
+                <p className="text-xs font-bold text-gold-400">1. Key Surprise</p>
                 <p className="text-xs text-slate-300">What was the most surprising thing you learned?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-indigo-400">2. Conceptual Framing</p>
+                <p className="text-xs font-bold text-gold-400">2. Conceptual Framing</p>
                 <p className="text-xs text-slate-300">How would you explain this to a friend?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2127,14 +2127,14 @@ function C12_PhysicsElectricChargestypesSim({
 
           {/* Real-World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span aria-hidden="true">🏭</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono text-cyan-400 font-bold">{i + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

@@ -11,7 +11,7 @@ export const w_c11_mathematicsderivativessumdifferencesim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Derivative of Polynomial Functions',
     chapters: [],
     nodeIds: ['c11_math_cbse_13_007', 'c11_math_cbse_13_009', 'c11_math_cbse_13_010', 'c11_math_cbse_02_006', 'c11_math_cbse_02_007', 'c11_math_cbse_02_011', 'c11_math_cbse_13_006', 'c11_math_cbse_13_008', 'c11_math_cbse_13_001', 'c11_math_cbse_02_005', 'c11_math_cbse_02_010', 'c11_math_cbse_02_008', 'c11_math_cbse_02_012', 'c11_math_cbse_09_002', 'c11_math_cbse_09_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a toy rocket launched vertically from a school playground; its height in metres after t seconds is.', goal: 'Master Derivative of Polynomial Functions.' },
     discovery: {
         question: 'Consider the function h: ℝ → ℝ defined by h(x) = f(x) + g(x) where f is the identity function and g is the constant function 5. Is h one-one? Is h onto?',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsderivativessumdifferencesim: SimDef = {
         hook: 'Students often believe that if a function satisfies f(x)=x for a few values (like x=0,1), it is the identity function.',
     },
     teaching: [
-        { title: 'The derivative of a polynomial function f(x).', text: 'The derivative of a polynomial function f(x) = a_n x^n + a_{n-1} x^{n-1} + ...', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The derivative of a polynomial function f(x).', text: 'The derivative of a polynomial function f(x) = a_n x^n + a_{n-1} x^{n-1} + ...', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_13_007', title: 'The derivative of a polynomial function.',

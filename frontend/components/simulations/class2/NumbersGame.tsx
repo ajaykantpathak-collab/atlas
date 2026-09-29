@@ -55,7 +55,7 @@ const TEACHING_SLIDES = [
     title: 'Numbers Up to 99 & 999! 🔢',
     text: 'Numbers tell us how many! Two-digit numbers have tens and ones (45 = 4 tens and 5 ones). Three-digit numbers add hundreds (345 = 3 hundreds, 4 tens, 5 ones)!',
     emoji: '🔢',
-    bgColor: 'from-purple-500 to-indigo-600',
+    bgColor: 'from-purple-500 to-gold-600',
     spoken: 'Numbers tell us how many! Two-digit numbers have tens and ones. Three-digit numbers add hundreds!',
   },
   {
@@ -83,7 +83,7 @@ const TEACHING_SLIDES = [
     title: 'Ascending & Descending Order! 📈📉',
     text: 'Ascending means going UP from smallest to biggest (145, 235, 318). Descending means going DOWN from biggest to smallest (902, 789, 456)!',
     emoji: '📈',
-    bgColor: 'from-blue-500 to-cyan-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Ascending means going up from smallest to biggest. Descending means going down from biggest to smallest!',
   },
 ];
@@ -506,9 +506,9 @@ function TeachingScreen({ onStart, width, height }: { onStart: () => void; width
         </div>
         <h2 className="text-2xl font-black text-gray-800 mb-3">{slide.title}</h2>
         <p className="text-base text-gray-600 font-medium leading-relaxed mb-6">{slide.text}</p>
-        <div className="flex items-center gap-2 bg-indigo-50 px-4 py-2 rounded-xl border border-indigo-200">
-          <span className="text-sm font-bold text-indigo-700">💡 ICSE Tip:</span>
-          <span className="text-xs text-indigo-900 font-medium">Master place value to compare numbers instantly!</span>
+        <div className="flex items-center gap-2 bg-gold-50 px-4 py-2 rounded-xl border border-gold-200">
+          <span className="text-sm font-bold text-gold-700">💡 ICSE Tip:</span>
+          <span className="text-xs text-gold-900 font-medium">Master place value to compare numbers instantly!</span>
         </div>
       </motion.div>
 
@@ -767,7 +767,7 @@ export function NumbersGame({ width = 720, height = 560, onComplete }: NumbersGa
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={(e) => handleAnswer(opt, e)}
-                className="py-4 px-3 rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-600 hover:from-purple-400 hover:to-indigo-500 text-white font-black text-lg shadow-lg border-2 border-purple-300 transition-all flex flex-col items-center justify-center gap-1"
+                className="py-4 px-3 rounded-2xl bg-gradient-to-br from-purple-500 to-gold-600 hover:from-purple-400 hover:to-gold-500 text-white font-black text-lg shadow-lg border-2 border-purple-300 transition-all flex flex-col items-center justify-center gap-1"
               >
                 <span>{opt}</span>
               </motion.button>

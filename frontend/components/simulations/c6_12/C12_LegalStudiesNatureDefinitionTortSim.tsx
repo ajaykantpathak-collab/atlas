@@ -1131,7 +1131,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                     ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
-                    : 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30'
+                    : 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                 }`}
               >
                 {difficulty} Tier
@@ -1164,7 +1164,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
             exit={{ opacity: 0, y: -15 }}
             className="space-y-6"
           >
-            <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/30 border border-amber-500/30 rounded-2xl relative overflow-hidden">
+            <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/30 border border-amber-500/30 rounded-2xl relative overflow-hidden">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-amber-400 font-bold text-sm tracking-wide uppercase">🏛️ Supreme Chamber Briefing</span>
               </div>
@@ -1371,7 +1371,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold mb-1">
                           <span className="text-slate-300">Defendant Precaution Diligence:</span>
-                          <span className="text-indigo-400 font-mono">{careStandard}%</span>
+                          <span className="text-gold-400 font-mono">{careStandard}%</span>
                         </div>
                         <input
                           type="range"
@@ -1380,7 +1380,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                           value={careStandard}
                           onChange={(e) => setCareStandard(Number(e.target.value))}
                           aria-label="Set care standard percentage"
-                          className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         />
                         <div className="flex justify-between text-[10px] text-slate-500 mt-1 font-mono">
                           <span>Gross Carelessness</span>
@@ -1481,7 +1481,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                                 whileHover={{ scale: 1.01 }}
                                 whileTap={{ scale: 0.99 }}
                                 onClick={() => handlePrediction2(i)}
-                                className="text-left p-2.5 text-xs rounded-lg bg-slate-900 border border-slate-800 hover:border-indigo-500/40 text-slate-300"
+                                className="text-left p-2.5 text-xs rounded-lg bg-slate-900 border border-slate-800 hover:border-gold-500/40 text-slate-300"
                               >
                                 {opt}
                               </motion.button>
@@ -1502,7 +1502,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                                       whileHover={{ scale: 1.01 }}
                                       whileTap={{ scale: 0.99 }}
                                       onClick={() => handleObservation(i)}
-                                      className="text-left p-2.5 text-xs rounded-lg bg-slate-900 border border-slate-800 hover:border-indigo-500/40 text-slate-300"
+                                      className="text-left p-2.5 text-xs rounded-lg bg-slate-900 border border-slate-800 hover:border-gold-500/40 text-slate-300"
                                     >
                                       {opt}
                                     </motion.button>
@@ -1511,7 +1511,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                               </div>
                             )}
                             {observationAnswered && (
-                              <p className="text-xs text-indigo-400 font-medium">
+                              <p className="text-xs text-gold-400 font-medium">
                                 Observation confirmed: Indian law eliminated Rylands exceptions for hazardous industries in 1987 (M.C. Mehta).
                               </p>
                             )}
@@ -1640,12 +1640,12 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
                     </div>
 
                     <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
-                      <h4 className="text-sm font-bold text-indigo-300">Section 35 TPA: Doctrine of Election</h4>
+                      <h4 className="text-sm font-bold text-gold-300">Section 35 TPA: Doctrine of Election</h4>
                       <p className="text-xs text-slate-300 leading-relaxed">
                         <em>"Allegans contraria non est audiendus"</em> — A person who chooses to accept the benefit of an instrument must also accept its burden. You cannot take the gift while rejecting the condition!
                       </p>
-                      <div className="p-3 bg-indigo-950/30 border border-indigo-500/30 rounded-lg text-xs space-y-1.5">
-                        <p className="text-indigo-200 font-medium">Illustration (Raja Ramnad case):</p>
+                      <div className="p-3 bg-gold-950/30 border border-gold-500/30 rounded-lg text-xs space-y-1.5">
+                        <p className="text-gold-200 font-medium">Illustration (Raja Ramnad case):</p>
                         <p className="text-slate-400 text-[11px]">
                           If Devika gifts Meera a ₹20 Lakh vintage car on condition that Meera relinquishes her Panaji flat to Devika\'s son, Meera must choose: take both benefit & burden, or relinquish both.
                         </p>
@@ -1833,7 +1833,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
             exit={{ opacity: 0 }}
             className="space-y-6"
           >
-            <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/40 border border-slate-800 rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 border border-slate-800 rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
               <div>
                 <span className="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs font-bold rounded-lg uppercase">
                   Open Jurisprudence Sandbox
@@ -2321,7 +2321,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
             animate={{ opacity: 1, scale: 1 }}
             className="space-y-6"
           >
-            <div className="p-8 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 border border-amber-500/40 rounded-3xl text-center space-y-4 relative overflow-hidden">
+            <div className="p-8 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 border border-amber-500/40 rounded-3xl text-center space-y-4 relative overflow-hidden">
               <div className="w-16 h-16 mx-auto bg-amber-500/20 rounded-2xl flex items-center justify-center border border-amber-500/40 text-4xl">
                 ⚖️
               </div>
@@ -2370,7 +2370,7 @@ export function C12_LegalStudiesNatureDefinitionTortSim({
             </div>
 
             {/* MANDATORY SPACED REPETITION VISIBILITY (SRS BOX) */}
-            <div className="p-6 bg-gradient-to-r from-amber-950/30 via-slate-900 to-indigo-950/30 border-2 border-amber-500/50 rounded-2xl space-y-3 shadow-lg">
+            <div className="p-6 bg-gradient-to-r from-amber-950/30 via-slate-900 to-gold-950/30 border-2 border-amber-500/50 rounded-2xl space-y-3 shadow-lg">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="text-xl">📅</span>

@@ -11,11 +11,11 @@ export const w_c8_mathematicsalgebraplaysim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Think of a Number Tricks: Algebraic Explanation',
     chapters: [],
     nodeIds: ['c8_math_ch13_1', 'c8_math_ch13_4', 'c8_math_ch5_11'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine your friend says: "Think of a number. Multiply it by 3. Add 6. Divide by 3.', goal: 'Master Think of a Number Tricks: Algebraic Explanation.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'A "Think of a Number" trick is a sequence of.', text: 'A "Think of a Number" trick is a sequence of arithmetic operations performed on an unknown number (represented by a variable) that always produces a predictable result regardless of the starting.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A "Think of a Number" trick is a sequence of.', text: 'A "Think of a Number" trick is a sequence of arithmetic operations performed on an unknown number (represented by a variable) that always produces a predictable result regardless of the starting.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch13_1', title: 'A "Think of a Number" trick is a.',

@@ -35,11 +35,11 @@ export function C8_MathematicsAlgebraicExpressionsAndIdentitiesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Identity Area Models</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Identity Area Models</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Why identities work:</span> draw the product as
+          <span className="font-bold text-gold-700">Why identities work:</span> draw the product as
           an area. The big picture never changes, only how we slice it. Drag a and b and watch each
           piece keep its own area while the total stays the same.
         </p>
@@ -56,7 +56,7 @@ export function C8_MathematicsAlgebraicExpressionsAndIdentitiesSim() {
           <button
             key={m}
             onClick={() => setMode(m)}
-            className={`px-4 py-2 rounded-xl text-sm font-bold font-mono transition-all ${mode === m ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-bold font-mono transition-all ${mode === m ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}
           >
             {label}
           </button>
@@ -69,9 +69,9 @@ export function C8_MathematicsAlgebraicExpressionsAndIdentitiesSim() {
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between">
               <span>a</span>
-              <span className="font-mono text-indigo-600">{a}</span>
+              <span className="font-mono text-gold-600">{a}</span>
             </label>
-            <input type="range" min={2} max={8} value={a} aria-label="value of a" onChange={(e) => setA(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <input type="range" min={2} max={8} value={a} aria-label="value of a" onChange={(e) => setA(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between">
@@ -89,7 +89,7 @@ export function C8_MathematicsAlgebraicExpressionsAndIdentitiesSim() {
             />
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200">
-            <div className="font-mono text-sm font-bold text-indigo-700">{identityText}</div>
+            <div className="font-mono text-sm font-bold text-gold-700">{identityText}</div>
             <div className="font-mono text-xs text-slate-600 mt-2 leading-relaxed">{numeric}</div>
           </div>
           <div className="text-xs text-slate-500">
@@ -98,7 +98,7 @@ export function C8_MathematicsAlgebraicExpressionsAndIdentitiesSim() {
         </div>
 
         {/* SVG area model */}
-        <div className="md:col-span-3 p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="md:col-span-3 p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 360 320" className="w-full">
             {mode === 'plus' && (
               <>

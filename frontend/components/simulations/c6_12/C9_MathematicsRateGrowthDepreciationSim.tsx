@@ -1056,10 +1056,10 @@ function C9_MathematicsRateGrowthDepreciationSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-800/40">
+              <span className="text-xs font-semibold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2.5 py-0.5 rounded-full border border-gold-800/40">
                 ICSE Class 9 Mathematics
               </span>
               <motion.span
@@ -1070,7 +1070,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-800'
                     : 'bg-rose-950 text-rose-400 border border-rose-800'
                 }`}
               >
@@ -1094,7 +1094,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1120,13 +1120,13 @@ function C9_MathematicsRateGrowthDepreciationSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6 my-4"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/40 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm tracking-wide">
+            <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/40 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wide">
                 <span>🏙️ SCENARIO SIMULATION</span>
               </div>
               <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm sm:text-base mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-300/80 mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/40">
+              <p className="text-xs text-gold-300/80 mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-900/40">
                 💡 {SCENARIO.context}
               </p>
             </div>
@@ -1148,11 +1148,11 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900/60 border-slate-800 text-slate-400'
-                        : 'bg-slate-900/90 hover:bg-indigo-950/40 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-900/90 hover:bg-gold-950/40 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                     aria-label={`Discovery option ${i + 1}: ${opt}`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1170,7 +1170,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="w-full sm:w-auto px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="w-full sm:w-auto px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1194,7 +1194,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
             <div className="p-6 bg-slate-800/80 rounded-2xl border border-slate-700">
               <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-700/80">
                 <div>
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Interactive Discovery Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                   </span>
                   <h2 className="text-xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1208,7 +1208,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         audioManager.play('tap');
                       }}
                       className={`h-2.5 rounded-full transition-all ${
-                        idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2.5 bg-slate-700 hover:bg-slate-600'
+                        idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2.5 bg-slate-700 hover:bg-slate-600'
                       }`}
                       aria-label={`Jump to lab ${idx + 1}`}
                     />
@@ -1254,7 +1254,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300">
                           <span>Initial Principal (P):</span>
-                          <span className="text-indigo-400 font-mono font-bold">₹{ciPrincipal.toLocaleString()}</span>
+                          <span className="text-gold-400 font-mono font-bold">₹{ciPrincipal.toLocaleString()}</span>
                         </div>
                         <input
                           type="range"
@@ -1263,7 +1263,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           step={1000}
                           value={ciPrincipal}
                           onChange={(e) => setCiPrincipal(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Set principal value"
                         />
                       </div>
@@ -1271,7 +1271,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300">
                           <span>Annual Rate (r):</span>
-                          <span className="text-indigo-400 font-mono font-bold">{ciRate}% p.a.</span>
+                          <span className="text-gold-400 font-mono font-bold">{ciRate}% p.a.</span>
                         </div>
                         <input
                           type="range"
@@ -1279,7 +1279,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           max={30}
                           value={ciRate}
                           onChange={(e) => setCiRate(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Set annual rate"
                         />
                       </div>
@@ -1287,7 +1287,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300">
                           <span>Time Period (n):</span>
-                          <span className="text-indigo-400 font-mono font-bold">{ciYears} Years</span>
+                          <span className="text-gold-400 font-mono font-bold">{ciYears} Years</span>
                         </div>
                         <input
                           type="range"
@@ -1295,13 +1295,13 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           max={6}
                           value={ciYears}
                           onChange={(e) => setCiYears(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Set years"
                         />
                       </div>
                     </div>
 
-                    <div className="p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/50 space-y-2">
+                    <div className="p-4 rounded-xl bg-gold-950/40 border border-gold-800/50 space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Final Value (A):</span>
                         <span className="font-mono font-bold text-emerald-400 text-sm">₹{ciCalculated.amount.toLocaleString()}</span>
@@ -1330,8 +1330,8 @@ function C9_MathematicsRateGrowthDepreciationSim({
                               transition={{ duration: 0.15 }}
                               className={`w-full rounded-t-lg transition-colors ${
                                 ciMode === 'growth'
-                                  ? 'bg-gradient-to-t from-indigo-700 to-emerald-500'
-                                  : 'bg-gradient-to-t from-indigo-700 to-rose-500'
+                                  ? 'bg-gradient-to-t from-gold-700 to-emerald-500'
+                                  : 'bg-gradient-to-t from-gold-700 to-rose-500'
                               }`}
                             />
                             <span className="text-xs font-bold text-slate-400 mt-2">Yr {idx}</span>
@@ -1351,7 +1351,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
                                 onClick={() => handlePrediction(i)}
-                                className="px-3 py-1.5 bg-slate-800 hover:bg-indigo-900/60 rounded-lg text-xs text-slate-200 border border-slate-700"
+                                className="px-3 py-1.5 bg-slate-800 hover:bg-gold-900/60 rounded-lg text-xs text-slate-200 border border-slate-700"
                               >
                                 {opt}
                               </motion.button>
@@ -1378,7 +1378,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300">
                           <span>Dimension a:</span>
-                          <span className="text-indigo-400 font-mono font-bold">{geoA} px</span>
+                          <span className="text-gold-400 font-mono font-bold">{geoA} px</span>
                         </div>
                         <input
                           type="range"
@@ -1386,7 +1386,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           max={60}
                           value={geoA}
                           onChange={(e) => setGeoA(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Set dimension a"
                         />
                       </div>
@@ -1408,12 +1408,12 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       </div>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 font-mono text-xs space-y-1.5">
-                      <p className="text-indigo-300 font-bold">Total Area = (a + b)²</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 font-mono text-xs space-y-1.5">
+                      <p className="text-gold-300 font-bold">Total Area = (a + b)²</p>
                       <p className="text-slate-300">
                         = ({geoA} + {geoB})² = ({geoA + geoB})² = <span className="text-amber-400 font-bold">{(geoA + geoB) ** 2}</span>
                       </p>
-                      <div className="pt-2 border-t border-indigo-800/40 text-slate-400 text-[11px] space-y-0.5">
+                      <div className="pt-2 border-t border-gold-800/40 text-slate-400 text-[11px] space-y-0.5">
                         <p>• a² = {geoA * geoA}</p>
                         <p>• 2ab = 2 × ({geoA} × {geoB}) = {2 * geoA * geoB}</p>
                         <p>• b² = {geoB * geoB}</p>
@@ -1536,7 +1536,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300">
                           <span>Constant a:</span>
-                          <span className="text-indigo-400 font-mono font-bold">{prodA > 0 ? `+${prodA}` : prodA}</span>
+                          <span className="text-gold-400 font-mono font-bold">{prodA > 0 ? `+${prodA}` : prodA}</span>
                         </div>
                         <input
                           type="range"
@@ -1544,7 +1544,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           max={8}
                           value={prodA}
                           onChange={(e) => setProdA(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Set constant a"
                         />
                       </div>
@@ -1566,8 +1566,8 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       </div>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 font-mono text-xs space-y-2">
-                      <p className="text-indigo-300 font-bold">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 font-mono text-xs space-y-2">
+                      <p className="text-gold-300 font-bold">
                         (x {prodA >= 0 ? `+ ${prodA}` : `- ${Math.abs(prodA)}`})(x {prodB >= 0 ? `+ ${prodB}` : `- ${Math.abs(prodB)}`})
                       </p>
                       <p className="text-slate-200">
@@ -1582,21 +1582,21 @@ function C9_MathematicsRateGrowthDepreciationSim({
                   <div className="lg:col-span-7 flex flex-col justify-center p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <div className="grid grid-cols-3 gap-2 text-center text-xs font-mono font-bold">
                       <div className="p-3 bg-slate-950 text-slate-500 rounded-lg flex items-center justify-center">×</div>
-                      <div className="p-3 bg-indigo-950/80 text-indigo-300 rounded-lg border border-indigo-800/60">x</div>
+                      <div className="p-3 bg-gold-950/80 text-gold-300 rounded-lg border border-gold-800/60">x</div>
                       <div className="p-3 bg-amber-950/80 text-amber-300 rounded-lg border border-amber-800/60">
                         {prodB >= 0 ? `+${prodB}` : prodB}
                       </div>
 
-                      <div className="p-3 bg-indigo-950/80 text-indigo-300 rounded-lg border border-indigo-800/60">x</div>
-                      <div className="p-4 bg-indigo-900/60 text-white rounded-lg border border-indigo-600">x²</div>
+                      <div className="p-3 bg-gold-950/80 text-gold-300 rounded-lg border border-gold-800/60">x</div>
+                      <div className="p-4 bg-gold-900/60 text-white rounded-lg border border-gold-600">x²</div>
                       <div className="p-4 bg-slate-800 text-amber-300 rounded-lg border border-slate-700">
                         {prodB >= 0 ? `+${prodB}x` : `${prodB}x`}
                       </div>
 
-                      <div className="p-3 bg-indigo-950/80 text-indigo-300 rounded-lg border border-indigo-800/60">
+                      <div className="p-3 bg-gold-950/80 text-gold-300 rounded-lg border border-gold-800/60">
                         {prodA >= 0 ? `+${prodA}` : prodA}
                       </div>
-                      <div className="p-4 bg-slate-800 text-indigo-300 rounded-lg border border-slate-700">
+                      <div className="p-4 bg-slate-800 text-gold-300 rounded-lg border border-slate-700">
                         {prodA >= 0 ? `+${prodA}x` : `${prodA}x`}
                       </div>
                       <div className="p-4 bg-emerald-950/80 text-emerald-300 rounded-lg border border-emerald-700">
@@ -1628,7 +1628,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                           quadChoice === q.id
-                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                            ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                             : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1639,7 +1639,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <p className="text-xs text-slate-400">
-                      Step 1: Compute Target Product <span className="text-indigo-400 font-mono font-bold">ac = a × c</span>
+                      Step 1: Compute Target Product <span className="text-gold-400 font-mono font-bold">ac = a × c</span>
                     </p>
                     <p className="text-sm font-bold text-white mt-1">
                       Target Product = {quadChoice === 'q1' ? '2 × 3 = 6' : quadChoice === 'q2' ? '6 × (-10) = -60' : '1 × 12 = 12'}. Need factors that sum to middle coefficient b = {quadChoice === 'q1' ? '7' : quadChoice === 'q2' ? '11' : '7'}.
@@ -1663,7 +1663,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                               ? item.correct
                                 ? 'bg-emerald-950 border-emerald-500 text-emerald-300'
                                 : 'bg-rose-950 border-rose-500 text-rose-300'
-                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-indigo-500'
+                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           ({item.p}) × ({item.q}) = {item.p * item.q} | Sum = {item.sum}
@@ -1676,9 +1676,9 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="mt-4 p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60 font-mono text-xs space-y-1.5"
+                        className="mt-4 p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 font-mono text-xs space-y-1.5"
                       >
-                        <p className="text-indigo-300 font-bold">Step 2: Rewrite & Group 4 Terms</p>
+                        <p className="text-gold-300 font-bold">Step 2: Rewrite & Group 4 Terms</p>
                         {quadChoice === 'q1' && (
                           <p className="text-slate-200">
                             2x² + 7x + 3 = 2x² + x + 6x + 3 = x(2x + 1) + 3(2x + 1) = <span className="text-emerald-400 font-bold">(2x + 1)(x + 3)</span>
@@ -1708,7 +1708,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300">
                           <span>Line 1: 2x + y = C₁</span>
-                          <span className="text-indigo-400 font-mono font-bold">C₁ = {line1C}</span>
+                          <span className="text-gold-400 font-mono font-bold">C₁ = {line1C}</span>
                         </div>
                         <input
                           type="range"
@@ -1716,7 +1716,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           max={16}
                           value={line1C}
                           onChange={(e) => setLine1C(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Set constant for line 1"
                         />
                       </div>
@@ -1738,8 +1738,8 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       </div>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/60 font-mono text-xs space-y-2">
-                      <p className="text-indigo-300 font-bold">Simultaneous Solution (Elimination)</p>
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/60 font-mono text-xs space-y-2">
+                      <p className="text-gold-300 font-bold">Simultaneous Solution (Elimination)</p>
                       <p className="text-slate-300">Add (2x + y) + (x - y) = {line1C} + {line2C}</p>
                       <p className="text-slate-300">3x = {line1C + line2C} =&gt; <span className="text-emerald-400 font-bold">x = {linearIntersection.x}</span></p>
                       <p className="text-slate-300">y = x - {line2C} =&gt; <span className="text-amber-400 font-bold">y = {linearIntersection.y}</span></p>
@@ -1828,7 +1828,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1868,7 +1868,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToChallenge}
-                  className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-xl shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-xl shadow-gold-600/30"
                 >
                   Ready for Exam Challenges →
                 </motion.button>
@@ -1880,7 +1880,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                  <span className="text-xs font-bold text-indigo-400">1. Compound Rate Engine</span>
+                  <span className="text-xs font-bold text-gold-400">1. Compound Rate Engine</span>
                   <div className="flex gap-2">
                     <button
                       onClick={() => setCiMode('growth')}
@@ -1901,7 +1901,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                     max={25}
                     value={ciRate}
                     onChange={(e) => setCiRate(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Adjust rate in sandbox"
                   />
                   <div className="flex justify-between text-xs font-mono">
@@ -1944,14 +1944,14 @@ function C9_MathematicsRateGrowthDepreciationSim({
           >
             <div className="flex items-center justify-between">
               <div>
-                <span className="text-xs font-black tracking-wider uppercase text-indigo-400">
+                <span className="text-xs font-black tracking-wider uppercase text-gold-400">
                   Question {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <div className="flex items-center gap-2 mt-0.5">
                   <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-slate-800 text-slate-300 border border-slate-700">
                     Node: {challenge.nodeId}
                   </span>
-                  <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-indigo-950 text-indigo-300 border border-indigo-800">
+                  <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-gold-950 text-gold-300 border border-gold-800">
                     Competency: {challenge.competencyLevel}
                   </span>
                 </div>
@@ -1959,13 +1959,13 @@ function C9_MathematicsRateGrowthDepreciationSim({
 
               <div className="text-right">
                 <span className="text-[11px] text-slate-400 uppercase font-bold tracking-wider">Mastery Level</span>
-                <p className="text-xs font-bold text-indigo-300 capitalize">{masteryLevel}</p>
+                <p className="text-xs font-bold text-gold-300 capitalize">{masteryLevel}</p>
               </div>
             </div>
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
@@ -1998,11 +1998,11 @@ function C9_MathematicsRateGrowthDepreciationSim({
                           ? i === challenge.correctIndex
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                             : 'bg-slate-900/60 border-slate-800 text-slate-400'
-                          : 'bg-slate-900 hover:bg-indigo-950/40 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-900 hover:bg-gold-950/40 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                       aria-label={`Option ${i + 1}: ${opt}`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -2018,7 +2018,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter exact calculated value"
                       disabled={showExplanation}
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-64"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-64"
                       aria-label="Numeric input answer"
                     />
                     {challenge.unit && <span className="text-slate-400 font-bold text-sm">{challenge.unit}</span>}
@@ -2027,7 +2027,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput.trim() === ''}
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-sm shadow-md"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-sm shadow-md"
                     >
                       Submit Answer
                     </motion.button>
@@ -2047,7 +2047,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow-sm"
+                        className="px-3.5 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow-sm"
                         role="button"
                         aria-label={`Drag label: ${item.label}`}
                       >
@@ -2065,7 +2065,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         className={`p-4 rounded-xl border-2 border-dashed flex flex-col items-center justify-center min-h-[90px] transition-colors ${
                           droppedLabels[targetId]
                             ? 'bg-emerald-950/40 border-emerald-500'
-                            : 'bg-slate-950/60 border-slate-700 hover:border-indigo-500'
+                            : 'bg-slate-950/60 border-slate-700 hover:border-gold-500'
                         }`}
                       >
                         <span className="text-[11px] text-slate-400 uppercase font-semibold mb-1">
@@ -2083,7 +2083,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs shadow-md"
                   >
                     Verify Label Mapping
                   </motion.button>
@@ -2113,7 +2113,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         role="button"
                         aria-label={`Step ${displayIdx + 1}: ${item}`}
                       >
-                        <span className="w-6 h-6 rounded-full bg-indigo-900/70 border border-indigo-700 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                        <span className="w-6 h-6 rounded-full bg-gold-900/70 border border-gold-700 text-gold-300 font-bold flex items-center justify-center text-xs">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2126,7 +2126,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                   >
                     Check Logical Order
                   </motion.button>
@@ -2147,7 +2147,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         className={`px-4 py-2 rounded-xl text-xs font-mono font-bold border transition-all ${
                           constructParts.includes(part)
                             ? 'bg-emerald-700 border-emerald-400 text-white'
-                            : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-indigo-500'
+                            : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-gold-500'
                         }`}
                       >
                         {part} {constructParts.includes(part) && '✓'}
@@ -2165,7 +2165,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs shadow-md"
                   >
                     Check Constructed Expression
                   </motion.button>
@@ -2177,7 +2177,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-indigo-950/60 border border-indigo-700/60 rounded-2xl space-y-3"
+                  className="mt-6 p-5 bg-gold-950/60 border border-gold-700/60 rounded-2xl space-y-3"
                 >
                   <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Step-by-Step Board Solution</span>
 
@@ -2188,7 +2188,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs sm:text-sm text-slate-200 leading-relaxed font-mono"
                     >
-                      <span className="font-bold text-indigo-400 mr-2">Step {idx + 1}:</span>
+                      <span className="font-bold text-gold-400 mr-2">Step {idx + 1}:</span>
                       {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2201,7 +2201,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                         setRevealedSteps(s => s + 1);
                         audioManager.play('tap');
                       }}
-                      className="px-4 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Show Next Derivation Step →
                     </motion.button>
@@ -2237,7 +2237,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
               <span className="text-5xl">🏆</span>
               <h2 className="text-3xl font-black text-white">Curriculum Mastery Achieved!</h2>
               <p className="text-slate-300 text-sm">
-                Score: <span className="text-emerald-400 font-bold font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="text-indigo-400 font-bold capitalize">{masteryLevel}</span>
+                Score: <span className="text-emerald-400 font-bold font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
               </p>
             </div>
 
@@ -2274,7 +2274,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
             )}
 
             {/* ─── REQUIRED REFLECTION SECTION ─── */}
-            <div className="p-6 bg-slate-800/90 rounded-2xl border border-indigo-700/60 space-y-4">
+            <div className="p-6 bg-slate-800/90 rounded-2xl border border-gold-700/60 space-y-4">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🤔</span>
                 <h3 className="text-lg font-black text-white">Post-Simulation Reflection</h3>
@@ -2285,40 +2285,40 @@ function C9_MathematicsRateGrowthDepreciationSim({
 
               <div className="space-y-4 pt-2">
                 <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 space-y-2">
-                  <label className="text-xs font-bold text-indigo-300 flex items-center gap-2">
+                  <label className="text-xs font-bold text-gold-300 flex items-center gap-2">
                     <span>1.</span> What was the most surprising thing you learned?
                   </label>
                   <textarea
                     value={reflection1}
                     onChange={(e) => setReflection1(e.target.value)}
                     placeholder="e.g. How depreciation is calculated on the reduced value each year, or why (a-b)² always ends in +b²..."
-                    className="w-full p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                     rows={2}
                   />
                 </div>
 
                 <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 space-y-2">
-                  <label className="text-xs font-bold text-indigo-300 flex items-center gap-2">
+                  <label className="text-xs font-bold text-gold-300 flex items-center gap-2">
                     <span>2.</span> How would you explain this to a friend?
                   </label>
                   <textarea
                     value={reflection2}
                     onChange={(e) => setReflection2(e.target.value)}
                     placeholder="e.g. I would explain binomial expansion using the 4-rectangle area model where total area is a² + 2ab + b²..."
-                    className="w-full p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                     rows={2}
                   />
                 </div>
 
                 <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 space-y-2">
-                  <label className="text-xs font-bold text-indigo-300 flex items-center gap-2">
+                  <label className="text-xs font-bold text-gold-300 flex items-center gap-2">
                     <span>3.</span> Where in real life might you use this?
                   </label>
                   <textarea
                     value={reflection3}
                     onChange={(e) => setReflection3(e.target.value)}
                     placeholder="e.g. Calculating the resale value of a car or electronics over time, or calculating intersection points for city budgets..."
-                    className="w-full p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                     rows={2}
                   />
                 </div>
@@ -2329,7 +2329,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                       setReflectionSaved(true);
                       audioManager.play('success');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                   >
                     {reflectionSaved ? '✓ Reflection Saved' : 'Save Reflection'}
                   </button>
@@ -2343,9 +2343,9 @@ function C9_MathematicsRateGrowthDepreciationSim({
             </div>
 
             {/* Spaced Repetition */}
-            <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 text-xs text-slate-300 flex items-center justify-between">
+            <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 text-xs text-slate-300 flex items-center justify-between">
               <div>
-                <span className="font-bold text-indigo-300">Spaced Repetition Engine (SM-2):</span>
+                <span className="font-bold text-gold-300">Spaced Repetition Engine (SM-2):</span>
                 <p className="text-slate-400 mt-0.5">
                   Optimal review scheduled in{' '}
                   <span className="text-amber-400 font-bold">
@@ -2364,7 +2364,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
               <div className="space-y-1.5 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="flex items-start gap-2 text-xs text-slate-400 font-mono">
-                    <span className="font-bold text-indigo-400">{idx + 1}.</span>
+                    <span className="font-bold text-gold-400">{idx + 1}.</span>
                     <span>{step}</span>
                   </div>
                 ))}
@@ -2382,7 +2382,7 @@ function C9_MathematicsRateGrowthDepreciationSim({
                   setErrors(0);
                   audioManager.play('tap');
                 }}
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-sm shadow-xl shadow-indigo-600/30"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-sm shadow-xl shadow-gold-600/30"
               >
                 Re-explore Interactive Labs ↺
               </motion.button>

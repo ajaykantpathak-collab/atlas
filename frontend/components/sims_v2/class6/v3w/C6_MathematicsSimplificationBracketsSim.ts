@@ -11,11 +11,11 @@ export const w_c6_mathematicssimplificationbracketssim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Ratio',
     chapters: [],
     nodeIds: ['c6_math_ch06_062', 'c6_math_ch03_029'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are making lemonade and you need to mix 2 cups of sugar for every 6 cups of water.', goal: 'Master Introduction to Ratio.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'A ratio is a way to compare two quantities.', text: 'A ratio is a way to compare two quantities of the same kind by showing how many times one quantity contains the other, usually written as a fraction or with a colon.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A ratio is a way to compare two quantities.', text: 'A ratio is a way to compare two quantities of the same kind by showing how many times one quantity contains the other, usually written as a fraction or with a colon.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'dissect', nodeId: 'c6_math_ch03_041', title: 'Identify each idea',

@@ -152,6 +152,52 @@ export default function ProgressPage() {
               </motion.div>
             )}
 
+            {/* Mastery Passport — the transcript surface. Without this link
+                the passport was reachable only by typing its URL. */}
+            <motion.div variants={riseItem} initial="hidden" animate="show">
+              <Link
+                href="/passport"
+                data-testid="passport-link"
+                className="glass-card rounded-2xl p-5 flex items-center justify-between gap-4 transition-colors hover:border-gold-500/40"
+              >
+                <span className="flex items-center gap-3">
+                  <Trophy className="w-5 h-5 text-gold-300 shrink-0" />
+                  <span>
+                    <span className="block text-sm font-semibold text-white font-display">
+                      Mastery Passport
+                    </span>
+                    <span className="block text-xs text-surface-600">
+                      Your subject-by-subject transcript — stamps from real attempts only
+                    </span>
+                  </span>
+                </span>
+                <span className="text-xs font-medium text-gold-300 shrink-0">Open →</span>
+              </Link>
+            </motion.div>
+
+            {/* P5 gap 2 wiring: /portfolio (the longer-form mastery
+                portfolio with badges) had no inbound link anywhere. */}
+            <motion.div variants={riseItem} initial="hidden" animate="show">
+              <Link
+                href="/portfolio"
+                data-testid="portfolio-link"
+                className="glass-card rounded-2xl p-5 flex items-center justify-between gap-4 transition-colors hover:border-gold-500/40"
+              >
+                <span className="flex items-center gap-3">
+                  <ActivityIcon className="w-5 h-5 text-gold-300 shrink-0" />
+                  <span>
+                    <span className="block text-sm font-semibold text-white font-display">
+                      Mastery Portfolio
+                    </span>
+                    <span className="block text-xs text-surface-600">
+                      The full portfolio — sessions, retention and earned badges alongside the transcript
+                    </span>
+                  </span>
+                </span>
+                <span className="text-xs font-medium text-gold-300 shrink-0">Open →</span>
+              </Link>
+            </motion.div>
+
             {/* Per-subject deep dive */}
             <section>
               <SectionHeading

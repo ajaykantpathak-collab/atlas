@@ -1183,7 +1183,7 @@ export function C12_HistoryCivilRightsMovementSim({
               onClick={() => handleTabSwitch(tab)}
               aria-label={`Switch to ${tab} view`}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
-                activeTab === tab ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+                activeTab === tab ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {tab}
@@ -1195,11 +1195,11 @@ export function C12_HistoryCivilRightsMovementSim({
       {/* ─── DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-bold rounded-lg border border-indigo-400/30">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <span className="px-2.5 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-lg border border-gold-400/30">
               Curiosity Hook • Historical Catalyst
             </span>
-            <h2 className="text-xl font-bold text-indigo-200 mt-3">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-200 mt-3">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2">{SCENARIO.context}</p>
           </div>
@@ -1223,7 +1223,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       : 'bg-slate-800/80 hover:bg-slate-750 text-slate-200 border border-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-bold mr-2 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                   {opt}
                 </motion.button>
@@ -1231,7 +1231,7 @@ export function C12_HistoryCivilRightsMovementSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
                 <p className={`text-sm font-semibold mb-3 ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
                   {discoveryCorrect ? '✓ Spot on!' : '💡 Historical Insight:'} {DISCOVERY_QUESTION.hintAfter}
                 </p>
@@ -1240,7 +1240,7 @@ export function C12_HistoryCivilRightsMovementSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter interactive labs"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1256,7 +1256,7 @@ export function C12_HistoryCivilRightsMovementSim({
           {/* Exploration Header Stepper */}
           <div className="flex items-center justify-between bg-slate-900/80 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1266,7 +1266,7 @@ export function C12_HistoryCivilRightsMovementSim({
                 <div
                   key={i}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-500 w-8' : i < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
+                    i === currentSlide ? 'bg-gold-500 w-8' : i < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1295,7 +1295,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       value={mediaOutrage}
                       aria-label="Televised Outrage level slider"
                       onChange={e => setMediaOutrage(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                     <p className="text-[11px] text-slate-400 mt-1">NBC/CBS broadcast children attacked with hoses & police dogs.</p>
                   </div>
@@ -1312,7 +1312,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       value={coldWarPressure}
                       aria-label="Soviet UN Propaganda Pressure level slider"
                       onChange={e => setColdWarPressure(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                     <p className="text-[11px] text-slate-400 mt-1">Moscow distributes Jim Crow photos to non-aligned African delegates.</p>
                   </div>
@@ -1432,7 +1432,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       onClick={() => { setSelectedPromise(p.id); audioManager.play('tap'); }}
                       aria-label={`Select British promise map: ${p.label}`}
                       className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all ${
-                        selectedPromise === p.id ? 'bg-indigo-600 text-white border-indigo-400 shadow-md' : 'bg-slate-800 text-slate-300 border-slate-700'
+                        selectedPromise === p.id ? 'bg-gold-600 text-white border-gold-400 shadow-md' : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
                       {p.label}
@@ -1499,7 +1499,7 @@ export function C12_HistoryCivilRightsMovementSim({
                         onClick={() => { setMapYear(year); audioManager.play('tap'); }}
                         aria-label={`Select year ${year}`}
                         className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                          mapYear === year ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          mapYear === year ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {year}
@@ -1510,7 +1510,7 @@ export function C12_HistoryCivilRightsMovementSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                   <div>
-                    <h3 className="text-base font-bold text-indigo-300">
+                    <h3 className="text-base font-bold text-gold-300">
                       {mapYear === 1947 && '1947: UN Partition Plan (Resolution 181)'}
                       {mapYear === 1949 && '1949: Rhodes Armistice (The Green Line)'}
                       {mapYear === 1967 && '1967: Six Day War (Triple Territory Capture)'}
@@ -1552,7 +1552,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       onClick={() => { setSelectedArea(area.id); audioManager.play('tap'); }}
                       aria-label={`Select Oslo West Bank ${area.title}`}
                       className={`p-3 rounded-xl text-left border transition-all ${
-                        selectedArea === area.id ? 'bg-indigo-900/60 border-indigo-400 text-white' : 'bg-slate-800/70 border-slate-700 text-slate-300'
+                        selectedArea === area.id ? 'bg-gold-900/60 border-gold-400 text-white' : 'bg-slate-800/70 border-slate-700 text-slate-300'
                       }`}
                     >
                       <div className="font-bold text-xs md:text-sm">{area.title}</div>
@@ -1596,7 +1596,7 @@ export function C12_HistoryCivilRightsMovementSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => { setCurrentSlide(s => s + 1); audioManager.play('tap'); }}
                 aria-label="Next lab"
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1626,14 +1626,14 @@ export function C12_HistoryCivilRightsMovementSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-              <h3 className="text-sm font-bold text-indigo-300 mb-2">US Civil Rights Pressure Test</h3>
+              <h3 className="text-sm font-bold text-gold-300 mb-2">US Civil Rights Pressure Test</h3>
               <label htmlFor="sb-outrage" className="text-xs text-slate-400 block">Outrage: {mediaOutrage}% | Cold War: {coldWarPressure}%</label>
               <input id="sb-outrage" type="range" min={0} max={100} value={mediaOutrage} onChange={e => setMediaOutrage(Number(e.target.value))} aria-label="Media Outrage test slider" className="w-full mt-2" />
               <div className="text-xs font-bold text-amber-400 mt-2">Legislation Likelihood: {civilRightsPressureScore}%</div>
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-              <h3 className="text-sm font-bold text-indigo-300 mb-2">Apartheid Breakdown Matrix</h3>
+              <h3 className="text-sm font-bold text-gold-300 mb-2">Apartheid Breakdown Matrix</h3>
               <div className="flex flex-wrap gap-2">
                 {(['townshipRevolt', 'economicSanctions', 'sovietCollapse', 'codesaNegotiations'] as const).map(k => (
                   <button
@@ -1684,7 +1684,7 @@ export function C12_HistoryCivilRightsMovementSim({
               >
                 {difficulty}
               </motion.span>
-              <span className="text-[11px] px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded border border-indigo-500/30 font-bold">
+              <span className="text-[11px] px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded border border-gold-500/30 font-bold">
                 Level: {challenge.competencyLevel.toUpperCase()}
               </span>
             </div>
@@ -1696,7 +1696,7 @@ export function C12_HistoryCivilRightsMovementSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-amber-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-amber-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1728,7 +1728,7 @@ export function C12_HistoryCivilRightsMovementSim({
                         : 'bg-slate-800/80 hover:bg-slate-750 text-slate-200 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-bold mr-2 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                     {showExplanation && i === challenge.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                     {opt}
                   </motion.button>
@@ -1750,7 +1750,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg cursor-grab shadow focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg cursor-grab shadow focus:outline-none focus:ring-2 focus:ring-gold-400"
                     >
                       {item.label}
                     </motion.div>
@@ -1784,7 +1784,7 @@ export function C12_HistoryCivilRightsMovementSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify statute matching"
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Matching
                 </motion.button>
@@ -1809,7 +1809,7 @@ export function C12_HistoryCivilRightsMovementSim({
                     }}
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
-                    className="p-3 bg-slate-800 rounded-xl text-xs md:text-sm text-slate-200 border border-slate-700 cursor-grab flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                    className="p-3 bg-slate-800 rounded-xl text-xs md:text-sm text-slate-200 border border-slate-700 cursor-grab flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-gold-400"
                   >
                     <span><strong>Step {idx + 1}:</strong> {item}</span>
                     <span className="text-slate-500 text-xs">↕ Drag</span>
@@ -1821,7 +1821,7 @@ export function C12_HistoryCivilRightsMovementSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check historical order"
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow mt-2"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow mt-2"
                 >
                   Check Historical Order
                 </motion.button>
@@ -1846,7 +1846,7 @@ export function C12_HistoryCivilRightsMovementSim({
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation}
                   aria-label="Submit numeric answer"
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Submit Answer
                 </motion.button>
@@ -1863,7 +1863,7 @@ export function C12_HistoryCivilRightsMovementSim({
                       key={i}
                       onClick={() => setConstructParts(p => [...p, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </button>
@@ -1871,7 +1871,7 @@ export function C12_HistoryCivilRightsMovementSim({
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-600 text-white text-xs font-bold rounded-lg flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-600 text-white text-xs font-bold rounded-lg flex items-center gap-1">
                       {part}
                       <button onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))} aria-label={`Remove part ${part}`} className="text-red-300 font-black ml-1">×</button>
                     </span>
@@ -1884,7 +1884,7 @@ export function C12_HistoryCivilRightsMovementSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Validate construction equation"
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Validate Construction
                 </motion.button>
@@ -1977,8 +1977,8 @@ export function C12_HistoryCivilRightsMovementSim({
           )}
 
           {/* Reflection Prompts */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60">
-            <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Reflective Historical Inquiry:</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60">
+            <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Reflective Historical Inquiry:</h3>
             <ul className="space-y-1.5 text-xs text-slate-300">
               <li>• Why was visual television broadcast decisive in both US Civil Rights (1963) and the South African township revolts (1976/1984)?</li>
               <li>• How did the Cold War superpower rivalry shape the outcomes of the 1956 Suez Crisis and the 1973 Yom Kippur War?</li>
@@ -1997,7 +1997,7 @@ export function C12_HistoryCivilRightsMovementSim({
 
           {/* Real-World Activity Arc */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 mt-1">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="mt-3 space-y-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
@@ -2035,7 +2035,7 @@ export function C12_HistoryCivilRightsMovementSim({
 
       {activeTab === 'document' && (
         <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 mt-6 space-y-4">
-          <h3 className="text-sm font-bold text-indigo-300">📄 Primary Source Document Analyser</h3>
+          <h3 className="text-sm font-bold text-gold-300">📄 Primary Source Document Analyser</h3>
           <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 font-serif text-xs text-slate-300 leading-relaxed">
             <p className="italic text-amber-200 mb-2">
               "His Majesty\'s Government view with favour the establishment in Palestine of a national home for the Jewish people... it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine."

@@ -46,21 +46,21 @@ const TEACHING_SLIDES = [
         title: 'Shapes Taking Turns 🔷',
         text: 'Look at the whole repeating unit! If the row goes triangle, circle, triangle, circle, the rule is "triangle then circle". After triangle comes circle!',
         emoji: '🔵',
-        bgColor: 'from-purple-400 to-indigo-500',
+        bgColor: 'from-purple-400 to-gold-500',
         spoken: 'Look at the repeating unit! Triangle and circle take turns. After triangle always comes circle!',
     },
     {
         title: 'Colours and Beads on a Mala 📿',
         text: 'Patterns are everywhere! Red bead, blue bead, red bead, blue bead. Just like clap-stamp-clap-stamp in class. The rule keeps repeating!',
         emoji: '🔴',
-        bgColor: 'from-indigo-400 to-blue-500',
+        bgColor: 'from-gold-400 to-gold-500',
         spoken: 'Colours and beads repeat in order, just like red and blue beads on a mala or the clap-stamp game!',
     },
     {
         title: 'Growing Number Patterns 🔢',
         text: 'Numbers can make patterns too! 2, 4, 6, 8 - each step adds 2! That is counting by twos. After 8 comes 10!',
         emoji: '🔟',
-        bgColor: 'from-blue-400 to-teal-500',
+        bgColor: 'from-gold-400 to-teal-500',
         spoken: 'Number patterns grow by a steady rule! 2, 4, 6, 8, each step adds 2, so the next is 10!',
     },
     {
@@ -651,7 +651,7 @@ export function PatternsGame({ width = 720, height = 560, onComplete }: Patterns
 
         {/* Multiple Choice Options */}
         {!challenge.sortItems && (<div className="grid grid-cols-3 gap-4 w-full">
-            {challenge.options.map(option => (<motion.button key={option} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={(e) => handleOptionClick(option, e)} className="py-4 px-3 rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-600 text-white font-bold shadow-lg hover:brightness-110 transition-all text-sm flex items-center justify-center">
+            {challenge.options.map(option => (<motion.button key={option} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={(e) => handleOptionClick(option, e)} className="py-4 px-3 rounded-2xl bg-gradient-to-br from-purple-500 to-gold-600 text-white font-bold shadow-lg hover:brightness-110 transition-all text-sm flex items-center justify-center">
                 {option}
               </motion.button>))}
           </div>)}

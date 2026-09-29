@@ -9,13 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C12_HIN_V_GEN: SimDef[] = [
  {
   "id": "gen_c12_hin_v_ch01",
-  "title": "सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय",
+  "title": "'वितान भाग-2 — पाठ 1' का",
   "subtitle": "Hindi · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय",
-  "chapters": ["Hindi Ch1: सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय"],
+  "topic": "'वितान भाग-2 — पाठ 1' का",
+  "chapters": [
+   "Hindi Ch1: 'वितान भाग-2 — पाठ 1' का"
+  ],
   "nodeIds": [
    "c12_hin_v_cbse_01_001",
    "c12_hin_v_cbse_01_002",
@@ -40,103 +42,103 @@ export const C12_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet सल्विर वैडिंग — पृष्ठभूमि और outside the classroom?",
+   "question": "Quick guess -- where do you meet 'वितान भाग-2 — पाठ 1' का outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, biographical, and literary"
+   "hook": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'वितान भाग-2 — पाठ 1' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की"
   },
   "teaching": [
    {
     "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, biographical, and literary framework necessary to interpret a text deeply.",
+    "text": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'वितान भाग-2 — पाठ 1' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की व्याख्या की कुंजी है।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and Narrative Structure refers to the organized sequence of events in a story and the technique used to present them — including chronological order, flashbacks, parallel narratives, point of view, pacing, and how these elements shape the reader's",
+    "title": "'वितान भाग-2 — पाठ 1' का",
+    "text": "'वितान भाग-2 — पाठ 1' का कथानक — 'वितान भाग-2 — पाठ 1' — वितान भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक के अनुरूप।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment in which a narrative unfolds, including historical period, geographical location, weather, and social conditions.",
+    "title": "'वितान भाग-2 — पाठ 1' का",
+    "text": "'वितान भाग-2 — पाठ 1' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves a systematic examination of the central character's traits, motivations, conflicts, development, and symbolic function in the narrative, using textual evidence to support inferences about their role in advancing",
+    "title": "'वितान भाग-2 — पाठ 1' का",
+    "text": "'वितान भाग-2 — पाठ 1' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Supporting Characters",
-    "text": "Supporting characters are secondary figures in a narrative who interact with the protagonist to advance the plot, reveal the protagonist's traits through contrast or parallel, and embody thematic concerns such as generational conflict, societal change, or",
+    "title": "'वितान भाग-2 — पाठ 1' के",
+    "text": "'वितान भाग-2 — पाठ 1' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the narrative explores through plot, character, and conflict; the message is the author's implied stance or lesson conveyed through the resolution of",
+    "title": "'वितान भाग-2 — पाठ 1' का",
+    "text": "'वितान भाग-2 — पाठ 1' का मुख्य विषय — 'वितान भाग-2 — पाठ 1' का केंद्रीय भाव और संदेश",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, motifs, or messages that run parallel to the primary theme of a literary work, enriching its texture by exploring related but distinct aspects of human experience, society, or psychology.",
+    "title": "'वितान भाग-2 — पाठ 1' के",
+    "text": "'वितान भाग-2 — पाठ 1' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotions.",
+    "title": "'वितान भाग-2 — पाठ 1' में",
+    "text": "'वितान भाग-2 — पाठ 1' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony (विडंबना) is a literary device where the intended meaning of words or situations is opposite to their literal or expected meaning, revealing a gap between appearance and reality.",
+    "title": "'वितान भाग-2 — पाठ 1' में",
+    "text": "'वितान भाग-2 — पाठ 1' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and thematic function of words and phrases as they are used within a specific literary text, rather than relying solely on dictionary definitions.",
+    "title": "'वितान भाग-2 — पाठ 1' की",
+    "text": "'वितान भाग-2 — पाठ 1' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic study of how grammatical structures (tense, voice, sentence types, pronouns, agreement) and stylistic choices (idioms, register, direct/indirect speech) function within the narrative to convey",
+    "title": "'वितान भाग-2 — पाठ 1' में",
+    "text": "'वितान भाग-2 — पाठ 1' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving information explicitly stated in the text (who, what, where, when), while inferential comprehension questions demand logical deduction by combining textual evidence with contextual knowledge to uncover",
+    "title": "'वितान भाग-2 — पाठ 1' के",
+    "text": "'वितान भाग-2 — पाठ 1' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of actively examining a text's implicit meanings, authorial choices, and socio-cultural subtexts to form an evidence-based interpretation that goes beyond surface-level comprehension.",
+    "title": "'वितान भाग-2 — पाठ 1' का",
+    "text": "'वितान भाग-2 — पाठ 1' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills",
-    "text": "Writing Skills: Based on the Chapter refers to the ability to compose structured, evidence-based analytical responses to questions on the prose text 'tc lsD'ku vkfI+kQlj okbZ-Mh- ;'kksèkj', using the PEEL (Point, Evidence, Explanation, Link) framework to",
+    "title": "'वितान भाग-2 — पाठ 1' पर",
+    "text": "'वितान भाग-2 — पाठ 1' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points is a structured oral activity where students engage in a guided conversation about the chapter's themes, characters, and social issues, using textual evidence to support views, actively listening to peers, and",
+    "title": "'वितान भाग-2 — पाठ 1' पर",
+    "text": "'वितान भाग-2 — पाठ 1' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -151,16 +153,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The primary physical setting is a refugee colony in Delhi (specifically near Jangpura/Okhla area) in the 1960s, roughly 15-20 years after Partition",
      "The author is euksgj ';ke tks'kh, a prominent Hindi writer known for dissecting the moral and emotional disintegration of the urban middle-class family in post-liberalization"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Premchand or guessing a generic \"Hindi writer\") reveals the student has not internalized the author-specific lens — critical because tks'kh's irony is quieter, more domestic, and more devastating than Premchand's overt social realism.",
     "id": "gen_c12_hin_v_ch01_q1",
     "nodeId": "c12_hin_v_cbse_01_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a film where an elderly father quietly hands over his life savings to a stranger to build a retirement home — because",
-     "Before the first scene rolls, you'd want to know: Who wrote this?",
-     "What was happening in Indian society when this was written?",
-     "Why does the title mention a \"retirement home\" (flYoj oSfMax) when the story opens in a domestic setting?"
+     "पहले रचनाकार: NCERT पाठ्यपुस्तक। फिर काल। फिर 'वितान भाग-2 — पाठ 1' का संदर्भ — 'वितान भाग-2 — पाठ 1' का केंद्रीय भाव और संदेश। रचनाकार और काल मिलकर"
     ]
    },
    {
@@ -220,10 +219,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_01_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie that keeps jumping between an old man sitting alone in a care home and his vibrant youth with his best friend — you'd",
-     "What does the jumping achieve?",
-     "Start by mapping the story's timeline on paper: draw two columns labeled \"Present (Old Age Home)\" and \"Past (Memories with Phunkun)\".",
-     "Place each major scene in its column."
+     "'वितान भाग-2 — पाठ 1' का क्रम: शुरुआत वितान-भाग-2-—-पाठ-1 से, घटनाएँ बढ़ती हैं, अंत 'वितान भाग-2 पर।"
     ]
    },
    {
@@ -235,16 +231,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "A secondary theme is a recurring idea that supports, contrasts, or complicates the primary theme but does not dominate the narrative's central conflict",
      "The primary physical setting is a refugee colony in Delhi (specifically near Jangpura/Okhla area) in the 1960s, roughly 15-20 years after Partition"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' का' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"Delhi\" or \"a house\" misses the specific historical-social layer (refugee colony) and the sensory immersion that defines atmosphere.",
     "id": "gen_c12_hin_v_ch01_q3",
     "nodeId": "c12_hin_v_cbse_01_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into your grandmother's house after ten years — the smell of pickle, the creak of the same wooden swing, the faded photographs on",
-     "That immediate rush of memory mixed with the strangeness of time passed is *atmosphere* created by *setting*.",
-     "In this chapter, the narrator visits his friend fd'kunk's house in a Delhi refugee colony.",
-     "Start by asking: \"What are the first three sensory details the narrator notices when he enters the colony?"
+     "'वितान भाग-2 — पाठ 1' का परिवेश: 'वितान भाग-2 — पाठ 1' — वितान भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्त — स्थान और समय मिलकर"
     ]
    },
    {
@@ -256,16 +249,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "1) fd'kunk — refuses to leave his ancestral land despite lucrative offers (\"tks gqvk gksxk\"), showing rootedness and fatalism",
      "The protagonist is ;kksèkj ckcw (the wife). Evidence: the narrative opens with the narrator observing her face (\"nÝ+rj dh iqjkuh nhokj ?"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' का' slide -- match the key terms.",
     "misconception": "A wrong answer naming ;kksèkj th (the husband) or the narrator reveals confusion between the title character and the protagonist; the husband is the catalyst, but the wife bears the consequences and drives the narrative's emotional core.",
     "id": "gen_c12_hin_v_ch01_q4",
     "nodeId": "c12_hin_v_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"Why does the wife keep saying 'legkm baçkij' — is she mocking her husband or protecting her family?",
-     "Notice how her practical concerns (money, children's future, household repairs) clash with her husband's abstract ideals.",
-     "Track the phrase \"legkm baçkij\" — it shifts from ironic repetition to a shield against chaos.",
-     "The key insight: she is not just a \"practical wife\" but the anchor who translates lofty ideals into survivable reality, making her the true"
+     "मुख्य पात्र की पहचान, कार्य और विकास — 'वितान भाग-2 — पाठ 1' में वितान-भाग-2-—-पाठ-1 से पात्र उभरता है।"
     ]
    },
    {
@@ -277,16 +267,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The primary narrative structure is non-linear with flashbacks. The story alternates between the present (Shyam Lal in the old age home) and extended flashbacks to his life with",
      "1) fd'kunk — refuses to leave his ancestral land despite lucrative offers (\"tks gqvk gksxk\"), showing rootedness and fatalism"
     ],
-    "hint": "Straight from the 'Supporting characters' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' के' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing only names or vague traits like \"kind\") reveals the student cannot distinguish character function from mere presence.",
     "id": "gen_c12_hin_v_ch01_q5",
     "nodeId": "c12_hin_v_cbse_01_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a family dinner where everyone talks *at* the grandfather but no one listens — that is the world of \"flYoj oSfMax\".",
-     "To analyze supporting characters, start by listing every named character besides ;'kksèkj ckcw.",
-     "Next, for each, ask: \"What does this character *want*?",
-     "What do they *fear*?"
+     "'वितान भाग-2 — पाठ 1' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।"
     ]
    },
    {
@@ -298,16 +285,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The primary purpose is to collaboratively analyze the text using specific evidence (quotes",
      "The central conflict is between ;'kksèkj's desire for dignity and autonomy in old age versus his children's \"legkm baçkij\" (modern/Western) approach that treats his care as a"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' का' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"old age problems\" or \"family fight\" misses the ideological dimension — the clash between traditional values of familial duty and modern individualistic solutions — which is the thematic core.",
     "id": "gen_c12_hin_v_ch01_q6",
     "nodeId": "c12_hin_v_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting with your grandfather who refuses to move to a \"modern\" old-age home, saying \"tks gqvk gksxk\" — whatever happens, happens.",
-     "That phrase holds the key to this story's primary theme.",
-     "Begin by identifying the central conflict: ;'kksèkj's resistance to his children's \"legkm baçkij\" (modern/Western) solutions for his old age.",
-     "Trace how this conflict appears in three scenes — the hospital conversation, the house sale discussion, and the final meal with fd'kunk."
+     "सब घटनाएँ 'वितान भाग-2 — पाठ 1' में 'वितान भाग-2 — पाठ 1' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।"
     ]
    },
    {
@@ -319,16 +303,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The protagonist is ;kksèkj ckcw (the wife). Evidence: the narrative opens with the narrator observing her face (\"nÝ+rj dh iqjkuh nhokj ?",
      "A secondary theme is a recurring idea that supports, contrasts, or complicates the primary theme but does not dominate the narrative's central conflict"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' के' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"secondary theme is less important\") reveals a hierarchical misunderstanding — students often think \"secondary\" means \"less significant,\" whereas in board answers, secondary themes are *analytically essential* for showing depth of interpretation.",
     "id": "gen_c12_hin_v_ch01_q7",
     "nodeId": "c12_hin_v_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to your grandfather complain that \"no one has time for old people anymore\" — but then you notice he also refuses help from",
-     "The story works the same way: the main message (elderly neglect) is clear, but the *texture* comes from smaller, intertwined threads — the clerk who",
-     "To begin, re-read the text marking every scene where the old man interacts with someone *other than his son* (the clerk, the friend, the doctor, the",
-     "Ask: \"What idea does this interaction represent beyond the main plot?\" That question unlocks secondary themes."
+     "'वितान भाग-2 — पाठ 1' में वितान-भाग-2-—-पाठ-1 जैसे सहायक विचार आते हैं।"
     ]
    },
    {
@@ -340,16 +321,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "1) fd'kunk — refuses to leave his ancestral land despite lucrative offers (\"tks gqvk gksxk\"), showing rootedness and fatalism",
      "Imagery: sensory language creating mental pictures (e.g., \"the smell of wet earth after rain\"). Metaphor: direct comparison without 'like/as' (e.g., \"life is a broken bridge\")"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' में' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses metaphor with simile (\"life is *like* a broken bridge\") reveals the student cannot distinguish direct vs. indirect comparison — a fatal error in board answer-writing where terminology precision carries marks.",
     "id": "gen_c12_hin_v_ch01_q8",
     "nodeId": "c12_hin_v_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film with no background music — only the sounds of breathing, creaking floors, distant traffic.",
-     "That raw sensory input forces you to *feel* the character's loneliness.",
-     "This chapter does exactly that through words.",
-     "Begin by reading the text aloud slowly; underline every phrase that makes you see, hear, smell, touch, or taste something."
+     "'वितान भाग-2 — पाठ 1' में बिंब ढूँढिए — वितान-भाग-2-—-पाठ-1 — ये दृश्य पाठ को जीवंत बनाते हैं।"
     ]
    },
    {
@@ -398,10 +376,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a grandparent video-call their children abroad — the screen shows smiling faces, but the silence after the call ends speaks",
-     "That silence is irony: the technology meant to connect highlights the distance.",
-     "In *flYoj oSfMax*, start by listing every time a character says one thing but means another, or when events turn out opposite to expectations (e.",
-     "Next, mark physical objects that appear repeatedly — the house, the courtyard, the construction site — and ask: what do they *stand for* beyond"
+     "'वितान भाग-2 — पाठ 1' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।"
     ]
    },
    {
@@ -413,16 +388,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The phrase begins as fd'kunk's fatalistic acceptance of life's hardships but transforms into a damning critique of the family's passive complicity in his neglect",
      "Literally \"legkm baçkij\" means \"take care of yourself\" — a standard polite farewell. Contextually"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' की' slide -- match the key terms.",
     "misconception": "A wrong answer that only gives the dictionary meaning shows the student cannot distinguish denotation from contextual connotation — a fundamental gap for board exam \"meaning in context\" questions.",
     "id": "gen_c12_hin_v_ch01_q10",
     "nodeId": "c12_hin_v_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a WhatsApp forward from your grandfather — he writes \"sab badhiya hai\" but the photo shows him eating alone at a plastic table.",
-     "The words say \"fine,\" the context screams \"lonely.\" That gap between word and reality is exactly what this chapter exploits.",
-     "Begin by asking: \"Which words keep returning in this story like a refrain?\" Notice how \"legkm baçkij\" (take care yourself) starts as a polite",
-     "Track how \"fd'kunk\" (son) shifts from a term of endearment to a phantom presence."
+     "'वितान भाग-2 — पाठ 1' के मुख्य शब्द: वितान-भाग-2-—-पाठ-1 — इनका अर्थ जानिए।"
     ]
    },
    {
@@ -434,16 +406,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "A secondary theme is a recurring idea that supports, contrasts, or complicates the primary theme but does not dominate the narrative's central conflict",
      "The form \"मBkbZ\" is the simple past (सामान्य भूतकाल), masculine singular, of the verb \"मBकना\" (to sit/set out)"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' में' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it past perfect or present) reveals the student cannot distinguish the backbone tense of Hindi narration, leading to confusion when the text shifts to earlier events like the friend's retirement.",
     "id": "gen_c12_hin_v_ch01_q11",
     "nodeId": "c12_hin_v_cbse_01_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are editing a friend's story: they wrote \"तुम घर जाओ\" but the character is speaking to an elder.",
-     "You'd instantly know to change it to \"आप घर जाइए\" — that intuitive correction is grammar as social action.",
-     "In this chapter, the retired protagonist ;'kksèkj ckcw navigates multiple social worlds (office, home, street), and his language shifts accordingly.",
-     "Begin by isolating one dialogue exchange — say, the opening conversation with the friend nÝ+rj — and mark every pronoun (आप/तुम/तू) and verb ending."
+     "'वितान भाग-2 — पाठ 1' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।"
     ]
    },
    {
@@ -455,16 +424,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "Draft B demonstrates analysis (Bloom's Level 4) because it: (1) interprets setting as *symbol* (microcosm, board as symbol)",
      "A literal question asks for information directly stated in the text (e.g., \"What did the doctor say?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 1' के' slide -- match the key terms.",
     "misconception": "A wrong answer that treats an inferential question as literal reveals the student cannot distinguish explicit vs. implicit meaning — a critical error that leads to incomplete answers in 3-5 mark questions.",
     "id": "gen_c12_hin_v_ch01_q12",
     "nodeId": "c12_hin_v_cbse_01_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the CBSE exam hall and see a question: \"Why does the old man (;'kksèkj ckcw) refuse to leave his house even when his",
-     "Start by asking: \"Is this asking for a fact stated directly (literal) or a reason I must deduce (inferential)?",
-     "You'll find explicit statements about his attachment to the house (literal) and his fear of becoming dependent (inferential).",
-     "The key insight: every inferential answer rests on a foundation of literal evidence — never guess; always anchor your deduction in quoted or"
+     "'वितान भाग-2 — पाठ 1' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय 'वितान भाग-2।"
     ]
    },
    {
@@ -513,10 +479,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_01_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective arriving at a crime scene — the \"crime\" is the emotional violence of neglect in this family.",
-     "Your first instinct might be to blame the son (;'kksèkj ckcw) or the daughter-in-law (iRuh), but a critical thinker asks: *What structural forces",
-     "Trace how the author uses the recurring phrase \"tks gqvk gksxk\" not just as dialogue but as a structural motif that evolves from resignation to",
-     "Next, examine the irony: the son who once depended on his father's \"foolish\" generosity now replicates the same helplessness with his own children."
+     "'वितान भाग-2 — पाठ 1' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।"
     ]
    },
    {
@@ -565,10 +528,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_01_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you get a board question: \"How does the author portray the changing relationship between the old man and his son?",
-     "The son gets a job.",
-     "The old man feels sad.\" This earns 1-2 marks because it narrates events instead of analyzing the relationship.",
-     "To begin, ask: \"What is the *nature* of the change — is it emotional, financial, ideological?"
+     "'वितान भाग-2 — पाठ 1' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।"
     ]
    },
    {
@@ -617,10 +577,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_01_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're at a family gathering where your grandfather says, \"In my time, children never questioned elders,\" and your cousin replies, \"But times",
-     "To discuss this effectively, first re-read the key confrontations: the pension scene (pages 3-4), the hospital visit (pages 6-7), and the final",
-     "Note fd'kunk's repeated phrase \"tks gqvk gksxk\" — is it acceptance or helplessness?",
-     "Prepare 2-3 quotes per theme."
+     "'वितान भाग-2 — पाठ 1' का वाचन कीजिए — फिर चर्चा में राय रखिए।"
     ]
    },
    {
@@ -775,23 +732,25 @@ export const C12_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about सल्विर वैडिंग — पृष्ठभूमि और रचनाकार परिचय?",
+    "What surprised you about 'वितान भाग-2 — पाठ 1' का?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "सल्विर वैडिंग — पृष्ठभूमि और mastered! 🎯",
+  "successLine": "'वितान भाग-2 — पाठ 1' का mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_v_ch02",
-  "title": "जूझ — पृष्ठभूमि और रचनाकार परिचय",
+  "title": "'वितान भाग-2 — पाठ 2' का",
   "subtitle": "Hindi · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "जूझ — पृष्ठभूमि और रचनाकार परिचय",
-  "chapters": ["Hindi Ch2: जूझ — पृष्ठभूमि और रचनाकार परिचय"],
+  "topic": "'वितान भाग-2 — पाठ 2' का",
+  "chapters": [
+   "Hindi Ch2: 'वितान भाग-2 — पाठ 2' का"
+  ],
   "nodeIds": [
    "c12_hin_v_cbse_02_001",
    "c12_hin_v_cbse_02_002",
@@ -816,103 +775,103 @@ export const C12_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is जूझ — पृष्ठभूमि और रचनाकार परिचय more about facts, or about reasoning?",
+   "question": "Is 'वितान भाग-2 — पाठ 2' का more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" prepares students to engage deeply with the autobiographical narrative *ikB'kkyk tkus osQ fy, eu rM+irk"
+   "hook": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'वितान भाग-2 — पाठ 2' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की"
   },
   "teaching": [
    {
     "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
-    "text": "\"Before You Read: Context and Background\" prepares students to engage deeply with the autobiographical narrative *ikB'kkyk tkus osQ fy, eu rM+irk Fkk* by V.",
+    "text": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'वितान भाग-2 — पाठ 2' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की व्याख्या की कुंजी है।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the organized sequence of events in a story (plot) and the technique used to present those events to the reader (narrative structure), including chronology, perspective, pacing, and structural devices like flashbacks or",
+    "title": "'वितान भाग-2 — पाठ 2' का",
+    "text": "'वितान भाग-2 — पाठ 2' का कथानक — 'वितान भाग-2 — पाठ 2' — वितान भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक के अनुरूप।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
     "title": "'वितान भाग-2 — पाठ 2' का",
-    "text": "Setting and atmosphere refer to the time, place, physical environment, and emotional mood created by the author through descriptive details, which together establish the backdrop against which characters act and themes unfold; in this chapter, the setting",
+    "text": "'वितान भाग-2 — पाठ 2' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves systematically examining the central character's traits, motivations, conflicts, growth, and narrative function by citing textual evidence (actions, speech, thoughts, relationships) to reveal how the author",
+    "title": "'वितान भाग-2 — पाठ 2' का",
+    "text": "'वितान भाग-2 — पाठ 2' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Supporting Character Analysis Examines How",
-    "text": "Supporting character analysis examines how secondary figures (mother, father, teachers, peers) function as narrative catalysts who reveal the protagonist's inner conflicts, advance thematic concerns (education vs.",
+    "title": "'वितान भाग-2 — पाठ 2' के",
+    "text": "'वितान भाग-2 — पाठ 2' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, setting, and conflict; the message is the author's specific perspective or commentary on that theme, often",
+    "title": "'वितान भाग-2 — पाठ 2' का",
+    "text": "'वितान भाग-2 — पाठ 2' का मुख्य विषय — 'वितान भाग-2 — पाठ 2' का केंद्रीय भाव और संदेश",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, motifs, or concerns that run parallel to the primary theme in a literary text, enriching the narrative by exploring complementary human experiences such as poverty, relationships, mentorship, or social barriers",
+    "title": "'वितान भाग-2 — पाठ 2' के",
+    "text": "'वितान भाग-2 — पाठ 2' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery (चित्रात्मकता) is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "'वितान भाग-2 — पाठ 2' में",
+    "text": "'वितान भाग-2 — पाठ 2' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony In This Chapter",
-    "text": "Irony in this chapter is the contrast between what the narrator expects or desires (education, a teacher's guidance) and what actually happens (forced labor, loss of father, self-taught struggle).",
+    "title": "'वितान भाग-2 — पाठ 2' में",
+    "text": "'वितान भाग-2 — पाठ 2' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and thematic function of a word or phrase as it is used within a specific literary passage, rather than relying solely on its dictionary definition.",
+    "title": "'वितान भाग-2 — पाठ 2' की",
+    "text": "'वितान भाग-2 — पाठ 2' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "This Node Analyzes The Grammatical",
-    "text": "This node analyzes the grammatical structures, syntactic patterns, and stylistic language choices employed in the chapter \"ikB'kkyk tkus osQ fy, eu rM+irk Fkk\" to understand how language constructs narrative voice, character perspective, and thematic depth.",
+    "title": "'वितान भाग-2 — पाठ 2' में",
+    "text": "'वितान भाग-2 — पाठ 2' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Literal Comprehension",
-    "text": "Literal comprehension is the ability to identify and recall information explicitly stated in the text, such as facts, names, sequences, and direct descriptions.",
+    "title": "'वितान भाग-2 — पाठ 2' के",
+    "text": "'वितान भाग-2 — पाठ 2' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis refers to the disciplined process of examining a text beyond its surface meaning to evaluate the author's choices, uncover implicit themes, assess the effectiveness of literary devices, and formulate an independent",
+    "title": "'वितान भाग-2 — पाठ 2' का",
+    "text": "'वितान भाग-2 — पाठ 2' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter refers to the ability to compose structured, evidence-based responses — such as analytical paragraphs, character sketches, theme essays, and critical commentaries — that demonstrate deep engagement with the text \"ikB'kkyk",
+    "title": "'वितान भाग-2 — पाठ 2' पर",
+    "text": "'वितान भाग-2 — पाठ 2' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students articulate interpretations, debate themes, and respond to peers' perspectives on the chapter \"ikB'kkyk tkus osQ fy, eu rM+irk Fkk\" using textual",
+    "title": "'वितान भाग-2 — पाठ 2' पर",
+    "text": "'वितान भाग-2 — पाठ 2' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -927,16 +886,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The story is told in first‑person (\"eSa\") and the narrator himself is the protagonist",
      "The author is V.K. Anand (वी.के. आनंद), a noted Hindi writer and poet associated with the *Nayi Kavita* (New Poetry) movement"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Premchand or Harivansh Rai Bachchan) reveals confusion between canonical Hindi authors and their distinct thematic preoccupations — Anand's work centers on autobiographical realism and poetic sensibility, not social reform novels or romantic lyricism.",
     "id": "gen_c12_hin_v_ch02_q1",
     "nodeId": "c12_hin_v_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a film set in 1930s village India — a boy watches other children walk to school while he tends goats, his mother",
-     "Before reading, ask: *What forces keep a child out of school?",
-     "What makes a mother choose hunger over her son's illiteracy?* This node equips you to spot those forces — colonial neglect, caste-economy overlap,",
-     "The key insight: this is not just a memoir; it is a document of how education became a radical act for the rural poor."
+     "पहले रचनाकार: NCERT पाठ्यपुस्तक। फिर काल। फिर 'वितान भाग-2 — पाठ 2' का संदर्भ — 'वितान भाग-2 — पाठ 2' का केंद्रीय भाव और संदेश। रचनाकार और काल मिलकर"
     ]
    },
    {
@@ -996,10 +952,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_02_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're telling a friend about a movie you watched — you don't just list scenes randomly; you shape the telling: \"It started with.",
-     "In this chapter, the narrator looks back as an adult (frame narrative) and recounts his childhood struggle for education in a non-linear way —",
-     "To analyze it, first list the key events in the order they HAPPENED (chronological), then list them in the order they are TOLD (narrative order).",
-     "The gap between the two reveals the author's purpose: to show how memory selects and arranges the past to make sense of the present."
+     "'वितान भाग-2 — पाठ 2' का क्रम: शुरुआत वितान-भाग-2-—-पाठ-2 से, घटनाएँ बढ़ती हैं, अंत 'वितान भाग-2 पर।"
     ]
    },
    {
@@ -1048,10 +1001,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in a dimly lit village hut where a mother stitches late into the night, worried about her son's future — this is the opening",
-     "Now picture the same boy years later, sitting in a strict classroom where poetry echoes and a teacher's cane maintains silence — the atmosphere has",
-     "To analyze setting and atmosphere, start by marking every location mentioned in the text: home, school, teacher's house, examination hall.",
-     "Next, note the sensory details for each — sounds (mother's stitching, poetry recitation, cane striking), sights (dim lamp, crowded classroom,"
+     "'वितान भाग-2 — पाठ 2' का परिवेश: 'वितान भाग-2 — पाठ 2' — वितान भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्त — स्थान और समय मिलकर"
     ]
    },
    {
@@ -1063,16 +1013,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The narrative uses a first-person retrospective perspective ('eSa' as adult narrator recalling childhood)",
      "The story is told in first‑person (\"eSa\") and the narrator himself is the protagonist"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' का' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"third person\" or \"the teacher\") shows the student cannot identify the basic narrative stance, making any character analysis impossible because they will look for the wrong \"I\".",
     "id": "gen_c12_hin_v_ch02_q4",
     "nodeId": "c12_hin_v_cbse_02_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked in the board exam: \"Sketch the character of the narrator in 'ikB'kkyk tkus osQ fy, eu rM+irk Fkk'.",
-     "Next, list every scene where he speaks, acts, or reflects (e.g., hiding his report card, begging his mother to let him study, observing the teacher's",
-     "Group these into 3‑4 trait clusters (determination, sensitivity, gratitude).",
-     "For each cluster, pick the sharpest evidence – not the longest quote."
+     "मुख्य पात्र की पहचान, कार्य और विकास — 'वितान भाग-2 — पाठ 2' में वितान-भाग-2-—-पाठ-2 से पात्र उभरता है।"
     ]
    },
    {
@@ -1132,10 +1079,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_02_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"How does the father's resistance to education actually prove the story's central argument about literacy?",
-     "Next, classify each moment: is he protecting tradition, expressing fear, or showing hidden care?",
-     "Then, map these to the protagonist's responses — does the narrator rebel, comply, or negotiate?",
-     "Finally, ask: what would the story lose if Father simply agreed?"
+     "'वितान भाग-2 — पाठ 2' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।"
     ]
    },
    {
@@ -1147,16 +1091,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "Correct analysis: Olar comes from a landed family (\"nwljksa osQ lokyksa dh tk¡p djrk Fkk\"), sees school as entitlement (\"ges'kk i<+us esa yxk jgrk\"), and speaks fluent Hindi",
      "A topic is a one-word or phrase subject (e.g., 'education', 'poverty', 'mother-son relationship'). A theme is a complete sentence expressing the author's insight about that topic"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' का' slide -- match the key terms.",
     "misconception": "A wrong answer that lists topics reveals the student conflates subject with thematic statement — a fundamental error that leads to plot-summary answers in board exams.",
     "id": "gen_c12_hin_v_ch02_q6",
     "nodeId": "c12_hin_v_cbse_02_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're telling a friend why this memoir matters — not *what happens*, but *what it means*.",
-     "Start by asking: \"What is the one idea this entire story revolves around?\" Look for the conflict that drives the narrator: the fierce desire to study",
-     "Notice how the mother's silent sacrifice (selling bangles, enduring hunger) and the teacher Pandit Sanyal's mentorship repeatedly appear as turning",
-     "The theme isn't \"education is good\" — it's \"education as transformative resistance against systemic oppression."
+     "सब घटनाएँ 'वितान भाग-2 — पाठ 2' में 'वितान भाग-2 — पाठ 2' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।"
     ]
    },
    {
@@ -1216,10 +1157,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're re-reading the story and notice that while the narrator's desire to study drives the plot, other powerful currents flow beneath — his",
-     "Start by listing every moment where something *other than studying* feels significant: the mother hiding hunger, Thakur Sahab calling him \"vakuank,\"",
-     "For each moment, ask: \"What larger idea does this represent?\" That idea is a secondary theme.",
-     "The key insight: secondary themes don't just decorate the story; they explain *why* the primary struggle is so hard and *how* the narrator survives"
+     "'वितान भाग-2 — पाठ 2' में वितान-भाग-2-—-पाठ-2 जैसे सहायक विचार आते हैं।"
     ]
    },
    {
@@ -1231,16 +1169,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The story is told in first‑person (\"eSa\") and the narrator himself is the protagonist",
      "Imagery is descriptive language that creates sensory experiences for the reader. Example: \"नकली दाँतों से काटने पर भी दर्द नहीं होता\" (tactile"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' में' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If the student gives a visual example (e.g., \"school building looked big\") or a vague phrase like \"beautiful description\", they confuse imagery with mere description and cannot distinguish sensory modalities. They need to revisit the five senses classification.",
     "id": "gen_c12_hin_v_ch02_q8",
     "nodeId": "c12_hin_v_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the narrator’s courtyard on a winter morning, feeling the cold seep into your bones while watching your mother stir tea —",
-     "The author doesn’t just *tell* you “it was cold”; he makes you *feel* it through tactile imagery (cold bones) and olfactory imagery (ginger tea).",
-     "Now ask: why does he compare the school to a \"floating log in deep water\" (taxynh lwvj) when the narrator first sees it?",
-     "That’s a metaphor — the school (tenor) is the log (vehicle), suggesting isolation, instability, and something unreachable."
+     "'वितान भाग-2 — पाठ 2' में बिंब ढूँढिए — वितान-भाग-2-—-पाठ-2 — ये दृश्य पाठ को जीवंत बनाते हैं।"
     ]
    },
    {
@@ -1252,16 +1187,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The three primary physical settings are: (1) the narrator's impoverished village home with his mother, (2) the school classroom with strict teachers like Shri Lalasanyasdaji",
      "Situational irony occurs when the outcome of a situation is the opposite of what was expected or intended"
     ],
-    "hint": "Straight from the 'Irony in this chapter' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' में' slide -- match the key terms.",
     "misconception": "A wrong answer that cites \"the narrator becoming a writer\" as irony misses the point: that is a long-term outcome, not an immediate situational reversal. The error reveals confusion between irony and poetic justice or delayed fulfillment.",
     "id": "gen_c12_hin_v_ch02_q9",
     "nodeId": "c12_hin_v_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're the narrator: you beg to go to school, but your mother hands you a trowel instead.",
-     "That moment — the gap between your plea and her action — is where irony lives.",
-     "Now look at the pen you later steal to write your first poem: it's not just a pen; it's a key, a weapon, a voice.",
-     "Start by re-reading the text with two colored pencils: mark every \"expectation vs reality\" moment in one color (irony), and every object that carries"
+     "'वितान भाग-2 — पाठ 2' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।"
     ]
    },
    {
@@ -1273,16 +1205,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The narrator enters school late, ashamed, and academically behind; Olar is already fluent, confident, and culturally at ease in the classroom",
      "Dictionary meaning is fixed, decontextualized, and universal; contextual meaning is fluid, shaped by the specific narrative situation (speaker, listener, tone, imagery"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' की' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"contextual meaning is just the dictionary meaning applied to a sentence\") reveals the student treats words as static labels rather than dynamic meaning-making tools — a fundamental error that leads to superficial board answers and inability to handle CUET/NEET unseen passage questions where",
     "id": "gen_c12_hin_v_ch02_q10",
     "nodeId": "c12_hin_v_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading the scene where the protagonist sits on a mud-plastered floor in Nanak Singh's classroom, feeling the \"nq^h\" (courtyard dust)",
-     "That single word \"vkuan\" carries the entire emotional arc of the chapter.",
-     "To master vocabulary in context, start by circling every word that makes you pause — words that feel \"heavy\" (like \"rM+irk\" in the title) or words",
-     "Ask: \"What does this word mean HERE, in THIS character's mouth, at THIS moment?\" Then trace that word's echoes across the chapter."
+     "'वितान भाग-2 — पाठ 2' के मुख्य शब्द: वितान-भाग-2-—-पाठ-2 — इनका अर्थ जानिए।"
     ]
    },
    {
@@ -1294,16 +1223,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "A secondary theme is a recurring idea that supports or contrasts with the primary theme but is not the central message",
      "The opening uses past habitual (imperfective) \"rM+irk Fkk\" — formed with verb stem + \"ta/ti/te\" + auxiliary \"thaa/thi/the\""
     ],
-    "hint": "Straight from the 'This node analyzes the' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' में' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it simple past) reveals the student cannot distinguish Hindi's three past tense-aspect categories — a critical gap for board translation questions and JEE-style sentence transformation.",
     "id": "gen_c12_hin_v_ch02_q11",
     "nodeId": "c12_hin_v_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a WhatsApp chat from your grandmother — she uses \"aap\" and \"ji\" naturally, her verbs carry respect, and her sentences flow",
-     "Now open the chapter: the narrator's voice shifts between raw childhood simplicity (\"main seekhunga\") and mature reflection (\"samajh mein aaya\"),",
-     "The first step is to mark every verb — underline them in three colors: past habitual (thaa/thi/the), past perfect (chukaa/chuki/chuke), and simple",
-     "Next, circle every dialogue and note the pronoun shift: when the narrator speaks to mother it's \"main/meri,\" when mother speaks to Principal it's"
+     "'वितान भाग-2 — पाठ 2' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।"
     ]
    },
    {
@@ -1315,16 +1241,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "Imagery is descriptive language that creates sensory experiences for the reader. Example: \"नकली दाँतों से काटने पर भी दर्द नहीं होता\" (tactile",
      "Literal comprehension: understanding information directly stated in the text (e.g., \"What is the narrator's name?"
     ],
-    "hint": "Straight from the 'Literal comprehension' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' के' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the definitions or gives only opinion-based examples reveals the student cannot distinguish explicit vs. implicit information.",
     "id": "gen_c12_hin_v_ch02_q12",
     "nodeId": "c12_hin_v_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you receive a text from a friend: \"I'm fine.\" You know they just failed an exam.",
-     "Do you take the words literally or infer they're upset?",
-     "That's the core difference between literal and inferential comprehension.",
-     "To begin with this chapter, first read the text once without stopping to get the gist."
+     "'वितान भाग-2 — पाठ 2' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय 'वितान भाग-2।"
     ]
    },
    {
@@ -1384,10 +1307,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_02_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked in the board exam: \"How does the author use the symbol of the 'pen' to trace his journey from a reluctant student to a poet?",
-     "To begin critical analysis, first identify the *shifts* in the pen's meaning: initially a tool of fear (father's stick), then a borrowed object",
-     "Next, map these shifts to the narrator's emotional arc across three time-frames: childhood, adolescence, adulthood.",
-     "Then, examine the *language* surrounding each occurrence — verbs like 'Hkst nsuk' (to give), 'cqykuk' (to snatch), 'xkuk' (to write) — to see how"
+     "'वितान भाग-2 — पाठ 2' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।"
     ]
    },
    {
@@ -1399,16 +1319,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "Shift 1: Primary school — fear-driven atmosphere (\"xjeh&ljnh] gok&ikuh] o\"kkZ] Hkw[k&I;kl vkfn dk oqQN Hkh [k;ky u djrs gq,\"), corporal punishment accepted",
      "सही उत्तर: माँ की निःस्वार्थ त्याग और दृढ़ संकल्प — विशेष रूप से चूड़ियाँ बेचकर फीस भरना और नंदकिशोर ठाकुर से कहना: \"लड़कों के साथ रोज़ ?"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' पर' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: सही उत्तर: माँ की निःस्वार्थ त्याग और दृढ़ संकल्प — विशेष रूप से चूड़ियाँ बेचकर फीस भरना और नंदकिशोर ठाकुर से कहना:",
     "id": "gen_c12_hin_v_ch02_q14",
     "nodeId": "c12_hin_v_cbse_02_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam and see this question: \"माँ के संघर्ष और त्याग के माध्यम से लेखक ने शिक्षा के महत्व को कैसे उजागर किया",
-     "What evidence do you pick?",
-     "How do you structure it so the examiner sees clear thinking?",
-     "Most students jump straight to writing and produce a plot summary."
+     "'वितान भाग-2 — पाठ 2' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।"
     ]
    },
    {
@@ -1420,15 +1337,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "A secondary theme is a recurring idea that supports or contrasts with the primary theme but is not the central message",
      "The primary purpose is to evaluate the student's ability to orally analyze literary elements (theme, character, language) using textual evidence, not merely to summarize the plot"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the ''वितान भाग-2 — पाठ 2' पर' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to check if the student read the story\" reveals a misconception that speaking assessment tests memory recall rather than analytical synthesis — a confusion that leads students to prepare plot summaries instead of argument-driven talking points.",
     "id": "gen_c12_hin_v_ch02_q15",
     "nodeId": "c12_hin_v_cbse_02_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a CUET interview panel and asked: \"Is the mother's decision to force the narrator to school justified, or does it violate his",
-     "This node teaches you that exact four-step oral framework: Stance → Evidence → Counter-view → Synthesis.",
-     "Start by identifying the chapter's three most debatable moments (mother's ultimatum, Nanak Singh's pedagogy, narrator's poetic awakening), then"
+     "'वितान भाग-2 — पाठ 2' का वाचन कीजिए — फिर चर्चा में राय रखिए।"
     ]
    },
    {
@@ -1497,7 +1412,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "At home, poverty is intimate and sacrificial — mother's body bears it silently. At school, poverty is public and humiliating",
      "The narrator enters school late, ashamed, and academically behind; Olar is already fluent, confident, and culturally at ease in the classroom"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A weak answer treats both boys as equally \"motivated,\" ignoring how cultural capital shapes self-perception.",
     "id": "gen_c12_hin_v_ch02_q17",
     "nodeId": "c12_hin_v_cbse_02_001",
@@ -1512,7 +1427,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "Poetry *is* a secondary theme — it represents self-fashioning through language. Evidence: (1) narrator writes poetry secretly before Thakur Sahab encourages it",
      "Critique: The method *is* pedagogically sound — it uses oral repetition, emotional resonance"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Critique: The method *is* pedagogically sound — it uses oral repetition, emotional resonance, and multimodal encoding",
     "id": "gen_c12_hin_v_ch02_q18",
     "nodeId": "c12_hin_v_cbse_02_001",
@@ -1521,23 +1436,25 @@ export const C12_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about जूझ — पृष्ठभूमि और रचनाकार परिचय?",
+    "What surprised you about 'वितान भाग-2 — पाठ 2' का?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "जूझ — पृष्ठभूमि और रचनाकार mastered! 🎯",
+  "successLine": "'वितान भाग-2 — पाठ 2' का mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_v_ch03",
-  "title": "अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय",
+  "title": "'वखत खि अगवत्स-नमकस और गालिब की",
   "subtitle": "Hindi · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय",
-  "chapters": ["Hindi Ch3: अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय"],
+  "topic": "'वखत खि अगवत्स-नमकस और गालिब की",
+  "chapters": [
+   "Hindi Ch3: 'वखत खि अगवत्स-नमकस और गालिब की"
+  ],
   "nodeIds": [
    "c12_hin_v_cbse_03_001",
    "c12_hin_v_cbse_03_003",
@@ -1561,97 +1478,97 @@ export const C12_HIN_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses अतीत में दबे पाँव — पृष्ठभूमि और in real working life?",
+   "question": "Who uses 'वखत खि अगवत्स-नमकस और गालिब की in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory literary skill where students activate prior historical knowledge, identify the author's"
+   "hook": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक"
   },
   "teaching": [
    {
     "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
-    "text": "\"Before You Read: Context and Background\" is a preparatory literary skill where students activate prior historical knowledge, identify the author's perspective, and predict thematic concerns of a prose text by examining its title, setting references, and",
-    "emoji": "📖",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social-historical context in which a narrative unfolds; atmosphere is the emotional mood or tone evoked by the descriptive details of that setting.",
+    "text": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की व्याख्या की कुंजी है।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
     "title": "'वखत खि अगवत्स-नमकस और गालिब की",
-    "text": "Character analysis of a protagonist in a historical-prose narrative involves examining how a central figure (here, the city of Fatehpur Sikri itself) is constructed through physical description, historical actions, symbolic associations, and the narrator's",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।",
+    "emoji": "📖",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Supporting Characters In a Descriptive",
-    "text": "Supporting characters in a descriptive travelogue like \"वहीं भी एक पुरातन नगर और ग्वालियर\" are the human figures — guides, archaeologists, local residents, and historical personages — who appear briefly to illuminate the protagonist (the city itself or the",
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or universal insight about human experience that the author conveys through plot, characters, setting, and literary devices; the message is the specific moral, philosophical, or social",
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का मुख्य विषय — 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का केंद्रीय भाव और संदेश",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subordinate ideas or motifs in a literary work that support, contrast with, or enrich the primary theme. In \"वखत खि अगवत्स-नमकस और गालिब की पूर्व\", they include the tension between planned heritage and chaotic modernity, the river",
-    "emoji": "📖",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotions; metaphor is a figure of speech that directly compares two unlike things by stating one *is* the",
-    "emoji": "📖",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
-    "title": "Irony In This Chapter",
-    "text": "Irony in this chapter is the deliberate contrast between what appears on the surface and the underlying reality — such as the name \"Sarnath\" (lord of the deer) for a city now reduced to silent ruins, or the description of grand structures that once hosted",
-    "emoji": "📖",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of key words and phrases as they are used within a specific literary or historical text, rather than relying solely on dictionary definitions.",
-    "emoji": "📖",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the systematic analysis of grammatical structures, syntactic patterns, lexical choices, and stylistic devices employed by the author to convey meaning, create atmosphere, and establish narrative voice in the chapter \"vHkh",
-    "emoji": "📖",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving information directly stated in the text, while inferential comprehension requires drawing conclusions, making connections, or interpreting implied meanings by combining textual evidence with prior knowledge and",
-    "emoji": "📖",
-    "bgColor": "from-violet-400 to-purple-500"
-   },
-   {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the systematic process of examining a text's explicit and implicit meanings, evaluating the author's perspective and techniques, and synthesizing evidence to form an independent interpretation that goes beyond",
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
     "title": "'वखत खि अगवत्स-नमकस और गालिब की",
-    "text": "Writing Skills based on the chapter \"vHkh Hkh eqvutks&nM+ks vkSj gM+Iik izkphu\" refers to the ability to compose structured, evidence-based analytical responses in Hindi that interpret the travelogue's historical descriptions, thematic contrasts (ancient vs.",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।",
+    "emoji": "📖",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points are structured conversational prompts derived from the chapter's themes, historical context, characters, and literary devices that enable students to articulate informed opinions, actively listen to peers, and",
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।",
+    "emoji": "📖",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।",
+    "emoji": "📖",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।",
+    "emoji": "📖",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।",
+    "emoji": "📖",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।",
+    "emoji": "📖",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "'वखत खि अगवत्स-नमकस और गालिब की",
+    "text": "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -1714,10 +1631,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_03_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're standing at the Buland Darwaza in Fatehpur Sikri today — red sandstone towers above you, but the city is silent, no emperor's",
-     "The chapter you're about to read is a time machine: a 20th-century writer walks these same ruins and reconstructs the living city from stones.",
-     "Before you read, ask: \"What does the title 'eqvutks&nM+ks vkSj gM+Iik' tell me about the TWO cities being compared?",
-     "Your first task: list three facts you already know about Akbar's Fatehpur Sikri from Class 11 history (c11_his_cbse_08_001 Mughal Empire)."
+     "पहले रचनाकार: NCERT पाठ्यपुस्तक। फिर काल। फिर 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का संदर्भ — 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का केंद्रीय"
     ]
    },
    {
@@ -1729,16 +1643,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "\"लरवि\" belongs to the architectural/urban planning semantic field. The signaling phrase is \"लरवि okyk pcwrjk eqvutks&nM+ks osQ lcls [kkl fgLls osQ ,d fljs ij fLFkr gSA\" (the main",
      "Setting = when and where the narrative occurs (time, place, social context). Atmosphere = the emotional mood created by descriptive language (e.g., gloomy, serene, tense)"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer that merges them (e.g., \"setting is the mood of the place\") reveals the student cannot distinguish objective context from subjective effect — a critical error in board answers where \"setting\" requires factual evidence and \"atmosphere\" requires sensory/emotional analysis.",
     "id": "gen_c12_hin_v_ch03_q2",
     "nodeId": "c12_hin_v_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you stand on the ruins of Rajgir today — you see broken stupas, hear wind through peepal leaves, feel the heat of the same stones Buddha",
-     "Now ask: how does the author make you *feel* the weight of 2500 years in a few paragraphs?",
-     "Start by marking every geographical detail (valley, hills, river, caves) and every historical timestamp (Buddha, Mahavira, Bimbisara, 1922",
-     "Then trace the emotional tone: wonder → sorrow → anger → quiet pride."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का परिवेश: 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' — वितान भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्र — स्थान"
     ]
    },
    {
@@ -1750,16 +1661,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The primary purpose of PEEL (Point, Evidence, Explanation, Link) is to ensure each paragraph presents a single clear argument supported by textual proof, explains its relevance",
      "The protagonist is Fatehpur Sikri (eqvutks&nM+ks), introduced as India's and the world's most magnificent and awe-inspiring city"
     ],
-    "hint": "Straight from the 'Character analysis of a' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Akbar or the narrator) reveals the student misses the text's personification of the city itself as the central consciousness — a common error when students expect a human protagonist in every narrative.",
     "id": "gen_c12_hin_v_ch03_q3",
     "nodeId": "c12_hin_v_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in the silent courtyards of Fatehpur Sikri today — red sandstone walls baking in the sun, no emperor, no courtiers, only",
-     "The textbook doesn't give you a hero with a name and dialogues; it gives you a city that *was* an empire's heart and *is* now a ruin.",
-     "To analyze this protagonist, start by asking: \"How does the writer make a place feel like a person?",
-     "Notice how the narrator's voice shifts from historian to poet to philosopher — each lens adds a layer to the city's character."
+     "मुख्य पात्र की पहचान, कार्य और विकास — 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में वखत-खि-अगवत्स-नमकस-और-गालिब-की-पूर्व से पात्र उभरता है।"
     ]
    },
    {
@@ -1771,16 +1679,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The literal meaning is \"lord of the deer\" (eqnks± dk Vhyk). The author creates irony by juxtaposing this regal, living imagery with the present reality of silent",
      "The text does not give her a personal name; she is referred to as the \"वृद्धा स्त्री\" (old woman) who sits on the threshold (\"नसग्जह\") of a house in the ancient quarter"
     ],
-    "hint": "Straight from the 'Supporting characters in a' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer would invent a name (e.g., \"Meera\") or confuse her with the archaeologist — revealing the student treats her as a fictional character rather than a textual figure.",
     "id": "gen_c12_hin_v_ch03_q4",
     "nodeId": "c12_hin_v_cbse_03_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in the excavated lanes of Ujjain today: a local woman sits on a threshold, keys in hand, offering to unlock a 2,000-year-old",
-     "That woman is not background decoration — she is a *supporting character* whose presence makes the ancient city feel alive.",
-     "Start by listing every named or distinctly described person in the chapter.",
-     "For each, ask: (1) What does this person *do* or *say*?"
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।"
     ]
    },
    {
@@ -1792,16 +1697,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "A secondary theme is a recurring idea that supports or contrasts with the primary theme but is not the central message",
      "The primary theme is the central universal idea or insight about human experience that a work explores (e"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer that gives a plot summary (\"the chapter describes eqvutks&nM+ks's wells and streets\") reveals the student confuses *content* with *meaning* — they haven't moved from literal to interpretive level.",
     "id": "gen_c12_hin_v_ch03_q5",
     "nodeId": "c12_hin_v_cbse_03_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you visit an ancient archaeological site like Dholavira or Rakhigarhi — you see sophisticated drainage, standardized bricks, and no grand",
-     "You wonder: \"What does this tell us about the people who lived here 4,500 years ago, and what warning or lesson does it hold for our cities today?",
-     "In this chapter, the author uses the ruined city of eqvutks&nM+ks as a lens to examine what makes a civilization truly advanced.",
-     "To begin, re-read the opening and closing paragraphs (pages 36 and 49-50): the author frames the site as both a marvel of planning and a society"
+     "सब घटनाएँ 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य"
     ]
    },
    {
@@ -1850,10 +1752,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are walking through Old Delhi today: you see a Mughal-era haveli with a metro pillar right next to it.",
-     "That clash — the planned past vs. the unplanned present — is exactly what this chapter explores through Agra.",
-     "To find secondary themes, first re-read the chapter marking every paragraph that describes a *contrast* (old vs.",
-     "Second, group these contrasts into clusters: e.g., all mentions of the Yamuna river form one cluster (river as silent witness)."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में वखत-खि-अगवत्स-नमकस-और-गालिब-की-पूर्व जैसे सहायक विचार आते हैं।"
     ]
    },
    {
@@ -1902,10 +1801,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing amid the dusty mounds of Harappa today — what do you *actually* see?",
-     "Broken bricks, shards of pottery, a dry riverbed.",
-     "Now read the author's description: he makes you *hear* the ancient market's clamor, *feel* the coolness of a 4,000-year-old well, *smell* the baked",
-     "That transformation — from silent ruins to living sensory experience — is imagery at work."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में बिंब ढूँढिए — वखत-खि-अगवत्स-नमकस-और-गालिब-की-पूर्व — ये दृश्य पाठ को जीवंत बनाते हैं।"
     ]
    },
    {
@@ -1965,10 +1861,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are walking through the ruins of Sarnath today: you see broken pillars, a massive stupa, and a lion capital that once crowned an Ashokan",
-     "The guide tells you this was once a bustling monastic university.",
-     "You feel a jolt — the name \"Sarnath\" means \"lord of the deer,\" yet no deer roam here now; the silence contradicts the past chorus of chanting monks.",
-     "That jolt is irony."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।"
     ]
    },
    {
@@ -1980,16 +1873,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The protagonist is Fatehpur Sikri (eqvutks&nM+ks), introduced as India's and the world's most magnificent and awe-inspiring city",
      "\"लरवि\" belongs to the architectural/urban planning semantic field. The signaling phrase is \"लरवि okyk pcwrjk eqvutks&nM+ks osQ lcls [kkl fgLls osQ ,d fljs ij fLFkr gSA\" (the main"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"historical period\" or \"cultural practice\" reveals the student is guessing based on the chapter's general topic rather than tracing the syntactic role of \"लरवि\" as a physical structure modified by locational phrases.",
     "id": "gen_c12_hin_v_ch03_q9",
     "nodeId": "c12_hin_v_cbse_03_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are an archaeologist reading a 2,000-year-old site report written in a language where half the technical terms have no modern equivalent",
-     "Begin by reading the first two paragraphs aloud and circling every word you cannot define confidently in one sentence; you will likely find 15-20",
-     "Next, pick just three circled words and hunt for \"context clues\" within the same sentence or adjacent sentences: a describing adjective, a",
-     "Then, group your words into semantic clusters — architectural (लरवि, ओककक, खखखख), historical (फलककक, ब्जलजलज), cultural (खखखखख, खखखखखख) — because"
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' के मुख्य शब्द: वखत-खि-अगवत्स-नमकस-और-गालिब-की-पूर्व — इनका अर्थ जानिए।"
     ]
    },
    {
@@ -2038,10 +1928,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're an archaeologist reading a site report — you notice the writer uses \"किया गया\" (was done) instead of \"किया\" (did) when describing",
-     "Because passive voice shifts focus from *who* dug to *what* was found.",
-     "Start by scanning the text for verb endings: count how many sentences end in \"है/थी/रहे\" vs \"गया/गई/गए\".",
-     "Then hunt for Sanskrit-derived compounds (तत्सम words) like \"पुरातात्त्विक\" — these signal academic authority."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।"
     ]
    },
    {
@@ -2053,16 +1940,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "A simile compares two things using \"like\" or \"as\" (e.g., \"the ruins *are like* a book\"); a metaphor states one thing *is* the other directly (e",
      "A literal question asks for information explicitly stated in the text (e.g., \"What is the length of the Great Bath?"
     ],
-    "hint": "Straight from the 'Literal comprehension involves' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses the two (e.g., treating an inference as a fact) reveals the student cannot distinguish explicit statements from implied meanings, leading to unsupported answers in board exams.",
     "id": "gen_c12_hin_v_ch03_q11",
     "nodeId": "c12_hin_v_cbse_03_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're an archaeologist examining a shard of pottery from Mohenjo-daro: the shard's color and material are literal facts you can see, but its",
-     "Similarly, when facing a comprehension question, first ask: \"Is the answer written plainly in the text (literal) or must I connect clues",
-     "For literal questions, quote the exact line.",
-     "For inferential questions, gather 2–3 pieces of evidence, explain how they connect, and state your conclusion."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय 'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का केंद्रीय भाव और संदेश।"
     ]
    },
    {
@@ -2111,10 +1995,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
     "nodeId": "c12_hin_v_cbse_03_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in the narrow lanes of an ancient Indian city where a 2,500-year-old temple wall touches a modern tea stall — you physically",
-     "That sensory experience is exactly what the author constructs through words in this chapter.",
-     "Begin by asking: \"What is the author trying to make me see about the relationship between past and present?",
-     "Next, trace how the author uses specific architectural details (the 33-foot wall, the observatory, the layered houses) as evidence for this tension."
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।"
     ]
    },
    {
@@ -2126,16 +2007,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "The protagonist is Fatehpur Sikri (eqvutks&nM+ks), introduced as India's and the world's most magnificent and awe-inspiring city",
      "The primary purpose of PEEL (Point, Evidence, Explanation, Link) is to ensure each paragraph presents a single clear argument supported by textual proof, explains its relevance"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to make the answer long\" reveals the student confuses length with logical structure and misses the examiners' expectation of analytical depth over mere narration.",
     "id": "gen_c12_hin_v_ch03_q13",
     "nodeId": "c12_hin_v_cbse_03_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked in the board exam: \"How does the author contrast the urban planning of Mohenjo-Daro with modern cities?",
-     "First, re-read the chapter marking passages about drainage, grid streets, and the author's comment on modern \"fxzM Iyku\".",
-     "Next, identify the author's tone — is it nostalgic, critical, or analytical?",
-     "Then, structure your answer: Point (author highlights superior planning), Evidence (quote the drainage system description and the \"fxzM Iyku\""
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।"
     ]
    },
    {
@@ -2147,16 +2025,13 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "1. Sight: \"टूटी-फूटी दीवारें, खंडहर\" (broken walls, ruins) — visual decay. 2. Sound: \"हवा की साँय-साँय\" (whistling of wind) — auditory emptiness",
      "The primary purpose is to assess the student's ability to articulate textual understanding orally, engage in evidence-based dialogue"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the ''वखत खि अगवत्स-नमकस और गालिब की' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to check if the student read the chapter\") reveals a misconception that speaking assessment tests recall rather than analytical conversation skills.",
     "id": "gen_c12_hin_v_ch03_q14",
     "nodeId": "c12_hin_v_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a tour guide at the *Mahakal* temple in Ujjain explaining the city's layered history to a group of Class 12 students.",
-     "What three aspects of the chapter would you highlight to show how Ujjain bridges ancient grandeur and modern decay?",
-     "Begin by identifying the chapter's central tension: the physical ruins (*bhure bawde*) versus the living culture (*lok jeevan*).",
-     "Next, select two concrete textual anchors — the description of the *Lakhauri* bricks in the *Mhos* haveli (stanza 4) and the *cSyxkM+h* (stepwell) as"
+     "'वखत खि अगवत्स-नमकस और गालिब की पूर्व' का वाचन कीजिए — फिर चर्चा में राय रखिए।"
     ]
    },
    {
@@ -2317,7 +2192,7 @@ export const C12_HIN_V_GEN: SimDef[] = [
      "Refute. The city *acts*: 1. \"यह नगर... अकबर को अपनी ओर खींचता है\" (the city draws Akbar to itself) — agency in choosing its master",
      "Evidence for \"le¼\": (1) Grid-like \"x<+\" (ridge) layout with distinct zones — administrative (Diwan-i-Aam/Khas), residential (palaces on ridge), religious (Jama Masjid)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Evidence for \"le¼\": (1) Grid-like \"x<+\" (ridge) layout with distinct zones — administrative (Diwan-i-Aam/Khas),",
     "id": "gen_c12_hin_v_ch03_q18",
     "nodeId": "c12_hin_v_cbse_03_001",
@@ -2326,11 +2201,11 @@ export const C12_HIN_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about अतीत में दबे पाँव — पृष्ठभूमि और रचनाकार परिचय?",
+    "What surprised you about 'वखत खि अगवत्स-नमकस और गालिब की?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "अतीत में दबे पाँव — पृष्ठभूमि mastered! 🎯",
+  "successLine": "'वखत खि अगवत्स-नमकस और गालिब mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

@@ -1107,12 +1107,12 @@ function C12_AccountancyComparativeStatementsMeaningSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <motion.div initial={{ x: -20 }} animate={{ x: 0 }} className="flex items-center gap-3">
-          <motion.span whileHover={{ rotate: 10 }} className="text-3xl p-2 bg-blue-900/40 rounded-2xl border border-blue-700/50">
+          <motion.span whileHover={{ rotate: 10 }} className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-blue-400 font-semibold">ISC Class 12 • Schedule III & AS-3 (Revised)</p>
+            <p className="text-xs text-gold-400 font-semibold">ISC Class 12 • Schedule III & AS-3 (Revised)</p>
           </div>
         </motion.div>
 
@@ -1123,7 +1123,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
             animate={{ scale: 1 }}
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-700' :
-              difficulty === 'standard' ? 'bg-blue-950 text-blue-400 border border-blue-700' :
+              difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-700' :
               'bg-purple-950 text-purple-400 border border-purple-700'
             }`}
           >
@@ -1148,15 +1148,15 @@ function C12_AccountancyComparativeStatementsMeaningSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-blue-950/60 to-slate-900 rounded-2xl border border-blue-800/60"
+              className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60"
             >
-              <h3 className="text-xl font-bold text-blue-300">{SCENARIO.title}</h3>
+              <h3 className="text-xl font-bold text-gold-300">{SCENARIO.title}</h3>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="text-xs text-blue-200 mt-3 p-3 bg-blue-900/30 rounded-xl border border-blue-700/40"
+                className="text-xs text-gold-200 mt-3 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40"
               >
                 ⚡ <strong>Forensic Challenge:</strong> {SCENARIO.context}
               </motion.p>
@@ -1208,7 +1208,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold shadow-lg shadow-blue-600/30 whitespace-nowrap"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1230,7 +1230,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
             className="space-y-6"
           >
             <motion.div initial={{ y: -10 }} animate={{ y: 0 }} className="flex items-center justify-between px-2">
-              <span className="text-xs font-mono text-blue-400 uppercase tracking-wider">
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-wider">
                 Station {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <div className="flex gap-1">
@@ -1239,7 +1239,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     key={i}
                     animate={{ width: i === currentSlide ? 32 : 12 }}
                     className={`h-1.5 rounded-full transition-all ${
-                      i === currentSlide ? 'bg-blue-500' : 'bg-slate-700'
+                      i === currentSlide ? 'bg-gold-500' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -1256,7 +1256,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
               >
                 <div>
                   <h3 className="text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                  <p className="text-sm text-blue-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+                  <p className="text-sm text-gold-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
 
                 {/* Station 0: Comparative Balance Sheet Horizontal Lab */}
@@ -1303,7 +1303,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Property, Plant & Equipment (Current Year)</span>
-                            <span className="font-mono text-blue-400">₹{currPPE} Cr (Base: ₹{basePPE} Cr)</span>
+                            <span className="font-mono text-gold-400">₹{currPPE} Cr (Base: ₹{basePPE} Cr)</span>
                           </div>
                           <input
                             type="range"
@@ -1312,7 +1312,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                             step={100}
                             value={currPPE}
                             onChange={(e) => setCurrPPE(Number(e.target.value))}
-                            className="w-full accent-blue-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                             aria-label="Set Current Year PPE"
                           />
                         </div>
@@ -1382,7 +1382,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                             <motion.tr initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                               <td className="p-2 text-slate-200">Non-Current Assets: PPE</td>
                               <td className="p-2">{basePPE}</td>
-                              <td className="p-2 text-blue-400">{currPPE}</td>
+                              <td className="p-2 text-gold-400">{currPPE}</td>
                               <td className={`p-2 ${ppeAbs >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>{ppeAbs >= 0 ? `+${ppeAbs}` : ppeAbs}</td>
                               <td className={`p-2 font-bold ${ppePct >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>{ppePct.toFixed(2)}%</td>
                             </motion.tr>
@@ -1405,12 +1405,12 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                               <td className="p-2">{baseTotal}</td>
                               <td className="p-2 text-white">{currTotal}</td>
                               <td className={`p-2 ${totalAbs >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>{totalAbs >= 0 ? `+${totalAbs}` : totalAbs}</td>
-                              <td className="p-2 text-blue-400">{totalPct.toFixed(2)}%</td>
+                              <td className="p-2 text-gold-400">{totalPct.toFixed(2)}%</td>
                             </motion.tr>
                           </tbody>
                         </table>
 
-                        <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="mt-4 p-3 bg-blue-950/40 rounded-xl border border-blue-800/40 text-xs text-slate-300">
+                        <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="mt-4 p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-slate-300">
                           💡 <strong>Golden Rule:</strong> % Change = <span className="font-mono text-amber-300">(Absolute Change ÷ Base Year) × 100</span>. Never divide by the current year figure!
                         </motion.div>
                       </motion.div>
@@ -1472,7 +1472,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     ) : (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-emerald-950/40 rounded-xl border border-emerald-700/40 flex items-center justify-between text-xs">
                         <span className="text-emerald-300">✓ Prediction recorded! Now test the Cost Ratios below.</span>
-                        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => setPredictionMade(false)} className="text-blue-400 underline">Change Prediction</motion.button>
+                        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => setPredictionMade(false)} className="text-gold-400 underline">Change Prediction</motion.button>
                       </motion.div>
                     )}
 
@@ -1548,7 +1548,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-3 font-mono text-xs">
                         <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 font-sans">Common Size Breakdown (% of Revenue from Operations)</h4>
 
-                        <div className="flex justify-between p-2 bg-blue-950/40 rounded-lg text-blue-300 font-bold">
+                        <div className="flex justify-between p-2 bg-gold-950/40 rounded-lg text-gold-300 font-bold">
                           <span>I. Revenue from Operations (BASE)</span>
                           <span>100.00% (₹{revenueBase} Cr)</span>
                         </div>
@@ -1587,7 +1587,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     {/* Observation hook */}
                     {!observationAnswered && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-900 border border-slate-800 rounded-2xl">
-                        <p className="text-xs font-bold text-blue-300 mb-2">🔍 What do you observe?</p>
+                        <p className="text-xs font-bold text-gold-300 mb-2">🔍 What do you observe?</p>
                         <p className="text-xs text-slate-300 mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1669,7 +1669,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                                   }}
                                   className={`flex-1 py-1 text-[10px] font-bold uppercase rounded-lg transition-all ${
                                     currentSelection === cat
-                                      ? cat === 'operating' ? 'bg-blue-600 text-white' :
+                                      ? cat === 'operating' ? 'bg-gold-600 text-white' :
                                         cat === 'investing' ? 'bg-emerald-600 text-white' :
                                         'bg-purple-600 text-white'
                                       : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
@@ -1709,7 +1709,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                           step={50}
                           value={netProfitInput}
                           onChange={(e) => setNetProfitInput(Number(e.target.value))}
-                          className="w-full accent-blue-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1797,7 +1797,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                         <span>-₹{gainOnSaleInput} Cr</span>
                       </div>
 
-                      <div className="flex justify-between p-2 bg-blue-950/40 rounded-lg text-blue-300 font-bold">
+                      <div className="flex justify-between p-2 bg-gold-950/40 rounded-lg text-gold-300 font-bold">
                         <span>Operating Profit before Working Capital</span>
                         <span>₹{opProfitBeforeWC} Cr</span>
                       </div>
@@ -1861,12 +1861,12 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                                 setCceChecked(prev => ({ ...prev, [item.key]: e.target.checked }));
                                 audioManager.play('tap');
                               }}
-                              className="mt-0.5 accent-blue-500 rounded"
+                              className="mt-0.5 accent-gold-500 rounded"
                             />
                             <div className="flex-1">
                               <div className="flex justify-between font-semibold text-slate-200">
                                 <span>{item.label}</span>
-                                <span className="font-mono text-blue-400">{item.amount}</span>
+                                <span className="font-mono text-gold-400">{item.amount}</span>
                               </div>
                               {item.reason && (
                                 <p className="text-[10px] text-amber-400/80 mt-0.5">{item.reason}</p>
@@ -1888,7 +1888,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                         </div>
 
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2">
-                          <div className="text-blue-300 font-bold">✓ AS-3 Bright Line Rules:</div>
+                          <div className="text-gold-300 font-bold">✓ AS-3 Bright Line Rules:</div>
                           <p className="text-slate-300">• Original maturity at investment date must be ≤ 3 months (90 days).</p>
                           <p className="text-slate-300">• Bank overdraft is NOT negative cash; it is a financing loan.</p>
                           <p className="text-slate-300">• Restricted escrow cash is excluded and reported in notes.</p>
@@ -1913,7 +1913,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextSlide}
-                    className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-blue-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                   >
                     {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Station →' : 'Enter Free Sandbox →'}
                   </motion.button>
@@ -1968,12 +1968,12 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                   }}
                   className={`p-4 rounded-2xl text-left border transition-all ${
                     sandboxCompany === corp.key
-                      ? 'bg-blue-950/80 border-blue-500 shadow-lg shadow-blue-500/20'
+                      ? 'bg-gold-950/80 border-gold-500 shadow-lg shadow-gold-500/20'
                       : 'bg-slate-900 border-slate-800 hover:bg-slate-850 text-slate-400'
                   }`}
                 >
                   <div className="text-xs font-bold text-white">{corp.label}</div>
-                  <div className="text-[11px] text-blue-400 font-mono mt-1">Total Assets: ₹{corp.assets.toLocaleString()} Cr</div>
+                  <div className="text-[11px] text-gold-400 font-mono mt-1">Total Assets: ₹{corp.assets.toLocaleString()} Cr</div>
                   <div className="text-[10px] text-slate-400 mt-0.5">Benchmark Debt Ratio: {corp.debt}%</div>
                 </motion.button>
               ))}
@@ -2004,7 +2004,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.03 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                   <span className="text-slate-400 block text-[10px]">FINANCIAL RISK INDEX</span>
-                  <span className={`font-bold text-sm ${sandboxDebtLeverage > 50 ? 'text-rose-400' : 'text-blue-400'}`}>
+                  <span className={`font-bold text-sm ${sandboxDebtLeverage > 50 ? 'text-rose-400' : 'text-gold-400'}`}>
                     {sandboxDebtLeverage > 50 ? 'HIGH LEVERAGE' : 'BALANCED'}
                   </span>
                 </motion.div>
@@ -2027,7 +2027,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
             {/* Progress Header & Live Canvas */}
             <motion.div initial={{ y: -10 }} animate={{ y: 0 }} className="space-y-2">
               <div className="flex items-center justify-between text-xs">
-                <span className="font-mono text-blue-400 font-bold">
+                <span className="font-mono text-gold-400 font-bold">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-slate-400">
@@ -2038,7 +2038,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
               <canvas ref={canvasRef} width={600} height={30} className="w-full h-8 bg-slate-900 rounded-xl border border-slate-800" />
             </motion.div>
 
-            <div className="text-xs text-indigo-300">
+            <div className="text-xs text-gold-300">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -2096,7 +2096,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                       >
                         :: {item.label}
                       </motion.div>
@@ -2117,8 +2117,8 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                         whileHover={{ scale: 1.02 }}
                         className={`p-4 rounded-2xl border-2 border-dashed flex flex-col justify-center min-h-[90px] transition-all ${
                           droppedLabels[target.id]
-                            ? 'bg-blue-950/60 border-blue-500 text-blue-200'
-                            : 'bg-slate-950 border-slate-700 text-slate-400 hover:border-blue-400'
+                            ? 'bg-gold-950/60 border-gold-500 text-gold-200'
+                            : 'bg-slate-950 border-slate-700 text-slate-400 hover:border-gold-400'
                         }`}
                       >
                         <span className="text-xs font-bold text-slate-300">{target.title}</span>
@@ -2133,7 +2133,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="mt-4 px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                    className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Verify Diagram Labels
                   </motion.button>
@@ -2160,7 +2160,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                       whileHover={{ scale: 1.02, x: 2 }}
                       className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-1 bg-blue-900/60 text-blue-300 rounded-lg font-mono font-bold">{idx + 1}</span>
+                      <span className="px-2 py-1 bg-gold-900/60 text-gold-300 rounded-lg font-mono font-bold">{idx + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2170,7 +2170,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="mt-2 px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                    className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Verify Sequence Order
                   </motion.button>
@@ -2186,7 +2186,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter calculated value"
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm w-64 focus:outline-none focus:border-blue-500"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-slate-400 font-mono text-sm font-bold">{challenge.unit}</span>
                     <motion.button
@@ -2194,7 +2194,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-2xl font-bold text-xs"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs"
                     >
                       Submit Calculation
                     </motion.button>
@@ -2275,7 +2275,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
             <motion.div
               initial={{ y: 20 }}
               animate={{ y: 0 }}
-              className="p-8 bg-gradient-to-br from-blue-950 via-slate-900 to-emerald-950/60 rounded-3xl border border-blue-800 space-y-4 text-center"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950/60 rounded-3xl border border-gold-800 space-y-4 text-center"
             >
               <h2 className="text-3xl font-black text-white">Board Audit Complete!</h2>
 
@@ -2288,7 +2288,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                   errors === 0
                     ? 'bg-emerald-900/60 border border-emerald-500 text-emerald-300'
                     : errors <= 3
-                    ? 'bg-blue-900/60 border border-blue-500 text-blue-300'
+                    ? 'bg-gold-900/60 border border-gold-500 text-gold-300'
                     : errors <= 7
                     ? 'bg-amber-900/60 border border-amber-500 text-amber-300'
                     : 'bg-rose-900/60 border border-rose-500 text-rose-300'
@@ -2311,7 +2311,7 @@ function C12_AccountancyComparativeStatementsMeaningSim({
                 <div className="h-8 w-px bg-slate-700" />
                 <motion.div whileHover={{ scale: 1.05 }} className="text-left">
                   <span className="text-xs text-slate-400 block uppercase">AS-3 Mastery</span>
-                  <span className="text-2xl font-bold text-blue-400 uppercase">{masteryLevel}</span>
+                  <span className="text-2xl font-bold text-gold-400 uppercase">{masteryLevel}</span>
                 </motion.div>
               </div>
 
@@ -2375,14 +2375,14 @@ function C12_AccountancyComparativeStatementsMeaningSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-blue-950/40 rounded-3xl border border-blue-800 space-y-3"
+              className="p-6 bg-gold-950/40 rounded-3xl border border-gold-800 space-y-3"
             >
-              <h3 className="text-base font-bold text-blue-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <motion.li key={i} whileHover={{ x: 4 }} className="text-xs text-slate-400 flex items-start gap-2">
-                    <span className="font-mono text-blue-400 font-bold">{i + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{i + 1}.</span>
                     <span>{step}</span>
                   </motion.li>
                 ))}

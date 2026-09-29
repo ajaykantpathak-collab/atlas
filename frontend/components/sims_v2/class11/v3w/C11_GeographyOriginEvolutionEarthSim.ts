@@ -11,7 +11,7 @@ export const w_c11_geographyoriginevolutionearthsim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Evolution of the Atmosphere: Primordial vs Present Atmosphere',
     chapters: [],
     nodeIds: ['c11_geo_cbse_02_006', 'c11_geo_cbse_02_007', 'c11_geo_cbse_02_008', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_02_002', 'c11_geo_cbse_02_004', 'c11_geo_cbse_02_005', 'c11_geo_cbse_02_009', 'c11_geo_cbse_07_009', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_001', 'c11_geo_cbse_01_002', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe the air around you right now — invisible, odourless, yet precisely 21% oxygen that allows you to.', goal: 'Master Evolution of the Atmosphere: Primordial vs Present Atmosphere.' },
     discovery: {
         question: 'Explain why the primordial atmosphere\'s hydrogen and helium escaped to space, while nitrogen and carbon dioxide were retained, using the concepts of molecular.',
@@ -20,7 +20,7 @@ export const w_c11_geographyoriginevolutionearthsim: SimDef = {
         hook: 'Students often believe oxygen appeared suddenly and uniformly across the planet at the GOE (2.4 Ga).',
     },
     teaching: [
-        { title: 'The evolution of Earth\'s atmosphere refers.', text: 'The evolution of Earth\'s atmosphere refers to the multi-stage process by which the gaseous envelope surrounding Earth transformed from a primordial composition dominated by hydrogen, helium, methane,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The evolution of Earth\'s atmosphere refers.', text: 'The evolution of Earth\'s atmosphere refers to the multi-stage process by which the gaseous envelope surrounding Earth transformed from a primordial composition dominated by hydrogen, helium, methane,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_02_006', title: 'The evolution of Earth\'s atmosphere.',

@@ -11,7 +11,7 @@ export const w_c11_biologytaxonomyclassificationspeciessim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Viruses and Viroids',
     chapters: [],
     nodeIds: ['c11_bio_cbse_02_009', 'c11_bio_cbse_01_004', 'c11_bio_cbse_03_007', 'c11_bio_cbse_02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Think about the last time you had a common cold or flu — you felt sick, but the doctor said antibiotics won\'t.', goal: 'Master Viruses and Viroids.' },
     discovery: {
         question: 'You discover a new flowering plant in the Western Ghats with these traits: vascular tissue present, seeds enclosed in ovary, two cotyledons, reticulate leaf.',
@@ -20,7 +20,7 @@ export const w_c11_biologytaxonomyclassificationspeciessim: SimDef = {
         hook: 'Students believe classification is primarily about "arranging organisms into neat boxes" based on overall similarity.',
     },
     teaching: [
-        { title: 'Viruses are non-cellular, obligate.', text: 'Viruses are non-cellular, obligate intracellular parasites consisting of a nucleic acid core (either DNA or RNA, never both) enclosed in a protein coat called a capsid made of capsomeres; they are.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Viruses are non-cellular, obligate.', text: 'Viruses are non-cellular, obligate intracellular parasites consisting of a nucleic acid core (either DNA or RNA, never both) enclosed in a protein coat called a capsid made of capsomeres; they are.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_02_009', title: 'Viruses are non-cellular, obligate.',

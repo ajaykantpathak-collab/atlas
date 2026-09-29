@@ -1164,7 +1164,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="relative z-10 space-y-6">
-          <div className="p-5 sm:p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-500/30">
+          <div className="p-5 sm:p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-500/30">
             <h2 className="text-xl font-bold text-amber-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-amber-400/80 mt-3 font-mono">Archive Objective: {SCENARIO.context}</p>
@@ -1172,7 +1172,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-bold rounded-lg uppercase">Curiosity Hook</span>
+              <span className="px-2.5 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-lg uppercase">Curiosity Hook</span>
               <h3 className="text-base font-semibold text-white">{DISCOVERY_QUESTION.question}</h3>
             </div>
 
@@ -1254,15 +1254,15 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
               {currentSlide === 0 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 bg-slate-950 p-4 sm:p-5 rounded-2xl border border-slate-800">
                   {/* Left: Alauddin Khalji */}
-                  <div className="space-y-3 bg-slate-900/70 p-4 rounded-xl border border-indigo-900/40">
+                  <div className="space-y-3 bg-slate-900/70 p-4 rounded-xl border border-gold-900/40">
                     <div className="flex items-center justify-between">
-                      <h4 className="text-sm font-bold text-indigo-300">Alauddin Khalji (1296–1316)</h4>
-                      <span className="text-xs px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded font-mono">Zabt & Mandi System</span>
+                      <h4 className="text-sm font-bold text-gold-300">Alauddin Khalji (1296–1316)</h4>
+                      <span className="text-xs px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded font-mono">Zabt & Mandi System</span>
                     </div>
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <label htmlFor="khaljiTaxInput">Direct Land Tax (Zabt): {khaljiTax}%</label>
-                        <span className="text-indigo-400 font-bold">50% Historical Standard</span>
+                        <span className="text-gold-400 font-bold">50% Historical Standard</span>
                       </div>
                       <input
                         id="khaljiTaxInput"
@@ -1272,7 +1272,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                         value={khaljiTax}
                         aria-label="Direct Land Tax percentage for Alauddin Khalji"
                         onChange={e => setKhaljiTax(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -1288,7 +1288,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                         value={khaljiPriceControl}
                         aria-label="Price control strictness for Alauddin Khalji"
                         onChange={e => setKhaljiPriceControl(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1">
@@ -1479,7 +1479,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                     <div className="pt-2 border-t border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <label htmlFor="arcuateLoadInput">Structural Load Channeling: {arcuateLoad}%</label>
-                        <span className="text-cyan-400">Pure Arcuate Efficiency</span>
+                        <span className="text-gold-400">Pure Arcuate Efficiency</span>
                       </div>
                       <input
                         id="arcuateLoadInput"
@@ -1489,7 +1489,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                         value={arcuateLoad}
                         aria-label="Structural load channeling slider"
                         onChange={e => setArcuateLoad(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1500,8 +1500,8 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
               {currentSlide === 2 && (
                 <div className="space-y-4 bg-slate-950 p-4 rounded-2xl border border-slate-800">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                    <div className="p-3 bg-slate-900 rounded-xl border border-indigo-900/50">
-                      <h4 className="text-xs font-bold text-indigo-400">Bahamani Kingdom (1347 CE)</h4>
+                    <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/50">
+                      <h4 className="text-xs font-bold text-gold-400">Bahamani Kingdom (1347 CE)</h4>
                       <p className="text-[11px] text-slate-300 mt-1">Founder: Ala-ud-Din Hasan Bahman Shah. Capitals: Gulbarga → Bidar. Wazir Mahmud Gawan reformed land measurement and built the 276-room Madrasa.</p>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-amber-900/50">
@@ -1517,7 +1517,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                   {/* Interactive Map Visualisation */}
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs text-indigo-300 font-bold">Bahamani Influence: {100 - doabControl}%</span>
+                      <span className="text-xs text-gold-300 font-bold">Bahamani Influence: {100 - doabControl}%</span>
                       <span className="text-xs text-amber-300 font-extrabold uppercase">Krishna-Tungabhadra Frontier</span>
                       <span className="text-xs text-emerald-300 font-bold">Vijayanagar Influence: {doabControl}%</span>
                     </div>
@@ -1673,7 +1673,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                           <div>
                             <div className="flex justify-between text-[11px] text-slate-400">
                               <label htmlFor="tulghamaAngleInput">Tulghama Flanking Encirclement: {tulghamaFlankAngle}°</label>
-                              <span className="text-cyan-400">Envelopes Enemy Flanks</span>
+                              <span className="text-gold-400">Envelopes Enemy Flanks</span>
                             </div>
                             <input
                               id="tulghamaAngleInput"
@@ -1683,7 +1683,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                               value={tulghamaFlankAngle}
                               aria-label="Tulghama flanking encirclement angle slider"
                               onChange={e => setTulghamaFlankAngle(Number(e.target.value))}
-                              className="w-full accent-cyan-500 cursor-pointer"
+                              className="w-full accent-gold-500 cursor-pointer"
                             />
                           </div>
                         </div>
@@ -1726,7 +1726,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
                 aria-label="Go to next lab"
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
               >
                 Next Lab →
               </motion.button>
@@ -1748,8 +1748,8 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
       {/* ─── PHASE 3: FREE PLAY SANDBOX MODE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="relative z-10 space-y-4">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/40 via-slate-900 to-amber-950/40 rounded-2xl border border-indigo-500/30">
-            <h3 className="text-base font-bold text-indigo-300">Open Sandbox Lab: Free Historical Experimentation</h3>
+          <div className="p-5 bg-gradient-to-r from-gold-950/40 via-slate-900 to-amber-950/40 rounded-2xl border border-gold-500/30">
+            <h3 className="text-base font-bold text-gold-300">Open Sandbox Lab: Free Historical Experimentation</h3>
             <p className="text-xs text-slate-300 mt-1 leading-relaxed">
               Explore parameters without grading or time limits. Test how price control thresholds affect army supply or simulate alternate artillery deployments at Panipat.
             </p>
@@ -1781,7 +1781,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                   value={khaljiPriceControl}
                   aria-label="Sandbox Market Price Regulation"
                   onChange={e => setKhaljiPriceControl(Number(e.target.value))}
-                  className="w-full accent-indigo-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1793,7 +1793,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
             </div>
 
             <div className="space-y-3">
-              <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Panipat Combat Odds Engine</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Panipat Combat Odds Engine</h4>
               <div>
                 <label htmlFor="sandboxArtillery" className="text-xs text-slate-400 block mb-1">Artillery Readiness (Ustad Ali Quli): {artilleryReadiness}%</label>
                 <input
@@ -1804,7 +1804,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                   value={artilleryReadiness}
                   aria-label="Sandbox Artillery Readiness"
                   onChange={e => setArtilleryReadiness(Number(e.target.value))}
-                  className="w-full accent-cyan-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div>
@@ -1822,7 +1822,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Predicted Battle Duration: </span>
-                <span className="text-xs font-bold text-cyan-300">
+                <span className="text-xs font-bold text-gold-300">
                   {artilleryReadiness > 80 ? '✓ Under 5 Hours (Mughal Triumph)' : '⚠️ Prolonged Attrition Combat'}
                 </span>
               </div>
@@ -1856,7 +1856,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                 animate={{ scale: 1 }}
                 className={`text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full ${
                   difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' :
-                  difficulty === 'standard' ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30' :
+                  difficulty === 'standard' ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30' :
                   'bg-rose-500/20 text-rose-300 border border-rose-500/30'
                 }`}
               >
@@ -1938,7 +1938,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1981,7 +1981,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Verify Architecture Labels"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Architecture Labels
                 </motion.button>
@@ -2045,7 +2045,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Confirm Chronological Sequence"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Confirm Chronology
                 </motion.button>
@@ -2071,7 +2071,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Check numeric calculation"
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Check Calculation
                   </motion.button>
@@ -2100,7 +2100,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[56px] flex flex-wrap gap-2 items-center" role="region" aria-label="Constructed formation sequence">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-600 text-white text-xs rounded-md flex items-center gap-1 font-semibold">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-600 text-white text-xs rounded-md flex items-center gap-1 font-semibold">
                       {part}
                       <button
                         type="button"
@@ -2121,7 +2121,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Constructed Formation"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Formation
                 </motion.button>
@@ -2179,7 +2179,7 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
       {/* ─── PHASE 5: COMPLETION & METACOGNITION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="relative z-10 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border border-emerald-500/40 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/50 via-slate-900 to-gold-950/50 rounded-2xl border border-emerald-500/40 text-center space-y-3">
             <h2 className="text-2xl font-black text-white">Historical Evaluation Complete!</h2>
 
             {/* Motivational Feedback Banner */}
@@ -2244,8 +2244,8 @@ function C7_HistoryCivicsComparativeStudyKhaljisSim({
           )}
 
           {/* Metacognitive Reflection Prompts */}
-          <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-2">
-            <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Self-Reflection & Board Inquiry</h4>
+          <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-2">
+            <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Self-Reflection & Board Inquiry</h4>
             <ul className="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
               <li>Why is administrative execution more crucial to imperial longevity than intellectual ambition?</li>
               <li>How does the Indo-Islamic synthesis at Hampi’s Lotus Mahal challenge simplistic "clash of civilisations" narratives?</li>

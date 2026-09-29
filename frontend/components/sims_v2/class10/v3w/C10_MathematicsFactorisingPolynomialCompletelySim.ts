@@ -11,7 +11,7 @@ export const w_c10_mathematicsfactorisingpolynomialcompletelysim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Finding Zeros of a Polynomial Using Division Algorithm',
     chapters: [],
     nodeIds: ['c10_math_cbse_02_009', 'c10_math_cbse_02_010', 'c10_math_cbse_02_005', 'c10_math_cbse_02_007', 'c10_math_cbse_01_012', 'c10_math_cbse_02_001', 'c10_math_cbse_02_002', 'c10_math_cbse_02_003', 'c10_math_cbse_02_004', 'c10_math_cbse_02_006', 'c10_math_cbse_02_008', 'c10_math_cbse_02_011', 'c10_math_cbse_01_006', 'c10_math_cbse_01_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a rectangular garden bed where the length is 2 metres more than the breadth, and a.', goal: 'Master Finding Zeros of a Polynomial Using Division Algorithm.' },
     discovery: {
         question: 'Compare the Division Algorithm for integers and polynomials. Identify two structural similarities and one key difference in how "size" is measured.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsfactorisingpolynomialcompletelysim: SimDef = {
         hook: 'Students treat the Division Algorithm as a computational procedure (long division steps) rather than a structural.',
     },
     teaching: [
-        { title: 'The Division Algorithm for polynomials.', text: 'The Division Algorithm for polynomials states that for any polynomials \\(p(x)\\) and \\(g(x)\\) with \\(g(x) \\neq 0\\), there exist unique polynomials \\(q(x)\\) (quotient) and \\(r(x)\\) (remainder) such.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Division Algorithm for polynomials.', text: 'The Division Algorithm for polynomials states that for any polynomials \\(p(x)\\) and \\(g(x)\\) with \\(g(x) \\neq 0\\), there exist unique polynomials \\(q(x)\\) (quotient) and \\(r(x)\\) (remainder) such.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_02_009', title: 'The Division Algorithm for polynomials.',

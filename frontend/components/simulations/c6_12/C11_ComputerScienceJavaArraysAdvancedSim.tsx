@@ -1359,14 +1359,14 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
             aria-label="Computer Science Icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest font-bold px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
+              <span className="text-xs uppercase tracking-widest font-bold px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 ISC Class 11
               </span>
               <span className="text-xs text-slate-400 font-mono">10 Nodes Capstone</span>
@@ -1389,7 +1389,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
               aria-label={`Switch to ${p} phase`}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1412,15 +1412,15 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 border border-indigo-800/50 shadow-xl"
+            className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 border border-gold-800/50 shadow-xl"
           >
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm tracking-wide uppercase mb-2">
-              <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wide uppercase mb-2">
+              <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
               Mission Briefing
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-slate-950/60 rounded-xl border border-slate-800 text-xs sm:text-sm text-indigo-200 font-mono">
+            <div className="mt-4 p-3.5 bg-slate-950/60 rounded-xl border border-slate-800 text-xs sm:text-sm text-gold-200 font-mono">
               ⚡ {SCENARIO.context}
             </div>
           </motion.div>
@@ -1446,10 +1446,10 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                   {discoveryAnswered && (
                     <span className="mr-1.5 font-bold">
                       {i === DISCOVERY_QUESTION.correctIndex ? '✓' : '✗'}
@@ -1482,7 +1482,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Visual Labs"
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Visual Labs →
                 </motion.button>
@@ -1504,7 +1504,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           {/* Lab Step Controller */}
           <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg sm:text-xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1532,7 +1532,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   }
                 }}
                 aria-label="Next Interactive Lab or Launch Sandbox"
-                className="px-4 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-4 py-1.5 rounded-xl bg-gold-600 text-white text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Lab →' : 'Launch Sandbox 🚀'}
               </motion.button>
@@ -1551,7 +1551,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-mono text-indigo-400">Memory Diagram: Student[] students = new Student[5];</span>
+                <span className="text-xs font-mono text-gold-400">Memory Diagram: Student[] students = new Student[5];</span>
                 <span className="text-xs text-slate-400 font-mono">
                   Allocated Objects: {allocatedSlots.filter(Boolean).length} / 5
                 </span>
@@ -1618,7 +1618,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
               {/* Code Walkthrough Terminal */}
               <div className="p-4 bg-slate-950 rounded-xl font-mono text-xs text-slate-300 border border-slate-800">
-                <p className="text-indigo-400">// Java Code Representation</p>
+                <p className="text-gold-400">// Java Code Representation</p>
                 <p>Student[] students = new Student[5]; <span className="text-slate-500">// Step 1: Allocates 5 null slots</span></p>
                 {allocatedSlots.map((isAlloc, idx) =>
                   isAlloc ? (
@@ -1666,7 +1666,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {/* Matrix A Box */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                  <h4 className="text-xs font-mono text-indigo-400 font-bold mb-2">Matrix A (2 × 3)</h4>
+                  <h4 className="text-xs font-mono text-gold-400 font-bold mb-2">Matrix A (2 × 3)</h4>
                   <div className="grid grid-cols-3 gap-2 text-center font-mono text-sm">
                     {[[2, 4, 1], [3, 1, 5]].map((row, r) =>
                       row.map((val, c) => (
@@ -1674,7 +1674,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                           key={`${r}-${c}`}
                           className={`p-2 rounded border ${
                             activeMatrixCell?.r === r
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1687,7 +1687,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
                 {/* Matrix B Box */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                  <h4 className="text-xs font-mono text-indigo-400 font-bold mb-2">Matrix B (3 × 2)</h4>
+                  <h4 className="text-xs font-mono text-gold-400 font-bold mb-2">Matrix B (3 × 2)</h4>
                   <div className="grid grid-cols-2 gap-2 text-center font-mono text-sm">
                     {[[1, 2], [3, 0], [4, 1]].map((row, r) =>
                       row.map((val, c) => (
@@ -1738,7 +1738,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
               {/* Dot Product Calculation Formula Bar */}
               {activeMatrixCell && (
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 font-mono text-xs sm:text-sm text-indigo-200">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 font-mono text-xs sm:text-sm text-gold-200">
                   <span className="font-bold text-amber-300">Dot-Product Trace for C[{activeMatrixCell.r}][{activeMatrixCell.c}]:</span>
                   <p className="mt-1">
                     sum = A[{activeMatrixCell.r}][0]*B[0][{activeMatrixCell.c}] + A[{activeMatrixCell.r}][1]*B[1][{activeMatrixCell.c}] + A[{activeMatrixCell.r}][2]*B[2][{activeMatrixCell.c}]
@@ -1776,7 +1776,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                         audioManager.play('tap');
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase ${
-                        sortingAlgorithm === alg ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        sortingAlgorithm === alg ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {alg} Sort
@@ -1799,7 +1799,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleBinarySearchStep}
                     aria-label={`Binary search for key ${searchKey}`}
-                    className="px-4 py-1.5 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Binary Search (Key: {searchKey})
                   </motion.button>
@@ -1816,7 +1816,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                 <div className="p-2 bg-slate-950 rounded border border-slate-800 text-slate-300">
                   Pass: {sortPass}
                 </div>
-                <div className="p-2 bg-slate-950 rounded border border-slate-800 text-sky-400">
+                <div className="p-2 bg-slate-950 rounded border border-slate-800 text-gold-400">
                   Low: {binarySearchLow}
                 </div>
                 <div className="p-2 bg-slate-950 rounded border border-slate-800 text-emerald-400">
@@ -1851,8 +1851,8 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
               {/* Predict-then-Check embedded hook */}
               {!predictionMade ? (
-                <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800">
-                  <p className="text-sm font-bold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800">
+                  <p className="text-sm font-bold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                       <motion.button
@@ -1861,7 +1861,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handlePrediction(i)}
                         aria-label={`Prediction option ${i + 1}: ${opt}`}
-                        className="p-2.5 bg-slate-900 rounded-lg text-left text-xs text-slate-300 border border-slate-800 hover:border-indigo-500"
+                        className="p-2.5 bg-slate-900 rounded-lg text-left text-xs text-slate-300 border border-slate-800 hover:border-gold-500"
                       >
                         {opt}
                       </motion.button>
@@ -1880,7 +1880,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleStringAppend(suf)}
                     aria-label={`Append suffix ${suf}`}
-                    className="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-indigo-300 text-xs font-mono font-bold rounded-lg border border-slate-700"
+                    className="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-gold-300 text-xs font-mono font-bold rounded-lg border border-slate-700"
                   >
                     +{suf}
                   </motion.button>
@@ -1956,7 +1956,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
               <div className="flex items-center justify-between">
                 <div>
-                  <h3 className="text-sm font-mono font-bold text-indigo-400">Recursion Trace: int fact(int n)</h3>
+                  <h3 className="text-sm font-mono font-bold text-gold-400">Recursion Trace: int fact(int n)</h3>
                   <p className="text-xs text-slate-400">Base case: if (n == 0) return 1; else return n * fact(n - 1);</p>
                 </div>
                 <motion.button
@@ -1965,7 +1965,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   onClick={handleRecursionStep}
                   disabled={recursionFinished}
                   aria-label="Step Recursion Activation Frame"
-                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   {recursionFinished ? 'Stack Unwound ✓' : `Step Recursion Frame (${recursionStep})`}
                 </motion.button>
@@ -1981,7 +1981,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                       key={i}
                       initial={{ opacity: 0, scale: 0.8, y: -20 }}
                       animate={{ opacity: 1, scale: 1, y: 0 }}
-                      className="w-full max-w-md p-2.5 rounded-lg bg-indigo-950 border border-indigo-600/60 flex items-center justify-between text-xs font-mono text-indigo-200 shadow-md"
+                      className="w-full max-w-md p-2.5 rounded-lg bg-gold-950 border border-gold-600/60 flex items-center justify-between text-xs font-mono text-gold-200 shadow-md"
                     >
                       <span className="font-bold text-white">Stack Frame #{callStackFrames.length - i}: fact({frame.n})</span>
                       <span className="text-amber-400">
@@ -2026,13 +2026,13 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Math Class Trigonometry & Rounding Sandbox */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider font-mono">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider font-mono">
                 Math Class Engine (c11_cs_027)
               </h3>
               <div>
                 <div className="flex justify-between text-xs font-mono text-slate-300 mb-1">
                   <span>Trigonometric Angle: {sandboxAngleDeg}°</span>
-                  <span className="text-indigo-400">Radians: {(sandboxAngleDeg * Math.PI / 180).toFixed(4)}</span>
+                  <span className="text-gold-400">Radians: {(sandboxAngleDeg * Math.PI / 180).toFixed(4)}</span>
                 </div>
                 <input
                   type="range"
@@ -2041,7 +2041,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   value={sandboxAngleDeg}
                   onChange={(e) => setSandboxAngleDeg(Number(e.target.value))}
                   aria-label="Trigonometric angle in degrees"
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="grid grid-cols-3 gap-2 mt-2 font-mono text-xs text-center">
                   <div className="p-2 bg-slate-950 rounded border border-slate-800">
@@ -2086,7 +2086,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
             {/* Custom Exception Simulator Sandbox */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider font-mono">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider font-mono">
                 Custom Exception Handler (c11_cs_028 & c11_cs_029)
               </h3>
               <div className="space-y-2">
@@ -2149,12 +2149,12 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                 <span className="text-xs font-bold text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-xs px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-300 font-mono">
+                <span className="text-xs px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 font-mono">
                   Competency: {challenge.competencyLevel}
                 </span>
               </div>
               <h2 className="text-base sm:text-lg font-bold text-white mt-0.5">
-                Node Focus: <span className="font-mono text-indigo-400">{challenge.nodeId}</span>
+                Node Focus: <span className="font-mono text-gold-400">{challenge.nodeId}</span>
               </h2>
             </div>
 
@@ -2167,7 +2167,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                   : difficulty === 'standard'
-                  ? 'bg-sky-500/20 text-sky-400 border border-sky-500/30'
+                  ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                   : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
               }`}
             >
@@ -2178,7 +2178,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2209,10 +2209,10 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                           ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                           : showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-400 text-emerald-100 shadow-lg'
-                          : 'bg-slate-800/80 hover:bg-slate-800 text-slate-200 border-slate-700 hover:border-indigo-500'
+                          : 'bg-slate-800/80 hover:bg-slate-800 text-slate-200 border-slate-700 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                      <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                       {showExplanation && (
                         <span className="mr-2 font-bold">
                           {i === challenge.correctIndex ? '✓' : '✗'}
@@ -2238,7 +2238,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-mono font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-mono font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2272,7 +2272,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify Architecture Labels"
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify Architecture Labels
                 </motion.button>
@@ -2320,7 +2320,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                     )
                   }
                   aria-label="Check Pass Order"
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Check Pass Order
                 </motion.button>
@@ -2337,7 +2337,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated integer"
                     aria-label="Calculated integer answer"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl font-mono text-sm text-white focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl font-mono text-sm text-white focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs font-mono text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2345,7 +2345,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     aria-label="Submit numeric answer"
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-md"
+                    className="px-6 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-md"
                   >
                     Submit Answer
                   </motion.button>
@@ -2365,7 +2365,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add code block part: ${part}`}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-lg text-xs font-mono border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-mono border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2378,7 +2378,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700/60 rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-700/60 rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2398,7 +2398,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Verify Code Structure"
-                  className="px-6 py-2 bg-indigo-600 disabled:opacity-50 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 disabled:opacity-50 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify Code Structure
                 </motion.button>
@@ -2475,7 +2475,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           className="space-y-6"
         >
           {/* Mastery Banner */}
-          <div className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-indigo-950 rounded-2xl border border-emerald-800/60 text-center space-y-2">
+          <div className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-gold-950 rounded-2xl border border-emerald-800/60 text-center space-y-2">
             <h2 className="text-2xl sm:text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-emerald-400 font-mono text-sm font-bold">
               Final Accuracy Score: {Math.max(0, 100 - errors * 5)}% • BKT Level: {masteryLevel.toUpperCase()}
@@ -2492,13 +2492,13 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD (SRS) ─── */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-500/40 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-500/40 shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+              <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
                 <span className="text-xl">📅</span>
                 <span>Spaced Repetition Schedule (SM-2 Learning System)</span>
               </div>
-              <span className="text-xs px-2.5 py-1 rounded-full bg-indigo-900/80 text-indigo-200 border border-indigo-700 font-mono font-semibold">
+              <span className="text-xs px-2.5 py-1 rounded-full bg-gold-900/80 text-gold-200 border border-gold-700 font-mono font-semibold">
                 {errors === 0 ? 'Optimal Retention' : errors <= 3 ? 'Review Soon' : 'Needs Quick Reinforcement'}
               </span>
             </div>
@@ -2520,7 +2520,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                 </p>
               </div>
 
-              <div className="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-800 gap-1 text-xs font-mono text-indigo-300">
+              <div className="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0 border-t sm:border-t-0 border-slate-800 gap-1 text-xs font-mono text-gold-300">
                 <span className="text-slate-500">Next SRS Interval:</span>
                 <span className="text-emerald-400 font-bold text-sm">
                   {errors === 0 ? '+7 Days' : errors <= 3 ? '+3 Days' : '+1 Day'}
@@ -2530,7 +2530,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
           </div>
 
           {/* ─── GUIDED REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
             <h3 className="text-lg font-bold text-white flex items-center gap-2">
               <span>💭</span> Key Learning Reflections
             </h3>
@@ -2540,7 +2540,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
 
             <div className="space-y-4">
               <div className="space-y-1.5">
-                <label htmlFor="reflection-1" className="text-xs font-semibold text-indigo-300">
+                <label htmlFor="reflection-1" className="text-xs font-semibold text-gold-300">
                   1. What was the most surprising thing you learned about Java memory and object arrays?
                 </label>
                 <textarea
@@ -2550,12 +2550,12 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   placeholder="e.g., How Student[] creates null references instead of objects initially..."
                   aria-label="Reflection on most surprising concept"
                   rows={2}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label htmlFor="reflection-2" className="text-xs font-semibold text-indigo-300">
+                <label htmlFor="reflection-2" className="text-xs font-semibold text-gold-300">
                   2. How would you explain the difference between String and StringBuffer to a friend?
                 </label>
                 <textarea
@@ -2565,12 +2565,12 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   placeholder="e.g., String is like an engraved stone, while StringBuffer is an erasable chalkboard..."
                   aria-label="Reflection on explaining concepts to a friend"
                   rows={2}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label htmlFor="reflection-3" className="text-xs font-semibold text-indigo-300">
+                <label htmlFor="reflection-3" className="text-xs font-semibold text-gold-300">
                   3. Where in real life might you use matrix multiplication, sorting, or custom exceptions?
                 </label>
                 <textarea
@@ -2580,7 +2580,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
                   placeholder="e.g., CISCE board result rank processing, banking validation, 3D graphics..."
                   aria-label="Reflection on real-world application"
                   rows={2}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2616,7 +2616,7 @@ function C11_ComputerScienceJavaArraysAdvancedSim({
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 text-xs text-slate-300 font-mono">
-                  <span className="text-indigo-400 font-bold mr-2">[{i + 1}]</span>
+                  <span className="text-gold-400 font-bold mr-2">[{i + 1}]</span>
                   {step}
                 </div>
               ))}

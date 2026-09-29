@@ -104,10 +104,10 @@ export function C10_HistoryMakingOfGlobalWorldSim() {
             <p className="text-xs font-bold uppercase tracking-wider text-amber-400">Run the system (honest toy model)</p>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Trade openness</span><span className="font-mono text-sky-300">{tradeSlider}%</span>
+                <span>Trade openness</span><span className="font-mono text-gold-300">{tradeSlider}%</span>
               </div>
               <input type="range" min={0} max={100} value={tradeSlider} aria-label="trade openness"
-                onChange={(e) => setTradeSlider(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setTradeSlider(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -130,7 +130,7 @@ export function C10_HistoryMakingOfGlobalWorldSim() {
             <div className="grid grid-cols-5 gap-1.5 text-center">
               <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
                 <p className="text-[9px] text-slate-500">World trade</p>
-                <p className="font-mono font-black text-sky-300">{stats.worldTrade}</p>
+                <p className="font-mono font-black text-gold-300">{stats.worldTrade}</p>
               </div>
               <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
                 <p className="text-[9px] text-slate-500">Capital flow</p>

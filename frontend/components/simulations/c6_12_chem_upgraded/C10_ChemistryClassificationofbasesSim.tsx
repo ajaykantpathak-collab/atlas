@@ -955,7 +955,7 @@ const AcidityDiagramSVG: React.FC<{ acidity: number; formula: string; name: stri
       </pattern>
       <rect width="100%" height="100%" fill="url(#grid)" />
 
-      <text x="250" y="25" textAnchor="middle" className="text-xs font-bold fill-blue-400 uppercase tracking-widest">
+      <text x="250" y="25" textAnchor="middle" className="text-xs font-bold fill-gold-400 uppercase tracking-widest">
         Acidity of Base Visualizer: Replaceable OH⁻ Ions
       </text>
 
@@ -965,7 +965,7 @@ const AcidityDiagramSVG: React.FC<{ acidity: number; formula: string; name: stri
         <text x="0" y="-5" textAnchor="middle" className="text-lg font-extrabold fill-white">
           {formula.replace(/[\(\)0-9]/g, '')}
         </text>
-        <text x="0" y="14" textAnchor="middle" className="text-[10px] font-semibold fill-blue-200">
+        <text x="0" y="14" textAnchor="middle" className="text-[10px] font-semibold fill-gold-200">
           Cation Center
         </text>
       </g>
@@ -1121,7 +1121,7 @@ const ReactionsVisualizerSVG: React.FC<{
 }> = ({ saltName, precipitateColor, precipitateFormula, isHeating, heatProduct }) => {
   return (
     <svg viewBox="0 0 520 250" className="w-full h-auto bg-slate-900 rounded-xl p-2 border border-slate-800 shadow-inner">
-      <text x="260" y="22" textAnchor="middle" className="text-xs font-bold fill-cyan-400 uppercase tracking-widest">
+      <text x="260" y="22" textAnchor="middle" className="text-xs font-bold fill-gold-400 uppercase tracking-widest">
         Precipitation Lab & Thermal Decomposition Simulation
       </text>
 
@@ -1153,7 +1153,7 @@ const ReactionsVisualizerSVG: React.FC<{
           <g className="animate-bounce">
             <path d="M -10 -15 Q 0 -30 10 -45" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeDasharray="3 3" opacity="0.7" />
             <path d="M 0 -15 Q 10 -30 -5 -50" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeDasharray="3 3" opacity="0.7" />
-            <text x="25" y="-30" className="text-[10px] fill-cyan-300 font-bold">H₂O (steam)↑</text>
+            <text x="25" y="-30" className="text-[10px] fill-gold-300 font-bold">H₂O (steam)↑</text>
           </g>
         )}
       </g>
@@ -1179,7 +1179,7 @@ const ReactionsVisualizerSVG: React.FC<{
         {!isHeating ? (
           <>
             <text x="15" y="55" className="text-[11px] fill-slate-400">Reactants:</text>
-            <text x="15" y="72" className="text-xs font-bold fill-cyan-300">{saltName} + NaOH</text>
+            <text x="15" y="72" className="text-xs font-bold fill-gold-300">{saltName} + NaOH</text>
 
             <text x="15" y="102" className="text-[11px] fill-slate-400">Precipitate Deposited:</text>
             <text x="15" y="120" className="text-xs font-bold fill-emerald-400">{precipitateFormula}</text>
@@ -1196,7 +1196,7 @@ const ReactionsVisualizerSVG: React.FC<{
             <text x="15" y="102" className="text-[11px] fill-slate-400">Solid Oxide Residue:</text>
             <text x="15" y="120" className="text-xs font-bold fill-rose-400">{heatProduct}</text>
 
-            <text x="15" y="148" className="text-[10px] fill-cyan-300 font-medium">
+            <text x="15" y="148" className="text-[10px] fill-gold-300 font-medium">
               Water of composition driven off as steam.
             </text>
           </>
@@ -1414,11 +1414,11 @@ const BeakerCanvas: React.FC<BeakerCanvasProps> = ({ base, molarity, temperature
           <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1">
             <div className="flex justify-between text-xs font-semibold">
               <span className="text-slate-400">Degree of Ionization (α):</span>
-              <span className="text-blue-400 font-bold">{(effectiveAlpha * 100).toFixed(1)}%</span>
+              <span className="text-gold-400 font-bold">{(effectiveAlpha * 100).toFixed(1)}%</span>
             </div>
             <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
               <div
-                className="bg-gradient-to-r from-blue-500 to-pink-500 h-full transition-all duration-300"
+                className="bg-gradient-to-r from-gold-500 to-pink-500 h-full transition-all duration-300"
                 style={{ width: `${Math.min(100, effectiveAlpha * 100)}%` }}
               />
             </div>
@@ -1618,11 +1618,11 @@ export default function C10_ChemistryClassificationofbasesSim({
       <header className="w-full max-w-6xl bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 shadow-2xl mb-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div className="flex items-center gap-3">
-            <div className="p-3 bg-blue-600/20 rounded-xl border border-blue-500/30">
-              <Beaker className="w-8 h-8 text-blue-400 animate-pulse" />
+            <div className="p-3 bg-gold-600/20 rounded-xl border border-gold-500/30">
+              <Beaker className="w-8 h-8 text-gold-400 animate-pulse" />
             </div>
             <div>
-              <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-blue-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent">
+              <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-pink-400 bg-clip-text text-transparent">
                 {SCENARIO.title}
               </h1>
               <p className="text-xs text-slate-400 font-medium">
@@ -1676,7 +1676,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                 }}
                 className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs md:text-sm transition-all ${
                   isActive
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30 border border-blue-400'
+                    ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 border border-gold-400'
                     : 'bg-slate-800/60 hover:bg-slate-800 text-slate-400 border border-transparent'
                 }`}
               >
@@ -1693,8 +1693,8 @@ export default function C10_ChemistryClassificationofbasesSim({
         <main className="w-full max-w-6xl space-y-6">
           {/* Narrative Scenario Box */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-lg font-bold text-blue-400 flex items-center gap-2 mb-2">
-              <Info className="w-5 h-5 text-blue-400" /> Lab Mission Brief
+            <h2 className="text-lg font-bold text-gold-400 flex items-center gap-2 mb-2">
+              <Info className="w-5 h-5 text-gold-400" /> Lab Mission Brief
             </h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-sm text-slate-400 leading-relaxed mt-2">{SCENARIO.context}</p>
@@ -1739,8 +1739,8 @@ export default function C10_ChemistryClassificationofbasesSim({
             </div>
 
             {discoveryAnswered && (
-              <div className="bg-slate-950 border border-blue-900/50 p-4 rounded-xl text-xs md:text-sm text-blue-200 space-y-1">
-                <p className="font-bold text-blue-400 flex items-center gap-2">
+              <div className="bg-slate-950 border border-gold-900/50 p-4 rounded-xl text-xs md:text-sm text-gold-200 space-y-1">
+                <p className="font-bold text-gold-400 flex items-center gap-2">
                   <Lightbulb className="w-4 h-4 text-amber-400" /> Key Insight:
                 </p>
                 <p>{DISCOVERY_QUESTION.hintAfter}</p>
@@ -1751,12 +1751,12 @@ export default function C10_ChemistryClassificationofbasesSim({
           {/* Prediction Questions Array Section */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
             <h3 className="text-base font-bold text-slate-200 flex items-center gap-2">
-              <Eye className="w-5 h-5 text-indigo-400" /> Interactive Predictions (Hypotheses)
+              <Eye className="w-5 h-5 text-gold-400" /> Interactive Predictions (Hypotheses)
             </h3>
             <div className="space-y-6">
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                  <p className="text-xs font-bold text-indigo-400">Prediction #{pIdx + 1}</p>
+                  <p className="text-xs font-bold text-gold-400">Prediction #{pIdx + 1}</p>
                   <p className="text-sm font-semibold text-white">{pred.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {pred.options.map((opt, oIdx) => {
@@ -1811,7 +1811,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                 }}
                 className={`flex-1 min-w-[180px] px-3 py-2 rounded-lg text-xs font-bold transition text-center ${
                   activeLabIndex === idx
-                    ? 'bg-blue-600 text-white shadow border border-blue-400'
+                    ? 'bg-gold-600 text-white shadow border border-gold-400'
                     : 'bg-slate-950 hover:bg-slate-800 text-slate-400'
                 }`}
               >
@@ -1822,9 +1822,9 @@ export default function C10_ChemistryClassificationofbasesSim({
 
           {/* Current Step Instruction Bar */}
           <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex items-start gap-3">
-            <Activity className="w-5 h-5 text-blue-400 shrink-0 mt-0.5" />
+            <Activity className="w-5 h-5 text-gold-400 shrink-0 mt-0.5" />
             <div>
-              <h4 className="text-xs font-bold text-blue-400 uppercase tracking-wider">
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Current Exploration Objective
               </h4>
               <p className="text-sm text-slate-200 mt-0.5">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
@@ -1845,7 +1845,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                       audioManager.play('tap');
                       setSelectedBaseId(e.target.value);
                     }}
-                    className="w-full bg-slate-950 border border-slate-700 text-white text-xs font-semibold rounded-lg p-2.5 outline-none focus:border-blue-500"
+                    className="w-full bg-slate-950 border border-slate-700 text-white text-xs font-semibold rounded-lg p-2.5 outline-none focus:border-gold-500"
                   >
                     {CHEMICAL_BASES_DB.map((b) => (
                       <option key={b.id} value={b.id}>
@@ -1859,7 +1859,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                 <div>
                   <div className="flex justify-between text-xs font-bold mb-1">
                     <span className="text-slate-400 uppercase">Solution Molarity</span>
-                    <span className="text-blue-400">{molarity.toFixed(3)} M</span>
+                    <span className="text-gold-400">{molarity.toFixed(3)} M</span>
                   </div>
                   <input
                     type="range"
@@ -1868,7 +1868,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                     step="0.005"
                     value={molarity}
                     onChange={(e) => setMolarity(parseFloat(e.target.value))}
-                    className="w-full accent-blue-500 bg-slate-950 h-2 rounded cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-950 h-2 rounded cursor-pointer"
                   />
                 </div>
 
@@ -1905,7 +1905,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                   </div>
                   <div className="bg-slate-950 p-2.5 rounded border border-slate-800">
                     <span className="text-[10px] text-slate-400 block">Water Solubility</span>
-                    <span className="font-bold text-cyan-400">{currentBase.solubility}</span>
+                    <span className="font-bold text-gold-400">{currentBase.solubility}</span>
                   </div>
                   <div className="bg-slate-950 p-2.5 rounded border border-slate-800">
                     <span className="text-[10px] text-slate-400 block">Is Alkali?</span>
@@ -1942,7 +1942,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                       }}
                       className={`p-3 rounded-xl border cursor-pointer transition ${
                         selectedBaseId === b.id
-                          ? 'bg-blue-950/80 border-blue-500 ring-2 ring-blue-500/40'
+                          ? 'bg-gold-950/80 border-gold-500 ring-2 ring-gold-500/40'
                           : 'bg-slate-950 border-slate-800 hover:border-slate-700'
                       }`}
                     >
@@ -1982,7 +1982,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                 </h4>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-blue-400 block mb-1">Arrhenius Concept</span>
+                    <span className="text-xs font-bold text-gold-400 block mb-1">Arrhenius Concept</span>
                     <p className="text-xs text-slate-300 leading-relaxed">{currentBase.arrheniusRole}</p>
                   </div>
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -2062,7 +2062,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                       audioManager.play('drop-correct');
                       setAddedDrops((prev) => prev + 1);
                     }}
-                    className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-lg shadow transition"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow transition"
                   >
                     + Add Drop of NaOH ({addedDrops} drops)
                   </button>
@@ -2096,7 +2096,7 @@ export default function C10_ChemistryClassificationofbasesSim({
 
               {/* Chemical Equation Box */}
               <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 text-xs space-y-2">
-                <span className="font-bold text-cyan-400 uppercase tracking-wider block">
+                <span className="font-bold text-gold-400 uppercase tracking-wider block">
                   Balanced Stoichiometric Chemical Equations
                 </span>
                 <p className="font-mono text-slate-200 bg-slate-950 p-2.5 rounded border border-slate-800">
@@ -2117,7 +2117,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                   <div key={base.id} className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between items-center">
                       <h4 className="font-bold text-white text-sm">{base.name}</h4>
-                      <span className="text-xs font-mono font-bold text-blue-400 bg-blue-950/60 px-2 py-0.5 rounded border border-blue-800">
+                      <span className="text-xs font-mono font-bold text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded border border-gold-800">
                         {base.formula}
                       </span>
                     </div>
@@ -2188,7 +2188,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                 <span
                   className={`px-2 py-0.5 rounded text-[10px] uppercase font-extrabold ${
                     currentChallenge.difficulty === 'foundation'
-                      ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                      ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                       : currentChallenge.difficulty === 'standard'
                       ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30'
                       : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
@@ -2239,7 +2239,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                       style = 'bg-rose-950 border-rose-500 text-rose-100';
                     }
                   } else if (isSelected) {
-                    style = 'bg-blue-950 border-blue-500 text-blue-100 ring-2 ring-blue-500/30';
+                    style = 'bg-gold-950 border-gold-500 text-gold-100 ring-2 ring-gold-500/30';
                   }
 
                   return (
@@ -2277,7 +2277,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                   value={calcInput}
                   onChange={(e) => setCalcInput(e.target.value)}
                   placeholder="Type calculated value..."
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-lg font-mono font-bold text-white outline-none focus:border-blue-500"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-lg font-mono font-bold text-white outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -2293,7 +2293,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                     (currentChallenge.type === 'calculation' && !calcInput.trim())
                   }
                   onClick={handleChallengeSubmit}
-                  className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold text-sm rounded-xl transition shadow-lg shadow-blue-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold text-sm rounded-xl transition shadow-lg shadow-gold-600/30"
                 >
                   Verify Answer
                 </button>
@@ -2385,7 +2385,7 @@ export default function C10_ChemistryClassificationofbasesSim({
           {/* NODE MASTERY SUMMARY GRID */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
             <h3 className="text-base font-bold text-slate-200 flex items-center gap-2">
-              <Award className="w-5 h-5 text-blue-400" /> BKT Knowledge State & SRS Mastery
+              <Award className="w-5 h-5 text-gold-400" /> BKT Knowledge State & SRS Mastery
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
               {ALL_NODE_IDS.map((nodeId) => {
@@ -2399,7 +2399,7 @@ export default function C10_ChemistryClassificationofbasesSim({
                     <span className="text-sm font-extrabold text-white">{percent}%</span>
                     <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
                       <div
-                        className="bg-blue-500 h-full transition-all duration-500"
+                        className="bg-gold-500 h-full transition-all duration-500"
                         style={{ width: `${percent}%` }}
                       />
                     </div>

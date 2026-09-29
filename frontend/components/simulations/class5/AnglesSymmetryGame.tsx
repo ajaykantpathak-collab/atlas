@@ -55,7 +55,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Classifying Angles 🔍",
     text: "Look at the opening between the arms! A square corner is a right angle (90 deg). Sharper openings like 45 degrees are acute. Wider openings like 120 degrees are obtuse. Straight lines form straight angles (180 deg)!",
     emoji: "🔍",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Look at the opening! Square corners are right angles, sharper are acute, wider are obtuse, and flat lines are straight angles!"
   },
   {

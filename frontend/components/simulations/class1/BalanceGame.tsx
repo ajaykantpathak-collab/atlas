@@ -43,7 +43,7 @@ const TEACHING_SLIDES = [
         title: 'The Toy Weighing Balance ⚖️',
         text: 'A toy weighing balance has two pans hanging from a beam, like a playground see-saw! When you put a heavy object on one pan, that side goes DOWN and the other side goes UP!',
         emoji: '🎢',
-        bgColor: 'from-blue-400 to-indigo-500',
+        bgColor: 'from-gold-400 to-gold-500',
         spoken: 'A toy weighing balance has two pans hanging from a beam, like a playground see-saw!'
     },
     {

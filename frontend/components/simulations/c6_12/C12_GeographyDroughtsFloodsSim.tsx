@@ -1217,7 +1217,7 @@ export function C12_GeographyDroughtsFloodsSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1244,18 +1244,18 @@ export function C12_GeographyDroughtsFloodsSim({
             <motion.div 
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
             >
               <motion.span 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-bold rounded-md uppercase"
+                className="px-2.5 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-md uppercase"
               >
                 Scenario Hook
               </motion.span>
               <h2 className="text-xl font-bold text-white mt-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-300/80 mt-3 font-mono bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-900/50">
+              <p className="text-xs text-gold-300/80 mt-3 font-mono bg-gold-950/40 p-2.5 rounded-lg border border-gold-900/50">
                 ⚡ Spatial Challenge: {SCENARIO.context}
               </p>
             </motion.div>
@@ -1278,10 +1278,10 @@ export function C12_GeographyDroughtsFloodsSim({
                         ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200'
                         : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                         ? 'bg-slate-800/50 border border-slate-700/50 text-slate-400 opacity-60'
-                        : 'bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 hover:border-indigo-500/50'
+                        : 'bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1368,7 +1368,7 @@ export function C12_GeographyDroughtsFloodsSim({
                           <div className="flex justify-between text-xs font-semibold">
                             <span className="text-rose-400">Severe Drought (-50%)</span>
                             <span className="text-slate-300">Normal (0%)</span>
-                            <span className="text-sky-400">Flood Surge (+50%)</span>
+                            <span className="text-gold-400">Flood Surge (+50%)</span>
                           </div>
                           {/* REAL-TIME SLIDER CONNECTED TO STATE */}
                           <input
@@ -1388,7 +1388,7 @@ export function C12_GeographyDroughtsFloodsSim({
                           >
                             <span className="text-slate-400">Rainfall Departure:</span>
                             <span className={`font-mono font-bold text-sm ${
-                              monsoonDeparture < -25 ? 'text-rose-400' : monsoonDeparture > 25 ? 'text-sky-400' : 'text-emerald-400'
+                              monsoonDeparture < -25 ? 'text-rose-400' : monsoonDeparture > 25 ? 'text-gold-400' : 'text-emerald-400'
                             }`}>
                               {monsoonDeparture > 0 ? `+${monsoonDeparture}` : monsoonDeparture}%
                             </span>
@@ -1401,7 +1401,7 @@ export function C12_GeographyDroughtsFloodsSim({
                               monsoonDeparture < -25
                                 ? 'bg-rose-950/40 border-rose-800 text-rose-300'
                                 : monsoonDeparture > 25
-                                ? 'bg-sky-950/40 border-sky-800 text-sky-300'
+                                ? 'bg-gold-950/40 border-gold-800 text-gold-300'
                                 : 'bg-emerald-950/40 border-emerald-800 text-emerald-300'
                             }`}
                           >
@@ -1445,7 +1445,7 @@ export function C12_GeographyDroughtsFloodsSim({
                       {/* Predict-Then-Check Section */}
                       {!predictionMade ? (
                         <motion.div initial={{ y: 5, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                          <p className="text-xs font-bold text-indigo-300">PREDICTION CHALLENGE: {PREDICTION_QUESTIONS[0].question}</p>
+                          <p className="text-xs font-bold text-gold-300">PREDICTION CHALLENGE: {PREDICTION_QUESTIONS[0].question}</p>
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                               <motion.button
@@ -1461,8 +1461,8 @@ export function C12_GeographyDroughtsFloodsSim({
                           </div>
                         </motion.div>
                       ) : (
-                        <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/60 flex items-center justify-between text-xs">
-                          <span className="text-indigo-200">
+                        <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/60 flex items-center justify-between text-xs">
+                          <span className="text-gold-200">
                             {predictionVerified
                               ? '✅ Verified via simulation: Deficit triggers hydrological reservoir depletion & crop stress.'
                               : PREDICTION_QUESTIONS[0].verifyInstruction}
@@ -1567,7 +1567,7 @@ export function C12_GeographyDroughtsFloodsSim({
                           onClick={() => setActiveDensityRegion('bihar')}
                           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                             activeDensityRegion === 'bihar'
-                              ? 'bg-indigo-600 text-white shadow-md'
+                              ? 'bg-gold-600 text-white shadow-md'
                               : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1579,7 +1579,7 @@ export function C12_GeographyDroughtsFloodsSim({
                           onClick={() => setActiveDensityRegion('uttarakhand')}
                           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                             activeDensityRegion === 'uttarakhand'
-                              ? 'bg-indigo-600 text-white shadow-md'
+                              ? 'bg-gold-600 text-white shadow-md'
                               : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1596,7 +1596,7 @@ export function C12_GeographyDroughtsFloodsSim({
                         >
                           <h4 className="text-sm font-bold text-white flex items-center justify-between">
                             <span>{activeDensityRegion === 'bihar' ? 'Bihar Plain' : 'Uttarakhand Hills'}</span>
-                            <span className="text-xs text-indigo-400">Census 2011 Data</span>
+                            <span className="text-xs text-gold-400">Census 2011 Data</span>
                           </h4>
 
                           <div className="space-y-2 text-xs">
@@ -1612,8 +1612,8 @@ export function C12_GeographyDroughtsFloodsSim({
                                 {activeDensityRegion === 'bihar' ? '60% of total area' : '12% of total area'}
                               </span>
                             </div>
-                            <div className="flex justify-between p-2 bg-indigo-950/60 rounded-lg border border-indigo-900/40">
-                              <span className="text-indigo-300 font-semibold">Physiological Density (Cultivated Land):</span>
+                            <div className="flex justify-between p-2 bg-gold-950/60 rounded-lg border border-gold-900/40">
+                              <span className="text-gold-300 font-semibold">Physiological Density (Cultivated Land):</span>
                               <span className="font-mono font-bold text-emerald-400">
                                 {activeDensityRegion === 'bihar' ? '1,843 persons/km²' : '1,575 persons/km²'}
                               </span>
@@ -1899,11 +1899,11 @@ export function C12_GeographyDroughtsFloodsSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Control Column 1 */}
               <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-4">
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Atmospheric & Hazard</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Atmospheric & Hazard</span>
                 <div>
                   <label className="text-xs text-slate-300 flex justify-between">
                     <span>Monsoon Rainfall:</span>
-                    <span className="font-mono font-bold text-sky-400">{monsoonDeparture > 0 ? `+${monsoonDeparture}` : monsoonDeparture}%</span>
+                    <span className="font-mono font-bold text-gold-400">{monsoonDeparture > 0 ? `+${monsoonDeparture}` : monsoonDeparture}%</span>
                   </label>
                   <input
                     type="range"
@@ -1912,7 +1912,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     value={monsoonDeparture}
                     onChange={(e) => handleMonsoonSlider(Number(e.target.value))}
                     aria-label="Monsoon rainfall departure control"
-                    className="w-full accent-sky-500 cursor-pointer mt-1.5"
+                    className="w-full accent-gold-500 cursor-pointer mt-1.5"
                   />
                 </div>
 
@@ -1971,7 +1971,7 @@ export function C12_GeographyDroughtsFloodsSim({
 
               {/* Chart Output */}
               <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex flex-col justify-between">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Live System Metrics</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Live System Metrics</span>
                 <div className="h-32 w-full mt-2">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={hazardChartData}>
@@ -2007,7 +2007,7 @@ export function C12_GeographyDroughtsFloodsSim({
               </span>
               <div className="flex items-center gap-2">
                 <motion.span whileHover={{ scale: 1.05 }} className="px-2.5 py-0.5 bg-slate-800 rounded-md text-slate-400 font-mono">
-                  Competency: <strong className="text-indigo-300 capitalize">{challenge.competencyLevel}</strong>
+                  Competency: <strong className="text-gold-300 capitalize">{challenge.competencyLevel}</strong>
                 </motion.span>
                 <motion.span whileHover={{ scale: 1.05 }} className="px-2.5 py-0.5 bg-slate-800 rounded-md text-slate-400 font-mono">
                   Node: {challenge.nodeId}
@@ -2017,7 +2017,7 @@ export function C12_GeographyDroughtsFloodsSim({
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2051,10 +2051,10 @@ export function C12_GeographyDroughtsFloodsSim({
                       className={`w-full text-left p-3.5 rounded-xl text-xs md:text-sm font-medium transition-all flex items-start gap-3 ${
                         showExplanation && idx === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950'
-                          : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-indigo-500/50'
+                          : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-gold-500/50'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mt-0.5">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold text-gold-400 mt-0.5">{String.fromCharCode(65 + idx)}.</span>
                       <span className="leading-snug">{opt}</span>
                     </motion.button>
                   ))}
@@ -2072,7 +2072,7 @@ export function C12_GeographyDroughtsFloodsSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                        className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                       >
                         :: {item.label}
                       </motion.div>
@@ -2106,7 +2106,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerValidation(droppedLabels)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Verify Target Assignments
                   </motion.button>
@@ -2147,7 +2147,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Submit Order
                   </motion.button>
@@ -2163,7 +2163,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numeric value"
-                    className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2171,7 +2171,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerValidation(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Check Calculation
                   </motion.button>
@@ -2202,7 +2202,7 @@ export function C12_GeographyDroughtsFloodsSim({
                         key={i} 
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-900/60 border border-indigo-700/60 text-indigo-200 text-xs rounded-lg flex items-center gap-2"
+                        className="px-2.5 py-1 bg-gold-900/60 border border-gold-700/60 text-gold-200 text-xs rounded-lg flex items-center gap-2"
                       >
                         {p}
                         <motion.button 
@@ -2223,7 +2223,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerValidation(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Verify Constructed Sequence
                   </motion.button>
@@ -2235,7 +2235,7 @@ export function C12_GeographyDroughtsFloodsSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-5 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80 space-y-3"
+                  className="mt-5 p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 space-y-3"
                 >
                   <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">Examiner Step-by-Step Breakdown</span>
                   
@@ -2246,7 +2246,7 @@ export function C12_GeographyDroughtsFloodsSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400 mr-1.5">{sIdx + 1}.</strong>
+                      <strong className="text-gold-400 mr-1.5">{sIdx + 1}.</strong>
                       {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2296,7 +2296,7 @@ export function C12_GeographyDroughtsFloodsSim({
             >
               <h2 className="text-2xl md:text-3xl font-black text-white">ISC Geography Mastery Attained!</h2>
               <p className="text-sm text-slate-300">
-                Composite Examination Score: <span className="text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 4)}%</span> | Performance Tier: <span className="text-indigo-400 font-bold uppercase">{difficulty}</span>
+                Composite Examination Score: <span className="text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 4)}%</span> | Performance Tier: <span className="text-gold-400 font-bold uppercase">{difficulty}</span>
               </p>
 
               {/* MOTIVATIONAL FEEDBACK SYSTEM BASED ON ERROR COUNT */}
@@ -2330,13 +2330,13 @@ export function C12_GeographyDroughtsFloodsSim({
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900/95 rounded-3xl border border-indigo-700/60 shadow-xl space-y-5"
+              className="p-6 bg-slate-900/95 rounded-3xl border border-gold-700/60 shadow-xl space-y-5"
             >
               <div className="flex items-center gap-3">
-                <span className="text-2xl p-2 bg-indigo-950 rounded-xl border border-indigo-700">🤔</span>
+                <span className="text-2xl p-2 bg-gold-950 rounded-xl border border-gold-700">🤔</span>
                 <div>
                   <h3 className="text-lg font-bold text-white">Post-Simulation Geographer’s Reflection</h3>
-                  <p className="text-xs text-indigo-300">Consolidate your conceptual takeaways before moving to the next module.</p>
+                  <p className="text-xs text-gold-300">Consolidate your conceptual takeaways before moving to the next module.</p>
                 </div>
               </div>
 
@@ -2350,12 +2350,12 @@ export function C12_GeographyDroughtsFloodsSim({
                     value={reflectionResponses.surprising}
                     onChange={(e) => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                     placeholder="e.g. How high physiological density is in Uttarakhand despite low arithmetic density..."
-                    className="w-full bg-slate-900 border border-slate-750 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-750 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                  <label className="text-xs font-bold text-sky-400 flex items-center gap-1.5">
+                  <label className="text-xs font-bold text-gold-400 flex items-center gap-1.5">
                     <span>2.</span> How would you explain this to a friend?
                   </label>
                   <textarea
@@ -2363,7 +2363,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     value={reflectionResponses.explain}
                     onChange={(e) => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                     placeholder="e.g. Drought and flood in India come from the same monsoon tap being turned too low or overflowing..."
-                    className="w-full bg-slate-900 border border-slate-750 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-750 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
 
@@ -2376,7 +2376,7 @@ export function C12_GeographyDroughtsFloodsSim({
                     value={reflectionResponses.realLife}
                     onChange={(e) => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                     placeholder="e.g. Evaluating district flood risks, planning rainwater johads, or assessing urban farm buffer zones..."
-                    className="w-full bg-slate-900 border border-slate-750 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-750 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
               </div>
@@ -2425,7 +2425,7 @@ export function C12_GeographyDroughtsFloodsSim({
               whileHover={{ scale: 1.01 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Applied Spatial Task</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Applied Spatial Task</span>
               <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">

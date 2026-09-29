@@ -11,7 +11,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Flower: Structure and Function',
     chapters: [],
     nodeIds: ['c12_bio_cbse_02_001', 'c12_bio_cbse_02_002', 'c12_bio_cbse_02_003', 'c12_bio_cbse_02_006', 'c12_bio_cbse_02_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a hibiscus flower in your garden or a mustard flower in a field — notice how the green sepals protect.', goal: 'Master Flower: Structure and Function.' },
     discovery: {
         question: 'Name the four whorls of a typical angiosperm flower in correct acropetal order (from base to apex) and state the primary function of each whorl in one phrase.',
@@ -20,7 +20,7 @@ export const w_c12_biologymicrosporogenesispollengrainsim: SimDef = {
         hook: 'Students often think "complete flower = bisexual flower" and "incomplete flower = unisexual flower." They memorize the.',
     },
     teaching: [
-        { title: 'A flower is the specialized reproductive.', text: 'A flower is the specialized reproductive shoot of an angiosperm, composed of four distinct whorls (calyx, corolla, androecium, gynoecium) arranged on a thalamus, where the androecium produces male.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A flower is the specialized reproductive.', text: 'A flower is the specialized reproductive shoot of an angiosperm, composed of four distinct whorls (calyx, corolla, androecium, gynoecium) arranged on a thalamus, where the androecium produces male.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_02_001', title: 'A flower is the specialized.',

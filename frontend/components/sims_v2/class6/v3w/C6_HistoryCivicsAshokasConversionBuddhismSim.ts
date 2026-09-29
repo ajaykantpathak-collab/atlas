@@ -11,7 +11,7 @@ export const w_c6_historycivicsashokasconversionbuddhismsim: SimDef = {
     classLevel: 6, subject: 'history', topic: 'The Spread of Buddhism Under Ashoka',
     chapters: [],
     nodeIds: ['c6_history_ch05_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you have a great idea for a community project, but only a few people know about it.', goal: 'Master The Spread of Buddhism Under Ashoka.' },
     discovery: {
         question: 'If Ashoka wanted to reach people who could not read, which of his methods would be most effective?',
@@ -20,7 +20,7 @@ export const w_c6_historycivicsashokasconversionbuddhismsim: SimDef = {
         hook: 'Students often think Ashoka "forced" people to become Buddhists.',
     },
     teaching: [
-        { title: 'The spread of Buddhism under Ashoka refers.', text: 'The spread of Buddhism under Ashoka refers to the transformation of a small, local religious group into a major world religion through the royal support and administrative efforts of the Mauryan.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The spread of Buddhism under Ashoka refers.', text: 'The spread of Buddhism under Ashoka refers to the transformation of a small, local religious group into a major world religion through the royal support and administrative efforts of the Mauryan.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_history_ch05_011', title: 'The spread of Buddhism under Ashoka.',

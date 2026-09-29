@@ -11,7 +11,7 @@ export const w_c10_sciencemagneticeffectsofelectriccurrentsim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Magnetic Field Due to a Solenoid and Electromagnet',
     chapters: [],
     nodeIds: ['c10_phy_cbse_02_004', 'c10_phy_cbse_02_009', 'c10_phy_cbse_02_007', 'c10_phy_cbse_02_001', 'c10_phy_cbse_02_002', 'c10_phy_cbse_02_003', 'c10_phy_cbse_02_005', 'c10_phy_cbse_02_008', 'c10_phy_cbse_02_010', 'c10_phy_cbse_01_004', 'c10_phy_cbse_01_008', 'c10_phy_cbse_01_009', 'c10_phy_cbse_01_010', 'c10_phy_cbse_01_011', 'c10_phy_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a doorbell or an electric crane lifting scrap metal — both use electromagnets.', goal: 'Master Magnetic Field Due to a Solenoid and Electromagnet.' },
     discovery: {
         question: 'Two magnetic field lines are drawn intersecting each other in a student\'s diagram.',
@@ -20,7 +20,7 @@ export const w_c10_sciencemagneticeffectsofelectriccurrentsim: SimDef = {
         hook: 'Students often believe magnetic field lines start at the north pole and end at the south pole, treating them like.',
     },
     teaching: [
-        { title: 'A solenoid is a long helical coil of.', text: 'A solenoid is a long helical coil of insulated copper wire that produces a nearly uniform magnetic field inside it when electric current passes through it, with field lines parallel to its axis and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A solenoid is a long helical coil of.', text: 'A solenoid is a long helical coil of insulated copper wire that produces a nearly uniform magnetic field inside it when electric current passes through it, with field lines parallel to its axis and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_phy_cbse_02_004', title: 'A solenoid is a long helical coil of.',

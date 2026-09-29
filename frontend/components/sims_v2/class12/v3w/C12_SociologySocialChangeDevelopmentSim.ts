@@ -11,7 +11,7 @@ export const w_c12_sociologysocialchangedevelopmentsim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation',
     chapters: [],
     nodeIds: ['c12_soc_cbse_03_007', 'c12_soc_cbse_04_009', 'c12_soc_cbse_08_011', 'c12_soc_cbse_11_010', 'c12_soc_cbse_03_004', 'c12_soc_cbse_03_006', 'c12_soc_cbse_03_008', 'c12_soc_cbse_08_008', 'c12_soc_cbse_08_009', 'c12_soc_cbse_15_001', 'c12_soc_cbse_15_002', 'c12_soc_cbse_15_009', 'c12_soc_cbse_10_004', 'c12_soc_cbse_10_005', 'c12_soc_cbse_10_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a Gond village in Madhya Pradesh where families have stopped eating beef, started wearing the sacred.', goal: 'Master Tribes and the Process of Integration: Sanskritisation, Hinduisation and Christianisation.' },
     discovery: {
         question: 'Compare the long-term consequences of Sanskritisation vs. Christianisation on tribal kinship and gender relations.',
@@ -20,7 +20,7 @@ export const w_c12_sociologysocialchangedevelopmentsim: SimDef = {
         hook: 'Students often think **Sanskritisation = Hinduisation = becoming Hindu**.',
     },
     teaching: [
-        { title: 'Tribal integration refers to the historical.', text: 'Tribal integration refers to the historical and ongoing processes through which tribal communities are absorbed into mainstream society, primarily through **Sanskritisation** (adoption of upper-caste.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Tribal integration refers to the historical.', text: 'Tribal integration refers to the historical and ongoing processes through which tribal communities are absorbed into mainstream society, primarily through **Sanskritisation** (adoption of upper-caste.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_03_007', title: 'Tribal integration refers to the.',

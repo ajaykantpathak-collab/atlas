@@ -1153,9 +1153,9 @@ const ConductanceKohlrauschDiagram: React.FC<{
     <div className="w-full bg-slate-900 rounded-xl p-4 border border-slate-700 shadow-xl">
       <div className="flex justify-between items-center mb-3">
         <h4 className="text-sm font-bold text-slate-200 flex items-center gap-2">
-          <TrendingUp className="w-4 h-4 text-cyan-400" /> Molar Conductivity (Λm) vs Concentration (√C)
+          <TrendingUp className="w-4 h-4 text-gold-400" /> Molar Conductivity (Λm) vs Concentration (√C)
         </h4>
-        <span className="text-xs bg-slate-800 text-cyan-300 font-mono px-2 py-1 rounded border border-cyan-500/30">
+        <span className="text-xs bg-slate-800 text-gold-300 font-mono px-2 py-1 rounded border border-gold-500/30">
           Kohlrausch Law: Λm = Λm° - A√C
         </span>
       </div>
@@ -1575,15 +1575,15 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-cyan-500 selection:text-slate-950">
+    <div className="w-full min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-gold-500 selection:text-slate-950">
       {/* Top Header Navigation Bar */}
       <header className="w-full bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap justify-between items-center shadow-md">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-gradient-to-tr from-cyan-600 to-emerald-500 rounded-lg shadow-lg">
+          <div className="p-2 bg-gradient-to-tr from-gold-600 to-emerald-500 rounded-lg shadow-lg">
             <Zap className="w-6 h-6 text-slate-950" />
           </div>
           <div>
-            <h1 className="text-lg font-bold bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-lg font-bold bg-gradient-to-r from-gold-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent">
               ISC Class 12 Electrochemistry Master Lab
             </h1>
             <p className="text-xs text-slate-400 font-mono">CISCE Syllabus • Nernst Kinetics • Electrolysis • Kohlrausch</p>
@@ -1595,7 +1595,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           <button
             onClick={() => { setActiveTab('discovery'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
-              activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <BookOpen className="w-3.5 h-3.5" /> Discovery
@@ -1603,7 +1603,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           <button
             onClick={() => { setActiveTab('lab'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
-              activeTab === 'lab' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Beaker className="w-3.5 h-3.5" /> Interactive Lab
@@ -1611,7 +1611,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           <button
             onClick={() => { setActiveTab('challenges'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
-              activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Award className="w-3.5 h-3.5" /> Challenges ({CHALLENGES.length})
@@ -1619,7 +1619,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           <button
             onClick={() => { setActiveTab('summary'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
-              activeTab === 'summary' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Layers className="w-3.5 h-3.5" /> Real-World & Mastery
@@ -1627,7 +1627,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
           <button
             onClick={() => { setActiveTab('misconceptions'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
-              activeTab === 'misconceptions' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'misconceptions' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Shield className="w-3.5 h-3.5" /> Misconception Lab
@@ -1642,10 +1642,10 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* Lab Scenario Card */}
-            <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-cyan-950/40 p-6 rounded-2xl border border-cyan-800/40 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full filter blur-3xl pointer-events-none" />
+            <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-gold-950/40 p-6 rounded-2xl border border-gold-800/40 shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full filter blur-3xl pointer-events-none" />
               <div className="flex items-center gap-3 mb-3">
-                <span className="px-3 py-1 bg-cyan-950 text-cyan-400 border border-cyan-700/50 text-xs font-mono font-bold rounded-full">
+                <span className="px-3 py-1 bg-gold-950 text-gold-400 border border-gold-700/50 text-xs font-mono font-bold rounded-full">
                   REAL SCENARIO
                 </span>
                 <h2 className="text-xl font-bold text-white">{SCENARIO.title}</h2>
@@ -1691,7 +1691,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
               </div>
 
               {discoveryAnswered && (
-                <div className="mt-4 p-4 rounded-xl bg-cyan-950/50 border border-cyan-800/50 text-xs text-cyan-200 animate-fadeIn">
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/50 border border-gold-800/50 text-xs text-gold-200 animate-fadeIn">
                   <span className="font-bold text-amber-400 block mb-1">Key Insight:</span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1700,8 +1700,8 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
 
             {/* PREDICTION QUESTIONS ARRAY MAP */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-300 flex items-center gap-2">
-                <Eye className="w-5 h-5 text-cyan-400" /> Key Conceptual Predictions
+              <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
+                <Eye className="w-5 h-5 text-gold-400" /> Key Conceptual Predictions
               </h3>
               <div className="space-y-4">
                 {PREDICTION_QUESTIONS.map((pq, idx) => (
@@ -1754,11 +1754,11 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   }}
                   className={`p-3 rounded-xl text-xs font-bold transition-all text-left flex flex-col gap-1 ${
                     selectedLabIndex === idx
-                      ? 'bg-cyan-600 text-white shadow-lg ring-2 ring-cyan-400/50'
+                      ? 'bg-gold-600 text-white shadow-lg ring-2 ring-gold-400/50'
                       : 'bg-slate-800/50 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                   }`}
                 >
-                  <span className="text-[10px] font-mono text-cyan-200 uppercase">Lab {idx + 1}</span>
+                  <span className="text-[10px] font-mono text-gold-200 uppercase">Lab {idx + 1}</span>
                   <span className="truncate">{step.title.split(':')[1]}</span>
                 </button>
               ))}
@@ -1767,13 +1767,13 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
             {/* Instruction Banner */}
             <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-800 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <Info className="w-5 h-5 text-cyan-400" />
+                <Info className="w-5 h-5 text-gold-400" />
                 <p className="text-xs text-slate-300">
                   <span className="font-bold text-white">{EXPLORATION_STEPS[selectedLabIndex].title}: </span>
                   {EXPLORATION_STEPS[selectedLabIndex].instruction}
                 </p>
               </div>
-              <span className="text-[10px] font-mono bg-cyan-950 text-cyan-300 px-2 py-1 rounded border border-cyan-800">
+              <span className="text-[10px] font-mono bg-gold-950 text-gold-300 px-2 py-1 rounded border border-gold-800">
                 Node: {EXPLORATION_STEPS[selectedLabIndex].nodeId}
               </span>
             </div>
@@ -1794,7 +1794,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
 
                 {/* Controls */}
                 <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-2">
+                  <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
                     <Sliders className="w-4 h-4" /> Half-Cell Controls
                   </h3>
 
@@ -1826,7 +1826,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Anode Ion [Zn2+]:</span>
-                      <span className="font-mono text-cyan-300">{cAnode} M</span>
+                      <span className="font-mono text-gold-300">{cAnode} M</span>
                     </div>
                     <input
                       type="range"
@@ -1835,14 +1835,14 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       step="0.01"
                       value={cAnode}
                       onChange={e => setCAnode(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Cathode Ion [Cu2+]:</span>
-                      <span className="font-mono text-cyan-300">{cCathode} M</span>
+                      <span className="font-mono text-gold-300">{cCathode} M</span>
                     </div>
                     <input
                       type="range"
@@ -1851,7 +1851,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       step="0.01"
                       value={cCathode}
                       onChange={e => setCCathode(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1887,7 +1887,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Kc (Equilibrium):</span>
-                      <span className="text-cyan-400 font-bold">{eCellCalc.equilibriumK.toExponential(2)}</span>
+                      <span className="text-gold-400 font-bold">{eCellCalc.equilibriumK.toExponential(2)}</span>
                     </div>
                   </div>
                 </div>
@@ -1906,7 +1906,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </div>
 
                 <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-2">
+                  <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
                     <Sliders className="w-4 h-4" /> Conductance Parameters
                   </h3>
 
@@ -1917,7 +1917,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                         onClick={() => { setElectrolyteType('strong'); playSound('pop'); }}
                         className={`p-2 text-xs rounded-lg font-bold border ${
                           electrolyteType === 'strong'
-                            ? 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                            ? 'bg-gold-950 border-gold-500 text-gold-300'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1939,7 +1939,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Concentration (C):</span>
-                      <span className="font-mono text-cyan-300">{concentration} M</span>
+                      <span className="font-mono text-gold-300">{concentration} M</span>
                     </div>
                     <input
                       type="range"
@@ -1948,7 +1948,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       step="0.005"
                       value={concentration}
                       onChange={e => setConcentration(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1959,7 +1959,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Current Λm:</span>
-                      <span className="text-cyan-400 font-bold">{conductanceCalc.lambdaM.toFixed(1)} S cm² mol⁻¹</span>
+                      <span className="text-gold-400 font-bold">{conductanceCalc.lambdaM.toFixed(1)} S cm² mol⁻¹</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Conductivity (κ):</span>
@@ -1995,7 +1995,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </div>
 
                 <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-2">
+                  <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
                     <Sliders className="w-4 h-4" /> Electrolysis Cell Inputs
                   </h3>
 
@@ -2022,7 +2022,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                         onClick={() => { setElectrodeType('inert_pt'); playSound('pop'); }}
                         className={`p-2 text-xs rounded-lg font-bold border ${
                           electrodeType === 'inert_pt'
-                            ? 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                            ? 'bg-gold-950 border-gold-500 text-gold-300'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -2044,7 +2044,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Electric Current (I):</span>
-                      <span className="font-mono text-cyan-300">{currentAmp} A</span>
+                      <span className="font-mono text-gold-300">{currentAmp} A</span>
                     </div>
                     <input
                       type="range"
@@ -2053,7 +2053,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                       step="0.5"
                       value={currentAmp}
                       onChange={e => setCurrentAmp(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -2084,7 +2084,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </div>
 
                 <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-2">
+                  <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
                     <Battery className="w-4 h-4" /> Battery System Selection
                   </h3>
                   <div className="grid grid-cols-1 gap-2">
@@ -2123,7 +2123,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 </h3>
                 <p className="text-xs text-slate-300">
                   Iron corrosion is an electrochemical micro-cell where Fe acts as anode and dissolved O2 acts as cathode:
-                  <span className="font-mono text-cyan-300 block mt-1">Fe → Fe²⁺ + 2e⁻ (Anode) | O₂ + 4H⁺ + 4e⁻ → 2H₂O (Cathode)</span>
+                  <span className="font-mono text-gold-300 block mt-1">Fe → Fe²⁺ + 2e⁻ (Anode) | O₂ + 4H⁺ + 4e⁻ → 2H₂O (Cathode)</span>
                 </p>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex justify-around text-center">
                   <div>
@@ -2136,7 +2136,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   </div>
                   <div>
                     <span className="text-xs text-slate-400">Magnesium Blocks</span>
-                    <p className="text-cyan-400 font-bold text-sm">Underground Pipe Protection</p>
+                    <p className="text-gold-400 font-bold text-sm">Underground Pipe Protection</p>
                   </div>
                 </div>
               </div>
@@ -2179,13 +2179,13 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex justify-between items-center">
               <div>
-                <span className="text-xs text-cyan-400 font-mono uppercase font-bold">
+                <span className="text-xs text-gold-400 font-mono uppercase font-bold">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
                   <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
                     CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
-                      ? 'bg-blue-950 text-blue-300 border border-blue-700'
+                      ? 'bg-gold-950 text-gold-300 border border-gold-700'
                       : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
                       ? 'bg-amber-950 text-amber-300 border border-amber-700'
                       : 'bg-rose-950 text-rose-300 border border-rose-700'
@@ -2227,7 +2227,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                           : 'bg-slate-950 border-slate-800 hover:border-slate-600 text-slate-300'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + oIdx)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span>
                       {opt}
                     </button>
                   ))}
@@ -2243,12 +2243,12 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                     value={numericInputValue}
                     onChange={e => setNumericInputValue(e.target.value)}
                     placeholder="Enter calculated numerical value..."
-                    className="flex-1 bg-slate-950 border border-slate-700 text-sm rounded-xl p-3 text-white font-mono focus:outline-none focus:border-cyan-500"
+                    className="flex-1 bg-slate-950 border border-slate-700 text-sm rounded-xl p-3 text-white font-mono focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-mono">{CHALLENGES[currentChallengeIndex].unit}</span>
                   <button
                     onClick={() => handleAnswerChallenge(numericInputValue)}
-                    className="px-5 py-3 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl transition"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl transition"
                   >
                     Submit
                   </button>
@@ -2275,7 +2275,7 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                 <div className="flex justify-end">
                   <button
                     onClick={handleNextChallenge}
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-emerald-500 hover:from-cyan-500 hover:to-emerald-400 text-slate-950 font-bold text-xs rounded-xl shadow-lg transition flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-emerald-500 hover:from-gold-500 hover:to-emerald-400 text-slate-950 font-bold text-xs rounded-xl shadow-lg transition flex items-center gap-2"
                   >
                     Next Challenge <ArrowRight className="w-4 h-4" />
                   </button>
@@ -2312,8 +2312,8 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
 
             {/* Comprehensive Curriculum Mastery Tracker */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-300 flex items-center gap-2">
-                <Gauge className="w-5 h-5 text-cyan-400" /> Syllabus Node Mastery Breakdown (22 CISCE Nodes)
+              <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
+                <Gauge className="w-5 h-5 text-gold-400" /> Syllabus Node Mastery Breakdown (22 CISCE Nodes)
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {ALL_NODE_IDS.map(nodeId => {
@@ -2322,8 +2322,8 @@ export default function C12_ChemistryElectrochemistryCBSESim() {
                   return (
                     <div key={nodeId} className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between items-start">
-                        <span className="text-[10px] font-mono text-cyan-400 font-bold">{nodeId}</span>
-                        <span className="text-[10px] font-mono bg-cyan-950 text-cyan-300 px-1.5 py-0.5 rounded">
+                        <span className="text-[10px] font-mono text-gold-400 font-bold">{nodeId}</span>
+                        <span className="text-[10px] font-mono bg-gold-950 text-gold-300 px-1.5 py-0.5 rounded">
                           {(mastery * 100).toFixed(0)}% Mastered
                         </span>
                       </div>

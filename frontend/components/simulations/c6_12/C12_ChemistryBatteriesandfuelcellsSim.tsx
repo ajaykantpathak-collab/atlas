@@ -88,13 +88,13 @@ const BatteryFuelCellVisual: React.FC<{
   return (
     <div className="bg-slate-900/90 border border-slate-700 rounded-xl p-4 flex flex-col items-center justify-between min-h-[320px] text-white relative overflow-hidden shadow-xl">
       <div className="flex justify-between w-full items-center mb-2 px-2">
-        <span className="font-bold text-sm text-blue-400 uppercase tracking-wider">
+        <span className="font-bold text-sm text-gold-400 uppercase tracking-wider">
           {cellType === 'dry' ? 'Leclanché Dry Cell (Primary)' : cellType === 'lead' ? `Lead Storage Cell (${state})` : 'H₂-O₂ Fuel Cell (Continuous)'}
         </span>
         {cellType === 'lead' && (
           <button
             onClick={onStateToggle}
-            className="px-3 py-1 text-xs bg-indigo-600 hover:bg-indigo-500 rounded font-semibold transition-colors"
+            className="px-3 py-1 text-xs bg-gold-600 hover:bg-gold-500 rounded font-semibold transition-colors"
           >
             Switch to {state === 'discharging' ? 'Charging Mode' : 'Discharge Mode'}
           </button>
@@ -477,10 +477,10 @@ const IntegratedRateVisual: React.FC<{
   return (
     <div className="bg-slate-900/90 border border-slate-700 rounded-xl p-4 flex flex-col items-center justify-between text-white shadow-xl min-h-[300px]">
       <div className="flex justify-between w-full items-center mb-2">
-        <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
           {order === 0 ? 'Zero-Order Kinetics ([A] = [A]₀ - kt)' : 'First-Order Kinetics (ln[A] = ln[A]₀ - kt)'}
         </span>
-        <span className="text-xs bg-indigo-950 border border-indigo-700 px-2 py-0.5 rounded text-indigo-300 font-semibold">
+        <span className="text-xs bg-gold-950 border border-gold-700 px-2 py-0.5 rounded text-gold-300 font-semibold">
           t₁/₂ = {halfLife} s ({order === 0 ? 'Depends on [A]₀' : 'Independent of [A]₀!'})
         </span>
       </div>
@@ -517,7 +517,7 @@ const IntegratedRateVisual: React.FC<{
         </div>
         <div>
           <span className="text-slate-400">First-Order Linear Plot:</span>
-          <span className="font-mono text-indigo-400 ml-1">ln[A] vs t</span>
+          <span className="font-mono text-gold-400 ml-1">ln[A] vs t</span>
         </div>
       </div>
     </div>
@@ -532,10 +532,10 @@ const AdsorptionSurfaceVisual: React.FC<{
   return (
     <div className="bg-slate-900/90 border border-slate-700 rounded-xl p-4 flex flex-col items-center justify-between text-white shadow-xl min-h-[300px]">
       <div className="flex justify-between w-full items-center mb-1">
-        <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
           {type === 'physisorption' ? 'Physisorption (Weak van der Waals)' : 'Chemisorption (Chemical Bond Formation)'}
         </span>
-        <span className="text-xs bg-slate-800 border border-slate-600 px-2 py-0.5 rounded text-cyan-300">
+        <span className="text-xs bg-slate-800 border border-slate-600 px-2 py-0.5 rounded text-gold-300">
           Temp: {temp}°C
         </span>
       </div>
@@ -1062,7 +1062,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
       {/* Top Header Banner */}
       <header className="w-full max-w-5xl bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-4 flex flex-col md:flex-row justify-between items-center shadow-2xl gap-3">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-2xl shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center text-2xl shadow-lg">
             ⚡
           </div>
           <div>
@@ -1100,7 +1100,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
             }}
             className={`flex-1 min-w-[100px] py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
               activeTab === tab.id
-                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
@@ -1116,7 +1116,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
         {activeTab === 'discovery' && (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block mb-2">Discovery Challenge • Predict Before Learning</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-2">Discovery Challenge • Predict Before Learning</span>
               <h2 className="text-lg md:text-xl font-bold text-white mb-4">{DISCOVERY_QUESTION.question}</h2>
 
               <div className="space-y-3 mb-6">
@@ -1131,7 +1131,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                     }}
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start gap-3 ${
                       selectedDiscoveryOpt === idx
-                        ? 'bg-indigo-950/80 border-indigo-500 text-white'
+                        ? 'bg-gold-950/80 border-gold-500 text-white'
                         : 'bg-slate-800/50 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1147,19 +1147,19 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={selectedDiscoveryOpt === null}
-                  className="w-full py-3 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Confirm Prediction
                 </button>
               ) : (
-                <div className="bg-slate-950 border border-indigo-900/60 p-4 rounded-xl space-y-3">
+                <div className="bg-slate-950 border border-gold-900/60 p-4 rounded-xl space-y-3">
                   <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm">
                     <span>💡 Educational Feedback:</span>
                   </div>
                   <p className="text-xs text-slate-300 leading-relaxed">{DISCOVERY_QUESTION.explanation}</p>
                   <button
                     onClick={() => setActiveTab('learn')}
-                    className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-lg transition-colors"
+                    className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-lg transition-colors"
                   >
                     Proceed to Interactive Lessons →
                   </button>
@@ -1175,7 +1175,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
             {/* Slide Navigation Header */}
             <div className="flex justify-between items-center bg-slate-900 p-3 rounded-xl border border-slate-800">
               <span className="text-xs font-bold text-slate-400">
-                Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}: <span className="text-indigo-400">{currentSlide.title}</span>
+                Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}: <span className="text-gold-400">{currentSlide.title}</span>
               </span>
               <div className="flex gap-2">
                 <button
@@ -1188,7 +1188,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                 <button
                   onClick={() => setCurrentSlideIndex(s => Math.min(TEACHING_SLIDES.length - 1, s + 1))}
                   disabled={currentSlideIndex === TEACHING_SLIDES.length - 1}
-                  className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-xs font-bold rounded"
+                  className="px-3 py-1 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-xs font-bold rounded"
                 >
                   Next →
                 </button>
@@ -1198,7 +1198,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
             {/* Slide Content Card */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="space-y-4">
-                <span className="px-2.5 py-1 rounded bg-indigo-950 text-indigo-300 border border-indigo-800 text-[10px] font-bold uppercase">
+                <span className="px-2.5 py-1 rounded bg-gold-950 text-gold-300 border border-gold-800 text-[10px] font-bold uppercase">
                   Node: {NODE_INFO[currentSlide.nodeId].title}
                 </span>
                 <h2 className="text-xl font-bold text-white">{currentSlide.concept}</h2>
@@ -1255,13 +1255,13 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
               {/* Active Lab Component Display */}
               <div className="space-y-4">
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <h3 className="text-xs font-bold text-indigo-400 uppercase mb-3">Cell & Battery Simulator</h3>
+                  <h3 className="text-xs font-bold text-gold-400 uppercase mb-3">Cell & Battery Simulator</h3>
                   <div className="flex gap-2 mb-4">
                     {(['dry', 'lead', 'fuel'] as const).map((t) => (
                       <button
                         key={t}
                         onClick={() => setBatteryType(t)}
-                        className={`px-3 py-1 text-xs rounded font-bold capitalize ${batteryType === t ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1 text-xs rounded font-bold capitalize ${batteryType === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         {t} Cell
                       </button>
@@ -1305,7 +1305,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
               <span className="text-xs font-bold text-slate-300">
                 Question {currentChallengeIndex + 1} of {CHALLENGES.length}
               </span>
-              <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 font-bold border border-indigo-800">
+              <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 font-bold border border-gold-800">
                 Topic: {NODE_INFO[currentChallenge.nodeId].title}
               </span>
             </div>
@@ -1338,7 +1338,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                     }}
                     className={`w-full text-left p-4 rounded-xl border text-xs md:text-sm transition-all flex items-start gap-3 ${
                       selectedOpt === idx
-                        ? 'bg-indigo-950 border-indigo-500 text-white shadow-lg'
+                        ? 'bg-gold-950 border-gold-500 text-white shadow-lg'
                         : 'bg-slate-800/50 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                     } ${
                       answerSubmitted && idx === currentChallenge.correctAnswer
@@ -1359,7 +1359,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                 <button
                   onClick={handleChallengeSubmit}
                   disabled={selectedOpt === null}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all text-xs uppercase tracking-wider"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all text-xs uppercase tracking-wider"
                 >
                   Submit Answer
                 </button>
@@ -1406,7 +1406,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                       </div>
                       <span className={`text-[10px] px-2 py-0.5 rounded font-bold uppercase ${
                         lvl === 'mastered' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                        lvl === 'proficient' ? 'bg-indigo-950 text-indigo-400 border border-indigo-800' :
+                        lvl === 'proficient' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                         'bg-slate-800 text-slate-400'
                       }`}>
                         {lvl}
@@ -1421,7 +1421,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                   setCurrentChallengeIndex(0);
                   setActiveTab('challenges');
                 }}
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg text-xs uppercase tracking-wider transition-all"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg text-xs uppercase tracking-wider transition-all"
               >
                 Restart Practice Suite
               </button>

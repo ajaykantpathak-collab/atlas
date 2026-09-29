@@ -56,18 +56,18 @@ export function C11_BiologyExcretoryNephronSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>GFR (filtration rate)</span>
-            <span className="text-indigo-300 font-mono font-bold">{gfr} mL/min</span>
+            <span className="text-gold-300 font-mono font-bold">{gfr} mL/min</span>
           </label>
           <input type="range" min={60} max={140} step={1} value={gfr} aria-label="glomerular filtration rate"
-            onChange={(e) => setGfr(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setGfr(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Water reabsorbed in tubules</span>
-            <span className="text-sky-300 font-mono font-bold">{effReabs.toFixed(1)} %</span>
+            <span className="text-gold-300 font-mono font-bold">{effReabs.toFixed(1)} %</span>
           </label>
           <input type="range" min={95} max={99.5} step={0.1} value={reabs} aria-label="percentage of water reabsorbed"
-            onChange={(e) => setReabs(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-sky-500" />
+            onChange={(e) => setReabs(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="flex flex-col gap-2">
           <button onClick={() => setAdh(!adh)} className={`min-h-11 px-3 rounded-xl text-xs font-bold border ${adh ? 'bg-emerald-950/60 border-emerald-700 text-emerald-300' : 'bg-rose-950/60 border-rose-700 text-rose-300'}`}>
@@ -109,13 +109,13 @@ export function C11_BiologyExcretoryNephronSim() {
 
       {/* LIVE COUNTERS */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
-        <div className="p-3 bg-slate-900 rounded-2xl border border-indigo-800 text-center">
+        <div className="p-3 bg-slate-900 rounded-2xl border border-gold-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Filtrate formed</p>
-          <p className="text-lg font-extrabold text-indigo-300 font-mono">{filtratePerDay.toFixed(0)} L/day</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{filtratePerDay.toFixed(0)} L/day</p>
         </div>
-        <div className="p-3 bg-slate-900 rounded-2xl border border-sky-800 text-center">
+        <div className="p-3 bg-slate-900 rounded-2xl border border-gold-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Water reabsorbed</p>
-          <p className="text-lg font-extrabold text-sky-300 font-mono">{(filtratePerDay - urinePerDay).toFixed(1)} L/day</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{(filtratePerDay - urinePerDay).toFixed(1)} L/day</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-amber-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Urine passed</p>
@@ -129,7 +129,7 @@ export function C11_BiologyExcretoryNephronSim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p className="mb-2">
-          <span className="font-bold text-sky-300">Healthy urine output: 0.6 - 2.5 L/day.</span> You are
+          <span className="font-bold text-gold-300">Healthy urine output: 0.6 - 2.5 L/day.</span> You are
           {urinePerDay >= 0.6 && urinePerDay <= 2.5 ? (
             <span className="font-bold text-emerald-300"> INSIDE the normal range.</span>
           ) : (

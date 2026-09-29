@@ -11,7 +11,7 @@ export const w_c11_geoclimatecbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance)',
     chapters: [],
     nodeIds: ['c11_geo_cbse_10_001', 'c11_geo_cbse_10_002', 'c11_geo_cbse_10_003', 'c11_geo_cbse_10_004', 'c11_geo_cbse_10_005', 'c11_geo_cbse_10_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe how Shimla (31°N, 2200m) is pleasant in May while Delhi (28°N, 216m) scorches at 45°C — same latitude.', goal: 'Master Climate: Factors Affecting India\'s Climate (Latitude, Altitude, Distance).' },
     discovery: {
         question: 'A REMEMBER level question: State the approximate latitudinal extent of mainland India and name the parallel that divides the country into tropical and.',
@@ -20,7 +20,7 @@ export const w_c11_geoclimatecbsesim: SimDef = {
         hook: 'Students believe **"Latitude is the primary control everywhere in India"** because textbooks list it first.',
     },
     teaching: [
-        { title: 'India\'s climate is controlled by three.', text: 'India\'s climate is controlled by three primary physiographic factors: **latitude** (8°4\'N to 37°6\'N) determines the angle and duration of solar insolation, creating tropical and subtropical zones;.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'India\'s climate is controlled by three.', text: 'India\'s climate is controlled by three primary physiographic factors: **latitude** (8°4\'N to 37°6\'N) determines the angle and duration of solar insolation, creating tropical and subtropical zones;.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_10_001', title: 'India\'s climate is controlled by three.',

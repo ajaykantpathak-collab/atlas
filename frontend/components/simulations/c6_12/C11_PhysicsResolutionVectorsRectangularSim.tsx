@@ -1235,13 +1235,13 @@ function C11_PhysicsResolutionVectorsRectangularSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="p-3 bg-indigo-900/40 border border-indigo-700/50 rounded-2xl text-2xl"
+            className="p-3 bg-gold-900/40 border border-gold-700/50 rounded-2xl text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-wider text-indigo-400 font-bold">
+              <span className="text-xs uppercase tracking-wider text-gold-400 font-bold">
                 ISC Class 11 Physics (Mechanics Core)
               </span>
               <motion.span
@@ -1265,7 +1265,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/60 text-blue-400 border-blue-700'
+                ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                 : 'bg-rose-950/60 text-rose-400 border-rose-700'
             }`}
           >
@@ -1293,16 +1293,16 @@ function C11_PhysicsResolutionVectorsRectangularSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-3xl border border-indigo-800/60 shadow-xl"
+              className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-3xl border border-gold-800/60 shadow-xl"
             >
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
                 <span>🚀</span> MISSION BRIEFING
               </div>
               <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <motion.div
                 whileHover={{ scale: 1.01 }}
-                className="p-4 bg-slate-950/80 rounded-2xl border border-indigo-900/40 text-xs text-indigo-300"
+                className="p-4 bg-slate-950/80 rounded-2xl border border-gold-900/40 text-xs text-gold-300"
               >
                 📌 {SCENARIO.context}
               </motion.div>
@@ -1337,7 +1337,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         : 'bg-slate-800 hover:bg-slate-700/80 border border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="inline-block w-6 font-bold text-indigo-400">
+                    <span className="inline-block w-6 font-bold text-gold-400">
                       {String.fromCharCode(65 + idx)}.
                     </span>
                     {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && (
@@ -1376,7 +1376,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleAdvanceToExploration}
-                      className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold rounded-2xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                      className="px-8 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold rounded-2xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                     >
                       Enter Interactive Vector Labs →
                     </motion.button>
@@ -1400,7 +1400,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
           >
             <div className="flex items-center justify-between">
               <div>
-                <span className="text-xs uppercase tracking-wider text-indigo-400 font-bold">
+                <span className="text-xs uppercase tracking-wider text-gold-400 font-bold">
                   Interactive Guided Discovery
                 </span>
                 <h2 className="text-xl font-black text-white">
@@ -1417,7 +1417,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     whileTap={{ scale: 0.9 }}
                     onClick={() => setCurrentSlide(i)}
                     className={`w-3.5 h-3.5 rounded-full cursor-pointer transition-all border-0 ${
-                      i === currentSlide ? 'bg-indigo-500 scale-125' : 'bg-slate-700 hover:bg-slate-600'
+                      i === currentSlide ? 'bg-gold-500 scale-125' : 'bg-slate-700 hover:bg-slate-600'
                     }`}
                   />
                 ))}
@@ -1504,7 +1504,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                 <motion.div
                   initial={{ opacity: 0, y: -5 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-900/60 text-sm text-indigo-300 font-medium"
+                  className="p-4 bg-gold-950/40 rounded-2xl border border-gold-900/60 text-sm text-gold-300 font-medium"
                 >
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
                 </motion.div>
@@ -1589,7 +1589,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         <div>
                           <div className="flex justify-between text-xs font-bold text-slate-400 mb-1">
                             <span>Vector Magnitude (A)</span>
-                            <span className="text-indigo-400">{vectorMag} N</span>
+                            <span className="text-gold-400">{vectorMag} N</span>
                           </div>
                           <input
                             type="range"
@@ -1598,7 +1598,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                             aria-label="Adjust Vector Magnitude"
                             value={vectorMag}
                             onChange={(e) => handleVectorMagChange(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
 
@@ -1622,9 +1622,9 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                       <div className="grid grid-cols-2 gap-3">
                         <motion.div
                           whileHover={{ scale: 1.03 }}
-                          className="p-4 bg-cyan-950/40 border border-cyan-800/60 rounded-2xl"
+                          className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl"
                         >
-                          <span className="text-[10px] text-cyan-400 font-bold uppercase block">X-Component</span>
+                          <span className="text-[10px] text-gold-400 font-bold uppercase block">X-Component</span>
                           <div className="text-xl font-black text-white">{compAx} N</div>
                           <span className="text-xs text-slate-400">Ax = A cos({vectorAngle}°)</span>
                         </motion.div>
@@ -1719,9 +1719,9 @@ function C11_PhysicsResolutionVectorsRectangularSim({
 
                       <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-800"
+                        className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-800"
                       >
-                        <span className="text-xs uppercase tracking-wider text-indigo-400 font-bold block mb-1">
+                        <span className="text-xs uppercase tracking-wider text-gold-400 font-bold block mb-1">
                           Scalar Dot Product Work:
                         </span>
                         <div className="text-3xl font-black text-white">{scalarWork} Joules</div>
@@ -1779,7 +1779,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                       >
                         <div className="flex justify-between text-xs font-bold text-slate-400 mb-1">
                           <span>Launch Speed (u)</span>
-                          <span className="text-cyan-400">{projSpeed} m/s</span>
+                          <span className="text-gold-400">{projSpeed} m/s</span>
                         </div>
                         <input
                           type="range"
@@ -1788,13 +1788,13 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                           aria-label="Adjust Projectile Launch Speed"
                           value={projSpeed}
                           onChange={(e) => handleProjSpeedChange(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </motion.div>
 
                       <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-4 bg-indigo-950/50 border border-indigo-800 rounded-2xl text-xs space-y-1"
+                        className="p-4 bg-gold-950/50 border border-gold-800 rounded-2xl text-xs space-y-1"
                       >
                         <div className="flex justify-between">
                           <span className="text-slate-400">Time of Flight (T):</span>
@@ -1850,7 +1850,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         <div>
                           <div className="flex justify-between text-xs font-bold text-slate-400 mb-1">
                             <span>Radius (r)</span>
-                            <span className="text-indigo-400">{circRadius} m</span>
+                            <span className="text-gold-400">{circRadius} m</span>
                           </div>
                           <input
                             type="range"
@@ -1859,7 +1859,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                             aria-label="Adjust Track Radius"
                             value={circRadius}
                             onChange={(e) => setCircRadius(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                       </motion.div>
@@ -1875,9 +1875,9 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         </motion.div>
                         <motion.div
                           whileHover={{ scale: 1.03 }}
-                          className="p-4 bg-indigo-950/40 border border-indigo-800 rounded-2xl"
+                          className="p-4 bg-gold-950/40 border border-gold-800 rounded-2xl"
                         >
-                          <span className="text-[10px] text-indigo-400 font-bold uppercase block">Ideal Banking</span>
+                          <span className="text-[10px] text-gold-400 font-bold uppercase block">Ideal Banking</span>
                           <div className="text-xl font-black text-white">{bankingTan}</div>
                           <span className="text-[11px] text-slate-400">tan θ = v²/(rg)</span>
                         </motion.div>
@@ -1897,7 +1897,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                       whileHover={{ scale: 1.01 }}
                       className="lg:col-span-7 bg-slate-950 p-6 rounded-3xl border border-slate-800 space-y-4"
                     >
-                      <h4 className="text-sm font-bold text-indigo-400">Force-Time Impact Profile</h4>
+                      <h4 className="text-sm font-bold text-gold-400">Force-Time Impact Profile</h4>
                       <svg viewBox="0 0 360 160" className="w-full">
                         <line x1="30" y1="130" x2="340" y2="130" stroke="#64748b" strokeWidth="2" />
                         <line x1="30" y1="130" x2="30" y2="20" stroke="#64748b" strokeWidth="2" />
@@ -1938,7 +1938,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         <div>
                           <div className="flex justify-between text-xs font-bold text-slate-400 mb-1">
                             <span>Impact Duration Δt</span>
-                            <span className="text-cyan-400">{impulseTime.toFixed(2)} s</span>
+                            <span className="text-gold-400">{impulseTime.toFixed(2)} s</span>
                           </div>
                           <input
                             type="range"
@@ -1948,7 +1948,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                             aria-label="Adjust Impact Duration"
                             value={impulseTime}
                             onChange={(e) => setImpulseTime(Number(e.target.value))}
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                       </motion.div>
@@ -1976,9 +1976,9 @@ function C11_PhysicsResolutionVectorsRectangularSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-cyan-950/40 to-slate-900 rounded-3xl border border-cyan-800/50 space-y-3"
+              className="p-5 bg-gradient-to-r from-gold-950/40 to-slate-900 rounded-3xl border border-gold-800/50 space-y-3"
             >
-              <div className="flex items-center gap-2 text-cyan-400 font-bold text-xs uppercase tracking-wider">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
                 <span>🔍</span> Observation Check: What do you notice? ({OBSERVATION_QUESTIONS[currentSlide % OBSERVATION_QUESTIONS.length].id})
               </div>
               <h3 className="text-sm sm:text-base font-bold text-white">
@@ -2016,7 +2016,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                           : 'bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-300'
                       }`}
                     >
-                      <span className="font-bold mr-1.5 text-cyan-400">{String.fromCharCode(65 + oIdx)}.</span>
+                      <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span>
                       {isAnswered && isCorrect && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                       {isAnswered && isChosen && !isCorrect && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                       {opt}
@@ -2029,9 +2029,9 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="p-3 bg-cyan-900/30 border border-cyan-700/60 rounded-xl text-xs text-cyan-200"
+                  className="p-3 bg-gold-900/30 border border-gold-700/60 rounded-xl text-xs text-gold-200"
                 >
-                  <p className="font-semibold text-cyan-300">💡 Key Observation Insight:</p>
+                  <p className="font-semibold text-gold-300">💡 Key Observation Insight:</p>
                   <p className="text-slate-300">
                     {OBSERVATION_QUESTIONS[currentSlide % OBSERVATION_QUESTIONS.length].explanation}
                   </p>
@@ -2058,7 +2058,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide((s) => s + 1)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-semibold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold"
                 >
                   Next Lab →
                 </motion.button>
@@ -2107,7 +2107,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                 whileHover={{ scale: 1.01 }}
                 className="p-5 bg-slate-900 rounded-3xl border border-slate-800 space-y-4"
               >
-                <h4 className="text-sm font-bold text-indigo-400">Real-Time Trajectory Live Graph</h4>
+                <h4 className="text-sm font-bold text-gold-400">Real-Time Trajectory Live Graph</h4>
                 <div className="bg-slate-950 p-2 rounded-2xl border border-slate-800">
                   <canvas ref={trajectoryCanvasRef} width={400} height={180} className="w-full" />
                 </div>
@@ -2125,7 +2125,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                 <h4 className="text-sm font-bold text-amber-400">Vector Resolution Live Visualiser</h4>
                 <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 flex justify-between items-center">
                   <div>
-                    <div className="text-sm text-cyan-400 font-bold">Ax = {compAx} N</div>
+                    <div className="text-sm text-gold-400 font-bold">Ax = {compAx} N</div>
                     <div className="text-sm text-rose-400 font-bold">Ay = {compAy} N</div>
                     <div className="text-xs text-slate-500 mt-1">Magnitude = {vectorMag} N</div>
                   </div>
@@ -2173,7 +2173,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
             {/* Progress & Header */}
             <div className="space-y-2">
               <div className="flex justify-between items-center text-xs">
-                <span className="font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-slate-400">
@@ -2182,7 +2182,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
               </div>
               <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -2227,7 +2227,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                             : 'bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-slate-200'
                         }`}
                       >
-                        <span className="inline-block w-6 font-bold text-indigo-400">
+                        <span className="inline-block w-6 font-bold text-gold-400">
                           {String.fromCharCode(65 + i)}.
                         </span>
                         {showExplanation && i === challenge.correctIndex && (
@@ -2255,7 +2255,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                       >
                         ⠿ {item.label}
                       </motion.div>
@@ -2289,7 +2289,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-sm font-bold"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-sm font-bold"
                   >
                     Verify Dragged Labels
                   </motion.button>
@@ -2318,7 +2318,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3 border border-slate-700"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px]">
                         {dIdx + 1}
                       </span>
                       {item}
@@ -2331,7 +2331,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-sm font-bold"
+                    className="px-6 py-2 bg-gold-600 text-white rounded-xl text-sm font-bold"
                   >
                     Verify Ordered Steps
                   </motion.button>
@@ -2356,7 +2356,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-sm font-bold"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-sm font-bold"
                   >
                     Submit Answer
                   </motion.button>
@@ -2374,7 +2374,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-indigo-300 font-bold"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-gold-300 font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2390,7 +2390,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 rounded-lg text-xs font-bold text-white flex items-center gap-1"
+                        className="px-3 py-1 bg-gold-900/60 border border-gold-700 rounded-lg text-xs font-bold text-white flex items-center gap-1"
                       >
                         {part}
                         <motion.button
@@ -2412,7 +2412,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-sm font-bold"
+                    className="px-6 py-2 bg-gold-600 text-white rounded-xl text-sm font-bold"
                   >
                     Check Construction
                   </motion.button>
@@ -2493,7 +2493,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
             <motion.div
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-3"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-3"
             >
               <div className="text-4xl">🎖️</div>
               <motion.div
@@ -2522,7 +2522,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                   className="p-4 bg-slate-900 rounded-2xl border border-slate-800"
                 >
                   <span className="text-xs text-slate-400 block">Mastery Tier</span>
-                  <span className="text-2xl font-black text-indigo-400 uppercase">{masteryLevel}</span>
+                  <span className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</span>
                 </motion.div>
               </div>
             </motion.div>
@@ -2531,12 +2531,12 @@ function C11_PhysicsResolutionVectorsRectangularSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-indigo-700/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-xl"
+              className="p-6 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-gold-700/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-xl"
             >
               <div className="space-y-1">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">📅</span>
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Spaced Repetition Schedule (SuperMemo SM-2)
                   </span>
                 </div>
@@ -2551,8 +2551,8 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                   Calculated based on {errors} recorded attempt error(s) and {scoreBreakdown.correct}/{scoreBreakdown.total} challenge accuracy. Reviewing on schedule maximizes long-term neural recall.
                 </p>
               </div>
-              <div className="px-5 py-3 bg-indigo-900/60 border border-indigo-600/60 rounded-2xl text-center self-stretch sm:self-auto flex sm:flex-col justify-between items-center">
-                <span className="text-[10px] text-indigo-300 font-bold uppercase block">SRS Interval</span>
+              <div className="px-5 py-3 bg-gold-900/60 border border-gold-600/60 rounded-2xl text-center self-stretch sm:self-auto flex sm:flex-col justify-between items-center">
+                <span className="text-[10px] text-gold-300 font-bold uppercase block">SRS Interval</span>
                 <span className="text-2xl font-black text-amber-300">+{srsIntervalDays}d</span>
               </div>
             </motion.div>
@@ -2563,7 +2563,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4"
             >
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
                 <span>💭</span> POST-MISSION REFLECTION
               </div>
               <p className="text-xs text-slate-400">Consolidate your learning by answering these metacognitive questions:</p>
@@ -2579,7 +2579,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     value={reflection1}
                     onChange={(e) => setReflection1(e.target.value)}
                     placeholder="e.g. Work is zero when moving horizontally with vertical weight..."
-                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-indigo-500"
+                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-gold-500"
                   />
                 </motion.div>
 
@@ -2593,7 +2593,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     value={reflection2}
                     onChange={(e) => setReflection2(e.target.value)}
                     placeholder="e.g. Decomposing any diagonal walk into independent east and north steps..."
-                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-indigo-500"
+                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-gold-500"
                   />
                 </motion.div>
 
@@ -2607,7 +2607,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     value={reflection3}
                     onChange={(e) => setReflection3(e.target.value)}
                     placeholder="e.g. Banking highway curves, rocket booster staging, catching cricket balls safely..."
-                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-indigo-500"
+                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-gold-500"
                   />
                 </motion.div>
               </div>
@@ -2644,9 +2644,9 @@ function C11_PhysicsResolutionVectorsRectangularSim({
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="p-6 bg-indigo-950/40 rounded-3xl border border-indigo-800 space-y-3"
+              className="p-6 bg-gold-950/40 rounded-3xl border border-gold-800 space-y-3"
             >
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
@@ -2655,7 +2655,7 @@ function C11_PhysicsResolutionVectorsRectangularSim({
                     whileHover={{ x: 3 }}
                     className="text-xs text-slate-400 flex items-start gap-2"
                   >
-                    <span className="text-indigo-400 font-bold">{i + 1}.</span> {st}
+                    <span className="text-gold-400 font-bold">{i + 1}.</span> {st}
                   </motion.li>
                 ))}
               </ul>

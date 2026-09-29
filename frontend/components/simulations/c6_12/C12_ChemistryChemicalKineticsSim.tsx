@@ -45,9 +45,9 @@ export function C12_ChemistryChemicalKineticsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700 font-mono">k</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">k</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 12 -- Chemical Kinetics</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Chemical Kinetics</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Arrhenius Energy Barrier Meets First-Order Decay</h1>
         </div>
       </div>
@@ -85,8 +85,8 @@ export function C12_ChemistryChemicalKineticsSim() {
           </svg>
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-2 gap-2">
-            <div><span className="text-slate-500">Rate constant k(T)</span><div className="text-sky-300 font-bold text-sm">{k1.toExponential(3)} s^-1</div></div>
-            <div><span className="text-slate-500">Half-life t1/2 = ln2/k</span><div className="text-cyan-300 font-bold text-sm">{halfLife1 < 100 ? halfLife1.toFixed(2) + ' s' : halfLife1.toFixed(0) + ' s'}</div></div>
+            <div><span className="text-slate-500">Rate constant k(T)</span><div className="text-gold-300 font-bold text-sm">{k1.toExponential(3)} s^-1</div></div>
+            <div><span className="text-slate-500">Half-life t1/2 = ln2/k</span><div className="text-gold-300 font-bold text-sm">{halfLife1 < 100 ? halfLife1.toFixed(2) + ' s' : halfLife1.toFixed(0) + ' s'}</div></div>
             <div><span className="text-slate-500">Rate now = k[A]</span><div className="text-pink-300 font-bold text-sm">{rate1.toFixed(3)} %/s</div></div>
             <div><span className="text-slate-500">k(T+10)/k(T)</span><div className="text-amber-300 font-bold text-sm">{(k2 / k1).toFixed(2)}x (10-degree rule)</div></div>
           </div>
@@ -103,10 +103,10 @@ export function C12_ChemistryChemicalKineticsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Temperature T</span><span className="font-mono font-bold text-sky-400">{tempK} K</span>
+                <span>Temperature T</span><span className="font-mono font-bold text-gold-400">{tempK} K</span>
               </div>
               <input type="range" min={260} max={400} step={5} value={tempK} aria-label="Temperature"
-                onChange={(e) => setTempK(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setTempK(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -121,8 +121,8 @@ export function C12_ChemistryChemicalKineticsSim() {
             </button>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-cyan-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-cyan-300 font-bold">Worked chain (first order)</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Worked chain (first order)</div>
             <div className="text-slate-400">k = 10^13 x e^(-{eaKJ * 1000}/({RGAS.toFixed(2)}x{tempK}))</div>
             <div className="text-slate-400">[A] = 100 e^(-kt) -- t1/2 independent of [A]0</div>
             <div className="text-slate-400">ln[A] vs t is a straight line, slope = -k</div>
@@ -140,8 +140,8 @@ export function C12_ChemistryChemicalKineticsSim() {
             </p>
           </div>
 
-          <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-            <p className="font-bold text-cyan-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Raise Ea from 60 to 100 kJ at 300 K and record k each time -- roughly how many orders of magnitude does 40 kJ cost?</p>
             <p>2. Use the cursor to find t at 12.5% remaining and divide by t1/2 -- the answer should be 3 for ANY settings. Explain why.</p>
           </div>

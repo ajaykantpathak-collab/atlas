@@ -105,13 +105,13 @@ export function C11_BiologyNeuralControlAndCoordinationSim() {
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-2 gap-2">
             <div><span className="text-slate-500">Membrane potential now</span>
-              <div className={`font-bold text-sm ${vNow > threshold ? 'text-amber-300' : vNow < REST - 5 ? 'text-sky-300' : 'text-emerald-300'}`}>{vNow.toFixed(1)} mV</div></div>
+              <div className={`font-bold text-sm ${vNow > threshold ? 'text-amber-300' : vNow < REST - 5 ? 'text-gold-300' : 'text-emerald-300'}`}>{vNow.toFixed(1)} mV</div></div>
             <div><span className="text-slate-500">Phase</span>
               <div className="text-slate-200 font-bold text-sm">
                 {!firing ? 'resting' : tMs < 1 ? 'depolarising (Na+ gates open)' : tMs < 3 ? 'repolarising (K+ gates open)' : tMs < 6 ? 'hyperpolarised (K+ slow to shut)' : 'recovering'}
               </div></div>
             <div><span className="text-slate-500">E_Na (Nernst)</span><div className="text-pink-300 font-bold text-sm">{eNa.toFixed(1)} mV</div></div>
-            <div><span className="text-slate-500">E_K (Nernst)</span><div className="text-sky-300 font-bold text-sm">{eK.toFixed(1)} mV</div></div>
+            <div><span className="text-slate-500">E_K (Nernst)</span><div className="text-gold-300 font-bold text-sm">{eK.toFixed(1)} mV</div></div>
           </div>
         </div>
 
@@ -146,10 +146,10 @@ export function C11_BiologyNeuralControlAndCoordinationSim() {
             {([['K+ outside', kOut, setKOut, 2, 10], ['K+ inside', kIn, setKIn, 90, 160]] as [string, number, (n: number) => void, number, number][]).map(([lbl, val, set, lo, hi]) => (
               <div key={lbl}>
                 <div className="flex justify-between text-[11px] text-slate-400">
-                  <span>{lbl}</span><span className="font-mono font-bold text-sky-400">{val} mM</span>
+                  <span>{lbl}</span><span className="font-mono font-bold text-gold-400">{val} mM</span>
                 </div>
                 <input type="range" min={lo} max={hi} step={1} value={val} aria-label={lbl}
-                  onChange={(e) => set(Number(e.target.value))} className="w-full accent-sky-500" />
+                  onChange={(e) => set(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
             ))}
           </div>

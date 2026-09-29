@@ -1032,7 +1032,7 @@ export function C6_MathematicsCardinalitySim({
 
   return (
     <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden font-sans">
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* ── HEADER ── */}
@@ -1041,7 +1041,7 @@ export function C6_MathematicsCardinalitySim({
           <motion.div
             whileHover={{ rotate: 360, scale: 1.1 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20 cursor-pointer"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20 cursor-pointer"
             onClick={handleSparkleClick}
           >
             {subjectConfig.emoji}
@@ -1050,7 +1050,7 @@ export function C6_MathematicsCardinalitySim({
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
             </h1>
-            <p className="text-xs text-indigo-300 font-medium">
+            <p className="text-xs text-gold-300 font-medium">
               ICSE Class 6 Mathematics • <span className="text-emerald-400 font-mono">10 Curricular Units</span>
             </p>
           </div>
@@ -1066,14 +1066,14 @@ export function C6_MathematicsCardinalitySim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/80 border-blue-500 text-blue-300'
+                ? 'bg-gold-950/80 border-gold-500 text-gold-300'
                 : 'bg-rose-950/80 border-rose-500 text-rose-300'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs font-semibold text-slate-300">
-            Mastery: <span className="text-indigo-400 capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-400 capitalize">{masteryLevel}</span>
           </div>
         </div>
       </header>
@@ -1085,8 +1085,8 @@ export function C6_MathematicsCardinalitySim({
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
         >
-          <div className="p-5 md:p-6 bg-gradient-to-r from-indigo-950/90 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-1">
+          <div className="p-5 md:p-6 bg-gradient-to-r from-gold-950/90 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-widest mb-1">
               <span>🚀 Mission Scenario</span>
             </div>
             <h2 className="text-lg md:text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
@@ -1151,7 +1151,7 @@ export function C6_MathematicsCardinalitySim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2 text-sm"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1176,7 +1176,7 @@ export function C6_MathematicsCardinalitySim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1194,7 +1194,7 @@ export function C6_MathematicsCardinalitySim({
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4 shadow-xl"
             >
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-2">
-                <h3 className="text-lg font-bold text-indigo-300">
+                <h3 className="text-lg font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs text-amber-400 bg-amber-950/40 border border-amber-800/60 px-3 py-1 rounded-full font-medium">
@@ -1236,7 +1236,7 @@ export function C6_MathematicsCardinalitySim({
                           <text x="120" y="110" textAnchor="middle" fill="#64748b" fontSize="12" fontStyle="italic">Empty Set {'{ }'} : n(S)=0</text>
                         )}
                       </svg>
-                      <p className="text-xs text-indigo-300 mt-2 font-mono">
+                      <p className="text-xs text-gold-300 mt-2 font-mono">
                         Venn Diagram: n(S) = {distinctCount} unique item{distinctCount !== 1 ? 's' : ''}
                       </p>
                     </div>
@@ -1252,7 +1252,7 @@ export function C6_MathematicsCardinalitySim({
                               whileHover={{ scale: 1.1, y: -2 }}
                               whileTap={{ scale: 0.9 }}
                               onClick={() => handleAddItemToSet(val)}
-                              className="w-10 h-10 rounded-xl bg-indigo-900/70 border border-indigo-600 text-white font-bold text-sm flex items-center justify-center hover:bg-indigo-800 shadow-md"
+                              className="w-10 h-10 rounded-xl bg-gold-900/70 border border-gold-600 text-white font-bold text-sm flex items-center justify-center hover:bg-gold-800 shadow-md"
                             >
                               {val}
                             </motion.button>
@@ -1349,7 +1349,7 @@ export function C6_MathematicsCardinalitySim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Denominator (Total Equal Slices):</span>
-                          <span className="font-mono font-bold text-indigo-400">{pizzaTotal}</span>
+                          <span className="font-mono font-bold text-gold-400">{pizzaTotal}</span>
                         </div>
                         <input
                           type="range"
@@ -1360,7 +1360,7 @@ export function C6_MathematicsCardinalitySim({
                             setPizzaTotal(Number(e.target.value));
                             if (pizzaShaded > Number(e.target.value)) setPizzaShaded(Number(e.target.value));
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Denominator slider"
                         />
                       </div>
@@ -1384,7 +1384,7 @@ export function C6_MathematicsCardinalitySim({
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1">
                         <p className="text-slate-300">
                           Classification:{' '}
-                          <span className="font-bold text-indigo-300">
+                          <span className="font-bold text-gold-300">
                             {pizzaShaded < pizzaTotal
                               ? 'Proper Fraction (Value < 1)'
                               : 'Whole / Improper (Value = 1)'}
@@ -1422,7 +1422,7 @@ export function C6_MathematicsCardinalitySim({
               {currentSlide === 2 && (
                 <div className="space-y-4 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   <p className="text-xs text-slate-400">
-                    Compare Fraction A (<span className="text-indigo-400 font-bold">{fracNum1}/{fracDen1}</span>) with Fraction B (<span className="text-purple-400 font-bold">{fracNum2}/{fracDen2}</span>) visually:
+                    Compare Fraction A (<span className="text-gold-400 font-bold">{fracNum1}/{fracDen1}</span>) with Fraction B (<span className="text-purple-400 font-bold">{fracNum2}/{fracDen2}</span>) visually:
                   </p>
 
                   {/* TOPIC SVG 3: FRACTION STRIP COMPARISON */}
@@ -1469,8 +1469,8 @@ export function C6_MathematicsCardinalitySim({
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="p-4 bg-slate-900 rounded-xl border border-indigo-900/60 space-y-2">
-                      <p className="text-xs font-bold text-indigo-400">Fraction A</p>
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-900/60 space-y-2">
+                      <p className="text-xs font-bold text-gold-400">Fraction A</p>
                       <div className="flex gap-2">
                         <label className="text-xs text-slate-400">Num: </label>
                         <input
@@ -1531,14 +1531,14 @@ export function C6_MathematicsCardinalitySim({
                           <p className="text-slate-300">
                             LCM of Denominators ({fracDen1}, {fracDen2}) = <span className="font-bold text-amber-400">{lcm}</span>
                           </p>
-                          <p className="font-mono text-indigo-300">
+                          <p className="font-mono text-gold-300">
                             {fracNum1}/{fracDen1} = {eqNum1}/{lcm}
                           </p>
                           <p className="font-mono text-purple-300">
                             {fracNum2}/{fracDen2} = {eqNum2}/{lcm}
                           </p>
                         </div>
-                        <div className="p-3 bg-indigo-950/80 rounded-xl border border-indigo-600 text-center">
+                        <div className="p-3 bg-gold-950/80 rounded-xl border border-gold-600 text-center">
                           <p className="text-xs text-slate-300">Inequality Verdict</p>
                           <p className="text-lg font-black text-white">
                             {fracNum1}/{fracDen1} {comparison} {fracNum2}/{fracDen2}
@@ -1594,7 +1594,7 @@ export function C6_MathematicsCardinalitySim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Extra Hundredths Squares (1/100 each):</span>
-                          <span className="font-mono font-bold text-indigo-400">{gridHundredths} hundredths (0.0{gridHundredths})</span>
+                          <span className="font-mono font-bold text-gold-400">{gridHundredths} hundredths (0.0{gridHundredths})</span>
                         </div>
                         <input
                           type="range"
@@ -1602,7 +1602,7 @@ export function C6_MathematicsCardinalitySim({
                           max={9}
                           value={gridHundredths}
                           onChange={e => setGridHundredths(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Hundredths slider"
                         />
                       </div>
@@ -1625,7 +1625,7 @@ export function C6_MathematicsCardinalitySim({
                 <div className="space-y-4 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-                      <p className="text-xs font-bold text-indigo-400 uppercase">Itemized Bill (Vertical Alignment)</p>
+                      <p className="text-xs font-bold text-gold-400 uppercase">Itemized Bill (Vertical Alignment)</p>
                       <div className="space-y-2 text-xs">
                         <div>
                           <label className="text-slate-400">Pen / Notebook (₹): </label>
@@ -1662,7 +1662,7 @@ export function C6_MathematicsCardinalitySim({
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs space-y-2">
                       <p className="text-slate-400">Step 1: Aligned Addition</p>
-                      <div className="pl-4 border-l-2 border-indigo-500 text-slate-200">
+                      <div className="pl-4 border-l-2 border-gold-500 text-slate-200">
                         <p>  ₹ {item1Price.toFixed(2)}</p>
                         <p>+ ₹ {item2Price.toFixed(2)}</p>
                         <p className="border-t border-slate-700 font-bold text-amber-300">
@@ -1712,7 +1712,7 @@ export function C6_MathematicsCardinalitySim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1753,7 +1753,7 @@ export function C6_MathematicsCardinalitySim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
             {/* Visual Number Line & Fraction Bar */}
             <div className="space-y-4">
-              <p className="text-xs font-bold text-indigo-400 uppercase">Live Number Line [0 to 2]</p>
+              <p className="text-xs font-bold text-gold-400 uppercase">Live Number Line [0 to 2]</p>
               <div className="relative h-16 bg-slate-900 rounded-xl border border-slate-800 flex items-center px-4">
                 <div className="w-full h-1 bg-slate-700 relative">
                   <div className="absolute -top-2 left-0 w-0.5 h-5 bg-white"><span className="absolute top-6 -left-1 text-xs font-bold">0</span></div>
@@ -1761,7 +1761,7 @@ export function C6_MathematicsCardinalitySim({
                   <div className="absolute -top-2 right-0 w-0.5 h-5 bg-white"><span className="absolute top-6 -left-1 text-xs font-bold">2</span></div>
 
                   <motion.div
-                    className="absolute -top-3 w-7 h-7 bg-indigo-500 rounded-full border-2 border-white flex items-center justify-center text-xs font-bold text-white shadow-lg shadow-indigo-500/50"
+                    className="absolute -top-3 w-7 h-7 bg-gold-500 rounded-full border-2 border-white flex items-center justify-center text-xs font-bold text-white shadow-lg shadow-gold-500/50"
                     animate={{ left: `${Math.min(100, (sandboxNumerator / sandboxDenominator / 2) * 100)}%` }}
                     style={{ transform: 'translateX(-50%)' }}
                   >
@@ -1772,7 +1772,7 @@ export function C6_MathematicsCardinalitySim({
 
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1">
                 <p className="text-slate-300">
-                  Improper Form: <span className="font-bold text-indigo-400">{sandboxNumerator}/{sandboxDenominator}</span>
+                  Improper Form: <span className="font-bold text-gold-400">{sandboxNumerator}/{sandboxDenominator}</span>
                 </p>
                 <p className="text-slate-300">
                   Mixed Form:{' '}
@@ -1791,7 +1791,7 @@ export function C6_MathematicsCardinalitySim({
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Numerator:</span>
-                  <span className="font-bold font-mono text-indigo-400">{sandboxNumerator}</span>
+                  <span className="font-bold font-mono text-gold-400">{sandboxNumerator}</span>
                 </div>
                 <input
                   type="range"
@@ -1799,7 +1799,7 @@ export function C6_MathematicsCardinalitySim({
                   max={24}
                   value={sandboxNumerator}
                   onChange={e => setSandboxNumerator(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1835,13 +1835,13 @@ export function C6_MathematicsCardinalitySim({
                 Challenge <span className="text-white font-bold">{currentChallenge + 1}</span> of{' '}
                 <span className="text-white font-bold">{filteredChallenges.length}</span>
               </span>
-              <span className="text-indigo-400 uppercase font-mono tracking-wider">
+              <span className="text-gold-400 uppercase font-mono tracking-wider">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -1901,7 +1901,7 @@ export function C6_MathematicsCardinalitySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                       role="button"
                       aria-label={`Draggable label ${item.label}`}
                     >
@@ -1935,7 +1935,7 @@ export function C6_MathematicsCardinalitySim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify All Targets
                 </motion.button>
@@ -1963,7 +1963,7 @@ export function C6_MathematicsCardinalitySim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs text-slate-200 border border-slate-700 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-xs shrink-0">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-xs shrink-0">
                         {idx + 1}
                       </span>
                       <span>{item}</span>
@@ -1974,7 +1974,7 @@ export function C6_MathematicsCardinalitySim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Submit Order
                 </motion.button>
@@ -1991,14 +1991,14 @@ export function C6_MathematicsCardinalitySim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none w-48"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none w-48"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                   >
                     Check
                   </motion.button>
@@ -2016,7 +2016,7 @@ export function C6_MathematicsCardinalitySim({
                       whileHover={{ scale: 1.08 }}
                       whileTap={{ scale: 0.92 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-600 text-indigo-200 text-xs font-mono font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-600 text-gold-200 text-xs font-mono font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2025,7 +2025,7 @@ export function C6_MathematicsCardinalitySim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex items-center gap-2 flex-wrap">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-700 text-white font-mono font-bold text-xs rounded-md">
+                    <span key={idx} className="px-3 py-1 bg-gold-700 text-white font-mono font-bold text-xs rounded-md">
                       {part}
                     </span>
                   ))}
@@ -2039,7 +2039,7 @@ export function C6_MathematicsCardinalitySim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                   >
                     Validate Expression
                   </motion.button>
@@ -2117,11 +2117,11 @@ export function C6_MathematicsCardinalitySim({
       {/* ── PHASE 5: COMPLETION, MOTIVATIONAL FEEDBACK & REFLECTION ── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-tr from-indigo-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-indigo-700/50 shadow-2xl text-center space-y-4">
+          <div className="p-6 bg-gradient-to-tr from-gold-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-gold-700/50 shadow-2xl text-center space-y-4">
             <h2 className="text-2xl md:text-3xl font-black text-white">Masterclass Completed! 🎖️</h2>
             <p className="text-sm text-slate-300">
               Final Score: <span className="font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span> • Overall Mastery:{' '}
-              <span className="font-bold text-indigo-300 capitalize">{masteryLevel}</span> • Total Errors:{' '}
+              <span className="font-bold text-gold-300 capitalize">{masteryLevel}</span> • Total Errors:{' '}
               <span className="font-bold text-amber-400">{errors}</span>
             </p>
 
@@ -2136,9 +2136,9 @@ export function C6_MathematicsCardinalitySim({
                 </div>
               )}
               {errors >= 1 && errors <= 3 && (
-                <div className="text-indigo-400 space-y-1">
+                <div className="text-gold-400 space-y-1">
                   <p className="text-lg">👏 Great work!</p>
-                  <p className="text-xs font-normal text-indigo-200">
+                  <p className="text-xs font-normal text-gold-200">
                     Your understanding of set cardinality, fraction conversions, and decimal place values is robust and confident.
                   </p>
                 </div>
@@ -2163,8 +2163,8 @@ export function C6_MathematicsCardinalitySim({
           </div>
 
           {/* ── REFLECTION SECTION ── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-900/60 space-y-4 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-900/60 space-y-4 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span>💭 Metacognitive Reflection</span>
             </div>
             <h3 className="text-base font-bold text-white">Consolidate Your Mathematical Thinking</h3>
@@ -2172,7 +2172,7 @@ export function C6_MathematicsCardinalitySim({
             <div className="space-y-4">
               {/* Question 1 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2180,7 +2180,7 @@ export function C6_MathematicsCardinalitySim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., That duplicate elements in a set do not increase its cardinality, or why 1/3 + 1/4 isn't 2/7..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none"
                 />
               </div>
 
@@ -2236,10 +2236,10 @@ export function C6_MathematicsCardinalitySim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex items-center justify-between gap-4 text-xs">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex items-center justify-between gap-4 text-xs">
             <span className="text-slate-300">
               📅 Spaced Review Scheduled in:{' '}
-              <span className="font-bold text-indigo-300">
+              <span className="font-bold text-gold-300">
                 {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
               </span>
             </span>
@@ -2253,7 +2253,7 @@ export function C6_MathematicsCardinalitySim({
             <div className="pt-2 grid grid-cols-1 md:grid-cols-2 gap-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2 bg-slate-950 rounded-lg border border-slate-800/80 text-slate-400">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

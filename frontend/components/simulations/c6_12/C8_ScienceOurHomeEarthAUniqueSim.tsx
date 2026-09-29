@@ -55,16 +55,16 @@ export function C8_ScienceOurHomeEarthAUniqueSim() {
             <input type="range" min={0.4} max={2} step={0.05} value={dist} aria-label="distance in AU" onChange={(e) => setDist(Number(e.target.value))} className="w-full mt-1 accent-amber-600" />
           </div>
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Atmosphere thickness</span><span className="font-mono text-sky-600">{atmos}x Earth</span></label>
-            <input type="range" min={0} max={3} step={0.1} value={atmos} aria-label="atmosphere" onChange={(e) => setAtmos(Number(e.target.value))} className="w-full mt-1 accent-sky-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Atmosphere thickness</span><span className="font-mono text-gold-600">{atmos}x Earth</span></label>
+            <input type="range" min={0} max={3} step={0.1} value={atmos} aria-label="atmosphere" onChange={(e) => setAtmos(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Water coverage (%)</span><span className="font-mono text-indigo-600">{water}%</span></label>
-            <input type="range" min={0} max={100} value={water} aria-label="water coverage" onChange={(e) => setWater(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Water coverage (%)</span><span className="font-mono text-gold-600">{water}%</span></label>
+            <input type="range" min={0} max={100} value={water} aria-label="water coverage" onChange={(e) => setWater(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div className="flex flex-wrap gap-2">
             {[['Earth (today)', 1, 1, 71], ['Early Mars-like', 1.5, 0.1, 5], ['Venus-like', 0.7, 2.8, 2]].map(([label, d, a, w]) => (
-              <button key={label as string} onClick={() => { setDist(d as number); setAtmos(a as number); setWater(w as number); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+              <button key={label as string} onClick={() => { setDist(d as number); setAtmos(a as number); setWater(w as number); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                 {label as string}
               </button>
             ))}
@@ -101,7 +101,7 @@ export function C8_ScienceOurHomeEarthAUniqueSim() {
           </svg>
           <div className="px-2 pb-1">
             <div className="relative h-4 rounded-full bg-slate-700 overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-cyan-400 via-emerald-400 to-rose-500" style={{ width: `${barPct}%`, transition: 'width 300ms' }} />
+              <div className="h-full bg-gradient-to-r from-gold-400 via-emerald-400 to-rose-500" style={{ width: `${barPct}%`, transition: 'width 300ms' }} />
             </div>
             <div className="flex justify-between text-[10px] text-slate-400 mt-1 font-mono">
               <span>-60 frozen</span><span>15 deg C (Earth)</span><span>+140 roasting</span>

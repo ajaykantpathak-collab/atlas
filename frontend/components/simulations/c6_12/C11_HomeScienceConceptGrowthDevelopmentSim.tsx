@@ -1227,7 +1227,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950/70 border-emerald-600 text-emerald-300' :
               difficulty === 'advanced' ? 'bg-rose-950/70 border-rose-600 text-rose-300' :
-              'bg-blue-950/70 border-blue-600 text-blue-300'
+              'bg-gold-950/70 border-gold-600 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1241,7 +1241,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-rose-950/50 to-indigo-950/40 rounded-2xl border border-rose-800/60 shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-rose-950/50 to-gold-950/40 rounded-2xl border border-rose-800/60 shadow-lg">
             <h2 className="text-lg font-bold text-rose-300 mb-2">🎯 {SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-rose-200/70 mt-3 pt-2 border-t border-rose-900/50">📌 {SCENARIO.context}</p>
@@ -1287,7 +1287,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-rose-600 to-indigo-600 hover:from-rose-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-rose-600 to-gold-600 hover:from-rose-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                   aria-label="Enter Interactive Labs"
                 >
                   Enter Interactive Laboratories →
@@ -1460,7 +1460,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                       <div>
                         <label className="text-xs text-slate-300 flex justify-between">
                           <span>Daily Caloric Energy (Target: 1400 kcal/day):</span>
-                          <span className="font-bold text-indigo-400">{dailyCaloriesKcal} kcal/day</span>
+                          <span className="font-bold text-gold-400">{dailyCaloriesKcal} kcal/day</span>
                         </label>
                         <input
                           type="range"
@@ -1472,7 +1472,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                             setDailyCaloriesKcal(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                           aria-label="Daily Caloric Energy Slider"
                         />
                       </div>
@@ -1516,7 +1516,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setSelectedSheldon(type)}
                           className={`px-3 py-1 text-xs font-bold rounded-lg uppercase tracking-wider ${
-                            selectedSheldon === type ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            selectedSheldon === type ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                           aria-label={`Select ${type} somatotype`}
                         >
@@ -1532,7 +1532,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                       { label: 'Openness (O)', val: traitO, set: setTraitO, color: 'accent-rose-500' },
                       { label: 'Conscientiousness (C)', val: traitC, set: setTraitC, color: 'accent-emerald-500' },
                       { label: 'Extraversion (E)', val: traitE, set: setTraitE, color: 'accent-amber-500' },
-                      { label: 'Agreeableness (A)', val: traitA, set: setTraitA, color: 'accent-sky-500' },
+                      { label: 'Agreeableness (A)', val: traitA, set: setTraitA, color: 'accent-gold-500' },
                       { label: 'Neuroticism (N)', val: traitN, set: setTraitN, color: 'accent-purple-500' },
                     ].map((item, idx) => (
                       <div key={idx} className="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
@@ -1606,7 +1606,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setAlkaliLevel(a)}
                             className={`flex-1 py-1 text-[11px] font-bold rounded uppercase ${
-                              alkaliLevel === a ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              alkaliLevel === a ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                             aria-label={`Set alkali level ${a}`}
                           >
@@ -1625,7 +1625,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setMechanicalFriction(m)}
                             className={`flex-1 py-1 text-[11px] font-bold rounded uppercase ${
-                              mechanicalFriction === m ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              mechanicalFriction === m ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                             aria-label={`Set mechanical friction ${m}`}
                           >
@@ -1687,7 +1687,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setSelectedReagent(reagent.id as any)}
                             className={`p-2 text-xs font-bold rounded-lg text-left border ${
-                              selectedReagent === reagent.id ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-300'
+                              selectedReagent === reagent.id ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-300'
                             }`}
                             aria-label={`Reagent ${reagent.label}`}
                           >
@@ -1803,7 +1803,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
 
             {/* Quick Stain Removal Sandbox */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Textile Care Sandbox</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Textile Care Sandbox</span>
               <div className="flex gap-2 text-xs">
                 <select
                   value={selectedStain}
@@ -1851,7 +1851,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
             </div>
             <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-rose-500 via-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-rose-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1914,7 +1914,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                       role="button"
                       aria-label={`Draggable label ${item.label}`}
                     >
@@ -1985,7 +1985,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg"
                   aria-label="Submit Sorted Order"
                 >
                   Submit Laundry Sequence →
@@ -2037,7 +2037,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                           audioManager.play('tap');
                         }
                       }}
-                      className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-xs hover:border-indigo-500 font-medium"
+                      className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-300 rounded-lg text-xs hover:border-gold-500 font-medium"
                       aria-label={`Add part ${part}`}
                     >
                       + {part}
@@ -2053,7 +2053,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 text-xs rounded-lg flex items-center gap-2"
+                        className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 text-xs rounded-lg flex items-center gap-2"
                       >
                         <span>{part}</span>
                         <button
@@ -2153,7 +2153,7 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
             </div>
             <div className="p-4 bg-slate-800 rounded-2xl border border-slate-700 text-center">
               <span className="text-xs text-slate-400 uppercase font-bold">Challenges Completed</span>
-              <p className="text-3xl font-black text-indigo-400 mt-1">{filteredChallenges.length}</p>
+              <p className="text-3xl font-black text-gold-400 mt-1">{filteredChallenges.length}</p>
             </div>
           </div>
 
@@ -2184,8 +2184,8 @@ export default function C11_HomeScienceConceptGrowthDevelopmentSim({
           )}
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-4 bg-indigo-950/40 border border-indigo-800 rounded-2xl text-xs space-y-1">
-            <h3 className="font-bold text-indigo-300 uppercase">📅 Spaced Repetition Memory Schedule (SM-2):</h3>
+          <div className="p-4 bg-gold-950/40 border border-gold-800 rounded-2xl text-xs space-y-1">
+            <h3 className="font-bold text-gold-300 uppercase">📅 Spaced Repetition Memory Schedule (SM-2):</h3>
             <p className="text-slate-300">
               Your next review interval is scheduled in{' '}
               <span className="font-bold text-amber-400">

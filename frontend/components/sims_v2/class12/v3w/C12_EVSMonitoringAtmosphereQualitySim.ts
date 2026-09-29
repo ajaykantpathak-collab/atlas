@@ -11,7 +11,7 @@ export const w_c12_evsmonitoringatmospherequalitysim: SimDef = {
     classLevel: 12, subject: 'evs', topic: 'Remote Sensing: Principle and Applications in Geography',
     chapters: [],
     nodeIds: ['c12_geo_cbse_21_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a farmer in Punjab trying to decide how much fertilizer to apply to your wheat crop.', goal: 'Master Remote Sensing: Principle and Applications in Geography.' },
     discovery: {
         question: 'A student claims: "RISAT-1 uses C-band synthetic aperture radar (SAR) so it can see through clouds and operate at night, making it better than Cartosat-2 for.',
@@ -20,7 +20,7 @@ export const w_c12_evsmonitoringatmospherequalitysim: SimDef = {
         hook: 'Students often believe "higher spatial resolution is always better" and choose Cartosat-2 (0.8 m) for everything — crop.',
     },
     teaching: [
-        { title: 'Remote sensing is the science and technology.', text: 'Remote sensing is the science and technology of acquiring information about an object, area, or phenomenon through the analysis of data obtained by a device (sensor) that is not in physical contact.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Remote sensing is the science and technology.', text: 'Remote sensing is the science and technology of acquiring information about an object, area, or phenomenon through the analysis of data obtained by a device (sensor) that is not in physical contact.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_21_010', title: 'Remote sensing is the science and.',

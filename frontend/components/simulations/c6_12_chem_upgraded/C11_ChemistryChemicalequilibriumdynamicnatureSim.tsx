@@ -1061,11 +1061,11 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
       {/* HEADER BAR */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-xl shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center font-bold text-xl shadow-lg shadow-gold-500/20">
             ⇌
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 to-gold-400 bg-clip-text text-transparent">
               Chemical Equilibrium & Dynamic Nature
             </h1>
             <p className="text-xs text-slate-400">Class 11 ISC Chemistry • Nodes c11_chem_051 to c11_chem_060</p>
@@ -1077,7 +1077,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
             1. Discovery Scenario
@@ -1085,7 +1085,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
             2. Interactive Labs (5)
@@ -1093,7 +1093,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
             3. Master Challenges (22+)
@@ -1101,7 +1101,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
           <button
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'summary' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
             4. Industrial Summary
@@ -1113,7 +1113,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
           <div className="flex items-center space-x-2 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800 text-xs">
             <span className="text-amber-400 font-bold">🔥 Streak: {streak}</span>
             <span className="text-slate-600">|</span>
-            <span className="text-cyan-400 font-bold">⭐ Score: {score}</span>
+            <span className="text-gold-400 font-bold">⭐ Score: {score}</span>
           </div>
         </div>
       </header>
@@ -1124,10 +1124,10 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-4">
-              <div className="inline-block px-3 py-1 rounded-full bg-cyan-950 text-cyan-400 text-xs font-semibold border border-cyan-800">
+              <div className="inline-block px-3 py-1 rounded-full bg-gold-950 text-gold-400 text-xs font-semibold border border-gold-800">
                 SCENARIO BRIEFING
               </div>
-              <h2 className="text-2xl font-bold text-cyan-300">{SCENARIO.title}</h2>
+              <h2 className="text-2xl font-bold text-gold-300">{SCENARIO.title}</h2>
               <p className="text-slate-300 leading-relaxed text-base">{SCENARIO.intro}</p>
               <p className="text-slate-400 leading-relaxed text-sm bg-slate-950 p-4 rounded-xl border border-slate-800">
                 {SCENARIO.context}
@@ -1171,7 +1171,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
               </div>
 
               {discoveryAnswered && (
-                <div className="p-4 rounded-xl bg-cyan-950/50 border border-cyan-800 text-cyan-200 text-sm leading-relaxed animate-fade-in">
+                <div className="p-4 rounded-xl bg-gold-950/50 border border-gold-800 text-gold-200 text-sm leading-relaxed animate-fade-in">
                   <span className="font-bold block mb-1">Key Concept Insight:</span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1180,11 +1180,11 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
 
             {/* PREDICTION QUESTIONS ARRAY MANDATORY RENDER */}
             <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400">Pre-Lab Prediction Probes</h3>
+              <h3 className="text-lg font-bold text-gold-400">Pre-Lab Prediction Probes</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                   <div key={qIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <span className="text-xs font-bold text-cyan-400 bg-cyan-950 px-2.5 py-1 rounded-full border border-cyan-800">
+                    <span className="text-xs font-bold text-gold-400 bg-gold-950 px-2.5 py-1 rounded-full border border-gold-800">
                       Prediction #{qIdx + 1}
                     </span>
                     <p className="text-sm font-semibold text-slate-200">{pq.question}</p>
@@ -1240,7 +1240,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                       selectedLabStep === sIdx
-                        ? 'bg-cyan-600 text-white shadow-md'
+                        ? 'bg-gold-600 text-white shadow-md'
                         : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
                     }`}
                   >
@@ -1251,12 +1251,12 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
             </div>
 
             {/* Active Lab Instruction Banner */}
-            <div className="bg-cyan-950/40 border border-cyan-800 rounded-xl p-4 flex items-center justify-between">
+            <div className="bg-gold-950/40 border border-gold-800 rounded-xl p-4 flex items-center justify-between">
               <div>
-                <h4 className="text-sm font-bold text-cyan-300">{EXPLORATION_STEPS[selectedLabStep].title}</h4>
-                <p className="text-xs text-cyan-100/80 mt-1">{EXPLORATION_STEPS[selectedLabStep].instruction}</p>
+                <h4 className="text-sm font-bold text-gold-300">{EXPLORATION_STEPS[selectedLabStep].title}</h4>
+                <p className="text-xs text-gold-100/80 mt-1">{EXPLORATION_STEPS[selectedLabStep].instruction}</p>
               </div>
-              <span className="text-xs font-mono text-cyan-400 bg-cyan-900/60 px-3 py-1 rounded-full border border-cyan-700">
+              <span className="text-xs font-mono text-gold-400 bg-gold-900/60 px-3 py-1 rounded-full border border-gold-700">
                 Node: {EXPLORATION_STEPS[selectedLabStep].nodeId}
               </span>
             </div>
@@ -1266,7 +1266,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
               {/* Left Column: Canvas Molecular Animation (7 cols) */}
               <div className="lg:col-span-7 bg-slate-900 rounded-2xl p-5 border border-slate-800 shadow-xl space-y-4">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+                  <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
                     ⚛️ Reactor Vessel Simulation (N₂ + 3H₂ ⇌ 2NH₃)
                   </h3>
                   <div className="flex items-center space-x-2">
@@ -1292,7 +1292,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                 {/* Molecule Legend */}
                 <div className="grid grid-cols-4 gap-2 text-center text-xs">
                   <div className="bg-slate-950 p-2 rounded-lg border border-slate-800">
-                    <span className="inline-block w-3 h-3 rounded-full bg-blue-500 mr-1.5"></span>
+                    <span className="inline-block w-3 h-3 rounded-full bg-gold-500 mr-1.5"></span>
                     <span className="text-slate-300 font-semibold">N₂ (g): {currentN2.toFixed(2)} mol</span>
                   </div>
                   <div className="bg-slate-950 p-2 rounded-lg border border-slate-800">
@@ -1335,12 +1335,12 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                   {/* rb Bar */}
                   <div>
                     <div className="flex justify-between text-xs mb-1">
-                      <span className="text-blue-400 font-semibold">Reverse Rate (rb)</span>
-                      <span className="text-blue-400 font-mono">{rb.toFixed(3)}</span>
+                      <span className="text-gold-400 font-semibold">Reverse Rate (rb)</span>
+                      <span className="text-gold-400 font-mono">{rb.toFixed(3)}</span>
                     </div>
                     <div className="w-full bg-slate-900 rounded-full h-2.5 overflow-hidden">
                       <div
-                        className="bg-gradient-to-r from-blue-600 to-blue-400 h-2.5 rounded-full transition-all duration-300"
+                        className="bg-gradient-to-r from-gold-600 to-gold-400 h-2.5 rounded-full transition-all duration-300"
                         style={{ width: `${Math.min(100, rb * 100)}%` }}
                       ></div>
                     </div>
@@ -1350,7 +1350,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
 
               {/* Right Column: Lab Controls & Thermodynamic Gauges (5 cols) */}
               <div className="lg:col-span-5 bg-slate-900 rounded-2xl p-5 border border-slate-800 shadow-xl space-y-5">
-                <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+                <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
                   🎛️ Equilibrium Control Panel
                 </h3>
 
@@ -1358,7 +1358,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                 <div className="grid grid-cols-2 gap-3">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                     <div className="text-xs text-slate-400 font-semibold">Equilibrium Constant (Kc)</div>
-                    <div className="text-xl font-bold font-mono text-cyan-400 mt-1">{targetKc.toFixed(3)}</div>
+                    <div className="text-xl font-bold font-mono text-gold-400 mt-1">{targetKc.toFixed(3)}</div>
                     <div className="text-[10px] text-slate-500 mt-0.5">Determined ONLY by Temp</div>
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
@@ -1376,7 +1376,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                   <div>
                     <div className="flex justify-between font-semibold mb-1 text-slate-300">
                       <span>Inject N₂ Initial Moles:</span>
-                      <span className="text-cyan-400">{N2_moles.toFixed(1)} mol</span>
+                      <span className="text-gold-400">{N2_moles.toFixed(1)} mol</span>
                     </div>
                     <input
                       type="range"
@@ -1388,14 +1388,14 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                         setN2Moles(parseFloat(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between font-semibold mb-1 text-slate-300">
                       <span>Inject H₂ Initial Moles:</span>
-                      <span className="text-cyan-400">{H2_moles.toFixed(1)} mol</span>
+                      <span className="text-gold-400">{H2_moles.toFixed(1)} mol</span>
                     </div>
                     <input
                       type="range"
@@ -1407,7 +1407,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                         setH2Moles(parseFloat(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1547,7 +1547,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
 
             {/* TOPIC SVG DIAGRAMS RENDER (At least 3) */}
             <div className="bg-slate-900 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400">Key Thermodynamic & Equilibrium Diagrams</h3>
+              <h3 className="text-lg font-bold text-gold-400">Key Thermodynamic & Equilibrium Diagrams</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
                   <h4 className="text-xs font-bold text-slate-300 mb-2">1. Dynamic Rate Equalization</h4>
@@ -1572,19 +1572,19 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
             {/* Progress Header */}
             <div className="bg-slate-900 rounded-2xl p-5 border border-slate-800 flex flex-wrap items-center justify-between gap-4">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-white mt-1">
                   Tier:{' '}
-                  <span className="capitalize text-cyan-400">{currentChallenge.difficulty}</span> | Node:{' '}
+                  <span className="capitalize text-gold-400">{currentChallenge.difficulty}</span> | Node:{' '}
                   <span className="font-mono text-slate-400">{currentChallenge.nodeId}</span>
                 </h3>
               </div>
 
               <div className="flex items-center space-x-3">
                 <span className="text-xs text-slate-400">Mastery Level:</span>
-                <span className="px-3 py-1 rounded-full bg-cyan-950 text-cyan-300 font-mono text-xs border border-cyan-800 font-bold">
+                <span className="px-3 py-1 rounded-full bg-gold-950 text-gold-300 font-mono text-xs border border-gold-800 font-bold">
                   {(currentMastery * 100).toFixed(0)}%
                 </span>
               </div>
@@ -1610,11 +1610,11 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                       }}
                       className={`p-4 rounded-xl text-left border transition-all text-sm font-medium ${
                         selectedOption === idx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200 shadow-md'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200 shadow-md'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {opt}
                     </button>
                   ))}
@@ -1631,7 +1631,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                     value={numericAnswer}
                     onChange={(e) => setNumericAnswer(e.target.value)}
                     placeholder="Type value..."
-                    className="w-full max-w-xs p-3 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 font-mono focus:border-cyan-500 outline-none"
+                    className="w-full max-w-xs p-3 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 font-mono focus:border-gold-500 outline-none"
                   />
                 </div>
               )}
@@ -1655,7 +1655,7 @@ export default function C11_ChemistryChemicalequilibriumdynamicnatureSim({
                   <button
                     onClick={handleVerifyAnswer}
                     disabled={currentChallenge.type === 'multiple-choice' ? selectedOption === null : !numericAnswer}
-                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold text-sm shadow-lg shadow-cyan-500/20 disabled:opacity-50 transition-all"
+                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-bold text-sm shadow-lg shadow-gold-500/20 disabled:opacity-50 transition-all"
                   >
                     Submit & Verify
                   </button>

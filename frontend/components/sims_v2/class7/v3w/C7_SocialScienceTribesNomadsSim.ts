@@ -11,7 +11,7 @@ export const w_c7_socialsciencetribesnomadssim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Janapadas: Early Kingdoms and Their Formation',
     chapters: [],
     nodeIds: ['c7_hist_ch01_002', 'c7_hist_ch01_003', 'c7_hist_ch01_004', 'c7_hist_ch01_005', 'c7_hist_ch01_010', 'c7_hist_ch02_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Janapadas: Early Kingdoms and Their Formation.' },
     discovery: {
         question: 'What major geographical feature defined the region where the most powerful Mahajanapadas, such as Magadha and Kosala, grew during the first millennium BCE?',
@@ -20,7 +20,7 @@ export const w_c7_socialsciencetribesnomadssim: SimDef = {
         hook: 'Students often think that cities and states appeared suddenly in the Gangetic plains without any connection to.',
     },
     teaching: [
-        { title: 'Janapadas were early territorial states that.', text: 'Janapadas were early territorial states that emerged in the Indian subcontinent around the 6th century BCE, representing a major shift from tribal nomadic life to settled, land-based kingdoms ruled.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Janapadas were early territorial states that.', text: 'Janapadas were early territorial states that emerged in the Indian subcontinent around the 6th century BCE, representing a major shift from tribal nomadic life to settled, land-based kingdoms ruled.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_hist_ch01_002', title: 'Janapadas were early territorial states.',

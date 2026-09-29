@@ -11,7 +11,7 @@ export const w_c12_physicsbrewsterspolarizationreflectionsim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Polarization of Light: Malus\'s Law',
     chapters: [],
     nodeIds: ['c12_phy_cbse_10_008', 'c12_phy_cbse_10_001', 'c12_phy_cbse_10_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a pair of polarized sunglasses: when you rotate one lens in front of the other, the view darkens and.', goal: 'Master Polarization of Light: Malus\'s Law.' },
     discovery: {
         question: 'Define a wavefront and state Huygens\' Principle in your own words. What is the shape of the wavefront from a point source in a homogeneous isotropic medium?',
@@ -20,7 +20,7 @@ export const w_c12_physicsbrewsterspolarizationreflectionsim: SimDef = {
         hook: 'Students often think the secondary wavelets are *real physical waves* emitted by each point, and that the backwave is.',
     },
     teaching: [
-        { title: 'Polarization is the phenomenon of.', text: 'Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane perpendicular to the direction of propagation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Polarization is the phenomenon of.', text: 'Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane perpendicular to the direction of propagation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_10_008', title: 'Polarization is the phenomenon of.',

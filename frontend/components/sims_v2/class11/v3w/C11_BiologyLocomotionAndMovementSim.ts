@@ -11,7 +11,7 @@ export const w_c11_biologylocomotionandmovementsim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Types of Movement: Amoeboid, Ciliary, Muscular',
     chapters: [],
     nodeIds: ['c11_bio_cbse_17_001', 'c11_bio_cbse_17_006', 'c11_bio_cbse_17_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'When you sneeze, dust particles trapped in your trachea are expelled - this is ciliary movement at work.', goal: 'Master Types of Movement: Amoeboid, Ciliary, Muscular.' },
     discovery: {
         question: 'Name the type of movement exhibited by human leucocytes and macrophages, and identify the cytoskeletal element primarily responsible for it.',
@@ -20,7 +20,7 @@ export const w_c11_biologylocomotionandmovementsim: SimDef = {
         hook: 'Students believe ciliary movement and muscular movement are similar because both involve "beating" or "contraction" -.',
     },
     teaching: [
-        { title: 'Amoeboid, ciliary, and muscular movements.', text: 'Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves pseudopodia formation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Amoeboid, ciliary, and muscular movements.', text: 'Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves pseudopodia formation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_17_001', title: 'Amoeboid, ciliary, and muscular.',

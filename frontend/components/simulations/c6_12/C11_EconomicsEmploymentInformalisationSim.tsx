@@ -47,7 +47,7 @@ export function C11_EconomicsEmploymentInformalisationSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">100 Workers: Who Really Has a Formal Job?</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">100 Workers: Who Really Has a Formal Job?</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -122,10 +122,10 @@ export function C11_EconomicsEmploymentInformalisationSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Workers in the formal sector</span>
-            <span className="font-mono font-bold text-sky-300">{formalSectorShare} per 100</span>
+            <span className="font-mono font-bold text-gold-300">{formalSectorShare} per 100</span>
           </label>
           <input type="range" aria-label="formal sector share" min={5} max={60} value={formalSectorShare}
-            onChange={(e) => setFormalSectorShare(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+            onChange={(e) => setFormalSectorShare(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -142,7 +142,7 @@ export function C11_EconomicsEmploymentInformalisationSim() {
           <button
             key={p.label}
             onClick={() => { setFormalSectorShare(p.formalSectorShare); setInformalWithinFormal(p.informalWithinFormal); }}
-            className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500"
+            className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500"
           >
             {p.label}
           </button>
@@ -152,8 +152,8 @@ export function C11_EconomicsEmploymentInformalisationSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Load &quot;India ~2011-12&quot;. How many of the 18 formal-sector workers still lack job security? Now set the informal-within-formal slider to 0 -- by how much does total informality fall?</li>
           <li>Push the formal-sector slider up to 60 while keeping informal-within-formal at 80. Does a bigger formal sector guarantee more formal JOBS? What is the tipping point?</li>

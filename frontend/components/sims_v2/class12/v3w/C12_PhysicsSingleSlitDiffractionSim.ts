@@ -11,7 +11,7 @@ export const w_c12_physicssingleslitdiffractionsim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Young\'s Double Slit Experiment: Fringe Width',
     chapters: [],
     nodeIds: ['c12_phy_cbse_10_005', 'c12_phy_cbse_10_006', 'c12_phy_cbse_10_007', 'c12_phy_cbse_10_004', 'c12_phy_cbse_10_001', 'c12_phy_cbse_10_002', 'c12_phy_cbse_11_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe the colorful rings on a soap bubble or the rainbow pattern on a CD/DVD — these are interference.', goal: 'Master Young\'s Double Slit Experiment: Fringe Width.' },
     discovery: {
         question: 'In a YDSE setup, if the slit separation d is doubled while λ and D remain unchanged, what happens to the fringe width?',
@@ -20,7 +20,7 @@ export const w_c12_physicssingleslitdiffractionsim: SimDef = {
         hook: 'Students often believe fringe width β depends on the fringe order n (i.e., fringes get wider or narrower farther from.',
     },
     teaching: [
-        { title: 'Fringe width (β) in Young\'s double slit.', text: 'Fringe width (β) in Young\'s double slit experiment is the distance between two consecutive bright fringes (or two consecutive dark fringes) on the interference pattern observed on a screen.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Fringe width (β) in Young\'s double slit.', text: 'Fringe width (β) in Young\'s double slit experiment is the distance between two consecutive bright fringes (or two consecutive dark fringes) on the interference pattern observed on a screen.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_10_005', title: 'Fringe width (β) in Young\'s double slit.',

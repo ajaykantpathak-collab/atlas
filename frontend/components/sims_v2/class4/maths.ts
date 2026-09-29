@@ -19,8 +19,8 @@ export const c4Bricks: SimDef = {
     },
     teaching: [
         { title: 'Bricks Make Patterns! 🧱', text: 'Look at a brick wall — bricks are placed in a pattern so the wall is strong. The joints never line up!', emoji: '🧱', bgColor: 'from-orange-400 to-red-500' },
-        { title: 'Symmetry — Mirror Magic 🪞', text: 'Fold a shape and both halves match? That is symmetry! A butterfly, a leaf, a face — all symmetric!', emoji: '🪞', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Top, Front, Side Views 👁️', text: 'A building looks different from the front, side, and top. Maps are top views of the world!', emoji: '👁️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Symmetry — Mirror Magic 🪞', text: 'Fold a shape and both halves match? That is symmetry! A butterfly, a leaf, a face — all symmetric!', emoji: '🪞', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Top, Front, Side Views 👁️', text: 'A building looks different from the front, side, and top. Maps are top views of the world!', emoji: '👁️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "Stagger the bricks — build a strong wall!" },
     challenges: [
@@ -60,7 +60,7 @@ export const c4BigNumbers: SimDef = {
     },
     teaching: [
         { title: 'Numbers Get BIG! 🔢', text: 'After 999 comes 1000 — one THOUSAND! 3,456 = 3 thousands + 4 hundreds + 5 tens + 6 ones!', emoji: '🔢', bgColor: 'from-fuchsia-400 to-purple-500' },
-        { title: 'Place Value Grows 🏛️', text: 'Ones, tens, hundreds, THOUSANDS! Each place is 10 times bigger than the one before!', emoji: '🏛️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Place Value Grows 🏛️', text: 'Ones, tens, hundreds, THOUSANDS! Each place is 10 times bigger than the one before!', emoji: '🏛️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'The Junk Seller 💰', text: 'The junk seller counts money in thousands — ₹4,000 for a truck! Big numbers help with big money!', emoji: '💰', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: "bundles", prompt: "Build numbers up to 99 with tens and ones bundles — watch place value!" },
@@ -107,9 +107,9 @@ export const c4Fractions: SimDef = {
     },
     teaching: [
         { title: 'Half = ½ 🍕', text: 'Cut a pizza into 2 equal parts — each is a HALF (½). Two halves make one whole!', emoji: '🍕', bgColor: 'from-amber-400 to-yellow-500' },
-        { title: 'Quarter = ¼ 🍰', text: 'Cut into 4 equal parts — each is a QUARTER (¼). Four quarters make one whole!', emoji: '🍰', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Quarter = ¼ 🍰', text: 'Cut into 4 equal parts — each is a QUARTER (¼). Four quarters make one whole!', emoji: '🍰', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Three Quarters = ¾ 🥧', text: 'Three out of 4 parts = ¾. That is three quarters — more than half!', emoji: '🥧', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Parts Must Be EQUAL ⚖️', text: 'A half means EQUAL halves. A big piece + small piece is NOT a half!', emoji: '⚖️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Parts Must Be EQUAL ⚖️', text: 'A half means EQUAL halves. A big piece + small piece is NOT a half!', emoji: '⚖️', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: "fraction", prompt: "Try the lab — what do you discover?" },
     challenges: [
@@ -155,7 +155,7 @@ export const c4Perimeter: SimDef = {
     predict: { question: "A 10m x 6m field - is the perimeter more or less than 60m?", options: ["Less - 32m!", "More", "Exactly 60"], answer: "Less - 32m!", verifyWidget: "stretch", verifyPrompt: "Add the sides: 10+6+10+6 = 32m - not 60!", },
     teaching: [
         { title: 'Perimeter = Around! 🚜', text: 'A fence goes AROUND a field. The total length of the boundary is the PERIMETER!', emoji: '🚜', bgColor: 'from-green-400 to-lime-500' },
-        { title: 'Area = Inside 📐', text: 'The space INSIDE a field is the AREA. A bigger field has more area to grow crops!', emoji: '📐', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Area = Inside 📐', text: 'The space INSIDE a field is the AREA. A bigger field has more area to grow crops!', emoji: '📐', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Perimeter of a Rectangle ⬜', text: 'A field 10 m long, 6 m wide: perimeter = 10 + 6 + 10 + 6 = 32 m. Add all sides!', emoji: '⬜', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { lab: "stretch", prompt: "Measure around a field — the boundary!" },
@@ -192,7 +192,7 @@ export const c4Time: SimDef = {
     id: 'c4_time', title: 'Tick-Tick-Tick', subtitle: 'Hours, minutes, AM/PM!',
     classLevel: 4, subject: 'maths', topic: 'Time',
     chapters: ['Math-Magic-4 Ch4: Tick-Tick-Tick'],
-    emoji: '⏰', theme: { bg: 'from-sky-100 to-blue-200', accent: 'sky', scene: 'clock' },
+    emoji: '⏰', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'clock' },
     scenario: { role: "a time-master", intro: "24-hour time, calendars — master the clock!", goal: "Read every time format." },
     discovery: {
         question: "Why does 3 PM get written as 15:00 - what happened to 3?",
@@ -201,8 +201,8 @@ export const c4Time: SimDef = {
         hook: "24-hour time keeps counting past noon!",
     },
     teaching: [
-        { title: 'Hours and Minutes! ⏰', text: '1 hour = 60 minutes. Half hour = 30 min. Quarter hour = 15 min!', emoji: '⏰', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Time Goes By ⏳', text: 'School 8 AM to 2 PM — how many hours? 8 to 12 = 4 hours, 12 to 2 = 2 hours. Total 6!', emoji: '⏳', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Hours and Minutes! ⏰', text: '1 hour = 60 minutes. Half hour = 30 min. Quarter hour = 15 min!', emoji: '⏰', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Time Goes By ⏳', text: 'School 8 AM to 2 PM — how many hours? 8 to 12 = 4 hours, 12 to 2 = 2 hours. Total 6!', emoji: '⏳', bgColor: 'from-gold-400 to-purple-500' },
         { title: '24-Hour Time 🕐', text: 'AM/PM or 24-hour: 1 PM = 13:00, 2 PM = 14:00. After noon, keep counting!', emoji: '🕐', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: 'clock', prompt: 'Set different times and read them!' },
@@ -244,7 +244,7 @@ export const c4Tables: SimDef = {
     },
     teaching: [
         { title: 'Tables are Tools! ✖️', text: 'Learn tables 1-10 and you can multiply anything: 7 × 8 = 56 — just recall the table!', emoji: '✖️', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Big Multiplication 🔢', text: '23 × 4: break it! 20×4=80, 3×4=12, total 92. Split and multiply!', emoji: '🔢', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Big Multiplication 🔢', text: '23 × 4: break it! 20×4=80, 3×4=12, total 92. Split and multiply!', emoji: '🔢', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Division = Sharing ➗', text: '96 sweets among 8 friends: 96 ÷ 8 = 12 each. Division undoes multiplication!', emoji: '➗', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { lab: "jump", prompt: "Hop in equal jumps — times tables!" },
@@ -281,7 +281,7 @@ export const c4Data: SimDef = {
     id: 'c4_data', title: 'Smart Charts', subtitle: 'Charts and graphs!',
     classLevel: 4, subject: 'maths', topic: 'Data Handling',
     chapters: ['Math-Magic-4 Ch14: Smart Charts'],
-    emoji: '📈', theme: { bg: 'from-cyan-100 to-teal-200', accent: 'cyan', scene: 'charts' },
+    emoji: '📈', theme: { bg: 'from-gold-100 to-teal-200', accent: 'cyan', scene: 'charts' },
     scenario: { role: "a data-analyst", intro: "Read pictographs and bar charts with scales!", goal: "Interpret every chart." },
     discovery: {
         question: "In a pictograph where one car = 5 cars - why does the symbol count more?",
@@ -290,8 +290,8 @@ export const c4Data: SimDef = {
         hook: "Symbols can stand for many - read the scale!",
     },
     teaching: [
-        { title: 'Charts Tell Stories! 📈', text: 'A chart turns numbers into pictures — bar charts, pictographs, tables. Read them to answer questions!', emoji: '📈', bgColor: 'from-cyan-400 to-teal-500' },
-        { title: 'Compare the Bars 📊', text: 'Tallest bar = most, shortest = least. Compare heights to compare amounts!', emoji: '📊', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Charts Tell Stories! 📈', text: 'A chart turns numbers into pictures — bar charts, pictographs, tables. Read them to answer questions!', emoji: '📈', bgColor: 'from-gold-400 to-teal-500' },
+        { title: 'Compare the Bars 📊', text: 'Tallest bar = most, shortest = least. Compare heights to compare amounts!', emoji: '📊', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Tables Organize 📋', text: 'Rows and columns organize data — easy to read and compare!', emoji: '📋', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: "tray-star", prompt: "Count to fill the pictograph!" },
@@ -334,7 +334,7 @@ export const c4Weight: SimDef = {
     observe: { prompt: "When you balanced the scale, what made it level?", options: ["Equal weights both sides", "More on one", "Random"], answer: "Equal weights both sides" },
     teaching: [
         { title: 'Grams and Kilograms! ⚖️', text: 'Light things in grams (a pencil = 10 g), heavy in kilograms (you = 25 kg). 1000 g = 1 kg!', emoji: '⚖️', bgColor: 'from-orange-400 to-amber-500' },
-        { title: 'Compare Weights 🐘', text: 'An elephant is heavier than a cat. A feather is lighter than a book. Compare!', emoji: '🐘', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Compare Weights 🐘', text: 'An elephant is heavier than a cat. A feather is lighter than a book. Compare!', emoji: '🐘', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Balance the Scale 🔄', text: 'A balance is level when both sides are equal. 2 kg on each side = balanced!', emoji: '🔄', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { lab: "weigh", prompt: "Try the lab — what do you discover?" },
@@ -367,7 +367,7 @@ export const c4Wheels: SimDef = {
     id: 'c4_wheels', title: 'Carts and Wheels', subtitle: 'Circles and radius!',
     classLevel: 4, subject: 'maths', topic: 'Circles',
     chapters: ['Math-Magic-4 Ch8: Carts and Wheels', 'Ch7: Jugs and Mugs'],
-    emoji: '🎡', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'wheels' },
+    emoji: '🎡', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'wheels' },
     scenario: { role: "a circle-designer", intro: "Circles roll — radius, diameter, round things!", goal: "Know every circle part." },
     discovery: {
         question: "Why are wheels round - could a square wheel work?",
@@ -376,8 +376,8 @@ export const c4Wheels: SimDef = {
         hook: "Circles have equal distance centre to edge - perfect rolling!",
     },
     teaching: [
-        { title: 'Why are Wheels Round? 🎡', text: 'A circle rolls smoothly — every point is the same distance from the centre! A square wheel would bump!', emoji: '🎡', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Centre and Radius ⭕', text: 'The middle is the centre. The line from centre to edge is the RADIUS. All radii are equal!', emoji: '⭕', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Why are Wheels Round? 🎡', text: 'A circle rolls smoothly — every point is the same distance from the centre! A square wheel would bump!', emoji: '🎡', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Centre and Radius ⭕', text: 'The middle is the centre. The line from centre to edge is the RADIUS. All radii are equal!', emoji: '⭕', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Diameter = 2 × Radius 📏', text: 'A line through the centre, edge to edge = DIAMETER = 2 × radius!', emoji: '📏', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: "tray", prompt: "Roll a circle — can a square roll?" },
@@ -408,7 +408,7 @@ export const c4Travel: SimDef = {
     id: 'c4_travel', title: 'From Here to There', subtitle: 'Distance and speed!',
     classLevel: 4, subject: 'maths', topic: 'Distance',
     chapters: ['Math-Magic-4 Ch3: A Trip to Bhopal', 'Looking Around: From Here to There'],
-    emoji: '🚌', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'travel' },
+    emoji: '🚌', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'travel' },
     scenario: { role: "a journey-planner", intro: "Speed, distance, time — plan every trip!", goal: "Calculate every journey." },
     discovery: {
         question: "A bus does 50 km each hour - how far in 3 hours, and how so fast?",
@@ -417,8 +417,8 @@ export const c4Travel: SimDef = {
         hook: "Speed x time = distance! Let's learn.",
     },
     teaching: [
-        { title: 'Distance = How Far! 🚌', text: 'Distance is how far apart things are — measured in metres (near) or kilometres (far)!', emoji: '🚌', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Kilometres for Far! 🗺️', text: '1 km = 1000 m. Your school might be 2 km away. The next city might be 100 km!', emoji: '🗺️', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Distance = How Far! 🚌', text: 'Distance is how far apart things are — measured in metres (near) or kilometres (far)!', emoji: '🚌', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Kilometres for Far! 🗺️', text: '1 km = 1000 m. Your school might be 2 km away. The next city might be 100 km!', emoji: '🗺️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Time and Distance ⏱️', text: 'Walking 1 km takes about 15 min. A bus does 50 km in an hour. Faster = less time!', emoji: '⏱️', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { lab: "jump", prompt: "Hop the distance — speed x time!" },

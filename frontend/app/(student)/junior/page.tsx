@@ -429,7 +429,7 @@ const Confetti = ({ active }: { active: boolean }) => {
 // ═══════════════════════════════════════════════
 const subjects = [
   { key: 'maths',   emoji: '🔢', color: 'from-orange-400 to-red-500',  shadow: 'shadow-orange-300',   border: 'border-orange-200',   labelK: 'maths' },
-  { key: 'english', emoji: '🔤', color: 'from-blue-400 to-indigo-600', shadow: 'shadow-blue-300',   border: 'border-blue-200',     labelK: 'english' },
+  { key: 'english', emoji: '🔤', color: 'from-gold-400 to-gold-600', shadow: 'shadow-gold-300',   border: 'border-gold-200',     labelK: 'english' },
   { key: 'science', emoji: '🔬', color: 'from-green-400 to-emerald-600',shadow: 'shadow-green-300',  border: 'border-green-200',   labelK: 'science' },
   { key: 'gk',      emoji: '🌍', color: 'from-pink-400 to-rose-600',   shadow: 'shadow-pink-300',   border: 'border-pink-200',    labelK: 'gk' },
 ] as const
@@ -613,7 +613,7 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
         <div className="text-center mb-6">
           <p className="text-purple-400 text-sm mb-2 font-semibold font-['Nunito']">{t('listenQ', lang)}</p>
           <motion.div
-            className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl py-6 px-4"
+            className="bg-gradient-to-br from-purple-50 to-gold-50 rounded-2xl py-6 px-4"
             animate={{ scale: fb === 'thinking' ? [1, 1.02, 1] : 1 }}
             transition={{ duration: 0.6, repeat: Infinity }}
           >
@@ -637,9 +637,9 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
               initial={{ opacity: 0, scale: 0.5, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className={`text-center py-4 mb-4 rounded-2xl ${fb === 'correct' ? 'bg-green-100' : fb === 'wrong' ? 'bg-orange-100' : 'bg-blue-100'}`}
+              className={`text-center py-4 mb-4 rounded-2xl ${fb === 'correct' ? 'bg-green-100' : fb === 'wrong' ? 'bg-orange-100' : 'bg-gold-100'}`}
             >
-              <p className={`text-xl sm:text-2xl font-black font-['Nunito'] ${fb === 'correct' ? 'text-green-700' : fb === 'wrong' ? 'text-orange-700' : 'text-blue-700'}`}>
+              <p className={`text-xl sm:text-2xl font-black font-['Nunito'] ${fb === 'correct' ? 'text-green-700' : fb === 'wrong' ? 'text-orange-700' : 'text-gold-700'}`}>
                 {msg}
               </p>
             </motion.div>
@@ -650,7 +650,7 @@ const QuizScreen = ({ subject, lang, onBack, onCorrect }: { subject: string; lan
         {fb === 'idle' && (
           <motion.button
             onClick={startListen}
-            className="w-full h-16 sm:h-20 rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-black text-lg sm:text-xl font-['Nunito'] shadow-xl hover:shadow-2xl active:scale-95 transition-all flex items-center justify-center gap-3"
+            className="w-full h-16 sm:h-20 rounded-full bg-gradient-to-r from-purple-500 to-gold-600 text-white font-black text-lg sm:text-xl font-['Nunito'] shadow-xl hover:shadow-2xl active:scale-95 transition-all flex items-center justify-center gap-3"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.94 }}
             animate={isListening ? { scale: [1, 1.06, 1] } : {} }
@@ -791,7 +791,7 @@ const ParentCorner = ({ open, onClose, lang }: { open: boolean; onClose: () => v
             <div className="space-y-3">
               {[
                 { icon: '⭐', label: t('starsEarned', lang), val: '24', bg: 'from-yellow-100 to-amber-100', border: 'border-yellow-200', tc: 'text-amber-700' },
-                { icon: '📚', label: t('subjectsDone', lang), val: '3', bg: 'from-blue-100 to-indigo-100', border: 'border-blue-200', tc: 'text-blue-700' },
+                { icon: '📚', label: t('subjectsDone', lang), val: '3', bg: 'from-gold-100 to-gold-100', border: 'border-gold-200', tc: 'text-gold-700' },
                 { icon: '🔥', label: t('streak', lang), val: '5 days', bg: 'from-orange-100 to-red-100', border: 'border-orange-200', tc: 'text-orange-700' },
                 { icon: '⏱️', label: 'Time Today', val: '18 min', bg: 'from-green-100 to-emerald-100', border: 'border-green-200', tc: 'text-emerald-700' },
                 { icon: '🎯', label: 'Accuracy', val: '87%', bg: 'from-purple-100 to-pink-100', border: 'border-purple-200', tc: 'text-purple-700' },

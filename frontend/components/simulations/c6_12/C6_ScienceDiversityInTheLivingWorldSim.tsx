@@ -104,7 +104,7 @@ function C6_ScienceDiversityInTheLivingWorldSim() {
               {feedback.text}
             </div>
           )}
-          <div className="p-2 rounded-xl bg-sky-50 border-2 border-sky-200 text-[11px] text-sky-800 font-bold text-center">
+          <div className="p-2 rounded-xl bg-gold-50 border-2 border-gold-200 text-[11px] text-gold-800 font-bold text-center">
             Score: {score.right}/{score.tried}
           </div>
           <div className="p-2 rounded-xl bg-amber-50 border-2 border-amber-200 text-[11px] text-amber-800 font-semibold">
@@ -113,9 +113,9 @@ function C6_ScienceDiversityInTheLivingWorldSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Sort ALL 8 animals under "How does it move?", then switch to "Where does it live?". Which animal changed groups the most?</li>
           <li>Find one group that is ALWAYS empty no matter the rule -- or prove all groups can be filled. What does that tell you about choosing good features for classification?</li>
         </ol>

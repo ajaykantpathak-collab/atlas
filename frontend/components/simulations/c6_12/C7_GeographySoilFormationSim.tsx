@@ -1116,7 +1116,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium flex items-center gap-2">
@@ -1139,7 +1139,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
             animate={{ scale: 1, opacity: 1 }}
             className={`px-3 py-1.5 rounded-xl text-xs font-black uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300' :
-              difficulty === 'standard' ? 'bg-cyan-950/60 border-cyan-500 text-cyan-300' :
+              difficulty === 'standard' ? 'bg-gold-950/60 border-gold-500 text-gold-300' :
               'bg-amber-950/60 border-amber-500 text-amber-300'
             }`}
           >
@@ -1155,13 +1155,13 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🗺️ Geographical Expedition Hook</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800">
@@ -1375,7 +1375,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
 
                       {selectedHorizon === 'R' && (
                         <div className="space-y-2 text-xs text-slate-300">
-                          <p className="font-bold text-cyan-400">Bedrock (Mother Stone)</p>
+                          <p className="font-bold text-gold-400">Bedrock (Mother Stone)</p>
                           <p>Continuous solid unweathered geological stratum (Basalt, Granite, Sandstone, or Limestone).</p>
                           <div className="p-2.5 rounded bg-slate-900 border border-slate-800 text-slate-400">
                             <strong>Foundation:</strong> Impermeable base that supports the entire pedosphere above.
@@ -1396,8 +1396,8 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
               {currentSlide === 1 && (
                 <div className="space-y-5">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/80">
-                      <p className="text-xs font-bold text-indigo-300 uppercase mb-2">⚡ Predict-Then-Check Experiment</p>
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/80">
+                      <p className="text-xs font-bold text-gold-300 uppercase mb-2">⚡ Predict-Then-Check Experiment</p>
                       <p className="text-sm font-bold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
@@ -1430,7 +1430,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Annual Rainfall:</span>
-                        <span className="font-bold text-cyan-400">{rainfallMm} mm</span>
+                        <span className="font-bold text-gold-400">{rainfallMm} mm</span>
                       </div>
                       <input
                         type="range"
@@ -1440,7 +1440,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                         value={rainfallMm}
                         onChange={(e) => handleRainfallChange(Number(e.target.value))}
                         aria-label="Annual Rainfall Slider"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1684,7 +1684,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 mt-2">
                         <div className="flex justify-between text-xs mb-1">
                           <span className="text-slate-400">Transport Distance from Raw Source:</span>
-                          <span className="font-bold text-cyan-400">{transportDistanceKm} km</span>
+                          <span className="font-bold text-gold-400">{transportDistanceKm} km</span>
                         </div>
                         <input
                           type="range"
@@ -1697,7 +1697,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                             audioManager.play('count');
                           }}
                           aria-label="Transport distance from source"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                         <div className="flex justify-between mt-2 pt-2 border-t border-slate-800 text-xs">
                           <span className="text-slate-400">Raw Input Viability:</span>
@@ -1716,7 +1716,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 grid grid-cols-1 lg:grid-cols-12 gap-6">
                     <div className="lg:col-span-6 space-y-3">
-                      <span className="text-xs font-bold text-cyan-400 uppercase">National Energy Transition Simulator</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">National Energy Transition Simulator</span>
                       <div>
                         <div className="flex justify-between text-xs mb-1">
                           <span className="text-slate-300">Coal Thermal Generation:</span>
@@ -1762,7 +1762,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                           Muppandal (Tamil Nadu), Kutch (Gujarat).
                         </div>
                         <div className="p-2.5 rounded bg-slate-900 border border-slate-800">
-                          <strong className="text-cyan-400 block">Offshore Petroleum:</strong>
+                          <strong className="text-gold-400 block">Offshore Petroleum:</strong>
                           Mumbai High (Arabian Sea), Digboi (Assam 1889).
                         </div>
                         <div className="p-2.5 rounded bg-slate-900 border border-slate-800">
@@ -1795,7 +1795,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                         aria-label={`Select continent: ${cont}`}
                         className={`px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase transition-all border ${
                           activeContinent === cont
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-950'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-950'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1808,7 +1808,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                     <div className="lg:col-span-7 space-y-3 text-xs">
                       {activeContinent === 'europe' && (
                         <div className="space-y-2">
-                          <span className="text-sm font-bold text-indigo-300">Europe — "Peninsula of Peninsulas" (10.18M sq km)</span>
+                          <span className="text-sm font-bold text-gold-300">Europe — "Peninsula of Peninsulas" (10.18M sq km)</span>
                           <p className="text-slate-300">• <strong>Lat/Long:</strong> 35°N to 71°N; 10°W to 60°E.</p>
                           <p className="text-slate-300">• <strong>Boundaries:</strong> Arctic (N), Mediterranean (S), Atlantic (W), Ural Mountains (E to Asia).</p>
                           <p className="text-slate-300">• <strong>Key Rivers:</strong> Volga (longest, 3,530km to Caspian Sea), Danube (to Black Sea), Rhine (North Sea).</p>
@@ -1818,7 +1818,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
 
                       {activeContinent === 'africa' && (
                         <div className="space-y-2">
-                          <span className="text-sm font-bold text-indigo-300">Africa — The Plateau Continent (30.37M sq km)</span>
+                          <span className="text-sm font-bold text-gold-300">Africa — The Plateau Continent (30.37M sq km)</span>
                           <p className="text-slate-300">• <strong>Lat/Long:</strong> 37°N to 35°S (crosses Equator, Cancer, Capricorn).</p>
                           <p className="text-slate-300">• <strong>Great Rift Valley:</strong> Giant fault trench from Red Sea to Mozambique with deep lakes (Tanganyika, Malawi).</p>
                           <p className="text-slate-300">• <strong>Longest River:</strong> Nile (6,650 km flowing North to Mediterranean).</p>
@@ -1828,7 +1828,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
 
                       {activeContinent === 'australia' && (
                         <div className="space-y-2">
-                          <span className="text-sm font-bold text-indigo-300">Australia — The Saucer Continent (7.68M sq km)</span>
+                          <span className="text-sm font-bold text-gold-300">Australia — The Saucer Continent (7.68M sq km)</span>
                           <p className="text-slate-300">• <strong>Lat/Long:</strong> 10°S to 44°S; 113°E to 154°E (Southern & Eastern Hemispheres).</p>
                           <p className="text-slate-300">• <strong>Relief Belts:</strong> Eastern Highlands (Great Dividing Range) → Central Lowlands (Lake Eyre -15m) → Western Plateau (Sandy, Gibson, Victoria Deserts).</p>
                           <p className="text-slate-300">• <strong>World Wonder:</strong> Great Barrier Reef (2,300 km in Coral Sea).</p>
@@ -1838,7 +1838,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
 
                       {activeContinent === 'antarctica' && (
                         <div className="space-y-2">
-                          <span className="text-sm font-bold text-indigo-300">Antarctica — The Frozen White Continent (14M sq km)</span>
+                          <span className="text-sm font-bold text-gold-300">Antarctica — The Frozen White Continent (14M sq km)</span>
                           <p className="text-slate-300">• <strong>Location:</strong> Entirely south of 66.5°S (Antarctic Circle) to 90°S South Pole.</p>
                           <p className="text-slate-300">• <strong>Physical Records:</strong> Coldest (-89°C at Vostok), Driest (polar desert &lt;50mm rain), Windiest (Katabatic winds &gt;200 km/h).</p>
                           <p className="text-slate-300">• <strong>Ice Sheet:</strong> Covers 98% (up to 4.8 km thick); Transantarctic Mountains split East & West.</p>
@@ -1892,9 +1892,9 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                   </div>
 
                   {/* ── OBSERVATION CARD 2 (Brilliant.org "What do you notice?") ── */}
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">🔬 Observation Check #2: What do you notice?</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">🔬 Observation Check #2: What do you notice?</span>
                       <span className="text-[11px] text-slate-400">Continental Profile Analysis</span>
                     </div>
                     <p className="text-xs sm:text-sm font-semibold text-slate-200">
@@ -1931,7 +1931,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                     </div>
                     {obsAnswered[OBSERVATION_QUESTIONS[1].id] && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 rounded bg-slate-900 border border-slate-800 text-xs text-slate-300">
-                        <strong className="text-indigo-400">Geographical Reason:</strong> {OBSERVATION_QUESTIONS[1].explanation}
+                        <strong className="text-gold-400">Geographical Reason:</strong> {OBSERVATION_QUESTIONS[1].explanation}
                       </motion.div>
                     )}
                   </div>
@@ -2006,7 +2006,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
 
           <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase">Climate & Slope Sliders</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Climate & Slope Sliders</span>
               <div>
                 <label className="text-xs text-slate-400 block mb-1">Rainfall: {rainfallMm} mm</label>
                 <input
@@ -2017,7 +2017,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                   value={rainfallMm}
                   onChange={(e) => handleRainfallChange(Number(e.target.value))}
                   aria-label="Sandbox Rainfall Slider"
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div>
@@ -2077,7 +2077,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                 <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-emerald-400 font-mono font-bold">
                   {challenge.nodeId}
                 </span>
-                <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-indigo-300 font-bold capitalize">
+                <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-gold-300 font-bold capitalize">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2091,7 +2091,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                 animate={{ scale: 1 }}
                 className={`text-xs px-2.5 py-1 rounded-lg font-black uppercase tracking-wider border ${
                   challenge.difficulty === 'foundation' ? 'bg-emerald-950 border-emerald-500 text-emerald-300' :
-                  challenge.difficulty === 'standard' ? 'bg-cyan-950 border-cyan-500 text-cyan-300' :
+                  challenge.difficulty === 'standard' ? 'bg-gold-950 border-gold-500 text-gold-300' :
                   'bg-amber-950 border-amber-500 text-amber-300'
                 }`}
               >
@@ -2103,7 +2103,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
           {/* PROGRESS BAR */}
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-400"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2298,7 +2298,7 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold"
+                      className="px-3 py-1.5 rounded-lg bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2457,8 +2457,8 @@ export function C7_GeographySoilFormationSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* REAL WORLD FIELD ACTIVITY */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-2 text-xs">
-            <span className="text-xs font-bold text-indigo-300 uppercase">{REAL_WORLD_ACTIVITY.title}</span>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-2 text-xs">
+            <span className="text-xs font-bold text-gold-300 uppercase">{REAL_WORLD_ACTIVITY.title}</span>
             <p className="text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-slate-400 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, idx) => (

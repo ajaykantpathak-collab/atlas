@@ -258,7 +258,7 @@ function ExplorerEsha({ mood, speaking }: { mood: MascotMood; speaking: string |
             initial={{ scale: 0, opacity: 0, y: 10 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
-            className="mb-2 bg-white border-2 border-cyan-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
+            className="mb-2 bg-white border-2 border-gold-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
           >
             <p className="text-xs font-bold text-gray-800 leading-relaxed">{speaking}</p>
           </motion.div>
@@ -302,7 +302,7 @@ function ExplorerEsha({ mood, speaking }: { mood: MascotMood; speaking: string |
 
 function StarRow({ count, total }: { count: number; total: number }) {
   return (
-    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-cyan-200">
+    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-gold-200">
       {Array.from({ length: total }).map((_, i) => (
         <motion.div
           key={i}
@@ -326,14 +326,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Welcome to Esha's Mountain Explorer! 🏔️",
     text: "Explorer Esha travels high up mountain peaks and deep down into the ocean! To measure these opposite directions, we use negative numbers below zero.",
     emoji: "🏔️",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Welcome to Esha's Mountain Explorer! We use negative numbers below zero to measure heights above and depths below sea level."
   },
   {
     title: "The Number Line & Negative Numbers 📈",
     text: "Zero is right in the middle at sea level. Positive numbers go to the right (+1, +2, +3), and negative numbers go to the left (-1, -2, -3) with equal spacing!",
     emoji: "📏",
-    bgColor: "from-blue-600 to-indigo-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "Zero is at the centre. Positive numbers go to the right, and negative numbers go to the left with equal spacing and mirror symmetry!"
   },
   {
@@ -700,7 +700,7 @@ export function IntegersGame({ width = 720, height = 560, onComplete }: Integers
                 <div
                   key={i}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    i === slideIdx ? 'bg-cyan-400 w-8' : 'bg-white/50'
+                    i === slideIdx ? 'bg-gold-400 w-8' : 'bg-white/50'
                   }`}
                 />
               ))}
@@ -727,7 +727,7 @@ export function IntegersGame({ width = 720, height = 560, onComplete }: Integers
               }}
               disabled={slideIdx === 0}
               className={`px-6 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${
-                slideIdx === 0 ? 'bg-gray-500/50 cursor-not-allowed' : 'bg-cyan-600 hover:bg-cyan-500'
+                slideIdx === 0 ? 'bg-gray-500/50 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500'
               }`}
             >
               ⬅️ Previous
@@ -764,7 +764,7 @@ export function IntegersGame({ width = 720, height = 560, onComplete }: Integers
           {/* Header Bar */}
           <div className="flex justify-between items-center bg-black/50 backdrop-blur-md px-5 py-3 rounded-2xl border border-white/20">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-bold text-cyan-300 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                 Challenge {challengeIdx + 1} of {CHALLENGES.length}
               </span>
               <StarRow count={Math.floor(score / 15)} total={5} />
@@ -781,7 +781,7 @@ export function IntegersGame({ width = 720, height = 560, onComplete }: Integers
           </div>
 
           {/* Challenge Box */}
-          <div className="my-auto mx-auto w-full max-w-2xl bg-slate-900/90 backdrop-blur-xl border-2 border-cyan-500/50 rounded-3xl p-6 shadow-2xl flex flex-col items-center text-center">
+          <div className="my-auto mx-auto w-full max-w-2xl bg-slate-900/90 backdrop-blur-xl border-2 border-gold-500/50 rounded-3xl p-6 shadow-2xl flex flex-col items-center text-center">
             <h3 className="text-lg font-bold text-white mb-6 leading-relaxed">
               {currentChallenge.question}
             </h3>
@@ -852,7 +852,7 @@ export function IntegersGame({ width = 720, height = 560, onComplete }: Integers
                       >
                         <div
                           className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 ${
-                            placed ? 'bg-emerald-800/80 border-emerald-400 opacity-50' : 'bg-white border-cyan-300'
+                            placed ? 'bg-emerald-800/80 border-emerald-400 opacity-50' : 'bg-white border-gold-300'
                           }`}
                           style={{ width: 130, height: 85 }}
                         >
@@ -899,7 +899,7 @@ export function IntegersGame({ width = 720, height = 560, onComplete }: Integers
                   setIsIncorrect(false);
                   setMascotMood('happy');
                 }}
-                className="mt-4 text-xs font-bold text-cyan-300 underline hover:text-cyan-200"
+                className="mt-4 text-xs font-bold text-gold-300 underline hover:text-gold-200"
               >
                 Try Again 🔄
               </button>

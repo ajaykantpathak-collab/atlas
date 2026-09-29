@@ -1455,7 +1455,7 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
                       </div>
                       <div className="bg-slate-950 rounded-lg p-2 border border-slate-800 text-center">
                         <p className="text-[10px] text-slate-500">Independent press (1928 = 100 papers)</p>
-                        <p className="font-mono font-bold text-sky-300">{Math.max(0, Math.round((100 - dictatorControlLevel) * 1.2))} papers</p>
+                        <p className="font-mono font-bold text-gold-300">{Math.max(0, Math.round((100 - dictatorControlLevel) * 1.2))} papers</p>
                       </div>
                       <div className="bg-slate-950 rounded-lg p-2 border border-slate-800 text-center">
                         <p className="text-[10px] text-slate-500">Opposition seats (per 100)</p>
@@ -1481,7 +1481,7 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
                       onClick={() => setVennActiveTab('italy')}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border ${
                         vennActiveTab === 'italy'
-                          ? 'bg-blue-500/20 border-blue-500 text-blue-300'
+                          ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                           : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1575,8 +1575,8 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
                       </div>
                     )}
                     {vennActiveTab === 'italy' && (
-                      <div className="space-y-1 text-xs text-blue-200">
-                        <p className="font-bold text-blue-400 text-sm">Fascist Italy Distinctive Features:</p>
+                      <div className="space-y-1 text-xs text-gold-200">
+                        <p className="font-bold text-gold-400 text-sm">Fascist Italy Distinctive Features:</p>
                         <p>• Arose from St. Germain (1919) territorial disappointment & inflation.</p>
                         <p>• Primacy of the State ("Everything in the State, nothing outside").</p>
                         <p>• No foundational racial anti-Semitism until 1938 German pressure.</p>
@@ -1598,8 +1598,8 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
               {currentSlide === 2 && (
                 <div className="space-y-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
-                      <p className="text-xs font-bold text-indigo-400 uppercase mb-1">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                      <p className="text-xs font-bold text-gold-400 uppercase mb-1">
                         🤔 PREDICT-THEN-CHECK (NEP 2020)
                       </p>
                       <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[1].question}</p>
@@ -1648,7 +1648,7 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       {simYear === 1919 && (
                         <div>
-                          <span className="text-xs font-bold text-blue-400">1919 • Post-WWI Treaties</span>
+                          <span className="text-xs font-bold text-gold-400">1919 • Post-WWI Treaties</span>
                           <p className="text-sm text-white font-semibold mt-1">
                             Treaty of Versailles (Germany) & Treaty of St. Germain (Italy)
                           </p>
@@ -1718,7 +1718,7 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
                       )}
                       {simYear >= 1941 && simYear <= 1944 && (
                         <div>
-                          <span className="text-xs font-bold text-blue-400">
+                          <span className="text-xs font-bold text-gold-400">
                             7 December 1941 • Attack on Pearl Harbour
                           </span>
                           <p className="text-sm text-white font-semibold mt-1">
@@ -1901,7 +1901,7 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
 
                   <div className="space-y-2 p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs">
-                      <span className="text-blue-400 font-bold">Western Bloc (NATO • 1949)</span>
+                      <span className="text-gold-400 font-bold">Western Bloc (NATO • 1949)</span>
                       <span className="text-amber-400 font-bold">
                         {namAlignment === 50 ? '⭐ Non-Aligned Movement (Belgrade 1961)' : `Alignment: ${namAlignment}%`}
                       </span>
@@ -2056,7 +2056,7 @@ function C10_HistoryCivicsRiseDictatorshipsCausesSim({
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
             {selectedAgency === 'unicef' && (
               <div className="space-y-3">
-                <div className="flex items-center gap-2 text-blue-400 text-sm font-bold">
+                <div className="flex items-center gap-2 text-gold-400 text-sm font-bold">
                   <span>👶</span> UNICEF • United Nations Children’s Fund
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed">

@@ -975,7 +975,7 @@ const ABCModelDiagramSVG: React.FC<{ beliefType: 'irrational' | 'rational' }> = 
 
       {/* Node A */}
       <rect x="30" y="60" width="130" height="90" rx="10" fill="#1e293b" stroke="#3b82f6" strokeWidth="2" />
-      <text x="95" y="90" textAnchor="middle" className="text-sm font-bold fill-blue-400">
+      <text x="95" y="90" textAnchor="middle" className="text-sm font-bold fill-gold-400">
         [A] Trigger
       </text>
       <text x="95" y="110" textAnchor="middle" className="text-xs fill-slate-300">
@@ -1083,7 +1083,7 @@ const SystematicDesensitizationSVG: React.FC<{ sudLevel: number; relaxActive: bo
       {/* Reciprocal Inhibition Graph */}
       <g transform="translate(290, 45)">
         <rect x="0" y="10" width="270" height="140" rx="8" fill="#1e293b" stroke="#3b82f6" strokeWidth="1" />
-        <text x="135" y="30" textAnchor="middle" className="text-[11px] font-bold fill-blue-300">
+        <text x="135" y="30" textAnchor="middle" className="text-[11px] font-bold fill-gold-300">
           Reciprocal Inhibition Dynamics
         </text>
 
@@ -1134,7 +1134,7 @@ const TherapeuticAllianceSVG: React.FC<{ empathy: number; regard: number; congru
         {/* Empathy Pillar */}
         <rect x="10" y={130 - (empathy / 100) * 90} width="45" height={(empathy / 100) * 90} rx="4" fill="#3b82f6" />
         <text x="32" y="145" textAnchor="middle" className="text-[10px] fill-slate-300 font-bold">Empathy</text>
-        <text x="32" y="160" textAnchor="middle" className="text-[10px] fill-blue-400 font-bold">{empathy}%</text>
+        <text x="32" y="160" textAnchor="middle" className="text-[10px] fill-gold-400 font-bold">{empathy}%</text>
 
         {/* Regard Pillar */}
         <rect x="85" y={130 - (regard / 100) * 90} width="45" height={(regard / 100) * 90} rx="4" fill="#10b981" />
@@ -1205,7 +1205,7 @@ const AutonomicBalanceSVG: React.FC<{ breathRate: number; mode: 'sky' | 'vipassa
       {/* EEG Waveform simulation */}
       <g transform="translate(290, 50)">
         <rect x="0" y="0" width="270" height="130" rx="8" fill="#1e293b" stroke="#334155" />
-        <text x="135" y="22" textAnchor="middle" className="text-[11px] font-bold fill-cyan-300">
+        <text x="135" y="22" textAnchor="middle" className="text-[11px] font-bold fill-gold-300">
           EEG Waveform ({isCalm ? 'Alpha / Theta 8-12Hz' : 'High Beta 20-30Hz'})
         </text>
 
@@ -1247,7 +1247,7 @@ const RehabilitationPathwaySVG: React.FC<{ stage: number }> = ({ stage }) => {
 
       {/* Stage 1: Clinical Stabilization */}
       <rect x="30" y="60" width="150" height="90" rx="8" fill={stage >= 1 ? '#1e3a8a' : '#1e293b'} stroke={stage >= 1 ? '#3b82f6' : '#475569'} strokeWidth="2" />
-      <text x="105" y="85" textAnchor="middle" className="text-[11px] font-bold fill-blue-300">1. Medical & Symptoms</text>
+      <text x="105" y="85" textAnchor="middle" className="text-[11px] font-bold fill-gold-300">1. Medical & Symptoms</text>
       <text x="105" y="105" textAnchor="middle" className="text-[9px] fill-slate-300">Pharmacotherapy &</text>
       <text x="105" y="120" textAnchor="middle" className="text-[9px] fill-slate-300">Acute Crisis Management</text>
 
@@ -1537,14 +1537,14 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
       <header className="w-full bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="bg-blue-600/30 text-blue-400 text-xs px-2.5 py-1 rounded-full font-bold border border-blue-500/30">
+            <span className="bg-gold-600/30 text-gold-400 text-xs px-2.5 py-1 rounded-full font-bold border border-gold-500/30">
               CISCE Class 12 Psychology
             </span>
             <span className="bg-emerald-600/30 text-emerald-400 text-xs px-2.5 py-1 rounded-full font-bold border border-emerald-500/30">
               Chapter: Therapeutic Approaches
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-300 to-indigo-300">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-teal-300 to-gold-300">
             Therapeutic Approaches Interactive Lab
           </h1>
           <p className="text-xs md:text-sm text-slate-400 mt-1">
@@ -1566,7 +1566,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center">
             <div className="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Challenges</div>
-            <div className="text-xl font-black text-blue-400">
+            <div className="text-xl font-black text-gold-400">
               {completedChallenges.size}/{CHALLENGES.length}
             </div>
           </div>
@@ -1582,7 +1582,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg text-xs md:text-sm font-bold transition-all ${
             activeTab === 'discovery'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1595,7 +1595,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg text-xs md:text-sm font-bold transition-all ${
             activeTab === 'lab'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1608,7 +1608,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg text-xs md:text-sm font-bold transition-all ${
             activeTab === 'challenges'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1621,7 +1621,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           }}
           className={`flex-1 min-w-[130px] py-2.5 px-4 rounded-lg text-xs md:text-sm font-bold transition-all ${
             activeTab === 'summary'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1637,7 +1637,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           {/* Main Scenario Box */}
           <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col gap-5">
             <div className="border-b border-slate-800 pb-4">
-              <span className="text-xs text-blue-400 font-bold uppercase tracking-wider">Clinical Context</span>
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Clinical Context</span>
               <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-xs text-slate-400 mt-2 italic">{SCENARIO.context}</p>
@@ -1663,7 +1663,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                     }}
                     className={`text-left p-3.5 rounded-lg text-xs md:text-sm font-medium transition-all ${
                       discoverySelected === idx
-                        ? 'bg-blue-600/30 border-blue-500 text-white'
+                        ? 'bg-gold-600/30 border-gold-500 text-white'
                         : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-850'
                     } border`}
                   >
@@ -1696,7 +1696,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
 
             {/* Prediction Questions */}
             <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-4">
-              <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Pre-Lab Predictions</h3>
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Pre-Lab Predictions</h3>
 
               {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                 <div key={qIdx} className="bg-slate-900 p-4 rounded-lg border border-slate-800 flex flex-col gap-3">
@@ -1712,7 +1712,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                         }}
                         className={`text-left p-2.5 rounded text-xs transition-all ${
                           predAnswers[qIdx] === oIdx
-                            ? 'bg-blue-600 text-white font-bold'
+                            ? 'bg-gold-600 text-white font-bold'
                             : 'bg-slate-950 text-slate-300 border border-slate-800 hover:bg-slate-800'
                         }`}
                       >
@@ -1725,7 +1725,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                     <button
                       disabled={predAnswers[qIdx] === undefined}
                       onClick={() => handlePredSubmit(qIdx)}
-                      className="py-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded transition-all disabled:opacity-50"
+                      className="py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded transition-all disabled:opacity-50"
                     >
                       Verify Prediction
                     </button>
@@ -1777,11 +1777,11 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 }}
                 className={`p-3 rounded-xl border text-xs font-bold text-left transition-all ${
                   activeLabStepIndex === idx
-                    ? 'bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-600/30'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white hover:bg-slate-850'
                 }`}
               >
-                <div className="text-[10px] text-blue-300 uppercase font-semibold">Step {idx + 1}</div>
+                <div className="text-[10px] text-gold-300 uppercase font-semibold">Step {idx + 1}</div>
                 <div className="truncate mt-0.5">{step.title.split(':')[1] || step.title}</div>
               </button>
             ))}
@@ -1791,7 +1791,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col gap-6">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs text-blue-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Interactive Lab Module {activeLabStepIndex + 1} of 5
                 </span>
                 <h2 className="text-xl font-bold text-white mt-0.5">{EXPLORATION_STEPS[activeLabStepIndex].title}</h2>
@@ -1859,11 +1859,11 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-4">
-                  <h4 className="text-sm font-bold text-blue-400 uppercase">Cognitive Formulation Output</h4>
+                  <h4 className="text-sm font-bold text-gold-400 uppercase">Cognitive Formulation Output</h4>
 
                   <div className="space-y-3 text-xs text-slate-300">
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                      <span className="font-bold text-blue-400">Activating Event (A):</span> Client faced rejection during a high-stakes interview.
+                      <span className="font-bold text-gold-400">Activating Event (A):</span> Client faced rejection during a high-stakes interview.
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="font-bold text-purple-400">Belief (B):</span>{' '}
@@ -1879,7 +1879,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                     </div>
                   </div>
 
-                  <div className="bg-blue-950/40 p-3.5 rounded-lg border border-blue-800/40 text-xs text-blue-200">
+                  <div className="bg-gold-950/40 p-3.5 rounded-lg border border-gold-800/40 text-xs text-gold-200">
                     <span className="font-bold">Dispute Insight ({cbtDisputeStrategy.toUpperCase()}):</span>{' '}
                     {cbtDisputeStrategy === 'empirical'
                       ? 'Testing facts: Rejection from one firm does not prove zero value in all firms.'
@@ -1914,7 +1914,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                           setHierarchyStep(Number(e.target.value));
                           playSound('count');
                         }}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1941,7 +1941,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-4">
-                  <h4 className="text-sm font-bold text-blue-400 uppercase">Reciprocal Inhibition Analysis</h4>
+                  <h4 className="text-sm font-bold text-gold-400 uppercase">Reciprocal Inhibition Analysis</h4>
 
                   <div className="bg-slate-900 p-4 rounded-lg stroke-slate-800 border text-xs space-y-2 text-slate-300">
                     <p className="font-bold text-amber-300">Target Phobia: Public Speaking Anxiety</p>
@@ -1990,7 +1990,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                           setEmpathyVal(Number(e.target.value));
                           playSound('count');
                         }}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -2031,7 +2031,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-4">
-                  <h4 className="text-sm font-bold text-blue-400 uppercase">Humanistic Healing Dynamics</h4>
+                  <h4 className="text-sm font-bold text-gold-400 uppercase">Humanistic Healing Dynamics</h4>
 
                   <div className="bg-slate-900 p-4 rounded-lg border border-slate-800 text-xs space-y-2 text-slate-300">
                     <p className="font-bold text-purple-300">Client Self-Actualisation Index: {Math.round((empathyVal + regardVal + congruenceVal) / 3)}%</p>
@@ -2040,7 +2040,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                     </p>
                   </div>
 
-                  <div className="p-4 rounded-lg bg-blue-950/40 border border-blue-800/40 text-xs text-blue-200">
+                  <div className="p-4 rounded-lg bg-gold-950/40 border border-gold-800/40 text-xs text-gold-200">
                     <p className="font-semibold mb-1">Therapeutic Boundary Check:</p>
                     <p>
                       {empathyVal > 70 && regardVal > 70
@@ -2081,7 +2081,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                           playSound('pop');
                         }}
                         className={`p-2.5 rounded-lg text-xs font-bold transition-all ${
-                          therapyMode === 'sky' ? 'bg-cyan-600 text-white' : 'bg-slate-900 border-slate-800 text-slate-400 border'
+                          therapyMode === 'sky' ? 'bg-gold-600 text-white' : 'bg-slate-900 border-slate-800 text-slate-400 border'
                         }`}
                       >
                         SKY Yoga Breath
@@ -2093,7 +2093,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                           playSound('pop');
                         }}
                         className={`p-2.5 rounded-lg text-xs font-bold transition-all ${
-                          therapyMode === 'vipassana' ? 'bg-indigo-600 text-white' : 'bg-slate-900 border-slate-800 text-slate-400 border'
+                          therapyMode === 'vipassana' ? 'bg-gold-600 text-white' : 'bg-slate-900 border-slate-800 text-slate-400 border'
                         }`}
                       >
                         Vipassana Meditation
@@ -2113,17 +2113,17 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                           setBreathRateVal(Number(e.target.value));
                           playSound('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-4">
-                  <h4 className="text-sm font-bold text-blue-400 uppercase">Mind-Body Neurobiology</h4>
+                  <h4 className="text-sm font-bold text-gold-400 uppercase">Mind-Body Neurobiology</h4>
 
                   <div className="bg-slate-900 p-4 rounded-lg border border-slate-800 text-xs space-y-2 text-slate-300">
-                    <p className="font-bold text-cyan-300">
+                    <p className="font-bold text-gold-300">
                       {therapyMode === 'sky'
                         ? 'Sudarshana Kriya Yoga Protocol Active'
                         : therapyMode === 'vipassana'
@@ -2174,7 +2174,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                           playSound('pop');
                         }}
                         className={`p-2.5 rounded-lg text-xs font-bold transition-all ${
-                          rehabStage === 1 ? 'bg-blue-600 text-white' : 'bg-slate-900 border-slate-800 text-slate-400 border'
+                          rehabStage === 1 ? 'bg-gold-600 text-white' : 'bg-slate-900 border-slate-800 text-slate-400 border'
                         }`}
                       >
                         Stage 1: Clinical
@@ -2206,7 +2206,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-4">
-                  <h4 className="text-sm font-bold text-blue-400 uppercase">Multimodal Rehabilitation Strategy</h4>
+                  <h4 className="text-sm font-bold text-gold-400 uppercase">Multimodal Rehabilitation Strategy</h4>
 
                   <div className="bg-slate-900 p-4 rounded-lg border border-slate-800 text-xs space-y-2 text-slate-300">
                     <p className="font-bold text-emerald-400">Target Focus: {selectedCase.toUpperCase()}</p>
@@ -2276,14 +2276,14 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
           <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col gap-5">
             <div className="flex justify-between items-center border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs text-blue-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Challenge {challengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
                   <span
                     className={`text-xs px-2.5 py-0.5 rounded-full font-bold ${
                       currentChallenge.difficulty === 'Foundation'
-                        ? 'bg-blue-600/30 text-blue-400 border border-blue-500/30'
+                        ? 'bg-gold-600/30 text-gold-400 border border-gold-500/30'
                         : currentChallenge.difficulty === 'Standard'
                         ? 'bg-amber-600/30 text-amber-400 border border-amber-500/30'
                         : 'bg-purple-600/30 text-purple-400 border border-purple-500/30'
@@ -2343,7 +2343,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                     }}
                     className={`text-left p-4 rounded-xl text-xs md:text-sm font-medium transition-all ${
                       selectedChallengeOption === idx
-                        ? 'bg-blue-600/30 border-blue-500 text-white shadow-lg'
+                        ? 'bg-gold-600/30 border-gold-500 text-white shadow-lg'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-850'
                     } border`}
                   >
@@ -2362,7 +2362,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="e.g. 58"
-                  className="bg-slate-900 border border-slate-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-blue-500"
+                  className="bg-slate-900 border border-slate-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -2390,7 +2390,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 {challengeIndex < CHALLENGES.length - 1 && (
                   <button
                     onClick={nextChallenge}
-                    className="w-full py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg"
+                    className="w-full py-3.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg"
                   >
                     Proceed to Next Challenge ▶
                   </button>
@@ -2418,7 +2418,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                     }}
                     className={`h-10 rounded-lg text-xs font-bold flex items-center justify-center transition-all ${
                       isCurrent
-                        ? 'ring-2 ring-blue-400 bg-blue-600 text-white'
+                        ? 'ring-2 ring-gold-400 bg-gold-600 text-white'
                         : isDone
                         ? 'bg-emerald-600/30 border border-emerald-500/40 text-emerald-400'
                         : 'bg-slate-950 border border-slate-800 text-slate-400 hover:bg-slate-800'
@@ -2445,7 +2445,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                       <span className="font-bold text-slate-200">{avg}%</span>
                     </div>
                     <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
-                      <div className="bg-blue-500 h-full transition-all duration-500" style={{ width: `${avg}%` }} />
+                      <div className="bg-gold-500 h-full transition-all duration-500" style={{ width: `${avg}%` }} />
                     </div>
                   </div>
                 );
@@ -2460,7 +2460,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col gap-6">
             <div className="border-b border-slate-800 pb-4">
-              <span className="text-xs text-blue-400 font-bold uppercase tracking-wider">Clinical Application</span>
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Clinical Application</span>
               <h2 className="text-xl font-bold text-white mt-1">{REAL_WORLD_ACTIVITY.title}</h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             </div>
@@ -2489,7 +2489,7 @@ export const C12_PsyTherapeuticApproachesCBSESim: React.FC<C12_PsyTherapeuticApp
                 return (
                   <div key={id} className="bg-slate-950 p-3 rounded-lg border border-slate-800 flex flex-col gap-1 text-xs">
                     <div className="flex justify-between items-center">
-                      <span className="font-bold text-blue-400">{node.title}</span>
+                      <span className="font-bold text-gold-400">{node.title}</span>
                       <span className="text-[10px] text-emerald-400 font-semibold">{mastery}% Mastery</span>
                     </div>
                     <p className="text-slate-300 text-[11px] mt-0.5">{node.definition}</p>

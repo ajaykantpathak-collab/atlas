@@ -203,7 +203,7 @@ export default function C12_BiologyProteinStructureSim() {
             {row('peptide bonds', `${m.peptideBonds} = N − 1`, 'text-gold-300')}
             {level === 'secondary' && secKind === 'alpha' && (
               <>
-                {row('residues per turn', `${m.perTurn.toFixed(1)} (360°/100°)`, 'text-cyan-300')}
+                {row('residues per turn', `${m.perTurn.toFixed(1)} (360°/100°)`, 'text-gold-300')}
                 {row('rise × per-turn = pitch', `${m.pitchA.toFixed(1)} Å`, 'text-gold-300')}
                 {row('H-bonds i→i+4', `${m.hbonds} = N − 4`, 'text-rose-300')}
                 {row('helix length', `${m.helixLenA.toFixed(1)} Å`)}

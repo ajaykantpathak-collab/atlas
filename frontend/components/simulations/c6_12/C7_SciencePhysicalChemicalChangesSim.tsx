@@ -545,7 +545,7 @@ export function C7_SciencePhysicalChemicalChangesSim() {
                       <button key={g} onClick={() => !checked && setBuckets((b) => ({ ...b, [c.id]: g }))}
                         className={`flex-1 min-h-11 rounded-lg text-[11px] font-bold border transition-all ${
                           chosen === g
-                            ? g === 'chemical' ? 'bg-rose-600 border-rose-500 text-white' : 'bg-sky-600 border-sky-500 text-white'
+                            ? g === 'chemical' ? 'bg-rose-600 border-rose-500 text-white' : 'bg-gold-600 border-gold-500 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-600'
                         }`}>
                         {g}

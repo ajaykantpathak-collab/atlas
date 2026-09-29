@@ -33,7 +33,7 @@ export function C7_MathematicsDataHandlingSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Data Handling: Mean, Median, Mode</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Data Handling: Mean, Median, Mode</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Bar chart */}
@@ -94,7 +94,7 @@ export function C7_MathematicsDataHandlingSim() {
           <button
             key={s.id}
             onClick={() => setStat(s.id)}
-            className={`p-3 rounded-2xl border text-left transition-colors ${stat === s.id ? 'bg-indigo-700 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`p-3 rounded-2xl border text-left transition-colors ${stat === s.id ? 'bg-gold-700 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             <div className="text-xs uppercase tracking-wide text-slate-300">{s.label}</div>
             <div className="text-xl font-black font-mono">{typeof s.value === 'number' ? (Number.isInteger(s.value) ? s.value : s.value.toFixed(1)) : s.value}</div>
@@ -134,8 +134,8 @@ export function C7_MathematicsDataHandlingSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Use the + button to make one bar reach 20. Which moved more -- the mean or the median? Why does the median stay calm?</li>
           <li>Make all six bars different but arrange it so mean = median = 7. Then try to create data with NO mode at all.</li>

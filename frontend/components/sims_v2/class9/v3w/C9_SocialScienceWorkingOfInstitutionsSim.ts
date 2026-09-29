@@ -11,7 +11,7 @@ export const w_c9_socialscienceworkingofinstitutionssim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Constitution: Role in a Democracy',
     chapters: [],
     nodeIds: ['c9_civ_ch1_3', 'c9_civ_ch1_10', 'c9_civ_ch1_8', 'c9_civ_ch1_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you see a news headline: "State Government Passes Law Banning All Protests in Capital City." Ask:.', goal: 'Master Constitution: Role in a Democracy.' },
     discovery: {
         question: 'Draft a one-paragraph preamble for a new democratic constitution of a diverse country that has just ended a dictatorship.',
@@ -20,7 +20,7 @@ export const w_c9_socialscienceworkingofinstitutionssim: SimDef = {
         hook: 'Students often think the Constitution is primarily a list of government powers (what government CAN do) and forget its.',
     },
     teaching: [
-        { title: 'A constitution in a democracy is the supreme.', text: 'A constitution in a democracy is the supreme fundamental law that establishes the structure of government, defines and limits the powers of each organ (legislature, executive, judiciary), guarantees.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A constitution in a democracy is the supreme.', text: 'A constitution in a democracy is the supreme fundamental law that establishes the structure of government, defines and limits the powers of each organ (legislature, executive, judiciary), guarantees.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_civ_ch1_3', title: 'A constitution in a democracy is the.',

@@ -11,7 +11,7 @@ export const w_c6_mathematicssymmetrysim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Symmetry',
     chapters: [],
     nodeIds: ['c6_math_ch10_105', 'c6_math_ch10_111', 'c6_math_ch10_108', 'c6_math_ch10_109'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever looked at a beautiful butterfly and noticed how the patterns on its left wing perfectly match.', goal: 'Master Introduction to Symmetry.' },
     discovery: {
         question: 'What do we call the line that divides a shape into two identical mirror-image halves?',
@@ -20,7 +20,7 @@ export const w_c6_mathematicssymmetrysim: SimDef = {
         hook: 'Students often confuse "symmetry" with "congruence" (equal size).',
     },
     teaching: [
-        { title: 'Symmetry is a property where a shape or.', text: 'Symmetry is a property where a shape or object can be divided by a line into two parts that are perfect mirror images of each other.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Symmetry is a property where a shape or.', text: 'Symmetry is a property where a shape or object can be divided by a line into two parts that are perfect mirror images of each other.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch10_105', title: 'Symmetry is a property where a shape or.',

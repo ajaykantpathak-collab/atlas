@@ -11,7 +11,7 @@ export const w_c11_sociologyindiansociologistssim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments',
     chapters: [],
     nodeIds: ['c11_soc_cbse_10_001', 'c11_soc_cbse_10_002', 'c11_soc_cbse_10_003', 'c11_soc_cbse_10_004', 'c11_soc_cbse_10_006', 'c11_soc_cbse_10_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a student in 1919 Bombay: sociology doesn\'t exist as a subject in any Indian university, yet.', goal: 'Master Origin and Institutional History of Sociology in India: Bombay and Calcutta Departments.' },
     discovery: {
         question: 'Explain why the University of Calcutta\'s early association with sociology was through an anthropology department rather than a sociology department, and how.',
@@ -20,7 +20,7 @@ export const w_c11_sociologyindiansociologistssim: SimDef = {
         hook: 'Students often believe Indian sociology began with "great thinkers" (Ghurye, Srinivas, etc.) and their *ideas*,.',
     },
     teaching: [
-        { title: 'The institutional history of sociology in.', text: 'The institutional history of sociology in India refers to the formal establishment and development of university departments, research centres, and professional associations that transformed.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The institutional history of sociology in.', text: 'The institutional history of sociology in India refers to the formal establishment and development of university departments, research centres, and professional associations that transformed.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_10_001', title: 'The institutional history of sociology.',

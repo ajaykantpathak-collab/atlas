@@ -440,7 +440,7 @@ function LanguageSwitcher({ current, onChange }: { current: Language; onChange: 
           onClick={() => onChange(lang.code)}
           className={`px-2 sm:px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
             current === lang.code
-              ? 'bg-indigo-500 text-white shadow-md'
+              ? 'bg-gold-500 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-700/50'
           }`}
         >
@@ -670,7 +670,7 @@ export default function ParentDashboard() {
   return (
     <div className="min-h-screen bg-slate-950" dir={lang === 'hindi' ? 'ltr' : 'ltr'}>
       {/* Skip link for accessibility */}
-      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-indigo-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-gold-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">
         Skip to main content
       </a>
 
@@ -682,7 +682,7 @@ export default function ParentDashboard() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-2.5"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/25">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-gold-500 to-purple-600 flex items-center justify-center shadow-lg shadow-gold-500/25">
               <span className="text-white font-bold text-lg sm:text-xl" aria-hidden="true">📚</span>
             </div>
             <div>
@@ -710,7 +710,7 @@ export default function ParentDashboard() {
             >
               {/* ── Child Profile Card ───────────── */}
               <motion.div variants={itemVariants} className="relative">
-                <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 rounded-2xl sm:rounded-3xl p-5 sm:p-6 text-white shadow-xl shadow-indigo-500/20 overflow-hidden">
+                <div className="bg-gradient-to-br from-gold-500 via-purple-500 to-pink-500 rounded-2xl sm:rounded-3xl p-5 sm:p-6 text-white shadow-xl shadow-gold-500/20 overflow-hidden">
                   {/* Decorative circles */}
                   <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2" aria-hidden="true" />
                   <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/2" aria-hidden="true" />
@@ -763,7 +763,7 @@ export default function ParentDashboard() {
                 <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-slate-600/40 shadow-sm space-y-4">
                   {/* Maths homework — real counts from the homework API */}
                   <div className="flex items-center gap-3 sm:gap-4">
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-indigo-500/15 border border-indigo-500/25 flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-gold-500/15 border border-gold-500/25 flex items-center justify-center flex-shrink-0">
                       <span className="text-xl sm:text-2xl" aria-hidden="true">📐</span>
                     </div>
                     <div className="flex-1 min-w-0">
@@ -776,7 +776,7 @@ export default function ParentDashboard() {
                     </div>
                     {mathsHomework.length > 0 && (
                       <div className="text-right flex-shrink-0">
-                        <span className="text-2xl sm:text-3xl font-extrabold text-indigo-300">{mathsDone}</span>
+                        <span className="text-2xl sm:text-3xl font-extrabold text-gold-300">{mathsDone}</span>
                         <span className="text-sm text-slate-500 font-semibold">/{mathsHomework.length}</span>
                       </div>
                     )}

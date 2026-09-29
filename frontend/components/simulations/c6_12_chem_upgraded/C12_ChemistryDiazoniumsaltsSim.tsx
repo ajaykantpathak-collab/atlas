@@ -915,7 +915,7 @@ const AzoDyeCouplingSVG: React.FC = () => {
 const SyntheticRoadmapSVG: React.FC = () => {
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl shadow-lg border border-slate-700 my-4 text-center">
-      <h4 className="text-cyan-400 font-bold mb-2 text-lg">Benzenediazonium Salt: Synthetic Hub of Aromatic Chemistry</h4>
+      <h4 className="text-gold-400 font-bold mb-2 text-lg">Benzenediazonium Salt: Synthetic Hub of Aromatic Chemistry</h4>
       <svg viewBox="0 0 800 300" className="w-full h-auto max-h-80 mx-auto">
         {/* Central Hub */}
         <circle cx="400" cy="150" r="55" fill="#1e293b" stroke="#06b6d4" strokeWidth="3" />
@@ -1477,7 +1477,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 sm:p-6 mb-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-3 mb-1">
-            <span className="px-3 py-1 bg-cyan-950 text-cyan-400 border border-cyan-700/50 rounded-full text-xs font-semibold uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-950 text-gold-400 border border-gold-700/50 rounded-full text-xs font-semibold uppercase tracking-wider">
               ISC Class 12 Chemistry • Module 81–90
             </span>
             <span className="px-3 py-1 bg-amber-950 text-amber-400 border border-amber-700/50 rounded-full text-xs font-semibold">
@@ -1498,7 +1498,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
             onClick={() => { setActiveTab('scenario'); playSound('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               activeTab === 'scenario'
-                ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1508,7 +1508,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
             onClick={() => { setActiveTab('lab'); playSound('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               activeTab === 'lab'
-                ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1518,7 +1518,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
             onClick={() => { setActiveTab('challenges'); playSound('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               activeTab === 'challenges'
-                ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1528,7 +1528,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
             onClick={() => { setActiveTab('roadmap'); playSound('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               activeTab === 'roadmap'
-                ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1541,7 +1541,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
       {activeTab === 'scenario' && (
         <main className="max-w-7xl mx-auto space-y-6">
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-xl font-bold text-cyan-400 mb-3">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
             <p className="text-slate-400 leading-relaxed text-sm bg-slate-950/60 p-4 rounded-xl border border-slate-800">
               {SCENARIO.context}
@@ -1571,7 +1571,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   }}
                   className={`w-full text-left p-4 rounded-xl border transition-all ${
                     discoverySelected === idx
-                      ? 'border-cyan-500 bg-cyan-950/40 text-white'
+                      ? 'border-gold-500 bg-gold-950/40 text-white'
                       : 'border-slate-800 bg-slate-950/40 text-slate-300 hover:border-slate-700'
                   }`}
                 >
@@ -1587,7 +1587,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                 disabled={discoverySelected === null}
                 className={`px-6 py-3 rounded-xl font-semibold text-white transition-all ${
                   discoverySelected !== null
-                    ? 'bg-cyan-600 hover:bg-cyan-500 shadow-lg shadow-cyan-600/30'
+                    ? 'bg-gold-600 hover:bg-gold-500 shadow-lg shadow-gold-600/30'
                     : 'bg-slate-800 opacity-50 cursor-not-allowed'
                 }`}
               >
@@ -1644,7 +1644,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                 }}
                 className={`px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium transition-all ${
                   activeLabIndex === idx
-                    ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                    ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                     : 'bg-slate-950 text-slate-400 hover:text-white hover:bg-slate-800'
                 }`}
               >
@@ -1657,7 +1657,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
           {activeLabIndex === 0 && (
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-cyan-400">{EXPLORATION_STEPS[0].title}</h3>
+                <h3 className="text-xl font-bold text-gold-400">{EXPLORATION_STEPS[0].title}</h3>
                 <p className="text-slate-300 text-sm mt-1">{EXPLORATION_STEPS[0].instruction}</p>
               </div>
 
@@ -1677,7 +1677,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                       max="25"
                       value={lab1Temp}
                       onChange={(e) => setLab1Temp(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1702,7 +1702,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   <div className="grid grid-cols-3 gap-3 text-center pt-2">
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                       <p className="text-xs text-slate-400">ArN₂⁺Cl⁻ Yield</p>
-                      <p className="text-lg font-bold text-cyan-400">{lab1DiazoniumYield}%</p>
+                      <p className="text-lg font-bold text-gold-400">{lab1DiazoniumYield}%</p>
                     </div>
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                       <p className="text-xs text-slate-400">N₂ Gas Liberated</p>
@@ -1727,7 +1727,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
           {activeLabIndex === 1 && (
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-cyan-400">{EXPLORATION_STEPS[1].title}</h3>
+                <h3 className="text-xl font-bold text-gold-400">{EXPLORATION_STEPS[1].title}</h3>
                 <p className="text-slate-300 text-sm mt-1">{EXPLORATION_STEPS[1].instruction}</p>
               </div>
 
@@ -1744,7 +1744,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                       setSelectedReagent(e.target.value);
                       playSound('tap');
                     }}
-                    className="w-full bg-slate-900 border border-slate-700 text-white rounded-xl p-3 text-sm focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-900 border border-slate-700 text-white rounded-xl p-3 text-sm focus:outline-none focus:border-gold-500"
                   >
                     <option value="CuCl/HCl">CuCl / HCl (Sandmeyer - Chlorobenzene)</option>
                     <option value="CuBr/HBr">CuBr / HBr (Sandmeyer - Bromobenzene)</option>
@@ -1787,7 +1787,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
           {activeLabIndex === 2 && (
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-cyan-400">{EXPLORATION_STEPS[2].title}</h3>
+                <h3 className="text-xl font-bold text-gold-400">{EXPLORATION_STEPS[2].title}</h3>
                 <p className="text-slate-300 text-sm mt-1">{EXPLORATION_STEPS[2].instruction}</p>
               </div>
 
@@ -1836,7 +1836,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   <div>
                     <div className="flex justify-between text-sm font-medium mb-2">
                       <span className="text-slate-300">Solution pH Level:</span>
-                      <span className="text-cyan-400 font-bold">{couplingPH}</span>
+                      <span className="text-gold-400 font-bold">{couplingPH}</span>
                     </div>
                     <input
                       type="range"
@@ -1845,7 +1845,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                       step="0.5"
                       value={couplingPH}
                       onChange={(e) => setCouplingPH(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                     <p className="text-xs text-slate-400 mt-1">
                       {couplingPartner === 'phenol' && 'Optimal range: pH 9.0–10.0 (Phenoxide Ion)'}
@@ -1876,7 +1876,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
           {activeLabIndex === 3 && (
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-cyan-400">{EXPLORATION_STEPS[3].title}</h3>
+                <h3 className="text-xl font-bold text-gold-400">{EXPLORATION_STEPS[3].title}</h3>
                 <p className="text-slate-300 text-sm mt-1">{EXPLORATION_STEPS[3].instruction}</p>
               </div>
 
@@ -1894,7 +1894,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                         setTargetCompound(e.target.value);
                         handleResetRoadmap();
                       }}
-                      className="bg-slate-900 border border-slate-700 text-cyan-400 font-bold rounded-xl p-2.5 text-sm"
+                      className="bg-slate-900 border border-slate-700 text-gold-400 font-bold rounded-xl p-2.5 text-sm"
                     >
                       <option value="Fluorobenzene">Fluorobenzene (from Benzene)</option>
                       <option value="1,3,5-Tribromobenzene">1,3,5-Tribromobenzene (from Aniline)</option>
@@ -1925,19 +1925,19 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                       <>
                         <button
                           onClick={() => handleRoadmapAddStep('Step: Fe/HCl Reduction to Aniline')}
-                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-cyan-500"
+                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-gold-500"
                         >
                           Step: Fe/HCl Reduction to Aniline
                         </button>
                         <button
                           onClick={() => handleRoadmapAddStep('Step: NaNO₂ + HBF₄ (0-5°C)')}
-                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-cyan-500"
+                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-gold-500"
                         >
                           Step: NaNO₂ + HBF₄ (0-5°C)
                         </button>
                         <button
                           onClick={() => handleRoadmapAddStep('Step: Heat dry salt (Schiemann)')}
-                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-cyan-500"
+                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-gold-500"
                         >
                           Step: Heat dry salt (Schiemann)
                         </button>
@@ -1946,19 +1946,19 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                       <>
                         <button
                           onClick={() => handleRoadmapAddStep('Step: Br₂ / H₂O Bromination')}
-                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-cyan-500"
+                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-gold-500"
                         >
                           Step: Br₂ / H₂O Bromination
                         </button>
                         <button
                           onClick={() => handleRoadmapAddStep('Step: NaNO₂ + HCl Diazotisation')}
-                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-cyan-500"
+                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-gold-500"
                         >
                           Step: NaNO₂ + HCl Diazotisation
                         </button>
                         <button
                           onClick={() => handleRoadmapAddStep('Step: H₃PO₂ / H₂O Deamination')}
-                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-cyan-500"
+                          className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg hover:border-gold-500"
                         >
                           Step: H₃PO₂ / H₂O Deamination
                         </button>
@@ -1973,8 +1973,8 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   <div className="flex flex-wrap items-center gap-2">
                     {userRoadmapSteps.map((st, i) => (
                       <React.Fragment key={i}>
-                        {i > 0 && <span className="text-cyan-400 font-bold">➔</span>}
-                        <span className="px-3 py-1 bg-cyan-950 border border-cyan-800 text-cyan-200 text-xs rounded-lg">
+                        {i > 0 && <span className="text-gold-400 font-bold">➔</span>}
+                        <span className="px-3 py-1 bg-gold-950 border border-gold-800 text-gold-200 text-xs rounded-lg">
                           {st}
                         </span>
                       </React.Fragment>
@@ -1995,7 +1995,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
           {activeLabIndex === 4 && (
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-cyan-400">{EXPLORATION_STEPS[4].title}</h3>
+                <h3 className="text-xl font-bold text-gold-400">{EXPLORATION_STEPS[4].title}</h3>
                 <p className="text-slate-300 text-sm mt-1">{EXPLORATION_STEPS[4].instruction}</p>
               </div>
 
@@ -2004,11 +2004,11 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   onClick={() => { setResonanceMolecule('aryl'); playSound('tap'); }}
                   className={`p-6 rounded-2xl border text-left transition-all ${
                     resonanceMolecule === 'aryl'
-                      ? 'border-cyan-500 bg-cyan-950/40'
+                      ? 'border-gold-500 bg-gold-950/40'
                       : 'border-slate-800 bg-slate-950'
                   }`}
                 >
-                  <h4 className="font-bold text-cyan-400 text-lg mb-2">Benzenediazonium Cation (C₆H₅N₂⁺)</h4>
+                  <h4 className="font-bold text-gold-400 text-lg mb-2">Benzenediazonium Cation (C₆H₅N₂⁺)</h4>
                   <p className="text-slate-300 text-xs leading-relaxed">
                     Aromatic π-cloud overlaps with the empty orbital on nitrogen. Positive charge is distributed across ortho and para ring carbons.
                     Activation energy for N₂ departure is high (~100 kJ/mol), making it stable at 0-5 °C.
@@ -2053,7 +2053,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                       }}
                       className={`text-left p-3 rounded-lg text-xs font-medium border transition-all ${
                         predictionAnswers[i] === oIdx
-                          ? 'border-cyan-500 bg-cyan-950/50 text-white'
+                          ? 'border-gold-500 bg-gold-950/50 text-white'
                           : 'border-slate-800 bg-slate-900 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -2066,7 +2066,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   <button
                     onClick={() => handlePredictionSubmit(i)}
                     disabled={predictionAnswers[i] === null}
-                    className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-lg transition-all"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-lg transition-all"
                   >
                     Verify Prediction
                   </button>
@@ -2138,7 +2138,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative">
             <div className="flex justify-between items-center mb-6">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span className="ml-3 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300">
@@ -2169,11 +2169,11 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                     }}
                     className={`w-full text-left p-4 rounded-xl border transition-all ${
                       selectedOption === idx
-                        ? 'border-cyan-500 bg-cyan-950/40 text-white'
+                        ? 'border-gold-500 bg-gold-950/40 text-white'
                         : 'border-slate-800 bg-slate-950/40 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-3 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-bold mr-3 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     {opt}
                   </button>
                 ))}
@@ -2191,7 +2191,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   onChange={(e) => setNumericInput(e.target.value)}
                   disabled={isAnswerSubmitted}
                   placeholder="e.g. 2 or 5.6"
-                  className="w-full bg-slate-950 border border-slate-700 text-white rounded-xl p-4 text-base focus:outline-none focus:border-cyan-500"
+                  className="w-full bg-slate-950 border border-slate-700 text-white rounded-xl p-4 text-base focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -2219,7 +2219,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   className={`px-6 py-3 rounded-xl font-bold text-white transition-all ${
                     (currentChallenge.type === 'mcq' && selectedOption !== null) ||
                     (currentChallenge.type === 'numeric' && numericInput.trim() !== '')
-                      ? 'bg-cyan-600 hover:bg-cyan-500 shadow-lg shadow-cyan-600/30'
+                      ? 'bg-gold-600 hover:bg-gold-500 shadow-lg shadow-gold-600/30'
                       : 'bg-slate-800 opacity-50 cursor-not-allowed'
                   }`}
                 >
@@ -2237,7 +2237,7 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                   <button
                     onClick={handleNextChallenge}
                     disabled={currentChallengeIndex === CHALLENGES.length - 1}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-cyan-600/30 disabled:opacity-40"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30 disabled:opacity-40"
                   >
                     Next Challenge →
                   </button>
@@ -2279,13 +2279,13 @@ export default function C12_ChemistryDiazoniumsaltsSim({
       {activeTab === 'roadmap' && (
         <main className="max-w-7xl mx-auto space-y-6">
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-xl font-bold text-cyan-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h2>
+            <h2 className="text-xl font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-6">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {REAL_WORLD_ACTIVITY.steps.map((stepText, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex gap-3 items-start">
-                  <span className="w-7 h-7 rounded-full bg-cyan-600 text-white font-bold flex items-center justify-center text-xs shrink-0">
+                  <span className="w-7 h-7 rounded-full bg-gold-600 text-white font-bold flex items-center justify-center text-xs shrink-0">
                     {idx + 1}
                   </span>
                   <p className="text-slate-300 text-xs leading-relaxed">{stepText}</p>
@@ -2304,9 +2304,9 @@ export default function C12_ChemistryDiazoniumsaltsSim({
                 return (
                   <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                     <p className="text-xs text-slate-400 font-mono">{nodeId}</p>
-                    <p className="text-base font-bold text-cyan-400 my-1">{level}%</p>
+                    <p className="text-base font-bold text-gold-400 my-1">{level}%</p>
                     <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-                      <div className="bg-cyan-500 h-full" style={{ width: `${level}%` }} />
+                      <div className="bg-gold-500 h-full" style={{ width: `${level}%` }} />
                     </div>
                   </div>
                 );

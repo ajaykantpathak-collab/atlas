@@ -1323,7 +1323,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                       {/* Tone Slider */}
                       <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
-                          <span className="text-sky-400">2. Paralanguage / Tone (38% weight)</span>
+                          <span className="text-gold-400">2. Paralanguage / Tone (38% weight)</span>
                           <span>{toneScore > 0 ? '+Gentle & Patient' : '-Harsh & Rushed'}</span>
                         </div>
                         <input
@@ -1333,7 +1333,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                           value={toneScore}
                           aria-label="Adjust Tone and Paralanguage score"
                           onChange={(e) => setToneScore(Number(e.target.value))}
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1456,8 +1456,8 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {/* Spoken Verbal */}
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-sky-800/40">
-                      <h3 className="text-sky-400 font-bold text-sm mb-2 flex items-center gap-2">
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-800/40">
+                      <h3 className="text-gold-400 font-bold text-sm mb-2 flex items-center gap-2">
                         <span>🗣️</span> Spoken Verbal
                       </h3>
                       <ul className="text-xs space-y-2 text-slate-300">
@@ -1555,21 +1555,21 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                         <div className="grid grid-cols-3 gap-2 text-center text-xs pt-2">
                           <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Reach:</span> <strong className="text-white">Medium</strong></div>
                           <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Cost:</span> <strong className="text-emerald-400">Very Low</strong></div>
-                          <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Feedback:</span> <strong className="text-sky-400">Immediate 2-Way</strong></div>
+                          <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Feedback:</span> <strong className="text-gold-400">Immediate 2-Way</strong></div>
                         </div>
                       </div>
                     )}
 
                     {selectedGroupMethod === 'methodDemo' && (
                       <div className="space-y-3">
-                        <h3 className="text-sky-400 font-bold text-base">Method Demonstration ("How to Do")</h3>
+                        <h3 className="text-gold-400 font-bold text-base">Method Demonstration ("How to Do")</h3>
                         <p className="text-xs text-slate-300 leading-relaxed">
                           The extension worker cooks or demonstrates a procedure step-by-step using local affordable materials (e.g. preparing sprouted ragi & roasted moong laddoo for anaemia prevention).
                         </p>
                         <div className="grid grid-cols-3 gap-2 text-center text-xs pt-2">
                           <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Skill Transfer:</span> <strong className="text-emerald-400">Maximum</strong></div>
                           <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Materials:</span> <strong className="text-white">Local / Low-Cost</strong></div>
-                          <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Replication:</span> <strong className="text-sky-400">Immediate Hands-on</strong></div>
+                          <div className="p-2 bg-slate-900 rounded-lg"><span className="text-slate-400">Replication:</span> <strong className="text-gold-400">Immediate Hands-on</strong></div>
                         </div>
                       </div>
                     )}
@@ -1630,7 +1630,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Target Population Literacy:</span>
-                          <span className="text-sky-400">{mediaLiteracy}%</span>
+                          <span className="text-gold-400">{mediaLiteracy}%</span>
                         </div>
                         <input
                           type="range"
@@ -1639,7 +1639,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                           value={mediaLiteracy}
                           aria-label="Adjust Target Population Literacy slider"
                           onChange={(e) => setMediaLiteracy(Number(e.target.value))}
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1679,11 +1679,11 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-200 mb-1">
                           <span>📰 Print (Newspapers & Poshan Posters):</span>
-                          <span className="text-sky-400">{massMediaReachData.printScore}%</span>
+                          <span className="text-gold-400">{massMediaReachData.printScore}%</span>
                         </div>
                         <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
                           <motion.div
-                            className="h-full bg-sky-500"
+                            className="h-full bg-gold-500"
                             animate={{ width: `${massMediaReachData.printScore}%` }}
                           />
                         </div>
@@ -1804,7 +1804,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToSandbox}
-                  className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-sky-950 transition-all flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-950 transition-all flex items-center gap-2"
                 >
                   <span>Enter Free Sandbox</span>
                   <span>→</span>
@@ -1827,7 +1827,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
           >
             <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
               <div>
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Free Exploration Mode</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Free Exploration Mode</span>
                 <h2 className="text-xl font-bold text-white mt-0.5">Community Extension Simulator Sandbox</h2>
                 <p className="text-xs text-slate-300 mt-1">
                   Experiment freely with multi-channel variables. Test how communication mode, literacy, and non-verbal congruence interact!
@@ -1882,7 +1882,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                     value={toneScore}
                     aria-label="Adjust Paralanguage and Warmth score"
                     onChange={(e) => setToneScore(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1894,7 +1894,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
 
               {/* Right Column: Mass Media Reach */}
               <div className="p-6 bg-slate-950 rounded-3xl border border-slate-800 space-y-4">
-                <h3 className="text-sm font-bold text-sky-400 flex items-center gap-2">
+                <h3 className="text-sm font-bold text-gold-400 flex items-center gap-2">
                   <span>📡</span> Mass Reach Sandbox
                 </h3>
 
@@ -1910,7 +1910,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                     value={mediaLiteracy}
                     aria-label="Adjust District Literacy Rate"
                     onChange={(e) => setMediaLiteracy(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1921,7 +1921,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                   </div>
                   <div className="p-3 bg-slate-900 rounded-xl">
                     <div className="text-slate-400">Print</div>
-                    <div className="text-sky-400 font-bold text-sm mt-1">{massMediaReachData.printScore}%</div>
+                    <div className="text-gold-400 font-bold text-sm mt-1">{massMediaReachData.printScore}%</div>
                   </div>
                   <div className="p-3 bg-slate-900 rounded-xl">
                     <div className="text-slate-400">Television</div>
@@ -1958,7 +1958,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                       : difficulty === 'standard'
-                      ? 'bg-sky-950 text-sky-400 border border-sky-800'
+                      ? 'bg-gold-950 text-gold-400 border border-gold-800'
                       : 'bg-purple-950 text-purple-400 border border-purple-800'
                   }`}
                 >
@@ -1972,7 +1972,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
               {/* Progress Bar */}
               <div className="w-36 h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-emerald-500 to-sky-500"
+                  className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2117,7 +2117,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
                       const ans = sortArrangement.length > 0 ? sortArrangement : (currentChallengeItem.sortItems?.map((_, i) => i) || []);
                       handleAnswer(ans);
                     }}
-                    className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                   >
                     Verify Sequence
                   </motion.button>
@@ -2269,7 +2269,7 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
               <div className="text-5xl">🏆</div>
               <h2 className="text-2xl md:text-3xl font-black text-white">Community Extension Module Mastered!</h2>
               <p className="text-sm text-slate-300 max-w-2xl mx-auto">
-                Final Score: <strong className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Tier: <strong className="text-sky-400 capitalize">{masteryLevel}</strong>
+                Final Score: <strong className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Tier: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
               </p>
             </div>
 
@@ -2384,12 +2384,12 @@ function C11_HomeScienceIndividualCommunicationVerbalSim({
 
             {/* Real World Capstone Project */}
             <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800">
-              <h3 className="text-sm font-bold text-sky-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 mb-3">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <div key={i} className="p-3 bg-slate-950 rounded-xl text-xs text-slate-300 border border-slate-800">
-                    <strong className="text-sky-400">{i + 1}.</strong> {st}
+                    <strong className="text-gold-400">{i + 1}.</strong> {st}
                   </div>
                 ))}
               </div>

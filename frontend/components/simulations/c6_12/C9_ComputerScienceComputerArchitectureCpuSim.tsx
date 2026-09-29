@@ -1095,14 +1095,14 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
             whileHover={{ scale: 1.1, rotate: 10 }}
             whileTap={{ scale: 0.95 }}
             onClick={handleSparkleClick}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-600 to-blue-500 flex items-center justify-center text-2xl shadow-lg shadow-cyan-500/20 cursor-pointer"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-500 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20 cursor-pointer"
             aria-label="Sparkle interactive icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider uppercase text-cyan-400 bg-cyan-950/60 px-2 py-0.5 rounded border border-cyan-800">
+              <span className="text-xs font-bold tracking-wider uppercase text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded border border-gold-800">
                 ICSE Class 9 Computer Science
               </span>
               <span className="text-xs font-semibold text-slate-400">ISRO Telemetry Sim</span>
@@ -1124,7 +1124,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
               }}
               className={`px-3 py-1.5 text-xs font-bold rounded-xl transition-colors ${
                 phase === p
-                  ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1143,8 +1143,8 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-r from-slate-900 via-cyan-950/30 to-slate-900 rounded-2xl border border-cyan-800/50 shadow-xl">
-            <div className="flex items-center gap-2 text-cyan-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-r from-slate-900 via-gold-950/30 to-slate-900 rounded-2xl border border-gold-800/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚀</span> {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-base leading-relaxed">{SCENARIO.intro}</p>
@@ -1176,7 +1176,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   }`}
                   aria-label={`Discovery option: ${opt}`}
                 >
-                  <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1191,7 +1191,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-lg shadow-cyan-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   aria-label="Proceed to interactive exploration"
                 >
                   Enter Hardware Lab →
@@ -1207,7 +1207,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold uppercase text-cyan-400">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
+              <span className="text-xs font-bold uppercase text-gold-400">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <div className="flex items-center gap-2">
@@ -1235,7 +1235,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                     handleAdvanceToSandbox();
                   }
                 }}
-                className="px-4 py-1.5 bg-cyan-600 text-white text-xs font-bold rounded-lg shadow-md shadow-cyan-600/30"
+                className="px-4 py-1.5 bg-gold-600 text-white text-xs font-bold rounded-lg shadow-md shadow-gold-600/30"
                 aria-label="Next step"
               >
                 {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Step →' : 'Enter Sandbox →'}
@@ -1243,7 +1243,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
             </div>
           </div>
 
-          <p className="text-sm text-cyan-300 font-medium bg-cyan-950/40 p-3 rounded-xl border border-cyan-900">
+          <p className="text-sm text-gold-300 font-medium bg-gold-950/40 p-3 rounded-xl border border-gold-900">
             👉 {EXPLORATION_STEPS[currentSlide].instruction}
           </p>
 
@@ -1315,7 +1315,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
 
                 <div className="lg:col-span-4 flex flex-col justify-between space-y-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider mb-2">Component Profile</h3>
+                    <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider mb-2">Component Profile</h3>
                     {selectedCpuUnit === 'cu' && (
                       <p className="text-xs text-slate-300 leading-relaxed">
                         <strong className="text-white">Control Unit (CU):</strong> The manager of the CPU. It fetches instructions from memory, decodes opcodes, and issues timing signals to the ALU and registers. It does NOT perform arithmetic.
@@ -1345,7 +1345,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                     )}
                   </div>
 
-                  <div className="p-3 bg-cyan-950/30 rounded-xl border border-cyan-800/50 text-xs text-cyan-200">
+                  <div className="p-3 bg-gold-950/30 rounded-xl border border-gold-800/50 text-xs text-gold-200">
                     💡 Click any component inside the diagram to inspect its dedicated function.
                   </div>
                 </div>
@@ -1454,7 +1454,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   {/* Level Details */}
                   <div className="lg:col-span-6 space-y-4">
                     <div className="flex justify-between items-center text-xs font-bold">
-                      <span className="text-cyan-400">Selected: {memoryLevels[memoryLevelIndex].name}</span>
+                      <span className="text-gold-400">Selected: {memoryLevels[memoryLevelIndex].name}</span>
                       <span className="text-slate-400">{memoryLevels[memoryLevelIndex].volatile}</span>
                     </div>
                     <input
@@ -1466,7 +1466,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                         setMemoryLevelIndex(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Select Memory Hierarchy Level"
                     />
                     <div className="grid grid-cols-2 gap-3 text-center">
@@ -1476,7 +1476,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                       </div>
                       <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                         <span className="text-[10px] text-slate-400 uppercase block">Typical Size</span>
-                        <strong className="text-cyan-400 text-sm">{memoryLevels[memoryLevelIndex].size}</strong>
+                        <strong className="text-gold-400 text-sm">{memoryLevels[memoryLevelIndex].size}</strong>
                       </div>
                       <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                         <span className="text-[10px] text-slate-400 uppercase block">Cost Per Byte</span>
@@ -1503,7 +1503,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
               >
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs font-bold text-cyan-400 uppercase">8-Bit Telemetry Register</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">8-Bit Telemetry Register</span>
                     <span className="text-xs text-slate-400">Click any switch to toggle (0 ↔ 1)</span>
                   </div>
 
@@ -1516,7 +1516,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                         onClick={() => handleToggleBit(idx)}
                         className={`p-3 md:p-4 rounded-xl font-mono text-center transition-all ${
                           bit === 1
-                            ? 'bg-gradient-to-b from-cyan-500 to-blue-600 text-white font-black shadow-lg shadow-cyan-500/30'
+                            ? 'bg-gradient-to-b from-gold-500 to-gold-600 text-white font-black shadow-lg shadow-gold-500/30'
                             : 'bg-slate-800 text-slate-400 border border-slate-700'
                         }`}
                         aria-label={`Bit ${7 - idx} with place value ${Math.pow(2, 7 - idx)}, currently ${bit}`}
@@ -1537,7 +1537,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
                     <span className="text-xs text-slate-400 uppercase font-bold block mb-1">Hexadecimal (2 Nibbles)</span>
-                    <span className="text-3xl font-black text-cyan-400 font-mono">0x{hexValue}</span>
+                    <span className="text-3xl font-black text-gold-400 font-mono">0x{hexValue}</span>
                     <p className="text-[10px] text-slate-400 mt-1">High: 0x{hexValue[0]} | Low: 0x{hexValue[1]}</p>
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
@@ -1548,8 +1548,8 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                 </div>
 
                 {!observationAnswered && (
-                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                    <span className="text-xs font-bold text-indigo-400 uppercase">Observation Check</span>
+                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                    <span className="text-xs font-bold text-gold-400 uppercase">Observation Check</span>
                     <p className="text-sm text-white font-semibold mt-1 mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="space-y-2">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1594,7 +1594,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                           }}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
                             signedInputValue === num
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                           }`}
                           aria-label={`Select integer ${num}`}
@@ -1624,7 +1624,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-cyan-400 uppercase block mb-2">2. One's Complement</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase block mb-2">2. One's Complement</span>
                     <div className="font-mono text-sm text-slate-200">
                       {signedInputValue >= 0
                         ? signedInputValue.toString(2).padStart(8, '0')
@@ -1665,7 +1665,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                 className="space-y-6 p-6 bg-slate-900 rounded-2xl border border-slate-800"
               >
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                  <span className="text-xs font-bold text-cyan-400 uppercase block mb-3">Logic Signal Inputs</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase block mb-3">Logic Signal Inputs</span>
                   <div className="flex flex-wrap gap-4">
                     {[
                       { label: 'Sensor A (Pressure)', val: gateA, setter: setGateA },
@@ -1783,12 +1783,12 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase">1. Processor Hardware Controls</h3>
+              <h3 className="text-sm font-bold text-gold-400 uppercase">1. Processor Hardware Controls</h3>
 
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Clock Frequency:</span>
-                  <strong className="text-cyan-400 font-mono">{sandboxClockSpeed.toFixed(1)} GHz</strong>
+                  <strong className="text-gold-400 font-mono">{sandboxClockSpeed.toFixed(1)} GHz</strong>
                 </div>
                 <input
                   type="range"
@@ -1800,7 +1800,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                     setSandboxClockSpeed(parseFloat(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-cyan-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                   aria-label="Set Clock Frequency"
                 />
               </div>
@@ -1852,7 +1852,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
             </div>
 
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase">2. ALU Interactive Arithmetic</h3>
+              <h3 className="text-sm font-bold text-gold-400 uppercase">2. ALU Interactive Arithmetic</h3>
 
               <div className="flex gap-2">
                 {(['ADD', 'SUB', 'AND', 'OR'] as const).map((op) => (
@@ -1865,7 +1865,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                       audioManager.play('tap');
                     }}
                     className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${
-                      sandboxAluOp === op ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'
+                      sandboxAluOp === op ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                     }`}
                     aria-label={`Select ALU operation ${op}`}
                   >
@@ -1899,7 +1899,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
                 <span className="text-xs text-slate-400 uppercase font-bold block mb-1">Accumulator (ACC) Output</span>
-                <span className="text-3xl font-black text-cyan-400 font-mono">{sandboxAluResult}</span>
+                <span className="text-3xl font-black text-gold-400 font-mono">{sandboxAluResult}</span>
                 <p className="text-[10px] text-slate-400 mt-1">
                   Binary: {sandboxAluResult >= 0 ? sandboxAluResult.toString(2) : (sandboxAluResult >>> 0).toString(2).slice(-8)}
                 </p>
@@ -1939,7 +1939,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                       ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-400 border-rose-800'
-                      : 'bg-cyan-950 text-cyan-400 border-cyan-800'
+                      : 'bg-gold-950 text-gold-400 border-gold-800'
                   }`}
                 >
                   {difficulty}
@@ -1952,13 +1952,13 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
             </div>
             <div className="text-right">
               <span className="text-xs text-slate-400 block">Current Mastery</span>
-              <strong className="text-cyan-400 text-sm capitalize">{masteryLevel}</strong>
+              <strong className="text-gold-400 text-sm capitalize">{masteryLevel}</strong>
             </div>
           </div>
 
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-blue-600"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-600"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1985,7 +1985,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                     }`}
                     aria-label={`Option: ${opt}`}
                   >
-                    <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2003,7 +2003,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 text-white rounded-lg text-xs font-bold cursor-grab shadow-md"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow-md"
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
                     >
@@ -2035,7 +2035,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs shadow-md shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md shadow-gold-600/30"
                   aria-label="Verify dragged labels"
                 >
                   Verify Placement →
@@ -2065,7 +2065,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                     role="button"
                     aria-label={`Sort item ${displayIdx + 1}: ${item}`}
                   >
-                    <span className="w-6 h-6 rounded-lg bg-cyan-950 border border-cyan-800 text-cyan-400 font-bold flex items-center justify-center text-xs">
+                    <span className="w-6 h-6 rounded-lg bg-gold-950 border border-gold-800 text-gold-400 font-bold flex items-center justify-center text-xs">
                       {displayIdx + 1}
                     </span>
                     <span className="flex-1 font-medium">{item}</span>
@@ -2077,7 +2077,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-2 px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs shadow-md shadow-cyan-600/30"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md shadow-gold-600/30"
                   aria-label="Submit sorted sequence"
                 >
                   Verify Sequence →
@@ -2101,7 +2101,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs shadow-md shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md shadow-gold-600/30"
                   aria-label="Submit numeric answer"
                 >
                   Verify Number →
@@ -2132,7 +2132,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-cyan-900/60 border border-cyan-700 text-cyan-200 rounded-lg text-sm font-mono font-bold flex items-center gap-2">
+                    <span key={idx} className="px-3 py-1 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-sm font-mono font-bold flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts(p => p.filter((_, i) => i !== idx))}
@@ -2151,7 +2151,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs shadow-md shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md shadow-gold-600/30"
                   aria-label="Submit constructed string"
                 >
                   Verify Assembly →
@@ -2163,9 +2163,9 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 bg-slate-950 rounded-xl border border-cyan-800 space-y-3"
+                className="mt-6 p-4 bg-slate-950 rounded-xl border border-gold-800 space-y-3"
               >
-                <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                   <span>📘</span> Step-by-Step Micro-Architecture Breakdown
                 </div>
 
@@ -2180,7 +2180,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-300 leading-relaxed font-sans"
                     >
-                      <strong className="text-cyan-400 mr-1.5">{i + 1}.</strong>
+                      <strong className="text-gold-400 mr-1.5">{i + 1}.</strong>
                       {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2191,7 +2191,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-lg text-xs font-bold border border-slate-700"
+                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-bold border border-slate-700"
                       aria-label="Show next explanation step"
                     >
                       Reveal Next Step →
@@ -2217,7 +2217,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
       {/* ─── PHASE 5: COMPLETION, MOTIVATIONAL FEEDBACK & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-slate-900 via-cyan-950/40 to-slate-900 rounded-3xl border border-cyan-800 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-5xl block">🎉</span>
             <h2 className="text-2xl md:text-3xl font-black text-white tracking-tight">Mission Diagnostics Complete!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2230,7 +2230,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 w-32">
                 <span className="text-[10px] text-slate-400 uppercase block">Mastery Tier</span>
-                <strong className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</strong>
+                <strong className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</strong>
               </div>
             </div>
           </div>
@@ -2246,8 +2246,8 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
             )}
             {errors >= 1 && errors <= 3 && (
               <div className="space-y-1">
-                <span className="text-xs uppercase font-bold text-cyan-400 block">Performance Rating</span>
-                <h3 className="text-xl font-black text-cyan-300">Great work!</h3>
+                <span className="text-xs uppercase font-bold text-gold-400 block">Performance Rating</span>
+                <h3 className="text-xl font-black text-gold-300">Great work!</h3>
                 <p className="text-xs text-slate-300">High proficiency demonstrated across processor architecture and Boolean operations.</p>
               </div>
             )}
@@ -2268,10 +2268,10 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
           </div>
 
           {/* Reflection Section */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-cyan-800/60 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/60 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-lg">💭</span>
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Mission Debrief & Reflection</h3>
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Mission Debrief & Reflection</h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2337,7 +2337,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between">
             <span className="text-xs text-slate-300">
               📅 Spaced Repetition (SM-2): Next review session scheduled in{' '}
-              <strong className="text-cyan-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
+              <strong className="text-gold-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
             </span>
             <motion.button
               whileHover={{ scale: 1.05 }}
@@ -2347,7 +2347,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
                 setCurrentSlide(0);
                 audioManager.play('tap');
               }}
-              className="px-4 py-2 bg-slate-800 text-cyan-300 rounded-lg text-xs font-bold border border-slate-700"
+              className="px-4 py-2 bg-slate-800 text-gold-300 rounded-lg text-xs font-bold border border-slate-700"
               aria-label="Re-explore hardware lab"
             >
               Re-enter Lab ↺
@@ -2361,7 +2361,7 @@ function C9_ComputerScienceComputerArchitectureCpuSim({
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-cyan-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

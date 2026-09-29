@@ -11,7 +11,7 @@ export const w_c11_geographyoceancurrentssim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Continental Drift Theory: Wegener\'s Hypothesis',
     chapters: [],
     nodeIds: ['c11_geo_cbse_04_001', 'c11_geo_cbse_04_003', 'c11_geo_cbse_04_008', 'c11_geo_cbse_11_007', 'c11_geo_cbse_04_005', 'c11_geo_cbse_04_006', 'c11_geo_cbse_04_007', 'c11_geo_cbse_04_011', 'c11_geo_cbse_11_003', 'c11_geo_cbse_08_004', 'c11_geo_cbse_19_007', 'c11_geo_cbse_08_002', 'c11_geo_cbse_08_005', 'c11_geo_cbse_08_007', 'c11_geo_cbse_19_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Look at a physical world map and notice how the eastern coastline of South America fits remarkably well into.', goal: 'Master Continental Drift Theory: Wegener\'s Hypothesis.' },
     discovery: {
         question: 'State the name of the supercontinent and the global ocean in Wegener\'s theory, and give the approximate geological time when Pangaea began to break apart.',
@@ -20,7 +20,7 @@ export const w_c11_geographyoceancurrentssim: SimDef = {
         hook: 'Students believe continents "drift" like rafts on a liquid mantle, plowing through the oceanic crust.',
     },
     teaching: [
-        { title: 'Continental Drift Theory, proposed by Alfred.', text: 'Continental Drift Theory, proposed by Alfred Wegener in 1912, states that all present-day continents were once joined together in a single supercontinent called Pangaea, surrounded by a global ocean.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Continental Drift Theory, proposed by Alfred.', text: 'Continental Drift Theory, proposed by Alfred Wegener in 1912, states that all present-day continents were once joined together in a single supercontinent called Pangaea, surrounded by a global ocean.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_04_001', title: 'Continental Drift Theory, proposed by.',

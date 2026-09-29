@@ -139,17 +139,17 @@ export function C11_PhysicsOscillationsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Amplitude A</span><span className="font-mono font-bold text-sky-400">{amplitude.toFixed(2)} m</span>
+                <span>Amplitude A</span><span className="font-mono font-bold text-gold-400">{amplitude.toFixed(2)} m</span>
               </div>
               <input type="range" min={0.05} max={0.5} step={0.01} value={amplitude} aria-label="Amplitude"
-                onChange={(e) => setAmplitude(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setAmplitude(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Mass m</span><span className="font-mono font-bold text-indigo-400">{mass.toFixed(1)} kg</span>
+                <span>Mass m</span><span className="font-mono font-bold text-gold-400">{mass.toFixed(1)} kg</span>
               </div>
               <input type="range" min={0.1} max={2} step={0.1} value={mass} aria-label="Mass"
-                onChange={(e) => setMass(Number(e.target.value))} className="w-full accent-indigo-500" />
+                onChange={(e) => setMass(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -182,7 +182,7 @@ export function C11_PhysicsOscillationsSim() {
 
           <div className="bg-slate-900/80 rounded-2xl border border-emerald-800/60 p-4 text-xs font-mono grid grid-cols-2 gap-2">
             <div><span className="text-slate-500">omega = sqrt(k/m)</span><div className="text-emerald-300 font-bold text-sm">{omega.toFixed(2)} rad/s</div></div>
-            <div><span className="text-slate-500">v max = A omega</span><div className="text-sky-300 font-bold text-sm">{maxSpeed.toFixed(2)} m/s</div></div>
+            <div><span className="text-slate-500">v max = A omega</span><div className="text-gold-300 font-bold text-sm">{maxSpeed.toFixed(2)} m/s</div></div>
             <div><span className="text-slate-500">a now = -omega^2 x</span><div className="text-rose-300 font-bold text-sm">{a.toFixed(2)} m/s^2</div></div>
             <div><span className="text-slate-500">v now</span><div className="text-amber-300 font-bold text-sm">{v.toFixed(2)} m/s</div></div>
           </div>

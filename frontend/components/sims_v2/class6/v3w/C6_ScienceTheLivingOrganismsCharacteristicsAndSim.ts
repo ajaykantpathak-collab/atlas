@@ -11,7 +11,7 @@ export const w_c6_sciencethelivingorganismscharacteristicsandsim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'What Are Materials and Why We Classify Them',
     chapters: [],
     nodeIds: ['c6_chemistry_ch04_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why we can build a house out of iron, but our own bodies are made of something.', goal: 'Master What Are Materials and Why We Classify Them.' },
     discovery: {
         question: 'Why would a human be unable to survive for more than a few minutes without oxygen?',
@@ -20,7 +20,7 @@ export const w_c6_sciencethelivingorganismscharacteristicsandsim: SimDef = {
         hook: 'Students often assume that because metals are hard, shiny, and used for construction, they are "more important" than.',
     },
     teaching: [
-        { title: 'Non-metals are materials that are essential.', text: 'Non-metals are materials that are essential for supporting biological life processes, serving as the fundamental building blocks of cells and providing the gases necessary for energy production.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Non-metals are materials that are essential.', text: 'Non-metals are materials that are essential for supporting biological life processes, serving as the fundamental building blocks of cells and providing the gases necessary for energy production.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_chemistry_ch04_006', title: 'Non-metals are materials that are.',

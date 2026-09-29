@@ -11,7 +11,7 @@ export const w_c8_mathematicsintroductiontographssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Proportional Relationships: Identifying Proportionality',
     chapters: [],
     nodeIds: ['c8_math_ch7_5', 'c8_math_ch7_8', 'c8_math_ch10_1', 'c8_math_ch10_8', 'c8_math_ch14_8', 'c8_math_ch12_12'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying mangoes at a fruit stall in Mumbai. The vendor sells them at ₹80 per kilogram.', goal: 'Master Proportional Relationships: Identifying Proportionality.' },
     discovery: {
         question: 'Explain why the equation \\(y = \\frac{k}{x}\\) represents inverse proportion, and describe what happens to \\(y\\) when \\(x\\) is doubled.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsintroductiontographssim: SimDef = {
         hook: 'Students often write the equation as \\(y = kx\\) (direct proportion) instead of \\(y = k/x\\) or \\(xy = k\\).',
     },
     teaching: [
-        { title: 'A proportional relationship exists between.', text: 'A proportional relationship exists between two quantities when their ratio remains constant across all pairs of corresponding values, meaning one quantity is a constant multiple of the other (y = kx,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A proportional relationship exists between.', text: 'A proportional relationship exists between two quantities when their ratio remains constant across all pairs of corresponding values, meaning one quantity is a constant multiple of the other (y = kx,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch7_5', title: 'A proportional relationship exists.',

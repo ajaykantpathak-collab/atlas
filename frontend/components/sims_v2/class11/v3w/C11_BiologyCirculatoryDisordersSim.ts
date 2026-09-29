@@ -11,7 +11,7 @@ export const w_c11_biologycirculatorydisorderssim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Human Heart: Structure and Chambers',
     chapters: [],
     nodeIds: ['c11_bio_cbse_15_003', 'c11_bio_cbse_15_005', 'c11_bio_cbse_15_001', 'c11_bio_cbse_15_008', 'c11_bio_cbse_04_002', 'c11_bio_cbse_04_008', 'c11_bio_cbse_04_009', 'c11_bio_cbse_04_012', 'c11_bio_cbse_04_013'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Place your hand on the left side of your chest — you feel a rhythmic thumping.', goal: 'Master Human Heart: Structure and Chambers.' },
     discovery: {
         question: 'A patient is diagnosed with a defective bicuspid (mitral) valve that does not close completely during ventricular systole.',
@@ -20,7 +20,7 @@ export const w_c11_biologycirculatorydisorderssim: SimDef = {
         hook: 'Students frequently believe that the pulmonary artery carries oxygenated blood and the pulmonary vein carries.',
     },
     teaching: [
-        { title: 'The human heart is a four-chambered,.', text: 'The human heart is a four-chambered, muscular pumping organ located in the thoracic cavity between the lungs, enclosed by a double-walled pericardium.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The human heart is a four-chambered,.', text: 'The human heart is a four-chambered, muscular pumping organ located in the thoracic cavity between the lungs, enclosed by a double-walled pericardium.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_15_003', title: 'The human heart is a four-chambered,.',

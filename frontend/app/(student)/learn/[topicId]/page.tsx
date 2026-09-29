@@ -14,6 +14,7 @@ import { PrismLogo } from '@/components/prism/PrismLogo'
 import { api } from '@/lib/api'
 import { subjectName } from '@/lib/nodeTitle'
 import DoodleCardImage from '@/components/doodle/DoodleCardImage'
+import DiagramImage from '@/components/renderers/DiagramImage'
 import QuickQuiz from '@/components/learn/QuickQuiz'
 import ChapterPath, { markNodeDone, type ChapterNode } from '@/components/learn/ChapterPath'
 import PrereqFixList from '@/components/learn/PrereqFixList'
@@ -154,7 +155,7 @@ function LessonBrief({ topic, nodeId }: { topic: EnrichmentData; nodeId: string 
         </p>
       )}
       {trace && (
-        <p className="text-xs text-indigo-300/90 mt-1.5">
+        <p className="text-xs text-gold-300/90 mt-1.5">
           This shows up in board exams{trace.marks ? ` — worth ${trace.marks} mark${trace.marks === 1 ? '' : 's'}` : trace.maxMarks > 1 ? ` — up to ${trace.maxMarks} marks` : ''}.
         </p>
       )}
@@ -445,7 +446,7 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
               "understand") removed from the child's header chrome. */}
           <button
             onClick={() => setMode('session')}
-            className="px-3 py-1.5 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-medium hover:bg-indigo-500/25 transition-colors"
+            className="px-3 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/30 text-gold-300 text-xs font-medium hover:bg-gold-500/25 transition-colors"
           >
             ← Study mode
           </button>
@@ -768,6 +769,10 @@ export default function TopicDetailPage({ params }: { params: { topicId: string 
                       </p>
                     </div>
                   )}
+
+                  {/* Concept diagram — sourced open-licensed image
+                      (renders only when this node has one in the index) */}
+                  <DiagramImage nodeId={topic.node_id || topicId} classLevel={topic.class_level} />
 
                   {/* Misconceptions */}
                   {topic.common_misconception && (

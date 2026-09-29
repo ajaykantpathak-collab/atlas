@@ -1306,7 +1306,7 @@ function C7_BiologyKingdomFungiSim({
             key={phase}
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
-            className="px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase bg-indigo-900/60 border border-indigo-600 text-indigo-300"
+            className="px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase bg-gold-900/60 border border-gold-600 text-gold-300"
           >
             Phase: {phase}
           </motion.span>
@@ -1332,12 +1332,12 @@ function C7_BiologyKingdomFungiSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <h2 className="text-xl font-black text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/80 shadow-lg">
+            <h2 className="text-xl font-black text-gold-300 flex items-center gap-2">
               <span>🧭</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-3 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/40 rounded-xl border border-indigo-700/50 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/40 rounded-xl border border-gold-700/50 text-xs text-gold-200">
               <strong>Mission Context:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1525,8 +1525,8 @@ function C7_BiologyKingdomFungiSim({
               {currentSlide === 1 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700 mb-4">
-                      <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Predict Before Experimenting:</p>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/60 rounded-xl border border-gold-700 mb-4">
+                      <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Predict Before Experimenting:</p>
                       <p className="text-sm text-white font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, pIdx) => (
@@ -1583,7 +1583,7 @@ function C7_BiologyKingdomFungiSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>💨 CO₂ Gas Concentration</span>
-                          <span className="text-sky-400 font-bold">{co2Level}%</span>
+                          <span className="text-gold-400 font-bold">{co2Level}%</span>
                         </div>
                         <input
                           type="range"
@@ -1595,14 +1595,14 @@ function C7_BiologyKingdomFungiSim({
                             audioManager.play('count');
                           }}
                           aria-label="Adjust CO2 Level"
-                          className="w-full accent-sky-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>💧 Root Water Availability</span>
-                          <span className="text-blue-400 font-bold">{waterSupply}%</span>
+                          <span className="text-gold-400 font-bold">{waterSupply}%</span>
                         </div>
                         <input
                           type="range"
@@ -1614,7 +1614,7 @@ function C7_BiologyKingdomFungiSim({
                             audioManager.play('count');
                           }}
                           aria-label="Adjust Water Supply"
-                          className="w-full accent-blue-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
@@ -1675,7 +1675,7 @@ function C7_BiologyKingdomFungiSim({
                         className={`px-5 py-2.5 rounded-xl font-black text-sm border flex items-center gap-2 ${
                           isDayTime
                             ? 'bg-amber-500/20 border-amber-500 text-amber-300'
-                            : 'bg-indigo-900/60 border-indigo-500 text-indigo-300'
+                            : 'bg-gold-900/60 border-gold-500 text-gold-300'
                         }`}
                       >
                         {isDayTime ? '☀️ Mode: Bright Daytime' : '🌙 Mode: Midnight Darkness'}
@@ -1750,7 +1750,7 @@ function C7_BiologyKingdomFungiSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>💧 Daily Water Hydration (Glasses / Day)</span>
-                        <span className="font-bold text-sky-400">{hydrationGlasses} Glasses</span>
+                        <span className="font-bold text-gold-400">{hydrationGlasses} Glasses</span>
                       </div>
                       <input
                         type="range"
@@ -1762,7 +1762,7 @@ function C7_BiologyKingdomFungiSim({
                           audioManager.play('count');
                         }}
                         aria-label="Set water hydration glasses"
-                        className="w-full accent-sky-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
 
@@ -1856,7 +1856,7 @@ function C7_BiologyKingdomFungiSim({
                         aria-label={`Select sample ${food.label}`}
                         className={`p-3 rounded-xl text-xs font-bold border transition-all ${
                           selectedFoodSample === food.id
-                            ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                            ? 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-800/80 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1933,7 +1933,7 @@ function C7_BiologyKingdomFungiSim({
                   audioManager.play('tap');
                 }}
                 aria-label="Next Lab"
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -2019,7 +2019,7 @@ function C7_BiologyKingdomFungiSim({
                       max={100}
                       value={co2Level}
                       onChange={e => setCo2Level(Number(e.target.value))}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                   <div>
@@ -2030,7 +2030,7 @@ function C7_BiologyKingdomFungiSim({
                       max={100}
                       value={waterSupply}
                       onChange={e => setWaterSupply(Number(e.target.value))}
-                      className="w-full accent-blue-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                 </div>
@@ -2053,7 +2053,7 @@ function C7_BiologyKingdomFungiSim({
                 <motion.button
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setIsDayTime(p => !p)}
-                  className="px-6 py-2.5 bg-indigo-700 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-700 text-white font-bold rounded-xl text-xs"
                 >
                   {isDayTime ? 'Toggle to Night 🌙' : 'Toggle to Day ☀️'}
                 </motion.button>
@@ -2075,7 +2075,7 @@ function C7_BiologyKingdomFungiSim({
                   max={12}
                   value={hydrationGlasses}
                   onChange={e => setHydrationGlasses(Number(e.target.value))}
-                  className="w-full accent-sky-400"
+                  className="w-full accent-gold-400"
                 />
               </div>
             )}
@@ -2132,7 +2132,7 @@ function C7_BiologyKingdomFungiSim({
 
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2149,7 +2149,7 @@ function C7_BiologyKingdomFungiSim({
             }`}
           >
             <div className="flex items-start gap-3">
-              <span className="text-lg p-1.5 bg-indigo-950 rounded-lg text-indigo-400 font-mono font-bold">
+              <span className="text-lg p-1.5 bg-gold-950 rounded-lg text-gold-400 font-mono font-bold">
                 Q{currentChallenge + 1}
               </span>
               <h3 className="text-base sm:text-lg font-bold text-white leading-snug">{activeChallenge.question}</h3>
@@ -2205,7 +2205,7 @@ function C7_BiologyKingdomFungiSim({
                       whileTap={{ scale: 0.95 }}
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2218,7 +2218,7 @@ function C7_BiologyKingdomFungiSim({
                       key={targetKey}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(targetKey)}
-                      className="p-4 bg-slate-950 rounded-xl border border-dashed border-slate-700 min-h-[70px] flex flex-col justify-center items-center text-center transition-colors hover:border-indigo-400"
+                      className="p-4 bg-slate-950 rounded-xl border border-dashed border-slate-700 min-h-[70px] flex flex-col justify-center items-center text-center transition-colors hover:border-gold-400"
                     >
                       <span className="text-[11px] text-slate-400 uppercase tracking-wider mb-1">Target Zone: {targetKey.replace('t_', '')}</span>
                       <span className={`text-xs font-bold ${droppedLabels[targetKey] ? 'text-emerald-400' : 'text-slate-600'}`}>
@@ -2233,7 +2233,7 @@ function C7_BiologyKingdomFungiSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Submit Drag Labels"
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Placed Labels
                 </motion.button>
@@ -2261,7 +2261,7 @@ function C7_BiologyKingdomFungiSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3.5 bg-slate-800 hover:bg-slate-700/80 rounded-xl text-xs text-slate-200 cursor-grab border border-slate-700 flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-700 text-center font-bold text-[11px] leading-5 text-indigo-300">
+                    <span className="w-5 h-5 rounded-full bg-slate-700 text-center font-bold text-[11px] leading-5 text-gold-300">
                       {dIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2273,7 +2273,7 @@ function C7_BiologyKingdomFungiSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   aria-label="Submit Sorted Order"
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow mt-2"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow mt-2"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2290,7 +2290,7 @@ function C7_BiologyKingdomFungiSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
                     aria-label="Numerical answer input"
-                    className="px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm text-slate-400 font-bold">{activeChallenge.unit}</span>
                   <motion.button
@@ -2298,7 +2298,7 @@ function C7_BiologyKingdomFungiSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     aria-label="Check numeric answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Answer
                   </motion.button>
@@ -2321,7 +2321,7 @@ function C7_BiologyKingdomFungiSim({
                         audioManager.play('tap');
                       }}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2334,7 +2334,7 @@ function C7_BiologyKingdomFungiSim({
                       key={cIdx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900 border border-indigo-600 rounded-lg text-xs font-bold text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900 border border-gold-600 rounded-lg text-xs font-bold text-gold-200 flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2354,7 +2354,7 @@ function C7_BiologyKingdomFungiSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Verify Constructed Equation"
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Assembled Equation
                 </motion.button>
@@ -2406,7 +2406,7 @@ function C7_BiologyKingdomFungiSim({
       {/* ─── 5. COMPLETION, REFLECTION & MASTERY SUMMARY PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950/80 rounded-3xl border border-indigo-700 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-slate-900 to-gold-950/80 rounded-3xl border border-gold-700 text-center space-y-3">
             <h2 className="text-2xl sm:text-3xl font-black text-white">🎉 Expedition Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
               You have analyzed all 10 Class 7 Biology topics from Kingdom Fungi to Biomolecular Food Chemistry.
@@ -2419,7 +2419,7 @@ function C7_BiologyKingdomFungiSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-700 min-w-[120px]">
                 <div className="text-xs text-slate-400 font-bold uppercase">BKT Mastery</div>
-                <div className="text-2xl font-black text-indigo-300 mt-1 uppercase">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-300 mt-1 uppercase">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2443,38 +2443,38 @@ function C7_BiologyKingdomFungiSim({
 
             <div className="space-y-4 pt-2">
               <div>
-                <label className="block text-xs font-bold text-indigo-300 mb-1">
+                <label className="block text-xs font-bold text-gold-300 mb-1">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., I was surprised that fungi cell walls are made of chitin, not cellulose, and they digest food outside their bodies..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 min-h-[60px]"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 min-h-[60px]"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-indigo-300 mb-1">
+                <label className="block text-xs font-bold text-gold-300 mb-1">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflectionAnswers.explanation}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explanation: e.target.value }))}
                   placeholder="e.g., Photosynthesis is like a daytime solar kitchen that cooks glucose, while respiration is a 24/7 power plant running day and night in all living cells..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 min-h-[60px]"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 min-h-[60px]"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-indigo-300 mb-1">
+                <label className="block text-xs font-bold text-gold-300 mb-1">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., In balancing my family's daily diet with proper carbs and proteins, avoiding moisture on bread to prevent mould, or drinking enough water to prevent kidney stones..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 min-h-[60px]"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 min-h-[60px]"
                 />
               </div>
             </div>

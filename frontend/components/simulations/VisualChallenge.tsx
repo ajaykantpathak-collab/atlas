@@ -212,7 +212,7 @@ function AdditionVisual({ a, b, question, answer, showCorrect }: { a: number; b:
   }, [a, b, total]);
 
   return (
-    <div className="my-3 py-3 px-4 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl border-2 border-indigo-200">
+    <div className="my-3 py-3 px-4 bg-gradient-to-br from-gold-50 to-purple-50 rounded-2xl border-2 border-gold-200">
       {/* Group A */}
       <div className="flex items-center justify-center gap-2 mb-2">
         <div className="flex flex-wrap gap-1 justify-center max-w-[140px] p-2 bg-white/60 rounded-xl">
@@ -220,19 +220,19 @@ function AdditionVisual({ a, b, question, answer, showCorrect }: { a: number; b:
             <motion.span key={`a${i}`} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: i * 0.1 }} className="text-2xl">{emoji}</motion.span>
           ))}
         </div>
-        <span className="text-3xl font-black text-indigo-600">+</span>
+        <span className="text-3xl font-black text-gold-600">+</span>
         <div className="flex flex-wrap gap-1 justify-center max-w-[140px] p-2 bg-white/60 rounded-xl">
           {Array.from({ length: b }).map((_, i) => (
             <motion.span key={`b${i}`} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: (a + i) * 0.1 }} className="text-2xl">{emoji}</motion.span>
           ))}
         </div>
-        <span className="text-3xl font-black text-indigo-600">=</span>
+        <span className="text-3xl font-black text-gold-600">=</span>
         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: (a + b) * 0.1 + 0.3 }} className="text-3xl font-black text-purple-600 bg-white px-3 py-1 rounded-xl border-2 border-purple-300">
           {showCorrect ? total : countedTo > 0 ? countedTo : '?'}
         </motion.div>
       </div>
       {/* Counting narration */}
-      <div className="text-center text-xs text-indigo-600 font-bold">
+      <div className="text-center text-xs text-gold-600 font-bold">
         {countedTo > 0 && countedTo <= total && `Counting: 1, 2, 3... ${countedTo}`}
         {countedTo === total && `Total: ${total} ${emoji}`}
       </div>
@@ -271,7 +271,7 @@ function SubtractionVisual({ a, b, question, answer, showCorrect }: { a: number;
             <motion.span key={`r${i}`} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.3 + i * 0.1 }} className="text-2xl opacity-40">{emoji}</motion.span>
           ))}
         </div>
-        <span className="text-3xl font-black text-indigo-600">=</span>
+        <span className="text-3xl font-black text-gold-600">=</span>
         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.8 }} className="text-3xl font-black text-purple-600 bg-white px-3 py-1 rounded-xl border-2 border-purple-300">
           {showCorrect ? result : '?'}
         </motion.div>
@@ -390,7 +390,7 @@ function NumberLine({ max, highlight, start, showCorrect }: { max: number; highl
               showCorrect && n === highlight
                 ? 'bg-green-500 text-white border-green-600 scale-125'
                 : start !== undefined && n === start
-                ? 'bg-blue-500 text-white border-blue-600'
+                ? 'bg-gold-500 text-white border-gold-600'
                 : n === highlight
                 ? 'bg-purple-200 text-purple-700 border-purple-400'
                 : 'bg-white text-gray-600 border-gray-300'
@@ -409,8 +409,8 @@ function NumberLineVisual({ question, answer, showCorrect }: { question: string;
   const isAdd = question.includes('add') || question.includes('forward') || question.includes('hop forward');
   const isSub = question.includes('subtract') || question.includes('backward') || question.includes('hop back');
   return (
-    <div className="my-3 py-3 px-4 bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl border-2 border-indigo-200">
-      <div className="text-center text-sm font-bold text-indigo-700 mb-2">
+    <div className="my-3 py-3 px-4 bg-gradient-to-br from-gold-50 to-gold-50 rounded-2xl border-2 border-gold-200">
+      <div className="text-center text-sm font-bold text-gold-700 mb-2">
         {isAdd ? '↗️ Hop forward to add!' : isSub ? '↙️ Hop backward to subtract!' : '🔢 Number Line'}
       </div>
       <NumberLine max={15} highlight={parseInt(answer) || 0} showCorrect={showCorrect} />
@@ -426,7 +426,7 @@ function CompareVisual({ numbers, question, answer, showCorrect }: { numbers: nu
   const target = isGreatest ? Math.max(...numbers) : isSmallest ? Math.min(...numbers) : 0;
 
   return (
-    <div className="my-3 py-3 px-4 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl border-2 border-teal-200">
+    <div className="my-3 py-3 px-4 bg-gradient-to-br from-teal-50 to-gold-50 rounded-2xl border-2 border-teal-200">
       <div className="flex justify-center gap-3 flex-wrap">
         {numbers.map((n, i) => {
           const isAnswer = showCorrect && n === target;
@@ -598,7 +598,7 @@ function ChemistryVisual({ question, answer, options, showCorrect }: { question:
   };
 
   return (
-    <div className="my-3 py-3 px-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border-2 border-blue-200">
+    <div className="my-3 py-3 px-4 bg-gradient-to-br from-gold-50 to-gold-50 rounded-2xl border-2 border-gold-200">
       <div className="flex justify-center mb-2">
         <div className="text-5xl">🧪</div>
       </div>
@@ -669,7 +669,7 @@ function GeographyVisual({ question, answer, options, showCorrect }: { question:
   };
 
   return (
-    <div className="my-3 py-3 px-4 bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl border-2 border-sky-200">
+    <div className="my-3 py-3 px-4 bg-gradient-to-br from-gold-50 to-gold-50 rounded-2xl border-2 border-gold-200">
       <div className="flex justify-center mb-2">
         <div className="text-5xl">🌍</div>
       </div>
@@ -770,7 +770,7 @@ function EVSVisual({ question, answer, options, showCorrect }: { question: strin
 
 function OptionEmojisVisual({ options, question, answer, showCorrect, wrongAnswer }: { options: string[]; question: string; answer: string; showCorrect: boolean; wrongAnswer: string | null }) {
   return (
-    <div className="my-3 py-2 px-3 bg-indigo-50 rounded-xl border border-indigo-200">
+    <div className="my-3 py-2 px-3 bg-gold-50 rounded-xl border border-gold-200">
       <div className="flex flex-wrap gap-2 justify-center">
         {options.map((opt, i) => {
           const emoji = getEmojiForOption(opt, question);

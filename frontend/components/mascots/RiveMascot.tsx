@@ -67,7 +67,7 @@ export function RiveMascot({
   if (timedOut) {
     return (
       <div
-        className={`flex items-center justify-center bg-gradient-to-br from-indigo-200 to-purple-200 rounded-full shadow-lg ${className}`}
+        className={`flex items-center justify-center bg-gradient-to-br from-gold-200 to-purple-200 rounded-full shadow-lg ${className}`}
         style={{ width, height }}
       >
         <span style={{ fontSize: width * 0.5 }}>{MOOD_EMOJI[mood]}</span>
@@ -79,7 +79,7 @@ export function RiveMascot({
   if (!RiveComponent) {
     return (
       <div
-        className={`flex items-center justify-center bg-indigo-100 rounded-full animate-pulse ${className}`}
+        className={`flex items-center justify-center bg-gold-100 rounded-full animate-pulse ${className}`}
         style={{ width, height }}
       >
         <span style={{ fontSize: width * 0.4 }}>⏳</span>

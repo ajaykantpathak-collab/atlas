@@ -11,7 +11,7 @@ export const w_c11_mathematicsellipsestandardequationsim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Conic Sections: Introduction and Definition',
     chapters: [],
     nodeIds: ['c11_math_cbse_11_001', 'c11_math_cbse_11_006', 'c11_math_cbse_11_007', 'c11_math_cbse_11_002', 'c11_math_cbse_11_003', 'c11_math_cbse_11_004', 'c11_math_cbse_11_005', 'c11_math_cbse_11_008', 'c11_math_cbse_11_009', 'c11_math_cbse_11_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a satellite dish for a communications tower in Bengaluru: the dish must reflect.', goal: 'Master Conic Sections: Introduction and Definition.' },
     discovery: {
         question: 'If a plane cuts a double-napped cone parallel to its axis, which conic section is formed, and why does this cut produce two separate curves?',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsellipsestandardequationsim: SimDef = {
         hook: 'Students often think that the "angle of the plane" is measured from the horizontal (base) rather than from the axis of.',
     },
     teaching: [
-        { title: 'A conic section is a curve obtained by.', text: 'A conic section is a curve obtained by intersecting a plane with a double-napped right circular cone; the four distinct non-degenerate curves formed are the circle, ellipse, parabola, and hyperbola,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A conic section is a curve obtained by.', text: 'A conic section is a curve obtained by intersecting a plane with a double-napped right circular cone; the four distinct non-degenerate curves formed are the circle, ellipse, parabola, and hyperbola,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_11_001', title: 'A conic section is a curve obtained by.',

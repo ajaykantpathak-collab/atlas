@@ -11,7 +11,7 @@ export const w_c11_chemistrysblockelementssim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Need for Classification: Mendeleev\'s Periodic Table',
     chapters: [],
     nodeIds: ['c11_chem_cbse_03_001', 'c11_chem_cbse_03_002', 'c11_chem_cbse_03_003', 'c11_chem_cbse_03_004', 'c11_chem_cbse_03_005', 'c11_chem_cbse_03_006', 'c11_chem_cbse_03_008', 'c11_chem_cbse_03_009', 'c11_chem_cbse_03_011', 'c11_chem_cbse_03_012', 'c11_chem_cbse_03_013', 'c11_chem_cbse_09_006', 'c11_chem_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are in a typical Indian chemistry laboratory with dozens of reagent bottles: sodium, potassium,.', goal: 'Master Need for Classification: Mendeleev\'s Periodic Table.' },
     discovery: {
         question: 'Why did Mendeleev leave gaps in his periodic table and assign temporary names like eka-aluminium and eka-silicon?',
@@ -20,7 +20,7 @@ export const w_c11_chemistrysblockelementssim: SimDef = {
         hook: 'Students often believe Mendeleev strictly followed increasing atomic weight order.',
     },
     teaching: [
-        { title: 'Mendeleev\'s Periodic Table arranges the.', text: 'Mendeleev\'s Periodic Table arranges the known chemical elements in order of increasing atomic weights such that elements with similar physical and chemical properties recur periodically, forming.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mendeleev\'s Periodic Table arranges the.', text: 'Mendeleev\'s Periodic Table arranges the known chemical elements in order of increasing atomic weights such that elements with similar physical and chemical properties recur periodically, forming.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_03_001', title: 'Mendeleev\'s Periodic Table arranges the.',

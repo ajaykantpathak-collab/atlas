@@ -11,7 +11,7 @@ export const w_c9_geoindiasizelocationcbsesim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Air Pressure: Horizontal and Vertical Distribution',
     chapters: [],
     nodeIds: ['c9_geo_ch2_3', 'c9_geo_ch2_4', 'c9_geo_ch2_5'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing on a beach in Chennai at noon feeling the warm air rise, while a weather balloon.', goal: 'Master Air Pressure: Horizontal and Vertical Distribution.' },
     discovery: {
         question: 'Explain why the equatorial region experiences low pressure throughout the year while the subtropical zones (around 30°N/S) have high pressure, even though both.',
@@ -20,7 +20,7 @@ export const w_c9_geoindiasizelocationcbsesim: SimDef = {
         hook: 'Students often believe that the subtropical high-pressure belts are caused solely by "cold air sinking" because the.',
     },
     teaching: [
-        { title: 'Air pressure is the force exerted by the.', text: 'Air pressure is the force exerted by the weight of the air column above a unit area of the Earth\'s surface, measured in millibars (mb) or hectopascals (hPa).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Air pressure is the force exerted by the.', text: 'Air pressure is the force exerted by the weight of the air column above a unit area of the Earth\'s surface, measured in millibars (mb) or hectopascals (hPa).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch2_3', title: 'Air pressure is the force exerted by.',

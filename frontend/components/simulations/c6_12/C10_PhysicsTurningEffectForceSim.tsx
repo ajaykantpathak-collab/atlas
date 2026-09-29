@@ -1088,11 +1088,11 @@ function C10_PhysicsTurningEffectForceSim({
         className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 p-4 bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl"
       >
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-indigo-600/20 text-indigo-400 rounded-xl border border-indigo-500/30 text-2xl">
+          <div className="p-3 bg-gold-600/20 text-gold-400 rounded-xl border border-gold-500/30 text-2xl">
             {subjectConfig.emoji}
           </div>
           <div>
-            <span className="text-xs font-bold tracking-wider text-indigo-400 uppercase">ICSE Physics Class 10</span>
+            <span className="text-xs font-bold tracking-wider text-gold-400 uppercase">ICSE Physics Class 10</span>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
           </div>
         </div>
@@ -1111,7 +1111,7 @@ function C10_PhysicsTurningEffectForceSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                   : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
               }`}
             >
@@ -1124,13 +1124,13 @@ function C10_PhysicsTurningEffectForceSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 border border-indigo-800/50 rounded-2xl space-y-3">
-            <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-bold uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 border border-gold-800/50 rounded-2xl space-y-3">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full text-xs font-bold uppercase tracking-wider">
               Engineering Narrative Scenario
             </span>
-            <h2 className="text-2xl font-bold text-indigo-200">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-bold text-gold-200">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400 font-semibold">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400 font-semibold">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900 border border-slate-800 rounded-2xl space-y-4">
@@ -1154,7 +1154,7 @@ function C10_PhysicsTurningEffectForceSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                   }`}
                 >
                   <span className="font-bold mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
@@ -1167,7 +1167,7 @@ function C10_PhysicsTurningEffectForceSim({
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="p-4 bg-slate-800/80 border border-indigo-700/50 rounded-xl space-y-3"
+                className="p-4 bg-slate-800/80 border border-gold-700/50 rounded-xl space-y-3"
               >
                 <p className={discoveryCorrect ? 'text-emerald-400 font-semibold text-sm' : 'text-amber-400 font-semibold text-sm'}>
                   {discoveryCorrect ? '✓ Correct! Torque = Force × Distance.' : `✗ Notice: ${DISCOVERY_QUESTION.hintAfter}`}
@@ -1177,7 +1177,7 @@ function C10_PhysicsTurningEffectForceSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 text-sm"
                 >
                   Let us Explore the Interactive Labs →
                 </motion.button>
@@ -1192,7 +1192,7 @@ function C10_PhysicsTurningEffectForceSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-xl md:text-2xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1214,14 +1214,14 @@ function C10_PhysicsTurningEffectForceSim({
                 whileTap={{ scale: 0.95 }}
                 disabled={currentSlide === EXPLORATION_STEPS.length - 1}
                 onClick={() => setCurrentSlide(s => Math.min(EXPLORATION_STEPS.length - 1, s + 1))}
-                className="px-3 py-1.5 bg-indigo-600 disabled:opacity-40 text-white rounded-lg text-xs font-bold"
+                className="px-3 py-1.5 bg-gold-600 disabled:opacity-40 text-white rounded-lg text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
             </div>
           </div>
 
-          <div className="p-4 bg-indigo-950/30 border border-indigo-800/40 rounded-xl">
+          <div className="p-4 bg-gold-950/30 border border-gold-800/40 rounded-xl">
             <p className="text-amber-300 text-sm font-semibold">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
           </div>
 
@@ -1239,7 +1239,7 @@ function C10_PhysicsTurningEffectForceSim({
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handlePrediction(i)}
-                        className="p-2 bg-slate-700 hover:bg-indigo-700 text-left rounded-lg text-xs text-slate-200"
+                        className="p-2 bg-slate-700 hover:bg-gold-700 text-left rounded-lg text-xs text-slate-200"
                       >
                         {opt}
                       </motion.button>
@@ -1422,7 +1422,7 @@ function C10_PhysicsTurningEffectForceSim({
                   </svg>
 
                   <div className="absolute top-2 left-2 p-2 bg-slate-900/90 rounded-lg text-xs space-y-1">
-                    <p className="text-sky-300 font-bold">CG Height: {(coneHeight / 4).toFixed(1)} px</p>
+                    <p className="text-gold-300 font-bold">CG Height: {(coneHeight / 4).toFixed(1)} px</p>
                     <p className={tiltAngle > 30 ? 'text-rose-400 font-bold' : 'text-emerald-400 font-bold'}>
                       {tiltAngle > 30 ? '✗ Topples! (Weight line outside base)' : '✓ Restores upright (Stable)'}
                     </p>
@@ -1442,7 +1442,7 @@ function C10_PhysicsTurningEffectForceSim({
                       aria-label="Tilt angle in degrees"
                       value={tiltAngle}
                       onChange={e => setTiltAngle(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="space-y-1">
@@ -1456,7 +1456,7 @@ function C10_PhysicsTurningEffectForceSim({
                       aria-label="Base radius in pixels"
                       value={baseRadius}
                       onChange={e => setBaseRadius(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="p-3 bg-slate-900 rounded-lg text-xs text-slate-300 leading-relaxed">
@@ -1543,7 +1543,7 @@ function C10_PhysicsTurningEffectForceSim({
                       aria-label="Pull force in Newtons"
                       value={pullForce}
                       onChange={e => setPullForce(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1588,13 +1588,13 @@ function C10_PhysicsTurningEffectForceSim({
 
                   <div className="w-40 bg-slate-900/90 p-3 rounded-xl border border-slate-800 flex flex-col justify-between text-xs space-y-2">
                     <div>
-                      <div className="flex justify-between text-[11px] text-sky-300 mb-1">
+                      <div className="flex justify-between text-[11px] text-gold-300 mb-1">
                         <span>PE (U):</span>
                         <b>{currentPE.toFixed(0)} J</b>
                       </div>
                       <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-sky-500 rounded-full"
+                          className="h-full bg-gold-500 rounded-full"
                           animate={{ width: `${(currentPE / totalMechanicalEnergy) * 100}%` }}
                         />
                       </div>
@@ -1616,7 +1616,7 @@ function C10_PhysicsTurningEffectForceSim({
                     <div className="pt-2 border-t border-slate-800">
                       <p className="text-[10px] text-slate-400">Total Energy (U + K):</p>
                       <p className="text-sm font-black text-white">{totalMechanicalEnergy.toFixed(0)} Joules</p>
-                      <p className="text-[10px] text-indigo-400 font-bold mt-1">Speed: {currentVelocity.toFixed(1)} m/s</p>
+                      <p className="text-[10px] text-gold-400 font-bold mt-1">Speed: {currentVelocity.toFixed(1)} m/s</p>
                     </div>
                   </div>
                 </div>
@@ -1653,7 +1653,7 @@ function C10_PhysicsTurningEffectForceSim({
                       aria-label="Current falling height in metres"
                       value={currentFallPos}
                       onChange={e => setCurrentFallPos(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1745,7 +1745,7 @@ function C10_PhysicsTurningEffectForceSim({
                       aria-label="Load weight in Newtons"
                       value={machineLoad}
                       onChange={e => setMachineLoad(Number(e.target.value))}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1778,7 +1778,7 @@ function C10_PhysicsTurningEffectForceSim({
                       aria-label="Effort distance in metres"
                       value={effortDistance}
                       onChange={e => setEffortDistance(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1804,7 +1804,7 @@ function C10_PhysicsTurningEffectForceSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 text-sm"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 text-sm"
               >
                 Next Lab →
               </motion.button>
@@ -1828,7 +1828,7 @@ function C10_PhysicsTurningEffectForceSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
-              <span className="text-xs text-indigo-400 font-bold uppercase">Torque Balancer</span>
+              <span className="text-xs text-gold-400 font-bold uppercase">Torque Balancer</span>
               <p className="text-xs text-slate-400">Left: {leftWeight} N @ {leftDist} cm</p>
               <input
                 type="range"
@@ -1837,7 +1837,7 @@ function C10_PhysicsTurningEffectForceSim({
                 aria-label="Sandbox left weight"
                 value={leftWeight}
                 onChange={e => setLeftWeight(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
               <p className="text-xs text-slate-400">Right: {rightWeight} N @ {rightDist} cm</p>
               <input
@@ -1868,7 +1868,7 @@ function C10_PhysicsTurningEffectForceSim({
             </div>
 
             <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
-              <span className="text-xs text-sky-400 font-bold uppercase">Pulley Efficiency</span>
+              <span className="text-xs text-gold-400 font-bold uppercase">Pulley Efficiency</span>
               <p className="text-xs text-slate-400">Effort: {machineEffort} N</p>
               <input
                 type="range"
@@ -1877,9 +1877,9 @@ function C10_PhysicsTurningEffectForceSim({
                 aria-label="Sandbox machine effort"
                 value={machineEffort}
                 onChange={e => setMachineEffort(Number(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
               />
-              <p className="text-xs font-mono text-indigo-300">η = {calculatedEfficiency.toFixed(1)}%</p>
+              <p className="text-xs font-mono text-gold-300">η = {calculatedEfficiency.toFixed(1)}%</p>
             </div>
           </div>
 
@@ -1888,7 +1888,7 @@ function C10_PhysicsTurningEffectForceSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-2xl font-black text-base shadow-xl shadow-indigo-600/30"
+            className="w-full py-3.5 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-2xl font-black text-base shadow-xl shadow-gold-600/30"
           >
             I am Ready for the Challenges! →
           </motion.button>
@@ -1915,7 +1915,7 @@ function C10_PhysicsTurningEffectForceSim({
                       ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                       : difficulty === 'advanced'
                       ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
-                      : 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30'
+                      : 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                   }`}
                 >
                   {difficulty}
@@ -1931,14 +1931,14 @@ function C10_PhysicsTurningEffectForceSim({
                 Score: <b className="text-emerald-400">{scoreBreakdown.correct}</b> / {scoreBreakdown.total}
               </span>
               <span className="text-slate-400">
-                Mastery: <b className="text-indigo-400 capitalize">{masteryLevel}</b>
+                Mastery: <b className="text-gold-400 capitalize">{masteryLevel}</b>
               </span>
             </div>
           </div>
 
           <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1970,7 +1970,7 @@ function C10_PhysicsTurningEffectForceSim({
                       className={`w-full p-4 text-left rounded-xl text-sm font-medium border transition-all ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                     >
                       <span className="font-bold mr-3">{String.fromCharCode(65 + i)}.</span> {opt}
@@ -1994,7 +1994,7 @@ function C10_PhysicsTurningEffectForceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2023,7 +2023,7 @@ function C10_PhysicsTurningEffectForceSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={showExplanation}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Labels
                 </motion.button>
@@ -2054,7 +2054,7 @@ function C10_PhysicsTurningEffectForceSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded font-bold">
+                      <span className="px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded font-bold">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2068,7 +2068,7 @@ function C10_PhysicsTurningEffectForceSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={showExplanation}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence
                 </motion.button>
@@ -2085,7 +2085,7 @@ function C10_PhysicsTurningEffectForceSim({
                     aria-label="Numerical answer input"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value..."
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 outline-none w-64"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2094,7 +2094,7 @@ function C10_PhysicsTurningEffectForceSim({
                     whileTap={{ scale: 0.95 }}
                     disabled={showExplanation || !numericInput}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Answer
                   </motion.button>
@@ -2127,7 +2127,7 @@ function C10_PhysicsTurningEffectForceSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs flex items-center gap-2"
                     >
                       {p}
                       <button
@@ -2150,7 +2150,7 @@ function C10_PhysicsTurningEffectForceSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={showExplanation || constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Constructed Chain
                 </motion.button>
@@ -2224,7 +2224,7 @@ function C10_PhysicsTurningEffectForceSim({
       {/* ─── PHASE 5: COMPLETION, MOTIVATIONAL FEEDBACK & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 border border-emerald-500/40 rounded-3xl text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 border border-emerald-500/40 rounded-3xl text-center space-y-4 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-3xl font-black text-white">ICSE Physics Mechanics Mastery Attained!</h2>
             <p className="text-slate-300 max-w-xl mx-auto text-sm">
@@ -2238,13 +2238,13 @@ function C10_PhysicsTurningEffectForceSim({
               </div>
               <div className="p-4 bg-slate-900/80 border border-slate-800 rounded-2xl min-w-[120px]">
                 <span className="text-xs text-slate-400">Mastery Level</span>
-                <p className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>
 
           {/* MOTIVATIONAL FEEDBACK */}
-          <div className="p-6 bg-slate-900 border border-indigo-700/40 rounded-2xl text-center space-y-2">
+          <div className="p-6 bg-slate-900 border border-gold-700/40 rounded-2xl text-center space-y-2">
             <h3 className="text-lg font-black text-white">
               {errors === 0
                 ? '🌟 PERFECT SCORE!'
@@ -2281,7 +2281,7 @@ function C10_PhysicsTurningEffectForceSim({
                   aria-label="Reflection: Most surprising thing learned"
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. Carrying horizontal loads does zero work against gravity..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500 h-16 resize-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500 h-16 resize-none"
                 />
               </div>
 
@@ -2294,7 +2294,7 @@ function C10_PhysicsTurningEffectForceSim({
                   aria-label="Reflection: How to explain to a friend"
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Levers let you trade distance for effort force..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500 h-16 resize-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500 h-16 resize-none"
                 />
               </div>
 
@@ -2307,7 +2307,7 @@ function C10_PhysicsTurningEffectForceSim({
                   aria-label="Reflection: Where in real life might you use this"
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. Using a longer wrench on stubborn car lug nuts..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500 h-16 resize-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500 h-16 resize-none"
                 />
               </div>
             </div>
@@ -2333,9 +2333,9 @@ function C10_PhysicsTurningEffectForceSim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-5 bg-indigo-950/40 border border-indigo-800/50 rounded-2xl flex items-center justify-between">
+          <div className="p-5 bg-gold-950/40 border border-gold-800/50 rounded-2xl flex items-center justify-between">
             <div>
-              <h4 className="text-sm font-bold text-indigo-300">Spaced Repetition Review Schedule</h4>
+              <h4 className="text-sm font-bold text-gold-300">Spaced Repetition Review Schedule</h4>
               <p className="text-xs text-slate-400">
                 Recommended return: in <b>{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</b> to lock this into long-term memory.
               </p>

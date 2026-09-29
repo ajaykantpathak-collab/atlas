@@ -16,7 +16,7 @@ export function PlotArcDiagram() {
         { id: 'e5', text: 'She finally reaches school — dream fulfilled', stage: 'resolution' },
     ];
     const stages = [
-        { id: 'exposition', label: 'Exposition', x: 10, y: 70, color: 'bg-blue-500' },
+        { id: 'exposition', label: 'Exposition', x: 10, y: 70, color: 'bg-gold-500' },
         { id: 'rising', label: 'Rising Action', x: 30, y: 40, color: 'bg-amber-500' },
         { id: 'climax', label: 'Climax', x: 50, y: 10, color: 'bg-red-500' },
         { id: 'falling', label: 'Falling Action', x: 70, y: 40, color: 'bg-purple-500' },
@@ -72,7 +72,7 @@ export function PlotArcDiagram() {
 // Drag traits + quotes to the right character — shows how characters are built.
 export function CharacterMap() {
     const characters = [
-        { id: 'dolittle', name: 'Dr. Dolittle', color: 'bg-blue-500', emoji: '👨‍⚕️' },
+        { id: 'dolittle', name: 'Dr. Dolittle', color: 'bg-gold-500', emoji: '👨‍⚕️' },
         { id: 'animals', name: 'The Animals', color: 'bg-emerald-500', emoji: '🦜' },
         { id: 'townsfolk', name: 'Townsfolk', color: 'bg-amber-500', emoji: '👥' },
     ];
@@ -198,10 +198,10 @@ export function SentenceBuilder() {
         <div className="flex flex-col items-center gap-4 p-4">
             <div className="text-lg font-bold text-gray-700">Build the sentence! Drag words in order</div>
             {/* Target sentence area */}
-            <div className="min-h-[60px] w-full max-w-lg bg-blue-50 rounded-2xl border-4 border-blue-200 p-3 flex flex-wrap gap-2 items-center">
+            <div className="min-h-[60px] w-full max-w-lg bg-gold-50 rounded-2xl border-4 border-gold-200 p-3 flex flex-wrap gap-2 items-center">
                 {order.map((w, i) => (
                     <div key={i} onClick={() => removeWord(i)}
-                        className="px-3 py-2 rounded-xl bg-blue-500 text-white font-bold cursor-pointer shadow text-sm">
+                        className="px-3 py-2 rounded-xl bg-gold-500 text-white font-bold cursor-pointer shadow text-sm">
                         {w}
                     </div>
                 ))}
@@ -211,7 +211,7 @@ export function SentenceBuilder() {
             <div className="flex flex-wrap gap-2 justify-center max-w-lg">
                 {available.map((w, i) => (
                     <button key={i} onClick={() => addWord(w, i)}
-                        className="px-3 py-2 rounded-xl bg-white border-2 border-gray-300 font-bold text-sm shadow hover:border-blue-400">
+                        className="px-3 py-2 rounded-xl bg-white border-2 border-gray-300 font-bold text-sm shadow hover:border-gold-400">
                         {w}
                     </button>
                 ))}

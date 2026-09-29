@@ -11,7 +11,7 @@ export const w_c11_homescienceintroductionstreamshomesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Family Income: Money Income, Real Income and Psychic Income',
     chapters: [],
     nodeIds: ['c11_hs_cbse_10_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine your neighbour Mrs. Sharma earns ₹60,000/month as a teacher (Money Income), grows vegetables on her.', goal: 'Master Family Income: Money Income, Real Income and Psychic Income.' },
     discovery: {
         question: 'A family receives ₹50,000 monthly salary, grows herbs on their balcony, and the mother stitches school uniforms for the children.',
@@ -20,7 +20,7 @@ export const w_c11_homescienceintroductionstreamshomesim: SimDef = {
         hook: 'Students consistently confuse Home Science "Real Income" with the Economics definition (nominal income adjusted for.',
     },
     teaching: [
-        { title: 'Family income is the aggregate monetary and.', text: 'Family income is the aggregate monetary and non-monetary inflow available to a household over a defined period (typically a financial year April 1–March 31), comprising three distinct but.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Family income is the aggregate monetary and.', text: 'Family income is the aggregate monetary and non-monetary inflow available to a household over a defined period (typically a financial year April 1–March 31), comprising three distinct but.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hs_cbse_10_003', title: 'Family income is the aggregate monetary.',

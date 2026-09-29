@@ -397,7 +397,7 @@ const AtomVisualizer: React.FC<{
 
   return (
     <div className="flex flex-col items-center justify-center p-4 bg-slate-900 rounded-xl border border-slate-700 shadow-2xl relative overflow-hidden">
-      <div className="absolute top-3 left-3 bg-slate-800/80 px-3 py-1 rounded-md text-xs font-mono text-cyan-300 border border-slate-700">
+      <div className="absolute top-3 left-3 bg-slate-800/80 px-3 py-1 rounded-md text-xs font-mono text-gold-300 border border-slate-700">
         Symbol: <span className="font-bold text-amber-400">{element.symbol}</span> | Z: {pCount} | A: {pCount + nCount}
       </div>
 
@@ -467,7 +467,7 @@ const AtomVisualizer: React.FC<{
 
       <div className="mt-2 text-center">
         <span className="text-sm text-slate-300 font-medium">
-          Configuration: <span className="text-cyan-400 font-mono font-bold">{shellDistribution.join(', ')}</span>
+          Configuration: <span className="text-gold-400 font-mono font-bold">{shellDistribution.join(', ')}</span>
         </span>
         <div className="text-xs text-slate-400 mt-1">
           Valency: <span className="text-amber-400 font-bold">{element.valency}</span> ({element.type.toUpperCase()})
@@ -537,7 +537,7 @@ const ShellConfigWidget: React.FC<{
       <div className="flex justify-between items-center mb-4">
         <div>
           <h4 className="text-lg font-bold text-white">Fill Electron Shells</h4>
-          <p className="text-xs text-slate-300">Target Element: <span className="text-cyan-400 font-bold">{targetElement.name} ({targetElement.symbol})</span> | Z = {targetElement.z}</p>
+          <p className="text-xs text-slate-300">Target Element: <span className="text-gold-400 font-bold">{targetElement.name} ({targetElement.symbol})</span> | Z = {targetElement.z}</p>
         </div>
         <div className="bg-slate-900 px-3 py-1 rounded-lg border border-slate-700 text-right">
           <span className="text-xs text-slate-400 block">Unassigned e⁻</span>
@@ -548,7 +548,7 @@ const ShellConfigWidget: React.FC<{
       <div className="grid grid-cols-4 gap-3 mb-5">
         {shellNames.map((name, idx) => (
           <div key={name} className="bg-slate-900 p-3 rounded-lg border border-slate-700 flex flex-col items-center">
-            <span className="text-xs font-bold text-cyan-400">{name} Shell</span>
+            <span className="text-xs font-bold text-gold-400">{name} Shell</span>
             <span className="text-xs text-slate-500 mb-2">(Max {shellCaps[idx]})</span>
             <span className="text-2xl font-mono font-bold text-white mb-3">{userShells[idx]}</span>
             <div className="flex gap-1 w-full">
@@ -560,7 +560,7 @@ const ShellConfigWidget: React.FC<{
               </button>
               <button
                 onClick={() => handleAddElectron(idx)}
-                className="flex-1 bg-cyan-600 hover:bg-cyan-500 text-white rounded text-sm py-1 font-bold border border-cyan-400 transition"
+                className="flex-1 bg-gold-600 hover:bg-gold-500 text-white rounded text-sm py-1 font-bold border border-gold-400 transition"
               >
                 +
               </button>
@@ -646,7 +646,7 @@ const EquationBalancerWidget: React.FC<{
           <span className="text-base font-bold text-white">O₂</span>
         </div>
 
-        <span className="text-xl font-bold text-cyan-400">➔</span>
+        <span className="text-xl font-bold text-gold-400">➔</span>
 
         {/* Product: H2O */}
         <div className="flex items-center gap-1 bg-slate-800 px-2 py-1.5 rounded-lg border border-slate-600">
@@ -757,7 +757,7 @@ const HydrogenLabSimulator: React.FC<{
     <div className="bg-slate-900 p-5 rounded-xl border border-slate-700 w-full max-w-lg shadow-2xl flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-3">
         <h4 className="text-base font-bold text-white">Lab Prep: Zn + 2HCl ➔ ZnCl₂ + H₂↑</h4>
-        <span className="text-xs bg-slate-800 text-cyan-300 px-2.5 py-1 rounded border border-slate-700 font-mono">
+        <span className="text-xs bg-slate-800 text-gold-300 px-2.5 py-1 rounded border border-slate-700 font-mono">
           Downward Displacement of Water
         </span>
       </div>
@@ -830,7 +830,7 @@ const HydrogenLabSimulator: React.FC<{
         {!acidAdded ? (
           <button
             onClick={handleAddAcid}
-            className="flex-1 bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2.5 rounded-lg shadow-lg transition flex items-center justify-center gap-2 text-sm"
+            className="flex-1 bg-gold-600 hover:bg-gold-500 text-white font-bold py-2.5 rounded-lg shadow-lg transition flex items-center justify-center gap-2 text-sm"
           >
             🧪 Add Dilute HCl Acid
           </button>
@@ -1017,11 +1017,11 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
       {/* Top Header Bar */}
       <header className="w-full max-w-5xl flex flex-col sm:flex-row justify-between items-center bg-slate-900/90 border border-slate-800 p-4 rounded-2xl shadow-xl mb-6 backdrop-blur-md gap-3">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 bg-cyan-600/20 border border-cyan-500/40 rounded-xl text-cyan-400">
+          <div className="p-2.5 bg-gold-600/20 border border-gold-500/40 rounded-xl text-gold-400">
             🧪
           </div>
           <div>
-            <h1 className="text-lg sm:text-xl font-black bg-gradient-to-r from-cyan-400 via-sky-300 to-amber-300 bg-clip-text text-transparent">
+            <h1 className="text-lg sm:text-xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-amber-300 bg-clip-text text-transparent">
               ICSE Class 7 Chemistry Lab
             </h1>
             <p className="text-xs text-slate-400">Atomic Structure, Equations, Reactions & Hydrogen</p>
@@ -1032,7 +1032,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
         <div className="flex items-center gap-4">
           <div className="bg-slate-800/80 px-3 py-1.5 rounded-xl border border-slate-700 flex flex-col items-end">
             <span className="text-[10px] text-slate-400 uppercase tracking-wider font-bold">Mastery Level</span>
-            <span className="text-sm font-mono font-bold text-cyan-400">{overallMastery}%</span>
+            <span className="text-sm font-mono font-bold text-gold-400">{overallMastery}%</span>
           </div>
           <div className="bg-slate-800/80 px-3 py-1.5 rounded-xl border border-slate-700 flex flex-col items-end">
             <span className="text-[10px] text-slate-400 uppercase tracking-wider font-bold">Score</span>
@@ -1057,7 +1057,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
             }}
             className={`flex-1 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all text-center ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg border border-cyan-400/50'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg border border-gold-400/50'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1091,7 +1091,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                   onClick={() => handleDiscoveryAnswer(idx)}
                   className="w-full p-4 rounded-xl bg-slate-800 hover:bg-slate-700/80 border border-slate-700 text-left text-sm text-slate-200 font-medium transition flex items-center gap-3 group"
                 >
-                  <span className="w-7 h-7 rounded-lg bg-slate-900 group-hover:bg-cyan-600 text-slate-400 group-hover:text-white font-mono font-bold flex items-center justify-center text-xs transition">
+                  <span className="w-7 h-7 rounded-lg bg-slate-900 group-hover:bg-gold-600 text-slate-400 group-hover:text-white font-mono font-bold flex items-center justify-center text-xs transition">
                     {String.fromCharCode(65 + idx)}
                   </span>
                   <span className="flex-1">{option}</span>
@@ -1123,7 +1123,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                 ← Previous
               </button>
 
-              <span className="text-xs font-mono font-bold text-cyan-400">
+              <span className="text-xs font-mono font-bold text-gold-400">
                 Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
               </span>
 
@@ -1136,7 +1136,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                     setActiveTab('lab');
                   }
                 }}
-                className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-xs transition"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs transition"
               >
                 {currentSlideIndex === TEACHING_SLIDES.length - 1 ? "Start Challenges ➔" : "Next Slide →"}
               </button>
@@ -1156,7 +1156,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
 
                 {/* ELI5 Explanation Box */}
                 <div className="bg-slate-800/60 border border-slate-700/80 p-4 rounded-xl mb-4">
-                  <span className="text-xs font-bold text-sky-400 block mb-1">💡 ELI5 Analogy</span>
+                  <span className="text-xs font-bold text-gold-400 block mb-1">💡 ELI5 Analogy</span>
                   <p className="text-xs text-slate-300 italic">{currentSlide.eli5}</p>
                 </div>
 
@@ -1216,7 +1216,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                 {currentSlide.interactiveWidget === 'redoxVisualizer' && (
                   <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 w-full text-center">
                     <h4 className="text-sm font-bold text-white mb-2">Redox Transfer Visualizer</h4>
-                    <div className="p-4 bg-slate-800 rounded-lg border border-slate-700 font-mono text-sm text-cyan-300 mb-3">
+                    <div className="p-4 bg-slate-800 rounded-lg border border-slate-700 font-mono text-sm text-gold-300 mb-3">
                       CuO + H₂ ➔[Heat] Cu + H₂O
                     </div>
                     <div className="grid grid-cols-2 gap-3 text-xs">
@@ -1276,7 +1276,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                       onClick={() => setSelectedMcqOption(opt)}
                       className={`w-full p-4 rounded-xl border text-left text-sm font-medium transition ${
                         selectedMcqOption === opt
-                          ? 'bg-cyan-900/60 border-cyan-400 text-white'
+                          ? 'bg-gold-900/60 border-gold-400 text-white'
                           : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                       }`}
                     >
@@ -1295,7 +1295,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                       type="number"
                       value={atomCounts.p || ''}
                       onChange={e => setAtomCounts({ ...atomCounts, p: parseInt(e.target.value) || 0 })}
-                      className="w-16 bg-slate-900 text-cyan-400 font-mono font-bold text-center py-2 rounded border border-slate-700"
+                      className="w-16 bg-slate-900 text-gold-400 font-mono font-bold text-center py-2 rounded border border-slate-700"
                     />
                   </div>
                   <div className="bg-slate-800 p-3 rounded-xl border border-slate-700 flex flex-col items-center">
@@ -1304,7 +1304,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                       type="number"
                       value={atomCounts.e || ''}
                       onChange={e => setAtomCounts({ ...atomCounts, e: parseInt(e.target.value) || 0 })}
-                      className="w-16 bg-slate-900 text-cyan-400 font-mono font-bold text-center py-2 rounded border border-slate-700"
+                      className="w-16 bg-slate-900 text-gold-400 font-mono font-bold text-center py-2 rounded border border-slate-700"
                     />
                   </div>
                   <div className="bg-slate-800 p-3 rounded-xl border border-slate-700 flex flex-col items-center">
@@ -1313,7 +1313,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                       type="number"
                       value={atomCounts.n || ''}
                       onChange={e => setAtomCounts({ ...atomCounts, n: parseInt(e.target.value) || 0 })}
-                      className="w-16 bg-slate-900 text-cyan-400 font-mono font-bold text-center py-2 rounded border border-slate-700"
+                      className="w-16 bg-slate-900 text-gold-400 font-mono font-bold text-center py-2 rounded border border-slate-700"
                     />
                   </div>
                 </div>
@@ -1349,7 +1349,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                 ) : (
                   <button
                     onClick={handleNextChallenge}
-                    className="bg-cyan-600 hover:bg-cyan-500 text-white px-6 py-2.5 rounded-xl font-bold text-sm shadow-lg transition flex items-center gap-2"
+                    className="bg-gold-600 hover:bg-gold-500 text-white px-6 py-2.5 rounded-xl font-bold text-sm shadow-lg transition flex items-center gap-2"
                   >
                     Next Challenge →
                   </button>
@@ -1380,7 +1380,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                   return (
                     <div key={nodeId} className="bg-slate-800 p-3 rounded-xl border border-slate-700 text-center">
                       <span className="text-[10px] text-slate-400 font-mono block uppercase">{nodeId}</span>
-                      <span className="text-lg font-bold text-cyan-400 font-mono">{level}%</span>
+                      <span className="text-lg font-bold text-gold-400 font-mono">{level}%</span>
                     </div>
                   );
                 })}
@@ -1392,7 +1392,7 @@ export default function C7_ChemistryAtomicstructureelectronsprotonsneutronsSim()
                   setCurrentChallengeIndex(0);
                   setActiveTab('lab');
                 }}
-                className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold px-8 py-3 rounded-xl shadow-xl transition"
+                className="bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold px-8 py-3 rounded-xl shadow-xl transition"
               >
                 Replay Challenge Lab 🔄
               </button>

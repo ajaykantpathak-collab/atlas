@@ -32,11 +32,11 @@ export function C8_MathematicsTheBaudhayanaPythagorasTheoremSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">The Baudhayana-Pythagoras Theorem</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">The Baudhayana-Pythagoras Theorem</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">A theorem with an Indian address:</span> around
+          <span className="font-bold text-gold-700">A theorem with an Indian address:</span> around
           800 BCE, Baudhayana recorded in the Sulba Sutras: the rope stretched along the diagonal of
           a rectangle makes an area the vertical and horizontal sides make together. In symbols:
           a^2 + b^2 = c^2. The three squares below prove it - the two leg squares always fill the
@@ -62,16 +62,16 @@ export function C8_MathematicsTheBaudhayanaPythagorasTheoremSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Leg a</span><span className="font-mono text-indigo-600">{a}</span></label>
-            <input type="range" min={1} max={12} value={a} aria-label="leg a" onChange={(e) => setA(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Leg a</span><span className="font-mono text-gold-600">{a}</span></label>
+            <input type="range" min={1} max={12} value={a} aria-label="leg a" onChange={(e) => setA(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Leg b</span><span className="font-mono text-emerald-600">{b}</span></label>
             <input type="range" min={1} max={12} value={b} aria-label="leg b" onChange={(e) => setB(Number(e.target.value))} className="w-full mt-1 accent-emerald-600" />
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div>a^2 + b^2 = {a * a} + {b * b} = <span className="text-indigo-700 font-bold">{c2}</span></div>
-            <div>c = sqrt({c2}) = <span className="text-indigo-700 font-bold">{Math.round(c * 1000) / 1000}</span></div>
+            <div>a^2 + b^2 = {a * a} + {b * b} = <span className="text-gold-700 font-bold">{c2}</span></div>
+            <div>c = sqrt({c2}) = <span className="text-gold-700 font-bold">{Math.round(c * 1000) / 1000}</span></div>
             <div className="mt-1 text-xs text-slate-500">
               {Number.isInteger(c) ? 'A Pythagorean triple - c is a whole number!' : 'c is not whole here, but the AREA rule still holds exactly.'}
             </div>
@@ -81,7 +81,7 @@ export function C8_MathematicsTheBaudhayanaPythagorasTheoremSim() {
             <div className="flex flex-col gap-1.5 font-mono text-xs">
               <div className="flex items-center gap-2">
                 <span className="w-20">a^2 = {a * a}</span>
-                <div className="h-4 flex-1 bg-slate-200 rounded overflow-hidden"><div className="h-full bg-blue-500" style={{ width: `${((a * a) / c2) * 100}%`, transition: 'width 250ms' }} /></div>
+                <div className="h-4 flex-1 bg-slate-200 rounded overflow-hidden"><div className="h-full bg-gold-500" style={{ width: `${((a * a) / c2) * 100}%`, transition: 'width 250ms' }} /></div>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-20">b^2 = {b * b}</span>
@@ -95,7 +95,7 @@ export function C8_MathematicsTheBaudhayanaPythagorasTheoremSim() {
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 350 280" className="w-full">
             {showSquares && (
               <>

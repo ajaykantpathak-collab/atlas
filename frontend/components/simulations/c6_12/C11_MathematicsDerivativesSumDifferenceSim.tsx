@@ -1130,12 +1130,12 @@ function C11_MathematicsDerivativesSumDifferenceSim({
         className="flex flex-wrap items-center justify-between gap-4 p-4 mb-6 bg-slate-900/90 backdrop-blur-md rounded-2xl border border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner">
+          <div className="w-12 h-12 rounded-xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ISC Class 11 Mathematics</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ISC Class 11 Mathematics</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">CISCE 2026 Core</span>
             </div>
             <h1 className="text-lg sm:text-xl font-bold text-white tracking-tight">{title}</h1>
@@ -1156,7 +1156,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
             {difficulty.toUpperCase()} TIER
           </motion.span>
           <div className="text-xs text-slate-400 bg-slate-800/80 px-3 py-1 rounded-lg border border-slate-700">
-            Mastery: <span className="text-indigo-300 font-semibold capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-300 font-semibold capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1164,8 +1164,8 @@ function C11_MathematicsDerivativesSumDifferenceSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-900/40">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-900/40">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
               <span>🚀</span>
               <span>MISSION DIRECTIVE</span>
             </div>
@@ -1197,7 +1197,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                       ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect
                       ? 'bg-slate-800/40 border-slate-700/50 text-slate-400'
-                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500/50'
+                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500/50'
                   }`}
                 >
                   <div className="flex items-center gap-3">
@@ -1223,7 +1223,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Launch Interactive Visual Lab</span>
                   <span>→</span>
@@ -1244,7 +1244,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                 <div
                   key={idx}
                   className={`h-1.5 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1260,7 +1260,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-xl font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-xl font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-sm mt-2 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1280,7 +1280,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                         max={8}
                         value={calcU}
                         onChange={(e) => setCalcU(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="space-y-2">
@@ -1295,20 +1295,20 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                         max={8}
                         value={calcV}
                         onChange={(e) => setCalcV(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl space-y-2 text-xs">
                       <div className="flex justify-between text-slate-300">
                         <span>Initial Area u · v:</span>
-                        <span className="font-mono text-indigo-400 font-bold">{calcU * calcV}</span>
+                        <span className="font-mono text-gold-400 font-bold">{calcU * calcV}</span>
                       </div>
                       <div className="flex justify-between text-emerald-400">
                         <span>Horizontal Growth v · Δu:</span>
                         <span className="font-mono font-bold">+{calcV * calcDu}</span>
                       </div>
-                      <div className="flex justify-between text-sky-400">
+                      <div className="flex justify-between text-gold-400">
                         <span>Vertical Growth u · Δv:</span>
                         <span className="font-mono font-bold">+{calcU * calcDv}</span>
                       </div>
@@ -1393,8 +1393,8 @@ function C11_MathematicsDerivativesSumDifferenceSim({
               {currentSlide === 1 && (
                 <div className="space-y-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 mb-4">
-                      <p className="text-sm font-semibold text-indigo-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 mb-4">
+                      <p className="text-sm font-semibold text-gold-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1415,7 +1415,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs text-slate-300">
-                        <span className="font-bold text-sky-400">Station 1 Mean (x̄₁): {statsMean1}</span>
+                        <span className="font-bold text-gold-400">Station 1 Mean (x̄₁): {statsMean1}</span>
                         <span>σ₁ = {statsSd1}</span>
                       </div>
                       <input
@@ -1425,7 +1425,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                         max={100}
                         value={statsMean1}
                         onChange={(e) => setStatsMean1(Number(e.target.value))}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1478,7 +1478,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                         step={0.05}
                         value={probA}
                         onChange={(e) => setProbA(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="space-y-2">
@@ -1546,7 +1546,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                         max={16}
                         value={amgmA}
                         onChange={(e) => setAmgmA(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="space-y-2">
@@ -1558,7 +1558,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                         max={16}
                         value={amgmB}
                         onChange={(e) => setAmgmB(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1566,7 +1566,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 p-4 bg-slate-900 rounded-xl border border-slate-800 text-center text-xs">
                     <div>
                       <div className="text-slate-400">Arithmetic Mean (a+b)/2</div>
-                      <div className="text-lg font-bold text-sky-400 font-mono">{amgmStats.am.toFixed(2)}</div>
+                      <div className="text-lg font-bold text-gold-400 font-mono">{amgmStats.am.toFixed(2)}</div>
                     </div>
                     <div>
                       <div className="text-slate-400">Geometric Mean √(ab)</div>
@@ -1581,8 +1581,8 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   </div>
 
                   {!observationAnswered && Math.abs(amgmA - amgmB) < 2 && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                      <p className="text-xs font-semibold text-indigo-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                      <p className="text-xs font-semibold text-gold-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <button
@@ -1702,7 +1702,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('pop');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1726,7 +1726,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap justify-between items-center gap-3">
             <div>
-              <h3 className="text-lg font-bold text-indigo-300">Physics & Math Free Flight Sandbox</h3>
+              <h3 className="text-lg font-bold text-gold-300">Physics & Math Free Flight Sandbox</h3>
               <p className="text-xs text-slate-400">Tweak all variables freely. No timers, no scoring, complete mathematical intuition building.</p>
             </div>
             <motion.button
@@ -1734,7 +1734,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+              className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
             >
               I Am Ready for Operational Challenges →
             </motion.button>
@@ -1763,7 +1763,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   max={8}
                   value={calcU}
                   onChange={(e) => setCalcU(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1801,7 +1801,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-800 text-indigo-300 border border-slate-700">
+                <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-800 text-gold-300 border border-slate-700">
                   NEP Competency: {challenge.competencyLevel}
                 </span>
                 <span className="text-[10px] font-mono text-slate-500">{challenge.nodeId}</span>
@@ -1810,7 +1810,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1845,7 +1845,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                     className={`w-full text-left p-4 rounded-xl text-sm transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500/50'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500/50'
                     }`}
                   >
                     <div className="flex items-center gap-3">
@@ -1874,7 +1874,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                     disabled={showExplanation}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter exact numerical value..."
-                    className="flex-1 px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-indigo-500"
+                    className="flex-1 px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 font-mono text-sm">{challenge.unit}</span>
                 </div>
@@ -1884,7 +1884,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={showExplanation || !numericInput}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Number
                 </motion.button>
@@ -1904,7 +1904,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold rounded-lg cursor-grab active:cursor-grabbing"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-semibold rounded-lg cursor-grab active:cursor-grabbing"
                     >
                       {item.label}
                     </motion.div>
@@ -1934,7 +1934,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -1974,7 +1974,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Derivation Order
                 </motion.button>
@@ -1992,7 +1992,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAddConstructPart(part)}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 font-mono text-xs rounded-lg border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 font-mono text-xs rounded-lg border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2006,7 +2006,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                       role="button"
                       aria-label={`Remove part ${part}`}
                       onClick={() => handleRemoveConstructPart(i)}
-                      className="px-2.5 py-1 bg-indigo-900/60 text-indigo-200 border border-indigo-500/40 rounded-lg text-xs font-mono cursor-pointer hover:bg-rose-900/50"
+                      className="px-2.5 py-1 bg-gold-900/60 text-gold-200 border border-gold-500/40 rounded-lg text-xs font-mono cursor-pointer hover:bg-rose-900/50"
                     >
                       {part} ✕
                     </span>
@@ -2022,7 +2022,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Assembly
                 </motion.button>
@@ -2107,7 +2107,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
               </div>
               <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 min-w-[120px]">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-2xl font-bold text-indigo-400 font-mono capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-bold text-gold-400 font-mono capitalize">{masteryLevel}</div>
               </div>
             </div>
 
@@ -2118,15 +2118,15 @@ function C11_MathematicsDerivativesSumDifferenceSim({
           </div>
 
           {/* Spaced Repetition Schedule (SRS) Card */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-500/30 space-y-4 shadow-lg shadow-indigo-950/40">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-500/30 space-y-4 shadow-lg shadow-gold-950/40">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-lg">📅</span>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Spaced Repetition System (SM-2) Schedule
                 </span>
               </div>
-              <span className="text-xs px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 font-semibold">
+              <span className="text-xs px-2.5 py-1 rounded-full bg-gold-500/10 text-gold-300 border border-gold-500/20 font-semibold">
                 SRS Memory Tracking Active
               </span>
             </div>
@@ -2153,7 +2153,7 @@ function C11_MathematicsDerivativesSumDifferenceSim({
 
             <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-2">
               <span className="text-slate-400">Your personalized spaced repetition schedule for ISC & JEE revision:</span>
-              <span className="px-3 py-1 rounded-lg bg-indigo-900/60 border border-indigo-500/40 text-amber-300 font-bold font-mono">
+              <span className="px-3 py-1 rounded-lg bg-gold-900/60 border border-gold-500/40 text-amber-300 font-bold font-mono">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </span>
             </div>
@@ -2182,13 +2182,13 @@ function C11_MathematicsDerivativesSumDifferenceSim({
           )}
 
           {/* Real-World Activity */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <div className="text-xs font-bold uppercase tracking-wider text-indigo-400">{REAL_WORLD_ACTIVITY.title}</div>
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <div className="text-xs font-bold uppercase tracking-wider text-gold-400">{REAL_WORLD_ACTIVITY.title}</div>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

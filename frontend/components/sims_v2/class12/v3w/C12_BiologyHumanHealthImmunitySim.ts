@@ -11,7 +11,7 @@ export const w_c12_biologyhumanhealthimmunitysim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Infectious Diseases: Mode of Transmission',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_002', 'c12_bio_cbse_08_003', 'c12_bio_cbse_08_004', 'c12_bio_cbse_08_005', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a classmate sneezing without covering their mouth — droplets travel ~1 metre and land on your desk.', goal: 'Master Infectious Diseases: Mode of Transmission.' },
     discovery: {
         question: 'A village uses a common pond for bathing, washing cattle, and drawing drinking water. During monsoon, cases of acute diarrhoea spike.',
@@ -20,7 +20,7 @@ export const w_c12_biologyhumanhealthimmunitysim: SimDef = {
         hook: 'Students often believe "vector-borne" and "vehicle-borne" are interchangeable because both involve an intermediary.',
     },
     teaching: [
-        { title: 'Mode of transmission refers to the specific.', text: 'Mode of transmission refers to the specific pathway by which an infectious agent (pathogen) moves from a reservoir or infected host to a susceptible new host, classified as direct (physical contact,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mode of transmission refers to the specific.', text: 'Mode of transmission refers to the specific pathway by which an infectious agent (pathogen) moves from a reservoir or infected host to a susceptible new host, classified as direct (physical contact,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_08_002', title: 'Mode of transmission refers to the.',

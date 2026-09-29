@@ -11,7 +11,7 @@ export const w_c9_historycivicsguptacontributionculturesim: SimDef = {
     classLevel: 9, subject: 'history', topic: 'Vedic Society: Early and Later Vedic Periods',
     chapters: [],
     nodeIds: ['c9_hist_ch3_1', 'c9_hist_ch3_12', 'c9_hist_ch3_5', 'c9_hist_ch3_6', 'c9_hist_ch3_8', 'c9_hist_ch3_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a village festival in Haryana where priests chant Rigvedic hymns around a fire altar—those.', goal: 'Master Vedic Society: Early and Later Vedic Periods.' },
     discovery: {
         question: 'Compare the role of the *mahattara* (village headman) in Gupta administration with the *gramika* in Mauryan administration.',
@@ -20,7 +20,7 @@ export const w_c9_historycivicsguptacontributionculturesim: SimDef = {
         hook: 'Students believe the Gupta "Golden Age" was a period of uniform prosperity and centralized power like the Mauryas,.',
     },
     teaching: [
-        { title: 'The Vedic Society spans two distinct phases:.', text: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Vedic Society spans two distinct phases:.', text: 'The Vedic Society spans two distinct phases: the Early Vedic (Rigvedic) period (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_hist_ch3_1', title: 'The Vedic Society spans two distinct.',

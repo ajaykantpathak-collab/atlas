@@ -1294,7 +1294,7 @@ function C9_EVSForestEcosystemsTropicalSim({
             exit={{ opacity: 0, y: -15 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-800/40 shadow-xl">
+            <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-800/40 shadow-xl">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xs px-2.5 py-1 rounded-md bg-emerald-500/20 text-emerald-300 font-mono font-bold uppercase tracking-wider">
                   Scenario Dossier
@@ -1368,10 +1368,10 @@ function C9_EVSForestEcosystemsTropicalSim({
             </div>
 
             {/* ─── BRILLIANT PREDICTION SECTION (Predict-then-verify pattern) ─── */}
-            <div className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-500/40 space-y-4">
+            <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-500/40 space-y-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <span className="text-xs font-mono uppercase font-bold tracking-wider text-indigo-400">
+                  <span className="text-xs font-mono uppercase font-bold tracking-wider text-gold-400">
                     🎯 Brilliant.org Pattern · Predict Before Testing
                   </span>
                   <h3 className="text-lg font-bold text-white mt-0.5">Hypothesis & Prediction Labs</h3>
@@ -1383,7 +1383,7 @@ function C9_EVSForestEcosystemsTropicalSim({
                       onClick={() => setActivePredictTab(pIdx)}
                       className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
                         activePredictTab === pIdx
-                          ? 'bg-indigo-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                       }`}
                     >
@@ -1423,9 +1423,9 @@ function C9_EVSForestEcosystemsTropicalSim({
                       <motion.div
                         initial={{ opacity: 0, y: 5 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700/60 text-xs text-indigo-200 space-y-1"
+                        className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/60 text-xs text-gold-200 space-y-1"
                       >
-                        <p><span className="font-bold text-indigo-300">Explanation:</span> {pQ.explanation}</p>
+                        <p><span className="font-bold text-gold-300">Explanation:</span> {pQ.explanation}</p>
                         <p className="text-amber-300 font-semibold">🔍 Verify in Labs: {pQ.verifyInstruction}</p>
                       </motion.div>
                     )}
@@ -1663,7 +1663,7 @@ function C9_EVSForestEcosystemsTropicalSim({
                   </div>
 
                   <div className="space-y-2">
-                    <span className="text-xs uppercase font-mono tracking-wider text-cyan-400 font-bold">Soils & Flagship Fauna</span>
+                    <span className="text-xs uppercase font-mono tracking-wider text-gold-400 font-bold">Soils & Flagship Fauna</span>
                     <p className="text-sm text-slate-200">
                       {selectedBiome === 'tropical' && 'Laterite soils (leached); Lion-tailed Macaque, Hornbills, Jaguar.'}
                       {selectedBiome === 'temperate' && 'Rich brown forest soils; White-tailed Deer, Black Bear, Red Fox.'}
@@ -1845,7 +1845,7 @@ function C9_EVSForestEcosystemsTropicalSim({
                     </div>
                     <div className="flex justify-between text-xs text-slate-300">
                       <span>Blue Carbon Storage:</span>
-                      <span className="font-bold text-cyan-400 font-mono">{(mangroveCover * 4.5).toFixed(0)} tC/ha</span>
+                      <span className="font-bold text-gold-400 font-mono">{(mangroveCover * 4.5).toFixed(0)} tC/ha</span>
                     </div>
                     <p className="text-xs text-slate-400">
                       {mangroveCover > 60
@@ -2163,7 +2163,7 @@ function C9_EVSForestEcosystemsTropicalSim({
               <div className="flex items-center gap-3">
                 <div className="text-right">
                   <span className="text-xs text-slate-400 block">NEP 2020 Competency</span>
-                  <span className="text-xs font-mono font-bold text-cyan-300 uppercase">
+                  <span className="text-xs font-mono font-bold text-gold-300 uppercase">
                     {challenge.competencyLevel}
                   </span>
                 </div>
@@ -2176,7 +2176,7 @@ function C9_EVSForestEcosystemsTropicalSim({
                       ? 'bg-emerald-950 text-emerald-300 border border-emerald-500'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-300 border border-rose-500'
-                      : 'bg-indigo-950 text-indigo-300 border border-indigo-500'
+                      : 'bg-gold-950 text-gold-300 border border-gold-500'
                   }`}
                 >
                   {difficulty}
@@ -2187,12 +2187,12 @@ function C9_EVSForestEcosystemsTropicalSim({
             {/* Progress Bar */}
             <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
 
-            <div className="text-xs text-indigo-300 mt-1">
+            <div className="text-xs text-gold-300 mt-1">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -2508,7 +2508,7 @@ function C9_EVSForestEcosystemsTropicalSim({
             exit={{ opacity: 0 }}
             className="space-y-6"
           >
-            <div className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-600/40 text-center space-y-4 shadow-2xl">
+            <div className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-600/40 text-center space-y-4 shadow-2xl">
               <span className="text-4xl" role="img" aria-label="Trophy">🏆</span>
               <h2 className="text-2xl sm:text-3xl font-black text-white">Ecosystem Master Certification</h2>
               <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2524,7 +2524,7 @@ function C9_EVSForestEcosystemsTropicalSim({
                 </div>
                 <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[140px]">
                   <span className="text-xs text-slate-400 block mb-1">BKT Mastery Level</span>
-                  <span className="text-2xl font-black text-cyan-400 font-mono capitalize">
+                  <span className="text-2xl font-black text-gold-400 font-mono capitalize">
                     {masteryLevel}
                   </span>
                 </div>
@@ -2602,8 +2602,8 @@ function C9_EVSForestEcosystemsTropicalSim({
             </div>
 
             {/* Capstone Real-World Charter */}
-            <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

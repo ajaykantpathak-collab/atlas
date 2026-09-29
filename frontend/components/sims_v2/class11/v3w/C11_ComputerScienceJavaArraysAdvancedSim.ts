@@ -11,7 +11,7 @@ export const w_c11_computersciencejavaarraysadvancedsim: SimDef = {
     classLevel: 11, subject: 'computer_science', topic: 'Peek and isEmpty Operations on Stack',
     chapters: [],
     nodeIds: ['c11_cs_cbse_10_006', 'c11_cs_cbse_10_013'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re building a "Undo" feature for a text editor. Every keystroke is pushed onto a stack.', goal: 'Master Peek and isEmpty Operations on Stack.' },
     discovery: {
         question: 'What is the exact output of the following Python snippet? ```python stack = [] stack.append(10) stack.append(20) print(stack[-1]) stack.pop() print(stack[-1].',
@@ -20,7 +20,7 @@ export const w_c11_computersciencejavaarraysadvancedsim: SimDef = {
         hook: 'Students believe `peek()` and `pop()` are interchangeable because both "access the top".',
     },
     teaching: [
-        { title: '**Peek** (or **top**) is a stack operation.', text: '**Peek** (or **top**) is a stack operation that returns the value of the topmost element without removing it from the stack.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: '**Peek** (or **top**) is a stack operation.', text: '**Peek** (or **top**) is a stack operation that returns the value of the topmost element without removing it from the stack.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_cs_cbse_10_006', title: '**Peek** (or **top**) is a stack.',

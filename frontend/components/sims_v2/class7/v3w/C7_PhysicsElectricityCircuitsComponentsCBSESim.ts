@@ -11,7 +11,7 @@ export const w_c7_physicselectricitycircuitscomponentscbsesim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Torchlight: A Simple Electric Device',
     chapters: [],
     nodeIds: ['c7_physics_ch02_002', 'c7_physics_ch02_005', 'c7_physics_ch02_006', 'c7_physics_ch02_008', 'c7_physics_ch02_011', 'c7_physics_ch02_001', 'c7_physics_ch02_003', 'c7_physics_ch02_004', 'c7_physics_ch02_007', 'c7_physics_ch02_009', 'c7_physics_ch02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you slide the switch of a household torchlight in your room during a power cut, the bulb instantly.', goal: 'Master Torchlight: A Simple Electric Device.' },
     discovery: {
         question: 'What is the primary energy conversion that takes place inside the electric cell of a working torchlight before electricity reaches the lamp?',
@@ -20,7 +20,7 @@ export const w_c7_physicselectricitycircuitscomponentscbsesim: SimDef = {
         hook: 'Students often believe that a torchlight bulb lights up because electricity is "consumed" or "used up" inside the bulb.',
     },
     teaching: [
-        { title: 'A torchlight is a portable handheld lighting.', text: 'A torchlight is a portable handheld lighting device that uses an electric cell, a switch, and a small electric lamp housed in a casing to convert chemical energy into electrical energy and then into.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A torchlight is a portable handheld lighting.', text: 'A torchlight is a portable handheld lighting device that uses an electric cell, a switch, and a small electric lamp housed in a casing to convert chemical energy into electrical energy and then into.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch02_002', title: 'A torchlight is a portable handheld.',

@@ -11,7 +11,7 @@ export const w_c11_geographynaturalhazardssim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Natural Hazards vs Natural Disasters: Distinction and Classification',
     chapters: [],
     nodeIds: ['c11_geo_cbse_11_001', 'c11_geo_cbse_11_008', 'c11_geo_cbse_03_009', 'c11_geo_cbse_06_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin with a real-world observation: show two photographs — one of the 2001 Bhuj earthquake devastation.', goal: 'Master Natural Hazards vs Natural Disasters: Distinction and Classification.' },
     discovery: {
         question: 'The 2004 Indian Ocean tsunami was triggered by a megathrust earthquake off Sumatra.',
@@ -20,7 +20,7 @@ export const w_c11_geographynaturalhazardssim: SimDef = {
         hook: 'Students often believe that "natural disaster" is a synonym for "large natural hazard" (e.g., "a big earthquake is a.',
     },
     teaching: [
-        { title: 'A natural hazard is a natural process or.', text: 'A natural hazard is a natural process or phenomenon (e.g., earthquake, flood, cyclone) that *poses a threat* to life, property, or the environment; a natural disaster is the *realized impact* of that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A natural hazard is a natural process or.', text: 'A natural hazard is a natural process or phenomenon (e.g., earthquake, flood, cyclone) that *poses a threat* to life, property, or the environment; a natural disaster is the *realized impact* of that.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_11_001', title: 'A natural hazard is a natural process.',

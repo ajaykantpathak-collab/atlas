@@ -863,7 +863,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
     const totalScore = (mensReaScore * 0.5) + (actusReusScore * 0.5);
     if (mensReaScore < 20 && actusReusScore < 20) return { status: 'No Crime', color: 'text-emerald-400', barColor: 'bg-emerald-500', desc: 'No guilty mind and no prohibited conduct.' };
     if (mensReaScore > 40 && actusReusScore < 15) return { status: 'Mere Intention / Thought', color: 'text-amber-400', barColor: 'bg-amber-500', desc: 'Thoughts alone are not punishable under the IPC (actus non facit reum nisi mens sit rea).' };
-    if (mensReaScore < 15 && actusReusScore > 50) return { status: 'Accident / Involuntary Act', color: 'text-blue-400', barColor: 'bg-blue-500', desc: 'Actus Reus without Mens Rea generally lacks criminal culpability (unless strict liability applies).' };
+    if (mensReaScore < 15 && actusReusScore > 50) return { status: 'Accident / Involuntary Act', color: 'text-gold-400', barColor: 'bg-gold-500', desc: 'Actus Reus without Mens Rea generally lacks criminal culpability (unless strict liability applies).' };
     if (totalScore >= 75) return { status: 'Full Criminal Culpability', color: 'text-rose-400', barColor: 'bg-rose-500', desc: 'Concurrence of blameworthy Mens Rea and prohibited Actus Reus establishes complete criminal liability.' };
     return { status: 'Inchoate / Negligent Boundary', color: 'text-yellow-400', barColor: 'bg-yellow-500', desc: 'Partial concurrence: may attract attempt under Section 511 or negligence under Section 304A.' };
   }, [mensReaScore, actusReusScore]);
@@ -901,8 +901,8 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
       return {
         badge: 'Great work!',
         text: '🌟 Great work! Your statutory analysis and case-law application reflect strong judicial competence.',
-        color: 'text-blue-300',
-        bg: 'bg-blue-950/50 border-blue-500',
+        color: 'text-gold-300',
+        bg: 'bg-gold-950/50 border-gold-500',
       };
     }
     if (errors >= 4 && errors <= 7) {
@@ -1279,7 +1279,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/70 border-blue-500 text-blue-300'
+                ? 'bg-gold-950/70 border-gold-500 text-gold-300'
                 : 'bg-rose-950/70 border-rose-500 text-rose-300'
             }`}
           >
@@ -1379,9 +1379,9 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
           animate={{ opacity: 1, y: 0 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-5 bg-gradient-to-r from-indigo-950/60 via-slate-800 to-slate-900 rounded-2xl border border-indigo-500/40">
+          <div className="p-5 bg-gradient-to-r from-gold-950/60 via-slate-800 to-slate-900 rounded-2xl border border-gold-500/40">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 🔮 Step 1: Predict Before You Interact ({predIndex + 1} of {PREDICTION_QUESTIONS.length})
               </span>
               <span className="text-xs text-slate-400 font-mono">Brilliant Predict-Then-Check Pattern</span>
@@ -1411,7 +1411,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
                         : 'bg-slate-850 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     {opt}
                   </motion.button>
                 );
@@ -1422,15 +1422,15 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
               <motion.div
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 bg-indigo-950/40 border border-indigo-500/50 rounded-xl space-y-2.5"
+                className="mt-4 p-4 bg-gold-950/40 border border-gold-500/50 rounded-xl space-y-2.5"
               >
-                <div className="text-xs font-bold text-indigo-300 flex items-center gap-1.5">
+                <div className="text-xs font-bold text-gold-300 flex items-center gap-1.5">
                   <span>🧠 Legal Hypothesis Assessment:</span>
                 </div>
                 <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
                   {PREDICTION_QUESTIONS[predIndex].predictionExplanation}
                 </p>
-                <div className="p-2.5 bg-indigo-900/40 rounded-lg border border-indigo-500/30 text-xs text-amber-300 font-medium flex items-center gap-2">
+                <div className="p-2.5 bg-gold-900/40 rounded-lg border border-gold-500/30 text-xs text-amber-300 font-medium flex items-center gap-2">
                   <span>🔍 Verification Mission:</span>
                   <span>{PREDICTION_QUESTIONS[predIndex].verifyInstruction}</span>
                 </div>
@@ -1440,7 +1440,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={handleNextPrediction}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-500 to-indigo-600 text-white font-bold rounded-xl text-sm shadow-md shadow-indigo-500/20"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl text-sm shadow-md shadow-gold-500/20"
                   >
                     {predIndex + 1 < PREDICTION_QUESTIONS.length
                       ? 'Next Prediction Question →'
@@ -1557,7 +1557,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
                     {/* Actus Reus Slider */}
                     <div className="p-3.5 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs font-bold">
-                        <span className="text-blue-400">⚡ Actus Reus (Guilty Conduct)</span>
+                        <span className="text-gold-400">⚡ Actus Reus (Guilty Conduct)</span>
                         <span className="text-white">{actusReusScore}%</span>
                       </div>
                       <input
@@ -1567,7 +1567,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
                         value={actusReusScore}
                         onChange={(e) => handleActusReusChange(Number(e.target.value))}
                         aria-label="Set Actus Reus Score"
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <p className="text-[11px] text-slate-400">
                         {actusReusScore < 20 ? 'No physical act or prohibited omission' : actusReusScore < 60 ? 'Overt preparation / Attempt' : 'Completed prohibited physical act'}
@@ -1950,7 +1950,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToObserve}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Go to "What Do You Notice?" Observation Check →
               </motion.button>
@@ -2192,7 +2192,7 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                   : difficulty === 'standard'
-                  ? 'bg-blue-950/70 border-blue-500 text-blue-300'
+                  ? 'bg-gold-950/70 border-gold-500 text-gold-300'
                   : 'bg-rose-950/70 border-rose-500 text-rose-300'
               }`}
             >
@@ -2550,11 +2550,11 @@ export default function C12_LegalStudiesStagesElementsCrimeSim({
 
               <div className={`p-3 rounded-xl border text-center transition-all ${
                 errors >= 1 && errors <= 3
-                  ? 'bg-blue-950/80 border-blue-500 ring-2 ring-blue-500/40'
+                  ? 'bg-gold-950/80 border-gold-500 ring-2 ring-gold-500/40'
                   : 'bg-slate-900/60 border-slate-800 opacity-60'
               }`}>
                 <div className="text-xs text-slate-400 font-medium">1–3 Errors (Developing)</div>
-                <div className="text-base font-bold text-blue-300 mt-1">review in 3 days</div>
+                <div className="text-base font-bold text-gold-300 mt-1">review in 3 days</div>
                 <div className="text-[10px] text-slate-500 mt-1">Medium recall interval</div>
               </div>
 

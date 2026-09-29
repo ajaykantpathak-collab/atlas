@@ -1168,12 +1168,12 @@ export default function C11_SociologyRoleRoleConflictSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">ISC Class 11 • Social Structure, Dynamics & Indian Thinkers</p>
+            <p className="text-xs text-gold-300 font-medium">ISC Class 11 • Social Structure, Dynamics & Indian Thinkers</p>
           </div>
         </div>
 
@@ -1184,7 +1184,7 @@ export default function C11_SociologyRoleRoleConflictSim({
             animate={{ scale: 1 }}
             className={`px-3 py-1 text-xs font-bold rounded-full uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40' :
-              difficulty === 'standard' ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40' :
+              difficulty === 'standard' ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40' :
               'bg-rose-500/20 text-rose-300 border border-rose-500/40'
             }`}
           >
@@ -1204,10 +1204,10 @@ export default function C11_SociologyRoleRoleConflictSim({
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
         >
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-xs font-black uppercase tracking-widest bg-indigo-600/30 text-indigo-300 px-2 py-0.5 rounded border border-indigo-500/40">Field Dossier</span>
-              <h2 className="text-lg font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <span className="text-xs font-black uppercase tracking-widest bg-gold-600/30 text-gold-300 px-2 py-0.5 rounded border border-gold-500/40">Field Dossier</span>
+              <h2 className="text-lg font-bold text-gold-200">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 italic bg-slate-950/40 p-3 rounded-lg border border-slate-800">
@@ -1232,10 +1232,10 @@ export default function C11_SociologyRoleRoleConflictSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-medium'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-900/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-indigo-500/50'
+                      : 'bg-slate-900/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
-                  <span className="inline-block w-6 text-indigo-400 font-mono font-bold">[{String.fromCharCode(65 + i)}]</span> {opt}
+                  <span className="inline-block w-6 text-gold-400 font-mono font-bold">[{String.fromCharCode(65 + i)}]</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1253,7 +1253,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Enter Interactive Investigation Labs</span>
                   <span>→</span>
@@ -1274,7 +1274,7 @@ export default function C11_SociologyRoleRoleConflictSim({
           {/* Diagnostic status bar */}
           <div className="flex items-center justify-between bg-slate-800/40 px-4 py-2 rounded-xl border border-slate-800 text-xs">
             <span className="text-slate-400">Interactive Discovery Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
-            <span className="text-indigo-400 font-mono font-semibold">ISC Syllabus Spiral Model</span>
+            <span className="text-gold-400 font-mono font-semibold">ISC Syllabus Spiral Model</span>
           </div>
 
           <AnimatePresence mode="wait">
@@ -1285,7 +1285,7 @@ export default function C11_SociologyRoleRoleConflictSim({
               exit={{ opacity: 0, x: -25 }}
               className="p-5 sm:p-6 bg-slate-800/70 rounded-2xl border border-slate-700 shadow-xl"
             >
-              <h2 className="text-xl font-black text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
+              <h2 className="text-xl font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
               <p className="text-amber-300 text-xs sm:text-sm mt-1 mb-5 font-medium flex items-center gap-1.5">
                 <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
               </p>
@@ -1325,7 +1325,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                     </svg>
 
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 text-xs mt-2">
-                      <span className="font-bold text-indigo-300 capitalize">{selectedRoleRel} Role Expectation: </span>
+                      <span className="font-bold text-gold-300 capitalize">{selectedRoleRel} Role Expectation: </span>
                       <span className="text-slate-300">
                         {selectedRoleRel === 'patient' && 'Deliver compassionate bedside care, diagnosis, and medical relief.'}
                         {selectedRoleRel === 'nurse' && 'Provide professional clinical coordination, respectful teamwork, and treatment orders.'}
@@ -1338,7 +1338,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   {/* Cooley's Looking Glass Self Interactive Steps */}
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
-                      <span className="text-xs text-indigo-300 font-bold block mb-2">C.H. Cooley’s 3-Step Looking Glass Self (1902)</span>
+                      <span className="text-xs text-gold-300 font-bold block mb-2">C.H. Cooley’s 3-Step Looking Glass Self (1902)</span>
                       <div className="flex gap-2 mb-3">
                         {[1, 2, 3].map((step) => (
                           <motion.button
@@ -1347,7 +1347,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                             onClick={() => { setLookingGlassStep(step); audioManager.play('tap'); }}
                             className={`flex-1 py-1.5 rounded-lg text-xs font-bold transition-all ${
                               lookingGlassStep === step
-                                ? 'bg-indigo-600 text-white shadow'
+                                ? 'bg-gold-600 text-white shadow'
                                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                             }`}
                           >
@@ -1367,7 +1367,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                         )}
                         {lookingGlassStep === 2 && (
                           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                            <span className="text-cyan-400 font-bold text-xs">Step 2: Imagined Judgement</span>
+                            <span className="text-gold-400 font-bold text-xs">Step 2: Imagined Judgement</span>
                             <p className="text-xs text-slate-300 mt-1">
                               The individual imagines what evaluation or judgement the other person makes (e.g., capable, uneducated, clumsy, or elite).
                             </p>
@@ -1396,7 +1396,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block mb-1">
-                        Resource Scarcity Pressure: <span className="text-indigo-400 font-mono font-bold">{resourceScarcity}%</span>
+                        Resource Scarcity Pressure: <span className="text-gold-400 font-mono font-bold">{resourceScarcity}%</span>
                       </label>
                       <input 
                         type="range" 
@@ -1405,7 +1405,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                         value={resourceScarcity}
                         aria-label="Resource Scarcity Slider"
                         onChange={(e) => { setResourceScarcity(Number(e.target.value)); audioManager.play('count'); }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -1457,7 +1457,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block mb-1">
-                        Female Literacy Rate (Intervention): <span className="text-cyan-400 font-mono font-bold">{femaleLiteracyRate}%</span>
+                        Female Literacy Rate (Intervention): <span className="text-gold-400 font-mono font-bold">{femaleLiteracyRate}%</span>
                       </label>
                       <input 
                         type="range" 
@@ -1466,12 +1466,12 @@ export default function C11_SociologyRoleRoleConflictSim({
                         value={femaleLiteracyRate}
                         aria-label="Female Literacy Slider"
                         onChange={(e) => { setFemaleLiteracyRate(Number(e.target.value)); audioManager.play('count'); }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block mb-1">
-                        RTE & Mid-Day Meal Enforcement: <span className="text-indigo-400 font-mono font-bold">{rteEnforcementLevel}%</span>
+                        RTE & Mid-Day Meal Enforcement: <span className="text-gold-400 font-mono font-bold">{rteEnforcementLevel}%</span>
                       </label>
                       <input 
                         type="range" 
@@ -1480,7 +1480,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                         value={rteEnforcementLevel}
                         aria-label="RTE Enforcement Slider"
                         onChange={(e) => { setRteEnforcementLevel(Number(e.target.value)); audioManager.play('count'); }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1498,13 +1498,13 @@ export default function C11_SociologyRoleRoleConflictSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <span className="text-[10px] text-slate-400 block">Household Poverty Index</span>
-                      <span className="text-lg font-bold text-indigo-300">
+                      <span className="text-lg font-bold text-gold-300">
                         {Math.max(12, 60 - femaleLiteracyRate * 0.45).toFixed(1)}%
                       </span>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <span className="text-[10px] text-slate-400 block">Youth Employability</span>
-                      <span className="text-lg font-bold text-cyan-300">
+                      <span className="text-lg font-bold text-gold-300">
                         {Math.min(92, femaleLiteracyRate * 0.9 + 10).toFixed(0)}%
                       </span>
                     </div>
@@ -1542,7 +1542,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   <canvas ref={canvasRef} width={600} height={140} className="w-full rounded-xl border border-slate-800" />
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <strong className="text-indigo-300">Mukherjee’s Law of Symbiosis: </strong>
+                    <strong className="text-gold-300">Mukherjee’s Law of Symbiosis: </strong>
                     {habitatDegradation < 40 
                       ? 'The moral order (sacred groves, clan land tenure, pastoral rituals) is in harmonious symbiosis with the biotic community.' 
                       : 'Severe ecological rupture! Deforestation and displacement cause kinship fragmentation, economic pauperisation, and moral disorientation.'}
@@ -1570,7 +1570,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                     </div>
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block mb-1">
-                        Cultural Emulation Intensity: <span className="text-indigo-400 font-mono font-bold">{emulationIntensity}%</span>
+                        Cultural Emulation Intensity: <span className="text-gold-400 font-mono font-bold">{emulationIntensity}%</span>
                       </label>
                       <input 
                         type="range" 
@@ -1579,7 +1579,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                         value={emulationIntensity}
                         aria-label="Cultural Emulation Slider"
                         onChange={(e) => { setEmulationIntensity(Number(e.target.value)); audioManager.play('count'); }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1587,13 +1587,13 @@ export default function C11_SociologyRoleRoleConflictSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <div className="flex items-center justify-between text-xs mb-2">
                       <span className="font-bold text-slate-300">Caste Status Trajectory</span>
-                      <span className="font-mono text-indigo-400">
+                      <span className="font-mono text-gold-400">
                         {casteEconomicMobility > 50 && emulationIntensity > 50 ? 'Successful Sanskritization Claim' : 'Latent / Contested Status'}
                       </span>
                     </div>
                     <div className="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
                       <motion.div 
-                        className="bg-gradient-to-r from-amber-500 via-indigo-500 to-emerald-500 h-full rounded-full"
+                        className="bg-gradient-to-r from-amber-500 via-gold-500 to-emerald-500 h-full rounded-full"
                         animate={{ width: `${Math.min(100, (casteEconomicMobility + emulationIntensity) / 2)}%` }}
                       />
                     </div>
@@ -1629,7 +1629,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => { setCurrentSlide(s => s + 1); audioManager.play('whoosh'); }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1657,7 +1657,7 @@ export default function C11_SociologyRoleRoleConflictSim({
           <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 shadow-xl">
             <div className="flex items-center justify-between mb-3">
               <div>
-                <h2 className="text-lg font-bold text-indigo-300">Sociological Free Sandbox Laboratory</h2>
+                <h2 className="text-lg font-bold text-gold-300">Sociological Free Sandbox Laboratory</h2>
                 <p className="text-xs text-slate-400">Manipulate all independent variables freely without scoring or time constraints.</p>
               </div>
               <motion.button
@@ -1675,14 +1675,14 @@ export default function C11_SociologyRoleRoleConflictSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
               {/* Kinship Region Selector */}
               <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                <span className="text-xs font-bold text-indigo-400 block mb-2">Irawati Karve Kinship Zone</span>
+                <span className="text-xs font-bold text-gold-400 block mb-2">Irawati Karve Kinship Zone</span>
                 <div className="grid grid-cols-2 gap-1.5 text-xs">
                   {(['north', 'south', 'east', 'central'] as const).map(zone => (
                     <button
                       key={zone}
                       onClick={() => { setSelectedKinshipZone(zone); audioManager.play('tap'); }}
                       className={`p-1.5 rounded uppercase font-mono font-bold text-[10px] transition-all ${
-                        selectedKinshipZone === zone ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                        selectedKinshipZone === zone ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                       }`}
                     >
                       {zone} Zone
@@ -1728,7 +1728,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   className="w-full accent-amber-500 cursor-pointer mb-2"
                 />
                 <span className="text-[11px] text-slate-300 block">
-                  Mode: <strong className="text-indigo-300">{derivedSocialProcess.name}</strong>
+                  Mode: <strong className="text-gold-300">{derivedSocialProcess.name}</strong>
                 </span>
                 <span className="text-[10px] text-slate-500">Cooperation vs Competition vs Conflict</span>
               </div>
@@ -1756,14 +1756,14 @@ export default function C11_SociologyRoleRoleConflictSim({
             <div className="flex-1 max-w-xs mx-3">
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div 
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-700/50">
+              <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-700/50">
                 NEP 2020: {activeChallenge.competencyLevel.toUpperCase()}
               </span>
               <span className="text-xs font-mono text-slate-400">
@@ -1783,7 +1783,7 @@ export default function C11_SociologyRoleRoleConflictSim({
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="text-xs font-mono text-indigo-400">Node Ref: {activeChallenge.nodeId}</span>
+              <span className="text-xs font-mono text-gold-400">Node Ref: {activeChallenge.nodeId}</span>
               <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">{activeChallenge.type}</span>
             </div>
 
@@ -1805,10 +1805,10 @@ export default function C11_SociologyRoleRoleConflictSim({
                     className={`w-full text-left p-3.5 rounded-xl text-sm transition-all border ${
                       showExplanation && i === activeChallenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
-                        : 'bg-slate-900/90 hover:bg-slate-900 border-slate-700/80 text-slate-200 hover:border-indigo-500/50'
+                        : 'bg-slate-900/90 hover:bg-slate-900 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="inline-block w-6 font-mono font-bold text-indigo-400">[{String.fromCharCode(65 + i)}]</span> {opt}
+                    <span className="inline-block w-6 font-mono font-bold text-gold-400">[{String.fromCharCode(65 + i)}]</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1826,7 +1826,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3.5 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1858,7 +1858,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 3}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Labels →
                 </motion.button>
@@ -1886,7 +1886,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-900 rounded-xl border border-slate-700 text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3 shadow-sm"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700 flex items-center justify-center font-bold text-xs">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-300 border border-gold-700 flex items-center justify-center font-bold text-xs">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -1901,7 +1901,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -1919,7 +1919,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                     aria-label="Numeric answer input"
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="e.g. 14.96"
-                    className="flex-1 px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 outline-none font-mono"
+                    className="flex-1 px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none font-mono"
                   />
                   <span className="text-slate-400 text-sm font-bold">{activeChallenge.unit}</span>
                   <motion.button
@@ -1927,7 +1927,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit →
                   </motion.button>
@@ -1948,7 +1948,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                       onClick={() => handleConstructToggle(part)}
                       className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
                         constructParts.includes(part)
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow'
                           : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
@@ -1969,7 +1969,7 @@ export default function C11_SociologyRoleRoleConflictSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' + '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Constructed Policy →
                 </motion.button>
@@ -2049,12 +2049,12 @@ export default function C11_SociologyRoleRoleConflictSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 w-32">
                 <span className="text-xs text-slate-400 block">BKT Mastery</span>
-                <span className="text-2xl font-black text-indigo-400 uppercase">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</span>
               </div>
             </div>
 
             {/* Motivational Feedback */}
-            <div className="p-4 bg-indigo-950/40 border border-indigo-700/60 rounded-xl text-xs sm:text-sm text-indigo-200 leading-relaxed max-w-2xl mx-auto">
+            <div className="p-4 bg-gold-950/40 border border-gold-700/60 rounded-xl text-xs sm:text-sm text-gold-200 leading-relaxed max-w-2xl mx-auto">
               {errors === 0
                 ? '🌟 PERFECT SCORE! You have mastered every theoretical paradigm and empirical problem in the ISC syllabus!'
                 : errors <= 3
@@ -2097,13 +2097,13 @@ export default function C11_SociologyRoleRoleConflictSim({
           </div>
 
           {/* Real World Capstone Activity */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h3 className="text-base font-bold text-indigo-200 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h3 className="text-base font-bold text-gold-200 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 mb-4">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400 font-mono">[{i + 1}]</span>
+                  <span className="font-bold text-gold-400 font-mono">[{i + 1}]</span>
                   <span>{step}</span>
                 </div>
               ))}

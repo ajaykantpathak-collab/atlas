@@ -12,7 +12,7 @@ export const c5Changes: SimDef = {
     id: 'c5_changes', title: 'Change Watch', subtitle: 'Reversible vs irreversible changes!',
     classLevel: 5, subject: 'evs', topic: 'Changes Around Us',
     chapters: ['EVS-5: changes'],
-    emoji: '🔁', theme: { bg: 'from-cyan-100 to-teal-200', accent: 'cyan', scene: 'matter' },
+    emoji: '🔁', theme: { bg: 'from-gold-100 to-teal-200', accent: 'cyan', scene: 'matter' },
     scenario: { role: "a change detective", intro: 'Some changes come back (ice→water→ice) — some never do (paper→ash)!', goal: 'Sort every change.' },
     discovery: {
         question: 'Burning paper — can you get the paper back?',
@@ -21,9 +21,9 @@ export const c5Changes: SimDef = {
         hook: 'Ash is a NEW substance — burning cannot be undone!',
     },
     teaching: [
-        { title: 'Reversible Changes 🔁', text: 'Ice↔water, water↔steam, stretching rubber — these come BACK to the original!', emoji: '🔁', bgColor: 'from-cyan-400 to-teal-500' },
+        { title: 'Reversible Changes 🔁', text: 'Ice↔water, water↔steam, stretching rubber — these come BACK to the original!', emoji: '🔁', bgColor: 'from-gold-400 to-teal-500' },
         { title: 'Irreversible Changes 🔥', text: 'Burning, rusting, cooking an egg — new substances form, and they NEVER go back!', emoji: '🔥', bgColor: 'from-rose-400 to-red-500' },
-        { title: 'Physical vs Chemical ⚗️', text: 'Physical = same substance, new look (tear paper). Chemical = NEW substance (burn paper)!', emoji: '⚗️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Physical vs Chemical ⚗️', text: 'Physical = same substance, new look (tear paper). Chemical = NEW substance (burn paper)!', emoji: '⚗️', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Speed It Up ⏩', text: 'Heat, crushing and stirring make changes faster — that is why sugar melts faster in hot tea!', emoji: '⏩', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: 'match', prompt: 'Sort each change: reversible or irreversible!', labels: ['ice→water', 'reversible', 'wood→ash', 'irreversible', 'water→ice', 'reversible'] },
@@ -68,7 +68,7 @@ export const c5Circulatory: SimDef = {
     teaching: [
         { title: 'Heart = Pump ❤️', text: 'The heart is a fist-sized muscle that squeezes blood to every corner of the body!', emoji: '❤️', bgColor: 'from-red-400 to-rose-500' },
         { title: 'Blood = The Delivery 🚚', text: 'Blood carries oxygen, food and water to cells — and picks up waste on the way back!', emoji: '🚚', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Vessels = Roads 🛣️', text: 'Arteries carry blood AWAY from the heart; veins bring it BACK; capillaries do the swaps!', emoji: '🛣️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Vessels = Roads 🛣️', text: 'Arteries carry blood AWAY from the heart; veins bring it BACK; capillaries do the swaps!', emoji: '🛣️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Lungs Trade Air 🫁', text: 'Blood picks up OXYGEN in the lungs and drops off CO2 — every breath feeds the highway!', emoji: '🫁', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: 'order', prompt: 'Order the blood trip!', labels: ['Lungs add oxygen', 'Heart pumps', 'Arteries carry out', 'Veins bring back'] },
@@ -158,7 +158,7 @@ export const c5CompHistory: SimDef = {
     teaching: [
         { title: 'Abacus = First Computer 🧮', text: 'Beads on rods helped people count ~3000 years ago — the first "computer"!', emoji: '🧮', bgColor: 'from-amber-400 to-yellow-500' },
         { title: 'Vacuum Tube Giants 🏢', text: '1940s computers filled whole rooms with glass tubes — ENIAC weighed 30 tons!', emoji: '🏢', bgColor: 'from-slate-400 to-gray-500' },
-        { title: 'Transistor Shrank It 📻', text: '1950s-60s: transistors replaced tubes — computers became smaller, faster, cheaper!', emoji: '📻', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Transistor Shrank It 📻', text: '1950s-60s: transistors replaced tubes — computers became smaller, faster, cheaper!', emoji: '📻', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Chips & Personal PCs 💻', text: '1970s+: microprocessors put a whole computer on one chip — then PCs, laptops, phones!', emoji: '💻', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: 'order', prompt: 'Order the computer timeline!', labels: ['Abacus', 'Vacuum tube computers', 'Transistor machines', 'Personal computers & phones'] },
@@ -201,8 +201,8 @@ export const c5EnvBody: SimDef = {
         hook: 'Bad water = germs inside us — clean water keeps us alive!',
     },
     teaching: [
-        { title: 'Clean Air = Clean Lungs 🌬️', text: 'Polluted air damages lungs — smog, smoke and dust enter with every breath!', emoji: '🌬️', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Clean Water = Safe Body 💧', text: 'Germs ride in dirty water — boil/filter before drinking to stay safe!', emoji: '💧', bgColor: 'from-cyan-400 to-teal-500' },
+        { title: 'Clean Air = Clean Lungs 🌬️', text: 'Polluted air damages lungs — smog, smoke and dust enter with every breath!', emoji: '🌬️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Clean Water = Safe Body 💧', text: 'Germs ride in dirty water — boil/filter before drinking to stay safe!', emoji: '💧', bgColor: 'from-gold-400 to-teal-500' },
         { title: 'Clean Food 🥗', text: 'Wash fruits, cover food, check dates — food germs cause stomach illness!', emoji: '🥗', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Nature Heals 🌳', text: 'Trees clean air, quiet minds and give oxygen — a green environment is medicine!', emoji: '🌳', bgColor: 'from-emerald-400 to-green-500' },
     ],
@@ -247,7 +247,7 @@ export const c5Health: SimDef = {
     },
     teaching: [
         { title: 'Germs Cause Disease 🦠', text: 'Bacteria, viruses and other germs enter through air, water, food and touch — and make us sick!', emoji: '🦠', bgColor: 'from-lime-400 to-green-500' },
-        { title: 'Immunity = Body Army 🛡️', text: 'White blood cells are soldiers fighting germs — strong immunity = quick recovery!', emoji: '🛡️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Immunity = Body Army 🛡️', text: 'White blood cells are soldiers fighting germs — strong immunity = quick recovery!', emoji: '🛡️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Vaccine = Training 💉', text: 'A vaccine shows the body a harmless version of a germ — so real germs get beaten fast!', emoji: '💉', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Hygiene = The Shield 🧼', text: 'Handwashing, clean food, covered nose when coughing — hygiene blocks germ entry!', emoji: '🧼', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -282,7 +282,7 @@ export const c5InternetLogo: SimDef = {
     id: 'c5_intlogo', title: 'Code & Connect', subtitle: 'Internet tools + Logo commands!',
     classLevel: 5, subject: 'computer', topic: 'Internet & Programming',
     chapters: ['Computer: internet, logo'],
-    emoji: '🐢', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'computer' },
+    emoji: '🐢', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'computer' },
     scenario: { role: "a coder-surfer", intro: 'Surf the web smart and command the Logo turtle — two powers in one!', goal: 'Master web tools AND turtle code.' },
     discovery: {
         question: 'In Logo, REPEAT 4 [FD 50 RT 90] draws a:',
@@ -291,9 +291,9 @@ export const c5InternetLogo: SimDef = {
         hook: '4 sides of 50 steps with 90° turns = square!',
     },
     teaching: [
-        { title: 'Internet Tools 🌐', text: 'Email sends letters instantly, search engines find info, websites host content — use them wisely!', emoji: '🌐', bgColor: 'from-indigo-400 to-blue-500' },
+        { title: 'Internet Tools 🌐', text: 'Email sends letters instantly, search engines find info, websites host content — use them wisely!', emoji: '🌐', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Logo = Turtle Language 🐢', text: 'FORWARD (FD) moves, RIGHT/LEFT (RT/LT) turns — the turtle draws what you command!', emoji: '🐢', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'REPEAT Saves Work 🔁', text: 'REPEAT 4 [FD 50 RT 90] does the same steps 4 times — code smarter, not longer!', emoji: '🔁', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'REPEAT Saves Work 🔁', text: 'REPEAT 4 [FD 50 RT 90] does the same steps 4 times — code smarter, not longer!', emoji: '🔁', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Angles Draw Shapes 📐', text: 'RT 90 makes square corners; RT 120 makes triangles; the angle decides the shape!', emoji: '📐', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: 'match', prompt: 'Match the Logo command!', labels: ['FD 50', 'move forward', 'RT 90', 'turn right', 'REPEAT', 'do again'] },
@@ -327,7 +327,7 @@ export const c5LargeOps: SimDef = {
     id: 'c5_largeops', title: 'Big Number Gym', subtitle: 'Big adds, multiplies and estimates!',
     classLevel: 5, subject: 'maths', topic: 'Large Number Operations',
     chapters: ['Maths-5: large numbers'],
-    emoji: '🏋️', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'math' },
+    emoji: '🏋️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'math' },
     scenario: { role: "a number athlete", intro: 'Lakhs and crores look scary — but place value and estimation tame them!', goal: 'Conquer big calculations.' },
     discovery: {
         question: 'Estimate 497 + 498 ≈ ?',
@@ -336,10 +336,10 @@ export const c5LargeOps: SimDef = {
         hook: 'Round: 500 + 500 = 1000 — estimation checks big answers fast!',
     },
     teaching: [
-        { title: 'Place Value Rules 📊', text: 'Indian system: ones, tens, hundreds, thousand, lakh, crore — each jumps ×10 except lakh→crore ×100!', emoji: '📊', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Place Value Rules 📊', text: 'Indian system: ones, tens, hundreds, thousand, lakh, crore — each jumps ×10 except lakh→crore ×100!', emoji: '📊', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Big Addition ➕', text: 'Line up place values: 45,678 + 23,456 — add column by column, carry carefully!', emoji: '➕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Estimation First 🎯', text: 'Before calculating, ROUND: 497+498 ≈ 500+500 = 1000 — then check the real answer!', emoji: '🎯', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Big Multiplication ✖️', text: 'Break it: 234 × 15 = 234×10 + 234×5 = 2340 + 1170 = 3510 — decompose to win!', emoji: '✖️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Big Multiplication ✖️', text: 'Break it: 234 × 15 = 234×10 + 234×5 = 2340 + 1170 = 3510 — decompose to win!', emoji: '✖️', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'bundles', prompt: 'Build a number in the thousands with bundles!' },
     challenges: [
@@ -372,7 +372,7 @@ export const c5Mixtures: SimDef = {
     id: 'c5_mixtures', title: 'Sort It Out', subtitle: 'Mixtures and how to separate them!',
     classLevel: 5, subject: 'evs', topic: 'Mixtures & Separation',
     chapters: ['EVS-5: mixtures'],
-    emoji: '🧲', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'matter' },
+    emoji: '🧲', theme: { bg: 'from-teal-100 to-gold-200', accent: 'teal', scene: 'matter' },
     scenario: { role: "a separation scientist", intro: 'Sand+salt+iron mixed? No panic — each substance has a trick to separate it!', goal: 'Choose the right separation trick.' },
     discovery: {
         question: 'Iron nails mixed in sand — fastest way to separate?',
@@ -381,10 +381,10 @@ export const c5Mixtures: SimDef = {
         hook: 'Iron is magnetic — a magnet pulls it out of sand!',
     },
     teaching: [
-        { title: 'Mixtures 🥣', text: 'A mixture = two or more substances physically combined — salad, milk+water, sand+salt!', emoji: '🥣', bgColor: 'from-teal-400 to-cyan-500' },
+        { title: 'Mixtures 🥣', text: 'A mixture = two or more substances physically combined — salad, milk+water, sand+salt!', emoji: '🥣', bgColor: 'from-teal-400 to-gold-500' },
         { title: 'Magnet & Handpicking 🧲', text: 'Iron pieces → magnet. Big pieces → handpick. Use the substance\'s property!', emoji: '🧲', bgColor: 'from-slate-400 to-gray-500' },
         { title: 'Sieving & Filtering 🕳️', text: 'A sieve catches big grains; filter paper catches fine solids — holes do the sorting!', emoji: '🕳️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Evaporation & Decanting 🫗', text: 'Salt in water → evaporate water, salt stays. Sand+water → let sand settle, pour water off!', emoji: '🫗', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Evaporation & Decanting 🫗', text: 'Salt in water → evaporate water, salt stays. Sand+water → let sand settle, pour water off!', emoji: '🫗', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'match', prompt: 'Match mixture to separation method!', labels: ['iron+sand', 'magnet', 'salt+water', 'evaporation', 'rice+stones', 'handpicking'] },
     challenges: [
@@ -427,9 +427,9 @@ export const c5PptScratch: SimDef = {
     },
     teaching: [
         { title: 'Scratch = Block Coding 🧩', text: 'Drag coloured blocks instead of typing — motion, looks, events, control!', emoji: '🧩', bgColor: 'from-orange-400 to-amber-500' },
-        { title: 'Sprites & Stage 🎭', text: 'The cat is a SPRITE — actors that move on the STAGE. Add more sprites for action!', emoji: '🎭', bgColor: 'from-purple-400 to-violet-500' },
+        { title: 'Sprites & Stage 🎭', text: 'The cat is a SPRITE — actors that move on the STAGE. Add more sprites for action!', emoji: '🎭', bgColor: 'from-purple-400 to-gold-500' },
         { title: 'Events Start It ⚡', text: '"When green flag clicked" starts the script — blocks below it run in order!', emoji: '⚡', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'PPT Magic 📊', text: 'PowerPoint: slides, transitions, animations — transitions = how slides change!', emoji: '📊', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'PPT Magic 📊', text: 'PowerPoint: slides, transitions, animations — transitions = how slides change!', emoji: '📊', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'match', prompt: 'Match the Scratch block family!', labels: ['move 10 steps', 'motion', 'when flag clicked', 'events', 'say hello', 'looks'] },
     challenges: [
@@ -472,7 +472,7 @@ export const c5Machines: SimDef = {
     },
     teaching: [
         { title: 'Lever = Bar + Pivot ⚖️', text: 'A lever pivots on a fulcrum — longer arm = less effort! Seesaw, crowbar, scissors!', emoji: '⚖️', bgColor: 'from-gray-400 to-slate-500' },
-        { title: 'Pulley = Wheel + Rope 🪢', text: 'A pulley changes direction — pull DOWN, load goes UP! Flag poles, wells!', emoji: '🪢', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Pulley = Wheel + Rope 🪢', text: 'A pulley changes direction — pull DOWN, load goes UP! Flag poles, wells!', emoji: '🪢', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Wheel & Inclined Plane 🛞', text: 'Wheels roll instead of drag; a ramp (inclined plane) lets you push up slowly!', emoji: '🛞', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Machines Multiply Force 💪', text: 'Simple machines do not remove work — they spread it or redirect it to make it easier!', emoji: '💪', bgColor: 'from-emerald-400 to-teal-500' },
     ],
@@ -517,7 +517,7 @@ export const c5Skeletal: SimDef = {
     },
     teaching: [
         { title: 'Skeleton = Frame 🦴', text: 'Bones give the body its shape — like the frame of a house. 206 in adults!', emoji: '🦴', bgColor: 'from-stone-400 to-amber-500' },
-        { title: 'Joints = Bend Points 🦵', text: 'Where bones meet, joints allow bending — hinge (knee), ball-socket (shoulder), pivot (neck)!', emoji: '🦵', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Joints = Bend Points 🦵', text: 'Where bones meet, joints allow bending — hinge (knee), ball-socket (shoulder), pivot (neck)!', emoji: '🦵', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Muscles Pull 💪', text: 'Muscles attach to bones and PULL them — bones never move themselves!', emoji: '💪', bgColor: 'from-rose-400 to-red-500' },
         { title: 'Bones Protect 🛡️', text: 'Skull guards the brain, ribs guard heart/lungs, spine guards the cord — armor inside!', emoji: '🛡️', bgColor: 'from-emerald-400 to-teal-500' },
     ],
@@ -552,7 +552,7 @@ export const c5Software: SimDef = {
     id: 'c5_software', title: 'Soft Sort', subtitle: 'System vs application software!',
     classLevel: 5, subject: 'computer', topic: 'Software Types',
     chapters: ['Computer: software types'],
-    emoji: '💿', theme: { bg: 'from-indigo-100 to-purple-200', accent: 'indigo', scene: 'computer' },
+    emoji: '💿', theme: { bg: 'from-gold-100 to-purple-200', accent: 'indigo', scene: 'computer' },
     scenario: { role: "a software sorter", intro: 'Software comes in types — OS runs the machine, apps do YOUR tasks!', goal: 'Sort every software correctly.' },
     discovery: {
         question: 'Windows is an example of:',
@@ -561,7 +561,7 @@ export const c5Software: SimDef = {
         hook: 'Windows/Android/Linux = Operating Systems — they RUN the computer!',
     },
     teaching: [
-        { title: 'System Software 🖥️', text: 'The OS (Windows, Android, Linux) manages the computer — it boots, manages memory, runs apps!', emoji: '🖥️', bgColor: 'from-indigo-400 to-purple-500' },
+        { title: 'System Software 🖥️', text: 'The OS (Windows, Android, Linux) manages the computer — it boots, manages memory, runs apps!', emoji: '🖥️', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Application Software 📱', text: 'Apps do YOUR jobs — MS Word for writing, games for fun, browsers for web!', emoji: '📱', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Hardware vs Software 🔧', text: 'Hardware = touch it (keyboard, CPU). Software = programs you cannot touch!', emoji: '🔧', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'OS = The Manager 👔', text: 'Without an OS, a computer is dead metal — the OS wakes it and lets apps run!', emoji: '👔', bgColor: 'from-rose-400 to-pink-500' },
@@ -597,7 +597,7 @@ export const c5States: SimDef = {
     id: 'c5_states', title: 'Matter Lab', subtitle: 'Particles and state changes!',
     classLevel: 5, subject: 'evs', topic: 'States of Matter (deep)',
     chapters: ['EVS-5: matter particles'],
-    emoji: '⚛️', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'matter' },
+    emoji: '⚛️', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'matter' },
     scenario: { role: "a particle scientist", intro: 'Everything is made of tiny particles — how tightly they pack decides solid, liquid or gas!', goal: 'Explain states via particles.' },
     discovery: {
         question: 'In a solid, particles are:',
@@ -606,9 +606,9 @@ export const c5States: SimDef = {
         hook: 'Solid particles hold hands tight — they only vibrate in place!',
     },
     teaching: [
-        { title: 'Particles Everywhere ⚛️', text: 'All matter = tiny particles. Their arrangement decides the state — tight= solid, loose= liquid, free= gas!', emoji: '⚛️', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Solid Particles 🧊', text: 'Packed tight, vibrate in place — solids keep shape because particles cannot wander!', emoji: '🧊', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Liquid & Gas 💧', text: 'Liquid particles slide past each other (flow!). Gas particles fly free (fill space!).', emoji: '💧', bgColor: 'from-cyan-400 to-teal-500' },
+        { title: 'Particles Everywhere ⚛️', text: 'All matter = tiny particles. Their arrangement decides the state — tight= solid, loose= liquid, free= gas!', emoji: '⚛️', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Solid Particles 🧊', text: 'Packed tight, vibrate in place — solids keep shape because particles cannot wander!', emoji: '🧊', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Liquid & Gas 💧', text: 'Liquid particles slide past each other (flow!). Gas particles fly free (fill space!).', emoji: '💧', bgColor: 'from-gold-400 to-teal-500' },
         { title: 'Heating Adds Energy 🔥', text: 'Heat makes particles move faster — enough energy and they break free (melt, boil)!', emoji: '🔥', bgColor: 'from-rose-400 to-red-500' },
     ],
     explore: { lab: 'gas', prompt: 'Heat the particles and watch them escape — liquid to gas!' },
@@ -642,7 +642,7 @@ export const c5Weather: SimDef = {
     id: 'c5_weather', title: 'Storm & Shelter', subtitle: 'Weather types and building styles!',
     classLevel: 5, subject: 'evs', topic: 'Weather and Buildings',
     chapters: ['EVS-5: weather, shelters'],
-    emoji: '🌦️', theme: { bg: 'from-sky-100 to-cyan-200', accent: 'sky', scene: 'weather' },
+    emoji: '🌦️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'weather' },
     scenario: { role: "a climate architect", intro: 'Snow places get sloped roofs, rain places get raised floors — weather designs buildings!', goal: 'Match climate to house design.' },
     discovery: {
         question: 'Why do houses in snowy areas have sloping roofs?',
@@ -651,8 +651,8 @@ export const c5Weather: SimDef = {
         hook: 'Flat roofs hold heavy snow and crack — slopes shed it!',
     },
     teaching: [
-        { title: 'Weather vs Climate 🌡️', text: 'Weather = today\'s sky (changes hourly). Climate = the usual pattern over many years!', emoji: '🌡️', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Snow Zones ❄️', text: 'Heavy snow → steep sloping roofs, thick walls, small windows — warmth in, snow off!', emoji: '❄️', bgColor: 'from-blue-300 to-indigo-400' },
+        { title: 'Weather vs Climate 🌡️', text: 'Weather = today\'s sky (changes hourly). Climate = the usual pattern over many years!', emoji: '🌡️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Snow Zones ❄️', text: 'Heavy snow → steep sloping roofs, thick walls, small windows — warmth in, snow off!', emoji: '❄️', bgColor: 'from-gold-300 to-gold-400' },
         { title: 'Rain Zones 🌧️', text: 'Heavy rain → sloped roofs + raised stilt floors (Assam!) — water drains, floods stay out!', emoji: '🌧️', bgColor: 'from-teal-400 to-emerald-500' },
         { title: 'Hot & Desert ☀️', text: 'Hot zones → thick mud walls, flat roofs, small windows — keep heat out, cool in!', emoji: '☀️', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -687,7 +687,7 @@ export const c5WordAdv: SimDef = {
     id: 'c5_wordadv', title: 'Doc Pro', subtitle: 'Lists, tables, images & page setup!',
     classLevel: 5, subject: 'computer', topic: 'Advanced Word',
     chapters: ['Computer: advanced word'],
-    emoji: '📑', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'computer' },
+    emoji: '📑', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'computer' },
     scenario: { role: "a document pro", intro: 'Beyond typing: bullets, tables, images, page setup — the pro features of Word!', goal: 'Use every pro feature.' },
     discovery: {
         question: 'To organize marks in rows and columns you use a:',
@@ -696,10 +696,10 @@ export const c5WordAdv: SimDef = {
         hook: 'Tables organize data in rows and columns — perfect for marks/timetables!',
     },
     teaching: [
-        { title: 'Bullet & Numbered Lists 📋', text: 'Bullets for unordered points; numbers for ordered steps — structure makes lists readable!', emoji: '📋', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Bullet & Numbered Lists 📋', text: 'Bullets for unordered points; numbers for ordered steps — structure makes lists readable!', emoji: '📋', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Tables = Data Grid 📊', text: 'Tables hold data in rows and columns — timetables, marks, comparisons!', emoji: '📊', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Insert Pictures 🖼️', text: 'Insert → Pictures adds images; wrap text controls how words flow around them!', emoji: '🖼️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Page Setup 📐', text: 'Margins, orientation (portrait/landscape), page size — set the canvas before printing!', emoji: '📐', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Page Setup 📐', text: 'Margins, orientation (portrait/landscape), page size — set the canvas before printing!', emoji: '📐', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'match', prompt: 'Match the feature to its job!', labels: ['table', 'rows & columns', 'bullets', 'unordered list', 'margins', 'page edges'] },
     challenges: [
@@ -743,7 +743,7 @@ export const c5Work: SimDef = {
     teaching: [
         { title: 'Work = Force × Distance 📏', text: 'Work happens only when a force MOVES something — pushing a wall that does not move = no work!', emoji: '📏', bgColor: 'from-yellow-400 to-amber-500' },
         { title: 'Energy = Ability to Work 🔋', text: 'Energy lets you do work — moving, lifting, heating. More energy = more work possible!', emoji: '🔋', bgColor: 'from-orange-400 to-red-500' },
-        { title: 'Forms of Energy 🌈', text: 'Kinetic (moving), potential (stored), heat, light, sound, electric — energy wears many costumes!', emoji: '🌈', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Forms of Energy 🌈', text: 'Kinetic (moving), potential (stored), heat, light, sound, electric — energy wears many costumes!', emoji: '🌈', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Energy Transforms 🔄', text: 'Energy changes form — battery (chemical) → light, falling ball (potential) → kinetic!', emoji: '🔄', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: 'match', prompt: 'Match each to its energy form!', labels: ['running', 'kinetic', 'battery', 'chemical', 'rock on hill', 'potential'] },

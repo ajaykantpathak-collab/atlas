@@ -11,7 +11,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Comparing Marx, Durkheim and Weber: Three Foundational Perspectives',
     chapters: [],
     nodeIds: ['c11_soc_cbse_09_012', 'c11_soc_cbse_01_007', 'c11_soc_cbse_01_009', 'c11_soc_cbse_10_002', 'c11_soc_cbse_10_007', 'c11_soc_cbse_03_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a sociologist hired to advise a government committee studying why workers in a gig-economy.', goal: 'Master Comparing Marx, Durkheim and Weber: Three Foundational Perspectives.' },
     discovery: {
         question: 'Explain in your own words why the western distinction between sociology (study of modern, industrialised societies) and social anthropology (study of simple,.',
@@ -20,7 +20,7 @@ export const w_c11_sociologywesternsociologistssim: SimDef = {
         hook: 'Students often believe Indian sociology simply "copied" western sociology and applied it to India.',
     },
     teaching: [
-        { title: 'Comparing Marx, Durkheim, and Weber involves.', text: 'Comparing Marx, Durkheim, and Weber involves systematically analyzing their distinct theoretical frameworks — Marx\'s historical materialism and class conflict, Durkheim\'s social facts and solidarity.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Comparing Marx, Durkheim, and Weber involves.', text: 'Comparing Marx, Durkheim, and Weber involves systematically analyzing their distinct theoretical frameworks — Marx\'s historical materialism and class conflict, Durkheim\'s social facts and solidarity.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_09_012', title: 'Comparing Marx, Durkheim, and Weber.',

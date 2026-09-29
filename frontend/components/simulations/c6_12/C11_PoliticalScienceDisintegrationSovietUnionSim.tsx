@@ -1293,20 +1293,20 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
 
   // ─── RENDER MAIN UI ──────────────────────────────────────────────────────────
   return (
-    <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans selection:bg-indigo-500 selection:text-white">
+    <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans selection:bg-gold-500 selection:text-white">
       {/* ─── HEADER BAR ──────────────────────────────────────────────────────── */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 pb-4 border-b border-slate-800 mb-6">
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold px-2.5 py-0.5 rounded-full bg-indigo-950/80 border border-indigo-800">
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold px-2.5 py-0.5 rounded-full bg-gold-950/80 border border-gold-800">
                 ISC Class 11 Section B
               </span>
               <motion.span
@@ -1345,7 +1345,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 activeTab === tab
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
             >
@@ -1358,14 +1358,14 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
       {/* ─── PHASE 1: DISCOVERY HOOK ─────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2.5 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
-              <span className="inline-block w-2.5 h-2.5 rounded-full bg-indigo-400 animate-ping" />
+          <div className="p-5 md:p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2.5 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-gold-400 animate-ping" />
               Strategic Situation Briefing
             </div>
             <h2 className="text-xl md:text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-indigo-300 flex items-start gap-2">
+            <div className="mt-4 p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-gold-300 flex items-start gap-2">
               <span className="text-base" aria-hidden="true">📌</span>
               <span>{SCENARIO.context}</span>
             </div>
@@ -1395,7 +1395,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                       : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="w-6 h-6 rounded-lg bg-slate-950/70 border border-slate-700 flex items-center justify-center text-xs font-bold text-indigo-300 shrink-0 mt-0.5">
+                  <span className="w-6 h-6 rounded-lg bg-slate-950/70 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-300 shrink-0 mt-0.5">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓' : String.fromCharCode(65 + i)}
                   </span>
                   <span>{opt}</span>
@@ -1418,7 +1418,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-xl text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Exploration Lab →
                 </motion.button>
@@ -1433,7 +1433,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900 px-4 py-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Exploration Lab</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Exploration Lab</span>
               <span className="text-slate-600">|</span>
               <span className="text-xs text-slate-300 font-medium">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
@@ -1444,7 +1444,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                 <div
                   key={idx}
                   className={`w-2.5 h-2.5 rounded-full transition-all ${
-                    idx === currentSlide ? 'bg-indigo-500 scale-125' : idx < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
+                    idx === currentSlide ? 'bg-gold-500 scale-125' : idx < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1498,7 +1498,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                         ? 'bg-rose-950/70 border-rose-500 text-rose-300'
                         : 'bg-slate-900/60 border-slate-800 text-slate-500'
                       : predictionSelected === pI
-                      ? 'bg-indigo-900/70 border-indigo-500 text-indigo-100'
+                      ? 'bg-gold-900/70 border-gold-500 text-gold-100'
                       : 'bg-slate-950/80 hover:bg-slate-900 border-slate-800 text-slate-300'
                   }`}
                 >
@@ -1566,7 +1566,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Glasnost (Political Openness & Speech Freedom)</span>
-                        <span className="text-indigo-400 font-bold">{glasnostFreedomLevel}%</span>
+                        <span className="text-gold-400 font-bold">{glasnostFreedomLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1578,7 +1578,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                           setGlasnostFreedomLevel(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -1680,7 +1680,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                         }}
                         className={`px-3.5 py-2 rounded-xl text-xs font-bold border transition-all ${
                           selectedOperation === op.id
-                            ? 'bg-indigo-600 border-indigo-500 text-white shadow-md'
+                            ? 'bg-gold-600 border-gold-500 text-white shadow-md'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1900,7 +1900,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between items-center">
-                        <span className="text-xs font-bold text-sky-400 uppercase">Farakka Barrage (1996 Ganga Treaty)</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase">Farakka Barrage (1996 Ganga Treaty)</span>
                         <span className="text-xs text-white font-mono">{farakkaDischarge.toLocaleString()} cusecs</span>
                       </div>
                       <input
@@ -1914,7 +1914,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                           setFarakkaDischarge(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       {/* TOPIC SPECIFIC SVG 3: Farakka Barrage & Ganga Water Sharing Hydro-Diagram */}
@@ -1974,9 +1974,9 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
               )}
 
               {/* ── OBSERVATION CHECK ('WHAT DO YOU NOTICE?') ── */}
-              <div className="p-4 bg-gradient-to-r from-sky-950/60 via-slate-900 to-slate-950 rounded-2xl border border-sky-800/60 space-y-3 mt-4">
+              <div className="p-4 bg-gradient-to-r from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 space-y-3 mt-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-sky-400 uppercase tracking-wider flex items-center gap-1.5">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
                     <span>👁️</span> Observation Challenge: What do you notice? (Question {activeObservationIndex + 1} of {OBSERVATION_QUESTIONS.length})
                   </span>
                   <div className="flex gap-1">
@@ -1990,7 +1990,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                           audioManager.play('tap');
                         }}
                         className={`px-2 py-0.5 text-[10px] font-bold rounded ${
-                          activeObservationIndex === oIdx ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                          activeObservationIndex === oIdx ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Obs {oIdx + 1}
@@ -2020,7 +2020,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                             ? 'bg-rose-950/70 border-rose-500 text-rose-300'
                             : 'bg-slate-900/60 border-slate-800 text-slate-500'
                           : observationSelected === obsI
-                          ? 'bg-sky-900/70 border-sky-500 text-sky-100'
+                          ? 'bg-gold-900/70 border-gold-500 text-gold-100'
                           : 'bg-slate-950/80 hover:bg-slate-900 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -2032,7 +2032,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
 
                 {observationChecked && (
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs">
-                    <p className="text-sky-300 font-bold mb-0.5">
+                    <p className="text-gold-300 font-bold mb-0.5">
                       {observationSelected === OBSERVATION_QUESTIONS[activeObservationIndex].correctIndex ? '✓ Spot-on Observation!' : '🔍 Strategic Observation:'}
                     </p>
                     <p className="text-slate-300">{OBSERVATION_QUESTIONS[activeObservationIndex].explanation}</p>
@@ -2069,7 +2069,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2091,7 +2091,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
       {/* ─── PHASE 3: UNGRADED SANDBOX / FREE PLAY ───────────────────────────── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-emerald-800/60">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-emerald-800/60">
             <h3 className="text-lg font-bold text-emerald-300">Geopolitical Sandbox & Strategic War Room</h3>
             <p className="text-slate-300 text-xs mt-1">
               Feel free to adjust systemic variables with zero grading pressure. Observe how unipolarity, regionalism, and bilateral friction interact!
@@ -2103,7 +2103,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Global Unipolar Concentration Index (US Hegemony)</span>
-                  <span className="text-indigo-400 font-bold">{unipolarPowerBalance}%</span>
+                  <span className="text-gold-400 font-bold">{unipolarPowerBalance}%</span>
                 </div>
                 <input
                   type="range"
@@ -2115,13 +2115,13 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                     setUnipolarPowerBalance(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-indigo-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1">
                 <span className="text-slate-400 font-bold uppercase">Systemic Prediction:</span>
-                <p className="text-indigo-200">
+                <p className="text-gold-200">
                   {unipolarPowerBalance > 75
                     ? '⚡ High Unipolar Hegemony: Middle powers form regional coalitions (EU, ASEAN, BRICS) to protect strategic autonomy.'
                     : '🌐 Multi-polar Balance: Fragmented alliances with high issue-based flexibility (India multi-aligning across QUAD and BRICS).'}
@@ -2145,7 +2145,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3 bg-gradient-to-r from-emerald-600 via-indigo-600 to-purple-600 text-white font-bold rounded-2xl text-sm shadow-xl shadow-indigo-600/30 flex items-center justify-center gap-2"
+            className="w-full py-3 bg-gradient-to-r from-emerald-600 via-gold-600 to-purple-600 text-white font-bold rounded-2xl text-sm shadow-xl shadow-gold-600/30 flex items-center justify-center gap-2"
           >
             Ready for Challenges! →
           </motion.button>
@@ -2162,7 +2162,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-slate-600">|</span>
-              <span className="text-xs text-indigo-400 font-mono uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-mono uppercase tracking-wider">
                 NEP: {currentChallengeObj.competencyLevel}
               </span>
             </div>
@@ -2170,7 +2170,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
               <span className="text-xs text-slate-400">Errors: {errors}</span>
               <div className="w-24 h-2 bg-slate-800 rounded-full overflow-hidden" aria-label={`Progress: ${currentChallenge + 1} of ${filteredChallenges.length}`}>
                 <motion.div
-                  className="h-full bg-indigo-500"
+                  className="h-full bg-gold-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2190,7 +2190,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-indigo-400 px-2.5 py-0.5 rounded-full bg-indigo-950/80 border border-indigo-800">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-gold-400 px-2.5 py-0.5 rounded-full bg-gold-950/80 border border-gold-800">
                 Node {currentChallengeObj.nodeId}
               </span>
               <span className="text-xs text-slate-500 capitalize">{currentChallengeObj.type} question</span>
@@ -2222,7 +2222,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                           : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="w-6 h-6 rounded-lg bg-slate-950/70 border border-slate-700 flex items-center justify-center text-xs font-bold text-indigo-300 shrink-0 mt-0.5">
+                      <span className="w-6 h-6 rounded-lg bg-slate-950/70 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-300 shrink-0 mt-0.5">
                         {showExplanation && i === currentChallengeObj.correctIndex ? '✓' : String.fromCharCode(65 + i)}
                       </span>
                       <span>{opt}</span>
@@ -2245,7 +2245,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2267,7 +2267,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                       className="p-3.5 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col justify-between min-h-[75px]"
                     >
                       <span className="text-xs font-bold text-slate-400">{target.title}</span>
-                      <div className="text-xs font-bold text-indigo-300 mt-1">
+                      <div className="text-xs font-bold text-gold-300 mt-1">
                         {droppedLabels[target.id] ? (
                           <span className="text-emerald-400">✓ {droppedLabels[target.id]}</span>
                         ) : (
@@ -2283,7 +2283,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Mapping
                 </motion.button>
@@ -2303,7 +2303,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                       key={displayIdx}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between text-xs text-slate-200"
                     >
-                      <span className="font-bold text-indigo-400 mr-2">{displayIdx + 1}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{displayIdx + 1}.</span>
                       <span className="flex-1">{item}</span>
                       <div className="flex gap-1">
                         <button
@@ -2334,7 +2334,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(sortArrangement)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Chronology
                 </motion.button>
@@ -2351,7 +2351,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                     aria-label="Enter numerical factor"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter multiplier value"
-                    className="px-4 py-2 bg-slate-950 rounded-xl border border-slate-700 text-white text-sm focus:outline-none focus:border-indigo-500 font-mono"
+                    className="px-4 py-2 bg-slate-950 rounded-xl border border-slate-700 text-white text-sm focus:outline-none focus:border-gold-500 font-mono"
                   />
                   <span className="text-xs text-slate-400 font-bold">{currentChallengeObj.unit}</span>
                   <motion.button
@@ -2359,7 +2359,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2397,7 +2397,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                     {constructParts.map((p, idx) => (
                       <span
                         key={idx}
-                        className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-300 text-xs rounded-md flex items-center gap-1.5"
+                        className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-300 text-xs rounded-md flex items-center gap-1.5"
                       >
                         <span>{idx + 1}. {p}</span>
                         <button
@@ -2421,7 +2421,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md disabled:opacity-40"
                 >
                   Verify Causal Model
                 </motion.button>
@@ -2515,7 +2515,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
       {/* ─── PHASE 5: COMPLETION & REFLECTIONS ───────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 md:p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-800 text-center space-y-4">
+          <div className="p-6 md:p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-800 text-center space-y-4">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2534,7 +2534,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
               <div className="h-8 w-px bg-slate-800" />
               <div>
                 <span className="text-slate-400 block text-xs">BKT Mastery Status</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2544,7 +2544,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
             errors === 0
               ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300'
               : errors <= 3
-              ? 'bg-indigo-950/60 border-indigo-500 text-indigo-300'
+              ? 'bg-gold-950/60 border-gold-500 text-gold-300'
               : errors <= 7
               ? 'bg-amber-950/60 border-amber-500 text-amber-300'
               : 'bg-rose-950/60 border-rose-500 text-rose-300'
@@ -2554,12 +2554,12 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
           </div>
 
           {/* ── SPACED REPETITION VISIBILITY SCHEDULE ── */}
-          <div className="p-5 md:p-6 bg-gradient-to-r from-indigo-950/70 via-slate-900 to-purple-950/70 rounded-2xl border border-indigo-700/60 shadow-xl space-y-3">
+          <div className="p-5 md:p-6 bg-gradient-to-r from-gold-950/70 via-slate-900 to-purple-950/70 rounded-2xl border border-gold-700/60 shadow-xl space-y-3">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-1.5">
+              <span className="text-xs font-bold text-gold-300 uppercase tracking-wider flex items-center gap-1.5">
                 <span>📅</span> Spaced Repetition Memory Retention Schedule (SM-2 SRS)
               </span>
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-900 border border-indigo-600 font-mono text-indigo-200">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-900 border border-gold-600 font-mono text-gold-200">
                 SRS Interval: {srsIntervalDays} {srsIntervalDays === 1 ? 'Day' : 'Days'}
               </span>
             </div>
@@ -2581,7 +2581,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
 
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">SM-2 Ease Factor</span>
-                <p className="text-sm md:text-base font-black text-indigo-400 mt-0.5">
+                <p className="text-sm md:text-base font-black text-gold-400 mt-0.5">
                   {errors === 0 ? '2.60 (High Stability)' : errors <= 3 ? '2.50 (Standard)' : '2.35 (Reinforcing)'}
                 </p>
                 <p className="text-[11px] text-slate-400 mt-1">
@@ -2612,7 +2612,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
 
             <div className="space-y-4 pt-1">
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2620,13 +2620,13 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   onChange={e => setReflections(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g., How lifting censorship without economic reform accelerated Soviet collapse, or the strict bilateral doctrine of the Shimla Agreement..."
                   aria-label="Reflection on the most surprising thing you learned"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
 
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2634,13 +2634,13 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   onChange={e => setReflections(r => ({ ...r, explain: e.target.value }))}
                   placeholder="e.g., International order is like a balance of power: when one superpower fell, new regional teams formed to balance influence..."
                   aria-label="Reflection on how to explain this topic to a friend"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
 
               <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2648,7 +2648,7 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
                   onChange={e => setReflections(r => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g., Analyzing modern news regarding QUAD maritime drills, UN resolutions, and Indo-Pacific supply chains..."
                   aria-label="Reflection on real life applications"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2676,12 +2676,12 @@ export function C11_PoliticalScienceDisintegrationSovietUnionSim(props: Props = 
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm md:text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm md:text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400 mr-1.5">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400 mr-1.5">{idx + 1}.</span>
                   {step}
                 </div>
               ))}

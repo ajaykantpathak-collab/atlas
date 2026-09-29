@@ -1220,10 +1220,10 @@ function QuestionView({
                 w-full text-left px-4 py-3 rounded-xl
                 border transition-all text-sm
                 ${answer.answer === i
-                  ? 'bg-indigo-500/25 border-indigo-400/40 text-white'
+                  ? 'bg-gold-500/25 border-gold-400/40 text-white'
                   : 'bg-white/[0.04] border-white/[0.08] text-white/70 hover:bg-white/[0.08] hover:border-white/15'
                 }
-                focus:outline-none focus:ring-2 focus:ring-indigo-400/50
+                focus:outline-none focus:ring-2 focus:ring-gold-400/50
               `}
               role="radio"
               aria-checked={answer.answer === i}
@@ -1234,7 +1234,7 @@ function QuestionView({
                 {String.fromCharCode(65 + i)}
               </span>
               {opt}
-              {answer.answer === i && <span className="ml-2 text-indigo-300">✓</span>}
+              {answer.answer === i && <span className="ml-2 text-gold-300">✓</span>}
             </motion.button>
           ))}
         </div>
@@ -1253,7 +1253,7 @@ function QuestionView({
               w-full bg-white/[0.05] border border-white/[0.1] rounded-xl
               px-4 py-3 text-white text-sm leading-relaxed
               placeholder:text-white/20 resize-y
-              focus:outline-none focus:ring-2 focus:ring-indigo-400/40 focus:border-indigo-400/30
+              focus:outline-none focus:ring-2 focus:ring-gold-400/40 focus:border-gold-400/30
             "
             aria-describedby={`answer-hint-${question.id}`}
           />
@@ -1419,7 +1419,7 @@ function ExamScreen({
             </button>
             <button
               onClick={() => setShowSubmitConfirm(true)}
-              className="hidden sm:flex px-4 py-2 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-semibold hover:from-indigo-500 hover:to-purple-500 transition-all shadow-lg shadow-indigo-500/20"
+              className="hidden sm:flex px-4 py-2 rounded-lg bg-gradient-to-r from-gold-600 to-purple-600 text-white text-sm font-semibold hover:from-gold-500 hover:to-purple-500 transition-all shadow-lg shadow-gold-500/20"
             >
               {i18n.submitExam[lang]}
             </button>
@@ -1431,7 +1431,7 @@ function ExamScreen({
       <div className="sm:hidden px-3 py-2 bg-black/30 border-b border-white/[0.06] flex justify-center">
         <button
           onClick={() => setShowSubmitConfirm(true)}
-          className="px-6 py-2 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-semibold"
+          className="px-6 py-2 rounded-lg bg-gradient-to-r from-gold-600 to-purple-600 text-white text-sm font-semibold"
         >
           {i18n.submitExam[lang]}
         </button>
@@ -1446,7 +1446,7 @@ function ExamScreen({
             <span className={`
               px-3 py-1 rounded-lg text-xs font-bold uppercase
               ${currentQuestion.section === 'A'
-                ? 'bg-indigo-500/20 text-indigo-300'
+                ? 'bg-gold-500/20 text-gold-300'
                 : 'bg-purple-500/20 text-purple-300'
               }
             `}>
@@ -1589,7 +1589,7 @@ function ExamScreen({
                 </button>
                 <button
                   onClick={handleSubmit}
-                  className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold hover:from-indigo-500 hover:to-purple-500 transition-all shadow-lg"
+                  className="flex-1 py-3 rounded-xl bg-gradient-to-r from-gold-600 to-purple-600 text-white font-semibold hover:from-gold-500 hover:to-purple-500 transition-all shadow-lg"
                 >
                   {i18n.submit[lang]}
                 </button>
@@ -1738,7 +1738,7 @@ function ResultsScreen({
           initial={{ opacity: 0, y: 20, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ type: 'spring', damping: 20 }}
-          className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600/30 via-purple-600/20 to-pink-600/20 backdrop-blur-xl border border-white/[0.12] p-6 sm:p-10 text-center"
+          className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-gold-600/30 via-purple-600/20 to-pink-600/20 backdrop-blur-xl border border-white/[0.12] p-6 sm:p-10 text-center"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-white/[0.08] to-transparent pointer-events-none" />
 
@@ -1994,7 +1994,7 @@ function ResultsScreen({
                         px-1.5 py-0.5 rounded text-[9px] font-bold uppercase
                         ${tip.priority === 'high' ? 'bg-red-500/20 text-red-300' :
                           tip.priority === 'medium' ? 'bg-yellow-500/20 text-yellow-300' :
-                          'bg-blue-500/20 text-blue-300'}
+                          'bg-gold-500/20 text-gold-300'}
                       `}>
                         {tip.priority}
                       </span>
@@ -2016,7 +2016,7 @@ function ResultsScreen({
         >
           <button
             onClick={onRetake}
-            className="flex-1 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold hover:from-indigo-500 hover:to-purple-500 transition-all shadow-lg shadow-indigo-500/20"
+            className="flex-1 py-3.5 rounded-xl bg-gradient-to-r from-gold-600 to-purple-600 text-white font-semibold hover:from-gold-500 hover:to-purple-500 transition-all shadow-lg shadow-gold-500/20"
           >
             🔄 {i18n.retakeExam[lang]}
           </button>
@@ -2205,7 +2205,7 @@ function ExamInner() {
               <h1 className="text-2xl sm:text-3xl font-bold text-white mb-2">
                 {selectedSubjectData.name[language]} {i18n.examSimulator[language]}
               </h1>
-              <p className="text-indigo-300/70 text-sm font-medium">
+              <p className="text-gold-300/70 text-sm font-medium">
                 {apiSubjects.some(s => s.id === selectedSubjectData.id) ? `${myBoard} · ` : 'Sample paper · '}
                 {selectedSubjectData.totalMarks} {i18n.marks[language]}, {selectedSubjectData.durationMinutes / 60} {language === 'en' ? 'hours' : 'घंटे'}
                 . {i18n.ready[language]}
@@ -2239,7 +2239,7 @@ function ExamInner() {
                   <div className="flex items-center justify-between mb-1">
                     <span className={`
                       px-2 py-0.5 rounded text-[10px] font-bold uppercase
-                      ${section.id === 'A' ? 'bg-indigo-500/20 text-indigo-300' : 'bg-purple-500/20 text-purple-300'}
+                      ${section.id === 'A' ? 'bg-gold-500/20 text-gold-300' : 'bg-purple-500/20 text-purple-300'}
                     `}>
                       {section.label[language]}
                     </span>
@@ -2267,7 +2267,7 @@ function ExamInner() {
               onClick={handleStart}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}
-              className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 text-white font-bold text-lg shadow-2xl shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all"
+              className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-600 via-teal-600 to-gold-600 text-white font-bold text-lg shadow-2xl shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all"
             >
               ▶ {i18n.startExam[language]}
             </motion.button>

@@ -176,7 +176,7 @@ export default function LanguageGym() {
         <div className="flex gap-1.5 flex-wrap mb-1.5">
           {(['en', 'hi'] as const).map(s => (
             <button key={s} onClick={() => pickSubject(s)}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${s === subject ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${s === subject ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {s === 'en' ? 'English' : 'हिंदी'}
             </button>
           ))}
@@ -184,7 +184,7 @@ export default function LanguageGym() {
         <div className="flex gap-1.5 flex-wrap mb-1.5">
           {bands.map(b => (
             <button key={b.key} onClick={() => pickBand(b)}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === band.key ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === band.key ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {b.label}
             </button>
           ))}
@@ -215,7 +215,7 @@ export default function LanguageGym() {
           const meta = tabs[k]
           return (
             <button key={k} onClick={() => setTab(k)}
-              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === k ? 'border-sky-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
+              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === k ? 'border-gold-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
               <meta.icon className="w-3.5 h-3.5" />
               {meta.label}
             </button>
@@ -328,10 +328,10 @@ function CuratedDrill({ drill, onRight }: { drill: GrammarDrill; onRight: () => 
           <input value={typed} onChange={e => setTyped(e.target.value)}
             onKeyDown={e => { if (e.key === 'Enter' && !done) checkTyped() }}
             dir="auto"
-            className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-sky-400"
+            className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-gold-400"
             placeholder="your answer…" />
           <button onClick={checkTyped} disabled={!!done || !typed.trim()}
-            className="px-3 rounded-lg bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+            className="px-3 rounded-lg bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
             Check
           </button>
         </div>
@@ -378,7 +378,7 @@ function RuntimeDrill({ q, nodeId, onRight }:
 
   return (
     <div className="rounded-xl border border-dashed border-slate-600 bg-slate-800/30 px-3 py-2.5">
-      <p className="text-[10px] uppercase tracking-wider text-sky-300/70 font-black mb-1">
+      <p className="text-[10px] uppercase tracking-wider text-gold-300/70 font-black mb-1">
         authored diagnostic · corpus node
       </p>
       <p className="text-sm text-slate-200 font-semibold">{q.question}</p>
@@ -397,11 +397,11 @@ function RuntimeDrill({ q, nodeId, onRight }:
         <div className="mt-2 flex gap-1.5">
           <input value={typed} onChange={e => setTyped(e.target.value)}
             dir="auto"
-            className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-sky-400"
+            className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-gold-400"
             placeholder="your answer…" />
           <button onClick={() => finish(accepted(typed, [q.answer ?? ''], subjectGuess), q.question ?? undefined)}
             disabled={!!done || !typed.trim()}
-            className="px-3 rounded-lg bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+            className="px-3 rounded-lg bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
             Check
           </button>
         </div>
@@ -511,7 +511,7 @@ function AssemblyTab({ topic, onPractise }: { topic: LangTopic | undefined; onPr
         )}
         {strip.map((tk, i) => (
           <button key={`${tk}-${i}`} onClick={() => removeAt(i)}
-            className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-sky-500/20 border border-sky-400/50 text-sky-100 hover:border-rose-400/60 hover:text-rose-200">
+            className="px-2.5 py-1.5 rounded-lg text-xs font-bold bg-gold-500/20 border border-gold-400/50 text-gold-100 hover:border-rose-400/60 hover:text-rose-200">
             {tk}
           </button>
         ))}
@@ -529,7 +529,7 @@ function AssemblyTab({ topic, onPractise }: { topic: LangTopic | undefined; onPr
 
       <div className="flex gap-2">
         <button onClick={check} disabled={strip.length === 0}
-          className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+          className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
           <Play className="w-3.5 h-3.5" />Check order
         </button>
         <button onClick={() => { setStrip([]); setChecked(null); setDiag(null) }}
@@ -600,7 +600,7 @@ function FormatTab({ subject, onPractise }: { subject: LangSubject; onPractise: 
         <div className="flex gap-1.5 flex-wrap mb-2">
           {specs.map(s => (
             <button key={s.id} onClick={() => setSpecId(s.id)}
-              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${s.id === spec.id ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${s.id === spec.id ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {s.title}
             </button>
           ))}
@@ -611,11 +611,11 @@ function FormatTab({ subject, onPractise }: { subject: LangSubject; onPractise: 
         </p>
         <textarea value={draft} onChange={e => { setDraft(e.target.value); setSubmitted(false) }}
           dir={spec.lang === 'hi' ? 'auto' : 'ltr'} rows={14}
-          className="w-full rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white leading-relaxed focus:outline-none focus:border-sky-400"
+          className="w-full rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white leading-relaxed focus:outline-none focus:border-gold-400"
           placeholder={spec.lang === 'hi' ? 'यहाँ अपना प्रारूप लिखिए…' : 'draft here…'} />
         <div className="flex items-center gap-2 mt-2">
           <button onClick={submit} disabled={!draft.trim()}
-            className="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+            className="px-4 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
             Check format ({score}/{total})
           </button>
           <details className="flex-1">
@@ -733,10 +733,10 @@ function RctCard({ nodeId, item, onRight }: { nodeId: string; item: RctItem; onR
           <input value={typed} onChange={e => setTyped(e.target.value)}
             onKeyDown={e => { if (e.key === 'Enter' && done === null) check() }}
             dir="auto"
-            className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-sky-400"
+            className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-gold-400"
             placeholder={isHi ? 'उत्तर लिखिए…' : 'your answer…'} />
           <button onClick={check} disabled={done !== null || !typed.trim()}
-            className="px-3 rounded-lg bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+            className="px-3 rounded-lg bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
             Check
           </button>
         </div>
@@ -809,10 +809,10 @@ function VocabCard({ nodeId, item, onRight }: { nodeId: string; item: VocabItem;
         <input value={typed} onChange={e => setTyped(e.target.value)}
           onKeyDown={e => { if (e.key === 'Enter' && done === null) check() }}
           dir="auto"
-          className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-sky-400"
+          className="flex-1 rounded-lg bg-slate-800/70 border border-slate-600 px-2.5 py-1.5 text-sm text-white focus:outline-none focus:border-gold-400"
           placeholder={isHi ? 'उत्तर…' : 'answer…'} />
         <button onClick={check} disabled={done !== null || !typed.trim()}
-          className="px-3 rounded-lg bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+          className="px-3 rounded-lg bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
           Check
         </button>
       </div>

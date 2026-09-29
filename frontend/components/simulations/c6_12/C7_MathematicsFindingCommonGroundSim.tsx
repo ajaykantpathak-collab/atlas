@@ -31,7 +31,7 @@ export function C7_MathematicsFindingCommonGroundSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Finding Common Ground: HCF and LCM</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Finding Common Ground: HCF and LCM</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="flex gap-2 mt-4">
@@ -42,7 +42,7 @@ export function C7_MathematicsFindingCommonGroundSim() {
           <button
             key={v.id}
             onClick={() => setView(v.id)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${view === v.id ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${view === v.id ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {v.label}
           </button>
@@ -133,9 +133,9 @@ export function C7_MathematicsFindingCommonGroundSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>First number</span>
-            <span className="font-mono font-bold text-sky-300">{numA}</span>
+            <span className="font-mono font-bold text-gold-300">{numA}</span>
           </label>
-          <input type="range" aria-label="first number" min={2} max={40} value={numA} onChange={(e) => setNumA(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="first number" min={2} max={40} value={numA} onChange={(e) => setNumA(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -164,8 +164,8 @@ export function C7_MathematicsFindingCommonGroundSim() {
         </div>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Set both sliders to the same number. What are the HCF and LCM now? (Every number is its own cousin!)</li>
           <li>Find a pair where HCF x LCM equals the product of the numbers. Does it work for EVERY pair? Test three pairs.</li>

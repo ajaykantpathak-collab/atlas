@@ -63,7 +63,7 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Where India Works: Five Decades, Three Sectors</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Where India Works: Five Decades, Three Sectors</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -139,7 +139,7 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
           <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">
             Since 1972-73 the <span style={{ color: SECTOR_COLOR[highlight] }}>{highlight}</span> share moved{' '}
             <span className="font-mono text-amber-300">{shareShift.startsWith('-') ? '' : '+'}{shareShift}</span> percentage points,
-            while its headcount changed <span className="font-mono text-sky-300">{changePct}%</span>.
+            while its headcount changed <span className="font-mono text-gold-300">{changePct}%</span>.
           </div>
           <div className="text-amber-300 text-xs pt-2 border-t border-slate-800">
             Misconception check: &quot;workers leaving farms means industrialisation.&quot; Look again -- most who left farming landed in
@@ -153,7 +153,7 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Time travel</span>
-            <span className="font-mono font-bold text-sky-300">{d.label}</span>
+            <span className="font-mono font-bold text-gold-300">{d.label}</span>
           </label>
           <input
             type="range"
@@ -163,7 +163,7 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
             step={1}
             value={idx}
             onChange={(e) => setIdx(Number(e.target.value))}
-            className="w-full mt-2 accent-sky-400"
+            className="w-full mt-2 accent-gold-400"
           />
           <div className="flex justify-between text-[10px] text-slate-500 px-1">
             {DECADES.map((x) => (
@@ -179,7 +179,7 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
                 <button
                   key={s}
                   onClick={() => setHighlight(s)}
-                  className={`flex-1 min-h-11 rounded-xl text-[11px] font-semibold border ${highlight === s ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                  className={`flex-1 min-h-11 rounded-xl text-[11px] font-semibold border ${highlight === s ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
                 >
                   {s}
                 </button>
@@ -198,7 +198,7 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
       <div className="flex flex-wrap gap-2 mt-4">
         <button
           onClick={() => setIdx((i) => (i + 1) % DECADES.length)}
-          className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500"
+          className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500"
         >
           Step forward one period
         </button>
@@ -207,8 +207,8 @@ export function C11_EconomicsEmploymentGrowthInformalisationSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Slide from 1972-73 to 2011-12. Primary share falls by 25 points -- but does the NUMBER of farm workers actually fall? (Check absolute mode.)</li>
           <li>Compare the live bar with the 2011-12 ghost bar at every stop. Which sector absorbed the most extra workers, and what does that suggest about the quality of new jobs?</li>

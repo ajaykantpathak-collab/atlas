@@ -161,7 +161,7 @@ export const C10_BIO_GEN: SimDef[] = [
     "answer": "Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children",
     "options": [
      "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency",
-     "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine",
+     "Thyroxine increases: lipolysis (fat breakdown), protein catabolism (breakdown), and carbohydrate oxidation/glucose absorption",
      "Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children"
     ],
     "hint": "Straight from the 'thyroid gland' slide -- match the key terms.",
@@ -175,8 +175,8 @@ export const C10_BIO_GEN: SimDef[] = [
     "question": "Compare the metabolic effects of thyroxine on lipids, proteins, and carbohydrates in a table. Then analyse why a hyperthyroid patient loses weight despite increased appetite.",
     "answer": "Thyroxine increases: lipolysis (fat breakdown), protein catabolism (breakdown), and carbohydrate oxidation/glucose absorption",
     "options": [
-     "The statement is false. Iodine supplementation only works if goitre is caused by dietary iodine deficiency (endemic goitre) and the thyroid gland is still functional",
      "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency",
+     "The student can explain the mechanism of thyroxine action on cellular metabolism, predict the symptoms of hypo- and hyperthyroidism based on metabolic changes",
      "Thyroxine increases: lipolysis (fat breakdown), protein catabolism (breakdown), and carbohydrate oxidation/glucose absorption"
     ],
     "hint": "Straight from the 'thyroid gland' slide -- match the key terms.",
@@ -191,7 +191,7 @@ export const C10_BIO_GEN: SimDef[] = [
     "answer": "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency",
     "options": [
      "Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children",
-     "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine",
+     "Thyroxine increases: lipolysis (fat breakdown), protein catabolism (breakdown), and carbohydrate oxidation/glucose absorption",
      "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency"
     ],
     "hint": "Straight from the 'thyroid gland' slide -- match the key terms.",
@@ -221,7 +221,7 @@ export const C10_BIO_GEN: SimDef[] = [
     "answer": "Low dietary iodine → thyroid cannot synthesise thyroxine → low blood thyroxine levels → pituitary senses this and secretes excess TSH → TSH overstimulates thyroid gland → thyroid",
     "options": [
      "The statement is false. Iodine supplementation only works if goitre is caused by dietary iodine deficiency (endemic goitre) and the thyroid gland is still functional",
-     "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine",
+     "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency",
      "Low dietary iodine → thyroid cannot synthesise thyroxine → low blood thyroxine levels → pituitary senses this and secretes excess TSH → TSH overstimulates thyroid gland → thyroid"
     ],
     "hint": "Straight from the 'thyroid gland' slide -- match the key terms.",
@@ -235,13 +235,28 @@ export const C10_BIO_GEN: SimDef[] = [
     "question": "Name the hormone secreted by the thyroid gland that regulates basal metabolic rate and state the mineral element essential for its synthesis.",
     "answer": "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine",
     "options": [
+     "The student can explain the mechanism of thyroxine action on cellular metabolism, predict the symptoms of hypo- and hyperthyroidism based on metabolic changes",
      "Low dietary iodine → thyroid cannot synthesise thyroxine → low blood thyroxine levels → pituitary senses this and secretes excess TSH → TSH overstimulates thyroid gland → thyroid",
-     "Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children",
      "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine"
     ],
     "hint": "Straight from the 'thyroid gland' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"insulin\" or \"iron\") reveals the student cannot distinguish between endocrine glands and their specific hormones, or confuses the mineral requirement for thyroid hormone (iodine) with that for haemoglobin (iron).",
     "id": "gen_c10_bio_ch02_q8",
+    "nodeId": "c10_bio_cbse_02_009",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain the mechanism of thyroxine action on cellular metabolism, predict the symptoms of hypo- and hyperthyroidism based on metabolic changes",
+    "options": [
+     "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine",
+     "Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children",
+     "The student can explain the mechanism of thyroxine action on cellular metabolism, predict the symptoms of hypo- and hyperthyroidism based on metabolic changes"
+    ],
+    "hint": "Straight from the 'thyroid gland' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain the mechanism of thyroxine action on cellular metabolism, predict the symptoms of hypo- and",
+    "id": "gen_c10_bio_ch02_q9",
     "nodeId": "c10_bio_cbse_02_009",
     "difficulty": "standard"
    }
@@ -253,18 +268,19 @@ export const C10_BIO_GEN: SimDef[] = [
    ]
   },
   "successLine": "Thyroid Gland mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c10_bio_ch03",
-  "title": "Flower",
+  "title": "Flower Is The Reproductive Shoot",
   "subtitle": "Biology · Chapter 3",
   "classLevel": 10,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Flower",
+  "topic": "Flower Is The Reproductive Shoot Of An Angiosperm",
   "chapters": [
-   "Biology Ch3: Flower"
+   "Biology Ch3: Flower Is The Reproductive Shoot Of An Angiosperm"
   ],
   "nodeIds": [
    "c10_bio_cbse_03_005"
@@ -276,7 +292,7 @@ export const C10_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Flower in real working life?",
+   "question": "Who uses Flower Is The Reproductive Shoot in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -287,7 +303,7 @@ export const C10_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Flower",
+    "title": "Sexual Reproduction in Flowering Plants:",
     "text": "A flower is the reproductive shoot of an angiosperm, composed of four whorls of modified leaves — calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels) — arranged on a thalamus, where the androecium produces male gametes (pollen",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -355,7 +371,7 @@ export const C10_BIO_GEN: SimDef[] = [
      "The reasoning is incorrect because sepals can become petaloid (coloured and showy) and take over the attractant function of petals — e",
      "The student's claim is incorrect. In botanical terminology, the androecium is the collective term for all stamens (each stamen = filament + anther)"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student's claim is incorrect. In botanical terminology, the androecium is the collective term for all stamens (each",
     "id": "gen_c10_bio_ch03_q2",
     "nodeId": "c10_bio_cbse_03_005",
@@ -370,7 +386,7 @@ export const C10_BIO_GEN: SimDef[] = [
      "The placentation is parietal. In a syncarpous (fused carpels) unilocular ovary, the fused margins of carpels form swollen ridges (placentae) on the inner wall",
      "The reasoning is incorrect because sepals can become petaloid (coloured and showy) and take over the attractant function of petals — e"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student memorizes definitions but cannot apply the concept of functional adaptation in modified flowers.",
     "id": "gen_c10_bio_ch03_q3",
     "nodeId": "c10_bio_cbse_03_005",
@@ -382,10 +398,10 @@ export const C10_BIO_GEN: SimDef[] = [
     "answer": "| Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) | |---------|--------------------------|-----------------------------| | Perianth | Absent or reduced to",
     "options": [
      "Materials: Fresh flowers of Datura (hypogynous), Rose (perigynous), Cucumber/Pumpkin (epigynous), razor blade, white paper, hand lens",
-     "The placentation is parietal. In a syncarpous (fused carpels) unilocular ovary, the fused margins of carpels form swollen ridges (placentae) on the inner wall",
+     "The reasoning is incorrect because sepals can become petaloid (coloured and showy) and take over the attractant function of petals — e",
      "| Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) | |---------|--------------------------|-----------------------------| | Perianth | Absent or reduced to"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying wind-pollinated flowers have coloured petals) reveals the student cannot connect floral morphology to pollination syndrome — a core competency question pattern in CBSE case-based questions.",
     "id": "gen_c10_bio_ch03_q4",
     "nodeId": "c10_bio_cbse_03_005",
@@ -397,10 +413,10 @@ export const C10_BIO_GEN: SimDef[] = [
     "answer": "Materials: Fresh flowers of Datura (hypogynous), Rose (perigynous), Cucumber/Pumpkin (epigynous), razor blade, white paper, hand lens",
     "options": [
      "| Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) | |---------|--------------------------|-----------------------------| | Perianth | Absent or reduced to",
-     "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), gynoecium (carpels). The essential whorls are androecium and gynoecium because they directly",
+     "The reasoning is incorrect because sepals can become petaloid (coloured and showy) and take over the attractant function of petals — e",
      "Materials: Fresh flowers of Datura (hypogynous), Rose (perigynous), Cucumber/Pumpkin (epigynous), razor blade, white paper, hand lens"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., only describing petal colour) shows the student cannot design an investigation targeting a specific morphological criterion — a skill tested in CBSE practical-based questions.",
     "id": "gen_c10_bio_ch03_q5",
     "nodeId": "c10_bio_cbse_03_005",
@@ -415,7 +431,7 @@ export const C10_BIO_GEN: SimDef[] = [
      "The student's claim is incorrect. In botanical terminology, the androecium is the collective term for all stamens (each stamen = filament + anther)",
      "The placentation is parietal. In a syncarpous (fused carpels) unilocular ovary, the fused margins of carpels form swollen ridges (placentae) on the inner wall"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., axile placentation) shows the student cannot link ovary structure (unilocular vs multilocular) to placentation type — a frequent board exam diagram-labeling trap where students confuse parietal (mustard, cucumber) with axile (tomato, lemon).",
     "id": "gen_c10_bio_ch03_q6",
     "nodeId": "c10_bio_cbse_03_005",
@@ -426,24 +442,39 @@ export const C10_BIO_GEN: SimDef[] = [
     "question": "Name the four whorls of a typical angiosperm flower in order from outermost to innermost, and state which two are called essential whorls.",
     "answer": "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), gynoecium (carpels). The essential whorls are androecium and gynoecium because they directly",
     "options": [
+     "The student can accurately label all four whorls and their sub-parts (filament, anther, stigma, style, ovary, ovule) on a longitudinal section diagram of a typical flower (e",
      "| Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) | |---------|--------------------------|-----------------------------| | Perianth | Absent or reduced to",
-     "The student's claim is incorrect. In botanical terminology, the androecium is the collective term for all stamens (each stamen = filament + anther)",
      "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), gynoecium (carpels). The essential whorls are androecium and gynoecium because they directly"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing calyx and corolla as essential) reveals the student confuses protective/attractive functions with reproductive function — a common board exam error where students memorize names but not functional significance.",
     "id": "gen_c10_bio_ch03_q7",
+    "nodeId": "c10_bio_cbse_03_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can accurately label all four whorls and their sub-parts (filament, anther, stigma, style, ovary, ovule) on a longitudinal section diagram of a typical flower (e",
+    "options": [
+     "The four whorls are: calyx (sepals), corolla (petals), androecium (stamens), gynoecium (carpels). The essential whorls are androecium and gynoecium because they directly",
+     "| Feature | Wind-pollinated (Maize) | Insect-pollinated (Mustard) | |---------|--------------------------|-----------------------------| | Perianth | Absent or reduced to",
+     "The student can accurately label all four whorls and their sub-parts (filament, anther, stigma, style, ovary, ovule) on a longitudinal section diagram of a typical flower (e"
+    ],
+    "hint": "Straight from the 'flower is the reproductive shoot' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can accurately label all four whorls and their sub-parts (filament, anther, stigma, style, ovary, ovule) on",
+    "id": "gen_c10_bio_ch03_q8",
     "nodeId": "c10_bio_cbse_03_005",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about flower?",
+    "What surprised you about flower is the reproductive shoot of an angiosperm?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Flower mastered! 🎯",
+  "successLine": "Flower Is The Reproductive mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  }
 ];

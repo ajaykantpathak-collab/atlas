@@ -6,7 +6,7 @@ export const c6_math_ch05_p1: SimDef = {
     id: 'v3_c6_math_ch05_p1',
     title: 'Algebra',
     subtitle: 'Letters that stand for numbers — the first time maths learns to talk about the unknown.',
-    classLevel: 6, subject: 'mathematics', topic: 'Algebra · Part 1/2',
+    classLevel: 6, subject: 'mathematics', topic: 'Algebra',
     chapters: ['c6_math_ch05'],
     nodeIds: ['c6_math_ch05_052', 'c6_math_ch05_053', 'c6_math_ch05_054', 'c6_math_ch05_055', 'c6_math_ch05_056', 'c6_math_ch05_057'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

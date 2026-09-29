@@ -11,7 +11,7 @@ export const w_c12_physicselectromagneticwavescbsesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Displacement Current: Maxwell\'s Correction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_08_001', 'c12_phy_cbse_08_002', 'c12_phy_cbse_08_003', 'c12_phy_cbse_08_004', 'c12_phy_cbse_08_005', 'c12_phy_cbse_11_001', 'c12_phy_cbse_11_003', 'c12_phy_cbse_11_002', 'c12_phy_cbse_11_004', 'c12_phy_cbse_11_005', 'c12_phy_cbse_11_006', 'c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a mobile phone charging via a USB-C cable — current flows through the wires, but between the.', goal: 'Master Displacement Current: Maxwell\'s Correction.' },
     discovery: {
         question: 'In a charging capacitor, the conduction current \\( i_c \\) in the connecting wires is 2.0 A.',
@@ -20,7 +20,7 @@ export const w_c12_physicselectromagneticwavescbsesim: SimDef = {
         hook: 'Students believe displacement current is a "fictitious" current that does not produce a real magnetic field because "no.',
     },
     teaching: [
-        { title: 'Displacement current is a term introduced by.', text: 'Displacement current is a term introduced by Maxwell to generalize Ampere\'s circuital law, defined as the product of vacuum permittivity (ε₀) and the rate of change of electric flux through a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Displacement current is a term introduced by.', text: 'Displacement current is a term introduced by Maxwell to generalize Ampere\'s circuital law, defined as the product of vacuum permittivity (ε₀) and the rate of change of electric flux through a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_08_001', title: 'Displacement current is a term.',

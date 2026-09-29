@@ -11,7 +11,7 @@ export const w_c7_mathematicsexponentsandpowerssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000',
     chapters: [],
     nodeIds: ['c7_math_ch12_006', 'c7_math_ch04_007', 'c7_math_ch02_002', 'c7_math_ch11_008', 'c7_math_ch12_001', 'c7_math_ch12_002', 'c7_math_ch12_005', 'c7_math_ch04_008', 'c7_math_ch01_009', 'c7_math_ch02_008', 'c7_math_ch04_006', 'c7_math_ch01_002', 'c7_math_ch01_008', 'c7_math_ch11_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are at the vegetable market buying tomatoes, and the shopkeeper tells you that 1 kg costs ₹45.85,.', goal: 'Master Shifting Decimal Point When Multiplying/Dividing by 10, 100, 1000.' },
     discovery: {
         question: 'What does the letter \'D\' stand for in the BODMAS rule used for evaluating arithmetic expressions?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsexponentsandpowerssim: SimDef = {
         hook: 'Students often evaluate expressions strictly from left to right across all operation types, ignoring the priority of.',
     },
     teaching: [
-        { title: 'Multiplying a decimal number by 10, 100, or.', text: 'Multiplying a decimal number by 10, 100, or 1000 shifts the decimal point to the right by 1, 2, or 3 places respectively, while dividing by 10, 100, or 1000 shifts the decimal point to the left by 1,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Multiplying a decimal number by 10, 100, or.', text: 'Multiplying a decimal number by 10, 100, or 1000 shifts the decimal point to the right by 1, 2, or 3 places respectively, while dividing by 10, 100, or 1000 shifts the decimal point to the left by 1,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch12_006', title: 'Multiplying a decimal number by 10,.',

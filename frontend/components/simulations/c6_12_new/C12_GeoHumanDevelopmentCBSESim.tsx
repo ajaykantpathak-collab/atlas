@@ -971,7 +971,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
       catColor = 'text-emerald-400';
     } else if (compositeHdi >= 0.700) {
       category = 'High Human Development';
-      catColor = 'text-cyan-400';
+      catColor = 'text-gold-400';
     } else if (compositeHdi >= 0.550) {
       category = 'Medium Human Development';
       catColor = 'text-amber-400';
@@ -1063,11 +1063,11 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
       {/* TOP NAVIGATION HEADER */}
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center text-2xl shadow-lg shadow-sky-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/30">
             🌍
           </div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-300 to-purple-400">
+            <h1 className="text-xl sm:text-2xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400">
               Human Development & Economic Geography Lab
             </h1>
             <p className="text-xs text-slate-400">ISC / CBSE Class 12 Geography • Chapter 3 & 4 Concepts</p>
@@ -1087,7 +1087,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
               onClick={() => switchTab(t.id as unknown as 'discovery' | 'lab' | 'challenges' | 'summary')}
               className={`px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
                 activeTab === t.id
-                  ? 'bg-gradient-to-r from-sky-600 to-indigo-600 text-white shadow-md shadow-sky-600/30'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -1104,7 +1104,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
           {/* NARRATIVE SCENARIO BOX */}
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
             <div className="flex items-center gap-3 mb-3">
-              <span className="px-3 py-1 rounded-full text-xs font-bold bg-sky-500/20 text-sky-400 border border-sky-500/30">
+              <span className="px-3 py-1 rounded-full text-xs font-bold bg-gold-500/20 text-gold-400 border border-gold-500/30">
                 SCENARIO MISSION
               </span>
               <h2 className="text-lg font-bold text-slate-100">{SCENARIO.title}</h2>
@@ -1115,7 +1115,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
 
           {/* DISCOVERY QUESTION CARD */}
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-base font-bold text-sky-400 mb-2 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-400 mb-2 flex items-center gap-2">
               <span>❓</span> Key Preconception Discovery Question
             </h3>
             <p className="text-slate-200 font-medium text-sm mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1133,14 +1133,14 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                       : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-slate-600'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-sky-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {opt}
                 </button>
               ))}
             </div>
 
             {discAnswered && (
-              <div className="p-4 rounded-xl bg-sky-950/50 border border-sky-800/60 text-sky-200 text-xs sm:text-sm animate-fade-in">
+              <div className="p-4 rounded-xl bg-gold-950/50 border border-gold-800/60 text-gold-200 text-xs sm:text-sm animate-fade-in">
                 <p className="font-bold mb-1">💡 Conceptual Insight:</p>
                 <p>{DISCOVERY_QUESTION.hintAfter}</p>
               </div>
@@ -1202,7 +1202,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                 }}
                 className={`px-3 py-2 rounded-lg text-xs font-bold transition-all ${
                   activeLab === idx
-                    ? 'bg-sky-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1212,12 +1212,12 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
           </div>
 
           {/* EXPLORATION STEP INSTRUCTION BANNER */}
-          <div className="bg-sky-950/40 border border-sky-800/60 rounded-xl p-4 text-xs sm:text-sm text-sky-200 flex items-center justify-between gap-4">
+          <div className="bg-gold-950/40 border border-gold-800/60 rounded-xl p-4 text-xs sm:text-sm text-gold-200 flex items-center justify-between gap-4">
             <div>
-              <span className="font-bold text-sky-400">Lab Directive: </span>
+              <span className="font-bold text-gold-400">Lab Directive: </span>
               {EXPLORATION_STEPS[activeLab].instruction}
             </div>
-            <span className="px-2.5 py-1 rounded bg-sky-900/80 text-sky-300 text-xs font-mono">
+            <span className="px-2.5 py-1 rounded bg-gold-900/80 text-gold-300 text-xs font-mono">
               Node: {EXPLORATION_STEPS[activeLab].nodeId}
             </span>
           </div>
@@ -1227,7 +1227,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
               {/* SLIDERS PANEL */}
               <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-5">
-                <h3 className="text-base font-bold text-sky-400">HDI Dimension Variable Controls</h3>
+                <h3 className="text-base font-bold text-gold-400">HDI Dimension Variable Controls</h3>
 
                 {/* Health Slider */}
                 <div>
@@ -1256,7 +1256,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-semibold">Education: Mean/Expected Schooling</span>
-                    <span className="text-sky-400 font-mono font-bold">{schoolingIndex} Years</span>
+                    <span className="text-gold-400 font-mono font-bold">{schoolingIndex} Years</span>
                   </div>
                   <input
                     type="range"
@@ -1267,7 +1267,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                       setSchoolingIndex(Number(e.target.value));
                       audioManager.play('swoop');
                     }}
-                    className="w-full accent-sky-500 bg-slate-800 rounded-lg"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg"
                   />
                   <div className="flex justify-between text-[10px] text-slate-400">
                     <span>0 yrs</span>
@@ -1317,9 +1317,9 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                       <div className="text-slate-400">Health</div>
                       <div className="text-emerald-300 font-bold">{calculatedIndices.hIdx.toFixed(3)}</div>
                     </div>
-                    <div className="bg-sky-950/60 border border-sky-800/60 p-1.5 rounded">
+                    <div className="bg-gold-950/60 border border-gold-800/60 p-1.5 rounded">
                       <div className="text-slate-400">Education</div>
-                      <div className="text-sky-300 font-bold">{calculatedIndices.eIdx.toFixed(3)}</div>
+                      <div className="text-gold-300 font-bold">{calculatedIndices.eIdx.toFixed(3)}</div>
                     </div>
                     <div className="bg-amber-950/60 border border-amber-800/60 p-1.5 rounded">
                       <div className="text-slate-400">Income</div>
@@ -1335,7 +1335,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                 <HdiPillarsDiagram activePillar={activePillar} onSelectPillar={(p) => setActivePillar(p)} />
 
                 <div className="bg-slate-950 border border-slate-800 p-4 rounded-xl text-xs space-y-2">
-                  <p className="font-bold text-sky-400">
+                  <p className="font-bold text-gold-400">
                     Selected Pillar Focus:{' '}
                     {activePillar === 'equity'
                       ? 'Equity (Equal Access)'
@@ -1486,7 +1486,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
           {activeLab === 3 && (
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
               <div className="flex justify-between items-center">
-                <h3 className="text-base font-bold text-cyan-400">Mining Technology & Resource Extraction Lab</h3>
+                <h3 className="text-base font-bold text-gold-400">Mining Technology & Resource Extraction Lab</h3>
                 <div className="flex gap-2">
                   <button
                     onClick={() => {
@@ -1495,7 +1495,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                       miningType === 'opencast'
-                        ? 'bg-cyan-600 border-cyan-400 text-white'
+                        ? 'bg-gold-600 border-gold-400 text-white'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1508,7 +1508,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                       miningType === 'shaft'
-                        ? 'bg-cyan-600 border-cyan-400 text-white'
+                        ? 'bg-gold-600 border-gold-400 text-white'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1549,7 +1549,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { id: 'very_high', label: 'Very High HDI (≥0.800)', color: 'border-emerald-500' },
-                  { id: 'high', label: 'High HDI (0.700 - 0.799)', color: 'border-cyan-500' },
+                  { id: 'high', label: 'High HDI (0.700 - 0.799)', color: 'border-gold-500' },
                   { id: 'medium', label: 'Medium HDI (0.550 - 0.699)', color: 'border-amber-500' },
                   { id: 'low', label: 'Low HDI (<0.550)', color: 'border-red-500' },
                 ].map((grp) => (
@@ -1584,11 +1584,11 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                 )}
                 {selectedCountryGroup === 'high' && (
                   <div>
-                    <h4 className="font-bold text-cyan-400 text-sm mb-2">High Human Development Group</h4>
+                    <h4 className="font-bold text-gold-400 text-sm mb-2">High Human Development Group</h4>
                     <p className="text-xs text-slate-300 leading-relaxed mb-3">
                       Includes around 53 nations such as Malaysia, Russia, and Brazil. Fast industrializing economies with expanding tertiary sectors and improved healthcare infrastructure.
                     </p>
-                    <div className="text-xs font-mono text-cyan-300 bg-cyan-950/40 p-3 rounded border border-cyan-800/50">
+                    <div className="text-xs font-mono text-gold-300 bg-gold-950/40 p-3 rounded border border-gold-800/50">
                       Average Life Expectancy: 74-78 Years • Mean Schooling: 10-12 Years • GNI per capita: $15,000-$30,000 PPP
                     </div>
                   </div>
@@ -1682,7 +1682,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
               >
                 {CHALLENGES[currentChallengeIdx].difficulty} • {CHALLENGES[currentChallengeIdx].competencyLevel}
               </span>
-              <div className="bg-slate-950 border border-slate-800 px-3 py-1 rounded-lg text-xs font-mono font-bold text-sky-400">
+              <div className="bg-slate-950 border border-slate-800 px-3 py-1 rounded-lg text-xs font-mono font-bold text-gold-400">
                 Score: {score}
               </div>
             </div>
@@ -1719,7 +1719,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
                     onClick={() => handleChallengeSubmit(oIdx)}
                     className={`w-full p-4 rounded-xl text-xs sm:text-sm text-left border transition-all flex items-start gap-3 ${btnStyle}`}
                   >
-                    <span className="font-bold text-sky-400 mt-0.5">{String.fromCharCode(65 + oIdx)}.</span>
+                    <span className="font-bold text-gold-400 mt-0.5">{String.fromCharCode(65 + oIdx)}.</span>
                     <span className="leading-relaxed">{opt}</span>
                   </button>
                 );
@@ -1753,7 +1753,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
 
                 <button
                   onClick={handleNextChallenge}
-                  className="w-full py-3 rounded-xl bg-gradient-to-r from-sky-600 to-indigo-600 font-bold text-sm text-white shadow-lg shadow-sky-600/30 hover:brightness-110 transition-all"
+                  className="w-full py-3 rounded-xl bg-gradient-to-r from-gold-600 to-gold-600 font-bold text-sm text-white shadow-lg shadow-gold-600/30 hover:brightness-110 transition-all"
                 >
                   {currentChallengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Finish Simulator 🏆'}
                 </button>
@@ -1804,7 +1804,7 @@ export default function C12_GeoHumanDevelopmentCBSESim({ onComplete }: { onCompl
 
           {/* DIAGNOSTIC KNOWLEDGE MATRIX */}
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-sky-400 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-400 flex items-center gap-2">
               <span>📋</span> Diagnostic Knowledge Readiness Matrix
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

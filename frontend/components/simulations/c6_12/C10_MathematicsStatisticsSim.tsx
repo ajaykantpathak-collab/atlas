@@ -518,9 +518,9 @@ export function C10_MathematicsStatisticsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700">\ud83d\udcca</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">\ud83d\udcca</span>
         <div className="flex-1 min-w-[220px]">
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 10 -- Statistics</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 -- Statistics</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Mean, Median, Mode -- Raw and Grouped</h1>
         </div>
         <span className="font-mono text-xs text-slate-500">n = {stats.n}</span>
@@ -534,7 +534,7 @@ export function C10_MathematicsStatisticsSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-cyan-600 border-cyan-500 text-white shadow-lg shadow-cyan-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -549,8 +549,8 @@ export function C10_MathematicsStatisticsSim() {
       {/* ============================================================ */}
       {tab === 'discover' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-cyan-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-cyan-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               The data set 4, 7, 7, 9, 10, 12, 15, 18 has mean 10.25. You replace the 18 with 20 (the
               outlier button). Which statistic moves MOST?
@@ -564,7 +564,7 @@ export function C10_MathematicsStatisticsSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 0;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-cyan-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -610,7 +610,7 @@ export function C10_MathematicsStatisticsSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-cyan-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -678,9 +678,9 @@ export function C10_MathematicsStatisticsSim() {
                     <input
                       type="range" min={0} max={20} value={v} aria-label={`observation ${i + 1}`}
                       onChange={(e) => setValue(i, Number(e.target.value))}
-                      className="flex-1 accent-cyan-400 h-1"
+                      className="flex-1 accent-gold-400 h-1"
                     />
-                    <span className="font-mono text-xs text-cyan-300 w-6 text-right">{v}</span>
+                    <span className="font-mono text-xs text-gold-300 w-6 text-right">{v}</span>
                   </div>
                 ))}
               </div>
@@ -695,11 +695,11 @@ export function C10_MathematicsStatisticsSim() {
             <div className="grid grid-cols-2 gap-2">
               {statCard('Mean', stats.mean.toFixed(2), 'text-amber-300', `sum ${stats.sum} / n ${stats.n}`)}
               {statCard('Median', String(stats.median), 'text-pink-300', 'middle of sorted list')}
-              {statCard('Mode', stats.modes.length ? stats.modes.join(', ') : 'none', 'text-cyan-300',
+              {statCard('Mode', stats.modes.length ? stats.modes.join(', ') : 'none', 'text-gold-300',
                 stats.modes.length ? `appears ${stats.maxF} times` : 'no repeats')}
               {statCard('Range', String(stats.range), 'text-emerald-300', 'max - min')}
-              {statCard('Variance', stats.variance.toFixed(2), 'text-violet-300', 'mean of squared deviations')}
-              {statCard('Std. deviation', stats.sd.toFixed(2), 'text-violet-300', 'typical distance from mean')}
+              {statCard('Variance', stats.variance.toFixed(2), 'text-gold-300', 'mean of squared deviations')}
+              {statCard('Std. deviation', stats.sd.toFixed(2), 'text-gold-300', 'typical distance from mean')}
             </div>
 
             <div className="bg-slate-900/60 rounded-2xl border border-slate-800 p-4 text-xs leading-relaxed text-slate-400">
@@ -711,8 +711,8 @@ export function C10_MathematicsStatisticsSim() {
               </p>
             </div>
 
-            <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-              <p className="font-bold text-cyan-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Add an outlier of 20, then try to restore the old mean by editing ONE other value. Possible?</p>
               <p className="mt-1">2. Build a data set where mean &gt; median &gt; mode. What shape do the bars have?</p>
               <p className="mt-1">3. Press all +1 five times. Which cards moved by exactly 5 and which did not move at all?</p>
@@ -749,7 +749,7 @@ export function C10_MathematicsStatisticsSim() {
                     return (
                       <tr
                         key={i}
-                        className={`border-t border-slate-800 ${isModal ? 'bg-cyan-950/50' : ''} ${isMedian ? 'bg-pink-950/40' : ''}`}
+                        className={`border-t border-slate-800 ${isModal ? 'bg-gold-950/50' : ''} ${isMedian ? 'bg-pink-950/40' : ''}`}
                       >
                         <td className="py-1 text-slate-400">
                           {m - classWidth / 2}-{m + classWidth / 2}
@@ -764,7 +764,7 @@ export function C10_MathematicsStatisticsSim() {
                             onChange={(e) =>
                               setGMid((arr) => arr.map((x, j) => (j === i ? Math.max(0, Math.min(200, Number(e.target.value) || 0)) : x)))
                             }
-                            className="w-14 bg-slate-950 border border-slate-700 rounded px-1 text-cyan-300"
+                            className="w-14 bg-slate-950 border border-slate-700 rounded px-1 text-gold-300"
                           />
                         </td>
                         <td className="py-1">
@@ -777,7 +777,7 @@ export function C10_MathematicsStatisticsSim() {
                             onChange={(e) =>
                               setGFreq((arr) => arr.map((x, j) => (j === i ? Math.max(0, Math.min(99, Number(e.target.value) || 0)) : x)))
                             }
-                            className={`w-14 bg-slate-950 border rounded px-1 ${isModal ? 'border-cyan-500 text-cyan-300' : 'border-slate-700 text-slate-200'}`}
+                            className={`w-14 bg-slate-950 border rounded px-1 ${isModal ? 'border-gold-500 text-gold-300' : 'border-slate-700 text-slate-200'}`}
                           />
                         </td>
                         <td className="py-1 text-right text-slate-500">{c}</td>
@@ -790,10 +790,10 @@ export function C10_MathematicsStatisticsSim() {
                 <div>
                   <label className="text-[10px] text-slate-500 flex justify-between">
                     <span>class width h</span>
-                    <span className="font-mono text-cyan-300">{classWidth}</span>
+                    <span className="font-mono text-gold-300">{classWidth}</span>
                   </label>
                   <input type="range" min={2} max={20} value={classWidth} aria-label="class width"
-                    onChange={(e) => setClassWidth(Number(e.target.value))} className="w-full accent-cyan-500" />
+                    onChange={(e) => setClassWidth(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-[10px] text-slate-500 flex justify-between">
@@ -847,15 +847,15 @@ export function C10_MathematicsStatisticsSim() {
           <div className="space-y-4">
             {/* mode + median cards */}
             <div className="grid grid-cols-1 gap-2">
-              <div className="bg-slate-900/80 rounded-2xl border border-cyan-800/60 p-4 text-xs font-mono space-y-1">
-                <p className="text-cyan-300 font-bold">Mode of grouped data</p>
+              <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+                <p className="text-gold-300 font-bold">Mode of grouped data</p>
                 <p className="text-slate-400">
                   modal class {modalLower}-{modalLower + classWidth} \u00b7 f1={f1}, f0={f0}, f2={f2}, h={classWidth}
                 </p>
                 <p className="text-slate-400">
                   mode = l + ((f1\u2212f0)/(2f1\u2212f0\u2212f2))\u00b7h = {modalLower} + (({f1}\u2212{f0})/({2 * f1}\u2212{f0}\u2212{f2}))\u00d7{classWidth}
                 </p>
-                <p className="text-cyan-200 font-bold text-sm">
+                <p className="text-gold-200 font-bold text-sm">
                   = {gMode.toFixed(3)}
                   {gModeDen === 0 && <span className="text-amber-400"> (flat class -- denominator zero, midpoint used)</span>}
                 </p>
@@ -904,8 +904,8 @@ export function C10_MathematicsStatisticsSim() {
               </p>
             </div>
 
-            <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-              <p className="font-bold text-cyan-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Make the data perfectly symmetric around 30 (hint: mirror the frequencies) -- what do mean, median and mode all become?</p>
               <p className="mt-1">2. Set f0 = f2 (equal neighbours of the modal class). Where does the mode formula drop the mode? Why is that geometrically obvious?</p>
               <p className="mt-1">3. Slide the assumed mean from 0 to 100. Does the final mean change? Does \u03a3fd? Which one is the shortcut paying for?</p>
@@ -935,7 +935,7 @@ export function C10_MathematicsStatisticsSim() {
                   key={t}
                   onClick={() => setTierFilter(t)}
                   className={`min-h-9 px-3 rounded-lg text-[11px] font-bold capitalize transition-all ${
-                    tierFilter === t ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                    tierFilter === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
                   {t}
@@ -977,7 +977,7 @@ export function C10_MathematicsStatisticsSim() {
                 <p className="text-sm text-slate-200 leading-relaxed mb-2.5">{ch.question}</p>
                 <div className="space-y-1.5">
                   {ch.options.map((opt, i) => {
-                    let cls = 'border-slate-700 bg-slate-950 hover:border-cyan-600';
+                    let cls = 'border-slate-700 bg-slate-950 hover:border-gold-600';
                     if (isRevealed && i === ch.correctIndex) cls = 'border-emerald-600 bg-emerald-950/60';
                     else if (isRevealed && i === chosen) cls = 'border-rose-600 bg-rose-950/60';
                     return (
@@ -1050,14 +1050,14 @@ export function C10_MathematicsStatisticsSim() {
           </div>
 
           <div className="p-5 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2">If you remember three lines</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">If you remember three lines</p>
             <ol className="space-y-2 text-sm text-slate-300 leading-relaxed list-decimal ml-5">
               <li>Mean uses every value (so outliers own it); median uses only ORDER; mode uses only COUNTS.</li>
               <li>Grouped data: three mean methods agree exactly; median comes from cf; mode from the modal-class formula.</li>
               <li>SD measures spread, not size -- two data sets can share an SD and have nothing else in common.</li>
             </ol>
             <div className="mt-3 flex gap-2">
-              <button onClick={() => setTab('raw')} className="min-h-11 px-5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-sm font-bold">
+              <button onClick={() => setTab('raw')} className="min-h-11 px-5 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold">
                 Back to Raw Data
               </button>
               <button onClick={() => setData([...START])} className="min-h-11 px-5 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold">

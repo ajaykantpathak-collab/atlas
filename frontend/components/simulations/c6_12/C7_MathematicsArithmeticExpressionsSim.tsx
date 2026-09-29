@@ -45,7 +45,7 @@ export function C7_MathematicsArithmeticExpressionsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Arithmetic Expressions: Who Goes First?</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Arithmetic Expressions: Who Goes First?</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Mode switch */}
@@ -58,7 +58,7 @@ export function C7_MathematicsArithmeticExpressionsSim() {
           <button
             key={m.id}
             onClick={() => { setMode(m.id); setStepIdx(0); }}
-            className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-colors ${mode === m.id ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-colors ${mode === m.id ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {m.label}
           </button>
@@ -68,7 +68,7 @@ export function C7_MathematicsArithmeticExpressionsSim() {
       {/* Expression strip */}
       <div className="mt-4 p-4 bg-slate-950 rounded-2xl border border-slate-700 text-center font-mono text-2xl">
         {mode === 'brackets' && <span className="text-slate-400">( </span>}
-        <span className="text-sky-300">{a}</span>
+        <span className="text-gold-300">{a}</span>
         <span className="text-white mx-2">{op1}</span>
         <span className="text-emerald-300">{b}</span>
         <span className="text-white mx-2">x</span>
@@ -96,7 +96,7 @@ export function C7_MathematicsArithmeticExpressionsSim() {
           </div>
         ) : (
           <div>
-            <p className="text-xs text-indigo-300 font-semibold uppercase tracking-wide">Step {stepIdx + 1} of {steps.length}</p>
+            <p className="text-xs text-gold-300 font-semibold uppercase tracking-wide">Step {stepIdx + 1} of {steps.length}</p>
             <p className="text-slate-200 text-sm mt-1">{steps[stepIdx].text}</p>
             <p className="font-mono text-lg mt-2 text-amber-300">{steps[stepIdx].expr}</p>
           </div>
@@ -114,7 +114,7 @@ export function C7_MathematicsArithmeticExpressionsSim() {
         <button
           onClick={() => setStepIdx((s) => Math.min(steps.length, s + 1))}
           disabled={done}
-          className="px-5 py-2 rounded-xl text-sm font-bold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500 disabled:opacity-40"
+          className="px-5 py-2 rounded-xl text-sm font-bold border bg-gold-600 border-gold-400 hover:bg-gold-500 disabled:opacity-40"
         >
           Do next step
         </button>
@@ -129,8 +129,8 @@ export function C7_MathematicsArithmeticExpressionsSim() {
       {/* Number controls */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
-          <label className="text-xs text-slate-300 flex justify-between"><span>a</span><span className="font-mono font-bold text-sky-300">{a}</span></label>
-          <input type="range" aria-label="value a" min={1} max={12} value={a} onChange={(e) => { setA(Number(e.target.value)); setStepIdx(0); }} className="w-full mt-2 accent-sky-400" />
+          <label className="text-xs text-slate-300 flex justify-between"><span>a</span><span className="font-mono font-bold text-gold-300">{a}</span></label>
+          <input type="range" aria-label="value a" min={1} max={12} value={a} onChange={(e) => { setA(Number(e.target.value)); setStepIdx(0); }} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between"><span>b</span><span className="font-mono font-bold text-emerald-300">{b}</span></label>
@@ -151,15 +151,15 @@ export function C7_MathematicsArithmeticExpressionsSim() {
           <button
             key={o}
             onClick={() => { setOp1(o); setStepIdx(0); }}
-            className={`px-5 py-2 rounded-xl text-sm font-bold border transition-colors ${op1 === o ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-5 py-2 rounded-xl text-sm font-bold border transition-colors ${op1 === o ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             a {o} b...
           </button>
         ))}
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Solve the plain sum to the end, then switch to the bracket version. Do the two answers match or differ? Try to find numbers where they are EQUAL.</li>
           <li>Predict on paper first: with a=4, b=3, c=5, d=2, what should each step give? Then check with the stepper.</li>

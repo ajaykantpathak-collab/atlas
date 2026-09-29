@@ -7,7 +7,7 @@ export const c3Matter: SimDef = {
     id: 'c3_matter', title: 'Solid, Liquid, Gas', subtitle: 'The three forms of stuff!',
     classLevel: 3, subject: 'evs', topic: 'States of Matter',
     chapters: ['EVS-3: states of matter'],
-    emoji: '💧', theme: { bg: 'from-cyan-100 to-blue-200', accent: 'cyan', scene: 'matter' },
+    emoji: '💧', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'matter' },
     scenario: { role: "a matter scientist", intro: 'Everything around you is solid, liquid, or gas. Ice melts, water boils — matter changes!', goal: 'Sort every substance by its state.' },
     discovery: {
         question: "Ice cube on a hot day — what happens?",
@@ -16,9 +16,9 @@ export const c3Matter: SimDef = {
         hook: 'Heat turns solid → liquid! That is MELTING!',
     },
     teaching: [
-        { title: 'Solids Keep Shape 🧊', text: 'Solids are hard and keep their shape — ice, stone, your desk. Squeeze a ball — it stays a ball!', emoji: '🧊', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Liquids Flow 🥛', text: 'Liquids take the shape of their container — water, milk, juice. Pour them — they flow!', emoji: '🥛', bgColor: 'from-cyan-400 to-teal-500' },
-        { title: 'Gases Fill Space 💨', text: 'Gases spread everywhere — air in a balloon, steam, the smell of food. You cannot see most of them!', emoji: '💨', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Solids Keep Shape 🧊', text: 'Solids are hard and keep their shape — ice, stone, your desk. Squeeze a ball — it stays a ball!', emoji: '🧊', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Liquids Flow 🥛', text: 'Liquids take the shape of their container — water, milk, juice. Pour them — they flow!', emoji: '🥛', bgColor: 'from-gold-400 to-teal-500' },
+        { title: 'Gases Fill Space 💨', text: 'Gases spread everywhere — air in a balloon, steam, the smell of food. You cannot see most of them!', emoji: '💨', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Changing States 🔁', text: 'Heat melts solid→liquid and boils liquid→gas. Cold freezes liquid→solid and condenses gas→liquid!', emoji: '🔁', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { lab: 'pour', prompt: 'Pour and fill — watch the liquid take the jug\'s shape!' },

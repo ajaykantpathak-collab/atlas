@@ -57,7 +57,7 @@ const TEACHING_SLIDES = [
     title: 'Comparing Weights ⚖️',
     text: 'Weight tells us how heavy or light an object is! A brick is heavier than a feather. A pencil is lighter than a textbook. We can feel the pull in our hands or use a balance scale!',
     emoji: '⚖️',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Weight tells us how heavy or light an object is! A brick is heavier than a feather. A pencil is lighter than a book!'
   },
   {
@@ -78,7 +78,7 @@ const TEACHING_SLIDES = [
     title: 'Container Capacity 🪣💧',
     text: 'Capacity is how much liquid a container can hold! A bucket holds more water than a jug, and a jug holds more than a small glass. We order them from least to most capacity!',
     emoji: '🪣',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Capacity is how much liquid a container can hold! A bucket holds more water than a jug and a glass!'
   },
 ];

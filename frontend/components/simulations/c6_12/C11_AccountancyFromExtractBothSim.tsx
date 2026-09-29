@@ -1098,7 +1098,7 @@ function C11_AccountancyFromExtractBothSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 rounded-2xl bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/40 border border-emerald-800/40">
+          <div className="p-5 rounded-2xl bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/40 border border-emerald-800/40">
             <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Case Scenario</span>
             <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1338,8 +1338,8 @@ function C11_AccountancyFromExtractBothSim({
                 {/* Pass Book Table */}
                 <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
                   <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-sm font-bold text-indigo-300">Bank Pass Book Extract</h3>
-                    <span className="text-xs bg-indigo-950 text-indigo-400 px-2 py-0.5 rounded border border-indigo-800">
+                    <h3 className="text-sm font-bold text-gold-300">Bank Pass Book Extract</h3>
+                    <span className="text-xs bg-gold-950 text-gold-400 px-2 py-0.5 rounded border border-gold-800">
                       HDFC Bank Record
                     </span>
                   </div>
@@ -1354,7 +1354,7 @@ function C11_AccountancyFromExtractBothSim({
                           onClick={() => handleToggleExtractTick(e.id, 'pb')}
                           className={`p-3 rounded-xl border cursor-pointer transition-all flex items-center justify-between ${
                             isTicked
-                              ? 'bg-indigo-950/60 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                               : 'bg-slate-950 border-slate-800 text-slate-300'
                           }`}
                         >
@@ -1364,7 +1364,7 @@ function C11_AccountancyFromExtractBothSim({
                           </div>
                           <div className="flex items-center gap-2">
                             <span className="font-mono font-bold text-sm">₹{e.amount.toLocaleString('en-IN')}</span>
-                            <span className={`w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold border ${isTicked ? 'bg-indigo-500 text-white border-indigo-400' : 'border-slate-700 text-slate-600'}`}>
+                            <span className={`w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold border ${isTicked ? 'bg-gold-500 text-white border-gold-400' : 'border-slate-700 text-slate-600'}`}>
                               {isTicked ? '✓' : ''}
                             </span>
                           </div>
@@ -1414,10 +1414,10 @@ function C11_AccountancyFromExtractBothSim({
                   </ul>
                 </div>
 
-                <div className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-800/40">
+                <div className="p-4 bg-gold-950/30 rounded-xl border border-gold-800/40">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="w-3 h-3 rounded-full bg-indigo-400"></span>
-                    <h4 className="text-sm font-bold text-indigo-300">2. Residual BRS (Timing Differences Only)</h4>
+                    <span className="w-3 h-3 rounded-full bg-gold-400"></span>
+                    <h4 className="text-sm font-bold text-gold-300">2. Residual BRS (Timing Differences Only)</h4>
                   </div>
                   <p className="text-xs text-slate-400 mb-3">
                     Entries already correctly journalised by the firm, waiting for bank clearance next month:
@@ -1473,7 +1473,7 @@ function C11_AccountancyFromExtractBothSim({
               {/* Topic Vector Diagram 2: Dynamic Live Depreciation Comparison SVG */}
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Topic Vector Diagram 2: Live Mathematical Decay Geometry (AS-10 & Schedule II)
                   </span>
                   <span className="text-[10px] text-emerald-400 font-mono">Interactive Vector Engine</span>
@@ -1628,7 +1628,7 @@ function C11_AccountancyFromExtractBothSim({
                   <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wider">Book Value Trajectory Over Time (₹)</h4>
                   <div className="flex items-center gap-4 text-xs">
                     <span className="flex items-center gap-1.5 text-emerald-400"><span className="w-3 h-0.5 bg-emerald-400 inline-block"></span> SLM (Linear)</span>
-                    <span className="flex items-center gap-1.5 text-indigo-400"><span className="w-3 h-0.5 bg-indigo-400 inline-block"></span> WDV (Geometric Decay)</span>
+                    <span className="flex items-center gap-1.5 text-gold-400"><span className="w-3 h-0.5 bg-gold-400 inline-block"></span> WDV (Geometric Decay)</span>
                   </div>
                 </div>
                 <div className="h-64 w-full">
@@ -1651,7 +1651,7 @@ function C11_AccountancyFromExtractBothSim({
               {/* Observation Question */}
               {!observationAnswered && (
                 <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-                  <p className="text-xs font-bold text-indigo-300 uppercase mb-2">Scientific Observation:</p>
+                  <p className="text-xs font-bold text-gold-300 uppercase mb-2">Scientific Observation:</p>
                   <p className="text-sm text-slate-200 mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1699,7 +1699,7 @@ function C11_AccountancyFromExtractBothSim({
                     className={`p-3 rounded-xl border text-xs font-bold transition-all ${
                       disposalCostDropped
                         ? 'bg-slate-800/40 text-slate-600 border-slate-800'
-                        : 'bg-indigo-900/60 text-indigo-200 border-indigo-700 shadow'
+                        : 'bg-gold-900/60 text-gold-200 border-gold-700 shadow'
                     }`}
                   >
                     + Transfer Original Cost (₹8,00,000)
@@ -1759,7 +1759,7 @@ function C11_AccountancyFromExtractBothSim({
                   <div className="p-4 space-y-2">
                     <div className="font-bold text-slate-400 border-b border-slate-800 pb-1">Cr. (Credits)</div>
                     {disposalAccDepDropped && (
-                      <div className="flex justify-between font-mono text-indigo-300 bg-slate-900/80 p-2 rounded">
+                      <div className="flex justify-between font-mono text-gold-300 bg-slate-900/80 p-2 rounded">
                         <span>By Provision for Dep A/c</span>
                         <span>₹2,80,000</span>
                       </div>
@@ -1908,7 +1908,7 @@ function C11_AccountancyFromExtractBothSim({
 
                   <div className="flex justify-between items-end pt-4 border-t border-slate-800">
                     <div className="text-xs">
-                      <div className="font-bold text-indigo-400">To: Drawee</div>
+                      <div className="font-bold text-gold-400">To: Drawee</div>
                       <div>{billClauses.includes('Accepted: Reliance Industries Ltd (Drawee)') ? 'Accepted: Reliance Industries Ltd' : '[Needs Acceptance Signature]'}</div>
                     </div>
                     <div className="text-xs text-right">
@@ -2036,7 +2036,7 @@ function C11_AccountancyFromExtractBothSim({
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-400 border-rose-700'
-                    : 'bg-indigo-950 text-indigo-400 border-indigo-700'
+                    : 'bg-gold-950 text-gold-400 border-gold-700'
                 }`}
               >
                 {difficulty} Tier
@@ -2059,7 +2059,7 @@ function C11_AccountancyFromExtractBothSim({
           {/* Progress bar */}
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2127,7 +2127,7 @@ function C11_AccountancyFromExtractBothSim({
                       whileTap={{ scale: 0.95 }}
                       role="button"
                       aria-label={`Drag item ${item.label}`}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-900/80 border border-indigo-700 text-indigo-200 text-xs font-bold cursor-grab active:cursor-grabbing"
+                      className="px-3 py-1.5 rounded-lg bg-gold-900/80 border border-gold-700 text-gold-200 text-xs font-bold cursor-grab active:cursor-grabbing"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2149,9 +2149,9 @@ function C11_AccountancyFromExtractBothSim({
                   <div
                     onDragOver={e => e.preventDefault()}
                     onDrop={() => handleDragDrop('zone_pb')}
-                    className="p-4 rounded-xl bg-slate-950 border-2 border-dashed border-indigo-800/60 min-h-[90px] flex flex-col justify-center items-center text-center"
+                    className="p-4 rounded-xl bg-slate-950 border-2 border-dashed border-gold-800/60 min-h-[90px] flex flex-col justify-center items-center text-center"
                   >
-                    <span className="text-xs font-bold text-indigo-400 mb-1">Pass-Book-Only (Bank-Initiated Item)</span>
+                    <span className="text-xs font-bold text-gold-400 mb-1">Pass-Book-Only (Bank-Initiated Item)</span>
                     <span className="text-xs text-slate-300 font-medium">
                       {droppedLabels['zone_pb'] || '[Drop Pass-Book-Only Item Here]'}
                     </span>
@@ -2262,7 +2262,7 @@ function C11_AccountancyFromExtractBothSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 rounded-md bg-indigo-950 text-indigo-300 text-xs font-mono border border-indigo-700 flex items-center gap-1.5"
+                      className="px-3 py-1 rounded-md bg-gold-950 text-gold-300 text-xs font-mono border border-gold-700 flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2353,7 +2353,7 @@ function C11_AccountancyFromExtractBothSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-2xl font-bold text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
 
@@ -2398,13 +2398,13 @@ function C11_AccountancyFromExtractBothSim({
           </div>
 
           {/* Real World Practical Project */}
-          <div className="p-5 bg-indigo-950/30 rounded-2xl border border-indigo-900/60 space-y-2">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/30 rounded-2xl border border-gold-900/60 space-y-2">
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400">
-                  <strong className="text-indigo-400 mr-1.5">{idx + 1}.</strong> {step}
+                  <strong className="text-gold-400 mr-1.5">{idx + 1}.</strong> {step}
                 </div>
               ))}
             </div>

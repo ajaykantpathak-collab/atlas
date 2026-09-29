@@ -11,7 +11,7 @@ export const w_c12_mathematicschapter9differentialequationssim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Derivatives of Implicit Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_05_007', 'c12_math_cbse_05_010', 'c12_math_cbse_05_011', 'c12_math_cbse_09_001', 'c12_math_cbse_09_002', 'c12_math_cbse_09_003', 'c12_math_cbse_09_004', 'c12_math_cbse_09_005', 'c12_math_cbse_09_006', 'c12_math_cbse_09_007', 'c12_math_cbse_09_008', 'c12_math_cbse_06_005', 'c12_math_cbse_03_006', 'c12_math_cbse_02_002', 'c12_math_cbse_08_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re designing a roller coaster track where the shape is given by x² + y² = 25 (a circle).', goal: 'Master Derivatives of Implicit Functions.' },
     discovery: {
         question: 'What is the mathematical definition of the second order derivative of a function \\(y = f(x)\\)? Write the notation used for it.',
@@ -20,7 +20,7 @@ export const w_c12_mathematicschapter9differentialequationssim: SimDef = {
         hook: '**Misconception:** \\(\\frac{d^2y}{dx^2} = \\left(\\frac{dy}{dx}\\right)^2\\) or \\(\\frac{d^2y}{dx^2} = \\frac{d^2y}{d^2x}\\).',
     },
     teaching: [
-        { title: 'An implicit function is a relationship.', text: 'An implicit function is a relationship between variables x and y expressed as f(x, y) = 0 where y cannot be easily isolated as y = g(x).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An implicit function is a relationship.', text: 'An implicit function is a relationship between variables x and y expressed as f(x, y) = 0 where y cannot be easily isolated as y = g(x).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_05_007', title: 'An implicit function is a relationship.',

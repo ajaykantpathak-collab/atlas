@@ -147,6 +147,10 @@ interface AnswerFeedback {
   selectedIndex: number;
   correctIndex: number;
   isCorrect: boolean;
+  /** false = the answer is saved for sync but NOT yet graded (offline).
+      The verdict arrives from /submit when the answer syncs — an
+      ungraded answer is never displayed as wrong. */
+  graded?: boolean;
   explanation: string;
   pointsEarned: number;
   masteryBefore: number;
@@ -240,6 +244,8 @@ interface PracticeState {
   isLoading: boolean;
   startTime: number | null;
   advanceTimer: number | null;
+  /** question currently awaiting the server's verdict ("Checking…" beat) */
+  checkingId: string | null;
   streakDays: number;
   masteryPercent: number;
   masterySubject: string;
@@ -287,6 +293,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
   startTime: null,
   advanceTimer: null,
   sessionTotal: TOTAL_QUESTIONS,
+  checkingId: null,
   streakDays: 0,
   masteryPercent: 0,
   masterySubject: 'Mathematics',
@@ -383,7 +390,9 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
             text: q.text || q.question_text,
             latex: q.latex,
             options: q.options || [],
-            correctIndex: q.correct_option ?? -1,
+            // The answer key stays server-side: /submit grades MCQ picks,
+            // so /start never ships (and we never read) a correct_option.
+            correctIndex: -1,
             inputType: (q.options?.length ? 'options' : 'text') as 'options' | 'text',
             subject: q.subject || subject,
             topic: q.topic || topic,
@@ -410,7 +419,8 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
             text: q.text || q.question_text,
             latex: q.latex,
             options: q.options || [],
-            correctIndex: q.correct_option ?? q.correctIndex ?? -1,
+            // Same server-side-key contract as /start — grade via /submit.
+            correctIndex: -1,
             inputType: (q.options?.length ? 'options' : 'text') as 'options' | 'text',
             subject: q.subject || subject,
             topic: q.topic || topic,
@@ -480,8 +490,15 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     const question = questions[currentIndex];
     if (!question || question.id !== questionId) return;
 
-    // correctIndex is -1 when the server holds the key — no client guess
-    const isCorrect = question.correctIndex >= 0 && selectedIndex === question.correctIndex;
+    // Grading is SERVER-SIDE: /submit returns the verdict (is_correct) and
+    // the page renders it. correctIndex is -1 now — no answer key ever
+    // reached the client — so when the API is unreachable the answer is
+    // UNGRADED: queued honestly, graded on reconnect, never marked wrong
+    // locally. (A legacy offline-cache entry that predates this contract
+    // may still carry a key; that local verdict is only a last resort.)
+    set({ checkingId: questionId });
+    const locallyGradeable = question.correctIndex >= 0;
+    const localVerdict = locallyGradeable && selectedIndex === question.correctIndex;
 
     // Try submitting to the proper API endpoint for real feedback
     let apiFeedback: { isCorrect: boolean; explanation: string; pointsEarned: number; misconception?: string; remediation?: string; reviewTopics?: { title: string; slug: string }[] } | null = null;
@@ -515,9 +532,9 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       if (res.ok) {
         const data = await res.json();
         apiFeedback = {
-          isCorrect: data.feedback?.is_correct ?? isCorrect,
+          isCorrect: data.feedback?.is_correct ?? localVerdict,
           explanation: data.feedback?.explanation || '',
-          pointsEarned: data.feedback?.points_earned ?? (isCorrect ? 10 : 0),
+          pointsEarned: data.feedback?.points_earned ?? (localVerdict ? 10 : 0),
           misconception: data.feedback?.misconception || data.misconception || undefined,
           remediation: data.feedback?.remediation || data.remediation || undefined,
           reviewTopics: data.feedback?.review_topics || data.review_topics || undefined,
@@ -577,17 +594,24 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       : masteryBefore;
     const masteryDelta = masteryAfter - masteryBefore;
 
+    // A graded answer has a server verdict (or, legacy caches only, a local
+    // key). Ungraded = offline: saved for sync, verdict pending.
+    const graded = apiFeedback !== null || locallyGradeable;
+
     const feedback: AnswerFeedback = {
       questionId,
       selectedIndex,
       correctIndex: question.correctIndex,
-      isCorrect: apiFeedback?.isCorrect ?? isCorrect,
-      explanation: apiFeedback?.explanation || (isCorrect
+      isCorrect: apiFeedback?.isCorrect ?? localVerdict,
+      graded,
+      explanation: apiFeedback?.explanation || (graded && localVerdict
         ? 'Great thinking! You identified the right approach.'
-        : question.correctIndex >= 0 && question.options[question.correctIndex]
+        : graded && question.correctIndex >= 0 && question.options[question.correctIndex]
           ? `The correct answer is ${question.options[question.correctIndex]}. ${question.latex ? 'Look at the formula carefully — small signs make a big difference!' : 'Review the concept and try again.'}`
-          : 'Review the concept and try again — check your working carefully.'),
-      pointsEarned: apiFeedback?.pointsEarned ?? (isCorrect ? 10 : 0),
+          : graded
+            ? 'Review the concept and try again — check your working carefully.'
+            : 'You\u2019re offline — your answer is saved and will be checked when you\u2019re back online.'),
+      pointsEarned: apiFeedback?.pointsEarned ?? (graded && localVerdict ? 10 : 0),
       masteryBefore,
       masteryAfter,
       masteryDelta,
@@ -609,13 +633,14 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       feedbacks: newFeedbacks,
     });
 
-    // Queue answer for offline sync
+    // Queue answer for offline sync. The queued isCorrect is only the local
+    // belief (false when no key was cached) — the server re-grades on sync.
     try {
       await queueAnswer({
         sessionId: sessionId ?? '',
         questionId,
         selectedIndex,
-        isCorrect,
+        isCorrect: localVerdict,
         timestamp: Date.now(),
       });
       if (queuedForSync) {
@@ -625,15 +650,18 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
 
     // Schedule auto-advance — free-text answers bring the model-answer
     // coaching, which needs reading time; MCQ feedback stays snappy. After
-    // two consecutive wrongs the "Stuck?" rescue card opens and the advance
-    // backs off so the rescue steps are actually usable.
+    // two consecutive GRADED wrongs the "Stuck?" rescue card opens and the
+    // advance backs off so the rescue steps are actually usable. Ungraded
+    // (offline-saved) answers show a short honest "saved for sync" beat.
     let wrongStreak = 0;
-    for (let i = newFeedbacks.length - 1; i >= 0 && !newFeedbacks[i].isCorrect; i--) {
+    for (let i = newFeedbacks.length - 1; i >= 0
+        && !newFeedbacks[i].isCorrect && newFeedbacks[i].graded !== false; i--) {
       wrongStreak += 1;
     }
     const advanceDelay = wrongStreak >= 2
       ? RESCUE_ADVANCE_MS
-      : textAnswer !== undefined ? AUTO_ADVANCE_TEXT_MS : AUTO_ADVANCE_MS;
+      : graded ? (textAnswer !== undefined ? AUTO_ADVANCE_TEXT_MS : AUTO_ADVANCE_MS)
+      : AUTO_ADVANCE_MS;
     const timer = window.setTimeout(() => {
       const { currentIndex: ci, questions: qs } = get();
       if (ci < qs.length - 1) {
@@ -646,6 +674,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     set({
       screen: 'feedback',
       advanceTimer: timer,
+      checkingId: null,
     });
   },
 
@@ -719,13 +748,17 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
 
   completeSession: async () => {
     const { feedbacks, startTime, masteryPercent, streakDays, masterySubject } = get();
-    const correctCount = feedbacks.filter(f => f.isCorrect).length;
+    // Honest summary maths: only GRADED answers count toward correct/
+    // incorrect/accuracy. Ungraded (offline-saved) answers sync for server
+    // grading later — counting them as wrong would fabricate failures.
+    const gradedFeedbacks = feedbacks.filter(f => f.graded !== false);
+    const correctCount = gradedFeedbacks.filter(f => f.isCorrect).length;
     const timeSpent = startTime ? Math.round((Date.now() - startTime) / 1000) : 0;
 
     // Streak/mastery shown to the student must be REAL.  The session
     // delta is computed locally, but the post-session streak and
     // mastery come from /api/progress — never a fabricated "+1 day".
-    const accuracy = feedbacks.length > 0 ? Math.round((correctCount / feedbacks.length) * 100) : 0;
+    const accuracy = gradedFeedbacks.length > 0 ? Math.round((correctCount / gradedFeedbacks.length) * 100) : 0;
     const masteryDelta = Math.round(
       feedbacks.reduce((sum, f) => sum + (f.masteryAfter - f.masteryBefore), 0)
     );
@@ -771,6 +804,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     const solidSet = new Set<string>();
     const buildingSet = new Set<string>();
     for (const f of feedbacks) {
+      if (f.graded === false) continue; // ungraded: neither solid nor building yet
       const t = topicOf.get(f.questionId);
       if (!t) continue;
       (f.isCorrect ? solidSet : buildingSet).add(t);
@@ -780,7 +814,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     const summary: SessionSummary = {
       totalQuestions: TOTAL_QUESTIONS,
       correctCount,
-      incorrectCount: TOTAL_QUESTIONS - correctCount,
+      incorrectCount: gradedFeedbacks.length - correctCount,
       accuracy,
       masteryBefore: masteryPercent,
       masteryAfter: newMastery,
@@ -864,6 +898,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
       startTime: null,
       advanceTimer: null,
       isLoading: false,
+      checkingId: null,
       confidence: {},
       reviewItems: [],
       reviewServed: 0,
@@ -1259,6 +1294,7 @@ function QuestionScreen({
   confidence,
   onConfidence,
   hintNode,
+  checking,
 }: {
   question: Question;
   index: number;
@@ -1269,6 +1305,9 @@ function QuestionScreen({
   /** authored node backing the "I don't get it" hint when the question
    *  itself carries no node_id (matched by topic label). */
   hintNode?: string;
+  /** True while /submit holds the answer — the honest "Checking…" beat
+   *  where instant client-side feedback used to be. */
+  checking?: boolean;
 }) {
   const [selected, setSelected] = useState<number | null>(null);
   const [textAnswer, setTextAnswer] = useState('');
@@ -1573,7 +1612,8 @@ function QuestionScreen({
         </div>
       )}
 
-      {/* Submit button */}
+      {/* Submit button — flips to an honest "Checking…" beat while /submit
+          grades server-side (the client holds no answer key). */}
       <motion.button
         whileHover={{ scale: canSubmit && !submitted ? 1.02 : 1 }}
         whileTap={{ scale: canSubmit && !submitted ? 0.97 : 1 }}
@@ -1585,14 +1625,16 @@ function QuestionScreen({
           background: canSubmit && !submitted
             ? 'linear-gradient(135deg, #fbbf24, #f59e0b)'
             : 'rgba(255,255,255,0.04)',
-          color: canSubmit && !submitted ? '#131118' : TEXT_MUTED,
+          color: canSubmit && !submitted ? '#131118' : checking ? TEXT_BRIGHT : TEXT_MUTED,
           border: canSubmit && !submitted ? 'none' : '1px solid rgba(255,255,255,0.08)',
           cursor: canSubmit && !submitted ? 'pointer' : 'not-allowed',
           boxShadow: canSubmit && !submitted ? '0 4px 20px rgba(251,191,36,0.3)' : 'none',
         }}
         aria-label="Submit answer"
+        aria-busy={checking || undefined}
+        data-testid="submit-answer"
       >
-        Submit Answer
+        {checking ? 'Checking…' : 'Submit Answer'}
       </motion.button>
     </motion.div>
   );
@@ -1832,9 +1874,11 @@ function FeedbackScreen({
 }) {
   // Free-text answers show the model-answer coaching — give it reading time,
   // mirroring the store's auto-advance scheduling. The rescue card backs the
-  // advance off further (same constant the store schedules with).
+  // advance off further (same constant the store schedules with). Ungraded
+  // (offline-saved) answers carry a short honest "saved for sync" message.
   const advanceDelay = showRescue
     ? RESCUE_ADVANCE_MS
+    : feedback.graded === false ? AUTO_ADVANCE_MS
     : feedback.studentAnswer !== undefined ? AUTO_ADVANCE_TEXT_MS : AUTO_ADVANCE_MS;
   const [countdown, setCountdown] = useState(Math.ceil(advanceDelay / 1000));
   const countdownRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -1885,35 +1929,52 @@ function FeedbackScreen({
         className="text-7xl mb-5"
         aria-hidden="true"
       >
-        {feedback.isCorrect ? '🎉' : '💪'}
+        {feedback.graded === false ? '📨' : feedback.isCorrect ? '🎉' : '💪'}
       </motion.div>
 
-      {/* Status badge */}
+      {/* Status badge — an ungraded (offline-saved) answer is never shown
+          as wrong; its verdict arrives with the sync. */}
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.1 }}
         className="text-center mb-6"
       >
-        <div
-          className="text-3xl font-bold mb-1"
-          style={{
-            fontFamily: DISPLAY_FONT,
-            color: feedback.isCorrect ? MINT : RED_LIGHT,
-          }}
-        >
-          {feedback.isCorrect ? 'Correct! ✓' : 'Not quite ✗'}
-        </div>
-        <p
-          className="text-sm"
-          style={{ color: TEXT_SECONDARY, fontFamily: BODY_FONT }}
-        >
-          {feedback.isCorrect ? hinglishExplanations.correct : hinglishExplanations.incorrect}
-        </p>
+        {feedback.graded === false ? (
+          <>
+            <div
+              className="text-3xl font-bold mb-1"
+              style={{ fontFamily: DISPLAY_FONT, color: GOLD_PALE }}
+            >
+              Answer saved ✓
+            </div>
+            <p className="text-sm" style={{ color: TEXT_SECONDARY, fontFamily: BODY_FONT }}>
+              You&apos;re offline — your answer will be checked the moment you reconnect.
+            </p>
+          </>
+        ) : (
+          <>
+            <div
+              className="text-3xl font-bold mb-1"
+              style={{
+                fontFamily: DISPLAY_FONT,
+                color: feedback.isCorrect ? MINT : RED_LIGHT,
+              }}
+            >
+              {feedback.isCorrect ? 'Correct! ✓' : 'Not quite ✗'}
+            </div>
+            <p
+              className="text-sm"
+              style={{ color: TEXT_SECONDARY, fontFamily: BODY_FONT }}
+            >
+              {feedback.isCorrect ? hinglishExplanations.correct : hinglishExplanations.incorrect}
+            </p>
+          </>
+        )}
       </motion.div>
 
       {/* Points animation */}
-      {feedback.isCorrect && (
+      {feedback.graded !== false && feedback.isCorrect && (
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -1964,7 +2025,12 @@ function FeedbackScreen({
         role="note"
         aria-label="Explanation"
       >
-        {feedback.isCorrect && feedback.correctIndex !== feedback.selectedIndex ? (
+        {feedback.graded === false ? (
+          <>
+            <strong style={{ color: GOLD_PALE }}>Saved for sync: </strong>
+            Your answer is queued — the server grades it as soon as you&apos;re back online.
+          </>
+        ) : feedback.isCorrect && feedback.correctIndex !== feedback.selectedIndex ? (
           <>
             <strong style={{ color: MINT }}>{hinglishFeedback ? 'Sahi jawab! ' : 'Correct! '}</strong>
             {feedback.explanation}
@@ -1980,13 +2046,13 @@ function FeedbackScreen({
       {/* Copy-worthy answer — after a CORRECT free-text answer, the model
           version side-by-side with the student's, showing what the model had
           that the student's lacked (the thing examiners reward) */}
-      {feedback.isCorrect && feedback.studentAnswer && feedback.modelAnswer && (
+      {feedback.graded !== false && feedback.isCorrect && feedback.studentAnswer && feedback.modelAnswer && (
         <CopyWorthyCard feedback={feedback} />
       )}
 
       {/* Board-style model answer on wrong free-text answers — numbered,
           marked from the authored rubric when the question carries one */}
-      {!feedback.isCorrect && feedback.studentAnswer !== undefined && (feedback.modelAnswer || feedback.markingFeedback) && (
+      {feedback.graded !== false && !feedback.isCorrect && feedback.studentAnswer !== undefined && (feedback.modelAnswer || feedback.markingFeedback) && (
         <ModelAnswerBoard feedback={feedback} />
       )}
 
@@ -1997,7 +2063,7 @@ function FeedbackScreen({
       {/* §5 self-explanation — the child names the trap, not just receives
           the correction. One tap, un-tap on re-tap, logged to the local
           mix-ups journal; never graded, never sent. */}
-      {!feedback.isCorrect && onTagMixup && (
+      {feedback.graded !== false && !feedback.isCorrect && onTagMixup && (
         <motion.div
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
@@ -2038,8 +2104,8 @@ function FeedbackScreen({
       )}
 
       {/* Misconception-aware remediation — authored corpus guidance shown
-          only on wrong answers, when the node's pedagogy covers it */}
-      {!feedback.isCorrect && (feedback.misconception || feedback.remediation || (feedback.reviewTopics && feedback.reviewTopics.length > 0)) && (
+          only on GRADED wrong answers, when the node's pedagogy covers it */}
+      {feedback.graded !== false && !feedback.isCorrect && (feedback.misconception || feedback.remediation || (feedback.reviewTopics && feedback.reviewTopics.length > 0)) && (
         <motion.div
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
@@ -2723,6 +2789,7 @@ export default function PracticePage() {
   const {
     screen, questions, currentIndex, feedbacks, summary, errorMessage, sessionTotal,
     topic, subject, isLoading, streakDays, masteryPercent, masterySubject, confidence,
+    checkingId,
     startSession, submitAnswer, advanceToNext, completeSession, reset, setConfidence,
     reviewItems, reviewServed, submitReviewGrade, mixups, tagMixup,
   } = store;
@@ -2845,11 +2912,13 @@ export default function PracticePage() {
   // Derived: is this the last question?
   const isLastQuestion = currentIndex === questions.length - 1;
 
-  // EXAMREADY: trailing wrong-answer streak — two in a row open the
-  // "Stuck?" rescue card on the feedback screen.
+  // EXAMREADY: trailing wrong-answer streak — two GRADED wrongs in a row open
+  // the "Stuck?" rescue card on the feedback screen. Ungraded (offline-saved)
+  // answers stop the streak: no verdict yet, so no rescue trigger.
   const wrongStreak = useMemo(() => {
     let n = 0;
-    for (let i = feedbacks.length - 1; i >= 0 && !feedbacks[i].isCorrect; i--) {
+    for (let i = feedbacks.length - 1; i >= 0
+        && !feedbacks[i].isCorrect && feedbacks[i].graded !== false; i--) {
       n += 1;
     }
     return n;
@@ -2860,6 +2929,7 @@ export default function PracticePage() {
   const calibration = useMemo(() => {
     const cal = emptyCalibration();
     for (const f of feedbacks) {
+      if (f.graded === false) continue; // no verdict yet — don't pollute calibration
       tallyCalibration(cal, confidence[f.questionId], f.isCorrect);
     }
     return cal;
@@ -2968,6 +3038,7 @@ export default function PracticePage() {
                 index={currentIndex}
                 total={sessionTotal}
                 onAnswer={handleAnswer}
+                checking={checkingId === currentQuestion.id}
                 confidence={confidence[currentQuestion.id] ?? null}
                 onConfidence={setConfidence}
                 hintNode={(() => {

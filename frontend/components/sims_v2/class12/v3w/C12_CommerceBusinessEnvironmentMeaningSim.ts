@@ -11,7 +11,7 @@ export const w_c12_commercebusinessenvironmentmeaningsim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Business Environment: Meaning, Characteristics and Importance',
     chapters: [],
     nodeIds: ['c12_bs_cbse_03_001', 'c12_bs_cbse_03_005', 'c12_bs_cbse_03_006', 'c12_bs_cbse_03_002', 'c12_bs_cbse_03_003', 'c12_bs_cbse_03_004', 'c12_bs_cbse_03_009', 'c12_bs_cbse_03_010', 'c12_bs_cbse_11_007', 'c12_bs_cbse_04_009', 'c12_bs_cbse_08_010', 'c12_bs_cbse_01_005', 'c12_bs_cbse_11_008', 'c12_bs_cbse_11_009', 'c12_bs_cbse_02_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small cloud-kitchen selling millet-based snacks.', goal: 'Master Business Environment: Meaning, Characteristics and Importance.' },
     discovery: {
         question: 'A student writes: "Specific forces affect all firms equally, while general forces affect only one firm." Explain why this statement is incorrect and give one.',
@@ -20,7 +20,7 @@ export const w_c12_commercebusinessenvironmentmeaningsim: SimDef = {
         hook: 'Students often confuse "dimensions of business environment" (economic, social, technological, political, legal) with.',
     },
     teaching: [
-        { title: 'Business environment refers to the sum total.', text: 'Business environment refers to the sum total of all external individuals, institutions, and forces — such as economic, social, political, technological, and legal factors — that are outside the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Business environment refers to the sum total.', text: 'Business environment refers to the sum total of all external individuals, institutions, and forces — such as economic, social, political, technological, and legal factors — that are outside the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_03_001', title: 'Business environment refers to the sum.',

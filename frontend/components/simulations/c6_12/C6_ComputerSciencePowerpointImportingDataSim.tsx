@@ -1127,13 +1127,13 @@ function C6_ComputerSciencePowerpointImportingDataSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ICSE Class 6 • Computer Science Master Studio</p>
+            <p className="text-xs text-gold-400 font-medium">ICSE Class 6 • Computer Science Master Studio</p>
           </div>
         </div>
 
@@ -1149,7 +1149,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600/50'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-600/50'
-                : 'bg-blue-950/60 text-blue-400 border-blue-600/50'
+                : 'bg-gold-950/60 text-gold-400 border-gold-600/50'
             }`}
           >
             {difficulty}
@@ -1163,9 +1163,9 @@ function C6_ComputerSciencePowerpointImportingDataSim({
           {/* Narrative Card */}
           <motion.div
             whileHover={{ scale: 1.005 }}
-            className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 border border-indigo-800/60 shadow-lg"
+            className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 border border-gold-800/60 shadow-lg"
           >
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm mb-2">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm mb-2">
               <span className="text-lg">🚀</span> {SCENARIO.title}
             </div>
             <p className="text-sm text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
@@ -1197,7 +1197,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                       : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-indigo-400 mr-2">{String.fromCharCode(65 + idx)}.</span> {option}
+                  <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + idx)}.</span> {option}
                 </motion.button>
               ))}
             </div>
@@ -1219,7 +1219,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-indigo-500/25 transition-all flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-gold-500/25 transition-all flex items-center justify-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1235,10 +1235,10 @@ function C6_ComputerSciencePowerpointImportingDataSim({
           {/* Exploration Navigation Header */}
           <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-semibold tracking-wider uppercase">Guided Discovery Lab</span>
+              <span className="text-xs text-gold-400 font-semibold tracking-wider uppercase">Guided Discovery Lab</span>
               <h2 className="text-base sm:text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
-            <span className="px-3 py-1 bg-indigo-950 text-indigo-300 rounded-full text-xs font-mono font-bold border border-indigo-700">
+            <span className="px-3 py-1 bg-gold-950 text-gold-300 rounded-full text-xs font-mono font-bold border border-gold-700">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
           </div>
@@ -1268,7 +1268,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                     {/* Slide 1 Content */}
                     {pptCurrentSlide === 1 && (
                       <div className="p-4 space-y-3 text-center my-auto">
-                        <h3 className="text-lg font-extrabold text-indigo-300">Monsoon Rainfall in Indian Metro Cities</h3>
+                        <h3 className="text-lg font-extrabold text-gold-300">Monsoon Rainfall in Indian Metro Cities</h3>
                         <p className="text-xs text-slate-300">St. Xavier’s Class 6 Science & Computer Project</p>
                         <div className="flex justify-center gap-3 pt-2">
                           <motion.button
@@ -1276,7 +1276,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handlePptActionClick(2)}
                             aria-label="Action Button Next to Slide 2"
-                            className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg shadow flex items-center gap-1"
+                            className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow flex items-center gap-1"
                           >
                             <span>▶</span> Action: Next Slide
                           </motion.button>
@@ -1285,7 +1285,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handlePptActionClick(3)}
                             aria-label="Hyperlink to Chart Slide"
-                            className="px-4 py-2 bg-blue-600/30 hover:bg-blue-600/50 text-blue-300 border border-blue-500/50 text-xs font-semibold rounded-lg underline"
+                            className="px-4 py-2 bg-gold-600/30 hover:bg-gold-600/50 text-gold-300 border border-gold-500/50 text-xs font-semibold rounded-lg underline"
                           >
                             Hyperlink: Jump to Live Chart
                           </motion.button>
@@ -1315,7 +1315,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handlePptActionClick(3)}
-                            className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white text-xs rounded-lg"
+                            className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white text-xs rounded-lg"
                           >
                             Next Slide ⏭
                           </motion.button>
@@ -1439,8 +1439,8 @@ function C6_ComputerSciencePowerpointImportingDataSim({
 
                     {/* Prediction Trigger in Lab 1 */}
                     {!predictionMade && (
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-2">
-                        <span className="text-xs font-bold text-indigo-300">💡 Predict-Then-Check:</span>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-2">
+                        <span className="text-xs font-bold text-gold-300">💡 Predict-Then-Check:</span>
                         <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1482,7 +1482,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                     </div>
 
                     {/* SVG Game Stage */}
-                    <svg viewBox="0 0 300 220" className="w-full bg-gradient-to-b from-sky-950 to-indigo-950 rounded-xl border border-slate-800">
+                    <svg viewBox="0 0 300 220" className="w-full bg-gradient-to-b from-gold-950 to-gold-950 rounded-xl border border-slate-800">
                       {/* Grid markers */}
                       <line x1="0" y1="200" x2="300" y2="200" stroke="#334155" strokeWidth="2" />
 
@@ -1563,7 +1563,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                         <div className="bg-orange-600 text-white px-3 py-1 ml-4 my-0.5 rounded">
                           change [score v] by (1)
                         </div>
-                        <div className="bg-blue-600 text-white px-3 py-1 ml-4 rounded">
+                        <div className="bg-gold-600 text-white px-3 py-1 ml-4 rounded">
                           go to [random position v]
                         </div>
                         <div className="bg-amber-600 text-white px-3 py-0.5 rounded mt-0.5">
@@ -1588,7 +1588,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   {/* Left Column: Code Editor Controls */}
                   <div className="lg:col-span-6 bg-slate-950/80 p-4 rounded-2xl border border-slate-800 space-y-4 font-mono text-xs">
-                    <div className="text-indigo-300 font-bold border-b border-slate-800 pb-2 flex justify-between">
+                    <div className="text-gold-300 font-bold border-b border-slate-800 pb-2 flex justify-between">
                       <span>💻 HTML Source Code</span>
                       <span className="text-slate-400 font-normal">index.html</span>
                     </div>
@@ -1605,7 +1605,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                               audioManager.play('tap');
                             }}
                             className={`flex-1 py-1 rounded border text-xs font-bold uppercase ${
-                              htmlHeadingLevel === tag ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                              htmlHeadingLevel === tag ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                             }`}
                           >
                             &lt;{tag}&gt;
@@ -1651,7 +1651,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                           type="checkbox"
                           checked={htmlIsBold}
                           onChange={(e) => setHtmlIsBold(e.target.checked)}
-                          className="accent-indigo-500"
+                          className="accent-gold-500"
                         />
                         <span>Wrap with &lt;b&gt; (Bold)</span>
                       </label>
@@ -1660,7 +1660,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                           type="checkbox"
                           checked={htmlIsItalic}
                           onChange={(e) => setHtmlIsItalic(e.target.checked)}
-                          className="accent-indigo-500"
+                          className="accent-gold-500"
                         />
                         <span>Wrap with &lt;i&gt; (Italic)</span>
                       </label>
@@ -1668,8 +1668,8 @@ function C6_ComputerSciencePowerpointImportingDataSim({
 
                     {/* Observation Question */}
                     {!observationAnswered && (
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-2 font-sans">
-                        <span className="text-xs font-bold text-indigo-300">🔍 Scientific Observation:</span>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-2 font-sans">
+                        <span className="text-xs font-bold text-gold-300">🔍 Scientific Observation:</span>
                         <p className="text-xs text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1744,7 +1744,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   {/* Left Column: List and Hyperlink Assembly */}
                   <div className="lg:col-span-6 bg-slate-950/80 p-4 rounded-2xl border border-slate-800 space-y-4 text-xs">
-                    <div className="text-indigo-300 font-bold border-b border-slate-800 pb-2">
+                    <div className="text-gold-300 font-bold border-b border-slate-800 pb-2">
                       🏷 HTML Lists & Link Customizer
                     </div>
 
@@ -1754,7 +1754,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                         <button
                           onClick={() => setMediaListType('ol')}
                           className={`flex-1 py-2 rounded-xl border text-xs font-bold ${
-                            mediaListType === 'ol' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                            mediaListType === 'ol' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                           }`}
                         >
                           &lt;ol&gt; Ordered (Numbered 1, 2, 3)
@@ -1762,7 +1762,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                         <button
                           onClick={() => setMediaListType('ul')}
                           className={`flex-1 py-2 rounded-xl border text-xs font-bold ${
-                            mediaListType === 'ul' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                            mediaListType === 'ul' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                           }`}
                         >
                           &lt;ul&gt; Unordered (Bulleted •)
@@ -1781,7 +1781,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                             key={item.id}
                             onClick={() => setMediaImageSelected(item.id)}
                             className={`p-2 rounded-lg border text-left text-xs ${
-                              mediaImageSelected === item.id ? 'bg-blue-600/30 text-blue-200 border-blue-500' : 'bg-slate-900 text-slate-400 border-slate-800'
+                              mediaImageSelected === item.id ? 'bg-gold-600/30 text-gold-200 border-gold-500' : 'bg-slate-900 text-slate-400 border-slate-800'
                             }`}
                           >
                             🖼 {item.title}
@@ -1796,7 +1796,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                           type="checkbox"
                           checked={mediaHyperlinkActive}
                           onChange={(e) => setMediaHyperlinkActive(e.target.checked)}
-                          className="accent-indigo-500"
+                          className="accent-gold-500"
                         />
                         <span>Wrap image inside &lt;a href="https://delhitourism.gov.in"&gt;</span>
                       </label>
@@ -1837,10 +1837,10 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                               audioManager.play('pop');
                               speechManager.speak('Hyperlinked image clicked! Opening external portal.');
                             }}
-                            className="block p-3 bg-blue-950/40 border-2 border-dashed border-blue-500/60 rounded-xl text-center cursor-pointer hover:bg-blue-900/40 transition-colors"
+                            className="block p-3 bg-gold-950/40 border-2 border-dashed border-gold-500/60 rounded-xl text-center cursor-pointer hover:bg-gold-900/40 transition-colors"
                           >
                             <span className="text-2xl block mb-1">🏛️</span>
-                            <span className="text-xs text-blue-300 font-bold underline">
+                            <span className="text-xs text-gold-300 font-bold underline">
                               [Clickable Image: {mediaImageSelected} → Opens Delhi Tourism]
                             </span>
                           </motion.a>
@@ -1861,7 +1861,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   {/* Left Column: URL Parameter Controls */}
                   <div className="lg:col-span-6 bg-slate-950/80 p-4 rounded-2xl border border-slate-800 space-y-4 text-xs">
-                    <div className="text-indigo-300 font-bold border-b border-slate-800 pb-2">
+                    <div className="text-gold-300 font-bold border-b border-slate-800 pb-2">
                       🛡️ URL Credibility Parameter Console
                     </div>
 
@@ -1909,7 +1909,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                               audioManager.play('tap');
                             }}
                             className={`p-2 rounded-lg border text-left text-xs ${
-                              cyberDomain === item.domain ? 'bg-indigo-600/30 text-indigo-200 border-indigo-500' : 'bg-slate-900 text-slate-400 border-slate-800'
+                              cyberDomain === item.domain ? 'bg-gold-600/30 text-gold-200 border-gold-500' : 'bg-slate-900 text-slate-400 border-slate-800'
                             }`}
                           >
                             <span className="font-mono block font-bold">{item.domain}</span>
@@ -1985,7 +1985,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
                 aria-label="Next Lab"
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs sm:text-sm font-bold rounded-xl shadow"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs sm:text-sm font-bold rounded-xl shadow"
               >
                 Next Lab →
               </motion.button>
@@ -2008,7 +2008,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-1">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-1">
               <span>🎮</span> Free Play Exploration Studio (No Grading)
             </div>
             <p className="text-xs text-slate-300">
@@ -2040,7 +2040,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
 
             {/* Sandbox Module 2: PowerPoint & HTML Mixer */}
             <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-300">Excel Data Synchronizer:</span>
+              <span className="text-xs font-bold text-gold-300">Excel Data Synchronizer:</span>
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-slate-300">Rainfall Value:</span>
@@ -2052,7 +2052,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                   max={300}
                   value={excelRainfall}
                   onChange={(e) => setExcelRainfall(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2085,14 +2085,14 @@ function C6_ComputerSciencePowerpointImportingDataSim({
           {/* Challenge Header & Dynamic Progress */}
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">CISCE Practice Quest</span>
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">CISCE Practice Quest</span>
               <h2 className="text-base sm:text-lg font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </h2>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-xs text-slate-400 font-mono">Competency:</span>
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wide bg-indigo-950 text-indigo-300 border border-indigo-700">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wide bg-gold-950 text-gold-300 border border-gold-700">
                 {challenge.competencyLevel}
               </span>
             </div>
@@ -2101,7 +2101,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
           {/* Progress Bar with Motion */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2132,7 +2132,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                         : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -2152,7 +2152,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag label: ${item.label}`}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2231,7 +2231,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Submit Drag Labels"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Structure Labels ✓
                 </motion.button>
@@ -2262,7 +2262,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                       aria-label={`Step ${displayIndex + 1}: ${item}`}
                       className="p-3 bg-slate-800/90 border border-slate-700 rounded-xl text-xs sm:text-sm text-slate-200 cursor-grab flex items-center justify-between"
                     >
-                      <span className="font-mono text-indigo-400 font-bold mr-2">{displayIndex + 1}.</span>
+                      <span className="font-mono text-gold-400 font-bold mr-2">{displayIndex + 1}.</span>
                       <span className="flex-1 font-mono">{item}</span>
                       <span className="text-slate-500 text-xs">☰ Drag to Reorder</span>
                     </motion.div>
@@ -2281,7 +2281,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                   }
                   disabled={showExplanation}
                   aria-label="Check Sequence Order"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Step Order ✓
                 </motion.button>
@@ -2298,7 +2298,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     aria-label="Numeric answer input"
-                    className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-mono focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-mono focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2307,7 +2307,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit Numeric Answer"
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Calculation
                   </motion.button>
@@ -2327,7 +2327,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-mono rounded-lg shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-mono rounded-lg shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2336,7 +2336,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
 
                 <div className="min-h-[80px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <div key={i} className="px-2.5 py-1 bg-indigo-900 border border-indigo-600 text-indigo-200 text-xs font-mono rounded-lg flex items-center gap-1">
+                    <div key={i} className="px-2.5 py-1 bg-gold-900 border border-gold-600 text-gold-200 text-xs font-mono rounded-lg flex items-center gap-1">
                       <span>{part}</span>
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2357,7 +2357,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Submit Constructed Blocks"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Constructed Logic ✓
                 </motion.button>
@@ -2429,7 +2429,7 @@ function C6_ComputerSciencePowerpointImportingDataSim({
           <div className="text-center space-y-2">
             <h2 className="text-2xl sm:text-3xl font-black text-white">Class 6 Computing Mastery Certified! 🎉</h2>
             <p className="text-sm text-slate-300">
-              Final Competency Score: <span className="text-emerald-400 font-bold font-mono">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-indigo-400 font-bold uppercase">{masteryLevel}</span>
+              Final Competency Score: <span className="text-emerald-400 font-bold font-mono">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2464,9 +2464,9 @@ function C6_ComputerSciencePowerpointImportingDataSim({
           )}
 
           {/* Spaced Repetition (SRS) Schedule Status */}
-          <div className="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/50 flex items-center justify-between">
+          <div className="p-4 rounded-2xl bg-gold-950/40 border border-gold-800/50 flex items-center justify-between">
             <div className="text-xs text-slate-300">
-              <span className="font-bold text-indigo-300 block mb-1">📅 Spaced Repetition Review Interval:</span>
+              <span className="font-bold text-gold-300 block mb-1">📅 Spaced Repetition Review Interval:</span>
               Memory consolidation session scheduled in{' '}
               <span className="font-bold text-emerald-400">
                 {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
@@ -2478,14 +2478,14 @@ function C6_ComputerSciencePowerpointImportingDataSim({
 
           {/* Real-World Capstone Activity */}
           <div className="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
               <span>🏫</span> {REAL_WORLD_ACTIVITY.title}
             </div>
             <p className="text-xs sm:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

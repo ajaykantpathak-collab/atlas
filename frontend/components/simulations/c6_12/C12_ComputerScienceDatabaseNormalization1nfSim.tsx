@@ -1135,11 +1135,11 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50" aria-label="Computer Science icon">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50" aria-label="Computer Science icon">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-lg sm:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300">
+            <h1 className="text-lg sm:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400">
@@ -1159,14 +1159,14 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-sky-500/20 text-sky-400 border border-sky-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             {difficulty} Tier
           </motion.span>
           <div className="text-right text-xs">
             <span className="text-slate-400">Mastery: </span>
-            <span className="text-indigo-400 font-mono font-semibold capitalize">{masteryLevel}</span>
+            <span className="text-gold-400 font-mono font-semibold capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1179,20 +1179,20 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-4 my-4">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-700/40">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-700/40">
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 px-2 py-0.5 bg-indigo-900/50 rounded">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 px-2 py-0.5 bg-gold-900/50 rounded">
                 Scenario Mission
               </span>
               <h2 className="text-base sm:text-lg font-bold text-white">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           {/* SVG 1: Normalization Hierarchy Visualizer */}
           <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800">
-            <span className="text-xs font-mono font-bold text-sky-400 uppercase tracking-wider block mb-2">
+            <span className="text-xs font-mono font-bold text-gold-400 uppercase tracking-wider block mb-2">
               Architectural Roadmap: The Normalization Hierarchy
             </span>
             <svg viewBox="0 0 700 130" className="w-full h-auto" aria-label="Normalization hierarchy diagram showing 1NF, 2NF, 3NF, and BCNF progressive nesting">
@@ -1235,7 +1235,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   }`}
                 >
                   <div>
-                    <span className="font-mono text-xs mr-2 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-xs mr-2 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                     {opt}
                   </div>
                   {discoveryAnswered && (
@@ -1257,7 +1257,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Architecture Lab"
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-600/30"
                 >
                   Enter Interactive Architecture Lab →
                 </motion.button>
@@ -1277,21 +1277,21 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
               <button
                 onClick={() => setRepView('table')}
                 aria-label="View relational table format"
-                className={`px-3 py-1 rounded-lg text-xs font-medium border ${repView === 'table' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
+                className={`px-3 py-1 rounded-lg text-xs font-medium border ${repView === 'table' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
               >
                 📊 Relational Table
               </button>
               <button
                 onClick={() => setRepView('fd_graph')}
                 aria-label="View functional dependency graph format"
-                className={`px-3 py-1 rounded-lg text-xs font-medium border ${repView === 'fd_graph' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
+                className={`px-3 py-1 rounded-lg text-xs font-medium border ${repView === 'fd_graph' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
               >
                 🔗 Functional Dependency (FD) Graph
               </button>
               <button
                 onClick={() => setRepView('venn')}
                 aria-label="View Chen notation ER schema format"
-                className={`px-3 py-1 rounded-lg text-xs font-medium border ${repView === 'venn' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
+                className={`px-3 py-1 rounded-lg text-xs font-medium border ${repView === 'venn' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'}`}
               >
                 📐 Chen ER Notation
               </button>
@@ -1301,7 +1301,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
           {/* SVG 2: Multi-representation Dual Diagram Panel */}
           {repView === 'fd_graph' && (
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-              <span className="text-xs font-mono font-bold text-indigo-400 block mb-2">
+              <span className="text-xs font-mono font-bold text-gold-400 block mb-2">
                 Mathematical Dependency Graph (X → Y Determinants)
               </span>
               <svg viewBox="0 0 650 140" className="w-full h-auto" aria-label="Functional Dependency Graph showing Student_ID determining Student_Name and Dept_ID determining Dept_Name">
@@ -1332,7 +1332,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
 
           {repView === 'venn' && (
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-              <span className="text-xs font-mono font-bold text-sky-400 block mb-2">
+              <span className="text-xs font-mono font-bold text-gold-400 block mb-2">
                 SVG 3: Chen Notation ER Model (Entities, Attributes & Relationships)
               </span>
               <svg viewBox="0 0 650 140" className="w-full h-auto" aria-label="Chen ER diagram with Student rectangle entity, Enrolls diamond relationship, and Course rectangle entity">
@@ -1370,7 +1370,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
               className="p-5 sm:p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl"
             >
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-mono font-bold uppercase text-sky-400 bg-sky-950/60 px-2.5 py-1 rounded-md border border-sky-800/40">
+                <span className="text-xs font-mono font-bold uppercase text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-md border border-gold-800/40">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-xs text-slate-400">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
@@ -1382,8 +1382,8 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
               {currentSlide === 0 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
-                      <p className="text-xs font-bold text-indigo-300 uppercase mb-2">Prediction 1 (Hypothesis Check):</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                      <p className="text-xs font-bold text-gold-300 uppercase mb-2">Prediction 1 (Hypothesis Check):</p>
                       <p className="text-sm text-slate-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1406,14 +1406,14 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                       <div className="flex items-center justify-between mb-3">
                         <span className="text-xs font-semibold text-slate-300">
-                          Table: <code className="text-indigo-400">School_Admissions</code> ({atomizedRows ? 'Normalized 1NF Schema' : 'Un-normalized Raw Sheet'})
+                          Table: <code className="text-gold-400">School_Admissions</code> ({atomizedRows ? 'Normalized 1NF Schema' : 'Un-normalized Raw Sheet'})
                         </span>
                         <motion.button
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={handleAtomizeClick}
                           aria-label="Toggle Atomize Cells"
-                          className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg shadow"
+                          className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow"
                         >
                           {atomizedRows ? 'Reset to Un-normalized' : 'Click to Atomize Cells (Enforce 1NF)'}
                         </motion.button>
@@ -1433,7 +1433,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                             {!atomizedRows ? (
                               <>
                                 <tr className="border border-slate-800 bg-rose-950/20">
-                                  <td className="p-2.5 border border-slate-800 font-mono text-indigo-300">101</td>
+                                  <td className="p-2.5 border border-slate-800 font-mono text-gold-300">101</td>
                                   <td className="p-2.5 border border-slate-800">Ravi Sharma</td>
                                   <td className="p-2.5 border border-slate-800 bg-rose-900/40 text-rose-300 font-mono font-bold">
                                     ✗ 9876543210, 9998887777 [VIOLATION]
@@ -1441,7 +1441,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                                   <td className="p-2.5 border border-slate-800">New Delhi</td>
                                 </tr>
                                 <tr className="border border-slate-800 bg-slate-900/40">
-                                  <td className="p-2.5 border border-slate-800 font-mono text-indigo-300">102</td>
+                                  <td className="p-2.5 border border-slate-800 font-mono text-gold-300">102</td>
                                   <td className="p-2.5 border border-slate-800">Priya Patel</td>
                                   <td className="p-2.5 border border-slate-800 font-mono">✓ 9822114455</td>
                                   <td className="p-2.5 border border-slate-800">Mumbai</td>
@@ -1450,19 +1450,19 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                             ) : (
                               <>
                                 <tr className="border border-slate-800 bg-emerald-950/30">
-                                  <td className="p-2.5 border border-slate-800 font-mono text-indigo-300">101</td>
+                                  <td className="p-2.5 border border-slate-800 font-mono text-gold-300">101</td>
                                   <td className="p-2.5 border border-slate-800">Ravi Sharma</td>
                                   <td className="p-2.5 border border-slate-800 text-emerald-300 font-mono font-bold">✓ 9876543210</td>
                                   <td className="p-2.5 border border-slate-800">New Delhi</td>
                                 </tr>
                                 <tr className="border border-slate-800 bg-emerald-950/30">
-                                  <td className="p-2.5 border border-slate-800 font-mono text-indigo-300">101</td>
+                                  <td className="p-2.5 border border-slate-800 font-mono text-gold-300">101</td>
                                   <td className="p-2.5 border border-slate-800">Ravi Sharma</td>
                                   <td className="p-2.5 border border-slate-800 text-emerald-300 font-mono font-bold">✓ 9998887777</td>
                                   <td className="p-2.5 border border-slate-800">New Delhi</td>
                                 </tr>
                                 <tr className="border border-slate-800 bg-slate-900/40">
-                                  <td className="p-2.5 border border-slate-800 font-mono text-indigo-300">102</td>
+                                  <td className="p-2.5 border border-slate-800 font-mono text-gold-300">102</td>
                                   <td className="p-2.5 border border-slate-800">Priya Patel</td>
                                   <td className="p-2.5 border border-slate-800 font-mono">✓ 9822114455</td>
                                   <td className="p-2.5 border border-slate-800">Mumbai</td>
@@ -1486,8 +1486,8 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
               {currentSlide === 1 && (
                 <div className="space-y-4">
                   {!pred2Made && (
-                    <div className="p-4 bg-sky-950/40 rounded-xl border border-sky-800/50">
-                      <p className="text-xs font-bold text-sky-300 uppercase mb-2">Prediction 2 (Architectural Decomposition):</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                      <p className="text-xs font-bold text-gold-300 uppercase mb-2">Prediction 2 (Architectural Decomposition):</p>
                       <p className="text-sm text-slate-200 mb-3">{PREDICTION_QUESTIONS[1].question}</p>
                       <p className="text-xs text-amber-300/90 mb-3 italic">👉 {PREDICTION_QUESTIONS[1].verifyInstruction}</p>
                       <div className="grid grid-cols-1 gap-2">
@@ -1511,19 +1511,19 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     <p className="text-xs text-slate-300 mb-2">
                       Original Table: <code className="text-amber-400">Enrolment(Student_ID, Course_ID, Student_Name, Course_Title, Marks)</code>
                     </p>
-                    <p className="text-xs text-indigo-300 font-mono mb-4">
+                    <p className="text-xs text-gold-300 font-mono mb-4">
                       Primary Key: (Student_ID, Course_ID) | Partial FDs: Student_ID -&gt; Student_Name, Course_ID -&gt; Course_Title
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-700/40">
-                        <span className="text-xs font-bold text-indigo-400 block mb-1">Relation 1: Student</span>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-700/40">
+                        <span className="text-xs font-bold text-gold-400 block mb-1">Relation 1: Student</span>
                         <p className="text-xs font-mono text-emerald-300">✓ Student_ID (PK)</p>
                         <p className="text-xs text-slate-300">Student_Name</p>
                       </div>
 
-                      <div className="p-3 bg-slate-900 rounded-xl border border-sky-700/40">
-                        <span className="text-xs font-bold text-sky-400 block mb-1">Relation 2: Course</span>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-700/40">
+                        <span className="text-xs font-bold text-gold-400 block mb-1">Relation 2: Course</span>
                         <p className="text-xs font-mono text-emerald-300">✓ Course_ID (PK)</p>
                         <p className="text-xs text-slate-300">Course_Title</p>
                       </div>
@@ -1544,7 +1544,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <label htmlFor="norm-slider" className="text-xs font-bold text-slate-300">
-                        Schema Normalization Level: <span className="text-indigo-400 font-mono">{normSliderLevel === 1 ? 'Un-normalized' : normSliderLevel === 2 ? '1NF' : normSliderLevel === 3 ? '2NF' : '3NF / BCNF'}</span>
+                        Schema Normalization Level: <span className="text-gold-400 font-mono">{normSliderLevel === 1 ? 'Un-normalized' : normSliderLevel === 2 ? '1NF' : normSliderLevel === 3 ? '2NF' : '3NF / BCNF'}</span>
                       </label>
                       <div className="flex gap-4 text-xs">
                         <span className="text-rose-400">Redundancy: {redundancyScore}%</span>
@@ -1561,7 +1561,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                       aria-label="Normalization level slider"
                       value={normSliderLevel}
                       onChange={e => setNormSliderLevel(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2">
@@ -1577,7 +1577,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                           }}
                           className={`p-2 rounded-lg text-xs font-mono font-bold border ${
                             activeJoinType === j
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow'
                               : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1588,10 +1588,10 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
 
                     <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-slate-300 overflow-x-auto border border-slate-800">
                       {activeJoinType === 'INNER' && (
-                        <span>SELECT S.name, M.marks FROM Students S <strong className="text-indigo-400">INNER JOIN</strong> Marks M ON S.id = M.sid;</span>
+                        <span>SELECT S.name, M.marks FROM Students S <strong className="text-gold-400">INNER JOIN</strong> Marks M ON S.id = M.sid;</span>
                       )}
                       {activeJoinType === 'LEFT' && (
-                        <span>SELECT S.name, M.marks FROM Students S <strong className="text-sky-400">LEFT JOIN</strong> Marks M ON S.id = M.sid; -- Retains all students even with NULL marks</span>
+                        <span>SELECT S.name, M.marks FROM Students S <strong className="text-gold-400">LEFT JOIN</strong> Marks M ON S.id = M.sid; -- Retains all students even with NULL marks</span>
                       )}
                       {activeJoinType === 'CROSS' && (
                         <span>SELECT S.name, C.title FROM Students S <strong className="text-amber-400">CROSS JOIN</strong> Courses C; -- Cartesian product (No ON clause)</span>
@@ -1603,7 +1603,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   </div>
 
                   {!observationAnswered && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
                       <p className="text-xs font-bold text-amber-300 uppercase mb-1">Scientific Observation:</p>
                       <p className="text-sm text-slate-200 mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1632,7 +1632,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     <div className="flex items-center justify-between">
                       <div className="text-xs">
                         <span className="text-slate-400">Sender (SBI Acc #101): </span>
-                        <span className="font-mono font-bold text-indigo-400">₹{senderBal.toLocaleString()}</span>
+                        <span className="font-mono font-bold text-gold-400">₹{senderBal.toLocaleString()}</span>
                       </div>
                       <div className="text-xs">
                         <span className="text-slate-400">Receiver (HDFC Acc #202): </span>
@@ -1651,7 +1651,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                         disabled={transStep !== 0}
                         aria-label="Debit 5000"
                         onClick={() => handleTransStep(1)}
-                        className="px-3 py-1.5 bg-indigo-700 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
+                        className="px-3 py-1.5 bg-gold-700 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
                       >
                         1. Debit ₹5,000
                       </motion.button>
@@ -1662,7 +1662,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                         disabled={transStep !== 1}
                         aria-label="Create savepoint sp1"
                         onClick={() => handleTransStep(2)}
-                        className="px-3 py-1.5 bg-sky-700 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
+                        className="px-3 py-1.5 bg-gold-700 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
                       >
                         2. SAVEPOINT sp1
                       </motion.button>
@@ -1673,7 +1673,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                         disabled={transStep !== 2}
                         aria-label="Credit 5000"
                         onClick={() => handleTransStep(3)}
-                        className="px-3 py-1.5 bg-indigo-700 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
+                        className="px-3 py-1.5 bg-gold-700 disabled:opacity-40 text-white text-xs font-bold rounded-lg"
                       >
                         3. Credit ₹5,000
                       </motion.button>
@@ -1722,7 +1722,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     {[
                       { type: 'Key-Value', engine: 'Redis', bestFor: 'Sub-ms Session Caching & Leaderboards', color: 'border-rose-500/50 bg-rose-950/20' },
                       { type: 'Document', engine: 'MongoDB', bestFor: 'Flexible Catalogues & Semi-structured JSON', color: 'border-emerald-500/50 bg-emerald-950/20' },
-                      { type: 'Column-Family', engine: 'Cassandra', bestFor: 'Time-series sensor telemetry & high write logs', color: 'border-sky-500/50 bg-sky-950/20' },
+                      { type: 'Column-Family', engine: 'Cassandra', bestFor: 'Time-series sensor telemetry & high write logs', color: 'border-gold-500/50 bg-gold-950/20' },
                       { type: 'Graph', engine: 'Neo4j', bestFor: 'Social networks & Fraud connection traversal', color: 'border-purple-500/50 bg-purple-950/20' },
                     ].map(item => (
                       <motion.div
@@ -1776,7 +1776,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Next step"
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
               >
                 Next Step →
               </motion.button>
@@ -1801,7 +1801,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center justify-between mb-3">
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">Relational Architecture Sandbox</h3>
+                <h3 className="text-lg font-bold text-gold-300">Relational Architecture Sandbox</h3>
                 <p className="text-xs text-slate-400">Zero pressure exploration: test joins, transactions, and normalisation models freely.</p>
               </div>
               <motion.button
@@ -1817,7 +1817,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                <span className="text-xs font-bold text-sky-400 uppercase">Live Join Engine</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Live Join Engine</span>
                 <div className="flex gap-2 my-2">
                   {(['INNER', 'LEFT', 'CROSS', 'SELF'] as const).map(j => (
                     <motion.button
@@ -1826,7 +1826,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                       whileTap={{ scale: 0.98 }}
                       aria-label={`Select ${j} join in sandbox`}
                       onClick={() => setActiveJoinType(j)}
-                      className={`px-3 py-1 text-xs font-mono rounded ${activeJoinType === j ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'}`}
+                      className={`px-3 py-1 text-xs font-mono rounded ${activeJoinType === j ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'}`}
                     >
                       {j}
                     </motion.button>
@@ -1846,7 +1846,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     whileTap={{ scale: 0.98 }}
                     aria-label="Debit SBI sandbox"
                     onClick={() => handleTransStep(1)}
-                    className="px-3 py-1 bg-indigo-700 text-white text-xs rounded"
+                    className="px-3 py-1 bg-gold-700 text-white text-xs rounded"
                   >
                     Debit SBI
                   </motion.button>
@@ -1880,11 +1880,11 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4 my-4">
           <div className="flex items-center justify-between text-xs text-slate-400 mb-1 font-mono">
             <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-            <span className="text-indigo-400 font-bold uppercase">{challenge.competencyLevel} Competency</span>
+            <span className="text-gold-400 font-bold uppercase">{challenge.competencyLevel} Competency</span>
           </div>
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1894,7 +1894,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
             wrongFlash ? 'bg-rose-950/60 border-rose-500' : 'border-slate-800'
           }`}>
             <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-              <span className="text-xs font-mono text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded border border-indigo-800/60">
+              <span className="text-xs font-mono text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-800/60">
                 Node: {challenge.nodeId}
               </span>
               <span className="text-xs text-slate-400 font-mono">ID: {challenge.id}</span>
@@ -1926,7 +1926,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     }`}
                   >
                     <div>
-                      <span className="font-mono text-xs mr-2 text-indigo-400 font-bold">[{String.fromCharCode(65 + i)}]</span>
+                      <span className="font-mono text-xs mr-2 text-gold-400 font-bold">[{String.fromCharCode(65 + i)}]</span>
                       {opt}
                     </div>
                     {showExplanation && (
@@ -1953,7 +1953,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1992,7 +1992,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   transition={{ duration: 0.4 }}
                   aria-label="Verify Diagram Mapping"
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Diagram Mapping
                 </motion.button>
@@ -2018,7 +2018,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="font-mono text-indigo-400 font-bold">{displayIdx + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{displayIdx + 1}.</span>
                     <span>{item}</span>
                   </motion.div>
                 ))}
@@ -2032,7 +2032,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                     const ans = sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i);
                     handleAnswer(ans);
                   }}
-                  className="mt-2 px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow"
+                  className="mt-2 px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Check Sequence
                 </motion.button>
@@ -2048,7 +2048,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   onChange={e => setNumericInput(e.target.value)}
                   aria-label="Enter computed row count"
                   placeholder="Enter computed rows"
-                  className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 outline-none w-48 font-mono"
+                  className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none w-48 font-mono"
                 />
                 <span className="text-xs text-slate-400">{challenge.unit}</span>
                 <motion.button
@@ -2058,7 +2058,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   transition={{ duration: 0.4 }}
                   aria-label="Submit Calculation"
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Submit Calculation
                 </motion.button>
@@ -2077,7 +2077,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label={`Add part ${part}`}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-indigo-300 rounded-lg text-xs font-mono"
+                      className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-gold-300 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2090,7 +2090,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900/70 border border-indigo-700 text-indigo-200 text-xs font-mono rounded-lg flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900/70 border border-gold-700 text-gold-200 text-xs font-mono rounded-lg flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2115,7 +2115,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   aria-label="Validate Transaction Sequence"
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Validate Transaction Sequence
                 </motion.button>
@@ -2171,11 +2171,11 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & SPACED REPETITION (SRS) ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-5 my-4">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 text-center space-y-3">
             <span className="text-4xl" aria-label="Trophy">🏆</span>
             <h2 className="text-2xl font-bold text-white">Relational Mastery Certified!</h2>
             <p className="text-sm text-slate-300">
-              Exam Simulation Score: <span className="font-mono text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="text-indigo-300 font-bold capitalize">{masteryLevel}</span>
+              Exam Simulation Score: <span className="font-mono text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="text-gold-300 font-bold capitalize">{masteryLevel}</span>
             </p>
 
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 text-left max-w-xl mx-auto">
@@ -2190,7 +2190,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
           </div>
 
           {/* ─── SPACED REPETITION (SRS) SCHEDULE VISIBILITY ─── */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border-2 border-amber-500/60 shadow-lg space-y-2">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border-2 border-amber-500/60 shadow-lg space-y-2">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2.5">
                 <span className="text-2xl" aria-label="Spaced repetition calendar">📅</span>
@@ -2225,8 +2225,8 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-5 bg-slate-900/90 rounded-2xl border border-indigo-900/60 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-900/60 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Metacognitive Reflection & Application
             </h3>
             <div className="space-y-3 text-xs sm:text-sm">
@@ -2240,7 +2240,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   aria-label="What was the most surprising thing you learned"
                   placeholder="e.g., How transitive dependencies in 3NF can cause cascading update anomalies..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2254,7 +2254,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   aria-label="How would you explain this to a friend"
                   placeholder="e.g., Every box in a spreadsheet should only contain one single piece of information..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2268,7 +2268,7 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   aria-label="Where in real life might you use this"
                   placeholder="e.g., UPI payments, IRCTC railway ticket booking, pharmacy dispensing..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2295,12 +2295,12 @@ function C12_ComputerScienceDatabaseNormalization1nfSim({
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-sky-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 font-mono">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

@@ -11,7 +11,7 @@ export const w_c11_evsinternationallegalregimessim: SimDef = {
     classLevel: 11, subject: 'evs', topic: 'National Parks and Wildlife Sanctuaries: Distinction and Examples',
     chapters: [],
     nodeIds: ['c11_geo_cbse_15_005', 'c11_geo_cbse_15_008', 'c11_geo_cbse_19_008', 'c11_geo_cbse_09_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at the boundary of Jim Corbett National Park in Uttarakhand and then travel to the.', goal: 'Master National Parks and Wildlife Sanctuaries: Distinction and Examples.' },
     discovery: {
         question: 'On an outline map of India, you see a protected area in the Sundarbans delta marked as a National Park and another in the same region marked as a Wildlife.',
@@ -20,7 +20,7 @@ export const w_c11_evsinternationallegalregimessim: SimDef = {
         hook: 'Students often believe that the only difference between a National Park and a Wildlife Sanctuary is the *name* or.',
     },
     teaching: [
-        { title: 'A National Park is a strictly protected area.', text: 'A National Park is a strictly protected area declared under Section 35 of the Wildlife Protection Act, 1972, where no human activity (including grazing, collection of forest produce, or habitation).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A National Park is a strictly protected area.', text: 'A National Park is a strictly protected area declared under Section 35 of the Wildlife Protection Act, 1972, where no human activity (including grazing, collection of forest produce, or habitation).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_15_005', title: 'A National Park is a strictly protected.',

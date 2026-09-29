@@ -101,7 +101,7 @@ export function C11_BiologyBodyFluidsAndCirculationSim() {
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-3 gap-2">
             <div><span className="text-slate-500">Cardiac output</span><div className="text-red-300 font-bold text-sm">{co.toFixed(2)} L/min</div></div>
             <div><span className="text-slate-500">Ejection fraction</span><div className="text-amber-300 font-bold text-sm">{ef.toFixed(0)} % (healthy 55-70)</div></div>
-            <div><span className="text-slate-500">Day&apos;s output at this rate</span><div className="text-sky-300 font-bold text-sm">{(co * 1440 / 1000).toFixed(1)} x 10^3 L/day</div></div>
+            <div><span className="text-slate-500">Day&apos;s output at this rate</span><div className="text-gold-300 font-bold text-sm">{(co * 1440 / 1000).toFixed(1)} x 10^3 L/day</div></div>
           </div>
         </div>
 

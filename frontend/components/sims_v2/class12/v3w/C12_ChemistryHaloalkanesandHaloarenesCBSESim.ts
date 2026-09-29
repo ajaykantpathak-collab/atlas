@@ -11,7 +11,7 @@ export const w_c12_chemistryhaloalkanesandhaloarenescbsesim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Nomenclature of Haloalkanes and Haloarenes',
     chapters: [],
     nodeIds: ['c12_chem_cbse_06_002', 'c12_chem_cbse_06_003', 'c12_chem_cbse_06_005', 'c12_chem_cbse_06_008', 'c12_chem_cbse_06_009', 'c12_chem_cbse_06_006', 'c12_chem_cbse_06_001', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_002', 'c12_chem_cbse_07_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Look at a medicine strip — many drugs like chloramphenicol (antibiotic) or halothane (anaesthetic) contain.', goal: 'Master Nomenclature of Haloalkanes and Haloarenes.' },
     discovery: {
         question: 'Write the IUPAC name for CH₃CH₂CH(Cl)CH₃. Identify whether it is a primary, secondary, or tertiary haloalkane.',
@@ -20,7 +20,7 @@ export const w_c12_chemistryhaloalkanesandhaloarenescbsesim: SimDef = {
         hook: 'Students frequently choose the parent chain based on total carbon count rather than the longest continuous chain.',
     },
     teaching: [
-        { title: 'Nomenclature of haloalkanes and haloarenes.', text: 'Nomenclature of haloalkanes and haloarenes is the systematic IUPAC naming of organic compounds where one or more hydrogen atoms of aliphatic or aromatic hydrocarbons are replaced by halogen atoms (F,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Nomenclature of haloalkanes and haloarenes.', text: 'Nomenclature of haloalkanes and haloarenes is the systematic IUPAC naming of organic compounds where one or more hydrogen atoms of aliphatic or aromatic hydrocarbons are replaced by halogen atoms (F,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_06_002', title: 'Nomenclature of haloalkanes and.',

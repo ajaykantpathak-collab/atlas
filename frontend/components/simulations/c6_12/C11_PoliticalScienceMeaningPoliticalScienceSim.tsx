@@ -1260,13 +1260,13 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded font-bold">
+              <span className="text-xs uppercase tracking-widest px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded font-bold">
                 ISC Class 11 Humanities
               </span>
               <span className="text-xs text-slate-400">Class 11 Political Science</span>
@@ -1292,7 +1292,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
             Tier: {difficulty}
           </motion.span>
           <span className="text-xs px-2.5 py-1 bg-slate-800 text-slate-300 rounded-full font-medium">
-            Phase: <strong className="text-indigo-400 capitalize">{phase}</strong>
+            Phase: <strong className="text-gold-400 capitalize">{phase}</strong>
           </span>
         </div>
       </motion.div>
@@ -1300,9 +1300,9 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">The Thought Experiment</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">The Thought Experiment</span>
             <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-3 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-4 p-3.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-center gap-3">
@@ -1350,7 +1350,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-xl bg-indigo-950/40 border border-indigo-700/50 flex flex-wrap items-center justify-between gap-4"
+                className="mt-6 p-4 rounded-xl bg-gold-950/40 border border-gold-700/50 flex flex-wrap items-center justify-between gap-4"
               >
                 <div>
                   <p className={`text-sm font-bold ${discoveryCorrect ? 'text-emerald-300' : 'text-amber-300'}`}>
@@ -1366,7 +1366,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToPredict}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Start Prediction Stage →
                 </motion.button>
@@ -1379,12 +1379,12 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
       {/* ─── PHASE: PREDICTION (Predict-then-Check Pattern) ─── */}
       {phase === 'predict' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 via-purple-950/40 to-slate-900 rounded-2xl border border-indigo-700/50">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 via-purple-950/40 to-slate-900 rounded-2xl border border-gold-700/50">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 🔮 Predict Before You Experiment ({predIndex + 1} of {PREDICTION_QUESTIONS.length})
               </span>
-              <span className="text-xs px-2.5 py-0.5 bg-indigo-900/60 text-indigo-300 rounded font-semibold">
+              <span className="text-xs px-2.5 py-0.5 bg-gold-900/60 text-gold-300 rounded font-semibold">
                 Brilliant Predict-Then-Check
               </span>
             </div>
@@ -1416,7 +1416,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                         : isChecked && isSelected && !isCorrect
                         ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                         : isSelected
-                        ? 'bg-indigo-900/80 border-indigo-400 text-white'
+                        ? 'bg-gold-900/80 border-gold-400 text-white'
                         : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                     }`}
                   >
@@ -1443,7 +1443,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   audioManager.play(isCorr ? 'success' : 'pop');
                   speechManager.speak(isCorr ? 'Prediction locked! Now check how to verify it.' : 'Let us see the verification guidance.');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
               >
                 Lock In Prediction 🔒
               </motion.button>
@@ -1451,14 +1451,14 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-4 bg-slate-950 rounded-xl border border-indigo-800/50 space-y-3"
+                className="p-4 bg-slate-950 rounded-xl border border-gold-800/50 space-y-3"
               >
                 <div className="text-xs text-slate-300">
                   <strong className="text-amber-400 block mb-1">🔬 Verification Protocol:</strong>
                   {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                 </div>
                 <div className="text-xs text-slate-400 leading-relaxed">
-                  <strong className="text-indigo-300 block mb-0.5">Theoretical Explanation:</strong>
+                  <strong className="text-gold-300 block mb-0.5">Theoretical Explanation:</strong>
                   {PREDICTION_QUESTIONS[predIndex].explanation}
                 </div>
 
@@ -1468,7 +1468,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setPredIndex((idx) => idx + 1)}
-                      className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Next Prediction ({predIndex + 2}/{PREDICTION_QUESTIONS.length}) →
                     </motion.button>
@@ -1496,7 +1496,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
           <div className="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-800">
             <div className="flex items-center gap-2">
               <span className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Exploration Lab:</span>
-              <span className="text-xs px-2.5 py-0.5 bg-indigo-900/70 text-indigo-300 rounded font-bold">
+              <span className="text-xs px-2.5 py-0.5 bg-gold-900/70 text-gold-300 rounded font-bold">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
             </div>
@@ -1506,7 +1506,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   key={i}
                   onClick={() => setCurrentSlide(i)}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    currentSlide === i ? 'bg-indigo-500 scale-125' : 'bg-slate-700 hover:bg-slate-600'
+                    currentSlide === i ? 'bg-gold-500 scale-125' : 'bg-slate-700 hover:bg-slate-600'
                   }`}
                   aria-label={`Go to slide ${i + 1}`}
                 />
@@ -1544,7 +1544,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                         lensMode === 'classical'
-                          ? 'bg-indigo-600 text-white border-indigo-400 shadow-md shadow-indigo-600/30'
+                          ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-600/30'
                           : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
@@ -1640,7 +1640,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   </svg>
 
                   <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300 leading-relaxed border border-slate-800">
-                    <strong className="text-indigo-300">Exam Note:</strong> Classical definition (Garner: "Political science begins and ends with the State") vs Modern definition (Lasswell: "Who gets what, when, how").
+                    <strong className="text-gold-300">Exam Note:</strong> Classical definition (Garner: "Political science begins and ends with the State") vs Modern definition (Lasswell: "Who gets what, when, how").
                   </div>
                 </div>
               )}
@@ -1746,7 +1746,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>1. Population:</span>
-                          <strong className="text-indigo-400">{elemPop} Million</strong>
+                          <strong className="text-gold-400">{elemPop} Million</strong>
                         </div>
                         <input
                           type="range"
@@ -1754,14 +1754,14 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                           max="1500"
                           value={elemPop}
                           onChange={(e) => setElemPop(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>2. Territory:</span>
-                          <strong className="text-indigo-400">{elemTerritory} M sq km</strong>
+                          <strong className="text-gold-400">{elemTerritory} M sq km</strong>
                         </div>
                         <input
                           type="range"
@@ -1770,7 +1770,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                           step="0.1"
                           value={elemTerritory}
                           onChange={(e) => setElemTerritory(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1820,19 +1820,19 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       </div>
 
                       <div className="grid grid-cols-4 gap-2 mt-4 pt-3 border-t border-slate-800 text-center">
-                        <div className={`p-1.5 rounded ${elemPop > 0 ? 'bg-indigo-950 text-indigo-300' : 'bg-rose-950 text-rose-300'}`}>
+                        <div className={`p-1.5 rounded ${elemPop > 0 ? 'bg-gold-950 text-gold-300' : 'bg-rose-950 text-rose-300'}`}>
                           <div className="text-xs font-bold">Pop</div>
                           <div className="text-[10px]">{elemPop > 0 ? '✓' : '✗'}</div>
                         </div>
-                        <div className={`p-1.5 rounded ${elemTerritory > 0 ? 'bg-indigo-950 text-indigo-300' : 'bg-rose-950 text-rose-300'}`}>
+                        <div className={`p-1.5 rounded ${elemTerritory > 0 ? 'bg-gold-950 text-gold-300' : 'bg-rose-950 text-rose-300'}`}>
                           <div className="text-xs font-bold">Terr</div>
                           <div className="text-[10px]">{elemTerritory > 0 ? '✓' : '✗'}</div>
                         </div>
-                        <div className={`p-1.5 rounded ${elemGovtActive ? 'bg-indigo-950 text-indigo-300' : 'bg-rose-950 text-rose-300'}`}>
+                        <div className={`p-1.5 rounded ${elemGovtActive ? 'bg-gold-950 text-gold-300' : 'bg-rose-950 text-rose-300'}`}>
                           <div className="text-xs font-bold">Govt</div>
                           <div className="text-[10px]">{elemGovtActive ? '✓' : '✗'}</div>
                         </div>
-                        <div className={`p-1.5 rounded ${elemSovereignty >= 50 ? 'bg-indigo-950 text-indigo-300' : 'bg-rose-950 text-rose-300'}`}>
+                        <div className={`p-1.5 rounded ${elemSovereignty >= 50 ? 'bg-gold-950 text-gold-300' : 'bg-rose-950 text-rose-300'}`}>
                           <div className="text-xs font-bold">Sov</div>
                           <div className="text-[10px]">{elemSovereignty >= 50 ? '✓' : '✗'}</div>
                         </div>
@@ -1842,7 +1842,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       <div className="grid grid-cols-3 gap-2 mt-3 text-center">
                         <div className="bg-slate-950 rounded-lg p-2 border border-slate-800">
                           <p className="text-[10px] text-slate-500">Population density</p>
-                          <p className="font-mono font-bold text-sky-300">
+                          <p className="font-mono font-bold text-gold-300">
                             {elemTerritory > 0 ? (elemPop / elemTerritory).toFixed(0) : '—'} people/km²
                           </p>
                         </div>
@@ -1854,7 +1854,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                         </div>
                         <div className="bg-slate-950 rounded-lg p-2 border border-slate-800">
                           <p className="text-[10px] text-slate-500">Pillars satisfied</p>
-                          <p className="font-mono font-bold text-indigo-300">
+                          <p className="font-mono font-bold text-gold-300">
                             {(elemPop > 0 ? 1 : 0) + (elemTerritory > 0 ? 1 : 0) + (elemGovtActive ? 1 : 0) + (elemSovereignty >= 50 ? 1 : 0)} / 4
                           </p>
                         </div>
@@ -1921,8 +1921,8 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   </svg>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                    <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800">
-                      <span className="text-xs font-bold text-indigo-400">1. THE STATE</span>
+                    <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800">
+                      <span className="text-xs font-bold text-gold-400">1. THE STATE</span>
                       <p className="text-xs text-slate-300 mt-1">Permanent, sovereign political entity (e.g. Republic of India since 1950).</p>
                     </div>
                     <div className="p-3 bg-amber-950/50 rounded-xl border border-amber-800">
@@ -2005,7 +2005,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       onClick={() => handlePhilosopherSelect('locke')}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                         chosenPhilosopher === 'locke'
-                          ? 'bg-blue-700 text-white border-blue-400 shadow-md'
+                          ? 'bg-gold-700 text-white border-gold-400 shadow-md'
                           : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
@@ -2068,7 +2068,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Economic Organization:</span>
-                          <strong className={economicControl > 50 ? 'text-rose-400' : 'text-blue-400'}>
+                          <strong className={economicControl > 50 ? 'text-rose-400' : 'text-gold-400'}>
                             {economicControl > 60
                               ? 'Collective / Means of Production Socialized (Marxist)'
                               : economicControl < 40
@@ -2106,7 +2106,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       </div>
 
                       <div className="p-3 bg-slate-950 rounded-lg text-xs text-slate-300 leading-relaxed border border-slate-800">
-                        <strong className="text-indigo-300">Indian Synthesis:</strong> Preamble includes "Socialist" (42nd Amendment, 1976), yet Part III guarantees Fundamental Rights and universal adult suffrage (Liberal Democracy).
+                        <strong className="text-gold-300">Indian Synthesis:</strong> Preamble includes "Socialist" (42nd Amendment, 1976), yet Part III guarantees Fundamental Rights and universal adult suffrage (Liberal Democracy).
                       </div>
                     </div>
 
@@ -2136,7 +2136,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide((s) => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -2159,7 +2159,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
       {/* ─── PHASE: OBSERVATION (What Do You Notice Pattern) ─── */}
       {phase === 'observe' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-purple-950/80 via-indigo-950/40 to-slate-900 rounded-2xl border border-purple-700/50">
+          <div className="p-5 bg-gradient-to-r from-purple-950/80 via-gold-950/40 to-slate-900 rounded-2xl border border-purple-700/50">
             <div className="flex items-center justify-between mb-2">
               <span className="text-xs font-bold uppercase tracking-wider text-purple-400">
                 👀 What Did You Notice? ({obsIndex + 1} of {OBSERVATION_QUESTIONS.length})
@@ -2302,7 +2302,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       onClick={() => setConstitutionArticleSearch(art)}
                       className={`px-2.5 py-1 rounded text-xs font-bold border ${
                         constitutionArticleSearch.toLowerCase() === art.toLowerCase()
-                          ? 'bg-indigo-600 text-white border-indigo-400'
+                          ? 'bg-gold-600 text-white border-gold-400'
                           : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-white'
                       }`}
                     >
@@ -2312,10 +2312,10 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 </div>
               </div>
 
-              <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40 space-y-2">
+              <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40 space-y-2">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-sm font-black text-indigo-300">{activeArticleData.title}</h4>
-                  <span className="text-[10px] px-2 py-0.5 bg-indigo-950 text-indigo-400 rounded-full border border-indigo-800">
+                  <h4 className="text-sm font-black text-gold-300">{activeArticleData.title}</h4>
+                  <span className="text-[10px] px-2 py-0.5 bg-gold-950 text-gold-400 rounded-full border border-gold-800">
                     {activeArticleData.theme}
                   </span>
                 </div>
@@ -2326,7 +2326,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 <span className="text-xs font-bold text-slate-400 block mb-2">Three Organs of the Indian Government:</span>
                 <div className="grid grid-cols-3 gap-2 text-center text-xs">
                   <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
-                    <strong className="text-indigo-400 block">Legislature</strong>
+                    <strong className="text-gold-400 block">Legislature</strong>
                     <span className="text-[10px] text-slate-400">Parliament (Articles 79–122) Makes Law</span>
                   </div>
                   <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
@@ -2351,7 +2351,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 </div>
               </div>
 
-              <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-indigo-300">
+              <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-300">
                 💡 <strong>Tip for ISC Exam:</strong> Always link theoretical definitions to named thinkers and Indian constitutional articles for 8/8 marks!
               </div>
 
@@ -2359,7 +2359,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={handleAdvanceToChallenge}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
               >
                 Launch Graded Challenges →
               </motion.button>
@@ -2378,7 +2378,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-slate-500">•</span>
-              <span className="text-indigo-400 font-semibold uppercase tracking-wider">
+              <span className="text-gold-400 font-semibold uppercase tracking-wider">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
@@ -2392,7 +2392,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2459,7 +2459,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2498,7 +2498,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={Object.keys(droppedLabels).length < 4 || showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Verify Mapping ✓
                 </motion.button>
@@ -2526,7 +2526,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 hover:bg-slate-750 rounded-xl border border-slate-700 text-xs md:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 font-bold flex items-center justify-center text-xs flex-shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 font-bold flex items-center justify-center text-xs flex-shrink-0">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2547,7 +2547,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Order ✓
                 </motion.button>
@@ -2563,7 +2563,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 focus:outline-none"
+                    className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 focus:outline-none"
                   />
                   <span className="text-xs font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2573,7 +2573,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={!numericInput || showExplanation}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                   >
                     Check
                   </motion.button>
@@ -2592,7 +2592,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2603,7 +2603,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-950 border border-indigo-700 text-indigo-300 rounded-lg text-xs font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-950 border border-gold-700 text-gold-300 rounded-lg text-xs font-bold flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2626,7 +2626,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0 || showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Verify Structure ✓
                 </motion.button>
@@ -2638,7 +2638,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 md:p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/60 rounded-xl space-y-3"
+                className="mt-5 p-4 md:p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/60 rounded-xl space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-amber-300 uppercase tracking-wider">
@@ -2662,7 +2662,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs md:text-sm text-slate-200 leading-relaxed"
                       >
-                        <strong className="text-indigo-400 font-bold">{i + 1}.</strong> {sentence}
+                        <strong className="text-gold-400 font-bold">{i + 1}.</strong> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2675,7 +2675,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps((s) => s + 1)}
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                     >
                       Show Next Point →
                     </motion.button>
@@ -2701,7 +2701,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
       {/* ─── PHASE 5: COMPLETE & MASTERY REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Political Science Mastery Achieved!</h2>
             
@@ -2713,7 +2713,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 errors === 0
                   ? 'bg-emerald-500 text-slate-950 shadow-emerald-500/30'
                   : errors <= 3
-                  ? 'bg-indigo-500 text-white shadow-indigo-500/30'
+                  ? 'bg-gold-500 text-white shadow-gold-500/30'
                   : errors <= 7
                   ? 'bg-amber-500 text-slate-950 shadow-amber-500/30'
                   : 'bg-rose-500 text-white shadow-rose-500/30'
@@ -2732,7 +2732,7 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
                 <div className="text-[10px] text-slate-400 uppercase tracking-wider font-bold">Accuracy Score</div>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800 px-6">
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
                 <div className="text-[10px] text-slate-400 uppercase tracking-wider font-bold">BKT Knowledge State</div>
               </div>
             </div>
@@ -2783,14 +2783,14 @@ export function C11_PoliticalScienceMeaningPoliticalScienceSim({
 
           {/* Real World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

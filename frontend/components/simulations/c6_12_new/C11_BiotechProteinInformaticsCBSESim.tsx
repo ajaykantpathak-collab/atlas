@@ -1008,7 +1008,7 @@ const MolecularCanvas: React.FC<MolecularCanvasProps> = ({ hydrophobicity, aliph
   return (
     <div className="relative w-full h-64 bg-slate-950/80 rounded-xl border border-slate-800 flex items-center justify-center overflow-hidden">
       <canvas ref={canvasRef} width={400} height={256} className="w-full h-full" />
-      <div className="absolute top-2 right-2 px-2.5 py-1 rounded bg-slate-900/80 border border-slate-700 text-[10px] text-cyan-400 font-mono">
+      <div className="absolute top-2 right-2 px-2.5 py-1 rounded bg-slate-900/80 border border-slate-700 text-[10px] text-gold-400 font-mono">
         3D Interactive Backbone View
       </div>
     </div>
@@ -1278,19 +1278,19 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
       {/* Header Banner */}
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-4 sm:p-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-4">
-          <div className="w-14 h-14 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-cyan-500/30">
+          <div className="w-14 h-14 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-gold-500/30">
             🧬
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
+              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 11 Biotechnology
               </span>
-              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 CBSE Core
               </span>
             </div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-300 mt-1">
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300 mt-1">
               Protein &amp; Cheminformatics Simulation Lab
             </h1>
             <p className="text-xs sm:text-sm text-slate-400">
@@ -1303,7 +1303,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
         <div className="flex items-center gap-3">
           <div className="bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700 text-center min-w-[90px]">
             <div className="text-[10px] uppercase tracking-wider text-slate-400">Score</div>
-            <div className="text-xl font-extrabold text-cyan-400">{score}</div>
+            <div className="text-xl font-extrabold text-gold-400">{score}</div>
           </div>
           <div className="bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700 text-center min-w-[90px]">
             <div className="text-[10px] uppercase tracking-wider text-slate-400">Streak</div>
@@ -1318,7 +1318,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
           onClick={() => handleTabChange('discovery')}
           className={`flex-1 py-3 px-4 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'discovery'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1328,7 +1328,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
           onClick={() => handleTabChange('lab')}
           className={`flex-1 py-3 px-4 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'lab'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1338,7 +1338,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
           onClick={() => handleTabChange('challenges')}
           className={`flex-1 py-3 px-4 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'challenges'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1348,7 +1348,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
           onClick={() => handleTabChange('summary')}
           className={`flex-1 py-3 px-4 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'summary'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1362,10 +1362,10 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-3">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 leading-relaxed text-base mb-4">{SCENARIO.intro}</p>
-              <div className="bg-slate-950/60 p-4 rounded-xl border border-slate-800 text-sm text-cyan-200/90 leading-relaxed">
-                <span className="font-semibold text-cyan-400">Context: </span>
+              <div className="bg-slate-950/60 p-4 rounded-xl border border-slate-800 text-sm text-gold-200/90 leading-relaxed">
+                <span className="font-semibold text-gold-400">Context: </span>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1382,7 +1382,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
 
               <div className="grid grid-cols-1 gap-3 mb-6">
                 {DISCOVERY_QUESTION.options.map((opt, idx) => {
-                  let btnStyle = 'bg-slate-800/60 border-slate-700 hover:border-cyan-500/50 text-slate-200';
+                  let btnStyle = 'bg-slate-800/60 border-slate-700 hover:border-gold-500/50 text-slate-200';
                   if (discSubmitted) {
                     if (idx === DISCOVERY_QUESTION.correctIndex) {
                       btnStyle = 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold';
@@ -1390,7 +1390,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                       btnStyle = 'bg-rose-950/60 border-rose-500 text-rose-200';
                     }
                   } else if (discAnswer === idx) {
-                    btnStyle = 'bg-cyan-950/60 border-cyan-500 text-cyan-200';
+                    btnStyle = 'bg-gold-950/60 border-gold-500 text-gold-200';
                   }
 
                   return (
@@ -1400,7 +1400,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                       onClick={() => handleDiscoverySubmit(idx)}
                       className={`w-full p-4 rounded-xl border text-left transition-all text-sm leading-relaxed ${btnStyle}`}
                     >
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {opt}
                     </button>
                   );
@@ -1408,8 +1408,8 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
               </div>
 
               {discSubmitted && (
-                <div className="p-4 rounded-xl bg-cyan-950/40 border border-cyan-800/60 text-cyan-200 text-sm leading-relaxed">
-                  <span className="font-bold text-cyan-300">Biotechnology Insight: </span>
+                <div className="p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 text-gold-200 text-sm leading-relaxed">
+                  <span className="font-bold text-gold-300">Biotechnology Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1417,11 +1417,11 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
 
             {/* Prediction Questions Card */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400">Pre-Lab Prediction Hypotheses</h3>
+              <h3 className="text-lg font-bold text-gold-400">Pre-Lab Prediction Hypotheses</h3>
 
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                 <div key={pIdx} className="p-5 rounded-xl bg-slate-950/60 border border-slate-800 space-y-3">
-                  <div className="text-xs font-mono text-cyan-400">Prediction #{pIdx + 1} ({pred.nodeId})</div>
+                  <div className="text-xs font-mono text-gold-400">Prediction #{pIdx + 1} ({pred.nodeId})</div>
                   <p className="text-sm font-medium text-slate-200">{pred.question}</p>
 
                   <div className="grid grid-cols-1 gap-2">
@@ -1435,7 +1435,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                         if (isCorr) style = 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold';
                         else if (isSel) style = 'bg-rose-950/60 border-rose-500 text-rose-200';
                       } else if (isSel) {
-                        style = 'bg-cyan-950/60 border-cyan-500 text-cyan-200';
+                        style = 'bg-gold-950/60 border-gold-500 text-gold-200';
                       }
 
                       return (
@@ -1476,11 +1476,11 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
           <div className="space-y-6">
             {/* Exploration Steps Header */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow-xl">
-              <h2 className="text-lg font-bold text-cyan-400 mb-3">Interactive Exploration Workstations</h2>
+              <h2 className="text-lg font-bold text-gold-400 mb-3">Interactive Exploration Workstations</h2>
               <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
                 {EXPLORATION_STEPS.map((step, idx) => (
                   <div key={idx} className="p-3 rounded-xl bg-slate-950/60 border border-slate-800 text-xs">
-                    <div className="font-bold text-cyan-300 mb-1">{step.title}</div>
+                    <div className="font-bold text-gold-300 mb-1">{step.title}</div>
                     <div className="text-slate-400 line-clamp-2">{step.instruction}</div>
                     <div className="text-[10px] text-slate-500 mt-2 font-mono">{step.nodeId}</div>
                   </div>
@@ -1495,7 +1495,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                   <h3 className="text-lg font-bold text-slate-100">Workstation 1: ProtParam Physicochemical Analysis</h3>
                   <p className="text-xs text-slate-400">Simulate primary sequence parameters &amp; protein stability</p>
                 </div>
-                <span className="text-xs font-mono px-2.5 py-1 rounded bg-cyan-950 text-cyan-400 border border-cyan-800 mt-2 sm:mt-0">
+                <span className="text-xs font-mono px-2.5 py-1 rounded bg-gold-950 text-gold-400 border border-gold-800 mt-2 sm:mt-0">
                   Node: c11_bt_cbse_372 to c11_bt_cbse_376
                 </span>
               </div>
@@ -1505,8 +1505,8 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 <div className="lg:col-span-6 space-y-5 bg-slate-950/60 p-5 rounded-xl border border-slate-800">
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
-                      <span className="text-cyan-300">Alanine Content (Ala %):</span>
-                      <span className="text-cyan-400">{alaPercent}%</span>
+                      <span className="text-gold-300">Alanine Content (Ala %):</span>
+                      <span className="text-gold-400">{alaPercent}%</span>
                     </div>
                     <input
                       type="range"
@@ -1514,15 +1514,15 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                       max="45"
                       value={alaPercent}
                       onChange={(e) => setAlaPercent(parseFloat(e.target.value))}
-                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-500"
+                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                     />
                     <p className="text-[10px] text-slate-500 mt-1">Directly impacts the Aliphatic Index and thermal tolerance.</p>
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
-                      <span className="text-cyan-300">Basic Residues Ratio (Arg + Lys %):</span>
-                      <span className="text-cyan-400">{basicRatio}%</span>
+                      <span className="text-gold-300">Basic Residues Ratio (Arg + Lys %):</span>
+                      <span className="text-gold-400">{basicRatio}%</span>
                     </div>
                     <input
                       type="range"
@@ -1530,15 +1530,15 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                       max="30"
                       value={basicRatio}
                       onChange={(e) => setBasicRatio(parseFloat(e.target.value))}
-                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-500"
+                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                     />
                     <p className="text-[10px] text-slate-500 mt-1">Shifts Isoelectric Point (pI) towards alkaline values.</p>
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
-                      <span className="text-cyan-300">Hydrophobic Content (Val + Leu + Ile %):</span>
-                      <span className="text-cyan-400">{hydrophobicVal}%</span>
+                      <span className="text-gold-300">Hydrophobic Content (Val + Leu + Ile %):</span>
+                      <span className="text-gold-400">{hydrophobicVal}%</span>
                     </div>
                     <input
                       type="range"
@@ -1546,7 +1546,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                       max="70"
                       value={hydrophobicVal}
                       onChange={(e) => setHydrophobicVal(parseFloat(e.target.value))}
-                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-500"
+                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                     />
                     <p className="text-[10px] text-slate-500 mt-1">Controls GRAVY Score and membrane insertion potential.</p>
                   </div>
@@ -1557,7 +1557,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                   <div className="grid grid-cols-2 gap-3">
                     <div className="p-4 rounded-xl bg-slate-950 border border-slate-800">
                       <div className="text-[11px] text-slate-400 font-mono">Isoelectric Point (pI)</div>
-                      <div className="text-2xl font-black text-cyan-400 mt-1">{computedPI}</div>
+                      <div className="text-2xl font-black text-gold-400 mt-1">{computedPI}</div>
                       <div className="text-[10px] text-slate-500 mt-1">Charge = 0 at pH {computedPI}</div>
                     </div>
 
@@ -1579,7 +1579,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
 
                     <div className="p-4 rounded-xl bg-slate-950 border border-slate-800">
                       <div className="text-[11px] text-slate-400 font-mono">GRAVY Score</div>
-                      <div className={`text-2xl font-black mt-1 ${parseFloat(computedGRAVY) > 0 ? 'text-amber-400' : 'text-sky-400'}`}>
+                      <div className={`text-2xl font-black mt-1 ${parseFloat(computedGRAVY) > 0 ? 'text-amber-400' : 'text-gold-400'}`}>
                         {computedGRAVY}
                       </div>
                       <div className="text-[10px] text-slate-500 mt-1">
@@ -1605,7 +1605,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                   <h3 className="text-lg font-bold text-slate-100">Workstation 2: Protein Structure Prediction Pipeline</h3>
                   <p className="text-xs text-slate-400">Homology Modeling vs Threading vs De Novo methodology router</p>
                 </div>
-                <span className="text-xs font-mono px-2.5 py-1 rounded bg-indigo-950 text-indigo-400 border border-indigo-800 mt-2 sm:mt-0">
+                <span className="text-xs font-mono px-2.5 py-1 rounded bg-gold-950 text-gold-400 border border-gold-800 mt-2 sm:mt-0">
                   Node: c11_bt_cbse_378 to c11_bt_cbse_381
                 </span>
               </div>
@@ -1615,8 +1615,8 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
               <div className="bg-slate-950/60 p-5 rounded-xl border border-slate-800 space-y-4">
                 <div>
                   <div className="flex justify-between text-xs font-semibold mb-2">
-                    <span className="text-indigo-300">Target-Template Sequence Identity:</span>
-                    <span className="text-indigo-400 font-bold text-sm">{seqIdentity}%</span>
+                    <span className="text-gold-300">Target-Template Sequence Identity:</span>
+                    <span className="text-gold-400 font-bold text-sm">{seqIdentity}%</span>
                   </div>
                   <input
                     type="range"
@@ -1624,14 +1624,14 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                     max="95"
                     value={seqIdentity}
                     onChange={(e) => setSeqIdentity(parseInt(e.target.value))}
-                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
+                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                   />
                 </div>
 
                 <div className="p-4 rounded-xl bg-slate-900 border border-slate-700 grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
                   <div>
                     <div className="text-slate-400">Recommended Method</div>
-                    <div className="font-bold text-indigo-300 text-sm mt-0.5">{predictedMethod.name}</div>
+                    <div className="font-bold text-gold-300 text-sm mt-0.5">{predictedMethod.name}</div>
                   </div>
                   <div>
                     <div className="text-slate-400">Expected Model Accuracy</div>
@@ -1639,7 +1639,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                   </div>
                   <div>
                     <div className="text-slate-400">Standard Software Tools</div>
-                    <div className="font-bold text-cyan-300 text-sm mt-0.5">{predictedMethod.software}</div>
+                    <div className="font-bold text-gold-300 text-sm mt-0.5">{predictedMethod.software}</div>
                   </div>
                 </div>
               </div>
@@ -1776,7 +1776,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 <button
                   onClick={runVirtualScreeningStep}
                   disabled={isScreeningActive}
-                  className="px-6 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-lg transition-all border border-purple-400/30 whitespace-nowrap"
+                  className="px-6 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white shadow-lg transition-all border border-purple-400/30 whitespace-nowrap"
                 >
                   {isScreeningActive ? 'Executing Filter...' : (screeningStage === 3 ? 'Reset Screening' : 'Advance Screening Stage')}
                 </button>
@@ -1790,7 +1790,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                   <h3 className="text-lg font-bold text-slate-100">Workstation 5: Biological &amp; Chemical Database Explorer</h3>
                   <p className="text-xs text-slate-400">Query PDB, PubChem, ChEMBL, DrugBank, and BindingDB data models</p>
                 </div>
-                <span className="text-xs font-mono px-2.5 py-1 rounded bg-sky-950 text-sky-400 border border-sky-800 mt-2 sm:mt-0">
+                <span className="text-xs font-mono px-2.5 py-1 rounded bg-gold-950 text-gold-400 border border-gold-800 mt-2 sm:mt-0">
                   Node: c11_bt_cbse_369 &amp; c11_bt_cbse_389
                 </span>
               </div>
@@ -1805,7 +1805,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                     }}
                     className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                       selectedDb === db
-                        ? 'bg-sky-600 text-white border-sky-400 shadow-lg'
+                        ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                         : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                     }`}
                   >
@@ -1817,7 +1817,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
               <div className="p-5 rounded-xl bg-slate-950/80 border border-slate-800 font-mono text-xs space-y-3">
                 {selectedDb === 'PDB' && (
                   <div>
-                    <div className="text-sky-400 font-bold text-sm mb-1">RCSB Protein Data Bank (PDB)</div>
+                    <div className="text-gold-400 font-bold text-sm mb-1">RCSB Protein Data Bank (PDB)</div>
                     <div className="text-slate-300">Format: ASCII Text Atomic Coordinates (.pdb format)</div>
                     <div className="text-slate-400 mt-2 text-[11px] leading-relaxed">
                       HEADER METABOLISM 12-FEB-21 6LU7<br/>
@@ -1829,7 +1829,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 )}
                 {selectedDb === 'PubChem' && (
                   <div>
-                    <div className="text-sky-400 font-bold text-sm mb-1">PubChem (NCBI / NIH)</div>
+                    <div className="text-gold-400 font-bold text-sm mb-1">PubChem (NCBI / NIH)</div>
                     <div className="text-slate-300">Format: Chemical Graphs &amp; SMILES Notation</div>
                     <div className="text-slate-400 mt-2 text-[11px] leading-relaxed">
                       CID: 2244 (Aspirin)<br/>
@@ -1841,7 +1841,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 )}
                 {selectedDb === 'ChEMBL' && (
                   <div>
-                    <div className="text-sky-400 font-bold text-sm mb-1">ChEMBL Bioactivity Database (EMBL-EBI)</div>
+                    <div className="text-gold-400 font-bold text-sm mb-1">ChEMBL Bioactivity Database (EMBL-EBI)</div>
                     <div className="text-slate-300">Format: Quantitative IC50, Ki, EC50 Assay Datasets</div>
                     <div className="text-slate-400 mt-2 text-[11px] leading-relaxed">
                       Target: Human Acetylcholinesterase (CHEMBL220)<br/>
@@ -1853,7 +1853,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 )}
                 {selectedDb === 'DrugBank' && (
                   <div>
-                    <div className="text-sky-400 font-bold text-sm mb-1">DrugBank Knowledgebase</div>
+                    <div className="text-gold-400 font-bold text-sm mb-1">DrugBank Knowledgebase</div>
                     <div className="text-slate-300">Format: Approved &amp; Experimental Drug Targets, ADMET, Pathways</div>
                     <div className="text-slate-400 mt-2 text-[11px] leading-relaxed">
                       Drug ID: DB00316 (Acetaminophen)<br/>
@@ -1865,7 +1865,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 )}
                 {selectedDb === 'BindingDB' && (
                   <div>
-                    <div className="text-sky-400 font-bold text-sm mb-1">BindingDB Database</div>
+                    <div className="text-gold-400 font-bold text-sm mb-1">BindingDB Database</div>
                     <div className="text-slate-300">Format: Measured Binding Affinities (Kd, Ki, ΔG)</div>
                     <div className="text-slate-400 mt-2 text-[11px] leading-relaxed">
                       Target Protein: Kinase Domain (Abl1)<br/>
@@ -1880,11 +1880,11 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
 
             {/* Observation Questions Card */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400">Post-Simulation Observation Verification</h3>
+              <h3 className="text-lg font-bold text-gold-400">Post-Simulation Observation Verification</h3>
 
               {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
                 <div key={oIdx} className="p-5 rounded-xl bg-slate-950/60 border border-slate-800 space-y-3">
-                  <div className="text-xs font-mono text-cyan-400">Observation Question #{oIdx + 1} ({obs.nodeId})</div>
+                  <div className="text-xs font-mono text-gold-400">Observation Question #{oIdx + 1} ({obs.nodeId})</div>
                   <p className="text-sm font-medium text-slate-200">{obs.question}</p>
 
                   <div className="grid grid-cols-1 gap-2">
@@ -1898,7 +1898,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                         if (isCorr) style = 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold';
                         else if (isSel) style = 'bg-rose-950/60 border-rose-500 text-rose-200';
                       } else if (isSel) {
-                        style = 'bg-cyan-950/60 border-cyan-500 text-cyan-200';
+                        style = 'bg-gold-950/60 border-gold-500 text-gold-200';
                       }
 
                       return (
@@ -1938,7 +1938,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 <div className="flex items-center gap-3">
                   <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase ${
                     currentChallenge.difficulty === 'foundation'
-                      ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                      ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                       : currentChallenge.difficulty === 'standard'
                       ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30'
                       : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
@@ -1950,7 +1950,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                   </span>
                 </div>
 
-                <div className="flex items-center gap-2 text-xs font-mono text-cyan-400">
+                <div className="flex items-center gap-2 text-xs font-mono text-gold-400">
                   <span>Node: {currentChallenge.nodeId}</span>
                   <span className="text-slate-600">|</span>
                   <span>Mastery: {(masteryProb(bktStates[currentChallenge.nodeId]) * 100).toFixed(0)}%</span>
@@ -1959,7 +1959,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
 
               {/* Challenge Question Statement */}
               <div className="text-base sm:text-lg font-semibold text-slate-100 leading-relaxed">
-                <span className="text-cyan-400 font-bold mr-2">Q{currentChallengeIdx + 1}.</span>
+                <span className="text-gold-400 font-bold mr-2">Q{currentChallengeIdx + 1}.</span>
                 {currentChallenge.question}
               </div>
 
@@ -1967,7 +1967,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
               {currentChallenge.type === 'multiple-choice' && currentChallenge.options && (
                 <div className="grid grid-cols-1 gap-3">
                   {currentChallenge.options.map((opt, idx) => {
-                    let btnStyle = 'bg-slate-950/60 border-slate-800 hover:border-cyan-500/50 text-slate-200';
+                    let btnStyle = 'bg-slate-950/60 border-slate-800 hover:border-gold-500/50 text-slate-200';
                     if (isSubmitted) {
                       if (idx === currentChallenge.correctIndex) {
                         btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold';
@@ -1975,7 +1975,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                         btnStyle = 'bg-rose-950/80 border-rose-500 text-rose-200';
                       }
                     } else if (selectedOption === idx) {
-                      btnStyle = 'bg-cyan-950/80 border-cyan-500 text-cyan-200';
+                      btnStyle = 'bg-gold-950/80 border-gold-500 text-gold-200';
                     }
 
                     return (
@@ -1988,7 +1988,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                         }}
                         className={`w-full p-4 rounded-xl border text-left transition-all text-sm leading-relaxed ${btnStyle}`}
                       >
-                        <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                         {opt}
                       </button>
                     );
@@ -2006,7 +2006,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                     value={numericAnswer}
                     onChange={(e) => setNumericAnswer(e.target.value)}
                     placeholder="e.g. 1"
-                    className="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 text-lg font-mono focus:border-cyan-500 focus:outline-none"
+                    className="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 text-lg font-mono focus:border-gold-500 focus:outline-none"
                   />
                 </div>
               )}
@@ -2021,7 +2021,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                       className="flex items-center justify-between p-4 rounded-xl bg-slate-950 border border-slate-800 text-sm text-slate-200"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-6 h-6 rounded-full bg-cyan-950 border border-cyan-700 text-cyan-400 font-bold text-xs flex items-center justify-center">
+                        <span className="w-6 h-6 rounded-full bg-gold-950 border border-gold-700 text-gold-400 font-bold text-xs flex items-center justify-center">
                           {posIdx + 1}
                         </span>
                         <span>{currentChallenge.sortItems?.[itemIdx]}</span>
@@ -2063,7 +2063,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
                 {!isSubmitted ? (
                   <button
                     onClick={handleChallengeSubmit}
-                    className="px-8 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-lg shadow-cyan-500/20 transition-all border border-cyan-400/30"
+                    className="px-8 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white shadow-lg shadow-gold-500/20 transition-all border border-gold-400/30"
                   >
                     Submit Answer
                   </button>
@@ -2111,10 +2111,10 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
               <p className="text-slate-300 text-sm leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="space-y-3 mt-4">
-                <div className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">Protocol Execution Steps:</div>
+                <div className="text-xs font-semibold text-gold-400 uppercase tracking-wider">Protocol Execution Steps:</div>
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="p-3.5 rounded-xl bg-slate-950/60 border border-slate-800 text-xs text-slate-200 flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full bg-cyan-950 border border-cyan-800 text-cyan-400 font-bold flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="w-5 h-5 rounded-full bg-gold-950 border border-gold-800 text-gold-400 font-bold flex items-center justify-center shrink-0 mt-0.5">
                       {sIdx + 1}
                     </span>
                     <span className="leading-relaxed">{step}</span>
@@ -2125,7 +2125,7 @@ export default function C11_BiotechProteinInformaticsCBSESim() {
 
             {/* Curriculum Diagnostic Knowledge Base */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400">Diagnostic Assessment Review &amp; Concept Mastery</h3>
+              <h3 className="text-lg font-bold text-gold-400">Diagnostic Assessment Review &amp; Concept Mastery</h3>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {DIAGNOSTIC_QUESTIONS.map((dq) => (

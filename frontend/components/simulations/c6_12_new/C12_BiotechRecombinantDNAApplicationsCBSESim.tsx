@@ -771,8 +771,8 @@ const DNAFingerprintingDiagram: React.FC<{
   const getShiftedY = (baseY: number) => Math.min(270, 40 + baseY * migrationFactor * 0.85);
 
   return (
-    <div className="w-full bg-slate-900 p-4 rounded-xl border border-cyan-500/30 flex flex-col items-center">
-      <div className="text-cyan-400 text-sm font-bold mb-2 flex justify-between w-full px-4">
+    <div className="w-full bg-slate-900 p-4 rounded-xl border border-gold-500/30 flex flex-col items-center">
+      <div className="text-gold-400 text-sm font-bold mb-2 flex justify-between w-full px-4">
         <span>ELECTROPHORESIS AGAROSE GEL TANK</span>
         <span className="text-yellow-400">Anode (+) Base | Cathode (-) Top</span>
       </div>
@@ -913,8 +913,8 @@ const RNAiMechanismDiagram: React.FC<{
   geneSilenced: boolean;
 }> = ({ rnaiStep, geneSilenced }) => {
   return (
-    <div className="w-full bg-slate-900 p-4 rounded-xl border border-indigo-500/30 flex flex-col items-center">
-      <div className="text-indigo-400 text-sm font-bold mb-2">RNA INTERFERENCE (RNAi) MOLECULAR CASCADE</div>
+    <div className="w-full bg-slate-900 p-4 rounded-xl border border-gold-500/30 flex flex-col items-center">
+      <div className="text-gold-400 text-sm font-bold mb-2">RNA INTERFERENCE (RNAi) MOLECULAR CASCADE</div>
       <svg viewBox="0 0 520 270" className="w-full max-w-lg bg-slate-950 rounded-lg shadow-inner border border-slate-800">
         {/* Step 1: dsRNA Precursor */}
         <g transform="translate(60, 60)">
@@ -970,8 +970,8 @@ const HumulinInsulinDiagram: React.FC<{
   bondsFormed: boolean;
 }> = ({ chainAExpress, chainBExpress, bondsFormed }) => {
   return (
-    <div className="w-full bg-slate-900 p-4 rounded-xl border border-sky-500/30 flex flex-col items-center">
-      <div className="text-sky-400 text-sm font-bold mb-2">RECOMBINANT HUMAN INSULIN (HUMULIN) STRUCTURE</div>
+    <div className="w-full bg-slate-900 p-4 rounded-xl border border-gold-500/30 flex flex-col items-center">
+      <div className="text-gold-400 text-sm font-bold mb-2">RECOMBINANT HUMAN INSULIN (HUMULIN) STRUCTURE</div>
       <svg viewBox="0 0 520 260" className="w-full max-w-lg bg-slate-950 rounded-lg shadow-inner border border-slate-800">
         {/* Chain A */}
         <g transform="translate(60, 70)">
@@ -1275,10 +1275,10 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl mb-6 flex flex-col md:flex-row items-center justify-between border-b border-slate-800 pb-4">
         <div>
-          <span className="text-xs font-bold tracking-widest text-cyan-400 uppercase bg-cyan-950/80 border border-cyan-800 px-3 py-1 rounded-full">
+          <span className="text-xs font-bold tracking-widest text-gold-400 uppercase bg-gold-950/80 border border-gold-800 px-3 py-1 rounded-full">
             ISC / CBSE CLASS 12 BIOTECHNOLOGY
           </span>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400 mt-2">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400 mt-2">
             Recombinant DNA Applications Virtual Suite
           </h1>
         </div>
@@ -1300,7 +1300,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
               }}
               className={`px-4 py-2 rounded-lg text-xs md:text-sm font-bold transition-all ${
                 activeTab === tab.id
-                  ? 'bg-gradient-to-r from-cyan-500 to-indigo-600 text-white shadow-lg shadow-cyan-500/30'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/30'
                   : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
@@ -1318,17 +1318,17 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* Scenario Card */}
-            <div className="bg-slate-900/90 border border-cyan-500/40 p-6 rounded-2xl shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-300 mb-2">{SCENARIO.title}</h2>
+            <div className="bg-slate-900/90 border border-gold-500/40 p-6 rounded-2xl shadow-xl">
+              <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-4 bg-cyan-950/40 border border-cyan-800/60 rounded-xl text-cyan-200 text-xs md:text-sm">
+              <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl text-gold-200 text-xs md:text-sm">
                 <strong>Lab Context: </strong>{SCENARIO.context}
               </div>
             </div>
 
             {/* Discovery Core Question */}
-            <div className="bg-slate-900 border border-indigo-500/40 p-6 rounded-2xl shadow-xl">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Concept Probe</span>
+            <div className="bg-slate-900 border border-gold-500/40 p-6 rounded-2xl shadow-xl">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Concept Probe</span>
               <h3 className="text-lg font-bold text-slate-100 mt-1 mb-4">{DISCOVERY_QUESTION.question}</h3>
 
               <div className="grid grid-cols-1 gap-3">
@@ -1341,7 +1341,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                        : 'bg-slate-950/80 border-slate-800 text-slate-300 hover:border-indigo-500/60'
+                        : 'bg-slate-950/80 border-slate-800 text-slate-300 hover:border-gold-500/60'
                     }`}
                   >
                     <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span> {option}
@@ -1350,7 +1350,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
               </div>
 
               {discoverySubmitted && (
-                <div className="mt-4 p-4 rounded-xl bg-indigo-950/60 border border-indigo-800 text-indigo-200 text-xs md:text-sm leading-relaxed">
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/60 border border-gold-800 text-gold-200 text-xs md:text-sm leading-relaxed">
                   <strong>Scientific Insight: </strong> {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1358,7 +1358,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
 
             {/* PREDICTION QUESTIONS RENDERING */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-400">Hypothesis & Prediction Exercises</h3>
+              <h3 className="text-md font-bold text-gold-400">Hypothesis & Prediction Exercises</h3>
               {PREDICTION_QUESTIONS.map((pq, idx) => (
                 <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <p className="text-sm font-semibold text-slate-200 mb-2">{pq.question}</p>
@@ -1367,7 +1367,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                       <li key={oIdx} className="text-xs text-slate-400 pl-4 list-disc">{opt}</li>
                     ))}
                   </ul>
-                  <div className="text-xs text-indigo-400 italic">Instruction: {pq.verifyInstruction}</div>
+                  <div className="text-xs text-gold-400 italic">Instruction: {pq.verifyInstruction}</div>
                 </div>
               ))}
             </div>
@@ -1390,7 +1390,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                   }}
                   className={`px-3 py-2 rounded-lg text-xs font-bold transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/20'
+                      ? 'bg-gold-600 text-white shadow-md shadow-gold-500/20'
                       : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
@@ -1400,17 +1400,17 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
             </div>
 
             {/* Instruction Banner */}
-            <div className="p-4 bg-indigo-950/40 border border-indigo-800 rounded-xl flex items-center justify-between">
+            <div className="p-4 bg-gold-950/40 border border-gold-800 rounded-xl flex items-center justify-between">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase">Interactive Objective</span>
-                <p className="text-xs md:text-sm text-indigo-200">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
+                <span className="text-xs font-bold text-gold-400 uppercase">Interactive Objective</span>
+                <p className="text-xs md:text-sm text-gold-200">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
               </div>
               <button
                 onClick={() => {
                   speechManager.speak(EXPLORATION_STEPS[activeLabIndex].instruction);
                   audioManager.play('pop');
                 }}
-                className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold flex items-center gap-1"
+                className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold flex items-center gap-1"
               >
                 🔊 Read
               </button>
@@ -1426,22 +1426,22 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                   activeSuspect={selectedSuspect}
                 />
                 <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-base font-bold text-cyan-400">Electrophoresis Parameter Control</h3>
+                  <h3 className="text-base font-bold text-gold-400">Electrophoresis Parameter Control</h3>
                   
                   <div>
-                    <label className="text-xs text-slate-300 block mb-1">Gel Voltage: <span className="font-bold text-cyan-400">{gelVoltage} V</span></label>
+                    <label className="text-xs text-slate-300 block mb-1">Gel Voltage: <span className="font-bold text-gold-400">{gelVoltage} V</span></label>
                     <input
                       type="range"
                       min="50"
                       max="200"
                       value={gelVoltage}
                       onChange={(e) => setGelVoltage(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <div>
-                    <label className="text-xs text-slate-300 block mb-1">Agarose Matrix Conc: <span className="font-bold text-cyan-400">{agaroseConc}%</span></label>
+                    <label className="text-xs text-slate-300 block mb-1">Agarose Matrix Conc: <span className="font-bold text-gold-400">{agaroseConc}%</span></label>
                     <input
                       type="range"
                       min="0.5"
@@ -1449,7 +1449,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                       step="0.1"
                       value={agaroseConc}
                       onChange={(e) => setAgaroseConc(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1465,7 +1465,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                           }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold border ${
                             selectedSuspect === num
-                              ? 'bg-cyan-600 border-cyan-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-950 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1516,7 +1516,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                         audioManager.play('toggle' as unknown as Parameters<typeof audioManager.play>[0]);
                       }}
                       className={`px-4 py-1.5 rounded-full text-xs font-bold ${
-                        hasInsertedGene ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                        hasInsertedGene ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {hasInsertedGene ? 'Gene Inserted' : 'Empty Vector'}
@@ -1549,7 +1549,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <RNAiMechanismDiagram rnaiStep={rnaiStep} geneSilenced={isSilenced} />
                 <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-base font-bold text-indigo-400">RNAi Pathway Control</h3>
+                  <h3 className="text-base font-bold text-gold-400">RNAi Pathway Control</h3>
                   
                   <div className="space-y-2">
                     <label className="text-xs text-slate-300 block">RNAi Execution Step:</label>
@@ -1569,7 +1569,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                           }}
                           className={`p-2 rounded-lg text-xs font-bold border ${
                             rnaiStep === s.step
-                              ? 'bg-indigo-600 border-indigo-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-950 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1604,7 +1604,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                   bondsFormed={disulfideFormed}
                 />
                 <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-base font-bold text-sky-400">Humulin Recombinant Expression</h3>
+                  <h3 className="text-base font-bold text-gold-400">Humulin Recombinant Expression</h3>
                   
                   <div className="space-y-3">
                     <button
@@ -1613,7 +1613,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                         audioManager.play('toggle' as unknown as Parameters<typeof audioManager.play>[0]);
                       }}
                       className={`w-full p-3 rounded-xl text-xs font-bold border ${
-                        expressChainA ? 'bg-sky-950 border-sky-500 text-sky-200' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        expressChainA ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       Ferment E. coli Culture A (Chain A - 21 aa)
@@ -1625,7 +1625,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                         audioManager.play('toggle' as unknown as Parameters<typeof audioManager.play>[0]);
                       }}
                       className={`w-full p-3 rounded-xl text-xs font-bold border ${
-                        expressChainB ? 'bg-sky-950 border-sky-500 text-sky-200' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        expressChainB ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       Ferment E. coli Culture B (Chain B - 30 aa)
@@ -1700,7 +1700,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
 
             {/* OBSERVATION QUESTIONS RENDERING */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-              <h3 className="text-md font-bold text-indigo-400">Lab Observation Questions</h3>
+              <h3 className="text-md font-bold text-gold-400">Lab Observation Questions</h3>
               {OBSERVATION_QUESTIONS.map((oq, idx) => (
                 <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <p className="text-sm font-semibold text-slate-200 mb-2">{oq.question}</p>
@@ -1733,7 +1733,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex items-center justify-between">
               <div>
                 <span className="text-xs text-slate-400">Challenge Completion</span>
-                <div className="text-lg font-bold text-cyan-400">
+                <div className="text-lg font-bold text-gold-400">
                   {completedChallenges.size} / {CHALLENGES.length} Completed
                 </div>
               </div>
@@ -1751,7 +1751,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                       completedChallenges.has(ch.id)
                         ? 'bg-emerald-600 border-emerald-400 text-white'
                         : currentChallengeIndex === idx
-                        ? 'bg-cyan-600 border-cyan-400 text-white'
+                        ? 'bg-gold-600 border-gold-400 text-white'
                         : 'bg-slate-950 border-slate-800 text-slate-400'
                     }`}
                   >
@@ -1765,9 +1765,9 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
             {(() => {
               const ch = CHALLENGES[currentChallengeIndex];
               return (
-                <div className="bg-slate-900 border border-cyan-500/30 p-6 rounded-2xl space-y-4">
+                <div className="bg-slate-900 border border-gold-500/30 p-6 rounded-2xl space-y-4">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-cyan-400 uppercase bg-cyan-950 border border-cyan-800 px-3 py-1 rounded-full">
+                    <span className="text-xs font-bold text-gold-400 uppercase bg-gold-950 border border-gold-800 px-3 py-1 rounded-full">
                       {ch.difficulty} • Competency: {ch.competencyLevel}
                     </span>
                     <span className="text-xs text-slate-400">Node: {ch.nodeId}</span>
@@ -1784,7 +1784,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                           onClick={() => setUserAnswerIndex(oIdx)}
                           className={`p-4 rounded-xl text-left text-sm border transition-all ${
                             userAnswerIndex === oIdx
-                              ? 'bg-cyan-950 border-cyan-400 text-cyan-100'
+                              ? 'bg-gold-950 border-gold-400 text-gold-100'
                               : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                           }`}
                         >
@@ -1803,7 +1803,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                         value={userNumericAnswer}
                         onChange={(e) => setUserNumericAnswer(e.target.value)}
                         placeholder="Type answer..."
-                        className="w-full max-w-xs p-3 bg-slate-950 border border-slate-800 rounded-xl text-cyan-400 font-bold text-lg focus:outline-none focus:border-cyan-500"
+                        className="w-full max-w-xs p-3 bg-slate-950 border border-slate-800 rounded-xl text-gold-400 font-bold text-lg focus:outline-none focus:border-gold-500"
                       />
                     </div>
                   )}
@@ -1812,7 +1812,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
                   <div className="pt-2 flex flex-col md:flex-row gap-3 items-center justify-between">
                     <button
                       onClick={handleChallengeSubmit}
-                      className="w-full md:w-auto px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm transition-all shadow-lg shadow-cyan-600/20"
+                      className="w-full md:w-auto px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm transition-all shadow-lg shadow-gold-600/20"
                     >
                       Submit Answer
                     </button>
@@ -1926,7 +1926,7 @@ export default function C12_BiotechRecombinantDNAApplicationsCBSESim() {
 
             {/* Misconceptions & Corrections */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-400">Key Misconceptions & Clarifications</h3>
+              <h3 className="text-md font-bold text-gold-400">Key Misconceptions & Clarifications</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map(m => (
                   <div key={m.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">

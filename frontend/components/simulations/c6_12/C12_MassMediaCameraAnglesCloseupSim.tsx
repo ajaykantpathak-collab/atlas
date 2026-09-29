@@ -1219,7 +1219,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
             {difficulty}
           </motion.span>
           <span className="px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-slate-300 border border-slate-700">
-            Mastery: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
           </span>
         </div>
       </motion.div>
@@ -1234,13 +1234,13 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-rose-950/40 rounded-2xl border border-indigo-800/40 shadow-xl">
+            <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-rose-950/40 rounded-2xl border border-gold-800/40 shadow-xl">
               <div className="inline-block px-3 py-1 bg-rose-600 text-white text-xs font-bold rounded-md uppercase tracking-wider mb-3">
                 Director\'s Creative Hook
               </div>
               <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-indigo-300 text-xs mt-2 font-mono">Context: {SCENARIO.context}</p>
+              <p className="text-gold-300 text-xs mt-2 font-mono">Context: {SCENARIO.context}</p>
             </div>
 
             {/* Interactive Hook Puzzle */}
@@ -1265,7 +1265,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-lg'
                           : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <span className="inline-block w-6 h-6 rounded-md bg-slate-700 text-center font-mono text-xs leading-6 mr-2">
@@ -1280,7 +1280,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-4 bg-slate-800/80 rounded-xl border border-indigo-600/40 flex flex-wrap items-center justify-between gap-4 mt-4"
+                  className="p-4 bg-slate-800/80 rounded-xl border border-gold-600/40 flex flex-wrap items-center justify-between gap-4 mt-4"
                 >
                   <p className={`text-sm ${discoveryCorrect ? 'text-emerald-400 font-semibold' : 'text-amber-400'}`}>
                     {discoveryCorrect ? '✓ Spot on! Worm-Eye view magnifies scale and hero authority.' : `💡 ${DISCOVERY_QUESTION.hintAfter}`}
@@ -1359,7 +1359,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       <button
                         onClick={() => setViewMode('geometry')}
                         className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                          viewMode === 'geometry' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-800 text-slate-400'
+                          viewMode === 'geometry' ? 'bg-gold-600 text-white shadow' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         2. Field-of-View Geometry (SVG)
@@ -1520,7 +1520,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                           max={45}
                           value={cameraElevation}
                           onChange={e => handleCameraSliderChange(cameraDistance, Number(e.target.value), cameraPanAngle)}
-                          className="w-full accent-indigo-500 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-700 rounded-lg cursor-pointer"
                           aria-label="Set camera vertical elevation angle"
                         />
                         <div className="flex justify-between text-[10px] text-slate-500 mt-1 font-mono">
@@ -1564,9 +1564,9 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/50 border border-indigo-700 rounded-xl space-y-3"
+                      className="p-4 bg-gold-950/50 border border-gold-700 rounded-xl space-y-3"
                     >
-                      <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Predict-Then-Check:</p>
+                      <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">Predict-Then-Check:</p>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1629,7 +1629,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                               setIsDollyActive(true);
                               audioManager.play('tap');
                             }}
-                            className={`px-3 py-1 rounded text-xs font-bold ${isDollyActive ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                            className={`px-3 py-1 rounded text-xs font-bold ${isDollyActive ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                           >
                             Dolly (3D Parallax)
                           </button>
@@ -1638,7 +1638,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                               setIsDollyActive(false);
                               audioManager.play('tap');
                             }}
-                            className={`px-3 py-1 rounded text-xs font-bold ${!isDollyActive ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                            className={`px-3 py-1 rounded text-xs font-bold ${!isDollyActive ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                           >
                             Zoom (Flat 2D)
                           </button>
@@ -1674,7 +1674,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                 <div className="space-y-4">
                   {/* SVG TOPIC DIAGRAM 2: BROADCAST AUDIO SIGNAL FLOW ARCHITECTURE */}
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-mono font-bold text-cyan-400 uppercase mb-1 block">
+                    <span className="text-[11px] font-mono font-bold text-gold-400 uppercase mb-1 block">
                       Broadcast Audio Signal Flow Architecture (Acoustic to RF Wave)
                     </span>
                     <svg viewBox="0 0 760 110" className="w-full h-auto" aria-label="Broadcast Studio Signal Flow Architecture Diagram">
@@ -1742,7 +1742,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                           <span className={`w-3 h-3 rounded-full ${isLiveOnAir ? 'bg-red-500 animate-pulse' : 'bg-slate-600'}`} />
                           <span className="text-xs font-mono text-slate-300 font-bold">AKASHVANI / AIR DIGITAL CONSOLE</span>
                         </div>
-                        <span className="text-xs text-indigo-400 font-mono">DAW: DALET / PRO TOOLS</span>
+                        <span className="text-xs text-gold-400 font-mono">DAW: DALET / PRO TOOLS</span>
                       </div>
 
                       <canvas ref={audioWaveformCanvasRef} width={400} height={140} className="w-full h-auto rounded-lg block border border-slate-900" />
@@ -1758,7 +1758,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       <div>
                         <div className="flex justify-between text-xs font-medium text-slate-300 mb-1">
                           <span>Mic 1 Gain (Presenter Fader)</span>
-                          <span className="font-mono text-cyan-400">{micGain}%</span>
+                          <span className="font-mono text-gold-400">{micGain}%</span>
                         </div>
                         <input
                           type="range"
@@ -1766,7 +1766,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                           max={100}
                           value={micGain}
                           onChange={e => handleAudioFaderChange(Number(e.target.value), musicBedVolume)}
-                          className="w-full accent-cyan-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
                           aria-label="Set mic gain fader"
                         />
                       </div>
@@ -1811,7 +1811,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                                 audioManager.play('tap');
                               }}
                               className={`px-2 py-1 rounded text-[10px] font-mono capitalize ${
-                                micPolarPattern === pattern ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                                micPolarPattern === pattern ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                               }`}
                             >
                               {pattern.slice(0, 6)}
@@ -1858,12 +1858,12 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-700/60 space-y-3"
+                      className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-700/60 space-y-3"
                     >
                       <div className="flex justify-between items-center flex-wrap gap-2">
                         <div>
                           <h4 className="text-base font-bold text-white">Shyam Benegal\'s "Manthan" (1976) Cooperative Budget Simulator</h4>
-                          <p className="text-xs text-indigo-300">World\'s first feature film financed entirely by 500,000 Gujarat dairy farmers contributing ₹2 each.</p>
+                          <p className="text-xs text-gold-300">World\'s first feature film financed entirely by 500,000 Gujarat dairy farmers contributing ₹2 each.</p>
                         </div>
                         <span className="px-3 py-1 bg-emerald-600/30 border border-emerald-500 text-emerald-300 rounded-lg font-mono text-sm font-bold">
                           Total Budget: ₹{(manthanFarmerContributions * 2).toLocaleString('en-IN')}
@@ -1898,7 +1898,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                 <div className="space-y-4">
                   {/* SVG TOPIC DIAGRAM 3: SOCIAL MEDIA 4-PILLAR NETWORK DIFFUSION GRAPH */}
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-mono font-bold text-indigo-400 uppercase mb-1 block">
+                    <span className="text-[11px] font-mono font-bold text-gold-400 uppercase mb-1 block">
                       Digital Social Media Network Topology & UGC Flow Architecture
                     </span>
                     <svg viewBox="0 0 760 140" className="w-full h-auto" aria-label="Social Media Network Diffusion Graph Diagram">
@@ -1950,7 +1950,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${
-                          platformTypeFilter === p.id ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                          platformTypeFilter === p.id ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
                         {p.label}
@@ -1966,7 +1966,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       { title: 'Digital Platforms', desc: 'Regulated under India IT Rules 2021', metric: '36-hr Takedown Protocol' },
                     ].map((card, cidx) => (
                       <div key={cidx} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 shadow-md">
-                        <span className="w-6 h-6 rounded-md bg-indigo-600/30 text-indigo-400 flex items-center justify-center text-xs font-bold font-mono">
+                        <span className="w-6 h-6 rounded-md bg-gold-600/30 text-gold-400 flex items-center justify-center text-xs font-bold font-mono">
                           {cidx + 1}
                         </span>
                         <h4 className="text-sm font-bold text-white">{card.title}</h4>
@@ -2067,14 +2067,14 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
 
               {/* Right Sandbox: Audio Console */}
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-                <h4 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Radio Broadcast Console</h4>
+                <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Radio Broadcast Console</h4>
                 <div className="bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-2">
                   <canvas ref={audioWaveformCanvasRef} width={400} height={180} className="w-full h-auto block" />
                 </div>
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs text-slate-300">
                     <span>Mic Gain vs Music Bed</span>
-                    <span className="font-mono text-cyan-400">{micGain}% / {musicBedVolume}%</span>
+                    <span className="font-mono text-gold-400">{micGain}% / {musicBedVolume}%</span>
                   </div>
                   <input
                     type="range"
@@ -2082,7 +2082,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     max={100}
                     value={micGain}
                     onChange={e => handleAudioFaderChange(Number(e.target.value), musicBedVolume)}
-                    className="w-full accent-cyan-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 h-2 bg-slate-700 rounded-lg cursor-pointer"
                     aria-label="Set mic gain in sandbox"
                   />
                 </div>
@@ -2094,7 +2094,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-8 py-3 bg-gradient-to-r from-rose-600 to-indigo-600 hover:from-rose-500 hover:to-indigo-500 text-white rounded-xl font-bold shadow-xl shadow-rose-600/30 text-base flex items-center gap-2"
+                className="px-8 py-3 bg-gradient-to-r from-rose-600 to-gold-600 hover:from-rose-500 hover:to-gold-500 text-white rounded-xl font-bold shadow-xl shadow-rose-600/30 text-base flex items-center gap-2"
               >
                 I Am Ready for ISC Challenges! 🏆
               </motion.button>
@@ -2120,7 +2120,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                   Challenge <strong className="text-white text-sm">{currentChallenge + 1}</strong> of {filteredChallenges.length}
                 </span>
                 <div className="flex items-center gap-2">
-                  <span className="px-2.5 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-700 font-mono text-[10px] uppercase">
+                  <span className="px-2.5 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-700 font-mono text-[10px] uppercase">
                     NEP Level: {activeChallenge.competencyLevel}
                   </span>
                   <span className="px-2.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 font-mono text-[10px] uppercase">
@@ -2132,7 +2132,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
               {/* Animated Progress Bar */}
               <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-rose-500 via-indigo-500 to-emerald-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-rose-500 via-gold-500 to-emerald-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.4 }}
                 />
@@ -2168,7 +2168,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                           ? i === activeChallenge.correctIndex
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md'
                             : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
                       <span className="inline-block w-6 h-6 rounded-md bg-slate-700 text-center font-mono text-xs leading-6 text-slate-300 flex-shrink-0 mt-0.5">
@@ -2208,7 +2208,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                         className={`p-4 rounded-xl border-2 border-dashed flex flex-col justify-between min-h-[90px] transition-colors ${
                           droppedLabels[target.targetId]
                             ? 'border-emerald-500 bg-emerald-950/30'
-                            : 'border-slate-700 bg-slate-950/60 hover:border-indigo-500'
+                            : 'border-slate-700 bg-slate-950/60 hover:border-gold-500'
                         }`}
                       >
                         <span className="text-[11px] font-mono text-slate-400 capitalize">
@@ -2234,7 +2234,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length < activeChallenge.dragItems.length}
-                    className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-sm font-bold shadow-lg"
+                    className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-sm font-bold shadow-lg"
                   >
                     Validate Label Placements
                   </motion.button>
@@ -2261,7 +2261,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-sm text-slate-200 cursor-grab active:cursor-grabbing flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-md bg-indigo-600/30 text-indigo-400 flex items-center justify-center font-mono text-xs font-bold">
+                      <span className="w-6 h-6 rounded-md bg-gold-600/30 text-gold-400 flex items-center justify-center font-mono text-xs font-bold">
                         {sIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2278,7 +2278,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       handleAnswer(answer);
                     }}
                     disabled={showExplanation}
-                    className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                    className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                   >
                     Check Ordered Sequence
                   </motion.button>
@@ -2328,7 +2328,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                           setConstructParts(prev => [...prev, part]);
                           audioManager.play('pop');
                         }}
-                        className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-medium"
+                        className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 text-gold-200 rounded-lg text-xs font-medium"
                       >
                         + {part}
                       </motion.button>
@@ -2377,7 +2377,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-indigo-950/40 border border-indigo-700/80 rounded-xl space-y-3"
+                  className="mt-6 p-5 bg-gold-950/40 border border-gold-700/80 rounded-xl space-y-3"
                 >
                   <div className="flex items-center gap-2">
                     <span className="text-emerald-400 font-bold text-sm">💡 Media Examiner Breakdown:</span>
@@ -2388,9 +2388,9 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       key={idx}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-indigo-200 text-xs md:text-sm leading-relaxed"
+                      className="text-gold-200 text-xs md:text-sm leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono mr-1.5">{idx + 1}.</strong>
+                      <strong className="text-gold-400 font-mono mr-1.5">{idx + 1}.</strong>
                       {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2403,7 +2403,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                         setRevealedSteps(s => s + 1);
                         audioManager.play('tap');
                       }}
-                      className="px-4 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Show Next Explanatory Step →
                     </motion.button>
@@ -2436,7 +2436,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
             className="space-y-6"
           >
             {/* Completion Banner */}
-            <div className="p-6 md:p-8 bg-gradient-to-br from-slate-900 via-indigo-950/60 to-rose-950/50 rounded-2xl border border-indigo-700 shadow-2xl text-center space-y-3">
+            <div className="p-6 md:p-8 bg-gradient-to-br from-slate-900 via-gold-950/60 to-rose-950/50 rounded-2xl border border-gold-700 shadow-2xl text-center space-y-3">
               <span className="text-5xl">🎬🏆</span>
               <h2 className="text-2xl md:text-3xl font-extrabold text-white">
                 ISC Mass Media Masterclass Completed!
@@ -2452,7 +2452,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                 </div>
                 <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 min-w-[120px]">
                   <span className="text-xs text-slate-400 block font-mono">BKT Mastery</span>
-                  <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                  <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
                 </div>
               </div>
             </div>
@@ -2471,14 +2471,14 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
 
             {/* ─── REQUIRED REFLECTION SECTION ─── */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <div className="inline-block px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-md uppercase">
+              <div className="inline-block px-3 py-1 bg-gold-600 text-white text-xs font-bold rounded-md uppercase">
                 Metacognitive Reflection
               </div>
               <h3 className="text-lg font-bold text-white">Consolidate Your Media Director Insights</h3>
               
               <div className="space-y-4">
                 <div>
-                  <label className="block text-xs font-semibold text-indigo-300 mb-1">
+                  <label className="block text-xs font-semibold text-gold-300 mb-1">
                     1. What was the most surprising thing you learned?
                   </label>
                   <textarea
@@ -2486,12 +2486,12 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     value={reflectionResponses.surprising}
                     onChange={e => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                     placeholder="e.g. How Dolly creates 3D parallax shifts compared to flat optical zoom, or Manthan's crowd-funding model..."
-                    className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-indigo-300 mb-1">
+                  <label className="block text-xs font-semibold text-gold-300 mb-1">
                     2. How would you explain this to a friend?
                   </label>
                   <textarea
@@ -2499,12 +2499,12 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     value={reflectionResponses.explain}
                     onChange={e => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                     placeholder="e.g. Camera angles are emotional levers: low angles make subjects towering and heroic, while close-ups evoke pure vulnerability..."
-                    className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-indigo-300 mb-1">
+                  <label className="block text-xs font-semibold text-gold-300 mb-1">
                     3. Where in real life might you use this?
                   </label>
                   <textarea
@@ -2512,7 +2512,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                     value={reflectionResponses.realLife}
                     onChange={e => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                     placeholder="e.g. Directing school film festivals, hosting podcasts with auto-ducking music, or creating impactful social campaigns..."
-                    className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2525,7 +2525,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
                       audioManager.play('success');
                       speechManager.speak('Reflection saved to your portfolio!');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     {reflectionSubmitted ? '✓ Reflection Saved' : 'Save Reflection Responses'}
                   </motion.button>
@@ -2567,7 +2567,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
 
             {/* Real-World Activity Card */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <div className="inline-block px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-md uppercase">
+              <div className="inline-block px-3 py-1 bg-gold-600 text-white text-xs font-bold rounded-md uppercase">
                 Capstone Creative Assignment
               </div>
               <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2576,7 +2576,7 @@ export default function C12_MassMediaCameraAnglesCloseupSim({
               <div className="space-y-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="flex items-start gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                    <span className="w-5 h-5 rounded-full bg-indigo-600 text-white flex items-center justify-center font-mono font-bold flex-shrink-0">
+                    <span className="w-5 h-5 rounded-full bg-gold-600 text-white flex items-center justify-center font-mono font-bold flex-shrink-0">
                       {idx + 1}
                     </span>
                     <span>{step}</span>

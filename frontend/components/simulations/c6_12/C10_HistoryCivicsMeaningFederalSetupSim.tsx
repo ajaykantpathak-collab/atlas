@@ -1158,13 +1158,13 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 inline-block cursor-default"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 inline-block cursor-default"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest font-bold text-indigo-400">ICSE Class 10 Civics</span>
+              <span className="text-xs uppercase tracking-widest font-bold text-gold-400">ICSE Class 10 Civics</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono">CISCE 2026 Ready</span>
             </div>
             <h1 className="text-xl sm:text-2xl font-black text-white">{title}</h1>
@@ -1182,7 +1182,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1211,12 +1211,12 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
             <motion.div
               initial={{ scale: 0.98, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/80"
+              className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/80"
             >
               <span className="text-xs uppercase tracking-wider font-extrabold text-amber-400 bg-amber-950/60 px-2.5 py-1 rounded-md border border-amber-800">
                 Crisis Scenario Hook
               </span>
-              <h2 className="text-2xl font-bold text-indigo-200 mt-3">{SCENARIO.title}</h2>
+              <h2 className="text-2xl font-bold text-gold-200 mt-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm sm:text-base mt-2 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-xs sm:text-sm text-slate-400 mt-2 italic bg-slate-900/80 p-3 rounded-xl border border-slate-800">
                 ⚖️ {SCENARIO.context}
@@ -1248,7 +1248,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         : 'bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {discoveryAnswered && (i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : '✗ ')}
                     {opt}
                   </motion.button>
@@ -1272,7 +1272,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label="Enter Interactive Constitutional Lab"
                       onClick={handleAdvanceToExploration}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                     >
                       Enter Interactive Constitutional Lab →
                     </motion.button>
@@ -1294,7 +1294,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
           >
             <div className="flex items-center justify-between bg-slate-900 p-3 rounded-2xl border border-slate-800">
               <div>
-                <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1316,7 +1316,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Next Step"
                     onClick={() => setCurrentSlide((s) => s + 1)}
-                    className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-xs font-bold rounded-lg text-white"
+                    className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-xs font-bold rounded-lg text-white"
                   >
                     Next Step →
                   </motion.button>
@@ -1337,9 +1337,9 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
             <motion.div
               initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-3 bg-indigo-950/40 border border-indigo-800/60 rounded-xl"
+              className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-xl"
             >
-              <p className="text-xs sm:text-sm text-indigo-300 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+              <p className="text-xs sm:text-sm text-gold-300 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
             </motion.div>
 
             {/* ─── SLIDE 0: SEVENTH SCHEDULE 3-LIST INTERACTIVE DIAGRAM ────────── */}
@@ -1352,12 +1352,12 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     aria-label="Select Union List"
                     onClick={() => handleListSelect('union')}
                     className={`w-full text-left p-4 rounded-xl border transition-all ${
-                      selectedList === 'union' ? 'bg-indigo-900/60 border-indigo-400 text-white shadow-lg' : 'bg-slate-900 border-slate-800 text-slate-400'
+                      selectedList === 'union' ? 'bg-gold-900/60 border-gold-400 text-white shadow-lg' : 'bg-slate-900 border-slate-800 text-slate-400'
                     }`}
                   >
                     <div className="flex justify-between items-center">
                       <span className="font-bold text-sm">Union List (List I)</span>
-                      <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 font-mono">100 Items</span>
+                      <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 font-mono">100 Items</span>
                     </div>
                     <p className="text-xs text-slate-300 mt-1">Exclusively Parliament (Art 246)</p>
                   </motion.button>
@@ -1477,7 +1477,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         value={lsAttendance}
                         aria-label="Lok Sabha Attendance Slider"
                         onChange={(e) => handleLsAttendanceChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1568,7 +1568,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     aria-label="Toggle Ordinary Bill Pathway"
                     onClick={() => handleBillTypeToggle('ordinary')}
                     className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border transition-all ${
-                      billType === 'ordinary' ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                      billType === 'ordinary' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                     }`}
                   >
                     📜 Ordinary Bill Pathway (Art 107, 108, 111)
@@ -1613,7 +1613,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
 
                 <div ref={gsapTimelineRef} className="grid grid-cols-1 md:grid-cols-4 gap-3">
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-xs font-mono text-indigo-400 font-bold">Stage 1: Origin</span>
+                    <span className="text-xs font-mono text-gold-400 font-bold">Stage 1: Origin</span>
                     <h4 className="text-sm font-bold text-white mt-1">
                       {billType === 'ordinary' ? 'Either House (LS or RS)' : 'Lok Sabha ONLY'}
                     </h4>
@@ -1623,7 +1623,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-xs font-mono text-indigo-400 font-bold">Stage 2: Readings</span>
+                    <span className="text-xs font-mono text-gold-400 font-bold">Stage 2: Readings</span>
                     <h4 className="text-sm font-bold text-white mt-1">3 Rigorous Readings</h4>
                     <p className="text-xs text-slate-400 mt-1">
                       First (Intro) → Second (Clause-by-Clause & Committee) → Third (Final Whole Vote).
@@ -1631,7 +1631,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-xs font-mono text-indigo-400 font-bold">Stage 3: Transmittal</span>
+                    <span className="text-xs font-mono text-gold-400 font-bold">Stage 3: Transmittal</span>
                     <h4 className="text-sm font-bold text-white mt-1">
                       {billType === 'ordinary' ? 'Full RS Scrutiny' : 'Strict 14-Day Limit'}
                     </h4>
@@ -1655,7 +1655,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-xs font-mono text-indigo-400 font-bold">Stage 4: Assent</span>
+                    <span className="text-xs font-mono text-gold-400 font-bold">Stage 4: Assent</span>
                     <h4 className="text-sm font-bold text-white mt-1">Presidential Action</h4>
                     <p className="text-xs text-slate-400 mt-1">
                       {billType === 'ordinary' ? 'May assent, withhold, or return ONCE for reconsideration (Art 111).' : 'MUST give assent; cannot return a Money Bill.'}
@@ -1683,7 +1683,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Select Adjournment Motion"
                     onClick={() => handleMotionChange('adjournment')}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold border ${activeMotion === 'adjournment' ? 'bg-indigo-900/80 border-indigo-500 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold border ${activeMotion === 'adjournment' ? 'bg-gold-900/80 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                   >
                     ⏱️ Adjournment Motion
                   </motion.button>
@@ -1883,7 +1883,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <motion.div whileHover={{ y: -2 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                 <label className="text-xs font-bold text-slate-300">Lok Sabha Attendance (Max 543): {lsAttendance}</label>
-                <input type="range" min={0} max={543} value={lsAttendance} aria-label="Sandbox Lok Sabha Attendance" onChange={(e) => handleLsAttendanceChange(Number(e.target.value))} className="w-full accent-indigo-500" />
+                <input type="range" min={0} max={543} value={lsAttendance} aria-label="Sandbox Lok Sabha Attendance" onChange={(e) => handleLsAttendanceChange(Number(e.target.value))} className="w-full accent-gold-500" />
                 <p className="text-xs text-slate-400">{lsQuorumMet ? '✓ Quorum Valid' : '✗ House Adjourned'}</p>
               </motion.div>
 
@@ -1906,7 +1906,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Ready for Parliamentary Challenges"
                 onClick={handleAdvanceToChallenge}
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-extrabold rounded-2xl shadow-xl shadow-indigo-600/30 flex items-center gap-2"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-extrabold rounded-2xl shadow-xl shadow-gold-600/30 flex items-center gap-2"
               >
                 I Am Ready for Parliamentary Challenges →
               </motion.button>
@@ -1930,14 +1930,14 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
               <span>
                 Challenge <strong className="text-white">{currentChallenge + 1}</strong> of {filteredChallenges.length}
               </span>
-              <span className="uppercase font-mono text-indigo-400 font-bold">
+              <span className="uppercase font-mono text-gold-400 font-bold">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
@@ -1973,7 +1973,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                           : 'bg-slate-800 hover:bg-slate-700/80 text-slate-200 border border-slate-700'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {showExplanation && (i === challenge.correctIndex ? '✓ ' : '✗ ')}
                       {opt}
                     </motion.button>
@@ -1995,7 +1995,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         ✥ {item.label}
                       </motion.div>
@@ -2031,7 +2031,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     transition={wrongShake ? { duration: 0.4 } : {}}
                     aria-label="Verify Flow Mapping"
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Flow Mapping
                   </motion.button>
@@ -2063,7 +2063,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         whileTap={{ scale: 0.99 }}
                         className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                       >
-                        <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-[10px]">
+                        <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                           {displayIndex + 1}
                         </span>
                         <span>{item}</span>
@@ -2082,7 +2082,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i)
                       )
                     }
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Submit Order
                   </motion.button>
@@ -2099,7 +2099,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                       aria-label="Enter numeric calculated value"
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter calculated number"
-                      className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 outline-none"
+                      className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                     />
                     <span className="text-slate-400 text-sm font-bold">{challenge.unit}</span>
                     <motion.button
@@ -2109,7 +2109,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                       transition={wrongShake ? { duration: 0.4 } : {}}
                       aria-label="Check Numeric Answer"
                       onClick={() => handleAnswer(numericInput)}
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                     >
                       Check Answer
                     </motion.button>
@@ -2129,7 +2129,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Add part ${part}`}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 text-indigo-300 border border-indigo-700 rounded-lg text-xs font-bold"
+                        className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 text-gold-300 border border-gold-700 rounded-lg text-xs font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2142,7 +2142,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5"
+                        className="px-2.5 py-1 bg-gold-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5"
                       >
                         {part}
                         <motion.button
@@ -2167,7 +2167,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     aria-label="Verify Formula Construction"
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Construction
                   </motion.button>
@@ -2313,7 +2313,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
               transition={{ delay: 0.4 }}
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs sm:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
@@ -2322,7 +2322,7 @@ export function C10_HistoryCivicsMeaningFederalSetupSim({
                     whileHover={{ scale: 1.02 }}
                     className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-400 flex items-start gap-2"
                   >
-                    <span className="font-bold text-indigo-400">{i + 1}.</span>
+                    <span className="font-bold text-gold-400">{i + 1}.</span>
                     <span>{step}</span>
                   </motion.div>
                 ))}

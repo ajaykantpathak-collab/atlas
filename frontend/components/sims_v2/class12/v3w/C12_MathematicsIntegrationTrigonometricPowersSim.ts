@@ -11,7 +11,7 @@ export const w_c12_mathematicsintegrationtrigonometricpowerssim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Standard Integrals of Trigonometric Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_005', 'c12_math_cbse_09_002', 'c12_math_cbse_09_007', 'c12_math_cbse_07_001', 'c12_math_cbse_07_002', 'c12_math_cbse_07_003', 'c12_math_cbse_07_004', 'c12_math_cbse_07_006', 'c12_math_cbse_07_007', 'c12_math_cbse_07_011', 'c12_math_cbse_06_006', 'c12_math_cbse_07_008', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_08_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a physics problem: a particle\'s velocity is given by v(t) = 5 sin(2t) m/s.', goal: 'Master Standard Integrals of Trigonometric Functions.' },
     discovery: {
         question: 'Write the indefinite integral of sec x tan x with respect to x, including the constant of integration.',
@@ -20,7 +20,7 @@ export const w_c12_mathematicsintegrationtrigonometricpowerssim: SimDef = {
         hook: 'The most pervasive error is sign confusion in the basic integrals: writing ∫ sin x dx = cos x + C (missing the minus.',
     },
     teaching: [
-        { title: 'Standard integrals of trigonometric.', text: 'Standard integrals of trigonometric functions are the antiderivatives of the six basic trigonometric functions (sin x, cos x, tan x, cot x, sec x, cosec x) and their linear transformations (e.g.,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Standard integrals of trigonometric.', text: 'Standard integrals of trigonometric functions are the antiderivatives of the six basic trigonometric functions (sin x, cos x, tan x, cot x, sec x, cosec x) and their linear transformations (e.g.,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_07_005', title: 'Standard integrals of trigonometric.',

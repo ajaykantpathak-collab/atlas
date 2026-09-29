@@ -54,16 +54,16 @@ function C6_MathematicsTheOtherSideOfZeroSim() {
   const equation = history.join('') + ' = ' + pos;
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-cyan-200 shadow-xl font-sans text-slate-800">
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
       <style>{'@keyframes bounceUp { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } } .cheer { animation: bounceUp 0.5s ease-in-out 2; }'}</style>
-      <h2 className="text-xl md:text-2xl font-black text-cyan-700">The Other Side of Zero -- the Lift Game</h2>
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">The Other Side of Zero -- the Lift Game</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         Zero is the ground floor. Positive floors are <b>above</b> ground (1, 2, 3...) and negative floors are the
         <b> basement</b> (-1, -2, -3...). Pressing +3 takes the lift UP 3 floors; pressing -3 takes it DOWN into the
         basement. Watch each jump get written into the equation below!
       </p>
 
-      <div className="rounded-2xl border-2 border-cyan-100 bg-cyan-50/40 overflow-hidden mt-4">
+      <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/40 overflow-hidden mt-4">
         <svg viewBox="0 0 840 240" className="w-full">
           <rect x="0" y="0" width="840" height="100" fill="#e0f2fe" />
           <rect x="0" y="128" width="840" height="112" fill="#c7d2fe" />
@@ -110,9 +110,9 @@ function C6_MathematicsTheOtherSideOfZeroSim() {
       <div className="grid md:grid-cols-[1fr_220px] gap-4 mt-4">
         <div className="p-3 rounded-2xl bg-slate-50 border-2 border-slate-200">
           <div className="text-xs font-bold text-slate-500 uppercase tracking-wide">Equation so far</div>
-          <div className="text-base md:text-lg font-mono font-black text-cyan-800 break-words">{equation}</div>
+          <div className="text-base md:text-lg font-mono font-black text-gold-800 break-words">{equation}</div>
           <div className="text-xs text-slate-500 mt-1">
-            The lift is at floor <b className="text-cyan-700">{pos > 0 ? '+' + pos : pos}</b>
+            The lift is at floor <b className="text-gold-700">{pos > 0 ? '+' + pos : pos}</b>
             {pos === target ? ' -- on the star floor!' : '. Reach the star at ' + (target > 0 ? '+' + target : target) + '!'}
           </div>
         </div>
@@ -142,9 +142,9 @@ function C6_MathematicsTheOtherSideOfZeroSim() {
         </div>
       )}
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Start at 0 and jump -4 then +7. Which floor do you reach? Write it as an equation BEFORE pressing the buttons.</li>
           <li>Can you reach -6 using exactly three jumps? Find TWO different ways and check both equations end at -6.</li>
         </ol>

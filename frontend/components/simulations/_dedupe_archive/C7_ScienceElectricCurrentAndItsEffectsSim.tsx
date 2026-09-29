@@ -30,7 +30,7 @@ export function C7_ScienceElectricCurrentAndItsEffectsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Electric Current and its Effects: The Heating Effect</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Electric Current and its Effects: The Heating Effect</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Circuit */}
@@ -76,7 +76,7 @@ export function C7_ScienceElectricCurrentAndItsEffectsSim() {
       <div className="grid grid-cols-3 gap-3 mt-4">
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 text-center">
           <div className="text-xs uppercase text-slate-400">Current</div>
-          <div className="text-2xl font-black font-mono text-sky-400">{current.toFixed(2)} A</div>
+          <div className="text-2xl font-black font-mono text-gold-400">{current.toFixed(2)} A</div>
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 text-center">
           <div className="text-xs uppercase text-slate-400">Heat produced</div>
@@ -96,8 +96,8 @@ export function C7_ScienceElectricCurrentAndItsEffectsSim() {
           <input type="range" aria-label="voltage" min={2} max={24} value={voltage} onChange={(e) => setVoltage(Number(e.target.value))} className="w-full mt-2 accent-amber-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
-          <label className="text-xs text-slate-300 flex justify-between"><span>Appliance resistance (R)</span><span className="font-mono font-bold text-sky-300">{loadOhms} ohm</span></label>
-          <input type="range" aria-label="resistance" min={2} max={30} value={loadOhms} onChange={(e) => setLoadOhms(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <label className="text-xs text-slate-300 flex justify-between"><span>Appliance resistance (R)</span><span className="font-mono font-bold text-gold-300">{loadOhms} ohm</span></label>
+          <input type="range" aria-label="resistance" min={2} max={30} value={loadOhms} onChange={(e) => setLoadOhms(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between"><span>Fuse rating</span><span className="font-mono font-bold text-emerald-300">{fuseRating} A</span></label>
@@ -117,8 +117,8 @@ export function C7_ScienceElectricCurrentAndItsEffectsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Keep the fuse at 2 A and raise the voltage slowly. At what voltage does the fuse blow? Write the rule connecting V, R and the blowing point.</li>
           <li>Halve the resistance (R from 10 to 5) at the same voltage. Does the current double or quadruple? Use P = I x I x R to explain what happens to the heat.</li>

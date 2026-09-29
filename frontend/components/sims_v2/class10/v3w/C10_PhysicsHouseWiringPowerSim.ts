@@ -11,7 +11,7 @@ export const w_c10_physicshousewiringpowersim: SimDef = {
     classLevel: 10, subject: 'physics', topic: 'Applications of Heating Effect: Electric Heater, Bulb, Fuse',
     chapters: [],
     nodeIds: ['c10_phy_cbse_01_009', 'c10_phy_cbse_01_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe the electric heater in your home during winter: when you switch it on, the coil becomes red-hot and.', goal: 'Master Applications of Heating Effect: Electric Heater, Bulb, Fuse.' },
     discovery: {
         question: 'State the two essential properties of the material used for the filament of an incandescent bulb and explain why each property is necessary.',
@@ -20,7 +20,7 @@ export const w_c10_physicshousewiringpowersim: SimDef = {
         hook: 'Students think that "higher wattage appliance has higher resistance" because they associate higher power with.',
     },
     teaching: [
-        { title: 'The heating effect of electric current is.', text: 'The heating effect of electric current is utilized in appliances where electrical energy is deliberately converted into heat energy (electric heater, electric iron, geyser) or into both heat and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The heating effect of electric current is.', text: 'The heating effect of electric current is utilized in appliances where electrical energy is deliberately converted into heat energy (electric heater, electric iron, geyser) or into both heat and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_phy_cbse_01_009', title: 'The heating effect of electric current.',

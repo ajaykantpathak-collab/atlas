@@ -1276,7 +1276,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
             className="space-y-6"
           >
             {/* Narrative Box */}
-            <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/30 rounded-2xl border border-amber-800/40 shadow-inner">
+            <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/30 rounded-2xl border border-amber-800/40 shadow-inner">
               <div className="flex items-center gap-2 text-amber-400 text-sm font-bold uppercase tracking-wide">
                 <span aria-hidden="true">📜</span> Historical Scenario
               </div>
@@ -1290,7 +1290,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
             {/* Discovery Question Card */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-950/60 px-3 py-1 rounded-full border border-indigo-700/30">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider bg-gold-950/60 px-3 py-1 rounded-full border border-gold-700/30">
                   Curiosity Discovery Hook
                 </span>
                 <span className="text-xs text-slate-400">Low-stakes conceptual probe</span>
@@ -1615,8 +1615,8 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700/50">
-                      <p className="text-xs font-bold uppercase tracking-wider text-indigo-300">Prediction Challenge</p>
+                    <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700/50">
+                      <p className="text-xs font-bold uppercase tracking-wider text-gold-300">Prediction Challenge</p>
                       <h4 className="text-sm font-bold text-white mt-1">{PREDICTION_QUESTIONS[0].question}</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1638,7 +1638,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
                     <div className="lg:col-span-8 bg-slate-950 p-4 rounded-2xl border border-slate-800">
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-xs font-bold text-cyan-400">
+                        <span className="text-xs font-bold text-gold-400">
                           Current Wind: {monsoonSeason === 'southwest' ? 'Southwest Monsoon (Summer ➡️ Malabar)' : 'Northeast Monsoon (Winter ⬅️ Arabia)'}
                         </span>
                         <motion.button
@@ -1646,7 +1646,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                           whileTap={{ scale: 0.95 }}
                           aria-label="Toggle Monsoon Wind Direction"
                           onClick={handleMonsoonToggle}
-                          className="px-3 py-1 bg-cyan-700 hover:bg-cyan-600 text-white rounded-lg text-xs font-bold"
+                          className="px-3 py-1 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                         >
                           Toggle Monsoon Season 🔄
                         </motion.button>
@@ -1695,7 +1695,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                       <div className="grid grid-cols-2 gap-2">
                         <div className="bg-slate-950 rounded-lg p-2 border border-slate-800 text-center">
                           <p className="text-[10px] text-slate-500">Ships sailing to Muziris</p>
-                          <p className="font-mono font-bold text-cyan-300">{Math.round((tradeVolume / 100) * 120)} ships/yr</p>
+                          <p className="font-mono font-bold text-gold-300">{Math.round((tradeVolume / 100) * 120)} ships/yr</p>
                         </div>
                         <div className="bg-slate-950 rounded-lg p-2 border border-slate-800 text-center">
                           <p className="text-[10px] text-slate-500">Rome's gold drain</p>
@@ -1770,8 +1770,8 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                           <span className="font-bold text-amber-200">👑 Maharajadhiraja (King of Kings)</span>
                           <span className="text-slate-400">Imperial Summit</span>
                         </div>
-                        <div className="p-2.5 bg-indigo-950/60 rounded-xl border border-indigo-600/40 text-xs flex justify-between items-center ml-4">
-                          <span className="font-bold text-indigo-200">🚩 Uparika — Bhukti (Province)</span>
+                        <div className="p-2.5 bg-gold-950/60 rounded-xl border border-gold-600/40 text-xs flex justify-between items-center ml-4">
+                          <span className="font-bold text-gold-200">🚩 Uparika — Bhukti (Province)</span>
                           <span className="text-slate-400">e.g. Pundravardhana</span>
                         </div>
                         <div className="p-2.5 bg-purple-950/60 rounded-xl border border-purple-600/40 text-xs flex justify-between items-center ml-8">
@@ -1793,7 +1793,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center">
-                      <h4 className="text-sm font-bold text-cyan-400">
+                      <h4 className="text-sm font-bold text-gold-400">
                         🔭 Aryabhatta: Axial Spin & Rational Eclipses (499 CE)
                       </h4>
                       <span className="text-xs text-slate-400">Age 23 in Kusumapura</span>
@@ -1819,7 +1819,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Rotate Axial Angle:</span>
-                        <span className="font-bold text-cyan-300">{earthRotationAngle}°</span>
+                        <span className="font-bold text-gold-300">{earthRotationAngle}°</span>
                       </div>
                       <input
                         type="range"
@@ -1828,7 +1828,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                         value={earthRotationAngle}
                         aria-label="Rotate Earth axial angle in degrees"
                         onChange={(e) => setEarthRotationAngle(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -2009,13 +2009,13 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-cyan-400">3. Multi-Representation Sync</span>
+                <span className="text-xs font-bold text-gold-400">3. Multi-Representation Sync</span>
                 <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1">
                   <div className="text-amber-300 font-semibold">Tirukkural Triad:</div>
                   <div className="text-slate-300">Aram (Virtue) • Porul (Wealth) • Inbam (Love)</div>
                 </div>
                 <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1">
-                  <div className="text-cyan-300 font-semibold">Aryabhatiya 499 CE:</div>
+                  <div className="text-gold-300 font-semibold">Aryabhatiya 499 CE:</div>
                   <div className="text-slate-300">π ≈ 3.1416 • Year = 365.358 days • Axial Spin</div>
                 </div>
               </div>
@@ -2047,7 +2047,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950/80 text-emerald-400 border-emerald-600/50'
                       : difficulty === 'standard'
-                      ? 'bg-blue-950/80 text-blue-400 border-blue-600/50'
+                      ? 'bg-gold-950/80 text-gold-400 border-gold-600/50'
                       : 'bg-purple-950/80 text-purple-400 border-purple-600/50'
                   }`}
                 >
@@ -2269,7 +2269,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Add part: ${part}`}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2379,7 +2379,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
             exit={{ opacity: 0 }}
             className="space-y-6"
           >
-            <div className="p-8 bg-gradient-to-br from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-amber-600/50 shadow-2xl space-y-6">
+            <div className="p-8 bg-gradient-to-br from-amber-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-amber-600/50 shadow-2xl space-y-6">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                 <div>
                   <span className="text-xs font-bold text-amber-400 uppercase tracking-wider bg-amber-950/80 px-3 py-1 rounded-full border border-amber-700/40">
@@ -2427,11 +2427,11 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
               )}
 
               {/* Spaced Repetition Schedule Banner (SRS Visibility) */}
-              <div className="p-5 bg-gradient-to-r from-indigo-950/80 to-purple-950/80 rounded-2xl border-2 border-indigo-500/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs shadow-lg">
+              <div className="p-5 bg-gradient-to-r from-gold-950/80 to-purple-950/80 rounded-2xl border-2 border-gold-500/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs shadow-lg">
                 <div className="space-y-1">
                   <div className="flex items-center gap-2">
                     <span className="text-base" aria-hidden="true">📅</span>
-                    <span className="font-extrabold text-sm text-indigo-200 uppercase tracking-wide">
+                    <span className="font-extrabold text-sm text-gold-200 uppercase tracking-wide">
                       Spaced Repetition Schedule (SM-2 Neural Recall)
                     </span>
                   </div>
@@ -2442,7 +2442,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                     </span>{' '}
                     to lock in historical epigraphy and ICSE source analysis.
                   </p>
-                  <p className="text-xs text-indigo-300/80 italic">
+                  <p className="text-xs text-gold-300/80 italic">
                     {errors === 0
                       ? 'Optimal retention interval for 0 errors: review in 7 days.'
                       : errors <= 3
@@ -2451,7 +2451,7 @@ function C9_HistoryCivicsSourcesSangamTirukkuralSim({
                   </p>
                 </div>
                 <div className="flex flex-col items-center sm:items-end gap-1 shrink-0">
-                  <span className="px-3.5 py-1.5 bg-indigo-600/40 text-indigo-200 font-black rounded-xl border border-indigo-400/40 text-xs shadow-inner">
+                  <span className="px-3.5 py-1.5 bg-gold-600/40 text-gold-200 font-black rounded-xl border border-gold-400/40 text-xs shadow-inner">
                     {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
                   </span>
                   <span className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">

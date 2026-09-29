@@ -1197,13 +1197,13 @@ export function C6_MathematicsSimplificationBracketsSim({
       <motion.div
         initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-gradient-to-r from-slate-900 via-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-900/50 shadow-inner"
+        className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-gradient-to-r from-slate-900 via-gold-950/60 to-slate-900 rounded-2xl border border-gold-900/50 shadow-inner"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-900/60 rounded-xl border border-indigo-700 shadow">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-900/60 rounded-xl border border-gold-700 shadow">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded border border-indigo-500/40">
+              <span className="text-xs font-semibold px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded border border-gold-500/40">
                 ICSE Class 6
               </span>
               <span className="text-xs font-semibold px-2 py-0.5 bg-emerald-500/20 text-emerald-300 rounded border border-emerald-500/40">
@@ -1229,7 +1229,7 @@ export function C6_MathematicsSimplificationBracketsSim({
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
@@ -1242,13 +1242,13 @@ export function C6_MathematicsSimplificationBracketsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏮</span> Festival Scenario Narrative
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/60 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-800/60 text-xs text-gold-200">
               💡 <span className="font-semibold">Architect Quest:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1279,7 +1279,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   }`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-mono text-indigo-400 font-bold">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-gold-400 font-bold">[{String.fromCharCode(65 + i)}]</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1304,7 +1304,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Math Workshop →
                 </motion.button>
@@ -1334,7 +1334,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   key={idx}
                   onClick={() => setCurrentSlide(idx)}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    currentSlide === idx ? 'bg-indigo-500 w-8' : 'bg-slate-700 hover:bg-slate-600'
+                    currentSlide === idx ? 'bg-gold-500 w-8' : 'bg-slate-700 hover:bg-slate-600'
                   }`}
                   aria-label={`Go to slide ${idx + 1}`}
                 />
@@ -1347,7 +1347,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                 if (currentSlide < EXPLORATION_STEPS.length - 1) setCurrentSlide(s => s + 1);
                 else handleAdvanceToSandbox();
               }}
-              className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+              className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
             >
               {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Tool →' : 'Try Free Play →'}
             </motion.button>
@@ -1364,10 +1364,10 @@ export function C6_MathematicsSimplificationBracketsSim({
               {/* Header Info */}
               <div>
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-black text-indigo-300">
+                  <h3 className="text-xl font-black text-gold-300">
                     Tool {currentSlide + 1}: {EXPLORATION_STEPS[currentSlide].title}
                   </h3>
-                  <span className="text-xs px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-full font-mono">
+                  <span className="text-xs px-2.5 py-1 bg-gold-500/20 text-gold-300 rounded-full font-mono">
                     Node: {EXPLORATION_STEPS[currentSlide].nodeId}
                   </span>
                 </div>
@@ -1381,9 +1381,9 @@ export function C6_MathematicsSimplificationBracketsSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700/60"
+                      className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700/60"
                     >
-                      <p className="text-xs text-indigo-300 font-bold uppercase tracking-wider mb-1">
+                      <p className="text-xs text-gold-300 font-bold uppercase tracking-wider mb-1">
                         🎯 Step 1: Make a Scientific Prediction
                       </p>
                       <p className="text-white text-sm font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1505,7 +1505,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                           onClick={() => handleBracketStepChange(btn.step)}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                             bracketLayerStep === btn.step
-                              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/50'
+                              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/50'
                               : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                           }`}
                         >
@@ -1522,7 +1522,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                 <div className="space-y-6">
                   <div className="flex flex-col md:flex-row items-center justify-between gap-4 p-4 bg-slate-950 rounded-2xl border border-slate-800">
                     <div className="w-full md:w-1/2">
-                      <label className="text-xs font-bold text-indigo-300 uppercase tracking-wider block mb-1">
+                      <label className="text-xs font-bold text-gold-300 uppercase tracking-wider block mb-1">
                         Select Target Diya Count: <span className="text-amber-300 font-mono text-base">{factorTargetNum}</span>
                       </label>
                       <input
@@ -1531,7 +1531,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                         max={48}
                         value={factorTargetNum}
                         onChange={e => handleFactorTargetChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust factor target number slider"
                       />
                     </div>
@@ -1581,7 +1581,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                     </div>
 
                     <div className="mt-4 text-xs text-slate-300 text-center">
-                      <span className="text-indigo-400 font-bold">All Factors of {factorTargetNum}:</span>{' '}
+                      <span className="text-gold-400 font-bold">All Factors of {factorTargetNum}:</span>{' '}
                       {factorsOfTarget.join(', ')} ({factorsOfTarget.length} factors total •{' '}
                       {factorsOfTarget.length === 2 ? 'PRIME NUMBER' : 'COMPOSITE NUMBER'})
                     </div>
@@ -1616,14 +1616,14 @@ export function C6_MathematicsSimplificationBracketsSim({
                 <div className="space-y-6">
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col md:flex-row items-center gap-4">
                     <div className="w-full md:w-1/3">
-                      <label className="text-xs font-bold text-indigo-300 uppercase tracking-wider block mb-1">
+                      <label className="text-xs font-bold text-gold-300 uppercase tracking-wider block mb-1">
                         Type Any Shipment Number:
                       </label>
                       <input
                         type="number"
                         value={testNumber}
                         onChange={e => handleDivisibilityNumberChange(Number(e.target.value))}
-                        className="w-full px-4 py-2 bg-slate-900 border border-indigo-700 rounded-xl text-amber-300 font-mono text-lg font-bold"
+                        className="w-full px-4 py-2 bg-slate-900 border border-gold-700 rounded-xl text-amber-300 font-mono text-lg font-bold"
                         aria-label="Input number to test divisibility rules"
                       />
                     </div>
@@ -1682,8 +1682,8 @@ export function C6_MathematicsSimplificationBracketsSim({
                 <div className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-slate-950 rounded-2xl border border-slate-800">
                     <div>
-                      <label className="text-xs font-bold text-indigo-300 uppercase block mb-1">
-                        Number A: <span className="text-cyan-300 font-mono text-base">{vennNumA}</span> (Primes: {primeFactorsA.join(' × ') || '1'})
+                      <label className="text-xs font-bold text-gold-300 uppercase block mb-1">
+                        Number A: <span className="text-gold-300 font-mono text-base">{vennNumA}</span> (Primes: {primeFactorsA.join(' × ') || '1'})
                       </label>
                       <input
                         type="range"
@@ -1691,12 +1691,12 @@ export function C6_MathematicsSimplificationBracketsSim({
                         max={60}
                         value={vennNumA}
                         onChange={e => handleVennNumberChange('A', Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust number A slider"
                       />
                     </div>
                     <div>
-                      <label className="text-xs font-bold text-indigo-300 uppercase block mb-1">
+                      <label className="text-xs font-bold text-gold-300 uppercase block mb-1">
                         Number B: <span className="text-pink-300 font-mono text-base">{vennNumB}</span> (Primes: {primeFactorsB.join(' × ') || '1'})
                       </label>
                       <input
@@ -1744,7 +1744,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400 block">Least Common Multiple (LCM):</span>
-                        <span className="text-indigo-400 font-bold font-mono text-base">{computedLCM}</span>
+                        <span className="text-gold-400 font-bold font-mono text-base">{computedLCM}</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-emerald-800/60 bg-emerald-950/20">
                         <span className="text-emerald-300 block">Product Theorem Verification:</span>
@@ -1762,7 +1762,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                 <div className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-slate-950 rounded-2xl border border-slate-800">
                     <div>
-                      <label className="text-xs font-bold text-indigo-300 uppercase block mb-1">
+                      <label className="text-xs font-bold text-gold-300 uppercase block mb-1">
                         Given Baseline: <span className="text-amber-300 font-mono font-bold">{unitItemCount} kg</span> costs{' '}
                         <span className="text-emerald-400 font-mono font-bold">₹{baseTotalCost}</span>
                       </label>
@@ -1777,8 +1777,8 @@ export function C6_MathematicsSimplificationBracketsSim({
                       />
                     </div>
                     <div>
-                      <label className="text-xs font-bold text-indigo-300 uppercase block mb-1">
-                        Calculate Required: <span className="text-cyan-300 font-mono font-bold">{targetItemCount} kg</span>
+                      <label className="text-xs font-bold text-gold-300 uppercase block mb-1">
+                        Calculate Required: <span className="text-gold-300 font-mono font-bold">{targetItemCount} kg</span>
                       </label>
                       <input
                         type="range"
@@ -1786,7 +1786,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                         max={20}
                         value={targetItemCount}
                         onChange={e => handleTargetItemCountChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust target item count slider"
                       />
                     </div>
@@ -1800,10 +1800,10 @@ export function C6_MathematicsSimplificationBracketsSim({
                         <div className="text-sm text-slate-300 mt-1">₹{baseTotalCost}</div>
                       </div>
 
-                      <div className="p-4 bg-indigo-950 rounded-2xl border-2 border-indigo-500 shadow-lg shadow-indigo-600/30">
-                        <span className="text-xs text-indigo-300 font-bold block mb-1">STEP 1: UNIT RATE (1 kg)</span>
+                      <div className="p-4 bg-gold-950 rounded-2xl border-2 border-gold-500 shadow-lg shadow-gold-600/30">
+                        <span className="text-xs text-gold-300 font-bold block mb-1">STEP 1: UNIT RATE (1 kg)</span>
                         <div className="text-2xl font-black text-white">₹{unitRate.toFixed(2)}</div>
-                        <div className="text-[11px] text-indigo-200 mt-1">
+                        <div className="text-[11px] text-gold-200 mt-1">
                           ₹{baseTotalCost} ÷ {unitItemCount} = ₹{unitRate}/kg
                         </div>
                       </div>
@@ -1833,7 +1833,7 @@ export function C6_MathematicsSimplificationBracketsSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <h3 className="text-xl font-bold text-indigo-300">Free Mathematical Sandbox</h3>
+              <h3 className="text-xl font-bold text-gold-300">Free Mathematical Sandbox</h3>
               <p className="text-slate-400 text-sm mt-1">
                 Zero pressure, no timers, no grading. Experiment with all bracket formulas, divisibility filters, and ratios!
               </p>
@@ -1865,7 +1865,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   type="number"
                   value={exprNumB}
                   onChange={e => setExprNumB(Number(e.target.value))}
-                  className="w-16 p-2 bg-slate-950 border border-slate-700 rounded-lg text-center font-bold text-cyan-300"
+                  className="w-16 p-2 bg-slate-950 border border-slate-700 rounded-lg text-center font-bold text-gold-300"
                   aria-label="Set value b"
                 />
                 <span className="self-center font-bold">+</span>
@@ -1885,11 +1885,11 @@ export function C6_MathematicsSimplificationBracketsSim({
             </div>
 
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h4 className="text-sm font-bold text-cyan-300 uppercase">Live Cross-Product Proportion Checker</h4>
+              <h4 className="text-sm font-bold text-gold-300 uppercase">Live Cross-Product Proportion Checker</h4>
               <p className="text-xs text-slate-400">Test if a : b = c : d is a true proportion</p>
               <div className="grid grid-cols-4 gap-2 text-center">
-                <input type="number" value={6} readOnly className="p-2 bg-slate-950 border border-slate-700 rounded-lg font-bold text-cyan-400" />
-                <input type="number" value={9} readOnly className="p-2 bg-slate-950 border border-slate-700 rounded-lg font-bold text-cyan-400" />
+                <input type="number" value={6} readOnly className="p-2 bg-slate-950 border border-slate-700 rounded-lg font-bold text-gold-400" />
+                <input type="number" value={9} readOnly className="p-2 bg-slate-950 border border-slate-700 rounded-lg font-bold text-gold-400" />
                 <input type="number" value={10} readOnly className="p-2 bg-slate-950 border border-slate-700 rounded-lg font-bold text-pink-400" />
                 <input type="number" value={15} readOnly className="p-2 bg-slate-950 border border-slate-700 rounded-lg font-bold text-pink-400" />
               </div>
@@ -1925,7 +1925,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
                   : difficulty === 'standard'
-                  ? 'bg-blue-500/20 text-blue-300 border-blue-500/40'
+                  ? 'bg-gold-500/20 text-gold-300 border-gold-500/40'
                   : 'bg-purple-500/20 text-purple-300 border-purple-500/40'
               }`}
             >
@@ -1939,7 +1939,7 @@ export function C6_MathematicsSimplificationBracketsSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -1957,7 +1957,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                 : 'bg-slate-900 border-slate-800 shadow-2xl'
             }`}
           >
-            <div className="text-xs text-indigo-400 font-bold uppercase tracking-wider mb-2">
+            <div className="text-xs text-gold-400 font-bold uppercase tracking-wider mb-2">
               Node: {challenge.nodeId} • Challenge ID: {challenge.id}
             </div>
             <h3 className="text-lg md:text-xl font-bold text-white mb-6 leading-relaxed">
@@ -1980,7 +1980,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                         : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700/80 hover:border-slate-600'
                     }`}
                   >
-                    <span className="font-mono font-bold text-indigo-400">[{String.fromCharCode(65 + idx)}]</span>
+                    <span className="font-mono font-bold text-gold-400">[{String.fromCharCode(65 + idx)}]</span>
                     <span>{opt}</span>
                   </motion.button>
                 ))}
@@ -1999,7 +1999,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2012,7 +2012,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                       key={slotId}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(slotId)}
-                      className="p-4 bg-slate-950 rounded-2xl border-2 border-dashed border-indigo-700/60 flex flex-col items-center justify-center min-h-[90px]"
+                      className="p-4 bg-slate-950 rounded-2xl border-2 border-dashed border-gold-700/60 flex flex-col items-center justify-center min-h-[90px]"
                     >
                       <span className="text-xs text-slate-400 mb-1">
                         {slotId === 'layer_inner' ? '1. Innermost (Core)' : slotId === 'layer_middle' ? '2. Middle Layer' : '3. Outermost Shell'}
@@ -2029,7 +2029,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Layer Map →
                 </motion.button>
@@ -2056,7 +2056,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs md:text-sm cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center text-xs font-mono font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center text-xs font-mono font-bold">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2069,7 +2069,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Sequence →
                 </motion.button>
@@ -2085,7 +2085,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-950 border border-indigo-700 rounded-xl text-white font-mono text-lg font-bold w-48"
+                    className="px-4 py-3 bg-slate-950 border border-gold-700 rounded-xl text-white font-mono text-lg font-bold w-48"
                     aria-label="Input numeric answer"
                   />
                   {challenge.unit && <span className="text-slate-400 font-bold">{challenge.unit}</span>}
@@ -2094,7 +2094,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(parseFloat(numericInput))}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold text-sm"
+                    className="px-6 py-3 bg-gold-600 text-white rounded-xl font-bold text-sm"
                   >
                     Check →
                   </motion.button>
@@ -2105,7 +2105,7 @@ export function C6_MathematicsSimplificationBracketsSim({
             {/* Construct Type Render */}
             {challenge.type === 'construct' && challenge.availableParts && (
               <div className="space-y-4">
-                <p className="text-xs text-indigo-300 font-semibold">{challenge.validationHint}</p>
+                <p className="text-xs text-gold-300 font-semibold">{challenge.validationHint}</p>
                 <div className="flex flex-wrap gap-2">
                   {challenge.availableParts.map((part, i) => (
                     <motion.button
@@ -2113,7 +2113,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2126,7 +2126,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-mono font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-mono font-bold flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2147,7 +2147,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Construction →
                 </motion.button>
@@ -2209,10 +2209,10 @@ export function C6_MathematicsSimplificationBracketsSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL SUMMARY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-black text-white">Class 6 Math Workshop Complete!</h2>
-            <p className="text-indigo-200 text-sm max-w-xl mx-auto">
+            <p className="text-gold-200 text-sm max-w-xl mx-auto">
               You have engineered the Jaipur Diwali Mela with precision arithmetic, prime factorisations, and proportional mastery.
             </p>
             <div className="inline-flex gap-4 p-4 bg-slate-900 rounded-2xl border border-slate-800">
@@ -2223,7 +2223,7 @@ export function C6_MathematicsSimplificationBracketsSim({
               <div className="w-px bg-slate-800" />
               <div>
                 <span className="text-xs text-slate-400 block">Mastery Rating</span>
-                <span className="text-2xl font-black text-indigo-400 uppercase">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2251,7 +2251,7 @@ export function C6_MathematicsSimplificationBracketsSim({
           </div>
 
           {/* ─── SPACED REPETITION SCHEDULE CARD (SM-2 VISIBILITY) ─── */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/70 via-slate-900 to-indigo-950/70 rounded-3xl border-2 border-amber-500/60 shadow-xl space-y-4">
+          <div className="p-6 bg-gradient-to-r from-amber-950/70 via-slate-900 to-gold-950/70 rounded-3xl border-2 border-amber-500/60 shadow-xl space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-3">
                 <div className="p-3 bg-amber-500/20 border border-amber-500/50 rounded-2xl text-2xl">
@@ -2327,8 +2327,8 @@ export function C6_MathematicsSimplificationBracketsSim({
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider">
               <span>💭</span> Reflection & Metacognition
             </div>
 
@@ -2341,20 +2341,20 @@ export function C6_MathematicsSimplificationBracketsSim({
                   value={reflectionResponses.surprising}
                   onChange={e => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. Addition and subtraction have equal rank and must be done left-to-right..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
                   aria-label="Reflection question 1"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-cyan-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflectionResponses.explain}
                   onChange={e => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Brackets are like nested gift boxes: always unwrap the innermost first..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
                   aria-label="Reflection question 2"
                 />
               </div>
@@ -2367,7 +2367,7 @@ export function C6_MathematicsSimplificationBracketsSim({
                   value={reflectionResponses.realLife}
                   onChange={e => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. Splitting costs when buying bulk festival groceries or scaling recipes..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
                   aria-label="Reflection question 3"
                 />
               </div>
@@ -2394,13 +2394,13 @@ export function C6_MathematicsSimplificationBracketsSim({
           )}
 
           {/* Real World Activity Arc */}
-          <div className="p-6 bg-indigo-950/50 rounded-2xl border border-indigo-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gold-950/50 rounded-2xl border border-gold-800 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i}>
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

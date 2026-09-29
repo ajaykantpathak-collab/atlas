@@ -41,9 +41,9 @@ export function C10_GeographyWaterResourcesSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">💧</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">💧</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 10 Geography -- Water Resources</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Geography -- Water Resources</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Water Budget and Multipurpose Projects Lab</h1>
         </div>
       </div>
@@ -54,10 +54,10 @@ export function C10_GeographyWaterResourcesSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Average annual rainfall</span>
-                <span className="font-mono text-sky-300">{rainCm} cm</span>
+                <span className="font-mono text-gold-300">{rainCm} cm</span>
               </div>
               <input type="range" min={30} max={250} value={rainCm} aria-label="annual rainfall"
-                onChange={(e) => setRainCm(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setRainCm(Number(e.target.value))} className="w-full accent-gold-500" />
               <p className="text-[10px] text-slate-500">India: variable monsoon -- 11 cm (Jaisalmer) to 1,140 cm (Cherrapunji/Mawsynram); 116 cm is the national average.</p>
             </div>
             <div>
@@ -81,14 +81,14 @@ export function C10_GeographyWaterResourcesSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Households practising rooftop/tanka rainwater harvesting</span>
-                <span className="font-mono text-cyan-300">{harvestAdoption}%</span>
+                <span className="font-mono text-gold-300">{harvestAdoption}%</span>
               </div>
               <input type="range" min={0} max={100} value={harvestAdoption} aria-label="harvesting adoption"
-                onChange={(e) => setHarvestAdoption(Number(e.target.value))} className="w-full accent-cyan-500" />
+                onChange={(e) => setHarvestAdoption(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setDamMode('multipurpose')}
-                className={`py-2 rounded-xl text-[11px] font-bold ${damMode === 'multipurpose' ? 'bg-sky-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-[11px] font-bold ${damMode === 'multipurpose' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Multipurpose dams ON
               </button>
               <button onClick={() => setDamMode('none')}
@@ -98,12 +98,12 @@ export function C10_GeographyWaterResourcesSim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4">
-            <p className="text-xs font-bold uppercase tracking-wider text-sky-400 mb-2">Computed water budget (honest readouts)</p>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4">
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Computed water budget (honest readouts)</p>
             <div className="grid grid-cols-3 gap-2 text-center">
               <div className="bg-slate-950 rounded-xl p-3 border border-slate-800">
                 <p className="text-[10px] text-slate-500">Renewable supply</p>
-                <p className="font-mono font-black text-sky-300">{water.supply.toFixed(0)}</p>
+                <p className="font-mono font-black text-gold-300">{water.supply.toFixed(0)}</p>
                 <p className="text-[9px] text-slate-600">billion m3/yr</p>
               </div>
               <div className="bg-slate-950 rounded-xl p-3 border border-slate-800">
@@ -129,18 +129,18 @@ export function C10_GeographyWaterResourcesSim() {
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 text-xs text-slate-300 leading-relaxed space-y-3">
             <div>
-              <p className="font-bold text-sky-300 mb-1">Why conserve? (hydrological logic)</p>
+              <p className="font-bold text-gold-300 mb-1">Why conserve? (hydrological logic)</p>
               <p className="text-slate-400 text-[11px]">Only ~3% of all water is freshwater; most is locked in ice. Hydrological cycle: evaporation -&gt; condensation -&gt; precipitation -&gt; runoff/infiltration. India: monsoon-dependent -- 4 months bring most rain, so storage (surface + groundwater) decides survival.</p>
             </div>
             <div>
-              <p className="font-bold text-sky-300 mb-1">Multipurpose projects: the debate</p>
+              <p className="font-bold text-gold-300 mb-1">Multipurpose projects: the debate</p>
               <p className="text-slate-400 text-[11px]">Bhakra-Nangal (Satluj), Hirakud (Mahanadi), Damodar Valley (DVC, 1948), Nagarjuna Sagar, Tehri. Benefits: irrigation, hydroelectricity, flood control, water supply, fishing, navigation. Costs (Narmada Bachao Andolan, Medha Patkar): displacement of tribals, deforestation, sedimentation, earthquakes, aquifer depletion -- &quot;dams are the temples&quot; slogan vs &quot;multi-purpose schemes are like a jack-of-all-trades&quot; (Sampurnanand vs critics).</p>
             </div>
             <div>
-              <p className="font-bold text-sky-300 mb-1">Traditional harvesting (rooftop to river valley)</p>
+              <p className="font-bold text-gold-300 mb-1">Traditional harvesting (rooftop to river valley)</p>
               <p className="text-slate-400 text-[11px]">Khadins/Johads (Rajasthan), Bandharas (Maharashtra), Tankas (rooftop, Rajasthan), Bamboo drip irrigation (Meghalaya), Kulhs (HP), Ahars-pynes (Bihar), Dungs/Jheels. 2002 law: rooftop harvesting compulsory in some states (Tamil Nadu first).</p>
             </div>
-            <div className="p-3 rounded-xl bg-sky-950/40 border border-sky-800/60 text-[11px] text-sky-200 leading-relaxed">
+            <div className="p-3 rounded-xl bg-gold-950/40 border border-gold-800/60 text-[11px] text-gold-200 leading-relaxed">
               <span className="font-bold">Misconception killer:</span> &quot;India has a water crisis because it has too little rain.&quot; The lab computes the truth: shift rainfall to 116 cm and efficiency stays at 38% -- the gap stays negative-to-thin; raise EFFICIENCY to 70% at the same rainfall and the budget turns. The crisis is mostly of STORAGE, SEEPAGE and OVERPUMPING (groundwater draft exceeds recharge), not raw rainfall scarcity.
             </div>
           </div>

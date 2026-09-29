@@ -1227,13 +1227,13 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
       {/* ─── 1. DISCOVERY PHASE HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
               <span>🏛️</span> NARRATIVE CASE BRIEFING
             </div>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-            <div className="p-3 bg-slate-950/80 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+            <div className="p-3 bg-slate-950/80 rounded-xl border border-gold-900/40 text-xs text-gold-200">
               📌 <span className="font-semibold text-white">Your Mission Context:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1345,8 +1345,8 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
               {currentSlide === 0 && (
                 <div className="space-y-6">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
-                      <p className="text-sm font-bold text-indigo-300 mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                      <p className="text-sm font-bold text-gold-300 mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1354,7 +1354,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction(i)}
-                            className="text-left p-2.5 bg-slate-950 hover:bg-indigo-900/40 border border-slate-800 text-xs rounded-lg text-slate-200"
+                            className="text-left p-2.5 bg-slate-950 hover:bg-gold-900/40 border border-slate-800 text-xs rounded-lg text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1420,7 +1420,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-[10px] text-slate-400 block">Starch Gelatin</span>
-                          <span className="text-xs font-bold text-blue-400">{starchGelatinisation}%</span>
+                          <span className="text-xs font-bold text-gold-400">{starchGelatinisation}%</span>
                         </div>
                       </div>
                     </div>
@@ -1478,7 +1478,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                         <div className="flex justify-between text-xs font-bold mb-1">
                           <span className="text-slate-300">Water Volume (Leaching Medium):</span>
-                          <span className="text-blue-400">{simWaterVol} ml</span>
+                          <span className="text-gold-400">{simWaterVol} ml</span>
                         </div>
                         <input
                           type="range"
@@ -1487,7 +1487,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                           step={50}
                           value={simWaterVol}
                           onChange={e => setSimWaterVol(Number(e.target.value))}
-                          className="w-full accent-blue-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                           aria-label="Water Volume Slider"
                         />
                         <span className="text-[10px] text-slate-400 block mt-1">
@@ -1575,7 +1575,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                         id: 'soaked',
                         title: '2. Soaked (8 Hours)',
                         desc: 'Seed coat softens. Phytates decline by 25%. Cooking time halved.',
-                        color: 'border-blue-800 bg-blue-950/30',
+                        color: 'border-gold-800 bg-gold-950/30',
                         badge: 'Hydrated Matrix',
                       },
                       {
@@ -1626,7 +1626,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                     <span className="text-2xl text-slate-600">➔</span>
                     <div>
                       <span className="text-xs text-slate-400 block mb-1">Iron Bioavailability</span>
-                      <span className="text-2xl font-black text-blue-400">
+                      <span className="text-2xl font-black text-gold-400">
                         {simPulseState === 'dry' ? 'Poor (~3%)' : simPulseState === 'soaked' ? 'Moderate (~8%)' : 'High (~18%)'}
                       </span>
                     </div>
@@ -1651,7 +1651,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                         onClick={() => handleCulinarySelect(cut.id)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           selectedCulinaryCut === cut.id
-                            ? 'bg-indigo-950/80 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-950/80 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1681,7 +1681,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                     )}
                     {selectedCulinaryCut === 'julienne' && (
                       <div>
-                        <h4 className="font-bold text-blue-400 text-sm mb-1">Julienne Precision: Surface Area Dynamics</h4>
+                        <h4 className="font-bold text-gold-400 text-sm mb-1">Julienne Precision: Surface Area Dynamics</h4>
                         <p className="text-xs text-slate-300 leading-relaxed">
                           Cutting carrots or capsicum into 2-3 cm matchsticks increases surface area to volume ratio, permitting instantaneous flash stir-frying in 90 seconds. Retains crunch and heat-labile micronutrients.
                         </p>
@@ -1704,8 +1704,8 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                 <div className="space-y-6">
                   {/* Prediction 2 Question */}
                   {!prediction2Made ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
-                      <p className="text-sm font-bold text-indigo-300 mb-2">🤔 {PREDICTION_QUESTIONS[1].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                      <p className="text-sm font-bold text-gold-300 mb-2">🤔 {PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
                           <motion.button
@@ -1713,7 +1713,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction2(i)}
-                            className="text-left p-2.5 bg-slate-950 hover:bg-indigo-900/40 border border-slate-800 text-xs rounded-lg text-slate-200"
+                            className="text-left p-2.5 bg-slate-950 hover:bg-gold-900/40 border border-slate-800 text-xs rounded-lg text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1922,7 +1922,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
               <div>
                 <div className="flex justify-between text-xs font-semibold mb-1">
                   <span className="text-slate-300">Water Volume</span>
-                  <span className="text-blue-400">{simWaterVol} ml</span>
+                  <span className="text-gold-400">{simWaterVol} ml</span>
                 </div>
                 <input
                   type="range"
@@ -1931,7 +1931,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                   step={50}
                   value={simWaterVol}
                   onChange={e => setSimWaterVol(Number(e.target.value))}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1942,7 +1942,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                 </div>
                 <div>
                   <span className="text-slate-500 block">Gelatinisation</span>
-                  <span className="font-bold text-blue-400 text-sm">{starchGelatinisation}%</span>
+                  <span className="font-bold text-gold-400 text-sm">{starchGelatinisation}%</span>
                 </div>
               </div>
             </div>
@@ -2010,7 +2010,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-400 border-rose-800'
-                    : 'bg-blue-950 text-blue-400 border-blue-800'
+                    : 'bg-gold-950 text-gold-400 border-gold-800'
                 }`}
               >
                 {difficulty} Tier
@@ -2088,7 +2088,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2336,7 +2336,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
               </div>
               <div>
                 <span className="text-xs text-slate-400 block">Mastery State</span>
-                <span className="text-2xl font-black text-blue-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2364,16 +2364,16 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
           </div>
 
           {/* SPACED REPETITION VISIBILITY SCHEDULE CARD */}
-          <div className="p-5 bg-indigo-950/70 rounded-2xl border border-indigo-500/50 text-indigo-100 shadow-xl space-y-3">
+          <div className="p-5 bg-gold-950/70 rounded-2xl border border-gold-500/50 text-gold-100 shadow-xl space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-sm font-bold text-white flex items-center gap-2">
                 <span>📅</span> Spaced Repetition Schedule (SM-2 Algorithm)
               </span>
-              <span className="px-3 py-1 bg-indigo-900/90 border border-indigo-400/40 rounded-full text-xs font-bold text-indigo-300">
+              <span className="px-3 py-1 bg-gold-900/90 border border-gold-400/40 rounded-full text-xs font-bold text-gold-300">
                 Retention Tracker
               </span>
             </div>
-            <div className="p-3 bg-slate-950/80 rounded-xl border border-indigo-900/50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+            <div className="p-3 bg-slate-950/80 rounded-xl border border-gold-900/50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
               <div>
                 <span className="text-xs text-slate-400 block">Next Recommended Review:</span>
                 <span className="text-base font-black text-amber-400">
@@ -2384,14 +2384,14 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                 Performance: <strong className="text-white">{errors} error{errors === 1 ? '' : 's'} recorded</strong>
               </div>
             </div>
-            <p className="text-[11px] text-indigo-300/80">
+            <p className="text-[11px] text-gold-300/80">
               📌 Spaced repetition prevents the Ebbinghaus forgetting curve. Revisiting this simulation on schedule locks key biochemical ratios into long-term memory for board exams.
             </p>
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/40 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/40 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Scientific Reflection & Real-Life Transfer
             </h3>
             
@@ -2405,7 +2405,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                   onChange={e => setReflectionAnswers(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g. How sprouting degrades phytic acid or the 4:1 cereal-to-pulse ratio..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2418,7 +2418,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                   onChange={e => setReflectionAnswers(r => ({ ...r, explain: e.target.value }))}
                   placeholder="e.g. Cooking is thermodynamics and chemistry that makes food nutritious and safe..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2431,7 +2431,7 @@ function C12_HomeSciencePrinciplesMethodsCookingSim({
                   onChange={e => setReflectionAnswers(r => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g. Planning my family's weekly meals, preparing vegetables to prevent vitamin loss..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>

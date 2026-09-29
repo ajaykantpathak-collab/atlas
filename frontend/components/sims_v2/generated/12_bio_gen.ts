@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C12_BIO_GEN: SimDef[] = [
  {
   "id": "gen_c12_bio_ch01",
-  "title": "Reproduction",
+  "title": "Reproduction Is The Biological Process",
   "subtitle": "Biology · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Reproduction",
+  "topic": "Reproduction Is The Biological Process",
   "chapters": [
-   "Biology Ch1: Reproduction"
+   "Biology Ch1: Reproduction Is The Biological Process"
   ],
   "nodeIds": [
    "c12_bio_cbse_01_001",
@@ -34,7 +34,7 @@ export const C12_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Reproduction suddenly stops working?",
+   "question": "What happens if Reproduction Is The Biological suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -45,7 +45,7 @@ export const C12_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Reproduction",
+    "title": "Reproduction Is The Biological Process",
     "text": "Reproduction is the biological process by which living organisms produce new individuals of the same species, ensuring continuity of life. It occurs in two fundamental modes: asexual reproduction, where a single parent produces genetically identical offspring",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -69,7 +69,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Gametogenesis",
+    "title": "Gametogenesis Is The Process Of Formation",
     "text": "Gametogenesis is the process of formation of haploid male and female gametes (sperm and ovum) from diploid germ cells in the gonads (testes and ovaries) through meiotic division, involving spermatogenesis in males and oogenesis in females, each with distinct",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -93,11 +93,11 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Define asexual reproduction and name one organism that reproduces exclusively by this mode.",
     "answer": "Asexual reproduction is a mode where a single parent produces offspring without the formation and fusion of gametes, resulting in genetically identical progeny (clones)",
     "options": [
-     "The two products are: (1) diploid zygote (2n) formed by syngamy — fusion of one male gamete (n) with egg cell (n)",
-     "(a) Offset — short lateral stem branch with rosette of leaves and adventitious roots; stem. (b) Bulbil — modified axillary bud, fleshy and rounded; stem (bud)",
+     "Binary fission is a type of asexual reproduction where a single parent cell divides into two nearly equal daughter cells, each growing into an independent organism",
+     "The student can (1) list the three phases of sexual reproduction in correct sequence and name the key event defining each phase",
      "Asexual reproduction is a mode where a single parent produces offspring without the formation and fusion of gametes, resulting in genetically identical progeny (clones)"
     ],
-    "hint": "Straight from the 'Reproduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"sexual reproduction involves one parent\") reveals confusion between the number of parents and the role of gametes.",
     "id": "gen_c12_bio_ch01_q1",
     "nodeId": "c12_bio_cbse_01_001",
@@ -110,16 +110,47 @@ export const C12_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define binary fission and name two organisms in which it occurs.",
-    "answer": "Binary fission is a type of asexual reproduction where a single parent cell divides into two nearly equal daughter cells, each growing into an independent organism",
-    "options": [
-     "The two products are: (1) diploid zygote (2n) formed by syngamy — fusion of one male gamete (n) with egg cell (n)",
-     "Asexual reproduction is a mode where a single parent produces offspring without the formation and fusion of gametes, resulting in genetically identical progeny (clones)",
-     "Binary fission is a type of asexual reproduction where a single parent cell divides into two nearly equal daughter cells, each growing into an independent organism"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "draw labelled diagrams for each mode",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "compare and contrast",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "describe the step‑by‑step cellular events",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Asexual reproduction' slide -- match the key terms.",
-    "misconception": "Wrong answer insight: If a student writes \"binary fission produces four daughter cells\" or names *Hydra* or *Planaria*, they confuse binary fission with multiple fission or budding/fragmentation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) describe the step‑by‑step cellular events of binary fission in *Amoeba* (irregular plane) and",
     "id": "gen_c12_bio_ch01_q2",
     "nodeId": "c12_bio_cbse_01_002",
     "difficulty": "standard",
@@ -243,7 +274,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "The second male gamete fuses with the two polar nuclei in the central cell (triple fusion). If the two polar nuclei had already fused to form a diploid (2n) secondary nucleus",
      "The statement is incorrect because it ignores cytokinesis asymmetry in oogenesis. In spermatogenesis"
     ],
-    "hint": "Straight from the 'Gametogenesis' slide -- match the key terms.",
+    "hint": "Straight from the 'Gametogenesis is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student has memorised \"meiosis produces four cells\" without understanding cytoplasmic partitioning differences.",
     "id": "gen_c12_bio_ch01_q5",
     "nodeId": "c12_bio_cbse_01_005",
@@ -260,8 +291,8 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Name the two distinct fusion events that constitute double fertilization in angiosperms and state the ploidy of the product formed in each.",
     "answer": "The two fusion events are: (1) Syngamy — fusion of one male gamete (n) with the egg cell (n) to form a diploid (2n) zygote",
     "options": [
-     "The three phases are: (1) Pre-fertilization — defining event is gametogenesis (meiotic formation of haploid gametes) and gamete transfer",
-     "Asexual reproduction is a mode where a single parent produces offspring without the formation and fusion of gametes, resulting in genetically identical progeny (clones)",
+     "Student can trace the complete developmental sequence from double fertilization to mature seed/fruit",
+     "Fertilization in flowering plants is the process of double fertilization where one male gamete fuses with the egg cell (syngamy) to form a diploid zygote",
      "The two fusion events are: (1) Syngamy — fusion of one male gamete (n) with the egg cell (n) to form a diploid (2n) zygote"
     ],
     "hint": "Straight from the 'Fertilization in flowering plants' slide -- match the key terms.",
@@ -386,6 +417,109 @@ export const C12_BIO_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish natural from artificial",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the principle",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "describe the role of meristematic tissue",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish natural from artificial vegetative propagation with three examples each,",
+    "id": "gen_c12_bio_ch01_q9",
+    "nodeId": "c12_bio_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "explain why meiosis",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between external and internal",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "list the three phases of sexual reproduction",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list the three phases of sexual reproduction in correct sequence and name the key event defining",
+    "id": "gen_c12_bio_ch01_q10",
+    "nodeId": "c12_bio_cbse_01_004",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student observes that a yeast culture produces buds, while a nearby hydra also shows budding. Are both processes considered asexual reproduction? Justify.",
     "answer": "Yes, both are asexual reproduction. In yeast (fungus) and Hydra (animal), budding involves mitotic division of a parent cell/body region to form an outgrowth that detaches as a",
@@ -394,9 +528,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "The frog exhibits external fertilization (syngamy occurs in the external aquatic medium); the lizard exhibits internal fertilization (syngamy occurs inside the female reproductive",
      "Yes, both are asexual reproduction. In yeast (fungus) and Hydra (animal), budding involves mitotic division of a parent cell/body region to form an outgrowth that detaches as a"
     ],
-    "hint": "Straight from the 'Reproduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"yeast is a fungus so it's different\" shows a taxonomic misconception rather than understanding the defining criterion (absence of gamete fusion).",
-    "id": "gen_c12_bio_ch01_q9",
+    "id": "gen_c12_bio_ch01_q11",
     "nodeId": "c12_bio_cbse_01_001",
     "difficulty": "standard"
    },
@@ -409,9 +543,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "Micropropagation wins on (i) disease-free: meristem-tip culture (0.1–0.5 mm) often excludes viruses (no vascular connection); cutting propagation transmits systemic pathogens",
      "Asexual reproduction typically involves mitotic divisions, maintaining the same chromosome number (ploidy) in offspring as the parent"
     ],
-    "hint": "Straight from the 'Reproduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"both use mitosis\" ignores the essential role of meiosis in sexual reproduction.",
-    "id": "gen_c12_bio_ch01_q10",
+    "id": "gen_c12_bio_ch01_q12",
     "nodeId": "c12_bio_cbse_01_001",
     "difficulty": "standard"
    },
@@ -424,9 +558,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "The cutting survives initially because: (1) the stem has stored water and carbohydrates in parenchyma",
      "Grow multiple plants from potato tubers (vegetative propagation) and from seeds of the same potato variety"
     ],
-    "hint": "Straight from the 'Reproduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
     "misconception": "A poor answer that only says \"plant them and see\" lacks a plan for detecting genetic identity vs variation.",
-    "id": "gen_c12_bio_ch01_q11",
+    "id": "gen_c12_bio_ch01_q13",
     "nodeId": "c12_bio_cbse_01_001",
     "difficulty": "standard"
    },
@@ -439,9 +573,39 @@ export const C12_BIO_GEN: SimDef[] = [
      "Meiosis halves the chromosome number (2n → n) so that fusion of two gametes during fertilization restores the diploid number (n + n = 2n) in the zygote",
      "The statement is incorrect. Asexual reproduction is highly successful in stable environments — it is energetically cheaper, faster, and allows rapid colonization (e"
     ],
-    "hint": "Straight from the 'Reproduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement shows a teleological misconception about evolution.",
-    "id": "gen_c12_bio_ch01_q12",
+    "id": "gen_c12_bio_ch01_q14",
+    "nodeId": "c12_bio_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Reproduction? State the definition given in this lesson.",
+    "answer": "Reproduction is the biological process by which living organisms produce new individuals of the same species, ensuring continuity of life",
+    "options": [
+     "Binary fission is a type of asexual reproduction where a single parent cell divides into two nearly equal daughter cells, each growing into an independent organism",
+     "Asexual reproduction is a mode of reproduction in which a single parent produces genetically identical offspring without the fusion of gametes",
+     "Reproduction is the biological process by which living organisms produce new individuals of the same species, ensuring continuity of life"
+    ],
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Reproduction is the biological process by which living organisms produce new individuals of the same species, ensuring",
+    "id": "gen_c12_bio_ch01_q15",
+    "nodeId": "c12_bio_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can distinguish between asexual and sexual reproduction based on number of parents, gamete formation, genetic variation, and cellular mechanisms (mitosis vs meiosis)",
+    "options": [
+     "(a) Offset — short lateral stem branch with rosette of leaves and adventitious roots; stem. (b) Bulbil — modified axillary bud, fleshy and rounded; stem (bud)",
+     "Vegetative propagation is a mode of asexual reproduction in plants where new individuals arise from vegetative parts (roots, stems",
+     "The student can distinguish between asexual and sexual reproduction based on number of parents, gamete formation, genetic variation, and cellular mechanisms (mitosis vs meiosis)"
+    ],
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can distinguish between asexual and sexual reproduction based on number of parents, gamete formation,",
+    "id": "gen_c12_bio_ch01_q16",
     "nodeId": "c12_bio_cbse_01_001",
     "difficulty": "standard"
    },
@@ -454,9 +618,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "The statement is incorrect. Asexual reproduction is highly successful in stable environments — it is energetically cheaper, faster, and allows rapid colonization (e",
      "Sexual reproduction involves meiosis and fusion of gametes from two parents, generating genetic recombination and variation"
     ],
-    "hint": "Straight from the 'Reproduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Reproduction is the biological' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"two parents are involved\" without mentioning genetic variation misses the core evolutionary significance.",
-    "id": "gen_c12_bio_ch01_q13",
+    "id": "gen_c12_bio_ch01_q17",
     "nodeId": "c12_bio_cbse_01_001",
     "difficulty": "standard"
    },
@@ -471,66 +635,6 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asexual reproduction' slide -- match the key terms.",
     "misconception": "Wrong answer insight: If the student says \"both are identical\" or \"yeast forms a multicellular bud\", they fail to distinguish unicellular vs. multicellular budding — a frequent NEET distinction.",
-    "id": "gen_c12_bio_ch01_q14",
-    "nodeId": "c12_bio_cbse_01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare fragmentation in *Planaria* and *Spirogyra*. What is the role of neoblasts in *Planaria*, and why are they absent in *Spirogyra*?",
-    "answer": "In *Planaria* (a triploblastic flatworm), fragmentation is a reproductive strategy: the worm splits transversely",
-    "options": [
-     "In ovipary (e.g., hen, most reptiles), the zygote develops outside the mother's body inside a shelled egg with yolk as nutrition; in vivipary (e",
-     "In gymnosperms, the female gametophyte (megagametophyte) is haploid (n) and lacks a central cell with two polar nuclei",
-     "In *Planaria* (a triploblastic flatworm), fragmentation is a reproductive strategy: the worm splits transversely"
-    ],
-    "hint": "Straight from the 'Asexual reproduction' slide -- match the key terms.",
-    "misconception": "Wrong answer insight: If a student writes \"both use neoblasts\" or \"both regenerate from any fragment\", they conflate animal regeneration (requiring stem cells) with algal fragmentation (simple mechanical separation).",
-    "id": "gen_c12_bio_ch01_q15",
-    "nodeId": "c12_bio_cbse_01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple laboratory activity to observe and compare the rate of binary fission in *Amoeba* and budding in yeast under a light microscope. List materials, procedure, and two measurable parameters.",
-    "answer": "Materials: Compound microscope, depression slides, coverslips, *Amoeba* culture (hay infusion), yeast suspension in 10% glucose, stopwatch",
-    "options": [
-     "Use a hibiscus plant in your garden. Observe and record over 2 weeks: (Pre-fertilization) Check anthers for pollen release (tap anther on dark paper",
-     "The second male gamete fuses with the two polar nuclei in the central cell (triple fusion). If the two polar nuclei had already fused to form a diploid (2n) secondary nucleus",
-     "Materials: Compound microscope, depression slides, coverslips, *Amoeba* culture (hay infusion), yeast suspension in 10% glucose, stopwatch"
-    ],
-    "hint": "Straight from the 'Asexual reproduction' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Materials: Compound microscope, depression slides, coverslips, *Amoeba* culture (hay infusion), yeast suspension in 10%",
-    "id": "gen_c12_bio_ch01_q16",
-    "nodeId": "c12_bio_cbse_01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Fragmentation and regeneration are the same process.\" Provide a biological argument with examples.",
-    "answer": "The statement is false. Fragmentation is an asexual reproductive mode where the parent body breaks into pieces, each developing into a new individual (e",
-    "options": [
-     "Meiosis halves the chromosome number (2n → n) so that fusion of two gametes during fertilization restores the diploid number (n + n = 2n) in the zygote",
-     "Primary oocytes arrest at dictyate (diplotene of prophase I) due to high levels of cAMP maintained by oocyte maturation inhibitor (OMI) from follicular granulosa cells and low MPF",
-     "The statement is false. Fragmentation is an asexual reproductive mode where the parent body breaks into pieces, each developing into a new individual (e"
-    ],
-    "hint": "Straight from the 'Asexual reproduction' slide -- match the key terms.",
-    "misconception": "Wrong answer insight: If a student agrees, they confuse a reproductive strategy with a physiological repair mechanism — a classic board exam error that costs marks in \"differentiate\" questions.",
-    "id": "gen_c12_bio_ch01_q17",
-    "nodeId": "c12_bio_cbse_01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why is binary fission in *Amoeba* described as \"irregular\" while in *Paramecium* it is \"transverse\"? What cellular structure determines the plane of division in *Paramecium*?",
-    "answer": "In *Amoeba*, the plane of division is not fixed and can occur along any plane because the cell lacks a definite shape and rigid pellicle",
-    "options": [
-     "The claim is false. While spermiogenesis involves no division (it's differentiation: nuclear condensation, acrosome formation, flagellum assembly, mitochondrial sheath formation",
-     "Sexual reproduction involves meiosis and fusion of gametes from two parents, generating genetic recombination and variation",
-     "In *Amoeba*, the plane of division is not fixed and can occur along any plane because the cell lacks a definite shape and rigid pellicle"
-    ],
-    "hint": "Straight from the 'Asexual reproduction' slide -- match the key terms.",
-    "misconception": "Wrong answer insight: If a student says \"both divide transversely\" or \"both are irregular\", they miss the structural basis of division plane.",
     "id": "gen_c12_bio_ch01_q18",
     "nodeId": "c12_bio_cbse_01_002",
     "difficulty": "standard"
@@ -538,25 +642,25 @@ export const C12_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about reproduction?",
+    "What surprised you about reproduction is the biological process?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Reproduction mastered! 🎯",
+  "successLine": "Reproduction Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bio_ch02",
-  "title": "Flower",
+  "title": "Flower Is The Specialized Reproductive Shoot",
   "subtitle": "Biology · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Flower",
+  "topic": "Flower Is The Specialized Reproductive Shoot Of An A",
   "chapters": [
-   "Biology Ch2: Flower",
-   "Biology Ch3: Flower"
+   "Biology Ch2: Flower Is The Specialized Reproductive Shoot Of An A",
+   "Biology Ch3: Flower Is The Specialized Reproductive Shoot Of An A"
   ],
   "nodeIds": [
    "c12_bio_cbse_02_001",
@@ -580,7 +684,7 @@ export const C12_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Flower more about facts, or about reasoning?",
+   "question": "Is Flower Is The Specialized more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -591,37 +695,37 @@ export const C12_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Flower",
+    "title": "Flower Is The Specialized Reproductive",
     "text": "A flower is the specialized reproductive shoot of an angiosperm, composed of four distinct whorls (calyx, corolla, androecium, gynoecium) arranged on a thalamus, where the androecium produces male gametes (pollen grains) and the gynoecium houses the female",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Stamen",
+    "title": "Stamen: Anther and Microsporangium",
     "text": "The stamen is the male reproductive organ of a flowering plant, consisting of a stalk-like filament and a terminal bilobed anther; each anther lobe contains two microsporangia (pollen sacs) where microspore mother cells undergo meiosis to form haploid",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Microsporogenesis",
+    "title": "Microsporogenesis: Formation of Pollen",
     "text": "Microsporogenesis is the process in flowering plants where diploid microspore mother cells (pollen mother cells) in the anther undergo meiosis to produce haploid microspores, which then develop into mature pollen grains (male gametophytes) containing a",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Pistil",
+    "title": "Pistil: Structure of Ovary and Ovule",
     "text": "The pistil is the female reproductive organ of a flowering plant, typically composed of three parts: the stigma (pollen-receptive surface), the style (elongated stalk), and the ovary (basal swollen portion containing one or more ovules).",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Megasporogenesis",
+    "title": "Megasporogenesis Is The Process Of Formation",
     "text": "Megasporogenesis is the process of formation of haploid megaspores from a diploid megaspore mother cell (MMC) through meiotic division inside the ovule (megasporangium) of flowering plants.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Pollination",
+    "title": "Pollination Is The Transfer Of Pollen",
     "text": "Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower. Self-pollination (autogamy and geitonogamy) occurs within the same flower or between flowers of the same plant, while cross-pollination",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -639,7 +743,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Pregnancy",
+    "title": "Pregnancy Is The Physiological",
     "text": "Pregnancy is the physiological state in a female mammal beginning with the implantation of the blastocyst in the uterine endometrium and ending with parturition, during which the embryo and later the fetus develops inside the uterus.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -663,7 +767,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Parthenocarpy",
+    "title": "Parthenocarpy Is The Development Of Fruit",
     "text": "Parthenocarpy is the development of fruit without fertilization of ovules, resulting in seedless fruits; it can occur naturally (e.g., banana, grapes) or be induced artificially by applying plant growth regulators like auxins and gibberellins to unpollinated",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -738,11 +842,11 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Name the four wall layers of a mature microsporangium (anther wall) in correct order from outermost to innermost, and state the ploidy level of the cells in each layer.",
     "answer": "Epidermis (diploid, 2n) → Endothecium (diploid, 2n) → Middle layers (1–3 layers, diploid, 2n) → Tapetum (diploid, 2n, but often becomes binucleate or polyploid)",
     "options": [
-     "Calyx (sepals) – protection of bud; Corolla (petals) – attraction of pollinators; Androecium (stamens) – production of male gametes (pollen)",
-     "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n)",
+     "Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower",
+     "The student can draw and label the sequential stages of megasporogenesis and megagametogenesis (2-nucleate, 4-nucleate, 8-nucleate, mature embryo sac)",
      "Epidermis (diploid, 2n) → Endothecium (diploid, 2n) → Middle layers (1–3 layers, diploid, 2n) → Tapetum (diploid, 2n, but often becomes binucleate or polyploid)"
     ],
-    "hint": "Straight from the 'stamen' slide -- match the key terms.",
+    "hint": "Straight from the 'stamen is the male reproductive' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"tapetum is haploid\" reveals the student confuses the wall layers (sporophytic, 2n) with the sporogenous tissue inside (which gives rise to haploid microspores).",
     "id": "gen_c12_bio_ch02_q2",
     "nodeId": "c12_bio_cbse_02_002",
@@ -759,11 +863,11 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "What is the ploidy of a microspore mother cell, a microspore, and the vegetative cell of a mature pollen grain in a typical flowering plant?",
     "answer": "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n)",
     "options": [
-     "Epidermis (diploid, 2n) → Endothecium (diploid, 2n) → Middle layers (1–3 layers, diploid, 2n) → Tapetum (diploid, 2n, but often becomes binucleate or polyploid)",
-     "The megaspore mother cell (MMC) or megasporocyte, which is diploid (2n), undergoes meiosis. It is located in the nucellus of the ovule, typically near the micropylar end",
+     "The student can label all four whorls on a longitudinal section of a typical flower, explain the protective, attractive, male reproductive",
+     "Student can explain the sequential stages of microsporogenesis from microspore mother cell to mature pollen grain, describe the role of tapetum in pollen development",
      "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n)"
     ],
-    "hint": "Straight from the 'Microsporogenesis' slide -- match the key terms.",
+    "hint": "Straight from the 'Microsporogenesis is the process' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying microspore is diploid) reveals the student has not grasped that meiosis reduces chromosome number, or they confuse microsporogenesis with mitosis in the pollen grain later.",
     "id": "gen_c12_bio_ch02_q3",
     "nodeId": "c12_bio_cbse_02_003",
@@ -854,11 +958,11 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Name the cell that undergoes meiosis to initiate megasporogenesis and state its ploidy. Where is this cell located within the ovule?",
     "answer": "The megaspore mother cell (MMC) or megasporocyte, which is diploid (2n), undergoes meiosis. It is located in the nucellus of the ovule, typically near the micropylar end",
     "options": [
-     "Autogamy is the transfer of pollen from anther to stigma within the same flower. Example: wheat, rice, or pea",
-     "Calyx (sepals) – protection of bud; Corolla (petals) – attraction of pollinators; Androecium (stamens) – production of male gametes (pollen)",
+     "Student can explain the sequential stages of microsporogenesis from microspore mother cell to mature pollen grain, describe the role of tapetum in pollen development",
+     "The student can accurately label all parts of a pistil (stigma, style, ovary) and an ovule (funiculus, hilum, integuments, micropyle, chalaza, nucellus",
      "The megaspore mother cell (MMC) or megasporocyte, which is diploid (2n), undergoes meiosis. It is located in the nucellus of the ovule, typically near the micropylar end"
     ],
-    "hint": "Straight from the 'Megasporogenesis' slide -- match the key terms.",
+    "hint": "Straight from the 'Megasporogenesis is the process' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"functional megaspore\" or \"nucellar cell\") reveals confusion between the *mother cell* that divides meiotically and the *product* that divides mitotically, or ignorance of ovule anatomy from the previous node.",
     "id": "gen_c12_bio_ch02_q5",
     "nodeId": "c12_bio_cbse_02_005",
@@ -1008,16 +1112,58 @@ export const C12_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define dichogamy and give one example each of protandry and protogyny from flowering plants.",
-    "answer": "Dichogamy is the temporal separation of anther dehiscence (pollen release) and stigma receptivity in a flower to prevent self-pollination",
-    "options": [
-     "Autogamy is the transfer of pollen from anther to stigma within the same flower. Example: wheat, rice, or pea",
-     "The primary endosperm nucleus is triploid (3n), formed by the fusion of one male gamete with the two haploid polar nuclei (triple fusion)",
-     "Dichogamy is the temporal separation of anther dehiscence (pollen release) and stigma receptivity in a flower to prevent self-pollination"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how these devices collectively",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between protandry and protogyny",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "describe the genetic basis",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "list and explain the four major categories",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Outbreeding devices' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps the examples or defines dichogamy as spatial separation reveals confusion between dichogamy and herkogamy.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list and explain the four major categories of outbreeding devices with at least one plant example",
     "id": "gen_c12_bio_ch02_q8",
     "nodeId": "c12_bio_cbse_02_008",
     "difficulty": "standard",
@@ -1102,16 +1248,47 @@ export const C12_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the ploidy of the primary endosperm nucleus and how is it formed?",
-    "answer": "The primary endosperm nucleus is triploid (3n), formed by the fusion of one male gamete with the two haploid polar nuclei (triple fusion)",
-    "options": [
-     "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n)",
-     "The three main parts are stigma, style, and ovary. The stigma is the receptive surface for pollen grains; it secretes a sugary fluid that stimulates pollen germination",
-     "The primary endosperm nucleus is triploid (3n), formed by the fusion of one male gamete with the two haploid polar nuclei (triple fusion)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how the ovule transforms into a seed",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "trace the stages of embryo development",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "describe the three types of endosperm",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Post-fertilization events in' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., diploid or haploid) reveals confusion between syngamy (2n zygote) and triple fusion, or ignorance that polar nuclei are haploid.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) describe the three types of endosperm development (nuclear, cellular, helobial) with examples, (2)",
     "id": "gen_c12_bio_ch02_q11",
     "nodeId": "c12_bio_cbse_02_010",
     "difficulty": "standard",
@@ -1127,8 +1304,8 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "What are the three structures that develop from the ovule after fertilization, and which precursor gives rise to each?",
     "answer": "The embryo develops from the zygote, the endosperm develops from the primary endosperm nucleus (triple fusion product)",
     "options": [
-     "Epidermis (diploid, 2n) → Endothecium (diploid, 2n) → Middle layers (1–3 layers, diploid, 2n) → Tapetum (diploid, 2n, but often becomes binucleate or polyploid)",
-     "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n)",
+     "The student can trace the step-by-step transformation of a fertilized ovule into a mature seed (embryo, endosperm, seed coat)",
+     "The student can (1) list the three major abiotic/biotic agents with their technical terms (anemophily, hydrophily, entomophily)",
      "The embryo develops from the zygote, the endosperm develops from the primary endosperm nucleus (triple fusion product)"
     ],
     "hint": "Straight from the 'Seed development' slide -- match the key terms.",
@@ -1197,6 +1374,52 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe at least four floral adaptations",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain why a given flower’s structure",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "list the three major abiotic/biotic agents",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list the three major abiotic/biotic agents with their technical terms (anemophily, hydrophily,",
+    "id": "gen_c12_bio_ch02_q14",
+    "nodeId": "c12_bio_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Compare and contrast the roles of the yolk sac and the allantois in early human embryonic development. Why is the human yolk sac non-nutritive despite being well-developed?",
     "sortItems": [
      {
@@ -1237,7 +1460,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that assigns a nutritive function to the human yolk sac confuses human development with avian and reptilian models.",
-    "id": "gen_c12_bio_ch02_q14",
+    "id": "gen_c12_bio_ch02_q15",
     "nodeId": "c12_bio_cbse_03_008",
     "difficulty": "standard"
    },
@@ -1250,9 +1473,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "Brassicaceae has tetradynamous stamens (2+4) and a syncarpous bicarpellary ovary with parietal placentation",
      "It is an incomplete flower (missing one or more whorls) but a bisexual flower (has both male and female reproductive organs)"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the specialized' slide -- match the key terms.",
     "misconception": "A student who says \"it is incomplete therefore unisexual\" conflates morphological completeness with sexual condition — a common error because both terms describe \"what is present\" but at different organizational levels.",
-    "id": "gen_c12_bio_ch02_q15",
+    "id": "gen_c12_bio_ch02_q16",
     "nodeId": "c12_bio_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1265,9 +1488,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "Microsporogenesis: one microspore mother cell → 4 functional microspores (all survive). Megasporogenesis: one megaspore mother cell → 4 megaspores, but 3 degenerate",
      "Brassicaceae has tetradynamous stamens (2+4) and a syncarpous bicarpellary ovary with parietal placentation"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the specialized' slide -- match the key terms.",
     "misconception": "A student who only notes \"different numbers\" misses the functional morphology linking androecium cohesion to pollination mechanism — a NEET-level application.",
-    "id": "gen_c12_bio_ch02_q16",
+    "id": "gen_c12_bio_ch02_q17",
     "nodeId": "c12_bio_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1280,23 +1503,8 @@ export const C12_BIO_GEN: SimDef[] = [
      "Control: flowers bagged before anthesis, hand-pollinated with viable pollen. Treatment: flowers bagged, no pollination (or pollinated with dead pollen)",
      "Expected answer: Step 1: Pick a fresh flower. Step 2: Make a longitudinal section through the thalamus"
     ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
+    "hint": "Straight from the 'flower is the specialized' slide -- match the key terms.",
     "misconception": "A poor answer that only describes \"ovary position\" without the sectioning step shows lack of practical anatomical skill — a common gap in lab-based board questions.",
-    "id": "gen_c12_bio_ch02_q17",
-    "nodeId": "c12_bio_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement: \"In a zygomorphic flower, the calyx is always bilabiate and the corolla is always papilionaceous.\" Is it correct? If not, correct it with a counterexample.",
-    "answer": "The statement is false. Zygomorphy means the flower can be divided into two equal halves only in one vertical plane",
-    "options": [
-     "The tapetum becomes multinucleate (via endomitosis) to increase metabolic capacity for synthesizing enzymes, nutrients, and sporopollenin",
-     "The micropyle is a small opening in the integuments that allows the pollen tube to enter the ovule and deliver male gametes to the embryo sac",
-     "The statement is false. Zygomorphy means the flower can be divided into two equal halves only in one vertical plane"
-    ],
-    "hint": "Straight from the 'flower' slide -- match the key terms.",
-    "misconception": "A student who agrees reveals overgeneralization from textbook examples without understanding the definition of zygomorphy.",
     "id": "gen_c12_bio_ch02_q18",
     "nodeId": "c12_bio_cbse_02_001",
     "difficulty": "standard"
@@ -1304,11 +1512,11 @@ export const C12_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about flower?",
+    "What surprised you about flower is the specialized reproductive shoot of an a?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Flower mastered! 🎯",
+  "successLine": "Flower Is The Specialized mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1777,13 +1985,13 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Translation",
+    "title": "Translation Is The Biological Process Where",
     "text": "Translation is the biological process where the genetic information encoded in messenger RNA (mRNA) is decoded by ribosomes to synthesize a specific polypeptide chain, using transfer RNA (tRNA) molecules as adaptors that match codons on mRNA with their",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Human Genome Project Was",
+    "title": "Human Genome Project",
     "text": "The Human Genome Project (HGP) was an international scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA and identifying and mapping all human genes from both a",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2003,7 +2211,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem",
      "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response"
     ],
-    "hint": "Straight from the 'Translation' slide -- match the key terms.",
+    "hint": "Straight from the 'Translation is the biological' slide -- match the key terms.",
     "misconception": "A wrong answer saying both decrease, or that global synthesis and HSP70 both increase, misses the dual role of eIF2 alpha phosphorylation in global suppression and selective activation.",
     "id": "gen_c12_bio_ch06_q5",
     "nodeId": "c12_bio_cbse_06_007",
@@ -2018,7 +2226,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family",
      "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem"
     ],
-    "hint": "Straight from the 'Human Genome Project  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Human Genome Project' slide -- match the key terms.",
     "misconception": "A wrong answer claiming BAC was faster, or that shotgun cannot handle large genomes at all, misses that this was an accuracy-versus-speed choice.",
     "id": "gen_c12_bio_ch06_q6",
     "nodeId": "c12_bio_cbse_06_009",
@@ -2036,14 +2244,14 @@ export const C12_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_bio_ch07",
-  "title": "The Oparin-Haldane Theory Proposes That",
+  "title": "The Oparin-Haldane Theory Proposes That Life",
   "subtitle": "Biology · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biology",
-  "topic": "The Oparin-Haldane Theory Proposes That",
+  "topic": "The Oparin-Haldane Theory Proposes That Life",
   "chapters": [
-   "Biology Ch7: The Oparin-Haldane Theory Proposes That"
+   "Biology Ch7: The Oparin-Haldane Theory Proposes That Life"
   ],
   "nodeIds": [
    "c12_bio_cbse_07_001",
@@ -2071,7 +2279,7 @@ export const C12_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "The Oparin-Haldane Theory Proposes That",
+    "title": "The Oparin-Haldane Theory Proposes That Life",
     "text": "The Oparin-Haldane theory proposes that life originated on early Earth through a gradual process of chemical evolution: simple inorganic molecules (CH₄, NH₃, H₂O, H₂, CO₂) combined under energy sources (UV radiation, lightning, volcanic heat) to form simple",
     "emoji": "🌿",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2089,7 +2297,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speciation",
+    "title": "Speciation Is The Evolutionary Process",
     "text": "Speciation is the evolutionary process by which populations of a single species diverge into two or more distinct species that are reproductively isolated from each other.",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2211,7 +2419,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "The Galápagos Islands offered many empty ecological niches (no competing bird species) and geographic isolation between islands",
      "Polyploidy creates immediate postzygotic isolation because odd-ploidy hybrids (e.g., triploid) fail meiosis due to unpaired chromosomes, producing sterile gametes"
     ],
-    "hint": "Straight from the 'Speciation' slide -- match the key terms.",
+    "hint": "Straight from the 'Speciation is the evolutionary' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"animals don't have chromosomes\") shows a fundamental misunderstanding of chromosome biology and the mechanistic basis of hybrid sterility.",
     "id": "gen_c12_bio_ch07_q4",
     "nodeId": "c12_bio_cbse_07_007",
@@ -2402,7 +2610,7 @@ export const C12_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the oparin-haldane theory proposes that?",
+    "What surprised you about the oparin-haldane theory proposes that life?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -2465,13 +2673,13 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vaccination",
+    "title": "Vaccination Is The Deliberate Administration",
     "text": "Vaccination is the deliberate administration of antigenic material (a vaccine) to stimulate an individual's adaptive immune system to develop active acquired immunity against a specific pathogen, without causing the disease.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Cancer",
+    "title": "Cancer Is a Group Of Diseases",
     "text": "Cancer is a group of diseases characterized by uncontrolled and abnormal cell division resulting from genetic mutations that disrupt normal cell cycle regulation, leading to the formation of malignant tumors (in solid cancers) or abnormal cell proliferation",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2660,7 +2868,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate. Data sources: CoWIN/UIDAI vaccination registers, PHC/CHC case reports (IDSP)",
      "Hereditary: Germline mutation in one RB1 allele (first hit) present in all cells → only one somatic second hit needed → early onset (infancy), often bilateral/multifocal"
     ],
-    "hint": "Straight from the 'Cancer' slide -- match the key terms.",
+    "hint": "Straight from the 'Cancer is a group of diseases' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"hereditary means both hits inherited\") shows failure to grasp Knudson's two-hit model: the first hit is inherited, the second is somatic.",
     "id": "gen_c12_bio_ch08_q5",
     "nodeId": "c12_bio_cbse_08_007",
@@ -2748,7 +2956,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Good answer must include: (1) Typhoid: Provide chlorinated piped water / promote boiling water / build toilets with safe sewage disposal (faecal-oral route)",
      "Yes, MMR (live attenuated) can be given at any age >9 months; the immune system is fully competent by 10 years"
     ],
-    "hint": "Straight from the 'Vaccination' slide -- match the key terms.",
+    "hint": "Straight from the 'Vaccination is the deliberate' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"too late, immunity window closed\") reveals misunderstanding that adaptive immunity has no upper age limit for primary vaccination — only lower limit (maternal antibody interference <9 months).",
     "id": "gen_c12_bio_ch08_q8",
     "nodeId": "c12_bio_cbse_08_005",
@@ -2763,7 +2971,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Good answer must include: (1) Typhoid: Provide chlorinated piped water / promote boiling water / build toilets with safe sewage disposal (faecal-oral route)",
      "Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate. Data sources: CoWIN/UIDAI vaccination registers, PHC/CHC case reports (IDSP)"
     ],
-    "hint": "Straight from the 'Vaccination' slide -- match the key terms.",
+    "hint": "Straight from the 'Vaccination is the deliberate' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate.",
     "id": "gen_c12_bio_ch08_q9",
     "nodeId": "c12_bio_cbse_08_005",
@@ -2778,7 +2986,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "The critical step is histopathological confirmation via biopsy (core needle or excisional). Treatment cannot begin without microscopic proof of malignancy because: (1) clinical",
      "BCG = live attenuated (Mycobacterium bovis strain); OPV = live attenuated (Sabin strains); Hepatitis B = recombinant subunit (HBsAg produced in yeast)"
     ],
-    "hint": "Straight from the 'Vaccination' slide -- match the key terms.",
+    "hint": "Straight from the 'Vaccination is the deliberate' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling hepatitis B \"live attenuated\") reveals confusion between whole-organism and subunit strategies, and ignorance of recombinant DNA technology in vaccines.",
     "id": "gen_c12_bio_ch08_q10",
     "nodeId": "c12_bio_cbse_08_005",
@@ -2821,7 +3029,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Typhoid, Pneumonia, And The mastered! 🎯",
+  "successLine": "Typhoid, Pneumonia, mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2888,7 +3096,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Apiculture",
+    "title": "Bee-Keeping (Apiculture): Honey Production",
     "text": "Apiculture is the scientific management of honey bee colonies (primarily *Apis mellifera*, *Apis cerana indica*, *Apis dorsata*, *Apis florea*) in artificial hives for the commercial production of honey, beeswax, propolis, royal jelly, and bee venom, while",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3286,8 +3494,8 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Define Single Cell Protein (SCP) and name any two microorganisms commonly used for its commercial production.",
     "answer": "Single Cell Protein (SCP) is the dried microbial biomass used as a protein supplement. Common production organisms: *Spirulina* (cyanobacterium/blue-green algae)",
     "options": [
-     "The four species are *Apis dorsata* (rock bee), *Apis florea* (little bee), *Apis cerana indica* (Indian hive bee), and *Apis mellifera* (European/Italian bee)",
-     "Correct: Catla catla (surface feeder, zooplankton), Labeo rohita (column feeder, omnivorous), Cirrhinus mrigala (bottom feeder, detritus/algae)",
+     "Misconception: \"Superovulation means giving FSH to make the cow ovulate more eggs — the more FSH, the more embryos",
+     "Student can: (1) Explain the step-by-step protocol of AI and superovulation with correct hormonal sequence and timing",
      "Single Cell Protein (SCP) is the dried microbial biomass used as a protein supplement. Common production organisms: *Spirulina* (cyanobacterium/blue-green algae)"
     ],
     "hint": "Straight from the 'Single Cell Protein' slide -- match the key terms.",
@@ -3303,6 +3511,109 @@ export const C12_BIO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Identify the critical control points where",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Explain the step-by-step protocol of AI",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Justify why AI and superovulation together",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Explain the step-by-step protocol of AI and superovulation with correct hormonal sequence and timing,",
+    "id": "gen_c12_bio_ch09_q9",
+    "nodeId": "c12_bio_cbse_09_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "differentiate between capture and culture",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate the ecological and economic",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "explain the principle of composite fish",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "describe the steps of induced breeding",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) differentiate between capture and culture fisheries with Indian examples, (2) explain the principle",
+    "id": "gen_c12_bio_ch09_q10",
+    "nodeId": "c12_bio_cbse_09_006",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Design a simple monthly health‑monitoring checklist for a small goat farm (20 does) that a farmer with basic literacy can use. Include at least five observable parameters and the action triggered by an abnormal finding.",
     "answer": "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus",
@@ -3313,7 +3624,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Animal husbandry' slide -- match the key terms.",
     "misconception": "A poor answer lists vague items like “check health” without measurable indicators or linked actions.",
-    "id": "gen_c12_bio_ch09_q9",
+    "id": "gen_c12_bio_ch09_q11",
     "nodeId": "c12_bio_cbse_09_001",
     "difficulty": "standard"
    },
@@ -3328,7 +3639,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Animal husbandry' slide -- match the key terms.",
     "misconception": "A student who agrees overlooks the environmental resilience of pathogens and the specific protective mechanisms of vaccines/anthelmintics.",
-    "id": "gen_c12_bio_ch09_q10",
+    "id": "gen_c12_bio_ch09_q12",
     "nodeId": "c12_bio_cbse_09_001",
     "difficulty": "standard"
    },
@@ -3343,7 +3654,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dairy farm management' slide -- match the key terms.",
     "misconception": "A WRONG answer choosing A for \"higher energy\" ignores that SARA reduces DMI and milk fat % — net energy for milk may actually be lower despite higher concentrate.",
-    "id": "gen_c12_bio_ch09_q11",
+    "id": "gen_c12_bio_ch09_q13",
     "nodeId": "c12_bio_cbse_09_002",
     "difficulty": "advanced"
    },
@@ -3358,7 +3669,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dairy farm management' slide -- match the key terms.",
     "misconception": "A poor answer lists steps without linking to bacterial growth kinetics or udder physiology.",
-    "id": "gen_c12_bio_ch09_q12",
+    "id": "gen_c12_bio_ch09_q14",
     "nodeId": "c12_bio_cbse_09_002",
     "difficulty": "advanced"
    },
@@ -3373,7 +3684,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Dairy farm management' slide -- match the key terms.",
     "misconception": "A WRONG answer focusing only on \"cleaning teats\" misses the neuroendocrine mechanism — students often confuse hygiene with physiology of milk let-down.",
-    "id": "gen_c12_bio_ch09_q13",
+    "id": "gen_c12_bio_ch09_q15",
     "nodeId": "c12_bio_cbse_09_002",
     "difficulty": "advanced"
    },
@@ -3388,7 +3699,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Poultry farm management' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"FCR worsens because pellets are expensive\") confuses economic cost with biological efficiency; pellets cost more per tonne but improve FCR, lowering feed cost per dozen eggs.",
-    "id": "gen_c12_bio_ch09_q14",
+    "id": "gen_c12_bio_ch09_q16",
     "nodeId": "c12_bio_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -3403,7 +3714,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Poultry farm management' slide -- match the key terms.",
     "misconception": "A poor answer listing only \"vaccination and cleaning\" misses the layered defense concept (structural + operational + emergency) and fails to address specific AI transmission routes (wild birds, fomites, aerosols).",
-    "id": "gen_c12_bio_ch09_q15",
+    "id": "gen_c12_bio_ch09_q17",
     "nodeId": "c12_bio_cbse_09_003",
     "difficulty": "advanced"
    },
@@ -3418,38 +3729,8 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Poultry farm management' slide -- match the key terms.",
     "misconception": "A wrong answer supporting AGPs shows ignorance of regulatory changes, AMR crisis, and modern gut health management — critical for NEET biology (human health) and competitive exams.",
-    "id": "gen_c12_bio_ch09_q16",
-    "nodeId": "c12_bio_cbse_09_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A farmer superovulates a donor cow with FSH (total 20 mg over 4 days, twice daily). On Day 4, he administers PGF2α. When should he inseminate, and how many times? Explain the physiological basis.",
-    "answer": "Insemination schedule: First AI at 12 hours after observed standing heat (estrus onset), second AI at 24 hours (i",
-    "options": [
-     "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus",
-     "(a) FCR improves (decreases) because pellets reduce selective feeding — birds consume balanced nutrition in every bite",
-     "Insemination schedule: First AI at 12 hours after observed standing heat (estrus onset), second AI at 24 hours (i"
-    ],
-    "hint": "Straight from the 'Artificial Insemination' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Single AI timing error (e.g., \"at heat onset\" or \"24 hours after PGF2α\") shows ignorance of follicular asynchrony.",
-    "id": "gen_c12_bio_ch09_q17",
-    "nodeId": "c12_bio_cbse_09_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the genetic gain per year achievable by (a) natural mating of one elite bull to 40 cows, (b) AI using the same bull on 10,000 cows, (c) MOET from one elite cow producing 6 transferable embryos transferred to surrogates.",
-    "answer": "Genetic gain per year (ΔG/yr) = (Selection intensity × Accuracy × Genetic SD) / Generation Interval",
-    "options": [
-     "Bacterial SCP on methanol requires ~0.01% of the land and ~1% of the water needed for soybean per tonne of protein",
-     "(a) Direct organogenesis (axillary bud break or adventitious shoots from meristematic zones without callus) maintains high genetic fidelity because cell divisions are mitotic and",
-     "Genetic gain per year (ΔG/yr) = (Selection intensity × Accuracy × Genetic SD) / Generation Interval"
-    ],
-    "hint": "Straight from the 'Artificial Insemination' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: If student says \"AI gives more calves so more gain\" without invoking selection intensity formula, they miss the quantitative genetics core (Falconer's equation).",
     "id": "gen_c12_bio_ch09_q18",
-    "nodeId": "c12_bio_cbse_09_004",
+    "nodeId": "c12_bio_cbse_09_003",
     "difficulty": "advanced"
    }
   ],
@@ -3471,7 +3752,9 @@ export const C12_BIO_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "biology",
   "topic": "Microbes In Household Products",
-  "chapters": ["Biology Ch10: Microbes In Household Products"],
+  "chapters": [
+   "Biology Ch10: Microbes In Household Products"
+  ],
   "nodeIds": [
    "c12_bio_cbse_10_001",
    "c12_bio_cbse_10_002",
@@ -3505,7 +3788,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Antibiotics",
+    "title": "Antibiotics Are Chemical Substances",
     "text": "Antibiotics are chemical substances produced by microorganisms (bacteria, fungi, actinomycetes) that inhibit or kill other microorganisms at low concentrations; industrial enzymes are proteins secreted by microbes (e.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3529,7 +3812,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Biofertilizers",
+    "title": "Biofertilizers Are Microorganisms",
     "text": "Biofertilizers are microorganisms (bacteria, cyanobacteria, fungi) that enhance soil fertility by fixing atmospheric nitrogen into ammonia, solubilizing phosphorus, or decomposing organic matter to release nutrients.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3614,7 +3897,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Similarities: (1) Both host hydrolytic, acidogenic, acetogenic, and methanogenic guilds in syntrophy",
      "Penicillin inhibits transpeptidase (penicillin-binding proteins) blocking peptidoglycan cross-linking → cell lysis (bactericidal, mainly Gram-positive)"
     ],
-    "hint": "Straight from the 'Antibiotics' slide -- match the key terms.",
+    "hint": "Straight from the 'Antibiotics are chemical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Penicillin inhibits transpeptidase (penicillin-binding proteins) blocking peptidoglycan cross-linking → cell lysis",
     "id": "gen_c12_bio_ch10_q2",
     "nodeId": "c12_bio_cbse_10_002",
@@ -3875,7 +4158,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2) Uninoculated control",
      "(1) Low pH (5.2) inhibits *Rhizobium* survival and nod gene expression — most rhizobia prefer pH 6"
     ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
+    "hint": "Straight from the 'Biofertilizers are microorganisms' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only \"poor quality inoculant\" misses the agronomic management errors that are equally critical in competitive exams.",
     "id": "gen_c12_bio_ch10_q13",
     "nodeId": "c12_bio_cbse_10_007",
@@ -3890,7 +4173,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Destabilize. Urea hydrolyzes to NH₃/NH₄⁺, raising pH above 8.0. Free ammonia (NH₃) diffuses into methanogen cells, uncouples proton motive force",
      "Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2) Uninoculated control"
     ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
+    "hint": "Straight from the 'Biofertilizers are microorganisms' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2)",
     "id": "gen_c12_bio_ch10_q14",
     "nodeId": "c12_bio_cbse_10_007",
@@ -3905,7 +4188,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "The starter provides a high initial population of *Lactobacillus* that rapidly outcompetes spoilage microbes and drops pH to ~4",
      "Flaw: BGA require standing water for growth and dispersal — they are effective ONLY in flooded rice paddies, not in upland crops (wheat, pulses, oilseeds)"
     ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
+    "hint": "Straight from the 'Biofertilizers are microorganisms' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement ignores the ecological requirement (water) and overgeneralizes — a classic board exam trap where \"nitrogen-fixing\" is equated with \"universally applicable.\"",
     "id": "gen_c12_bio_ch10_q15",
     "nodeId": "c12_bio_cbse_10_007",
@@ -3920,7 +4203,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "Flaw: BGA require standing water for growth and dispersal — they are effective ONLY in flooded rice paddies, not in upland crops (wheat, pulses, oilseeds)",
      "Host specificity is determined by flavonoid signals from legume roots that activate *nod* genes in compatible *Rhizobium* strains"
     ],
-    "hint": "Straight from the 'Biofertilizers' slide -- match the key terms.",
+    "hint": "Straight from the 'Biofertilizers are microorganisms' slide -- match the key terms.",
     "misconception": "A wrong answer (\"Rhizobium cannot infect cereals because cereals don't have nodules\") is circular reasoning — it confuses the result (no nodules) with the cause (missing molecular dialogue).",
     "id": "gen_c12_bio_ch10_q16",
     "nodeId": "c12_bio_cbse_10_007",
@@ -3959,7 +4242,7 @@ export const C12_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about microbes in household products refer to?",
+    "What surprised you about microbes in household products?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -3969,14 +4252,14 @@ export const C12_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_bio_ch11",
-  "title": "Biotechnology",
+  "title": "Biotechnology Is The Broad Area",
   "subtitle": "Biology · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Biotechnology",
+  "topic": "Biotechnology Is The Broad Area",
   "chapters": [
-   "Biology Ch11: Biotechnology"
+   "Biology Ch11: Biotechnology Is The Broad Area"
   ],
   "nodeIds": [
    "c12_bio_cbse_11_001",
@@ -3995,7 +4278,7 @@ export const C12_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Biotechnology outside the classroom?",
+   "question": "Quick guess -- where do you meet Biotechnology Is The Broad Area outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4006,7 +4289,7 @@ export const C12_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Biotechnology",
+    "title": "Biotechnology Is The Broad Area",
     "text": "Biotechnology is the broad area of biology involving the use of living organisms or their components (such as enzymes, cells, or genetic material) to develop or modify products, improve plants or animals, or engineer microorganisms for specific uses.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4024,7 +4307,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vector",
+    "title": "A Vector Is a DNA Molecule",
     "text": "A vector is a DNA molecule used as a vehicle to artificially carry foreign genetic material into a host cell, where it can replicate and/or express.",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4042,7 +4325,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Bioreactor",
+    "title": "Bioreactor Is a Large",
     "text": "A bioreactor is a large, sterile vessel designed to provide a controlled environment (temperature, pH, dissolved oxygen, nutrient supply, agitation) for the large-scale cultivation of recombinant host cells (bacteria, yeast, mammalian or plant cells) to",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4060,11 +4343,11 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Define biotechnology as per the NCERT Class 12 textbook. How does it differ from the conventional definition that only mentions fermentation?",
     "answer": "Biotechnology is defined as \"the integration of natural sciences and organisms, cells, parts thereof, and molecular analogues for products and services\" (NCERT)",
     "options": [
-     "Cold CaCl₂ neutralizes the negative charges on both the bacterial cell membrane (phospholipid head groups) and the DNA phosphate backbone, reducing electrostatic repulsion",
-     "(1) Denaturation: 94–98°C — hydrogen bonds between complementary strands break, yielding single-stranded DNA templates",
+     "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence",
+     "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4)",
      "Biotechnology is defined as \"the integration of natural sciences and organisms, cells, parts thereof, and molecular analogues for products and services\" (NCERT)"
     ],
-    "hint": "Straight from the 'Biotechnology' slide -- match the key terms.",
+    "hint": "Straight from the 'Biotechnology is the broad area' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student only mentions fermentation or \"using microbes to make products\", they are relying on the outdated Class 11 traditional biotechnology definition (c11_biotech_cbse_01_003) and have not updated to the broader modern scope that includes direct DNA manipulation.",
     "id": "gen_c12_bio_ch11_q1",
     "nodeId": "c12_bio_cbse_11_001",
@@ -4081,8 +4364,8 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Name the type of restriction enzyme most widely used in recombinant DNA technology and state its defining characteristic regarding cleavage position relative to the recognition site.",
     "answer": "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence",
     "options": [
+     "Downstream processing is the sequence of unit operations used to isolate, purify, and concentrate a target bioproduct (recombinant protein, antibiotic, enzyme",
      "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4)",
-     "(1) Denaturation: 94–98°C — hydrogen bonds between complementary strands break, yielding single-stranded DNA templates",
      "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence"
     ],
     "hint": "Straight from the 'Restriction enzymes' slide -- match the key terms.",
@@ -4191,7 +4474,7 @@ export const C12_BIO_GEN: SimDef[] = [
      "1. Genetic Engineering principle: Isolate the human growth hormone gene, insert it into a plasmid vector using restriction enzymes and ligase",
      "λ bacteriophage vector, because plasmids typically accept inserts up to ~10 kb, while λ phage vectors can accommodate 12–20 kb inserts"
     ],
-    "hint": "Straight from the 'vector' slide -- match the key terms.",
+    "hint": "Straight from the 'A vector is a DNA molecule' slide -- match the key terms.",
     "misconception": "A wrong answer indicates lack of knowledge about insert size limits.",
     "id": "gen_c12_bio_ch11_q4",
     "nodeId": "c12_bio_cbse_11_004",
@@ -4208,8 +4491,8 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "What is the primary role of cold calcium chloride (CaCl₂) treatment in making *E. coli* competent for transformation?",
     "answer": "Cold CaCl₂ neutralizes the negative charges on both the bacterial cell membrane (phospholipid head groups) and the DNA phosphate backbone, reducing electrostatic repulsion",
     "options": [
-     "The four essential parameters are temperature, pH, dissolved oxygen (DO), and foam level",
-     "Correct sequence: (1) Solid–liquid separation — e.g., disc-stack centrifugation; (2) Cell disruption — e",
+     "The student can define biotechnology in their own words using the NCERT phrasing, distinguish between traditional and modern biotechnology with examples",
+     "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence",
      "Cold CaCl₂ neutralizes the negative charges on both the bacterial cell membrane (phospholipid head groups) and the DNA phosphate backbone, reducing electrostatic repulsion"
     ],
     "hint": "Straight from the 'competent host' slide -- match the key terms.",
@@ -4277,16 +4560,47 @@ export const C12_BIO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the four essential process parameters that are continuously monitored and controlled in a standard stirred‑tank bioreactor for bacterial protein production.",
-    "answer": "The four essential parameters are temperature, pH, dissolved oxygen (DO), and foam level",
-    "options": [
-     "Correct sequence: (1) Solid–liquid separation — e.g., disc-stack centrifugation; (2) Cell disruption — e",
-     "Cold CaCl₂ neutralizes the negative charges on both the bacterial cell membrane (phospholipid head groups) and the DNA phosphate backbone, reducing electrostatic repulsion",
-     "The four essential parameters are temperature, pH, dissolved oxygen (DO), and foam level"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "label and explain the function of each major",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "compare stirred-tank and air-lift",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "describe the key scale-up challenges",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'bioreactor' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., listing “nutrient concentration” or “cell density” as continuously controlled) reveals that the student confuses parameters that are *monitored online* (via probes) with those that are *fed intermittently* (nutrients) or *measured offline* (cell density).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) label and explain the function of each major component of a stirred-tank bioreactor (agitator,",
     "id": "gen_c12_bio_ch11_q7",
     "nodeId": "c12_bio_cbse_11_007",
     "difficulty": "advanced",
@@ -4452,6 +4766,52 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the biochemical principle of each",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "design a PCR strategy",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "calculate the theoretical amplification",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain the biochemical principle of each PCR step (denaturation, annealing, extension) with",
+    "id": "gen_c12_bio_ch11_q10",
+    "nodeId": "c12_bio_cbse_11_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Compare the separation mechanisms and predict the elution order for a mixture containing: Protein A (45 kDa, pI 9.0), Protein B (45 kDa, pI 5.0), Protein C (150 kDa, pI 5.0) when run on (i) cation-exchange at pH 7.0, (ii) size-exclusion chromatography (SEC), (iii) anion-exchange at pH 7.0.",
     "sortItems": [
      {
@@ -4492,7 +4852,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who says \"SEC separates by molecular weight\" without mentioning hydrodynamic radius/shape misses why a compact 45 kDa and an elongated 45 kDa might split.",
-    "id": "gen_c12_bio_ch11_q10",
+    "id": "gen_c12_bio_ch11_q11",
     "nodeId": "c12_bio_cbse_11_008",
     "difficulty": "advanced"
    },
@@ -4560,7 +4920,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer proposes standard precipitation without exploiting thermostability — missing the bioprocess engineer's mindset of \"use the product's unique property to simplify.\"",
-    "id": "gen_c12_bio_ch11_q11",
+    "id": "gen_c12_bio_ch11_q12",
     "nodeId": "c12_bio_cbse_11_008",
     "difficulty": "advanced"
    },
@@ -4606,7 +4966,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who suggests filtration first fails on throughput; who suggests sonication fails on scale; who skips precipitation goes to chromatography with 500 L of dilute lysate — prohibitive resin cost and pressure.",
-    "id": "gen_c12_bio_ch11_q12",
+    "id": "gen_c12_bio_ch11_q13",
     "nodeId": "c12_bio_cbse_11_008",
     "difficulty": "advanced"
    },
@@ -4619,9 +4979,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "White colonies indicate successful insertional inactivation of *lacZα* (recombinant plasmids). However",
      "1. Genetic Engineering principle: Isolate the human growth hormone gene, insert it into a plasmid vector using restriction enzymes and ligase"
     ],
-    "hint": "Straight from the 'Biotechnology' slide -- match the key terms.",
+    "hint": "Straight from the 'Biotechnology is the broad area' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student only lists steps like \"cut DNA\" and \"grow bacteria\" without naming the principles, they are memorising procedures without understanding the conceptual framework.",
-    "id": "gen_c12_bio_ch11_q13",
+    "id": "gen_c12_bio_ch11_q14",
     "nodeId": "c12_bio_cbse_11_001",
     "difficulty": "standard"
    },
@@ -4634,9 +4994,39 @@ export const C12_BIO_GEN: SimDef[] = [
      "The genetic code is nearly universal — the same codons specify the same amino acids across almost all organisms",
      "The statement is incorrect. Reason 1: Bioprocess engineering involves complex optimization of physical parameters (temperature, pH, dissolved oxygen, nutrient feeding"
     ],
-    "hint": "Straight from the 'Biotechnology' slide -- match the key terms.",
+    "hint": "Straight from the 'Biotechnology is the broad area' slide -- match the key terms.",
     "misconception": "This misconception arises from textbook focus on recombinant DNA steps (c12_bio_cbse_11_003) while treating bioreactors as a black box.",
-    "id": "gen_c12_bio_ch11_q14",
+    "id": "gen_c12_bio_ch11_q15",
+    "nodeId": "c12_bio_cbse_11_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Biotechnology? State the definition given in this lesson.",
+    "answer": "Biotechnology is the broad area of biology involving the use of living organisms or their components (such as enzymes, cells, or genetic material) to develop or modify products",
+    "options": [
+     "Cold CaCl₂ neutralizes the negative charges on both the bacterial cell membrane (phospholipid head groups) and the DNA phosphate backbone, reducing electrostatic repulsion",
+     "The student can explain the stepwise mechanism of CaCl₂-mediated competence development and heat shock transformation",
+     "Biotechnology is the broad area of biology involving the use of living organisms or their components (such as enzymes, cells, or genetic material) to develop or modify products"
+    ],
+    "hint": "Straight from the 'Biotechnology is the broad area' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Biotechnology is the broad area of biology involving the use of living organisms or their components (such as enzymes,",
+    "id": "gen_c12_bio_ch11_q16",
+    "nodeId": "c12_bio_cbse_11_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can define biotechnology in their own words using the NCERT phrasing, distinguish between traditional and modern biotechnology with examples",
+    "options": [
+     "The student can explain the stepwise mechanism of CaCl₂-mediated competence development and heat shock transformation",
+     "(1) Denaturation: 94–98°C — hydrogen bonds between complementary strands break, yielding single-stranded DNA templates",
+     "The student can define biotechnology in their own words using the NCERT phrasing, distinguish between traditional and modern biotechnology with examples"
+    ],
+    "hint": "Straight from the 'Biotechnology is the broad area' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can define biotechnology in their own words using the NCERT phrasing, distinguish between traditional and",
+    "id": "gen_c12_bio_ch11_q17",
     "nodeId": "c12_bio_cbse_11_001",
     "difficulty": "standard"
    },
@@ -4649,65 +5039,20 @@ export const C12_BIO_GEN: SimDef[] = [
      "The sparger ring below the impeller ensures that air bubbles are immediately broken into smaller bubbles by the impeller shear",
      "The genetic code is nearly universal — the same codons specify the same amino acids across almost all organisms"
     ],
-    "hint": "Straight from the 'Biotechnology' slide -- match the key terms.",
+    "hint": "Straight from the 'Biotechnology is the broad area' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student says \"because DNA is the same in all organisms\" or \"because bacteria have the same genes as humans\", they confuse universality of the *code* with similarity of *sequences*.",
-    "id": "gen_c12_bio_ch11_q15",
-    "nodeId": "c12_bio_cbse_11_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A researcher claims: \"Since restriction enzymes cut DNA, they must be used *after* PCR amplification to prepare the insert for cloning.\" Evaluate this statement. Is it always true? Provide a counter-example if false.",
-    "answer": "The statement is not always true. Counter-example: If PCR primers are designed with *restriction sites* at their 5' ends",
-    "options": [
-     "1. Genetic Engineering principle: Isolate the human growth hormone gene, insert it into a plasmid vector using restriction enzymes and ligase",
-     "Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin resistance",
-     "The statement is not always true. Counter-example: If PCR primers are designed with *restriction sites* at their 5' ends"
-    ],
-    "hint": "Straight from the 'Restriction enzymes' slide -- match the key terms.",
-    "misconception": "A student who agrees without qualification reveals a rigid, stepwise view of cloning rather than an integrated design perspective.",
-    "id": "gen_c12_bio_ch11_q16",
-    "nodeId": "c12_bio_cbse_11_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a strategy to clone a human gene (with known sequence) into an E. coli expression vector so that: (a) the gene is inserted in the correct orientation, (b) only recombinant plasmids are selected, and (c) protein expression can be induced. Specify the enzymes, vector features, and host strain needed.",
-    "answer": "Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin resistance",
-    "options": [
-     "Process: (1) Microfiltration (0.2 µm) — cell-free permeate directly (no centrifugation needed for extracellular product)",
-     "1. Genetic Engineering principle: Isolate the human growth hormone gene, insert it into a plasmid vector using restriction enzymes and ligase",
-     "Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin resistance"
-    ],
-    "hint": "Straight from the 'Recombinant DNA Technology' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin",
-    "id": "gen_c12_bio_ch11_q17",
-    "nodeId": "c12_bio_cbse_11_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the correct sequential order of steps in recombinant DNA technology starting from the source organism?",
-    "answer": "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4)",
-    "options": [
-     "The four essential parameters are temperature, pH, dissolved oxygen (DO), and foam level",
-     "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence",
-     "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4)"
-    ],
-    "hint": "Straight from the 'Recombinant DNA Technology' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., ligation before fragmentation, or transformation before ligation) reveals the student does not understand the dependency chain: you cannot ligate uncut DNA, and you cannot transform a vector that hasn't been constructed.",
     "id": "gen_c12_bio_ch11_q18",
-    "nodeId": "c12_bio_cbse_11_003",
+    "nodeId": "c12_bio_cbse_11_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about biotechnology?",
+    "What surprised you about biotechnology is the broad area?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Biotechnology mastered! 🎯",
+  "successLine": "Biotechnology Is The Broad mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5154,6 +5499,52 @@ export const C12_BIO_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify and categorize specific ethical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the role and function of Indian",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate a case study",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) identify and categorize specific ethical concerns (biosafety, bioethics, IPR, socio-economic) for a",
+    "id": "gen_c12_bio_ch12_q9",
+    "nodeId": "c12_bio_cbse_12_007",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A clinician proposes using an AAV vector for *ADA* gene therapy because it has a safer integration profile. Evaluate this proposal for SCID treatment.",
     "answer": "AAV remains episomal and is diluted in dividing HSCs — unsuitable for a disease requiring lifelong correction in a self-renewing compartment",
@@ -5164,7 +5555,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gene therapy for SCID' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: AAV remains episomal and is diluted in dividing HSCs — unsuitable for a disease requiring lifelong correction in a",
-    "id": "gen_c12_bio_ch12_q9",
+    "id": "gen_c12_bio_ch12_q10",
     "nodeId": "c12_bio_cbse_12_003",
     "difficulty": "advanced"
    },
@@ -5179,7 +5570,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gene therapy for SCID' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Gene therapy ≈ HSCT > PEG-ADA. Gene therapy and HSCT provide polyclonal T/B/NK reconstitution with thymic output;",
-    "id": "gen_c12_bio_ch12_q10",
+    "id": "gen_c12_bio_ch12_q11",
     "nodeId": "c12_bio_cbse_12_003",
     "difficulty": "advanced"
    },
@@ -5194,7 +5585,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Gene therapy for SCID' slide -- match the key terms.",
     "misconception": "A poor answer omits integration site analysis — the only direct assay for insertional mutagenesis risk.",
-    "id": "gen_c12_bio_ch12_q11",
+    "id": "gen_c12_bio_ch12_q12",
     "nodeId": "c12_bio_cbse_12_003",
     "difficulty": "advanced"
    },
@@ -5209,7 +5600,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Insulin production using' slide -- match the key terms.",
     "misconception": "A poor answer omits the secretion signal (leading to cytoplasmic inclusion bodies) or suggests chemical cleavage of C-peptide (which is enzymatic in eukaryotes).",
-    "id": "gen_c12_bio_ch12_q12",
+    "id": "gen_c12_bio_ch12_q13",
     "nodeId": "c12_bio_cbse_12_004",
     "difficulty": "standard"
    },
@@ -5224,7 +5615,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"increase annealing temperature only\") treats symptom not root cause; probe-based chemistry is the standard diagnostic fix — tests evaluative reasoning.",
-    "id": "gen_c12_bio_ch12_q13",
+    "id": "gen_c12_bio_ch12_q14",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5239,7 +5630,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"ELISA detects viral RNA\") reveals confusion between antibody-based (ELISA) and nucleic acid-based (PCR) detection targets.",
-    "id": "gen_c12_bio_ch12_q14",
+    "id": "gen_c12_bio_ch12_q15",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5254,7 +5645,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"NS1 mutates\") ignores the antibody-mediated interference specific to secondary heterologous infections — a known competitive exam trap in immunology.",
-    "id": "gen_c12_bio_ch12_q15",
+    "id": "gen_c12_bio_ch12_q16",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5269,7 +5660,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "WRONG answer (e.g., \"both are equally quantitative\") misses that conventional PCR plateaus variably, losing quantification accuracy — a board exam distinction.",
-    "id": "gen_c12_bio_ch12_q16",
+    "id": "gen_c12_bio_ch12_q17",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
    },
@@ -5284,21 +5675,6 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Algorithm: Step 1: HBsAg ELISA (screening — cheap, high throughput).",
-    "id": "gen_c12_bio_ch12_q17",
-    "nodeId": "c12_bio_cbse_12_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why can conventional PCR not directly detect SARS-CoV-2 (an RNA virus) from a nasopharyngeal swab without an additional step? Name that step and the enzyme required.",
-    "answer": "Conventional PCR uses DNA-dependent DNA polymerase (Taq) which only amplifies DNA templates. SARS-CoV-2 has an RNA genome",
-    "options": [
-     "Scientifically sound: GEAC relied on substantial equivalence (nutritional equivalence) and biosafety data (non-target effects, allergenicity) — RCGM recommended approval",
-     "ELISA detects antibodies against HIV (host immune response), not the virus itself. The window period is the time between infection and detectable antibody production",
-     "Conventional PCR uses DNA-dependent DNA polymerase (Taq) which only amplifies DNA templates. SARS-CoV-2 has an RNA genome"
-    ],
-    "hint": "Straight from the 'Molecular diagnosis' slide -- match the key terms.",
-    "misconception": "WRONG answer (e.g., \"Taq polymerase can use RNA\") reveals misunderstanding of polymerase substrate specificity — a classic NEET trap.",
     "id": "gen_c12_bio_ch12_q18",
     "nodeId": "c12_bio_cbse_12_005",
     "difficulty": "standard"
@@ -5356,7 +5732,7 @@ export const C12_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Adaptation",
+    "title": "Adaptation Is a Heritable Trait —",
     "text": "An adaptation is a heritable trait — morphological, physiological, or behavioral — that enhances an organism's ability to survive and reproduce in its specific environment, shaped by natural selection over evolutionary time.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5625,6 +6001,52 @@ export const C12_BIO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify any given adaptation as",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how the adaptation improves fitness",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish adaptation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) classify any given adaptation as morphological, physiological, or behavioral with justification,",
+    "id": "gen_c12_bio_ch13_q6",
+    "nodeId": "c12_bio_cbse_13_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Design a field protocol to estimate the population density of Indian bullfrogs (Hoplobatrachus tigerinus) in a 2-hectare seasonal wetland during monsoon. Specify: (i) method choice with justification, (ii) sampling design (number/size of units), (iii) how you will handle the \"closed population\" assumption, (iv) one",
     "sortItems": [
      {
@@ -5676,7 +6098,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that suggests quadrat sampling for frogs or ignores the closed-population assumption reveals the student cannot match method to organism ecology — a skill tested in NEET practical-based questions.",
-    "id": "gen_c12_bio_ch13_q6",
+    "id": "gen_c12_bio_ch13_q7",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"
    },
@@ -5755,7 +6177,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., \"just watch them\") lacks quantitative traits and longitudinal design; the student doesn't know which measurable life history parameters distinguish the strategies.",
-    "id": "gen_c12_bio_ch13_q7",
+    "id": "gen_c12_bio_ch13_q8",
     "nodeId": "c12_bio_cbse_13_006",
     "difficulty": "advanced"
    },
@@ -5770,7 +6192,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Abiotic factors' slide -- match the key terms.",
     "misconception": "A wrong answer like \"rice flowers first because it's a kharif crop\" confuses agricultural practice with photoperiodic physiology. If they say \"both flower at same time,\" they don't understand critical day length as a threshold.",
-    "id": "gen_c12_bio_ch13_q8",
+    "id": "gen_c12_bio_ch13_q9",
     "nodeId": "c12_bio_cbse_13_002",
     "difficulty": "standard"
    },
@@ -5783,9 +6205,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "(a) Physiological — biochemical pathway (fat oxidation yields water). (b) Physiological — kidney structure/function (long loops of Henle) enabling high osmolarity urine",
      "Behavioral adaptation — it is an action/activity pattern (basking, burrowing) that helps thermoregulation without altering body structure or internal biochemistry"
     ],
-    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
     "misconception": "A wrong classification (e.g., \"physiological because it involves temperature\") shows confusion between the *mechanism* (behavior) and the *outcome* (temperature regulation).",
-    "id": "gen_c12_bio_ch13_q9",
+    "id": "gen_c12_bio_ch13_q10",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5798,9 +6220,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "(a) Banyan trees: Quadrat sampling is suitable because trees are sessile (immobile), so quadrats give accurate counts",
      "*Opuntia*: leaves → spines (reduces transpiration), stem → flattened, green, succulent (photosynthesis + water storage), thick cuticle, sunken stomata"
     ],
-    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
     "misconception": "A weak answer lists traits without linking to selective pressure (e.g., \"spines reduce water loss\" without stating *why* — low humidity, high temperature). This tests analytical comparison across environments.",
-    "id": "gen_c12_bio_ch13_q10",
+    "id": "gen_c12_bio_ch13_q11",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5809,13 +6231,13 @@ export const C12_BIO_GEN: SimDef[] = [
     "question": "Define \"adaptation\" in the evolutionary biology sense. How does it differ from \"acclimatization\"?",
     "answer": "Adaptation is a heritable trait that increases fitness in a specific environment, produced by natural selection over generations",
     "options": [
-     "Semelparity: organisms reproduce once in their lifetime and then die. Plant example: Bamboo (e.g., *Melocanna baccifera*) flowers gregariously after 30-50 years, sets seed",
-     "Error: confuses adaptation (genetic, population-level, generational) with acclimatization (individual, reversible)",
+     "The student can (1) classify any given adaptation as morphological, physiological, or behavioral with justification",
+     "Population attributes are statistical characteristics that describe a population's size, structure, and dynamics",
      "Adaptation is a heritable trait that increases fitness in a specific environment, produced by natural selection over generations"
     ],
-    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"adaptation is when an organism changes to suit its environment\") reveals Lamarckian thinking — confusing phenotypic plasticity with genetic change.",
-    "id": "gen_c12_bio_ch13_q11",
+    "id": "gen_c12_bio_ch13_q12",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5828,9 +6250,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "Yes, the calculation is correct: N = (M × C) / R = (80 × 60) / 12 = 400 frogs. However, the estimate assumes: (1) marked and unmarked frogs mix randomly in the population",
      "(i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken stomata vs"
     ],
-    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken",
-    "id": "gen_c12_bio_ch13_q12",
+    "id": "gen_c12_bio_ch13_q13",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5843,9 +6265,9 @@ export const C12_BIO_GEN: SimDef[] = [
      "r-selected species produce many offspring with little parental care, resulting in high early mortality (Type III curve — steep drop in young age classes)",
      "Error: confuses adaptation (genetic, population-level, generational) with acclimatization (individual, reversible)"
     ],
-    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
     "misconception": "A student who agrees reveals the \"need-based evolution\" misconception.",
-    "id": "gen_c12_bio_ch13_q13",
+    "id": "gen_c12_bio_ch13_q14",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5858,9 +6280,24 @@ export const C12_BIO_GEN: SimDef[] = [
      "Wheat (long-day) flowers when day length > critical length (approx. 14 hrs). In April, days lengthen toward summer solstice — wheat flowers",
      "(a) Physiological — biochemical pathway (fat oxidation yields water). (b) Physiological — kidney structure/function (long loops of Henle) enabling high osmolarity urine"
     ],
-    "hint": "Straight from the 'adaptation' slide -- match the key terms.",
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
     "misconception": "A student who labels (a) as \"morphological\" confuses the *source* of water (seeds are structural, but the metabolic pathway is physiological).",
-    "id": "gen_c12_bio_ch13_q14",
+    "id": "gen_c12_bio_ch13_q15",
+    "nodeId": "c12_bio_cbse_13_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) classify any given adaptation as morphological, physiological, or behavioral with justification",
+    "options": [
+     "Population attributes are statistical characteristics that describe a population's size, structure, and dynamics",
+     "Student can calculate population density using appropriate methods (direct count, quadrat, mark-recapture) for given scenarios",
+     "The student can (1) classify any given adaptation as morphological, physiological, or behavioral with justification"
+    ],
+    "hint": "Straight from the 'adaptation is a heritable trait —' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) classify any given adaptation as morphological, physiological, or behavioral with justification,",
+    "id": "gen_c12_bio_ch13_q16",
     "nodeId": "c12_bio_cbse_13_003",
     "difficulty": "standard"
    },
@@ -5875,7 +6312,7 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
     "misconception": "A student who chooses crude rates because \"they are simpler\" reveals they don't understand that crude rates conflate demographic structure with vital rates — a conceptual gap for competitive exams.",
-    "id": "gen_c12_bio_ch13_q15",
+    "id": "gen_c12_bio_ch13_q17",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"
    },
@@ -5890,36 +6327,6 @@ export const C12_BIO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., forgetting to convert m² to hectares, or multiplying by 20 instead of dividing) reveals the student cannot handle unit conversions or misunderstands that quadrat sampling estimates density from a sample, not the whole area.",
-    "id": "gen_c12_bio_ch13_q16",
-    "nodeId": "c12_bio_cbse_13_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A town has a population of 50,000. In one year, 650 live births and 400 deaths are recorded. Calculate the crude birth rate, crude death rate, and the natural increase rate (per 1000 per year).",
-    "answer": "Crude birth rate = (650 / 50,000) × 1000 = 13 per 1000 per year. Crude death rate = (400 / 50,000) × 1000 = 8 per 1000 per year",
-    "options": [
-     "Density = total individuals counted / total area sampled = 150 / (20 × 1 m²) = 7.5 individuals/m². Since 1 hectare = 10,000 m², density per hectare = 7",
-     "Yes, the calculation is correct: N = (M × C) / R = (80 × 60) / 12 = 400 frogs. However, the estimate assumes: (1) marked and unmarked frogs mix randomly in the population",
-     "Crude birth rate = (650 / 50,000) × 1000 = 13 per 1000 per year. Crude death rate = (400 / 50,000) × 1000 = 8 per 1000 per year"
-    ],
-    "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
-    "misconception": "A student who says \"the calculation is wrong\" or ignores migration reveals they think crude rates capture all population change, missing that they only reflect births and deaths — a key distinction for board case-study questions.",
-    "id": "gen_c12_bio_ch13_q17",
-    "nodeId": "c12_bio_cbse_13_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the suitability of quadrat sampling vs. mark-recapture for estimating population density of: (a) banyan trees in a 50-hectare forest, (b) tigers in the same forest. Justify your answer with two reasons for each.",
-    "answer": "(a) Banyan trees: Quadrat sampling is suitable because trees are sessile (immobile), so quadrats give accurate counts",
-    "options": [
-     "*Opuntia*: leaves → spines (reduces transpiration), stem → flattened, green, succulent (photosynthesis + water storage), thick cuticle, sunken stomata",
-     "Annual wheat: allocates most resources to a single massive reproductive event (grain production) after brief vegetative growth; no resources saved for future survival",
-     "(a) Banyan trees: Quadrat sampling is suitable because trees are sessile (immobile), so quadrats give accurate counts"
-    ],
-    "hint": "Straight from the 'Population attributes' slide -- match the key terms.",
-    "misconception": "A student who swaps the methods reveals they don't link method choice to organism mobility and distribution pattern — a frequent board exam error.",
     "id": "gen_c12_bio_ch13_q18",
     "nodeId": "c12_bio_cbse_13_004",
     "difficulty": "standard"

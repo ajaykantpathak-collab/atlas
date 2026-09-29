@@ -44,14 +44,14 @@ const TEACHING_SLIDES = [
     title: 'Welcome to MS Word 2016! 💻',
     text: 'Microsoft Word 2016 is a word processor! It lets you type, change, and keep your writing in a digital file called a document. No more plain paper — use the keyboard and document area!',
     emoji: '📝',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Microsoft Word 2016 is a word processor! It lets you type, change, and keep your writing in a digital file called a document.'
   },
   {
     title: 'The Word Window Interface 🗂️',
     text: 'At the top is the Title Bar showing your document name and window buttons. Below it is the Ribbon, a toolbar full of tabs and commands. The big white space is the Document Area where the blinking cursor sits!',
     emoji: '🖥️',
-    bgColor: 'from-indigo-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'At the top is the Title Bar showing your document name. Below it is the Ribbon toolbar. The big white space is the Document Area where the blinking cursor sits!'
   },
   {
@@ -72,7 +72,7 @@ const TEACHING_SLIDES = [
     title: 'Opening Saved Documents 🔍',
     text: 'Once saved, your file sits on the desktop like a notebook on a study table with a blue W icon. Double-click it anytime to open Word and continue your wonderful writing!',
     emoji: '📖',
-    bgColor: 'from-teal-500 to-cyan-600',
+    bgColor: 'from-teal-500 to-gold-600',
     spoken: 'Once saved, your file sits on the desktop with a blue icon. Double-click it anytime to open Word and continue your wonderful writing!'
   },
 ];
@@ -213,7 +213,7 @@ function TypistTina({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thinkin
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-200"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -513,7 +513,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-300 ${placed ? 'opacity-40' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[10px] font-bold text-gray-800 text-center mt-1">{label}</span>
       </div>
@@ -751,14 +751,14 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
       <TypistTina mood={mascotMood} speaking={mascotSpeech} />
 
       {/* Top Navigation / Header Bar */}
-      <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-10 border-b border-indigo-100">
+      <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-10 border-b border-gold-100">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center text-white shadow-md font-extrabold text-lg">
+          <div className="w-9 h-9 rounded-xl bg-gold-600 flex items-center justify-center text-white shadow-md font-extrabold text-lg">
             W
           </div>
           <div>
             <h1 className="text-sm font-extrabold text-gray-900 leading-none">MS Word 2016 Explorer</h1>
-            <p className="text-[10px] font-medium text-indigo-600">ICSE Class 3 Computer Science</p>
+            <p className="text-[10px] font-medium text-gold-600">ICSE Class 3 Computer Science</p>
           </div>
         </div>
 
@@ -773,7 +773,7 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
                 audioManager.play('tap');
                 setScreen('teaching');
               }}
-              className="px-3 py-1.5 bg-indigo-100 hover:bg-indigo-200 text-indigo-700 text-xs font-bold rounded-xl transition shadow-sm"
+              className="px-3 py-1.5 bg-gold-100 hover:bg-gold-200 text-gold-700 text-xs font-bold rounded-xl transition shadow-sm"
             >
               📖 Review Lessons
             </button>
@@ -783,8 +783,8 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
 
       {/* ─── TEACHING SCREEN ─── */}
       {screen === 'teaching' && (
-        <div className="absolute inset-0 pt-16 pb-6 px-8 flex flex-col items-center justify-center z-10 bg-gradient-to-br from-indigo-900/90 via-blue-900/80 to-indigo-950/90 backdrop-blur-sm">
-          <div className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-indigo-200 flex flex-col items-center">
+        <div className="absolute inset-0 pt-16 pb-6 px-8 flex flex-col items-center justify-center z-10 bg-gradient-to-br from-gold-900/90 via-gold-900/80 to-gold-950/90 backdrop-blur-sm">
+          <div className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-gold-200 flex flex-col items-center">
             <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${TEACHING_SLIDES[slideIdx].bgColor} flex items-center justify-center text-3xl shadow-lg mb-3`}>
               {TEACHING_SLIDES[slideIdx].emoji}
             </div>
@@ -800,7 +800,7 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
               {TEACHING_SLIDES.map((_, i) => (
                 <div
                   key={i}
-                  className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-indigo-600' : 'w-2.5 bg-indigo-200'}`}
+                  className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-600' : 'w-2.5 bg-gold-200'}`}
                 />
               ))}
             </div>
@@ -823,7 +823,7 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
                     audioManager.play('tap');
                     setSlideIdx(prev => prev + 1);
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm rounded-2xl shadow-lg transition transform hover:scale-105"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-700 text-white font-bold text-sm rounded-2xl shadow-lg transition transform hover:scale-105"
                 >
                   Next →
                 </button>
@@ -847,8 +847,8 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
       {screen === 'play' && (
         <div className="absolute inset-0 pt-16 pb-4 px-6 flex flex-col items-center justify-between z-10">
           {/* Question card */}
-          <div className="w-full max-w-2xl bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-indigo-200 mt-2 flex flex-col items-center">
-            <span className="text-[10px] font-extrabold text-indigo-600 uppercase tracking-wider mb-1">
+          <div className="w-full max-w-2xl bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-200 mt-2 flex flex-col items-center">
+            <span className="text-[10px] font-extrabold text-gold-600 uppercase tracking-wider mb-1">
               Challenge {challengeIdx + 1} of {CHALLENGES.length}
             </span>
             <h2 className="text-base font-extrabold text-gray-900 text-center leading-snug">
@@ -905,10 +905,10 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswer(opt)}
-                    className="w-full py-3 px-5 bg-white hover:bg-indigo-50 border-2 border-indigo-200 hover:border-indigo-400 rounded-2xl shadow-md text-sm font-bold text-gray-800 transition flex items-center justify-between"
+                    className="w-full py-3 px-5 bg-white hover:bg-gold-50 border-2 border-gold-200 hover:border-gold-400 rounded-2xl shadow-md text-sm font-bold text-gray-800 transition flex items-center justify-between"
                   >
                     <span>{opt}</span>
-                    <div className="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 text-xs font-bold">
+                    <div className="w-6 h-6 rounded-full bg-gold-100 flex items-center justify-center text-gold-600 text-xs font-bold">
                       {String.fromCharCode(65 + i)}
                     </div>
                   </motion.button>
@@ -918,7 +918,7 @@ export function WindowsWordGame({ width = 720, height = 560, onComplete }: Windo
           </div>
 
           {/* Bottom helper bar */}
-          <div className="w-full max-w-2xl flex justify-between items-center py-2 px-4 bg-white/80 backdrop-blur-md rounded-2xl shadow-md border border-indigo-100">
+          <div className="w-full max-w-2xl flex justify-between items-center py-2 px-4 bg-white/80 backdrop-blur-md rounded-2xl shadow-md border border-gold-100">
             <button
               onClick={() => {
                 audioManager.play('hint');

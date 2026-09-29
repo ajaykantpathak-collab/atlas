@@ -27,7 +27,7 @@ export function C7_MathematicsPerimeterAndAreaSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Perimeter and Area: Same Fence, Different Field</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Perimeter and Area: Same Fence, Different Field</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -109,9 +109,9 @@ export function C7_MathematicsPerimeterAndAreaSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Width W</span>
-            <span className="font-mono font-bold text-sky-300">{Math.round(width * 10) / 10}</span>
+            <span className="font-mono font-bold text-gold-300">{Math.round(width * 10) / 10}</span>
           </label>
-          <input type="range" aria-label="width" min={0.5} max={perimeter / 2 - 0.5} step={0.5} value={width} onChange={(e) => setWidth(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="width" min={0.5} max={perimeter / 2 - 0.5} step={0.5} value={width} onChange={(e) => setWidth(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
       </div>
 
@@ -128,7 +128,7 @@ export function C7_MathematicsPerimeterAndAreaSim() {
         >
           Make it long and thin
         </button>
-        <button onClick={record} className="px-4 py-2 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={record} className="px-4 py-2 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Record this field
         </button>
         <button onClick={() => setHistory([])} className="px-4 py-2 rounded-xl text-sm font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -136,8 +136,8 @@ export function C7_MathematicsPerimeterAndAreaSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Keep the fence at 36. Record the areas at W = 2, 4, 6, 8, 9, 10, 16. Which W wins, and what shape was it?</li>
           <li>A farmer has 40 m of fence for a vegetable bed. Use the sliders to advise him: what width gives the most carrots (area)?</li>

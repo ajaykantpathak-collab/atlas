@@ -11,7 +11,7 @@ export const w_c12_chemistrytransitionmetalstrendssim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Position of d-Block Elements in Periodic Table',
     chapters: [],
     nodeIds: ['c12_chem_cbse_04_001', 'c12_chem_cbse_04_002', 'c12_chem_cbse_04_003', 'c12_chem_cbse_04_004', 'c12_chem_cbse_04_009', 'c12_chem_cbse_04_010', 'c12_chem_cbse_05_007', 'c12_chem_cbse_04_005', 'c12_chem_cbse_04_006', 'c12_chem_cbse_04_007', 'c12_chem_cbse_05_004', 'c12_chem_cbse_05_005', 'c12_chem_cbse_05_006', 'c12_chem_cbse_07_006', 'c12_chem_cbse_05_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Start with a familiar observation: the metallic objects around you — iron nails, copper wires, gold.', goal: 'Master Position of d-Block Elements in Periodic Table.' },
     discovery: {
         question: 'On the modern periodic table, the d-block elements are located in which groups and how many periods (rows) do they span?',
@@ -20,7 +20,7 @@ export const w_c12_chemistrytransitionmetalstrendssim: SimDef = {
         hook: '**Misconception**: "All d-block elements are transition elements, and all transition elements have variable oxidation.',
     },
     teaching: [
-        { title: 'The d-block elements occupy Groups 3–12 of.', text: 'The d-block elements occupy Groups 3–12 of the modern periodic table, where the (n−1)d subshell is progressively filled across four long periods (3d, 4d, 5d, 6d).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The d-block elements occupy Groups 3–12 of.', text: 'The d-block elements occupy Groups 3–12 of the modern periodic table, where the (n−1)d subshell is progressively filled across four long periods (3d, 4d, 5d, 6d).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_04_001', title: 'The d-block elements occupy Groups 3–12.',

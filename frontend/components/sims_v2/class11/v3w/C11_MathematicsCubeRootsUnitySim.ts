@@ -11,7 +11,7 @@ export const w_c11_mathematicscuberootsunitysim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Sum of Special Series: n, n^2, n^3',
     chapters: [],
     nodeIds: ['c11_math_cbse_09_010', 'c11_math_cbse_04_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a school auditorium where chairs are arranged in rows: the first row has 1 chair, second has 2, third.', goal: 'Master Sum of Special Series: n, n^2, n^3.' },
     discovery: {
         question: 'Why is it necessary to prove the base case (usually n=1) before doing the inductive step when proving a summation formula?',
@@ -20,7 +20,7 @@ export const w_c11_mathematicscuberootsunitysim: SimDef = {
         hook: 'Students often incorrectly write the (k+1)th term when moving from P(k) to P(k+1).',
     },
     teaching: [
-        { title: 'The sum of special series refers to.', text: 'The sum of special series refers to closed-form formulas for the summation of the first n natural numbers (Σk), their squares (Σk²), and their cubes (Σk³), where k ranges from 1 to n.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The sum of special series refers to.', text: 'The sum of special series refers to closed-form formulas for the summation of the first n natural numbers (Σk), their squares (Σk²), and their cubes (Σk³), where k ranges from 1 to n.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_09_010', title: 'The sum of special series refers to.',

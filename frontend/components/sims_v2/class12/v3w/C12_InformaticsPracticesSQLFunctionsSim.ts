@@ -11,7 +11,7 @@ export const w_c12_informaticspracticessqlfunctionssim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY',
     chapters: [],
     nodeIds: ['c12_ip_cbse_01_006', 'c12_ip_cbse_01_007', 'c12_ip_cbse_01_010', 'c12_ip_cbse_01_012', 'c12_ip_cbse_02_010', 'c12_ip_cbse_01_001', 'c12_ip_cbse_01_003', 'c12_ip_cbse_01_005', 'c12_ip_cbse_01_009', 'c12_ip_cbse_01_004', 'c12_ip_cbse_02_011', 'c12_ip_cbse_02_004', 'c12_ip_cbse_02_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are the manager of a car showroom and you need to know how many cars each salesperson sold last.', goal: 'Master SQL Aggregate Functions: SUM, AVG, COUNT, MAX, MIN with GROUP BY.' },
     discovery: {
         question: 'A query uses `SELECT COUNT(DISTINCT Model) FROM INVENTORY;`. The table has 8 rows with Model values: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE, LXI, VXI.',
@@ -20,7 +20,7 @@ export const w_c12_informaticspracticessqlfunctionssim: SimDef = {
         hook: 'Students often believe that `WHERE` and `HAVING` are interchangeable filters.',
     },
     teaching: [
-        { title: 'SQL aggregate functions (SUM, AVG, COUNT,.', text: 'SQL aggregate functions (SUM, AVG, COUNT, MAX, MIN) compute a single summary value from a set of rows, and GROUP BY partitions rows into groups sharing identical values in specified columns so that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'SQL aggregate functions (SUM, AVG, COUNT,.', text: 'SQL aggregate functions (SUM, AVG, COUNT, MAX, MIN) compute a single summary value from a set of rows, and GROUP BY partitions rows into groups sharing identical values in specified columns so that.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_ip_cbse_01_006', title: 'SQL aggregate functions (SUM, AVG,.',

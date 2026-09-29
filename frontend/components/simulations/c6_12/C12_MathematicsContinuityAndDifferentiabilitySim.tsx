@@ -60,9 +60,9 @@ export function C12_MathematicsContinuityAndDifferentiabilitySim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700 font-mono">lim</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">lim</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 12 -- Continuity and Differentiability</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Continuity and Differentiability</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Probe the Point: Continuous? Differentiable?</h1>
         </div>
       </div>
@@ -102,7 +102,7 @@ export function C12_MathematicsContinuityAndDifferentiabilitySim() {
               <div className="grid grid-cols-1 gap-1.5">
                 {(Object.keys(FNS) as FnKey[]).map((k) => (
                   <button key={k} onClick={() => setFnKey(k)}
-                    className={`px-3 py-2 rounded-xl text-[11px] font-mono font-bold text-left ${fnKey === k ? 'bg-sky-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
+                    className={`px-3 py-2 rounded-xl text-[11px] font-mono font-bold text-left ${fnKey === k ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
                     {FNS[k].label}
                   </button>
                 ))}
@@ -117,8 +117,8 @@ export function C12_MathematicsContinuityAndDifferentiabilitySim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-sky-300 font-bold">Symmetric difference quotient [f(a+h) - f(a-h)] / 2h</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Symmetric difference quotient [f(a+h) - f(a-h)] / 2h</div>
             {[['h = 0.5', d1], ['h = 0.1', d2], ['h = 0.02', d3], ['h = 0.005', d4]].map(([lbl, d]) => (
               <div key={lbl as string} className="flex justify-between text-slate-400">
                 <span>{lbl as string}</span><span>{Number.isFinite(d as number) ? (d as number).toFixed(4) : '--'}</span>
@@ -137,8 +137,8 @@ export function C12_MathematicsContinuityAndDifferentiabilitySim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. For |x|, compare the h-table at a = 0 versus a = 0.5 -- the first refuses to converge, the second settles at -0.5 or +0.5? Check.</p>
             <p>2. Slide a across x = 1 for the step function and catch the exact instant LHL stops equalling RHL. What is the size of the jump?</p>
           </div>

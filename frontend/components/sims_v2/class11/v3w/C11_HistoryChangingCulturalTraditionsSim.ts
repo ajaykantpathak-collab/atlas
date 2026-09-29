@@ -11,7 +11,7 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'Women and the Family in Renaissance Society',
     chapters: [],
     nodeIds: ['c11_hist_cbse_07_011', 'c11_hist_cbse_01_003', 'c11_hist_cbse_02_008', 'c11_hist_cbse_07_004', 'c11_hist_cbse_02_011', 'c11_hist_cbse_01_011', 'c11_hist_cbse_07_007', 'c11_hist_cbse_05_009', 'c11_hist_cbse_05_010', 'c11_hist_cbse_02_005', 'c11_hist_cbse_07_001', 'c11_hist_cbse_07_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the Uffizi Gallery in Florence and see Bronzino\'s portrait of Eleonora di Toledo.', goal: 'Master Women and the Family in Renaissance Society.' },
     discovery: {
         question: 'Why did humanist educators like Vittorino da Feltre and Juan Luis Vives advocate Latin education for noble girls but explicitly forbid them from studying.',
@@ -20,7 +20,7 @@ export const w_c11_historychangingculturaltraditionssim: SimDef = {
         hook: 'Students believe the Renaissance "liberated" women because a few elite women (Isabella d\'Este, Laura Cereta, Cassandra.',
     },
     teaching: [
-        { title: 'The topic "Women and the Family in.', text: 'The topic "Women and the Family in Renaissance Society" examines the social, legal, and cultural position of women and the structure of family life in Italian city-states (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The topic "Women and the Family in.', text: 'The topic "Women and the Family in Renaissance Society" examines the social, legal, and cultural position of women and the structure of family life in Italian city-states (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_07_011', title: 'The topic "Women and the Family in.',

@@ -11,7 +11,7 @@ export const w_c6_sciencegarbageingarbageoutsim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Respiration in Animals: How Breathing Works',
     chapters: [],
     nodeIds: ['c6_biology_ch09_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed how your chest moves when you take a deep breath after running?', goal: 'Master Respiration in Animals: How Breathing Works.' },
     discovery: {
         question: 'When you inhale, the diaphragm moves downward. What do you think happens to the diaphragm when you exhale?',
@@ -20,7 +20,7 @@ export const w_c6_sciencegarbageingarbageoutsim: SimDef = {
         hook: 'Students often think that the lungs themselves "pull" the air in, similar to a sponge soaking up water.',
     },
     teaching: [
-        { title: 'Breathing is the mechanical action of moving.', text: 'Breathing is the mechanical action of moving air into and out of the lungs to exchange oxygen and carbon dioxide.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Breathing is the mechanical action of moving.', text: 'Breathing is the mechanical action of moving air into and out of the lungs to exchange oxygen and carbon dioxide.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_biology_ch09_004', title: 'Breathing is the mechanical action of.',

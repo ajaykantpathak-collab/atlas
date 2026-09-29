@@ -11,7 +11,7 @@ export const w_c11_computersciencefunctionscallstacksim: SimDef = {
     classLevel: 11, subject: 'computer_science', topic: 'Recursive Functions: Concept and Examples',
     chapters: [],
     nodeIds: ['c11_cs_cbse_08_011', 'c11_cs_cbse_10_002', 'c11_cs_cbse_08_002', 'c11_cs_cbse_08_003', 'c11_cs_cbse_08_004', 'c11_cs_cbse_08_005', 'c11_cs_cbse_08_006', 'c11_cs_cbse_08_007', 'c11_cs_cbse_08_010', 'c11_cs_cbse_10_004', 'c11_cs_cbse_04_011', 'c11_cs_cbse_07_006', 'c11_cs_cbse_10_001', 'c11_cs_cbse_10_003', 'c11_cs_cbse_10_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you need to calculate the factorial of 5 (5!). You know 5! = 5 × 4 × 3 × 2 × 1.', goal: 'Master Recursive Functions: Concept and Examples.' },
     discovery: {
         question: 'Consider the following recursive function: ```python def mystery(n): if n == 0: return 1 else: return n * mystery(n-1) ``` Explain in your own words what this.',
@@ -20,7 +20,7 @@ export const w_c11_computersciencefunctionscallstacksim: SimDef = {
         hook: 'Students often think recursion is just "a function that calls itself" and forget that the recursive call must be on a.',
     },
     teaching: [
-        { title: 'A recursive function is a function that.', text: 'A recursive function is a function that solves a problem by calling itself with a smaller or simpler version of the same problem, continuing until it reaches a base case that can be solved directly.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A recursive function is a function that.', text: 'A recursive function is a function that solves a problem by calling itself with a smaller or simpler version of the same problem, continuing until it reaches a base case that can be solved directly.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_cs_cbse_08_011', title: 'A recursive function is a function that.',

@@ -1220,7 +1220,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
           <motion.div
             animate={{ rotate: [0, 360] }}
             transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-            className="w-10 h-10 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-xl shadow-lg shadow-indigo-500/20"
+            className="w-10 h-10 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1228,7 +1228,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
             </h1>
-            <p className="text-xs text-indigo-400 font-semibold tracking-wide uppercase">
+            <p className="text-xs text-gold-400 font-semibold tracking-wide uppercase">
               ISC Class 11 Physics &bull; 10 Integrated Mechanics Nodes
             </p>
           </div>
@@ -1241,7 +1241,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
               key={p}
               className={`px-3 py-1 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1260,9 +1260,9 @@ function C11_PhysicsConservationMechanicalEnergySim({
           className="my-6 space-y-6"
         >
           {/* Narrative Hero Card */}
-          <div className="p-6 rounded-3xl bg-gradient-to-br from-indigo-950/60 via-slate-900/80 to-purple-950/40 border border-indigo-500/30 relative overflow-hidden shadow-xl">
-            <div className="absolute top-0 right-0 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="px-3 py-1 rounded-full text-xs font-extrabold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 uppercase tracking-widest">
+          <div className="p-6 rounded-3xl bg-gradient-to-br from-gold-950/60 via-slate-900/80 to-purple-950/40 border border-gold-500/30 relative overflow-hidden shadow-xl">
+            <div className="absolute top-0 right-0 w-80 h-80 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="px-3 py-1 rounded-full text-xs font-extrabold bg-gold-500/20 text-gold-300 border border-gold-500/30 uppercase tracking-widest">
               Live Mission Simulation Hook
             </span>
             <h2 className="text-2xl font-black text-white mt-3">{SCENARIO.title}</h2>
@@ -1322,7 +1322,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-2xl shadow-lg shadow-indigo-600/30 flex items-center gap-2 text-sm shrink-0"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-2xl shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm shrink-0"
                 >
                   Enter Interactive Laboratories &rarr;
                 </motion.button>
@@ -1342,7 +1342,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
         >
           {/* Step Selector & Progress */}
           <div className="flex items-center justify-between gap-2 flex-wrap">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Guided Discovery Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex items-center gap-1.5">
@@ -1354,7 +1354,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     audioManager.play('tap');
                   }}
                   className={`h-2 rounded-full transition-all ${
-                    currentSlide === i ? 'w-8 bg-indigo-500' : 'w-2.5 bg-slate-700'
+                    currentSlide === i ? 'w-8 bg-gold-500' : 'w-2.5 bg-slate-700'
                   }`}
                   aria-label={`Jump to step ${i + 1}`}
                 />
@@ -1391,7 +1391,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-3">
                       <div className="flex justify-between text-xs font-bold">
                         <span className="text-slate-300">Drop Height (h):</span>
-                        <span className="text-indigo-400 font-mono">{heightDrop} m</span>
+                        <span className="text-gold-400 font-mono">{heightDrop} m</span>
                       </div>
                       <input
                         type="range"
@@ -1402,13 +1402,13 @@ function C11_PhysicsConservationMechanicalEnergySim({
                           setHeightDrop(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust drop height"
                       />
 
                       <div className="flex justify-between text-xs font-bold">
                         <span className="text-slate-300">Mass (m):</span>
-                        <span className="text-indigo-400 font-mono">{ballMass} kg</span>
+                        <span className="text-gold-400 font-mono">{ballMass} kg</span>
                       </div>
                       <input
                         type="range"
@@ -1419,16 +1419,16 @@ function C11_PhysicsConservationMechanicalEnergySim({
                           setBallMass(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust object mass"
                       />
                     </div>
 
                     {/* Live Physical Readout Grid */}
                     <div className="grid grid-cols-3 gap-2 text-center font-mono">
-                      <div className="p-3 bg-sky-950/40 border border-sky-800/50 rounded-xl">
-                        <span className="text-[10px] text-sky-400 font-bold block">PE = mgh</span>
-                        <span className="text-sm font-black text-sky-200">{energyPE.toFixed(1)} J</span>
+                      <div className="p-3 bg-gold-950/40 border border-gold-800/50 rounded-xl">
+                        <span className="text-[10px] text-gold-400 font-bold block">PE = mgh</span>
+                        <span className="text-sm font-black text-gold-200">{energyPE.toFixed(1)} J</span>
                       </div>
                       <div className="p-3 bg-amber-950/40 border border-amber-800/50 rounded-xl">
                         <span className="text-[10px] text-amber-400 font-bold block">KE = 1/2mv^2</span>
@@ -1441,8 +1441,8 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     </div>
 
                     {/* Observation Question Card */}
-                    <div className="p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl space-y-2">
-                      <p className="text-xs font-bold text-indigo-300">Scientific Observation Query:</p>
+                    <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl space-y-2">
+                      <p className="text-xs font-bold text-gold-300">Scientific Observation Query:</p>
                       <p className="text-xs text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5 pt-1">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, idx) => (
@@ -1473,8 +1473,8 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     <canvas ref={collisionCanvasRef} width={450} height={140} className="w-full max-w-md rounded-xl bg-slate-900/50" />
 
                     {!predictionMade ? (
-                      <div className="w-full mt-4 p-4 rounded-2xl bg-indigo-950/50 border border-indigo-800/70 space-y-2">
-                        <span className="text-xs font-bold text-indigo-300 flex items-center gap-1.5">
+                      <div className="w-full mt-4 p-4 rounded-2xl bg-gold-950/50 border border-gold-800/70 space-y-2">
+                        <span className="text-xs font-bold text-gold-300 flex items-center gap-1.5">
                           &#9889; Predict-Then-Verify Challenge:
                         </span>
                         <p className="text-xs text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1502,7 +1502,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-3">
                       <div className="flex justify-between text-xs font-bold">
                         <span className="text-slate-300">Elasticity Coefficient (e):</span>
-                        <span className="text-indigo-400 font-mono">
+                        <span className="text-gold-400 font-mono">
                           {elasticity === 1 ? '1.0 (Elastic)' : elasticity === 0 ? '0.0 (Inelastic)' : elasticity.toFixed(2)}
                         </span>
                       </div>
@@ -1516,7 +1516,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                           setElasticity(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust collision elasticity"
                       />
 
@@ -1529,7 +1529,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                             max={6}
                             value={colMass1}
                             onChange={e => setColMass1(Number(e.target.value))}
-                            className="w-full accent-blue-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div>
@@ -1549,7 +1549,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 font-mono text-xs">
                       <div className="flex justify-between">
                         <span className="text-slate-400">Final Velocity v1:</span>
-                        <span className={collisionResults.v1 < 0 ? 'text-rose-400 font-bold' : 'text-blue-400 font-bold'}>
+                        <span className={collisionResults.v1 < 0 ? 'text-rose-400 font-bold' : 'text-gold-400 font-bold'}>
                           {collisionResults.v1.toFixed(2)} m/s
                         </span>
                       </div>
@@ -1563,7 +1563,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                       </div>
                       <div className="flex justify-between border-t border-slate-800 pt-1">
                         <span className="text-slate-400">Total Momentum (P):</span>
-                        <span className="text-indigo-300 font-bold">{collisionResults.initP.toFixed(1)} kg m/s</span>
+                        <span className="text-gold-300 font-bold">{collisionResults.initP.toFixed(1)} kg m/s</span>
                       </div>
                     </div>
                   </div>
@@ -1636,7 +1636,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                         max={10}
                         value={comM1}
                         onChange={e => setComM1(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-4 bg-slate-800/70 rounded-2xl border border-slate-700/60">
@@ -1648,7 +1648,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                         step={0.5}
                         value={comX1}
                         onChange={e => setComX1(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-4 bg-slate-800/70 rounded-2xl border border-slate-700/60">
@@ -1721,7 +1721,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                           step={0.05}
                           value={wrenchRadius}
                           onChange={e => setWrenchRadius(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1747,7 +1747,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                           max={180}
                           value={wrenchAngle}
                           onChange={e => setWrenchAngle(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1755,7 +1755,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 font-mono text-xs space-y-2">
                       <div className="flex justify-between">
                         <span className="text-slate-400">Effective Lever Arm (r sin &theta;):</span>
-                        <span className="text-sky-300 font-bold">{calculatedTorque.leverArm.toFixed(3)} m</span>
+                        <span className="text-gold-300 font-bold">{calculatedTorque.leverArm.toFixed(3)} m</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Torque Magnitude (&tau;):</span>
@@ -1777,9 +1777,9 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     <motion.div
                       animate={{ rotate: 360 }}
                       transition={{ duration: Math.max(0.2, 6 / calculatedSkater.newOmega), repeat: Infinity, ease: 'linear' }}
-                      className="w-48 h-48 rounded-full border-2 border-dashed border-indigo-500/50 flex items-center justify-center relative"
+                      className="w-48 h-48 rounded-full border-2 border-dashed border-gold-500/50 flex items-center justify-center relative"
                     >
-                      <div className="w-16 h-16 rounded-full bg-indigo-600 flex items-center justify-center text-white font-bold text-xs shadow-lg shadow-indigo-600/50">
+                      <div className="w-16 h-16 rounded-full bg-gold-600 flex items-center justify-center text-white font-bold text-xs shadow-lg shadow-gold-600/50">
                         Body
                       </div>
                       <div
@@ -1791,7 +1791,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                         style={{ transform: `translateX(${skaterMassArm * 80}px)` }}
                       />
                     </motion.div>
-                    <p className="text-xs text-indigo-300 font-mono mt-4">
+                    <p className="text-xs text-gold-300 font-mono mt-4">
                       Spin Rate: {calculatedSkater.newOmega.toFixed(2)} rad/s ({(calculatedSkater.newOmega / (2 * Math.PI)).toFixed(2)} rev/s)
                     </p>
                   </div>
@@ -1801,7 +1801,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                       <div>
                         <div className="flex justify-between text-xs font-bold mb-1">
                           <span className="text-slate-300">Dumbbell Arm Radius (r):</span>
-                          <span className="text-indigo-400 font-mono">{skaterMassArm} m</span>
+                          <span className="text-gold-400 font-mono">{skaterMassArm} m</span>
                         </div>
                         <input
                           type="range"
@@ -1813,7 +1813,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                             setSkaterMassArm(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                           aria-label="Adjust arm extension"
                         />
                       </div>
@@ -1831,7 +1831,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                           <span className="text-slate-400">Rotational KE (1/2 I&omega;^2):</span>
                           <span className="text-amber-400 font-bold">{calculatedSkater.finalRotKE.toFixed(1)} J</span>
                         </div>
-                        <div className="flex justify-between text-indigo-300 border-t border-slate-800 pt-1">
+                        <div className="flex justify-between text-gold-300 border-t border-slate-800 pt-1">
                           <span>Muscular Work Done:</span>
                           <span>+{calculatedSkater.workDone.toFixed(1)} J</span>
                         </div>
@@ -1866,7 +1866,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold text-white transition-all shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 rounded-2xl bg-gold-600 hover:bg-gold-500 text-sm font-bold text-white transition-all shadow-lg shadow-gold-600/30"
               >
                 Next Laboratory &rarr;
               </motion.button>
@@ -1913,7 +1913,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                       audioManager.play('tap');
                     }}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase transition-all ${
-                      activeTab === tab ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
+                      activeTab === tab ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
                     }`}
                   >
                     {tab === 'sim' ? 'Interactive Simulation' : tab === 'math' ? 'Multi-Representation' : 'Real-World Systems'}
@@ -1926,7 +1926,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
             {activeTab === 'sim' && (
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                  <h4 className="text-xs font-bold text-indigo-400 uppercase">Mechanical Energy Lab</h4>
+                  <h4 className="text-xs font-bold text-gold-400 uppercase">Mechanical Energy Lab</h4>
                   <label className="text-xs text-slate-300 block">Height: {heightDrop} m</label>
                   <input
                     type="range"
@@ -1934,7 +1934,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     max={50}
                     value={heightDrop}
                     onChange={e => setHeightDrop(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="text-xs font-mono text-slate-400 space-y-1">
                     <div>v = &radic;(2gh) = {energySpeed.toFixed(2)} m/s</div>
@@ -1983,7 +1983,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
             {activeTab === 'math' && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                  <span className="text-indigo-400 font-bold block">Translational vs Rotational Analogues</span>
+                  <span className="text-gold-400 font-bold block">Translational vs Rotational Analogues</span>
                   <div className="text-slate-300 space-y-1">
                     <div>Displacement x &harr; Angular displacement &theta;</div>
                     <div>Velocity v = dx/dt &harr; Angular velocity &omega; = d&theta;/dt</div>
@@ -2022,7 +2022,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold rounded-2xl shadow-xl shadow-emerald-600/20 text-sm flex items-center gap-2"
+                className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-2xl shadow-xl shadow-emerald-600/20 text-sm flex items-center gap-2"
               >
                 Ready for Graded Challenges! &rarr;
               </motion.button>
@@ -2053,7 +2053,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                     : difficulty === 'standard'
-                    ? 'bg-sky-500/20 text-sky-400 border border-sky-500/30'
+                    ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                     : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
                 }`}
               >
@@ -2068,14 +2068,14 @@ function C11_PhysicsConservationMechanicalEnergySim({
               <span className="text-slate-400">
                 Accuracy: {scoreBreakdown.total > 0 ? Math.round((scoreBreakdown.correct / scoreBreakdown.total) * 100) : 100}%
               </span>
-              <span className="text-indigo-400 font-bold">Mastery: {masteryLevel}</span>
+              <span className="text-gold-400 font-bold">Mastery: {masteryLevel}</span>
             </div>
           </div>
 
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2092,7 +2092,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs font-mono text-indigo-400">Node Ref: [{challenge.nodeId}]</span>
+              <span className="text-xs font-mono text-gold-400">Node Ref: [{challenge.nodeId}]</span>
             </div>
             <h3 className="text-lg md:text-xl font-bold text-white mb-6 leading-relaxed">
               {challenge.question}
@@ -2139,7 +2139,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2162,7 +2162,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                         className="p-4 rounded-2xl bg-slate-950 border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[100px] text-center"
                       >
                         <span className="text-xs font-bold text-slate-400 mb-2">{titles[targetId]}</span>
-                        <div className="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs font-bold text-indigo-300">
+                        <div className="w-full p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs font-bold text-gold-300">
                           {droppedLabels[targetId] || 'Drop matching formula here'}
                         </div>
                       </div>
@@ -2175,7 +2175,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-xs shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs shadow-lg"
                 >
                   Verify Mappings &rarr;
                 </motion.button>
@@ -2185,7 +2185,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
             {/* ─── CHALLENGE TYPE 3: DRAG-SORT ─── */}
             {challenge.type === 'drag-sort' && challenge.sortItems && (
               <div className="space-y-4">
-                <p className="text-xs text-indigo-300 font-mono">
+                <p className="text-xs text-gold-300 font-mono">
                   Drag items up or down to reorder from lowest to highest moment of inertia:
                 </p>
                 <div className="space-y-2">
@@ -2206,7 +2206,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3.5 bg-slate-800/80 hover:bg-slate-800 rounded-2xl text-slate-200 text-xs font-bold flex items-center gap-3 cursor-grab border border-slate-700/60"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-600/30 text-indigo-400 flex items-center justify-center text-xs">
+                      <span className="w-6 h-6 rounded-lg bg-gold-600/30 text-gold-400 flex items-center justify-center text-xs">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2219,7 +2219,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-xs shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs shadow-lg"
                 >
                   Confirm Sorted Order &rarr;
                 </motion.button>
@@ -2236,7 +2236,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 font-mono text-sm font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2244,7 +2244,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-xs shadow-lg"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs shadow-lg"
                   >
                     Check Calculation &rarr;
                   </motion.button>
@@ -2263,7 +2263,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-white text-xs font-bold font-mono shadow-md"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-xl text-white text-xs font-bold font-mono shadow-md"
                     >
                       + {part}
                     </motion.button>
@@ -2274,7 +2274,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-slate-800 border border-slate-700 rounded-xl text-xs font-mono font-bold text-indigo-300 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-slate-800 border border-slate-700 rounded-xl text-xs font-mono font-bold text-gold-300 flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2296,7 +2296,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-xs shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs shadow-lg"
                   >
                     Validate Equation &rarr;
                   </motion.button>
@@ -2380,7 +2380,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
           className="my-6 space-y-6"
         >
           {/* Performance Hero Banner */}
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 border border-indigo-500/30 text-center space-y-4 shadow-2xl">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 border border-gold-500/30 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">&#127942;</span>
             <h2 className="text-3xl font-black text-white tracking-tight">Mission Mastery Certified!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2394,16 +2394,16 @@ function C11_PhysicsConservationMechanicalEnergySim({
               </div>
               <div className="px-6 py-3 rounded-2xl bg-slate-950/60 border border-slate-800">
                 <span className="text-xs text-slate-400 block">BKT Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 rounded-3xl bg-slate-900 border border-indigo-500/40 space-y-5 shadow-xl">
+          <div className="p-6 rounded-3xl bg-slate-900 border border-gold-500/40 space-y-5 shadow-xl">
             <div className="flex items-center gap-2">
               <span className="text-xl">&#128161;</span>
-              <h3 className="text-base font-bold text-indigo-300 uppercase tracking-wide">
+              <h3 className="text-base font-bold text-gold-300 uppercase tracking-wide">
                 Critical Reflection & Metacognitive Deep Dive
               </h3>
             </div>
@@ -2421,7 +2421,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g. How spinning skaters actually increase their rotational KE by doing muscular work..."
-                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2434,7 +2434,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g. Energy is never lost, it just changes forms between speed and height, while momentum always stays conserved..."
-                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2447,7 +2447,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g. Designing safer cars with crumple zones or orienting spacecraft using reaction wheels..."
-                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2459,7 +2459,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
                     setReflectionSubmitted(true);
                     audioManager.play('success');
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                 >
                   {reflectionSubmitted ? 'Reflection Saved ✓' : 'Save Reflection Notes'}
                 </motion.button>
@@ -2519,7 +2519,7 @@ function C11_PhysicsConservationMechanicalEnergySim({
             <div className="space-y-2 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 font-mono">
-                  <span className="text-indigo-400 font-bold mr-2">[{idx + 1}]</span>
+                  <span className="text-gold-400 font-bold mr-2">[{idx + 1}]</span>
                   {step}
                 </div>
               ))}

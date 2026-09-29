@@ -11,7 +11,7 @@ export const w_c11_mathslinearinequalitiescbsesim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Linear Inequalities: Definition and Notation',
     chapters: [],
     nodeIds: ['c11_math_cbse_06_001', 'c11_math_cbse_06_002', 'c11_math_cbse_06_003', 'c11_math_cbse_06_004', 'c11_math_cbse_06_005', 'c11_math_cbse_06_006', 'c11_math_cbse_06_007', 'c11_math_cbse_02_008', 'c11_math_cbse_02_007', 'c11_math_cbse_02_012', 'c11_math_cbse_06_008', 'c11_math_cbse_02_009', 'c11_math_cbse_09_002', 'c11_math_cbse_09_004', 'c11_math_cbse_09_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you have ₹200 to buy notebooks costing ₹30 each and pens costing ₹10 each.', goal: 'Master Linear Inequalities: Definition and Notation.' },
     discovery: {
         question: 'Compare the graphical representations of 2x + 1 < 5 and 2x + 1 ≤ 5. What is the only difference between the two graphs? Why does this difference matter?',
@@ -20,7 +20,7 @@ export const w_c11_mathslinearinequalitiescbsesim: SimDef = {
         hook: 'Students consistently forget to reverse the inequality sign when multiplying or dividing by a negative number during.',
     },
     teaching: [
-        { title: 'A linear inequality is a mathematical.', text: 'A linear inequality is a mathematical statement that compares two algebraic expressions using inequality symbols (<, >, ≤, ≥) where the highest power of the variable is 1.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A linear inequality is a mathematical.', text: 'A linear inequality is a mathematical statement that compares two algebraic expressions using inequality symbols (<, >, ≤, ≥) where the highest power of the variable is 1.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_06_001', title: 'A linear inequality is a mathematical.',

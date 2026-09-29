@@ -144,7 +144,7 @@ export const c9_hist_ch05: SimDef = {
                   options: ['B) Zero and the decimal system', 'knowledge exchange in ancient India was primarily religious (e'],
                   hint: 'If stuck, revisit the Gupta Empire’s contributions (c7_hist_ch04_006) to recall what Indian.',
                   misconception: 'Students often believe that knowledge exchange in ancient India was primarily religious (e.g., Buddhism spreading) and that scientific.' },
-                { id: 'b', prompt: '[Note: Duplicate label corrected below as per instruction sequence]', answer: 'B) Their own observations of planetary motion supported a heliocentric idea',
+                { id: 'b', prompt: 'Why did Indian astronomers like Aryabhata reject the prevailing geocentric model of Greek astronomy, despite knowing about it through exchanges?', answer: 'B) Their own observations of planetary motion supported a heliocentric idea',
                   options: ['B) Their own observations of planetary motion supported a heliocentric idea', 'knowledge exchange in ancient India was primarily religious (e'],
                   hint: 'If stuck, revisit the Gupta Empire’s contributions (c7_hist_ch04_006) to recall what Indian.',
                   misconception: 'Students often believe that knowledge exchange in ancient India was primarily religious (e.g., Buddhism spreading) and that scientific.' }

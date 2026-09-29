@@ -1302,7 +1302,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
             className={`text-xs px-3 py-1 font-extrabold uppercase rounded-full border ${
               difficulty === 'foundation' ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600' :
               difficulty === 'advanced' ? 'bg-rose-950/60 text-rose-400 border-rose-600' :
-              'bg-cyan-950/60 text-cyan-400 border-cyan-600'
+              'bg-gold-950/60 text-gold-400 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1378,9 +1378,9 @@ export function C12_EconomicsCrossElasticityDemandSim({
       {/* ─── PHASE: BRILLIANT PREDICTION QUESTIONS ─────────────────────────── */}
       {phase === 'predict' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl">
+          <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 🔮 Step 1: Predict Before You Interact ({currentPredictionIdx + 1} of {PREDICTION_QUESTIONS.length})
               </span>
               <span className="text-xs text-slate-400 font-mono">Brilliant.org Predict-Check Pattern</span>
@@ -1407,7 +1407,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                       : 'bg-slate-900/90 hover:bg-slate-800 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1477,7 +1477,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToObservation}
-                  className="px-4 py-1.5 bg-cyan-600 hover:bg-cyan-500 rounded-lg text-xs font-bold text-white shadow-lg shadow-cyan-900/50"
+                  className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-bold text-white shadow-lg shadow-gold-900/50"
                 >
                   Observation Checks →
                 </motion.button>
@@ -1698,10 +1698,10 @@ export function C12_EconomicsCrossElasticityDemandSim({
                       </motion.div>
 
                       {/* Basmati Rice */}
-                      <motion.div whileHover={{ y: -2 }} className="bg-slate-900 p-3 rounded-xl border border-cyan-900/40 bg-gradient-to-b from-cyan-950/20 to-slate-900">
+                      <motion.div whileHover={{ y: -2 }} className="bg-slate-900 p-3 rounded-xl border border-gold-900/40 bg-gradient-to-b from-gold-950/20 to-slate-900">
                         <div className="flex justify-between text-xs mb-1">
-                          <span className="font-bold text-cyan-400">Rice (Necessity)</span>
-                          <span className="text-[10px] text-cyan-400 font-mono">0 &lt; Ey &lt; 1</span>
+                          <span className="font-bold text-gold-400">Rice (Necessity)</span>
+                          <span className="text-[10px] text-gold-400 font-mono">0 &lt; Ey &lt; 1</span>
                         </div>
                         <div className="text-xl font-black text-white font-mono my-1">{incomeBasket.riceKg} <span className="text-xs text-slate-400">kg/mo</span></div>
                         <p className="text-[10px] text-slate-400">Stable food staple; modest positive growth.</p>
@@ -1749,7 +1749,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                         <input
                           type="range" min={0} max={30} value={familyRetention}
                           onChange={(e) => handleRetentionChange('family', Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                           aria-label="Family Consumption Retention"
                         />
                       </div>
@@ -1762,7 +1762,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                         <input
                           type="range" min={0} max={25} value={seedRetention}
                           onChange={(e) => handleRetentionChange('seed', Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Seed Retention"
                         />
                       </div>
@@ -1893,7 +1893,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                           whileHover={{ scale: 1.02 }}
                           whileTap={{ scale: 0.98 }}
                           onClick={() => handleGeoInterceptChange(0)}
-                          className={`p-2 rounded-xl text-xs font-bold border ${geoInterceptY === 0 ? 'bg-cyan-950 border-cyan-500 text-cyan-300' : 'bg-slate-950 border-slate-800 text-slate-400'}`}
+                          className={`p-2 rounded-xl text-xs font-bold border ${geoInterceptY === 0 ? 'bg-gold-950 border-gold-500 text-gold-300' : 'bg-slate-950 border-slate-800 text-slate-400'}`}
                         >
                           Through Origin (c = 0)
                         </motion.button>
@@ -1958,7 +1958,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Intercept with Y-axis (c):</span>
-                          <span className="text-cyan-400 font-bold">{geoInterceptY}</span>
+                          <span className="text-gold-400 font-bold">{geoInterceptY}</span>
                         </div>
                         <div className="border-t border-slate-800 pt-2 flex justify-between text-sm">
                           <span className="text-emerald-400 font-bold">Calculated Es:</span>
@@ -1984,9 +1984,9 @@ export function C12_EconomicsCrossElasticityDemandSim({
       {/* ─── PHASE: BRILLIANT OBSERVATION QUESTIONS ���────────────────────────── */}
       {phase === 'observe' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-4 bg-cyan-950/40 border border-cyan-800/60 rounded-2xl">
+          <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 🔍 Step 2: What Did You Notice? ({currentObservationIdx + 1} of {OBSERVATION_QUESTIONS.length})
               </span>
               <span className="text-xs text-slate-400 font-mono">Brilliant.org Observation Check</span>
@@ -2000,7 +2000,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
             {/* Observable options recap */}
             {OBSERVATION_QUESTIONS[currentObservationIdx].observableOptions && (
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1 text-xs">
-                <span className="font-bold text-cyan-300 block mb-1">Key Observable Patterns:</span>
+                <span className="font-bold text-gold-300 block mb-1">Key Observable Patterns:</span>
                 {OBSERVATION_QUESTIONS[currentObservationIdx].observableOptions.map((obs, idx) => (
                   <div key={idx} className="flex items-center gap-2 text-slate-400">
                     <span className="text-emerald-400">✔</span>
@@ -2026,7 +2026,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                       : 'bg-slate-900/90 hover:bg-slate-800 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -2035,14 +2035,14 @@ export function C12_EconomicsCrossElasticityDemandSim({
             {observationAnswered && (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                 <p className="text-xs text-slate-300">
-                  <strong className="text-cyan-400">Key Takeaway: </strong>
+                  <strong className="text-gold-400">Key Takeaway: </strong>
                   {OBSERVATION_QUESTIONS[currentObservationIdx].explanation}
                 </p>
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleNextObservation}
-                  className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-cyan-950"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-950"
                 >
                   {currentObservationIdx < OBSERVATION_QUESTIONS.length - 1 ? 'Next Observation Check →' : 'Proceed to Sandbox Mode →'}
                 </motion.button>
@@ -2079,15 +2079,15 @@ export function C12_EconomicsCrossElasticityDemandSim({
             </div>
 
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold uppercase text-cyan-400">Income Elasticity Slider</h4>
+              <h4 className="text-xs font-bold uppercase text-gold-400">Income Elasticity Slider</h4>
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Household Income:</span>
-                <span className="font-mono text-cyan-300">₹{householdIncome.toLocaleString('en-IN')}</span>
+                <span className="font-mono text-gold-300">₹{householdIncome.toLocaleString('en-IN')}</span>
               </div>
               <input
                 type="range" min={8000} max={80000} step={4000} value={householdIncome}
                 onChange={(e) => handleIncomeSlider(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
                 aria-label="Household Income"
               />
             </div>
@@ -2129,7 +2129,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
                 className={`text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase border ${
                   challenge.difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border-emerald-700' :
                   challenge.difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border-rose-700' :
-                  'bg-cyan-950 text-cyan-400 border-cyan-700'
+                  'bg-gold-950 text-gold-400 border-gold-700'
                 }`}
               >
                 {challenge.difficulty}
@@ -2139,7 +2139,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-cyan-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2383,14 +2383,14 @@ export function C12_EconomicsCrossElasticityDemandSim({
                 <div className="text-[10px] text-slate-400 uppercase font-bold">Mastery Level</div>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 min-w-[100px]">
-                <div className="text-2xl font-black text-cyan-400 font-mono">10 Nodes</div>
+                <div className="text-2xl font-black text-gold-400 font-mono">10 Nodes</div>
                 <div className="text-[10px] text-slate-400 uppercase font-bold">Coverage</div>
               </div>
             </div>
           </div>
 
           {/* MOTIVATIONAL FEEDBACK SECTION (EXACT ERROR-BASED MESSAGES) */}
-          <div className="p-5 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-cyan-950/80 border border-emerald-600/60 rounded-2xl shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-gold-950/80 border border-emerald-600/60 rounded-2xl shadow-lg">
             <div className="flex items-center gap-3">
               <span className="text-3xl">
                 {errors === 0 ? '🌟' : errors <= 3 ? '👏' : errors <= 7 ? '💪' : '🎯'}
@@ -2486,7 +2486,7 @@ export function C12_EconomicsCrossElasticityDemandSim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-gradient-to-r from-slate-950 via-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-700/50 flex flex-wrap justify-between items-center gap-4 text-xs">
+          <div className="p-5 bg-gradient-to-r from-slate-950 via-slate-900 to-gold-950/60 rounded-2xl border border-gold-700/50 flex flex-wrap justify-between items-center gap-4 text-xs">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <span className="text-lg">📅</span>
@@ -2499,8 +2499,8 @@ export function C12_EconomicsCrossElasticityDemandSim({
                 Rule: 0 errors &rarr; 7 days | 1–3 errors &rarr; 3 days | 4+ errors &rarr; 1 day (Optimized for long-term memory retention).
               </p>
             </div>
-            <div className="px-4 py-2 bg-indigo-950/80 border border-indigo-500/50 rounded-xl text-center">
-              <span className="block text-xs uppercase font-bold text-indigo-300">SRS Interval</span>
+            <div className="px-4 py-2 bg-gold-950/80 border border-gold-500/50 rounded-xl text-center">
+              <span className="block text-xs uppercase font-bold text-gold-300">SRS Interval</span>
               <span className="text-lg font-black text-white">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</span>
             </div>
           </div>

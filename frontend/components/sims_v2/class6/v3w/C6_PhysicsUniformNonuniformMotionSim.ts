@@ -11,7 +11,7 @@ export const w_c6_physicsuniformnonuniformmotionsim: SimDef = {
     classLevel: 6, subject: 'physics', topic: 'Understanding Speed',
     chapters: [],
     nodeIds: ['c6_physics_ch08_029', 'c6_physics_ch08_031', 'c6_physics_ch08_030'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you and your friend are both running to the school gate.', goal: 'Master Understanding Speed.' },
     discovery: {
         question: 'What is the mathematical formula used to calculate the speed of a moving object?',
@@ -20,7 +20,7 @@ export const w_c6_physicsuniformnonuniformmotionsim: SimDef = {
         hook: 'Students often confuse the units of speed (km/h vs m/s) and treat them as interchangeable without conversion.',
     },
     teaching: [
-        { title: 'Speed is a measure of how fast an object.', text: 'Speed is a measure of how fast an object changes its position, calculated by dividing the total distance travelled by the time taken to cover that distance.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Speed is a measure of how fast an object.', text: 'Speed is a measure of how fast an object changes its position, calculated by dividing the total distance travelled by the time taken to cover that distance.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_physics_ch08_029', title: 'Speed is a measure of how fast an.',

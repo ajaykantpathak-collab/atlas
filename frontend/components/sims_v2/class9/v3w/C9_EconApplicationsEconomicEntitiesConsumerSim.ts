@@ -11,7 +11,7 @@ export const w_c9_econapplicationseconomicentitiesconsumersim: SimDef = {
     classLevel: 9, subject: 'economics', topic: 'What to Produce: Economic Decision Making',
     chapters: [],
     nodeIds: ['c9_eco_ch1_4', 'c9_eco_ch2_3'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a farmer in Punjab with 10 hectares of land who must decide whether to grow wheat, rice, or sugarcane.', goal: 'Master n Applications Economic Entities Consumer.' },
     discovery: {
         question: 'Define the "What to Produce" problem in economics and state the two main factors that influence this decision in a market economy.',
@@ -20,7 +20,7 @@ export const w_c9_econapplicationseconomicentitiesconsumersim: SimDef = {
         hook: 'Students often believe the "What to Produce" decision is made independently by each producer based on what they *want*.',
     },
     teaching: [
-        { title: 'The "What to Produce" problem refers to the.', text: 'The "What to Produce" problem refers to the fundamental economic decision of allocating scarce resources among alternative goods and services to maximize societal welfare, determined by the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The "What to Produce" problem refers to the.', text: 'The "What to Produce" problem refers to the fundamental economic decision of allocating scarce resources among alternative goods and services to maximize societal welfare, determined by the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_eco_ch1_4', title: 'The "What to Produce" problem refers to.',

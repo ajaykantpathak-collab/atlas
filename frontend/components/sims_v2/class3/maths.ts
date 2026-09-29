@@ -21,7 +21,7 @@ export const c3LookFrom: SimDef = {
     id: 'c3_lookfrom', title: 'Where to Look From', subtitle: 'Top, side, front views!',
     classLevel: 3, subject: 'maths', topic: 'Views and Perspectives',
     chapters: ['Math-Magic-3 Ch1: Where to Look From'],
-    emoji: '👁️', theme: { bg: 'from-indigo-100 to-violet-200', accent: 'indigo', scene: 'views' },
+    emoji: '👁️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'views' },
     scenario: { role: "a view-finder", intro: "Things look different from top, front, side!", goal: "Match every view." },
     discovery: {
         question: "Does a cup look the SAME from the top as from the side?",
@@ -31,8 +31,8 @@ export const c3LookFrom: SimDef = {
     },
     observe: { prompt: "From the TOP, what shape did things become?", options: ["Circles mostly", "Squares", "Triangles"], answer: "Circles mostly" },
     teaching: [
-        { title: 'Same Thing, Different View! 👁️', text: 'A cup looks different from the top, the side, and the front. Where you look from changes what you see!', emoji: '👁️', bgColor: 'from-indigo-400 to-violet-500' },
-        { title: 'Top View ⬇️', text: 'Looking down from above — a cup from the top looks like a circle! A table looks like a rectangle!', emoji: '⬇️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Same Thing, Different View! 👁️', text: 'A cup looks different from the top, the side, and the front. Where you look from changes what you see!', emoji: '👁️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Top View ⬇️', text: 'Looking down from above — a cup from the top looks like a circle! A table looks like a rectangle!', emoji: '⬇️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Side View ➡️', text: 'Looking from the side — the cup looks like a cup! You see its handle and height!', emoji: '➡️', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Which is Which? 🔍', text: 'Same object, different views — a ball is a circle from everywhere, but a bucket is a circle only from the top!', emoji: '🔍', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -75,7 +75,7 @@ export const c3Numbers: SimDef = {
     predict: { question: "In 347, which digit is worth the MOST?", options: ["The 3 - hundreds", "The 7", "The 4"], answer: "The 3 - hundreds", verifyWidget: "bundles", verifyPrompt: "Build 347 - which part is biggest?", },
     teaching: [
         { title: 'Three-Digit Numbers! 💯', text: 'After 99 comes 100 — one HUNDRED! Now numbers have hundreds, tens, AND ones: 347 = 3 hundreds + 4 tens + 7 ones!', emoji: '💯', bgColor: 'from-fuchsia-400 to-purple-500' },
-        { title: 'Hundreds Tens Ones 🏛️', text: 'The place tells the value! In 347: 3 is hundreds (300), 4 is tens (40), 7 is ones (7). 300 + 40 + 7!', emoji: '🏛️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Hundreds Tens Ones 🏛️', text: 'The place tells the value! In 347: 3 is hundreds (300), 4 is tens (40), 7 is ones (7). 300 + 40 + 7!', emoji: '🏛️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Compare the Big Ones ⚖️', text: 'Compare hundreds first! 412 vs 389: 4 hundreds beats 3 hundreds — 412 is bigger, no need to look further!', emoji: '⚖️', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Counting Past 100 🔢', text: 'After 100: 101, 102... After 199: 200! Each hundred is a new family!', emoji: '🔢', bgColor: 'from-emerald-400 to-teal-500' },
     ],
@@ -112,7 +112,7 @@ export const c3GiveTake: SimDef = {
     id: 'c3_givetake', title: 'Give and Take', subtitle: 'Big addition and subtraction!',
     classLevel: 3, subject: 'maths', topic: '3-Digit Addition & Subtraction',
     chapters: ['Math-Magic-3 Ch3: Give and Take', 'Math-Magic-3 Ch6: Fun with Give and Take'],
-    emoji: '➕', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'give' },
+    emoji: '➕', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'give' },
     scenario: { role: "a math-climber", intro: "Add and subtract big numbers with carrying!", goal: "Climb every sum." },
     discovery: {
         question: "Can you add 245 + 132 by adding hundreds, tens, ones separately?",
@@ -121,10 +121,10 @@ export const c3GiveTake: SimDef = {
         hook: "Breaking into places makes it easy! Let's learn.",
     },
     teaching: [
-        { title: 'Big Addition ➕', text: '245 + 132: add hundreds (2+1=3), tens (4+3=7), ones (5+2=7) → 377!', emoji: '➕', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Big Addition ➕', text: '245 + 132: add hundreds (2+1=3), tens (4+3=7), ones (5+2=7) → 377!', emoji: '➕', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Carrying a Ten 📦', text: 'When ones pass 9, carry a ten: 48 + 36. Ones 8+6=14 → carry 1, keep 4. Tens 4+3+1=8 → 84!', emoji: '📦', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Big Subtraction ➖', text: '456 − 123: ones 6−3=3, tens 5−2=3, hundreds 4−1=3 → 333!', emoji: '➖', bgColor: 'from-sky-400 to-cyan-500' },
-        { title: 'Borrowing 🏦', text: 'When the top is smaller, borrow a ten: 52 − 28. 12−8=4, tens 4−2=2 → 24!', emoji: '🏦', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Big Subtraction ➖', text: '456 − 123: ones 6−3=3, tens 5−2=3, hundreds 4−1=3 → 333!', emoji: '➖', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Borrowing 🏦', text: 'When the top is smaller, borrow a ten: 52 − 28. 12−8=4, tens 4−2=2 → 24!', emoji: '🏦', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: "jump", prompt: "Hop forward and back on the line — add and subtract!" },
     challenges: [
@@ -171,7 +171,7 @@ export const c3Shapes: SimDef = {
     },
     teaching: [
         { title: 'Shapes Make Designs! 🔶', text: 'Tiles, rangoli, brick walls — shapes fit together to make designs. This is called tiling or tessellation!', emoji: '🔶', bgColor: 'from-rose-400 to-orange-500' },
-        { title: 'Faces, Edges, Corners 📦', text: 'A box has flat FACES, straight EDGES, and pointy CORNERS (vertices). A die has 6 faces, 12 edges, 8 corners!', emoji: '📦', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Faces, Edges, Corners 📦', text: 'A box has flat FACES, straight EDGES, and pointy CORNERS (vertices). A die has 6 faces, 12 edges, 8 corners!', emoji: '📦', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Curved vs Flat ⚪', text: 'A ball is all curved — no flat face. A box is all flat. A cylinder (can) has both!', emoji: '⚪', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: "tray-star", prompt: "Tile shapes — do circles leave gaps?" },
@@ -202,7 +202,7 @@ export const c3Time: SimDef = {
     id: 'c3_time', title: 'Time Goes On', subtitle: 'Read the clock!',
     classLevel: 3, subject: 'maths', topic: 'Time and Calendar',
     chapters: ['Math-Magic-3 Ch7: Time Goes On'],
-    emoji: '🕰️', theme: { bg: 'from-sky-100 to-blue-200', accent: 'sky', scene: 'clock' },
+    emoji: '🕰️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'clock' },
     scenario: { role: "a clock-reader", intro: "Read the clock to the minute — hours and minutes!", goal: "Tell every time." },
     discovery: {
         question: "Short hand and long hand move at different speeds. Which is faster?",
@@ -213,9 +213,9 @@ export const c3Time: SimDef = {
     observe: { prompt: "Which hand moved faster when you played?", options: ["The long hand", "The short hand", "Same"], answer: "The long hand" },
     predict: { question: "If the long hand is on 6, is it 15 past, 30 past, or oclock?", options: ["Half past (30)", "15 past", "Oclock"], answer: "Half past (30)", verifyWidget: "clock", verifyPrompt: "Set the long hand to 6 - read the time!", },
     teaching: [
-        { title: 'Reading the Clock! 🕰️', text: 'Short hand = hour, long hand = minutes. When the long hand is on 6, it is "half past"!', emoji: '🕰️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Reading the Clock! 🕰️', text: 'Short hand = hour, long hand = minutes. When the long hand is on 6, it is "half past"!', emoji: '🕰️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Minutes Past 🕐', text: 'Long hand on 3 = 15 past (quarter past). On 6 = 30 past (half past). Each number = 5 minutes!', emoji: '🕐', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'AM and PM 🌞🌙', text: 'AM = morning (midnight to noon). PM = afternoon/evening (noon to midnight). 3 AM is night, 3 PM is afternoon!', emoji: '🌙', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'AM and PM 🌞🌙', text: 'AM = morning (midnight to noon). PM = afternoon/evening (noon to midnight). 3 AM is night, 3 PM is afternoon!', emoji: '🌙', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'The Calendar 📅', text: 'A calendar shows months, weeks, and days. 12 months in a year, about 4 weeks in a month!', emoji: '📅', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: 'clock', prompt: 'Set the clock hands and read the time!' },
@@ -257,7 +257,7 @@ export const c3Times: SimDef = {
     },
     teaching: [
         { title: 'Multiplication = Groups! ✖️', text: '3 × 4 means 3 groups of 4 = 4 + 4 + 4 = 12. Multiplication is fast repeated addition!', emoji: '✖️', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Tables are Shortcuts 📋', text: 'The 2-times table: 2, 4, 6, 8, 10... The 5-times table: 5, 10, 15, 20... Learn the patterns!', emoji: '📋', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Tables are Shortcuts 📋', text: 'The 2-times table: 2, 4, 6, 8, 10... The 5-times table: 5, 10, 15, 20... Learn the patterns!', emoji: '📋', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Times is Fast Adding ⚡', text: 'Instead of 5 + 5 + 5 + 5 (four fives), just say 4 × 5 = 20. Same answer, much faster!', emoji: '⚡', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { lab: "jump", prompt: "Hop in equal groups — 3 hops of 4 is 12!" },
@@ -305,7 +305,7 @@ export const c3Share: SimDef = {
     predict: { question: "12 / 4 - will each friend get more or less than 4?", options: ["Less than 4", "More than 4", "Exactly 4"], answer: "Less than 4", verifyWidget: "tray", verifyPrompt: "Share 12 into 4 groups - count each!", },
     teaching: [
         { title: 'Sharing = Division! ➗', text: 'Share 12 sweets among 4 friends: each gets 3. 12 ÷ 4 = 3. Division is fair sharing!', emoji: '➗', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Divide = Opposite of Multiply 🔄', text: '4 × 3 = 12, so 12 ÷ 4 = 3 and 12 ÷ 3 = 4. They are best friends!', emoji: '🔄', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Divide = Opposite of Multiply 🔄', text: '4 × 3 = 12, so 12 ÷ 4 = 3 and 12 ÷ 3 = 4. They are best friends!', emoji: '🔄', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Sometimes Leftovers! 🍬', text: 'Share 7 sweets among 3 friends — 2 each, and 1 left over. That leftover is called the REMAINDER!', emoji: '🍬', bgColor: 'from-rose-400 to-pink-500' },
     ],
     explore: { lab: "pour", prompt: "Try the lab — what do you discover?" },
@@ -352,7 +352,7 @@ export const c3Money: SimDef = {
     },
     teaching: [
         { title: 'Rupees and Paise 💰', text: '100 paise = 1 rupee! ₹5.50 means 5 rupees and 50 paise!', emoji: '💰', bgColor: 'from-yellow-400 to-amber-500' },
-        { title: 'Adding Money ➕', text: '₹20 + ₹15 = ₹35. Add money like numbers — keep the ₹ sign!', emoji: '➕', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Adding Money ➕', text: '₹20 + ₹15 = ₹35. Add money like numbers — keep the ₹ sign!', emoji: '➕', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Making Change 🔄', text: 'Price ₹35, you give ₹50. Change = 50 − 35 = ₹15 back!', emoji: '🔄', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Cost of Many 🛒', text: 'One pencil ₹5, three pencils = 3 × 5 = ₹15. Multiply for many items!', emoji: '🛒', bgColor: 'from-rose-400 to-pink-500' },
     ],
@@ -400,7 +400,7 @@ export const c3Patterns: SimDef = {
     },
     teaching: [
         { title: 'Number Patterns! 🌀', text: '10, 20, 30... adds 10. 99, 98, 97... takes 1. Find the rule, find the next!', emoji: '🌀', bgColor: 'from-pink-400 to-fuchsia-500' },
-        { title: 'Odd and Even 1️⃣2️⃣', text: 'Even numbers end in 0,2,4,6,8. Odd end in 1,3,5,7,9. They alternate — even, odd, even, odd!', emoji: '1️⃣', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Odd and Even 1️⃣2️⃣', text: 'Even numbers end in 0,2,4,6,8. Odd end in 1,3,5,7,9. They alternate — even, odd, even, odd!', emoji: '1️⃣', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Patterns in Tiles 🧱', text: 'Floor tiles and brick walls have patterns — shapes repeating in a rule!', emoji: '🧱', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: "tray-star", prompt: "Extend the pattern!" },
@@ -436,7 +436,7 @@ export const c3Charts: SimDef = {
     id: 'c3_charts', title: 'Smart Charts', subtitle: 'Data tells a story!',
     classLevel: 3, subject: 'maths', topic: 'Data and Charts',
     chapters: ['Math-Magic-3 Ch13: Smart Charts'],
-    emoji: '📊', theme: { bg: 'from-cyan-100 to-teal-200', accent: 'cyan', scene: 'charts' },
+    emoji: '📊', theme: { bg: 'from-gold-100 to-teal-200', accent: 'cyan', scene: 'charts' },
     scenario: { role: "a chart-reader", intro: "Read bar graphs and pictographs!", goal: "Read every chart." },
     discovery: {
         question: "In a bar chart, how do you tell which is MOST without counting?",
@@ -445,9 +445,9 @@ export const c3Charts: SimDef = {
         hook: "Height tells the count - smart charts!",
     },
     teaching: [
-        { title: 'Charts Show Data! 📊', text: 'A chart shows counts as bars or pictures — tall bar = more, short bar = fewer!', emoji: '📊', bgColor: 'from-cyan-400 to-teal-500' },
-        { title: 'Read the Height 📏', text: 'In a bar chart, the tallest bar wins. Compare heights to compare counts!', emoji: '📏', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Answer from Charts 🤔', text: 'Charts answer questions: which is most? how many more? Read the chart to find out!', emoji: '🤔', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Charts Show Data! 📊', text: 'A chart shows counts as bars or pictures — tall bar = more, short bar = fewer!', emoji: '📊', bgColor: 'from-gold-400 to-teal-500' },
+        { title: 'Read the Height 📏', text: 'In a bar chart, the tallest bar wins. Compare heights to compare counts!', emoji: '📏', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Answer from Charts 🤔', text: 'Charts answer questions: which is most? how many more? Read the chart to find out!', emoji: '🤔', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: "tray-star", prompt: "Count stars to make a bar chart!" },
     challenges: [
@@ -488,7 +488,7 @@ export const c3Measure2: SimDef = {
     teaching: [
         { title: 'Centimetres and Metres! 📏', text: 'Small things in cm (pencil = 15 cm), big things in m (door = 2 m). 100 cm = 1 m!', emoji: '📏', bgColor: 'from-lime-400 to-green-500' },
         { title: 'Kilograms for Weight ⚖️', text: 'We measure weight in kilograms (kg). A bag of rice = 5 kg. You might be about 25 kg!', emoji: '⚖️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Litres for Liquids 🥛', text: 'We measure water and milk in litres (L). A big bottle = 1 litre. A small cup = about 250 ml!', emoji: '🥛', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Litres for Liquids 🥛', text: 'We measure water and milk in litres (L). A big bottle = 1 litre. A small cup = about 250 ml!', emoji: '🥛', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: "stretch", prompt: "Measure with the tape — how long?" },
         generate: { kind: 'measure', count: 3, level: 3 },

@@ -344,7 +344,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Four Amazing Domains of Earth! 🌍",
     text: "Earth has four major domains: Lithosphere (land), Hydrosphere (water), Atmosphere (air), and Biosphere (where life exists like plants, animals, and us)!",
     emoji: "🌍",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Earth has four major domains: Lithosphere, Hydrosphere, Atmosphere, and Biosphere!",
   },
   {
@@ -358,7 +358,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "The Five Great Oceans! 🌊",
     text: "Water covers about 71 percent of Earth! The giant World Ocean is split into five parts: Pacific (largest), Atlantic (S-shaped), Indian, Southern, and Arctic!",
     emoji: "🌊",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Water covers about 71 percent of Earth! The oceans are Pacific, Atlantic, Indian, Southern, and Arctic!",
   },
   {
@@ -372,7 +372,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Antarctica & The Poles! ❄️",
     text: "Antarctica is the coldest continent on Earth, covered entirely in thick ice! It has no permanent towns or cities — only brave scientists living in research stations!",
     emoji: "❄️",
-    bgColor: "from-sky-400 to-blue-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Antarctica is the coldest continent on Earth, covered entirely in ice with no permanent human population!",
   },
 ];
@@ -750,7 +750,7 @@ export function ContinentsOceansGame({ width = 720, height = 560, onComplete }: 
   };
 
   return (
-    <div className="relative overflow-hidden select-none rounded-3xl shadow-2xl border-4 border-blue-400 bg-slate-900" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none rounded-3xl shadow-2xl border-4 border-gold-400 bg-slate-900" style={{ width, height }}>
       {/* Background scene */}
       <WorldMapScene width={width} height={height} />
 
@@ -767,7 +767,7 @@ export function ContinentsOceansGame({ width = 720, height = 560, onComplete }: 
       {screen === 'teaching' && (
         <div className="absolute inset-0 flex flex-col justify-between p-6 z-10 bg-slate-900/60 backdrop-blur-md">
           <div className="flex justify-between items-center mt-2">
-            <span className="text-xs font-bold text-white bg-blue-600 px-3 py-1 rounded-full shadow">
+            <span className="text-xs font-bold text-white bg-gold-600 px-3 py-1 rounded-full shadow">
               Explorer Lesson {slideIdx + 1} of {TEACHING_SLIDES.length}
             </span>
             <div className="flex gap-1.5">
@@ -798,7 +798,7 @@ export function ContinentsOceansGame({ width = 720, height = 560, onComplete }: 
                 }
               }}
               disabled={slideIdx === 0}
-              className={`px-5 py-2.5 rounded-2xl font-bold text-sm shadow-lg transition-all ${slideIdx === 0 ? 'opacity-40 bg-gray-500 text-gray-300 cursor-not-allowed' : 'bg-white text-blue-700 hover:bg-blue-50'}`}
+              className={`px-5 py-2.5 rounded-2xl font-bold text-sm shadow-lg transition-all ${slideIdx === 0 ? 'opacity-40 bg-gray-500 text-gray-300 cursor-not-allowed' : 'bg-white text-gold-700 hover:bg-gold-50'}`}
             >
               Previous
             </button>
@@ -855,7 +855,7 @@ export function ContinentsOceansGame({ width = 720, height = 560, onComplete }: 
                 {currentChallenge.options.map(opt => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnColor = 'bg-white hover:bg-blue-50 text-slate-800 border-slate-200';
+                  let btnColor = 'bg-white hover:bg-gold-50 text-slate-800 border-slate-200';
                   if (selectedOpt) {
                     if (isCorrectAnswer) btnColor = 'bg-emerald-500 text-white border-emerald-600 shadow-lg scale-102';
                     else if (isSelected) btnColor = 'bg-rose-500 text-white border-rose-600 animate-shake';

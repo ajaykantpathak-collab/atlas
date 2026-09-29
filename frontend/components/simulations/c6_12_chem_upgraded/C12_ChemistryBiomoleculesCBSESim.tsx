@@ -677,8 +677,8 @@ const CHALLENGES: Challenge[] = [
 
 const GlucoseConformationSVG: React.FC<{ anomer: 'alpha' | 'beta' | 'open' }> = ({ anomer }) => {
   return (
-    <div className="flex flex-col items-center bg-slate-900/90 p-4 rounded-xl border border-cyan-500/30 shadow-lg">
-      <h4 className="text-cyan-400 font-bold mb-2 text-sm tracking-wide uppercase">
+    <div className="flex flex-col items-center bg-slate-900/90 p-4 rounded-xl border border-gold-500/30 shadow-lg">
+      <h4 className="text-gold-400 font-bold mb-2 text-sm tracking-wide uppercase">
         {anomer === 'open' ? 'D-Glucose Fischer Open-Chain' : anomer === 'alpha' ? 'α-D-Glucopyranose Haworth Ring (Anomeric OH DOWN)' : 'β-D-Glucopyranose Haworth Ring (Anomeric OH UP)'}
       </h4>
       <svg width="340" height="220" viewBox="0 0 340 220" className="drop-shadow">
@@ -1142,7 +1142,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
       <header className="max-w-7xl mx-auto bg-slate-900/80 border border-slate-800 rounded-2xl p-6 backdrop-blur-md shadow-2xl mb-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 text-xs font-semibold rounded-full uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/40 text-xs font-semibold rounded-full uppercase tracking-wider">
               ISC Chemistry • Class 12
             </span>
             <span className="px-3 py-1 bg-purple-500/20 text-purple-400 border border-purple-500/40 text-xs font-semibold rounded-full uppercase tracking-wider">
@@ -1157,7 +1157,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
         <div className="flex items-center gap-6 bg-slate-800/60 px-5 py-3 rounded-xl border border-slate-700">
           <div className="text-center">
             <div className="text-xs text-slate-400 uppercase font-bold tracking-wider">Lab Score</div>
-            <div className="text-2xl font-black text-cyan-400">{score} pts</div>
+            <div className="text-2xl font-black text-gold-400">{score} pts</div>
           </div>
           <div className="h-8 w-px bg-slate-700" />
           <div className="text-center">
@@ -1185,7 +1185,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
             }}
             className={`px-6 py-3 rounded-xl font-bold text-sm transition-all duration-200 border ${
               activeTab === tab.id
-                ? 'bg-cyan-600 text-white border-cyan-400 shadow-lg shadow-cyan-500/20 scale-105'
+                ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-500/20 scale-105'
                 : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1202,7 +1202,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
         {activeTab === 'discovery' && (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                 </svg>
@@ -1212,8 +1212,8 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
               <p className="text-slate-300 leading-relaxed mb-6">{SCENARIO.context}</p>
 
               {/* Discovery Interactive Question */}
-              <div className="bg-slate-950/80 border border-cyan-500/30 rounded-xl p-6 mt-6">
-                <div className="text-xs font-bold text-cyan-400 uppercase tracking-widest mb-2">
+              <div className="bg-slate-950/80 border border-gold-500/30 rounded-xl p-6 mt-6">
+                <div className="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">
                   Preconception Discovery Question
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-4">
@@ -1229,11 +1229,11 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                       }}
                       className={`w-full text-left p-4 rounded-xl border text-sm font-medium transition-all ${
                         discoverySelected === idx
-                          ? 'bg-cyan-950/60 border-cyan-400 text-cyan-200'
+                          ? 'bg-gold-950/60 border-gold-400 text-gold-200'
                           : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'
                       } ${discoverySubmitted && idx === DISCOVERY_QUESTION.correctIndex ? 'bg-emerald-950/80 border-emerald-400 text-emerald-200' : ''}`}
                     >
-                      <span className="inline-block w-6 font-bold text-cyan-400">
+                      <span className="inline-block w-6 font-bold text-gold-400">
                         {String.fromCharCode(65 + idx)}.
                       </span>
                       {opt}
@@ -1245,7 +1245,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                   <button
                     onClick={handleDiscoverySubmit}
                     disabled={discoverySelected === null}
-                    className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold rounded-xl transition"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl transition"
                   >
                     Submit Discovery Hypothesis
                   </button>
@@ -1315,7 +1315,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Exploration Selector Drawer */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-3">
-              <h3 className="text-md font-bold text-cyan-400 uppercase tracking-wider mb-2">
+              <h3 className="text-md font-bold text-gold-400 uppercase tracking-wider mb-2">
                 Select Interactive Station
               </h3>
               {EXPLORATION_STEPS.map((step, idx) => (
@@ -1327,11 +1327,11 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                   }}
                   className={`w-full text-left p-4 rounded-xl border transition-all ${
                     currentLabStepIndex === idx
-                      ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200 font-bold shadow-lg'
+                      ? 'bg-gold-950/80 border-gold-400 text-gold-200 font-bold shadow-lg'
                       : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
-                  <div className="text-xs text-cyan-400 mb-1 font-mono">Station {idx + 1}</div>
+                  <div className="text-xs text-gold-400 mb-1 font-mono">Station {idx + 1}</div>
                   <div className="text-sm">{step.title}</div>
                 </button>
               ))}
@@ -1385,7 +1385,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
             <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
               <div>
                 <div className="flex justify-between items-center mb-4">
-                  <h2 className="text-xl font-bold text-cyan-400">
+                  <h2 className="text-xl font-bold text-gold-400">
                     {EXPLORATION_STEPS[currentLabStepIndex].title}
                   </h2>
                   <span className="text-xs font-mono text-slate-500 bg-slate-950 px-3 py-1 rounded-full border border-slate-800">
@@ -1405,7 +1405,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                       <div className="flex flex-wrap gap-3">
                         <button
                           onClick={() => setAnomerType('alpha')}
-                          className={`px-4 py-2 rounded-lg text-xs font-bold ${anomerType === 'alpha' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'}`}
+                          className={`px-4 py-2 rounded-lg text-xs font-bold ${anomerType === 'alpha' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'}`}
                         >
                           Pure α-D-Glucose (+112.2°)
                         </button>
@@ -1427,7 +1427,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                         <div>
                           <label className="text-xs font-bold text-slate-400 flex justify-between mb-1">
                             <span>Dissolution Time in Water (Equilibrium Progress)</span>
-                            <span className="text-cyan-400 font-mono">{mutarotationTime}%</span>
+                            <span className="text-gold-400 font-mono">{mutarotationTime}%</span>
                           </label>
                           <input
                             type="range"
@@ -1435,7 +1435,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                             max="100"
                             value={mutarotationTime}
                             onChange={(e) => setMutarotationTime(Number(e.target.value))}
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                       )}
@@ -1471,7 +1471,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                       </div>
 
                       <div className="grid grid-cols-3 gap-3 text-center text-xs">
-                        <div className={`p-3 rounded-lg border ${titrationpH < 3.5 ? 'bg-blue-950/80 border-blue-400 text-blue-200' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
+                        <div className={`p-3 rounded-lg border ${titrationpH < 3.5 ? 'bg-gold-950/80 border-gold-400 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
                           <div className="font-bold">pH &lt; pKa1 (2.34)</div>
                           <div>+1 Cation</div>
                         </div>
@@ -1499,7 +1499,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                       <div className="flex justify-center items-center gap-2 py-8 bg-slate-900 rounded-xl border border-slate-800">
                         {/* Primary Structure Linkage */}
                         <div className="flex items-center">
-                          <div className="w-12 h-12 rounded-full bg-cyan-600 flex items-center justify-center font-bold text-white text-xs shadow-md">
+                          <div className="w-12 h-12 rounded-full bg-gold-600 flex items-center justify-center font-bold text-white text-xs shadow-md">
                             Gly
                           </div>
                           <div className="h-1.5 w-8 bg-rose-500 flex items-center justify-center">
@@ -1553,7 +1553,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                           <label className="text-xs font-bold text-slate-400 block mb-2">
-                            Substrate Concentration [S]: <span className="text-cyan-400 font-mono">{substrateConc} mM</span>
+                            Substrate Concentration [S]: <span className="text-gold-400 font-mono">{substrateConc} mM</span>
                           </label>
                           <input
                             type="range"
@@ -1562,7 +1562,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                             step="0.5"
                             value={substrateConc}
                             onChange={(e) => setSubstrateConc(parseFloat(e.target.value))}
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
 
@@ -1586,7 +1586,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                           <div className="text-xs text-slate-400 uppercase font-bold">Calculated Reaction Rate (V)</div>
                           <div className="text-xs text-slate-500">Michaelis-Menten: V = Vmax[S] / (Km + [S])</div>
                         </div>
-                        <div className="text-2xl font-black font-mono text-cyan-400">{currentV} µmol/min</div>
+                        <div className="text-2xl font-black font-mono text-gold-400">{currentV} µmol/min</div>
                       </div>
                     </div>
                   </div>
@@ -1633,7 +1633,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
               <div className="flex items-center gap-3">
                 <span className={`px-3 py-1 text-xs font-bold uppercase rounded-full ${
                   currentChallenge.difficulty === 'foundation'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-800'
                     : currentChallenge.difficulty === 'standard'
                     ? 'bg-amber-950 text-amber-400 border border-amber-800'
                     : 'bg-rose-950 text-rose-400 border border-rose-800'
@@ -1667,7 +1667,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                     onClick={() => setSelectedOption(optIndex)}
                     className={`w-full text-left p-4 rounded-xl border text-sm font-medium transition-all flex items-center justify-between ${
                       selectedOption === optIndex
-                        ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200 shadow-md'
+                        ? 'bg-gold-950/80 border-gold-400 text-gold-200 shadow-md'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800'
                     } ${
                       challengeAnswered && optIndex === currentChallenge.correctIndex
@@ -1680,7 +1680,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                     }`}
                   >
                     <span>
-                      <strong className="text-cyan-400 mr-2">{String.fromCharCode(65 + optIndex)}.</strong>
+                      <strong className="text-gold-400 mr-2">{String.fromCharCode(65 + optIndex)}.</strong>
                       {optionText}
                     </span>
                     {challengeAnswered && optIndex === currentChallenge.correctIndex && (
@@ -1702,7 +1702,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value..."
-                    className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white text-lg font-mono focus:outline-none focus:border-cyan-400 w-full max-w-xs"
+                    className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white text-lg font-mono focus:outline-none focus:border-gold-400 w-full max-w-xs"
                   />
                   <span className="text-slate-400 text-sm font-bold">{currentChallenge.unit}</span>
                 </div>
@@ -1729,7 +1729,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                 <button
                   onClick={handleChallengeAnswer}
                   disabled={selectedOption === null && numericInput.trim() === ''}
-                  className="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold rounded-xl transition shadow-lg shadow-cyan-600/30"
+                  className="px-8 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl transition shadow-lg shadow-gold-600/30"
                 >
                   Submit Solution
                 </button>
@@ -1768,7 +1768,7 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
             {/* Real World Clinical Activity */}
             <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center gap-3 mb-4">
-                <span className="p-2 bg-cyan-500/20 text-cyan-400 rounded-lg">
+                <span className="p-2 bg-gold-500/20 text-gold-400 rounded-lg">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
@@ -1779,13 +1779,13 @@ export const C12_ChemistryBiomoleculesCBSESim: React.FC<C12_ChemistryBiomolecule
                 {REAL_WORLD_ACTIVITY.description}
               </p>
 
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider mb-4">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider mb-4">
                 Clinical Pathology Workflow Steps
               </h3>
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <div key={i} className="flex gap-4 items-start bg-slate-950 p-4 rounded-xl border border-slate-800/80">
-                    <span className="w-7 h-7 rounded-full bg-cyan-600/30 text-cyan-400 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
+                    <span className="w-7 h-7 rounded-full bg-gold-600/30 text-gold-400 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                       {i + 1}
                     </span>
                     <p className="text-slate-200 text-sm leading-relaxed">{st}</p>

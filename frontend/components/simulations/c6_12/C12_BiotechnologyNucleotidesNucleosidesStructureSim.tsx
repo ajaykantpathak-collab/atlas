@@ -1228,12 +1228,12 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
         className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded-full border border-indigo-700/40">
+              <span className="text-xs font-semibold px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded-full border border-gold-700/40">
                 ISC Class 12 • Biotechnology
               </span>
               <span className="text-xs text-slate-400 font-mono">c12_biotech_001-010</span>
@@ -1256,7 +1256,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
               }}
               className={`px-3 py-1.5 rounded-xl capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white font-bold shadow-md shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white font-bold shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1270,13 +1270,13 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-purple-950/40 rounded-2xl border border-indigo-800/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-purple-950/40 rounded-2xl border border-gold-800/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🔬 Investigation Brief</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm sm:text-base">{SCENARIO.intro}</p>
-            <p className="text-xs sm:text-sm text-indigo-300/80 mt-3 bg-indigo-950/40 p-3 rounded-xl border border-indigo-800/30">
+            <p className="text-xs sm:text-sm text-gold-300/80 mt-3 bg-gold-950/40 p-3 rounded-xl border border-gold-800/30">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1308,11 +1308,11 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                         ? isCorrect
                           ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900/60 border-slate-800 text-slate-400'
-                        : 'bg-slate-900/80 border-slate-700/80 text-slate-200 hover:border-indigo-500 hover:bg-slate-850'
+                        : 'bg-slate-900/80 border-slate-700/80 text-slate-200 hover:border-gold-500 hover:bg-slate-850'
                     }`}
                   >
                     <span>
-                      <span className="font-mono text-indigo-400 mr-2">[{String.fromCharCode(65 + idx)}]</span> {opt}
+                      <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + idx)}]</span> {opt}
                     </span>
                     {discoveryAnswered && (
                       <span className="font-bold text-base ml-2">
@@ -1336,7 +1336,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Molecular Labs →
                 </motion.button>
@@ -1363,7 +1363,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1381,7 +1381,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
               className="p-6 bg-slate-850 rounded-2xl border border-slate-700 shadow-xl space-y-6"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+                <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
                 <h3 className="text-xl font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1454,7 +1454,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     </svg>
                     <div className="mt-3 text-center">
                       <span className="text-xs uppercase text-slate-400 font-semibold">Identified Compound:</span>
-                      <p className="text-sm sm:text-base font-bold text-indigo-300">{currentMoleculeName}</p>
+                      <p className="text-sm sm:text-base font-bold text-gold-300">{currentMoleculeName}</p>
                     </div>
                   </div>
 
@@ -1493,7 +1493,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                               audioManager.play('tap');
                             }}
                             className={`px-3 py-1 text-xs rounded-lg font-semibold ${
-                              builderSugar === s ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'
+                              builderSugar === s ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                             }`}
                           >
                             {s} {s === 'Deoxyribose' ? '(DNA)' : '(RNA)'}
@@ -1525,8 +1525,8 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     </div>
 
                     <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1">
-                      <p>🔑 <strong className="text-indigo-300">Exam Note:</strong> Nucleoside = Base + Sugar (e.g. Adenosine).</p>
-                      <p>🔑 <strong className="text-indigo-300">Nucleotide:</strong> Base + Sugar + Phosphate (e.g. ATP is Adenosine Triphosphate).</p>
+                      <p>🔑 <strong className="text-gold-300">Exam Note:</strong> Nucleoside = Base + Sugar (e.g. Adenosine).</p>
+                      <p>🔑 <strong className="text-gold-300">Nucleotide:</strong> Base + Sugar + Phosphate (e.g. ATP is Adenosine Triphosphate).</p>
                     </div>
                   </div>
                 </div>
@@ -1537,7 +1537,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                 <div className="space-y-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {/* Predict Check for Lab 2 */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/50 space-y-2">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/50 space-y-2">
                       <span className="text-xs font-bold text-amber-400 uppercase">Predict First</span>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5 pt-1">
@@ -1571,7 +1571,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                         setSliderG(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1587,7 +1587,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                       <span className="text-xs text-slate-400 uppercase font-semibold">Hydrogen Bond Energy</span>
-                      <p className="text-2xl font-black text-indigo-400 mt-1">
+                      <p className="text-2xl font-black text-gold-400 mt-1">
                         {sliderG * 3 + sliderA * 2} Units
                       </p>
                       <span className="text-xs text-slate-400">(3 × GC + 2 × AT)</span>
@@ -1603,7 +1603,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   {/* Observation Question */}
                   {predictionMade && !observationAnswered && (
                     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-900 rounded-xl border border-slate-700 space-y-2">
-                      <span className="text-xs font-bold text-indigo-400 uppercase">Scientific Observation</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Scientific Observation</span>
                       <p className="text-sm text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((oOpt, oI) => (
@@ -1723,7 +1723,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     </div>
 
                     {/* Exon 1 */}
-                    <div className="px-4 py-2 bg-blue-700 border border-blue-400 rounded-lg text-xs font-bold text-white">
+                    <div className="px-4 py-2 bg-gold-700 border border-gold-400 rounded-lg text-xs font-bold text-white">
                       Exon 1 (Coding)
                     </div>
 
@@ -1743,7 +1743,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     )}
 
                     {/* Exon 2 */}
-                    <div className="px-4 py-2 bg-blue-700 border border-blue-400 rounded-lg text-xs font-bold text-white">
+                    <div className="px-4 py-2 bg-gold-700 border border-gold-400 rounded-lg text-xs font-bold text-white">
                       Exon 2 (Coding)
                     </div>
 
@@ -1763,7 +1763,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     )}
 
                     {/* Exon 3 */}
-                    <div className="px-4 py-2 bg-blue-700 border border-blue-400 rounded-lg text-xs font-bold text-white">
+                    <div className="px-4 py-2 bg-gold-700 border border-gold-400 rounded-lg text-xs font-bold text-white">
                       Exon 3 (Coding)
                     </div>
 
@@ -1785,7 +1785,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {/* Codon Base Selectors */}
                   <div className="space-y-4">
-                    <span className="text-xs font-bold text-indigo-400 uppercase">Construct Triplet Codon:</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Construct Triplet Codon:</span>
                     <div className="grid grid-cols-3 gap-2">
                       <div>
                         <label className="text-xs text-slate-400 font-semibold">1st Base (5\'):</label>
@@ -1799,7 +1799,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                                 audioManager.play('tap');
                               }}
                               className={`p-1.5 rounded-lg text-xs font-bold ${
-                                selectedCodonBase1 === b ? 'bg-indigo-600 text-white' : 'bg-slate-850 text-slate-300'
+                                selectedCodonBase1 === b ? 'bg-gold-600 text-white' : 'bg-slate-850 text-slate-300'
                               }`}
                             >
                               {b}
@@ -1820,7 +1820,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                                 audioManager.play('tap');
                               }}
                               className={`p-1.5 rounded-lg text-xs font-bold ${
-                                selectedCodonBase2 === b ? 'bg-indigo-600 text-white' : 'bg-slate-855 text-slate-300'
+                                selectedCodonBase2 === b ? 'bg-gold-600 text-white' : 'bg-slate-855 text-slate-300'
                               }`}
                             >
                               {b}
@@ -1841,7 +1841,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                                 audioManager.play('tap');
                               }}
                               className={`p-1.5 rounded-lg text-xs font-bold ${
-                                selectedCodonBase3 === b ? 'bg-indigo-600 text-white' : 'bg-slate-850 text-slate-300'
+                                selectedCodonBase3 === b ? 'bg-gold-600 text-white' : 'bg-slate-850 text-slate-300'
                               }`}
                             >
                               {b}
@@ -1907,7 +1907,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1931,7 +1931,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-850 rounded-2xl border border-slate-700 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
-              <h3 className="text-lg font-bold text-indigo-300">Biotechnology Sandbox Workspace</h3>
+              <h3 className="text-lg font-bold text-gold-300">Biotechnology Sandbox Workspace</h3>
               <p className="text-xs text-slate-400 mt-0.5">Explore freely without timer or grading pressure.</p>
             </div>
             <div className="flex gap-2">
@@ -1944,7 +1944,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     audioManager.play('tap');
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize ${
-                    sandboxTab === tab ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                    sandboxTab === tab ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   {tab}
@@ -1970,7 +1970,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     max={45}
                     value={sliderG}
                     onChange={(e) => setSliderG(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -1978,7 +1978,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
 
             {sandboxTab === 'spectro' && (
               <div className="space-y-4">
-                <h4 className="text-sm font-bold text-indigo-300">UV Spectrophotometry Purity Calculator</h4>
+                <h4 className="text-sm font-bold text-gold-300">UV Spectrophotometry Purity Calculator</h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-1">
                     <label className="text-xs text-slate-400">Absorbance at 260 nm (A260 - Nucleic Acids): {specA260}</label>
@@ -2024,7 +2024,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   </div>
                   <div>
                     <span className="text-xs text-slate-400">Estimated [dsDNA]</span>
-                    <p className="text-xl font-bold text-indigo-400">{(specA260 * 50).toFixed(1)} μg/mL</p>
+                    <p className="text-xl font-bold text-gold-400">{(specA260 * 50).toFixed(1)} μg/mL</p>
                     <span className="text-xs text-slate-500">(A260 × 50 μg/mL)</span>
                   </div>
                 </div>
@@ -2056,7 +2056,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-bold shadow-xl shadow-indigo-600/30 text-center"
+            className="w-full py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-xl font-bold shadow-xl shadow-gold-600/30 text-center"
           >
             Ready for Challenges! Test Your Mastery →
           </motion.button>
@@ -2070,7 +2070,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 font-mono">
+                <span className="text-xs font-bold text-gold-400 font-mono">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-xs px-2 py-0.5 bg-slate-800 rounded-md text-slate-300 font-semibold uppercase">
@@ -2093,7 +2093,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-700/60'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 text-rose-300 border border-rose-700/60'
-                    : 'bg-indigo-950/80 text-indigo-300 border border-indigo-700/60'
+                    : 'bg-gold-950/80 text-gold-300 border border-gold-700/60'
                 }`}
               >
                 {difficulty}
@@ -2104,7 +2104,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2135,11 +2135,11 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                           ? 'bg-rose-900/60 border-rose-500 text-rose-100'
                           : showExplanation && isCorrect
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/50'
-                          : 'bg-slate-900/90 border-slate-700/80 text-slate-200 hover:border-indigo-500 hover:bg-slate-850'
+                          : 'bg-slate-900/90 border-slate-700/80 text-slate-200 hover:border-gold-500 hover:bg-slate-850'
                       }`}
                     >
                       <span>
-                        <span className="font-mono text-indigo-400 mr-2">({String.fromCharCode(65 + i)})</span> {opt}
+                        <span className="font-mono text-gold-400 mr-2">({String.fromCharCode(65 + i)})</span> {opt}
                       </span>
                       {showExplanation && (
                         <span className="font-bold text-sm ml-2">
@@ -2166,7 +2166,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2201,7 +2201,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2231,7 +2231,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-900 rounded-xl border border-slate-700 text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded font-mono text-xs">
+                    <span className="px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded font-mono text-xs">
                       {dIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2247,7 +2247,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow"
                 >
                   Confirm Order
                 </motion.button>
@@ -2264,7 +2264,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2273,7 +2273,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow"
                   >
                     Submit Value
                   </motion.button>
@@ -2293,7 +2293,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2306,7 +2306,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                       key={cIdx}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600 rounded-lg text-xs font-bold text-white flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 rounded-lg text-xs font-bold text-white flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2329,7 +2329,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow"
                 >
                   Verify Constructed Transcript
                 </motion.button>
@@ -2395,7 +2395,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
       {/* ─── PHASE 5: COMPLETION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950/60 rounded-3xl border border-indigo-700/50 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950/60 rounded-3xl border border-gold-700/50 shadow-2xl text-center space-y-4">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Genome Synthesis Mastery Achieved!</h2>
             
@@ -2404,7 +2404,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
               errors === 0
                 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                 : errors <= 3
-                ? 'bg-indigo-950/80 border-indigo-500 text-indigo-200'
+                ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/80 border-amber-500 text-amber-200'
                 : 'bg-rose-950/80 border-rose-500 text-rose-200'
@@ -2427,7 +2427,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[130px]">
                 <span className="text-xs text-slate-400 uppercase font-semibold">Mastery Tier</span>
-                <p className="text-3xl font-black text-indigo-400 mt-1 capitalize">{masteryLevel}</p>
+                <p className="text-3xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[130px]">
                 <span className="text-xs text-slate-400 uppercase font-semibold">Total Errors</span>
@@ -2437,7 +2437,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD ─── */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 border-2 border-amber-500/60 rounded-3xl shadow-xl space-y-3">
+          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 border-2 border-amber-500/60 rounded-3xl shadow-xl space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">📅</span>
@@ -2475,8 +2475,8 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-850 rounded-2xl border border-indigo-900/60 space-y-4 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wider">
+          <div className="p-6 bg-slate-850 rounded-2xl border border-gold-900/60 space-y-4 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider">
               <span>💭 Molecular Biology Self-Reflection</span>
             </div>
             <p className="text-xs text-slate-400">
@@ -2493,7 +2493,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g., How 3'->5' exonuclease proofreading acts like a real-time molecular backspace key..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 placeholder-slate-500 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder-slate-500 resize-none"
                 />
               </div>
 
@@ -2506,7 +2506,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   value={reflections.explain}
                   onChange={(e) => setReflections(r => ({ ...r, explain: e.target.value }))}
                   placeholder="e.g., DNA is the master blueprint, RNA is the working copy, and exons are the meaningful chapters stitched together..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 placeholder-slate-500 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder-slate-500 resize-none"
                 />
               </div>
 
@@ -2519,7 +2519,7 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections(r => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g., In mRNA vaccine design, PCR diagnostics, RT-PCR viral load assays, and recombinant insulin manufacturing..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 placeholder-slate-500 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder-slate-500 resize-none"
                 />
               </div>
             </div>
@@ -2548,14 +2548,14 @@ function C12_BiotechnologyNucleotidesNucleosidesStructureSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-850 rounded-2xl border border-slate-700 space-y-3">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider">
               <span>🚀 {REAL_WORLD_ACTIVITY.title}</span>
             </div>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ol className="space-y-2 pt-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="font-bold text-indigo-400 font-mono">{i + 1}.</span>
+                  <span className="font-bold text-gold-400 font-mono">{i + 1}.</span>
                   <span>{st}</span>
                 </li>
               ))}

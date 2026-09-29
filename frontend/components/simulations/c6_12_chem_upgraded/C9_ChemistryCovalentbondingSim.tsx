@@ -1681,11 +1681,11 @@ export default function C9_ChemistryCovalentbondingSim() {
       {/* Header Bar */}
       <header className="w-full max-w-6xl mb-6 flex flex-col md:flex-row justify-between items-center bg-slate-900 border border-slate-800 rounded-2xl p-4 md:px-8 shadow-2xl">
         <div className="flex items-center space-x-3 mb-4 md:mb-0">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-xl shadow-lg text-white">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-xl shadow-lg text-white">
             ⚛️
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-gold-400 to-gold-400 bg-clip-text text-transparent">
               Covalent Bonding & Molecular Geometry
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 9 Chemistry • Nodes c9_chem_031 - c9_chem_040</p>
@@ -1696,7 +1696,7 @@ export default function C9_ChemistryCovalentbondingSim() {
         <div className="flex items-center space-x-6 bg-slate-950 px-5 py-2.5 rounded-xl border border-slate-800">
           <div className="text-center">
             <span className="text-xs text-slate-400 block font-semibold uppercase">Score</span>
-            <span className="text-lg font-black text-cyan-400">{score}</span>
+            <span className="text-lg font-black text-gold-400">{score}</span>
           </div>
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center">
@@ -1727,7 +1727,7 @@ export default function C9_ChemistryCovalentbondingSim() {
           }}
           className={`flex-1 py-2.5 rounded-lg font-bold text-sm transition-all ${
             activeTab === 'discovery'
-              ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1740,7 +1740,7 @@ export default function C9_ChemistryCovalentbondingSim() {
           }}
           className={`flex-1 py-2.5 rounded-lg font-bold text-sm transition-all ${
             activeTab === 'lab'
-              ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1753,7 +1753,7 @@ export default function C9_ChemistryCovalentbondingSim() {
           }}
           className={`flex-1 py-2.5 rounded-lg font-bold text-sm transition-all ${
             activeTab === 'challenges'
-              ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1766,7 +1766,7 @@ export default function C9_ChemistryCovalentbondingSim() {
           }}
           className={`flex-1 py-2.5 rounded-lg font-bold text-sm transition-all ${
             activeTab === 'summary'
-              ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1779,7 +1779,7 @@ export default function C9_ChemistryCovalentbondingSim() {
         <main className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-3 gap-6">
           <section className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
             <div>
-              <span className="inline-block px-3 py-1 bg-cyan-950 text-cyan-400 border border-cyan-800 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+              <span className="inline-block px-3 py-1 bg-gold-950 text-gold-400 border border-gold-800 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
                 Lab Context
               </span>
               <h2 className="text-2xl font-bold mb-3 text-white">{SCENARIO.title}</h2>
@@ -1788,7 +1788,7 @@ export default function C9_ChemistryCovalentbondingSim() {
 
               {/* Preconception Discovery Question */}
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-5 mb-4">
-                <h3 className="text-base font-bold text-cyan-300 mb-3">
+                <h3 className="text-base font-bold text-gold-300 mb-3">
                   Pre-Lab Concept Check: {DISCOVERY_QUESTION.question}
                 </h3>
                 <div className="space-y-2 mb-4">
@@ -1812,7 +1812,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                 </div>
 
                 {discoverySubmitted && (
-                  <div className="bg-cyan-950/50 border border-cyan-800 rounded-lg p-3 text-xs text-cyan-200">
+                  <div className="bg-gold-950/50 border border-gold-800 rounded-lg p-3 text-xs text-gold-200">
                     💡 <strong>Insight:</strong> {DISCOVERY_QUESTION.hintAfter}
                   </div>
                 )}
@@ -1859,48 +1859,48 @@ export default function C9_ChemistryCovalentbondingSim() {
           <aside className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
             <div>
               <h3 className="text-base font-bold text-white mb-4 flex items-center">
-                <span className="mr-2 text-cyan-400">📚</span> Covered ICSE Concepts
+                <span className="mr-2 text-gold-400">📚</span> Covered ICSE Concepts
               </h3>
               <ul className="space-y-2.5 text-xs text-slate-300 mb-6">
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_031 Single Covalent Bond (H2, Cl2, CH4)</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_032 Double Bond Overlap (O2, CO2)</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_033 Triple Bond Inertness (N2, C2H2)</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_034 Lewis Dot & Cross Diagrams</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_035 Electronegativity & Polarity</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_036 Coordinate (Dative) Bonds</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_037 Covalent Physical Properties</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_038 Giant vs Simple Lattices</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_039 VSEPR Geometry & Shapes</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
                 <li className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
                   <span>c9_chem_040 Bond Length & Energy Trends</span>
-                  <span className="text-cyan-400 font-bold">100%</span>
+                  <span className="text-gold-400 font-bold">100%</span>
                 </li>
               </ul>
             </div>
@@ -1910,7 +1910,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                 setActiveTab('lab');
                 audioManager.play('swoop');
               }}
-              className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm rounded-xl shadow-lg hover:brightness-110 transition-all text-center"
+              className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg hover:brightness-110 transition-all text-center"
             >
               Enter Interactive Lab Modules →
             </button>
@@ -1932,7 +1932,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                 }}
                 className={`flex-1 min-w-[180px] py-2.5 px-3 rounded-xl border text-xs font-bold transition-all text-left ${
                   selectedLabIndex === idx
-                    ? 'bg-cyan-950 border-cyan-500 text-cyan-300 shadow-md'
+                    ? 'bg-gold-950 border-gold-500 text-gold-300 shadow-md'
                     : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                 }`}
               >
@@ -1947,7 +1947,7 @@ export default function C9_ChemistryCovalentbondingSim() {
             <div>
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[selectedLabIndex].title}</h3>
-                <span className="text-xs px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-full font-mono">
+                <span className="text-xs px-2.5 py-1 bg-slate-800 text-gold-400 rounded-full font-mono">
                   Node: {EXPLORATION_STEPS[selectedLabIndex].nodeId}
                 </span>
               </div>
@@ -1970,7 +1970,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                           selectedMoleculeId === m.id
-                            ? 'bg-cyan-500 text-slate-950 border-cyan-300'
+                            ? 'bg-gold-500 text-slate-950 border-gold-300'
                             : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                         }`}
                       >
@@ -1982,7 +1982,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
                     <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                       <span className="text-slate-400 block text-[10px]">Bond Order</span>
-                      <span className="font-bold text-cyan-400 text-sm">{activeMolecule.bondOrder}</span>
+                      <span className="font-bold text-gold-400 text-sm">{activeMolecule.bondOrder}</span>
                     </div>
                     <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                       <span className="text-slate-400 block text-[10px]">Bond Energy</span>
@@ -2007,7 +2007,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span>Atom A Electronegativity (Pauling Scale)</span>
-                        <span className="text-cyan-400">{electronegativityA}</span>
+                        <span className="text-gold-400">{electronegativityA}</span>
                       </div>
                       <input
                         type="range"
@@ -2016,13 +2016,13 @@ export default function C9_ChemistryCovalentbondingSim() {
                         step="0.1"
                         value={electronegativityA}
                         onChange={(e) => setElectronegativityA(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span>Atom B Electronegativity (Pauling Scale)</span>
-                        <span className="text-cyan-400">{electronegativityB}</span>
+                        <span className="text-gold-400">{electronegativityB}</span>
                       </div>
                       <input
                         type="range"
@@ -2031,14 +2031,14 @@ export default function C9_ChemistryCovalentbondingSim() {
                         step="0.1"
                         value={electronegativityB}
                         onChange={(e) => setElectronegativityB(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
 
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center">
                     <span className="text-xs text-slate-400 block uppercase font-bold">Electronegativity Difference (ΔEN)</span>
-                    <span className="text-3xl font-black text-cyan-400 my-1 block">{deltaEN}</span>
+                    <span className="text-3xl font-black text-gold-400 my-1 block">{deltaEN}</span>
                     <span className={`text-sm font-bold ${polarityClass.color}`}>{polarityClass.text}</span>
                   </div>
                 </div>
@@ -2115,7 +2115,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                       onClick={() => setPropSample('h2o_pure')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                         propSample === 'h2o_pure'
-                          ? 'bg-cyan-500 text-slate-950'
+                          ? 'bg-gold-500 text-slate-950'
                           : 'bg-slate-950 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -2125,7 +2125,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                       onClick={() => setPropSample('hcl_soln')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                         propSample === 'hcl_soln'
-                          ? 'bg-cyan-500 text-slate-950'
+                          ? 'bg-gold-500 text-slate-950'
                           : 'bg-slate-950 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -2135,7 +2135,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                       onClick={() => setPropSample('diamond')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                         propSample === 'diamond'
-                          ? 'bg-cyan-500 text-slate-950'
+                          ? 'bg-gold-500 text-slate-950'
                           : 'bg-slate-950 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -2145,7 +2145,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                       onClick={() => setPropSample('graphite')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                         propSample === 'graphite'
-                          ? 'bg-cyan-500 text-slate-950'
+                          ? 'bg-gold-500 text-slate-950'
                           : 'bg-slate-950 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -2194,7 +2194,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                         <button
                           onClick={() => setLatticeMode('simple')}
                           className={`px-2.5 py-1 rounded text-xs font-bold ${
-                            latticeMode === 'simple' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                            latticeMode === 'simple' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Simple Molecular
@@ -2286,7 +2286,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                       }}
                       className={`px-3.5 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
                         activeTier === tier
-                          ? 'bg-cyan-500 text-slate-950 shadow-md'
+                          ? 'bg-gold-500 text-slate-950 shadow-md'
                           : 'bg-slate-950 border border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
@@ -2302,7 +2302,7 @@ export default function C9_ChemistryCovalentbondingSim() {
               {/* Question Banner */}
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-5 mb-6">
                 <div className="flex justify-between items-center mb-3">
-                  <span className="text-xs px-2.5 py-0.5 rounded-full font-bold bg-slate-800 text-cyan-400 border border-slate-700">
+                  <span className="text-xs px-2.5 py-0.5 rounded-full font-bold bg-slate-800 text-gold-400 border border-slate-700">
                     {currentChallenge.competencyLevel}
                   </span>
                   <span className="text-[10px] font-mono text-slate-500">Node: {currentChallenge.nodeId}</span>
@@ -2331,7 +2331,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                             ? idx === currentChallenge.correctIndex
                               ? 'bg-emerald-950/80 border-emerald-500 text-emerald-100'
                               : 'bg-rose-950/80 border-rose-500 text-rose-100'
-                            : 'bg-cyan-950/80 border-cyan-500 text-cyan-100'
+                            : 'bg-gold-950/80 border-gold-500 text-gold-100'
                           : challengeAnswered && idx === currentChallenge.correctIndex
                           ? 'bg-emerald-950/40 border-emerald-600 text-emerald-200'
                           : 'bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300'
@@ -2354,7 +2354,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                     onChange={(e) => setNumericAnswer(e.target.value)}
                     disabled={challengeAnswered}
                     placeholder="e.g. 24 or -93"
-                    className="w-full p-4 bg-slate-950 border border-slate-800 rounded-xl text-lg font-mono text-cyan-400 focus:outline-none focus:border-cyan-500"
+                    className="w-full p-4 bg-slate-950 border border-slate-800 rounded-xl text-lg font-mono text-gold-400 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               )}
@@ -2378,7 +2378,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                 <button
                   onClick={handleAnswerSubmit}
                   disabled={selectedOption === null && !numericAnswer.trim()}
-                  className="flex-1 py-3.5 bg-gradient-to-r from-cyan-500 to-blue-600 disabled:opacity-50 text-white font-bold text-sm rounded-xl shadow-lg hover:brightness-110 transition-all"
+                  className="flex-1 py-3.5 bg-gradient-to-r from-gold-500 to-gold-600 disabled:opacity-50 text-white font-bold text-sm rounded-xl shadow-lg hover:brightness-110 transition-all"
                 >
                   Submit Answer →
                 </button>
@@ -2405,7 +2405,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                     setShowHint(!showHint);
                     audioManager.play('hint');
                   }}
-                  className="text-xs text-cyan-400 underline font-semibold"
+                  className="text-xs text-gold-400 underline font-semibold"
                 >
                   {showHint ? 'Hide Hint' : 'Show Hint'}
                 </button>
@@ -2451,7 +2451,7 @@ export default function C9_ChemistryCovalentbondingSim() {
               <span className="text-xs text-slate-400 block mb-1">Tier Mastery Progress</span>
               <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
                 <div
-                  className="bg-cyan-400 h-full transition-all duration-300"
+                  className="bg-gold-400 h-full transition-all duration-300"
                   style={{
                     width: `${((currentChallengeIndex + (challengeAnswered ? 1 : 0)) / filteredChallenges.length) * 100}%`,
                   }}
@@ -2475,10 +2475,10 @@ export default function C9_ChemistryCovalentbondingSim() {
               <p className="text-slate-300 text-xs md:text-sm leading-relaxed mb-6">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-4 mb-6">
-                <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Guided Synthesis Protocol</h3>
+                <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Guided Synthesis Protocol</h3>
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={`rw-step-${idx}`} className="flex items-start space-x-3 text-xs text-slate-300">
-                    <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-cyan-400 flex-shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-gold-400 flex-shrink-0">
                       {idx + 1}
                     </span>
                     <p className="mt-1 leading-relaxed">{step}</p>
@@ -2506,7 +2506,7 @@ export default function C9_ChemistryCovalentbondingSim() {
           <aside className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
             <div>
               <h3 className="text-base font-bold text-white mb-4 flex items-center">
-                <span className="mr-2 text-cyan-400">📈</span> Bayesian Knowledge Tracing
+                <span className="mr-2 text-gold-400">📈</span> Bayesian Knowledge Tracing
               </h3>
               <div className="space-y-3 mb-6">
                 {ALL_NODE_IDS.map((nodeId) => {
@@ -2517,11 +2517,11 @@ export default function C9_ChemistryCovalentbondingSim() {
                     <div key={`bkt-meter-${nodeId}`} className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center text-xs mb-1.5">
                         <span className="font-mono text-slate-300">{nodeId}</span>
-                        <span className="font-bold text-cyan-400">{pct}%</span>
+                        <span className="font-bold text-gold-400">{pct}%</span>
                       </div>
                       <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
                         <div
-                          className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full transition-all duration-500"
+                          className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-500"
                           style={{ width: `${pct}%` }}
                         />
                       </div>
@@ -2536,7 +2536,7 @@ export default function C9_ChemistryCovalentbondingSim() {
                 setActiveTab('challenges');
                 audioManager.play('tap');
               }}
-              className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 transition-all text-center"
+              className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 transition-all text-center"
             >
               Retake Practice Challenges →
             </button>

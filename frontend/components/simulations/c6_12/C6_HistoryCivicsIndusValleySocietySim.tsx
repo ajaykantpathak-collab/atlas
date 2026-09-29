@@ -1341,7 +1341,7 @@ export function C6_HistoryCivicsIndusValleySocietySim({
               difficulty === 'foundation'
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'standard'
-                ? 'bg-blue-500/20 text-blue-400 border border-blue-500/40'
+                ? 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
                 : 'bg-purple-500/20 text-purple-400 border border-purple-500/40'
             }`}
           >
@@ -1358,7 +1358,7 @@ export function C6_HistoryCivicsIndusValleySocietySim({
          ═══════════════════════════════════════════════════════════ */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-700/50">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-700/50">
             <h3 className="text-lg font-bold text-amber-300 flex items-center gap-2">
               <span>🏺</span> {SCENARIO.title}
             </h3>
@@ -1549,7 +1549,7 @@ export function C6_HistoryCivicsIndusValleySocietySim({
 
                       {selectedArtifact === 'bath' && (
                         <div className="space-y-2">
-                          <svg viewBox="0 0 200 100" className="w-full h-24 bg-sky-950/20 rounded border border-sky-900/40">
+                          <svg viewBox="0 0 200 100" className="w-full h-24 bg-gold-950/20 rounded border border-gold-900/40">
                             <rect x="25" y="20" width="150" height="60" rx="4" fill="#0f172a" stroke="#38bdf8" strokeWidth="1.5" />
                             <rect x="40" y="30" width="120" height="40" fill="#0369a1" opacity="0.6" />
                             {/* Steps */}
@@ -1588,8 +1588,8 @@ export function C6_HistoryCivicsIndusValleySocietySim({
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   {/* Predict Then Check Hook if not done */}
                   {!predictionMade && (
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 mb-3">
-                      <p className="text-xs font-bold text-indigo-300 mb-1">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 mb-3">
+                      <p className="text-xs font-bold text-gold-300 mb-1">
                         🎯 Predict Before Interacting:
                       </p>
                       <p className="text-xs text-slate-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1793,7 +1793,7 @@ export function C6_HistoryCivicsIndusValleySocietySim({
                       onClick={() => setSelectedLibraryCategory('smriti')}
                       className={`flex-1 py-2 rounded-xl text-xs font-bold transition border ${
                         selectedLibraryCategory === 'smriti'
-                          ? 'bg-indigo-950/80 border-indigo-500 text-indigo-300'
+                          ? 'bg-gold-950/80 border-gold-500 text-gold-300'
                           : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1843,11 +1843,11 @@ export function C6_HistoryCivicsIndusValleySocietySim({
                   ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                        <p className="font-bold text-indigo-300">The 18 Mahapuranas (c. 300 BCE - 500 CE)</p>
+                        <p className="font-bold text-gold-300">The 18 Mahapuranas (c. 300 BCE - 500 CE)</p>
                         <p className="text-slate-300 text-[11px] mt-1">Narratives of Vishnu, Shiva, Devi avatars and dynastic genealogies for the general public.</p>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                        <p className="font-bold text-indigo-300">Itihasa (The Great Epics)</p>
+                        <p className="font-bold text-gold-300">Itihasa (The Great Epics)</p>
                         <p className="text-slate-300 text-[11px] mt-1">Valmiki’s Ramayana (24k shlokas) & Vyasa’s Mahabharata (100k shlokas) carrying dharma.</p>
                       </div>
                     </div>
@@ -2389,8 +2389,8 @@ export function C6_HistoryCivicsIndusValleySocietySim({
           )}
 
           {/* Spaced Repetition Schedule Banner */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 text-xs text-slate-300">
-            <span className="font-bold text-indigo-300">🧠 Spaced Repetition (SM-2 Schedule): </span>
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 text-xs text-slate-300">
+            <span className="font-bold text-gold-300">🧠 Spaced Repetition (SM-2 Schedule): </span>
             Based on your responses, this topic will be prompted for memory review in{' '}
             <span className="text-amber-400 font-bold">
               {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}

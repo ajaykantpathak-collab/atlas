@@ -39,7 +39,7 @@ export function C11_SociologySocietySocietySim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Sociological Imagination: Trouble or Issue?</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Sociological Imagination: Trouble or Issue?</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -73,7 +73,7 @@ export function C11_SociologySocietySocietySim() {
         {/* Lens panel */}
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-700 text-sm space-y-2">
           <div className="text-xs uppercase tracking-wide text-slate-400">Live diagnosis</div>
-          <div className="text-slate-300">Town depends on the one factory: <span className="font-mono text-sky-300">{townDependence}%</span></div>
+          <div className="text-slate-300">Town depends on the one factory: <span className="font-mono text-gold-300">{townDependence}%</span></div>
           <div className="text-slate-300">Share of town workers hit: <span className="font-mono text-amber-300">{shareOfWorkers}%</span></div>
           <div className="text-slate-300">Current lens: <span className={`font-bold ${lens === 'personal' ? 'text-emerald-300' : 'text-rose-300'}`}>{lens === 'personal' ? 'personal trouble' : 'public issue'}</span></div>
           <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">{remedies}</div>
@@ -99,16 +99,16 @@ export function C11_SociologySocietySocietySim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Workers affected (logarithmic)</span>
-            <span className="font-mono font-bold text-sky-300">{nAffected.toLocaleString('en-IN')}</span>
+            <span className="font-mono font-bold text-gold-300">{nAffected.toLocaleString('en-IN')}</span>
           </label>
-          <input type="range" aria-label="workers affected" min={0} max={5} step={0.05} value={affected} onChange={(e) => setAffected(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="workers affected" min={0} max={5} step={0.05} value={affected} onChange={(e) => setAffected(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Town dependence on the factory</span>
-            <span className="font-mono font-bold text-violet-300">{townDependence}%</span>
+            <span className="font-mono font-bold text-gold-300">{townDependence}%</span>
           </label>
-          <input type="range" aria-label="town dependence" min={10} max={100} step={5} value={townDependence} onChange={(e) => setTownDependence(Number(e.target.value))} className="w-full mt-2 accent-violet-400" />
+          <input type="range" aria-label="town dependence" min={10} max={100} step={5} value={townDependence} onChange={(e) => setTownDependence(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
       </div>
 
@@ -121,7 +121,7 @@ export function C11_SociologySocietySocietySim() {
         </button>
         <button
           onClick={() => setLens('structural')}
-          className={`px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border ${lens === 'structural' ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+          className={`px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border ${lens === 'structural' ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
         >
           Lens: blame the structure
         </button>
@@ -133,8 +133,8 @@ export function C11_SociologySocietySocietySim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Slide workers affected from 1 to 100,000 with dependence at 80%. At roughly how many workers does the verdict flip from trouble to issue?</li>
           <li>Set 10,000 affected. Now drag town dependence from 100% down to 10%. Why does the SAME layoff change its sociological meaning?</li>

@@ -11,7 +11,7 @@ export const w_c8_mathematicsthebaudhayanapythagorastheoremsim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Baudhayana\'s Sulba-Sutra: Doubling a Square',
     chapters: [],
     nodeIds: ['c8_math_ch9_1', 'c8_math_ch9_10', 'c8_math_ch9_2', 'c8_math_ch9_3', 'c8_math_ch9_4', 'c8_math_ch9_5', 'c8_math_ch9_7', 'c8_math_ch9_6', 'c8_math_ch9_8', 'c8_math_ch9_9', 'c8_math_ch14_5'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine a farmer in ancient India has a square field of side 10 metres and wants to mark out a new square.', goal: 'Master Baudhayana\'s Sulba-Sutra: Doubling a Square.' },
     discovery: {
         question: 'What is the side length of a square whose area is double that of a square with side 5 cm, according to Baudhayana\'s Sulba-Sutra method?',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsthebaudhayanapythagorastheoremsim: SimDef = {
         hook: 'Students believe doubling the side length of a square doubles its area (e.g., side 5 cm → side 10 cm for double area).',
     },
     teaching: [
-        { title: 'Baudhayana\'s Sulba-Sutra describes a.', text: 'Baudhayana\'s Sulba-Sutra describes a geometric method to construct a square with exactly twice the area of a given square: the side of the new square equals the diagonal of the original square.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Baudhayana\'s Sulba-Sutra describes a.', text: 'Baudhayana\'s Sulba-Sutra describes a geometric method to construct a square with exactly twice the area of a given square: the side of the new square equals the diagonal of the original square.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch9_1', title: 'Baudhayana\'s Sulba-Sutra describes a.',

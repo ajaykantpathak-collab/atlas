@@ -59,7 +59,7 @@ export function C11_SociologyEnvironmentSocietySim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Village Pasture: A Commons Experiment</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Village Pasture: A Commons Experiment</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -117,7 +117,7 @@ export function C11_SociologyEnvironmentSocietySim() {
           <div className="text-xs uppercase tracking-wide text-slate-400">Live village accounts</div>
           <div className="text-slate-300">
             Herders x herd each: {herders} x {effectiveHerd}
-            {isCapped && <span className="text-violet-300"> (capped from {herdPerHerder})</span>} = <span className="font-mono text-sky-300">{totalCattle}</span> cattle
+            {isCapped && <span className="text-gold-300"> (capped from {herdPerHerder})</span>} = <span className="font-mono text-gold-300">{totalCattle}</span> cattle
           </div>
           <div className="text-slate-300">
             Cattle health: <span className="font-mono text-amber-300">{cattleHealth}%</span> (tracks grass left)
@@ -147,9 +147,9 @@ export function C11_SociologyEnvironmentSocietySim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Cattle per herder</span>
-            <span className="font-mono font-bold text-sky-300">{herdPerHerder}{isCapped ? ' -> ' + effectiveHerd : ''}</span>
+            <span className="font-mono font-bold text-gold-300">{herdPerHerder}{isCapped ? ' -> ' + effectiveHerd : ''}</span>
           </label>
-          <input type="range" aria-label="cattle per herder" min={1} max={12} value={herdPerHerder} onChange={(e) => setHerdPerHerder(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="cattle per herder" min={1} max={12} value={herdPerHerder} onChange={(e) => setHerdPerHerder(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300">Number of herder families</label>
@@ -158,7 +158,7 @@ export function C11_SociologyEnvironmentSocietySim() {
               <button
                 key={n}
                 onClick={() => setHerders(n)}
-                className={`flex-1 min-h-11 rounded-xl text-sm font-semibold border ${herders === n ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                className={`flex-1 min-h-11 rounded-xl text-sm font-semibold border ${herders === n ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
               >
                 {n}
               </button>
@@ -184,7 +184,7 @@ export function C11_SociologyEnvironmentSocietySim() {
             >
               Toggle rule
             </button>
-            <button onClick={advanceYear} className="flex-1 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+            <button onClick={advanceYear} className="flex-1 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
               Advance 1 year
             </button>
           </div>
@@ -203,8 +203,8 @@ export function C11_SociologyEnvironmentSocietySim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Set 8 families x 6 cattle, keep the rule OFF, and press Advance 1 year five times. What happens to EACH family&apos;s income -- even the ones who did not add cattle?</li>
           <li>Now switch the rule ON and reset. Compare village income after 5 years. Why does every family end up richer under a rule that limits each one?</li>

@@ -1151,7 +1151,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
           >
             Tier: {difficulty}
           </motion.div>
-          <div className="px-3 py-1 bg-indigo-950 text-indigo-300 border border-indigo-800 rounded-full text-xs font-bold">
+          <div className="px-3 py-1 bg-gold-950 text-gold-300 border border-gold-800 rounded-full text-xs font-bold">
             Mastery: {masteryLevel}
           </div>
         </div>
@@ -1171,13 +1171,13 @@ export default function C9_BiologyHealthOrganizationswhoSim({
       ═══════════════════════════════════════════���════════════════════════════ */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <div className="flex items-center gap-2 mb-2 text-indigo-400 font-bold text-sm uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/80 shadow-lg">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 font-bold text-sm uppercase tracking-wider">
               <span>🚨</span> Narrative Scenario Mission
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300 mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
               📌 {SCENARIO.context}
             </p>
           </div>
@@ -1253,7 +1253,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentSlide + 1) / EXPLORATION_STEPS.length) * 100}%` }}
             />
           </div>
@@ -1268,7 +1268,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
             >
               <div>
                 <h3 className="text-xl font-bold text-white flex items-center gap-2">
-                  <span className="p-1.5 bg-indigo-950 border border-indigo-700 rounded-lg text-sm">🧪</span>
+                  <span className="p-1.5 bg-gold-950 border border-gold-700 rounded-lg text-sm">🧪</span>
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-amber-400 text-sm mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
@@ -1284,7 +1284,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
                       aria-label="Set crisis mode to epidemic outbreak"
                       className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-colors ${
                         crisisType === 'epidemic'
-                          ? 'bg-indigo-900 border-indigo-500 text-white'
+                          ? 'bg-gold-900 border-gold-500 text-white'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1515,8 +1515,8 @@ export default function C9_BiologyHealthOrganizationswhoSim({
 
                   {/* PREDICT-THEN-CHECK INJECTED HERE */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Interactive Challenge: Predict the Physical Response</p>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Interactive Challenge: Predict the Physical Response</p>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1550,7 +1550,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
                     <span className="text-slate-300">
                       Urban Sewage & Agro-Runoff Inflow: <strong className="text-rose-400">{sewageInflowPct}%</strong>
                     </span>
-                    <span className="text-cyan-400">Calculated BOD: {calculatedBOD} mg/L | DO: {calculatedDO} mg/L</span>
+                    <span className="text-gold-400">Calculated BOD: {calculatedBOD} mg/L | DO: {calculatedDO} mg/L</span>
                   </div>
 
                   <input
@@ -1581,7 +1581,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
                       <span className="text-xs text-slate-400">Dissolved Oxygen for Fish (DO)</span>
                       <div className="h-4 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-cyan-500"
+                          className="h-full bg-gold-500"
                           animate={{ width: `${(calculatedDO / 10) * 100}%` }}
                         />
                       </div>
@@ -1762,7 +1762,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Immunology Sandbox Panel */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 🛡️ Immune Neutralization Workbench
               </h3>
               <div className="flex gap-2">
@@ -1776,7 +1776,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
                     onClick={() => setSelectedPathogen(p.id as any)}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                       selectedPathogen === p.id
-                        ? 'bg-indigo-900 border-indigo-500 text-white'
+                        ? 'bg-gold-900 border-gold-500 text-white'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1869,7 +1869,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1931,7 +1931,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-2 bg-indigo-900 border border-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-2 bg-gold-900 border border-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2069,7 +2069,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(p => [...p, part])}
                       aria-label={`Add phrase tile: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-900 hover:bg-indigo-800 border border-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-900 hover:bg-gold-800 border border-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2174,7 +2174,7 @@ export default function C9_BiologyHealthOrganizationswhoSim({
             <h2 className="text-2xl md:text-3xl font-black text-white">Mission Accomplished!</h2>
             <p className="text-sm text-slate-300">
               Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong> | Final Mastery Level:{' '}
-              <strong className="text-indigo-400 uppercase">{masteryLevel}</strong>
+              <strong className="text-gold-400 uppercase">{masteryLevel}</strong>
             </p>
           </div>
 
@@ -2216,15 +2216,15 @@ export default function C9_BiologyHealthOrganizationswhoSim({
           </div>
 
           {/* Real-World Capstone Action Plan */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-xs">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold shrink-0">
                     {idx + 1}
                   </span>
                   <span className="text-slate-200">{step}</span>

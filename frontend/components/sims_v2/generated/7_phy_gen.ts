@@ -77,7 +77,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Battery",
+    "title": "A Battery Is a Combination",
     "text": "A battery is a combination of two or more electric cells connected together to provide a higher total voltage and sustained electric current to a circuit.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -89,7 +89,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Physics",
+    "title": "Physics Is The Branch Of Science That",
     "text": "Physics is the branch of science that studies matter, energy, motion, force, and their interactions in the physical universe, measured in fundamental SI units such as meters (m), kilograms (kg), and seconds (s).",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -125,7 +125,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Science",
+    "title": "Science Is An Ongoing",
     "text": "Science is an ongoing, evolving process of discovery where observations, experiments, and reasoning continuously refine our understanding of the natural world, measured through the accumulation of validated knowledge and empirical evidence.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -137,9 +137,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the very first step in the scientific process when encountering an unfamiliar natural phenomenon?",
     "answer": "Asking a curious question based on observation",
     "options": [
-     "The series chain runs: (1) Place one copper and one zinc strip in each lemon (2) Join the copper strip of the first lemon to the zinc strip of the second (3) Join the copper of",
-     "The primary goal is to use natural resources responsibly so that human needs are met today without destroying the environment or depriving future generations of those same",
-     "LED a curious question based on observation",
+     "Science as a process is a systematic method of inquiry used to investigate natural phenomena, starting from asking curious questions and exploring through observations",
+     "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment",
      "Asking a curious question based on observation"
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
@@ -234,7 +233,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "answer": "A qualitative observation describes properties using words without numbers (e.g., the flame is yellow, the wax melts smoothly)",
     "options": [
      "Incandescent bulbs convert a large portion of electrical energy into thermal energy (heat) rather than light, requiring more power generation from fossil fuels",
-     "Most electricity generation relies on burning fossil fuels, which releases greenhouse gases and causes pollution",
+     "Science and Society: Responsibility and Sustainability refers to the ethical duty of scientists, engineers",
      "A qualitative observation describes properties using words without numbers (e.g., the flame is yellow, the wax melts smoothly)"
     ],
     "hint": "Straight from the 'Observation and experimentation' slide -- match the key terms.",
@@ -254,8 +253,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the very first step a scientist typically takes when beginning an investigation using the scientific method?",
     "answer": "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment",
     "options": [
-     "The series chain runs: (1) Place one copper and one zinc strip in each lemon (2) Join the copper strip of the first lemon to the zinc strip of the second (3) Join the copper of",
-     "Asking a curious question based on observation",
+     "Can classify various natural phenomena and technological devices into their respective scientific branches (Physics, Chemistry, Biology",
+     "Can trace how an established scientific concept (like how light travels or how heat transfers) is modified or expanded by new evidence",
      "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment"
     ],
     "hint": "Straight from the 'Scientific Method' slide -- match the key terms.",
@@ -338,8 +337,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the primary goal of sustainable development in the context of scientific and technological applications?",
     "answer": "The primary goal is to use natural resources responsibly so that human needs are met today without destroying the environment or depriving future generations of those same",
     "options": [
-     "Cumulative building or scientific evolution",
-     "Asking a curious question based on observation",
+     "The primary goal is to systematically observe, measure, and understand ecological issues so that evidence-based, sustainable solutions can be developed",
+     "Can classify various natural phenomena and technological devices into their respective scientific branches (Physics, Chemistry, Biology",
      "The primary goal is to use natural resources responsibly so that human needs are met today without destroying the environment or depriving future generations of those same"
     ],
     "hint": "Straight from the 'Science and Society' slide -- match the key terms.",
@@ -359,11 +358,11 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "Which branch of science primarily investigates forces, motion, heat, light, and electricity?",
     "answer": "Physics is the branch that studies forces, motion, heat, light, and electricity",
     "options": [
-     "Cumulative building or scientific evolution",
-     "Physics is the branch that primarily deals with forces, motion, energy, and heat transfer",
+     "Can trace how an established scientific concept (like how light travels or how heat transfers) is modified or expanded by new evidence",
+     "Science and Society: Responsibility and Sustainability refers to the ethical duty of scientists, engineers",
      "Physics is the branch that studies forces, motion, heat, light, and electricity"
     ],
-    "hint": "Straight from the 'Physics' slide -- match the key terms.",
+    "hint": "Straight from the 'Physics is the branch of science' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Biology\" reveals a confusion between the study of living organisms and the study of physical forces and energy.",
     "id": "gen_c7_phy_ch01_q7",
     "nodeId": "c7_physics_ch01_006",
@@ -517,8 +516,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the primary purpose of keeping certain factors constant (controlled variables) during a scientific experiment?",
     "answer": "Controlled variables ensure that any change observed in the dependent variable is caused *only* by the independent variable being tested, making the experiment fair and reliable",
     "options": [
-     "Asking a curious question based on observation",
-     "Physics is the branch that primarily deals with forces, motion, energy, and heat transfer",
+     "Can trace how an established scientific concept (like how light travels or how heat transfers) is modified or expanded by new evidence",
+     "The primary goal is to systematically observe, measure, and understand ecological issues so that evidence-based, sustainable solutions can be developed",
      "Controlled variables ensure that any change observed in the dependent variable is caused *only* by the independent variable being tested, making the experiment fair and reliable"
     ],
     "hint": "Straight from the 'role of experiments in' slide -- match the key terms.",
@@ -624,7 +623,7 @@ export const C7_PHY_GEN: SimDef[] = [
      "This statement is false. An experiment that disproves a hypothesis is still a success because it rules out an incorrect explanation and guides scientists toward asking new",
      "Because new technology and more precise instruments allow us to test ideas at deeper levels, often revealing limitations in older models that require new theories"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
+    "hint": "Straight from the 'Science is an ongoing' slide -- match the key terms.",
     "misconception": "A student who thinks science ends with a final \"proof\" confuses science with rigid dogmatic belief systems.",
     "id": "gen_c7_phy_ch01_q13",
     "nodeId": "c7_physics_ch01_010",
@@ -698,15 +697,15 @@ export const C7_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is recording observations carefully during an exploration just as important as performing the exploration itself?",
-    "answer": "Careful recording provides reliable, objective data that prevents bias and allows others to verify or build upon the findings",
+    "question": "What is Science as a process? State the definition given in this lesson.",
+    "answer": "Science as a process is a systematic method of inquiry used to investigate natural phenomena, starting from asking curious questions and exploring through observations",
     "options": [
-     "Past ideas are usually built on reliable, repeatable observations that remain true within specific limits (for example",
-     "While heat transfer and temperature changes involve physics, the phase change from liquid to vapor and the chemical structure of water involve chemistry",
-     "Careful recording provides reliable, objective data that prevents bias and allows others to verify or build upon the findings"
+     "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment",
+     "Science is an ongoing, evolving process of discovery where observations, experiments, and reasoning continuously refine our understanding of the natural world",
+     "Science as a process is a systematic method of inquiry used to investigate natural phenomena, starting from asking curious questions and exploring through observations"
     ],
     "hint": "Straight from the 'Science as a process' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"so you can make your notebook look neat\" shows a failure to grasp that data is the core evidence used to build scientific conclusions.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Science as a process is a systematic method of inquiry used to investigate natural phenomena, starting from asking",
     "id": "gen_c7_phy_ch01_q18",
     "nodeId": "c7_physics_ch01_001",
     "difficulty": "advanced"
@@ -793,7 +792,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Second",
+    "title": "The Second Is The Standard International",
     "text": "The second is the standard International System of Units (SI) unit of time, defined scientifically based on atomic vibrations, but in daily school physics, it is measured as $\\frac{1}{86400}$ of a mean solar day.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1098,8 +1097,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the approximate time taken by the Earth to complete one full revolution around the Sun?",
     "answer": "The Earth takes approximately 365 days and 6 hours (or 365.25 days) to complete one revolution around the Sun",
     "options": [
+     "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle",
      "The correct alignment is Sun-Earth-Moon, where the Earth is positioned directly between the Sun and the Moon",
-     "The Sun appears to move from east to west",
      "The Earth takes approximately 365 days and 6 hours (or 365.25 days) to complete one revolution around the Sun"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
@@ -1297,7 +1296,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "answer": "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle",
     "options": [
      "The Sun, Earth, and Moon must align in a straight line",
-     "The physics chain runs: (1) Cold raises the viscosity of water (2) Thicker water drips more slowly through the hole (3) The drip rate falls below its calibrated rate (4) The",
+     "Can explain the alignment of the Sun, Earth, and Moon during a lunar eclipse, distinguish between the umbra and penumbra regions of Earth's shadow",
      "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle"
     ],
     "hint": "Straight from the 'solar eclipse' slide -- match the key terms.",
@@ -1423,9 +1422,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is the exact angle at which Earth's rotational axis is tilted relative to the line perpendicular to its orbital plane?",
     "answer": "Earth's axis is tilted at an angle of 23.5° from the perpendicular (or 66.5° to the orbital plane)",
     "options": [
-     "The revolution of the Earth around the Sun",
-     "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle",
-     "New Delhi axis is tilted at an angle of 23.5° from the perpendicular (or 66.5° to the orbital plane)",
+     "Can explain why the tilt of Earth's axis causes varying directness of sunlight and day length across the year",
+     "Can explain how the Earth's rotation on its axis creates day and night by demonstrating which side faces the Sun and which side faces away from the Sun using a model",
      "Earth's axis is tilted at an angle of 23.5° from the perpendicular (or 66.5° to the orbital plane)"
     ],
     "hint": "Straight from the 'Earth's axis' slide -- match the key terms.",
@@ -1464,7 +1462,7 @@ export const C7_PHY_GEN: SimDef[] = [
      "Steps: 1. Identify the axial tilt: 0° (no tilt). 2. Determine the consequence of 0° tilt on sunlight: Sun rays hit any given latitude at the exact same angle every single day of",
      "The standardisation chain runs: (1) Traditional units like the ghati differ from region to region (2) Scientists need one common unit to share and compare measurements (3) The"
     ],
-    "hint": "Straight from the 'second' slide -- match the key terms.",
+    "hint": "Straight from the 'The second is the standard' slide -- match the key terms.",
     "misconception": "A wrong answer that claims traditional units serve science equally well shows the student has not understood why uniformity, consistency and unambiguous communication motivate the SI system.",
     "id": "gen_c7_phy_ch06_q16",
     "nodeId": "c7_physics_ch04_003",
@@ -1561,7 +1559,7 @@ export const C7_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "When An Acidic Substance And a Basic",
+    "title": "When An Acidic Substance",
     "text": "When an acidic substance and a basic substance are mixed in the correct proportions, they chemically neutralize each other's properties, producing a salt and water along with the release of heat energy.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1685,7 +1683,7 @@ export const C7_PHY_GEN: SimDef[] = [
      "Clove oil has a strong, distinct spicy aroma. When drops of the unknown liquid are placed on the cloth, if the clove smell disappears, the liquid is basic (baking soda solution)",
      "The basic antacid chemically reacts with the excess hydrochloric acid in the stomach to neutralize it, reducing acidity and forming harmless products"
     ],
-    "hint": "Straight from the 'When an acidic substance and a' slide -- match the key terms.",
+    "hint": "Straight from the 'When an acidic substance' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the antacid dilutes the acid without reacting, ignoring the specific neutralizing chemical interaction between acids and bases.",
     "id": "gen_c7_phy_ch07_q3",
     "nodeId": "c7_physics_ch07_005",
@@ -1765,8 +1763,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "What is an olfactory indicator?",
     "answer": "An olfactory indicator is a substance whose smell changes or remains unaffected depending on whether it is mixed with an acidic or basic medium",
     "options": [
-     "Tasting unknown laboratory chemicals is extremely dangerous because many acids and bases are corrosive, highly toxic, or capable of burning living tissue",
-     "The statement is inaccurate because while acidity causes a sour taste, organic acids found in food (like citric acid in lemons or acetic acid in vinegar) are weak and safe to eat",
+     "Can predict and explain how the characteristic scent of onion, vanilla, or clove oil changes when exposed to acidic versus basic substances in everyday household tests",
+     "Olfactory indicators are substances whose odor changes or disappears in acidic or basic media",
      "An olfactory indicator is a substance whose smell changes or remains unaffected depending on whether it is mixed with an acidic or basic medium"
     ],
     "hint": "Straight from the 'Olfactory indicators' slide -- match the key terms.",
@@ -1865,7 +1863,7 @@ export const C7_PHY_GEN: SimDef[] = [
      "Vanilla essence retains its aroma in an acid because the scent molecules are not chemically altered or neutralized by acidic hydrogen ions",
      "The statement is incorrect because neutralization produces both water and a dissolved salt, meaning ions from the original acid and base remain in the solution"
     ],
-    "hint": "Straight from the 'When an acidic substance and a' slide -- match the key terms.",
+    "hint": "Straight from the 'When an acidic substance' slide -- match the key terms.",
     "misconception": "A wrong answer shows a failure to account for all atomic components (cations and anions) participating in the neutralization reaction.",
     "id": "gen_c7_phy_ch07_q13",
     "nodeId": "c7_physics_ch07_005",
@@ -1876,8 +1874,8 @@ export const C7_PHY_GEN: SimDef[] = [
     "question": "Compare two household solutions: Solution A has a pH of 3, and Solution B has a pH of 6. Which solution is closer to neutral, and by how many pH units do they differ?",
     "answer": "B (pH 6) is closer to neutral (pH 7) because 6 is numerically closer to 7 than 3 is. The difference between them is 3 pH units (6 - 3 = 3)",
     "options": [
-     "The claim is partially incorrect because while turmeric successfully indicates bases by turning reddish-brown, it remains yellow in both neutral and acidic substances",
-     "The claim is invalid because soap solution is basic in nature. Bases destroy or mask the characteristic fragrance of olfactory indicators like vanilla",
+     "Can predict and explain how the characteristic scent of onion, vanilla, or clove oil changes when exposed to acidic versus basic substances in everyday household tests",
+     "Clove oil has a strong, distinct spicy aroma. When drops of the unknown liquid are placed on the cloth, if the clove smell disappears, the liquid is basic (baking soda solution)",
      "B (pH 6) is closer to neutral (pH 7) because 6 is numerically closer to 7 than 3 is. The difference between them is 3 pH units (6 - 3 = 3)"
     ],
     "hint": "Straight from the 'pH scale' slide -- match the key terms.",

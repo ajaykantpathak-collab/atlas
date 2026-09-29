@@ -11,7 +11,7 @@ export const w_c12_appliedmathsdifferentiationapplicationssim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Derivatives of Inverse Trigonometric Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_05_008', 'c12_math_cbse_05_011', 'c12_math_cbse_05_012', 'c12_math_cbse_05_013', 'c12_math_cbse_06_005', 'c12_math_cbse_07_008', 'c12_math_cbse_10_005', 'c12_math_cbse_06_001', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_05_001', 'c12_math_cbse_05_002', 'c12_math_cbse_05_003', 'c12_math_cbse_05_004', 'c12_math_cbse_05_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a roller coaster track where the banking angle \\( \\theta \\) at any point depends on.', goal: 'Master Derivatives of Inverse Trigonometric Functions.' },
     discovery: {
         question: 'What is the mathematical definition of the second order derivative of a function \\(y = f(x)\\)? Write the notation used for it.',
@@ -20,7 +20,7 @@ export const w_c12_appliedmathsdifferentiationapplicationssim: SimDef = {
         hook: '**Misconception:** \\(\\frac{d^2y}{dx^2} = \\left(\\frac{dy}{dx}\\right)^2\\) or \\(\\frac{d^2y}{dx^2} = \\frac{d^2y}{d^2x}\\).',
     },
     teaching: [
-        { title: 'The derivative of an inverse trigonometric.', text: 'The derivative of an inverse trigonometric function \\( y = \\sin^{-1}x \\), \\( \\cos^{-1}x \\), \\( \\tan^{-1}x \\), \\( \\cot^{-1}x \\), \\( \\sec^{-1}x \\), or \\( \\csc^{-1}x \\) is obtained by differentiating.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The derivative of an inverse trigonometric.', text: 'The derivative of an inverse trigonometric function \\( y = \\sin^{-1}x \\), \\( \\cos^{-1}x \\), \\( \\tan^{-1}x \\), \\( \\cot^{-1}x \\), \\( \\sec^{-1}x \\), or \\( \\csc^{-1}x \\) is obtained by differentiating.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_05_008', title: 'The derivative of an inverse.',

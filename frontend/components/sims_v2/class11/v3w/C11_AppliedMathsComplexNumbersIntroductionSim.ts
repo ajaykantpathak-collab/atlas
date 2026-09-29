@@ -11,7 +11,7 @@ export const w_c11_appliedmathscomplexnumbersintroductionsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Need for Complex Numbers: Beyond Real Numbers',
     chapters: [],
     nodeIds: ['c11_math_cbse_05_001', 'c11_math_cbse_05_002', 'c11_math_cbse_05_003', 'c11_math_cbse_05_004', 'c11_math_cbse_05_005', 'c11_math_cbse_05_007', 'c11_math_cbse_05_008', 'c11_math_cbse_05_009', 'c11_math_cbse_05_010', 'c11_math_cbse_05_012', 'c11_math_cbse_09_008', 'c11_math_cbse_04_005', 'c11_math_cbse_03_007', 'c11_math_cbse_03_011', 'c11_math_cbse_03_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are solving a physics problem about a spring-mass system and arrive at the equation \\(x^2 + 9 =.', goal: 'Master Need for Complex Numbers: Beyond Real Numbers.' },
     discovery: {
         question: 'What is the conjugate of the denominator used when dividing \\(\\frac{2+3i}{4-i}\\), and why do we multiply by it?',
@@ -20,7 +20,7 @@ export const w_c11_appliedmathscomplexnumbersintroductionsim: SimDef = {
         hook: 'Students forget that \\(i^2 = -1\\) when expanding the numerator after multiplying by the conjugate, treating \\(i^2\\) as.',
     },
     teaching: [
-        { title: 'Complex numbers are an extension of the real.', text: 'Complex numbers are an extension of the real number system, defined as numbers of the form \\(a + ib\\) where \\(a, b \\in \\mathbb{R}\\) and \\(i\\) is the imaginary unit satisfying \\(i^2 = -1\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Complex numbers are an extension of the real.', text: 'Complex numbers are an extension of the real number system, defined as numbers of the form \\(a + ib\\) where \\(a, b \\in \\mathbb{R}\\) and \\(i\\) is the imaginary unit satisfying \\(i^2 = -1\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_05_001', title: 'Complex numbers are an extension of the.',

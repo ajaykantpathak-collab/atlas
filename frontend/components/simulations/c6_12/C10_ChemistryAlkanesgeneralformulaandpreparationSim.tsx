@@ -41,7 +41,7 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Alkane Machine: CnH2n+2</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Alkane Machine: CnH2n+2</h1>
       <p className="mt-1 text-sm text-slate-400">
         Drag the slider to add carbons. Every alkane that ever existed obeys one formula — watch it hold.
       </p>
@@ -55,13 +55,13 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
         </button>
         <button
           onClick={() => setN((v) => Math.min(10, v + 1))}
-          className="min-h-11 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold transition-colors"
+          className="min-h-11 px-4 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold transition-colors"
         >
           + add CH2 group
         </button>
         <button
           onClick={() => setShowH((v) => !v)}
-          className={`min-h-11 px-4 rounded-xl text-sm font-bold border transition-colors ${showH ? 'bg-violet-600 border-violet-500' : 'bg-slate-800 border-slate-700 hover:bg-slate-700'}`}
+          className={`min-h-11 px-4 rounded-xl text-sm font-bold border transition-colors ${showH ? 'bg-gold-600 border-gold-500' : 'bg-slate-800 border-slate-700 hover:bg-slate-700'}`}
         >
           {showH ? 'Hide hydrogens' : 'Show hydrogens'}
         </button>
@@ -70,7 +70,7 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
       <div className="mt-3">
         <label className="text-xs font-semibold text-slate-400 flex justify-between">
           <span>Chain length n (carbons)</span>
-          <span className="font-mono text-indigo-300">n = {n}</span>
+          <span className="font-mono text-gold-300">n = {n}</span>
         </label>
         <input
           type="range"
@@ -79,7 +79,7 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
           value={n}
           aria-label="number of carbon atoms"
           onChange={(e) => setN(Number(e.target.value))}
-          className="w-full mt-1 min-h-11 accent-indigo-500"
+          className="w-full mt-1 min-h-11 accent-gold-500"
         />
       </div>
 
@@ -125,11 +125,11 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
           <div className="grid grid-cols-3 gap-2 mt-2 text-center">
             <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Molar mass</div>
-              <div className="font-mono text-indigo-300 font-bold">{mass.toFixed(1)} g/mol</div>
+              <div className="font-mono text-gold-300 font-bold">{mass.toFixed(1)} g/mol</div>
             </div>
             <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">H/C ratio</div>
-              <div className="font-mono text-violet-300 font-bold">{hcr.toFixed(2)}</div>
+              <div className="font-mono text-gold-300 font-bold">{hcr.toFixed(2)}</div>
             </div>
             <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Boiling point</div>
@@ -141,7 +141,7 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
         <div className="space-y-4">
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
             <div className="text-sm text-slate-300">
-              Live formula check: n = <span className="font-mono text-indigo-300">{n}</span> gives{' '}
+              Live formula check: n = <span className="font-mono text-gold-300">{n}</span> gives{' '}
               <span className="font-mono">2( {n} ) + 2 = {H}</span> hydrogens →{' '}
               <span className="text-lg font-bold text-emerald-400">{formula}</span>, a{' '}
               <span className="text-amber-300">{state}</span> at room temperature.
@@ -151,7 +151,7 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
             <div className="text-xs font-semibold text-slate-400 flex justify-between">
               <span>Predict before you peek: pick an n for the hidden chain</span>
-              <span className="font-mono text-violet-300">predict n = {predict}</span>
+              <span className="font-mono text-gold-300">predict n = {predict}</span>
             </div>
             <input
               type="range"
@@ -160,7 +160,7 @@ export function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               value={predict}
               aria-label="prediction chain length"
               onChange={(e) => setPredict(Number(e.target.value))}
-              className="w-full mt-1 min-h-11 accent-violet-500"
+              className="w-full mt-1 min-h-11 accent-gold-500"
             />
             <div className={`mt-2 text-sm rounded-xl p-3 border transition-colors ${predict === n ? 'bg-emerald-500/10 border-emerald-700 text-emerald-300' : 'bg-slate-950 border-slate-800 text-slate-300'}`}>
               {predict === n ? (

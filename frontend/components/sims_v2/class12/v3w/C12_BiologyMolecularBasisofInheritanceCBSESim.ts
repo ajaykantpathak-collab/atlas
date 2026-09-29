@@ -11,7 +11,7 @@ export const w_c12_biologymolecularbasisofinheritancecbsesim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Incomplete Dominance and Codominance',
     chapters: [],
     nodeIds: ['c12_bio_cbse_05_004', 'c12_bio_cbse_05_006', 'c12_bio_cbse_05_008', 'c12_bio_cbse_05_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a garden with red, white, and pink snapdragon flowers growing side by side.', goal: 'Master Incomplete Dominance and Codominance.' },
     discovery: {
         question: 'A cross between two pink-flowered snapdragons produces 240 offspring. How many red, pink, and white flowers are expected?',
@@ -20,7 +20,7 @@ export const w_c12_biologymolecularbasisofinheritancecbsesim: SimDef = {
         hook: 'Students often think "incomplete dominance = blending inheritance" in the outdated sense that the genetic material.',
     },
     teaching: [
-        { title: 'Incomplete dominance is a genetic.', text: 'Incomplete dominance is a genetic inheritance pattern where neither allele is completely dominant over the other, resulting in a heterozygous phenotype that is a distinct intermediate blend of the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Incomplete dominance is a genetic.', text: 'Incomplete dominance is a genetic inheritance pattern where neither allele is completely dominant over the other, resulting in a heterozygous phenotype that is a distinct intermediate blend of the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_05_004', title: 'Incomplete dominance is a genetic.',

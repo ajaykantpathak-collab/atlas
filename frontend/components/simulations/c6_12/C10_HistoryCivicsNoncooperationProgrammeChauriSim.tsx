@@ -1397,7 +1397,7 @@ function C10_HistoryCivicsNoncooperationProgrammeChauriSim(props: Props = DEFAUL
                     <tr className="border-b border-slate-700 text-slate-300">
                       <th className="p-2.5">Attribute</th>
                       <th className="p-2.5 text-amber-300">Non-Cooperation (1920)</th>
-                      <th className="p-2.5 text-blue-300">Civil Disobedience (1930)</th>
+                      <th className="p-2.5 text-gold-300">Civil Disobedience (1930)</th>
                       <th className="p-2.5 text-emerald-300">Quit India (1942)</th>
                     </tr>
                   </thead>
@@ -1478,7 +1478,7 @@ function C10_HistoryCivicsNoncooperationProgrammeChauriSim(props: Props = DEFAUL
                     <span className="text-slate-300">Non-Cooperation: Staged boycott of British colonial institutions.</span>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-blue-400 font-bold block">1930-1934</span>
+                    <span className="text-gold-400 font-bold block">1930-1934</span>
                     <span className="text-slate-300">Civil Disobedience: Dandi March & direct defiance of salt monopolies.</span>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1497,22 +1497,22 @@ function C10_HistoryCivicsNoncooperationProgrammeChauriSim(props: Props = DEFAUL
             <motion.div
               initial={{ y: 5, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="p-5 bg-gradient-to-r from-blue-950/60 to-slate-900 rounded-2xl border border-blue-800/80 space-y-3"
+              className="p-5 bg-gradient-to-r from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 space-y-3"
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-widest text-blue-400">
+                <span className="text-xs font-bold uppercase tracking-widest text-gold-400">
                   👀 Brilliant.org Observation Check {obsIndex + 1} of {OBSERVATION_QUESTIONS.length}
                 </span>
                 <div className="flex gap-2">
                   <button
                     onClick={() => { setObsIndex(0); setObsSubmitted(false); setSelectedObsOption(null); }}
-                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold ${obsIndex === 0 ? 'bg-blue-500 text-slate-950' : 'bg-slate-800 text-slate-300'}`}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold ${obsIndex === 0 ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300'}`}
                   >
                     Obs 1
                   </button>
                   <button
                     onClick={() => { setObsIndex(1); setObsSubmitted(false); setSelectedObsOption(null); }}
-                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold ${obsIndex === 1 ? 'bg-blue-500 text-slate-950' : 'bg-slate-800 text-slate-300'}`}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold ${obsIndex === 1 ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300'}`}
                   >
                     Obs 2
                   </button>
@@ -1543,13 +1543,13 @@ function C10_HistoryCivicsNoncooperationProgrammeChauriSim(props: Props = DEFAUL
                         : 'bg-slate-950 hover:bg-slate-800 text-slate-300 border-slate-800'
                     }`}
                   >
-                    <span className="font-bold mr-1.5 text-blue-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </button>
                 ))}
               </div>
 
               {obsSubmitted && (
-                <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-blue-300 space-y-1">
+                <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-gold-300 space-y-1">
                   <div>💡 <span className="font-bold">Insight:</span> {OBSERVATION_QUESTIONS[obsIndex].explanation}</div>
                 </div>
               )}

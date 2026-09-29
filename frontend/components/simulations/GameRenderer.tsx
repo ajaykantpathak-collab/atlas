@@ -593,9 +593,9 @@ export function GameRenderer({
             key={currentSlide}
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            className="z-10 flex flex-col items-center bg-white/95 backdrop-blur-md rounded-3xl p-5 shadow-xl border-4 border-indigo-200 max-w-md w-full pointer-events-auto my-auto"
+            className="z-10 flex flex-col items-center bg-white/95 backdrop-blur-md rounded-3xl p-5 shadow-xl border-4 border-gold-200 max-w-md w-full pointer-events-auto my-auto"
           >
-            <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${slide.bgColor || 'from-indigo-400 to-purple-500'} flex items-center justify-center text-2xl shadow-md mb-3`}>
+            <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${slide.bgColor || 'from-gold-400 to-purple-500'} flex items-center justify-center text-2xl shadow-md mb-3`}>
               {slide.emoji}
             </div>
             <h2 className="text-lg font-black text-gray-800 mb-2 text-center">{simplifySlideTitle(slide.title, gameData.classLevel || 1)}</h2>
@@ -612,7 +612,7 @@ export function GameRenderer({
                   speechManager.speak(text);
                 }
               }}
-              className="mt-3 px-5 py-3 rounded-xl bg-indigo-100 text-indigo-700 text-base font-bold hover:bg-indigo-200 transition-all flex items-center gap-2 shadow-sm"
+              className="mt-3 px-5 py-3 rounded-xl bg-gold-100 text-gold-700 text-base font-bold hover:bg-gold-200 transition-all flex items-center gap-2 shadow-sm"
             >
               🔊 Listen
             </button>
@@ -626,7 +626,7 @@ export function GameRenderer({
               className={`px-5 py-3 rounded-xl font-bold text-base shadow-md transition-all ${
                 currentSlide === 0
                   ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                  : 'bg-indigo-500 text-white hover:bg-indigo-600 active:scale-95'
+                  : 'bg-gold-500 text-white hover:bg-gold-600 active:scale-95'
               }`}
             >
               ← Prev
@@ -638,7 +638,7 @@ export function GameRenderer({
                 <div
                   key={i}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-600 scale-125' : 'bg-indigo-200'
+                    i === currentSlide ? 'bg-gold-600 scale-125' : 'bg-gold-200'
                   }`}
                 />
               ))}
@@ -647,7 +647,7 @@ export function GameRenderer({
             {currentSlide < totalSlides - 1 ? (
               <button
                 onClick={handleNextSlide}
-                className="px-5 py-3 rounded-xl font-bold text-base bg-indigo-500 text-white shadow-md hover:bg-indigo-600 active:scale-95 transition-all"
+                className="px-5 py-3 rounded-xl font-bold text-base bg-gold-500 text-white shadow-md hover:bg-gold-600 active:scale-95 transition-all"
               >
                 Next →
               </button>
@@ -679,14 +679,14 @@ export function GameRenderer({
         <div className="absolute inset-0 flex flex-col pointer-events-none">
           {/* Top Bar */}
           <div className="z-10 flex items-center justify-between w-full pl-12 pr-4 pt-2 pointer-events-auto">
-            <div className="flex items-center gap-3 bg-white/90 backdrop-blur-md px-3 py-2 rounded-2xl shadow-md border-2 border-indigo-200">
-              <span className="text-xs font-bold text-indigo-900">
+            <div className="flex items-center gap-3 bg-white/90 backdrop-blur-md px-3 py-2 rounded-2xl shadow-md border-2 border-gold-200">
+              <span className="text-xs font-bold text-gold-900">
                 Challenge {currentChallenge + 1} / {totalChallenges}
               </span>
               {/* Guided practice phase indicator */}
               {guidedPractice && (
                 <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
-                  guidedPractice.phase === 'i_do' ? 'bg-blue-100 text-blue-700' :
+                  guidedPractice.phase === 'i_do' ? 'bg-gold-100 text-gold-700' :
                   guidedPractice.phase === 'we_do' ? 'bg-green-100 text-green-700' :
                   'bg-orange-100 text-orange-700'
                 }`}>
@@ -718,7 +718,7 @@ export function GameRenderer({
             {/* Adaptive indicator */}
             {adaptiveMode !== 'normal' && (
               <div className={`px-2 py-1 rounded-lg text-xs font-bold ${
-                adaptiveMode === 'easier' ? 'bg-blue-100 text-blue-700' : 'bg-orange-100 text-orange-700'
+                adaptiveMode === 'easier' ? 'bg-gold-100 text-gold-700' : 'bg-orange-100 text-orange-700'
               }`}>
                 {adaptiveMode === 'easier' ? '📝 Easier mode' : '🔥 Harder mode'}
               </div>
@@ -726,7 +726,7 @@ export function GameRenderer({
           </div>
 
           {/* Question */}
-          <div className="z-10 flex flex-col items-center bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg border-2 border-indigo-200 max-w-lg w-full mx-auto mt-4 pointer-events-auto">
+          <div className="z-10 flex flex-col items-center bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg border-2 border-gold-200 max-w-lg w-full mx-auto mt-4 pointer-events-auto">
             <p className="text-sm font-bold text-gray-800 text-center leading-snug">
               {challenge.question}
             </p>
@@ -800,7 +800,7 @@ export function GameRenderer({
                           ? 'bg-green-500 text-white border-green-600 scale-110'
                           : isWrong
                           ? 'bg-red-400 text-white border-red-500'
-                          : 'bg-gradient-to-r from-indigo-400 to-purple-400 text-white border-indigo-500'
+                          : 'bg-gradient-to-r from-gold-400 to-purple-400 text-white border-gold-500'
                       }`}
                     >
                       {opt}
@@ -832,7 +832,7 @@ export function GameRenderer({
 
             {/* Scaffolding hint after wrong answer */}
             {attemptCount > 0 && !showCorrectAnswer && !challenge.type.startsWith('sort') && (
-              <div className="mt-2 px-3 py-1.5 bg-blue-50 rounded-lg border border-blue-200 text-xs text-blue-700 font-semibold">
+              <div className="mt-2 px-3 py-1.5 bg-gold-50 rounded-lg border border-gold-200 text-xs text-gold-700 font-semibold">
                 💡 {guidedPractice ? getPhaseHint(guidedPractice.phase, challenge.hint || 'Take your time and look at the pictures above!') : (challenge.hint || 'Take your time and look at the pictures above!')}
               </div>
             )}
@@ -850,7 +850,7 @@ export function GameRenderer({
 
             {/* Adaptive difficulty indicator — struggling student gets easier mode */}
             {consecutiveWrong >= 2 && !showCorrectAnswer && (
-              <div className="mt-2 px-3 py-1.5 bg-blue-100 rounded-lg border border-blue-300 text-xs text-blue-700 font-bold">
+              <div className="mt-2 px-3 py-1.5 bg-gold-100 rounded-lg border border-gold-300 text-xs text-gold-700 font-bold">
                 📝 Easier mode activated — fewer objects, simpler questions!
               </div>
             )}
@@ -874,7 +874,7 @@ export function GameRenderer({
             {/* Sort challenge — drag-and-drop bins + cards */}
             {challenge.type.startsWith('sort') && challenge.bins && challenge.sortItems && (
               <div className="w-full mt-3">
-                <p className="text-xs text-indigo-500 font-semibold mb-2">
+                <p className="text-xs text-gold-500 font-semibold mb-2">
                   Drag each card into the correct bin!
                 </p>
                 {/* Bins row */}
@@ -970,7 +970,7 @@ export function GameRenderer({
                         }}
                       >
                         <div
-                          className="rounded-lg border-2 border-indigo-400 bg-white px-2 py-1 text-center shadow-md"
+                          className="rounded-lg border-2 border-gold-400 bg-white px-2 py-1 text-center shadow-md"
                           style={{ width: cardW, height: cardH }}
                         >
                           <div className="text-[11px] font-bold text-gray-700 leading-tight flex flex-col items-center justify-center h-full">
@@ -994,7 +994,7 @@ export function GameRenderer({
             {/* Hint button */}
             <button
               onClick={handleShowHint}
-              className="mt-3 px-4 py-2 text-sm text-indigo-600 font-bold hover:text-indigo-800 bg-indigo-50 rounded-xl hover:bg-indigo-100 transition-all"
+              className="mt-3 px-4 py-2 text-sm text-gold-600 font-bold hover:text-gold-800 bg-gold-50 rounded-xl hover:bg-gold-100 transition-all"
             >
               💡 Need a hint?
             </button>
@@ -1036,7 +1036,7 @@ export function GameRenderer({
             className="bg-white rounded-3xl p-8 shadow-2xl border-4 border-yellow-400 text-center max-w-sm"
           >
             <div className="text-5xl mb-3">🏆</div>
-            <h2 className="text-2xl font-black text-indigo-700 mb-2">Game Complete!</h2>
+            <h2 className="text-2xl font-black text-gold-700 mb-2">Game Complete!</h2>
 
             {/* Stars */}
             <div className="flex justify-center gap-1 my-3">
@@ -1061,10 +1061,10 @@ export function GameRenderer({
 
             {/* Spiral review suggestions */}
             {reviewSuggestions.length > 0 && (
-              <div className="mt-4 p-3 bg-blue-50 rounded-xl border border-blue-200 text-left">
-                <p className="text-xs font-bold text-blue-700 mb-2">📚 Review these topics:</p>
+              <div className="mt-4 p-3 bg-gold-50 rounded-xl border border-gold-200 text-left">
+                <p className="text-xs font-bold text-gold-700 mb-2">📚 Review these topics:</p>
                 {reviewSuggestions.map((r, i) => (
-                  <div key={i} className="text-xs text-blue-600 mb-1">
+                  <div key={i} className="text-xs text-gold-600 mb-1">
                     • {r.topic} ({r.subject}) — {r.daysOverdue} days overdue
                   </div>
                 ))}
@@ -1075,7 +1075,7 @@ export function GameRenderer({
             <div className="flex flex-col gap-2 mt-4 items-center">
               <a
                 href="/play"
-                className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold text-sm hover:shadow-lg transition-all w-full"
+                className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-purple-500 text-white font-bold text-sm hover:shadow-lg transition-all w-full"
               >
                 🎯 Next Adventure →
               </a>
@@ -1185,7 +1185,7 @@ export function GameRenderer({
                     setA11yConfig(a11y.getConfig());
                   }
                 }}
-                className={`px-2 py-0.5 rounded text-xs ${a11yConfig.fontSize === size ? 'bg-indigo-500 text-white' : 'bg-gray-100 text-gray-600'}`}
+                className={`px-2 py-0.5 rounded text-xs ${a11yConfig.fontSize === size ? 'bg-gold-500 text-white' : 'bg-gray-100 text-gray-600'}`}
               >
                 {size[0].toUpperCase()}
               </button>
@@ -1238,9 +1238,9 @@ export function GameRenderer({
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
-          className="absolute bottom-4 right-4 z-40 bg-white rounded-xl shadow-lg border-2 border-indigo-200 p-3 max-w-xs"
+          className="absolute bottom-4 right-4 z-40 bg-white rounded-xl shadow-lg border-2 border-gold-200 p-3 max-w-xs"
         >
-          <h3 className="text-xs font-bold text-indigo-700 mb-2">📊 Your Learning Insights</h3>
+          <h3 className="text-xs font-bold text-gold-700 mb-2">📊 Your Learning Insights</h3>
           {insights.slice(0, 3).map((ins, i) => (
             <p key={i} className="text-xs text-gray-600 mb-1">
               {ins.type === 'strength' ? '💪' : ins.type === 'weakness' ? '📚' : ins.type === 'review_due' ? '🔄' : '🔥'} {ins.message}

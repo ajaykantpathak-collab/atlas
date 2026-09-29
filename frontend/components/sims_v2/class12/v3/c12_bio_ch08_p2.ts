@@ -6,7 +6,7 @@ export const c12_bio_ch08_p2: SimDef = {
     id: 'v3_c12_bio_ch08_p2',
     title: 'Human Health and Disease',
     subtitle: 'How your immune system hunts, remembers, and sometimes turns on itself.',
-    classLevel: 12, subject: 'biology', topic: 'Human Health and Disease · Part 2/2',
+    classLevel: 12, subject: 'biology', topic: 'Human Health and Disease',
     chapters: ['c12_bio_ch08'],
     nodeIds: ['c12_bio_cbse_08_007', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_009'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

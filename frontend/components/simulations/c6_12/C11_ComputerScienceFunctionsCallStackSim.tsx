@@ -87,16 +87,16 @@ export function C11_ComputerScienceFunctionsCallStackSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">CBSE Class 11 Computer Science - Functions</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 11 Computer Science - Functions</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Python Call Stack: frames, arguments, returns</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300">Step {stepIdx} / {events.length}</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Step {stepIdx} / {events.length}</span>
       </header>
 
       {/* CONTROLS */}
       <div className="flex flex-wrap gap-2 mb-3">
         {PROGRAMS.map((p) => (
-          <button key={p.id} onClick={() => pick(p.id)} className={`min-h-11 px-4 rounded-xl text-xs font-mono font-bold border ${progId === p.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+          <button key={p.id} onClick={() => pick(p.id)} className={`min-h-11 px-4 rounded-xl text-xs font-mono font-bold border ${progId === p.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
             {p.label}
           </button>
         ))}
@@ -145,14 +145,14 @@ ${prog.label}`}</pre>
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mt-4 mb-3">
         <p>
-          <span className="font-bold text-sky-300">Big idea:</span> every function CALL creates a fresh frame holding its OWN local
+          <span className="font-bold text-gold-300">Big idea:</span> every function CALL creates a fresh frame holding its OWN local
           variables, and RETURN destroys that frame and hands back one value.
           <span className="font-bold text-amber-300"> Misconception killer:</span> in factorial(4) there are FOUR live variables all
           named n at once -- they are different boxes, and each frame waits for the frame above it to answer.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-sky-950/60 to-slate-900 border border-sky-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Step through factorial(4) and count the deepest stack height. Why does factorial(1000) crash with recursion depth exceeded?</p>
         <p className="mt-1">2. Watch factorial(2) return 2: which frame receives that value, and what expression does it compute next?</p>

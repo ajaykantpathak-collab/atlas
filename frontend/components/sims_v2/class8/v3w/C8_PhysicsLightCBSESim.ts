@@ -11,7 +11,7 @@ export const w_c8_physicslightcbsesim: SimDef = {
     classLevel: 8, subject: 'physics', topic: 'Spherical Mirrors: Concave and Convex - Definition',
     chapters: [],
     nodeIds: ['c8_physics_ch6_1', 'c8_physics_ch6_10', 'c8_physics_ch6_3', 'c8_physics_ch6_6', 'c8_physics_ch6_7', 'c8_physics_ch6_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Take a stainless steel spoon from the kitchen and look at your face in the inner curved side — you see a.', goal: 'Master Spherical Mirrors: Concave and Convex - Definition.' },
     discovery: {
         question: 'Why does a stainless steel spoon show an inverted image on one side when held at arm\'s length but an upright image on the other side at the same distance?',
@@ -20,7 +20,7 @@ export const w_c8_physicslightcbsesim: SimDef = {
         hook: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass.',
     },
     teaching: [
-        { title: 'A spherical mirror is a reflecting surface.', text: 'A spherical mirror is a reflecting surface that forms a part of a hollow sphere; if the inner (concave) surface is polished and reflects light, it is a concave mirror, and if the outer (convex).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A spherical mirror is a reflecting surface.', text: 'A spherical mirror is a reflecting surface that forms a part of a hollow sphere; if the inner (concave) surface is polished and reflects light, it is a concave mirror, and if the outer (convex).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch6_1', title: 'A spherical mirror is a reflecting.',

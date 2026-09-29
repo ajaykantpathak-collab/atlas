@@ -1210,7 +1210,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
       <header className="w-full max-w-6xl bg-slate-900 border border-slate-800 rounded-2xl p-6 mb-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-3 py-1 bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
               ISC Class 12 Biology • Reproductive Health
             </span>
             <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full text-xs font-semibold">
@@ -1229,7 +1229,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
         <div className="flex items-center gap-4 bg-slate-950/80 p-4 rounded-xl border border-slate-800">
           <div className="text-center">
             <span className="text-xs text-slate-400 block">Challenges</span>
-            <span className="text-lg font-bold text-sky-400">
+            <span className="text-lg font-bold text-gold-400">
               {completedChallenges.size} / {CHALLENGES.length}
             </span>
           </div>
@@ -1257,7 +1257,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
             }}
             className={`flex-1 py-3 px-4 rounded-lg text-xs md:text-sm font-bold transition-all ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1281,7 +1281,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
         {activeTab === 'discovery' && (
           <div className="space-y-8 animate-fadeIn">
             <div className="bg-slate-950 p-6 rounded-xl border border-slate-800">
-              <h2 className="text-xl font-bold text-sky-400 mb-2">Scenario Context</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Scenario Context</h2>
               <p className="text-slate-300 leading-relaxed text-sm md:text-base">
                 {SCENARIO.context}
               </p>
@@ -1316,7 +1316,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
               </div>
 
               {discoveryAnswered && (
-                <div className="p-4 rounded-lg bg-sky-950/60 border border-sky-800 text-sky-200 text-sm">
+                <div className="p-4 rounded-lg bg-gold-950/60 border border-gold-800 text-gold-200 text-sm">
                   <span className="font-bold block mb-1">Pharmacological Insight:</span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1325,7 +1325,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
 
             {/* MANDATORY PREDICTION QUESTIONS */}
             <div className="bg-slate-950 p-6 rounded-xl border border-slate-800">
-              <h3 className="text-lg font-bold text-sky-400 mb-4">Hypothesis & Experimental Predictions</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">Hypothesis & Experimental Predictions</h3>
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                   <div key={qIdx} className="p-4 bg-slate-900 rounded-lg border border-slate-800">
@@ -1376,7 +1376,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   }}
                   className={`px-4 py-2 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${
                     selectedExplorationIndex === idx
-                      ? 'bg-sky-500 text-slate-950 shadow-md'
+                      ? 'bg-gold-500 text-slate-950 shadow-md'
                       : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
                   }`}
                 >
@@ -1395,7 +1395,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   {EXPLORATION_STEPS[selectedExplorationIndex].instruction}
                 </p>
               </div>
-              <span className="px-3 py-1 bg-sky-950 text-sky-400 border border-sky-800 text-xs font-mono rounded-md">
+              <span className="px-3 py-1 bg-gold-950 text-gold-400 border border-gold-800 text-xs font-mono rounded-md">
                 Node: {EXPLORATION_STEPS[selectedExplorationIndex].nodeId}
               </span>
             </div>
@@ -1407,7 +1407,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   <ContraceptiveMechanismSVG method={selectedContraceptive} />
                 </div>
                 <div className="lg:col-span-5 bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
-                  <h4 className="font-bold text-sky-400 text-sm">Contraceptive Modality Selection</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Contraceptive Modality Selection</h4>
                   <div className="grid grid-cols-2 gap-2">
                     {[
                       { id: 'pill', label: 'Oral Pill (Saheli/Combined)' },
@@ -1423,7 +1423,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                         }}
                         className={`p-3 rounded-lg text-xs font-bold border transition-all ${
                           selectedContraceptive === m.id
-                            ? 'bg-sky-600 border-sky-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1437,7 +1437,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-300">Serum Progesterone (pg/mL):</span>
-                        <span className="text-sky-400 font-mono">{progesteroneLevel}</span>
+                        <span className="text-gold-400 font-mono">{progesteroneLevel}</span>
                       </div>
                       <input
                         type="range"
@@ -1445,7 +1445,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                         max="100"
                         value={progesteroneLevel}
                         onChange={(e) => setProgesteroneLevel(Number(e.target.value))}
-                        className="w-full accent-sky-500 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                       />
                     </div>
 
@@ -1475,7 +1475,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Cervical Mucus Density:</span>
-                      <span className="font-bold text-sky-300">
+                      <span className="font-bold text-gold-300">
                         {progesteroneLevel > 40 ? 'Thick / Hostile to Sperm' : 'Thin / Permeable'}
                       </span>
                     </div>
@@ -1491,7 +1491,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   <AmniocentesisDiagramSVG activeTab={activeTab} anomalyDetected={anomalyDetected} />
                 </div>
                 <div className="lg:col-span-5 bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
-                  <h4 className="font-bold text-sky-400 text-sm">Diagnostic Controls</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Diagnostic Controls</h4>
                   
                   <div className="space-y-3">
                     <button
@@ -1499,7 +1499,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                         audioManager.play('count');
                         setAmnioSampleExtracted(true);
                       }}
-                      className="w-full py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-lg text-xs transition-all shadow-md"
+                      className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-lg text-xs transition-all shadow-md"
                     >
                       Step 1: Perform Ultrasound-Guided Fluid Aspiration
                     </button>
@@ -1537,7 +1537,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   <ArtTechniquesDiagramSVG artType={selectedArtMethod} />
                 </div>
                 <div className="lg:col-span-5 bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
-                  <h4 className="font-bold text-sky-400 text-sm">Patient Clinical Case</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Patient Clinical Case</h4>
 
                   <div className="space-y-2">
                     {[
@@ -1554,7 +1554,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                         }}
                         className={`w-full p-3 rounded-lg text-left text-xs font-semibold border transition-all ${
                           selectedArtCase === c.id
-                            ? 'bg-sky-950 border-sky-500 text-sky-200'
+                            ? 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1563,7 +1563,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                     ))}
                   </div>
 
-                  <h4 className="font-bold text-sky-400 text-sm pt-2">Select ART Intervention</h4>
+                  <h4 className="font-bold text-gold-400 text-sm pt-2">Select ART Intervention</h4>
                   <div className="grid grid-cols-3 gap-2">
                     {(['IVF', 'ZIFT', 'GIFT', 'ICSI', 'IUI'] as const).map((m) => (
                       <button
@@ -1687,7 +1687,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
             {/* LAB 5: Demographic Growth & RCH Modeler */}
             {selectedExplorationIndex === 4 && (
               <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-6">
-                <h4 className="font-bold text-sky-400 text-sm">Population Growth & Demographic Simulator</h4>
+                <h4 className="font-bold text-gold-400 text-sm">Population Growth & Demographic Simulator</h4>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -1700,7 +1700,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                       max="90"
                       value={contraceptivePrevalence}
                       onChange={(e) => setContraceptivePrevalence(Number(e.target.value))}
-                      className="w-full accent-sky-500 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1729,7 +1729,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   </div>
                   <div className="text-right">
                     <span className="text-xs text-slate-400 block">Demographic Transition Phase:</span>
-                    <span className="text-sm font-bold text-sky-400">
+                    <span className="text-sm font-bold text-gold-400">
                       {contraceptivePrevalence > 60 ? 'Controlled / Stabilized' : 'Rapid Expansion'}
                     </span>
                   </div>
@@ -1739,7 +1739,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
 
             {/* MANDATORY OBSERVATION QUESTIONS */}
             <div className="bg-slate-950 p-6 rounded-xl border border-slate-800">
-              <h3 className="text-lg font-bold text-sky-400 mb-4">Empirical Lab Observations</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">Empirical Lab Observations</h3>
               <div className="space-y-6">
                 {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
                   <div key={oIdx} className="p-4 bg-slate-900 rounded-lg border border-slate-800">
@@ -1782,7 +1782,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                 <span className="text-xs text-slate-400 uppercase tracking-wider block font-semibold">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
-                <span className="text-sm font-bold text-sky-400">
+                <span className="text-sm font-bold text-gold-400">
                   {CHALLENGES[currentChallengeIndex].difficulty.toUpperCase()} • {CHALLENGES[currentChallengeIndex].competencyLevel}
                 </span>
               </div>
@@ -1827,7 +1827,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
                   <p className="text-sm font-semibold mb-3">{challengeFeedback.text}</p>
                   <button
                     onClick={handleNextChallenge}
-                    className="px-6 py-2 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-lg text-xs transition-all shadow-md"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-lg text-xs transition-all shadow-md"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge' : 'Complete All Challenges'}
                   </button>
@@ -1855,7 +1855,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="p-3 bg-slate-900 rounded-lg border border-slate-800 flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-sky-950 border border-sky-600 text-sky-400 font-bold text-xs flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-950 border border-gold-600 text-gold-400 font-bold text-xs flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
                     <p className="text-xs text-slate-300 mt-0.5">{step}</p>
@@ -1866,7 +1866,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
 
             {/* EXPANDED MISCONCEPTIONS SUMMARY */}
             <div className="bg-slate-950 p-6 rounded-xl border border-slate-800">
-              <h3 className="text-lg font-bold text-sky-400 mb-4">Core Conceptual Misconceptions & Corrections</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">Core Conceptual Misconceptions & Corrections</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map((m, idx) => (
                   <div key={idx} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
@@ -1884,7 +1884,7 @@ export default function C12_BiologyReproductiveHealthCBSESim({
               <p className="text-sm text-slate-400">
                 You have engaged with all 29 ISC Class 12 curriculum nodes in Reproductive Health.
               </p>
-              <div className="inline-block px-6 py-3 bg-sky-950 border border-sky-600 rounded-xl text-sky-300 font-bold text-lg">
+              <div className="inline-block px-6 py-3 bg-gold-950 border border-gold-600 rounded-xl text-gold-300 font-bold text-lg">
                 Total Score Earned: {score} XP
               </div>
             </div>

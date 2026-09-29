@@ -6,7 +6,7 @@ export const c11_phy_ch03_p3: SimDef = {
     id: 'v3_c11_phy_ch03_p3',
     title: 'Motion in a Plane',
     subtitle: 'Two dimensions change everything — projectiles, vectors, and why the fastest path isn\'t a straight line.',
-    classLevel: 11, subject: 'physics', topic: 'Motion in a Plane · Part 3/3',
+    classLevel: 11, subject: 'physics', topic: 'Motion in a Plane',
     chapters: ['c11_phy_ch03'],
     nodeIds: ['c11_phy_cbse_03_013', 'c11_phy_cbse_03_014'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

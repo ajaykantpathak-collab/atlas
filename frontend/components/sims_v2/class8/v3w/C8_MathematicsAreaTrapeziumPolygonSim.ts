@@ -11,11 +11,11 @@ export const w_c8_mathematicsareatrapeziumpolygonsim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Area of a Triangle from a Parallelogram',
     chapters: [],
     nodeIds: ['c8_math_ch14_4', 'c8_math_ch14_9', 'c8_math_ch14_1', 'c8_math_ch14_6', 'c8_math_ch14_10', 'c8_math_ch14_7', 'c8_math_ch14_8', 'c8_math_ch4_2', 'c8_math_ch4_12', 'c8_math_ch11_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are helping a tailor in Delhi cut triangular patches from a rectangular cloth of length 40 cm and.', goal: 'Master Area of a Triangle from a Parallelogram.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The area of any triangle is exactly half the.', text: 'The area of any triangle is exactly half the area of a parallelogram formed by duplicating the triangle and joining them along a corresponding side.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The area of any triangle is exactly half the.', text: 'The area of any triangle is exactly half the area of a parallelogram formed by duplicating the triangle and joining them along a corresponding side.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch14_4', title: 'The area of any triangle is exactly.',

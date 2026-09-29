@@ -114,7 +114,7 @@ export function C11_HistoryWritingCityLifeSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Scribes needed</p>
-              <p className="font-mono font-bold text-sky-300">{neededScribes}</p>
+              <p className="font-mono font-bold text-gold-300">{neededScribes}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Debt units</p>
@@ -151,10 +151,10 @@ export function C11_HistoryWritingCityLifeSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Canal irrigation demand</span><span className="font-mono font-bold text-sky-400">{irrigation}</span>
+                <span>Canal irrigation demand</span><span className="font-mono font-bold text-gold-400">{irrigation}</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={irrigation} aria-label="irrigation"
-                onChange={(e) => setIrrigation(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setIrrigation(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
           </div>
 

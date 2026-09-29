@@ -71,7 +71,7 @@ export function C6_SocialScienceGrassrootsDemocracySim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 6 Civics - Grassroots Democracy</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 6 Civics - Grassroots Democracy</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Gram Sabha: The Village Voting Day</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -82,10 +82,10 @@ export function C6_SocialScienceGrassrootsDemocracySim() {
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
             <label className="text-xs font-semibold text-slate-400 flex justify-between">
               <span>Villagers attending the sabha (of {MEMBERS})</span>
-              <span className="font-mono text-indigo-300">{attendance} people</span>
+              <span className="font-mono text-gold-300">{attendance} people</span>
             </label>
             <input type="range" min={5} max={MEMBERS} value={attendance} aria-label="attendance"
-              onChange={(e) => setAttendance(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+              onChange={(e) => setAttendance(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
             <div className="mt-2 flex items-center gap-2 flex-wrap">
               <span className={`px-3 py-1 rounded-full text-xs font-bold border transition-all ${valid ? 'bg-emerald-950 border-emerald-700 text-emerald-300' : 'bg-rose-950 border-rose-700 text-rose-300'}`}>
                 {valid ? 'Quorum met' : 'Below quorum'}
@@ -98,12 +98,12 @@ export function C6_SocialScienceGrassrootsDemocracySim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-2">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400">Agenda (tap a card to select)</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Agenda (tap a card to select)</p>
             {PROPS.map((pr) => {
               const r = result[pr.id];
               return (
                 <button key={pr.id} onClick={() => setSel(pr.id)}
-                  className={`w-full min-h-11 p-3 rounded-xl text-left border transition-all ${sel === pr.id ? 'border-indigo-500 bg-indigo-950/40' : 'border-slate-800 bg-slate-950 hover:border-slate-600'}`}>
+                  className={`w-full min-h-11 p-3 rounded-xl text-left border transition-all ${sel === pr.id ? 'border-gold-500 bg-gold-950/40' : 'border-slate-800 bg-slate-950 hover:border-slate-600'}`}>
                   <div className="flex justify-between items-center">
                     <span className="text-sm font-bold">{pr.name}</span>
                     <span className="font-mono text-xs text-amber-300">Rs {pr.cost.toLocaleString('en-IN')}</span>
@@ -128,20 +128,20 @@ export function C6_SocialScienceGrassrootsDemocracySim() {
             <div className="grid grid-cols-2 gap-2 mt-3">
               {BLOCS.map((b, i) => (
                 <div key={b.name} className="p-2 rounded-lg bg-slate-950 border border-slate-800">
-                  <div className="flex justify-between text-xs"><span className="text-slate-300">{b.name}</span><span className="font-mono text-indigo-300">{Math.round(pct[i])}% yes</span></div>
+                  <div className="flex justify-between text-xs"><span className="text-slate-300">{b.name}</span><span className="font-mono text-gold-300">{Math.round(pct[i])}% yes</span></div>
                   <div className="h-1.5 mt-1 rounded-full bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-violet-500 transition-all duration-500" style={{ width: `${pct[i]}%` }} />
+                    <div className="h-full bg-gold-500 transition-all duration-500" style={{ width: `${pct[i]}%` }} />
                   </div>
                 </div>
               ))}
             </div>
             <div className="flex gap-2 mt-3">
               <button onClick={persuade} disabled={points <= 0 || !!result[p.id]}
-                className="flex-1 min-h-11 rounded-xl bg-violet-600 hover:bg-violet-500 text-xs font-bold disabled:opacity-40 transition-all">
+                className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold disabled:opacity-40 transition-all">
                 Persuade weakest blocs ({points} visits left)
               </button>
               <button onClick={vote} disabled={!!result[p.id]}
-                className="flex-1 min-h-11 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold disabled:opacity-40 transition-all">
+                className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold disabled:opacity-40 transition-all">
                 Run the vote
               </button>
             </div>
@@ -159,7 +159,7 @@ export function C6_SocialScienceGrassrootsDemocracySim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Make solar street lights pass with only 70 people attending -- which blocs did your 3 persuasion visits move, and by how many votes?</p>
         <p className="mt-1">2. Drop attendance to 15 and press Run the vote -- explain in one line why the meeting is invalid even if everyone says yes.</p>

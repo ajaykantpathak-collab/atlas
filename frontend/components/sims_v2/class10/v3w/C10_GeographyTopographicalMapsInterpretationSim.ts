@@ -11,7 +11,7 @@ export const w_c10_geographytopographicalmapsinterpretationsim: SimDef = {
     classLevel: 10, subject: 'geography', topic: 'Conservation of Minerals and Energy Resources: Need and Methods',
     chapters: [],
     nodeIds: ['c10_geo_cbse_05_008', 'c10_geo_cbse_05_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are in a household in Jharkhand where electricity cuts are frequent, and you see diesel.', goal: 'Master Conservation of Minerals and Energy Resources: Need and Methods.' },
     discovery: {
         question: 'State the primary geological reason why minerals like haematite and bauxite are considered non-renewable resources.',
@@ -20,7 +20,7 @@ export const w_c10_geographytopographicalmapsinterpretationsim: SimDef = {
         hook: 'Students think "conservation of minerals" means only "do not use them" or "recycle paper/plastic", missing that mineral.',
     },
     teaching: [
-        { title: 'Conservation of minerals and energy.', text: 'Conservation of minerals and energy resources refers to the planned and sustainable management of finite mineral deposits (like iron ore, bauxite, coal) and energy sources (like petroleum, natural.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Conservation of minerals and energy.', text: 'Conservation of minerals and energy resources refers to the planned and sustainable management of finite mineral deposits (like iron ore, bauxite, coal) and energy sources (like petroleum, natural.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_geo_cbse_05_008', title: 'Conservation of minerals and energy.',

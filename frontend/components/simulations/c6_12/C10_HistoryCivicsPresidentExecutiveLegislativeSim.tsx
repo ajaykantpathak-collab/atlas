@@ -1100,13 +1100,13 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15 }}
-            className="w-12 h-12 rounded-xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl font-extrabold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">{subjectConfig.name} • ICSE Class 10 Civics</p>
+            <p className="text-xs text-gold-300 font-medium">{subjectConfig.name} • ICSE Class 10 Civics</p>
           </div>
         </div>
 
@@ -1126,7 +1126,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
             Tier: {difficulty}
           </motion.span>
           <div className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs text-slate-300 font-semibold">
-            Mastery: <span className="text-indigo-400 capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-400 capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.header>
@@ -1134,13 +1134,13 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-500/30 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-500/30 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️</span> Narrative Hook & Curiosity Discovery
             </div>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-indigo-200">
+            <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-gold-200">
               {SCENARIO.context}
             </div>
           </div>
@@ -1164,7 +1164,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span> {opt}
@@ -1181,7 +1181,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Constitutional Lab →
                 </motion.button>
@@ -1196,7 +1196,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between pb-2 border-b border-slate-800 text-xs font-semibold text-slate-400">
             <span>Exploration Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
-            <span className="text-indigo-400">{EXPLORATION_STEPS[currentSlide].title}</span>
+            <span className="text-gold-400">{EXPLORATION_STEPS[currentSlide].title}</span>
           </div>
 
           <AnimatePresence mode="wait">
@@ -1209,7 +1209,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
             >
               <div>
                 <h3 className="text-lg font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <p className="text-sm text-indigo-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+                <p className="text-sm text-gold-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
               {/* SLIDE 0: NOMINAL VS REAL EXECUTIVE & CHECKS-AND-BALANCES SVG (SVG #1) */}
@@ -1260,7 +1260,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                     <div className="space-y-4">
                       <div className="flex justify-between items-center">
                         <label className="text-xs font-bold text-slate-300 uppercase">
-                          Lok Sabha Seats Won: <span className="text-indigo-400 text-base">{majoritySeats}</span> / 543
+                          Lok Sabha Seats Won: <span className="text-gold-400 text-base">{majoritySeats}</span> / 543
                         </label>
                         <span className={`text-xs px-2 py-0.5 rounded font-bold ${isHungParliament ? 'bg-amber-500/20 text-amber-400' : 'bg-emerald-500/20 text-emerald-400'}`}>
                           {isHungParliament ? 'Hung Parliament (<272)' : 'Clear Majority (272+)'}
@@ -1276,7 +1276,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                           setMajoritySeats(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
 
                       <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
@@ -1304,8 +1304,8 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   </div>
 
                   {/* PREDICT-THEN-CHECK */}
-                  <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60">
-                    <p className="text-xs font-bold text-indigo-300 uppercase mb-2">Predict-Then-Check Pattern</p>
+                  <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60">
+                    <p className="text-xs font-bold text-gold-300 uppercase mb-2">Predict-Then-Check Pattern</p>
                     {!predictionMade ? (
                       <div>
                         <p className="text-sm text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1370,7 +1370,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setSelectedTier('cabinet')}
-                        className={`px-3 py-1.5 rounded-xl text-xs font-bold ${selectedTier === 'cabinet' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-bold ${selectedTier === 'cabinet' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         Cabinet (15-20)
                       </motion.button>
@@ -1378,7 +1378,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setSelectedTier('state')}
-                        className={`px-3 py-1.5 rounded-xl text-xs font-bold ${selectedTier === 'state' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-bold ${selectedTier === 'state' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         Ministers of State
                       </motion.button>
@@ -1386,7 +1386,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setSelectedTier('deputy')}
-                        className={`px-3 py-1.5 rounded-xl text-xs font-bold ${selectedTier === 'deputy' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-bold ${selectedTier === 'deputy' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         Deputy Ministers
                       </motion.button>
@@ -1403,7 +1403,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                       )}
                       {selectedTier === 'state' && (
                         <div>
-                          <h4 className="font-bold text-indigo-300">Middle Tier: Ministers of State</h4>
+                          <h4 className="font-bold text-gold-300">Middle Tier: Ministers of State</h4>
                           <p className="text-xs text-slate-300 mt-1 leading-relaxed">
                             Junior ministers who either hold independent charge of specific ministries or assist Cabinet Ministers. They only attend Cabinet meetings when specifically invited.
                           </p>
@@ -1533,12 +1533,12 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                         }}
                         className={`p-4 rounded-2xl cursor-pointer border ${
                           selectedPillar === p.id
-                            ? 'bg-indigo-950/80 border-indigo-500 shadow-lg shadow-indigo-500/20'
+                            ? 'bg-gold-950/80 border-gold-500 shadow-lg shadow-gold-500/20'
                             : 'bg-slate-800/80 border-slate-700'
                         }`}
                       >
                         <div className="text-xs font-black text-white">{p.label}</div>
-                        <div className="text-[10px] text-indigo-400 font-bold mt-0.5">{p.art}</div>
+                        <div className="text-[10px] text-gold-400 font-bold mt-0.5">{p.art}</div>
                         <p className="text-[11px] text-slate-300 mt-2 line-clamp-3">{p.desc}</p>
                       </motion.div>
                     ))}
@@ -1563,7 +1563,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setSelectedWrit(w.id)}
                         className={`px-3 py-2 rounded-xl text-xs font-bold ${
-                          selectedWrit === w.id ? 'bg-indigo-600 text-white shadow-md' : 'bg-slate-800 text-slate-300'
+                          selectedWrit === w.id ? 'bg-gold-600 text-white shadow-md' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         {w.name} ({w.mean})
@@ -1602,7 +1602,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1647,7 +1647,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   whileTap={{ scale: 0.97 }}
                   onClick={() => setSandboxTab(tab)}
                   className={`px-4 py-2 rounded-xl text-xs font-bold capitalize ${
-                    sandboxTab === tab ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                    sandboxTab === tab ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   {tab}
@@ -1662,7 +1662,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   <input
                     type="range" min={200} max={350} value={majoritySeats}
                     onChange={(e) => setMajoritySeats(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                   <label className="text-xs font-bold text-slate-300">Government Confidence Rating: {confidenceLevel}%</label>
                   <input
@@ -1686,7 +1686,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                     </div>
                     <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                       <p className="text-[10px] text-slate-500">MPs short of majority</p>
-                      <p className="font-mono font-bold text-sky-400">{Math.max(0, 272 - majoritySeats)} MPs</p>
+                      <p className="font-mono font-bold text-gold-400">{Math.max(0, 272 - majoritySeats)} MPs</p>
                     </div>
                   </div>
                   <p className="text-[11px] text-slate-500">
@@ -1717,10 +1717,10 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                 <div className="flex gap-2">
                   <button onClick={() => setEmergencyType('352')} className={`px-3 py-1.5 rounded-lg text-xs font-bold ${emergencyType === '352' ? 'bg-rose-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Art 352 (National)</button>
                   <button onClick={() => setEmergencyType('356')} className={`px-3 py-1.5 rounded-lg text-xs font-bold ${emergencyType === '356' ? 'bg-amber-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Art 356 (State)</button>
-                  <button onClick={() => setEmergencyType('360')} className={`px-3 py-1.5 rounded-lg text-xs font-bold ${emergencyType === '360' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Art 360 (Financial)</button>
+                  <button onClick={() => setEmergencyType('360')} className={`px-3 py-1.5 rounded-lg text-xs font-bold ${emergencyType === '360' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Art 360 (Financial)</button>
                   <button onClick={() => setEmergencyType('none')} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-slate-400">Clear</button>
                 </div>
-                <div className="p-3 bg-slate-900 rounded-xl text-xs text-indigo-200">
+                <div className="p-3 bg-slate-900 rounded-xl text-xs text-gold-200">
                   Active Article: <span className="font-bold text-white">{emergencyType.toUpperCase()}</span> | Centre Autonomy Index: {emergencyType === '352' ? '100% Unitary' : emergencyType === '356' ? 'State Assembly Suspended' : emergencyType === '360' ? 'Federal Finance Overridden' : 'Standard 7th Schedule Split'}
                 </div>
               </div>
@@ -1728,9 +1728,9 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
 
             {sandboxTab === 'judiciary' && (
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs space-y-2">
-                <p className="font-bold text-indigo-300">Supreme Court Collegium Composition (5 Senior-Most Judges):</p>
+                <p className="font-bold text-gold-300">Supreme Court Collegium Composition (5 Senior-Most Judges):</p>
                 <div className="grid grid-cols-5 gap-2 text-center">
-                  <div className="p-2 bg-indigo-900/60 rounded-lg font-bold text-white border border-indigo-500">Chief Justice</div>
+                  <div className="p-2 bg-gold-900/60 rounded-lg font-bold text-white border border-gold-500">Chief Justice</div>
                   <div className="p-2 bg-slate-800 rounded-lg text-slate-300">Judge 2</div>
                   <div className="p-2 bg-slate-800 rounded-lg text-slate-300">Judge 3</div>
                   <div className="p-2 bg-slate-800 rounded-lg text-slate-300">Judge 4</div>
@@ -1742,7 +1742,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
 
             {sandboxTab === 'writs' && (
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs">
-                <p className="text-slate-300 mb-2">Simulate an emergency petition under <span className="text-indigo-400 font-bold">Article 32 (Supreme Court)</span> or <span className="text-indigo-400 font-bold">Article 226 (High Court)</span>.</p>
+                <p className="text-slate-300 mb-2">Simulate an emergency petition under <span className="text-gold-400 font-bold">Article 32 (Supreme Court)</span> or <span className="text-gold-400 font-bold">Article 226 (High Court)</span>.</p>
                 <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-amber-300">
                   Did you know? Under Art 226, High Courts can issue writs for Fundamental Rights AND ordinary legal rights (&quot;any other purpose&quot;).
                 </div>
@@ -1757,7 +1757,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex justify-between items-center">
             <div className="space-y-1">
-              <span className="text-xs font-extrabold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-extrabold text-gold-400 uppercase tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="text-xs text-slate-400 capitalize">
@@ -1781,7 +1781,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
 
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -1816,10 +1816,10 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : wrongFlash
                         ? 'bg-rose-900/60 border-rose-500 text-rose-200'
-                        : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1836,7 +1836,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
+                      className="px-3 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -1850,7 +1850,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop(boxId)}
                       className={`p-4 rounded-2xl border-2 border-dashed min-h-[70px] flex items-center justify-center text-xs font-bold transition-all ${
-                        droppedLabels[boxId] ? 'bg-indigo-950/40 border-indigo-500 text-emerald-300' : 'bg-slate-950 border-slate-700 text-slate-500'
+                        droppedLabels[boxId] ? 'bg-gold-950/40 border-gold-500 text-emerald-300' : 'bg-slate-950 border-slate-700 text-slate-500'
                       }`}
                     >
                       {droppedLabels[boxId] || `Drop: ${boxId.replace('box_', '').toUpperCase()} Position`}
@@ -1862,7 +1862,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="mt-3 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="mt-3 px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Positions
                 </motion.button>
@@ -1885,7 +1885,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl text-xs text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-600/30 text-indigo-300 flex items-center justify-center font-bold">
+                    <span className="w-6 h-6 rounded-full bg-gold-600/30 text-gold-300 flex items-center justify-center font-bold">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1900,7 +1900,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="mt-3 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="mt-3 px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Chronological Order
                 </motion.button>
@@ -1916,7 +1916,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-44 focus:border-indigo-500 outline-none"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-44 focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -1924,7 +1924,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Check
                   </motion.button>
@@ -1943,7 +1943,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -1956,7 +1956,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-xl text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-xl text-xs flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-300 font-bold">✕</button>
@@ -1970,7 +1970,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Assembly
                 </motion.button>
@@ -2026,7 +2026,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-500/40 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-500/40 text-center space-y-4 shadow-2xl">
             <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="text-5xl">🏆</motion.div>
             <h2 className="text-3xl font-black text-white">Constitutional Simulation Complete!</h2>
             <p className="text-slate-300 text-sm max-w-lg mx-auto">
@@ -2039,7 +2039,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                 <div className="text-[10px] text-slate-400 uppercase font-bold mt-1">Final Score</div>
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800">
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
                 <div className="text-[10px] text-slate-400 uppercase font-bold mt-1">BKT Mastery</div>
               </div>
             </div>
@@ -2057,7 +2057,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Constitutional Reflection & Self-Check
             </h3>
             <div className="space-y-4">
@@ -2067,16 +2067,16 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   value={reflectionResponses.surprising}
                   onChange={(e) => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="E.g., How the President's discretionary powers change during a hung parliament..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none h-20"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none h-20"
                 />
               </div>
               <div className="p-4 bg-slate-950/60 rounded-2xl border border-slate-800/80 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">2. How would you explain this to a friend?</label>
+                <label className="text-xs font-bold text-gold-300 block">2. How would you explain this to a friend?</label>
                 <textarea
                   value={reflectionResponses.explain}
                   onChange={(e) => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="E.g., The difference between the President as nominal head and PM as real executive..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none h-20"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none h-20"
                 />
               </div>
               <div className="p-4 bg-slate-950/60 rounded-2xl border border-slate-800/80 space-y-2">
@@ -2085,7 +2085,7 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
                   value={reflectionResponses.realLife}
                   onChange={(e) => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="E.g., Understanding news coverage of parliamentary elections, Supreme Court verdicts, or writ petitions..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none h-20"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none h-20"
                 />
               </div>
             </div>
@@ -2122,14 +2122,14 @@ function C10_HistoryCivicsPresidentExecutiveLegislativeSim(props: Props = DEFAUL
 
           {/* REAL WORLD ACTIVITY */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>⚖️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

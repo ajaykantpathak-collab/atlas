@@ -11,11 +11,11 @@ export const w_c12_homescienceissuesconcernsadolescentssim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Adolescence: Developmental Changes and Challenges',
     chapters: [],
     nodeIds: ['c12_hs_cbse_03_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a 14-year-old who suddenly refuses to eat meals with family, spends hours on social media, and snaps.', goal: 'Master Adolescence: Developmental Changes and Challenges.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Adolescence is the transitional.', text: 'Adolescence is the transitional developmental stage between childhood and adulthood (approximately 10–19 years) characterized by rapid physical growth, sexual maturation, cognitive restructuring, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Adolescence is the transitional.', text: 'Adolescence is the transitional developmental stage between childhood and adulthood (approximately 10–19 years) characterized by rapid physical growth, sexual maturation, cognitive restructuring, and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hs_cbse_03_009', title: 'Adolescence is the transitional.',

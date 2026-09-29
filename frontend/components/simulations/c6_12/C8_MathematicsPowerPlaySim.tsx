@@ -39,11 +39,11 @@ export function C8_MathematicsPowerPlaySim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Power Play: The Doubling Machine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Power Play: The Doubling Machine</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Exponential growth:</span> every fold doubles
+          <span className="font-bold text-gold-700">Exponential growth:</span> every fold doubles
           the stack, so height = thickness x 2^folds. Doubling feels slow at first and impossible
           soon after - that is the surprise of powers. Watch the height bar jump a HUGE distance
           with just one more fold near the end.
@@ -52,7 +52,7 @@ export function C8_MathematicsPowerPlaySim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {([['paper', 'Fold a paper'], ['coins', 'Doubling pocket money']] as const).map(([mm, label]) => (
-          <button key={mm} onClick={() => setMode(mm)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === mm ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button key={mm} onClick={() => setMode(mm)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === mm ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {label}
           </button>
         ))}
@@ -63,9 +63,9 @@ export function C8_MathematicsPowerPlaySim() {
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between">
               <span>{mode === 'paper' ? 'Number of folds' : 'Days of doubling'}</span>
-              <span className="font-mono text-indigo-600">{folds}</span>
+              <span className="font-mono text-gold-600">{folds}</span>
             </label>
-            <input type="range" min={0} max={42} value={folds} aria-label="folds" onChange={(e) => setFolds(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <input type="range" min={0} max={42} value={folds} aria-label="folds" onChange={(e) => setFolds(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           {mode === 'paper' && (
             <div>
@@ -85,24 +85,24 @@ export function C8_MathematicsPowerPlaySim() {
             </button>
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div>layers = 2^{folds} = <span className="text-indigo-700 font-bold">{layers.toLocaleString('en-IN')}</span></div>
+            <div>layers = 2^{folds} = <span className="text-gold-700 font-bold">{layers.toLocaleString('en-IN')}</span></div>
             {mode === 'paper' ? (
               <>
                 <div>height = {thickness} x 2^{folds} = {Math.round(heightMM).toLocaleString('en-IN')} mm</div>
                 <div className="text-xs text-slate-500 mt-1">= {km >= 1 ? `${Math.round(km).toLocaleString('en-IN')} km` : `${Math.round(heightMM * 10) / 10} mm`}</div>
               </>
             ) : (
-              <div>money = (2^{folds} - 1) paise = <span className="text-indigo-700 font-bold">Rs {Math.round(rupees * 100) / 100}</span> {rupees >= 10000000 ? '(crores!)' : ''}</div>
+              <div>money = (2^{folds} - 1) paise = <span className="text-gold-700 font-bold">Rs {Math.round(rupees * 100) / 100}</span> {rupees >= 10000000 ? '(crores!)' : ''}</div>
             )}
           </div>
         </div>
 
-        <div className="p-4 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-4 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <p className="text-xs font-bold text-slate-500">HEIGHT ON A MILESTONE LADDER (log scale)</p>
           {mode === 'paper' ? (
             <>
               <div className="mt-2 h-7 rounded-lg bg-slate-200 overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-sky-400 to-indigo-600 flex items-center justify-end pr-2" style={{ width: `${barPct}%`, transition: 'width 350ms' }}>
+                <div className="h-full bg-gradient-to-r from-gold-400 to-gold-600 flex items-center justify-end pr-2" style={{ width: `${barPct}%`, transition: 'width 350ms' }}>
                   {barPct > 25 && <span className="text-white text-xs font-bold">{Math.round(heightMM).toLocaleString('en-IN')} mm</span>}
                 </div>
               </div>

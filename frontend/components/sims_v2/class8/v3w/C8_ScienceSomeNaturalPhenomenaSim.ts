@@ -11,7 +11,7 @@ export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Science as Investigation: Asking Focused Questions',
     chapters: [],
     nodeIds: ['c8_physics_ch1_1', 'c8_physics_ch1_2', 'c8_physics_ch1_7', 'c8_physics_ch1_8', 'c8_physics_ch1_9', 'c8_physics_ch8_1', 'c8_physics_ch8_8', 'c8_physics_ch8_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Watch a pressure cooker whistle on a kitchen stove — steam escapes loudly, then the sound changes as pressure.', goal: 'Master Science as Investigation: Asking Focused Questions.' },
     discovery: {
         question: 'A student wonders, "Why do shadows change during the day?" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?',
@@ -20,7 +20,7 @@ export const w_c8_sciencesomenaturalphenomenasim: SimDef = {
         hook: 'Students believe a focused question is just a "more detailed" version of a broad question — they add adjectives ("How.',
     },
     teaching: [
-        { title: 'A focused scientific question is a precise,.', text: 'A focused scientific question is a precise, testable inquiry that identifies a specific relationship between variables and can be investigated through controlled observation or experiment.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A focused scientific question is a precise,.', text: 'A focused scientific question is a precise, testable inquiry that identifies a specific relationship between variables and can be investigated through controlled observation or experiment.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch1_1', title: 'A focused scientific question is a.',

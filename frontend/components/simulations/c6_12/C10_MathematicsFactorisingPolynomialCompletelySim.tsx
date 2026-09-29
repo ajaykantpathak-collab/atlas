@@ -1211,7 +1211,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
   }, [errors]);
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl shadow-2xl border border-indigo-900/40 relative overflow-hidden font-sans">
+    <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl shadow-2xl border border-gold-900/40 relative overflow-hidden font-sans">
       {/* Background Decorative Canvas */}
       <canvas ref={canvasRef} width={600} height={100} className="absolute top-0 right-0 opacity-40 pointer-events-none" />
 
@@ -1222,12 +1222,12 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
         className="relative z-10 mb-6 flex flex-wrap items-center justify-between border-b border-slate-800/80 pb-4 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider uppercase px-2.5 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/40">
+              <span className="text-xs font-bold tracking-wider uppercase px-2.5 py-0.5 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700/40">
                 ICSE Class 10 Math
               </span>
               <span className="text-xs font-mono text-slate-400">ISRO Mission Telemetry</span>
@@ -1255,7 +1255,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
               }}
               className={`px-3 py-1.5 text-xs font-semibold rounded-xl capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1278,15 +1278,15 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
             {/* Scenario Card */}
             <motion.div
               whileHover={{ scale: 1.005 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-purple-950/40 rounded-2xl border border-indigo-700/40 shadow-xl relative overflow-hidden"
+              className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-purple-950/40 rounded-2xl border border-gold-700/40 shadow-xl relative overflow-hidden"
             >
-              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-              <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
                 <span className="animate-pulse">🛰️</span> Mission Objective
               </div>
-              <h2 className="text-xl font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-200">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <div className="mt-4 p-3 bg-slate-900/80 rounded-xl border border-indigo-900/60 text-xs text-indigo-300">
+              <div className="mt-4 p-3 bg-slate-900/80 rounded-xl border border-gold-900/60 text-xs text-gold-300">
                 ⚡ <strong>Telemetry Context:</strong> {SCENARIO.context}
               </div>
             </motion.div>
@@ -1314,11 +1314,11 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/50'
                           : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-indigo-500/50'
+                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
                     <div className="flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-full bg-slate-700/80 flex items-center justify-center text-xs text-indigo-300 font-bold shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-slate-700/80 flex items-center justify-center text-xs text-gold-300 font-bold shrink-0">
                         {discoveryAnswered ? (idx === DISCOVERY_QUESTION.correctIndex ? '✓' : '✗') : String.fromCharCode(65 + idx)}
                       </span>
                       <span>{option}</span>
@@ -1331,9 +1331,9 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
+                  className="mt-6 p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
                 >
-                  <p className="text-sm text-indigo-200 leading-relaxed">
+                  <p className="text-sm text-gold-200 leading-relaxed">
                     {discoveryCorrect
                       ? '✓ 🎯 Spot on! Linear factors produce distinct x-intercepts where output vanishes.'
                       : '💡 ' + DISCOVERY_QUESTION.hintAfter}
@@ -1343,7 +1343,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 shrink-0"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 shrink-0"
                   >
                     Enter Interactive Lab →
                   </motion.button>
@@ -1365,7 +1365,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
             {/* Exploration Slide Header */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 bg-slate-900 rounded-2xl border border-slate-800">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Exploration Module {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-lg font-bold text-white mt-0.5">
@@ -1379,9 +1379,9 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
 
             {/* Prediction Challenge Banner (Predict-Then-Check Pattern) */}
             {currentSlide < PREDICTION_QUESTIONS.length && (
-              <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-600/50 space-y-3">
+              <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-600/50 space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-1.5">
+                  <span className="text-xs font-bold uppercase tracking-wider text-gold-300 flex items-center gap-1.5">
                     <span>🔮 Prediction Question ({currentSlide + 1} of {PREDICTION_QUESTIONS.length})</span>
                   </span>
                   <span className="text-xs text-slate-400 font-mono">Predict before interacting</span>
@@ -1416,7 +1416,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                   })}
                 </div>
                 {predictionAnswered[currentSlide] !== undefined && (
-                  <div className="text-xs text-indigo-200 bg-indigo-900/40 p-2.5 rounded-lg border border-indigo-800/60">
+                  <div className="text-xs text-gold-200 bg-gold-900/40 p-2.5 rounded-lg border border-gold-800/60">
                     <strong>Check instruction:</strong> {PREDICTION_QUESTIONS[currentSlide].verifyInstruction}
                   </div>
                 )}
@@ -1439,7 +1439,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     <div className="lg:col-span-7 bg-slate-950 p-4 rounded-2xl border border-slate-800 relative">
                       <div className="flex justify-between items-center mb-2">
                         <span className="text-xs font-mono text-slate-400">SVG 1: Real-time Polynomial Graph f(x)</span>
-                        <span className="text-xs font-mono text-indigo-400">Scale: 1 unit = {scaleX}px</span>
+                        <span className="text-xs font-mono text-gold-400">Scale: 1 unit = {scaleX}px</span>
                       </div>
 
                       <svg
@@ -1494,8 +1494,8 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
 
                     {/* Controls & Math Representation */}
                     <div className="lg:col-span-5 space-y-4">
-                      <div className="p-4 bg-slate-950/80 rounded-xl border border-indigo-900/60 space-y-2">
-                        <div className="text-xs text-indigo-400 font-bold uppercase tracking-wider">Factored Form</div>
+                      <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/60 space-y-2">
+                        <div className="text-xs text-gold-400 font-bold uppercase tracking-wider">Factored Form</div>
                         <div className="text-base font-mono text-emerald-400 font-bold">
                           f(x) = (x - {root1})(x - {root2})(x - {root3})
                         </div>
@@ -1530,7 +1530,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         <div>
                           <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                             <span>Root β (Linear factor: x - {root2}):</span>
-                            <span className="text-sky-400 font-bold">{root2}</span>
+                            <span className="text-gold-400 font-bold">{root2}</span>
                           </div>
                           <input
                             aria-label="Root beta slider"
@@ -1543,7 +1543,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                               setRoot2(Number(e.target.value));
                               audioManager.play('count');
                             }}
-                            className="w-full accent-sky-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
 
@@ -1601,8 +1601,8 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                   <div className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       {/* Matrix A Dimensions */}
-                      <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
-                        <h4 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+                      <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
+                        <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                           <span>Matrix A Order:</span>
                           <span className="text-base font-mono text-emerald-400">{matARows} × {matACols}</span>
                         </h4>
@@ -1648,10 +1648,10 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       </div>
 
                       {/* Matrix B Dimensions */}
-                      <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
-                        <h4 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+                      <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
+                        <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                           <span>Matrix B Order:</span>
-                          <span className="text-base font-mono text-sky-400">{matBRows} × {matBCols}</span>
+                          <span className="text-base font-mono text-gold-400">{matBRows} × {matBCols}</span>
                         </h4>
                         <div className="flex gap-4">
                           <label className="text-xs text-slate-400">
@@ -1682,11 +1682,11 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         {/* Visual Matrix Grid Representation */}
                         <div className="pt-2 flex justify-center">
                           <div
-                            className="inline-grid gap-1.5 p-3 bg-slate-900 rounded-lg border-2 border-sky-500/50"
+                            className="inline-grid gap-1.5 p-3 bg-slate-900 rounded-lg border-2 border-gold-500/50"
                             style={{ gridTemplateColumns: `repeat(${matBCols}, minmax(0, 1fr))` }}
                           >
                             {Array.from({ length: matBRows * matBCols }).map((_, i) => (
-                              <div key={i} className="w-10 h-8 bg-sky-950/80 border border-sky-700/60 rounded flex items-center justify-center text-xs font-mono text-sky-300">
+                              <div key={i} className="w-10 h-8 bg-gold-950/80 border border-gold-700/60 rounded flex items-center justify-center text-xs font-mono text-gold-300">
                                 b{Math.floor(i / matBCols) + 1}{i % matBCols + 1}
                               </div>
                             ))}
@@ -1739,7 +1739,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                   <div className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
                       {/* Matrix A */}
-                      <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60">
+                      <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60">
                         <div className="text-xs font-bold text-emerald-400 mb-2">Matrix A (2×2)</div>
                         <div className="grid grid-cols-2 gap-2">
                           {[0, 1].map(r =>
@@ -1760,8 +1760,8 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       </div>
 
                       {/* Matrix B */}
-                      <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60">
-                        <div className="text-xs font-bold text-sky-400 mb-2">Matrix B (2×2)</div>
+                      <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60">
+                        <div className="text-xs font-bold text-gold-400 mb-2">Matrix B (2×2)</div>
                         <div className="grid grid-cols-2 gap-2">
                           {[0, 1].map(r =>
                             [0, 1].map(c => (
@@ -1772,7 +1772,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                                 value={matB[r]?.[c] ?? 0}
                                 onChange={(e) => handleMatrixCellChange('B', r, c, Number(e.target.value))}
                                 className={`w-full text-center py-2 bg-slate-900 font-mono font-bold rounded-lg border text-sm ${
-                                  selectedCell?.c === c ? 'border-sky-400 bg-sky-950/50 text-sky-200' : 'border-slate-700 text-white'
+                                  selectedCell?.c === c ? 'border-gold-400 bg-gold-950/50 text-gold-200' : 'border-slate-700 text-white'
                                 }`}
                               />
                             ))
@@ -1810,7 +1810,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     </div>
 
                     {/* SVG 2: Matrix Row × Column Dot Product Laser Visualizer */}
-                    <div className="bg-slate-950 p-4 rounded-xl border border-indigo-900/60">
+                    <div className="bg-slate-950 p-4 rounded-xl border border-gold-900/60">
                       <div className="text-xs font-mono text-slate-400 mb-2">SVG 2: Row-by-Column Dot Product Laser Map</div>
                       <svg
                         role="img"
@@ -1863,7 +1863,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                           max={10}
                           value={apA}
                           onChange={(e) => setApA(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1875,7 +1875,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                           max={8}
                           value={apD}
                           onChange={(e) => setApD(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1887,7 +1887,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                           max={8}
                           value={apN}
                           onChange={(e) => setApN(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
@@ -1949,7 +1949,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         </text>
                       </svg>
 
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
                         <div>
                           <span>Pair Sum = a + l = {apA} + {apTerms[apTerms.length - 1]} = </span>
                           <span className="text-amber-300 font-bold">{apA + apTerms[apTerms.length - 1]}</span>
@@ -2133,7 +2133,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       audioManager.play('tap');
                     }}
                     className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      currentSlide === i ? 'w-6 bg-indigo-500' : 'bg-slate-700 hover:bg-slate-600'
+                      currentSlide === i ? 'w-6 bg-gold-500' : 'bg-slate-700 hover:bg-slate-600'
                     }`}
                   />
                 ))}
@@ -2148,7 +2148,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     setCurrentSlide(s => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm shadow-md shadow-indigo-600/30 transition-all"
+                  className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-semibold text-sm shadow-md shadow-gold-600/30 transition-all"
                 >
                   Next Tool →
                 </motion.button>
@@ -2176,7 +2176,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
             exit={{ opacity: 0 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="p-6 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div>
                 <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Free Exploration Sandbox</span>
                 <h3 className="text-lg font-bold text-white mt-0.5">ISRO Telemetry Playground</h3>
@@ -2201,7 +2201,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Mini Cubic Sandbox */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <div className="text-xs font-bold text-indigo-300 uppercase">1. Polynomial Factorisation Tool</div>
+                  <div className="text-xs font-bold text-gold-300 uppercase">1. Polynomial Factorisation Tool</div>
                   <div className="flex gap-2">
                     {[-2, -1, 1, 2, 3].map(v => (
                       <button
@@ -2212,7 +2212,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                           audioManager.play('tap');
                         }}
                         className={`px-2.5 py-1 text-xs font-mono rounded-lg border ${
-                          root1 === v ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
+                          root1 === v ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
                         }`}
                       >
                         α = {v}
@@ -2226,7 +2226,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
 
                 {/* Mini Scalar Matrix Sandbox */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <div className="text-xs font-bold text-sky-300 uppercase">2. Scalar Booster: k · A</div>
+                  <div className="text-xs font-bold text-gold-300 uppercase">2. Scalar Booster: k · A</div>
                   <div className="flex items-center gap-3">
                     <label className="text-xs text-slate-400">Scale k = {scalarK}</label>
                     <input
@@ -2239,10 +2239,10 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         setScalarK(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="accent-sky-500 cursor-pointer"
+                      className="accent-gold-500 cursor-pointer"
                     />
                   </div>
-                  <div className="text-xs font-mono text-sky-300">
+                  <div className="text-xs font-mono text-gold-300">
                     {scalarK} × [[{matA[0][0]}, {matA[0][1]}], [{matA[1][0]}, {matA[1][1]}]] = [[{scalarK * matA[0][0]}, {scalarK * matA[0][1]}], [{scalarK * matA[1][0]}, {scalarK * matA[1][1]}]]
                   </div>
                 </div>
@@ -2275,7 +2275,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       ? 'bg-emerald-950 text-emerald-400 border-emerald-600'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-400 border-rose-600'
-                      : 'bg-indigo-950 text-indigo-400 border-indigo-600'
+                      : 'bg-gold-950 text-gold-400 border-gold-600'
                   }`}
                 >
                   {difficulty} tier
@@ -2288,7 +2288,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
               {/* Progress Bar */}
               <div className="w-full sm:w-48 h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -2325,10 +2325,10 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         className={`w-full text-left p-4 rounded-xl border text-sm font-medium transition-all flex items-start gap-3 ${
                           isSelectedAndCorrect
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950'
-                            : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-indigo-500/50'
+                            : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                         }`}
                       >
-                        <span className="w-6 h-6 rounded-full bg-slate-700/80 flex items-center justify-center text-xs text-indigo-300 font-bold shrink-0 mt-0.5">
+                        <span className="w-6 h-6 rounded-full bg-slate-700/80 flex items-center justify-center text-xs text-gold-300 font-bold shrink-0 mt-0.5">
                           {showExplanation ? (i === challenge.correctIndex ? '✓' : '✗') : String.fromCharCode(65 + i)}
                         </span>
                         <span className="leading-relaxed">{opt}</span>
@@ -2353,7 +2353,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab active:cursor-grabbing text-white text-xs font-bold border border-indigo-400/30 shadow-md shadow-indigo-950"
+                        className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab active:cursor-grabbing text-white text-xs font-bold border border-gold-400/30 shadow-md shadow-gold-950"
                       >
                         ⠿ {item.label}
                       </motion.div>
@@ -2375,7 +2375,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         className={`p-4 rounded-xl border-2 border-dashed min-h-[90px] flex flex-col justify-between transition-colors ${
                           droppedLabels[target.id]
                             ? 'bg-emerald-950/40 border-emerald-500'
-                            : 'bg-slate-950/60 border-slate-700 hover:border-indigo-500'
+                            : 'bg-slate-950/60 border-slate-700 hover:border-gold-500'
                         }`}
                       >
                         <span className="text-xs font-bold text-slate-400">{target.label}</span>
@@ -2392,7 +2392,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Validate Matching Labels ✓
                   </motion.button>
@@ -2424,7 +2424,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                         className="p-3.5 bg-slate-800/90 rounded-xl border border-slate-700 text-slate-200 text-sm flex items-center justify-between gap-3 cursor-grab"
                       >
                         <div className="flex items-center gap-3">
-                          <span className="w-6 h-6 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-700/60 flex items-center justify-center text-xs font-bold shrink-0">
+                          <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 border border-gold-700/60 flex items-center justify-center text-xs font-bold shrink-0">
                             {displayIdx + 1}
                           </span>
                           <span>{item}</span>
@@ -2443,7 +2443,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       handleAnswer(answer);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Confirm Step Order ✓
                   </motion.button>
@@ -2461,7 +2461,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer"
-                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none w-56"
+                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none w-56"
                     />
                     {challenge.unit && <span className="text-slate-400 text-sm font-mono">{challenge.unit}</span>}
                     <motion.button
@@ -2470,7 +2470,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput.trim() === ''}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                     >
                       Submit Calculation ✓
                     </motion.button>
@@ -2505,7 +2505,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     {constructParts.map((p, idx) => (
                       <span
                         key={idx}
-                        className="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-900 border border-indigo-700 rounded-lg text-white font-mono text-xs"
+                        className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-900 border border-gold-700 rounded-lg text-white font-mono text-xs"
                       >
                         {p}
                         <button
@@ -2528,7 +2528,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Verify Construction ✓
                   </motion.button>
@@ -2540,10 +2540,10 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-purple-950/40 border border-indigo-700/60 rounded-2xl space-y-4"
+                  className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-purple-950/40 border border-gold-700/60 rounded-2xl space-y-4"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+                    <span className="text-xs font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                       <span>💡 Step-by-Step Mathematical Explanation</span>
                     </span>
                     <span className="text-xs text-slate-400 font-mono">
@@ -2561,9 +2561,9 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                           key={sIdx}
                           initial={{ opacity: 0, x: -10 }}
                           animate={{ opacity: 1, x: 0 }}
-                          className="text-sm text-indigo-100 leading-relaxed font-sans"
+                          className="text-sm text-gold-100 leading-relaxed font-sans"
                         >
-                          <span className="font-bold text-indigo-400 font-mono mr-2">{sIdx + 1}.</span>
+                          <span className="font-bold text-gold-400 font-mono mr-2">{sIdx + 1}.</span>
                           {sentence}{!sentence.endsWith('.') && '.'}
                         </motion.p>
                       ))}
@@ -2579,7 +2579,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                           setRevealedSteps(s => s + 1);
                           audioManager.play('tap');
                         }}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                       >
                         Reveal Next Step →
                       </motion.button>
@@ -2614,13 +2614,13 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
             className="space-y-6"
           >
             {/* Score Banner */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-2xl border border-indigo-700/60 text-center space-y-3 shadow-2xl">
+            <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-2xl border border-gold-700/60 text-center space-y-3 shadow-2xl">
               <span className="text-4xl">🚀</span>
               <h2 className="text-2xl font-black text-white">ISRO Mission Telemetry Certified!</h2>
               <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">
                 Score: {Math.max(0, 100 - errors * 5)}%
               </div>
-              <p className="text-xs font-mono text-indigo-300">
+              <p className="text-xs font-mono text-gold-300">
                 Mastery Status: <span className="uppercase font-bold text-white">{masteryLevel}</span> • Errors: {errors}
               </p>
             </div>
@@ -2630,7 +2630,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
               errors === 0
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                 : errors <= 3
-                ? 'bg-sky-950/70 border-sky-500 text-sky-200'
+                ? 'bg-gold-950/70 border-gold-500 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/70 border-amber-500 text-amber-200'
                 : 'bg-rose-950/70 border-rose-500 text-rose-200'
@@ -2688,14 +2688,14 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
 
             {/* Real-World Activity */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+              <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
                 <span>🛰️ {REAL_WORLD_ACTIVITY.title}</span>
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-2 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                    <span className="text-gold-400 font-bold">{idx + 1}.</span>
                     <span>{step}</span>
                   </li>
                 ))}
@@ -2714,7 +2714,7 @@ function C10_MathematicsFactorisingPolynomialCompletelySim({
                   setErrors(0);
                   audioManager.play('whoosh');
                 }}
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-extrabold text-sm rounded-2xl shadow-xl shadow-indigo-600/30"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-extrabold text-sm rounded-2xl shadow-xl shadow-gold-600/30"
               >
                 Re-enter Simulation Laboratory 🔄
               </motion.button>

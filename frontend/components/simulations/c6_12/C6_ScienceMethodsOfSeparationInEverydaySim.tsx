@@ -89,15 +89,15 @@ function C6_ScienceMethodsOfSeparationInEverydaySim() {
   const salt = step >= 4 ? 0 : 6;
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-cyan-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-cyan-700">The water-cleaning factory -- step by step</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">The water-cleaning factory -- step by step</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         This jug holds <b>tea leaves, mud, dissolved salt and water</b>. Each method of separation uses ONE
         difference between the things mixed. Choose the right method for every stage -- the jug reacts at once.
       </p>
 
       <div className="grid md:grid-cols-[1fr_260px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-cyan-100 bg-cyan-50/40 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/40 overflow-hidden">
           <svg viewBox="0 0 640 300" className="w-full">
             <rect width="640" height="300" fill="#ecfeff" />
             {/* jug */}
@@ -139,7 +139,7 @@ function C6_ScienceMethodsOfSeparationInEverydaySim() {
             ].map((row) => (
               <div key={row.k} className="p-2 rounded-xl bg-slate-100 text-center">
                 <div className="text-[10px] uppercase tracking-wide text-slate-500 font-bold">{row.k}</div>
-                <div className="text-xs font-black text-cyan-700">{row.v}</div>
+                <div className="text-xs font-black text-gold-700">{row.v}</div>
               </div>
             ))}
           </div>
@@ -158,7 +158,7 @@ function C6_ScienceMethodsOfSeparationInEverydaySim() {
                 </div>
               )}
               {picked === STAGES[step].correct && (
-                <button onClick={advance} className="w-full px-3 py-2 rounded-xl text-xs font-black bg-cyan-600 text-white hover:bg-cyan-700 transition-colors">
+                <button onClick={advance} className="w-full px-3 py-2 rounded-xl text-xs font-black bg-gold-600 text-white hover:bg-gold-700 transition-colors">
                   Run this stage &gt;
                 </button>
               )}
@@ -183,9 +183,9 @@ function C6_ScienceMethodsOfSeparationInEverydaySim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Finish the whole factory with ZERO mistakes -- write down which difference (size, weight, settling, dissolved) each stage used.</li>
           <li>At the salt stage, pick "Filter it again" on purpose. Read why it fails -- this is the most common exam trick!</li>
         </ol>

@@ -1086,12 +1086,12 @@ export function C11_MathematicsGeneralMiddleTermSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Mathematics Class 11 · Core Mathematical Physics & Telemetry</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Mathematics Class 11 · Core Mathematical Physics & Telemetry</p>
           </div>
         </div>
 
@@ -1106,7 +1106,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   ? 'bg-emerald-950 text-emerald-400 border border-emerald-700/50'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950 text-rose-400 border border-rose-700/50'
-                  : 'bg-indigo-950 text-indigo-400 border border-indigo-700/50'
+                  : 'bg-gold-950 text-gold-400 border border-gold-700/50'
               }`}
             >
               {difficulty} Level
@@ -1121,10 +1121,10 @@ export function C11_MathematicsGeneralMiddleTermSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/50 shadow-xl">
-            <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/50 shadow-xl">
+            <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-indigo-900/40">{SCENARIO.context}</p>
+            <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-gold-900/40">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800">
@@ -1152,7 +1152,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   }`}
                 >
                   <div>
-                    <span className="text-xs font-mono mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="text-xs font-mono mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </div>
                   {discoveryAnswered && (
@@ -1174,7 +1174,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1189,7 +1189,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">Interactive Concept Lab</span>
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Interactive Concept Lab</span>
               <h2 className="text-lg font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <span className="text-xs font-mono text-slate-400 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">
@@ -1221,7 +1221,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                         setBinomialN(newN);
                         if (binomialK > newN) setBinomialK(newN);
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
@@ -1234,7 +1234,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       max={binomialN}
                       value={binomialK}
                       onChange={e => setBinomialK(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
@@ -1247,7 +1247,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       max={4}
                       value={binomialA}
                       onChange={e => setBinomialA(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
@@ -1260,7 +1260,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       max={4}
                       value={binomialB}
                       onChange={e => setBinomialB(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1282,23 +1282,23 @@ export function C11_MathematicsGeneralMiddleTermSim({
                             animate={{ height: `${(cVal / getCombinations(binomialN, Math.floor(binomialN / 2))) * 100}%` }}
                             className={`w-full rounded-t transition-colors ${
                               isSelected
-                                ? 'bg-indigo-500 shadow-lg shadow-indigo-500/50'
+                                ? 'bg-gold-500 shadow-lg shadow-gold-500/50'
                                 : isMiddle
                                 ? 'bg-emerald-600/80'
                                 : 'bg-slate-800'
                             }`}
                           />
-                          <span className={`text-[10px] font-mono ${isSelected ? 'text-indigo-300 font-bold' : 'text-slate-500'}`}>
+                          <span className={`text-[10px] font-mono ${isSelected ? 'text-gold-300 font-bold' : 'text-slate-500'}`}>
                             k={idx}
                           </span>
                         </div>
                       );
                     })}
                   </div>
-                  <div className="mt-4 p-3 bg-indigo-950/40 rounded-lg border border-indigo-800/40 flex flex-wrap items-center justify-between gap-2 text-xs">
+                  <div className="mt-4 p-3 bg-gold-950/40 rounded-lg border border-gold-800/40 flex flex-wrap items-center justify-between gap-2 text-xs">
                     <div>
                       <span className="text-slate-400">Selected Term T({binomialK + 1}): </span>
-                      <strong className="text-indigo-300 font-mono">
+                      <strong className="text-gold-300 font-mono">
                         {binomialCoeff} · ({binomialA}x)^{binomialN - binomialK} · ({binomialB}y)^{binomialK} = {binomialTermValue} x^{binomialN - binomialK} y^{binomialK}
                       </strong>
                     </div>
@@ -1316,32 +1316,32 @@ export function C11_MathematicsGeneralMiddleTermSim({
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-ap-diff" className="text-xs text-slate-400 block mb-1">AP Common Diff (d): {apDiff}</label>
-                    <input id="range-ap-diff" aria-label={`AP common difference: ${apDiff}`} type="range" min={1} max={8} value={apDiff} onChange={e => setApDiff(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-ap-diff" aria-label={`AP common difference: ${apDiff}`} type="range" min={1} max={8} value={apDiff} onChange={e => setApDiff(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-gp-ratio" className="text-xs text-slate-400 block mb-1">GP Common Ratio (r): {gpRatio}</label>
-                    <input id="range-gp-ratio" aria-label={`GP common ratio: ${gpRatio}`} type="range" min={1.5} max={3} step={0.5} value={gpRatio} onChange={e => setGpRatio(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-gp-ratio" aria-label={`GP common ratio: ${gpRatio}`} type="range" min={1.5} max={3} step={0.5} value={gpRatio} onChange={e => setGpRatio(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-ap-start" className="text-xs text-slate-400 block mb-1">Start Value (a): {apStart}</label>
-                    <input id="range-ap-start" aria-label={`Progression starting value: ${apStart}`} type="range" min={1} max={5} value={apStart} onChange={e => { setApStart(Number(e.target.value)); setGpStart(Number(e.target.value)); }} className="w-full accent-indigo-500" />
+                    <input id="range-ap-start" aria-label={`Progression starting value: ${apStart}`} type="range" min={1} max={5} value={apStart} onChange={e => { setApStart(Number(e.target.value)); setGpStart(Number(e.target.value)); }} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-ladder-terms" className="text-xs text-slate-400 block mb-1">Terms: {ladderTerms}</label>
-                    <input id="range-ladder-terms" aria-label={`Number of ladder terms: ${ladderTerms}`} type="range" min={3} max={7} value={ladderTerms} onChange={e => setLadderTerms(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-ladder-terms" aria-label={`Number of ladder terms: ${ladderTerms}`} type="range" min={3} max={7} value={ladderTerms} onChange={e => setLadderTerms(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-sky-400">Arithmetic Ladder (+{apDiff} each step)</span>
+                    <span className="text-xs font-bold text-gold-400">Arithmetic Ladder (+{apDiff} each step)</span>
                     <div className="mt-3 space-y-2">
                       {Array.from({ length: ladderTerms }).map((_, i) => {
                         const val = apStart + i * apDiff;
                         return (
                           <div key={i} className="flex items-center justify-between text-xs font-mono bg-slate-900 px-3 py-1.5 rounded">
                             <span className="text-slate-400">T{i+1}: a + {i}d</span>
-                            <span className="text-sky-300 font-bold">{val}</span>
+                            <span className="text-gold-300 font-bold">{val}</span>
                           </div>
                         );
                       })}
@@ -1372,11 +1372,11 @@ export function C11_MathematicsGeneralMiddleTermSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-am-a" className="text-xs text-slate-400 block mb-1">Dimension a: {amGmA}</label>
-                    <input id="range-am-a" aria-label={`Dimension a for AM-GM: ${amGmA}`} type="range" min={1} max={25} value={amGmA} onChange={e => setAmGmA(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-am-a" aria-label={`Dimension a for AM-GM: ${amGmA}`} type="range" min={1} max={25} value={amGmA} onChange={e => setAmGmA(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-am-b" className="text-xs text-slate-400 block mb-1">Dimension b: {amGmB}</label>
-                    <input id="range-am-b" aria-label={`Dimension b for AM-GM: ${amGmB}`} type="range" min={1} max={25} value={amGmB} onChange={e => setAmGmB(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-am-b" aria-label={`Dimension b for AM-GM: ${amGmB}`} type="range" min={1} max={25} value={amGmB} onChange={e => setAmGmB(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
 
@@ -1395,8 +1395,8 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   </svg>
 
                   <div className="space-y-2 text-xs font-mono">
-                    <div className="p-3 bg-indigo-950/60 border border-indigo-800/60 rounded-lg">
-                      <span className="text-indigo-300 font-bold">Arithmetic Mean (AM): </span>
+                    <div className="p-3 bg-gold-950/60 border border-gold-800/60 rounded-lg">
+                      <span className="text-gold-300 font-bold">Arithmetic Mean (AM): </span>
                       <span className="text-white">({amGmA} + {amGmB})/2 = {amValue.toFixed(2)}</span>
                     </div>
                     <div className="p-3 bg-amber-950/60 border border-amber-800/60 rounded-lg">
@@ -1417,19 +1417,19 @@ export function C11_MathematicsGeneralMiddleTermSim({
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-shift-h" className="text-xs text-slate-400 block mb-1">Shift h: {originH}</label>
-                    <input id="range-shift-h" aria-label={`Origin translation x-offset h: ${originH}`} type="range" min={-5} max={5} value={originH} onChange={e => setOriginH(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-shift-h" aria-label={`Origin translation x-offset h: ${originH}`} type="range" min={-5} max={5} value={originH} onChange={e => setOriginH(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-shift-k" className="text-xs text-slate-400 block mb-1">Shift k: {originK}</label>
-                    <input id="range-shift-k" aria-label={`Origin translation y-offset k: ${originK}`} type="range" min={-5} max={5} value={originK} onChange={e => setOriginK(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-shift-k" aria-label={`Origin translation y-offset k: ${originK}`} type="range" min={-5} max={5} value={originK} onChange={e => setOriginK(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-point-x" className="text-xs text-slate-400 block mb-1">Point x: {pointX}</label>
-                    <input id="range-point-x" aria-label={`Fixed point x-coordinate: ${pointX}`} type="range" min={-8} max={8} value={pointX} onChange={e => setPointX(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-point-x" aria-label={`Fixed point x-coordinate: ${pointX}`} type="range" min={-8} max={8} value={pointX} onChange={e => setPointX(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-point-y" className="text-xs text-slate-400 block mb-1">Point y: {pointY}</label>
-                    <input id="range-point-y" aria-label={`Fixed point y-coordinate: ${pointY}`} type="range" min={-8} max={8} value={pointY} onChange={e => setPointY(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-point-y" aria-label={`Fixed point y-coordinate: ${pointY}`} type="range" min={-8} max={8} value={pointY} onChange={e => setPointY(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
 
@@ -1457,12 +1457,12 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       <span className="text-slate-400">Old Frame (x, y): </span>
                       <strong className="text-white">({pointX}, {pointY})</strong>
                     </div>
-                    <div className="p-3 bg-indigo-950/80 rounded border border-indigo-800">
-                      <span className="text-indigo-300">New Frame X = x - h: </span>
-                      <strong className="text-indigo-200">{pointX} - ({originH}) = {shiftedX}</strong>
+                    <div className="p-3 bg-gold-950/80 rounded border border-gold-800">
+                      <span className="text-gold-300">New Frame X = x - h: </span>
+                      <strong className="text-gold-200">{pointX} - ({originH}) = {shiftedX}</strong>
                       <br />
-                      <span className="text-indigo-300">New Frame Y = y - k: </span>
-                      <strong className="text-indigo-200">{pointY} - ({originK}) = {shiftedY}</strong>
+                      <span className="text-gold-300">New Frame Y = y - k: </span>
+                      <strong className="text-gold-200">{pointY} - ({originK}) = {shiftedY}</strong>
                     </div>
                   </div>
                 </div>
@@ -1475,7 +1475,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-line1-slope" className="text-xs text-slate-400 block mb-1">Line 1 Slope (m1): {line1Slope.toFixed(2)}</label>
-                    <input id="range-line1-slope" aria-label={`Line 1 slope m1: ${line1Slope}`} type="range" min={-4} max={4} step={0.25} value={line1Slope} onChange={e => setLine1Slope(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input id="range-line1-slope" aria-label={`Line 1 slope m1: ${line1Slope}`} type="range" min={-4} max={4} step={0.25} value={line1Slope} onChange={e => setLine1Slope(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <label htmlFor="range-line2-slope" className="text-xs text-slate-400 block mb-1">Line 2 Slope (m2): {line2Slope.toFixed(2)}</label>
@@ -1491,7 +1491,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                         setLine2Slope(Number(e.target.value));
                         setIsPerpendicularLocked(false);
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1534,7 +1534,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                     </div>
                     <div className="p-2 bg-slate-900 rounded border border-slate-800">
                       <span className="text-slate-400">Acute Angle θ: </span>
-                      <strong className="text-indigo-300">{angleBetweenLinesDeg.toFixed(1)}°</strong>
+                      <strong className="text-gold-300">{angleBetweenLinesDeg.toFixed(1)}°</strong>
                     </div>
                     <div className="flex gap-2">
                       <motion.button
@@ -1559,7 +1559,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                             audioManager.play('pop');
                           }
                         }}
-                        className="px-2.5 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-[11px] rounded font-semibold text-white"
+                        className="px-2.5 py-1.5 bg-gold-700 hover:bg-gold-600 text-[11px] rounded font-semibold text-white"
                       >
                         Set 90° Orthogonal
                       </motion.button>
@@ -1596,7 +1596,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       setCurrentSlide(i);
                       audioManager.play('tap');
                     }}
-                    className={`h-2 rounded-full transition-all ${currentSlide === i ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'}`}
+                    className={`h-2 rounded-full transition-all ${currentSlide === i ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'}`}
                   />
                 ))}
               </div>
@@ -1610,7 +1610,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                     setCurrentSlide(s => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -1655,7 +1655,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="text-xs font-bold text-indigo-400 mb-2">Live Radar Scope (2D Canvas)</p>
+                <p className="text-xs font-bold text-gold-400 mb-2">Live Radar Scope (2D Canvas)</p>
                 <canvas ref={canvasRef} width={280} height={160} className="w-full bg-slate-900 rounded-lg border border-slate-800" aria-label="Interactive radar scope canvas animation" />
               </div>
 
@@ -1663,7 +1663,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                 <p className="font-bold text-amber-400">Live Equation Status:</p>
                 <div className="p-2 bg-slate-900 rounded">
                   <span className="text-slate-400">Binomial Center Term: </span>
-                  <span className="text-indigo-300">T{binomialK + 1} = {binomialTermValue} x^{binomialN - binomialK} y^{binomialK}</span>
+                  <span className="text-gold-300">T{binomialK + 1} = {binomialTermValue} x^{binomialN - binomialK} y^{binomialK}</span>
                 </div>
                 <div className="p-2 bg-slate-900 rounded">
                   <span className="text-slate-400">AM vs GM: </span>
@@ -1692,7 +1692,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1708,7 +1708,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="px-2.5 py-0.5 text-[11px] rounded-full bg-indigo-950 text-indigo-300 font-bold border border-indigo-700/40">
+              <span className="px-2.5 py-0.5 text-[11px] rounded-full bg-gold-950 text-gold-300 font-bold border border-gold-700/40">
                 {challenge.competencyLevel.toUpperCase()}
               </span>
               <span className="text-xs text-slate-500 font-mono">ID: {challenge.nodeId}</span>
@@ -1736,7 +1736,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                     }`}
                   >
                     <div>
-                      <span className="text-xs font-mono mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="text-xs font-mono mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </div>
                     {showExplanation && (
@@ -1762,7 +1762,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1795,7 +1795,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   transition={wrongShake ? { duration: 0.4 } : {}}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings
                 </motion.button>
@@ -1824,7 +1824,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-0.5 rounded bg-slate-800 text-indigo-400 text-[10px]">#{displayIdx + 1}</span>
+                      <span className="px-2 py-0.5 rounded bg-slate-800 text-gold-400 text-[10px]">#{displayIdx + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -1837,7 +1837,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   transition={wrongShake ? { duration: 0.4 } : {}}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold mt-2"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold mt-2"
                 >
                   Confirm Ordering
                 </motion.button>
@@ -1854,7 +1854,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value..."
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs font-mono text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -1865,7 +1865,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                     transition={wrongShake ? { duration: 0.4 } : {}}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Check Telemetry
                   </motion.button>
@@ -1885,7 +1885,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-mono text-indigo-300 rounded-lg border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-mono text-gold-300 rounded-lg border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -1894,7 +1894,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 rounded bg-indigo-950 text-indigo-300 text-xs font-mono flex items-center gap-1 border border-indigo-800">
+                    <span key={idx} className="px-2.5 py-1 rounded bg-gold-950 text-gold-300 text-xs font-mono flex items-center gap-1 border border-gold-800">
                       {part}
                       <button aria-label={`Remove part: ${part}`} onClick={() => setConstructParts(prev => prev.filter((_, pIdx) => pIdx !== idx))} className="text-rose-400 hover:text-rose-300 ml-1 font-bold">✗</button>
                     </span>
@@ -1910,7 +1910,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   transition={wrongShake ? { duration: 0.4 } : {}}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Proof Construction
                 </motion.button>
@@ -1960,7 +1960,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* MOTIVATIONAL BANNER */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4">
             <span className="text-5xl" aria-hidden="true">🎯</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">{motivationalMessage.title}</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -1974,7 +1974,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[140px]">
                 <span className="text-xs text-slate-400 uppercase font-mono block">Mastery Rating</span>
-                <strong className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</strong>
+                <strong className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</strong>
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[140px]">
                 <span className="text-xs text-slate-400 uppercase font-mono block">Total Errors</span>
@@ -1984,20 +1984,20 @@ export function C11_MathematicsGeneralMiddleTermSim({
           </div>
 
           {/* SPACED REPETITION VISIBILITY CARD */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-700/50 space-y-3">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-700/50 space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-xl" aria-hidden="true">📅</span>
-              <h3 className="text-base font-bold text-indigo-300">Spaced Repetition Schedule (SRS Active)</h3>
+              <h3 className="text-base font-bold text-gold-300">Spaced Repetition Schedule (SRS Active)</h3>
             </div>
             <p className="text-xs text-slate-300 leading-relaxed">
               Based on your SM-2 telemetry calibration algorithm:
             </p>
-            <div className="p-4 bg-indigo-950/70 border border-indigo-800/80 rounded-xl flex items-center justify-between">
+            <div className="p-4 bg-gold-950/70 border border-gold-800/80 rounded-xl flex items-center justify-between">
               <div>
                 <p className="text-sm font-bold text-white">Recommended Next Review:</p>
-                <p className="text-xs text-indigo-300">Retain maximum binomial & progression neural pathways.</p>
+                <p className="text-xs text-gold-300">Retain maximum binomial & progression neural pathways.</p>
               </div>
-              <span className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-sm font-black shadow">
+              <span className="px-4 py-2 bg-gold-600 text-white rounded-xl text-sm font-black shadow">
                 Review in {srsScheduleDays} {srsScheduleDays === 1 ? 'day' : 'days'}
               </span>
             </div>
@@ -2007,7 +2007,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl" aria-hidden="true">💡</span>
-              <h3 className="text-base font-bold text-indigo-300">Student Self-Reflection</h3>
+              <h3 className="text-base font-bold text-gold-300">Student Self-Reflection</h3>
             </div>
             <p className="text-xs text-slate-400">
               Metacognitive reflection solidifies long-term mathematical memory. Articulate your insights:
@@ -2025,7 +2025,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   value={reflection1}
                   onChange={e => setReflection1(e.target.value)}
                   placeholder="e.g., How (n+1) terms create single vs double middle terms..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2040,7 +2040,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   value={reflection2}
                   onChange={e => setReflection2(e.target.value)}
                   placeholder="e.g., The point stays still, the grid moves under it..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2055,7 +2055,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   value={reflection3}
                   onChange={e => setReflection3(e.target.value)}
                   placeholder="e.g., Calculating signal pulse decay, radar tracking angles..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-600 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2067,7 +2067,7 @@ export function C11_MathematicsGeneralMiddleTermSim({
                   setReflectionSaved(true);
                   audioManager.play('success');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 {reflectionSaved ? '✓ Reflections Recorded' : 'Save Reflection Log'}
               </motion.button>
@@ -2093,12 +2093,12 @@ export function C11_MathematicsGeneralMiddleTermSim({
 
           {/* REAL-WORLD ACTIVITY */}
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800/80 text-xs font-mono text-slate-300">
-                  <span className="text-indigo-400 font-bold mr-2">[{idx + 1}]</span>
+                  <span className="text-gold-400 font-bold mr-2">[{idx + 1}]</span>
                   {step}
                 </div>
               ))}

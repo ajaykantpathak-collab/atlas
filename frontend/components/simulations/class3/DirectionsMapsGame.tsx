@@ -44,7 +44,7 @@ const TEACHING_SLIDES = [
     title: 'Four Intermediate Directions ✨',
     text: 'Between the main directions are four intermediate points: North-East (NE), North-West (NW), South-East (SE), and South-West (SW). Together they form all eight directions!',
     emoji: '⭐',
-    bgColor: 'from-blue-400 to-cyan-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Between the main directions are four intermediate points: North-East, North-West, South-East, and South-West. Together they form all eight directions!',
   },
   {
@@ -65,7 +65,7 @@ const TEACHING_SLIDES = [
     title: 'Globe vs. Map 🌍🗺️',
     text: 'A globe is a round 3D model of Earth showing true shape and size. A map is a flat 2D drawing that is portable and shows fine details like streets and rivers, but stretches the poles!',
     emoji: '🌍',
-    bgColor: 'from-purple-400 to-indigo-500',
+    bgColor: 'from-purple-400 to-gold-500',
     spoken: 'A globe is a round three-dimensional model of Earth showing true shape and size. A map is a flat two-dimensional drawing that is portable and shows fine details!',
   },
 ];

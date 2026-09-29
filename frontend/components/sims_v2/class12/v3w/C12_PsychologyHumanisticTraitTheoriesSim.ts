@@ -11,7 +11,7 @@ export const w_c12_psychologyhumanistictraittheoriessim: SimDef = {
     classLevel: 12, subject: 'psychology', topic: 'Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives',
     chapters: [],
     nodeIds: ['c12_psy_cbse_02_003', 'c12_psy_cbse_02_004', 'c12_psy_cbse_02_006', 'c12_psy_cbse_02_005', 'c12_psy_cbse_02_010', 'c12_psy_cbse_02_011', 'c12_psy_cbse_01_001', 'c12_psy_cbse_02_009', 'c12_psy_cbse_02_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine an Indian student, Priya, who gets admitted to a university in the USA.', goal: 'Master Culture and Self: Western Individualistic vs Indian Collectivistic Perspectives.' },
     discovery: {
         question: 'Rahul, raised in a traditional joint family in Varanasi, accepts a job in Mumbai against his parents\' wish that he stay nearby.',
@@ -20,7 +20,7 @@ export const w_c12_psychologyhumanistictraittheoriessim: SimDef = {
         hook: 'Students often believe that "Indian collectivistic self means the person has no personal identity, no autonomy, and.',
     },
     teaching: [
-        { title: 'The cultural perspective on self refers to.', text: 'The cultural perspective on self refers to how culture shapes the way individuals define the boundaries between themselves and others.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The cultural perspective on self refers to.', text: 'The cultural perspective on self refers to how culture shapes the way individuals define the boundaries between themselves and others.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_psy_cbse_02_003', title: 'The cultural perspective on self refers.',

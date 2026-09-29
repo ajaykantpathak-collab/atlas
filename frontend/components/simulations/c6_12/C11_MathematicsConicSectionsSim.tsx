@@ -144,10 +144,10 @@ export function C11_MathematicsConicSectionsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Semi-transverse axis a</span><span className="font-mono font-bold text-sky-400">{a}</span>
+                <span>Semi-transverse axis a</span><span className="font-mono font-bold text-gold-400">{a}</span>
               </div>
               <input type="range" min={1} max={5} step={0.5} value={a} aria-label="Axis a"
-                onChange={(ev) => setA(Number(ev.target.value))} className="w-full accent-sky-500" />
+                onChange={(ev) => setA(Number(ev.target.value))} className="w-full accent-gold-500" />
             </div>
             <button onClick={() => setShowGuides((s) => !s)}
               className={`w-full py-2 rounded-xl text-xs font-bold ${showGuides ? 'bg-slate-700 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
@@ -157,7 +157,7 @@ export function C11_MathematicsConicSectionsSim() {
 
           <div className="bg-slate-900/80 rounded-2xl border border-rose-800/60 p-4 text-xs font-mono grid grid-cols-2 gap-2">
             <div><span className="text-slate-500">Curve</span><div className="text-rose-300 font-bold text-sm">{type}</div></div>
-            <div><span className="text-slate-500">b = a sqrt(1-e^2) or sqrt(e^2-1)</span><div className="text-sky-300 font-bold text-sm">{isParabola ? '--' : b.toFixed(2)}</div></div>
+            <div><span className="text-slate-500">b = a sqrt(1-e^2) or sqrt(e^2-1)</span><div className="text-gold-300 font-bold text-sm">{isParabola ? '--' : b.toFixed(2)}</div></div>
             <div><span className="text-slate-500">Focal distance c = ae</span><div className="text-amber-300 font-bold text-sm">{isParabola ? '--' : c.toFixed(2)}</div></div>
             <div><span className="text-slate-500">Semi-latus rectum b^2/a</span><div className="text-emerald-300 font-bold text-sm">{isParabola ? (2 * a).toFixed(2) : ((b * b) / a).toFixed(2)}</div></div>
           </div>

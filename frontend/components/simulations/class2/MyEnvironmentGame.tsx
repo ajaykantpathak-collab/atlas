@@ -58,7 +58,7 @@ const TEACHING_SLIDES = [
     title: 'Local Animals & Birds 🐦',
     text: 'Look up to see flying birds like sparrows and crows! Look around for domestic animals like cows and dogs. Each animal has a home and a role in nature!',
     emoji: '🦜',
-    bgColor: 'from-sky-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
   },
   {
     title: 'Plants & Trees 🌳',
@@ -70,7 +70,7 @@ const TEACHING_SLIDES = [
     title: 'Land & Water Features 🏔️',
     text: 'Our locality has land forms like flat plains, green hills, and tall mountains! We also see water bodies like rivers, ponds, and lakes where water flows or collects.',
     emoji: '🌊',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
   },
   {
     title: 'Where Does Food Come From? 🌾',
@@ -838,7 +838,7 @@ export function MyEnvironmentGame({ width = 720, height = 560, onComplete }: MyE
 
   return (
     <div
-      className="relative select-none overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-sky-300 to-emerald-400 font-sans flex flex-col items-center justify-between"
+      className="relative select-none overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-gold-300 to-emerald-400 font-sans flex flex-col items-center justify-between"
       style={{ width, height }}
     >
       {/* Background Environment Scene */}

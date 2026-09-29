@@ -1209,11 +1209,11 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 border border-indigo-700/40 shadow-xl"
+            className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 border border-gold-700/40 shadow-xl"
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">📜</span>
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 bg-slate-950/60 p-2.5 rounded-xl border border-slate-800/80">
@@ -1249,7 +1249,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-xs font-bold text-center leading-6 mr-2 text-slate-300">
@@ -1276,7 +1276,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-indigo-600 text-white font-bold rounded-xl shadow-lg flex items-center gap-2 text-sm"
+                  className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-gold-600 text-white font-bold rounded-xl shadow-lg flex items-center gap-2 text-sm"
                 >
                   Enter Interactive Laboratory 🔬 →
                 </motion.button>
@@ -1291,7 +1291,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
         <motion.div key="explore-phase" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           {/* Step Progress & Navigation */}
           <div className="flex items-center justify-between bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Guided Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1463,7 +1463,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   >
                     {selectedExecutiveOffice === 'vp' && (
                       <>
-                        <h4 className="font-bold text-blue-300">Article 63-67: The Vice-President of India</h4>
+                        <h4 className="font-bold text-gold-300">Article 63-67: The Vice-President of India</h4>
                         <p className="text-slate-300">
                           <strong>Qualifications:</strong> Indian citizen, 35+ years old, qualified for Rajya Sabha election, holds no office of profit.
                         </p>
@@ -1517,7 +1517,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       onClick={() => handleElectorateToggle('vice_president')}
                       className={`px-4 py-2 rounded-xl font-bold text-sm border transition-all ${
                         electorateMode === 'vice_president'
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1601,9 +1601,9 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 rounded-xl bg-indigo-950/50 border border-indigo-700/60 space-y-2"
+                      className="p-4 rounded-xl bg-gold-950/50 border border-gold-700/60 space-y-2"
                     >
-                      <h4 className="text-sm font-bold text-indigo-300">{OBSERVATION_QUESTIONS[0].question}</h4>
+                      <h4 className="text-sm font-bold text-gold-300">{OBSERVATION_QUESTIONS[0].question}</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1664,7 +1664,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       <span
                         className={`text-xs font-bold px-2.5 py-1 rounded-full ${
                           grievanceSeverity < 50
-                            ? 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                            ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                             : 'bg-purple-500/20 text-purple-300 border border-purple-500/40'
                         }`}
                       >
@@ -1685,7 +1685,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       aria-valuemax={100}
                       aria-valuenow={grievanceSeverity}
                       onChange={e => handleGrievanceSliderChange(Number(e.target.value))}
-                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
+                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                     />
 
                     {/* SVG 3: Judicial Hierarchy & Writ Jurisdiction Scope */}
@@ -1732,23 +1732,23 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       </span>
                       <div className="grid grid-cols-2 md:grid-cols-5 gap-2 text-center text-xs">
                         <div className="p-2 rounded-lg bg-slate-900 border border-slate-700">
-                          <strong className="text-indigo-300 block">Habeas Corpus</strong>
+                          <strong className="text-gold-300 block">Habeas Corpus</strong>
                           <span className="text-[10px] text-slate-400">"Produce the Body"</span>
                         </div>
                         <div className="p-2 rounded-lg bg-slate-900 border border-slate-700">
-                          <strong className="text-indigo-300 block">Mandamus</strong>
+                          <strong className="text-gold-300 block">Mandamus</strong>
                           <span className="text-[10px] text-slate-400">"We Command"</span>
                         </div>
                         <div className="p-2 rounded-lg bg-slate-900 border border-slate-700">
-                          <strong className="text-indigo-300 block">Prohibition</strong>
+                          <strong className="text-gold-300 block">Prohibition</strong>
                           <span className="text-[10px] text-slate-400">Stops Ongoing Trial</span>
                         </div>
                         <div className="p-2 rounded-lg bg-slate-900 border border-slate-700">
-                          <strong className="text-indigo-300 block">Certiorari</strong>
+                          <strong className="text-gold-300 block">Certiorari</strong>
                           <span className="text-[10px] text-slate-400">Quashes Past Order</span>
                         </div>
                         <div className="p-2 rounded-lg bg-slate-900 border border-slate-700">
-                          <strong className="text-indigo-300 block">Quo Warranto</strong>
+                          <strong className="text-gold-300 block">Quo Warranto</strong>
                           <span className="text-[10px] text-slate-400">"By What Authority"</span>
                         </div>
                       </div>
@@ -1819,7 +1819,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                         <label htmlFor="non-p5-slider" className="text-slate-300 font-semibold">
                           Non-Permanent Members Voting YES (Elected for 2-Yr Terms):
                         </label>
-                        <span className="font-mono font-bold text-blue-400">{nonP5YesCount} / 10 Votes</span>
+                        <span className="font-mono font-bold text-gold-400">{nonP5YesCount} / 10 Votes</span>
                       </div>
                       <input
                         id="non-p5-slider"
@@ -1832,7 +1832,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                         aria-valuemax={10}
                         aria-valuenow={nonP5YesCount}
                         onChange={e => handleNonP5Slider(Number(e.target.value))}
-                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                        className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                       />
                     </div>
 
@@ -1924,8 +1924,8 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                     {selectedAgency === 'unicef' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
                         <div className="flex items-center justify-between">
-                          <h4 className="font-bold text-sky-300">UNICEF: United Nations Children's Fund</h4>
-                          <span className="text-xs bg-sky-950 px-2.5 py-1 rounded-full text-sky-300 border border-sky-800">
+                          <h4 className="font-bold text-gold-300">UNICEF: United Nations Children's Fund</h4>
+                          <span className="text-xs bg-gold-950 px-2.5 py-1 rounded-full text-gold-300 border border-gold-800">
                             190+ Countries & Territories
                           </span>
                         </div>
@@ -1960,7 +1960,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                         <p className="text-slate-400 mt-1">WHO certifies the complete global eradication of smallpox.</p>
                       </div>
                       <div className="p-3 rounded-xl bg-slate-900 border border-slate-800">
-                        <span className="text-sky-400 font-bold block">2014 - India Polio-Free</span>
+                        <span className="text-gold-400 font-bold block">2014 - India Polio-Free</span>
                         <p className="text-slate-400 mt-1">Certified by WHO on 13 Jan 2014 after 3 zero-case years.</p>
                       </div>
                     </div>
@@ -1989,7 +1989,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-md"
+                    className="px-5 py-2 rounded-xl bg-gold-600 text-white font-bold text-xs shadow-md"
                   >
                     Next Lab Step →
                   </motion.button>
@@ -2013,7 +2013,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
       {/* ── PHASE 3: SANDBOX / FREE PLAY ── */}
       {phase === 'sandbox' && (
         <motion.div key="sandbox-phase" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 rounded-2xl bg-gradient-to-r from-teal-950 via-slate-900 to-indigo-950 border border-teal-800/40">
+          <div className="p-5 rounded-2xl bg-gradient-to-r from-teal-950 via-slate-900 to-gold-950 border border-teal-800/40">
             <h3 className="text-lg font-bold text-teal-300">Constitutional & UN Sandbox (Free Play)</h3>
             <p className="text-xs text-slate-300 mt-1">
               Explore any simulation mode with zero grading pressure. Toggle voting options, test writ thresholds, and examine the balance of powers before starting CISCE graded challenges.
@@ -2033,7 +2033,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   onClick={() => handleElectorateToggle('vice_president')}
                   className={`flex-1 py-1.5 rounded-lg text-xs font-bold border ${
                     electorateMode === 'vice_president'
-                      ? 'bg-indigo-600 border-indigo-400 text-white'
+                      ? 'bg-gold-600 border-gold-400 text-white'
                       : 'bg-slate-800 text-slate-400 border-slate-700'
                   }`}
                 >
@@ -2096,7 +2096,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-gradient-to-r from-indigo-600 via-purple-600 to-amber-600 text-white font-black text-sm rounded-2xl shadow-xl border border-indigo-400/30"
+              className="px-8 py-3 bg-gradient-to-r from-gold-600 via-purple-600 to-amber-600 text-white font-black text-sm rounded-2xl shadow-xl border border-gold-400/30"
             >
               Ready for CISCE Challenges! 🎯 →
             </motion.button>
@@ -2119,7 +2119,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 NEP 2020: {activeChallenge.competencyLevel}
               </span>
               <motion.span
@@ -2142,7 +2142,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
           {/* Progress Bar */}
           <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-amber-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-amber-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2179,7 +2179,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       className={`w-full text-left p-3.5 rounded-xl text-sm font-medium border transition-all ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
                       <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-xs font-bold text-center leading-6 mr-2.5 text-slate-300">
@@ -2207,7 +2207,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
+                      className="px-3 py-2 bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
                     >
                       ✋ {item.label}
                     </motion.div>
@@ -2264,7 +2264,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Verify Qualifications Mapping ✓
                 </motion.button>
@@ -2311,7 +2311,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md mt-2"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md mt-2"
                 >
                   Submit Order Arrangement ✓
                 </motion.button>
@@ -2328,7 +2328,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numeric answer"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 outline-none"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                   />
                   <span className="text-sm font-semibold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2337,7 +2337,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow-md disabled:opacity-50"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow-md disabled:opacity-50"
                   >
                     Check Answer ✓
                   </motion.button>
@@ -2357,7 +2357,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 border border-slate-700 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2368,7 +2368,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   <span className="text-[10px] text-slate-500 block mb-1">Constructed Principle Statement:</span>
                   <div className="flex flex-wrap gap-1.5 items-center">
                     {constructParts.map((p, i) => (
-                      <span key={i} className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded text-xs">
+                      <span key={i} className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-200 rounded text-xs">
                         {p}
                         <button
                           aria-label={`Remove phrase ${p}`}
@@ -2391,7 +2391,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Verify Constructed Statement ✓
                 </motion.button>
@@ -2471,7 +2471,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
           className="space-y-6"
         >
           {/* Hero Banner */}
-          <div className="p-6 rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-amber-950 border border-amber-500/40 text-center space-y-3 shadow-2xl">
+          <div className="p-6 rounded-3xl bg-gradient-to-br from-gold-950 via-slate-900 to-amber-950 border border-amber-500/40 text-center space-y-3 shadow-2xl">
             <span className="text-5xl block animate-bounce">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Constitutional Mastery Certified!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2496,7 +2496,7 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
 
           {/* Motivational Feedback Banner (Exact Tier Matching) */}
           <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800">
-            <h3 className="text-sm font-bold text-indigo-300 mb-1">Evaluator Feedback:</h3>
+            <h3 className="text-sm font-bold text-gold-300 mb-1">Evaluator Feedback:</h3>
             <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-sm font-semibold">
               {errors === 0 && (
                 <p className="text-emerald-400">
@@ -2560,8 +2560,8 @@ function C8_HistoryCivicsVicepresidentQualificationsElectionSim({
           </div>
 
           {/* Real World Diplomatic Activity */}
-          <div className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm md:text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800/60 space-y-3">
+            <h3 className="text-sm md:text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🌐</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

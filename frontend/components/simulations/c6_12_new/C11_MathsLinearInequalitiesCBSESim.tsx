@@ -981,7 +981,7 @@ const TwoDGraphVisualizer: React.FC<TwoDGraphProps> = ({
       <div className="mt-3 text-xs text-slate-300 font-mono text-center">
         Equation: {a}x {b >= 0 ? `+ ${b}y` : `- ${Math.abs(b)}y`} {operator} {c}
         <br />
-        Boundary Line: <span className="text-cyan-400 font-semibold">{isStrict ? 'Dashed (Excluded)' : 'Solid (Included)'}</span>
+        Boundary Line: <span className="text-gold-400 font-semibold">{isStrict ? 'Dashed (Excluded)' : 'Solid (Included)'}</span>
       </div>
     </div>
   );
@@ -1020,13 +1020,13 @@ const AcidSolutionVisualizer: React.FC<AcidSimProps> = ({
         <span className="text-xs text-slate-400 mt-2 font-semibold">Added Solution A</span>
       </div>
 
-      <div className="text-xl font-bold text-cyan-400">+</div>
+      <div className="text-xl font-bold text-gold-400">+</div>
 
       {/* Stock Beaker B */}
       <div className="flex flex-col items-center">
         <div className="relative w-24 h-36 border-4 border-slate-600 border-t-0 rounded-b-xl bg-slate-950 flex items-end p-1">
           <div
-            className="w-full bg-blue-600/70 rounded-b-md transition-all duration-300"
+            className="w-full bg-gold-600/70 rounded-b-md transition-all duration-300"
             style={{ height: `${Math.min(100, (volumeB / 800) * 100)}%` }}
           />
           <span className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white drop-shadow">
@@ -1036,11 +1036,11 @@ const AcidSolutionVisualizer: React.FC<AcidSimProps> = ({
         <span className="text-xs text-slate-400 mt-2 font-semibold">Base Solution B</span>
       </div>
 
-      <div className="text-xl font-bold text-cyan-400">=</div>
+      <div className="text-xl font-bold text-gold-400">=</div>
 
       {/* Mixture Beaker */}
       <div className="flex flex-col items-center">
-        <div className="relative w-32 h-44 border-4 border-cyan-500 border-t-0 rounded-b-2xl bg-slate-950 flex items-end p-1 shadow-lg shadow-cyan-950">
+        <div className="relative w-32 h-44 border-4 border-gold-500 border-t-0 rounded-b-2xl bg-slate-950 flex items-end p-1 shadow-lg shadow-gold-950">
           <div
             className="w-full bg-emerald-500/80 rounded-b-xl transition-all duration-300"
             style={{ height: `${Math.min(100, (totalVolume / 1200) * 100)}%` }}
@@ -1253,7 +1253,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
   }, [completedChallengeIds]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans p-3 md:p-6 relative selection:bg-cyan-500 selection:text-slate-900">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans p-3 md:p-6 relative selection:bg-gold-500 selection:text-slate-900">
       {/* UI Overlay Effects */}
       <Confetti show={showConfetti} />
       <SuccessBanner show={showSuccess} text="All Linear Inequality Challenges Mastered!" />
@@ -1263,12 +1263,12 @@ export function C11_MathsLinearInequalitiesCBSESim({
       {/* HEADER BAR */}
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 mb-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-4">
-          <div className="p-3 bg-gradient-to-tr from-cyan-600 to-blue-600 rounded-xl shadow-lg shadow-cyan-950">
+          <div className="p-3 bg-gradient-to-tr from-gold-600 to-gold-600 rounded-xl shadow-lg shadow-gold-950">
             <Calculator className="w-8 h-8 text-white" />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-400 font-mono border border-cyan-800">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-400 font-mono border border-gold-800">
                 CISCE Class 11 Mathematics
               </span>
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono">
@@ -1285,11 +1285,11 @@ export function C11_MathsLinearInequalitiesCBSESim({
         <div className="flex items-center gap-6 w-full md:w-auto justify-between md:justify-end border-t md:border-t-0 pt-3 md:pt-0 border-slate-800">
           <div className="flex flex-col items-end">
             <span className="text-xs text-slate-400 font-medium">Mastery Completion</span>
-            <span className="text-lg font-bold text-cyan-400">{overallProgress}%</span>
+            <span className="text-lg font-bold text-gold-400">{overallProgress}%</span>
           </div>
           <div className="w-32 bg-slate-800 rounded-full h-3 p-0.5 border border-slate-700">
             <div
-              className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full rounded-full transition-all duration-500"
+              className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full rounded-full transition-all duration-500"
               style={{ width: `${overallProgress}%` }}
             />
           </div>
@@ -1305,7 +1305,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
           }}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'discovery'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-950'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1320,7 +1320,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
           }}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'explore'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-950'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1335,7 +1335,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
           }}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-950'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1350,7 +1350,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
           }}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'misconceptions'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-950'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1365,7 +1365,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
           }}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'summary'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-950'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-950'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1383,8 +1383,8 @@ export function C11_MathsLinearInequalitiesCBSESim({
           <div className="space-y-6">
             {/* SCENARIO CARD */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
-              <div className="flex items-center gap-3 mb-3 text-cyan-400">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+              <div className="flex items-center gap-3 mb-3 text-gold-400">
                 <Layers className="w-5 h-5" />
                 <h2 className="text-lg font-bold uppercase tracking-wider">{SCENARIO.title}</h2>
               </div>
@@ -1405,7 +1405,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 {DISCOVERY_QUESTION.options.map((opt, idx) => {
-                  let style = 'bg-slate-800/80 border-slate-700 hover:border-cyan-500 hover:bg-slate-800';
+                  let style = 'bg-slate-800/80 border-slate-700 hover:border-gold-500 hover:bg-slate-800';
                   if (discoverySubmitted) {
                     if (idx === DISCOVERY_QUESTION.correctIndex) {
                       style = 'bg-emerald-950/80 border-emerald-500 text-emerald-200';
@@ -1430,10 +1430,10 @@ export function C11_MathsLinearInequalitiesCBSESim({
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-cyan-950/50 border border-cyan-800/60 p-4 rounded-xl text-slate-200 text-sm flex items-start gap-3">
-                  <Info className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
+                <div className="bg-gold-950/50 border border-gold-800/60 p-4 rounded-xl text-slate-200 text-sm flex items-start gap-3">
+                  <Info className="w-5 h-5 text-gold-400 shrink-0 mt-0.5" />
                   <div>
-                    <span className="font-bold text-cyan-300">Mathematical Insight: </span>
+                    <span className="font-bold text-gold-300">Mathematical Insight: </span>
                     {DISCOVERY_QUESTION.hintAfter}
                   </div>
                 </div>
@@ -1443,7 +1443,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
             {/* PREDICTION QUESTIONS (MANDATORY RENDER) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-cyan-400" />
+                <TrendingUp className="w-5 h-5 text-gold-400" />
                 Guided Prediction Experiments
               </h3>
 
@@ -1454,13 +1454,13 @@ export function C11_MathsLinearInequalitiesCBSESim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {pq.options.map((o, oIdx) => (
                         <div key={oIdx} className="text-xs p-2.5 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 flex items-center gap-2">
-                          <span className="w-4 h-4 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-cyan-400">{oIdx + 1}</span>
+                          <span className="w-4 h-4 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-gold-400">{oIdx + 1}</span>
                           {o}
                         </div>
                       ))}
                     </div>
-                    <div className="text-xs text-cyan-400/90 font-mono bg-cyan-950/40 p-2.5 rounded-lg border border-cyan-900/50 flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0" />
+                    <div className="text-xs text-gold-400/90 font-mono bg-gold-950/40 p-2.5 rounded-lg border border-gold-900/50 flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4 text-gold-400 shrink-0" />
                       <span><strong>Verification:</strong> {pq.verifyInstruction}</span>
                     </div>
                   </div>
@@ -1486,7 +1486,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                   }}
                   className={`p-3 rounded-xl border text-left text-xs font-semibold transition-all flex flex-col justify-between h-24 ${
                     activeLabIdx === idx
-                      ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg shadow-cyan-950'
+                      ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-950'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200'
                   }`}
                 >
@@ -1499,8 +1499,8 @@ export function C11_MathsLinearInequalitiesCBSESim({
             </div>
 
             {/* ACTIVE LAB INSTRUCTION BANNER */}
-            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center gap-3 text-sm text-cyan-300">
-              <Info className="w-5 h-5 text-cyan-400 shrink-0" />
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center gap-3 text-sm text-gold-300">
+              <Info className="w-5 h-5 text-gold-400 shrink-0" />
               <div>
                 <span className="font-bold text-white">{EXPLORATION_STEPS[activeLabIdx].title}: </span>
                 {EXPLORATION_STEPS[activeLabIdx].instruction}
@@ -1515,7 +1515,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                     <h3 className="text-lg font-bold text-white">1D Linear Inequality Visualizer</h3>
                     <p className="text-xs text-slate-400">Solve ax + b [op] c and plot real solution interval on the number line.</p>
                   </div>
-                  <div className="font-mono text-lg text-cyan-300 font-bold bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
+                  <div className="font-mono text-lg text-gold-300 font-bold bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
                     {lab1A}x {lab1B >= 0 ? `+ ${lab1B}` : `- ${Math.abs(lab1B)}`} {lab1Op} {lab1C}
                   </div>
                 </div>
@@ -1531,7 +1531,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       step="1"
                       value={lab1A}
                       onChange={(e) => setLab1A(parseInt(e.target.value) || 1)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1543,7 +1543,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       step="1"
                       value={lab1B}
                       onChange={(e) => setLab1B(parseInt(e.target.value) || 0)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1555,7 +1555,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       step="1"
                       value={lab1C}
                       onChange={(e) => setLab1C(parseInt(e.target.value) || 0)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1599,7 +1599,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                           Step 2: Divide by {lab1A}{' '}
                           {lab1A < 0 ? <span className="text-amber-400 font-bold">(SIGN REVERSES because a &lt; 0!)</span> : ''}
                         </div>
-                        <div className="text-cyan-300 font-bold">
+                        <div className="text-gold-300 font-bold">
                           Final Solution: x {finalOp} {rawTarget.toFixed(2)}
                         </div>
                       </div>
@@ -1634,7 +1634,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       max="10"
                       value={lab2Lhs}
                       onChange={(e) => setLab2Lhs(parseInt(e.target.value) || 0)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1645,7 +1645,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       max="10"
                       value={lab2Rhs}
                       onChange={(e) => setLab2Rhs(parseInt(e.target.value) || 0)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1677,7 +1677,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center">
                           <span className="text-xs text-slate-400 uppercase font-mono">Original Statement</span>
-                          <div className="text-2xl font-black text-cyan-400 mt-2">
+                          <div className="text-2xl font-black text-gold-400 mt-2">
                             {lab2Lhs} {initialSymbol} {lab2Rhs}
                           </div>
                         </div>
@@ -1724,7 +1724,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                   />
 
                   <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
-                    <h4 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Line & Region Controls</h4>
+                    <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Line & Region Controls</h4>
                     
                     <div>
                       <label className="text-xs text-slate-400 font-semibold mb-1 block">a (x coefficient): {lab3A}</label>
@@ -1734,7 +1734,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                         max="5"
                         value={lab3A}
                         onChange={(e) => setLab3A(parseInt(e.target.value) || 0)}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1746,7 +1746,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                         max="5"
                         value={lab3B}
                         onChange={(e) => setLab3B(parseInt(e.target.value) || 0)}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1758,7 +1758,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                         max="10"
                         value={lab3C}
                         onChange={(e) => setLab3C(parseInt(e.target.value) || 0)}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1819,7 +1819,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       max="5"
                       value={lab4B}
                       onChange={(e) => setLab4B(parseInt(e.target.value) || 1)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1830,7 +1830,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       max="5"
                       value={lab4C}
                       onChange={(e) => setLab4C(parseInt(e.target.value) || 0)}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1908,7 +1908,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       step="50"
                       value={acidVolumeB}
                       onChange={(e) => setAcidVolumeB(parseInt(e.target.value) || 0)}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1920,7 +1920,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       step="1"
                       value={acidConcB}
                       onChange={(e) => setAcidConcB(parseInt(e.target.value) || 0)}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1955,7 +1955,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
-                          <span className="font-mono text-cyan-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
+                          <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
                           {opt}
                         </div>
                       ))}
@@ -1975,7 +1975,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
             {/* CHALLENGE PROGRESS & TRACKER */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs uppercase font-bold text-cyan-400 font-mono tracking-wider">
+                <span className="text-xs uppercase font-bold text-gold-400 font-mono tracking-wider">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-white">
@@ -2014,7 +2014,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                       }}
                       className={`p-4 rounded-xl border text-left text-sm transition-all flex items-start gap-3 ${
                         selectedMcqOpt === idx
-                          ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg shadow-cyan-950'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-950'
                           : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -2037,7 +2037,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                     value={numericAnsInput}
                     onChange={(e) => setNumericAnsInput(e.target.value)}
                     placeholder="e.g. 4.5 or -3"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-3 text-white font-mono focus:border-cyan-500 outline-none"
+                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-3 text-white font-mono focus:border-gold-500 outline-none"
                   />
                 </div>
               )}
@@ -2101,7 +2101,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
 
               <button
                 onClick={handleChallengeSubmit}
-                className="px-6 py-2.5 rounded-xl bg-cyan-600 text-white font-bold text-sm shadow-lg shadow-cyan-950 hover:bg-cyan-500 transition-all flex items-center gap-2"
+                className="px-6 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-950 hover:bg-gold-500 transition-all flex items-center gap-2"
               >
                 Submit Answer
               </button>
@@ -2148,7 +2148,7 @@ export function C11_MathsLinearInequalitiesCBSESim({
                   <p className="text-xs text-emerald-300 bg-emerald-950/40 p-3 rounded-lg border border-emerald-900/50">
                     <strong>Correction Rule:</strong> {m.correction}
                   </p>
-                  <div className="bg-cyan-950/40 border border-cyan-900/50 p-3 rounded-lg text-xs text-cyan-200">
+                  <div className="bg-gold-950/40 border border-gold-900/50 p-3 rounded-lg text-xs text-gold-200">
                     <strong>ELI5 Simplification:</strong> {m.eli5}
                   </div>
                 </div>
@@ -2185,26 +2185,26 @@ export function C11_MathsLinearInequalitiesCBSESim({
             {/* KEY FORMULAE SUMMARY CARD */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-cyan-400" />
+                <BookOpen className="w-5 h-5 text-gold-400" />
                 Chapter Cheat Sheet & Key Rules
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <span className="font-bold text-cyan-400 block mb-1">Rule 1: Addition & Subtraction</span>
+                  <span className="font-bold text-gold-400 block mb-1">Rule 1: Addition & Subtraction</span>
                   If a &lt; b, then a + c &lt; b + c and a - c &lt; b - c for any real c. Sign remains unchanged.
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <span className="font-bold text-cyan-400 block mb-1">Rule 2: Scalar Multiplication (k &lt; 0)</span>
+                  <span className="font-bold text-gold-400 block mb-1">Rule 2: Scalar Multiplication (k &lt; 0)</span>
                   If a &lt; b and k &lt; 0, then a·k &gt; b·k and a/k &gt; b/k. SIGN MUST FLIP!
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <span className="font-bold text-cyan-400 block mb-1">Strict vs Slack Lines (2D)</span>
+                  <span className="font-bold text-gold-400 block mb-1">Strict vs Slack Lines (2D)</span>
                   Strict (&lt; &gt;) ⟹ Dashed boundary line.
                   Slack (&le; &ge;) ⟹ Solid boundary line.
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <span className="font-bold text-cyan-400 block mb-1">Interval Notation</span>
+                  <span className="font-bold text-gold-400 block mb-1">Interval Notation</span>
                   (a, b) = Open interval (excluded).
                   [a, b] = Closed interval (included).
                 </div>

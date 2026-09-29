@@ -1153,7 +1153,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
     <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden font-sans">
       {/* Background ambient light */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header bar */}
       <motion.header
@@ -1198,7 +1198,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-700/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-700/40 shadow-xl">
             <div className="flex items-center gap-2 text-amber-400 font-bold text-sm mb-2">
               <span>📜</span>
               <span>HISTORICAL INVESTIGATION HOOK</span>
@@ -1341,7 +1341,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                       <div className="p-3.5 bg-slate-900 rounded-xl border border-slate-800">
                         <label htmlFor="vernacular-slider" className="text-xs font-semibold text-slate-300 flex justify-between">
                           <span>Vernacular Weightage (Primary Tier):</span>
-                          <span className="text-indigo-400">{vernacularWeight}%</span>
+                          <span className="text-gold-400">{vernacularWeight}%</span>
                         </label>
                         <input
                           id="vernacular-slider"
@@ -1351,7 +1351,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                           max={100}
                           value={vernacularWeight}
                           onChange={(e) => setVernacularWeight(Number(e.target.value))}
-                          className="w-full mt-2 accent-indigo-500 cursor-pointer"
+                          className="w-full mt-2 accent-gold-500 cursor-pointer"
                         />
                         <p className="text-[11px] text-slate-400 mt-1">
                           Primary level taught in mother tongues (Bengali, Marathi, Tamil, Hindi).
@@ -1410,8 +1410,8 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                   </div>
 
                   {/* Observation Question 1 */}
-                  <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-800/40 space-y-3">
-                    <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+                  <div className="p-4 bg-slate-950 rounded-2xl border border-gold-800/40 space-y-3">
+                    <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                       <span>🔍</span>
                       <span>Observe & Notice (Brilliant.org Interactive Pattern)</span>
                     </div>
@@ -1440,7 +1440,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                       ))}
                     </div>
                     {observationResponses[0].answered && (
-                      <p className="text-xs text-indigo-300 pt-1">
+                      <p className="text-xs text-gold-300 pt-1">
                         💡 {OBSERVATION_QUESTIONS[0].explanation}
                       </p>
                     )}
@@ -1542,7 +1542,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                         )}
                         {selectedMapState === 'kanpur' && (
                           <>
-                            <p><strong className="text-cyan-400">Legal Pretext:</strong> Denial of Hereditary Pension (1851).</p>
+                            <p><strong className="text-gold-400">Legal Pretext:</strong> Denial of Hereditary Pension (1851).</p>
                             <p><strong className="text-amber-300">Target:</strong> Nana Saheb, adopted son of last Peshwa Baji Rao II.</p>
                             <p><strong className="text-emerald-400">Revolt Link:</strong> Refused guaranteed Rs 8 lakh/year allowance; Nana Saheb joined 1857.</p>
                           </>
@@ -1577,7 +1577,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-700/40 flex flex-col md:flex-row items-start md:items-center justify-between text-xs text-indigo-200 gap-2">
+                    <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-700/40 flex flex-col md:flex-row items-start md:items-center justify-between text-xs text-gold-200 gap-2">
                       <span>✓ Prediction recorded! {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                       <span className="text-amber-400 font-bold">Now test the 4 levers below!</span>
                     </div>
@@ -1636,7 +1636,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                      <label htmlFor="p-military" className="text-xs font-bold text-cyan-400 flex justify-between">
+                      <label htmlFor="p-military" className="text-xs font-bold text-gold-400 flex justify-between">
                         <span>Military / Cartridge Spark:</span>
                         <span>{pressureMilitary}%</span>
                       </label>
@@ -1648,7 +1648,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                         max={100}
                         value={pressureMilitary}
                         onChange={(e) => setPressureMilitary(Number(e.target.value))}
-                        className="w-full mt-2 accent-cyan-500 cursor-pointer"
+                        className="w-full mt-2 accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1670,8 +1670,8 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                   </div>
 
                   {/* Observation Question 2 */}
-                  <div className="p-4 bg-slate-900 rounded-xl border border-indigo-800/40 space-y-3 mt-3">
-                    <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+                  <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-3 mt-3">
+                    <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                       <span>🔍</span>
                       <span>Observation Analysis: What do you notice?</span>
                     </div>
@@ -1700,7 +1700,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                       ))}
                     </div>
                     {observationResponses[1].answered && (
-                      <p className="text-xs text-indigo-300 pt-1">
+                      <p className="text-xs text-gold-300 pt-1">
                         💡 {OBSERVATION_QUESTIONS[1].explanation}
                       </p>
                     )}
@@ -1895,8 +1895,8 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
 
           {/* Prediction Question 2 in Sandbox */}
           {!predictionStates[1].made ? (
-            <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-700/50 space-y-3">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+            <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-700/50 space-y-3">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-300">
                 ⚡ Prediction Challenge 2
               </span>
               <h4 className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[1].question}</h4>
@@ -1914,7 +1914,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
               </div>
             </div>
           ) : (
-            <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-700/30 text-xs text-indigo-300">
+            <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-700/30 text-xs text-gold-300">
               ✓ Prediction locked: {PREDICTION_QUESTIONS[1].verifyInstruction}
             </div>
           )}
@@ -1940,7 +1940,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                 <div style={{ width: `${armyRatioBengal}%` }} className="bg-red-500 flex items-center justify-center text-[9px] font-bold text-white">
                   European
                 </div>
-                <div style={{ width: `${100 - armyRatioBengal}%` }} className="bg-indigo-500 flex items-center justify-center text-[9px] font-bold text-white">
+                <div style={{ width: `${100 - armyRatioBengal}%` }} className="bg-gold-500 flex items-center justify-center text-[9px] font-bold text-white">
                   Indian Sepoy
                 </div>
               </div>
@@ -1953,7 +1953,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
               <label htmlFor="civics-slider" className="text-xs font-bold text-slate-200 flex justify-between">
                 <span>Civil Service Non-Discrimination Reality:</span>
-                <span className="text-indigo-400">{civicsEqualityIndex}%</span>
+                <span className="text-gold-400">{civicsEqualityIndex}%</span>
               </label>
               <input
                 id="civics-slider"
@@ -1963,7 +1963,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                 max={100}
                 value={civicsEqualityIndex}
                 onChange={(e) => setCivicsEqualityIndex(Number(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="text-xs text-slate-300 space-y-1">
                 <p>• <strong>1 Nov 1858 Proclamation:</strong> Promised employment based on merit without racial bias.</p>
@@ -1998,7 +1998,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                 className={`text-xs px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
                   difficulty === 'advanced' ? 'bg-red-950 text-red-400 border border-red-800' :
-                  'bg-blue-950 text-blue-400 border border-blue-800'
+                  'bg-gold-950 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty} Tier
@@ -2012,7 +2012,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
           {/* Progress bar */}
           <div className="h-1.5 bg-slate-900 rounded-full overflow-hidden" role="progressbar" aria-valuenow={Math.round(((currentChallenge + 1) / filteredChallenges.length) * 100)} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-amber-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-amber-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2215,7 +2215,7 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
                       key={idx}
                       initial={{ scale: 0.9 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 text-xs rounded-lg flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-200 text-xs rounded-lg flex items-center gap-1.5"
                     >
                       <span>{part}</span>
                       <button
@@ -2345,15 +2345,15 @@ function C8_HistoryCivicsWoodsDespatch1854Sim({
           </div>
 
           {/* Spaced Repetition Visibility Card */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-3">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-3">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📅</span>
-                <h3 className="text-sm font-bold text-indigo-200 uppercase tracking-wide">
+                <h3 className="text-sm font-bold text-gold-200 uppercase tracking-wide">
                   Spaced Repetition Schedule (SM-2 Algorithm)
                 </h3>
               </div>
-              <span className="px-3 py-1 bg-indigo-900/80 text-amber-300 border border-indigo-700 font-mono font-bold text-xs rounded-full">
+              <span className="px-3 py-1 bg-gold-900/80 text-amber-300 border border-gold-700 font-mono font-bold text-xs rounded-full">
                 Review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
               </span>
             </div>

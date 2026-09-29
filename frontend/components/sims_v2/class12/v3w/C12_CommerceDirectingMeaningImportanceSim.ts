@@ -11,7 +11,7 @@ export const w_c12_commercedirectingmeaningimportancesim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Directing: Meaning, Nature and Importance',
     chapters: [],
     nodeIds: ['c12_bs_cbse_07_001', 'c12_bs_cbse_07_003', 'c12_bs_cbse_07_007', 'c12_bs_cbse_01_001', 'c12_bs_cbse_01_008', 'c12_bs_cbse_05_009', 'c12_bs_cbse_07_006', 'c12_bs_cbse_07_008', 'c12_bs_cbse_01_004', 'c12_bs_cbse_05_001', 'c12_bs_cbse_05_010', 'c12_bs_cbse_06_001', 'c12_bs_cbse_06_007', 'c12_bs_cbse_09_006', 'c12_bs_cbse_05_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are the captain of a cricket team: you have a game plan (planning), assigned fielding positions.', goal: 'Master Directing: Meaning, Nature and Importance.' },
     discovery: {
         question: 'Design a mini-case (3-4 sentences) showing a manager applying the principle "Appropriateness of direction technique" for two employees with different.',
@@ -20,7 +20,7 @@ export const w_c12_commercedirectingmeaningimportancesim: SimDef = {
         hook: 'Students often think "Directing = Communication" because the textbook says directing \'encompasses\' communication.',
     },
     teaching: [
-        { title: 'Directing is the managerial function of.', text: 'Directing is the managerial function of instructing, guiding, counselling, motivating, and leading people in an organisation to achieve its objectives; it initiates action, flows top-down through the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Directing is the managerial function of.', text: 'Directing is the managerial function of instructing, guiding, counselling, motivating, and leading people in an organisation to achieve its objectives; it initiates action, flows top-down through the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_07_001', title: 'Directing is the managerial function of.',

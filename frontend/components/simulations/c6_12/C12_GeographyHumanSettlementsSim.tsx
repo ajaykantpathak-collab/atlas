@@ -43,9 +43,9 @@ export function C12_GeographyHumanSettlementsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700">🏘️</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🏘️</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 12 -- Human Settlements</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Human Settlements</span>
           <h1 className="text-xl md:text-2xl font-extrabold">From Hamlet to Megacity: the Settlement Ladder</h1>
         </div>
       </div>
@@ -108,7 +108,7 @@ export function C12_GeographyHumanSettlementsSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs mt-1">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Level</p>
-              <p className="font-mono font-bold text-violet-300">{cur.label}</p>
+              <p className="font-mono font-bold text-gold-300">{cur.label}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Urbanisation</p>
@@ -148,7 +148,7 @@ export function C12_GeographyHumanSettlementsSim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setShowRank(!showRank)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${showRank ? 'bg-violet-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${showRank ? 'bg-gold-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Rank-size chart
               </button>
               <button onClick={() => { setLevel('town'); setUrbanPop(31); setGrowth(2); setShowRank(true); }}
@@ -165,8 +165,8 @@ export function C12_GeographyHumanSettlementsSim() {
             </p>
           </div>
 
-          <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs">
-            <p className="font-bold text-violet-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Push urbanisation past 60% with growth above 2.5. Watch the rank-size curve bend -- which ONE city hogs everything?</p>
             <p>2. Drop the growth rate below 2.5 at the same urbanisation. Does primacy survive? What does that say about managing migration?</p>
           </div>

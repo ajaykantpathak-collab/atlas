@@ -11,7 +11,7 @@ export const w_c10_mathematicsconditionsparallelperpendicularsim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Basic Proportionality Theorem (Thales\' Theorem)',
     chapters: [],
     nodeIds: ['c10_math_cbse_06_003', 'c10_math_cbse_06_004', 'c10_math_cbse_12_006', 'c10_math_cbse_03_001', 'c10_math_cbse_03_002', 'c10_math_cbse_03_003', 'c10_math_cbse_03_007', 'c10_math_cbse_07_010', 'c10_math_cbse_06_009', 'c10_math_cbse_07_001', 'c10_math_cbse_07_003', 'c10_math_cbse_07_005', 'c10_math_cbse_07_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are designing a triangular garden plot with vertices at three trees.', goal: 'Master Basic Proportionality Theorem (Thales\' Theorem).' },
     discovery: {
         question: 'In ΔPQR, a line ST is drawn intersecting PQ at S and PR at T. A student writes PS/SQ = PT/TR and claims BPT applies.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsconditionsparallelperpendicularsim: SimDef = {
         hook: 'Students write AD/AB = AE/AC instead of AD/DB = AE/EC. They confuse the internal division ratio (part-to-part) with the.',
     },
     teaching: [
-        { title: 'If a line is drawn parallel to one side of a.', text: 'If a line is drawn parallel to one side of a triangle intersecting the other two sides at distinct points, then it divides those two sides in the same ratio.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'If a line is drawn parallel to one side of a.', text: 'If a line is drawn parallel to one side of a triangle intersecting the other two sides at distinct points, then it divides those two sides in the same ratio.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_06_003', title: 'If a line is drawn parallel to one side.',

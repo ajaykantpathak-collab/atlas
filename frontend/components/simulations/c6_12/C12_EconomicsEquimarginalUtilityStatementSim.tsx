@@ -1144,10 +1144,10 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
       {/* ─── HEADER BAR ─── */}
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3">
         <div className="flex items-center gap-3">
-          <motion.span whileHover={{ rotate: 10 }} className="text-3xl p-2 bg-indigo-900/40 border border-indigo-700/60 rounded-2xl">{subjectConfig.emoji}</motion.span>
+          <motion.span whileHover={{ rotate: 10 }} className="text-3xl p-2 bg-gold-900/40 border border-gold-700/60 rounded-2xl">{subjectConfig.emoji}</motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ISC Class 12 Economics</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ISC Class 12 Economics</span>
               <motion.span whileHover={{ scale: 1.05 }} className="px-2 py-0.5 text-[10px] font-semibold bg-emerald-950 text-emerald-400 border border-emerald-800 rounded-full">✓ NEP 2020 Aligned</motion.span>
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
@@ -1165,7 +1165,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-600'
               }`}
             >
               TIER: {difficulty.toUpperCase()}
@@ -1180,12 +1180,12 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-6 space-y-6">
-          <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/70 mt-2 bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-900/50">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-200/70 mt-2 bg-gold-950/40 p-2.5 rounded-lg border border-gold-900/50">{SCENARIO.context}</p>
           </motion.div>
 
           <motion.div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1208,10 +1208,10 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       ? 'bg-emerald-950 border-2 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-indigo-900/40 border border-slate-700 text-slate-200'
+                      : 'bg-slate-800/80 hover:bg-gold-900/40 border border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                   {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                   {opt}
@@ -1229,7 +1229,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1244,7 +1244,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="mt-6 space-y-5">
           <motion.div whileHover={{ scale: 1.01 }} className="flex justify-between items-center bg-slate-900 px-4 py-2.5 rounded-xl border border-slate-800 text-xs">
             <span className="text-slate-400">
-              Lab Step <span className="text-indigo-400 font-bold">{currentSlide + 1}</span> of {EXPLORATION_STEPS.length}
+              Lab Step <span className="text-gold-400 font-bold">{currentSlide + 1}</span> of {EXPLORATION_STEPS.length}
             </span>
             <span className="text-slate-400 font-mono">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
           </motion.div>
@@ -1258,7 +1258,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div>
-                <h3 className="text-lg font-black text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-xs font-semibold mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1269,8 +1269,8 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800/80">
                     {/* Rice Controls */}
-                    <motion.div whileHover={{ scale: 1.01 }} className="space-y-2 p-3 bg-slate-900/80 rounded-lg border border-blue-900/40">
-                      <div className="flex justify-between text-xs font-bold text-blue-400">
+                    <motion.div whileHover={{ scale: 1.01 }} className="space-y-2 p-3 bg-slate-900/80 rounded-lg border border-gold-900/40">
+                      <div className="flex justify-between text-xs font-bold text-gold-400">
                         <span>Good X: Rice (P = ₹{ricePrice}/kg)</span>
                         <span>Qty: {riceQty} kg</span>
                       </div>
@@ -1281,11 +1281,11 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         max={6}
                         value={riceQty}
                         onChange={e => setRiceQty(Number(e.target.value))}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="flex justify-between text-[11px] text-slate-300">
                         <span>MUx: {muRice} utils</span>
-                        <span className="font-bold text-blue-300">MUx / Px = {muPerRupeeRice} utils/₹</span>
+                        <span className="font-bold text-gold-300">MUx / Px = {muPerRupeeRice} utils/₹</span>
                       </div>
                     </motion.div>
 
@@ -1311,7 +1311,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                     </motion.div>
                   </div>
 
-                  <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-indigo-950/40 border border-indigo-800/50 rounded-xl flex flex-wrap justify-between items-center text-xs">
+                  <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-gold-950/40 border border-gold-800/50 rounded-xl flex flex-wrap justify-between items-center text-xs">
                     <span>Total Outlay: <strong className="text-white">₹{totalExpenditureCardinal}</strong> (Budget ₹500)</span>
                     <span className="text-slate-300">
                       Equimarginal Condition: <strong className={Math.abs(muPerRupeeRice - muPerRupeeDal) < 0.15 ? 'text-emerald-400 font-bold' : 'text-rose-400'}>
@@ -1336,7 +1336,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         step={0.5}
                         value={icXPos}
                         onChange={e => setIcXPos(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-slate-900 rounded-lg text-xs space-y-1.5 border border-slate-800">
                         <div className="flex justify-between">
@@ -1345,7 +1345,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Slope |ΔY/ΔX| (MRSxy):</span>
-                          <span className="text-indigo-400 font-bold font-mono">{mrsValue} biscuits/tea</span>
+                          <span className="text-gold-400 font-bold font-mono">{mrsValue} biscuits/tea</span>
                         </div>
                         <p className="text-[11px] text-slate-400 italic pt-1">
                           Notice: As Tea accumulates ({icXPos}), MRSxy drops from ~10.0 to ~0.4 (Diminishing MRS).
@@ -1426,7 +1426,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         step={5}
                         value={goodXPrice}
                         onChange={e => setGoodXPrice(Number(e.target.value))}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="space-y-1">
@@ -1456,7 +1456,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.01 }} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 flex justify-between">
                         <span className="text-slate-400">Budget Line Slope (-Px / Py):</span>
-                        <span className="text-indigo-400 font-bold font-mono">-{budgetSlope}</span>
+                        <span className="text-gold-400 font-bold font-mono">-{budgetSlope}</span>
                       </motion.div>
                       <p className="text-[11px] text-emerald-400 font-medium">
                         ✓ Rule: Changing Income M creates a PARALLEL SHIFT. Changing Px causes an AXIS PIVOT.
@@ -1493,7 +1493,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <p className="text-xs text-slate-300">
                       Equilibrium occurs where the highest attainable Indifference Curve is tangent to the Budget Line:
-                      <strong className="text-indigo-300 font-mono"> MRSxy = Px / Py</strong>.
+                      <strong className="text-gold-300 font-mono"> MRSxy = Px / Py</strong>.
                     </p>
 
                     <div className="bg-slate-900 p-3 rounded-xl border border-slate-800 flex justify-center">
@@ -1521,8 +1521,8 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
               {currentSlide === 4 && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-950 rounded-xl border border-indigo-900/50 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300">Predict: {PREDICTION_QUESTIONS[1].question}</p>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-950 rounded-xl border border-gold-900/50 space-y-2">
+                      <p className="text-xs font-bold text-gold-300">Predict: {PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
                           <motion.button
@@ -1554,13 +1554,13 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         step={0.5}
                         value={simDemandPrice}
                         onChange={e => setSimDemandPrice(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="grid grid-cols-3 gap-2 text-center text-xs">
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <p className="text-[10px] text-slate-400">Geometric |Ed|</p>
-                          <p className="text-base font-black text-indigo-400">{simGeometricEd}</p>
+                          <p className="text-base font-black text-gold-400">{simGeometricEd}</p>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <p className="text-[10px] text-slate-400">Total Outlay (P×Q)</p>
@@ -1568,7 +1568,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <p className="text-[10px] text-slate-400">Zone</p>
-                          <p className={`text-xs font-bold mt-1 ${simGeometricEd > 1 ? 'text-blue-400' : simGeometricEd < 1 ? 'text-amber-400' : 'text-emerald-400'}`}>
+                          <p className={`text-xs font-bold mt-1 ${simGeometricEd > 1 ? 'text-gold-400' : simGeometricEd < 1 ? 'text-amber-400' : 'text-emerald-400'}`}>
                             {simGeometricEd > 1 ? 'ELASTIC' : simGeometricEd < 1 ? 'INELASTIC' : 'UNITARY'}
                           </p>
                         </motion.div>
@@ -1612,7 +1612,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1651,7 +1651,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   onClick={() => setActiveTab(tab)}
                   className={`px-3.5 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
                     activeTab === tab
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                   }`}
                 >
@@ -1674,7 +1674,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                     <p className="text-xs text-slate-300">Set quantities and price ratios for Rice and Dal to see how rupees rebalance:</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="space-y-2">
-                        <label className="text-xs text-blue-400">Rice Qty: {riceQty} kg (Price: ₹{ricePrice}/kg)</label>
+                        <label className="text-xs text-gold-400">Rice Qty: {riceQty} kg (Price: ₹{ricePrice}/kg)</label>
                         <input
                           type="range"
                           aria-label="Sandbox Rice Quantity"
@@ -1682,7 +1682,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                           max={8}
                           value={riceQty}
                           onChange={e => setRiceQty(Number(e.target.value))}
-                          className="w-full accent-blue-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                         <div className="text-xs text-slate-400">MU/P = {muPerRupeeRice} utils/₹</div>
                       </div>
@@ -1714,9 +1714,9 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       step={0.2}
                       value={icXPos}
                       onChange={e => setIcXPos(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
-                    <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-indigo-300">
+                    <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-gold-300">
                       Current Point: ({icXPos} Tea, {icYPos} Biscuits) | MRSxy = {mrsValue} biscuits per tea
                     </div>
                   </div>
@@ -1744,7 +1744,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         step={5}
                         value={goodXPrice}
                         onChange={e => setGoodXPrice(Number(e.target.value))}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="text-xs text-slate-300">X-intercept = {xIntercept} units | Y-intercept = {yIntercept} units | Slope = -{budgetSlope}</div>
@@ -1762,13 +1762,13 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       step={0.5}
                       value={simDemandPrice}
                       onChange={e => setSimDemandPrice(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="text-xs text-slate-300 flex justify-between">
                       <span>Price: ₹{simDemandPrice}</span>
                       <span>Quantity: {simDemandQty}</span>
                       <span>Total Exp: ₹{simTotalExp}</span>
-                      <span className="font-bold text-indigo-400">|Ed| = {simGeometricEd}</span>
+                      <span className="font-bold text-gold-400">|Ed| = {simGeometricEd}</span>
                     </div>
                   </div>
                 )}
@@ -1780,7 +1780,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="w-full py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg"
+              className="w-full py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg"
             >
               I Am Ready for CISCE Challenges! →
             </motion.button>
@@ -1797,11 +1797,11 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
               <span className="text-slate-400 font-semibold">
                 Challenge <span className="text-white font-bold">{currentChallenge + 1}</span> of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono text-[11px]">NEP: {challenge.competencyLevel.toUpperCase()}</span>
+              <span className="text-gold-400 font-mono text-[11px]">NEP: {challenge.competencyLevel.toUpperCase()}</span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
@@ -1847,10 +1847,10 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                         ? 'bg-emerald-950/90 border-2 border-emerald-500 text-emerald-200'
                         : wrongFlash
                         ? 'bg-rose-950/40 border border-rose-800/80 text-rose-200'
-                        : 'bg-slate-800/80 hover:bg-indigo-950/50 border border-slate-700 text-slate-200'
+                        : 'bg-slate-800/80 hover:bg-gold-950/50 border border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-3 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-3 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {showExplanation && i === challenge.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                     {opt}
                   </motion.button>
@@ -1872,7 +1872,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1906,7 +1906,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Submit Formula Match
                 </motion.button>
@@ -1934,7 +1934,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs font-medium text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 flex items-center justify-center bg-indigo-900 text-indigo-300 font-bold rounded-md">
+                      <span className="w-6 h-6 flex items-center justify-center bg-gold-900 text-gold-300 font-bold rounded-md">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -1947,7 +1947,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -1965,7 +1965,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-60"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-60"
                   />
                   <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -1974,7 +1974,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-50"
                   >
                     Verify Value
                   </motion.button>
@@ -1994,7 +1994,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-700 border border-indigo-700 text-indigo-200 text-xs font-mono font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-700 border border-gold-700 text-gold-200 text-xs font-mono font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2003,7 +2003,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
 
                 <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <motion.span key={i} whileHover={{ scale: 1.05 }} className="px-2.5 py-1 bg-indigo-700 text-white font-mono text-xs rounded-md flex items-center gap-1.5">
+                    <motion.span key={i} whileHover={{ scale: 1.05 }} className="px-2.5 py-1 bg-gold-700 text-white font-mono text-xs rounded-md flex items-center gap-1.5">
                       {part}
                       <motion.button
                         aria-label={`Remove token ${part}`}
@@ -2026,7 +2026,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Construction
                   </motion.button>
@@ -2084,7 +2084,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
       {/* ─── COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <motion.div whileHover={{ scale: 1.01 }} className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 shadow-2xl space-y-4 text-center">
+          <motion.div whileHover={{ scale: 1.01 }} className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 shadow-2xl space-y-4 text-center">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl font-black text-white">ISC Economics Simulation Mastery Attained!</h2>
             <div className="flex justify-center gap-6 text-sm">
@@ -2092,7 +2092,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                 Score: <strong className="text-emerald-400 text-lg">{Math.max(0, 100 - errors * 5)}%</strong>
               </motion.span>
               <motion.span whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                Mastery Level: <strong className="text-indigo-400 text-lg capitalize">{masteryLevel}</strong>
+                Mastery Level: <strong className="text-gold-400 text-lg capitalize">{masteryLevel}</strong>
               </motion.span>
             </div>
           </motion.div>
@@ -2105,7 +2105,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
               errors === 0
                 ? 'bg-emerald-950/50 border-emerald-500/80'
                 : errors <= 3
-                ? 'bg-blue-950/50 border-blue-500/80'
+                ? 'bg-gold-950/50 border-gold-500/80'
                 : errors <= 7
                 ? 'bg-amber-950/50 border-amber-500/80'
                 : 'bg-rose-950/50 border-rose-500/80'
@@ -2132,10 +2132,10 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.01 }}
-            className="p-5 bg-indigo-950/40 border border-indigo-800/50 rounded-2xl flex items-center justify-between text-xs"
+            className="p-5 bg-gold-950/40 border border-gold-800/50 rounded-2xl flex items-center justify-between text-xs"
           >
             <div>
-              <p className="font-bold text-indigo-300 flex items-center gap-1.5">
+              <p className="font-bold text-gold-300 flex items-center gap-1.5">
                 <span>📅</span> SM-2 Spaced Repetition Schedule
               </p>
               <p className="text-slate-300 mt-1">
@@ -2164,7 +2164,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   placeholder="e.g., How Total Expenditure actually drops when price cuts hit inelastic goods..."
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </motion.div>
 
@@ -2176,7 +2176,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   placeholder="e.g., Always equate the marginal satisfaction per rupee, not just total utils!"
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </motion.div>
 
@@ -2188,7 +2188,7 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
                   placeholder="e.g., Managing monthly grocery budgets between essentials and dining out..."
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </motion.div>
             </div>
@@ -2213,14 +2213,14 @@ export function C12_EconomicsEquimarginalUtilityStatementSim({
 
           {/* Real World Application Arc */}
           <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <motion.li key={i} whileHover={{ x: 3 }} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </motion.li>
               ))}

@@ -106,7 +106,7 @@ export function C12_HistoryThinkersBeliefsBuildingsSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Circumambulations</p>
-              <p className="font-mono font-bold text-sky-300">{Math.floor(steps / 360)}</p>
+              <p className="font-mono font-bold text-gold-300">{Math.floor(steps / 360)}</p>
             </div>
           </div>
         </div>

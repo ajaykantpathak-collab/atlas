@@ -714,9 +714,9 @@ function TrigPowerSvgDiagram({ power }: { power: number }) {
   const areaPath = `M 30,${centerY} L ${polylineStr} L ${width - 30},${centerY} Z`;
 
   return (
-    <div className="bg-slate-950 p-3 rounded-2xl border border-indigo-900/40">
+    <div className="bg-slate-950 p-3 rounded-2xl border border-gold-900/40">
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-400">SVG Model 1: Harmonic Spectrum & Envelope</span>
+        <span className="text-[11px] font-bold uppercase tracking-wider text-gold-400">SVG Model 1: Harmonic Spectrum & Envelope</span>
         <span className="text-[11px] font-mono text-emerald-400">n = {power}</span>
       </div>
       <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-36 select-none" role="img" aria-label={`Trigonometric power curve sin^${power}(x)`}>
@@ -762,10 +762,10 @@ function PartsSvgDiagram({ pair }: { pair: 'x_ex' | 'x_sinx' | 'x2_ex' }) {
   const finalResult = pair === 'x_ex' ? 'eˣ(x - 1) + C' : pair === 'x_sinx' ? '-x cos(x) + sin(x) + C' : 'eˣ(x² - 2x + 2) + C';
 
   return (
-    <div className="bg-slate-950 p-3 rounded-2xl border border-indigo-900/40">
+    <div className="bg-slate-950 p-3 rounded-2xl border border-gold-900/40">
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-400">SVG Model 2: Geometric Rectangle Decomposition</span>
-        <span className="text-[11px] font-mono text-indigo-300">∫ u dv = uv - ∫ v du</span>
+        <span className="text-[11px] font-bold uppercase tracking-wider text-gold-400">SVG Model 2: Geometric Rectangle Decomposition</span>
+        <span className="text-[11px] font-mono text-gold-300">∫ u dv = uv - ∫ v du</span>
       </div>
       <svg viewBox="0 0 460 160" className="w-full h-36 select-none" role="img" aria-label="Integration by Parts Area Decomposition">
         {/* Outer Rectangle uv */}
@@ -787,7 +787,7 @@ function PartsSvgDiagram({ pair }: { pair: 'x_ex' | 'x_sinx' | 'x2_ex' }) {
         <line x1="50" y1="20" x2="50" y2="130" stroke="#94a3b8" strokeWidth="1.5" />
       </svg>
       <div className="flex flex-wrap justify-between items-center text-[10px] text-slate-300 mt-1 font-mono gap-1">
-        <span>Choice: <b className="text-indigo-400">{uLabel}</b>, <b className="text-sky-400">{vLabel}</b></span>
+        <span>Choice: <b className="text-gold-400">{uLabel}</b>, <b className="text-gold-400">{vLabel}</b></span>
         <span>Expansion: <b className="text-amber-400">{uvFormula}</b></span>
         <span>Output: <b className="text-emerald-400">{finalResult}</b></span>
       </div>
@@ -805,9 +805,9 @@ function KingsPropertySvgDiagram({ mirrorFrac }: { mirrorFrac: number }) {
   const mirrorX = a + (b - a) * mirrorFrac;
 
   return (
-    <div className="bg-slate-950 p-3 rounded-2xl border border-indigo-900/40">
+    <div className="bg-slate-950 p-3 rounded-2xl border border-gold-900/40">
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-400">SVG Model 3: King&apos;s Mirror Symmetry f(a + b - x)</span>
+        <span className="text-[11px] font-bold uppercase tracking-wider text-gold-400">SVG Model 3: King&apos;s Mirror Symmetry f(a + b - x)</span>
         <span className="text-[11px] font-mono text-emerald-400">Midpoint = (a+b)/2</span>
       </div>
       <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-36 select-none" role="img" aria-label="King's property reflection symmetry">
@@ -836,7 +836,7 @@ function KingsPropertySvgDiagram({ mirrorFrac }: { mirrorFrac: number }) {
       <div className="flex justify-between items-center text-[10px] text-slate-400 mt-1 font-mono">
         <span className="text-teal-400">Original ∫ₐᵇ f(x) dx</span>
         <span className="text-amber-400">= Reflected ∫ₐᵇ f(a+b-x) dx</span>
-        <span className="text-indigo-300">Sum = 2I = ∫ₐᵇ [f(x) + f(a+b-x)] dx</span>
+        <span className="text-gold-300">Sum = 2I = ∫ₐᵇ [f(x) + f(a+b-x)] dx</span>
       </div>
     </div>
   );
@@ -845,10 +845,10 @@ function KingsPropertySvgDiagram({ mirrorFrac }: { mirrorFrac: number }) {
 // ─── SVG DIAGRAM 4: WEIERSTRASS HALF-ANGLE UNIT CIRCLE GEOMETRY ───
 function WeierstrassSvgDiagram() {
   return (
-    <div className="bg-slate-950 p-3 rounded-2xl border border-indigo-900/40">
+    <div className="bg-slate-950 p-3 rounded-2xl border border-gold-900/40">
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-indigo-400">SVG Model 4: Weierstrass Rational Substitution t = tan(x/2)</span>
-        <span className="text-[11px] font-mono text-cyan-400">Stereographic Projection</span>
+        <span className="text-[11px] font-bold uppercase tracking-wider text-gold-400">SVG Model 4: Weierstrass Rational Substitution t = tan(x/2)</span>
+        <span className="text-[11px] font-mono text-gold-400">Stereographic Projection</span>
       </div>
       <svg viewBox="0 0 460 150" className="w-full h-32 select-none" role="img" aria-label="Weierstrass substitution unit circle representation">
         {/* Coordinate axes */}
@@ -1291,10 +1291,10 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50" role="img" aria-label="Math icon">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50" role="img" aria-label="Math icon">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-lg sm:text-xl font-bold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium tracking-wide">ISC Class 12 • Integral Calculus & Special Forms</p>
+            <p className="text-xs text-gold-400 font-medium tracking-wide">ISC Class 12 • Integral Calculus & Special Forms</p>
           </div>
         </div>
 
@@ -1313,19 +1313,19 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
           </motion.span>
           <div className="text-right">
             <span className="text-xs text-slate-400">Mastery: </span>
-            <span className="text-xs font-semibold text-indigo-300 capitalize">{masteryLevel}</span>
+            <span className="text-xs font-semibold text-gold-300 capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.header>
 
       {/* ─── MULTI-REPRESENTATION COMPARISON TAB BAR ─── */}
       <div className="mb-6 grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
-        <div className="p-2.5 bg-slate-900/90 rounded-xl border border-indigo-900/50">
-          <span className="text-indigo-400 font-semibold block">1. Harmonic Reduction</span>
+        <div className="p-2.5 bg-slate-900/90 rounded-xl border border-gold-900/50">
+          <span className="text-gold-400 font-semibold block">1. Harmonic Reduction</span>
           <span className="text-[11px] text-slate-300 font-mono">sin²x = (1-cos 2x)/2</span>
         </div>
-        <div className="p-2.5 bg-slate-900/90 rounded-xl border border-sky-900/50">
-          <span className="text-sky-400 font-semibold block">2. LIATE Rule</span>
+        <div className="p-2.5 bg-slate-900/90 rounded-xl border border-gold-900/50">
+          <span className="text-gold-400 font-semibold block">2. LIATE Rule</span>
           <span className="text-[11px] text-slate-300 font-mono">∫ u dv = uv - ∫ v du</span>
         </div>
         <div className="p-2.5 bg-slate-900/90 rounded-xl border border-emerald-900/50">
@@ -1341,8 +1341,8 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40">
-            <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40">
+            <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-amber-300/90 mt-3 font-mono bg-amber-950/30 p-2 rounded-lg border border-amber-800/30">
               ⚡ MISSION OBJECTIVE: {SCENARIO.context}
@@ -1374,7 +1374,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   }`}
                 >
                   <span>
-                    <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
+                    <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
                     {opt}
                   </span>
                   {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && (
@@ -1397,7 +1397,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                 >
                   Enter Calculus Interactive Labs →
                 </motion.button>
@@ -1419,7 +1419,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex justify-between items-center">
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <span className="text-xs text-slate-400 font-mono">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
               </div>
               <p className="text-sm text-amber-300/90 font-medium bg-amber-950/20 p-2.5 rounded-xl border border-amber-800/30">
@@ -1436,7 +1436,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     <TrigPowerSvgDiagram power={trigPowerN} />
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
-                        <span>Integrand: <b className="text-indigo-400 font-mono">y = sin^{trigPowerN}(x)</b></span>
+                        <span>Integrand: <b className="text-gold-400 font-mono">y = sin^{trigPowerN}(x)</b></span>
                         <span>Harmonic Expansion: <b className="text-emerald-400 font-mono">
                           {trigPowerN === 1 ? 'sin(x)' : trigPowerN === 2 ? '(1 - cos 2x)/2' : trigPowerN === 3 ? '(3 sin x - sin 3x)/4' : '3/8 - 1/2 cos 2x + 1/8 cos 4x'}
                         </b></span>
@@ -1449,19 +1449,19 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                         step={1}
                         value={trigPowerN}
                         onChange={(e) => setTrigPowerN(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-400">
-                        Antiderivative: <span className="text-indigo-300 font-mono">
+                        Antiderivative: <span className="text-gold-300 font-mono">
                           {trigPowerN === 1 ? '-cos(x) + C' : trigPowerN === 2 ? 'x/2 - (sin 2x)/4 + C' : trigPowerN === 3 ? '-3/4 cos(x) + (cos 3x)/12 + C' : '3x/8 - (sin 2x)/4 + (sin 4x)/32 + C'}
                         </span>
                       </div>
                     </div>
 
                     {/* Observation Question 1 */}
-                    <div className="p-4 bg-slate-900/90 rounded-xl border border-indigo-900/40 space-y-3 mt-4">
+                    <div className="p-4 bg-slate-900/90 rounded-xl border border-gold-900/40 space-y-3 mt-4">
                       <div className="flex items-center gap-2">
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">💡 Observation Probe 1</span>
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-400">💡 Observation Probe 1</span>
                       </div>
                       <p className="text-xs text-slate-200 font-medium">{OBSERVATION_QUESTIONS[0].prompt}</p>
                       <div className="space-y-2">
@@ -1499,7 +1499,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                 {currentSlide === 1 && (
                   <div className="space-y-4">
                     <div className="flex justify-between text-xs text-slate-300">
-                      <span>Inner Scale Factor k: <b className="text-indigo-400 font-mono">{subKFactor}</b></span>
+                      <span>Inner Scale Factor k: <b className="text-gold-400 font-mono">{subKFactor}</b></span>
                       <span>Transform: <b className="text-amber-400 font-mono">∫ x (x² + 1)^{subKFactor} dx = (1/2) ∫ u^{subKFactor} du</b></span>
                     </div>
                     <input
@@ -1510,11 +1510,11 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                       step={1}
                       value={subKFactor}
                       onChange={(e) => setSubKFactor(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                        <span className="text-indigo-400 font-semibold block mb-1">Differential Transform</span>
+                        <span className="text-gold-400 font-semibold block mb-1">Differential Transform</span>
                         <p className="text-slate-300 font-mono">u = x² + 1 → du = 2x dx → dx = du / (2x)</p>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1542,7 +1542,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                           whileTap={{ scale: 0.97 }}
                           onClick={() => setSelectedPartsPair(item.id as 'x_ex' | 'x_sinx' | 'x2_ex')}
                           className={`px-3 py-1.5 rounded-lg text-xs font-mono border ${
-                            selectedPartsPair === item.id ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'
+                            selectedPartsPair === item.id ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
                           {item.label}
@@ -1558,7 +1558,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     <KingsPropertySvgDiagram mirrorFrac={kingMirrorX} />
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
-                        <span>Mirror Probe Position: <b className="text-indigo-400 font-mono">{(kingMirrorX * 100).toFixed(0)}%</b></span>
+                        <span>Mirror Probe Position: <b className="text-gold-400 font-mono">{(kingMirrorX * 100).toFixed(0)}%</b></span>
                         <span className="text-emerald-400 font-mono">f(x) + f(a+b-x) = Const</span>
                       </div>
                       <input
@@ -1569,14 +1569,14 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                         step={0.01}
                         value={kingMirrorX}
                         onChange={(e) => setKingMirrorX(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     {/* Observation Question 2 */}
-                    <div className="p-4 bg-slate-900/90 rounded-xl border border-indigo-900/40 space-y-3">
+                    <div className="p-4 bg-slate-900/90 rounded-xl border border-gold-900/40 space-y-3">
                       <div className="flex items-center gap-2">
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">💡 Observation Probe 2</span>
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-400">💡 Observation Probe 2</span>
                       </div>
                       <p className="text-xs text-slate-200 font-medium">{OBSERVATION_QUESTIONS[1].prompt}</p>
                       <div className="space-y-2">
@@ -1609,7 +1609,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     </div>
 
                     {!predictionMade && (
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-800/40 space-y-2">
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-800/40 space-y-2">
                         <p className="text-xs font-semibold text-white">{PREDICTION_QUESTIONS[1].question}</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                           {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
@@ -1641,7 +1641,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     <WeierstrassSvgDiagram />
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
-                        <span>Upper Bound b: <b className="text-indigo-400 font-mono">{(upperLimitB / Math.PI).toFixed(2)}π</b></span>
+                        <span>Upper Bound b: <b className="text-gold-400 font-mono">{(upperLimitB / Math.PI).toFixed(2)}π</b></span>
                         <span>Accumulated Net Area: <b className="text-emerald-400 font-mono">
                           {trigPowerN === 1 ? (1 - Math.cos(upperLimitB)).toFixed(3) : (upperLimitB/2 - Math.sin(2*upperLimitB)/4).toFixed(3)}
                         </b></span>
@@ -1654,7 +1654,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                         step={0.05}
                         value={upperLimitB}
                         onChange={(e) => setUpperLimitB(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1682,7 +1682,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1705,7 +1705,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-            <h3 className="text-base font-bold text-indigo-300">Orbit Simulation Sandbox</h3>
+            <h3 className="text-base font-bold text-gold-300">Orbit Simulation Sandbox</h3>
             <p className="text-xs text-slate-400">Explore continuous parameter sweeps across trigonometric powers and definite limits without scoring pressure.</p>
           </div>
 
@@ -1727,7 +1727,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   max={4}
                   value={trigPowerN}
                   onChange={(e) => setTrigPowerN(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div>
@@ -1741,7 +1741,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   step={0.05}
                   value={upperLimitB}
                   onChange={(e) => setUpperLimitB(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
@@ -1752,7 +1752,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white rounded-2xl font-bold text-sm shadow-xl"
+            className="w-full py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-2xl font-bold text-sm shadow-xl"
           >
             Ready for Flight Dynamics Challenges! →
           </motion.button>
@@ -1766,11 +1766,11 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
           <div className="space-y-2">
             <div className="flex justify-between items-center text-xs text-slate-400 font-mono">
               <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-              <span className="text-indigo-400 font-bold uppercase">{challenge.competencyLevel} • {challenge.difficulty}</span>
+              <span className="text-gold-400 font-bold uppercase">{challenge.competencyLevel} • {challenge.difficulty}</span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1808,7 +1808,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     }`}
                   >
                     <span>
-                      <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                      <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                       {opt}
                     </span>
                     {showExplanation && i === challenge.correctIndex && (
@@ -1832,7 +1832,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
-                      className="px-3 py-1.5 bg-indigo-700 rounded-lg text-xs font-semibold cursor-grab text-white select-none"
+                      className="px-3 py-1.5 bg-gold-700 rounded-lg text-xs font-semibold cursor-grab text-white select-none"
                     >
                       {item.label}
                     </motion.div>
@@ -1850,7 +1850,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                       className="p-3 bg-slate-950 rounded-xl border border-dashed border-slate-700 text-center min-h-[60px] flex flex-col justify-center items-center"
                     >
                       <span className="text-[10px] text-slate-500 font-mono uppercase">Slot {idx + 1}</span>
-                      <span className="text-xs font-bold text-indigo-300 mt-1">{droppedLabels[targetId] || 'Drop Here'}</span>
+                      <span className="text-xs font-bold text-gold-300 mt-1">{droppedLabels[targetId] || 'Drop Here'}</span>
                     </div>
                   ))}
                 </div>
@@ -1861,7 +1861,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify LIATE Priority
                 </motion.button>
@@ -1890,7 +1890,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-2 select-none"
                   >
-                    <span className="font-mono text-indigo-400 font-bold">{displayIdx + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{displayIdx + 1}.</span>
                     <span>{item}</span>
                   </motion.div>
                 ))}
@@ -1901,7 +1901,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-3 px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="mt-3 px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Execution Order
                 </motion.button>
@@ -1918,7 +1918,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 outline-none"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
                 </div>
@@ -1928,7 +1928,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Numerical Solution
                 </motion.button>
@@ -1947,7 +1947,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1 bg-indigo-800 hover:bg-indigo-700 rounded-lg text-xs font-mono text-white"
+                      className="px-3 py-1 bg-gold-800 hover:bg-gold-700 rounded-lg text-xs font-mono text-white"
                     >
                       + {part}
                     </motion.button>
@@ -1956,7 +1956,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-700 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 rounded-md text-xs font-mono text-indigo-300 flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 border border-gold-700 rounded-md text-xs font-mono text-gold-300 flex items-center gap-1">
                       {part}
                       <button aria-label={`Remove ${part}`} onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))} className="text-rose-400 hover:text-rose-300 ml-1">✕</button>
                     </span>
@@ -1970,7 +1970,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Proof Chain
                 </motion.button>
@@ -2029,24 +2029,24 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
       {/* ─── 5. COMPLETION & MOTIVATIONAL FEEDBACK ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-3xl border border-indigo-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-3xl border border-gold-700/50 text-center space-y-3">
             <h2 className="text-2xl font-black text-white">Mission Orbit Captured!</h2>
             <p className="text-sm text-slate-300">
               Trajectory Performance Score: <b className="text-emerald-400 font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</b>
             </p>
-            <p className="text-xs text-indigo-300">BKT Knowledge State: {masteryLevel.toUpperCase()}</p>
+            <p className="text-xs text-gold-300">BKT Knowledge State: {masteryLevel.toUpperCase()}</p>
           </div>
 
           {/* Personalized Motivational Message */}
-          <div className="p-5 bg-indigo-900/30 border border-indigo-700/50 rounded-2xl">
-            <h3 className="text-sm font-bold text-indigo-300 mb-1">Flight Controller Assessment:</h3>
+          <div className="p-5 bg-gold-900/30 border border-gold-700/50 rounded-2xl">
+            <h3 className="text-sm font-bold text-gold-300 mb-1">Flight Controller Assessment:</h3>
             <p className="text-sm font-medium text-white">
               {getMotivationalFeedback(errors)}
             </p>
           </div>
 
           {/* Real-World Practical Application Activity */}
-          <div className="p-5 bg-slate-900 rounded-2xl border border-indigo-800/60 space-y-4">
+          <div className="p-5 bg-slate-900 rounded-2xl border border-gold-800/60 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">🚀</span>
               <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2055,7 +2055,7 @@ function C12_MathematicsIntegrationTrigonometricPowersSim({
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex gap-2.5 items-start p-2.5 bg-slate-950/60 rounded-xl border border-slate-800 text-xs">
-                  <span className="px-2 py-0.5 bg-indigo-900 text-indigo-300 rounded font-bold font-mono text-[11px]">{idx + 1}</span>
+                  <span className="px-2 py-0.5 bg-gold-900 text-gold-300 rounded font-bold font-mono text-[11px]">{idx + 1}</span>
                   <span className="text-slate-300 leading-normal">{step}</span>
                 </div>
               ))}

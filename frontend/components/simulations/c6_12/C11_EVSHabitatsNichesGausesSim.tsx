@@ -1227,7 +1227,7 @@ function C11_EVSHabitatsNichesGausesSim({
       ═══════════════════════════════��═══════════════════════════════════════════ */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-indigo-950/80 rounded-2xl border border-emerald-800/60 shadow-xl">
+          <div className="p-5 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-gold-950/80 rounded-2xl border border-emerald-800/60 shadow-xl">
             <div className="flex items-center gap-2 text-emerald-300 font-bold text-sm mb-1">
               <span>🚨</span> Environmental Scenario Briefing
             </div>
@@ -1374,7 +1374,7 @@ function C11_EVSHabitatsNichesGausesSim({
                       <div>
                         <div className="flex justify-between text-xs font-medium text-slate-300 mb-1">
                           <span>Limiting Bacterial Food Supply:</span>
-                          <span className="text-cyan-400 font-mono font-bold">{foodSupply} units/day</span>
+                          <span className="text-gold-400 font-mono font-bold">{foodSupply} units/day</span>
                         </div>
                         <input
                           type="range"
@@ -1383,13 +1383,13 @@ function C11_EVSHabitatsNichesGausesSim({
                           value={foodSupply}
                           onChange={e => setFoodSupply(Number(e.target.value))}
                           aria-label="Set Food Supply"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
                       {!predictionMade && (
-                        <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800/60 mt-2">
-                          <p className="text-xs font-bold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                        <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800/60 mt-2">
+                          <p className="text-xs font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                           <div className="space-y-1.5">
                             {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                               <motion.button
@@ -1397,7 +1397,7 @@ function C11_EVSHabitatsNichesGausesSim({
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
                                 onClick={() => handlePrediction(i)}
-                                className="w-full text-left p-2 rounded-lg bg-slate-900 hover:bg-indigo-900/60 text-xs text-slate-300 border border-indigo-900/40"
+                                className="w-full text-left p-2 rounded-lg bg-slate-900 hover:bg-gold-900/60 text-xs text-slate-300 border border-gold-900/40"
                               >
                                 {opt}
                               </motion.button>
@@ -1479,7 +1479,7 @@ function C11_EVSHabitatsNichesGausesSim({
                     </div>
                     <div>
                       <span className="text-xs text-slate-400">Carnivore Assimilation:</span>
-                      <p className="text-base font-bold text-cyan-400 font-mono">{carnivoreAssimEff}% (vs Herbivore 35%)</p>
+                      <p className="text-base font-bold text-gold-400 font-mono">{carnivoreAssimEff}% (vs Herbivore 35%)</p>
                     </div>
                   </div>
 
@@ -1523,7 +1523,7 @@ function C11_EVSHabitatsNichesGausesSim({
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                     {[
                       { id: 'fixation', name: '1. Nitrogen Fixation', desc: 'N2 → NH3 (Rhizobium / Azotobacter)', color: 'border-emerald-500 bg-emerald-950/50' },
-                      { id: 'nitrification', name: '2. Nitrification', desc: 'NH3 → NO2- (Nitrosomonas) → NO3- (Nitrobacter)', color: 'border-cyan-500 bg-cyan-950/50' },
+                      { id: 'nitrification', name: '2. Nitrification', desc: 'NH3 → NO2- (Nitrosomonas) → NO3- (Nitrobacter)', color: 'border-gold-500 bg-gold-950/50' },
                       { id: 'assimilation', name: '3. Assimilation', desc: 'Plant uptake of NO3- for protein synthesis', color: 'border-amber-500 bg-amber-950/50' },
                       { id: 'denitrification', name: '4. Denitrification', desc: 'NO3- → N2 gas (Pseudomonas denitrificans)', color: 'border-rose-500 bg-rose-950/50' },
                     ].map(step => (
@@ -1619,7 +1619,7 @@ function C11_EVSHabitatsNichesGausesSim({
                       </div>
                       <div className="flex justify-between items-center text-xs mt-1">
                         <span className="text-slate-400">Surviving Fish Population:</span>
-                        <span className="font-mono font-bold text-cyan-400">{fishCount} Indv</span>
+                        <span className="font-mono font-bold text-gold-400">{fishCount} Indv</span>
                       </div>
                     </div>
                   </div>
@@ -1662,7 +1662,7 @@ function C11_EVSHabitatsNichesGausesSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold uppercase tracking-wider text-cyan-400">Industrial End-of-Pipe Stack Controls</h4>
+                      <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400">Industrial End-of-Pipe Stack Controls</h4>
                       <div>
                         <div className="flex justify-between text-xs font-medium text-slate-300 mb-1">
                           <span>Electrostatic Precipitator (ESP) Fly-Ash Capture:</span>
@@ -1700,7 +1700,7 @@ function C11_EVSHabitatsNichesGausesSim({
                       <h4 className="text-xs font-bold uppercase tracking-wider text-amber-400">Indian Statutory Framework Highlights</h4>
                       <div className="space-y-1.5 text-xs text-slate-300">
                         <p><strong className="text-emerald-400">Water Act 1974:</strong> Established CPCB & SPCBs for aquatic effluent consent.</p>
-                        <p><strong className="text-cyan-400">Air Act 1981:</strong> Regulates industrial emission limits & noise under 1987 amendment.</p>
+                        <p><strong className="text-gold-400">Air Act 1981:</strong> Regulates industrial emission limits & noise under 1987 amendment.</p>
                         <p><strong className="text-amber-400">EPA 1986:</strong> Post-Bhopal umbrella statute with plenary central powers.</p>
                         <p><strong className="text-rose-400">NGT Act 2010:</strong> Specialised environmental fast-track judicial tribunal.</p>
                       </div>
@@ -1718,7 +1718,7 @@ function C11_EVSHabitatsNichesGausesSim({
       ═══════════════════════════════════════════════════════════════════════════ */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
-          <div className="p-4 bg-gradient-to-r from-slate-900 to-indigo-950 rounded-2xl border border-indigo-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="p-4 bg-gradient-to-r from-slate-900 to-gold-950 rounded-2xl border border-gold-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
                 <span>🎛️</span> Environmental Master Sandbox
@@ -1805,7 +1805,7 @@ function C11_EVSHabitatsNichesGausesSim({
                 <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">
                   Node: {activeChallenge.nodeId}
                 </span>
-                <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
+                <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                   NEP: {activeChallenge.competencyLevel}
                 </span>
               </div>
@@ -1820,7 +1820,7 @@ function C11_EVSHabitatsNichesGausesSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/80 border-emerald-600 text-emerald-300'
                   : difficulty === 'standard'
-                  ? 'bg-blue-950/80 border-blue-600 text-blue-300'
+                  ? 'bg-gold-950/80 border-gold-600 text-gold-300'
                   : 'bg-rose-950/80 border-rose-600 text-rose-300'
               }`}
             >
@@ -1830,7 +1830,7 @@ function C11_EVSHabitatsNichesGausesSim({
 
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2003,7 +2003,7 @@ function C11_EVSHabitatsNichesGausesSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => setConstructParts(p => [...p, part])}
-                    className="px-3 py-2 bg-indigo-800 hover:bg-indigo-700 rounded-xl text-xs font-bold text-white"
+                    className="px-3 py-2 bg-gold-800 hover:bg-gold-700 rounded-xl text-xs font-bold text-white"
                   >
                     + {part}
                   </motion.button>
@@ -2016,7 +2016,7 @@ function C11_EVSHabitatsNichesGausesSim({
                     key={i}
                     initial={{ scale: 0.8 }}
                     animate={{ scale: 1 }}
-                    className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 rounded-lg text-xs font-semibold text-indigo-200 flex items-center gap-2"
+                    className="px-3 py-1.5 bg-gold-950 border border-gold-700 rounded-lg text-xs font-semibold text-gold-200 flex items-center gap-2"
                   >
                     <span>{p}</span>
                     <button
@@ -2102,12 +2102,12 @@ function C11_EVSHabitatsNichesGausesSim({
       ═══════════════════════════════════════════════════════════════════════════ */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-700/60 text-center space-y-3 shadow-2xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-700/60 text-center space-y-3 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">ISC Class 11 EVS Simulation Complete!</h2>
             <div className="flex justify-center gap-6 text-sm font-mono pt-2">
               <span className="text-emerald-400 font-bold">Final Score: {Math.max(0, 100 - errors * 5)}%</span>
-              <span className="text-cyan-400 font-bold">BKT Mastery: {masteryLevel.toUpperCase()}</span>
+              <span className="text-gold-400 font-bold">BKT Mastery: {masteryLevel.toUpperCase()}</span>
               <span className="text-amber-400 font-bold">Errors Logged: {errors}</span>
             </div>
 
@@ -2148,9 +2148,9 @@ function C11_EVSHabitatsNichesGausesSim({
               </div>
 
               <div className={`p-3 rounded-xl border text-center transition-all ${
-                errors >= 1 && errors <= 3 ? 'bg-blue-950/80 border-blue-500 ring-2 ring-blue-500/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
+                errors >= 1 && errors <= 3 ? 'bg-gold-950/80 border-gold-500 ring-2 ring-gold-500/50' : 'bg-slate-950/60 border-slate-800 opacity-60'
               }`}>
-                <span className="text-xs font-bold text-blue-400">1–3 Errors (Reinforce)</span>
+                <span className="text-xs font-bold text-gold-400">1–3 Errors (Reinforce)</span>
                 <p className="text-sm font-extrabold text-white mt-0.5">review in 3 days</p>
                 <span className="text-[10px] text-slate-400">Mid-term reinforcement</span>
               </div>
@@ -2174,8 +2174,8 @@ function C11_EVSHabitatsNichesGausesSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-cyan-800/60 shadow-xl space-y-4">
-            <div className="flex items-center gap-2 text-cyan-300 font-bold text-base">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-800/60 shadow-xl space-y-4">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-base">
               <span>💭</span> Key Concept Reflection & Self-Assessment
             </div>
             <p className="text-xs sm:text-sm text-slate-300">
@@ -2196,14 +2196,14 @@ function C11_EVSHabitatsNichesGausesSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-sm font-bold text-cyan-300 block">
+                <label className="text-sm font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g., A habitat is where an animal lives (address) while a niche is what it does (job). Two species can't do the exact same job in the exact same place without competing..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs sm:text-sm text-slate-200 focus:outline-none focus:border-cyan-500 h-20 resize-none"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs sm:text-sm text-slate-200 focus:outline-none focus:border-gold-500 h-20 resize-none"
                 />
               </div>
 

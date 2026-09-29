@@ -11,11 +11,11 @@ export const w_c6_mathematicscollectionorganisationdatasim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Data',
     chapters: [],
     nodeIds: ['c6_math_ch09_095', 'c6_math_ch09_096', 'c6_math_ch09_102', 'c6_math_ch09_097'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you want to find out the favourite fruit of everyone in your class.', goal: 'Master Introduction to Data.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Data is a collection of facts, numbers,.', text: 'Data is a collection of facts, numbers, measures, or observations that provide information about a specific topic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Data is a collection of facts, numbers,.', text: 'Data is a collection of facts, numbers, measures, or observations that provide information about a specific topic.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch09_095', title: 'Data is a collection of facts, numbers,.',

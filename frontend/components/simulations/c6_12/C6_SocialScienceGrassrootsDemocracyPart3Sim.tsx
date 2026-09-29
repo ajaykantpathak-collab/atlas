@@ -75,7 +75,7 @@ export function C6_SocialScienceGrassrootsDemocracyPart3Sim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 6 Civics - Grassroots Democracy Part 3</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 6 Civics - Grassroots Democracy Part 3</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Ward Map: Who Fixes Your Street?</h1>
         </div>
         <div className="flex items-center gap-2">
@@ -109,9 +109,9 @@ export function C6_SocialScienceGrassrootsDemocracyPart3Sim() {
             })}
           </svg>
           <div className="grid grid-cols-2 gap-2 mt-2">
-            <div className="p-2 rounded-xl bg-slate-950 border border-indigo-800 text-center">
+            <div className="p-2 rounded-xl bg-slate-950 border border-gold-800 text-center">
               <p className="text-[10px] uppercase tracking-wider text-slate-400">City happiness</p>
-              <p className="text-lg font-extrabold font-mono text-indigo-300">{cityScore}%</p>
+              <p className="text-lg font-extrabold font-mono text-gold-300">{cityScore}%</p>
             </div>
             <div className="p-2 rounded-xl bg-slate-950 border border-emerald-800 text-center">
               <p className="text-[10px] uppercase tracking-wider text-slate-400">Wards fully served</p>
@@ -131,21 +131,21 @@ export function C6_SocialScienceGrassrootsDemocracyPart3Sim() {
             )}
             <label className="text-xs font-semibold text-slate-400 flex justify-between mt-3">
               <span>Money planned for this ward</span>
-              <span className="font-mono text-indigo-300">Rs {plan.toLocaleString('en-IN')}</span>
+              <span className="font-mono text-gold-300">Rs {plan.toLocaleString('en-IN')}</span>
             </label>
             <input type="range" min={0} max={w.cost} step={5000} value={Math.min(plan, w.cost)} aria-label="money planned"
-              onChange={(e) => setPlan(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+              onChange={(e) => setPlan(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             <div className="h-3 mt-2 rounded-full bg-slate-800 overflow-hidden">
               <div className="h-full bg-emerald-500 transition-all duration-500" style={{ width: `${ratio * 100}%` }} />
             </div>
             <p className="text-[11px] text-slate-400 mt-1">Service level: <span className="font-mono text-emerald-300">{serviceOf(w)}%</span> - funded Rs {amt.toLocaleString('en-IN')} of Rs {w.cost.toLocaleString('en-IN')}</p>
             <div className="flex gap-2 mt-3">
-              <button onClick={holdSabha} disabled={!!sabha[w.id]} className="flex-1 min-h-11 rounded-xl bg-violet-600 hover:bg-violet-500 text-xs font-bold disabled:opacity-40 transition-all">Hold area sabha (Rs 5,000)</button>
-              <button onClick={commit} className="flex-1 min-h-11 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold transition-all">Commit funds</button>
+              <button onClick={holdSabha} disabled={!!sabha[w.id]} className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold disabled:opacity-40 transition-all">Hold area sabha (Rs 5,000)</button>
+              <button onClick={commit} className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">Commit funds</button>
             </div>
           </div>
 
-          {msg && <div className="p-3 rounded-2xl text-xs leading-relaxed border bg-indigo-950/40 border-indigo-800 text-indigo-100">{msg}</div>}
+          {msg && <div className="p-3 rounded-2xl text-xs leading-relaxed border bg-gold-950/40 border-gold-800 text-gold-100">{msg}</div>}
 
           <div className="p-3 rounded-2xl bg-amber-950/40 border border-amber-800 text-xs text-amber-200 leading-relaxed">
             <span className="font-bold">Misconception killer:</span> the municipal commissioner does not decide alone. The city is divided into wards, each ward elects ONE councillor, and area sabhas let residents check and rank their own needs. Spending without listening buys the wrong service.
@@ -153,7 +153,7 @@ export function C6_SocialScienceGrassrootsDemocracyPart3Sim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Fund Station Road&apos;s street lights fully WITHOUT a sabha, then fund Riverside the same way WITH one -- compare the two happiness scores and explain the 26-point gap.</p>
         <p className="mt-1">2. Pour the whole budget into Shastri Nagar only. What happens to city happiness -- and why must a corporation spread money instead of spending it in one place?</p>

@@ -67,8 +67,8 @@ export function C8_ScienceExploringTheInvestigativeWorldOfSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Water (mL per day)</span><span className="font-mono text-sky-600">{water}</span></label>
-            <input type="range" min={0} max={100} value={water} aria-label="water" onChange={(e) => setWater(Number(e.target.value))} className="w-full mt-1 accent-sky-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Water (mL per day)</span><span className="font-mono text-gold-600">{water}</span></label>
+            <input type="range" min={0} max={100} value={water} aria-label="water" onChange={(e) => setWater(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Light (% of full sun)</span><span className="font-mono text-amber-600">{light}</span></label>
@@ -88,14 +88,14 @@ export function C8_ScienceExploringTheInvestigativeWorldOfSim() {
             <button onClick={record} className="px-4 py-2 rounded-xl text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-500 transition-all">
               Grow 2 weeks and record
             </button>
-            <button onClick={reveal} disabled={trials.length < 2} className="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 text-white hover:bg-indigo-500 disabled:opacity-40 transition-all">
+            <button onClick={reveal} disabled={trials.length < 2} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-600 text-white hover:bg-gold-500 disabled:opacity-40 transition-all">
               Conclude from my data
             </button>
           </div>
           <div className="text-xs text-slate-500">Trials recorded: {trials.length} (need at least 2 to conclude)</div>
         </div>
 
-        <div className="p-2 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
           <div className="flex items-end justify-center gap-8 h-44 pt-2">
             {/* seedling visual */}
             <div className="flex flex-col items-center">
@@ -146,7 +146,7 @@ export function C8_ScienceExploringTheInvestigativeWorldOfSim() {
           </tbody>
         </table>
         {checked && hypothesis && (
-          <div className="mt-2 p-3 rounded-xl bg-indigo-50 border border-indigo-200 text-sm text-indigo-900 font-semibold">
+          <div className="mt-2 p-3 rounded-xl bg-gold-50 border border-gold-200 text-sm text-gold-900 font-semibold">
             Conclusion: {hypothesis}
           </div>
         )}

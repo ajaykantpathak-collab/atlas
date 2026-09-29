@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C12_BS_GEN: SimDef[] = [
  {
   "id": "gen_c12_bs_ch01",
-  "title": "Management",
+  "title": "Management Is The Process Of Planning",
   "subtitle": "Business Studies · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Management",
+  "topic": "Management Is The Process Of Planning",
   "chapters": [
-   "Business Studies Ch1: Management"
+   "Business Studies Ch1: Management Is The Process Of Planning"
   ],
   "nodeIds": [
    "c12_bs_cbse_01_001",
@@ -36,7 +36,7 @@ export const C12_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Management suddenly stops working?",
+   "question": "What happens if Management Is The Process Of suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -47,7 +47,7 @@ export const C12_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Management",
+    "title": "Management Is The Process Of Planning",
     "text": "Management is the process of planning, organising, staffing, directing, and controlling organisational resources (human, financial, physical, and informational) to achieve predetermined goals effectively (doing the right tasks to meet objectives) and",
     "emoji": "🏢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -83,13 +83,13 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Management",
+    "title": "Management Is The Process Of Planning",
     "text": "Management is the process of planning, organising, staffing, directing, and controlling organisational resources to achieve goals efficiently and effectively; Administration is the higher-level function of determining objectives, policies, and broad",
     "emoji": "🏢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Coordination",
+    "title": "Coordination Is The Process Of Synchronizing",
     "text": "Coordination is the process of synchronizing the activities of different departments, groups, and individuals in an organization to ensure unity of action toward achieving common organizational goals.",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -111,7 +111,7 @@ export const C12_BS_GEN: SimDef[] = [
      "The system is efficient (less time/resource used) but not effective (wrong attendance means the task — accurate recording — is not achieved). Management must balance both",
      "Koontz and Weihrich define management as \"the process of designing and maintaining an environment in which individuals, working together in groups"
     ],
-    "hint": "Straight from the 'Management' slide -- match the key terms.",
+    "hint": "Straight from the 'Management is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student equates management with authority rather than a structured, collaborative process.",
     "id": "gen_c12_bs_ch01_q1",
     "nodeId": "c12_bs_cbse_01_001",
@@ -153,7 +153,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Mechanism: (1) Integrates group efforts — daily huddle aligning ED admissions, Radiology slots, Pharmacy stock",
      "Top: Medical Director / CEO / Board of Trustees — Unique function: Define hospital's medical ethics charter, approve capital budget for MRI/CT equipment"
     ],
-    "hint": "Straight from the 'Levels of Management refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Levels of Management' slide -- match the key terms.",
     "misconception": "A weak answer copies generic factory designations without hospital-specific roles.",
     "id": "gen_c12_bs_ch01_q3",
     "nodeId": "c12_bs_cbse_01_003",
@@ -237,7 +237,7 @@ export const C12_BS_GEN: SimDef[] = [
      "NCERT supports reconciliation, not subordination. The text states: \"Management has to reconcile personal goals with organisational objectives for harmony in the organisation",
      "Correct: Administration is the higher-level function of determining objectives and policies (top level: owners, board)"
     ],
-    "hint": "Straight from the 'Management' slide -- match the key terms.",
+    "hint": "Straight from the 'Management is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the levels (e.g., \"management is top, administration is lower\") reveals confusion with the British view or a misunderstanding of the hierarchy. A vague answer like \"administration is bigger\" shows lack of precise conceptual grasp.",
     "id": "gen_c12_bs_ch01_q7",
     "nodeId": "c12_bs_cbse_01_007",
@@ -364,7 +364,7 @@ export const C12_BS_GEN: SimDef[] = [
      "| Science Feature | Management Evidence | Verdict | |---|---|---| | Systematised knowledge | Own theory/principles (Taylor, Fayol) + draws from Economics, Psychology",
      "Example: A wedding planning agency in Kerala vs. Rajasthan. Universal activities: planning (timeline, budget), organising (vendors, venues), staffing (decorators, caterers)"
     ],
-    "hint": "Straight from the 'Management' slide -- match the key terms.",
+    "hint": "Straight from the 'Management is the process of' slide -- match the key terms.",
     "misconception": "A poor answer copies the textbook's \"petrol pump/hospital/school\" example or states cultural differences vaguely (\"different styles\") without linking to specific management functions.",
     "id": "gen_c12_bs_ch01_q10",
     "nodeId": "c12_bs_cbse_01_001",
@@ -424,7 +424,7 @@ export const C12_BS_GEN: SimDef[] = [
      "| Science Feature | Management Evidence | Verdict | |---|---|---| | Systematised knowledge | Own theory/principles (Taylor, Fayol) + draws from Economics, Psychology",
      "Correct: The British view treats management as the generic term for the entire process (including top-level policy-making)"
     ],
-    "hint": "Straight from the 'Management' slide -- match the key terms.",
+    "hint": "Straight from the 'Management is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"British view is just the opposite\" without explaining the reasoning (management as comprehensive, administration as operational) shows rote memorisation without understanding the semantic logic behind each school of thought.",
     "id": "gen_c12_bs_ch01_q14",
     "nodeId": "c12_bs_cbse_01_007",
@@ -439,7 +439,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Organising failed: the authority-responsibility relationship between storekeeper and production supervisor was not defined (no reporting/communication protocol)",
      "Theo Haimann defines coordination as \"the orderly synchronizing of efforts of subordinates to provide proper amount"
     ],
-    "hint": "Straight from the 'Coordination' slide -- match the key terms.",
+    "hint": "Straight from the 'Coordination is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer that equates coordination with cooperation reveals the student misses the deliberate, structural, and managerial nature of coordination — it is not just goodwill but a systematic function.",
     "id": "gen_c12_bs_ch01_q15",
     "nodeId": "c12_bs_cbse_01_008",
@@ -454,7 +454,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Top: Medical Director / CEO / Board of Trustees — Unique function: Define hospital's medical ethics charter, approve capital budget for MRI/CT equipment",
      "Mechanism: (1) Integrates group efforts — daily huddle aligning ED admissions, Radiology slots, Pharmacy stock"
     ],
-    "hint": "Straight from the 'Coordination' slide -- match the key terms.",
+    "hint": "Straight from the 'Coordination is the process of' slide -- match the key terms.",
     "misconception": "A poor answer lists generic IT solutions without mapping to each characteristic.",
     "id": "gen_c12_bs_ch01_q16",
     "nodeId": "c12_bs_cbse_01_008",
@@ -478,11 +478,11 @@ export const C12_BS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about management?",
+    "What surprised you about management is the process of planning?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Management mastered! 🎯",
+  "successLine": "Management Is The Process mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -826,7 +826,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Demonetisation",
+    "title": "Demonetisation Is a Monetary Policy Measure",
     "text": "Demonetisation is a monetary policy measure where a government strips specific currency notes of their status as legal tender, rendering them invalid for transactions, typically to combat black money, counterfeiting, and corruption, while pushing the economy",
     "emoji": "🏢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1036,7 +1036,7 @@ export const C12_BS_GEN: SimDef[] = [
      "A legal change (amended Competition Act) creates more immediate operational disruption because it imposes *direct, enforceable obligations* with penalties",
      "The demonetised denominations were ₹500 and ₹1,000 notes, which together constituted 86% of the total currency in circulation by value"
     ],
-    "hint": "Straight from the 'Demonetisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Demonetisation is a monetary' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming ₹200 and ₹2,000 or stating 50%) reveals the student has not memorised the basic factual anchor required for every subsequent analysis.",
     "id": "gen_c12_bs_ch03_q5",
     "nodeId": "c12_bs_cbse_03_008",
@@ -1142,14 +1142,14 @@ export const C12_BS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_bs_ch04",
-  "title": "Planning",
+  "title": "Planning Is The Primary Managerial Function",
   "subtitle": "Business Studies · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Planning",
+  "topic": "Planning Is The Primary Managerial Function",
   "chapters": [
-   "Business Studies Ch4: Planning"
+   "Business Studies Ch4: Planning Is The Primary Managerial Function"
   ],
   "nodeIds": [
    "c12_bs_cbse_04_001",
@@ -1167,7 +1167,7 @@ export const C12_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Planning suddenly stops working?",
+   "question": "What happens if Planning Is The Primary suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1178,7 +1178,7 @@ export const C12_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Planning",
+    "title": "Planning Is The Primary Managerial Function",
     "text": "Planning is the primary managerial function of deciding in advance *what* to do, *how* to do it, *when* to do it, and *who* is to do it. It bridges the gap between the present state and the desired future state by setting specific objectives and selecting the",
     "emoji": "🏢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1208,13 +1208,13 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Procedures",
+    "title": "Standing Plans: Procedures, Methods",
     "text": "Procedures are chronological sequences of routine steps detailing exactly how to carry out specific activities within a broad policy framework; Methods are prescribed ways of performing a single task or step within a procedure, specifying the technique to",
     "emoji": "🏢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Planning",
+    "title": "Planning Is The Comprehensive Managerial",
     "text": "Planning is the comprehensive managerial process of setting objectives, developing alternative courses of action, evaluating and selecting the best alternative, and implementing and monitoring the chosen plan to bridge the gap between the present and a",
     "emoji": "🏢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1230,7 +1230,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Most appropriate: (1) Cost-Benefit Analysis (CBA) — quantifies net present value of each alternative under the given premises, and (2) Break-even Analysis",
      "Planning is pervasive — it occurs at *all levels* (top, middle, lower) and in *all departments* of *every* organisation, regardless of size"
     ],
-    "hint": "Straight from the 'Planning' slide -- match the key terms.",
+    "hint": "Straight from the 'Planning is the primary' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that planning = formal documentation, not the intellectual process.",
     "id": "gen_c12_bs_ch04_q1",
     "nodeId": "c12_bs_cbse_04_001",
@@ -1532,7 +1532,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Most appropriate: (1) Cost-Benefit Analysis (CBA) — quantifies net present value of each alternative under the given premises, and (2) Break-even Analysis",
      "(1) Impact on the procedure — step three becomes attach original GST-compliant invoices while the six-step sequence stays unchanged, (2) Impact on the method"
     ],
-    "hint": "Straight from the 'Procedures' slide -- match the key terms.",
+    "hint": "Straight from the 'Procedures are chronological' slide -- match the key terms.",
     "misconception": "A student who says the procedure now has seven steps confuses content modification with structural change, and calling the method a rule misses that the method merely implements the rule's requirement.",
     "id": "gen_c12_bs_ch04_q10",
     "nodeId": "c12_bs_cbse_04_007",
@@ -1547,7 +1547,7 @@ export const C12_BS_GEN: SimDef[] = [
      "The manager confuses *accuracy of forecast* with *utility of budget*. NCERT states: \"Since budget represents all items in numbers",
      "The statement is false. Even perfect forecasts only provide *premises* (Step 2). Planning still requires: (i) *Pervasiveness*"
     ],
-    "hint": "Straight from the 'Planning' slide -- match the key terms.",
+    "hint": "Straight from the 'Planning is the comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student equates \"accurate prediction\" with \"strategic choice,\" ignoring the normative, multi-stakeholder, and creative dimensions of planning.",
     "id": "gen_c12_bs_ch04_q11",
     "nodeId": "c12_bs_cbse_04_008",
@@ -1562,7 +1562,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Planning is pervasive — it occurs at *all levels* (top, middle, lower) and in *all departments* of *every* organisation, regardless of size",
      "Step 1: Develop a consensus premise — reconcile the three forecasts into a single agreed-upon demand assumption (e"
     ],
-    "hint": "Straight from the 'Planning' slide -- match the key terms.",
+    "hint": "Straight from the 'Planning is the comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pick the middle forecast and start production\") shows the student skips the critical planning steps of premise agreement and alternative generation/evaluation, jumping straight from data to action.",
     "id": "gen_c12_bs_ch04_q12",
     "nodeId": "c12_bs_cbse_04_008",
@@ -1571,24 +1571,24 @@ export const C12_BS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about planning?",
+    "What surprised you about planning is the primary managerial function?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Planning mastered! 🎯",
+  "successLine": "Planning Is The Primary mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch05",
-  "title": "Organising",
+  "title": "Organising Is The Management Function That",
   "subtitle": "Business Studies · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Organising",
+  "topic": "Organising Is The Management Function That Follows P",
   "chapters": [
-   "Business Studies Ch5: Organising"
+   "Business Studies Ch5: Organising Is The Management Function That Follows P"
   ],
   "nodeIds": [
    "c12_bs_cbse_05_001",
@@ -1609,7 +1609,7 @@ export const C12_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Organising actually explain?",
+   "question": "In one line -- what does Organising Is The Management actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1620,7 +1620,7 @@ export const C12_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Organising",
+    "title": "Organising Is The Management Function That",
     "text": "Organising is the management function that follows planning, involving the identification and grouping of activities, assignment of duties, delegation of authority, and establishment of reporting relationships to create a structured framework that enables",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1668,13 +1668,13 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Delegation",
+    "title": "Delegation Is The Process",
     "text": "Delegation is the process by which a manager (superior) transfers authority to a subordinate to perform specific tasks, while the manager retains ultimate accountability for the outcome.",
     "emoji": "🏢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Decentralisation",
+    "title": "Decentralisation Is The Systematic",
     "text": "Decentralisation is the systematic delegation of decision-making authority to the lowest possible levels of management, retaining only strategic functions (policy formulation, overall coordination, major financial decisions) at the top.",
     "emoji": "🏢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1860,16 +1860,47 @@ export const C12_BS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define functional structure and state any two advantages of it as per NCERT.",
-    "answer": "Functional structure groups similar jobs into separate departments based on specialised functions (e",
-    "options": [
-     "\"Informal organisation is a network of personal and social relations not established or required by the formal organisation but arising spontaneously as people associate with one",
-     "(1) Faster spread of information and quick feedback because prescribed lines of communication are not followed",
-     "Functional structure groups similar jobs into separate departments based on specialised functions (e"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "list all six advantages and five",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "correctly identify whether a given",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the causal mechanism behind each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Functional structure' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"functional structure groups by products\" reveals confusion with divisional structure. An answer listing \"quick decision-making\" as an advantage reveals confusion with divisional structure's flexibility.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list all six advantages and five disadvantages of functional structure using NCERT terminology, (2)",
     "id": "gen_c12_bs_ch05_q4",
     "nodeId": "c12_bs_cbse_05_004",
     "difficulty": "standard",
@@ -2238,6 +2269,52 @@ export const C12_BS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "list the four steps in correct sequential",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the purpose and outcome of each step",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify which step",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) list the four steps in correct sequential order with NCERT terminology, (2) explain the",
+    "id": "gen_c12_bs_ch05_q11",
+    "nodeId": "c12_bs_cbse_05_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Create a hypothetical business scenario (Indian context) where a functional structure would be MORE suitable than a divisional structure. Specify the industry, product range, size, and justify using three NCERT comparative bases.",
     "sortItems": [
      {
@@ -2278,8 +2355,111 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer creates a diversified conglomerate and still argues for functional structure, ignoring the \"diversified activities\" suitability criterion.",
-    "id": "gen_c12_bs_ch05_q11",
+    "id": "gen_c12_bs_ch05_q12",
     "nodeId": "c12_bs_cbse_05_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyse at least four factors affecting span",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "define span of management precisely using",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how span of management shapes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) define span of management precisely using NCERT terminology, (2) explain how span of",
+    "id": "gen_c12_bs_ch05_q13",
+    "nodeId": "c12_bs_cbse_05_008",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Justify why delegation",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Explain the three elements",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Apply the principle of parity of authority",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Define delegation and distinguish it",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Define delegation and distinguish it from abdication; (2) Explain the three elements",
+    "id": "gen_c12_bs_ch05_q14",
+    "nodeId": "c12_bs_cbse_05_009",
     "difficulty": "standard"
    },
    {
@@ -2291,9 +2471,9 @@ export const C12_BS_GEN: SimDef[] = [
      "For a 100-employee startup, this \"advantage\" can become a disadvantage. Functional structure forces premature departmentalisation",
      "Step 1: Identify and divide work into manageable activities: (a) Procuring raw materials (organic ingredients, packaging), (b) Production (recipe formulation, baking"
     ],
-    "hint": "Straight from the 'Organising' slide -- match the key terms.",
+    "hint": "Straight from the 'Organising is the management' slide -- match the key terms.",
     "misconception": "A wrong answer that creates a separate department for each activity (6 departments for 15 people) shows misunderstanding of departmentalisation — it must balance specialisation with coordination and span of management.",
-    "id": "gen_c12_bs_ch05_q12",
+    "id": "gen_c12_bs_ch05_q15",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2306,9 +2486,9 @@ export const C12_BS_GEN: SimDef[] = [
      "The statement is incorrect. NCERT explicitly states the sequence: (i) Identification and division of work comes FIRST, (ii) Departmentalisation comes SECOND",
      "Correct explanation: An organisation chart is a static *outcome* of organising, not the process itself"
     ],
-    "hint": "Straight from the 'Organising' slide -- match the key terms.",
+    "hint": "Straight from the 'Organising is the management' slide -- match the key terms.",
     "misconception": "This misconception leads to believing that drawing a chart once solves organising forever, ignoring that relationships must be continuously clarified as work changes.",
-    "id": "gen_c12_bs_ch05_q13",
+    "id": "gen_c12_bs_ch05_q16",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2321,9 +2501,9 @@ export const C12_BS_GEN: SimDef[] = [
      "Step 4 (Establishing authority and reporting relationships) would be executed differently. In a school fete, reporting relationships can be relatively flat and flexible (e",
      "During the crisis: Adaptation to change is more critical. Organising allows the structure to be modified quickly — e"
     ],
-    "hint": "Straight from the 'Organising' slide -- match the key terms.",
+    "hint": "Straight from the 'Organising is the management' slide -- match the key terms.",
     "misconception": "A student who reverses these shows they don't understand that adaptation is about *structural agility* in response to external shocks, while optimum utilisation is about *internal efficiency* in steady state.",
-    "id": "gen_c12_bs_ch05_q14",
+    "id": "gen_c12_bs_ch05_q17",
     "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    },
@@ -2332,82 +2512,37 @@ export const C12_BS_GEN: SimDef[] = [
     "question": "Define organising according to Louis Allen. Use the exact wording from the textbook.",
     "answer": "\"Organising is the process of identifying and grouping the work to be performed, defining and delegating responsibility and authority",
     "options": [
-     "Functional structure groups similar jobs into separate departments based on specialised functions (e",
-     "\"Informal organisation is a network of personal and social relations not established or required by the formal organisation but arising spontaneously as people associate with one",
+     "The student must be able to (1) list the four steps in correct sequential order with NCERT terminology",
+     "Organisational structure is the framework within which managerial and operating tasks are performed, specifying relationships between people, work, and resources",
      "\"Organising is the process of identifying and grouping the work to be performed, defining and delegating responsibility and authority"
     ],
-    "hint": "Straight from the 'Organising' slide -- match the key terms.",
+    "hint": "Straight from the 'Organising is the management' slide -- match the key terms.",
     "misconception": "A wrong answer that omits \"identifying and grouping work\" or \"defining and delegating responsibility and authority\" reveals the student has memorised a fragmented definition. They likely confuse organising with just \"making a structure\" or \"dividing work,\" missing the critical elements of authority delegation and",
-    "id": "gen_c12_bs_ch05_q15",
-    "nodeId": "c12_bs_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Organising stifles creativity because it forces people into rigid boxes (departments, job descriptions).\" Use the importance points 'Development of personnel' and 'Effective administration' to support your evaluation.",
-    "answer": "The statement is a half-truth that confuses *bureaucracy* with *organising*. Effective organising actually enables creativity through two mechanisms: (1) Development of personnel:",
-    "options": [
-     "Correct evaluation: The statement is flawed. NCERT explicitly states \"Informal organisation cannot be altogether eliminated\" and advises management to \"skillfully take advantage",
-     "Correct explanation: Formal organisation has rigid rules and slow channels; informal networks fill gaps by providing quick feedback, emotional support",
-     "The statement is a half-truth that confuses *bureaucracy* with *organising*. Effective organising actually enables creativity through two mechanisms: (1) Development of personnel:"
-    ],
-    "hint": "Straight from the 'Organising' slide -- match the key terms.",
-    "misconception": "A student who agrees with the statement likely conflates organising with excessive formalisation and misses the delegation-development link.",
-    "id": "gen_c12_bs_ch05_q16",
-    "nodeId": "c12_bs_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "\"Assignment of duties\" and \"Establishing authority and reporting relationships\" both involve giving work to people. Explain the distinct purpose of each step and why performing Step 3 without Step 4 leads to a specific organisational failure.",
-    "answer": "Step 3 (Assignment of duties) matches tasks to individuals based on skills/competencies — it answers \"WHO does WHAT\"",
-    "options": [
-     "Step 1 Output: A \"Work Breakdown Structure\" listing all 50+ discrete activities (venue setup, delegate registration, committee simulations, crisis updates, catering, awards",
-     "This is decentralisation because the authority to grant discounts is extended systematically to a lower level (regional managers) across the organisation",
-     "Step 3 (Assignment of duties) matches tasks to individuals based on skills/competencies — it answers \"WHO does WHAT\""
-    ],
-    "hint": "Straight from the 'organising process' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats them as the same step reveals the student misses the distinction between task allocation (horizontal fit) and hierarchy creation (vertical structure).",
-    "id": "gen_c12_bs_ch05_q17",
-    "nodeId": "c12_bs_cbse_05_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A startup with 15 employees skips formal departmentalisation (Step 2) and directly assigns duties (Step 3) based on whoever is free. After 6 months, they face duplicated efforts in customer support and marketing.",
-    "answer": "Step 2 (Departmentalisation) was neglected. Without grouping similar activities into departments",
-    "options": [
-     "It is an advantage because each division gains autonomy — its marketing/finance/production teams focus solely on that product, enabling faster decisions and product specialisation",
-     "Correct analysis: Production Manager and Stores In-charge operate in formal organisation (authority by position, communication through scalar chain)",
-     "Step 2 (Departmentalisation) was neglected. Without grouping similar activities into departments"
-    ],
-    "hint": "Straight from the 'organising process' slide -- match the key terms.",
-    "misconception": "A wrong answer blaming \"poor communication\" misses the structural root cause — the absence of the grouping step that precedes assignment.",
     "id": "gen_c12_bs_ch05_q18",
-    "nodeId": "c12_bs_cbse_05_002",
+    "nodeId": "c12_bs_cbse_05_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about organising?",
+    "What surprised you about organising is the management function that follows p?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Organising mastered! 🎯",
+  "successLine": "Organising Is The Management mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch06",
-  "title": "Staffing",
+  "title": "Staffing Is The Managerial Function",
   "subtitle": "Business Studies · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Staffing",
+  "topic": "Staffing Is The Managerial Function",
   "chapters": [
-   "Business Studies Ch6: Staffing"
+   "Business Studies Ch6: Staffing Is The Managerial Function"
   ],
   "nodeIds": [
    "c12_bs_cbse_06_001",
@@ -2428,7 +2563,7 @@ export const C12_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Staffing in real working life?",
+   "question": "Who uses Staffing Is The Managerial in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2439,7 +2574,7 @@ export const C12_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Staffing",
+    "title": "Staffing Is The Managerial Function",
     "text": "Staffing is the managerial function of filling and keeping filled the positions in an organisation structure by identifying workforce requirements, recruiting, selecting, placing, training, developing, appraising, promoting, and compensating personnel to",
     "emoji": "🏢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2457,7 +2592,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Recruitment",
+    "title": "Recruitment Is The Process Of Identifying",
     "text": "Recruitment is the process of identifying, attracting, and stimulating prospective candidates to apply for job vacancies in an organisation, creating a pool of eligible applicants from which the right people can be selected.",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2469,13 +2604,13 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Selection",
+    "title": "Selection Is The Systematic Process",
     "text": "Selection is the systematic process of evaluating and choosing the most suitable candidate from a pool of applicants through a series of progressive elimination steps: preliminary screening, selection tests, employment interview, reference checks, selection",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Training",
+    "title": "Training and Development: Meaning",
     "text": "Training is a systematic process of increasing the knowledge, skills, and attitudes of employees to perform specific jobs effectively, while development refers to the overall growth of an individual's personality, maturity, and potential for future roles",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2505,11 +2640,11 @@ export const C12_BS_GEN: SimDef[] = [
     "question": "Define staffing in one sentence using the exact NCERT phrasing for “filling and keeping filled.”",
     "answer": "“Staffing has been described as the managerial function of filling and keeping filled the positions in an organisation structure",
     "options": [
-     "Recruitment is the process of searching for prospective employees and stimulating them to apply for jobs in the organisation, creating a pool of candidates",
-     "The two internal sources are transfers and promotions",
+     "The student can explain the meaning, nature, and importance of staffing in their own words, differentiate staffing from HRM",
+     "Staffing process is the systematic sequence of eight interdependent steps — estimating manpower requirements, recruitment, selection, placement and orientation",
      "“Staffing has been described as the managerial function of filling and keeping filled the positions in an organisation structure"
     ],
-    "hint": "Straight from the 'Staffing' slide -- match the key terms.",
+    "hint": "Straight from the 'Staffing is the managerial' slide -- match the key terms.",
     "misconception": "A wrong answer that says only “hiring people” misses the continuous nature (“keeping filled”) and the structural context (“positions in an organisation structure”), revealing the student sees staffing as a one-time event rather than an ongoing managerial function.",
     "id": "gen_c12_bs_ch06_q1",
     "nodeId": "c12_bs_cbse_06_001",
@@ -3284,6 +3419,52 @@ export const C12_BS_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "define recruitment in their own words using",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "classify any given recruitment scenario",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain why an organisation would choose",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) define recruitment in their own words using NCERT terminology, (2) classify any given",
+    "id": "gen_c12_bs_ch06_q14",
+    "nodeId": "c12_bs_cbse_06_004",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A textile company in Surat has 200 workers. Due to a sudden export order, they need 50 more workers for three months. The HR manager suggests hiring through a labour contractor. Identify the staffing step involved and state one merit and one limitation of this source for this specific situation.",
     "answer": "Step: Recruitment (external source — labour contractor). Merit: Provides required number of unskilled workers at short notice",
@@ -3292,9 +3473,9 @@ export const C12_BS_GEN: SimDef[] = [
      "Nurses (100): Campus recruitment from nursing colleges + advertisement in local newspapers (technical operative roles, need volume)",
      "Step: Recruitment (external source — labour contractor). Merit: Provides required number of unskilled workers at short notice"
     ],
-    "hint": "Straight from the 'Staffing' slide -- match the key terms.",
+    "hint": "Straight from the 'Staffing is the managerial' slide -- match the key terms.",
     "misconception": "A wrong answer that says “Selection” confuses recruitment (creating a pool) with selection (choosing from the pool). A wrong merit like “low cost” ignores the risk of mass walkout, showing lack of situation-specific analysis.",
-    "id": "gen_c12_bs_ch06_q14",
+    "id": "gen_c12_bs_ch06_q15",
     "nodeId": "c12_bs_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3307,9 +3488,9 @@ export const C12_BS_GEN: SimDef[] = [
      "Human relations approach (1930s-50s) recognized human factor as key to productivity but focused on morale and social needs",
      "Workload analysis assesses the number and types of human resources necessary to perform jobs and meet objectives (reveals understaffing/overstaffing gaps)"
     ],
-    "hint": "Straight from the 'Staffing' slide -- match the key terms.",
+    "hint": "Straight from the 'Staffing is the managerial' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the two shows the student cannot distinguish between “what we need” and “what we have,” leading to incorrect recruitment decisions in case-based questions.",
-    "id": "gen_c12_bs_ch06_q15",
+    "id": "gen_c12_bs_ch06_q16",
     "nodeId": "c12_bs_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3322,9 +3503,9 @@ export const C12_BS_GEN: SimDef[] = [
      "For: (1) No separate training infrastructure or faculty costs; (2) Trainee contributes to output while learning",
      "The statement is short-sighted. Benefits to organisation: (i) systematic learning reduces wastage of efforts and money compared to hit-and-trial"
     ],
-    "hint": "Straight from the 'Staffing' slide -- match the key terms.",
+    "hint": "Straight from the 'Staffing is the managerial' slide -- match the key terms.",
     "misconception": "A wrong answer that only says “training is good” without citing specific NCERT benefits fails the “evaluate” requirement and loses marks in board exams for lack of textual evidence.",
-    "id": "gen_c12_bs_ch06_q16",
+    "id": "gen_c12_bs_ch06_q17",
     "nodeId": "c12_bs_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3337,23 +3518,8 @@ export const C12_BS_GEN: SimDef[] = [
      "(example): 1) Recruitment and selection system to handle volume hiring systematically; 2) Compensation and incentive plans to ensure fair, competitive pay as workforce grows",
      "Sample answer: 1. Estimating Manpower Requirements — prepare job descriptions for chef, packer, manager with qualifications and experience"
     ],
-    "hint": "Straight from the 'Staffing' slide -- match the key terms.",
+    "hint": "Straight from the 'Staffing is the managerial' slide -- match the key terms.",
     "misconception": "A poor answer lists generic steps without startup-specific actions, showing inability to apply the process to a real context.",
-    "id": "gen_c12_bs_ch06_q17",
-    "nodeId": "c12_bs_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why staffing is considered both a line function and a staff function. Use the terms “every manager” and “Human Resource Department” in your answer.",
-    "answer": "Staffing is a line function because every manager (production, sales, finance) must directly perform staffing duties",
-    "options": [
-     "Partially true for very small firms (as NCERT says managers may perform all duties), but as organization grows, specialized duties like compensation design, labour law compliance",
-     "Internal recruitment is more economical because it avoids costs of advertising, agency fees, and extensive screening processes",
-     "Staffing is a line function because every manager (production, sales, finance) must directly perform staffing duties"
-    ],
-    "hint": "Straight from the 'Staffing' slide -- match the key terms.",
-    "misconception": "A wrong answer that says “HR does staffing, managers don’t” confuses the advisory role with the primary responsibility, a classic board-exam error.",
     "id": "gen_c12_bs_ch06_q18",
     "nodeId": "c12_bs_cbse_06_001",
     "difficulty": "standard"
@@ -3361,24 +3527,24 @@ export const C12_BS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about staffing?",
+    "What surprised you about staffing is the managerial function?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Staffing mastered! 🎯",
+  "successLine": "Staffing Is The Managerial mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch07",
-  "title": "Communication",
+  "title": "Communication Is The Systematic And Continuous",
   "subtitle": "Business Studies · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Communication",
+  "topic": "Communication Is The Systematic And Continuous",
   "chapters": [
-   "Business Studies Ch7: Communication"
+   "Business Studies Ch7: Communication Is The Systematic And Continuous"
   ],
   "nodeIds": [
    "c12_bs_cbse_07_004",
@@ -3393,7 +3559,7 @@ export const C12_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Communication suddenly stops working?",
+   "question": "What happens if Communication Is The Systematic suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -3404,13 +3570,13 @@ export const C12_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Communication",
+    "title": "Communication: Meaning, Process and Types",
     "text": "Communication is the systematic and continuous process of exchange of ideas, views, facts, feelings, and information between two or more persons to reach common understanding, involving eight essential elements: sender, message, encoding, media/channel,",
     "emoji": "🏢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Motivation",
+    "title": "Motivation Is The Process Of Stimulating",
     "text": "Motivation is the process of stimulating people to action to accomplish desired organisational goals by satisfying their internal needs, where a motive is an inner state that energises and directs behaviour, and a motivator is the technique (financial or",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3438,7 +3604,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Hygiene Factors are extrinsic conditions (e.g., salary, company policy, working conditions) whose absence causes dissatisfaction but whose presence only prevents dissatisfaction",
      "| Dimension | Formal Communication | Informal Communication | |-----------|---------------------|------------------------| | Speed | Slow (follows hierarchy) | Very fast (bypasses"
     ],
-    "hint": "Straight from the 'Communication' slide -- match the key terms.",
+    "hint": "Straight from the 'Communication is the systematic' slide -- match the key terms.",
     "misconception": "A wrong answer claiming informal is \"always harmful\" or formal is \"always better\" reveals the textbook misconception that grapevine is purely negative. NCERT explicitly states managers should \"make use of positive aspects of informal channels.",
     "id": "gen_c12_bs_ch07_q1",
     "nodeId": "c12_bs_cbse_07_004",
@@ -3606,7 +3772,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Invalid. Herzberg explicitly states hygiene factors (including pay) *must* be adequate to avoid dissatisfaction; ignoring them creates active demotivation",
      "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only"
     ],
-    "hint": "Straight from the 'Communication' slide -- match the key terms.",
+    "hint": "Straight from the 'Communication is the systematic' slide -- match the key terms.",
     "misconception": "A wrong answer choosing \"Free Flow\" for merger announcement shows the student prioritises speed over accuracy/legal safety — they miss that principle (v) \"Effective managerial communication across all levels\" requires controlled, verifiable flow for strategic decisions.",
     "id": "gen_c12_bs_ch07_q5",
     "nodeId": "c12_bs_cbse_07_004",
@@ -3621,7 +3787,7 @@ export const C12_BS_GEN: SimDef[] = [
      "(1) Top ten performers — accelerated commission and an ESOP grant for esteem and ownership, plus a Rainmaker Club offsite and a voice in the roadmap, (2) Core thirty",
      "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000)"
     ],
-    "hint": "Straight from the 'Motivation' slide -- match the key terms.",
+    "hint": "Straight from the 'Motivation is the process of' slide -- match the key terms.",
     "misconception": "A poor answer lists only monetary rewards or ignores budget constraints, showing inability to translate theory into contextualised practice.",
     "id": "gen_c12_bs_ch07_q6",
     "nodeId": "c12_bs_cbse_07_007",
@@ -3636,7 +3802,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Most appropriate: Wheel (CEO as hub communicates directly to each department head). Ensures Unity of Command (each subordinate receives instructions from one superior only",
      "A motive is an internal need (e.g., an employee's desire for recognition); a motivator is the external technique used to address that need (e.g., an 'Employee of the Month' award)"
     ],
-    "hint": "Straight from the 'Motivation' slide -- match the key terms.",
+    "hint": "Straight from the 'Motivation is the process of' slide -- match the key terms.",
     "misconception": "If a student says \"salary is a motive,\" they have reversed the terms: salary is a motivator (external), while the need for food/shelter it satisfies is the motive (internal).",
     "id": "gen_c12_bs_ch07_q7",
     "nodeId": "c12_bs_cbse_07_007",
@@ -3675,24 +3841,24 @@ export const C12_BS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about communication?",
+    "What surprised you about communication is the systematic and continuous?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Communication mastered! 🎯",
+  "successLine": "Communication Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_bs_ch08",
-  "title": "Controlling",
+  "title": "Controlling Is The Management Function",
   "subtitle": "Business Studies · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "Controlling",
+  "topic": "Controlling Is The Management Function",
   "chapters": [
-   "Business Studies Ch8: Controlling"
+   "Business Studies Ch8: Controlling Is The Management Function"
   ],
   "nodeIds": [
    "c12_bs_cbse_08_001",
@@ -3713,7 +3879,7 @@ export const C12_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Controlling directly with your eyes?",
+   "question": "Can you see Controlling Is The Management directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -3724,13 +3890,13 @@ export const C12_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Controlling",
+    "title": "Controlling Is The Management Function",
     "text": "Controlling is the management function of ensuring that actual organisational activities conform to planned activities by establishing performance standards, measuring actual performance, comparing it with standards, analysing deviations, and taking",
     "emoji": "🏢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Controlling",
+    "title": "Controlling Is The Systematic Process",
     "text": "Controlling is the systematic process of setting performance standards, measuring actual performance, comparing it with standards, analysing deviations, and taking corrective action to ensure organisational goals are achieved efficiently and effectively.",
     "emoji": "🏢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3934,16 +4100,47 @@ export const C12_BS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the exact NCERT phrase that describes the relationship between planning and controlling, and explain what \"planning is prescriptive whereas controlling is evaluative\" means in your own words.",
-    "answer": "The NCERT describes them as \"inseparable twins of management.\" \"Prescriptive\" means planning *prescribes* or lays down in advance what should be done, how, when, and by whom",
-    "options": [
-     "The first step is setting performance standards. Standards should be quantitative (e.g., \"produce 5,000 units/day\") because they make comparison with actual performance objective",
-     "Budgetary Control is a system where budgets (quantitative plans) are prepared for a future period",
-     "The NCERT describes them as \"inseparable twins of management.\" \"Prescriptive\" means planning *prescribes* or lays down in advance what should be done, how, when, and by whom"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why planning",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "describe how the two",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between the prescriptive nature",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Planning and controlling' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"planning is doing, controlling is checking\") reveals the student confuses the *nature* of the functions (thinking vs checking) with their *sequence* (before vs after), missing that planning is an intellectual process of *deciding* standards, not executing them.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) explain why planning is a prerequisite for controlling and why controlling is",
     "id": "gen_c12_bs_ch08_q3",
     "nodeId": "c12_bs_cbse_08_003",
     "difficulty": "standard",
@@ -3995,16 +4192,47 @@ export const C12_BS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A company sells a product at ₹200 per unit. Variable cost is ₹120 per unit. Fixed costs are ₹80,000 per month. What is the Break-Even Point in units?",
-    "answer": "1,000 units. Reasoning: Contribution per unit = Selling Price - Variable Cost = ₹200 - ₹120 = ₹80. BEP (units) = Fixed Costs / Contribution per unit = ₹80,000 / ₹80 = 1,000 units",
-    "options": [
-     "Permissible range: 950 to 1,050 units. Days with output 940 (Day 3) falls below 950, so only Day 3 should be reported",
-     "Example design: Standard food cost 30% ±2% (report to owner if >32% or <28%); wait time 15 min ±5 min (report to regional manager if >20 min)",
-     "1,000 units. Reasoning: Contribution per unit = Selling Price - Variable Cost = ₹200 - ₹120 = ₹80. BEP (units) = Fixed Costs / Contribution per unit = ₹80,000 / ₹80 = 1,000 units"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyze the impact",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Calculate BEP in units and sales value using",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Construct and interpret a break-even chart",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Break-Even Analysis' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student answers 400 units, they likely divided Fixed Costs by Selling Price (₹80,000/₹200), confusing revenue with contribution. If they answer 667 units, they may have used Variable Cost instead of Contribution (₹80,000/₹120).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Calculate BEP in units and sales value using the formula BEP = Fixed Costs /",
     "id": "gen_c12_bs_ch08_q6",
     "nodeId": "c12_bs_cbse_08_006",
     "difficulty": "advanced",
@@ -4020,8 +4248,8 @@ export const C12_BS_GEN: SimDef[] = [
     "question": "Define Ratio Analysis and Return on Investment as techniques of managerial control. State the formula for ROI.",
     "answer": "Ratio Analysis is a technique of managerial control that involves computing financial ratios from financial statements to evaluate organisational performance and identify",
     "options": [
-     "The NCERT describes them as \"inseparable twins of management.\" \"Prescriptive\" means planning *prescribes* or lays down in advance what should be done, how, when, and by whom",
-     "Budgetary Control is a system where budgets (quantitative plans) are prepared for a future period",
+     "Feedforward, Concurrent, and Feedback Control are three types of managerial control classified by when control is exercised relative to the activity: Feedforward (before)",
+     "Budgetary Control is a technique of managerial control where financial and/or quantitative statements (budgets) are prepared in advance for a defined future period",
      "Ratio Analysis is a technique of managerial control that involves computing financial ratios from financial statements to evaluate organisational performance and identify"
     ],
     "hint": "Straight from the 'Ratio Analysis' slide -- match the key terms.",
@@ -4056,16 +4284,47 @@ export const C12_BS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define Management by Exception in one sentence.",
-    "answer": "Management by Exception is a control principle where only significant deviations beyond permissible limits are reported to top management",
-    "options": [
-     "The critical path is the longest path through the network from start to finish, determining the minimum project duration",
-     "The NCERT describes them as \"inseparable twins of management.\" \"Prescriptive\" means planning *prescribes* or lays down in advance what should be done, how, when, and by whom",
-     "Management by Exception is a control principle where only significant deviations beyond permissible limits are reported to top management"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "apply the concept to a given business",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between routine deviations",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain the principle of Management",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Management by Exception' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"ignoring small problems\" reveals the misconception that minor deviations are neglected entirely, whereas they are actually managed by subordinates without top management involvement.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) explain the principle of Management by Exception in their own words, (2) distinguish",
     "id": "gen_c12_bs_ch08_q9",
     "nodeId": "c12_bs_cbse_08_009",
     "difficulty": "standard",
@@ -4141,6 +4400,98 @@ export const C12_BS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "articulate why controlling",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain all six points of importance",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "define controlling using the Koontz",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) define controlling using the Koontz and O'Donnel definition and NCERT terminology, (2) explain all",
+    "id": "gen_c12_bs_ch08_q11",
+    "nodeId": "c12_bs_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the steps in the budgetary control",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "calculate and interpret favourable/adverse",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish budgetary control from other",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) explain the steps in the budgetary control process with a concrete example, (2)",
+    "id": "gen_c12_bs_ch08_q12",
+    "nodeId": "c12_bs_cbse_08_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "A project manager says: \"Since Activity Y has 5 days of float, I can delay its start by 5 days without any impact.\" Evaluate this statement. Is it always true? When might it be false?",
     "sortItems": [
      {
@@ -4181,9 +4532,112 @@ export const C12_BS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (uncritical 'yes') reveals the student treats float as an absolute buffer ignoring network interdependencies and resource constraints.",
-    "id": "gen_c12_bs_ch08_q11",
+    "id": "gen_c12_bs_ch08_q13",
     "nodeId": "c12_bs_cbse_08_008",
     "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Construct a network diagram from a given",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Identify the critical path and project",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Calculate earliest start",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "For PERT",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Construct a network diagram from a given activity list with predecessors, (2)",
+    "id": "gen_c12_bs_ch08_q14",
+    "nodeId": "c12_bs_cbse_08_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyse a given case study to identify",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Explain each limitation with a distinct",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "List all four limitations of controlling",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) List all four limitations of controlling with accurate NCERT terminology, (2) Explain",
+    "id": "gen_c12_bs_ch08_q15",
+    "nodeId": "c12_bs_cbse_08_010",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
@@ -4194,9 +4648,9 @@ export const C12_BS_GEN: SimDef[] = [
      "Example design: Standard food cost 30% ±2% (report to owner if >32% or <28%); wait time 15 min ±5 min (report to regional manager if >20 min)",
      "Steps shown: (1) Setting performance standards (2% defect), (2) Measurement of actual performance (3"
     ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
+    "hint": "Straight from the 'Controlling is the management' slide -- match the key terms.",
     "misconception": "A wrong answer that lists “planning” as a controlling step or omits “analysing deviations” indicates the student cannot distinguish the five‑step controlling sequence from the planning function.",
-    "id": "gen_c12_bs_ch08_q12",
+    "id": "gen_c12_bs_ch08_q16",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4209,9 +4663,9 @@ export const C12_BS_GEN: SimDef[] = [
      "Budgetary control sets quantitative standards (budgets) for *all* activities; MbE is the *principle* that only significant deviations (exceptions) from these standards should be",
      "The second statement is more accurate. NCERT explains: plans are based on forecasts (forward‑looking), but planning uses past experience (backward‑looking)"
     ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
+    "hint": "Straight from the 'Controlling is the management' slide -- match the key terms.",
     "misconception": "A student who picks only the first statement treats them as mutually exclusive and misses the reciprocal reinforcement NCERT emphasises.",
-    "id": "gen_c12_bs_ch08_q13",
+    "id": "gen_c12_bs_ch08_q17",
     "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4224,80 +4678,20 @@ export const C12_BS_GEN: SimDef[] = [
      "The approach fails because without specific standards, controlling has no benchmark — \"tight weekly control\" measures *what* against *what*?",
      "Scenario: A hospital emergency ward sets a standard: “Patient triage to doctor consultation ≤ 15 minutes"
     ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
+    "hint": "Straight from the 'Controlling is the management' slide -- match the key terms.",
     "misconception": "a poor answer lists six disconnected examples or misses the linkage between standards and outcomes.",
-    "id": "gen_c12_bs_ch08_q14",
-    "nodeId": "c12_bs_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate: “A small enterprise cannot afford an expensive control system, so it should skip controlling altogether.” Use two limitations of controlling from the textbook to support your evaluation.",
-    "answer": "The statement is flawed. Limitation (iv) says controlling is costly, but it also says “Managers must ensure that the costs of installing and operating a control system should not",
-    "options": [
-     "The statement is false. ROI = (Net Profit / Sales) × (Sales / Capital Employed) = Profit Margin × Asset Turnover",
-     "When managers try to monitor every minor activity, they spread their attention too thin, causing information overload and delayed responses to critical issues",
-     "The statement is flawed. Limitation (iv) says controlling is costly, but it also says “Managers must ensure that the costs of installing and operating a control system should not"
-    ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the statement ignores the cost‑benefit principle and the adaptability of standards to qualitative measures.",
-    "id": "gen_c12_bs_ch08_q15",
-    "nodeId": "c12_bs_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why controlling is called a “pervasive function” and a “goal‑oriented function”. Give a one‑sentence illustration for each.",
-    "answer": "Pervasive: every manager at every level (top, middle, lower) in every type of organisation (business, hospital, school) performs controlling",
-    "options": [
-     "The statement is false. ROI = (Net Profit / Sales) × (Sales / Capital Employed) = Profit Margin × Asset Turnover",
-     "When managers try to monitor every minor activity, they spread their attention too thin, causing information overload and delayed responses to critical issues",
-     "Pervasive: every manager at every level (top, middle, lower) in every type of organisation (business, hospital, school) performs controlling"
-    ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
-    "misconception": "A wrong answer that says “only top managers control” or “controlling is for profit only” shows misunderstanding of pervasiveness across levels and sectors, and of the goal‑orientation beyond just financial targets.",
-    "id": "gen_c12_bs_ch08_q16",
-    "nodeId": "c12_bs_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "State the meaning of controlling as per NCERT Class 12 Business Studies in one sentence.",
-    "answer": "Controlling means ensuring that activities in an organisation are performed as per the plans",
-    "options": [
-     "Ratio Analysis is a technique of managerial control that involves computing financial ratios from financial statements to evaluate organisational performance and identify",
-     "The critical path is the longest path through the network from start to finish, determining the minimum project duration",
-     "Controlling means ensuring that activities in an organisation are performed as per the plans"
-    ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., “controlling means dominating subordinates” or “controlling is only about checking finished work”) reveals the student confuses controlling with authoritarian supervision or a one‑time inspection, missing the continuous, plan‑aligned, goal‑oriented nature of the function.",
-    "id": "gen_c12_bs_ch08_q17",
-    "nodeId": "c12_bs_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A company sets a standard of 2% allowable defect rate. Actual defects are 2.5%. The production manager argues this is within acceptable limits because \"it's close\". Evaluate this argument using the controlling process principles.",
-    "answer": "The argument is invalid. The controlling process requires pre-defined acceptable deviation ranges. If 2% is the standard, any deviation beyond it (even 0",
-    "options": [
-     "The statement is partially correct because plans are made *for* the future (forward-looking) and controlling compares *past* actuals with standards (backward-looking)",
-     "This is Concurrent Control because measurement and corrective action (alert to supervisor) occur during the activity (employee attendance) while it is still ongoing",
-     "The argument is invalid. The controlling process requires pre-defined acceptable deviation ranges. If 2% is the standard, any deviation beyond it (even 0"
-    ],
-    "hint": "Straight from the 'Controlling' slide -- match the key terms.",
-    "misconception": "A student who accepts the manager's view misunderstands that standards are benchmarks, not rough targets, and that analysing deviations requires adherence to pre-set limits.",
     "id": "gen_c12_bs_ch08_q18",
-    "nodeId": "c12_bs_cbse_08_002",
+    "nodeId": "c12_bs_cbse_08_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about controlling?",
+    "What surprised you about controlling is the management function?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Controlling mastered! 🎯",
+  "successLine": "Controlling Is The Management mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4347,7 +4741,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Marketing",
+    "title": "Marketing Is a Social And Managerial",
     "text": "Marketing is a social and managerial process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4371,7 +4765,7 @@ export const C12_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Derivatives",
+    "title": "Derivatives Are Financial Instruments Whose",
     "text": "Derivatives are financial instruments whose value is derived from the value of an underlying asset such as shares, commodities, currencies, interest rates, or market indices.",
     "emoji": "🏢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4680,7 +5074,7 @@ export const C12_BS_GEN: SimDef[] = [
      "(1) Income forecast — the family's eighty thousand rupees of monthly inflow projects to about 14.4 lakh over the eighteen months, (2) Fund requirement",
      "(1) Why the claim fails — options charge an upfront premium, which raises the cost of hedging, (2) The futures trade-off"
     ],
-    "hint": "Straight from the 'Derivatives' slide -- match the key terms.",
+    "hint": "Straight from the 'Derivatives are financial' slide -- match the key terms.",
     "misconception": "A student who agrees without mentioning premium cost or the obligation to perform shows only superficial understanding.",
     "id": "gen_c12_bs_ch09_q9",
     "nodeId": "c12_bs_cbse_10_009",
@@ -4695,7 +5089,7 @@ export const C12_BS_GEN: SimDef[] = [
      "Neither can be judged without knowing: (a) the company's growth opportunities (ROI on retained earnings), (b) shareholders' preference for current income vs capital gains",
      "(1) Similarity — both treat marketing as a process of creating, communicating, delivering and exchanging offerings that carry value, (2) Difference"
     ],
-    "hint": "Straight from the 'Marketing' slide -- match the key terms.",
+    "hint": "Straight from the 'Marketing is a social and' slide -- match the key terms.",
     "misconception": "A wrong answer saying the two are the same, or citing only the stakeholder clause without the process similarity, shows a superficial reading of the definitions.",
     "id": "gen_c12_bs_ch09_q10",
     "nodeId": "c12_bs_cbse_11_001",

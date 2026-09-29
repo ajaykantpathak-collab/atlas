@@ -11,7 +11,7 @@ export const w_c12_appliedmathsfinancialmathematicscalculationsim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Tangents and Normals to Curves',
     chapters: [],
     nodeIds: ['c12_math_cbse_06_005', 'c12_math_cbse_04_007', 'c12_math_cbse_13_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re designing a roller coaster track for an amusement park in Mumbai.', goal: 'Master Tangents and Normals to Curves.' },
     discovery: {
         question: 'State the equation of the normal to the curve y = f(x) at the point (x₀, y₀) when f\'(x₀) = 2.',
@@ -20,7 +20,7 @@ export const w_c12_appliedmathsfinancialmathematicscalculationsim: SimDef = {
         hook: 'Students consistently write the normal equation as y - y₀ = -f\'(x₀)(x - x₀) instead of y - y₀ = -1/f\'(x₀)(x - x₀),.',
     },
     teaching: [
-        { title: 'For a curve y = f(x) differentiable at point.', text: 'For a curve y = f(x) differentiable at point P(x₀, y₀), the tangent is the straight line passing through P with slope f\'(x₀), and the normal is the straight line through P perpendicular to the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'For a curve y = f(x) differentiable at point.', text: 'For a curve y = f(x) differentiable at point P(x₀, y₀), the tangent is the straight line passing through P with slope f\'(x₀), and the normal is the straight line through P perpendicular to the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_06_005', title: 'For a curve y = f(x) differentiable at.',

@@ -11,7 +11,7 @@ export const w_c11_economicspresentationdatatabularsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Environmental Degradation: Deforestation and Biodiversity Loss',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_006', 'c11_eco_cbse_07_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a policy analyst in Madhya Pradesh where a mining company seeks clearance to divert 500.', goal: 'Master Environmental Degradation: Deforestation and Biodiversity Loss.' },
     discovery: {
         question: 'Compare the biodiversity loss from two scenarios: (A) Clearing 1,000 hectares of contiguous primary forest for a highway, vs (B) Clearing 1,000 hectares of the.',
@@ -20,7 +20,7 @@ export const w_c11_economicspresentationdatatabularsim: SimDef = {
         hook: 'Students believe **deforestation and biodiversity loss are primarily driven by "poor people cutting trees for survival".',
     },
     teaching: [
-        { title: 'Deforestation is the permanent conversion of.', text: 'Deforestation is the permanent conversion of forest land to non-forest uses (agriculture, infrastructure, mining, settlements) resulting in a reduction of forest cover below the ecological threshold.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Deforestation is the permanent conversion of.', text: 'Deforestation is the permanent conversion of forest land to non-forest uses (agriculture, infrastructure, mining, settlements) resulting in a reduction of forest cover below the ecological threshold.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_07_006', title: 'Deforestation is the permanent.',

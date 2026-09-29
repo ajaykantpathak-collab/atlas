@@ -378,8 +378,8 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
             Organic compounds covalently bond {'$N, S, X$'} (halogens). To detect them, we perform <strong>Sodium Fusion</strong> to yield ionic sodium salts ({'$\\text{NaCN}, \\text{Na}_2\\text{S}, \\text{NaX}$'}).
           </p>
           <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 text-xs space-y-1">
-            <p className="font-semibold text-cyan-400">Key Confirmatory Reactions:</p>
-            <p>• <strong>Nitrogen:</strong> {'$\\text{NaCN} + \\text{FeSO}_4 \\rightarrow \\text{Na}_4[\\text{Fe}(\\text{CN})_6]$'}; Acidified with {'$\\text{FeCl}_3 \\rightarrow$'} <span className="text-blue-400 font-bold">Prussian Blue ({'$\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$'})</span></p>
+            <p className="font-semibold text-gold-400">Key Confirmatory Reactions:</p>
+            <p>• <strong>Nitrogen:</strong> {'$\\text{NaCN} + \\text{FeSO}_4 \\rightarrow \\text{Na}_4[\\text{Fe}(\\text{CN})_6]$'}; Acidified with {'$\\text{FeCl}_3 \\rightarrow$'} <span className="text-gold-400 font-bold">Prussian Blue ({'$\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$'})</span></p>
             <p>• <strong>Sulphur:</strong> {'$\\text{Na}_2\\text{S} + \\text{Sodium Nitroprusside} \\rightarrow$'} <span className="text-purple-400 font-bold">Violet Color</span>; Lead acetate {'$\\rightarrow$'} <span className="text-slate-300 font-bold">Black PbS ppt</span></p>
             <p>• <strong>Halogens:</strong> {'$\\text{NaX} + \\text{AgNO}_3 \\xrightarrow{\\text{HNO}_3}$'} <span className="text-yellow-200 font-bold">AgCl (White), AgBr (Pale Yellow), AgI (Yellow)</span></p>
           </div>
@@ -396,7 +396,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
           </p>
           <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 text-xs font-mono space-y-2">
             <p className="text-emerald-400">{'% C = \\frac{12}{44} \\times \\frac{\\text{Mass of CO}_2}{\\text{Mass of Compound}} \\times 100'}</p>
-            <p className="text-cyan-400">{'% H = \\frac{2}{18} \\times \\frac{\\text{Mass of H}_2\\text{O}}{\\text{Mass of Compound}} \\times 100'}</p>
+            <p className="text-gold-400">{'% H = \\frac{2}{18} \\times \\frac{\\text{Mass of H}_2\\text{O}}{\\text{Mass of Compound}} \\times 100'}</p>
             <p className="text-amber-400">% O = 100 - (\%C + \%H + \%N + \%S + \%X)</p>
           </div>
         </div>
@@ -411,7 +411,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
             <div className="bg-slate-800 p-3 rounded-lg border border-slate-700">
               <span className="font-bold text-amber-400 block mb-1">Dumas Method</span>
               <p>Organic compound is heated with {'$\\text{CuO}$'} in {'$\\text{CO}_2$'} atmosphere to liberate free {'$\\text{N}_2$'} gas collected over {'$\\text{KOH}$'} solution.</p>
-              <p className="mt-2 font-mono text-cyan-300">{'%N = \\frac{28}{22400} \\times \\frac{V_{\\text{STP}}}{\\text{Mass of Compound}} \\times 100'}</p>
+              <p className="mt-2 font-mono text-gold-300">{'%N = \\frac{28}{22400} \\times \\frac{V_{\\text{STP}}}{\\text{Mass of Compound}} \\times 100'}</p>
             </div>
             <div className="bg-slate-800 p-3 rounded-lg border border-slate-700">
               <span className="font-bold text-emerald-400 block mb-1">Kjeldahl Method</span>
@@ -450,7 +450,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
               <p>Equal electron sharing cleavage yields neutral <strong>Free Radicals</strong> ($R^\bullet$). Occurs in non-polar bonds under light/heat.</p>
             </div>
             <div className="bg-slate-800 p-3 rounded-lg border border-slate-700">
-              <span className="font-bold text-sky-400 block mb-1">Heterolytic Fission</span>
+              <span className="font-bold text-gold-400 block mb-1">Heterolytic Fission</span>
               <p>Unequal cleavage yields ionic species: <strong>Carbocation</strong> ($R^+$) and <strong>Carbanion</strong> ($R^-$).</p>
             </div>
           </div>
@@ -676,7 +676,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
       {/* Header Bar */}
       <header className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-3 shadow-md">
         <div>
-          <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-400 to-gold-400 bg-clip-text text-transparent">
             Organic Chemistry: Basic Principles & Techniques (Part 2)
           </h1>
           <p className="text-xs text-slate-400">
@@ -703,7 +703,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
           onClick={() => handleTabChange('visualizer')}
           className={`flex-1 py-2 rounded-lg transition-all ${
             activeTab === 'visualizer'
-              ? 'bg-cyan-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -713,7 +713,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
           onClick={() => handleTabChange('lessons')}
           className={`flex-1 py-2 rounded-lg transition-all ${
             activeTab === 'lessons'
-              ? 'bg-cyan-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -723,7 +723,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
           onClick={() => handleTabChange('challenges')}
           className={`flex-1 py-2 rounded-lg transition-all ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -733,7 +733,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
           onClick={() => handleTabChange('summary')}
           className={`flex-1 py-2 rounded-lg transition-all ${
             activeTab === 'summary'
-              ? 'bg-cyan-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -746,7 +746,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {/* Section A: Qualitative Lassaigne's Test Tube Visualizer */}
           <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col gap-3">
-            <h2 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+            <h2 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🔬</span> Lassaigne's Test Reaction Simulator
             </h2>
 
@@ -760,7 +760,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
                   }}
                   className={`px-3 py-1.5 rounded-lg border transition-all ${
                     activeElement === elem
-                      ? 'bg-sky-600 text-white border-sky-400'
+                      ? 'bg-gold-600 text-white border-gold-400'
                       : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                   }`}
                 >
@@ -818,7 +818,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
               <div className="mt-3 text-center text-xs space-y-1">
                 {activeElement === 'N' && (
                   <div>
-                    <p className="font-bold text-blue-400">Prussian Blue Coloration / PPT</p>
+                    <p className="font-bold text-gold-400">Prussian Blue Coloration / PPT</p>
                     <p className="text-slate-400 font-mono">Fe4[Fe(CN)6]3 formed with FeSO4 + FeCl3 + H+</p>
                   </div>
                 )}
@@ -865,14 +865,14 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
           {/* Section B: Purification & Chromatography Canvas */}
           <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col gap-3">
             <div className="flex items-center justify-between">
-              <h2 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+              <h2 className="text-base font-bold text-gold-300 flex items-center gap-2">
                 <span>⚗️</span> Separation & Purification Visualizer
               </h2>
               <div className="flex gap-1 text-xs">
                 <button
                   onClick={() => setPurificationMode('tlc')}
                   className={`px-2.5 py-1 rounded-lg ${
-                    purificationMode === 'tlc' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                    purificationMode === 'tlc' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   TLC Plate
@@ -880,7 +880,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
                 <button
                   onClick={() => setPurificationMode('distillation')}
                   className={`px-2.5 py-1 rounded-lg ${
-                    purificationMode === 'distillation' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                    purificationMode === 'distillation' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   Distillation
@@ -900,7 +900,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
               <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 flex flex-col gap-2">
                 <label className="text-slate-300 font-semibold">
-                  Mass of Organic Compound (m): <span className="text-cyan-300">{massCompound} g</span>
+                  Mass of Organic Compound (m): <span className="text-gold-300">{massCompound} g</span>
                 </label>
                 <input
                   type="range"
@@ -909,7 +909,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
                   step="0.05"
                   value={massCompound}
                   onChange={(e) => setMassCompound(parseFloat(e.target.value))}
-                  className="w-full accent-cyan-400"
+                  className="w-full accent-gold-400"
                 />
               </div>
 
@@ -951,7 +951,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
               </div>
               <div>
                 <span className="text-xs text-slate-400 block">Calculated % Hydrogen</span>
-                <span className="text-2xl font-bold text-cyan-400">{calculatedPercentH}%</span>
+                <span className="text-2xl font-bold text-gold-400">{calculatedPercentH}%</span>
               </div>
               <div>
                 <span className="text-xs text-slate-400 block">% Oxygen (By Difference)</span>
@@ -968,7 +968,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
       {activeTab === 'lessons' && (
         <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 flex flex-col gap-4">
           <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-            <h2 className="text-lg font-bold text-cyan-300">
+            <h2 className="text-lg font-bold text-gold-300">
               {lessonSlides[currentSlide].title}
             </h2>
             <span className="text-xs text-slate-400">
@@ -997,7 +997,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
                 triggerAudio('tap');
                 setCurrentSlide((prev) => Math.min(lessonSlides.length - 1, prev + 1));
               }}
-              className="px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white disabled:opacity-40 rounded-lg text-xs font-semibold"
+              className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white disabled:opacity-40 rounded-lg text-xs font-semibold"
             >
               Next Slide →
             </button>
@@ -1010,7 +1010,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
         <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 flex flex-col gap-4">
           <div className="flex items-center justify-between border-b border-slate-800 pb-3">
             <div>
-              <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider block">
+              <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider block">
                 Challenge {currentChallengeIndex + 1} of {challenges.length}
               </span>
               <h2 className="text-base font-bold text-slate-100">
@@ -1030,7 +1030,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
             {challenges[currentChallengeIndex].options.map((option, idx) => {
               let btnStyle = 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-750';
               if (selectedAnswer === idx) {
-                btnStyle = 'bg-sky-600 border-sky-400 text-white shadow-md';
+                btnStyle = 'bg-gold-600 border-gold-400 text-white shadow-md';
               }
               if (answerSubmitted) {
                 if (idx === challenges[currentChallengeIndex].correctIndex) {
@@ -1059,7 +1059,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
               animate={{ opacity: 1, y: 0 }}
               className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs text-slate-300 space-y-1"
             >
-              <span className="font-bold text-cyan-300 block">Explanation:</span>
+              <span className="font-bold text-gold-300 block">Explanation:</span>
               <p>{challenges[currentChallengeIndex].explanation}</p>
             </motion.div>
           )}
@@ -1076,7 +1076,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
             ) : (
               <button
                 onClick={handleNextChallenge}
-                className="px-5 py-2.5 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded-lg shadow-md transition-all"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow-md transition-all"
               >
                 {currentChallengeIndex < challenges.length - 1 ? 'Next Challenge →' : 'Finish Exercises 🎉'}
               </button>
@@ -1088,7 +1088,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
       {/* TAB 4: MASTERY & SRS DASHBOARD */}
       {activeTab === 'summary' && (
         <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 flex flex-col gap-4">
-          <h2 className="text-lg font-bold text-cyan-300 border-b border-slate-800 pb-2">
+          <h2 className="text-lg font-bold text-gold-300 border-b border-slate-800 pb-2">
             CBSE Learning Node Mastery & SRS Spaced Repetition Tracker
           </h2>
 
@@ -1107,7 +1107,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
 
                   <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
                     <div
-                      className="bg-gradient-to-r from-sky-500 to-emerald-400 h-full transition-all duration-500"
+                      className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-500"
                       style={{ width: `${level}%` }}
                     />
                   </div>
@@ -1128,7 +1128,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim() {
                 recordGameScore(Object.values(NODE_IDS), score);
                 speakText("Score recorded successfully.");
               }}
-              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg shadow-md"
+              className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow-md"
             >
               Sync Final Mastery Score
             </button>

@@ -11,7 +11,7 @@ export const w_c9_geographylandformsplateaussim: SimDef = {
     classLevel: 9, subject: 'geography', topic: 'Plains, Plateaus and Valleys: Formation and Characteristics',
     chapters: [],
     nodeIds: ['c9_geo_ch1_10', 'c9_geo_ch2_7', 'c9_geo_ch1_1', 'c9_geo_ch1_11', 'c9_geo_ch1_12', 'c9_geo_ch1_2', 'c9_geo_ch1_3', 'c9_geo_ch1_4', 'c9_geo_ch1_5', 'c9_geo_ch1_7', 'c9_geo_ch1_8', 'c9_geo_ch1_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Look at the flat farmland around your village or city - notice how the soil is deep, stone-free, and the land.', goal: 'Master Plains, Plateaus and Valleys: Formation and Characteristics.' },
     discovery: {
         question: 'Evaluate the statement: "The Indo-Gangetic Plain is entirely a depositional landform with no structural control." Provide evidence from its northern and.',
@@ -20,7 +20,7 @@ export const w_c9_geographylandformsplateaussim: SimDef = {
         hook: 'Students believe all plateaus are "old, eroded mountains" and all plains are "young, flat lands." They specifically.',
     },
     teaching: [
-        { title: 'Plains are extensive low-relief areas formed.', text: 'Plains are extensive low-relief areas formed primarily by depositional processes of rivers, wind, or glaciers, or by erosion reducing highlands to near-base level; plateaus are elevated flat-topped.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Plains are extensive low-relief areas formed.', text: 'Plains are extensive low-relief areas formed primarily by depositional processes of rivers, wind, or glaciers, or by erosion reducing highlands to near-base level; plateaus are elevated flat-topped.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch1_10', title: 'Plains are extensive low-relief areas.',

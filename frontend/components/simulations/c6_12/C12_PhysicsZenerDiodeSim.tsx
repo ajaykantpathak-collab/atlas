@@ -1248,7 +1248,7 @@ export default function C12_PhysicsZenerDiodeSim({
 
   // ─── RENDER JSX ───
   return (
-    <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans selection:bg-cyan-500 selection:text-black">
+    <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans selection:bg-gold-500 selection:text-black">
       {/* ─── HEADER BAR ─── */}
       <motion.header
         initial={{ opacity: 0, y: -15 }}
@@ -1258,12 +1258,12 @@ export default function C12_PhysicsZenerDiodeSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 20, scale: 1.15 }}
-            className="text-3xl p-2 bg-cyan-950/60 rounded-xl border border-cyan-700/50"
+            className="text-3xl p-2 bg-gold-950/60 rounded-xl border border-gold-700/50"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 12 Physics (ISC / CISCE) • Modern Physics & Solid State</p>
@@ -1280,7 +1280,7 @@ export default function C12_PhysicsZenerDiodeSim({
                 ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
-                : 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40'
+                : 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
             }`}
           >
             {difficulty} Tier
@@ -1299,9 +1299,9 @@ export default function C12_PhysicsZenerDiodeSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+            className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
           >
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold uppercase tracking-wider mb-2">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold uppercase tracking-wider mb-2">
               <span>🚀</span>
               <span>Mission Narrative Scenario</span>
             </div>
@@ -1313,7 +1313,7 @@ export default function C12_PhysicsZenerDiodeSim({
           {/* Interactive Curiosity Test Bench */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Discovery Question • Low-Stakes Intuition Check
               </span>
               <span className="text-xs text-slate-500">Not Graded</span>
@@ -1335,10 +1335,10 @@ export default function C12_PhysicsZenerDiodeSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700/50 text-slate-400'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-cyan-500/50'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {option}
                 </motion.button>
               ))}
@@ -1356,7 +1356,7 @@ export default function C12_PhysicsZenerDiodeSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-cyan-500/20"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-500/20"
                 >
                   Enter Visual Labs →
                 </motion.button>
@@ -1371,7 +1371,7 @@ export default function C12_PhysicsZenerDiodeSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Interactive Concept Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1381,7 +1381,7 @@ export default function C12_PhysicsZenerDiodeSim({
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'w-6 bg-cyan-400' : 'w-2 bg-slate-700'
+                    i === currentSlide ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1407,7 +1407,7 @@ export default function C12_PhysicsZenerDiodeSim({
                     {/* Controls */}
                     <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                       <label className="text-xs font-bold text-slate-300 uppercase block">
-                        Applied Voltage V: <span className="text-cyan-400 text-sm font-mono">{zenerAppliedVoltage.toFixed(2)} V</span>
+                        Applied Voltage V: <span className="text-gold-400 text-sm font-mono">{zenerAppliedVoltage.toFixed(2)} V</span>
                       </label>
                       <input
                         type="range"
@@ -1420,7 +1420,7 @@ export default function C12_PhysicsZenerDiodeSim({
                           audioManager.play('count');
                         }}
                         aria-label="Set Zener Applied Voltage"
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
 
                       <div className="p-3 bg-slate-900 rounded-lg space-y-1 text-xs">
@@ -1434,7 +1434,7 @@ export default function C12_PhysicsZenerDiodeSim({
                         </div>
                         <div className="flex justify-between text-slate-400">
                           <span>Diode Current I:</span>
-                          <span className="text-cyan-300 font-mono font-bold">{zenerCurrent.toFixed(2)} mA</span>
+                          <span className="text-gold-300 font-mono font-bold">{zenerCurrent.toFixed(2)} mA</span>
                         </div>
                         <div className="flex justify-between text-slate-400">
                           <span>Zener Voltage Vz:</span>
@@ -1498,7 +1498,7 @@ export default function C12_PhysicsZenerDiodeSim({
                 <div className="space-y-6">
                   {/* Predict Then Check */}
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60">
                       <p className="text-white text-sm font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1509,7 +1509,7 @@ export default function C12_PhysicsZenerDiodeSim({
                             onClick={() => handlePrediction(i)}
                             className="p-2.5 text-left bg-slate-800 hover:bg-slate-700 rounded-lg text-xs text-slate-200 border border-slate-700"
                           >
-                            <span className="text-cyan-400 font-bold mr-1">{i + 1}.</span> {opt}
+                            <span className="text-gold-400 font-bold mr-1">{i + 1}.</span> {opt}
                           </motion.button>
                         ))}
                       </div>
@@ -1522,7 +1522,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300">
                           <span>Unregulated Input Vi:</span>
-                          <span className="text-cyan-400 font-mono">{regulatorVi.toFixed(1)} V</span>
+                          <span className="text-gold-400 font-mono">{regulatorVi.toFixed(1)} V</span>
                         </div>
                         <input
                           type="range"
@@ -1534,14 +1534,14 @@ export default function C12_PhysicsZenerDiodeSim({
                             setRegulatorVi(parseFloat(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300">
                           <span>Series Resistor Rs:</span>
-                          <span className="text-indigo-400 font-mono">{regulatorRs} Ω</span>
+                          <span className="text-gold-400 font-mono">{regulatorRs} Ω</span>
                         </div>
                         <input
                           type="range"
@@ -1553,7 +1553,7 @@ export default function C12_PhysicsZenerDiodeSim({
                             setRegulatorRs(parseInt(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
@@ -1587,7 +1587,7 @@ export default function C12_PhysicsZenerDiodeSim({
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg text-center border border-slate-800">
                           <span className="text-[10px] text-slate-400 block uppercase">Supply Is</span>
-                          <span className="text-lg font-bold font-mono text-cyan-400">{regulatorCalculations.Is.toFixed(1)} mA</span>
+                          <span className="text-lg font-bold font-mono text-gold-400">{regulatorCalculations.Is.toFixed(1)} mA</span>
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg text-center border border-slate-800">
                           <span className="text-[10px] text-slate-400 block uppercase">Zener Iz</span>
@@ -1658,7 +1658,7 @@ export default function C12_PhysicsZenerDiodeSim({
                               }}
                               className={`py-1.5 px-2 rounded-lg text-xs font-bold border ${
                                 selectedIsotope === iso
-                                  ? 'bg-cyan-600 border-cyan-400 text-white'
+                                  ? 'bg-gold-600 border-gold-400 text-white'
                                   : 'bg-slate-800 border-slate-700 text-slate-400'
                               }`}
                             >
@@ -1671,7 +1671,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Elapsed Time:</span>
-                          <span className="text-cyan-400 font-mono">
+                          <span className="text-gold-400 font-mono">
                             {selectedIsotope === 'Tc99m'
                               ? `${(decayTimeYears * 365 * 24).toFixed(1)} hrs`
                               : `${Math.round(decayTimeYears)} yrs`}
@@ -1687,7 +1687,7 @@ export default function C12_PhysicsZenerDiodeSim({
                             setDecayTimeYears(parseFloat(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
@@ -1700,7 +1700,7 @@ export default function C12_PhysicsZenerDiodeSim({
                         </div>
                         <div className="flex justify-between text-slate-400">
                           <span>Half-Lives Elapsed (n):</span>
-                          <span className="text-cyan-300 font-bold">{decayCalculations.halfLivesPassed.toFixed(2)}</span>
+                          <span className="text-gold-300 font-bold">{decayCalculations.halfLivesPassed.toFixed(2)}</span>
                         </div>
                         <div className="flex justify-between text-slate-400">
                           <span>Active Nuclei (N/N₀):</span>
@@ -1741,7 +1741,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       <div className="mt-3 p-2.5 bg-slate-900 rounded-lg flex items-center justify-between text-xs text-slate-400">
                         <span>● Blue = Parent Nucleus</span>
                         <span>● Slate = Daughter Nucleus</span>
-                        <span className="text-cyan-300 font-bold">Statistical Law of Radioactive Decay</span>
+                        <span className="text-gold-300 font-bold">Statistical Law of Radioactive Decay</span>
                       </div>
                     </div>
                   </div>
@@ -1757,7 +1757,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Input Signal Amplitude:</span>
-                          <span className="text-cyan-400 font-mono">{transistorVinPeak} mV</span>
+                          <span className="text-gold-400 font-mono">{transistorVinPeak} mV</span>
                         </div>
                         <input
                           type="range"
@@ -1768,14 +1768,14 @@ export default function C12_PhysicsZenerDiodeSim({
                             setTransistorVinPeak(parseInt(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Transistor Current Gain β:</span>
-                          <span className="text-indigo-400 font-mono">{transistorBeta}</span>
+                          <span className="text-gold-400 font-mono">{transistorBeta}</span>
                         </div>
                         <input
                           type="range"
@@ -1787,7 +1787,7 @@ export default function C12_PhysicsZenerDiodeSim({
                             setTransistorBeta(parseInt(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
@@ -1830,7 +1830,7 @@ export default function C12_PhysicsZenerDiodeSim({
                     <div className="md:col-span-2 bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
                       <canvas ref={waveCanvasRef} width={420} height={200} className="w-full h-[200px] rounded-lg bg-slate-900" />
                       <div className="flex justify-between text-xs text-slate-400 mt-2 px-1">
-                        <span className="text-cyan-400">● Base Input (mV)</span>
+                        <span className="text-gold-400">● Base Input (mV)</span>
                         <span className="text-rose-400">● Collector Output (V, 180° Inverted)</span>
                       </div>
                     </div>
@@ -1847,7 +1847,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Analyzer Angle θ:</span>
-                          <span className="text-cyan-400 font-mono">{analyzerAngleDeg}°</span>
+                          <span className="text-gold-400 font-mono">{analyzerAngleDeg}°</span>
                         </div>
                         <input
                           type="range"
@@ -1859,7 +1859,7 @@ export default function C12_PhysicsZenerDiodeSim({
                             setAnalyzerAngleDeg(parseInt(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-400 cursor-pointer"
+                          className="w-full accent-gold-400 cursor-pointer"
                         />
                       </div>
 
@@ -1872,7 +1872,7 @@ export default function C12_PhysicsZenerDiodeSim({
                             setHasIntermediatePolarizer(e.target.checked);
                             audioManager.play('tap');
                           }}
-                          className="w-4 h-4 accent-cyan-400 rounded cursor-pointer"
+                          className="w-4 h-4 accent-gold-400 rounded cursor-pointer"
                         />
                       </div>
 
@@ -1883,7 +1883,7 @@ export default function C12_PhysicsZenerDiodeSim({
                         </div>
                         <div className="flex justify-between text-slate-400">
                           <span>After Polarizer 1 (I₀):</span>
-                          <span className="text-cyan-300">{malusCalculations.i0} W/m² (50%)</span>
+                          <span className="text-gold-300">{malusCalculations.i0} W/m² (50%)</span>
                         </div>
                         <div className="flex justify-between text-slate-400">
                           <span>Final Transmitted I:</span>
@@ -1969,7 +1969,7 @@ export default function C12_PhysicsZenerDiodeSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
-                className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-cyan-500/20"
+                className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-500/20"
               >
                 Next Lab →
               </motion.button>
@@ -1992,7 +1992,7 @@ export default function C12_PhysicsZenerDiodeSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-bold text-cyan-400">Free Sandbox & Logic Laboratory</h3>
+              <h3 className="text-lg font-bold text-gold-400">Free Sandbox & Logic Laboratory</h3>
               <p className="text-xs text-slate-400">Freely explore logic synthesis and power regulation before formal challenges.</p>
             </div>
             <motion.button
@@ -2008,7 +2008,7 @@ export default function C12_PhysicsZenerDiodeSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Logic Gate Interactive Workbench */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">
                 Digital Logic Gate Simulator
               </span>
 
@@ -2024,7 +2024,7 @@ export default function C12_PhysicsZenerDiodeSim({
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
                       selectedLogicGate === g
-                        ? 'bg-indigo-600 border-indigo-400 text-white'
+                        ? 'bg-gold-600 border-gold-400 text-white'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -2070,7 +2070,7 @@ export default function C12_PhysicsZenerDiodeSim({
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between">
                 <div>
                   <span className="text-xs text-slate-400 block">Boolean Expression:</span>
-                  <span className="text-sm font-mono font-bold text-cyan-300">
+                  <span className="text-sm font-mono font-bold text-gold-300">
                     {selectedLogicGate === 'AND' && 'Y = A · B'}
                     {selectedLogicGate === 'OR' && 'Y = A + B'}
                     {selectedLogicGate === 'NOT' && 'Y = A′'}
@@ -2091,14 +2091,14 @@ export default function C12_PhysicsZenerDiodeSim({
 
             {/* Quick Zener Surge Simulator */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider block">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">
                 Zener Surge Regulator Live Test
               </span>
 
               <div>
                 <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                   <span>Surge Input Vi:</span>
-                  <span className="text-cyan-400 font-mono">{regulatorVi.toFixed(1)} V</span>
+                  <span className="text-gold-400 font-mono">{regulatorVi.toFixed(1)} V</span>
                 </div>
                 <input
                   type="range"
@@ -2107,7 +2107,7 @@ export default function C12_PhysicsZenerDiodeSim({
                   step={0.5}
                   value={regulatorVi}
                   onChange={(e) => setRegulatorVi(parseFloat(e.target.value))}
-                  className="w-full accent-cyan-400 cursor-pointer"
+                  className="w-full accent-gold-400 cursor-pointer"
                 />
               </div>
 
@@ -2139,7 +2139,7 @@ export default function C12_PhysicsZenerDiodeSim({
           {/* Progress Header */}
           <div className="flex flex-wrap items-center justify-between gap-2">
             <div>
-              <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Telemetry Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-500 ml-2">
@@ -2155,7 +2155,7 @@ export default function C12_PhysicsZenerDiodeSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2187,10 +2187,10 @@ export default function C12_PhysicsZenerDiodeSim({
                     className={`w-full p-3.5 text-left rounded-xl text-sm transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
-                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-cyan-500/50'
+                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2208,7 +2208,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2224,7 +2224,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       className={`p-4 rounded-xl border-2 border-dashed min-h-[70px] flex flex-col justify-center items-center text-center transition-all ${
                         droppedLabels[targetId]
                           ? 'bg-emerald-950/50 border-emerald-500 text-emerald-300'
-                          : 'bg-slate-950 border-slate-700 text-slate-500 hover:border-cyan-500'
+                          : 'bg-slate-950 border-slate-700 text-slate-500 hover:border-gold-500'
                       }`}
                     >
                       <span className="text-[10px] text-slate-400 uppercase tracking-wider mb-1">
@@ -2239,7 +2239,7 @@ export default function C12_PhysicsZenerDiodeSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl"
                 >
                   Verify Labels
                 </motion.button>
@@ -2265,7 +2265,7 @@ export default function C12_PhysicsZenerDiodeSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-cyan-400">
+                    <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-gold-400">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2276,7 +2276,7 @@ export default function C12_PhysicsZenerDiodeSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
-                  className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl"
                 >
                   Verify Sequence
                 </motion.button>
@@ -2292,7 +2292,7 @@ export default function C12_PhysicsZenerDiodeSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-cyan-400 outline-none w-48"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-400 outline-none w-48"
                   />
                   <span className="text-slate-400 font-bold">{challenge.unit}</span>
 
@@ -2301,7 +2301,7 @@ export default function C12_PhysicsZenerDiodeSim({
                     whileTap={{ scale: 0.96 }}
                     disabled={!numericInput || showExplanation}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-sm rounded-xl disabled:opacity-50"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm rounded-xl disabled:opacity-50"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2321,7 +2321,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-xs font-bold text-white rounded-lg"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-xs font-bold text-white rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2335,7 +2335,7 @@ export default function C12_PhysicsZenerDiodeSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-cyan-900/80 border border-cyan-500/50 rounded-lg text-xs font-mono text-cyan-200 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-500/50 rounded-lg text-xs font-mono text-gold-200 flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2356,7 +2356,7 @@ export default function C12_PhysicsZenerDiodeSim({
                   whileTap={{ scale: 0.96 }}
                   disabled={constructParts.length === 0 || showExplanation}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm rounded-xl disabled:opacity-50"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl disabled:opacity-50"
                 >
                   Validate Construction
                 </motion.button>
@@ -2427,7 +2427,7 @@ export default function C12_PhysicsZenerDiodeSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD RETROSPECTIVE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-extrabold text-white">Mission Diagnostic Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2441,7 +2441,7 @@ export default function C12_PhysicsZenerDiodeSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Mastery Rating</span>
-                <span className="text-2xl font-bold text-cyan-400 uppercase">{masteryLevel}</span>
+                <span className="text-2xl font-bold text-gold-400 uppercase">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2495,7 +2495,7 @@ export default function C12_PhysicsZenerDiodeSim({
 
           {/* Real-World Activity Retrospective */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-cyan-400">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-400">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 list-disc list-inside">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

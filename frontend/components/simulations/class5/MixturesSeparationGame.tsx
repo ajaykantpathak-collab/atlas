@@ -178,9 +178,9 @@ function ProfessorPooja({ mood, speaking }: { mood: MascotMood; speaking: string
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-cyan-200"
+            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-gold-200"
           >
-            <p className="text-sm font-bold text-cyan-900">{speaking}</p>
+            <p className="text-sm font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -318,7 +318,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Solutions, Suspensions and Colloids 💧",
     text: "When sugar dissolves in water, it forms a clear solution! When sand is mixed, it forms a cloudy suspension where particles settle. Milk is a colloid where particles stay floating!",
     emoji: "🥛",
-    bgColor: "from-cyan-400 to-blue-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "When sugar dissolves in water, it forms a clear solution! When sand is mixed, it forms a suspension where particles settle. Milk is a colloid where particles stay floating!",
   },
   {
@@ -332,7 +332,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Filtration and Decantation 🧪",
     text: "Filtration uses filter paper to trap insoluble solids (residue) while letting clear liquid (filtrate) pass through. Decantation pours off liquid after heavy solids settle down!",
     emoji: "📜",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Filtration uses filter paper to trap insoluble solids while letting clear liquid pass through. Decantation pours off liquid after heavy solids settle down!",
   },
   {
@@ -511,7 +511,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: Sor
       width={110}
       height={95}
     >
-      <div className="flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-cyan-300 bg-white" style={{ width: 110, height: 95 }}>
+      <div className="flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 bg-white" style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1 px-1">{label}</span>
       </div>
@@ -700,9 +700,9 @@ export function MixturesSeparationGame({ width = 720, height = 560, onComplete }
       <LabSceneBg width={width} height={height} />
 
       {/* Top Header Bar */}
-      <div className="relative z-10 w-full flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md shadow-md border-b border-cyan-100">
+      <div className="relative z-10 w-full flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md shadow-md border-b border-gold-100">
         <div className="flex items-center gap-3">
-          <div className="bg-cyan-500 text-white font-black px-3 py-1 rounded-full text-xs shadow">
+          <div className="bg-gold-500 text-white font-black px-3 py-1 rounded-full text-xs shadow">
             Class 5 Chemistry
           </div>
           <span className="text-sm font-bold text-slate-700">Mixtures & Separation</span>
@@ -731,7 +731,7 @@ export function MixturesSeparationGame({ width = 720, height = 560, onComplete }
             initial={{ opacity: 0, scale: 0.95, y: 15 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.4 }}
-            className="w-full max-w-xl bg-white/95 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border-4 border-cyan-200 flex flex-col items-center text-center"
+            className="w-full max-w-xl bg-white/95 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border-4 border-gold-200 flex flex-col items-center text-center"
           >
             <div className={`w-20 h-20 rounded-3xl bg-gradient-to-tr ${TEACHING_SLIDES[slideIdx].bgColor} flex items-center justify-center text-4xl shadow-lg mb-4`}>
               {TEACHING_SLIDES[slideIdx].emoji}
@@ -752,7 +752,7 @@ export function MixturesSeparationGame({ width = 720, height = 560, onComplete }
               </button>
               <div className="flex gap-2">
                 {TEACHING_SLIDES.map((_, i) => (
-                  <div key={i} className={`w-3 h-3 rounded-full ${i === slideIdx ? 'bg-cyan-500 scale-125' : 'bg-slate-300'} transition-all`} />
+                  <div key={i} className={`w-3 h-3 rounded-full ${i === slideIdx ? 'bg-gold-500 scale-125' : 'bg-slate-300'} transition-all`} />
                 ))}
               </div>
               <button
@@ -765,7 +765,7 @@ export function MixturesSeparationGame({ width = 720, height = 560, onComplete }
                     setMascotMood('happy');
                   }
                 }}
-                className="px-6 py-2.5 rounded-xl font-bold bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg hover:brightness-110 transition"
+                className="px-6 py-2.5 rounded-xl font-bold bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg hover:brightness-110 transition"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Lab! 🚀' : 'Next ➡️'}
               </button>
@@ -778,8 +778,8 @@ export function MixturesSeparationGame({ width = 720, height = 560, onComplete }
       {screen === 'play' && (
         <div className="relative z-10 flex flex-col items-center justify-between flex-1 w-full px-6 pb-6 pt-2">
           {/* Challenge Header */}
-          <div className="w-full max-w-2xl bg-white/90 backdrop-blur rounded-2xl px-6 py-4 shadow-xl border-2 border-cyan-200 flex flex-col items-center text-center">
-            <span className="text-xs font-bold text-cyan-700 uppercase tracking-wider mb-1">
+          <div className="w-full max-w-2xl bg-white/90 backdrop-blur rounded-2xl px-6 py-4 shadow-xl border-2 border-gold-200 flex flex-col items-center text-center">
+            <span className="text-xs font-bold text-gold-700 uppercase tracking-wider mb-1">
               Challenge {challengeIdx + 1} of {CHALLENGES.length}
             </span>
             <h3 className="text-lg font-black text-slate-800">
@@ -793,7 +793,7 @@ export function MixturesSeparationGame({ width = 720, height = 560, onComplete }
               {currentChallenge.options.map((opt) => {
                 const isSelected = selectedOpt === opt;
                 const isCorrectOpt = opt === currentChallenge.answer;
-                let btnStyle = "bg-white border-cyan-200 text-slate-700 hover:border-cyan-400";
+                let btnStyle = "bg-white border-gold-200 text-slate-700 hover:border-gold-400";
                 if (selectedOpt) {
                   if (isCorrectOpt) btnStyle = "bg-emerald-500 border-emerald-600 text-white shadow-emerald-200";
                   else if (isSelected) btnStyle = "bg-rose-500 border-rose-600 text-white shadow-rose-200";

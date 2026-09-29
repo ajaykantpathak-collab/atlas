@@ -1139,7 +1139,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-700'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-700'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-700'
               }`}
             >
               TIER: {difficulty.toUpperCase()}
@@ -1166,7 +1166,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
          ────────────────────────────────────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-teal-950/50 via-slate-900 to-indigo-950/40 rounded-3xl border border-teal-800/60 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-teal-950/50 via-slate-900 to-gold-950/40 rounded-3xl border border-teal-800/60 shadow-xl">
             <div className="flex items-center gap-2 text-teal-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️</span> Narrative Mission Briefing
             </div>
@@ -1227,7 +1227,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Discovery Labs"
-                  className="px-6 py-3 bg-gradient-to-r from-teal-500 to-indigo-600 text-white font-bold rounded-2xl shadow-lg hover:shadow-teal-500/20 text-sm flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-teal-500 to-gold-600 text-white font-bold rounded-2xl shadow-lg hover:shadow-teal-500/20 text-sm flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1342,7 +1342,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                     {/* Human Card */}
                     <div className="p-5 rounded-2xl bg-slate-950 border border-slate-800">
                       <div className="flex items-center justify-between mb-3">
-                        <span className="text-xs font-bold text-indigo-400 bg-indigo-950/80 px-2.5 py-1 rounded-lg border border-indigo-800">
+                        <span className="text-xs font-bold text-gold-400 bg-gold-950/80 px-2.5 py-1 rounded-lg border border-gold-800">
                           👤 Human Genome Project (HGP 1990–2003)
                         </span>
                         <span className="text-xs text-slate-400 font-mono">Homo sapiens</span>
@@ -1354,7 +1354,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                         </div>
                         <div className="flex justify-between border-b border-slate-800/60 pb-1.5">
                           <span className="text-slate-400">Protein-Coding Genes:</span>
-                          <strong className="text-indigo-400 font-mono">~20,000–25,000 genes</strong>
+                          <strong className="text-gold-400 font-mono">~20,000–25,000 genes</strong>
                         </div>
                         <div className="flex justify-between border-b border-slate-800/60 pb-1.5">
                           <span className="text-slate-400">Gene Density:</span>
@@ -1391,14 +1391,14 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                       </div>
                       <div className="h-4 bg-slate-800 rounded-full overflow-hidden flex">
                         <div className="bg-emerald-500 h-full" style={{ width: '14.3%' }} />
-                        <div className="bg-indigo-600 h-full flex-1" />
+                        <div className="bg-gold-600 h-full flex-1" />
                       </div>
                     </div>
                   </div>
 
                   {/* Observation Q1 Integration */}
                   {!obs1Answered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/30 rounded-2xl border border-indigo-800/50">
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/30 rounded-2xl border border-gold-800/50">
                       <p className="text-sm font-semibold text-white mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1584,7 +1584,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                 <div className="space-y-5">
                   <div className="grid grid-cols-3 gap-3">
                     {[
-                      { id: 'PDB', title: 'Protein Data Bank (PDB)', focus: '3D Atomic Coordinates (X-ray/Cryo-EM)', color: 'text-indigo-400' },
+                      { id: 'PDB', title: 'Protein Data Bank (PDB)', focus: '3D Atomic Coordinates (X-ray/Cryo-EM)', color: 'text-gold-400' },
                       { id: 'PIR', title: 'PIR (Protein Info Resource)', focus: 'Sequence Families & Superfamilies', color: 'text-amber-400' },
                       { id: 'SWISS-PROT', title: 'SWISS-PROT (UniProtKB)', focus: 'Manually Curated Expert Annotations', color: 'text-teal-400' },
                     ].map(db => (
@@ -1612,7 +1612,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                     </div>
 
                     {selectedDb === 'PDB' && (
-                      <div className="space-y-1 text-indigo-300">
+                      <div className="space-y-1 text-gold-300">
                         <p>ENTRY ID: 1MBN (Myoglobin Sperm Whale 3D Coordinate File)</p>
                         <p>EXPERIMENTAL METHOD: X-RAY DIFFRACTION • RESOLUTION: 1.40 Å</p>
                         <p>ATOM 1 N VAL A 1 4.542 12.304 22.181 1.00 15.20 N</p>
@@ -1874,7 +1874,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
 
                   {/* Observation Q2 Integration */}
                   {!obs2Answered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/30 rounded-2xl border border-indigo-800/50">
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/30 rounded-2xl border border-gold-800/50">
                       <p className="text-sm font-semibold text-white mb-2">{OBSERVATION_QUESTIONS[1].question}</p>
                       <div className="space-y-2">
                         {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => (
@@ -2001,7 +2001,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
 
             {/* AI Docking Sandbox */}
             <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-indigo-400">🤖 AlphaFold2 Drug Cleft Docking</h3>
+              <h3 className="text-sm font-bold text-gold-400">🤖 AlphaFold2 Drug Cleft Docking</h3>
               <div>
                 <label className="text-xs text-slate-400">Shape Complementarity: {aiDockingAffinity}%</label>
                 <input
@@ -2011,12 +2011,12 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                   value={aiDockingAffinity}
                   onChange={e => setAiDockingAffinity(Number(e.target.value))}
                   aria-label="Sandbox Docking Affinity Slider"
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-2.5 bg-slate-900 rounded-xl flex justify-between items-center text-xs">
                 <span className="text-slate-400">Predicted Binding Energy (ΔG):</span>
-                <span className="font-bold font-mono text-indigo-300">{dockingEnergyScore} kcal/mol</span>
+                <span className="font-bold font-mono text-gold-300">{dockingEnergyScore} kcal/mol</span>
               </div>
             </div>
           </div>
@@ -2026,7 +2026,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
             aria-label="Begin Challenge Assessments"
-            className="w-full py-4 bg-gradient-to-r from-teal-500 via-indigo-600 to-purple-600 text-white font-extrabold rounded-2xl shadow-xl text-base flex items-center justify-center gap-2"
+            className="w-full py-4 bg-gradient-to-r from-teal-500 via-gold-600 to-purple-600 text-white font-extrabold rounded-2xl shadow-xl text-base flex items-center justify-center gap-2"
           >
             I Am Ready for Challenge Assessments! 🚀
           </motion.button>
@@ -2066,7 +2066,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
           {/* Progress bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2135,7 +2135,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-900/80 border border-indigo-700 text-indigo-100 rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-2 bg-gold-900/80 border border-gold-700 text-gold-100 rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2267,7 +2267,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label={`Add part ${part} to bio-pipeline`}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3.5 py-2 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-xl text-xs font-bold"
+                      className="px-3.5 py-2 bg-gold-950 border border-gold-700 text-gold-200 rounded-xl text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2359,7 +2359,7 @@ function C12_BiotechnologyRiceGenomeProjectSim({
          ────────────────────────────────────────────────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-teal-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-teal-700/80 text-center space-y-3 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-teal-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-teal-700/80 text-center space-y-3 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-black text-white">Genomics & AI Mastery Certified!</h2>
             <p className="text-teal-300 font-mono text-sm">

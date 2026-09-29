@@ -15,7 +15,9 @@ export const C12_PS_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "physical education",
   "topic": "NATO",
-  "chapters": ["Physical Education Ch1: NATO"],
+  "chapters": [
+   "Physical Education Ch1: NATO"
+  ],
   "nodeIds": [
    "c12_ps_cbse_01_003",
    "c12_ps_cbse_01_007",
@@ -119,7 +121,7 @@ export const C12_PS_GEN: SimDef[] = [
      "A strong answer will reference the Domino Theory, assess Zambezia's strategic location/resources, weigh risks of intervention vs",
      "A strong answer includes: \"1. Calls for an immediate ceasefire and withdrawal of all forces to the 38th parallel; 2"
     ],
-    "hint": "Straight from the 'Korean War  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Korean War' slide -- match the key terms.",
     "misconception": "A poor answer omits enforcement mechanisms, ignores the 38th parallel baseline, or assigns roles to the General Assembly instead of the Security Council.",
     "id": "gen_c12_ps_ch01_q2",
     "nodeId": "c12_ps_cbse_01_007",
@@ -161,7 +163,7 @@ export const C12_PS_GEN: SimDef[] = [
      "A strong answer will reference the Domino Theory, assess Zambezia's strategic location/resources, weigh risks of intervention vs",
      "A credible collective defense clause must include: (1) Clear geographic scope and definition of \"armed attack\" (including cyber/hybrid)"
     ],
-    "hint": "Straight from the 'NATO  and' slide -- match the key terms.",
+    "hint": "Straight from the 'NATO' slide -- match the key terms.",
     "misconception": "A poor answer copies NATO's text verbatim without adapting to multipolarity (e.g., no mention of non-state actors, cyber, or burden-sharing formulas), showing the student cannot apply principles to new contexts.",
     "id": "gen_c12_ps_ch01_q4",
     "nodeId": "c12_ps_cbse_01_003",
@@ -170,7 +172,7 @@ export const C12_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about nato and?",
+    "What surprised you about nato?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -224,7 +226,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Glasnost And Perestroika Were",
+    "title": "Glasnost And Perestroika",
     "text": "Glasnost (openness) and Perestroika (restructuring) were twin reform policies introduced by Soviet General Secretary Mikhail Gorbachev in the mid-1980s.",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -248,7 +250,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Consequences Of Soviet Disintegration Refer",
+    "title": "Consequences Of Soviet Disintegration",
     "text": "The consequences of Soviet disintegration refer to the multidimensional geopolitical, economic, and security transformations that followed the dissolution of the USSR in December 1991, including the end of bipolarity, emergence of 15 independent states,",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -379,8 +381,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the immediate trigger for the opening of the Berlin Wall on November 9, 1989?",
     "answer": "Günter Schabowski, an East German Politburo member, mistakenly announced at a live press conference that new travel regulations allowing private trips abroad were effective",
     "options": [
-     "Poland, Hungary, East Germany, Czechoslovakia, Bulgaria, Romania. Romania is the only country where the communist leader (Nicolae Ceaușescu) was violently overthrown and executed",
-     "Kosovo (an autonomous province within Serbia)",
+     "The three Baltic republics were Estonia, Latvia, and Lithuania (declared independence in 1990–1991). The USSR was formally dissolved on 26 December 1991",
+     "The student can explain at least four distinct causal factors (economic, political, nationalist, reform-related, external) and analyze how they reinforced each other",
      "Günter Schabowski, an East German Politburo member, mistakenly announced at a live press conference that new travel regulations allowing private trips abroad were effective"
     ],
     "hint": "Straight from the 'fall of the Berlin Wall' slide -- match the key terms.",
@@ -400,8 +402,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Name the three Baltic republics that were the first to declare independence from the USSR in 1990–1991, and state the year the USSR was formally dissolved.",
     "answer": "The three Baltic republics were Estonia, Latvia, and Lithuania (declared independence in 1990–1991). The USSR was formally dissolved on 26 December 1991",
     "options": [
-     "Günter Schabowski, an East German Politburo member, mistakenly announced at a live press conference that new travel regulations allowing private trips abroad were effective",
-     "Shock therapy is a rapid, simultaneous transition package — price liberalization, mass privatization, fiscal stabilization, trade liberalization, and legal/institutional reform",
+     "The student can explain the core features of the Soviet political system (single-party rule, democratic centralism, nomenklatura) and its planned economy (state ownership",
+     "The two pillars were Glasnost (meaning \"openness\" or \"transparency\") and Perestroika (meaning \"restructuring\" or \"rebuilding\")",
      "The three Baltic republics were Estonia, Latvia, and Lithuania (declared independence in 1990–1991). The USSR was formally dissolved on 26 December 1991"
     ],
     "hint": "Straight from the 'disintegration of the USSR' slide -- match the key terms.",
@@ -421,8 +423,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Define \"shock therapy\" in the context of post-communist transition and name the international institutions most associated with its design and financing.",
     "answer": "Shock therapy is a rapid, simultaneous transition package — price liberalization, mass privatization, fiscal stabilization, trade liberalization, and legal/institutional reform",
     "options": [
-     "Poland, Hungary, East Germany, Czechoslovakia, Bulgaria, Romania. Romania is the only country where the communist leader (Nicolae Ceaușescu) was violently overthrown and executed",
-     "The two pillars were Glasnost (meaning \"openness\" or \"transparency\") and Perestroika (meaning \"restructuring\" or \"rebuilding\")",
+     "The student can explain the five core components of shock therapy, contrast it with gradualist transition (China/Vietnam)",
+     "Students equate \"shock therapy\" with \"privatization only\" and assume it was a single policy applied identically everywhere",
      "Shock therapy is a rapid, simultaneous transition package — price liberalization, mass privatization, fiscal stabilization, trade liberalization, and legal/institutional reform"
     ],
     "hint": "Straight from the 'Shock Therapy' slide -- match the key terms.",
@@ -557,9 +559,9 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the name of the federal unit that Slobodan Milošević stripped of its autonomy in 1989, triggering the first major constitutional crisis in Yugoslavia?",
     "answer": "Kosovo (an autonomous province within Serbia)",
     "options": [
-     "The three Baltic republics were Estonia, Latvia, and Lithuania (declared independence in 1990–1991). The USSR was formally dissolved on 26 December 1991",
-     "Shock therapy is a rapid, simultaneous transition package — price liberalization, mass privatization, fiscal stabilization, trade liberalization, and legal/institutional reform",
-     "Sorbs (an autonomous province within Serbia)",
+     "The two pillars were Glasnost (meaning \"openness\" or \"transparency\") and Perestroika (meaning \"restructuring\" or \"rebuilding\")",
+     "The student can explain the distinct objectives of Glasnost and Perestroika, analyze how they interacted to weaken Communist Party control",
+     "Engage (an autonomous province within Serbia)",
      "Kosovo (an autonomous province within Serbia)"
     ],
     "hint": "Straight from the 'violent breakup of Yugoslavia' slide -- match the key terms.",
@@ -781,6 +783,21 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain the core features of the Soviet political system (single-party rule, democratic centralism, nomenklatura) and its planned economy (state ownership",
+    "options": [
+     "The three Baltic republics were Estonia, Latvia, and Lithuania (declared independence in 1990–1991). The USSR was formally dissolved on 26 December 1991",
+     "The student can explain at least four distinct causal factors (economic, political, nationalist, reform-related, external) and analyze how they reinforced each other",
+     "The student can explain the core features of the Soviet political system (single-party rule, democratic centralism, nomenklatura) and its planned economy (state ownership"
+    ],
+    "hint": "Straight from the 'Soviet System' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain the core features of the Soviet political system (single-party rule, democratic centralism,",
+    "id": "gen_c12_ps_ch02_q15",
+    "nodeId": "c12_ps_cbse_02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the impact of Glasnost on the Communist Party's monopoly on information with its impact on nationalist movements in the Baltic republics and Ukraine.",
     "answer": "Glasnost ended the party's information monopoly by allowing critical journalism, publication of banned works (e",
     "options": [
@@ -788,9 +805,9 @@ export const C12_PS_GEN: SimDef[] = [
      "Similarity: In both cases, republican/communist elites adopted nationalist rhetoric to seize power as central authority weakened",
      "Glasnost ended the party's information monopoly by allowing critical journalism, publication of banned works (e"
     ],
-    "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
+    "hint": "Straight from the 'Glasnost and Perestroika' slide -- match the key terms.",
     "misconception": "A wrong answer that treats these as separate, unrelated outcomes misses the causal link: the same mechanism — free information flow — that weakened central ideological control also empowered sub-state national identities, a classic case of reform backfiring.",
-    "id": "gen_c12_ps_ch02_q15",
+    "id": "gen_c12_ps_ch02_q16",
     "nodeId": "c12_ps_cbse_02_002",
     "difficulty": "advanced"
    },
@@ -801,12 +818,11 @@ export const C12_PS_GEN: SimDef[] = [
     "options": [
      "A good diagram shows: Economic stagnation → (necessitated) → Gorbachev's reforms; Gorbachev's reforms → (enabled) → Rise of republican nationalism",
      "A strong memo identifies: Opportunities — (1) Diversify defence procurement beyond Russia (action: initiate talks with Israel, France)",
-     "A strong memo would: (1) acknowledge the legitimacy of Feb-Apr grievances exposed by Glasnost",
      "A strong memo would: (1) acknowledge the legitimacy of Baltic grievances exposed by Glasnost"
     ],
-    "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
+    "hint": "Straight from the 'Glasnost and Perestroika' slide -- match the key terms.",
     "misconception": "A poor answer that recommends force without analyzing political costs, or recommends surrender without a federal alternative, shows failure to integrate ethical, strategic, and institutional reasoning.",
-    "id": "gen_c12_ps_ch02_q16",
+    "id": "gen_c12_ps_ch02_q17",
     "nodeId": "c12_ps_cbse_02_002",
     "difficulty": "advanced"
    },
@@ -819,23 +835,8 @@ export const C12_PS_GEN: SimDef[] = [
      "For: (1) Kohl's 10-Point Plan and currency union (July 1990) imposed West German economic terms",
      "This argument is partially valid but oversimplified. Moving slowly on economics (retaining price controls, soft budgets) caused shortages and loss of faith in reform"
     ],
-    "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
+    "hint": "Straight from the 'Glasnost and Perestroika' slide -- match the key terms.",
     "misconception": "A wrong answer that blames only speed or only one reform shows inability to weigh interdependent political-economic dynamics.",
-    "id": "gen_c12_ps_ch02_q17",
-    "nodeId": "c12_ps_cbse_02_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "In 1988, the Soviet Union passed the Law on State Enterprises. How did this law reflect Perestroika's goals, and what unintended consequence did it have on the planned economy?",
-    "answer": "The Law on State Enterprises gave factories autonomy to set output levels, negotiate supplies, and retain profits — a shift from central directives to market-like incentives",
-    "options": [
-     "Sample: \"India recognizes the Russian Federation as the continuator state of the USSR, inheriting its UN Security Council seat and treaty obligations",
-     "The Soviet model was comprehensive central planning: Gosplan set *binding* physical output targets for *every* enterprise, owned all large-scale industry",
-     "The Law on State Enterprises gave factories autonomy to set output levels, negotiate supplies, and retain profits — a shift from central directives to market-like incentives"
-    ],
-    "hint": "Straight from the 'Glasnost  and Perestroika  were' slide -- match the key terms.",
-    "misconception": "A wrong answer that only describes the law's provisions without analyzing the missing complementary reforms (price reform, banking) shows the student cannot apply systems thinking to policy design.",
     "id": "gen_c12_ps_ch02_q18",
     "nodeId": "c12_ps_cbse_02_002",
     "difficulty": "advanced"
@@ -853,14 +854,14 @@ export const C12_PS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_ps_ch03",
-  "title": "First Gulf War Was",
+  "title": "First Gulf War",
   "subtitle": "Physical Education · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "First Gulf War Was",
+  "topic": "First Gulf War",
   "chapters": [
-   "Physical Education Ch3: First Gulf War Was"
+   "Physical Education Ch3: First Gulf War"
   ],
   "nodeIds": [
    "c12_ps_cbse_03_001",
@@ -881,7 +882,7 @@ export const C12_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does First Gulf War Was actually explain?",
+   "question": "In one line -- what does First Gulf War actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -892,7 +893,7 @@ export const C12_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "First Gulf War Was",
+    "title": "First Gulf War",
     "text": "The First Gulf War (1991) was a US-led coalition military operation (Operation Desert Storm) authorized by the UN Security Council to expel Iraqi forces from Kuwait, demonstrating the United States' unprecedented military capability and its ability to shape",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -940,7 +941,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Unipolarity",
+    "title": "Unipolarity Refers To An International",
     "text": "Unipolarity refers to an international system where a single state (the United States after 1991) possesses overwhelming military, economic, technological, and structural power relative to all other states.",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -958,11 +959,11 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the immediate trigger for the First Gulf War (1991) and which UN Security Council resolution authorized the use of force against Iraq?",
     "answer": "The immediate trigger was Iraq's invasion and annexation of Kuwait on August 2, 1990. UN Security Council Resolution 678 (November 29",
     "options": [
-     "The three constraints are: (1) domestic public opinion, (2) US institutional checks (Congress, judiciary, bureaucracy), and (3) NATO alliance politics",
-     "The Authorization for Use of Military Force (AUMF), Public Law 107-40, granted the President authority to use \"all necessary and appropriate force\" against those responsible for",
+     "Student can explain the three official justifications for the invasion, evaluate the evidence (or lack thereof) for each, analyze the legal controversy regarding UN authorization",
+     "Student can explain how the 9/11 attacks transformed US foreign policy from post-Cold War hegemony to a militarized \"War on Terror,\" identify the key legal and institutional",
      "The immediate trigger was Iraq's invasion and annexation of Kuwait on August 2, 1990. UN Security Council Resolution 678 (November 29"
     ],
-    "hint": "Straight from the 'First Gulf War  was' slide -- match the key terms.",
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing 9/11 or WMDs) reveals confusion with the 2003 Iraq War or a misunderstanding of the UN's role in collective security.",
     "id": "gen_c12_ps_ch03_q1",
     "nodeId": "c12_ps_cbse_03_001",
@@ -1142,16 +1143,47 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the single most cited quantitative indicator of US hard power dominance in the post-Cold War era, and what approximate multiple does it hold over the next-largest military spender?",
-    "answer": "The indicator is annual military expenditure; the US spends roughly 3× more than China (the #2 spender) and more than the next 9–10 countries combined",
-    "options": [
-     "The three constraints are: (1) domestic public opinion, (2) US institutional checks (Congress, judiciary, bureaucracy), and (3) NATO alliance politics",
-     "The immediate trigger was Iraq's invasion and annexation of Kuwait on August 2, 1990. UN Security Council Resolution 678 (November 29",
-     "The indicator is annual military expenditure; the US spends roughly 3× more than China (the #2 spender) and more than the next 9–10 countries combined"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish hard power from structural",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how the Revolution in Military",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate the limits of hard power",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Hegemony as Hard Power' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"number of aircraft carriers\" or \"nuclear warhead count\") reveals the student confuses *platforms* with the *resource foundation* that sustains technological superiority across all domains.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) distinguish hard power from structural and soft power using concrete military-technological indicators,",
     "id": "gen_c12_ps_ch03_q5",
     "nodeId": "c12_ps_cbse_03_005",
     "difficulty": "advanced",
@@ -1167,8 +1199,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What are the three original Bretton Woods institutions established in 1944, and which one was added later to complete the global economic governance framework?",
     "answer": "The three original Bretton Woods institutions are the International Monetary Fund (IMF), the International Bank for Reconstruction and Development (World Bank)",
     "options": [
-     "The Authorization for Use of Military Force (AUMF), Public Law 107-40, granted the President authority to use \"all necessary and appropriate force\" against those responsible for",
-     "The US invoked Article 51 of the UN Charter (right to individual and collective self-defense) after the 9/11 attacks",
+     "The three constraints are: (1) domestic public opinion, (2) US institutional checks (Congress, judiciary, bureaucracy), and (3) NATO alliance politics",
+     "The student can explain the three distinct phases of India-US relations post-1991, identify the domestic and international drivers of each phase",
      "The three original Bretton Woods institutions are the International Monetary Fund (IMF), the International Bank for Reconstruction and Development (World Bank)"
     ],
     "hint": "Straight from the 'Hegemony as structural power' slide -- match the key terms.",
@@ -1292,11 +1324,11 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Define unipolarity in the context of the post-Cold War international system and name the single state that exemplifies it.",
     "answer": "Unipolarity is a system where one state holds a preponderance of power capabilities (military, economic, technological, structural) with no peer competitor",
     "options": [
-     "The indicator is annual military expenditure; the US spends roughly 3× more than China (the #2 spender) and more than the next 9–10 countries combined",
-     "Soft power is the ability to affect others through attraction and persuasion rather than coercion (hard power) or payment (economic inducements)",
+     "Student can explain how the 9/11 attacks transformed US foreign policy from post-Cold War hegemony to a militarized \"War on Terror,\" identify the key legal and institutional",
+     "The student can explain the three distinct phases of India-US relations post-1991, identify the domestic and international drivers of each phase",
      "Unipolarity is a system where one state holds a preponderance of power capabilities (military, economic, technological, structural) with no peer competitor"
     ],
-    "hint": "Straight from the 'Unipolarity' slide -- match the key terms.",
+    "hint": "Straight from the 'Unipolarity refers to an' slide -- match the key terms.",
     "misconception": "A wrong answer — e.g., \"unipolarity means the US controls everything\" — reveals confusion between hegemony (influence) and polarity (distribution of capabilities); polarity is about relative capacity, not absolute control.",
     "id": "gen_c12_ps_ch03_q9",
     "nodeId": "c12_ps_cbse_03_009",
@@ -1313,7 +1345,7 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What is the term used in the NCERT textbook to describe India's strategy of engaging with the US on specific issues (like trade, technology, counter-terrorism) while refusing to join US-led military alliances or endorse its global interventions?",
     "answer": "The term is \"strategic autonomy\" (sometimes phrased as \"multi-alignment\" or \"issue-based alignment\")",
     "options": [
-     "The immediate trigger was Iraq's invasion and annexation of Kuwait on August 2, 1990. UN Security Council Resolution 678 (November 29",
+     "Hegemony as Hard Power refers to the dimension of US dominance rooted in overwhelming military superiority",
      "The indicator is annual military expenditure; the US spends roughly 3× more than China (the #2 spender) and more than the next 9–10 countries combined",
      "The term is \"strategic autonomy\" (sometimes phrased as \"multi-alignment\" or \"issue-based alignment\")"
     ],
@@ -1430,7 +1462,7 @@ export const C12_PS_GEN: SimDef[] = [
      "The tests demonstrated India's credible nuclear capability and resolve, forcing the US to recognise India as a nuclear-armed state it could not ignore",
      "Desert Storm showcased precision-guided munitions (PGMs), stealth technology (F-117), GPS navigation, satellite intelligence, and networked command-control systems"
     ],
-    "hint": "Straight from the 'First Gulf War  was' slide -- match the key terms.",
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on coalition size or leadership misses the transformative technological dimension that defined the \"unipolar moment.\"",
     "id": "gen_c12_ps_ch03_q13",
     "nodeId": "c12_ps_cbse_03_001",
@@ -1445,7 +1477,7 @@ export const C12_PS_GEN: SimDef[] = [
      "Binding embeds the hegemon in rules-based institutions (e.g., EU using WTO, NATO, climate accords to constrain US unilateralism)",
      "The 1991 coalition included 34 nations with explicit UN Security Council authorization (Resolution 678), including key Arab states (Saudi Arabia, Egypt, Syria)"
     ],
-    "hint": "Straight from the 'First Gulf War  was' slide -- match the key terms.",
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
     "misconception": "A wrong answer claiming both coalitions were similar ignores the critical difference in UN authorization and its impact on global perceptions of legitimacy.",
     "id": "gen_c12_ps_ch03_q14",
     "nodeId": "c12_ps_cbse_03_001",
@@ -1460,7 +1492,7 @@ export const C12_PS_GEN: SimDef[] = [
      "Quantitative: *RDT&E spending as % of GDP* (captures future technological edge, not just current platforms)",
      "A strong answer would note that today's Security Council is more polarized; a veto by a permanent member (likely Russia or China) would block a Resolution 678-style authorization"
     ],
-    "hint": "Straight from the 'First Gulf War  was' slide -- match the key terms.",
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
     "misconception": "A poor answer would assume the UN works the same way now, ignoring the shift from unipolarity to multipolarity.",
     "id": "gen_c12_ps_ch03_q15",
     "nodeId": "c12_ps_cbse_03_001",
@@ -1475,9 +1507,24 @@ export const C12_PS_GEN: SimDef[] = [
      "The US sought UN authorization to legitimize the intervention, build a broad coalition (including Arab states)",
      "While oil was a strategic concern (Kuwait and Saudi oil fields), the war was framed and legitimized through collective security: UN resolutions emphasized sovereignty and"
     ],
-    "hint": "Straight from the 'First Gulf War  was' slide -- match the key terms.",
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
     "misconception": "A wrong answer dismissing collective security as a mere pretext overlooks the institutional constraints that even a hegemon navigates.",
     "id": "gen_c12_ps_ch03_q16",
+    "nodeId": "c12_ps_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain how the First Gulf War showcased US military dominance, the role of UN authorization, the coalition-building process",
+    "options": [
+     "Student can explain the strategic rationale for the invasion, analyze the shift from counter-terrorism to nation-building, evaluate the outcomes of the 20-year intervention",
+     "Student can explain the three official justifications for the invasion, evaluate the evidence (or lack thereof) for each, analyze the legal controversy regarding UN authorization",
+     "The student can explain how the First Gulf War showcased US military dominance, the role of UN authorization, the coalition-building process"
+    ],
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain how the First Gulf War showcased US military dominance, the role of UN authorization, the",
+    "id": "gen_c12_ps_ch03_q17",
     "nodeId": "c12_ps_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -1490,36 +1537,20 @@ export const C12_PS_GEN: SimDef[] = [
      "Framing it as war allowed the US to invoke the laws of armed conflict: detain suspects as \"enemy combatants\" without criminal trial",
      "The US sought UN authorization to legitimize the intervention, build a broad coalition (including Arab states)"
     ],
-    "hint": "Straight from the 'First Gulf War  was' slide -- match the key terms.",
+    "hint": "Straight from the 'First Gulf War' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting the US didn't need UN approval misses the strategic importance of multilateral legitimacy for sustaining long-term hegemony.",
-    "id": "gen_c12_ps_ch03_q17",
-    "nodeId": "c12_ps_cbse_03_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the international coalition for the 1991 Gulf War (node 001) with the post-9/11 coalition. What structural shift in US hegemony does this reveal?",
-    "answer": "The 1991 coalition operated under explicit UN Security Council authorization (Resolution 678) against a state aggressor (Iraq)",
-    "options": [
-     "The 1991 coalition included 34 nations with explicit UN Security Council authorization (Resolution 678), including key Arab states (Saudi Arabia, Egypt, Syria)",
-     "Structural: (1) Rise of China as a peer competitor to the US, making India a valuable partner for Washington",
-     "The 1991 coalition operated under explicit Northern Alliance authorization (Resolution 678) against a state aggressor (Iraq)",
-     "The 1991 coalition operated under explicit UN Security Council authorization (Resolution 678) against a state aggressor (Iraq)"
-    ],
-    "hint": "Straight from the '9/11 attacks were a series' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The 1991 coalition operated under explicit UN Security Council authorization (Resolution 678) against a state aggressor",
     "id": "gen_c12_ps_ch03_q18",
-    "nodeId": "c12_ps_cbse_03_002",
+    "nodeId": "c12_ps_cbse_03_001",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about first gulf war was?",
+    "What surprised you about first gulf war?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "First Gulf War Was mastered! 🎯",
+  "successLine": "First Gulf War mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1600,7 +1631,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Japan",
+    "title": "Japan Is a Major Economic Power",
     "text": "Japan is a major economic power that emerged after World War II under a pacifist constitution (Article 9) which renounces war as a sovereign right and prohibits maintenance of land, sea, and air forces, thereby constraining its military role while enabling a",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1612,7 +1643,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Regionalism",
+    "title": "Regionalism Refers To The Process",
     "text": "Regionalism refers to the process of cooperation and integration among states within a specific geographical region to promote shared economic, political, and security interests, often through formal organisations like the EU or ASEAN.",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1630,8 +1661,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the primary objective of the European Coal and Steel Community (ECSC) established by the Treaty of Paris in 1951?",
     "answer": "The ECSC aimed to place French and German coal and steel production under a common High Authority to make war between them \"not merely unthinkable, but materially impossible",
     "options": [
-     "The four original SEZs were Shenzhen, Zhuhai, Shantou (Guangdong), and Xiamen (Fujian). Their distinguishing privilege: they could offer foreign investors tax holidays (2-3",
-     "Correct: b) 1996 Agreement on Confidence-Building Measures. This agreement explicitly states \"neither side shall use its military capability against the other side\" and limits",
+     "The common currency is the euro, used by 20 of the 27 EU member states (the “eurozone”)",
+     "The student can (1) explain how the EU’s economic integration (single market, euro) translates into political influence",
      "The ECSC aimed to place French and German coal and steel production under a common High Authority to make war between them \"not merely unthinkable, but materially impossible"
     ],
     "hint": "Straight from the 'European Union' slide -- match the key terms.",
@@ -1670,9 +1701,9 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What is the foundational document that established ASEAN and in which year was it signed?",
     "answer": "The Bangkok Declaration, signed on 8 August 1967, established ASEAN",
     "options": [
-     "The Household Responsibility System allowed peasant families to contract land from collectives, keep surplus output after meeting state quotas",
-     "The four original SEZs were Shenzhen, Zhuhai, Shantou (Guangdong), and Xiamen (Fujian). Their distinguishing privilege: they could offer foreign investors tax holidays (2-3",
-     "The Bangkok Declaration, signed on 8 August 1967, established Maastricht",
+     "ASEAN (Association of Southeast Asian Nations) is a regional intergovernmental organization established on 8 August 1967 by the Bangkok Declaration",
+     "The student can sequentially explain the evolution from ECSC to Maastricht Treaty, identifying each treaty's year, core objective",
+     "The Bangkok Declaration, signed on 8 August 1967, established Accelerated",
      "The Bangkok Declaration, signed on 8 August 1967, established ASEAN"
     ],
     "hint": "Straight from the 'ASEAN' slide -- match the key terms.",
@@ -1794,8 +1825,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Which of the following agreements established the principle of 'mutual and equal security' for India-China border management? a) 1993 Agreement on Maintenance of Peace and Tranquility b) 1996 Agreement on Confidence-Building Measures c) 2005 Protocol on Modalities for Implementation of CBMs d) 2013 Border Defence",
     "answer": "Correct: b) 1996 Agreement on Confidence-Building Measures. This agreement explicitly states \"neither side shall use its military capability against the other side\" and limits",
     "options": [
-     "The common currency is the euro, used by 20 of the 27 EU member states (the “eurozone”)",
-     "The Household Responsibility System allowed peasant families to contract land from collectives, keep surplus output after meeting state quotas",
+     "ASEAN (Association of Southeast Asian Nations) is a regional intergovernmental organization established on 8 August 1967 by the Bangkok Declaration",
+     "The India-EU Summit, held annually (though gaps occur), is the apex political dialogue mechanism",
      "Correct: b) 1996 Agreement on Confidence-Building Measures. This agreement explicitly states \"neither side shall use its military capability against the other side\" and limits"
     ],
     "hint": "Straight from the 'China's role in international' slide -- match the key terms.",
@@ -2041,6 +2072,52 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how the EU’s economic integration",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "compare the EU’s decision‑making structures",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate the EU’s effectiveness as a global",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain how the EU’s economic integration (single market, euro) translates into political",
+    "id": "gen_c12_ps_ch04_q11",
+    "nodeId": "c12_ps_cbse_04_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Draft a 3-point framework India should use to assess the reliability of Russia as a strategic partner over the next decade, given the Ukraine war and Russia-China alignment.",
     "sortItems": [
      {
@@ -2081,7 +2158,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists generic \"friendship\" without addressing the *structural tension* between Russia's China tilt and India's China threat.",
-    "id": "gen_c12_ps_ch04_q11",
+    "id": "gen_c12_ps_ch04_q12",
     "nodeId": "c12_ps_cbse_04_008",
     "difficulty": "advanced"
    },
@@ -2149,7 +2226,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting the cliché uncritically fails to explain why India, Turkey, and Global South countries deepen ties with Russia — they value its *independent* pole in a multipolar order, not just its resources.",
-    "id": "gen_c12_ps_ch04_q12",
+    "id": "gen_c12_ps_ch04_q13",
     "nodeId": "c12_ps_cbse_04_008",
     "difficulty": "advanced"
    },
@@ -2164,7 +2241,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'European Union' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Maastricht used QMV for everything\") reveals the student doesn't grasp the deliberate two-track architecture: Community method for economics, intergovernmental for high politics.",
-    "id": "gen_c12_ps_ch04_q13",
+    "id": "gen_c12_ps_ch04_q14",
     "nodeId": "c12_ps_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2179,7 +2256,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'European Union' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Commission got stronger\") misses that the Commission's role *relative to the Council* weakened in the new intergovernmental pillars. This tests analytical distinction between supranational vs. intergovernmental institutional design.",
-    "id": "gen_c12_ps_ch04_q14",
+    "id": "gen_c12_ps_ch04_q15",
     "nodeId": "c12_ps_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2194,7 +2271,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'European Union' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"To create a European army for NATO\") misses the *functionalist* phrasing — the EDC was meant to *replace* national armies for European defence, not just coordinate them, mirroring ECSC's pooling of coal/steel.",
-    "id": "gen_c12_ps_ch04_q15",
+    "id": "gen_c12_ps_ch04_q16",
     "nodeId": "c12_ps_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2209,39 +2286,24 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'European Union' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"True, because of EU citizenship\") confuses *symbolic* citizenship (rights attached to national citizenship) with *federal* citizenship. This tests evaluative judgment on the federal/confederal spectrum.",
-    "id": "gen_c12_ps_ch04_q16",
-    "nodeId": "c12_ps_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did the 1957 Treaties of Rome create *two* communities (EEC and Euratom) instead of one?",
-    "answer": "The EEC focused on a general common market and customs union, while Euratom targeted nuclear energy cooperation",
-    "options": [
-     "Post-colonial Southeast Asian states had fragile sovereignty and diverse political systems (authoritarian, communist, democratic)",
-     "The argument is partially valid but incomplete. ASEAN centrality is indeed challenged by US-China competition (e",
-     "The EEC focused on a general common market and customs union, while Euratom targeted nuclear energy cooperation"
-    ],
-    "hint": "Straight from the 'European Union' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"EEC was for economics, Euratom for politics\") shows the student misses that both were *economic/technical* communities; the political pillar came only at Maastricht. This tests understanding of the \"Community method\" — sectoral integration first.",
     "id": "gen_c12_ps_ch04_q17",
     "nodeId": "c12_ps_cbse_04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A small Indian textile firm wants to export to Germany and France. Identify which EU institution sets the common external tariff the firm will face, and which EU body negotiates the trade agreement that could lower that tariff.",
-    "answer": "The common external tariff is set by the Council of the EU (on Commission proposal) as part of the Common Commercial Policy",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can sequentially explain the evolution from ECSC to Maastricht Treaty, identifying each treaty's year, core objective",
     "options": [
-     "The SEA's QMV made economic integration efficient, proving supranational decision-making works. But CFSP and JHA involved core state sovereignty (foreign policy, policing)",
-     "Consensus decision-making requires all 10 members to agree; Myanmar's junta blocks any condemnation",
-     "The common external tariff is set by the Council of the EU (on Commission proposal) as part of the Common Commercial Policy"
+     "Student can compare ASEAN's integration model with the EU across at least three dimensions (institutional structure, decision-making, economic integration depth)",
+     "The Household Responsibility System allowed peasant families to contract land from collectives, keep surplus output after meeting state quotas",
+     "The student can sequentially explain the evolution from ECSC to Maastricht Treaty, identifying each treaty's year, core objective"
     ],
     "hint": "Straight from the 'European Union' slide -- match the key terms.",
-    "misconception": "A wrong answer naming the European Parliament as the negotiator (it only approves/rejects final deals) or the WTO (which only provides the framework) indicates the student cannot map EU competences to real‑world trade scenarios.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can sequentially explain the evolution from ECSC to Maastricht Treaty, identifying each treaty's year, core",
     "id": "gen_c12_ps_ch04_q18",
-    "nodeId": "c12_ps_cbse_04_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_ps_cbse_04_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -2307,7 +2369,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Bangladesh War Of 1971 Was",
+    "title": "Bangladesh War Of 1971",
     "text": "The Bangladesh War of 1971 was a liberation conflict in which East Pakistan (supported by India) seceded from West Pakistan to form the independent state of Bangladesh, fundamentally altering South Asia's geopolitical balance and establishing India as the",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2661,8 +2723,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the official designation of India's 1974 nuclear test at Pokhran, and how did the Indian government characterize it internationally at that time?",
     "answer": "India's 1974 test was officially designated a \"Peaceful Nuclear Explosion\" (PNE), characterized as a civilian engineering experiment for excavation and earth-moving purposes",
     "options": [
+     "The eight countries are India, Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan",
      "SAARC was established in 1985 with the signing of the Dhaka Declaration in Dhaka, Bangladesh, by 7 founding members (India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan",
-     "The princely state was Jammu and Kashmir. Maharaja Hari Singh signed the Instrument of Accession on 26 October 1947, legally joining the state to the Dominion of India",
      "India's 1974 test was officially designated a \"Peaceful Nuclear Explosion\" (PNE), characterized as a civilian engineering experiment for excavation and earth-moving purposes"
     ],
     "hint": "Straight from the 'Nuclearization of India and' slide -- match the key terms.",
@@ -2804,17 +2866,47 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the treaty that governs sharing of the Indus river system waters between India and Pakistan, specify the year it was signed, and identify which international institution brokered it.",
-    "answer": "The Indus Waters Treaty (IWT) was signed in 1960 and brokered by the World Bank",
-    "options": [
-     "The seven countries are Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan. The guiding principle is the Gujral Doctrine (1996)",
-     "India's 1974 test was officially designated a \"Peaceful Nuclear Explosion\" (PNE), characterized as a civilian engineering experiment for excavation and earth-moving purposes",
-     "CA Treaty (IWT) was signed in 1960 and brokered by the World Bank",
-     "The Indus Waters Treaty (IWT) was signed in 1960 and brokered by the World Bank"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze how migration flows become",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "map at least three major water-sharing",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between territorial disputes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Conflicts over water, borders,' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., naming the Simla Agreement 1972 or the Ganges Treaty 1996) reveals the student conflates different bilateral agreements and does not grasp that the IWT is a unique, World Bank-mediated partition of river *basins* (eastern rivers to India, western rivers to Pakistan) rather than a water-*sharing*",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) map at least three major water-sharing disputes in South Asia and explain the legal/institutional",
     "id": "gen_c12_ps_ch05_q10",
     "nodeId": "c12_ps_cbse_05_010",
     "difficulty": "advanced",
@@ -3461,8 +3553,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Which of the following correctly matches the specialised agency with its primary mandate? a) UNESCO – Global trade rules and dispute settlement b) UNICEF – Coordinating international public health responses c) WHO – Protecting refugees and displaced persons d) UNHCR – Providing international protection to refugees and",
     "answer": "d) UNHCR – Providing international protection to refugees and seeking durable solutions. Explanation: UNHCR (UN High Commissioner for Refugees) is mandated to protect refugees",
     "options": [
-     "The P5 are USA, UK, France, Russia (successor to USSR), and China (represented by PRC since 1971). Veto power derives from Article 27(3) of the UN Charter",
-     "The ICJ consists of 15 judges elected for nine-year terms by an absolute majority in both the UN General Assembly and the UN Security Council",
+     "The student can explain at least three distinct reasons why states create international organisations (e",
+     "The four criteria are: (1) contribution to the maintenance of international peace and security, (2) contribution to the UN budget, (3) population size",
      "d) UNHCR – Providing international protection to refugees and seeking durable solutions. Explanation: UNHCR (UN High Commissioner for Refugees) is mandated to protect refugees"
     ],
     "hint": "Straight from the 'Specialised agencies' slide -- match the key terms.",
@@ -3649,8 +3741,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What is the composition of the International Court of Justice and how are judges elected?",
     "answer": "The ICJ consists of 15 judges elected for nine-year terms by an absolute majority in both the UN General Assembly and the UN Security Council",
     "options": [
-     "The primary reason is to overcome collective action problems — situations where individual states acting in their own self-interest produce outcomes worse for all (e",
-     "The P5 are USA, UK, France, Russia (successor to USSR), and China (represented by PRC since 1971). Veto power derives from Article 27(3) of the UN Charter",
+     "The four criteria are: (1) contribution to the maintenance of international peace and security, (2) contribution to the UN budget, (3) population size",
+     "Specialised agencies are autonomous international organisations linked to the United Nations through special agreements",
      "The ICJ consists of 15 judges elected for nine-year terms by an absolute majority in both the UN General Assembly and the UN Security Council"
     ],
     "hint": "Straight from the 'International Court of Justice' slide -- match the key terms.",
@@ -3911,6 +4003,52 @@ export const C12_PS_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate major criticisms",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish the IMF's crisis-management",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how quota-based voting gives",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) distinguish the IMF's crisis-management and surveillance role from the World Bank's long-term",
+    "id": "gen_c12_ps_ch06_q14",
+    "nodeId": "c12_ps_cbse_06_007",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A small island state faces rising sea levels due to climate change. It contributes negligible emissions but suffers disproportionate harm. Which function of international organisations is most directly relevant to this situation, and why?",
     "answer": "The most relevant function is providing a forum for negotiating burden-sharing agreements based on \"common but differentiated responsibilities\" (CBDR)",
@@ -3921,7 +4059,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'International organisations' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the IO will force big countries to pay\") reveals a misconception about enforcement: IOs facilitate negotiation and legitimise claims but lack independent coercive power; outcomes depend on state consent and political pressure.",
-    "id": "gen_c12_ps_ch06_q14",
+    "id": "gen_c12_ps_ch06_q15",
     "nodeId": "c12_ps_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3936,7 +4074,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'International organisations' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both work the same way\") misses the critical distinction between security organisations (where power trumps law) and economic organisations (where legal equality is the norm).",
-    "id": "gen_c12_ps_ch06_q15",
+    "id": "gen_c12_ps_ch06_q16",
     "nodeId": "c12_ps_cbse_06_001",
     "difficulty": "standard"
    },
@@ -3951,36 +4089,21 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'International organisations' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The argument overlooks three key functions: (1) IOs reduce transaction costs of repeated negotiations by providing",
-    "id": "gen_c12_ps_ch06_q16",
-    "nodeId": "c12_ps_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary reason states establish international organisations, according to the collective-action perspective?",
-    "answer": "The primary reason is to overcome collective action problems — situations where individual states acting in their own self-interest produce outcomes worse for all (e",
-    "options": [
-     "The ICJ consists of 15 judges elected for nine-year terms by an absolute majority in both the UN General Assembly and the UN Security Council",
-     "India, Brazil, Germany, Japan",
-     "The primary reason is to overcome collective action problems — situations where individual states acting in their own self-interest produce outcomes worse for all (e"
-    ],
-    "hint": "Straight from the 'International organisations' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"to create a world government\" or \"to replace state sovereignty\") reveals a confusion between supranational authority and intergovernmental cooperation — the student conflates pooling sovereignty with surrendering it.",
     "id": "gen_c12_ps_ch06_q17",
     "nodeId": "c12_ps_cbse_06_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why does globalisation increase the demand for international organisations rather than decrease it?",
-    "answer": "Globalisation intensifies cross-border flows (capital, pollutants, pathogens, information) which creates new externalities and interdependencies that no single state can",
+    "question": "What is International organisations? State the definition given in this lesson.",
+    "answer": "International organisations are formal institutions created by states through treaties to facilitate cooperation on transnational issues that exceed the capacity of any single",
     "options": [
-     "UfC (led by Italy, Pakistan, South Korea, Canada, etc.) argues that adding permanent members entrenches privilege and undermines sovereign equality",
-     "The argument is *necessary but insufficient*. Peacekeeping (criterion 1) is India's strongest claim — 2,75,000+ troops since 1948, highest cumulative",
-     "Globalisation intensifies cross-border flows (capital, pollutants, pathogens, information) which creates new externalities and interdependencies that no single state can"
+     "The four criteria are: (1) contribution to the maintenance of international peace and security, (2) contribution to the UN budget, (3) population size",
+     "The student can explain the dual jurisdiction of the ICJ (contentious and advisory), identify the sources of international law under Article 38 of the ICJ Statute",
+     "International organisations are formal institutions created by states through treaties to facilitate cooperation on transnational issues that exceed the capacity of any single"
     ],
     "hint": "Straight from the 'International organisations' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"globalisation makes states more powerful so they don't need IOs\") shows the student misses the core paradox: greater interdependence reduces unilateral control, increasing the need for multilateral institutions.",
+    "misconception": "Recheck the lesson slide -- the key claim is: International organisations are formal institutions created by states through treaties to facilitate cooperation on",
     "id": "gen_c12_ps_ch06_q18",
     "nodeId": "c12_ps_cbse_06_001",
     "difficulty": "standard"
@@ -4004,7 +4127,9 @@ export const C12_PS_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "physical education",
   "topic": "Traditional Notions Of Security",
-  "chapters": ["Physical Education Ch7: Traditional Notions Of Security"],
+  "chapters": [
+   "Physical Education Ch7: Traditional Notions Of Security"
+  ],
   "nodeIds": [
    "c12_ps_cbse_07_001",
    "c12_ps_cbse_07_002",
@@ -4041,7 +4166,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Deterrence",
+    "title": "Deterrence Is a Security Strategy Where",
     "text": "Deterrence is a security strategy where a state prevents an adversary from taking an unwanted action (such as a military attack) by threatening a retaliatory response that would impose unacceptable costs.",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4053,7 +4178,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Terrorism",
+    "title": "Terrorism Is a Non-traditional Security",
     "text": "Terrorism is a non-traditional security threat involving the systematic use of violence or threat of violence by non-state actors against civilians or symbolic targets to create fear, coerce governments, or achieve political, ideological, or religious",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4320,8 +4445,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What are the two main pillars of human security as defined in the UNDP 1994 Human Development Report?",
     "answer": "The two pillars are \"freedom from fear\" (protection from violence, conflict, human rights abuses) and \"freedom from want\" (protection from hunger, disease, poverty",
     "options": [
-     "Environmental security is the protection from threats arising from environmental degradation and resource scarcity that can trigger conflict and instability",
-     "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity",
+     "Balancing state security with human security refers to the policy challenge of reconciling the traditional state-centric focus on territorial integrity, sovereignty",
+     "The human security framework argues that the referent object of security should be the individual, not the state, and that threats like pandemics cause massive loss of life",
      "The two pillars are \"freedom from fear\" (protection from violence, conflict, human rights abuses) and \"freedom from want\" (protection from hunger, disease, poverty"
     ],
     "hint": "Straight from the 'Human security' slide -- match the key terms.",
@@ -4341,8 +4466,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Define \"environmental security\" and name the 1994 UNDP report that first popularized the human security framework including its environmental dimension.",
     "answer": "Environmental security is the protection from threats arising from environmental degradation and resource scarcity that can trigger conflict and instability",
     "options": [
-     "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity",
-     "The two core components are 'freedom from want' (covering economic, food, health, and environmental security) and 'freedom from fear' (covering personal, community",
+     "The student can explain the shift from state-centric military security to people-centric human security",
+     "Human security is a people-centred paradigm that shifts the referent object of security from the state to the individual",
      "Environmental security is the protection from threats arising from environmental degradation and resource scarcity that can trigger conflict and instability"
     ],
     "hint": "Straight from the 'Environmental security' slide -- match the key terms.",
@@ -4362,8 +4487,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What is the core argument of the human security framework that justifies treating health pandemics as a security issue?",
     "answer": "The human security framework argues that the referent object of security should be the individual, not the state, and that threats like pandemics cause massive loss of life",
     "options": [
-     "Environmental security is the protection from threats arising from environmental degradation and resource scarcity that can trigger conflict and instability",
-     "The two pillars are \"freedom from fear\" (protection from violence, conflict, human rights abuses) and \"freedom from want\" (protection from hunger, disease, poverty",
+     "Student can explain the tension between state security and human security using a concrete Indian example (e",
+     "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity",
      "The human security framework argues that the referent object of security should be the individual, not the state, and that threats like pandemics cause massive loss of life"
     ],
     "hint": "Straight from the 'Health pandemics, poverty, and' slide -- match the key terms.",
@@ -4584,8 +4709,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Define traditional security and name its two main categories of threats with one example each from the Indian context.",
     "answer": "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity",
     "options": [
-     "The primary dispute is over the erstwhile princely state of Jammu & Kashmir. UN Security Council Resolution 47 (1948) called for a plebiscite after Pakistani withdrawal and Indian",
-     "The two pillars are \"freedom from fear\" (protection from violence, conflict, human rights abuses) and \"freedom from want\" (protection from hunger, disease, poverty",
+     "The student can distinguish between external and internal threats in the traditional security framework, explain why the state is the central referent object",
+     "Health pandemics, poverty, and food security are non-traditional security threats that endanger the survival and well-being of individuals and communities by creating widespread",
      "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity"
     ],
     "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
@@ -4641,23 +4766,23 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare and contrast the Cold War US-Soviet MAD relationship with the India-Pakistan nuclear dyad. Identify two structural differences that make the South Asian deterrence relationship less stable.",
-    "answer": "Two key differences: (1) Geography and warning time — India and Pakistan share a contiguous border with flight times of 5-10 minutes for missiles",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can distinguish between external and internal threats in the traditional security framework, explain why the state is the central referent object",
     "options": [
-     "Against a military attack, the state mobilises borders, army, and alliances — exercising traditional sovereignty",
-     "State-sponsored terrorism uses non-state proxies to wage asymmetric war while maintaining plausible deniability",
-     "Two key differences: (1) Geography and warning time — India and Pakistan share a contiguous border with flight times of 5-10 minutes for missiles"
+     "The student can explain the three core requirements of credible nuclear deterrence (capability, credibility, communication)",
+     "Non-traditional security threats are challenges to survival and well-being from non-military sources like pandemics, climate change, terrorism, transnational crime, and poverty",
+     "The student can distinguish between external and internal threats in the traditional security framework, explain why the state is the central referent object"
     ],
-    "hint": "Straight from the 'Deterrence' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both have nuclear weapons so it's the same\") reveals the student overlooks how geography, technology, and institutional depth critically affect deterrence stability.",
+    "hint": "Straight from the 'Traditional notions of security' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can distinguish between external and internal threats in the traditional security framework, explain why",
     "id": "gen_c12_ps_ch07_q18",
-    "nodeId": "c12_ps_cbse_07_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_ps_cbse_07_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about traditional notions of security refer to?",
+    "What surprised you about traditional notions of security?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -4715,7 +4840,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Integration Of Princely States",
+    "title": "Integration Of Princely",
     "text": "The integration of princely states refers to the political and diplomatic process (1947–1949) through which 565 semi-sovereign princely states — covering one-third of British India's land area and housing one-fourth of its population — acceded to the Dominion",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4739,25 +4864,25 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Nehru's Vision Of Nation-building Was",
+    "title": "Nehru's Vision Of Nation-building",
     "text": "Nehru's vision of nation-building was a comprehensive framework for post-colonial India centred on four pillars: (1) secular democracy — a state equidistant from all religions guaranteeing equal citizenship regardless of faith (Articles 14–15, 25–28); (2)",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Bharatiya Jana Sangh Was",
+    "title": "Bharatiya Jana Sangh",
     "text": "The Bharatiya Jana Sangh (BJS) was a right-wing nationalist political party founded in 1951 by Dr. Shyama Prasad Mukherjee, with ideological roots in the Rashtriya Swayamsevak Sangh (RSS) and the pre-independence Hindu Mahasabha.",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Linguistic Reorganisation Of States",
+    "title": "Linguistic Reorganisation",
     "text": "Linguistic reorganisation of states refers to the process of redrawing internal boundaries of Indian states along linguistic lines, formalised through the States Reorganisation Act, 1956, based on the recommendation of the States Reorganisation Commission",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Planning Commission Was",
+    "title": "Planning Commission",
     "text": "The Planning Commission (established 1950) was an extra-constitutional body chaired by the Prime Minister that formulated India's Five-Year Plans to guide centralized economic planning, resource allocation, and industrial strategy based on the Directive",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4787,8 +4912,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the 'two-nation theory' and which organisation formally advanced it as the basis for demanding Pakistan?",
     "answer": "The two-nation theory, advanced by the Muslim League (formally at the 1940 Lahore Resolution), argued that Hindus and Muslims are two distinct nations with separate cultures",
     "options": [
-     "Potti Sriramulu's 56-day fast unto death (19 October – 15 December 1952) and the subsequent violent unrest in the Telugu-speaking areas compelled Prime Minister Nehru to announce",
-     "The Planning Commission was established by a Cabinet Resolution (not a constitutional amendment) in March 1950 to operationalize Articles 38 (secure a social order for welfare)",
+     "The student can explain the three-pronged strategy (popular will, flexible autonomy, territorial imperative) that guided Patel's integration policy",
+     "The Standstill Agreement was a temporary arrangement whereby the Government of India agreed to maintain the existing administrative, postal, telegraphic",
      "The two-nation theory, advanced by the Muslim League (formally at the 1940 Lahore Resolution), argued that Hindus and Muslims are two distinct nations with separate cultures"
     ],
     "hint": "Straight from the 'Partition of India' slide -- match the key terms.",
@@ -4945,8 +5070,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the immediate trigger that led Maharaja Hari Singh to sign the Instrument of Accession on 26 October 1947?",
     "answer": "The immediate trigger was the invasion of Kashmir by Pakistani tribal militias (supported by the Pakistani army) on 22 October 1947, which threatened Srinagar",
     "options": [
-     "Article 15 (prohibition of discrimination on grounds of religion, race, caste, sex, place of birth) read with Articles 25–28 (freedom of religion)",
-     "The Planning Commission was established by a Cabinet Resolution (not a constitutional amendment) in March 1950 to operationalize Articles 38 (secure a social order for welfare)",
+     "The Indian Independence Act, 1947 declared that British paramountcy over princely states would lapse, making them legally independent sovereign entities free to accede to India",
+     "The student can explain the three-pronged strategy (popular will, flexible autonomy, territorial imperative) that guided Patel's integration policy",
      "The immediate trigger was the invasion of Kashmir by Pakistani tribal militias (supported by the Pakistani army) on 22 October 1947, which threatened Srinagar"
     ],
     "hint": "Straight from the 'Kashmir Question' slide -- match the key terms.",
@@ -5018,8 +5143,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Which constitutional provision did Nehru cite most directly to justify that India would not become a \"Hindu Pakistan\" after Partition?",
     "answer": "Article 15 (prohibition of discrimination on grounds of religion, race, caste, sex, place of birth) read with Articles 25–28 (freedom of religion)",
     "options": [
+     "Student can: (1) explain the scale and causes of Partition-induced displacement using demographic and territorial logic",
      "The Standstill Agreement was a temporary arrangement whereby the Government of India agreed to maintain the existing administrative, postal, telegraphic",
-     "The Planning Commission was established by a Cabinet Resolution (not a constitutional amendment) in March 1950 to operationalize Articles 38 (secure a social order for welfare)",
      "Article 15 (prohibition of discrimination on grounds of religion, race, caste, sex, place of birth) read with Articles 25–28 (freedom of religion)"
     ],
     "hint": "Straight from the 'Nehru's vision of nation-building' slide -- match the key terms.",
@@ -5327,17 +5452,47 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What was the estimated number of people forced to migrate across the new India-Pakistan border during Partition (1947–1948), and what was the estimated death toll from Partition-related violence?",
-    "answer": "Approximately 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed",
-    "options": [
-     "The Standstill Agreement was a temporary arrangement whereby the Government of India agreed to maintain the existing administrative, postal, telegraphic",
-     "The Indian Independence Act, 1947 declared that British paramountcy over princely states would lapse, making them legally independent sovereign entities free to accede to India",
-     "Bandung 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed",
-     "Approximately 80 lakh (8 million) people migrated; 5–10 lakh (500,000–1,000,000) killed"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate how the refugee crisis tested",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the scale and causes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "analyze the Indian state's rehabilitation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Partition of India  triggered' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"10 lakh migrated, 1 lakh died\") reveals the student underestimates the scale of the humanitarian crisis, which is critical for understanding the administrative and moral burden on the nascent Indian state.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) explain the scale and causes of Partition-induced displacement using demographic and territorial",
     "id": "gen_c12_ps_ch08_q12",
     "nodeId": "c12_ps_cbse_08_010",
     "difficulty": "advanced",
@@ -5627,7 +5782,7 @@ export const C12_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "White Revolution Was",
+    "title": "White Revolution",
     "text": "The White Revolution (Operation Flood) was a landmark dairy development programme launched in 1970 by the National Dairy Development Board (NDDB) under Verghese Kurien, which transformed India from a milk-deficient nation into the world's largest milk",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5708,16 +5863,47 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What was the core sectoral priority of the Second Five Year Plan as distinct from the First Plan?",
-    "answer": "The Second Plan prioritised heavy industries (capital goods sector: steel, machinery, machine tools) while the First Plan prioritised agriculture, irrigation, and power",
-    "options": [
-     "The three main components were: (1) Abolition of intermediaries (zamindars, jagirdars, inamdars) to establish direct state-cultivator link",
-     "It refers to the strategic sectors — iron and steel, heavy machinery, machine tools, heavy electricals, coal, mineral oils, railways, air transport",
-     "The Second Plan prioritised heavy industries (capital goods sector: steel, machinery, machine tools) while the First Plan prioritised agriculture, irrigation, and power"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the mathematical logic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "link the model to the Second Plan's policy",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'The Mahalanobis Model, formulated' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., 'both plans focused on agriculture') reveals confusion between the 'hasten slowly' agrarian strategy of the First Plan and the 'rapid structural transformation' industrial strategy of the Second.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain the mathematical logic of the Mahalanobis two-sector model (allocation of investment",
     "id": "gen_c12_ps_ch10_q3",
     "nodeId": "c12_ps_cbse_10_003",
     "difficulty": "advanced",
@@ -5837,8 +6023,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What were the three categories of industries established by the Industrial Policy Resolution of 1956, and which schedule listed industries exclusively reserved for the public sector?",
     "answer": "The IPR 1956 classified industries into: Schedule A (17 industries exclusively public sector: arms, atomic energy, iron & steel, heavy machinery, etc",
     "options": [
-     "The Plan identified the pattern of land distribution (highly unequal, zamindari system) as the principal obstacle and proposed land reforms",
-     "The First Plan identified the pattern of land distribution (feudal landlordism, tenant insecurity) as the principal obstacle and proposed land reforms (abolition of",
+     "The student can (1) explain the mathematical logic of the Mahalanobis two-sector model (allocation of investment between capital goods and consumption goods sectors to maximise",
+     "Student can: (1) Distinguish the three pillars of land reforms (intermediary abolition, tenancy reform, ceiling laws) and explain the sequential logic linking them",
      "The IPR 1956 classified industries into: Schedule A (17 industries exclusively public sector: arms, atomic energy, iron & steel, heavy machinery, etc"
     ],
     "hint": "Straight from the 'mixed economy model adopted by' slide -- match the key terms.",
@@ -5906,16 +6092,47 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "REMEMBER: Who drafted the Bombay Plan (1944) and what was its central demand regarding the state’s role in the economy?",
-    "answer": "A group of leading Indian industrialists (J.R.D. Tata, G.D. Birla, Lala Shri Ram, etc.) drafted the Bombay Plan",
-    "options": [
-     "A strong answer links: (1) land reforms → higher peasant incomes → demand for industrial goods",
-     "The Mahalanobis model's core logic was structural, not merely ideological: in a closed economy with scarce foreign exchange",
-     "A group of leading Indian industrialists (J.R.D. Tata, G.D. Birla, Lala Shri Ram, etc.) drafted the Bombay Plan"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "contrast the First Plan’s agrarian focus",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain the Bombay Plan’s key proposals",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "identify at least three distinct critiques",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Bombay Plan  was a' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A group of leading Indian industrialists (J.R.D. Tata, G.D. Birla, Lala Shri Ram, etc.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) explain the Bombay Plan’s key proposals and why industrialists supported state planning; (2)",
     "id": "gen_c12_ps_ch10_q8",
     "nodeId": "c12_ps_cbse_10_008",
     "difficulty": "standard",
@@ -5931,8 +6148,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What does the phrase \"commanding heights of the economy\" specifically refer to in the context of India's Second Five Year Plan?",
     "answer": "It refers to the strategic sectors — iron and steel, heavy machinery, machine tools, heavy electricals, coal, mineral oils, railways, air transport",
     "options": [
-     "The three main components were: (1) Abolition of intermediaries (zamindars, jagirdars, inamdars) to establish direct state-cultivator link",
-     "The Second Plan prioritised heavy industries (capital goods sector: steel, machinery, machine tools) while the First Plan prioritised agriculture, irrigation, and power",
+     "Student can explain the technological package, state policy framework, and political economy of the Green Revolution",
+     "Student can explain the core theoretical and political differences between the First and Second Five Year Plan strategies, identify the key architects (K.N",
      "It refers to the strategic sectors — iron and steel, heavy machinery, machine tools, heavy electricals, coal, mineral oils, railways, air transport"
     ],
     "hint": "Straight from the '\"Commanding Heights\" argument' slide -- match the key terms.",
@@ -5952,11 +6169,11 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the core institutional innovation of Operation Flood that distinguished it from the Green Revolution's delivery model?",
     "answer": "Operation Flood built a three-tier cooperative structure (village society → district union → state federation) owned and governed by milk producers themselves",
     "options": [
-     "The Plan identified the pattern of land distribution (highly unequal, zamindari system) as the principal obstacle and proposed land reforms",
-     "The Second Plan prioritised heavy industries (capital goods sector: steel, machinery, machine tools) while the First Plan prioritised agriculture, irrigation, and power",
+     "Student can explain the technological package, state policy framework, and political economy of the Green Revolution",
+     "The student can explain why agriculture was chosen as the primary focus of the First Plan over industry, identify the specific institutional mechanisms (land reforms",
      "Operation Flood built a three-tier cooperative structure (village society → district union → state federation) owned and governed by milk producers themselves"
     ],
-    "hint": "Straight from the 'White Revolution  was' slide -- match the key terms.",
+    "hint": "Straight from the 'White Revolution' slide -- match the key terms.",
     "misconception": "A wrong answer — e.g., \"both used cooperatives\" or \"both were state-run\" — reveals the student conflates *state-led input delivery* with *producer-owned collective enterprise*, missing the fundamental shift in agency from bureaucrats to rural producers.",
     "id": "gen_c12_ps_ch10_q10",
     "nodeId": "c12_ps_cbse_10_010",
@@ -6118,6 +6335,52 @@ export const C12_PS_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyze why implementation varied",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Distinguish the three pillars of land",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Evaluate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Distinguish the three pillars of land reforms (intermediary abolition, tenancy reform, ceiling laws)",
+    "id": "gen_c12_ps_ch10_q14",
+    "nodeId": "c12_ps_cbse_10_007",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A state government wants to launch a massive irrigation dam project. It asks the Planning Commission for funds. The Commission includes it in the Five Year Plan. Explain the budgetary mechanism that allows this project to be funded differently from routine expenditure like salaries of government employees.",
     "answer": "The central and state budgets are split into 'plan budget' and 'non-plan budget'. The dam project, as a planned development priority",
@@ -6128,7 +6391,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Planning Commission was a' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student says \"the Planning Commission releases funds directly,\" they misunderstand its advisory role — it allocates plan *outlays*, but actual fund release is by the Finance Ministry.",
-    "id": "gen_c12_ps_ch10_q14",
+    "id": "gen_c12_ps_ch10_q15",
     "nodeId": "c12_ps_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6143,7 +6406,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Planning Commission was a' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says \"it was weak because advisory,\" they ignore fiscal federalism realities.",
-    "id": "gen_c12_ps_ch10_q15",
+    "id": "gen_c12_ps_ch10_q16",
     "nodeId": "c12_ps_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6158,7 +6421,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Planning Commission was a' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says \"industrialists opposed planning,\" they project Western liberal assumptions onto India.",
-    "id": "gen_c12_ps_ch10_q16",
+    "id": "gen_c12_ps_ch10_q17",
     "nodeId": "c12_ps_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6173,23 +6436,8 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Planning Commission was a' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student cites Article 38 (general welfare) or Article 41 (right to work), they have not distinguished the specific distributive justice clauses that directly shaped planning's anti-concentration mandate.",
-    "id": "gen_c12_ps_ch10_q17",
-    "nodeId": "c12_ps_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the First Plan's approach to raising national income (pushing up savings) with the standard Keynesian prescription for a poor economy. Why did the planners reject deficit financing or consumption reduction as options?",
-    "answer": "The First Plan recognised that consumption was already at subsistence level (could not be reduced) and capital stock was too low for deficit financing to generate real output",
-    "options": [
-     "The First Plan's 'hasten slowly' sought to avoid foreign exchange crises by limiting import-intensive projects",
-     "(a) First Plan: agriculture, irrigation, dams (Bhakra-Nangal); Second Plan: heavy industry, machine-building, steel (Bhilai, Rourkela, Durgapur)",
-     "The First Plan recognised that consumption was already at subsistence level (could not be reduced) and capital stock was too low for deficit financing to generate real output"
-    ],
-    "hint": "Straight from the 'First Five Year Plan' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"they followed Keynesian demand management\") reveals confusion between developed-economy macroeconomics and the structural constraints of a post-colonial agrarian economy where the savings-investment gap is a supply-side, not demand-side, problem.",
     "id": "gen_c12_ps_ch10_q18",
-    "nodeId": "c12_ps_cbse_10_002",
+    "nodeId": "c12_ps_cbse_10_001",
     "difficulty": "standard"
    }
   ],
@@ -6199,7 +6447,7 @@ export const C12_PS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Planning Commission Was a mastered! 🎯",
+  "successLine": "Planning Commission Was mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6211,7 +6459,9 @@ export const C12_PS_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "physical education",
   "topic": "Nehru's Foreign Policy",
-  "chapters": ["Physical Education Ch11: Nehru's Foreign Policy"],
+  "chapters": [
+   "Physical Education Ch11: Nehru's Foreign Policy"
+  ],
   "nodeIds": [
    "c12_ps_cbse_11_001",
    "c12_ps_cbse_11_002",
@@ -6360,8 +6610,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What were the two military alliance systems that divided the world during the early Cold War, and which one did Pakistan join?",
     "answer": "The two alliances were the US-led NATO (1949) and the Soviet-led Warsaw Pact (1955). Pakistan joined the US-led camp through SEATO (1954) and CENTO (1955)",
     "options": [
+     "India refused to join the US-led NATO (North Atlantic Treaty Organisation) and the USSR-led Warsaw Pact",
      "The immediate trigger was the Pakistani junta's refusal to transfer power to the Awami League despite its absolute majority in the 1970 general elections (167/169 East Pakistan",
-     "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development",
      "The two alliances were the US-led NATO (1949) and the Soviet-led Warsaw Pact (1955). Pakistan joined the US-led camp through SEATO (1954) and CENTO (1955)"
     ],
     "hint": "Straight from the 'Non-Aligned Movement' slide -- match the key terms.",
@@ -6457,10 +6707,9 @@ export const C12_PS_GEN: SimDef[] = [
     "options": [
      "Sample principles: (1) Mutual respect for sovereignty and maritime boundaries — *prevents territorial disputes like Aksai‑chin*",
      "Neutrality implies staying out of conflicts entirely and treating all sides equally (like Switzerland in WWII)",
-     "The Tashkent Agreement was signed on 10 January 1966 by Indian Prime Minister Reform UNSC and Pakistani President Ayub Khan",
      "The Tashkent Agreement was signed on 10 January 1966 by Indian Prime Minister Lal Bahadur Shastri and Pakistani President Ayub Khan"
     ],
-    "hint": "Straight from the 'India-Pakistan wars of 1965 and' slide -- match the key terms.",
+    "hint": "Straight from the 'India-Pakistan wars of 1965' slide -- match the key terms.",
     "misconception": "A wrong answer — such as naming 1972, Indira Gandhi, or the USA as broker — reveals confusion with the Shimla Agreement or a misunderstanding of Cold War mediation roles. It also indicates the student cannot distinguish the two major post-war diplomatic events.",
     "id": "gen_c12_ps_ch11_q4",
     "nodeId": "c12_ps_cbse_11_004",
@@ -6477,8 +6726,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What were the two military blocs India refused to join during the Cold War, and which superpower led each bloc?",
     "answer": "India refused to join the US-led NATO (North Atlantic Treaty Organisation) and the USSR-led Warsaw Pact",
     "options": [
-     "The three objectives were: preserving sovereignty, protecting territorial integrity, and promoting rapid economic development",
-     "The immediate trigger was the Pakistani junta's refusal to transfer power to the Awami League despite its absolute majority in the 1970 general elections (167/169 East Pakistan",
+     "The dissolution of the Soviet Union in December 1991 ended bipolarity, removed India's primary security guarantor and arms supplier",
+     "India's Cold War diplomacy refers to the strategic balancing act (1947–1991) where India, under Nehru and successors, refused to join either the US-led Western bloc (NATO, SEATO",
      "India refused to join the US-led NATO (North Atlantic Treaty Organisation) and the USSR-led Warsaw Pact"
     ],
     "hint": "Straight from the 'India's Cold War diplomacy' slide -- match the key terms.",
@@ -6498,8 +6747,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What were the three major objectives of Nehru's foreign policy, and how did the nuclear programme initiated under Homi Bhabha in the late 1940s align with these objectives?",
     "answer": "The three objectives were: preserving sovereignty, protecting territorial integrity, and promoting rapid economic development",
     "options": [
-     "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development",
-     "Article 51 of the Constitution (Directive Principles of State Policy) directs the State to: (a) promote international peace and security",
+     "The student can explain how India translated its anti-colonial struggle into a foreign policy doctrine supporting decolonisation",
+     "The student can (1) articulate the three objectives of Nehru's foreign policy and explain how non‑alignment served them",
      "The three objectives were: preserving sovereignty, protecting territorial integrity, and promoting rapid economic development"
     ],
     "hint": "Straight from the 'India's Nuclear Policy' slide -- match the key terms.",
@@ -6571,8 +6820,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Which constitutional provision forms the philosophical basis for India's neighbourhood policy, and what are its four specific directives?",
     "answer": "Article 51 of the Constitution (Directive Principles of State Policy) directs the State to: (a) promote international peace and security",
     "options": [
-     "The dissolution of the Soviet Union in December 1991 ended bipolarity, removed India's primary security guarantor and arms supplier",
-     "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development",
+     "India's neighbourhood policy refers to the set of principles and strategies guiding its political, economic, and security engagement with immediate neighbours (Afghanistan",
+     "India's Nuclear Policy refers to the evolving framework guiding India's development, testing, and deployment of nuclear technology",
      "Article 51 of the Constitution (Directive Principles of State Policy) directs the State to: (a) promote international peace and security"
     ],
     "hint": "Straight from the 'India's neighbourhood policy' slide -- match the key terms.",
@@ -6644,8 +6893,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the primary objective of the Asian Relations Conference convened by India in March 1947, five months before formal independence?",
     "answer": "The Asian Relations Conference (March 1947) aimed to forge unity among Asian nations against colonialism and discuss common problems of reconstruction, cultural revival",
     "options": [
-     "The two alliances were the US-led NATO (1949) and the Soviet-led Warsaw Pact (1955). Pakistan joined the US-led camp through SEATO (1954) and CENTO (1955)",
-     "The three objectives were: preserving sovereignty, protecting territorial integrity, and promoting rapid economic development",
+     "Student can explain the evolution of India's neighbourhood policy from Nehru's non-alignment to the Gujral Doctrine and Neighbourhood First policy",
+     "The student can explain how India translated its anti-colonial struggle into a foreign policy doctrine supporting decolonisation",
      "The Asian Relations Conference (March 1947) aimed to forge unity among Asian nations against colonialism and discuss common problems of reconstruction, cultural revival"
     ],
     "hint": "Straight from the 'India's Policy towards the Global' slide -- match the key terms.",
@@ -6729,6 +6978,63 @@ export const C12_PS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "analyse the Bandung Conference",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "define the five Panchsheel principles",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "articulate the three objectives of Nehru's",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) articulate the three objectives of Nehru's foreign policy and explain how non‑alignment served",
+    "id": "gen_c12_ps_ch11_q12",
+    "nodeId": "c12_ps_cbse_11_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Create a diplomatic note (150 words) that Prime Minister Nehru might have written to Zhou Enlai in January 1963, after the ceasefire, proposing a mechanism to prevent future border clashes — incorporating lessons from the war.",
     "sortItems": [
      {
@@ -6791,8 +7097,65 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer repeats \"peaceful coexistence\" slogans without concrete mechanisms (DMZ, commission, verification), showing inability to translate principles into operational diplomacy.",
-    "id": "gen_c12_ps_ch11_q12",
+    "id": "gen_c12_ps_ch11_q13",
     "nodeId": "c12_ps_cbse_11_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the causal chain from Pakistan's",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate whether India's actions aligned",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "analyze the Shimla Agreement's significance",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "connect",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) explain the causal chain from Pakistan's 1970 election crisis to the refugee influx, Indo-Soviet",
+    "id": "gen_c12_ps_ch11_q14",
+    "nodeId": "c12_ps_cbse_11_007",
     "difficulty": "advanced"
    },
    {
@@ -6804,9 +7167,9 @@ export const C12_PS_GEN: SimDef[] = [
      "Non-alignment required evaluating each case on its merits. The Suez invasion was a clear neo-colonial act by former imperial powers against a newly sovereign nation",
      "Advice: Refuse the military alliance; instead, build diplomatic ties with all nations and seek economic cooperation without strategic strings"
     ],
-    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Nehru's foreign policy' slide -- match the key terms.",
     "misconception": "A wrong answer that suggests \"join the treaty for security\" ignores that Nehru viewed military alliances as *increasing* vulnerability by making the country a target for the rival bloc.",
-    "id": "gen_c12_ps_ch11_q13",
+    "id": "gen_c12_ps_ch11_q15",
     "nodeId": "c12_ps_cbse_11_001",
     "difficulty": "advanced"
    },
@@ -6819,9 +7182,9 @@ export const C12_PS_GEN: SimDef[] = [
      "(a) Tashkent: Soviet-mediated (Kosygin); Shimla: bilateral, no third party — India insisted on bilateralism after 1965 experience",
      "Bandung (1955) was the *political* birth of Afro‑Asian solidarity — 29 nations condemned colonialism/racism, adopted the Ten Principles (incorporating Panchsheel)"
     ],
-    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Nehru's foreign policy' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as identical events misses the evolution from *regional moral consensus* to *global political grouping*.",
-    "id": "gen_c12_ps_ch11_q14",
+    "id": "gen_c12_ps_ch11_q16",
     "nodeId": "c12_ps_cbse_11_001",
     "difficulty": "advanced"
    },
@@ -6834,9 +7197,9 @@ export const C12_PS_GEN: SimDef[] = [
      "Successes: Bangladesh Land Boundary Agreement (2015), cross-border rail/power links, COVID vaccine diplomacy (Vaccine Maitri)",
      "Sample principles: (1) Mutual respect for sovereignty and maritime boundaries — *prevents territorial disputes like Aksai‑chin*"
     ],
-    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Nehru's foreign policy' slide -- match the key terms.",
     "misconception": "A poor answer copies the 1954 text verbatim without adapting to *new threats*, showing inability to transfer the *underlying logic* to novel contexts.",
-    "id": "gen_c12_ps_ch11_q15",
+    "id": "gen_c12_ps_ch11_q17",
     "nodeId": "c12_ps_cbse_11_001",
     "difficulty": "advanced"
    },
@@ -6849,38 +7212,8 @@ export const C12_PS_GEN: SimDef[] = [
      "India signed the treaty to counter the emerging US-Pakistan-China axis (Henry Kissinger's secret visit to China via Pakistan in July 1971) which threatened a two-front war",
      "It *hindered* immediate military interests: non‑alignment meant no guaranteed military ally"
     ],
-    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Nehru's foreign policy' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: It *hindered* immediate military interests: non‑alignment meant no guaranteed military ally; when China attacked, the",
-    "id": "gen_c12_ps_ch11_q16",
-    "nodeId": "c12_ps_cbse_11_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What were the three major objectives of Nehru's foreign policy as stated in the NCERT text? (Recall only)",
-    "answer": "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development",
-    "options": [
-     "The three objectives were: preserving sovereignty, protecting territorial integrity, and promoting rapid economic development",
-     "Article 51 of the Constitution (Directive Principles of State Policy) directs the State to: (a) promote international peace and security",
-     "The three objectives were: (1) preserve hard‑earned sovereignty, (2) protect territorial integrity, and (3) promote rapid economic development"
-    ],
-    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"spread democracy\" or \"join the US bloc\") reveals the student has not distinguished Nehru's *national interest* framework from ideological preferences of domestic groups like the Jan Sangh or Ambedkar's view.",
-    "id": "gen_c12_ps_ch11_q17",
-    "nodeId": "c12_ps_cbse_11_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did Nehru choose non‑alignment instead of joining either the US‑led or Soviet‑led bloc during the Cold War? Explain using the concepts of sovereignty and economic development.",
-    "answer": "Nehru avoided blocs because joining one would compromise India's sovereignty (foreign relations would be \"in the charge of somebody else\") and limit access to aid/technology from",
-    "options": [
-     "India signed the treaty to counter the emerging US-Pakistan-China axis (Henry Kissinger's secret visit to China via Pakistan in July 1971) which threatened a two-front war",
-     "India convened the 1949 conference to pressure the Netherlands to recognise Indonesian sovereignty",
-     "Nehru avoided blocs because joining one would compromise India's sovereignty (foreign relations would be \"in the charge of somebody else\") and limit access to aid/technology from"
-    ],
-    "hint": "Straight from the 'Nehru's foreign policy  was a' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates non‑alignment with \"neutrality\" or \"isolationism\" shows the student misses the *active, independent judgment* dimension — India took positions on issues (condemning Suez invasion, not condemning Hungary) rather than staying silent.",
     "id": "gen_c12_ps_ch11_q18",
     "nodeId": "c12_ps_cbse_11_001",
     "difficulty": "advanced"
@@ -6888,7 +7221,7 @@ export const C12_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about nehru's foreign policy was a?",
+    "What surprised you about nehru's foreign policy?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -7003,8 +7336,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "Define a party-based movement and give one example from Indian politics post-1970s.",
     "answer": "A party-based movement is directly organized, led, or controlled by a political party, using party resources and cadre",
     "options": [
-     "The 73rd Constitutional Amendment Act, 1992 (Article 243D) mandates reservation of not less than one-third of seats for women in Panchayats at all three tiers",
-     "BKU was formally founded in 1986; its most prominent founding leader was Mahendra Singh Tikait from Sisauli, Muzaffarnagar district, western Uttar Pradesh",
+     "The student can distinguish between party-based and non-party movements using criteria of leadership, organizational affiliation, and accountability",
+     "Student can explain how Chipko combined ecological sustainability with livelihood justice, distinguish its non-party character from party-based movements",
      "A party-based movement is directly organized, led, or controlled by a political party, using party resources and cadre"
     ],
     "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
@@ -7028,7 +7361,7 @@ export const C12_PS_GEN: SimDef[] = [
      "Chipko was led by peasant women (Gaura Devi, Bachni Devi) in Uttarakhand who depended on forests for fodder, fuel, water, and soil stability — not for \"wilderness preservation",
      "The Chipko Movement began in April 1973 at Mandal village in Chamoli district (Uttarakhand, then Uttar Pradesh)"
     ],
-    "hint": "Straight from the 'Chipko Movement  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Chipko Movement' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"1974 Reni\" or \"Sunderlal Bahuguna started it\") reveals confusion between the movement's initial spark (Mandal, Bhatt) and its iconic moment (Reni, Gaura Devi) or its most famous leader (Bahuguna), indicating the student cannot sequence the movement's evolution from local livelihood protest to",
     "id": "gen_c12_ps_ch13_q2",
     "nodeId": "c12_ps_cbse_13_002",
@@ -7182,11 +7515,11 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the immediate trigger for the Anti-Arrack Movement in Dubagunta village, Nellore district, in 1992?",
     "answer": "The immediate trigger was women's realisation, during a Mahila Samakhya literacy class discussion",
     "options": [
-     "BKU was formally founded in 1986; its most prominent founding leader was Mahendra Singh Tikait from Sisauli, Muzaffarnagar district, western Uttar Pradesh",
-     "Article 21 (Right to Life and Personal Liberty) — the Supreme Court has interpreted it to include the right to livelihood and shelter",
+     "The student can explain how the movement originated from women's lived experience of economic distress and domestic violence",
+     "(1) Chipko Movement (1973) led to a 15-year ban on commercial felling in Himalayan forests of Uttar Pradesh (later Uttarakhand) in 1980",
      "The immediate trigger was women's realisation, during a Mahila Samakhya literacy class discussion"
     ],
-    "hint": "Straight from the 'Anti-Arrack Movement  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Anti-Arrack Movement' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a government order banning arrack\" or \"a political party's call\") reveals the student thinks movements start top-down, missing the bottom-up, lived-experience origin.",
     "id": "gen_c12_ps_ch13_q5",
     "nodeId": "c12_ps_cbse_13_005",
@@ -7302,16 +7635,47 @@ export const C12_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Which Article of the Indian Constitution did the Supreme Court interpret in *Vellore Citizens Welfare Forum v. Union of India (1996)* to include the \"precautionary principle\" and \"polluter pays principle\" as part of the fundamental right to a healthy environment?",
-    "answer": "Article 21 (Right to Life and Personal Liberty). The Court held that the right to life includes the right to a wholesome environment",
-    "options": [
-     "A party-based movement is directly organized, led, or controlled by a political party (e.g., Congress-led movements pre-1970s)",
-     "Article 21 (Right to Life and Personal Liberty) — the Supreme Court has interpreted it to include the right to livelihood and shelter",
-     "Article 21 (Right to Life and Personal Liberty). The Court held that the right to life includes the right to a wholesome environment"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate the Forest Rights Act",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "trace the genealogy of at least three major",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "analyze the tension between Article 21",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Environmental Movements and the' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., Article 48A alone) reveals the student confuses Directive Principles (non-justiciable) with Fundamental Rights (justiciable) — a critical error for board exams where PIL maintainability hinges on Article 21/32.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) trace the genealogy of at least three major environmental movements in India and explain how each",
     "id": "gen_c12_ps_ch13_q8",
     "nodeId": "c12_ps_cbse_13_008",
     "difficulty": "advanced",
@@ -7473,6 +7837,52 @@ export const C12_PS_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze how specific movements",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate the tension between",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between pre-independence",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) distinguish between pre-independence, post-independence (1970s-80s autonomous), and contemporary",
+    "id": "gen_c12_ps_ch13_q12",
+    "nodeId": "c12_ps_cbse_13_007",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Compare the accountability mechanisms of party-based movements versus non-party movements. How does this affect their longevity and policy impact?",
     "answer": "Party-based movements are accountable to party leadership and electoral cycles; they may withdraw support if the movement harms electoral prospects (e",
@@ -7483,7 +7893,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Both are equally accountable to the public\") misses the structural difference: party-based movements face dual accountability (constituents + party high command), often leading to compromise.",
-    "id": "gen_c12_ps_ch13_q12",
+    "id": "gen_c12_ps_ch13_q13",
     "nodeId": "c12_ps_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7498,7 +7908,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
     "misconception": "A poor answer uses party symbols or vague demands, showing the student hasn't internalized the autonomy and specificity of non-party movements.",
-    "id": "gen_c12_ps_ch13_q13",
+    "id": "gen_c12_ps_ch13_q14",
     "nodeId": "c12_ps_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7513,7 +7923,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
     "misconception": "A wrong evaluation (agreeing) shows the student views parties as the sole legitimate democratic actors, ignoring NCERT's emphasis on movements as \"correctives\" to party system limitations.",
-    "id": "gen_c12_ps_ch13_q14",
+    "id": "gen_c12_ps_ch13_q15",
     "nodeId": "c12_ps_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7528,54 +7938,39 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
     "misconception": "A wrong classification (non-party) shows the student focuses only on the \"autonomy claim\" while ignoring structural dependence.",
-    "id": "gen_c12_ps_ch13_q15",
-    "nodeId": "c12_ps_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did non-party movements gain prominence in India during the 1970s and 1980s? Explain using the concept of \"party system failure.\"",
-    "answer": "Non-party movements emerged because the dominant Congress party system failed to address specific grievances of marginalized groups (tribals, farmers, women, environmentalists)",
-    "options": [
-     "NBA maintained non-party character to preserve its moral authority, avoid co-option by party agendas",
-     "The claim is partially correct but incomplete. Evidence for: non-party character allowed cross-caste/religion unity",
-     "Non-party movements emerged because the dominant Congress party system failed to address specific grievances of marginalized groups (tribals, farmers, women, environmentalists)"
-    ],
-    "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Non-party movements are anti-democratic\") reveals a major misconception: students equate \"non-party\" with \"anti-political,\" whereas NCERT emphasizes these movements deepen democracy by broadening participation beyond party channels.",
     "id": "gen_c12_ps_ch13_q16",
     "nodeId": "c12_ps_cbse_13_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Analyze how the 1974 Reni action led by Gaura Devi transformed Chipko from a local contractors' dispute into a women-led ecological movement with national resonance.",
-    "answer": "At Reni, when contractors arrived with laborers while men were away at a government meeting, Gaura Devi mobilized 27 women to hug trees, declaring \"forest is our mother's home",
+    "question": "What common mix-up does this lesson flag about Popular movements?",
+    "answer": "Students believe non-party movements are \"apolitical\" or \"anti-political\" because they don't contest elections",
     "options": [
-     "NBA achieved partial victories (rehabilitation policy reforms, World Bank withdrawal in 1993) but could not stop the dam because: (a) the state framed development as national",
-     "The movement realised that state governments and the central authority were not honouring rehabilitation promises",
-     "At Reni, when contractors arrived with laborers while men were away at a government meeting, Gaura Devi mobilized 27 women to hug trees, declaring \"forest is our mother's home"
+     "Student can: (1) trace the genealogy of at least three major environmental movements in India and explain how each rearticulated the meaning of \"development\"",
+     "Student can evaluate the impact of specific popular movements on Indian democracy by identifying at least three concrete achievements (e",
+     "Students believe non-party movements are \"apolitical\" or \"anti-political\" because they don't contest elections"
     ],
-    "hint": "Straight from the 'Chipko Movement  was a' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"women participated\" misses the structural analysis: Reni revealed gendered resource dependence, reframed the movement's narrative, and forced state response — exactly the multi-causal analysis board exams reward.",
+    "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe non-party movements are \"apolitical\" or \"anti-political\" because they don't contest elections.",
     "id": "gen_c12_ps_ch13_q17",
-    "nodeId": "c12_ps_cbse_13_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_ps_cbse_13_001",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Apply the concept of \"subsistence economy vs. market economy\" (Guha & Gadgil) to explain why Chipko activists opposed commercial logging of pine trees but did not oppose all tree-cutting.",
-    "answer": "Chipko opposed replacement of mixed broadleaf forests (providing fuel, fodder, fertilizer, fiber",
+    "question": "What is Popular movements? State the definition given in this lesson.",
+    "answer": "Popular movements are collective actions by citizens to address public issues, demand rights, or resist policies, operating outside formal institutional channels",
     "options": [
-     "Chipko was led by peasant women (Gaura Devi, Bachni Devi) in Uttarakhand who depended on forests for fodder, fuel, water, and soil stability — not for \"wilderness preservation",
-     "Expected answer criteria: (1) Must reference specific lessons: e.g., \"adopt Chipko's non-violent direct action to protect village commons\" (achievement: moral authority)",
-     "Chipko opposed replacement of mixed broadleaf forests (providing fuel, fodder, fertilizer, fiber"
+     "The student can distinguish between party-based and non-party movements using criteria of leadership, organizational affiliation, and accountability",
+     "Student can: (1) trace the genealogy of at least three major environmental movements in India and explain how each rearticulated the meaning of \"development\"",
+     "Popular movements are collective actions by citizens to address public issues, demand rights, or resist policies, operating outside formal institutional channels"
     ],
-    "hint": "Straight from the 'Chipko Movement  was a' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"they opposed all logging\" or \"pine is better for environment\") reveals failure to grasp the political economy core: Chipko was not anti-development but anti-*displacement* of subsistence by market logic — a distinction critical for CUET/UPSC questions on environmentalism of the poor.",
+    "hint": "Straight from the 'Popular movements' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Popular movements are collective actions by citizens to address public issues, demand rights, or resist policies,",
     "id": "gen_c12_ps_ch13_q18",
-    "nodeId": "c12_ps_cbse_13_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_ps_cbse_13_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -8144,8 +8539,8 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What is the ideological concept of 'Hindutva' as defined by V.D. Savarkar, and how does it differ from the religious practice of Hinduism?",
     "answer": "Hindutva, as defined by Savarkar, is a political ideology that equates Indian nationhood with cultural nationalism: a person is a true Indian only if they regard India as both",
     "options": [
-     "The Faizabad (now Ayodhya) district court ordered the unlocking of the Babri Masjid structure in February 1986, allowing Hindu worship at the site",
-     "The three triggers were: (1) a severe balance of payments crisis with forex reserves down to ~$1.2 billion (barely 2 weeks of imports)",
+     "Student can explain the sequence of legal, political, and social events from 1986 (unlocking of the structure) to 2019 (Supreme Court verdict)",
+     "The student can explain the ideological evolution of the BJP from its formation to its electoral rise, distinguish Hindutva from Hinduism",
      "Hindutva, as defined by Savarkar, is a political ideology that equates Indian nationhood with cultural nationalism: a person is a true Indian only if they regard India as both"
     ],
     "hint": "Straight from the 'Bharatiya Janata Party' slide -- match the key terms.",
@@ -8165,12 +8560,12 @@ export const C12_PS_GEN: SimDef[] = [
     "question": "What was the official name of the commission chaired by B.P. Mandal, and in which year was it appointed?",
     "answer": "The Second Backward Classes Commission, appointed in 1978 by the Janata Party government under PM Morarji Desai",
     "options": [
-     "H.D. Deve Gowda (Janata Dal, June 1996 – April 1997) and I.K. Gujral (Janata Dal, April 1997 – March 1998)",
-     "The four elements are: (1) agreement on new economic policies, (2) acceptance of the political and social claims of the backward castes (OBC reservations)",
-     "The Second Backward Classes Commission, appointed in 1978 by the Janata Party government under Example",
+     "The Faizabad (now Ayodhya) district court ordered the unlocking of the Babri Masjid structure in February 1986, allowing Hindu worship at the site",
+     "Student can explain the sequence of legal, political, and social events from 1986 (unlocking of the structure) to 2019 (Supreme Court verdict)",
+     "The Second Backward Classes Commission, appointed in 1978 by the Janata Party government under Liberalization",
      "The Second Backward Classes Commission, appointed in 1978 by the Janata Party government under PM Morarji Desai"
     ],
-    "hint": "Straight from the 'Mandal Commission (Second' slide -- match the key terms.",
+    "hint": "Straight from the 'Mandal Commission' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"First Backward Classes Commission\" or \"appointed in 1990\") reveals confusion between the Kaka Kalelkar Commission (1953) and Mandal Commission, or between the report year (1980) and implementation year (1990).",
     "id": "gen_c12_ps_ch15_q3",
     "nodeId": "c12_ps_cbse_15_003",
@@ -8531,6 +8926,52 @@ export const C12_PS_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the chronological formation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate the impact of coalition politics",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how each coalition managed",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) trace the chronological formation, composition, and collapse of the United Front, NDA, and UPA",
+    "id": "gen_c12_ps_ch15_q12",
+    "nodeId": "c12_ps_cbse_15_006",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Analyse the ideological contradiction in the 1989 arrangement: BJP (right-wing, Hindutva) and Left Front (left-wing, Marxist) both supported the same National Front government. What does this reveal about the nature of coalition politics in India?",
     "answer": "It reveals that coalition politics in India is often driven by negative consensus (keeping a common opponent out) rather than positive ideological agreement",
@@ -8541,7 +8982,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer focusing on \"ideological convergence\" or \"policy agreement\" misses the pragmatic, power-sharing logic that defines Indian coalitions — parties align tactically, not ideologically.",
-    "id": "gen_c12_ps_ch15_q12",
+    "id": "gen_c12_ps_ch15_q13",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8556,7 +8997,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer calling it a \"coalition government\" reveals confusion between coalition (parties share cabinet portfolios) and minority government with outside support (parties support on floor but stay out of cabinet). This distinction matters for accountability and policy coherence.",
-    "id": "gen_c12_ps_ch15_q13",
+    "id": "gen_c12_ps_ch15_q14",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8571,7 +9012,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A poor answer omits the 1989 precedent or suggests the President can pick based on personal preference, revealing ignorance of constitutional conventions and the role of the President as a constitutional head bound by precedent.",
-    "id": "gen_c12_ps_ch15_q14",
+    "id": "gen_c12_ps_ch15_q15",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8586,7 +9027,7 @@ export const C12_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the premise uncritically reveals a bias toward single-party majorities and ignores the democratic value of power-sharing in a plural society.",
-    "id": "gen_c12_ps_ch15_q15",
+    "id": "gen_c12_ps_ch15_q16",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
@@ -8597,44 +9038,29 @@ export const C12_PS_GEN: SimDef[] = [
     "options": [
      "Article 75(3) of the Constitution states the Council of Ministers is collectively responsible to the Lok Sabha; a lost confidence motion obliges the Prime Minister to resign",
      "The Kalyan Singh (BJP) government in UP failed to honour its Supreme Court undertaking, and the Centre (Congress-led Narasimha Rao government) did not invoke Article 356",
-     "1989. IMF won 197 seats (down from 415 in 1984) and lost its parliamentary majority",
+     "1989. Licence Raj won 197 seats (down from 415 in 1984) and lost its parliamentary majority",
      "1989. The Congress won 197 seats (down from 415 in 1984) and lost its parliamentary majority"
     ],
     "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1977, 1996, or 2014) reveals confusion between the first non-Congress government (1977 Janata Party), the first stable coalition era (1996 United Front), or the return of single-party majority (2014 BJP).",
-    "id": "gen_c12_ps_ch15_q16",
-    "nodeId": "c12_ps_cbse_15_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why did the Congress party, despite being the single largest party in the 1989 Lok Sabha (197 seats), choose to sit in opposition rather than form a minority government?",
-    "answer": "Congress lacked a majority (272 needed) and, crucially, had no natural allies willing to support it",
-    "options": [
-     "After winning only 2 seats in the 1984 Lok Sabha elections, the BJP abandoned its moderate \"Gandhian Socialism\" platform and adopted Hindutva as its core ideology to consolidate a",
-     "The claim is *partially false*. While BJP won 282 (2014) and 303 (2019) seats — a single-party majority — it *chose* to retain the NDA framework, inducting allies into the cabinet",
-     "Congress lacked a majority (272 needed) and, crucially, had no natural allies willing to support it"
-    ],
-    "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Congress didn't want to rule\" or \"President didn't invite them\") reveals misunderstanding of parliamentary government formation: the President invites the leader most likely to command a majority; Congress realised it couldn't cobble together 272 votes without ideological compromises it wasn't",
     "id": "gen_c12_ps_ch15_q17",
     "nodeId": "c12_ps_cbse_15_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare the BJP's relationship with its coalition partners in the NDA (1998-2004) with the Congress's relationship with its allies in the UPA (2004-2014). What does this comparison reveal about the nature of coalition politics in India?",
-    "answer": "In the NDA, many regional allies (e.g., TDP, JD(U), Shiv Sena) did not share the BJP's Hindutva ideology but joined for power-sharing",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain why the Congress system declined after 1989, identify the structural features of the coalition era (1989–2014)",
     "options": [
-     "The 2019 constitutional bench (5-0) declined to rule on whether a mosque is essential to Islam, instead deciding the title dispute on secular legal principles",
-     "(a) United Front: Congress gave *outside support*; NDA: allies *joined the cabinet*. (b) United Front: Congress was the *external prop*; NDA: Congress was the *principal opponent*",
-     "In the NDA, many regional allies (e.g., TDP, JD(U), Shiv Sena) did not share the BJP's Hindutva ideology but joined for power-sharing"
+     "The Faizabad (now Ayodhya) district court ordered the unlocking of the Babri Masjid structure in February 1986, allowing Hindu worship at the site",
+     "Student can explain the sequence of legal, political, and social events from 1986 (unlocking of the structure) to 2019 (Supreme Court verdict)",
+     "The student can explain why the Congress system declined after 1989, identify the structural features of the coalition era (1989–2014)"
     ],
-    "hint": "Straight from the 'Bharatiya Janata Party' slide -- match the key terms.",
-    "misconception": "A wrong answer that claims coalitions are ideologically unified ignores the explicit 'agreement to disagree' that characterises Indian coalitions.",
+    "hint": "Straight from the '\"Congress system\"' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain why the Congress system declined after 1989, identify the structural features of the coalition",
     "id": "gen_c12_ps_ch15_q18",
-    "nodeId": "c12_ps_cbse_15_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_ps_cbse_15_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {

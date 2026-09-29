@@ -1142,12 +1142,12 @@ function C11_MathematicsEllipseStandardEquationSim({
         className="flex flex-wrap items-center justify-between gap-4 mb-6 p-4 bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl"
       >
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl" aria-hidden="true">
+          <div className="w-10 h-10 rounded-xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl" aria-hidden="true">
             {subjectConfig.emoji}
           </div>
           <div>
             <h1 className="text-lg md:text-xl font-bold text-white tracking-wide">{title}</h1>
-            <p className="text-xs text-indigo-400 font-mono">ISC Class 11 Mathematics | ISRO Telemetry Lab</p>
+            <p className="text-xs text-gold-400 font-mono">ISC Class 11 Mathematics | ISRO Telemetry Lab</p>
           </div>
         </div>
 
@@ -1161,7 +1161,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
-                : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
             }`}
           >
             <span aria-hidden="true">{difficulty === 'foundation' ? '🟢' : difficulty === 'advanced' ? '🔴' : '🔵'}</span>
@@ -1176,13 +1176,13 @@ function C11_MathematicsEllipseStandardEquationSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-800/40 rounded-2xl shadow-inner">
-            <div className="flex items-center gap-2 mb-2 text-indigo-400 font-mono text-xs uppercase tracking-widest">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-800/40 rounded-2xl shadow-inner">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 font-mono text-xs uppercase tracking-widest">
               <span>🚀 Flight Dynamics Scenario</span>
             </div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm md:text-base text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
-            <p className="text-xs text-slate-400 bg-indigo-950/40 p-3 rounded-xl border border-indigo-900/40">
+            <p className="text-xs text-slate-400 bg-gold-950/40 p-3 rounded-xl border border-gold-900/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1210,7 +1210,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           : isSelected
                           ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                           : 'bg-slate-800/60 border-slate-700 text-slate-400'
-                        : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200 hover:bg-slate-800/90'
+                        : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200 hover:bg-slate-800/90'
                     }`}
                   >
                     <div className="flex items-center">
@@ -1240,7 +1240,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Flight Telemetry Labs →
                 </motion.button>
@@ -1262,7 +1262,7 @@ function C11_MathematicsEllipseStandardEquationSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <h3 className="text-lg md:text-xl font-bold text-indigo-300">
+                <h3 className="text-lg md:text-xl font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs font-mono text-slate-400 bg-slate-800 px-3 py-1 rounded-full">
@@ -1278,7 +1278,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                 <div className="space-y-6">
                   {/* Predict then Check */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 border border-indigo-800/40 rounded-xl">
+                    <div className="p-4 bg-gold-950/40 border border-gold-800/40 rounded-xl">
                       <p className="text-sm font-semibold text-white mb-3">
                         🔮 Predict Before Interacting: {PREDICTION_QUESTIONS[0].question}
                       </p>
@@ -1290,7 +1290,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-2 text-left bg-slate-800 rounded-lg text-xs text-slate-200 hover:bg-indigo-900/40"
+                            className="p-2 text-left bg-slate-800 rounded-lg text-xs text-slate-200 hover:bg-gold-900/40"
                           >
                             {opt}
                           </motion.button>
@@ -1455,7 +1455,7 @@ function C11_MathematicsEllipseStandardEquationSim({
 
                       {/* Selected element toast */}
                       {selectedConicPoint && (
-                        <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="absolute bottom-2 left-2 right-2 bg-slate-900/90 border border-slate-700 p-2 rounded-lg text-xs text-indigo-300">
+                        <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="absolute bottom-2 left-2 right-2 bg-slate-900/90 border border-slate-700 p-2 rounded-lg text-xs text-gold-300">
                           {selectedConicPoint === 'focus1' && 'Focus S (+ae, 0) - Primary gravity attractor point.'}
                           {selectedConicPoint === 'focus2' && 'Focus S\' (-ae, 0) - Secondary focal node.'}
                         </motion.div>
@@ -1470,7 +1470,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setConicMode('ellipse')}
                           className={`flex-1 py-2 rounded-lg font-bold flex items-center justify-center gap-1.5 ${
-                            conicMode === 'ellipse' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            conicMode === 'ellipse' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           <span>{conicMode === 'ellipse' ? '✓' : '○'}</span>
@@ -1481,7 +1481,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setConicMode('hyperbola')}
                           className={`flex-1 py-2 rounded-lg font-bold flex items-center justify-center gap-1.5 ${
-                            conicMode === 'hyperbola' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                            conicMode === 'hyperbola' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           <span>{conicMode === 'hyperbola' ? '✓' : '○'}</span>
@@ -1492,7 +1492,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Semi-major axis (a):</span>
-                          <span className="font-mono text-indigo-400 font-bold">{semiMajorA} units</span>
+                          <span className="font-mono text-gold-400 font-bold">{semiMajorA} units</span>
                         </div>
                         <input
                           aria-label="Semi-major axis a slider"
@@ -1502,14 +1502,14 @@ function C11_MathematicsEllipseStandardEquationSim({
                           step={0.5}
                           value={semiMajorA}
                           onChange={(e) => setSemiMajorA(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Semi-minor axis (b):</span>
-                          <span className="font-mono text-indigo-400 font-bold">{semiMinorB} units</span>
+                          <span className="font-mono text-gold-400 font-bold">{semiMinorB} units</span>
                         </div>
                         <input
                           aria-label="Semi-minor axis b slider"
@@ -1519,14 +1519,14 @@ function C11_MathematicsEllipseStandardEquationSim({
                           step={0.5}
                           value={semiMinorB}
                           onChange={(e) => setSemiMinorB(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Satellite Orbit Angle:</span>
-                          <span className="font-mono text-indigo-400 font-bold">{probeAngle}°</span>
+                          <span className="font-mono text-gold-400 font-bold">{probeAngle}°</span>
                         </div>
                         <input
                           aria-label="Satellite Orbit Angle slider"
@@ -1535,7 +1535,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           max={360}
                           value={probeAngle}
                           onChange={(e) => setProbeAngle(parseInt(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1550,7 +1550,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Latus Rectum (2b²/a):</span>
-                          <span className="text-indigo-400 font-bold">{latusRectumLength.toFixed(2)}</span>
+                          <span className="text-gold-400 font-bold">{latusRectumLength.toFixed(2)}</span>
                         </div>
                         {conicMode === 'ellipse' && (
                           <div className="p-2 bg-slate-900 rounded-lg mt-2 border border-slate-800 text-[10px]">
@@ -1653,7 +1653,7 @@ function C11_MathematicsEllipseStandardEquationSim({
 
                     {/* 3D Telemetry Controls */}
                     <div className="space-y-4 bg-slate-950 p-4 rounded-2xl border border-slate-800 text-xs">
-                      <h4 className="font-bold text-indigo-300 uppercase tracking-wider">Radar Target Coordinates</h4>
+                      <h4 className="font-bold text-gold-300 uppercase tracking-wider">Radar Target Coordinates</h4>
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>X (Distance from YZ plane):</span>
@@ -1687,7 +1687,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Z (Distance from XY plane):</span>
-                          <span className="font-mono text-sky-400 font-bold">{coordZ}</span>
+                          <span className="font-mono text-gold-400 font-bold">{coordZ}</span>
                         </div>
                         <input
                           aria-label="Target Z coordinate slider"
@@ -1696,7 +1696,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           max={6}
                           value={coordZ}
                           onChange={(e) => setCoordZ(parseInt(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1757,7 +1757,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Approach x towards 1.0:</span>
-                          <span className="font-mono text-indigo-400 font-bold">{limitX.toFixed(3)}</span>
+                          <span className="font-mono text-gold-400 font-bold">{limitX.toFixed(3)}</span>
                         </div>
                         <input
                           aria-label="Approach variable x towards 1 slider"
@@ -1767,7 +1767,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           step={0.01}
                           value={limitX}
                           onChange={(e) => setLimitX(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1898,7 +1898,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Point x:</span>
-                          <span className="font-mono text-indigo-400 font-bold">{derivX.toFixed(1)}</span>
+                          <span className="font-mono text-gold-400 font-bold">{derivX.toFixed(1)}</span>
                         </div>
                         <input
                           aria-label="Derivative evaluation point x slider"
@@ -1908,7 +1908,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                           step={0.1}
                           value={derivX}
                           onChange={(e) => setDerivX(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1968,7 +1968,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide((s) => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1994,7 +1994,7 @@ function C11_MathematicsEllipseStandardEquationSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 border border-slate-800 rounded-2xl flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h3 className="text-lg font-bold text-indigo-300">Free Flight Telemetry Sandbox</h3>
+              <h3 className="text-lg font-bold text-gold-300">Free Flight Telemetry Sandbox</h3>
               <p className="text-xs text-slate-400">
                 Explore all conic shapes, radar coordinates, and derivative tools without grading constraints.
               </p>
@@ -2021,7 +2021,7 @@ function C11_MathematicsEllipseStandardEquationSim({
               <div>
                 <div className="flex justify-between text-slate-300 mb-1">
                   <span>Semi-Major a:</span>
-                  <span className="font-mono text-indigo-400 font-bold">{semiMajorA}</span>
+                  <span className="font-mono text-gold-400 font-bold">{semiMajorA}</span>
                 </div>
                 <input
                   aria-label="Sandbox semi-major axis slider"
@@ -2030,14 +2030,14 @@ function C11_MathematicsEllipseStandardEquationSim({
                   max={8}
                   value={semiMajorA}
                   onChange={(e) => setSemiMajorA(parseFloat(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-slate-300 mb-1">
                   <span>Semi-Minor b:</span>
-                  <span className="font-mono text-indigo-400 font-bold">{semiMinorB}</span>
+                  <span className="font-mono text-gold-400 font-bold">{semiMinorB}</span>
                 </div>
                 <input
                   aria-label="Sandbox semi-minor axis slider"
@@ -2046,7 +2046,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   max={6}
                   value={semiMinorB}
                   onChange={(e) => setSemiMinorB(parseFloat(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2087,7 +2087,7 @@ function C11_MathematicsEllipseStandardEquationSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2129,7 +2129,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                               : isSelected
                               ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                               : 'bg-slate-800/40 border-slate-700/50 text-slate-400'
-                            : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200 hover:bg-slate-800/90'
+                            : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200 hover:bg-slate-800/90'
                         }`}
                       >
                         <div className="flex items-center">
@@ -2163,7 +2163,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 text-white rounded-lg cursor-grab text-xs font-bold"
+                      className="px-3 py-2 bg-gold-700 text-white rounded-lg cursor-grab text-xs font-bold"
                     >
                       {item.label}
                     </motion.div>
@@ -2244,7 +2244,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mapped Labels
                 </motion.button>
@@ -2286,7 +2286,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold mt-2"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold mt-2"
                 >
                   Submit Order
                 </motion.button>
@@ -2311,7 +2311,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Submit Telemetry
                 </motion.button>
@@ -2330,7 +2330,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-800 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2341,7 +2341,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-2.5 py-1 bg-indigo-600 text-white rounded font-mono text-xs flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-600 text-white rounded font-mono text-xs flex items-center gap-1"
                     >
                       {part}
                       <button
@@ -2364,7 +2364,7 @@ function C11_MathematicsEllipseStandardEquationSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Algebraic Construction
                 </motion.button>
@@ -2466,13 +2466,13 @@ function C11_MathematicsEllipseStandardEquationSim({
           )}
 
           {/* Spaced Repetition Schedule Banner */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-indigo-950/80 border border-indigo-500/40 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg shadow-indigo-950/50">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 border border-gold-500/40 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4 shadow-lg shadow-gold-950/50">
             <div className="flex items-center gap-3.5">
-              <div className="w-12 h-12 rounded-xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-2xl font-mono">
+              <div className="w-12 h-12 rounded-xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-2xl font-mono">
                 📅
               </div>
               <div>
-                <h4 className="text-sm font-bold text-indigo-200 font-mono uppercase tracking-wider">
+                <h4 className="text-sm font-bold text-gold-200 font-mono uppercase tracking-wider">
                   Spaced Repetition Schedule (SRS Active)
                 </h4>
                 <p className="text-xs text-slate-300 mt-0.5">
@@ -2483,8 +2483,8 @@ function C11_MathematicsEllipseStandardEquationSim({
                 </p>
               </div>
             </div>
-            <div className="px-4 py-2 bg-indigo-900/50 border border-indigo-600/40 rounded-xl font-mono text-center">
-              <div className="text-[10px] text-indigo-300 uppercase font-bold tracking-widest">Next Review</div>
+            <div className="px-4 py-2 bg-gold-900/50 border border-gold-600/40 rounded-xl font-mono text-center">
+              <div className="text-[10px] text-gold-300 uppercase font-bold tracking-widest">Next Review</div>
               <div className="text-lg font-bold text-white">{errors === 0 ? '+7 Days' : errors <= 3 ? '+3 Days' : '+1 Day'}</div>
             </div>
           </div>
@@ -2496,7 +2496,7 @@ function C11_MathematicsEllipseStandardEquationSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs flex gap-2">
-                  <span className="font-mono text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">{i + 1}.</span>
                   <span className="text-slate-300">{step}</span>
                 </div>
               ))}

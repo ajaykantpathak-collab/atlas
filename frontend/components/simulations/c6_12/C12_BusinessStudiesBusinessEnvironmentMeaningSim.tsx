@@ -1415,13 +1415,13 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
         className="flex flex-wrap items-center justify-between gap-3 pb-4 mb-6 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 12
               </span>
             </h1>
@@ -1451,7 +1451,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/70 border-rose-500 text-rose-300'
-                  : 'bg-indigo-950/70 border-indigo-500 text-indigo-300'
+                  : 'bg-gold-950/70 border-gold-500 text-gold-300'
               }`}
             >
               {difficulty}
@@ -1470,13 +1470,13 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/40 shadow-inner">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2 uppercase tracking-wide">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/40 shadow-inner">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2 uppercase tracking-wide">
               <span>🚨 Live Boardroom Scenario</span>
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
+            <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-200">
               <strong>Your Challenge:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1503,10 +1503,10 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 text-slate-400 border border-slate-700'
-                      : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-indigo-500'
+                      : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">
+                  <span className="font-bold mr-2 text-gold-400">
                     {String.fromCharCode(65 + i)}.
                   </span>
                   {opt}
@@ -1533,7 +1533,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1561,7 +1561,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-800/80 text-slate-400 hover:text-slate-200 border border-slate-700'
                 }`}
               >
@@ -1579,7 +1579,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
               className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Interactive Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-xl font-black text-white mt-0.5">
@@ -1596,7 +1596,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   {/* SVG DIAGRAM 1: Concentric Environment Forces Radar */}
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                         Visualizer 1: Environment Totality & PESTLE Boundaries
                       </span>
                       <span className="text-[11px] text-slate-400">Concentric Systems Model</span>
@@ -1606,8 +1606,8 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
 
                   {/* Predict-then-check block */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">
                         Hypothesis Check (Predict before adjusting)
                       </p>
                       <p className="text-sm text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1620,14 +1620,14 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                             onClick={() => handlePrediction(i)}
                             className="text-left p-2.5 rounded-lg text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700"
                           >
-                            <span className="font-bold mr-1 text-indigo-400">
+                            <span className="font-bold mr-1 text-gold-400">
                               {String.fromCharCode(65 + i)}.
                             </span>
                             {opt}
                           </motion.button>
                         ))}
                       </div>
-                      <p className="text-[11px] text-indigo-300/80 italic mt-1">
+                      <p className="text-[11px] text-gold-300/80 italic mt-1">
                         {PREDICTION_QUESTIONS[0].verifyInstruction}
                       </p>
                     </div>
@@ -1640,7 +1640,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         <span className="text-slate-300 font-semibold">
                           External: Political (FAME-II Subsidies)
                         </span>
-                        <span className="text-indigo-400 font-bold">{policyIncentive}%</span>
+                        <span className="text-gold-400 font-bold">{policyIncentive}%</span>
                       </div>
                       <input
                         type="range"
@@ -1649,14 +1649,14 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         value={policyIncentive}
                         aria-label="Political FAME-II subsidies slider"
                         onChange={(e) => handleSliderChange(setPolicyIncentive, Number(e.target.value))}
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-300 font-semibold">
                           External: Economic (RBI Repo Rate Easing)
                         </span>
-                        <span className="text-blue-400 font-bold">{repoRateDiscount}%</span>
+                        <span className="text-gold-400 font-bold">{repoRateDiscount}%</span>
                       </div>
                       <input
                         type="range"
@@ -1665,7 +1665,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         value={repoRateDiscount}
                         aria-label="Economic repo rate easing slider"
                         onChange={(e) => handleSliderChange(setRepoRateDiscount, Number(e.target.value))}
-                        className="w-full accent-blue-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
 
                       <div className="flex justify-between text-xs">
@@ -1710,7 +1710,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         <div className="flex items-center gap-2">
                           <canvas ref={canvasRef} width={70} height={70} className="rounded-full" />
                           <div className="text-right">
-                            <span className="text-2xl font-black text-indigo-400">
+                            <span className="text-2xl font-black text-gold-400">
                               {marketResilienceIndex}
                             </span>
                             <span className="text-xs text-slate-400 block">/100 Resilience</span>
@@ -1814,7 +1814,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         }}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           scanQuarter === q
-                            ? 'bg-indigo-950 border-indigo-500 text-white'
+                            ? 'bg-gold-950 border-gold-500 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1865,7 +1865,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   {/* SVG DIAGRAM 2: Management Hierarchy Pyramid */}
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                         Visualizer 2: Indian Corporate Hierarchy & Managerial Tiers
                       </span>
                       <span className="text-[11px] text-slate-400">Companies Act 2013 Governance</span>
@@ -1944,7 +1944,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         }}
                         className={`p-3 rounded-xl border font-bold text-xs transition-all ${
                           selectedSWOTQuadrant === q
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -2003,7 +2003,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                     ))}
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-700/40 text-xs text-gold-200">
                     <strong>TOWS Formulation:</strong>{' '}
                     {activeTOWSStrategy === 'SO' &&
                       'Maxi-Maxi: Deploy brand trust (S) to capture FAME-II subsidies (O) via Nexon EV.'}
@@ -2023,7 +2023,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   {/* SVG DIAGRAM 3: Fayol's Scalar Chain & Gang Plank */}
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                         Visualizer 3: Henri Fayol Scalar Chain & Emergency Gang Plank
                       </span>
                       <span className="text-[11px] text-slate-400">Administrative Management</span>
@@ -2039,7 +2039,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold ${
                         theoristLens === 'taylor'
-                          ? 'bg-indigo-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-800 text-slate-400'
                       }`}
                     >
@@ -2052,7 +2052,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold ${
                         theoristLens === 'fayol'
-                          ? 'bg-indigo-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-800 text-slate-400'
                       }`}
                     >
@@ -2066,7 +2066,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         <span className="text-slate-300 font-semibold">
                           Worker Daily Shift Output: {taylorPieceRateOutput} units (Std: 50)
                         </span>
-                        <span className="font-bold text-indigo-400">
+                        <span className="font-bold text-gold-400">
                           Wage: ₹{taylorWageCalculation.grossWage}
                         </span>
                       </div>
@@ -2079,7 +2079,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         onChange={(e) =>
                           handleSliderChange(setTaylorPieceRateOutput, Number(e.target.value))
                         }
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
                       <div className="flex items-center gap-2 pt-1">
                         <input
@@ -2087,7 +2087,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                           id="statutory"
                           checked={statutoryFloorActive}
                           onChange={(e) => setStatutoryFloorActive(e.target.checked)}
-                          className="accent-indigo-500 rounded"
+                          className="accent-gold-500 rounded"
                         />
                         <label htmlFor="statutory" className="text-[11px] text-slate-300">
                           Enforce Statutory Minimum Wage Floor (Minimum Wages Act / Code on Wages)
@@ -2155,7 +2155,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       setCurrentSlide((s) => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold"
+                    className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -2200,13 +2200,13 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
           {/* Sandbox Controls Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                 External Force Simulators
               </h4>
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-slate-300">Govt PLI & FAME Subsidies:</span>
-                  <span className="font-bold text-indigo-300">{policyIncentive}%</span>
+                  <span className="font-bold text-gold-300">{policyIncentive}%</span>
                 </div>
                 <input
                   type="range"
@@ -2215,12 +2215,12 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   value={policyIncentive}
                   aria-label="Sandbox policy incentive slider"
                   onChange={(e) => setPolicyIncentive(Number(e.target.value))}
-                  className="w-full accent-indigo-500 h-1.5 bg-slate-800 rounded"
+                  className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded"
                 />
 
                 <div className="flex justify-between">
                   <span className="text-slate-300">RBI Repo Monetary Liquidity:</span>
-                  <span className="font-bold text-blue-300">{repoRateDiscount}%</span>
+                  <span className="font-bold text-gold-300">{repoRateDiscount}%</span>
                 </div>
                 <input
                   type="range"
@@ -2229,7 +2229,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   value={repoRateDiscount}
                   aria-label="Sandbox repo rate discount slider"
                   onChange={(e) => setRepoRateDiscount(Number(e.target.value))}
-                  className="w-full accent-blue-500 h-1.5 bg-slate-800 rounded"
+                  className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded"
                 />
               </div>
             </div>
@@ -2285,7 +2285,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
               </span>
               <span className="text-slate-400">
                 Competency Target:{' '}
-                <strong className="text-indigo-400 capitalize">
+                <strong className="text-gold-400 capitalize">
                   {activeChallenge.competencyLevel}
                 </strong>
               </span>
@@ -2293,7 +2293,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{
                   width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
                 }}
@@ -2313,7 +2313,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
             }`}
           >
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-indigo-950 text-indigo-300 border border-indigo-700/50">
+              <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-gold-950 text-gold-300 border border-gold-700/50">
                 {activeChallenge.type.toUpperCase()}
               </span>
               <span className="text-xs text-slate-400 font-mono">
@@ -2342,10 +2342,10 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       className={`w-full text-left p-3.5 rounded-xl text-xs md:text-sm font-medium transition-all ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-indigo-500'
+                          : 'bg-slate-800/80 hover:bg-slate-750 text-slate-200 border border-slate-700 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">
+                      <span className="font-bold mr-2 text-gold-400">
                         {String.fromCharCode(65 + i)}.
                       </span>
                       {opt}
@@ -2368,7 +2368,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2381,7 +2381,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       key={idx}
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop(target.targetId)}
-                      className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-indigo-500 flex items-center justify-between transition-all"
+                      className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-gold-500 flex items-center justify-between transition-all"
                     >
                       <span className="text-xs text-slate-400 font-semibold">
                         Target Slot {idx + 1}: [{target.targetId}]
@@ -2389,7 +2389,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       <span
                         className={`text-xs font-bold px-3 py-1 rounded-lg ${
                           droppedLabels[target.targetId]
-                            ? 'bg-indigo-950 border border-indigo-500 text-indigo-200'
+                            ? 'bg-gold-950 border border-gold-500 text-gold-200'
                             : 'bg-slate-800 text-slate-500'
                         }`}
                       >
@@ -2404,7 +2404,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Drag Placement →
                 </motion.button>
@@ -2434,7 +2434,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 hover:bg-slate-750 text-slate-200 rounded-xl border border-slate-700 cursor-grab flex items-center gap-3 text-xs font-medium"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px] border border-indigo-700/50">
+                      <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px] border border-gold-700/50">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -2453,7 +2453,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                     )
                   }
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Sequence Order →
                 </motion.button>
@@ -2470,7 +2470,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                     aria-label="Numeric answer input"
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value..."
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{activeChallenge.unit}</span>
                   <motion.button
@@ -2478,7 +2478,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2508,7 +2508,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs text-slate-200 leading-relaxed"
                       >
-                        <span className="font-bold text-indigo-400 mr-1">{idx + 1}.</span>
+                        <span className="font-bold text-gold-400 mr-1">{idx + 1}.</span>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2521,7 +2521,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                     1 ? (
                     <button
                       onClick={() => setRevealedSteps((s) => s + 1)}
-                      className="text-xs text-indigo-400 hover:text-indigo-300 font-bold"
+                      className="text-xs text-gold-400 hover:text-gold-300 font-bold"
                     >
                       Show Next Explanatory Step →
                     </button>
@@ -2554,9 +2554,9 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
           className="space-y-6"
         >
           {/* Header Score Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/50 text-center space-y-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/50 text-center space-y-2">
             <h2 className="text-2xl font-black text-white">🏆 Strategic Simulation Complete</h2>
-            <p className="text-sm text-indigo-300">
+            <p className="text-sm text-gold-300">
               BharatMotors Executive Board Evaluation Score:{' '}
               <span className="text-2xl font-black text-white">
                 {Math.max(0, 100 - errors * 5)}%
@@ -2574,7 +2574,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-100'
                 : errors <= 3
-                ? 'bg-indigo-950/60 border-indigo-500 text-indigo-100'
+                ? 'bg-gold-950/60 border-gold-500 text-gold-100'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500 text-amber-100'
                 : 'bg-rose-950/60 border-rose-500 text-rose-100'
@@ -2606,7 +2606,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center gap-2">
-              <span className="text-indigo-400 font-bold text-sm uppercase tracking-wider">
+              <span className="text-gold-400 font-bold text-sm uppercase tracking-wider">
                 💭 Post-Simulation Strategic Reflection
               </span>
             </div>
@@ -2624,7 +2624,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g. How Taylor's differential rates still interact with modern Indian minimum wage laws..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 focus:outline-none focus:border-indigo-500 min-h-[50px] resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 focus:outline-none focus:border-gold-500 min-h-[50px] resize-none"
                 />
               </div>
 
@@ -2637,7 +2637,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="e.g. Environmental scanning is like radar navigation for a ship in foggy weather..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 focus:outline-none focus:border-indigo-500 min-h-[50px] resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 focus:outline-none focus:border-gold-500 min-h-[50px] resize-none"
                 />
               </div>
 
@@ -2650,17 +2650,17 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="e.g. Launching a startup, choosing career skills, or analyzing company stock filings..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 focus:outline-none focus:border-indigo-500 min-h-[50px] resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 focus:outline-none focus:border-gold-500 min-h-[50px] resize-none"
                 />
               </div>
             </div>
           </div>
 
           {/* REAL-WORLD ACTIVITY */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/40 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/40 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-lg">🏢</span>
-              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wide">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wide">
                 Real-World Activity: The Indian Corporate Strategic Audit
               </h3>
             </div>
@@ -2675,7 +2675,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
               </span>
               <div className="space-y-2 text-xs text-slate-300">
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-indigo-700/50">
+                  <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-gold-700/50">
                     1
                   </span>
                   <div>
@@ -2684,7 +2684,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                 </div>
 
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-indigo-700/50">
+                  <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-gold-700/50">
                     2
                   </span>
                   <div>
@@ -2693,7 +2693,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                 </div>
 
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-indigo-700/50">
+                  <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-gold-700/50">
                     3
                   </span>
                   <div>
@@ -2702,7 +2702,7 @@ function C12_BusinessStudiesBusinessEnvironmentMeaningSim(
                 </div>
 
                 <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-indigo-700/50">
+                  <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px] flex-shrink-0 border border-gold-700/50">
                     4
                   </span>
                   <div>

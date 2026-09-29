@@ -11,7 +11,7 @@ export const w_c8_mathematicsfactorisationsimplecasessim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Exponents with Negative Bases: Sign Rules',
     chapters: [],
     nodeIds: ['c8_math_ch2_11', 'c8_math_ch2_8', 'c8_math_ch9_4', 'c8_math_ch6_4'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine a video game where your character has a "power level" that starts at \\(-2\\) points.', goal: 'Master Exponents with Negative Bases: Sign Rules.' },
     discovery: {
         question: 'What is the sign of \\((-7)^{12}\\)? Explain your reasoning in one sentence without calculating the actual value.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsfactorisationsimplecasessim: SimDef = {
         hook: 'Students frequently confuse \\((-a)^n\\) with \\(-a^n\\). For example, they evaluate \\((-3)^2\\) as \\(-9\\) (treating it as.',
     },
     teaching: [
-        { title: 'For a negative base \\(-a\\) (where \\(a > 0\\)).', text: 'For a negative base \\(-a\\) (where \\(a > 0\\)) raised to a positive integer exponent \\(n\\), the sign of the result is determined by the parity of \\(n\\): \\((-a)^n = a^n\\) if \\(n\\) is even, and \\((-a)^n.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'For a negative base \\(-a\\) (where \\(a > 0\\)).', text: 'For a negative base \\(-a\\) (where \\(a > 0\\)) raised to a positive integer exponent \\(n\\), the sign of the result is determined by the parity of \\(n\\): \\((-a)^n = a^n\\) if \\(n\\) is even, and \\((-a)^n.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch2_11', title: 'For a negative base \\(-a\\) (where \\(a >.',

@@ -11,7 +11,7 @@ export const w_c9_biologycelltheorycellsim: SimDef = {
     classLevel: 9, subject: 'biology', topic: 'Discovery of the Cell: Hooke and Leeuwenhoek',
     chapters: [],
     nodeIds: ['c9_bio_ch1_1', 'c9_bio_ch1_2', 'c9_bio_ch1_10', 'c9_bio_ch1_11', 'c9_bio_ch1_12', 'c9_bio_ch1_3', 'c9_bio_ch1_4', 'c9_bio_ch1_5', 'c9_bio_ch1_6', 'c9_bio_ch1_7', 'c9_bio_ch1_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine placing a thin slice of onion peel on a slide in your school lab: you see tiny, brick-like.', goal: 'Master Discovery of the Cell: Hooke and Leeuwenhoek.' },
     discovery: {
         question: 'Evaluate this claim: "Leeuwenhoek discovered bacteria, so he should be credited with discovering the cell, not Hooke." Provide a biological justification for.',
@@ -20,7 +20,7 @@ export const w_c9_biologycelltheorycellsim: SimDef = {
         hook: 'Students believe **Hooke discovered the "living cell" because he coined the term "cell."** The exact wrong reasoning:.',
     },
     teaching: [
-        { title: 'The discovery of the cell refers to the.', text: 'The discovery of the cell refers to the foundational observations by Robert Hooke (1665), who first coined the term "cell" after viewing dead cork tissue under a compound microscope, and Antonie van.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The discovery of the cell refers to the.', text: 'The discovery of the cell refers to the foundational observations by Robert Hooke (1665), who first coined the term "cell" after viewing dead cork tissue under a compound microscope, and Antonie van.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_bio_ch1_1', title: 'The discovery of the cell refers to the.',

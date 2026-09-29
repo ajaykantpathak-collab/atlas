@@ -1194,7 +1194,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
       <header className="w-full max-w-6xl mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-semibold border border-blue-500/20">
+            <span className="px-3 py-1 rounded-full bg-gold-500/10 text-gold-400 text-xs font-semibold border border-gold-500/20">
               ISC Class 12 Biology
             </span>
             <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-semibold border border-emerald-500/20">
@@ -1237,7 +1237,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'discovery'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1250,7 +1250,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'lab'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1263,7 +1263,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'challenges'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1276,7 +1276,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-sm font-semibold transition-all ${
             activeTab === 'summary'
-              ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1293,7 +1293,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
           <section className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 rounded-xl bg-blue-500/20 text-blue-400">
+                <div className="p-3 rounded-xl bg-gold-500/20 text-gold-400">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
@@ -1329,7 +1329,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                       }}
                       className={`w-full text-left p-3 rounded-lg text-xs md:text-sm border transition-all ${
                         discoverySelected === idx
-                          ? 'bg-blue-600/30 border-blue-500 text-white'
+                          ? 'bg-gold-600/30 border-gold-500 text-white'
                           : 'bg-slate-900/60 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1342,7 +1342,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                   <button
                     onClick={handleDiscoverySubmit}
                     disabled={discoverySelected === null}
-                    className="w-full py-2.5 bg-blue-600 hover:bg-blue-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold rounded-lg transition-all shadow-md"
+                    className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold rounded-lg transition-all shadow-md"
                   >
                     Submit Clinical Diagnosis
                   </button>
@@ -1409,11 +1409,11 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                 }}
                 className={`p-3 rounded-xl text-left border transition-all flex flex-col justify-between ${
                   activeLabIndex === idx
-                    ? 'bg-blue-600/30 border-blue-500 text-white shadow-lg'
+                    ? 'bg-gold-600/30 border-gold-500 text-white shadow-lg'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                 }`}
               >
-                <span className="text-xs font-bold uppercase text-blue-400">Step {idx + 1}</span>
+                <span className="text-xs font-bold uppercase text-gold-400">Step {idx + 1}</span>
                 <span className="text-xs font-semibold line-clamp-2 mt-1">{step.title}</span>
               </button>
             ))}
@@ -1430,7 +1430,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {activeLabIndex === 0 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-800/80 p-5 rounded-xl border border-slate-700">
-                  <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Select Patient Clinical Case</h3>
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Select Patient Clinical Case</h3>
                   <div className="grid grid-cols-2 gap-2">
                     <button
                       onClick={() => setSelectedPatientCase('burn')}
@@ -1497,7 +1497,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-lg flex justify-between">
                       <span className="text-slate-400">D - Dietary History:</span>
-                      <span className="font-bold text-blue-400">
+                      <span className="font-bold text-gold-400">
                         {selectedPatientCase === 'burn' && 'Intake < 30% requirements due to severe pain & sedation'}
                         {selectedPatientCase === 'ckd' && 'Anorexia, taste alteration (dysgeusia) from uremia'}
                         {selectedPatientCase === 'diabetes' && 'High refined carbohydrate and simple sugar consumption'}
@@ -1529,12 +1529,12 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {activeLabIndex === 1 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-800/80 p-5 rounded-xl border border-slate-700">
-                  <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Patient Metabolic Parameters</h3>
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Patient Metabolic Parameters</h3>
                   
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between mb-1">
                       <span>Body Weight (kg):</span>
-                      <span className="font-bold text-blue-400">{patientWeight} kg</span>
+                      <span className="font-bold text-gold-400">{patientWeight} kg</span>
                     </label>
                     <input
                       type="range"
@@ -1542,14 +1542,14 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                       max="120"
                       value={patientWeight}
                       onChange={(e) => setPatientWeight(Number(e.target.value))}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between mb-1">
                       <span>Height (cm):</span>
-                      <span className="font-bold text-blue-400">{patientHeight} cm</span>
+                      <span className="font-bold text-gold-400">{patientHeight} cm</span>
                     </label>
                     <input
                       type="range"
@@ -1557,7 +1557,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                       max="200"
                       value={patientHeight}
                       onChange={(e) => setPatientHeight(Number(e.target.value))}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1580,7 +1580,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                   <div className="pt-4 border-t border-slate-700 grid grid-cols-2 gap-3 text-center">
                     <div className="p-3 bg-slate-900 rounded-lg">
                       <div className="text-xs text-slate-400">Basal Energy Rate (BMR)</div>
-                      <div className="text-lg font-extrabold text-blue-400">{calculatedBMR} kcal/day</div>
+                      <div className="text-lg font-extrabold text-gold-400">{calculatedBMR} kcal/day</div>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg">
                       <div className="text-xs text-slate-400">Total Energy Need (TEE)</div>
@@ -1599,12 +1599,12 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {activeLabIndex === 2 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-800/80 p-5 rounded-xl border border-slate-700">
-                  <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Select Therapeutic Diet Texture & Composition</h3>
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Select Therapeutic Diet Texture & Composition</h3>
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       onClick={() => setSelectedDietType('clear-liquid')}
                       className={`p-3 rounded-xl text-xs font-bold border transition-all ${
-                        selectedDietType === 'clear-liquid' ? 'bg-blue-600/30 border-blue-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
+                        selectedDietType === 'clear-liquid' ? 'bg-gold-600/30 border-gold-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
                       }`}
                     >
                       Clear Liquid Diet
@@ -1612,7 +1612,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                     <button
                       onClick={() => setSelectedDietType('full-liquid')}
                       className={`p-3 rounded-xl text-xs font-bold border transition-all ${
-                        selectedDietType === 'full-liquid' ? 'bg-blue-600/30 border-blue-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
+                        selectedDietType === 'full-liquid' ? 'bg-gold-600/30 border-gold-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
                       }`}
                     >
                       Full Liquid Diet
@@ -1620,7 +1620,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                     <button
                       onClick={() => setSelectedDietType('pureed-soft')}
                       className={`p-3 rounded-xl text-xs font-bold border transition-all ${
-                        selectedDietType === 'pureed-soft' ? 'bg-blue-600/30 border-blue-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
+                        selectedDietType === 'pureed-soft' ? 'bg-gold-600/30 border-gold-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
                       }`}
                     >
                       Pureed Soft Diet
@@ -1628,7 +1628,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                     <button
                       onClick={() => setSelectedDietType('therapeutic-modified')}
                       className={`p-3 rounded-xl text-xs font-bold border transition-all ${
-                        selectedDietType === 'therapeutic-modified' ? 'bg-blue-600/30 border-blue-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
+                        selectedDietType === 'therapeutic-modified' ? 'bg-gold-600/30 border-gold-500 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
                       }`}
                     >
                       Renal/Diabetic Modified
@@ -1646,7 +1646,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {activeLabIndex === 3 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-800/80 p-5 rounded-xl border border-slate-700">
-                  <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Select Feeding Route & TPN Osmolality Engine</h3>
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Select Feeding Route & TPN Osmolality Engine</h3>
                   <div className="flex gap-2 mb-4">
                     <button
                       onClick={() => setSelectedFeedingRoute('oral')}
@@ -1680,7 +1680,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                       <div>
                         <label className="text-xs text-slate-300 flex justify-between mb-1">
                           <span>Dextrose Concentration (%):</span>
-                          <span className="font-bold text-blue-400">{dextroseConcentration}%</span>
+                          <span className="font-bold text-gold-400">{dextroseConcentration}%</span>
                         </label>
                         <input
                           type="range"
@@ -1689,7 +1689,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                           step="2.5"
                           value={dextroseConcentration}
                           onChange={(e) => setDextroseConcentration(Number(e.target.value))}
-                          className="w-full accent-blue-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1741,7 +1741,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {activeLabIndex === 4 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-800/80 p-5 rounded-xl border border-slate-700">
-                  <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Bioactive Phytochemical Profiler</h3>
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Bioactive Phytochemical Profiler</h3>
                   <div className="grid grid-cols-2 gap-2">
                     <button
                       onClick={() => setPhytochemicalChoice('curcumin')}
@@ -1822,13 +1822,13 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {/* MANDATORY PREDICTION & OBSERVATION QUESTIONS INSIDE LAB */}
             <div className="mt-8 pt-6 border-t border-slate-800 space-y-6">
               <h3 className="text-base font-bold text-white flex items-center gap-2">
-                <span className="w-3 h-3 rounded-full bg-blue-500"></span>
+                <span className="w-3 h-3 rounded-full bg-gold-500"></span>
                 Lab Verification Questions
               </h3>
 
               {/* Prediction Section */}
               <div className="space-y-4">
-                <h4 className="text-xs font-bold text-blue-400 uppercase tracking-wider">Clinical Prediction Questions</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Clinical Prediction Questions</h4>
                 {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                   <div key={qIdx} className="bg-slate-800/60 border border-slate-700/80 rounded-xl p-4 space-y-3">
                     <p className="text-sm font-medium text-slate-200">{pq.question}</p>
@@ -1842,7 +1842,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                           }}
                           className={`p-2.5 text-xs text-left rounded-lg border transition-all ${
                             predictionAnswers[qIdx] === oIdx
-                              ? 'bg-blue-600/30 border-blue-500 text-white'
+                              ? 'bg-gold-600/30 border-gold-500 text-white'
                               : 'bg-slate-900/80 border-slate-800 text-slate-300 hover:border-slate-700'
                           }`}
                         >
@@ -1855,7 +1855,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                       <button
                         onClick={() => handlePredictionSubmit(qIdx)}
                         disabled={predictionAnswers[qIdx] === undefined}
-                        className="py-1.5 px-4 bg-blue-600 hover:bg-blue-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold text-xs rounded-lg transition-all"
+                        className="py-1.5 px-4 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold text-xs rounded-lg transition-all"
                       >
                         Verify Prediction
                       </button>
@@ -1942,7 +1942,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                 Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
               </span>
               <h2 className="text-sm font-bold text-white capitalize">
-                Tier: <span className="text-blue-400">{CHALLENGES[currentChallengeIndex].difficulty}</span> | Level:{' '}
+                Tier: <span className="text-gold-400">{CHALLENGES[currentChallengeIndex].difficulty}</span> | Level:{' '}
                 {CHALLENGES[currentChallengeIndex].competencyLevel}
               </h2>
             </div>
@@ -1952,7 +1952,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                   key={idx}
                   className={`w-2.5 h-2.5 rounded-full ${
                     idx === currentChallengeIndex
-                      ? 'bg-blue-500 ring-4 ring-blue-500/30'
+                      ? 'bg-gold-500 ring-4 ring-gold-500/30'
                       : idx < currentChallengeIndex
                       ? 'bg-emerald-500'
                       : 'bg-slate-800'
@@ -1983,11 +1983,11 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                     disabled={challengeSubmitted}
                     className={`w-full text-left p-4 rounded-xl border text-sm font-medium transition-all ${
                       userSelectedOption === oIdx
-                        ? 'bg-blue-600/30 border-blue-500 text-white'
+                        ? 'bg-gold-600/30 border-gold-500 text-white'
                         : 'bg-slate-800/60 border-slate-700/80 text-slate-200 hover:border-slate-600'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-blue-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
                   </button>
                 ))}
               </div>
@@ -2004,7 +2004,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                     onChange={(e) => setUserNumericInput(e.target.value)}
                     disabled={challengeSubmitted}
                     placeholder="e.g. 2340"
-                    className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono text-lg focus:outline-none focus:border-blue-500"
+                    className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono text-lg focus:outline-none focus:border-gold-500"
                   />
                   <span className="self-center font-bold text-slate-400">
                     {(CHALLENGES[currentChallengeIndex] as NumericChallenge).unit}
@@ -2025,7 +2025,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                       className="flex items-center justify-between p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-sm"
                     >
                       <span className="font-semibold text-slate-200">
-                        <span className="text-blue-400 font-bold mr-2">#{seqIdx + 1}</span>
+                        <span className="text-gold-400 font-bold mr-2">#{seqIdx + 1}</span>
                         {itemText}
                       </span>
                       {!challengeSubmitted && (
@@ -2060,7 +2060,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                 <p className="text-xs text-slate-400 italic">Select the matching right term for each item on the left:</p>
                 {(CHALLENGES[currentChallengeIndex] as MatchingChallenge).pairs.map((pair, pIdx) => (
                   <div key={pIdx} className="grid grid-cols-1 md:grid-cols-2 gap-3 p-3 bg-slate-800/60 rounded-xl border border-slate-700">
-                    <div className="font-bold text-xs text-blue-300 flex items-center">{pair.left}</div>
+                    <div className="font-bold text-xs text-gold-300 flex items-center">{pair.left}</div>
                     <select
                       value={userMatchingState[pair.left] || ''}
                       onChange={(e) => {
@@ -2069,7 +2069,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
                         audioManager.play('pop');
                       }}
                       disabled={challengeSubmitted}
-                      className="bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs text-slate-200 focus:outline-none focus:border-blue-500"
+                      className="bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                     >
                       <option value="">-- Choose Match --</option>
                       {(CHALLENGES[currentChallengeIndex] as MatchingChallenge).pairs.map((p, rIdx) => (
@@ -2087,7 +2087,7 @@ export default function C12_BiologyClinicalNutritionCBSESim() {
             {!challengeSubmitted ? (
               <button
                 onClick={handleChallengeSubmit}
-                className="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all shadow-lg"
+                className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl transition-all shadow-lg"
               >
                 Submit Answer
               </button>

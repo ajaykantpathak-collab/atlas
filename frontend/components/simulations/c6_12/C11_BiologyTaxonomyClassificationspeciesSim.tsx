@@ -1301,7 +1301,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                 ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
             }`}
           >
             {difficulty} TIER
@@ -1316,7 +1316,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-emerald-800/40 shadow-inner">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-emerald-800/40 shadow-inner">
             <h2 className="text-lg font-bold text-emerald-300 flex items-center gap-2">
               <span>🌿</span> {SCENARIO.title}
             </h2>
@@ -1451,8 +1451,8 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                     </div>
 
                     <div className="grid grid-cols-2 gap-3">
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
-                        <p className="text-[10px] text-indigo-400 uppercase font-bold">Human (Homo sapiens)</p>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
+                        <p className="text-[10px] text-gold-400 uppercase font-bold">Human (Homo sapiens)</p>
                         <p className="text-sm font-bold text-white mt-1">{HIERARCHY_DATA[selectedRank].human}</p>
                       </div>
                       <div className="p-3 bg-amber-950/40 rounded-xl border border-amber-800/40">
@@ -1478,8 +1478,8 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
 
                   <div className="md:col-span-6 space-y-4">
                     {!predictionMade && (
-                      <div className="p-4 bg-slate-950 rounded-xl border border-indigo-800/40 space-y-2">
-                        <p className="text-xs font-bold text-indigo-300">PREDICTION CHALLENGE:</p>
+                      <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/40 space-y-2">
+                        <p className="text-xs font-bold text-gold-300">PREDICTION CHALLENGE:</p>
                         <p className="text-xs text-slate-300">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-1.5 pt-1">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1563,7 +1563,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleFungalCycleAdvance}
-                      className="mt-3 px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                      className="mt-3 px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                     >
                       Step Nuclear Phase →
                     </motion.button>
@@ -1580,11 +1580,11 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                         key={idx}
                         className={`p-3 rounded-xl border text-xs transition-all ${
                           fungalStep === idx
-                            ? 'bg-indigo-950/80 border-indigo-500 text-white shadow-md'
+                            ? 'bg-gold-950/80 border-gold-500 text-white shadow-md'
                             : 'bg-slate-950/40 border-slate-800 text-slate-400'
                         }`}
                       >
-                        <p className="font-bold text-indigo-300">{step.title}</p>
+                        <p className="font-bold text-gold-300">{step.title}</p>
                         <p className="text-[11px] mt-0.5">{step.status}</p>
                       </div>
                     ))}
@@ -1763,7 +1763,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                       </div>
                       <div className="flex justify-between items-center p-2 rounded-lg bg-slate-900 border border-slate-800">
                         <span className="text-slate-400">Dominant Generation:</span>
-                        <span className="font-bold text-indigo-300">
+                        <span className="font-bold text-gold-300">
                           {selectedPlantGroup === 'algae' || selectedPlantGroup === 'bryo' ? 'Gametophyte (n)' : 'Sporophyte (2n)'}
                         </span>
                       </div>
@@ -1829,9 +1829,9 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
       {/* ─── SANDBOX / FREE EXPLORATION PHASE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-5">
-          <div className="p-4 bg-gradient-to-r from-slate-900 via-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40 flex flex-col md:flex-row justify-between items-center gap-3">
+          <div className="p-4 bg-gradient-to-r from-slate-900 via-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40 flex flex-col md:flex-row justify-between items-center gap-3">
             <div>
-              <h3 className="text-base font-bold text-indigo-300">Free Observation Sandbox</h3>
+              <h3 className="text-base font-bold text-gold-300">Free Observation Sandbox</h3>
               <p className="text-xs text-slate-400 mt-0.5">Manipulate bacteria staining, observe dikaryophases, and toggle water films freely.</p>
             </div>
             <motion.button
@@ -1923,7 +1923,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
           {/* Challenge Header & Progress Bar */}
           <div className="flex flex-wrap items-center justify-between gap-2 pb-2">
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-1 bg-indigo-950 text-indigo-400 font-mono text-xs font-bold rounded-lg border border-indigo-800/50">
+              <span className="px-2.5 py-1 bg-gold-950 text-gold-400 font-mono text-xs font-bold rounded-lg border border-gold-800/50">
                 Q {currentChallenge + 1} / {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-400 font-medium">NEP 2020: {challenge.competencyLevel.toUpperCase()}</span>
@@ -1995,7 +1995,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2062,7 +2062,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs md:text-sm text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-950 flex items-center justify-center font-mono text-xs text-indigo-400 font-bold">
+                      <span className="w-6 h-6 rounded-full bg-slate-950 flex items-center justify-center font-mono text-xs text-gold-400 font-bold">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2076,7 +2076,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Biological Sequence
                 </motion.button>
@@ -2255,8 +2255,8 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
           </div>
 
           {/* Reflection Section */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Key Concept Reflection
             </h3>
             <div className="space-y-3">
@@ -2316,7 +2316,7 @@ function C11_BiologyTaxonomyClassificationspeciesSim({
 
           {/* Real World Monograph Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>📝</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

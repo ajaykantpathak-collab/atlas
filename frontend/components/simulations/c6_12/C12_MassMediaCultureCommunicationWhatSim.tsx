@@ -1169,7 +1169,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1177,7 +1177,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
             </h1>
-            <p className="text-xs sm:text-sm text-indigo-400 font-medium">
+            <p className="text-xs sm:text-sm text-gold-400 font-medium">
               ISC Class 12 Mass Media &middot; Culture, Ethics, TV Advertising &amp; Cinema Grammar
             </p>
           </div>
@@ -1191,7 +1191,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
             animate={{ scale: 1 }}
             className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-slate-800 border border-slate-700 text-slate-300"
           >
-            Phase: <span className="text-indigo-400">{phase}</span>
+            Phase: <span className="text-gold-400">{phase}</span>
           </motion.span>
           {phase === 'challenge' && (
             <motion.span
@@ -1215,13 +1215,13 @@ function C12_MassMediaCultureCommunicationWhatSim({
       {/* ─── PHASE 1: DISCOVERY (CURIOSITY HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 sm:p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-black uppercase tracking-widest mb-2">
+          <div className="p-5 sm:p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-black uppercase tracking-widest mb-2">
               <span>🏛️ Narrative Hook</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 font-medium bg-indigo-900/40 p-3 rounded-xl border border-indigo-700/40">
+            <p className="text-xs text-gold-300/80 mt-3 font-medium bg-gold-900/40 p-3 rounded-xl border border-gold-700/40">
               📌 {SCENARIO.context}
             </p>
           </div>
@@ -1246,7 +1246,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                   aria-label={`Discovery option ${i + 1}: ${opt}`}
                   className="w-full text-left p-4 rounded-xl text-sm sm:text-base font-medium transition-all bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200"
                 >
-                  <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-center leading-6 text-xs font-bold mr-3 text-indigo-300">
+                  <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-center leading-6 text-xs font-bold mr-3 text-gold-300">
                     {String.fromCharCode(65 + i)}
                   </span>
                   {opt}
@@ -1258,7 +1258,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 rounded-xl bg-indigo-950/70 border border-indigo-700/70 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-4 p-4 rounded-xl bg-gold-950/70 border border-gold-700/70 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
                 <div className="text-sm">
                   <p className={discoveryCorrect ? 'text-emerald-300 font-bold' : 'text-amber-300 font-bold'}>
@@ -1270,7 +1270,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white text-sm font-bold rounded-xl shadow-lg shrink-0"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white text-sm font-bold rounded-xl shadow-lg shrink-0"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1296,7 +1296,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                 }}
                 className={`px-3 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'text-slate-400 hover:text-white hover:bg-slate-800'
                 }`}
               >
@@ -1366,7 +1366,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                     </svg>
 
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-center">
-                      <h4 className="text-xs uppercase font-black tracking-widest text-indigo-400 mb-2">Cultural Transmission Analyzer</h4>
+                      <h4 className="text-xs uppercase font-black tracking-widest text-gold-400 mb-2">Cultural Transmission Analyzer</h4>
                       {selectedCultureItem ? (
                         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
                           <p className="text-sm font-bold text-amber-300">
@@ -1381,7 +1381,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                             {selectedCultureItem === 'festivals' && 'Broadcast media archives and revitalises endangered folk songs, preventing urban erasure.'}
                             {selectedCultureItem === 'ad_codes' && 'Advertisements encode cultural unity (e.g. Cadbury, Tanishq) which must be decoded empathetically.'}
                           </p>
-                          <span className="inline-block px-2.5 py-1 rounded bg-indigo-950 text-indigo-300 text-[10px] font-bold border border-indigo-800">
+                          <span className="inline-block px-2.5 py-1 rounded bg-gold-950 text-gold-300 text-[10px] font-bold border border-gold-800">
                             Bidirectional Flow Verified ✓
                           </span>
                         </motion.div>
@@ -1449,9 +1449,9 @@ function C12_MassMediaCultureCommunicationWhatSim({
 
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
                       <div>
-                        <h4 className="text-xs uppercase font-black tracking-widest text-indigo-400 mb-2">Catalyst Mechanism Chain</h4>
+                        <h4 className="text-xs uppercase font-black tracking-widest text-gold-400 mb-2">Catalyst Mechanism Chain</h4>
                         <div className="space-y-2 text-xs">
-                          <div className={`p-2 rounded-lg border ${catalystOutrageLevel >= 20 ? 'bg-indigo-950/70 border-indigo-700 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
+                          <div className={`p-2 rounded-lg border ${catalystOutrageLevel >= 20 ? 'bg-gold-950/70 border-gold-700 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
                             1. 📢 <strong>Information Dissemination:</strong> Media uncovers hidden injustice.
                           </div>
                           <div className={`p-2 rounded-lg border ${catalystOutrageLevel >= 50 ? 'bg-purple-950/70 border-purple-700 text-purple-200' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
@@ -1526,7 +1526,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                     )}
                     {newsEthicsType === 'advertorial' && (
                       <div className="space-y-2">
-                        <span className="px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 text-[10px] font-bold border border-indigo-800">Hybrid Format</span>
+                        <span className="px-2 py-0.5 rounded bg-gold-950 text-gold-300 text-[10px] font-bold border border-gold-800">Hybrid Format</span>
                         <h4 className="text-sm font-bold text-white">Commercial Feature Disguised as News</h4>
                         <p className="text-xs text-slate-300">
                           Paid brand placements laid out like journalistic articles (e.g., Medianet 2003). Ethical only if accompanied by a prominent "ADVERTISEMENT" label per ASCI and PCI norms.
@@ -1590,11 +1590,11 @@ function C12_MassMediaCultureCommunicationWhatSim({
                         }}
                         className={`p-2.5 rounded-xl text-left transition-all border ${
                           currentPipelineStage === i
-                            ? 'bg-indigo-900/80 border-indigo-500 text-white shadow-md'
+                            ? 'bg-gold-900/80 border-gold-500 text-white shadow-md'
                             : 'bg-slate-950/80 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
-                        <div className="text-[10px] font-bold text-indigo-400">STAGE {i + 1}</div>
+                        <div className="text-[10px] font-bold text-gold-400">STAGE {i + 1}</div>
                         <div className="text-xs font-semibold truncate">{st.title.replace(/^\d+\.\s*/, '')}</div>
                       </motion.button>
                     ))}
@@ -1602,7 +1602,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between">
                     <div>
-                      <h4 className="text-sm font-bold text-indigo-300">{AD_STAGES[currentPipelineStage].title}</h4>
+                      <h4 className="text-sm font-bold text-gold-300">{AD_STAGES[currentPipelineStage].title}</h4>
                       <p className="text-xs text-slate-300 mt-1">{AD_STAGES[currentPipelineStage].desc}</p>
                     </div>
                     <span className="text-xs font-mono text-slate-500">{currentPipelineStage + 1} / 8</span>
@@ -1633,7 +1633,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set camera vertical elevation angle"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1692,7 +1692,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
               >
                 Next Lab →
               </motion.button>
@@ -1723,7 +1723,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
               >
                 Ready for Challenges! 🚀
               </motion.button>
@@ -1731,8 +1731,8 @@ function C12_MassMediaCultureCommunicationWhatSim({
 
             {/* Predict-Then-Check Container */}
             {!predictionMade ? (
-              <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-3">
-                <span className="px-2 py-0.5 bg-indigo-500/30 text-indigo-300 rounded text-[10px] font-bold">
+              <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-3">
+                <span className="px-2 py-0.5 bg-gold-500/30 text-gold-300 rounded text-[10px] font-bold">
                   Predict-Then-Check
                 </span>
                 <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1759,7 +1759,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
             {/* Sandbox Live Canvas & Sliders */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                <h4 className="text-xs font-bold text-indigo-400 uppercase">Director’s Camera Rig</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">Director’s Camera Rig</h4>
                 <canvas ref={cameraCanvasRef} width={400} height={200} className="w-full bg-slate-900 rounded-lg border border-slate-800" />
                 <div className="flex gap-2">
                   <input
@@ -1768,7 +1768,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                     max={45}
                     value={cameraElevationAngle}
                     onChange={(e) => setCameraElevationAngle(Number(e.target.value))}
-                    className="w-1/2 accent-indigo-500"
+                    className="w-1/2 accent-gold-500"
                   />
                   <input
                     type="range"
@@ -1783,7 +1783,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
 
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3 flex flex-col justify-between">
                 <div>
-                  <h4 className="text-xs font-bold text-indigo-400 uppercase">Scientific Observation</h4>
+                  <h4 className="text-xs font-bold text-gold-400 uppercase">Scientific Observation</h4>
                   <p className="text-xs text-white font-semibold mt-2">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="space-y-2 mt-3">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1818,13 +1818,13 @@ function C12_MassMediaCultureCommunicationWhatSim({
               <span className="font-bold text-slate-200">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded border border-indigo-800 font-mono text-[10px] uppercase">
+              <span className="px-2 py-0.5 bg-gold-950 text-gold-300 rounded border border-gold-800 font-mono text-[10px] uppercase">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1841,7 +1841,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="px-2.5 py-0.5 rounded bg-indigo-600/30 text-indigo-300 text-[10px] font-black uppercase tracking-wider border border-indigo-500/30">
+              <span className="px-2.5 py-0.5 rounded bg-gold-600/30 text-gold-300 text-[10px] font-black uppercase tracking-wider border border-gold-500/30">
                 {activeChallenge.type}
               </span>
               <span className="text-xs text-slate-400 font-medium">Node: {activeChallenge.nodeId}</span>
@@ -1866,7 +1866,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                         : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-center leading-6 text-xs font-bold mr-3 text-indigo-300">
+                    <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-center leading-6 text-xs font-bold mr-3 text-gold-300">
                       {String.fromCharCode(65 + i)}
                     </span>
                     {opt}
@@ -1887,7 +1887,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1902,8 +1902,8 @@ function C12_MassMediaCultureCommunicationWhatSim({
                       onDrop={() => handleDragDrop(targetId)}
                       className={`p-4 rounded-xl border-2 border-dashed flex flex-col justify-center items-center text-center transition-all ${
                         droppedLabels[targetId]
-                          ? 'bg-indigo-950/70 border-emerald-500 text-emerald-300'
-                          : 'bg-slate-950 border-slate-700 text-slate-400 hover:border-indigo-500'
+                          ? 'bg-gold-950/70 border-emerald-500 text-emerald-300'
+                          : 'bg-slate-950 border-slate-700 text-slate-400 hover:border-gold-500'
                       }`}
                     >
                       <span className="text-[10px] font-mono text-slate-500 uppercase">{targetId.replace('box_', '').replace('stage_', '')} Target</span>
@@ -1919,7 +1919,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Mappings ✓
                 </motion.button>
@@ -1947,7 +1947,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 hover:bg-slate-700/80 rounded-xl border border-slate-700 text-xs sm:text-sm font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center text-xs font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center text-xs font-bold">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -1959,7 +1959,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Sequence ✓
                 </motion.button>
@@ -1976,7 +1976,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Enter calculated numeric answer"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -1984,7 +1984,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2005,7 +2005,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                       onClick={() => handleConstructToggle(part)}
                       className={`px-3 py-2 rounded-xl text-xs font-bold transition-all border ${
                         constructParts.includes(part)
-                          ? 'bg-indigo-600 border-indigo-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                       }`}
                     >
@@ -2015,7 +2015,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex items-center">
-                  <p className="text-xs text-indigo-300 font-mono">
+                  <p className="text-xs text-gold-300 font-mono">
                     {constructParts.length > 0 ? constructParts.join(' -> ') : 'Click principles above to assemble workflow'}
                   </p>
                 </div>
@@ -2025,7 +2025,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Newsroom Assembly ✓
                 </motion.button>
@@ -2037,7 +2037,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 rounded-2xl bg-indigo-950/60 border border-indigo-800 space-y-4"
+                className="mt-6 p-5 rounded-2xl bg-gold-950/60 border border-gold-800 space-y-4"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-black text-amber-300 uppercase tracking-widest">
@@ -2060,7 +2060,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs sm:text-sm text-slate-200 leading-relaxed"
                       >
-                        <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}{!sentence.endsWith('.') && '.'}
+                        <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}{!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
                 </div>
@@ -2071,7 +2071,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(r => r + 1)}
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                     >
                       Next Step →
                     </motion.button>
@@ -2095,7 +2095,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
       {/* ─── PHASE 5: COMPLETE (MASTERY, PROFILE & MOTIVATIONAL FEEDBACK) ─── */}
       {phase === 'complete' && (
         <motion.section initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/60 shadow-xl text-center space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/60 shadow-xl text-center space-y-4">
             <div className="w-16 h-16 mx-auto rounded-full bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-3xl">
               🏆
             </div>
@@ -2107,7 +2107,7 @@ function C12_MassMediaCultureCommunicationWhatSim({
               </div>
               <div className="bg-slate-900/90 px-5 py-3 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block font-bold">Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2163,13 +2163,13 @@ function C12_MassMediaCultureCommunicationWhatSim({
           </div>
 
           {/* Real World Practical Assignment */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-800 space-y-3">
-            <h4 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h4>
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-800 space-y-3">
+            <h4 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </li>
               ))}
             </ul>

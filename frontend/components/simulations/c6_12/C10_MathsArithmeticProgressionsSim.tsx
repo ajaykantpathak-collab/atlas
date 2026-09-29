@@ -359,10 +359,10 @@ export function C10_MathsArithmeticProgressionsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100 shadow-2xl">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-blue-950/80 rounded-2xl border border-blue-700">📊</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">📊</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-blue-400">Class 10 Maths — Arithmetic Progressions</p>
-          <h1 className="text-xl md:text-2xl font-black text-blue-300">Same Step, Every Time: a → a+d → a+2d</h1>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Maths — Arithmetic Progressions</p>
+          <h1 className="text-xl md:text-2xl font-black text-gold-300">Same Step, Every Time: a → a+d → a+2d</h1>
         </div>
         <div className="text-right">
           <span className="font-mono text-xs text-slate-400 block">aₙ = a + (n−1)d</span>
@@ -381,7 +381,7 @@ export function C10_MathsArithmeticProgressionsSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -396,8 +396,8 @@ export function C10_MathsArithmeticProgressionsSim() {
       {/* ============================================================ */}
       {tab === 'predict' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-blue-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-blue-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               The AP starts at a = 2 with common difference d = 5. Without a formula — is the 50th
               term odd or even, and roughly how big?
@@ -411,7 +411,7 @@ export function C10_MathsArithmeticProgressionsSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 2;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-blue-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -445,7 +445,7 @@ export function C10_MathsArithmeticProgressionsSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -464,26 +464,26 @@ export function C10_MathsArithmeticProgressionsSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>first term a</span>
-                <span className="font-mono text-blue-300">{a}</span>
+                <span className="font-mono text-gold-300">{a}</span>
               </label>
               <input type="range" min={-20} max={40} step={1} value={a} aria-label="first term"
-                onChange={(e) => setA(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-blue-500" />
+                onChange={(e) => setA(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>common difference d</span>
-                <span className="font-mono text-blue-300">{d}</span>
+                <span className="font-mono text-gold-300">{d}</span>
               </label>
               <input type="range" min={-10} max={10} step={1} value={d} aria-label="common difference"
-                onChange={(e) => setD(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-blue-500" />
+                onChange={(e) => setD(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>highlighted term n</span>
-                <span className="font-mono text-blue-300">{n}</span>
+                <span className="font-mono text-gold-300">{n}</span>
               </label>
               <input type="range" min={1} max={40} step={1} value={n} aria-label="term index"
-                onChange={(e) => setN(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-blue-500" />
+                onChange={(e) => setN(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
           </div>
 
@@ -492,7 +492,7 @@ export function C10_MathsArithmeticProgressionsSim() {
             {bars.map((b) => (
               <span key={b.k}
                 className={`px-2 py-1 rounded-lg font-mono text-xs border transition-all ${
-                  b.k === n ? 'bg-blue-600 border-blue-400 text-white font-bold scale-110' : 'bg-slate-900 border-slate-800 text-slate-300'
+                  b.k === n ? 'bg-gold-600 border-gold-400 text-white font-bold scale-110' : 'bg-slate-900 border-slate-800 text-slate-300'
                 }`}>
                 a{b.k} = {b.v}
               </span>
@@ -548,7 +548,7 @@ export function C10_MathsArithmeticProgressionsSim() {
             ].map((x) => (
               <div key={x.k} className="p-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
                 <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">{x.k}</p>
-                <p className="font-mono text-sm font-bold text-blue-300">{x.v}</p>
+                <p className="font-mono text-sm font-bold text-gold-300">{x.v}</p>
               </div>
             ))}
           </div>
@@ -584,14 +584,14 @@ export function C10_MathsArithmeticProgressionsSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>number of terms n (for the sum)</span>
-                <span className="font-mono text-blue-300">{sumN}</span>
+                <span className="font-mono text-gold-300">{sumN}</span>
               </label>
               <input type="range" min={1} max={40} step={1} value={sumN} aria-label="number of terms"
                 onChange={(e) => { setPlayGrow(false); setSumN(Number(e.target.value)); }}
-                className="w-full mt-1 min-h-11 accent-blue-500" />
+                className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div className="flex items-end gap-2">
-              <button onClick={() => setPlayGrow(!playGrow)} className={`min-h-11 px-4 py-2 rounded-xl text-xs font-bold border transition-all ${playGrow ? 'bg-blue-600 border-blue-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-200'}`}>
+              <button onClick={() => setPlayGrow(!playGrow)} className={`min-h-11 px-4 py-2 rounded-xl text-xs font-bold border transition-all ${playGrow ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-200'}`}>
                 {playGrow ? '⏸ stop growing' : '▶ grow n automatically'}
               </button>
               <span className="text-xs text-slate-500 font-mono">Sₙ grows quadratically — watch the pace</span>
@@ -619,7 +619,7 @@ export function C10_MathsArithmeticProgressionsSim() {
           {/* Gauss pairing table */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-blue-300 uppercase tracking-wider mb-2">Gauss pairing (write S forward + backward)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Gauss pairing (write S forward + backward)</p>
               <div className="space-y-1 font-mono text-xs">
                 {gaussPairs.map((p, i) => (
                   <div key={i} className="flex items-center justify-between bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5">
@@ -635,7 +635,7 @@ export function C10_MathsArithmeticProgressionsSim() {
               </p>
             </div>
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-blue-300 uppercase tracking-wider mb-2">Sum machine (live)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Sum machine (live)</p>
               <div className="grid grid-cols-2 gap-2">
                 {[
                   { k: `S${sumN}`, v: `${fmtInt(sum)}` },
@@ -647,7 +647,7 @@ export function C10_MathsArithmeticProgressionsSim() {
                 ].map((x) => (
                   <div key={x.k} className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
                     <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">{x.k}</p>
-                    <p className="font-mono text-sm font-bold text-blue-300">{x.v}</p>
+                    <p className="font-mono text-sm font-bold text-gold-300">{x.v}</p>
                   </div>
                 ))}
               </div>
@@ -683,7 +683,7 @@ export function C10_MathsArithmeticProgressionsSim() {
             {(['all', 'foundation', 'standard', 'advanced'] as const).map((t) => (
               <button key={t} onClick={() => setTierFilter(t)}
                 className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all capitalize ${
-                  tierFilter === t ? 'bg-blue-600 border-blue-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                  tierFilter === t ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                 }`}>
                 {t}
               </button>
@@ -707,7 +707,7 @@ export function C10_MathsArithmeticProgressionsSim() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {ch.options.map((opt, i) => {
                     const isCorrect = i === ch.correctIndex;
-                    let cls = 'border-slate-700 bg-slate-900 hover:border-blue-600';
+                    let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                     if (done && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                     else if (done && picked === i) cls = 'border-rose-600 bg-rose-950/40';
                     return (
@@ -769,7 +769,7 @@ export function C10_MathsArithmeticProgressionsSim() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-blue-300 uppercase tracking-wider mb-2">Formula sheet (all live in this sim)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Formula sheet (all live in this sim)</p>
               <ul className="text-xs text-slate-300 space-y-1.5 font-mono">
                 <li>aₙ = a + (n − 1)d</li>
                 <li>Sₙ = n/2 · (2a + (n−1)d)</li>
@@ -780,7 +780,7 @@ export function C10_MathsArithmeticProgressionsSim() {
               </ul>
             </div>
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-blue-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
               <ul className="text-xs text-slate-400 space-y-1.5 leading-relaxed">
                 <li>• Every readout is integer-exact arithmetic from your sliders — no rounding anywhere in this chapter, by nature.</li>
                 <li>• The green gap row checks aₖ₊₁ − aₖ = d for EACH gap and would flash rose the moment d were inconsistent — constancy is verified, not assumed.</li>

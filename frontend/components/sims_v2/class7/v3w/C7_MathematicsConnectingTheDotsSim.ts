@@ -11,7 +11,7 @@ export const w_c7_mathematicsconnectingthedotssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Explorations in Grids: Number Patterns in Arrays',
     chapters: [],
     nodeIds: ['c7_math_ch06_004', 'c7_math_ch15_001', 'c7_math_ch15_007', 'c7_math_ch10_010', 'c7_math_ch11_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are arranging chairs in the school assembly hall for the annual sports day, placing them in rows.', goal: 'Master Explorations in Grids: Number Patterns in Arrays.' },
     discovery: {
         question: 'Find the first three common multiples of 6 and 8.',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsconnectingthedotssim: SimDef = {
         hook: 'Students often confuse "common multiples" with "common factors" or assume that common multiples can be found by simply.',
     },
     teaching: [
-        { title: 'Explorations in grids and arrays involves.', text: 'Explorations in grids and arrays involves discovering numerical patterns and algebraic relationships by arranging numbers, dots, or objects in rows and columns.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Explorations in grids and arrays involves.', text: 'Explorations in grids and arrays involves discovering numerical patterns and algebraic relationships by arranging numbers, dots, or objects in rows and columns.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch06_004', title: 'Explorations in grids and arrays.',

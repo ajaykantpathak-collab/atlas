@@ -11,7 +11,7 @@ export const w_c12_computersciencenetworksecuritycryptographysim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Network Security: Firewall and Encryption Basics',
     chapters: [],
     nodeIds: ['c12_cs_cbse_01_010', 'c12_cs_cbse_12_005', 'c12_cs_cbse_01_001', 'c12_cs_cbse_01_002', 'c12_cs_cbse_01_009', 'c12_cs_cbse_12_007', 'c12_cs_cbse_12_004', 'c12_cs_cbse_12_001', 'c12_cs_cbse_12_011', 'c12_cs_cbse_12_012', 'c12_cs_cbse_01_007', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_005', 'c12_cs_cbse_01_006', 'c12_cs_cbse_01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re sending a confidential letter (data packet) through a messenger (network) — you\'d want a.', goal: 'Master Network Security: Firewall and Encryption Basics.' },
     discovery: {
         question: 'Explain why symmetric encryption alone is insufficient for secure key exchange over an untrusted network, and how asymmetric encryption solves this.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencenetworksecuritycryptographysim: SimDef = {
         hook: 'Students often believe a firewall "encrypts data" or that encryption "blocks hackers." Firewalls filter traffic based.',
     },
     teaching: [
-        { title: 'Network security encompasses measures to.', text: 'Network security encompasses measures to protect network infrastructure and data from unauthorized access, misuse, or disruption; a firewall is a hardware or software system that monitors and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Network security encompasses measures to.', text: 'Network security encompasses measures to protect network infrastructure and data from unauthorized access, misuse, or disruption; a firewall is a hardware or software system that monitors and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_01_010', title: 'Network security encompasses measures.',

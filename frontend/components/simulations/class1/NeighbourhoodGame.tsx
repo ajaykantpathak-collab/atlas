@@ -57,7 +57,7 @@ const TEACHING_SLIDES = [
         title: 'Places That Help Us! 🏫',
         text: 'A school is where we learn with teachers! A hospital is where doctors help us when we are sick. A park is where we play on swings and slides!',
         emoji: '🏫',
-        bgColor: 'from-blue-400 to-indigo-500',
+        bgColor: 'from-gold-400 to-gold-500',
     },
     {
         title: 'Markets & Post Offices! 🛒',
@@ -69,13 +69,13 @@ const TEACHING_SLIDES = [
         title: 'Land Features Around Us! ⛰️',
         text: 'Not all land is the same! A hill is high land we climb up. Flat land (plain) is level ground where we play. A valley is the low land between hills!',
         emoji: '⛰️',
-        bgColor: 'from-teal-400 to-cyan-500',
+        bgColor: 'from-teal-400 to-gold-500',
     },
     {
         title: 'Rivers and Ponds! 🌊',
         text: 'A river is a long stream of flowing water that moves along. A pond is a small body of still water that stays in one place!',
         emoji: '🌊',
-        bgColor: 'from-cyan-400 to-blue-500',
+        bgColor: 'from-gold-400 to-gold-500',
     },
 ];
 // ─── Types ────────────────────────────────────────────────────

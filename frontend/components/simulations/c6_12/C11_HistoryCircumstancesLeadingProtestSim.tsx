@@ -1315,7 +1315,7 @@ function C11_HistoryCircumstancesLeadingProtestSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-300">Cash-Crop Coercion (Tinkathia 3/20th):</span>
-                        <span className="text-blue-400 font-bold">{cashCropCoercion}%</span>
+                        <span className="text-gold-400 font-bold">{cashCropCoercion}%</span>
                       </div>
                       <input
                         type="range"
@@ -1326,7 +1326,7 @@ function C11_HistoryCircumstancesLeadingProtestSim({
                           setCashCropCoercion(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Cash Crop Coercion"
                       />
                     </div>
@@ -1382,7 +1382,7 @@ function C11_HistoryCircumstancesLeadingProtestSim({
                         </div>
                         <div className="p-3 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-between">
                           <span className="text-xs text-slate-300">Indigo Cultivators:</span>
-                          <span className="text-xs font-bold text-blue-400">
+                          <span className="text-xs font-bold text-gold-400">
                             {cashCropCoercion > 50 ? 'Dadani Debt Trap Locked' : 'Free Grain Sowing'}
                           </span>
                         </div>
@@ -1596,7 +1596,7 @@ function C11_HistoryCircumstancesLeadingProtestSim({
                       <p className="text-xs text-slate-400 mb-3">Comprised West Bengal, Bihar, Orissa & Chota Nagpur (54M pop).</p>
                       <div className="h-3 bg-slate-800 rounded-full overflow-hidden flex">
                         <div className="h-full bg-amber-500" style={{ width: '78%' }} />
-                        <div className="h-full bg-blue-500" style={{ width: '22%' }} />
+                        <div className="h-full bg-gold-500" style={{ width: '22%' }} />
                       </div>
                       <div className="flex justify-between text-[10px] text-slate-400 mt-1">
                         <span>Hindu Majority: 78%</span>
@@ -1607,11 +1607,11 @@ function C11_HistoryCircumstancesLeadingProtestSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <div className="flex items-center justify-between mb-2">
                         <h4 className="text-xs font-bold text-slate-300">Eastern Bengal & Assam</h4>
-                        <span className="text-xs text-blue-400 font-bold">Capital: Dacca</span>
+                        <span className="text-xs text-gold-400 font-bold">Capital: Dacca</span>
                       </div>
                       <p className="text-xs text-slate-400 mb-3">Comprised East Bengal & Assam (31M pop). Curzon toured Dacca in 1904.</p>
                       <div className="h-3 bg-slate-800 rounded-full overflow-hidden flex">
-                        <div className="h-full bg-blue-500" style={{ width: '60%' }} />
+                        <div className="h-full bg-gold-500" style={{ width: '60%' }} />
                         <div className="h-full bg-amber-500" style={{ width: '40%' }} />
                       </div>
                       <div className="flex justify-between text-[10px] text-slate-400 mt-1">
@@ -2218,7 +2218,7 @@ function C11_HistoryCircumstancesLeadingProtestSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800 col-span-2 md:col-span-1">
                 <div className="text-xs text-slate-400">Challenges Solved</div>
-                <div className="text-xl font-black text-blue-400">{filteredChallenges.length}</div>
+                <div className="text-xl font-black text-gold-400">{filteredChallenges.length}</div>
               </div>
             </div>
           </div>
@@ -2322,7 +2322,7 @@ function C11_HistoryCircumstancesLeadingProtestSim({
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <div className="font-bold text-blue-300">3. Where in real life might you use this?</div>
+                <div className="font-bold text-gold-300">3. Where in real life might you use this?</div>
                 <p className="text-slate-400 leading-relaxed">
                   In understanding modern civil liberties, tribal land protection under tenancy laws, and why constructive self-reliance (Swadeshi) remains vital.
                 </p>

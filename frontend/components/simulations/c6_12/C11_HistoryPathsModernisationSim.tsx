@@ -103,7 +103,7 @@ export function C11_HistoryPathsModernisationSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs mt-1">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Japan literacy</p>
-              <p className="font-mono font-bold text-sky-300">{literacy}%</p>
+              <p className="font-mono font-bold text-gold-300">{literacy}%</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Factories index</p>
@@ -121,7 +121,7 @@ export function C11_HistoryPathsModernisationSim() {
             {[
               { l: 'Industry and railways', v: industry, set: setIndustry, c: 'accent-amber-500' },
               { l: 'Army and navy', v: military, set: setMilitary, c: 'accent-red-500' },
-              { l: 'Universal schooling', v: schooling, set: setSchooling, c: 'accent-sky-500' }
+              { l: 'Universal schooling', v: schooling, set: setSchooling, c: 'accent-gold-500' }
             ].map((s) => (
               <div key={s.l}>
                 <div className="flex justify-between text-[11px] text-slate-400">
@@ -134,7 +134,7 @@ export function C11_HistoryPathsModernisationSim() {
             <div className="grid grid-cols-3 gap-1">
               {(['self', 'reform', 'revolution'] as const).map((p) => (
                 <button key={p} onClick={() => setChinaPath(p)}
-                  className={`min-h-11 rounded-lg text-[9px] font-bold ${chinaPath === p ? 'bg-sky-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                  className={`min-h-11 rounded-lg text-[9px] font-bold ${chinaPath === p ? 'bg-gold-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                   {p === 'self' ? 'Self-strength' : p === 'reform' ? 'Reforms' : 'Revolution'}
                 </button>
               ))}
@@ -144,7 +144,7 @@ export function C11_HistoryPathsModernisationSim() {
           </div>
 
           <div className="bg-slate-900/60 rounded-2xl border border-slate-800 p-4 text-xs leading-relaxed text-slate-300">
-            <p className="font-bold text-sky-300 mb-1">Verdicts</p>
+            <p className="font-bold text-gold-300 mb-1">Verdicts</p>
             <p>Japan sovereignty: {sovereignty}</p>
             <p>China: {cn.verdict}</p>
           </div>

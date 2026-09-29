@@ -72,7 +72,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Adolescence",
+    "title": "Adolescence Is a Critical Transitional",
     "text": "Adolescence is a critical transitional developmental stage (approximately 10-19 years) characterised by rapid, simultaneous biological, psychological, and social transformations that fundamentally reshape an individual's self-concept, relationships, and",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -355,10 +355,10 @@ export const C11_HS_GEN: SimDef[] = [
     "answer": "Human Ecology studies the dynamic relationships between human beings (the organism) and their physical, economic, social, and psychological environment",
     "options": [
      "Sarojini Naidu, Rajkumari Amrit Kaur, Kamaladevi Chattopadhyay, and Lady Dorothy Irwin",
-     "The term \"Home Science\" provided social legitimacy in a conservative colonial society where women's education needed to appear compatible with domestic roles",
+     "The student must be able to name all four founders of Lady Irwin College, explain each one's specific contribution (visionary leadership, political advocacy",
      "Human Ecology studies the dynamic relationships between human beings (the organism) and their physical, economic, social, and psychological environment"
     ],
-    "hint": "Straight from the 'Quality of Life  in HEFS' slide -- match the key terms.",
+    "hint": "Straight from the 'Quality of Life in HEFS' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"QoL means happiness\" or \"Home Management is the goal\") reveals the student still conflates HEFS with the outdated Home Science stereotype and misses the ecological, multidisciplinary, and equity-focused rationale.",
     "id": "gen_c11_hs_ch01_q9",
     "nodeId": "c11_hs_cbse_01_011",
@@ -375,7 +375,7 @@ export const C11_HS_GEN: SimDef[] = [
     "answer": "Sarojini Naidu, Rajkumari Amrit Kaur, Kamaladevi Chattopadhyay, and Lady Dorothy Irwin",
     "options": [
      "Human Ecology studies the dynamic relationships between human beings (the organism) and their physical, economic, social, and psychological environment",
-     "(a) Home Science: primarily girls/women; HEFS: all genders, all locations. (b) Home Science: domestic resources (food, cloth, childcare)",
+     "The student must be able to name all four founders of Lady Irwin College, explain each one's specific contribution (visionary leadership, political advocacy",
      "Sarojini Naidu, Rajkumari Amrit Kaur, Kamaladevi Chattopadhyay, and Lady Dorothy Irwin"
     ],
     "hint": "Straight from the 'Key historical figures in' slide -- match the key terms.",
@@ -444,7 +444,7 @@ export const C11_HS_GEN: SimDef[] = [
      "(1) Biological ecology assumes organisms respond instinctively to environmental pressures; human ecology recognizes humans consciously perceive, evaluate",
      "The statement is incomplete because HEFS views adolescence through an ecological lens: the human organism interacts with physical, economic, social, and psychological environments"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Adolescence is a critical' slide -- match the key terms.",
     "misconception": "A student who only cites hormones reveals a biological determinism misconception, ignoring the person-environment interaction central to human ecology.",
     "id": "gen_c11_hs_ch01_q14",
     "nodeId": "c11_hs_cbse_01_006",
@@ -459,7 +459,7 @@ export const C11_HS_GEN: SimDef[] = [
      "The response should mention: (1) Lady Irwin College (1932) was founded by eminent women (Sarojini Naidu, Rajkumari Amrit Kaur",
      "The behaviours form a synergistic system: Growth spurt → increased nutritional demand (skipping breakfast compromises bone/muscle development) → body composition changes → altered"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Adolescence is a critical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The behaviours form a synergistic system: Growth spurt → increased nutritional demand (skipping breakfast compromises",
     "id": "gen_c11_hs_ch01_q15",
     "nodeId": "c11_hs_cbse_01_006",
@@ -523,15 +523,15 @@ export const C11_HS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_hs_ch02",
-  "title": "Self",
+  "title": "Self Is The Totality Of a Person's Experiences",
   "subtitle": "Home Science · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "home science",
-  "topic": "Self",
+  "topic": "Self Is The Totality Of a Person's Experiences",
   "chapters": [
-   "Home Science Ch2: Self",
-   "Home Science Ch3: Self"
+   "Home Science Ch2: Self Is The Totality Of a Person's Experiences",
+   "Home Science Ch3: Self Is The Totality Of a Person's Experiences"
   ],
   "nodeIds": [
    "c11_hs_cbse_02_001",
@@ -556,7 +556,7 @@ export const C11_HS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Self actually explain?",
+   "question": "In one line -- what does Self Is The Totality Of a actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -567,25 +567,25 @@ export const C11_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Self",
+    "title": "Self Is The Totality Of a Person's",
     "text": "The self is the totality of a person's experiences, ideas, thoughts, and feelings with regard to themselves — the characteristic way in which an individual defines themselves.",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Self-concept",
+    "title": "Self-concept Is The Cognitive-descriptive",
     "text": "Self-concept is the cognitive-descriptive component of the self, representing the organised collection of beliefs, perceptions, and evaluations an individual holds about their own attributes, abilities, roles, and qualities (e.",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Identity",
+    "title": "Identity Is The Enduring Sense",
     "text": "Identity is the enduring sense of self that provides continuity and sameness across time and situations, comprising personal identity (unique attributes, traits, and characteristics that distinguish an individual from others) and social identity (aspects",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Self-awareness",
+    "title": "Self-awareness Is The Mental Representation",
     "text": "Self-awareness is the mental representation of oneself as a distinct entity separate from the environment, emerging around 18 months via mirror self-recognition, while self-understanding is the evolving cognitive schema through which individuals describe and",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -603,7 +603,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Adolescence",
+    "title": "Adolescence Is a Critical Period",
     "text": "Adolescence is a critical period for identity development because it is the developmental stage (approximately 12–18 years) where individuals, driven by cognitive advances and socio-cultural demands, actively construct a coherent sense of self by integrating",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -615,13 +615,13 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Puberty",
+    "title": "Puberty Is The Specific Point",
     "text": "Puberty is the specific point in time when an individual attains sexual maturity, marked by menarche (first menstruation) in girls and spermatogenesis (production of spermatozoa) in boys.",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Cognitive Changes During Adolescence Refer",
+    "title": "Cognitive Changes During Adolescence",
     "text": "Cognitive changes during adolescence refer to the developmental shift from concrete to abstract, hypothetical-deductive reasoning (Piaget's formal operational stage), enabling adolescents to imagine future possibilities, reflect on their own thinking",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -645,7 +645,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Self-construction",
+    "title": "Self-construction Is The Lifelong",
     "text": "Self-construction is the lifelong, dynamic process through which individuals actively build and continuously revise their sense of self by integrating biological maturation, cognitive advances, emotional experiences, and socio-cultural feedback into a",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -661,7 +661,7 @@ export const C11_HS_GEN: SimDef[] = [
      "\"I am ambitious\" → personal (unique trait). \"I am a Gujarati\" → social (regional/linguistic group membership)",
      "Correct evaluation: The student's argument confuses *context of expression* with *definitional nature*"
     ],
-    "hint": "Straight from the 'self' slide -- match the key terms.",
+    "hint": "Straight from the 'self is the totality of a' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student agrees with the argument, they conflate *social behaviour* with *social identity*.",
     "id": "gen_c11_hs_ch02_q1",
     "nodeId": "c11_hs_cbse_02_001",
@@ -734,7 +734,7 @@ export const C11_HS_GEN: SimDef[] = [
      "In middle childhood, self-concept is concrete (\"I run faster than Kiran\") allowing clear, stable self-evaluation",
      "\"I am honest\" reflects personal identity because honesty is a trait that varies across individuals"
     ],
-    "hint": "Straight from the 'Identity' slide -- match the key terms.",
+    "hint": "Straight from the 'Identity is the enduring sense' slide -- match the key terms.",
     "misconception": "A wrong answer that says both are personal because \"I feel them\" misses the structural difference: social identities require an external group reference, personal identities do not.",
     "id": "gen_c11_hs_ch02_q3",
     "nodeId": "c11_hs_cbse_02_003",
@@ -943,7 +943,7 @@ export const C11_HS_GEN: SimDef[] = [
      "Arjun shows: (1) Physical/material descriptions (\"red cycle\"), (2) Active descriptions (\"run fast\"), (3) Absolute/non-comparative terms (\"fast\" not \"faster than\")",
      "The primary psychosocial crisis of adolescence is Identity vs Role Confusion. The two possible outcomes are identity achievement (a coherent"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Adolescence is a critical period' slide -- match the key terms.",
     "misconception": "A wrong answer — such as naming \"trust vs mistrust\" or \"autonomy vs shame\" — reveals the student has not distinguished adolescence's specific developmental task from earlier stages.",
     "id": "gen_c11_hs_ch02_q7",
     "nodeId": "c11_hs_cbse_02_006",
@@ -981,11 +981,11 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define pubescence and state the typical age range for its onset in Indian girls and boys as per the NCERT textbook.",
     "answer": "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)",
     "options": [
-     "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them",
      "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight",
+     "Self-concept is the cognitive-descriptive component of the self, representing the organised collection of beliefs, perceptions",
      "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)"
     ],
-    "hint": "Straight from the 'Puberty' slide -- match the key terms.",
+    "hint": "Straight from the 'Puberty is the specific point' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., stating pubescence starts at 14 for girls or confusing it with puberty) reveals the student cannot distinguish the *process* (pubescence) from the *event* (puberty) or lacks the specific normative data required for board exam definitions.",
     "id": "gen_c11_hs_ch02_q9",
     "nodeId": "c11_hs_cbse_02_008",
@@ -1002,7 +1002,7 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define \"imaginary audience\" and \"personal fable\" as described by David Elkind. How do they differ in their cognitive mechanism?",
     "answer": "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them",
     "options": [
-     "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight",
+     "The student can (1) distinguish between self-concept (descriptive) and self-esteem (evaluative) with accurate terminology",
      "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)",
      "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them"
     ],
@@ -1107,8 +1107,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define Anorexia Nervosa and Bulimia Nervosa in one sentence each, highlighting the core behavioral distinction between them.",
     "answer": "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight",
     "options": [
-     "Imaginary audience: The adolescent's belief that others are constantly observing and evaluating them",
-     "Pubescence is the period during which physical and biological changes occur leading to the attainment of sexual maturity (puberty)",
+     "Self-concept is the cognitive-descriptive component of the self, representing the organised collection of beliefs, perceptions",
+     "Students equate self-concept and self-esteem as synonyms (\"how you see yourself\") and believe self-esteem is *automatically* high if self-concept contains positive traits",
      "Anorexia Nervosa is characterized by severe restriction of energy intake leading to significantly low body weight, intense fear of gaining weight"
     ],
     "hint": "Straight from the 'Eating disorders' slide -- match the key terms.",
@@ -1130,7 +1130,7 @@ export const C11_HS_GEN: SimDef[] = [
      "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
      "Radha uses absolute, concrete, physical/behavioral self-descriptions (\"I write\") and overestimates herself (\"I am good\" without nuance)"
     ],
-    "hint": "Straight from the 'Self-construction' slide -- match the key terms.",
+    "hint": "Straight from the 'Self-construction is the lifelong' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both as \"describing skills\" misses the structural shift from absolute→comparative, concrete→abstract, physical→psychological, and overestimation→realism that defines the early-to-middle childhood transition.",
     "id": "gen_c11_hs_ch02_q14",
     "nodeId": "c11_hs_cbse_02_012",
@@ -1143,6 +1143,52 @@ export const C11_HS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between self-concept",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "analyse a given adolescent case study",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain their bidirectional relationship",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between self-concept (descriptive) and self-esteem (evaluative) with accurate",
+    "id": "gen_c11_hs_ch02_q15",
+    "nodeId": "c11_hs_cbse_02_002",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Read the following case: *Rohan, 16, describes himself: \"I am a science student. I am terrible at physics. I am the cricket captain. I am short-tempered. I am a Rajput.\"* Map each description to one of these five categories from the NCERT Activity 1 analysis: (a) Physical/bodily self, (b) Feelings/emotions, (c) Mental",
     "answer": "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)",
@@ -1151,9 +1197,9 @@ export const C11_HS_GEN: SimDef[] = [
      "(a) Daily prompts: Biological — \"Note one bodily change/sensation today and how you felt about it\"; Cognitive — \"Describe one hypothetical future scenario you imagined today\"",
      "Correct mapping: \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill)"
     ],
-    "hint": "Straight from the 'self' slide -- match the key terms.",
+    "hint": "Straight from the 'self is the totality of a' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If \"terrible at physics\" is mapped to (b) Emotions, the student confuses *self-evaluation of ability* with *feeling*.",
-    "id": "gen_c11_hs_ch02_q15",
+    "id": "gen_c11_hs_ch02_q16",
     "nodeId": "c11_hs_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1166,9 +1212,9 @@ export const C11_HS_GEN: SimDef[] = [
      "The adolescent holds context-dependent self-views (shy vs. loud) simultaneously — a hallmark of abstract thinking allowing trait qualification",
      "The statement is incorrect because self-esteem is not a mathematical sum of positive traits"
     ],
-    "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
+    "hint": "Straight from the 'Self-concept is the' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals the misconception that self-esteem = positive self-concept, ignoring the role of standards and the real-ideal discrepancy central to NCERT.",
-    "id": "gen_c11_hs_ch02_q16",
+    "id": "gen_c11_hs_ch02_q17",
     "nodeId": "c11_hs_cbse_02_002",
     "difficulty": "standard"
    },
@@ -1181,23 +1227,8 @@ export const C11_HS_GEN: SimDef[] = [
      "The statement is incorrect because self-esteem is not a mathematical sum of positive traits",
      "Self-concept: \"I forgot my best friend's birthday\" (descriptive, factual claim about behaviour). Self-esteem: \"I am a bad friend\" (evaluative judgment of worth based on that"
     ],
-    "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
+    "hint": "Straight from the 'Self-concept is the' slide -- match the key terms.",
     "misconception": "A wrong answer that labels both as self-concept reveals the student cannot separate factual self-descriptions from value-laden self-evaluations — a critical error because board questions ask to \"distinguish with examples.\"",
-    "id": "gen_c11_hs_ch02_q17",
-    "nodeId": "c11_hs_cbse_02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyse how the developmental shift from middle childhood (concrete, comparative self-descriptions) to adolescence (abstract, contradictory self-descriptions) complicates the self-concept → self-esteem relationship. Give one concrete example.",
-    "answer": "In middle childhood, self-concept is concrete (\"I run faster than Kiran\") allowing clear, stable self-evaluation",
-    "options": [
-     "The claim is flawed because (1) positive affirmations that contradict lived experience (\"I am smart\" when failing exams) increase cognitive dissonance",
-     "\"I am honest\" reflects personal identity because honesty is a trait that varies across individuals",
-     "In middle childhood, self-concept is concrete (\"I run faster than Kiran\") allowing clear, stable self-evaluation"
-    ],
-    "hint": "Straight from the 'Self-concept' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"abstract thinking\" without linking to *evaluative instability* misses the core mechanism.",
     "id": "gen_c11_hs_ch02_q18",
     "nodeId": "c11_hs_cbse_02_002",
     "difficulty": "standard"
@@ -1205,24 +1236,24 @@ export const C11_HS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about self?",
+    "What surprised you about self is the totality of a person's experiences?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Self mastered! 🎯",
+  "successLine": "Self Is The Totality mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hs_ch04",
-  "title": "Resource",
+  "title": "Resource Is Any Asset",
   "subtitle": "Home Science · Chapter 4",
   "classLevel": 11,
   "mode": "senior",
   "subject": "home science",
-  "topic": "Resource",
+  "topic": "Resource Is Any Asset",
   "chapters": [
-   "Home Science Ch4: Resource"
+   "Home Science Ch4: Resource Is Any Asset"
   ],
   "nodeIds": [
    "c11_hs_cbse_04_001",
@@ -1243,7 +1274,7 @@ export const C11_HS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Resource directly with your eyes?",
+   "question": "Can you see Resource Is Any Asset directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -1254,7 +1285,7 @@ export const C11_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Resource",
+    "title": "Resource Is Any Asset",
     "text": "A resource is any asset, attribute, or means—human or non-human—that an individual or group can utilise to achieve a specific goal; it must possess utility for the given situation, be accessible to the user, and be manageable through planning and allocation.",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1278,13 +1309,13 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Interchangeability",
+    "title": "Characteristics of Resources:",
     "text": "Interchangeability is the characteristic of resources whereby one resource can substitute for another to achieve the same goal, allowing flexibility when a specific resource is scarce or unavailable.",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Planning",
+    "title": "Planning Is The Initial And Foundational",
     "text": "Planning is the initial and foundational step in the management process where an individual assesses the current situation, defines specific desired goals, identifies the gap between the two, and selects a course of action from available alternatives to",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1324,7 +1355,7 @@ export const C11_HS_GEN: SimDef[] = [
      "The sewing machine became a resource the moment you decided to learn tailoring and actively used it for stitching—because only then were you \"making use of\" it to accomplish a",
      "A resource is anything which we make use of while carrying out any activity to accomplish our goals"
     ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "hint": "Straight from the 'resource is any asset' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"resources are things we own\") reveals the misconception that ownership or existence alone confers resource status, ignoring the intentional, goal-directed utilisation central to the definition.",
     "id": "gen_c11_hs_ch04_q1",
     "nodeId": "c11_hs_cbse_04_001",
@@ -1471,7 +1502,7 @@ export const C11_HS_GEN: SimDef[] = [
      "In a remote village: money accessibility is lower (fewer ATMs/banks, irregular income from agriculture)",
      "For a recurring goal, gap analysis is continuous and dynamic — the gap is re-measured weekly (e.g., monthly test scores)"
     ],
-    "hint": "Straight from the 'Planning' slide -- match the key terms.",
+    "hint": "Straight from the 'Planning is the initial and' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both identically (e.g., \"make a timetable for both\") fails to recognise that recurring goals require feedback loops and habit formation, while one-time goals require critical path scheduling — a confusion that leads to rigid plans for long-term goals and missed deadlines for events.",
     "id": "gen_c11_hs_ch04_q6",
     "nodeId": "c11_hs_cbse_04_008",
@@ -1660,7 +1691,7 @@ export const C11_HS_GEN: SimDef[] = [
      "Motivation is not a binary prerequisite; skills can be built through extrinsic motivators (e.g., grades, parental expectations) even when intrinsic interest is low",
      "The sewing machine became a resource the moment you decided to learn tailoring and actively used it for stitching—because only then were you \"making use of\" it to accomplish a"
     ],
-    "hint": "Straight from the 'resource' slide -- match the key terms.",
+    "hint": "Straight from the 'resource is any asset' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it was always a resource because it could be used\") reveals confusion between potential utility and actual resource status, missing the textbook's emphasis on active utilisation.",
     "id": "gen_c11_hs_ch04_q11",
     "nodeId": "c11_hs_cbse_04_001",
@@ -1735,7 +1766,7 @@ export const C11_HS_GEN: SimDef[] = [
      "The statement is flawed. (a) Energy hierarchy: Conservation (behavioral changes, insulation, efficient appliances) and efficiency (5-star appliances, LED",
      "The reasoning is flawed because interchangeability requires the substitute resource to achieve the *same goal with equivalent effectiveness* in the given context"
     ],
-    "hint": "Straight from the 'Interchangeability' slide -- match the key terms.",
+    "hint": "Straight from the 'Interchangeability is the' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the substitution reveals the student thinks interchangeability is merely about replacing one object with another, ignoring the qualitative match required for the specific goal.",
     "id": "gen_c11_hs_ch04_q16",
     "nodeId": "c11_hs_cbse_04_007",
@@ -1750,7 +1781,7 @@ export const C11_HS_GEN: SimDef[] = [
      "The sewing machine became a resource the moment you decided to learn tailoring and actively used it for stitching—because only then were you \"making use of\" it to accomplish a",
      "A good matrix pairs: (1) Coaching class (₹2000, saves time) ↔ Self-study with guidebooks (₹500, costs time) — Decision rule: Choose self-study if concept clarity > speed needed"
     ],
-    "hint": "Straight from the 'Interchangeability' slide -- match the key terms.",
+    "hint": "Straight from the 'Interchangeability is the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good matrix pairs: (1) Coaching class (₹2000, saves time) ↔ Self-study with guidebooks (₹500, costs time) — Decision",
     "id": "gen_c11_hs_ch04_q17",
     "nodeId": "c11_hs_cbse_04_007",
@@ -1765,7 +1796,7 @@ export const C11_HS_GEN: SimDef[] = [
      "A strong answer: 1) Planning: Goal = 18 hrs study (6 subjects × 3 hrs). 2) Organizing: Calculate available hours: 24",
      "Combination 1: Money (₹500) + Time (2 hrs) → Buy materials, handmake a scrapbook. Manage by pre-planning layout to minimise rework"
     ],
-    "hint": "Straight from the 'Interchangeability' slide -- match the key terms.",
+    "hint": "Straight from the 'Interchangeability is the' slide -- match the key terms.",
     "misconception": "A poor answer lists only one combination or ignores the management aspect, showing inability to see multiple pathways and optimisation within constraints.",
     "id": "gen_c11_hs_ch04_q18",
     "nodeId": "c11_hs_cbse_04_007",
@@ -1774,11 +1805,11 @@ export const C11_HS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about resource?",
+    "What surprised you about resource is any asset?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Resource mastered! 🎯",
+  "successLine": "Resource Is Any Asset mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2050,8 +2081,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "State the two primary criteria used in the NCERT classification hierarchy for textile fibres, and give one example of a fibre that fits each criterion at the highest level.",
     "answer": "The two primary criteria are: (1) Origin - Natural vs Manufactured; (2) Chemical composition - Cellulosic, Protein, Synthetic, Mineral",
     "options": [
-     "The four properties are: (1) Fibre length – must exceed the critical fibre length (typically >12 mm for cotton-type spinning) to allow fibre-to-fibre friction to transmit twist",
-     "Wool is primarily keratin; silk is primarily fibroin. The silk filament is secreted by the salivary glands (modified labial glands) of the silkworm larva",
+     "Textile finishing is the series of treatments applied to fabric after loom-state production to enhance its appearance, texture, or performance for specific end-uses",
+     "The student must be able to differentiate the four fibres (cotton, linen, jute, hemp) by their botanical source, fibre category, morphological properties (length, fineness",
      "The two primary criteria are: (1) Origin - Natural vs Manufactured; (2) Chemical composition - Cellulosic, Protein, Synthetic, Mineral"
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
@@ -2470,8 +2501,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define braiding, nets, and laces in one sentence each, highlighting the primary yarn manipulation technique for each.",
     "answer": "Braiding: Diagonal plaiting of three or more parallel yarns originating from a single point. Nets: Open-mesh fabric created by inter-knotting yarns at regular intervals",
     "options": [
-     "Wool is primarily keratin; silk is primarily fibroin. The silk filament is secreted by the salivary glands (modified labial glands) of the silkworm larva",
-     "The three categories are: (1) Regenerated cellulosic fibres — example: viscose rayon (raw material: wood pulp/cotton linters)",
+     "Students believe fabric behaviour is determined primarily by fibre content alone (e.g., \"cotton breathes, polyester doesn't\") and treat yarn, weave",
+     "Students believe 'blended fabric' means fibres are mixed at the fabric stage (like mixing paint colours) rather than at the yarn stage (intimate blending of staple fibres before",
      "Braiding: Diagonal plaiting of three or more parallel yarns originating from a single point. Nets: Open-mesh fabric created by inter-knotting yarns at regular intervals"
     ],
     "hint": "Straight from the 'Specialised fabric constructions' slide -- match the key terms.",
@@ -2699,7 +2730,9 @@ export const C11_HS_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "home science",
   "topic": "Levels Of Communication",
-  "chapters": ["Home Science Ch6: Levels Of Communication"],
+  "chapters": [
+   "Home Science Ch6: Levels Of Communication"
+  ],
   "nodeIds": [
    "c11_hs_cbse_06_003",
    "c11_hs_cbse_06_011",
@@ -2751,7 +2784,7 @@ export const C11_HS_GEN: SimDef[] = [
      "The claim is *partially valid but incomplete*. Wired LAN gives consistent high bandwidth, low latency, no RF interference — good for video editing, coding exams",
      "(a) Full club meeting: group communication—12 members, shared goal, structured turn-taking. (b) Sub-group discussions: group communication—each has 3-4 members collaborating on a"
     ],
-    "hint": "Straight from the 'Levels of communication refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Levels of communication' slide -- match the key terms.",
     "misconception": "A wrong answer that labels (b) as inter-personal because \"only 3 people\" reveals the student uses a rigid headcount threshold instead of the defining feature: collaborative goal with multi-directional feedback among all members.",
     "id": "gen_c11_hs_ch06_q1",
     "nodeId": "c11_hs_cbse_06_003",
@@ -2884,7 +2917,7 @@ export const C11_HS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about levels of communication refer to the?",
+    "What surprised you about levels of communication?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -2938,7 +2971,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Health Care Delivery In India",
+    "title": "Health Care Delivery In India Operates",
     "text": "Health care delivery in India operates through a three-tiered referral system: Primary Health Care (PHC) is the first point of contact for individuals with the health system, providing preventive, promotive, and basic curative services at the community level;",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3633,7 +3666,7 @@ export const C11_HS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Health, As Defined By The mastered! 🎯",
+  "successLine": "Health, As Defined mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3683,7 +3716,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Breastfeeding",
+    "title": "Breastfeeding Is The Physiological Process",
     "text": "Breastfeeding is the physiological process of feeding an infant with human milk directly from the breast, providing a dynamic, species-specific nutrient matrix (including macronutrients in emulsified form, bioactive factors, and immunoglobulins like secretory",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3873,7 +3906,7 @@ export const C11_HS_GEN: SimDef[] = [
     "answer": "PENTA stands for a combination vaccine containing DPT (Diphtheria, Pertussis, Tetanus), Hepatitis B, and Hib (Haemophilus influenzae type b)",
     "options": [
      "Exclusive breastfeeding means the infant receives only breast milk (including expressed milk or from a wet nurse) and no other liquids or solids — not even water",
-     "The seven formulations are: (1) Indian multipurpose flour – groundnut flour (low fat) and bengal gram; (2) Malt food – cereal malt, low fat groundnut flour, bengal gram",
+     "Breastfeeding is the physiological process of feeding an infant with human milk directly from the breast, providing a dynamic",
      "PENTA stands for a combination vaccine containing DPT (Diphtheria, Pertussis, Tetanus), Hepatitis B, and Hib (Haemophilus influenzae type b)"
     ],
     "hint": "Straight from the 'Immunisation schedule' slide -- match the key terms.",
@@ -3916,7 +3949,7 @@ export const C11_HS_GEN: SimDef[] = [
     "options": [
      "The first adaptation is to thicken thin liquids using agents like rice flour, cornstarch, or commercial thickeners to a nectar or honey consistency",
      "The statement is largely false. Breast milk composition (especially lactose, fat, protein) is remarkably resilient",
-     "Cereals: 30+50+10+30 = 120 g (required 60 g) — excess 60 g. Identify: 20+20 = 40 g (required 30 g) — excess 10 g",
+     "Cereals: 30+50+10+30 = 120 g (required 60 g) — excess 60 g. Students: 20+20 = 40 g (required 30 g) — excess 10 g",
      "Cereals: 30+50+10+30 = 120 g (required 60 g) — excess 60 g. Pulses: 20+20 = 40 g (required 30 g) — excess 10 g"
     ],
     "hint": "Straight from the 'Planning balanced meals for' slide -- match the key terms.",
@@ -4162,7 +4195,7 @@ export const C11_HS_GEN: SimDef[] = [
      "At 14 weeks, the infant is due for the third dose of PENTA and the third dose of OPV. The minimum interval between PENTA doses is 4 weeks (28 days)",
      "Step 1: Recognize that breast milk is 88% water, fully meeting hydration needs even in hot climates"
     ],
-    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "hint": "Straight from the 'Breastfeeding is the' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting water/ORS shows failure to distinguish physiological stool patterns from pathology and ignorance of the water content of breast milk.",
     "id": "gen_c11_hs_ch08_q13",
     "nodeId": "c11_hs_cbse_08_004",
@@ -4177,7 +4210,7 @@ export const C11_HS_GEN: SimDef[] = [
      "Semi-solid readiness (5-6 months): head control (cervical muscle maturity), sitting with support (trunk control)",
      "Human milk has lower total protein (0.9-1.2 g/100ml) vs cow's milk (3.3 g/100ml), with a whey:casein ratio of 60:40 (vs 20:80 in cow's milk)"
     ],
-    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "hint": "Straight from the 'Breastfeeding is the' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"human milk has more protein\" or ignoring whey:casein ratio reveals a rote memorisation of \"protein for growth\" without understanding the qualitative adaptation of human milk for human infants.",
     "id": "gen_c11_hs_ch08_q14",
     "nodeId": "c11_hs_cbse_08_004",
@@ -4192,7 +4225,7 @@ export const C11_HS_GEN: SimDef[] = [
      "1. Replace sugary beverages with water/milk: School policy banning carbonated drinks/sweetened juices; outcome: ≥50% reduction in added sugar intake from beverages (24-hr recall)",
      "The statement is largely false. Breast milk composition (especially lactose, fat, protein) is remarkably resilient"
     ],
-    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "hint": "Straight from the 'Breastfeeding is the' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement shows a deficit model of breastfeeding, ignoring the biological priority of lactation and the irreplaceable non-nutritive components of human milk.",
     "id": "gen_c11_hs_ch08_q15",
     "nodeId": "c11_hs_cbse_08_004",
@@ -4204,10 +4237,10 @@ export const C11_HS_GEN: SimDef[] = [
     "answer": "Exclusive breastfeeding means the infant receives only breast milk (including expressed milk or from a wet nurse) and no other liquids or solids — not even water",
     "options": [
      "The seven formulations are: (1) Indian multipurpose flour – groundnut flour (low fat) and bengal gram; (2) Malt food – cereal malt, low fat groundnut flour, bengal gram",
-     "PENTA stands for a combination vaccine containing DPT (Diphtheria, Pertussis, Tetanus), Hepatitis B, and Hib (Haemophilus influenzae type b)",
+     "Low-cost complementary foods are nutrient-dense, home-prepared mixtures made from locally available cereals, pulses, oilseeds, and jaggery/sugar in specific ratios",
      "Exclusive breastfeeding means the infant receives only breast milk (including expressed milk or from a wet nurse) and no other liquids or solids — not even water"
     ],
-    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "hint": "Straight from the 'Breastfeeding is the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"breastfeeding with water\" or \"for 4 months\") reveals confusion between exclusive and predominant breastfeeding, or outdated guidelines (pre-2001 WHO recommended 4-6 months). This misconception leads to early supplementation, reducing milk supply and increasing infection risk.",
     "id": "gen_c11_hs_ch08_q16",
     "nodeId": "c11_hs_cbse_08_004",
@@ -4222,7 +4255,7 @@ export const C11_HS_GEN: SimDef[] = [
      "At 14 weeks, the infant is due for the third dose of PENTA and the third dose of OPV. The minimum interval between PENTA doses is 4 weeks (28 days)",
      "A strong answer includes: (1) Affirmation: \"Exclusive breastfeeding for 6 months is possible even when returning to school/work"
     ],
-    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "hint": "Straight from the 'Breastfeeding is the' slide -- match the key terms.",
     "misconception": "A poor answer focuses only on formula as inevitable, showing lack of knowledge on expression techniques, legal rights, and the feasibility of combining breastfeeding with education/employment.",
     "id": "gen_c11_hs_ch08_q17",
     "nodeId": "c11_hs_cbse_08_004",
@@ -4237,7 +4270,7 @@ export const C11_HS_GEN: SimDef[] = [
      "Roasting serves three purposes: (a) reduces moisture content, extending shelf-life by preventing microbial growth",
      "Colostrum, secreted in the first 2-3 days postpartum, is rich in secretory IgA (sIgA), lactoferrin, leukocytes, and epidermal growth factor, while being low in fat and lactose"
     ],
-    "hint": "Straight from the 'Breastfeeding' slide -- match the key terms.",
+    "hint": "Straight from the 'Breastfeeding is the' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"high protein\" or \"yellow colour\" misses the immunological mechanism. This indicates the student views colostrum merely as a nutrient source, not as a bioactive signalling fluid that programmes the infant's immune system and microbiome.",
     "id": "gen_c11_hs_ch08_q18",
     "nodeId": "c11_hs_cbse_08_004",
@@ -4303,13 +4336,13 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Factors Affecting Clothing Selection Refer",
+    "title": "Factors Affecting Clothing Selection",
     "text": "Factors affecting clothing selection refer to the interrelated variables—primarily age, climate/season, and occasion—that determine the appropriateness of fabric, garment style, colour, and accessories for an individual, ensuring comfort, safety, social",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Fashion",
+    "title": "Fashion Refers To a Style",
     "text": "Fashion refers to a style or trend that gains widespread contemporary acceptance and is expressed through fabrics, colours, designs, cuts, and accessories, while income determines the financial capacity to acquire, maintain, and replace clothing, influencing",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4345,7 +4378,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Clothing Requirements For Preschool",
+    "title": "Clothing Requirements For Preschool Children",
     "text": "Clothing requirements for preschool children (2–6 years) refer to the specific garment features, fabric choices, and design elements that address the rapid physical growth, high activity levels, developing self-help skills, emerging personality preferences,",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4735,7 +4768,7 @@ export const C11_HS_GEN: SimDef[] = [
      "1. Fabric: cotton/velvet/cotswool (season‑appropriate comfort). 2. Front opening with zipper + key ring or large velcro (accessible fastening)",
      "The back zipper is the most inappropriate feature because it prevents the child from practicing self-dressing (a key self-help milestone emerging at 12–18 months) and forces the"
     ],
-    "hint": "Straight from the 'Creeping age  and toddlerhood' slide -- match the key terms.",
+    "hint": "Straight from the 'Creeping age and toddlerhood' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on fabric or sleeve type reveals the student views clothing as static coverage rather than dynamic interaction with developmental tasks.",
     "id": "gen_c11_hs_ch09_q8",
     "nodeId": "c11_hs_cbse_09_008",
@@ -4752,8 +4785,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "List the six core clothing needs of children as identified in the NCERT textbook for Class 11 Home Science.",
     "answer": "The six core clothing needs are: Comfort, Safety, Self-help, Appearance, Allowance for growth, and Easy care",
     "options": [
-     "The four essential self-help features are: (1) large front openings, (2) large buttons graspable by a child's hand, (3) distinct front/back appearance for easy orientation",
-     "The two most important fabric properties are absorbency (to absorb perspiration) and ease of washing (for hygiene)",
+     "Clothing for children with special needs refers to garments specifically designed or adapted to accommodate physical, sensory, or motor limitations (e",
+     "Self-help features in children's clothing are design elements (large front openings, oversized buttons, distinct front/back differentiation",
      "The six core clothing needs are: Comfort, Safety, Self-help, Appearance, Allowance for growth, and Easy care"
     ],
     "hint": "Straight from the 'Clothing requirements for' slide -- match the key terms.",
@@ -4888,8 +4921,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "State the three primary fabric recommendations from the NCERT for children with special needs in summer and winter, and name one fastener type suggested for easy manipulation.",
     "answer": "Summer: cotton; winter: velvet, corduroy, cotswool. Fastener: velcro or zipper with key chain",
     "options": [
-     "The three primary factors are Age, Climate/Season, and Occasion. For a 5-year-old: Age → cotton knits for comfort and self-help",
-     "The two most important fabric properties are absorbency (to absorb perspiration) and ease of washing (for hygiene)",
+     "The student must be able to evaluate a given real-life scenario (specifying age, geographic location, season, and event type) and justify the selection of fabric, garment design",
+     "The student must be able to justify fabric and design choices for infant clothing by linking each feature (e",
      "Summer: cotton; winter: velvet, corduroy, cotswool. Fastener: velcro or zipper with key chain"
     ],
     "hint": "Straight from the 'Clothing for children with' slide -- match the key terms.",
@@ -5264,7 +5297,7 @@ export const C11_HS_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Clothing Functions Refer To mastered! 🎯",
+  "successLine": "Clothing Functions Refer mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5329,13 +5362,13 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Money",
+    "title": "Money Is Any Generally Accepted Medium",
     "text": "Money is any generally accepted medium of exchange that simultaneously functions as a measure of value, a standard of deferred payment, and a store of value, enabling families to acquire goods and services, compare worth across diverse items, settle future",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Budget",
+    "title": "A Budget Is a Forward-looking Financial",
     "text": "A budget is a forward-looking financial plan that systematically estimates a family's expected income from all sources and allocates it across specific expenditure categories (food, housing, education, savings, etc.",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5359,13 +5392,13 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Savings",
+    "title": "Savings Is The Portion Of Current",
     "text": "Savings is the portion of current money income (or other resources) that a family deliberately sets aside by forgoing present consumption, to be used for future needs, emergencies, or productive investment, where the decision to save is determined by both the",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Investment",
+    "title": "Investment Is The Deployment Of Saved",
     "text": "Investment is the deployment of saved money into financial or physical assets with the explicit expectation of generating future income, capital appreciation, or both, while accepting a measurable degree of risk and illiquidity.",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5377,7 +5410,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Credit",
+    "title": "Credit Is a Financial Arrangement Where",
     "text": "Credit is a financial arrangement where a borrower receives money, goods, or services in the present with the obligation to repay the lender in the future, usually with interest, based on the lender's trust in the borrower's willingness and ability to repay.",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5498,7 +5531,7 @@ export const C11_HS_GEN: SimDef[] = [
      "Ability to save = Income − Essential Expenses = ₹80,000 − ₹65,000 = ₹15,000 maximum possible. Current savings ₹5,000 is within ability",
      "(a) Medium of exchange – money changes hands for the car. (b) Measure of value – prices of models are compared in rupees"
     ],
-    "hint": "Straight from the 'Money' slide -- match the key terms.",
+    "hint": "Straight from the 'Money is any generally accepted' slide -- match the key terms.",
     "misconception": "A wrong mapping (e.g., calling the loan \"store of value\") shows the student cannot distinguish deferred payment from storage.",
     "id": "gen_c11_hs_ch10_q4",
     "nodeId": "c11_hs_cbse_10_004",
@@ -5735,11 +5768,11 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define investment in your own words and state how it differs from savings in terms of the fate of the principal amount.",
     "answer": "Investment is committing saved money to assets (financial or physical) expecting future income or capital growth, where the principal is exposed to market risk and may fluctuate",
     "options": [
-     "Credit is an arrangement to obtain money, goods, or services now and pay for them in the future, usually with interest",
-     "Savings is the deliberate setting aside of a portion of current income or resources by forgoing present consumption, for a specific future purpose (such as emergencies, goals",
+     "Students believe \"savings = income − expenditure\" is a complete definition, treating the residual as automatically savings",
+     "The student must be able to: (1) define credit and explain its dual nature as increased purchasing power and future obligation",
      "Investment is committing saved money to assets (financial or physical) expecting future income or capital growth, where the principal is exposed to market risk and may fluctuate"
     ],
-    "hint": "Straight from the 'Investment' slide -- match the key terms.",
+    "hint": "Straight from the 'Investment is the deployment of' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"investment also keeps principal safe\" reveals the misconception that investment and savings differ only in return rate, ignoring the fundamental risk-transfer nature of investment.",
     "id": "gen_c11_hs_ch10_q10",
     "nodeId": "c11_hs_cbse_10_010",
@@ -5924,6 +5957,52 @@ export const C11_HS_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "define credit and explain its dual nature",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between the Four Cs of Credit",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate a given borrower scenario",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) define credit and explain its dual nature as increased purchasing power and future",
+    "id": "gen_c11_hs_ch10_q14",
+    "nodeId": "c11_hs_cbse_10_012",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A family has ₹50,000 in savings (material), the mother knows organic gardening (human), and the colony has a composting pit (community). They want to reduce their monthly vegetable bill of ₹3,000.",
     "answer": "Using savings alone (₹50,000) only converts material resource into vegetables — a one-way depletion",
@@ -5934,7 +6013,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Family resources' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"just buy vegetables from savings\" misses the core principle: optimisation leverages non-material resources to reduce dependence on finite material resources.",
-    "id": "gen_c11_hs_ch10_q14",
+    "id": "gen_c11_hs_ch10_q15",
     "nodeId": "c11_hs_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -5949,7 +6028,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Family resources' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good template has rows for: Human — skills of each member, health status, available hours/week, learning capacity;",
-    "id": "gen_c11_hs_ch10_q15",
+    "id": "gen_c11_hs_ch10_q16",
     "nodeId": "c11_hs_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -5964,7 +6043,7 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Family resources' slide -- match the key terms.",
     "misconception": "A wrong evaluation that says \"money solves everything\" ignores that during crises (pandemic, recession), material resources become illiquid or insufficient, while skills and community networks remain functional.",
-    "id": "gen_c11_hs_ch10_q16",
+    "id": "gen_c11_hs_ch10_q17",
     "nodeId": "c11_hs_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -5979,23 +6058,8 @@ export const C11_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Family resources' slide -- match the key terms.",
     "misconception": "A wrong plan that breaks the FD early loses interest and safety, showing failure to distinguish between resource *availability* and resource *timing*.",
-    "id": "gen_c11_hs_ch10_q17",
-    "nodeId": "c11_hs_cbse_10_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"A family with zero Money Income but substantial Direct Real Income (owned land, community support, diverse household skills) can have higher Psychic Income than a high-Money-Income family with no Direct Real Income.",
-    "answer": "Defensible with conditions. Psychic Income = satisfaction from Real Income utilisation. If the zero-Money-Income family's Direct Real Income (food from land, housing",
-    "options": [
-     "PPF offers a 15-year tenure (extendable in 5-year blocks), tax-free interest and maturity under Section 80C/10(11), and sovereign guarantee",
-     "The statement is valid. High material resources alone create concentration risk — job loss, inflation",
-     "Defensible with conditions. Psychic Income = satisfaction from Real Income utilisation. If the zero-Money-Income family's Direct Real Income (food from land, housing"
-    ],
-    "hint": "Straight from the 'Family income' slide -- match the key terms.",
-    "misconception": "A wrong answer absolutising either side ignores the textbook's nuanced view: Psychic Income is subjective and depends on the *match* between Real Income composition and the family's specific want-hierarchy, which varies across families and life stages.",
     "id": "gen_c11_hs_ch10_q18",
-    "nodeId": "c11_hs_cbse_10_003",
+    "nodeId": "c11_hs_cbse_10_002",
     "difficulty": "advanced"
    }
   ],
@@ -6058,7 +6122,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Mending",
+    "title": "Mending Is The Process Of Repairing",
     "text": "Mending is the process of repairing physical damage to fabrics—such as cuts, tears, holes, open seams, or detached fasteners—to restore structural integrity and appearance, performed using hand-sewing techniques (darning, patching, stitching) selected",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6070,7 +6134,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Stain",
+    "title": "A Stain Is An Unwanted Mark",
     "text": "A stain is an unwanted mark or discoloration on a fabric resulting from the contact, absorption, and often chemical bonding of foreign matter (staining substance) that cannot be removed by the normal laundering process and requires specific targeted treatment",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -6088,7 +6152,7 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Dirt",
+    "title": "Dirt Refers To Foreign Matter",
     "text": "Dirt refers to foreign matter (grease, grime, dust, particulate soil) adhering to fabric, classified as loose dirt (mechanically trapped, removable by mechanical action) and fixed dirt (bound by oily/greasy films requiring chemical action).",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6106,13 +6170,13 @@ export const C11_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Drying",
+    "title": "Drying Is The Process Of Removing",
     "text": "Drying is the process of removing moisture from washed fabrics using controlled environmental conditions (sunlight, shade, airflow) appropriate to the fibre type, while ironing is the application of controlled heat, moisture, and pressure to remove wrinkles",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Dry-cleaning",
+    "title": "Dry-cleaning Is a Fabric Cleaning Process",
     "text": "Dry-cleaning is a fabric cleaning process that uses non-aqueous chemical solvents (such as perchloroethylene, petroleum spirits, or fluorocarbons) instead of water to remove soils and stains from textiles, preventing fibre swelling, shrinkage, and colour",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -6299,11 +6363,11 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define the term 'stain' as per the NCERT Class 11 Home Science textbook and state the fundamental characteristic that distinguishes it from ordinary dirt/soil.",
     "answer": "A stain is an unwanted mark or colouration on a fabric caused by contact and absorption of foreign matter which cannot be removed by normal washing process and requires special",
     "options": [
-     "The five classifications and their reagent principles: (1) Vegetable stains (tea, coffee, fruit) — acidic in nature, removed by alkaline medium",
-     "The six stages in sequence are: (1) Stain removal, (2) Preparation of fabrics for washing (sorting, mending, steeping), (3) Washing (removing dirt using water, soaps/detergents",
+     "The three requirements are high temperature, moisture, and pressure. NCERT recommends an automatic electric iron because its temperature can be controlled",
+     "Stain removal is the systematic process of eliminating unwanted discoloration from fabrics using physical techniques (scraping, dipping, sponging",
      "A stain is an unwanted mark or colouration on a fabric caused by contact and absorption of foreign matter which cannot be removed by normal washing process and requires special"
     ],
-    "hint": "Straight from the 'stain' slide -- match the key terms.",
+    "hint": "Straight from the 'A stain is an unwanted mark' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"any dirty mark\") reveals the student confuses surface soiling (loose dirt) with a stain (absorbed/chemically bonded chromophore), leading to incorrect treatment choices like vigorous scrubbing instead of chemical dissolution.",
     "id": "gen_c11_hs_ch11_q4",
     "nodeId": "c11_hs_cbse_11_004",
@@ -6520,8 +6584,8 @@ export const C11_HS_GEN: SimDef[] = [
     "question": "Define the term 'surfactant' and write the word equation for the saponification reaction that produces soap.",
     "answer": "A surfactant is a surface-active agent that reduces the surface tension of water; it has a hydrophilic head and a hydrophobic tail",
     "options": [
-     "The four techniques are: (1) Scraping – for built‑up surface stains like dried mud or candle wax",
-     "The five classifications and their reagent principles: (1) Vegetable stains (tea, coffee, fruit) — acidic in nature, removed by alkaline medium",
+     "Students believe \"a simple running stitch fixes any tear\" because they confuse seam restitching (joining two intact edges) with hole/tear repair (bridging missing fabric)",
+     "The student can examine a damaged garment, identify the fabric type and damage category, select the appropriate mending technique (darning, patching, button replacement",
      "A surfactant is a surface-active agent that reduces the surface tension of water; it has a hydrophilic head and a hydrophobic tail"
     ],
     "hint": "Straight from the 'Soaps and detergents' slide -- match the key terms.",

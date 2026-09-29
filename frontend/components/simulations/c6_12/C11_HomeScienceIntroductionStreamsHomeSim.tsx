@@ -1336,7 +1336,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                 ? 'bg-emerald-950/70 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/70 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/70 text-gold-300 border-gold-600'
             }`}
           >
             {difficulty} Tier
@@ -1351,7 +1351,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-emerald-800/80 shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-emerald-800/80 shadow-lg">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 uppercase">
                 Field Scenario
@@ -1580,8 +1580,8 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                 <div className="space-y-4">
                   {/* Predict-Then-Check Hook */}
                   {!predictionMade && (
-                    <div className="p-3.5 bg-indigo-950/60 border border-indigo-700 rounded-xl">
-                      <p className="text-xs font-bold text-indigo-300 mb-2">🤔 PREDICTION EXPERIMENT:</p>
+                    <div className="p-3.5 bg-gold-950/60 border border-gold-700 rounded-xl">
+                      <p className="text-xs font-bold text-gold-300 mb-2">🤔 PREDICTION EXPERIMENT:</p>
                       <p className="text-xs text-slate-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1677,7 +1677,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                           value={pulseGrams}
                           aria-label="Pulses and Legumes in grams"
                           onChange={e => setPulseGrams(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1723,7 +1723,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-xs text-slate-400 block">Total Protein</span>
-                          <span className="text-lg font-black text-indigo-400">{calculatedNutrition.totalProtein} g</span>
+                          <span className="text-lg font-black text-gold-400">{calculatedNutrition.totalProtein} g</span>
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-xs text-slate-400 block">Calcium Yield</span>
@@ -1929,7 +1929,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Lean Muscle Mass: {bmrMusclePercent}%</span>
-                          <span className="text-indigo-400 font-mono">High muscle = high mitochondria</span>
+                          <span className="text-gold-400 font-mono">High muscle = high mitochondria</span>
                         </div>
                         <input
                           type="range"
@@ -1938,7 +1938,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                           value={bmrMusclePercent}
                           aria-label="Lean muscle mass percentage"
                           onChange={e => setBmrMusclePercent(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1975,7 +1975,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                                 audioManager.play('tap');
                               }}
                               className={`p-1.5 rounded-lg text-[11px] font-bold ${
-                                bmrThyroidState === t.id ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                                bmrThyroidState === t.id ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                               }`}
                             >
                               {t.label}
@@ -2187,7 +2187,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
       {/* ─── 3. SANDBOX / FREE PLAY MODE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
-          <div className="p-4 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-slate-800">
+          <div className="p-4 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-slate-800">
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="text-base font-bold text-emerald-300">Community Resource Simulator: Free Play Sandbox</h3>
@@ -2239,7 +2239,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                     value={pulseGrams}
                     aria-label="Sandbox Pulses in grams"
                     onChange={e => setPulseGrams(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -2251,7 +2251,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                 </div>
                 <div>
                   <span className="text-slate-500 block text-[10px]">Protein</span>
-                  <span className="font-bold text-indigo-400">{calculatedNutrition.totalProtein}g</span>
+                  <span className="font-bold text-gold-400">{calculatedNutrition.totalProtein}g</span>
                 </div>
                 <div>
                   <span className="text-slate-500 block text-[10px]">Calcium</span>
@@ -2316,7 +2316,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
               <span className="text-xs font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 uppercase tracking-widest">
+              <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 uppercase tracking-widest">
                 NEP 2020: {challenge.competencyLevel}
               </span>
             </div>
@@ -2325,7 +2325,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
           {/* Progress Bar */}
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2386,7 +2386,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2467,7 +2467,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Confirm Ordered Hierarchy →
                 </motion.button>
@@ -2625,7 +2625,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-indigo-950/80 rounded-2xl border border-emerald-700 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-gold-950/80 rounded-2xl border border-emerald-700 text-center space-y-3">
             <span className="text-4xl" role="img" aria-label="Celebration Party Popper">🎉</span>
             <h2 className="text-2xl font-black text-white">Simulation & Mastery Complete!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2667,7 +2667,7 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
 
           {/* Reflection Prompts */}
           <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-            <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Self-Reflection Questions:</h3>
+            <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Self-Reflection Questions:</h3>
             <ul className="text-xs text-slate-400 space-y-1.5 list-disc pl-4">
               <li>How does mutual supplementation of cereals and pulses solve protein malnutrition for low-income Indian families?</li>
               <li>Why does refrigeration fail to kill food-borne bacteria, and why is the 2-hour rule critical?</li>
@@ -2684,13 +2684,13 @@ function C11_HomeScienceIntroductionStreamsHomeSim({
           </div>
 
           {/* Real-World Activity Card */}
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-800 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

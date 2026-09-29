@@ -1216,7 +1216,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 rounded-3xl bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/50 border border-emerald-800/60 shadow-xl">
+          <div className="p-6 rounded-3xl bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/50 border border-emerald-800/60 shadow-xl">
             <div className="flex items-center gap-2 mb-2">
               <span className="px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-300 font-bold text-xs uppercase tracking-wider">
                 Mission Scenario
@@ -1304,9 +1304,9 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
           </div>
 
           {/* ──�� BRILLIANT.ORG PREDICT-THEN-CHECK MODULES ─── */}
-          <div className="p-6 bg-slate-900/90 rounded-3xl border border-sky-900/50 space-y-6">
+          <div className="p-6 bg-slate-900/90 rounded-3xl border border-gold-900/50 space-y-6">
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-1 rounded-lg bg-sky-500/20 text-sky-300 font-bold text-xs uppercase tracking-wider">
+              <span className="px-2.5 py-1 rounded-lg bg-gold-500/20 text-gold-300 font-bold text-xs uppercase tracking-wider">
                 🔮 Predict-Then-Check Pattern
               </span>
               <span className="text-xs text-slate-400">Make predictions first, then verify inside the Visual Lab and Sandbox!</span>
@@ -1335,7 +1335,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                                   : isChosen
                                   ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                                   : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                                : 'bg-slate-900 hover:bg-slate-850 border-slate-700 text-slate-200 hover:border-sky-500/50'
+                                : 'bg-slate-900 hover:bg-slate-850 border-slate-700 text-slate-200 hover:border-gold-500/50'
                             }`}
                           >
                             <div className="flex items-center justify-between">
@@ -1355,12 +1355,12 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                       <motion.div
                         initial={{ opacity: 0, y: 5 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-3.5 rounded-xl bg-sky-950/40 border border-sky-800/60 space-y-1.5"
+                        className="p-3.5 rounded-xl bg-gold-950/40 border border-gold-800/60 space-y-1.5"
                       >
                         <p className="text-xs text-slate-300">
-                          <strong className="text-sky-300">Analysis:</strong> {pred.explanation}
+                          <strong className="text-gold-300">Analysis:</strong> {pred.explanation}
                         </p>
-                        <div className="p-2 rounded-lg bg-slate-900/90 border border-sky-600/40 text-xs text-sky-200 flex items-start gap-2">
+                        <div className="p-2 rounded-lg bg-slate-900/90 border border-gold-600/40 text-xs text-gold-200 flex items-start gap-2">
                           <span className="text-base leading-none">🔍</span>
                           <span><strong>How to Verify:</strong> {pred.verifyInstruction}</span>
                         </div>
@@ -1454,7 +1454,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                         aria-label="Select Producer entity"
                         onClick={() => handleEntityClick('producer')}
                         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleEntityClick('producer'); }}
-                        className="cursor-pointer focus:outline-none focus:ring-2 focus:ring-sky-400"
+                        className="cursor-pointer focus:outline-none focus:ring-2 focus:ring-gold-400"
                       >
                         <circle cx="200" cy="275" r="32" fill={selectedEntity === 'producer' ? '#0369a1' : '#1e293b'} stroke="#38bdf8" strokeWidth="2" />
                         <text x="200" y="272" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">Producer</text>
@@ -1511,11 +1511,11 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                     )}
                     {selectedEntity === 'producer' && (
                       <div className="space-y-2">
-                        <h4 className="text-sky-400 font-bold text-base">The Producer (Creation for Sale)</h4>
+                        <h4 className="text-gold-400 font-bold text-base">The Producer (Creation for Sale)</h4>
                         <p className="text-xs text-slate-300 leading-relaxed">
                           <strong>Function:</strong> Combines Land, Labour, Capital, and Enterprise. From Amul (3.6M dairy farmers) to a Tirupur tailor, all convert inputs into market outputs.
                         </p>
-                        <div className="p-2.5 rounded-lg bg-sky-950/40 border border-sky-800 text-xs text-sky-300">
+                        <div className="p-2.5 rounded-lg bg-gold-950/40 border border-gold-800 text-xs text-gold-300">
                           Target: Driven by profit motive (Revenue must exceed cost of inputs).
                         </div>
                       </div>
@@ -1564,7 +1564,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                     <div className="p-3 rounded-xl bg-slate-900 border border-slate-800 text-center">
                       <span className="text-2xl" aria-hidden="true">✈️</span>
                       <p className="text-xs text-slate-400 mt-1">Capital Goods (Tejas Jets)</p>
-                      <p className="text-lg font-black text-sky-400">{defenseJets} Squadrons</p>
+                      <p className="text-lg font-black text-gold-400">{defenseJets} Squadrons</p>
                     </div>
                     <div className="p-3 rounded-xl bg-slate-900 border border-slate-800 text-center">
                       <span className="text-2xl" aria-hidden="true">📚</span>
@@ -1580,7 +1580,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                     <p className="text-xs text-slate-300 mt-1">Allocation of limited tax revenue between defence jets and school education.</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
-                    <span className="text-xs font-bold text-sky-400">2. HOW to Produce</span>
+                    <span className="text-xs font-bold text-gold-400">2. HOW to Produce</span>
                     <p className="text-xs text-slate-300 mt-1">Labour-intensive (Khadi handlooms) vs Capital-intensive automated mega-parks.</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
@@ -1887,7 +1887,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
             </div>
 
             <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-sky-400">Agri → Non-Farm Labour Shift: {sandboxFarmShift}%</span>
+              <span className="text-xs font-bold text-gold-400">Agri → Non-Farm Labour Shift: {sandboxFarmShift}%</span>
               <input
                 type="range"
                 min={0}
@@ -1895,7 +1895,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                 value={sandboxFarmShift}
                 aria-label="Labour shift percentage from Agriculture to Non-farm sector"
                 onChange={(e) => setSandboxFarmShift(Number(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
               />
               <p className="text-[11px] text-slate-400">Absorbing disguised rural underemployment.</p>
             </div>
@@ -1925,7 +1925,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
             </div>
             <div className="p-4 bg-slate-900 rounded-2xl">
               <p className="text-xs text-slate-400">River Pollution Index</p>
-              <p className="text-2xl font-black text-sky-400">
+              <p className="text-2xl font-black text-gold-400">
                 {Math.max(15, 100 - sandboxGreenSubsidy).toFixed(0)} / 100
               </p>
             </div>
@@ -1970,7 +1970,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                     difficulty === 'foundation'
                       ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                       : difficulty === 'standard'
-                      ? 'bg-sky-500/20 text-sky-400 border border-sky-500/40'
+                      ? 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
                       : 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
                   }`}
                 >
@@ -1997,7 +1997,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
           {/* Challenge Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-sky-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2198,7 +2198,7 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
                       whileTap={{ scale: 0.97 }}
                       aria-label={`Add component: ${part}`}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 text-xs font-bold"
+                      className="px-3 py-1.5 rounded-lg bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2290,11 +2290,11 @@ export function C9_EconApplicationsEconomicEntitiesConsumerSim(props: Props = DE
       {/* ─── PHASE 5: COMPLETE (Motivational, Misconceptions, Reflection & SRS Visibility) ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 rounded-3xl bg-gradient-to-r from-emerald-950 via-slate-900 to-indigo-950 border border-emerald-700/60 shadow-2xl text-center space-y-2">
+          <div className="p-6 rounded-3xl bg-gradient-to-r from-emerald-950 via-slate-900 to-gold-950 border border-emerald-700/60 shadow-2xl text-center space-y-2">
             <span className="text-3xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl font-black text-white">National Blueprint Completed!</h2>
             <p className="text-sm text-slate-300">
-              Final Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Level: <strong className="text-sky-400 uppercase">{masteryLevel}</strong>
+              Final Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Level: <strong className="text-gold-400 uppercase">{masteryLevel}</strong>
             </p>
           </div>
 

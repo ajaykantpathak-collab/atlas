@@ -336,9 +336,9 @@ export function C10_MathematicsCoordinateGeometrySim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">\ud83d\udcd0</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">\ud83d\udcd0</span>
         <div className="flex-1 min-w-[220px]">
-          <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 10 -- Coordinate Geometry</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 -- Coordinate Geometry</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Distance, Midpoint, Section -- and Area</h1>
         </div>
         <span className="font-mono text-xs text-slate-500">AB = {dist.toFixed(2)}</span>
@@ -352,7 +352,7 @@ export function C10_MathematicsCoordinateGeometrySim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -367,8 +367,8 @@ export function C10_MathematicsCoordinateGeometrySim() {
       {/* ============================================================ */}
       {tab === 'discover' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-indigo-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-indigo-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               You walk the grid STREETS from (0,0) to (3,4): 3 blocks east, 4 north -- 7 blocks of
               walking. A crow flies the same trip. How far does the crow travel?
@@ -377,7 +377,7 @@ export function C10_MathematicsCoordinateGeometrySim() {
               {['7', '5', '6', '\u221a12'].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 1;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-indigo-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -422,7 +422,7 @@ export function C10_MathematicsCoordinateGeometrySim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -486,7 +486,7 @@ export function C10_MathematicsCoordinateGeometrySim() {
               <text x={cx(x2) + 10} y={cy(y2) - 10} fill="#f472b6" fontSize={12} fontWeight="bold">B({x2}, {y2})</text>
             </svg>
             <div className="flex flex-wrap gap-2 text-xs mt-1">
-              <span className="px-2 py-1 rounded-lg bg-sky-950 text-sky-300">A = ({x1}, {y1})</span>
+              <span className="px-2 py-1 rounded-lg bg-gold-950 text-gold-300">A = ({x1}, {y1})</span>
               <span className="px-2 py-1 rounded-lg bg-pink-950 text-pink-300">B = ({x2}, {y2})</span>
               <span className="px-2 py-1 rounded-lg bg-emerald-950 text-emerald-300">M = midpoint</span>
               <span className="px-2 py-1 rounded-lg bg-amber-950 text-amber-300">P = {m}:{n} point</span>
@@ -496,8 +496,8 @@ export function C10_MathematicsCoordinateGeometrySim() {
           <div className="lg:col-span-2 space-y-4">
             <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
               <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Drag the points</p>
-              {slider('x1 (A)', x1, setX1, 'text-sky-400')}
-              {slider('y1 (A)', y1, setY1, 'text-sky-400')}
+              {slider('x1 (A)', x1, setX1, 'text-gold-400')}
+              {slider('y1 (A)', y1, setY1, 'text-gold-400')}
               {slider('x2 (B)', x2, setX2, 'text-pink-400')}
               {slider('y2 (B)', y2, setY2, 'text-pink-400')}
               {slider('ratio m (AP : PB = m : n)', m, setM, 'text-amber-400', 1, 9)}
@@ -518,10 +518,10 @@ export function C10_MathematicsCoordinateGeometrySim() {
               </div>
             </div>
 
-            <div className="bg-slate-900/80 rounded-2xl border border-indigo-800/60 p-4 space-y-2 text-sm">
+            <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 space-y-2 text-sm">
               <p className="text-slate-300">
                 AB = \u221a((x\u2082\u2212x\u2081)\u00b2 + (y\u2082\u2212y\u2081)\u00b2) = \u221a({dx * dx} + {dy * dy}) ={' '}
-                <span className="text-indigo-300 font-bold text-base">{dist.toFixed(3)}</span> units
+                <span className="text-gold-300 font-bold text-base">{dist.toFixed(3)}</span> units
               </p>
               <p className="text-slate-400 text-xs font-mono">
                 walking distance (dx+dy) = {dx + dy} \u00b7 slope of AB = {slopeAB === Infinity ? 'vertical' : slopeAB.toFixed(3)}
@@ -554,8 +554,8 @@ export function C10_MathematicsCoordinateGeometrySim() {
               </p>
             </div>
 
-            <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-              <p className="font-bold text-indigo-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Predict then verify: set A(3, 4) and B(10, 11) -- what is AB before reading the number?</p>
               <p className="mt-1">2. Keep moving B so that AB becomes exactly 13 units with A(0, 0). How many integer points work?</p>
               <p className="mt-1">3. Make AB horizontal, then vertical. What happens to dx, dy and the slope? Which cases break the slope formula?</p>
@@ -608,8 +608,8 @@ export function C10_MathematicsCoordinateGeometrySim() {
 
             <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
               <p className="text-xs font-bold uppercase tracking-wider text-slate-400">Move vertex C</p>
-              {slider('x of C', cx3, setCx3, 'text-violet-400')}
-              {slider('y of C', cy3, setCy3, 'text-violet-400')}
+              {slider('x of C', cx3, setCx3, 'text-gold-400')}
+              {slider('y of C', cy3, setCy3, 'text-gold-400')}
               <button
                 onClick={() => { setCx3((x1 + x2) / 2); setCy3((y1 + y2) / 2 + 4); }}
                 className="w-full min-h-9 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold"
@@ -670,8 +670,8 @@ export function C10_MathematicsCoordinateGeometrySim() {
               </p>
             </div>
 
-            <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-              <p className="font-bold text-indigo-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Build a triangle with area EXACTLY 10 sq units. How many different C\u2019s work?</p>
               <p className="mt-1">2. Make A, B, C collinear, then verify the slope test gives the same verdict as the area test.</p>
               <p className="mt-1">3. Drag C far away. Does the centroid chase C or stay near AB? Predict, then check the ratio along the median.</p>
@@ -701,7 +701,7 @@ export function C10_MathematicsCoordinateGeometrySim() {
                   key={t}
                   onClick={() => setTierFilter(t)}
                   className={`min-h-9 px-3 rounded-lg text-[11px] font-bold capitalize transition-all ${
-                    tierFilter === t ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                    tierFilter === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
                   {t}
@@ -743,7 +743,7 @@ export function C10_MathematicsCoordinateGeometrySim() {
                 <p className="text-sm text-slate-200 leading-relaxed mb-2.5">{ch.question}</p>
                 <div className="space-y-1.5">
                   {ch.options.map((opt, i) => {
-                    let cls = 'border-slate-700 bg-slate-950 hover:border-indigo-600';
+                    let cls = 'border-slate-700 bg-slate-950 hover:border-gold-600';
                     if (isRevealed && i === ch.correctIndex) cls = 'border-emerald-600 bg-emerald-950/60';
                     else if (isRevealed && i === chosen) cls = 'border-rose-600 bg-rose-950/60';
                     return (
@@ -816,14 +816,14 @@ export function C10_MathematicsCoordinateGeometrySim() {
           </div>
 
           <div className="p-5 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">If you remember three lines</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">If you remember three lines</p>
             <ol className="space-y-2 text-sm text-slate-300 leading-relaxed list-decimal ml-5">
               <li>Distance = Pythagoras on (dx, dy); midpoint = the 1:1 section point.</li>
               <li>Section formula: AP:PB = m:n puts P at m/(m+n) of the way from A -- m weights the FAR end.</li>
               <li>Shoelace area zero \u21d2 collinear. One formula, two jobs.</li>
             </ol>
             <div className="mt-3 flex gap-2">
-              <button onClick={() => setTab('grid')} className="min-h-11 px-5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold">
+              <button onClick={() => setTab('grid')} className="min-h-11 px-5 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold">
                 Back to the Grid
               </button>
               <button onClick={() => { setX1(2); setY1(3); setX2(10); setY2(9); setM(1); setN(1); }} className="min-h-11 px-5 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold">

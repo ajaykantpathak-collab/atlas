@@ -1143,7 +1143,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-purple-600/30"
+                  className="px-6 py-3 bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-purple-600/30"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1332,7 +1332,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                       onClick={() => handleTriadNodeClick('behaviour')}
                       aria-label="Select Behaviour vertex: Actions and Effort"
                       className={`p-3 rounded-xl text-center border font-bold text-xs ${
-                        activeTriadNode === 'behaviour' ? 'bg-sky-600 text-white border-sky-400 shadow-lg' : 'bg-slate-900 text-slate-300 border-slate-800'
+                        activeTriadNode === 'behaviour' ? 'bg-gold-600 text-white border-gold-400 shadow-lg' : 'bg-slate-900 text-slate-300 border-slate-800'
                       }`}
                     >
                       ⚡ Behaviour (B)<br /><span className="text-[10px] font-normal">Actions / Effort</span>
@@ -1357,7 +1357,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                     </div>
                     <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
                       <motion.div
-                        className="bg-gradient-to-r from-purple-500 to-sky-400 h-full rounded-full"
+                        className="bg-gradient-to-r from-purple-500 to-gold-400 h-full rounded-full"
                         animate={{ width: `${triadEfficacyScore}%` }}
                       />
                     </div>
@@ -1430,7 +1430,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                     )}
                     {selectedEcoSystem === 'meso' && (
                       <>
-                        <p className="font-bold text-sky-300">🔗 Mesosystem (Inter-System Linkages):</p>
+                        <p className="font-bold text-gold-300">🔗 Mesosystem (Inter-System Linkages):</p>
                         <p className="text-slate-300">Connections between microsystems: parent-teacher meetings, collaboration between home expectations and school homework demands.</p>
                       </>
                     )}
@@ -1489,14 +1489,14 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                         audioManager.play('pop');
                       }}
                       aria-label={isPoured ? "Reverse pour back to Container A" : "Pour liquid into Container B"}
-                      className="px-4 py-2 bg-sky-600 hover:bg-sky-500 font-bold text-xs rounded-xl text-white shadow-md"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 font-bold text-xs rounded-xl text-white shadow-md"
                     >
                       {isPoured ? '↩ Reverse Pour to Container A' : '💧 Pour Liquid into Container B'}
                     </motion.button>
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2">
-                    <p className="font-bold text-sky-300">Piagetian Cognitive Diagnostic:</p>
+                    <p className="font-bold text-gold-300">Piagetian Cognitive Diagnostic:</p>
                     <p className="text-slate-300">
                       • <span className="text-amber-400 font-semibold">✗ Preoperational Judgement:</span> "Container B has MORE liquid because it is taller!" (Centration on height, lack of reversibility).
                     </p>
@@ -1569,8 +1569,8 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
 
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
-                      <span className="text-sky-400">🛡️ Prefrontal Executive Control (Brake)</span>
-                      <span className="text-sky-300">{pfcMaturity}%</span>
+                      <span className="text-gold-400">🛡️ Prefrontal Executive Control (Brake)</span>
+                      <span className="text-gold-300">{pfcMaturity}%</span>
                     </div>
                     <input
                       type="range"
@@ -1579,7 +1579,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                       value={pfcMaturity}
                       onChange={e => setPfcMaturity(Number(e.target.value))}
                       aria-label="Prefrontal Executive Control Brake slider"
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1700,7 +1700,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                    : 'bg-sky-950 text-sky-400 border border-sky-700'
+                    : 'bg-gold-950 text-gold-400 border border-gold-700'
                 }`}
               >
                 {difficulty === 'foundation' ? '✓ ' : difficulty === 'advanced' ? '⚡ ' : '🔹 '}{difficulty} Tier
@@ -1715,7 +1715,7 @@ function C12_PsychologyHumanisticTraitTheoriesSim({
           {/* Progress Bar */}
           <div className="w-full bg-slate-900 h-2 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="bg-gradient-to-r from-purple-500 to-indigo-500 h-full rounded-full"
+              className="bg-gradient-to-r from-purple-500 to-gold-500 h-full rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>

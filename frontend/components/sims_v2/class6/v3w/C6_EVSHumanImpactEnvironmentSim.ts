@@ -11,7 +11,7 @@ export const w_c6_evshumanimpactenvironmentsim: SimDef = {
     classLevel: 6, subject: 'evs', topic: 'Are All Changes Desirable? Good and Bad Changes',
     chapters: [],
     nodeIds: ['c6_chemistry_ch05_007', 'c6_geography_ch03_019', 'c6_geography_ch02_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed that while you love the smell of a fresh, juicy mango, you feel sad when that same.', goal: 'Master Are All Changes Desirable? Good and Bad Changes.' },
     discovery: {
         question: 'Is the rusting of a bicycle chain a desirable or undesirable change? Why?',
@@ -20,7 +20,7 @@ export const w_c6_evshumanimpactenvironmentsim: SimDef = {
         hook: 'Students often think "fast" changes are desirable and "slow" changes are undesirable.',
     },
     teaching: [
-        { title: 'A change is considered "desirable" if it.', text: 'A change is considered "desirable" if it provides a benefit or fulfills a human need, while an "undesirable" change is one that causes harm, waste, or unwanted outcomes.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A change is considered "desirable" if it.', text: 'A change is considered "desirable" if it provides a benefit or fulfills a human need, while an "undesirable" change is one that causes harm, waste, or unwanted outcomes.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_chemistry_ch05_007', title: 'A change is considered "desirable" if.',

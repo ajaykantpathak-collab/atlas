@@ -11,7 +11,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Factors Affecting In Vitro Culture Responses',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_06_011', 'c12_biotech_cbse_08_009', 'c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_003', 'c12_biotech_cbse_06_004', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_06_007', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_009', 'c12_biotech_cbse_06_010', 'c12_biotech_cbse_08_001', 'c12_biotech_cbse_08_002', 'c12_biotech_cbse_08_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you have set up a perfect MS medium with 2,4-D and kinetin for callus induction from carrot root.', goal: 'Master Factors Affecting In Vitro Culture Responses.' },
     discovery: {
         question: 'Compare the factor sensitivity of **direct organogenesis** (node 008) vs. **somatic embryogenesis** (node 009).',
@@ -20,7 +20,7 @@ export const w_c12_biotechmicrobialculturecbsesim: SimDef = {
         hook: 'Students believe "optimizing one factor (e.g., BAP concentration) will fix a failed protocol." In reality, factors.',
     },
     teaching: [
-        { title: 'Factors affecting in vitro culture responses.', text: 'Factors affecting in vitro culture responses refer to the specific genetic, physiological, and environmental variables that determine the success or failure of plant tissue culture, including explant.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Factors affecting in vitro culture responses.', text: 'Factors affecting in vitro culture responses refer to the specific genetic, physiological, and environmental variables that determine the success or failure of plant tissue culture, including explant.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_011', title: 'Factors affecting in vitro culture.',

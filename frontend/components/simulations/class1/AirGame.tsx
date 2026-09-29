@@ -44,25 +44,25 @@ const TEACHING_SLIDES = [
         title: 'Air is All Around Us! 🌬️',
         text: 'Air is an invisible substance present everywhere around us - in rooms, playgrounds, and bottle spaces! It has no colour, no smell, and takes the shape of whatever container it fills.',
         emoji: '💨',
-        bgColor: 'from-sky-400 to-blue-600',
+        bgColor: 'from-gold-400 to-gold-600',
     },
     {
         title: 'Feeling the Wind! 🍃',
         text: 'Wind is simply moving air! When wind blows, it pushes against your skin, flutters flags, and makes tree leaves rustle. Waving your hand quickly also feels like air pushing against you!',
         emoji: '🍃',
-        bgColor: 'from-blue-400 to-indigo-600',
+        bgColor: 'from-gold-400 to-gold-600',
     },
     {
         title: 'Air Fills Space! 🎈',
         text: 'When you blow air into a balloon, it gets bigger because air fills the space inside! A bottle that looks empty is actually full of air. Breathing proves air is always around us!',
         emoji: '🎈',
-        bgColor: 'from-cyan-400 to-sky-600',
+        bgColor: 'from-gold-400 to-gold-600',
     },
     {
         title: 'Uses of Air! 🪁',
         text: 'People, animals, and plants need air to breathe and live! Moving air helps kites fly high, dries wet clothes on a clothesline, and turns windmill blades to make power!',
         emoji: '🪁',
-        bgColor: 'from-teal-400 to-cyan-600',
+        bgColor: 'from-teal-400 to-gold-600',
     },
     {
         title: 'Keep Air Clean! 🌱',
@@ -499,18 +499,18 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
 
       <div className="z-10 flex flex-col items-center max-w-lg text-center mt-4 bg-white/90 backdrop-blur-md rounded-3xl p-6 shadow-xl">
         <span className="text-5xl mb-2">{current.emoji}</span>
-        <h2 className="text-2xl font-extrabold text-sky-900 mb-2">{current.title}</h2>
+        <h2 className="text-2xl font-extrabold text-gold-900 mb-2">{current.title}</h2>
         <p className="text-base font-medium text-gray-700 leading-relaxed">{current.text}</p>
       </div>
 
       {/* Progress dots */}
       <div className="z-10 flex gap-2 mb-2">
-        {TEACHING_SLIDES.map((_, i) => (<div key={i} className={`h-3 rounded-full transition-all ${i === slide ? 'w-8 bg-sky-600' : 'w-3 bg-sky-300'}`}/>))}
+        {TEACHING_SLIDES.map((_, i) => (<div key={i} className={`h-3 rounded-full transition-all ${i === slide ? 'w-8 bg-gold-600' : 'w-3 bg-gold-300'}`}/>))}
       </div>
 
       {/* Navigation buttons */}
       <div className="z-10 flex justify-between w-full max-w-md px-4 mb-2">
-        <button onClick={handlePrev} disabled={slide === 0} className={`px-5 py-2.5 rounded-full font-bold text-white shadow-lg transition-all ${slide === 0 ? 'bg-gray-300 cursor-not-allowed' : 'bg-sky-500 hover:bg-sky-600'}`}>
+        <button onClick={handlePrev} disabled={slide === 0} className={`px-5 py-2.5 rounded-full font-bold text-white shadow-lg transition-all ${slide === 0 ? 'bg-gray-300 cursor-not-allowed' : 'bg-gold-500 hover:bg-gold-600'}`}>
           Back
         </button>
         <button onClick={handleNext} className="px-8 py-2.5 rounded-full font-bold text-white bg-gradient-to-r from-emerald-500 to-teal-600 shadow-lg hover:brightness-110 transition-all">
@@ -708,8 +708,8 @@ export function AirGame({width = 720, height = 560, onComplete}: AirGameProps) {
           {/* Header Row */}
           <div className="z-10 flex items-center justify-between w-full px-4 py-2 bg-white/80 backdrop-blur-md rounded-2xl shadow-lg">
             <div className="flex items-center gap-2">
-              <span className="text-xl font-extrabold text-sky-900">Air Game 🌬️</span>
-              <span className="text-xs font-bold text-sky-700 bg-sky-200 px-2 py-0.5 rounded-full">
+              <span className="text-xl font-extrabold text-gold-900">Air Game 🌬️</span>
+              <span className="text-xs font-bold text-gold-700 bg-gold-200 px-2 py-0.5 rounded-full">
                 Q {currentChallengeIndex + 1} / {CHALLENGES.length}
               </span>
             </div>
@@ -718,13 +718,13 @@ export function AirGame({width = 720, height = 560, onComplete}: AirGameProps) {
 
           {/* Question Box */}
           <div className="z-10 flex flex-col items-center w-full max-w-xl my-2 bg-white/90 backdrop-blur-md rounded-3xl p-5 shadow-xl">
-            <h3 className="text-lg font-extrabold text-sky-900 text-center mb-3">
+            <h3 className="text-lg font-extrabold text-gold-900 text-center mb-3">
               {challenge.question}
             </h3>
 
             {/* Multiple Choice Options */}
             {!challenge.type.startsWith('sort') && (<div className="grid grid-cols-1 gap-3 w-full max-w-md">
-                {challenge.options.map((option, idx) => (<motion.button key={idx} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} onClick={e => handleAnswerOption(option, e)} className="w-full py-3 px-5 bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold rounded-2xl shadow-md hover:brightness-110 transition-all text-sm md:text-base text-center">
+                {challenge.options.map((option, idx) => (<motion.button key={idx} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} onClick={e => handleAnswerOption(option, e)} className="w-full py-3 px-5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-2xl shadow-md hover:brightness-110 transition-all text-sm md:text-base text-center">
                     {option}
                   </motion.button>))}
               </div>)}

@@ -1287,13 +1287,13 @@ function C10_PhysicsScatteringLightSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ICSE Class 10 Physics</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ICSE Class 10 Physics</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono">CISCE 2026</span>
             </div>
             <h1 className="text-lg sm:text-xl font-extrabold text-white">{title}</h1>
@@ -1311,7 +1311,7 @@ function C10_PhysicsScatteringLightSim({
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                : 'bg-cyan-950 text-cyan-400 border border-cyan-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1325,14 +1325,14 @@ function C10_PhysicsScatteringLightSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
               <span>🏔️</span>
               <span>Mission Narrative Scenario</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 pt-3 border-t border-indigo-900/60">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-3 pt-3 border-t border-gold-900/60">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1356,7 +1356,7 @@ function C10_PhysicsScatteringLightSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-medium'
                         : 'bg-slate-900/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                   }`}
                 >
                   <span className="w-6 h-6 rounded-full bg-slate-700/50 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
@@ -1384,7 +1384,7 @@ function C10_PhysicsScatteringLightSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full sm:w-auto px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                 >
                   <span>Enter Interactive Lab</span>
                   <span>→</span>
@@ -1400,7 +1400,7 @@ function C10_PhysicsScatteringLightSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs uppercase font-bold text-indigo-400">Interactive Guided Discovery</span>
+              <span className="text-xs uppercase font-bold text-gold-400">Interactive Guided Discovery</span>
               <h2 className="text-lg font-extrabold text-white">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
               </h2>
@@ -1410,14 +1410,14 @@ function C10_PhysicsScatteringLightSim({
                 <div
                   key={i}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-500 w-6' : i < currentSlide ? 'bg-emerald-500' : 'bg-slate-800'
+                    i === currentSlide ? 'bg-gold-500 w-6' : i < currentSlide ? 'bg-emerald-500' : 'bg-slate-800'
                   }`}
                 />
               ))}
             </div>
           </div>
 
-          <div className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-900/60 text-sm text-indigo-200">
+          <div className="p-4 bg-gold-950/30 rounded-xl border border-gold-900/60 text-sm text-gold-200">
             👉 <span className="font-semibold text-white">{EXPLORATION_STEPS[currentSlide].instruction}</span>
           </div>
 
@@ -1496,19 +1496,19 @@ function C10_PhysicsScatteringLightSim({
                         value={sunAngle}
                         onChange={(e) => handleSunAngleChange(Number(e.target.value))}
                         aria-label="Adjust sun elevation angle"
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
                     </div>
 
                     <div className="grid grid-cols-2 gap-3">
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                         <p className="text-xs text-slate-400">Atmospheric Path Thickness</p>
-                        <p className="text-lg font-mono font-bold text-cyan-400">{atmosphericThickness.toFixed(2)}×</p>
+                        <p className="text-lg font-mono font-bold text-gold-400">{atmosphericThickness.toFixed(2)}×</p>
                         <p className="text-xs text-slate-500">{sunAngle <= 15 ? 'Very Thick Path' : 'Thin Path'}</p>
                       </div>
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                         <p className="text-xs text-slate-400">Blue Light Scattered Out</p>
-                        <p className="text-lg font-mono font-bold text-indigo-400">{blueScatteredPercent}%</p>
+                        <p className="text-lg font-mono font-bold text-gold-400">{blueScatteredPercent}%</p>
                         <p className="text-xs text-slate-500">Short λ (~400 nm)</p>
                       </div>
                     </div>
@@ -1527,7 +1527,7 @@ function C10_PhysicsScatteringLightSim({
 
                 {/* Predict-Then-Check Container */}
                 {!predictionMade && (
-                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
+                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
                     <p className="text-white text-sm font-bold mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1536,7 +1536,7 @@ function C10_PhysicsScatteringLightSim({
                           whileHover={{ scale: 1.01 }}
                           whileTap={{ scale: 0.99 }}
                           onClick={() => handlePrediction(i)}
-                          className="text-left p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-300 hover:border-indigo-400"
+                          className="text-left p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-300 hover:border-gold-400"
                         >
                           {opt}
                         </motion.button>
@@ -1606,7 +1606,7 @@ function C10_PhysicsScatteringLightSim({
                   <div className="sm:col-span-2 space-y-3">
                     <div className="flex justify-between text-sm">
                       <span className="text-slate-400">Distance to Cliff (d):</span>
-                      <span className="text-cyan-400 font-mono font-bold">{cliffDistance} metres</span>
+                      <span className="text-gold-400 font-mono font-bold">{cliffDistance} metres</span>
                     </div>
                     <input
                       type="range"
@@ -1615,7 +1615,7 @@ function C10_PhysicsScatteringLightSim({
                       value={cliffDistance}
                       onChange={(e) => handleCliffDistanceChange(Number(e.target.value))}
                       aria-label="Set cliff distance"
-                      className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
 
                     <motion.button
@@ -1623,7 +1623,7 @@ function C10_PhysicsScatteringLightSim({
                       whileTap={{ scale: 0.98 }}
                       onClick={handleTriggerEchoPulse}
                       disabled={echoPulseActive}
-                      className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-sm shadow-md"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                     >
                       {echoPulseActive ? 'Echo Travelling...' : '🔊 Emit Acoustic Pulse (Clap)'}
                     </motion.button>
@@ -1653,7 +1653,7 @@ function C10_PhysicsScatteringLightSim({
                   <div className="space-y-2">
                     <div className="flex justify-between text-sm">
                       <span className="text-slate-400">External Driving Frequency:</span>
-                      <span className="text-indigo-400 font-mono font-bold">{drivingFreq} Hz (f₀ = 256 Hz)</span>
+                      <span className="text-gold-400 font-mono font-bold">{drivingFreq} Hz (f₀ = 256 Hz)</span>
                     </div>
                     <input
                       type="range"
@@ -1662,7 +1662,7 @@ function C10_PhysicsScatteringLightSim({
                       value={drivingFreq}
                       onChange={(e) => handleDrivingFreqChange(Number(e.target.value))}
                       aria-label="Adjust external driving frequency"
-                      className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1723,7 +1723,7 @@ function C10_PhysicsScatteringLightSim({
                         onClick={() => handleToggleHarmonic(item.h)}
                         className={`p-3 rounded-xl border text-xs font-bold text-left transition-all ${
                           harmonicsState[item.h] > 0
-                            ? 'bg-sky-950/80 border-sky-500 text-sky-200'
+                            ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-500'
                         }`}
                       >
@@ -1781,7 +1781,7 @@ function C10_PhysicsScatteringLightSim({
                     <div>
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Battery Emf (ε):</span>
-                        <span className="text-cyan-400 font-mono font-bold">{batteryEmf} V</span>
+                        <span className="text-gold-400 font-mono font-bold">{batteryEmf} V</span>
                       </div>
                       <input
                         type="range"
@@ -1790,7 +1790,7 @@ function C10_PhysicsScatteringLightSim({
                         value={batteryEmf}
                         onChange={(e) => handleCircuitSliderChange(loadResistance, internalResistance, Number(e.target.value))}
                         aria-label="Set battery emf"
-                        className="w-full accent-cyan-500 h-1.5 bg-slate-800 rounded cursor-pointer"
+                        className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1799,7 +1799,7 @@ function C10_PhysicsScatteringLightSim({
                   <div className="lg:col-span-2 grid grid-cols-2 gap-3">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Current (I = ε / [R+r])</p>
-                      <p className="text-xl font-mono font-bold text-cyan-400">{circuitCurrent.toFixed(2)} A</p>
+                      <p className="text-xl font-mono font-bold text-gold-400">{circuitCurrent.toFixed(2)} A</p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Terminal PD (V = ε - Ir)</p>
@@ -1836,7 +1836,7 @@ function C10_PhysicsScatteringLightSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold shadow-lg"
+                className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -1868,7 +1868,7 @@ function C10_PhysicsScatteringLightSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-sm shadow-xl shadow-indigo-600/30"
+              className="px-8 py-3 rounded-xl bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold text-sm shadow-xl shadow-gold-600/30"
             >
               Start Challenges Now 🎯 →
             </motion.button>
@@ -1889,7 +1889,7 @@ function C10_PhysicsScatteringLightSim({
                 onClick={() => setSelectedTopicExploration(tab.id)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                   selectedTopicExploration === tab.id
-                    ? 'bg-indigo-600 text-white'
+                    ? 'bg-gold-600 text-white'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1918,11 +1918,11 @@ function C10_PhysicsScatteringLightSim({
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <p className="text-xs text-slate-400">Path Length Ratio</p>
-                    <p className="text-lg font-mono font-bold text-cyan-400">{atmosphericThickness.toFixed(2)}×</p>
+                    <p className="text-lg font-mono font-bold text-gold-400">{atmosphericThickness.toFixed(2)}×</p>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <p className="text-xs text-slate-400">Sky Dominant Color</p>
-                    <p className="text-lg font-bold text-sky-400">Scattered Blue (~400 nm)</p>
+                    <p className="text-lg font-bold text-gold-400">Scattered Blue (~400 nm)</p>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <p className="text-xs text-slate-400">Direct Beam</p>
@@ -1938,7 +1938,7 @@ function C10_PhysicsScatteringLightSim({
               <div className="space-y-4">
                 <div className="flex justify-between text-sm">
                   <span className="text-slate-400">Reflector Barrier Distance:</span>
-                  <span className="text-cyan-400 font-mono font-bold">{cliffDistance} m</span>
+                  <span className="text-gold-400 font-mono font-bold">{cliffDistance} m</span>
                 </div>
                 <input
                   type="range"
@@ -1947,7 +1947,7 @@ function C10_PhysicsScatteringLightSim({
                   value={cliffDistance}
                   onChange={(e) => handleCliffDistanceChange(Number(e.target.value))}
                   aria-label="Sandbox reflector barrier distance"
-                  className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                 />
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex justify-between items-center">
                   <div>
@@ -1959,7 +1959,7 @@ function C10_PhysicsScatteringLightSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleTriggerEchoPulse}
                     disabled={echoPulseActive}
-                    className="px-5 py-2 rounded-xl bg-cyan-600 text-white text-xs font-bold"
+                    className="px-5 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold"
                   >
                     Emit Sound Pulse
                   </motion.button>
@@ -1980,7 +1980,7 @@ function C10_PhysicsScatteringLightSim({
                       value={drivingFreq}
                       onChange={(e) => handleDrivingFreqChange(Number(e.target.value))}
                       aria-label="Sandbox driving frequency"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="flex items-center justify-end">
@@ -2005,7 +2005,7 @@ function C10_PhysicsScatteringLightSim({
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setResistorMode('series')}
                     className={`px-4 py-1.5 rounded-lg text-xs font-bold ${
-                      resistorMode === 'series' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      resistorMode === 'series' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Series (Rs = R₁ + R₂)
@@ -2015,7 +2015,7 @@ function C10_PhysicsScatteringLightSim({
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setResistorMode('parallel')}
                     className={`px-4 py-1.5 rounded-lg text-xs font-bold ${
-                      resistorMode === 'parallel' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      resistorMode === 'parallel' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Parallel (1/Rp = 1/R₁ + 1/R₂)
@@ -2032,7 +2032,7 @@ function C10_PhysicsScatteringLightSim({
                       value={r1Val}
                       onChange={(e) => setR1Val(Number(e.target.value))}
                       aria-label="Set R1 resistance"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -2044,7 +2044,7 @@ function C10_PhysicsScatteringLightSim({
                       value={r2Val}
                       onChange={(e) => setR2Val(Number(e.target.value))}
                       aria-label="Set R2 resistance"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -2066,14 +2066,14 @@ function C10_PhysicsScatteringLightSim({
           <div className="space-y-2">
             <div className="flex items-center justify-between">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Question {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <div className="flex items-center gap-2 mt-0.5">
                   <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
                     NEP Level: {challenge.competencyLevel.toUpperCase()}
                   </span>
-                  <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 font-mono">
+                  <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 font-mono">
                     Node: {challenge.nodeId}
                   </span>
                 </div>
@@ -2096,7 +2096,7 @@ function C10_PhysicsScatteringLightSim({
             {/* Framer-Motion Progress Bar */}
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
                 initial={{ width: '0%' }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
@@ -2133,7 +2133,7 @@ function C10_PhysicsScatteringLightSim({
                           ? idx === challenge.correctIndex
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
                             : 'bg-slate-900/40 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                     >
                       <span className="w-6 h-6 rounded-full bg-slate-700/60 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
@@ -2157,7 +2157,7 @@ function C10_PhysicsScatteringLightSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-semibold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-semibold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2172,7 +2172,7 @@ function C10_PhysicsScatteringLightSim({
                       onDrop={() => handleDragDrop(targetId)}
                       className={`p-4 rounded-xl border-2 border-dashed transition-all flex flex-col justify-center min-h-[70px] ${
                         droppedLabels[targetId]
-                          ? 'bg-indigo-950/40 border-indigo-500 text-indigo-200'
+                          ? 'bg-gold-950/40 border-gold-500 text-gold-200'
                           : 'bg-slate-950/60 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -2187,7 +2187,7 @@ function C10_PhysicsScatteringLightSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Drag Mapping
                 </motion.button>
@@ -2226,7 +2226,7 @@ function C10_PhysicsScatteringLightSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Sorted Order
                 </motion.button>
@@ -2243,7 +2243,7 @@ function C10_PhysicsScatteringLightSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numeric value..."
                     aria-label="Enter numeric answer"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-56"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-56"
                   />
                   <span className="text-slate-300 font-mono font-bold text-base">{challenge.unit}</span>
                   <motion.button
@@ -2251,7 +2251,7 @@ function C10_PhysicsScatteringLightSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
                   >
                     Submit Answer
                   </motion.button>
@@ -2270,7 +2270,7 @@ function C10_PhysicsScatteringLightSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-cyan-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -2279,7 +2279,7 @@ function C10_PhysicsScatteringLightSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] flex flex-wrap items-center gap-2">
                   {constructParts.map((p, idx) => (
-                    <span key={idx} className="px-3 py-1 rounded bg-indigo-950 border border-indigo-700 text-indigo-200 text-xs font-mono flex items-center gap-1.5">
+                    <span key={idx} className="px-3 py-1 rounded bg-gold-950 border border-gold-700 text-gold-200 text-xs font-mono flex items-center gap-1.5">
                       {p}
                       <button onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))} className="text-rose-400 hover:text-rose-300">
                         ✕
@@ -2294,7 +2294,7 @@ function C10_PhysicsScatteringLightSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Derivation Chain
                 </motion.button>
@@ -2307,9 +2307,9 @@ function C10_PhysicsScatteringLightSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/70 rounded-2xl space-y-4"
+              className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/70 rounded-2xl space-y-4"
             >
-              <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+              <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
                 <span>📖</span>
                 <span>ICSE Step-by-Step Physics Walkthrough</span>
               </div>
@@ -2325,7 +2325,7 @@ function C10_PhysicsScatteringLightSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-slate-200 text-sm leading-relaxed"
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{idx + 1}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span>
                     {sentence}
                     {!sentence.endsWith('.') && '.'}
                   </motion.p>
@@ -2336,7 +2336,7 @@ function C10_PhysicsScatteringLightSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => setRevealedSteps((s) => s + 1)}
-                  className="px-4 py-2 rounded-lg bg-indigo-800/60 hover:bg-indigo-700 border border-indigo-600 text-xs font-bold text-indigo-200"
+                  className="px-4 py-2 rounded-lg bg-gold-800/60 hover:bg-gold-700 border border-gold-600 text-xs font-bold text-gold-200"
                 >
                   Show Next Step →
                 </motion.button>
@@ -2360,7 +2360,7 @@ function C10_PhysicsScatteringLightSim({
       {/* ─── PHASE 5: MISSION COMPLETION & MASTERY PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-3xl border border-indigo-700 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-3xl border border-gold-700 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-extrabold text-white">Himalayan Station Mission Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto leading-relaxed">
@@ -2374,14 +2374,14 @@ function C10_PhysicsScatteringLightSim({
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <p className="text-xs text-slate-400">Mastery Level</p>
-                <p className="text-3xl font-extrabold text-indigo-400 capitalize">{masteryLevel}</p>
+                <p className="text-3xl font-extrabold text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>
 
           {/* Personalized Motivational Feedback */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-sm font-bold text-indigo-400 mb-2">Performance Assessment</h3>
+            <h3 className="text-sm font-bold text-gold-400 mb-2">Performance Assessment</h3>
             <p className="text-slate-200 text-sm leading-relaxed">
               {errors === 0
                 ? 'PERFECT SCORE! 🌟 Flawless Mastery! You demonstrated exceptional command across light scattering, wave acoustics, resonance, and DC Ohm’s law.'
@@ -2423,13 +2423,13 @@ function C10_PhysicsScatteringLightSim({
           </div>
 
           {/* Real World Activity Completion Arc */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-3">
-            <h3 className="text-indigo-300 font-bold text-base">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-3">
+            <h3 className="text-gold-300 font-bold text-base">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-slate-300 text-xs leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

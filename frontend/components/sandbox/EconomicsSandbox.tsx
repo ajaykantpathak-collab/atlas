@@ -37,7 +37,7 @@ const CircularFlow3D = dynamic(() => import('./CircularFlow3D'), {
   loading: () => (
     <div className="flex h-[380px] items-center justify-center rounded-2xl border border-white/10 bg-[#070a14]">
       <div className="text-center">
-        <div className="mx-auto mb-3 h-8 w-8 animate-pulse rounded-full bg-sky-400/50" />
+        <div className="mx-auto mb-3 h-8 w-8 animate-pulse rounded-full bg-gold-400/50" />
         <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Loading 3D circular flow...</p>
       </div>
     </div>
@@ -117,22 +117,22 @@ function Slider({ label, value, set, min, max, step = 1, unit = '' }: {
     <label className="block">
       <span className="flex items-baseline justify-between text-[11px] font-bold text-slate-300">
         <span>{label}</span>
-        <span className="font-mono text-sky-300">{fmt(value)}{unit}</span>
+        <span className="font-mono text-gold-300">{fmt(value)}{unit}</span>
       </span>
       <input type="range" min={min} max={max} step={step} value={value}
         onChange={e => set(parseFloat(e.target.value))}
-        className="mt-1 w-full accent-sky-400" />
+        className="mt-1 w-full accent-gold-400" />
     </label>
   )
 }
 
 function Readout({ label, value, tone = 'sky' }: { label: string; value: string; tone?: string }) {
   const tones: Record<string, string> = {
-    sky: 'border-sky-400/40 bg-sky-500/10 text-sky-200',
+    sky: 'border-gold-400/40 bg-gold-500/10 text-gold-200',
     green: 'border-emerald-400/40 bg-emerald-500/10 text-emerald-200',
     amber: 'border-amber-400/40 bg-amber-500/10 text-amber-200',
     red: 'border-rose-400/40 bg-rose-500/10 text-rose-200',
-    violet: 'border-violet-400/40 bg-violet-500/10 text-violet-200',
+    violet: 'border-gold-400/40 bg-gold-500/10 text-gold-200',
   }
   return (
     <div className={`rounded-xl border px-3 py-2 ${tones[tone] ?? tones.sky}`}>
@@ -253,8 +253,8 @@ function MarketLab() {
         </div>
         {/* E4: event buttons shift the curves -> solver recomputes equilibrium */}
         <div className="mt-3 flex flex-wrap gap-2">
-          <button onClick={() => shift('d', 20)} className="rounded-xl border border-sky-400/40 bg-sky-500/10 px-3 py-1.5 text-[11px] font-black text-sky-200 hover:bg-sky-500/20">📈 income rises → demand +20</button>
-          <button onClick={() => shift('d', -20)} className="rounded-xl border border-sky-400/30 bg-sky-500/5 px-3 py-1.5 text-[11px] font-black text-sky-300/80 hover:bg-sky-500/15">📉 income falls → demand −20</button>
+          <button onClick={() => shift('d', 20)} className="rounded-xl border border-gold-400/40 bg-gold-500/10 px-3 py-1.5 text-[11px] font-black text-gold-200 hover:bg-gold-500/20">📈 income rises → demand +20</button>
+          <button onClick={() => shift('d', -20)} className="rounded-xl border border-gold-400/30 bg-gold-500/5 px-3 py-1.5 text-[11px] font-black text-gold-300/80 hover:bg-gold-500/15">📉 income falls → demand −20</button>
           <button onClick={() => shift('s', 20)} className="rounded-xl border border-emerald-400/40 bg-emerald-500/10 px-3 py-1.5 text-[11px] font-black text-emerald-200 hover:bg-emerald-500/20">🌾 good harvest → supply +20</button>
           <button onClick={() => shift('s', -20)} className="rounded-xl border border-emerald-400/30 bg-emerald-500/5 px-3 py-1.5 text-[11px] font-black text-emerald-300/80 hover:bg-emerald-500/15">🦂 bad harvest → supply −20</button>
         </div>
@@ -442,13 +442,13 @@ function MoneyLab() {
         </div>
         {/* deposit-creation chain */}
         <div className="mt-3 rounded-xl border border-white/10 bg-slate-900/60 p-3">
-          <p className="text-[10px] font-black uppercase tracking-widest text-sky-300">deposit-creation chain (each round re-lends 1 − RRR)</p>
+          <p className="text-[10px] font-black uppercase tracking-widest text-gold-300">deposit-creation chain (each round re-lends 1 − RRR)</p>
           <div className="mt-2 space-y-1.5">
             {chain.ok ? chain.value.rounds.map(r => (
               <div key={r.round} className="flex items-center gap-2">
                 <span className="w-12 text-[10px] font-bold text-slate-400">R{r.round}</span>
                 <div className="h-4 flex-1 overflow-hidden rounded bg-slate-800">
-                  <div className="h-full rounded bg-sky-500/70" style={{ width: `${(r.deposit / maxRound) * 100}%` }} />
+                  <div className="h-full rounded bg-gold-500/70" style={{ width: `${(r.deposit / maxRound) * 100}%` }} />
                 </div>
                 <span className="w-28 text-right font-mono text-[10px] text-slate-300">
                   dep {fmt(r.deposit)} · loan {fmt(r.loan)}
@@ -502,7 +502,7 @@ function IncomeLab() {
           <Readout label="ΔY = k × ΔI" value={dy != null ? `Rs ${fmt(dy)}` : '—'} tone="violet" />
         </div>
         <div className="mt-3 rounded-xl border border-white/10 bg-slate-900/60 p-3">
-          <p className="text-[10px] font-black uppercase tracking-widest text-sky-300">identity chain</p>
+          <p className="text-[10px] font-black uppercase tracking-widest text-gold-300">identity chain</p>
           <p className="mt-1 font-mono text-xs text-slate-300">
             Y = C + S → C {`=`} Rs {fmt(cons)}, S {`=`} Rs {apc.ok ? fmt(apc.value.s) : '—'}
             {'  ·  '}APC + APS = 1{'  ·  '}MPC + MPS = {mult.ok ? fmt(mpc + mult.value.mps) : '—'}
@@ -615,9 +615,9 @@ function DataLab() {
     : 100
   const rows: { k: string; v: number | null; color: string }[] = idx.ok
     ? [
-      { k: 'Simple aggregative', v: idx.value.aggregative, color: 'bg-sky-500/70' },
+      { k: 'Simple aggregative', v: idx.value.aggregative, color: 'bg-gold-500/70' },
       { k: 'Laspeyres (base Q)', v: idx.value.laspeyres, color: 'bg-emerald-500/70' },
-      { k: 'Paasche (current Q)', v: idx.value.paasche, color: 'bg-violet-500/70' },
+      { k: 'Paasche (current Q)', v: idx.value.paasche, color: 'bg-gold-500/70' },
     ]
     : []
   return (
@@ -645,7 +645,7 @@ function DataLab() {
                           const v = Math.max(0, parseFloat(e.target.value) || 0)
                           setCell([p0, p1, q0, q1][k], [setP0, setP1, setQ0, setQ1][k], j, v)
                         }}
-                        className="w-16 rounded-md border border-white/15 bg-slate-800 px-1.5 py-0.5 text-center font-mono text-sky-200" />
+                        className="w-16 rounded-md border border-white/15 bg-slate-800 px-1.5 py-0.5 text-center font-mono text-gold-200" />
                     </td>
                   ))}
                 </tr>
@@ -731,14 +731,14 @@ export default function EconomicsSandbox() {
       {/* header */}
       <div className="mb-3 flex items-start justify-between gap-2">
         <div>
-          <p className="text-[10px] font-black uppercase tracking-widest text-sky-300">economics · parameter lab + market sim + data bench</p>
+          <p className="text-[10px] font-black uppercase tracking-widest text-gold-300">economics · parameter lab + market sim + data bench</p>
           <h2 className="text-2xl font-black text-white">💰 Economics Lab</h2>
         </div>
         {/* class picker */}
         <div className="flex gap-1">
           {[9, 10, 11, 12].map(c => (
             <button key={c} onClick={() => setCls(c)}
-              className={`rounded-lg px-3 py-1.5 text-xs font-black transition ${cls === c ? 'bg-sky-500/20 text-sky-200 ring-1 ring-sky-400/60' : 'bg-slate-800 text-slate-400 hover:text-slate-200'}`}>
+              className={`rounded-lg px-3 py-1.5 text-xs font-black transition ${cls === c ? 'bg-gold-500/20 text-gold-200 ring-1 ring-gold-400/60' : 'bg-slate-800 text-slate-400 hover:text-slate-200'}`}>
               Cl {c}
             </button>
           ))}
@@ -750,7 +750,7 @@ export default function EconomicsSandbox() {
         {LABS.map(l => (
           <button key={l.key} onClick={() => setLab(l.key)}
             className={`rounded-xl border p-2 text-left transition ${lab === l.key
-              ? 'border-sky-400/60 bg-sky-500/15 shadow-[0_0_18px_rgba(56,189,248,0.12)]'
+              ? 'border-gold-400/60 bg-gold-500/15 shadow-[0_0_18px_rgba(56,189,248,0.12)]'
               : 'border-slate-700 bg-slate-800/50 hover:border-slate-500'}`}>
             <span className="text-lg">{l.emoji}</span>
             <p className="text-[10px] font-black leading-tight text-slate-200">{l.title}</p>
@@ -768,7 +768,7 @@ export default function EconomicsSandbox() {
           {chapters.map((ch, j) => (
             <button key={j} disabled={!ch.lab} onClick={() => ch.lab && setLab(ch.lab)}
               className={`rounded-lg border px-2.5 py-1.5 text-left ${ch.lab
-                ? 'border-sky-400/30 bg-sky-500/5 hover:border-sky-400/60'
+                ? 'border-gold-400/30 bg-gold-500/5 hover:border-gold-400/60'
                 : 'border-white/5 bg-slate-800/30 opacity-60'}`}>
               <p className="text-[11px] font-black text-slate-200">{ch.title}</p>
               <p className="text-[9px] text-slate-400">{ch.topics}{ch.lab ? ' → open lab' : ''}</p>

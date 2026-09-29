@@ -84,7 +84,7 @@ export default function PoemLab({ subject }: { subject: Subject }) {
             <button
               key={m}
               onClick={() => setMode(m)}
-              className={`rounded-xl px-3 py-1.5 text-xs font-bold ${mode === m ? 'bg-sky-500 text-slate-950' : 'border border-slate-600 text-slate-300'}`}
+              className={`rounded-xl px-3 py-1.5 text-xs font-bold ${mode === m ? 'bg-gold-500 text-slate-950' : 'border border-slate-600 text-slate-300'}`}
             >
               {m === 'poem' ? 'Verses · poem scanner' : 'Writing · format check'}
             </button>
@@ -104,7 +104,7 @@ export default function PoemLab({ subject }: { subject: Subject }) {
               ? 'Paste a poem (2+ lines)…'
               : `Paste your ${format.replace('_', ' ')} here…`
         }
-        className="w-full rounded-2xl border border-slate-600 bg-slate-950/70 p-4 text-sm text-slate-100 placeholder:text-slate-600 focus:border-sky-400 focus:outline-none"
+        className="w-full rounded-2xl border border-slate-600 bg-slate-950/70 p-4 text-sm text-slate-100 placeholder:text-slate-600 focus:border-gold-400 focus:outline-none"
       />
       <div className="flex flex-wrap gap-2 text-xs">
         {subject === 'hi' && (
@@ -182,7 +182,7 @@ export default function PoemLab({ subject }: { subject: Subject }) {
             <p className="text-sm text-amber-300">Declined — {String(poem.declined).replace(/_/g, ' ')}.</p>
           ) : (
             <>
-              <p className="text-xs font-bold uppercase tracking-wider text-sky-300">
+              <p className="text-xs font-bold uppercase tracking-wider text-gold-300">
                 {String(poem.verdict).replace(/_/g, ' ')} · {String(poem.metre ?? poem.family ?? '')}
                 {typeof poem.confidence === 'number' && (
                   <span className="text-slate-500"> · confidence {Math.round(poem.confidence * 100)}%</span>
@@ -203,7 +203,7 @@ export default function PoemLab({ subject }: { subject: Subject }) {
                       (st.lines ?? []).map((l: any, li: number) => (
                         <tr key={`${si}-${li}`} className="border-t border-slate-800">
                           <td className="py-1.5 pr-3 text-slate-300">{l.text ?? ''}</td>
-                          <td className="py-1.5 pr-3 font-bold text-sky-200">{l.syllables}</td>
+                          <td className="py-1.5 pr-3 font-bold text-gold-200">{l.syllables}</td>
                           <td className="py-1.5 pr-3 font-mono text-slate-400">{l.pattern}</td>
                           <td className="py-1.5 text-slate-300">{l.foot ?? ''}</td>
                         </tr>

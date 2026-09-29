@@ -1484,7 +1484,7 @@ export default function C6_PhysicsElectricityCircuitsCBSESim() {
             </div>
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
               <span className="text-xs text-slate-400 block">Nodes Mastered</span>
-              <span className="text-2xl font-bold text-sky-400">{ALL_NODE_IDS.length} / {ALL_NODE_IDS.length}</span>
+              <span className="text-2xl font-bold text-gold-400">{ALL_NODE_IDS.length} / {ALL_NODE_IDS.length}</span>
             </div>
           </div>
 

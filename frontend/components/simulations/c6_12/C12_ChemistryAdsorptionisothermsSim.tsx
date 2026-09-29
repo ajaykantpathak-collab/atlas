@@ -389,14 +389,14 @@ const AdsorptionVisualizer: React.FC = () => {
   return (
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 text-white shadow-xl">
       <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-        <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+        <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
           <span>🧪</span> Adsorption Isotherm Surface Lab
         </h3>
         <div className="flex gap-2">
           <button
             onClick={() => { setIsothermType('freundlich'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
-              isothermType === 'freundlich' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              isothermType === 'freundlich' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             Freundlich (x/m = kP¹/ⁿ)
@@ -404,7 +404,7 @@ const AdsorptionVisualizer: React.FC = () => {
           <button
             onClick={() => { setIsothermType('langmuir'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
-              isothermType === 'langmuir' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              isothermType === 'langmuir' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             Langmuir (Monolayer Saturation)
@@ -454,7 +454,7 @@ const AdsorptionVisualizer: React.FC = () => {
               );
             })()}
           </svg>
-          <div className="flex justify-between text-xs font-mono text-cyan-300 bg-slate-900/80 p-1.5 rounded">
+          <div className="flex justify-between text-xs font-mono text-gold-300 bg-slate-900/80 p-1.5 rounded">
             <span>P = {pressure} atm</span>
             <span>T = {temp} K</span>
             <span>x/m = {xm.toFixed(2)} g/g</span>
@@ -476,7 +476,7 @@ const AdsorptionVisualizer: React.FC = () => {
                 max="100"
                 value={pressure}
                 onChange={(e) => setPressure(Number(e.target.value))}
-                className="w-32 accent-cyan-400"
+                className="w-32 accent-gold-400"
               />
             </div>
             <div className="flex items-center justify-between text-xs">
@@ -584,7 +584,7 @@ const CatalysisVisualizer: React.FC = () => {
               {step === 0 && (
                 <motion.div key="s0" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="text-center">
                   <div className="text-2xl mb-1">⚛️ ⚛️</div>
-                  <div className="text-xs text-cyan-300 font-medium">1. Reactants Diffusion towards Surface</div>
+                  <div className="text-xs text-gold-300 font-medium">1. Reactants Diffusion towards Surface</div>
                 </motion.div>
               )}
               {step === 1 && (
@@ -633,14 +633,14 @@ const ColloidVisualizer: React.FC = () => {
   // Type derived from size
   const typeLabel = useMemo(() => {
     if (particleSize < 1) return { name: 'True Solution', status: 'Clear / No Scattering', color: 'text-emerald-400' };
-    if (particleSize <= 1000) return { name: 'Colloidal Sol (1-1000 nm)', status: 'Tyndall Beam Visible!', color: 'text-cyan-400' };
+    if (particleSize <= 1000) return { name: 'Colloidal Sol (1-1000 nm)', status: 'Tyndall Beam Visible!', color: 'text-gold-400' };
     return { name: 'Suspension (>1000 nm)', status: 'Coarse / Rapid Settling', color: 'text-amber-400' };
   }, [particleSize]);
 
   return (
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 text-white shadow-xl">
       <div className="flex flex-wrap items-center justify-between mb-4 gap-2">
-        <h3 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+        <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
           <span>✨</span> Colloids, Tyndall Beam & Coagulation
         </h3>
         <div className={`text-xs px-3 py-1 rounded-full font-bold bg-slate-800 ${typeLabel.color}`}>
@@ -680,7 +680,7 @@ const ColloidVisualizer: React.FC = () => {
                   key={i}
                   className={`absolute rounded-full transition-all duration-1000 ${
                     electrophoresisOn ? 'translate-x-20' : ''
-                  } ${addedCoagulant !== 'none' ? 'translate-y-10 scale-125 bg-amber-500' : 'bg-cyan-300'}`}
+                  } ${addedCoagulant !== 'none' ? 'translate-y-10 scale-125 bg-amber-500' : 'bg-gold-300'}`}
                   style={{
                     width: `${Math.max(3, Math.min(16, particleSize / 20))}px`,
                     height: `${Math.max(3, Math.min(16, particleSize / 20))}px`,
@@ -695,7 +695,7 @@ const ColloidVisualizer: React.FC = () => {
             {/* Electrophoresis Electrodes */}
             {electrophoresisOn && (
               <div className="absolute inset-y-0 inset-x-2 pointer-events-none flex justify-between items-center text-xs font-bold">
-                <span className="bg-blue-600 px-1 py-3 rounded text-white font-mono">Cathode (-)</span>
+                <span className="bg-gold-600 px-1 py-3 rounded text-white font-mono">Cathode (-)</span>
                 <span className="bg-rose-600 px-1 py-3 rounded text-white font-mono">Anode (+)</span>
               </div>
             )}
@@ -709,9 +709,9 @@ const ColloidVisualizer: React.FC = () => {
               max="1500"
               value={particleSize}
               onChange={(e) => setParticleSize(Number(e.target.value))}
-              className="w-40 accent-cyan-400"
+              className="w-40 accent-gold-400"
             />
-            <span className="font-mono text-cyan-300 w-16 text-right">{particleSize.toFixed(0)} nm</span>
+            <span className="font-mono text-gold-300 w-16 text-right">{particleSize.toFixed(0)} nm</span>
           </div>
         </div>
 
@@ -728,7 +728,7 @@ const ColloidVisualizer: React.FC = () => {
             <button
               onClick={() => { setAddedCoagulant('Na'); audioManager.play('drop-correct'); }}
               className={`p-2 rounded border text-xs font-bold ${
-                addedCoagulant === 'Na' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
+                addedCoagulant === 'Na' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
               }`}
             >
               NaCl (Na⁺)
@@ -964,7 +964,7 @@ const RefiningVisualizer: React.FC = () => {
 
             <div className="relative h-36 bg-slate-900 rounded border border-slate-800 p-2 flex justify-around items-end">
               {/* Electrolyte liquid */}
-              <div className="absolute inset-x-0 bottom-0 h-28 bg-blue-600/30 border-t border-blue-400/50" />
+              <div className="absolute inset-x-0 bottom-0 h-28 bg-gold-600/30 border-t border-gold-400/50" />
 
               {/* Anode (Impure Cu Slab) */}
               <div className="w-8 bg-amber-800 border-2 border-amber-600 rounded-t h-28 z-10 flex flex-col items-center justify-start pt-1 text-[9px] font-bold text-amber-200">
@@ -1025,7 +1025,7 @@ const RefiningVisualizer: React.FC = () => {
             </div>
 
             {/* Water + Gangue at bottom */}
-            <div className="flex-1 bg-blue-950/40 flex items-end justify-between px-4 pb-2">
+            <div className="flex-1 bg-gold-950/40 flex items-end justify-between px-4 pb-2">
               <div className="text-[10px] text-slate-400 font-mono">
                 Water-wetted Gangue (Silica) Sinks to Bottom
               </div>
@@ -1155,7 +1155,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
       {/* Top Header Navigation */}
       <header className="w-full max-w-5xl flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4 mb-6">
         <div>
-          <div className="text-xs font-mono text-cyan-400 font-bold uppercase tracking-wider">
+          <div className="text-xs font-mono text-gold-400 font-bold uppercase tracking-wider">
             Class 12 ISC Chemistry • Surface Chemistry & Metallurgy
           </div>
           <h1 className="text-2xl font-black text-white flex items-center gap-2">
@@ -1167,7 +1167,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
           <button
             onClick={() => setMode('slides')}
             className={`px-3 py-1.5 rounded-lg transition ${
-              mode === 'slides' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              mode === 'slides' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             📚 Interactive Lessons
@@ -1175,7 +1175,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
           <button
             onClick={() => setMode('sandbox')}
             className={`px-3 py-1.5 rounded-lg transition ${
-              mode === 'sandbox' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              mode === 'sandbox' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             🧪 Sandbox Lab
@@ -1183,7 +1183,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
           <button
             onClick={() => setMode('challenges')}
             className={`px-3 py-1.5 rounded-lg transition ${
-              mode === 'challenges' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              mode === 'challenges' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             🏆 Master Challenges ({challengeIdx + 1}/{CHALLENGES.length})
@@ -1206,7 +1206,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
             {/* Slide Explanation Box */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest">
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-widest">
                   Slide {slideIdx + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full font-semibold">
@@ -1216,7 +1216,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
               <h2 className="text-xl font-bold text-white mb-3">{currentSlide.title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed mb-4">{currentSlide.content}</p>
               
-              <div className="p-3 bg-cyan-950/40 border border-cyan-500/30 rounded-lg text-xs font-medium text-cyan-200">
+              <div className="p-3 bg-gold-950/40 border border-gold-500/30 rounded-lg text-xs font-medium text-gold-200">
                 💡 <strong>Key Board Examination Takeaway:</strong> {currentSlide.keyTakeaway}
               </div>
 
@@ -1236,7 +1236,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                     <div
                       key={idx}
                       className={`w-2.5 h-2.5 rounded-full transition-all ${
-                        idx === slideIdx ? 'bg-cyan-400 w-6' : 'bg-slate-700'
+                        idx === slideIdx ? 'bg-gold-400 w-6' : 'bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1247,7 +1247,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                       setSlideIdx((s) => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 font-bold text-xs hover:bg-cyan-400"
+                    className="px-4 py-2 rounded-lg bg-gold-500 text-slate-950 font-bold text-xs hover:bg-gold-400"
                   >
                     Next Slide ▶
                   </button>
@@ -1286,7 +1286,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
           <div className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
               <div className="flex justify-between items-center mb-4">
-                <span className="text-xs font-mono text-cyan-400 font-bold">
+                <span className="text-xs font-mono text-gold-400 font-bold">
                   Challenge {challengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <span className="text-xs font-mono text-emerald-400 font-bold bg-slate-800 px-3 py-1 rounded-full">
@@ -1326,7 +1326,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
 
               {selectedOption !== null && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 border border-slate-800 rounded-xl mb-4">
-                  <div className="text-xs font-bold text-cyan-400 mb-1">Explanation & Mastery Insight:</div>
+                  <div className="text-xs font-bold text-gold-400 mb-1">Explanation & Mastery Insight:</div>
                   <p className="text-xs text-slate-300 leading-relaxed">{currentChallenge.explanation}</p>
                 </motion.div>
               )}
@@ -1341,7 +1341,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                 {selectedOption !== null && (
                   <button
                     onClick={handleNextChallenge}
-                    className="px-5 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-xs font-bold rounded-lg transition"
+                    className="px-5 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 text-xs font-bold rounded-lg transition"
                   >
                     Next Challenge ➔
                   </button>
@@ -1362,7 +1362,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
               You have completed all 10 core Class 12 ISC nodes covering adsorption isotherms, catalysis, colloids, Ellingham diagrams, and metal refining.
             </p>
 
-            <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 inline-block font-mono text-cyan-400 text-lg font-bold">
+            <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 inline-block font-mono text-gold-400 text-lg font-bold">
               Final Score: {score} / {CHALLENGES.length * 10} pts
             </div>
 
@@ -1375,7 +1375,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                   setMode('challenges');
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 bg-cyan-500 text-slate-950 text-xs font-bold rounded-lg hover:bg-cyan-400"
+                className="px-6 py-2.5 bg-gold-500 text-slate-950 text-xs font-bold rounded-lg hover:bg-gold-400"
               >
                 Retry Challenges 🔄
               </button>

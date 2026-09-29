@@ -11,11 +11,11 @@ export const w_c7_physicslightshadowsreflectionscbsesim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Light Travels in a Straight Line: Rectilinear Propagation',
     chapters: [],
     nodeIds: ['c7_physics_ch05_003', 'c7_physics_ch05_002', 'c7_physics_ch05_004', 'c7_physics_ch05_005', 'c7_physics_ch05_006', 'c7_physics_ch05_007', 'c7_physics_ch05_009', 'c7_physics_ch05_011', 'c7_physics_ch05_010', 'c7_physics_ch05_001', 'c7_physics_ch05_008', 'c7_physics_ch06_007', 'c7_physics_ch01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Observe a beam of sunlight streaming through a dusty window or a cinema projector beam cutting through a dark.', goal: 'Master Light Travels in a Straight Line: Rectilinear Propagation.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Light travels in straight lines in a.', text: 'Light travels in straight lines in a homogeneous, transparent medium, a property known as rectilinear propagation of light.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Light travels in straight lines in a.', text: 'Light travels in straight lines in a homogeneous, transparent medium, a property known as rectilinear propagation of light.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch05_003', title: 'Light travels in straight lines in a.',

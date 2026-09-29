@@ -44,7 +44,7 @@ const TEACHING_SLIDES = [
     title: 'The Magic of Air! 🌬️',
     text: 'Air is all around us! We cannot see it, but it occupies space, has weight, and expands when heated! We feel it as wind!',
     emoji: '🌬️',
-    bgColor: 'from-sky-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Air is all around us! We cannot see it, but it occupies space, has weight, and expands when heated!',
   },
   {
@@ -58,14 +58,14 @@ const TEACHING_SLIDES = [
     title: 'Stop Air-Borne Germs! 😷',
     text: 'Cough, cold, and flu spread through the air when people cough or sneeze without covering their mouth. Always cover your mouth and wash hands!',
     emoji: '😷',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'Cough, cold, and flu spread through the air when people cough or sneeze. Always cover your mouth and wash hands!',
   },
   {
     title: 'Clean Surroundings! 🗑️',
     text: 'Keep your home and school clean! Put garbage in covered dustbins, segregate wet and dry waste, and never litter on the street!',
     emoji: '🗑️',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Keep your home and school clean! Put garbage in covered dustbins, segregate wet and dry waste, and never litter!',
   },
   {
@@ -563,7 +563,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
   const slide = TEACHING_SLIDES[currentSlide];
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-between p-6 bg-gradient-to-b from-sky-400 to-blue-600 text-white select-none">
+    <div className="absolute inset-0 flex flex-col items-center justify-between p-6 bg-gradient-to-b from-gold-400 to-gold-600 text-white select-none">
       <div className="w-full flex justify-between items-center max-w-2xl mt-2">
         <div className="flex gap-1.5">
           {TEACHING_SLIDES.map((_, i) => (

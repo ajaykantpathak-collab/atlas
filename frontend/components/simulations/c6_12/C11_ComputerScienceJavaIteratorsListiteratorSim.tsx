@@ -898,8 +898,8 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
       return {
         badge: 'Great work! 🌟',
         message: 'Excellent conceptual grasp across ListIterator cursors, BST traversals, and divide-and-conquer logic.',
-        color: 'text-indigo-400',
-        bg: 'bg-indigo-950/60 border-indigo-500/80',
+        color: 'text-gold-400',
+        bg: 'bg-gold-950/60 border-gold-500/80',
         reviewInterval: 'review in 3 days',
       };
     }
@@ -1256,12 +1256,12 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
         className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl mb-6"
       >
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl">
+          <div className="w-12 h-12 rounded-xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded border border-indigo-800">
+              <span className="text-xs uppercase font-bold tracking-wider text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-800">
                 ISC Class 11 Computer Science
               </span>
               <motion.span
@@ -1294,7 +1294,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                 setPhase(p);
               }}
               className={`px-3 py-1 rounded-lg capitalize font-medium transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {idx + 1}. {p}
@@ -1313,12 +1313,12 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
             exit={{ opacity: 0, y: -15 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+            <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
                 <span>🏙️</span> {SCENARIO.title}
               </div>
               <p className="text-base md:text-lg text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-sm text-indigo-300/80 mt-2">{SCENARIO.context}</p>
+              <p className="text-sm text-gold-300/80 mt-2">{SCENARIO.context}</p>
             </div>
 
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
@@ -1345,7 +1345,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                         : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                     {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                     {opt}
@@ -1367,7 +1367,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Enter Interactive Lab 1"
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     Enter Interactive Lab 1 →
                   </motion.button>
@@ -1388,7 +1388,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
           >
             <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
               <div>
-                <span className="text-xs text-indigo-400 uppercase font-bold tracking-wider">
+                <span className="text-xs text-gold-400 uppercase font-bold tracking-wider">
                   Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1403,8 +1403,8 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
               {currentSlide === 0 && (
                 <div className="space-y-6">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
-                      <p className="text-sm font-bold text-indigo-300">🎯 Prediction Challenge:</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
+                      <p className="text-sm font-bold text-gold-300">🎯 Prediction Challenge:</p>
                       <p className="text-sm text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1430,7 +1430,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
 
                   {/* SVG DIAGRAM 1: ListIterator Bidirectional Cursor Geometry */}
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                    <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Topic SVG Diagram 1: Java ListIterator Pointer Cursor Model
                     </span>
                     <svg viewBox="0 0 600 120" className="w-full h-24" aria-label="ListIterator Pointer Model Architecture SVG">
@@ -1481,7 +1481,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                           <motion.div
                             layout
                             className={`px-4 py-3 rounded-xl border flex flex-col items-center min-w-[90px] transition-all ${
-                              lastReturned === item ? 'bg-indigo-900/60 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
+                              lastReturned === item ? 'bg-gold-900/60 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-300'
                             }`}
                           >
                             <span className="text-[10px] text-slate-500 font-mono">[{idx}]</span>
@@ -1575,7 +1575,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     {/* Stack Container */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <h4 className="text-sm font-bold text-indigo-400">🥞 LIFO Stack (addFirst / removeFirst)</h4>
+                        <h4 className="text-sm font-bold text-gold-400">🥞 LIFO Stack (addFirst / removeFirst)</h4>
                         <span className="text-xs text-slate-400">Size: {stackItems.length}/6</span>
                       </div>
                       <div className="h-40 border-2 border-dashed border-slate-800 rounded-xl p-2 flex flex-col-reverse gap-1.5 overflow-hidden justify-start">
@@ -1585,11 +1585,11 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
                             className={`p-2 rounded-lg text-xs font-mono font-bold flex items-center justify-between ${
-                              i === stackItems.length - 1 ? 'bg-indigo-600 text-white border border-indigo-400' : 'bg-slate-800 text-slate-300'
+                              i === stackItems.length - 1 ? 'bg-gold-600 text-white border border-gold-400' : 'bg-slate-800 text-slate-300'
                             }`}
                           >
                             <span>{st}</span>
-                            {i === stackItems.length - 1 && <span className="text-[10px] bg-indigo-950 px-1 rounded">TOP</span>}
+                            {i === stackItems.length - 1 && <span className="text-[10px] bg-gold-950 px-1 rounded">TOP</span>}
                           </motion.div>
                         ))}
                       </div>
@@ -1599,7 +1599,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                           whileTap={{ scale: 0.95 }}
                           aria-label="Push card onto stack"
                           onClick={handleStackPush}
-                          className="flex-1 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg"
+                          className="flex-1 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg"
                         >
                           Push Card (addFirst)
                         </motion.button>
@@ -1668,7 +1668,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h4 className="text-sm font-bold text-indigo-300">Divide & Conquer: O(n log n) Tree Unfolding</h4>
+                      <h4 className="text-sm font-bold text-gold-300">Divide & Conquer: O(n log n) Tree Unfolding</h4>
                       <p className="text-xs text-slate-400">Step {mergeStep} of 5: {
                         mergeStep === 0 ? 'Initial Array [38, 27, 43, 3, 9, 82]' :
                         mergeStep === 1 ? 'Divided at mid=2: Left=[38, 27, 43], Right=[3, 9, 82]' :
@@ -1682,7 +1682,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label="Advance Merge Sort Step"
                       onClick={handleMergeStepNext}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                     >
                       Advance Step ⏭️
                     </motion.button>
@@ -1715,7 +1715,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
               {currentSlide === 3 && (
                 <div className="space-y-4">
                   <div className="flex flex-wrap items-center justify-between gap-3">
-                    <h4 className="text-sm font-bold text-indigo-300">BST Tree Walk: Left &lt; Root &lt; Right</h4>
+                    <h4 className="text-sm font-bold text-gold-300">BST Tree Walk: Left &lt; Root &lt; Right</h4>
                     <div className="flex gap-2">
                       {(['inorder', 'preorder', 'postorder'] as const).map(t => (
                         <motion.button
@@ -1731,7 +1731,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                             audioManager.play('pop');
                           }}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
-                            traversalType === t ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                            traversalType === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
                           {t}
@@ -1742,7 +1742,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
 
                   {/* SVG DIAGRAM 3: Binary Search Tree Hierarchy */}
                   <div className="bg-slate-950 rounded-xl border border-slate-800 p-4">
-                    <span className="text-[11px] font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                    <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Topic SVG Diagram 3: Binary Search Tree Structural Ordering (Left &lt; Root &lt; Right)
                     </span>
                     <svg viewBox="0 0 500 220" className="w-full h-44" aria-label="Binary Search Tree Hierarchy SVG">
@@ -1772,7 +1772,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     </svg>
 
                     <div className="mt-2 p-3 bg-slate-900 rounded-lg border border-slate-800 flex items-center gap-2">
-                      <span className="text-xs text-indigo-400 font-bold uppercase">{traversalType} Tape:</span>
+                      <span className="text-xs text-gold-400 font-bold uppercase">{traversalType} Tape:</span>
                       <div className="flex gap-2 font-mono text-xs font-bold text-emerald-400">
                         {traversalOutput.map((v, i) => (
                           <span key={i} className="px-2 py-0.5 bg-slate-800 rounded border border-slate-700">
@@ -1790,7 +1790,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex items-center justify-between">
-                      <h4 className="text-sm font-bold text-indigo-400">Postfix Evaluator Stack</h4>
+                      <h4 className="text-sm font-bold text-gold-400">Postfix Evaluator Stack</h4>
                       <span className="text-xs text-slate-400">Tokens: "15 2 * 25 +"</span>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg text-xs text-slate-300 font-mono min-h-[40px]">
@@ -1798,7 +1798,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     </div>
                     <div className="h-28 border border-slate-800 rounded-lg p-2 flex items-center justify-center gap-2">
                       {evalStack.map((val, idx) => (
-                        <div key={idx} className="px-3 py-2 bg-indigo-600 text-white font-bold rounded-lg text-xs font-mono">
+                        <div key={idx} className="px-3 py-2 bg-gold-600 text-white font-bold rounded-lg text-xs font-mono">
                           {val}
                         </div>
                       ))}
@@ -1809,7 +1809,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label="Step Expression Evaluation"
                       onClick={handleEvalStep}
-                      className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg"
+                      className="w-full py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg"
                     >
                       Step Evaluation ⏭️
                     </motion.button>
@@ -1819,7 +1819,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     <h4 className="text-sm font-bold text-emerald-400">Database Capstone Schema (JDBC)</h4>
                     <div className="space-y-2 text-xs font-mono">
                       <div className="p-2 bg-slate-900 rounded border border-slate-800">
-                        <span className="text-indigo-400 font-bold">Student</span> (<u>studentID</u> [PK], name, classID [FK])
+                        <span className="text-gold-400 font-bold">Student</span> (<u>studentID</u> [PK], name, classID [FK])
                       </div>
                       <div className="p-2 bg-slate-900 rounded border border-slate-800">
                         <span className="text-amber-400 font-bold">Class</span> (<u>classID</u> [PK], className, teacherID [FK])
@@ -1837,7 +1837,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-5 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/50 space-y-3"
+                  className="p-5 bg-gradient-to-r from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/50 space-y-3"
                 >
                   <div className="flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-wider">
                     <span>🔍</span> Brilliant Observation Check: What do you notice?
@@ -1860,14 +1860,14 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                               : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                           }`}
                         >
-                          <span className="font-mono text-indigo-400 mr-2">({oIdx + 1})</span>
+                          <span className="font-mono text-gold-400 mr-2">({oIdx + 1})</span>
                           {opt}
                         </button>
                       );
                     })}
                   </div>
                   {observationResponses[currentObsIndex] !== undefined && (
-                    <p className="text-xs text-indigo-300 font-mono pt-1">
+                    <p className="text-xs text-gold-300 font-mono pt-1">
                       💡 {currentObservation.explanation}
                     </p>
                   )}
@@ -1892,7 +1892,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                   <div
                     key={idx}
                     className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      currentSlide === idx ? 'bg-indigo-500 w-6' : 'bg-slate-700'
+                      currentSlide === idx ? 'bg-gold-500 w-6' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -1903,7 +1903,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Next Lab Step"
                   onClick={() => setCurrentSlide(s => s + 1)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl"
                 >
                   Next Lab →
                 </motion.button>
@@ -1951,7 +1951,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
               {/* Sandbox Control 1 */}
               <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-sm font-bold text-indigo-400">Greedy Indian Coin Dispenser</h4>
+                  <h4 className="text-sm font-bold text-gold-400">Greedy Indian Coin Dispenser</h4>
                   <span className="text-xs font-mono text-emerald-400 font-bold">Target: ₹{coinChangeAmount}</span>
                 </div>
                 <input
@@ -1961,12 +1961,12 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                   value={coinChangeAmount}
                   aria-label="Target coin change amount in rupees"
                   onChange={(e) => setCoinChangeAmount(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="flex flex-wrap gap-2 pt-2">
                   {Object.entries(greedyCoins).map(([denom, count]) => (
                     <div key={denom} className="px-3 py-2 bg-slate-950 rounded-xl border border-slate-800 text-xs">
-                      <span className="text-indigo-400 font-bold">₹{denom}</span> × <span className="text-white font-bold">{count}</span>
+                      <span className="text-gold-400 font-bold">₹{denom}</span> × <span className="text-white font-bold">{count}</span>
                     </div>
                   ))}
                 </div>
@@ -1989,7 +1989,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                 />
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <p className="font-bold text-indigo-300">Electronics (TV ₹25,000)</p>
+                    <p className="font-bold text-gold-300">Electronics (TV ₹25,000)</p>
                     <p className="text-slate-400 mt-1">Discount: ₹{25000 * (productDiscountPercent / 100)}</p>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -2021,13 +2021,13 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                 <span className="text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-indigo-400 capitalize">
+                <span className="text-gold-400 capitalize">
                   Competency: {challenge.competencyLevel} ({challenge.type})
                 </span>
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2061,7 +2061,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                           : 'bg-slate-800/70 hover:bg-slate-800 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-mono text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                      <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                       {showExplanation && i === challenge.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                       {opt}
                     </motion.button>
@@ -2083,7 +2083,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                        className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2112,7 +2112,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label="Verify Schema Mapping"
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Verify Schema Mapping
                   </motion.button>
@@ -2139,7 +2139,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-400 flex items-center justify-center font-mono font-bold">
+                      <span className="w-6 h-6 rounded-lg bg-gold-950 text-gold-400 flex items-center justify-center font-mono font-bold">
                         {displayIdx + 1}
                       </span>
                       {challenge.sortItems![itemIdx]}
@@ -2154,7 +2154,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                       handleAnswer(ans);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Check Pipeline Sequence
                   </motion.button>
@@ -2170,7 +2170,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label={`Enter numerical answer in ${challenge.unit || 'units'}`}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
                   <motion.button
@@ -2179,7 +2179,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label="Submit Numeric Answer"
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Submit Answer
                   </motion.button>
@@ -2198,7 +2198,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Add code token: ${part}`}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-mono"
+                        className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-lg text-xs font-mono"
                       >
                         + {part}
                       </motion.button>
@@ -2207,7 +2207,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[80px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((part, i) => (
-                      <span key={i} className="px-3 py-1 bg-indigo-600 text-white font-mono text-xs rounded-lg flex items-center gap-1.5">
+                      <span key={i} className="px-3 py-1 bg-gold-600 text-white font-mono text-xs rounded-lg flex items-center gap-1.5">
                         {part}
                         <button
                           aria-label={`Remove token ${part}`}
@@ -2227,7 +2227,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label="Validate Statement Assembly"
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Validate Statement Assembly
                   </motion.button>
@@ -2305,15 +2305,15 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                   Total Inaccuracies: <strong className="text-rose-400">{errors}</strong>
                 </span>
                 <span className="px-4 py-1.5 bg-slate-900 rounded-xl border border-slate-700 capitalize">
-                  Mastery Tier: <strong className="text-indigo-400">{masteryLevel}</strong>
+                  Mastery Tier: <strong className="text-gold-400">{masteryLevel}</strong>
                 </span>
               </div>
             </div>
 
             {/* SPACED REPETITION VISIBILITY CARD */}
-            <div className="p-6 bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 rounded-2xl border-2 border-indigo-500/80 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="p-6 bg-gradient-to-r from-gold-950 via-slate-900 to-gold-950 rounded-2xl border-2 border-gold-500/80 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="space-y-1 text-center md:text-left">
-                <div className="flex items-center justify-center md:justify-start gap-2 text-indigo-400 text-xs uppercase font-bold tracking-wider">
+                <div className="flex items-center justify-center md:justify-start gap-2 text-gold-400 text-xs uppercase font-bold tracking-wider">
                   <span>🧠</span> Spaced Repetition Schedule (SRS)
                 </div>
                 <h3 className="text-lg md:text-xl font-bold text-white">
@@ -2323,7 +2323,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                   Based on your performance ({errors} error{errors === 1 ? '' : 's'}), our SM-2 algorithm calculates that reviewing these Java iterator, stack, circular queue, and BST invariants in <strong>{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> will maximize long-term neural recall for your ISC exams.
                 </p>
               </div>
-              <div className="px-5 py-3 bg-slate-950/90 border border-indigo-400/40 rounded-xl text-center">
+              <div className="px-5 py-3 bg-slate-950/90 border border-gold-400/40 rounded-xl text-center">
                 <span className="text-xs text-slate-400 uppercase font-mono block">Recommended Review</span>
                 <span className="text-base font-black text-amber-400 capitalize">{motivational.reviewInterval}</span>
               </div>
@@ -2341,7 +2341,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
 
               <div className="space-y-4">
                 <div>
-                  <label className="block text-xs font-bold text-indigo-300 mb-1">
+                  <label className="block text-xs font-bold text-gold-300 mb-1">
                     1. What was the most surprising thing you learned about Java iterators, stacks, or Merge Sort?
                   </label>
                   <textarea
@@ -2350,12 +2350,12 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label="Reflection on surprising concepts learned"
                     onChange={(e) => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                     placeholder="e.g., How ListIterator remove() requires a preceding next() or previous() call..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-indigo-300 mb-1">
+                  <label className="block text-xs font-bold text-gold-300 mb-1">
                     2. How would you explain why Circular Queues use (rear + 1) % capacity to a friend?
                   </label>
                   <textarea
@@ -2364,12 +2364,12 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label="Reflection on explaining modulo circular queues to a friend"
                     onChange={(e) => setReflectionResponses(prev => ({ ...prev, explanation: e.target.value }))}
                     placeholder="e.g., When rear reaches the array end, modulo wraps it back to index 0 like a clock..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-indigo-300 mb-1">
+                  <label className="block text-xs font-bold text-gold-300 mb-1">
                     3. Where in real life might you use an Inorder BST traversal or Stack evaluation?
                   </label>
                   <textarea
@@ -2378,7 +2378,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     aria-label="Reflection on real-world applications of BSTs and Stacks"
                     onChange={(e) => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                     placeholder="e.g., Database indexing in Bengaluru Metro fare calculations or calculator parse trees..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2390,7 +2390,7 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
                     setReflectionSubmitted(true);
                     audioManager.play('success');
                   }}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   {reflectionSubmitted ? '✓ Reflections Saved in Learning Log' : 'Save Reflection Log'}
                 </motion.button>
@@ -2416,12 +2416,12 @@ function C11_ComputerScienceJavaIteratorsListiteratorSim({
 
             {/* Real World Activity Arc */}
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{i + 1}.</span> {st}
+                    <span className="text-gold-400 font-bold">{i + 1}.</span> {st}
                   </li>
                 ))}
               </ul>

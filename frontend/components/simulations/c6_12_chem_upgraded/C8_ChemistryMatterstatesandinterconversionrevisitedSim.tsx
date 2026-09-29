@@ -676,8 +676,8 @@ const HeatingCurveSVG: React.FC<{
   substance: string;
 }> = ({ currentTemp, heatEnergy }) => {
   return (
-    <div className="w-full flex flex-col items-center bg-slate-900/90 rounded-xl p-4 border border-cyan-500/30 text-white">
-      <h4 className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2">
+    <div className="w-full flex flex-col items-center bg-slate-900/90 rounded-xl p-4 border border-gold-500/30 text-white">
+      <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
         Thermodynamic Heating Curve Diagram (Temp vs Heat Energy)
       </h4>
       <svg viewBox="0 0 500 280" className="w-full max-w-lg h-auto overflow-visible">
@@ -816,8 +816,8 @@ const IntermolecularForcesSVG: React.FC<{ stateOfMatter: 'solid' | 'liquid' | 'g
   stateOfMatter,
 }) => {
   return (
-    <div className="w-full bg-slate-900/90 rounded-xl p-4 border border-indigo-500/30 text-white flex flex-col items-center">
-      <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">
+    <div className="w-full bg-slate-900/90 rounded-xl p-4 border border-gold-500/30 text-white flex flex-col items-center">
+      <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
         Microscopic Intermolecular Distance & Force Potential Diagram
       </h4>
       <svg viewBox="0 0 450 200" className="w-full max-w-md h-auto">
@@ -1528,11 +1528,11 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl bg-slate-900/80 border border-slate-800 rounded-2xl p-4 mb-4 backdrop-blur flex flex-col md:flex-row items-center justify-between gap-4 shadow-2xl">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-white text-2xl font-black shadow-lg shadow-cyan-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-white text-2xl font-black shadow-lg shadow-gold-500/30">
             🧪
           </div>
           <div>
-            <h1 className="text-lg md:text-xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-200 to-indigo-400">
+            <h1 className="text-lg md:text-xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-200 to-gold-400">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 8 Chemistry • Matter & Interconversion</p>
@@ -1548,7 +1548,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'discovery'
-                ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1561,7 +1561,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'lab'
-                ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1574,7 +1574,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'challenges'
-                ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1587,7 +1587,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               activeTab === 'summary'
-                ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -1609,7 +1609,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
         {activeTab === 'discovery' && (
           <div className="flex flex-col gap-6 animate-fadeIn">
             <section className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-2 flex items-center gap-2">
                 📜 Lab Context & Mission
               </h2>
               <p className="text-sm text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
@@ -1619,7 +1619,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
             </section>
 
             {/* PRE-DISCOVERY QUESTION */}
-            <section className="bg-slate-900/90 border border-cyan-500/30 rounded-2xl p-6 shadow-xl">
+            <section className="bg-slate-900/90 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
               <h3 className="text-base font-bold text-white mb-2 flex items-center gap-2">
                 ❓ Initial Discovery Challenge
               </h3>
@@ -1637,7 +1637,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                        : 'bg-slate-950 border-slate-800 hover:border-cyan-500/50 text-slate-300'
+                        : 'bg-slate-950 border-slate-800 hover:border-gold-500/50 text-slate-300'
                     }`}
                   >
                     <span className="font-bold mr-2">{String.fromCharCode(65 + idx)}.</span>
@@ -1647,8 +1647,8 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
               </div>
 
               {discoveryRevealed && (
-                <div className="bg-cyan-950/60 border border-cyan-500/40 p-4 rounded-xl text-xs text-cyan-200 leading-relaxed animate-fadeIn">
-                  <span className="font-bold block text-cyan-300 mb-1">
+                <div className="bg-gold-950/60 border border-gold-500/40 p-4 rounded-xl text-xs text-gold-200 leading-relaxed animate-fadeIn">
+                  <span className="font-bold block text-gold-300 mb-1">
                     💡 Microscopic Explanation:
                   </span>
                   {DISCOVERY_QUESTION.hintAfter}
@@ -1668,7 +1668,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                     className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between"
                   >
                     <div>
-                      <span className="text-[10px] uppercase font-bold tracking-wider text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800 mb-2 inline-block">
+                      <span className="text-[10px] uppercase font-bold tracking-wider text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800 mb-2 inline-block">
                         Prediction #{pIdx + 1}
                       </span>
                       <p className="text-xs text-slate-200 font-semibold mb-3">{pq.question}</p>
@@ -1699,11 +1699,11 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                   }}
                   className={`p-3 rounded-xl border text-left flex flex-col justify-between transition-all ${
                     selectedLabIndex === index
-                      ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200 shadow-lg shadow-cyan-500/10'
+                      ? 'bg-gold-950/80 border-gold-400 text-gold-200 shadow-lg shadow-gold-500/10'
                       : 'bg-slate-900/80 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-400">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-gold-400">
                     Lab 0{index + 1}
                   </span>
                   <span className="text-xs font-semibold line-clamp-2 mt-1">{lab.title}</span>
@@ -1713,10 +1713,10 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
 
             {/* ACTIVE LAB WORKSPACE CONTAINER */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col gap-6">
-              <div className="bg-cyan-950/40 border border-cyan-500/30 p-4 rounded-xl flex items-start gap-3">
+              <div className="bg-gold-950/40 border border-gold-500/30 p-4 rounded-xl flex items-start gap-3">
                 <span className="text-xl">💡</span>
                 <div>
-                  <h3 className="text-xs font-bold text-cyan-300 uppercase tracking-wider">
+                  <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                     {EXPLORATION_STEPS[selectedLabIndex].title}
                   </h3>
                   <p className="text-xs text-slate-300 mt-1">
@@ -1738,7 +1738,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-3">
                       <div className="flex justify-between items-center text-xs">
                         <span className="text-slate-400 font-medium">Temperature Slider:</span>
-                        <span className="text-cyan-400 font-bold text-sm">{labTemp}°C</span>
+                        <span className="text-gold-400 font-bold text-sm">{labTemp}°C</span>
                       </div>
                       <input
                         type="range"
@@ -1746,7 +1746,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                         max="200"
                         value={labTemp}
                         onChange={(e) => setLabTemp(Number(e.target.value))}
-                        className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                       />
 
                       <div className="flex items-center justify-between gap-2 pt-2">
@@ -1790,7 +1790,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
               {selectedLabIndex === 2 && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-4">
-                    <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       Evaporation Rate Variable Controller
                     </h4>
 
@@ -1803,7 +1803,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                         min="10"
                         max="100"
                         defaultValue="50"
-                        className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg"
                       />
                     </div>
 
@@ -1816,12 +1816,12 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                         min="0"
                         max="100"
                         defaultValue="30"
-                        className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg"
                       />
                     </div>
 
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 text-xs text-slate-300">
-                      <p className="font-bold text-cyan-300 mb-1">Key Distinction:</p>
+                      <p className="font-bold text-gold-300 mb-1">Key Distinction:</p>
                       <ul className="list-disc list-inside space-y-1">
                         <li>
                           <strong>Evaporation:</strong> Surface molecules with highest kinetic energy
@@ -1907,7 +1907,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                         onClick={() => setExpansionRodType('bimetallic')}
                         className={`flex-1 py-1.5 rounded-lg text-xs font-bold border transition-all ${
                           expansionRodType === 'bimetallic'
-                            ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300'
+                            ? 'bg-gold-500/20 border-gold-400 text-gold-300'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1944,7 +1944,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                       key={oIdx}
                       className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs"
                     >
-                      <p className="font-semibold text-cyan-300 mb-2">{oq.question}</p>
+                      <p className="font-semibold text-gold-300 mb-2">{oq.question}</p>
                       <ul className="space-y-1 text-slate-300">
                         {oq.observableOptions.map((opt, optIdx) => (
                           <li
@@ -1995,7 +1995,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                 <span className="text-amber-400 flex items-center gap-1">
                   🔥 Streak: {streak}
                 </span>
-                <span className="text-cyan-400 flex items-center gap-1">
+                <span className="text-gold-400 flex items-center gap-1">
                   🏆 Score: {score}
                 </span>
               </div>
@@ -2030,7 +2030,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                   const isCorrect = optIdx === CHALLENGES[currentChallengeIndex].correctIndex;
 
                   let btnStyle =
-                    'bg-slate-950 border-slate-800 hover:border-cyan-500/50 text-slate-200';
+                    'bg-slate-950 border-slate-800 hover:border-gold-500/50 text-slate-200';
                   if (challengeFeedback !== null) {
                     if (isCorrect) {
                       btnStyle = 'bg-emerald-950/90 border-emerald-500 text-emerald-200 font-bold';
@@ -2047,7 +2047,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                       className={`p-4 rounded-xl border text-left text-xs md:text-sm transition-all flex items-center justify-between ${btnStyle}`}
                     >
                       <span>
-                        <strong className="mr-2 text-cyan-400">
+                        <strong className="mr-2 text-gold-400">
                           {String.fromCharCode(65 + optIdx)}.
                         </strong>
                         {optionText}
@@ -2063,12 +2063,12 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
               {challengeFeedback !== null && (
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-3 animate-fadeIn">
                   <p className="text-xs text-slate-300 leading-relaxed">
-                    <strong className="text-cyan-400">Explanation:</strong>{' '}
+                    <strong className="text-gold-400">Explanation:</strong>{' '}
                     {CHALLENGES[currentChallengeIndex].explanation}
                   </p>
                   <button
                     onClick={handleNextChallenge}
-                    className="self-end px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-black text-xs rounded-xl shadow-lg transition-all"
+                    className="self-end px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-slate-950 font-black text-xs rounded-xl shadow-lg transition-all"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1
                       ? 'Next Challenge ➡️'
@@ -2101,7 +2101,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
           <div className="flex flex-col gap-6 animate-fadeIn">
             {/* MASTERY OVERVIEW BY NODE */}
             <section className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 📊 ICSE Concept Mastery Breakdown
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -2128,12 +2128,12 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim({
                         </p>
                       </div>
                       <div className="text-right">
-                        <span className="text-xs font-black text-cyan-400">
+                        <span className="text-xs font-black text-gold-400">
                           {Math.round(mastery * 100)}%
                         </span>
                         <div className="w-20 bg-slate-800 h-2 rounded-full overflow-hidden mt-1">
                           <div
-                            className="bg-cyan-400 h-full transition-all duration-500"
+                            className="bg-gold-400 h-full transition-all duration-500"
                             style={{ width: `${mastery * 100}%` }}
                           />
                         </div>

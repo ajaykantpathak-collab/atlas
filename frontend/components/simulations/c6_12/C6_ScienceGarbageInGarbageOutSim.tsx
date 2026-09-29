@@ -118,13 +118,13 @@ function C6_ScienceGarbageInGarbageOutSim() {
             <button onClick={() => put('green')} className="min-h-11 px-2 rounded-xl text-xs font-black bg-green-500 text-white hover:bg-green-600 transition-colors">
               Green bin (wet, rots)
             </button>
-            <button onClick={() => put('blue')} className="min-h-11 px-2 rounded-xl text-xs font-black bg-blue-500 text-white hover:bg-blue-600 transition-colors">
+            <button onClick={() => put('blue')} className="min-h-11 px-2 rounded-xl text-xs font-black bg-gold-500 text-white hover:bg-gold-600 transition-colors">
               Blue bin (dry, recycle)
             </button>
           </div>
           <div className="flex flex-wrap gap-1">
             {ITEMS.map((it, i) => (
-              <button key={it.name} onClick={() => setSelected(i)} className={'w-7 h-7 rounded-full text-[10px] font-black ' + (bins[i] ? (bins[i] === 'green' ? 'bg-green-500 text-white' : 'bg-blue-500 text-white') : i === selected ? 'bg-amber-400' : 'bg-slate-200 text-slate-500')}>
+              <button key={it.name} onClick={() => setSelected(i)} className={'w-7 h-7 rounded-full text-[10px] font-black ' + (bins[i] ? (bins[i] === 'green' ? 'bg-green-500 text-white' : 'bg-gold-500 text-white') : i === selected ? 'bg-amber-400' : 'bg-slate-200 text-slate-500')}>
                 {i + 1}
               </button>
             ))}
@@ -135,7 +135,7 @@ function C6_ScienceGarbageInGarbageOutSim() {
               <span className="text-emerald-700 font-black">{days}</span>
             </label>
             <input type="range" min={0} max={1825} step={5} value={Math.min(days, 1825)} onChange={(e) => setDays(Number(e.target.value))} className="w-full accent-emerald-500" />
-            <button onClick={() => setDays(182625)} className="w-full mt-1 px-3 py-2 rounded-xl text-xs font-black bg-violet-500 text-white hover:bg-violet-600 transition-colors">
+            <button onClick={() => setDays(182625)} className="w-full mt-1 px-3 py-2 rounded-xl text-xs font-black bg-gold-500 text-white hover:bg-gold-600 transition-colors">
               Jump 500 years!
             </button>
           </div>
@@ -152,9 +152,9 @@ function C6_ScienceGarbageInGarbageOutSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>How many days until ALL the green-bin items become compost? Set the slider there and check the purple compost.</li>
           <li>Sort cotton cloth, then find how many times LONGER a plastic bottle takes to disappear than the cloth.</li>
         </ol>

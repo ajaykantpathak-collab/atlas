@@ -1115,7 +1115,7 @@ const PeriodicTrendGraphSVG: React.FC<{
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-800 shadow-inner overflow-x-auto">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-semibold text-cyan-400 flex items-center gap-2">
+        <h4 className="text-sm font-semibold text-gold-400 flex items-center gap-2">
           <TrendingUp className="w-4 h-4" /> 3d Periodic Trend Graph: {getMetricLabel()}
         </h4>
         <span className="text-xs text-slate-400">Click any node to inspect element details</span>
@@ -1171,7 +1171,7 @@ const PeriodicTrendGraphSVG: React.FC<{
                 fill="#38bdf8"
                 fontSize="9"
                 textAnchor="middle"
-                className="opacity-0 group-hover:opacity-100 transition-opacity fill-cyan-300"
+                className="opacity-0 group-hover:opacity-100 transition-opacity fill-gold-300"
               >
                 {getValue(el)}
               </text>
@@ -1335,7 +1335,7 @@ const MagneticMomentVisualizerSVG: React.FC<{
                 </div>
               ))}
             </div>
-            <div className="px-2 py-3 bg-blue-900/40 border border-blue-600 rounded text-blue-400 text-xs font-bold">S</div>
+            <div className="px-2 py-3 bg-gold-900/40 border border-gold-600 rounded text-gold-400 text-xs font-bold">S</div>
           </div>
           <p className="text-[11px] text-slate-400 mt-2 text-center">
             {unpairedCount > 0 ? 'Paramagnetic: Strongly attracted into magnetic gradient.' : 'Diamagnetic: Weakly repelled by external field.'}
@@ -1652,15 +1652,15 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
   }, [currentElement, cationCharge]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans antialiased selection:bg-gold-500 selection:text-slate-950">
       {/* Top Header Bar */}
       <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-40 px-4 py-3 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-gradient-to-tr from-cyan-600 to-blue-600 rounded-lg shadow-lg">
+          <div className="p-2 bg-gradient-to-tr from-gold-600 to-gold-600 rounded-lg shadow-lg">
             <Atom className="w-6 h-6 text-white animate-spin-slow" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-300 to-purple-400">
+            <h1 className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400">
               ISC Class 12 Transition Metal Dynamics
             </h1>
             <p className="text-xs text-slate-400">CISCE Curriculum • 3d Series Trends & Electronic Structure</p>
@@ -1691,7 +1691,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
           onClick={() => { setActiveTab('discovery'); playSound('tap'); }}
           className={`px-4 py-3 text-sm font-medium border-b-2 flex items-center gap-2 transition whitespace-nowrap ${
             activeTab === 'discovery'
-              ? 'border-cyan-400 text-cyan-400 bg-cyan-950/30'
+              ? 'border-gold-400 text-gold-400 bg-gold-950/30'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
         >
@@ -1702,7 +1702,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
           onClick={() => { setActiveTab('lab'); playSound('tap'); }}
           className={`px-4 py-3 text-sm font-medium border-b-2 flex items-center gap-2 transition whitespace-nowrap ${
             activeTab === 'lab'
-              ? 'border-cyan-400 text-cyan-400 bg-cyan-950/30'
+              ? 'border-gold-400 text-gold-400 bg-gold-950/30'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
         >
@@ -1713,7 +1713,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
           onClick={() => { setActiveTab('challenges'); playSound('tap'); }}
           className={`px-4 py-3 text-sm font-medium border-b-2 flex items-center gap-2 transition whitespace-nowrap ${
             activeTab === 'challenges'
-              ? 'border-cyan-400 text-cyan-400 bg-cyan-950/30'
+              ? 'border-gold-400 text-gold-400 bg-gold-950/30'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
         >
@@ -1724,7 +1724,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
           onClick={() => { setActiveTab('summary'); playSound('tap'); }}
           className={`px-4 py-3 text-sm font-medium border-b-2 flex items-center gap-2 transition whitespace-nowrap ${
             activeTab === 'summary'
-              ? 'border-cyan-400 text-cyan-400 bg-cyan-950/30'
+              ? 'border-gold-400 text-gold-400 bg-gold-950/30'
               : 'border-transparent text-slate-400 hover:text-slate-200'
           }`}
         >
@@ -1739,16 +1739,16 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* Context Card */}
-            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950 p-6 rounded-2xl border border-cyan-800/40 shadow-xl">
+            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-gold-950 p-6 rounded-2xl border border-gold-800/40 shadow-xl">
               <div className="flex items-center gap-3 mb-3">
-                <div className="p-2 bg-cyan-500/20 text-cyan-400 rounded-lg">
+                <div className="p-2 bg-gold-500/20 text-gold-400 rounded-lg">
                   <Activity className="w-5 h-5" />
                 </div>
-                <h2 className="text-xl font-bold text-cyan-300">{SCENARIO.title}</h2>
+                <h2 className="text-xl font-bold text-gold-300">{SCENARIO.title}</h2>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-cyan-200 flex items-center gap-2">
-                <Info className="w-4 h-4 text-cyan-400 shrink-0" />
+              <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-gold-200 flex items-center gap-2">
+                <Info className="w-4 h-4 text-gold-400 shrink-0" />
                 <span>{SCENARIO.context}</span>
               </div>
             </div>
@@ -1803,13 +1803,13 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
             {/* Prediction Questions Section */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-lg space-y-4">
               <h3 className="text-md font-bold text-slate-200 flex items-center gap-2">
-                <Eye className="w-5 h-5 text-cyan-400" /> Interactive Lab Predictions
+                <Eye className="w-5 h-5 text-gold-400" /> Interactive Lab Predictions
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                   <div key={qIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
-                      <p className="text-xs font-semibold text-cyan-400 mb-2">Prediction #{qIdx + 1}</p>
+                      <p className="text-xs font-semibold text-gold-400 mb-2">Prediction #{qIdx + 1}</p>
                       <p className="text-xs text-slate-200 mb-3">{pq.question}</p>
 
                       <div className="space-y-2">
@@ -1822,7 +1822,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                             }}
                             className={`w-full text-left p-2 rounded text-xs border transition ${
                               predictionAnswers[qIdx] === oIdx
-                                ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                                ? 'bg-gold-950 border-gold-500 text-gold-200'
                                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                             }`}
                           >
@@ -1833,7 +1833,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                     </div>
 
                     <div className="mt-4 pt-3 border-t border-slate-800/80 text-[11px] text-slate-400 flex items-center gap-1.5">
-                      <Sliders className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                      <Sliders className="w-3.5 h-3.5 text-gold-400 shrink-0" />
                       <span>{pq.verifyInstruction}</span>
                     </div>
                   </div>
@@ -1858,7 +1858,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                   }}
                   className={`px-3 py-2 rounded-lg text-xs font-medium whitespace-nowrap transition flex items-center gap-2 ${
                     currentLabStep === idx
-                      ? 'bg-cyan-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-950 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                   }`}
                 >
@@ -1871,8 +1871,8 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
             </div>
 
             {/* Instruction Banner */}
-            <div className="bg-cyan-950/40 border border-cyan-800/50 p-3 rounded-xl flex items-center gap-3 text-xs text-cyan-200">
-              <Info className="w-4 h-4 text-cyan-400 shrink-0" />
+            <div className="bg-gold-950/40 border border-gold-800/50 p-3 rounded-xl flex items-center gap-3 text-xs text-gold-200">
+              <Info className="w-4 h-4 text-gold-400 shrink-0" />
               <span>{EXPLORATION_STEPS[currentLabStep].instruction}</span>
             </div>
 
@@ -1908,7 +1908,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
               /* LAB 1: Ground Configuration & Cation Ionization */
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-cyan-400 flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-gold-400 flex items-center gap-2">
                     <Atom className="w-4 h-4" /> Valence Subshell Electronic Configuration
                   </h3>
 
@@ -1919,7 +1919,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                     </div>
                     <div className="flex justify-between items-center text-xs">
                       <span className="text-slate-400">Ground State Config:</span>
-                      <span className="font-mono text-cyan-300 font-bold">{currentElement.configGround}</span>
+                      <span className="font-mono text-gold-300 font-bold">{currentElement.configGround}</span>
                     </div>
                     <div className="flex justify-between items-center text-xs">
                       <span className="text-slate-400">Ion State:</span>
@@ -1959,8 +1959,8 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                   <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1">
                     <span className="text-amber-400 font-bold block">Ionization Subshell Removal Order:</span>
                     <p>
-                      Remaining 4s electrons: <strong className="text-cyan-300">{calculatedMagneticMoment.sElectrons}</strong> |
-                      Remaining 3d electrons: <strong className="text-cyan-300">{calculatedMagneticMoment.dElectrons}</strong>
+                      Remaining 4s electrons: <strong className="text-gold-300">{calculatedMagneticMoment.sElectrons}</strong> |
+                      Remaining 3d electrons: <strong className="text-gold-300">{calculatedMagneticMoment.dElectrons}</strong>
                     </p>
                     <p className="text-[11px] text-slate-400 mt-1">
                       Notice that 4s electrons are removed completely BEFORE any 3d electrons are touched.
@@ -1996,7 +1996,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-medium transition ${
                         selectedMetric === m.id
-                          ? 'bg-cyan-500 text-slate-950 font-bold'
+                          ? 'bg-gold-500 text-slate-950 font-bold'
                           : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                       }`}
                     >
@@ -2014,15 +2014,15 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                 <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div>
                     <span className="text-slate-400 block mb-1">Atomic Radius:</span>
-                    <strong className="text-cyan-300 text-sm">{currentElement.atomicRadius} pm</strong>
+                    <strong className="text-gold-300 text-sm">{currentElement.atomicRadius} pm</strong>
                   </div>
                   <div>
                     <span className="text-slate-400 block mb-1">3rd Ionization Energy:</span>
-                    <strong className="text-cyan-300 text-sm">{currentElement.ie3} kJ/mol</strong>
+                    <strong className="text-gold-300 text-sm">{currentElement.ie3} kJ/mol</strong>
                   </div>
                   <div>
                     <span className="text-slate-400 block mb-1">Atomization Enthalpy:</span>
-                    <strong className="text-cyan-300 text-sm">{currentElement.enthalpyAtomization} kJ/mol</strong>
+                    <strong className="text-gold-300 text-sm">{currentElement.enthalpyAtomization} kJ/mol</strong>
                   </div>
                 </div>
               </div>
@@ -2049,7 +2049,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                               exists
                                 ? isPrincipal
                                   ? 'bg-amber-500 border-amber-400 text-slate-950 shadow-md'
-                                  : 'bg-cyan-950 border-cyan-700 text-cyan-300'
+                                  : 'bg-gold-950 border-gold-700 text-gold-300'
                                 : 'bg-slate-950/40 border-slate-900 text-slate-700'
                             }`}
                           >
@@ -2060,14 +2060,14 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                     </div>
                     <div className="flex gap-4 text-[10px] text-slate-400 mt-3">
                       <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-amber-500 rounded" /> Principal / Stable</span>
-                      <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-cyan-950 border border-cyan-700 rounded" /> Secondary</span>
+                      <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 bg-gold-950 border border-gold-700 rounded" /> Secondary</span>
                     </div>
                   </div>
 
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between">
                       <span className="text-slate-400">E°(M²⁺/M) Potential:</span>
-                      <span className="font-bold text-cyan-300">{currentElement.e0M2M} V</span>
+                      <span className="font-bold text-gold-300">{currentElement.e0M2M} V</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">E°(M³⁺/M²⁺) Potential:</span>
@@ -2079,11 +2079,11 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                 </div>
 
                 <div className="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3">
-                  <h3 className="text-sm font-bold text-cyan-400">Aqueous Hydration vs Ionization Energy Balance</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Aqueous Hydration vs Ionization Energy Balance</h3>
                   <p className="text-xs text-slate-300 leading-relaxed">
                     Standard electrode potentials reflect the thermodynamic cycle:
                     <br />
-                    <code className="text-cyan-300 font-mono text-[11px] block my-2 p-2 bg-slate-950 rounded">
+                    <code className="text-gold-300 font-mono text-[11px] block my-2 p-2 bg-slate-950 rounded">
                       M(s) + Δ_at H° → M(g) + IE₁ + IE₂ → M²⁺(g) + Δ_hyd H° → M²⁺(aq)
                     </code>
                     If total excitation enthalpy exceeds hydration release, E° becomes positive (e.g. Cu²⁺ = +0.34 V).
@@ -2205,7 +2205,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-wrap justify-between items-center gap-4">
               <div>
                 <span className="text-xs text-slate-400 block">Challenge Mode</span>
-                <h3 className="text-sm font-bold text-cyan-400">
+                <h3 className="text-sm font-bold text-gold-400">
                   Question {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </h3>
               </div>
@@ -2245,7 +2245,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                       }}
                       className={`p-4 rounded-xl text-left text-sm transition flex items-center gap-3 border ${
                         selectedOption === idx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950 hover:bg-slate-800 border-slate-800 text-slate-300'
                       }`}
                     >
@@ -2267,7 +2267,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                       placeholder="Enter numerical answer..."
                       value={numericAnswer}
                       onChange={e => setNumericAnswer(e.target.value)}
-                      className="px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-sm font-mono text-cyan-300 focus:border-cyan-500 outline-none w-full max-w-xs"
+                      className="px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-sm font-mono text-gold-300 focus:border-gold-500 outline-none w-full max-w-xs"
                     />
                     <span className="text-xs text-slate-400 font-semibold">
                       {CHALLENGES[currentChallengeIndex].unit}
@@ -2285,7 +2285,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                         key={idx}
                         className="p-3 bg-slate-950 border border-slate-800 rounded-xl flex items-center justify-between text-xs text-slate-200"
                       >
-                        <span className="font-bold text-cyan-400 mr-2">{idx + 1}.</span>
+                        <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span>
                         <span className="flex-1">{item}</span>
                         <div className="flex gap-1">
                           {idx > 0 && (
@@ -2344,7 +2344,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                     disabled={
                       CHALLENGES[currentChallengeIndex].type === 'multiple_choice' && selectedOption === null
                     }
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg transition disabled:opacity-50"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg transition disabled:opacity-50"
                   >
                     Submit Answer
                   </button>

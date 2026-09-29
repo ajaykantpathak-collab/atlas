@@ -11,7 +11,7 @@ export const w_c10_chemistryelectrolysisofspecificcompoundssim: SimDef = {
     classLevel: 10, subject: 'chemistry', topic: 'Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo)',
     chapters: [],
     nodeIds: ['c10_chem_cbse_01_004', 'c10_chem_cbse_01_009', 'c10_chem_cbse_03_010', 'c10_chem_cbse_03_011', 'c10_chem_cbse_02_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Start with a real-world observation: When you heat green ferrous sulphate crystals in a test tube, they turn.', goal: 'Master Types of Reactions: Decomposition Reactions (Thermal, Electrolytic, Photo).' },
     discovery: {
         question: 'Define corrosion and write the chemical formula of rust. State the two essential conditions required for rusting of iron.',
@@ -20,7 +20,7 @@ export const w_c10_chemistryelectrolysisofspecificcompoundssim: SimDef = {
         hook: 'Students write the rust formula as Fe₂O₃ (anhydrous) instead of Fe₂O₃·xH₂O (hydrated), and think rusting is a simple.',
     },
     teaching: [
-        { title: 'A decomposition reaction is a chemical.', text: 'A decomposition reaction is a chemical reaction in which a single compound breaks down into two or more simpler substances (elements or compounds) under the influence of heat, light, or electricity.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A decomposition reaction is a chemical.', text: 'A decomposition reaction is a chemical reaction in which a single compound breaks down into two or more simpler substances (elements or compounds) under the influence of heat, light, or electricity.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_chem_cbse_01_004', title: 'A decomposition reaction is a chemical.',

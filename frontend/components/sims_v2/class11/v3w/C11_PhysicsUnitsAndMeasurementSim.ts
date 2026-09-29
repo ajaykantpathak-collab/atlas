@@ -11,7 +11,7 @@ export const w_c11_physicsunitsandmeasurementsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Introduction to Units and Measurement',
     chapters: [],
     nodeIds: ['c11_phy_cbse_01_001', 'c11_phy_cbse_01_002', 'c11_phy_cbse_01_003', 'c11_phy_cbse_01_004', 'c11_phy_cbse_09_001', 'c11_phy_cbse_01_005', 'c11_phy_cbse_01_010', 'c11_phy_cbse_01_012', 'c11_phy_cbse_01_013', 'c11_phy_cbse_10_001', 'c11_phy_cbse_01_011', 'c11_phy_cbse_01_014', 'c11_phy_cbse_10_006', 'c11_phy_cbse_10_007', 'c11_phy_cbse_10_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Look at the ceiling fan in your classroom — its blades rotate at a certain speed.', goal: 'Master Introduction to Units and Measurement.' },
     discovery: {
         question: 'A student measures the length of a lab table and records it as "2.5". The teacher says the measurement is incomplete.',
@@ -20,7 +20,7 @@ export const w_c11_physicsunitsandmeasurementsim: SimDef = {
         hook: 'Students often think "unit" and "physical quantity" are interchangeable — e.g., they say "the force is 10 newton" but.',
     },
     teaching: [
-        { title: 'Measurement is the process of comparing a.', text: 'Measurement is the process of comparing a physical quantity with a chosen standard called a unit.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Measurement is the process of comparing a.', text: 'Measurement is the process of comparing a physical quantity with a chosen standard called a unit.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_01_001', title: 'Measurement is the process of comparing.',

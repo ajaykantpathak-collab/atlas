@@ -197,7 +197,7 @@ export default function C11_Maths3DGeometryLinesSim() {
             {axisSlider('z', p1[2], (v) => setP1([p1[0], p1[1], v]), ROSE)}
           </div>
         </div>
-        <div className="rounded-xl border border-blue-400/20 bg-blue-500/[0.04] p-4">
+        <div className="rounded-xl border border-gold-400/20 bg-gold-500/[0.04] p-4">
           <div className="font-display text-xs font-bold" style={{ color: BLUE }}>POINT P₂</div>
           <div className="mt-2 space-y-1">
             {axisSlider('x', p2[0], (v) => setP2([v, p2[1], p2[2]]), BLUE)}

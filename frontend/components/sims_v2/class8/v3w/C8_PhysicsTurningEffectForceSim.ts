@@ -11,7 +11,7 @@ export const w_c8_physicsturningeffectforcesim: SimDef = {
     classLevel: 8, subject: 'physics', topic: 'Factors Affecting Strength of an Electromagnet',
     chapters: [],
     nodeIds: ['c8_physics_ch2_4', 'c8_physics_ch9_8', 'c8_physics_ch2_5', 'c8_physics_ch4_12', 'c8_physics_ch4_7', 'c8_physics_ch4_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Observe a crane in a scrapyard lifting heavy iron pieces with a large circular magnet — that is an industrial.', goal: 'Master Factors Affecting Strength of an Electromagnet.' },
     discovery: {
         question: 'Compare two electromagnets: X has 200 turns of thin wire on a soft iron core with 0.5 A current.',
@@ -20,7 +20,7 @@ export const w_c8_physicsturningeffectforcesim: SimDef = {
         hook: 'Students think "more turns always means stronger magnet" without considering that adding turns with the same battery.',
     },
     teaching: [
-        { title: 'The strength of an electromagnet is the.', text: 'The strength of an electromagnet is the magnetic force it exerts, measured by the number of ferromagnetic objects (like iron nails or paper clips) it can attract or the weight it can lift.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The strength of an electromagnet is the.', text: 'The strength of an electromagnet is the magnetic force it exerts, measured by the number of ferromagnetic objects (like iron nails or paper clips) it can attract or the weight it can lift.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch2_4', title: 'The strength of an electromagnet is the.',

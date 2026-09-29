@@ -1197,7 +1197,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
             whileTap={{ scale: 0.95 }}
             onClick={handleSparkleTrigger}
             aria-label="Encouragement sparkle"
-            className="px-3 py-1.5 bg-indigo-950/70 border border-indigo-700 text-indigo-300 rounded-xl text-xs font-bold"
+            className="px-3 py-1.5 bg-gold-950/70 border border-gold-700 text-gold-300 rounded-xl text-xs font-bold"
           >
             ✨ Focus Spark
           </motion.button>
@@ -1378,7 +1378,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                           <span className="text-slate-400 text-[10px] block uppercase font-mono">Catchment Area</span>
-                          <span className="text-sm sm:text-base font-black text-indigo-400 mt-1 block">
+                          <span className="text-sm sm:text-base font-black text-gold-400 mt-1 block">
                             {catchmentKm >= 1000 ? 'Global' : `${catchmentKm} km`}
                           </span>
                           <span className="text-[9px] text-slate-500">resource radius</span>
@@ -1519,16 +1519,16 @@ function C11_EVSEnvironmentalScienceScopeSim({
                         <span className="text-sm font-black text-emerald-300 block my-1">{trophicPlanktonPpm} ppm</span>
                         <span className="text-[9px] text-slate-400">Primary Producers</span>
                       </div>
-                      <div className="p-3 bg-slate-900 rounded-xl border border-cyan-900/60 text-center">
-                        <span className="text-[10px] text-cyan-400 uppercase font-mono">Trophic Tier 2</span>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/60 text-center">
+                        <span className="text-[10px] text-gold-400 uppercase font-mono">Trophic Tier 2</span>
                         <p className="text-xs font-bold text-white mt-1">Small Forage Fish</p>
-                        <span className="text-sm font-black text-cyan-300 block my-1">{trophicSmallFishPpm} ppm</span>
+                        <span className="text-sm font-black text-gold-300 block my-1">{trophicSmallFishPpm} ppm</span>
                         <span className="text-[9px] text-slate-400">Primary Consumers</span>
                       </div>
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-900/60 text-center">
-                        <span className="text-[10px] text-indigo-400 uppercase font-mono">Trophic Tier 3</span>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/60 text-center">
+                        <span className="text-[10px] text-gold-400 uppercase font-mono">Trophic Tier 3</span>
                         <p className="text-xs font-bold text-white mt-1">Predatory Fish</p>
-                        <span className="text-sm font-black text-indigo-300 block my-1">{trophicLargeFishPpm} ppm</span>
+                        <span className="text-sm font-black text-gold-300 block my-1">{trophicLargeFishPpm} ppm</span>
                         <span className="text-[9px] text-slate-400">Secondary Consumers</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-rose-900/80 bg-rose-950/20 text-center">
@@ -1614,7 +1614,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
                           aria-label={`Select interaction pair ${item.label}`}
                           className={`p-3 rounded-xl text-left border ${
                             selectedPair === item.id
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1625,7 +1625,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                      <span className="text-xs font-mono uppercase text-indigo-400 block mb-1">
+                      <span className="text-xs font-mono uppercase text-gold-400 block mb-1">
                         Selected Ecological Analysis
                       </span>
                       <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
@@ -1686,7 +1686,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
                     aria-label="Proceed to Free Sandbox"
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-900/30"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30"
                   >
                     Proceed to Free Sandbox →
                   </motion.button>
@@ -1738,7 +1738,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <span className="text-xs font-mono text-cyan-400 block">2. Eutrophication Input</span>
+                <span className="text-xs font-mono text-gold-400 block">2. Eutrophication Input</span>
                 <input
                   type="range"
                   min={0}
@@ -1746,7 +1746,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
                   value={fertilizerLevel}
                   onChange={e => handleFertilizerSlider(Number(e.target.value))}
                   aria-label="Sandbox fertilizer level slider"
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
                 <p className="text-xs text-slate-300">
                   Dissolved O2: <span className="font-bold text-white">{dissolvedOxygenMgL} mg/L</span>
@@ -1800,7 +1800,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                       : difficulty === 'standard'
-                      ? 'bg-indigo-950 text-indigo-400 border border-indigo-800'
+                      ? 'bg-gold-950 text-gold-400 border border-gold-800'
                       : 'bg-rose-950 text-rose-400 border border-rose-800'
                   }`}
                 >
@@ -1824,7 +1824,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
             </div>
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -2159,7 +2159,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
               </div>
               <div className="p-4 bg-slate-950/70 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-[10px] uppercase font-mono text-slate-400">Mastery Tier</span>
-                <p className="text-2xl font-black text-indigo-400 mt-1">{masteryLevel.toUpperCase()}</p>
+                <p className="text-2xl font-black text-gold-400 mt-1">{masteryLevel.toUpperCase()}</p>
               </div>
               <div className="p-4 bg-slate-950/70 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-[10px] uppercase font-mono text-slate-400">SRS Review</span>
@@ -2227,7 +2227,7 @@ function C11_EVSEnvironmentalScienceScopeSim({
 
           {/* Meta-Cognitive Reflection Questions */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">🤔 Self-Reflection Prompts</h3>
+            <h3 className="text-sm font-bold text-gold-300">🤔 Self-Reflection Prompts</h3>
             <ul className="space-y-2 text-xs text-slate-400">
               <li>1. Why is human metabolic energy (2000 kcal) qualitatively different from fossil fuel consumption (100,000 kcal)?</li>
               <li>2. How does the 2013 Niyamgiri Supreme Court ruling exemplify the clash of worldviews in ecological conflicts?</li>

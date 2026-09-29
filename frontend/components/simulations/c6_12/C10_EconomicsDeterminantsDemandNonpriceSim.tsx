@@ -1267,7 +1267,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
             className="px-3 py-1.5 rounded-xl border bg-slate-900/90 text-xs font-bold tracking-wider flex items-center gap-2"
           >
             <span className="w-2 h-2 rounded-full animate-ping" style={{ backgroundColor: difficulty === 'foundation' ? '#22c55e' : difficulty === 'standard' ? '#3b82f6' : '#ef4444' }} />
-            <span className={difficulty === 'foundation' ? 'text-emerald-400' : difficulty === 'standard' ? 'text-blue-400' : 'text-rose-400'}>{difficulty.toUpperCase()} TIER</span>
+            <span className={difficulty === 'foundation' ? 'text-emerald-400' : difficulty === 'standard' ? 'text-gold-400' : 'text-rose-400'}>{difficulty.toUpperCase()} TIER</span>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 font-mono">
             BKT: <span className="text-emerald-400 font-bold capitalize">{masteryLevel}</span>
@@ -1279,7 +1279,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
       <AnimatePresence mode="wait">
         {phase === 'discovery' && (
           <motion.div key="discovery-phase" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.35 }} className="space-y-6 relative z-10">
-            <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-emerald-800/40 shadow-xl">
+            <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-800/40 shadow-xl">
               <div className="flex items-center gap-2 text-emerald-400 text-sm font-black uppercase tracking-wider mb-2">
                 <span>🏛️</span> Narrative Hook & Discovery Mission
               </div>
@@ -1399,9 +1399,9 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                       <div className="pt-2 border-t border-slate-800/80">
                         <div className="flex items-center justify-between">
                           <label htmlFor="sub-price-range" className="text-xs font-bold text-slate-300 uppercase">Price of Substitute (e.g., Tea)</label>
-                          <span className="text-xs font-mono font-bold text-blue-400">{substitutePriceDelta > 0 ? `+${substitutePriceDelta}%` : `${substitutePriceDelta}%`}</span>
+                          <span className="text-xs font-mono font-bold text-gold-400">{substitutePriceDelta > 0 ? `+${substitutePriceDelta}%` : `${substitutePriceDelta}%`}</span>
                         </div>
-                        <input id="sub-price-range" aria-label="Substitute Price Range Slider" type="range" min={-40} max={40} step={5} value={substitutePriceDelta} onChange={(e) => handleSubstituteChange(Number(e.target.value))} className="w-full accent-blue-500 cursor-pointer" />
+                        <input id="sub-price-range" aria-label="Substitute Price Range Slider" type="range" min={-40} max={40} step={5} value={substitutePriceDelta} onChange={(e) => handleSubstituteChange(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
                       </div>
 
                       <div>
@@ -1444,13 +1444,13 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                 {currentSlide === 1 && (
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     <div className="lg:col-span-5 space-y-4 bg-slate-950/80 p-5 rounded-2xl border border-slate-800">
-                      <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-indigo-950/40 border border-indigo-800/40 rounded-xl">
-                        <span className="text-xs font-bold text-indigo-300 uppercase block mb-1">A. Own Output Price (Movement Along SS)</span>
+                      <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-gold-950/40 border border-gold-800/40 rounded-xl">
+                        <span className="text-xs font-bold text-gold-300 uppercase block mb-1">A. Own Output Price (Movement Along SS)</span>
                         <div className="flex items-center justify-between text-xs font-mono mb-1">
                           <span className="text-slate-400">Market Price: ₹{marketSellingPrice}/qtl</span>
-                          <span className="text-indigo-400 font-bold">Qty Supplied: {calculatedSupplyQty} qtl</span>
+                          <span className="text-gold-400 font-bold">Qty Supplied: {calculatedSupplyQty} qtl</span>
                         </div>
-                        <input id="market-selling-price" aria-label="Market Selling Price Range" type="range" min={20} max={100} step={5} value={marketSellingPrice} onChange={(e) => handleMarketSellingPriceChange(Number(e.target.value))} className="w-full accent-indigo-500 cursor-pointer" />
+                        <input id="market-selling-price" aria-label="Market Selling Price Range" type="range" min={20} max={100} step={5} value={marketSellingPrice} onChange={(e) => handleMarketSellingPriceChange(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
                       </motion.div>
 
                       <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-emerald-950/40 border border-emerald-800/40 rounded-xl space-y-3">
@@ -1513,7 +1513,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                           onClick={() => setSelectedExceptionType(t.id)}
                           aria-label={`Select exception mode ${t.label}`}
                           className={`px-4 py-2.5 rounded-xl text-xs font-bold text-left transition-all border ${
-                            selectedExceptionType === t.id ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg' : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
+                            selectedExceptionType === t.id ? 'bg-gold-600 border-gold-400 text-white shadow-lg' : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
                           {t.label}
@@ -1524,7 +1524,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                     <div className="grid grid-cols-1 md:grid-cols-12 gap-6 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                       <div className="md:col-span-5 space-y-4">
                         <label htmlFor="exception-price-slider" className="text-xs font-bold text-slate-300 uppercase block">Simulate Price (₹): ₹{exceptionPrice}</label>
-                        <input id="exception-price-slider" aria-label="Exception Price Slider" type="range" min={50} max={300} step={10} value={exceptionPrice} onChange={(e) => setExceptionPrice(Number(e.target.value))} className="w-full accent-indigo-500 cursor-pointer" />
+                        <input id="exception-price-slider" aria-label="Exception Price Slider" type="range" min={50} max={300} step={10} value={exceptionPrice} onChange={(e) => setExceptionPrice(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
                         <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
                           {selectedExceptionType === 'veblen' && 'Notice how the demand curve slopes UPWARD! Wealthy buyers treat ₹300 as a more exclusive social status symbol than ₹50.'}
                           {selectedExceptionType === 'giffen' && 'As price rises to ₹300, poverty forces the household to drop milk/meat completely and buy MORE millet to survive calories.'}
@@ -1587,7 +1587,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                           <label htmlFor="elasticity-q-range">% Change in Quantity (%ΔQ):</label>
                           <span className="font-mono font-bold text-white">{elasticityPctQ}%</span>
                         </div>
-                        <input id="elasticity-q-range" aria-label="Percentage Quantity Change Slider" type="range" min={5} max={80} step={5} value={elasticityPctQ} onChange={(e) => setElasticityPctQ(Number(e.target.value))} className="w-full accent-indigo-500 cursor-pointer" />
+                        <input id="elasticity-q-range" aria-label="Percentage Quantity Change Slider" type="range" min={5} max={80} step={5} value={elasticityPctQ} onChange={(e) => setElasticityPctQ(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
                       </div>
 
                       <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
@@ -1615,7 +1615,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                           <span className="font-bold block">✓ Inelastic Demand (|Ed| &lt; 1, e.g., Salt, Railway Sleeper):</span>
                           Raising Price INCREASES Total Revenue (Quantity drop is negligible).
                         </motion.div>
-                        <motion.div whileHover={{ scale: 1.02 }} className={`p-3 rounded-xl border ${calculatedEd > 1 ? 'bg-indigo-950/60 border-indigo-500 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-400'}`}>
+                        <motion.div whileHover={{ scale: 1.02 }} className={`p-3 rounded-xl border ${calculatedEd > 1 ? 'bg-gold-950/60 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'}`}>
                           <span className="font-bold block">✓ Elastic Demand (|Ed| &gt; 1, e.g., Air Travel, Branded Electronics):</span>
                           Raising Price DECREASES Total Revenue (Consumers flee to substitutes).
                         </motion.div>
@@ -1694,7 +1694,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
             <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <div>
-                  <span className="text-xs font-mono font-bold text-indigo-400">FREE MARKETPLAY ARENA</span>
+                  <span className="text-xs font-mono font-bold text-gold-400">FREE MARKETPLAY ARENA</span>
                   <h2 className="text-xl font-bold text-white">Multi-Variable Equilibrium Simulator</h2>
                 </div>
                 <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleAdvanceToChallenge} aria-label="Proceed to Competency Challenges" className="px-6 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-sm shadow-xl shadow-emerald-900/40">
@@ -1710,7 +1710,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <label htmlFor="sandbox-substitute" className="text-[10px] font-bold text-slate-400 uppercase block">Substitute Shock: {substitutePriceDelta}%</label>
-                  <input id="sandbox-substitute" aria-label="Sandbox Substitute Shock" type="range" min={-40} max={40} value={substitutePriceDelta} onChange={(e) => handleSubstituteChange(Number(e.target.value))} className="w-full accent-blue-500 cursor-pointer" />
+                  <input id="sandbox-substitute" aria-label="Sandbox Substitute Shock" type="range" min={-40} max={40} value={substitutePriceDelta} onChange={(e) => handleSubstituteChange(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <label htmlFor="sandbox-input-cost" className="text-[10px] font-bold text-slate-400 uppercase block">Input Cost Shock: {inputCostDelta}%</label>
@@ -1747,7 +1747,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-mono font-bold text-emerald-400">CHALLENGE {currentChallenge + 1} OF {filteredChallenges.length}</span>
-                  <span className="text-[10px] px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 font-mono font-bold uppercase">{challenge.competencyLevel}</span>
+                  <span className="text-[10px] px-2 py-0.5 rounded bg-gold-950 text-gold-300 font-mono font-bold uppercase">{challenge.competencyLevel}</span>
                 </div>
                 <span className="text-xs text-slate-400 font-mono">Node Ref: {challenge.nodeId}</span>
               </div>
@@ -1757,7 +1757,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
             </div>
 
             <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
-              <motion.div className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500 rounded-full" animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }} transition={{ duration: 0.3 }} />
+              <motion.div className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full" animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }} transition={{ duration: 0.3 }} />
             </div>
 
             <motion.div
@@ -1825,7 +1825,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -1873,7 +1873,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-[10px] font-mono font-bold text-indigo-400">{idx + 1}</span>
+                      <span className="w-5 h-5 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-[10px] font-mono font-bold text-gold-400">{idx + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -1912,7 +1912,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                   <div className="flex flex-wrap gap-2 p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <span className="text-xs text-slate-400 w-full mb-1">Click to assemble conditions:</span>
                     {challenge.availableParts.map((part, i) => (
-                      <motion.button key={i} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} onClick={() => setConstructParts((prev) => [...prev, part])} aria-label={`Add condition part: ${part}`} className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-700 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-medium">
+                      <motion.button key={i} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} onClick={() => setConstructParts((prev) => [...prev, part])} aria-label={`Add condition part: ${part}`} className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-700 border border-gold-700 text-gold-200 rounded-lg text-xs font-medium">
                         + {part}
                       </motion.button>
                     ))}
@@ -1920,9 +1920,9 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
 
                   <div className="p-4 bg-slate-950 border border-slate-800 rounded-2xl min-h-[70px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((part, i) => (
-                      <motion.div key={i} whileHover={{ scale: 1.02 }} className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-bold flex items-center gap-2">
+                      <motion.div key={i} whileHover={{ scale: 1.02 }} className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-bold flex items-center gap-2">
                         <span>✓ {part}</span>
-                        <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))} aria-label={`Remove part: ${part}`} className="text-indigo-200 hover:text-white">
+                        <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))} aria-label={`Remove part: ${part}`} className="text-gold-200 hover:text-white">
                           ✕
                         </motion.button>
                       </motion.div>
@@ -1981,7 +1981,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
             {(() => {
               const feedback = getMotivationalFeedback(errors);
               return (
-                <motion.div whileHover={{ scale: 1.005 }} className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-700/60 text-center space-y-4 shadow-2xl">
+                <motion.div whileHover={{ scale: 1.005 }} className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-700/60 text-center space-y-4 shadow-2xl">
                   <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: 'spring', damping: 10 }} className="text-5xl inline-block">
                     🏆
                   </motion.span>
@@ -1998,7 +1998,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                       <span className="text-[10px] text-slate-400 uppercase font-mono block">Mastery Level</span>
-                      <span className="text-base font-bold text-indigo-400 font-mono capitalize">{masteryLevel}</span>
+                      <span className="text-base font-bold text-gold-400 font-mono capitalize">{masteryLevel}</span>
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                       <span className="text-[10px] text-slate-400 uppercase font-mono block">Errors Logged</span>
@@ -2030,7 +2030,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                 <div className={`p-3 rounded-xl border text-xs ${errors === 0 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-bold' : 'bg-slate-950 border-slate-800 text-slate-400'}`}>
                   0 Errors → Review in 7 days {errors === 0 && '👈 (Your schedule)'}
                 </div>
-                <div className={`p-3 rounded-xl border text-xs ${errors >= 1 && errors <= 3 ? 'bg-blue-950/60 border-blue-500 text-blue-200 font-bold' : 'bg-slate-950 border-slate-800 text-slate-400'}`}>
+                <div className={`p-3 rounded-xl border text-xs ${errors >= 1 && errors <= 3 ? 'bg-gold-950/60 border-gold-500 text-gold-200 font-bold' : 'bg-slate-950 border-slate-800 text-slate-400'}`}>
                   1–3 Errors → Review in 3 days {errors >= 1 && errors <= 3 && '👈 (Your schedule)'}
                 </div>
                 <div className={`p-3 rounded-xl border text-xs ${errors >= 4 ? 'bg-rose-950/60 border-rose-500 text-rose-200 font-bold' : 'bg-slate-950 border-slate-800 text-slate-400'}`}>
@@ -2040,8 +2040,8 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
             </motion.div>
 
             {/* REFLECTION SECTION */}
-            <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3, delay: 0.05 }} className="p-6 bg-slate-900/90 border border-indigo-500/40 rounded-3xl space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+            <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3, delay: 0.05 }} className="p-6 bg-slate-900/90 border border-gold-500/40 rounded-3xl space-y-4">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                 <span>🤔</span> Conceptual Reflection & Metacognition
               </h3>
               <p className="text-xs text-slate-400">Deepen your economic intuition by reflecting on these core questions:</p>
@@ -2057,7 +2057,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                     value={reflectionResponses.surprising}
                     onChange={(e) => setReflectionResponses({ ...reflectionResponses, surprising: e.target.value })}
                     placeholder="e.g. How Veblen luxury demand slopes upward, or how fresh fish supply is strictly vertical..."
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
 
@@ -2071,7 +2071,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                     value={reflectionResponses.explanation}
                     onChange={(e) => setReflectionResponses({ ...reflectionResponses, explanation: e.target.value })}
                     placeholder="e.g. Own price changes move along the curve, while income, substitutes, and taxes shift the whole curve..."
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
 
@@ -2085,7 +2085,7 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
                     value={reflectionResponses.realLife}
                     onChange={(e) => setReflectionResponses({ ...reflectionResponses, realLife: e.target.value })}
                     placeholder="e.g. Setting prices for my future startup, analyzing festival discounts, or tracking onion mandi prices..."
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                    className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
               </div>
@@ -2113,13 +2113,13 @@ function C10_EconomicsDeterminantsDemandNonpriceSim({
             )}
 
             {/* Real-World Mandi Activity */}
-            <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3, delay: 0.1 }} className="p-6 bg-indigo-950/30 border border-indigo-900/60 rounded-3xl space-y-3">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">🌍 {REAL_WORLD_ACTIVITY.title}</h3>
+            <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3, delay: 0.1 }} className="p-6 bg-gold-950/30 border border-gold-900/60 rounded-3xl space-y-3">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">🌍 {REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <motion.div key={idx} whileHover={{ scale: 1.01 }} className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-400">
-                    <span className="text-indigo-400 font-mono font-bold mr-1.5">{idx + 1}.</span> {step}
+                    <span className="text-gold-400 font-mono font-bold mr-1.5">{idx + 1}.</span> {step}
                   </motion.div>
                 ))}
               </div>

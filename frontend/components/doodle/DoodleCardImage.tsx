@@ -8,9 +8,36 @@
  *
  * Renders nothing until the image proves it exists (honest absence —
  * no broken-image chrome, no placeholder fakery). Click opens full size.
+ *
+ * FOLDER RESOLUTION (pillar-4 fix): the export pipeline shelves cards by the
+ * node's syllabus grade ("class 6 corpus chapter" can be taught on a class-8
+ * shelf), so the node-id prefix does not always match the folder. When the
+ * caller passes an explicit classLevel we use it directly; when it doesn't
+ * (today / study session), we resolve the shelf from the small generated
+ * doodle_home_map.json (node_id -> class, module-cached, one fetch per
+ * session) instead of guessing the prefix — a wrong guess served a stale or
+ * missing card.
  */
 
 import React, { useState } from 'react';
+
+/* module-level home map cache: one fetch per session, shared by every card */
+let homeMap: Record<string, string> | null = null;
+let homeMapLoad: Promise<void> | null = null;
+
+function loadHomeMap(): Promise<void> {
+  if (!homeMapLoad) {
+    homeMapLoad = fetch('/doodle_cards/doodle_home_map.json')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((doc) => {
+        if (doc && typeof doc === 'object') homeMap = doc;
+      })
+      .catch(() => {
+        /* map unavailable — prefix fallback stays */
+      });
+  }
+  return homeMapLoad;
+}
 
 export default function DoodleCardImage({
   nodeId,
@@ -20,14 +47,39 @@ export default function DoodleCardImage({
   classLevel?: number | string | null;
 }) {
   const [state, setState] = useState<'loading' | 'shown' | 'missing'>('loading');
+  const [src, setSrc] = useState<string | null>(null);
 
-  const band =
+  const prefix = nodeId.match(/^c(\d+)_/)?.[1] ?? '';
+  const explicit =
     classLevel != null && String(classLevel).match(/^\d+$/)
       ? String(classLevel)
-      : (nodeId.match(/^c(\d+)_/)?.[1] ?? '');
-  if (!band) return null;
+      : '';
 
-  const src = `/doodle_cards/class${band}/${nodeId}.png`;
+  /* Resolve the folder once per (nodeId, classLevel). Explicit band wins;
+     otherwise consult the generated home map, falling back to the prefix
+     folder when the map is unavailable or the node is unmapped. */
+  React.useEffect(() => {
+    let cancelled = false;
+    const resolve = (folder: string) => {
+      if (cancelled) return;
+      setState('loading');
+      setSrc(folder ? `/doodle_cards/class${folder}/${nodeId}.png` : null);
+    };
+    const fallback = explicit || prefix;
+    if (explicit || !prefix) {
+      resolve(fallback);
+      return;
+    }
+    loadHomeMap().then(() => {
+      if (cancelled) return;
+      resolve((homeMap && homeMap[nodeId]) || fallback);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [nodeId, explicit, prefix]);
+
+  if (!src) return null;
 
   /* CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 11): until the card proves it
      exists, the whole section stays invisible — no "checking for card…"

@@ -1300,14 +1300,14 @@ function C11_AccountancyTradingAccountMeaningSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-2xl border border-indigo-500/40"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 flex items-center justify-center text-2xl border border-gold-500/40"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-wider font-semibold text-indigo-400 bg-indigo-950/60 px-2 py-0.5 rounded-md border border-indigo-800">
+              <span className="text-xs uppercase tracking-wider font-semibold text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800">
                 ISC Class 11 Accountancy
               </span>
               <span className="text-xs text-slate-400">AS-1 • AS-2 • AS-9 • AS-10 • AS-29</span>
@@ -1331,7 +1331,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                 else setPhase('discovery');
               }}
               className={`px-3 py-1.5 rounded-lg capitalize font-medium transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1343,13 +1343,13 @@ function C11_AccountancyTradingAccountMeaningSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-800/60">
-            <div className="flex items-center gap-2 text-indigo-300 font-semibold mb-2">
+          <div className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-800/60">
+            <div className="flex items-center gap-2 text-gold-300 font-semibold mb-2">
               <span className="text-lg" aria-hidden="true">🏢</span>
               <span>{SCENARIO.title}</span>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-indigo-900/40 text-xs text-indigo-200 font-mono">
+            <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-gold-900/40 text-xs text-gold-200 font-mono">
               💡 {SCENARIO.context}
             </div>
           </div>
@@ -1375,7 +1375,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-900/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-900/80 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <div className="flex items-center gap-3">
@@ -1404,7 +1404,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Enter the Accounting Lab"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Accounting Lab →
                 </motion.button>
@@ -1431,7 +1431,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     audioManager.play('tap');
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs whitespace-nowrap transition-all ${
-                    currentSlide === idx ? 'bg-indigo-600 text-white font-bold' : 'text-slate-400 hover:bg-slate-900'
+                    currentSlide === idx ? 'bg-gold-600 text-white font-bold' : 'text-slate-400 hover:bg-slate-900'
                   }`}
                 >
                   {idx + 1}. {step.title.split(':')[0]}
@@ -1451,10 +1451,10 @@ function C11_AccountancyTradingAccountMeaningSim({
             >
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-4 pb-3 border-b border-slate-700">
                 <div>
-                  <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                  <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-amber-300 mt-0.5">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
-                <span className="text-xs bg-indigo-950 px-2.5 py-1 rounded-full text-indigo-400 border border-indigo-800 font-mono">
+                <span className="text-xs bg-gold-950 px-2.5 py-1 rounded-full text-gold-400 border border-gold-800 font-mono">
                   Node: {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1467,8 +1467,8 @@ function C11_AccountancyTradingAccountMeaningSim({
 
                   {/* Predict then check block */}
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-900/90 rounded-xl border border-indigo-900/60">
-                      <p className="text-xs uppercase font-bold text-indigo-400 mb-1">Interactive Hypothesis</p>
+                    <div className="p-4 bg-slate-900/90 rounded-xl border border-gold-900/60">
+                      <p className="text-xs uppercase font-bold text-gold-400 mb-1">Interactive Hypothesis</p>
                       <p className="text-sm text-white font-medium mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1488,7 +1488,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   )}
 
                   {predictionMade && (
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 flex items-center justify-between text-xs text-indigo-300">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 flex items-center justify-between text-xs text-gold-300">
                       <span>✓ Hypothesis logged! Use the controls below to verify:</span>
                       <span className="font-mono text-emerald-400">{PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                     </div>
@@ -1513,7 +1513,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                           setSimPurchases(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1534,7 +1534,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                           setSimCarriageIn(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1555,7 +1555,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                           setSimClosingStock(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1641,7 +1641,7 @@ function C11_AccountancyTradingAccountMeaningSim({
               {currentSlide === 1 && (
                 <div className="space-y-5">
                   <div className="p-4 bg-slate-900 rounded-xl text-xs text-slate-300">
-                    Click each expense card to re-route it between the <span className="text-indigo-400 font-bold">Trading Account</span> (Direct) and the <span className="text-purple-400 font-bold">Profit & Loss Account</span> (Indirect). Observe where the costs get deducted!
+                    Click each expense card to re-route it between the <span className="text-gold-400 font-bold">Trading Account</span> (Direct) and the <span className="text-purple-400 font-bold">Profit & Loss Account</span> (Indirect). Observe where the costs get deducted!
                   </div>
 
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -1654,7 +1654,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                         onClick={() => handleToggleExpenseClass(name)}
                         className={`p-3.5 rounded-xl border cursor-pointer transition-all text-left ${
                           category === 'trading'
-                            ? 'bg-indigo-950/70 border-indigo-600 text-indigo-200'
+                            ? 'bg-gold-950/70 border-gold-600 text-gold-200'
                             : 'bg-purple-950/70 border-purple-600 text-purple-200'
                         }`}
                       >
@@ -1702,7 +1702,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                          marshallingOrder === 'permanence' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                          marshallingOrder === 'permanence' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                         }`}
                       >
                         Order of Permanence
@@ -1714,7 +1714,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                          marshallingOrder === 'liquidity' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                          marshallingOrder === 'liquidity' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                         }`}
                       >
                         Order of Liquidity
@@ -1726,7 +1726,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-950 p-4 rounded-2xl border border-slate-800 text-xs">
                     {/* Liabilities Column */}
                     <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800 space-y-2">
-                      <div className="font-bold text-indigo-400 border-b border-slate-800 pb-1">
+                      <div className="font-bold text-gold-400 border-b border-slate-800 pb-1">
                         Liabilities ({marshallingOrder === 'permanence' ? 'Permanent → Due Soonest' : 'Due Soonest → Permanent'})
                       </div>
                       {marshallingOrder === 'permanence' ? (
@@ -1788,7 +1788,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     {/* Salaries Adjustment */}
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs">
-                        <label htmlFor="adj-sal-slider" className="font-bold text-indigo-300">Outstanding Salaries (Liability)</label>
+                        <label htmlFor="adj-sal-slider" className="font-bold text-gold-300">Outstanding Salaries (Liability)</label>
                         <span className="font-mono text-amber-400 font-bold">+₹{adjOutstandingSal.toLocaleString('en-IN')}</span>
                       </div>
                       <input
@@ -1814,7 +1814,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     {/* Insurance Prepaid Adjustment */}
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs">
-                        <label htmlFor="adj-ins-slider" className="font-bold text-indigo-300">Prepaid Insurance (Asset)</label>
+                        <label htmlFor="adj-ins-slider" className="font-bold text-gold-300">Prepaid Insurance (Asset)</label>
                         <span className="font-mono text-emerald-400 font-bold">−₹{adjPrepaidIns.toLocaleString('en-IN')}</span>
                       </div>
                       <input
@@ -1840,7 +1840,7 @@ function C11_AccountancyTradingAccountMeaningSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
                     <span className="text-slate-400">Total Adjusted Operating Overheads in P&L:</span>
-                    <span className="font-mono text-sm font-bold text-indigo-300">₹{(simAdjustedSalary + simAdjustedInsurance).toLocaleString('en-IN')}</span>
+                    <span className="font-mono text-sm font-bold text-gold-300">₹{(simAdjustedSalary + simAdjustedInsurance).toLocaleString('en-IN')}</span>
                   </div>
                 </div>
               )}
@@ -1941,7 +1941,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Stage →
               </motion.button>
@@ -1965,7 +1965,7 @@ function C11_AccountancyTradingAccountMeaningSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div>
-              <h3 className="text-lg font-bold text-indigo-300">Interactive Final Accounts Sandbox</h3>
+              <h3 className="text-lg font-bold text-gold-300">Interactive Final Accounts Sandbox</h3>
               <p className="text-xs text-slate-400 mt-1">
                 Zero grading pressure! Manipulate revenues, procurement costs, and adjustments to see the live breakdown chart.
               </p>
@@ -2005,7 +2005,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     setSimSales(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2026,7 +2026,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     setSimPurchases(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2119,7 +2119,7 @@ function C11_AccountancyTradingAccountMeaningSim({
           {/* Wave animation Canvas bar */}
           <div className="relative w-full h-8 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 flex items-center px-3">
             <canvas ref={canvasRef} width={600} height={32} className="w-full h-full" aria-hidden="true" />
-            <div className="absolute right-3 text-[10px] font-mono text-indigo-400 flex items-center gap-1.5">
+            <div className="absolute right-3 text-[10px] font-mono text-gold-400 flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" aria-hidden="true" />
               Live Ledger Balancing Engine
             </div>
@@ -2139,7 +2139,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border-blue-800'
+                    ? 'bg-gold-950 text-gold-400 border-gold-800'
                     : 'bg-purple-950 text-purple-400 border-purple-800'
                 }`}
               >
@@ -2155,7 +2155,7 @@ function C11_AccountancyTradingAccountMeaningSim({
           {/* Animated Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2171,7 +2171,7 @@ function C11_AccountancyTradingAccountMeaningSim({
             }`}
           >
             <div className="flex justify-between items-start gap-3 mb-4">
-              <span className="text-xs text-indigo-400 font-mono uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-mono uppercase tracking-wider">
                 ISC Competency Focus: {challenge.nodeId}
               </span>
               <span className="text-xs text-slate-500 font-mono">
@@ -2199,7 +2199,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     className={`w-full text-left p-4 rounded-xl text-sm transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
-                        : 'bg-slate-900/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-900/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <div className="flex items-center gap-3">
@@ -2230,7 +2230,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs text-white font-medium cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs text-white font-medium cursor-grab shadow-sm"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2247,7 +2247,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                       className="p-3 bg-slate-900/80 rounded-xl border border-dashed border-slate-700 min-h-[50px] flex items-center justify-between text-xs"
                     >
                       <span className="text-slate-400">1. Top Debit Item:</span>
-                      <span className="font-bold text-indigo-300">{droppedLabels.box_dr_top || '[Drop Here]'}</span>
+                      <span className="font-bold text-gold-300">{droppedLabels.box_dr_top || '[Drop Here]'}</span>
                     </div>
                     <div
                       onDragOver={e => e.preventDefault()}
@@ -2256,7 +2256,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                       className="p-3 bg-slate-900/80 rounded-xl border border-dashed border-slate-700 min-h-[50px] flex items-center justify-between text-xs"
                     >
                       <span className="text-slate-400">2. Bottom Debit Item:</span>
-                      <span className="font-bold text-indigo-300">{droppedLabels.box_dr_bottom || '[Drop Here]'}</span>
+                      <span className="font-bold text-gold-300">{droppedLabels.box_dr_bottom || '[Drop Here]'}</span>
                     </div>
                   </div>
 
@@ -2289,7 +2289,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   disabled={showExplanation}
                   aria-label="Verify T-Account Postings"
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify T-Account Postings →
                 </motion.button>
@@ -2335,7 +2335,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   disabled={showExplanation}
                   aria-label="Submit Ordered Sequence"
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Ordered Sequence →
                 </motion.button>
@@ -2354,7 +2354,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter final calculated amount"
                     disabled={showExplanation}
-                    className="flex-1 px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="flex-1 px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <motion.button
                     whileHover={{ scale: 1.05 }}
@@ -2362,7 +2362,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                     disabled={showExplanation || !numericInput}
                     aria-label="Check numeric answer"
                     onClick={() => handleAnswer(parseFloat(numericInput))}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                   >
                     Check
                   </motion.button>
@@ -2397,7 +2397,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 text-indigo-200 rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 text-gold-200 rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       {part}
                       <button aria-label={`Remove ${part}`} onClick={() => handleConstructRemove(i)} className="text-red-400 hover:text-red-300 font-bold">×</button>
@@ -2414,7 +2414,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify entry construction"
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Entry Construction →
                 </motion.button>
@@ -2498,14 +2498,14 @@ function C11_AccountancyTradingAccountMeaningSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 min-w-[120px]">
                 <span className="text-[10px] text-slate-400 block uppercase">Mastery Tier</span>
-                <span className="text-xl font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
 
           {/* Motivational Feedback */}
-          <div className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-800/60 text-xs text-indigo-200 leading-relaxed">
-            <span className="font-bold text-indigo-300 text-sm block mb-1">CFO Performance Assessment:</span>
+          <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800/60 text-xs text-gold-200 leading-relaxed">
+            <span className="font-bold text-gold-300 text-sm block mb-1">CFO Performance Assessment:</span>
             {errors === 0
               ? 'PERFECT SCORE! Outstanding command of Trading margins, AS-1 accruals, AS-2 inventory valuation, and PDD sequences.'
               : errors <= 3
@@ -2535,7 +2535,7 @@ function C11_AccountancyTradingAccountMeaningSim({
           )}
 
           {/* ─── REFLECTION SECTION (NEP 2020 Metacognition) ─── */}
-          <div className="p-6 bg-slate-950 rounded-2xl border border-indigo-900/60 space-y-4">
+          <div className="p-6 bg-slate-950 rounded-2xl border border-gold-900/60 space-y-4">
             <div className="flex items-center gap-2 text-amber-400 font-bold text-sm">
               <span aria-hidden="true">🧠</span>
               <span>Metacognitive Reflection</span>
@@ -2546,7 +2546,7 @@ function C11_AccountancyTradingAccountMeaningSim({
 
             <div className="space-y-4 text-xs">
               <div className="space-y-1.5">
-                <label htmlFor="reflection-surprising" className="font-semibold text-indigo-300 block">
+                <label htmlFor="reflection-surprising" className="font-semibold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2555,12 +2555,12 @@ function C11_AccountancyTradingAccountMeaningSim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., Why Carriage Outwards goes to P&L and not Trading Account, or how excess PDD gets credited back..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label htmlFor="reflection-explain" className="font-semibold text-indigo-300 block">
+                <label htmlFor="reflection-explain" className="font-semibold text-gold-300 block">
                   2. How would you explain the difference between Gross Profit and Operating Profit to a friend?
                 </label>
                 <textarea
@@ -2569,12 +2569,12 @@ function C11_AccountancyTradingAccountMeaningSim({
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g., Gross profit only counts direct buying & selling costs, while operating profit factors in office overheads too..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label htmlFor="reflection-reallife" className="font-semibold text-indigo-300 block">
+                <label htmlFor="reflection-reallife" className="font-semibold text-gold-300 block">
                   3. Where in real life might you use this financial statements framework?
                 </label>
                 <textarea
@@ -2583,7 +2583,7 @@ function C11_AccountancyTradingAccountMeaningSim({
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., Evaluating whether my family store is profitable from pure sales or propped up by rental income..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2599,7 +2599,7 @@ function C11_AccountancyTradingAccountMeaningSim({
 
           {/* Real World Scenario Completion Arc */}
           <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
               <span aria-hidden="true">🚀</span>
               <span>{REAL_WORLD_ACTIVITY.title}</span>
             </div>
@@ -2607,7 +2607,7 @@ function C11_AccountancyTradingAccountMeaningSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-300">
-                  <span className="text-indigo-400 font-bold font-mono mr-1.5">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold font-mono mr-1.5">{i + 1}.</span>
                   {step}
                 </div>
               ))}

@@ -645,7 +645,7 @@ const GPSeriesVisualizer: React.FC<{ a: number; r: number; terms: number }> = ({
 
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 text-white flex flex-col items-center">
-      <div className="flex justify-between w-full mb-2 text-sm text-cyan-300">
+      <div className="flex justify-between w-full mb-2 text-sm text-gold-300">
         <span>Geometric Infinite Series Visualizer</span>
         <span>S_inf = {isFinite(sumInf) ? sumInf.toFixed(4) : 'Divergent'}</span>
       </div>
@@ -802,12 +802,12 @@ const ExpLogSeriesVisualizer: React.FC<{ x: number; terms: number }> = ({ x, ter
           </div>
         </div>
 
-        <div className="bg-slate-950 p-3 rounded-lg border border-cyan-500/30">
-          <div className="text-xs text-cyan-400 font-bold mb-1">Logarithmic Series (Linear Growth)</div>
+        <div className="bg-slate-950 p-3 rounded-lg border border-gold-500/30">
+          <div className="text-xs text-gold-400 font-bold mb-1">Logarithmic Series (Linear Growth)</div>
           <div className="text-xs font-mono text-slate-300">Denominator: n</div>
           <div className="text-xs text-amber-400 mt-1">Convergence: Slow, Valid ONLY for -1 &lt; x ≤ 1</div>
           <div className="w-full bg-slate-800 h-2 rounded-full mt-2 overflow-hidden">
-            <div className="bg-cyan-400 h-full" style={{ width: `${Math.min(100, Math.abs((logPartial / (logVal || 1)) * 100))}%` }}></div>
+            <div className="bg-gold-400 h-full" style={{ width: `${Math.min(100, Math.abs((logPartial / (logVal || 1)) * 100))}%` }}></div>
           </div>
         </div>
       </div>
@@ -1018,11 +1018,11 @@ export default function C11_MathsInfiniteSeriesCBSESim({
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl flex flex-wrap items-center justify-between p-4 bg-slate-900/90 border border-slate-800 rounded-2xl shadow-xl backdrop-blur mb-6">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-white text-xl shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-white text-xl shadow-lg">
             ∑
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-300 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 to-gold-300 bg-clip-text text-transparent">
               Infinite Series Laboratory
             </h1>
             <p className="text-xs text-slate-400">Class 11 ISC Maths • Chapter: Infinite Series</p>
@@ -1037,7 +1037,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
               onClick={() => handleTabChange(tab)}
               className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all capitalize ${
                 activeTab === tab
-                  ? 'bg-blue-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
             >
@@ -1058,12 +1058,12 @@ export default function C11_MathsInfiniteSeriesCBSESim({
         {/* TAB 1: SCENARIO */}
         {activeTab === 'scenario' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6 animate-fadeIn">
-            <div className="border-l-4 border-cyan-500 pl-4 py-1">
-              <h2 className="text-2xl font-bold text-cyan-400">{SCENARIO.title}</h2>
+            <div className="border-l-4 border-gold-500 pl-4 py-1">
+              <h2 className="text-2xl font-bold text-gold-400">{SCENARIO.title}</h2>
               <p className="text-slate-300 mt-2 text-base leading-relaxed">{SCENARIO.intro}</p>
             </div>
             <div className="bg-slate-950 p-5 rounded-xl border border-slate-800/80 leading-relaxed text-slate-300">
-              <h3 className="text-sm font-bold text-blue-400 mb-2 uppercase tracking-wider">Experimental Context</h3>
+              <h3 className="text-sm font-bold text-gold-400 mb-2 uppercase tracking-wider">Experimental Context</h3>
               <p>{SCENARIO.context}</p>
             </div>
 
@@ -1078,7 +1078,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                   return (
                     <div key={nodeId} className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 flex justify-between items-center">
                       <span className="text-slate-300 truncate pr-2" title={nodeTitle}>{nodeTitle}</span>
-                      <span className="px-2 py-0.5 rounded bg-blue-900/50 text-blue-300 font-mono text-[10px]">{mastery}%</span>
+                      <span className="px-2 py-0.5 rounded bg-gold-900/50 text-gold-300 font-mono text-[10px]">{mastery}%</span>
                     </div>
                   );
                 })}
@@ -1087,7 +1087,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
 
             <button
               onClick={() => handleTabChange('discovery')}
-              className="w-full py-3 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold rounded-xl shadow-lg transition-all"
+              className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold rounded-xl shadow-lg transition-all"
             >
               Begin Exploration Deck →
             </button>
@@ -1111,7 +1111,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                     onClick={() => { setDiscoverySelected(idx); audioManager.play('tap'); }}
                     className={`p-4 rounded-xl text-left text-sm border transition-all ${
                       discoverySelected === idx
-                        ? 'border-cyan-500 bg-cyan-950/40 text-cyan-200'
+                        ? 'border-gold-500 bg-gold-950/40 text-gold-200'
                         : 'border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1129,8 +1129,8 @@ export default function C11_MathsInfiniteSeriesCBSESim({
               </button>
 
               {discoverySubmitted && (
-                <div className="p-4 bg-slate-950 rounded-xl border border-cyan-800/50 text-sm text-cyan-200 animate-fadeIn">
-                  <p className="font-bold text-cyan-400 mb-1">Mathematical Reality:</p>
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/50 text-sm text-gold-200 animate-fadeIn">
+                  <p className="font-bold text-gold-400 mb-1">Mathematical Reality:</p>
                   <p>{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1138,7 +1138,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
 
             {/* PREDICTION QUESTIONS MAP */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-400 uppercase tracking-wider">Predictive Hypotheses</h3>
+              <h3 className="text-md font-bold text-gold-400 uppercase tracking-wider">Predictive Hypotheses</h3>
               {PREDICTION_QUESTIONS.map((pq, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <p className="text-sm font-medium text-slate-200">{pq.question}</p>
@@ -1154,7 +1154,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                         }}
                         className={`p-2.5 rounded-lg border text-left transition-all ${
                           predictionAnswers[idx] === optIdx
-                            ? 'border-blue-500 bg-blue-950/40 text-blue-200'
+                            ? 'border-gold-500 bg-gold-950/40 text-gold-200'
                             : 'border-slate-800 bg-slate-900 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1176,7 +1176,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               {EXPLORATION_STEPS.map((step, idx) => (
                 <div key={idx} className="bg-slate-900 border border-slate-800 p-4 rounded-xl space-y-2">
-                  <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">{step.title}</h4>
+                  <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">{step.title}</h4>
                   <p className="text-xs text-slate-300">{step.instruction}</p>
                 </div>
               ))}
@@ -1184,7 +1184,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
 
             {/* LAB 1: GEOMETRIC PROGRESSION VISUALIZER */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-300">Lab 1: Infinite Geometric Progression Visualizer</h3>
+              <h3 className="text-lg font-bold text-gold-300">Lab 1: Infinite Geometric Progression Visualizer</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <GPSeriesVisualizer a={gpFirstTerm} r={gpRatio} terms={gpTerms} />
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -1198,7 +1198,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                       max="20"
                       value={gpFirstTerm}
                       onChange={e => { setGpFirstTerm(Number(e.target.value)); audioManager.play('tap'); }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1212,7 +1212,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                       step="0.1"
                       value={gpRatio}
                       onChange={e => { setGpRatio(Number(e.target.value)); audioManager.play('tap'); }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1225,10 +1225,10 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                       max="15"
                       value={gpTerms}
                       onChange={e => { setGpTerms(Number(e.target.value)); audioManager.play('tap'); }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
-                  <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-cyan-200">
+                  <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-gold-200">
                     S_N = a(1 - r^N) / (1 - r) = { (gpFirstTerm * (1 - Math.pow(gpRatio, gpTerms))) / (1 - gpRatio) }
                   </div>
                 </div>
@@ -1319,7 +1319,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
 
             {/* OBSERVATION QUESTIONS MAP */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-cyan-400 uppercase tracking-wider">Lab Observations</h3>
+              <h3 className="text-md font-bold text-gold-400 uppercase tracking-wider">Lab Observations</h3>
               {OBSERVATION_QUESTIONS.map((oq, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <p className="text-sm font-medium text-slate-200">{oq.question}</p>
@@ -1355,7 +1355,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
             {/* PROGRESS & MASTERY HEADER */}
             <div className="flex flex-wrap items-center justify-between gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
               <div>
-                <span className="text-xs font-bold text-blue-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-slate-100">
@@ -1372,7 +1372,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                 }`}>
                   {CHALLENGES[currentChallengeIdx].difficulty}
                 </span>
-                <span className="text-sm font-bold text-cyan-400 font-mono">Score: {score}</span>
+                <span className="text-sm font-bold text-gold-400 font-mono">Score: {score}</span>
               </div>
             </div>
 
@@ -1390,7 +1390,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                     onClick={() => { setSelectedMcOption(idx); audioManager.play('tap'); resetInactivityTimer(); }}
                     className={`p-4 rounded-xl text-left text-sm border transition-all ${
                       selectedMcOption === idx
-                        ? 'border-blue-500 bg-blue-950/50 text-blue-200 shadow-md'
+                        ? 'border-gold-500 bg-gold-950/50 text-gold-200 shadow-md'
                         : 'border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1409,7 +1409,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                   value={numericInput}
                   onChange={e => { setNumericInput(e.target.value); resetInactivityTimer(); }}
                   placeholder="Enter numerical answer..."
-                  className="w-full p-4 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 font-mono text-lg focus:border-blue-500 outline-none"
+                  className="w-full p-4 rounded-xl bg-slate-950 border border-slate-800 text-slate-100 font-mono text-lg focus:border-gold-500 outline-none"
                 />
               </div>
             )}
@@ -1454,7 +1454,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
               {isChallengeCorrect === null ? (
                 <button
                   onClick={handleChallengeSubmit}
-                  className="w-full py-3.5 bg-blue-600 hover:bg-blue-500 font-bold text-white rounded-xl shadow-lg transition-all"
+                  className="w-full py-3.5 bg-gold-600 hover:bg-gold-500 font-bold text-white rounded-xl shadow-lg transition-all"
                 >
                   Submit Answer
                 </button>
@@ -1473,7 +1473,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
         {/* TAB 5: MISCONCEPTIONS */}
         {activeTab === 'misconceptions' && (
           <div className="space-y-4">
-            <h2 className="text-xl font-bold text-cyan-400">Common Infinite Series Misconceptions & Corrections</h2>
+            <h2 className="text-xl font-bold text-gold-400">Common Infinite Series Misconceptions & Corrections</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {MISCONCEPTIONS.map(m => (
                 <div key={m.id} className="bg-slate-900 border border-slate-800 p-5 rounded-2xl space-y-3 shadow-lg">
@@ -1512,11 +1512,11 @@ export default function C11_MathsInfiniteSeriesCBSESim({
             </div>
 
             <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Mastery Summary Report</h3>
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Mastery Summary Report</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
                 <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                   <div className="text-xs text-slate-400">Total Score</div>
-                  <div className="text-xl font-bold text-cyan-400 font-mono">{score}</div>
+                  <div className="text-xl font-bold text-gold-400 font-mono">{score}</div>
                 </div>
                 <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                   <div className="text-xs text-slate-400">Challenges Cleared</div>
@@ -1528,7 +1528,7 @@ export default function C11_MathsInfiniteSeriesCBSESim({
                 </div>
                 <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                   <div className="text-xs text-slate-400">Overall Mastery</div>
-                  <div className="text-xl font-bold text-blue-400 font-mono">
+                  <div className="text-xl font-bold text-gold-400 font-mono">
                     {Math.round((score / (CHALLENGES.length * 10)) * 100)}%
                   </div>
                 </div>

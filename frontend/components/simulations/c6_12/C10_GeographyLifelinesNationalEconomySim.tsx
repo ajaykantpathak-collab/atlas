@@ -71,10 +71,10 @@ export function C10_GeographyLifelinesNationalEconomySim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Distance</span><span className="font-mono text-sky-300">{distance} km</span>
+                <span>Distance</span><span className="font-mono text-gold-300">{distance} km</span>
               </div>
               <input type="range" min={100} max={3000} step={50} value={distance} aria-label="distance"
-                onChange={(e) => setDistance(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setDistance(Number(e.target.value))} className="w-full accent-gold-500" />
               <p className="text-[10px] text-slate-500">Delhi-Kolkata ~1,450 km (Golden Quadrilateral arm); Mumbai-Delhi ~1,400 km.</p>
             </div>
             <div>
@@ -112,7 +112,7 @@ export function C10_GeographyLifelinesNationalEconomySim() {
               </div>
               <div className="bg-slate-950 rounded-xl p-3 border border-slate-800">
                 <p className="text-[10px] text-slate-500">Transit time</p>
-                <p className="font-mono font-black text-sky-300">{hours.toFixed(1)} h</p>
+                <p className="font-mono font-black text-gold-300">{hours.toFixed(1)} h</p>
                 <p className="text-[9px] text-slate-600">{effKmph.toFixed(0)} km/h effective</p>
               </div>
               <div className="bg-slate-950 rounded-xl p-3 border border-slate-800">

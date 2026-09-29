@@ -45,9 +45,9 @@ export function C12_BiologyEvolutionSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700 font-mono">pq</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">pq</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 12 -- Evolution</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Evolution</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Hardy-Weinberg, and How Selection Breaks It</h1>
         </div>
       </div>
@@ -100,10 +100,10 @@ export function C12_BiologyEvolutionSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Dominant allele frequency p (q = 1 - p)</span>
-                <span className="font-mono font-bold text-violet-400">p = {p.toFixed(2)}, q = {q.toFixed(2)}</span>
+                <span className="font-mono font-bold text-gold-400">p = {p.toFixed(2)}, q = {q.toFixed(2)}</span>
               </div>
               <input type="range" min={0.1} max={0.99} step={0.01} value={p} aria-label="Allele frequency p"
-                onChange={(e) => { setP(Number(e.target.value)); setRunGen(0); }} className="w-full accent-violet-500" />
+                onChange={(e) => { setP(Number(e.target.value)); setRunGen(0); }} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -114,7 +114,7 @@ export function C12_BiologyEvolutionSim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setRunGen((g) => Math.min(30, g + 5))}
-                className="py-2 rounded-xl text-xs font-bold bg-violet-600 hover:bg-violet-500">Advance 5 gens</button>
+                className="py-2 rounded-xl text-xs font-bold bg-gold-600 hover:bg-gold-500">Advance 5 gens</button>
               <button onClick={() => setRunGen(0)} className="py-2 rounded-xl text-xs font-bold bg-slate-800 hover:bg-slate-700">Reset to H-W</button>
             </div>
             <div className="text-[11px] font-mono text-slate-400">
@@ -124,8 +124,8 @@ export function C12_BiologyEvolutionSim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-violet-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-violet-300 font-bold">The balanced polymorphism fact</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">The balanced polymorphism fact</div>
             <div className="text-slate-400">2pq is maximal at p = q = 0.5 -- slide p and see.</div>
             <div className="text-slate-400">When q is rare, most copies sit in Aa carriers, so selection against aa is very slow at the end.</div>
           </div>
@@ -141,8 +141,8 @@ export function C12_BiologyEvolutionSim() {
             </p>
           </div>
 
-          <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs">
-            <p className="font-bold text-violet-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Set p = 0.5, s = 0: advance 30 generations and prove nothing changes. Then nudge s to 0.05 and repeat -- compare the final q values.</p>
             <p>2. Find p that maximises the carrier bar 2pq, then explain why recessive disease alleles (like thalassemia) persist despite killing aa individuals.</p>
           </div>

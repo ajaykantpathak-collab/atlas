@@ -47,7 +47,7 @@ export function C7_MathematicsRationalNumbersSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Rational Numbers on the Line</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Rational Numbers on the Line</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Number line */}
@@ -88,7 +88,7 @@ export function C7_MathematicsRationalNumbersSim() {
 
       {/* Comparison readout */}
       <div className="mt-4 p-4 bg-slate-800 rounded-2xl border border-slate-600 text-center font-mono">
-        <span className="text-sky-300 font-bold text-xl">
+        <span className="text-gold-300 font-bold text-xl">
           {f1.n}/{f1.d}
         </span>
         <span className={`mx-3 text-2xl font-black ${cmp === '=' ? 'text-emerald-400' : cmp === '<' ? 'text-pink-400' : 'text-amber-300'}`}>{cmp}</span>
@@ -97,7 +97,7 @@ export function C7_MathematicsRationalNumbersSim() {
         </span>
         {showCross && (
           <div className="mt-2 text-sm text-slate-300">
-            Cross multiply: {f1.n} x {f2.d} = <span className="text-sky-300 font-bold">{crossL}</span> vs {f2.n} x {f1.d} ={' '}
+            Cross multiply: {f1.n} x {f2.d} = <span className="text-gold-300 font-bold">{crossL}</span> vs {f2.n} x {f1.d} ={' '}
             <span className="text-amber-300 font-bold">{crossR}</span>
             <div className="text-xs text-slate-400 mt-1">
               Simplified: {s1.n}/{s1.d} and {s2.n}/{s2.d}
@@ -109,12 +109,12 @@ export function C7_MathematicsRationalNumbersSim() {
       {/* Fraction builders */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         {[
-          { f: f1, set: setF1, title: 'Blue fraction', nColor: 'accent-sky-400', dColor: 'accent-sky-600' },
+          { f: f1, set: setF1, title: 'Blue fraction', nColor: 'accent-gold-400', dColor: 'accent-gold-600' },
           { f: f2, set: setF2, title: 'Amber fraction', nColor: 'accent-amber-400', dColor: 'accent-amber-600' },
         ].map((fr, idx) => (
           <div key={idx} className="p-3 bg-slate-800 rounded-2xl border border-slate-600 space-y-2">
             <div className="text-xs uppercase tracking-wide text-slate-400">{fr.title}</div>
-            {stepper('top', fr.f.n, (v) => fr.set({ ...fr.f, n: v }), -9, 9, idx === 0 ? 'text-sky-300' : 'text-amber-300')}
+            {stepper('top', fr.f.n, (v) => fr.set({ ...fr.f, n: v }), -9, 9, idx === 0 ? 'text-gold-300' : 'text-amber-300')}
             {stepper('bottom', fr.f.d, (v) => fr.set({ ...fr.f, d: v }), 1, 9, 'text-slate-200')}
           </div>
         ))}
@@ -141,8 +141,8 @@ export function C7_MathematicsRationalNumbersSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>With the negatives loaded, decide which is bigger BEFORE pressing show. Careful: -1/2 sits to the RIGHT of -3/4!</li>
           <li>Make the two markers land exactly on the same point three different ways. What pattern do the cross-products show?</li>

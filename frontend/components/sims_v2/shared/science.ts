@@ -12,14 +12,14 @@ export const sciMatter: SimDef = {
     id: 'sci_matter', title: 'States of Matter', subtitle: 'Solid, liquid, gas!',
     classLevel: 3, subject: 'science', topic: 'States of Matter',
     chapters: ['Science: States of Matter'],
-    emoji: '🧊', theme: { bg: 'from-cyan-100 to-sky-200', accent: 'cyan', scene: 'ice' },
+    emoji: '🧊', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'ice' },
     scenario: { role: "a state-changer", intro: "Solid, liquid, gas — matter changes with heat!", goal: "Change every state." },
     discovery: { question: 'Ice, water, steam — three different things or the SAME thing?', options: ['Same thing in 3 forms!', 'Different things', 'Only water is real'], answer: 'Same thing in 3 forms!', hook: 'Ice, water and steam are ALL water — just different states! Let us melt into it.' },
     teaching: [
-        { title: 'Solid, Liquid, Gas 🧊', text: 'Solids hold their shape (ice). Liquids flow (water). Gases spread out (steam)!', emoji: '🧊', bgColor: 'from-cyan-400 to-sky-500' },
+        { title: 'Solid, Liquid, Gas 🧊', text: 'Solids hold their shape (ice). Liquids flow (water). Gases spread out (steam)!', emoji: '🧊', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Melting and Freezing 🔥', text: 'Heat melts ice into water. Cold freezes water back into ice!', emoji: '🔥', bgColor: 'from-orange-400 to-red-500' },
-        { title: 'Evaporation 💨', text: 'Heat turns water into invisible vapour — it rises into the air!', emoji: '💨', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Water is Special 💧', text: 'Water is one of few things that can be solid, liquid AND gas!', emoji: '💧', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Evaporation 💨', text: 'Heat turns water into invisible vapour — it rises into the air!', emoji: '💨', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Water is Special 💧', text: 'Water is one of few things that can be solid, liquid AND gas!', emoji: '💧', bgColor: 'from-gold-400 to-purple-500' },
     ],
     challenges: [
         { type: 'sort', question: 'Sort each thing: SOLID, LIQUID, or GAS?', options: [],
@@ -57,8 +57,8 @@ export const sciForce: SimDef = {
     teaching: [
         { title: 'Push and Pull 💪', text: 'A force is a push or a pull. Push a swing, pull a rope — both are forces!', emoji: '💪', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Friction Slows Things 🐢', text: 'Friction is a force that rubs against moving things and slows them — like grass on a ball!', emoji: '🐢', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Smooth vs Rough ✨', text: 'Smooth ice = little friction, slide far. Rough carpet = lots of friction, stops fast!', emoji: '✨', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Forces Everywhere 🌍', text: 'Gravity pulls you down, magnets pull metal, your muscles push and pull!', emoji: '🌍', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Smooth vs Rough ✨', text: 'Smooth ice = little friction, slide far. Rough carpet = lots of friction, stops fast!', emoji: '✨', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Forces Everywhere 🌍', text: 'Gravity pulls you down, magnets pull metal, your muscles push and pull!', emoji: '🌍', bgColor: 'from-gold-400 to-purple-500' },
     ],
     challenges: [
         { type: 'mcq', question: 'What is friction?', answer: 'A force that slows moving things', options: ['A type of ball', 'A force that slows moving things', 'A light'],
@@ -93,8 +93,8 @@ export const sciLight: SimDef = {
     teaching: [
         { title: 'Light Travels Straight 💡', text: 'Light zooms in straight lines — that is why shadows have sharp edges!', emoji: '💡', bgColor: 'from-yellow-400 to-amber-500' },
         { title: 'Shadows = Blocked Light 🌑', text: 'When something blocks light, a dark patch forms behind it — a shadow!', emoji: '🌑', bgColor: 'from-slate-400 to-gray-500' },
-        { title: 'Big and Small Shadows 📏', text: 'Move the light close = big fuzzy shadow. Move it far = small sharp shadow!', emoji: '📏', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Day and Night 🌗', text: 'The sun is our biggest light — when it sets, the world goes dark!', emoji: '🌗', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Big and Small Shadows 📏', text: 'Move the light close = big fuzzy shadow. Move it far = small sharp shadow!', emoji: '📏', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Day and Night 🌗', text: 'The sun is our biggest light — when it sets, the world goes dark!', emoji: '🌗', bgColor: 'from-gold-400 to-purple-500' },
     ],
     challenges: [
         { type: 'mcq', question: 'A shadow forms when light is...', answer: 'Blocked by an object', options: ['Made bigger', 'Blocked by an object', 'Turned off'],
@@ -122,7 +122,7 @@ export const sciBody: SimDef = {
         { title: 'The Skeleton 🦴', text: '206 bones form a frame — they hold you up, protect organs, and help you move!', emoji: '🦴', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Muscles Move You 💪', text: 'Muscles pull on bones to make you move — they work in pairs!', emoji: '💪', bgColor: 'from-red-400 to-orange-500' },
         { title: 'The Heart Pumps ❤️', text: 'Your heart is a pump pushing blood all around — it beats ~100,000 times a day!', emoji: '❤️', bgColor: 'from-rose-500 to-red-600' },
-        { title: 'Lungs Breathe 🌬️', text: 'Lungs take in oxygen and push out carbon dioxide — your breath keeps you alive!', emoji: '🌬️', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Lungs Breathe 🌬️', text: 'Lungs take in oxygen and push out carbon dioxide — your breath keeps you alive!', emoji: '🌬️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     challenges: [
         { type: 'mcq', question: 'About how many bones does an adult have?', answer: '206', options: ['50', '206', '1000'],
@@ -143,14 +143,14 @@ export const sciSpace: SimDef = {
     id: 'sci_space', title: 'Our Solar System', subtitle: 'Sun, planets, moons!',
     classLevel: 5, subject: 'science', topic: 'Solar System',
     chapters: ['Science: Solar System'],
-    emoji: '🪐', theme: { bg: 'from-indigo-100 to-purple-200', accent: 'indigo', scene: 'space' },
+    emoji: '🪐', theme: { bg: 'from-gold-100 to-purple-200', accent: 'indigo', scene: 'space' },
     scenario: { role: "a space-cadet", intro: "The sun is a star — planets orbit it!", goal: "Explore the solar system." },
     discovery: { question: 'Is the sun a planet, a star, or a moon?', options: ['A star - it makes its own light!', 'A planet', 'A moon'], answer: 'A star - it makes its own light!', hook: 'The sun is a star — planets orbit it! Let us explore space.' },
     teaching: [
         { title: 'The Sun is a Star ☀️', text: 'The sun is a star — it makes its own light and heat. Everything orbits it!', emoji: '☀️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: '8 Planets Orbit 🪐', text: 'Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune — all orbit the sun!', emoji: '🪐', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Earth is Special 🌍', text: 'Earth has air, water, and life — the only planet we know with living things!', emoji: '🌍', bgColor: 'from-blue-400 to-cyan-500' },
-        { title: 'Moons and More 🌙', text: 'Planets have moons (we have one!), and space has asteroids and comets too!', emoji: '🌙', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: '8 Planets Orbit 🪐', text: 'Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune — all orbit the sun!', emoji: '🪐', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Earth is Special 🌍', text: 'Earth has air, water, and life — the only planet we know with living things!', emoji: '🌍', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Moons and More 🌙', text: 'Planets have moons (we have one!), and space has asteroids and comets too!', emoji: '🌙', bgColor: 'from-gold-400 to-gold-500' },
     ],
     challenges: [
         { type: 'mcq', question: 'The sun is a...', answer: 'Star', options: ['Planet', 'Star', 'Moon'],

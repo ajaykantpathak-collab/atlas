@@ -107,9 +107,9 @@ export function NumberLine({ onChange, locked, max = 20 }: WidgetProps & { max?:
             </div>
             <div className={`flex gap-3 ${btn}`}>
                 <button onClick={() => setPos(p => Math.max(0, p - 1))}
-                    className="px-5 py-2 rounded-xl bg-sky-500 text-white font-black">◀ Hop back</button>
+                    className="px-5 py-2 rounded-xl bg-gold-500 text-white font-black">◀ Hop back</button>
                 <button onClick={() => setPos(p => Math.min(max, p + 1))}
-                    className="px-5 py-2 rounded-xl bg-sky-500 text-white font-black">Hop forward ▶</button>
+                    className="px-5 py-2 rounded-xl bg-gold-500 text-white font-black">Hop forward ▶</button>
             </div>
         </div>
     );
@@ -143,8 +143,8 @@ export function BalanceScale({ onChange, locked }: WidgetProps) {
                     <button onClick={() => setLeft(v => v + 1)} className="px-2 py-1 bg-red-200 rounded-lg">+</button>
                 </span>
                 <span className="flex gap-2 items-center">🔵
-                    <button onClick={() => setRight(v => Math.max(0, v - 1))} className="px-2 py-1 bg-blue-200 rounded-lg">−</button>
-                    <button onClick={() => setRight(v => v + 1)} className="px-2 py-1 bg-blue-200 rounded-lg">+</button>
+                    <button onClick={() => setRight(v => Math.max(0, v - 1))} className="px-2 py-1 bg-gold-200 rounded-lg">−</button>
+                    <button onClick={() => setRight(v => v + 1)} className="px-2 py-1 bg-gold-200 rounded-lg">+</button>
                 </span>
             </div>
         </div>
@@ -252,7 +252,7 @@ export function WriterStudio({ onChange, locked, labels }: WidgetProps) {
     return (
         <div className="w-full flex flex-col gap-2">
             {labels?.[0] && (
-                <div className="rounded-xl bg-indigo-50 border border-indigo-200 px-3 py-2 text-xs font-bold text-indigo-700">
+                <div className="rounded-xl bg-gold-50 border border-gold-200 px-3 py-2 text-xs font-bold text-gold-700">
                     ✍️ {labels[0]}
                 </div>
             )}
@@ -260,7 +260,7 @@ export function WriterStudio({ onChange, locked, labels }: WidgetProps) {
             <textarea value={text} disabled={locked}
                 onChange={e => setText(e.target.value)}
                 placeholder="Write here — the rubric ticks as you hit each element…"
-                className="flex-1 h-44 rounded-2xl border-2 border-indigo-200 bg-white p-3 text-sm text-slate-800 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none resize-none shadow-inner" />
+                className="flex-1 h-44 rounded-2xl border-2 border-gold-200 bg-white p-3 text-sm text-slate-800 placeholder:text-slate-400 focus:border-gold-400 focus:outline-none resize-none shadow-inner" />
             <div className="w-40 shrink-0 flex flex-col gap-1.5">
                 <div className="text-[10px] font-black tracking-widest text-slate-400 uppercase">examiner rubric</div>
                 {checks.map(c => (
@@ -268,10 +268,10 @@ export function WriterStudio({ onChange, locked, labels }: WidgetProps) {
                         <span>{c.ok ? '✓' : '○'}</span><span>{c.label}</span>
                     </div>
                 ))}
-                <div className={`mt-1 rounded-xl px-2 py-1.5 text-center text-xs font-black ${words >= 80 ? 'bg-indigo-100 text-indigo-700' : 'bg-slate-100 text-slate-500'}`}>
+                <div className={`mt-1 rounded-xl px-2 py-1.5 text-center text-xs font-black ${words >= 80 ? 'bg-gold-100 text-gold-700' : 'bg-slate-100 text-slate-500'}`}>
                     {words} words {words >= 80 ? '✓' : '/ 80'}
                 </div>
-                <div className="rounded-xl bg-gradient-to-r from-indigo-500 to-violet-500 text-white text-center text-xs font-black px-2 py-1.5 shadow">
+                <div className="rounded-xl bg-gradient-to-r from-gold-500 to-gold-500 text-white text-center text-xs font-black px-2 py-1.5 shadow">
                     est. marks {Math.min(5, score)}/5
                 </div>
             </div>
@@ -311,7 +311,7 @@ export function MatchPairs({ onChange, locked, labels }: WidgetProps) {
             <div className="flex-1 flex flex-col gap-2">
                 {pairs.map((p, i) => (
                     <button key={i} disabled={done.has(i)} onClick={() => pick('L', i)}
-                        className={`rounded-xl px-3 py-2 text-left text-xs font-bold border-2 transition-all ${done.has(i) ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : selL === i ? 'bg-indigo-500 border-indigo-600 text-white' : 'bg-white border-indigo-200 text-slate-700'}`}>
+                        className={`rounded-xl px-3 py-2 text-left text-xs font-bold border-2 transition-all ${done.has(i) ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : selL === i ? 'bg-gold-500 border-gold-600 text-white' : 'bg-white border-gold-200 text-slate-700'}`}>
                         {p.t}
                     </button>
                 ))}
@@ -354,7 +354,7 @@ export function OrderSteps({ onChange, locked, labels }: WidgetProps) {
                 const num = isPlaced ? placed.indexOf(i) + 1 : null;
                 return (
                     <button key={i} disabled={isPlaced} onClick={() => tap(i)}
-                        className={`w-full rounded-xl px-3 py-2.5 text-left text-xs font-bold border-2 flex items-center gap-2 transition-all ${isPlaced ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : flash === i ? 'bg-rose-100 border-rose-300' : 'bg-white border-indigo-200 text-slate-700'}`}>
+                        className={`w-full rounded-xl px-3 py-2.5 text-left text-xs font-bold border-2 flex items-center gap-2 transition-all ${isPlaced ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : flash === i ? 'bg-rose-100 border-rose-300' : 'bg-white border-gold-200 text-slate-700'}`}>
                         <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${isPlaced ? 'bg-emerald-500 text-white' : 'bg-slate-200 text-slate-500'}`}>{num ?? '?'}</span>
                         {items[orig]}
                     </button>
@@ -444,7 +444,7 @@ export function TracePad({ onChange, locked, labels }: WidgetProps) {
     return (
         <div className="w-full flex flex-col items-center gap-2">
             <div className="relative">
-                <canvas ref={guide} width={240} height={300} className="absolute inset-0 rounded-2xl bg-white border-4 border-indigo-200" />
+                <canvas ref={guide} width={240} height={300} className="absolute inset-0 rounded-2xl bg-white border-4 border-gold-200" />
                 <canvas ref={ref} width={240} height={300}
                     onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerLeave={up}
                     className="relative rounded-2xl touch-none cursor-crosshair" />
@@ -463,7 +463,7 @@ export function TracePad({ onChange, locked, labels }: WidgetProps) {
                 </div>
                 <button onClick={clear} className="rounded-xl bg-slate-200 px-3 py-1.5 text-xs font-black text-slate-600 hover:bg-slate-300">↺ again</button>
             </div>
-            {score === 0 && <p className="text-[10px] text-indigo-500 font-semibold">Start at the green dot — top to bottom ↓</p>}
+            {score === 0 && <p className="text-[10px] text-gold-500 font-semibold">Start at the green dot — top to bottom ↓</p>}
         </div>
     );
 }
@@ -495,12 +495,12 @@ export function FluencyMeter({ onChange, locked, labels }: WidgetProps) {
     };
     return (
         <div className="w-full flex flex-col items-center gap-3">
-            <div className="rounded-2xl bg-white border-2 border-sky-200 p-4 w-full">
+            <div className="rounded-2xl bg-white border-2 border-gold-200 p-4 w-full">
                 <p className="text-center text-base font-bold text-slate-700 leading-relaxed">{passage}</p>
             </div>
             {!reading && wpm === 0 && (
                 <button onClick={() => { setT0(Date.now()); setReading(true); }} disabled={locked}
-                    className="rounded-2xl bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-sm font-black text-white shadow-lg">
+                    className="rounded-2xl bg-gradient-to-r from-gold-500 to-gold-600 px-8 py-3 text-sm font-black text-white shadow-lg">
                     ▶ Start reading aloud!
                 </button>
             )}

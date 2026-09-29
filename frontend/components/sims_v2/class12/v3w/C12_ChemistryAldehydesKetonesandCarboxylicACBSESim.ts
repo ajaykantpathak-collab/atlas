@@ -11,7 +11,7 @@ export const w_c12_chemistryaldehydesketonesandcarboxylicacbsesim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Physical Properties of Aldehydes and Ketones',
     chapters: [],
     nodeIds: ['c12_chem_cbse_08_004', 'c12_chem_cbse_08_005', 'c12_chem_cbse_07_003', 'c12_chem_cbse_07_007', 'c12_chem_cbse_08_001', 'c12_chem_cbse_08_003', 'c12_chem_cbse_08_006', 'c12_chem_cbse_08_007', 'c12_chem_cbse_08_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe that formalin (aqueous methanal) is a liquid used to preserve biological specimens in school labs,.', goal: 'Master Physical Properties of Aldehydes and Ketones.' },
     discovery: {
         question: 'Name the reducing agent that can reduce a carboxylic acid to a primary alcohol but cannot be replaced by NaBH₄ for this conversion.',
@@ -20,7 +20,7 @@ export const w_c12_chemistryaldehydesketonesandcarboxylicacbsesim: SimDef = {
         hook: 'Students write "NaBH₄ reduces carboxylic acids to alcohols" or "LiAlH₄ reduces aldehydes to alkanes" — confusing.',
     },
     teaching: [
-        { title: 'Physical properties of aldehydes and ketones.', text: 'Physical properties of aldehydes and ketones refer to their observable characteristics such as state (gas, liquid, solid), boiling points, solubility in water and organic solvents, and odor, which.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Physical properties of aldehydes and ketones.', text: 'Physical properties of aldehydes and ketones refer to their observable characteristics such as state (gas, liquid, solid), boiling points, solubility in water and organic solvents, and odor, which.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_08_004', title: 'Physical properties of aldehydes and.',

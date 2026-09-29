@@ -39,7 +39,7 @@ export function C7_ScienceAcidsBasesAndSaltsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Acids, Bases and Salts: Indicator Detective</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Acids, Bases and Salts: Indicator Detective</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Substance buttons */}
@@ -48,7 +48,7 @@ export function C7_ScienceAcidsBasesAndSaltsSim() {
           <button
             key={s}
             onClick={() => { setSubstance(s); setDropsOfBase(0); }}
-            className={`px-3 py-2 rounded-xl text-sm font-semibold border transition-colors ${substance === s ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-3 py-2 rounded-xl text-sm font-semibold border transition-colors ${substance === s ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {SUBSTANCES[s].name}
           </button>
@@ -83,7 +83,7 @@ export function C7_ScienceAcidsBasesAndSaltsSim() {
               <button
                 key={ind}
                 onClick={() => setIndicator(ind)}
-                className={`px-3 py-2 rounded-xl text-xs font-semibold border capitalize transition-colors ${indicator === ind ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+                className={`px-3 py-2 rounded-xl text-xs font-semibold border capitalize transition-colors ${indicator === ind ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
               >
                 {ind === 'none' ? 'No indicator' : ind === 'litmus' ? 'Litmus paper' : 'Turmeric stain'}
               </button>
@@ -106,7 +106,7 @@ export function C7_ScienceAcidsBasesAndSaltsSim() {
           <div>
             <div className="text-xs text-slate-400 mb-1">Neutralize this sample: add base drop by drop</div>
             <div className="flex items-center gap-2">
-              <button onClick={() => setDropsOfBase((d) => Math.min(8, d + 1))} className="px-3 py-2 rounded-xl text-xs font-semibold border bg-blue-600 border-blue-400 hover:bg-blue-500">
+              <button onClick={() => setDropsOfBase((d) => Math.min(8, d + 1))} className="px-3 py-2 rounded-xl text-xs font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
                 Add 1 drop of base
               </button>
               <button onClick={() => setDropsOfBase(0)} className="px-3 py-2 rounded-xl text-xs font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -135,8 +135,8 @@ export function C7_ScienceAcidsBasesAndSaltsSim() {
         </div>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Test soap solution with BOTH indicators. Why does litmus and turmeric agree, and why does turmeric ignore the lemon juice?</li>
           <li>Add exactly 5 drops to lemon juice. If you had added only 3, would the litmus still be red, blue or something in between? Reason it out, then check.</li>

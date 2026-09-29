@@ -172,9 +172,9 @@ function MeteorologistMeera({ mood, speaking }: { mood: MascotMood; speaking: st
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-cyan-200 pointer-events-auto"
+            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-gold-200 pointer-events-auto"
           >
-            <p className="text-sm font-bold text-cyan-900">{speaking}</p>
+            <p className="text-sm font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -316,7 +316,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Physical Changes 🧊",
     text: "In a physical change, no new substance is formed! The shape, size, or state may change, but it is still the same material. Most physical changes are easily reversible — like melting ice or dissolving salt in water.",
     emoji: "🧊",
-    bgColor: "from-cyan-400 to-blue-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "In a physical change, no new substance is formed! The shape or state may change, but it is still the same material. They are usually reversible, like melting ice or dissolving salt.",
   },
   {
@@ -330,7 +330,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Composition of Air 🌬️",
     text: "Air is a mixture of gases! Nitrogen is the most abundant gas, making up about 78% (four-fifths) of air. Oxygen is about 21% and is needed for breathing and burning. Carbon dioxide and other gases make up the rest.",
     emoji: "🌬️",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Air is a mixture of gases! Nitrogen makes up about seventy-eight percent of air, while oxygen makes up about twenty-one percent.",
   },
   {
@@ -657,7 +657,7 @@ export function ChangesAirGame({ width = 720, height = 560, onComplete }: Change
 
   return (
     <div
-      className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-cyan-900 border-4 border-cyan-500"
+      className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gold-900 border-4 border-gold-500"
       style={{ width, height }}
     >
       <WeatherStationBg width={width} height={height} />
@@ -700,7 +700,7 @@ export function ChangesAirGame({ width = 720, height = 560, onComplete }: Change
               }}
               disabled={slideIdx === 0}
               className={`px-6 py-2.5 rounded-full font-bold text-white shadow-lg transition-all ${
-                slideIdx === 0 ? 'bg-gray-500/50 cursor-not-allowed' : 'bg-cyan-600 hover:bg-cyan-500'
+                slideIdx === 0 ? 'bg-gray-500/50 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500'
               }`}
             >
               Previous
@@ -741,7 +741,7 @@ export function ChangesAirGame({ width = 720, height = 560, onComplete }: Change
           {/* Top Bar */}
           <div className="flex justify-between items-center">
             <StarRow count={Math.floor(score / 15)} total={6} />
-            <div className="bg-white/90 px-4 py-1.5 rounded-full shadow-md font-extrabold text-cyan-900 text-sm">
+            <div className="bg-white/90 px-4 py-1.5 rounded-full shadow-md font-extrabold text-gold-900 text-sm">
               Challenge {challengeIdx + 1} / {CHALLENGES.length}
             </div>
             <button
@@ -753,8 +753,8 @@ export function ChangesAirGame({ width = 720, height = 560, onComplete }: Change
           </div>
 
           {/* Question Box */}
-          <div className="bg-white/95 rounded-3xl p-5 shadow-2xl border-4 border-cyan-300 max-w-2xl mx-auto w-full text-center my-auto">
-            <h3 className="text-xl font-black text-cyan-950 mb-4">{currentChallenge.question}</h3>
+          <div className="bg-white/95 rounded-3xl p-5 shadow-2xl border-4 border-gold-300 max-w-2xl mx-auto w-full text-center my-auto">
+            <h3 className="text-xl font-black text-gold-950 mb-4">{currentChallenge.question}</h3>
 
             {/* Identify Type */}
             {currentChallenge.type === 'identify' && (
@@ -762,7 +762,7 @@ export function ChangesAirGame({ width = 720, height = 560, onComplete }: Change
                 {currentChallenge.options.map((opt, i) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnBg = 'bg-cyan-50 hover:bg-cyan-100 text-cyan-950 border-cyan-200';
+                  let btnBg = 'bg-gold-50 hover:bg-gold-100 text-gold-950 border-gold-200';
                   if (selectedOpt) {
                     if (isCorrectAnswer) btnBg = 'bg-emerald-500 text-white border-emerald-600 scale-105';
                     else if (isSelected) btnBg = 'bg-rose-500 text-white border-rose-600';
@@ -818,7 +818,7 @@ export function ChangesAirGame({ width = 720, height = 560, onComplete }: Change
                         height={90}
                       >
                         <div
-                          className="flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-cyan-300 bg-white cursor-grab active:cursor-grabbing"
+                          className="flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-300 bg-white cursor-grab active:cursor-grabbing"
                           style={{ width: 110, height: 90 }}
                         >
                           {renderSortIcon(item.icon, 38)}

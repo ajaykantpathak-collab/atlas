@@ -229,7 +229,7 @@ function NehaMascot({ mood, speaking }: { mood: MascotMood; speaking: string | n
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-2 bg-white/95 backdrop-blur rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-sky-300"
+            className="mb-2 bg-white/95 backdrop-blur rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-gold-300"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -319,7 +319,7 @@ interface SortCardProps {
 function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: SortCardProps) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-sky-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 42)}
         <span className="text-[11px] font-bold text-gray-700 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -382,21 +382,21 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Two Layers of Skin 🔬",
     text: "The epidermis is the thin outer layer that acts like a raincoat against germs and dirt. The dermis is the thick inner layer with tiny nerve endings that pick up touch, hot, cold, and pain!",
     emoji: "🔬",
-    bgColor: "from-sky-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "The epidermis is the thin outer layer that acts like a raincoat against germs and dirt. The dermis is the thick inner layer with tiny nerve endings that pick up touch, hot, cold, and pain!",
   },
   {
     title: "Sweating Keeps Us Cool 💧",
     text: "When we play hard or when it is very hot, our skin produces sweat through tiny pores. As the sweat dries, it takes away heat and cools our body down!",
     emoji: "💧",
-    bgColor: "from-teal-400 to-cyan-600",
+    bgColor: "from-teal-400 to-gold-600",
     spoken: "When we play hard or when it is very hot, our skin produces sweat through tiny pores. As the sweat dries, it takes away heat and cools our body down!",
   },
   {
     title: "The Nervous System: Boss & Highway 🧠",
     text: "The nervous system is our body's control network! It is made of three parts: the brain (the control centre inside the skull), the spinal cord (the information highway), and nerves (tiny wires across the body)!",
     emoji: "🧠",
-    bgColor: "from-purple-400 to-indigo-600",
+    bgColor: "from-purple-400 to-gold-600",
     spoken: "The nervous system is our body's control network! It is made of three parts: the brain, the spinal cord, and nerves!",
   },
   {
@@ -743,9 +743,9 @@ export function SkinNervousGame({ width = 720, height = 560, onComplete }: SkinN
       {successMsg && <SuccessBanner message={successMsg} onComplete={advanceChallenge} />}
 
       {/* Top Header Bar */}
-      <div className="absolute top-4 left-4 right-24 z-10 flex items-center justify-between bg-white/90 backdrop-blur px-4 py-2 rounded-2xl shadow-md border border-sky-200">
+      <div className="absolute top-4 left-4 right-24 z-10 flex items-center justify-between bg-white/90 backdrop-blur px-4 py-2 rounded-2xl shadow-md border border-gold-200">
         <div className="flex items-center gap-3">
-          <span className="text-xl font-black text-sky-700">Skin & Nerves 🧠</span>
+          <span className="text-xl font-black text-gold-700">Skin & Nerves 🧠</span>
           <StarRow count={Math.min(5, Math.floor(score / 25))} total={5} />
         </div>
         <div className="flex items-center gap-4 text-sm font-bold text-gray-700">
@@ -778,14 +778,14 @@ export function SkinNervousGame({ width = 720, height = 560, onComplete }: SkinN
                 if (slideIdx > 0) setSlideIdx(prev => prev - 1);
               }}
               disabled={slideIdx === 0}
-              className={`px-5 py-2 rounded-2xl font-bold shadow-md transition-all ${slideIdx === 0 ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-white text-sky-700 hover:bg-sky-50'}`}
+              className={`px-5 py-2 rounded-2xl font-bold shadow-md transition-all ${slideIdx === 0 ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-white text-gold-700 hover:bg-gold-50'}`}
             >
               Previous
             </button>
 
             <div className="flex gap-2">
               {TEACHING_SLIDES.map((_, i) => (
-                <div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-sky-600 scale-125' : 'bg-sky-200'}`} />
+                <div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-gold-600 scale-125' : 'bg-gold-200'}`} />
               ))}
             </div>
 
@@ -799,7 +799,7 @@ export function SkinNervousGame({ width = 720, height = 560, onComplete }: SkinN
                   audioManager.play('success');
                 }
               }}
-              className="px-6 py-2.5 rounded-2xl font-extrabold shadow-lg bg-sky-600 text-white hover:bg-sky-700 transition-all"
+              className="px-6 py-2.5 rounded-2xl font-extrabold shadow-lg bg-gold-600 text-white hover:bg-gold-700 transition-all"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? "Start Game! 🚀" : "Next ➔"}
             </button>
@@ -811,7 +811,7 @@ export function SkinNervousGame({ width = 720, height = 560, onComplete }: SkinN
       {screen === 'play' && (
         <div className="absolute inset-0 pt-24 pb-6 px-6 flex flex-col items-center justify-between z-10">
           {/* Question Box */}
-          <div className="w-full max-w-2xl bg-white/95 backdrop-blur rounded-2xl p-4 shadow-lg border border-sky-200 text-center">
+          <div className="w-full max-w-2xl bg-white/95 backdrop-blur rounded-2xl p-4 shadow-lg border border-gold-200 text-center">
             <h3 className="text-lg font-extrabold text-gray-800">{currentChallenge.question}</h3>
           </div>
 
@@ -821,7 +821,7 @@ export function SkinNervousGame({ width = 720, height = 560, onComplete }: SkinN
               {currentChallenge.options.map((opt, idx) => {
                 const isSelected = selectedOpt === opt;
                 const isCorrectOpt = opt === currentChallenge.answer;
-                let btnStyle = "bg-white border-sky-300 hover:bg-sky-50 text-gray-800";
+                let btnStyle = "bg-white border-gold-300 hover:bg-gold-50 text-gray-800";
                 if (selectedOpt) {
                   if (isCorrectOpt) btnStyle = "bg-emerald-500 border-emerald-600 text-white font-bold";
                   else if (isSelected) btnStyle = "bg-rose-500 border-rose-600 text-white font-bold";

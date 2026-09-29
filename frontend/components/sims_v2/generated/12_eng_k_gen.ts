@@ -9,13 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C12_ENG_K_GEN: SimDef[] = [
  {
   "id": "gen_c12_eng_k_ch01",
-  "title": "Before You Read: Context and Background",
+  "title": "'I Sell My Dreams' — The Context And Background",
   "subtitle": "English · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch1: Before You Read: Context and Background"],
+  "topic": "'I Sell My Dreams' — The Context And Background To T",
+  "chapters": [
+   "English Ch1: 'I Sell My Dreams' — The Context And Background To T"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_01_001",
    "c12_eng_k_cbse_01_002",
@@ -40,103 +42,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Before You Read: Context and actually explain?",
+   "question": "In one line -- what does 'I Sell My Dreams' — The Context actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
     "Only how to score marks"
    ],
    "answer": "Why things around us behave the way they do",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory section that provides essential information about the author, the literary movement,"
+   "hook": "'I Sell My Dreams' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory section that provides essential information about the author, the literary movement, historical setting, and key concepts to help students understand and appreciate the short story before reading it.",
+    "text": "'I Sell My Dreams' (Kaleidoscope, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot refers to the sequence of events as presented in the narrative, while narrative structure is the organizational framework that arranges these events — including chronology, perspective, framing devices, and temporal shifts — to shape the reader's",
+    "title": "Plot/narrative Arc Of 'I Sell",
+    "text": "The plot/narrative arc of 'I Sell My Dreams' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting In \"I Sell My Dreams\"",
-    "text": "Setting in \"I Sell My Dreams\" refers to the specific geographical locations (Havana, Vienna, Barcelona, Oporto) and temporal periods (post-WWII Vienna, 1970s Havana) where the narrative unfolds, while atmosphere is the emotional mood — magical realism's blend",
+    "title": "Setting Of 'I Sell My",
+    "text": "The setting of 'I Sell My Dreams' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's traits, motivations, conflicts, development, and role in advancing the story's themes through their actions, dialogue, relationships, and the author's narrative techniques.",
+    "title": "Character Analysis In 'I Sell My",
+    "text": "Character analysis in 'I Sell My Dreams' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters",
-    "text": "Supporting characters are secondary figures in a narrative who interact with the protagonist to advance the plot, reveal thematic concerns, or illuminate the protagonist's personality through contrast or parallel.",
+    "title": "Supporting Characters In 'I Sell My",
+    "text": "Supporting characters in 'I Sell My Dreams' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, and setting; the message is the specific moral, philosophical, or emotional conclusion the reader is invited",
+    "title": "Primary Theme Of 'I Sell",
+    "text": "The primary theme of 'I Sell My Dreams' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Theme",
-    "text": "A secondary theme is a recurring idea or motif that supports, complicates, or runs parallel to the primary theme, adding depth and layers to the narrative without being the central controlling idea.",
+    "title": "Secondary Themes In 'I Sell My",
+    "text": "Secondary themes in 'I Sell My Dreams' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (visual, auditory, tactile, olfactory, gustatory) to create concrete mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'I Sell My Dreams'",
+    "text": "Imagery in 'I Sell My Dreams' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality, manifesting as situational irony (outcome contradicts expectation), dramatic irony (audience knows more than characters), or verbal irony (speaker says the opposite of what",
+    "title": "Irony And Paradox In 'I Sell My Dreams' —",
+    "text": "Irony and paradox in 'I Sell My Dreams' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and grammatical function of a word or phrase based on its specific usage within a text, rather than relying solely on a dictionary definition.",
+    "title": "Key Vocabulary Of 'I Sell My",
+    "text": "Key vocabulary of 'I Sell My Dreams' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Emphasis In Sentence Structure",
-    "text": "Emphasis in sentence structure refers to the strategic placement of words, phrases, or clauses within a sentence to highlight specific information, create focus, or achieve a desired rhetorical effect.",
+    "title": "Language And Style In 'I Sell",
+    "text": "Language and style in 'I Sell My Dreams' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving explicitly stated information from the text (facts, details, sequences), while inferential comprehension requires drawing logical conclusions by synthesizing implicit clues, context, and reasoning to uncover meanings",
+    "title": "Literal Comprehension Of 'I Sell My",
+    "text": "Literal comprehension of 'I Sell My Dreams' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the process of actively evaluating a text by questioning its assumptions, interpreting its symbols and themes, analyzing the author's narrative choices, and synthesizing evidence to form an independent, reasoned",
+    "title": "Critical Thinking On 'I Sell My",
+    "text": "Critical thinking on 'I Sell My Dreams' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Writing Skills Based On a Literary",
-    "text": "Writing skills based on a literary chapter involve the ability to compose structured, evidence-based analytical responses (short answers, long answers, essays) and creative pieces (diary entries, character sketches, alternative endings) that demonstrate",
+    "title": "Writing Skills From 'I Sell My",
+    "text": "Writing skills from 'I Sell My Dreams' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students collaboratively explore, debate, and analyze the themes, characters, and literary techniques of \"I Sell My Dreams\" through group discussions,",
+    "title": "Discussion Points On 'I Sell My",
+    "text": "Discussion points on 'I Sell My Dreams' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -188,10 +190,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_001",
     "difficulty": "standard",
     "workedExample": [
-     "Start by asking: \"Have you ever had a dream that felt so real it changed your decision the next day?",
-     "Then introduce Marquez as a Nobel laureate from Colombia, explain magical realism as blending fantasy with reality, and set the scenes: Vienna",
-     "Highlight the conflict between rationality (Neruda) and superstition (Frau Frieda).",
-     "End with the key insight: the story uses a frame narrative (Havana disaster triggering memory) to explore whether dreams are prophecy or survival"
+     "Start with the author of 'I Sell My Dreams', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -199,20 +198,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the framing device in \"I Sell My Dreams,\" and which event serves as the outer frame that opens and closes the narrative?",
     "answer": "The framing device is the Havana Riviera Hotel disaster — a massive wave embedding a car in the hotel wall, revealing a dead woman with a serpent ring",
     "options": [
-     "\"Frau Frieda\" is a Germanic tongue-twister invented by the Latin American students because she never revealed her real name; \"Frau\" means \"Mrs",
-     "The four main supporting characters are: (1) Frau Frieda — the dream seller whose prophecies drive the plot and embody the theme of survival through superstition",
+     "Students treat setting as \"background\" — a passive stage where events happen",
+     "The student can (1) state the primary theme of \"I Sell My Dreams\" in a single precise sentence using textual evidence, and (2) explain how the narrative structure, character arcs",
      "The framing device is the Havana Riviera Hotel disaster — a massive wave embedding a car in the hotel wall, revealing a dead woman with a serpent ring"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'I Sell' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the Vienna flashback\" or \"the Barcelona meeting\") reveals the student confuses the frame with the embedded narratives, missing how the frame controls the story's boundaries and thematic focus on memory/revelation.",
     "id": "gen_c12_eng_k_ch01_q2",
     "nodeId": "c12_eng_k_cbse_01_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a mystery series where the first scene shows a dramatic car crash, then jumps to a conversation from 30 years earlier, then",
-     "That's exactly what Marquez does here.",
-     "Start by asking: \"What is the very first event the story shows us, and what is the very first event that happened chronologically?\" Notice the gap.",
-     "Then trace how the narrator moves from the Havana disaster (present frame) to Vienna (first flashback), then to Barcelona (second flashback), then"
+     "Trace 'I Sell My Dreams' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -220,20 +216,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the five distinct geographical settings in \"I Sell My Dreams\" in chronological order of the narrator's experience (not story order).",
     "answer": "Vienna (first meeting, 34 years ago) → Havana (opening disaster, present) → Barcelona (meeting with Neruda, 13 years after Vienna) → Oporto (Frau Frieda's retirement",
     "options": [
-     "The author is Gabriel Garcia Marquez, a Colombian novelist, short-story writer, and journalist who won the Nobel Prize in Literature in 1982",
-     "Frau Frieda literally means that her occupation is interpreting dreams for a Viennese family in exchange for room, board, and a salary",
+     "The student must be able to identify and explain at least three distinct instances of irony (situational, dramatic",
+     "Imagery is the use of vivid, sensory language that appeals to the five senses (visual, auditory, tactile, olfactory",
      "Vienna (first meeting, 34 years ago) → Havana (opening disaster, present) → Barcelona (meeting with Neruda, 13 years after Vienna) → Oporto (Frau Frieda's retirement"
     ],
-    "hint": "Straight from the 'Setting in \"I Sell My Dreams\"' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'I Sell My' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student cannot distinguish narrative time (flashbacks) from story time, or misses Oporto as a setting because it's only described in dialogue, not visited.",
     "id": "gen_c12_eng_k_ch01_q3",
     "nodeId": "c12_eng_k_cbse_01_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're describing a place that feels \"haunted\" without using that word — you'd mention cold air, flickering lights, silence.",
-     "That's atmosphere built through setting.",
-     "Start by listing every location the narrator mentions: Havana hotel terrace, Vienna tavern and patron's house, Barcelona bookstores and Ramblas,",
-     "For each, underline three sensory details (sight/sound/smell/touch)."
+     "Identify where and when 'I Sell My Dreams' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -304,10 +297,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective trying to solve a mystery: is Frau Frieda a genuine mystic or a brilliant con artist?",
-     "Start by listing every detail the text gives about her — her Colombian origin, the Germanic nickname \"Frau Frieda\", the serpent ring, her",
-     "Notice how Marquez never confirms her powers — the narrator calls her dreams a \"stratagem for surviving\" while the ambassador admires her",
-     "Your analysis must hold this ambiguity: collect evidence for both readings, then argue which interpretation the text supports more strongly, using"
+     "Pick the central figure in 'I Sell My Dreams' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -367,10 +357,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're at a family wedding and notice a relative who barely speaks but everyone consults before making decisions — that's Frau Frieda in the",
-     "Start by listing every character who isn't the narrator.",
-     "For each, ask: What do they want?",
-     "How do they treat the narrator?"
+     "Spot the secondary figures in 'I Sell My Dreams' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -419,10 +406,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're telling a friend about a movie where a character claims to predict the future through dreams — you'd naturally ask: \"But did the",
-     "Start by rereading the two pivotal breakfast scenes: the Viennese family hanging on Frau Frieda's every dream-interpretation (paragraphs 4-5), and",
-     "Notice how Marquez never confirms whether her dreams are genuinely prophetic; he only shows their *consequences*.",
-     "The theme emerges from that deliberate ambiguity: humans crave narrative control over uncertainty, and we surrender agency to anyone who offers a"
+     "Ask what 'I Sell My Dreams' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -482,9 +466,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film where the main plot is a heist, but you keep noticing scenes about a father-daughter relationship, a character's",
-     "Similarly, in \"I Sell My Dreams,\" the primary theme is Frau Frieda selling dreams to survive, but Márquez weaves in other ideas: the Viennese",
-     "To find them, re-read the text marking passages that feel significant but aren't about the dream-trade itself — then ask: \"What human concern is this"
+     "Look beneath the main theme of 'I Sell My Dreams' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -533,10 +515,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing the Havana Riviera disaster to a friend who hasn't read the story — you'd instinctively reach for the \"huge wave,\"",
-     "Start by reading the text with a highlighter: use one colour for every phrase that makes you see, hear, feel, smell, or taste something (imagery);",
-     "For each highlighted segment, ask: \"Which sense?",
-     "What two things are equated?"
+     "Find the lines in 'I Sell My Dreams' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -596,31 +575,67 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are telling a friend about a \"lucky charm\" that failed you right when you needed it most — that gap between what you believed and what",
-     "In \"I Sell My Dreams,\" start by listing every moment where a character's belief clashes with the outcome: Frau Frieda's prophetic authority vs.",
-     "\"She dreamed,\" Neruda's dismissal of prophecy vs. his own dream.",
-     "Then trace the serpent ring from Vienna to Havana — notice how its meaning shifts from exotic accessory to identifier of a life built on dreams."
+     "Look in 'I Sell My Dreams' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
-    "type": "mcq",
-    "question": "REMEMBER: List the six phrases under 'dream' and the five phrases under 'sell' given in the NCERT Language Work section (page 10-11 of the textbook). No explanation needed — just recall the exact phrases.",
-    "answer": "dream: dream on, dream something away, (not) dream of doing something, dream something up, look like a dream sell: sell-by date, selling-point, sell-out, selling price",
-    "options": [
-     "*Sample criteria for a good answer:* First-person voice; references \"beery euphoria,\" \"straitened circumstances,\" the specific warning (\"five years\")",
-     "The phrase means Frau Frieda consciously or unconsciously used her dream-telling as a calculated survival tool to gain security, control",
-     "dream: dream on, dream something away, (not) dream of doing something, dream something up, look like a dream sell: sell-by date, selling-point, sell-out, selling price"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify 10-15 key words/phrases from \"I",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the contextual meaning of each using",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between denotation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "use these words in original sentences",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student misses phrases or invents new ones (e.g., \"dream come true\"), they haven't done the basic textbook reading. This is a pure recall task — failure here means the student hasn't even opened the Language Work section.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify 10-15 key words/phrases from \"I Sell My Dreams\" that carry thematic weight, (2) explain",
     "id": "gen_c12_eng_k_ch01_q10",
     "nodeId": "c12_eng_k_cbse_01_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're reading a WhatsApp forward in Hindi-English: *\"Yaar, uska sapna toh sell-out ho gaya\"* — you instantly know 'sell-out' doesn't mean",
-     "That's vocabulary in context.",
-     "Now open \"I Sell My Dreams\" at the paragraph where Frau Frieda says *\"I sell my dreams.\"* Why 'sell'?",
-     "Why not 'tell' or 'share'?"
+     "Note the difficult or loaded words in 'I Sell My Dreams' — their meaning carries the text's precision."
     ]
    },
    {
@@ -628,20 +643,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the principle of end-focus in English sentence structure, and which position in a sentence typically receives the least emphasis according to the NCERT explanation?",
     "answer": "The principle of end-focus states that the most emphatic position in a sentence is its end, the next most emphatic is the beginning, and the least emphatic is the middle",
     "options": [
-     "The author is Gabriel Garcia Marquez, a Colombian novelist, short-story writer, and journalist who won the Nobel Prize in Literature in 1982",
-     "The framing device is the Havana Riviera Hotel disaster — a massive wave embedding a car in the hotel wall, revealing a dead woman with a serpent ring",
+     "Plot refers to the sequence of events as presented in the narrative, while narrative structure is the organizational framework that arranges these events",
+     "The student must be able to identify and explain at least three distinct instances of irony (situational, dramatic",
      "The principle of end-focus states that the most emphatic position in a sentence is its end, the next most emphatic is the beginning, and the least emphatic is the middle"
     ],
-    "hint": "Straight from the 'Emphasis in sentence structure' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'I Sell' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"beginning is most emphatic\" or \"all positions are equal\") reveals the student has not internalised the information-flow principle that underpins both literary analysis and effective writing — they will miss why authors delay key revelations to sentence ends.",
     "id": "gen_c12_eng_k_ch01_q11",
     "nodeId": "c12_eng_k_cbse_01_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're telling a friend about a car accident: \"A huge wave picked up a car and smashed it into the hotel\" vs.",
-     "\"Into the hotel smashed a car, picked up by a huge wave.\" Both convey the same event, but the second puts the dramatic crash at the end — where your",
-     "That's end-focus.",
-     "In \"I Sell My Dreams,\" Márquez opens with time and place (\"One morning at nine o'clock."
+     "Read 'I Sell My Dreams' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -649,20 +661,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the literal meaning of Frau Frieda's statement \"I sell my dreams\" as described in the story?",
     "answer": "Frau Frieda literally means that her occupation is interpreting dreams for a Viennese family in exchange for room, board, and a salary",
     "options": [
-     "\"Frau Frieda\" is a Germanic tongue-twister invented by the Latin American students because she never revealed her real name; \"Frau\" means \"Mrs",
-     "The four main supporting characters are: (1) Frau Frieda — the dream seller whose prophecies drive the plot and embody the theme of survival through superstition",
+     "The student can independently initiate and sustain a meaningful group discussion on the story's complex themes (e",
+     "Student can accurately answer literal questions by locating and quoting explicit textual evidence",
      "Frau Frieda literally means that her occupation is interpreting dreams for a Viennese family in exchange for room, board, and a salary"
     ],
-    "hint": "Straight from the 'Literal comprehension involves' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'I Sell' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"She sells dreams like merchandise\" or \"It's a metaphor for writing\") reveals the student confuses literal statement with figurative interpretation or misses the explicit exposition in the Vienna tavern scene.",
     "id": "gen_c12_eng_k_ch01_q12",
     "nodeId": "c12_eng_k_cbse_01_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective examining a case file: some facts are written in black and white (literal), but to solve the mystery you must read",
-     "Begin by reading the story once for the \"what happens\" — mark every explicit detail: names, places, actions, direct quotes.",
-     "Then re-read with a highlighter for gaps, contradictions, and patterns — like Frau Frieda's snake ring appearing in Vienna and Havana, or the",
-     "In magical realism, the boundary blurs, making this distinction your most powerful tool."
+     "Answer 'I Sell My Dreams' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -670,20 +679,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central symbol in \"I Sell My Dreams\" that connects the three main encounters (Vienna, Barcelona, Havana), and what does it represent?",
     "answer": "The central symbol is the gold serpent ring with emerald eyes. It represents the persistence of identity across time, the allure of mystery",
     "options": [
-     "The framing device is the Havana Riviera Hotel disaster — a massive wave embedding a car in the hotel wall, revealing a dead woman with a serpent ring",
-     "The four main supporting characters are: (1) Frau Frieda — the dream seller whose prophecies drive the plot and embody the theme of survival through superstition",
+     "Frau Frieda literally means that her occupation is interpreting dreams for a Viennese family in exchange for room, board, and a salary",
+     "The student can independently locate at least three distinct images and two metaphors in the story, name the sensory mode or the tenor/vehicle for each",
      "The central symbol is the gold serpent ring with emerald eyes. It represents the persistence of identity across time, the allure of mystery"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'I Sell My' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the ring represents evil\" or \"the ring is just jewelry\") reveals the student misses the structural role of the symbol in linking the three encounters and the thematic tension between evidence and belief.",
     "id": "gen_c12_eng_k_ch01_q13",
     "nodeId": "c12_eng_k_cbse_01_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you read a horoscope that says \"avoid travel today,\" so you cancel a trip — and later hear the train derailed.",
-     "Do you believe the horoscope predicted it, or that your fear made you notice the danger?",
-     "This story traps you in that same dilemma.",
-     "Begin by re-reading the three key encounters: the Vienna tavern (where Frau Frieda's dream saves the author), the Barcelona café (where Neruda"
+     "Analyse 'I Sell My Dreams' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -691,20 +698,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature?",
     "answer": "PEEL stands for Point (topic sentence stating the argument), Evidence (a quote or specific textual detail), Explanation (analysis of how the evidence supports the point)",
     "options": [
-     "Vienna (first meeting, 34 years ago) → Havana (opening disaster, present) → Barcelona (meeting with Neruda, 13 years after Vienna) → Oporto (Frau Frieda's retirement",
-     "\"Frau Frieda\" is a Germanic tongue-twister invented by the Latin American students because she never revealed her real name; \"Frau\" means \"Mrs",
+     "\"Before You Read: Context and Background\" is a preparatory section that provides essential information about the author, the literary movement, historical setting",
+     "The student must be able to write a structured 150-200 word character sketch of Frau Frieda using the PEEL method (Point, Evidence, Explanation",
      "PEEL stands for Point (topic sentence stating the argument), Evidence (a quote or specific textual detail), Explanation (analysis of how the evidence supports the point)"
     ],
-    "hint": "Straight from the 'Writing skills based on a literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'I Sell My' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Point, Example, Explain, Conclusion\" reveals the student confuses the final step — 'Link' requires thematic connection, not just summary.",
     "id": "gen_c12_eng_k_ch01_q14",
     "nodeId": "c12_eng_k_cbse_01_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you just finished reading *I Sell My Dreams* and your teacher asks: \"Write a paragraph explaining how the snake ring functions as a symbol.",
-     "It has emerald eyes.",
-     "It shows Frau Frieda's identity.\" This is a plot summary, not analysis.",
-     "To begin writing analytically, first identify the literary concept (symbolism), then locate two precise textual moments (the ring on Frau Frieda's"
+     "For written answers on 'I Sell My Dreams', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -764,11 +768,54 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_01_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a CUET interview panel discussing how literature blurs reality and fantasy — you need to speak confidently about Marquez's story",
-     "Begin by revisiting the story's central conflict: Frau Frieda's dream-selling as survival strategy versus the narrator's skeptical rationality.",
-     "First, identify three discussion-worthy themes from the text (e.g., the serpent ring as symbol, Neruda's poetic clairvoyance vs.",
-     "Frieda's prophetic dreams, the ambassador's final statement)."
+     "Talk through 'I Sell My Dreams' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify each supporting character's",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "write a structured PEEL-paragraph answer",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "analyze how their dialogue and actions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify each supporting character's distinct role, motivation, and relationship to",
+    "id": "gen_c12_eng_k_ch01_q16",
+    "nodeId": "c12_eng_k_cbse_01_005",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -812,7 +859,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer merely summarizes the three meetings without showing how they *progress* from belief → challenge → synthesis.",
-    "id": "gen_c12_eng_k_ch01_q16",
+    "id": "gen_c12_eng_k_ch01_q17",
     "nodeId": "c12_eng_k_cbse_01_006",
     "difficulty": "advanced"
    },
@@ -825,23 +872,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Frau Frieda sells dreams as a commodity for survival; her dreams are transactional, specific, and controlling",
      "The first statement prepares the reader for a flexible form (not a rigid formula), while the second signals the specific mode: magical realism"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''I Sell My Dreams' — the context' slide -- match the key terms.",
     "misconception": "A student who treats them as separate unrelated facts misses how the textbook positions the story within both the short story tradition and a specific literary movement.",
-    "id": "gen_c12_eng_k_ch01_q17",
-    "nodeId": "c12_eng_k_cbse_01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "In your own words, explain what \"magical realism\" means and give one example from the story's description in the textbook introduction.",
-    "answer": "Magical realism is a narrative style where magical elements are presented as a natural part of an otherwise realistic setting",
-    "options": [
-     "Structural hierarchy (narrative order): 1. Outer frame: Havana disaster (present, ~1970s) 2. First flashback: Vienna (1930s, 34 years earlier) 3",
-     "The \"fake castle\" symbolizes Frau Frieda's constructed identity (false name, invented persona) and her supernatural reach",
-     "Magical realism is a narrative style where magical elements are presented as a natural part of an otherwise realistic setting"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that defines it as pure fantasy or science fiction shows the student misses the crucial \"reality blended with magic\" aspect, leading to misinterpretation of events like Frau Frieda's dreams.",
     "id": "gen_c12_eng_k_ch01_q18",
     "nodeId": "c12_eng_k_cbse_01_001",
     "difficulty": "standard"
@@ -849,23 +881,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'i sell my dreams' — the context and background to t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'I Sell My Dreams' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch02",
-  "title": "Before You Read: Context and Background",
+  "title": "'Eveline' — The Context And Background To This",
   "subtitle": "English · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch2: Before You Read: Context and Background"],
+  "topic": "'Eveline' — The Context And Background To This Text",
+  "chapters": [
+   "English Ch2: 'Eveline' — The Context And Background To This Text"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_02_001",
    "c12_eng_k_cbse_02_002",
@@ -890,103 +924,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'Eveline' — The Context And more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" provides the essential historical, literary, and biographical framework needed to interpret James Joyce's"
+   "hook": "'Eveline' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" provides the essential historical, literary, and biographical framework needed to interpret James Joyce's short story \"Eveline,\" including the author's modernist innovations, the *Dubliners* collection's themes of",
+    "text": "'Eveline' (Kaleidoscope, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot is the sequence of events in a story organized into a causal chain (exposition, rising action, climax, falling action, resolution), while narrative structure refers to how the author arranges and presents those events through techniques like chronology,",
+    "title": "Plot/narrative Arc Of 'Eveline'",
+    "text": "The plot/narrative arc of 'Eveline' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting In Fiction",
-    "text": "Setting in fiction refers to the time, place, and social environment where a story occurs, while atmosphere is the emotional mood or feeling created by the writer through sensory details, imagery, and descriptive language.",
+    "title": "Setting Of 'Eveline'",
+    "text": "The setting of 'Eveline' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a modernist short story involves examining the central character's psychological depth, internal conflicts, motivations, and the narrative techniques (like stream of consciousness) used to portray their paralysis or",
+    "title": "Character Analysis In 'Eveline'",
+    "text": "Character analysis in 'Eveline' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining how secondary figures in a narrative — through their actions, dialogue, relationships, and symbolic functions — illuminate the protagonist's inner world, advance the plot, and reinforce the",
+    "title": "Supporting Characters In 'Eveline'",
+    "text": "Supporting characters in 'Eveline' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, and setting.",
+    "title": "Primary Theme Of 'Eveline'",
+    "text": "The primary theme of 'Eveline' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that support and enrich the primary theme of a literary work; in \"Eveline,\" they include paralysis of the will, the conflict between familial duty and personal freedom, the haunting power of the past, the fear of the",
+    "title": "Secondary Themes In 'Eveline'",
+    "text": "Secondary themes in 'Eveline' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create concrete mental pictures and physical sensations for the reader.",
+    "title": "Imagery In 'Eveline' — The Vivid",
+    "text": "Imagery in 'Eveline' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality — where what happens is the opposite of what is expected, or where a character's understanding differs from the reader's.",
+    "title": "Irony And Paradox In 'Eveline' — Where",
+    "text": "Irony and paradox in 'Eveline' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the meaning of unfamiliar words by analyzing the surrounding text — including synonyms, antonyms, examples, definitions, and the overall tone and situation — rather than relying solely on a dictionary.",
+    "title": "Key Vocabulary Of 'Eveline'",
+    "text": "Key vocabulary of 'Eveline' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Parallelism",
-    "text": "Parallelism is the use of matching grammatical structures (phrases, clauses, or word forms) to express ideas of equal importance, creating balance and rhythm in a sentence.",
+    "title": "Language And Style In 'Eveline'",
+    "text": "Language and style in 'Eveline' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated information from the text (facts, details, events), while inferential comprehension questions demand logical deductions based on textual evidence, context, and implied meaning —",
+    "title": "Literal Comprehension Of 'Eveline' —",
+    "text": "Literal comprehension of 'Eveline' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its surface meaning to interpret authorial choices, evaluate competing interpretations, and synthesize textual evidence into a coherent argument about themes, techniques, and cultural",
+    "title": "Critical Thinking On 'Eveline' — Analysing",
+    "text": "Critical thinking on 'Eveline' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills",
-    "text": "Writing Skills: Based on the Chapter refers to the ability to compose structured, evidence-based responses — analytical paragraphs, creative pieces, and critical evaluations — that demonstrate deep engagement with the short story \"Eveline\" by James Joyce,",
+    "title": "Writing Skills From 'Eveline' — Using",
+    "text": "Writing skills from 'Eveline' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points for \"Eveline\" refers to structured oral activities where students collaboratively analyze, interpret, and debate the story's themes (duty vs.",
+    "title": "Discussion Points On 'Eveline' — Speaking",
+    "text": "Discussion points on 'Eveline' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -998,19 +1032,16 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "James Joyce wrote \"Eveline\"; it is one of fifteen stories in *Dubliners*, first published in 1914",
     "options": [
      "Situational irony occurs when events turn out opposite to what is expected. In \"Eveline,\" the central situational irony is that Eveline desperately wants to escape her oppressive",
-     "Setting is the spatiotemporal and social context of a narrative (when, where, and under what conditions the story takes place)",
+     "The student can identify at least two specific instances of irony and two symbols in \"Eveline,\" explain how each operates in the text with textual evidence",
      "James Joyce wrote \"Eveline\"; it is one of fifteen stories in *Dubliners*, first published in 1914"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Eveline' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming W.B. Yeats or *A Portrait of the Artist as a Young Man*) reveals the student has not retained basic bibliographic facts from the textbook introduction, which are essential for citing the text correctly in board answers.",
     "id": "gen_c12_eng_k_ch02_q1",
     "nodeId": "c12_eng_k_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're handed a century-old photograph of a young woman at a Dublin window — dusty curtains, fading light, a distant organ tune.",
-     "You wonder: *Why doesn't she just leave?* That question is exactly why context matters.",
-     "Before reading \"Eveline,\" we step into 1904 Dublin: a city trapped between Catholic conservatism, British colonialism, and economic stagnation.",
-     "We meet James Joyce, the 22-year-old exile who turned his hometown into a laboratory of modernist experimentation."
+     "Start with the author of 'Eveline', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -1059,10 +1090,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and the question asks: \"How does Joyce's narrative structure in 'Eveline' reflect the protagonist's inability",
-     "Begin by asking: \"What is the *present-time* frame of the story?\" (Answer: One evening — from sitting at the window to standing at the North Wall",
-     "Next, isolate every flashback: childhood games, mother's death, father's abuse, meeting Frank.",
-     "Notice they aren't separate scenes — they invade the present through sensory triggers (cretonne smell, street organ)."
+     "Trace 'Eveline' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -1111,10 +1139,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into your childhood bedroom at night when you're about to leave for college — the familiar smells, the creak of the floorboard, the",
-     "That mixture of comfort and suffocation is exactly what Joyce creates for Eveline.",
-     "Begin by asking: \"What does Eveline see, smell, hear, and feel while sitting at the window?\" List every sensory detail in the first three paragraphs.",
-     "Then ask: \"How does the avenue change from her memory (a field where children played) to the present (bright brick houses)?"
+     "Identify where and when 'Eveline' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -1122,21 +1147,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the name of the protagonist in James Joyce's \"Eveline,\" and what is her approximate age as stated in the text?",
     "answer": "The protagonist is Eveline Hill, and she is \"over nineteen\" years old",
     "options": [
-     "Situational irony occurs when events turn out opposite to what is expected. In \"Eveline,\" the central situational irony is that Eveline desperately wants to escape her oppressive",
-     "The five main types are: (1) Definition/Explanation — the text defines the word directly (e.g., \"cretonne, a heavy cotton fabric",
-     "The protagonist is Example, and she is \"over nineteen\" years old",
+     "The student can write a structured, evidence-based character analysis of Eveline that identifies her internal conflict between duty and escape",
+     "The student can (1) state the primary theme of \"Eveline\" in a precise thematic statement (not a single word)",
+     "The protagonist is Three, and she is \"over nineteen\" years old",
      "The protagonist is Eveline Hill, and she is \"over nineteen\" years old"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Eveline'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Frank or giving an incorrect age) reveals the student has not read the text closely or is confusing the protagonist with other characters. This is a basic recall failure that undermines all further analysis.",
     "id": "gen_c12_eng_k_ch02_q4",
     "nodeId": "c12_eng_k_cbse_02_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a Class 12 student who has just been offered a scholarship to a university in another city — but your aging parent relies on you, and",
-     "That's Eveline's dilemma.",
-     "To analyze her, start by listing every detail the text gives about her physical sensations (the dusty cretonne, the organ music, the cold cheek at",
-     "Then trace her memories: the field, her mother's deathbed, her father's violence, Frank's courtship."
+     "Pick the central figure in 'Eveline' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -1144,20 +1166,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the four supporting characters in 'Eveline' who most directly influence Eveline's decision at the dock, and state in one phrase each what they represent to her (e.g., 'Frank — escape').",
     "answer": "Frank — escape/hope; Father — duty/fear/entrapment; Mother (memory) — sacrifice/paralysis; Harry — absence/failed protection",
     "options": [
-     "James Joyce wrote \"Eveline\"; it is one of fifteen stories in *Dubliners*, first published in 1914",
-     "The protagonist is Eveline Hill, and she is \"over nineteen\" years old",
+     "The student can (1) identify parallel structures in sentences from the text and explain how they reinforce meaning, (2) rewrite non-parallel sentences into parallel form",
+     "Speaking and Listening: Discussion Points for \"Eveline\" refers to structured oral activities where students collaboratively analyze, interpret",
      "Frank — escape/hope; Father — duty/fear/entrapment; Mother (memory) — sacrifice/paralysis; Harry — absence/failed protection"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Eveline'' slide -- match the key terms.",
     "misconception": "A wrong answer that omits the mother's memory or includes minor characters like Miss Gavan reveals the student cannot distinguish between active psychological forces and background detail.",
     "id": "gen_c12_eng_k_ch02_q5",
     "nodeId": "c12_eng_k_cbse_02_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main actor stands frozen centre-stage while everyone else moves around her — that's Eveline.",
-     "To understand why she cannot move, you must study the people pulling her in different directions: her father's violence, Frank's promise of escape,",
-     "Start by listing every named character besides Eveline.",
-     "For each, ask: What does this character *represent* to Eveline?"
+     "Spot the secondary figures in 'Eveline' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -1206,10 +1225,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Eveline, sitting at that window, smelling the dusty cretonne, hearing the street organ play the same tune that played on your",
-     "You have a ticket to Buenos Aires in your pocket, a man who loves you waiting at the gangway — and you cannot move.",
-     "That \"why\" is the primary theme.",
-     "Begin by identifying the two opposing forces pulling Eveline: the promise to her dying mother (\"keep the home together as long as she could\") and the"
+     "Ask what 'Eveline' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -1218,40 +1234,65 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "A secondary theme is a recurring idea that supports the primary theme by adding layers of meaning",
     "options": [
      "\"The primary theme of 'Eveline' is the psychological paralysis that results from the conflict between a deeply internalized sense of filial duty and the individual's yearning for",
-     "Setting is the spatiotemporal and social context of a narrative (when, where, and under what conditions the story takes place)",
+     "The student can identify at least three secondary themes in \"Eveline,\" trace each theme through specific textual evidence (dialogue, imagery, narrative details)",
      "A secondary theme is a recurring idea that supports the primary theme by adding layers of meaning"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Eveline'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the theme is about a girl leaving home\") confuses plot with theme and shows the student cannot distinguish between what happens and what the story explores.",
     "id": "gen_c12_eng_k_ch02_q7",
     "nodeId": "c12_eng_k_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're packing a suitcase to leave home forever — what memories, fears, and obligations make you pause at the door?",
-     "That moment of hesitation is where secondary themes live.",
-     "Start by re-reading the story's opening and closing paragraphs: notice the \"odour of dusty cretonne\" and the final image of Eveline \"passive, like a",
-     "Next, list every moment Eveline weighs staying versus going (her mother's promise, her father's violence, Frank's offer, the street organ)."
+     "Look beneath the main theme of 'Eveline' for the recurring secondary ideas that give it layers."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define imagery and metaphor in your own words, giving one example of each from the opening paragraph of *Eveline*.",
-    "answer": "Imagery: “odour of dusty cretonne” (olfactory + tactile). Metaphor: “evening invade the avenue” (evening is implicitly compared to an invading army)",
-    "options": [
-     "Setting is the spatiotemporal and social context of a narrative (when, where, and under what conditions the story takes place)",
-     "James Joyce wrote \"Eveline\"; it is one of fifteen stories in *Dubliners*, first published in 1914",
-     "Imagery: “odour of dusty cretonne” (olfactory + tactile). Metaphor: “evening invade the avenue” (evening is implicitly compared to an invading army)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify specific instances of visual",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between literal description",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain how each device contributes",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
-    "misconception": "A wrong answer that says “imagery is just description” misses the sensory specificity; a wrong answer that calls “evening invade” a simile misses the absence of “like/as.”",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify specific instances of visual, olfactory, tactile, auditory, and kinesthetic",
     "id": "gen_c12_eng_k_ch02_q8",
     "nodeId": "c12_eng_k_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and the question reads: “How does Joyce use the image of ‘dusty cretonne’ and the metaphor of the sea to",
-     "Begin by re-reading the first paragraph slowly, highlighting every sensory word (odour, dusty, cretonne, head leaned, window curtains).",
-     "Ask: which sense does each word trigger?",
-     "Next, locate every reference to the sea or water (the evening *invade* the avenue, the *sea* tumbled about her heart, the boat’s *mournful whistle*)."
+     "Find the lines in 'Eveline' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -1259,20 +1300,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"Eveline\" where the outcome contradicts what Eveline (or the reader) expects.",
     "answer": "Situational irony occurs when events turn out opposite to what is expected. In \"Eveline,\" the central situational irony is that Eveline desperately wants to escape her oppressive",
     "options": [
-     "The story uses third-person limited narration with free indirect discourse. Unlike first-person (\"I decided to leave\")",
-     "Setting is the spatiotemporal and social context of a narrative (when, where, and under what conditions the story takes place)",
+     "The protagonist is Eveline Hill, and she is \"over nineteen\" years old",
+     "Irony in literature is a contrast between expectation and reality — where what happens is the opposite of what is expected",
      "Situational irony occurs when events turn out opposite to what is expected. In \"Eveline,\" the central situational irony is that Eveline desperately wants to escape her oppressive"
     ],
-    "hint": "Straight from the 'Irony in literature' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Eveline' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It's ironic that her father is mean\") shows the student confuses irony with mere misfortune or character traits, missing the structural contradiction between intention and outcome.",
     "id": "gen_c12_eng_k_ch02_q9",
     "nodeId": "c12_eng_k_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at a train station, ticket in hand, knowing this train will take you to a completely new life — but your feet won't move.",
-     "That's Eveline's moment at the North Wall.",
-     "To understand how Joyce makes this paralysis tangible, start by asking: \"What does Eveline *expect* will happen when she meets Frank?",
-     "For symbols, pick a concrete object she notices repeatedly (the window, the dust, the organ music) and ask: \"What does this *feel* like in her life?"
+     "Look in 'Eveline' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -1343,10 +1381,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"Eveline\" and hit the word \"cretonne\" in the first paragraph — you don't know it, but the sentence says \"odour of dusty",
-     "That's context clues in action.",
-     "Start by reading the paragraph *around* the word, not the word in isolation.",
-     "Ask: \"What situation is Eveline in?"
+     "Note the difficult or loaded words in 'Eveline' — their meaning carries the text's precision."
     ]
    },
    {
@@ -1395,10 +1430,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are writing a formal email listing three tasks: \"I need to finish the report, reviewing the data, and to send the email.",
-     "That is a parallelism error.",
-     "In \"Eveline,\" Joyce uses parallelism deliberately to contrast Eveline's dull present with her imagined future, or to show her internal conflict.",
-     "We will start by hunting for the \"equal grammatical form\" pattern in the sentences NCERT highlights."
+     "Read 'Eveline' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -1447,10 +1479,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a WhatsApp message from a friend: \"I'm at the station, train left.",
-     "Will they take the next one?",
-     "Did they do it on purpose?",
-     "In \"Eveline,\" Joyce gives us the \"messages\" — dusty cretonne, a sailor named Frank, a promise to a dying mother — but never explicitly says \"Eveline"
+     "Answer 'Eveline' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -1510,10 +1539,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing at a railway station, ticket in hand, about to board a train that will take you to a new life in another city — but your",
-     "That physical freeze is exactly what Eveline experiences at the North Wall.",
-     "Start by asking: *Why does Joyce spend so much time on the \"odour of dusty cretonne\" at the start and again near the end?",
-     "Next, trace how the narrative slides between third-person narration and Eveline's own thoughts (free indirect discourse) — notice phrases like \"She"
+     "Analyse 'Eveline' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -1584,10 +1611,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_02_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE Board exam and see this question: \"How does Joyce use the symbol of the window to reveal Eveline's paralysis?",
-     "Start by identifying the core demand: \"symbol of window\" + \"reveal paralysis\".",
-     "Next, hunt for two precise textual moments: the opening \"head leaned against the window curtains.",
-     "Now structure: Point — window frames her entrapment; Evidence — quote the dusty cretonne; Explanation — the repetition shows time standing still, the"
+     "For written answers on 'Eveline', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -1595,21 +1619,64 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the two discussion questions given in the NCERT \"Talking about the Text\" section for *Eveline*.",
     "answer": "The two questions are: 1) \"Deciding between filial duty and the right to personal happiness is problematic",
     "options": [
-     "The five main types are: (1) Definition/Explanation — the text defines the word directly (e.g., \"cretonne, a heavy cotton fabric",
-     "\"The primary theme of 'Eveline' is the psychological paralysis that results from the conflict between a deeply internalized sense of filial duty and the individual's yearning for",
+     "Students believe \"writing skills\" for literature means memorising sample answers for predicted questions",
+     "The student can independently map the five stages of Freytag's pyramid onto \"Eveline,\" identify at least three narrative techniques (e",
      "The two questions are: 1) \"Deciding between filial duty and the right to personal happiness is problematic"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Eveline' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., recalling plot questions like \"Why did Eveline stay?\") reveals the student hasn't distinguished between comprehension questions and discussion prompts designed for oral exploration.",
     "id": "gen_c12_eng_k_ch02_q15",
     "nodeId": "c12_eng_k_cbse_02_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're at a family dinner where everyone disagrees about a major life decision — like moving abroad for a job.",
-     "How do you express your view while truly listening to others?",
-     "That's exactly Eveline's dilemma: stay in a stifling but familiar Dublin life, or escape with Frank to Buenos Aires.",
-     "Begin by identifying discussion-worthy questions from the text (e.g., \"Was Eveline right to let go of the opportunity to escape?\")."
+     "Talk through 'Eveline' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze how sensory imagery",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "identify at least four distinct settings",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "articulate how the physical settings",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify at least four distinct settings in the story and explain how each contributes to the",
+    "id": "gen_c12_eng_k_ch02_q16",
+    "nodeId": "c12_eng_k_cbse_02_003",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -1664,31 +1731,31 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer names the conflict (\"She felt torn between duty and freedom\") or uses generic descriptions without sensory specificity (\"The room was messy and sad\"). This tests whether the student can apply the \"show, don't tell\" principle central to Joyce's technique.",
-    "id": "gen_c12_eng_k_ch02_q16",
+    "id": "gen_c12_eng_k_ch02_q17",
     "nodeId": "c12_eng_k_cbse_02_003",
     "difficulty": "advanced"
    },
    {
     "type": "order",
-    "question": "Evaluate this student's answer: \"The word 'quay' in 'lying in beside the quay wall' means 'shore' because the boat is near land.\" Is this accurate? What is missing for a full-mark response in a CBSE board exam?",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "identify clue type",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "give precise definition",
+      "label": "trace how the theme develops through",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
-      "id": "s2",
-      "label": "link to theme",
+      "id": "s1",
+      "label": "explain how Joyce uses the ending to convey",
       "emoji": "📌",
       "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "state the primary theme of \"Eveline\"",
+      "emoji": "📌",
+      "correctBin": "o0"
      }
     ],
     "bins": [
@@ -1709,77 +1776,33 @@ export const C12_ENG_K_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Partially accurate but incomplete. \"Quay\" = a stone/metal platform along a shore for loading ships (more precise than",
-    "id": "gen_c12_eng_k_ch02_q17",
-    "nodeId": "c12_eng_k_cbse_02_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Judge whether Eveline's final passivity — \"She set her white face to him, passive, like a helpless animal\" — is a failure of courage or a conscious choice of duty. Support your evaluation with evidence.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "The simile \"like a helpless animal\"",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "She prays \"to God to direct her",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "The organ music triggers the specific memory",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer that calls it \"weakness\" imposes a modern feminist reading that ignores the story's historical context: for a 1904 Dublin woman, duty to a dead mother's vow was a sacred obligation, not a social convenience.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the primary theme of \"Eveline\" in a precise thematic statement (not a single word), (2) trace",
     "id": "gen_c12_eng_k_ch02_q18",
-    "nodeId": "c12_eng_k_cbse_02_013",
+    "nodeId": "c12_eng_k_cbse_02_006",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'eveline' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Eveline' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch03",
-  "title": "Before You Read: Context and Background",
+  "title": "'A Wedding In Brownsville'",
   "subtitle": "English · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch3: Before You Read: Context and Background"],
+  "topic": "'A Wedding In Brownsville'",
+  "chapters": [
+   "English Ch3: 'A Wedding In Brownsville'"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_03_001",
    "c12_eng_k_cbse_03_002",
@@ -1804,103 +1827,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Before You Read: Context and outside the classroom?",
+   "question": "Quick guess -- where do you meet 'A Wedding In Brownsville' outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory section that provides the historical, cultural, biographical, and literary framework"
+   "hook": "'A Wedding in Brownsville' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory section that provides the historical, cultural, biographical, and literary framework necessary to understand a text before engaging with its narrative.",
+    "title": "'A Wedding In Brownsville'",
+    "text": "'A Wedding in Brownsville' (Kaleidoscope, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot is the sequence of causally connected events that form the story's backbone, while narrative structure refers to how the author arranges those events in time and perspective — including chronological order, flashbacks, parallel strands, and the framing",
+    "title": "Plot/narrative Arc Of 'A Wedding",
+    "text": "The plot/narrative arc of 'A Wedding in Brownsville' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting is the time, place, and social environment in which a story occurs; atmosphere is the emotional mood or feeling created by the writer's descriptive details, imagery, and sensory language that envelops the reader and shapes their response to the",
+    "title": "Setting Of 'A Wedding",
+    "text": "The setting of 'A Wedding in Brownsville' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of a Protagonist Involves",
-    "text": "Character analysis of a protagonist involves examining the central character's traits, motivations, conflicts, development, and role in advancing the story's themes through evidence from the text — including physical description, dialogue, internal thoughts,",
+    "title": "Character Analysis In 'A Wedding",
+    "text": "Character analysis in 'A Wedding in Brownsville' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis: Supporting Characters",
-    "text": "Supporting characters in \"A Wedding in Brownsville\" are the secondary figures — Gretl, Abraham Mekheles, Raizel, the Senciminer/Tereshpoler guests, the taxi driver, and the wedding functionaries — who surround Dr.",
+    "title": "Supporting Characters In 'A Wedding",
+    "text": "Supporting characters in 'A Wedding in Brownsville' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, and setting; the message is the specific moral, philosophical, or emotional conclusion the reader derives",
+    "title": "Primary Theme Of 'A Wedding",
+    "text": "The primary theme of 'A Wedding in Brownsville' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subsidiary ideas or motifs that support, complicate, or run parallel to the primary theme of a literary work. They emerge through subplots, character interactions, setting details, and recurring symbols, enriching the text’s thematic",
+    "title": "Secondary Themes In 'A Wedding",
+    "text": "Secondary themes in 'A Wedding in Brownsville' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create concrete mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'A Wedding In Brownsville'",
+    "text": "Imagery in 'A Wedding in Brownsville' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'A Wedding",
+    "text": "Irony and paradox in 'A Wedding in Brownsville' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining a word's precise meaning, connotation, and thematic function by analyzing how it is used within the specific cultural, historical, emotional, and narrative environment of the text, rather than relying solely",
+    "title": "Key Vocabulary Of 'A Wedding",
+    "text": "Key vocabulary of 'A Wedding in Brownsville' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Language Usage In a Literary Text",
-    "text": "Language usage in a literary text refers to the author's deliberate choices in sentence structure, length, pattern, and word-level phonology (stress, rhythm) to create specific effects such as pacing, emphasis, tone, and readability.",
+    "title": "Language And Style In 'A Wedding",
+    "text": "Language and style in 'A Wedding in Brownsville' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the text (who, what, where, when). Inferential comprehension questions require drawing logical conclusions by connecting implicit clues, context, and prior knowledge (why,",
+    "title": "Literal Comprehension Of 'A Wedding",
+    "text": "Literal comprehension of 'A Wedding in Brownsville' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves moving beyond literal comprehension to examine how narrative techniques, symbolism, and historical context shape meaning; it requires evaluating the author's choices, interpreting ambiguity, and constructing",
+    "title": "Critical Thinking On 'A Wedding",
+    "text": "Critical thinking on 'A Wedding in Brownsville' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on \"A Wedding in Brownsville\" refers to the ability to construct structured, evidence-based analytical responses about the story's themes (Holocaust trauma, memory, identity, surrealism), characterisation (Dr Margolin's psychological",
+    "title": "Writing Skills From 'A Wedding",
+    "text": "Writing skills from 'A Wedding in Brownsville' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured group conversation activities where students articulate interpretations of the text, support views with textual evidence, actively listen to peers, and collaboratively explore themes, character",
+    "title": "Discussion Points On 'A Wedding",
+    "text": "Discussion points on 'A Wedding in Brownsville' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -1952,10 +1975,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a film set in 1940s Kolkata during the famine — you'd need to know about the war, colonial policy, and Bengali culture",
-     "Similarly, before reading \"A Wedding in Brownsville,\" we must first \"enter the world\" of the story.",
-     "Start by reading the author bio in the textbook: note Singer wrote in Yiddish, survived the Holocaust by emigrating, and won the Nobel Prize.",
-     "Next, research the historical backbone: the destruction of shtetls like Sencimin, the displacement of survivors to places like Brownsville, Brooklyn."
+     "Start with the author of 'A Wedding in Brownsville', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -2004,10 +2024,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film that starts at a chaotic wedding, keeps cutting to black-and-white memories of a Polish shtetl, and ends in a white",
-     "That's this story's structure.",
-     "Begin by asking: \"Where does the 'real' story happen — in the wedding hall, in Margolin's memories, or in that final chapel scene?",
-     "Second, mark each shift with a sticky note: P for present, M for memory, S for surreal."
+     "Trace 'A Wedding in Brownsville' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -2067,10 +2084,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film where the lighting, background music, and weather change to signal what the character is feeling inside — that's",
-     "In \"A Wedding in Brownsville,\" Singer doesn't just tell us Dr.",
-     "Margolin is haunted; he makes us feel the grey snow, the taxi's icy gusts smelling of gasoline and sea, the wedding hall's \"amalgam of odours:",
-     "Then, for each place, underline every sensory word — what is seen, heard, smelled, felt."
+     "Identify where and when 'A Wedding in Brownsville' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -2078,62 +2092,115 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is Dr. Margolin's profession and what is his professional reputation in New York?",
     "answer": "Dr. Margolin is a doctor with an office on West End Avenue, wealthy patients, and respect from colleagues; he is an important figure in Jewish circles",
     "options": [
-     "Imagery: sensory language creating mental pictures (e.g., \"The New York streets sprawled out, wet, dirty, impenetrably dark\" — visual/tactile)",
-     "PEEL stands for: P — Point (topic sentence answering the question directly, e.g., \"Singer uses surrealism to externalise Dr Margolin's unresolved Holocaust trauma\")",
+     "The student can independently explain how the Holocaust and Jewish diaspora shape the story's setting and characters, summarize Singer's biographical relevance",
+     "Plot is the sequence of causally connected events that form the story's backbone, while narrative structure refers to how the author arranges those events in time and perspective",
      "Dr. Margolin is a doctor with an office on West End Avenue, wealthy patients, and respect from colleagues; he is an important figure in Jewish circles"
     ],
-    "hint": "Straight from the 'Character analysis of a' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'A Wedding' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he is a rabbi\" or \"he is unemployed\") reveals the student has not distinguished between his religious/cultural roles and his actual profession, or has missed the explicit textual evidence in the early paragraphs.",
     "id": "gen_c12_eng_k_ch03_q4",
     "nodeId": "c12_eng_k_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a detective trying to understand a person who says one thing but feels another — Dr.",
-     "Margolin calls himself an agnostic yet attends Seders, claims success but feels like a failure.",
-     "Start by listing every direct description the narrator gives (appearance, profession, background).",
-     "Then trace his internal monologue: what does he think about while shaving, in the taxi, at the wedding?"
+     "Pick the central figure in 'A Wedding in Brownsville' — track their actions, words and choices to see who they really are."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name three supporting characters in \"A Wedding in Brownsville\" and state one key detail about each from the text.",
-    "answer": "Gretl (Margolin's wife, former Berlin nurse, does all housework herself, has burial plot beside him), Abraham Mekheles (bride's father, Landsman from Sencimin",
-    "options": [
-     "The three layers are: (1) Present reality — the wedding night in Brownsville, marked by \"Dr Solomon Margolin took a last look in the mirror and left the house\" (para 25)",
-     "A secondary theme is a supporting idea that runs alongside the main theme, developed through subplots, characters, or symbols, and adds depth to the central message",
-     "Gretl (Margolin's wife, former Berlin nurse, does all housework herself, has burial plot beside him), Abraham Mekheles (bride's father, Landsman from Sencimin"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace how their dialogue and actions advance",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "write a structured PEEL-paragraph analysis",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "identify each supporting character's",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Supporting characters in \"A' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only the protagonist or gives vague descriptions like \"the wife\" without textual details shows the student hasn't distinguished supporting characters or anchored them in specific textual evidence.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify each supporting character's distinct role in reflecting Margolin's internal conflict, (2)",
     "id": "gen_c12_eng_k_ch03_q5",
     "nodeId": "c12_eng_k_cbse_03_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're at a family wedding where every relative reminds you of a past you've tried to forget — that's Dr.",
-     "Margolin's experience.",
-     "Begin by listing every named character besides Margolin.",
-     "For each, ask: What does this person represent to Margolin?"
+     "Spot the secondary figures in 'A Wedding in Brownsville' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the primary theme of \"A Wedding in Brownsville\" in one complete thematic sentence (not a single word like \"trauma\" or \"memory\").",
-    "answer": "The primary theme is the inescapable psychological devastation of Holocaust survivors, where the boundary between life and death dissolves because the past trauma remains more",
-    "options": [
-     "The four structures are: Simple (one independent clause), Compound (two+ independent clauses joined by coordinating conjunctions FANBOYS — for, and, nor, but, or, yet, so",
-     "A secondary theme is a supporting idea that runs alongside the main theme, developed through subplots, characters, or symbols, and adds depth to the central message",
-     "The primary theme is the inescapable psychological devastation of Holocaust survivors, where the boundary between life and death dissolves because the past trauma remains more"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "articulate the primary theme in a precise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how the surreal ending reinforces",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "trace its development across at least three",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals misunderstanding: If a student writes \"The theme is the Holocaust\" or \"The theme is memory,\" they confuse *topic* with *theme*. A theme must be a complete insight about the topic. \"Memory\" is a topic; \"Memory refuses to stay in the past and colonizes the present\" is a theme.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) articulate the primary theme in a precise thematic statement (not a one-word topic),",
     "id": "gen_c12_eng_k_ch03_q6",
     "nodeId": "c12_eng_k_cbse_03_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a therapist listening to Dr.",
-     "Margolin's recurring nightmare: a wedding where the dead dance, the food is poison, and your lost love appears unchanged by time.",
-     "That nightmare *is* the story.",
-     "Begin by asking: \"What is the one thing Dr."
+     "Ask what 'A Wedding in Brownsville' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -2141,20 +2208,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"secondary theme\" in your own words and give one example from any story you have studied previously.",
     "answer": "A secondary theme is a supporting idea that runs alongside the main theme, developed through subplots, characters, or symbols, and adds depth to the central message",
     "options": [
-     "Isaac Bashevis Singer (1902–1991) was a Polish-born Jewish American writer who wrote in Yiddish. Key facts: (1) He was born in Poland to a rabbinical family and educated at the",
-     "The three layers are: (1) Present reality — the wedding night in Brownsville, marked by \"Dr Solomon Margolin took a last look in the mirror and left the house\" (para 25)",
+     "\"Before You Read: Context and Background\" is a preparatory section that provides the historical, cultural, biographical",
+     "The student can identify at least three distinct types of irony (situational, dramatic, verbal) and three major symbols in the story",
      "A secondary theme is a supporting idea that runs alongside the main theme, developed through subplots, characters, or symbols, and adds depth to the central message"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'A Wedding' slide -- match the key terms.",
     "misconception": "A wrong answer that merely lists a plot event (e.g., \"the wedding is a secondary theme\") reveals the student confuses theme with topic or event.",
     "id": "gen_c12_eng_k_ch03_q7",
     "nodeId": "c12_eng_k_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you have just finished reading the story and feel the wedding chaos, the snowstorm, and the eerie encounter with Raizel are all pointing to",
-     "You ask: \"What other big ideas is Singer sneaking in alongside the obvious trauma story?",
-     "Group these observations into clusters (e.g., all references to corrupted rituals form one cluster; all references to Margolin’s body and death",
-     "For each cluster, draft a one-sentence thematic statement that captures a universal human concern."
+     "Look beneath the main theme of 'A Wedding in Brownsville' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -2225,10 +2289,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Dr Margolin sitting in that taxi crossing the East River: the sky \"red as glowing metal\", snow \"sifting down gently\", the smell of",
-     "That is imagery — it puts you *inside* the character's body.",
-     "Now ask: why does the narrator say \"Wasn't the world, like this taxi, plunging away somewhere into the unknown toward a cosmic destination?",
-     "To master this node, start by reading the taxi scene (paragraphs 26–27) aloud."
+     "Find the lines in 'A Wedding in Brownsville' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -2277,10 +2338,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Dr.",
-     "Margolin: you reluctantly attend a wedding in a snowstorm, meet your long-dead beloved, and slowly realize the celebration might be your own funeral.",
-     "That sinking feeling — when the story pulls the rug from under your assumptions — is irony at work.",
-     "Begin by re-reading the taxi ride (pages 25-26) and the chapel scene (pages 32-34) with a highlighter."
+     "Look in 'A Wedding in Brownsville' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -2329,10 +2387,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the story and hit the phrase \"the Senciminers had reserved for themselves\" — you know \"reserved\" but \"Senciminers\" stops you.",
-     "Don't reach for a dictionary yet.",
-     "First, ask: what does the surrounding paragraph tell me?",
-     "(They are a group with a cemetery plot, they come from a destroyed town, they survive camps."
+     "Note the difficult or loaded words in 'A Wedding in Brownsville' — their meaning carries the text's precision."
     ]
    },
    {
@@ -2340,20 +2395,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the four sentence structures classified in English grammar, and which coordinating conjunctions join independent clauses in a compound sentence?",
     "answer": "The four structures are: Simple (one independent clause), Compound (two+ independent clauses joined by coordinating conjunctions FANBOYS — for, and, nor, but, or, yet, so",
     "options": [
-     "Gretl (Margolin's wife, former Berlin nurse, does all housework herself, has burial plot beside him), Abraham Mekheles (bride's father, Landsman from Sencimin",
-     "The four settings are: (1) Dr. Margolin's apartment on the sixteenth floor (Central Park area), (2) the taxi ride",
+     "The student must be able to (1) classify sentences in a given passage by structure (simple, compound, complex, compound-complex) and by length variation",
+     "The student can independently write a 150-200 word analytical answer on any theme/character/device from the story using: (1) a clear topic sentence",
      "The four structures are: Simple (one independent clause), Compound (two+ independent clauses joined by coordinating conjunctions FANBOYS — for, and, nor, but, or, yet, so"
     ],
-    "hint": "Straight from the 'Language usage in a literary text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'A Wedding' slide -- match the key terms.",
     "misconception": "A wrong answer listing \"complex-compound\" as a fifth type or naming \"because\" as a coordinating conjunction reveals confusion between coordination and subordination — a fatal error in board exam sentence-transformation questions.",
     "id": "gen_c12_eng_k_ch03_q11",
     "nodeId": "c12_eng_k_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine reading a paragraph where every sentence is 10 words long and follows Subject-Verb-Object order — it feels robotic, like a heartbeat that",
-     "Now open your textbook to the paragraph starting \"Usually after breakfast on Sunday...\" (page 36).",
-     "Notice how sentence 1 stretches to 25 words with a compound structure, while sentence 2 snaps at 7 words — that jolt mimics Dr Margolin's sudden",
-     "Step 1: Number each sentence."
+     "Read 'A Wedding in Brownsville' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -2365,16 +2417,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The contrast reveals a fracture between assimilation and preservation. Margolin, educated and integrated, sees the community's rituals as hollow performances — \"a mess",
      "A literal question asks for information directly stated in the text (e.g., \"Where does the wedding take place?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'A' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"literal is easy, inferential is hard\" reveals the student confuses difficulty with cognitive process — the distinction is about textual explicitness, not complexity.",
     "id": "gen_c12_eng_k_ch03_q12",
     "nodeId": "c12_eng_k_cbse_03_012",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're reading a WhatsApp forward about a wedding disaster — you instantly pick out facts (venue, time) and guess causes (why the fight",
-     "That's literal vs. inferential reading.",
-     "Start by reading the question stem: does it ask \"What does the text say?\" (literal) or \"What does the text suggest?\" (inferential).",
-     "For literal questions, scan for keywords (names, places, numbers)."
+     "Answer 'A Wedding in Brownsville' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -2423,10 +2472,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a psychologist listening to a Holocaust survivor describe a vivid experience at a wedding where his long-dead beloved suddenly",
-     "How would you distinguish between a grief-induced hallucination, a supernatural visitation, and the narrative representation of survivor's guilt?",
-     "Begin by identifying the textual clues that blur reality and illusion: the taxi ride through unrecognizable streets, the wedding hall that feels both",
-     "Then trace how Singer uses surrealist techniques — disjointed chronology, sensory overload, the protagonist's cardiac arrest foreshadowing — to"
+     "Analyse 'A Wedding in Brownsville' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -2486,10 +2533,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_03_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE exam hall facing a 6-mark question: \"How does Singer use surrealism to portray Dr Margolin's Holocaust trauma?",
-     "Start by identifying the core demand: \"surrealism\" + \"trauma portrayal.\" Next, hunt for two precise textual moments — the taxi ride's cosmic",
-     "Now apply PEEL: Point — Singer blurs reality to externalise internal trauma.",
-     "Evidence — quote the taxi metaphor and the pulse check."
+     "For written answers on 'A Wedding in Brownsville', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -2497,20 +2541,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two discussion topics explicitly given in the NCERT \"Talking about the Text\" section for this story?",
     "answer": "The two topics are: (1) Fiction often deals with human consciousness, rather than with the reality of existence. (2) The ways in which survivors of holocausts deal with life",
     "options": [
-     "Isaac Bashevis Singer (1902–1991) was a Polish-born Jewish American writer who wrote in Yiddish. Key facts: (1) He was born in Poland to a rabbinical family and educated at the",
-     "The three layers are: (1) Present reality — the wedding night in Brownsville, marked by \"Dr Solomon Margolin took a last look in the mirror and left the house\" (para 25)",
+     "The student can independently explain how the Holocaust and Jewish diaspora shape the story's setting and characters, summarize Singer's biographical relevance",
+     "The student can independently map the story's events onto a three-layer timeline (present wedding, remembered past, surreal climax)",
      "The two topics are: (1) Fiction often deals with human consciousness, rather than with the reality of existence. (2) The ways in which survivors of holocausts deal with life"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'A Wedding' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing themes like \"love\" or \"identity\") reveals the student has not distinguished between thematic analysis and the specific discussion prompts set by the board.",
     "id": "gen_c12_eng_k_ch03_q15",
     "nodeId": "c12_eng_k_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a book club meeting about this story.",
-     "You have read it, but now you need to voice your thoughts and hear others.",
-     "Begin by re-reading the two \"Talking about the Text\" prompts.",
-     "Mark three passages that relate to each prompt — for example, Dr."
+     "Talk through 'A Wedding in Brownsville' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -2629,31 +2670,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
    },
    {
     "type": "order",
-    "question": "Analyse how Singer's narrative perspective shifts in the final section (chapel scene) and evaluate the effect of this shift on the reader's understanding of Margolin's psychological state.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "The marker",
+      "label": "identify and categorize specific instances",
       "emoji": "📌",
-      "correctBin": "o1"
+      "correctBin": "o0"
      },
      {
       "id": "s1",
-      "label": "The peak",
+      "label": "distinguish between extended metaphors",
       "emoji": "📌",
       "correctBin": "o2"
      },
      {
       "id": "s2",
-      "label": "The effect",
+      "label": "explain how each image functions to",
       "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "The shift",
-      "emoji": "📌",
-      "correctBin": "o0"
+      "correctBin": "o1"
      }
     ],
     "bins": [
@@ -2671,39 +2706,36 @@ export const C12_ENG_K_GEN: SimDef[] = [
       "id": "o2",
       "label": "3rd",
       "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (1) The shift — narration moves from third-person limited through Margolin's perception to a destabilised mode where",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify and categorize specific instances of visual, auditory, olfactory, tactile, and",
     "id": "gen_c12_eng_k_ch03_q18",
-    "nodeId": "c12_eng_k_cbse_03_014",
+    "nodeId": "c12_eng_k_cbse_03_008",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'a wedding in brownsville'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'A Wedding In Brownsville' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch04",
-  "title": "Before You Read: Context and Background",
+  "title": "'Tomorrow' — The Context And Background To This",
   "subtitle": "English · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch4: Before You Read: Context and Background"],
+  "topic": "'Tomorrow' — The Context And Background To This Text",
+  "chapters": [
+   "English Ch4: 'Tomorrow' — The Context And Background To This Text"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_04_001",
    "c12_eng_k_cbse_04_002",
@@ -2728,103 +2760,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'Tomorrow' — The Context And in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" provides the historical, biographical, and literary framework necessary to interpret a text."
+   "hook": "'Tomorrow' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" provides the historical, biographical, and literary framework necessary to interpret a text. For \"Tomorrow\" by Joseph Conrad, this includes Conrad’s life as a Polish-British seafarer, the late 19th-century maritime",
+    "text": "'Tomorrow' (Kaleidoscope, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the organization of events in a story, including the sequence of incidents (exposition, rising action, climax, falling action, resolution) and the techniques used to present them (flashbacks, frame narratives, multiple",
+    "title": "Plot/narrative Arc Of 'Tomorrow'",
+    "text": "The plot/narrative arc of 'Tomorrow' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting In Literature",
-    "text": "Setting in literature refers to the time, place, and social environment in which a story unfolds, while atmosphere is the emotional tone or mood created by the setting, descriptive details, and narrative voice.",
+    "title": "Setting Of 'Tomorrow'",
+    "text": "The setting of 'Tomorrow' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's traits, motivations, conflicts, and development through textual evidence — appearance, dialogue, actions, inner thoughts, and relationships — to understand their role in",
+    "title": "Character Analysis In 'Tomorrow'",
+    "text": "Character analysis in 'Tomorrow' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters examines how secondary figures (Bessie Carvil, Old Carvil, Harry Hagberd, the Barber) function as foils, thematic mirrors, and plot catalysts that illuminate the protagonist's delusion and the story's central",
+    "title": "Supporting Characters In 'Tomorrow'",
+    "text": "Supporting characters in 'Tomorrow' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea — the universal truth about human experience that the author explores through plot, character, and setting.",
+    "title": "Primary Theme Of 'Tomorrow'",
+    "text": "The primary theme of 'Tomorrow' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that run parallel to the primary theme, enriching the narrative by exploring complementary aspects of human experience such as isolation, the illusion of control, the corrosive nature of delusion on relationships, and",
+    "title": "Secondary Themes In 'Tomorrow'",
+    "text": "Secondary themes in 'Tomorrow' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'Tomorrow' — The Vivid",
+    "text": "Imagery in 'Tomorrow' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality — what appears to be true differs from what is actually true. Symbolism is the use of objects, characters, or actions to represent abstract ideas or qualities beyond their literal meaning.",
+    "title": "Irony And Paradox In 'Tomorrow' — Where",
+    "text": "Irony and paradox in 'Tomorrow' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context refers to the skill of determining the precise meaning, connotation, and usage of unfamiliar or complex words by analyzing the surrounding textual clues — such as tone, imagery, syntax, character perspective, and thematic resonance —",
+    "title": "Key Vocabulary Of 'Tomorrow'",
+    "text": "Key vocabulary of 'Tomorrow' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the study of how an author employs grammatical structures, syntax, tense, voice, and figurative language to create meaning, characterize, and build atmosphere in a literary work.",
+    "title": "Language And Style In 'Tomorrow'",
+    "text": "Language and style in 'Tomorrow' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving facts, details, or sequences explicitly stated in the text (who, what, when, where). Inferential comprehension questions require drawing logical conclusions by combining textual clues with background",
+    "title": "Literal Comprehension Of 'Tomorrow' —",
+    "text": "Literal comprehension of 'Tomorrow' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its literal meaning to interpret themes, evaluate character motivations, analyze narrative techniques, and synthesize evidence from the text to form reasoned judgments about the author's",
+    "title": "Critical Thinking On 'Tomorrow' — Analysing",
+    "text": "Critical thinking on 'Tomorrow' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter \"Tomorrow\" involve the ability to compose structured analytical responses — character sketches, theme analyses, narrative technique evaluations, and critical appreciations — using textual evidence from Joseph Conrad's short",
+    "title": "Writing Skills From 'Tomorrow' — Using",
+    "text": "Writing skills from 'Tomorrow' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students articulate interpretations, debate thematic nuances, and collaboratively construct meaning from the text \"Tomorrow\" by Joseph Conrad, using",
+    "title": "Discussion Points On 'Tomorrow' — Speaking",
+    "text": "Discussion points on 'Tomorrow' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    }
@@ -2898,10 +2930,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_04_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you’re about to watch a film set on a 19th-century English coast — you’d want to know if the director was a sailor, because that changes how",
-     "Start by asking: *What does the author know that I don’t?* First, locate Conrad’s biography: Polish-born, learned English at 21, became a British",
-     "That explains the authentic maritime detail (sailcloth, tarred twine, \"eighty fathoms\").",
-     "Next, place the story in the 1890s: coastal towns like Colebrook were fading, sail was giving way to steam, and \"advertising in London papers\" for"
+     "Start with the author of 'Tomorrow', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -2909,20 +2938,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary narrative frame used in \"Tomorrow\" to convey Captain Hagberd's backstory?",
     "answer": "The primary narrative frame is the barber's monologue in the tap-room of the New Inn, where he recounts Captain Hagberd's arrival and history to a stranger",
     "options": [
-     "The primary physical setting is the little seaport of Colebrook, specifically the two adjoining yellow-brick cottages",
-     "Verbal irony occurs when a speaker says one thing but means the opposite, often to convey sarcasm or highlight a contradiction",
+     "The primary narrative tense is past tense. Shifts to internal thought are often signaled by free indirect discourse",
+     "The student can independently map the plot of \"Tomorrow\" onto a narrative arc diagram, identify at least three structural devices (e",
      "The primary narrative frame is the barber's monologue in the tap-room of the New Inn, where he recounts Captain Hagberd's arrival and history to a stranger"
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Tomorrow'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the story is told chronologically from Hagberd's perspective\") reveals the student has not distinguished between story-time and discourse-time, a fundamental structural concept.",
     "id": "gen_c12_eng_k_ch04_q2",
     "nodeId": "c12_eng_k_cbse_04_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film where the opening scene shows an old man digging his garden every day, muttering \"tomorrow.\" You wonder: why tomorrow?",
-     "The film then cuts to a barber telling a stranger the old man's history — that's a flashback inside a frame story.",
-     "As a Class 12 student, you start by asking: \"What is the chronological order of events versus the order Conrad presents them?",
-     "Then list them in the order they appear in the text (barber's narration, present-day interactions, Harry's arrival)."
+     "Trace 'Tomorrow' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -2971,10 +2997,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_04_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing on the sea-wall at Colebrook on a damp autumn evening: the rain drums on a sailcloth suit, a blind man roars for his",
-     "How does this place *feel*?",
-     "Begin by listing every concrete detail Conrad gives about the cottages, the harbour, the sea-wall, and the High Street.",
-     "Next, note the time markers: \"seven years before,\" \"three years ago,\" \"sixteen years\" since Harry left."
+     "Identify where and when 'Tomorrow' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -2982,20 +3005,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the single word Captain Hagberd repeats most often when referring to his son's return, and what does it signify about his perception of time?",
     "answer": "The word is \"tomorrow.\" It signifies that Hagberd lives in a perpetual future that never becomes present",
     "options": [
-     "Joseph Conrad (1857–1924) was a Polish-born British novelist who went to sea at 17, became a master mariner, and learned English in his 20s",
      "Verbal irony occurs when a speaker says one thing but means the opposite, often to convey sarcasm or highlight a contradiction",
+     "The primary device is symbolism — \"tomorrow\" functions as a symbol of Hagberd's delusional hope, transforming a temporal adverb into a psychological crutch",
      "The word is \"tomorrow.\" It signifies that Hagberd lives in a perpetual future that never becomes present"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Tomorrow'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"next month\" or \"soon\") shows the student has not noticed the textual shift from \"next month\" to \"tomorrow\" and misses the central motif of the story.",
     "id": "gen_c12_eng_k_ch04_q4",
     "nodeId": "c12_eng_k_cbse_04_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you meet a neighbor who insists a long-lost relative will arrive \"tomorrow\" — every single day for years.",
-     "How would you understand their mind?",
-     "Begin by listing every detail the story gives about Captain Hagberd: his sailcloth suit, white beard, daily digging, conversations with Bessie, the",
-     "Group these into categories: appearance, behavior, speech, backstory, and relationships."
+     "Pick the central figure in 'Tomorrow' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -3055,10 +3075,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_04_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main actor stands centre stage talking to an empty chair — the supporting characters are the ones who either",
-     "In \"Tomorrow,\" Bessie humours the captain, Old Carvil mirrors his tyranny in a different key, Harry arrives as the brutal reality check, and the",
-     "Start by listing each supporting character's key scenes, then ask: what does this character's response to Hagberd's \"tomorrow\" reveal about both of",
-     "Trace how Bessie moves from pity to complicity to awakening, how Carvil's blindness parallels Hagberd's, and how Harry's restlessness contrasts with"
+     "Spot the secondary figures in 'Tomorrow' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -3070,16 +3087,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The barber's gossip (pp.40-42) gives an external, mocking perspective; Hagberd's monologues to Bessie (pp",
      "A plot summary recounts *what happens* (events in sequence), while a theme states the *central idea* explored through those events (e"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Tomorrow'' slide -- match the key terms.",
     "misconception": "A wrong answer that retells the story (e.g., \"Captain Hagberd waits for his son\") reveals the student confuses subject with theme — they haven't abstracted the universal human experience from the specific narrative.",
     "id": "gen_c12_eng_k_ch04_q6",
     "nodeId": "c12_eng_k_cbse_04_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you've been waiting for a friend who promised to meet you \"tomorrow\" — but tomorrow never comes, and you keep preparing anyway, neglecting",
-     "That's Captain Hagberd's life.",
-     "To find the theme, start by asking: What is the one idea that explains every major choice Hagberd makes?",
-     "Look at his canvas suit, his dug-up garden, his advertising, his refusal to let Bessie contradict him."
+     "Ask what 'Tomorrow' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -3087,20 +3101,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"secondary theme\" in the context of a short story and give one example from \"Tomorrow\" other than the captain's obsessive hope.",
     "answer": "A secondary theme is a recurring idea that supports or contrasts with the primary theme, adding layers of meaning",
     "options": [
-     "Correct: (b) owning/having. In this context, \"possessed of\" is a formal/legalistic phrase meaning \"having ownership of",
-     "Verbal irony occurs when a speaker says one thing but means the opposite, often to convey sarcasm or highlight a contradiction",
+     "The student can independently map the plot of \"Tomorrow\" onto a narrative arc diagram, identify at least three structural devices (e",
+     "The student can independently identify the primary theme of \"Tomorrow\", trace its development across at least three key plot points",
      "A secondary theme is a recurring idea that supports or contrasts with the primary theme, adding layers of meaning"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Tomorrow'' slide -- match the key terms.",
     "misconception": "A wrong answer would confuse secondary theme with a plot detail (e.g., \"the captain digs the garden\") or with the primary theme itself, showing the student cannot distinguish levels of thematic hierarchy.",
     "id": "gen_c12_eng_k_ch04_q7",
     "nodeId": "c12_eng_k_cbse_04_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main actor (Captain Hagberd) is so focused on his \"tomorrow\" that he doesn't notice the crumbling walls",
-     "The secondary themes are like the subplots happening in the background — Bessie's quiet desperation, Harry's rootless wandering, the fence that never",
-     "To find them, first list every relationship and symbol that recurs: the fence, the sea vs.",
-     "Then ask: what human truth does each represent beyond the captain's delusion?"
+     "Look beneath the main theme of 'Tomorrow' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -3149,31 +3160,56 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing a nightmare to a friend: you don't just say \"it was scary\", you say \"the walls were breathing, the air tasted of copper, a",
-     "That is imagery — making the reader *feel* the scene.",
-     "In \"Tomorrow\", Conrad does this relentlessly: the \"sailcloth suit saturated almost to the stiffness of sheet iron\" makes you feel the damp cold; the",
-     "Metaphor works differently: when Hagberd is called \"a deposed sea-god who had exchanged the trident for the spade\", his stubborn delusion and fallen"
+     "Find the lines in 'Tomorrow' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define verbal irony and give one example from \"Tomorrow\" where Captain Hagberd uses words that mean the opposite of what he intends.",
-    "answer": "Verbal irony occurs when a speaker says one thing but means the opposite, often to convey sarcasm or highlight a contradiction",
-    "options": [
-     "Joseph Conrad (1857–1924) was a Polish-born British novelist who went to sea at 17, became a master mariner, and learned English in his 20s",
-     "The primary narrative frame is the barber's monologue in the tap-room of the New Inn, where he recounts Captain Hagberd's arrival and history to a stranger",
-     "Verbal irony occurs when a speaker says one thing but means the opposite, often to convey sarcasm or highlight a contradiction"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "write a structured analytical paragraph",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify at least three distinct types",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how two major symbols operate at",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Irony in literature' slide -- match the key terms.",
-    "misconception": "A wrong answer would confuse verbal irony with situational irony (where outcome contradicts expectation) or simply quote a line without explaining the gap between literal and intended meaning.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify at least three distinct types of irony (verbal, situational, dramatic) in the",
     "id": "gen_c12_eng_k_ch04_q9",
     "nodeId": "c12_eng_k_cbse_04_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're waiting for a friend who says \"I'll be there in five minutes\" — but five minutes becomes an hour, then a day, then a year.",
-     "That's the core irony of \"Tomorrow\": Captain Hagberd has waited 16 years for his son Harry, and every day the return is \"tomorrow.",
-     "That gap is irony.",
-     "Then look for objects that carry extra weight: his sailcloth suit isn't just clothing — it's his past, his madness, his armor."
+     "Look in 'Tomorrow' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -3181,20 +3217,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What does the phrase \"possessed of\" mean in the opening paragraph of \"Tomorrow\": \"He was possessed of some little money evidently\"? Choose the closest meaning: (a) haunted by, (b) owning/having, (c) obsessed with, (d) controlled by.",
     "answer": "Correct: (b) owning/having. In this context, \"possessed of\" is a formal/legalistic phrase meaning \"having ownership of",
     "options": [
+     "The student can independently select 8–10 key words from \"Tomorrow,\" explain their contextual meaning with textual evidence",
      "The word is \"tomorrow.\" It signifies that Hagberd lives in a perpetual future that never becomes present",
-     "A secondary theme is a recurring idea that supports or contrasts with the primary theme, adding layers of meaning",
      "Correct: (b) owning/having. In this context, \"possessed of\" is a formal/legalistic phrase meaning \"having ownership of"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Tomorrow'' slide -- match the key terms.",
     "misconception": "Wrong answers reveal: (a)/(d) confuse the phrase with supernatural possession or psychological control — ignoring the syntactic clue \"money evidently\" and the causal \"because.\" (c) \"obsessed with\" is a thematic trap — his obsession comes later; here it states a fact about his assets.",
     "id": "gen_c12_eng_k_ch04_q10",
     "nodeId": "c12_eng_k_cbse_04_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"Tomorrow\" and encounter \"He was possessed of some little money evidently, because he bought a plot of ground, and had a pair",
-     "Step 2: Read the immediate sentence — \"bought a plot,\" \"cottages run up\" — shows financial agency.",
-     "Step 3: Check grammatical role — \"possessed of\" functions as a verb phrase meaning 'had/owned.",
-     "Step 5: Synthesize — \"possessed of\" here means 'owned/held,' but with a connotation of obsessive holding, foreshadowing his miserliness."
+     "Note the difficult or loaded words in 'Tomorrow' — their meaning carries the text's precision."
     ]
    },
    {
@@ -3203,19 +3236,16 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The primary narrative tense is past tense. Shifts to internal thought are often signaled by free indirect discourse",
     "options": [
      "The primary physical setting is the little seaport of Colebrook, specifically the two adjoining yellow-brick cottages",
-     "Joseph Conrad (1857–1924) was a Polish-born British novelist who went to sea at 17, became a master mariner, and learned English in his 20s",
+     "The student can independently map the plot of \"Tomorrow\" onto a narrative arc diagram, identify at least three structural devices (e",
      "The primary narrative tense is past tense. Shifts to internal thought are often signaled by free indirect discourse"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Tomorrow'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"present tense\") reveals the student cannot distinguish narrative tense from dialogue tense.",
     "id": "gen_c12_eng_k_ch04_q11",
     "nodeId": "c12_eng_k_cbse_04_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a mystery novel and notice the author uses short, fragmented sentences during a chase scene.",
-     "How does that grammar choice affect your reading?",
-     "Now apply this to \"Tomorrow\": notice how Conrad's long, winding sentences mirror Captain Hagberd's obsessive mind.",
-     "First, identify the narrative tense and shifts."
+     "Read 'Tomorrow' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -3286,10 +3316,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_04_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the CBSE exam hall facing a 3-mark question: \"Why does Captain Hagberd react with horror when Bessie suggests his son might be",
-     "Instead, start by identifying the question type: \"Why\" + character motivation = INFERENTIAL.",
-     "Step 1: Scan the text for keywords (drowned, horror, Hagberd, Bessie).",
-     "Step 2: Locate the scene (pp."
+     "Answer 'Tomorrow' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -3349,10 +3376,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_04_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective asked to solve a mystery: Why does Captain Hagberd insist his son will return \"tomorrow\" for seven years, and what does",
-     "Begin by re-reading the story's opening and closing paragraphs — notice how Conrad frames Hagberd's madness within the town's indifference.",
-     "Next, trace the word \"tomorrow\" across the text: mark every occurrence and ask whether it means a literal day or a psychological shield.",
-     "Then, compare Hagberd's \"tomorrow\" with Bessie's silent endurance and Harry's restless wandering — three responses to waiting."
+     "Analyse 'Tomorrow' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -3360,20 +3385,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define the PEEL structure for literature answers and state what each letter stands for.",
     "answer": "PEEL = Point (topic sentence stating your argument), Evidence (brief textual quote or reference), Explanation (analysis of how evidence supports point)",
     "options": [
-     "The primary narrative frame is the barber's monologue in the tap-room of the New Inn, where he recounts Captain Hagberd's arrival and history to a stranger",
-     "The primary physical setting is the little seaport of Colebrook, specifically the two adjoining yellow-brick cottages",
+     "The student must be able to (1) identify specific sensory details that establish the physical and temporal setting of Colebrook",
+     "Irony in literature is a contrast between expectation and reality — what appears to be true differs from what is actually true",
      "PEEL = Point (topic sentence stating your argument), Evidence (brief textual quote or reference), Explanation (analysis of how evidence supports point)"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Tomorrow' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Point, Example, Explain, Conclusion\") reveals confusion with generic essay structures — PEEL is specific to literary analysis and requires the Link to tie back to the question's key terms.",
     "id": "gen_c12_eng_k_ch04_q14",
     "nodeId": "c12_eng_k_cbse_04_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"How does Conrad use the 'tomorrow' motif to reveal Captain Hagberd's madness?",
-     "Start by identifying the core concept: the word \"tomorrow\" functions as a structural motif.",
-     "Next, hunt for three precise textual moments — Hagberd's \"It was 'tomorrow'\" (p.43), the preparation of the cottage \"for tomorrow\" (p.",
-     "Then build each PEEL paragraph: Point (motif shows delusion), Evidence (quote), Explanation (how it shows time distortion), Link (connects to theme"
+     "For written answers on 'Tomorrow', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -3381,21 +3403,64 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two discussion prompts given in the \"Talking about the Text\" section of the NCERT textbook for \"Tomorrow\"?",
     "answer": "The two prompts are: (1) 'Every mental state, even madness, has its equilibrium based upon self-esteem",
     "options": [
-     "The primary narrative frame is the barber's monologue in the tap-room of the New Inn, where he recounts Captain Hagberd's arrival and history to a stranger",
-     "The four main supporting characters are: (1) Miss Bessie Carvil — Hagberd's tenant and sole confidante who listens to his ravings across the fence",
+     "The student can independently select 8–10 key words from \"Tomorrow,\" explain their contextual meaning with textual evidence",
+     "\"Before You Read: Context and Background\" provides the historical, biographical, and literary framework necessary to interpret a text",
      "The two prompts are: (1) 'Every mental state, even madness, has its equilibrium based upon self-esteem"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Tomorrow' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing comprehension questions or appreciation questions) reveals the student cannot distinguish between discussion prompts for oral debate and written analysis tasks — a critical error for internal assessment preparation.",
     "id": "gen_c12_eng_k_ch04_q15",
     "nodeId": "c12_eng_k_cbse_04_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle where someone claims \"Captain Hagberd isn't really mad — he's just stubborn.",
-     "You need a discussion protocol: first, identify the textual moment that supports or challenges the claim (e.",
-     "Next, frame your response using the \"Evidence → Interpretation → Implication\" structure.",
-     "Then, invite the next speaker to build or counter."
+     "Talk through 'Tomorrow' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "connect setting and atmosphere",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify specific sensory details",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how those details create a pervasive",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify specific sensory details that establish the physical and temporal setting of",
+    "id": "gen_c12_eng_k_ch04_q16",
+    "nodeId": "c12_eng_k_cbse_04_003",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -3461,7 +3526,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says \"She is kind\" or \"She hopes too\" misses the textual evidence of FEAR and the specific consequence (his madness worsening), scoring only 1/3 marks.",
-    "id": "gen_c12_eng_k_ch04_q16",
+    "id": "gen_c12_eng_k_ch04_q17",
     "nodeId": "c12_eng_k_cbse_04_012",
     "difficulty": "advanced"
    },
@@ -3540,45 +3605,32 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: WEAK ANSWER (2/5 marks). Step 1: Check PEEL structure — Point made but vague.",
-    "id": "gen_c12_eng_k_ch04_q17",
+    "id": "gen_c12_eng_k_ch04_q18",
     "nodeId": "c12_eng_k_cbse_04_012",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze the symbolism of the \"No. 1 sailcloth suit\" and the \"spade\" in relation to Hagberd’s identity. How do they represent his attempt to master two worlds he cannot control?",
-    "answer": "The sailcloth suit — made secretly with tarred twine, worn \"for the present\" — is Hagberd’s attempt to *wear* the sea he hates but cannot leave",
-    "options": [
-     "Hagberd wears the sailcloth suit because he made it himself \"for the present\" — a phrase he uses to deflect questions",
-     "Refute. Hagberd's madness *creates* his irrational world — he chooses the canvas suit, the dug-up garden, the isolation",
-     "The sailcloth suit — made secretly with tarred twine, worn \"for the present\" — is Hagberd’s attempt to *wear* the sea he hates but cannot leave"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls them \"clothes and a tool\" misses the psychological symbolism Conrad builds through repetition and Bessie’s observations.",
-    "id": "gen_c12_eng_k_ch04_q18",
-    "nodeId": "c12_eng_k_cbse_04_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'tomorrow' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Tomorrow' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch05",
-  "title": "Before You Read: Context and Background",
+  "title": "'One Centimetre' — The Context And Background",
   "subtitle": "English · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch5: Before You Read: Context and Background"],
+  "topic": "'One Centimetre' — The Context And Background To Thi",
+  "chapters": [
+   "English Ch5: 'One Centimetre' — The Context And Background To Thi"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_05_001",
    "c12_eng_k_cbse_05_002",
@@ -3603,103 +3655,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'One Centimetre' — The Context in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to situate a text within its author's biography,"
+   "hook": "'One Centimetre' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to situate a text within its author's biography, historical moment, cultural milieu, and literary tradition before engaging with the narrative, enabling deeper",
+    "text": "'One Centimetre' (Kaleidoscope, ch. 5) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot is the sequence of events that make up a story, while narrative structure refers to how those events are organized and presented — including chronological order, flashbacks, point of view, and pacing.",
+    "title": "Plot/narrative Arc Of 'One Centimetre'",
+    "text": "The plot/narrative arc of 'One Centimetre' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting is the time, place, and social environment in which a story unfolds; atmosphere is the emotional mood or tone created by descriptive details, sensory imagery, and narrative perspective that shapes the reader's experience of that setting.",
+    "title": "Setting Of 'One Centimetre'",
+    "text": "The setting of 'One Centimetre' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's traits, motivations, conflicts, development, and role in advancing the story's themes through their actions, dialogue, thoughts, and relationships.",
+    "title": "Character Analysis In 'One Centimetre'",
+    "text": "Character analysis in 'One Centimetre' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Supporting Characters",
-    "text": "Supporting characters are secondary figures in a narrative who interact with the protagonist to advance the plot, reveal the protagonist's traits through contrast or parallel, embody thematic ideas, and represent societal forces or institutions.",
+    "title": "Supporting Characters In 'One Centimetre'",
+    "text": "Supporting characters in 'One Centimetre' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, and conflict; the message is the specific moral, philosophical, or emotional conclusion the reader is invited",
+    "title": "Primary Theme Of 'One Centimetre'",
+    "text": "The primary theme of 'One Centimetre' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas or underlying messages in a literary work that complement the primary theme, adding depth and complexity to the narrative.",
+    "title": "Secondary Themes In 'One Centimetre'",
+    "text": "Secondary themes in 'One Centimetre' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'One Centimetre'",
+    "text": "Imagery in 'One Centimetre' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality — what appears to be true differs from what is actually true; Symbolism is the use of an object, person, or action to represent an abstract idea beyond its literal meaning.",
+    "title": "Irony And Paradox In 'One Centimetre' —",
+    "text": "Irony and paradox in 'One Centimetre' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of a word based on how it is used in a specific sentence or passage, rather than relying solely on a dictionary definition.",
+    "title": "Key Vocabulary Of 'One Centimetre'",
+    "text": "Key vocabulary of 'One Centimetre' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "This Node Covers The Analysis",
-    "text": "This node covers the analysis of language usage in the short story \"One Centimetre\", focusing on two key areas: (1) Figures of Speech — specifically simile (explicit comparison using *like/as*) and metaphor (implicit comparison without *like/as*), and (2)",
+    "title": "Language And Style In 'One Centimetre'",
+    "text": "Language and style in 'One Centimetre' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the text (who, what, where, when), while inferential comprehension questions require drawing logical conclusions by combining textual clues with reasoning (why, how, what is",
+    "title": "Literal Comprehension Of 'One Centimetre'",
+    "text": "Literal comprehension of 'One Centimetre' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of actively examining a text's explicit and implicit meanings, evaluating the author's choices (structure, language, perspective), and synthesizing evidence to form an independent, reasoned",
+    "title": "Critical Thinking On 'One Centimetre'",
+    "text": "Critical thinking on 'One Centimetre' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on the chapter \"One Centimetre\" refers to the ability to compose structured, evidence-based responses — such as character sketches, thematic essays, critical appreciations, letters, diary entries, and analytical paragraphs — that",
+    "title": "Writing Skills From 'One Centimetre'",
+    "text": "Writing skills from 'One Centimetre' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students articulate interpretations of the text, debate thematic questions using textual evidence, and practice active listening to build collaborative understanding of the",
+    "title": "Discussion Points On 'One Centimetre'",
+    "text": "Discussion points on 'One Centimetre' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -3710,20 +3762,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who is Bi Shu-min, and what two professional identities does she hold that inform her writing perspective?",
     "answer": "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College",
     "options": [
-     "The inciting incident is Tao Ying receiving a free temple ticket from her colleague Lao Chiang, which prompts her to take Xiao Ye on an outing",
+     "The student can identify all major plot points in chronological order, explain how flashbacks are integrated into the linear narrative",
      "The four primary settings are: (1) the bus — smell of petrol, sound of doors shutting, sight of peeling paint with a painted finger pointing at 1",
      "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''One Centimetre' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"she is only a writer\" or \"she is a teacher\") reveals the student misses the crucial dual perspective — medical precision and literary sensitivity — that gives the story its distinctive blend of clinical observation (the fontanelle description, the measurement scenes) and emotional nuance (Tao",
     "id": "gen_c12_eng_k_ch05_q1",
     "nodeId": "c12_eng_k_cbse_05_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a film set in a culture you've never experienced — say, a Japanese tea ceremony documentary.",
-     "You'd want to know: Who made this?",
-     "What does \"tea\" mean in that culture beyond a beverage?",
-     "Similarly, before reading \"One Centimetre,\" we ask: Who is Bi Shu-min?"
+     "Start with the author of 'One Centimetre', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -3731,20 +3780,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the inciting incident that sets the main plot of \"One Centimetre\" in motion?",
     "answer": "The inciting incident is Tao Ying receiving a free temple ticket from her colleague Lao Chiang, which prompts her to take Xiao Ye on an outing",
     "options": [
-     "Xiao Ye (moral compass/foil → later site of betrayal), Bus Conductor 1 (arbitrary rule enforcer), Temple Guard (petty bureaucratic antagonist)",
-     "The primary theme is the conflict between a parent's desire to model perfect integrity for their child and the messy reality of arbitrary rules",
+     "Student can articulate the primary theme of \"One Centimetre\" in a precise thematic statement, trace its development across at least three key episodes (bus ride, temple gate",
+     "Plot is the sequence of events that make up a story, while narrative structure refers to how those events are organized and presented",
      "The inciting incident is Tao Ying receiving a free temple ticket from her colleague Lao Chiang, which prompts her to take Xiao Ye on an outing"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'One' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the bus incident\" or \"the guard stopping them\") reveals the student cannot distinguish between the inciting incident (the event that starts the main action) and earlier background events or later complications.",
     "id": "gen_c12_eng_k_ch05_q2",
     "nodeId": "c12_eng_k_cbse_05_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you promised your younger sibling a treat if they behaved, but then the shopkeeper says they're too old for the free treat — do you argue,",
-     "That's the core conflict Tao Ying faces.",
-     "To analyze the plot, first list every event in the order it happens in the story (not chronological order).",
-     "Then separate the main timeline from the flashbacks (like the watermelon incident)."
+     "Trace 'One Centimetre' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -3804,10 +3850,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at a crowded temple gate with your child, and a guard says your son is too tall for a free ticket — you know he isn't, but",
-     "That moment of public humiliation and private certainty is where setting becomes atmosphere.",
-     "Start by listing every physical location Tao Ying visits: the bus, the temple grounds, the factory canteen, her home.",
-     "Then ask: what sensory details (smell of sesame butter, sound of the conductor's bellow, sight of the \"earthworm\" line) does Bi Shu-min use at each"
+     "Identify where and when 'One Centimetre' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -3867,9 +3910,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Start by asking: \"Think of a time you stood up for what was right even when it cost you something - how did that define who you are?",
-     "Show how each reveals her core conflict: balancing survival pragmatism with her ideal of perfect motherhood.",
-     "The key insight: Tao Ying's greatness lies not in perfection but in choosing her son's trust over institutional validation."
+     "Pick the central figure in 'One Centimetre' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -3929,10 +3970,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main actor (Tao Ying) is surrounded by a chorus of voices — some mocking, some helping, some inadvertently",
-     "Start by listing every named character besides Tao Ying.",
-     "For each, ask: \"What does this character WANT?",
-     "What does this character REPRESENT?"
+     "Spot the secondary figures in 'One Centimetre' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -3940,20 +3978,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "State the primary theme of \"One Centimetre\" in one complete thematic statement (not a topic like \"motherhood\" or \"honesty\", but a full sentence expressing the author's insight).",
     "answer": "The primary theme is the conflict between a parent's desire to model perfect integrity for their child and the messy reality of arbitrary rules",
     "options": [
-     "The four primary settings are: (1) the bus — smell of petrol, sound of doors shutting, sight of peeling paint with a painted finger pointing at 1",
-     "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College",
+     "The student can independently write a 120–150 word analytical response (character sketch, theme analysis",
+     "Simile: An explicit comparison using *like* or *as* (e.g., \"Xiao Ye's hair looks as fluffy as a bundle of straw\")",
      "The primary theme is the conflict between a parent's desire to model perfect integrity for their child and the messy reality of arbitrary rules"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'One Centimetre'' slide -- match the key terms.",
     "misconception": "Why wrong answers fail: Students often write \"Honesty is the best policy\" (a cliché, not a theme) or \"Mothers love their children\" (a topic).",
     "id": "gen_c12_eng_k_ch05_q6",
     "nodeId": "c12_eng_k_cbse_05_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a queue with your younger sibling and a guard says they're \"one centimetre too tall\" for a free entry — do you pay to avoid a",
-     "That's Tao Ying's dilemma.",
-     "To find the primary theme, don't just list events; ask: *What is the author saying about the gap between who we are and who we perform to be for our",
-     "The theme emerges from this arc: A parent's struggle to embody integrity in an arbitrary world, and the realization that a child's trust is won not"
+     "Ask what 'One Centimetre' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -3961,20 +3996,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the definition of a secondary theme in a short story, and how does it differ from the primary theme?",
     "answer": "A secondary theme is a supporting idea that runs alongside the primary theme, adding layers of meaning",
     "options": [
-     "The four primary settings are: (1) the bus — smell of petrol, sound of doors shutting, sight of peeling paint with a painted finger pointing at 1",
-     "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College",
+     "Plot is the sequence of events that make up a story, while narrative structure refers to how those events are organized and presented",
+     "The student can independently write a 120–150 word analytical response (character sketch, theme analysis",
      "A secondary theme is a supporting idea that runs alongside the primary theme, adding layers of meaning"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'One' slide -- match the key terms.",
     "misconception": "A wrong answer that equates secondary themes with minor plot details reveals the student cannot distinguish between thematic depth and narrative incident.",
     "id": "gen_c12_eng_k_ch05_q7",
     "nodeId": "c12_eng_k_cbse_05_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a movie where the main plot is a mother trying to do the right thing for her son, but in the background you notice the bus",
-     "These background elements aren't just decoration — they are secondary themes.",
-     "To find them, ask: \"What bigger issues does this story touch on besides the mother-son bond?",
-     "The key insight: secondary themes are the story's \"background music\" that changes how we hear the main melody."
+     "Look beneath the main theme of 'One Centimetre' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -3982,20 +4014,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"imagery\" and \"metaphor\" in your own words, and give one example of each from \"One Centimetre\" (quote the exact phrase).",
     "answer": "Imagery = sensory language creating mental pictures/sensations (e.g., \"the flat of her hand lands heavily on the little boy's head",
     "options": [
-     "The primary theme is the conflict between a parent's desire to model perfect integrity for their child and the messy reality of arbitrary rules",
      "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College",
+     "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to situate a text within its author's biography, historical moment, cultural milieu",
      "Imagery = sensory language creating mental pictures/sensations (e.g., \"the flat of her hand lands heavily on the little boy's head"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'One Centimetre'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If the student gives a simile (\"like a tent\") as a metaphor, they confuse explicit comparison (simile) with implicit equation (metaphor). If they cite only visual description for imagery, they miss tactile, auditory, kinesthetic dimensions.",
     "id": "gen_c12_eng_k_ch05_q8",
     "nodeId": "c12_eng_k_cbse_05_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film where the camera zooms in on a mother's hand pressing a tape measure against her sleeping son's head — you hear the",
-     "That cinematic intensity is what Bi Shu-min achieves with words alone.",
-     "Begin by asking: \"Which moment in the story made me *feel* something physically — a tightening chest, a sting of tears, a flash of anger?",
-     "Next, ask: \"Where does the narrator describe one thing *as* another to reveal a hidden truth?"
+     "Find the lines in 'One Centimetre' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -4044,31 +4073,67 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you promise your younger sibling a treat if they behave, but the shopkeeper says they're \"too tall\" for the free treat — you know they",
-     "That sinking feeling — your word against a crooked measure — is the heart of this story.",
-     "Begin by rereading the temple gate scene (pages 76-79): mark every moment where what *should* happen (fairness, trust, a mother's protection) clashes",
-     "Then trace the \"one centimetre\" from the bus (page 72) to the temple wall (page 77) to the fitness scales (page 81) to Tao Ying's own tape at home"
+     "Look in 'One Centimetre' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define \"Vocabulary in Context\" in your own words and give one example from \"One Centimetre\" where the contextual meaning differs from the primary dictionary meaning.",
-    "answer": "Vocabulary in Context is the skill of inferring a word's specific meaning from its surrounding text rather than a dictionary",
-    "options": [
-     "The primary theme is the conflict between a parent's desire to model perfect integrity for their child and the messy reality of arbitrary rules",
-     "The four primary settings are: (1) the bus — smell of petrol, sound of doors shutting, sight of peeling paint with a painted finger pointing at 1",
-     "Vocabulary in Context is the skill of inferring a word's specific meaning from its surrounding text rather than a dictionary"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify 10+ key words from \"One Centimetre\"",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "use each word correctly in an original",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "explain the contextual meaning of each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "distinguish between the word's dictionary",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: Student thinks vocabulary learning = memorizing dictionary definitions.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify 10+ key words from \"One Centimetre\", (2) explain the contextual meaning of each with",
     "id": "gen_c12_eng_k_ch05_q10",
     "nodeId": "c12_eng_k_cbse_05_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a newspaper editorial and encounter the word \"flummoxed\" in a sentence about a politician facing tough questions.",
-     "You don't reach for a dictionary; you notice the context — \"fumbled,\" \"contradicted himself,\" \"long pause\" — and infer it means \"confused and unsure",
-     "We start by reading the target sentence aloud, then highlight 3-4 surrounding words that act as clues (e.",
-     "Next, we classify the clue type (contrast, cause-effect, definition)."
+     "Note the difficult or loaded words in 'One Centimetre' — their meaning carries the text's precision."
     ]
    },
    {
@@ -4076,20 +4141,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define simile and metaphor in your own words. Give one example of each from the story \"One Centimetre\" (do not use the textbook examples).",
     "answer": "Simile: An explicit comparison using *like* or *as* (e.g., \"Xiao Ye's hair looks as fluffy as a bundle of straw\")",
     "options": [
-     "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College",
-     "The inciting incident is Tao Ying receiving a free temple ticket from her colleague Lao Chiang, which prompts her to take Xiao Ye on an outing",
+     "Students believe \"Vocabulary in Context\" means guessing a word's meaning from the general story plot",
+     "The student can independently identify specific images and metaphors in the text, explain the two terms of comparison in each metaphor",
      "Simile: An explicit comparison using *like* or *as* (e.g., \"Xiao Ye's hair looks as fluffy as a bundle of straw\")"
     ],
-    "hint": "Straight from the 'This node covers the analysis' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'One' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student uses *like/as* for both, they confuse metaphor with simile.",
     "id": "gen_c12_eng_k_ch05_q11",
     "nodeId": "c12_eng_k_cbse_05_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"One Centimetre\" and notice the jacket \"ballooning up like a tent\" — that *like* signals a simile.",
-     "But later the mother wants to \"melt the ice in her son's eyes\" — there is no *like*, yet a comparison exists: that is a metaphor.",
-     "Start by scanning the text for *like/as* to catch similes; then hunt for nouns applied to unlike concepts (ice = coldness/distance) to catch",
-     "For pronunciation, say *object* as a noun (OB-ject) and as a verb (ob-JECT) — feel the stress jump."
+     "Read 'One Centimetre' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -4138,10 +4200,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and see a question: \"Why did Tao Ying refuse the temple officials' compensation?",
-     "Start by asking: *Is the answer directly in the text, or must I connect clues?* For literal questions (\"What did the guard say?\"), scan for keywords.",
-     "For inferential questions (\"Why did Tao Ying write the letter?\"), combine multiple textual details (her burnt cakes, her son's distrust, the Writer's",
-     "Always anchor every claim in a specific line or episode."
+     "Answer 'One Centimetre' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -4201,10 +4260,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a juror in a court where the \"defendant\" is the temple guard who humiliated Tao Ying and Xiao Ye.",
-     "The \"prosecution\" says he was just doing his job; the \"defense\" says he abused power.",
-     "To reach a verdict, you cannot rely on what characters *say* — you must examine what the *text shows* through contradictory details: the guard's",
-     "Start by listing every moment where the narrative voice slips into a character's consciousness (free indirect discourse)."
+     "Analyse 'One Centimetre' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -4264,10 +4321,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_05_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and the question reads: \"How does Bi Shu-min use the 'one centimetre' as a symbol to explore the gap between parental",
-     "Support your answer with textual evidence.\" You might freeze — where to begin?",
-     "Start by identifying the *core tension*: Tao Ying's desire to be a \"flawless mother\" versus the messy reality of institutional rules and her son's",
-     "Next, hunt for the *symbol's three appearances*: the bus height mark (1.10 m), the temple's \"earthworm\" line, and the final measurement (1."
+     "For written answers on 'One Centimetre', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -4275,20 +4329,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two discussion topics explicitly listed under \"Talking about the Text\" in the NCERT textbook for \"One Centimetre\"?",
     "answer": "The two topics are: (1) \"The way a child looks at the world is very different from that of an adult",
     "options": [
-     "Bi Shu-min is a contemporary Chinese writer born in 1952 who has worked as a doctor for over twenty years and holds a Master's degree in literature from Beijing Teacher's College",
-     "The inciting incident is Tao Ying receiving a free temple ticket from her colleague Lao Chiang, which prompts her to take Xiao Ye on an outing",
+     "The student can identify multiple settings in \"One Centimetre,\" trace how atmospheric shifts (mundane → tense → reflective → resolved) mirror Tao Ying's internal journey",
+     "Student can articulate the primary theme of \"One Centimetre\" in a precise thematic statement, trace its development across at least three key episodes (bus ride, temple gate",
      "The two topics are: (1) \"The way a child looks at the world is very different from that of an adult"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'One' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing comprehension questions or theme statements) reveals the student has not distinguished between discussion prompts and other end-of-chapter exercises, indicating a lack of familiarity with the textbook's structure.",
     "id": "gen_c12_eng_k_ch05_q15",
     "nodeId": "c12_eng_k_cbse_05_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a book club where someone says, \"Tao Ying was wrong to hit Xiao Ye — no excuse.\" How do you respond?",
-     "First, recall the exact moment: the temple gate, the \"earthworm\" line, the crowd.",
-     "Second, identify the competing pressures: Tao Ying's desperate need to protect her son's trust vs the guard's public challenge to her honesty.",
-     "Third, locate textual evidence — her internal monologue (\"She had not meant to hit Xiao Ye."
+     "Talk through 'One Centimetre' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -4465,23 +4516,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'one centimetre' — the context and background to thi?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'One Centimetre' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch06",
-  "title": "Before You Read: Context and Background",
+  "title": "'A Lecture Upon The Shadow'",
   "subtitle": "English · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch6: Before You Read: Context and Background"],
+  "topic": "'A Lecture Upon The Shadow'",
+  "chapters": [
+   "English Ch6: 'A Lecture Upon The Shadow'"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_06_001",
    "c12_eng_k_cbse_06_002",
@@ -4506,103 +4559,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Before You Read: Context and directly with your eyes?",
+   "question": "Can you see 'A Lecture Upon The Shadow' directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
     "It is invisible by definition"
    ],
    "answer": "Often only through its effects",
-   "hook": "\"Before You Read: Context and Background\" provides the essential historical, biographical, and literary framework needed to access a metaphysical"
+   "hook": "'A Lecture Upon the Shadow' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" provides the essential historical, biographical, and literary framework needed to access a metaphysical poem.",
+    "title": "'A Lecture Upon The Shadow'",
+    "text": "'A Lecture Upon the Shadow' (Kaleidoscope, ch. 6) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "In a Metaphysical Poem Like",
-    "text": "In a metaphysical poem like Donne's \"A Lecture Upon the Shadow\", narrative structure refers to the logical progression of an extended metaphor (conceit) through distinct temporal stages — here, the movement of shadows from morning to noon to afternoon — which",
+    "title": "Plot/narrative Arc Of 'A Lecture",
+    "text": "The plot/narrative arc of 'A Lecture Upon the Shadow' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, Setting",
-    "text": "In poetry, setting refers to the temporal and spatial context established by the poet (here, a walk taken over three hours reaching solar noon), while atmosphere is the emotional mood or tone created through imagery, diction, and rhythm.",
+    "title": "Setting Of 'A Lecture Upon",
+    "text": "The setting of 'A Lecture Upon the Shadow' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a poem involves examining the speaker's persona — their voice, attitude, tone, values, and psychological state — as revealed through the poem's language, imagery, and structure.",
+    "title": "Character Analysis In 'A Lecture Upon",
+    "text": "Character analysis in 'A Lecture Upon the Shadow' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the roles, traits, and functions of secondary figures in a literary work who interact with the protagonist and contribute to the development of themes, plot, or the protagonist's journey.",
+    "title": "Supporting Characters In 'A Lecture Upon",
+    "text": "Supporting characters in 'A Lecture Upon the Shadow' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea or insight about human experience that the poet develops through imagery, structure, and language; the message is the specific truth or perspective the poet wishes the reader to accept.",
+    "title": "Primary Theme Of 'A Lecture",
+    "text": "The primary theme of 'A Lecture Upon the Shadow' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subordinate but significant ideas that run alongside the primary theme in a literary work, enriching the central message by exploring related dimensions such as time, perception, deception, growth, or constancy.",
+    "title": "Secondary Themes In 'A Lecture Upon",
+    "text": "Secondary themes in 'A Lecture Upon the Shadow' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures. Metaphor is a direct comparison between two unlike things without using \"like\" or \"as,\" where one thing is described",
+    "title": "Imagery In 'A Lecture Upon",
+    "text": "Imagery in 'A Lecture Upon the Shadow' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or situations is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'A Lecture",
+    "text": "Irony and paradox in 'A Lecture Upon the Shadow' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary in Context: Key Words",
-    "text": "Vocabulary in Context for \"A Lecture Upon the Shadow\" involves identifying and interpreting archaic spellings (e.g., *houres, shadowes, Sunne*), understanding the historical possessive form without an apostrophe (*loves philosophy*), and analyzing how",
+    "title": "Key Vocabulary Of 'A Lecture Upon",
+    "text": "Key vocabulary of 'A Lecture Upon the Shadow' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "This Node Focuses On Analysing",
-    "text": "This node focuses on analysing archaic language features in John Donne's metaphysical poem \"A Lecture Upon the Shadow\", specifically: (1) obsolete spelling conventions with terminal '-e' (houres, shadowes, Sunne, noone, clearnesse, behinde), (2) the absence",
+    "title": "Language And Style In 'A Lecture",
+    "text": "Language and style in 'A Lecture Upon the Shadow' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving information explicitly stated in the text, while inferential comprehension questions require drawing conclusions by combining textual evidence with reasoning to uncover implied meanings.",
+    "title": "Literal Comprehension Of 'A Lecture Upon",
+    "text": "Literal comprehension of 'A Lecture Upon the Shadow' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Critical Thinking In Poetry Analysis",
-    "text": "Critical thinking in poetry analysis is the disciplined process of examining a poem's structural, linguistic, and thematic elements to construct an evidence-based interpretation that goes beyond surface meaning.",
+    "title": "Critical Thinking On 'A Lecture Upon",
+    "text": "Critical thinking on 'A Lecture Upon the Shadow' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Writing Skills Based On a Poetry",
-    "text": "Writing skills based on a poetry chapter involve the ability to compose structured, evidence-based analytical responses — such as poem analysis, thematic essays, comparative answers, and critical appreciation — that demonstrate understanding of poetic",
+    "title": "Writing Skills From 'A Lecture Upon",
+    "text": "Writing skills from 'A Lecture Upon the Shadow' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students collaboratively explore a poem's meaning, techniques, and personal resonance by preparing evidence-based talking points, actively listening to peers, and building",
+    "title": "Discussion Points On 'A Lecture Upon",
+    "text": "Discussion points on 'A Lecture Upon the Shadow' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -4613,20 +4666,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"metaphysical poetry\" and name two characteristics that distinguish it from Elizabethan lyric poetry.",
     "answer": "Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended conceits (unlikely comparisons), argumentative structure",
     "options": [
-     "A secondary theme is a subordinate but significant idea that supports, complicates, or enriches the primary theme",
-     "The central extended metaphor compares the changing shadows cast by the sun throughout a day to the stages of a romantic relationship",
+     "Student can independently distinguish question types, locate exact textual evidence for literal answers",
+     "The student can independently deconstruct a metaphysical poem's central conceit, trace its development across stanzas, evaluate the effectiveness of its paradoxes",
      "Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended conceits (unlikely comparisons), argumentative structure"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Lecture Upon the Shadow'' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"philosophical themes\" misses the formal innovation — metaphysical poetry is defined by *how* it thinks, not just *what* it thinks about.",
     "id": "gen_c12_eng_k_ch06_q1",
     "nodeId": "c12_eng_k_cbse_06_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're handed a poem where \"shadowes\" and \"Sunne\" are spelled with an extra 'e', and the poet compares love to the sun's movement — but",
-     "What literary group valued intellect over emotion?* Start by placing Donne in the early 1600s, a metaphysical poet who uses startling conceits",
-     "Notice the poem's structure: a lecture addressed to a lover, tracking shadows from morning (disguises, hiding) to noon (brave clearnesse, truth) to",
-     "The archaic spelling isn't a mistake — it's a signal of the poem's vintage."
+     "Start with the author of 'A Lecture Upon the Shadow', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -4634,20 +4684,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the three distinct times of day referenced in the poem, and what shadow behavior corresponds to each?",
     "answer": "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet",
     "options": [
-     "Correct: *houres, shadowes, Sunne, noone, clearnesse, behinde, doe, onely, sunnes* (any three)",
-     "The central symbol is the shadow. In the first stanza, the morning shadows — long, cast before the lovers as they walk",
+     "The student can (1) trace the development of the central symbol (shadow) across the three stages of the poem (morning, noon",
+     "The student can trace the poem's three-stage argument (morning shadows → noon shadows → afternoon shadows), explain how each stage corresponds to a phase of love (growth",
      "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet"
     ],
-    "hint": "Straight from the 'In a metaphysical poem like' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'A Lecture' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., only two times, or confusing morning/afternoon shadow direction) reveals the student hasn't tracked the spatial logic of the conceit — the foundation for the poem's argument about love's stages.",
     "id": "gen_c12_eng_k_ch06_q2",
     "nodeId": "c12_eng_k_cbse_06_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are explaining this poem to a friend who has never read it.",
-     "You wouldn't start by listing metaphors; you'd tell the \"story\" of the shadows: two lovers walk for three hours, their shadows change from long",
-     "Begin by reading the poem aloud and marking the three time references: \"morning shadowes\", \"Sunne is just above our head\" (noon), \"westwardly",
-     "Notice the poem splits into two stanzas of 12 lines each: the first establishes the metaphor, the second warns of its reversal."
+     "Trace 'A Lecture Upon the Shadow' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -4707,10 +4754,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_06_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are walking outdoors with someone you love on a bright morning.",
-     "At first, your shadows stretch long beside you.",
-     "As the sun climbs, they shrink until at noon you are literally stepping on them.",
-     "Then, as the sun declines, new shadows grow behind you — longer, darker, eventually engulfing you."
+     "Identify where and when 'A Lecture Upon the Shadow' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -4759,10 +4803,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_06_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and the question asks: \"Analyze the character of the speaker in 'A Lecture Upon the Shadow'.\" Don't panic.",
-     "First, read the poem aloud — hear the direct, conversational tone (\"Stand still and I will read to thee\").",
-     "Notice the speaker isn't just describing shadows; he's *teaching* his beloved a philosophy.",
-     "That tells you he's intellectual, controlling the discourse."
+     "Pick the central figure in 'A Lecture Upon the Shadow' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -4822,31 +4863,56 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_06_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at a poetry reading where the poet speaks directly to someone you cannot see — the beloved.",
-     "You wonder: who is this person?",
-     "Why does the poet address them?",
-     "What do the shadows that \"walk along\" represent?"
+     "Spot the secondary figures in 'A Lecture Upon the Shadow' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the difference between a topic and a theme in poetry? Give the topic and a correct thematic statement for \"A Lecture Upon the Shadow.\"",
-    "answer": "A topic is a one-word subject (e.g., \"love,\" \"shadows,\" \"time\"). A theme is a complete sentence expressing the poet's insight about that topic",
-    "options": [
-     "Correct: In isolation, *infant* means “a very young child.” In *infant loves*, it functions metaphorically as an adjective meaning “new, immature",
-     "Similarity: In both poems, the sun's position marks a temporal boundary that structures the lover's argument — noon in \"Shadow,\" dawn in \"The Sun Rising",
-     "A topic is a one-word subject (e.g., \"love,\" \"shadows,\" \"time\"). A theme is a complete sentence expressing the poet's insight about that topic"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "state the primary theme in a precise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "trace how the shadow metaphor develops this",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain the message about constancy in love",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a poem' slide -- match the key terms.",
-    "misconception": "A wrong answer that gives only a topic (\"Love\") reveals the student confuses subject with insight and cannot articulate the poem's argument.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the primary theme in a precise thematic statement (not a topic), (2) trace how the shadow",
     "id": "gen_c12_eng_k_ch06_q6",
     "nodeId": "c12_eng_k_cbse_06_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are explaining this poem to a friend who says, \"It's just about shadows and the sun.",
-     "Ask: \"What is the shadow doing in each phase?\" Morning: long shadows = lovers hide faults.",
-     "Noon: shadows disappear underfoot = total honesty.",
-     "Afternoon: shadows lengthen the other way = new deceptions."
+     "Ask what 'A Lecture Upon the Shadow' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -4855,19 +4921,16 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "A secondary theme is a subordinate but significant idea that supports, complicates, or enriches the primary theme",
     "options": [
      "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet",
-     "The literal setting is a walk taken by two lovers lasting three hours, during which the sun rises until it is directly overhead at noon",
+     "The student can trace the poem's three-stage argument (morning shadows → noon shadows → afternoon shadows), explain how each stage corresponds to a phase of love (growth",
      "A secondary theme is a subordinate but significant idea that supports, complicates, or enriches the primary theme"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'A Lecture' slide -- match the key terms.",
     "misconception": "A wrong answer that lists plot events or characters instead of abstract ideas reveals confusion between theme and subject matter. A wrong answer that equates secondary themes with \"less important themes\" misses their structural function — they are not less important, they are *differently positioned* in the thematic",
     "id": "gen_c12_eng_k_ch06_q7",
     "nodeId": "c12_eng_k_cbse_06_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a time-lapse video of a tree's shadow moving across a garden from dawn to dusk — the shadow changes length, direction, and",
-     "Donne's poem works similarly: the \"shadow\" is not just one thing but shifts meaning as the sun moves, revealing different facets of love.",
-     "Start by re-reading the poem with this question: \"What else is Donne talking about besides love's growth?",
-     "These clusters reveal the secondary themes."
+     "Look beneath the main theme of 'A Lecture Upon the Shadow' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -4875,20 +4938,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central extended metaphor in \"A Lecture Upon the Shadow,\" and what two things are being compared?",
     "answer": "The central extended metaphor compares the changing shadows cast by the sun throughout a day to the stages of a romantic relationship",
     "options": [
-     "The literal setting is a walk taken by two lovers lasting three hours, during which the sun rises until it is directly overhead at noon",
-     "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet",
+     "The student can independently identify the central extended metaphor of shadows, trace its development across the three time-phases (morning, noon, afternoon)",
+     "The central symbol is the shadow. In the first stanza, the morning shadows — long, cast before the lovers as they walk",
      "The central extended metaphor compares the changing shadows cast by the sun throughout a day to the stages of a romantic relationship"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'A Lecture Upon' slide -- match the key terms.",
     "misconception": "Wrong answer reveal: If a student says \"love is a shadow\" or \"shadows represent time,\" they have identified only a fragment.",
     "id": "gen_c12_eng_k_ch06_q8",
     "nodeId": "c12_eng_k_cbse_06_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing outside at 7 AM, then at 12 PM, then at 4 PM — notice how your shadow stretches, shrinks, then stretches again in a different",
-     "Donne takes this everyday observation and turns it into a philosophical argument about love.",
-     "Start by asking: \"What does a shadow *do*?",
-     "It hides things, it changes with the sun, it's attached to you but not *you*.\" Then read the poem aloud, marking every shadow reference."
+     "Find the lines in 'A Lecture Upon the Shadow' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -4896,41 +4956,66 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central symbol in \"A Lecture Upon the Shadow\" and what does it represent in the first stanza (morning)?",
     "answer": "The central symbol is the shadow. In the first stanza, the morning shadows — long, cast before the lovers as they walk",
     "options": [
-     "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet",
-     "The central extended metaphor compares the changing shadows cast by the sun throughout a day to the stages of a romantic relationship",
+     "The student can (1) trace the development of the central symbol (shadow) across the three stages of the poem (morning, noon",
+     "The student can independently write a 150-200 word analytical answer on any aspect of \"A Lecture Upon the Shadow\" (theme, imagery, metaphysical conceit, structure",
      "The central symbol is the shadow. In the first stanza, the morning shadows — long, cast before the lovers as they walk"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'A Lecture' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"shadows represent time\" or \"shadows represent death\") reveals the student is imposing external associations instead of tracking the symbol's internal development within the poem's logic.",
     "id": "gen_c12_eng_k_ch06_q9",
     "nodeId": "c12_eng_k_cbse_06_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem and notice the title promises a \"Lecture Upon the Shadow\" — but the speaker spends most of the time talking about",
-     "That mismatch is your entry point.",
-     "Begin by asking: *Why does Donne call it a lecture on the shadow when love is the real subject?",
-     "Connect each phase to a stage of love: early disguise, mutual transparency, and eventual self-deception."
+     "Look in 'A Lecture Upon the Shadow' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
-    "type": "mcq",
-    "question": "List three words from the poem that end with an extra *-e* in Donne’s spelling but not in modern English.",
-    "answer": "Correct: *houres, shadowes, Sunne, noone, clearnesse, behinde, doe, onely, sunnes* (any three)",
-    "options": [
-     "The protagonist is the poetic persona — a male speaker addressing his female beloved (\"Love,\" \"thou,\" \"thee\"). He is not John Donne himself, but a constructed voice",
-     "Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended conceits (unlikely comparisons), argumentative structure",
-     "Correct: *houres, shadowes, Sunne, noone, clearnesse, behinde, doe, onely, sunnes* (any three)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "convert at least five archaic spellings",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain why the possessive lacks",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish the isolated meaning of *infant*",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Vocabulary in Context for \"A' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., *love, make, blind*) reveals the student cannot distinguish archaic orthography from modern spelling — they are scanning for any *-e* ending rather than recognizing the historical convention of a silent final *-e* that was later dropped.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) convert at least five archaic spellings from the poem to modern English, (2) explain why the",
     "id": "gen_c12_eng_k_ch06_q10",
     "nodeId": "c12_eng_k_cbse_06_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine finding a 400-year-old letter in your grandmother’s attic — words like *sunne* and *behinde* look strange, yet you sense they mean *sun* and",
-     "That curiosity is your entry point.",
-     "First, read the poem aloud and circle every word ending in *-e* that we no longer use (step 1).",
-     "Next, locate the phrase *loves philosophy* and ask: where is the apostrophe?"
+     "Note the difficult or loaded words in 'A Lecture Upon the Shadow' — their meaning carries the text's precision."
     ]
    },
    {
@@ -4938,20 +5023,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the six words from Donne's poem that the NCERT Language Work box explicitly identifies as carrying a terminal '-e' no longer used in modern spelling.",
     "answer": "The six words are: houres, shadowes, Sunne, noone, clearnesse, behinde",
     "options": [
-     "The central extended metaphor compares the changing shadows cast by the sun throughout a day to the stages of a romantic relationship",
-     "The protagonist is the poetic persona — a male speaker addressing his female beloved (\"Love,\" \"thou,\" \"thee\"). He is not John Donne himself, but a constructed voice",
+     "The student can independently deconstruct a metaphysical poem's central conceit, trace its development across stanzas, evaluate the effectiveness of its paradoxes",
+     "The student can independently identify three archaic language features in Donne's poem, explain the historical reason for each feature",
      "The six words are: houres, shadowes, Sunne, noone, clearnesse, behinde"
     ],
-    "hint": "Straight from the 'This node focuses on analysing' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'A Lecture' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"loves\" or \"doe\") reveals the student cannot distinguish the textbook's explicit examples from other archaic forms in the poem, indicating they have not read the Language Work box carefully.",
     "id": "gen_c12_eng_k_ch06_q11",
     "nodeId": "c12_eng_k_cbse_06_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you find a 400-year-old letter in your grandmother's attic — the spelling looks 'wrong' (shoppe, olde, goode), there are no apostrophes in",
-     "That is exactly what you face with Donne's 1633 poem.",
-     "Start by reading the Language Work box in your textbook: notice the list of words ending in '-e' that modern English dropped.",
-     "Ask: \"Why did printers add that silent 'e'?\" (Answer: to signal vowel length in Middle English, later fossilised as convention)."
+     "Read 'A Lecture Upon the Shadow' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -4959,20 +5041,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define literal comprehension in your own words and give one example of a literal question from \"A Lecture Upon the Shadow\".",
     "answer": "Literal comprehension involves extracting information directly stated in the text without interpretation",
     "options": [
-     "The protagonist is the poetic persona — a male speaker addressing his female beloved (\"Love,\" \"thou,\" \"thee\"). He is not John Donne himself, but a constructed voice",
-     "The six words are: houres, shadowes, Sunne, noone, clearnesse, behinde",
+     "Students treat the shadow imagery as *decoration* — \"Donne uses shadows to show love has ups and downs.\" This misses the argumentative function of the conceit",
+     "The student can independently write a 150-200 word analytical answer on any aspect of \"A Lecture Upon the Shadow\" (theme, imagery, metaphysical conceit, structure",
      "Literal comprehension involves extracting information directly stated in the text without interpretation"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'A' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It represents maturity\") reveals the student confuses literal retrieval with inference — they cannot distinguish explicit facts from implied meanings.",
     "id": "gen_c12_eng_k_ch06_q12",
     "nodeId": "c12_eng_k_cbse_06_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the CBSE exam hall and the question reads: \"What do the morning shadows represent in the poem?",
-     "Start by reading the question twice, underlining keywords (\"morning shadows\", \"represent\").",
-     "Scan the poem for the phrase \"morning shadowes\" (stanza 3).",
-     "Note the explicit lines: \"The morning shadowes were away, / But these grow longer all the day\"."
+     "Answer 'A Lecture Upon the Shadow' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -5032,10 +5111,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_06_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a detective examining a crime scene — the poem is the scene, and the \"shadow\" is your key clue.",
-     "Donne doesn't just describe shadows; he builds an entire philosophical argument using them as a metaphysical conceit.",
-     "Start by reading the poem aloud twice: first for the \"music\" (rhythm, rhyme, pacing), second with a pencil marking every occurrence of \"shadow,\"",
-     "The critical insight: Donne argues that perfect love exists ONLY at the \"noon\" moment — transparent, shadowless — and any deviation creates deception."
+     "Analyse 'A Lecture Upon the Shadow' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -5095,10 +5172,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_06_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"How does Donne use the shadow metaphor to trace the stages of love in 'A Lecture Upon the",
-     "Begin by reading the question twice, circling the key terms: \"shadow metaphor,\" \"stages of love,\" \"trace.",
-     "Your first step: write a clear POINT sentence answering the question directly.",
-     "Second: select two sharp pieces of EVIDENCE — e.g., \"These three houres that we have spent / Walking here, Two shadowes went / Along with us\""
+     "For written answers on 'A Lecture Upon the Shadow', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -5106,20 +5180,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary purpose of preparing discussion points before a speaking and listening activity on a poem?",
     "answer": "The primary purpose is to anchor oral contributions in specific textual evidence (lines, images",
     "options": [
-     "Metaphysical poetry is a 17th-century style marked by intellectual complexity, extended conceits (unlikely comparisons), argumentative structure",
-     "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet",
+     "Secondary themes are the subordinate but significant ideas that run alongside the primary theme in a literary work",
+     "The student can (1) trace the development of the central symbol (shadow) across the three stages of the poem (morning, noon",
      "The primary purpose is to anchor oral contributions in specific textual evidence (lines, images"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'A Lecture' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to memorize what to say\" reveals the student views discussion as performance rather than collaborative inquiry, missing that points are springboards for responsive dialogue.",
     "id": "gen_c12_eng_k_ch06_q15",
     "nodeId": "c12_eng_k_cbse_06_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in a literature circle with three classmates, each holding a copy of Donne's poem.",
-     "The teacher says, \"Discuss the poem for 10 minutes.\" Where do you begin?",
-     "First, read the poem aloud together — hearing the rhythm reveals the argument's movement.",
-     "Next, each person marks one line that puzzles them and one that feels like the \"turn\" in the argument."
+     "Talk through 'A Lecture Upon the Shadow' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -5131,7 +5202,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Correct: They enhance by signalling the poem’s historical distance and reinforcing the “lecture” tone",
      "The title shifts focus from the abstract emotion (love) to the concrete, observable phenomenon (shadows) that structures the poem's logic"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Lecture Upon the Shadow'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"shadows are just a metaphor\" misses the title's function: it announces the poem's method — love is known *only* by tracing the shadow's behavior across the day. The title makes the conceit the *organizing principle*, not mere decoration.",
     "id": "gen_c12_eng_k_ch06_q16",
     "nodeId": "c12_eng_k_cbse_06_001",
@@ -5146,7 +5217,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The primary addressee is the beloved, addressed as \"Love\" in the first line: \"Stand still, and I will read to thee / A Lecture, Love, in loves philosophy\"",
      "*Example:* \"Our soules two spheres, distinct yet concentricke, Drawe perfect circles round one fixed centre"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Lecture Upon the Shadow'' slide -- match the key terms.",
     "misconception": "A poor answer uses a cliché simile (\"love is like a rose\") without logical development or archaic flavor.",
     "id": "gen_c12_eng_k_ch06_q17",
     "nodeId": "c12_eng_k_cbse_06_001",
@@ -5161,7 +5232,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The beloved is a silent listener who never speaks or acts in the poem. The speaker delivers a lecture to them, dictating the terms of love",
      "The claim is partially defensible but incomplete. The couplet presents a stark binary: love must be *either* \"growing\" (morning, increasing) *or* \"full constant light\" (noon"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Lecture Upon the Shadow'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"Donne is pessimistic\" ignores the imperative mood — the poem is a warning *to sustain* noon, not a declaration of its impossibility.",
     "id": "gen_c12_eng_k_ch06_q18",
     "nodeId": "c12_eng_k_cbse_06_001",
@@ -5170,23 +5241,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'a lecture upon the shadow'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'A Lecture Upon The Shadow' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch07",
-  "title": "Before You Read: Context and Background",
+  "title": "'On Time' — The Context And Background To This",
   "subtitle": "English · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch7: Before You Read: Context and Background"],
+  "topic": "'On Time' — The Context And Background To This Text",
+  "chapters": [
+   "English Ch7: 'On Time' — The Context And Background To This Text"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_07_001",
    "c12_eng_k_cbse_07_002",
@@ -5211,103 +5284,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'On Time' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" for Milton's poems provides the essential historical, biographical, and literary framework needed to"
+   "hook": "'On Time' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" for Milton's poems provides the essential historical, biographical, and literary framework needed to interpret \"On Time\" and \"On Shakespeare\" — including Milton's life (1608–1674), his blindness, his role as Latin",
+    "text": "'On Time' (Kaleidoscope, ch. 7) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In Poetry, Plot And Narrative Structure",
-    "text": "In poetry, plot and narrative structure refers to the organized progression of ideas, arguments, or emotional movements through stanzas and lines — how a poem develops its central concern from opening situation through complication to resolution, using",
+    "title": "Plot/narrative Arc Of 'On Time'",
+    "text": "The plot/narrative arc of 'On Time' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the temporal, spatial, and metaphysical context in which the poem's action or reflection occurs, while atmosphere is the emotional mood or tone evoked through imagery, diction, sound devices, and structural choices.",
+    "title": "Setting Of 'On Time'",
+    "text": "The setting of 'On Time' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in poetry involves examining the speaker's voice, perspective, attitudes, and emotional journey as revealed through diction, imagery, tone, and structure.",
+    "title": "Character Analysis In 'On Time'",
+    "text": "Character analysis in 'On Time' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters In Poetry",
-    "text": "Supporting characters in poetry are personified abstractions, symbolic figures, or foils that interact with the protagonist to develop the poem's central conflict and theme.",
+    "title": "Supporting Characters In 'On Time'",
+    "text": "Supporting characters in 'On Time' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea or insight about human experience that the poet develops through imagery, structure, and language; the message is the specific truth or perspective the poet wishes to convey about that theme.",
+    "title": "Primary Theme Of 'On Time'",
+    "text": "The primary theme of 'On Time' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that support or complement the primary theme, often exploring related but distinct aspects of the human experience — such as the contrast between temporal and eternal, the immortality of art, or the critique of",
+    "title": "Secondary Themes In 'On Time'",
+    "text": "Secondary themes in 'On Time' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke emotions.",
+    "title": "Imagery In 'On Time'",
+    "text": "Imagery in 'On Time' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning is opposite to the literal meaning, or where there is a contrast between expectation and reality.",
+    "title": "Irony And Paradox In 'On Time' — Where",
+    "text": "Irony and paradox in 'On Time' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context refers to the skill of determining the meaning of unfamiliar or archaic words by analyzing their surrounding text, poetic structure, and etymological roots, especially in literary works where words carry layered connotations beyond",
+    "title": "Key Vocabulary Of 'On Time'",
+    "text": "Key vocabulary of 'On Time' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Language Usage In Poetry",
-    "text": "Language usage in poetry refers to the deliberate grammatical, syntactic, and lexical choices a poet makes — including archaic forms, contractions, inversions, and etymological layers — to create rhythm, tone, and meaning within the constraints of verse form.",
+    "title": "Language And Style In 'On Time'",
+    "text": "Language and style in 'On Time' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated information from the text, while inferential comprehension questions demand logical deduction based on textual evidence, context, and implied meaning — both essential for answering",
+    "title": "Literal Comprehension Of 'On Time'",
+    "text": "Literal comprehension of 'On Time' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Poetry Analysis",
-    "text": "Critical thinking in poetry analysis is the disciplined process of examining a poem's structure, language, imagery, and themes to form an evidence-based interpretation that goes beyond surface meaning, evaluating how the poet's choices shape the reader's",
+    "title": "Critical Thinking On 'On Time'",
+    "text": "Critical thinking on 'On Time' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills Based On a Poetry",
-    "text": "Writing skills based on a poetry chapter at Class 12 level refer to the ability to produce structured, evidence-based analytical responses — such as critical appreciations, thematic analyses, and comparative answers — that demonstrate understanding of poetic",
+    "title": "Writing Skills From 'On Time'",
+    "text": "Writing skills from 'On Time' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points for Milton's poems involves structured oral activities where students collaboratively analyze, interpret, and evaluate \"On Time\" and \"On Shakespeare\" through guided discussion, practicing evidence-based argumentation,",
+    "title": "Discussion Points On 'On Time'",
+    "text": "Discussion points on 'On Time' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -5320,19 +5393,16 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "options": [
      "The volta occurs at line 7: \"Dear son of memory, great heir of Fame.\" Before: lines 1-6 reject stone monuments (rhetorical questions, negative diction: \"needs,\" \"weak witness\")",
      "No marble slab nor gilded dome need rise, (A) To guard the name that never truly dies. (A) But in the minds where living thoughts take flight",
-     "Latin, Greek, and Thematic",
+     "Latin, Greek, and Tomb",
      "Latin, Greek, and Italian"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''On Time' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “French, German, Spanish”) shows the student has not read the biographical note carefully and will miss the classical allusions that saturate Milton’s verse.",
     "id": "gen_c12_eng_k_ch07_q1",
     "nodeId": "c12_eng_k_cbse_07_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a historical drama set in 17th‑century England — you would want to know who the king is, what the religious conflicts",
-     "Similarly, before reading Milton, ask: *Who was this blind poet dictating epics?",
-     "What world did he live in?* Begin by reading the textbook’s biographical note (p.",
-     "94) and the “Notes” on “Envious Time” and “Plummets”."
+     "Start with the author of 'On Time', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -5344,16 +5414,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "In \"On Time\", the irony is that Time, the devourer, is itself devoured, so the temporal power destroys itself",
      "A narrative poem follows a chronological story with characters, events, and settings unfolding in time (exposition → rising action → climax → resolution)"
     ],
-    "hint": "Straight from the 'In poetry, plot and narrative' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"lyric poems have no plot\") reveals the misconception that only event-driven sequences count as structure — missing that idea-development IS a structural arc.",
     "id": "gen_c12_eng_k_ch07_q2",
     "nodeId": "c12_eng_k_cbse_07_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a lawyer present a case in court: they don't dump all evidence at once — they open with a claim, build arguments step by",
-     "Milton's poems work the same way.",
-     "Start by reading each poem aloud twice — first for flow, second to mark where the \"argument\" shifts.",
-     "In \"On Time,\" notice how the first 8 lines attack Time's pettiness, then line 9 (\"For when as each thing bad...\") pivots to Eternity's triumph."
+     "Trace 'On Time' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -5413,10 +5480,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_07_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into a room where someone is reading a poem aloud — you instantly feel a mood before you understand every word.",
-     "That immediate feeling is atmosphere, and the \"where and when\" the poem creates is setting.",
-     "Start by reading both poems aloud, noticing where the speaker seems to be standing: in \"On Time,\" the speaker addresses Time as a cosmic force; in",
-     "Mark words that indicate time (e.g., \"hours,\" \"Eternity\"), place (e.g., \"Throne,\" \"Pyramid\"), and mood (e."
+     "Identify where and when 'On Time' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -5428,15 +5492,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Expected: A stanza showing Miltonic diction (e.g., 'envious Time', 'piled Stones', 'heav'nly guided') and a clear thematic contrast",
      "The speaker reveals himself as morally discerning and spiritually confident — he sees through Time's apparent power to its essential emptiness (\"mortal dross\")"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer would describe Time's traits (e.g., \"Time is jealous\") instead of the speaker's judgment. This confusion shows the student cannot distinguish between the object described and the describing consciousness.",
     "id": "gen_c12_eng_k_ch07_q4",
     "nodeId": "c12_eng_k_cbse_07_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to a friend passionately argue that true art outlives stone monuments — that's the speaker in \"On Shakespeare.",
-     "Ask: \"What does this speaker VALUE?\" In \"On Time,\" the speaker values eternal truth over temporal decay; in \"On Shakespeare,\" he values living",
-     "Track how the speaker's tone shifts from defiance to triumph in \"On Time\" and from rhetorical questioning to awe in \"On Shakespeare."
+     "Pick the central figure in 'On Time' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -5444,20 +5506,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the supporting personified figures in Milton's \"On Time\" and briefly state what each represents.",
     "answer": "The \"lazy leaden-stepping hours\" (slow, heavy passage of time), the \"heavy Plummets pace\" (mechanical, leaden clock movement), \"Eternity\" (timeless divine realm)",
     "options": [
-     "The archaic pronoun is \"thou\" (nominative case), appearing in \"Fly envious Time, till thou run out thy race\"",
-     "The contrast between temporal things (described as 'false and vain', 'mortal dross') and eternal virtues (Truth, Peace, Love)",
+     "The student can explain how Milton’s blindness, Puritan convictions, and classical education influence the themes of time, eternity",
+     "The primary setting of \"On Time\" is a metaphysical realm where Time is personified as a cosmic force and the poem moves toward a timeless eternity",
      "The \"lazy leaden-stepping hours\" (slow, heavy passage of time), the \"heavy Plummets pace\" (mechanical, leaden clock movement), \"Eternity\" (timeless divine realm)"
     ],
-    "hint": "Straight from the 'Supporting characters in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only \"Time\" or misses the virtues reveals the student is still hunting for human characters instead of recognizing Milton's allegorical personifications.",
     "id": "gen_c12_eng_k_ch07_q5",
     "nodeId": "c12_eng_k_cbse_07_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main actor (Time or Shakespeare) dominates the stage, but the supporting cast — the Hours dragging their",
-     "That's what supporting characters do in these poems.",
-     "Begin by re-reading both poems aloud, circling every capitalized noun that acts like a character: Hours, Plummets, Eternity, Joy, Truth, Peace, Love,",
-     "Ask: \"If this abstraction were a person in a drama, what would its costume, voice, and motive be?"
+     "Spot the secondary figures in 'On Time' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -5517,10 +5576,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_07_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in a centuries-old cemetery: some graves have elaborate marble monuments that are crumbling, while others have simple stones",
-     "Which monument truly lasts?",
-     "Milton asks this exact question in two different ways.",
-     "Begin by reading \"On Time\" aloud — notice how the first 8 lines feel heavy, slow, and claustrophobic (Time \"glut[s]\" itself on \"mortal dross\"), while"
+     "Ask what 'On Time' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -5528,20 +5584,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List two secondary themes from Milton's \"On Time\".",
     "answer": "The contrast between temporal things (described as 'false and vain', 'mortal dross') and eternal virtues (Truth, Peace, Love)",
     "options": [
-     "The metaphor is \"built thy self a live-long Monument\" — Shakespeare *is* a living monument (tenor: Shakespeare; vehicle: monument)",
-     "The primary theme of \"On Time\" is the conflict between the fleeting, destructive nature of Time and the ultimate triumph of eternity and the divine soul",
+     "The student can independently write a 150-200 word critical appreciation of either Milton poem, embedding at least three textual references, analyzing two poetic devices",
+     "\"Before You Read: Context and Background\" for Milton's poems provides the essential historical, biographical",
      "The contrast between temporal things (described as 'false and vain', 'mortal dross') and eternal virtues (Truth, Peace, Love)"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists the primary theme (\"Time is defeated\") or literary devices (\"personification of Time\") reveals confusion between theme, primary theme, and technique.",
     "id": "gen_c12_eng_k_ch07_q7",
     "nodeId": "c12_eng_k_cbse_07_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you've just identified the main message of a poem — say, \"Time is defeated by Eternity.",
-     "What other ideas run underneath?\" That's the hunt for secondary themes.",
-     "In Milton's poems, start by re-reading and marking every sharp contrast: 'mortal dross' vs.",
-     "Ask: What values does the poet elevate by putting them against something inferior?"
+     "Look beneath the main theme of 'On Time' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -5549,20 +5602,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define imagery and metaphor in your own words, giving one example of each from everyday language (not from the poems).",
     "answer": "Imagery is descriptive language that appeals to the senses (e.g., \"The rain drummed on the tin roof\" — auditory imagery)",
     "options": [
-     "The primary theme of \"On Time\" is the conflict between the fleeting, destructive nature of Time and the ultimate triumph of eternity and the divine soul",
-     "The contrast between temporal things (described as 'false and vain', 'mortal dross') and eternal virtues (Truth, Peace, Love)",
+     "The student can independently identify all supporting personifications in both poems, explain how each functions as a foil or thematic counterpoint to the protagonist",
+     "Students treat archaic words as \"old-fashioned synonyms\" — e.g., thinking \"conceaving\" just means \"conceiving\" with an old spelling",
      "Imagery is descriptive language that appeals to the senses (e.g., \"The rain drummed on the tin roof\" — auditory imagery)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'On Time'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student gives a simile (\"Time is *like* a thief\") as a metaphor example, they confuse the two devices. If they list only visual descriptions for imagery, they miss auditory, tactile, etc. This shows a superficial, textbook-only understanding.",
     "id": "gen_c12_eng_k_ch07_q8",
     "nodeId": "c12_eng_k_cbse_07_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are scrolling through Instagram and a reel shows a time-lapse of a flower blooming and withering in seconds — you instantly *feel* the",
-     "Milton does the same with words.",
-     "Begin by reading \"On Time\" aloud twice: first for the rhythm, second to underline every word that triggers a sensory response (e.",
-     "Next, circle every direct comparison where one thing is named as another (e.g., \"envious Time\" as a greedy devourer, \"lazy leaden-stepping hours\" as"
+     "Find the lines in 'On Time' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -5570,20 +5620,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define irony and symbolism in your own words, and give one example of each from everyday life (not from the poems).",
     "answer": "Irony is a contrast between expectation and reality (e.g., a fire station burning down). Symbolism is using an object to represent a deeper meaning (e",
     "options": [
-     "The primary setting of \"On Time\" is a metaphysical realm where Time is personified as a cosmic force and the poem moves toward a timeless eternity",
-     "The \"lazy leaden-stepping hours\" (slow, heavy passage of time), the \"heavy Plummets pace\" (mechanical, leaden clock movement), \"Eternity\" (timeless divine realm)",
+     "\"Before You Read: Context and Background\" for Milton's poems provides the essential historical, biographical",
+     "Irony is a literary device where the intended meaning is opposite to the literal meaning, or where there is a contrast between expectation and reality",
      "Irony is a contrast between expectation and reality (e.g., a fire station burning down). Symbolism is using an object to represent a deeper meaning (e"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'On Time' —' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses irony with coincidence or symbolism with mere decoration reveals the student cannot distinguish the literary device from its superficial resemblance.",
     "id": "gen_c12_eng_k_ch07_q9",
     "nodeId": "c12_eng_k_cbse_07_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"On Time\" and notice that Time is described as \"envious\" and \"greedy\" but ends up consuming itself.",
-     "Why would the poet give human vices to an abstract concept?",
-     "Start by reading the poem aloud and marking words that suggest human qualities (personification) and words that represent abstract ideas (symbols).",
-     "Then ask: what is the contrast between what Time thinks it gains and what it actually loses?"
+     "Look in 'On Time' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -5632,10 +5679,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_07_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"On Time\" and stumble on \"leaden-stepping hours\" — you know \"lead\" is heavy, but why \"stepping\"?",
-     "Start by reading the line aloud: \"Call on the lazy leaden-stepping hours\".",
-     "Notice the rhythm — the word itself drags like heavy footsteps.",
-     "Next, look at the next line: \"Whose speed is but the heavy Plummets pace\"."
+     "Note the difficult or loaded words in 'On Time' — their meaning carries the text's precision."
     ]
    },
    {
@@ -5643,20 +5687,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the archaic second-person singular pronoun used in \"On Time\" and state its grammatical case.",
     "answer": "The archaic pronoun is \"thou\" (nominative case), appearing in \"Fly envious Time, till thou run out thy race\"",
     "options": [
-     "The metaphor is \"built thy self a live-long Monument\" — Shakespeare *is* a living monument (tenor: Shakespeare; vehicle: monument)",
-     "The primary theme of \"On Time\" is the conflict between the fleeting, destructive nature of Time and the ultimate triumph of eternity and the divine soul",
+     "The student can identify specific instances of irony and symbolism in Milton's poems, explain how they function to deepen the theme",
+     "The student can trace the structural arc of Milton's \"On Time\" and \"On Shakespeare\" by identifying the opening premise, the development of argument across stanzas/sections",
      "The archaic pronoun is \"thou\" (nominative case), appearing in \"Fly envious Time, till thou run out thy race\""
     ],
-    "hint": "Straight from the 'Language usage in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"thy\" (possessive) or \"thee\" (objective) reveals confusion between archaic case forms — a common error because modern English only has \"you\" for all cases.",
     "id": "gen_c12_eng_k_ch07_q11",
     "nodeId": "c12_eng_k_cbse_07_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"On Time\" aloud and stumble over \"thou run'st\" — wait, the text says \"thou run\" without the 'st'.",
-     "A Class 12 student might assume it's a typo, but it's actually a deliberate archaic form.",
-     "Start by reading both poems aloud, marking every word that looks \"odd\" — 'thy', 'thou', 'hast', 'dost', 'entomb'd', 'conceaving', 'Shakespear'.",
-     "Ask: \"Is this error or intention?\" Then categorize each oddity: pronoun, verb ending, contraction, spelling."
+     "Read 'On Time' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -5664,20 +5705,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify whether the following question is literal or inferential: \"According to the poem 'On Time,' what does Time's 'womb' devour?\"",
     "answer": "This is a literal comprehension question. The answer is explicitly stated in lines 5-6: \"what thy womb devours, / Which is no more than what is false and vain",
     "options": [
-     "The primary setting of \"On Time\" is a metaphysical realm where Time is personified as a cosmic force and the poem moves toward a timeless eternity",
+     "The student can independently identify all supporting personifications in both poems, explain how each functions as a foil or thematic counterpoint to the protagonist",
      "The primary theme of \"On Time\" is the conflict between the fleeting, destructive nature of Time and the ultimate triumph of eternity and the divine soul",
      "This is a literal comprehension question. The answer is explicitly stated in lines 5-6: \"what thy womb devours, / Which is no more than what is false and vain"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'On Time'' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: This is a literal comprehension question. The answer is explicitly stated in lines 5-6: \"what thy womb devours, / Which",
     "id": "gen_c12_eng_k_ch07_q12",
     "nodeId": "c12_eng_k_cbse_07_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam and see a question: \"Why does Milton call Time 'envious' in 'On Time'?",
-     "But this question asks *why* — you must infer from context: Time is envious because it destroys beauty and life, like the mythological Cronos",
-     "Start by reading the question twice.",
-     "Underline key words: \"envious,\" \"Time.\" Scan the poem for these words."
+     "Answer 'On Time' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -5689,16 +5727,14 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "\"I know Time's power is temporary and self-destructive, while eternal joy is inevitable.\" Steps: 1) Identify the imperative \"Fly\" as the speaker's command",
      "The \"heavy Plummets pace\" literally refers to the lead weight (plummet) that regulates a mechanical clock's ticking"
     ],
-    "hint": "Straight from the 'Critical thinking in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Time flies fast like a plummet falling\") reveals the student misses the clock mechanism imagery and the deliberate contrast between \"Fly envious Time\" (line 1) and the \"leaden-stepping hours\" (line 2), missing Milton's paradox: Time feels fast to us but is cosmically slow and heavy.",
     "id": "gen_c12_eng_k_ch07_q13",
     "nodeId": "c12_eng_k_cbse_07_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective examining a crime scene — the poem is the scene, and the poet's words are the clues.",
-     "You don't just read the poem; you interrogate it.",
-     "Start by reading \"On Time\" aloud twice: first for the story (what is Time doing?), then for the sound (notice the heavy 'l' sounds in",
-     "Ask: why does Milton make Time sound slow and heavy when Time is usually described as flying?"
+     "Analyse 'On Time' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -5706,20 +5742,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the four components of the PEEL paragraph structure used in literary analysis answers?",
     "answer": "The four components are: Point (topic sentence stating the argument), Evidence (quoted or paraphrased textual support), Explanation (analysis of how the evidence works",
     "options": [
-     "The \"lazy leaden-stepping hours\" (slow, heavy passage of time), the \"heavy Plummets pace\" (mechanical, leaden clock movement), \"Eternity\" (timeless divine realm)",
-     "The primary theme of \"On Time\" is the conflict between the fleeting, destructive nature of Time and the ultimate triumph of eternity and the divine soul",
+     "Irony is a literary device where the intended meaning is opposite to the literal meaning, or where there is a contrast between expectation and reality",
+     "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers",
      "The four components are: Point (topic sentence stating the argument), Evidence (quoted or paraphrased textual support), Explanation (analysis of how the evidence works"
     ],
-    "hint": "Straight from the 'Writing skills based on a poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Introduction, Body, Conclusion\" reveals the student confuses essay-level structure with paragraph-level analytical structure. Another error: listing \"Quote, Device, Meaning\" — this misses the crucial *Link* step that ties analysis to the central argument.",
     "id": "gen_c12_eng_k_ch07_q14",
     "nodeId": "c12_eng_k_cbse_07_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"Write a critical appreciation of 'On Shakespeare'.",
-     "Begin by reading the question twice and underlining key words: \"critical appreciation\" means evaluate + analyze, not summarize.",
-     "Next, annotate the poem in 2 minutes: mark rhyme scheme (AA BB), note metaphors (\"live-long Monument\", \"Marble\"), and identify the turn in thought",
-     "Now plan three PEEL paragraphs: (1) structure & tone, (2) key devices & their effect, (3) theme of immortality through art."
+     "For written answers on 'On Time', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -5727,20 +5760,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary purpose of a literary discussion on a poem like Milton's \"On Time\" in a Class 12 classroom?",
     "answer": "The primary purpose is to collaboratively construct meaning by testing interpretations against textual evidence, not merely to share personal opinions",
     "options": [
-     "The \"lazy leaden-stepping hours\" (slow, heavy passage of time), the \"heavy Plummets pace\" (mechanical, leaden clock movement), \"Eternity\" (timeless divine realm)",
-     "The contrast between temporal things (described as 'false and vain', 'mortal dross') and eternal virtues (Truth, Peace, Love)",
+     "Students treat literary discussion as a \"sharing circle\" where all opinions are equally valid, leading to vague comments like \"It's deep\" or \"I like the imagery",
+     "The student can explain how Milton’s blindness, Puritan convictions, and classical education influence the themes of time, eternity",
      "The primary purpose is to collaboratively construct meaning by testing interpretations against textual evidence, not merely to share personal opinions"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'On Time'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to express your feelings about the poem\" reveals the misconception that literary discussion is subjective self-expression rather than evidence-based analysis. Students who answer this way typically struggle to cite lines when challenged.",
     "id": "gen_c12_eng_k_ch07_q15",
     "nodeId": "c12_eng_k_cbse_07_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle where your teacher asks: \"Milton says Time is 'envious' and 'greedy' — is Time really a villain, or is Milton",
-     "Discuss in groups of four.\" You notice some students just say \"I agree\" while others quote lines like \"Fly envious Time, till thou run out thy race.",
-     "The second group treats discussion as textual detective work.",
-     "Start by reading the poem aloud — hear the rhythm of \"lazy leaden-stepping hours.\" Then identify one claim you want to make (e."
+     "Talk through 'On Time' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -5752,7 +5782,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Refute. The Kings are a *concluding flourish*, not the core support. The real thematic work is done by \"slow endeavouring art\" (the foil to Shakespeare's ease)",
      "As a civil servant of the revolutionary government, Milton valued merit over hereditary pomp"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''On Time' — the context and' slide -- match the key terms.",
     "misconception": "A response that ignores Milton’s political career fails to connect his republican ideals to his literary criticism.",
     "id": "gen_c12_eng_k_ch07_q16",
     "nodeId": "c12_eng_k_cbse_07_001",
@@ -5767,7 +5797,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "In \"On Time\": Time is personified as a greedy, envious creature with a \"womb\" that \"devours\" and a \"greedy self\" that is finally \"consum'd\"",
      "The plummet’s slow, mechanical descent mirrors the “lazy leaden‑stepping hours” — time feels ponderous and artificial to a soul awaiting eternity"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''On Time' — the context and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The plummet’s slow, mechanical descent mirrors the “lazy leaden‑stepping hours” — time feels ponderous and artificial",
     "id": "gen_c12_eng_k_ch07_q17",
     "nodeId": "c12_eng_k_cbse_07_001",
@@ -5782,7 +5812,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "*Example student response:* \"Fly, algorithm, feed on fleeting gaze, Consume the scroll, the like, the hollow praise",
      "Example: “Fly, envious Hours, till answer‑scripts are done, / Call on the lagging minutes, heavy‑lead, / That crawl like plummets till the set of sun"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''On Time' — the context and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: “Fly, envious Hours, till answer‑scripts are done, / Call on the lagging minutes, heavy‑lead, / That crawl",
     "id": "gen_c12_eng_k_ch07_q18",
     "nodeId": "c12_eng_k_cbse_07_001",
@@ -5791,24 +5821,24 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'on time' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'On Time' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch08",
-  "title": "This Node Provides The Essential Historical",
+  "title": "'Poems By Blake' — The Context And Background",
   "subtitle": "English · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "This Node Provides The Essential Historical",
+  "topic": "'Poems By Blake' — The Context And Background To Thi",
   "chapters": [
-   "English Ch8: This Node Provides The Essential Historical"
+   "English Ch8: 'Poems By Blake' — The Context And Background To Thi"
   ],
   "nodeIds": [
    "c12_eng_k_cbse_08_001",
@@ -5834,103 +5864,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses This Node Provides The Essential in real working life?",
+   "question": "Who uses 'Poems By Blake' — The Context in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "This node provides the essential historical, biographical, and literary context for William Blake's paired poems \"The Divine Image\" (from *Songs of"
+   "hook": "'Poems by Blake' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "This Node Provides The Essential Historical",
-    "text": "This node provides the essential historical, biographical, and literary context for William Blake's paired poems \"The Divine Image\" (from *Songs of Innocence*) and \"The Human Abstract\" (from *Songs of Experience*), including Blake's rejection of Enlightenment",
+    "title": "Before You Read: Context and Background",
+    "text": "'Poems by Blake' (Kaleidoscope, ch. 8) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot And Narrative Structure In Poetry",
-    "text": "Plot and narrative structure in poetry refers to the organized progression of ideas, images, and arguments across stanzas that creates a coherent movement from beginning to end — in Blake's paired poems, this manifests as a deliberate structural contrast",
+    "title": "Plot/narrative Arc Of 'Poems",
+    "text": "The plot/narrative arc of 'Poems by Blake' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "In Poetry, Setting",
-    "text": "In poetry, setting refers to the time, place, and social environment where the poem's ideas unfold — which in Blake's lyrics is often metaphorical (e.",
+    "title": "Setting Of 'Poems By Blake'",
+    "text": "The setting of 'Poems by Blake' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "In Poetry, Character Analysis Examines",
-    "text": "In poetry, character analysis examines the speaker/persona, personified abstractions, and the depiction of humanity as dramatic constructs. For Blake's paired poems, the \"protagonist\" is the human soul portrayed in two contrary states: the innocent human who",
+    "title": "Character Analysis In 'Poems By Blake'",
+    "text": "Character analysis in 'Poems by Blake' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Blake's Paired Poems, Supporting",
-    "text": "In Blake's paired poems, supporting characters are the personified virtues (Mercy, Pity, Peace, Love) and vices (Cruelty, Humility, Mystery, Deceit, Raven) that embody abstract qualities and drive the thematic contrast between innocence and experience.",
+    "title": "Supporting Characters In 'Poems By Blake'",
+    "text": "Supporting characters in 'Poems by Blake' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Primary Theme Of Blake's",
-    "text": "The primary theme of Blake's paired poems \"The Divine Image\" and \"The Human Abstract\" is the contrast between the innate divine virtues in human innocence (Mercy, Pity, Peace, Love) and their corruption in human experience through selfishness, fear, and",
+    "title": "Primary Theme Of 'Poems",
+    "text": "The primary theme of 'Poems by Blake' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas that run beneath the primary theme of a poem, enriching its meaning by exploring nuanced perspectives on human nature, society, spirituality, or morality.",
+    "title": "Secondary Themes In 'Poems By Blake'",
+    "text": "Secondary themes in 'Poems by Blake' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'Poems By Blake'",
+    "text": "Imagery in 'Poems by Blake' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony In Blake's Paired Poems",
-    "text": "Irony in Blake's paired poems is the structural contradiction where virtues in *The Divine Image* (Mercy, Pity, Peace, Love) become dependent on human suffering in *The Human Abstract* (Pity requires poverty, Mercy requires unhappiness).",
+    "title": "Irony And Paradox In 'Poems By Blake' —",
+    "text": "Irony and paradox in 'Poems by Blake' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of specific words *as they are used within a particular literary text*, rather than relying solely on isolated dictionary definitions.",
+    "title": "Key Vocabulary Of 'Poems By Blake'",
+    "text": "Key vocabulary of 'Poems by Blake' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic study of how grammatical choices — such as capitalization, meter, archaic forms, syntactic inversion, and personification of abstract nouns — shape meaning, tone, and thematic depth in Blake's poems",
+    "title": "Language And Style In 'Poems",
+    "text": "Language and style in 'Poems by Blake' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the text (who, what, where, when), while inferential comprehension questions require drawing logical conclusions by connecting textual evidence with prior knowledge — the",
+    "title": "Literal Comprehension Of 'Poems By Blake'",
+    "text": "Literal comprehension of 'Poems by Blake' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Poetry Analysis",
-    "text": "Critical thinking in poetry analysis is the disciplined process of examining how a poet uses structural contrasts, symbolic imagery, and philosophical argument to present opposing perspectives on human nature, and evaluating the implications of these",
+    "title": "Critical Thinking On 'Poems By Blake'",
+    "text": "Critical thinking on 'Poems by Blake' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter refer to the ability to compose structured, evidence-based analytical responses about Blake's paired poems *The Divine Image* and *The Human Abstract*, using the PEEL (Point, Evidence, Explanation, Link) framework to",
+    "title": "Writing Skills From 'Poems By Blake'",
+    "text": "Writing skills from 'Poems by Blake' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students articulate interpretations, debate thematic contrasts, and collaboratively analyze the paired poems \"The Divine Image\" (Songs of Innocence) and",
+    "title": "Discussion Points On 'Poems By Blake'",
+    "text": "Discussion points on 'Poems by Blake' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -5941,20 +5971,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two collections from which the prescribed poems are taken, and what phrase does Blake use to describe the relationship between them?",
     "answer": "The poems are taken from *Songs of Innocence* (\"The Divine Image\") and *Songs of Experience* (\"The Human Abstract\")",
     "options": [
-     "The four virtues are Mercy, Pity, Peace, and Love",
-     "1. Anthropomorphism of the Divine/Virtues: The poem equates God and abstract virtues with human attributes",
+     "The student can trace the stanza-by-stanza logical progression in both poems, identify how Blake uses parallel structure to create ironic contrast",
+     "The student can (1) identify at least two distinct types of irony (situational, dramatic, structural) operating across the two poems with textual evidence",
      "The poems are taken from *Songs of Innocence* (\"The Divine Image\") and *Songs of Experience* (\"The Human Abstract\")"
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
+    "hint": "Straight from the ''Poems by Blake' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying they are from the same collection or that one is a sequel to the other) reveals that the student has not grasped the foundational concept of \"contrary states\" and will likely read the poems as a simple before‑after narrative rather than a dialectic.",
     "id": "gen_c12_eng_k_ch08_q1",
     "nodeId": "c12_eng_k_cbse_08_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you open your textbook and see two poems with almost opposite titles — \"The Divine Image\" and \"The Human Abstract\" — by the same poet.",
-     "You might wonder: why would a poet write two poems that seem to contradict each other?",
-     "Start by reading the short biographical note in the textbook: Blake was not just a poet but an engraver and painter who hand‑crafted every copy of",
-     "Notice the phrase \"two contrary states of the human soul.\" That is your key."
+     "Start with the author of 'Poems by Blake', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -5962,20 +5989,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the stanza-by-stanza logical progression in *The Divine Image*? Describe what each of the four stanzas accomplishes in advancing the poem's argument.",
     "answer": "Stanza 1 establishes the four virtues (Mercy, Pity, Peace, Love) as objects of prayer in distress. Stanza 2 equates these virtues with God the Father and Man as His child",
     "options": [
-     "The Divine Image locates virtues in the human heart, face, form, and dress — the body as a sacred vessel where God dwells",
-     "The four virtues are Mercy, Pity, Peace, and Love. The poem states they are \"God our father dear\" and also \"Man",
+     "Misconception: \"Irony in these poems is just that the second poem contradicts the first.\" Why it's wrong: That is contrast, not irony",
+     "Mercy → human heart; Pity → human face; Love → human form divine; Peace → human dress",
      "Stanza 1 establishes the four virtues (Mercy, Pity, Peace, Love) as objects of prayer in distress. Stanza 2 equates these virtues with God the Father and Man as His child"
     ],
-    "hint": "Straight from the 'Plot and narrative structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Poems' slide -- match the key terms.",
     "misconception": "A wrong answer that merely lists themes or quotes lines without showing the *progression* reveals the student sees the poem as a static list rather than a dynamic argument — they miss how each stanza builds on the previous to expand from individual prayer to universal human unity.",
     "id": "gen_c12_eng_k_ch08_q2",
     "nodeId": "c12_eng_k_cbse_08_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a time-lapse video of a building being constructed and then demolished — that's what Blake does with human virtue across",
-     "Start by reading both poems aloud, noticing how *The Divine Image* moves in four clean stanzas from prayer to universal brotherhood, each stanza",
-     "Then watch *The Human Abstract* mirror this structure but invert the direction: it begins with the virtues' dark dependency on suffering (stanza 1),",
-     "The key insight: Blake uses identical four-stanza architecture to prove that structure itself — the way we organize thought — determines whether we"
+     "Trace 'Poems by Blake' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -6024,10 +6048,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_08_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into two rooms: one is sunlit, quiet, and smells of flowers; the other is dim, smells of damp earth, and you hear a faint buzzing of",
-     "Without anyone telling you, you *feel* the difference — that is atmosphere.",
-     "Now open Blake's two poems.",
-     "\"The Divine Image\" feels like the first room: words like \"Mercy,\" \"Pity,\" \"Peace,\" \"Love\" repeat like a gentle chant, the rhythm rocks like a"
+     "Identify where and when 'Poems by Blake' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -6035,20 +6056,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the four virtues personified in \"The Divine Image\" and how are they linked to both God and Man in the poem?",
     "answer": "The four virtues are Mercy, Pity, Peace, and Love. The poem states they are \"God our father dear\" and also \"Man",
     "options": [
-     "1. Anthropomorphism of the Divine/Virtues: The poem equates God and abstract virtues with human attributes",
      "The Divine Image locates virtues in the human heart, face, form, and dress — the body as a sacred vessel where God dwells",
+     "Stanza 1 establishes the four virtues (Mercy, Pity, Peace, Love) as objects of prayer in distress. Stanza 2 equates these virtues with God the Father and Man as His child",
      "The four virtues are Mercy, Pity, Peace, and Love. The poem states they are \"God our father dear\" and also \"Man"
     ],
-    "hint": "Straight from the 'In poetry, character analysis' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Poems by' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only the virtues without explaining the God-Man linkage reveals the student sees them as abstract nouns rather than personified characters bridging divine and human nature.",
     "id": "gen_c12_eng_k_ch08_q4",
     "nodeId": "c12_eng_k_cbse_08_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you meet two versions of the same person: one who radiates kindness naturally, and another whose kindness is calculated and self-serving.",
-     "Blake's two poems work exactly like that — they show the same human capacities (Mercy, Pity, Peace, Love) in two different psychological states.",
-     "Begin by reading both poems aloud, noticing how the first poem treats virtues as innate and divine (\"Mercy has a human heart\"), while the second",
-     "Mark every capitalised virtue in both poems — these are your \"characters.\" Then ask: who is speaking in each poem?"
+     "Pick the central figure in 'Poems by Blake' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -6056,20 +6074,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the four virtues personified in \"The Divine Image\" and the human attribute assigned to each (heart, face, form, dress).",
     "answer": "Mercy → human heart; Pity → human face; Love → human form divine; Peace → human dress",
     "options": [
-     "\"The Divine Image\" is from *Songs of Innocence* and \"The Human Abstract\" is from *Songs of Experience*",
-     "The poems are taken from *Songs of Innocence* (\"The Divine Image\") and *Songs of Experience* (\"The Human Abstract\")",
+     "Students treat the personified virtues/vices as static symbols (e.g., \"Mercy = kindness\") rather than dynamic characters in a causal drama",
+     "In Blake's paired poems, supporting characters are the personified virtues (Mercy, Pity, Peace, Love) and vices (Cruelty, Humility, Mystery, Deceit",
      "Mercy → human heart; Pity → human face; Love → human form divine; Peace → human dress"
     ],
-    "hint": "Straight from the 'In Blake's paired poems,' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Poems' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., swapping attributes or missing one) reveals the student has not memorized the precise mapping Blake establishes, which is essential for tracing how these virtues distort in \"The Human Abstract\".",
     "id": "gen_c12_eng_k_ch08_q5",
     "nodeId": "c12_eng_k_cbse_08_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a director casting a play where the actors are not people but ideas: Mercy, Cruelty, Deceit.",
-     "How would you costume them?",
-     "In \"The Divine Image\", Blake dresses Mercy in a \"human heart\", Pity in a \"human face\", Love in the \"human form divine\", Peace in \"human dress\".",
-     "In \"The Human Abstract\", Cruelty \"knits a snare\" and \"waters the ground with tears\", Humility grows \"underneath his foot\", Mystery spreads \"dismal"
+     "Spot the secondary figures in 'Poems by Blake' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -6078,19 +6093,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The four virtues are Mercy, Pity, Peace, and Love",
     "options": [
      "Literal comprehension: retrieving information directly stated in the text (e.g., \"What four virtues do people pray to in the first stanza?",
-     "The Divine Image locates virtues in the human heart, face, form, and dress — the body as a sacred vessel where God dwells",
+     "The student can independently compare \"The Divine Image\" and \"The Human Abstract,\" trace how each poem reconfigures the four virtues (Mercy, Pity, Peace, Love)",
+     "The four virtues are Mercy, Joy, Peace, and Love",
      "The four virtues are Mercy, Pity, Peace, and Love"
     ],
-    "hint": "Straight from the 'The primary theme of Blake's' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Poems' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing Faith, Hope, Charity) reveals the student has not read the poem closely or is confusing it with other religious texts.",
     "id": "gen_c12_eng_k_ch08_q6",
     "nodeId": "c12_eng_k_cbse_08_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to two sides of a debate: one voice says humans are naturally good and godly, the other says our goodness is twisted by",
-     "Blake's two poems are exactly that debate.",
-     "Start by reading \"The Divine Image\" aloud — notice how the virtues are simple, direct, and linked to the human form.",
-     "Then read \"The Human Abstract\" — see how the same virtues become conditional, leading to a tree of Mystery and Deceit."
+     "Ask what 'Poems by Blake' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -6098,20 +6111,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List two secondary themes present in \"The Divine Image\" and briefly state the textual evidence for each (e.g., specific lines or images).",
     "answer": "1. Anthropomorphism of the Divine/Virtues: The poem equates God and abstract virtues with human attributes",
     "options": [
-     "\"The Divine Image\" is from *Songs of Innocence* and \"The Human Abstract\" is from *Songs of Experience*",
-     "The poems are taken from *Songs of Innocence* (\"The Divine Image\") and *Songs of Experience* (\"The Human Abstract\")",
+     "The student can independently identify 8-10 key words from both poems, explain their contextual meaning using textual evidence",
+     "The student can independently classify any comprehension question as literal or inferential, locate exact textual evidence for literal answers",
      "1. Anthropomorphism of the Divine/Virtues: The poem equates God and abstract virtues with human attributes"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Poems by' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student lists \"Mercy\" or \"Love\" as themes without a statement (e.g., \"Mercy is a theme\"), they confuse *topics* with *themes*. A theme must be a complete idea *about* the topic. If they cite only the first stanza, they miss the poem's movement from prayer to universal humanism.",
     "id": "gen_c12_eng_k_ch08_q7",
     "nodeId": "c12_eng_k_cbse_08_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to a friend describe a movie: \"It's about good vs. evil\" (primary theme).",
-     "But then they add, \"Actually, it's also about how the hero's kindness makes him vulnerable, and how the villain thinks he's the hero.",
-     "In Blake's paired poems, the primary theme is the fall from Innocence to Experience.",
-     "To find secondary themes, re-read both poems slowly."
+     "Look beneath the main theme of 'Poems by Blake' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -6119,20 +6129,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"metaphor\" and distinguish it from \"simile\" using the exact terminology of tenor and vehicle. Give one example from \"The Divine Image\" (do not quote the whole line; describe its location).",
     "answer": "A metaphor directly equates tenor (subject) and vehicle (image) without comparative words; a simile uses \"like\" or \"as\"",
     "options": [
-     "Mercy → human heart; Pity → human face; Love → human form divine; Peace → human dress",
-     "\"The Divine Image\" is from *Songs of Innocence* and \"The Human Abstract\" is from *Songs of Experience*",
+     "Student can identify each personified abstraction in both poems, explain its symbolic function using textual evidence",
+     "The student can independently identify 8-10 key words from both poems, explain their contextual meaning using textual evidence",
      "A metaphor directly equates tenor (subject) and vehicle (image) without comparative words; a simile uses \"like\" or \"as\""
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Poems by Blake'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"metaphor uses like or as\" reveals confusion with simile; an answer that cannot name tenor/vehicle shows lack of technical vocabulary needed for board answers.",
     "id": "gen_c12_eng_k_ch08_q8",
     "nodeId": "c12_eng_k_cbse_08_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing a nightmare to a friend: you don't just say \"it was scary\"; you say \"the walls were dripping cold sweat\" (tactile imagery)",
-     "That is how Blake makes abstract virtues and vices tangible.",
-     "Begin by reading both poems aloud slowly — notice which lines make you *see*, *hear*, or *feel* something.",
-     "Underline every concrete noun and verb that triggers a sense."
+     "Find the lines in 'Poems by Blake' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -6181,10 +6188,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_08_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are scrolling through two Instagram posts from the same account: the first shows a sunny \"Be Kind\" quote with hearts; the second reveals",
-     "That jarring gap — between appearance and reality, between stated virtue and hidden motive — is exactly the irony Blake engineers across *The Divine",
-     "Start by reading both poems aloud, noting where the tone shifts from reverent to cynical.",
-     "Then, underline every capitalised abstract noun (Mercy, Pity, Peace, Love, Cruelty, Humility, Mystery, Deceit)."
+     "Look in 'Poems by Blake' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -6255,10 +6259,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"The Human Abstract\" and stumble on the line *\"And the Caterpillar and Fly / Feed on the Mystery.",
-     "Why are they *feeding* on it?",
-     "Start by reading both poems aloud — hearing the rhythm forces you to notice stressed words.",
-     "Circle every capitalized noun that isn't a proper name (Mercy, Pity, Cruelty, Humility, Mystery, Deceit, Raven)."
+     "Note the difficult or loaded words in 'Poems by Blake' — their meaning carries the text's precision."
     ]
    },
    {
@@ -6270,16 +6271,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Illuminated printing means the visual design and the verbal text are conceived simultaneously; the images are not mere decorations but integral to the poem's meaning",
      "The capitalization transforms these abstract nouns into proper nouns, personifying them as divine entities or distinct characters"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Poems' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they are at the start of a line\" or \"they are important words\") reveals the student is applying mechanical capitalization rules instead of analyzing poetic license. The student must recognize that Blake deliberately breaks standard grammar to elevate virtues to the status of gods.",
     "id": "gen_c12_eng_k_ch08_q11",
     "nodeId": "c12_eng_k_cbse_08_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a poem aloud and notice that certain words like \"Mercy\" and \"Cruelty\" are capitalized even though they are not at the start",
-     "Ask yourself: why would a poet break normal capitalization rules?",
-     "Begin by reading both poems silently, then aloud, marking every capitalized word that is not a proper noun.",
-     "Next, tap out the rhythm of the first stanza of \"The Divine Image\" to feel the iambic pattern."
+     "Read 'Poems by Blake' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -6287,20 +6285,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define literal comprehension and inferential comprehension in your own words. Give one example of a literal question and one inferential question for Blake's \"The Divine Image.\"",
     "answer": "Literal comprehension: retrieving information directly stated in the text (e.g., \"What four virtues do people pray to in the first stanza?",
     "options": [
-     "\"The Divine Image\" is from *Songs of Innocence* and \"The Human Abstract\" is from *Songs of Experience*",
-     "The poems are taken from *Songs of Innocence* (\"The Divine Image\") and *Songs of Experience* (\"The Human Abstract\")",
+     "The student can independently classify any comprehension question as literal or inferential, locate exact textual evidence for literal answers",
+     "Irony in Blake's paired poems is the structural contradiction where virtues in *The Divine Image* (Mercy, Pity, Peace",
      "Literal comprehension: retrieving information directly stated in the text (e.g., \"What four virtues do people pray to in the first stanza?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Poems' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student confuses \"inferential\" with \"opinion-based\" or cannot distinguish explicit vs implicit information.",
     "id": "gen_c12_eng_k_ch08_q12",
     "nodeId": "c12_eng_k_cbse_08_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall staring at this question: \"How does Blake show that Mercy gets distorted in human experience?",
-     "The first move is to label the question type: this is INFERENTIAL because \"how does Blake show\" and \"distorted\" are not words sitting in the poem.",
-     "Now you know your job: hunt for clues about Mercy in BOTH poems, then connect them.",
-     "For literal questions like \"What four virtues appear in the first stanza of The Divine Image?\" you simply scan, locate, and copy."
+     "Answer 'Poems by Blake' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -6308,21 +6303,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Name the two collections from which \"The Divine Image\" and \"The Human Abstract\" are taken, and state the philosophical concept Blake uses to describe their relationship.",
     "answer": "\"The Divine Image\" is from *Songs of Innocence* and \"The Human Abstract\" is from *Songs of Experience*",
     "options": [
-     "Mercy → human heart; Pity → human face; Love → human form divine; Peace → human dress",
-     "A metaphor directly equates tenor (subject) and vehicle (image) without comparative words; a simile uses \"like\" or \"as\"",
-     "\"The Divine Image\" is from *Songs of Innocence* and \"Tolerance\" is from *Songs of Experience*",
+     "Student can explain the relationship between *Songs of Innocence* and *Songs of Experience* as contrary states, describe how Blake's biography (engraver, mystic",
+     "The Divine Image locates virtues in the human heart, face, form, and dress — the body as a sacred vessel where God dwells",
      "\"The Divine Image\" is from *Songs of Innocence* and \"The Human Abstract\" is from *Songs of Experience*"
     ],
-    "hint": "Straight from the 'Critical thinking in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Poems by' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming the same collection for both, or saying they are \"opposites\" rather than \"contrary states\") reveals the student has not grasped Blake's core dialectic: the poems are not simple opposites but interdependent phases — experience grows out of innocence and cannot be understood without it.",
     "id": "gen_c12_eng_k_ch08_q13",
     "nodeId": "c12_eng_k_cbse_08_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you meet a child who shares her lunch with a hungry stray dog — that is Mercy in its pure form.",
-     "Now imagine a policymaker who designs a welfare scheme but loads it with bureaucratic hurdles so few actually benefit — that same Mercy has been",
-     "Blake's paired poems work exactly like this contrast.",
-     "Begin by reading both poems aloud, noticing how the first feels like a hymn and the second like a dark prophecy."
+     "Analyse 'Poems by Blake' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -6330,21 +6322,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing literature answers?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The four virtues are Mercy, Pity, Peace, and Love. The poem states they are \"God our father dear\" and also \"Man",
-     "Mercy → human heart; Pity → human face; Love → human form divine; Peace → human dress",
-     "PEEL stands for Justice, Evidence, Explanation, Link",
+     "The Divine Image locates virtues in the human heart, face, form, and dress — the body as a sacred vessel where God dwells",
+     "In poetry, setting refers to the time, place, and social environment where the poem's ideas unfold — which in Blake's lyrics is often metaphorical (e",
+     "PEEL stands for Misery, Evidence, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Poems by' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Layout\") reveals the student has memorised a mnemonic without understanding its function: each letter represents a mandatory move in an analytical paragraph, not just a formatting trick.",
     "id": "gen_c12_eng_k_ch08_q14",
     "nodeId": "c12_eng_k_cbse_08_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open the exam paper and see: \"Compare how Blake presents Mercy in *The Divine Image* and *The Human Abstract*.",
-     "Begin by annotating the question: underline \"compare\", \"Mercy\", and both poem titles.",
-     "Next, jot down 2–3 points for each poem: in *The Divine Image*, Mercy has a \"human heart\" and is divine; in *The Human Abstract*, Mercy exists only",
-     "Now organise these into a PEEL paragraph: Point (Mercy is idealised in Innocence but exposed as conditional in Experience), Evidence (quote \"human"
+     "For written answers on 'Poems by Blake', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -6352,21 +6341,64 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the four virtues listed in the first stanza of \"The Divine Image\" and how does the speaker describe their relationship to God and Man?",
     "answer": "The four virtues are Mercy, Pity, Peace, and Love. The poem states they are \"God our father dear\" and also \"Man, his child and care",
     "options": [
-     "1. Anthropomorphism of the Divine/Virtues: The poem equates God and abstract virtues with human attributes",
-     "The four virtues are Mercy, Pity, Peace, and Love",
+     "The Divine Image locates virtues in the human heart, face, form, and dress — the body as a sacred vessel where God dwells",
+     "Literal comprehension: retrieving information directly stated in the text (e.g., \"What four virtues do people pray to in the first stanza?",
      "The four virtues are Mercy, Pity, Peace, and Love. The poem states they are \"God our father dear\" and also \"Man, his child and care"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Poems by' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing only three virtues or saying they are separate from God/Man) reveals the student hasn't internalized the poem's central equation: divine virtues = human form. This misreading collapses the Innocence poem's core argument that divinity resides in human embodiment.",
     "id": "gen_c12_eng_k_ch08_q15",
     "nodeId": "c12_eng_k_cbse_08_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle discussing whether Blake believed humans are naturally divine or naturally corrupt.",
-     "You've read both poems but feel stuck when a classmate says \"The Human Abstract is just the opposite of The Divine Image.",
-     "Start by identifying the four virtues (Mercy, Pity, Peace, Love) in The Divine Image and trace how each gets distorted in The Human Abstract.",
-     "Notice Blake's capitalization: virtues become characters (Cruelty, Humility, Mystery)."
+     "Talk through 'Poems by Blake' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "write a structured answer linking",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how specific words",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify the metaphorical settings in both",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify the metaphorical settings in both poems, (2) explain how specific words, images, and",
+    "id": "gen_c12_eng_k_ch08_q16",
+    "nodeId": "c12_eng_k_cbse_08_003",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -6377,9 +6409,9 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Stanza 1 parallels the virtue list but shows each virtue *depends* on its opposite (Pity needs Poverty, Mercy needs Misery)",
      "It shows Blake's radical resistance to the alienation of labour and the mass production of art. By doing everything himself — writing, etching, printing, colouring"
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
+    "hint": "Straight from the ''Poems by Blake' — the context' slide -- match the key terms.",
     "misconception": "A student who only notes \"he self‑published\" misses the political and philosophical weight: Blake is enacting the very integration of human faculties (poet, painter, engraver) that his poems celebrate and that industrial capitalism fragments.",
-    "id": "gen_c12_eng_k_ch08_q16",
+    "id": "gen_c12_eng_k_ch08_q17",
     "nodeId": "c12_eng_k_cbse_08_001",
     "difficulty": "standard"
    },
@@ -6392,23 +6424,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Tenor: the hypocritical cultivator of false virtue; Vehicle: a farmer planting a crop. Blake criticises the deliberate",
      "Blake would see both impulses as co‑existing \"contrary states\" within the same soul — not as hypocrisy but as the human condition"
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
+    "hint": "Straight from the ''Poems by Blake' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer that labels the teen \"fake\" or \"confused\" shows the student is still thinking in binary moral categories instead of Blake's dialectical framework.",
-    "id": "gen_c12_eng_k_ch08_q17",
-    "nodeId": "c12_eng_k_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a one‑sentence \"Before You Read\" note for a classmate who has never heard of Blake, using only the information in the textbook's introductory paragraph. Your note must mention: his professions, his opposition, the two collections, and the key phrase \"contrary states.\"",
-    "answer": "\"William Blake (1757–1827), a poet‑painter‑engraver who hated the rationalism and materialism of his age, wrote two matched collections",
-    "options": [
-     "Example (Innocence mode): \"Courage has a steady eye, / Truth a tongue that cannot lie, / Faith, the anchor of the soul, / Hope, the light that makes us whole",
-     "Strong answer: \"Blake shows the same four virtues in two lights. In 'The Divine Image,' Mercy has a human heart — you can hold it",
-     "\"William Blake (1757–1827), a poet‑painter‑engraver who hated the rationalism and materialism of his age, wrote two matched collections"
-    ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
-    "misconception": "A poor answer that omits any of the four required elements shows the student cannot synthesise the introductory material into a usable orientation tool.",
     "id": "gen_c12_eng_k_ch08_q18",
     "nodeId": "c12_eng_k_cbse_08_001",
     "difficulty": "standard"
@@ -6416,23 +6433,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about this node provides the essential historical?",
+    "What surprised you about 'poems by blake' — the context and background to thi?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "This Node Provides The mastered! 🎯",
+  "successLine": "'Poems By Blake' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch09",
-  "title": "Before You Read: Context and Background",
+  "title": "'Kubla Khan' — The Context And Background",
   "subtitle": "English · Chapter 9",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch9: Before You Read: Context and Background"],
+  "topic": "'Kubla Khan' — The Context And Background To This Te",
+  "chapters": [
+   "English Ch9: 'Kubla Khan' — The Context And Background To This Te"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_09_001",
    "c12_eng_k_cbse_09_002",
@@ -6457,103 +6476,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'Kubla Khan' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" for *Kubla Khan* provides the essential biographical, historical, and compositional framework needed to"
+   "hook": "'Kubla Khan' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" for *Kubla Khan* provides the essential biographical, historical, and compositional framework needed to interpret the poem: Coleridge’s role in the Romantic movement, the historical figure of Kubla Khan, the",
+    "title": "'Kubla Khan' — The Context And Background",
+    "text": "'Kubla Khan' (Kaleidoscope, ch. 9) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure In Poetry",
-    "text": "Plot and narrative structure in poetry refers to the deliberate arrangement of events, images, and shifts in perspective that create a coherent sequence — even in a fragmentary work like *Kubla Khan* — guiding the reader through a dream-like progression from",
+    "title": "Plot/narrative Arc Of 'Kubla Khan'",
+    "text": "The plot/narrative arc of 'Kubla Khan' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and social environment where the poem's action or vision unfolds, while atmosphere is the emotional mood or feeling created through sensory imagery, diction, sound devices, and contrast.",
+    "title": "Setting Of 'Kubla Khan'",
+    "text": "The setting of 'Kubla Khan' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a poem involves examining the central figure's traits, actions, motivations, and symbolic significance as revealed through the poet's language, imagery, and narrative structure.",
+    "title": "Character Analysis In 'Kubla Khan'",
+    "text": "Character analysis in 'Kubla Khan' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters In a Poem",
-    "text": "Supporting characters in a poem are figures who appear alongside the protagonist (often the speaker/narrator) and serve to advance the poem's themes, symbolize abstract ideas, or create dramatic contrast.",
+    "title": "Supporting Characters In 'Kubla Khan'",
+    "text": "Supporting characters in 'Kubla Khan' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea or insight about human experience that the poet conveys through the interplay of imagery, structure, and language; the message is the specific philosophical or emotional truth the poet intends the",
+    "title": "Primary Theme Of 'Kubla Khan'",
+    "text": "The primary theme of 'Kubla Khan' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas, motifs, and underlying concerns that enrich the primary theme of a poem, operating as parallel threads that deepen meaning, create tension, or offer alternative perspectives.",
+    "title": "Secondary Themes In 'Kubla Khan'",
+    "text": "Secondary themes in 'Kubla Khan' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create concrete mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Kubla Khan'",
+    "text": "Imagery in 'Kubla Khan' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony In Poetry",
-    "text": "Irony in poetry is a contrast between expectation and reality, often revealing a deeper truth; symbolism is the use of concrete images (objects, characters, settings) to represent abstract ideas or qualities.",
+    "title": "Irony And Paradox In 'Kubla Khan' — Where",
+    "text": "Irony and paradox in 'Kubla Khan' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the meaning of unfamiliar or multi-meaning words by analyzing how they are used within the specific sentences, stanzas, and imagery of a poem, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'Kubla Khan'",
+    "text": "Key vocabulary of 'Kubla Khan' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the systematic analysis of grammatical choices — such as sentence structure, verb tense, word order, clause patterns, and punctuation — that a poet deliberately employs to shape meaning, tone, and rhythmic effect in a poem.",
+    "title": "Language And Style In 'Kubla Khan'",
+    "text": "Language and style in 'Kubla Khan' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the text (e.g., names, places, events), while inferential comprehension questions demand drawing conclusions by combining textual clues with reasoning — the answer is not",
+    "title": "Literal Comprehension Of 'Kubla Khan'",
+    "text": "Literal comprehension of 'Kubla Khan' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves evaluating a text's deeper meanings by examining how language, structure, and context interact to produce effects, rather than merely summarizing content.",
+    "title": "Critical Thinking On 'Kubla Khan'",
+    "text": "Critical thinking on 'Kubla Khan' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter refers to the ability to compose structured, evidence-based analytical responses about Kubla Khan, including poem analysis essays, comparative answers, critical appreciations, and creative responses that demonstrate",
+    "title": "Writing Skills From 'Kubla Khan'",
+    "text": "Writing skills from 'Kubla Khan' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured practice of orally exchanging ideas, interpretations, and critical responses to the Wordsworth poems in the chapter, requiring students to articulate evidence-based views, actively listen to",
+    "title": "Discussion Points On 'Kubla Khan'",
+    "text": "Discussion points on 'Kubla Khan' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    }
@@ -6564,20 +6583,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who was the historical Kubla Khan, and what is his significance in world history as referenced in the NCERT background note?",
     "answer": "Kubla Khan (also spelled Kublai Khan) was the grandson of Genghis Khan and the founder of the Mongol Yuan dynasty in China in the 13th century (he ruled 1260–1294)",
     "options": [
-     "A secondary theme is a supporting idea that runs parallel to the primary theme, enriching it by adding complexity, contrast, or depth",
-     "Symbolism is using a concrete object to represent an abstract idea. In \"Kubla Khan,\" the \"pleasure dome\" symbolizes artistic creation or the imagined world of the poem",
+     "The student can independently identify at least three distinct secondary themes in \"Kubla Khan,\" trace each through specific textual evidence across stanzas",
+     "\"Before You Read: Context and Background\" for *Kubla Khan* provides the essential biographical, historical",
      "Kubla Khan (also spelled Kublai Khan) was the grandson of Genghis Khan and the founder of the Mongol Yuan dynasty in China in the 13th century (he ruled 1260–1294)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Kubla Khan' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a fictional king from a fairy tale\" or \"a Persian poet\") reveals the student has not distinguished between the historical person and the poetic persona, missing the poem’s interplay of fact and fantasy.",
     "id": "gen_c12_eng_k_ch09_q1",
     "nodeId": "c12_eng_k_cbse_09_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you open your textbook and see a poem titled *Kubla Khan* with a subtitle *A Vision in a Dream: A Fragment*.",
-     "You wonder: *Why is it called a fragment?",
-     "Who was Kubla Khan?",
-     "Did Coleridge really write this in a dream?* Start by reading the \"Before You Read\" box in the NCERT text."
+     "Start with the author of 'Kubla Khan', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -6585,20 +6601,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary narrative frame of *Kubla Khan* — i.e., who is speaking in the first three stanzas, and how does that change in the fourth stanza?",
     "answer": "The first three stanzas use a third-person omniscient narrator describing Kubla Khan’s decree and the landscape",
     "options": [
-     "The four supporting characters are: (1) Kubla Khan – Stanza 1; (2) The woman wailing for her demon‑lover – Stanza 2; (3) The ancestral voices – Stanza 3",
-     "The only direct action is \"decree\" in line 2: \"In Xanadu did Kubla Khan / A stately pleasure-dome decree",
+     "The student can identify at least three distinct character traits of Kubla Khan, support each with specific textual evidence (imagery, diction, structural placement)",
+     "\"Before You Read: Context and Background\" for *Kubla Khan* provides the essential biographical, historical",
      "The first three stanzas use a third-person omniscient narrator describing Kubla Khan’s decree and the landscape"
     ],
-    "hint": "Straight from the 'Plot and narrative structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Kubla Khan'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “the poet speaks throughout”) reveals the student has not tracked the shift in narrative voice, which is crucial for understanding the poem’s move from description to self-reflection.",
     "id": "gen_c12_eng_k_ch09_q2",
     "nodeId": "c12_eng_k_cbse_09_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you wake from a vivid dream and try to tell a friend: the scenes jump, logic bends, and the ending feels cut off.",
-     "That is exactly Coleridge’s experience — he wrote *Kubla Khan* after an opium-induced vision, interrupted by a visitor.",
-     "To analyze its narrative structure, first read the poem aloud and mark every shift in setting (Xanadu → chasm → river → ocean → vision of the damsel",
-     "Next, note the change in speaker: the first three stanzas are third-person description; the fourth stanza shifts to first-person (“I saw”)."
+     "Trace 'Kubla Khan' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -6647,10 +6660,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_09_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into an ancient fort at sunset — the stone walls glow gold, the air smells of dust and jasmine, and you feel both peace and a shiver",
-     "That physical place (setting) and your emotional response (atmosphere) are inseparable.",
-     "In \"Kubla Khan,\" Coleridge does this with words: first, read the poem aloud and mark every place-name (Xanadu, Alph, Mount Abora) and every sensory",
-     "Next, group these into three zones — the dome's ordered garden, the chasm's savage energy, the vision's magical reconstruction."
+     "Identify where and when 'Kubla Khan' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -6710,10 +6720,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_09_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a historian who finds a poet's dream-vision about a real emperor.",
-     "How would you separate the historical ruler from the poetic creation?",
-     "Begin by reading the poem aloud, noticing the sound and rhythm.",
-     "First, locate every direct reference to Kubla Khan (he appears by name only in the opening line, but his presence permeates the first two stanzas)."
+     "Pick the central figure in 'Kubla Khan' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -6773,31 +6780,56 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_09_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a surreal film where the main character falls into a trance and sees a king building a pleasure dome, a haunted chasm with a",
-     "These figures aren't \"characters\" in the novelistic sense — they are dream‑images that represent forces inside the poet's mind.",
-     "To analyze them, start by re‑reading the poem and marking every stanza where a figure other than the speaker appears.",
-     "Ask: What does this figure do?"
+     "Spot the secondary figures in 'Kubla Khan' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "REMEMBER: State the primary theme of *Kubla Khan* in a single thematic sentence (not a summary of events).",
-    "answer": "The primary theme is the transcendent power of poetic imagination to create enduring, visionary beauty that reconciles opposing forces of nature",
-    "options": [
-     "Starting *in media res* plunges the reader directly into the act of creation — the dome exists by fiat, not history",
-     "A strong continuation might extend the ritual warning: “And still the circle holds its silent guard, While honeydew turns bitter on the tongue, The milk of Paradise, once sweet",
-     "The primary theme is the transcendent power of poetic imagination to create enduring, visionary beauty that reconciles opposing forces of nature"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "state the primary theme of *Kubla Khan*",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "trace how the poem's two-part structure",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "support the interpretation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a poem' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals misunderstanding: If a student writes \"The poem is about Kubla Khan building a pleasure dome\" or \"It's about a dream Coleridge had,\" they confuse subject (what happens) with theme (what it means).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the primary theme of *Kubla Khan* in a precise thematic sentence (not a plot summary), (2)",
     "id": "gen_c12_eng_k_ch09_q6",
     "nodeId": "c12_eng_k_cbse_09_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked in the board exam: \"What is the central theme of *Kubla Khan*?",
-     "Instead, begin by reading the poem aloud once, noticing the jarring shift at line 36 (\"A damsel with a dulcimer...\").",
-     "That shift is the key: the first 36 lines describe Kubla's *external* construction; the last 18 lines describe the poet's *internal* vision.",
-     "Ask yourself: *What does the poet want to build 'in air' that Kubla built on earth?"
+     "Ask what 'Kubla Khan' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -6857,10 +6889,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_09_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where the main plot is about a painter trying to capture a perfect sunset — that's your primary theme.",
-     "But notice the subplot where the painter's rival sabotages his paints, the changing weather that keeps ruining the light, and the painter's own doubt",
-     "Those are secondary themes.",
-     "In \"Kubla Khan,\" start by rereading the poem silently, then aloud, marking every shift in tone, setting, or speaker."
+     "Look beneath the main theme of 'Kubla Khan' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -6868,20 +6897,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"imagery\" and \"metaphor\" in your own words, and give one example of each from any Wordsworth poem you have studied.",
     "answer": "Imagery: language appealing to senses (e.g., \"the green earth\" — visual). Metaphor: direct equation (e.g., \"The child is father of the man\" — childhood shapes adulthood)",
     "options": [
-     "The primary strategy is contextual analysis: using the surrounding words, imagery, grammatical structure, and the poem's overall atmosphere to infer meaning",
-     "The subtitle is \"A Vision in a Dream: A Fragment\". It suggests the poem originated in a dream state and was left incomplete due to an interruption",
+     "The student can identify at least two major symbols and one instance of irony in \"Kubla Khan,\" quote relevant lines",
+     "The student can independently select 3–4 distinct grammatical features from the poem (e.g., inversion, archaic verb forms, periodic sentences, fragmentation)",
      "Imagery: language appealing to senses (e.g., \"the green earth\" — visual). Metaphor: direct equation (e.g., \"The child is father of the man\" — childhood shapes adulthood)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Kubla Khan'' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses metaphor with simile (\"like a flower\") or treats imagery as only visual reveals the student cannot distinguish figurative modes or sensory range.",
     "id": "gen_c12_eng_k_ch09_q8",
     "nodeId": "c12_eng_k_cbse_09_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in a forest at dusk: you *see* the fading light, *hear* the rustle of leaves, *smell* damp earth, *feel* the cool air on",
-     "Now ask: why does he choose *these* particular sensations?",
-     "In \"Lines Written in Early Spring\", the \"budding twigs\" spreading their \"fan\" to catch the breeze is not just description; it is a metaphor for",
-     "Begin by reading a stanza aloud, marking every phrase that triggers a sensory response."
+     "Find the lines in 'Kubla Khan' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -6889,20 +6915,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define symbolism and give one example from \"Kubla Khan\" without quoting the poem.",
     "answer": "Symbolism is using a concrete object to represent an abstract idea. In \"Kubla Khan,\" the \"pleasure dome\" symbolizes artistic creation or the imagined world of the poem",
     "options": [
-     "The first three stanzas use a third-person omniscient narrator describing Kubla Khan’s decree and the landscape",
-     "The four supporting characters are: (1) Kubla Khan – Stanza 1; (2) The woman wailing for her demon‑lover – Stanza 2; (3) The ancestral voices – Stanza 3",
+     "The student can explain how Coleridge’s biography, the historical Kubla Khan, the circumstances of composition (dream + interruption)",
+     "The only direct action is \"decree\" in line 2: \"In Xanadu did Kubla Khan / A stately pleasure-dome decree",
      "Symbolism is using a concrete object to represent an abstract idea. In \"Kubla Khan,\" the \"pleasure dome\" symbolizes artistic creation or the imagined world of the poem"
     ],
-    "hint": "Straight from the 'Irony in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Kubla Khan'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the dome is a metaphor for a house\" reveals confusion between metaphor (direct comparison) and symbol (standing for something broader).",
     "id": "gen_c12_eng_k_ch09_q9",
     "nodeId": "c12_eng_k_cbse_09_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"Kubla Khan\" aloud and suddenly notice the jarring shift from the sunny pleasure dome to the \"caves of ice\" — that clash is",
-     "First, mark every concrete image that seems to carry extra weight (the dome, the river, the damsel, the milk of Paradise).",
-     "Next, ask: what abstract idea does each stand for?",
-     "Then, look for moments where the poem's meaning flips: the poet wants to rebuild the dome in air but ends with a warning \"Beware!"
+     "Look in 'Kubla Khan' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -6910,20 +6933,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary strategy for determining the meaning of an unfamiliar word in a poem like \"Kubla Khan\" when a dictionary is not allowed during the exam?",
     "answer": "The primary strategy is contextual analysis: using the surrounding words, imagery, grammatical structure, and the poem's overall atmosphere to infer meaning",
     "options": [
-     "A secondary theme is a supporting idea that runs parallel to the primary theme, enriching it by adding complexity, contrast, or depth",
-     "Symbolism is using a concrete object to represent an abstract idea. In \"Kubla Khan,\" the \"pleasure dome\" symbolizes artistic creation or the imagined world of the poem",
+     "The student can explain how Coleridge’s biography, the historical Kubla Khan, the circumstances of composition (dream + interruption)",
+     "The only direct action is \"decree\" in line 2: \"In Xanadu did Kubla Khan / A stately pleasure-dome decree",
      "The primary strategy is contextual analysis: using the surrounding words, imagery, grammatical structure, and the poem's overall atmosphere to infer meaning"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Kubla Khan'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"guess from the first letter\" or \"skip the word\") reveals the student lacks a systematic approach and will likely misinterpret key images in board exam reference-to-context questions.",
     "id": "gen_c12_eng_k_ch09_q10",
     "nodeId": "c12_eng_k_cbse_09_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"Kubla Khan\" and hit the word \"sinuous\" in \"gardens bright with sinuous rills.",
-     "Start by reading the poem aloud — notice how \"sinuous\" sounds winding.",
-     "Then, isolate 5-6 words that feel crucial but unclear.",
-     "For each, ask: (1) What part of speech is it?"
+     "Note the difficult or loaded words in 'Kubla Khan' — their meaning carries the text's precision."
     ]
    },
    {
@@ -6983,10 +7003,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_09_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you’re reading *Kubla Khan* aloud and stumble over “A stately pleasure-dome decree” — why doesn’t it say “decreed a stately pleasure-dome”?",
-     "That moment of surprise is your entry point.",
-     "First, read the poem once only for sound — mark where your voice naturally pauses or rises.",
-     "Second, pick one stanza and underline every verb; notice tense shifts (past → present → conditional)."
+     "Read 'Kubla Khan' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -6998,16 +7015,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "\"Chasm\" is a static, yawning noun suggesting danger (\"savage place,\" \"haunted\"), while \"fountain\" becomes a dynamic force (\"momently was forced,\" \"flung up\") that erupts upward",
      "A literal question asks for information directly stated in the text (e.g., \"What is the name of the sacred river in the poem?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Kubla' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the definitions or gives two literal examples reveals the student cannot distinguish explicit facts from implied meanings — a fundamental gap that leads to answering inferential questions with mere plot summary.",
     "id": "gen_c12_eng_k_ch09_q12",
     "nodeId": "c12_eng_k_cbse_09_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and see the question: \"What is the 'discordant note' heard at the end of the third stanza, and what does it",
-     "Instead, start by reading the question twice and asking: *Is this asking for a fact stated directly (literal) or a meaning I must figure out",
-     "Next, scan the third stanza for keywords: 'ancestral voices', 'prophesying war', 'tumult'.",
-     "Then, connect that image to the grandeur and turmoil of an emperor's life."
+     "Answer 'Kubla Khan' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -7015,20 +7029,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the subtitle of the poem \"Kubla Khan\" as given in the NCERT text, and what does it suggest about the poem's composition?",
     "answer": "The subtitle is \"A Vision in a Dream: A Fragment\". It suggests the poem originated in a dream state and was left incomplete due to an interruption",
     "options": [
-     "The four supporting characters are: (1) Kubla Khan – Stanza 1; (2) The woman wailing for her demon‑lover – Stanza 2; (3) The ancestral voices – Stanza 3",
-     "Kubla Khan (also spelled Kublai Khan) was the grandson of Genghis Khan and the founder of the Mongol Yuan dynasty in China in the 13th century (he ruled 1260–1294)",
+     "\"Before You Read: Context and Background\" for *Kubla Khan* provides the essential biographical, historical",
+     "The only direct action is \"decree\" in line 2: \"In Xanadu did Kubla Khan / A stately pleasure-dome decree",
      "The subtitle is \"A Vision in a Dream: A Fragment\". It suggests the poem originated in a dream state and was left incomplete due to an interruption"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Kubla Khan'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"A Vision in a Dream: A Complete Poem\") reveals the student has not read the prefatory note and misses the central meta-fictional frame: the poem is *about* the fragility of poetic creation.",
     "id": "gen_c12_eng_k_ch09_q13",
     "nodeId": "c12_eng_k_cbse_09_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked: \"Why does Coleridge end 'Kubla Khan' with a warning — 'Beware!",
-     "Beware!' — instead of a peaceful conclusion?\" Start by reading the final stanza aloud, noticing the abrupt shift from the damsel's song to the",
-     "Ask: What changed in the speaker's stance?",
-     "Trace the poem's movement from Kubla's decree (external power) to the speaker's vision (internal creative power)."
+     "Analyse 'Kubla Khan' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -7088,10 +7100,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_09_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"Analyse how Coleridge uses contrasting imagery to present the creative process in Kubla",
-     "Start by reading the question twice and underlining the key terms: \"contrasting imagery\" and \"creative process.",
-     "Pick one clear contrast: the \"sunny pleasure-dome with caves of ice\" (stanza 3) juxtaposing warmth and cold, order and chaos.",
-     "Now structure your answer: Point — Coleridge uses thermal contrast to symbolise the dual nature of creativity."
+     "For written answers on 'Kubla Khan', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -7099,21 +7108,64 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary purpose of a 'discussion point' in a Class 12 literature speaking-listening task?",
     "answer": "A discussion point is a prepared, textually anchored observation or question designed to deepen collective understanding of the poem's themes, techniques, or effects",
     "options": [
-     "The first three stanzas use a third-person omniscient narrator describing Kubla Khan’s decree and the landscape",
-     "The three settings are: (1) Xanadu's pleasure-dome grounds — \"stately pleasure-dome decree\" / \"twice five miles of fertile ground\"",
+     "Speaking and Listening: Discussion Points refers to the structured practice of orally exchanging ideas, interpretations",
+     "The student can (1) state the primary theme of *Kubla Khan* in a precise thematic sentence (not a plot summary)",
      "A discussion point is a prepared, textually anchored observation or question designed to deepen collective understanding of the poem's themes, techniques, or effects"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Kubla Khan'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"sharing what I feel about the poem\") reveals the misconception that discussion equals personal reaction without evidence.",
     "id": "gen_c12_eng_k_ch09_q15",
     "nodeId": "c12_eng_k_cbse_09_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a literature circle discussing \"The World Is Too Much With Us\" and a classmate says, \"Wordsworth just hates cities.",
-     "First, re-read the poem silently and mark two lines that reveal the speaker's actual conflict (not just hatred).",
-     "Second, frame a point using the PEEL structure: Point — \"The sonnet critiques materialism, not urban life per se\"; Evidence — quote \"Getting and",
-     "Third, anticipate a counter-point about the sestet's turn to mythology and prepare a follow-up question."
+     "Talk through 'Kubla Khan' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how specific sensory images",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "articulate how setting and atmosphere embody",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "map the physical and temporal settings",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) map the physical and temporal settings in \"Kubla Khan\" with textual evidence, (2)",
+    "id": "gen_c12_eng_k_ch09_q16",
+    "nodeId": "c12_eng_k_cbse_09_003",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -7168,7 +7220,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that treats Kubla Khan only as a historical reference (\"he built a palace in China\") ignores the poem's deliberate blending of fact and fantasy and misses the symbolic equation: Emperor's decree = Poet's creative act.",
-    "id": "gen_c12_eng_k_ch09_q16",
+    "id": "gen_c12_eng_k_ch09_q17",
     "nodeId": "c12_eng_k_cbse_09_005",
     "difficulty": "advanced"
    },
@@ -7225,46 +7277,31 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that merely rhymes or repeats phrases without advancing a thematic argument reveals the student cannot *use* theme as a generative concept — they treat it as decoration.",
-    "id": "gen_c12_eng_k_ch09_q17",
+    "id": "gen_c12_eng_k_ch09_q18",
     "nodeId": "c12_eng_k_cbse_09_007",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare Coleridge’s and Wordsworth’s poetic aims as described in the NCERT note. How does this difference help you anticipate the *kind* of imagery you will find in *Kubla Khan* versus a Wordsworth poem like *Tintern Abbey*?",
-    "answer": "Coleridge: \"present the supernatural as real\" → expect exotic, visionary, dream-logic imagery (Xanadu, Alph, Abyssinian maid, caves of ice)",
-    "options": [
-     "The first half shows water moving 'with a mazy motion' through 'wood and dale' — a controlled, meandering journey reflecting deliberate artistic craft",
-     "Response B is stronger. It identifies the damsel as a symbol (muse), analyses specific phrases (\"Could I revive,\" \"in air,\" \"honeydew,\" \"milk of Paradise\")",
-     "Coleridge: \"present the supernatural as real\" → expect exotic, visionary, dream-logic imagery (Xanadu, Alph, Abyssinian maid, caves of ice)"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps the two (e.g., \"Wordsworth writes about Kubla Khan’s palace\") reveals a failure to grasp the complementary division of labor in *Lyrical Ballads* — a foundational concept for Class 12 Romantic poetry.",
-    "id": "gen_c12_eng_k_ch09_q18",
-    "nodeId": "c12_eng_k_cbse_09_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'kubla khan' — the context and background to this te?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Kubla Khan' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch10",
-  "title": "This Node Provides The Essential Biographical",
+  "title": "'Trees' — The Context And Background To This",
   "subtitle": "English · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "This Node Provides The Essential Biographical",
+  "topic": "'Trees' — The Context And Background To This Text",
   "chapters": [
-   "English Ch10: This Node Provides The Essential Biographical"
+   "English Ch10: 'Trees' — The Context And Background To This Text"
   ],
   "nodeIds": [
    "c12_eng_k_cbse_10_001",
@@ -7290,103 +7327,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet This Node Provides The Essential outside the classroom?",
+   "question": "Quick guess -- where do you meet 'Trees' — The Context And outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "This node provides the essential biographical, historical, and stylistic context needed to approach Emily Dickinson's poem \"Trees\" — including her"
+   "hook": "'Trees' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "This Node Provides The Essential",
-    "text": "This node provides the essential biographical, historical, and stylistic context needed to approach Emily Dickinson's poem \"Trees\" — including her reclusive life, posthumous publication, and signature use of unconventional capitalization, dashes, and",
+    "title": "Before You Read: Context and Background",
+    "text": "'Trees' (Kaleidoscope, ch. 10) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure In Poetry",
-    "text": "Plot and narrative structure in poetry refers to the deliberate sequencing of images, perspectives, and tonal shifts that create a sense of movement or progression through the poem — not a conventional story with conflict and resolution, but an architectural",
+    "title": "Plot/narrative Arc Of 'Trees'",
+    "text": "The plot/narrative arc of 'Trees' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and physical environment in which the poem occurs; atmosphere (or mood) is the emotional tone or feeling created by the setting, imagery, diction, and poetic devices, which the reader experiences while reading.",
+    "title": "Setting Of 'Trees'",
+    "text": "The setting of 'Trees' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a poem involves examining the speaker's persona—their perspective, tone, attitude, and emotional response—as revealed through their observations, choice of imagery, and reflective statements.",
+    "title": "Character Analysis In 'Trees'",
+    "text": "Character analysis in 'Trees' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In Emily Dickinson's Poem \"Trees,\"",
-    "text": "In Emily Dickinson's poem \"Trees,\" supporting characters are the personified elements of nature — the Trees, the Sun, the Bird, the Snake, and the Flowers — that are given human-like qualities, actions, and agency to create a vivid, dynamic portrait of a",
+    "title": "Supporting Characters In 'Trees'",
+    "text": "Supporting characters in 'Trees' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea — the profound insight about life, nature, or human experience that the poet communicates through imagery, structure, and language.",
+    "title": "Primary Theme Of 'Trees'",
+    "text": "The primary theme of 'Trees' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subordinate ideas, motifs, or perspectives that run alongside the primary theme in a literary work, enriching the text by adding layers of meaning, contrast, or complexity.",
+    "title": "Secondary Themes In 'Trees'",
+    "text": "Secondary themes in 'Trees' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures; metaphor is a direct comparison between two unlike things without using \"like\" or \"as,\" transferring qualities from",
+    "title": "Imagery In 'Trees' — The Vivid",
+    "text": "Imagery in 'Trees' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony In Poetry",
-    "text": "Irony in poetry is a contrast between expectation and reality, where the intended meaning differs from the literal words (verbal irony), the outcome contradicts what is anticipated (situational irony), or the reader knows more than the speaker (dramatic",
+    "title": "Irony And Paradox In 'Trees' — Where",
+    "text": "Irony and paradox in 'Trees' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and function of a word as it is used within a specific literary text, by analyzing surrounding words, imagery, tone, and poetic devices rather than relying solely on a",
+    "title": "Key Vocabulary Of 'Trees'",
+    "text": "Key vocabulary of 'Trees' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "This Topic Examines Emily Dickinson's",
-    "text": "This topic examines Emily Dickinson's distinctive grammatical choices in \"Trees\" — specifically her unconventional capitalization of common nouns, extensive use of dashes as syntactic and rhythmic markers, inverted/elliptical sentence structures, and",
+    "title": "Language And Style In 'Trees'",
+    "text": "Language and style in 'Trees' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving explicitly stated information from the text, while inferential comprehension requires drawing conclusions by combining textual evidence with reasoning.",
+    "title": "Literal Comprehension Of 'Trees' — Questions",
+    "text": "Literal comprehension of 'Trees' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of examining a text's structural, linguistic, and thematic elements to construct an evidence-based interpretation that goes beyond surface comprehension, evaluating how the poet's choices shape",
+    "title": "Critical Thinking On 'Trees' — Analysing",
+    "text": "Critical thinking on 'Trees' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Writing Skills For Poetry Analysis Involve",
-    "text": "Writing skills for poetry analysis involve structuring analytical answers using the PEEL method (Point, Evidence, Explanation, Link) to interpret poetic devices, themes, and imagery from Emily Dickinson's \"Trees\" with precise textual evidence and clear",
+    "title": "Writing Skills From 'Trees' — Using",
+    "text": "Writing skills from 'Trees' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students engage in a focused group conversation on specific interpretive questions about a literary text, practicing articulation of ideas, active listening, evidence-based",
+    "title": "Discussion Points On 'Trees' — Speaking",
+    "text": "Discussion points on 'Trees' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -7438,10 +7475,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you open your textbook and see a poem where “Sun” and “Summer” are capitalized mid-sentence, dashes appear where commas should be, and the",
-     "Your first instinct might be to think it’s a printing error.",
-     "Instead, pause and ask: *Who wrote this, and why does it look like this?* This node teaches you to treat the poet’s biography and stylistic",
-     "Start by noting Dickinson’s near-total withdrawal from society and her choice to bind poems in handmade fascicles — this explains the private,"
+     "Start with the author of 'Trees', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -7501,10 +7535,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a time-lapse video of a summer day: first the trees sway, then the sun plays hide-and-seek with clouds, then a bird and snake",
-     "That's the narrative structure here.",
-     "Begin by reading the poem aloud and marking where your attention shifts: from trees to sun to creatures to the painter Vandyke.",
-     "Ask: what does each stanza *add* to the previous one?"
+     "Trace 'Trees' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -7564,10 +7595,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in a mango orchard on a hot Indian summer afternoon — you hear the buzz of insects, see the light filtering through leaves,",
-     "That sensory experience is exactly what \"setting and atmosphere\" mean in a poem.",
-     "Begin by reading \"Trees\" aloud twice: first for the sound and rhythm, second to underline every noun that names a place or time (Summer, Sun,",
-     "Then circle every word that conveys a feeling or mood (Enamoring, fair, optional, whim, mean, mean)."
+     "Identify where and when 'Trees' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -7627,10 +7655,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at a window watching a summer storm roll in—you notice the trees sway, the light change, the birds react, and you feel a mix",
-     "That's exactly the speaker's position in Dickinson's poem.",
-     "To analyze this protagonist, start by reading the poem aloud and marking every \"I\" or \"me\" (only in the final stanza) and every opinion word (\"mean,\"",
-     "Then trace how the speaker describes the Sun's whims, the creatures' human-like actions, and the flowers' flag-like rising—all filtered through the"
+     "Pick the central figure in 'Trees' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -7701,9 +7726,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the actors are trees, sunlight, a bird, a snake, and flowers — but they're not just standing there; they're",
-     "To begin, read the poem aloud and circle every verb attached to a natural element.",
-     "Ask: \"What human action is this tree/sun/bird doing?\" Then ask: \"Why would the poet make nature *act* like people?"
+     "Spot the secondary figures in 'Trees' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -7711,20 +7734,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary theme of Emily Dickinson's poem \"Trees\" as distinct from its subject matter?",
     "answer": "The primary theme is nature's sublime, self-sufficient beauty that transcends and renders inadequate human attempts to capture it through art (exemplified by the reference to",
     "options": [
-     "(1) Capitalization of common nouns (e.g., \"Trees\", \"Tassels\", \"Sun\", \"Bird\", \"Snake\", \"Flowers\") as if they were proper nouns",
-     "The protagonist is the first-person speaker who observes and reflects on the summer day. The primary evidence is the use of \"I\" in the final stanza (\"'Twas more",
+     "The student can participate in a group discussion on Emily Dickinson's \"Trees\", articulate responses to all six NCERT \"Responding to the Poem\" questions using textual evidence",
+     "The student can independently write a 100-150 word analytical paragraph on any poetic device or theme from the poem \"Trees\" using the PEEL structure",
      "The primary theme is nature's sublime, self-sufficient beauty that transcends and renders inadequate human attempts to capture it through art (exemplified by the reference to"
     ],
-    "hint": "Straight from the 'primary theme of a poem' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Trees'' slide -- match the key terms.",
     "misconception": "A wrong answer would confuse the *subject* (trees, sun, summer day) with the *theme* (the philosophical claim about nature vs. art). Students who answer \"the poem is about a summer day\" show they cannot distinguish topic from thematic argument.",
     "id": "gen_c12_eng_k_ch10_q6",
     "nodeId": "c12_eng_k_cbse_10_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in a garden at noon — sunlight filtering through leaves, birds chattering, flowers swaying — and you try to paint it.",
-     "No matter how skilled you are, the painting feels flat compared to the living moment.",
-     "That frustration is exactly what Dickinson explores.",
-     "Begin by reading the poem aloud twice: first for sound and rhythm, second marking every capitalized noun and dash."
+     "Ask what 'Trees' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -7784,10 +7804,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you've just finished describing the \"main idea\" of a poem to a friend, but you feel the poem is doing *more* than that one thing — like a",
-     "That \"more\" is the realm of secondary themes.",
-     "To find them in Dickinson's \"Trees,\" start by re-reading the poem *not* for the main argument, but for *patterns*: Where does the imagery cluster?",
-     "Art?) Where does the tone shift?"
+     "Look beneath the main theme of 'Trees' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -7799,16 +7816,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "In the first line, dashes fragment the action (“hit – and – swung”) to mimic the jerky, hesitant movement of trees in wind",
      "A simile uses \"like\" or \"as\" to compare; a metaphor states the comparison directly without those words"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Trees' — the vivid' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it's just a simile\" misses how Dickinson blurs the boundary: the trees don't merely resemble tassels; they *act* as tassels, hitting and swinging, making the vehicle (tassel) the lens through which we see the tenor (trees).",
     "id": "gen_c12_eng_k_ch10_q8",
     "nodeId": "c12_eng_k_cbse_10_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in a summer orchard at noon — sunlight flickers through leaves, a breeze makes branches sway like tassels, and somewhere a",
-     "Now ask: how does Dickinson capture this entire sensory experience in just eight lines without ever saying \"I saw\" or \"I heard\"?",
-     "Start by reading the poem aloud twice: first for the music of the dashes and capitalisation, second to underline every word that triggers a sense",
-     "Next, circle the direct comparisons — \"Trees like Tassels\" (simile, but functioning as metaphor), \"Psalteries of Summer\" (metaphor: summer's sounds"
+     "Find the lines in 'Trees' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -7816,20 +7830,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the literal meaning of the phrase \"Psalteries of Summer\" in the poem, and what musical instrument does a psaltery resemble?",
     "answer": "A psaltery is an ancient stringed instrument similar to a dulcimer or zither; \"Psalteries of Summer\" literally refers to the collective sound of miniature creatures (insects",
     "options": [
-     "Any two of: (1) Nature as music/harmony (\"Psalteries of Summer,\" \"Tune from Miniature Creatures\")",
-     "The six questions are: (1) What imagery does the poet use to delineate Summer's day more picturesquely than any painter could?",
+     "The first stanza sets the poem on a summer day in a natural landscape with trees (\"Trees like Tassels\"), miniature creatures, and the Sun",
+     "Setting in poetry refers to the time, place, and physical environment in which the poem occurs",
      "A psaltery is an ancient stringed instrument similar to a dulcimer or zither; \"Psalteries of Summer\" literally refers to the collective sound of miniature creatures (insects"
     ],
-    "hint": "Straight from the 'Irony in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Trees' —' slide -- match the key terms.",
     "misconception": "A wrong answer that calls it a \"type of flower\" or \"a poetic word for sunshine\" reveals the student has not connected the Language Study note in the textbook or recognized the musical metaphor central to the stanza's auditory imagery.",
     "id": "gen_c12_eng_k_ch10_q9",
     "nodeId": "c12_eng_k_cbse_10_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are looking at a painting of a summer day — bright, peaceful, fully captured on canvas.",
-     "Now read Dickinson's poem and notice how she insists nature *refuses* to be captured: the Sun hides \"Eternally from view,\" the flowers rise \"Like",
-     "Begin by reading the poem aloud, marking every capitalised noun (Sun, Orchards, Psalteries, Vandyke) and every dash-punctuated pause.",
-     "Ask: where does the poem say one thing but mean another?"
+     "Look in 'Trees' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -7837,20 +7848,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary meaning of the word \"Tassels\" as used in the opening line \"The Trees like Tassels hit – and – swung –\"?",
     "answer": "In this context, \"Tassels\" refers to the hanging, fringe-like clusters of leaves or flowers on trees that sway and strike against each other in the wind",
     "options": [
-     "The protagonist is the first-person speaker who observes and reflects on the summer day. The primary evidence is the use of \"I\" in the final stanza (\"'Twas more",
-     "Interpretation is an evidence-based argument about what a text *means* and *how* it achieves that meaning, grounded in specific textual patterns (imagery, syntax, structure)",
+     "The student can independently identify the primary theme of Dickinson's \"Trees\" by synthesizing evidence from imagery, personification, capitalization, and structural choices",
+     "The student can independently write a 100-150 word analytical paragraph on any poetic device or theme from the poem \"Trees\" using the PEEL structure",
      "In this context, \"Tassels\" refers to the hanging, fringe-like clusters of leaves or flowers on trees that sway and strike against each other in the wind"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Trees'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"decorative cords on curtains\") reveals the student is applying a generic household-object definition without visualizing the tree imagery or the kinetic verbs \"hit – and – swung –\" that demand a natural, botanical referent.",
     "id": "gen_c12_eng_k_ch10_q10",
     "nodeId": "c12_eng_k_cbse_10_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading Dickinson's poem and hit the word \"Psalteries\" in line 6 — you've never seen it before.",
-     "Do you stop and Google it?",
-     "First, re-read the stanza: \"Far Psalteries of Summer – / Enamoring the Ear\".",
-     "Notice \"Ear\" and \"Enamoring\" (suggesting sound and beauty)."
+     "Note the difficult or loaded words in 'Trees' — their meaning carries the text's precision."
     ]
    },
    {
@@ -7899,10 +7907,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a poem where \"Sun\" and \"Bird\" are capitalized like proper names, dashes appear mid-sentence like breaths, and the word order",
-     "Ask yourself: \"Why would a poet break grammar rules on purpose?\" Start by reading the poem aloud, marking every capitalized common noun and every",
-     "Then ask: \"What happens if I remove the dashes?",
-     "What if I lowercase 'Sun'?\" The key insight: Dickinson's grammar isn't erroneous — it's a deliberate code that makes nature feel alive, independent,"
+     "Read 'Trees' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -7914,16 +7919,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The first stanza's atmosphere is joyful, musical, and harmonious (\"Tune,\" \"Enamoring\"). The second stanza becomes mysterious and uncertain because the Sun shines \"whole at",
      "A literal question asks for information directly stated in the poem (e.g., \"What does the Sun do at intervals?"
     ],
-    "hint": "Straight from the 'Literal comprehension involves' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Trees'' slide -- match the key terms.",
     "misconception": "A wrong answer that defines both as \"questions about the poem\" reveals the student cannot distinguish retrieval from reasoning, leading to vague, unsupported answers in exams.",
     "id": "gen_c12_eng_k_ch10_q12",
     "nodeId": "c12_eng_k_cbse_10_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 3-mark question: \"How does Dickinson portray the Sun's relationship with the clouds?",
-     "Start by reading the poem aloud — hear the dashes, feel the pauses.",
-     "Then, for literal questions, put your finger on the exact line that states the fact.",
-     "For inferential questions, ask: \"What does the poet show me that she doesn't tell me?"
+     "Answer 'Trees' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -7983,10 +7985,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"How does Dickinson make a summer day feel alive and mysterious in the first poem?\" Don't just list devices.",
-     "Start by reading the poem aloud — notice the dashes force pauses, the capitalized nouns (Sun, Psalteries, Orchards) act like characters.",
-     "Ask: *What effect does personifying the Sun as having \"Estates of Cloud\" create?* Connect that to the theme of nature's unpredictability.",
-     "Then compare with the second poem: the \"careless\" Bird and \"gossiped\" Snake contrast with the first poem's musical trees."
+     "Analyse 'Trees' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -7994,21 +7994,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing analytical paragraphs for poetry?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "In this context, \"Tassels\" refers to the hanging, fringe-like clusters of leaves or flowers on trees that sway and strike against each other in the wind",
-     "The three features are: (1) unconventional capitalization of nouns, (2) extensive use of dashes, and (3) unusual imagery combined with a lyric style",
-     "PEEL stands for Point, Evidence, Unbuttons, Link",
+     "Plot and narrative structure in poetry refers to the deliberate sequencing of images, perspectives",
+     "Setting in poetry refers to the time, place, and physical environment in which the poem occurs",
+     "PEEL stands for Point, Evidence, Secondary, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills for poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Trees' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student has memorised a mnemonic without understanding its functional steps — they cannot map each letter to a specific writing action, so their paragraphs lack structure.",
     "id": "gen_c12_eng_k_ch10_q14",
     "nodeId": "c12_eng_k_cbse_10_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"How does Dickinson use personification to depict a summer day?",
-     "That's the trap — narration is not analysis.",
-     "Start by reading the question and identifying the key term (personification).",
-     "Then hunt for exactly two pieces of evidence (e.g., \"hit – and – swung\", \"Miniature Creatures / Accompanying the Sun\")."
+     "For written answers on 'Trees', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -8090,10 +8087,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_10_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a book club where everyone has read the same poem but sees different things in it — how do you have a conversation that actually",
-     "Start by reading the poem aloud twice: once for flow, once to mark striking images.",
-     "Then, for each discussion question, use the PEEL method (Point, Evidence, Explanation, Link) to structure your contribution.",
-     "Listen actively by restating a peer's point before adding yours."
+     "Talk through 'Trees' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -8259,23 +8253,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about this node provides the essential biographical?",
+    "What surprised you about 'trees' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "This Node Provides The mastered! 🎯",
+  "successLine": "'Trees' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch11",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Wild Swans At Coole'",
   "subtitle": "English · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch11: Before You Read: Context and Background"],
+  "topic": "'The Wild Swans At Coole'",
+  "chapters": [
+   "English Ch11: 'The Wild Swans At Coole'"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_11_001",
    "c12_eng_k_cbse_11_002",
@@ -8300,103 +8296,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'The Wild Swans At Coole' in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" refers to the essential biographical, historical, literary, and geographical information about the poet W.B."
+   "hook": "'The Wild Swans at Coole' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" refers to the essential biographical, historical, literary, and geographical information about the poet W.",
+    "title": "'The Wild Swans At Coole'",
+    "text": "'The Wild Swans at Coole' (Kaleidoscope, ch. 11) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In Poetry, Narrative Structure",
-    "text": "In poetry, narrative structure refers to the organization of the speaker's observations, memories, and reflections across stanzas to create a coherent emotional arc — moving from a concrete scene to internal realization, often through shifts in time,",
+    "title": "Plot/narrative Arc Of 'The Wild",
+    "text": "The plot/narrative arc of 'The Wild Swans at Coole' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and physical environment where the poem's action or reflection occurs, while atmosphere (or mood) is the emotional tone evoked in the reader through the poet's selection and arrangement of setting details, imagery,",
+    "title": "Setting Of 'The Wild Swans",
+    "text": "The setting of 'The Wild Swans at Coole' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a lyric poem involves examining the speaker's persona, emotional state, perspective, and how these are revealed through observations, contrasts, and reflections within the poem.",
+    "title": "Character Analysis In 'The Wild Swans",
+    "text": "Character analysis in 'The Wild Swans at Coole' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, Supporting Characters",
-    "text": "In poetry, supporting characters are non-protagonist entities — often natural elements, animals, or collective figures — that contrast with the speaker to illuminate the poem's central concerns.",
+    "title": "Supporting Characters In 'The Wild Swans",
+    "text": "Supporting characters in 'The Wild Swans at Coole' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is the central, unifying idea or insight about life that the poet conveys through the interplay of imagery, tone, structure, and personal reflection; the message is the specific emotional or philosophical takeaway the poet intends",
+    "title": "Primary Theme Of 'The Wild",
+    "text": "The primary theme of 'The Wild Swans at Coole' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that complement the primary theme, adding layers of meaning by exploring related aspects of the human experience, nature, or the poet's psyche.",
+    "title": "Secondary Themes In 'The Wild Swans",
+    "text": "Secondary themes in 'The Wild Swans at Coole' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'The Wild Swans",
+    "text": "Imagery in 'The Wild Swans at Coole' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony In Poetry",
-    "text": "Irony in poetry is a contrast between expectation and reality, often revealing a deeper truth; in \"The Wild Swans at Coole,\" the central irony lies in the swans' apparent timelessness and passion versus the poet's acute awareness of his own aging and",
+    "title": "Irony And Paradox In 'The Wild",
+    "text": "Irony and paradox in 'The Wild Swans at Coole' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and functional role of specific words as they are used within a particular literary text, rather than relying solely on isolated dictionary definitions.",
+    "title": "Key Vocabulary Of 'The Wild Swans",
+    "text": "Key vocabulary of 'The Wild Swans at Coole' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of how a poet manipulates grammatical structures — tense, voice, word order, sentence patterns, and archaic forms — to create poetic effects, convey thematic depth, and establish a",
+    "title": "Language And Style In 'The Wild",
+    "text": "Language and style in 'The Wild Swans at Coole' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions require drawing conclusions by combining textual evidence with reasoning and context.",
+    "title": "Literal Comprehension Of 'The Wild Swans",
+    "text": "Literal comprehension of 'The Wild Swans at Coole' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a poem's structure, language, imagery, and themes to interpret deeper meanings, evaluate the poet's choices, and synthesize insights about human experience.",
+    "title": "Critical Thinking On 'The Wild Swans",
+    "text": "Critical thinking on 'The Wild Swans at Coole' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter refer to the ability to compose structured, evidence-based analytical responses to the poem \"The Wild Swans at Coole,\" including critical appreciation, thematic analysis, and device-focused answers, using the PEEL (Point,",
+    "title": "Writing Skills From 'The Wild Swans",
+    "text": "Writing skills from 'The Wild Swans at Coole' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points for \"The Wild Swans at Coole\" are structured conversation prompts that require students to articulate interpretations of the poem's themes (aging, permanence vs.",
+    "title": "Discussion Points On 'The Wild Swans",
+    "text": "Discussion points on 'The Wild Swans at Coole' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -8407,20 +8403,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who was W.B. Yeats, and what major literary honor did he receive in 1923?",
     "answer": "W.B. Yeats (1865–1939) was an Irish poet, dramatist, and mystic, a driving force of the Irish Literary Revival and co-founder of the Abbey Theatre",
     "options": [
-     "The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself. His role is to observe the swans, reflect on the passage of nineteen years",
-     "Stanza 1 establishes the present moment (\"October twilight,\" \"now\"), while stanza 2 jumps back 19 years (\"The nineteenth autumn has come upon me / Since I first made my count\")",
+     "The student can independently analyze a poem's form and content, support interpretations with textual evidence, and articulate how literary devices shape meaning and theme",
+     "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and functional role of specific words as they are used within a particular literary",
      "W.B. Yeats (1865–1939) was an Irish poet, dramatist, and mystic, a driving force of the Irish Literary Revival and co-founder of the Abbey Theatre"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Wild Swans at Coole'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing him with Wordsworth, or saying he won the Booker Prize) reveals the student has not retained basic biographical facts from the textbook's introductory note, which are essential for anchoring all later analysis.",
     "id": "gen_c12_eng_k_ch11_q1",
     "nodeId": "c12_eng_k_cbse_11_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are meeting a new classmate who seems quiet and intense.",
-     "You'd want to know: Where are they from?",
-     "What have they been through?",
-     "What matters to them?"
+     "Start with the author of 'The Wild Swans at Coole', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -8428,20 +8421,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary temporal shift that occurs between stanza 1 and stanza 2 of \"The Wild Swans at Coole\"?",
     "answer": "Stanza 1 establishes the present moment (\"October twilight,\" \"now\"), while stanza 2 jumps back 19 years (\"The nineteenth autumn has come upon me / Since I first made my count\")",
     "options": [
-     "The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied by the swans) and the inevitable aging and mortality of the human observer",
-     "The primary irony is the contrast between the swans' apparent timelessness — they are \"unwearied,\" \"their hearts have not grown old,\" and \"passion or conquest attend upon them",
+     "The rhyme scheme is ABCBDE (beauty/A, dry/B, water/C, sky/B, stones/D, swans/E). The inversion in \"The trees are in their autumn beauty\" (standard order: \"The trees in their",
+     "The student can articulate the primary theme of \"The Wild Swans at Coole\" as the tension between eternal natural vitality and human aging",
      "Stanza 1 establishes the present moment (\"October twilight,\" \"now\"), while stanza 2 jumps back 19 years (\"The nineteenth autumn has come upon me / Since I first made my count\")"
     ],
-    "hint": "Straight from the 'In poetry, narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"no shift\" or \"shift to future\") reveals the student hasn't learned to track time markers like \"since,\" \"first,\" \"now,\" and \"still\" as structural signposts in lyric poetry.",
     "id": "gen_c12_eng_k_ch11_q2",
     "nodeId": "c12_eng_k_cbse_11_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film that opens with a beautiful lake scene, then cuts to a flashback of the same place 19 years earlier, then returns to",
-     "That's exactly how this poem works — it's a five-stanza \"film\" where the camera moves between outer landscape and inner time.",
-     "Start by reading the poem aloud once, noticing how each stanza feels like a distinct scene.",
-     "Then map the time markers: \"October twilight\" (now), \"nineteenth autumn\" (past), \"first time on this shore\" (deeper past), \"now they drift\" (present"
+     "Trace 'The Wild Swans at Coole' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -8453,16 +8443,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Sentence B is stronger because it immediately states a thesis (the poem's central concern) and signals an analytical approach",
      "Setting is the concrete time, place, and physical environment (e.g., \"Coole Park in October twilight\")"
     ],
-    "hint": "Straight from the 'Setting in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Wild Swans' slide -- match the key terms.",
     "misconception": "A wrong answer that equates the two or defines atmosphere as merely \"the weather\" reveals confusion between physical backdrop and emotional effect — a critical error because board questions ask \"how does the setting create atmosphere?\" not \"what is the setting?\"",
     "id": "gen_c12_eng_k_ch11_q3",
     "nodeId": "c12_eng_k_cbse_11_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you visit your childhood park after twenty years — the trees are taller, the paths feel narrower, and a quiet sadness mixes with nostalgia.",
-     "That is exactly what Yeats does in this poem: he returns to Coole Park after nineteen autumns and lets the landscape speak his inner change.",
-     "Begin by reading the poem aloud twice — first for the music, second to underline every word that paints the physical place (autumn, dry, October,",
-     "Next, circle words that carry emotional weight (beauty, still, brimming, clamorous, sore, changed, lighter, unwearied, cold, companionable,"
+     "Identify where and when 'The Wild Swans at Coole' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -8471,40 +8458,76 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself. His role is to observe the swans, reflect on the passage of nineteen years",
     "options": [
      "The rhyme scheme of the first stanza is ABCBDD (lines 1-6: beauty/A, dry/B, water/C, sky/B, stones/D, swans/D)",
-     "The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied by the swans) and the inevitable aging and mortality of the human observer",
+     "The student can articulate the primary theme of \"The Wild Swans at Coole\" as the tension between eternal natural vitality and human aging",
      "The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself. His role is to observe the swans, reflect on the passage of nineteen years"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the swans are the protagonist\") reveals confusion between the subject of observation and the observing consciousness — a fundamental error in lyric poetry analysis.",
     "id": "gen_c12_eng_k_ch11_q4",
     "nodeId": "c12_eng_k_cbse_11_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are looking at an old photograph of yourself from nineteen years ago — what do you feel?",
-     "That is exactly where the speaker stands at Coole Park.",
-     "Begin by reading the poem aloud to hear the rhythm of his measured, sorrowful voice.",
-     "Notice how the first stanza sets the external autumn scene, then the second stanza shifts to the speaker's personal count of nineteen autumns."
+     "Pick the central figure in 'The Wild Swans at Coole' — track their actions, words and choices to see who they really are."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the exact number of swans the speaker counts in the first stanza, and why does the precision of that number matter for characterizing them as a collective entity?",
-    "answer": "The speaker counts fifty-nine swans (\"nine-and-fifty\"). The odd number — one swan without a mate",
-    "options": [
-     "The rhyme scheme of the first stanza is ABCBDD (lines 1-6: beauty/A, dry/B, water/C, sky/B, stones/D, swans/D)",
-     "The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself. His role is to observe the swans, reflect on the passage of nineteen years",
-     "The speaker counts fifty-nine swans (\"nine-and-fifty\"). The odd number — one swan without a mate"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the swans as a collective",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "trace their portrayal across all five",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain how their vitality contrasts",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "articulate their symbolic role in the poem's",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'In poetry, supporting characters' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"about fifty\" or \"many swans\") reveals the student misses how Yeats uses exactitude to make the swans a distinct character with a specific identity.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify the swans as a collective supporting character, (2) trace their portrayal across all five",
     "id": "gen_c12_eng_k_ch11_q5",
     "nodeId": "c12_eng_k_cbse_11_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine sitting by a lake in October, watching a flock of swans take flight — their wings loud, their energy seemingly inexhaustible — while you feel",
-     "That exact moment is the poem's core.",
-     "Begin by reading the poem aloud, noticing how the swans enter in stanza one as a precise count (\"nine-and-fifty\") and reappear in each stanza with",
-     "Track three things: (a) verbs describing their motion (mount, scatter, wheel, paddle, climb, drift), (b) adjectives assigned to them (brilliant,"
+     "Spot the secondary figures in 'The Wild Swans at Coole' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -8512,20 +8535,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary theme of \"The Wild Swans at Coole\" in one sentence?",
     "answer": "The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied by the swans) and the inevitable aging and mortality of the human observer",
     "options": [
-     "A secondary theme is a subordinate idea that supports, contrasts with, or expands the primary theme, adding depth without being the central controlling idea",
-     "The primary irony is the contrast between the swans' apparent timelessness — they are \"unwearied,\" \"their hearts have not grown old,\" and \"passion or conquest attend upon them",
+     "The student can (1) identify the swans as a collective supporting character, (2) trace their portrayal across all five stanzas using specific textual evidence",
+     "The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself. His role is to observe the swans, reflect on the passage of nineteen years",
      "The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied by the swans) and the inevitable aging and mortality of the human observer"
     ],
-    "hint": "Straight from the 'primary theme of a poem' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer like \"The poem is about beautiful swans in autumn\" reveals the student is stuck at literal description and misses the reflective, personal dimension that makes it a theme rather than a topic.",
     "id": "gen_c12_eng_k_ch11_q6",
     "nodeId": "c12_eng_k_cbse_11_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you find an old photograph of yourself from ten years ago — you notice how much you've changed while the background scenery looks exactly the",
-     "That jolt of recognition is the entry point to this poem.",
-     "Begin by reading the poem aloud, letting the rhythm of the lines settle.",
-     "Notice the time markers: \"October twilight\", \"nineteenth autumn\", \"first time on this shore\"."
+     "Ask what 'The Wild Swans at Coole' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -8533,20 +8553,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the definition of a secondary theme in poetry, and how does it differ from the primary theme?",
     "answer": "A secondary theme is a subordinate idea that supports, contrasts with, or expands the primary theme, adding depth without being the central controlling idea",
     "options": [
-     "W.B. Yeats (1865–1939) was an Irish poet, dramatist, and mystic, a driving force of the Irish Literary Revival and co-founder of the Abbey Theatre",
-     "Stanza 1 establishes the present moment (\"October twilight,\" \"now\"), while stanza 2 jumps back 19 years (\"The nineteenth autumn has come upon me / Since I first made my count\")",
+     "The student can independently analyze a poem's form and content, support interpretations with textual evidence, and articulate how literary devices shape meaning and theme",
+     "The primary irony is the contrast between the swans' apparent timelessness — they are \"unwearied,\" \"their hearts have not grown old,\" and \"passion or conquest attend upon them",
      "A secondary theme is a subordinate idea that supports, contrasts with, or expands the primary theme, adding depth without being the central controlling idea"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"swans\" or \"autumn\" as themes reveals the student confuses *subjects/topics* with *themes* (which are statements about those topics). A wrong answer that repeats the primary theme shows inability to distinguish hierarchical thematic structure.",
     "id": "gen_c12_eng_k_ch11_q7",
     "nodeId": "c12_eng_k_cbse_11_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are revisiting a childhood park after twenty years.",
-     "The swings are rusted, the trees are taller, but the duck pond looks exactly the same — the ducks glide with the same indifferent grace.",
-     "You feel a pang of loss for your youth, but you also notice the pond's quiet beauty, the way the light hits the water, the mystery of where those",
-     "That layered feeling — sorrow mixed with wonder at nature's indifference and beauty — is exactly what Yeats captures."
+     "Look beneath the main theme of 'The Wild Swans at Coole' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -8554,20 +8571,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the definition of a metaphor, and how does it differ from a simile? Give one example from the poem \"The Wild Swans at Coole\" that is a metaphor (not a simile).",
     "answer": "A metaphor directly states that one thing *is* another (e.g., \"The swans are eternal youth\"), while a simile uses \"like\" or \"as\" to compare",
     "options": [
-     "The rhyme scheme of the first stanza is ABCBDD (lines 1-6: beauty/A, dry/B, water/C, sky/B, stones/D, swans/D)",
-     "The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied by the swans) and the inevitable aging and mortality of the human observer",
+     "Students frequently confuse topics (swans, autumn, water, aging) with themes (statements about those topics)",
+     "The student can independently identify specific images and metaphors in the poem, explain their sensory effect",
      "A metaphor directly states that one thing *is* another (e.g., \"The swans are eternal youth\"), while a simile uses \"like\" or \"as\" to compare"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Wild Swans' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., quoting \"like a bell\" or confusing metaphor with personification) reveals the student cannot distinguish direct comparison from explicit comparison using \"like/as,\" a fundamental error that leads to mislabeling devices in board answers.",
     "id": "gen_c12_eng_k_ch11_q8",
     "nodeId": "c12_eng_k_cbse_11_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing at Coole Park in October: the air is crisp, the paths crunch underfoot, the water is glassy.",
-     "Now ask: *Which words in the poem make you feel that cold, see that stillness, hear that sudden thunder of wings?* That is imagery.",
-     "Next, notice the poet never says \"I am old\" directly; instead, he says \"my heart is sore\" and \"Trod with a lighter tread\" while the swans' \"hearts",
-     "Begin by reading the poem aloud twice: first for the music, second with a pencil to mark every sense-word (sight: \"autumn beauty,\" \"still sky\";"
+     "Find the lines in 'The Wild Swans at Coole' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -8627,10 +8641,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_11_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you return to your childhood park after twenty years: the swings look exactly the same, but your knees ache when you sit on them.",
-     "That jolt — the world unchanged while you have aged — is the core irony Yeats captures.",
-     "Begin by reading the poem aloud, noticing the calm, measured rhythm.",
-     "Then, mark every reference to time (autumn, nineteenth autumn, twilight, old, still)."
+     "Look in 'The Wild Swans at Coole' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -8638,20 +8649,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the dictionary meaning of the word \"clamorous\" as used in the line \"And scatter wheeling in great broken rings / Upon their clamorous wings\"?",
     "answer": "The dictionary meaning of \"clamorous\" is \"making a loud and confused noise; vehement in protest or demand",
     "options": [
-     "The speaker counts fifty-nine swans (\"nine-and-fifty\"). The odd number — one swan without a mate",
-     "The first stanza follows an ABCBDD rhyme scheme (beauty/dry, sky/dry, stones/swans, me/count, finished/mount, rings/wings)",
+     "The student can explain, in their own words, who W.B",
+     "In poetry, narrative structure refers to the organization of the speaker's observations, memories, and reflections across stanzas to create a coherent emotional arc",
      "The dictionary meaning of \"clamorous\" is \"making a loud and confused noise; vehement in protest or demand"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The Wild Swans' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"beautiful\" or \"silent\") reveals that the student is guessing from the poetic context rather than recalling the actual definition, or they confuse the word with \"clamour\" as a noun meaning a loud complaint. This shows a lack of basic lexical knowledge needed before contextual analysis can begin.",
     "id": "gen_c12_eng_k_ch11_q10",
     "nodeId": "c12_eng_k_cbse_11_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem and pause at the phrase \"clamorous wings\" — why did Yeats choose \"clamorous\" instead of simply \"noisy\" or \"loud\"?",
-     "Begin by reading the poem aloud twice: first for flow, second to underline every word that feels charged or unfamiliar.",
-     "For each underlined word, write its dictionary meaning in one column and its contextual meaning in the next column, using the surrounding lines as",
-     "Then ask: what feeling or picture does this word add that a simpler synonym would not?"
+     "Note the difficult or loaded words in 'The Wild Swans at Coole' — their meaning carries the text's precision."
     ]
    },
    {
@@ -8659,20 +8667,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the rhyme scheme of the first stanza of \"The Wild Swans at Coole\" as represented in the NCERT text (A, B, C, B, D, E) and state the grammatical function of the inversion in the opening line \"The trees are in their autumn beauty.\"",
     "answer": "The rhyme scheme is ABCBDE (beauty/A, dry/B, water/C, sky/B, stones/D, swans/E). The inversion in \"The trees are in their autumn beauty\" (standard order: \"The trees in their",
     "options": [
-     "The speaker counts fifty-nine swans (\"nine-and-fifty\"). The odd number — one swan without a mate",
-     "A strong case can be made for \"still\" (adverb) in \"Unwearied still\" — it asserts the swans' enduring vitality (\"still\" = even now",
+     "The student can identify at least four distinct grammatical features in the poem (e.g., inversion, tense patterning, archaic forms, poetic compounds)",
+     "Stanza 1 establishes the present moment (\"October twilight,\" \"now\"), while stanza 2 jumps back 19 years (\"The nineteenth autumn has come upon me / Since I first made my count\")",
      "The rhyme scheme is ABCBDE (beauty/A, dry/B, water/C, sky/B, stones/D, swans/E). The inversion in \"The trees are in their autumn beauty\" (standard order: \"The trees in their"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., claiming the rhyme scheme is AABBCC or missing the inversion) reveals the student cannot map sound patterns or recognize syntactic deviation from standard prose word order.",
     "id": "gen_c12_eng_k_ch11_q11",
     "nodeId": "c12_eng_k_cbse_11_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a poem aloud and suddenly stumble because the word order feels \"backwards\" — \"Under the October twilight the water / Mirrors",
-     "Begin by reading the poem aloud twice: first for flow, second with a pencil marking every line where the subject doesn't come first.",
-     "Next, highlight every verb and label its tense.",
-     "You will see a pattern: present perfect (\"has come,\" \"have looked\") for the poet's accumulated years, simple past (\"saw,\" \"trod\") for a specific"
+     "Read 'The Wild Swans at Coole' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -8684,16 +8689,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Setting is the concrete time, place, and physical environment (e.g., \"Coole Park in October twilight\")",
      "A literal question's answer is explicitly stated in the text (e.g., \"How many swans does the poet count?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty with cognitive process; the real distinction is source of answer: text vs. text+reasoning.",
     "id": "gen_c12_eng_k_ch11_q12",
     "nodeId": "c12_eng_k_cbse_11_012",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and see a question: \"Why does the poet say his heart is sore?",
-     "First, read the question and underline keywords.",
-     "Second, scan the poem for those keywords or synonyms.",
-     "Third, if the answer is directly there, it's literal — quote the line."
+     "Answer 'The Wild Swans at Coole' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -8701,20 +8703,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the rhyme scheme of the first stanza of \"The Wild Swans at Coole\" and how does it contribute to the poem's musical quality?",
     "answer": "The first stanza follows an ABCBDD rhyme scheme (beauty/dry, sky/dry, stones/swans, me/count, finished/mount, rings/wings)",
     "options": [
-     "The rhyme scheme of the first stanza is ABCBDD (lines 1-6: beauty/A, dry/B, water/C, sky/B, stones/D, swans/D)",
-     "The rhyme scheme is ABCBDE (beauty/A, dry/B, water/C, sky/B, stones/D, swans/E). The inversion in \"The trees are in their autumn beauty\" (standard order: \"The trees in their",
+     "A strong case can be made for \"still\" (adverb) in \"Unwearied still\" — it asserts the swans' enduring vitality (\"still\" = even now",
+     "The student can initiate and sustain a 3-4 minute discussion on the poem, citing specific stanzas/lines as evidence",
      "The first stanza follows an ABCBDD rhyme scheme (beauty/dry, sky/dry, stones/swans, me/count, finished/mount, rings/wings)"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., claiming a simple AABB pattern) reveals the student hasn't actually mapped the end sounds, indicating a surface reading.",
     "id": "gen_c12_eng_k_ch11_q13",
     "nodeId": "c12_eng_k_cbse_11_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing by a lake in autumn, watching birds that seem unchanged year after year while you feel older.",
-     "That's the poet's experience.",
-     "Begin by reading the poem aloud to hear its rhythm and notice the rhyme scheme.",
-     "Then, mark the three distinct movements: the tranquil opening, the sudden flight of swans, and the reflective conclusion."
+     "Analyse 'The Wild Swans at Coole' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -8722,21 +8722,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing analytical paragraphs about literature?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The speaker counts fifty-nine swans (\"nine-and-fifty\"). The odd number — one swan without a mate",
-     "The primary theme is the contrast between the timeless, unwearying vitality of nature (embodied by the swans) and the inevitable aging and mortality of the human observer",
-     "PEEL stands for Nature, Evidence, Explanation, Link",
+     "Stanza 1 establishes the present moment (\"October twilight,\" \"now\"), while stanza 2 jumps back 19 years (\"The nineteenth autumn has come upon me / Since I first made my count\")",
+     "In poetry, narrative structure refers to the organization of the speaker's observations, memories, and reflections across stanzas to create a coherent emotional arc",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has memorised a mnemonic without understanding its function: each letter represents a necessary step in building an argument, not just a label for parts of a paragraph.",
     "id": "gen_c12_eng_k_ch11_q14",
     "nodeId": "c12_eng_k_cbse_11_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and the question reads: \"Write a critical appreciation of 'The Wild Swans at Coole'.\" Your mind goes blank.",
-     "Start by reading the question twice and underlining key words: \"critical appreciation\" means you must discuss theme, structure, tone, and literary",
-     "Next, recall the poem's central idea — the contrast between the eternal, passionate swans and the aging, sorrowful poet.",
-     "Jot down 3–4 key quotes (e.g., \"nineteenth autumn,\" \"Their hearts have not grown old\")."
+     "For written answers on 'The Wild Swans at Coole', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -8744,20 +8740,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the rhyme scheme of the first stanza of \"The Wild Swans at Coole\" as given in the NCERT textbook?",
     "answer": "The rhyme scheme of the first stanza is ABCBDD (lines 1-6: beauty/A, dry/B, water/C, sky/B, stones/D, swans/D)",
     "options": [
+     "The student can articulate the primary theme of \"The Wild Swans at Coole\" as the tension between eternal natural vitality and human aging",
      "The rhyme scheme is ABCBDE (beauty/A, dry/B, water/C, sky/B, stones/D, swans/E). The inversion in \"The trees are in their autumn beauty\" (standard order: \"The trees in their",
-     "The protagonist is the first-person speaker, identified with the poet W.B. Yeats himself. His role is to observe the swans, reflect on the passage of nineteen years",
      "The rhyme scheme of the first stanza is ABCBDD (lines 1-6: beauty/A, dry/B, water/C, sky/B, stones/D, swans/D)"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'The Wild' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., AABBCC) reveals the student cannot map end-sounds to letters systematically — a basic skill needed to discuss how rhyme structures the poem's musicality in oral presentation.",
     "id": "gen_c12_eng_k_ch11_q15",
     "nodeId": "c12_eng_k_cbse_11_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a literature circle where each student must share one insight about why the swans remain \"unwearied\" while the poet's heart is",
-     "Then, pick ONE discussion prompt (e.g., \"Is the poem ultimately hopeful or despairing?\").",
-     "Prepare 2-3 textual anchors (specific lines) beforehand.",
-     "During discussion, listen to a peer's view, acknowledge it (\"You're right that the swans symbolize permanence."
+     "Talk through 'The Wild Swans at Coole' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -8769,7 +8762,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The phrase suggests the swans retain eternal youth and passion unlike the aging poet. Evidence: \"Unwearied still\" and \"Passion or conquest",
      "The claim is false. The poem's opening stanza establishes a specific personal ritual (\"nineteenth autumn,\" \"first made my count\") and the swans' sudden flight (\"scatter wheeling\")"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Wild Swans at Coole'' slide -- match the key terms.",
     "misconception": "A student who agrees with the claim has not grasped that modernist poetry (Yeats is a key modernist) often encodes history in private symbols.",
     "id": "gen_c12_eng_k_ch11_q16",
     "nodeId": "c12_eng_k_cbse_11_001",
@@ -8784,7 +8777,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "\"Clamorous\" is harsh, dissonant, and energetic (hard 'c', 'm', 'r' sounds), evoking the violent, sudden energy of the swans' takeoff",
      "The 1916 Easter Rising shattered Yeats's belief in peaceful cultural nationalism; friends were executed, and the Ireland he envisioned was changing violently"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Wild Swans at Coole'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists events but fails to link them to the poem's emotional core (e.g., \"Yeats was sad because of the Rising\") shows the student cannot synthesize historical and biographical contexts into an interpretive lens.",
     "id": "gen_c12_eng_k_ch11_q17",
     "nodeId": "c12_eng_k_cbse_11_001",
@@ -8799,7 +8792,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Refute. The swans are not passive backdrop; they are an active symbolic force. Stanza 1: their precise number structures the poem's reality",
      "Coole Park was the County Galway estate of Lady Augusta Gregory, Yeats's close friend, patron, and co-founder of the Abbey Theatre"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Wild Swans at Coole'' slide -- match the key terms.",
     "misconception": "A wrong answer that treats Coole as an imaginary place or misses the Lady Gregory connection shows the student sees the poem as a generic nature lyric rather than a deeply personal, place-rooted meditation.",
     "id": "gen_c12_eng_k_ch11_q18",
     "nodeId": "c12_eng_k_cbse_11_001",
@@ -8808,23 +8801,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the wild swans at coole'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Wild Swans At Coole' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch12",
-  "title": "Before You Read: Context and Background",
+  "title": "'Time And Time Again' — The Context",
   "subtitle": "English · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch12: Before You Read: Context and Background"],
+  "topic": "'Time And Time Again' — The Context And Background T",
+  "chapters": [
+   "English Ch12: 'Time And Time Again' — The Context And Background T"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_12_001",
    "c12_eng_k_cbse_12_002",
@@ -8849,103 +8844,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'Time And Time Again' — The suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential biographical, historical, and cultural information about"
+   "hook": "'Time and Time Again' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential biographical, historical, and cultural information about the poet and the poem's setting to activate prior knowledge and set a purpose for reading.",
+    "text": "'Time and Time Again' (Kaleidoscope, ch. 12) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot And Narrative Structure In Poetry",
-    "text": "Plot and narrative structure in poetry refers to how a poem organizes its sequence of images, ideas, and emotional movements to convey meaning — including exposition, development, climax, and resolution, even in non-narrative lyrics.",
+    "title": "Plot/narrative Arc Of 'Time",
+    "text": "The plot/narrative arc of 'Time and Time Again' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and social environment in which the poem's action or reflection occurs; atmosphere is the emotional mood or tone created by the poet's choice of sensory details, imagery, and language.",
+    "title": "Setting Of 'Time And Time",
+    "text": "The setting of 'Time and Time Again' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In Poetry, The Protagonist",
-    "text": "In poetry, the protagonist is the central perspective or persona through which the poem's observations and reflections are filtered — often the speaker or a personified central image.",
+    "title": "Character Analysis In 'Time And Time",
+    "text": "Character analysis in 'Time and Time Again' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "In Poetry, Supporting Characters",
-    "text": "In poetry, supporting characters are the personified entities, collective voices, or symbolic figures that surround the speaker and shape the poem's thematic landscape — they are not the central \"I\" but the forces (human, mechanical, natural) that the speaker",
+    "title": "Supporting Characters In 'Time And Time",
+    "text": "Supporting characters in 'Time and Time Again' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea or message that the poet communicates through imagery, structure, and language; in \"Time and Time Again,\" the primary theme is the fragile and repeatedly disrupted communal harmony in India, symbolized",
+    "title": "Primary Theme Of 'Time",
+    "text": "The primary theme of 'Time and Time Again' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying, supporting ideas in a literary work that complement the primary theme by adding layers of meaning, exploring related facets of the central concern, or presenting contrasting perspectives.",
+    "title": "Secondary Themes In 'Time And Time",
+    "text": "Secondary themes in 'Time and Time Again' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures; metaphor is a direct comparison between two unlike things without using \"like\" or \"as,\" transferring qualities from",
+    "title": "Imagery In 'Time And Time Again'",
+    "text": "Imagery in 'Time and Time Again' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony In This Poem",
-    "text": "Irony in this poem is the contrast between the expected function of clocktowers (to keep uniform, reliable time) and the reality that each beats a different time due to human imperfections and communal divisions.",
+    "title": "Irony And Paradox In 'Time",
+    "text": "Irony and paradox in 'Time and Time Again' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context refers to the skill of determining the meaning, connotation, and thematic function of specific words as they are used within a particular literary text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'Time And Time",
+    "text": "Key vocabulary of 'Time and Time Again' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Language Usage In a Literary Text",
-    "text": "Language usage in a literary text refers to the author's deliberate choices in grammar, syntax, diction, sentence structure, and verb forms to shape meaning, tone, and thematic effect.",
+    "title": "Language And Style In 'Time",
+    "text": "Language and style in 'Time and Time Again' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the poem (e.g., what the clock towers do, what causes their time differences).",
+    "title": "Literal Comprehension Of 'Time And Time",
+    "text": "Literal comprehension of 'Time and Time Again' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves evaluating a poem's deeper meanings by examining how form, language, and structure interact to convey the poet's perspective, and forming an independent interpretation supported by specific textual evidence.",
+    "title": "Critical Thinking On 'Time And Time",
+    "text": "Critical thinking on 'Time and Time Again' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Writing Skills",
-    "text": "Writing Skills: Based on the Chapter refers to the ability to construct coherent, evidence-based written responses — such as critical appreciations, thematic analyses, device explanations, and comparative answers — specifically about A.",
+    "title": "Writing Skills From 'Time And Time",
+    "text": "Writing skills from 'Time and Time Again' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students articulate their interpretations of a literary text, listen actively to peers' perspectives, and collaboratively build a deeper understanding of the poem's themes,",
+    "title": "Discussion Points On 'Time And Time",
+    "text": "Discussion points on 'Time and Time Again' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -8956,20 +8951,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who is A.K. Ramanujan, and what is his primary scholarly contribution that influences his poetry?",
     "answer": "A.K. Ramanujan (1929–1993) was a linguist, folklorist, and translator renowned for pioneering translations of ancient Tamil poetry (Sangam literature) into modern English",
     "options": [
-     "The central metaphor is the unsynchronized clock towers beating \"each slightly / off the others' time",
-     "The primary physical setting is the clock towers of an old, well-managed city",
+     "The student can identify the physical and temporal setting of the poem, explain how the poet uses sensory details (sound, sight) to build atmosphere",
+     "The protagonist is the poetic speaker — an unnamed observer who describes the clock towers and their destruction",
      "A.K. Ramanujan (1929–1993) was a linguist, folklorist, and translator renowned for pioneering translations of ancient Tamil poetry (Sangam literature) into modern English"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Time and Time Again' — the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"He was a novelist\" or \"He wrote only in English\") reveals a lack of awareness of his cross-cultural scholarly work, which is essential to understanding the poem's layered cultural references.",
     "id": "gen_c12_eng_k_ch12_q1",
     "nodeId": "c12_eng_k_cbse_12_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine walking through the old quarter of any Indian city — Lucknow, Hyderabad, or Madurai — where multiple clock towers stand within hearing",
-     "You notice they never strike the hour together; each runs on its own rhythm, shaped by its bronze alloy, its maker's hand, or the donor's whim.",
-     "This everyday observation is the entry point to Ramanujan's poem.",
-     "Begin by reading the poet's bio: note his work translating ancient Tamil poetry and his anthropological lens."
+     "Start with the author of 'Time and Time Again', then the period, then the literary context — background turns a text from a puzzle into a story you"
     ]
    },
    {
@@ -9018,10 +9010,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_12_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're handed a poem with no title, no obvious story, just clocks striking different hours.",
-     "Where do you begin?",
-     "Start by reading aloud — hear the irregular rhythm.",
-     "Notice the three stanza blocks separated by white space: each is a structural chapter."
+     "Trace 'Time and Time Again' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -9070,10 +9059,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_12_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in a historic Indian city — perhaps Lucknow or Hyderabad — where several clock towers from different eras chime at slightly",
-     "Ask the student to read the poem aloud first, noticing the sounds of \"gongs,\" \"bronze,\" \"siren,\" \"lightnings.",
-     "Next, have them mark words that convey mood: \"feuds,\" \"alliance,\" \"cut off,\" \"riot,\" \"peace-march time bomb,\" \"precise act of nature.",
-     "The key insight is that setting is not just backdrop; it actively shapes the poem's atmosphere of fragile coexistence and sudden rupture."
+     "Identify where and when 'Time and Time Again' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -9081,20 +9067,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who is the protagonist (central perspective) in \"Time and Time Again,\" and how do you know it's not the poet A.K. Ramanujan himself?",
     "answer": "The protagonist is the poetic speaker — an unnamed observer who describes the clock towers and their destruction",
     "options": [
-     "The central metaphor is the unsynchronized clock towers beating \"each slightly / off the others' time",
-     "A.K. Ramanujan (1929–1993) was a linguist, folklorist, and translator renowned for pioneering translations of ancient Tamil poetry (Sangam literature) into modern English",
+     "The central extended metaphor is the clocktowers of an old city, which represent the diverse religious communities (Hindu, Christian, Muslim) in India",
+     "The student can identify the physical and temporal setting of the poem, explain how the poet uses sensory details (sound, sight) to build atmosphere",
      "The protagonist is the poetic speaker — an unnamed observer who describes the clock towers and their destruction"
     ],
-    "hint": "Straight from the 'In poetry, the protagonist' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Time and' slide -- match the key terms.",
     "misconception": "A wrong answer that equates poet and speaker reveals a confusion between author and persona — a common error where students assume the poet's biography dictates the poem's voice.",
     "id": "gen_c12_eng_k_ch12_q4",
     "nodeId": "c12_eng_k_cbse_12_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to a friend describe their city's clock towers — each keeping slightly different time, each with its own history — and then",
-     "You'd notice your friend's tone: are they angry, sad, resigned, or just observing?",
-     "That's exactly what we do here: we treat the poem's speaker as a character, listen to their voice, trace their observations, and ask what their",
-     "Start by reading the poem aloud to catch the speaker's tone — conversational yet precise, observant yet detached."
+     "Pick the central figure in 'Time and Time Again' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -9154,10 +9137,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_12_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in an old Indian city square at noon: you hear not one bell but several, each slightly off, each with its own tone and",
-     "That is exactly where this poem begins — with the clocktowers as the first \"supporting characters.",
-     "Next, for each entity, find the line(s) where it appears and ask: Is it given human traits?",
-     "What does it represent?"
+     "Spot the secondary figures in 'Time and Time Again' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -9217,10 +9197,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_12_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you hear three different clocks in your neighborhood striking midnight at slightly different minutes — one at 12:00, another at 12:02, a",
-     "You wonder why they don't agree.",
-     "Now read the poem's first stanza: the clock towers of a \"well-managed city\" beat \"each slightly / off the others' time\" due to \"accidents of alloy\"",
-     "The key insight: the title \"Time and Time Again\" tells you this disruption is not a one-time accident but a recurring historical pattern."
+     "Ask what 'Time and Time Again' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -9228,20 +9205,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the most immediate, literal reason the poem gives for the clocktowers beating at different times?",
     "answer": "The poem attributes the time differences to \"accidents of alloy, a maker's shaking hand / in Switzerland, or the mutual distances / commemorating a donor's whim\"",
     "options": [
-     "The phrase means the clocktowers show different times because of variations in their bronze alloy, the maker's hand, or the donor's whim",
-     "The four categories are: (1) Mechanical — the clocktowers and their gongs (\"clocktowers / of any old well‑managed city / beating their gongs\")",
+     "The student can identify each supporting presence in the poem (clocktowers, gongs, communities, donor, maker, nature), cite the exact lines where they appear",
+     "Students conflate \"secondary theme\" with \"any other idea in the poem\" and list topics (e.g",
      "The poem attributes the time differences to \"accidents of alloy, a maker's shaking hand / in Switzerland, or the mutual distances / commemorating a donor's whim\""
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Time and Time' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the clocks represent different religions\" or \"time zones\") reveals the student is jumping to symbolic interpretation without grounding in the literal textual evidence, a common error where students impose meaning before establishing what the text actually says.",
     "id": "gen_c12_eng_k_ch12_q7",
     "nodeId": "c12_eng_k_cbse_12_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in an old Indian city — maybe Lucknow or Hyderabad — hearing multiple clocktowers strike midnight at slightly different",
-     "One booms deep, another rings light; they're never quite in sync.",
-     "That's where this poem begins: with a simple sensory observation that opens into a profound meditation on how humans mark time, divide themselves,",
-     "Start by re-reading the poem silently, then aloud — notice where your voice naturally pauses or changes tone."
+     "Look beneath the main theme of 'Time and Time Again' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -9249,20 +9223,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary sensory modality invoked by the phrase \"beating their gongs round the clock\" in the poem's opening lines?",
     "answer": "The primary sensory modality is auditory (sound). The words \"beating\" and \"gongs\" directly evoke the resonant, metallic striking of bells",
     "options": [
-     "The central metaphor is the unsynchronized clock towers beating \"each slightly / off the others' time",
      "The four categories are: (1) Mechanical — the clocktowers and their gongs (\"clocktowers / of any old well‑managed city / beating their gongs\")",
+     "The student can identify the central theme of the poem, explain how the clock tower metaphor develops this theme across stanzas",
      "The primary sensory modality is auditory (sound). The words \"beating\" and \"gongs\" directly evoke the resonant, metallic striking of bells"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Time and Time Again'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"visual\" because of \"clocktowers\") reveals the student is focusing on the noun (the object) rather than the verb phrase that carries the sensory weight. This is a common error: confusing the subject of the image with the sense it appeals to.",
     "id": "gen_c12_eng_k_ch12_q8",
     "nodeId": "c12_eng_k_cbse_12_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in an old Indian city at noon: you hear not one bell but several clocktowers striking slightly out of sync, each with a",
-     "That's exactly where Ramanujan begins — with sound.",
-     "Ask yourself: what does the poet want me to HEAR first?",
-     "Then notice how each clock's \"bronze\" and \"accidents of alloy\" become a metaphor for communities shaped by history."
+     "Find the lines in 'Time and Time Again' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -9270,20 +9241,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the literal meaning of the phrase \"each slightly off the others' time\" in the first stanza of the poem?",
     "answer": "The phrase means the clocktowers show different times because of variations in their bronze alloy, the maker's hand, or the donor's whim",
     "options": [
-     "The three movements are: (1) Exposition — Stanza 1 establishes the clocktowers as distinct characters with different times, tones, and origins",
-     "Vocabulary in context is the process of deriving a word's specific meaning, connotation, and functional role from the surrounding textual environment (imagery, syntax, tone",
+     "The student can identify at least three distinct grammatical or syntactic features in \"Time and Time Again\" (e",
+     "In poetry, the protagonist is the central perspective or persona through which the poem's observations and reflections are filtered",
      "The phrase means the clocktowers show different times because of variations in their bronze alloy, the maker's hand, or the donor's whim"
     ],
-    "hint": "Straight from the 'Irony in this poem' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Time' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they are set to different time zones\") reveals the student is imposing external logic instead of reading the textual reasons: \"accidents of alloy, a maker's shaking hand ... a donor's whim\".",
     "id": "gen_c12_eng_k_ch12_q9",
     "nodeId": "c12_eng_k_cbse_12_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in a busy Indian city square with three clocktowers visible — each showing a different time.",
-     "You'd probably feel annoyed or confused.",
-     "Now ask: why would a poet choose this chaotic timekeeping as the central image?",
-     "Begin by reading the poem aloud, noticing how the first stanza establishes the clocks' differences as accidental (\"accidents of alloy\", \"a maker's"
+     "Look in 'Time and Time Again' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -9291,20 +9259,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"vocabulary in context\" as a reading skill for poetry. How does it differ from looking up a word in a dictionary?",
     "answer": "Vocabulary in context is the process of deriving a word's specific meaning, connotation, and functional role from the surrounding textual environment (imagery, syntax, tone",
     "options": [
-     "A discussion point is a specific, text-based observation or question raised to initiate or deepen conversation about the poem's meaning, technique, or context",
-     "The three movements are: (1) Exposition — Stanza 1 establishes the clocktowers as distinct characters with different times, tones, and origins",
+     "The student can select any key word from the poem, explain its contextual meaning using textual evidence (surrounding lines, imagery, syntax)",
+     "The student can explain how Ramanujan's background as a linguist and folklorist shapes the poem's perspective, describe the significance of clock towers in old Indian cities",
      "Vocabulary in context is the process of deriving a word's specific meaning, connotation, and functional role from the surrounding textual environment (imagery, syntax, tone"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Time and Time' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it means guessing the meaning\") reveals the student confuses inference with random guessing and misses the systematic use of textual evidence.",
     "id": "gen_c12_eng_k_ch12_q10",
     "nodeId": "c12_eng_k_cbse_12_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem and hit the word \"alloy\" in line 7: \"out of the accidents of alloy\".",
-     "You know it means a mixture of metals, but why does a clock tower have an \"accident of alloy\"?",
-     "Start by circling the word.",
-     "Read the two lines before and after."
+     "Note the difficult or loaded words in 'Time and Time Again' — their meaning carries the text's precision."
     ]
    },
    {
@@ -9312,20 +9277,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the grammatical term for a group of words that lacks a main verb and cannot stand alone as a complete sentence, such as \"eyeless, silent\" in the poem's second stanza?",
     "answer": "The term is sentence fragment (or simply fragment)",
     "options": [
-     "A.K. Ramanujan (1929–1993) was a linguist, folklorist, and translator renowned for pioneering translations of ancient Tamil poetry (Sangam literature) into modern English",
-     "The primary physical setting is the clock towers of an old, well-managed city",
+     "Language usage in a literary text refers to the author's deliberate choices in grammar, syntax, diction, sentence structure, and verb forms to shape meaning, tone",
+     "Students conflate \"secondary theme\" with \"any other idea in the poem\" and list topics (e.g",
      "The term is sentence fragment (or simply fragment)"
     ],
-    "hint": "Straight from the 'Language usage in a literary text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Time' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"phrase\", \"clause\", \"run-on sentence\") reveals confusion between structural categories: a phrase is a component *within* a sentence, a clause has a subject-verb pair, and a run-on joins independent clauses incorrectly.",
     "id": "gen_c12_eng_k_ch12_q11",
     "nodeId": "c12_eng_k_cbse_12_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever noticed how a poet's choice of a sentence fragment instead of a full sentence can make you feel the brokenness of a destroyed clock",
-     "Start by reading the poem aloud twice: first for flow, then with a pencil, marking every verb, every sentence boundary, and every line break.",
-     "Ask: \"Why present tense here but past tense there?",
-     "Why is this line a fragment?"
+     "Read 'Time and Time Again' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -9374,10 +9336,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_12_012",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you’re sitting in the exam hall and the first question asks, “What did you think the poem was about when you read the first few lines?",
-     "Start by reading the poem aloud silently, noting the concrete images: clock towers, gongs, bronze, alloys.",
-     "Literal questions (like Q3) have answers sitting right in the text – the differences come from “accidents of alloy, a maker’s shaking hand… mutual",
-     "The key insight: every inference must be anchored in a phrase or image from the poem."
+     "Answer 'Time and Time Again' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -9385,42 +9344,78 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central extended metaphor in \"Time and Time Again\" and what real-world entity does it represent?",
     "answer": "The central extended metaphor is the clocktowers of an old city, which represent the diverse religious communities (Hindu, Christian, Muslim) in India",
     "options": [
-     "The primary physical setting is the clock towers of an old, well-managed city",
-     "The protagonist is the poetic speaker — an unnamed observer who describes the clock towers and their destruction",
+     "The student can independently write a 150–200 word board-style answer analysing a theme, device, or tone in \"Time and Time Again\" that: (1) states a clear point",
+     "The student can identify at least three distinct secondary themes in \"Time and Time Again,\" trace each through specific textual evidence (imagery, diction, structure)",
      "The central extended metaphor is the clocktowers of an old city, which represent the diverse religious communities (Hindu, Christian, Muslim) in India"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Time and' slide -- match the key terms.",
     "misconception": "A wrong answer like \"the poem is about broken clocks\" reveals a purely literal reading that misses the symbolic mapping between mechanical imperfection and social pluralism.",
     "id": "gen_c12_eng_k_ch12_q13",
     "nodeId": "c12_eng_k_cbse_12_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you hear two clocktowers striking midnight at slightly different moments — one deep, one light.",
-     "You might call it faulty mechanics.",
-     "Ramanujan calls it history.",
-     "Begin by asking: \"Why does the poet spend the first stanza lovingly describing the clocks' imperfections — the 'shaking hand' in Switzerland, the"
+     "Analyse 'Time and Time Again' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What does the acronym PEEL stand for in the context of writing literature answers?",
-    "answer": "PEEL stands for Point, Evidence, Explanation, Link",
-    "options": [
-     "A discussion point is a specific, text-based observation or question raised to initiate or deepen conversation about the poem's meaning, technique, or context",
-     "Vocabulary in context is the process of deriving a word's specific meaning, connotation, and functional role from the surrounding textual environment (imagery, syntax, tone",
-     "PEEL stands for Point, Evidence, Explanation, Listen",
-     "PEEL stands for Point, Evidence, Explanation, Link"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "states a clear point",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "links back to the poem's",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "embeds at least two precise textual",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "explains how each supports the point using",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Writing Skills' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Paragraph, Example, Evidence, Line\") reveals the student has memorised a mnemonic without understanding its function — they cannot map each letter to a structural move in an analytical paragraph.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently write a 150–200 word board-style answer analysing a theme, device, or tone in \"Time and",
     "id": "gen_c12_eng_k_ch12_q14",
     "nodeId": "c12_eng_k_cbse_12_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you sit in the exam hall, the question reads: \"How does Ramanujan use the clock towers to comment on communal harmony?",
-     "First, read the question twice and underline keywords: \"clock towers,\" \"comment,\" \"communal harmony.",
-     "Then, select two concrete details — e.g., the \"perennial feuds and seasonal alliance\" line and the final destruction by \"a riot, a peace-march time",
-     "The key insight: a strong answer doesn't just list devices — it shows how each device builds the poet's lament."
+     "For written answers on 'Time and Time Again', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -9428,20 +9423,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary purpose of a 'discussion point' in a literature speaking and listening activity?",
     "answer": "A discussion point is a specific, text-based observation or question raised to initiate or deepen conversation about the poem's meaning, technique, or context",
     "options": [
-     "A.K. Ramanujan (1929–1993) was a linguist, folklorist, and translator renowned for pioneering translations of ancient Tamil poetry (Sangam literature) into modern English",
-     "The primary sensory modality is auditory (sound). The words \"beating\" and \"gongs\" directly evoke the resonant, metallic striking of bells",
+     "Plot and narrative structure in poetry refers to how a poem organizes its sequence of images, ideas, and emotional movements to convey meaning",
+     "Students treat the poem as a simple description of clocks, missing that the clock description *is* the narrative",
      "A discussion point is a specific, text-based observation or question raised to initiate or deepen conversation about the poem's meaning, technique, or context"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Time and' slide -- match the key terms.",
     "misconception": "A wrong answer like 'to give your opinion' reveals the student confuses discussion with unsupported personal reaction, missing the need for textual anchoring.",
     "id": "gen_c12_eng_k_ch12_q15",
     "nodeId": "c12_eng_k_cbse_12_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a literature circle and the teacher asks, \"What does the poem say about how communities mark time?",
-     "Start by reading the poem aloud in pairs, noticing the sound of the lines.",
-     "Then, individually jot down one question the poem raises for you.",
-     "Share questions in a small group, pick the richest one, and practice building a response using the PEEL structure (Point, Evidence, Explanation,"
+     "Talk through 'Time and Time Again' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -9510,7 +9502,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Visually: the sky is seen in jagged fragments through broken clock-face glass. Structurally: \"zigzag\" mimics the shattered",
      "The lightning is \"precise\" because it follows immutable physical laws — unlike human violence (riots, bombs), which is arbitrary, ideologically driven, and messy"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Time and Time Again' — the' slide -- match the key terms.",
     "misconception": "A wrong answer that calls lightning \"random\" or \"chaotic\" fails to grasp the poet's deliberate word choice to expose the irrationality of communal hatred.",
     "id": "gen_c12_eng_k_ch12_q17",
     "nodeId": "c12_eng_k_cbse_12_001",
@@ -9525,7 +9517,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "(iii) Wistful lament. Evidence 1: The first stanza's affectionate detail — 'deeper or lighter in its bronze', 'donor's whim' — lingers on the beauty of diversity before it is lost",
      "Example: *The madrasa's call to prayer overlaps the temple bell —* *two rhythms braiding in the monair air,* *until a stone shatters the minaret's speaker,* *and silence falls"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Time and Time Again' — the' slide -- match the key terms.",
     "misconception": "A poor answer would lack sensory detail (\"loud sounds\"), use clichés without Indian specificity (\"church and mosque\"), or fail to connect the timekeeper to communal fracture. The task tests ability to internalize the poem's metaphorical logic.",
     "id": "gen_c12_eng_k_ch12_q18",
     "nodeId": "c12_eng_k_cbse_12_001",
@@ -9534,23 +9526,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'time and time again' — the context and background t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Time And Time Again' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch13",
-  "title": "Before You Read: Context and Background",
+  "title": "'Blood' — The Context And Background To This",
   "subtitle": "English · Chapter 13",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch13: Before You Read: Context and Background"],
+  "topic": "'Blood' — The Context And Background To This Text",
+  "chapters": [
+   "English Ch13: 'Blood' — The Context And Background To This Text"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_13_001",
    "c12_eng_k_cbse_13_002",
@@ -9575,103 +9569,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'Blood' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory section that provides essential biographical, historical, cultural, and literary"
+   "hook": "'Blood' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory section that provides essential biographical, historical, cultural, and literary information about the poet and the poem to help students situate the text before engaging in close reading.",
+    "text": "'Blood' (Kaleidoscope, ch. 13) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure in a narrative poem refer to the sequence of events (plot) and the organizational framework the poet uses to present them (structure), including shifts in time, perspective, voice, and stanzaic division that shape the reader's",
+    "title": "Plot/narrative Arc Of 'Blood'",
+    "text": "The plot/narrative arc of 'Blood' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and cultural environment where the poem's action or reflection occurs, while atmosphere is the emotional mood or feeling evoked by the poet's choice of sensory details, imagery, and language.",
+    "title": "Setting Of 'Blood'",
+    "text": "The setting of 'Blood' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a poem involves identifying the speaker/persona, tracing their perspective shifts across the poem, and explaining how their voice, memories, and conflicts reveal their personality and thematic significance — all",
+    "title": "Character Analysis In 'Blood'",
+    "text": "Character analysis in 'Blood' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters in poetry involves identifying figures other than the speaker who appear in the poem, examining their portrayal through direct description, dialogue, and the speaker's reflections, and determining their function in",
+    "title": "Supporting Characters In 'Blood'",
+    "text": "Supporting characters in 'Blood' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea — the core insight about human experience that the poet communicates through imagery, tone, structure, and language.",
+    "title": "Primary Theme Of 'Blood'",
+    "text": "The primary theme of 'Blood' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subordinate yet significant ideas that run parallel to the primary theme in a literary work, enriching the text by exploring complementary dimensions such as social critique, personal conflict, historical memory, or cultural",
+    "title": "Secondary Themes In 'Blood'",
+    "text": "Secondary themes in 'Blood' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, smell, taste) to create mental pictures and evoke physical sensations; metaphor is a figure of speech that directly equates two unlike things without using",
+    "title": "Imagery In 'Blood' — The Vivid",
+    "text": "Imagery in 'Blood' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'Blood' — Where",
+    "text": "Irony and paradox in 'Blood' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and emotional weight of specific words as they are used within a particular literary text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'Blood'",
+    "text": "Key vocabulary of 'Blood' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Language Usage In Poetry",
-    "text": "Language usage in poetry refers to the deliberate grammatical, syntactic, and lexical choices a poet makes to create meaning, rhythm, imagery, and emotional impact — including deviations from standard prose grammar such as inversion, ellipsis, enjambment, and",
+    "title": "Language And Style In 'Blood'",
+    "text": "Language and style in 'Blood' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated facts, details, or sequences from the poem \"Blood\" by Kamala Das, while inferential comprehension questions demand that students derive implied meanings, emotions, or thematic",
+    "title": "Literal Comprehension Of 'Blood' — Questions",
+    "text": "Literal comprehension of 'Blood' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text's themes, symbols, structure, and context to form reasoned interpretations, moving beyond surface comprehension to evaluate how the writer's choices create meaning and reveal deeper tensions (e.",
+    "title": "Critical Thinking On 'Blood' — Analysing",
+    "text": "Critical thinking on 'Blood' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On a Poetry",
-    "text": "Writing skills based on a poetry chapter involve the ability to construct structured, evidence-based analytical responses that interpret poetic devices, themes, tone, and structural choices while adhering to CBSE board exam marking schemes and competitive",
+    "title": "Writing Skills From 'Blood' — Using",
+    "text": "Writing skills from 'Blood' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students articulate interpretations, debate thematic conflicts, and respond to peers' perspectives on the poem \"Blood\" by Kamala Das, using textual evidence to support",
+    "title": "Discussion Points On 'Blood' — Speaking",
+    "text": "Discussion points on 'Blood' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -9734,10 +9728,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_13_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you stand before an old family home — walls cracked, roof tiles missing, weeds choking the courtyard — and feel a pull in your chest: this",
-     "That tension is the heartbeat of \"Blood.\" Begin by reading the poet's biographical note in the textbook: note her birth year (1934), her region",
-     "Next, locate the two worlds the poem contrasts: the great-grandmother's world (elephant rides, jewel boxes, prince husband, \"oldest blood in the",
-     "The house is the bridge between them — and its decay mirrors the great-grandmother's death and the poet's broken promise."
+     "Start with the author of 'Blood', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -9786,10 +9777,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_13_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading “Blood” for the first time and feel disoriented by the jumps between the poet’s childhood, her great‑grandmother’s stories of",
-     "Begin by reading the poem aloud and marking every stanza break.",
-     "Ask: “Which time period is each stanza anchored in?",
-     "Who is speaking?” You will notice three clear layers: the child listening on the sands, the great‑grandmother’s flashback to her aristocratic youth,"
+     "Trace 'Blood' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -9797,20 +9785,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary physical setting of the poem \"Blood\" as established in the first stanza?",
     "answer": "The primary physical setting is an ancestral house in South Malabar, Kerala, described as three hundred years old with cracked walls, fallen tiles, whining windows",
     "options": [
-     "The protagonist is the poet-speaker (\"I\"), the great-grandmother's great-granddaughter, who narrates the poem from childhood through adulthood",
-     "The lines \"Call me callous / Call me selfish / But do not blame my blood / So thin, so clear, so fine\" contain verbal irony",
+     "Setting in poetry refers to the time, place, and cultural environment where the poem's action or reflection occurs",
+     "The primary purpose is to scaffold focused, evidence-based oral analysis of the poem's themes, devices, or conflicts",
      "The primary physical setting is an ancestral house in South Malabar, Kerala, described as three hundred years old with cracked walls, fallen tiles, whining windows"
     ],
-    "hint": "Straight from the 'Setting in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Blood'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a modern city house\" or \"a temple\") reveals the student cannot extract explicit setting details from the opening imagery and may be confusing the poem with another text.",
     "id": "gen_c12_eng_k_ch13_q3",
     "nodeId": "c12_eng_k_cbse_13_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into your great-grandmother's ancestral home after twenty years — the cracked walls, the smell of damp earth, the sound of rats in",
-     "That visceral experience is exactly what Kamala Das constructs in \"Blood.\" Begin by reading the poem aloud twice: first for the narrative flow,",
-     "Next, circle words that convey emotion — \"groan,\" \"whine,\" \"grotesque,\" \"pallid,\" \"haunted\" — these create atmosphere.",
-     "Now ask: how does the house itself become a character?"
+     "Identify where and when 'Blood' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -9818,20 +9803,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who is the protagonist/speaker in Kamala Das's poem \"Blood,\" and what is their relationship to the great-grandmother?",
     "answer": "The protagonist is the poet-speaker (\"I\"), the great-grandmother's great-granddaughter, who narrates the poem from childhood through adulthood",
     "options": [
-     "The speaker promises: \"When I grow old, / And very very rich / I shall rebuild the fallen walls / And make new this ancient house",
-     "The lines \"Call me callous / Call me selfish / But do not blame my blood / So thin, so clear, so fine\" contain verbal irony",
+     "Setting in poetry refers to the time, place, and cultural environment where the poem's action or reflection occurs",
+     "The student can independently identify specific images and metaphors in the poem, categorise them by sensory mode",
      "The protagonist is the poet-speaker (\"I\"), the great-grandmother's great-granddaughter, who narrates the poem from childhood through adulthood"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Blood'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the great-grandmother is the protagonist\") reveals the student confuses the central narrating consciousness with a memorable secondary character — a common error when a dominant voice like the great-grandmother's occupies significant space in the poem.",
     "id": "gen_c12_eng_k_ch13_q4",
     "nodeId": "c12_eng_k_cbse_13_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to a grandparent recount family history — you hear pride, nostalgia, and perhaps regret in their voice.",
-     "Now open \"Blood\" and read the first stanza aloud.",
-     "Notice who is speaking (\"When we were children / My brother and I\") and how the voice shifts when the great-grandmother speaks (\"You see this house",
-     "The protagonist is the \"I\" who moves from child listener to adult promise-maker to guilt-ridden descendant."
+     "Pick the central figure in 'Blood' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -9839,20 +9821,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the two supporting characters explicitly named or referenced in the poem \"Blood\" by Kamala Das.",
     "answer": "The two supporting characters are the great-grandmother and the speaker's brother",
     "options": [
-     "The primary purpose is to scaffold focused, evidence-based oral analysis of the poem's themes, devices, or conflicts",
-     "The lines \"Call me callous / Call me selfish / But do not blame my blood / So thin, so clear, so fine\" contain verbal irony",
+     "The student must be able to identify at least three distinct secondary themes in \"Blood,\" trace each theme through specific textual evidence across multiple stanzas",
+     "Setting in poetry refers to the time, place, and cultural environment where the poem's action or reflection occurs",
      "The two supporting characters are the great-grandmother and the speaker's brother"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Blood'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing the prince, the rats, or the snake-gods) reveals the student cannot distinguish between characters who actively participate in the poem's human drama and those who are merely part of the setting or backstory.",
     "id": "gen_c12_eng_k_ch13_q5",
     "nodeId": "c12_eng_k_cbse_13_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to an elderly relative describe a grand ancestral home that no longer exists — their stories feel like a different world.",
-     "That is exactly the role the great-grandmother plays in \"Blood\".",
-     "Begin by reading the poem aloud and marking every reference to the great-grandmother and the brother.",
-     "Ask: What does the great-grandmother *do* in the poem?"
+     "Spot the secondary figures in 'Blood' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -9912,10 +9891,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_13_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in front of your own childhood home, watching it crumble — you promised to fix it, but life got in the way.",
-     "That's the exact emotional hook Kamala Das uses in \"Blood.\" Begin by reading the poem aloud twice: first for the story (what happens), second for the",
-     "Notice how the poem moves in three acts: the child's innocent vow (stanzas 1-3), the adult's quiet surrender (stanzas 4-6), and the exile's haunted",
-     "The primary theme isn't just \"tradition vs modernity\" — it's the specific guilt of surviving your heritage by betraying it."
+     "Ask what 'Blood' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -9975,10 +9951,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_13_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in front of a 300-year-old Kerala tharavadu (ancestral house) with cracked walls and a snake-shrine overtaken by weeds — the",
-     "Ask yourself: beyond the obvious story of a crumbling house, what other stories is this poem telling?",
-     "Start by re-reading the poem with a highlighter, marking every passage that feels like it's about something MORE than just the house — look for",
-     "Each cluster is a secondary theme."
+     "Look beneath the main theme of 'Blood' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -9986,20 +9959,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define imagery and metaphor in your own words, giving one example of each from the poem \"Blood\" without quoting full lines.",
     "answer": "Imagery: language appealing to senses (e.g., \"windows whine and groan\" — auditory). Metaphor: direct comparison without 'like/as' (e",
     "options": [
-     "The three time periods are: (1) the poet’s childhood playing on the sands with her brother, (2) the great‑grandmother’s youth",
-     "The primary physical setting is an ancestral house in South Malabar, Kerala, described as three hundred years old with cracked walls, fallen tiles, whining windows",
+     "The student can identify and explain at least three distinct grammatical or syntactic features in Kamala Das's \"Blood\" (e",
+     "The student can independently write a 150-200 word analytical answer on any aspect of \"Blood\" (theme, device, character portrayal",
      "Imagery: language appealing to senses (e.g., \"windows whine and groan\" — auditory). Metaphor: direct comparison without 'like/as' (e"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Blood' — the vivid' slide -- match the key terms.",
     "misconception": "A wrong answer that gives a simile (\"blood like water\") or a vague description (\"the house is old\") shows the student cannot distinguish device from literal statement.",
     "id": "gen_c12_eng_k_ch13_q8",
     "nodeId": "c12_eng_k_cbse_13_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in the ruined courtyard of a 300-year-old Kerala tharavadu during monsoon: you hear the windows whine, smell the damp moss",
-     "That sensory immersion is imagery.",
-     "Now ask: why does the poet call her blood \"thin and clear and fine\" while the poor's blood is \"thick as gruel\"?",
-     "That direct equation is metaphor."
+     "Find the lines in 'Blood' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -10059,10 +10029,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_13_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you promised your grandmother as a child that you would restore your crumbling ancestral home, but as an adult you leave it to decay — that",
-     "Now think of the house itself: it is not just bricks and mortar but a living symbol of a fading lineage.",
-     "Begin by reading the poem aloud and marking every moment where what happens contradicts what is expected or promised.",
-     "Then circle concrete objects (house, snake-shrine, blood, elephant, pyre) and ask: what abstract idea does each represent?"
+     "Look in 'Blood' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -10111,10 +10078,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_13_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading the poem and stumble on the line \"A blood thin and clear and fine / While in the veins of the always poor / And in the veins",
-     "Start by circling every word that feels heavy, unusual, or repeated.",
-     "Then ask: \"What does this word *suggest* beyond its literal meaning?\" For \"gruel,\" it suggests poverty, lack of nourishment, something unappetizing",
-     "This contrast builds the poem's critique of class."
+     "Note the difficult or loaded words in 'Blood' — their meaning carries the text's precision."
     ]
    },
    {
@@ -10123,19 +10087,16 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The predominant tense is simple past (\"said,\" \"was,\" \"hurt,\" \"cried,\" \"told\"). A poet uses simple past to anchor childhood memories in a completed time frame",
     "options": [
      "The central conflict is the poet's guilt over abandoning her ancestral house and breaking her childhood promise to rebuild it",
-     "The lines \"Call me callous / Call me selfish / But do not blame my blood / So thin, so clear, so fine\" contain verbal irony",
+     "The student must be able to identify at least three distinct instances of irony (situational, verbal, dramatic) and three symbols in the poem",
      "The predominant tense is simple past (\"said,\" \"was,\" \"hurt,\" \"cried,\" \"told\"). A poet uses simple past to anchor childhood memories in a completed time frame"
     ],
-    "hint": "Straight from the 'Language usage in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Blood'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"present tense\") reveals the student cannot distinguish narrative tense from the poem's occasional present-tense intrusions, missing how tense grounds the flashback structure.",
     "id": "gen_c12_eng_k_ch13_q11",
     "nodeId": "c12_eng_k_cbse_13_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"Blood\" aloud and notice the sentences don't follow normal rules — some stretch across stanzas, some are fragments, and the",
-     "That's not careless writing; it's Kamala Das using grammar as a tool to mimic how memory works: fragmented, non-linear, haunting.",
-     "Start by reading the poem once for flow, then hunt for where standard grammar breaks — those breaks are the clues.",
-     "Ask: why *this* tense here?"
+     "Read 'Blood' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -10147,16 +10108,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "A primary theme is the central, dominating idea that structures the entire poem (in \"Blood,\" the decay of the ancestral house and the poet's guilt)",
      "A literal comprehension question asks for information directly stated in the poem (e.g., \"How old was the great-grandmother when she died?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Blood'' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses the two — such as quoting a line for an inferential question without explaining its implication — reveals the student cannot distinguish between retrieval and reasoning, leading to incomplete answers in board exams where inferential questions carry higher marks.",
     "id": "gen_c12_eng_k_ch13_q12",
     "nodeId": "c12_eng_k_cbse_13_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and the first question asks: \"What did the great-grandmother say about the house?",
-     "The next question asks: \"Why does the poet feel guilty at the end?\" The poem never says \"I feel guilty\" directly; you must infer it from her prayer,",
-     "Start by reading the question twice, underlining keywords.",
-     "For literal questions, hunt for the exact lines."
+     "Answer 'Blood' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -10164,20 +10122,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central conflict in Kamala Das's poem \"Blood\"?",
     "answer": "The central conflict is the poet's guilt over abandoning her ancestral house and breaking her childhood promise to rebuild it",
     "options": [
-     "The primary purpose is to scaffold focused, evidence-based oral analysis of the poem's themes, devices, or conflicts",
-     "The lines \"Call me callous / Call me selfish / But do not blame my blood / So thin, so clear, so fine\" contain verbal irony",
+     "The student can identify the primary theme of \"Blood,\" trace its development across three distinct phases of the poem (childhood promise, adult failure, final confession)",
+     "The student can (1) identify 8-10 key words from the poem, (2) explain the contextual meaning and connotation of each",
      "The central conflict is the poet's guilt over abandoning her ancestral house and breaking her childhood promise to rebuild it"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Blood' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the house is old and broken\") reveals the student is stuck at literal comprehension and misses the psychological and socio-historical tension between inherited privilege and present incapacity.",
     "id": "gen_c12_eng_k_ch13_q13",
     "nodeId": "c12_eng_k_cbse_13_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you visit your ancestral village after ten years and find your great-grandmother's house collapsing — windows gaping, walls mossy, the",
-     "You remember her stories of elephant rides and royal blood, but you also know you sold the land to pay for your city flat.",
-     "That knot in your stomach — pride, shame, helplessness — is exactly where this poem lives.",
-     "Begin by reading the poem aloud twice: first for the story (the house, the grandmother, the promise), second for the sounds (the \"whine\" of windows,"
+     "Analyse 'Blood' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -10185,21 +10141,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The primary physical setting is an ancestral house in South Malabar, Kerala, described as three hundred years old with cracked walls, fallen tiles, whining windows",
-     "1. \"The walls are cracked and torn / And moistened by the rains\" — tactile/visual; creates a feeling of neglect and slow ruin",
-     "PEEL stands for Point, Evidence, Effective, Link",
+     "The three time periods are: (1) the poet’s childhood playing on the sands with her brother, (2) the great‑grandmother’s youth",
+     "The student can identify the non‑linear narrative arc (exposition, rising action, climax, resolution) in Kamala Das’s “Blood”",
+     "PEEL stands for Point, Evidence, Shifts, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills based on a poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Blood' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Line\" or \"Point, Example, Elaborate, Leave\") reveals the student has memorised a mnemonic without understanding the function of each component — particularly that \"Evidence\" must be a direct textual reference (quote or close paraphrase) and \"Link\" must connect back",
     "id": "gen_c12_eng_k_ch13_q14",
     "nodeId": "c12_eng_k_cbse_13_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"How does Kamala Das contrast tradition and modernity in 'Blood'?",
-     "Start by reading the question twice and underlining the command word (\"contrast\") and key terms (\"tradition\", \"modernity\").",
-     "Next, recall 3-4 specific textual moments: the great-grandmother's elephant rides vs the poet's inability to grow rich; the \"oldest blood\" vs \"muddy",
-     "Now organise these into PEEL paragraphs: Point — the poem contrasts aristocratic tradition with modern helplessness; Evidence — \"oldest blood in the"
+     "For written answers on 'Blood', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -10207,20 +10160,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary purpose of a 'discussion point' in a Class 12 English speaking and listening activity based on a poem?",
     "answer": "The primary purpose is to scaffold focused, evidence-based oral analysis of the poem's themes, devices, or conflicts",
     "options": [
-     "The three time periods are: (1) the poet’s childhood playing on the sands with her brother, (2) the great‑grandmother’s youth",
-     "1. \"The walls are cracked and torn / And moistened by the rains\" — tactile/visual; creates a feeling of neglect and slow ruin",
+     "Secondary themes are the subordinate yet significant ideas that run parallel to the primary theme in a literary work",
+     "The student must be able to identify at least three distinct instances of irony (situational, verbal, dramatic) and three symbols in the poem",
      "The primary purpose is to scaffold focused, evidence-based oral analysis of the poem's themes, devices, or conflicts"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Blood' —' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to summarize the poem\" reveals confusion between comprehension and analytical discussion; summarizing does not require evaluating ambiguity or engaging with alternative readings.",
     "id": "gen_c12_eng_k_ch13_q15",
     "nodeId": "c12_eng_k_cbse_13_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a literature circle where each student must explain why the poet calls her blood \"the oldest blood in the world\" — but you only",
-     "Start by re-reading the poem silently, marking three lines that evoke strong images of decay or pride.",
-     "Then, in pairs, practice stating one interpretation, listening to your partner's differing view, and building on it with a textual detail.",
-     "The key insight: effective literary discussion is not about winning but about layering evidence to deepen collective understanding."
+     "Talk through 'Blood' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -10375,24 +10325,24 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'blood' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Blood' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch14",
-  "title": "Before You Read",
+  "title": "'Freedom' — The Context And Background To This",
   "subtitle": "English · Chapter 14",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read",
+  "topic": "'Freedom' — The Context And Background To This Text",
   "chapters": [
-   "English Ch14: Before You Read"
+   "English Ch14: 'Freedom' — The Context And Background To This Text"
   ],
   "nodeIds": [
    "c12_eng_k_cbse_14_001",
@@ -10418,103 +10368,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet 'Freedom' — The Context And outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "Before You Read: Context and Background is a pre-reading strategy where students investigate the author's life, historical period, intellectual"
+   "hook": "'Freedom' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read",
-    "text": "Before You Read: Context and Background is a pre-reading strategy where students investigate the author's life, historical period, intellectual influences, and key vocabulary to build a mental framework that supports deeper comprehension of the non-fiction",
+    "title": "Before You Read: Context and Background",
+    "text": "'Freedom' (Kaleidoscope, ch. 14) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In Non-fiction, Plot",
-    "text": "In non-fiction, plot refers to the logical sequence of ideas, arguments, or events the author presents to develop a central thesis, while narrative structure is the organizational framework (chronological, thematic, problem-solution, compare-contrast, or",
+    "title": "Plot/narrative Arc Of 'Freedom'",
+    "text": "The plot/narrative arc of 'Freedom' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Setting In Non-fiction",
-    "text": "Setting in non-fiction refers to the historical, cultural, and immediate context of the text's production and reception — including the time period, geographical location, intended audience, and medium of delivery.",
+    "title": "Setting Of 'Freedom'",
+    "text": "The setting of 'Freedom' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis: Protagonist",
-    "text": "Character analysis of the protagonist in non-fiction refers to the systematic examination of the authorial persona — the constructed 'voice' that speaks in the essay — including their stated beliefs, rhetorical strategies, implicit biases, intellectual",
+    "title": "Character Analysis In 'Freedom'",
+    "text": "Character analysis in 'Freedom' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters In Non-fiction",
-    "text": "Supporting characters in non-fiction are real individuals, interviewees, historical figures, or personae referenced by the author to illustrate arguments, provide evidence, offer contrasting perspectives, or embody abstract ideas.",
+    "title": "Supporting Characters In 'Freedom'",
+    "text": "Supporting characters in 'Freedom' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme",
-    "text": "The primary theme is the central, unifying idea or insight about human experience that a non-fiction text develops through its arguments, evidence, and rhetorical strategies; the message is the author's specific stance or call to action that emerges from this",
+    "title": "Primary Theme Of 'Freedom'",
+    "text": "The primary theme of 'Freedom' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, concerns, or motifs that run alongside the primary theme in a text, enriching its meaning and providing additional layers of interpretation.",
+    "title": "Secondary Themes In 'Freedom'",
+    "text": "Secondary themes in 'Freedom' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke emotional responses.",
+    "title": "Imagery In 'Freedom' — The Vivid",
+    "text": "Imagery in 'Freedom' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or situations contradicts their literal or apparent meaning, revealing a deeper, often critical truth.",
+    "title": "Irony And Paradox In 'Freedom' — Where",
+    "text": "Irony and paradox in 'Freedom' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and usage of a word by analyzing the surrounding sentences, the author's tone, and the overall argument of the text, rather than relying solely on dictionary",
+    "title": "Key Vocabulary Of 'Freedom'",
+    "text": "Key vocabulary of 'Freedom' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic study of how grammatical structures — specifically sentence types (simple, complex, compound), clause relationships (main vs.",
+    "title": "Language And Style In 'Freedom'",
+    "text": "Language and style in 'Freedom' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving explicitly stated information from the text (who, what, when, where, how), while inferential comprehension requires drawing logical conclusions by combining textual evidence with reasoning to understand implied",
+    "title": "Literal Comprehension Of 'Freedom' —",
+    "text": "Literal comprehension of 'Freedom' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Non-fiction",
-    "text": "Critical thinking in literary non-fiction involves systematically analyzing an author's arguments by identifying the central thesis, examining the evidence and reasoning provided, evaluating underlying assumptions and potential biases, comparing perspectives",
+    "title": "Critical Thinking On 'Freedom' — Analysing",
+    "text": "Critical thinking on 'Freedom' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On Non-fiction Texts",
-    "text": "Writing skills based on non-fiction texts involve analyzing, interpreting, and responding to factual prose (essays, speeches, arguments) by crafting structured, evidence-based written responses that demonstrate comprehension, critical thinking, and the",
+    "title": "Writing Skills From 'Freedom' — Using",
+    "text": "Writing skills from 'Freedom' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points are structured oral activities that require students to articulate evidence-based perspectives on the chapter's core themes — natural vs.",
+    "title": "Discussion Points On 'Freedom' — Speaking",
+    "text": "Discussion points on 'Freedom' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -10525,20 +10475,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary purpose of the \"Before You Read\" stage when approaching a non-fiction text like Shaw's \"Freedom\"?",
     "answer": "The primary purpose is to build a mental framework by researching the author's background, historical context, key vocabulary",
     "options": [
-     "The essay was originally a radio broadcast (\"wireless talk\"). The text explicitly states: \"I am never controversial over the wireless\" and \"this is why we listen to wireless talks",
-     "A supporting character in non-fiction is a real person referenced by the author to advance an argument, provide evidence, or illustrate a perspective",
+     "A secondary theme is a significant but subordinate idea that recurs throughout a text, complementing the primary theme by adding depth, contrast, or context",
+     "The student can independently identify 8-10 key words from the two non-fiction texts, explain how each word's meaning is shaped by its specific context",
      "The primary purpose is to build a mental framework by researching the author's background, historical context, key vocabulary"
     ],
-    "hint": "Straight from the 'Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Freedom' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to summarize the essay\" or \"to answer the questions at the end\") reveals the student confuses pre-reading with during-reading or post-reading tasks, missing that context activates prior knowledge and sets a purpose for reading.",
     "id": "gen_c12_eng_k_ch14_q1",
     "nodeId": "c12_eng_k_cbse_14_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a documentary on climate change — you'd want to know who made it, when, and why, right?",
-     "The same applies here.",
-     "Start by asking: \"Who are Shaw and Krishnamurti, and why do their views on freedom matter today?",
-     "Then, explore Krishnamurti's role as a global spiritual teacher who rejected all gurus and organizations — his focus is psychological freedom."
+     "Start with the author of 'Freedom', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -10550,16 +10497,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Shaw uses \"slavery\" as a socio-economic category: natural slavery (inescapable, benign) vs unnatural slavery (exploitative, political)",
      "In fiction, plot is the causal sequence of events driven by character choices and conflicts (exposition → rising action → climax → falling action → resolution)"
     ],
-    "hint": "Straight from the 'In non-fiction, plot' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Freedom'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both have climax and resolution\") reveals the student is imposing a fiction template on non-fiction, missing that non-fiction 'climax' is often the strongest argument or revelation, not a dramatic event.",
     "id": "gen_c12_eng_k_ch14_q2",
     "nodeId": "c12_eng_k_cbse_14_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a long-form editorial in *The Hindu* or *The Indian Express* about climate policy.",
-     "You don't just read start to finish; you instinctively look for the \"roadmap\": the hook in the first paragraph, the historical background, the core",
-     "That roadmap is the narrative structure.",
-     "In \"Chasing the Rainbow,\" start by asking: *What is the central question or thesis?"
+     "Trace 'Freedom' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -10567,41 +10511,66 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the original medium of delivery for G.B. Shaw's essay \"Freedom\" and how do you know from the text?",
     "answer": "The essay was originally a radio broadcast (\"wireless talk\"). The text explicitly states: \"I am never controversial over the wireless\" and \"this is why we listen to wireless talks",
     "options": [
-     "1. Direct second-person address (\"you are all young\", \"your parents\", \"your examinations\") — creates personal confrontation",
      "A secondary theme is a significant but subordinate idea that recurs throughout a text, complementing the primary theme by adding depth, contrast, or context",
+     "The student can identify the specific historical context and original medium of each essay, explain how the setting shapes the author's arguments and rhetorical choices",
      "The essay was originally a radio broadcast (\"wireless talk\"). The text explicitly states: \"I am never controversial over the wireless\" and \"this is why we listen to wireless talks"
     ],
-    "hint": "Straight from the 'Setting in non-fiction' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Freedom'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it was a newspaper article\") reveals the student missed the medium-specific clues and cannot distinguish between written and spoken non-fiction forms.",
     "id": "gen_c12_eng_k_ch14_q3",
     "nodeId": "c12_eng_k_cbse_14_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through a podcast app: a political commentary episode from the 1930s sounds completely different from a modern TED Talk for",
-     "The setting — who is speaking, to whom, where, and why — fundamentally changes the language.",
-     "Start by asking: \"Where and when was this originally delivered?\" For Shaw, look for phrases like \"over the wireless\" and references to British",
-     "For Krishnamurti, note \"you are all young\" and the school setting."
+     "Identify where and when 'Freedom' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
-    "type": "mcq",
-    "question": "In Shaw's essay \"Freedom,\" the textual persona claims: \"I draw no conclusions, for that would lead me into controversy, and controversy would not be fair when you cannot answer me back.\" What is the IMMEDIATE rhetorical effect of this disclaimer on the reader? (Answer in one sentence.)",
-    "answer": "The disclaimer positions the persona as intellectually honest and fair-minded, disarming the reader's skepticism while simultaneously delivering highly controversial conclusions",
-    "options": [
-     "Shaw means natural necessities (eating, sleeping, reproduction) are biologically pleasurable, unlike man-made slavery which is hateful",
-     "Sample answer (labels in brackets): [Simple] Freedom means choosing my own path. [Complex] Although society pressures me to conform, I must listen to my inner voice",
-     "The disclaimer positions the persona as intellectually honest and fair-minded, disarming the reader's skepticism while simultaneously delivering highly controversial conclusions"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace how each persona's language choices",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between the historical author",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "write a structured comparative analysis",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., 'It shows Shaw is neutral') reveals the student confuses the persona's *stated* stance with its *actual* function — a classic confusion between surface claim and rhetorical strategy that costs marks in CBSE 'analyse the writer's technique' questions.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between the historical author and the textual persona in both Shaw's and Krishnamurti's",
     "id": "gen_c12_eng_k_ch14_q4",
     "nodeId": "c12_eng_k_cbse_14_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to two very different speakers at a school assembly: one is a sharp-tongued satirist who uses irony and exaggeration to",
-     "Both are 'protagonists' of their essays.",
-     "To analyse them, start by asking: \"What does this voice want me to believe, and how does it try to make me believe it?",
-     "Next, map the rhetorical moves: Shaw uses hypothetical scenarios ('If you like honey."
+     "Pick the central figure in 'Freedom' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -10661,10 +10630,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_14_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a documentary script where the narrator interviews a farmer, a scientist, and a policymaker about climate change.",
-     "Each person isn't just \"there\" — they represent a specific viewpoint the filmmaker wants you to consider.",
-     "In \"Chasing the Rainbow\", the author similarly uses real people as argumentative tools.",
-     "Begin by listing every named individual the author quotes, describes, or references."
+     "Spot the secondary figures in 'Freedom' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -10672,20 +10638,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary theme of G.B. Shaw's essay \"Freedom\" as distinct from its subject matter?",
     "answer": "The primary theme is the distinction between natural necessity (slavery to Nature) and social exploitation (slavery to man)",
     "options": [
-     "Secondary theme: \"Conditioning through education and propaganda.\" Shaw: \"From our earliest years we are taught that our country is the land of the free",
-     "The primary purpose is to build a mental framework by researching the author's background, historical context, key vocabulary",
+     "The student can independently identify the primary theme in a non-fiction text, trace its development across multiple sections using textual evidence",
+     "The student can (1) distinguish between the historical author and the textual persona in both Shaw's and Krishnamurti's essays",
      "The primary theme is the distinction between natural necessity (slavery to Nature) and social exploitation (slavery to man)"
     ],
-    "hint": "Straight from the 'primary theme' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Freedom'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"freedom is important\" or \"slavery is bad\" reveals the student confuses topic with theme — they state the subject, not the author's specific analytical insight.",
     "id": "gen_c12_eng_k_ch14_q6",
     "nodeId": "c12_eng_k_cbse_14_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through social media and see a post claiming \"True freedom means doing whatever you want, whenever you want.",
-     "That's exactly where Shaw begins his essay — by dismantling this naive definition.",
-     "Start by reading both texts with one question: \"What is the ONE big idea each author wants me to wrestle with?",
-     "For Krishnamurti, track how he redefines freedom not as absence of rules but as presence of intelligence."
+     "Ask what 'Freedom' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -10693,20 +10656,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the definition of a secondary theme in a non-fiction text?",
     "answer": "A secondary theme is a significant but subordinate idea that recurs throughout a text, complementing the primary theme by adding depth, contrast, or context",
     "options": [
-     "Secondary theme: \"Conditioning through education and propaganda.\" Shaw: \"From our earliest years we are taught that our country is the land of the free",
-     "The primary theme is the distinction between natural necessity (slavery to Nature) and social exploitation (slavery to man)",
+     "Grammar: Language Usage in the Text refers to the systematic study of how grammatical structures",
+     "The student can independently identify the primary theme in a non-fiction text, trace its development across multiple sections using textual evidence",
      "A secondary theme is a significant but subordinate idea that recurs throughout a text, complementing the primary theme by adding depth, contrast, or context"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Freedom'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the main message of the text\") reveals confusion between primary and secondary themes, indicating the student cannot distinguish hierarchical thematic structure.",
     "id": "gen_c12_eng_k_ch14_q7",
     "nodeId": "c12_eng_k_cbse_14_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a newspaper editorial about \"freedom of speech\" — the main argument is clear, but as you read, you notice the writer also",
-     "Those are secondary themes: they don't replace the main idea but expand it.",
-     "In this chapter, after grasping the primary theme (freedom as leisure vs. freedom as political right), ask: \"What other big ideas does Shaw keep",
-     "What does Krishnamurti imply about education, tradition, or fear?\" Start by re-reading the \"Stop and Think\" questions — they often flag secondary"
+     "Look beneath the main theme of 'Freedom' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -10714,20 +10674,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"metaphor\" and distinguish it from \"simile\" using the exact terminology expected in a CBSE Class 12 answer.",
     "answer": "A metaphor is a direct comparison between two unlike things where one thing *is* said to be the other (e",
     "options": [
-     "A supporting character in non-fiction is a real person referenced by the author to advance an argument, provide evidence, or illustrate a perspective",
-     "Literal. The answer (\"one third\") is explicitly stated in the opening paragraph of Shaw's essay",
+     "The essay was originally a radio broadcast (\"wireless talk\"). The text explicitly states: \"I am never controversial over the wireless\" and \"this is why we listen to wireless talks",
+     "The student can independently distinguish between literal and inferential questions, locate exact textual evidence for literal answers",
      "A metaphor is a direct comparison between two unlike things where one thing *is* said to be the other (e"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Freedom' — the vivid' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"metaphor uses like or as\" reveals confusion between the two devices; a wrong answer that only gives an example without the definitional distinction shows lack of precise terminology required for board marking schemes.",
     "id": "gen_c12_eng_k_ch14_q8",
     "nodeId": "c12_eng_k_cbse_14_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a speech about \"freedom\" but the speaker never uses the word \"freedom\" — instead, they describe a bird in a cage, a prisoner",
-     "You instantly *feel* the concept.",
-     "That is the power of imagery and metaphor in non-fiction.",
-     "Start by asking: \"Which passages in Shaw or Krishnamurti made me *see*, *hear*, or *feel* something physical?\" Mark those lines."
+     "Find the lines in 'Freedom' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -10735,20 +10692,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define verbal irony and give one example from Shaw's \"Freedom\" where the author says the opposite of what he means to criticize a political concept.",
     "answer": "Verbal irony occurs when a speaker intentionally says something that contradicts their true meaning, often to critique or mock",
     "options": [
+     "In non-fiction, plot refers to the logical sequence of ideas, arguments, or events the author presents to develop a central thesis",
      "A supporting character in non-fiction is a real person referenced by the author to advance an argument, provide evidence, or illustrate a perspective",
-     "Secondary theme: \"Conditioning through education and propaganda.\" Shaw: \"From our earliest years we are taught that our country is the land of the free",
      "Verbal irony occurs when a speaker intentionally says something that contradicts their true meaning, often to critique or mock"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Freedom' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Irony is when something funny happens\") reveals the student confuses irony with coincidence or humour, missing the critical intent essential for board-level analysis.",
     "id": "gen_c12_eng_k_ch14_q9",
     "nodeId": "c12_eng_k_cbse_14_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a political speech where the leader says \"We're fighting for peace by dropping bombs\" — you instantly sense the contradiction.",
-     "That's irony at work.",
-     "In Shaw's \"Freedom,\" he doesn't just state arguments; he uses irony to expose how governments \"enforce your slavery and call it freedom.",
-     "Start by asking: \"Where does the text say one thing but mean the opposite?\" and \"What concrete image stands for an abstract idea like freedom or"
+     "Look in 'Freedom' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -10756,41 +10710,66 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary meaning of the word \"shirk\" as used in Shaw's sentence: \"These natural jobs cannot be shirked\"?",
     "answer": "In this context, \"shirk\" means \"to avoid or neglect a duty or responsibility.\" A wrong answer like \"to perform poorly\" reveals the student is guessing from sound-alike words (e",
     "options": [
-     "Literal. The answer (\"one third\") is explicitly stated in the opening paragraph of Shaw's essay",
-     "The primary purpose is to build a mental framework by researching the author's background, historical context, key vocabulary",
+     "The student can independently: (1) classify any sentence from the text as simple, complex, or compound by identifying finite verbs and clause boundaries",
+     "A secondary theme is a significant but subordinate idea that recurs throughout a text, complementing the primary theme by adding depth, contrast, or context",
      "In this context, \"shirk\" means \"to avoid or neglect a duty or responsibility.\" A wrong answer like \"to perform poorly\" reveals the student is guessing from sound-alike words (e"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Freedom'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to perform poorly\" reveals the student is guessing from sound-alike words (e.g., \"shirk\" vs \"shirk\" as in \"shirk work\" colloquially) rather than analyzing the sentence structure: \"cannot be shirked\" implies an unavoidable obligation, so the verb must mean \"avoid.\"",
     "id": "gen_c12_eng_k_ch14_q10",
     "nodeId": "c12_eng_k_cbse_14_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading Shaw's essay and encounter the phrase \"wage slavery\" — you know \"wage\" and \"slavery\" separately, but together they carry a",
-     "Start by locating the word in the text, read the two sentences before and after it, and ask: \"What is the author arguing here, and how does this word",
-     "Then check if the same word appears later with a shifted meaning.",
-     "Finally, write your own sentence using the word in a similar context to lock in the nuance."
+     "Note the difficult or loaded words in 'Freedom' — their meaning carries the text's precision."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define simple, complex, and compound sentences. Give one example of each from the \"Freedom\" text (cite the sentence or its first few words).",
-    "answer": "Simple: one finite verb, one clause. Example: “Nature is kind to her slaves.” (one verb *is*). - Complex: one main clause + at least one subordinate clause",
-    "options": [
-     "A secondary theme is a significant but subordinate idea that recurs throughout a text, complementing the primary theme by adding depth, contrast, or context",
-     "The essay was originally a radio broadcast (\"wireless talk\"). The text explicitly states: \"I am never controversial over the wireless\" and \"this is why we listen to wireless talks",
-     "Simple: one finite verb, one clause. Example: “Nature is kind to her slaves.” (one verb *is*). - Complex: one main clause + at least one subordinate clause"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify any sentence from the text as",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "split multi-clause sentences into main",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify rhetorical questions",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student labels “As we must eat we must first provide food” as compound, they are confusing the subordinating conjunction *as* with a coordinator. If they call “Nature is kind to her slaves” complex because it has a prepositional phrase, they mistake phrases for clauses.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently: (1) classify any sentence from the text as simple, complex, or compound by identifying",
     "id": "gen_c12_eng_k_ch14_q11",
     "nodeId": "c12_eng_k_cbse_14_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to a powerful speech: the speaker uses long, winding sentences to build a case, then suddenly fires short, sharp questions",
-     "That is grammar working as persuasion.",
-     "To see this in Shaw and Krishnamurti, start by hunting for every finite verb in a sentence — each verb marks a clause.",
-     "Next, ask: are the clauses joined by *and/but/or* (compound) or by *because/although/when* (complex)?"
+     "Read 'Freedom' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -10839,10 +10818,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_14_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading Shaw's essay and a question asks: \"How many hours does Shaw say we spend sleeping?",
-     "But then: \"Why does Shaw call voting 'the key of the street'?\" — that's inferential; you must connect his argument about wage slavery, the illusion",
-     "Start by reading the question and identifying its TYPE: does it ask for a fact stated directly (literal) or a conclusion you must build (inferential)?",
-     "For literal questions, scan for keywords."
+     "Answer 'Freedom' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -10854,16 +10830,14 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The validating character is likely given more space, positive descriptors, and placed at a structural high point (e",
      "A summary restates the text's main points in condensed form without evaluation, while a critical analysis examines how the argument is built, assesses the validity of evidence"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Freedom' —' slide -- match the key terms.",
     "misconception": "A wrong answer that equates analysis with \"finding faults\" or \"giving an opinion\" reveals the misconception that critical thinking is inherently negative or subjective rather than evidence-based and structural.",
     "id": "gen_c12_eng_k_ch14_q13",
     "nodeId": "c12_eng_k_cbse_14_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a newspaper editorial claiming \"Voting is the only real freedom citizens have.",
-     "But as a Class 12 student, you need to pause and ask: What evidence does the writer offer?",
-     "What assumptions underlie this claim?",
-     "How does this compare with what Shaw and Krishnamurti say about voting and freedom?"
+     "Analyse 'Freedom' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -10912,10 +10886,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_14_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam and see this question: \"Compare how Shaw and Krishnamurti define freedom.",
-     "Support your answer with textual evidence.\" Your mind goes blank — where do you start?",
-     "Begin by identifying the core argument of each author: Shaw sees freedom as leisure from economic slavery; Krishnamurti sees it as psychological",
-     "Next, select two precise pieces of evidence — one from each text — that directly illustrate these definitions."
+     "For written answers on 'Freedom', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -10927,16 +10898,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Pattern: Historical progression / Paradigm shift structure (Past belief → Disruptive evidence → Current model → Meta-commentary on epistemology)",
      "s: (1) \"What are the links between natural jobs, labour and slavery?\" and \"What ought to be the object of all governments, and what do we actually find it to be?"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Freedom' —' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student hasn't done the basic textual reconnaissance — they're unprepared to anchor discussion in the author's own framing.",
     "id": "gen_c12_eng_k_ch14_q15",
     "nodeId": "c12_eng_k_cbse_14_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a college interview and the panel asks: \"Shaw says freedom is leisure; Krishnamurti says freedom is intelligence.",
-     "Which matters more for a 17-year-old today?\" You can't just say \"both\" — you need to unpack each author's evidence, compare their assumptions, and",
-     "Start by having students re-read the \"Stop and Think\" questions in the NCERT text as discussion starters.",
-     "Model how to convert a textual claim (e.g., \"Nature is kind to her slaves\") into a discussable proposition (\"Is natural necessity truly 'kind'"
+     "Talk through 'Freedom' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -10948,7 +10916,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Shaw defines freedom negatively as \"leisure\" — the absence of compelled labour beyond nature's 12-hour mandate",
      "Shaw writes amid the Great Depression, rise of fascism/communism, and industrial capitalism — his freedom is socio-economic: leisure, fair wages, ending \"wage slavery"
     ],
-    "hint": "Straight from the 'Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Freedom' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both talk about freedom so they mean the same thing\" ignores how historical material conditions shape philosophical concepts.",
     "id": "gen_c12_eng_k_ch14_q16",
     "nodeId": "c12_eng_k_cbse_14_001",
@@ -10963,7 +10931,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The answer merely repeats the claim without explaining the REASONING Krishnamurti provides (discipline builds walls of \"do's and don'ts,\" creates fear of tradition/authority",
      "1. Research: Krishnamurti's rejection of the Theosophical Society's \"World Teacher\" role in 1929. Insight: Explains his insistence on \"no guru"
     ],
-    "hint": "Straight from the 'Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Freedom' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer listing generic facts (birth/death dates, nationality) shows the student cannot distinguish relevant context from trivia.",
     "id": "gen_c12_eng_k_ch14_q17",
     "nodeId": "c12_eng_k_cbse_14_001",
@@ -10976,10 +10944,10 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "options": [
      "The move is strategic self-effacement — the persona claims a limited, neutral role ('mere presenter') to legitimise a partisan argument",
      "The two devices are personification (\"Nature is kind to her slaves\", \"she forces\", \"she makes\") and metaphor (describing biological necessities as \"slavery\")",
-     "| Author & Identity | Historical Moment | ENACTS for Unfreedom | |-------------------|-------------------|----------------------------| | G",
+     "| Author & Identity | Historical Moment | Chronology for Unfreedom | |-------------------|-------------------|----------------------------| | G",
      "| Author & Identity | Historical Moment | Core Metaphor for Unfreedom | |-------------------|-------------------|----------------------------| | G"
     ],
-    "hint": "Straight from the 'Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Freedom' — the context and' slide -- match the key terms.",
     "misconception": "A poor answer uses vague entries like \"old times\" or \"society\" — showing the student cannot extract specific, usable context from research.",
     "id": "gen_c12_eng_k_ch14_q18",
     "nodeId": "c12_eng_k_cbse_14_001",
@@ -10988,23 +10956,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read?",
+    "What surprised you about 'freedom' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read mastered! 🎯",
+  "successLine": "'Freedom' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch15",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Mark On The Wall' — The Context",
   "subtitle": "English · Chapter 15",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch15: Before You Read: Context and Background"],
+  "topic": "'The Mark On The Wall' — The Context And Background",
+  "chapters": [
+   "English Ch15: 'The Mark On The Wall' — The Context And Background"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_15_001",
    "c12_eng_k_cbse_15_002",
@@ -11029,103 +10999,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'The Mark On The Wall' — The in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "The \"Before You Read: Context and Background\" section provides essential biographical, historical, and literary information about Virginia Woolf and"
+   "hook": "'The Mark on the Wall' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "The \"Before You Read: Context and Background\" section provides essential biographical, historical, and literary information about Virginia Woolf and the modernist movement to prepare students for the essay's stream-of-consciousness technique, lack of",
+    "text": "'The Mark on the Wall' (Kaleidoscope, ch. 15) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In \"The Mark On The Wall,\"",
-    "text": "In \"The Mark on the Wall,\" plot refers not to a sequence of external events but to the internal sequence of thoughts, memories, and associations triggered by a single sensory stimulus (the mark).",
+    "title": "Plot/narrative Arc Of 'The Mark",
+    "text": "The plot/narrative arc of 'The Mark on the Wall' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Text: Setting and Atmosphere",
-    "text": "Setting and atmosphere in \"The Mark on the Wall\" refer to the physical environment (a room with a fire, a mark on the wall, a window) and the mood (contemplative, fluid, introspective) that Woolf creates to anchor the narrator's stream of consciousness.",
+    "title": "Setting Of 'The Mark",
+    "text": "The setting of 'The Mark on the Wall' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a stream-of-consciousness essay involves identifying the narrator's personality traits, thought patterns, philosophical positions, and narrative voice by closely examining the flow of their inner monologue,",
+    "title": "Character Analysis In 'The Mark",
+    "text": "Character analysis in 'The Mark on the Wall' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis: Supporting Characters",
-    "text": "Supporting characters in \"The Mark on the Wall\" are the figures — real, remembered, or imagined — that populate the narrator's stream of consciousness.",
+    "title": "Supporting Characters In 'The Mark",
+    "text": "Supporting characters in 'The Mark on the Wall' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Primary Theme Of \"The Mark On The Wall\"",
-    "text": "The primary theme of \"The Mark on the Wall\" is the fluid, associative nature of human consciousness and the liberating power of unfettered thought against the rigid conventions of society.",
+    "title": "Primary Theme Of 'The Mark",
+    "text": "The primary theme of 'The Mark on the Wall' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subsidiary ideas that run parallel to the primary theme, enriching the text by exploring related philosophical, social, or psychological dimensions; in \"The Mark on the Wall,\" they include the uncertainty of perception, critique of",
+    "title": "Secondary Themes In 'The Mark",
+    "text": "Secondary themes in 'The Mark on the Wall' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'The Mark",
+    "text": "Imagery in 'The Mark on the Wall' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality, where the intended meaning differs from the literal meaning, often revealing a deeper truth; Symbolism is the use of concrete objects, images, or actions to represent abstract ideas, themes,",
+    "title": "Irony And Paradox In 'The Mark",
+    "text": "Irony and paradox in 'The Mark on the Wall' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of a word *as it is used in a specific passage*, rather than relying solely on a dictionary definition.",
+    "title": "Key Vocabulary Of 'The Mark",
+    "text": "Key vocabulary of 'The Mark on the Wall' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Content Words",
-    "text": "Content words (nouns, verbs, adjectives, adverbs, and sometimes prepositions) carry lexical meaning and form an open class, while function words (conjunctions, pronouns, determiners, quantifiers, intensifiers, question words, and sometimes prepositions) serve",
+    "title": "Language And Style In 'The Mark",
+    "text": "Language and style in 'The Mark on the Wall' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the text (facts, details, direct statements). Inferential comprehension questions require drawing logical conclusions by combining textual clues with reasoning, going beyond",
+    "title": "Literal Comprehension Of 'The Mark",
+    "text": "Literal comprehension of 'The Mark on the Wall' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation for \"The Mark on the Wall\" is the ability to deconstruct Virginia Woolf's stream-of-consciousness essay by tracing how a trivial sensory detail (the mark) triggers a non-linear cascade of reflections, evaluating",
+    "title": "Critical Thinking On 'The Mark",
+    "text": "Critical thinking on 'The Mark on the Wall' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills for \"The Mark on the Wall\" involves crafting structured, evidence-based analytical responses that examine Woolf's stream-of-consciousness technique, her use of a trivial object (the mark) as a catalyst for philosophical meditation, and the",
+    "title": "Writing Skills From 'The Mark",
+    "text": "Writing skills from 'The Mark on the Wall' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students articulate interpretations, debate themes, and practice active listening using a literary text as a springboard for critical dialogue, moving beyond opinion-sharing",
+    "title": "Discussion Points On 'The Mark",
+    "text": "Discussion points on 'The Mark on the Wall' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -11136,20 +11106,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who was Virginia Woolf, and what literary group was she associated with?",
     "answer": "Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher, central to the Bloomsbury Group",
     "options": [
-     "The primary physical setting is a room in winter with a fire burning, a mantelpiece holding three chrysanthemums in a round glass bowl",
-     "The essay uses first-person stream-of-consciousness narration. Unlike third-person omniscient, which describes a character from outside (actions, appearance, dialogue)",
+     "The student can identify each supporting figure in the essay, explain how the narrator's mind constructs them, and articulate what thematic purpose each serves (e",
+     "The primary theme is the fluid, associative nature of human consciousness and the tension between the freedom of thought and the rigid conventions of society (like Whitaker's",
      "Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher, central to the Bloomsbury Group"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Mark on the Wall' — the' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says \"Victorian novelist\" or \"Romantic poet,\" they confuse literary periods.",
     "id": "gen_c12_eng_k_ch15_q1",
     "nodeId": "c12_eng_k_cbse_15_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine opening a story expecting a beginning, middle, and end, but instead finding a narrator staring at a wall, thinking about Shakespeare, snails,",
-     "You might wonder, \"Is this even a story?",
-     "Where's the plot?\" That confusion is exactly why this context node exists.",
-     "We start by asking: *What happens when a writer decides that the 'story' isn't what happens outside, but what happens inside a mind?"
+     "Start with the author of 'The Mark on the Wall', then the period, then the literary context — background turns a text from a puzzle into a story you"
     ]
    },
    {
@@ -11157,20 +11124,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary narrative technique Virginia Woolf uses in \"The Mark on the Wall\" to replace a conventional event‑based plot?",
     "answer": "The primary technique is stream‑of‑consciousness narration, which presents the continuous, associative flow of the narrator’s thoughts, sensations",
     "options": [
-     "Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher, central to the Bloomsbury Group",
      "The mark is described as a small round mark, black upon the white wall, about six or seven inches above the mantelpiece",
+     "The primary technique is stream of consciousness — a modernist mode that presents thoughts as they arise associatively, not chronologically",
      "The primary technique is stream‑of‑consciousness narration, which presents the continuous, associative flow of the narrator’s thoughts, sensations"
     ],
-    "hint": "Straight from the 'In \"The Mark on the Wall,\"' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “first‑person narration” or “flashback”) reveals the student confuses point‑of‑view with the structural principle that organizes the entire essay.",
     "id": "gen_c12_eng_k_ch15_q2",
     "nodeId": "c12_eng_k_cbse_15_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in an exam hall and the invigilator announces “Five minutes left.",
-     "That rapid, associative leap is exactly how Woolf’s essay works.",
-     "Start by listing every distinct thought‑unit the narrator reports (the mark, the fire, the chrysanthemums, the nail‑hole speculation, the former",
-     "Then group these units by recurring anchors (the mark, the fire, the tree) to see the circular structure."
+     "Trace 'The Mark on the Wall' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -11230,10 +11194,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_15_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a quiet room on a winter afternoon, staring at a small mark on the wall.",
-     "Your mind begins to wander from the mark to memories, to history, to the nature of knowledge.",
-     "Woolf uses this exact domestic setting—a fire, a mantelpiece, a tree tapping the window—to ground her narrator's fleeting thoughts.",
-     "To analyze setting and atmosphere here, first list every concrete sensory detail (sight, sound, touch) in the opening paragraphs."
+     "Identify where and when 'The Mark on the Wall' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -11304,10 +11265,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_15_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you meet someone who, instead of answering \"How are you?\", describes the history of the teacup they're holding, the geometry of steam, and a",
-     "That is the narrator of this essay.",
-     "Begin by asking: \"Who is speaking?\" Notice the first-person pronouns ('I', 'my') and the absence of a conventional plot.",
-     "The character IS the thinking process."
+     "Pick the central figure in 'The Mark on the Wall' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -11356,10 +11314,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_15_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in an exam hall and the question asks: \"How do the supporting characters in 'The Mark on the Wall' reveal the narrator's",
-     "Notice that N/A of these characters appear in a scene with dialogue (except the final voice); they are all conjured by the narrator's wandering",
-     "Ask yourself: what does each figure represent?",
-     "The previous owners represent the fragility of memory and possession; the colonel mocks the futility of scholarly obsession; Shakespeare becomes a"
+     "Spot the secondary figures in 'The Mark on the Wall' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -11367,20 +11322,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary theme of \"The Mark on the Wall\" as reflected in the narrator's shifting thoughts?",
     "answer": "The primary theme is the fluid, associative nature of human consciousness and the tension between the freedom of thought and the rigid conventions of society (like Whitaker's",
     "options": [
-     "The primary technique is stream‑of‑consciousness narration, which presents the continuous, associative flow of the narrator’s thoughts, sensations",
      "A secondary theme is a recurring idea that supports, contrasts with, or expands the primary theme without being the central focus",
+     "The mark is described as a small round mark, black upon the white wall, about six or seven inches above the mantelpiece",
      "The primary theme is the fluid, associative nature of human consciousness and the tension between the freedom of thought and the rigid conventions of society (like Whitaker's"
     ],
-    "hint": "Straight from the 'primary theme of \"The Mark on the' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer that focuses only on the mark's physical identity (e.g., \"the theme is identifying a snail\") reveals a literal reading that misses the essay's philosophical core.",
     "id": "gen_c12_eng_k_ch15_q6",
     "nodeId": "c12_eng_k_cbse_15_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever stared at a tiny crack on the ceiling and found your mind drifting from a childhood memory to a historical fact to a philosophical",
-     "Woolf uses a similar trivial mark — a small round spot on the wall — to launch a profound exploration of how the mind actually works.",
-     "Begin by identifying the mark as a catalyst, not a puzzle to solve.",
-     "Then trace the major thought sequences: the fantasy of the former inhabitants, the meditation on lost possessions and transience, the critique of"
+     "Ask what 'The Mark on the Wall' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -11388,41 +11340,77 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"secondary theme\" in the context of a modernist essay like \"The Mark on the Wall\" and name ONE secondary theme from the text.",
     "answer": "A secondary theme is a recurring idea that supports, contrasts with, or expands the primary theme without being the central focus",
     "options": [
-     "The primary technique is stream of consciousness — a modernist mode that presents thoughts as they arise associatively, not chronologically",
-     "The essay uses first-person stream-of-consciousness narration. Unlike third-person omniscient, which describes a character from outside (actions, appearance, dialogue)",
+     "Secondary themes are the subsidiary ideas that run parallel to the primary theme, enriching the text by exploring related philosophical, social, or psychological dimensions",
+     "The student can identify at least three secondary themes in the essay, trace each theme through specific textual evidence (minimum two references per theme)",
      "A secondary theme is a recurring idea that supports, contrasts with, or expands the primary theme without being the central focus"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer would list a literary device (e.g., \"stream of consciousness\") or a plot detail (e.g., \"the mark is a snail\") — confusing technique or event with theme.",
     "id": "gen_c12_eng_k_ch15_q7",
     "nodeId": "c12_eng_k_cbse_15_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through social media and a single post triggers a chain of thoughts — about your childhood, a news article you read, a",
-     "Woolf's essay works the same way: the mark on the wall is just the \"post\" that launches the narrator's mind into secondary themes like the",
-     "To analyze secondary themes, first list every distinct idea-cluster the narrator dwells on for more than a paragraph.",
-     "Then ask: \"Does this idea recur?"
+     "Look beneath the main theme of 'The Mark on the Wall' for the recurring secondary ideas that give it layers."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define imagery and metaphor in your own words, giving one example of each from \"The Mark on the Wall\" (do not use the examples from the definition above).",
-    "answer": "Imagery is descriptive language that appeals to the senses; e.g., the auditory image \"The tree outside the window taps very gently on the pane\" creates a sound",
-    "options": [
-     "Content words (nouns, verbs, adjectives, adverbs, sometimes prepositions) carry definable lexical meaning (e",
-     "Content words: carry (verb), blade (noun), straw (noun), feverishly (adverb) — they carry lexical meaning",
-     "Imagery is descriptive language that appeals to the senses; e.g., the auditory image \"The tree outside the window taps very gently on the pane\" creates a sound"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how each device shapes the essay’s",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "write a structured analytical paragraph",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "identify specific sensory images in the text",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "distinguish between simple metaphors",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student gives a simile (\"life is *like* a tube\") as a metaphor, they confuse the two devices. If they quote a factual detail (\"the mark was a small round mark\") as imagery, they mistake literal description for sensory evocation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify specific sensory images in the text and classify them by sense modality, (2) distinguish",
     "id": "gen_c12_eng_k_ch15_q8",
     "nodeId": "c12_eng_k_cbse_15_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a quiet room and notice a tiny, unexplained mark on the wall — a nail hole? a smudge?",
-     "Your mind instantly starts spinning stories: who made it? when? what does it mean?",
-     "That is exactly how Woolf’s essay begins.",
-     "To analyze imagery and metaphor here, first read the text slowly and highlight every phrase that makes you see, hear, or feel something (e."
+     "Find the lines in 'The Mark on the Wall' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -11430,20 +11418,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"The Mark on the Wall\" where the narrator's expectation about the mark contrasts with its actual identity.",
     "answer": "Situational irony occurs when the outcome of a situation is sharply different from what was expected",
     "options": [
-     "1. The nail‑hole/miniature speculation — visual similarity (round, black mark → nail hole → miniature portrait)",
-     "The primary technique is stream‑of‑consciousness narration, which presents the continuous, associative flow of the narrator’s thoughts, sensations",
+     "Students believe the essay is *about* the mark (or the snail) and hunt for a \"hidden meaning\" behind the object",
+     "The student can identify specific sensory details of the setting, explain how the atmosphere shifts with the narrator's thoughts",
      "Situational irony occurs when the outcome of a situation is sharply different from what was expected"
     ],
-    "hint": "Straight from the 'Irony in literature' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling the narrator's self-mockery \"verbal irony\") shows confusion between irony types and misses the structural irony of the entire essay's buildup versus its anti-climactic resolution.",
     "id": "gen_c12_eng_k_ch15_q9",
     "nodeId": "c12_eng_k_cbse_15_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're staring at a tiny stain on your bedroom wall during a boring online class — your mind races from \"Is that mold?",
-     "That gap between your elaborate mental universe and the squashed bug is *irony*; the stain becoming a portal for your anxiety about the unknown is",
-     "Woolf does exactly this at a literary level: the mark triggers a cascade of thoughts about history, nature, and societal rules, only to be revealed",
-     "We'll first map every speculation the narrator makes about the mark (nail, rose-leaf, tomb/camp), then contrast each with the final revelation."
+     "Look in 'The Mark on the Wall' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -11451,41 +11436,66 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"content word\" and \"function word\" as per the NCERT Language Work classification. Give one example of each from the first paragraph of \"The Mark on the Wall.\"",
     "answer": "Content words (nouns, verbs, adjectives, adverbs, sometimes prepositions) carry definable lexical meaning (e",
     "options": [
-     "Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher, central to the Bloomsbury Group",
-     "The mark is described as a small round mark, black upon the white wall, about six or seven inches above the mantelpiece",
+     "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of a word *as it is used in a specific passage*",
+     "Critical Thinking: Analysis and Interpretation for \"The Mark on the Wall\" is the ability to deconstruct Virginia Woolf's stream-of-consciousness essay by tracing how a trivial",
      "Content words (nouns, verbs, adjectives, adverbs, sometimes prepositions) carry definable lexical meaning (e"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"the\" as a content word reveals the student cannot distinguish lexical meaning from grammatical glue; they likely memorize parts of speech without understanding the *telegraph test* (function words are omitted in telegrams).",
     "id": "gen_c12_eng_k_ch15_q10",
     "nodeId": "c12_eng_k_cbse_15_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading Woolf's essay and hit the phrase \"the crimson flag flapping from the castle tower.",
-     "Start by locating the word in its sentence.",
-     "Ask: What is the grammatical slot?",
-     "(Adjective modifying \"flag\")."
+     "Note the difficult or loaded words in 'The Mark on the Wall' — their meaning carries the text's precision."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define content words and function words. Give one example of each from the sentence: \"Ants carry a blade of straw so feverishly, and then leave it.\"",
-    "answer": "Content words: carry (verb), blade (noun), straw (noun), feverishly (adverb) — they carry lexical meaning",
-    "options": [
-     "The essay uses first-person stream-of-consciousness narration. Unlike third-person omniscient, which describes a character from outside (actions, appearance, dialogue)",
-     "Content words (nouns, verbs, adjectives, adverbs, sometimes prepositions) carry definable lexical meaning (e",
-     "Content words: carry (verb), blade (noun), straw (noun), feverishly (adverb) — they carry lexical meaning"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why prepositions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "classify every word in a given sentence",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "identify weak/strong forms of function words",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Content words (nouns, verbs,' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Content words: carry (verb), blade (noun), straw (noun), feverishly (adverb) — they carry lexical meaning.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) classify every word in a given sentence from the text as content or function word with",
     "id": "gen_c12_eng_k_ch15_q11",
     "nodeId": "c12_eng_k_cbse_15_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sending a telegram in the 1990s — you pay per word, so you write \"ARRIVING TOMORROW STOP NEED PICKUP STOP\".",
-     "Which words did you keep?",
-     "Which did you drop?",
-     "The kept words (ARRIVING, TOMORROW, NEED, PICKUP) are content words; the dropped ones (I, AM, WILL, BE, FOR, A) are function words."
+     "Read 'The Mark on the Wall' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -11493,19 +11503,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the literal description of the mark on the wall as given in the opening paragraph of the essay?",
     "answer": "The mark is described as a small round mark, black upon the white wall, about six or seven inches above the mantelpiece",
     "options": [
-     "Virginia Woolf (1882–1941) was a British modernist novelist, essayist, and publisher, central to the Bloomsbury Group",
-     "The primary technique is stream‑of‑consciousness narration, which presents the continuous, associative flow of the narrator’s thoughts, sensations",
+     "The student can explain who Virginia Woolf was, define \"stream of consciousness\" and the \"Bloomsbury Group,\" and articulate why this essay rejects traditional narrative structure",
+     "Critical Thinking: Analysis and Interpretation for \"The Mark on the Wall\" is the ability to deconstruct Virginia Woolf's stream-of-consciousness essay by tracing how a trivial",
      "The mark is described as a small round mark, black upon the white wall, about six or seven inches above the mantelpiece"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a nail hole\" or \"a snail\") reveals the student has confused the narrator's later speculations with the initial literal observation. The text explicitly states the mark's physical appearance before any interpretation begins.",
     "id": "gen_c12_eng_k_ch15_q12",
     "nodeId": "c12_eng_k_cbse_15_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you receive a WhatsApp forward: \"Mark on wall — snail?\" You instantly know the literal fact (a snail) but you might wonder why the sender",
-     "Similarly, Woolf's essay begins with a literal mark and spirals into inferences about life, history, and perception.",
-     "To answer questions on this text, first read the specific paragraph referenced, underline explicit nouns/verbs for literal answers, then for"
+     "Answer 'The Mark on the Wall' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -11565,10 +11573,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_15_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in your room and notice a small stain on the wall; your mind instantly jumps from wondering what caused it to a memory of a",
-     "Woolf's essay captures exactly this uncontrollable, associative movement of the mind.",
-     "To analyze it, first re-read the text marking every shift in focus (e.g., from the mark to the fire, to the previous occupants, to lost possessions,",
-     "Next, group these shifts into clusters: domestic past, existential anxiety, critique of convention, nature as solace."
+     "Analyse 'The Mark on the Wall' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -11576,20 +11582,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary narrative technique Virginia Woolf employs in \"The Mark on the Wall,\" and how does it differ from traditional linear storytelling?",
     "answer": "The primary technique is stream of consciousness — a modernist mode that presents thoughts as they arise associatively, not chronologically",
     "options": [
-     "The primary technique is stream‑of‑consciousness narration, which presents the continuous, associative flow of the narrator’s thoughts, sensations",
-     "The mark is described as a small round mark, black upon the white wall, about six or seven inches above the mantelpiece",
+     "The student can independently map the narrator's thought progression from the mark to at least three major philosophical digressions",
+     "The primary physical setting is a room in winter with a fire burning, a mantelpiece holding three chrysanthemums in a round glass bowl",
      "The primary technique is stream of consciousness — a modernist mode that presents thoughts as they arise associatively, not chronologically"
     ],
-    "hint": "Straight from the 'Writing Skills for \"The Mark on' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Mark' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"first-person narration\" misses the *structural* innovation: the essay mimics the mind's actual rhythm, not a plotted sequence. This error reveals the student confuses *point of view* with *narrative structure*.",
     "id": "gen_c12_eng_k_ch15_q14",
     "nodeId": "c12_eng_k_cbse_15_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"How does Woolf use the mark on the wall to explore the nature of human thought?",
-     "Instead, start by identifying the core concept: the mark is a trigger, not a topic.",
-     "Step 1: Write a topic sentence that names the technique (stream of consciousness) and the effect (mimics the mind's non-linear flow).",
-     "Step 2: Pick two moments — e.g., the shift from the mark to the \"crimson flag\" fantasy, and the later digression on \"Whitaker's Table of Precedency."
+     "For written answers on 'The Mark on the Wall', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -11671,9 +11674,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_15_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a book club and someone says: \"The mark is just a snail — the whole essay is pointless.\" How do you respond?",
-     "This scenario launches us into identifying discussable themes: stream of consciousness as method, the nature of knowledge (\"Nothing is proved,",
-     "We teach students to: (1) anchor every claim in a specific paragraph or image, (2) use discussion stems like \"Building on X's point."
+     "Talk through 'The Mark on the Wall' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -11685,7 +11686,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Both are satirized: the antiquary obsesses over trivial classifications (camp vs. tomb) until death, his last thought an arrowhead",
      "Gains: Immediate immersion in subjective perception; establishes the essay's epistemological theme (how we know what we know); grounds abstraction in sensory particulars"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Mark on the Wall' — the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Gains: Immediate immersion in subjective perception; establishes the essay's epistemological theme (how we know what we",
     "id": "gen_c12_eng_k_ch15_q16",
     "nodeId": "c12_eng_k_cbse_15_001",
@@ -11700,7 +11701,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The narrator infers the mark is too small and round for a regular picture nail, so it must have held a miniature portrait",
      "Position: Essential, but not sufficient. Reason 1: The essay's mockery of \"Sunday luncheons,\" \"tablecloths with yellow compartments,\" and \"Whitaker's Table of Precedency\" directly"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Mark on the Wall' — the' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: \"Not essential — it's just a story about a mark\" misses the satire.",
     "id": "gen_c12_eng_k_ch15_q17",
     "nodeId": "c12_eng_k_cbse_15_001",
@@ -11715,7 +11716,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "It reveals her resistance to social rituals (like \"Sunday luncheons,\" \"Whitaker's Table of Precedency\") that demand physical action, conformity, and hierarchical thinking",
      "Stream of consciousness attempts to capture the continuous, non-linear flow of thoughts, sensations, memories, and associations in a character's mind"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Mark on the Wall' — the' slide -- match the key terms.",
     "misconception": "This misconception leads to misreading the essay as disorganized rather than deliberately structured by association.",
     "id": "gen_c12_eng_k_ch15_q18",
     "nodeId": "c12_eng_k_cbse_15_001",
@@ -11724,24 +11725,24 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the mark on the wall' — the context and background?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Mark On The Wall' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch16",
-  "title": "This Node Provides The Essential Historical",
+  "title": "'Film-Making' — The Context And Background",
   "subtitle": "English · Chapter 16",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "This Node Provides The Essential Historical",
+  "topic": "'Film-Making' — The Context And Background To This T",
   "chapters": [
-   "English Ch16: This Node Provides The Essential Historical"
+   "English Ch16: 'Film-Making' — The Context And Background To This T"
   ],
   "nodeIds": [
    "c12_eng_k_cbse_16_001",
@@ -11767,103 +11768,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see This Node Provides The Essential directly with your eyes?",
+   "question": "Can you see 'Film-Making' — The Context And directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
     "It is invisible by definition"
    ],
    "answer": "Often only through its effects",
-   "hook": "This node provides the essential historical, biographical, and conceptual background required to approach Ingmar Bergman's autobiographical essay"
+   "hook": "'Film-Making' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "This Node Provides The Essential Historical",
-    "text": "This node provides the essential historical, biographical, and conceptual background required to approach Ingmar Bergman's autobiographical essay \"Film-Making\" and the accompanying interview with Umberto Eco.",
+    "title": "'Film-Making' — The Context And Background",
+    "text": "'Film-Making' (Kaleidoscope, ch. 16) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Text: Plot and Narrative Structure",
-    "text": "Plot and Narrative Structure in a non-fiction film essay refers to the author's deliberate organization of personal anecdotes, theoretical insights, and professional reflections into a coherent sequence that reveals the evolution of a filmmaker's craft —",
+    "title": "Plot/narrative Arc Of 'Film-Making'",
+    "text": "The plot/narrative arc of 'Film-Making' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "In Non-fiction Prose Like Bergman's Essay,",
-    "text": "In non-fiction prose like Bergman's essay, setting refers to the specific physical, temporal, and social environments the author describes (e.g.",
+    "title": "Setting Of 'Film-Making'",
+    "text": "The setting of 'Film-Making' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a non-fiction autobiographical text involves examining the author-narrator's personality traits, motivations, internal conflicts, values, and development as revealed through selected anecdotes, reflections, and stated",
+    "title": "Character Analysis In 'Film-Making'",
+    "text": "Character analysis in 'Film-Making' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In a Non-fiction Autobiographical Essay",
-    "text": "In a non-fiction autobiographical essay like Bergman's \"Film-Making,\" supporting characters are the real-life individuals — parents, mentors, collaborators — whom the author explicitly names and describes as having shaped his artistic vision, professional",
+    "title": "Supporting Characters In 'Film-Making'",
+    "text": "Supporting characters in 'Film-Making' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of Ingmar Bergman's",
-    "text": "The primary theme of Ingmar Bergman's \"Film-Making\" is the nature of cinema as an intuitive, rhythmic art form that originates in split-second sensory impressions, demands the artist's uncompromising integrity, and finds its highest purpose in anonymous,",
+    "title": "Primary Theme Of 'Film-Making'",
+    "text": "The primary theme of 'Film-Making' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas, motifs, and concerns that run beneath the primary theme of a text, enriching its meaning by exploring related but distinct aspects of the human experience, artistic process, or philosophical inquiry.",
+    "title": "Secondary Themes In 'Film-Making'",
+    "text": "Secondary themes in 'Film-Making' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotional responses.",
+    "title": "Imagery In 'Film-Making' — The Vivid",
+    "text": "Imagery in 'Film-Making' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality, or between what is said and what is meant (verbal irony), what happens and what is expected (situational irony), or what a character knows and what the audience knows",
+    "title": "Irony And Paradox In 'Film-Making' — Where",
+    "text": "Irony and paradox in 'Film-Making' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning of words and phrases as they are used in a specific text by analyzing surrounding linguistic clues (definitions, examples, contrasts, inferences), word morphology, and subject-specific",
+    "title": "Key Vocabulary Of 'Film-Making'",
+    "text": "Key vocabulary of 'Film-Making' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Sentence Analysis In The Context",
-    "text": "Sentence analysis in the context of \"Film-Making\" involves identifying the core grammatical components — Subject, Predicate, Verb, Object, Adjunct (prepositional phrase), and Intensifier — to understand how Bergman structures his autobiographical reflections",
+    "title": "Language And Style In 'Film-Making'",
+    "text": "Language and style in 'Film-Making' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (who, what, when, where). Inferential comprehension questions require students to deduce meaning not directly stated by combining textual evidence with",
+    "title": "Literal Comprehension Of 'Film-Making' —",
+    "text": "Literal comprehension of 'Film-Making' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the advanced literary skill of examining a non-fiction text's underlying arguments, evaluating the author's rhetorical strategies, synthesizing multiple perspectives (here, Bergman's and Eco's), and forming",
+    "title": "Critical Thinking On 'Film-Making' —",
+    "text": "Critical thinking on 'Film-Making' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills For This Chapter Involves",
-    "text": "Writing Skills for this chapter involves the ability to construct structured, evidence-based analytical responses to questions on Bergman's essay and the Eco interview, demonstrating comprehension of themes (artistic process, film vs literature, creative",
+    "title": "Writing Skills From 'Film-Making' — Using",
+    "text": "Writing skills from 'Film-Making' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students articulate, debate, and reflect on the themes, ideas, and perspectives presented in the chapter \"Film-Making\" (Ingmar Bergman's essay and Umberto",
+    "title": "Discussion Points On 'Film-Making' —",
+    "text": "Discussion points on 'Film-Making' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -11874,20 +11875,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who is Ingmar Bergman and name two of his famous films mentioned in the text.",
     "answer": "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
     "options": [
-     "Correct analysis: This is a compound predicate sentence with two clauses joined by \"and\". Clause 1: Subject = \"The film\", Verb = \"was\" (linking verb)",
-     "Literal. The text explicitly states: \"This is where my magic lantern came in. It consisted of a small metal box with a carbide lamp",
+     "Student can explain who Ingmar Bergman was and why his perspective matters, articulate the core distinction he draws between film and literature",
+     "The student can identify each supporting figure in the text, cite specific textual evidence for their influence on Bergman",
      "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity"
     ],
-    "hint": "Straight from the 'This node provides the essential' slide -- match the key terms.",
+    "hint": "Straight from the ''Film-Making' — the context and' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Student cannot identify the author or his significance, indicating they have not done the basic contextual reading needed before engaging with the essay.",
     "id": "gen_c12_eng_k_ch16_q1",
     "nodeId": "c12_eng_k_cbse_16_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a classic film by a director called \"the poet of the human face\" but you know nothing about him or his era.",
-     "How would you prepare?",
-     "First, you would research the director's life — his childhood, influences, and reputation.",
-     "Then you would learn about the film industry of his time and country."
+     "Start with the author of 'Film-Making', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -11895,21 +11893,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the opening anecdote of Bergman's essay, and what structural function does it serve in the overall narrative?",
     "answer": "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*",
     "options": [
-     "Bergman's central metaphor is the film-maker as conjurer (magician), exploiting the \"persistence of vision\"",
-     "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
-     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *Umberto Eco*",
+     "The student can independently deconstruct Bergman's and Eco's arguments about film-making and adaptation, identify and evaluate their rhetorical strategies (analogy, metaphor",
+     "Bergman uses the metaphor of a \"conjurer\" (magician) performing tricks with an apparatus that exploits the \"persistence of vision\" — the audience willingly suspends disbelief",
+     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *Film's*",
      "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*"
     ],
-    "hint": "Straight from the 'Plot and Narrative Structure in a' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of' slide -- match the key terms.",
     "misconception": "A wrong answer would treat it as mere background description, missing its role as the essay's structural nucleus.",
     "id": "gen_c12_eng_k_ch16_q2",
     "nodeId": "c12_eng_k_cbse_16_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a documentary about a master chef: it doesn't just show the final dish; it flashes back to the chef's grandmother's kitchen,",
-     "Bergman's essay works the same way.",
-     "Start by asking: \"What is the very first image Bergman gives us?\" (the cranes over Dalarna).",
-     "Then trace how each subsequent section loops back to that opening moment — the cranes become the \"brightly coloured thread\" from the unconscious, the"
+     "Trace 'Film-Making' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -11917,20 +11912,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the *first* physical setting described in Bergman's essay and state the exact time, temperature, and one sensory detail mentioned.",
     "answer": "The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*: early morning, half past seven, about 30 degrees (cold)",
     "options": [
-     "The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where the wolf represented the Devil) and the rattling film projector (chimney, lamp",
-     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*",
+     "The student can identify specific images and metaphors in Bergman's text, explain how they appeal to senses and convey abstract ideas about film-making",
+     "The student can map Bergman's essay onto a structural diagram showing how each section (childhood, conjuring, split-second impressions, rhythm, literature vs film",
      "The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*: early morning, half past seven, about 30 degrees (cold)"
     ],
-    "hint": "Straight from the 'In non-fiction prose like' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Film-Making'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the grandmother's apartment\" or \"the film studio\") reveals the student cannot distinguish the chronological narrative frame from the flashback structures Bergman uses — a critical skill for tracking non-linear non-fiction.",
     "id": "gen_c12_eng_k_ch16_q3",
     "nodeId": "c12_eng_k_cbse_16_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film where the opening shot is a freezing Swedish forest at 7:30 AM — snowflakes, grey sky, cranes circling.",
-     "Before any character speaks, you *feel* the isolation and magic.",
-     "That's Bergman's opening paragraph.",
-     "Start by asking: \"What does the author want me to *feel* in this place?\" Then trace how Bergman shifts from the external landscape (Dalarna) to"
+     "Identify where and when 'Film-Making' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -11938,20 +11930,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two childhood objects Bergman describes that first sparked his fascination with moving images, and what sensory details does he associate with each?",
     "answer": "The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where the wolf represented the Devil) and the rattling film projector (chimney, lamp",
     "options": [
-     "Bergman's central metaphor is the film-maker as conjurer (magician), exploiting the \"persistence of vision\"",
+     "The student can identify each supporting figure in the text, cite specific textual evidence for their influence on Bergman",
      "(1) Father and mother — the strict home he rebelled against instilled efficiency, punctuality and thrift, (2) Torsten Hammaren",
      "The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where the wolf represented the Devil) and the rattling film projector (chimney, lamp"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., mentioning only the projector or missing the Devil/wolf symbolism) reveals the student hasn't grasped how Bergman links *both* objects to his core themes: the lantern connects to his vicarage upbringing and personification of evil, while the projector introduces the \"conjurer\" metaphor central to",
     "id": "gen_c12_eng_k_ch16_q4",
     "nodeId": "c12_eng_k_cbse_16_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a masterclass where a legendary director reveals not just *how* they make films, but *why* they see the world differently.",
-     "Bergman's text is exactly that — but he shows rather than tells his character through three layered portraits: the child under the dining table",
-     "Start by asking: \"What kind of person turns a crane sighting into a defining metaphor for their national cinema?",
-     "The key insight: Bergman's protagonist isn't just a filmmaker — he's a man who transformed childhood trauma into a rigorous artistic philosophy where"
+     "Pick the central figure in 'Film-Making' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -12033,10 +12022,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_16_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are assembling a documentary about a famous director.",
-     "You wouldn't just interview the director; you'd track down the teacher who spotted their talent, the producer who funded their first flop, the parent",
-     "That's exactly what Bergman does in this essay — he builds his own \"documentary\" on paper.",
-     "Start by asking: *Who are the people Bergman thanks or blames for who he became?* List them."
+     "Spot the secondary figures in 'Film-Making' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -12085,10 +12071,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_16_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film and suddenly wonder: \"Where did this image come from?",
-     "Why does this scene feel like music?\" Bergman answers exactly this: a film begins not with a story, but with a \"brightly coloured thread\" — a shaft",
-     "To find the theme, trace how Bergman moves from these sensory fragments to the struggle of scripting (\"transformation of rhythms.",
-     "The key insight: film-making is not storytelling; it is rhythm made visible, a conjurer's trick that becomes a cathedral when the ego vanishes."
+     "Ask what 'Film-Making' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -12137,10 +12120,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_16_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film where the main plot is a director struggling to finish a movie — that's the primary theme.",
-     "But underneath, you notice recurring beats: the producer checking his watch (commercial pressure), the director humming a tune while editing",
-     "These undercurrents are secondary themes.",
-     "In Bergman's essay, they don't just decorate; they structure his philosophy."
+     "Look beneath the main theme of 'Film-Making' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -12148,20 +12128,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the sensory imagery in this sentence from the text: \"The landscape there is rugged, and our company was working by a little lake in the forest. It was very cold, about 30 degrees, and from time to time a few snowflakes fell through the grey, rain-dimmed sky.\"",
     "answer": "Visual imagery: \"rugged landscape,\" \"little lake,\" \"grey, rain-dimmed sky,\" \"snowflakes fell.\" Tactile/thermal imagery: \"very cold, about 30 degrees",
     "options": [
-     "Situational irony: Bergman and his crew are struggling with \"old equipment and little money\" in freezing conditions, yet they drop everything to watch cranes",
-     "The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*: early morning, half past seven, about 30 degrees (cold)",
+     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*",
+     "Students treat imagery and metaphor as *identification exercises* (\"spot the metaphor\") rather than *interpretive tools*",
      "Visual imagery: \"rugged landscape,\" \"little lake,\" \"grey, rain-dimmed sky,\" \"snowflakes fell.\" Tactile/thermal imagery: \"very cold, about 30 degrees"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Film-Making' — the' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student only lists \"cold\" and \"snowflakes,\" they miss the visual specificity (\"rugged,\" \"rain-dimmed\") that creates atmosphere. This shows they confuse *listing details* with *analyzing sensory appeal* — they need practice identifying which sense each adjective phrase targets.",
     "id": "gen_c12_eng_k_ch16_q8",
     "nodeId": "c12_eng_k_cbse_16_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film where the director shows a close-up of rain on a windowpane, then cuts to a character's tear-streaked face — you",
-     "That's the power of imagery and metaphor: they bypass intellect and strike emotion directly.",
-     "In Bergman's essay, he doesn't just *tell* us film-making is rhythmic; he makes us *feel* it through the \"cranes floating majestically,\" the",
-     "Those are the images."
+     "Find the lines in 'Film-Making' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -12169,20 +12146,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define irony and symbolism as literary devices. Give one generic example of each (not from the text).",
     "answer": "Irony: a contrast between expectation and reality (e.g., a fire station burning down). Symbolism: using a concrete object to represent an abstract idea (e",
     "options": [
-     "The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*: early morning, half past seven, about 30 degrees (cold)",
-     "The magic lantern (metal box, carbide lamp smell, coloured glass slides of Red Riding Hood where the wolf represented the Devil) and the rattling film projector (chimney, lamp",
+     "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
+     "Student can explain who Ingmar Bergman was and why his perspective matters, articulate the core distinction he draws between film and literature",
      "Irony: a contrast between expectation and reality (e.g., a fire station burning down). Symbolism: using a concrete object to represent an abstract idea (e"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses irony with coincidence (e.g., \"it rained on my wedding day\") reveals the student doesn't grasp the structural contrast required for irony. A wrong answer that treats a symbol as just a metaphor (e.",
     "id": "gen_c12_eng_k_ch16_q9",
     "nodeId": "c12_eng_k_cbse_16_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever noticed how a filmmaker might say \"I'm just a conjurer\" while actually claiming profound artistic authority?",
-     "That gap between words and meaning is irony.",
-     "And when Bergman describes cranes flying overhead and suddenly connects them to the miracle of making films in Sweden, those birds become symbols.",
-     "To analyze these devices: 1) Read the essay actively, underlining passages that feel contradictory or strangely meaningful."
+     "Look in 'Film-Making' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -12190,20 +12164,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the four main types of context clues that help determine word meaning in a text? Give a one-sentence description of each.",
     "answer": "The four main types are: 1) Definition/Explanation clues — the author directly defines or restates the word (e",
     "options": [
-     "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
-     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*",
+     "The student must be able to identify at least four distinct character traits of Bergman (e.g., sensory sensitivity, rebellious discipline, philosophical intellectualism",
+     "The student can identify specific images and metaphors in Bergman's text, explain how they appeal to senses and convey abstract ideas about film-making",
      "The four main types are: 1) Definition/Explanation clues — the author directly defines or restates the word (e"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Film-Making'' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"dictionary\" or \"guessing\" reveals the student lacks systematic strategies and depends on external help instead of textual evidence.",
     "id": "gen_c12_eng_k_ch16_q10",
     "nodeId": "c12_eng_k_cbse_16_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a classic Indian film like *Pather Panchali* without subtitles—you grasp the story through visuals, music, and actors'",
-     "Reading Bergman's essay works similarly: words like \"montage,\" \"brooding,\" or \"irrational dimension\" may be unfamiliar, but the text itself provides",
-     "First, we'll identify the four types of context clues (definition, example, contrast, inference) using actual sentences from the text.",
-     "Then we'll practice with 5–6 high-value terms from both Bergman and Eco."
+     "Note the difficult or loaded words in 'Film-Making' — their meaning carries the text's precision."
     ]
    },
    {
@@ -12274,10 +12245,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_16_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a film editor watching raw footage — you need to identify each shot's role (close-up, wide, cutaway) to assemble a coherent scene.",
-     "Similarly, when you read Bergman's line \"My grandmother had a very large old apartment in Uppsala,\" you must identify each word's grammatical role to",
-     "Start by finding the verb (\"had\"), then ask \"Who had?\" to get the Subject (\"My grandmother\").",
-     "Next ask \"Had what?\" to get the Object (\"a very large old apartment\")."
+     "Read 'Film-Making' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -12285,20 +12253,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify whether the following question is literal or inferential: \"What childhood memory does Bergman associate with the 'magic lantern'?\"",
     "answer": "Literal. The text explicitly states: \"This is where my magic lantern came in. It consisted of a small metal box with a carbide lamp",
     "options": [
-     "Situational irony: Bergman and his crew are struggling with \"old equipment and little money\" in freezing conditions, yet they drop everything to watch cranes",
-     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*",
+     "The student can identify each supporting figure in the text, cite specific textual evidence for their influence on Bergman",
+     "The student can independently distinguish between literal and inferential questions, locate exact textual evidence for literal answers",
      "Literal. The text explicitly states: \"This is where my magic lantern came in. It consisted of a small metal box with a carbide lamp"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Literal. The text explicitly states: \"This is where my magic lantern came in.",
     "id": "gen_c12_eng_k_ch16_q12",
     "nodeId": "c12_eng_k_cbse_16_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam and see a question: \"Why does Bergman compare film-making to conjuring?",
-     "Start by identifying the question type: \"Why\" signals inference.",
-     "Next, scan the text for keywords: \"conjuring\", \"conjurer\", \"deception\".",
-     "You'll find the paragraph where Bergman says cinematography is \"based on deception of the human eye\" and calculates \"twenty-seven minutes of complete"
+     "Answer 'Film-Making' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -12306,20 +12271,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is Bergman's central metaphor for the film-maker's craft, and what specific childhood experience does he link to it?",
     "answer": "Bergman's central metaphor is the film-maker as conjurer (magician), exploiting the \"persistence of vision\"",
     "options": [
-     "The central metaphor is the cathedral of Chartres, where anonymous craftsmen — master builders, artists, labourers, clowns",
+     "Misconception: \"Critical analysis of this chapter means summarizing Bergman's biography and listing his film titles, then doing the same for Eco",
      "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
      "Bergman's central metaphor is the film-maker as conjurer (magician), exploiting the \"persistence of vision\""
     ],
-    "hint": "Straight from the 'Critical Thinking' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"director as author\" or \"film as literature\") reveals the student misses Bergman's insistence that film is *deception-based illusion*, not intellectual communication like writing.",
     "id": "gen_c12_eng_k_ch16_q13",
     "nodeId": "c12_eng_k_cbse_16_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a film adaptation of your favourite novel and feel disappointed — the characters don't look right, the inner monologues are",
-     "That frustration is exactly what Bergman and Eco dissect intellectually.",
-     "Start by asking: \"Why does Bergman call film-making 'conjuring' and Eco call his novel a 'club sandwich'?\" These metaphors are entry points.",
-     "First, map each author's core argument: Bergman sees film as rhythm/music (emotional, unconscious), Eco sees literature as layered meaning"
+     "Analyse 'Film-Making' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -12327,20 +12290,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define the PEEL structure for a CBSE English long answer and state the function of each component in one sentence.",
     "answer": "PEEL stands for Point (topic sentence stating the argument), Evidence (direct quote or precise textual reference), Explanation (analysis of how the evidence proves the point",
     "options": [
-     "The essay opens with the cranes circling over the Dalarna landscape during the shooting of *The Virgin Spring*",
-     "The first setting is the landscape of Dalarna during the shooting of *The Virgin Spring*: early morning, half past seven, about 30 degrees (cold)",
+     "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
+     "Student can explain who Ingmar Bergman was and why his perspective matters, articulate the core distinction he draws between film and literature",
      "PEEL stands for Point (topic sentence stating the argument), Evidence (direct quote or precise textual reference), Explanation (analysis of how the evidence proves the point"
     ],
-    "hint": "Straight from the 'Writing Skills for this chapter' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Film-Making'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists 'Quote, Explain, Conclude' reveals the student misses the critical 'Point' (argument-first) and 'Link' (thematic closure) steps, leading to narrative summaries instead of analytical arguments — a major mark-loser in CBSE marking schemes.",
     "id": "gen_c12_eng_k_ch16_q14",
     "nodeId": "c12_eng_k_cbse_16_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open the board paper and see: \"Compare Bergman's and Eco's views on filming books.",
-     "Do you agree with Bergman that film and literature are in conflict?",
-     "Support with textual evidence.\" Your mind goes blank — where do you start?",
-     "Begin by identifying the *core conflict*: Bergman says film and literature are 'usually in conflict' because literature works via"
+     "For written answers on 'Film-Making', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -12348,20 +12308,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central metaphor Bergman uses to describe the relationship between a film-maker and the audience, and what does it imply about the nature of cinema?",
     "answer": "Bergman uses the metaphor of a \"conjurer\" (magician) performing tricks with an apparatus that exploits the \"persistence of vision\" — the audience willingly suspends disbelief",
     "options": [
-     "The central metaphor is the cathedral of Chartres, where anonymous craftsmen — master builders, artists, labourers, clowns",
-     "Ingmar Bergman (1918–2007) was a renowned Swedish film director known for stark black-and-white cinematography, existential ambiguity, and brooding intensity",
+     "The student can independently write a 120-150 word CBSE-style long answer comparing Bergman's and Eco's views on adapting books to film, using at least three textual evidences",
+     "Students treat imagery and metaphor as *identification exercises* (\"spot the metaphor\") rather than *interpretive tools*",
      "Bergman uses the metaphor of a \"conjurer\" (magician) performing tricks with an apparatus that exploits the \"persistence of vision\" — the audience willingly suspends disbelief"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"director is a teacher\" or \"film is a mirror\") reveals the student has not grasped Bergman's central thesis that cinema is fundamentally illusion and emotional manipulation, not intellectual instruction.",
     "id": "gen_c12_eng_k_ch16_q15",
     "nodeId": "c12_eng_k_cbse_16_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a group discussion for a university admission (like CUET) or a job interview where the panel asks: \"Bergman says film is closer to",
-     "Eco says a film can only show the 'jambon or cheese' of a novel's 'club sandwich.' Who do you agree with, and why?",
-     "Start by asking the student to list three concrete examples from the text where Bergman describes film's musicality (rhythm, inhalation/exhalation,",
-     "Then ask them to find Eco's sandwich metaphor."
+     "Talk through 'Film-Making' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -12527,23 +12484,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about this node provides the essential historical?",
+    "What surprised you about 'film-making' — the context and background to this t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "This Node Provides The mastered! 🎯",
+  "successLine": "'Film-Making' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch17",
-  "title": "Before You Read: Context and Background",
+  "title": "'Why The Novel Matters'",
   "subtitle": "English · Chapter 17",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch17: Before You Read: Context and Background"],
+  "topic": "'Why The Novel Matters'",
+  "chapters": [
+   "English Ch17: 'Why The Novel Matters'"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_17_001",
    "c12_eng_k_cbse_17_002",
@@ -12568,103 +12527,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'Why The Novel Matters' in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" prepares students to engage with D.H."
+   "hook": "'Why the Novel Matters' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" prepares students to engage with D.H. Lawrence's essay \"Why the Novel Matters\" by establishing the author's biography, the essay's modernist context, its central philosophical argument (the supremacy of the novel in",
+    "title": "'Why The Novel Matters'",
+    "text": "'Why the Novel Matters' (Kaleidoscope, ch. 17) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "In The Context Of D.H",
-    "text": "In the context of D.H. Lawrence's argumentative essay \"Why the Novel Matters,\" narrative structure refers to the deliberate architectural arrangement of ideas — thesis, evidence, analogies, counterarguments, and rhetorical shifts — that guides the reader",
+    "title": "Plot/narrative Arc Of 'Why",
+    "text": "The plot/narrative arc of 'Why the Novel Matters' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In a Non-fiction Essay, Setting",
-    "text": "In a non-fiction essay, setting refers to the intellectual and conceptual landscape the author constructs — the world of ideas, debates, and philosophical positions that frame the argument.",
+    "title": "Setting Of 'Why The Novel",
+    "text": "The setting of 'Why the Novel Matters' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a non-fiction essay involves examining the author's constructed persona — their narrative voice, philosophical stance, rhetorical strategies, and how they position themselves relative to other figures in the text to",
+    "title": "Character Analysis In 'Why The Novel",
+    "text": "Character analysis in 'Why the Novel Matters' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In a Non-fiction Essay, Supporting",
-    "text": "In a non-fiction essay, supporting characters are the representative figures or archetypes (e.g., the parson, philosopher, scientist, saint, poet) that the author constructs as foils to the central persona (the novelist/man alive).",
+    "title": "Supporting Characters In 'Why The Novel",
+    "text": "Supporting characters in 'Why the Novel Matters' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of \"Why The Novel Matters\"",
-    "text": "The primary theme of \"Why the Novel Matters\" is D.H. Lawrence's assertion that the novel uniquely captures the wholeness of the living human being (\"man alive\") — body, mind, senses, and emotions as an inseparable unity — in contrast to philosophy, science,",
+    "title": "Primary Theme Of 'Why",
+    "text": "The primary theme of 'Why the Novel Matters' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas that branch from the primary theme (the novel as the \"book of life\") to explore specific facets of Lawrence's argument — such as the unity of body and mind, the critique of intellectual specialization, the nature of",
+    "title": "Secondary Themes In 'Why The Novel",
+    "text": "Secondary themes in 'Why the Novel Matters' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Why The Novel Matters'",
+    "text": "Imagery in 'Why the Novel Matters' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality, or between what is said and what is meant; Symbolism is the use of an object, person, action, or image to represent an abstract idea or quality beyond its literal meaning.",
+    "title": "Irony And Paradox In 'Why",
+    "text": "Irony and paradox in 'Why the Novel Matters' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context is the skill of determining the precise meaning of words and phrases as they are used in a specific text by analyzing surrounding clues — such as definitions, restatements, contrasts, examples, tone, and the author's overall argument —",
+    "title": "Key Vocabulary Of 'Why The Novel",
+    "text": "Key vocabulary of 'Why the Novel Matters' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "This Node Covers The Grammatical Analysis",
-    "text": "This node covers the grammatical analysis of verb classes in D.H. Lawrence's essay \"Why the Novel Matters\", specifically focusing on intransitive verbs (verbs that take only a subject and may be followed by adverbial complements) and linking verbs/copulas",
+    "title": "Language And Style In 'Why",
+    "text": "Language and style in 'Why the Novel Matters' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving information explicitly stated in the text (facts, details, direct quotes), while inferential comprehension requires drawing logical conclusions by combining textual clues with prior knowledge — reading between the",
+    "title": "Literal Comprehension Of 'Why The Novel",
+    "text": "Literal comprehension of 'Why the Novel Matters' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis refers to the disciplined process of actively evaluating, interpreting, and synthesizing textual evidence to form independent judgments about a non-fiction essay's arguments, rhetorical strategies, and philosophical",
+    "title": "Critical Thinking On 'Why The Novel",
+    "text": "Critical thinking on 'Why the Novel Matters' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on \"Why the Novel Matters\" involves crafting structured analytical responses that demonstrate understanding of D.H. Lawrence's argument about the novel as the supreme form for capturing the \"whole man alive,\" using textual evidence,",
+    "title": "Writing Skills From 'Why The Novel",
+    "text": "Writing skills from 'Why the Novel Matters' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students engage in collaborative dialogue about the essay's central arguments — specifically Lawrence's concept of \"man alive,\" the novel's superiority in capturing",
+    "title": "Discussion Points On 'Why The Novel",
+    "text": "Discussion points on 'Why the Novel Matters' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -12675,20 +12634,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central philosophical claim D.H. Lawrence makes about the novel in \"Why the Novel Matters\"?",
     "answer": "The central claim is that the novel is the 'one bright book of life' and 'the book of life' because it alone can affect the *whole man alive*",
     "options": [
-     "The central metaphor is \"tremulations on the ether\" — books are vibrations transmitted through a medium, not life itself",
-     "Lawrence identifies himself as a \"novelist\" and states he considers himself superior to \"the saint, the scientist, the philosopher, and the poet",
+     "The student must independently deconstruct Lawrence's essay into its core philosophical claims, identify the rhetorical devices that structure his argument",
+     "The student can (1) articulate Lawrence's core argument that the novel is \"the one bright book of life\" because it engages the *whole* living person, not just a part",
      "The central claim is that the novel is the 'one bright book of life' and 'the book of life' because it alone can affect the *whole man alive*"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Why the Novel Matters'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'the novel is the best form of entertainment' or 'the novel teaches moral lessons') reveals the student has confused Lawrence's *ontological* argument (about the nature of being alive) with a *functional* or *didactic* view of literature.",
     "id": "gen_c12_eng_k_ch17_q1",
     "nodeId": "c12_eng_k_cbse_17_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to read an essay that claims a novel can do something philosophy, science, and religion cannot: make the *whole* human being —",
-     "Before diving in, you need to know *who* is making this bold claim and *why*.",
-     "Start by asking: What shaped D.H.",
-     "Lawrence's worldview?"
+     "Start with the author of 'Why the Novel Matters', then the period, then the literary context — background turns a text from a puzzle into a story you"
     ]
    },
    {
@@ -12737,10 +12693,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_17_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're trying to convince a skeptical friend that a video game isn't just entertainment but a way to experience a \"whole life\" in miniature.",
-     "You'd start with a concrete moment — your fingers on the controller, the rush of a decision — then zoom out to a philosophy of aliveness, contrast",
-     "Lawrence does exactly this: he begins with his hand writing, expands to a metaphysics of the body, dismantles the saint/philosopher/scientist as",
-     "The structure is not a story arc but a logical crescendo where each analogy (bottle, pen, radio, chameleon) acts as a structural pillar."
+     "Trace 'Why the Novel Matters' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -12789,10 +12742,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_17_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever read an essay and felt like you were *inside* a particular mental world — not a room or a landscape, but a way of thinking that has its",
-     "That's what Lawrence builds in \"Why the Novel Matters.\" Start by asking: What debate has Lawrence walked into?",
-     "He enters a centuries-old argument about what makes us human — soul (parsons), mind (philosophers), body-parts (scientists).",
-     "That debate *is* the intellectual setting."
+     "Identify where and when 'Why the Novel Matters' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -12800,20 +12750,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary identity Lawrence claims for himself in the essay, and which two groups does he explicitly say he considers himself superior to?",
     "answer": "Lawrence identifies himself as a \"novelist\" and states he considers himself superior to \"the saint, the scientist, the philosopher, and the poet",
     "options": [
-     "The two prompts are: (1) Characters should be true to themselves (integrity) rather than to expectations (consistency), referencing Emerson",
-     "Lawrence objects to the dualistic separation of body and spirit/soul/mind, arguing it reduces the living body to a mere \"bottle\" or \"vessel of clay",
+     "Students treat \"tremulations on the ether\" as a scientific term (radio waves) and miss Lawrence's philosophical redefinition: he contrasts *dead* tremulations (books/philosophy",
+     "In a non-fiction essay, setting refers to the intellectual and conceptual landscape the author constructs",
      "Lawrence identifies himself as a \"novelist\" and states he considers himself superior to \"the saint, the scientist, the philosopher, and the poet"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Why the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he claims to be a philosopher\" or \"he feels inferior to scientists\") reveals the student hasn't grasped the essay's central polemic — Lawrence positions the novelist as the only one who captures the \"whole man alive,\" while others master only \"bits.\"",
     "id": "gen_c12_eng_k_ch17_q4",
     "nodeId": "c12_eng_k_cbse_17_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine reading a passionate opinion article where the writer says, \"I know better than priests, scientists, and philosophers because I'm a novelist.",
-     "Why should I trust them?",
-     "What makes their voice convincing?",
-     "That's exactly what we do here."
+     "Pick the central figure in 'Why the Novel Matters' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -12821,20 +12768,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the five supporting archetypes Lawrence explicitly names in the essay and state the one-word label he gives each (e.g., \"parson,\" \"philosopher\").",
     "answer": "The five archetypes are: the Parson, the Philosopher, the Scientist, the Saint (exemplified by St. Francis), and the Poet",
     "options": [
-     "Lawrence objects to the dualistic separation of body and spirit/soul/mind, arguing it reduces the living body to a mere \"bottle\" or \"vessel of clay",
-     "The central thesis is that the novel is the \"one bright book of life\" because it alone can make the whole living human being tremble with aliveness, whereas philosophy, science",
+     "Secondary themes are the supporting ideas that branch from the primary theme (the novel as the \"book of life\") to explore specific facets of Lawrence's argument",
+     "The student can independently identify 8-10 key terms from Lawrence's essay, explain each term's contextual meaning using specific textual evidence",
      "The five archetypes are: the Parson, the Philosopher, the Scientist, the Saint (exemplified by St. Francis), and the Poet"
     ],
-    "hint": "Straight from the 'In a non-fiction essay,' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Why the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"the novelist\" or \"the reader\" as supporting characters) reveals the student cannot distinguish the central persona from the foils constructed to oppose it, indicating a fundamental misunderstanding of the essay's dialectical structure.",
     "id": "gen_c12_eng_k_ch17_q5",
     "nodeId": "c12_eng_k_cbse_17_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a debate on \"What makes us truly human?\" — a priest quotes scripture, a scientist shows a brain scan, a philosopher talks",
-     "Lawrence's essay stages exactly this debate.",
-     "To begin, re-read the essay marking every time a distinct \"type\" of person appears (parson, philosopher, scientist, saint, poet).",
-     "Ask: \"What single aspect of human existence does this figure elevate above all else?\" That aspect is their limitation."
+     "Spot the secondary figures in 'Why the Novel Matters' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -12842,20 +12786,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "State Lawrence's one-sentence definition of \"man alive\" as implied in the essay's opening paragraphs.",
     "answer": "\"Man alive\" is the living, integrated whole of a human being — every cell, nerve, and sense",
     "options": [
-     "The intellectual setting is the conceptual landscape — the existing ideas, debates, and positions the author responds to or positions against",
-     "The central claim is that the novel is the 'one bright book of life' and 'the book of life' because it alone can affect the *whole man alive*",
+     "The student must independently deconstruct Lawrence's essay into its core philosophical claims, identify the rhetorical devices that structure his argument",
+     "The student can map the essay's argumentative progression paragraph by paragraph, explain how Lawrence uses concrete observations (the hand) to launch abstract claims",
      "\"Man alive\" is the living, integrated whole of a human being — every cell, nerve, and sense"
     ],
-    "hint": "Straight from the 'primary theme of \"Why the Novel' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Why' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If the student says \"man alive means the soul living in the body\" or \"the conscious mind,\" they have missed Lawrence's central polemic: he *rejects* the body/soul dualism entirely.",
     "id": "gen_c12_eng_k_ch17_q6",
     "nodeId": "c12_eng_k_cbse_17_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through social media and see a reel titled \"Your Body Is Just a Meat Suit for Your Brain.\" Lawrence would hate that reel.",
-     "Start by asking: *When you feel nervous before an exam, is it just your \"mind\" worrying, or does your stomach churn, your palms sweat, your heart",
-     "Guide the student to locate three key passages: (1) the hand writing vs. brain directing (para 2), (2) the \"tin can/vessel of clay\" rebuttal (para",
-     "Show how each passage builds the same argument: aliveness resides in the whole body, not in a disembodied part."
+     "Ask what 'Why the Novel Matters' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -12926,10 +12867,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_17_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever felt that a novel understood you better than a self-help book or a philosophy lecture?",
-     "Lawrence argues that's because novels capture the messy, contradictory whole of being alive.",
-     "Let's hunt for the \"side arguments\" he makes to support this big claim.",
-     "First, re-read the essay marking passages that aren't directly about novels but about life, body, philosophers, change."
+     "Look beneath the main theme of 'Why the Novel Matters' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -12937,20 +12875,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the tenor and vehicle in the metaphor: \"The years drink up the wine, and at last throw the bottle away, the body, of course, being the bottle.\"",
     "answer": "Tenor: the human body / physical lifespan. Vehicle: a bottle that once held wine. The years (time) are the drinker; the wine is the vital life-force",
     "options": [
-     "Any three of: (1) The unity of body and mind (rejecting dualism), (2) The critique of philosophers/scientists/saints as focusing on parts rather than the whole",
-     "The central thesis is that the novel is the \"one bright book of life\" because it alone can make the whole living human being tremble with aliveness, whereas philosophy, science",
+     "The student can identify the intellectual setting (the philosophical debate Lawrence enters) and trace the rhetorical atmosphere (urgent, embodied, polemical) across the essay",
+     "Students routinely treat Lawrence's essay as a *defense of the novel as a genre* (like a book review) rather than a *philosophical manifesto using the novel as a metaphor for a",
      "Tenor: the human body / physical lifespan. Vehicle: a bottle that once held wine. The years (time) are the drinker; the wine is the vital life-force"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Why the Novel Matters'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"tenor = wine, vehicle = bottle\") reveals the student confuses the subject being described with the image used to describe it, missing Lawrence's point that the body is the *container* discarded after the life-force is spent.",
     "id": "gen_c12_eng_k_ch17_q8",
     "nodeId": "c12_eng_k_cbse_17_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're holding a cold metal pen — you feel its smoothness, its weight, its temperature.",
-     "Lawrence asks: is that sensation \"just\" physical, or is it *you* knowing the world?",
-     "That's the entry point: start by noticing every concrete physical sensation Lawrence describes (hand writing, finger in fire, grass growing,",
-     "Then ask: what abstract idea does each sensation stand for?"
+     "Find the lines in 'Why the Novel Matters' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -12958,20 +12893,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define irony and symbolism in your own words, giving one example of each from everyday life (not from the textbook).",
     "answer": "Irony — a situation where the outcome is opposite to what was expected, e.g., a fire station burning down",
     "options": [
+     "The student can (1) articulate Lawrence's core argument that the novel is \"the one bright book of life\" because it engages the *whole* living person, not just a part",
      "The central thesis is that the novel is the \"one bright book of life\" because it alone can make the whole living human being tremble with aliveness, whereas philosophy, science",
-     "The central metaphor is \"tremulations on the ether\" — books are vibrations transmitted through a medium, not life itself",
      "Irony — a situation where the outcome is opposite to what was expected, e.g., a fire station burning down"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Why' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is just sarcasm\" or \"symbolism is just a metaphor\") reveals the student conflates irony with verbal sarcasm only, missing situational/dramatic irony, and reduces symbolism to simple comparison rather than representation of abstract ideas.",
     "id": "gen_c12_eng_k_ch17_q9",
     "nodeId": "c12_eng_k_cbse_17_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a passionate essay where the author claims \"paradise is in the palm of your hand\" while priests preach about heaven after",
-     "Now picture the author repeatedly returning to his own hand, the grass, a chameleon, a pepper-pot — these aren't random details; they are symbols",
-     "To begin, re-read the essay with a highlighter: mark every moment Lawrence says one thing but implies the opposite (irony), and every concrete object",
-     "Ask: \"What is the literal meaning?"
+     "Look in 'Why the Novel Matters' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -12979,20 +12911,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List three non-English expressions used in the essay and identify their language of origin.",
     "answer": "\"Mens sana in corpore sano\" (Latin), \"C'est la vie!\" (French), \"Nirvana\" (Sanskrit)",
     "options": [
-     "Any three of: (1) The unity of body and mind (rejecting dualism), (2) The critique of philosophers/scientists/saints as focusing on parts rather than the whole",
-     "The central claim is that the novel is the 'one bright book of life' and 'the book of life' because it alone can affect the *whole man alive*",
+     "The student can independently identify 8-10 key terms from Lawrence's essay, explain each term's contextual meaning using specific textual evidence",
+     "The student can identify the intellectual setting (the philosophical debate Lawrence enters) and trace the rhetorical atmosphere (urgent, embodied, polemical) across the essay",
      "\"Mens sana in corpore sano\" (Latin), \"C'est la vie!\" (French), \"Nirvana\" (Sanskrit)"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Why the Novel' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"tremulations\" or \"cul-de-sac\" as non-English) reveals the student cannot distinguish between coined English words, naturalized loanwords, and foreign phrases deliberately kept untranslated for rhetorical effect.",
     "id": "gen_c12_eng_k_ch17_q10",
     "nodeId": "c12_eng_k_cbse_17_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"How does Lawrence use the phrase 'tremulations on the ether' to distinguish the novel from",
-     "Start by locating every occurrence of \"tremulation\" (pp.",
-     "Notice the contrast: philosophy's tremulations are \"not alive at all, but just a tremulation upon the ether, like a radio message,\" while the novel's",
-     "The insight: Lawrence reinvents words; their meaning *is* his argument."
+     "Note the difficult or loaded words in 'Why the Novel Matters' — their meaning carries the text's precision."
     ]
    },
    {
@@ -13074,10 +13003,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_17_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading the sentence \"The chameleon creeps from a brown rock on to a green leaf\" and wonder why \"creeps\" doesn't have an object like",
-     "Start by asking: *Does the action transfer to a receiver?* No — the chameleon just moves.",
-     "That's your first clue: intransitive.",
-     "Now notice the phrase \"from a brown rock on to a green leaf\" — it tells *where* the creeping happens, not *what* receives it."
+     "Read 'Why the Novel Matters' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -13085,20 +13011,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define literal comprehension in your own words and give one example of a literal question from \"Why the Novel Matters.\"",
     "answer": "Literal comprehension is the ability to identify information directly stated in the text without interpretation",
     "options": [
-     "The intellectual setting is the conceptual landscape — the existing ideas, debates, and positions the author responds to or positions against",
-     "Lawrence identifies himself as a \"novelist\" and states he considers himself superior to \"the saint, the scientist, the philosopher, and the poet",
+     "The student can explain in their own words why Lawrence privileges the novel over philosophy, science, and poetry, and can identify the historical, biographical",
+     "Lawrence's argumentative essay \"Why the Novel Matters,\" narrative structure refers to the deliberate architectural arrangement of ideas",
      "Literal comprehension is the ability to identify information directly stated in the text without interpretation"
     ],
-    "hint": "Straight from the 'Literal comprehension involves' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Why the' slide -- match the key terms.",
     "misconception": "A wrong answer would confuse literal with inferential, e.g., \"Why does Lawrence think philosophers deny the body?\" — that requires inference.",
     "id": "gen_c12_eng_k_ch17_q12",
     "nodeId": "c12_eng_k_cbse_17_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and the first question reads: \"What does Lawrence mean when he calls the novel 'the one bright book of life'?",
-     "Step 1: Don't panic.",
-     "Step 2: Scan the text for the phrase \"bright book of life\" (literal location).",
-     "Step 3: Read the surrounding paragraph — Lawrence contrasts the novel with philosophy, science, and poetry which only affect \"bits\" of a person."
+     "Answer 'Why the Novel Matters' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -13158,10 +13081,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_17_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a debate club and someone claims \"Science knows everything about human beings — we're just atoms and neurons.",
-     "Lawrence's essay is that articulation.",
-     "Start by isolating his three main targets: the saint (spirit), the philosopher (mind), the scientist (body parts).",
-     "Trace how he uses the hand — a concrete, living body part — as his primary evidence against all three."
+     "Analyse 'Why the Novel Matters' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -13169,20 +13090,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central metaphor Lawrence uses to describe books, and what does it imply about the relationship between text and reader?",
     "answer": "The central metaphor is \"tremulations on the ether\" — books are vibrations transmitted through a medium, not life itself",
     "options": [
-     "The central claim is that the novel is the 'one bright book of life' and 'the book of life' because it alone can affect the *whole man alive*",
-     "Lawrence identifies himself as a \"novelist\" and states he considers himself superior to \"the saint, the scientist, the philosopher, and the poet",
+     "Secondary themes are the supporting ideas that branch from the primary theme (the novel as the \"book of life\") to explore specific facets of Lawrence's argument",
+     "The student can map the essay's argumentative progression paragraph by paragraph, explain how Lawrence uses concrete observations (the hand) to launch abstract claims",
      "The central metaphor is \"tremulations on the ether\" — books are vibrations transmitted through a medium, not life itself"
     ],
-    "hint": "Straight from the 'Writing Skills based on \"Why the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Why the Novel' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"books are mirrors of life\") reveals the student has missed Lawrence's sharp distinction between lifeless text and living reception, confusing content with effect.",
     "id": "gen_c12_eng_k_ch17_q14",
     "nodeId": "c12_eng_k_cbse_17_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing this question: \"How does Lawrence establish the superiority of the novel over philosophy, science, and poetry?",
-     "Support your answer with textual evidence.\" Most students freeze because they've memorized points but don't know how to structure them into a",
-     "Start by identifying the core claim: Lawrence privileges the \"whole man alive\" over fragmented abstractions.",
-     "Next, hunt for three distinct pieces of evidence — one for each rival (philosopher, scientist, poet/saint)."
+     "For written answers on 'Why the Novel Matters', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -13190,20 +13108,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two specific discussion prompts given in the NCERT \"Talking about the Text\" section for this essay?",
     "answer": "The two prompts are: (1) Characters should be true to themselves (integrity) rather than to expectations (consistency), referencing Emerson",
     "options": [
-     "Lawrence identifies himself as a \"novelist\" and states he considers himself superior to \"the saint, the scientist, the philosopher, and the poet",
-     "The five archetypes are: the Parson, the Philosopher, the Scientist, the Saint (exemplified by St. Francis), and the Poet",
+     "The student can independently identify at least two distinct examples of irony and two symbols in \"Why the Novel Matters\", explain how each operates in context",
+     "The student must independently deconstruct Lawrence's essay into its core philosophical claims, identify the rhetorical devices that structure his argument",
      "The two prompts are: (1) Characters should be true to themselves (integrity) rather than to expectations (consistency), referencing Emerson"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Why the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing comprehension questions or themes) reveals the student hasn't located the actual speaking/listening task in the textbook.",
     "id": "gen_c12_eng_k_ch17_q15",
     "nodeId": "c12_eng_k_cbse_17_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle where someone claims \"Lawrence just hates philosophers.",
-     "Start by re-reading the two discussion prompts and marking 3-4 key passages for each.",
-     "For Prompt 1, trace how Lawrence contrasts \"integrity\" (wholeness, responsiveness to change) with \"consistency\" (fixed patterns, \"lamp-post\"",
-     "For Prompt 2, distinguish between \"books as tremulations on ether\" (dead communication) and \"novel as tremulation that makes the whole man alive"
+     "Talk through 'Why the Novel Matters' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -13261,7 +13176,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Lawrence's claim is rhetorically effective but philosophically questionable. He admits the poet makes \"a bit of me tremble\" (e",
      "Lawrence's lived experience of the body-mind split (miner's physical labour vs. mother's intellectual ambition), the degradation of industrial labour"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Why the Novel Matters'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'he hated his father' or 'he travelled a lot') reduces biography to anecdote instead of tracing how *specific tensions* become *philosophical positions*.",
     "id": "gen_c12_eng_k_ch17_q17",
     "nodeId": "c12_eng_k_cbse_17_001",
@@ -13276,7 +13191,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The Algorithm: \"I have mapped every click, every pause, every heartbeat. I predict your desire before you feel it",
      "A strong answer: 'Lawrence isn't saying novels are \"better\" in a literary-ranking sense; he's saying the novel is the only form that mirrors the *wholeness* of a living human"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Why the Novel Matters'' slide -- match the key terms.",
     "misconception": "A weak answer (e.g., 'Lawrence likes novels more than philosophy') reveals the student still sees this as preference/opinion rather than ontological argument.",
     "id": "gen_c12_eng_k_ch17_q18",
     "nodeId": "c12_eng_k_cbse_17_001",
@@ -13285,23 +13200,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'why the novel matters'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Why The Novel Matters' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch18",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Argumentative Indian'",
   "subtitle": "English · Chapter 18",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch18: Before You Read: Context and Background"],
+  "topic": "'The Argumentative Indian'",
+  "chapters": [
+   "English Ch18: 'The Argumentative Indian'"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_18_001",
    "c12_eng_k_cbse_18_002",
@@ -13326,127 +13243,155 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Before You Read: Context and directly with your eyes?",
+   "question": "Can you see 'The Argumentative Indian' directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
     "It is invisible by definition"
    ],
    "answer": "Often only through its effects",
-   "hook": "\"Before You Read: Context and Background\" for Amartya Sen's \"The Argumentative Indian\" is the preparatory stage where students acquire essential"
+   "hook": "'The Argumentative Indian' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" for Amartya Sen's \"The Argumentative Indian\" is the preparatory stage where students acquire essential knowledge about the author's credentials, the book's central thesis, the historical-intellectual traditions",
+    "title": "'The Argumentative Indian'",
+    "text": "'The Argumentative Indian' (Kaleidoscope, ch. 18) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "In a Non-fiction Argumentative Essay",
-    "text": "In a non-fiction argumentative essay like \"The Argumentative Indian,\" plot and narrative structure refers to the logical architecture of the argument — how the author sequences claims, evidence, counterarguments, and thematic shifts to build a coherent thesis.",
+    "title": "Plot/narrative Arc Of 'The Argumentative",
+    "text": "The plot/narrative arc of 'The Argumentative Indian' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Non-fiction Argumentative Prose, Setting",
-    "text": "In non-fiction argumentative prose, setting refers to the historical, cultural, intellectual, and temporal context within which the author situates their arguments — including the traditions, texts, events, and debates they invoke.",
+    "title": "Setting Of 'The Argumentative Indian'",
+    "text": "The setting of 'The Argumentative Indian' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis In Non-fiction Essays",
-    "text": "Character analysis in non-fiction essays examines the authorial persona — the constructed voice, intellectual stance, rhetorical strategies, and self-positioning the writer adopts to advance their argument.",
+    "title": "Character Analysis In 'The Argumentative",
+    "text": "Character analysis in 'The Argumentative Indian' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In Non-fiction Essays, Supporting Characters",
-    "text": "In non-fiction essays, supporting characters are the historical, literary, philosophical, or contemporary figures the author references to illustrate, challenge, or advance the central argument.",
+    "title": "Supporting Characters In 'The Argumentative",
+    "text": "Supporting characters in 'The Argumentative Indian' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of \"The Argumentative Indian\"",
-    "text": "The primary theme of \"The Argumentative Indian\" is India's ancient, substantive, and inclusive tradition of public reasoning and dialogue, which Amartya Sen argues is the intellectual foundation of India's successful democracy — not merely a Western import.",
+    "title": "Primary Theme Of 'The Argumentative",
+    "text": "The primary theme of 'The Argumentative Indian' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes In a Non-fiction Essay",
-    "text": "Secondary themes in a non-fiction essay are the supporting ideas that run alongside the primary argument, enriching the text by exploring related dimensions such as gender, caste, class, historical continuity, and philosophical debates.",
+    "title": "Secondary Themes In 'The Argumentative",
+    "text": "Secondary themes in 'The Argumentative Indian' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke emotions; metaphor is a figure of speech that directly compares two unlike things by stating one *is* the",
+    "title": "Imagery In 'The Argumentative Indian'",
+    "text": "Imagery in 'The Argumentative Indian' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony In Non-fiction Argumentative Writing",
-    "text": "Irony in non-fiction argumentative writing is a rhetorical strategy where the author presents a situation, statement, or historical parallel that contradicts surface expectations to reveal a deeper truth; Symbolism is the use of concrete historical figures,",
+    "title": "Irony And Paradox In 'The Argumentative",
+    "text": "Irony and paradox in 'The Argumentative Indian' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and usage of a word by analyzing the surrounding text — including definitions, examples, contrasts, and the author's argumentative flow — rather than relying solely on",
+    "title": "Key Vocabulary Of 'The Argumentative Indian'",
+    "text": "Key vocabulary of 'The Argumentative Indian' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of how Amartya Sen employs specific grammatical structures — particularly noun phrase architecture (determiners, pre/post-modifiers, apposition, parenthetical clauses),",
+    "title": "Language And Style In 'The Argumentative",
+    "text": "Language and style in 'The Argumentative Indian' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving information directly stated in the text, while inferential comprehension questions require drawing logical conclusions by combining textual evidence with reasoning — both demand precise, evidence-based",
+    "title": "Literal Comprehension Of 'The Argumentative",
+    "text": "Literal comprehension of 'The Argumentative Indian' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the ability to deconstruct an argumentative essay's structure, evaluate the validity of its claims and evidence, interpret the author's underlying assumptions and perspective, and synthesize an independent",
+    "title": "Critical Thinking On 'The Argumentative",
+    "text": "Critical thinking on 'The Argumentative Indian' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on \"The Argumentative Indian\" involve crafting structured, evidence-based responses to textual questions (literal, inferential, analytical) and composing original argumentative paragraphs or essays that engage with Sen's core ideas — such",
+    "title": "Writing Skills From 'The Argumentative",
+    "text": "Writing skills from 'The Argumentative Indian' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students articulate, defend, and interrogate the key arguments of Amartya Sen's \"The Argumentative Indian\" through evidence-based dialogue, active listening, and",
+    "title": "Discussion Points On 'The Argumentative",
+    "text": "Discussion points on 'The Argumentative Indian' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    }
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "What is the subtitle of Amartya Sen's book *The Argumentative Indian*, and what does it indicate about the essay's disciplinary approach?",
-    "answer": "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and",
-    "options": [
-     "(1) Krishna and Arjuna – the Bhagavad Gita debate on duty versus consequences; (2) Gargi – the Upanishadic debate with Yajnavalkya on the nature of God",
-     "Sen distinguishes Krishna's deontological emphasis on duty regardless of consequences ('fare forward') from Arjuna's consequentialist concern for the suffering caused by war",
-     "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "who Amartya Sen",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "the core claim of the essay",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "the three major dialectics Sen examines",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Essays on Indian Philosophy\") reveals the student misses Sen's interdisciplinary lens — he blends economics, history, and philosophy — which is essential for grasping why he cites Oppenheimer and GDP alongside the Gita.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently explain (1) who Amartya Sen is and why his perspective carries authority, (2) the core",
     "id": "gen_c12_eng_k_ch18_q1",
     "nodeId": "c12_eng_k_cbse_18_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a documentary on \"How India Became a Democracy.\" Before pressing play, you'd want to know: who made it?",
-     "What's their expertise?",
-     "What historical events will they cover?",
-     "What's their main argument?"
+     "Start with the author of 'The Argumentative Indian', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -13495,10 +13440,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_18_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked: \"How does Sen prove that argumentation is central to Indian identity?",
-     "Start by noticing the essay's three bold headings in your textbook: they are the skeleton.",
-     "Then trace the \"narrative\" thread: Sen opens with a light anecdote (Krishna Menon's speech) to hook the reader, then pivots to the epics as ancient",
-     "The \"plot\" is the widening spiral from text → society → polity."
+     "Trace 'The Argumentative Indian' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -13510,16 +13452,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Krishna argues for deontological duty: one must act according to one's role (warrior) regardless of consequences",
      "In fiction, setting is primarily the physical/time/place backdrop for characters and plot. In argumentative non-fiction, setting is the intellectual-historical context"
     ],
-    "hint": "Straight from the 'In non-fiction argumentative' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Argumentative' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"setting is where the essay takes place\") reveals the student is transferring a fiction concept without adaptation. They miss that Sen's \"setting\" includes the Mahabharata, the Upanishads, the 1957 UN speech, and the 2004 election — N/A of which are physical locations of the essay.",
     "id": "gen_c12_eng_k_ch18_q3",
     "nodeId": "c12_eng_k_cbse_18_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a powerful op-ed in a newspaper about a current debate — say, climate policy.",
-     "Before evaluating the arguments, you instinctively ask: \"What conversation is this joining?",
-     "What history does it assume?",
-     "What tone does it project — urgent, measured, inclusive, combative?\" That is exactly what we do with Sen's essay."
+     "Identify where and when 'The Argumentative Indian' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -13527,20 +13466,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is \"authorial persona\" in a non-fiction essay, and how does it differ from a character in fiction?",
     "answer": "Authorial persona is the constructed voice and intellectual stance the writer adopts — their self-presentation as a thinker",
     "options": [
-     "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and",
-     "The three sections in order are: (1) \"Dialogue and Significance\" (pp. 177–179), (2) \"Gender, Caste and Voice\" (pp. 180–185), (3) \"Democracy as Public Reasoning\" (pp. 186–187)",
+     "In non-fiction essays, supporting characters are the historical, literary, philosophical, or contemporary figures the author references to illustrate, challenge",
+     "In non-fiction argumentative prose, setting refers to the historical, cultural, intellectual, and temporal context within which the author situates their arguments",
      "Authorial persona is the constructed voice and intellectual stance the writer adopts — their self-presentation as a thinker"
     ],
-    "hint": "Straight from the 'Character analysis in non-fiction' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It's the main person the essay talks about\") reveals confusion between *subject of analysis* and *voice of analyzer*.",
     "id": "gen_c12_eng_k_ch18_q4",
     "nodeId": "c12_eng_k_cbse_18_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading an op-ed by a Nobel Prize-winning economist about Indian democracy.",
-     "You don't just ask \"What is he saying?\" — you ask \"Who is speaking?",
-     "What kind of thinker does he show himself to be?\" Start by hunting for first-person markers (\"I recall,\" \"I have presented elsewhere,\" \"I am not",
-     "Notice how Sen opens with Krishna Menon's 9-hour UN speech — a deliberate choice that signals *he belongs to the tradition he describes*."
+     "Pick the central figure in 'The Argumentative Indian' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -13589,10 +13525,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_18_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine reading an op-ed where the writer quotes Gandhi, Tagore, and a village elder to prove that dissent is Indian.",
-     "Sen does exactly that: he brings Krishna and Arjuna for moral philosophy, Gargi and Maitreyi for gendered intellect, Draupadi for political courage,",
-     "To analyze them, first list every named figure.",
-     "Next, note the debate each enters (e.g., Krishna-Arjuna = deontology vs. consequentialism)."
+     "Spot the secondary figures in 'The Argumentative Indian' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -13600,20 +13533,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the \"primary theme\" of Amartya Sen's essay \"The Argumentative Indian\" as presented in the NCERT excerpt? State it in one sentence using Sen's own terminology.",
     "answer": "The primary theme is India's long tradition of public reasoning, dialogue, and argumentation",
     "options": [
-     "The three sections in order are: (1) \"Dialogue and Significance\" (pp. 177–179), (2) \"Gender, Caste and Voice\" (pp. 180–185), (3) \"Democracy as Public Reasoning\" (pp. 186–187)",
-     "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and",
+     "The student can independently identify at least two distinct instances of irony and two symbols in Sen's essay, explain the specific type of irony (situational, verbal",
+     "The student can identify at least three distinct secondary themes in the essay, trace each theme through specific textual evidence (names, episodes, quotes)",
      "The primary theme is India's long tradition of public reasoning, dialogue, and argumentation"
     ],
-    "hint": "Straight from the 'primary theme of \"The' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Sen praises Indian epics\" or \"Sen discusses the Bhagavad Gita\") reveals the student has confused *subject matter* with *theme* — they've identified what the essay *talks about* but not the *central argument* Sen constructs from that material.",
     "id": "gen_c12_eng_k_ch18_q6",
     "nodeId": "c12_eng_k_cbse_18_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a heated family WhatsApp group debate about a news article — everyone has an opinion, counter-arguments fly, and the discussion",
-     "That's exactly the \"argumentative Indian\" instinct Sen describes.",
-     "Start by asking: \"What does Sen mean when he says 'prolixity is not alien to us'?\" — this opens the door to the essay's core claim.",
-     "Then trace how Sen builds his case: first through the sheer length and dialogic nature of the epics, then through the unresolved Krishna-Arjuna"
+     "Ask what 'The Argumentative Indian' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -13621,20 +13551,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List the four women interlocutors from ancient texts whom Sen explicitly names as participants in India's argumentative tradition, and the textual source for each.",
     "answer": "Gargi (Brihadaranyaka Upanishad), Maitreyi (Brihadaranyaka Upanishad), Draupadi (Mahabharata / Kiratarjuniya), and Mira Bai (medieval Bhakti tradition)",
     "options": [
-     "\"Prolixity\" means excessive wordiness or lengthiness in speech/writing. The primary clue is example: Sen immediately illustrates it with Krishna Menon's 9-hour UN speech and the",
-     "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and",
+     "The student can independently identify at least three distinct images and two extended metaphors in Sen's essay",
+     "The student can independently identify at least 8 key terms from the essay, explain their context-specific meanings with textual evidence",
      "Gargi (Brihadaranyaka Upanishad), Maitreyi (Brihadaranyaka Upanishad), Draupadi (Mahabharata / Kiratarjuniya), and Mira Bai (medieval Bhakti tradition)"
     ],
-    "hint": "Straight from the 'Secondary themes in a non-fiction' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer — such as listing only modern figures like Sarojini Naidu or omitting the textual source — reveals the student has not distinguished between ancient and modern evidence, a key distinction Sen makes to show historical depth.",
     "id": "gen_c12_eng_k_ch18_q7",
     "nodeId": "c12_eng_k_cbse_18_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a debate competition and your opponent says, \"India's tradition of argument was only for elite men — it has nothing to do with",
-     "Start by asking: *Whose voices does Sen bring in to show the tradition wasn't exclusive?",
-     "Next, ask: *How does Sen connect ancient debates to modern development economics?* Find Maitreyi's question about wealth and immortality, and Sen's",
-     "This walkthrough mirrors CBSE's \"Talking about the Text\" and \"Appreciation\" question patterns where you must supply textual evidence for each claim."
+     "Look beneath the main theme of 'The Argumentative Indian' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -13683,10 +13610,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_18_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading Sen's essay and stumble on the phrase \"rutting elephant tearing off his garland with his trunk\" — why does a serious",
-     "Start by asking: *What sensory experience does this image evoke?* (sight/sound of a massive elephant, the violence of tearing).",
-     "Then ask: *What abstract idea is being made concrete?* (Yudhisthira casually discarding his kingdom).",
-     "Next, trace the metaphor: the elephant = Yudhisthira, the garland = his royal duty/kingdom, the tearing = his voluntary renunciation."
+     "Find the lines in 'The Argumentative Indian' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -13694,20 +13618,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define 'situational irony' and 'symbol' in the specific context of non-fiction argumentative prose like Sen's essay. How do they differ from their use in a short story?",
     "answer": "Situational irony in non-fiction occurs when a historical outcome or intellectual position contradicts the explicit intentions or claims of the actors involved (e",
     "options": [
-     "\"Prolixity\" means excessive wordiness or lengthiness in speech/writing. The primary clue is example: Sen immediately illustrates it with Krishna Menon's 9-hour UN speech and the",
-     "The three sections in order are: (1) \"Dialogue and Significance\" (pp. 177–179), (2) \"Gender, Caste and Voice\" (pp. 180–185), (3) \"Democracy as Public Reasoning\" (pp. 186–187)",
+     "Student can identify and explain Amartya Sen's authorial persona in \"The Argumentative Indian\" by citing specific textual evidence: his intellectual lineage",
+     "Secondary themes in a non-fiction essay are the supporting ideas that run alongside the primary argument, enriching the text by exploring related dimensions such as gender, caste",
      "Situational irony in non-fiction occurs when a historical outcome or intellectual position contradicts the explicit intentions or claims of the actors involved (e"
     ],
-    "hint": "Straight from the 'Irony in non-fiction' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is sarcasm\") reveals confusion between verbal irony/sarcasm and structural/historical irony, and a failure to grasp that non-fiction symbols are referential, not invented.",
     "id": "gen_c12_eng_k_ch18_q9",
     "nodeId": "c12_eng_k_cbse_18_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a modern op-ed where the writer cites a 1945 nuclear scientist quoting a 2000-year-old Sanskrit text to critique *both* — that",
-     "Start by scanning Sen's essay for moments where the outcome contradicts the stated intent (e.",
-     "Next, flag recurring historical figures/texts that carry weight beyond their literal role: the Gita isn't just a scripture here, it *symbolizes*",
-     "Ask: \"What abstract idea does this person/event stand for?\" and \"Where does the text undercut its own surface claim?"
+     "Look in 'The Argumentative Indian' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -13715,20 +13636,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the meaning of \"prolixity\" as used in the opening paragraph of the essay, and what context clue type (definition, example, contrast, inference) primarily reveals it?",
     "answer": "\"Prolixity\" means excessive wordiness or lengthiness in speech/writing. The primary clue is example: Sen immediately illustrates it with Krishna Menon's 9-hour UN speech and the",
     "options": [
-     "The three sections in order are: (1) \"Dialogue and Significance\" (pp. 177–179), (2) \"Gender, Caste and Voice\" (pp. 180–185), (3) \"Democracy as Public Reasoning\" (pp. 186–187)",
-     "Authorial persona is the constructed voice and intellectual stance the writer adopts — their self-presentation as a thinker",
+     "The student can independently explain (1) who Amartya Sen is and why his perspective carries authority, (2) the core claim of the essay",
+     "The student can identify at least three supporting figures in Sen’s essay, explain the specific perspective each represents (e",
      "\"Prolixity\" means excessive wordiness or lengthiness in speech/writing. The primary clue is example: Sen immediately illustrates it with Krishna Menon's 9-hour UN speech and the"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"fluency\" or \"eloquence\") reveals the student ignored the illustrative examples and guessed from the root \"prolix\" without checking context.",
     "id": "gen_c12_eng_k_ch18_q10",
     "nodeId": "c12_eng_k_cbse_18_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're reading a dense opinion piece in *The Hindu* or *The Wire* and hit a word like \"heterodoxy\" — do you skip it, guess wildly, or decode",
-     "Start by locating the word in the essay (paragraph 1: \"prolixity\"; paragraph 4: \"heterodoxy\").",
-     "Ask: What clues does the *sentence* give?",
-     "The *paragraph*?"
+     "Note the difficult or loaded words in 'The Argumentative Indian' — their meaning carries the text's precision."
     ]
    },
    {
@@ -13788,10 +13706,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_18_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a newspaper editorial where the writer says \"The policy is largely successful\" instead of \"The policy is successful.",
-     "That single word changes the claim from absolute to nuanced — a hallmark of academic argument.",
-     "Sen does this constantly.",
-     "To begin, scan the first two paragraphs and circle every word related to speaking or writing (prolixity, loquaciousness, speak, dialogues, debates,"
+     "Read 'The Argumentative Indian' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -13803,16 +13718,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The student misreads the qualifying phrase. \"At least as seen in the religious perspective\" signals a concession",
      "No. A complete literal answer must include the specific quantitative detail stated in the text: \"The Mahabharata alone is about seven times as long as the Iliad and the Odyssey"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No. A complete literal answer must include the specific quantitative detail stated in the text: \"The Mahabharata alone",
     "id": "gen_c12_eng_k_ch18_q12",
     "nodeId": "c12_eng_k_cbse_18_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam and see a question: \"How does Sen use the Krishna-Arjuna dialogue to illustrate India's argumentative",
-     "Start by asking: \"Can I point to a single sentence that answers this, or must I connect multiple passages?",
-     "First, underline keywords in the question (e.g., \"illustrate,\" \"argumentative tradition\").",
-     "Second, scan the text for those keywords and surrounding context."
+     "Answer 'The Argumentative Indian' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -13820,20 +13732,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central distinction Sen draws between Krishna's position ('faring forward') and Arjuna's position ('faring well') in the Bhagavad Gita debate, and why does Sen argue that Arjuna's perspective remains relevant?",
     "answer": "Sen distinguishes Krishna's deontological emphasis on duty regardless of consequences ('fare forward') from Arjuna's consequentialist concern for the suffering caused by war",
     "options": [
-     "\"Fare forward\" literally means to continue one's journey or voyage ahead, without looking back or pausing to evaluate the outcome",
-     "Situational irony in non-fiction occurs when a historical outcome or intellectual position contradicts the explicit intentions or claims of the actors involved (e",
+     "(1) Krishna and Arjuna – the Bhagavad Gita debate on duty versus consequences; (2) Gargi – the Upanishadic debate with Yajnavalkya on the nature of God",
+     "The student can independently write a 150-200 word analytical answer to a textbook question (e.g., \"How does Sen reinterpret the Gita's message?",
      "Sen distinguishes Krishna's deontological emphasis on duty regardless of consequences ('fare forward') from Arjuna's consequentialist concern for the suffering caused by war"
     ],
-    "hint": "Straight from the 'Critical Thinking' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Krishna wins so Arjuna is wrong\") reveals the student misses Sen's core point: the *epic as a whole* preserves both sides, and the 'message of the Gita' requires supplementation by the broader argumentative wisdom of the Mahabharata.",
     "id": "gen_c12_eng_k_ch18_q13",
     "nodeId": "c12_eng_k_cbse_18_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a debate competition and the topic is \"India's democracy is a Western import.",
-     "But how exactly does he prove it?",
-     "Where does he use the Mahabharata, the Upanishads, or the Bhakti poets as evidence?",
-     "And is his argument convincing?"
+     "Analyse 'The Argumentative Indian' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -13841,20 +13751,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the PEEL structure, and what does each letter stand for in the context of writing a textual answer?",
     "answer": "PEEL stands for Point (topic sentence stating the main idea), Evidence (direct quote or close paraphrase from the text)",
     "options": [
-     "The subtitle is \"Writings on Indian Culture, History and Identity.\" It indicates the essay approaches argumentation as a cultural-historical phenomenon open to empirical and",
-     "The three sections in order are: (1) \"Dialogue and Significance\" (pp. 177–179), (2) \"Gender, Caste and Voice\" (pp. 180–185), (3) \"Democracy as Public Reasoning\" (pp. 186–187)",
+     "Students equate \"qualification\" (hedging) with weakness or vagueness, believing strong writing means absolute statements (\"Sen proves that...\")",
+     "The student can independently prepare 3-4 discussion points grounded in textual evidence, respond to peers by building on or respectfully challenging their interpretations",
      "PEEL stands for Point (topic sentence stating the main idea), Evidence (direct quote or close paraphrase from the text)"
     ],
-    "hint": "Straight from the 'Writing Skills based on \"The' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"Paragraph, Example, Explain, Line\" reveals the student has memorised an acronym without understanding its functional role in analytical writing.",
     "id": "gen_c12_eng_k_ch18_q14",
     "nodeId": "c12_eng_k_cbse_18_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in the board exam: \"Sen says 'Arjuna's contrary arguments are not really vanquished.' Do you agree?",
-     "Support with evidence.\" A struggling student often writes a vague summary instead of a focused argument.",
-     "Start by identifying the *exact* claim in the question (Arjuna's arguments survive).",
-     "Then, hunt the text for two concrete pieces of evidence: (1) Sen's statement that the post-war desolation vindicates Arjuna, and (2) the Oppenheimer"
+     "For written answers on 'The Argumentative Indian', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -13914,11 +13821,65 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_18_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a CUET group discussion round where the prompt is: \"Does India's ancient argumentative tradition strengthen or weaken modern",
-     "First, recall Sen's three major pillars: the Krishna-Arjuna debate (duty vs consequences), gender/caste inclusivity in argumentation (Gargi,",
-     "Next, select one pillar and locate two precise textual references — e.g., Sen's quote \"Arjuna's contrary arguments are not really vanquished\" and the",
-     "Then, frame your opening point as a claim-evidence-link: \"Sen shows the Mahabharata preserves dissent; this models democratic deliberation today."
+     "Talk through 'The Argumentative Indian' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "complex noun phrases with multiple pre",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "qualified/hedged assertions",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "parenthetical clauses in Sen's essay",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "appositive constructions",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently identify, label, and explain the rhetorical function of (1) qualified/hedged assertions,",
+    "id": "gen_c12_eng_k_ch18_q16",
+    "nodeId": "c12_eng_k_cbse_18_011",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -13962,7 +13923,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer would pick based on personal interest (\"I like politics\") without analyzing textual structure for discussion design. This reveals inability to match text features to pedagogic goals.",
-    "id": "gen_c12_eng_k_ch18_q16",
+    "id": "gen_c12_eng_k_ch18_q17",
     "nodeId": "c12_eng_k_cbse_18_015",
     "difficulty": "advanced"
    },
@@ -14019,45 +13980,32 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Strong answer example: \"Sen argues democracy thrives on 'public reasoning and interactive reasoning' — not just voting.",
-    "id": "gen_c12_eng_k_ch18_q17",
+    "id": "gen_c12_eng_k_ch18_q18",
     "nodeId": "c12_eng_k_cbse_18_015",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze how Sen uses the Gargi-Yajnavalkya and Maitreyi-Yajnavalkya episodes from the Brihadaranyaka Upanishad to complicate the notion that India's argumentative tradition was exclusively male and elite.",
-    "answer": "Sen shows women as sharp intellectual interrogators (Gargi's militant questioning) and as questioners of materialism's limits (Maitreyi's rhetorical question on wealth vs",
-    "options": [
-     "Gargi: \"sharpest edge to intellectual interrogation,\" militant imagery (\"strings his unstrung bow\")",
-     "Sen largely maintains dialogic reasonableness — he avoids monolithic claims (\"not unique to India,\" \"twin pitfalls,\" \"general connection\") and uses qualifications (\"I would",
-     "Sen shows women as sharp intellectual interrogators (Gargi's militant questioning) and as questioners of materialism's limits (Maitreyi's rhetorical question on wealth vs"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A weak answer merely lists the names without explaining *how* each episode challenges a specific exclusion (gender for Gargi, class/materialism for Maitreyi), missing the analytical move Sen makes: using counter-examples to refine, not reject, the tradition's inclusivity.",
-    "id": "gen_c12_eng_k_ch18_q18",
-    "nodeId": "c12_eng_k_cbse_18_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the argumentative indian'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Argumentative Indian' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch19",
-  "title": "Before You Read: Context and Background",
+  "title": "'On Science Fiction' — The Context",
   "subtitle": "English · Chapter 19",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch19: Before You Read: Context and Background"],
+  "topic": "'On Science Fiction' — The Context And Background To",
+  "chapters": [
+   "English Ch19: 'On Science Fiction' — The Context And Background To"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_19_001",
    "c12_eng_k_cbse_19_002",
@@ -14082,103 +14030,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'On Science Fiction' — The in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "The \"Before You Read: Context and Background\" stage prepares students to engage with Isaac Asimov's essay \"On Science Fiction\" by establishing the"
+   "hook": "'On Science Fiction' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "The \"Before You Read: Context and Background\" stage prepares students to engage with Isaac Asimov's essay \"On Science Fiction\" by establishing the author's authority, the historical emergence of science fiction as a distinct genre, and the conceptual",
+    "text": "'On Science Fiction' (Kaleidoscope, ch. 19) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "In Non-fiction Essays Like Asimov's",
-    "text": "In non-fiction essays like Asimov's \"On Science Fiction,\" narrative structure refers to the logical organization of ideas — how the author arranges arguments, evidence, examples, and counterarguments to build a coherent thesis.",
+    "title": "Plot/narrative Arc Of 'On Science",
+    "text": "The plot/narrative arc of 'On Science Fiction' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting In a Non-fiction Essay",
-    "text": "Setting in a non-fiction essay refers to the conceptual or intellectual framework the author establishes — the \"universe of ideas\" within which the argument unfolds.",
+    "title": "Setting Of 'On Science Fiction'",
+    "text": "The setting of 'On Science Fiction' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a non-fiction essay involves examining the author's constructed persona — the voice, perspective, tone, and rhetorical stance the writer adopts to establish authority and connect with the reader.",
+    "title": "Character Analysis In 'On Science Fiction'",
+    "text": "Character analysis in 'On Science Fiction' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In a Non-fiction Essay Like",
-    "text": "In a non-fiction essay like Asimov's \"On Science Fiction,\" supporting characters are the historical figures, mythological beings, literary personas, and contemporary authorities the author invokes as evidence, foils, or illustrative examples to develop the",
+    "title": "Supporting Characters In 'On Science",
+    "text": "Supporting characters in 'On Science Fiction' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Primary Theme Of a Non-fiction Essay",
-    "text": "The primary theme of a non-fiction essay is the central idea or argument the author develops throughout the text, supported by evidence, reasoning, and structural choices; the message is the author's intended takeaway for the reader about the subject's",
+    "title": "Primary Theme Of 'On Science",
+    "text": "The primary theme of 'On Science Fiction' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, motifs, or arguments that support, complicate, or run parallel to the primary theme of a text. In Asimov's \"On Science Fiction,\" while the primary theme defines science fiction as a genre rooted in scientific law and",
+    "title": "Secondary Themes In 'On Science Fiction'",
+    "text": "Secondary themes in 'On Science Fiction' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create concrete mental pictures.",
+    "title": "Imagery In 'On Science Fiction'",
+    "text": "Imagery in 'On Science Fiction' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony In Asimov's Essay",
-    "text": "Irony in Asimov's essay is the contrast between what ancient myths presented as magical or divine (e.g., crystal balls, flying carpets, seven-league boots) and what modern science has achieved as ordinary technology (television, airplanes, automobiles);",
+    "title": "Irony And Paradox In 'On Science",
+    "text": "Irony and paradox in 'On Science Fiction' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context: Key Words refers to the practice of determining the precise meaning, nuance, and usage of specific lexical items as they appear in Isaac Asimov's essay \"On Science Fiction,\" using surrounding textual clues (definitions, examples,",
+    "title": "Key Vocabulary Of 'On Science Fiction'",
+    "text": "Key vocabulary of 'On Science Fiction' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the systematic analysis of grammatical structures, verb patterns, and syntactic choices that Isaac Asimov employs in \"On Science Fiction\" to construct logical arguments, maintain formal academic tone, and achieve",
+    "title": "Language And Style In 'On Science",
+    "text": "Language and style in 'On Science Fiction' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions require students to derive meaning by combining textual evidence with logical reasoning, going beyond what is explicitly written.",
+    "title": "Literal Comprehension Of 'On Science",
+    "text": "Literal comprehension of 'On Science Fiction' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation involves systematically breaking down a non-fiction text to examine its argument structure, evaluate the author's claims and evidence, interpret underlying assumptions, and assess the validity of conclusions —",
+    "title": "Critical Thinking On 'On Science Fiction'",
+    "text": "Critical thinking on 'On Science Fiction' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing skills based on \"On Science Fiction\" involve crafting analytical responses that compare literary genres, use discourse markers to structure arguments, embed textual evidence to support claims about genre conventions, and apply grammatical structures",
+    "title": "Writing Skills From 'On Science Fiction'",
+    "text": "Writing skills from 'On Science Fiction' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activity where students engage in small-group conversations on thematic prompts from the text, practicing articulate expression, active listening, evidence-based",
+    "title": "Discussion Points On 'On Science Fiction'",
+    "text": "Discussion points on 'On Science Fiction' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -14193,16 +14141,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "A sports story is defined by its content — competitive athletic activity — whereas a science fiction sports story retains that content but places it against a scientifically",
      "The Industrial Revolution (c. 1800) made science fiction possible because it was the first time the rate of scientific and technological change became noticeable within a human"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''On Science Fiction' — the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the invention of the printing press\" or \"the Space Age\") reveals the student hasn't grasped Asimov's core causal link: *perceived rate of change* → *concept of a different future* → *science fiction*.",
     "id": "gen_c12_eng_k_ch19_q1",
     "nodeId": "c12_eng_k_cbse_19_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a sci-fi movie like \"Interstellar\" or \"The Martian\" — you know the science matters, but have you ever asked *when*",
-     "That's exactly where Asimov begins.",
-     "Start by asking: \"What makes a story science fiction rather than fantasy?\" Note your answer.",
-     "Then read Asimov's claim that science fiction couldn't exist before ~1800 because people didn't yet believe *science and technology* drive change."
+     "Start with the author of 'On Science Fiction', then the period, then the literary context — background turns a text from a puzzle into a story you"
     ]
    },
    {
@@ -14251,10 +14196,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_19_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a long WhatsApp forward that jumps between history, myth, and modern tech — you'd lose the thread.",
-     "Asimov avoids this by structuring his essay like a legal brief: first he defines the \"prescientific universe\" (myths/magic), then contrasts it with",
-     "Start by asking: \"What is the *thesis* Asimov wants to prove?\" (SF = background, not content).",
-     "Then trace how each section builds that thesis."
+     "Trace 'On Science Fiction' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -14314,10 +14256,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_19_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a science fiction movie — the setting isn't just the spaceship or alien planet; it's the *rules* of that universe (warp drive",
-     "Asimov does the same in this essay: he builds two \"universes\" — one ruled by gods and magic formulas, the other by unbreakable natural laws.",
-     "Start by asking: \"What are the *rules* of the prescientific universe Asimov describes in Section I?",
-     "Notice his tone — he speaks *with* you, not *at* you (\"Let's consider—\", \"We needn't sneer\")."
+     "Identify where and when 'On Science Fiction' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -14325,20 +14264,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the primary role Isaac Asimov adopts as the narrator-protagonist in the first section of the essay \"On Science Fiction\"?",
     "answer": "Asimov adopts the role of a historian of ideas who traces the evolution of human imagination from mythological explanations to scientific ones",
     "options": [
-     "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman)",
-     "Asimov distinguishes them by the governing system of their fictional universes: myths operate through gods/demons controlled by magical formulas (enchantments or prayers)",
+     "\"Science fiction is what it is, not through its content but through its background.\" A wrong answer (e",
+     "Irony in Asimov's essay is the contrast between what ancient myths presented as magical or divine (e",
      "Asimov adopts the role of a historian of ideas who traces the evolution of human imagination from mythological explanations to scientific ones"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'On Science' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"He acts as a fictional character\" or \"He tells a personal story\") reveals the student hasn't grasped that non-fiction protagonists are *authorial personae*, not invented characters, and that Asimov's \"I\" is a rhetorical construct serving an explanatory argument.",
     "id": "gen_c12_eng_k_ch19_q4",
     "nodeId": "c12_eng_k_cbse_19_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a blog post by a famous scientist explaining why their field matters — you instantly wonder: *Who is speaking?",
-     "Why should I trust them?",
-     "What's their angle?* That's exactly what we do with Asimov.",
-     "First, note the essay's two-part structure: Section I (\"The Prescientific Universe\") and Section II (\"The Universe of Science Fiction\")."
+     "Pick the central figure in 'On Science Fiction' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -14346,20 +14282,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List any three mythological creatures Asimov names in Section I and state the common principle he says underlies their creation.",
     "answer": "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman)",
     "options": [
-     "The two main sections are: (I) The Prescientific Universe — establishes myths/legends as emotional precursors to SF",
-     "The discourse marker is \"Let me explain the difference that makes.\" It functions as a *transition signal* announcing a shift from exemplification (sports/western/jungle stories)",
+     "Asimov adopts the role of a historian of ideas who traces the evolution of human imagination from mythological explanations to scientific ones",
+     "The student can identify at least three distinct facets of Asimov's authorial persona (e.g., historian, defender of genre boundaries, witty critic)",
      "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman)"
     ],
-    "hint": "Straight from the 'In a non-fiction essay like' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'On' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they represent gods\" or \"they are aliens\") reveals the student missed Asimov's explicit statement about imaginative limitation and combinatorial creativity.",
     "id": "gen_c12_eng_k_ch19_q5",
     "nodeId": "c12_eng_k_cbse_19_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're debating a friend who says \"Harry Potter is science fiction because it has invisible cloaks and flying brooms.",
-     "Start by asking: \"Who does Asimov call to the stand?\" First, scan the text for proper nouns and mythological names — Campbell, Holmes, Watson, Carr,",
-     "Next, for each, ask: \"What *job* is this figure doing in Asimov's argument?\" The priest/shaman *contrast* with the scientist to show how the *role*",
-     "The mythological hybrids *parallel* SF's aliens to show imagination's constraints."
+     "Spot the secondary figures in 'On Science Fiction' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -14430,10 +14363,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_19_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are explaining to a friend why \"Interstellar\" feels different from \"Harry Potter\" even though both have impossible things — one uses",
-     "That intuition is exactly what Asimov analyzes in this essay.",
-     "Start by asking: \"What makes a story science fiction rather than fantasy?\" Then read Section I to see how Asimov contrasts pre-scientific myths",
-     "Next, read Section II to see his definition of science fiction as a *background* (any society significantly different from ours) rather than a"
+     "Ask what 'On Science Fiction' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -14441,20 +14371,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the specific phrase Asimov uses in Section II to define what makes a story science fiction, distinguishing it from genres like \"sports story\" or \"Western story.\"",
     "answer": "\"Science fiction is what it is, not through its content but through its background.\" A wrong answer (e",
     "options": [
-     "Asimov adopts the role of a historian of ideas who traces the evolution of human imagination from mythological explanations to scientific ones",
-     "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman)",
+     "The student can identify at least three distinct secondary themes in the essay, trace each theme through specific textual evidence from both Section I and Section II",
+     "The student can identify at least four distinct supporting figures Asimov references, explain the specific rhetorical function each serves in advancing his argument about science",
+     "\"Neural-link fiction is what it is, not through its content but through its background.\" A wrong answer (e",
      "\"Science fiction is what it is, not through its content but through its background.\" A wrong answer (e"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'On Science' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"futuristic technology\" or \"space travel\") reveals the student is confusing *content* (what happens) with *background* (the societal/scientific setting), missing Asimov's central structural argument in Section II.",
     "id": "gen_c12_eng_k_ch19_q7",
     "nodeId": "c12_eng_k_cbse_19_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are explaining to a friend why *Star Wars* feels like a Western and a fairy tale at the same time.",
-     "You'd say: \"The *setting* is space (sci-fi), but the *story* is a farm boy rescuing a princess with a magic sword (fantasy/Western).",
-     "Start by re-reading Section II, paragraph 1 (\"Science fiction is a literary universe...\").",
-     "Ask: \"What does Asimov mean when he says a sports story on a space station is *still* a sports story *and* sci-fi?\" This reveals the Background vs."
+     "Look beneath the main theme of 'On Science Fiction' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -14462,20 +14390,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define imagery and metaphor in your own words, giving one example of each from everyday speech (not from the textbook).",
     "answer": "Imagery: descriptive language appealing to senses (e.g., \"the coffee's bitter aroma curled through the cold kitchen\" — olfactory/tactile)",
     "options": [
-     "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman)",
-     "Discourse markers (or discourse signalers) are words/phrases that connect ideas across paragraphs or sentences, guiding the reader through the logical flow",
+     "The student must be able to (1) distinguish between physical setting and conceptual setting in non-fiction",
+     "Students treat imagery and metaphor as *identification exercises* (\"Spot the metaphor in Para 3\") rather than *analytical tools*",
      "Imagery: descriptive language appealing to senses (e.g., \"the coffee's bitter aroma curled through the cold kitchen\" — olfactory/tactile)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'On Science Fiction'' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses metaphor with simile (\"Time is *like* a thief\") reveals the student misses the *identity* claim central to metaphor. A wrong answer listing only visual imagery (\"I saw a red car\") reveals a narrow sensory range.",
     "id": "gen_c12_eng_k_ch19_q8",
     "nodeId": "c12_eng_k_cbse_19_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are explaining to a friend why your phone feels like \"a magic wand\" — you just used a metaphor to make an abstract tech concept concrete.",
-     "Asimov does exactly this throughout his essay: he translates the abstract history of ideas into sensory experiences.",
-     "Start by scanning Section I for clusters of sensory words (winged horses, crystal balls, seven-league boots).",
-     "Ask: *Which sense does each target?* Then hunt for \"X is Y\" constructions that equate myths with proto-science-fiction."
+     "Find the lines in 'On Science Fiction' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -14483,20 +14408,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the specific irony Asimov highlights when he compares the \"crystal ball\" to \"television sets of today\"?",
     "answer": "The irony is that the crystal ball — a magical object requiring supernatural power to see distant events",
     "options": [
-     "The two main sections are: (I) The Prescientific Universe — establishes myths/legends as emotional precursors to SF",
-     "The discourse marker is \"Let me explain the difference that makes.\" It functions as a *transition signal* announcing a shift from exemplification (sports/western/jungle stories)",
+     "The student can explain why the Industrial Revolution marks the birth of true science fiction, distinguish between prescientific and scientific worldviews using Asimov's criteria",
+     "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman)",
      "The irony is that the crystal ball — a magical object requiring supernatural power to see distant events"
     ],
-    "hint": "Straight from the 'Irony in Asimov's essay' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'On Science' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both show pictures\") reveals the student sees only surface similarity, missing the irony that science has democratized what magic reserved for the chosen few.",
     "id": "gen_c12_eng_k_ch19_q9",
     "nodeId": "c12_eng_k_cbse_19_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a sci-fi movie where a character uses a \"communicator\" — you instantly recognize it as a symbol for a smartphone, and there's",
-     "Now open Asimov's essay: he makes the same move but in reverse, showing how ancient \"magic\" (crystal balls, flying carpets) were actually symbolic",
-     "Start by listing every magical object or creature Asimov mentions in Section I.",
-     "Next, match each to its modern scientific counterpart he explicitly or implicitly compares it to."
+     "Look in 'On Science Fiction' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -14505,19 +14427,16 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The phrase \"no mean size\" is a litotes (understatement) meaning \"very large\" or \"immense.\" A wrong answer like \"small\" or \"average\" reveals the student has missed the negative",
     "options": [
      "\"Science fiction is what it is, not through its content but through its background.\" A wrong answer (e",
-     "1. \"Nevertheless\" (start of para before Section II) — signals concession/contrast: acknowledging value in myths before narrowing the definition of science fiction",
+     "Students treat \"setting\" in non-fiction as *physical/historical context* (e.g., \"Asimov wrote this in the 20th century",
      "The phrase \"no mean size\" is a litotes (understatement) meaning \"very large\" or \"immense.\" A wrong answer like \"small\" or \"average\" reveals the student has missed the negative"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'On Science' slide -- match the key terms.",
     "misconception": "A wrong answer like \"small\" or \"average\" reveals the student has missed the negative construction \"no mean\" which cancels out the negative to affirm a positive quality, a common rhetorical device in formal English prose.",
     "id": "gen_c12_eng_k_ch19_q10",
     "nodeId": "c12_eng_k_cbse_19_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading Asimov's claim that \"science fiction is a literary universe of no mean size\" and you pause at \"no mean size\" — does it mean",
-     "Start by reading the paragraph aloud, noticing how \"no mean\" is a litotes (understatement) that actually emphasizes greatness.",
-     "Next, underline the target phrase and hunt for clues: the following sentences explain that science fiction encompasses *all* conceivable societies,",
-     "Then, test your inferred meaning by substituting \"vast\" or \"immense\" — the logic holds."
+     "Note the difficult or loaded words in 'On Science Fiction' — their meaning carries the text's precision."
     ]
    },
    {
@@ -14566,10 +14485,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_19_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are writing a formal essay for your CUET English paper and need to sound authoritative yet precise — just like Asimov does when he argues",
-     "Today we will dissect exactly how he uses transitive verbs, passive constructions, and that-clauses to build that authority.",
-     "First, we locate every verb in a paragraph and ask: \"Does it take an object?",
-     "Can it be passivized?"
+     "Read 'On Science Fiction' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -14581,16 +14497,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "\"Prescientific\" means \"before science existed\" (temporal), describing an era when myths governed understanding",
      "The fundamental difference is that myths/legends depict a universe controlled by gods/demons who can be manipulated by magical formulas (enchantments or prayers)"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'On' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"myths are old, science fiction is new\") reveals the student cannot distinguish the author's explicit conceptual contrast from superficial temporal differences.",
     "id": "gen_c12_eng_k_ch19_q12",
     "nodeId": "c12_eng_k_cbse_19_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE exam hall and see a question: \"Why does Asimov say myths fulfil the same emotional needs as science fiction?",
-     "Start by reading the question stem carefully: words like 'according to the author', 'stated in the text' signal literal; words like 'why', 'how does",
-     "For literal questions, scan the text for keywords (e.g., 'emotional needs', 'myths', 'science fiction') and copy/paraphrase the exact sentence.",
-     "For inferential questions, locate the relevant paragraph, identify 2-3 pieces of evidence, and explain the logical link the author makes."
+     "Answer 'On Science Fiction' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -14650,10 +14563,8 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_19_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a sci-fi novel where humans colonize Mars using technology that doesn't exist yet — you accept it because the story",
-     "Now ask: why does this feel different from a fantasy novel where magic works without rules?",
-     "That's exactly Asimov's central question.",
-     "Begin by identifying his two main sections: the \"prescientific universe\" (myths) and the \"universe of science fiction."
+     "Analyse 'On Science Fiction' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -14713,10 +14624,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_19_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"How is science fiction different from fantasy?\" — a common Class 12 board question.",
-     "You know Asimov's essay says science fiction uses \"impersonal laws of nature\" while myths use \"gods and demons,\" but you freeze when structuring the",
-     "Start by identifying the core comparison point (background universe).",
-     "Next, find two quotes: one about science fiction's validity (\"Universe does follow the dictates of the laws of nature\") and one about myths"
+     "For written answers on 'On Science Fiction', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -14728,16 +14636,13 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "\"Asimov draws a striking parallel: both ancient myths and modern science fiction satisfy our 'longing for wonder' by depicting 'life as we don't know it",
      "No. Asimov explicitly states myths are \"the equivalent of science fiction set in another kind of Universe"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'On Science' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student misses Asimov's nuanced parallel: both fulfill the same emotional need for wonder, differing only in their explanatory framework (magic vs. natural law).",
     "id": "gen_c12_eng_k_ch19_q15",
     "nodeId": "c12_eng_k_cbse_19_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a CUET group discussion round where the prompt is: \"Science fiction predicts future technology — discuss with examples from",
-     "Start by recalling Asimov's distinction between myth (gods/magic) and science fiction (natural laws).",
-     "Jot down 2-3 textual anchors: \"crystal ball → television\", \"seven-league boots → automobile\", \"winged horses → jet planes\".",
-     "In the discussion, open with: \"Asimov argues that myths fulfilled the same wonder-need as sci-fi but through magic; sci-fi uses extrapolation of"
+     "Talk through 'On Science Fiction' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -14799,23 +14704,23 @@ export const C12_ENG_K_GEN: SimDef[] = [
    },
    {
     "type": "order",
-    "question": "Write a 3-sentence paragraph arguing whether mythological fiction deserves the same respect as science fiction, using at least two different verbs that license that-clauses (e.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Coherent argument with logical connectors",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "One well-formed passive with a text-relevant",
+      "label": "identify how Asimov constructs",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
+      "id": "s1",
+      "label": "explain how his conversational yet",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
       "id": "s2",
-      "label": "Two distinct that-clause verbs correctly",
+      "label": "distinguish between physical setting",
       "emoji": "📌",
       "correctBin": "o0"
      }
@@ -14838,46 +14743,90 @@ export const C12_ENG_K_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer using \"think that\" (informal), missing passive, or misusing \"fulfil\" as intransitive reveals incomplete mastery of verb complementation patterns and register control.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) distinguish between physical setting and conceptual setting in non-fiction, (2)",
     "id": "gen_c12_eng_k_ch19_q17",
-    "nodeId": "c12_eng_k_cbse_19_011",
+    "nodeId": "c12_eng_k_cbse_19_003",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Analyse why John W. Campbell believed a science fiction mystery was \"impossible\" to write fairly. Then evaluate Asimov's counter-argument: what *specific condition* must the writer meet to make a sci-fi mystery fair, and how does this mirror the rules of a classical mystery?",
-    "answer": "Campbell feared writers would invent arbitrary new rules (e.g., a \"pocket-frannistan\" with \"Q-rays\") mid-story to solve the puzzle",
-    "options": [
-     "Asimov argues that a science fiction mystery is fair if the writer establishes clear \"boundary conditions\"",
-     "Asimov argues that a science fiction mystery can be fair if the writer explicitly establishes the \"boundary conditions\" of the imaginary society (what technology/magic can and",
-     "Campbell feared writers would invent arbitrary new rules (e.g., a \"pocket-frannistan\" with \"Q-rays\") mid-story to solve the puzzle"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "convert active sentences to passive",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain how Asimov's syntactic choices",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish verbs that license that-clauses",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "identify and classify all transitive verb",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Campbell feared writers would invent arbitrary new rules (e.g., a \"pocket-frannistan\" with \"Q-rays\") mid-story to solve",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify and classify all transitive verb constructions in a given excerpt from the",
     "id": "gen_c12_eng_k_ch19_q18",
-    "nodeId": "c12_eng_k_cbse_19_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_k_cbse_19_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'on science fiction' — the context and background to?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'On Science Fiction' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch20",
-  "title": "Before You Read: Context and Background",
+  "title": "'s Devotion But From Selfless Love",
   "subtitle": "English · Chapter 20",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch20: Before You Read: Context and Background"],
+  "topic": "'s Devotion But From Selfless Love",
+  "chapters": [
+   "English Ch20: 's Devotion But From Selfless Love"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_20_001",
    "c12_eng_k_cbse_20_002",
@@ -14902,103 +14851,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 's Devotion But From Selfless Love suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" provides the essential historical, social, literary, and biographical framework needed to understand"
+   "hook": "'s devotion but from selfless love that respects the other' (Kaleidoscope, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" provides the essential historical, social, literary, and biographical framework needed to understand Tagore's *Chandalika* — a one-act drama adapted from a Buddhist legend that transforms a tale of magic and lust into",
+    "title": "'s Devotion But From Selfless Love",
+    "text": "'s devotion but from selfless love that respects the other' (Kaleidoscope, ch. 20) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot is the sequence of causally linked events that form the story of a drama; narrative structure is the organizational framework (acts, scenes, devices like mirror, songs, chorus) that shapes how the plot unfolds on stage, controlling pacing, tension, and",
+    "title": "Plot/narrative Arc Of 's Devotion",
+    "text": "The plot/narrative arc of 's devotion but from selfless love that respects the other' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting In Drama",
-    "text": "Setting in drama refers to the time, place, and social environment where the action unfolds, while atmosphere is the emotional mood or feeling created through stage directions, dialogue, imagery, and sensory details that immerses the audience in the world of",
+    "title": "Setting Of 's Devotion But",
+    "text": "The setting of 's devotion but from selfless love that respects the other' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a drama involves examining the central character's traits, motivations, conflicts, and transformation through their dialogue, actions, stage directions, and interactions with other characters, to understand how they",
+    "title": "Character Analysis In 's Devotion But",
+    "text": "Character analysis in 's devotion but from selfless love that respects the other' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Supporting Characters In Drama",
-    "text": "Supporting characters in drama are secondary figures who interact with the protagonist to advance the plot, highlight the protagonist's traits through contrast or parallel, and embody thematic conflicts.",
+    "title": "Supporting Characters In 's Devotion But",
+    "text": "Supporting characters in 's devotion but from selfless love that respects the other' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of a Drama",
-    "text": "The primary theme of a drama is the central, unifying idea or insight about human experience that the playwright explores through plot, character, dialogue, and dramatic action; the message is the specific moral, philosophical, or social commentary the work",
+    "title": "Primary Theme Of 's Devotion",
+    "text": "The primary theme of 's devotion but from selfless love that respects the other' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the subordinate ideas or motifs that run alongside the primary theme in a literary work, enriching the narrative by exploring complementary aspects of human experience, society, or philosophy.",
+    "title": "Secondary Themes In 's Devotion But",
+    "text": "Secondary themes in 's devotion but from selfless love that respects the other' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) and internal sensations to create mental pictures and emotional resonance.",
+    "title": "Imagery In 's Devotion But",
+    "text": "Imagery in 's devotion but from selfless love that respects the other' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony In Drama",
-    "text": "Irony in drama is a contrast between expectation and reality, often revealing deeper truths about characters or society; symbolism uses concrete objects, actions, or characters to represent abstract ideas, emotions, or themes.",
+    "title": "Irony And Paradox In 's Devotion",
+    "text": "Irony and paradox in 's devotion but from selfless love that respects the other' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of words as they are used within a specific literary text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 's Devotion But",
+    "text": "Key vocabulary of 's devotion but from selfless love that respects the other' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of syntactic structures, sentence patterns, verb moods, pronoun choices, and rhetorical devices in a dramatic script to reveal character psychology, thematic concerns, and dramatic tension.",
+    "title": "Language And Style In 's Devotion",
+    "text": "Language and style in 's devotion but from selfless love that respects the other' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (who, what, where, when), while inferential comprehension questions demand that students draw logical conclusions by combining textual clues with their own",
+    "title": "Literal Comprehension Of 's Devotion But",
+    "text": "Literal comprehension of 's devotion but from selfless love that respects the other' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis refers to the disciplined process of actively examining, questioning, and evaluating a dramatic text to uncover deeper meanings, assess authorial choices, and form evidence-based interpretations that go beyond",
+    "title": "Critical Thinking On 's Devotion But",
+    "text": "Critical thinking on 's devotion but from selfless love that respects the other' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Writing Skills For Chandalika",
-    "text": "Writing skills for *Chandalika* refer to the ability to compose structured, evidence-based analytical responses that examine the drama's themes (caste, self-realisation, desire vs.",
+    "title": "Writing Skills From 's Devotion But",
+    "text": "Writing skills from 's devotion but from selfless love that respects the other' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students engage in guided conversations about the play \"Chandalika\", analyzing its themes (caste discrimination, self-worth, spiritual conflict), characters (Prakriti,",
+    "title": "Discussion Points On 's Devotion But",
+    "text": "Discussion points on 's devotion but from selfless love that respects the other' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -15009,20 +14958,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the source legend of *Chandalika*, and how does Tagore explicitly describe his transformation of it in the Introduction?",
     "answer": "The source is a Buddhist legend where Ananda, Buddha's disciple, asks water from a *chandalika*; her mother uses magic to summon him, but Buddha breaks the spell",
     "options": [
+     "The student can identify at least two distinct types of irony (situational, dramatic, verbal) and two major symbols in *Chandalika*, explain how each operates in specific scenes",
      "The inciting incident is Ananda's request for water at the well, where he treats Prakriti as an equal human being (\"As I am a human being, so also are you\")",
-     "The three primary physical settings in Act I are: (1) The well — a liminal space where caste boundaries are both enforced (other girls leave",
      "The source is a Buddhist legend where Ananda, Buddha's disciple, asks water from a *chandalika*; her mother uses magic to summon him, but Buddha breaks the spell"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''s devotion but from selfless love' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It's a story about a witch and a monk\") reveals the student hasn't read the Introduction or confuses the original legend's supernatural frame with Tagore's psychological reimagining.",
     "id": "gen_c12_eng_k_ch20_q1",
     "nodeId": "c12_eng_k_cbse_20_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a play where a monk asks an \"untouchable\" girl for water — a simple act that shatters 2,000 years of social",
-     "Before the curtain rises, you need to know: Who wrote this?",
-     "Why did a Nobel laureate choose a Buddhist legend?",
-     "What was the real life of a *chandalika* in ancient India?"
+     "Start with the author of 's devotion but from selfless love that respects the other', then the period, then the literary context — background turns a"
     ]
    },
    {
@@ -15030,20 +14976,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the inciting incident in *Chandalika*, and why does it disrupt Prakriti's equilibrium?",
     "answer": "The inciting incident is Ananda's request for water at the well, where he treats Prakriti as an equal human being (\"As I am a human being, so also are you\")",
     "options": [
-     "Situational irony occurs when actions produce an outcome opposite to what was intended. In Act I, Prakriti intends to honour Ananda by offering him water",
-     "The dramatic irony is that Prakriti interprets Ananda's request for water as a personal call and promise of return (\"his word was given\"), while Ananda, as a detached bhikshu",
+     "The student can identify at least three secondary themes in Chandalika, support each with textual evidence (dialogue, action, imagery)",
+     "Student can write a 150–200 word board-exam long answer on *Chandalika* that: (1) opens with a clear thesis addressing the question",
      "The inciting incident is Ananda's request for water at the well, where he treats Prakriti as an equal human being (\"As I am a human being, so also are you\")"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 's devotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the mother's spell\" or \"Prakriti's song\") reveals the student confuses the inciting incident with later rising-action events or symbolic moments.",
     "id": "gen_c12_eng_k_ch20_q2",
     "nodeId": "c12_eng_k_cbse_20_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing a movie to a friend in five sentences: \"First this happens, then this, then the big moment, then things settle, finally",
-     "Start by reading Act I and Act II summaries side-by-side, then mark the moment Prakriti meets Ananda at the well — that is the inciting incident.",
-     "Trace how her growing obsession drives the rising action through the mother's reluctance, the spell-casting, and the fifteen-day wait.",
-     "The climax is not Ananda's arrival but Prakriti's horrified realization when she sees his broken form in the mirror."
+     "Trace 's devotion but from selfless love that respects the other' from opening to close: how it starts, how events/images build, where it lands — the"
     ]
    },
    {
@@ -15092,10 +15035,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_20_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in a dark theatre and the lights come up on a single well under a blazing noon sun — no elaborate sets, just that well and a",
-     "That's how Chandalika begins: a minimalist stage where setting IS the story.",
-     "Start by mapping the physical locations mentioned in the text (well, courtyard, road, river, monastery) and notice how each carries symbolic weight.",
-     "Then track the temporal movement: the play compresses a spiritual crisis into roughly three weeks, moving from the scorching Vaisakh noon to the"
+     "Identify where and when 's devotion but from selfless love that respects the other' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -15103,20 +15043,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the exact words Ananda speaks to Prakriti at the well that trigger her \"new birth\"?",
     "answer": "Ananda says: \"As I am a human being, so also are you, and all water is clean and holy that cools our heat and satisfies our thirst",
     "options": [
-     "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
-     "The inciting incident is Ananda's request for water at the well, where he treats Prakriti as an equal human being (\"As I am a human being, so also are you\")",
+     "Students treat Ananda as a \"love interest\" or romantic lead because Prakriti desires him",
+     "Situational irony occurs when actions produce an outcome opposite to what was intended. In Act I, Prakriti intends to honour Ananda by offering him water",
      "Ananda says: \"As I am a human being, so also are you, and all water is clean and holy that cools our heat and satisfies our thirst"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 's devotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Give me water\" or \"You are pure\") reveals the student confuses the *request* with the *revelation* — the request is ordinary; the revelation is the philosophical equality that dismantles caste pollution.",
     "id": "gen_c12_eng_k_ch20_q4",
     "nodeId": "c12_eng_k_cbse_20_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a director casting the role of Prakriti — you need to understand her emotional graph from the opening scene where she sits by the",
-     "Start by listing every time Prakriti speaks or acts in Act I: her conversation with Mother, her song, her demand for the spell.",
-     "Then do the same for Act II: her dance, mirror-watching, final plea.",
-     "Notice how her language shifts from \"I am a chandalini\" to \"I am no slave; plenty of chandals are born of Brahmin families."
+     "Pick the central figure in 's devotion but from selfless love that respects the other' — track their actions, words and choices to see who they"
     ]
    },
    {
@@ -15124,20 +15061,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the Mother's immediate reaction when Prakriti tells her about Ananda accepting water from her hands in Act I?",
     "answer": "The Mother reacts with alarm and warns Prakriti of dire consequences: \"O, you stupid girl, how could you be so reckless?",
     "options": [
-     "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
-     "The dramatic irony is that Prakriti interprets Ananda's request for water as a personal call and promise of return (\"his word was given\"), while Ananda, as a detached bhikshu",
+     "The three primary physical settings in Act I are: (1) The well — a liminal space where caste boundaries are both enforced (other girls leave",
+     "Student can independently analyze how each supporting character's dialogue, actions, and relationship with Prakriti reveal specific thematic tensions (caste vs",
      "The Mother reacts with alarm and warns Prakriti of dire consequences: \"O, you stupid girl, how could you be so reckless?"
     ],
-    "hint": "Straight from the 'Supporting characters in drama' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"She is happy for her daughter\") reveals the student misses the Mother's internalization of caste hierarchy — she views Prakriti's new birth as a \"spell\" that might make a \"changeling of the very soul.\"",
     "id": "gen_c12_eng_k_ch20_q5",
     "nodeId": "c12_eng_k_cbse_20_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're directing a stage production of *Chandalika* — you need to explain to the actors playing Mother and Ananda *why* their characters",
-     "What if Ananda had smiled at her?\" This reveals their dramatic function: Mother externalizes societal conditioning (fear of pollution, acceptance of",
-     "Guide students to track three beats for each character: (1) First response to Prakriti's change, (2) Conflict escalation, (3) Resolution/death.",
-     "Connect each beat to a thematic keyword: Mother → \"protection/sacrifice\", Ananda → \"catalyst/mirror\"."
+     "Spot the secondary figures in 's devotion but from selfless love that respects the other' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -15145,20 +15079,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the single catalytic event in Act I that triggers Prakriti's \"new birth,\" and what exact words does Ananda speak that constitute this catalyst?",
     "answer": "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
     "options": [
-     "In the play, \"chandalini\" is not merely a caste label; it is a social stigma that Prakriti initially internalizes (\"I am a chandalini",
      "The three primary physical settings in Act I are: (1) The well — a liminal space where caste boundaries are both enforced (other girls leave",
+     "Ananda says: \"As I am a human being, so also are you, and all water is clean and holy that cools our heat and satisfies our thirst",
      "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you"
     ],
-    "hint": "Straight from the 'primary theme of a drama' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 's devotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Ananda blesses her\" or \"Ananda teaches her Buddhism\") reveals the student confuses the *legend's* plot (where Ananda is spell-bound) with *Tagore's* dramatic transformation — in the play, Ananda simply treats her as human and walks away; the psychological drama begins *after* he leaves.",
     "id": "gen_c12_eng_k_ch20_q6",
     "nodeId": "c12_eng_k_cbse_20_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in the board exam: \"How does Tagore transform a Buddhist legend into a psychological drama about self-realisation?",
-     "Trace how this \"new birth\" evolves: first as empowering self-awareness, then as possessive obsession when she demands his love, and finally as mature",
-     "The theme isn't just \"caste is bad\" — it's about how consciousness, once awakened, must learn restraint through suffering.",
-     "Your answer must show this arc with three precise textual anchors: the well scene, the spell-casting, and the mirror vision."
+     "Ask what 's devotion but from selfless love that respects the other' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -15166,20 +15097,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is a secondary theme in literature, and how does it differ from the primary theme?",
     "answer": "A secondary theme is a subordinate idea that supports or complements the primary theme, exploring additional dimensions of the story",
     "options": [
-     "Ananda says: \"As I am a human being, so also are you, and all water is clean and holy that cools our heat and satisfies our thirst",
-     "The Mother reacts with alarm and warns Prakriti of dire consequences: \"O, you stupid girl, how could you be so reckless?",
+     "The student can identify at least three secondary themes in Chandalika, support each with textual evidence (dialogue, action, imagery)",
+     "Supporting characters in drama are secondary figures who interact with the protagonist to advance the plot, highlight the protagonist's traits through contrast or parallel",
      "A secondary theme is a subordinate idea that supports or complements the primary theme, exploring additional dimensions of the story"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 's devotion' slide -- match the key terms.",
     "misconception": "A wrong answer that equates them or says secondary themes are unrelated reveals the student doesn't understand thematic hierarchy.",
     "id": "gen_c12_eng_k_ch20_q7",
     "nodeId": "c12_eng_k_cbse_20_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a play where the main story is about a girl breaking caste barriers, but you notice other threads: a mother's sacrifice, a",
-     "These threads are secondary themes.",
-     "To find them, first recall the primary theme (Prakriti's awakening and overreach).",
-     "Then, look for recurring concerns that are not the central message but deepen it: caste oppression, spiritual vs."
+     "Look beneath the main theme of 's devotion but from selfless love that respects the other' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -15187,19 +15115,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define \"imagery\" and \"metaphor\" in your own words, and give one example of each from *Chandalika* Act I.",
     "answer": "Imagery: language appealing to senses (e.g., \"the very crows on the amloki branches are gasping for heat\" — auditory/visual)",
     "options": [
-     "The three primary physical settings in Act I are: (1) The well — a liminal space where caste boundaries are both enforced (other girls leave",
-     "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
+     "Speaking and Listening: Discussion Points refers to structured oral activities where students engage in guided conversations about the play \"Chandalika\"",
+     "\"Before You Read: Context and Background\" provides the essential historical, social, literary, and biographical framework needed to understand Tagore's *Chandalika*",
      "Imagery: language appealing to senses (e.g., \"the very crows on the amloki branches are gasping for heat\" — auditory/visual)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 's devotion but' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"imagery is just pictures\" reveals confusion between mental images and the linguistic device; a wrong answer that calls \"Give me water\" a metaphor reveals inability to distinguish literal speech from figurative language.",
     "id": "gen_c12_eng_k_ch20_q8",
     "nodeId": "c12_eng_k_cbse_20_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Think of a time you described a heartbreak not as \"I was sad\" but as \"my chest was a hollow cave where wind howled.",
-     "Begin by reading Act I aloud, circling every word that triggers a sensory response: the \"blistering sun,\" \"crows gasping,\" \"cupped hands,\"",
-     "The key insight is that in *Chandalika*, imagery is never decorative; every sensory detail either reinforces Prakriti's caste oppression (heat, dust,"
+     "Find the lines in 's devotion but from selfless love that respects the other' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -15207,20 +15133,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from *Chandalika* Act I where the outcome contradicts the character’s intention.",
     "answer": "Situational irony occurs when actions produce an outcome opposite to what was intended. In Act I, Prakriti intends to honour Ananda by offering him water",
     "options": [
-     "The dramatic irony is that Prakriti interprets Ananda's request for water as a personal call and promise of return (\"his word was given\"), while Ananda, as a detached bhikshu",
-     "The source is a Buddhist legend where Ananda, Buddha's disciple, asks water from a *chandalika*; her mother uses magic to summon him, but Buddha breaks the spell",
+     "The student can identify the primary theme of *Chandalika* with textual evidence, trace its development across both acts",
+     "The student can independently identify 10-15 key words from *Chandalika*, explain their contextual meaning with textual evidence",
      "Situational irony occurs when actions produce an outcome opposite to what was intended. In Act I, Prakriti intends to honour Ananda by offering him water"
     ],
-    "hint": "Straight from the 'Irony in drama' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 's devotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it “bad luck” or “coincidence”) shows the student confuses irony with mere misfortune and misses the structural contrast between intention and result.",
     "id": "gen_c12_eng_k_ch20_q9",
     "nodeId": "c12_eng_k_cbse_20_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a scene where Prakriti, an “untouchable” girl, finally feels worthy because a monk accepts water from her hands — yet that",
-     "Ask yourself: *Why does the moment of empowerment become a trap?* That tension is irony.",
-     "Next, notice how water, fire, and a magic mirror keep reappearing at crucial turning points.",
-     "These are not mere props; they are symbols carrying the play’s emotional and philosophical weight."
+     "Look in 's devotion but from selfless love that respects the other' for moments where the surface meaning hides a deeper opposite — that's"
     ]
    },
    {
@@ -15228,20 +15151,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define the term \"chandalini\" as used in *Chandalika*. How does its meaning differ from a standard dictionary definition of \"untouchable woman\"?",
     "answer": "In the play, \"chandalini\" is not merely a caste label; it is a social stigma that Prakriti initially internalizes (\"I am a chandalini",
     "options": [
-     "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
-     "The source is a Buddhist legend where Ananda, Buddha's disciple, asks water from a *chandalika*; her mother uses magic to summon him, but Buddha breaks the spell",
+     "The student can identify at least three secondary themes in Chandalika, support each with textual evidence (dialogue, action, imagery)",
+     "Student can write a 150–200 word board-exam long answer on *Chandalika* that: (1) opens with a clear thesis addressing the question",
      "In the play, \"chandalini\" is not merely a caste label; it is a social stigma that Prakriti initially internalizes (\"I am a chandalini"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 's devotion but' slide -- match the key terms.",
     "misconception": "A wrong answer would treat it as a fixed noun of identity, missing Tagore's central argument that caste is a mental construct, not a biological fact.",
     "id": "gen_c12_eng_k_ch20_q10",
     "nodeId": "c12_eng_k_cbse_20_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading Act I and encounter Prakriti saying, \"He said it wasn't true.",
-     "If the black clouds of Sravana are dubbed chandal, he said, what of it?",
-     "It doesn't change their nature, or destroy the virtue of their water.\" You pause at \"dubbed\" and \"virtue\" — words you know, but here they carry a",
-     "Start by circling every word that feels charged or unfamiliar."
+     "Note the difficult or loaded words in 's devotion but from selfless love that respects the other' — their meaning carries the text's precision."
     ]
    },
    {
@@ -15249,20 +15169,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the sentence type of Prakriti's line: \"Give me water, give me water.\" (Act I) Is it declarative, interrogative, imperative, or exclamatory?",
     "answer": "Imperative. The line is a direct command/request addressed to the monk, repeated for emotional intensity",
     "options": [
-     "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
      "The dramatic irony is that Prakriti interprets Ananda's request for water as a personal call and promise of return (\"his word was given\"), while Ananda, as a detached bhikshu",
+     "Students treat Ananda as a \"love interest\" or romantic lead because Prakriti desires him",
      "Imperative. The line is a direct command/request addressed to the monk, repeated for emotional intensity"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 's devotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., declarative) shows the student confuses sentence function with form; they may think repetition makes it a statement rather than a persistent demand.",
     "id": "gen_c12_eng_k_ch20_q11",
     "nodeId": "c12_eng_k_cbse_20_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a director rehearsing *Chandalika*: you notice Prakriti's lines start with hesitant questions (\"What call is that?",
-     "That shift from interrogative to imperative mirrors her journey from self-doubt to agency.",
-     "Begin by reading Act I aloud, marking every sentence-end punctuation.",
-     "Group sentences by speaker and type."
+     "Read 's devotion but from selfless love that respects the other' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -15270,20 +15187,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify whether the following question is literal or inferential: \"What does Prakriti's mother fear will happen if she works a spell on Ananda?\"",
     "answer": "This is a literal question because the answer is directly stated in the text: Mother says, \"I shudder even to think of it... they do nothing\" and \"it would be playing with fire\"",
     "options": [
+     "The student can identify at least three distinct grammatical patterns in the play (e.g., Prakriti's shift from interrogatives to imperatives",
      "The inciting incident is Ananda's request for water at the well, where he treats Prakriti as an equal human being (\"As I am a human being, so also are you\")",
-     "The catalytic event is Ananda asking Prakriti for water at the well. His exact words are: \"As I am a human being, so also are you",
      "This is a literal question because the answer is directly stated in the text: Mother says, \"I shudder even to think of it... they do nothing\" and \"it would be playing with fire\""
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it inferential) shows the student confuses explicit dialogue with implied meaning, indicating they cannot distinguish surface-level retrieval from deeper deduction.",
     "id": "gen_c12_eng_k_ch20_q12",
     "nodeId": "c12_eng_k_cbse_20_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and the first comprehension question asks: \"Why does Prakriti say her caste was drowned in the water she",
-     "Start by reading the question stem carefully — circle keywords like \"why\", \"how\", \"what does ... suggest\".",
-     "For literal questions, scan the text for those keywords and copy the relevant sentence.",
-     "For inferential questions, ask yourself: \"What does the text show me that it doesn't explicitly say?"
+     "Answer 's devotion but from selfless love that respects the other' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -15343,31 +15257,57 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_20_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching Chandalika performed on stage: Prakriti sits by the well, the Mother chants spells, a mirror reflects a monk's agony miles",
-     "Ask yourself: \"Why does Tagore make us *see* Ananda's suffering through a mirror instead of showing him directly?",
-     "Next, trace how three dramatic devices (the well water, the magic mirror, the Mother's death) externalize internal conflict.",
-     "Then examine how Tagore subverts the Buddhist legend: the original tale condemns the chandal girl's lust, but Tagore reframes it as a tragedy of"
+     "Analyse 's devotion but from selfless love that respects the other' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Identify the four components of the PEEL structure used for writing analytical answers in Class 12 English.",
-    "answer": "PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or reference), Explanation (analysis of how the evidence supports the point)",
-    "options": [
-     "The inciting incident is Ananda's request for water at the well, where he treats Prakriti as an equal human being (\"As I am a human being, so also are you\")",
-     "The three primary physical settings in Act I are: (1) The well — a liminal space where caste boundaries are both enforced (other girls leave",
-     "PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or reference), Explanation (analysis of how the evidence supports the point)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "embeds at least two specific textual",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explains how each reference supports",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "opens with a clear thesis addressing",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Writing skills for *Chandalika*' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists \"Plot, Event, Emotion, Lesson\" reveals the student confuses PEEL with narrative summary and does not understand the analytical function of each component.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can write a 150–200 word board-exam long answer on *Chandalika* that: (1) opens with a clear thesis addressing",
     "id": "gen_c12_eng_k_ch20_q14",
     "nodeId": "c12_eng_k_cbse_20_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you face this board question: *\"How does Tagore use the mirror as a dramatic device to reveal Prakriti’s inner turmoil?",
-     "Begin by circling the keywords: *mirror*, *dramatic device*, *Prakriti’s inner turmoil*.",
-     "Next, recall the two mirror scenes (Act I: Mother gives Prakriti the mirror; Act II: Prakriti watches Ananda’s suffering).",
-     "Select one vivid piece of evidence from each scene — e.g., Prakriti’s description of the *\"mist covering the whole sky."
+     "For written answers on 's devotion but from selfless love that respects the other', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -15427,10 +15367,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_20_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a college seminar where everyone has read \"Chandalika\" and the professor asks: \"Why does Prakriti's 'new birth' lead to tragedy?",
-     "Start by recalling a key moment — Prakriti giving water to Ananda — and note the exact words she uses.",
-     "Then, connect that moment to the theme of self-worth versus social conditioning.",
-     "Listen to a classmate's point about the mother's magic, and instead of just agreeing, ask: \"Does the mother's death redeem Prakriti or deepen her"
+     "Talk through 's devotion but from selfless love that respects the other' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -15499,7 +15436,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "The claim is partially true but oversimplified. Prakriti’s \"Victory\" acknowledges Ananda’s spiritual triumph, yet her preceding lines",
      "\"Prakriti\" (Sanskrit: प्रकृति) means \"nature,\" \"primordial matter,\" \"the creative feminine principle\""
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''s devotion but from selfless love' slide -- match the key terms.",
     "misconception": "A wrong answer (\"it just means nature\") fails to see the philosophical architecture: the play enacts the Samkhya drama of Prakriti binding Purusha, here reimagined as caste-liberation turning into spiritual violation.",
     "id": "gen_c12_eng_k_ch20_q17",
     "nodeId": "c12_eng_k_cbse_20_001",
@@ -15514,7 +15451,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
      "Exposition: Prakriti, an untouchable girl, lives with her mother near a well, bound by caste oppression",
      "*A monk treats an untouchable girl as human for the first time, and she discovers she has a soul"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''s devotion but from selfless love' slide -- match the key terms.",
     "misconception": "A poor answer includes plot mechanics (\"her mother casts a spell\") or reduces it to \"caste discrimination play\" — missing the *internal* tragedy: the liberated self's inability to love without grasping.",
     "id": "gen_c12_eng_k_ch20_q18",
     "nodeId": "c12_eng_k_cbse_20_001",
@@ -15523,23 +15460,25 @@ export const C12_ENG_K_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 's devotion but from selfless love?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'s Devotion But From Selfless mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_k_ch21",
-  "title": "Before You Read: Context and Background",
+  "title": "'Broken Images' — The Context And Background",
   "subtitle": "English · Chapter 21",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch21: Before You Read: Context and Background"],
+  "topic": "'Broken Images' — The Context And Background To This",
+  "chapters": [
+   "English Ch21: 'Broken Images' — The Context And Background To This"
+  ],
   "nodeIds": [
    "c12_eng_k_cbse_21_001",
    "c12_eng_k_cbse_21_002",
@@ -15564,103 +15503,103 @@ export const C12_ENG_K_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'Broken Images' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory section that equips students with essential knowledge about the playwright Girish Karnad,"
+   "hook": "'Broken Images' (Kaleidoscope, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory section that equips students with essential knowledge about the playwright Girish Karnad, the epigraph from T.",
+    "text": "'Broken Images' (Kaleidoscope, ch. 21) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Text: Plot and Narrative Structure",
-    "text": "Plot and narrative structure in \"Broken Images\" refers to the deliberate arrangement of events and the structural devices (monologue turning into dialogue, the TV studio frame, the on-screen Image) that Girish Karnad uses to externalize the protagonist's",
+    "title": "Plot/narrative Arc Of 'Broken Images'",
+    "text": "The plot/narrative arc of 'Broken Images' — what happens, in what order, and why the sequence matters.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting In Drama",
-    "text": "Setting in drama refers to the time, place, and physical environment where the action unfolds, including stage props, lighting, and spatial arrangement.",
+    "title": "Setting Of 'Broken Images'",
+    "text": "The setting of 'Broken Images' — the place, time and atmosphere the text creates.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of a Protagonist",
-    "text": "Character analysis of a protagonist in drama involves examining the central character's personality traits, motivations, internal conflicts, and development through their dialogue, actions, stage directions, and interactions with dramatic devices (like the",
+    "title": "Character Analysis In 'Broken Images'",
+    "text": "Character analysis in 'Broken Images' — the central figure(s), their traits, and how they develop.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining their traits, motivations, relationships, and dramatic functions — even when they are absent from the stage — to understand how they shape the protagonist's journey and the play's central themes.",
+    "title": "Supporting Characters In 'Broken Images'",
+    "text": "Supporting characters in 'Broken Images' — the secondary figures who move the story forward.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or message that the author conveys through the narrative, characters, and dramatic structure.",
+    "title": "Primary Theme Of 'Broken Images'",
+    "text": "The primary theme of 'Broken Images' — the central idea the whole text returns to.",
     "emoji": "📗",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes In a Literary Work",
-    "text": "Secondary themes in a literary work are the subordinate but significant thematic strands that run parallel to the primary theme, enriching the text by exploring complementary human experiences, social issues, or philosophical questions.",
+    "title": "Secondary Themes In 'Broken Images'",
+    "text": "Secondary themes in 'Broken Images' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the audience.",
+    "title": "Imagery In 'Broken Images'",
+    "text": "Imagery in 'Broken Images' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📗",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Irony In *Broken Images*",
-    "text": "Irony in *Broken Images* is a literary device where the intended meaning of words or situations contrasts sharply with their literal or apparent meaning, revealing hidden truths about Manjula's identity, language politics, and self-deception.",
+    "title": "Irony And Paradox In 'Broken Images' —",
+    "text": "Irony and paradox in 'Broken Images' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the ability to determine the meaning, connotation, and usage of specific words and phrases as they appear within the dramatic text of \"Broken Images,\" using surrounding dialogue, stage directions, and thematic resonance rather",
+    "title": "Key Vocabulary Of 'Broken Images'",
+    "text": "Key vocabulary of 'Broken Images' — the words and phrases you must know to read the text well.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the specific grammatical patterns, syntactic choices, register variations, and stylistic features that Girish Karnad employs in *Broken Images* to characterize Manjula, differentiate her public persona from her private",
+    "title": "Language And Style In 'Broken Images'",
+    "text": "Language and style in 'Broken Images' — how the writer chose words, sentences and tone.",
     "emoji": "📗",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated information from the text (who, what, where, when), while inferential comprehension questions demand logical deduction of implicit meanings, motivations, or thematic implications",
+    "title": "Literal Comprehension Of 'Broken Images'",
+    "text": "Literal comprehension of 'Broken Images' — questions answered straight from the text.",
     "emoji": "📗",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of examining a text's explicit and implicit meanings, questioning authorial choices, evaluating evidence from the text, and forming independent, well-supported interpretations that go beyond",
+    "title": "Critical Thinking On 'Broken Images'",
+    "text": "Critical thinking on 'Broken Images' — analysing the text to reach evidence-based judgements.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on the chapter \"Broken Images\" refers to the ability to compose structured, evidence-based responses — such as character sketches, thematic analyses, critical appreciations, and creative writing tasks (diary entries, letters, reviews) —",
+    "title": "Writing Skills From 'Broken Images'",
+    "text": "Writing skills from 'Broken Images' — using the text as a model or springboard for your own writing.",
     "emoji": "📗",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skills where students articulate interpretations, debate perspectives, and actively listen to peers while discussing the play *Broken Images*, using textual evidence to",
+    "title": "Discussion Points On 'Broken Images'",
+    "text": "Discussion points on 'Broken Images' — speaking and listening around the text.",
     "emoji": "📗",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -15671,20 +15610,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Who is Girish Karnad and what are two major awards he received?",
     "answer": "Girish Karnad (1938–2019) was a renowned Indian playwright, actor, and film director who wrote in both Kannada and English",
     "options": [
-     "The \"image\" device externalizes Manjula's internal conflict between her public persona (the confident",
-     "Organic imagery describes internal bodily sensations (hunger, thirst, nausea, pain, fatigue). In the play, Manjula says Malini's \"nervous system was damaged",
+     "The student can identify Manjula Nayak's key character traits from textual evidence, trace her internal conflicts (language identity, sibling guilt",
+     "On-screen/physical: The Image (Manjula's televised reflection), Announcer (voice only), Raza (technician, voice only)",
      "Girish Karnad (1938–2019) was a renowned Indian playwright, actor, and film director who wrote in both Kannada and English"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Broken Images' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming only one award or confusing him with another writer) reveals the student hasn't grasped the playwright's stature and bilingual identity, which is central to the play's themes.",
     "id": "gen_c12_eng_k_ch21_q1",
     "nodeId": "c12_eng_k_cbse_21_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a play that begins with a famous writer sitting in a TV studio, but the play isn't really about the interview — it's",
-     "Before diving in, ask: \"Why does the playwright choose a TV studio?",
-     "Eliot's 'heap of broken images' have to do with a Kannada writer's success in English?",
-     "Next, visualize the studio: plasma screens, a lone chair, a lapel mike — this isn't a traditional stage; it's a media machine."
+     "Start with the author of 'Broken Images', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -15692,20 +15628,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What are the two distinct structural phases of \"Broken Images,\" and what triggers the transition between them?",
     "answer": "The two phases are: (1) a public monologue — Manjula's televised speech about her novel and language choice, and (2) a private dialogue",
     "options": [
-     "The \"image\" device externalizes Manjula's internal conflict between her public persona (the confident",
-     "Organic imagery describes internal bodily sensations (hunger, thirst, nausea, pain, fatigue). In the play, Manjula says Malini's \"nervous system was damaged",
+     "Irony in *Broken Images* is a literary device where the intended meaning of words or situations contrasts sharply with their literal or apparent meaning",
+     "The student can independently write a 120-150 word answer for a 6-mark CBSE question on \"Broken Images\" that includes a clear thesis",
      "The two phases are: (1) a public monologue — Manjula's televised speech about her novel and language choice, and (2) a private dialogue"
     ],
-    "hint": "Straight from the 'Plot and narrative structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Broken' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the play is a monologue throughout\" or \"the transition happens when the Announcer speaks\") reveals that the student has missed the central structural innovation: the play *becomes* dialogic only after the monologue ends, and that this shift is cued by the technical apparatus of the studio.",
     "id": "gen_c12_eng_k_ch21_q2",
     "nodeId": "c12_eng_k_cbse_21_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're rehearsing a speech for the school assembly — you've polished every word for the audience, but the moment the mic switches off, you",
-     "That exact tension between performance and truth is the engine of \"Broken Images.\" Begin by noticing the TV studio frame: the plasma screen, the",
-     "Track how the play lulls you into a straightforward monologue — Manjula's prepared speech — then shatters that structure when the camera turns off",
-     "That structural rupture *is* the plot."
+     "Trace 'Broken Images' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -15765,10 +15698,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_21_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a director staging this play: you walk into an empty theatre and see only a plasma screen, a chair, a table, and a red bulb.",
-     "What does this *tell* you before a single line is spoken?",
-     "Start by listing every physical detail in the opening stage directions — the \"big plasma screen,\" \"several television sets,\" \"small red bulb,\" \"lapel",
-     "Contrast it with Manjula's description of cluttered Indian studios."
+     "Identify where and when 'Broken Images' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -15817,10 +15747,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_21_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a celebrity give a flawless TV interview — confident, witty, saying all the right things.",
-     "Then the camera turns off, and you see them argue with their own reflection, revealing every insecurity they just hid.",
-     "That's Manjula Nayak.",
-     "Start by reading the stage directions: her \"confident stride,\" \"at home in broadcasting studios\" — this is her public armour."
+     "Pick the central figure in 'Broken Images' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -15828,20 +15755,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "List all the supporting characters referenced in *Broken Images*, distinguishing between those who appear physically/on-screen and those who are only spoken about.",
     "answer": "On-screen/physical: The Image (Manjula's televised reflection), Announcer (voice only), Raza (technician, voice only)",
     "options": [
-     "The primary device is the \"Image\" — Manjula's televised projection on the plasma screen that continues after the camera is off",
-     "(1) \"A big plasma screen hangs on one side,\" (2) \"a chair and a typically 'telly' table — strong, wide, semi-circular,\" (3) \"At the back of the stage are several television sets",
+     "\"Before You Read: Context and Background\" is a preparatory section that equips students with essential knowledge about the playwright Girish Karnad, the epigraph from T.S",
+     "The student can identify the primary theme of \"Broken Images,\" trace its development through the monologue-dialogue structure",
      "On-screen/physical: The Image (Manjula's televised reflection), Announcer (voice only), Raza (technician, voice only)"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Broken' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Student treats the Image as a mere technical glitch rather than a fully realised dramatic character with agency, or omits absent characters like Malini/Pramod because they \"aren't in the play,\" missing Karnad's central technique of using absence as presence.",
     "id": "gen_c12_eng_k_ch21_q5",
     "nodeId": "c12_eng_k_cbse_21_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a talk show where the guest suddenly starts arguing with her own TV image — that's the hook of *Broken Images*.",
-     "The \"supporting characters\" here are unusual: most never appear on stage.",
-     "Start by listing every person Manjula or the Image mentions.",
-     "Then ask: \"What does this person reveal about Manjula that she won't admit publicly?"
+     "Spot the secondary figures in 'Broken Images' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -15849,20 +15773,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "What is the central conflict that the \"image\" device externalizes in \"Broken Images\"?",
     "answer": "The \"image\" device externalizes Manjula's internal conflict between her public persona (the confident",
     "options": [
-     "On-screen/physical: The Image (Manjula's televised reflection), Announcer (voice only), Raza (technician, voice only)",
-     "The Image functions as an externalized conscience / alter ego that remains on screen after the broadcast ends",
+     "The student can independently deconstruct the play's dramatic structure, analyze the protagonist's psychological complexity through the image/reality duality",
+     "Vocabulary in Context refers to the ability to determine the meaning, connotation, and usage of specific words and phrases as they appear within the dramatic text of \"Broken",
      "The \"image\" device externalizes Manjula's internal conflict between her public persona (the confident"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Broken Images'' slide -- match the key terms.",
     "misconception": "A wrong answer that only identifies the language debate (Kannada vs English) misses the deeper psychological split — the image isn't just about language politics; it's about the fracture between who Manjula performs as and who she actually is.",
     "id": "gen_c12_eng_k_ch21_q6",
     "nodeId": "c12_eng_k_cbse_21_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through social media and see a celebrity's perfect post — then you read a leaked private message revealing their real",
-     "That gap between the curated image and the messy truth is exactly what \"Broken Images\" dramatizes.",
-     "Start by asking: What does Manjula SAY in her TV speech versus what her IMAGE reveals afterward?",
-     "Notice how the play begins as a monologue (one voice) but becomes a dialogue (two voices) when the image on screen refuses to disappear."
+     "Ask what 'Broken Images' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -15911,10 +15832,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_21_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a talk show where a celebrity gives a polished, rehearsed speech — but then the broadcast ends, the camera *supposedly*",
-     "That is exactly what happens to Manjula Nayak in *Broken Images*.",
-     "The \"Image\" forces her to confront truths she buried: resentment toward her disabled sister Malini, guilt over using Malini's life for a bestseller,",
-     "To analyse secondary themes, start by listing every topic the play touches *besides* language politics — disability, marriage, fame, guilt,"
+     "Look beneath the main theme of 'Broken Images' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -15963,10 +15881,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_21_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a play where the only \"action\" is a woman talking to a TV screen — and then the screen talks back.",
-     "How would you, as a critic, prove that the playwright isn't just using fancy words but is actually dissecting a writer's identity crisis?",
-     "Start by reading Manjula's opening monologue aloud.",
-     "Notice the words that make you *see* the \"spartan\" studio, *hear* the \"testing, testing\" voice check, *feel* the \"yellow light\" turning green."
+     "Find the lines in 'Broken Images' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -15974,20 +15889,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define dramatic irony and give one example from *Broken Images* where the audience knows something that Manjula does not initially realize.",
     "answer": "Dramatic irony occurs when the audience possesses information that a character lacks. In the play",
     "options": [
-     "The \"image\" device externalizes Manjula's internal conflict between her public persona (the confident",
      "The primary device is the \"Image\" — Manjula's televised projection on the plasma screen that continues after the camera is off",
+     "The two phases are: (1) a public monologue — Manjula's televised speech about her novel and language choice, and (2) a private dialogue",
      "Dramatic irony occurs when the audience possesses information that a character lacks. In the play"
     ],
-    "hint": "Straight from the 'Irony in *Broken Images*' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Broken' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling the telefilm's poor quality \"dramatic irony\") shows confusion between situational irony and dramatic irony, or failure to track the audience's privileged knowledge.",
     "id": "gen_c12_eng_k_ch21_q9",
     "nodeId": "c12_eng_k_cbse_21_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine watching a celebrity interview where the star claims \"I don't care about fame\" while checking their phone for Twitter mentions.",
-     "That gap between public words and private reality is exactly what Karnad dramatizes.",
-     "Begin by re-reading Manjula's on-camera speech (pp.",
-     "225-229) and marking every statement that later gets contradicted by her off-camera conversation with the Image (pp."
+     "Look in 'Broken Images' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -15995,20 +15907,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Define the term \"obsolescence\" as used by Manjula in her opening monologue (\"Isn't it scary? The rate of obsolescence?\") and explain what it reveals about her attitude toward technology and her own profession.",
     "answer": "\"Obsolescence\" denotes the process of becoming outdated or no longer used. In context, Manjula uses it to comment on the rapid pace of technological change in broadcasting (no",
     "options": [
-     "The primary device is the \"Image\" — Manjula's televised projection on the plasma screen that continues after the camera is off",
-     "Organic imagery describes internal bodily sensations (hunger, thirst, nausea, pain, fatigue). In the play, Manjula says Malini's \"nervous system was damaged",
+     "The student can independently map the play's non-linear structure onto a modified Freytag's pyramid, explain the function of the monologue-to-dialogue shift",
+     "The student can identify Manjula Nayak's key character traits from textual evidence, trace her internal conflicts (language identity, sibling guilt",
      "\"Obsolescence\" denotes the process of becoming outdated or no longer used. In context, Manjula uses it to comment on the rapid pace of technological change in broadcasting (no"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Broken Images'' slide -- match the key terms.",
     "misconception": "Wrong Answer Reveals: If a student only gives the dictionary definition without linking it to Manjula's dual identity (lecturer/writer, Kannada/English) or the play's central tension about relevance and survival, they are treating vocabulary as isolated words rather than dramatic characterization tools.",
     "id": "gen_c12_eng_k_ch21_q10",
     "nodeId": "c12_eng_k_cbse_21_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching Manjula Nayak on that TV studio set — confident, articulate, switching between Kannada and English, addressing millions.",
-     "Suddenly, her own image on the screen starts talking back to her, exposing her hidden resentments.",
-     "The words she chooses — \"obsolescence,\" \"betrayal,\" \"complicity,\" \"prayashchitta,\" \"halcyon\" — are not random; they are precise tools that build her",
-     "To master this node, first re-read the play marking every word that feels weighted or unfamiliar."
+     "Note the difficult or loaded words in 'Broken Images' — their meaning carries the text's precision."
     ]
    },
    {
@@ -16016,20 +15925,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the grammatical term for the sentence structure in Manjula's line: \"My speech will last exactly ten minutes. I have timed it... No, I won't read. 'Look ahead and speak!' Good... But that may take a little longer.\"",
     "answer": "The structure exemplifies ellipsis (omission of understood words) and fragmented syntax — \"No, I won't read\" omits the subject-verb \"I will\" after \"No\"; \"Good",
     "options": [
-     "The primary device is the \"Image\" — Manjula's televised projection on the plasma screen that continues after the camera is off",
-     "PEEL stands for Point (a clear topic sentence answering the question), Evidence (a specific textual reference",
+     "\"Obsolescence\" denotes the process of becoming outdated or no longer used. In context, Manjula uses it to comment on the rapid pace of technological change in broadcasting (no",
+     "The student can identify Manjula Nayak's key character traits from textual evidence, trace her internal conflicts (language identity, sibling guilt",
      "The structure exemplifies ellipsis (omission of understood words) and fragmented syntax — \"No, I won't read\" omits the subject-verb \"I will\" after \"No\"; \"Good"
     ],
-    "hint": "Straight from the 'Language Usage in the Text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Broken' slide -- match the key terms.",
     "misconception": "A wrong answer like \"simple sentences\" misses the conversational, real-time processing quality that characterizes her unscripted moments versus her prepared speech. This reveals whether the student distinguishes between *sentence types* (declarative/interrogative) and *syntactic completeness* in dramatic dialogue.",
     "id": "gen_c12_eng_k_ch21_q11",
     "nodeId": "c12_eng_k_cbse_21_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching Manjula's TV interview — she speaks in polished, complete sentences with rhetorical flourishes (\"The advance she received.",
-     "Start by comparing the Announcer's formal introduction (passive constructions, complex noun phrases) with Manjula's opening monologue (first-person",
-     "Then track how her syntax fragments when the Image appears — sentence fragments, interrogatives, exclamations replace the controlled rhetoric.",
-     "Notice the Kannada terms (*Namaskara, prayashchitta, arthapoorna*) that punctuate her English: they're not decorative; they mark cultural identity"
+     "Read 'Broken Images' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -16037,20 +15943,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "question": "Identify the two question types: \"What reason does Manjula give for writing her novel in English?\" and \"Why does the playwright make Manjula's Image challenge her account of Malini's illness?\" Label each as literal or inferential.",
     "answer": "First question is literal (text states: \"it burst out in English... surprised even me\"). Second is inferential (requires analyzing the Image's function as Manjula's suppressed",
     "options": [
+     "Manjula Nayak was a lecturer in English in Bangalore and a Kannada short-story writer; she announces she has written her first novel, *The River Has No Memories*, in English",
      "The \"image\" device externalizes Manjula's internal conflict between her public persona (the confident",
-     "On-screen/physical: The Image (Manjula's televised reflection), Announcer (voice only), Raza (technician, voice only)",
      "First question is literal (text states: \"it burst out in English... surprised even me\"). Second is inferential (requires analyzing the Image's function as Manjula's suppressed"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Broken' slide -- match the key terms.",
     "misconception": "A wrong answer labels both literal — revealing the student cannot distinguish explicit retrieval from implicit analysis, a fatal error in CBSE 3-6 mark questions where inferential depth carries 60% weightage.",
     "id": "gen_c12_eng_k_ch21_q12",
     "nodeId": "c12_eng_k_cbse_21_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching Manjula Nayak on television — she says she \"loves her sister\" but her Image on screen asks, \"Was it love or guilt?",
-     "Then ask: what does the Image's challenge reveal about Manjula's reliability?",
-     "What does the novel's dedication versus the \"first cousin\" character suggest?",
-     "Connect these dots — that's inferential reasoning."
+     "Answer 'Broken Images' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -16059,19 +15962,17 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "answer": "The Image functions as an externalized conscience / alter ego that remains on screen after the broadcast ends",
     "options": [
      "The primary device is the \"Image\" — Manjula's televised projection on the plasma screen that continues after the camera is off",
-     "First question is literal (text states: \"it burst out in English... surprised even me\"). Second is inferential (requires analyzing the Image's function as Manjula's suppressed",
+     "Irony in *Broken Images* is a literary device where the intended meaning of words or situations contrasts sharply with their literal or apparent meaning",
      "The Image functions as an externalized conscience / alter ego that remains on screen after the broadcast ends"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Broken' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a ghost,\" \"a technical glitch,\" \"a separate character\") reveals the student is reading literally rather than recognizing the metatheatrical device: the Image is Manjula's own psyche made visible, a dramatic convention that turns internal conflict into dialogue.",
     "id": "gen_c12_eng_k_ch21_q13",
     "nodeId": "c12_eng_k_cbse_21_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine watching a celebrity interview where the guest presents a polished, rehearsed persona — but the moment the camera stops rolling, their mask",
-     "That jarring contrast is exactly what Girish Karnad engineers in *Broken Images*: Manjula delivers a flawless ten-minute televised monologue",
-     "Begin by asking: *Why does the playwright keep the Image on screen after the camera is off?",
-     "Notice what the Image knows that Manjula avoids saying aloud."
+     "Analyse 'Broken Images' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -16131,10 +16032,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_21_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: *\"How does the Image function as a dramatic device to reveal Manjula's inner conflict?",
-     "Ask: *What is the examiner actually testing?* They want analysis of *technique*, not story.",
-     "First, deconstruct the prompt: identify the key terms (Image, dramatic device, inner conflict).",
-     "Next, brainstorm two distinct textual moments where the Image probes Manjula — e.g."
+     "For written answers on 'Broken Images', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -16183,10 +16081,7 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "nodeId": "c12_eng_k_cbse_21_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle discussing why Manjula's televised speech feels rehearsed yet her private conversation with the Image feels raw.",
-     "Start by identifying the central tension: the public persona vs. private self.",
-     "First, have students re-read the stage directions describing the studio setup and the red/yellow/green lights — these are visual cues for performance.",
-     "Next, ask them to mark passages where Manjula addresses the \"invisible audience\" versus where she speaks to the Image."
+     "Talk through 'Broken Images' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -16232,6 +16127,52 @@ export const C12_ENG_K_GEN: SimDef[] = [
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that calls it \"just a backdrop\" fails to see setting as active dramatic metaphor.",
     "id": "gen_c12_eng_k_ch21_q16",
+    "nodeId": "c12_eng_k_cbse_21_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace how the atmosphere evolves across",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain how setting and atmosphere jointly",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "identify specific stage directions",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify specific stage directions and technical elements that establish the television studio",
+    "id": "gen_c12_eng_k_ch21_q17",
     "nodeId": "c12_eng_k_cbse_21_003",
     "difficulty": "advanced"
    },
@@ -16288,64 +16229,18 @@ export const C12_ENG_K_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry will: (1) use first-person voice with Manjula's characteristic blend of irony and vulnerability, (2)",
-    "id": "gen_c12_eng_k_ch21_q17",
-    "nodeId": "c12_eng_k_cbse_21_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Compare these two answers to the question *\"Discuss the significance of the title 'Broken Images'.\"* Which is stronger and why? Answer A: The title comes from T.S. Eliot's *The Waste Land* and means modern life is fragmented.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Textual range",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Structural coherence",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Analytical depth",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who prefers Answer A likely conflates \"knowing the reference\" with \"analyzing its function\" — a classic board exam trap.",
     "id": "gen_c12_eng_k_ch21_q18",
-    "nodeId": "c12_eng_k_cbse_21_014",
+    "nodeId": "c12_eng_k_cbse_21_004",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'broken images' — the context and background to this?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Broken Images' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

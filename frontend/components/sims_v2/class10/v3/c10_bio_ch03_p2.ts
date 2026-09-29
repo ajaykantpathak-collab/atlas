@@ -6,7 +6,7 @@ export const c10_bio_ch03_p2: SimDef = {
     id: 'v3_c10_bio_ch03_p2',
     title: 'How Do Organisms Reproduce',
     subtitle: 'From cell division to fertilisation — how life copies itself, and why it never copies perfectly.',
-    classLevel: 10, subject: 'biology', topic: 'How Do Organisms Reproduce · Part 2/2',
+    classLevel: 10, subject: 'biology', topic: 'How Do Organisms Reproduce',
     chapters: ['c10_bio_ch03'],
     nodeIds: ['c10_bio_cbse_03_007', 'c10_bio_cbse_03_008', 'c10_bio_cbse_03_009', 'c10_bio_cbse_03_010', 'c10_bio_cbse_03_011', 'c10_bio_cbse_03_012'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

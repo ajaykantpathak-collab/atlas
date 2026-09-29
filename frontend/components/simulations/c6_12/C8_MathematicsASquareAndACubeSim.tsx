@@ -63,19 +63,19 @@ export function C8_MathematicsASquareAndACubeSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">
         A Square and A Cube - Dot Builder
       </h1>
 
       {/* Teaching text */}
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Square numbers:</span> n dots across and n
+          <span className="font-bold text-gold-700">Square numbers:</span> n dots across and n
           dots down give n x n = n^2 dots. Every square number can be built by wrapping L-shaped
           layers of odd numbers: 1 + 3 + 5 + ... + (2n-1) = n^2.
         </p>
         <p className="mt-1">
-          <span className="font-bold text-indigo-700">Cube numbers:</span> stack n square layers of
+          <span className="font-bold text-gold-700">Cube numbers:</span> stack n square layers of
           n x n dots and you get n x n x n = n^3 dots - a cube! Volume of a cube with side n is
           exactly n^3.
         </p>
@@ -85,13 +85,13 @@ export function C8_MathematicsASquareAndACubeSim() {
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <button
           onClick={() => setMode('square')}
-          className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'square' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}
+          className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'square' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}
         >
           Square mode
         </button>
         <button
           onClick={() => setMode('cube')}
-          className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'cube' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}
+          className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'cube' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}
         >
           Cube mode
         </button>
@@ -107,7 +107,7 @@ export function C8_MathematicsASquareAndACubeSim() {
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200">
           <label className="text-xs font-semibold text-slate-500 flex justify-between">
             <span>Side length n</span>
-            <span className="text-indigo-600 font-mono">{n}</span>
+            <span className="text-gold-600 font-mono">{n}</span>
           </label>
           <input
             type="range"
@@ -120,7 +120,7 @@ export function C8_MathematicsASquareAndACubeSim() {
               setN(v);
               setHighlightLayer(Math.min(highlightLayer, v));
             }}
-            className="w-full mt-2 accent-indigo-600"
+            className="w-full mt-2 accent-gold-600"
           />
           {mode === 'cube' && (
             <>
@@ -142,7 +142,7 @@ export function C8_MathematicsASquareAndACubeSim() {
           <div className="mt-3 p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             {mode === 'square' ? (
               <>
-                <div className="text-indigo-700 font-bold">{n} x {n} = {squareTotal} dots</div>
+                <div className="text-gold-700 font-bold">{n} x {n} = {squareTotal} dots</div>
                 {showOddLayers && (
                   <div className="mt-1 text-slate-600">
                     {ODD_LAYERS.slice(0, n).join(' + ')} = <span className="text-amber-600 font-bold">{oddSum}</span>
@@ -151,7 +151,7 @@ export function C8_MathematicsASquareAndACubeSim() {
               </>
             ) : (
               <>
-                <div className="text-indigo-700 font-bold">
+                <div className="text-gold-700 font-bold">
                   {n} x {n} x {n} = {cubeTotal} dots
                 </div>
                 <div className="mt-1 text-slate-600">
@@ -163,7 +163,7 @@ export function C8_MathematicsASquareAndACubeSim() {
         </div>
 
         {/* Visualization */}
-        <div className="p-2 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 340 230" className="w-full">
             {mode === 'square' ? (
               <>

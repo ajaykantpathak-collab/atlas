@@ -1468,7 +1468,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
             <span className="bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
               ICSE Class 9 Chemistry
             </span>
-            <span className="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-semibold px-3 py-1 rounded-full">
+            <span className="bg-gold-500/10 text-gold-400 border border-gold-500/20 text-xs font-semibold px-3 py-1 rounded-full">
               Atmospheric Science & Acids
             </span>
           </div>
@@ -1520,7 +1520,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`px-5 py-3 font-semibold text-sm transition-all rounded-t-xl flex items-center gap-2 ${
             activeTab === 'lab'
-              ? 'bg-slate-900 border-t-2 border-indigo-400 text-indigo-400 border-x border-slate-800'
+              ? 'bg-slate-900 border-t-2 border-gold-400 text-gold-400 border-x border-slate-800'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50'
           }`}
         >
@@ -1540,7 +1540,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
           onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
           className={`px-5 py-3 font-semibold text-sm transition-all rounded-t-xl flex items-center gap-2 ${
             activeTab === 'summary'
-              ? 'bg-slate-900 border-t-2 border-sky-400 text-sky-400 border-x border-slate-800'
+              ? 'bg-slate-900 border-t-2 border-gold-400 text-gold-400 border-x border-slate-800'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/50'
           }`}
         >
@@ -1597,7 +1597,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
               </h3>
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-3">
-                  <h4 className="text-sm font-bold text-indigo-300">{pq.question}</h4>
+                  <h4 className="text-sm font-bold text-gold-300">{pq.question}</h4>
                   <div className="grid grid-cols-1 gap-2">
                     {pq.options.map((opt, oIdx) => (
                       <button
@@ -1611,7 +1611,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                         }}
                         className={`text-left p-3 rounded-lg border text-xs font-medium transition-all ${
                           predAnswers[pIdx] === oIdx
-                            ? 'border-indigo-500 bg-indigo-500/10 text-white'
+                            ? 'border-gold-500 bg-gold-500/10 text-white'
                             : 'border-slate-800 bg-slate-900 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1623,12 +1623,12 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                     <button
                       disabled={predAnswers[pIdx] === null}
                       onClick={() => handlePredSubmit(pIdx)}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-lg transition-all"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-lg transition-all"
                     >
                       Confirm Prediction #{pIdx + 1}
                     </button>
                   ) : (
-                    <div className="p-3 bg-slate-900 border border-indigo-500/30 rounded-lg text-xs text-indigo-200">
+                    <div className="p-3 bg-slate-900 border border-gold-500/30 rounded-lg text-xs text-gold-200">
                       <span className="font-bold">Lab Verification Tip: </span> {pq.verifyInstruction}
                     </div>
                   )}
@@ -1653,7 +1653,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                   SO₃ + H₂O → H₂SO₄ → H⁺ + HSO₄⁻
                 </div>
                 <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 font-mono">
-                  <span className="text-indigo-400 font-bold">Nitric Acid Pathway:</span><br />
+                  <span className="text-gold-400 font-bold">Nitric Acid Pathway:</span><br />
                   N₂ + O₂ → 2NO (Engine high temp / Lightning)<br />
                   2NO + O₂ → 2NO₂<br />
                   4NO₂ + 2H₂O + O₂ → 4HNO₃ → 4H⁺ + 4NO₃⁻
@@ -1678,7 +1678,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                     onClick={() => { setSelectedLabIndex(idx); audioManager.play('tap'); }}
                     className={`w-full text-left p-3 rounded-xl border text-xs font-bold transition-all flex items-center justify-between ${
                       selectedLabIndex === idx
-                        ? 'border-indigo-500 bg-indigo-500/10 text-indigo-300'
+                        ? 'border-gold-500 bg-gold-500/10 text-gold-300'
                         : 'border-slate-800 bg-slate-950 text-slate-400 hover:bg-slate-800'
                     }`}
                   >
@@ -1689,7 +1689,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
               </div>
 
               <div className="mt-4 p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs text-slate-300">
-                <span className="font-bold text-indigo-400">Lab Directive: </span>
+                <span className="font-bold text-gold-400">Lab Directive: </span>
                 {EXPLORATION_STEPS[selectedLabIndex].instruction}
               </div>
             </div>
@@ -1742,7 +1742,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Relative Humidity:</span>
-                      <span className="text-sky-400 font-mono">{humidity}%</span>
+                      <span className="text-gold-400 font-mono">{humidity}%</span>
                     </div>
                     <input
                       type="range"
@@ -1751,7 +1751,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                       step="5"
                       value={humidity}
                       onChange={(e) => setHumidity(parseFloat(e.target.value))}
-                      className="w-full accent-sky-500 h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
 
@@ -1774,7 +1774,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Vehicle / Power Plant Vehicle Density:</span>
-                      <span className="text-indigo-400 font-mono">{vehicleDensity} Index</span>
+                      <span className="text-gold-400 font-mono">{vehicleDensity} Index</span>
                     </div>
                     <input
                       type="range"
@@ -1783,7 +1783,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                       step="10"
                       value={vehicleDensity}
                       onChange={(e) => setVehicleDensity(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
 
@@ -1806,7 +1806,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Tropospheric Wind Speed:</span>
-                      <span className="text-sky-400 font-mono">{windSpeed} km/h</span>
+                      <span className="text-gold-400 font-mono">{windSpeed} km/h</span>
                     </div>
                     <input
                       type="range"
@@ -1815,7 +1815,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                       step="5"
                       value={windSpeed}
                       onChange={(e) => setWindSpeed(parseFloat(e.target.value))}
-                      className="w-full accent-sky-500 h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer"
                     />
                   </div>
 
@@ -1913,7 +1913,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
               </h3>
               {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
                 <div key={oIdx} className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-3">
-                  <h4 className="text-sm font-bold text-sky-300">{oq.question}</h4>
+                  <h4 className="text-sm font-bold text-gold-300">{oq.question}</h4>
                   <div className="grid grid-cols-1 gap-2">
                     {oq.observableOptions.map((opt, optIdx) => (
                       <button
@@ -1927,7 +1927,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                         }}
                         className={`text-left p-3 rounded-lg border text-xs font-medium transition-all ${
                           obsAnswers[oIdx] === optIdx
-                            ? 'border-sky-500 bg-sky-500/10 text-white'
+                            ? 'border-gold-500 bg-gold-500/10 text-white'
                             : 'border-slate-800 bg-slate-900 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1939,12 +1939,12 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
                     <button
                       disabled={obsAnswers[oIdx] === null}
                       onClick={() => handleObsSubmit(oIdx)}
-                      className="px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs rounded-lg transition-all"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-lg transition-all"
                     >
                       Log Observation #{oIdx + 1}
                     </button>
                   ) : (
-                    <div className="p-3 bg-slate-900 border border-sky-500/30 rounded-lg text-xs text-sky-200 font-medium">
+                    <div className="p-3 bg-slate-900 border border-gold-500/30 rounded-lg text-xs text-gold-200 font-medium">
                       ✓ Empirical observation recorded and validated against chemistry lab models.
                     </div>
                   )}
@@ -1970,7 +1970,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
             </div>
             <div className="flex items-center gap-3">
               <span className={`text-xs font-bold px-3 py-1 rounded-full border uppercase ${
-                currentCh.difficulty === 'foundation' ? 'bg-sky-500/10 border-sky-500/30 text-sky-400' :
+                currentCh.difficulty === 'foundation' ? 'bg-gold-500/10 border-gold-500/30 text-gold-400' :
                 currentCh.difficulty === 'standard' ? 'bg-amber-500/10 border-amber-500/30 text-amber-400' :
                 'bg-purple-500/10 border-purple-500/30 text-purple-400'
               }`}>
@@ -2127,7 +2127,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
               ) : (
                 <button
                   onClick={handleNextChallenge}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl transition-all shadow-lg flex items-center gap-2"
                 >
                   <span>Next Challenge</span> →
                 </button>
@@ -2143,7 +2143,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim({
           <div className="lg:col-span-7 space-y-6">
             {/* REAL WORLD ACTIVITY (MANDATORY RENDER) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <div className="flex items-center gap-2 text-sky-400">
+              <div className="flex items-center gap-2 text-gold-400">
                 <span className="text-xl">🏭</span>
                 <span className="text-xs font-bold uppercase tracking-wider">Real-World Engineering Application</span>
               </div>

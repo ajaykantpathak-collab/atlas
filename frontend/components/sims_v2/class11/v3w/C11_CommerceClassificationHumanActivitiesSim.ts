@@ -11,7 +11,7 @@ export const w_c11_commerceclassificationhumanactivitiessim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Business Risk: Nature and Causes',
     chapters: [],
     nodeIds: ['c11_bs_cbse_01_010', 'c11_bs_cbse_05_003', 'c11_bs_cbse_05_001', 'c11_bs_cbse_05_004', 'c11_bs_cbse_01_002', 'c11_bs_cbse_01_003', 'c11_bs_cbse_01_004', 'c11_bs_cbse_01_005', 'c11_bs_cbse_04_001', 'c11_bs_cbse_04_008', 'c11_bs_cbse_05_006', 'c11_bs_cbse_05_008', 'c11_bs_cbse_04_006', 'c11_bs_cbse_01_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you start a small cloud kitchen business selling biryani.', goal: 'Master Business Risk: Nature and Causes.' },
     discovery: {
         question: 'Define business risk as per NCERT Class 11. How does it differ from the general dictionary meaning of "risk"?',
@@ -20,7 +20,7 @@ export const w_c11_commerceclassificationhumanactivitiessim: SimDef = {
         hook: 'Students often think "business risk = probability of loss" and try to calculate it mathematically like a math.',
     },
     teaching: [
-        { title: 'Business risk refers to the possibility of.', text: 'Business risk refers to the possibility of inadequate profits or even losses due to uncertainties and unexpected events that are inherent in every business activity, where profit serves as the reward.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Business risk refers to the possibility of.', text: 'Business risk refers to the possibility of inadequate profits or even losses due to uncertainties and unexpected events that are inherent in every business activity, where profit serves as the reward.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_01_010', title: 'Business risk refers to the possibility.',

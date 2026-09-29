@@ -11,7 +11,7 @@ export const w_c6_biologyleafstructuretypessim: SimDef = {
     classLevel: 6, subject: 'biology', topic: 'How Do Plants Make Food? Understanding Photosynthesis',
     chapters: [],
     nodeIds: ['c6_biology_ch10_002', 'c6_biology_ch10_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you need to eat lunch to have energy to play, but the tree in your garden just.', goal: 'Master How Do Plants Make Food? Understanding Photosynthesis.' },
     discovery: {
         question: 'If a plant is kept in a completely dark room for a long time, why does it struggle to survive?',
@@ -20,7 +20,7 @@ export const w_c6_biologyleafstructuretypessim: SimDef = {
         hook: 'Students often think that plants get their "food" from the soil, treating roots like mouths that suck up nutrients as.',
     },
     teaching: [
-        { title: 'Photosynthesis is the process by which green.', text: 'Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce sugar (food) and oxygen.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Photosynthesis is the process by which green.', text: 'Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce sugar (food) and oxygen.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_biology_ch10_002', title: 'Photosynthesis is the process by which.',

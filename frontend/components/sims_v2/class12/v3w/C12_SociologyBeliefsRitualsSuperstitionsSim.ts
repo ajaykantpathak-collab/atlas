@@ -11,7 +11,7 @@ export const w_c12_sociologybeliefsritualssuperstitionssim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms',
     chapters: [],
     nodeIds: ['c12_soc_cbse_09_002', 'c12_soc_cbse_09_006', 'c12_soc_cbse_05_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a village in Karnataka where a community traditionally engaged in toddy tapping decides to stop.', goal: 'Master Sanskritisation: M.N. Srinivas\'s Concept and Its Mechanisms.' },
     discovery: {
         question: 'Define Sanskritisation in M.N. Srinivas\'s own words, specifying the reference group and the typical direction of cultural emulation.',
@@ -20,7 +20,7 @@ export const w_c12_sociologybeliefsritualssuperstitionssim: SimDef = {
         hook: 'Students often think Sanskritisation is simply "lower castes copying Brahmins" and that it leads to *caste mobility*.',
     },
     teaching: [
-        { title: 'Sanskritisation is the process by which a.', text: 'Sanskritisation is the process by which a lower caste, tribe, or other group adopts the customs, rituals, beliefs, ideology, and lifestyle of a higher — particularly a twice-born (dwija) — caste to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Sanskritisation is the process by which a.', text: 'Sanskritisation is the process by which a lower caste, tribe, or other group adopts the customs, rituals, beliefs, ideology, and lifestyle of a higher — particularly a twice-born (dwija) — caste to.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_09_002', title: 'Sanskritisation is the process by which.',

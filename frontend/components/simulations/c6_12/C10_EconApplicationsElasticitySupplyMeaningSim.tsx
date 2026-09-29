@@ -1428,13 +1428,13 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Hero */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🌾</span> Real-World Economic Scenario
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-200 flex items-center gap-2">
+            <div className="mt-4 p-3.5 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-200 flex items-center gap-2">
               <span className="text-base">📌</span> {SCENARIO.context}
             </div>
           </div>
@@ -1600,7 +1600,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                             onClick={() => handleTimeHorizonChange(h.id as any)}
                             className={`p-2 rounded-lg text-center border text-xs font-bold ${
                               timeHorizon === h.id
-                                ? 'bg-indigo-900/60 border-indigo-500 text-indigo-200'
+                                ? 'bg-gold-900/60 border-gold-500 text-gold-200'
                                 : 'bg-slate-850 border-slate-700 text-slate-400'
                             }`}
                           >
@@ -1626,7 +1626,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                           }}
                           className={`px-3 py-1 rounded-full text-xs font-bold border ${
                             hasColdStorage
-                              ? 'bg-cyan-600 border-cyan-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1658,7 +1658,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     <div className="p-3.5 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
                       <div className="flex justify-between">
                         <span className="text-slate-400">Calculated Elasticity (Es):</span>
-                        <span className="font-bold font-mono text-cyan-300">{computedEs}</span>
+                        <span className="font-bold font-mono text-gold-300">{computedEs}</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Classification:</span>
@@ -1693,8 +1693,8 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
 
                     {/* Predict-then-check & Observation prompts */}
                     {!predictionMade ? (
-                      <div className="mt-4 p-3 bg-indigo-950/60 rounded-xl border border-indigo-800/50">
-                        <p className="text-xs text-indigo-200 font-bold mb-2">🔮 {PREDICTION_QUESTIONS[0].question}</p>
+                      <div className="mt-4 p-3 bg-gold-950/60 rounded-xl border border-gold-800/50">
+                        <p className="text-xs text-gold-200 font-bold mb-2">🔮 {PREDICTION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1743,7 +1743,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Canal & Tube-Well Irrigation:</span>
-                        <span className="text-cyan-400 font-mono">{irrigationLevel}%</span>
+                        <span className="text-gold-400 font-mono">{irrigationLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1755,7 +1755,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                           setIrrigationLevel(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1804,7 +1804,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                             }}
                             className={`p-2 rounded-lg text-left border text-xs font-bold ${
                               tenureSystem === ten.id
-                                ? 'bg-indigo-900/70 border-indigo-500 text-indigo-200'
+                                ? 'bg-gold-900/70 border-gold-500 text-gold-200'
                                 : 'bg-slate-850 border-slate-700 text-slate-400'
                             }`}
                           >
@@ -1958,7 +1958,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Health & Stamina (NFHS Childhood Baseline):</span>
-                        <span className="text-cyan-400 font-mono">{workerHealthScore}/100</span>
+                        <span className="text-gold-400 font-mono">{workerHealthScore}/100</span>
                       </div>
                       <input
                         type="range"
@@ -1970,7 +1970,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                           setWorkerHealthScore(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -2081,7 +2081,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Phase 3: Foreign Capital Inflows (FDI $B):</span>
-                        <span className="text-cyan-400 font-mono">${fdiInflowBillion} B</span>
+                        <span className="text-gold-400 font-mono">${fdiInflowBillion} B</span>
                       </div>
                       <input
                         type="range"
@@ -2093,7 +2093,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                           setFdiInflowBillion(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -2103,7 +2103,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     <div>
                       <div className="flex justify-between items-center mb-3">
                         <span className="text-xs font-bold text-slate-300">Real Capital Formation (GFCF) Flow</span>
-                        <span className="text-xs font-mono px-3 py-1 bg-cyan-950 text-cyan-300 rounded-lg border border-cyan-800 font-bold">
+                        <span className="text-xs font-mono px-3 py-1 bg-gold-950 text-gold-300 rounded-lg border border-gold-800 font-bold">
                           GFCF: {computedGFCF}% of GDP
                         </span>
                       </div>
@@ -2118,24 +2118,24 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
 
                         <div className="text-slate-500 text-sm hidden md:block">➔</div>
 
-                        <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700/50 text-center flex-1 w-full">
+                        <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/50 text-center flex-1 w-full">
                           <div className="text-lg">🏦</div>
-                          <div className="text-xs font-bold text-indigo-300">2. Mobilisation</div>
+                          <div className="text-xs font-bold text-gold-300">2. Mobilisation</div>
                           <div className="text-[10px] text-slate-400">SBI, LIC, BSE (NPA: {npaLevelPct}%)</div>
                         </div>
 
                         <div className="text-slate-500 text-sm hidden md:block">➔</div>
 
-                        <div className="p-3 bg-cyan-950/60 rounded-xl border border-cyan-700/50 text-center flex-1 w-full">
+                        <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/50 text-center flex-1 w-full">
                           <div className="text-lg">🏭</div>
-                          <div className="text-xs font-bold text-cyan-300">3. Investment</div>
+                          <div className="text-xs font-bold text-gold-300">3. Investment</div>
                           <div className="text-[10px] text-slate-400">Tata Steel / DMIC Rail</div>
                         </div>
                       </div>
                     </div>
 
                     <div className="mt-4 p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300">
-                      <span className="text-cyan-300 font-bold">Crucial Distinction:</span> Money in a mattress is only saving. It becomes Capital Formation only after financial intermediaries channel it into actual physical factories and machinery.
+                      <span className="text-gold-300 font-bold">Crucial Distinction:</span> Money in a mattress is only saving. It becomes Capital Formation only after financial intermediaries channel it into actual physical factories and machinery.
                     </div>
                   </div>
                 </div>
@@ -2208,7 +2208,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Crop Loan Principal Required:</span>
-                        <span className="text-cyan-400 font-mono">₹{loanAmount.toLocaleString()}</span>
+                        <span className="text-gold-400 font-mono">₹{loanAmount.toLocaleString()}</span>
                       </div>
                       <input
                         type="range"
@@ -2221,7 +2221,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                           setLoanAmount(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -2313,7 +2313,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
-                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white rounded-xl text-xs font-black shadow-lg shadow-emerald-950"
+                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-xl text-xs font-black shadow-lg shadow-emerald-950"
                   >
                     Enter Free Sandbox →
                   </motion.button>
@@ -2365,7 +2365,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
 
             {/* Box 2: Land Yield */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <div className="text-xs font-bold text-cyan-300">2. Land Output (kg/ha)</div>
+              <div className="text-xs font-bold text-gold-300">2. Land Output (kg/ha)</div>
               <div className="text-2xl font-black text-white font-mono">{computedLandYield} kg/ha</div>
               <input
                 type="range"
@@ -2374,7 +2374,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                 value={irrigationLevel}
                 aria-label="Sandbox irrigation level slider"
                 onChange={(e) => setIrrigationLevel(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
               <div className="text-[11px] text-slate-400">Irrigation: {irrigationLevel}% | Tenure: {tenureSystem}</div>
             </div>
@@ -2423,7 +2423,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                   ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/20 text-rose-300 border-rose-500/40'
-                  : 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+                  : 'bg-gold-500/20 text-gold-300 border-gold-500/40'
               }`}
             >
               {difficulty} TIER
@@ -2433,7 +2433,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
           {/* Progress Bar */}
           <div className="h-2 w-full bg-slate-850 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2521,7 +2521,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-900/80 border border-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-2 bg-gold-900/80 border border-gold-600 rounded-lg text-xs font-bold text-white cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2618,7 +2618,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-950 border border-indigo-700 rounded-lg text-xs font-bold text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-950 border border-gold-700 rounded-lg text-xs font-bold text-gold-200 flex items-center gap-2"
                     >
                       <span>{i + 1}. {part}</span>
                       <button
@@ -2704,7 +2704,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
       {/* ─── PHASE 5: COMPLETION & MASTERY SUMMARY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-600/40 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-600/40 text-center space-y-4">
             <div className="w-16 h-16 rounded-full bg-emerald-500/20 border border-emerald-400 flex items-center justify-center text-3xl mx-auto">
               🏆
             </div>
@@ -2720,7 +2720,7 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400 uppercase">BKT Mastery Level</div>
-                <div className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400 uppercase">Errors Logged</div>
@@ -2762,9 +2762,9 @@ export default function C10_EconApplicationsElasticitySupplyMeaningSim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-800/50 flex items-center justify-between gap-4">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-800/50 flex items-center justify-between gap-4">
             <div>
-              <div className="text-xs font-bold text-indigo-300 uppercase">SM-2 Spaced Repetition Schedule</div>
+              <div className="text-xs font-bold text-gold-300 uppercase">SM-2 Spaced Repetition Schedule</div>
               <div className="text-xs text-slate-300 mt-1">
                 Your memory retention curve recommends reviewing this chapter in{' '}
                 <span className="text-amber-300 font-bold">

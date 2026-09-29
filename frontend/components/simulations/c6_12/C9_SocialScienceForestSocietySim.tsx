@@ -52,7 +52,7 @@ export function C9_SocialScienceForestSocietySim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 9 History - Forest Society and Colonialism</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 9 History - Forest Society and Colonialism</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">A Forest Under Two Regimes, 1860-1920</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -92,7 +92,7 @@ export function C9_SocialScienceForestSocietySim() {
                 onChange={(e) => setDemand(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-amber-500" />
             </div>
             <button onClick={advance} disabled={step >= 6}
-              className="w-full min-h-11 rounded-xl bg-violet-600 hover:bg-violet-500 text-xs font-bold disabled:opacity-40 transition-all">
+              className="w-full min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold disabled:opacity-40 transition-all">
               Advance 10 years {step < 6 ? `(to ${DECADES[step]})` : ''}
             </button>
           </div>
@@ -105,18 +105,18 @@ export function C9_SocialScienceForestSocietySim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-1 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">The sleeper maths that started it all</p>
+            <p className="font-bold text-gold-300 mb-1">The sleeper maths that started it all</p>
             <p>Each mile of railway track needed about <span className="font-mono text-amber-300">2,000 wooden sleepers</span>. As track length exploded from 1850s, forests near lines were stripped first. Dietrich Brandis, the first Inspector-General of Forests, brought German &quot;scientific forestry&quot;: fell an area, plant one valuable species (sal, teak), fell again on a 30-year cycle.</p>
             <p className="mt-1">Your slider: <span className="font-mono text-amber-300">{demand}k sleepers/yr</span> lays roughly <span className="font-mono text-emerald-300">{Math.round(demand / 2)} miles</span> of new track every year -- each mile a strip of forest turned into a single-species plantation.</p>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">Who used the forest before the Acts</p>
+            <p className="font-bold text-gold-300 mb-1">Who used the forest before the Acts</p>
             <p>Shifting cultivators (jhum), pastoralists such as Gujjar and Gaddi herds, and village households collecting mahua flowers, tendu leaves, fuel and fodder. When the 1878 Forest Act put forests under state control, all of these ordinary acts became punishable -- and resentment fed rebellions like Bastar in 1910.</p>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">1878 Forest Act: three kinds of forest</p>
+            <p className="font-bold text-gold-300 mb-1">1878 Forest Act: three kinds of forest</p>
             <p><span className="font-bold text-rose-300">Reserved:</span> best forests; no access at all. <span className="font-bold text-amber-300">Protected:</span> limited rights, all revocable. <span className="font-bold text-emerald-300">Village:</span> what was left for villagers.</p>
             <p className="mt-1">A first conviction could cost Rs 5 to Rs 50 -- months of a labourer&apos;s wage -- or a week in the lock-up for cutting grass.</p>
           </div>
@@ -138,7 +138,7 @@ export function C9_SocialScienceForestSocietySim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Run the full 60 years in reserve mode at 100k sleepers -- how low does cover fall, and what happens to species mix? Why does "scientific" forestry reduce the number of kinds of trees?</p>
         <p className="mt-1">2. Switch to community mode at the same demand -- compare convictions and villager income, then explain who paid the real cost of the railways.</p>

@@ -1219,12 +1219,12 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 uppercase">
+              <span className="text-xs font-bold tracking-wider px-2 py-0.5 rounded bg-gold-500/20 text-gold-400 border border-gold-500/30 uppercase">
                 ISC Class 11 Legal Studies
               </span>
               <span className="text-xs text-slate-400">Section 1–3 Compendium</span>
@@ -1249,7 +1249,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
               }}
               className={`px-3 py-1.5 rounded-xl font-semibold capitalize transition-all ${
                 phase === tab
-                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1262,13 +1262,13 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span aria-hidden="true">🏛️</span> Narrative Case Study
             </div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm md:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs md:text-sm text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs md:text-sm text-gold-200">
               💡 <strong>Context:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1300,7 +1300,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     <span className="flex-1">{opt}</span>
                     {discoveryAnswered && (
                       <span className="font-bold text-base" aria-hidden="true">
@@ -1322,7 +1322,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Begin Interactive Exploration <span>→</span>
                 </motion.button>
@@ -1344,7 +1344,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl"
             >
               <div className="flex items-center justify-between mb-3">
-                <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+                <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-xs px-2.5 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-300 font-mono">
@@ -1377,12 +1377,12 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         }}
                         className={`p-4 rounded-xl border text-left transition-all ${
                           activeLegalSource === src.id
-                            ? 'bg-indigo-950 border-indigo-500 shadow-md ring-2 ring-indigo-500/30'
+                            ? 'bg-gold-950 border-gold-500 shadow-md ring-2 ring-gold-500/30'
                             : 'bg-slate-800/60 border-slate-700 hover:bg-slate-800'
                         }`}
                       >
                         <h4 className="font-bold text-white text-base">{src.title}</h4>
-                        <span className="text-xs font-semibold text-indigo-300 block mb-1">{src.sub}</span>
+                        <span className="text-xs font-semibold text-gold-300 block mb-1">{src.sub}</span>
                         <p className="text-xs text-slate-300">{src.desc}</p>
                       </motion.button>
                     ))}
@@ -1418,7 +1418,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                       <line x1="250" y1="47" x2="250" y2="55" stroke="#6366f1" strokeDasharray="4" />
                     </svg>
                     <div className="text-xs text-slate-300 max-w-xs space-y-1">
-                      <p className="font-bold text-indigo-400">Selected Source Active:</p>
+                      <p className="font-bold text-gold-400">Selected Source Active:</p>
                       <p className="text-slate-200 uppercase font-mono">{activeLegalSource}</p>
                       <p className="text-slate-400">
                         {activeLegalSource === 'shruti' && 'Shruti overrides Smriti in case of conflict; divine authority foundation.'}
@@ -1451,7 +1451,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         }}
                         className={`p-3 rounded-xl border text-left text-xs transition-all ${
                           ancientHierarchyTier === tier.index
-                            ? 'bg-indigo-900/80 border-indigo-500 font-bold text-white ring-2 ring-indigo-500/30'
+                            ? 'bg-gold-900/80 border-gold-500 font-bold text-white ring-2 ring-gold-500/30'
                             : 'bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1598,13 +1598,13 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         setJurisprudenceSlider(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <div className="flex items-center justify-between">
                       <canvas ref={canvasRef} width={280} height={70} className="rounded-lg bg-slate-900 border border-slate-800" aria-label="Animated scales of justice" />
                       <div className="text-xs text-right text-slate-300 space-y-1 max-w-xs">
-                        <p className="font-bold text-indigo-400">Jurisprudential Emphasis:</p>
+                        <p className="font-bold text-gold-400">Jurisprudential Emphasis:</p>
                         <p className="font-mono text-white">
                           {jurisprudenceSlider < 40 ? 'Positivist: Law as Sovereign Command (IPC 1860)' :
                            jurisprudenceSlider > 60 ? 'Natural Law: Moral Justice & Fundamental Rights (Art 21)' :
@@ -1615,8 +1615,8 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   </div>
 
                   {/* Predict-then-Check: Article 13 Touchstone */}
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
-                    <h4 className="text-xs font-bold text-indigo-300 uppercase mb-2">Predict-Then-Check: Article 13 Touchstone Test</h4>
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60">
+                    <h4 className="text-xs font-bold text-gold-300 uppercase mb-2">Predict-Then-Check: Article 13 Touchstone Test</h4>
                     {!predictionMade ? (
                       <div className="space-y-2">
                         <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1630,7 +1630,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                               onClick={() => handlePrediction(i)}
                               className="text-left p-2.5 bg-slate-900 hover:bg-slate-800 rounded-lg text-xs border border-slate-700 text-slate-300"
                             >
-                              <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span> {opt}
+                              <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {opt}
                             </motion.button>
                           ))}
                         </div>
@@ -1668,7 +1668,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         }}
                         className={`px-3 py-2 rounded-xl text-xs border font-medium transition-all ${
                           personalityTheory === t.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white font-bold'
+                            ? 'bg-gold-600 border-gold-400 text-white font-bold'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                         }`}
                       >
@@ -1730,7 +1730,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-semibold shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold shadow-md"
               >
                 Next Step →
               </motion.button>
@@ -1774,7 +1774,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
               {/* Controller 1: Civil vs Criminal Standard of Proof */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-xs font-bold text-indigo-300 uppercase">Standard of Proof Gauge</span>
+                  <span className="text-xs font-bold text-gold-300 uppercase">Standard of Proof Gauge</span>
                   <span className="text-xs font-mono text-amber-400">{standardOfProofSlider}% Probability</span>
                 </div>
                 <input
@@ -1787,7 +1787,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                     setStandardOfProofSlider(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1">
                   <p className="font-bold text-white">
@@ -1840,7 +1840,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
             </div>
 
             {/* Observation Question in Sandbox */}
-            <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
+            <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60">
               <h4 className="text-xs font-bold text-amber-300 uppercase mb-2">Observation Question</h4>
               <p className="text-xs text-slate-200 mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1863,7 +1863,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                           : 'bg-slate-900 hover:bg-slate-800 border-slate-700 text-slate-300'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       <span className="flex-1">{opt}</span>
                       {observationAnswered && (
                         <span className="font-bold" aria-hidden="true">
@@ -1886,7 +1886,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
           <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-slate-500">•</span>
@@ -1905,7 +1905,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                     ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 border-rose-500 text-rose-300'
-                    : 'bg-indigo-950/80 border-indigo-500 text-indigo-300'
+                    : 'bg-gold-950/80 border-gold-500 text-gold-300'
                 }`}
               >
                 {difficulty} Tier
@@ -1919,7 +1919,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
           {/* Progress Bar */}
           <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1958,7 +1958,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                           : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       <span className="flex-1">{opt}</span>
                       {showExplanation && (
                         <span className="font-bold text-base" aria-hidden="true">
@@ -1986,7 +1986,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab shadow-sm"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2005,7 +2005,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                       aria-label={`Drop target for ${target.title}`}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(target.id)}
-                      className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-indigo-500 transition-all text-center min-h-[100px] flex flex-col justify-center items-center"
+                      className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-gold-500 transition-all text-center min-h-[100px] flex flex-col justify-center items-center"
                     >
                       <span className="text-xs text-slate-400 mb-1">{target.title}</span>
                       <span className="text-sm font-bold text-amber-300">
@@ -2020,7 +2020,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -2051,7 +2051,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-sm cursor-grab flex items-center justify-between"
                   >
                     <span>
-                      <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                      <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                     </span>
                     <span className="text-slate-500 text-xs">↕ Drag to reorder</span>
                   </motion.div>
@@ -2062,7 +2062,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md mt-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md mt-2"
                 >
                   Submit Ordered Sequence →
                 </motion.button>
@@ -2079,7 +2079,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                     aria-label="Enter numeric answer"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-slate-400 font-semibold">{challenge.unit}</span>
                 </div>
@@ -2088,7 +2088,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                 >
                   Verify Number →
                 </motion.button>
@@ -2107,7 +2107,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2120,7 +2120,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-medium flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-medium flex items-center gap-1.5"
                     >
                       <span>{part}</span>
                       <button
@@ -2143,7 +2143,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
                 >
                   Verify Constructed Doctrine →
                 </motion.button>
@@ -2155,7 +2155,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/90 to-slate-900 rounded-2xl border border-indigo-700/60 shadow-xl space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/90 to-slate-900 rounded-2xl border border-gold-700/60 shadow-xl space-y-4"
               >
                 <h4 className="text-sm font-bold text-amber-300 uppercase tracking-wider flex items-center gap-2">
                   <span aria-hidden="true">📜</span> Step-by-Step Legal Reasoning Walkthrough:
@@ -2173,7 +2173,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-slate-200 text-sm leading-relaxed"
                       >
-                        <strong className="text-indigo-400 mr-2">{idx + 1}.</strong>
+                        <strong className="text-gold-400 mr-2">{idx + 1}.</strong>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2190,7 +2190,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
                         setRevealedSteps(s => s + 1);
                         audioManager.play('tap');
                       }}
-                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-xl text-xs font-bold"
                     >
                       Reveal Next Step <span>↓</span>
                     </motion.button>
@@ -2216,7 +2216,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Completion Header Card with Personalized Motivational Feedback */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-4">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Curriculum Mastery Achieved!</h2>
             
@@ -2242,7 +2242,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
               </div>
               <div className="p-3 bg-slate-900/90 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Mastery Tier</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-900/90 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Errors Corrected</span>
@@ -2284,7 +2284,7 @@ export function C11_LegalStudiesAncientIndiaHinduSim({
 
           {/* Real-World Activity Scenario Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">📝</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-slate-300 text-sm leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

@@ -11,7 +11,7 @@ export const w_c12_homescienceprinciplesmethodscookingsim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Food Processing: Objectives, Methods and Preservation Techniques',
     chapters: [],
     nodeIds: ['c12_hs_cbse_02_010', 'c12_hs_cbse_09_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you buy fresh tomatoes from the market — within 3 days they turn mushy and mouldy, but a bottle of.', goal: 'Master Food Processing: Objectives, Methods and Preservation Techniques.' },
     discovery: {
         question: 'List the three main objectives of food processing and give one example of a product for each objective where that objective is the PRIMARY driver.',
@@ -20,7 +20,7 @@ export const w_c12_homescienceprinciplesmethodscookingsim: SimDef = {
         hook: 'Students believe "processed food = unhealthy" and "preservatives = harmful chemicals." They equate all processing with.',
     },
     teaching: [
-        { title: 'Food processing is the transformation of raw.', text: 'Food processing is the transformation of raw agricultural produce into safe, palatable, and shelf-stable food products through physical, chemical, or biological methods, while preservation techniques.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Food processing is the transformation of raw.', text: 'Food processing is the transformation of raw agricultural produce into safe, palatable, and shelf-stable food products through physical, chemical, or biological methods, while preservation techniques.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c12_hs_cbse_02_010', title: 'Food processing is the transformation.',

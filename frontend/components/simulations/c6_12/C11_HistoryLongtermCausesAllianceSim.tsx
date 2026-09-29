@@ -1163,7 +1163,7 @@ function C11_HistoryLongtermCausesAllianceSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                 : difficulty === 'standard'
-                ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                 : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
             }`}
           >
@@ -1374,8 +1374,8 @@ function C11_HistoryLongtermCausesAllianceSim({
             {currentSlide === 1 && (
               <div className="space-y-6">
                 {!predictionMade ? (
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
-                    <span className="text-xs font-bold text-indigo-300 uppercase tracking-wide">Predict Before You Test:</span>
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
+                    <span className="text-xs font-bold text-gold-300 uppercase tracking-wide">Predict Before You Test:</span>
                     <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1392,8 +1392,8 @@ function C11_HistoryLongtermCausesAllianceSim({
                     </div>
                   </div>
                 ) : (
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 flex items-center justify-between">
-                    <p className="text-xs text-indigo-200">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 flex items-center justify-between">
+                    <p className="text-xs text-gold-200">
                       Prediction saved! Now test the <strong>Naval Expansion slider</strong> below.
                     </p>
                     {!predictionVerified && (
@@ -1401,7 +1401,7 @@ function C11_HistoryLongtermCausesAllianceSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleVerifyPrediction}
-                        className="px-3 py-1 bg-indigo-600 text-white rounded text-xs font-bold"
+                        className="px-3 py-1 bg-gold-600 text-white rounded text-xs font-bold"
                       >
                         Verify Outcome
                       </motion.button>
@@ -1414,7 +1414,7 @@ function C11_HistoryLongtermCausesAllianceSim({
                     <label htmlFor="naval-slider" className="text-xs font-bold text-slate-300">
                       Germany High Seas Fleet Target: <strong className="text-red-400">{navalSlider} Battleships</strong>
                     </label>
-                    <span className="text-xs text-cyan-400 font-bold">
+                    <span className="text-xs text-gold-400 font-bold">
                       British 2-Power Standard Response: {Math.round(navalSlider * 1.6)} Dreadnoughts
                     </span>
                   </div>
@@ -1510,7 +1510,7 @@ function C11_HistoryLongtermCausesAllianceSim({
                     )}
                     {dominoStep === 3 && (
                       <div>
-                        <span className="text-xs text-cyan-400 font-mono">30 JULY 1914</span>
+                        <span className="text-xs text-gold-400 font-mono">30 JULY 1914</span>
                         <h4 className="text-base font-bold text-white mt-1">Russian General Mobilization</h4>
                         <p className="text-xs text-slate-300 mt-2">Tsar Nicholas II mobilizes in support of Serbia. In Berlin, Russian mobilization automatically triggers the rigid Schlieffen Plan timetable.</p>
                       </div>
@@ -1668,15 +1668,15 @@ function C11_HistoryLongtermCausesAllianceSim({
                     <p className="text-[11px] text-slate-400 mt-1">CCC employed 2.5M youth in forestry.</p>
                   </div>
 
-                  <div className="p-3 bg-slate-950 rounded-xl border border-blue-900/40">
-                    <span className="text-xs font-bold text-blue-400">Recovery: {recoveryBudget}%</span>
+                  <div className="p-3 bg-slate-950 rounded-xl border border-gold-900/40">
+                    <span className="text-xs font-bold text-gold-400">Recovery: {recoveryBudget}%</span>
                     <input
                       type="range"
                       min={10}
                       max={60}
                       value={recoveryBudget}
                       onChange={e => setRecoveryBudget(Number(e.target.value))}
-                      className="w-full accent-blue-500 mt-2"
+                      className="w-full accent-gold-500 mt-2"
                       aria-label="Recovery budget slider"
                     />
                     <p className="text-[11px] text-slate-400 mt-1">TVA built dams for electricity & jobs.</p>
@@ -1741,14 +1741,14 @@ function C11_HistoryLongtermCausesAllianceSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-5 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400">Naval Arms Race Tension</span>
+              <span className="text-xs font-bold text-gold-400">Naval Arms Race Tension</span>
               <input
                 type="range"
                 min={4}
                 max={30}
                 value={navalSlider}
                 onChange={e => handleNavalChange(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
                 aria-label="Sandbox Naval Slider"
               />
               <p className="text-xs text-slate-300">
@@ -1858,7 +1858,7 @@ function C11_HistoryLongtermCausesAllianceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2111,7 +2111,7 @@ function C11_HistoryLongtermCausesAllianceSim({
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                 <p className="font-bold text-white flex items-center gap-1.5">
-                  <span className="text-cyan-400 font-black">Q2.</span> How would you explain this to a friend?
+                  <span className="text-gold-400 font-black">Q2.</span> How would you explain this to a friend?
                 </p>
                 <p className="text-slate-400 leading-relaxed">
                   Explain how Europe in 1914 was like dominoes set on fire, and how Versailles reparations sowed the economic seeds for the 1929 crash and political radicalization.

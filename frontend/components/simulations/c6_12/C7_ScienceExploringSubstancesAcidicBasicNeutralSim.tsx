@@ -58,7 +58,7 @@ export function C7_ScienceExploringSubstancesAcidicBasicNeutralSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Exploring Substances: Acidic, Basic, Neutral</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Exploring Substances: Acidic, Basic, Neutral</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="flex items-center justify-between mt-4 text-sm">
@@ -97,7 +97,7 @@ export function C7_ScienceExploringSubstancesAcidicBasicNeutralSim() {
             </div>
             <button
               onClick={() => { setQueue([...ITEMS].sort(() => Math.random() - 0.5)); setPlaced([]); }}
-              className="mt-3 px-5 py-2 rounded-xl text-sm font-bold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500"
+              className="mt-3 px-5 py-2 rounded-xl text-sm font-bold border bg-gold-600 border-gold-400 hover:bg-gold-500"
             >
               Play again
             </button>
@@ -149,8 +149,8 @@ export function C7_ScienceExploringSubstancesAcidicBasicNeutralSim() {
         </div>
       )}
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Get a full 9/9 in one round without a single wrong bin. Which pairs fooled you the most?</li>
           <li>Predict BEFORE revealing: for any wrong answer, say the litmus result you EXPECTED. Was your litmus rule wrong, or your fact?</li>

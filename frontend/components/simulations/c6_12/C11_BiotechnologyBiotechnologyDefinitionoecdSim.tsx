@@ -1302,7 +1302,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
             key={phase}
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-indigo-900/60 border border-indigo-500/50 text-indigo-300"
+            className="px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-gold-900/60 border border-gold-500/50 text-gold-300"
           >
             Phase: {phase}
           </motion.div>
@@ -1338,14 +1338,14 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-inner"
+            className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-inner"
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-amber-400 text-lg">✨</span>
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-200/80 bg-gold-950/60 p-3 rounded-xl border border-gold-800/40">
               <strong className="text-amber-300">Mission Brief: </strong>
               {SCENARIO.context}
             </p>
@@ -1375,7 +1375,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                       : 'bg-slate-800/90 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1433,10 +1433,10 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
           </div>
 
           {/* Interactive Prediction / Observation Active Callout */}
-          <div className="p-4 bg-indigo-950/40 border border-indigo-700/50 rounded-2xl space-y-2">
+          <div className="p-4 bg-gold-950/40 border border-gold-700/50 rounded-2xl space-y-2">
             <div className="flex items-center gap-2">
               <span className="text-amber-400">💡</span>
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-300">
                 Predict & Observe Lab Task
               </span>
             </div>
@@ -1501,7 +1501,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Starter Inoculum Volume (%)</span>
-                        <span className="text-indigo-400 font-mono">{inoculumPercent} %</span>
+                        <span className="text-gold-400 font-mono">{inoculumPercent} %</span>
                       </div>
                       <input
                         type="range"
@@ -1513,7 +1513,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                           setInoculumPercent(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set starter inoculum"
                       />
                     </div>
@@ -1550,7 +1550,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[11px] text-slate-400">Casein Network Gel</span>
-                        <div className="text-2xl font-black font-mono mt-1 text-indigo-400">
+                        <div className="text-2xl font-black font-mono mt-1 text-gold-400">
                           {coagulationScore}%
                         </div>
                         <span className="text-[10px] text-slate-500">
@@ -1668,12 +1668,12 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                         onClick={() => handleFermentPathwayChange(btn.id as 'homo' | 'hetero' | 'alcoholic')}
                         className={`flex-1 min-w-[200px] p-3 rounded-xl border text-left transition-all ${
                           fermentPathway === btn.id
-                            ? 'bg-indigo-950/80 border-indigo-500 text-white shadow-lg'
+                            ? 'bg-gold-950/80 border-gold-500 text-white shadow-lg'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
                         <div className="font-bold text-xs">{btn.label}</div>
-                        <div className="text-[11px] text-indigo-400/90">{btn.sub}</div>
+                        <div className="text-[11px] text-gold-400/90">{btn.sub}</div>
                       </motion.button>
                     ))}
                   </div>
@@ -1802,7 +1802,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                         }}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           activeBranch === b.id
-                            ? 'bg-slate-800 border-indigo-500 shadow-md'
+                            ? 'bg-slate-800 border-gold-500 shadow-md'
                             : 'bg-slate-900/80 border-slate-800 opacity-70 hover:opacity-100'
                         }`}
                       >
@@ -1816,7 +1816,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex items-center justify-between">
                     <div>
-                      <span className="text-xs font-bold text-indigo-400">Selected Branch Focus:</span>
+                      <span className="text-xs font-bold text-gold-400">Selected Branch Focus:</span>
                       <p className="text-sm text-slate-200 mt-1">
                         {activeBranch === 'green' && 'Agricultural Biotechnology: Uses transgenics & tissue culture to enhance food security.'}
                         {activeBranch === 'red' && 'Medical Biotechnology: Employs rDNA technology to manufacture safe, non-allergic human therapeutics.'}
@@ -1853,7 +1853,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
 
                       <div className="flex justify-between text-xs font-bold text-slate-300 pt-2">
                         <span>Structured Non-Bt Refuge Area</span>
-                        <span className="text-indigo-400 font-mono">{refugeCropPercent}%</span>
+                        <span className="text-gold-400 font-mono">{refugeCropPercent}%</span>
                       </div>
                       <input
                         type="range"
@@ -1861,7 +1861,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                         max={30}
                         value={refugeCropPercent}
                         onChange={(e) => setRefugeCropPercent(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set refuge area"
                       />
                     </div>
@@ -1968,14 +1968,14 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-indigo-400">Fermentation Pathway</span>
+                <span className="text-xs font-bold text-gold-400">Fermentation Pathway</span>
                 <div className="flex gap-2">
                   {(['homo', 'alcoholic'] as const).map((p) => (
                     <button
                       key={p}
                       onClick={() => handleFermentPathwayChange(p)}
                       className={`flex-1 py-1 text-xs rounded-lg font-bold capitalize ${
-                        fermentPathway === p ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        fermentPathway === p ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {p}
@@ -2033,7 +2033,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-indigo-950 border border-indigo-500/40 text-indigo-300 uppercase tracking-wider">
+              <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-gold-950 border border-gold-500/40 text-gold-300 uppercase tracking-wider">
                 NEP 2020: {challenge.competencyLevel}
               </span>
               <span className="text-xs text-slate-400 font-mono">ID: {challenge.nodeId}</span>
@@ -2063,7 +2063,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                           : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2110,7 +2110,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white font-bold text-xs rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white font-bold text-xs rounded-lg cursor-grab shadow"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2170,7 +2170,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="font-mono text-indigo-400 font-bold">{idx + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{idx + 1}.</span>
                     <span>{item}</span>
                   </motion.div>
                 ))}
@@ -2283,7 +2283,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps((s) => s + 1)}
-                      className="px-4 py-1.5 bg-slate-800 text-indigo-300 rounded-lg text-xs font-bold hover:bg-slate-700"
+                      className="px-4 py-1.5 bg-slate-800 text-gold-300 rounded-lg text-xs font-bold hover:bg-slate-700"
                     >
                       Show Next Detail →
                     </motion.button>
@@ -2331,7 +2331,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                 <span className="text-xs text-slate-400">BKT Mastery</span>
-                <div className="text-2xl font-black text-indigo-400 font-mono uppercase">
+                <div className="text-2xl font-black text-gold-400 font-mono uppercase">
                   {masteryLevel}
                 </div>
               </div>
@@ -2368,15 +2368,15 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
           )}
 
           {/* ─── SPACED REPETITION (SRS) VISIBILITY BANNER ─── */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 rounded-3xl border border-indigo-500/40 space-y-3">
+          <div className="p-6 bg-gradient-to-r from-gold-950 via-slate-900 to-gold-950 rounded-3xl border border-gold-500/40 space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-2xl">📅</span>
-              <h3 className="text-base font-bold text-indigo-300">Spaced Repetition Review Plan</h3>
+              <h3 className="text-base font-bold text-gold-300">Spaced Repetition Review Plan</h3>
             </div>
             <p className="text-xs text-slate-300 leading-relaxed">
               Based on your retention metrics (SM-2 memory interval calculation), your next active recall session is scheduled:
             </p>
-            <div className="p-4 bg-slate-950/80 rounded-2xl border border-indigo-700/50 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="p-4 bg-slate-950/80 rounded-2xl border border-gold-700/50 flex flex-col sm:flex-row items-center justify-between gap-3">
               <div>
                 <span className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Recommended SRS Target:</span>
                 <div className="text-lg font-black text-emerald-400">
@@ -2387,17 +2387,17 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                     : 'Review in 1 day (Immediate Concept Solidification)'}
                 </div>
               </div>
-              <div className="px-4 py-2 bg-indigo-900/60 border border-indigo-500/50 rounded-xl text-xs font-mono font-bold text-indigo-200">
+              <div className="px-4 py-2 bg-gold-900/60 border border-gold-500/50 rounded-xl text-xs font-mono font-bold text-gold-200">
                 SRS Node: {nodeId}
               </div>
             </div>
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-700/40 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-700/40 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
-              <h3 className="text-lg font-bold text-indigo-300">Reflective Thinking & Synthesis</h3>
+              <h3 className="text-lg font-bold text-gold-300">Reflective Thinking & Synthesis</h3>
             </div>
             <p className="text-xs text-slate-400">
               Deepen your learning by taking a moment to answer these three synthesis questions:
@@ -2415,7 +2415,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                     setReflectionResponses((prev) => ({ ...prev, surprising: e.target.value }))
                   }
                   placeholder="e.g., How curdling milk at pH 4.6 and making recombinant insulin share the exact same EFB core definition..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:border-indigo-500 outline-none"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2430,7 +2430,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                     setReflectionResponses((prev) => ({ ...prev, explain: e.target.value }))
                   }
                   placeholder="e.g., Biotechnology is using living organisms or enzymes to solve human problems, from dairy fermentation to life-saving medicines..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:border-indigo-500 outline-none"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2445,7 +2445,7 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
                     setReflectionResponses((prev) => ({ ...prev, realLife: e.target.value }))
                   }
                   placeholder="e.g., Understanding vaccine manufacturing at Serum Institute, evaluating GMO safety with GEAC, or patenting inventions..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:border-indigo-500 outline-none"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2453,12 +2453,12 @@ function C11_BiotechnologyBiotechnologyDefinitionoecdSim({
 
           {/* Real-World Activity Capstone */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

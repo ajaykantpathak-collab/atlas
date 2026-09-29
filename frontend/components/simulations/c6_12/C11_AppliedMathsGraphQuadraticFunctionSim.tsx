@@ -1148,13 +1148,13 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-xl bg-indigo-600/30 flex items-center justify-center text-3xl border border-indigo-500/40 shadow-inner"
+            className="w-12 h-12 rounded-xl bg-gold-600/30 flex items-center justify-center text-3xl border border-gold-500/40 shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider uppercase text-indigo-400 bg-indigo-950/60 px-2 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs font-bold tracking-wider uppercase text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded-full border border-gold-800">
                 ISC Class 11 Applied Maths
               </span>
               <span className="text-xs text-slate-400 font-mono">10 Competency Units</span>
@@ -1174,7 +1174,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                 ? 'bg-emerald-950/70 border-emerald-600 text-emerald-400'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-600 text-rose-400'
-                : 'bg-indigo-950/70 border-indigo-500 text-indigo-300'
+                : 'bg-gold-950/70 border-gold-500 text-gold-300'
             }`}
           >
             {difficulty} Tier
@@ -1189,8 +1189,8 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2 uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2 uppercase tracking-wider">
               <span>🚀</span> Mission Scenario
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
@@ -1212,7 +1212,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
           {/* Curiosity Hook Question */}
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
             <h3 className="text-base sm:text-lg font-bold text-white">
-              <span className="text-indigo-400 mr-2">Curiosity Diagnostic:</span>
+              <span className="text-gold-400 mr-2">Curiosity Diagnostic:</span>
               {DISCOVERY_QUESTION.question}
             </h3>
             <div className="grid grid-cols-1 gap-3">
@@ -1245,7 +1245,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToPrediction}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
                 >
                   <span>Begin Predict-Then-Check Phase</span>
                   <span>→</span>
@@ -1285,7 +1285,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   onClick={() => !predictionSubmitted && setPredictionSelected(i)}
                   className={`w-full text-left p-4 rounded-xl text-sm font-medium transition-all border ${
                     predictionSelected === i && !predictionSubmitted
-                      ? 'bg-indigo-600/30 border-indigo-500 text-white'
+                      ? 'bg-gold-600/30 border-gold-500 text-white'
                       : predictionSubmitted && i === PREDICTION_QUESTIONS[activePredictionIdx].correctIndex
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : predictionSubmitted && predictionSelected === i && i !== PREDICTION_QUESTIONS[activePredictionIdx].correctIndex
@@ -1305,7 +1305,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handlePredictionSubmit}
                   disabled={predictionSelected === null}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
                 >
                   Confirm Hypothesis & Check
                 </motion.button>
@@ -1351,7 +1351,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                 onClick={() => setCurrentSlide(idx)}
                 className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-800/60 text-slate-400 hover:text-white'
                 }`}
               >
@@ -1382,7 +1382,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
               {currentSlide === 0 && (
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   <div className="lg:col-span-5 space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">Quadratic Coefficients</h3>
+                    <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Quadratic Coefficients</h3>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
@@ -1396,7 +1396,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                         step={0.5}
                         value={coeffA}
                         onChange={(e) => setCoeffA(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set quadratic coefficient a"
                       />
                     </div>
@@ -1413,7 +1413,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                         step={1}
                         value={coeffB}
                         onChange={(e) => setCoeffB(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set quadratic coefficient b"
                       />
                     </div>
@@ -1430,7 +1430,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                         step={1}
                         value={coeffC}
                         onChange={(e) => setCoeffC(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set quadratic constant c"
                       />
                     </div>
@@ -1438,7 +1438,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 space-y-1.5 text-xs">
                       <div className="flex justify-between text-slate-300">
                         <span>Equation:</span>
-                        <span className="font-mono text-indigo-300 font-bold">
+                        <span className="font-mono text-gold-300 font-bold">
                           f(x) = {coeffA}x² {coeffB >= 0 ? `+ ${coeffB}` : coeffB}x {coeffC >= 0 ? `+ ${coeffC}` : coeffC}
                         </span>
                       </div>
@@ -1533,7 +1533,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div>
-                      <label className="text-xs text-slate-400 block mb-1">Critical Root 1 (r₁): <span className="text-indigo-300 font-bold">{root1}</span></label>
+                      <label className="text-xs text-slate-400 block mb-1">Critical Root 1 (r₁): <span className="text-gold-300 font-bold">{root1}</span></label>
                       <input
                         type="range"
                         min={-5}
@@ -1541,12 +1541,12 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                         step={1}
                         value={root1}
                         onChange={(e) => setRoot1(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set critical root 1"
                       />
                     </div>
                     <div>
-                      <label className="text-xs text-slate-400 block mb-1">Critical Root 2 (r₂): <span className="text-indigo-300 font-bold">{root2}</span></label>
+                      <label className="text-xs text-slate-400 block mb-1">Critical Root 2 (r₂): <span className="text-gold-300 font-bold">{root2}</span></label>
                       <input
                         type="range"
                         min={1}
@@ -1554,7 +1554,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                         step={1}
                         value={root2}
                         onChange={(e) => setRoot2(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set critical root 2"
                       />
                     </div>
@@ -1630,7 +1630,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setTotalItemsN(num)}
                             className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                              totalItemsN === num ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              totalItemsN === num ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {num}
@@ -1712,7 +1712,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                       onClick={() => setGroupsLabelled(prev => !prev)}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                         groupsLabelled
-                          ? 'bg-indigo-600/30 border-indigo-500 text-indigo-300'
+                          ? 'bg-gold-600/30 border-gold-500 text-gold-300'
                           : 'bg-emerald-950/60 border-emerald-500 text-emerald-300'
                       }`}
                     >
@@ -1724,19 +1724,19 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex items-center justify-between">
                         <span className="text-xs font-bold text-slate-300">{groupsLabelled ? 'Station Alpha (3)' : 'Pile 1 (3 items)'}</span>
-                        <span className="text-[10px] text-indigo-400">6C3 = 20 ways</span>
+                        <span className="text-[10px] text-gold-400">6C3 = 20 ways</span>
                       </div>
                       <div className="flex gap-2">
-                        <span className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center font-bold text-xs">S1</span>
-                        <span className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center font-bold text-xs">S2</span>
-                        <span className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center font-bold text-xs">S3</span>
+                        <span className="w-8 h-8 rounded-lg bg-gold-600 flex items-center justify-center font-bold text-xs">S1</span>
+                        <span className="w-8 h-8 rounded-lg bg-gold-600 flex items-center justify-center font-bold text-xs">S2</span>
+                        <span className="w-8 h-8 rounded-lg bg-gold-600 flex items-center justify-center font-bold text-xs">S3</span>
                       </div>
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex items-center justify-between">
                         <span className="text-xs font-bold text-slate-300">{groupsLabelled ? 'Station Beta (3)' : 'Pile 2 (3 items)'}</span>
-                        <span className="text-[10px] text-indigo-400">3C3 = 1 way</span>
+                        <span className="text-[10px] text-gold-400">3C3 = 1 way</span>
                       </div>
                       <div className="flex gap-2">
                         <span className="w-8 h-8 rounded-lg bg-purple-600 flex items-center justify-center font-bold text-xs">S4</span>
@@ -1772,7 +1772,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                               setSelectedTermK(k => Math.min(k, p));
                             }}
                             className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                              binomialPowerN === p ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              binomialPowerN === p ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             (x + y)^{p}
@@ -1787,7 +1787,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   </div>
 
                   <div className="p-6 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-xs text-indigo-300 uppercase font-bold mb-3">
+                    <span className="text-xs text-gold-300 uppercase font-bold mb-3">
                       Row {binomialPowerN} Coefficients ({binomialPowerN}C₀ ... {binomialPowerN}C_{binomialPowerN})
                     </span>
 
@@ -1817,7 +1817,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Formula:</span>
-                        <span className="font-mono text-indigo-300 font-bold">
+                        <span className="font-mono text-gold-300 font-bold">
                           T({selectedTermK + 1}) = {binomialPowerN}C{selectedTermK} · x^({binomialPowerN - selectedTermK}) · y^({selectedTermK})
                         </span>
                       </div>
@@ -1855,7 +1855,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1884,7 +1884,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Quadratic Sandbox with direct live reactive sliders */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase">Interactive Parabola Apex Sandbox</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase">Interactive Parabola Apex Sandbox</h3>
               <div className="space-y-3">
                 <div>
                   <div className="flex justify-between text-xs text-slate-400">
@@ -1898,7 +1898,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                     step={0.5}
                     value={coeffA}
                     onChange={(e) => setCoeffA(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Sandbox quadratic coefficient a"
                   />
                 </div>
@@ -1914,7 +1914,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                     step={1}
                     value={coeffB}
                     onChange={(e) => setCoeffB(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Sandbox quadratic coefficient b"
                   />
                 </div>
@@ -1950,7 +1950,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs">
                 <span className="text-slate-400 block mb-1">Pascal Row {binomialPowerN}:</span>
-                <span className="font-mono font-bold text-indigo-300">{pascalRow.join('  —  ')}</span>
+                <span className="font-mono font-bold text-gold-300">{pascalRow.join('  —  ')}</span>
               </div>
             </div>
           </div>
@@ -1960,7 +1960,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
+              className="px-8 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
             >
               <span>Ready for Quantitative Challenges!</span>
               <span>→</span>
@@ -1976,7 +1976,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
             <div className="flex items-center justify-between">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <div className="text-xs text-slate-400 font-mono mt-0.5">
@@ -1993,7 +1993,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
             {/* Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2047,7 +2047,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2076,7 +2076,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2116,7 +2116,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Confirm Sorted Sequence
                 </motion.button>
@@ -2132,7 +2132,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     aria-label="Enter numerical answer"
                   />
                   {challenge.unit && <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>}
@@ -2141,7 +2141,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
                   >
                     Submit
                   </motion.button>
@@ -2160,7 +2160,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2169,7 +2169,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900/90 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-mono flex items-center gap-1.5">
+                    <span key={i} className="px-3 py-1 bg-gold-900/90 text-gold-200 border border-gold-700 rounded-lg text-xs font-mono flex items-center gap-1.5">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
@@ -2189,7 +2189,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
                 >
                   Verify Constructed Formula
                 </motion.button>
@@ -2201,10 +2201,10 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/50 border border-indigo-800 rounded-xl space-y-4"
+                className="mt-6 p-5 bg-gold-950/50 border border-gold-800 rounded-xl space-y-4"
               >
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                  <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                     <span>💡</span> Rigorous Mathematical Derivation
                   </div>
                   <span className="text-[10px] text-slate-400 font-mono">
@@ -2220,7 +2220,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="p-3 bg-slate-900/80 rounded-lg border border-slate-800 text-xs sm:text-sm text-slate-200 leading-relaxed font-sans"
                     >
-                      <span className="font-bold text-indigo-400 mr-2">Step {sIdx + 1}:</span>
+                      <span className="font-bold text-gold-400 mr-2">Step {sIdx + 1}:</span>
                       {stepText}
                     </motion.div>
                   ))}
@@ -2232,7 +2232,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(prev => prev + 1)}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow flex items-center gap-1.5"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow flex items-center gap-1.5"
                     >
                       <span>Show next step</span>
                       <span>({revealedSteps + 1}/{explanationSteps.length})</span>
@@ -2258,7 +2258,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
       {/* ─── COMPLETION PHASE WITH SPACED REPETITION VISIBILITY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-3xl border border-indigo-800 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-3xl border border-gold-800 shadow-2xl text-center space-y-4">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2291,7 +2291,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
               </div>
               <div className="p-3 bg-slate-950/70 rounded-xl border border-slate-800">
                 <p className="text-[10px] text-slate-400 uppercase font-bold">BKT Mastery</p>
-                <p className="text-xl font-bold text-indigo-300 capitalize">{masteryLevel}</p>
+                <p className="text-xl font-bold text-gold-300 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-3 bg-slate-950/70 rounded-xl border border-slate-800">
                 <p className="text-[10px] text-slate-400 uppercase font-bold">Spaced Repetition</p>
@@ -2318,7 +2318,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
             <button
               onClick={() => setActiveCompleteTab('summary')}
               className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                activeCompleteTab === 'summary' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                activeCompleteTab === 'summary' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
               }`}
             >
               Motivational Feedback
@@ -2326,7 +2326,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
             <button
               onClick={() => setActiveCompleteTab('misconceptions')}
               className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                activeCompleteTab === 'misconceptions' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                activeCompleteTab === 'misconceptions' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
               }`}
             >
               Misconceptions Profile ({hitMisconceptions.length})
@@ -2334,7 +2334,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
             <button
               onClick={() => setActiveCompleteTab('reflection')}
               className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                activeCompleteTab === 'reflection' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                activeCompleteTab === 'reflection' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
               }`}
             >
               Reflective Thinking
@@ -2342,7 +2342,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
             <button
               onClick={() => setActiveCompleteTab('activity')}
               className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                activeCompleteTab === 'activity' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                activeCompleteTab === 'activity' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
               }`}
             >
               Real-World Capstone
@@ -2384,7 +2384,7 @@ function C11_AppliedMathsGraphQuadraticFunctionSim({
 
             {activeCompleteTab === 'reflection' && (
               <div className="space-y-3 text-xs text-slate-300">
-                <h3 className="text-sm font-bold text-indigo-300 uppercase">Metacognitive Reflection Prompts</h3>
+                <h3 className="text-sm font-bold text-gold-300 uppercase">Metacognitive Reflection Prompts</h3>
                 <ul className="space-y-2 list-disc list-inside text-slate-400">
                   <li>Why does multiplying an inequality by a negative number reverse the direction on a number line?</li>
                   <li>How does the symmetry of Pascal\'s Triangle relate to the combination identity ⁿCᵣ = ⁿCₙ₋ᵣ?</li>

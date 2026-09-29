@@ -11,7 +11,7 @@ export const w_c10_sciencehowdoorganismsreproducesim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Acquired vs Inherited Traits: Distinction and Examples',
     chapters: [],
     nodeIds: ['c10_bio_cbse_04_006', 'c10_bio_cbse_04_007', 'c10_bio_cbse_04_005', 'c10_bio_cbse_04_009', 'c10_bio_cbse_04_001', 'c10_bio_cbse_03_001', 'c10_bio_cbse_03_003', 'c10_bio_cbse_03_004', 'c10_bio_cbse_04_010', 'c10_bio_cbse_04_008', 'c10_bio_cbse_04_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a wrestler with highly developed muscles from years of training — his children are not born with.', goal: 'Master Acquired vs Inherited Traits: Distinction and Examples.' },
     discovery: {
         question: 'A student writes: "A blacksmith develops strong arm muscles due to hammering.',
@@ -20,7 +20,7 @@ export const w_c10_sciencehowdoorganismsreproducesim: SimDef = {
         hook: 'Students believe that "traits developed during lifetime due to use/disuse or environment become part of the organism\'s.',
     },
     teaching: [
-        { title: 'Acquired traits are characteristics.', text: 'Acquired traits are characteristics developed by an organism during its lifetime due to environmental influences, use/disuse of organs, or learned behaviors, which do not involve changes in the DNA.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Acquired traits are characteristics.', text: 'Acquired traits are characteristics developed by an organism during its lifetime due to environmental influences, use/disuse of organs, or learned behaviors, which do not involve changes in the DNA.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_bio_cbse_04_006', title: 'Acquired traits are characteristics.',

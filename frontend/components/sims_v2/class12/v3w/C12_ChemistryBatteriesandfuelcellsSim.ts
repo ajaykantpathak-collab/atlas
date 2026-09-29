@@ -11,7 +11,7 @@ export const w_c12_chemistrybatteriesandfuelcellssim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Electrochemical Cells: Galvanic and Electrolytic',
     chapters: [],
     nodeIds: ['c12_chem_cbse_02_001', 'c12_chem_cbse_02_007', 'c12_chem_cbse_02_008', 'c12_chem_cbse_02_009', 'c12_chem_cbse_02_002', 'c12_chem_cbse_02_003', 'c12_chem_cbse_02_004', 'c12_chem_cbse_02_005', 'c12_chem_cbse_02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution.', goal: 'Master Electrochemical Cells: Galvanic and Electrolytic.' },
     discovery: {
         question: 'Explain why the voltage of a mercury cell remains constant throughout its life while a dry cell voltage decreases gradually.',
@@ -20,7 +20,7 @@ export const w_c12_chemistrybatteriesandfuelcellssim: SimDef = {
         hook: 'Students write the dry cell cathode reaction as MnO₂ + 4H⁺ + 4e⁻ → Mn²⁺ + 2H₂O (acidic medium reduction) instead of the.',
     },
     teaching: [
-        { title: 'An electrochemical cell is a device that.', text: 'An electrochemical cell is a device that interconverts chemical energy and electrical energy through spontaneous (galvanic cell) or non-spontaneous (electrolytic cell) redox reactions.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An electrochemical cell is a device that.', text: 'An electrochemical cell is a device that interconverts chemical energy and electrical energy through spontaneous (galvanic cell) or non-spontaneous (electrolytic cell) redox reactions.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_02_001', title: 'An electrochemical cell is a device.',

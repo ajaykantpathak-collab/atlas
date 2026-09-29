@@ -1101,7 +1101,7 @@ function C11_BiologyMitosisdetailedStagesSim({
             className={`text-xs font-black uppercase px-3 py-1 rounded-xl border ${
               difficulty === 'foundation' ? 'bg-emerald-900/60 border-emerald-500 text-emerald-300' :
               difficulty === 'advanced' ? 'bg-purple-900/60 border-purple-500 text-purple-300' :
-              'bg-blue-900/60 border-blue-500 text-blue-300'
+              'bg-gold-900/60 border-gold-500 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1348,7 +1348,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block">Plant vs Animal</span>
-                        <span className="text-blue-400 font-bold">Anastral (No Asters)</span>
+                        <span className="text-gold-400 font-bold">Anastral (No Asters)</span>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block">Key Purpose</span>
@@ -1370,7 +1370,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleChiasmaToggle}
-                      className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                       aria-label="Trigger crossing over animation"
                     >
                       {chiasmaClicked ? 'Revert Recombination' : 'Trigger Crossing Over at Chiasma'}
@@ -1507,7 +1507,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block">Oxygen (O2) Released?</span>
-                        <span className="text-blue-400 font-bold">{photophosphoType === 'non-cyclic' ? 'YES (Photolysis)' : 'NO'}</span>
+                        <span className="text-gold-400 font-bold">{photophosphoType === 'non-cyclic' ? 'YES (Photolysis)' : 'NO'}</span>
                       </div>
                     </div>
                   </div>
@@ -1519,8 +1519,8 @@ function C11_BiologyMitosisdetailedStagesSim({
                 <div className="space-y-4">
                   {/* Predict-then-check container */}
                   {!predictionMade && (
-                    <div className="p-3 bg-indigo-950/70 border border-indigo-800 rounded-xl">
-                      <p className="text-xs md:text-sm font-semibold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-3 bg-gold-950/70 border border-gold-800 rounded-xl">
+                      <p className="text-xs md:text-sm font-semibold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1642,7 +1642,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       max={100}
                       value={respirationOxygen}
                       onChange={(e) => handleRespirationOxygenChange(Number(e.target.value))}
-                      className="w-48 accent-indigo-500"
+                      className="w-48 accent-gold-500"
                       aria-label="Adjust cellular oxygen percentage"
                     />
                     <span className={`text-xs font-bold px-2.5 py-1 rounded-lg ${
@@ -1706,7 +1706,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block">Location</span>
-                        <span className="text-blue-400 font-bold">{respirationOxygen > 30 ? 'Matrix + Cristae' : 'Cytoplasm Only'}</span>
+                        <span className="text-gold-400 font-bold">{respirationOxygen > 30 ? 'Matrix + Cristae' : 'Cytoplasm Only'}</span>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block">TCA Nature</span>
@@ -1746,7 +1746,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-extrabold flex items-center gap-1 shadow-lg shadow-indigo-950"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-extrabold flex items-center gap-1 shadow-lg shadow-gold-950"
                     aria-label="Open sandbox mode"
                   >
                     <span>Enter Free Sandbox</span>
@@ -1764,7 +1764,7 @@ function C11_BiologyMitosisdetailedStagesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div>
-              <h3 className="text-lg font-bold text-indigo-300">🧪 Bioenergetics & Cytology Sandbox</h3>
+              <h3 className="text-lg font-bold text-gold-300">🧪 Bioenergetics & Cytology Sandbox</h3>
               <p className="text-xs text-slate-400 mt-0.5">Manipulate environmental and mitotic parameters without test pressure.</p>
             </div>
             <motion.button
@@ -1839,7 +1839,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                 <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-slate-300">
                   Node: {challenge.nodeId}
                 </span>
-                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800 uppercase">
+                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800 uppercase">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -1910,7 +1910,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                       role="button"
                       aria-label={`Draggable label ${item.label}`}
                     >
@@ -2041,7 +2041,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-md text-xs flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-900 border border-gold-700 text-gold-200 rounded-md text-xs flex items-center gap-1"
                     >
                       <span>{part}</span>
                       <button onClick={() => setConstructParts(p => p.filter((_, i) => i !== idx))} className="text-rose-400 font-bold ml-1">✕</button>
@@ -2108,7 +2108,7 @@ function C11_BiologyMitosisdetailedStagesSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-700 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-700 text-center space-y-3">
             <h2 className="text-2xl md:text-3xl font-black text-white">🏆 Module Mastered!</h2>
             <p className="text-sm text-emerald-300 font-medium">Class 11 ISC Biology: Mitosis, Meiosis & Plant-Cell Bioenergetics</p>
             <div className="flex justify-center gap-6 pt-2">
@@ -2118,7 +2118,7 @@ function C11_BiologyMitosisdetailedStagesSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-center min-w-[100px]">
                 <span className="text-xs text-slate-400 block">BKT Mastery</span>
-                <span className="text-xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2146,7 +2146,7 @@ function C11_BiologyMitosisdetailedStagesSim({
           </div>
 
           {/* ─── PROMINENT SPACED REPETITION (SRS) SCHEDULE VISIBILITY ─── */}
-          <div className="p-5 bg-gradient-to-br from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border-2 border-amber-600/80 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-br from-amber-950/60 via-slate-900 to-gold-950/60 rounded-2xl border-2 border-amber-600/80 shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2.5">
                 <span className="text-2xl">📅</span>
@@ -2199,7 +2199,7 @@ function C11_BiologyMitosisdetailedStagesSim({
 
           {/* Reflection Section */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🤔</span> Post-Simulation Reflection & Metacognition
             </h3>
             <div className="space-y-3">
@@ -2210,7 +2210,7 @@ function C11_BiologyMitosisdetailedStagesSim({
                 </p>
               </div>
               <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800">
-                <p className="text-xs font-bold text-indigo-400 mb-1">2. How would you explain this to a friend?</p>
+                <p className="text-xs font-bold text-gold-400 mb-1">2. How would you explain this to a friend?</p>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   Try summarizing how C4 Kranz anatomy functions like a physical turbo-charger that pumps CO2 directly to RuBisCO to eliminate oxygen interference during high tropical heat.
                 </p>

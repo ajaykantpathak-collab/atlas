@@ -574,13 +574,13 @@ export default function C8_PhysicsLightCBSESim() {
       <SparkleBurst show={showSparkle} x={600} y={300} />
 
       {/* HEADER BAR */}
-      <header className="bg-slate-900 border-b border-cyan-800/50 px-6 py-4 flex items-center justify-between shadow-lg relative z-20">
+      <header className="bg-slate-900 border-b border-gold-800/50 px-6 py-4 flex items-center justify-between shadow-lg relative z-20">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-xl shadow-md shadow-cyan-500/30">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-xl shadow-md shadow-gold-500/30">
             ☀️
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-blue-300 to-indigo-200 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-200 bg-clip-text text-transparent">
               ISRO Ray Optics Diagnostic Lab
             </h1>
             <p className="text-xs text-slate-400">Class 8 Physics • CBSE Light & Optical Instrumentation</p>
@@ -594,11 +594,11 @@ export default function C8_PhysicsLightCBSESim() {
             <div className="flex items-center space-x-2">
               <div className="w-28 bg-slate-800 h-2.5 rounded-full overflow-hidden border border-slate-700">
                 <div
-                  className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-500"
+                  className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-500"
                   style={{ width: `${overallMastery * 100}%` }}
                 />
               </div>
-              <span className="text-xs font-semibold text-cyan-300">{(overallMastery * 100).toFixed(0)}%</span>
+              <span className="text-xs font-semibold text-gold-300">{(overallMastery * 100).toFixed(0)}%</span>
             </div>
           </div>
 
@@ -617,7 +617,7 @@ export default function C8_PhysicsLightCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            phase === 'intro' ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            phase === 'intro' ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           🚀 Mission Briefing
@@ -628,7 +628,7 @@ export default function C8_PhysicsLightCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            phase === 'discovery' ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            phase === 'discovery' ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           ❓ Discovery Predictor
@@ -639,7 +639,7 @@ export default function C8_PhysicsLightCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            phase === 'teach' ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            phase === 'teach' ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           🔬 Optics Physics Lab
@@ -650,7 +650,7 @@ export default function C8_PhysicsLightCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            phase === 'arena' ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            phase === 'arena' ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           🎯 Diagnostic Challenges
@@ -661,7 +661,7 @@ export default function C8_PhysicsLightCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-            phase === 'summary' ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            phase === 'summary' ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           📊 Mission Mastery Report
@@ -679,15 +679,15 @@ export default function C8_PhysicsLightCBSESim() {
             animate={{ opacity: 1, y: 0 }}
             className="space-y-6 max-w-4xl mx-auto my-auto py-6"
           >
-            <div className="bg-slate-900/90 border border-cyan-500/30 rounded-2xl p-8 shadow-2xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -z-10 pointer-events-none" />
-              <span className="inline-block px-3 py-1 bg-cyan-950 text-cyan-400 border border-cyan-800 rounded-full text-xs font-semibold uppercase tracking-wider mb-4">
+            <div className="bg-slate-900/90 border border-gold-500/30 rounded-2xl p-8 shadow-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl -z-10 pointer-events-none" />
+              <span className="inline-block px-3 py-1 bg-gold-950 text-gold-400 border border-gold-800 rounded-full text-xs font-semibold uppercase tracking-wider mb-4">
                 ISRO Space Payload Diagnostics
               </span>
               <h2 className="text-3xl font-extrabold text-white mb-4 leading-tight">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-lg leading-relaxed mb-6">{SCENARIO.intro}</p>
               <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-slate-400 text-sm mb-8">
-                <strong className="text-cyan-400 font-semibold">Laboratory Directives:</strong> {SCENARIO.context}
+                <strong className="text-gold-400 font-semibold">Laboratory Directives:</strong> {SCENARIO.context}
               </div>
 
               {/* Topics Grid Overview */}
@@ -704,7 +704,7 @@ export default function C8_PhysicsLightCBSESim() {
                   'Braille Code System',
                 ].map((item, idx) => (
                   <div key={idx} className="bg-slate-800/60 p-3 rounded-lg border border-slate-700/50 flex items-center space-x-2">
-                    <span className="text-cyan-400 text-xs">✓</span>
+                    <span className="text-gold-400 text-xs">✓</span>
                     <span className="text-xs text-slate-200 font-medium">{item}</span>
                   </div>
                 ))}
@@ -717,7 +717,7 @@ export default function C8_PhysicsLightCBSESim() {
                     audioManager.play('swoop');
                     speechManager.speak('Let us begin with a quick prediction challenge!');
                   }}
-                  className="px-8 py-3.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-500/25 transition-all transform hover:scale-[1.02]"
+                  className="px-8 py-3.5 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-500/25 transition-all transform hover:scale-[1.02]"
                 >
                   Start Mission Diagnostics →
                 </button>
@@ -730,7 +730,7 @@ export default function C8_PhysicsLightCBSESim() {
         {phase === 'discovery' && (
           <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="max-w-3xl mx-auto my-auto w-full">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-xl">
-              <div className="flex items-center space-x-2 mb-4 text-cyan-400 text-sm font-semibold uppercase">
+              <div className="flex items-center space-x-2 mb-4 text-gold-400 text-sm font-semibold uppercase">
                 <span>Predict-Before-You-Learn</span>
                 <span>•</span>
                 <span>Hypothesis Test</span>
@@ -762,8 +762,8 @@ export default function C8_PhysicsLightCBSESim() {
               </div>
 
               {discoveryAnswered && (
-                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 border border-cyan-800/60 rounded-xl mb-6">
-                  <p className="text-xs text-cyan-300 font-semibold uppercase mb-1">Scientific Insight:</p>
+                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 border border-gold-800/60 rounded-xl mb-6">
+                  <p className="text-xs text-gold-300 font-semibold uppercase mb-1">Scientific Insight:</p>
                   <p className="text-sm text-slate-300 leading-relaxed">{DISCOVERY_QUESTION.hintAfter}</p>
                 </motion.div>
               )}
@@ -779,7 +779,7 @@ export default function C8_PhysicsLightCBSESim() {
                   }}
                   className={`px-6 py-2.5 rounded-xl font-bold text-sm transition-all ${
                     discoveryAnswered
-                      ? 'bg-cyan-600 hover:bg-cyan-500 text-white shadow-md shadow-cyan-600/30'
+                      ? 'bg-gold-600 hover:bg-gold-500 text-white shadow-md shadow-gold-600/30'
                       : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                   }`}
                 >
@@ -805,7 +805,7 @@ export default function C8_PhysicsLightCBSESim() {
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                       currentSlideIndex === idx
-                        ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                        ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                         : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white'
                     }`}
                   >
@@ -830,7 +830,7 @@ export default function C8_PhysicsLightCBSESim() {
               {/* LEFT 5 COLS: Concept Explanation & Controls */}
               <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between shadow-xl">
                 <div>
-                  <span className="text-xs text-cyan-400 font-mono uppercase tracking-wider">
+                  <span className="text-xs text-gold-400 font-mono uppercase tracking-wider">
                     Module {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                   </span>
                   <h3 className="text-xl font-bold text-white mt-1 mb-1">{TEACHING_SLIDES[currentSlideIndex].title}</h3>
@@ -841,9 +841,9 @@ export default function C8_PhysicsLightCBSESim() {
                   </div>
 
                   {TEACHING_SLIDES[currentSlideIndex].formula && (
-                    <div className="p-3 bg-cyan-950/40 border border-cyan-800/60 rounded-lg mb-4">
-                      <span className="text-[10px] text-cyan-400 uppercase font-semibold block mb-0.5">Physical Law Formula:</span>
-                      <code className="text-sm font-mono text-cyan-200 font-bold">
+                    <div className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-lg mb-4">
+                      <span className="text-[10px] text-gold-400 uppercase font-semibold block mb-0.5">Physical Law Formula:</span>
+                      <code className="text-sm font-mono text-gold-200 font-bold">
                         {TEACHING_SLIDES[currentSlideIndex].formula}
                       </code>
                     </div>
@@ -861,7 +861,7 @@ export default function C8_PhysicsLightCBSESim() {
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Angle of Incidence (∠i):</span>
-                            <span className="font-mono text-cyan-400 font-bold">{incidentAngle}°</span>
+                            <span className="font-mono text-gold-400 font-bold">{incidentAngle}°</span>
                           </div>
                           <input
                             type="range"
@@ -872,7 +872,7 @@ export default function C8_PhysicsLightCBSESim() {
                               setIncidentAngle(parseInt(e.target.value));
                               audioManager.play('tap');
                             }}
-                            className="w-full accent-cyan-400 cursor-pointer"
+                            className="w-full accent-gold-400 cursor-pointer"
                           />
                         </div>
 
@@ -882,7 +882,7 @@ export default function C8_PhysicsLightCBSESim() {
                               type="checkbox"
                               checked={showNormal}
                               onChange={(e) => setShowNormal(e.target.checked)}
-                              className="accent-cyan-400 rounded"
+                              className="accent-gold-400 rounded"
                             />
                             <span>Show Normal Line (90°)</span>
                           </label>
@@ -898,7 +898,7 @@ export default function C8_PhysicsLightCBSESim() {
                               }}
                               className={`flex-1 py-1.5 text-xs rounded-lg font-medium border capitalize transition-all ${
                                 reflectionMode === mode
-                                  ? 'bg-cyan-600 border-cyan-400 text-white'
+                                  ? 'bg-gold-600 border-gold-400 text-white'
                                   : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-white'
                               }`}
                             >
@@ -924,7 +924,7 @@ export default function C8_PhysicsLightCBSESim() {
                                 }}
                                 className={`py-1.5 text-xs rounded-lg font-medium capitalize border transition-all ${
                                   refractionMedium === med
-                                    ? 'bg-cyan-600 border-cyan-400 text-white'
+                                    ? 'bg-gold-600 border-gold-400 text-white'
                                     : 'bg-slate-800 border-slate-700 text-slate-400'
                                 }`}
                               >
@@ -937,7 +937,7 @@ export default function C8_PhysicsLightCBSESim() {
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Incident Light Angle in Air (∠i):</span>
-                            <span className="font-mono text-cyan-400 font-bold">{refractionIncAngle}°</span>
+                            <span className="font-mono text-gold-400 font-bold">{refractionIncAngle}°</span>
                           </div>
                           <input
                             type="range"
@@ -945,7 +945,7 @@ export default function C8_PhysicsLightCBSESim() {
                             max="80"
                             value={refractionIncAngle}
                             onChange={(e) => setRefractionIncAngle(parseInt(e.target.value))}
-                            className="w-full accent-cyan-400 cursor-pointer"
+                            className="w-full accent-gold-400 cursor-pointer"
                           />
                         </div>
 
@@ -978,7 +978,7 @@ export default function C8_PhysicsLightCBSESim() {
                               }}
                               className={`flex-1 py-1.5 text-xs font-bold rounded-lg border capitalize transition-all ${
                                 lensType === type
-                                  ? 'bg-cyan-600 border-cyan-400 text-white'
+                                  ? 'bg-gold-600 border-gold-400 text-white'
                                   : 'bg-slate-800 border-slate-700 text-slate-400'
                               }`}
                             >
@@ -990,7 +990,7 @@ export default function C8_PhysicsLightCBSESim() {
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Object Distance from Lens (u):</span>
-                            <span className="font-mono text-cyan-400 font-bold">{objectDistance} px</span>
+                            <span className="font-mono text-gold-400 font-bold">{objectDistance} px</span>
                           </div>
                           <input
                             type="range"
@@ -998,14 +998,14 @@ export default function C8_PhysicsLightCBSESim() {
                             max="300"
                             value={objectDistance}
                             onChange={(e) => setObjectDistance(parseInt(e.target.value))}
-                            className="w-full accent-cyan-400 cursor-pointer"
+                            className="w-full accent-gold-400 cursor-pointer"
                           />
                         </div>
 
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Lens Focal Length (f):</span>
-                            <span className="font-mono text-cyan-400 font-bold">{focalLength} px</span>
+                            <span className="font-mono text-gold-400 font-bold">{focalLength} px</span>
                           </div>
                           <input
                             type="range"
@@ -1013,7 +1013,7 @@ export default function C8_PhysicsLightCBSESim() {
                             max="150"
                             value={focalLength}
                             onChange={(e) => setFocalLength(parseInt(e.target.value))}
-                            className="w-full accent-cyan-400 cursor-pointer"
+                            className="w-full accent-gold-400 cursor-pointer"
                           />
                         </div>
                       </div>
@@ -1035,7 +1035,7 @@ export default function C8_PhysicsLightCBSESim() {
                                 }}
                                 className={`py-1.5 text-[11px] rounded-lg font-bold capitalize border transition-all ${
                                   eyeCondition === cond
-                                    ? 'bg-cyan-600 border-cyan-400 text-white'
+                                    ? 'bg-gold-600 border-gold-400 text-white'
                                     : 'bg-slate-800 border-slate-700 text-slate-400'
                                 }`}
                               >
@@ -1049,7 +1049,7 @@ export default function C8_PhysicsLightCBSESim() {
                           <div>
                             <div className="flex justify-between text-xs text-slate-300 mb-1">
                               <span>Corrective Eyeglass Lens Power:</span>
-                              <span className="font-mono text-cyan-400 font-bold">
+                              <span className="font-mono text-gold-400 font-bold">
                                 {correctivePower > 0 ? `+${correctivePower}` : correctivePower} D
                               </span>
                             </div>
@@ -1063,7 +1063,7 @@ export default function C8_PhysicsLightCBSESim() {
                                 setCorrectivePower(parseFloat(e.target.value));
                                 audioManager.play('tap');
                               }}
-                              className="w-full accent-cyan-400 cursor-pointer"
+                              className="w-full accent-gold-400 cursor-pointer"
                             />
                             <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                               <span>-4 D (Concave / Myopia)</span>
@@ -1111,7 +1111,7 @@ export default function C8_PhysicsLightCBSESim() {
                   <span className="text-xs font-bold text-slate-400 uppercase tracking-wide">
                     Real-Time Ray Tracing Simulation Sandbox
                   </span>
-                  <span className="text-xs font-mono text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800">
+                  <span className="text-xs font-mono text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800">
                     Physics Engine Active
                   </span>
                 </div>
@@ -1528,7 +1528,7 @@ export default function C8_PhysicsLightCBSESim() {
                         audioManager.play('swoop');
                       }
                     }}
-                    className="px-4 py-1.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg text-xs font-semibold shadow-md shadow-cyan-600/30"
+                    className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold shadow-md shadow-gold-600/30"
                   >
                     {currentSlideIndex < TEACHING_SLIDES.length - 1 ? 'Next Slide →' : 'Start Challenges →'}
                   </button>
@@ -1544,12 +1544,12 @@ export default function C8_PhysicsLightCBSESim() {
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center justify-between shadow-lg">
               <div className="flex items-center space-x-3">
-                <span className="w-8 h-8 rounded-lg bg-cyan-950 border border-cyan-700 text-cyan-400 flex items-center justify-center font-bold text-sm">
+                <span className="w-8 h-8 rounded-lg bg-gold-950 border border-gold-700 text-gold-400 flex items-center justify-center font-bold text-sm">
                   {currentChallengeIndex + 1}
                 </span>
                 <div>
                   <h4 className="text-sm font-bold text-white">Diagnostic Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}</h4>
-                  <p className="text-xs text-slate-400">Node Ref: <code className="text-cyan-400">{CHALLENGES[currentChallengeIndex].nodeId}</code></p>
+                  <p className="text-xs text-slate-400">Node Ref: <code className="text-gold-400">{CHALLENGES[currentChallengeIndex].nodeId}</code></p>
                 </div>
               </div>
 
@@ -1590,7 +1590,7 @@ export default function C8_PhysicsLightCBSESim() {
                             ? idx === CHALLENGES[currentChallengeIndex].correctIndex
                               ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                               : 'bg-rose-950 border-rose-500 text-rose-200'
-                            : 'bg-cyan-950 border-cyan-500 text-cyan-200 shadow-md shadow-cyan-500/10'
+                            : 'bg-gold-950 border-gold-500 text-gold-200 shadow-md shadow-gold-500/10'
                           : 'bg-slate-800/60 hover:bg-slate-800 border-slate-700/80 text-slate-200'
                       }`}
                     >
@@ -1616,7 +1616,7 @@ export default function C8_PhysicsLightCBSESim() {
                       value={numericAnswer}
                       onChange={(e) => setNumericAnswer(e.target.value)}
                       placeholder="e.g. 60"
-                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono font-bold text-lg focus:outline-none focus:border-cyan-500 w-48"
+                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono font-bold text-lg focus:outline-none focus:border-gold-500 w-48"
                     />
                     <span className="text-slate-300 font-semibold text-sm">
                       {CHALLENGES[currentChallengeIndex].unit}
@@ -1646,7 +1646,7 @@ export default function C8_PhysicsLightCBSESim() {
                         selectedOption === null)
                     }
                     onClick={handleAnswerChallenge}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-cyan-600/30 transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 transition-all"
                   >
                     Submit Diagnostics →
                   </button>
@@ -1682,7 +1682,7 @@ export default function C8_PhysicsLightCBSESim() {
         {phase === 'summary' && (
           <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="max-w-4xl mx-auto my-auto w-full space-y-6 py-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-2xl text-center relative overflow-hidden">
-              <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-emerald-400 to-cyan-500 mx-auto flex items-center justify-center text-3xl shadow-lg shadow-emerald-500/30 mb-4">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-emerald-400 to-gold-500 mx-auto flex items-center justify-center text-3xl shadow-lg shadow-emerald-500/30 mb-4">
                 🏆
               </div>
               <h2 className="text-3xl font-extrabold text-white mb-2">ISRO Telescope Optics Calibrated!</h2>
@@ -1697,7 +1697,7 @@ export default function C8_PhysicsLightCBSESim() {
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <span className="text-xs text-slate-400 uppercase font-semibold block mb-1">BKT Mastery Level</span>
-                  <span className="text-3xl font-mono font-bold text-cyan-400">{(overallMastery * 100).toFixed(0)}%</span>
+                  <span className="text-3xl font-mono font-bold text-gold-400">{(overallMastery * 100).toFixed(0)}%</span>
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <span className="text-xs text-slate-400 uppercase font-semibold block mb-1">Nodes Verified</span>
@@ -1737,7 +1737,7 @@ export default function C8_PhysicsLightCBSESim() {
                     setCurrentChallengeIndex(0);
                     audioManager.play('swoop');
                   }}
-                  className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-cyan-600/30 transition-all"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 transition-all"
                 >
                   🎯 Replay Diagnostic Challenges
                 </button>

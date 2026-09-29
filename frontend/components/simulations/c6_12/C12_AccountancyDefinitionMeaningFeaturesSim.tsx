@@ -1150,7 +1150,7 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/70 border-emerald-500/50 text-emerald-400'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/70 border-blue-500/50 text-blue-400'
+                ? 'bg-gold-950/70 border-gold-500/50 text-gold-400'
                 : 'bg-rose-950/70 border-rose-500/50 text-rose-400'
             }`}
           >
@@ -1315,7 +1315,7 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                       )}
                       {activePartnerNode === 'bhavna' && (
                         <p>
-                          <strong className="text-blue-400">Bhavna (Client Partner):</strong> When Bhavna secures royal handicraft orders, she represents all partners. Co-ownership without mutual agency is merely joint property (like co-inheriting a rental flat).
+                          <strong className="text-gold-400">Bhavna (Client Partner):</strong> When Bhavna secures royal handicraft orders, she represents all partners. Co-ownership without mutual agency is merely joint property (like co-inheriting a rental flat).
                         </p>
                       )}
                       {activePartnerNode === 'chetan' && (
@@ -1434,8 +1434,8 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                   </div>
 
                   {/* Observation Question 1 */}
-                  <div className="p-4 bg-slate-900 rounded-xl border border-indigo-700/40 space-y-3">
-                    <p className="text-xs font-bold text-indigo-300">🔍 OBSERVATION CHECK 1:</p>
+                  <div className="p-4 bg-slate-900 rounded-xl border border-gold-700/40 space-y-3">
+                    <p className="text-xs font-bold text-gold-300">🔍 OBSERVATION CHECK 1:</p>
                     <p className="text-sm text-white font-medium">{OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 gap-2">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1480,7 +1480,7 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                       onClick={() => setCapitalMethod('fluctuating')}
                       className={`flex-1 py-3 px-4 rounded-xl text-xs font-bold border transition-all ${
                         capitalMethod === 'fluctuating'
-                          ? 'bg-blue-600 text-white border-blue-400 shadow-md'
+                          ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                           : 'bg-slate-900 text-slate-400 border-slate-800'
                       }`}
                     >
@@ -1520,8 +1520,8 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                   </div>
 
                   {/* Observation Question 2 */}
-                  <div className="p-4 bg-slate-900 rounded-xl border border-indigo-700/40 space-y-3">
-                    <p className="text-xs font-bold text-indigo-300">🔍 OBSERVATION CHECK 2:</p>
+                  <div className="p-4 bg-slate-900 rounded-xl border border-gold-700/40 space-y-3">
+                    <p className="text-xs font-bold text-gold-300">🔍 OBSERVATION CHECK 2:</p>
                     <p className="text-sm text-white font-medium">{OBSERVATION_QUESTIONS[1].question}</p>
                     <div className="grid grid-cols-1 gap-2">
                       {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => (
@@ -1622,7 +1622,7 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                           <p className="text-slate-400">Bhavna (30% - Def)</p>
-                          <p className="text-base font-bold text-blue-400 mt-1">
+                          <p className="text-base font-bold text-gold-400 mt-1">
                             ₹{Math.round(simCalculations.finalShareB).toLocaleString('en-IN')}
                           </p>
                           {simCalculations.deficiency > 0 && (
@@ -1747,7 +1747,7 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                   step={25000}
                   value={loanAmountSlider}
                   onChange={(e) => setLoanAmountSlider(Number(e.target.value))}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox Loan Slider"
                 />
               </div>
@@ -1801,7 +1801,7 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
                     <span>Aarav Final Share:</span>
                     <span className="font-bold">₹{Math.round(simCalculations.finalShareA).toLocaleString('en-IN')}</span>
                   </div>
-                  <div className="flex justify-between items-center text-blue-300">
+                  <div className="flex justify-between items-center text-gold-300">
                     <span>Bhavna Final Share:</span>
                     <span className="font-bold">₹{Math.round(simCalculations.finalShareB).toLocaleString('en-IN')}</span>
                   </div>
@@ -2151,17 +2151,17 @@ function C12_AccountancyDefinitionMeaningFeaturesSim({
           </div>
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-4 bg-slate-900/90 rounded-2xl border border-indigo-500/50 flex flex-wrap items-center justify-between gap-3">
+          <div className="p-4 bg-slate-900/90 rounded-2xl border border-gold-500/50 flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-3">
               <span className="text-2xl">📅</span>
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Spaced Repetition Schedule</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Spaced Repetition Schedule</p>
                 <p className="text-sm text-slate-200">
-                  Next recommended review: <strong className="text-indigo-300">in {srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}</strong>
+                  Next recommended review: <strong className="text-gold-300">in {srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}</strong>
                 </p>
               </div>
             </div>
-            <span className="px-3 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700/60 rounded-xl text-xs font-mono font-semibold">
+            <span className="px-3 py-1 bg-gold-950 text-gold-300 border border-gold-700/60 rounded-xl text-xs font-mono font-semibold">
               {errors === 0 ? 'Optimal Retention (7d)' : errors <= 3 ? 'Reinforce Soon (3d)' : 'Immediate Review (1d)'}
             </span>
           </div>

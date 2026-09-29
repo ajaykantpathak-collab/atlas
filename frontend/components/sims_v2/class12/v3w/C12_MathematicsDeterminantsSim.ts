@@ -11,7 +11,7 @@ export const w_c12_mathematicsdeterminantssim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Determinant of a Square Matrix: Definition',
     chapters: [],
     nodeIds: ['c12_math_cbse_04_001', 'c12_math_cbse_04_002', 'c12_math_cbse_04_003', 'c12_math_cbse_04_004', 'c12_math_cbse_04_005', 'c12_math_cbse_04_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are running a small stationery shop and need to find the individual prices of pens and notebooks.', goal: 'Master Determinant of a Square Matrix: Definition.' },
     discovery: {
         question: 'What is the determinant of the matrix A = [7] (a 1×1 matrix), and why does the definition of determinant require the matrix to be square?',
@@ -20,7 +20,7 @@ export const w_c12_mathematicsdeterminantssim: SimDef = {
         hook: 'Students treat |A| as the modulus (absolute value) of the matrix and write |A| = ± value, or they attempt to compute.',
     },
     teaching: [
-        { title: 'A determinant is a scalar value (real or.', text: 'A determinant is a scalar value (real or complex) associated uniquely with every square matrix A = [aᵢⱼ] of order n, denoted by |A|, det A, or Δ.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A determinant is a scalar value (real or.', text: 'A determinant is a scalar value (real or complex) associated uniquely with every square matrix A = [aᵢⱼ] of order n, denoted by |A|, det A, or Δ.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_04_001', title: 'A determinant is a scalar value (real.',

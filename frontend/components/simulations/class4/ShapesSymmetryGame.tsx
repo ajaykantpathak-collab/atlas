@@ -78,7 +78,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Tessellation Tiling! 🐝",
     text: "Tessellation is tiling a surface with no gaps and no overlaps! Squares, equilateral triangles, and hexagons tile perfectly because their corners add up to 360 degrees!",
     emoji: "🐝",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Tessellation is tiling a surface with no gaps and no overlaps! Squares and hexagons tile perfectly because their corners add up to 360 degrees!"
   },
   {
@@ -729,8 +729,8 @@ export function ShapesSymmetryGame({ width = 720, height = 560, onComplete }: Sh
             <div className="flex items-center gap-1.5 bg-amber-100 px-3 py-1 rounded-full border border-amber-300">
               <span className="text-xs font-bold text-amber-800">Score: {score}</span>
             </div>
-            <div className="flex items-center gap-1.5 bg-indigo-100 px-3 py-1 rounded-full border border-indigo-300">
-              <span className="text-xs font-bold text-indigo-800">Challenge {challengeIdx + 1} / {CHALLENGES.length}</span>
+            <div className="flex items-center gap-1.5 bg-gold-100 px-3 py-1 rounded-full border border-gold-300">
+              <span className="text-xs font-bold text-gold-800">Challenge {challengeIdx + 1} / {CHALLENGES.length}</span>
             </div>
             <StarRow count={Math.min(5, Math.floor(score / 20))} total={5} />
           </div>

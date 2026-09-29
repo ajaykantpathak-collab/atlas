@@ -11,7 +11,7 @@ export const w_c12_biologylinkagecrossingoversim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Linkage and Recombination: Morgan\'s Experiments',
     chapters: [],
     nodeIds: ['c12_bio_cbse_05_007', 'c12_bio_cbse_05_001', 'c12_bio_cbse_05_002', 'c12_bio_cbse_05_003', 'c12_bio_cbse_05_004', 'c12_bio_cbse_05_005', 'c12_bio_cbse_01_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin with a familiar observation: in a dihybrid cross of Drosophila (e.g., grey body × black body and normal.', goal: 'Master Linkage and Recombination: Morgan\'s Experiments.' },
     discovery: {
         question: 'Why did Morgan choose Drosophila melanogaster for his linkage studies, and what specific feature of Drosophila males makes them unique for linkage analysis?',
@@ -20,7 +20,7 @@ export const w_c12_biologylinkagecrossingoversim: SimDef = {
         hook: 'Students often think "linkage means genes are always inherited together and never separate." In reality, linked genes.',
     },
     teaching: [
-        { title: 'Linkage is the tendency of genes located on.', text: 'Linkage is the tendency of genes located on the same chromosome to be inherited together during meiosis because they do not assort independently; recombination is the production of new allele.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Linkage is the tendency of genes located on.', text: 'Linkage is the tendency of genes located on the same chromosome to be inherited together during meiosis because they do not assort independently; recombination is the production of new allele.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_05_007', title: 'Linkage is the tendency of genes.',

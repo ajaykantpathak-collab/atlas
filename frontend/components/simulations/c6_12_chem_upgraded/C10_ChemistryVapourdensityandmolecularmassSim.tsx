@@ -1301,19 +1301,19 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
   }, [mixGas1, mixGas2, mixPercent1]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-cyan-500 selection:text-white">
+    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-gold-500 selection:text-white">
       {/* HEADER SECTION */}
       <header className="max-w-6xl mx-auto mb-6 flex flex-col md:flex-row items-start md:items-center justify-between border-b border-slate-800 pb-4 gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="bg-cyan-950 text-cyan-400 text-xs px-2.5 py-0.5 rounded-full border border-cyan-800 font-semibold uppercase tracking-wider">
+            <span className="bg-gold-950 text-gold-400 text-xs px-2.5 py-0.5 rounded-full border border-gold-800 font-semibold uppercase tracking-wider">
               ICSE Class 10 Chemistry
             </span>
             <span className="bg-amber-950 text-amber-400 text-xs px-2.5 py-0.5 rounded-full border border-amber-800 font-semibold uppercase tracking-wider">
               Stoichiometry & Gas Laws
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-amber-300">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-amber-300">
             Vapour Density & Molecular Mass
           </h1>
           <p className="text-xs md:text-sm text-slate-400 mt-1">
@@ -1330,7 +1330,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center">
             <div className="text-xs text-slate-400 uppercase tracking-wider">Mastery</div>
-            <div className="text-xl font-bold text-cyan-400">
+            <div className="text-xl font-bold text-gold-400">
               {Math.round((completedChallengesCount / CHALLENGES.length) * 100)}%
             </div>
           </div>
@@ -1343,7 +1343,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
           onClick={() => { triggerAudio('tap'); setActiveTab('discovery'); }}
           className={`py-2.5 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'discovery'
-              ? 'bg-gradient-to-r from-cyan-600 to-sky-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
           }`}
         >
@@ -1354,7 +1354,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
           onClick={() => { triggerAudio('tap'); setActiveTab('lab'); }}
           className={`py-2.5 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'lab'
-              ? 'bg-gradient-to-r from-cyan-600 to-sky-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
           }`}
         >
@@ -1365,7 +1365,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
           onClick={() => { triggerAudio('tap'); setActiveTab('challenges'); }}
           className={`py-2.5 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'challenges'
-              ? 'bg-gradient-to-r from-cyan-600 to-sky-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
           }`}
         >
@@ -1376,7 +1376,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
           onClick={() => { triggerAudio('tap'); setActiveTab('summary'); }}
           className={`py-2.5 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
             activeTab === 'summary'
-              ? 'bg-gradient-to-r from-cyan-600 to-sky-600 text-white shadow-md'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
           }`}
         >
@@ -1393,16 +1393,16 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
           <div className="space-y-6">
             {/* Scenario Narrative Box */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl">🏛️</span>
-                <h2 className="text-xl md:text-2xl font-bold text-cyan-300">{SCENARIO.title}</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-gold-300">{SCENARIO.title}</h2>
               </div>
               <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-4">
                 {SCENARIO.intro}
               </p>
               <div className="bg-slate-950/60 rounded-xl p-4 border border-slate-800/80 text-xs md:text-sm text-slate-400 leading-relaxed">
-                <strong className="text-cyan-400 font-semibold">Laboratory Context: </strong>
+                <strong className="text-gold-400 font-semibold">Laboratory Context: </strong>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1434,7 +1434,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                       cardStyle = 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-60';
                     }
                   } else if (isSelected) {
-                    cardStyle = 'bg-cyan-950/80 border-cyan-500 text-cyan-200 font-semibold';
+                    cardStyle = 'bg-gold-950/80 border-gold-500 text-gold-200 font-semibold';
                   }
 
                   return (
@@ -1462,13 +1462,13 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                 <button
                   disabled={selectedDiscoveryOption === null}
                   onClick={handleDiscoverySubmit}
-                  className="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-cyan-500 to-sky-500 hover:from-cyan-400 hover:to-sky-400 text-white font-bold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg"
+                  className="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-gold-500 to-gold-500 hover:from-gold-400 hover:to-gold-400 text-white font-bold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg"
                 >
                   Submit & Reveal Insight
                 </button>
               ) : (
-                <div className="bg-cyan-950/40 border border-cyan-800/60 rounded-xl p-4 text-xs md:text-sm text-cyan-200 leading-relaxed">
-                  <strong className="text-cyan-400 font-bold block mb-1">Scientific Insight:</strong>
+                <div className="bg-gold-950/40 border border-gold-800/60 rounded-xl p-4 text-xs md:text-sm text-gold-200 leading-relaxed">
+                  <strong className="text-gold-400 font-bold block mb-1">Scientific Insight:</strong>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1533,7 +1533,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                   }}
                   className={`py-2 px-3 rounded-lg text-xs font-semibold transition-all ${
                     activeExplorationIndex === idx
-                      ? 'bg-cyan-600 text-white shadow'
+                      ? 'bg-gold-600 text-white shadow'
                       : 'bg-slate-800/50 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1546,7 +1546,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
             <div className="bg-slate-900/80 border border-slate-800 p-4 rounded-xl flex items-start gap-3">
               <span className="text-2xl">💡</span>
               <div>
-                <h4 className="text-sm font-bold text-cyan-300">
+                <h4 className="text-sm font-bold text-gold-300">
                   {EXPLORATION_STEPS[activeExplorationIndex].title}
                 </h4>
                 <p className="text-xs text-slate-300 mt-1">
@@ -1573,7 +1573,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                         }}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           selectedGas.id === gas.id
-                            ? 'bg-slate-800 border-cyan-400 shadow-lg'
+                            ? 'bg-slate-800 border-gold-400 shadow-lg'
                             : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:bg-slate-800/40'
                         }`}
                       >
@@ -1585,7 +1585,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
 
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
                     <div className="text-xs text-slate-400">Mathematical Proof (Avogadro's Hypothesis):</div>
-                    <div className="text-xs font-mono text-cyan-300">
+                    <div className="text-xs font-mono text-gold-300">
                       VD = Mass of 1L {selectedGas.formula} / Mass of 1L H₂<br/>
                       VD = {selectedGas.molecularMass.toFixed(2)} / 2.016<br/>
                       <span className="text-amber-400 font-bold">VD = {selectedGas.vapourDensity.toFixed(2)}</span>
@@ -1630,7 +1630,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Temperature (T):</span>
-                      <span className="font-bold text-cyan-400">{temperatureK} K ({temperatureK - 273}°C)</span>
+                      <span className="font-bold text-gold-400">{temperatureK} K ({temperatureK - 273}°C)</span>
                     </div>
                     <input
                       type="range"
@@ -1642,7 +1642,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                         triggerAudio('swoop');
                         setTemperatureK(parseInt(e.target.value));
                       }}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1701,7 +1701,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                       step="0.005"
                       value={vmLiquidMass}
                       onChange={(e) => setVmLiquidMass(parseFloat(e.target.value) || 0)}
-                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-cyan-300 font-mono"
+                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-gold-300 font-mono"
                     />
                   </div>
 
@@ -1718,7 +1718,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
 
                   <button
                     onClick={calculateVictorMeyer}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl shadow-md transition-all"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md transition-all"
                   >
                     Vaporize & Determine Molar Mass
                   </button>
@@ -1727,7 +1727,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                     <div className="bg-slate-950 p-4 rounded-xl border border-emerald-500/50 space-y-2">
                       <div className="text-xs text-emerald-400 font-bold">CALCULATION RESULTS:</div>
                       <div className="text-xs text-slate-300">
-                        Moles of Vapor = {vmDisplacedVolume} / 22400 = <span className="font-mono text-cyan-300">{(vmDisplacedVolume / 22400).toFixed(5)} mol</span>
+                        Moles of Vapor = {vmDisplacedVolume} / 22400 = <span className="font-mono text-gold-300">{(vmDisplacedVolume / 22400).toFixed(5)} mol</span>
                       </div>
                       <div className="text-xs text-slate-300">
                         Molecular Mass M = {vmLiquidMass} / {(vmDisplacedVolume / 22400).toFixed(5)} = <span className="font-mono text-amber-300 font-bold">{vmCalculatedMW} g/mol</span>
@@ -1788,7 +1788,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Volume % of {mixGas1.name}:</span>
-                      <span className="font-bold text-cyan-400">{mixPercent1}% ({mixGas1.formula}) / {100 - mixPercent1}% ({mixGas2.formula})</span>
+                      <span className="font-bold text-gold-400">{mixPercent1}% ({mixGas1.formula}) / {100 - mixPercent1}% ({mixGas2.formula})</span>
                     </div>
                     <input
                       type="range"
@@ -1797,7 +1797,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                       step="5"
                       value={mixPercent1}
                       onChange={(e) => setMixPercent1(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1805,7 +1805,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                     <div className="text-xs text-amber-400 font-bold uppercase tracking-wider">Mixture Analysis Output</div>
                     <div className="flex justify-between text-xs text-slate-300">
                       <span>Effective Mean Molecular Mass:</span>
-                      <span className="font-mono text-cyan-300 font-bold">{meanVDCalculated.meanMW} g/mol</span>
+                      <span className="font-mono text-gold-300 font-bold">{meanVDCalculated.meanMW} g/mol</span>
                     </div>
                     <div className="flex justify-between text-xs text-slate-300">
                       <span>Mean Relative Vapour Density:</span>
@@ -1859,7 +1859,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                         setPercentC(val);
                         setPercentH(parseFloat((100 - val).toFixed(1)));
                       }}
-                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-cyan-300 font-mono"
+                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-gold-300 font-mono"
                     />
                   </div>
 
@@ -1891,7 +1891,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
 
                   <button
                     onClick={calculateEmpiricalFormula}
-                    className="w-full py-3 bg-gradient-to-r from-cyan-600 to-sky-600 hover:from-cyan-500 hover:to-sky-500 text-white font-bold text-xs rounded-xl shadow-md transition-all"
+                    className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-xs rounded-xl shadow-md transition-all"
                   >
                     Deduce Molecular Formula
                   </button>
@@ -1901,7 +1901,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                       <div className="text-xs text-emerald-400 font-bold">DERIVATION RESULT:</div>
                       <div className="text-xs text-slate-300">Empirical Formula: <span className="font-bold text-purple-400">{derivedFormula.ef}</span></div>
                       <div className="text-xs text-slate-300">Molecular Weight = 2 × {inputVD} = <span className="font-bold text-amber-400">{inputVD * 2} g/mol</span></div>
-                      <div className="text-xs text-slate-300">Multiplier n = <span className="font-bold text-cyan-400">{derivedFormula.n}</span></div>
+                      <div className="text-xs text-slate-300">Multiplier n = <span className="font-bold text-gold-400">{derivedFormula.n}</span></div>
                       <div className="text-xs text-emerald-300 font-bold text-sm">Molecular Formula: {derivedFormula.mf}</div>
                     </div>
                   )}
@@ -1915,13 +1915,13 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
 
             {/* Mandatory Observation Questions Section */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-300 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 mb-4 flex items-center gap-2">
                 <span>👁️</span> Observation Questions (Post-Lab Analysis)
               </h3>
               <div className="space-y-6">
                 {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
                   <div key={oIdx} className="bg-slate-950/60 p-5 rounded-xl border border-slate-800">
-                    <div className="text-xs text-cyan-400 font-bold mb-1">OBSERVATION #{oIdx + 1}</div>
+                    <div className="text-xs text-gold-400 font-bold mb-1">OBSERVATION #{oIdx + 1}</div>
                     <div className="text-sm font-semibold text-slate-200 mb-3">{obs.question}</div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {obs.observableOptions.map((opt, optIdx) => (
@@ -1990,7 +1990,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                     key={i}
                     className={`w-2.5 h-2.5 rounded-full transition-all ${
                       i === currentChallengeIndex
-                        ? 'bg-cyan-400 scale-125'
+                        ? 'bg-gold-400 scale-125'
                         : i < currentChallengeIndex
                         ? 'bg-emerald-500'
                         : 'bg-slate-800'
@@ -2025,7 +2025,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                         btnStyle = 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-50';
                       }
                     } else if (isSelected) {
-                      btnStyle = 'bg-cyan-950/90 border-cyan-500 text-cyan-200 font-bold';
+                      btnStyle = 'bg-gold-950/90 border-gold-500 text-gold-200 font-bold';
                     }
 
                     return (
@@ -2065,7 +2065,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                         setNumericAnswerInput(e.target.value);
                         resetInactivityTimer();
                       }}
-                      className="bg-slate-950 border border-slate-700 rounded-xl p-3.5 text-sm text-cyan-300 font-mono focus:border-cyan-400 focus:outline-none w-full max-w-xs"
+                      className="bg-slate-950 border border-slate-700 rounded-xl p-3.5 text-sm text-gold-300 font-mono focus:border-gold-400 focus:outline-none w-full max-w-xs"
                     />
                     {currentChallenge.unit && (
                       <span className="text-sm font-semibold text-slate-400">{currentChallenge.unit}</span>
@@ -2108,7 +2108,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
                       (currentChallenge.type === 'mcq' && selectedChallengeOption === null) ||
                       (currentChallenge.type === 'numeric' && numericAnswerInput.trim() === '')
                     }
-                    className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-sky-500 hover:from-cyan-400 hover:to-sky-400 text-white font-bold rounded-xl text-xs md:text-sm disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg"
+                    className="px-8 py-3 bg-gradient-to-r from-gold-500 to-gold-500 hover:from-gold-400 hover:to-gold-400 text-white font-bold rounded-xl text-xs md:text-sm disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-lg"
                   >
                     Submit Answer
                   </button>
@@ -2146,7 +2146,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((stepText, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
+                    <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 border border-gold-800 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                       {sIdx + 1}
                     </span>
                     <div>{stepText}</div>
@@ -2178,7 +2178,7 @@ const C10_ChemistryVapourdensityandmolecularmassSim: React.FC<{
 
             {/* Node Mastery Breakdown Grid */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-300 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 mb-4 flex items-center gap-2">
                 <span>📊</span> Topic Concept Mastery (BKT Tracker)
               </h3>
 

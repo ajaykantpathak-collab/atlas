@@ -403,7 +403,7 @@ const WaterPolaritySim: React.FC<{
 
   return (
     <div className="flex flex-col items-center bg-slate-900 p-4 rounded-xl text-white w-full border border-slate-700">
-      <div className="text-sm font-semibold mb-2 text-sky-300">
+      <div className="text-sm font-semibold mb-2 text-gold-300">
         Water Molecule Polarity (O: δ-, H: δ+) & NaCl Dissolution
       </div>
       <svg width="400" height="240" viewBox="0 0 400 240" className="bg-slate-950 rounded-lg shadow-inner">
@@ -475,7 +475,7 @@ const WaterPolaritySim: React.FC<{
         <button
           onClick={handleDissolve}
           disabled={stirring || ions[0].dissolved}
-          className="px-4 py-2 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-medium rounded-lg text-xs transition"
+          className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-medium rounded-lg text-xs transition"
         >
           {stirring ? 'Stirring Water...' : 'Stir & Dissolve Salt'}
         </button>
@@ -579,7 +579,7 @@ const TyndallEffectSim: React.FC = () => {
             key={s}
             onClick={() => handleSelectSample(s)}
             className={`px-3 py-1.5 rounded text-xs capitalize font-medium transition ${
-              sample === s ? 'bg-sky-500 text-white shadow-lg' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              sample === s ? 'bg-gold-500 text-white shadow-lg' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             {s}
@@ -748,19 +748,19 @@ const CarbonAllotropeSim: React.FC = () => {
   return (
     <div className="flex flex-col items-center bg-slate-900 p-4 rounded-xl text-white w-full border border-slate-700">
       <div className="flex justify-between items-center w-full mb-3">
-        <span className="text-sm font-semibold text-indigo-300">
+        <span className="text-sm font-semibold text-gold-300">
           Carbon Allotropes: {allotrope === 'diamond' ? 'Diamond Lattice' : 'Graphite Sheet Layers'}
         </span>
         <div className="flex gap-2">
           <button
             onClick={() => toggleAllotrope('diamond')}
-            className={`px-3 py-1 rounded text-xs font-semibold ${allotrope === 'diamond' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+            className={`px-3 py-1 rounded text-xs font-semibold ${allotrope === 'diamond' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
           >
             Diamond
           </button>
           <button
             onClick={() => toggleAllotrope('graphite')}
-            className={`px-3 py-1 rounded text-xs font-semibold ${allotrope === 'graphite' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+            className={`px-3 py-1 rounded text-xs font-semibold ${allotrope === 'graphite' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
           >
             Graphite
           </button>
@@ -1087,7 +1087,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
       {/* Top Header Bar */}
       <header className="w-full max-w-5xl bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2.5 py-1 rounded-full border border-sky-800">
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950 px-2.5 py-1 rounded-full border border-gold-800">
             Class 7 ICSE • Chemistry
           </span>
           <h1 className="text-xl md:text-2xl font-black text-white mt-1">
@@ -1099,31 +1099,31 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
         <nav className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs font-medium">
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('prediction'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'prediction' ? 'bg-sky-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'prediction' ? 'bg-gold-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
           >
             Predict
           </button>
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('slides'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'slides' ? 'bg-sky-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'slides' ? 'bg-gold-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
           >
             Visual Lessons
           </button>
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('lab'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'lab' ? 'bg-sky-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'lab' ? 'bg-gold-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
           >
             Lab Workbench
           </button>
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('quiz'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'quiz' ? 'bg-sky-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'quiz' ? 'bg-gold-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
           >
             Challenges ({currentChallengeIdx + 1}/{CHALLENGES.length})
           </button>
           <button
             onClick={() => { audioManager.play('tap'); setActiveTab('mastery'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'mastery' ? 'bg-sky-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'mastery' ? 'bg-gold-600 text-white font-bold' : 'text-slate-400 hover:text-white'}`}
           >
             Mastery
           </button>
@@ -1170,14 +1170,14 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
                 animate={{ opacity: 1, y: 0 }}
                 className="bg-slate-950 border border-slate-800 p-4 rounded-xl max-w-2xl text-xs text-slate-300 mb-4"
               >
-                <p className="font-semibold text-sky-400 mb-1">Scientific Explanation:</p>
+                <p className="font-semibold text-gold-400 mb-1">Scientific Explanation:</p>
                 {DISCOVERY_PREDICTION.options[predictionChoice!].explanation}
               </motion.div>
             )}
 
             <button
               onClick={() => { audioManager.play('swoop'); setActiveTab('slides'); }}
-              className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-sm transition shadow-lg"
+              className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm transition shadow-lg"
             >
               Start Visual Learning Lessons →
             </button>
@@ -1239,7 +1239,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
 
               <button
                 onClick={() => { audioManager.play('tap'); setActiveTab('lab'); }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold transition"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold transition"
               >
                 Open Lab Workbench 🧪
               </button>
@@ -1247,7 +1247,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
               <button
                 disabled={currentSlideIdx === TEACHING_SLIDES.length - 1}
                 onClick={() => { audioManager.play('tap'); setCurrentSlideIdx(s => s + 1); }}
-                className="px-4 py-2 bg-sky-600 disabled:opacity-40 text-white rounded-lg text-xs font-semibold hover:bg-sky-500 transition"
+                className="px-4 py-2 bg-gold-600 disabled:opacity-40 text-white rounded-lg text-xs font-semibold hover:bg-gold-500 transition"
               >
                 Next Lesson →
               </button>
@@ -1273,7 +1273,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-xs font-bold text-sky-400 mb-2 uppercase tracking-wide">Node c7_chem_017: Solution & Colloids</h3>
+                <h3 className="text-xs font-bold text-gold-400 mb-2 uppercase tracking-wide">Node c7_chem_017: Solution & Colloids</h3>
                 <TyndallEffectSim />
               </div>
               <div>
@@ -1281,7 +1281,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
                 <HardnessLatherSim />
               </div>
               <div>
-                <h3 className="text-xs font-bold text-indigo-400 mb-2 uppercase tracking-wide">Node c7_chem_019: Carbon Allotropes</h3>
+                <h3 className="text-xs font-bold text-gold-400 mb-2 uppercase tracking-wide">Node c7_chem_019: Carbon Allotropes</h3>
                 <CarbonAllotropeSim />
               </div>
               <div>
@@ -1324,7 +1324,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
                 {CHALLENGES[currentChallengeIdx].options.map((option, idx) => {
                   let btnStyle = 'bg-slate-800 border-slate-700 hover:border-slate-500 text-slate-200';
                   if (selectedOption === idx) {
-                    btnStyle = 'bg-sky-950 border-sky-500 text-sky-100 font-semibold';
+                    btnStyle = 'bg-gold-950 border-gold-500 text-gold-100 font-semibold';
                   }
                   if (isSubmitted) {
                     if (idx === CHALLENGES[currentChallengeIdx].correctAnswer) {
@@ -1396,7 +1396,7 @@ export default function C7_ChemistryWaterauniversalsolventSim() {
               ) : (
                 <button
                   onClick={handleNextChallenge}
-                  className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-xs transition shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs transition shadow-lg"
                 >
                   Next Challenge →
                 </button>

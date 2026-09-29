@@ -11,7 +11,7 @@ export const w_c12_biotechnologysequencingsangerschainsim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'DNA Sequencing Technologies: Sanger vs Next-Generation',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_006', 'c12_biotech_cbse_02_012', 'c12_biotech_cbse_05_002', 'c12_biotech_cbse_10_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a geneticist trying to diagnose a rare genetic disorder in a patient.', goal: 'Master DNA Sequencing Technologies: Sanger vs Next-Generation.' },
     discovery: {
         question: 'What is the fundamental biochemical principle that allows Sanger sequencing to determine the DNA sequence?',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologysequencingsangerschainsim: SimDef = {
         hook: 'Students often believe that "Next-Generation Sequencing" refers to a single technology (usually Illumina) and that it.',
     },
     teaching: [
-        { title: 'DNA sequencing technologies determine the.', text: 'DNA sequencing technologies determine the precise order of nucleotides (A, T, C, G) in a DNA molecule.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'DNA sequencing technologies determine the.', text: 'DNA sequencing technologies determine the precise order of nucleotides (A, T, C, G) in a DNA molecule.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_05_006', title: 'DNA sequencing technologies determine.',

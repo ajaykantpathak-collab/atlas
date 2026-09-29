@@ -1257,9 +1257,9 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
       {/* ─── HEADER BAR ─── */}
       <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner" aria-hidden="true">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner" aria-hidden="true">{subjectConfig.emoji}</span>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-indigo-400">ICSE Class 10 • Mathematics</span>
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">ICSE Class 10 • Mathematics</span>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1273,7 +1273,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-700'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-700'
+                : 'bg-gold-950/80 text-gold-300 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1287,12 +1287,12 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/80 mt-2 italic bg-indigo-950/40 p-2.5 rounded-xl border border-indigo-900/40">
+            <p className="text-xs text-gold-400/80 mt-2 italic bg-gold-950/40 p-2.5 rounded-xl border border-gold-900/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1315,12 +1315,12 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-indigo-950/60 border-slate-700/80 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-gold-950/60 border-slate-700/80 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start justify-between gap-2">
                     <div className="flex items-start gap-2">
-                      <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       <span>{opt}</span>
                     </div>
                     {discoveryAnswered && (
@@ -1344,7 +1344,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-950 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-950 flex items-center gap-2"
                   >
                     <span>Enter Interactive Lab</span>
                     <span aria-hidden="true">→</span>
@@ -1370,7 +1370,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                 onClick={() => setCurrentSlide(idx)}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-md shadow-indigo-950'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-950'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-slate-200'
                 }`}
               >
@@ -1388,8 +1388,8 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
               className="p-5 sm:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
-                <h3 className="text-lg font-black text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <span className="text-xs px-2.5 py-1 bg-indigo-950 text-indigo-400 rounded-lg font-mono border border-indigo-900">
+                <h3 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <span className="text-xs px-2.5 py-1 bg-gold-950 text-gold-400 rounded-lg font-mono border border-gold-900">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
               </div>
@@ -1409,7 +1409,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       <div>
                         <div className="flex justify-between text-slate-400 mb-1">
                           <label htmlFor="slide-op-dist">External Distance OP:</label>
-                          <span className="font-mono text-indigo-400 font-bold">{opDistance} cm</span>
+                          <span className="font-mono text-gold-400 font-bold">{opDistance} cm</span>
                         </div>
                         <input
                           id="slide-op-dist"
@@ -1419,13 +1419,13 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                           max={20}
                           value={opDistance}
                           onChange={(e) => handleOpSlider(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
                         <div className="flex justify-between text-slate-400 mb-1">
                           <label htmlFor="slide-circle-rad">Circle Radius r (OT):</label>
-                          <span className="font-mono text-sky-400 font-bold">{circleRadius} cm</span>
+                          <span className="font-mono text-gold-400 font-bold">{circleRadius} cm</span>
                         </div>
                         <input
                           id="slide-circle-rad"
@@ -1435,7 +1435,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                           max={6}
                           value={circleRadius}
                           onChange={(e) => handleRadiusSlider(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div className="p-3 bg-slate-900 rounded-lg space-y-1 font-mono text-slate-300">
@@ -1485,7 +1485,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                             audioManager.play('pop');
                           }}
                           className={`px-3 py-1.5 rounded-lg font-semibold capitalize border ${
-                            triangleType === t ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'
+                            triangleType === t ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'
                           }`}
                         >
                           {t} Δ
@@ -1580,8 +1580,8 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                   </div>
 
                   {/* Observation Question inside Slide 1 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40">
-                    <p className="text-xs font-bold text-indigo-400 mb-2">Observation Question: What happens to the circumcentre in an obtuse triangle?</p>
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40">
+                    <p className="text-xs font-bold text-gold-400 mb-2">Observation Question: What happens to the circumcentre in an obtuse triangle?</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                         <button
@@ -1593,7 +1593,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                               ? i === OBSERVATION_QUESTIONS[0].correctIndex
                                 ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                                 : 'bg-slate-900 border-slate-800 text-slate-500'
-                              : 'bg-slate-900 hover:bg-indigo-950 border-slate-800 text-slate-300'
+                              : 'bg-slate-900 hover:bg-gold-950 border-slate-800 text-slate-300'
                           }`}
                         >
                           <span>{opt}</span>
@@ -1650,7 +1650,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                     <div className="space-y-3 text-xs bg-slate-950 p-4 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-slate-300">
                         <label htmlFor="slide-hex-side">Side Length s:</label>
-                        <span className="font-mono text-indigo-400 font-bold">{hexSide} cm</span>
+                        <span className="font-mono text-gold-400 font-bold">{hexSide} cm</span>
                       </div>
                       <input
                         id="slide-hex-side"
@@ -1661,10 +1661,10 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                         step={0.5}
                         value={hexSide}
                         onChange={(e) => handleHexSideSlider(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <div className="p-3 bg-slate-900 rounded-lg space-y-2 text-slate-300 font-mono">
-                        <p>Circumradius R = s = <span className="text-sky-400 font-bold">{hexagonCalculations.R} cm</span></p>
+                        <p>Circumradius R = s = <span className="text-gold-400 font-bold">{hexagonCalculations.R} cm</span></p>
                         <p>Inradius r = (√3/2)s = <span className="text-pink-400 font-bold">{hexagonCalculations.r} cm</span></p>
                         <p>Circumcircle Area = πR² = {hexagonCalculations.circumArea} cm²</p>
                         <p>Incircle Area = πr² = {hexagonCalculations.incircleArea} cm²</p>
@@ -1679,7 +1679,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
               {currentSlide === 3 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800">
                       <p className="text-xs font-bold text-amber-300 mb-2">Predict Before You Slide:</p>
                       <p className="text-sm text-white font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
@@ -1728,7 +1728,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       <div>
                         <div className="flex justify-between text-slate-300">
                           <label htmlFor="slide-solid-rad">Radius r:</label>
-                          <span className="font-mono text-indigo-400 font-bold">{solidRadius} cm</span>
+                          <span className="font-mono text-gold-400 font-bold">{solidRadius} cm</span>
                         </div>
                         <input
                           id="slide-solid-rad"
@@ -1738,13 +1738,13 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                           max={14}
                           value={solidRadius}
                           onChange={(e) => handleSolidDimensions(Number(e.target.value), solidHeight)}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
                         <div className="flex justify-between text-slate-300">
                           <label htmlFor="slide-solid-ht">Height h:</label>
-                          <span className="font-mono text-sky-400 font-bold">{solidHeight} cm</span>
+                          <span className="font-mono text-gold-400 font-bold">{solidHeight} cm</span>
                         </div>
                         <input
                           id="slide-solid-ht"
@@ -1754,13 +1754,13 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                           max={30}
                           value={solidHeight}
                           onChange={(e) => handleSolidDimensions(solidRadius, Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg space-y-1 text-slate-300 font-mono">
                         <p>Slant Height l = √(r² + h²) = <span className="text-amber-400 font-bold">{solidCalculations.slantHeight} cm</span></p>
-                        <p>Cylinder Volume = πr²h = <span className="text-sky-400">{solidCalculations.cylVol} cm³</span></p>
+                        <p>Cylinder Volume = πr²h = <span className="text-gold-400">{solidCalculations.cylVol} cm³</span></p>
                         <p>Cone Volume = 1/3 πr²h = <span className="text-amber-400 font-bold">{solidCalculations.coneVol} cm³</span></p>
                         <p>Cone CSA = πrl = {solidCalculations.coneCSA} cm²</p>
                       </div>
@@ -1838,7 +1838,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextSlide}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Step →
                   </motion.button>
@@ -1864,7 +1864,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 flex flex-wrap justify-between items-center gap-4">
             <div>
-              <h2 className="text-lg font-black text-indigo-300">Free Geometry & 3D Mensuration Sandbox</h2>
+              <h2 className="text-lg font-black text-gold-300">Free Geometry & 3D Mensuration Sandbox</h2>
               <p className="text-xs text-slate-400 mt-1">Manipulate all geometric parameters simultaneously with zero grading pressure.</p>
             </div>
             <motion.button
@@ -1881,30 +1881,30 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
             {/* 2D Tangent Interactive Canvas */}
             <div className="lg:col-span-2 bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400">Live Ruler-and-Compass Scanner</span>
+              <span className="text-xs font-bold text-gold-400">Live Ruler-and-Compass Scanner</span>
               <canvas ref={canvasRef} width={500} height={250} className="w-full h-auto bg-slate-950 rounded-xl" aria-label="Interactive tangent scanner canvas" />
               <div className="grid grid-cols-2 gap-3 text-xs">
                 <div>
                   <label htmlFor="sb-op-dist" className="text-slate-400 block mb-1">Distance OP: {opDistance} cm</label>
-                  <input id="sb-op-dist" aria-label="Sandbox distance OP" type="range" min={7} max={20} value={opDistance} onChange={(e) => setOpDistance(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input id="sb-op-dist" aria-label="Sandbox distance OP" type="range" min={7} max={20} value={opDistance} onChange={(e) => setOpDistance(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label htmlFor="sb-rad" className="text-slate-400 block mb-1">Radius r: {circleRadius} cm</label>
-                  <input id="sb-rad" aria-label="Sandbox circle radius" type="range" min={3} max={6} value={circleRadius} onChange={(e) => setCircleRadius(Number(e.target.value))} className="w-full accent-sky-500" />
+                  <input id="sb-rad" aria-label="Sandbox circle radius" type="range" min={3} max={6} value={circleRadius} onChange={(e) => setCircleRadius(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
               </div>
             </div>
 
             {/* Live Solid Calculations Card */}
             <div className="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-3 text-xs">
-              <span className="text-xs font-bold text-indigo-400">3D Solid Live Engine</span>
+              <span className="text-xs font-bold text-gold-400">3D Solid Live Engine</span>
               <div>
                 <label htmlFor="sb-solid-rad" className="text-slate-400 block mb-1">Solid Radius r: {solidRadius} cm</label>
-                <input id="sb-solid-rad" aria-label="Sandbox solid radius" type="range" min={3} max={14} value={solidRadius} onChange={(e) => setSolidRadius(Number(e.target.value))} className="w-full accent-indigo-500" />
+                <input id="sb-solid-rad" aria-label="Sandbox solid radius" type="range" min={3} max={14} value={solidRadius} onChange={(e) => setSolidRadius(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
               <div>
                 <label htmlFor="sb-solid-ht" className="text-slate-400 block mb-1">Solid Height h: {solidHeight} cm</label>
-                <input id="sb-solid-ht" aria-label="Sandbox solid height" type="range" min={6} max={30} value={solidHeight} onChange={(e) => setSolidHeight(Number(e.target.value))} className="w-full accent-sky-500" />
+                <input id="sb-solid-ht" aria-label="Sandbox solid height" type="range" min={6} max={30} value={solidHeight} onChange={(e) => setSolidHeight(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl space-y-1.5 font-mono text-slate-300">
@@ -1926,7 +1926,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
           {/* Progress Header */}
           <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <h2 className="text-sm font-bold text-white flex items-center gap-2">
@@ -1951,7 +1951,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
           {/* Animated Progress Bar */}
           <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1986,11 +1986,11 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                           ? i === activeChallenge.correctIndex
                             ? 'bg-emerald-950 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950'
                             : 'bg-slate-950/50 border-slate-900 text-slate-600'
-                          : 'bg-slate-950 hover:bg-indigo-950/60 border-slate-800 text-slate-200 hover:border-indigo-600'
+                          : 'bg-slate-950 hover:bg-gold-950/60 border-slate-800 text-slate-200 hover:border-gold-600'
                       }`}
                     >
                       <div className="flex items-start gap-2.5">
-                        <span className="font-mono text-indigo-400 font-bold">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-mono text-gold-400 font-bold">{String.fromCharCode(65 + i)}.</span>
                         <span>{opt}</span>
                       </div>
                       {showExplanation && (
@@ -2018,7 +2018,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white font-mono text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white font-mono text-xs font-bold"
                     >
                       {item.label}
                     </motion.div>
@@ -2053,7 +2053,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Labels
                 </motion.button>
@@ -2084,7 +2084,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2097,7 +2097,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence
                 </motion.button>
@@ -2115,7 +2115,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2124,7 +2124,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Check Answer
                   </motion.button>
@@ -2144,7 +2144,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2157,7 +2157,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-700 rounded text-white font-mono text-xs flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-700 rounded text-white font-mono text-xs flex items-center gap-1.5"
                     >
                       {part}
                       <button aria-label={`Remove component ${part}`} onClick={() => setConstructParts((p) => p.filter((_, idx) => idx !== i))} className="text-red-300 font-bold">
@@ -2174,7 +2174,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Formula
                 </motion.button>
@@ -2183,8 +2183,8 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
 
             {/* Progressive Explanation Step-by-Step */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
-                <span className="text-xs font-black text-indigo-400 uppercase tracking-wider">CISCE Model Explanation & Justification:</span>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
+                <span className="text-xs font-black text-gold-400 uppercase tracking-wider">CISCE Model Explanation & Justification:</span>
                 <div className="space-y-2">
                   {activeChallenge.explanation
                     .split('. ')
@@ -2192,7 +2192,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                     .slice(0, revealedSteps + 1)
                     .map((sentence, i) => (
                       <motion.p key={i} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs sm:text-sm text-slate-300">
-                        <span className="font-bold text-indigo-400 font-mono">[{i + 1}]</span> {sentence}
+                        <span className="font-bold text-gold-400 font-mono">[{i + 1}]</span> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2205,7 +2205,7 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setRevealedSteps((s) => s + 1)}
-                      className="px-4 py-1.5 bg-indigo-800 text-indigo-100 rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-800 text-gold-100 rounded-lg text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2230,28 +2230,28 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/60 shadow-xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/60 shadow-xl text-center space-y-3">
             <span className="text-4xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl font-black text-white">Simulation Completed!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BADGE */}
             <div className="inline-block px-5 py-2 rounded-2xl font-black text-base sm:text-lg uppercase tracking-wide shadow-md border bg-slate-950/80">
               {errors === 0 && <span className="text-emerald-400 border-emerald-500">✓ PERFECT SCORE!</span>}
-              {errors >= 1 && errors <= 3 && <span className="text-cyan-400 border-cyan-500">✓ Great work!</span>}
+              {errors >= 1 && errors <= 3 && <span className="text-gold-400 border-gold-500">✓ Great work!</span>}
               {errors >= 4 && errors <= 7 && <span className="text-amber-400 border-amber-500">✓ Good effort!</span>}
               {errors >= 8 && <span className="text-rose-400 border-rose-500">Do not give up — You WILL get this!</span>}
             </div>
 
             <div className="flex justify-center gap-6 text-sm font-mono mt-2">
               <span className="text-emerald-400 font-bold">Final Score: {Math.max(0, 100 - errors * 5)}%</span>
-              <span className="text-indigo-400 font-bold">Errors: {errors}</span>
+              <span className="text-gold-400 font-bold">Errors: {errors}</span>
               <span className="text-purple-400 font-bold">Mastery: {masteryLevel.toUpperCase()}</span>
             </div>
           </div>
 
           {/* Detailed Examiner Feedback */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs sm:text-sm text-slate-300 leading-relaxed">
-            <span className="font-bold text-indigo-400">Examiner Appraisal: </span>
+            <span className="font-bold text-gold-400">Examiner Appraisal: </span>
             {errors === 0
               ? 'Flawless performance! You possess complete mastery of ruler-and-compass circle tangents, polygon centers, and 3D solid combination problems.'
               : errors <= 3
@@ -2292,8 +2292,8 @@ export default function C10_MathematicsConstructionTangentsCircleSim({
           </div>
 
           {/* Real World Activity Completion */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-black text-indigo-300">🏗️ {REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-black text-gold-300">🏗️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-400 font-mono">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

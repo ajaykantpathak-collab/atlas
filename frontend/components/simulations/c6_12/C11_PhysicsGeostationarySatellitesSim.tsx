@@ -1226,13 +1226,13 @@ function C11_PhysicsGeostationarySatellitesSim({
         className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800/80 pb-4 mb-6"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/70 border border-indigo-700/60 rounded-2xl shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/70 border border-gold-700/60 rounded-2xl shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-              <span className="text-xs px-2.5 py-0.5 font-bold uppercase tracking-wider rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs px-2.5 py-0.5 font-bold uppercase tracking-wider rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 11
               </span>
             </div>
@@ -1253,7 +1253,7 @@ function C11_PhysicsGeostationarySatellitesSim({
               }}
               className={`px-3.5 py-1.5 text-xs font-bold rounded-xl transition-all capitalize ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md shadow-indigo-600/30'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-500 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
@@ -1266,14 +1266,14 @@ function C11_PhysicsGeostationarySatellitesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900/90 to-purple-950/40 rounded-2xl border border-indigo-800/50 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-1.5">
+          <div className="p-5 md:p-6 bg-gradient-to-br from-gold-950/60 via-slate-900/90 to-purple-950/40 rounded-2xl border border-gold-800/50 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-widest mb-1.5">
               <span>🚀</span> Mission Scenario
             </div>
             <h2 className="text-xl md:text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 bg-indigo-950/40 p-2.5 rounded-xl border border-indigo-800/30">
+            <p className="text-xs text-gold-300/80 mt-2 bg-gold-950/40 p-2.5 rounded-xl border border-gold-800/30">
               {SCENARIO.context}
             </p>
           </div>
@@ -1297,7 +1297,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/70 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-indigo-500/50'
+                      : 'bg-slate-800/70 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
                   <div className="flex items-start gap-2.5">
@@ -1330,7 +1330,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1345,7 +1345,7 @@ function C11_PhysicsGeostationarySatellitesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
           <div className="flex items-center justify-between bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Laboratory Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1374,7 +1374,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                     handleAdvanceToSandbox();
                   }
                 }}
-                className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Lab →' : 'Sandbox Free Play →'}
               </motion.button>
@@ -1469,7 +1469,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 </svg>
 
                 <div className="absolute bottom-2 left-3 right-3 flex justify-between items-center bg-slate-900/90 px-3 py-1.5 rounded-xl border border-slate-800 text-[11px]">
-                  <span className={isGeostationaryLocked ? 'text-emerald-400 font-bold' : 'text-indigo-300'}>
+                  <span className={isGeostationaryLocked ? 'text-emerald-400 font-bold' : 'text-gold-300'}>
                     {isGeostationaryLocked ? '🎯 24H Geostationary Lock Achieved!' : `Orbit: ${simOrbitInclination.toUpperCase()}`}
                   </span>
                   <span className="text-slate-400">v = {orbitalVelocityKms.toFixed(2)} km/s | T = {orbitalPeriodHours.toFixed(1)} hrs</span>
@@ -1480,7 +1480,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 <div className="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-slate-300 font-bold">Orbital Altitude (h)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{simAltitudeKm.toLocaleString()} km</span>
+                    <span className="text-gold-400 font-mono font-bold">{simAltitudeKm.toLocaleString()} km</span>
                   </div>
                   <input
                     type="range"
@@ -1493,7 +1493,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       audioManager.play('count');
                     }}
                     aria-label="Orbital Altitude Slider"
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500">
                     <span>500 km (LEO/Polar)</span>
@@ -1513,7 +1513,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                         }}
                         className={`p-2 rounded-xl text-xs font-bold border ${
                           simOrbitInclination === 'equatorial'
-                            ? 'bg-indigo-600/80 border-indigo-400 text-white'
+                            ? 'bg-gold-600/80 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1538,8 +1538,8 @@ function C11_PhysicsGeostationarySatellitesSim({
                   </div>
                 </div>
 
-                <div className="bg-slate-950/90 p-3.5 rounded-xl border border-indigo-950">
-                  <div className="text-[11px] font-bold text-indigo-400 uppercase tracking-wider mb-1">
+                <div className="bg-slate-950/90 p-3.5 rounded-xl border border-gold-950">
+                  <div className="text-[11px] font-bold text-gold-400 uppercase tracking-wider mb-1">
                     Predict-Then-Check
                   </div>
                   <p className="text-xs text-slate-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1635,7 +1635,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 <div className="grid grid-cols-2 gap-2 bg-slate-900 p-2.5 rounded-xl border border-slate-800 text-xs">
                   <div>
                     <span className="text-slate-400">Young’s Modulus (Y):</span>
-                    <span className="font-mono font-bold text-indigo-300 ml-1.5">
+                    <span className="font-mono font-bold text-gold-300 ml-1.5">
                       {(materialYoungModulus / 1e11).toFixed(2)} × 10¹¹ Pa
                     </span>
                   </div>
@@ -1659,7 +1659,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                         }}
                         className={`py-1.5 rounded-lg text-xs font-bold uppercase transition-all ${
                           cableMaterial === mat
-                            ? 'bg-indigo-600 text-white shadow'
+                            ? 'bg-gold-600 text-white shadow'
                             : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
@@ -1672,7 +1672,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Applied Load (F)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{cableLoadN} N</span>
+                    <span className="text-gold-400 font-mono font-bold">{cableLoadN} N</span>
                   </div>
                   <input
                     type="range"
@@ -1684,14 +1684,14 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setCableLoadN(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Cross-Section Area (A)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{cableAreaMm2.toFixed(1)} mm²</span>
+                    <span className="text-gold-400 font-mono font-bold">{cableAreaMm2.toFixed(1)} mm²</span>
                   </div>
                   <input
                     type="range"
@@ -1703,7 +1703,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setCableAreaMm2(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1769,7 +1769,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Technician Input Force (F1)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{inputForceN} N</span>
+                    <span className="text-gold-400 font-mono font-bold">{inputForceN} N</span>
                   </div>
                   <input
                     type="range"
@@ -1781,14 +1781,14 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setInputForceN(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Piston Area Ratio (A2 / A1)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{pistonAreaRatio} : 1</span>
+                    <span className="text-gold-400 font-mono font-bold">{pistonAreaRatio} : 1</span>
                   </div>
                   <input
                     type="range"
@@ -1800,7 +1800,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setPistonAreaRatio(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1875,7 +1875,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                           audioManager.play('tap');
                         }}
                         className={`py-1.5 rounded-lg text-xs font-bold uppercase ${
-                          sphereMaterial === mat ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          sphereMaterial === mat ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {mat}
@@ -1887,7 +1887,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Sphere Radius (r)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{sphereRadiusMm.toFixed(1)} mm</span>
+                    <span className="text-gold-400 font-mono font-bold">{sphereRadiusMm.toFixed(1)} mm</span>
                   </div>
                   <input
                     type="range"
@@ -1899,14 +1899,14 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setSphereRadiusMm(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <span className="text-[10px] text-slate-400">Notice v_t ∝ r² dependence!</span>
                 </div>
 
                 <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-[11px] text-slate-300 space-y-1">
                   <div className="font-bold text-amber-400">Stokes Formula:</div>
-                  <p className="font-mono text-indigo-300">v_t = [2r²(ρ - σ)g] / (9η)</p>
+                  <p className="font-mono text-gold-300">v_t = [2r²(ρ - σ)g] / (9η)</p>
                   <p>When weight balances Buoyancy + Drag, acceleration drops to exactly zero.</p>
                 </div>
               </div>
@@ -1927,7 +1927,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   <span
                     className={`px-3 py-1 rounded-full font-bold text-xs uppercase ${
                       reynoldsNumber < 2000
-                        ? 'bg-sky-500/20 text-sky-300 border border-sky-500/40'
+                        ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                         : reynoldsNumber > 3000
                         ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
                         : 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
@@ -1942,7 +1942,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Fluid Flow Velocity (v)</span>
-                    <span className="text-indigo-400 font-mono font-bold">{flowSpeedMs.toFixed(1)} m/s</span>
+                    <span className="text-gold-400 font-mono font-bold">{flowSpeedMs.toFixed(1)} m/s</span>
                   </div>
                   <input
                     type="range"
@@ -1954,14 +1954,14 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setFlowSpeedMs(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-bold">Capillary Radius (r) for Poiseuille</span>
-                    <span className="text-indigo-400 font-mono font-bold">{capillaryRadiusMm.toFixed(1)} mm</span>
+                    <span className="text-gold-400 font-mono font-bold">{capillaryRadiusMm.toFixed(1)} mm</span>
                   </div>
                   <input
                     type="range"
@@ -1973,7 +1973,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       setCapillaryRadiusMm(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1991,7 +1991,7 @@ function C11_PhysicsGeostationarySatellitesSim({
       {/* ─── PHASE 3: FREE PLAY SANDBOX ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-900/50 flex flex-wrap justify-between items-center gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-900/50 flex flex-wrap justify-between items-center gap-4">
             <div>
               <h2 className="text-xl font-black text-white">🔬 ISRO Propulsion & Orbital Sandbox</h2>
               <p className="text-xs text-slate-400 mt-1">Unrestricted experimental laboratory. Test extreme physical configurations with zero grading pressure.</p>
@@ -2008,7 +2008,7 @@ function C11_PhysicsGeostationarySatellitesSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-indigo-400">Satellite Flight Dynamics</span>
+              <span className="text-xs font-bold text-gold-400">Satellite Flight Dynamics</span>
               <div className="text-2xl font-mono font-black text-white">{orbitalVelocityKms.toFixed(2)} km/s</div>
               <p className="text-xs text-slate-400">Altitude: {simAltitudeKm.toLocaleString()} km | Period: {orbitalPeriodHours.toFixed(1)} hrs</p>
               <input
@@ -2018,7 +2018,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                 step={500}
                 value={simAltitudeKm}
                 onChange={e => setSimAltitudeKm(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
             </div>
 
@@ -2061,7 +2061,7 @@ function C11_PhysicsGeostationarySatellitesSim({
           <div className="flex items-center justify-between bg-slate-900/90 p-3.5 rounded-2xl border border-slate-800">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono border border-slate-700">
@@ -2082,7 +2082,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
-                  : 'bg-indigo-500/20 text-indigo-400 border-indigo-500/40'
+                  : 'bg-gold-500/20 text-gold-400 border-gold-500/40'
               }`}
             >
               {difficulty}
@@ -2091,7 +2091,7 @@ function C11_PhysicsGeostationarySatellitesSim({
 
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2120,7 +2120,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                     className={`w-full text-left p-3.5 rounded-xl text-sm font-medium transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 hover:bg-slate-800 text-slate-200 border-slate-700 hover:border-indigo-500/60'
+                        : 'bg-slate-800/80 hover:bg-slate-800 text-slate-200 border-slate-700 hover:border-gold-500/60'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -2145,7 +2145,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       🏷️ {item.label}
                     </motion.div>
@@ -2160,12 +2160,12 @@ function C11_PhysicsGeostationarySatellitesSim({
                       onDrop={() => handleDragDrop(item.targetId)}
                       className={`p-4 rounded-xl border-2 border-dashed min-h-[64px] flex flex-col justify-center transition-all ${
                         droppedLabels[item.targetId]
-                          ? 'bg-indigo-950/40 border-indigo-500 text-white'
+                          ? 'bg-gold-950/40 border-gold-500 text-white'
                           : 'bg-slate-950/60 border-slate-700 text-slate-500'
                       }`}
                     >
                       <span className="text-[10px] uppercase font-bold text-slate-400">Target: {item.targetId}</span>
-                      <span className="text-xs font-bold text-indigo-300 mt-1">
+                      <span className="text-xs font-bold text-gold-300 mt-1">
                         {droppedLabels[item.targetId] || 'Drop matching label here...'}
                       </span>
                     </div>
@@ -2176,7 +2176,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -2205,7 +2205,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 hover:bg-slate-750 rounded-xl text-xs font-medium text-slate-200 border border-slate-700 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900/80 text-indigo-300 flex items-center justify-center font-bold text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-900/80 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2217,7 +2217,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Submit Order →
                 </motion.button>
@@ -2234,7 +2234,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value..."
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm font-mono focus:border-indigo-500 outline-none w-64"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm font-mono focus:border-gold-500 outline-none w-64"
                   />
                   <span className="text-xs font-mono font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2242,7 +2242,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md disabled:opacity-50"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md disabled:opacity-50"
                   >
                     Check Answer →
                   </motion.button>
@@ -2261,7 +2261,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1 bg-indigo-700/80 hover:bg-indigo-600 text-white text-xs font-mono font-bold rounded-lg"
+                      className="px-3 py-1 bg-gold-700/80 hover:bg-gold-600 text-white text-xs font-mono font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2272,7 +2272,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-2.5 py-1 bg-indigo-900 text-indigo-200 text-xs font-mono font-bold rounded-lg flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900 text-gold-200 text-xs font-mono font-bold rounded-lg flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2291,7 +2291,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Construction →
                 </motion.button>
@@ -2350,13 +2350,13 @@ function C11_PhysicsGeostationarySatellitesSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Final Score Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-3xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-3xl border border-gold-700/60 text-center space-y-3">
             <span className="text-4xl">🎖️</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">ISC Physics Mastery Certified!</h2>
             <div className="text-3xl font-mono font-black text-emerald-400">
               Score: {Math.max(0, 100 - errors * 5)}%
             </div>
-            <p className="text-xs text-indigo-200">
+            <p className="text-xs text-gold-200">
               BKT Cognitive Level: <span className="font-bold text-white uppercase">{masteryLevel}</span> | Total Challenges Evaluated: {scoreBreakdown.total}
             </p>
           </div>
@@ -2372,7 +2372,7 @@ function C11_PhysicsGeostationarySatellitesSim({
           </div>
 
           {/* VISIBLE SPACED REPETITION SCHEDULE (SRS) CARD */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border-2 border-amber-500/50 shadow-lg space-y-3">
+          <div className="p-5 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 rounded-2xl border-2 border-amber-500/50 shadow-lg space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-2xl p-1 bg-amber-500/20 rounded-lg">📅</span>
@@ -2437,7 +2437,7 @@ function C11_PhysicsGeostationarySatellitesSim({
 
           {/* Reflection Section */}
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>🤔</span> Guided Physics Reflection
             </h3>
             <div className="space-y-3">
@@ -2449,7 +2449,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="E.g., That weightlessness isn't zero gravity, but shared continuous free fall..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none resize-none h-16"
                 />
               </div>
               <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800">
@@ -2460,7 +2460,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="E.g., Hydraulic lifts work like an unequal seesaw where fluid pressure transmits equally..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none resize-none h-16"
                 />
               </div>
               <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800">
@@ -2471,7 +2471,7 @@ function C11_PhysicsGeostationarySatellitesSim({
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="E.g., In designing satellite orbits, hydraulic vehicle jacks, or analyzing viscous fluid pipelines..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none resize-none h-16"
                 />
               </div>
             </div>
@@ -2499,15 +2499,15 @@ function C11_PhysicsGeostationarySatellitesSim({
           )}
 
           {/* Real World Activity Capstone */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
               🛠️ {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-900/80 rounded-xl text-xs text-slate-300 border border-slate-800 flex items-start gap-2">
-                  <span className="w-4 h-4 rounded-full bg-indigo-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-gold-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{step}</span>

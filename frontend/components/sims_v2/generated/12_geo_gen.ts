@@ -72,7 +72,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Possibilism",
+    "title": "Possibilism Is The School Of Thought",
     "text": "Possibilism is the school of thought in human geography which asserts that the physical environment offers a range of possibilities for human development, and humans, through technology and cultural advancement, can choose among these possibilities to shape",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -241,7 +241,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "answer": "Naturalisation of humans: the stage of low technological development when human societies directly depend on, adapt to, and often worship nature (e",
     "options": [
      "Naturalisation of humans is the state where primitive societies with minimal technology adapt to and worship nature, exemplifying environmental determinism",
-     "Environmental Determinism is the interaction between primitive human society and strong forces of nature where humans, due to very low technological development",
+     "Student can explain the transition from naturalisation to humanisation using specific Indian and global examples, distinguish between environmental determinism, possibilism",
      "Naturalisation of humans: the stage of low technological development when human societies directly depend on, adapt to, and often worship nature (e"
     ],
     "hint": "Straight from the 'Human geography and physical' slide -- match the key terms.",
@@ -376,8 +376,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "State the three colours in Griffith Taylor's traffic-light analogy and what each colour represents in human-environment interaction.",
     "answer": "Red = stop (environmental limits that must not be crossed, e.g., carrying capacity, fragile ecosystems)",
     "options": [
-     "Naturalisation of humans: the stage of low technological development when human societies directly depend on, adapt to, and often worship nature (e",
-     "Political Geography — sub-field Electoral Geography; sister discipline: Psephology (study of elections)",
+     "Environmental Determinism is the interaction between primitive human society and strong forces of nature where humans, due to very low technological development",
+     "Environmental Determinism is the school of thought in human geography which asserts that the physical environment (climate, terrain, soil, vegetation) exclusively controls",
      "Red = stop (environmental limits that must not be crossed, e.g., carrying capacity, fragile ecosystems)"
     ],
     "hint": "Straight from the 'Neo-determinism , proposed by' slide -- match the key terms.",
@@ -397,8 +397,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name the major field of human geography that studies the spatial distribution of voting patterns and electoral behaviour, and identify its sister discipline.",
     "answer": "Political Geography — sub-field Electoral Geography; sister discipline: Psephology (study of elections)",
     "options": [
-     "Naturalisation of humans is the state where primitive societies with minimal technology adapt to and worship nature, exemplifying environmental determinism",
-     "(1) Behavioural Geography → Psychology; (2) Geography of Agriculture → Agricultural Sciences; (3) Electoral Geography → Psephology",
+     "The student can name all four branches, list at least two sub-fields for each, identify the sister discipline each branch interfaces with",
+     "The student can correctly match at least six sub-fields of human geography (e.g., Electoral Geography, Medical Geography",
      "Political Geography — sub-field Electoral Geography; sister discipline: Psephology (study of elections)"
     ],
     "hint": "Straight from the 'Major fields of human geography' slide -- match the key terms.",
@@ -533,8 +533,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "What is the core focus of the areal differentiation approach in human geography according to NCERT Table 1.1?",
     "answer": "The core focus of areal differentiation is \"identifying the uniqueness of any region and understanding how and why it was different from others",
     "options": [
-     "Semple defines human geography as \"the study of the changing relationship between the unresting man and the unstable earth",
-     "(1) Behavioural Geography → Psychology; (2) Geography of Agriculture → Agricultural Sciences; (3) Electoral Geography → Psephology",
+     "Human geography and physical geography are inseparable components of geography that study the reciprocal relationship between human societies and the natural environment",
+     "The student can correctly match at least six sub-fields of human geography (e.g., Electoral Geography, Medical Geography",
      "The core focus of areal differentiation is \"identifying the uniqueness of any region and understanding how and why it was different from others"
     ],
     "hint": "Straight from the 'Areal differentiation' slide -- match the key terms.",
@@ -672,8 +672,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define human geography according to Ellen C. Semple and identify the key word that distinguishes her definition from Ratzel's.",
     "answer": "Semple defines human geography as \"the study of the changing relationship between the unresting man and the unstable earth",
     "options": [
-     "Political Geography — sub-field Electoral Geography; sister discipline: Psephology (study of elections)",
-     "The four branches are: (1) Social Geography — Sociology, (2) Cultural Geography — Anthropology, (3) Political Geography — Political Science, (4) Economic Geography — Economics",
+     "Human Geography is the synthetic study of the dynamic relationship between human societies and the Earth's surface, examining the spatial distribution of human phenomena",
+     "Environmental Determinism is the school of thought in human geography which asserts that the physical environment (climate, terrain, soil, vegetation) exclusively controls",
      "Semple defines human geography as \"the study of the changing relationship between the unresting man and the unstable earth"
     ],
     "hint": "Straight from the 'Human Geography' slide -- match the key terms.",
@@ -729,19 +729,18 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Classify each scenario as naturalisation, humanisation, or neo-determinism: (a) A Gond tribal family in Bastar uses only forest herbs for medicine. (b) Delhi Metro tunnels under the Yamuna floodplain with flood-gates.",
-    "answer": "(a) Naturalisation — direct dependence, low technology, nature as provider. (b) Neo-determinism",
+    "question": "What is Human Geography? State the definition given in this lesson.",
+    "answer": "Human Geography is the synthetic study of the dynamic relationship between human societies and the Earth's surface, examining the spatial distribution of human phenomena",
     "options": [
-     "Neo-determinism argues humans can create possibilities (*green light*) but only within environmental limits (*red light*)",
-     "Panel 1 (Determinism): Caption — \"Forest feeds, forest decides; Benda waits for Mahua bloom.\" Concept: Naturalised Human / Environmental Determinism",
-     "(a) Naturalisation — direct dependence, low technology, nature as provider. (b) Marketing",
-     "(a) Naturalisation — direct dependence, low technology, nature as provider. (b) Neo-determinism"
+     "Areal differentiation is the methodological approach in human geography that focuses on identifying and explaining the uniqueness of each region by analyzing how and why places",
+     "Environmental Determinism is the school of thought in human geography which asserts that the physical environment (climate, terrain, soil, vegetation) exclusively controls",
+     "Human Geography is the synthetic study of the dynamic relationship between human societies and the Earth's surface, examining the spatial distribution of human phenomena"
     ],
-    "hint": "Straight from the 'Naturalisation of Humans' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (a) Naturalisation — direct dependence, low technology, nature as provider.",
+    "hint": "Straight from the 'Human Geography' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Human Geography is the synthetic study of the dynamic relationship between human societies and the Earth's surface,",
     "id": "gen_c12_geo_ch01_q18",
-    "nodeId": "c12_geo_cbse_01_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_geo_cbse_01_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -861,8 +860,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name the six Asian countries that are among the ten most populous countries in the world, and state the approximate percentage of world population these ten countries collectively contribute.",
     "answer": "The six Asian countries are China, India, Indonesia, Pakistan, Bangladesh, and Japan. The ten most populous countries contribute approximately 60% of the world's population",
     "options": [
-     "Census of India 2011 defines urban area as: (a) all statutory towns with municipality/corporation/cantonment board, (b) census towns satisfying three criteria: population ≥5,000",
-     "The four factors are: (1) Availability of water, (2) Landforms, (3) Climate, (4) Soils",
+     "Student can identify the three major population concentration zones on a world map, explain the geographical-economic-social factors causing clustering in each zone",
+     "CBR = (Number of live births in a year / Estimated mid-year population) × 1000. Variables: B = live births during the year; P = estimated mid-year population",
      "The six Asian countries are China, India, Indonesia, Pakistan, Bangladesh, and Japan. The ten most populous countries contribute approximately 60% of the world's population"
     ],
     "hint": "Straight from the 'World population distribution' slide -- match the key terms.",
@@ -1475,6 +1474,52 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "match real-world country examples",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "identify the three stages of demographic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain why the population explosion occurs",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify the three stages of demographic transition on a CBR-CDR diagram, (2) match real-world",
+    "id": "gen_c12_geo_ch02_q15",
+    "nodeId": "c12_geo_cbse_02_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the statement: \"Rapid urbanization in developing countries automatically improves national literacy rates because cities have better schools.\" Use evidence from Sub-Saharan Africa and South Asia (2000-2020) to support your judgment.",
     "sortItems": [
      {
@@ -1515,7 +1560,64 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. Evidence: (1) Sub-Saharan Africa's urbanization rate rose from 32% to 41% (2000-2020) but adult",
-    "id": "gen_c12_geo_ch02_q15",
+    "id": "gen_c12_geo_ch02_q16",
+    "nodeId": "c12_geo_cbse_02_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "calculate and interpret urbanization rate",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "correlate literacy patterns with gender",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the push-pull factors driving",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "evaluate how",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) calculate and interpret urbanization rate and literacy rate from census data for any country/region,",
+    "id": "gen_c12_geo_ch02_q17",
     "nodeId": "c12_geo_cbse_02_008",
     "difficulty": "advanced"
    },
@@ -1561,122 +1663,8 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing reveals confusion between demographic window (age structure) and demographic dividend (economic payoff from productive employment).",
-    "id": "gen_c12_geo_ch02_q16",
-    "nodeId": "c12_geo_cbse_02_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Calculate the approximate year India would reach replacement-level fertility (TFR = 2.1) if its TFR declined linearly from 3.4 in 2000 to 2.0 in 2020. Show steps. Then comment on whether linear extrapolation is geographically sound.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Annual decline rate",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Actual NFHS-5",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s2",
-      "label": "Years required",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "TFR needed to drop from 3",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s4",
-      "label": "Total TFR decline",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Total TFR decline = 3.4 - 2.0 = 1.4 over 20 years. Step 2: Annual decline rate = 1.",
-    "id": "gen_c12_geo_ch02_q17",
-    "nodeId": "c12_geo_cbse_02_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Critique the statement: \"Achieving replacement-level fertility (TFR = 2.1) automatically ensures sustainable development.\" Use the concepts of ecological footprint, demographic momentum, and inter-state inequality in India.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Inter-state inequality",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "Demographic momentum",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "Ecological footprint",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer that equates TFR 2.1 with \"problem solved\" ignores the core geography insight: sustainability is about distribution and consumption patterns, not just aggregate numbers.",
     "id": "gen_c12_geo_ch02_q18",
-    "nodeId": "c12_geo_cbse_02_010",
+    "nodeId": "c12_geo_cbse_02_009",
     "difficulty": "advanced"
    }
   ],
@@ -2108,7 +2096,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Settlement",
+    "title": "A Settlement Is a Human Community",
     "text": "A settlement is a human community with a defined spatial extent where people live, work, and interact; rural settlements are characterised by low population density, primary-sector dominance (agriculture, forestry, fishing), and informal social organisation,",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2138,7 +2126,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Urbanisation",
+    "title": "Urbanisation Is The Process Of Population",
     "text": "Urbanisation is the process of population concentration in urban areas, marked by an increase in the proportion of a country's population living in urban settlements over time.",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2164,16 +2152,47 @@ export const C12_GEO_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "A settlement has 4,800 residents, density 380 persons/km², and 80% of its male workforce is engaged in agriculture. According to Census of India 2011, how is it classified? State the classification and which criterion/criteria it fails for urban status.",
-    "answer": "Rural. It fails two urban criteria: population (<5,000) and density (<400 persons/km²). The workforce criterion (≥75% non-primary) is met (80% primary means only 20% non-primary",
-    "options": [
-     "Settlement A: Rural (fails population <5,000, fails workforce <75% non-agri, fails density <400). Settlement B: Rural (passes population and density",
-     "The statement is flawed. Census defines urban areas by three criteria: (a) minimum population 5,000, (b) ≥75% male main workers in non-agricultural activities",
-     "Rural. It fails two urban criteria: population (<5,000) and density (<400 persons/km²). The workforce criterion (≥75% non-primary) is met (80% primary means only 20% non-primary"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify a given settlement description",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "state the exact Census of India criteria",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain why the same physical cluster may",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'human settlement' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Rural. It fails two urban criteria: population (<5,000) and density (<400 persons/km²).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) state the exact Census of India criteria distinguishing rural and urban settlements with correct",
     "id": "gen_c12_geo_ch04_q1",
     "nodeId": "c12_geo_cbse_04_001",
     "difficulty": "standard",
@@ -2700,6 +2719,52 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the physical and cultural factors",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "identify the shape type from a topographical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "compare the functional advantages",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) identify the shape type from a topographical map or satellite image by recognizing street patterns and",
+    "id": "gen_c12_geo_ch04_q12",
+    "nodeId": "c12_geo_cbse_04_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Design a sketch map of a hypothetical revenue village in the Malwa plateau (Madhya Pradesh) showing a semi-clustered pattern with three hamlets. Annotate: (i) physical features influencing hamlet location, (ii) land use between hamlets, (iii) a central facility shared by all hamlets, (iv) transport links.",
     "sortItems": [
      {
@@ -2751,8 +2816,54 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer places hamlets randomly without linking to vertisol hydrology or shared infrastructure.",
-    "id": "gen_c12_geo_ch04_q12",
+    "id": "gen_c12_geo_ch04_q13",
     "nodeId": "c12_geo_cbse_04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze why many Indian metros",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how locational factors",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "classify any given Indian city/town",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) classify any given Indian city/town as administrative, industrial, or commercial using workforce data",
+    "id": "gen_c12_geo_ch04_q14",
+    "nodeId": "c12_geo_cbse_04_006",
     "difficulty": "standard"
    },
    {
@@ -2808,7 +2919,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists only demographic indicators (e.g., growth rate, density) without linking to economic, social, or environmental sustainability, showing lack of multidimensional thinking.",
-    "id": "gen_c12_geo_ch04_q13",
+    "id": "gen_c12_geo_ch04_q15",
     "nodeId": "c12_geo_cbse_04_007",
     "difficulty": "standard"
    },
@@ -2865,7 +2976,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong calculation (e.g., using total population for urban growth denominator) would hide the fact that urbanisation is driven by both migration and natural increase.",
-    "id": "gen_c12_geo_ch04_q14",
+    "id": "gen_c12_geo_ch04_q16",
     "nodeId": "c12_geo_cbse_04_007",
     "difficulty": "standard"
    },
@@ -2911,7 +3022,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong calculation (e.g., using 2,400 PCU/lane without multiplying by 4 lanes) or misclassifying LOS reveals inability to apply quantitative congestion metrics — a skill tested in CUET geography and JEE-advanced style case studies.",
-    "id": "gen_c12_geo_ch04_q15",
+    "id": "gen_c12_geo_ch04_q17",
     "nodeId": "c12_geo_cbse_04_008",
     "difficulty": "advanced"
    },
@@ -2957,81 +3068,9 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"slums form because poor people prefer to live together\") reveals a fundamental misconception — confusing outcome with cause, ignoring structural factors of land markets and governance.",
-    "id": "gen_c12_geo_ch04_q16",
+    "id": "gen_c12_geo_ch04_q18",
     "nodeId": "c12_geo_cbse_04_008",
     "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Evaluate the claim: \"The Pradhan Mantri Gram Sadak Yojana (PMGSY) has solved rural connectivity in India.\" Use three specific geographical or outcome-based arguments with data trends (e.g., habitations connected, road quality, maintenance, tribal/hilly coverage).",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Quality & Maintenance",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Coverage",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "Last-mile gap",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "Excluded habitations",
-      "emoji": "📌",
-      "correctBin": "o2"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer citing only \"roads built = problem solved\" reveals inability to distinguish output (km constructed) from outcome (reliable access).",
-    "id": "gen_c12_geo_ch04_q17",
-    "nodeId": "c12_geo_cbse_04_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A state government declares a village with 12,000 people as a \"Nagar Panchayat\" (statutory town). The Census of India, however, records it as a census town only if it meets the three criteria.",
-    "answer": "It will be listed as a statutory town (because of Nagar Panchayat notification) and also fail census town criteria due to density <400 persons/km²",
-    "options": [
-     "The three categories are: (1) Notified slums — areas notified as slums by state/local government under any act",
-     "The statement is flawed. Census defines urban areas by three criteria: (a) minimum population 5,000, (b) ≥75% male main workers in non-agricultural activities",
-     "It will be listed as a statutory town (because of Nagar Panchayat notification) and also fail census town criteria due to density <400 persons/km²"
-    ],
-    "hint": "Straight from the 'human settlement' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: It will be listed as a statutory town (because of Nagar Panchayat notification) and also fail census town criteria due",
-    "id": "gen_c12_geo_ch04_q18",
-    "nodeId": "c12_geo_cbse_04_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -3095,7 +3134,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Pastoralism",
+    "title": "Pastoralism Is a Primary Economic Activity",
     "text": "Pastoralism is a primary economic activity centered on raising livestock on natural pastures, encompassing two distinct systems: nomadic herding (subsistence-oriented, mobile transhumance following seasonal forage and water) and commercial livestock rearing",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3274,11 +3313,11 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define nomadic herding and state two regions where it is traditionally practiced.",
     "answer": "Nomadic herding is a subsistence pastoral system where herders move cyclically with their livestock in search of natural pasture and water, with no fixed settlement",
     "options": [
+     "(b) weaving cotton cloth on a handloom. This is a secondary activity because it transforms raw cotton (a primary product) into finished fabric through manufacturing",
      "Arctic region (Inuit), Kalahari Desert (San Bushmen), Amazon/Congo basins (Pygmies, Yanomami)",
-     "Dairy farming is a sedentary, capital-intensive, market-oriented primary activity focused on commercial milk production using high-yield breeds",
      "Nomadic herding is a subsistence pastoral system where herders move cyclically with their livestock in search of natural pasture and water, with no fixed settlement"
     ],
-    "hint": "Straight from the 'Pastoralism' slide -- match the key terms.",
+    "hint": "Straight from the 'Pastoralism is a primary economic' slide -- match the key terms.",
     "misconception": "A wrong answer that describes fixed farms or market-oriented production reveals confusion with commercial livestock rearing; omitting mobility indicates misunderstanding of the core adaptive strategy.",
     "id": "gen_c12_geo_ch05_q3",
     "nodeId": "c12_geo_cbse_05_003",
@@ -3379,7 +3418,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define dairy farming as a primary activity and state its two most distinguishing characteristics compared to nomadic pastoralism.",
     "answer": "Dairy farming is a sedentary, capital-intensive, market-oriented primary activity focused on commercial milk production using high-yield breeds",
     "options": [
-     "(b) weaving cotton cloth on a handloom. This is a secondary activity because it transforms raw cotton (a primary product) into finished fabric through manufacturing",
+     "The student can (1) list at least four defining characteristics of hunting and gathering societies",
      "Nomadic herding is a subsistence pastoral system where herders move cyclically with their livestock in search of natural pasture and water, with no fixed settlement",
      "Dairy farming is a sedentary, capital-intensive, market-oriented primary activity focused on commercial milk production using high-yield breeds"
     ],
@@ -3533,6 +3572,52 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "locate on a world map the major regions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain why hunting and gathering",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "list at least four defining characteristics",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list at least four defining characteristics of hunting and gathering societies, (2) locate on a",
+    "id": "gen_c12_geo_ch05_q9",
+    "nodeId": "c12_geo_cbse_05_002",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A satellite image shows a landscape with: (i) geometric rectangular fields of uniform green in Punjab, (ii) irregular forest clearings with ash-enriched soil in Bastar, (iii) radial tracks converging on water points in western Rajasthan, (iv) terraced slopes with flooded paddies in Uttarakhand.",
     "answer": "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil",
@@ -3543,7 +3628,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary activities' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (i) Punjab rectangles → extensive commercial grain farming (wheat/rice).",
-    "id": "gen_c12_geo_ch05_q9",
+    "id": "gen_c12_geo_ch05_q10",
     "nodeId": "c12_geo_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3558,7 +3643,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary activities' slide -- match the key terms.",
     "misconception": "A student who says \"mining isn't primary because it uses machines\" confuses technology level with production order — mechanization does not change the activity's primary character.",
-    "id": "gen_c12_geo_ch05_q10",
+    "id": "gen_c12_geo_ch05_q11",
     "nodeId": "c12_geo_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3567,13 +3652,13 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Which of the following is NOT a primary activity: (a) collecting honey from wild beehives in the Sundarbans, (b) weaving cotton cloth on a handloom in Tamil Nadu, (c) drilling for crude oil in the Bombay High offshore field, (d) grazing sheep on alpine pastures in Ladakh?",
     "answer": "(b) weaving cotton cloth on a handloom. This is a secondary activity because it transforms raw cotton (a primary product) into finished fabric through manufacturing",
     "options": [
+     "Nomadic herding is a subsistence pastoral system where herders move cyclically with their livestock in search of natural pasture and water, with no fixed settlement",
      "The five regions are: (1) Mediterranean Basin (Europe, Africa, Asia), (2) California (USA), (3) Central Chile, (4) Cape Town region (South Africa)",
-     "Large-scale dairy farming and truck farming (market gardening)",
      "(b) weaving cotton cloth on a handloom. This is a secondary activity because it transforms raw cotton (a primary product) into finished fabric through manufacturing"
     ],
     "hint": "Straight from the 'Primary activities' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between \"working with natural materials\" and \"extracting natural materials\" — students often think any rural/traditional work is primary.",
-    "id": "gen_c12_geo_ch05_q11",
+    "id": "gen_c12_geo_ch05_q12",
     "nodeId": "c12_geo_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3588,7 +3673,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and",
-    "id": "gen_c12_geo_ch05_q12",
+    "id": "gen_c12_geo_ch05_q13",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3603,7 +3688,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "A student who says “both use similar tools” overlooks the fundamental distinction between extraction without alteration (hunting-gathering) and extensive but temporary alteration (shifting cultivation).",
-    "id": "gen_c12_geo_ch05_q13",
+    "id": "gen_c12_geo_ch05_q14",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3618,7 +3703,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer includes questions about: (1) primary source of protein (wild game vs.",
-    "id": "gen_c12_geo_ch05_q14",
+    "id": "gen_c12_geo_ch05_q15",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
@@ -3627,59 +3712,44 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name any two regions in the world where hunting and gathering is still practiced today.",
     "answer": "Arctic region (Inuit), Kalahari Desert (San Bushmen), Amazon/Congo basins (Pygmies, Yanomami)",
     "options": [
-     "Nomadic herding is a subsistence pastoral system where herders move cyclically with their livestock in search of natural pasture and water, with no fixed settlement",
-     "Dairy farming is a sedentary, capital-intensive, market-oriented primary activity focused on commercial milk production using high-yield breeds",
+     "Hunting and gathering is the most primitive primary activity where humans obtain food by hunting wild animals, fishing, and gathering wild plants (roots, berries, nuts",
+     "The five regions are: (1) Mediterranean Basin (Europe, Africa, Asia), (2) California (USA), (3) Central Chile, (4) Cape Town region (South Africa)",
      "Arctic region (Inuit), Kalahari Desert (San Bushmen), Amazon/Congo basins (Pygmies, Yanomami)"
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
     "misconception": "A wrong answer like “Punjab plains” or “Gangetic valley” reveals the student confuses hunting-gathering with settled agriculture and does not understand that this activity survives only in marginal, ecologically extreme areas where farming is difficult.",
-    "id": "gen_c12_geo_ch05_q15",
-    "nodeId": "c12_geo_cbse_05_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why do hunting and gathering societies typically have very low population densities (often less than 1 person per sq km)?",
-    "answer": "Because wild resources are dispersed and unpredictable; a large area is needed to support even a small group",
-    "options": [
-     "Temperate latitudes provide: (a) cool, moist climate ideal for high-yield exotic breeds (Holstein-Friesian, Jersey) which suffer heat stress above 25°C",
-     "Both are primary because they obtain value directly from nature without prior manufacturing: mining extracts a geological stock; plantation agriculture manages a biological flow",
-     "Because wild resources are dispersed and unpredictable; a large area is needed to support even a small group"
-    ],
-    "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
-    "misconception": "A wrong answer such as “they choose to have few children” shows the student misses the environmental determinism aspect — carrying capacity of the land limits population, not cultural preference alone.",
     "id": "gen_c12_geo_ch05_q16",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "“Hunting and gathering is an obsolete way of life that will disappear completely within a decade.” Evaluate this statement with two arguments for and two against, using geographical reasoning.",
-    "answer": "Correct evaluation: For disappearance — encroachment of commercial logging/mining, government settlement policies, climate change reducing wild resources",
+    "question": "What is Hunting and gathering? State the definition given in this lesson.",
+    "answer": "Hunting and gathering is the most primitive primary activity where humans obtain food by hunting wild animals, fishing, and gathering wild plants (roots, berries, nuts",
     "options": [
-     "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil",
-     "Criteria & weights: Rainfall >200 cm (25), Frost-free days >330 (20), Well-drained lateritic soil (20), Proximity to port <50 km (15), Slope <15° (10), Labour availability (10)",
-     "Correct evaluation: For disappearance — encroachment of commercial logging/mining, government settlement policies, climate change reducing wild resources"
+     "The student can (1) list at least four defining characteristics of hunting and gathering societies",
+     "(b) weaving cotton cloth on a handloom. This is a secondary activity because it transforms raw cotton (a primary product) into finished fabric through manufacturing",
+     "Hunting and gathering is the most primitive primary activity where humans obtain food by hunting wild animals, fishing, and gathering wild plants (roots, berries, nuts"
     ],
     "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Correct evaluation: For disappearance — encroachment of commercial logging/mining, government settlement policies,",
+    "misconception": "Recheck the lesson slide -- the key claim is: Hunting and gathering is the most primitive primary activity where humans obtain food by hunting wild animals, fishing,",
     "id": "gen_c12_geo_ch05_q17",
     "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Given a climate graph for a station in the Canadian Prairies (e.g., Regina: annual precipitation 390 mm, summer max 26°C, winter min -20°C), explain whether it supports extensive wheat farming and why.",
-    "answer": "Step 1: Identify the climate type: semi-arid continental (BSk). Step 2: Check precipitation: 390 mm falls within the 250–750 mm range for wheat",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) list at least four defining characteristics of hunting and gathering societies",
     "options": [
-     "Good answer: 6 ha dairy (300 cows, biogas from dung → electricity for cold storage), 3 ha truck farming (leafy greens, compost from digested slurry → organic fertiliser)",
-     "(A) Siberian tundra and (C) Central Australian desert — both have harsh climates, low agricultural potential, and sparse wild resources that favour nomadic hunting-gathering",
-     "Step 1: Identify the climate type: semi-arid continental (BSk). Step 2: Check precipitation: 390 mm falls within the 250–750 mm range for wheat"
+     "The five regions are: (1) Mediterranean Basin (Europe, Africa, Asia), (2) California (USA), (3) Central Chile, (4) Cape Town region (South Africa)",
+     "Large-scale dairy farming and truck farming (market gardening)",
+     "The student can (1) list at least four defining characteristics of hunting and gathering societies"
     ],
-    "hint": "Straight from the 'Extensive commercial grain farming' slide -- match the key terms.",
-    "misconception": "A wrong answer might misinterpret low precipitation as unsuitable, ignoring that wheat is drought-tolerant and the region uses summer fallow to conserve moisture.",
+    "hint": "Straight from the 'Hunting and gathering' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list at least four defining characteristics of hunting and gathering societies, (2) locate on a",
     "id": "gen_c12_geo_ch05_q18",
-    "nodeId": "c12_geo_cbse_05_007",
+    "nodeId": "c12_geo_cbse_05_002",
     "difficulty": "standard"
    }
   ],
@@ -4357,16 +4427,47 @@ export const C12_GEO_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "Define tertiary activities in one sentence and give two examples that are NOT transport or communication.",
-    "answer": "Correct: \"Tertiary activities are service-sector activities providing intangible outputs like expertise, care, or finance without transforming raw materials",
-    "options": [
-     "Trade is a tertiary activity because it provides the service of exchanging goods and services without physically transforming them — e",
-     "Quaternary activities are knowledge-intensive services (R&D, IT, consultancy) where the primary input is specialized expertise and the output is information/innovation",
-     "Correct: \"Tertiary activities are service-sector activities providing intangible outputs like expertise, care, or finance without transforming raw materials"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why tertiary sector share in GDP",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify any given service into trade",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish tertiary activities from primary",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Tertiary activities' slide -- match the key terms.",
-    "misconception": "A wrong answer that includes \"manufacturing cars\" or \"mining coal\" reveals confusion with secondary/primary sectors — the student misses the non-transformation criterion. An answer listing only transport/communication shows incomplete classification awareness.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) distinguish tertiary activities from primary and secondary using the intangibility and",
     "id": "gen_c12_geo_ch07_q1",
     "nodeId": "c12_geo_cbse_07_001",
     "difficulty": "standard",
@@ -4860,8 +4961,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name the three categories of service-sector activities in ascending order of knowledge intensity and decision-making authority, and give one typical occupation for each.",
     "answer": "Tertiary (e.g., retail salesperson), Quaternary (e.g., software architect), Quinary (e.g., CEO of a multinational corporation)",
     "options": [
-     "Quaternary activities are knowledge-intensive services (R&D, IT, consultancy) where the primary input is specialized expertise and the output is information/innovation",
-     "Trade is a tertiary activity because it provides the service of exchanging goods and services without physically transforming them — e",
+     "Student can distinguish quinary from quaternary activities by identifying the decision-making authority and strategic influence",
+     "Tertiary activities are service-sector economic activities that provide intangible outputs — such as expertise, care, transport, communication, finance, and trade",
      "Tertiary (e.g., retail salesperson), Quaternary (e.g., software architect), Quinary (e.g., CEO of a multinational corporation)"
     ],
     "hint": "Straight from the 'Tertiary, quaternary, and quinary' slide -- match the key terms.",
@@ -4919,6 +5020,52 @@ export const C12_GEO_GEN: SimDef[] = [
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong choice of rail/road ignores the value-density criterion and the fact that international export from Mumbai would still require sea freight, adding weeks.",
     "id": "gen_c12_geo_ch07_q12",
+    "nodeId": "c12_geo_cbse_07_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate the significance of a given mode",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the concept of complementarity among",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "classify the five principal modes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) classify the five principal modes of transport with their defining characteristics (medium, vehicle,",
+    "id": "gen_c12_geo_ch07_q13",
     "nodeId": "c12_geo_cbse_07_003",
     "difficulty": "standard"
    },
@@ -4986,7 +5133,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good plan includes: (1) City-wide OFC backbone in ring topology for redundancy; (2) 5G small cells on street",
-    "id": "gen_c12_geo_ch07_q13",
+    "id": "gen_c12_geo_ch07_q14",
     "nodeId": "c12_geo_cbse_07_004",
     "difficulty": "standard"
    },
@@ -5032,7 +5179,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists generic \"IT parks\" or \"tax breaks\" without linking to quaternary firms' actual location calculus.",
-    "id": "gen_c12_geo_ch07_q14",
+    "id": "gen_c12_geo_ch07_q15",
     "nodeId": "c12_geo_cbse_07_007",
     "difficulty": "standard"
    },
@@ -5089,7 +5236,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing uncritically confuses labor supply with knowledge-capital formation and ignores the quality-infrastructure-institution triad.",
-    "id": "gen_c12_geo_ch07_q15",
+    "id": "gen_c12_geo_ch07_q16",
     "nodeId": "c12_geo_cbse_07_007",
     "difficulty": "standard"
    },
@@ -5146,7 +5293,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer attributing it only to \"India is poorer\" ignores the spatial geometry of infrastructure deployment and policy design differences that geography demands.",
-    "id": "gen_c12_geo_ch07_q16",
+    "id": "gen_c12_geo_ch07_q17",
     "nodeId": "c12_geo_cbse_07_008",
     "difficulty": "advanced"
    },
@@ -5192,77 +5339,9 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that only mentions \"access to computers\" reveals the student conflates the divide with mere hardware availability, ignoring usage skills and quality of connection — a common error that leads to incomplete policy analysis in board answers.",
-    "id": "gen_c12_geo_ch07_q17",
+    "id": "gen_c12_geo_ch07_q18",
     "nodeId": "c12_geo_cbse_07_008",
     "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Design a hypothetical \"Quinary Corridor\" for a new Indian state capital. Specify five institutional anchors you would co-locate within 5 km, and explain the functional linkage between each pair.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Premier Policy Think Tank",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
-      "label": "High Court",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "State Central Bank branch / Finance",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "Headquarters of largest state-owned",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s4",
-      "label": "State Secretariat",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer lists generic offices without explaining *why their decisions must interact daily* — revealing misunderstanding of quinary *interdependence*.",
-    "id": "gen_c12_geo_ch07_q18",
-    "nodeId": "c12_geo_cbse_07_009",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -5277,14 +5356,14 @@ export const C12_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_geo_ch08",
-  "title": "Transport",
+  "title": "Transport Is The Physical Movement Of People",
   "subtitle": "Geography · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Transport",
+  "topic": "Transport Is The Physical Movement Of People",
   "chapters": [
-   "Geography Ch8: Transport"
+   "Geography Ch8: Transport Is The Physical Movement Of People"
   ],
   "nodeIds": [
    "c12_geo_cbse_08_001",
@@ -5306,7 +5385,7 @@ export const C12_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Transport actually explain?",
+   "question": "In one line -- what does Transport Is The Physical actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -5317,7 +5396,7 @@ export const C12_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Transport",
+    "title": "Transport Is The Physical Movement Of People",
     "text": "Transport is the physical movement of people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) across space.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5556,8 +5635,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name the two major pipeline networks in India for natural gas transportation and the organization that operates them.",
     "answer": "The two major natural gas pipeline networks are the Hazira-Vijaipur-Jagdishpur (HVJ) pipeline and the Dahej-Vijaipur pipeline, operated by GAIL (India) Ltd",
     "options": [
-     "Correct: Industrial Ports (e.g., handling bulk grain, ore, oil), Commercial Ports (e.g., packaged/manufactured goods, passenger traffic), Comprehensive Ports (e",
-     "Moscow (west) to Vladivostok (east), 9,289 km",
+     "Transport is the physical movement of people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) across space",
+     "Major trans-continental highways are long-distance, high-standard road networks that connect major cities, ports, and economic zones across a continent",
      "The two major natural gas pipeline networks are the Hazira-Vijaipur-Jagdishpur (HVJ) pipeline and the Dahej-Vijaipur pipeline, operated by GAIL (India) Ltd"
     ],
     "hint": "Straight from the 'Air transport' slide -- match the key terms.",
@@ -5573,17 +5652,47 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the terminal cities of the Trans-Siberian Railway and state its total length.",
-    "answer": "Moscow (west) to Vladivostok (east), 9,289 km",
-    "options": [
-     "The Suez Canal connects the Mediterranean Sea (Atlantic) to the Red Sea (Indian Ocean), and the Panama Canal connects the Atlantic Ocean to the Pacific Ocean",
-     "A geostationary satellite orbits at ~35,786 km above the equator. It must orbit in the equatorial plane with zero inclination so its orbital period matches Earth's rotation (24",
-     "Kirana (west) to Vladivostok (east), 9,289 km",
-     "Moscow (west) to Vladivostok (east), 9,289 km"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how physical geography",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "compare the economic role of each railway",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "locate and name all six major",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'trans-continental railway' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., St. Petersburg to Vladivostok, or 7,000 km) reveals the student confuses the historical starting point (St. Petersburg was the imperial capital) with the operational terminus, or misremembers the length — a common error when memorising facts without understanding the route's geographic logic.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) locate and name all six major trans-continental railways on a world outline map with their terminal",
     "id": "gen_c12_geo_ch08_q5",
     "nodeId": "c12_geo_cbse_08_005",
     "difficulty": "advanced",
@@ -5599,8 +5708,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name the trans-continental highway that links the Atlantic and Pacific coasts of Canada and state its approximate length.",
     "answer": "The Trans-Canada Highway links St. John’s (Newfoundland, Atlantic) to Victoria (British Columbia, Pacific) and is approximately 7,821 km long",
     "options": [
-     "A geostationary satellite orbits at ~35,786 km above the equator. It must orbit in the equatorial plane with zero inclination so its orbital period matches Earth's rotation (24",
      "The Suez Canal connects the Mediterranean Sea (Atlantic) to the Red Sea (Indian Ocean), and the Panama Canal connects the Atlantic Ocean to the Pacific Ocean",
+     "Major trans-continental highways are long-distance, high-standard road networks that connect major cities, ports, and economic zones across a continent",
      "The Trans-Canada Highway links St. John’s (Newfoundland, Atlantic) to Victoria (British Columbia, Pacific) and is approximately 7,821 km long"
     ],
     "hint": "Straight from the 'Major trans-continental highways' slide -- match the key terms.",
@@ -5780,6 +5889,52 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain at least four distinct ways",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "define transport in geographical terms",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "classify transport modes by their economic",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) define transport in geographical terms emphasizing spatial interaction, (2) explain at least four",
+    "id": "gen_c12_geo_ch08_q12",
+    "nodeId": "c12_geo_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Compare the Konkan Railway (Roha–Thokur) and the Himalayan Railway (Jammu–Baramulla–Srinagar) on THREE parameters: gauge, terrain challenge, and strategic significance. Why was Broad Gauge chosen for both despite extreme terrain?",
     "sortItems": [
      {
@@ -5820,7 +5975,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"BG is faster\" or \"BG is cheaper to build\" reveals confusion: BG is costlier in mountains but chosen for network externalities. This is a classic board case-study trap.",
-    "id": "gen_c12_geo_ch08_q12",
+    "id": "gen_c12_geo_ch08_q13",
     "nodeId": "c12_geo_cbse_08_002",
     "difficulty": "standard"
    },
@@ -5866,7 +6021,53 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer saying \"yes, BG is better\" ignores cost-benefit analysis — a frequent error in 5-marker board questions on \"Project Unigauge critique.\"",
-    "id": "gen_c12_geo_ch08_q13",
+    "id": "gen_c12_geo_ch08_q14",
+    "nodeId": "c12_geo_cbse_08_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Interpret a railway map to identify gauge",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Compare road vs rail for a given",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Classify any Indian road into its correct",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Classify any Indian road into its correct category (NH, SH, MDR, ODR, VR) and explain the",
+    "id": "gen_c12_geo_ch08_q15",
     "nodeId": "c12_geo_cbse_08_002",
     "difficulty": "standard"
    },
@@ -5912,7 +6113,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer focusing only on “Europe is more developed” misses the specific physical-institutional interplay.",
-    "id": "gen_c12_geo_ch08_q14",
+    "id": "gen_c12_geo_ch08_q16",
     "nodeId": "c12_geo_cbse_08_003",
     "difficulty": "standard"
    },
@@ -5991,7 +6192,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer listing only “depth and width” ignores the demand-institution nexus that determines actual utilization — a key reason many Indian waterways remain underused.",
-    "id": "gen_c12_geo_ch08_q15",
+    "id": "gen_c12_geo_ch08_q17",
     "nodeId": "c12_geo_cbse_08_003",
     "difficulty": "standard"
    },
@@ -6004,38 +6205,8 @@ export const C12_GEO_GEN: SimDef[] = [
      "Expected answer: Tea is high-value, perishable, moderate volume. Plan: 1) Road from gardens to Siliguri (short distance)",
      "Implicit transport cost = ₹340 – ₹280 = ₹60/quintal. This ₹60 is not a paid freight charge but an *opportunity cost* of inadequate transport"
     ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
+    "hint": "Straight from the 'Transport is the physical' slide -- match the key terms.",
     "misconception": "A wrong answer that calculates ₹60 but calls it \"loss due to middlemen\" misses the geographical point: the cost arises from *spatial friction* due to poor transport, not market structure.",
-    "id": "gen_c12_geo_ch08_q16",
-    "nodeId": "c12_geo_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the economic role of the Golden Quadrilateral (NHAI highway network) with the Dedicated Freight Corridor (DFC) railway. Which contributes more to *manufacturing competitiveness* and why?",
-    "answer": "The DFC contributes more to manufacturing competitiveness because it lowers *per-tonne-km cost for bulk raw materials and finished goods* over long distances (e",
-    "options": [
-     "The Trans-Canada Highway (completed 1962) was built to unite a young, east–west oriented federation by linking resource-rich western provinces (timber, minerals",
-     "Parameters: (1) Perennial flow with regulated depth (Rhine: canalised, locks, consistent discharge; Ganga-Brahmaputra: highly seasonal, braiding, siltation)",
-     "The DFC contributes more to manufacturing competitiveness because it lowers *per-tonne-km cost for bulk raw materials and finished goods* over long distances (e"
-    ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
-    "misconception": "A student who says \"highways are better because they are faster\" ignores that manufacturing competitiveness for bulk industries depends on *low unit freight cost*, not speed — revealing a confusion between passenger and freight transport economics.",
-    "id": "gen_c12_geo_ch08_q17",
-    "nodeId": "c12_geo_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Define transport in the context of economic geography. How does it differ from the everyday meaning of \"moving people\"?",
-    "answer": "Transport in economic geography is the movement of goods, services, and people across space to overcome the friction of distance",
-    "options": [
-     "The Suez Canal connects the Mediterranean Sea (Atlantic) to the Red Sea (Indian Ocean), and the Panama Canal connects the Atlantic Ocean to the Pacific Ocean",
-     "A geostationary satellite orbits at ~35,786 km above the equator. It must orbit in the equatorial plane with zero inclination so its orbital period matches Earth's rotation (24",
-     "Transport in economic geography is the movement of goods, services, and people across space to overcome the friction of distance"
-    ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
-    "misconception": "A wrong answer that only mentions \"moving people and goods\" without the economic purpose reveals the student sees transport as a physical activity, not a geographic-economic process.",
     "id": "gen_c12_geo_ch08_q18",
     "nodeId": "c12_geo_cbse_08_001",
     "difficulty": "standard"
@@ -6043,11 +6214,11 @@ export const C12_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about transport?",
+    "What surprised you about transport is the physical movement of people?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Transport mastered! 🎯",
+  "successLine": "Transport Is The Physical mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6476,7 +6647,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "Expected answer (criteria for a good response): Prong 1 — *Silver Economy Skilling*: Train 50,000 women (45–59) in geriatric care, home nursing, palliative support by 2027",
      "Expected answer criteria: (1) % of PHCs with 24/7 delivery services and trained staff (immediate objective: infrastructure)"
     ],
-    "hint": "Straight from the 'National Population Policy  2000' slide -- match the key terms.",
+    "hint": "Straight from the 'National Population Policy 2000' slide -- match the key terms.",
     "misconception": "A poor answer lists only health inputs (doctors, beds) ignoring gender and community pillars — revealing a biomedical rather than socio-demographic understanding of NPP 2000's multi-sectoral design.",
     "id": "gen_c12_geo_ch09_q13",
     "nodeId": "c12_geo_cbse_09_010",
@@ -6841,16 +7012,47 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Why do the states of Uttar Pradesh and Maharashtra together account for nearly one-third of all million-plus cities in India, while large states like Madhya Pradesh and Rajasthan have very few?",
-    "answer": "Uttar Pradesh and Maharashtra lie on the fertile Ganga plain and the industrially developed Mumbai-Pune corridor respectively, offering historical urbanization",
-    "options": [
-     "Hamleted settlements consist of multiple socially segregated hamlets (panna, tola) spread over a large area",
-     "Population alone cannot distinguish a large village from a small town; density ensures compact built-up area",
-     "Uttar Pradesh and Maharashtra lie on the fertile Ganga plain and the industrially developed Mumbai-Pune corridor respectively, offering historical urbanization"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain the spatial pattern linking",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Identify all million-plus cities",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Calculate decadal growth rates using census",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Million-plus cities' slide -- match the key terms.",
-    "misconception": "A wrong answer citing only \"population size\" ignores that Bihar (high population) has only one million-plus city (Patna) — showing physical geography and economic history matter more than raw population.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Identify all million-plus cities on an outline map of India and group them by state/region, (2)",
     "id": "gen_c12_geo_ch10_q7",
     "nodeId": "c12_geo_cbse_10_007",
     "difficulty": "advanced",
@@ -7381,7 +7583,9 @@ export const C12_GEO_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "geography",
   "topic": "Water Resources In India",
-  "chapters": ["Geography Ch12: Water Resources In India"],
+  "chapters": [
+   "Geography Ch12: Water Resources In India"
+  ],
   "nodeIds": [
    "c12_geo_cbse_12_001",
    "c12_geo_cbse_12_002",
@@ -7459,7 +7663,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Dams",
+    "title": "Dams Are Large Barriers Constructed Across",
     "text": "Dams are large barriers constructed across rivers to store water in reservoirs, serving multipurpose objectives such as irrigation, hydroelectric power generation, flood control, and domestic/industrial water supply.",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -7475,7 +7679,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "Benefit: Pricing water volumetrically incentivises efficient use (e.g., adoption of drip irrigation), reduces waste, and generates revenue for infrastructure maintenance",
      "A good infographic flows: 4,000 km³ precipitation → (evaporation, transpiration, runoff) → 1,869 km³ available surface + groundwater → 60% utilizable = 1,122 km³ → split:"
     ],
-    "hint": "Straight from the 'Water resources in India refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Water resources in India' slide -- match the key terms.",
     "misconception": "A poor answer shows a linear list without proportional flows or misses the quality/pollution leakage — indicating inability to synthesize quantitative and qualitative dimensions.",
     "id": "gen_c12_geo_ch12_q1",
     "nodeId": "c12_geo_cbse_12_001",
@@ -7675,7 +7879,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "Percentage reduction = (50/400) × 100 = 12.5% reduction. This triggers dispute because: (1) Tamil Nadu's agriculture (especially delta paddy) is adapted to historical flow",
      "Steps: 1) Locate Sardar Sarovar Dam on the Narmada River in Gujarat. 2) Note FRL increase of 16.78 m"
     ],
-    "hint": "Straight from the 'Dams' slide -- match the key terms.",
+    "hint": "Straight from the 'Dams are large barriers' slide -- match the key terms.",
     "misconception": "A wrong answer that only counts villages in Gujarat reveals the student does not understand the inter-state nature of submergence and the upstream-downstream spatial extent.",
     "id": "gen_c12_geo_ch12_q9",
     "nodeId": "c12_geo_cbse_12_011",
@@ -7817,7 +8021,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "Haryali is a top-down, centrally sponsored programme executed by Gram Panchayats with government funds",
      "Himalayan dam (Tehri): High sedimentation due to young, eroding mountains; high seismic risk (Zone IV-V)"
     ],
-    "hint": "Straight from the 'Dams' slide -- match the key terms.",
+    "hint": "Straight from the 'Dams are large barriers' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both as similar ignores the geomorphic and tectonic differences critical for board exam \"compare and contrast\" questions.",
     "id": "gen_c12_geo_ch12_q16",
     "nodeId": "c12_geo_cbse_12_011",
@@ -7826,7 +8030,7 @@ export const C12_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about water resources in india refer to?",
+    "What surprised you about water resources in india?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -7896,7 +8100,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Coal",
+    "title": "Coal Is a Combustible Sedimentary Rock",
     "text": "Coal is a combustible sedimentary rock formed from buried plant matter over geological time through the process of coalification, occurring in India primarily in two geological ages: Gondwana (Permian period, ~250-300 million years ago) yielding bituminous",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -8145,7 +8349,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "(a) Induced Polarisation (IP) for disseminated sulphides and Magnetics for mapping shear zones; (b) Pathfinders: Arsenic (As) and Antimony (Sb) for lead-zinc",
      "Option A: 5 Mt × (design GCV/4500) ≈ 5 Mt (assuming design GCV ~4500). Option B: 5 Mt × (4500/2500) = 9 Mt"
     ],
-    "hint": "Straight from the 'Coal' slide -- match the key terms.",
+    "hint": "Straight from the 'Coal is a combustible sedimentary' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Option A: 5 Mt × (design GCV/4500) ≈ 5 Mt (assuming design GCV ~4500).",
     "id": "gen_c12_geo_ch13_q5",
     "nodeId": "c12_geo_cbse_13_006",
@@ -8367,8 +8571,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Name the three major copper mining belts in India and the states they are located in.",
     "answer": "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh",
     "options": [
-     "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative",
-     "Critical factors: (1) Low average grade of Indian copper ore (~0.8-1% Cu) vs. global average (~0.6% but with massive tonnage in porphyry deposits like Chile)",
+     "Student can locate the major copper, lead, and zinc mining belts on an outline map of India, explain the geological reasons for their concentration in specific regions (Singhbhum",
+     "Students think \"Khetri is in the Dharwar craton like Singhbhum\" because both are copper belts",
      "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh"
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
@@ -8394,47 +8598,48 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why are lead and zinc deposits almost always found together in India, and which geological formation hosts the Zawar lead-zinc deposits?",
-    "answer": "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative",
+    "question": "What common mix-up does this lesson flag about Non-ferrous minerals?",
+    "answer": "Students think \"Khetri is in the Dharwar craton like Singhbhum\" because both are copper belts",
     "options": [
-     "The statement is partially flawed. While India has ~660 million tonnes of bauxite (sufficient for decades at current ~25 Mt/yr aluminium capacity)",
-     "Correct evaluation: The statement is outdated/incomplete. Petroleum occurs in sedimentary basins of: (1) Assam-Arakan Basin (Digboi, Naharkatiya, Moran",
-     "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative"
+     "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh",
+     "Student can locate the major copper, lead, and zinc mining belts on an outline map of India, explain the geological reasons for their concentration in specific regions (Singhbhum",
+     "Students think \"Khetri is in the Dharwar craton like Singhbhum\" because both are copper belts"
     ],
     "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
-    "misconception": "A wrong answer citing \"Dharwar system\" for Zawar shows confusion between the copper-hosting Dharwar rocks (Singhbhum, Khetri) and the younger Aravalli sequence hosting lead-zinc.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students think \"Khetri is in the Dharwar craton like Singhbhum\" because both are copper belts.",
     "id": "gen_c12_geo_ch13_q16",
     "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "A cement plant in Satna (Madhya Pradesh) sources limestone from the nearby Kaimur range. Using the geological map of India, identify the rock formation (group) this limestone belongs to and state its geological age.",
-    "answer": "Steps: (1) Locate Satna in MP on the Vindhyan range. (2) Recall that the Vindhyan Supergroup (Sandstone, Limestone, Shale) of Proterozoic age hosts extensive limestone",
+    "question": "What is Non-ferrous minerals? State the definition given in this lesson.",
+    "answer": "Non-ferrous minerals are metallic minerals that do not contain iron as a major component",
     "options": [
-     "(a) Induced Polarisation (IP) for disseminated sulphides and Magnetics for mapping shear zones; (b) Pathfinders: Arsenic (As) and Antimony (Sb) for lead-zinc",
-     "Expected answer: Outline map of India with (a) Limestone: shaded patches in Rajasthan (Jaisalmer, Chittorgarh), MP (Satna, Katni), AP (Cuddapah), Karnataka (Gulbarga)",
-     "Steps: (1) Locate Satna in MP on the Vindhyan range. (2) Recall that the Vindhyan Supergroup (Sandstone, Limestone, Shale) of Proterozoic age hosts extensive limestone"
+     "Students think \"Khetri is in the Dharwar craton like Singhbhum\" because both are copper belts",
+     "Student can locate the major copper, lead, and zinc mining belts on an outline map of India, explain the geological reasons for their concentration in specific regions (Singhbhum",
+     "CFBC minerals are metallic minerals that do not contain iron as a major component",
+     "Non-ferrous minerals are metallic minerals that do not contain iron as a major component"
     ],
-    "hint": "Straight from the 'Non-metallic minerals' slide -- match the key terms.",
-    "misconception": "Wrong answer \"Gondwana\" indicates confusion with coal-bearing formations; \"Deccan Traps\" confuses volcanic basalt with sedimentary limestone.",
+    "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Non-ferrous minerals are metallic minerals that do not contain iron as a major component.",
     "id": "gen_c12_geo_ch13_q17",
-    "nodeId": "c12_geo_cbse_13_005",
+    "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Compare the spatial distribution of mica and dolomite in India. Which physiographic region hosts both, and what does this imply about their geological association?",
-    "answer": "The Chhotanagpur Plateau (Jharkhand) hosts high-quality mica belts, while dolomite occurs in the same Precambrian shield (Dharwar, Cuddapah) but also in the Vindhyan basin",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can locate the major copper, lead, and zinc mining belts on an outline map of India, explain the geological reasons for their concentration in specific regions (Singhbhum",
     "options": [
-     "Both occur in Proterozoic mobile belts: Singhbhum in the Singhbhum Shear Zone (Dharwar craton margin) and Khetri in the Khetri Copper Belt (Aravalli-Delhi mobile belt)",
-     "Uranium occurs in limited, hard-rock vein deposits (Dharwar/Singhbhum) — scarce, difficult to mine, finite",
-     "The Chhotanagpur Plateau (Jharkhand) hosts high-quality mica belts, while dolomite occurs in the same Precambrian shield (Dharwar, Cuddapah) but also in the Vindhyan basin"
+     "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh",
+     "Students think \"Khetri is in the Dharwar craton like Singhbhum\" because both are copper belts",
+     "Student can locate the major copper, lead, and zinc mining belts on an outline map of India, explain the geological reasons for their concentration in specific regions (Singhbhum"
     ],
-    "hint": "Straight from the 'Non-metallic minerals' slide -- match the key terms.",
-    "misconception": "A wrong answer stating \"both are only in Rajasthan\" misses the Jharkhand mica belt and the widespread Vindhyan dolomite.",
+    "hint": "Straight from the 'Non-ferrous minerals' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can locate the major copper, lead, and zinc mining belts on an outline map of India, explain the geological",
     "id": "gen_c12_geo_ch13_q18",
-    "nodeId": "c12_geo_cbse_13_005",
+    "nodeId": "c12_geo_cbse_13_004",
     "difficulty": "advanced"
    }
   ],
@@ -8450,14 +8655,14 @@ export const C12_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_geo_ch14",
-  "title": "Manufacturing",
+  "title": "Manufacturing Is The Process Of Transforming",
   "subtitle": "Geography · Chapter 14",
   "classLevel": 12,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Manufacturing",
+  "topic": "Manufacturing Is The Process Of Transforming",
   "chapters": [
-   "Geography Ch14: Manufacturing"
+   "Geography Ch14: Manufacturing Is The Process Of Transforming"
   ],
   "nodeIds": [
    "c12_geo_cbse_14_001",
@@ -8473,7 +8678,7 @@ export const C12_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Manufacturing actually explain?",
+   "question": "In one line -- what does Manufacturing Is The Process Of actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -8484,7 +8689,7 @@ export const C12_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Manufacturing",
+    "title": "Manufacturing Is The Process Of Transforming",
     "text": "Manufacturing is the process of transforming raw materials into finished goods of higher value through mechanical, chemical, or manual operations, using machinery, labour, and energy; it forms the secondary sector of the economy and is classified by raw",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -8524,7 +8729,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "(a) Koraput (Odisha) – Hirakud hydroelectric power + bauxite in Kalahandi; (b) Ratnagiri (Maharashtra) – imported alumina + thermal power",
      "| Industry | Raw Material | Scale | Ownership | Product Type | |---|---|---|---|---| | Bhilai Steel Plant | Mineral-based (iron ore) | Large-scale (>₹10 Cr investment) | Public"
     ],
-    "hint": "Straight from the 'Manufacturing' slide -- match the key terms.",
+    "hint": "Straight from the 'Manufacturing is the process of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: | Industry | Raw Material | Scale | Ownership | Product Type | |---|---|---|---|---| | Bhilai Steel Plant |",
     "id": "gen_c12_geo_ch14_q1",
     "nodeId": "c12_geo_cbse_14_001",
@@ -8705,7 +8910,7 @@ export const C12_GEO_GEN: SimDef[] = [
      "| Industry | Raw Material | Scale | Ownership | Product Type | |---|---|---|---|---| | Bhilai Steel Plant | Mineral-based (iron ore) | Large-scale (>₹10 Cr investment) | Public",
      "Flowchart decisions: 1. Raw material: Forest-based (bamboo) → Agro/Forest category 2. Scale: ₹50 Lakh > ₹25 Lakh (cottage limit) but < ₹10 Cr (large limit) → Small-scale industry"
     ],
-    "hint": "Straight from the 'Manufacturing' slide -- match the key terms.",
+    "hint": "Straight from the 'Manufacturing is the process of' slide -- match the key terms.",
     "misconception": "A poor answer missing any decision node (e.g., skipping ownership) or misclassifying scale (calling ₹50L \"cottage\") shows incomplete grasp of threshold values and category definitions.",
     "id": "gen_c12_geo_ch14_q7",
     "nodeId": "c12_geo_cbse_14_001",
@@ -8759,11 +8964,11 @@ export const C12_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about manufacturing?",
+    "What surprised you about manufacturing is the process of transforming?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Manufacturing mastered! 🎯",
+  "successLine": "Manufacturing Is The Process mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -9746,7 +9951,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Deforestation",
+    "title": "Deforestation Is The Permanent Removal",
     "text": "Deforestation is the permanent removal of forest cover and conversion of forest land to non-forest uses (agriculture, settlements, infrastructure, mining) resulting in a reduction of tree canopy cover below 10%.",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -9770,7 +9975,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Disaster",
+    "title": "A Disaster Is a Serious Disruption",
     "text": "A disaster is a serious disruption of the functioning of a community or society involving widespread human, material, economic, or environmental losses and impacts, which exceeds the ability of the affected community or society to cope using its own resources.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -10032,8 +10237,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define noise pollution according to NCERT and state the unit used to measure its intensity.",
     "answer": "Noise pollution is the state of unbearable and uncomfortable sound levels caused by various sources such as traffic, industries, aircraft, and construction",
     "options": [
-     "The three major categories are industrial activities, agricultural activities, and cultural activities",
-     "A disaster is \"a serious disruption of the functioning of a community or society at any scale due to hazardous events interacting with conditions of exposure",
+     "Land degradation is a temporary or permanent decline in productive capacity of land. Wasteland is land degraded beyond economic recovery",
+     "Land degradation is a temporary or permanent decline in the productive capacity of land caused by natural processes (e",
      "Noise pollution is the state of unbearable and uncomfortable sound levels caused by various sources such as traffic, industries, aircraft, and construction"
     ],
     "hint": "Straight from the 'Noise pollution' slide -- match the key terms.",
@@ -10053,11 +10258,11 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define the term 'disaster' as per the UNDRR (United Nations Office for Disaster Risk Reduction) and explain how it differs from a 'natural hazard'. Give one Indian example where a natural hazard did NOT become a disaster.",
     "answer": "A disaster is \"a serious disruption of the functioning of a community or society at any scale due to hazardous events interacting with conditions of exposure",
     "options": [
-     "Zone II (Low), Zone III (Moderate), Zone IV (High), Zone V (Very High). Zone V is driven by the Main Boundary Thrust (MBT) and Main Central Thrust (MCT) in the Himalaya where the",
      "Mitigation refers to sustained actions taken BEFORE a disaster to reduce or eliminate long-term risk to life and property",
+     "Student can explain the four phases of disaster management with specific Indian examples, differentiate between structural and non-structural mitigation measures",
      "A disaster is \"a serious disruption of the functioning of a community or society at any scale due to hazardous events interacting with conditions of exposure"
     ],
-    "hint": "Straight from the 'disaster' slide -- match the key terms.",
+    "hint": "Straight from the 'A disaster is a serious disruption' slide -- match the key terms.",
     "misconception": "WRONG ANSWER REVEALS: If a student says \"a disaster is just a big hazard\" or gives an example like \"the 2004 tsunami was a hazard,\" they confuse the physical event with its societal impact and miss the vulnerability-exposure-capacity framework.",
     "id": "gen_c12_geo_ch17_q6",
     "nodeId": "c12_geo_cbse_17_006",
@@ -10070,16 +10275,47 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the four seismic zones of India (Zone II to V) in order of increasing hazard and state the primary tectonic feature responsible for Zone V.",
-    "answer": "Zone II (Low), Zone III (Moderate), Zone IV (High), Zone V (Very High). Zone V is driven by the Main Boundary Thrust (MBT) and Main Central Thrust (MCT) in the Himalaya where the",
-    "options": [
-     "Land degradation is a temporary or permanent decline in productive capacity of land. Wasteland is land degraded beyond economic recovery",
-     "Forest cover (FSI) = all lands >1 ha with tree canopy density >10%, irrespective of ownership/legal status",
-     "Zone II (Low), Zone III (Moderate), Zone IV (High), Zone V (Very High). Zone V is driven by the Main Boundary Thrust (MBT) and Main Central Thrust (MCT) in the Himalaya where the"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify a given drought event",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "delineate India's four seismic zones",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "contrast the flood mechanisms of Himalayan",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Natural disasters in India' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., listing zones alphabetically or citing the Deccan Traps for Zone V) reveals the student has memorized zone numbers without linking them to plate-boundary processes taught in c11_geo_cbse_04_008 and c11_geo_cbse_11_002.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) delineate India's four seismic zones on an outline map and explain the plate-tectonic reason for each",
     "id": "gen_c12_geo_ch17_q7",
     "nodeId": "c12_geo_cbse_17_007",
     "difficulty": "advanced",
@@ -10169,8 +10405,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define \"mitigation\" in disaster management and give ONE structural and ONE non-structural measure for earthquake risk reduction in Delhi NCR.",
     "answer": "Mitigation refers to sustained actions taken BEFORE a disaster to reduce or eliminate long-term risk to life and property",
     "options": [
-     "Land degradation is a temporary or permanent decline in productive capacity of land. Wasteland is land degraded beyond economic recovery",
-     "Forest cover (FSI) = all lands >1 ha with tree canopy density >10%, irrespective of ownership/legal status",
+     "The student can distinguish between a natural hazard and a natural disaster using the vulnerability-exposure-capacity framework",
+     "Deforestation is the permanent removal of forest cover and conversion of forest land to non-forest uses (agriculture, settlements, infrastructure",
      "Mitigation refers to sustained actions taken BEFORE a disaster to reduce or eliminate long-term risk to life and property"
     ],
     "hint": "Straight from the 'Disaster management' slide -- match the key terms.",
@@ -10190,8 +10426,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "What is the definition of sustainable development as per the Brundtland Report (1987)?",
     "answer": "Correct: \"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
     "options": [
-     "A disaster is \"a serious disruption of the functioning of a community or society at any scale due to hazardous events interacting with conditions of exposure",
-     "“Population-Environment-Development Linkages are the reciprocal interactions among human population dynamics (size, distribution, composition)",
+     "Forest cover (FSI) = all lands >1 ha with tree canopy density >10%, irrespective of ownership/legal status",
+     "Deforestation is the permanent removal of forest cover and conversion of forest land to non-forest uses (agriculture, settlements, infrastructure",
      "Correct: \"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs"
     ],
     "hint": "Straight from the 'Sustainable development' slide -- match the key terms.",
@@ -10260,6 +10496,63 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the Jhabua watershed management",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate conservation",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "classify land degradation types by causative",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "interpret NRSC wasteland categories on a map",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) classify land degradation types by causative agent (natural vs.",
+    "id": "gen_c12_geo_ch17_q12",
+    "nodeId": "c12_geo_cbse_17_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Using the species-area relationship S = cA^z (where S = species richness, A = habitat area, c = constant, z ≈ 0.25 for forest fragments), calculate the expected percentage of bird species lost if a 10,000 km² contiguous forest in the Western Ghats is fragmented into 25 isolated patches of 400 km² each.",
     "sortItems": [
      {
@@ -10322,7 +10615,53 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., 25 × 44.7% = 1117%) shows misunderstanding of alpha vs gamma diversity and the non-additivity of species across isolated fragments.",
-    "id": "gen_c12_geo_ch17_q12",
+    "id": "gen_c12_geo_ch17_q13",
+    "nodeId": "c12_geo_cbse_17_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze how deforestation leads",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain the direct and underlying causes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate conservation strategies",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) explain the direct and underlying causes of deforestation in India with region-specific examples, (2)",
+    "id": "gen_c12_geo_ch17_q14",
     "nodeId": "c12_geo_cbse_17_002",
     "difficulty": "advanced"
    },
@@ -10368,7 +10707,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who agrees reveals a narrow \"end-of-pipe\" mindset, ignoring the multi-source, basin-scale nature of river pollution that geography emphasizes.",
-    "id": "gen_c12_geo_ch17_q13",
+    "id": "gen_c12_geo_ch17_q15",
     "nodeId": "c12_geo_cbse_17_003",
     "difficulty": "advanced"
    },
@@ -10425,7 +10764,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who says both simply have vehicular pollution misses source apportionment, and denying Bengaluru a winter peak ignores its local meteorology.",
-    "id": "gen_c12_geo_ch17_q14",
+    "id": "gen_c12_geo_ch17_q16",
     "nodeId": "c12_geo_cbse_17_004",
     "difficulty": "advanced"
    },
@@ -10482,7 +10821,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who forgets the unit conversion overstates the concentration by thousands of times, and using stack height instead of mixing height misunderstands the box model assumption.",
-    "id": "gen_c12_geo_ch17_q15",
+    "id": "gen_c12_geo_ch17_q17",
     "nodeId": "c12_geo_cbse_17_004",
     "difficulty": "advanced"
    },
@@ -10550,122 +10889,8 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer offers generic tree-planting without geographic specificity, seasonal design or an equity lens.",
-    "id": "gen_c12_geo_ch17_q16",
-    "nodeId": "c12_geo_cbse_17_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "EVALUATE level: The Graded Response Action Plan (GRAP) for Delhi-NCR triggers \"Stage 3\" (Severe+) when AQI > 400, banning construction, BS-III petrol/BS-IV diesel vehicles, and mandating 50% work-from-home.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Equity",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "The better path",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s2",
-      "label": "Enforcement",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "Effectiveness",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who calls the plan very effective because the AQI dropped afterwards confuses correlation with causation, since wind speeds usually rose at the same time.",
-    "id": "gen_c12_geo_ch17_q17",
-    "nodeId": "c12_geo_cbse_17_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Design a community-level preparedness map for a village 2 km downwind of a chlorine-tonner storage depot. List four map layers (with data sources) and one actionable protocol the map enables.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Vulnerable population",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Evacuation routes & assembly points",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Early warning sirens & communication nodes",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "Hazard footprint",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Layers: (1) Hazard footprint — ALOHA/CAMEO dispersion modeling output for worst-case chlorine release (source: depot's",
     "id": "gen_c12_geo_ch17_q18",
-    "nodeId": "c12_geo_cbse_17_008",
+    "nodeId": "c12_geo_cbse_17_004",
     "difficulty": "advanced"
    }
   ],
@@ -10774,7 +10999,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Data Storage Formats In Geography Refer",
+    "title": "Data Storage Formats In Geography",
     "text": "Data storage formats in geography refer to the structured systems used to organise, manage, and retrieve geographical data — including statistical tables for tabular representation, relational databases for multi-layered attribute management, and GIS",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -10942,8 +11167,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define quantitative data and qualitative data in geography. Give one example of each from Indian physical geography.",
     "answer": "Quantitative data: numerical measurements that can be counted or measured (e.g., annual rainfall of 1200 mm in Mumbai)",
     "options": [
-     "Spatial data refers to data that has a geographic location reference (e.g., coordinates, address, topology)",
-     "A statistical table is a systematic arrangement of data in columns and rows. Its two primary purposes are: (1) to simplify the presentation of large volumes of raw data",
+     "Quantitative data in geography refers to numerical measurements that can be counted, measured, and expressed in numbers (e",
+     "The student can classify a given set of geographical observations into quantitative and qualitative types",
      "Quantitative data: numerical measurements that can be counted or measured (e.g., annual rainfall of 1200 mm in Mumbai)"
     ],
     "hint": "Straight from the 'Quantitative data in geography' slide -- match the key terms.",
@@ -10963,8 +11188,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define spatial data and give one example from a topographical map.",
     "answer": "Spatial data refers to data that has a geographic location reference (e.g., coordinates, address, topology)",
     "options": [
-     "The Census of India is conducted under the Census Act, 1948, and is administered by the Office of the Registrar General and Census Commissioner under the Ministry of Home Affairs",
-     "Reliability refers to the consistency of a measurement — if the same phenomenon is measured repeatedly under similar conditions, the results should be similar",
+     "Student can design a frequency distribution table from raw geographical data, explain how attribute tables link to spatial features in a GIS",
+     "Spatial data refers to information that identifies the geographic location of features and boundaries on Earth, such as coordinates (latitude/longitude), addresses, or topology",
      "Spatial data refers to data that has a geographic location reference (e.g., coordinates, address, topology)"
     ],
     "hint": "Straight from the 'Spatial data' slide -- match the key terms.",
@@ -11245,6 +11470,155 @@ export const C12_GEO_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between data and information",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "articulate the significance of data",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain why raw data alone",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between data and information with a geographical example, (2) explain why raw data",
+    "id": "gen_c12_geo_ch18_q12",
+    "nodeId": "c12_geo_cbse_18_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Distinguish between questionnaire",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Design a 10-item field survey checklist",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "List the eight NCERT-prescribed precautions",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Distinguish between questionnaire (self-administered) and schedule (enumerator-administered) and",
+    "id": "gen_c12_geo_ch18_q13",
+    "nodeId": "c12_geo_cbse_18_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "name at least two",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "identify whether a given geographic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "describe the storage implications",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "explain how topology differs between the two",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) identify whether a given geographic phenomenon (e.",
+    "id": "gen_c12_geo_ch18_q14",
+    "nodeId": "c12_geo_cbse_18_009",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student collects maximum temperatures (°C) of five Indian cities on a summer day: Delhi 42, Mumbai 33, Chennai 38, Kolkata 36, Shimla 22. (a) Calculate the mean temperature. (b) The student concludes \"India is experiencing a heat wave.\" Identify the geographical error in this conclusion and name the concept violated.",
     "answer": "(a) Mean = (42+33+38+36+22)/5 = 34.2°C. (b) The conclusion ignores spatial variation — Shimla (22°C) is not in a heat wave",
@@ -11255,7 +11629,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Mean = (42+33+38+36+22)/5 = 34.2°C. (b) The conclusion ignores spatial variation — Shimla (22°C) is not in a heat",
-    "id": "gen_c12_geo_ch18_q12",
+    "id": "gen_c12_geo_ch18_q15",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -11270,7 +11644,7 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Geographical data exhibit extreme spatial variability (orders of magnitude difference).",
-    "id": "gen_c12_geo_ch18_q13",
+    "id": "gen_c12_geo_ch18_q16",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -11279,13 +11653,13 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define geographical data and give one concrete example from the Indian context that matches the NCERT definition.",
     "answer": "Geographical data are numbers representing measurements from the real world (e.g., 20 cm rainfall in Barmer, 1385 km rail distance Delhi–Mumbai via Kota)",
     "options": [
-     "Spatial data refers to data that has a geographic location reference (e.g., coordinates, address, topology)",
-     "A statistical table is a systematic arrangement of data in columns and rows. Its two primary purposes are: (1) to simplify the presentation of large volumes of raw data",
+     "Geographical data are systematically collected numerical or categorical measurements representing real-world spatial phenomena (such as temperature, population, elevation",
+     "The student can identify the appropriate secondary data source for a given geographical research question (e.g., selecting Census 2011 for village-level literacy rates vs",
      "Geographical data are numbers representing measurements from the real world (e.g., 20 cm rainfall in Barmer, 1385 km rail distance Delhi–Mumbai via Kota)"
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"data are facts\" or \"data are information\" reveals the student has not grasped the NCERT distinction: data are *raw measurements*; information is a *meaningful answer to a query* derived from data.",
-    "id": "gen_c12_geo_ch18_q14",
+    "id": "gen_c12_geo_ch18_q17",
     "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    },
@@ -11300,53 +11674,8 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Maximum air temperature using a calibrated thermometer. (b) Minimum 5 locations representing different",
-    "id": "gen_c12_geo_ch18_q15",
-    "nodeId": "c12_geo_cbse_18_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"In the age of big data, the challenge in geography is not collecting data but distinguishing reliable data from noise.\" Use the concepts of data vs. information and statistical fallacy to justify your answer.",
-    "answer": "Agree. Big data provides voluminous *raw measurements* (data), but without critical processing — source validation, contextualisation, appropriate statistical treatment",
-    "options": [
-     "The statement is false. The internet is an *access medium*, not a *data source* — most \"electronic media\" data for geography are digitised government publications (Census PDFs",
-     "The statement is false. Spatial data shows where cases cluster, but non-spatial attributes (age, symptoms, travel history) are essential to understand vulnerability",
-     "Agree. Big data provides voluminous *raw measurements* (data), but without critical processing — source validation, contextualisation, appropriate statistical treatment"
-    ],
-    "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Agree. Big data provides voluminous *raw measurements* (data), but without critical processing — source validation,",
-    "id": "gen_c12_geo_ch18_q16",
-    "nodeId": "c12_geo_cbse_18_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the average depth of the river (0.95 m) being less than the child's height (1 m) did not prevent drowning. What geographical principle does this illustrate about using averages in spatial analysis?",
-    "answer": "The average (0.95 m) masks the actual variation: one measurement was 1.5 m, deeper than the child's height",
-    "options": [
-     "The statement is false. Secondary data can be *more* reliable when: (1) Census of India population totals — primary enumeration of 1",
-     "The statement is false. The internet is an *access medium*, not a *data source* — most \"electronic media\" data for geography are digitised government publications (Census PDFs",
-     "The average (0.95 m) masks the actual variation: one measurement was 1.5 m, deeper than the child's height"
-    ],
-    "hint": "Straight from the 'Geographical data' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The average (0.95 m) masks the actual variation: one measurement was 1.",
-    "id": "gen_c12_geo_ch18_q17",
-    "nodeId": "c12_geo_cbse_18_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the *spatial resolution* and *temporal frequency* of secondary data from: (i) Census of India (decadal), (ii) IMD daily rainfall grids (0.25° × 0.25°), (iii) NFHS-5 district-level health indicators.",
-    "answer": "Choose IMD daily rainfall grids. Census (i) is decadal — too coarse temporally for onset variability",
-    "options": [
-     "Spatial data (district boundary polygons) defines the \"where\" — the geometry for each district. Non-spatial data (literacy rate per district) provides the \"what\"",
-     "Two fundamental differences: (1) Coverage vs. Sampling: Census is a complete enumeration (every household) providing village-level data",
-     "Choose IMD daily rainfall grids. Census (i) is decadal — too coarse temporally for onset variability"
-    ],
-    "hint": "Straight from the 'Primary data' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing Census reveals confusion between *administrative reporting frequency* and *phenomenon frequency*; choosing NFHS reveals ignoring spatial scale mismatch. This tests the geographical skill of matching data resolution to process scale.",
     "id": "gen_c12_geo_ch18_q18",
-    "nodeId": "c12_geo_cbse_18_002",
+    "nodeId": "c12_geo_cbse_18_001",
     "difficulty": "standard"
    }
   ],
@@ -11574,17 +11903,47 @@ export const C12_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A geography student has collected the altitudes (in meters) of 20 villages in the Himalayan foothills. The minimum altitude is 320 m and the maximum is 1,850 m. Using Sturges' rule, how many class intervals should they ideally create for a frequency distribution?",
-    "answer": "6 classes. Reasoning: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6",
-    "options": [
-     "Flaw — equal intervals ignore data distribution; most cities cluster at low end (12-60), leaving 40-180 empty or sparse",
-     "Range = 26. Use 6 classes (Sturges: 1+3.322log₁₀12≈4.6→5; but 6 gives monthly granularity). Width = 26/6 ≈ 4",
-     "6 classes. Geographically: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6",
-     "6 classes. Reasoning: Sturges' rule: k = 1 + 3.322 log₁₀ N. Here N = 20 → log₁₀ 20 ≈ 1.301 → 3.322 × 1.301 ≈ 4.32 → k ≈ 5.32 → round up to 6"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "calculate class boundaries",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "interpret the resulting distribution",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "construct a frequency distribution table",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Frequency distribution' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: If a student answers 5, they likely rounded down instead of up.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) construct a frequency distribution table from raw geographical data by determining appropriate",
     "id": "gen_c12_geo_ch19_q3",
     "nodeId": "c12_geo_cbse_19_003",
     "difficulty": "advanced",
@@ -11676,8 +12035,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define the first quartile (Q1) in a geographical dataset arranged in ascending order. What percentage of observations lie below Q1?",
     "answer": "Q1 is the value below which 25% of the observations fall when data is arranged in ascending order. It marks the lower boundary of the middle 50% of the distribution",
     "options": [
-     "The formula is \\(\\bar{X} = \\frac{\\sum x}{N}\\), where \\(\\sum x\\) is the sum of all observations and \\(N\\) is the number of observations",
-     "The mean is the arithmetic average obtained by summing all observed values and dividing by the number of observations",
+     "Data classification in geography is the systematic process of grouping raw geographical observations into meaningful categories based on shared characteristics",
+     "The student can: (1) identify when a geographical dataset requires transformation (skewness, outliers, non-normality) or normalisation (different units/scales)",
      "Q1 is the value below which 25% of the observations fall when data is arranged in ascending order. It marks the lower boundary of the middle 50% of the distribution"
     ],
     "hint": "Straight from the 'Percentiles and quartiles' slide -- match the key terms.",
@@ -11931,6 +12290,52 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "construct a classified table with correct",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify the four classification types",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "justify why a specific classification",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) identify the four classification types from a raw geographical dataset (e.",
+    "id": "gen_c12_geo_ch19_q14",
+    "nodeId": "c12_geo_cbse_19_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Design a small geographical investigation for your district: choose one variable (e.g., temperature, crop yield, population density), decide whether to collect ungrouped or grouped data, and justify which measure of central tendency (mean, median, or mode) would be most appropriate for your research question.",
     "sortItems": [
      {
@@ -11993,9 +12398,112 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer (e.g., choosing mean for soil type, or mode for continuous temperature data without binning) reveals inability to match data type and research question to the appropriate measure.",
-    "id": "gen_c12_geo_ch19_q14",
+    "id": "gen_c12_geo_ch19_q15",
     "nodeId": "c12_geo_cbse_19_004",
     "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "interpret which measure best",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "compute mean",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the geographical significance of",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) compute mean, median, and mode for both ungrouped and grouped geographical datasets using direct",
+    "id": "gen_c12_geo_ch19_q16",
+    "nodeId": "c12_geo_cbse_19_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "interpret the magnitude and sign of ρ",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "correctly assign ranks to two geographical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "compute Spearman's ρ using the formula ρ",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "decide",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) correctly assign ranks to two geographical variables (handling tied ranks with average ranks), (2)",
+    "id": "gen_c12_geo_ch19_q17",
+    "nodeId": "c12_geo_cbse_19_010",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -12050,177 +12558,6 @@ export const C12_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who says z-scores are already standardised so averaging is fine misses multicollinearity and the equal-weight assumption.",
-    "id": "gen_c12_geo_ch19_q15",
-    "nodeId": "c12_geo_cbse_19_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Design a preprocessing workflow for a dataset containing 15 variables (rainfall, temperature, soil pH, elevation, population density, literacy, road density, forest cover %, etc.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Transform",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Document",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s2",
-      "label": "Normalise by purpose",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "Explore first",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer transforms everything uniformly, applies one normalisation to all purposes, or ignores zeros in log.",
-    "id": "gen_c12_geo_ch19_q16",
-    "nodeId": "c12_geo_cbse_19_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Evaluate the claim: \"For choropleth mapping of district-level population density, log transformation should always be applied before classification into classes.\" Is this always true? When would it be inappropriate? Give a geographical example where log transformation distorts the spatial pattern.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Verdict",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "The distortion example",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "When inappropriate",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "The rule",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (1) Verdict — not always, because log transformation suits strongly right-skewed data, where many low values and a few",
-    "id": "gen_c12_geo_ch19_q17",
-    "nodeId": "c12_geo_cbse_19_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Given the following raw data for 5 districts: Annual Rainfall (mm): [850, 920, 780, 1100, 950]; Groundwater Depth (m): [8, 12, 5, 25, 10]. Compute the z-score normalised values for both variables. Show all steps. Then explain why z-score is preferable to min-max here.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Why z-score wins",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "Groundwater statistics",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "Rainfall statistics",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "The SD choice",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who computes min-max instead misses the outlier problem entirely.",
     "id": "gen_c12_geo_ch19_q18",
     "nodeId": "c12_geo_cbse_19_011",
     "difficulty": "advanced"
@@ -12321,7 +12658,7 @@ export const C12_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Histogram",
+    "title": "A Histogram Is a One-dimensional Graphical",
     "text": "A histogram is a one-dimensional graphical representation of a continuous frequency distribution where rectangular bars are drawn adjacent to each other without gaps, with the width of each bar proportional to the class interval and the height proportional to",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -12803,9 +13140,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "What is the correct X-axis variable for a \"less than\" cumulative frequency curve (ogive)?",
     "answer": "The X-axis uses the upper class boundaries of each class interval",
     "options": [
-     "A rectangular diagram uses rectangles where area (length × breadth) is proportional to the data value",
-     "In a cube diagram, the volume of the cube (side³) is proportional to the data value, so the side length is proportional to the cube root of the data value",
-     "Delhi uses the upper class boundaries of each class interval",
+     "The three rules are: (1) Selection of a suitable method, (2) Selection of a suitable scale, (3) Design (title, legend, direction)",
+     "Graphical representation is the transformation of numerical or spatial data into visual forms — such as graphs, diagrams, and maps",
      "The X-axis uses the upper class boundaries of each class interval"
     ],
     "hint": "Straight from the 'cumulative frequency curve' slide -- match the key terms.",
@@ -13290,8 +13626,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "Define \"field survey\" in geography and state one fundamental way it differs from using topographical maps or satellite imagery as data sources.",
     "answer": "A field survey is the systematic collection of primary geographic data through direct observation, measurement, or inquiry in the actual study area",
     "options": [
-     "Spatial Information Technology is the use of technological inputs for collecting, storing, retrieving, displaying, manipulating, managing, and analysing spatial information",
-     "Overlay analysis is a GIS operation that spatially integrates two or more thematic layers of the same area to produce a new layer whose features inherit attributes from all input",
+     "Students believe \"field survey design\" means only writing a questionnaire",
+     "The student can independently design a complete field survey plan for a given geographical problem (e",
      "A field survey is the systematic collection of primary geographic data through direct observation, measurement, or inquiry in the actual study area"
     ],
     "hint": "Straight from the 'field survey in geography' slide -- match the key terms.",
@@ -13853,8 +14189,8 @@ export const C12_GEO_GEN: SimDef[] = [
     "question": "What are the two primary spatial data formats used in GIS, and which one is more compatible with satellite imagery?",
     "answer": "The two primary formats are raster (grid of cells/pixels) and vector (points, lines, polygons defined by coordinates)",
     "options": [
-     "A field survey is the systematic collection of primary geographic data through direct observation, measurement, or inquiry in the actual study area",
-     "Overlay analysis is a GIS operation that spatially integrates two or more thematic layers of the same area to produce a new layer whose features inherit attributes from all input",
+     "Students think \"GIS is just software like ArcGIS or QGIS\" and equate learning GIS with learning software buttons",
+     "Vector and Raster are the two fundamental spatial data models used in GIS to represent geographic features",
      "The two primary formats are raster (grid of cells/pixels) and vector (points, lines, polygons defined by coordinates)"
     ],
     "hint": "Straight from the 'Applications of Spatial' slide -- match the key terms.",
@@ -14156,35 +14492,23 @@ export const C12_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
-    "question": "A student sketches a transect profile of a riverbank in the Sundarbans showing vegetation zones. They draw the profile freehand on plain paper without a scale, north arrow, or vertical exaggeration noted.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Legend with standardized symbols",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s1",
-      "label": "Scale",
+      "label": "explain the selection procedure for simple",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
-      "id": "s2",
-      "label": "Title/Feature name",
+      "id": "s1",
+      "label": "define population",
       "emoji": "📌",
       "correctBin": "o0"
      },
      {
-      "id": "s3",
-      "label": "Vertical exaggeration",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s4",
-      "label": "North arrow",
+      "id": "s2",
+      "label": "choose the appropriate method when given",
       "emoji": "📌",
       "correctBin": "o2"
      }
@@ -14204,23 +14528,13 @@ export const C12_GEO_GEN: SimDef[] = [
       "id": "o2",
       "label": "3rd",
       "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The five essential elements: (1) Title/Feature name — identifies what is sketched (e.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) define population, sampling frame, sampling unit, and sample size for a given field survey scenario;",
     "id": "gen_c12_geo_ch21_q18",
-    "nodeId": "c12_geo_cbse_21_005",
-    "difficulty": "advanced"
+    "nodeId": "c12_geo_cbse_21_004",
+    "difficulty": "standard"
    }
   ],
   "reflect": {

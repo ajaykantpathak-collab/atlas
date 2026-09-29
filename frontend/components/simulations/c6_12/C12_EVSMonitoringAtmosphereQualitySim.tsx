@@ -1113,7 +1113,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
             className={`text-xs px-3 py-1 font-bold rounded-full border ${
               difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border-emerald-800' :
               difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border-rose-800' :
-              'bg-blue-950 text-blue-400 border-blue-800'
+              'bg-gold-950 text-gold-400 border-gold-800'
             }`}
           >
             Tier: {difficulty.toUpperCase()}
@@ -1127,11 +1127,11 @@ function C12_EVSMonitoringAtmosphereQualitySim({
       {/* PHASE 1: DISCOVERY HOOK */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-800/80 rounded-2xl">
-            <span className="text-xs font-bold uppercase tracking-widest text-indigo-400">CPCB Taskforce Directive</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-800/80 rounded-2xl">
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-400">CPCB Taskforce Directive</span>
             <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 mt-3 font-semibold bg-indigo-950/80 p-3 rounded-xl border border-indigo-700/50">
+            <p className="text-xs text-gold-300 mt-3 font-semibold bg-gold-950/80 p-3 rounded-xl border border-gold-700/50">
               📌 Mission Context: {SCENARIO.context}
             </p>
           </div>
@@ -1171,7 +1171,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1190,7 +1190,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
             </span>
             <div className="flex gap-1">
               {EXPLORATION_STEPS.map((_, idx) => (
-                <div key={idx} className={`h-1.5 w-6 rounded-full transition-all ${idx === currentSlide ? 'bg-indigo-500' : 'bg-slate-700'}`} />
+                <div key={idx} className={`h-1.5 w-6 rounded-full transition-all ${idx === currentSlide ? 'bg-gold-500' : 'bg-slate-700'}`} />
               ))}
             </div>
           </div>
@@ -1204,7 +1204,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               className="p-5 md:p-6 bg-slate-900 border border-slate-800 rounded-2xl space-y-6"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-sm mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1212,8 +1212,8 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               {currentSlide === 0 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/50 border border-indigo-700 rounded-xl space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Step Prediction Challenge:</p>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/50 border border-gold-700 rounded-xl space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Step Prediction Challenge:</p>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1254,13 +1254,13 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                           value={pm25Val}
                           onChange={(e) => setPm25Val(Number(e.target.value))}
                           aria-label="PM2.5 slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>SO2 (UV Fluorescence)</span>
-                          <span className="text-cyan-400 font-mono">{so2Val} µg/m³ (Sub: {computedAqiData.subSo2})</span>
+                          <span className="text-gold-400 font-mono">{so2Val} µg/m³ (Sub: {computedAqiData.subSo2})</span>
                         </div>
                         <input
                           type="range"
@@ -1269,7 +1269,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                           value={so2Val}
                           onChange={(e) => setSo2Val(Number(e.target.value))}
                           aria-label="SO2 slider"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <div>
@@ -1334,8 +1334,8 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/50 border border-indigo-700 rounded-xl space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Water Quality Prediction:</p>
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/50 border border-gold-700 rounded-xl space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Water Quality Prediction:</p>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
@@ -1432,7 +1432,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Soil pH (Electrometric Glass Electrode)</span>
-                          <span className="text-indigo-400 font-mono font-bold">{soilPh} ({soilPh < 6.5 ? 'Acidic' : soilPh > 7.5 ? 'Alkaline' : 'Neutral'})</span>
+                          <span className="text-gold-400 font-mono font-bold">{soilPh} ({soilPh < 6.5 ? 'Acidic' : soilPh > 7.5 ? 'Alkaline' : 'Neutral'})</span>
                         </div>
                         <input
                           type="range"
@@ -1442,7 +1442,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                           value={soilPh}
                           onChange={(e) => setSoilPh(Number(e.target.value))}
                           aria-label="Soil pH slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1473,7 +1473,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                         </svg>
                       </div>
 
-                      <div className="p-3 bg-indigo-950/40 border border-indigo-800/60 rounded-xl text-xs text-indigo-200">
+                      <div className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-xl text-xs text-gold-200">
                         {soilPh < 6.0 && '⚠️ Acid Lockup: Soluble iron (Fe³⁺) and aluminium (Al³⁺) fix phosphate ions into insoluble precipitates. Solution: Apply agricultural lime (CaCO3).'}
                         {soilPh >= 6.0 && soilPh <= 7.5 && '✓ Optimum Zone: Macronutrients N, P, K maintain maximum solubility for root absorption.'}
                         {soilPh > 7.5 && '⚠️ Alkaline/Sodic Fixation: Phosphorus locks into calcium phosphate complexes. High EC/ESP requires Gypsum (CaSO4) + leaching.'}
@@ -1537,7 +1537,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>MGNREGA Guaranteed Work Days (Lean Season)</span>
-                          <span className="text-indigo-400 font-mono">{mgnregaDays} Days Guaranteed</span>
+                          <span className="text-gold-400 font-mono">{mgnregaDays} Days Guaranteed</span>
                         </div>
                         <input
                           type="range"
@@ -1546,7 +1546,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                           value={mgnregaDays}
                           onChange={(e) => setMgnregaDays(Number(e.target.value))}
                           aria-label="MGNREGA days slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1586,7 +1586,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                         <text x="139" y="45" fill="#f87171" fontSize="8" textAnchor="middle" fontWeight="bold">Push: {computedMigrationData.migrationPressure}%</text>
                       </svg>
                       <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                        MGNREGA acts as a <span className="text-indigo-300 font-bold">Push Reducer</span> to curb survival distress migration.
+                        MGNREGA acts as a <span className="text-gold-300 font-bold">Push Reducer</span> to curb survival distress migration.
                       </p>
                     </div>
                   </div>
@@ -1617,7 +1617,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                       <div className="p-3 bg-slate-900 rounded-xl space-y-2 text-xs">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Conventional GDP (Counts Extraction as Income):</span>
-                          <span className="font-mono font-bold text-blue-400">₹{computedGdpData.convGdp.toLocaleString('en-IN')} Cr</span>
+                          <span className="font-mono font-bold text-gold-400">₹{computedGdpData.convGdp.toLocaleString('en-IN')} Cr</span>
                         </div>
                         <div className="flex justify-between text-rose-400">
                           <span>- Natural Capital Stock Depletion:</span>
@@ -1673,7 +1673,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Next Lab →
                   </motion.button>
@@ -1703,20 +1703,20 @@ function C12_EVSMonitoringAtmosphereQualitySim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-900 p-6 rounded-2xl border border-slate-800">
             <div className="space-y-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">Atmosphere & River Dynamics</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">Atmosphere & River Dynamics</span>
               <div>
                 <label className="text-xs text-slate-300 flex justify-between">
                   <span>PM2.5 Ambient Level:</span>
                   <span className="font-mono text-amber-400">{pm25Val} µg/m³</span>
                 </label>
-                <input type="range" min={10} max={300} value={pm25Val} onChange={(e) => setPm25Val(Number(e.target.value))} className="w-full accent-indigo-500 cursor-pointer" />
+                <input type="range" min={10} max={300} value={pm25Val} onChange={(e) => setPm25Val(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
               </div>
               <div>
                 <label className="text-xs text-slate-300 flex justify-between">
                   <span>Sewage Organic Load:</span>
-                  <span className="font-mono text-cyan-400">{sewageLoad} MLD</span>
+                  <span className="font-mono text-gold-400">{sewageLoad} MLD</span>
                 </label>
-                <input type="range" min={0} max={22} value={sewageLoad} onChange={(e) => setSewageLoad(Number(e.target.value))} className="w-full accent-cyan-500 cursor-pointer" />
+                <input type="range" min={0} max={22} value={sewageLoad} onChange={(e) => setSewageLoad(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1">
                 <div>Computed AQI: <span className="font-bold" style={{ color: computedAqiData.color }}>{computedAqiData.maxSub} ({computedAqiData.cat})</span></div>
@@ -1729,9 +1729,9 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               <div>
                 <label className="text-xs text-slate-300 flex justify-between">
                   <span>Soil pH Level:</span>
-                  <span className="font-mono text-indigo-400">{soilPh}</span>
+                  <span className="font-mono text-gold-400">{soilPh}</span>
                 </label>
-                <input type="range" min={4.0} max={9.5} step={0.1} value={soilPh} onChange={(e) => setSoilPh(Number(e.target.value))} className="w-full accent-indigo-500 cursor-pointer" />
+                <input type="range" min={4.0} max={9.5} step={0.1} value={soilPh} onChange={(e) => setSoilPh(Number(e.target.value))} className="w-full accent-gold-500 cursor-pointer" />
               </div>
               <div>
                 <label className="text-xs text-slate-300 flex justify-between">
@@ -1752,7 +1752,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold text-xs rounded-xl shadow-xl"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold text-xs rounded-xl shadow-xl"
             >
               I Am Ready for Board Certification Challenges →
             </motion.button>
@@ -1769,13 +1769,13 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono font-semibold">
+              <span className="text-gold-400 font-mono font-semibold">
                 NEP Competency: <span className="uppercase text-white">{challenge.competencyLevel}</span>
               </span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-emerald-500 to-cyan-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-emerald-500 to-gold-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1790,7 +1790,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
               wrongFlash ? 'bg-rose-950/70 border-rose-500' : 'bg-slate-900 border-slate-800'
             }`}
           >
-            <span className="text-[10px] font-bold uppercase tracking-widest text-indigo-400 bg-indigo-950/60 px-2.5 py-1 rounded-full border border-indigo-800">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-full border border-gold-800">
               Target Node: {challenge.nodeId}
             </span>
             <h2 className="text-base md:text-lg font-bold text-white mt-3 leading-snug">{challenge.question}</h2>
@@ -1832,7 +1832,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-semibold text-white cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-semibold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1864,7 +1864,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Matched Analyzers
                 </motion.button>
@@ -1904,7 +1904,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Confirm Procedural Order
                 </motion.button>
@@ -1931,7 +1931,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Calculation
                   </motion.button>
@@ -1950,7 +1950,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-mono text-indigo-300 rounded-lg"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-mono text-gold-300 rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -1959,7 +1959,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
 
                 <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-950 border border-indigo-700 text-xs font-mono text-indigo-200 rounded-lg flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-950 border border-gold-700 text-xs font-mono text-gold-200 rounded-lg flex items-center gap-2">
                       {p}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-400 font-bold">×</button>
                     </span>
@@ -1974,7 +1974,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Assembled Equation
                 </motion.button>
@@ -2031,12 +2031,12 @@ function C12_EVSMonitoringAtmosphereQualitySim({
             </p>
             <div className="inline-flex gap-4 p-3 bg-slate-950 rounded-xl border border-slate-800 font-mono text-sm">
               <div>Final Score: <span className="font-bold text-emerald-400">{Math.max(0, 100 - errors * 5)}%</span></div>
-              <div>Mastery Level: <span className="font-bold text-indigo-400 uppercase">{masteryLevel}</span></div>
+              <div>Mastery Level: <span className="font-bold text-gold-400 uppercase">{masteryLevel}</span></div>
             </div>
           </div>
 
           {/* Motivational Feedback */}
-          <div className="p-4 bg-indigo-950/40 border border-indigo-800 rounded-xl text-xs text-indigo-200">
+          <div className="p-4 bg-gold-950/40 border border-gold-800 rounded-xl text-xs text-gold-200">
             {errors === 0 && '🌟 PERFECT SCORE: Full mastery demonstrated across all criteria indicators!'}
             {errors > 0 && errors <= 3 && '👏 EXCELLENT PERFORMANCE: Strong grasp of analytical indicators and economic accounting.'}
             {errors > 3 && '💡 SOLID EFFORT: Review the specific misconception corrections below to reinforce critical concepts.'}
@@ -2063,7 +2063,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
 
           {/* Reflection Prompts */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">Reflective Sustainability Inquiry:</h3>
+            <h3 className="text-sm font-bold text-gold-300">Reflective Sustainability Inquiry:</h3>
             <ul className="text-xs text-slate-300 space-y-1.5 list-disc pl-4">
               <li>How does the maximum sub-index rule prevent dangerous single-pollutant spikes from being hidden?</li>
               <li>Why is Green GDP an essential corrective measure for mining-heavy and resource-extracting economies?</li>
@@ -2083,7 +2083,7 @@ function C12_EVSMonitoringAtmosphereQualitySim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-xl text-xs text-slate-400 border border-slate-800">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

@@ -732,7 +732,7 @@ const AirCompositionPieChart: React.FC<{ activeSlice: string; onSelectSlice: (na
         <text x="160" y="124" fill="#ffffff" fontSize="9" textAnchor="middle" fontWeight="bold">CO₂</text>
       </svg>
       <div className="flex gap-4 mt-2 text-xs">
-        <button onClick={() => onSelectSlice('Nitrogen')} className={`px-2 py-1 rounded border ${activeSlice === 'Nitrogen' ? 'bg-blue-600 text-white border-blue-400' : 'bg-slate-800 text-blue-300 border-slate-700'}`}>Nitrogen 78%</button>
+        <button onClick={() => onSelectSlice('Nitrogen')} className={`px-2 py-1 rounded border ${activeSlice === 'Nitrogen' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-gold-300 border-slate-700'}`}>Nitrogen 78%</button>
         <button onClick={() => onSelectSlice('Oxygen')} className={`px-2 py-1 rounded border ${activeSlice === 'Oxygen' ? 'bg-red-600 text-white border-red-400' : 'bg-slate-800 text-red-300 border-slate-700'}`}>Oxygen 21%</button>
         <button onClick={() => onSelectSlice('CO2')} className={`px-2 py-1 rounded border ${activeSlice === 'CO2' ? 'bg-emerald-600 text-white border-emerald-400' : 'bg-slate-800 text-emerald-300 border-slate-700'}`}>CO₂ 0.04%</button>
       </div>
@@ -743,7 +743,7 @@ const AirCompositionPieChart: React.FC<{ activeSlice: string; onSelectSlice: (na
 const LimewaterReactionDiagram: React.FC<{ status: 'clear' | 'milky' | 'clear_excess'; gasVolume: number }> = ({ status, gasVolume }) => {
   return (
     <div className="flex flex-col items-center bg-slate-900/90 p-4 rounded-xl border border-slate-700">
-      <h4 className="text-cyan-400 font-bold text-sm mb-2">Lime Water Titration Reaction Setup</h4>
+      <h4 className="text-gold-400 font-bold text-sm mb-2">Lime Water Titration Reaction Setup</h4>
       <svg viewBox="0 0 300 220" className="w-full max-w-xs h-48">
         {/* Delivery Tube */}
         <path d="M 90 30 L 90 140 L 150 140 L 150 170" fill="none" stroke="#94a3b8" strokeWidth="4" />
@@ -797,7 +797,7 @@ const LimewaterReactionDiagram: React.FC<{ status: 'clear' | 'milky' | 'clear_ex
 const NitrogenCycleDiagram: React.FC<{ sparkActive: boolean; rhizobiumActive: boolean }> = ({ sparkActive, rhizobiumActive }) => {
   return (
     <div className="flex flex-col items-center bg-slate-900/90 p-4 rounded-xl border border-slate-700">
-      <h4 className="text-indigo-400 font-bold text-sm mb-2">Biogeochemical Nitrogen Cycle Sim</h4>
+      <h4 className="text-gold-400 font-bold text-sm mb-2">Biogeochemical Nitrogen Cycle Sim</h4>
       <svg viewBox="0 0 340 220" className="w-full max-w-sm h-48">
         {/* Sky */}
         <rect x="0" y="0" width="340" height="130" fill="#0f172a" rx="8" />
@@ -1366,11 +1366,11 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
           </div>
           <div className="bg-slate-900 border border-slate-700 px-3 py-1.5 rounded-lg flex flex-col items-center">
             <span className="text-[10px] text-slate-400 font-mono">c6_chem_018 (N₂)</span>
-            <span className="text-sm font-bold text-indigo-400">{nodeMasteryScores.c6_chem_018}%</span>
+            <span className="text-sm font-bold text-gold-400">{nodeMasteryScores.c6_chem_018}%</span>
           </div>
           <div className="bg-slate-900 border border-slate-700 px-3 py-1.5 rounded-lg flex flex-col items-center">
             <span className="text-[10px] text-slate-400 font-mono">c6_chem_019 (Air Bal)</span>
-            <span className="text-sm font-bold text-cyan-400">{nodeMasteryScores.c6_chem_019}%</span>
+            <span className="text-sm font-bold text-gold-400">{nodeMasteryScores.c6_chem_019}%</span>
           </div>
         </div>
       </header>
@@ -1388,7 +1388,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
         <button
           onClick={() => handleTabSwitch('lab')}
           className={`flex-1 py-2 px-4 rounded-lg font-bold text-sm transition-all ${
-            activeTab === 'lab' ? 'bg-cyan-500 text-slate-950 shadow-lg' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            activeTab === 'lab' ? 'bg-gold-500 text-slate-950 shadow-lg' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           2. Interactive Lab (5 Sims)
@@ -1396,7 +1396,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
         <button
           onClick={() => handleTabSwitch('challenges')}
           className={`flex-1 py-2 px-4 rounded-lg font-bold text-sm transition-all ${
-            activeTab === 'challenges' ? 'bg-indigo-500 text-slate-950 shadow-lg' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            activeTab === 'challenges' ? 'bg-gold-500 text-slate-950 shadow-lg' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           3. Challenges (22+)
@@ -1425,7 +1425,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
 
           {/* DISCOVERY QUESTION CARD */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Initial Hypothesis Challenge</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Initial Hypothesis Challenge</span>
             <h3 className="text-lg font-semibold text-white mt-1 mb-4">{DISCOVERY_QUESTION.question}</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
@@ -1477,7 +1477,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
             <div className="flex flex-col gap-6">
               {PREDICTION_QUESTIONS.map((pred, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <p className="text-sm font-semibold text-indigo-300 mb-3">{pred.question}</p>
+                  <p className="text-sm font-semibold text-gold-300 mb-3">{pred.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-3">
                     {pred.options.map((opt, oIdx) => (
                       <button
@@ -1488,7 +1488,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                         }}
                         className={`p-2.5 text-xs rounded-lg border text-left transition-all ${
                           predictionAnswers[idx] === oIdx
-                            ? 'bg-indigo-600/30 border-indigo-400 text-indigo-200 font-bold'
+                            ? 'bg-gold-600/30 border-gold-400 text-gold-200 font-bold'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1524,7 +1524,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                 }}
                 className={`px-3 py-2 rounded-lg text-xs font-bold transition-all ${
                   activeLabIndex === idx
-                    ? 'bg-cyan-500 text-slate-950 shadow-md'
+                    ? 'bg-gold-500 text-slate-950 shadow-md'
                     : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
                 }`}
               >
@@ -1535,7 +1535,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
 
           {/* Current Lab Title & Instruction */}
           <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
-            <h3 className="text-md font-bold text-cyan-400">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
+            <h3 className="text-md font-bold text-gold-400">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
             <p className="text-xs text-slate-300 mt-1">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
           </div>
 
@@ -1553,11 +1553,11 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                     </div>
                     <div className="flex justify-between bg-slate-950 p-2.5 rounded border border-slate-800">
                       <span className="text-slate-400">Nitrogen Gas Level (N₂):</span>
-                      <span className="font-mono font-bold text-blue-400">{lab1.nitrogenLeft}%</span>
+                      <span className="font-mono font-bold text-gold-400">{lab1.nitrogenLeft}%</span>
                     </div>
                     <div className="flex justify-between bg-slate-950 p-2.5 rounded border border-slate-800">
                       <span className="text-slate-400">Water Level Rise in Jar:</span>
-                      <span className="font-mono font-bold text-cyan-400">{lab1.waterLevelRise.toFixed(1)}% (Approx 1/5th)</span>
+                      <span className="font-mono font-bold text-gold-400">{lab1.waterLevelRise.toFixed(1)}% (Approx 1/5th)</span>
                     </div>
                   </div>
                 </div>
@@ -1585,13 +1585,13 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                     </div>
                     <div className="flex justify-between bg-slate-950 p-2.5 rounded border border-slate-800">
                       <span className="text-slate-400">Limewater Status:</span>
-                      <span className="font-mono font-bold text-cyan-300 uppercase">{lab2.limewaterStatus}</span>
+                      <span className="font-mono font-bold text-gold-300 uppercase">{lab2.limewaterStatus}</span>
                     </div>
                   </div>
                   <div className="flex gap-2 mb-4">
                     <button
                       onClick={() => addCO2Bubbles(30)}
-                      className="flex-1 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-300 font-semibold text-xs rounded border border-slate-700"
+                      className="flex-1 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 font-semibold text-xs rounded border border-slate-700"
                     >
                       Bubble +30 mL CO₂
                     </button>
@@ -1618,7 +1618,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                     </select>
                     <button
                       onClick={pourGasOnCandle}
-                      className="flex-1 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded transition-all"
+                      className="flex-1 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded transition-all"
                     >
                       Pour Gas Out of Jar
                     </button>
@@ -1643,7 +1643,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                   <div className="space-y-3 text-xs mb-6">
                     <div className="flex justify-between bg-slate-950 p-2.5 rounded border border-slate-800">
                       <span className="text-slate-400">Soil Nitrate (NO₃⁻) Concentration:</span>
-                      <span className="font-mono font-bold text-indigo-300">{lab3.soilNitratePpm} PPM</span>
+                      <span className="font-mono font-bold text-gold-300">{lab3.soilNitratePpm} PPM</span>
                     </div>
                     <div className="flex justify-between bg-slate-950 p-2.5 rounded border border-slate-800">
                       <span className="text-slate-400">Estimated Plant Growth:</span>
@@ -1662,8 +1662,8 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                     onClick={toggleRhizobium}
                     className={`py-2.5 font-bold rounded-xl text-xs transition-all border ${
                       lab3.rhizobiumActive
-                        ? 'bg-indigo-600 text-white border-indigo-400'
-                        : 'bg-slate-950 text-indigo-300 border-indigo-800 hover:bg-slate-800'
+                        ? 'bg-gold-600 text-white border-gold-400'
+                        : 'bg-slate-950 text-gold-300 border-gold-800 hover:bg-slate-800'
                     }`}
                   >
                     {lab3.rhizobiumActive ? 'Disable Rhizobium Nodules' : 'Activate Root Rhizobium Bacteria'}
@@ -1781,7 +1781,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
             <div className="flex flex-col gap-6">
               {OBSERVATION_QUESTIONS.map((obs, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <p className="text-sm font-semibold text-cyan-300 mb-3">{obs.question}</p>
+                  <p className="text-sm font-semibold text-gold-300 mb-3">{obs.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {obs.observableOptions.map((opt, oIdx) => (
                       <button
@@ -1855,11 +1855,11 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                     }}
                     className={`p-4 rounded-xl text-left text-sm border transition-all ${
                       userMcqAnswer === idx
-                        ? 'bg-indigo-600/30 border-indigo-400 text-white font-semibold'
+                        ? 'bg-gold-600/30 border-gold-400 text-white font-semibold'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {opt}
                   </button>
                 ))}
               </div>
@@ -1874,7 +1874,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                   value={userNumericAnswer}
                   onChange={(e) => setUserNumericAnswer(e.target.value)}
                   placeholder="Enter number..."
-                  className="w-full md:w-64 p-3 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-indigo-500"
+                  className="w-full md:w-64 p-3 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -1886,7 +1886,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
                 {userSortOrder.map((item, idx) => (
                   <div key={idx} className="flex items-center justify-between bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs">
                     <span className="text-slate-200 font-medium">
-                      <span className="text-indigo-400 font-bold mr-2">{idx + 1}.</span> {item}
+                      <span className="text-gold-400 font-bold mr-2">{idx + 1}.</span> {item}
                     </span>
                     <div className="flex gap-1">
                       <button
@@ -1941,7 +1941,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
               <div className="flex gap-3">
                 <button
                   onClick={handleChallengeSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg transition-all text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg transition-all text-sm"
                 >
                   Verify Answer
                 </button>
@@ -2005,7 +2005,7 @@ export default function C6_ChemistryCarbondioxideandnitrogeninairSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {DIAGNOSTIC_QUESTIONS.map((dq) => (
                 <div key={dq.id} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
-                  <p className="font-semibold text-cyan-300 mb-2">{dq.question}</p>
+                  <p className="font-semibold text-gold-300 mb-2">{dq.question}</p>
                   <p className="text-slate-300 mb-1">
                     <span className="font-bold text-emerald-400">Correct Answer: </span>
                     {dq.options[dq.correctIndex]}

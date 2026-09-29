@@ -1155,7 +1155,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
             className={`px-3 py-1 rounded-xl text-xs font-bold uppercase tracking-wider border shadow-sm ${
               difficulty === 'foundation' ? 'bg-emerald-950/70 text-emerald-300 border-emerald-700' :
               difficulty === 'advanced' ? 'bg-rose-950/70 text-rose-300 border-rose-700' :
-              'bg-indigo-950/70 text-indigo-300 border-indigo-700'
+              'bg-gold-950/70 text-gold-300 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1261,7 +1261,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-purple-900/40"
+                    className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-purple-900/40"
                   >
                     Enter Interactive Clinical Labs →
                   </motion.button>
@@ -1407,7 +1407,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>2. Empathy (Internal Frame &quot;As If&quot;)</span>
-                          <span className="font-bold text-sky-400">{rogersEmpathy}%</span>
+                          <span className="font-bold text-gold-400">{rogersEmpathy}%</span>
                         </div>
                         <input
                           type="range"
@@ -1415,14 +1415,14 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                           max={100}
                           value={rogersEmpathy}
                           onChange={(e) => setRogersEmpathy(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>3. Genuineness / Congruence</span>
-                          <span className="font-bold text-indigo-400">{rogersGenuineness}%</span>
+                          <span className="font-bold text-gold-400">{rogersGenuineness}%</span>
                         </div>
                         <input
                           type="range"
@@ -1430,7 +1430,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                           max={100}
                           value={rogersGenuineness}
                           onChange={(e) => setRogersGenuineness(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1543,7 +1543,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-4"
                   >
-                    <h4 className="text-sm font-bold text-sky-300 uppercase tracking-wider">
+                    <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                       Select Hierarchy Exposure Level
                     </h4>
 
@@ -1559,7 +1559,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                           }}
                           className={`p-2 rounded-xl text-xs font-bold border transition-all ${
                             fearHierarchyStep === step
-                              ? 'bg-sky-950 border-sky-500 text-sky-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1684,7 +1684,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => { setKelleyConsistency(c => c === 'high' ? 'low' : 'high'); audioManager.play('tap'); }}
                         className={`p-2 text-xs font-bold rounded-xl border ${
-                          kelleyConsistency === 'high' ? 'bg-blue-950 border-blue-500 text-blue-200' : 'bg-purple-950 border-purple-500 text-purple-200'
+                          kelleyConsistency === 'high' ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-purple-950 border-purple-500 text-purple-200'
                         }`}
                       >
                         Consistency: {kelleyConsistency}
@@ -1824,7 +1824,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => { setExperimenterPresent(p => !p); audioManager.play('tap'); }}
                         className={`p-2.5 rounded-xl border font-bold ${
-                          experimenterPresent ? 'bg-indigo-950 border-indigo-600 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-500'
+                          experimenterPresent ? 'bg-gold-950 border-gold-600 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-500'
                         }`}
                       >
                         Experimenter: {experimenterPresent ? 'In Room' : 'Remote Phone'}
@@ -1934,7 +1934,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Perceived Personal Control & Space</span>
-                          <span className="font-bold text-sky-400">{perceivedControl}% Control</span>
+                          <span className="font-bold text-gold-400">{perceivedControl}% Control</span>
                         </div>
                         <input
                           type="range"
@@ -1942,7 +1942,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                           max={100}
                           value={perceivedControl}
                           onChange={(e) => setPerceivedControl(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -2072,14 +2072,14 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                 whileHover={{ y: -4 }}
                 className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3"
               >
-                <h5 className="text-xs font-bold text-sky-300 uppercase">Wolpe Anxiety Hierarchy</h5>
+                <h5 className="text-xs font-bold text-gold-300 uppercase">Wolpe Anxiety Hierarchy</h5>
                 <input
                   type="range"
                   min={0}
                   max={100}
                   value={relaxationLevel}
                   onChange={(e) => setRelaxationLevel(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
                 <p className="text-xs text-slate-400">Reciprocal Relaxation: {relaxationLevel}% (Anxiety: {netAnxietyLevel})</p>
               </motion.div>
@@ -2090,7 +2090,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-8 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white rounded-2xl text-sm font-bold shadow-xl shadow-purple-950/60"
+                className="px-8 py-3 bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white rounded-2xl text-sm font-bold shadow-xl shadow-purple-950/60"
               >
                 Ready for Graded ISC Challenges! →
               </motion.button>
@@ -2133,7 +2133,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
               {/* Animated Progress Bar */}
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-purple-500 to-gold-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -2473,13 +2473,13 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.01 }}
-              className="p-6 bg-gradient-to-r from-indigo-950/70 via-slate-900 to-purple-950/70 rounded-3xl border border-indigo-700/50 shadow-xl space-y-4"
+              className="p-6 bg-gradient-to-r from-gold-950/70 via-slate-900 to-purple-950/70 rounded-3xl border border-gold-700/50 shadow-xl space-y-4"
             >
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <div className="flex items-center gap-2.5">
                   <span className="text-2xl">📅</span>
                   <div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       SM-2 Spaced Repetition Protocol
                     </span>
                     <h4 className="text-base font-black text-white">Recommended Next Clinical Review</h4>
@@ -2513,7 +2513,7 @@ function C12_PsychologyPsychotherapyPsychoanalysisClientcentredSim({
                   className="p-3.5 bg-slate-950/80 rounded-2xl border border-slate-800 space-y-1"
                 >
                   <span className="text-[10px] text-slate-400 uppercase font-bold">Retention Category</span>
-                  <p className="text-sm font-bold text-indigo-300">{srsSchedule.label}</p>
+                  <p className="text-sm font-bold text-gold-300">{srsSchedule.label}</p>
                 </motion.div>
 
                 <motion.div 

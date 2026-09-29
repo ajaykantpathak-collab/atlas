@@ -1190,11 +1190,11 @@ export function C9_MathematicsMedianUngroupedDataSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 border border-indigo-700/50 rounded-2xl" role="img" aria-label="Mathematics Icon">
+          <span className="text-3xl p-2 bg-gold-950/80 border border-gold-700/50 rounded-2xl" role="img" aria-label="Mathematics Icon">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase">
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase">
               ICSE Class 9 Mathematics • Core Mensuration & Statistics
             </span>
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1212,14 +1212,14 @@ export function C9_MathematicsMedianUngroupedDataSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-600'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-600'
+                : 'bg-gold-950/60 text-gold-400 border-gold-600'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="text-right">
             <p className="text-xs text-slate-400">Mastery Level</p>
-            <p className="text-xs font-bold text-indigo-300 uppercase">{masteryLevel}</p>
+            <p className="text-xs font-bold text-gold-300 uppercase">{masteryLevel}</p>
           </div>
         </div>
       </motion.div>
@@ -1233,12 +1233,12 @@ export function C9_MathematicsMedianUngroupedDataSim({
           className="mt-6 space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/40">
-            <h2 className="text-xl font-bold text-indigo-200 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/40">
+            <h2 className="text-xl font-bold text-gold-200 flex items-center gap-2">
               <span>🏗️</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-3 italic">{SCENARIO.context}</p>
           </div>
 
           {/* Low-stakes Discovery Question */}
@@ -1266,7 +1266,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   }`}
                 >
                   <div>
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </div>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && (
@@ -1298,7 +1298,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                 >
                   Enter Hands-on Learning Labs →
                 </motion.button>
@@ -1313,7 +1313,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           {/* Progress stepper */}
           <div className="flex items-center justify-between px-2">
-            <span className="text-xs font-semibold text-indigo-400 tracking-wider uppercase">
+            <span className="text-xs font-semibold text-gold-400 tracking-wider uppercase">
               Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5" aria-hidden="true">
@@ -1321,7 +1321,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1337,7 +1337,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">
+                <h3 className="text-lg font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-amber-300 text-sm mt-1">
@@ -1358,7 +1358,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         setMedianSorted(s => !s);
                         audioManager.play('pop');
                       }}
-                      className="px-4 py-1.5 bg-indigo-600/80 hover:bg-indigo-600 text-xs font-bold text-white rounded-lg"
+                      className="px-4 py-1.5 bg-gold-600/80 hover:bg-gold-600 text-xs font-bold text-white rounded-lg"
                     >
                       {medianSorted ? 'Reset Unsorted List' : 'Sort Ascending ➔'}
                     </motion.button>
@@ -1391,7 +1391,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between text-xs text-slate-400">
                       <label htmlFor="outlierRange" className="text-xs text-slate-400">Add Outlier Value:</label>
-                      <span className="font-bold text-indigo-300">{outlierValue}</span>
+                      <span className="font-bold text-gold-300">{outlierValue}</span>
                     </div>
                     <input
                       id="outlierRange"
@@ -1402,7 +1402,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       step={50}
                       value={outlierValue}
                       onChange={e => setOutlierValue(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                     <div className="flex justify-between text-xs pt-2 text-slate-300">
                       <span>
@@ -1435,7 +1435,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         step={5}
                         value={lowerLimit}
                         onChange={e => setLowerLimit(Number(e.target.value))}
-                        className="w-full accent-indigo-500 mt-1"
+                        className="w-full accent-gold-500 mt-1"
                       />
                     </div>
                     <div>
@@ -1448,7 +1448,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         max={lowerLimit + 25}
                         value={upperLimit}
                         onChange={e => setUpperLimit(Number(e.target.value))}
-                        className="w-full accent-indigo-500 mt-1"
+                        className="w-full accent-gold-500 mt-1"
                       />
                     </div>
                   </div>
@@ -1490,7 +1490,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400">Class Mark (Midpoint):</span>
-                      <p className="text-indigo-400 font-bold mt-0.5">{((lowerLimit + upperLimit) / 2).toFixed(1)}</p>
+                      <p className="text-gold-400 font-bold mt-0.5">{((lowerLimit + upperLimit) / 2).toFixed(1)}</p>
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400">Upper Boundary:</span>
@@ -1514,7 +1514,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         max={25}
                         value={triSideA}
                         onChange={e => setTriSideA(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1527,7 +1527,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         max={25}
                         value={triSideB}
                         onChange={e => setTriSideB(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1540,7 +1540,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         max={25}
                         value={triSideC}
                         onChange={e => setTriSideC(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1573,7 +1573,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   <div className="p-3 bg-slate-900 rounded-xl text-xs space-y-1 text-slate-300">
                     <p>
                       <strong>Semi-perimeter (s):</strong> ({triSideA} + {triSideB} + {triSideC})/2 ={' '}
-                      <span className="text-indigo-400 font-bold">{triSemiPerimeter} m</span>
+                      <span className="text-gold-400 font-bold">{triSemiPerimeter} m</span>
                     </p>
                     <p>
                       <strong>Heron Formula:</strong> Area = √[s(s-a)(s-b)(s-c)] = √[{triSemiPerimeter} × (
@@ -1600,7 +1600,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         step={7}
                         value={innerRadius}
                         onChange={e => setInnerRadius(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1614,7 +1614,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                         step={3.5}
                         value={pathWidth}
                         onChange={e => setPathWidth(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1640,7 +1640,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   <div className="grid grid-cols-2 gap-3 text-xs">
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400">Inner Garden Area (πr²):</span>
-                      <p className="text-sky-400 font-bold mt-0.5">{innerCircleArea.toFixed(1)} m²</p>
+                      <p className="text-gold-400 font-bold mt-0.5">{innerCircleArea.toFixed(1)} m²</p>
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400">Ring Path Area π(R² - r²):</span>
@@ -1664,7 +1664,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       step={5}
                       value={rampAngle}
                       onChange={e => setRampAngle(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1710,7 +1710,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                     </div>
                     <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400">cos θ (Adj/Hyp):</span>
-                      <p className="text-indigo-400 font-bold mt-0.5">{trigCos.toFixed(3)}</p>
+                      <p className="text-gold-400 font-bold mt-0.5">{trigCos.toFixed(3)}</p>
                     </div>
                     <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                       <span className="text-slate-400">tan θ (Opp/Adj):</span>
@@ -1741,7 +1741,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl"
               >
                 Next Lab →
               </motion.button>
@@ -1763,8 +1763,8 @@ export function C9_MathematicsMedianUngroupedDataSim({
       {/* ─── 3. FREE PLAY SANDBOX PHASE (Zero-Pressure Exploration) ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-800/40">
-            <h3 className="text-lg font-bold text-indigo-300">🛠️ Solid Geometry & Capacity Sandbox</h3>
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-800/40">
+            <h3 className="text-lg font-bold text-gold-300">🛠️ Solid Geometry & Capacity Sandbox</h3>
             <p className="text-xs text-slate-300 mt-1">
               Test how length, breadth, height, and open/closed face configurations impact Total Surface Area vs Volume.
             </p>
@@ -1782,7 +1782,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   max={12}
                   value={boxLength}
                   onChange={e => setBoxLength(Number(e.target.value))}
-                  className="w-full accent-indigo-500 mt-1"
+                  className="w-full accent-gold-500 mt-1"
                 />
               </div>
               <div>
@@ -1795,7 +1795,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   max={12}
                   value={boxBreadth}
                   onChange={e => setBoxBreadth(Number(e.target.value))}
-                  className="w-full accent-indigo-500 mt-1"
+                  className="w-full accent-gold-500 mt-1"
                 />
               </div>
               <div>
@@ -1808,7 +1808,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   max={12}
                   value={boxHeight}
                   onChange={e => setBoxHeight(Number(e.target.value))}
-                  className="w-full accent-indigo-500 mt-1"
+                  className="w-full accent-gold-500 mt-1"
                 />
               </div>
             </div>
@@ -1821,7 +1821,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                 aria-label="Open Top Configuration Toggle"
                 checked={isOpenTop}
                 onChange={e => setIsOpenTop(e.target.checked)}
-                className="w-4 h-4 accent-indigo-500 rounded"
+                className="w-4 h-4 accent-gold-500 rounded"
               />
               <label htmlFor="openTopCheck" className="text-sm font-semibold text-slate-200">
                 Open Top Configuration (5 faces painted instead of 6)
@@ -1832,7 +1832,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Surface Area:</span>
-                <p className="text-xl font-black text-indigo-400 mt-1">{boxSurfaceArea} m²</p>
+                <p className="text-xl font-black text-gold-400 mt-1">{boxSurfaceArea} m²</p>
                 <span className="text-[10px] text-slate-500">
                   {isOpenTop ? '5 faces: lb + 2h(l+b)' : '6 faces: 2(lb + bh + lh)'}
                 </span>
@@ -1844,7 +1844,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Water Capacity:</span>
-                <p className="text-xl font-black text-cyan-400 mt-1">{boxVolume * 1000} Litres</p>
+                <p className="text-xl font-black text-gold-400 mt-1">{boxVolume * 1000} Litres</p>
                 <span className="text-[10px] text-slate-500">Conversion: 1 m³ = 1000 L</span>
               </div>
             </div>
@@ -1856,7 +1856,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-extrabold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+              className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-extrabold text-sm rounded-xl shadow-lg shadow-gold-600/30"
             >
               Ready for Challenges! ➔
             </motion.button>
@@ -1875,13 +1875,13 @@ export function C9_MathematicsMedianUngroupedDataSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-semibold uppercase">
+              <span className="text-gold-400 font-semibold uppercase">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden" aria-label={`Progress: Challenge ${currentChallenge + 1} of ${filteredChallenges.length}`}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1925,7 +1925,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       }`}
                     >
                       <div>
-                        <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                         {opt}
                       </div>
                       {showExplanation && i === activeChallenge.correctIndex && (
@@ -1953,7 +1953,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab"
                     >
                       {item.label}
                     </motion.div>
@@ -1991,7 +1991,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl"
                 >
                   Verify Labels ➔
                 </motion.button>
@@ -2020,7 +2020,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl text-slate-200 text-xs md:text-sm flex items-center gap-3 cursor-grab border border-slate-700"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-xs">
+                    <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2033,7 +2033,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl mt-2"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl mt-2"
                 >
                   Verify Step Order ➔
                 </motion.button>
@@ -2051,7 +2051,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 font-bold text-sm">{activeChallenge.unit}</span>
                   <motion.button
@@ -2060,7 +2060,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-sm rounded-xl"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-sm rounded-xl"
                   >
                     Check Answer ➔
                   </motion.button>
@@ -2079,7 +2079,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-xs font-mono font-bold text-white rounded-lg"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-xs font-mono font-bold text-white rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2092,7 +2092,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-600 text-white font-mono text-xs font-bold rounded flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-600 text-white font-mono text-xs font-bold rounded flex items-center gap-1"
                     >
                       {part}
                       <button
@@ -2115,7 +2115,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl"
                 >
                   Check Formula Assembly ➔
                 </motion.button>
@@ -2127,9 +2127,9 @@ export function C9_MathematicsMedianUngroupedDataSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-5 bg-indigo-950/40 border border-indigo-700/50 rounded-2xl space-y-3"
+                className="mt-5 p-5 bg-gold-950/40 border border-gold-700/50 rounded-2xl space-y-3"
               >
-                <h4 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+                <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                   <span>📖</span> Step-by-Step Mathematical Explanation:
                 </h4>
                 {activeChallenge.explanation
@@ -2143,7 +2143,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs md:text-sm leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono mr-1.5">{idx + 1}.</strong>
+                      <strong className="text-gold-400 font-mono mr-1.5">{idx + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2157,7 +2157,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-1.5 bg-indigo-800/80 hover:bg-indigo-700 text-xs font-bold text-white rounded-lg"
+                      className="px-4 py-1.5 bg-gold-800/80 hover:bg-gold-700 text-xs font-bold text-white rounded-lg"
                     >
                       Show Next Working Step ➔
                     </motion.button>
@@ -2191,7 +2191,7 @@ export function C9_MathematicsMedianUngroupedDataSim({
           animate={{ opacity: 1, scale: 1 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/50 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/50 text-center space-y-4">
             <span className="text-5xl" role="img" aria-label="Trophy">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-slate-300 text-sm max-w-lg mx-auto">
@@ -2205,14 +2205,14 @@ export function C9_MathematicsMedianUngroupedDataSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800">
                 <p className="text-xs text-slate-400">Mastery Tier</p>
-                <p className="text-2xl font-black text-indigo-400 uppercase">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</p>
               </div>
             </div>
           </div>
 
           {/* Motivational Feedback Banner based on exact error count */}
-          <div className="p-5 bg-indigo-950/40 border border-indigo-700/50 rounded-2xl text-center space-y-1">
-            <h3 className="text-xl font-extrabold text-indigo-200">
+          <div className="p-5 bg-gold-950/40 border border-gold-700/50 rounded-2xl text-center space-y-1">
+            <h3 className="text-xl font-extrabold text-gold-200">
               {errors === 0
                 ? 'PERFECT SCORE!'
                 : errors >= 1 && errors <= 3
@@ -2265,12 +2265,12 @@ export function C9_MathematicsMedianUngroupedDataSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">📐 {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">📐 {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   {step}
                 </li>
               ))}

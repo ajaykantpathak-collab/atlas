@@ -6,7 +6,7 @@ export const c12_phy_ch06_p1: SimDef = {
     id: 'v3_c12_phy_ch06_p1',
     title: 'Electromagnetic Induction',
     subtitle: 'The discovery that powers the grid — motion becoming electricity.',
-    classLevel: 12, subject: 'physics', topic: 'Electromagnetic Induction · Part 1/2',
+    classLevel: 12, subject: 'physics', topic: 'Electromagnetic Induction',
     chapters: ['c12_phy_ch06'],
     nodeIds: ['c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_004', 'c12_phy_cbse_06_005', 'c12_phy_cbse_06_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

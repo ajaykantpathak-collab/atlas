@@ -61,16 +61,16 @@ export function C11_InformaticsPracticesKeysExplorerSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">CBSE Class 11 Informatics Practices - Database Concepts</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 11 Informatics Practices - Database Concepts</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Keys Explorer: what makes a row unique?</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300">Relational Model</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Relational Model</span>
       </header>
 
       {/* CONTROLS */}
       <div className="flex flex-wrap gap-2 mb-4">
-        <button onClick={() => setTable('students')} className={`min-h-11 px-4 rounded-xl text-xs font-bold border ${table === 'students' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>STUDENT table</button>
-        <button onClick={() => setTable('marks')} className={`min-h-11 px-4 rounded-xl text-xs font-bold border ${table === 'marks' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>MARKS table</button>
+        <button onClick={() => setTable('students')} className={`min-h-11 px-4 rounded-xl text-xs font-bold border ${table === 'students' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>STUDENT table</button>
+        <button onClick={() => setTable('marks')} className={`min-h-11 px-4 rounded-xl text-xs font-bold border ${table === 'marks' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>MARKS table</button>
         <button onClick={() => setDeleted(!deleted)} className={`min-h-11 px-4 rounded-xl text-xs font-bold border ${deleted ? 'bg-rose-950/60 border-rose-700 text-rose-300' : 'bg-slate-900 border-slate-700 text-slate-300'}`}>
           {deleted ? 'Restore student S03' : 'Delete student S03'}
         </button>
@@ -99,7 +99,7 @@ export function C11_InformaticsPracticesKeysExplorerSim() {
             <tbody>
               {students.map((s) => (
                 <tr key={s.adm} className="border-t border-slate-800">
-                  <td className="py-1 px-1.5 text-indigo-300 font-bold">{s.adm}</td>
+                  <td className="py-1 px-1.5 text-gold-300 font-bold">{s.adm}</td>
                   <td className="py-1 px-1.5">{s.name}</td>
                   <td className="py-1 px-1.5">{s.aadhaar}</td>
                   <td className="py-1 px-1.5">{s.house}</td>
@@ -127,7 +127,7 @@ export function C11_InformaticsPracticesKeysExplorerSim() {
                 const orphan = deleted && m.adm === 'S03';
                 return (
                   <tr key={i} className={`border-t border-slate-800 transition-all duration-300 ${orphan ? 'bg-rose-950/70' : ''}`}>
-                    <td className={`py-1 px-1.5 font-bold ${orphan ? 'text-rose-300' : 'text-indigo-300'}`}>{m.adm}{orphan ? ' !!' : ''}</td>
+                    <td className={`py-1 px-1.5 font-bold ${orphan ? 'text-rose-300' : 'text-gold-300'}`}>{m.adm}{orphan ? ' !!' : ''}</td>
                     <td className="py-1 px-1.5">{m.subject}</td>
                     <td className="py-1 px-1.5">{m.marks}</td>
                   </tr>
@@ -157,14 +157,14 @@ export function C11_InformaticsPracticesKeysExplorerSim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p>
-          <span className="font-bold text-sky-300">Vocabulary check:</span> a relation is the TABLE, a tuple is a ROW, an attribute is a
+          <span className="font-bold text-gold-300">Vocabulary check:</span> a relation is the TABLE, a tuple is a ROW, an attribute is a
           COLUMN. Degree = number of attributes; cardinality = number of tuples.
           <span className="font-bold text-amber-300"> Misconception killer:</span> a primary key is not just &quot;the first column&quot; --
           it is ANY attribute (or attribute set) that is unique and non-null, chosen from the candidate keys.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-sky-950/60 to-slate-900 border border-sky-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Click AdmNo vs AadhaarNo in STUDENT: both pass the uniqueness test. Why does a table still declare only ONE of them as the primary key?</p>
         <p className="mt-1">2. Delete S03 and count the orphan rows in MARKS. Write the two ways a real database could have prevented this.</p>

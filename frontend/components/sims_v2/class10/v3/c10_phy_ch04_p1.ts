@@ -6,7 +6,7 @@ export const c10_phy_ch04_p1: SimDef = {
     id: 'v3_c10_phy_ch04_p1',
     title: 'Light: Reflection and Refraction',
     subtitle: 'Bend light with lenses and mirrors until you can predict exactly where the image lands.',
-    classLevel: 10, subject: 'physics', topic: 'Light: Reflection and Refraction · Part 1/2',
+    classLevel: 10, subject: 'physics', topic: 'Light: Reflection and Refraction',
     chapters: ['c10_phy_ch04'],
     nodeIds: ['c10_phy_cbse_04_001', 'c10_phy_cbse_04_002', 'c10_phy_cbse_04_003', 'c10_phy_cbse_04_004', 'c10_phy_cbse_04_005', 'c10_phy_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

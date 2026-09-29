@@ -1098,18 +1098,18 @@ function C10_MathematicsLocusEquidistantFromSim({
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-indigo-900/60 shadow-2xl space-y-6">
+    <div className="w-full max-w-6xl mx-auto p-4 sm:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-gold-900/60 shadow-2xl space-y-6">
       {/* ─── HEADER BAR ─── */}
-      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-indigo-900/50 pb-4">
+      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-gold-900/50 pb-4">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-sky-200 to-amber-200">
+            <h1 className="text-xl sm:text-2xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-200 to-amber-200">
               {title}
             </h1>
-            <p className="text-xs text-indigo-300/80 font-medium">
+            <p className="text-xs text-gold-300/80 font-medium">
               ICSE Class 10 • Mathematics • Circles & Locus Theorems
             </p>
           </div>
@@ -1125,7 +1125,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1139,12 +1139,12 @@ function C10_MathematicsLocusEquidistantFromSim({
       {/* ─── PHASE: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <h2 className="text-lg font-bold text-indigo-200 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <h2 className="text-lg font-bold text-gold-200 flex items-center gap-2">
               <span>🚇</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-sky-300/90 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/90 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-lg space-y-4">
@@ -1172,7 +1172,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-indigo-950/60 border-slate-700/80 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-gold-950/60 border-slate-700/80 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <span className="inline-block w-6 h-6 rounded-full bg-slate-700/60 text-center text-xs font-bold leading-6 mr-2">
@@ -1203,7 +1203,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1217,7 +1217,7 @@ function C10_MathematicsLocusEquidistantFromSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <span className="text-xs uppercase font-bold tracking-widest text-indigo-400">
+            <span className="text-xs uppercase font-bold tracking-widest text-gold-400">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex items-center gap-1.5">
@@ -1225,7 +1225,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                 <span
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1238,7 +1238,7 @@ function C10_MathematicsLocusEquidistantFromSim({
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/40 shadow-xl space-y-4"
+              className="p-6 bg-slate-900 rounded-2xl border border-gold-900/40 shadow-xl space-y-4"
             >
               <div>
                 <h2 className="text-lg font-bold text-white flex items-center gap-2">
@@ -1303,8 +1303,8 @@ function C10_MathematicsLocusEquidistantFromSim({
                       <p className="text-lg font-mono font-bold text-rose-400">{distPA.toFixed(1)} px</p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-xs text-sky-300 font-semibold">Distance PB</span>
-                      <p className="text-lg font-mono font-bold text-sky-400">{distPB.toFixed(1)} px</p>
+                      <span className="text-xs text-gold-300 font-semibold">Distance PB</span>
+                      <p className="text-lg font-mono font-bold text-gold-400">{distPB.toFixed(1)} px</p>
                     </div>
                     <div className="col-span-2 sm:col-span-1 p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <span className="text-xs text-emerald-300 font-semibold">Locus State</span>
@@ -1320,7 +1320,7 @@ function C10_MathematicsLocusEquidistantFromSim({
               {currentSlide === 1 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-2">
+                    <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-2">
                       <p className="text-xs font-bold text-amber-400 uppercase">
                         🤔 Predict Before Experimenting
                       </p>
@@ -1333,7 +1333,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-2 bg-slate-800 hover:bg-indigo-950 text-slate-200 text-xs font-semibold rounded-lg border border-slate-700"
+                            className="p-2 bg-slate-800 hover:bg-gold-950 text-slate-200 text-xs font-semibold rounded-lg border border-slate-700"
                           >
                             {opt}
                           </motion.button>
@@ -1343,7 +1343,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                   )}
 
                   {predictionMade && (
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800 text-xs text-indigo-200">
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800 text-xs text-gold-200">
                       ✓ Prediction logged! Drag the slider below to verify: Angle at Center = 2 × Angle at Rim.
                     </div>
                   )}
@@ -1393,7 +1393,7 @@ function C10_MathematicsLocusEquidistantFromSim({
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                      <div className="flex justify-between text-xs text-indigo-300 font-semibold">
+                      <div className="flex justify-between text-xs text-gold-300 font-semibold">
                         <span>Central Arc Angle (∠AOB)</span>
                         <span>{arcAngleDeg}°</span>
                       </div>
@@ -1404,7 +1404,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                         value={arcAngleDeg}
                         aria-label="Central Arc Angle Slider"
                         onChange={(e) => handleSliderAngleChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1439,7 +1439,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handleObservation(i)}
-                            className="w-full text-left p-2.5 bg-slate-800 hover:bg-indigo-950 text-slate-200 text-xs font-medium rounded-lg border border-slate-700"
+                            className="w-full text-left p-2.5 bg-slate-800 hover:bg-gold-950 text-slate-200 text-xs font-medium rounded-lg border border-slate-700"
                           >
                             {opt}
                           </motion.button>
@@ -1516,7 +1516,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       />
                     </div>
                     <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-sky-300 font-semibold">Vertex C</span>
+                      <span className="text-gold-300 font-semibold">Vertex C</span>
                       <input
                         type="range"
                         min={170}
@@ -1524,11 +1524,11 @@ function C10_MathematicsLocusEquidistantFromSim({
                         value={cyclicAngleC}
                         aria-label="Vertex C Angle"
                         onChange={(e) => setCyclicAngleC(Number(e.target.value))}
-                        className="w-full accent-sky-500 mt-1"
+                        className="w-full accent-gold-500 mt-1"
                       />
                     </div>
                     <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
-                      <span className="text-sky-300 font-semibold">Vertex D</span>
+                      <span className="text-gold-300 font-semibold">Vertex D</span>
                       <input
                         type="range"
                         min={260}
@@ -1536,17 +1536,17 @@ function C10_MathematicsLocusEquidistantFromSim({
                         value={cyclicAngleD}
                         aria-label="Vertex D Angle"
                         onChange={(e) => setCyclicAngleD(Number(e.target.value))}
-                        className="w-full accent-sky-500 mt-1"
+                        className="w-full accent-gold-500 mt-1"
                       />
                     </div>
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/60 flex flex-wrap justify-around text-center text-xs text-slate-300">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/60 flex flex-wrap justify-around text-center text-xs text-slate-300">
                     <div>
-                      <span className="font-bold text-indigo-300">∠A + ∠C</span> = 180° (Supplementary)
+                      <span className="font-bold text-gold-300">∠A + ∠C</span> = 180° (Supplementary)
                     </div>
                     <div>
-                      <span className="font-bold text-sky-300">∠B + ∠D</span> = 180° (Supplementary)
+                      <span className="font-bold text-gold-300">∠B + ∠D</span> = 180° (Supplementary)
                     </div>
                     <div>
                       <span className="font-bold text-rose-300">Exterior ∠CBE = ∠ADC</span> (Interior Opposite)
@@ -1604,7 +1604,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                     </div>
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                      <div className="flex justify-between text-xs text-indigo-300 font-semibold">
+                      <div className="flex justify-between text-xs text-gold-300 font-semibold">
                         <span>Circle Radius (OA = OB)</span>
                         <span>{tangentRadius} px</span>
                       </div>
@@ -1615,7 +1615,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                         value={tangentRadius}
                         aria-label="Circle Radius Slider"
                         onChange={(e) => setTangentRadius(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1663,7 +1663,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                     />
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/60 text-center text-xs font-mono text-indigo-200">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/60 text-center text-xs font-mono text-gold-200">
                     Intersecting Chords Constant: PA × PB = PC × PD (Power of Point P)
                   </div>
                 </div>
@@ -1692,7 +1692,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => setCurrentSlide((s) => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg transition-all"
                   >
                     Next Lab →
                   </motion.button>
@@ -1731,7 +1731,7 @@ function C10_MathematicsLocusEquidistantFromSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-slate-950 rounded-2xl p-4 border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-sky-300">Live Arc & Alternate Segment Visualizer</span>
+                <span className="text-xs font-bold text-gold-300">Live Arc & Alternate Segment Visualizer</span>
                 <svg viewBox="0 0 300 200" className="w-full h-44 select-none" aria-label="Alternate segment visualizer">
                   <circle cx="150" cy="100" r="70" fill="none" stroke="#334155" strokeWidth="2" />
                   <line x1="60" y1="170" x2="240" y2="170" stroke="#f43f5e" strokeWidth="2.5" />
@@ -1752,7 +1752,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                 </svg>
 
                 <div className="space-y-1">
-                  <div className="flex justify-between text-xs text-sky-300">
+                  <div className="flex justify-between text-xs text-gold-300">
                     <span>Adjust Tangent-Chord Angle</span>
                     <span>{alternateChordAngle}°</span>
                   </div>
@@ -1763,7 +1763,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                     value={alternateChordAngle}
                     aria-label="Tangent Chord Angle Slider"
                     onChange={(e) => setAlternateChordAngle(Number(e.target.value))}
-                    className="w-full accent-sky-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -1822,13 +1822,13 @@ function C10_MathematicsLocusEquidistantFromSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="font-mono text-indigo-300">
+              <span className="font-mono text-gold-300">
                 Competency: <strong className="uppercase text-amber-300">{challenge.competencyLevel}</strong>
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1841,11 +1841,11 @@ function C10_MathematicsLocusEquidistantFromSim({
             className={`p-6 bg-slate-900 rounded-2xl border transition-colors ${
               wrongFlash
                 ? 'bg-rose-950/70 border-rose-500'
-                : 'border-indigo-900/50 shadow-2xl'
+                : 'border-gold-900/50 shadow-2xl'
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="text-xs font-extrabold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-extrabold uppercase tracking-wider text-gold-400">
                 Node Ref: {challenge.nodeId}
               </span>
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
@@ -1874,7 +1874,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       className={`p-4 text-left rounded-xl text-sm font-medium transition-all border ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md'
-                          : 'bg-slate-800/80 hover:bg-indigo-950/60 border-slate-700/80 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/80 hover:bg-gold-950/60 border-slate-700/80 text-slate-200 hover:border-gold-500'
                       }`}
                     >
                       <span className="inline-block w-6 h-6 rounded-full bg-slate-700/60 text-center text-xs font-bold leading-6 mr-2">
@@ -1903,7 +1903,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1920,7 +1920,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       onDrop={() => handleDragDrop(targetId)}
                       className={`p-3 rounded-xl border-2 border-dashed text-center min-h-[60px] flex flex-col items-center justify-center transition-all ${
                         droppedLabels[targetId]
-                          ? 'bg-indigo-950/70 border-emerald-500 text-emerald-200'
+                          ? 'bg-gold-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1937,7 +1937,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -1968,7 +1968,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       className="p-3 bg-slate-800/90 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{displayIndex + 1}.</strong> {item}
+                        <strong className="text-gold-400 mr-2">{displayIndex + 1}.</strong> {item}
                       </span>
                       <span className="text-slate-500 text-xs">↕ Drag to reorder</span>
                     </motion.div>
@@ -1981,7 +1981,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Check Step Sequence
                 </motion.button>
@@ -1999,7 +1999,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     disabled={showExplanation}
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm w-44 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm w-44 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm font-semibold text-slate-300">{challenge.unit}</span>
                   <motion.button
@@ -2008,7 +2008,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white text-xs font-bold rounded-xl shadow transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-xl shadow transition-all"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2028,7 +2028,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800/80 hover:bg-indigo-700 text-white text-xs rounded-lg border border-indigo-600/50"
+                      className="px-3 py-1.5 bg-gold-800/80 hover:bg-gold-700 text-white text-xs rounded-lg border border-gold-600/50"
                     >
                       + {part}
                     </motion.button>
@@ -2042,7 +2042,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                         key={i}
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 text-xs rounded-lg flex items-center gap-2"
+                        className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-700 text-xs rounded-lg flex items-center gap-2"
                       >
                         <span>
                           {i + 1}. {part}
@@ -2068,7 +2068,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Proof Chain
                 </motion.button>
@@ -2145,9 +2145,9 @@ function C10_MathematicsLocusEquidistantFromSim({
       {/* ─── PHASE: COMPLETION & MASTERY SUMMARY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-6 sm:p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4">
             <span className="text-5xl">🏆</span>
-            <h2 className="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-sky-200 to-amber-200">
+            <h2 className="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-gold-200 to-amber-200">
               Mastery Assessment Complete!
             </h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2165,7 +2165,7 @@ function C10_MathematicsLocusEquidistantFromSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400">Final Tier</span>
-                <p className="text-xl font-bold text-indigo-400 uppercase">{difficulty}</p>
+                <p className="text-xl font-bold text-gold-400 uppercase">{difficulty}</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400">Mastery</span>
@@ -2175,13 +2175,13 @@ function C10_MathematicsLocusEquidistantFromSim({
           </div>
 
           {/* Spaced Repetition Visibility Card */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-indigo-950/80 rounded-2xl border border-indigo-500/50 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 rounded-2xl border border-gold-500/50 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="space-y-1.5 text-center sm:text-left">
               <div className="flex items-center justify-center sm:justify-start gap-2">
                 <span className="px-2.5 py-0.5 rounded-md text-[10px] font-extrabold tracking-wider uppercase bg-amber-400 text-slate-950">
                   SM-2 Algorithm
                 </span>
-                <span className="text-xs font-bold text-indigo-300 uppercase">Spaced Repetition Schedule</span>
+                <span className="text-xs font-bold text-gold-300 uppercase">Spaced Repetition Schedule</span>
               </div>
               <p className="text-sm text-slate-200">
                 Optimal retention review target:{' '}
@@ -2197,7 +2197,7 @@ function C10_MathematicsLocusEquidistantFromSim({
                   : 'Multiple theorem errors detected. Immediate reinforcement recommended in 1 day.'}
               </p>
             </div>
-            <div className="p-3 bg-indigo-900/40 rounded-2xl border border-indigo-700/50 text-center min-w-[130px]">
+            <div className="p-3 bg-gold-900/40 rounded-2xl border border-gold-700/50 text-center min-w-[130px]">
               <span className="text-2xl">📅</span>
               <p className="text-xs font-bold text-amber-300 mt-1">
                 {errors === 0 ? '+7 Days' : errors <= 3 ? '+3 Days' : '+1 Day'}
@@ -2237,12 +2237,12 @@ function C10_MathematicsLocusEquidistantFromSim({
           )}
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-sky-300">🛠️ {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">🛠️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-center gap-2">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-200 text-center font-bold text-xs leading-5">
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-200 text-center font-bold text-xs leading-5">
                     {i + 1}
                   </span>
                   <span>{step}</span>

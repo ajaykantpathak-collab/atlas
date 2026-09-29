@@ -167,7 +167,7 @@ export default function VoiceInput({
       className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
         isListening
           ? 'bg-red-500/20 text-red-300 ring-1 ring-red-400/40'
-          : 'bg-indigo-500/15 text-indigo-300 hover:bg-indigo-500/25'
+          : 'bg-gold-500/15 text-gold-300 hover:bg-gold-500/25'
       } ${disabled ? 'opacity-40 cursor-not-allowed' : ''} ${className}`}
       aria-pressed={isListening}
       aria-label={isListening ? 'Stop voice input' : 'Start voice input'}

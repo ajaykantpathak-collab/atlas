@@ -1225,12 +1225,12 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 mb-6 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-800 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-800 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold">CISCE Class 10 Commercial Studies</span>
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold">CISCE Class 10 Commercial Studies</span>
               <span className="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded-full font-mono border border-emerald-500/20">NEP 2020 Compliant</span>
             </div>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1247,7 +1247,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : difficulty === 'standard'
-                ? 'bg-sky-500/10 text-sky-400 border-sky-500/30'
+                ? 'bg-gold-500/10 text-gold-400 border-gold-500/30'
                 : 'bg-purple-500/10 text-purple-400 border-purple-500/30'
             }`}
           >
@@ -1267,11 +1267,11 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <span className="text-xs font-extrabold text-indigo-400 uppercase tracking-widest">Executive Scenario</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <span className="text-xs font-extrabold text-gold-400 uppercase tracking-widest">Executive Scenario</span>
             <h2 className="text-2xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-slate-400 text-xs mt-2 border-t border-indigo-900/50 pt-2">{SCENARIO.context}</p>
+            <p className="text-slate-400 text-xs mt-2 border-t border-gold-900/50 pt-2">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1295,7 +1295,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/50'
                         : 'bg-slate-800/40 border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-750'
+                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-750'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1322,7 +1322,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to exploration labs"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-900/50 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/50 flex items-center gap-2"
                 >
                   <span>Enter Interactive Labs</span>
                   <span>→</span>
@@ -1349,7 +1349,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   aria-label={`Go to step ${idx + 1}`}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'text-slate-400 hover:text-white hover:bg-slate-800'
                   }`}
                 >
@@ -1372,7 +1372,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-extrabold text-indigo-400 uppercase tracking-widest">
+                <span className="text-xs font-extrabold text-gold-400 uppercase tracking-widest">
                   Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1422,7 +1422,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                         value={grossProfitInput}
                         onChange={e => setGrossProfitInput(Number(e.target.value))}
                         aria-label="Gross Profit slider"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1444,7 +1444,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Closing Stock (Asset & Trading):</span>
-                        <span className="font-mono text-sky-400">₹{closingStockInput.toLocaleString('en-IN')}</span>
+                        <span className="font-mono text-gold-400">₹{closingStockInput.toLocaleString('en-IN')}</span>
                       </div>
                       <input
                         type="range"
@@ -1454,7 +1454,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                         value={closingStockInput}
                         onChange={e => setClosingStockInput(Number(e.target.value))}
                         aria-label="Closing stock slider"
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1464,8 +1464,8 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     {/* Profit and Loss Account */}
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center border-b border-slate-800 pb-2 mb-3">
-                        <span className="font-bold text-sm text-indigo-300">Profit & Loss Account (For the year ended)</span>
-                        <span className="text-xs px-2 py-0.5 rounded bg-indigo-900/50 text-indigo-300 border border-indigo-700">Nominal A/c</span>
+                        <span className="font-bold text-sm text-gold-300">Profit & Loss Account (For the year ended)</span>
+                        <span className="text-xs px-2 py-0.5 rounded bg-gold-900/50 text-gold-300 border border-gold-700">Nominal A/c</span>
                       </div>
                       <div className="grid grid-cols-2 text-xs border-b border-slate-800 pb-2">
                         <div className="border-r border-slate-800 pr-2 space-y-1.5 text-slate-300">
@@ -1491,7 +1491,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     {/* Balance Sheet Statement */}
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center border-b border-slate-800 pb-2 mb-3">
-                        <span className="font-bold text-sm text-indigo-300">Balance Sheet (As at 31st March)</span>
+                        <span className="font-bold text-sm text-gold-300">Balance Sheet (As at 31st March)</span>
                         <span className="text-xs px-2 py-0.5 rounded bg-purple-900/50 text-purple-300 border border-purple-700">Financial Statement</span>
                       </div>
                       <div className="grid grid-cols-2 text-xs border-b border-slate-800 pb-2">
@@ -1500,7 +1500,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                           <p>Opening Capital: ₹{openingCapital.toLocaleString('en-IN')}</p>
                           <p className="text-emerald-400">+ Net Profit: ₹{calculatedNetProfit.toLocaleString('en-IN')}</p>
                           <p className="text-rose-400">− Drawings: ₹{drawingsInput.toLocaleString('en-IN')}</p>
-                          <p className="font-bold text-indigo-300 border-t border-slate-800 pt-1">
+                          <p className="font-bold text-gold-300 border-t border-slate-800 pt-1">
                             Adjusted Capital: ₹{adjustedCapital.toLocaleString('en-IN')}
                           </p>
                           <p>Creditors: ₹{creditorsInput.toLocaleString('en-IN')}</p>
@@ -1510,7 +1510,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                           <p className="font-bold text-slate-400">Assets</p>
                           <p>Plant & Machinery: ₹{plantAssets.toLocaleString('en-IN')}</p>
                           <p>Debtors: ₹{debtorsInput.toLocaleString('en-IN')}</p>
-                          <div className="p-1 bg-sky-950/50 border border-sky-800 rounded text-sky-300 font-bold">
+                          <div className="p-1 bg-gold-950/50 border border-gold-800 rounded text-gold-300 font-bold">
                             Closing Stock: ₹{closingStockInput.toLocaleString('en-IN')}
                           </div>
                           <p>Cash & Bank: ₹{cashBankInput.toLocaleString('en-IN')}</p>
@@ -1531,7 +1531,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                             </span>
                             <button
                               onClick={handleTallyAutoBalance}
-                              className="px-2 py-0.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded text-[11px]"
+                              className="px-2 py-0.5 bg-gold-700 hover:bg-gold-600 text-white rounded text-[11px]"
                             >
                               Auto-Balance Bank
                             </button>
@@ -1570,7 +1570,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
 
                   {/* Predict Then Check Pattern */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
                       <p className="text-white text-sm font-bold mb-2">❓ {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1588,7 +1588,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-slate-800/80 rounded-xl border border-indigo-700 text-xs text-indigo-300 flex justify-between items-center">
+                    <div className="p-3 bg-slate-800/80 rounded-xl border border-gold-700 text-xs text-gold-300 flex justify-between items-center">
                       <span>✓ Prediction logged! {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                       <span className="font-mono font-bold text-amber-300">
                         {predictionIndex === PREDICTION_QUESTIONS[0].correctIndex ? 'Prediction: Correct' : 'Prediction: Recorded'}
@@ -1600,7 +1600,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center text-xs text-slate-300 mb-2">
                       <span className="font-bold">Production Volume (Q Units):</span>
-                      <span className="text-indigo-400 font-mono font-bold text-sm">{productionUnits.toLocaleString()} Units</span>
+                      <span className="text-gold-400 font-mono font-bold text-sm">{productionUnits.toLocaleString()} Units</span>
                     </div>
                     <input
                       type="range"
@@ -1610,7 +1610,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       value={productionUnits}
                       onChange={e => setProductionUnits(Number(e.target.value))}
                       aria-label="Production units slider"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     {/* Gauges Grid */}
@@ -1622,8 +1622,8 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       </div>
                       <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 text-[10px] uppercase">Fixed / Unit (y=k/x)</span>
-                        <p className="text-indigo-400 font-bold text-sm">₹{costCalculations.fixedPerUnit.toFixed(2)}</p>
-                        <span className="text-sky-400 text-[10px]">Drops with Scale</span>
+                        <p className="text-gold-400 font-bold text-sm">₹{costCalculations.fixedPerUnit.toFixed(2)}</p>
+                        <span className="text-gold-400 text-[10px]">Drops with Scale</span>
                       </div>
                       <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 text-[10px] uppercase">Variable / Unit</span>
@@ -1633,7 +1633,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 text-[10px] uppercase">Total Cost (F+vQ+SV)</span>
                         <p className="text-emerald-400 font-bold text-sm">₹{costCalculations.totalCost.toLocaleString('en-IN')}</p>
-                        <span className="text-indigo-400 text-[10px]">₹{costCalculations.totalCostPerUnit.toFixed(2)}/unit</span>
+                        <span className="text-gold-400 text-[10px]">₹{costCalculations.totalCostPerUnit.toFixed(2)}/unit</span>
                       </div>
                     </div>
                   </div>
@@ -1700,11 +1700,11 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                         }}
                         className={`p-3 rounded-xl border cursor-pointer transition-all ${
                           activeBudgetStep === idx
-                            ? 'bg-indigo-900/60 border-indigo-400 text-white shadow-lg shadow-indigo-950'
+                            ? 'bg-gold-900/60 border-gold-400 text-white shadow-lg shadow-gold-950'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
-                        <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-indigo-300">{step.tag}</span>
+                        <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-gold-300">{step.tag}</span>
                         <h4 className="font-bold text-xs mt-2 text-slate-200">{step.name}</h4>
                         <p className="text-[11px] text-slate-400 mt-1 leading-snug">{step.desc}</p>
                       </motion.div>
@@ -1764,7 +1764,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                         aria-label={`Select finance tab ${tab.label}`}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                           selectedFinanceTab === tab.id
-                            ? 'bg-indigo-600 text-white shadow-md'
+                            ? 'bg-gold-600 text-white shadow-md'
                             : 'bg-slate-950 text-slate-400 border border-slate-800 hover:text-white'
                         }`}
                       >
@@ -1802,17 +1802,17 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     {selectedFinanceTab === 'discounting' && (
                       <div className="space-y-4">
                         <div className="text-xs">
-                          <span className="text-sky-400 font-bold">Short-Term Commercial Bank Facility</span>
+                          <span className="text-gold-400 font-bold">Short-Term Commercial Bank Facility</span>
                           <h4 className="text-base font-bold text-white">Bill Discounting Live Calculator</h4>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
                           <div>
                             <span className="text-slate-400">Bill Face Value: ₹{billFaceValue.toLocaleString('en-IN')}</span>
-                            <input type="range" min={100000} max={2000000} step={50000} value={billFaceValue} onChange={e => setBillFaceValue(Number(e.target.value))} className="w-full accent-indigo-500" />
+                            <input type="range" min={100000} max={2000000} step={50000} value={billFaceValue} onChange={e => setBillFaceValue(Number(e.target.value))} className="w-full accent-gold-500" />
                           </div>
                           <div>
                             <span className="text-slate-400">Tenure: {billDays} Days</span>
-                            <input type="range" min={30} max={180} step={15} value={billDays} onChange={e => setBillDays(Number(e.target.value))} className="w-full accent-sky-500" />
+                            <input type="range" min={30} max={180} step={15} value={billDays} onChange={e => setBillDays(Number(e.target.value))} className="w-full accent-gold-500" />
                           </div>
                           <div>
                             <span className="text-slate-400">Discount Rate: {discountRate}% p.a.</span>
@@ -1830,7 +1830,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                           </div>
                           <div>
                             <span className="text-slate-400">Bank Collects at Maturity:</span>
-                            <p className="text-sky-400 font-bold text-sm">₹{billFaceValue.toLocaleString('en-IN')}</p>
+                            <p className="text-gold-400 font-bold text-sm">₹{billFaceValue.toLocaleString('en-IN')}</p>
                           </div>
                         </div>
                       </div>
@@ -1859,7 +1859,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     <p className="text-xs text-slate-400">Step through the 7-stage Selection Funnel (Economics of Filtering):</p>
                     <button
                       onClick={() => setHrFilterStep(prev => (prev + 1) % 7)}
-                      className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                     >
                       Advance Funnel Stage →
                     </button>
@@ -1884,7 +1884,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                         }}
                         className={`p-2.5 rounded-lg border flex items-center justify-between text-xs ${
                           idx === hrFilterStep
-                            ? 'bg-indigo-950/70 border-indigo-400 text-white'
+                            ? 'bg-gold-950/70 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1922,7 +1922,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-950"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-950"
               >
                 Next Lab →
               </motion.button>
@@ -1964,7 +1964,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Live Financial Ledger Canvas */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-300">Live Operating Ledger Pipeline</span>
+              <span className="text-xs font-bold text-gold-300">Live Operating Ledger Pipeline</span>
               <canvas ref={canvasRef} width={400} height={40} className="w-full rounded-xl border border-slate-800" />
               <div className="grid grid-cols-2 gap-2 text-xs font-mono">
                 <div className="p-2 bg-slate-950 rounded border border-slate-800">
@@ -1973,7 +1973,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                 </div>
                 <div className="p-2 bg-slate-950 rounded border border-slate-800">
                   <span className="text-slate-400">Adjusted Capital:</span>
-                  <p className="text-indigo-400 font-bold">₹{adjustedCapital.toLocaleString('en-IN')}</p>
+                  <p className="text-gold-400 font-bold">₹{adjustedCapital.toLocaleString('en-IN')}</p>
                 </div>
               </div>
             </div>
@@ -1981,7 +1981,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
             {/* Quick Production Cost Simulator */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
               <div className="flex justify-between items-center text-xs">
-                <span className="font-bold text-indigo-300">Cost at {productionUnits} Units:</span>
+                <span className="font-bold text-gold-300">Cost at {productionUnits} Units:</span>
                 <span className="font-mono text-emerald-400 font-bold">Total: ₹{costCalculations.totalCost.toLocaleString('en-IN')}</span>
               </div>
               <input
@@ -1991,7 +1991,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                 step={500}
                 value={productionUnits}
                 onChange={e => setProductionUnits(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
               <p className="text-[11px] text-slate-400">
                 Fixed Cost / Unit: <strong className="text-white">₹{costCalculations.fixedPerUnit.toFixed(2)}</strong> | Variable / Unit: <strong className="text-white">₹{costCalculations.variablePerUnit}</strong>
@@ -2012,9 +2012,9 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
               </span>
               <div className="flex items-center gap-2">
                 <span className="text-slate-400 font-mono">
-                  Competency: <strong className="text-indigo-300 uppercase">{activeChallenge.competencyLevel}</strong>
+                  Competency: <strong className="text-gold-300 uppercase">{activeChallenge.competencyLevel}</strong>
                 </span>
-                <span className="px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-300 font-mono font-bold">
+                <span className="px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 font-mono font-bold">
                   Score: {scoreBreakdown.correct}/{scoreBreakdown.total}
                 </span>
               </div>
@@ -2022,7 +2022,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
             {/* Animated Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2041,7 +2041,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                 : 'bg-slate-900 border-slate-800 shadow-xl'
             }`}
           >
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-mono font-bold uppercase mb-2">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-mono font-bold uppercase mb-2">
               <span>Node: {activeChallenge.nodeId}</span>
               <span>•</span>
               <span>Level: {activeChallenge.difficulty}</span>
@@ -2067,7 +2067,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       className={`w-full p-4 rounded-xl text-left text-sm font-medium transition-all border ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-indigo-500 hover:bg-slate-900'
+                          : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500 hover:bg-slate-900'
                       }`}
                     >
                       <div className="flex items-start gap-3">
@@ -2092,7 +2092,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     placeholder="Enter calculated numerical value..."
                     disabled={showExplanation || answerRevealed}
                     aria-label="Numerical answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-full max-w-sm"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-full max-w-sm"
                   />
                   <span className="text-sm font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2100,7 +2100,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || answerRevealed || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm disabled:opacity-40"
                   >
                     Check
                   </motion.button>
@@ -2122,7 +2122,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between text-xs text-slate-200"
                     >
                       <div className="flex items-center gap-2">
-                        <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-mono flex items-center justify-center text-[10px] font-bold">
+                        <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-mono flex items-center justify-center text-[10px] font-bold">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2156,7 +2156,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Order
                 </motion.button>
@@ -2178,7 +2178,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable label ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg cursor-grab font-bold text-xs shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg cursor-grab font-bold text-xs shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2199,9 +2199,9 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col justify-between min-h-[100px]"
                     >
                       <span className="text-xs font-bold text-slate-300">{zone.title}</span>
-                      <div className="mt-2 text-xs font-mono text-indigo-400">
+                      <div className="mt-2 text-xs font-mono text-gold-400">
                         {droppedLabels[zone.id] ? (
-                          <span className="px-2 py-1 bg-indigo-900 rounded font-bold">
+                          <span className="px-2 py-1 bg-gold-900 rounded font-bold">
                             ✓ {droppedLabels[zone.id]}
                           </span>
                         ) : (
@@ -2217,7 +2217,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Submit Labels
                 </motion.button>
@@ -2244,7 +2244,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-900/80 text-indigo-200 rounded-md text-xs font-mono flex items-center gap-1">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-900/80 text-gold-200 rounded-md text-xs font-mono flex items-center gap-1">
                       {part}
                       <button onClick={() => setConstructParts(p => p.filter((_, i) => i !== idx))} className="text-rose-400 ml-1">✕</button>
                     </span>
@@ -2257,7 +2257,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Validate Assembly
                 </motion.button>
@@ -2269,13 +2269,13 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 bg-indigo-950/60 border border-indigo-700/60 rounded-xl space-y-3"
+                className="mt-6 p-4 bg-gold-950/60 border border-gold-700/60 rounded-xl space-y-3"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                     Commercial Analysis & Solution:
                   </span>
-                  <span className="text-xs text-indigo-400 font-mono">
+                  <span className="text-xs text-gold-400 font-mono">
                     Step {revealedSteps + 1} of {activeChallenge.explanation.split('. ').filter(s => s.trim()).length}
                   </span>
                 </div>
@@ -2291,7 +2291,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs sm:text-sm leading-relaxed"
                     >
-                      <strong className="text-indigo-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                      <strong className="text-gold-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
 
@@ -2301,7 +2301,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2326,7 +2326,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
       {/* ─── PHASE 5: COMPLETION & MASTERY PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-4">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Commercial Studies Simulation Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2340,7 +2340,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
               </div>
               <div className="px-5 py-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 uppercase">BKT Mastery Level</span>
-                <p className="text-2xl font-black text-sky-400 font-mono capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 font-mono capitalize">{masteryLevel}</p>
               </div>
               <div className="px-5 py-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 uppercase">Next SM-2 Spaced Review</span>
@@ -2376,7 +2376,7 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
 
           {/* Motivational Feedback */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-sm font-bold text-indigo-300 mb-1">Performance Evaluation:</h3>
+            <h3 className="text-sm font-bold text-gold-300 mb-1">Performance Evaluation:</h3>
             <p className="text-slate-300 text-sm font-semibold leading-relaxed">
               {errors === 0
                 ? 'PERFECT SCORE!'
@@ -2407,12 +2407,12 @@ function C10_CommercialStudiesFinalAccountsProfitSim({
 
           {/* Real World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-slate-300 text-xs">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

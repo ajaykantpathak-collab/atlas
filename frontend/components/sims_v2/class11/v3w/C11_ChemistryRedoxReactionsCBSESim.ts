@@ -11,11 +11,11 @@ export const w_c11_chemistryredoxreactionscbsesim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Oxidation and Reduction: Classical Concept',
     chapters: [],
     nodeIds: ['c11_chem_cbse_08_001', 'c11_chem_cbse_08_002', 'c11_chem_cbse_08_003', 'c11_chem_cbse_08_004', 'c11_chem_cbse_08_005', 'c11_chem_cbse_08_006', 'c11_chem_cbse_08_007', 'c11_chem_cbse_08_008', 'c11_chem_cbse_09_007', 'c11_chem_cbse_09_011', 'c11_chem_cbse_01_011', 'c11_chem_cbse_09_002', 'c11_chem_cbse_09_003', 'c11_chem_cbse_09_004', 'c11_chem_cbse_09_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe an iron nail left in monsoon rain — it develops a reddish-brown flaky coating (rust).', goal: 'Master Oxidation and Reduction: Classical Concept.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Classical oxidation is defined as a chemical.', text: 'Classical oxidation is defined as a chemical process involving addition of oxygen or an electronegative element, removal of hydrogen or an electropositive element, or loss of electrons.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Classical oxidation is defined as a chemical.', text: 'Classical oxidation is defined as a chemical process involving addition of oxygen or an electronegative element, removal of hydrogen or an electropositive element, or loss of electrons.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_08_001', title: 'Classical oxidation is defined as a.',

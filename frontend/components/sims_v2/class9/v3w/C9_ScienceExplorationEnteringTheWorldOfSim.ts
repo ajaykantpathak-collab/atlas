@@ -11,7 +11,7 @@ export const w_c9_scienceexplorationenteringtheworldofsim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Science as a Systematic Study of Nature',
     chapters: [],
     nodeIds: ['c9_physics_ch1_1', 'c9_physics_ch1_10'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Look at the ceiling fan above you — it rotates at a steady speed, but have you wondered how we *know* the.', goal: 'Master Science as a Systematic Study of Nature.' },
     discovery: {
         question: 'A student says: "My grandmother knows that tulsi leaves cure fever because she has seen it work many times.',
@@ -20,7 +20,7 @@ export const w_c9_scienceexplorationenteringtheworldofsim: SimDef = {
         hook: 'Students believe "systematic" only means "step-by-step procedure" (like following a lab manual).',
     },
     teaching: [
-        { title: 'Science as a systematic study of nature is.', text: 'Science as a systematic study of nature is the organized, evidence-based enterprise that builds and organizes knowledge through testable explanations and predictions about the natural world,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Science as a systematic study of nature is.', text: 'Science as a systematic study of nature is the organized, evidence-based enterprise that builds and organizes knowledge through testable explanations and predictions about the natural world,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch1_1', title: 'Science as a systematic study of nature.',

@@ -1153,13 +1153,13 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-900/60 border border-indigo-600 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-900/60 border border-gold-600 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-indigo-950 text-indigo-400 border border-indigo-800">
+              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-400 border border-gold-800">
                 ISC Class 12 • Political Science
               </span>
               <span className="text-xs text-slate-400">Section A: Constitution & Government</span>
@@ -1179,7 +1179,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                   : difficulty === 'standard'
-                  ? 'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+                  ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                   : 'bg-rose-950/60 text-rose-400 border-rose-700'
               }`}
             >
@@ -1187,7 +1187,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
             </motion.span>
           )}
           <span className="text-xs font-semibold px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300">
-            Phase: <strong className="text-indigo-400 capitalize">{phase}</strong>
+            Phase: <strong className="text-gold-400 capitalize">{phase}</strong>
           </span>
         </div>
       </motion.header>
@@ -1200,18 +1200,18 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
           className="mt-6 space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/80 to-slate-900 border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/80 to-slate-900 border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span>🏛️ Narrative Brief</span>
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <p className="text-slate-400 text-xs mt-2 border-l-2 border-indigo-500 pl-3 italic">{SCENARIO.context}</p>
+            <p className="text-slate-400 text-xs mt-2 border-l-2 border-gold-500 pl-3 italic">{SCENARIO.context}</p>
           </div>
 
           {/* SVG 1: Core Conceptual Diagram - State Penetration Spectrum */}
           <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 flex flex-col items-center">
-            <span className="text-xs font-bold text-indigo-400 mb-2 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 mb-2 uppercase tracking-wider">
               SVG Model 1: Spectrum of State Control vs Citizen Liberty
             </span>
             <svg viewBox="0 0 700 130" className="w-full max-w-2xl h-auto">
@@ -1292,7 +1292,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Launch Interactive Exploration</span>
                   <span>→</span>
@@ -1319,7 +1319,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                 }}
                 className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'
                 }`}
               >
@@ -1337,7 +1337,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
               className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-5"
             >
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-2">
-                <h3 className="text-xl font-black text-indigo-300">
+                <h3 className="text-xl font-black text-gold-300">
                   Step {currentSlide + 1}: {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs px-3 py-1 rounded-full bg-slate-800 text-amber-400 font-semibold">
@@ -1354,19 +1354,19 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                     <div className="flex gap-2">
                       <button
                         onClick={() => setRepMode('spectrum')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold ${repMode === 'spectrum' ? 'bg-indigo-600 text-white' : 'bg-slate-850 text-slate-400'}`}
+                        className={`px-3 py-1 rounded-lg text-xs font-bold ${repMode === 'spectrum' ? 'bg-gold-600 text-white' : 'bg-slate-850 text-slate-400'}`}
                       >
                         1. Interactive Sliders
                       </button>
                       <button
                         onClick={() => setRepMode('matrix')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold ${repMode === 'matrix' ? 'bg-indigo-600 text-white' : 'bg-slate-850 text-slate-400'}`}
+                        className={`px-3 py-1 rounded-lg text-xs font-bold ${repMode === 'matrix' ? 'bg-gold-600 text-white' : 'bg-slate-850 text-slate-400'}`}
                       >
                         2. Comparative Matrix
                       </button>
                       <button
                         onClick={() => setRepMode('venn')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold ${repMode === 'venn' ? 'bg-indigo-600 text-white' : 'bg-slate-850 text-slate-400'}`}
+                        className={`px-3 py-1 rounded-lg text-xs font-bold ${repMode === 'venn' ? 'bg-gold-600 text-white' : 'bg-slate-850 text-slate-400'}`}
                       >
                         3. SVG Venn Pluralism Diagram
                       </button>
@@ -1397,7 +1397,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                           audioManager.play('count');
                         }}
                         aria-label="State penetration level"
-                        className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                       />
 
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 pt-2">
@@ -1498,7 +1498,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
 
                   {repMode === 'venn' && (
                     <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 flex flex-col items-center">
-                      <span className="text-xs font-bold text-indigo-400 mb-2 uppercase">SVG Model 2: Plural Spheres vs State Penetration (Venn Diagram)</span>
+                      <span className="text-xs font-bold text-gold-400 mb-2 uppercase">SVG Model 2: Plural Spheres vs State Penetration (Venn Diagram)</span>
                       <svg viewBox="0 0 500 240" className="w-full max-w-lg h-auto">
                         {/* Circle 1: Political Control */}
                         <circle cx="180" cy="120" r="90" fill="#f59e0b" fillOpacity="0.3" stroke="#f59e0b" strokeWidth="2" />
@@ -1583,11 +1583,11 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                           }}
                           className={`p-4 rounded-xl text-left border transition-all ${
                             selectedOrgan === organ.id
-                              ? 'bg-indigo-950 border-indigo-500 shadow-lg shadow-indigo-600/20'
+                              ? 'bg-gold-950 border-gold-500 shadow-lg shadow-gold-600/20'
                               : 'bg-slate-900 border-slate-800 hover:border-slate-700'
                           }`}
                         >
-                          <span className="text-xs text-indigo-400 font-mono font-bold block">{organ.art}</span>
+                          <span className="text-xs text-gold-400 font-mono font-bold block">{organ.art}</span>
                           <h4 className="font-bold text-white text-sm mt-1">{organ.name}</h4>
                           <p className="text-xs text-slate-400 mt-2">{organ.check}</p>
                         </motion.button>
@@ -1595,8 +1595,8 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                     </div>
 
                     {selectedOrgan && (
-                      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-slate-900 border border-indigo-900/60 text-xs text-slate-300">
-                        <strong className="text-indigo-300 uppercase tracking-wider block mb-1">Liberal Democratic Check Active:</strong>
+                      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-slate-900 border border-gold-900/60 text-xs text-slate-300">
+                        <strong className="text-gold-300 uppercase tracking-wider block mb-1">Liberal Democratic Check Active:</strong>
                         In India, separation of powers is functional rather than absolute: Ministers are drawn from Parliament (Art 75), and the Supreme Court acts as the final sentinel on the qui vive (Maneka Gandhi & Kesavananda Bharati).
                       </motion.div>
                     )}
@@ -1610,7 +1610,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                   <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 space-y-4">
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-slate-400 font-bold">Centralization Level: {federalCentralization}%</span>
-                      <span className="font-bold text-indigo-400">
+                      <span className="font-bold text-gold-400">
                         {federalCentralization > 70 ? 'Unitary Tilt (UK / Emergency mode)' : federalCentralization < 35 ? 'Loose Federation' : 'Quasi-Federal Balance (India)'}
                       </span>
                     </div>
@@ -1621,12 +1621,12 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                       max={90}
                       value={federalCentralization}
                       onChange={(e) => setFederalCentralization(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                        <h4 className="font-bold text-indigo-300 mb-1">Union List (100 items)</h4>
+                        <h4 className="font-bold text-gold-300 mb-1">Union List (100 items)</h4>
                         <p className="text-slate-400">Defence, Foreign Affairs, Atomic Energy, Currency, Railways.</p>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
@@ -1687,7 +1687,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
               {currentSlide === 4 && (
                 <div className="space-y-5">
                   {!predictionMade && (
-                    <div className="p-5 bg-indigo-950/60 rounded-2xl border border-indigo-700">
+                    <div className="p-5 bg-gold-950/60 rounded-2xl border border-gold-700">
                       <span className="text-xs font-bold text-amber-400 uppercase tracking-wider block mb-2">
                         🎯 Predict-Then-Check Challenge
                       </span>
@@ -1718,8 +1718,8 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
 
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                          <label className="text-indigo-400 font-bold block mb-1">Party A: {fptpVoteA}%</label>
-                          <input type="range" min={10} max={60} value={fptpVoteA} onChange={(e) => setFptpVoteA(Number(e.target.value))} className="w-full accent-indigo-500" />
+                          <label className="text-gold-400 font-bold block mb-1">Party A: {fptpVoteA}%</label>
+                          <input type="range" min={10} max={60} value={fptpVoteA} onChange={(e) => setFptpVoteA(Number(e.target.value))} className="w-full accent-gold-500" />
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
                           <label className="text-pink-400 font-bold block mb-1">Party B: {fptpVoteB}%</label>
@@ -1762,7 +1762,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1794,19 +1794,19 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
             <div className="flex gap-2">
               <button
                 onClick={() => setSandboxMode('regimes')}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold ${sandboxMode === 'regimes' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold ${sandboxMode === 'regimes' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
               >
                 Regimes
               </button>
               <button
                 onClick={() => setSandboxMode('elections')}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold ${sandboxMode === 'elections' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold ${sandboxMode === 'elections' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
               >
                 Elections
               </button>
               <button
                 onClick={() => setSandboxMode('amendments')}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold ${sandboxMode === 'amendments' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold ${sandboxMode === 'amendments' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
               >
                 Amendments
               </button>
@@ -1816,13 +1816,13 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
           {/* Interactive Constitutional Reference Browser */}
           <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
-              <h4 className="text-sm font-bold text-indigo-300">Searchable Constitution & Case Law Explorer</h4>
+              <h4 className="text-sm font-bold text-gold-300">Searchable Constitution & Case Law Explorer</h4>
               <input
                 type="text"
                 placeholder="Search articles (e.g. 19, 21, 368, 324)..."
                 value={searchArticleQuery}
                 onChange={(e) => setSearchArticleQuery(e.target.value)}
-                className="px-3.5 py-1.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500 w-full md:w-64"
+                className="px-3.5 py-1.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500 w-full md:w-64"
               />
             </div>
 
@@ -1834,7 +1834,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                   className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-mono font-bold text-indigo-400">{art.num}</span>
+                    <span className="font-mono font-bold text-gold-400">{art.num}</span>
                     <span className="text-[10px] text-slate-500 uppercase">{art.title}</span>
                   </div>
                   <p className="text-slate-300 leading-relaxed text-[11px]">{art.desc}</p>
@@ -1848,7 +1848,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 rounded-2xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-sm shadow-xl shadow-indigo-600/30 flex items-center gap-2"
+              className="px-8 py-3 rounded-2xl bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold text-sm shadow-xl shadow-gold-600/30 flex items-center gap-2"
             >
               <span>I am Ready for the Challenges!</span>
               <span>→</span>
@@ -1865,13 +1865,13 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
               <span className="text-slate-400 font-bold">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono font-semibold">
+              <span className="text-gold-400 font-mono font-semibold">
                 Competency: {challenge.competencyLevel.toUpperCase()}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1889,7 +1889,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
               <span className="text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider bg-slate-800 text-slate-400 border border-slate-700">
                 {challenge.type}
               </span>
-              <span className="text-[10px] font-mono text-indigo-400">{challenge.nodeId}</span>
+              <span className="text-[10px] font-mono text-gold-400">{challenge.nodeId}</span>
             </div>
 
             <h3 className="text-base md:text-lg font-bold text-white leading-snug mb-5">
@@ -1942,7 +1942,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-700 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 rounded-lg bg-gold-700 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -1963,7 +1963,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                       className="p-4 rounded-xl border-2 border-dashed border-slate-700 bg-slate-950/60 flex flex-col justify-between min-h-[90px]"
                     >
                       <span className="text-xs text-slate-400 font-semibold">{target.label}</span>
-                      <div className="mt-2 text-sm font-bold text-indigo-300">
+                      <div className="mt-2 text-sm font-bold text-gold-300">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop label here...'}
                       </div>
                     </div>
@@ -1974,7 +1974,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2013,7 +2013,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(sortArrangement)}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Order
                 </motion.button>
@@ -2029,14 +2029,14 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Check
                   </motion.button>
@@ -2068,7 +2068,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                       key={cIdx}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-700 rounded-lg text-xs text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-700 rounded-lg text-xs text-gold-200 flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2089,7 +2089,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Verify Construction
                 </motion.button>
@@ -2159,7 +2159,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
           animate={{ opacity: 1, scale: 1 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-indigo-950 to-slate-900 border border-indigo-700 text-center space-y-4">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-gold-950 to-slate-900 border border-gold-700 text-center space-y-4">
             <span className="text-4xl">🏛️</span>
             <h2 className="text-3xl font-black text-white">Constitutional Mastery Certified!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2172,7 +2172,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">BKT Mastery</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[140px]">
                 <span className="text-xs text-slate-400 block">SRS Next Review</span>
@@ -2183,7 +2183,7 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
             </div>
 
             {/* Explicit Spaced Repetition Notification Banner */}
-            <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-indigo-950/80 border border-indigo-600/70 text-xs text-indigo-200 shadow-md">
+            <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gold-950/80 border border-gold-600/70 text-xs text-gold-200 shadow-md">
               <span className="text-base">📅</span>
               <span>
                 <strong>Spaced Repetition Schedule: </strong>
@@ -2225,13 +2225,13 @@ function C12_PoliticalScienceTotalitarianAuthoritarianStatesSim({
             </div>
           )}
 
-          <div className="p-6 rounded-2xl bg-indigo-950/40 border border-indigo-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 rounded-2xl bg-gold-950/40 border border-gold-800 space-y-3">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, sIdx) => (
                 <li key={sIdx} className="text-xs text-slate-400 flex items-center gap-2">
-                  <span className="text-indigo-400 font-bold">•</span>
+                  <span className="text-gold-400 font-bold">•</span>
                   <span>{st}</span>
                 </li>
               ))}

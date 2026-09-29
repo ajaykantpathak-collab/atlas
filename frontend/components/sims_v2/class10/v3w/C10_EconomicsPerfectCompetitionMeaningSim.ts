@@ -11,7 +11,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
     classLevel: 10, subject: 'economics', topic: 'Impact of Globalisation in India: Positive Effects on Consumers and Producers',
     chapters: [],
     nodeIds: ['c10_eco_cbse_04_006', 'c10_eco_cbse_04_002', 'c10_eco_cbse_04_007', 'c10_eco_cbse_04_009', 'c10_eco_cbse_04_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you walk into an electronics store in 2024 to buy a smartphone.', goal: 'Master Impact of Globalisation in India: Positive Effects on Consumers and Producers.' },
     discovery: {
         question: 'Compare the impact of globalisation on a large Indian IT services firm (e.g., TCS) versus a small traditional handloom weaver in Varanasi.',
@@ -20,7 +20,7 @@ export const w_c10_economicsperfectcompetitionmeaningsim: SimDef = {
         hook: 'Students believe globalisation benefits consumers ONLY through cheaper imported goods.',
     },
     teaching: [
-        { title: 'The positive impact of globalisation on.', text: 'The positive impact of globalisation on Indian consumers refers to increased access to a wider variety of goods and services at competitive prices with improved quality due to foreign competition and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The positive impact of globalisation on.', text: 'The positive impact of globalisation on Indian consumers refers to increased access to a wider variety of goods and services at competitive prices with improved quality due to foreign competition and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_eco_cbse_04_006', title: 'The positive impact of globalisation on.',

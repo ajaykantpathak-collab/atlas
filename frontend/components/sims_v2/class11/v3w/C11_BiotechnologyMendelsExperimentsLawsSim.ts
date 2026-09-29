@@ -11,7 +11,7 @@ export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Mendel\'s Experiments: Choice of Organism and Method',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_06_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a plant breeder in 1850 trying to discover the rules of inheritance — you cannot see genes,.', goal: 'Master Mendel\'s Experiments: Choice of Organism and Method.' },
     discovery: {
         question: 'State any four characteristics of garden pea (*Pisum sativum*) that made it an ideal model organism for Mendel\'s inheritance experiments.',
@@ -20,7 +20,7 @@ export const w_c11_biotechnologymendelsexperimentslawssim: SimDef = {
         hook: 'Students often believe Mendel chose pea plants simply because they were "common" or "easy to grow in the monastery.',
     },
     teaching: [
-        { title: 'Mendel selected garden pea (*Pisum sativum*).', text: 'Mendel selected garden pea (*Pisum sativum*) as his model organism because it is an annual plant with perfect bisexual flowers, naturally self-pollinating, and exhibits several distinct, easily.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mendel selected garden pea (*Pisum sativum*).', text: 'Mendel selected garden pea (*Pisum sativum*) as his model organism because it is an annual plant with perfect bisexual flowers, naturally self-pollinating, and exhibits several distinct, easily.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_06_001', title: 'Mendel selected garden pea (*Pisum.',

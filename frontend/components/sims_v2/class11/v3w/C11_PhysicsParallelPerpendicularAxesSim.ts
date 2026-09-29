@@ -11,7 +11,7 @@ export const w_c11_physicsparallelperpendicularaxessim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Theorems of Moment of Inertia: Parallel Axis',
     chapters: [],
     nodeIds: ['c11_phy_cbse_06_009', 'c11_phy_cbse_06_010', 'c11_phy_cbse_06_011', 'c11_phy_cbse_03_003', 'c11_phy_cbse_03_004', 'c11_phy_cbse_03_005', 'c11_phy_cbse_06_003', 'c11_phy_cbse_06_007', 'c11_phy_cbse_06_008', 'c11_phy_cbse_03_008', 'c11_phy_cbse_05_015', 'c11_phy_cbse_04_007', 'c11_phy_cbse_08_007', 'c11_phy_cbse_14_001', 'c11_phy_cbse_06_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan in an Indian household: the blades rotate about the central axis through the motor.', goal: 'Master Theorems of Moment of Inertia: Parallel Axis.' },
     discovery: {
         question: 'State the x- and y-components of a force vector **F** = 20 N acting at an angle of 30° with the positive x-axis. Write the vector in unit vector notation.',
@@ -20,7 +20,7 @@ export const w_c11_physicsparallelperpendicularaxessim: SimDef = {
         hook: 'Students often believe that the component of a vector along an axis is "part of the vector" that exists physically as a.',
     },
     teaching: [
-        { title: 'The Parallel Axis Theorem states that the.', text: 'The Parallel Axis Theorem states that the moment of inertia \\(I\\) of a rigid body about any axis is equal to the moment of inertia \\(I_{\\text{cm}}\\) about a parallel axis passing through its centre.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Parallel Axis Theorem states that the.', text: 'The Parallel Axis Theorem states that the moment of inertia \\(I\\) of a rigid body about any axis is equal to the moment of inertia \\(I_{\\text{cm}}\\) about a parallel axis passing through its centre.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_06_009', title: 'The Parallel Axis Theorem states that.',

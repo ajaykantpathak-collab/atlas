@@ -36,14 +36,14 @@ const TEACHING_SLIDES = [
     title: 'Common Birds in India! 🐦',
     text: 'Birds are living animals! Around us in India, we see sparrows, crows, pigeons, parrots, and majestic eagles. Every bird has a head, eyes, beak, wings, feathers, a tail, and feet!',
     emoji: '🦜',
-    bgColor: 'from-sky-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Birds are living animals! Around us in India, we see sparrows, crows, pigeons, parrots, and eagles. Every bird has a beak, wings, feathers, and feet!'
   },
   {
     title: 'How Birds Fly! ✈️',
     text: 'Flight is amazing! Birds have wings that push air down to create lift. Their bones are hollow and light with air spaces inside, and strong chest muscles flap the wings!',
     emoji: '🦅',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Flight is amazing! Birds have wings that push air down to create lift. Their bones are hollow and light, and strong chest muscles flap the wings!'
   },
   {

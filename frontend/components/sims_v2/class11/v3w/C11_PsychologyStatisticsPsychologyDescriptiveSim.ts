@@ -11,7 +11,7 @@ export const w_c11_psychologystatisticspsychologydescriptivesim: SimDef = {
     classLevel: 11, subject: 'psychology', topic: 'Analysis of Data: Descriptive Statistics',
     chapters: [],
     nodeIds: ['c11_psy_cbse_02_009', 'c11_psy_cbse_02_001', 'c11_psy_cbse_02_002', 'c11_psy_cbse_02_003', 'c11_psy_cbse_02_004', 'c11_psy_cbse_02_006', 'c11_psy_cbse_02_008', 'c11_psy_cbse_02_010', 'c11_psy_cbse_08_009', 'c11_psy_cbse_08_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you conducted a survey on "study hours per week" for 30 Class XI students and got raw scores: 5, 8,.', goal: 'Master Analysis of Data: Descriptive Statistics.' },
     discovery: {
         question: 'A researcher computes standard deviation for "reaction time in milliseconds" data and gets SD = -4.2 ms.',
@@ -20,7 +20,7 @@ export const w_c11_psychologystatisticspsychologydescriptivesim: SimDef = {
         hook: 'Students believe "standard deviation is just the average distance from the mean" and calculate it as Σ|X-M|/n (mean.',
     },
     teaching: [
-        { title: 'Descriptive statistics in psychology refers.', text: 'Descriptive statistics in psychology refers to the quantitative methods used to organize, summarize, and present psychological data through measures of central tendency (mean, median, mode), measures.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Descriptive statistics in psychology refers.', text: 'Descriptive statistics in psychology refers to the quantitative methods used to organize, summarize, and present psychological data through measures of central tendency (mean, median, mode), measures.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_02_009', title: 'Descriptive statistics in psychology.',

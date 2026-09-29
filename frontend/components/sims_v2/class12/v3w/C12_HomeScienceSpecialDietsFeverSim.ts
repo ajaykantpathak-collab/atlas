@@ -11,7 +11,7 @@ export const w_c12_homesciencespecialdietsfeversim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Nutritional Requirements During Fever and Infections',
     chapters: [],
     nodeIds: ['c12_hs_cbse_09_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine your younger sibling has a high fever (39.5°C) for three days and refuses to eat — "I\'m not hungry,.', goal: 'Master Nutritional Requirements During Fever and Infections.' },
     discovery: {
         question: 'Explain why protein requirement increases disproportionately (50-100% above RDA) compared to energy (10-15%) during infection, and name two specific amino.',
@@ -20,7 +20,7 @@ export const w_c12_homesciencespecialdietsfeversim: SimDef = {
         hook: 'Students believe "starve a fever" or that fever requires only fluids and no solid food until temperature normalises.',
     },
     teaching: [
-        { title: 'Nutritional requirements during fever and.', text: 'Nutritional requirements during fever and infections refer to the increased and altered nutrient needs (energy, protein, fluids, electrolytes, vitamins, and minerals) that occur due to elevated.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Nutritional requirements during fever and.', text: 'Nutritional requirements during fever and infections refer to the increased and altered nutrient needs (energy, protein, fluids, electrolytes, vitamins, and minerals) that occur due to elevated.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hs_cbse_09_010', title: 'Nutritional requirements during fever.',

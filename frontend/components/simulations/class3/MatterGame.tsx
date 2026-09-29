@@ -58,7 +58,7 @@ const TEACHING_SLIDES = [
     title: 'What is Matter? 🔬',
     text: 'Everything in the world that we can see, touch, or feel is called MATTER! Matter has mass and takes up space. It exists in three main forms: solids, liquids, and gases!',
     emoji: '🧪',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Everything in the world that we can see, touch, or feel is called matter! Matter has mass and takes up space, existing as solids, liquids, and gases!',
   },
   {
@@ -72,7 +72,7 @@ const TEACHING_SLIDES = [
     title: 'Liquids — Flow & Pour! 💧',
     text: 'A LIQUID has a fixed volume, but NO fixed shape! It flows and takes the shape of its container. Water, milk, oil, and juice pour easily and make a flat surface when still!',
     emoji: '🥛',
-    bgColor: 'from-cyan-500 to-blue-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'A liquid has a fixed volume, but no fixed shape! It flows and takes the shape of its container. Water, milk, and oil pour easily and take container shapes!',
   },
   {
@@ -203,9 +203,9 @@ function ScientistSuresh({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'th
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white border-2 border-indigo-300 rounded-2xl px-4 py-2.5 shadow-xl max-w-[240px]"
+            className="mb-1 bg-white border-2 border-gold-300 rounded-2xl px-4 py-2.5 shadow-xl max-w-[240px]"
           >
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -489,7 +489,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={120} height={100}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-indigo-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white hover:bg-indigo-50'} p-2`} style={{ width: 120, height: 100 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white hover:bg-gold-50'} p-2`} style={{ width: 120, height: 100 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1.5 leading-tight">{label}</span>
       </div>
@@ -771,12 +771,12 @@ export function MatterGame({ width = 720, height = 560, onComplete }: MatterGame
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: -20 }}
           transition={{ duration: 0.4 }}
-          className="z-10 w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-indigo-400 flex flex-col items-center text-center my-auto"
+          className="z-10 w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-gold-400 flex flex-col items-center text-center my-auto"
         >
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-3xl shadow-lg mb-4">
+          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gold-500 to-purple-600 flex items-center justify-center text-3xl shadow-lg mb-4">
             {slide.emoji}
           </div>
-          <h2 className="text-2xl font-black text-indigo-950 mb-3">{slide.title}</h2>
+          <h2 className="text-2xl font-black text-gold-950 mb-3">{slide.title}</h2>
           <p className="text-gray-700 font-medium text-base leading-relaxed px-2">{slide.text}</p>
         </motion.div>
 
@@ -822,8 +822,8 @@ export function MatterGame({ width = 720, height = 560, onComplete }: MatterGame
       </div>
 
       {/* Question Card */}
-      <div className="z-10 w-full max-w-xl bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl border-2 border-indigo-300 text-center my-2">
-        <h2 className="text-lg font-black text-indigo-950">{currentChallenge.question}</h2>
+      <div className="z-10 w-full max-w-xl bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl border-2 border-gold-300 text-center my-2">
+        <h2 className="text-lg font-black text-gold-950">{currentChallenge.question}</h2>
       </div>
 
       {/* Interactive Area */}
@@ -876,7 +876,7 @@ export function MatterGame({ width = 720, height = 560, onComplete }: MatterGame
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleAnswerSelect(opt)}
-                className="w-full py-3.5 px-6 rounded-2xl bg-white/95 hover:bg-indigo-50 border-3 border-indigo-300 font-bold text-indigo-950 text-base shadow-lg transition-all text-center"
+                className="w-full py-3.5 px-6 rounded-2xl bg-white/95 hover:bg-gold-50 border-3 border-gold-300 font-bold text-gold-950 text-base shadow-lg transition-all text-center"
               >
                 {opt}
               </motion.button>

@@ -11,7 +11,7 @@ export const w_c8_mathematicscubesandcuberootssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Square Numbers: Definition and Notation (n squared)',
     chapters: [],
     nodeIds: ['c8_math_ch1_1', 'c8_math_ch1_10', 'c8_math_ch1_11', 'c8_math_ch1_12', 'c8_math_ch1_2', 'c8_math_ch1_3', 'c8_math_ch1_9', 'c8_math_ch1_4', 'c8_math_ch1_6', 'c8_math_ch1_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are tiling a square floor in your classroom using 1 m × 1 m tiles.', goal: 'Master Square Numbers: Definition and Notation (n squared).' },
     discovery: {
         question: 'Explain why \\( 5^2 \\) is not the same as \\( 2 \\times 5 \\). Use the area of a square in your explanation.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicscubesandcuberootssim: SimDef = {
         hook: 'Students often interpret \\( n^2 \\) as \\( n \\times 2 \\) (e.g., \\( 8^2 = 16 \\)) because they see the "2" and think.',
     },
     teaching: [
-        { title: 'A square number is the product obtained when.', text: 'A square number is the product obtained when a natural number is multiplied by itself. For any natural number \\( n \\), its square is denoted by \\( n^2 \\) and calculated as \\( n \\times n \\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A square number is the product obtained when.', text: 'A square number is the product obtained when a natural number is multiplied by itself. For any natural number \\( n \\), its square is denoted by \\( n^2 \\) and calculated as \\( n \\times n \\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch1_1', title: 'A square number is the product obtained.',

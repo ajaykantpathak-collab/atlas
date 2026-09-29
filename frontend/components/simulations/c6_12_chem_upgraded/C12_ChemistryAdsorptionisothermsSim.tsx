@@ -755,12 +755,12 @@ const IsothermGraphSVG: React.FC<{
   }
 
   return (
-    <div className="bg-slate-900/90 p-4 rounded-xl border border-cyan-500/30 shadow-lg shadow-cyan-950/40">
+    <div className="bg-slate-900/90 p-4 rounded-xl border border-gold-500/30 shadow-lg shadow-gold-950/40">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-cyan-400 text-sm font-semibold tracking-wide uppercase">
+        <h4 className="text-gold-400 text-sm font-semibold tracking-wide uppercase">
           {mode === 'freundlich' ? 'Freundlich Isotherm (x/m vs P)' : mode === 'langmuir' ? 'Langmuir Monolayer Isotherm (x/m vs P)' : 'Logarithmic Freundlich Plot log(x/m) vs log(P)'}
         </h4>
-        <span className="text-xs font-mono bg-cyan-950 text-cyan-300 px-2 py-1 rounded border border-cyan-800">
+        <span className="text-xs font-mono bg-gold-950 text-gold-300 px-2 py-1 rounded border border-gold-800">
           T = {temp} K | P = {pressure.toFixed(1)} atm
         </span>
       </div>
@@ -845,8 +845,8 @@ const PhysisorptionVsChemisorptionSVG: React.FC<{
   adsorptionType: 'physisorption' | 'chemisorption';
 }> = ({ adsorptionType }) => {
   return (
-    <div className="bg-slate-900/90 p-4 rounded-xl border border-indigo-500/30 shadow-lg shadow-indigo-950/40">
-      <h4 className="text-indigo-400 text-sm font-semibold tracking-wide uppercase mb-3">
+    <div className="bg-slate-900/90 p-4 rounded-xl border border-gold-500/30 shadow-lg shadow-gold-950/40">
+      <h4 className="text-gold-400 text-sm font-semibold tracking-wide uppercase mb-3">
         Molecular Potential Energy Diagram ({adsorptionType.toUpperCase()})
       </h4>
       <svg viewBox="0 0 450 240" className="w-full h-auto">
@@ -1229,7 +1229,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
       <header className="max-w-7xl mx-auto mb-8 bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-2xl backdrop-blur-md flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <div className="flex items-center gap-3 mb-1">
-            <span className="bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-cyan-500/20">
+            <span className="bg-gold-500/10 text-gold-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-gold-500/20">
               ISC Class 12 Chemistry
             </span>
             <span className="bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full border border-emerald-500/20">
@@ -1244,7 +1244,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
         <div className="flex items-center gap-4 bg-slate-950/80 p-3 rounded-xl border border-slate-800">
           <div className="text-center px-2">
             <div className="text-xs text-slate-400 font-medium">Lab Score</div>
-            <div className="text-2xl font-black text-cyan-400">{score}</div>
+            <div className="text-2xl font-black text-gold-400">{score}</div>
           </div>
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center px-2">
@@ -1277,7 +1277,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
             }}
             className={`flex-1 py-3 px-4 rounded-lg text-xs md:text-sm font-bold transition-all ${
               activeTab === tab.id
-                ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1299,14 +1299,14 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
           <div className="space-y-6">
             {/* Scenario Card */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">Lab Context & Mission</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Lab Context & Mission</h2>
               <p className="text-slate-300 leading-relaxed text-sm">{SCENARIO.context}</p>
             </div>
 
             {/* Discovery Question Card */}
-            <div className="bg-slate-900/80 border border-cyan-500/30 rounded-2xl p-6 shadow-xl space-y-4">
+            <div className="bg-slate-900/80 border border-gold-500/30 rounded-2xl p-6 shadow-xl space-y-4">
               <div className="flex items-center gap-2">
-                <span className="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-2.5 py-1 rounded">
+                <span className="bg-gold-500/20 text-gold-400 text-xs font-bold px-2.5 py-1 rounded">
                   Discovery Question
                 </span>
               </div>
@@ -1325,7 +1325,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : 'bg-slate-950/40 border-slate-800 text-slate-500'
                         : discoverySelected === idx
-                        ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200'
+                        ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                         : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1336,7 +1336,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
 
               {discoverySubmitted && (
                 <div className="mt-4 p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-cyan-400">Insight: </span>
+                  <span className="font-bold text-gold-400">Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1344,7 +1344,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
 
             {/* Prediction Questions Section */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-indigo-400">Pre-Lab Predictive Hypotheses</h3>
+              <h3 className="text-lg font-bold text-gold-400">Pre-Lab Predictive Hypotheses</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {PREDICTION_QUESTIONS.map((pred, qIdx) => (
                   <div key={qIdx} className="bg-slate-950/60 p-4 rounded-xl border border-slate-800 space-y-3">
@@ -1362,7 +1362,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                                 ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                                 : 'bg-slate-900 border-slate-800 text-slate-500'
                               : predictionAnswers[qIdx] === optIdx
-                              ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                           }`}
                         >
@@ -1392,17 +1392,17 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
         {activeTab === 'lab' && (
           <div className="space-y-6">
             {/* Interactive Step Instructions */}
-            <div className="bg-slate-900/80 border border-cyan-500/30 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider mb-3">
+            <div className="bg-slate-900/80 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider mb-3">
                 Exploration Protocols ({EXPLORATION_STEPS.length} Guided Steps)
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
                 {EXPLORATION_STEPS.map((step, idx) => (
                   <div
                     key={idx}
-                    className="bg-slate-950/70 p-3 rounded-xl border border-slate-800 space-y-1 hover:border-cyan-500/40 transition-all"
+                    className="bg-slate-950/70 p-3 rounded-xl border border-slate-800 space-y-1 hover:border-gold-500/40 transition-all"
                   >
-                    <div className="text-xs font-bold text-cyan-300">{step.title}</div>
+                    <div className="text-xs font-bold text-gold-300">{step.title}</div>
                     <div className="text-[11px] text-slate-400 leading-tight">{step.instruction}</div>
                   </div>
                 ))}
@@ -1437,7 +1437,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                         }}
                         className={`p-2.5 text-xs font-semibold rounded-lg border transition-all text-left ${
                           selectedAdsorbent === ad.id
-                            ? 'bg-cyan-500 text-slate-950 border-cyan-400 font-bold'
+                            ? 'bg-gold-500 text-slate-950 border-gold-400 font-bold'
                             : 'bg-slate-950 text-slate-300 border-slate-800 hover:border-slate-700'
                         }`}
                       >
@@ -1458,7 +1458,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                       setSelectedGas(e.target.value as typeof selectedGas);
                       audioManager.play('tap');
                     }}
-                    className="w-full bg-slate-950 text-slate-200 border border-slate-800 rounded-lg p-3 text-xs font-semibold focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-950 text-slate-200 border border-slate-800 rounded-lg p-3 text-xs font-semibold focus:outline-none focus:border-gold-500"
                   >
                     {Object.entries(gasData).map(([key, info]) => (
                       <option key={key} value={key}>
@@ -1472,7 +1472,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                 <div>
                   <div className="flex justify-between items-center mb-1">
                     <label className="text-xs font-semibold text-slate-400 uppercase">Chamber Temperature (T)</label>
-                    <span className="text-xs font-mono font-bold text-cyan-400">{temperature} K</span>
+                    <span className="text-xs font-mono font-bold text-gold-400">{temperature} K</span>
                   </div>
                   <input
                     type="range"
@@ -1481,7 +1481,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                     step="5"
                     value={temperature}
                     onChange={(e) => setTemperature(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                     <span>100 K (Cryogenic)</span>
@@ -1494,7 +1494,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                 <div>
                   <div className="flex justify-between items-center mb-1">
                     <label className="text-xs font-semibold text-slate-400 uppercase">Equilibrium Pressure (P)</label>
-                    <span className="text-xs font-mono font-bold text-cyan-400">{pressure.toFixed(1)} atm</span>
+                    <span className="text-xs font-mono font-bold text-gold-400">{pressure.toFixed(1)} atm</span>
                   </div>
                   <input
                     type="range"
@@ -1503,7 +1503,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                     step="0.1"
                     value={pressure}
                     onChange={(e) => setPressure(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                     <span>0.1 atm (Low)</span>
@@ -1531,7 +1531,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                         }}
                         className={`p-2 text-xs font-semibold rounded-lg border transition-all ${
                           isothermalMode === m.id
-                            ? 'bg-indigo-500 text-slate-950 border-indigo-400 font-bold'
+                            ? 'bg-gold-500 text-slate-950 border-gold-400 font-bold'
                             : 'bg-slate-950 text-slate-300 border-slate-800 hover:border-slate-700'
                         }`}
                       >
@@ -1555,7 +1555,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                 <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <div className="text-xs text-slate-400 font-medium">Calculated x/m</div>
-                    <div className="text-2xl font-black text-cyan-400 mt-1">{calculatedXm.toFixed(3)}</div>
+                    <div className="text-2xl font-black text-gold-400 mt-1">{calculatedXm.toFixed(3)}</div>
                     <div className="text-[10px] text-slate-500">grams gas per gram solid</div>
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
@@ -1567,7 +1567,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                   </div>
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <div className="text-xs text-slate-400 font-medium">Enthalpy ΔH</div>
-                    <div className="text-2xl font-black text-indigo-400 mt-1">
+                    <div className="text-2xl font-black text-gold-400 mt-1">
                       {selectedAdsorbent === 'nickel' || selectedAdsorbent === 'platinum'
                         ? '180 kJ/mol'
                         : '32 kJ/mol'}
@@ -1612,7 +1612,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
 
             {/* Observation Questions Section */}
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400">Post-Lab Observation Verification</h3>
+              <h3 className="text-lg font-bold text-gold-400">Post-Lab Observation Verification</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {OBSERVATION_QUESTIONS.map((obs, qIdx) => (
                   <div key={qIdx} className="bg-slate-950/60 p-4 rounded-xl border border-slate-800 space-y-3">
@@ -1630,7 +1630,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                                 ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                                 : 'bg-slate-900 border-slate-800 text-slate-500'
                               : observationAnswers[qIdx] === optIdx
-                              ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                           }`}
                         >
@@ -1656,7 +1656,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                     <span
                       className={`text-[10px] font-extrabold uppercase px-2.5 py-0.5 rounded-full ${
                         CHALLENGES[currentChallengeIdx].difficulty === 'foundation'
-                          ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                          ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                           : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
                           ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                           : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
@@ -1672,7 +1672,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                     Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}: {CHALLENGES[currentChallengeIdx].competencyLevel}
                   </h3>
                 </div>
-                <div className="text-xs font-mono text-cyan-400 bg-cyan-950/80 px-3 py-1.5 rounded-lg border border-cyan-800">
+                <div className="text-xs font-mono text-gold-400 bg-gold-950/80 px-3 py-1.5 rounded-lg border border-gold-800">
                   Topic: Surface Adsorption & Isotherms
                 </div>
               </div>
@@ -1696,12 +1696,12 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                       onChange={(e) => setNumericInput(e.target.value)}
                       disabled={challengeAnswered}
                       placeholder="Type answer..."
-                      className="bg-slate-950 border border-slate-800 rounded-xl p-3 text-cyan-300 font-mono text-sm focus:outline-none focus:border-cyan-500 flex-1"
+                      className="bg-slate-950 border border-slate-800 rounded-xl p-3 text-gold-300 font-mono text-sm focus:outline-none focus:border-gold-500 flex-1"
                     />
                     {!challengeAnswered && (
                       <button
                         onClick={() => handleChallengeAnswer()}
-                        className="bg-cyan-500 text-slate-950 px-6 py-3 rounded-xl font-bold text-sm hover:bg-cyan-400 transition-all"
+                        className="bg-gold-500 text-slate-950 px-6 py-3 rounded-xl font-bold text-sm hover:bg-gold-400 transition-all"
                       >
                         Submit
                       </button>
@@ -1726,11 +1726,11 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                             ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                             : 'bg-slate-950/40 border-slate-800 text-slate-500'
                           : selectedOption === idx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200'
                           : 'bg-slate-950/70 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {opt}
                     </button>
                   ))}
                 </div>
@@ -1740,7 +1740,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
               {challengeAnswered && (
                 <div className="mt-6 p-5 rounded-xl bg-slate-950 border border-slate-800 space-y-4">
                   <div>
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-1">
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-1">
                       Detailed Explanation
                     </h4>
                     <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
@@ -1783,7 +1783,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
               <p className="text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Calibration Steps & Calculation Procedure
                 </h4>
                 <ol className="space-y-2">
@@ -1799,7 +1799,7 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
 
             {/* Diagnostic Questions Review Grid */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-400">Mastery Assessment Diagnostic Questions</h3>
+              <h3 className="text-lg font-bold text-gold-400">Mastery Assessment Diagnostic Questions</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {DIAGNOSTIC_QUESTIONS.map((dq) => (
                   <div key={dq.id} className="bg-slate-950/70 p-4 rounded-xl border border-slate-800 space-y-2">
@@ -1823,12 +1823,12 @@ export default function C12_ChemistryAdsorptionisothermsSim() {
                   return (
                     <div key={id} className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                       <div className="text-[10px] text-slate-400 font-mono">{id}</div>
-                      <div className="text-xs font-bold text-cyan-300 mt-1">
+                      <div className="text-xs font-bold text-gold-300 mt-1">
                         {(level * 100).toFixed(0)}%
                       </div>
                       <div className="w-full bg-slate-800 h-1.5 rounded-full mt-2 overflow-hidden">
                         <div
-                          className="bg-cyan-500 h-full transition-all duration-500"
+                          className="bg-gold-500 h-full transition-all duration-500"
                           style={{ width: `${level * 100}%` }}
                         />
                       </div>

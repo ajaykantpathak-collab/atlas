@@ -11,7 +11,7 @@ export const w_c9_chemistrylaboratorypreparationofhydrogensim: SimDef = {
     classLevel: 9, subject: 'chemistry', topic: 'Separation of Immiscible Liquids: Separating Funnel',
     chapters: [],
     nodeIds: ['c9_chem_ch1_7', 'c9_chem_ch1_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Observe how oil floats on water when you wash an oily utensil — the two liquids form clear layers instead of.', goal: 'Master Separation of Immiscible Liquids: Separating Funnel.' },
     discovery: {
         question: 'A student pours a mixture of water (density 1.0 g/cm³) and carbon tetrachloride (density 1.6 g/cm³) into a separating funnel.',
@@ -20,7 +20,7 @@ export const w_c9_chemistrylaboratorypreparationofhydrogensim: SimDef = {
         hook: 'Students believe that the aqueous layer (water-based) always forms the lower layer in a separating funnel.',
     },
     teaching: [
-        { title: 'A separating funnel is a laboratory.', text: 'A separating funnel is a laboratory apparatus used to separate two immiscible liquids of different densities by allowing them to form distinct layers and draining the lower layer through a stopcock,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A separating funnel is a laboratory.', text: 'A separating funnel is a laboratory apparatus used to separate two immiscible liquids of different densities by allowing them to form distinct layers and draining the lower layer through a stopcock,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_chem_ch1_7', title: 'A separating funnel is a laboratory.',

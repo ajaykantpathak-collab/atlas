@@ -1258,11 +1258,11 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50" role="img" aria-label="Maths Icon">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50" role="img" aria-label="Maths Icon">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-bold tracking-widest text-indigo-400 uppercase">ICSE Class 10 Applied Maths</span>
+            <span className="text-xs font-bold tracking-widest text-gold-400 uppercase">ICSE Class 10 Applied Maths</span>
             <h1 className="text-lg sm:text-xl font-black text-white">{title}</h1>
           </div>
         </div>
@@ -1283,7 +1283,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
               aria-label={`Switch to ${p} phase`}
               className={`px-3 py-1 text-xs font-bold rounded-xl transition-all ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-500 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1296,14 +1296,14 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="inline-block px-3 py-1 bg-indigo-900/70 text-indigo-300 text-xs font-bold rounded-full mb-3 border border-indigo-700/50">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="inline-block px-3 py-1 bg-gold-900/70 text-gold-300 text-xs font-bold rounded-full mb-3 border border-gold-700/50">
               🛰️ MISSION SCENARIO
             </span>
             <h2 className="text-xl sm:text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 mt-3 font-mono bg-indigo-950/80 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300 mt-3 font-mono bg-gold-950/80 p-3 rounded-xl border border-gold-800/40">
               {SCENARIO.context}
             </p>
           </div>
@@ -1330,10 +1330,10 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700/80 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700/80 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                   }`}
                 >
-                  <span className="inline-block w-6 font-mono text-xs text-indigo-400 font-bold">{String.fromCharCode(65 + i)}.</span>
+                  <span className="inline-block w-6 font-mono text-xs text-gold-400 font-bold">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1350,7 +1350,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Logic Exploration Labs"
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     <span>Enter Logic Labs</span>
                     <span>→</span>
@@ -1366,14 +1366,14 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold tracking-wider text-indigo-400 uppercase">
+            <span className="text-xs font-bold tracking-wider text-gold-400 uppercase">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5" aria-hidden="true">
               {EXPLORATION_STEPS.map((_, idx) => (
                 <div
                   key={idx}
-                  className={`h-1.5 rounded-full transition-all ${idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-800'}`}
+                  className={`h-1.5 rounded-full transition-all ${idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-800'}`}
                 />
               ))}
             </div>
@@ -1423,7 +1423,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                 <div className="space-y-1.5">
                   <div className="flex justify-between text-xs">
                     <span className="text-slate-400 font-mono">Sensor Sensitivity:</span>
-                    <span className="text-sky-400 font-bold font-mono">{sensorSensitivity}%</span>
+                    <span className="text-gold-400 font-bold font-mono">{sensorSensitivity}%</span>
                   </div>
                   <input
                     type="range"
@@ -1433,7 +1433,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     value={sensorSensitivity}
                     onChange={(e) => setSensorSensitivity(Number(e.target.value))}
                     aria-label="Adjust Sensor Sensitivity Percentage"
-                    className="w-full accent-sky-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                    className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500 font-mono">
                     <span>10%</span>
@@ -1478,7 +1478,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                         aria-label={`Select connective ${conn}`}
                         className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold transition-all ${
                           selectedConnective === conn
-                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/40'
+                            ? 'bg-gold-600 text-white shadow-md shadow-gold-600/40'
                             : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                         }`}
                       >
@@ -1603,7 +1603,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                           onClick={toggleSwitchQ}
                           aria-label={`Toggle Switch Q currently ${switchQ ? 'True' : 'False'}`}
                           className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all flex items-center gap-2 ${
-                            switchQ ? 'bg-sky-950 border-sky-500 text-sky-300' : 'bg-rose-950 border-rose-600 text-rose-300'
+                            switchQ ? 'bg-gold-950 border-gold-500 text-gold-300' : 'bg-rose-950 border-rose-600 text-rose-300'
                           }`}
                         >
                           <span>{switchQ ? '✓' : '✗'}</span>
@@ -1618,26 +1618,26 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                 <div className="lg:col-span-5 space-y-4">
                   <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-indigo-400">Venn Diagram Duality</span>
+                      <span className="text-xs font-bold text-gold-400">Venn Diagram Duality</span>
                       <div className="flex gap-1 text-[10px] font-mono">
                         <button
                           onClick={() => handleSelectVennFilter('INTERSECT')}
                           aria-label="Select Intersection A and B"
-                          className={`px-2 py-0.5 rounded ${activeVennFilter === 'INTERSECT' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                          className={`px-2 py-0.5 rounded ${activeVennFilter === 'INTERSECT' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                         >
                           A ∩ B
                         </button>
                         <button
                           onClick={() => handleSelectVennFilter('UNION')}
                           aria-label="Select Union A or B"
-                          className={`px-2 py-0.5 rounded ${activeVennFilter === 'UNION' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                          className={`px-2 py-0.5 rounded ${activeVennFilter === 'UNION' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                         >
                           A ∪ B
                         </button>
                         <button
                           onClick={() => handleSelectVennFilter('COMP_P')}
                           aria-label="Select Complement A prime"
-                          className={`px-2 py-0.5 rounded ${activeVennFilter === 'COMP_P' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                          className={`px-2 py-0.5 rounded ${activeVennFilter === 'COMP_P' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                         >
                           A′
                         </button>
@@ -1674,7 +1674,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
 
               {/* Predict-Then-Check and Observation Blocks */}
               {currentSlide === 1 && !predictionMade && (
-                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-700/40 space-y-3">
+                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-5 bg-gold-950/40 rounded-2xl border border-gold-700/40 space-y-3">
                   <span className="text-xs font-bold text-amber-400">🔮 PREDICT BEFORE TESTING:</span>
                   <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1685,7 +1685,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handlePrediction(i)}
                         aria-label={`Predict option ${i + 1}: ${opt}`}
-                        className="p-3 bg-slate-800/80 rounded-xl text-xs text-left text-slate-200 hover:bg-indigo-900/60 border border-slate-700"
+                        className="p-3 bg-slate-800/80 rounded-xl text-xs text-left text-slate-200 hover:bg-gold-900/60 border border-slate-700"
                       >
                         {opt}
                       </motion.button>
@@ -1719,7 +1719,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
                     aria-label="Proceed to next exploration lab"
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1754,7 +1754,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
                 aria-label="Proceed to graded challenges"
-                className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-bold text-xs rounded-2xl shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white font-bold text-xs rounded-2xl shadow-lg shadow-gold-600/30"
               >
                 Ready for Graded Challenges! →
               </motion.button>
@@ -1768,7 +1768,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col sm:flex-row gap-4 items-center justify-between">
               <div className="w-full sm:w-1/2 space-y-1">
                 <div className="flex justify-between text-xs">
-                  <span className="text-indigo-300 font-mono">Premise Certainty Slider (p → q):</span>
+                  <span className="text-gold-300 font-mono">Premise Certainty Slider (p → q):</span>
                   <span className="text-emerald-400 font-bold font-mono">{premiseCertainty}%</span>
                 </div>
                 <input
@@ -1778,7 +1778,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   value={premiseCertainty}
                   onChange={(e) => setPremiseCertainty(Number(e.target.value))}
                   aria-label="Adjust premise certainty percentage"
-                  className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                  className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                 />
               </div>
               <div className="text-xs text-slate-300 bg-slate-900 p-2.5 rounded-xl border border-slate-700 font-mono">
@@ -1790,7 +1790,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs font-mono border-collapse" aria-label="Interactive Truth Table">
                 <thead>
-                  <tr className="bg-slate-950 text-indigo-300 border-b border-slate-800">
+                  <tr className="bg-slate-950 text-gold-300 border-b border-slate-800">
                     <th className="p-3">Row #</th>
                     <th className="p-3">p</th>
                     <th className="p-3">q</th>
@@ -1820,12 +1820,12 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                         }}
                         aria-label={`Row ${r.row}: p is ${r.p ? 'True' : 'False'}, q is ${r.q ? 'True' : 'False'}`}
                         className={`cursor-pointer transition-colors ${
-                          isSelected ? 'bg-indigo-950/80 text-white font-bold' : 'hover:bg-slate-800/60 text-slate-300'
+                          isSelected ? 'bg-gold-950/80 text-white font-bold' : 'hover:bg-slate-800/60 text-slate-300'
                         }`}
                       >
                         <td className="p-3">{r.row}</td>
                         <td className="p-3 text-emerald-400">{r.p ? '✓ T (1)' : '✗ F (0)'}</td>
-                        <td className="p-3 text-sky-400">{r.q ? '✓ T (1)' : '✗ F (0)'}</td>
+                        <td className="p-3 text-gold-400">{r.q ? '✓ T (1)' : '✗ F (0)'}</td>
                         <td className="p-3">{!r.p ? '✓ T' : '✗ F'}</td>
                         <td className="p-3">{r.p && r.q ? '✓ T' : '✗ F'}</td>
                         <td className="p-3">{r.p || r.q ? '✓ T' : '✗ F'}</td>
@@ -1871,7 +1871,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                 animate={{ scale: 1 }}
                 className={`px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold tracking-wider uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                  difficulty === 'standard' ? 'bg-sky-950 text-sky-400 border border-sky-800' :
+                  difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                   'bg-rose-950 text-rose-400 border border-rose-800'
                 }`}
               >
@@ -1882,7 +1882,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
               </span>
             </div>
 
-            <span className="text-xs text-indigo-400 font-mono">
+            <span className="text-xs text-gold-400 font-mono">
               Score: {scoreBreakdown.correct} / {scoreBreakdown.total}
             </span>
           </div>
@@ -1890,7 +1890,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
           {/* Progress Bar */}
           <div className="h-1.5 bg-slate-900 rounded-full overflow-hidden" role="progressbar" aria-valuenow={(currentChallenge + 1)} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1923,10 +1923,10 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : wrongFlash
                         ? 'bg-rose-950/60 border-rose-600 text-rose-200'
-                        : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                        : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                     }`}
                   >
-                    <span className="inline-block w-6 font-mono text-xs text-indigo-400 font-bold">{String.fromCharCode(65 + i)}.</span>
+                    <span className="inline-block w-6 font-mono text-xs text-gold-400 font-bold">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1946,7 +1946,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1980,7 +1980,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify dragged connective label mappings"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Target Mappings
                 </motion.button>
@@ -2009,7 +2009,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-indigo-950 border border-indigo-700 text-indigo-300 font-mono font-bold flex items-center justify-center text-[10px]">
+                    <span className="w-6 h-6 rounded-lg bg-gold-950 border border-gold-700 text-gold-300 font-mono font-bold flex items-center justify-center text-[10px]">
                       {dIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2022,7 +2022,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Verify sequence order of logical steps"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Sequence Order
                 </motion.button>
@@ -2039,7 +2039,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label={`Enter numerical value in ${challenge.unit || 'units'}`}
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs font-mono text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2048,7 +2048,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
                     aria-label="Submit numeric answer"
-                    className="px-5 py-3 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-3 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Check
                   </motion.button>
@@ -2070,7 +2070,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                       whileTap={{ scale: 0.92 }}
                       onClick={() => handleAddConstructPart(part)}
                       aria-label={`Add token ${part} to formula`}
-                      className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 text-indigo-300 rounded-xl font-mono text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-950 border border-gold-700 text-gold-300 rounded-xl font-mono text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2084,7 +2084,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-xl font-mono text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-xl font-mono text-xs flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2107,7 +2107,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   onClick={handleConstructSubmit}
                   disabled={constructParts.length === 0 || showExplanation}
                   aria-label="Verify assembled formula"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Constructed Formula
                 </motion.button>
@@ -2119,10 +2119,10 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-700/60 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-700/60 rounded-2xl space-y-4"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                     ICSE Step-by-Step Proof & Walkthrough:
                   </span>
                 </div>
@@ -2135,7 +2135,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs text-slate-200 leading-relaxed font-sans"
                     >
-                      <span className="font-bold text-indigo-400 font-mono">Step {idx + 1}:</span> {sentence}{!sentence.endsWith('.') && '.'}
+                      <span className="font-bold text-gold-400 font-mono">Step {idx + 1}:</span> {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
                 </div>
@@ -2147,7 +2147,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Reveal next explanation step"
-                      className="px-4 py-1.5 bg-indigo-800 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-800 text-white rounded-xl text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2177,13 +2177,13 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Personalized Motivational Feedback Card */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 text-center space-y-4">
             <span className="text-4xl" role="img" aria-label="Rocket Icon">🚀</span>
-            <div className="inline-block px-3 py-1 bg-indigo-900/80 text-indigo-300 font-mono text-xs font-bold rounded-full border border-indigo-700">
+            <div className="inline-block px-3 py-1 bg-gold-900/80 text-gold-300 font-mono text-xs font-bold rounded-full border border-gold-700">
               {motivationalMessage.tag}
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white">{motivationalMessage.title}</h2>
-            <p className="text-sm text-indigo-200 max-w-lg mx-auto leading-relaxed">
+            <p className="text-sm text-gold-200 max-w-lg mx-auto leading-relaxed">
               {motivationalMessage.desc}
             </p>
 
@@ -2199,14 +2199,14 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
               </div>
               <div className="h-8 w-px bg-slate-800" />
               <div className="text-center">
-                <span className="block text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="block text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
                 <span className="text-[10px] text-slate-400 uppercase font-mono">BKT Logic Mastery</span>
               </div>
             </div>
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-800/50 space-y-5">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-800/50 space-y-5">
             <div className="flex items-center gap-2">
               <span className="text-lg">💡</span>
               <h3 className="text-base font-bold text-white uppercase tracking-wider">Post-Mission Reflection & Synthesis</h3>
@@ -2218,7 +2218,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
             <div className="space-y-4">
               {/* Question 1 */}
               <div className="space-y-1.5">
-                <label className="block text-xs font-semibold text-indigo-300">
+                <label className="block text-xs font-semibold text-gold-300">
                   1. What was the most surprising thing you learned about logical connectives or vacuous truth?
                 </label>
                 <textarea
@@ -2227,13 +2227,13 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   onChange={(e) => setReflectionSurprise(e.target.value)}
                   placeholder="e.g. When hypothesis p is False, an implication p → q is always True because no conditional promise was broken..."
                   aria-label="Reflection: What was the most surprising thing you learned?"
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500 font-sans"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
               {/* Question 2 */}
               <div className="space-y-1.5">
-                <label className="block text-xs font-semibold text-indigo-300">
+                <label className="block text-xs font-semibold text-gold-300">
                   2. How would you explain the difference between Conjunction (∧) and Disjunction (∨) to a friend?
                 </label>
                 <textarea
@@ -2242,13 +2242,13 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   onChange={(e) => setReflectionExplain(e.target.value)}
                   placeholder="e.g. Conjunction is like switches in series where BOTH must be ON, while Disjunction is like parallel switches where EITHER ONE turns on the bulb..."
                   aria-label="Reflection: How would you explain this to a friend?"
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500 font-sans"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
               {/* Question 3 */}
               <div className="space-y-1.5">
-                <label className="block text-xs font-semibold text-indigo-300">
+                <label className="block text-xs font-semibold text-gold-300">
                   3. Where in real life (e.g. coding, electronics, legal contracts, search engines) might you use this?
                 </label>
                 <textarea
@@ -2257,7 +2257,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                   onChange={(e) => setReflectionRealLife(e.target.value)}
                   placeholder="e.g. In software IF-conditions, database boolean queries (AND/OR), designing aircraft safety interlocks, and legal terms..."
                   aria-label="Reflection: Where in real life might you use this?"
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500 font-sans"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
@@ -2271,7 +2271,7 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
                     speechManager.speak('Reflections recorded! Excellent metacognition.');
                   }}
                   aria-label="Save and record reflection thoughts"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   {reflectionSubmitted ? '✓ Reflections Saved' : 'Save Reflection Thoughts'}
                 </motion.button>
@@ -2309,12 +2309,12 @@ export default function C10_AppliedMathsLogicReasoningPropositionsSim({
 
           {/* Real World Capstone */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-400">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-300 flex items-start gap-2">
-                  <span className="text-indigo-400 font-mono font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-mono font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

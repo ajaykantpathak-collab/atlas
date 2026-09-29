@@ -722,7 +722,7 @@ export function PlantsGame({ width = 720, height = 560, onComplete }: PlantsGame
   };
 
   return (
-    <div className="relative overflow-hidden rounded-2xl shadow-2xl select-none font-sans bg-sky-100 flex flex-col items-center justify-between" style={{ width, height }}>
+    <div className="relative overflow-hidden rounded-2xl shadow-2xl select-none font-sans bg-gold-100 flex flex-col items-center justify-between" style={{ width, height }}>
       {/* Botanical Garden Scene Background */}
       <GardenScene width={width} height={height} />
 

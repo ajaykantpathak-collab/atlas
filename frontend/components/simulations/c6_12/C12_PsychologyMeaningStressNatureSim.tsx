@@ -784,7 +784,7 @@ export function C12_PsychologyMeaningStressNatureSim({
   const appraisalResult = useMemo(() => {
     if (appraisalDemand === 'low') return { state: 'Benign / Calm', text: 'Stressor is seen as negligible. Baseline homeostasis maintained.', color: 'text-emerald-400', bg: 'bg-emerald-950/60' };
     if (appraisalResources === 'high' || (appraisalDemand === 'medium' && appraisalResources === 'medium')) {
-      return { state: 'Eustress (Challenge)', text: 'Demands matched by robust coping skills! Motivates peak performance and growth.', color: 'text-cyan-400', bg: 'bg-cyan-950/60' };
+      return { state: 'Eustress (Challenge)', text: 'Demands matched by robust coping skills! Motivates peak performance and growth.', color: 'text-gold-400', bg: 'bg-gold-950/60' };
     }
     return { state: 'Distress (Threat / Harm)', text: 'Perceived demands exceed perceived coping resources! High anxiety & strain.', color: 'text-rose-400', bg: 'bg-rose-950/60' };
   }, [appraisalDemand, appraisalResources]);
@@ -1094,7 +1094,7 @@ export function C12_PsychologyMeaningStressNatureSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-purple-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-purple-800/60">
+          <div className="p-5 bg-gradient-to-r from-purple-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-purple-800/60">
             <h2 className="text-lg font-bold text-purple-300 flex items-center gap-2">
               <span>🎯</span> {SCENARIO.title}
             </h2>
@@ -1172,8 +1172,8 @@ export function C12_PsychologyMeaningStressNatureSim({
                 <div className="space-y-4">
                   {/* Predict then Check Box */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60">
-                      <p className="text-sm font-bold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60">
+                      <p className="text-sm font-bold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1319,7 +1319,7 @@ export function C12_PsychologyMeaningStressNatureSim({
                             }}
                             className={`p-2 rounded-lg text-xs font-bold capitalize transition-all ${
                               appraisalResources === r
-                                ? 'bg-cyan-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-750'
                             }`}
                           >
@@ -1410,7 +1410,7 @@ export function C12_PsychologyMeaningStressNatureSim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs">
-                      {arousalLevel < 25 && <p className="text-blue-300">💤 <strong>Under-arousal:</strong> Lethargy, low motivation, lack of focus.</p>}
+                      {arousalLevel < 25 && <p className="text-gold-300">💤 <strong>Under-arousal:</strong> Lethargy, low motivation, lack of focus.</p>}
                       {arousalLevel >= 25 && arousalLevel <= 65 && <p className="text-emerald-300">🔥 <strong>Optimal Zone:</strong> Peak concentration, sharp memory recall, flow state.</p>}
                       {arousalLevel > 65 && <p className="text-rose-300">⚠️ <strong>Over-arousal & Burnout:</strong> Panic, memory block, emotional exhaustion under Maslach model.</p>}
                     </div>
@@ -1714,7 +1714,7 @@ export function C12_PsychologyMeaningStressNatureSim({
                   value={arousalLevel}
                   aria-label="Sandbox Arousal Level"
                   onChange={(e) => setArousalLevel(Number(e.target.value))}
-                  className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                 />
               </div>
 
@@ -1726,9 +1726,9 @@ export function C12_PsychologyMeaningStressNatureSim({
 
             {/* Neurotransmitter & Defense Simulator */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 block">Dopamine & Ego Defense Simulator</span>
+              <span className="text-xs font-bold text-gold-400 block">Dopamine & Ego Defense Simulator</span>
               <div className="flex items-center justify-between text-xs">
-                <span>Mesolimbic Dopamine: <strong className="text-cyan-400">{dopamineLevel}%</strong></span>
+                <span>Mesolimbic Dopamine: <strong className="text-gold-400">{dopamineLevel}%</strong></span>
                 <span className="text-[11px] text-slate-400">{dopamineLevel > 70 ? 'Psychotic Hallucinations' : dopamineLevel < 30 ? 'Parkinsonian / Anhedonia' : 'Normal Homeostasis'}</span>
               </div>
               <input
@@ -1738,7 +1738,7 @@ export function C12_PsychologyMeaningStressNatureSim({
                 value={dopamineLevel}
                 aria-label="Sandbox Dopamine Level"
                 onChange={(e) => setDopamineLevel(Number(e.target.value))}
-                className="w-full accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
               />
 
               <div className="grid grid-cols-2 gap-2 text-xs">
@@ -1776,7 +1776,7 @@ export function C12_PsychologyMeaningStressNatureSim({
                 className={`px-2.5 py-0.5 rounded-md text-[10px] font-black tracking-wider uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-700' :
                   difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-700' :
-                  'bg-blue-950 text-blue-400 border border-blue-700'
+                  'bg-gold-950 text-gold-400 border border-gold-700'
                 }`}
               >
                 {difficulty}
@@ -1794,7 +1794,7 @@ export function C12_PsychologyMeaningStressNatureSim({
           {/* Progress Bar */}
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-400"
+              className="h-full bg-gradient-to-r from-purple-500 via-gold-500 to-gold-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2074,7 +2074,7 @@ export function C12_PsychologyMeaningStressNatureSim({
       {/* ─── 5. COMPLETION & MASTERY SUMMARY PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-r from-purple-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-purple-700 text-center space-y-2">
+          <div className="p-6 bg-gradient-to-r from-purple-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-purple-700 text-center space-y-2">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-black text-white">ISC Psychology Mastery Achieved!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">

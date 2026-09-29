@@ -11,7 +11,7 @@ export const w_c12_homesciencefabriccaredecisionsim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Factors Influencing Career Choice: Aptitude, Interest and Personality',
     chapters: [],
     nodeIds: ['c12_hs_cbse_01_005', 'c12_hs_cbse_01_007', 'c12_hs_cbse_01_008', 'c12_hs_cbse_01_009', 'c12_hs_cbse_04_012', 'c12_hs_cbse_14_002', 'c12_hs_cbse_14_004', 'c12_hs_cbse_14_010', 'c12_hs_cbse_04_001', 'c12_hs_cbse_14_001', 'c12_hs_cbse_14_005', 'c12_hs_cbse_14_007', 'c12_hs_cbse_14_008', 'c12_hs_cbse_14_009', 'c12_hs_cbse_01_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Priya, who loves painting (interest), scores high on spatial reasoning tests.', goal: 'Master Factors Influencing Career Choice: Aptitude, Interest and Personality.' },
     discovery: {
         question: 'Compare the livelihood model of Shri Mahila Griha Udyog Lijjat Papad with a typical corporate food-processing company on three dimensions: (a) ownership.',
@@ -20,7 +20,7 @@ export const w_c12_homesciencefabriccaredecisionsim: SimDef = {
         hook: 'Students believe Home Science career avenues are limited to "teaching, dietetics, and tailoring" because these are the.',
     },
     teaching: [
-        { title: 'Aptitude refers to an individual\'s innate or.', text: 'Aptitude refers to an individual\'s innate or acquired potential to acquire specific skills and perform certain tasks effectively; interest denotes a sustained curiosity, enjoyment, and motivation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Aptitude refers to an individual\'s innate or.', text: 'Aptitude refers to an individual\'s innate or acquired potential to acquire specific skills and perform certain tasks effectively; interest denotes a sustained curiosity, enjoyment, and motivation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hs_cbse_01_005', title: 'Aptitude refers to an individual\'s.',

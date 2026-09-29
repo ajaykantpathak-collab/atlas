@@ -1222,7 +1222,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
 
             <motion.div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
               <h3 className="text-base font-bold text-white flex items-center gap-2">
-                <span className="p-1.5 bg-indigo-500/20 text-indigo-400 rounded-lg text-sm">Q</span>
+                <span className="p-1.5 bg-gold-500/20 text-gold-400 rounded-lg text-sm">Q</span>
                 {DISCOVERY_QUESTION.question}
               </h3>
 
@@ -1545,7 +1545,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setMonsoonStatus('normal')}
                             className={`flex-1 py-2 text-xs font-bold rounded-xl border ${
-                              monsoonStatus === 'normal' ? 'bg-blue-600 text-white border-blue-400' : 'bg-slate-800 text-slate-400 border-slate-700'
+                              monsoonStatus === 'normal' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'
                             }`}
                           >
                             🌧️ Normal Monsoon
@@ -1628,7 +1628,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-400">Enclosed Adivasi Land Extinguished</span>
-                        <p className="text-xl font-black text-indigo-400">{Math.round(trackMiles * 1.8)} sq. leagues</p>
+                        <p className="text-xl font-black text-gold-400">{Math.round(trackMiles * 1.8)} sq. leagues</p>
                       </motion.div>
                     </div>
 
@@ -1727,7 +1727,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2 text-xs text-slate-300">
                           <div className="flex justify-between items-center text-amber-300 font-bold">
                             <span>SNDP Yogam & Advaita Vedanta (Travancore / Kerala, 1903)</span>
-                            <span className="px-2 py-0.5 bg-indigo-950 rounded border border-indigo-800">Strategy: Subversion from Within</span>
+                            <span className="px-2 py-0.5 bg-gold-950 rounded border border-gold-800">Strategy: Subversion from Within</span>
                           </div>
                           <p>• <strong>Sacred Consecration:</strong> Consecrated a Shiva Linga at Aruvippuram (1888) — breaking Brahmin monopoly on temple rites.</p>
                           <p>• <strong>Famous Reply:</strong> <em>"I installed a Shiva, not an Ezhava."</em> Demonstrated that universal divine self has no caste.</p>
@@ -1808,9 +1808,9 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
               </motion.div>
 
               {/* ─── BRILLIANT OBSERVATION QUESTION INTERACTION (What Do You Notice?) ─── */}
-              <motion.div className="p-5 bg-slate-950 rounded-2xl border border-sky-500/30 space-y-3">
+              <motion.div className="p-5 bg-slate-950 rounded-2xl border border-gold-500/30 space-y-3">
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2 text-sky-400 font-bold text-xs uppercase tracking-wide">
+                  <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wide">
                     <span>🔍</span> Brilliant Observation Pattern ({activeObservationIdx + 1}/{OBSERVATION_QUESTIONS.length})
                   </div>
                   <div className="flex gap-2">
@@ -1819,7 +1819,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                         key={obsIdx}
                         onClick={() => setActiveObservationIdx(obsIdx)}
                         className={`px-2.5 py-0.5 rounded-lg text-xs font-bold ${
-                          activeObservationIdx === obsIdx ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                          activeObservationIdx === obsIdx ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Observation #{obsIdx + 1}
@@ -1851,7 +1851,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                               : isSelected
                               ? 'bg-rose-950/80 border-rose-600 text-rose-200'
                               : 'bg-slate-900 border-slate-800 text-slate-500'
-                            : 'bg-slate-900/80 border-slate-700 text-slate-300 hover:border-sky-500/60'
+                            : 'bg-slate-900/80 border-slate-700 text-slate-300 hover:border-gold-500/60'
                         }`}
                       >
                         <span className="font-mono text-[11px] opacity-60 mr-2">[{String.fromCharCode(65 + optIdx)}]</span>
@@ -1865,7 +1865,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                   <motion.div
                     initial={{ opacity: 0, y: 4 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="p-3 bg-sky-950/40 rounded-xl border border-sky-800/40 text-xs text-sky-200"
+                    className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-200"
                   >
                     <strong>Historiographical Insight:</strong> {OBSERVATION_QUESTIONS[activeObservationIdx].explanation}
                   </motion.div>
@@ -2077,7 +2077,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                 </motion.span>
                 <motion.span
                   whileHover={{ scale: 1.05 }}
-                  className="text-[10px] uppercase font-mono px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded border border-indigo-800"
+                  className="text-[10px] uppercase font-mono px-2 py-0.5 bg-gold-950 text-gold-300 rounded border border-gold-800"
                 >
                   NEP Competency: {challenge.competencyLevel}
                 </motion.span>
@@ -2197,7 +2197,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels, 'drag-label-verify')}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Verify Label Assignments
                   </motion.button>
@@ -2421,7 +2421,7 @@ export function C11_HistoryDevelopmentRailwaysCommunicationsSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800">
                   <span className="text-xs text-slate-400">BKT Mastery Tier</span>
-                  <p className="text-xl font-black text-indigo-300 uppercase">{masteryLevel}</p>
+                  <p className="text-xl font-black text-gold-300 uppercase">{masteryLevel}</p>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800">
                   <span className="text-xs text-slate-400">Adaptive Difficulty</span>

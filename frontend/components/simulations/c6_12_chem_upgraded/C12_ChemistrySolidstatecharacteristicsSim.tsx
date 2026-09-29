@@ -1176,12 +1176,12 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
       {/* HEADER BAR */}
       <header className="flex flex-col md:flex-row items-start md:items-center justify-between bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 shadow-xl gap-4">
         <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-cyan-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-gold-500/30">
             3D
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-800">
+              <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-400 border border-gold-800">
                 ISC Class 12 Chemistry
               </span>
               <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-slate-300">
@@ -1200,7 +1200,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 whitespace-nowrap ${
               activeTab === 'discovery'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
@@ -1210,7 +1210,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 whitespace-nowrap ${
               activeTab === 'lab'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
@@ -1220,7 +1220,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 whitespace-nowrap ${
               activeTab === 'challenges'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
@@ -1230,7 +1230,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 whitespace-nowrap ${
               activeTab === 'summary'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
@@ -1245,7 +1245,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
           {/* Narrative Scenario */}
           <div className="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg flex flex-col justify-between">
             <div>
-              <div className="inline-block px-3 py-1 rounded-full bg-blue-950 text-blue-400 border border-blue-800 text-xs font-semibold uppercase tracking-wider mb-3">
+              <div className="inline-block px-3 py-1 rounded-full bg-gold-950 text-gold-400 border border-gold-800 text-xs font-semibold uppercase tracking-wider mb-3">
                 Research Scenario
               </div>
               <h2 className="text-2xl font-bold text-white mb-3">{SCENARIO.title}</h2>
@@ -1283,7 +1283,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
           {/* Counterintuitive Discovery Question */}
           <div className="lg:col-span-5 bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-6 shadow-lg flex flex-col justify-between">
             <div>
-              <div className="inline-block px-3 py-1 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 text-xs font-semibold uppercase tracking-wider mb-3">
+              <div className="inline-block px-3 py-1 rounded-full bg-gold-950 text-gold-400 border border-gold-800 text-xs font-semibold uppercase tracking-wider mb-3">
                 Preconception Diagnostic
               </div>
               <h3 className="text-base font-semibold text-slate-100 mb-4">
@@ -1315,8 +1315,8 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             </div>
 
             {discoverySubmitted && (
-              <div className="mt-4 p-4 rounded-xl bg-slate-900 border border-cyan-900/60 text-xs text-cyan-300">
-                <span className="font-bold text-cyan-400 block mb-1">Crystallographic Insight:</span>
+              <div className="mt-4 p-4 rounded-xl bg-slate-900 border border-gold-900/60 text-xs text-gold-300">
+                <span className="font-bold text-gold-400 block mb-1">Crystallographic Insight:</span>
                 {DISCOVERY_QUESTION.hintAfter}
               </div>
             )}
@@ -1331,7 +1331,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col justify-between">
                   <div>
-                    <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider block mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Prediction #{pIdx + 1} ({pq.nodeId})
                     </span>
                     <p className="text-sm text-slate-200 font-medium mb-4">{pq.question}</p>
@@ -1389,12 +1389,12 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 }}
                 className={`w-full text-left p-3.5 rounded-xl text-xs md:text-sm font-semibold transition-all border ${
                   currentExplorationStep === idx
-                    ? 'bg-gradient-to-r from-cyan-950 to-blue-950 border-cyan-500 text-white shadow-md'
+                    ? 'bg-gradient-to-r from-gold-950 to-gold-950 border-gold-500 text-white shadow-md'
                     : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white hover:bg-slate-850'
                 }`}
               >
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-cyan-400 font-mono text-xs">Step 0{idx + 1}</span>
+                  <span className="text-gold-400 font-mono text-xs">Step 0{idx + 1}</span>
                   <span className="text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-400">
                     {step.nodeId}
                   </span>
@@ -1404,7 +1404,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             ))}
 
             <div className="mt-4 p-4 rounded-xl bg-slate-950 border border-slate-800">
-              <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider mb-2">
+              <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                 Active Step Protocol
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">
@@ -1424,7 +1424,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     <button
                       onClick={() => setSolidType('crystalline')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                        solidType === 'crystalline' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                        solidType === 'crystalline' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Quartz Crystal (Crystalline)
@@ -1432,7 +1432,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     <button
                       onClick={() => setSolidType('amorphous')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                        solidType === 'amorphous' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                        solidType === 'amorphous' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Quartz Glass (Amorphous)
@@ -1447,7 +1447,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                       onClick={() => { setSelectedAxis(axis); audioManager.play('pop'); }}
                       className={`p-4 rounded-xl border text-center transition-all ${
                         selectedAxis === axis
-                          ? 'bg-blue-950/80 border-blue-500 text-white shadow-lg'
+                          ? 'bg-gold-950/80 border-gold-500 text-white shadow-lg'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
@@ -1460,7 +1460,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-slate-400">Refractive Index ($n$):</span>
-                    <span className="font-mono font-bold text-cyan-400">
+                    <span className="font-mono font-bold text-gold-400">
                       {solidType === 'crystalline'
                         ? selectedAxis === 'x' ? '1.544 (n_o)' : selectedAxis === 'y' ? '1.544 (n_o)' : '1.553 (n_e)'
                         : '1.458 (Isotropic in all directions)'}
@@ -1468,7 +1468,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                   </div>
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-slate-400">Thermal Expansion Coefficient ($\alpha$):</span>
-                    <span className="font-mono font-bold text-cyan-400">
+                    <span className="font-mono font-bold text-gold-400">
                       {solidType === 'crystalline'
                         ? selectedAxis === 'z' ? '7.1 × 10⁻⁶ /K' : '13.2 × 10⁻⁶ /K'
                         : '0.55 × 10⁻⁶ /K (Uniform)'}
@@ -1490,7 +1490,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 <div className="flex justify-between items-center border-b border-slate-800 pb-4">
                   <div>
                     <h3 className="text-lg font-bold text-white">7 Crystal Systems Parameter Modeler</h3>
-                    <p className="text-xs text-cyan-400 font-semibold">{identifiedSystem}</p>
+                    <p className="text-xs text-gold-400 font-semibold">{identifiedSystem}</p>
                   </div>
                 </div>
 
@@ -1500,34 +1500,34 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Edge Length a:</span>
-                        <span className="font-mono text-cyan-400">{edgeA} pm</span>
+                        <span className="font-mono text-gold-400">{edgeA} pm</span>
                       </div>
                       <input
                         type="range" min="150" max="300" value={edgeA}
                         onChange={e => setEdgeA(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Edge Length b:</span>
-                        <span className="font-mono text-cyan-400">{edgeB} pm</span>
+                        <span className="font-mono text-gold-400">{edgeB} pm</span>
                       </div>
                       <input
                         type="range" min="150" max="300" value={edgeB}
                         onChange={e => setEdgeB(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Edge Length c:</span>
-                        <span className="font-mono text-cyan-400">{edgeC} pm</span>
+                        <span className="font-mono text-gold-400">{edgeC} pm</span>
                       </div>
                       <input
                         type="range" min="150" max="300" value={edgeC}
                         onChange={e => setEdgeC(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1536,34 +1536,34 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Angle α (between b & c):</span>
-                        <span className="font-mono text-cyan-400">{angleAlpha}°</span>
+                        <span className="font-mono text-gold-400">{angleAlpha}°</span>
                       </div>
                       <input
                         type="range" min="60" max="120" value={angleAlpha}
                         onChange={e => setAngleAlpha(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Angle β (between a & c):</span>
-                        <span className="font-mono text-cyan-400">{angleBeta}°</span>
+                        <span className="font-mono text-gold-400">{angleBeta}°</span>
                       </div>
                       <input
                         type="range" min="60" max="120" value={angleBeta}
                         onChange={e => setAngleBeta(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Angle γ (between a & b):</span>
-                        <span className="font-mono text-cyan-400">{angleGamma}°</span>
+                        <span className="font-mono text-gold-400">{angleGamma}°</span>
                       </div>
                       <input
                         type="range" min="60" max="120" value={angleGamma}
                         onChange={e => setAngleGamma(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1605,7 +1605,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                   <h3 className="text-lg font-bold text-white">Unit Cell Slicing & Densitometry Lab</h3>
                   <button
                     onClick={() => setShowCutAway(!showCutAway)}
-                    className="px-3 py-1.5 rounded-lg bg-cyan-950 text-cyan-400 border border-cyan-800 text-xs font-semibold"
+                    className="px-3 py-1.5 rounded-lg bg-gold-950 text-gold-400 border border-gold-800 text-xs font-semibold"
                   >
                     {showCutAway ? 'Hide Cut-away Slices' : 'Show Cut-away Slices'}
                   </button>
@@ -1624,7 +1624,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                             onClick={() => { setCellType(t); audioManager.play('pop'); }}
                             className={`py-2 rounded-lg text-xs font-bold transition-all border ${
                               cellType === t
-                                ? 'bg-cyan-600 border-cyan-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-950 border-slate-800 text-slate-400'
                             }`}
                           >
@@ -1637,24 +1637,24 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Molar Mass (M):</span>
-                        <span className="font-mono text-cyan-400">{atomicMass} g/mol</span>
+                        <span className="font-mono text-gold-400">{atomicMass} g/mol</span>
                       </div>
                       <input
                         type="range" min="10" max="200" step="0.5" value={atomicMass}
                         onChange={e => setAtomicMass(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Edge Length (a):</span>
-                        <span className="font-mono text-cyan-400">{edgeLengthPm} pm</span>
+                        <span className="font-mono text-gold-400">{edgeLengthPm} pm</span>
                       </div>
                       <input
                         type="range" min="200" max="600" step="1" value={edgeLengthPm}
                         onChange={e => setEdgeLengthPm(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1664,7 +1664,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 <div className="grid grid-cols-3 gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div>
                     <span className="text-[10px] uppercase text-slate-400 font-bold block">Total Atoms (Z)</span>
-                    <span className="text-xl font-bold font-mono text-cyan-400">
+                    <span className="text-xl font-bold font-mono text-gold-400">
                       {cellType === 'SC' ? 1 : cellType === 'BCC' ? 2 : 4}
                     </span>
                   </div>
@@ -1689,7 +1689,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     <button
                       onClick={() => setVoidView('Tetrahedral')}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                        voidView === 'Tetrahedral' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        voidView === 'Tetrahedral' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Tetrahedral (T-Void)
@@ -1710,16 +1710,16 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div className="flex justify-between text-xs mb-2">
                     <span className="text-slate-400">Close-Packed Spheres Count (N):</span>
-                    <span className="font-mono text-cyan-400 font-bold">{numSpheresN}</span>
+                    <span className="font-mono text-gold-400 font-bold">{numSpheresN}</span>
                   </div>
                   <input
                     type="range" min="1" max="12" value={numSpheresN}
                     onChange={e => setNumSpheresN(Number(e.target.value))}
-                    className="w-full accent-indigo-500 mb-4"
+                    className="w-full accent-gold-500 mb-4"
                   />
                   <div className="grid grid-cols-2 gap-4 text-xs font-mono">
-                    <div className="bg-slate-900 p-3 rounded-lg border border-indigo-950">
-                      <span className="text-indigo-400 block font-bold mb-1">Tetrahedral Voids = 2N</span>
+                    <div className="bg-slate-900 p-3 rounded-lg border border-gold-950">
+                      <span className="text-gold-400 block font-bold mb-1">Tetrahedral Voids = 2N</span>
                       <span className="text-xl font-bold text-white">{2 * numSpheresN}</span>
                     </div>
                     <div className="bg-slate-900 p-3 rounded-lg border border-emerald-950">
@@ -1778,7 +1778,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
               {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
                 <div key={oIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col justify-between">
                   <div>
-                    <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider block mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Observation Probe #{oIdx + 1} ({oq.nodeId})
                     </span>
                     <p className="text-sm text-slate-200 font-medium mb-4">{oq.question}</p>
@@ -1848,7 +1848,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
             <div className="flex items-center gap-3">
               <div className="text-right font-mono">
                 <div className="text-xs text-slate-400">Current Score</div>
-                <div className="text-xl font-bold text-cyan-400">{score} / {CHALLENGES.length}</div>
+                <div className="text-xl font-bold text-gold-400">{score} / {CHALLENGES.length}</div>
               </div>
             </div>
           </div>
@@ -1872,12 +1872,12 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                   onChange={e => setUserNumericInput(e.target.value)}
                   disabled={challengeSubmitted}
                   placeholder="e.g. 68.02"
-                  className="bg-slate-900 border border-slate-700 text-white font-mono text-lg px-4 py-3 rounded-xl focus:outline-none focus:border-cyan-500 flex-1"
+                  className="bg-slate-900 border border-slate-700 text-white font-mono text-lg px-4 py-3 rounded-xl focus:outline-none focus:border-gold-500 flex-1"
                 />
                 <button
                   onClick={handleChallengeSubmit}
                   disabled={challengeSubmitted || !userNumericInput}
-                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm shadow-md disabled:opacity-50"
+                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm shadow-md disabled:opacity-50"
                 >
                   Submit Answer
                 </button>
@@ -1892,7 +1892,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                   disabled={challengeSubmitted}
                   className={`w-full text-left p-4 rounded-xl text-sm font-medium transition-all border flex items-center justify-between ${
                     userAnswerIndex === idx
-                      ? 'bg-blue-950 border-blue-500 text-white shadow-md'
+                      ? 'bg-gold-950 border-gold-500 text-white shadow-md'
                       : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700 hover:bg-slate-850'
                   }`}
                 >
@@ -1909,7 +1909,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 <button
                   onClick={handleChallengeSubmit}
                   disabled={userAnswerIndex === null}
-                  className="w-full mt-4 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm shadow-md disabled:opacity-50"
+                  className="w-full mt-4 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm shadow-md disabled:opacity-50"
                 >
                   Confirm & Submit Choice
                 </button>
@@ -1934,7 +1934,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
 
               <button
                 onClick={handleNextChallenge}
-                className="w-full mt-2 py-3 rounded-xl bg-cyan-600 text-white font-bold text-sm hover:bg-cyan-500 shadow-md"
+                className="w-full mt-2 py-3 rounded-xl bg-gold-600 text-white font-bold text-sm hover:bg-gold-500 shadow-md"
               >
                 {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete All Challenges 🏆'}
               </button>
@@ -1962,7 +1962,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Analytical Quality Assurance Steps:</h3>
                 {REAL_WORLD_ACTIVITY.steps.map((st, idx) => (
                   <div key={idx} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
+                    <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 border border-gold-800 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
                       {idx + 1}
                     </span>
                     <span>{st}</span>
@@ -1985,7 +1985,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                 return (
                   <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex flex-col gap-1.5">
                     <div className="flex justify-between items-center text-xs">
-                      <span className="font-mono text-cyan-400 font-bold">{nodeId}</span>
+                      <span className="font-mono text-gold-400 font-bold">{nodeId}</span>
                       <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
                         level === 'mastered' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
                         level === 'developing' ? 'bg-amber-950 text-amber-400 border border-amber-800' :
@@ -1998,7 +1998,7 @@ export default function C12_ChemistrySolidstatecharacteristicsSim({
                     {/* Progress Bar */}
                     <div className="w-full bg-slate-900 h-2 rounded-full overflow-hidden">
                       <div
-                        className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-500"
+                        className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-500"
                         style={{ width: `${Math.round(pKnown * 100)}%` }}
                       />
                     </div>

@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C7_ENG_GEN: SimDef[] = [
  {
   "id": "gen_c7_eng_ch01",
-  "title": "Story Setting Encompasses The Physical",
+  "title": "From 'English Chapter C7_engl_ch01'",
   "subtitle": "English · Chapter 1",
   "classLevel": 7,
   "mode": "senior",
   "subject": "english",
-  "topic": "Story Setting Encompasses The Physical",
+  "topic": "From 'English Chapter C7_engl_ch01'",
   "chapters": [
-   "English Ch1: Story Setting Encompasses The Physical"
+   "English Ch1: From 'English Chapter C7_engl_ch01'"
   ],
   "nodeIds": [
    "c7_engl_ch01_001",
@@ -42,7 +42,7 @@ export const C7_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Story Setting Encompasses The outside the classroom?",
+   "question": "Quick guess -- where do you meet From 'English Chapter outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -59,8 +59,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of Jahnavi Examines Her",
-    "text": "Character analysis of Jahnavi examines her traits, actions, speech, desires, and inner thoughts to understand her deep yearning for education despite challenging circumstances in her coastal village.",
+    "title": "From 'English Chapter C7_engl_ch01'",
+    "text": "From 'English chapter c7_engl_ch01': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
@@ -71,7 +71,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Personification",
+    "title": "Personification Is a Literary Device Where",
     "text": "Personification is a literary device where non-human things—such as a river, the wind, or trees—are given human traits, emotions, or the ability to speak and listen, making them act like living characters in a story.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -107,8 +107,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking About The Message",
-    "text": "Critical thinking about the message of a story involves looking beyond the basic plot to evaluate the author's underlying social commentary, values, and larger arguments regarding human rights and societal change.",
+    "title": "From 'English Chapter C7_engl_ch01'",
+    "text": "From 'English chapter c7_engl_ch01': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
@@ -131,7 +131,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Metaphor",
+    "title": "A Metaphor Is a Poetic Device",
     "text": "A metaphor is a poetic device that makes a direct comparison between two unlike things by stating one thing *is* another without using \"like\" or \"as,\" while repetition is the purposeful reuse of words, phrases, or lines to emphasize a central feeling or idea",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -202,10 +202,10 @@ export const C7_ENG_GEN: SimDef[] = [
     "answer": "Jahnavi's primary dream is to go to school and receive a formal education",
     "options": [
      "A *thicket* is a dense group of bushes, shrubs, or small trees growing close together",
-     "Jahnavi's family cites financial constraints and the immediate need for her labor at home and with household chores",
+     "The student must be able to describe how the coastal village and river environment influence the daily lives, challenges",
      "Jahnavi's primary dream is to go to school and receive a formal education"
     ],
-    "hint": "Straight from the 'Character analysis of Jahnavi' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A wrong answer here, such as thinking she wants to become a fisherwoman or travel the world, reveals a lack of basic recall of the plot and the character's central motivation. Students choosing these often confuse general rural settings with the character's specific burning ambition.",
     "id": "gen_c7_eng_ch01_q2",
     "nodeId": "c7_engl_ch01_002",
@@ -222,8 +222,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is a gender barrier to education?",
     "answer": "A gender barrier is an obstacle or rule based on gender that prevents someone—most often girls—from attending school or continuing their studies",
     "options": [
-     "Jahnavi's primary dream is to go to school and receive a formal education",
-     "The story setting refers to the time, place, and social environment in which a narrative occurs; in this chapter, it is defined by a coastal village and a nearby river",
+     "Students must be able to support claims about Jahnavi's character traits (such as determination, curiosity",
+     "The correct answer is B. Option A describes a simile, option C describes hyperbole, and option D describes onomatopoeia",
      "A gender barrier is an obstacle or rule based on gender that prevents someone—most often girls—from attending school or continuing their studies"
     ],
     "hint": "Straight from the 'Gender barriers to education' slide -- match the key terms.",
@@ -484,8 +484,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "Which of the following lines from a nature description appeals primarily to the sense of sound? A) The bright green leaves shimmered under the afternoon sun. B) The muddy banks of the river felt slick and cold beneath bare feet.",
     "answer": "The correct answer is C. The words \"gurgled\" and \"hissed\" directly appeal to the sense of hearing (auditory imagery/onomatopoeia)",
     "options": [
-     "The correct answer with steps: Step 1: Identify that rivers are physical features of setting. Step 2: Note that giving a river speech and listening skills transforms it into a",
-     "The correct term is \"rhyme scheme.\" A wrong answer often confuses this with \"stanza structure\" (which refers to how lines are grouped) or \"meter\" (the rhythm of the words)",
+     "Students must be able to write a 4-part analytical paragraph about a poem by stating a clear point, quoting specific lines as evidence, explaining how poetic devices function",
+     "The student must be able to identify specific instances of visual, auditory, and tactile imagery as well as sound words in a nature description",
      "The correct answer is C. The words \"gurgled\" and \"hissed\" directly appeal to the sense of hearing (auditory imagery/onomatopoeia)"
     ],
     "hint": "Straight from the 'Literary devices like imagery' slide -- match the key terms.",
@@ -506,7 +506,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "answer": "Jahnavi's family cites financial constraints and the immediate need for her labor at home and with household chores",
     "options": [
      "The correct answer is the societal and family restrictions that deny her the right to attend school",
-     "Jahnavi is denied schooling primarily due to entrenched gender barriers and traditional village norms that prioritize domestic responsibilities for girls over formal education",
+     "The student must be able to describe how the coastal village and river environment influence the daily lives, challenges",
      "Jahnavi's family cites financial constraints and the immediate need for her labor at home and with household chores"
     ],
     "hint": "Straight from the 'Analyzing the specific' slide -- match the key terms.",
@@ -641,8 +641,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What term describes the pattern of rhymes at the end of each line in a poem, usually represented by letters like A, B, C?",
     "answer": "The correct term is \"rhyme scheme.\" A wrong answer often confuses this with \"stanza structure\" (which refers to how lines are grouped) or \"meter\" (the rhythm of the words)",
     "options": [
-     "Jahnavi's primary dream is to go to school and receive a formal education",
-     "A gender barrier is an obstacle or rule based on gender that prevents someone—most often girls—from attending school or continuing their studies",
+     "The student must be able to identify metaphors and instances of repetition in a poem, explain the literal and figurative meanings of the metaphor",
+     "Students must be able to read a narrative poem about determination, identify the central struggle, explain the poet's primary message",
      "The correct term is \"rhyme scheme.\" A wrong answer often confuses this with \"stanza structure\" (which refers to how lines are grouped) or \"meter\" (the rhythm of the words)"
     ],
     "hint": "Straight from the 'rhyme scheme' slide -- match the key terms.",
@@ -956,24 +956,24 @@ export const C7_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about story setting encompasses the physical?",
+    "What surprised you about from 'english chapter c7_engl_ch01'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Story Setting Encompasses The mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_eng_ch02",
-  "title": "Character Analysis Of Dr. John Dolittle",
+  "title": "From 'English Chapter C7_engl_ch02'",
   "subtitle": "English · Chapter 2",
   "classLevel": 7,
   "mode": "senior",
   "subject": "english",
-  "topic": "Character Analysis Of Dr. John Dolittle",
+  "topic": "From 'English Chapter C7_engl_ch02'",
   "chapters": [
-   "English Ch2: Character Analysis Of Dr. John Dolittle"
+   "English Ch2: From 'English Chapter C7_engl_ch02'"
   ],
   "nodeIds": [
    "c7_engl_ch02_001",
@@ -999,19 +999,19 @@ export const C7_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Character Analysis Of Dr. suddenly stops working?",
+   "question": "What happens if From 'English Chapter suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Character analysis of Dr."
+   "hook": "From 'English chapter c7_engl_ch02': the skill or concept this node teaches, applied to the actual text."
   },
   "teaching": [
    {
-    "title": "Character Analysis Of Dr. John Dolittle",
-    "text": "Character analysis of Dr. John Dolittle examines his personality traits, actions, motivations, and deep compassion for animals, which define him as a gentle and unorthodox physician.",
+    "title": "From 'English Chapter C7_engl_ch02'",
+    "text": "From 'English chapter c7_engl_ch02': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -1046,8 +1046,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the practice of deducing or understanding the precise meaning of words—such as \"scholar,\" \"vet,\" \"cracker,\" and \"sense\"—by analyzing how they are used within the surrounding sentences, paragraphs, or story setting of a literary",
+    "title": "From 'English Chapter C7_engl_ch02'",
+    "text": "From 'English chapter c7_engl_ch02': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -1064,8 +1064,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Critical Thinking About Animals Involves",
-    "text": "Critical thinking about animals involves developing deep empathy to understand their perspectives, emotions, and needs as sentient beings rather than mere objects.",
+    "title": "From 'English Chapter C7_engl_ch02'",
+    "text": "From 'English chapter c7_engl_ch02': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
@@ -1088,7 +1088,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Simile",
+    "title": "A Simile Is a Figure",
     "text": "A simile is a figure of speech comparing two different things using \"like\" or \"as\", alliteration is the repetition of consonant sounds at the beginning of nearby words, and personification gives human traits to non-human things or animals.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1106,11 +1106,11 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is Dr. Dolittle's primary profession before he becomes famous as an animal doctor?",
     "answer": "Dr. Dolittle was originally a respected medical doctor who treated human patients",
     "options": [
+     "Dolittle learns animal language involves analyzing the specific methods, clues, and empathetic observations the doctor uses to decode the speech of various creatures",
      "To understand the ducks, Dr. Dolittle applies his observation skills by listening to the repetition of specific sounds",
-     "Dr. Dolittle learns to listen carefully and studies their specific languages (such as bird-talk) with the help of Polynesia the parrot",
      "Dr. Dolittle was originally a respected medical doctor who treated human patients"
     ],
-    "hint": "Straight from the 'Character analysis of Dr.' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A wrong answer—such as thinking he was always an animal vet—reveals that the student is confusing his later life choice with his initial background and missing his dramatic career shift.",
     "id": "gen_c7_eng_ch02_q1",
     "nodeId": "c7_engl_ch02_001",
@@ -1483,8 +1483,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is dialogue in a story?",
     "answer": "Dialogue is the conversation between two or more characters in a literary work, marked by spoken words",
     "options": [
-     "Polynesia acts as Dr. Dolittle's mentor, guide, and language translator, pushing him to abandon his human practice and become an animal doctor",
-     "Dr. Dolittle was originally a respected doctor who treated human patients in the quiet town of Puddleby-on-the-Marsh",
+     "Students will be able to read a passage of dialogue, identify specific speech patterns or word choices",
+     "Dr. Dolittle was originally a respected medical doctor who treated human patients",
      "Dialogue is the conversation between two or more characters in a literary work, marked by spoken words"
     ],
     "hint": "Straight from the 'way an author uses spoken' slide -- match the key terms.",
@@ -1797,11 +1797,11 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "Which poetic device is used in the phrase \"the clever cat crept quietly\"?",
     "answer": "The correct answer is alliteration. Alliteration is the repetition of the same consonant sound (\"c\" in clever, cat, crept, quietly) at the beginning of nearby words",
     "options": [
-     "Dr. Dolittle was originally a respected medical doctor who treated human patients",
-     "Polynesia acts as Dr. Dolittle's mentor, guide, and language translator, pushing him to abandon his human practice and become an animal doctor",
+     "Dr. Dolittle was originally a respected doctor who treated human patients in the quiet town of Puddleby-on-the-Marsh",
+     "The student must be able to trace and explain the turning points in Dr",
      "The correct answer is alliteration. Alliteration is the repetition of the same consonant sound (\"c\" in clever, cat, crept, quietly) at the beginning of nearby words"
     ],
-    "hint": "Straight from the 'simile' slide -- match the key terms.",
+    "hint": "Straight from the 'A simile is a figure' slide -- match the key terms.",
     "misconception": "A wrong answer like \"simile\" shows the student is confusing consonant sound repetition with a direct comparison using \"like\" or \"as.\"",
     "id": "gen_c7_eng_ch02_q14",
     "nodeId": "c7_engl_ch02_014",
@@ -1822,7 +1822,7 @@ export const C7_ENG_GEN: SimDef[] = [
      "The villagers view animal sounds as meaningless noise or nuisance, while Dr. Dolittle views them as intelligent, structured languages worthy of study",
      "A prose paragraph consists of complete sentences grouped by ideas, whereas a poetic stanza consists of lines grouped by rhythm, rhyme, or visual arrangement"
     ],
-    "hint": "Straight from the 'Comparing prose and poetry on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Comparing prose and poetry' slide -- match the key terms.",
     "misconception": "A wrong answer often assumes they are identical in structure or confuses paragraphs with lines, showing a misunderstanding of basic literary formatting.",
     "id": "gen_c7_eng_ch02_q15",
     "nodeId": "c7_engl_ch02_015",
@@ -1843,7 +1843,7 @@ export const C7_ENG_GEN: SimDef[] = [
      "Dr. Dolittle's transition is justified because animals are portrayed as sincere and direct in their communication, whereas humans often lie or fail to listen",
      "Polynesia teaches him that animals have their own complex language, shifting his perspective from treating animals as silent objects to listening to them as conscious beings"
     ],
-    "hint": "Straight from the 'Character analysis of Dr.' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student thinks Dr. Dolittle discovered animal language entirely on his own without the vital guidance of his animal companions.",
     "id": "gen_c7_eng_ch02_q16",
     "nodeId": "c7_engl_ch02_001",
@@ -1858,7 +1858,7 @@ export const C7_ENG_GEN: SimDef[] = [
      "A strong answer should demonstrate an understanding of Dr. Dolittle's established method: (1) Observe the squirrel's physical gestures and tail flicks",
      "Expected criteria: The entry must express exhaustion with superficial human society, deep affection for his animal friends"
     ],
-    "hint": "Straight from the 'Character analysis of Dr.' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A poor answer focuses only on mundane tasks without reflecting his emotional depth and love for animals.",
     "id": "gen_c7_eng_ch02_q17",
     "nodeId": "c7_engl_ch02_001",
@@ -1873,7 +1873,7 @@ export const C7_ENG_GEN: SimDef[] = [
      "The correct answer is that it reverses normal human expectations by having animals display very human, sometimes bossy or polite traits, while humans react with confusion",
      "Yes, it can be justified because Dr. Dolittle found genuine fulfillment, purpose, and happiness by following his true passion—helping those who had no voice—rather than chasing"
     ],
-    "hint": "Straight from the 'Character analysis of Dr.' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A wrong answer shows a rigid view that success must be measured only by money and societal status rather than personal integrity and compassion.",
     "id": "gen_c7_eng_ch02_q18",
     "nodeId": "c7_engl_ch02_001",
@@ -1882,24 +1882,24 @@ export const C7_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about character analysis of dr. john dolittle?",
+    "What surprised you about from 'english chapter c7_engl_ch02'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Character Analysis Of Dr. mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_eng_ch03",
-  "title": "Character Analysis Of Anand The Young",
+  "title": "From 'My Brother'",
   "subtitle": "English · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "english",
-  "topic": "Character Analysis Of Anand The Young",
+  "topic": "From 'My Brother'",
   "chapters": [
-   "English Ch3: Character Analysis Of Anand The Young"
+   "English Ch3: From 'My Brother'"
   ],
   "nodeIds": [
    "c7_engl_ch03_001",
@@ -1925,25 +1925,25 @@ export const C7_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Character Analysis Of Anand The suddenly stops working?",
+   "question": "What happens if From 'My Brother' suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Character analysis of Anand the Young Inventor involves examining his traits, actions, motivations, and interactions in the story \"My Brother's Great"
+   "hook": "From 'My Brother': the skill or concept this node teaches, applied to the actual text."
   },
   "teaching": [
    {
-    "title": "Character Analysis Of Anand The Young",
-    "text": "Character analysis of Anand the Young Inventor involves examining his traits, actions, motivations, and interactions in the story \"My Brother's Great Invention\" to understand his personality as an enthusiastic, scatter-brained, and deeply curious young boy.",
+    "title": "From 'My Brother'",
+    "text": "From 'My Brother': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of Anita, The Narrator",
-    "text": "Character analysis of Anita, the narrator and sister in \"My Brother's Great Invention,\" involves examining her actions, dialogue, reactions, and relationships to understand her role as a grounded, observant, and caring foil to her eccentric inventor brother,",
+    "title": "From 'My Brother'",
+    "text": "From 'My Brother': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
@@ -1990,8 +1990,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Critical Thinking: The Spirit",
-    "text": "Critical thinking in the context of invention is the disciplined mental process of actively conceptualizing, analyzing, and evaluating failures, setbacks, and feedback to refine creative ideas rather than abandoning them.",
+    "title": "From 'My Brother'",
+    "text": "From 'My Brother': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -2008,7 +2008,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Alliteration",
+    "title": "Alliteration Is a Poetic Sound Device",
     "text": "Alliteration is a poetic sound device where the writer repeats the same initial consonant sound in neighbouring or closely connected words, creating a musical, rhythmic effect that enhances the mood of a poem like Rabindranath Tagore's \"Paper Boats.\"",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2032,11 +2032,11 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is Anand's primary hobby and passion in the story \"My Brother's Great Invention\"?",
     "answer": "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
     "options": [
-     "Anand previously tried to build a self-watering plant system that ended up flooding the living room floor",
-     "The correct pronouns are \"I,\" \"me,\" \"my,\" \"we,\" and \"us.\" A student who selects third-person pronouns like \"he,\" \"she,\" or \"they\" confuses the narrator's perspective with an",
+     "Anand reacts with eager curiosity and immediate troubleshooting rather than fear or embarrassment, showing his genuine passion for science and invention",
+     "The primary driving force is his deep-seated curiosity and passion for how things work",
      "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions"
     ],
-    "hint": "Straight from the 'Character analysis of Anand the' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'My Brother'' slide -- match the key terms.",
     "misconception": "A wrong answer—such as believing he studies art or collects stamps—reveals that the student has not recalled basic plot details from the text, confusing Anand's identity with a typical student or misreading his workshop activities.",
     "id": "gen_c7_eng_ch03_q1",
     "nodeId": "c7_engl_ch03_001",
@@ -2053,11 +2053,11 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What point of view is used in \"My Brother's Great Invention\" to tell the story through Anita's eyes?",
     "answer": "The story is told using first-person narration (\"I\")",
     "options": [
-     "The correct pronouns are \"I,\" \"me,\" \"my,\" \"we,\" and \"us.\" A student who selects third-person pronouns like \"he,\" \"she,\" or \"they\" confuses the narrator's perspective with an",
-     "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
+     "Students must be able to trace how a character's curiosity and willingness to fail fuel the scientific spirit",
+     "First-person narration is a point of view where the story is told by a character inside the narrative using pronouns like \"I,\" \"me,\" and \"we,\" while humour is created through",
      "The story is told using first-person narration (\"I\")"
     ],
-    "hint": "Straight from the 'Character analysis of Anita, the' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'My Brother'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"third-person omniscient\" reveals that the student confuses who is telling the story with how much the narrator knows, missing the personal, subjective lens that Anita provides as Anand's sister.",
     "id": "gen_c7_eng_ch03_q2",
     "nodeId": "c7_engl_ch03_002",
@@ -2126,8 +2126,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is the primary driving force behind Anand's constant creation of gadgets and contraptions in the story?",
     "answer": "The primary driving force is his deep-seated curiosity and passion for how things work",
     "options": [
-     "The story is told using first-person narration (\"I\")",
-     "Anand previously tried to build a self-watering plant system that ended up flooding the living room floor",
+     "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
+     "Students must be able to trace Anita's role in the story by identifying her reactions to Anand's inventions",
      "The primary driving force is his deep-seated curiosity and passion for how things work"
     ],
     "hint": "Straight from the 'This topic explores the' slide -- match the key terms.",
@@ -2147,8 +2147,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is Papa's immediate physical reaction when he first steps on one of Anand's misplaced electronic wires or encounters a failed contraption in the hallway?",
     "answer": "Papa typically freezes, lets out a heavy sigh of exasperation, and looks up toward the ceiling as if asking for divine patience",
     "options": [
+     "The story is told using first-person narration (\"I\")",
      "The child floats paper boats down the running stream one by one",
-     "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
      "Papa typically freezes, lets out a heavy sigh of exasperation, and looks up toward the ceiling as if asking for divine patience"
     ],
     "hint": "Straight from the 'literary device of situational' slide -- match the key terms.",
@@ -2168,8 +2168,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What specific household room serves as the primary base of operations for Anand's tinkering activities and failed inventions in the story?",
     "answer": "Anand's primary base of operations is typically his bedroom or a makeshift corner of the family home cluttered with tools, wires, and spare parts",
     "options": [
-     "The story is told using first-person narration (\"I\")",
-     "The primary driving force is his deep-seated curiosity and passion for how things work",
+     "Students must be able to identify specific instances of humour in Papa's reactions, explain how exaggeration and dramatic irony create comedic effect",
+     "Students must be able to identify specific setting details and natural imagery in a poem, explain how these elements create mood or symbolize inner feelings",
      "Anand's primary base of operations is typically his bedroom or a makeshift corner of the family home cluttered with tools, wires, and spare parts"
     ],
     "hint": "Straight from the 'The literary concept of \"Setting\"' slide -- match the key terms.",
@@ -2189,8 +2189,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is the literal definition of a \"dynamo\" as used in the context of mechanical inventions and early electrical devices?",
     "answer": "A dynamo is a machine that generates electricity, typically by rotating a coil of wire within a magnetic field",
     "options": [
-     "Papa typically freezes, lets out a heavy sigh of exasperation, and looks up toward the ceiling as if asking for divine patience",
-     "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
+     "The student must be able to define *burglar alarm*, *dynamo*, *tinkering*, and *rigging* using context clues from a sentence or paragraph, and accurately use each word in a novel",
+     "Students must be able to trace Anita's role in the story by identifying her reactions to Anand's inventions",
      "A dynamo is a machine that generates electricity, typically by rotating a coil of wire within a magnetic field"
     ],
     "hint": "Straight from the 'Understanding and interpreting' slide -- match the key terms.",
@@ -2210,8 +2210,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "Which pronouns signal that a story is written in first-person narration?",
     "answer": "The correct pronouns are \"I,\" \"me,\" \"my,\" \"we,\" and \"us.\" A student who selects third-person pronouns like \"he,\" \"she,\" or \"they\" confuses the narrator's perspective with an",
     "options": [
-     "The correct answer is the plot",
-     "The primary driving force is his deep-seated curiosity and passion for how things work",
+     "Anand reacts with eager curiosity and immediate troubleshooting rather than fear or embarrassment, showing his genuine passion for science and invention",
+     "Students must be able to cite specific actions, dialogue, and consequences in the text to prove what Anand's inventions and habits reveal about his creative spirit, perseverance",
      "The correct pronouns are \"I,\" \"me,\" \"my,\" \"we,\" and \"us.\" A student who selects third-person pronouns like \"he,\" \"she,\" or \"they\" confuses the narrator's perspective with an"
     ],
     "hint": "Straight from the 'First-person narration' slide -- match the key terms.",
@@ -2231,8 +2231,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What was one of Anand's previous failed inventions mentioned by Anita before he tried building the burglar alarm?",
     "answer": "Anand previously tried to build a self-watering plant system that ended up flooding the living room floor",
     "options": [
-     "Anand reacts with eager curiosity and immediate troubleshooting rather than fear or embarrassment, showing his genuine passion for science and invention",
-     "Anand's primary base of operations is typically his bedroom or a makeshift corner of the family home cluttered with tools, wires, and spare parts",
+     "The student must be able to define *burglar alarm*, *dynamo*, *tinkering*, and *rigging* using context clues from a sentence or paragraph, and accurately use each word in a novel",
+     "The child floats paper boats down the running stream one by one",
      "Anand previously tried to build a self-watering plant system that ended up flooding the living room floor"
     ],
     "hint": "Straight from the 'Comprehension of Anand's previous' slide -- match the key terms.",
@@ -2441,11 +2441,11 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is alliteration in poetry?",
     "answer": "Alliteration is the repetition of the same initial consonant sound in neighbouring or closely connected words",
     "options": [
-     "Papa typically freezes, lets out a heavy sigh of exasperation, and looks up toward the ceiling as if asking for divine patience",
+     "The student must be able to identify instances of alliteration and sound devices in a poetic text, explain how the repeating sounds create rhythm or mimic natural phenomena",
      "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
      "Alliteration is the repetition of the same initial consonant sound in neighbouring or closely connected words"
     ],
-    "hint": "Straight from the 'Alliteration' slide -- match the key terms.",
+    "hint": "Straight from the 'Alliteration is a poetic sound' slide -- match the key terms.",
     "misconception": "A wrong answer often confuses alliteration with rhyme (repeating end sounds) or repetition of entire words, showing that the student is not paying attention to the beginning sounds of words.",
     "id": "gen_c7_eng_ch03_q13",
     "nodeId": "c7_engl_ch03_013",
@@ -2462,8 +2462,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is natural imagery in a poem? Provide a one-sentence definition.",
     "answer": "Natural imagery refers to descriptive language that appeals to our senses by using elements of the physical and natural world, such as plants, weather, water, and animals",
     "options": [
-     "The child floats paper boats down the running stream one by one",
-     "Anand's primary hobby is tinkering with mechanical and electrical scrap to build various gadgets and inventions",
+     "Students must be able to state the central narrative of the poem, explain how the child's actions progress from setting boats afloat to dreaming of their destination",
+     "The student must be able to define *burglar alarm*, *dynamo*, *tinkering*, and *rigging* using context clues from a sentence or paragraph, and accurately use each word in a novel",
      "Natural imagery refers to descriptive language that appeals to our senses by using elements of the physical and natural world, such as plants, weather, water, and animals"
     ],
     "hint": "Straight from the 'analysis of how a poet' slide -- match the key terms.",
@@ -2693,24 +2693,24 @@ export const C7_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about character analysis of anand the young?",
+    "What surprised you about from 'my brother'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Character Analysis Of Anand mastered! 🎯",
+  "successLine": "From 'My Brother' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_eng_ch04",
-  "title": "Setting Of a Story Encompasses",
+  "title": "From 'English Chapter C7_engl_ch04'",
   "subtitle": "English · Chapter 4",
   "classLevel": 7,
   "mode": "senior",
   "subject": "english",
-  "topic": "Setting Of a Story Encompasses",
+  "topic": "From 'English Chapter C7_engl_ch04'",
   "chapters": [
-   "English Ch4: Setting Of a Story Encompasses"
+   "English Ch4: From 'English Chapter C7_engl_ch04'"
   ],
   "nodeIds": [
    "c7_engl_ch04_001",
@@ -2736,7 +2736,7 @@ export const C7_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Setting Of a Story Encompasses actually explain?",
+   "question": "In one line -- what does From 'English Chapter actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -2747,19 +2747,19 @@ export const C7_ENG_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Setting Of a Story Encompasses",
+    "title": "Setting Of a Story",
     "text": "The setting of a story encompasses the physical landscape, time period, and social environment—specifically, the contrasting trio of the wild jungle, the man-made railway, and the dark tunnel—which together create mood, shape character actions, and drive the",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis: Suraj and His Love",
-    "text": "Character analysis of Suraj in \"The Tunnel\" examines his traits, motivations, actions, and deep fascination with massive railway engines, revealing a courageous young boy who finds wonder and excitement in the isolation of the Indian jungle.",
+    "title": "From 'English Chapter C7_engl_ch04'",
+    "text": "From 'English chapter c7_engl_ch04': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot",
+    "title": "Plot Is The Sequence Of Events",
     "text": "Plot is the sequence of events and actions that make up a story, structured around a central conflict, rising action, climax, and resolution as Suraj experiences his adventure at the dark and mysterious tunnel.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2783,8 +2783,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning of unfamiliar words by examining the surrounding sentences, clues, and overall situation (such as *shimmered*, *embankment*, *scrub-covered*, and *instinctively* from \"The Tunnel\").",
+    "title": "From 'English Chapter C7_engl_ch04'",
+    "text": "From 'English chapter c7_engl_ch04': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -2801,8 +2801,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In The Context",
-    "text": "Critical thinking in the context of adventure literature involves evaluating characters' motivations, weighing the risks versus rewards of exploring unknown territories, and questioning why protagonists choose bravery over fear.",
+    "title": "From 'English Chapter C7_engl_ch04'",
+    "text": "From 'English chapter c7_engl_ch04': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
@@ -2825,7 +2825,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Metaphor",
+    "title": "A Metaphor Is a Poetic Device",
     "text": "A metaphor is a poetic device that directly compares two unlike things by stating one thing is another to highlight a hidden similarity, while a symbol is an object, person, or situation in a poem that represents a larger, deeper idea beyond its literal",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3062,9 +3062,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What sensory detail is most commonly used by authors to show that the jungle is waiting in breathless anticipation?",
     "answer": "Complete silence or a sudden lack of animal sounds",
     "options": [
-     "The three primary physical elements are the dense jungle, the railway line, and the dark tunnel",
-     "Suraj is fascinated by trains and loves watching them pass through the lonely railway cutting near his home",
-     "Break silence or a sudden lack of animal sounds",
+     "Students must be able to identify specific sensory details in a suspenseful prose passage and explain how those details create an atmosphere of tension and anticipation",
+     "Students can identify specific sensory words (heat, stillness, silence) in a literary text and explain how authors use them to build mood and foreshadow dramatic action",
      "Complete silence or a sudden lack of animal sounds"
     ],
     "hint": "Straight from the 'atmospheric creation of intense' slide -- match the key terms.",
@@ -3147,11 +3146,11 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What does the word *shimmered* mean when used to describe hot air rising above railway tracks in an adventure story?",
     "answer": "*Shimmered* means to shine with a soft, flickering, or wavering light, often caused by heat haze rising from the ground",
     "options": [
-     "Suraj is fascinated by trains and loves watching them pass through the lonely railway cutting near his home",
      "A literary symbol is a physical object, place, or setting within a story that represents a larger, more abstract idea or feeling beyond its literal definition",
+     "The correct answer is exposition",
      "*Shimmered* means to shine with a soft, flickering, or wavering light, often caused by heat haze rising from the ground"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses it with complete darkness or a sharp, steady flash of light, showing that the student relied on random guessing rather than looking at heat-related context clues.",
     "id": "gen_c7_eng_ch04_q7",
     "nodeId": "c7_engl_ch04_007",
@@ -3168,8 +3167,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "Which of the following sentences from an adventure story uses auditory imagery to build tension? A) The old iron gate was painted a bright, shiny red. B) The heavy wooden door clicked shut with a sharp, echoing snap.",
     "answer": "The correct answer is B. Sentence B focuses specifically on sound (\"clicked shut\", \"sharp, echoing snap\"), which is auditory imagery",
     "options": [
-     "Suraj is fascinated by trains and loves watching them pass through the lonely railway cutting near his home",
-     "The correct answer is exposition",
+     "Students can identify specific sensory words (heat, stillness, silence) in a literary text and explain how authors use them to build mood and foreshadow dramatic action",
+     "The three primary physical elements are the dense jungle, the railway line, and the dark tunnel",
      "The correct answer is B. Sentence B focuses specifically on sound (\"clicked shut\", \"sharp, echoing snap\"), which is auditory imagery"
     ],
     "hint": "Straight from the 'Sensory imagery uses descriptive' slide -- match the key terms.",
@@ -3189,8 +3188,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What physical object does Suraj wait to see emerge from the dark interior of the tunnel during his visits?",
     "answer": "Suraj waits to see the daily mail train emerge from the tunnel",
     "options": [
-     "The exploration of the unknown refers to a character venturing into unfamiliar, mysterious environments where outcomes are uncertain, forcing them to rely on curiosity and courage",
-     "The three primary physical elements are the dense jungle, the railway line, and the dark tunnel",
+     "Students must be able to identify, describe, and analyze how the physical elements of a setting (jungle, railway, tunnel) interact with each other to build atmosphere",
+     "Suraj is fascinated by trains and loves watching them pass through the lonely railway cutting near his home",
      "Suraj waits to see the daily mail train emerge from the tunnel"
     ],
     "hint": "Straight from the 'Comprehension of what Suraj' slide -- match the key terms.",
@@ -3273,8 +3272,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What is a stanza in a poem?",
     "answer": "A stanza is a grouped set of lines in a poem, separated by an empty line, similar to a paragraph in a prose story",
     "options": [
-     "A literary symbol is a physical object, place, or setting within a story that represents a larger, more abstract idea or feeling beyond its literal definition",
-     "The three primary physical elements are the dense jungle, the railway line, and the dark tunnel",
+     "The student must be able to read a stanza, identify ending words, trace their sound patterns using alphabetical labels (rhyme scheme)",
+     "Students must be able to select relevant textual evidence from a poem, integrate it grammatically into a structured analytical sentence using quotation marks",
      "A stanza is a grouped set of lines in a poem, separated by an empty line, similar to a paragraph in a prose story"
     ],
     "hint": "Straight from the 'stanza-by-stanza summary' slide -- match the key terms.",
@@ -3294,7 +3293,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What term describes a pair of successive lines of poetry, usually of the same length, that rhyme with each other?",
     "answer": "The correct answer is a couplet",
     "options": [
-     "Complete silence or a sudden lack of animal sounds",
+     "The exploration of the unknown refers to a character venturing into unfamiliar, mysterious environments where outcomes are uncertain, forcing them to rely on curiosity and courage",
      "A stanza is a grouped set of lines in a poem, separated by an empty line, similar to a paragraph in a prose story",
      "The correct answer is a couplet"
     ],
@@ -3430,12 +3429,12 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What does the 'E' in the PEEL structure stand for when writing analytical responses about a poem?",
     "answer": "The 'E' stands for Evidence (and Explanation)",
     "options": [
-     "Suraj is fascinated by trains and loves watching them pass through the lonely railway cutting near his home",
-     "The correct answer is exposition",
-     "The 'E' stands for She (and Explanation)",
+     "Students must be able to read a poem, divide it stanza by stanza, paraphrase the main action or emotion of each stanza, and connect these parts to explain the overall central idea",
+     "The three primary physical elements are the dense jungle, the railway line, and the dark tunnel",
+     "The 'E' stands for Note (and Explanation)",
      "The 'E' stands for Evidence (and Explanation)"
     ],
-    "hint": "Straight from the 'skill of embedding quotes and' slide -- match the key terms.",
+    "hint": "Straight from the 'skill of embedding quotes' slide -- match the key terms.",
     "misconception": "A student who answers \"Ending\" or \"Example only\" misunderstands the structural focus on textual support.",
     "id": "gen_c7_eng_ch04_q15",
     "nodeId": "c7_engl_ch04_015",
@@ -3599,11 +3598,11 @@ export const C7_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about setting of a story encompasses?",
+    "What surprised you about from 'english chapter c7_engl_ch04'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Setting Of a Story Encompasses mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3707,8 +3706,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Critical Thinking About The Cost",
-    "text": "Critical thinking about the cost of freedom and peace involves analyzing the immense personal, social, and economic sacrifices made by soldiers and their families so that citizens can live safely.",
+    "title": "From 'English Chapter C7_engl_ch05'",
+    "text": "From 'English chapter c7_engl_ch05': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
@@ -3749,8 +3748,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What are the standard structural components required in a traditional personal letter?",
     "answer": "A traditional personal letter includes the sender's address, date, salutation (greeting), body paragraphs, complimentary close, and the writer's signature",
     "options": [
-     "The primary structural components include a dateline (indicating when and where it was written), a direct salutation, a first-person narrative voice, intimate self-disclosure",
-     "The primary purpose is to cultivate deep gratitude and remember the personal sacrifices made by soldiers for the nation's freedom",
+     "Students must be able to identify the historical purpose, key architectural layout (such as the four concentric circles or chakras)",
+     "Students must be able to identify the structural components of an epistolary text, analyze the emotional tone and purpose of a personal or official letter",
      "A traditional personal letter includes the sender's address, date, salutation (greeting), body paragraphs, complimentary close, and the writer's signature"
     ],
     "hint": "Straight from the 'Letters as a form of communication' slide -- match the key terms.",
@@ -3770,8 +3769,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What major challenge did independent India face immediately after 1947 regarding its borders?",
     "answer": "Independent India faced immediate territorial disputes and tribal invasions backed by Pakistan in Jammu and Kashmir, leading to the 1948 conflict",
     "options": [
-     "\"Homage\" means special public honour or respect shown or expressed toward someone deserving of high praise",
-     "A traditional personal letter includes the sender's address, date, salutation (greeting), body paragraphs, complimentary close, and the writer's signature",
+     "The primary purpose is to cultivate deep gratitude and remember the personal sacrifices made by soldiers for the nation's freedom",
+     "Students must be able to identify, explain, and analyze expressions of gratitude and patriotic themes in prose and poetry, linking textual evidence (such as letters, memorials",
      "Independent India faced immediate territorial disputes and tribal invasions backed by Pakistan in Jammu and Kashmir, leading to the 1948 conflict"
     ],
     "hint": "Straight from the 'This topic explores the' slide -- match the key terms.",
@@ -4134,8 +4133,8 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What was the primary geopolitical trigger for the 1965 war between India and Pakistan as typically highlighted in Indian historical prose?",
     "answer": "The correct answer is the infiltration of armed personnel across the ceasefire line in Jammu and Kashmir, leading to full-scale military engagement",
     "options": [
-     "The primary structural components include a dateline (indicating when and where it was written), a direct salutation, a first-person narrative voice, intimate self-disclosure",
-     "Independent India faced immediate territorial disputes and tribal invasions backed by Pakistan in Jammu and Kashmir, leading to the 1948 conflict",
+     "Students must be able to identify the historical purpose, key architectural layout (such as the four concentric circles or chakras)",
+     "The primary purpose is to cultivate deep gratitude and remember the personal sacrifices made by soldiers for the nation's freedom",
      "The correct answer is the infiltration of armed personnel across the ceasefire line in Jammu and Kashmir, leading to full-scale military engagement"
     ],
     "hint": "Straight from the 'Analyzing and comprehending texts' slide -- match the key terms.",
@@ -4156,10 +4155,10 @@ export const C7_ENG_GEN: SimDef[] = [
     "answer": "The correct answer is that freedom requires immense personal sacrifice, vigilance, and the risk of life by armed forces to ensure civilian safety",
     "options": [
      "The poem was written by the renowned poet Makhanlal Chaturvedi, and the primary speaker is a humble flower",
-     "The primary structural components include a dateline (indicating when and where it was written), a direct salutation, a first-person narrative voice, intimate self-disclosure",
+     "Vocabulary in context refers to determining the precise meaning of advanced thematic words—such as *homage*, *territorial integrity*, *envisioned*",
      "The correct answer is that freedom requires immense personal sacrifice, vigilance, and the risk of life by armed forces to ensure civilian safety"
     ],
-    "hint": "Straight from the 'Critical thinking about the cost' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter' slide -- match the key terms.",
     "misconception": "A wrong answer often assumes that freedom is a natural gift that requires no maintenance or protection, revealing a lack of connection between national peace and individual security.",
     "id": "gen_c7_eng_ch05_q10",
     "nodeId": "c7_engl_ch05_010",
@@ -4395,9 +4394,9 @@ export const C7_ENG_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in structured writing?",
     "answer": "PEEL stands for Point, Evidence, Explanation, and Link",
     "options": [
-     "The primary purpose is to honour and remember soldiers of the Indian Armed Forces who laid down their lives for the country in armed conflicts since Independence",
-     "The primary purpose is to cultivate deep gratitude and remember the personal sacrifices made by soldiers for the nation's freedom",
-     "PEEL stands for Point, Correct, Explanation, and Link",
+     "Students must be able to identify, explain, and analyze expressions of gratitude and patriotic themes in prose and poetry, linking textual evidence (such as letters, memorials",
+     "Students must be able to construct a well-organized comparative answer using a structured framework (like PEEL - Point, Evidence, Explanation",
+     "PEEL stands for Point, Locate, Explanation, and Link",
      "PEEL stands for Point, Evidence, Explanation, and Link"
     ],
     "hint": "Straight from the 'Writing a comparative literature' slide -- match the key terms.",
@@ -4568,7 +4567,7 @@ export const C7_ENG_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Letters As a Form Of mastered! 🎯",
+  "successLine": "Letters As a Form mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

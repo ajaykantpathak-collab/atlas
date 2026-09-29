@@ -53,7 +53,7 @@ const TEACHING_SLIDES = [
     title: 'Welcome to Earth! 🌍',
     text: 'Earth is our wonderful home! When we look at a globe, the blue parts are water (oceans) and the coloured parts are land (continents). About 71% of Earth is covered in water!',
     emoji: '���',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Earth is our wonderful home! When we look at a globe, the blue parts are water and the coloured parts are land. About seventy-one percent of Earth is covered in water!',
   },
   {
@@ -67,7 +67,7 @@ const TEACHING_SLIDES = [
     title: 'The 5 Oceans! 🌊',
     text: 'An ocean is a vast body of salty water. The 5 oceans are the Pacific Ocean (largest), Atlantic Ocean (S-shaped), Indian Ocean, Southern Ocean, and the cold Arctic Ocean!',
     emoji: '🌊',
-    bgColor: 'from-cyan-500 to-blue-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'An ocean is a vast body of salty water. The five oceans are the Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and the cold Arctic Ocean!',
   },
   {
@@ -81,7 +81,7 @@ const TEACHING_SLIDES = [
     title: 'Seas Around India! 🗺️',
     text: 'India has natural water boundaries on three sides: the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south!',
     emoji: '🗺️',
-    bgColor: 'from-sky-500 to-blue-700',
+    bgColor: 'from-gold-500 to-gold-700',
     spoken: 'India has natural water boundaries on three sides: the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south!',
   },
 ];
@@ -202,9 +202,9 @@ function CaptainKartik({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thin
             initial={{ scale: 0, opacity: 0, y: 10 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
-            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[220px] border-2 border-blue-400"
+            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[220px] border-2 border-gold-400"
           >
-            <p className="text-xs font-bold text-blue-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -429,7 +429,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={120} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-blue-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 120, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 120, height: 95 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -661,7 +661,7 @@ export function ContinentsGame({ width = 720, height = 560, onComplete }: Contin
       <CaptainKartik mood={mascotMood} speaking={mascotMsg} />
 
       {/* Top Header Bar */}
-      <div className="absolute top-0 left-0 right-0 h-14 bg-slate-900/80 backdrop-blur-md border-b border-blue-500/30 flex items-center justify-between px-6 z-10">
+      <div className="absolute top-0 left-0 right-0 h-14 bg-slate-900/80 backdrop-blur-md border-b border-gold-500/30 flex items-center justify-between px-6 z-10">
         <div className="flex items-center gap-3">
           <span className="text-2xl">🌍</span>
           <h1 className="text-white font-black text-lg tracking-wide drop-shadow">Continents & Oceans Voyage</h1>
@@ -669,7 +669,7 @@ export function ContinentsGame({ width = 720, height = 560, onComplete }: Contin
         <div className="flex items-center gap-4">
           <StarRow count={stars} total={CHALLENGES.length} />
           {screen === 'play' && (
-            <span className="bg-blue-600/60 text-blue-200 text-xs font-bold px-3 py-1 rounded-full border border-blue-400/40">
+            <span className="bg-gold-600/60 text-gold-200 text-xs font-bold px-3 py-1 rounded-full border border-gold-400/40">
               Quest {challengeIdx + 1} / {CHALLENGES.length}
             </span>
           )}
@@ -703,7 +703,7 @@ export function ContinentsGame({ width = 720, height = 560, onComplete }: Contin
               }}
               disabled={slideIdx === 0}
               className={`px-5 py-2.5 rounded-2xl font-bold text-white shadow-lg transition-all ${
-                slideIdx === 0 ? 'bg-slate-700/50 opacity-40 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-500 active:scale-95'
+                slideIdx === 0 ? 'bg-slate-700/50 opacity-40 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500 active:scale-95'
               }`}
             >
               ⬅️ Previous
@@ -741,7 +741,7 @@ export function ContinentsGame({ width = 720, height = 560, onComplete }: Contin
             key={challengeIdx}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="w-full max-w-2xl bg-slate-900/80 backdrop-blur-md rounded-2xl p-4 border-2 border-blue-500/40 shadow-xl text-center"
+            className="w-full max-w-2xl bg-slate-900/80 backdrop-blur-md rounded-2xl p-4 border-2 border-gold-500/40 shadow-xl text-center"
           >
             <h2 className="text-white font-extrabold text-lg md:text-xl drop-shadow">{currentChallenge.question}</h2>
           </motion.div>
@@ -757,7 +757,7 @@ export function ContinentsGame({ width = 720, height = 560, onComplete }: Contin
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={e => handleAnswerClick(opt, e)}
-                    className="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-base md:text-lg shadow-xl border border-blue-400/40 flex items-center justify-center transition-all"
+                    className="w-full py-4 px-6 rounded-2xl bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-base md:text-lg shadow-xl border border-gold-400/40 flex items-center justify-center transition-all"
                   >
                     {opt}
                   </motion.button>

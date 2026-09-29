@@ -11,7 +11,7 @@ export const w_c12_economicsequimarginalutilitystatementsim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Law of Diminishing Marginal Utility: Statement and Assumptions',
     chapters: [],
     nodeIds: ['c12_eco_cbse_02_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are at a Delhi wedding buffet — the first plate of butter chicken gives immense satisfaction, the.', goal: 'Master Law of Diminishing Marginal Utility: Statement and Assumptions.' },
     discovery: {
         question: 'A consumer\'s total utility (in utils) from consuming mangoes is given: TU(1)=20, TU(2)=36, TU(3)=48, TU(4)=56, TU(5)=60, TU(6)=60, TU(7)=57.',
@@ -20,7 +20,7 @@ export const w_c12_economicsequimarginalutilitystatementsim: SimDef = {
         hook: 'Students believe the Law of DMU means "total utility decreases after a point" — they confuse marginal utility (MU) with.',
     },
     teaching: [
-        { title: 'The Law of Diminishing Marginal Utility.', text: 'The Law of Diminishing Marginal Utility states that as a consumer consumes successive units of a homogeneous good within a given time period, the marginal utility derived from each additional unit.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Law of Diminishing Marginal Utility.', text: 'The Law of Diminishing Marginal Utility states that as a consumer consumes successive units of a homogeneous good within a given time period, the marginal utility derived from each additional unit.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_02_002', title: 'The Law of Diminishing Marginal Utility.',

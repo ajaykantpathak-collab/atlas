@@ -1421,7 +1421,7 @@ function C11_MassMediaUnderstandingCommunicationDefinitionSim({
                   <div>
                     <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                       <span>Logos (Logical Evidence): {logosVal}%</span>
-                      <span className={logosVal > 70 ? 'text-blue-400' : 'text-amber-400'}>{logosVal > 70 ? '✓ Rigorous Data' : '✗ Weak Logic'}</span>
+                      <span className={logosVal > 70 ? 'text-gold-400' : 'text-amber-400'}>{logosVal > 70 ? '✓ Rigorous Data' : '✗ Weak Logic'}</span>
                     </div>
                     <input
                       type="range"
@@ -1430,7 +1430,7 @@ function C11_MassMediaUnderstandingCommunicationDefinitionSim({
                       max={100}
                       value={logosVal}
                       onChange={e => setLogosVal(Number(e.target.value))}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1827,14 +1827,14 @@ function C11_MassMediaUnderstandingCommunicationDefinitionSim({
                   max={100}
                   value={sandboxChannelFreq}
                   onChange={e => setSandboxChannelFreq(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
 
             {/* Control Pod 2: Schramm Overlap */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-sky-300">2. Sociolinguistic Field</h3>
+              <h3 className="text-sm font-bold text-gold-300">2. Sociolinguistic Field</h3>
               <div>
                 <label htmlFor="overlap-slider" className="text-xs text-slate-400 block mb-1">Cultural Overlap: {overlapLevel}%</label>
                 <input
@@ -1845,7 +1845,7 @@ function C11_MassMediaUnderstandingCommunicationDefinitionSim({
                   max={100}
                   value={overlapLevel}
                   onChange={e => handleOverlapChange(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="flex items-center justify-between pt-2">
@@ -1902,7 +1902,7 @@ function C11_MassMediaUnderstandingCommunicationDefinitionSim({
                       ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-400 border border-rose-800'
-                      : 'bg-sky-950 text-sky-400 border border-sky-800'
+                      : 'bg-gold-950 text-gold-400 border border-gold-800'
                   }`}
                 >
                   {difficulty} TIER

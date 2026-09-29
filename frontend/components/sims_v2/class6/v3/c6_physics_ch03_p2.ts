@@ -6,7 +6,7 @@ export const c6_physics_ch03_p2: SimDef = {
     id: 'v3_c6_physics_ch03_p2',
     title: 'Electricity: Circuits and Components',
     subtitle: 'Your first real circuits — make a bulb glow, break it, and learn why.',
-    classLevel: 6, subject: 'physics', topic: 'Electricity: Circuits and Components · Part 2/2',
+    classLevel: 6, subject: 'physics', topic: 'Electricity: Circuits and Components',
     chapters: ['c6_physics_ch03'],
     nodeIds: ['c6_physics_ch03_017', 'c6_physics_ch03_018'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

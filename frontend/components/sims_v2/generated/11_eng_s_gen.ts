@@ -9,13 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C11_ENG_S_GEN: SimDef[] = [
  {
   "id": "gen_c11_eng_s_ch01",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Summer Of The Beautiful White",
   "subtitle": "English · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch1: Before You Read: Context and Background"],
+  "topic": "'The Summer Of The Beautiful White",
+  "chapters": [
+   "English Ch1: 'The Summer Of The Beautiful White"
+  ],
   "nodeIds": [
    "c11_eng_s_cbse_01_001",
    "c11_eng_s_cbse_01_002",
@@ -40,103 +42,103 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'The Summer Of The Beautiful White suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential historical, cultural, and biographical information about"
+   "hook": "'The Summer of the Beautiful White Horse' (Snapshots, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential historical, cultural, and biographical information about the author, setting, and key concepts to activate prior knowledge and build a framework for comprehending the",
+    "title": "'The Summer Of The Beautiful White",
+    "text": "'The Summer of the Beautiful White Horse' (Snapshots, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and Narrative Structure refers to the organized sequence of events in a story (exposition, rising action, climax, falling action, resolution) and the framework through which the narrative is presented, including the point of view, temporal arrangement,",
+    "title": "Plot/narrative Arc Of 'The Summer",
+    "text": "The plot/narrative arc of 'The Summer of the Beautiful White Horse' — what happens, in what order, and why the sequence matters.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social context in which a story occurs, including the physical environment, historical period, and cultural milieu.",
+    "title": "Setting Of 'The Summer",
+    "text": "The setting of 'The Summer of the Beautiful White Horse' — the place, time and atmosphere the text creates.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist examines the narrator Aram's personality traits, moral development, internal conflicts, and narrative function as the lens through which the story's themes of honesty, innocence, and cultural identity are explored in",
+    "title": "Character Analysis In 'The Summer",
+    "text": "Character analysis in 'The Summer of the Beautiful White Horse' — the central figure(s), their traits, and how they develop.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the personality traits, motivations, relationships, and narrative functions of characters who are not the protagonist, using textual evidence such as dialogue, actions, and authorial description",
+    "title": "Supporting Characters In 'The Summer",
+    "text": "Supporting characters in 'The Summer of the Beautiful White Horse' — the secondary figures who move the story forward.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or message about life, human nature, or society that the author conveys through the interplay of plot, character, and setting.",
+    "title": "Primary Theme Of 'The Summer",
+    "text": "The primary theme of 'The Summer of the Beautiful White Horse' — the central idea the whole text returns to.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that support and enrich the primary theme, often revealing deeper layers of human experience, cultural values, or character psychology.",
+    "title": "Secondary Themes In 'The Summer",
+    "text": "Secondary themes in 'The Summer of the Beautiful White Horse' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid and descriptive language that appeals to the senses (sight, sound, smell, touch, taste) to create mental pictures. Metaphor is a figure of speech that directly compares two unrelated things by stating one is the other, without",
+    "title": "Imagery In 'The Summer",
+    "text": "Imagery in 'The Summer of the Beautiful White Horse' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality, often revealing a deeper truth; in this story, it manifests as situational irony (the honest Garoghlanian tribe producing a horse thief) and dramatic irony (John Byro",
+    "title": "Irony And Paradox In 'The Summer",
+    "text": "Irony and paradox in 'The Summer of the Beautiful White Horse' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context is the skill of determining the meaning of unfamiliar words by analyzing surrounding textual clues such as definitions, synonyms, antonyms, examples, punctuation, and the overall tone or narrative situation, rather than relying solely on",
+    "title": "Key Vocabulary Of 'The Summer",
+    "text": "Key vocabulary of 'The Summer of the Beautiful White Horse' — the words and phrases you must know to read the text well.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of an author's grammatical choices — including tense consistency, narrative voice, sentence structure, speech representation (direct/indirect), and modifier placement — to understand how",
+    "title": "Language And Style In 'The Summer",
+    "text": "Language and style in 'The Summer of the Beautiful White Horse' — how the writer chose words, sentences and tone.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (who, what, where, when), while inferential comprehension questions require students to draw logical conclusions by combining textual evidence with",
+    "title": "Literal Comprehension Of 'The Summer",
+    "text": "Literal comprehension of 'The Summer of the Beautiful White Horse' — questions answered straight from the text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves systematically examining a text's components—character motivations, narrative choices, symbolic patterns, and thematic tensions—to construct an evidence-based interpretation that goes beyond surface-level",
+    "title": "Critical Thinking On 'The Summer",
+    "text": "Critical thinking on 'The Summer of the Beautiful White Horse' — analysing the text to reach evidence-based judgements.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On a Literary",
-    "text": "Writing skills based on a literary chapter involve the ability to produce structured, evidence-based responses in analytical, creative, and transactional formats that demonstrate comprehension, interpretation, and personal engagement with the text.",
+    "title": "Writing Skills From 'The Summer",
+    "text": "Writing skills from 'The Summer of the Beautiful White Horse' — using the text as a model or springboard for your own writing.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured practice of generating, articulating, and responding to interpretive questions about a literary text in a group setting.",
+    "title": "Discussion Points On 'The Summer",
+    "text": "Discussion points on 'The Summer of the Beautiful White Horse' — speaking and listening around the text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -147,21 +149,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Who is the author of \"The Summer of the Beautiful White Horse\" and what is his ethnic background?",
     "answer": "The author is William Saroyan, an Armenian-American writer",
     "options": [
-     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
-     "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\"",
-     "The author is Material Poverty, an Armenian-American writer",
+     "Plot and Narrative Structure refers to the organized sequence of events in a story (exposition, rising action, climax, falling action",
+     "The student can independently map the five stages of the narrative arc onto the story, explain how the first-person retrospective narration shapes the reader's experience",
+     "The author is Walnut Avenue, an Armenian-American writer",
      "The author is William Saroyan, an Armenian-American writer"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Summer of the Beautiful White' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming a different author or missing the Armenian connection) reveals the student has not linked the author's identity to the story's cultural perspective, which is essential for understanding the narrator's voice and the tribe's values.",
     "id": "gen_c11_eng_s_ch01_q1",
     "nodeId": "c11_eng_s_cbse_01_001",
     "difficulty": "standard",
     "workedExample": [
-     "Start by asking: \"Have you ever read a story where the characters' cultural background is crucial to understanding their choices?",
-     "In 'The Summer of the Beautiful White Horse,' the narrator Aram and his cousin Mourad belong to an Armenian tribe known for its centuries-old",
-     "Before we read, we need to know who the Armenians are, why they are in California, and what 'Garoghlanian' signifies.",
-     "First, locate Armenia on a map and trace the migration to California's Central Valley."
+     "Start with the author of 'The Summer of the Beautiful White Horse', then the period, then the literary context — background turns a text from a"
     ]
    },
    {
@@ -169,20 +168,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What are the five standard stages of a narrative arc in order?",
     "answer": "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
     "options": [
-     "Aram is nine years old. His age creates a perspective of wonder and moral simplicity — he experiences the horse as \"magnificence\" and \"mysterious dream\" rather than property theft",
-     "The primary narrative tense is simple past (e.g., \"was,\" \"came,\" \"woke,\" \"looked\")",
+     "1) Opening: \"world was full of every imaginable kind of magnificence\" → shifts when he realizes \"he must have stolen it\" (confrontation with tribal honesty)",
+     "The student can independently map the five stages of the narrative arc onto the story, explain how the first-person retrospective narration shapes the reader's experience",
      "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution"
     ],
-    "hint": "Straight from the 'Plot and Narrative Structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"Introduction, Problem, Solution\" or omitting a stage) reveals the student lacks the precise terminology needed for board-exam answers and cannot map the story's events onto a recognized structural framework.",
     "id": "gen_c11_eng_s_ch01_q2",
     "nodeId": "c11_eng_s_cbse_01_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Think about a time you retold a childhood adventure to a friend — you probably didn't just list events randomly; you built suspense, highlighted the",
-     "That's exactly what Saroyan does here.",
-     "To begin, list every distinct event you remember from the story in the order they appear in the text.",
-     "Next, rearrange them into chronological order (what happened first in real time)."
+     "Trace 'The Summer of the Beautiful White Horse' from opening to close: how it starts, how events/images build, where it lands — the sequence carries"
     ]
    },
    {
@@ -190,20 +186,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the physical setting of the story's opening scene, and what time of day is it?",
     "answer": "The opening scene takes place at Aram's house on Walnut Avenue, at the edge of town, with the countryside (vineyards, orchards, irrigation ditches) behind it",
     "options": [
-     "1) Opening: \"world was full of every imaginable kind of magnificence\" → shifts when he realizes \"he must have stolen it\" (confrontation with tribal honesty)",
-     "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\"",
+     "The student can independently identify three distinct grammatical features in the story (e.g., past perfect for layered memory, imperative mood in dialogue",
+     "The student can independently map the five stages of the narrative arc onto the story, explain how the first-person retrospective narration shapes the reader's experience",
      "The opening scene takes place at Aram's house on Walnut Avenue, at the edge of town, with the countryside (vineyards, orchards, irrigation ditches) behind it"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"in the city at noon\") shows the student hasn't grasped the specific rural, early-morning setting that establishes the story's magical atmosphere.",
     "id": "gen_c11_eng_s_ch01_q3",
     "nodeId": "c11_eng_s_cbse_01_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are nine years old, waking up before dawn to find your cousin on a magnificent white horse.",
-     "The air is cool, the vineyards stretch into mist, and the world feels suspended between reality and dream.",
-     "That's the power of setting and atmosphere.",
-     "To analyze this, first list every place mentioned: Walnut Avenue, Olive Avenue, vineyards, orchards, irrigation ditches, country roads, Fetvajian's"
+     "Identify where and when 'The Summer of the Beautiful White Horse' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -211,20 +204,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is Aram's age at the time of the story's events, and how does his age influence his narrative perspective on the horse incident?",
     "answer": "Aram is nine years old. His age creates a perspective of wonder and moral simplicity — he experiences the horse as \"magnificence\" and \"mysterious dream\" rather than property theft",
     "options": [
-     "(1) Honesty vs. Desire — Aram's rationalization: \"If you were crazy about horses... it wasn't stealing\" (para 3)",
-     "1. \"The air was new and lovely to breathe\" (olfactory/tactile) → freshness, purity, renewal. 2. \"The feel of the horse running was wonderful\" (tactile/kinesthetic) → exhilaration",
+     "The student must be able to trace Aram's character arc across the story using textual evidence, explain how his nine-year-old perspective shapes the narrative voice",
+     "Narrative irony occurs when the narrating \"I\" (adult Aram) possesses knowledge or perspective that the experiencing \"I\" (child Aram) lacks",
      "Aram is nine years old. His age creates a perspective of wonder and moral simplicity — he experiences the horse as \"magnificence\" and \"mysterious dream\" rather than property theft"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Aram is an adult looking back\") misses how the child's limited understanding creates dramatic irony: the reader sees the theft clearly while Aram rationalizes it, which is central to the story's exploration of innocence vs. morality.",
     "id": "gen_c11_eng_s_ch01_q4",
     "nodeId": "c11_eng_s_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're nine years old, waking before dawn to find your \"crazy\" cousin on a magnificent white horse — a horse your desperately poor family",
-     "Your tribe is famous for eleven centuries of honesty.",
-     "Aram's dilemma is the story's heartbeat.",
-     "To analyze him, start by listing every time Aram speaks, thinks, or acts."
+     "Pick the central figure in 'The Summer of the Beautiful White Horse' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -232,20 +222,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "List the four main supporting characters in \"The Summer of the Beautiful White Horse\" and state one defining trait for each, based solely on your memory of the story.",
     "answer": "The four main supporting characters are: Mourad (impulsive yet honorable), Uncle Khosrove (irritable yet deeply homesick), John Byro (patient and trusting)",
     "options": [
-     "Situational irony occurs when the outcome contradicts expectations: the Garoghlanian family, renowned for honesty for eleven centuries, has a cousin (Mourad) who steals a horse",
-     "Aram is nine years old. His age creates a perspective of wonder and moral simplicity — he experiences the horse as \"magnificence\" and \"mysterious dream\" rather than property theft",
+     "1. \"The air was new and lovely to breathe\" (olfactory/tactile) → freshness, purity, renewal. 2. \"The feel of the horse running was wonderful\" (tactile/kinesthetic) → exhilaration",
+     "Setting refers to the time, place, and social context in which a story occurs, including the physical environment, historical period, and cultural milieu",
      "The four main supporting characters are: Mourad (impulsive yet honorable), Uncle Khosrove (irritable yet deeply homesick), John Byro (patient and trusting)"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer that lists Aram as a supporting character reveals confusion between protagonist and supporting roles. A wrong answer that assigns traits like \"greedy\" to Mourad or \"vengeful\" to John Byro reveals a failure to grasp the story's moral framework where the Garoghlanian code of honesty governs all actions.",
     "id": "gen_c11_eng_s_ch01_q5",
     "nodeId": "c11_eng_s_cbse_01_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film where the hero's cousin steals a horse — you'd naturally ask: \"Why does the cousin do it?",
-     "What does the uncle's reaction reveal about family values?",
-     "How does the horse's owner respond?\" That curiosity is exactly where character analysis begins.",
-     "First, list every character who speaks or acts besides Aram."
+     "Spot the secondary figures in 'The Summer of the Beautiful White Horse' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -253,20 +240,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the primary theme of \"The Summer of the Beautiful White Horse\" as defined by the narrator's description of the Garoghlanian family in the opening pages?",
     "answer": "The primary theme is the inviolability of honesty as an inherited tribal identity. The narrator states they were \"famous for our honesty for something like eleven centuries,\" were",
     "options": [
-     "The primary narrative tense is simple past (e.g., \"was,\" \"came,\" \"woke,\" \"looked\")",
-     "1) Opening: \"world was full of every imaginable kind of magnificence\" → shifts when he realizes \"he must have stolen it\" (confrontation with tribal honesty)",
+     "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\"",
+     "Situational irony occurs when the outcome contradicts expectations: the Garoghlanian family, renowned for honesty for eleven centuries, has a cousin (Mourad) who steals a horse",
      "The primary theme is the inviolability of honesty as an inherited tribal identity. The narrator states they were \"famous for our honesty for something like eleven centuries,\" were"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the theme is the joy of horse riding\") reveals the student is focusing on plot events rather than the value system that drives the characters' decisions.",
     "id": "gen_c11_eng_s_ch01_q6",
     "nodeId": "c11_eng_s_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you found a lost wallet with a large sum of cash and no ID.",
-     "You desperately need money, but your family is known in the neighbourhood for never keeping what isn't theirs.",
-     "What would you do?",
-     "This real-life dilemma mirrors Aram's conflict."
+     "Ask what 'The Summer of the Beautiful White Horse' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -278,16 +262,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Mourad relates to the horse as a kindred spirit — he sings to it, understands its wildness (\"I have a way with a horse\"), and rides it for ecstatic freedom",
      "A primary theme is the central, dominating idea that structures the entire narrative (e.g., honesty in this story), while secondary themes are supporting ideas that add depth"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"honesty\" as a secondary theme reveals the student cannot distinguish hierarchical thematic structure and likely treats all themes as equal.",
     "id": "gen_c11_eng_s_ch01_q7",
     "nodeId": "c11_eng_s_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are telling a friend about a summer memory that still makes you smile years later — that feeling of nostalgia is exactly how this story",
-     "To find secondary themes, start by asking: \"What else is this story about besides honesty?",
-     "Notice how Aram's narration shifts between his nine-year-old self and his adult perspective.",
-     "The key insight is that secondary themes don't just decorate the story; they create the moral complexity that makes the primary theme of honesty"
+     "Look beneath the main theme of 'The Summer of the Beautiful White Horse' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -295,20 +276,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the definition of imagery in literature? Give one example of visual imagery from the story.",
     "answer": "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\"",
     "options": [
-     "The four main types are: (1) Definition/Explanation clues (the author defines the word directly), (2) Synonym/Restatement clues (a similar word or phrase is used nearby)",
-     "The author is William Saroyan, an Armenian-American writer",
+     "The student can independently identify at least three types of context clues (definition, synonym/antonym, example",
+     "The student must be able to identify specific details of time, place, and social context in the story",
      "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\""
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"imagery is just any description\") reveals the student confuses imagery with mere description, missing the sensory appeal aspect.",
     "id": "gen_c11_eng_s_ch01_q8",
     "nodeId": "c11_eng_s_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Start by asking the student to recall a moment from the story that felt very real to them — perhaps the description of the horse or the vineyards.",
-     "Then guide them to notice the specific words that create that reality: \"magnificent\", \"smell it, so lovely\", \"hear it breathing\".",
-     "Explain that these are sensory images.",
-     "Then point out a metaphor like \"the crazy streak in our tribe\" — the family trait is compared to a streak."
+     "Find the lines in 'The Summer of the Beautiful White Horse' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -316,20 +294,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define situational irony and symbolism in your own words, giving one example of each from the story.",
     "answer": "Situational irony occurs when the outcome contradicts expectations: the Garoghlanian family, renowned for honesty for eleven centuries, has a cousin (Mourad) who steals a horse",
     "options": [
-     "The opening scene takes place at Aram's house on Walnut Avenue, at the edge of town, with the countryside (vineyards, orchards, irrigation ditches) behind it",
-     "1. \"The air was new and lovely to breathe\" (olfactory/tactile) → freshness, purity, renewal. 2. \"The feel of the horse running was wonderful\" (tactile/kinesthetic) → exhilaration",
+     "The student must be able to identify and explain at least two distinct types of irony (situational, dramatic, verbal) and two symbols in the story",
+     "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\"",
      "Situational irony occurs when the outcome contradicts expectations: the Garoghlanian family, renowned for honesty for eleven centuries, has a cousin (Mourad) who steals a horse"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is when something funny happens\" or \"the horse is just a horse\") reveals the student confuses irony with coincidence/humour and treats symbols as literal plot objects only.",
     "id": "gen_c11_eng_s_ch01_q9",
     "nodeId": "c11_eng_s_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Aram, nine years old, staring at a magnificent white horse your \"crazy\" cousin Mourad has just appeared with — but your family is",
-     "Your first task is to spot the clash: the family's pride vs. the stolen horse.",
-     "That clash is irony.",
-     "Next, ask: why a *white* horse?"
+     "Look in 'The Summer of the Beautiful White Horse' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -389,10 +364,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a novel in a busy metro and encounter the word \"capricious\" — you cannot check a dictionary.",
-     "How would you figure it out?",
-     "First, notice the sentence: \"The distribution of the various kinds of spirit of our tribe had been from the beginning capricious and vagrant.",
-     "Next, check punctuation: the comma before \"and\" links the two adjectives."
+     "Note the difficult or loaded words in 'The Summer of the Beautiful White Horse' — their meaning carries the text's precision."
     ]
    },
    {
@@ -452,10 +424,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_01_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever noticed how the story feels like an old man remembering his childhood?",
-     "That nostalgic tone isn't accidental — it's built through grammar.",
-     "Start by reading the first paragraph aloud: underline every verb.",
-     "What tense dominates?"
+     "Read 'The Summer of the Beautiful White Horse' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -504,9 +473,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_01_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in your Class 11 English exam and the first question asks: \"What time did Mourad wake Aram up?\" — easy, right?",
-     "The text says \"four in the morning.\" But the next question asks: \"Why did Aram initially refuse to believe the horse was real?",
-     "This node teaches you to instantly recognize which questions need direct retrieval and which need evidence-based reasoning, so you never waste time"
+     "Answer 'The Summer of the Beautiful White Horse' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -514,20 +481,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define \"narrative irony\" as it operates in first-person retrospective narration, and give one example from the story's opening paragraph where the adult narrator's knowledge contradicts the nine-year-old Aram's perception.",
     "answer": "Narrative irony occurs when the narrating \"I\" (adult Aram) possesses knowledge or perspective that the experiencing \"I\" (child Aram) lacks",
     "options": [
-     "The opening scene takes place at Aram's house on Walnut Avenue, at the edge of town, with the countryside (vineyards, orchards, irrigation ditches) behind it",
-     "Situational irony occurs when the outcome contradicts expectations: the Garoghlanian family, renowned for honesty for eleven centuries, has a cousin (Mourad) who steals a horse",
+     "Imagery is descriptive language that appeals to the senses to create mental pictures. An example of visual imagery from the story: \"a beautiful white horse\"",
+     "The student must be able to identify and explain at least two distinct types of irony (situational, dramatic, verbal) and two symbols in the story",
      "Narrative irony occurs when the narrating \"I\" (adult Aram) possesses knowledge or perspective that the experiencing \"I\" (child Aram) lacks"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer would confuse this with situational irony (outcome vs. expectation) or dramatic irony (reader knows more than character), missing the specific temporal split between narrating and experiencing selves.",
     "id": "gen_c11_eng_s_ch01_q13",
     "nodeId": "c11_eng_s_cbse_01_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a detective called to a scene where a boy claims he didn't steal a horse he's been riding for weeks—how do you separate what he says",
-     "That's exactly what critical analysis demands: you start by isolating a single charged moment (like Aram's internal monologue when he first sees the",
-     "You'll learn to spot the gap between Aram's childlike rationalization (\"stealing a horse for a ride wasn't the same as stealing money\") and the adult",
-     "The key insight: analysis isn't about finding *the* answer—it's about mapping how the text constructs its own moral complexity."
+     "Analyse 'The Summer of the Beautiful White Horse' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -535,20 +500,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define the PEEL structure for analytical paragraph writing and state one reason why it is required in Class 11 board exam answers.",
     "answer": "PEEL stands for Point (topic sentence stating the argument), Evidence (textual detail or quote), Explanation (analysis of how evidence supports the point)",
     "options": [
-     "The author is William Saroyan, an Armenian-American writer",
-     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
+     "The opening scene takes place at Aram's house on Walnut Avenue, at the edge of town, with the countryside (vineyards, orchards, irrigation ditches) behind it",
+     "1. \"The air was new and lovely to breathe\" (olfactory/tactile) → freshness, purity, renewal. 2. \"The feel of the horse running was wonderful\" (tactile/kinesthetic) → exhilaration",
      "PEEL stands for Point (topic sentence stating the argument), Evidence (textual detail or quote), Explanation (analysis of how evidence supports the point)"
     ],
-    "hint": "Straight from the 'Writing skills based on a literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Summer' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"PEEL means writing a long paragraph\") reveals the student confuses structure with length and does not understand the analytical demand of senior secondary English.",
     "id": "gen_c11_eng_s_ch01_q14",
     "nodeId": "c11_eng_s_cbse_01_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"How does the story show that honesty is more valued than survival in the Garoghlanian tribe?",
-     "To begin, ask: *What specific moment proves honesty outweighs need?* Look for the scene where Mourad refuses to keep the horse for a year despite",
-     "That's your evidence.",
-     "Next, explain *why* that moment matters — it shows tribal identity is non-negotiable."
+     "For written answers on 'The Summer of the Beautiful White Horse', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -597,9 +559,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_01_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literary circle where someone asks, \"Was it really stealing if they returned the horse better than they found it?",
-     "You then model how to turn this into a discussion point: state the conflict, quote the evidence, ask an open-ended question (\"At what point does",
-     "The key insight: strong discussion points are not opinions — they are textual puzzles the group solves together."
+     "Talk through 'The Summer of the Beautiful White Horse' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -668,7 +628,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "A primary theme is the central, dominating idea that structures the entire narrative (e.g., honesty in this story), while secondary themes are supporting ideas that add depth",
      "Similarities: Both the Garoghlians and the Kumaon Regiment (Major Somnath Sharma's unit) uphold honour and duty above personal gain"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Summer of the Beautiful White' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists values without comparative analysis shows lack of analytical skill.",
     "id": "gen_c11_eng_s_ch01_q17",
     "nodeId": "c11_eng_s_cbse_01_001",
@@ -683,7 +643,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Chronological order with stages: 1) B — Exposition (inciting incident: horse appears). 2) E — Rising Action (hiding the horse, secret rides)",
      "A strong entry captures Aram's awe (\"I couldn't believe my eyes\"), his internal conflict (\"Garoghlians don't steal, yet here is a horse\")"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Summer of the Beautiful White' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry captures Aram's awe (\"I couldn't believe my eyes\"), his internal conflict (\"Garoghlians don't steal, yet",
     "id": "gen_c11_eng_s_ch01_q18",
     "nodeId": "c11_eng_s_cbse_01_001",
@@ -692,23 +652,25 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the summer of the beautiful white?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Summer Of The Beautiful mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_eng_s_ch02",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Address' — The Context And Background",
   "subtitle": "English · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch2: Before You Read: Context and Background"],
+  "topic": "'The Address' — The Context And Background To This T",
+  "chapters": [
+   "English Ch2: 'The Address' — The Context And Background To This T"
+  ],
   "nodeIds": [
    "c11_eng_s_cbse_02_001",
    "c11_eng_s_cbse_02_002",
@@ -733,103 +695,103 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'The Address' — The Context And more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading pedagogical framework that establishes the historical, cultural, and biographical"
+   "hook": "'The Address' (Snapshots, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading pedagogical framework that establishes the historical, cultural, and biographical framework necessary to comprehend a literary text, specifically situating Marga Minco's \"The Address\" within the Nazi",
+    "title": "'The Address' — The Context And Background",
+    "text": "'The Address' (Snapshots, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Text: Plot and Narrative Structure",
-    "text": "Plot and narrative structure in \"The Address\" refers to the deliberate arrangement of events across two distinct timeframes (pre-War and post-War) using first-person retrospective narration, where the chronological sequence is disrupted by flashbacks to",
+    "title": "Plot/narrative Arc Of 'The Address'",
+    "text": "The plot/narrative arc of 'The Address' — what happens, in what order, and why the sequence matters.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a story occurs, while atmosphere is the emotional mood or feeling evoked in the reader through descriptive details of that setting.",
+    "title": "Setting Of 'The Address'",
+    "text": "The setting of 'The Address' — the place, time and atmosphere the text creates.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the narrator's personality traits, motivations, internal conflicts, and transformation across the narrative by closely reading her actions, speech, thoughts, and relationships with other characters and",
+    "title": "Character Analysis In 'The Address'",
+    "text": "Character analysis in 'The Address' — the central figure(s), their traits, and how they develop.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining how secondary figures in a narrative reveal the protagonist's inner world, advance thematic concerns, and embody the story's socio-historical context through their actions, dialogue, and symbolic",
+    "title": "Supporting Characters In 'The Address'",
+    "text": "Supporting characters in 'The Address' — the secondary figures who move the story forward.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of \"The Address\"",
-    "text": "The primary theme of \"The Address\" is the futility of clinging to material possessions as a means of recovering a lost past, and the necessity of letting go to rebuild one's identity after trauma.",
+    "title": "Primary Theme Of 'The Address'",
+    "text": "The primary theme of 'The Address' — the central idea the whole text returns to.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas or motifs that support and enrich the primary theme of a literary work. In \"The Address,\" while the primary theme is the necessity of letting go of the past to move forward after trauma, secondary themes include the",
+    "title": "Secondary Themes In 'The Address'",
+    "text": "Secondary themes in 'The Address' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotional responses.",
+    "title": "Imagery In 'The Address'",
+    "text": "Imagery in 'The Address' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'The Address' — Where",
+    "text": "Irony and paradox in 'The Address' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and grammatical function of a word or phrase by analyzing its surrounding textual environment—including syntax, tone, imagery, and thematic resonance—rather than relying",
+    "title": "Key Vocabulary Of 'The Address'",
+    "text": "Key vocabulary of 'The Address' — the words and phrases you must know to read the text well.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical structures—such as tense patterns, sentence types, reported speech, modal verbs, and descriptive syntax—function in \"The Address\" to convey narrative perspective,",
+    "title": "Language And Style In 'The Address'",
+    "text": "Language and style in 'The Address' — how the writer chose words, sentences and tone.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions require synthesizing implicit clues, context, and reasoning to derive answers not explicitly written.",
+    "title": "Literal Comprehension Of 'The Address'",
+    "text": "Literal comprehension of 'The Address' — questions answered straight from the text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its surface meaning to interpret themes, character motivations, narrative techniques, and the author's purpose, using textual evidence to support reasoned judgments about the work's",
+    "title": "Critical Thinking On 'The Address'",
+    "text": "Critical thinking on 'The Address' — analysing the text to reach evidence-based judgements.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on the chapter \"The Address\" refers to the ability to compose structured, evidence-based responses (analytical paragraphs, diary entries, letters, articles, or character sketches) that demonstrate understanding of the text's themes,",
+    "title": "Writing Skills From 'The Address'",
+    "text": "Writing skills from 'The Address' — using the text as a model or springboard for your own writing.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students collaboratively explore the themes, characters, and implications of \"The Address\" through guided questions, using textual evidence to support interpretations while",
+    "title": "Discussion Points On 'The Address'",
+    "text": "Discussion points on 'The Address' — speaking and listening around the text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -840,21 +802,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What was the approximate percentage of Dutch Jews who perished during the Holocaust, and how does this statistic distinguish the Netherlands from other Western European countries under Nazi occupation?",
     "answer": "Approximately 75% of Dutch Jews (104,000 out of 140,000) perished — the highest percentage in Western Europe",
     "options": [
-     "The two main physical settings are the narrator's pre-war family home (described in flashback) and Mrs",
-     "1. \"Opened the door a chink\" (visual/tactile) — suggests reluctance, hiding, barrier. 2. \"Her face gave absolutely no sign of recognition\" (visual)",
-     "Approximately 75% of Walk (104,000 out of 140,000) perished — the highest percentage in Western Europe",
+     "Setting refers to the time, place, and social environment in which a story occurs, while atmosphere is the emotional mood or feeling evoked in the reader through descriptive",
+     "The student can identify at least three specific sensory details from the text that establish setting, explain how each detail contributes to the atmosphere",
+     "Approximately 75% of War (104,000 out of 140,000) perished — the highest percentage in Western Europe",
      "Approximately 75% of Dutch Jews (104,000 out of 140,000) perished — the highest percentage in Western Europe"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Address' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"similar to France at 25%\") reveals the student lacks the specific historical knowledge needed to grasp the story's stakes: the near-total annihilation of a community makes the narrator's survival statistically extraordinary and her search for belongings an act of defiance against erasure, not",
     "id": "gen_c11_eng_s_ch02_q1",
     "nodeId": "c11_eng_s_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you find an old photograph of your great-grandparents' home in a country that no longer exists on the map — would the objects in that photo",
-     "This is the question \"The Address\" forces us to confront.",
-     "Begin by locating the Netherlands on a 1940 map of Europe and tracing the German invasion route; notice how quickly a neutral country fell.",
-     "Next, research the specific timeline: the February 1941 strike in Amsterdam (the only mass protest against Jewish deportation in Nazi-occupied"
+     "Start with the author of 'The Address', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -862,20 +821,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What are the two distinct timeframes in which the events of \"The Address\" are set, and which narrative technique connects them?",
     "answer": "The two timeframes are pre-War (when the narrator's mother entrusts belongings to Mrs. Dorling) and post-War (when the narrator returns to reclaim them)",
     "options": [
-     "1. \"Opened the door a chink\" (visual/tactile) — suggests reluctance, hiding, barrier. 2. \"Her face gave absolutely no sign of recognition\" (visual)",
-     "The story is told in first-person point of view (\"I\"); the protagonist is the unnamed narrator, Mrs. S's daughter",
+     "The student must independently write a structured character analysis answer (using Point-Evidence-Explanation-Link) that identifies at least three distinct traits of the narrator",
+     "The student can independently prepare for and participate in a formal group discussion on \"The Address\" by: (1) citing specific textual evidence to support at least two distinct",
      "The two timeframes are pre-War (when the narrator's mother entrusts belongings to Mrs. Dorling) and post-War (when the narrator returns to reclaim them)"
     ],
-    "hint": "Straight from the 'Plot and narrative structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"past and present\" without specifying War as the divider, or missing the flashback technique) reveals the student hasn't grasped that the War is the structural fault line, not just background context.",
     "id": "gen_c11_eng_s_ch02_q2",
     "nodeId": "c11_eng_s_cbse_02_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're helping a friend piece together a family photo album where the pictures are shuffled -- some from before a tragic event, some from",
-     "You'd start by separating the \"before\" and \"after\" piles, then arrange each chronologically.",
-     "That's exactly how we approach this story: first identify the two timeframes (pre-War comfort vs.",
-     "Dorling's house act as structural anchors."
+     "Trace 'The Address' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -935,10 +891,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into your childhood home after ten years, expecting comfort but finding strangers using your grandmother's china for everyday meals.",
-     "That jarring disconnect is exactly what the narrator experiences.",
-     "To analyze setting and atmosphere here, start by listing the two primary physical locations in the story.",
-     "Then, hunt for sensory words — smells (musty, muggy), sights (pale wooden buttons, ugly furniture, burn mark), sounds (jingling cutlery)."
+     "Identify where and when 'The Address' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -946,20 +899,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the narrative point of view in \"The Address\" and name the protagonist.",
     "answer": "The story is told in first-person point of view (\"I\"); the protagonist is the unnamed narrator, Mrs. S's daughter",
     "options": [
-     "The literal address is 46 Marconi Street, where Mrs. Dorling stored the narrator's mother's belongings",
-     "The narrator decides not to return to 46 Marconi Street and consciously chooses to erase the address from her memory because the objects there no longer hold emotional value when",
+     "The student can independently identify at least two distinct types of irony (situational, dramatic",
+     "The student must be able to identify and explain at least three distinct grammatical features in the story (e",
      "The story is told in first-person point of view (\"I\"); the protagonist is the unnamed narrator, Mrs. S's daughter"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Mrs. Dorling\" or \"third person\") reveals the student cannot distinguish narrator from other characters or identify narrative perspective — a basic comprehension gap that blocks all deeper analysis.",
     "id": "gen_c11_eng_s_ch02_q4",
     "nodeId": "c11_eng_s_cbse_02_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you find an old photograph of yourself from years ago — you recognize the face, but the person in the photo feels like a stranger.",
-     "That is exactly the narrator's experience when she visits 46 Marconi Street.",
-     "To analyze her, start by asking: \"What does she *do*?",
-     "What does she *say*?"
+     "Pick the central figure in 'The Address' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -1008,10 +958,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_02_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are helping a friend move house and you find a box of old letters addressed to someone you've never met.",
-     "You wonder: who was this person, and why do these letters matter to your friend?",
-     "That curiosity is exactly how we begin analyzing supporting characters.",
-     "First, we identify every appearance of Mrs."
+     "Spot the secondary figures in 'The Address' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -1060,10 +1007,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_02_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you find your grandmother's favorite teacup in a stranger's house—it looks the same, but the tea tastes different because *she* isn't there",
-     "That jarring disconnect is exactly what the narrator experiences at 46 Marconi Street.",
-     "Begin by asking: \"What does the narrator *expect* to feel when she sees her mother's things?\" (Reconnection, comfort).",
-     "Then track the shift: Step 1: The cardigan at the door (recognition without warmth)."
+     "Ask what 'The Address' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -1071,20 +1015,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the definition of a secondary theme in literature, and how does it differ from the primary theme?",
     "answer": "A secondary theme is a supporting idea that enriches the main (primary) theme but is not the central message",
     "options": [
-     "1. \"Opened the door a chink\" (visual/tactile) — suggests reluctance, hiding, barrier. 2. \"Her face gave absolutely no sign of recognition\" (visual)",
+     "The student can identify at least three specific sensory details from the text that establish setting, explain how each detail contributes to the atmosphere",
      "The story is told in first-person point of view (\"I\"); the protagonist is the unnamed narrator, Mrs. S's daughter",
      "A secondary theme is a supporting idea that enriches the main (primary) theme but is not the central message"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The Address'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists plot events (e.g., \"the narrator visits Marconi Street\") instead of abstract ideas reveals confusion between *plot* and *theme*.",
     "id": "gen_c11_eng_s_ch02_q7",
     "nodeId": "c11_eng_s_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you find an old photograph album in your grandparents' house.",
-     "The pictures show happy moments, but the people in them are gone, and the places have changed.",
-     "You feel a mix of nostalgia and sadness, but also a strange detachment — the photos are just paper now.",
-     "This is exactly what the narrator experiences when she sees her mother's belongings in Mrs."
+     "Look beneath the main theme of 'The Address' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -1092,20 +1033,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define \"imagery\" and \"metaphor\" in your own words, and give one example of each from \"The Address\" without looking at the text.",
     "answer": "Imagery: Language appealing to senses (e.g., \"A musty smell emerged\" — olfactory imagery). Metaphor: Direct comparison (e",
     "options": [
+     "The literal address is 46 Marconi Street, where Mrs. Dorling stored the narrator's mother's belongings",
      "A literal comprehension question asks for information explicitly stated in the text, requiring no interpretation",
-     "Contextual meaning is the specific significance a word acquires within a particular textual environment—shaped by syntax, tone, imagery",
      "Imagery: Language appealing to senses (e.g., \"A musty smell emerged\" — olfactory imagery). Metaphor: Direct comparison (e"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Address'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Imagery is just description\" or \"Metaphor uses 'like'\") reveals confusion between imagery and mere adjectives, or between metaphor and simile.",
     "id": "gen_c11_eng_s_ch02_q8",
     "nodeId": "c11_eng_s_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into a relative's house after years away and everything smells different — musty, unfamiliar — yet you spot your mother's favourite",
-     "That jolt of recognition mixed with alienation is exactly what the narrator feels.",
-     "To analyze this, start by reading the story *only* for sensory details: underline every smell, texture, sound, and colour.",
-     "Then ask: \"Why this specific detail?"
+     "Find the lines in 'The Address' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -1113,41 +1051,66 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"The Address\" without quoting the text directly.",
     "answer": "Situational irony occurs when the outcome of a situation is sharply contrary to what was expected or intended",
     "options": [
-     "A literal comprehension question asks for information explicitly stated in the text, requiring no interpretation",
-     "The narrator decides not to return to 46 Marconi Street and consciously chooses to erase the address from her memory because the objects there no longer hold emotional value when",
+     "The student can independently prepare for and participate in a formal group discussion on \"The Address\" by: (1) citing specific textual evidence to support at least two distinct",
+     "Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical structures—such as tense patterns, sentence types, reported speech, modal verbs",
      "Situational irony occurs when the outcome of a situation is sharply contrary to what was expected or intended"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is when something funny happens\") reveals confusion between irony and humour, or a failure to distinguish situational irony from mere coincidence.",
     "id": "gen_c11_eng_s_ch02_q9",
     "nodeId": "c11_eng_s_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine returning to your grandparents' house years after they passed away, only to find a stranger living there using your grandmother's favourite",
-     "That jarring feeling — the gap between what you expected (sacred preservation) and what you see (casual misuse) — is the heart of irony in \"The",
-     "Mark every moment where the narrator's expectation clashes with reality: the woman wearing the cardigan, the Hanukkah candle-holder used as",
-     "Then ask: \"What does each object *stand for* beyond its physical form?\" The address itself, the green cardigan, the burn-marked tablecloth — each"
+     "Look in 'The Address' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define \"contextual meaning\" and explain how it differs from \"dictionary meaning\" using the word \"Liberation\" from the text as your example.",
-    "answer": "Contextual meaning is the specific significance a word acquires within a particular textual environment—shaped by syntax, tone, imagery",
-    "options": [
-     "The primary purpose is to collaboratively construct meaning by sharing evidence-based interpretations, practicing active listening",
-     "Approximately 75% of Dutch Jews (104,000 out of 140,000) perished — the highest percentage in Western Europe",
-     "Contextual meaning is the specific significance a word acquires within a particular textual environment—shaped by syntax, tone, imagery"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyze how specific word choices construct",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Distinguish between denotative",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Identify 8-10 key words from \"The Address\"",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
-    "misconception": "A wrong answer that only gives the dictionary definition (\"freedom from oppression\") reveals the student cannot distinguish between denotation and contextually layered connotation—a critical skill for Board exam questions asking \"What does the word X suggest in this context?\"",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Identify 8-10 key words from \"The Address\" and explain their contextual meaning with",
     "id": "gen_c11_eng_s_ch02_q10",
     "nodeId": "c11_eng_s_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"The Address\" and encounter the sentence: \"The objects that are linked in your memory with the familiar life of former times",
-     "Why \"strange surroundings\" instead of \"new place\"?",
-     "Start by circling every word that feels deliberately chosen—words that carry emotional weight beyond their dictionary meaning.",
-     "Then ask: What is the grammatical role?"
+     "Note the difficult or loaded words in 'The Address' — their meaning carries the text's precision."
     ]
    },
    {
@@ -1155,20 +1118,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the tense of the verb phrase \"had given\" in the sentence: \"It had been in the first half of the War. I was home for a few days and it struck me immediately that something or other about the rooms had changed.",
     "answer": "The verb phrase \"had given\" is in the past perfect tense. It indicates an action completed before another past action (the mother telling the narrator about Mrs Dorling)",
     "options": [
-     "The two timeframes are pre-War (when the narrator's mother entrusts belongings to Mrs. Dorling) and post-War (when the narrator returns to reclaim them)",
-     "Approximately 75% of Dutch Jews (104,000 out of 140,000) perished — the highest percentage in Western Europe",
+     "The student must be able to identify and explain at least three distinct grammatical features in the story (e",
+     "The story is told in first-person point of view (\"I\"); the protagonist is the unnamed narrator, Mrs. S's daughter",
      "The verb phrase \"had given\" is in the past perfect tense. It indicates an action completed before another past action (the mother telling the narrator about Mrs Dorling)"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"past simple\") reveals the student cannot distinguish between simple past for main narrative events and past perfect for earlier past events, which is essential for tracking the story's dual timeline.",
     "id": "gen_c11_eng_s_ch02_q11",
     "nodeId": "c11_eng_s_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a diary entry from 1945 where the writer switches between \"I remember\" and \"I had remembered\"—why does the tense change?",
-     "In \"The Address,\" Marga Minco uses grammar as a time machine: past simple for the main narrative, past perfect for events before the war, and modal",
-     "Start by highlighting every verb in the first two paragraphs; sort them by tense.",
-     "Then ask: what does each tense tell us about the narrator's distance from the memory?"
+     "Read 'The Address' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -1176,20 +1136,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the definition of a literal comprehension question?",
     "answer": "A literal comprehension question asks for information explicitly stated in the text, requiring no interpretation",
     "options": [
-     "Approximately 75% of Dutch Jews (104,000 out of 140,000) perished — the highest percentage in Western Europe",
-     "The two timeframes are pre-War (when the narrator's mother entrusts belongings to Mrs. Dorling) and post-War (when the narrator returns to reclaim them)",
+     "\"Before You Read: Context and Background\" is a pre-reading pedagogical framework that establishes the historical, cultural",
+     "The student must be able to independently explain how the historical context of the Nazi occupation of Holland and the Holocaust shapes the narrative's central conflict",
      "A literal comprehension question asks for information explicitly stated in the text, requiring no interpretation"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a question that asks for your opinion\") reveals the student confuses literal comprehension with personal response or inferential thinking.",
     "id": "gen_c11_eng_s_ch02_q12",
     "nodeId": "c11_eng_s_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and see the question: \"Why did the narrator want to forget the address?",
-     "Start by asking: *Is this answer directly in the text or must I piece it together?",
-     "For inferential questions, hunt for clues: the narrator's description of the \"muggy smell,\" \"ugly furniture,\" and her realization that objects \"lose",
-     "The key insight: inferential answers are not guesses; they are evidence-based deductions."
+     "Answer 'The Address' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -1249,10 +1206,8 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_02_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you find a box of your grandmother's old letters in a stranger's house - would you take them or walk away?",
-     "This real dilemma mirrors the narrator's choice in \"The Address.\" Begin by identifying the central conflict: the narrator's desire to reclaim her",
-     "Next, trace how the two visits to 46 Marconi Street structure the narrative - the first rejection, the second painful confrontation.",
-     "Then examine the objects (cardigan, Hanukkah candle-holder, silver cutlery) not as mere things but as triggers of memory and symbols of a severed"
+     "Analyse 'The Address' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -1260,21 +1215,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing analytical answers for CBSE Class 11 English?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The three supporting characters are: (1) Mrs. Dorling — she wears the narrator's mother's green cardigan and refuses to acknowledge the narrator; (2) Mrs",
-     "Approximately 75% of Dutch Jews (104,000 out of 140,000) perished — the highest percentage in Western Europe",
-     "PEEL stands for Point, Postmemory, Explanation, Link",
+     "The student can map the story's non-linear timeline onto a linear chronological sequence, identify the structural function of each flashback",
+     "The two main physical settings are the narrator's pre-war family home (described in flashback) and Mrs",
+     "PEEL stands for Point, Situational, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Address'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Evidence, Line\") reveals the student lacks the fundamental structural vocabulary for board-exam answer writing and will likely produce unstructured, narrative-heavy responses that lose marks for coherence and analytical depth.",
     "id": "gen_c11_eng_s_ch02_q14",
     "nodeId": "c11_eng_s_cbse_02_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you have just finished reading \"The Address\" and your teacher asks: \"Why does the narrator decide to forget the address at the end?",
-     "This node teaches you to transform your understanding into a structured board-exam answer.",
-     "We start by identifying the *exact demand* of the question (e.g., 'comment', 'justify', 'analyse'), then select precise textual evidence (not whole",
-     "The key insight: in Class 11, examiners reward *analytical depth* over *narrative summary*."
+     "For written answers on 'The Address', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -1334,11 +1286,54 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_02_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you've just finished reading \"The Address\" and your teacher announces a graded group discussion tomorrow.",
-     "You remember the plot but feel unsure how to move beyond saying \"it was sad\" or \"I liked it.",
-     "Write each piece of evidence on a sticky note with the page number.",
-     "Then, practice turning one piece of evidence into a spoken claim using the frame: \"The text shows [evidence], which suggests [interpretation],"
+     "Talk through 'The Address' — share your reading, listen to others, and let the text settle the argument."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "citing specific textual evidence to support",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "synthesizing multiple",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "actively listening to peers and responding",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently prepare for and participate in a formal group discussion on \"The Address\" by: (1) citing",
+    "id": "gen_c11_eng_s_ch02_q16",
+    "nodeId": "c11_eng_s_cbse_02_015",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -1349,9 +1344,9 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "(B) is stronger. It functions as a thesis statement (Point) that identifies the address as a *symbol* and hints at the narrative arc (anchor -> rejection)",
      "The narrator is a direct witness, not a postmemory subject: she lived in the house before the war (\"I was home for a few days\"), witnessed Mrs"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Address' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer classifying her as \"second generation\" reveals confusion about the story's temporal structure — the pre-war, wartime, and post-war layers — and fails to grasp that the horror lies in her having been THERE, not in inheriting the memory.",
-    "id": "gen_c11_eng_s_ch02_q16",
+    "id": "gen_c11_eng_s_ch02_q17",
     "nodeId": "c11_eng_s_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1364,23 +1359,8 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "The mother trusted Mrs. Dorling because she believed Mrs. Dorling was genuinely trying to \"save all my nice things\" from being lost if they had to flee",
      "No, this reduces a complex historical reality to individual villainy. Mrs. Dorling's actions reflect the systemic \"Aryanization\" of Jewish property"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Address' — the context and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, this reduces a complex historical reality to individual villainy.",
-    "id": "gen_c11_eng_s_ch02_q17",
-    "nodeId": "c11_eng_s_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words why the February 1941 Amsterdam strike is historically significant for understanding Dutch resistance to Nazi persecution of Jews, and how its failure shapes the context of \"The Address.\"",
-    "answer": "The February Strike was the only mass public protest by non-Jews against the deportation of Jews in Nazi-occupied Europe",
-    "options": [
-     "The narrator feels oppressed because the objects are stripped of their original context—her mother's presence, the familiar arrangement",
-     "The narrator realizes that the objects, severed from their original context, have lost their emotional value and only cause pain",
-     "The February Strike was the only mass public protest by non-Jews against the deportation of Jews in Nazi-occupied Europe"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"Dutch people helped Jews\" (e.g., Anne Frank's helpers) without acknowledging the strike's failure reveals a misconception that Dutch resistance was widespread and effective, when in fact the high deportation rate proves most Jews were abandoned — making the narrator's isolation in the",
     "id": "gen_c11_eng_s_ch02_q18",
     "nodeId": "c11_eng_s_cbse_02_001",
     "difficulty": "standard"
@@ -1388,23 +1368,25 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the address' — the context and background to this t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Address' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_eng_s_ch03",
-  "title": "Before You Read: Context and Background",
+  "title": "'Mother's Day' — The Context And Background",
   "subtitle": "English · Chapter 3",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch3: Before You Read: Context and Background"],
+  "topic": "'Mother's Day' — The Context And Background To This",
+  "chapters": [
+   "English Ch3: 'Mother's Day' — The Context And Background To This"
+  ],
   "nodeIds": [
    "c11_eng_s_cbse_03_001",
    "c11_eng_s_cbse_03_002",
@@ -1429,103 +1411,103 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'Mother's Day' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" refers to the essential historical, social, and biographical information about the playwright (J.B."
+   "hook": "'Mother's Day' (Snapshots, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" refers to the essential historical, social, and biographical information about the playwright (J.B. Priestley), the period (1950s post-war Britain), the genre (one-act play, social comedy), and the central issue (the",
+    "title": "'Mother's Day' — The Context And Background",
+    "text": "'Mother's Day' (Snapshots, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure In Drama",
-    "text": "Plot and narrative structure in drama refers to the organized sequence of events and the structural framework (exposition, rising action, climax, falling action, resolution) through which a play's story unfolds, including dramatic devices like the inciting",
+    "title": "Plot/narrative Arc Of 'Mother's Day'",
+    "text": "The plot/narrative arc of 'Mother's Day' — what happens, in what order, and why the sequence matters.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment in which a literary work unfolds, including historical period, geographical location, and social context.",
+    "title": "Setting Of 'Mother's Day'",
+    "text": "The setting of 'Mother's Day' — the place, time and atmosphere the text creates.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's traits, motivations, conflicts, and development through their actions, dialogue, relationships, and the author's descriptive cues to understand their role in advancing the play's",
+    "title": "Character Analysis In 'Mother's Day'",
+    "text": "Character analysis in 'Mother's Day' — the central figure(s), their traits, and how they develop.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters examines how secondary figures in a literary work function to illuminate the protagonist's journey, advance thematic concerns, and reveal social dynamics through their distinct personalities, relationships, and",
+    "title": "Supporting Characters In 'Mother's Day'",
+    "text": "Supporting characters in 'Mother's Day' — the secondary figures who move the story forward.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, and conflict; in *Mother's Day*, the primary theme is the systemic undervaluation of domestic labour and the",
+    "title": "Primary Theme Of 'Mother's Day'",
+    "text": "The primary theme of 'Mother's Day' — the central idea the whole text returns to.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas in a literary work that complement the primary theme by exploring specific aspects of human experience, social structures, or character dynamics; in \"Mother's Day,\" these include gender roles, the devaluation of",
+    "title": "Secondary Themes In 'Mother's Day'",
+    "text": "Secondary themes in 'Mother's Day' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create concrete mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Mother's Day'",
+    "text": "Imagery in 'Mother's Day' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality, often revealing a deeper truth; it operates through situational (outcome opposes expectation), dramatic (audience knows more than characters), or verbal (speaker means",
+    "title": "Irony And Paradox In 'Mother's Day' — Where",
+    "text": "Irony and paradox in 'Mother's Day' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning of words by analyzing their surrounding text, including speaker tone, dramatic situation, character relationships, and thematic purpose, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'Mother's Day'",
+    "text": "Key vocabulary of 'Mother's Day' — the words and phrases you must know to read the text well.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Language Usage Analysis Examines How",
-    "text": "Language usage analysis examines how grammatical choices—sentence types, modal verbs, dialect markers, politeness strategies, and irony—create character, reveal power dynamics, and convey thematic meaning in a dramatic text.",
+    "title": "Language And Style In 'Mother's Day'",
+    "text": "Language and style in 'Mother's Day' — how the writer chose words, sentences and tone.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions demand readers to derive meaning by combining textual clues with prior knowledge and logical reasoning.",
+    "title": "Literal Comprehension Of 'Mother's Day'",
+    "text": "Literal comprehension of 'Mother's Day' — questions answered straight from the text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its surface meaning to evaluate themes, character motivations, authorial techniques, and socio-cultural context, forming reasoned judgments supported by textual evidence.",
+    "title": "Critical Thinking On 'Mother's Day'",
+    "text": "Critical thinking on 'Mother's Day' — analysing the text to reach evidence-based judgements.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter \"Mother's Day\" refers to the ability to produce structured, evidence-based written responses (character sketches, diary entries, letters, articles, speeches, or dramatic scripts) that demonstrate understanding of the play's",
+    "title": "Writing Skills From 'Mother's Day'",
+    "text": "Writing skills from 'Mother's Day' — using the text as a model or springboard for your own writing.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skills where students analyze, debate, and present viewpoints on the themes, characters, and social issues raised in \"Mother's Day\" using textual evidence, active listening,",
+    "title": "Discussion Points On 'Mother's Day'",
+    "text": "Discussion points on 'Mother's Day' — speaking and listening around the text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -1588,10 +1570,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_03_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a play set in a London suburb in the 1950s, where a mother is taken for granted by her family.",
-     "Before the curtain rises, you need to know: Who wrote this?",
-     "What was happening in Britain then?",
-     "Why is the mother's role portrayed this way?"
+     "Start with the author of 'Mother's Day', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -1599,20 +1578,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the inciting incident in \"Mother's Day\" and why does it occur at the specific moment it does in the play's timeline?",
     "answer": "The inciting incident is the personality swap between Mrs. Pearson and Mrs. Fitzgerald, performed via a spell (\"Arshtatta dum—arshtatta lam—arshtatta lamdumbona\") at the moment",
     "options": [
-     "The primary issue is the unequal distribution of domestic labor and the lack of appreciation for the mother's role in the family",
-     "PEEL stands for Point (topic sentence), Evidence (textual quote or specific detail), Explanation (analysis of how evidence supports the point)",
+     "The student can identify at least three distinct instances of irony (situational, dramatic, verbal) and two symbols in *Mother's Day*",
+     "The student can independently identify 10+ key words from the play, explain each word's contextual meaning with specific textual evidence (stage direction, dialogue",
      "The inciting incident is the personality swap between Mrs. Pearson and Mrs. Fitzgerald, performed via a spell (\"Arshtatta dum—arshtatta lam—arshtatta lamdumbona\") at the moment"
     ],
-    "hint": "Straight from the 'Plot and narrative structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Mother's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Doris entering\" or \"George coming home\") reveals the student confuses the *first event of rising action* with the *catalyst that disrupts equilibrium*. The swap must happen before any family member appears because it creates the new reality that drives all subsequent conflict.",
     "id": "gen_c11_eng_s_ch03_q2",
     "nodeId": "c11_eng_s_cbse_03_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a 30-minute family argument where the mother suddenly stops serving tea, starts smoking, and insults her daughter's boyfriend",
-     "That's exactly how \"Mother's Day\" begins: with a normal afternoon disrupted by a magical intervention.",
-     "To analyze the plot, first identify the *status quo* (Mrs.",
-     "Pearson's servitude), then pinpoint the *inciting incident* (the spell with Mrs."
+     "Trace 'Mother's Day' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -1694,10 +1670,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into a friend's house and instantly sensing tension — dishes unwashed, silence heavy, someone storming off.",
-     "That \"feeling in the air\" is atmosphere, shaped by the physical space (setting).",
-     "In \"Mother's Day,\" Priestley gives us a detailed stage description before a single line is spoken: a \"comfortably furnished, much lived-in room in a",
-     "Then track how the atmosphere changes when Mrs."
+     "Identify where and when 'Mother's Day' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -1705,20 +1678,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What are the two contrasting vocal qualities the stage directions assign to Mrs. Pearson and Mrs. Fitzgerald at the opening of the play?",
     "answer": "Mrs. Pearson speaks in a \"light, flurried sort of tone, with a touch of suburban Cockney\"; Mrs. Fitzgerald has a \"deep voice, rather Irish perhaps",
     "options": [
-     "The central dramatic device is the supernatural body-swap between Mrs. Pearson and Mrs. Fitzgerald",
      "The inciting incident is the personality swap between Mrs. Pearson and Mrs. Fitzgerald, performed via a spell (\"Arshtatta dum—arshtatta lam—arshtatta lamdumbona\") at the moment",
+     "The student can identify specific stage directions and descriptive details that establish setting, trace how atmosphere shifts across scenes",
      "Mrs. Pearson speaks in a \"light, flurried sort of tone, with a touch of suburban Cockney\"; Mrs. Fitzgerald has a \"deep voice, rather Irish perhaps"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Mother's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., both have deep voices) reveals the student missed the explicit stage-direction contrast that foreshadows the personality swap.",
     "id": "gen_c11_eng_s_ch03_q4",
     "nodeId": "c11_eng_s_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you come home after a long day and everyone expects you to serve tea, iron clothes, and listen to complaints — without a single \"thank you.",
-     "Pearson's daily reality.",
-     "To analyse her, start by listing every description the stage directions give (age, tone, mannerisms).",
-     "Then track her dialogue in the first scene: how many times does she apologise?"
+     "Pick the central figure in 'Mother's Day' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -1726,41 +1696,66 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the four supporting characters in \"Mother's Day\" and state one defining trait for each as established in the opening stage directions and early dialogue.",
     "answer": "The four supporting characters are: George Pearson (husband) — described as \"solemn, self-important, pompous, heavy, slow-moving\"",
     "options": [
-     "The playwright is J.B. Priestley, a British novelist, playwright, and social commentator known for his socialist views and critique of class and gender inequalities",
-     "The inciting incident is the personality swap between Mrs. Pearson and Mrs. Fitzgerald, performed via a spell (\"Arshtatta dum—arshtatta lam—arshtatta lamdumbona\") at the moment",
+     "The student must be able to write a structured analytical paragraph for each supporting character that identifies their dramatic function",
+     "Secondary themes are the supporting ideas in a literary work that complement the primary theme by exploring specific aspects of human experience, social structures",
      "The four supporting characters are: George Pearson (husband) — described as \"solemn, self-important, pompous, heavy, slow-moving\""
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in' slide -- match the key terms.",
     "misconception": "A wrong answer that describes them only by name or confuses their traits (e.g., calling Doris the \"strong\" one) reveals the student has not closely read the stage directions and character descriptions, which are essential evidence for character analysis at this level.",
     "id": "gen_c11_eng_s_ch03_q5",
     "nodeId": "c11_eng_s_cbse_03_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a family dinner where everyone talks over the mother — she serves, clears, and nods silently.",
-     "Now ask: what does each family member's behaviour reveal about the household's power structure?",
-     "In \"Mother's Day,\" start by listing every line spoken by George, Doris, Cyril, and Mrs Fitzgerald.",
-     "Notice how George expects tea without asking, Doris demands ironing, Cyril assumes his clothes are ready — each interaction maps the invisible labour"
+     "Spot the secondary figures in 'Mother's Day' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the primary theme of *Mother's Day* in one complete thematic sentence (not a topic like \"motherhood\" but a full idea like \"The play argues that...\").",
-    "answer": "*The play argues that a mother's selfless labour is exploited by a complacent family until she forcibly asserts her right to leisure, respect, and reciprocal care",
-    "options": [
-     "PEEL stands for Point (topic sentence), Evidence (textual quote or specific detail), Explanation (analysis of how evidence supports the point)",
-     "Imperative sentence (command)",
-     "*The play argues that a mother's selfless labour is exploited by a complacent family until she forcibly asserts her right to leisure, respect, and reciprocal care"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "articulate the primary theme in a precise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how the body-swap device functions",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "trace its development across at least three",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"The theme is that mothers work hard\") reveals the student confuses topic with theme — a topic is a noun phrase; a theme is a complete proposition about that topic.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) articulate the primary theme in a precise thematic statement, (2) trace its development",
     "id": "gen_c11_eng_s_ch03_q6",
     "nodeId": "c11_eng_s_cbse_03_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you come home after a long day at school and your mother has not only cooked dinner but also washed your uniform, packed your bag, and",
-     "To begin analysing the theme, first list every demand the family makes on Mrs Pearson in the first ten pages (tea, ironing, mending, late-night",
-     "Next, identify the turning point: the body-swap with Mrs Fitzgerald.",
-     "Then, track how \"Mrs Pearson\" (actually Mrs Fitzgerald) refuses *each* demand using the exact logic the family uses on her (\"I've joined the"
+     "Ask what 'Mother's Day' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -1772,16 +1767,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Pre-swap: heavy positive politeness (apologizing, hedging, claiming shared values) to protect family's face",
      "A primary theme is the central, overarching message of the work (e.g., \"a mother must assert her dignity to gain respect\")"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Mother's Day'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists plot events or character traits instead of universal ideas shows the student confuses theme with subject or topic.",
     "id": "gen_c11_eng_s_ch03_q7",
     "nodeId": "c11_eng_s_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Think about a time when a funny situation at home revealed a serious truth — like joking about who does the dishes leading to a real conversation",
-     "In \"Mother's Day,\" Priestley uses humor and a fantastical body-swap to expose deeper issues.",
-     "To find secondary themes, first list the major conflicts: Mrs.",
-     "Pearson's invisibility, the children's entitlement, George's club obsession."
+     "Look beneath the main theme of 'Mother's Day' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -1789,20 +1781,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the type of imagery in the stage direction: \"Mrs Fitzgerald is older, heavier and a strong and sinister personality. She is smoking.\"",
     "answer": "Visual imagery (\"older, heavier\"), tactile/kinesthetic implication (\"strong\"), and olfactory/gustatory imagery (\"smoking\" implies smell of smoke and taste of tobacco)",
     "options": [
+     "The student can independently map the five-act structural elements onto the one-act play \"Mother's Day,\" identify the inciting incident (the personality swap)",
      "Mrs. Pearson speaks in a \"light, flurried sort of tone, with a touch of suburban Cockney\"; Mrs. Fitzgerald has a \"deep voice, rather Irish perhaps",
-     "The primary purpose is to understand how word choices reveal character personality, social dynamics",
      "Visual imagery (\"older, heavier\"), tactile/kinesthetic implication (\"strong\"), and olfactory/gustatory imagery (\"smoking\" implies smell of smoke and taste of tobacco)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Mother's Day'' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal gaps: A student who only says \"visual\" misses how \"smoking\" activates smell/taste and how \"strong\" suggests physical presence.",
     "id": "gen_c11_eng_s_ch03_q8",
     "nodeId": "c11_eng_s_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are directing a stage production of \"Mother's Day\".",
-     "The script says Mrs.",
-     "Pearson speaks in a \"light, flurried sort of tone\" while Mrs.",
-     "Fitzgerald has a \"deep voice, rather Irish perhaps\" and is \"smoking\"."
+     "Find the lines in 'Mother's Day' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -1810,20 +1799,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define dramatic irony and give one example from *Mother's Day* where the audience possesses knowledge that the on-stage characters lack.",
     "answer": "Dramatic irony occurs when the audience knows a crucial fact that the characters do not. In *Mother's Day*, the audience knows Mrs",
     "options": [
-     "(1) Small suburban semi-detached villa, (2) Two doors — one leading to front door/stairs, one to kitchen/back door, (3) Muslin-covered window(s) in left/right walls",
-     "The playwright is J.B. Priestley, a British novelist, playwright, and social commentator known for his socialist views and critique of class and gender inequalities",
+     "The central dramatic device is the supernatural body-swap between Mrs. Pearson and Mrs. Fitzgerald",
+     "Irony is a literary device where there is a contrast between expectation and reality, often revealing a deeper truth",
      "Dramatic irony occurs when the audience knows a crucial fact that the characters do not. In *Mother's Day*, the audience knows Mrs"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Mother's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing it with situational irony) reveals the student cannot distinguish between audience-privileged knowledge and unexpected plot outcomes.",
     "id": "gen_c11_eng_s_ch03_q9",
     "nodeId": "c11_eng_s_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a family dinner where the mother serves everyone silently, then suddenly announces she's \"clocking off\" for the weekend —",
-     "That jolt is irony: the expected nurturer becomes a striker.",
-     "In *Mother's Day*, Priestley uses a magical body-swap to make this visible.",
-     "Begin by listing every moment where a character says one thing but means another (verbal irony), where the audience knows the swap but the family"
+     "Look in 'Mother's Day' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -1883,10 +1869,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_03_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading the play and encounter \"sinister\" describing Mrs.",
-     "Fitzgerald: \"older, heavier and a strong and sinister personality.\" You don't have a dictionary.",
-     "How do you begin?",
-     "First, notice the contrast with Mrs."
+     "Note the difficult or loaded words in 'Mother's Day' — their meaning carries the text's precision."
     ]
    },
    {
@@ -1894,21 +1877,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the sentence type of Mrs Fitzgerald's line: \"Put your foot down, once an' for all, an' be the mistress of your own house an' the boss of your own family.\"",
     "answer": "Imperative sentence (command)",
     "options": [
-     "Mrs. Pearson speaks in a \"light, flurried sort of tone, with a touch of suburban Cockney\"; Mrs. Fitzgerald has a \"deep voice, rather Irish perhaps",
-     "The primary issue is the unequal distribution of domestic labor and the lack of appreciation for the mother's role in the family",
-     "Pompy-ompy sentence (command)",
+     "The student can independently identify specific instances of imagery and metaphor in \"Mother's Day\", explain the sensory effect or comparative logic of each",
+     "The student can identify at least three distinct instances of irony (situational, dramatic, verbal) and two symbols in *Mother's Day*",
+     "No sentence (command)",
      "Imperative sentence (command)"
     ],
-    "hint": "Straight from the 'Language usage analysis examines' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Mother's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"declarative\" or \"interrogative\") reveals the student cannot distinguish sentence functions, missing how Fitzgerald's grammatical directness establishes her dominance immediately.",
     "id": "gen_c11_eng_s_ch03_q11",
     "nodeId": "c11_eng_s_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Think about how your tone changes when you ask a sibling for a favor versus when a teacher gives an instruction.",
-     "In \"Mother's Day,\" J.B.",
-     "Priestley uses grammar as a character-building tool.",
-     "Start by comparing Mrs Pearson's opening hedged requests (\"I suppose it is,\" \"I keep dropping a hint\") with Mrs Fitzgerald's direct imperatives (\"Put"
+     "Read 'Mother's Day' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -1920,16 +1900,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Pre-swap: heavy positive politeness (apologizing, hedging, claiming shared values) to protect family's face",
      "A literal question's answer is directly stated in the text (e.g., \"What is Mrs Pearson doing when the curtain rises?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"inferential questions are just opinions\" reveals the misconception that inference lacks textual evidence.",
     "id": "gen_c11_eng_s_ch03_q12",
     "nodeId": "c11_eng_s_cbse_03_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked: \"Why does Mrs Pearson suddenly start smoking and playing cards?",
-     "Begin by reading the question and underlining keywords.",
-     "Next, scan the text for those keywords or synonyms.",
-     "If the answer is explicitly there, it's literal — quote the line."
+     "Answer 'Mother's Day' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -1937,20 +1914,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the central dramatic device J.B. Priestley uses in \"Mother's Day\" to enable Mrs. Pearson to confront her family?",
     "answer": "The central dramatic device is the supernatural body-swap between Mrs. Pearson and Mrs. Fitzgerald",
     "options": [
-     "The playwright is J.B. Priestley, a British novelist, playwright, and social commentator known for his socialist views and critique of class and gender inequalities",
-     "Dramatic irony occurs when the audience knows a crucial fact that the characters do not. In *Mother's Day*, the audience knows Mrs",
+     "The student can explain how the historical context of 1950s British society, Priestley's socialist views",
+     "Irony is a literary device where there is a contrast between expectation and reality, often revealing a deeper truth",
      "The central dramatic device is the supernatural body-swap between Mrs. Pearson and Mrs. Fitzgerald"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Mother's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Mrs. Pearson suddenly gets angry\" or \"Mrs. Fitzgerald gives her advice\") reveals the student is tracking plot events but missing the structural function of the fantasy element: it creates a safe distance for satire and allows the protagonist to act out of character without permanent social risk.",
     "id": "gen_c11_eng_s_ch03_q13",
     "nodeId": "c11_eng_s_cbse_03_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a family therapist observing the Pearsons: a mother who serves everyone, a husband who expects service, and children who take her for",
-     "What would you diagnose as the root cause?",
-     "Now, how does Priestley use a magical body-swap to expose this dysfunction?",
-     "Begin by listing the specific grievances Mrs."
+     "Analyse 'Mother's Day' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -1958,20 +1933,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of structured answer writing for CBSE Class 11 English?",
     "answer": "PEEL stands for Point (topic sentence), Evidence (textual quote or specific detail), Explanation (analysis of how evidence supports the point)",
     "options": [
-     "*The play argues that a mother's selfless labour is exploited by a complacent family until she forcibly asserts her right to leisure, respect, and reciprocal care",
-     "The playwright is J.B. Priestley, a British novelist, playwright, and social commentator known for his socialist views and critique of class and gender inequalities",
+     "The student can independently write a 120-150 word long-answer response using the PEEL structure (Point, Evidence, Explanation, Link)",
+     "The student must write a structured character analysis of Mrs",
      "PEEL stands for Point (topic sentence), Evidence (textual quote or specific detail), Explanation (analysis of how evidence supports the point)"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Mother's Day'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student lacks the foundational scaffold for analytical writing and will likely produce disorganized, plot-summary answers.",
     "id": "gen_c11_eng_s_ch03_q14",
     "nodeId": "c11_eng_s_cbse_03_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open your Class 11 English exam and see: \"Write a diary entry for Mrs.",
-     "Pearson after the day the personalities swap back, reflecting on what she learned about her family.\" Your mind goes blank — where to begin?",
-     "First, identify the *format* (diary entry: date, first-person, emotional tone, reflection).",
-     "Second, recall the *key events* (the swap, her boldness, family's reaction, the return)."
+     "For written answers on 'Mother's Day', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -1979,20 +1951,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the primary social issue raised in \"Mother's Day\" that the discussion points ask students to evaluate?",
     "answer": "The primary issue is the unequal distribution of domestic labor and the lack of appreciation for the mother's role in the family",
     "options": [
-     "Dramatic irony occurs when the audience knows a crucial fact that the characters do not. In *Mother's Day*, the audience knows Mrs",
-     "The playwright is J.B. Priestley, a British novelist, playwright, and social commentator known for his socialist views and critique of class and gender inequalities",
+     "The student can participate in a formal group discussion on the play, citing specific textual evidence to support arguments",
+     "Speaking and Listening: Discussion Points refers to the structured oral communication skills where students analyze, debate, and present viewpoints on the themes, characters",
      "The primary issue is the unequal distribution of domestic labor and the lack of appreciation for the mother's role in the family"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Mother's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the play is about fortune-telling\") reveals the student has confused the plot device (body swap) with the central theme, indicating they cannot distinguish between narrative mechanism and social commentary.",
     "id": "gen_c11_eng_s_ch03_q15",
     "nodeId": "c11_eng_s_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine your family is deciding who cleans up after a festival dinner — the same two people always end up doing it while others relax.",
-     "How would you start a conversation to change this pattern without causing a fight?",
-     "This real-life dilemma mirrors Mrs.",
-     "Pearson's struggle."
+     "Talk through 'Mother's Day' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -2050,7 +2019,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Before the swap, Mrs. Pearson embodies the \"ideal\" submissive wife/mother: apologetic, fluttering, unable to say no",
      "Mrs. Fitzgerald, an older, stronger, \"sinister\" woman who learned fortune-telling \"out East,\" represents an alternative female power—knowledge and assertiveness—that Mrs"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Mother's Day' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer that sees her only as a plot device for magic misses the gendered symbolism: the only way a 1950s mother can \"become the boss\" is through supernatural intervention.",
     "id": "gen_c11_eng_s_ch03_q17",
     "nodeId": "c11_eng_s_cbse_03_001",
@@ -2065,7 +2034,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "It is a partial resolution: satisfactory because it establishes reciprocity (children cook, father engages) and the mother asserts leisure time (rummy)",
      "Expected features: (1) a single setting (the living-room), (2) a continuous action in real time (one afternoon), (3) a small cast (five characters)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Mother's Day' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer listing features of a full-length play (multiple acts, subplots, many settings) indicates the student cannot transfer genre knowledge to a new text.",
     "id": "gen_c11_eng_s_ch03_q18",
     "nodeId": "c11_eng_s_cbse_03_001",
@@ -2074,24 +2043,24 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'mother's day' — the context and background to this?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Mother's Day' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_eng_s_ch04",
-  "title": "Context And Background",
+  "title": "'Birth' — The Context And Background To This",
   "subtitle": "English · Chapter 4",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "Context And Background",
+  "topic": "'Birth' — The Context And Background To This Text",
   "chapters": [
-   "English Ch4: Context And Background"
+   "English Ch4: 'Birth' — The Context And Background To This Text"
   ],
   "nodeIds": [
    "c11_eng_s_cbse_04_001",
@@ -2117,103 +2086,103 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Context And Background suddenly stops working?",
+   "question": "What happens if 'Birth' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Context and background refers to the historical, social, cultural, and biographical information surrounding a literary work that illuminates its"
+   "hook": "'Birth' (Snapshots, ch."
   },
   "teaching": [
    {
-    "title": "Context And Background",
-    "text": "Context and background refers to the historical, social, cultural, and biographical information surrounding a literary work that illuminates its setting, characters, themes, and authorial intent, enabling deeper comprehension and critical analysis.",
+    "title": "Before You Read: Context and Background",
+    "text": "'Birth' (Snapshots, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the organized sequence of events in a story and the techniques used to arrange them—including exposition, rising action, climax, falling action, and resolution—along with narrative devices such as pacing, perspective,",
+    "title": "Plot/narrative Arc Of 'Birth'",
+    "text": "The plot/narrative arc of 'Birth' — what happens, in what order, and why the sequence matters.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a story occurs, while atmosphere is the emotional tone or mood created through sensory details, descriptive language, and narrative pacing.",
+    "title": "Setting Of 'Birth'",
+    "text": "The setting of 'Birth' — the place, time and atmosphere the text creates.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's personality traits, internal conflicts, motivations, and development through their actions, thoughts, speech, and relationships, using textual evidence to support inferences",
+    "title": "Character Analysis In 'Birth'",
+    "text": "Character analysis in 'Birth' — the central figure(s), their traits, and how they develop.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Supporting Character Analysis Examines How",
-    "text": "Supporting character analysis examines how secondary figures (Joe Morgan, Mrs. Morgan's mother, the midwife) function as narrative catalysts, thematic foils, and social mirrors that reveal the protagonist's growth and the story's central concerns through",
+    "title": "Supporting Characters In 'Birth'",
+    "text": "Supporting characters in 'Birth' — the secondary figures who move the story forward.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through plot, character, and conflict.",
+    "title": "Primary Theme Of 'Birth'",
+    "text": "The primary theme of 'Birth' — the central idea the whole text returns to.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that run parallel to the primary theme, enriching the narrative by exploring complementary human experiences, conflicts, or social realities.",
+    "title": "Secondary Themes In 'Birth'",
+    "text": "Secondary themes in 'Birth' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Birth' — The Vivid",
+    "text": "Imagery in 'Birth' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events contrasts sharply with their literal or expected meaning, creating a gap between appearance and reality.",
+    "title": "Irony And Paradox In 'Birth' — Where",
+    "text": "Irony and paradox in 'Birth' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context is the skill of determining the precise meaning, connotation, and grammatical function of unfamiliar words by analyzing syntactic structures, semantic relationships, authorial tone, and situational clues within the surrounding text",
+    "title": "Key Vocabulary Of 'Birth'",
+    "text": "Key vocabulary of 'Birth' — the words and phrases you must know to read the text well.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the analytical study of how grammatical structures—such as tense sequences, voice, sentence types, and reported speech—function within a literary excerpt to shape narrative perspective, control pacing, characterize",
+    "title": "Language And Style In 'Birth'",
+    "text": "Language and style in 'Birth' — how the writer chose words, sentences and tone.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions require drawing logical conclusions by combining textual evidence with reasoning.",
+    "title": "Literal Comprehension Of 'Birth' — Questions",
+    "text": "Literal comprehension of 'Birth' — questions answered straight from the text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the advanced literary skill of examining a text's deeper layers—such as authorial intent, narrative perspective, thematic complexity, and socio-cultural context—to form evidence-based judgments about its",
+    "title": "Critical Thinking On 'Birth' — Analysing",
+    "text": "Critical thinking on 'Birth' — analysing the text to reach evidence-based judgements.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter \"Birth\"",
-    "text": "Writing Skills based on the chapter \"Birth\" refers to the ability to compose structured, evidence-based responses (such as diary entries, character sketches, thematic essays, and analytical paragraphs) that demonstrate comprehension of the narrative,",
+    "title": "Writing Skills From 'Birth' — Using",
+    "text": "Writing skills from 'Birth' — using the text as a model or springboard for your own writing.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students collaboratively explore, analyze, and evaluate key thematic, ethical, and narrative questions arising from the chapter \"Birth\" by A.",
+    "title": "Discussion Points On 'Birth' — Speaking",
+    "text": "Discussion points on 'Birth' — speaking and listening around the text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -2224,20 +2193,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Who is the author of \"The Citadel,\" and what was his profession before becoming a full-time writer?",
     "answer": "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing",
     "options": [
-     "Andrew uses alternating hot and cold water immersion (a \"special method of respiration\" recalled from a Samaritan case) to stimulate the asphyxiated infant",
-     "One secondary theme is the conflict between textbook medicine and practical experience. Textual signal: \"his mind, unnaturally tense",
+     "The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising Action—conflict develops through complications",
+     "Plot and narrative structure refers to the organized sequence of events in a story and the techniques used to arrange them—including exposition, rising action, climax",
      "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing"
     ],
-    "hint": "Straight from the 'Context and background' slide -- match the key terms.",
+    "hint": "Straight from the ''Birth' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming a different author or profession) reveals the student hasn't grasped the autobiographical foundation that makes the medical details authentic.",
     "id": "gen_c11_eng_s_ch04_q1",
     "nodeId": "c11_eng_s_cbse_04_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are a doctor in 1920s Wales, called to a miner's home at midnight for a difficult birth with no modern equipment.",
-     "Before reading \"Birth,\" ask: What was life like in a Welsh mining town?",
-     "How did doctors work without antibiotics?",
-     "Why does the author, a physician himself, write this scene?"
+     "Start with the author of 'Birth', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -2308,10 +2274,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_04_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a medical drama where a young doctor faces his first life-or-death case while battling personal doubts about his career and",
-     "Then trace how the inciting incident (Joe Morgan's call) disrupts this normalcy.",
-     "Notice how the narrative alternates between the medical procedure upstairs and Andrew's psychological turmoil downstairs—this parallel structure IS",
-     "The key insight: the true climax isn't the child's delivery (which yields a stillborn) but the resuscitation fifteen minutes later, because that's"
+     "Trace 'Birth' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -2319,20 +2282,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the physical setting of the Morgan household in \"Birth,\" and what time of day does the story begin?",
     "answer": "The Morgan household is at Number 12 Blaina Terrace, a narrow-staired, poorly furnished bedroom lit by an oil lamp, in the Welsh mining town of Blaenelly",
     "options": [
-     "Narrative perspective refers to the vantage point from which the story is told; in \"Birth,\" the third-person limited perspective grants primary access to Andrew Manson's",
-     "The three supporting characters are: (1) Joe Morgan — the anxious husband who paces outside, showing strained hope; (2) Mrs",
+     "The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising Action—conflict develops through complications",
+     "Context and background refers to the historical, social, cultural, and biographical information surrounding a literary work that illuminates its setting, characters, themes",
      "The Morgan household is at Number 12 Blaina Terrace, a narrow-staired, poorly furnished bedroom lit by an oil lamp, in the Welsh mining town of Blaenelly"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Birth'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., daytime, hospital) shows the student cannot locate basic setting details from the text.",
     "id": "gen_c11_eng_s_ch04_q3",
     "nodeId": "c11_eng_s_cbse_04_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking through an unfamiliar neighborhood at midnight — what do you notice?",
-     "The silence, the dim lights, the cool air, the feeling of anticipation?",
-     "In \"Birth,\" Andrew Manson experiences this as he walks to Number 12 Blaina Terrace.",
-     "To analyze setting and atmosphere, first locate explicit time/place markers (midnight, Blaenelly, narrow stair, oil lamp)."
+     "Identify where and when 'Birth' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -2340,20 +2300,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the protagonist's name and his professional status at the start of the excerpt?",
     "answer": "The protagonist is Andrew Manson, a newly qualified doctor working as an assistant to Dr. Edward Page in Blaenelly",
     "options": [
-     "One secondary theme is the conflict between textbook medicine and practical experience. Textual signal: \"his mind, unnaturally tense",
-     "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing",
+     "The student can independently identify all five stages of the narrative arc in \"Birth,\" cite specific textual evidence for each stage",
+     "The Morgan household is at Number 12 Blaina Terrace, a narrow-staired, poorly furnished bedroom lit by an oil lamp, in the Welsh mining town of Blaenelly",
      "The protagonist is Andrew Manson, a newly qualified doctor working as an assistant to Dr. Edward Page in Blaenelly"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Birth'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Joe Morgan or Dr. Page) reveals the student cannot distinguish the central character from supporting characters, indicating a basic comprehension gap.",
     "id": "gen_c11_eng_s_ch04_q4",
     "nodeId": "c11_eng_s_cbse_04_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a doctor on call at 3 a.m., exhausted and doubting your career choice, when a crisis forces you to act without thinking.",
-     "That is Andrew Manson's night.",
-     "To analyze him, start by listing every action he takes from the moment Joe Morgan fetches him to the final words \"Both all right.",
-     "Then, match each action to a thought: does he act out of duty, instinct, or love?"
+     "Pick the central figure in 'Birth' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -2402,10 +2359,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_04_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a doctor called to a difficult birth at midnight — the husband paces outside, the grandmother watches you like a hawk, and the",
-     "How do these three people's reactions shape your decisions and reveal your character?",
-     "In \"Birth\", Joe Morgan's anxious pacing, the grandmother's silent vigil, and the midwife's fearful scepticism create the pressure cooker that forces",
-     "Start by listing each character's key actions and dialogue, then ask: what does this person represent — hope, tradition, doubt?"
+     "Spot the secondary figures in 'Birth' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -2417,16 +2371,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "The first cluster (limp, warm, white, soft, tallow) is diagnostic, static, and death-associated: tactile softness and pallor signal asphyxia pallida, the body as object",
      "Plot is the sequence of events (what happens); primary theme is the central idea about human experience those events reveal (what it means)"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Birth'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"The theme is that a doctor delivers a baby\") confuses plot summary with thematic interpretation, showing the student cannot abstract from concrete events to universal insight.",
     "id": "gen_c11_eng_s_ch04_q6",
     "nodeId": "c11_eng_s_cbse_04_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Andrew Manson, exhausted after a night of failing to save a newborn, suddenly feeling a tiny heartbeat under your fingers.",
-     "That moment — the shift from \"I've failed\" to \"I've done something real\" — is the heartbeat of the story's primary theme.",
-     "To find it, start by asking: \"What is the one struggle that structures the entire narrative?",
-     "Track the conflict (Andrew's doubt vs. the demand of the moment), the climax (the resuscitation), and the resolution (his walk home at dawn)."
+     "Ask what 'Birth' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -2497,31 +2448,56 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_04_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a medical drama where the doctor saves a patient, but the camera keeps cutting to the doctor's trembling hands, the anxious",
-     "That's exactly what Cronin does in \"Birth\" — the main plot is the delivery, but the secondary themes are the \"cutaways\" that give the story emotional",
-     "Start by asking: \"What else is happening inside Andrew while he's delivering the baby?",
-     "Each shift signals a secondary theme."
+     "Look beneath the main theme of 'Birth' for the recurring secondary ideas that give it layers."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define imagery and metaphor precisely. How does a metaphor differ from a simile in grammatical structure and cognitive effect?",
-    "answer": "Imagery is sensory language appealing to the five senses to create mental representations; metaphor is a direct equation (A *is* B) transferring qualities from source to target",
-    "options": [
-     "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing",
-     "The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising Action—conflict develops through complications",
-     "Imagery is sensory language appealing to the five senses to create mental representations; metaphor is a direct equation (A *is* B) transferring qualities from source to target"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze how Cronin's imagery and metaphors",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how each device appeals to",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify specific images and metaphors",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
-    "misconception": "A wrong answer that confuses simile with metaphor or omits the sensory basis of imagery reveals the student is memorising labels without grasping the mechanistic difference in how each device operates on the reader's cognition.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify specific images and metaphors in \"Birth\" with textual evidence, (2) explain",
     "id": "gen_c11_eng_s_ch04_q8",
     "nodeId": "c11_eng_s_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Andrew Manson, standing in that dimly lit bedroom at 3 a.m., the oil lamp flickering, the smell of ether and sweat in the air, your",
-     "Cronin doesn't just *tell* you this — he makes you *feel* it through imagery: \"white and soft as tallow,\" \"the beat of Morgan's footsteps,\" \"sweat",
-     "When the text says \"his thoughts were heavy, muddled,\" that's not literal — it's a metaphor mapping physical weight and turbidity onto mental state.",
-     "To begin analysis, first mark every sensory detail you find."
+     "Find the lines in 'Birth' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -2529,20 +2505,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"Birth\" where the outcome of the night call is the opposite of what Andrew anticipated when he left with Joe Morgan.",
     "answer": "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected",
     "options": [
-     "The protagonist is Andrew Manson, a newly qualified doctor working as an assistant to Dr. Edward Page in Blaenelly",
-     "The three questions are: (1) \"I have done something; oh, God! I've done something real at last.\" Why does Andrew say this?",
+     "The student can independently select 5+ unfamiliar words from \"Birth\", identify the specific context clue type (definition, synonym, antonym, example, inference, tone) for each",
+     "The student must be able to: (1) identify specific images and metaphors in \"Birth\" with textual evidence",
      "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Birth' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing it with dramatic irony or citing the chloroform conversation) reveals the student cannot distinguish between types of irony or locate the central situational reversal in the plot.",
     "id": "gen_c11_eng_s_ch04_q9",
     "nodeId": "c11_eng_s_cbse_04_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Andrew Manson, exhausted after a long night, watching a lifeless baby and a collapsing mother — you feel total defeat.",
-     "Then, against all odds, the baby gasps and cries.",
-     "That moment — where your medical training meets raw human instinct — is where irony and symbolism live in this story.",
-     "Begin by asking: \"What did Andrew expect that night, and what actually happened?\" That gap is irony."
+     "Look in 'Birth' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -2550,20 +2523,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the part of speech and write a one-sentence dictionary-style definition for \"premonition\" as used in: \"He had no premonition that this night call would prove unusual.\"",
     "answer": "Premonition (noun): a strong feeling that something is about to happen, especially something unpleasant",
     "options": [
-     "One secondary theme is the conflict between textbook medicine and practical experience. Textual signal: \"his mind, unnaturally tense",
-     "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing",
+     "The student can independently identify each supporting character's narrative function, cite textual evidence for their characterisation",
+     "The student can independently identify all five stages of the narrative arc in \"Birth,\" cite specific textual evidence for each stage",
      "Premonition (noun): a strong feeling that something is about to happen, especially something unpleasant"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Birth'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a memory of the past\") reveals the student is ignoring the future-oriented prefix \"pre-\" and the context \"would prove unusual\" which signals anticipation, not recollection.",
     "id": "gen_c11_eng_s_ch04_q10",
     "nodeId": "c11_eng_s_cbse_04_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a medical drama and hear \"The patient is tachycardic and hypotensive\" — you don't know the words, but the beeping monitors",
-     "That's context in action.",
-     "In \"Birth\", start by circling every word that makes you pause.",
-     "For each, read the sentence before and after, note the part of speech (is \"lethargy\" a noun describing a feeling?"
+     "Note the difficult or loaded words in 'Birth' — their meaning carries the text's precision."
     ]
    },
    {
@@ -2571,20 +2541,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the tense and voice of the verb phrase \"had been placed\" in the sentence: \"She had placed it beneath the bed.\" (Note: The text actually reads \"She had placed it beneath the bed\" but the diagnostic focuses on the passive equivalent \"had been placed\" found in similar contexts). State the tense name and voice.",
     "answer": "Correct: Past perfect passive. The structure is 'had been' + past participle",
     "options": [
-     "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing",
-     "The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising Action—conflict develops through complications",
+     "Critical Thinking: Analysis and Interpretation is the advanced literary skill of examining a text's deeper layers—such as authorial intent, narrative perspective",
+     "The student must be able to identify specific setting details (time, place, physical/social environment) and analyze how sensory language constructs atmosphere",
      "Correct: Past perfect passive. The structure is 'had been' + past participle"
     ],
-    "hint": "Straight from the 'Language Usage in the Text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Birth'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"past perfect active\" or \"past simple passive\") reveals the student cannot distinguish the passive auxiliary 'been' from the perfect auxiliary 'had', or confuses the agent-less passive with active voice where 'she' is the subject.",
     "id": "gen_c11_eng_s_ch04_q11",
     "nodeId": "c11_eng_s_cbse_04_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a doctor reading a case notes vs. a novelist writing a scene: the case notes use passive voice (\"The patient was administered.",
-     "In \"Birth,\" Cronin blends both.",
-     "Start by asking: \"Why does the text say 'had been placed' instead of 'the nurse placed'?\" Locate the first three paragraphs.",
-     "Highlight every verb phrase."
+     "Read 'Birth' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -2596,16 +2563,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "The oil lamp represents the dim, confined, anxious atmosphere of the old order — tradition, uncertainty, and the enclosed space of the mother's labour",
      "A literal question's answer is directly stated in the text (e.g., \"What did the old woman offer Andrew?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Birth'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty with cognitive process, not understanding that inference requires evidence-based reasoning.",
     "id": "gen_c11_eng_s_ch04_q12",
     "nodeId": "c11_eng_s_cbse_04_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a medical drama where a doctor saves a newborn.",
-     "A friend asks, \"What exactly did the doctor do?\" (literal) and \"Why did the doctor risk his reputation?\" (inferential).",
-     "To answer, first identify question type: literal questions use words like \"what,\" \"when,\" \"who\" with answers in the text; inferential questions use",
-     "For \"Birth,\" start by noting key events: Andrew's arrival, the delivery, the stillborn child, the resuscitation."
+     "Answer 'Birth' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -2613,20 +2577,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define \"narrative perspective\" in the context of \"Birth\" and identify whose consciousness the reader primarily accesses during the resuscitation scene.",
     "answer": "Narrative perspective refers to the vantage point from which the story is told; in \"Birth,\" the third-person limited perspective grants primary access to Andrew Manson's",
     "options": [
-     "The five stages are: (1) Exposition—establishing characters, setting, and status quo; (2) Rising Action—conflict develops through complications",
-     "The Morgan household is at Number 12 Blaina Terrace, a narrow-staired, poorly furnished bedroom lit by an oil lamp, in the Welsh mining town of Blaenelly",
+     "The student can independently identify each supporting character's narrative function, cite textual evidence for their characterisation",
+     "The student can independently deconstruct a key passage from \"Birth\" to explain how Cronin uses specific narrative techniques (e",
      "Narrative perspective refers to the vantage point from which the story is told; in \"Birth,\" the third-person limited perspective grants primary access to Andrew Manson's"
     ],
-    "hint": "Straight from the 'Critical Thinking' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Birth' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"omniscient narrator\" or \"the midwife's view\") reveals the student cannot distinguish between who *tells* the story and whose *mind* filters the events, a critical gap for analyzing psychological realism.",
     "id": "gen_c11_eng_s_ch04_q13",
     "nodeId": "c11_eng_s_cbse_04_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a doctor like Andrew, exhausted after a 3-hour delivery where the baby appears stillborn—your textbooks say \"stop,\" but something",
-     "To analyze this, start by isolating the turning point (Andrew's decision to ignore the midwife and resuscitate).",
-     "Ask: What specific words show his internal state?",
-     "How does the sentence rhythm change?"
+     "Analyse 'Birth' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -2634,21 +2596,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing structured answers for literature?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The protagonist is Andrew Manson, a newly qualified doctor working as an assistant to Dr. Edward Page in Blaenelly",
-     "A.J. Cronin, a Scottish physician who practiced medicine in Wales and on a luxury liner before turning to writing",
-     "PEEL stands for Point, Evidence, Explanation, Plot",
+     "Speaking and Listening: Discussion Points refers to the structured oral activity where students collaboratively explore, analyze, and evaluate key thematic, ethical",
+     "The student can explain how the historical context of early 20th-century Welsh mining communities and Cronin's medical background shape the narrative of \"Birth,\" and can identify",
+     "PEEL stands for Point, Evidence, Explanation, Resolution",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Birth' —' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student lacks the standard answer-writing framework taught in senior secondary English, leading to disorganized responses that lose marks for structure.",
     "id": "gen_c11_eng_s_ch04_q14",
     "nodeId": "c11_eng_s_cbse_04_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you just witnessed Andrew Manson revive a lifeless baby in that cramped Welsh bedroom — the kettle boiling, the midwife whimpering, the old",
-     "Now your teacher asks: \"Write Andrew's diary entry that night.\" Where do you begin?",
-     "First, recall the sequence: the stillbirth, the dilemma, the frantic hot-cold water treatment, the miraculous gasp.",
-     "Next, identify Andrew's internal conflict — his disillusionment with marriage versus his yearning for Christine, now resolved by this 'real'"
+     "For written answers on 'Birth', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -2697,10 +2656,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_04_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Andrew Manson standing in that scullery at dawn, telling Joe Morgan \"Both all right.",
-     "Start by re-reading the three textbook discussion questions.",
-     "For each, identify the core conflict: Question 1 contrasts clinical duty with human fulfillment; Question 2 contrasts theoretical knowledge with",
-     "In a group, assign each member one question to lead."
+     "Talk through 'Birth' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -2712,7 +2668,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Cronin uses narrative dilation: fifteen clock minutes expand into two dense pages of moment-by-moment action (\"splashed,\" \"plunging,\" \"hurried,\" \"redoubled,\" \"gasping,\" \"turning",
      "Cronin uses authentic details— the oil lamp, the pacing father, the midwife's folk wisdom, the doctor's exhaustion—to expose systemic neglect: miners' families had no safety net"
     ],
-    "hint": "Straight from the 'Context and background' slide -- match the key terms.",
+    "hint": "Straight from the ''Birth' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer that only summarizes the plot misses the analytical layer connecting biography to critique.",
     "id": "gen_c11_eng_s_ch04_q16",
     "nodeId": "c11_eng_s_cbse_04_001",
@@ -2727,7 +2683,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "\"Wince\" conveys a sharp, involuntary physical reaction to psychological pain, showing Andrew's deep discomfort with his own cynical conclusion",
      "Chloroform could depress the baby's respiration, and in an era before neonatal resuscitation was standard, protecting the infant often meant risking the mother's pain"
     ],
-    "hint": "Straight from the 'Context and background' slide -- match the key terms.",
+    "hint": "Straight from the ''Birth' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer that focuses only on the drug's chemistry without the historical context fails to apply period-specific medical knowledge.",
     "id": "gen_c11_eng_s_ch04_q17",
     "nodeId": "c11_eng_s_cbse_04_001",
@@ -2742,7 +2698,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "A strong stanza might read: \"The white fish slips from death's cold hold, / An iridescent bubble breaks the grey / Dawn sweeps the floor where towels fold / Life wears the rough",
      "A strong entry might mention: waiting for the \"company doctor,\" fear of the \"chalk cough\" (silicosis), the cost of the midwife, the loss of previous children"
     ],
-    "hint": "Straight from the 'Context and background' slide -- match the key terms.",
+    "hint": "Straight from the ''Birth' — the context and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry might mention: waiting for the \"company doctor,\" fear of the \"chalk cough\" (silicosis), the cost of the",
     "id": "gen_c11_eng_s_ch04_q18",
     "nodeId": "c11_eng_s_cbse_04_001",
@@ -2751,23 +2707,25 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about context and background?",
+    "What surprised you about 'birth' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Context And Background mastered! 🎯",
+  "successLine": "'Birth' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_eng_s_ch05",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Tale Of Melon City'",
   "subtitle": "English · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch5: Before You Read: Context and Background"],
+  "topic": "'The Tale Of Melon City'",
+  "chapters": [
+   "English Ch5: 'The Tale Of Melon City'"
+  ],
   "nodeIds": [
    "c11_eng_s_cbse_05_001",
    "c11_eng_s_cbse_05_002",
@@ -2792,103 +2750,103 @@ export const C11_ENG_S_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'The Tale Of Melon City' more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" refers to the preliminary study of a text's author, historical period, literary tradition, genre"
+   "hook": "'The Tale of Melon City' (Snapshots, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" refers to the preliminary study of a text's author, historical period, literary tradition, genre conventions, and central thematic concerns before engaging with the actual narrative, enabling students to activate",
+    "title": "'The Tale Of Melon City'",
+    "text": "'The Tale of Melon City' (Snapshots, ch. 5) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refer to the organized sequence of events in a story and the framework that arranges them, including exposition, rising action, climax, falling action, and resolution.",
+    "title": "Plot/narrative Arc Of 'The Tale",
+    "text": "The plot/narrative arc of 'The Tale of Melon City' — what happens, in what order, and why the sequence matters.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting In a Narrative Poem",
-    "text": "Setting in a narrative poem refers to the time, place, and social environment where the action unfolds, while atmosphere is the emotional mood or tone created by the setting, language, and events.",
+    "title": "Setting Of 'The Tale",
+    "text": "The setting of 'The Tale of Melon City' — the place, time and atmosphere the text creates.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the King's personality traits, motivations, decisions, and their consequences to understand how his 'just and placid' nature drives the narrative's ironic progression from arbitrary justice to absurd",
+    "title": "Character Analysis In 'The Tale",
+    "text": "Character analysis in 'The Tale of Melon City' — the central figure(s), their traits, and how they develop.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining their roles, traits, dialogues, and actions to understand how they contribute to the plot, themes, and the protagonist's development.",
+    "title": "Supporting Characters In 'The Tale",
+    "text": "Supporting characters in 'The Tale of Melon City' — the secondary figures who move the story forward.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea — the profound insight about human experience, society, or governance that the text explores through its narrative arc, character actions, and structural patterns.",
+    "title": "Primary Theme Of 'The Tale",
+    "text": "The primary theme of 'The Tale of Melon City' — the central idea the whole text returns to.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas or messages in a literary work that support, complicate, or run parallel to the primary theme. In \"The Tale of Melon City,\" while the primary theme satirizes the absurdity of justice and governance, secondary themes",
+    "title": "Secondary Themes In 'The Tale",
+    "text": "Secondary themes in 'The Tale of Melon City' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'The Tale Of Melon",
+    "text": "Imagery in 'The Tale of Melon City' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'The Tale",
+    "text": "Irony and paradox in 'The Tale of Melon City' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the meaning, tone, and connotation of words by analyzing how they are used in the surrounding text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'The Tale",
+    "text": "Key vocabulary of 'The Tale of Melon City' — the words and phrases you must know to read the text well.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of grammatical structures — such as verb forms, sentence types, voice, reported speech, and archaic/poetic constructions — as they appear in the poem, and how these choices shape meaning,",
+    "title": "Language And Style In 'The Tale",
+    "text": "Language and style in 'The Tale of Melon City' — how the writer chose words, sentences and tone.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions require drawing logical conclusions by combining textual evidence with reasoning.",
+    "title": "Literal Comprehension Of 'The Tale",
+    "text": "Literal comprehension of 'The Tale of Melon City' — questions answered straight from the text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of actively examining a text's explicit and implicit meanings, evaluating the author's choices (structure, language, devices), and synthesizing evidence to form an independent, reasoned",
+    "title": "Critical Thinking On 'The Tale",
+    "text": "Critical thinking on 'The Tale of Melon City' — analysing the text to reach evidence-based judgements.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter refer to the ability to compose structured, evidence-based responses to questions on the poem \"The Tale of Melon City,\" including narration, analysis, argumentation, and literary appreciation, using appropriate format (such",
+    "title": "Writing Skills From 'The Tale",
+    "text": "Writing skills from 'The Tale of Melon City' — using the text as a model or springboard for your own writing.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skill where students collaboratively analyze a literary text by articulating interpretations, building on peers' ideas, and using textual evidence to explore themes,",
+    "title": "Discussion Points On 'The Tale",
+    "text": "Discussion points on 'The Tale of Melon City' — speaking and listening around the text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -2899,20 +2857,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Who is the author of \"The Tale of Melon City\" and from which collection is this poem taken?",
     "answer": "The poem is by Vikram Seth, taken from his 1981 collection \"Mappings\" and later included in his \"Collected Poems",
     "options": [
-     "The King is described as 'just and placid.' 'Just' means fair and law-abiding; 'placid' means calm and not easily upset",
-     "Examples: (1) Chief of builders – says \"O King, it was the workmen's fault\"; (2) Architect – says \"You made certain amendments to the plans when I showed them to you\"",
+     "The student must be able to independently identify specific instances of imagery (classifying sensory type) and metaphor in the poem",
+     "The student can independently identify at least 10 key words from the poem, explain their contextual meanings with textual evidence",
      "The poem is by Vikram Seth, taken from his 1981 collection \"Mappings\" and later included in his \"Collected Poems"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Tale of Melon City'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming another poet like Nissim Ezekiel or misidentifying the collection as \"The Golden Gate\") reveals the student hasn't read the introductory note carefully and misses the significance of Seth's formal verse satire in Indian English poetry.",
     "id": "gen_c11_eng_s_ch05_q1",
     "nodeId": "c11_eng_s_cbse_05_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a political satire show like \"The Great Indian Kapil Show\" but set in a medieval kingdom — you'd want to know who wrote",
-     "Similarly, before reading \"The Tale of Melon City,\" ask: Who is Vikram Seth beyond \"A Suitable Boy\"?",
-     "What does \"After Idries Shah\" signal about the story's roots in Sufi teaching tales?",
-     "Why does the textbook highlight the king being \"just and placid\" as a setup for disaster?"
+     "Start with the author of 'The Tale of Melon City', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -2920,20 +2875,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the five stages of Freytag's Pyramid (exposition, rising action, climax, falling action, resolution) and match each to a specific segment of \"The Tale of Melon City.\"",
     "answer": "Exposition: The just/placid king orders an arch built (stanzas 1-2). Rising action: Crown lost → blame shifts from builders → workmen → masons → architect → king's amendments",
     "options": [
-     "The poem is by Vikram Seth, taken from his 1981 collection \"Mappings\" and later included in his \"Collected Poems",
-     "The four main physical settings in sequence are: 1) the major thoroughfare where the arch is built, 2) the Royal Court where the king hears petitions",
+     "The student can identify at least three supporting characters, cite textual evidence for their traits, explain how each character advances the plot or theme",
+     "The student can identify at least three distinct types of irony (situational, verbal, dramatic) in the poem, explain how each operates with textual evidence",
      "Exposition: The just/placid king orders an arch built (stanzas 1-2). Rising action: Crown lost → blame shifts from builders → workmen → masons → architect → king's amendments"
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., placing climax at architect's blame) reveals inability to distinguish peak tension from complication.",
     "id": "gen_c11_eng_s_ch05_q2",
     "nodeId": "c11_eng_s_cbse_05_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing the plot of a movie to a friend who hasn't seen it — you wouldn't just list random scenes; you'd organize them: \"First",
-     "Start by reading the poem once just for the story flow, ignoring poetic devices.",
-     "Ask: \"What is the initial situation?",
-     "What disrupts it?"
+     "Trace 'The Tale of Melon City' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -2941,20 +2893,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What are the four main physical settings in \"The Tale of Melon City\" in the order they appear?",
     "answer": "The four main physical settings in sequence are: 1) the major thoroughfare where the arch is built, 2) the Royal Court where the king hears petitions",
     "options": [
-     "It indicates the poem is adapted from or inspired by a tale in Idries Shah's collections of Sufi teaching stories (like \"The Tale of the Melon City\" in \"Tales of the Dervishes\")",
-     "A secondary theme is a subordinate idea that supports or runs parallel to the main central message (primary theme)",
+     "The student can actively participate in a 10-minute group discussion on \"The Tale of Melon City\" by presenting at least three distinct analytical points supported by textual",
+     "The student can independently explain Vikram Seth's literary significance, identify the satirical tradition of \"The Tale of Melon City\" (linking it to Idries Shah's Sufi tales)",
      "The four main physical settings in sequence are: 1) the major thoroughfare where the arch is built, 2) the Royal Court where the king hears petitions"
     ],
-    "hint": "Straight from the 'Setting in a narrative poem' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing the throne room before the scaffold) reveals the student has not tracked the spatial progression of the narrative, which is essential for seeing how the poem expands from a local construction flaw to a systemic collapse of justice.",
     "id": "gen_c11_eng_s_ch05_q3",
     "nodeId": "c11_eng_s_cbse_05_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a play where the stage set changes from a grand palace archway to a grim scaffold to a dusty city gate — all in a few",
-     "The lighting, props, and crowd noise shift the mood from ceremony to panic to absurdity.",
-     "In this poem, Seth does exactly that with words.",
-     "Start by reading the poem aloud and marking every place name or location reference (thoroughfare, court, scaffold, city gate, throne)."
+     "Identify where and when 'The Tale of Melon City' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -3025,10 +2974,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_05_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a citizen in a kingdom where the ruler is described as 'just and placid' — you'd expect fair, calm leadership.",
-     "But what happens when that ruler takes 'justice' so literally that he orders executions for architectural errors, then measures his own neck for the",
-     "Start by listing every action the King takes from the arch's construction to his hanging.",
-     "For each action, ask: 'What does this reveal about his understanding of justice?' Notice how his placidity never breaks — he never gets angry, only"
+     "Pick the central figure in 'The Tale of Melon City' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -3077,10 +3023,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_05_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a play where the main actor is the King, but the story makes no sense without the people around him.",
-     "Start by listing every character who speaks or acts besides the King.",
-     "For each, ask: What do they say?",
-     "What do they do?"
+     "Spot the secondary figures in 'The Tale of Melon City' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -3092,16 +3035,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "A strong answer maintains AABB rhyme, uses the poem's satirical tone, and reflects 'peace and liberty' through non-interference",
      "Primary theme = the central, universal idea explored through the work (e.g., \"the absurdity of bureaucratic justice\")"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Tale' slide -- match the key terms.",
     "misconception": "Wrong Answer Reveals: If the student writes \"the theme is that the king was foolish\" or \"the theme is don't blame others,\" they are confusing plot-level observation or simplistic moralising with thematic analysis.",
     "id": "gen_c11_eng_s_ch05_q6",
     "nodeId": "c11_eng_s_cbse_05_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're at a traffic signal that stays red for five minutes at 2 AM with no cars in sight — you wait because \"that's the rule,\" even though it",
-     "That's the world of Melon City.",
-     "To find the primary theme, start by asking: What keeps repeating?",
-     "The King wants justice → blames builders → builders blame workmen → workmen blame masons → masons blame architect → architect blames King → wisest"
+     "Ask what 'The Tale of Melon City' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -3161,10 +3101,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_05_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine your school introduces a new rule: \"The first student to enter the gate on Monday becomes Principal for the week.",
-     "That's the absurd custom in Melon City.",
-     "To find secondary themes, start by listing every group in the poem: the King, the Ministers, the Wise Man, the Crowd, the Idiot.",
-     "Ask: what does each group *value*?"
+     "Look beneath the main theme of 'The Tale of Melon City' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -3172,20 +3109,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define \"metaphor\" precisely using the terms \"tenor\" and \"vehicle\", and give one example from the poem where an abstract concept is the tenor.",
     "answer": "A metaphor asserts that the tenor (subject, e.g., \"justice\") *is* the vehicle (image, e.g., \"a hanging\"), transferring attributes of the vehicle to the tenor",
     "options": [
-     "The four main physical settings in sequence are: 1) the major thoroughfare where the arch is built, 2) the Royal Court where the king hears petitions",
-     "The King is described as 'just and placid.' 'Just' means fair and law-abiding; 'placid' means calm and not easily upset",
+     "The student must be able to identify at least two distinct secondary themes in the poem, provide specific textual evidence (referencing stanzas/events) for each",
+     "Students treat discussion as a series of disconnected opinions (\"I think it's funny\") rather than a collaborative analysis where each speaker builds on the previous point using",
      "A metaphor asserts that the tenor (subject, e.g., \"justice\") *is* the vehicle (image, e.g., \"a hanging\"), transferring attributes of the vehicle to the tenor"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Tale of Melon' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"metaphor uses like or as\") reveals confusion with simile; an answer missing \"tenor/vehicle\" lacks the technical vocabulary required for Class 11 board answers.",
     "id": "gen_c11_eng_s_ch05_q8",
     "nodeId": "c11_eng_s_cbse_05_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing a chaotic traffic junction to a friend: you don't just say \"it was busy\"; you say \"honking horns stabbed the air\"",
-     "That instinct to make the listener *feel* the scene is exactly what Seth does.",
-     "Begin by reading the poem aloud, pencil in hand.",
-     "First, circle every word that triggers a sensory experience — \"crown\", \"frown\", \"rope\", \"gallows\", \"quivering\", \"red\", \"scaffold\", \"noose\", \"melon\"."
+     "Find the lines in 'The Tale of Melon City' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -3193,20 +3127,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"The Tale of Melon City\" where the outcome is the opposite of what was intended.",
     "answer": "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended",
     "options": [
-     "The central irony is that the king's obsession with \"justice\" leads to his own execution, and the subsequent \"customary choice\" of a melon as ruler is accepted by citizens who",
-     "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating tension or humour",
+     "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality",
+     "It indicates the poem is adapted from or inspired by a tale in Idries Shah's collections of Sufi teaching stories (like \"The Tale of the Melon City\" in \"Tales of the Dervishes\")",
      "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the king is funny\" or \"the arch is too low\") shows the student confuses irony with mere accident or humor, missing the structural reversal between intention and result.",
     "id": "gen_c11_eng_s_ch05_q9",
     "nodeId": "c11_eng_s_cbse_05_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a courtroom drama where the judge, trying to be perfectly fair, ends up sentencing himself to death because his own rules",
-     "That's the core irony of \"The Tale of Melon City.\" Start by re-reading the poem with a highlighter, marking every moment where something happens that",
-     "Then ask: what objects keep recurring?",
-     "The arch, the crown, the noose, the melon."
+     "Look in 'The Tale of Melon City' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -3214,20 +3145,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What is the primary strategy for determining the meaning of an unfamiliar word in a literary text without using a dictionary?",
     "answer": "The primary strategy is to use context clues—such as surrounding words, tone, syntax, and the situation described—to infer the meaning",
     "options": [
-     "The poem is by Vikram Seth, taken from his 1981 collection \"Mappings\" and later included in his \"Collected Poems",
-     "It indicates the poem is adapted from or inspired by a tale in Idries Shah's collections of Sufi teaching stories (like \"The Tale of the Melon City\" in \"Tales of the Dervishes\")",
+     "Secondary themes are the underlying ideas or messages in a literary work that support, complicate, or run parallel to the primary theme",
+     "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality",
      "The primary strategy is to use context clues—such as surrounding words, tone, syntax, and the situation described—to infer the meaning"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"guess from the first letter\" or \"skip the word\") reveals the student lacks a systematic approach to vocabulary in context and relies on passive reading.",
     "id": "gen_c11_eng_s_ch05_q10",
     "nodeId": "c11_eng_s_cbse_05_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem and stumble on the phrase \"just and placid King\" – does \"placid\" mean calm or foolishly passive?",
-     "Start by reading the poem aloud, circling every word that feels charged or unfamiliar.",
-     "Next, for each circled word, hunt for clues in the same stanza: does the king's action (ordering an arch, then a hanging) support or contradict the",
-     "Then, group words by theme (e.g., justice words: \"ordain\", \"decree\", \"culprit\"; folly words: \"quavering\", \"idiot\", \"melon\")."
+     "Note the difficult or loaded words in 'The Tale of Melon City' — their meaning carries the text's precision."
     ]
    },
    {
@@ -3235,20 +3163,17 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Identify the grammatical voice used in the line \"The arch was built too low\" and name the tense.",
     "answer": "The line uses passive voice in the simple past tense (\"was built\")",
     "options": [
-     "The four main physical settings in sequence are: 1) the major thoroughfare where the arch is built, 2) the Royal Court where the king hears petitions",
-     "Exposition: The just/placid king orders an arch built (stanzas 1-2). Rising action: Crown lost → blame shifts from builders → workmen → masons → architect → king's amendments",
+     "Grammar: Language Usage in the Text refers to the systematic analysis of grammatical structures",
+     "The student can identify at least three distinct shifts in physical and social setting across the poem",
      "The line uses passive voice in the simple past tense (\"was built\")"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"active voice\" or \"past perfect\") reveals the student cannot distinguish passive construction or identify tense in a poetic context where the subject (\"The arch\") receives the action.",
     "id": "gen_c11_eng_s_ch05_q11",
     "nodeId": "c11_eng_s_cbse_05_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem aloud and stumble over \"The King said, 'This is a disgrace.",
-     "That's your entry point: grammatical choices are not accidental — they create the mock-legal tone.",
-     "First, scan the poem for all passive constructions (e.g., \"was built\", \"were arranged\", \"was led\", \"must be hanged\").",
-     "Second, mark every instance of reported speech and note how the poet compresses dialogue into verse."
+     "Read 'The Tale of Melon City' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -3260,16 +3185,13 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Difference 1: The poem uses a cumulative chain of blame (builder → workmen → masons → architect → king) that circles back to the ruler",
      "A literal question's answer is directly stated in the text and can be quoted; an inferential question's answer is not directly stated but must be deduced by combining textual"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"literal means easy, inferential means hard\") reveals the student confuses difficulty level with the source of the answer, leading to unsupported opinions in inferential responses.",
     "id": "gen_c11_eng_s_ch05_q12",
     "nodeId": "c11_eng_s_cbse_05_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a WhatsApp forward about a bizarre law passed in a kingdom — you first note exactly what the message says (literal), then you",
-     "Start by reading the poem stanza by stanza, underlining every explicit fact: who did what, what was said, what happened next.",
-     "For each question, ask: \"Is the answer written word-for-word in the poem?\" If yes, it's literal — quote the line.",
-     "If not, it's inferential — collect two or more clues (actions, dialogue, irony) and explain the logical bridge."
+     "Answer 'The Tale of Melon City' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -3277,20 +3199,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "Define \"dramatic irony\" and identify the *first* instance in the poem where the reader knows more about the consequences of the King's justice than the King himself.",
     "answer": "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating tension or humour",
     "options": [
+     "The student can identify at least three distinct grammatical features in the poem (e.g., passive voice, archaic verb forms, reported speech), explain their function in context",
      "The King is described as 'just and placid.' 'Just' means fair and law-abiding; 'placid' means calm and not easily upset",
-     "A metaphor asserts that the tenor (subject, e.g., \"justice\") *is* the vehicle (image, e.g., \"a hanging\"), transferring attributes of the vehicle to the tenor",
      "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating tension or humour"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing the melon ending) reveals the student confuses situational irony (outcome vs expectation) with dramatic irony (knowledge gap) and cannot trace the irony's structural development from the start.",
     "id": "gen_c11_eng_s_ch05_q13",
     "nodeId": "c11_eng_s_cbse_05_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a judge reviewing a bizarre court case where a King orders an arch hanged, then gets hanged himself because he fits the noose, and",
-     "You wouldn't just list events; you'd ask: \"What logical failures does this expose?",
-     "How does the poet make us laugh *and* think?\" Begin by re-reading the poem specifically tracking the *shifting definition of justice* — from the",
-     "Notice how each stanza escalates the absurdity: the architectural flaw becomes a judicial farce becomes a political philosophy."
+     "Analyse 'The Tale of Melon City' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -3298,21 +3218,18 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "question": "What does PEEL stand for in the context of writing literature answers?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The primary strategy is to use context clues—such as surrounding words, tone, syntax, and the situation described—to infer the meaning",
-     "The poem is by Vikram Seth, taken from his 1981 collection \"Mappings\" and later included in his \"Collected Poems",
-     "PEEL stands for Point, Evidence, Tone, Link",
+     "Setting in a narrative poem refers to the time, place, and social environment where the action unfolds, while atmosphere is the emotional mood or tone created by the setting",
+     "The student can independently classify a question as literal or inferential, locate exact textual evidence for literal answers",
+     "PEEL stands for Point, Evidence, Context, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Tale' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student does not know the standard academic paragraph structure used in CBSE answer writing, leading to disorganized responses that lack analytical depth.",
     "id": "gen_c11_eng_s_ch05_q14",
     "nodeId": "c11_eng_s_cbse_05_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and see the question: \"Narrate 'The Tale of Melon City' in your own words.\" Where do you begin?",
-     "First, recall the poem's sequence of events without looking at the text.",
-     "Next, identify the key turning points: the arch, the chain of blame, the wise man's verdict, the king's hanging, and the melon coronation.",
-     "Then, draft your narrative using your own words but keep the satirical tone."
+     "For written answers on 'The Tale of Melon City', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -3361,10 +3278,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
     "nodeId": "c11_eng_s_cbse_05_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a book club where everyone has read a satirical poem about a king who gets hanged by his own decree and is replaced by a melon.",
-     "You'd start by reading the poem aloud to hear its rhythm and notice how the couplets create a mock-epic tone.",
-     "Then you'd mark three moments where the logic collapses into absurdity — like when the arch is blamed for hitting the crown.",
-     "Next, you'd prepare discussion questions that connect these moments to real-world governance failures."
+     "Talk through 'The Tale of Melon City' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -3376,7 +3290,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "Difference 1: The poem uses a cumulative chain of blame (builder → workmen → masons → architect → king) that circles back to the ruler",
      "The poem exposes the gap between procedural justice (following rules exactly) and substantive justice (fair outcomes)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Tale of Melon City'' slide -- match the key terms.",
     "misconception": "A weak answer treats the poem as mere humor without linking to philosophical concepts, missing the layered critique.",
     "id": "gen_c11_eng_s_ch05_q16",
     "nodeId": "c11_eng_s_cbse_05_001",
@@ -3391,7 +3305,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "\"Triumphally\" usually means victoriously or grandly, but here it is undercut by the absurdity of building an arch merely to \"edify spectators\" and the subsequent disaster (the",
      "A strong response uses aa bb couplets, a placid authority figure, escalating procedural absurdity, and a ludicrous resolution (e"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Tale of Melon City'' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response uses aa bb couplets, a placid authority figure, escalating procedural absurdity, and a ludicrous",
     "id": "gen_c11_eng_s_ch05_q17",
     "nodeId": "c11_eng_s_cbse_05_001",
@@ -3406,7 +3320,7 @@ export const C11_ENG_S_GEN: SimDef[] = [
      "The passive voice shifts focus from the doer (the King, the workmen) to the action and its recipient, creating a bureaucratic, impersonal tone that mimics official records",
      "The sing-song couplets create a nursery-rhyme innocence that contrasts sharply with the dark absurdity (hanging the king, crowning a melon)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Tale of Melon City'' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The sing-song couplets create a nursery-rhyme innocence that contrasts sharply with the dark absurdity (hanging the",
     "id": "gen_c11_eng_s_ch05_q18",
     "nodeId": "c11_eng_s_cbse_05_001",
@@ -3415,11 +3329,11 @@ export const C11_ENG_S_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the tale of melon city'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Tale Of Melon City' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

@@ -1362,12 +1362,12 @@ export function C10_PhysicsHouseWiringPowerSim({
         className="mb-6 p-4 bg-slate-900/90 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4 backdrop-blur-md"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-sky-950/80 rounded-xl border border-sky-800/60 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-800/60 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="px-2 py-0.5 text-xs font-bold rounded-md bg-sky-500/20 text-sky-400 border border-sky-500/30">
+              <span className="px-2 py-0.5 text-xs font-bold rounded-md bg-gold-500/20 text-gold-400 border border-gold-500/30">
                 ICSE CLASS 10
               </span>
               <span className="text-xs text-slate-400">Physics Module (Nodes 031 - 042)</span>
@@ -1380,7 +1380,7 @@ export function C10_PhysicsHouseWiringPowerSim({
         <div className="flex items-center gap-3">
           <div className="px-3 py-1.5 bg-slate-800/80 rounded-xl border border-slate-700 text-xs">
             <span className="text-slate-400">BKT Mastery: </span>
-            <span className="font-bold text-sky-400 uppercase">{masteryLevel}</span>
+            <span className="font-bold text-gold-400 uppercase">{masteryLevel}</span>
           </div>
           <motion.div
             key={difficulty}
@@ -1390,7 +1390,7 @@ export function C10_PhysicsHouseWiringPowerSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-sky-950 text-sky-400 border-sky-700'
+                ? 'bg-gold-950 text-gold-400 border-gold-700'
                 : 'bg-purple-950 text-purple-400 border-purple-700'
             }`}
           >
@@ -1409,13 +1409,13 @@ export function C10_PhysicsHouseWiringPowerSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-sky-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-sky-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-sky-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>⚡ Mission Briefing</span>
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <p className="text-xs text-sky-300/80 mt-3 p-2.5 bg-sky-900/30 rounded-lg border border-sky-800/40">
+            <p className="text-xs text-gold-300/80 mt-3 p-2.5 bg-gold-900/30 rounded-lg border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1441,7 +1441,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200 hover:border-sky-500'
+                      : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-2">
@@ -1458,7 +1458,7 @@ export function C10_PhysicsHouseWiringPowerSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-4 bg-sky-950/60 rounded-xl border border-sky-700/60 flex flex-col md:flex-row items-center justify-between gap-4"
+                className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 flex flex-col md:flex-row items-center justify-between gap-4"
               >
                 <div>
                   <p className={`text-sm font-bold ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -1471,7 +1471,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Physics Labs"
-                  className="px-6 py-3 bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg whitespace-nowrap text-sm"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg whitespace-nowrap text-sm"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1501,7 +1501,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                   aria-label={`Go to ${step.title}`}
                   className={`px-3 py-2 rounded-xl text-xs font-bold transition-all ${
                     currentSlide === idx
-                      ? 'bg-sky-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-200'
                   }`}
                 >
@@ -1525,7 +1525,7 @@ export function C10_PhysicsHouseWiringPowerSim({
             >
               <div>
                 <h3 className="text-xl font-black text-white flex items-center gap-2">
-                  <span className="text-sky-400 font-mono">0{currentSlide + 1}.</span>
+                  <span className="text-gold-400 font-mono">0{currentSlide + 1}.</span>
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-sm text-amber-300 font-medium mt-1">
@@ -1541,9 +1541,9 @@ export function C10_PhysicsHouseWiringPowerSim({
                     <motion.div
                       initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700/60 space-y-3"
+                      className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700/60 space-y-3"
                     >
-                      <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                      <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                         🎯 Step 1: Predict Before Interacting
                       </p>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1632,7 +1632,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>Transmission Grid Voltage:</span>
-                          <span className="font-bold text-sky-400 font-mono">{gridVoltageKV} kV</span>
+                          <span className="font-bold text-gold-400 font-mono">{gridVoltageKV} kV</span>
                         </div>
                         <input
                           type="range"
@@ -1645,7 +1645,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set Transmission Grid Voltage"
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1679,7 +1679,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                               }}
                               className={`flex-1 py-1.5 rounded-lg text-xs font-bold border ${
                                 appliancesOn[key]
-                                  ? 'bg-sky-600/30 border-sky-500 text-sky-300'
+                                  ? 'bg-gold-600/30 border-gold-500 text-gold-300'
                                   : 'bg-slate-800 border-slate-700 text-slate-400'
                               }`}
                             >
@@ -1800,7 +1800,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>Magnet Velocity (v):</span>
-                          <span className="font-bold text-sky-400 font-mono">{magnetVelocity} m/s</span>
+                          <span className="font-bold text-gold-400 font-mono">{magnetVelocity} m/s</span>
                         </div>
                         <input
                           type="range"
@@ -1812,7 +1812,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set Magnet Velocity"
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1833,9 +1833,9 @@ export function C10_PhysicsHouseWiringPowerSim({
                     <motion.div
                       initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-sky-950/60 rounded-2xl border border-sky-700/60 space-y-3"
+                      className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700/60 space-y-3"
                     >
-                      <p className="text-xs font-bold text-sky-300 uppercase tracking-wider">
+                      <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                         🔬 Step 2: Observe The Physics Rule
                       </p>
                       <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[0].question}</p>
@@ -1925,7 +1925,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>Secondary Turns (Ns):</span>
-                          <span className="font-bold text-sky-400 font-mono">{secondaryTurnsNs} turns</span>
+                          <span className="font-bold text-gold-400 font-mono">{secondaryTurnsNs} turns</span>
                         </div>
                         <input
                           type="range"
@@ -1935,7 +1935,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                           value={secondaryTurnsNs}
                           onChange={(e) => setSecondaryTurnsNs(Number(e.target.value))}
                           aria-label="Set Secondary Turns Ns"
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1955,7 +1955,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1 text-xs">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Power Balance (Ideal):</span>
-                          <span className="text-sky-300 font-mono font-bold">Vp·Ip = Vs·Is</span>
+                          <span className="text-gold-300 font-mono font-bold">Vp·Ip = Vs·Is</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Secondary Current (Is):</span>
@@ -2065,7 +2065,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">Current Phase:</span>
-                          <span className="font-bold text-sky-300">
+                          <span className="font-bold text-gold-300">
                             {thermalHeatInputKJ <= 21
                               ? 'Solid Ice Warming'
                               : thermalHeatInputKJ <= 357
@@ -2082,7 +2082,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       </div>
 
                       <p className="text-xs text-slate-400 leading-relaxed">
-                        Notice how the temperature is clamped at <strong className="text-sky-300">0 °C</strong> during bond loosening (melting) and at <strong className="text-sky-300">100 °C</strong> during vaporization, proving latent heat does not raise kinetic energy.
+                        Notice how the temperature is clamped at <strong className="text-gold-300">0 °C</strong> during bond loosening (melting) and at <strong className="text-gold-300">100 °C</strong> during vaporization, proving latent heat does not raise kinetic energy.
                       </p>
                     </div>
                   </div>
@@ -2107,7 +2107,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                               }}
                               className={`px-2 py-1 rounded text-xs font-bold ${
                                 selectedDecayType === t
-                                  ? 'bg-sky-600 text-white'
+                                  ? 'bg-gold-600 text-white'
                                   : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                               }`}
                             >
@@ -2165,7 +2165,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>Separation Distance (r):</span>
-                          <span className="font-bold text-sky-400 font-mono">{coulombDistanceR} cm</span>
+                          <span className="font-bold text-gold-400 font-mono">{coulombDistanceR} cm</span>
                         </div>
                         <input
                           type="range"
@@ -2174,7 +2174,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                           value={coulombDistanceR}
                           onChange={(e) => setCoulombDistanceR(Number(e.target.value))}
                           aria-label="Set Coulomb Distance r"
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -2216,7 +2216,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-sm font-bold shadow-md"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -2250,14 +2250,14 @@ export function C10_PhysicsHouseWiringPowerSim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-sky-400">Power Grid: {gridVoltageKV} kV</p>
+                <p className="text-xs font-bold text-gold-400">Power Grid: {gridVoltageKV} kV</p>
                 <input
                   type="range"
                   min={11}
                   max={400}
                   value={gridVoltageKV}
                   onChange={(e) => setGridVoltageKV(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
                 <p className="text-xs text-slate-400">Loss: {lineHeatLossKW} kW</p>
               </div>
@@ -2316,14 +2316,14 @@ export function C10_PhysicsHouseWiringPowerSim({
                 <span className="text-xs font-bold text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-indigo-950 text-indigo-300 border border-indigo-700">
+                <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-gold-950 text-gold-300 border border-gold-700">
                   NEP: {activeChallenge.competencyLevel.toUpperCase()}
                 </span>
               </div>
             </div>
             <div className="w-48 h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-sky-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2360,7 +2360,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       className={`w-full text-left p-4 rounded-2xl text-sm font-medium transition-all border ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200 hover:border-sky-500'
+                          : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
                       <div className="flex items-start gap-3">
@@ -2385,7 +2385,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-sky-700 hover:bg-sky-600 text-white rounded-xl text-xs font-bold cursor-grab shadow"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2444,7 +2444,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-sky-600 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Pin Mapping
                 </motion.button>
@@ -2470,7 +2470,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-sm cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-slate-900 text-sky-400 text-xs font-bold flex items-center justify-center">
+                    <span className="w-6 h-6 rounded-full bg-slate-900 text-gold-400 text-xs font-bold flex items-center justify-center">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2482,7 +2482,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-sky-600 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                 >
                   Check Sequence
                 </motion.button>
@@ -2498,7 +2498,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-sky-500 outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-64"
                   />
                   <span className="text-slate-300 font-bold text-sm">{activeChallenge.unit}</span>
                   <motion.button
@@ -2506,7 +2506,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Submit
                   </motion.button>
@@ -2525,7 +2525,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-sm font-mono"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-sm font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2539,7 +2539,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-sky-800 text-white font-mono rounded-lg text-sm flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-800 text-white font-mono rounded-lg text-sm flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2557,7 +2557,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-sky-600 text-white rounded-xl font-bold text-sm"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Equation
                 </motion.button>
@@ -2569,9 +2569,9 @@ export function C10_PhysicsHouseWiringPowerSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-sky-950/50 border border-sky-700/60 rounded-2xl space-y-4"
+                className="p-5 bg-gold-950/50 border border-gold-700/60 rounded-2xl space-y-4"
               >
-                <div className="flex items-center gap-2 text-sky-400 text-xs font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                   <span>📖 Step-by-Step ICSE Board Walkthrough</span>
                 </div>
 
@@ -2587,7 +2587,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-sm text-slate-200 leading-relaxed"
                       >
-                        <strong className="text-sky-300">{idx + 1}.</strong> {sentence}
+                        <strong className="text-gold-300">{idx + 1}.</strong> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2599,7 +2599,7 @@ export function C10_PhysicsHouseWiringPowerSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-sky-800 hover:bg-sky-700 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2651,7 +2651,7 @@ export function C10_PhysicsHouseWiringPowerSim({
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 w-36">
                 <p className="text-xs uppercase text-slate-400">Mastery</p>
-                <p className="text-2xl font-black text-sky-400 uppercase font-mono">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 uppercase font-mono">{masteryLevel}</p>
               </div>
             </div>
 
@@ -2704,7 +2704,7 @@ export function C10_PhysicsHouseWiringPowerSim({
           </div>
 
           {/* Real-World Activity */}
-          <div className="p-6 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-3xl border border-indigo-800/60 space-y-4">
+          <div className="p-6 bg-gradient-to-br from-slate-900 to-gold-950 rounded-3xl border border-gold-800/60 space-y-4">
             <h3 className="text-lg font-bold text-white flex items-center gap-2">
               <span>🏠 {REAL_WORLD_ACTIVITY.title}</span>
             </h3>
@@ -2712,7 +2712,7 @@ export function C10_PhysicsHouseWiringPowerSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="px-2 py-0.5 rounded bg-indigo-900 text-indigo-300 font-bold font-mono">
+                  <span className="px-2 py-0.5 rounded bg-gold-900 text-gold-300 font-bold font-mono">
                     {i + 1}
                   </span>
                   <span>{step}</span>

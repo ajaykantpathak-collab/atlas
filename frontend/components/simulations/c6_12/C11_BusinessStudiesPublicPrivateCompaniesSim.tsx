@@ -1259,7 +1259,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/40 border border-emerald-800/60 rounded-2xl shadow-xl"
+              className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 border border-emerald-800/60 rounded-2xl shadow-xl"
             >
               <div className="flex items-center gap-2 text-emerald-400 text-sm font-bold uppercase tracking-wider mb-2">
                 <span>⚡ Executive Scenario</span>
@@ -1449,7 +1449,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <label htmlFor="capital-range">Target Capital Mobilization from Public:</label>
-                      <span className="font-mono font-bold text-indigo-400">₹{labPublicCapitalCr} Crores</span>
+                      <span className="font-mono font-bold text-gold-400">₹{labPublicCapitalCr} Crores</span>
                     </div>
                     <input
                       id="capital-range"
@@ -1462,7 +1462,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                         setLabPublicCapitalCr(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1492,7 +1492,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                       animate={{ scale: isPublicValid ? [1, 1.02, 1] : 1 }}
                       className={`p-3 rounded-xl border ${
                         isPublicValid
-                          ? 'bg-blue-950/50 border-blue-700/80 text-blue-300'
+                          ? 'bg-gold-950/50 border-gold-700/80 text-gold-300'
                           : 'bg-slate-950 border-slate-800 text-slate-500'
                       }`}
                     >
@@ -1532,7 +1532,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                     <motion.div
                       initial={{ opacity: 0, y: 5 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-3 bg-indigo-950/40 border border-indigo-700/60 rounded-xl text-xs text-indigo-200"
+                      className="p-3 bg-gold-950/40 border border-gold-700/60 rounded-xl text-xs text-gold-200"
                     >
                       🎯 <span className="font-bold">Prediction Verified:</span> Notice how crossing 200 members turns the Private status crimson void and recommends statutory conversion under Section 18.
                     </motion.div>
@@ -1628,7 +1628,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
 
                 {/* SVG 2: SPICe+ Integrated 10-in-1 Architecture Flowchart */}
                 <div className="lg:col-span-5 bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between">
-                  <div className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">
+                  <div className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                     Topic SVG 2: SPICe+ 10-in-1 Portal Flowchart
                   </div>
 
@@ -1750,7 +1750,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                     <text x="160" y="201" textAnchor="middle" fill="#fcd34d" fontSize="8" fontWeight="bold">Ashbury v. Riche (1875): 100% Shareholder Vote Cannot Ratify Void Acts</text>
                   </svg>
 
-                  <div className="p-3 bg-indigo-950/40 border border-indigo-700/60 rounded-xl text-xs text-indigo-200 mt-3">
+                  <div className="p-3 bg-gold-950/40 border border-gold-700/60 rounded-xl text-xs text-gold-200 mt-3">
                     🛡️ <span className="font-bold">Dual Protection:</span> Protects shareholders from speculative detour and protects lenders from unauthorized capital misuse.
                   </div>
                 </div>
@@ -1793,7 +1793,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <label htmlFor="capital-share-range">Farmer Share Capital Owned in Society:</label>
-                      <span className="font-mono font-bold text-indigo-400">{labCoopCapitalShare}% of Total Equity</span>
+                      <span className="font-mono font-bold text-gold-400">{labCoopCapitalShare}% of Total Equity</span>
                     </div>
                     <input
                       id="capital-share-range"
@@ -1806,7 +1806,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                         setLabCoopCapitalShare(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1838,7 +1838,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                       Joint Stock Company: One Share, One Vote (capital controls power).
                     </p>
 
-                    <div className="text-indigo-400 font-bold pt-2">2. Surplus Distribution:</div>
+                    <div className="text-gold-400 font-bold pt-2">2. Surplus Distribution:</div>
                     <p className="text-slate-300">
                       Cooperative: Distributed in proportion to <span className="text-white font-bold">patronage/transactions</span>.
                       JSC: Distributed in proportion to financial capital.
@@ -1927,14 +1927,14 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
 
                 {/* Q-Commerce Dark Store Hub */}
                 <div className="lg:col-span-6 bg-slate-900 border border-slate-800 p-5 rounded-2xl space-y-4">
-                  <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                     Q-Commerce 10-Min Hyperlocal Engine (Blinkit / Zepto)
                   </h3>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <label htmlFor="darkstore-radius">Dark Store Proximity Radius:</label>
-                      <span className="font-mono font-bold text-indigo-400">{labDarkStoreRadiusKm} km</span>
+                      <span className="font-mono font-bold text-gold-400">{labDarkStoreRadiusKm} km</span>
                     </div>
                     <input
                       id="darkstore-radius"
@@ -1948,7 +1948,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                         setLabDarkStoreRadiusKm(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -2042,7 +2042,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToSandbox}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-extrabold shadow-lg shadow-indigo-600/20"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-extrabold shadow-lg shadow-gold-600/20"
                 >
                   Enter Free Sandbox →
                 </motion.button>
@@ -2106,7 +2106,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                 </motion.div>
 
                 <motion.div whileHover={{ y: -3 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <div className="text-xs font-bold text-indigo-400">2. Dairy Cooperative Price Difference</div>
+                  <div className="text-xs font-bold text-gold-400">2. Dairy Cooperative Price Difference</div>
                   <p className="text-xs text-slate-400">
                     Compare year-end bonus pool of ₹50 Lakhs across 500 village milk producers versus private dairy shareholders.
                   </p>
@@ -2118,7 +2118,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                       setLabCoopMilkSupply(8000);
                       audioManager.play('pop');
                     }}
-                    className="w-full py-1.5 bg-slate-800 hover:bg-slate-700 text-xs rounded-lg text-indigo-300 font-bold border border-slate-700"
+                    className="w-full py-1.5 bg-slate-800 hover:bg-slate-700 text-xs rounded-lg text-gold-300 font-bold border border-slate-700"
                   >
                     Set Max Patronage Volume
                   </motion.button>
@@ -2174,7 +2174,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                       difficulty === 'foundation'
                         ? 'bg-emerald-950 text-emerald-300 border border-emerald-700'
                         : difficulty === 'standard'
-                        ? 'bg-blue-950 text-blue-300 border border-blue-700'
+                        ? 'bg-gold-950 text-gold-300 border border-gold-700'
                         : 'bg-rose-950 text-rose-300 border border-rose-700'
                     }`}
                   >
@@ -2193,7 +2193,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
               {/* Animated Progress Bar */}
               <div className="h-2 w-full bg-slate-950 rounded-full overflow-hidden border border-slate-800">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2260,7 +2260,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                        className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2328,9 +2328,9 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                           handleSortMove(fromIdx, displayIdx);
                         }}
                         whileHover={{ scale: 1.01 }}
-                        className="p-3.5 bg-slate-950 border border-slate-800 hover:border-indigo-500/60 rounded-xl text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between"
+                        className="p-3.5 bg-slate-950 border border-slate-800 hover:border-gold-500/60 rounded-xl text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between"
                       >
-                        <span className="font-mono font-bold text-indigo-400 mr-2">Stage {displayIdx + 1}:</span>
+                        <span className="font-mono font-bold text-gold-400 mr-2">Stage {displayIdx + 1}:</span>
                         <span className="flex-1 font-semibold">{item}</span>
                         <span className="text-slate-500 text-xs">☰ Drag</span>
                       </motion.div>
@@ -2394,7 +2394,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                         whileHover={{ scale: 1.04 }}
                         whileTap={{ scale: 0.96 }}
                         onClick={() => handleConstructAdd(part)}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2524,7 +2524,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
             <motion.div
               initial={{ y: 20 }}
               animate={{ y: 0 }}
-              className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 border border-emerald-600 rounded-3xl text-center space-y-4 shadow-2xl"
+              className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 border border-emerald-600 rounded-3xl text-center space-y-4 shadow-2xl"
             >
               <span className="text-4xl">🏆</span>
               <h2 className="text-3xl font-extrabold text-white">Enterprise Mastery Achieved!</h2>
@@ -2561,7 +2561,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
 
               <div className="space-y-4 pt-1">
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <label htmlFor="ref-q1" className="text-xs font-bold text-indigo-300 block">
+                  <label htmlFor="ref-q1" className="text-xs font-bold text-gold-300 block">
                     1. What was the most surprising thing you learned?
                   </label>
                   <textarea
@@ -2575,7 +2575,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <label htmlFor="ref-q2" className="text-xs font-bold text-indigo-300 block">
+                  <label htmlFor="ref-q2" className="text-xs font-bold text-gold-300 block">
                     2. How would you explain this to a friend?
                   </label>
                   <textarea
@@ -2589,7 +2589,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <label htmlFor="ref-q3" className="text-xs font-bold text-indigo-300 block">
+                  <label htmlFor="ref-q3" className="text-xs font-bold text-gold-300 block">
                     3. Where in real life might you use this?
                   </label>
                   <textarea
@@ -2635,7 +2635,7 @@ function C11_BusinessStudiesPublicPrivateCompaniesSim({
               animate={{ opacity: 1 }}
               className="p-6 bg-slate-900 border border-slate-800 rounded-2xl space-y-4"
             >
-              <h3 className="text-lg font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-lg font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-slate-300 text-xs md:text-sm">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

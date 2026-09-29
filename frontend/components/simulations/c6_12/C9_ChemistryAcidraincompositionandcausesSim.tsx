@@ -473,7 +473,7 @@ const InteractiveAcidRainVisualizer: React.FC<{
           </div>
 
           <div className="bg-slate-900/90 p-3 rounded-lg border border-slate-700 text-xs">
-            <span className="font-bold text-sky-400 block mb-1">Active Chemical Reactions:</span>
+            <span className="font-bold text-gold-400 block mb-1">Active Chemical Reactions:</span>
             {activeEquations.length === 0 ? (
               <span className="text-slate-500 italic">Increase emissions to trigger gas-cloud reactions.</span>
             ) : (
@@ -607,7 +607,7 @@ const InteractiveGreenhouseVisualizer: React.FC<{
 
         <div className="lg:col-span-5 space-y-4 bg-slate-800/60 p-4 rounded-xl border border-slate-700">
           <div>
-            <label className="text-xs font-semibold uppercase tracking-wider text-sky-300 flex justify-between mb-1">
+            <label className="text-xs font-semibold uppercase tracking-wider text-gold-300 flex justify-between mb-1">
               <span>Carbon Dioxide (CO2 - Thermal Power & Vehicles)</span>
               <span>{co2} ppm</span>
             </label>
@@ -617,7 +617,7 @@ const InteractiveGreenhouseVisualizer: React.FC<{
               max="100"
               value={co2}
               onChange={(e) => onCO2Change(Number(e.target.value))}
-              className="w-full accent-sky-500 cursor-pointer"
+              className="w-full accent-gold-500 cursor-pointer"
             />
           </div>
 
@@ -750,11 +750,11 @@ const InteractiveOzoneVisualizer: React.FC<{
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-2xl p-4 shadow-xl text-white my-4">
       <div className="flex flex-col md:flex-row justify-between items-center mb-3 gap-2">
-        <h3 className="font-bold text-lg text-cyan-400 flex items-center gap-2">
+        <h3 className="font-bold text-lg text-gold-400 flex items-center gap-2">
           🛡️ Stratospheric Ozone Shield & CFC Depletion Engine
         </h3>
         <div className={`px-4 py-1.5 rounded-full font-mono text-sm font-bold shadow ${
-          uvTransmission > 40 ? 'bg-rose-600 text-white animate-pulse' : 'bg-cyan-600 text-white'
+          uvTransmission > 40 ? 'bg-rose-600 text-white animate-pulse' : 'bg-gold-600 text-white'
         }`}>
           UV Radiation Reaching Earth: {uvTransmission}%
         </div>
@@ -767,7 +767,7 @@ const InteractiveOzoneVisualizer: React.FC<{
 
         <div className="lg:col-span-5 space-y-4 bg-slate-800/60 p-4 rounded-xl border border-slate-700">
           <div>
-            <label className="text-xs font-semibold uppercase tracking-wider text-cyan-300 flex justify-between mb-1">
+            <label className="text-xs font-semibold uppercase tracking-wider text-gold-300 flex justify-between mb-1">
               <span>CFC Release (Refrigerants & Aerosols)</span>
               <span>{cfc}%</span>
             </label>
@@ -777,12 +777,12 @@ const InteractiveOzoneVisualizer: React.FC<{
               max="100"
               value={cfc}
               onChange={(e) => onCFCChange(Number(e.target.value))}
-              className="w-full accent-cyan-500 cursor-pointer"
+              className="w-full accent-gold-500 cursor-pointer"
             />
           </div>
 
           <div className="bg-slate-900/90 p-3 rounded-lg border border-slate-700 text-xs space-y-1">
-            <span className="font-bold text-cyan-300 block">Formation vs Catalytic Breakdown:</span>
+            <span className="font-bold text-gold-300 block">Formation vs Catalytic Breakdown:</span>
             <p className="font-mono text-xs text-emerald-300">
               Formation: O2 + hv → O + O <br />
               O + O2 + M → O3 + M
@@ -1147,7 +1147,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim() {
       {/* HEADER BAR */}
       <header className="max-w-6xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-600 flex items-center justify-center text-2xl shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-400 to-gold-600 flex items-center justify-center text-2xl shadow-lg">
             🧪
           </div>
           <div>
@@ -1173,7 +1173,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim() {
           <button
             onClick={() => { setActiveTab('learn'); audioManager.play('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
-              activeTab === 'learn' ? 'bg-cyan-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'learn' ? 'bg-gold-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             2. Concepts
@@ -1306,7 +1306,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim() {
             {/* Slide Content */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider block mb-1">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-1">
                   Node ID: {currentSlide.nodeId}
                 </span>
                 <h2 className="text-2xl font-extrabold text-white">{currentSlide.title}</h2>
@@ -1361,7 +1361,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim() {
               </div>
 
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-                <h4 className="font-bold text-cyan-400 text-xs uppercase tracking-wider">Detailed Chemical Walkthrough</h4>
+                <h4 className="font-bold text-gold-400 text-xs uppercase tracking-wider">Detailed Chemical Walkthrough</h4>
                 <p className="text-xs text-slate-300 leading-relaxed">{currentSlide.walkthrough}</p>
                 {currentSlide.equations && (
                   <div className="mt-2 bg-slate-900 p-3 rounded-lg border border-slate-800 font-mono text-xs text-emerald-300 space-y-1">
@@ -1471,7 +1471,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim() {
                           ? idx === currentChallenge.correctAnswer
                             ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                             : 'bg-rose-950 border-rose-500 text-rose-200'
-                          : 'bg-slate-800 border-cyan-500 text-white shadow-lg ring-1 ring-cyan-500'
+                          : 'bg-slate-800 border-gold-500 text-white shadow-lg ring-1 ring-gold-500'
                         : challengeSubmitted && idx === currentChallenge.correctAnswer
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
@@ -1518,7 +1518,7 @@ export default function C9_ChemistryAcidraincompositionandcausesSim() {
 
                   <button
                     onClick={() => { nextChallenge(); audioManager.play('whoosh'); }}
-                    className="w-full py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-extrabold text-sm rounded-xl transition shadow-xl"
+                    className="w-full py-3.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-extrabold text-sm rounded-xl transition shadow-xl"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'View Final Laboratory Report →'}
                   </button>

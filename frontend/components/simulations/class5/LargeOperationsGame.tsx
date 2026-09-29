@@ -262,7 +262,7 @@ function BankerBiju({ mood, speaking }: { mood: MascotMood; speaking: string | n
             initial={{ scale: 0, opacity: 0, y: 10 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
-            className="mb-2 bg-white border-2 border-indigo-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
+            className="mb-2 bg-white border-2 border-gold-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
           >
             <p className="text-xs font-bold text-gray-800 leading-relaxed">{speaking}</p>
           </motion.div>
@@ -307,7 +307,7 @@ function BankerBiju({ mood, speaking }: { mood: MascotMood; speaking: string | n
 
 function StarRow({ count, total }: { count: number; total: number }) {
   return (
-    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-indigo-200">
+    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-gold-200">
       {Array.from({ length: total }).map((_, i) => (
         <motion.div key={i} initial={false} animate={i < count ? { scale: [0, 1.3, 1], rotate: [0, 360] } : {}} transition={{ duration: 0.5 }}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill={i < count ? '#FFD700' : 'none'} stroke={i < count ? '#F59E0B' : '#CBD5E1'} strokeWidth="2">
@@ -322,11 +322,11 @@ function StarRow({ count, total }: { count: number; total: number }) {
 // ─── Teaching Slides ──────────────────────────────────────────
 
 const TEACHING_SLIDES: TeachingSlide[] = [
-  { title: "Welcome to Biju's Bank! 🏦", text: "Banker Biju uses multiplication tables 2 to 20, four operations on large numbers, and estimation every day! Let's learn how banks calculate with big numbers.", emoji: "🏦", bgColor: "from-indigo-500 to-blue-600", spoken: "Welcome to Biju's Bank! Today we learn multiplication tables 2 to 20 and four operations on large numbers!" },
+  { title: "Welcome to Biju's Bank! 🏦", text: "Banker Biju uses multiplication tables 2 to 20, four operations on large numbers, and estimation every day! Let's learn how banks calculate with big numbers.", emoji: "🏦", bgColor: "from-gold-500 to-gold-600", spoken: "Welcome to Biju's Bank! Today we learn multiplication tables 2 to 20 and four operations on large numbers!" },
   { title: "Multiplication Tables 2 to 20 ✖️", text: "Tables are built by repeated addition. Table of 15: 15, 30, 45, 60... Table of 19: 19, 38, 57, 76... Spot patterns like the units digit of table 9 going down by 1 each time!", emoji: "✖️", bgColor: "from-emerald-500 to-teal-600", spoken: "Multiplication tables are built by repeated addition. Learn tables from 2 to 20 and spot the patterns!" },
   { title: "Standard Algorithms & 2-Digit Division ➗", text: "Add, subtract, and multiply large numbers using column methods. Divide by 2-digit divisors using long division. To divide 9450 by 25, break it: 9000÷25=360, 400÷25=16, 50÷25=2, total=378!", emoji: "➗", bgColor: "from-purple-500 to-pink-600", spoken: "Use standard algorithms for large number operations. Divide by 2-digit divisors using long division or breaking strategy!" },
   { title: "Roman Numerals for Large Numbers 🏛️", text: "Roman symbols: I=1, V=5, X=10, L=50, C=100, D=500, M=1000. Subtraction rule: IV=4, IX=9, XL=40, XC=90, CD=400, CM=900. Write 1987 as MCMLXXXVII!", emoji: "🏛️", bgColor: "from-amber-500 to-orange-600", spoken: "Roman numerals use I, V, X, L, C, D, and M. The subtraction rule gives IV=4, IX=9, XL=40, XC=90, CD=400, CM=900!" },
-  { title: "Word Problems & Estimation 📝", text: "Read the story, identify the operation, and solve! Frame your own word problems too. Estimate sums, differences, products, and quotients by rounding to check if answers are reasonable!", emoji: "📝", bgColor: "from-cyan-500 to-blue-600", spoken: "Solve word problems by identifying the correct operation. Estimate answers by rounding to check if they are reasonable!" },
+  { title: "Word Problems & Estimation 📝", text: "Read the story, identify the operation, and solve! Frame your own word problems too. Estimate sums, differences, products, and quotients by rounding to check if answers are reasonable!", emoji: "📝", bgColor: "from-gold-500 to-gold-600", spoken: "Solve word problems by identifying the correct operation. Estimate answers by rounding to check if they are reasonable!" },
 ];
 
 // ─── 8 Progressive Challenges ─────────────────────────────────
@@ -573,12 +573,12 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
       <BankerBiju mood={mascotMood} speaking={speakingText} />
       <div className="absolute top-4 left-4 right-28 z-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-md border border-indigo-300 flex items-center gap-2">
-            <span className="text-xs font-bold text-indigo-800">Biju&apos;s Operations</span>
-            <span className="text-xs bg-indigo-500 text-white px-2 py-0.5 rounded-full font-bold">{screen === 'teaching' ? 'Intro' : `Q ${challengeIdx + 1}/${CHALLENGES.length}`}</span>
+          <div className="bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-md border border-gold-300 flex items-center gap-2">
+            <span className="text-xs font-bold text-gold-800">Biju&apos;s Operations</span>
+            <span className="text-xs bg-gold-500 text-white px-2 py-0.5 rounded-full font-bold">{screen === 'teaching' ? 'Intro' : `Q ${challengeIdx + 1}/${CHALLENGES.length}`}</span>
           </div>
         </div>
-        {screen === 'play' && (<div className="flex items-center gap-4"><StarRow count={Math.min(5, Math.floor(score / 15) + 1)} total={5} /><button onClick={handleShowHint} className="bg-indigo-400 hover:bg-indigo-500 text-indigo-950 font-bold px-3 py-1 rounded-full text-xs shadow-md transition-all flex items-center gap-1 cursor-pointer">💡 Hint</button></div>)}
+        {screen === 'play' && (<div className="flex items-center gap-4"><StarRow count={Math.min(5, Math.floor(score / 15) + 1)} total={5} /><button onClick={handleShowHint} className="bg-gold-400 hover:bg-gold-500 text-gold-950 font-bold px-3 py-1 rounded-full text-xs shadow-md transition-all flex items-center gap-1 cursor-pointer">💡 Hint</button></div>)}
       </div>
 
       {screen === 'teaching' && (
@@ -590,7 +590,7 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
             <div className="flex items-center justify-between w-full mt-4">
               <button onClick={() => { if (slideIdx > 0) setSlideIdx(prev => prev - 1); }} disabled={slideIdx === 0} className="px-4 py-2 bg-white/20 hover:bg-white/30 disabled:opacity-30 rounded-xl font-bold text-sm cursor-pointer transition-all">← Back</button>
               <div className="flex gap-2">{TEACHING_SLIDES.map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full ${i === slideIdx ? 'bg-white' : 'bg-white/40'}`} />))}</div>
-              <button onClick={() => { audioManager.play('tap'); if (slideIdx < TEACHING_SLIDES.length - 1) { setSlideIdx(prev => prev + 1); } else { setScreen('play'); audioManager.play('success'); } }} className="px-6 py-2 bg-white text-indigo-600 hover:bg-indigo-50 rounded-xl font-black text-sm shadow-lg cursor-pointer transition-all">{slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next →'}</button>
+              <button onClick={() => { audioManager.play('tap'); if (slideIdx < TEACHING_SLIDES.length - 1) { setSlideIdx(prev => prev + 1); } else { setScreen('play'); audioManager.play('success'); } }} className="px-6 py-2 bg-white text-gold-600 hover:bg-gold-50 rounded-xl font-black text-sm shadow-lg cursor-pointer transition-all">{slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next →'}</button>
             </div>
           </motion.div>
         </div>
@@ -598,7 +598,7 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
 
       {screen === 'play' && (
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-between p-6 pt-20 pb-8">
-          <motion.div key={challengeIdx} initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl border-2 border-indigo-300 max-w-xl text-center">
+          <motion.div key={challengeIdx} initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl border-2 border-gold-300 max-w-xl text-center">
             <h3 className="text-base font-black text-gray-800">{currentChallenge.question}</h3>
           </motion.div>
 
@@ -607,7 +607,7 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
               {currentChallenge.options.map((opt, i) => {
                 const isSelected = selectedOpt === opt;
                 const isCorrect = opt === currentChallenge.answer;
-                let btnStyle = "bg-white hover:bg-indigo-50 text-gray-800 border-2 border-indigo-200";
+                let btnStyle = "bg-white hover:bg-gold-50 text-gray-800 border-2 border-gold-200";
                 if (selectedOpt) {
                   if (isCorrect) btnStyle = "bg-green-500 text-white border-2 border-green-600 shadow-lg scale-105";
                   else if (isSelected) btnStyle = "bg-red-500 text-white border-2 border-red-600";
@@ -640,7 +640,7 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
                       key={bin.id}
                       id={`bin-${bin.id}`}
                       className={`flex-1 min-w-[100px] max-w-[140px] h-28 rounded-2xl border-4 border-dashed flex flex-col items-center justify-center p-2 transition-all shadow-md ${
-                        isHover ? 'bg-indigo-100 scale-105' : 'bg-white/90'
+                        isHover ? 'bg-gold-100 scale-105' : 'bg-white/90'
                       }`}
                       style={{ borderColor: bin.color }}
                       onMouseEnter={() => setHoveredBin(bin.id)}
@@ -670,7 +670,7 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
                         width={110}
                         height={95}
                       >
-                        <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'}`} style={{ width: 110, height: 95 }}>
+                        <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'}`} style={{ width: 110, height: 95 }}>
                           {renderSortIcon(item.icon, 40)}
                           <span className="text-xs font-bold text-gray-700 text-center mt-1">{item.label}</span>
                         </div>
@@ -683,8 +683,8 @@ export function LargeOperationsGame({ width = 720, height = 560, onComplete }: L
           )}
 
           <div className="h-14 flex items-center justify-center w-full">
-            {selectedOpt && (<motion.button initial={{ scale: 0 }} animate={{ scale: 1 }} onClick={advanceChallenge} className="bg-gradient-to-r from-indigo-500 to-blue-500 hover:from-indigo-600 hover:to-blue-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer">{challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Game! 🏆'}</motion.button>)}
-            {currentChallenge.type === 'sort' && currentChallenge.sortItems?.every(i => placedItems[i.id]) && (<motion.button initial={{ scale: 0 }} animate={{ scale: 1 }} onClick={advanceChallenge} className="bg-gradient-to-r from-indigo-500 to-blue-500 hover:from-indigo-600 hover:to-blue-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer">{challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Game! 🏆'}</motion.button>)}
+            {selectedOpt && (<motion.button initial={{ scale: 0 }} animate={{ scale: 1 }} onClick={advanceChallenge} className="bg-gradient-to-r from-gold-500 to-gold-500 hover:from-gold-600 hover:to-gold-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer">{challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Game! 🏆'}</motion.button>)}
+            {currentChallenge.type === 'sort' && currentChallenge.sortItems?.every(i => placedItems[i.id]) && (<motion.button initial={{ scale: 0 }} animate={{ scale: 1 }} onClick={advanceChallenge} className="bg-gradient-to-r from-gold-500 to-gold-500 hover:from-gold-600 hover:to-gold-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer">{challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Game! 🏆'}</motion.button>)}
           </div>
         </div>
       )}

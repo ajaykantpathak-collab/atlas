@@ -1459,12 +1459,12 @@ export function C12_ComputerScienceJavaStreamFilterSim({
       {/* ─── HEADER BAR ─── */}
       <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider uppercase text-indigo-400">ISC Class 12 CS</span>
+              <span className="text-xs font-bold tracking-wider uppercase text-gold-400">ISC Class 12 CS</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">NEP 2020 Compliant</span>
             </div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">{title}</h1>
@@ -1486,7 +1486,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600/50'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600/50'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600/50'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600/50'
             }`}
           >
             {difficulty === 'foundation' ? '🟢 FOUNDATION' : difficulty === 'advanced' ? '🔴 ADVANCED' : '🔵 STANDARD'}
@@ -1496,14 +1496,14 @@ export function C12_ComputerScienceJavaStreamFilterSim({
 
       {/* ─── LIVE DATA STREAM CANVAS ─── */}
       <div className="my-3 p-2 bg-slate-900/60 rounded-xl border border-slate-800/80 flex items-center gap-3">
-        <span className="text-xs text-indigo-400 font-mono font-semibold whitespace-nowrap pl-2">Stream Pipeline Engine:</span>
+        <span className="text-xs text-gold-400 font-mono font-semibold whitespace-nowrap pl-2">Stream Pipeline Engine:</span>
         <canvas ref={canvasRef} width={500} height={44} className="w-full max-h-11 rounded-lg" aria-label="Dynamic Stream Token Visualizer" />
       </div>
 
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-5 my-4">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-bold uppercase tracking-wider text-amber-400 px-2 py-0.5 rounded bg-amber-950/60 border border-amber-700/50">
                 Narrative Mission
@@ -1511,11 +1511,11 @@ export function C12_ComputerScienceJavaStreamFilterSim({
               <h2 className="text-lg font-bold text-white">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
               <span>🎯 Curiosity Check:</span>
               <span className="text-xs font-normal text-slate-400">(Warm up your intuition — not graded)</span>
             </div>
@@ -1535,7 +1535,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 text-slate-400 border border-transparent'
-                      : 'bg-slate-800 hover:bg-indigo-950/60 text-slate-200 border border-slate-700/80'
+                      : 'bg-slate-800 hover:bg-gold-950/60 text-slate-200 border border-slate-700/80'
                   }`}
                 >
                   <div className="flex items-center gap-2">
@@ -1561,7 +1561,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Enter Interactive Lab</span>
                   <span>→</span>
@@ -1577,14 +1577,14 @@ export function C12_ComputerScienceJavaStreamFilterSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4 my-3">
           {/* Top exploration progress bar */}
           <div className="flex items-center justify-between px-2">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <span className="text-xs text-slate-400">{EXPLORATION_STEPS[currentSlide].title}</span>
           </div>
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
               animate={{ width: `${((currentSlide + 1) / EXPLORATION_STEPS.length) * 100}%` }}
             />
           </div>
@@ -1607,12 +1607,12 @@ export function C12_ComputerScienceJavaStreamFilterSim({
 
               {/* ── PREDICTION CALLOUT IN LAB (Step 0 & Step 1) ── */}
               {currentSlide === 0 && (
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
                   <div className="flex items-center gap-2">
-                    <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-indigo-600 text-white">
+                    <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-gold-600 text-white">
                       Prediction 1
                     </span>
-                    <span className="text-xs font-semibold text-indigo-200">Predict Before Interacting:</span>
+                    <span className="text-xs font-semibold text-gold-200">Predict Before Interacting:</span>
                   </div>
                   <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
@@ -1630,7 +1630,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                               : predictionAnswers[0] === i
                               ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                               : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                            : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-300'
+                            : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-300'
                         }`}
                       >
                         {opt}
@@ -1646,12 +1646,12 @@ export function C12_ComputerScienceJavaStreamFilterSim({
               )}
 
               {currentSlide === 1 && (
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
                   <div className="flex items-center gap-2">
-                    <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-indigo-600 text-white">
+                    <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-gold-600 text-white">
                       Prediction 2
                     </span>
-                    <span className="text-xs font-semibold text-indigo-200">Predict Before Interacting:</span>
+                    <span className="text-xs font-semibold text-gold-200">Predict Before Interacting:</span>
                   </div>
                   <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[1].question}</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1669,7 +1669,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                               : predictionAnswers[1] === i
                               ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                               : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                            : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-300'
+                            : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-300'
                         }`}
                       >
                         {opt}
@@ -1695,12 +1695,12 @@ export function C12_ComputerScienceJavaStreamFilterSim({
 
                   {/* Representation 2: Code Declaration & Sliders */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <div className="text-xs font-mono text-indigo-400 mb-2">// Representation B: Java Stream Pipeline Code</div>
+                    <div className="text-xs font-mono text-gold-400 mb-2">// Representation B: Java Stream Pipeline Code</div>
                     <div className="font-mono text-xs text-slate-200 bg-slate-900 p-3 rounded-lg border border-slate-800 overflow-x-auto leading-relaxed">
                       scores.stream()<br />
                       &nbsp;&nbsp;.filter(m -&gt; m &gt;= <span className="text-amber-400 font-bold">{streamFilterThreshold}</span>)<br />
                       &nbsp;&nbsp;.map(m -&gt; m + <span className="text-emerald-400 font-bold">{streamMapBonus}</span>)<br />
-                      &nbsp;&nbsp;.collect(Collectors.<span className="text-sky-400 font-bold">{streamCollectorType}</span>());
+                      &nbsp;&nbsp;.collect(Collectors.<span className="text-gold-400 font-bold">{streamCollectorType}</span>());
                     </div>
                   </div>
 
@@ -1762,7 +1762,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                             }}
                             className={`flex-1 py-1 text-[11px] font-mono rounded font-bold ${
                               streamCollectorType === type
-                                ? 'bg-sky-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1795,7 +1795,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                                 <td className={`py-1 px-2 font-bold ${passes ? 'text-emerald-400' : 'text-rose-400'}`}>
                                   {passes ? '✓ Pass' : '✗ Drop'}
                                 </td>
-                                <td className="py-1 px-2 text-sky-300">{passes ? val + streamMapBonus : '—'}</td>
+                                <td className="py-1 px-2 text-gold-300">{passes ? val + streamMapBonus : '—'}</td>
                                 <td className="py-1 px-2 text-slate-400">
                                   {passes ? '✓ Collected in Terminal' : '✗ Short-circuited'}
                                 </td>
@@ -1846,7 +1846,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={runThreadSimulation}
                       disabled={isThreadsRunning}
-                      className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-lg text-xs font-bold"
                     >
                       {isThreadsRunning ? 'Threads Simulating...' : '▶ Spawn Concurrent ATM Threads'}
                     </motion.button>
@@ -1875,7 +1875,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                               : line.includes('SUCCESS')
                               ? 'text-emerald-400 font-bold'
                               : line.includes('Thread-A')
-                              ? 'text-sky-300'
+                              ? 'text-gold-300'
                               : 'text-amber-300'
                           }
                         >
@@ -1891,7 +1891,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {/* Observation Question Callout */}
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
                     <div className="flex items-center gap-2">
                       <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white">
                         Observation Check
@@ -1914,7 +1914,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                                 : observationAnswers[1] === i
                                 ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                                 : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                              : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-300'
+                              : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-300'
                           }`}
                         >
                           {opt}
@@ -1983,7 +1983,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={executeSqlQuery}
-                          className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                          className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-bold"
                         >
                           Execute SQL
                         </motion.button>
@@ -2024,7 +2024,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
               {currentSlide === 3 && (
                 <div className="space-y-4">
                   {/* Observation Question Callout */}
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
                     <div className="flex items-center gap-2">
                       <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white">
                         Observation Check
@@ -2047,7 +2047,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                                 : observationAnswers[0] === i
                                 ? 'bg-rose-950/80 border-rose-500 text-rose-300'
                                 : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                              : 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-300'
+                              : 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-300'
                           }`}
                         >
                           {opt}
@@ -2071,10 +2071,10 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                   <div className="flex flex-wrap items-center justify-between gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex items-center gap-4 text-xs font-mono">
                       <span>
-                        Mode: <strong className={nioMode === 'write' ? 'text-amber-400' : 'text-sky-400'}>{nioMode.toUpperCase()}</strong>
+                        Mode: <strong className={nioMode === 'write' ? 'text-amber-400' : 'text-gold-400'}>{nioMode.toUpperCase()}</strong>
                       </span>
                       <span>
-                        Position: <strong className="text-indigo-400">{nioPosition}</strong>
+                        Position: <strong className="text-gold-400">{nioPosition}</strong>
                       </span>
                       <span>
                         Limit: <strong className="text-rose-400">{nioLimit}</strong>
@@ -2101,7 +2101,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={handleNioFlip}
                         disabled={nioMode === 'read'}
-                        className="px-3 py-1 bg-sky-600 hover:bg-sky-500 disabled:opacity-40 text-white rounded-lg text-xs font-bold"
+                        className="px-3 py-1 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-lg text-xs font-bold"
                       >
                         flip() to Read
                       </motion.button>
@@ -2136,7 +2136,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                           key={idx}
                           className={`p-3 rounded-lg border text-center font-mono ${
                             idx === nioPosition
-                              ? 'border-indigo-400 bg-indigo-950/60 text-indigo-200 ring-2 ring-indigo-500'
+                              ? 'border-gold-400 bg-gold-950/60 text-gold-200 ring-2 ring-gold-500'
                               : idx < nioLimit
                               ? 'border-slate-700 bg-slate-900 text-slate-200'
                               : 'border-slate-800 bg-slate-950 text-slate-600'
@@ -2170,7 +2170,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                             audioManager.play('pop');
                           }}
                           className={`flex-1 py-1 text-xs font-bold rounded ${
-                            optValue !== null ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            optValue !== null ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           ✓ Present ("Aditya Sharma")
@@ -2206,7 +2206,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs space-y-2">
-                    <div className="text-indigo-400">// Java Code Evaluation Output</div>
+                    <div className="text-gold-400">// Java Code Evaluation Output</div>
                     <div className="p-2.5 bg-slate-900 rounded border border-slate-800 text-slate-200">
                       Optional&lt;String&gt; opt = Optional.ofNullable({optValue ? `"${optValue}"` : 'null'});
                       <br />
@@ -2245,7 +2245,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('whoosh');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold flex items-center gap-1.5"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold flex items-center gap-1.5"
                   >
                     <span>Next Lab Step</span>
                     <span>→</span>
@@ -2290,7 +2290,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
           {/* Sandbox Combined Multi-representation Panel */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase">Interactive Stream Builder</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Interactive Stream Builder</span>
               <div className="flex gap-2">
                 <input
                   aria-label="Sandbox Stream Filter Slider"
@@ -2300,7 +2300,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                   step={10}
                   value={streamFilterThreshold}
                   onChange={e => setStreamFilterThreshold(Number(e.target.value))}
-                  className="w-full accent-indigo-400"
+                  className="w-full accent-gold-400"
                 />
               </div>
               <div className="text-xs font-mono text-slate-300">
@@ -2312,7 +2312,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
               <span className="text-xs font-bold text-emerald-400 uppercase">Java NIO Buffer Quick Control</span>
               <div className="flex gap-2">
                 <button aria-label="Write byte in sandbox" onClick={handleNioWrite} className="px-2.5 py-1 bg-amber-600 rounded text-xs font-bold">Write</button>
-                <button aria-label="Flip buffer in sandbox" onClick={handleNioFlip} className="px-2.5 py-1 bg-sky-600 rounded text-xs font-bold">flip()</button>
+                <button aria-label="Flip buffer in sandbox" onClick={handleNioFlip} className="px-2.5 py-1 bg-gold-600 rounded text-xs font-bold">flip()</button>
                 <button aria-label="Read byte in sandbox" onClick={handleNioRead} className="px-2.5 py-1 bg-emerald-600 rounded text-xs font-bold">Read</button>
                 <button aria-label="Clear buffer in sandbox" onClick={handleNioClear} className="px-2.5 py-1 bg-slate-700 rounded text-xs font-bold">Clear</button>
               </div>
@@ -2330,7 +2330,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
           {/* Challenge header bar */}
           <div className="flex flex-wrap items-center justify-between gap-2 p-3 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-400 ml-2">
@@ -2356,7 +2356,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
           {/* Progress bar */}
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2383,7 +2383,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                         ? 'bg-rose-950/80 border-2 border-rose-500 text-rose-200'
                         : showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 hover:bg-indigo-950/60 text-slate-200 border border-slate-700/80'
+                        : 'bg-slate-800/80 hover:bg-gold-950/60 text-slate-200 border border-slate-700/80'
                     }`}
                   >
                     <div className="flex items-center gap-2.5">
@@ -2415,7 +2415,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-mono font-bold shadow-md"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg cursor-grab text-xs font-mono font-bold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2436,7 +2436,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                       onDrop={() => handleDragDrop(target.id)}
                       className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[90px]"
                     >
-                      <span className="text-[11px] font-bold text-indigo-300">{target.name}</span>
+                      <span className="text-[11px] font-bold text-gold-300">{target.name}</span>
                       <div className="mt-2 text-xs font-mono font-bold text-emerald-400">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : <span className="text-slate-600 font-sans font-normal italic">Drop here</span>}
                       </div>
@@ -2449,7 +2449,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2494,7 +2494,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Order
                 </motion.button>
@@ -2520,7 +2520,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Value
                   </motion.button>
@@ -2540,7 +2540,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-2.5 py-1.5 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono font-bold"
+                      className="px-2.5 py-1.5 bg-gold-950 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2549,7 +2549,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-700 text-white rounded-md text-xs font-mono font-bold flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-700 text-white rounded-md text-xs font-mono font-bold flex items-center gap-1.5">
                       <span>{part}</span>
                       <button
                         aria-label={`Remove token ${part}`}
@@ -2570,7 +2570,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Validate Construction
                   </motion.button>
@@ -2631,7 +2631,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD MISSION ARC ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-5 my-4">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 space-y-4">
             <div className="flex items-center justify-between">
               <div>
                 <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Mission Accomplished</span>
@@ -2707,7 +2707,7 @@ export function C12_ComputerScienceJavaStreamFilterSim({
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-400 font-mono flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

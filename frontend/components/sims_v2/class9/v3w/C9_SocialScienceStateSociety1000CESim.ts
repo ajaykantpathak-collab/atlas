@@ -11,7 +11,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Governance and Society: Interconnection of Politics and People',
     chapters: [],
     nodeIds: ['c9_hist_ch1_8', 'c9_hist_ch2_10', 'c9_hist_ch3_1', 'c9_eco_ch1_1', 'c9_eco_ch1_2', 'c9_hist_ch1_1', 'c9_hist_ch1_10', 'c9_hist_ch1_2', 'c9_hist_ch1_3', 'c9_hist_ch1_5', 'c9_hist_ch1_6', 'c9_hist_ch3_12', 'c9_hist_ch3_3', 'c9_hist_ch3_4', 'c9_hist_ch3_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting the Qutb Minar complex in Delhi. You see the Iron Pillar (Gupta period), the.', goal: 'Master Governance and Society: Interconnection of Politics and People.' },
     discovery: {
         question: 'Why did Alauddin Khalji\'s market control regulations (fixing grain prices, regulating merchants) provoke resistance not only from traders but also from rural.',
@@ -20,7 +20,7 @@ export const w_c9_socialsciencestatesociety1000cesim: SimDef = {
         hook: 'Students often think "governance affects society" is a one-way top-down process: the state makes laws, society obeys.',
     },
     teaching: [
-        { title: 'Governance and society represent a.', text: 'Governance and society represent a dialectical relationship where political structures (state apparatus, laws, administration, power distribution) shape social organisation (caste, class, gender,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Governance and society represent a.', text: 'Governance and society represent a dialectical relationship where political structures (state apparatus, laws, administration, power distribution) shape social organisation (caste, class, gender,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_hist_ch1_8', title: 'Governance and society represent a.',

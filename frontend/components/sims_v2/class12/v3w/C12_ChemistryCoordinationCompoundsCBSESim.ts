@@ -11,7 +11,7 @@ export const w_c12_chemistrycoordinationcompoundscbsesim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Werner\'s Theory of Coordination Compounds',
     chapters: [],
     nodeIds: ['c12_chem_cbse_05_001', 'c12_chem_cbse_05_002', 'c12_chem_cbse_05_003', 'c12_chem_cbse_05_004', 'c12_chem_cbse_05_005', 'c12_chem_cbse_05_009', 'c12_chem_cbse_05_008', 'c12_chem_cbse_04_007', 'c12_chem_cbse_04_002', 'c12_chem_cbse_04_004', 'c12_chem_cbse_04_006', 'c12_chem_cbse_04_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe what happens when you add concentrated ammonia to a pink solution of cobalt(II) chloride — it turns.', goal: 'Master Werner\'s Theory of Coordination Compounds.' },
     discovery: {
         question: 'Compare the behaviour in aqueous solution of Mohr\'s salt FeSO₄·(NH₄)₂SO₄·6H₂O (a double salt) and K₄[Fe(CN)₆] (a coordination compound).',
@@ -20,7 +20,7 @@ export const w_c12_chemistrycoordinationcompoundscbsesim: SimDef = {
         hook: 'Students write the formulation of CoCl₃·6NH₃ as [Co(NH₃)₆]Cl₃ correctly, but for CoCl₃·5NH₃ they write [Co(NH₃)₅]Cl₃.',
     },
     teaching: [
-        { title: 'Werner\'s theory proposes that in.', text: 'Werner\'s theory proposes that in coordination compounds, a central metal atom/ion exhibits two distinct types of valence: (i) **primary valence** (ionizable, equals oxidation state, satisfied only by.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Werner\'s theory proposes that in.', text: 'Werner\'s theory proposes that in coordination compounds, a central metal atom/ion exhibits two distinct types of valence: (i) **primary valence** (ionizable, equals oxidation state, satisfied only by.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_05_001', title: 'Werner\'s theory proposes that in.',

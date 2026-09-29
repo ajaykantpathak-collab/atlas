@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C9_CHEM_GEN: SimDef[] = [
  {
   "id": "gen_c9_chem_ch01",
-  "title": "Mixture",
+  "title": "A Mixture Is a Material Composed",
   "subtitle": "Chemistry · Chapter 1",
   "classLevel": 9,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Mixture",
+  "topic": "A Mixture Is a Material Composed",
   "chapters": [
-   "Chemistry Ch1: Mixture"
+   "Chemistry Ch1: A Mixture Is a Material Composed"
   ],
   "nodeIds": [
    "c9_chem_ch1_1",
@@ -38,7 +38,7 @@ export const C9_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Mixture actually explain?",
+   "question": "In one line -- what does A Mixture Is a Material Composed actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -49,37 +49,37 @@ export const C9_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Mixture",
+    "title": "A Mixture Is a Material Composed",
     "text": "A mixture is a material composed of two or more substances (elements or compounds) physically combined in any proportion, where each substance retains its own chemical identity and properties.",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Solution",
+    "title": "A Solution Is a Homogeneous Mixture",
     "text": "A solution is a homogeneous mixture of two or more substances where the solute (component present in smaller amount) is uniformly dispersed at the particle level in the solvent (component present in larger amount); concentration quantitatively expresses the",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Solubility",
+    "title": "Solubility Is The Maximum Amount",
     "text": "Solubility is the maximum amount of solute (in grams) that can dissolve in 100 grams of solvent at a specific temperature to form a saturated solution.",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Crystallisation",
+    "title": "Crystallisation Is a Separation Technique",
     "text": "Crystallisation is a separation technique used to obtain pure solid crystals of a solute from its saturated solution by controlled cooling or evaporation, exploiting the principle that solubility of most solids increases with temperature and decreases on",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Distillation",
+    "title": "Distillation Is a Physical Separation",
     "text": "Distillation is a physical separation technique used to separate components of a homogeneous mixture of miscible liquids based on differences in their boiling points; simple distillation is effective when boiling points differ by more than 25°C, while",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Chromatography",
+    "title": "Chromatography Is a Separation Technique",
     "text": "Chromatography is a separation technique where components of a mixture are separated based on their differential affinities for a stationary phase (e.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -91,19 +91,19 @@ export const C9_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Sublimation",
+    "title": "Sublimation Is a Physical Change",
     "text": "Sublimation is a physical change of state in which a solid transforms directly into a gas without passing through the liquid phase, occurring when the solid's vapour pressure equals the atmospheric pressure at a specific temperature.",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Suspension",
+    "title": "A Suspension Is a Heterogeneous Mixture",
     "text": "A suspension is a heterogeneous mixture in which solid particles (size >1000 nm) are dispersed in a liquid or gas but are large enough to settle out on standing, can be separated by filtration using filter paper, and may exhibit a weak Tyndall effect due to",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Colloid",
+    "title": "A Colloid Is a Heterogeneous Mixture",
     "text": "A colloid is a heterogeneous mixture in which the dispersed phase particles (1–1000 nm) are larger than those in a true solution but smaller than those in a suspension, remain suspended for long periods, and scatter a beam of light (Tyndall effect).",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
@@ -121,11 +121,11 @@ export const C9_CHEM_GEN: SimDef[] = [
     "question": "Define a mixture and state the two main types. Give one example of each type from daily life.",
     "answer": "A mixture is a physical combination of two or more substances retaining their individual properties",
     "options": [
-     "The size range is 1–1000 nm (or 10⁻⁹ to 10⁻⁶ m). The phenomenon is the Tyndall effect",
-     "The Tyndall effect is the scattering of light by colloidal particles (1 nm – 1000 nm) making the light path visible",
+     "Solute is the component present in smaller amount that gets dissolved; solvent is the component present in larger amount that does the dissolving",
+     "Student can correctly identify solute and solvent in any given solution (solid-liquid, liquid-liquid, gas-liquid), choose the appropriate concentration formula (mass%, volume%",
      "A mixture is a physical combination of two or more substances retaining their individual properties"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a material composed' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"mixture is a chemical combination\" or \"types are solid and liquid\") reveals confusion between physical vs chemical combination and between states of matter vs mixture classification.",
     "id": "gen_c9_chem_ch01_q1",
     "nodeId": "c9_chem_ch1_1",
@@ -258,7 +258,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "For solids: higher temperature increases kinetic energy of solvent molecules, enabling them to break the solute's crystal lattice and surround solute particles more effectively",
      "The packing increases surface area for repeated condensation and vaporisation, enriching the vapour in the more volatile component each cycle"
     ],
-    "hint": "Straight from the 'Distillation' slide -- match the key terms.",
+    "hint": "Straight from the 'Distillation is a physical' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the beads prevent bumping\") shows confusion with anti-bumping granules in the flask, not understanding the theoretical plate concept.",
     "id": "gen_c9_chem_ch01_q5",
     "nodeId": "c9_chem_ch1_5",
@@ -400,11 +400,11 @@ export const C9_CHEM_GEN: SimDef[] = [
     "question": "Define a suspension and state the minimum particle size required for a mixture to be classified as one.",
     "answer": "A suspension is a heterogeneous mixture in which solid particles larger than 1000 nm (1 micron) are dispersed in a fluid medium",
     "options": [
-     "Solute is the component present in smaller amount that gets dissolved; solvent is the component present in larger amount that does the dissolving",
-     "Solubility is the maximum mass of solute (in grams) that can dissolve in 100 grams of solvent at a given temperature to form a saturated solution",
+     "The size range is 1–1000 nm (or 10⁻⁹ to 10⁻⁶ m). The phenomenon is the Tyndall effect",
+     "A mixture is a physical combination of two or more substances retaining their individual properties",
      "A suspension is a heterogeneous mixture in which solid particles larger than 1000 nm (1 micron) are dispersed in a fluid medium"
     ],
-    "hint": "Straight from the 'suspension' slide -- match the key terms.",
+    "hint": "Straight from the 'A suspension is a heterogeneous' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"particle size >1 nm\") confuses suspensions with colloids, which have particles 1-1000 nm.",
     "id": "gen_c9_chem_ch01_q9",
     "nodeId": "c9_chem_ch1_9",
@@ -473,8 +473,8 @@ export const C9_CHEM_GEN: SimDef[] = [
     "question": "Define the Tyndall effect and state the size range of particles that exhibit it.",
     "answer": "The Tyndall effect is the scattering of light by colloidal particles (1 nm – 1000 nm) making the light path visible",
     "options": [
-     "A suspension is a heterogeneous mixture in which solid particles larger than 1000 nm (1 micron) are dispersed in a fluid medium",
-     "A mixture is a physical combination of two or more substances retaining their individual properties",
+     "Student can explain why the Tyndall effect is observed in colloids but not in true solutions or suspensions",
+     "The student can classify any given mixture as a colloid by identifying its particle size range (1–1000 nm), naming the correct type from the eight categories (sol, gel, aerosol",
      "The Tyndall effect is the scattering of light by colloidal particles (1 nm – 1000 nm) making the light path visible"
     ],
     "hint": "Straight from the 'Tyndall effect' slide -- match the key terms.",
@@ -623,7 +623,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "The statement is incorrect. Colloidal particles (1–1000 nm) are small enough that gravitational settling is extremely slow (months/years) because their random Brownian motion",
      "The statement is false. Counterexample 1: Milk is opaque but is a colloid (heterogeneous at microscopic level)"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a material composed' slide -- match the key terms.",
     "misconception": "A wrong evaluation (agreeing with the statement) reveals the misconception that optical transparency equals homogeneity, ignoring particle size criteria.",
     "id": "gen_c9_chem_ch01_q14",
     "nodeId": "c9_chem_ch1_1",
@@ -638,7 +638,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "Pressure significantly increases gas solubility (Henry's law) because gas molecules are compressible and pressure forces more molecules into the solvent",
      "| Property | True Solution (Homogeneous) | Suspension (Heterogeneous) | |---|---|---| | Stability | Stable, no settling | Unstable"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a material composed' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: | Property | True Solution (Homogeneous) | Suspension (Heterogeneous) | |---|---|---| | Stability | Stable, no settling",
     "id": "gen_c9_chem_ch01_q15",
     "nodeId": "c9_chem_ch1_1",
@@ -653,7 +653,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "Procedure: (1) Place mixture in a china dish. (2) Cover with an inverted glass funnel plugged with cotton wool at the stem",
      "Procedure: 1) Shine flashlight through each mixture in a dark room — observe Tyndall effect. 2) Filter each mixture — observe residue"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a material composed' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Procedure: 1) Shine flashlight through each mixture in a dark room — observe Tyndall effect.",
     "id": "gen_c9_chem_ch01_q16",
     "nodeId": "c9_chem_ch1_1",
@@ -668,7 +668,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "For solids: higher temperature increases kinetic energy of solvent molecules, enabling them to break the solute's crystal lattice and surround solute particles more effectively",
      "Copper sulphate dissolves as Cu²⁺ and SO₄²⁻ ions (<1 nm), forming a single-phase uniform mixture. Chalk powder (CaCO₃) particles are >1000 nm, remain as separate solid phase"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
+    "hint": "Straight from the 'A mixture is a material composed' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"copper sulphate is blue so it's homogeneous\") reveals reliance on color instead of particle size and phase uniformity as the defining criteria.",
     "id": "gen_c9_chem_ch01_q17",
     "nodeId": "c9_chem_ch1_1",
@@ -676,15 +676,15 @@ export const C9_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "You are given three beakers: A (milk), B (air), C (blood). Classify each as homogeneous or heterogeneous mixture. Justify each classification using particle size and phase behavior.",
-    "answer": "A (milk): Heterogeneous (colloid) — fat globules ~100-1000 nm, shows Tyndall effect, separable by centrifugation",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can classify a given mixture as homogeneous or heterogeneous by analyzing its composition uniformity, phase visibility, and particle size",
     "options": [
-     "Procedure: 1) Measure equal volumes (e.g., 50 mL) of each solution using measuring cup. 2) Weigh each 50 mL sample (mass/volume gives density)",
-     "The statement is false. Counterexample 1: Milk is cloudy but is a colloid (particle size 100-1000 nm), not a suspension",
-     "A (milk): Heterogeneous (colloid) — fat globules ~100-1000 nm, shows Tyndall effect, separable by centrifugation"
+     "Solubility is the maximum amount of solute (in grams) that can dissolve in 100 grams of solvent at a specific temperature to form a saturated solution",
+     "The student can predict the direction of solubility change for a given solute-solvent pair when temperature or pressure is altered",
+     "Student can classify a given mixture as homogeneous or heterogeneous by analyzing its composition uniformity, phase visibility, and particle size"
     ],
-    "hint": "Straight from the 'mixture' slide -- match the key terms.",
-    "misconception": "A wrong classification (e.g., \"milk is homogeneous because it looks uniform\") reveals the misconception that visual uniformity alone defines homogeneity, ignoring particle size and Tyndall effect.",
+    "hint": "Straight from the 'A mixture is a material composed' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can classify a given mixture as homogeneous or heterogeneous by analyzing its composition uniformity, phase",
     "id": "gen_c9_chem_ch01_q18",
     "nodeId": "c9_chem_ch1_1",
     "difficulty": "standard"
@@ -692,11 +692,11 @@ export const C9_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mixture?",
+    "What surprised you about a mixture is a material composed?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mixture mastered! 🎯",
+  "successLine": "A Mixture Is a Material mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -741,19 +741,19 @@ export const C9_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Isotopes",
+    "title": "Isotopes Are Atoms Of The Same",
     "text": "Isotopes are atoms of the same element that have the same atomic number (same number of protons) but different mass numbers due to a different number of neutrons in their nuclei.",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Isobars",
+    "title": "Isobars Are Atoms Of Different Elements",
     "text": "Isobars are atoms of different elements that have the same mass number (total number of protons plus neutrons) but different atomic numbers (number of protons).",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Limitations Of Atomic Models Refer",
+    "title": "Limitations Of Atomic Models",
     "text": "The limitations of atomic models refer to the specific experimental observations and theoretical inconsistencies that each historical model (Thomson's plum pudding, Rutherford's nuclear, Bohr's quantized orbits) failed to explain, necessitating the",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -790,7 +790,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "No, it is not fair. Bohr's model was a crucial stepping stone. Two lasting successes: (1) It correctly introduced the concept of quantized energy levels (electrons exist only at",
      "Procedure: Measure 50 mL of normal water and 50 mL of heavy water (if available) separately in identical graduated cylinders"
     ],
-    "hint": "Straight from the 'Isotopes' slide -- match the key terms.",
+    "hint": "Straight from the 'Isotopes are atoms of the same' slide -- match the key terms.",
     "misconception": "A poor answer that suggests tasting or using radioactive detection reveals inability to design a safe, quantitative physical property comparison.",
     "id": "gen_c9_chem_ch02_q2",
     "nodeId": "c9_chem_ch2_8",
@@ -811,7 +811,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "Good answer example: \"Atomic number is like your Aadhaar number — unique, permanent, defines who you are",
      "Test 1: React with water - calcium reacts vigorously producing H₂ gas and Ca(OH)₂; argon shows no reaction"
     ],
-    "hint": "Straight from the 'Isobars' slide -- match the key terms.",
+    "hint": "Straight from the 'Isobars are atoms of different' slide -- match the key terms.",
     "misconception": "A poor answer suggesting mass spectrometry or density measurements misses the point - the question asks for chemical distinction using atomic number differences, not nuclear methods.",
     "id": "gen_c9_chem_ch02_q3",
     "nodeId": "c9_chem_ch2_9",
@@ -832,7 +832,7 @@ export const C9_CHEM_GEN: SimDef[] = [
      "Test 1: React with water - calcium reacts vigorously producing H₂ gas and Ca(OH)₂; argon shows no reaction",
      "No, it is not fair. Bohr's model was a crucial stepping stone. Two lasting successes: (1) It correctly introduced the concept of quantized energy levels (electrons exist only at"
     ],
-    "hint": "Straight from the 'limitations of atomic models refer' slide -- match the key terms.",
+    "hint": "Straight from the 'limitations of atomic models' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it's wrong because electrons don't orbit\") shows the student judges historical models by modern standards rather than evaluating their explanatory power for their time.",
     "id": "gen_c9_chem_ch02_q4",
     "nodeId": "c9_chem_ch2_10",

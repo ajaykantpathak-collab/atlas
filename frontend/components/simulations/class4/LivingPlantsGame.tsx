@@ -34,7 +34,7 @@ const TEACHING_SLIDES = [
     title: "The Tricky Seeds & Eggs 🌰",
     text: "A dry seed or hen's egg looks lifeless, but they are LIVING in a dormant resting stage! Give them moisture, warmth, and air, and they sprout or hatch!",
     emoji: "🥚",
-    bgColor: "from-teal-400 to-cyan-500",
+    bgColor: "from-teal-400 to-gold-500",
     spoken: "A dry seed or hen's egg looks lifeless, but they are living in a dormant resting stage! Give them moisture, warmth, and air, and they sprout or hatch!"
   },
   {
@@ -48,14 +48,14 @@ const TEACHING_SLIDES = [
     title: "Internal Organs — Inside Helpers ❤️",
     text: "Hidden safely inside our bodies are internal organs! The brain in our head thinks and controls. The heart and lungs in our chest pump blood and breathe!",
     emoji: "🧠",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Hidden safely inside our bodies are internal organs! The brain in our head thinks and controls. The heart and lungs in our chest pump blood and breathe!"
   },
   {
     title: "Tummy Team & Working Together 🫀",
     text: "In our abdomen, the stomach, liver, kidneys, and intestines digest food and clean waste! All organs work together as a team to keep us healthy and strong!",
     emoji: "🩺",
-    bgColor: "from-indigo-400 to-purple-500",
+    bgColor: "from-gold-400 to-purple-500",
     spoken: "In our abdomen, the stomach, liver, kidneys, and intestines digest food and clean waste! All organs work together as a team to keep us healthy and strong!"
   },
 ];
@@ -793,7 +793,7 @@ export function LivingPlantsGame({ width = 720, height = 560, onComplete }: Livi
   };
 
   return (
-    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gradient-to-b from-sky-300 to-emerald-200" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gradient-to-b from-gold-300 to-emerald-200" style={{ width, height }}>
       <NatureScene width={width} height={height} />
       <DoctorDivya mood={mascotMood} speaking={speakingText} />
 

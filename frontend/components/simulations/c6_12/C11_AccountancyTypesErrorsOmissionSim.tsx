@@ -1099,7 +1099,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
   // Motivational message calculation
   const motivationalFeedback = useMemo(() => {
     if (errors === 0) return { title: 'PERFECT SCORE!', desc: 'Flawless forensic auditing! You mastered all 4 error classifications, suspense mechanisms, and NPO fund statements with zero mistakes.', color: 'text-emerald-400', badgeBg: 'bg-emerald-500/20 border-emerald-500/50' };
-    if (errors <= 3) return { title: 'Great work!', desc: 'Excellent conceptual grasp! You navigated two-sided rectifications, P/L Adjustment entries, and subscription accruals with high competence.', color: 'text-indigo-400', badgeBg: 'bg-indigo-500/20 border-indigo-500/50' };
+    if (errors <= 3) return { title: 'Great work!', desc: 'Excellent conceptual grasp! You navigated two-sided rectifications, P/L Adjustment entries, and subscription accruals with high competence.', color: 'text-gold-400', badgeBg: 'bg-gold-500/20 border-gold-500/50' };
     if (errors <= 7) return { title: 'Good effort!', desc: 'Solid attempt! Review the specific fund accounting rules and Suspense ledger posting to turn these mistakes into mastery.', color: 'text-amber-400', badgeBg: 'bg-amber-500/20 border-amber-500/50' };
     return { title: 'Do not give up — You WILL get this!', desc: 'Accounting conventions require persistent pattern recognition. Replay the interactive labs to sharpen your core principles!', color: 'text-rose-400', badgeBg: 'bg-rose-500/20 border-rose-500/50' };
   }, [errors]);
@@ -1113,12 +1113,12 @@ function C11_AccountancyTypesErrorsOmissionSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 mb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner">
+          <div className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 11 Accountancy • Forensic Rectification & NPO Core</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 11 Accountancy • Forensic Rectification & NPO Core</p>
           </div>
         </div>
 
@@ -1132,13 +1132,13 @@ function C11_AccountancyTypesErrorsOmissionSim({
                 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
-                : 'bg-indigo-500/10 text-indigo-400 border-indigo-500/30'
+                : 'bg-gold-500/10 text-gold-400 border-gold-500/30'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="px-3 py-1 bg-slate-900 border border-slate-800 rounded-full text-xs text-slate-400">
-            Mastery: <span className="text-indigo-300 font-bold capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-300 font-bold capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1156,8 +1156,8 @@ function C11_AccountancyTypesErrorsOmissionSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/40 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
               <span>🏛️</span> {SCENARIO.title}
             </div>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
@@ -1187,11 +1187,11 @@ function C11_AccountancyTypesErrorsOmissionSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 shadow-md'
                         : 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700/60 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700/60 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
-                  <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1214,7 +1214,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full sm:w-auto px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                 >
                   Enter Interactive Accounting Labs →
                 </motion.button>
@@ -1228,7 +1228,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1236,7 +1236,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                 <div
                   key={i}
                   className={`h-1.5 rounded-full transition-all duration-300 ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-800'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1253,7 +1253,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
             >
               <div>
                 <h2 className="text-lg sm:text-xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
-                <p className="text-sm text-indigo-300 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+                <p className="text-sm text-gold-300 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
               {/* SLIDE 0: SVG DIAGRAM 1 — TRIAL BALANCE SCALE & 4 ERROR ARCHETYPES */}
@@ -1274,7 +1274,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                         onClick={() => handleApplyErrorType(btn.id as 'none' | 'omission' | 'commission' | 'principle' | 'compensating')}
                         className={`p-2.5 text-xs font-bold rounded-xl border transition-all ${
                           simErrorType === btn.id
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                             : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-750'
                         }`}
                       >
@@ -1318,7 +1318,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     </svg>
 
                     <div className="w-full max-w-md mt-2 flex justify-between text-xs font-mono px-4 py-2 bg-slate-900 rounded-xl border border-slate-800">
-                      <span className="text-sky-400 font-bold">Total Debits: ₹{simDebitAmount.toLocaleString('en-IN')}</span>
+                      <span className="text-gold-400 font-bold">Total Debits: ₹{simDebitAmount.toLocaleString('en-IN')}</span>
                       <span className="text-purple-400 font-bold">Total Credits: ₹{simCreditAmount.toLocaleString('en-IN')}</span>
                       <span className={`font-black ${simDebitAmount === simCreditAmount ? 'text-emerald-400' : 'text-rose-400'}`}>
                         {simDebitAmount === simCreditAmount ? 'STATUS: BALANCED' : 'STATUS: DISAGREES'}
@@ -1328,8 +1328,8 @@ function C11_AccountancyTypesErrorsOmissionSim({
 
                   {/* Observation hook */}
                   {!observationAnswered && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40 space-y-2">
-                      <p className="text-xs sm:text-sm font-bold text-indigo-300">{OBSERVATION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40 space-y-2">
+                      <p className="text-xs sm:text-sm font-bold text-gold-300">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1339,7 +1339,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                             onClick={() => handleObservation(i)}
                             className={`text-left p-2.5 rounded-lg text-xs ${
                               observationIndex === i
-                                ? 'bg-indigo-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-200 hover:bg-slate-700'
                             }`}
                           >
@@ -1358,7 +1358,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center text-xs">
                       <span className="text-slate-400 font-medium">Trial Balance Discrepancy (Debit Excess):</span>
-                      <span className="text-indigo-400 font-mono font-bold">₹{suspenseOpeningDiff.toLocaleString('en-IN')}</span>
+                      <span className="text-gold-400 font-mono font-bold">₹{suspenseOpeningDiff.toLocaleString('en-IN')}</span>
                     </div>
                     <input
                       type="range"
@@ -1367,7 +1367,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                       step={5000}
                       value={suspenseOpeningDiff}
                       onChange={(e) => setSuspenseOpeningDiff(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Adjust Suspense Opening Difference"
                     />
 
@@ -1417,7 +1417,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
 
                     {/* Suspense T-Account Display */}
                     <div className="mt-2 p-4 bg-slate-900 rounded-xl border border-slate-800">
-                      <div className="text-center font-bold text-xs text-indigo-400 pb-2 border-b border-slate-800">
+                      <div className="text-center font-bold text-xs text-gold-400 pb-2 border-b border-slate-800">
                         Dr. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suspense Account (T-Format) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cr.
                       </div>
                       <div className="grid grid-cols-2 divide-x divide-slate-800 text-xs font-mono pt-3 min-h-[70px]">
@@ -1428,7 +1428,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                               <span>₹{suspenseRectifiedAmount.toLocaleString('en-IN')}</span>
                             </div>
                           )}
-                          <div className="flex justify-between text-indigo-300 font-bold pt-1 border-t border-slate-800">
+                          <div className="flex justify-between text-gold-300 font-bold pt-1 border-t border-slate-800">
                             <span>To Balance c/d (Unlocated)</span>
                             <span>₹{(suspenseOpeningDiff - suspenseRectifiedAmount).toLocaleString('en-IN')}</span>
                           </div>
@@ -1462,11 +1462,11 @@ function C11_AccountancyTypesErrorsOmissionSim({
                         onClick={() => setSelectedPipelineStage(stage.id as 1 | 2 | 3)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           selectedPipelineStage === stage.id
-                            ? 'bg-indigo-600/30 border-indigo-500 text-white shadow-lg'
+                            ? 'bg-gold-600/30 border-gold-500 text-white shadow-lg'
                             : 'bg-slate-850 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
-                        <div className="text-xs font-bold text-indigo-300">{stage.title}</div>
+                        <div className="text-xs font-bold text-gold-300">{stage.title}</div>
                         <div className="text-[10px] text-slate-400 mt-0.5">{stage.desc}</div>
                       </motion.button>
                     ))}
@@ -1537,8 +1537,8 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     )}
                     {selectedPipelineStage === 2 && (
                       <div className="space-y-1">
-                        <span className="px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-bold">Stage 2 Rule (ISC Core)</span>
-                        <p className="text-slate-300">Trial Balance is extracted and out of balance. One-sided errors MUST route through the <span className="text-indigo-400 font-bold">Suspense Account</span>. Two-sided errors are rectified by direct journal entries (no Suspense needed!).</p>
+                        <span className="px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 font-bold">Stage 2 Rule (ISC Core)</span>
+                        <p className="text-slate-300">Trial Balance is extracted and out of balance. One-sided errors MUST route through the <span className="text-gold-400 font-bold">Suspense Account</span>. Two-sided errors are rectified by direct journal entries (no Suspense needed!).</p>
                       </div>
                     )}
                     {selectedPipelineStage === 3 && (
@@ -1599,10 +1599,10 @@ function C11_AccountancyTypesErrorsOmissionSim({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className={`p-4 rounded-xl border transition-all ${
                       sieveSelectedItem === 'subscriptions' || sieveSelectedItem === 'salaries_paid'
-                        ? 'bg-indigo-950/60 border-indigo-500 shadow-lg'
+                        ? 'bg-gold-950/60 border-gold-500 shadow-lg'
                         : 'bg-slate-900/40 border-slate-800 opacity-40'
                     }`}>
-                      <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Income & Expenditure Account (Revenue)</h4>
+                      <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Income & Expenditure Account (Revenue)</h4>
                       <p className="text-xs text-slate-300 mt-2">
                         {sieveSelectedItem === 'subscriptions' && '✓ Subscriptions: Recurring member income -> Credited to I&E A/c.'}
                         {sieveSelectedItem === 'salaries_paid' && '✓ Staff Salaries: Recurring operating cost -> Debited to I&E A/c.'}
@@ -1639,10 +1639,10 @@ function C11_AccountancyTypesErrorsOmissionSim({
                         step={20000}
                         value={subCashReceived}
                         onChange={(e) => handleSubCashChange(Number(e.target.value))}
-                        className="w-full mt-1 accent-sky-500 cursor-pointer"
+                        className="w-full mt-1 accent-gold-500 cursor-pointer"
                         aria-label="Subscriptions Cash Received"
                       />
-                      <div className="text-xs font-mono text-sky-400 font-bold mt-0.5">₹{subCashReceived.toLocaleString('en-IN')}</div>
+                      <div className="text-xs font-mono text-gold-400 font-bold mt-0.5">₹{subCashReceived.toLocaleString('en-IN')}</div>
                     </div>
 
                     <div>
@@ -1693,7 +1693,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     </ResponsiveContainer>
                   </div>
 
-                  <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700/60 text-center font-mono text-xs sm:text-sm font-black text-indigo-200">
+                  <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/60 text-center font-mono text-xs sm:text-sm font-black text-gold-200">
                     Revenue Income to Credit I&E A/c: ₹{computedSubIncome.toLocaleString('en-IN')}
                   </div>
                 </div>
@@ -1718,7 +1718,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1748,7 +1748,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
               <button
                 onClick={() => setSandboxTab('errors')}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                  sandboxTab === 'errors' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  sandboxTab === 'errors' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 Errors & Suspense
@@ -1756,7 +1756,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
               <button
                 onClick={() => setSandboxTab('npo')}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                  sandboxTab === 'npo' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  sandboxTab === 'npo' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 NPO Accrual Engine
@@ -1776,9 +1776,9 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     step={10000}
                     value={simDebitAmount}
                     onChange={(e) => setSimDebitAmount(Number(e.target.value))}
-                    className="w-full mt-2 accent-sky-500 cursor-pointer"
+                    className="w-full mt-2 accent-gold-500 cursor-pointer"
                   />
-                  <div className="text-sm font-mono font-bold text-sky-400 mt-1">₹{simDebitAmount.toLocaleString('en-IN')}</div>
+                  <div className="text-sm font-mono font-bold text-gold-400 mt-1">₹{simDebitAmount.toLocaleString('en-IN')}</div>
                 </div>
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
@@ -1796,8 +1796,8 @@ function C11_AccountancyTypesErrorsOmissionSim({
                 </div>
               </div>
 
-              <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-slate-300">
-                <span className="font-bold text-indigo-300">Automatic Suspense Placement: </span>
+              <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-slate-300">
+                <span className="font-bold text-gold-300">Automatic Suspense Placement: </span>
                 {simDebitAmount === simCreditAmount
                   ? 'None needed! Trial Balance agrees.'
                   : simDebitAmount > simCreditAmount
@@ -1863,13 +1863,13 @@ function C11_AccountancyTypesErrorsOmissionSim({
               <span className="text-slate-400 font-bold">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono font-bold uppercase">
+              <span className="px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 font-mono font-bold uppercase">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1903,10 +1903,10 @@ function C11_AccountancyTypesErrorsOmissionSim({
                       className={`w-full text-left p-4 rounded-xl text-xs sm:text-sm font-medium transition-all duration-200 border ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg'
-                          : 'bg-slate-800/80 border-slate-700/60 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                          : 'bg-slate-800/80 border-slate-700/60 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -1922,7 +1922,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     disabled={showExplanation}
                     placeholder="Enter precise figure"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none w-64"
                   />
                   <span className="text-slate-400 font-bold text-sm">{challenge.unit}</span>
                   <motion.button
@@ -1930,7 +1930,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                   >
                     Submit Figure
                   </motion.button>
@@ -1950,7 +1950,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       disabled={showExplanation}
-                      className="px-3 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300"
+                      className="px-3 py-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -1959,7 +1959,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-950 border border-indigo-700 rounded-lg text-xs font-mono text-white flex items-center gap-1.5">
+                    <span key={i} className="px-3 py-1 bg-gold-950 border border-gold-700 rounded-lg text-xs font-mono text-white flex items-center gap-1.5">
                       {part}
                       <button onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))} className="text-rose-400 font-bold ml-1">✕</button>
                     </span>
@@ -1972,7 +1972,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify Constructed Entry
                 </motion.button>
@@ -1988,7 +1988,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                       key={i}
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2019,7 +2019,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Validate Labels
                 </motion.button>
@@ -2041,7 +2041,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                     }}
                     className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-600 text-white font-bold flex items-center justify-center text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-gold-600 text-white font-bold flex items-center justify-center text-[10px]">
                       {displayIdx + 1}
                     </span>
                     <span>{challenge.sortItems![idx]}</span>
@@ -2053,7 +2053,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(sortArrangement)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Check Sequence
                 </motion.button>
@@ -2119,7 +2119,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
       {/* ─── PHASE 5: COMPLETE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-500/40 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-500/40 shadow-2xl text-center space-y-4">
             <div className="w-16 h-16 mx-auto rounded-full bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center text-3xl">
               🎓
             </div>
@@ -2146,7 +2146,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
               </div>
               <div className="text-center">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2191,7 +2191,7 @@ function C11_AccountancyTypesErrorsOmissionSim({
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-xl border border-slate-850 text-xs text-slate-400">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

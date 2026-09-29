@@ -301,7 +301,7 @@ export const C10_HIST_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Aristocracy And The mastered! 🎯",
+  "successLine": "Aristocracy mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {

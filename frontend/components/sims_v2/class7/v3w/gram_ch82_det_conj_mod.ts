@@ -9,7 +9,7 @@ export const c7_gram_ch82: SimDef = {
     classLevel: 7, subject: 'english-grammar', topic: 'Determiners, subordinating conjunctions, adjectives and adverbs',
     chapters: ['c7_gram_ch82'],
     nodeIds: ['c7_gram_cbse_82_001', 'c7_gram_cbse_82_002', 'c7_gram_cbse_82_003'],
-    emoji: '🧭', theme: { bg: 'from-slate-900 to-indigo-950', accent: 'indigo', scene: 'junior' },
+    emoji: '🧭', theme: { bg: 'from-slate-900 to-gold-950', accent: 'indigo', scene: 'junior' },
 
     scenario: {
         role: 'a navigator choosing words by the direction they point',
@@ -28,8 +28,8 @@ export const c7_gram_ch82: SimDef = {
         hook: 'Polarity runs the some/any split — and polite offers are a sneaky exception that keeps "some" inside a question.',
     },
     teaching: [
-        { title: 'The two axes', text: 'Pointing: this/these = near, that/those = far. Quantity: many/few = countable, much/little = mass.', emoji: '📐', bgColor: 'from-indigo-500 to-violet-600' },
-        { title: 'The logic map', text: 'because=reason, although=concession, when/while=time, if/unless=condition, until=limit. Dependent clause first → comma follows.', emoji: '🗺️', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'The two axes', text: 'Pointing: this/these = near, that/those = far. Quantity: many/few = countable, much/little = mass.', emoji: '📐', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'The logic map', text: 'because=reason, although=concession, when/while=time, if/unless=condition, until=limit. Dependent clause first → comma follows.', emoji: '🗺️', bgColor: 'from-gold-500 to-purple-600' },
     ],
 
     beats: [

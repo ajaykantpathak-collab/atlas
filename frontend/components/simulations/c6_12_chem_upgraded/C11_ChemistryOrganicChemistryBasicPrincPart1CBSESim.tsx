@@ -1311,14 +1311,14 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
       <header className="w-full max-w-6xl bg-slate-900 border border-slate-800 rounded-2xl p-4 sm:p-6 mb-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
+            <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-gold-500/20 text-gold-400 border border-gold-500/30">
               Class 11 ISC Chemistry
             </span>
             <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-500/20 text-purple-400 border border-purple-500/30">
               Organic Principles Part 1
             </span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
             {SCENARIO.title}
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl">{SCENARIO.intro}</p>
@@ -1328,7 +1328,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
         <div className="flex items-center gap-6 bg-slate-950/80 px-4 py-3 rounded-xl border border-slate-800 shrink-0">
           <div className="text-center">
             <div className="text-xs text-slate-400 font-medium">BKT Mastery</div>
-            <div className="text-xl font-extrabold text-cyan-400">{averageMastery}%</div>
+            <div className="text-xl font-extrabold text-gold-400">{averageMastery}%</div>
           </div>
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center">
@@ -1351,7 +1351,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           onClick={() => handleTabChange('discovery')}
           className={`px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 flex items-center gap-2 ${
             activeTab === 'discovery'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1361,7 +1361,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           onClick={() => handleTabChange('lab')}
           className={`px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 flex items-center gap-2 ${
             activeTab === 'lab'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1371,7 +1371,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           onClick={() => handleTabChange('challenges')}
           className={`px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 flex items-center gap-2 ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1381,7 +1381,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           onClick={() => handleTabChange('misconceptions')}
           className={`px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 flex items-center gap-2 ${
             activeTab === 'misconceptions'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1391,7 +1391,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           onClick={() => handleTabChange('summary')}
           className={`px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 flex items-center gap-2 ${
             activeTab === 'summary'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1407,7 +1407,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-3 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-3 flex items-center gap-2">
                 <span>��</span> Real Chemistry Lab Context
               </h2>
               <p className="text-slate-300 leading-relaxed text-sm sm:text-base mb-4">{SCENARIO.context}</p>
@@ -1451,8 +1451,8 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                 </div>
 
                 {discoveryAnswered && (
-                  <div className="mt-4 p-4 rounded-xl bg-cyan-950/60 border border-cyan-800/80 text-cyan-200 text-xs sm:text-sm">
-                    <span className="font-bold text-cyan-400">Key Scientific Insight: </span>
+                  <div className="mt-4 p-4 rounded-xl bg-gold-950/60 border border-gold-800/80 text-gold-200 text-xs sm:text-sm">
+                    <span className="font-bold text-gold-400">Key Scientific Insight: </span>
                     {DISCOVERY_QUESTION.hintAfter}
                   </div>
                 )}
@@ -1461,7 +1461,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
 
             {/* PREDICTION_QUESTIONS Mapping Render */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-sky-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔮</span> Prediction Questions (Hypothesis Testing)
               </h3>
               <div className="space-y-6">
@@ -1517,7 +1517,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                   }}
                   className={`px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
                     currentStepIndex === sIdx
-                      ? 'bg-cyan-500 text-slate-950 font-bold shadow-md shadow-cyan-500/20'
+                      ? 'bg-gold-500 text-slate-950 font-bold shadow-md shadow-gold-500/20'
                       : 'bg-slate-950 text-slate-400 hover:bg-slate-800 hover:text-slate-200 border border-slate-800'
                   }`}
                 >
@@ -1529,7 +1529,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
             {/* Active Lab Card Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center justify-between mb-2">
-                <h2 className="text-xl font-bold text-cyan-400">
+                <h2 className="text-xl font-bold text-gold-400">
                   {EXPLORATION_STEPS[currentStepIndex].title}
                 </h2>
                 <span className="px-3 py-1 rounded-full text-xs font-mono bg-slate-950 text-slate-400 border border-slate-800">
@@ -1557,7 +1557,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                           }}
                           className={`flex-1 py-2.5 rounded-lg text-xs font-bold transition-all border ${
                             labHybridType === h
-                              ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg shadow-cyan-600/30'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1569,7 +1569,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     <div className="space-y-2 pt-4 text-xs text-slate-300 border-t border-slate-800">
                       <div className="flex justify-between py-1 border-b border-slate-900">
                         <span>Geometry:</span>
-                        <span className="font-bold text-cyan-400">
+                        <span className="font-bold text-gold-400">
                           {labHybridType === 'sp3' && 'Tetrahedral'}
                           {labHybridType === 'sp2' && 'Trigonal Planar'}
                           {labHybridType === 'sp' && 'Linear'}
@@ -1623,7 +1623,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                           setLabChainLength(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                       <div className="flex justify-between text-xs text-slate-500 font-mono">
                         <span>Eth(2)</span>
@@ -1644,7 +1644,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                           setLabSubstituent(e.target.value as typeof labSubstituent);
                           audioManager.play('pop');
                         }}
-                        className="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:border-cyan-500"
+                        className="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg p-2.5 focus:border-gold-500"
                       >
                         <option value="none">None (Simple Alkane)</option>
                         <option value="methyl">Methyl branch (-CH3)</option>
@@ -1668,7 +1668,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                             }}
                             className={`flex-1 py-2 text-[10px] font-bold rounded capitalize border ${
                               labRepresentationMode === m
-                                ? 'bg-cyan-600 border-cyan-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-900 border-slate-800 text-slate-400'
                             }`}
                           >
@@ -1680,11 +1680,11 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                   </div>
 
                   {/* Calculated Name Banner */}
-                  <div className="bg-slate-950 border border-cyan-500/40 p-4 rounded-xl text-center">
+                  <div className="bg-slate-950 border border-gold-500/40 p-4 rounded-xl text-center">
                     <div className="text-xs text-slate-400 uppercase tracking-widest font-mono">
                       Calculated Systematic IUPAC Name
                     </div>
-                    <div className="text-2xl font-extrabold text-cyan-400 mt-1 font-mono">
+                    <div className="text-2xl font-extrabold text-gold-400 mt-1 font-mono">
                       {computedIUPACName}
                     </div>
                   </div>
@@ -1706,7 +1706,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all border ${
                           labIsomerType === iso
-                            ? 'bg-cyan-600 border-cyan-400 text-white shadow-md'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                         }`}
                       >
@@ -1719,7 +1719,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     {labIsomerType === 'chain' && (
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="p-4 bg-slate-900 rounded-lg border border-slate-800">
-                          <h4 className="font-bold text-cyan-400 text-sm mb-1">Pentan-1-ol (Unbranched)</h4>
+                          <h4 className="font-bold text-gold-400 text-sm mb-1">Pentan-1-ol (Unbranched)</h4>
                           <p className="text-xs text-slate-400 font-mono">CH3-CH2-CH2-CH2-CH2-OH</p>
                           <p className="text-xs text-slate-300 mt-2">Boiling point: 138°C (Max surface area)</p>
                         </div>
@@ -1734,7 +1734,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     {labIsomerType === 'position' && (
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="p-4 bg-slate-900 rounded-lg border border-slate-800">
-                          <h4 className="font-bold text-cyan-400 text-sm mb-1">Propan-1-ol</h4>
+                          <h4 className="font-bold text-gold-400 text-sm mb-1">Propan-1-ol</h4>
                           <p className="text-xs text-slate-400 font-mono">CH3-CH2-CH2-OH (OH at C1)</p>
                         </div>
                         <div className="p-4 bg-slate-900 rounded-lg border border-slate-800">
@@ -1747,7 +1747,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     {labIsomerType === 'functional' && (
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="p-4 bg-slate-900 rounded-lg border border-slate-800">
-                          <h4 className="font-bold text-cyan-400 text-sm mb-1">Ethanol (Alcohol)</h4>
+                          <h4 className="font-bold text-gold-400 text-sm mb-1">Ethanol (Alcohol)</h4>
                           <p className="text-xs text-slate-400 font-mono">CH3-CH2-OH</p>
                           <p className="text-xs text-slate-300 mt-2">Liquid at RT due to H-bonding</p>
                         </div>
@@ -1762,7 +1762,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     {labIsomerType === 'geometrical' && (
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="p-4 bg-slate-900 rounded-lg border border-slate-800 text-center">
-                          <h4 className="font-bold text-sky-400 text-sm mb-2">Cis-2-Butene</h4>
+                          <h4 className="font-bold text-gold-400 text-sm mb-2">Cis-2-Butene</h4>
                           <p className="text-xs text-slate-400 font-mono">Methyl groups on SAME side</p>
                           <div className="mt-3 text-xs text-amber-300">Higher Dipole Moment (μ &gt; 0)</div>
                         </div>
@@ -1794,7 +1794,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                           }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold capitalize transition-all border ${
                             labElectronicEffect === eff
-                              ? 'bg-cyan-600 border-cyan-400 text-white shadow-md'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1806,21 +1806,21 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     <div className="pt-4 border-t border-slate-800 text-xs text-slate-300 space-y-2">
                       {labElectronicEffect === 'inductive' && (
                         <>
-                          <p><strong className="text-cyan-400">Nature:</strong> Permanent effect operating through σ-bonds.</p>
+                          <p><strong className="text-gold-400">Nature:</strong> Permanent effect operating through σ-bonds.</p>
                           <p><strong className="text-amber-400">-I Order:</strong> -NO2 &gt; -CN &gt; -COOH &gt; -F &gt; -Cl &gt; -Br &gt; -I</p>
                           <p><strong className="text-emerald-400">+I Order:</strong> -C(CH3)3 &gt; -CH(CH3)2 &gt; -CH2CH3 &gt; -CH3</p>
                         </>
                       )}
                       {labElectronicEffect === 'resonance' && (
                         <>
-                          <p><strong className="text-cyan-400">Nature:</strong> Delocalization of π-electrons or lone pairs in conjugated systems.</p>
+                          <p><strong className="text-gold-400">Nature:</strong> Delocalization of π-electrons or lone pairs in conjugated systems.</p>
                           <p><strong className="text-emerald-400">+R Groups:</strong> -OH, -OR, -NH2, -NR2, -Halogens (Electron Donating)</p>
                           <p><strong className="text-rose-400">-R Groups:</strong> -NO2, -CN, -CHO, -COOH (Electron Withdrawing)</p>
                         </>
                       )}
                       {labElectronicEffect === 'hyperconjugation' && (
                         <>
-                          <p><strong className="text-cyan-400">Nature:</strong> Delocalization of C-H σ-electrons into vacant p or π orbital.</p>
+                          <p><strong className="text-gold-400">Nature:</strong> Delocalization of C-H σ-electrons into vacant p or π orbital.</p>
                           <p><strong className="text-amber-400">Requirement:</strong> Presence of α-hydrogens on sp³ carbon.</p>
                           <p><strong className="text-purple-400">Stability Rule:</strong> Number of hyperconjugative forms = Number of α-hydrogens.</p>
                         </>
@@ -1849,7 +1849,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                           }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold capitalize transition-all border ${
                             labIntermediateType === inter
-                              ? 'bg-cyan-600 border-cyan-400 text-white shadow-md'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1861,7 +1861,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                     <div className="space-y-2 text-xs text-slate-300 pt-3 border-t border-slate-800">
                       <div className="flex justify-between">
                         <span>Bond Cleavage Origin:</span>
-                        <span className="font-bold text-cyan-400">
+                        <span className="font-bold text-gold-400">
                           {labIntermediateType === 'free-radical' ? 'Homolytic Cleavage (A• + B•)' : 'Heterolytic Cleavage (A⁺ + B⁻)'}
                         </span>
                       </div>
@@ -1963,7 +1963,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                 <button
                   onClick={handleNextChallenge}
                   disabled={selectedChallengeOption === null}
-                  className="px-4 py-1.5 rounded-lg bg-cyan-600 border border-cyan-500 text-xs font-bold text-white disabled:opacity-40 hover:bg-cyan-500 shadow-md"
+                  className="px-4 py-1.5 rounded-lg bg-gold-600 border border-gold-500 text-xs font-bold text-white disabled:opacity-40 hover:bg-gold-500 shadow-md"
                 >
                   Next Challenge →
                 </button>
@@ -2032,7 +2032,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                   setShowHint(!showHint);
                   audioManager.play('hint');
                 }}
-                className="text-cyan-400 hover:underline flex items-center gap-1 font-semibold"
+                className="text-gold-400 hover:underline flex items-center gap-1 font-semibold"
               >
                 <span>💡</span> {showHint ? 'Hide Concept Hint' : 'Need a Concept Hint?'}
               </button>
@@ -2048,7 +2048,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           <div className="space-y-6">
             {/* Misconceptions Section */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h2 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 flex items-center gap-2">
                 <span>🧠</span> Common Organic Chemistry Misconceptions & Clarifications
               </h2>
 
@@ -2073,7 +2073,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
 
             {/* Diagnostic Assessment Section */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-sky-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <span>📋</span> ISC Curriculum Diagnostic Questions
               </h3>
 
@@ -2114,7 +2114,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
           <div className="space-y-6">
             {/* Real World Activity Container */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                 <span>🏢</span> Industrial Chemistry & Medical Application
               </div>
               <h2 className="text-xl font-bold text-slate-100">{REAL_WORLD_ACTIVITY.title}</h2>
@@ -2124,7 +2124,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                 <h3 className="font-bold text-amber-400 text-sm">Industrial Protocol Execution Steps:</h3>
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full bg-cyan-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
+                    <span className="w-5 h-5 rounded-full bg-gold-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
                       {sIdx + 1}
                     </span>
                     <span>{step}</span>
@@ -2154,7 +2154,7 @@ const C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim: React.FC<PropType> = 
                         <div className="text-[10px] text-slate-500 font-mono">{nodeId}</div>
                       </div>
                       <div className="text-right">
-                        <div className="text-sm font-extrabold text-cyan-400">{mastery}%</div>
+                        <div className="text-sm font-extrabold text-gold-400">{mastery}%</div>
                         <div className="text-[9px] text-slate-400">Mastery Level</div>
                       </div>
                     </div>

@@ -47,13 +47,13 @@ export const C6_ECO_GEN: SimDef[] = [
     "title": "Barter System",
     "text": "The barter system is an early method of trade where people exchanged goods or services directly for other goods or services without using money.",
     "emoji": "📈",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Double Coincidence Of Wants",
     "text": "Double coincidence of wants is a situation in a barter system where two people must simultaneously desire exactly what the other person is offering to trade. If this mutual desire does not exist, the exchange cannot take place.",
     "emoji": "📈",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "Commodity Money",
@@ -71,13 +71,13 @@ export const C6_ECO_GEN: SimDef[] = [
     "title": "Evolution Of Currency",
     "text": "The evolution of currency refers to the historical shift in how societies pay for goods, moving from physical barter and heavy metal coins to portable paper notes, and finally to modern electronic entries in bank ledgers.",
     "emoji": "📈",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "Money In Daily Life",
     "text": "Money in daily life refers to the cycle of earning (gaining income through work), spending (using money for goods and services), and saving (keeping money aside for future needs).",
     "emoji": "📈",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [

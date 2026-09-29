@@ -277,14 +277,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Points, Lines, & Rays! 📐",
     text: "A point shows position with no size. A line segment has two endpoints and measurable length. A line goes on forever both ways. A ray starts at one point and goes forever in one direction!",
     emoji: "📏",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "A point shows position with no size. A line segment has two endpoints and measurable length. A line goes on forever both ways. A ray starts at one point and goes forever in one direction!"
   },
   {
     title: "Parallel & Perpendicular Lines! 🛤️",
     text: "Parallel lines never meet and stay the same distance apart, like railway tracks! Perpendicular lines cross each other at a right angle, forming a perfect square corner like the letter T!",
     emoji: "⚔️",
-    bgColor: "from-cyan-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Parallel lines never meet and stay the same distance apart, like railway tracks! Perpendicular lines cross each other at a right angle, forming a perfect square corner like the letter T!"
   },
   {
@@ -305,7 +305,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Estimation & Verification! 🔍",
     text: "Estimation is making a smart, reasonable guess before measuring. Verification is checking your guess with an actual instrument like a ruler, scale, or measuring tape!",
     emoji: "🔍",
-    bgColor: "from-purple-400 to-indigo-600",
+    bgColor: "from-purple-400 to-gold-600",
     spoken: "Estimation is making a smart, reasonable guess before measuring. Verification is checking your guess with an actual instrument!"
   },
 ];
@@ -723,7 +723,7 @@ export function LinesMeasurementGame({ width = 720, height = 560, onComplete }: 
   };
 
   return (
-    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-sky-100" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gold-100" style={{ width, height }}>
       <ConstructionSceneBackground width={width} height={height} />
 
       {showConfetti && <Confetti onComplete={() => setShowConfetti(false)} />}
@@ -732,7 +732,7 @@ export function LinesMeasurementGame({ width = 720, height = 560, onComplete }: 
       {successMsg && <SuccessBanner message={successMsg} onComplete={advanceChallenge} />}
 
       {screen === 'teaching' && (
-        <div className="absolute inset-0 flex flex-col items-center justify-between p-6 z-10 bg-gradient-to-b from-sky-500/90 to-blue-700/90 text-white">
+        <div className="absolute inset-0 flex flex-col items-center justify-between p-6 z-10 bg-gradient-to-b from-gold-500/90 to-gold-700/90 text-white">
           <div className="w-full flex justify-between items-center mt-2">
             <span className="text-sm font-bold uppercase tracking-wider bg-white/20 px-3 py-1 rounded-full">
               Builder Bharat's Academy • Slide {slideIdx + 1} of {TEACHING_SLIDES.length}
@@ -816,7 +816,7 @@ export function LinesMeasurementGame({ width = 720, height = 560, onComplete }: 
           {/* Top Bar */}
           <div className="flex justify-between items-center bg-white/80 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-md">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-black uppercase text-blue-800 bg-blue-100 px-3 py-1 rounded-full">
+              <span className="text-xs font-black uppercase text-gold-800 bg-gold-100 px-3 py-1 rounded-full">
                 Challenge {challengeIdx + 1} / {CHALLENGES.length}
               </span>
               <StarRow count={Math.floor(score / 15)} total={6} />
@@ -845,7 +845,7 @@ export function LinesMeasurementGame({ width = 720, height = 560, onComplete }: 
                 {currentChallenge.options.map((opt, idx) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnColor = 'bg-blue-50 hover:bg-blue-100 text-blue-900 border-blue-200';
+                  let btnColor = 'bg-gold-50 hover:bg-gold-100 text-gold-900 border-gold-200';
                   if (selectedOpt) {
                     if (isCorrectAnswer) btnColor = 'bg-emerald-500 text-white border-emerald-600';
                     else if (isSelected) btnColor = 'bg-rose-500 text-white border-rose-600';

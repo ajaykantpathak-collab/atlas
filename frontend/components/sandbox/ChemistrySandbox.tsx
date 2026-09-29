@@ -242,10 +242,10 @@ function Num({ label, value, min, max, step, onChange }: {
       <span className="w-24 text-slate-400 font-semibold">{label}</span>
       <input type="range" min={min} max={max} step={step} value={value}
         onChange={e => onChange(Number(e.target.value))}
-        className="flex-1 accent-sky-400" />
+        className="flex-1 accent-gold-400" />
       <input type="number" min={min} max={max} step={step} value={value}
         onChange={e => onChange(Number(e.target.value))}
-        className="w-20 px-2 py-1 rounded-lg bg-slate-900 border border-slate-600 text-right font-mono text-slate-100 focus:outline-none focus:border-sky-400" />
+        className="w-20 px-2 py-1 rounded-lg bg-slate-900 border border-slate-600 text-right font-mono text-slate-100 focus:outline-none focus:border-gold-400" />
     </label>
   )
 }
@@ -255,7 +255,7 @@ function AskButton({ onClick, disabled, label = 'Ask the solver' }: {
 }) {
   return (
     <button onClick={onClick} disabled={disabled}
-      className="px-4 py-2 rounded-xl bg-sky-500 text-slate-950 text-xs font-black hover:bg-sky-400 disabled:opacity-40 transition">
+      className="px-4 py-2 rounded-xl bg-gold-500 text-slate-950 text-xs font-black hover:bg-gold-400 disabled:opacity-40 transition">
       {label}
     </button>
   )
@@ -346,7 +346,7 @@ export default function ChemistrySandbox() {
       <div className="flex flex-wrap gap-1.5 mb-4">
         {TABS.map(t => (
           <button key={t.key} onClick={() => visit(t.key)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-black border transition ${tab === t.key ? 'bg-sky-500/15 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-500'}`}>
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-black border transition ${tab === t.key ? 'bg-gold-500/15 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-500'}`}>
             <t.icon className="w-3.5 h-3.5" />
             {t.label}
           </button>
@@ -380,7 +380,7 @@ function SolveBench({ prompt, setPrompt }: { prompt: string; setPrompt: (s: stri
           textbook-style question — deterministic families, no LLM
         </p>
         <textarea value={prompt} onChange={e => setPrompt(e.target.value)} rows={2}
-          className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white focus:outline-none focus:border-sky-400" />
+          className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white focus:outline-none focus:border-gold-400" />
         <div className="flex items-center gap-2 mt-2">
           <AskButton onClick={ask} disabled={state.loading} />
           <span className="text-[10px] text-slate-500">
@@ -452,17 +452,17 @@ function EquationsBench({ miscon }: { miscon: (id?: string) => Promise<void> }) 
         <div className="flex flex-wrap gap-1.5 mb-3">
           {EQ_BANK.map(b => (
             <button key={b.label} onClick={() => { setLhs(b.lhs); setRhs(b.rhs); setState(IDLE) }}
-              className={`px-2.5 py-1 rounded-lg text-[10px] font-bold border transition ${b.label.startsWith('impossible') ? 'border-rose-500/40 text-rose-300 hover:bg-rose-500/10' : 'border-slate-600 text-slate-300 hover:border-sky-400/50'}`}>
+              className={`px-2.5 py-1 rounded-lg text-[10px] font-bold border transition ${b.label.startsWith('impossible') ? 'border-rose-500/40 text-rose-300 hover:bg-rose-500/10' : 'border-slate-600 text-slate-300 hover:border-gold-400/50'}`}>
               {b.label}
             </button>
           ))}
         </div>
         <div className="flex items-center gap-2 flex-wrap">
           <input value={lhs} onChange={e => setLhs(e.target.value)}
-            className="flex-1 min-w-[140px] px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold font-mono text-white focus:outline-none focus:border-sky-400" />
+            className="flex-1 min-w-[140px] px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold font-mono text-white focus:outline-none focus:border-gold-400" />
           <span className="text-slate-500 font-black">→</span>
           <input value={rhs} onChange={e => setRhs(e.target.value)}
-            className="flex-1 min-w-[140px] px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold font-mono text-white focus:outline-none focus:border-sky-400" />
+            className="flex-1 min-w-[140px] px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold font-mono text-white focus:outline-none focus:border-gold-400" />
           <AskButton onClick={ask} disabled={state.loading} label="Balance it" />
         </div>
         <StepsList s={state} />
@@ -544,19 +544,19 @@ function FormulasBench({ miscon }: { miscon: (id?: string) => Promise<void> }) {
       </p>
       <div className="flex flex-wrap items-center gap-2">
         <select value={cat} onChange={e => setCat(e.target.value)}
-          className="px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white focus:outline-none focus:border-sky-400">
+          className="px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white focus:outline-none focus:border-gold-400">
           {CATIONS.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
         <span className="text-slate-500 font-black">+</span>
         <select value={an} onChange={e => setAn(e.target.value)}
-          className="px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white focus:outline-none focus:border-sky-400">
+          className="px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white focus:outline-none focus:border-gold-400">
           {ANIONS.map(a => <option key={a} value={a}>{a}</option>)}
         </select>
         <AskButton onClick={ask} disabled={state.loading} label="Write formula" />
       </div>
       <input value={custom} onChange={e => setCustom(e.target.value)}
         placeholder='…or type any pair, e.g. "iron (III) oxide" — an invalid pair teaches too'
-        className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white placeholder:text-slate-500 placeholder:font-normal focus:outline-none focus:border-sky-400" />
+        className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-600 text-sm font-bold text-white placeholder:text-slate-500 placeholder:font-normal focus:outline-none focus:border-gold-400" />
       <StepsList s={state} />
       {invalid && (
         <MisconceptionPanel
@@ -637,7 +637,7 @@ function MoleBench({ miscon }: { miscon: (id?: string) => Promise<void> }) {
       <div className="flex flex-wrap gap-1.5">
         {MOLE_MODES.map(mm => (
           <button key={mm.key} onClick={() => { setMode(mm.key); setState(IDLE) }}
-            className={`px-2.5 py-1 rounded-lg text-[10px] font-bold border transition ${mode === mm.key ? 'bg-sky-500/15 border-sky-400/60 text-sky-200' : 'border-slate-600 text-slate-300 hover:border-sky-400/50'}`}>
+            className={`px-2.5 py-1 rounded-lg text-[10px] font-bold border transition ${mode === mm.key ? 'bg-gold-500/15 border-gold-400/60 text-gold-200' : 'border-slate-600 text-slate-300 hover:border-gold-400/50'}`}>
             {mm.label}
           </button>
         ))}
@@ -741,14 +741,14 @@ function PhBench({ miscon }: { miscon: (id?: string) => Promise<void> }) {
         </div>
         <div className="rounded-xl bg-slate-900 border border-slate-700 px-3 py-2">
           <p className="text-[10px] text-slate-500 font-black uppercase">pOH</p>
-          <p className="text-sm font-mono font-bold text-sky-300">{impossible ? '—' : fmt(poh)}</p>
+          <p className="text-sm font-mono font-bold text-gold-300">{impossible ? '—' : fmt(poh)}</p>
         </div>
         <div className="rounded-xl bg-slate-900 border border-slate-700 px-3 py-2">
           <p className="text-[10px] text-slate-500 font-black uppercase">[OH-]</p>
-          <p className="text-sm font-mono font-bold text-indigo-300">{impossible ? '—' : fmt(oh)} M</p>
+          <p className="text-sm font-mono font-bold text-gold-300">{impossible ? '—' : fmt(oh)} M</p>
         </div>
       </div>
-      <div className="h-3 rounded-full bg-gradient-to-r from-rose-500 via-slate-200 to-indigo-500 relative">
+      <div className="h-3 rounded-full bg-gradient-to-r from-rose-500 via-slate-200 to-gold-500 relative">
         {!impossible && (
           <span className="absolute -top-1 h-5 w-1.5 rounded bg-white shadow"
             style={{ left: `${Math.min(100, Math.max(0, (ph + 2) / 18 * 100))}%` }} />
@@ -757,8 +757,8 @@ function PhBench({ miscon }: { miscon: (id?: string) => Promise<void> }) {
       <div className="flex items-center gap-2">
         <span className="text-xs font-bold text-slate-400">pH =</span>
         <input value={typed} onChange={e => commit(e.target.value)}
-          className="w-20 px-2 py-1 rounded-lg bg-slate-900 border border-slate-600 font-mono text-xs text-white focus:outline-none focus:border-sky-400" />
-        <span className={`text-[11px] font-black ${band === 'acidic' ? 'text-rose-300' : band === 'neutral' ? 'text-slate-200' : 'text-indigo-300'}`}>
+          className="w-20 px-2 py-1 rounded-lg bg-slate-900 border border-slate-600 font-mono text-xs text-white focus:outline-none focus:border-gold-400" />
+        <span className={`text-[11px] font-black ${band === 'acidic' ? 'text-rose-300' : band === 'neutral' ? 'text-slate-200' : 'text-gold-300'}`}>
           {band} solution
         </span>
         <AskButton onClick={ask} disabled={state.loading || impossible}
@@ -856,7 +856,7 @@ function GasBench() {
         <div className="flex flex-wrap gap-1.5">
           {GAS_LAWS.map(l => (
             <button key={l.key} onClick={() => { setLaw(l.key); setState(IDLE) }}
-              className={`px-2.5 py-1 rounded-lg text-[10px] font-bold border transition ${law === l.key ? 'bg-sky-500/15 border-sky-400/60 text-sky-200' : 'border-slate-600 text-slate-300 hover:border-sky-400/50'}`}>
+              className={`px-2.5 py-1 rounded-lg text-[10px] font-bold border transition ${law === l.key ? 'bg-gold-500/15 border-gold-400/60 text-gold-200' : 'border-slate-600 text-slate-300 hover:border-gold-400/50'}`}>
               {l.label}
             </button>
           ))}
@@ -948,7 +948,7 @@ function AtomBench({ miscon }: { miscon: (id?: string) => Promise<void> }) {
           </p>
           <p className="text-[11px]">
             {isIon ? (
-              <span className={charge > 0 ? 'text-rose-300 font-bold' : 'text-indigo-300 font-bold'}>
+              <span className={charge > 0 ? 'text-rose-300 font-bold' : 'text-gold-300 font-bold'}>
                 ION — {ionName}, charge {charge > 0 ? `+${charge}` : charge}
               </span>
             ) : (
@@ -1020,7 +1020,7 @@ function MoleculesBench() {
       <div className="flex flex-wrap gap-1.5">
         {MOL_KEYS.map(m => (
           <button key={m.key} onClick={() => setMol(m.key)}
-            className={`px-3 py-1.5 rounded-lg text-[11px] font-black border transition ${mol === m.key ? 'bg-sky-500/15 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-500'}`}>
+            className={`px-3 py-1.5 rounded-lg text-[11px] font-black border transition ${mol === m.key ? 'bg-gold-500/15 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-500'}`}>
             {m.label}
           </button>
         ))}

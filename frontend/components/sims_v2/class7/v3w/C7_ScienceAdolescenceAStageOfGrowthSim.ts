@@ -11,7 +11,7 @@ export const w_c7_scienceadolescenceastageofgrowthsim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Life Stages of Humans: Infancy to Old Age',
     chapters: [],
     nodeIds: ['c7_bio_ch01_001', 'c7_bio_ch01_002', 'c7_bio_ch01_003', 'c7_bio_ch01_004', 'c7_bio_ch01_005', 'c7_bio_ch01_007', 'c7_bio_ch01_008', 'c7_bio_ch01_009', 'c7_bio_ch01_012', 'c7_bio_ch01_006', 'c7_bio_ch01_010', 'c7_bio_ch01_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Look at a family photo album: you see a tiny newborn baby, a toddler taking first steps, a school-going.', goal: 'Master Life Stages of Humans: Infancy to Old Age.' },
     discovery: {
         question: 'What is the standard age range defined for the period of adolescence in humans?',
@@ -20,7 +20,7 @@ export const w_c7_scienceadolescenceastageofgrowthsim: SimDef = {
         hook: 'Students often confuse the term "adolescence" with "puberty," thinking they mean the exact same thing and occur over.',
     },
     teaching: [
-        { title: 'The life stages of humans refer to the.', text: 'The life stages of humans refer to the continuous, progressive biological phases of growth, development, maturation, and aging that an individual passes through from birth to death—specifically.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The life stages of humans refer to the.', text: 'The life stages of humans refer to the continuous, progressive biological phases of growth, development, maturation, and aging that an individual passes through from birth to death—specifically.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_bio_ch01_001', title: 'The life stages of humans refer to the.',

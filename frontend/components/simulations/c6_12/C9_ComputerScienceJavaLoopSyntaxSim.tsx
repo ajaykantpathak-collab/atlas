@@ -1286,10 +1286,10 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
         className="flex flex-wrap items-center justify-between gap-4 p-4 mb-6 bg-slate-900/80 backdrop-blur rounded-2xl border border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ICSE Class 9 Computer Science
               </span>
               <span className="text-xs font-mono text-slate-400">c9_cs_031 - 036</span>
@@ -1312,7 +1312,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                 else setPhase(p);
               }}
               className={`px-3 py-1.5 rounded-lg capitalize transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30 font-bold' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 font-bold' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1324,14 +1324,14 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 mb-2 text-indigo-400 font-mono text-sm">
-              <span className="inline-block w-2.5 h-2.5 rounded-full bg-indigo-500 animate-pulse" />
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 font-mono text-sm">
+              <span className="inline-block w-2.5 h-2.5 rounded-full bg-gold-500 animate-pulse" />
               MISSION BRIEFING // TELEMETRY PARSER
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-indigo-200/80 text-xs mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-700/30">
+            <p className="text-gold-200/80 text-xs mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-700/30">
               ⚡ {SCENARIO.context}
             </p>
           </div>
@@ -1358,7 +1358,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect
                       ? 'bg-slate-800/50 border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <span className="inline-block w-6 h-6 rounded-lg bg-slate-700 text-center text-xs leading-6 font-mono mr-2">
@@ -1378,7 +1378,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Exploration Lab →
                 </motion.button>
@@ -1393,10 +1393,10 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Guided Interactive Lab</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Guided Interactive Lab</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
-            <span className="px-3 py-1 bg-indigo-950 border border-indigo-700 text-indigo-300 rounded-lg text-xs font-mono font-bold">
+            <span className="px-3 py-1 bg-gold-950 border border-gold-700 text-gold-300 rounded-lg text-xs font-mono font-bold">
               Lab {currentSlide + 1} / {EXPLORATION_STEPS.length}
             </span>
           </div>
@@ -1425,7 +1425,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                         max={6}
                         value={forLoopLimit}
                         onChange={(e) => setForLoopLimit(Number(e.target.value))}
-                        className="w-48 accent-indigo-500 cursor-pointer"
+                        className="w-48 accent-gold-500 cursor-pointer"
                         aria-label="Set for loop upper limit"
                       />
                     </div>
@@ -1435,7 +1435,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleForLoopStep}
-                        className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                        className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                       >
                         Step Next Cycle ➔
                       </motion.button>
@@ -1516,7 +1516,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                       </div>
                       <div>
                         <span className="text-slate-400">Status Phase: </span>
-                        <span className="font-mono uppercase font-bold text-indigo-400">{forLoopActivePhase}</span>
+                        <span className="font-mono uppercase font-bold text-gold-400">{forLoopActivePhase}</span>
                       </div>
                       <div className="flex items-center gap-1">
                         <span className="text-slate-400">Console Output: </span>
@@ -1529,8 +1529,8 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
 
                   {/* Observation hook */}
                   {forLoopActivePhase === 'term' && !observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300">{OBSERVATION_QUESTIONS[0].question}</p>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-2">
+                      <p className="text-xs font-bold text-gold-300">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, oIdx) => (
                           <motion.button
@@ -1554,7 +1554,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                 <div className="space-y-4">
                   {/* Predict Check */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, pIdx) => (
@@ -1603,8 +1603,8 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                     {/* While Gate */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <h4 className="text-sm font-bold text-sky-400">while (Entry-Controlled)</h4>
-                        <span className="text-[10px] px-2 py-0.5 rounded bg-sky-950 text-sky-300 border border-sky-800">Pre-Test</span>
+                        <h4 className="text-sm font-bold text-gold-400">while (Entry-Controlled)</h4>
+                        <span className="text-[10px] px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">Pre-Test</span>
                       </div>
                       <p className="text-xs text-slate-400 font-mono">int x = {whileInitVal}; while(x &lt; 5) {'{ print(x); x++; }'}</p>
                       <div className="flex gap-2">
@@ -1700,7 +1700,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleRunInterruptTrace('normal')}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          loopInterruptMode === 'normal' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'
+                          loopInterruptMode === 'normal' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         Normal Run
@@ -1811,7 +1811,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                               isComparing
                                 ? 'bg-amber-950/60 border-amber-400 text-amber-200 shadow-lg shadow-amber-500/20 scale-105'
                                 : isSortedTail
-                                ? 'bg-indigo-950/60 border-indigo-500 text-indigo-300'
+                                ? 'bg-gold-950/60 border-gold-500 text-gold-300'
                                 : 'bg-slate-900 border-slate-700 text-white'
                             }`}
                           >
@@ -1838,7 +1838,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
               {currentSlide === 4 && (
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">Live Packet &amp; Asset Inspector</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">Live Packet &amp; Asset Inspector</h4>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {[
                         { id: 'item_bank_url', label: 'http://sbi-login-verify-pass.cc', type: 'Phishing Url', risk: 'threat' },
@@ -1911,7 +1911,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1968,7 +1968,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleStepBubbleSort}
-                  className="flex-1 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="flex-1 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Step Sort
                 </motion.button>
@@ -2013,7 +2013,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
                       : difficulty === 'standard'
-                      ? 'bg-sky-500/20 text-sky-300 border-sky-500/30'
+                      ? 'bg-gold-500/20 text-gold-300 border-gold-500/30'
                       : 'bg-rose-500/20 text-rose-300 border-rose-500/30'
                   }`}
                 >
@@ -2029,7 +2029,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
               <span className="text-xs text-slate-400 font-mono">BKT Mastery: {masteryLevel}</span>
               <div className="w-24 h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2059,7 +2059,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                         ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                         : showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-500/20'
-                        : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <span className="inline-block w-6 h-6 rounded-lg bg-slate-700/80 text-center text-xs leading-6 font-mono mr-2">
@@ -2083,7 +2083,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-mono font-semibold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-mono font-semibold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2110,7 +2110,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Verify Target Positions
                 </motion.button>
@@ -2153,7 +2153,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                     const ans = sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i);
                     handleAnswer(ans);
                   }}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Confirm Sorted Order
                 </motion.button>
@@ -2168,7 +2168,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-indigo-500 w-52"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-gold-500 w-52"
                   aria-label="Enter numeric answer"
                 />
                 {challenge.unit && <span className="text-xs font-mono text-slate-400">{challenge.unit}</span>}
@@ -2176,7 +2176,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Submit Value
                 </motion.button>
@@ -2194,7 +2194,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-700/50 rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-700/50 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2228,7 +2228,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30 disabled:opacity-40"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30 disabled:opacity-40"
                 >
                   Verify Constructed Code
                 </motion.button>
@@ -2282,7 +2282,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
       {/* ─── 5. COMPLETION & MASTERY SUMMARY PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 shadow-2xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 shadow-2xl space-y-4">
             <div className="flex items-center justify-between">
               <div>
                 <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">MISSION AUDIT COMPLETE</span>
@@ -2339,8 +2339,8 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
           )}
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/50 space-y-4">
-            <h3 className="text-base font-black text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/50 space-y-4">
+            <h3 className="text-base font-black text-gold-300 flex items-center gap-2">
               <span>💭</span> Reflect on Your Learning
             </h3>
             <p className="text-xs text-slate-400">
@@ -2357,7 +2357,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   onChange={(e) => setReflections((r) => ({ ...r, q1: e.target.value }))}
                   placeholder="e.g., How continue in a while loop can trap the counter variable into an infinite loop..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2370,7 +2370,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   onChange={(e) => setReflections((r) => ({ ...r, q2: e.target.value }))}
                   placeholder="e.g., A for-loop is like an automated counting gear that tests a condition before each turn..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2383,7 +2383,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   onChange={(e) => setReflections((r) => ({ ...r, q3: e.target.value }))}
                   placeholder="e.g., Scanning telemetry streams from sensors, sorting high scores in a game, or filtering spam emails..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2394,7 +2394,7 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                   setReflectionSubmitted(true);
                   audioManager.play('success');
                 }}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 {reflectionSubmitted ? '✓ Reflection Saved!' : 'Save Reflection'}
               </motion.button>
@@ -2413,21 +2413,21 @@ function C9_ComputerScienceJavaLoopSyntaxSim({
                 to maximize long-term neural retention.
               </p>
             </div>
-            <span className="px-4 py-2 rounded-xl bg-slate-950 border border-slate-700 text-xs font-mono text-indigo-300">
+            <span className="px-4 py-2 rounded-xl bg-slate-950 border border-slate-700 text-xs font-mono text-gold-300">
               Intervals: {REVIEW_INTERVAL_DAYS.slice(0, 3).join(', ')} days
             </span>
           </div>
 
           {/* Real-World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🛰</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-mono font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-mono font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

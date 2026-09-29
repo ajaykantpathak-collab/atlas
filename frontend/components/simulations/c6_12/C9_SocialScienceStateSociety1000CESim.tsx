@@ -60,7 +60,7 @@ export function C9_SocialScienceStateSociety1000CESim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 9 History - State and Society up to 1000 CE</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 9 History - State and Society up to 1000 CE</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">The Land Grant Game: Pay in Land, Lose the Kingdom?</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -77,7 +77,7 @@ export function C9_SocialScienceStateSociety1000CESim() {
             </select>
             <p className="text-xs text-slate-400 leading-relaxed">{RECIPS.find((r) => r.id === recip)!.note}</p>
             <div className="flex gap-2">
-              <button onClick={grant} className="flex-1 min-h-11 rounded-xl bg-violet-600 hover:bg-violet-500 text-xs font-bold transition-all">Grant a village</button>
+              <button onClick={grant} className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">Grant a village</button>
               <button onClick={nextDecade} disabled={decade >= 10} className="flex-1 min-h-11 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold disabled:opacity-40 transition-all">Next decade</button>
             </div>
             <div>
@@ -97,14 +97,14 @@ export function C9_SocialScienceStateSociety1000CESim() {
           <div className="grid grid-cols-2 gap-2">
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Villages paying the king</p><p className="font-mono text-lg text-emerald-300">{royal}/12</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Royal revenue</p><p className="font-mono text-lg text-amber-300">{Math.round(revenue)} t/yr</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Total kingdom surplus</p><p className="font-mono text-lg text-sky-300">{Math.round(surplus)} t/yr</p></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Total kingdom surplus</p><p className="font-mono text-lg text-gold-300">{Math.round(surplus)} t/yr</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Army</p><p className="font-mono text-lg text-rose-300">{army} men</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Grants: brahmana / temple / chief</p><p className="font-mono text-lg text-violet-300">{byType.brahmana}/{byType.temple}/{byType.official}</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Decade</p><p className="font-mono text-lg text-indigo-300">{decade}</p></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Grants: brahmana / temple / chief</p><p className="font-mono text-lg text-gold-300">{byType.brahmana}/{byType.temple}/{byType.official}</p></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Decade</p><p className="font-mono text-lg text-gold-300">{decade}</p></div>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p><span className="font-bold text-indigo-300">The real trade-off:</span> copperplate inscriptions record thousands of such grants. They pushed agriculture into forests and built irrigation -- total surplus RISES (watch the blue number) -- but the king&apos;s own cut falls, and the grantees became local powers: the samanta-nayaka order that replaced the old kingdoms.</p>
+            <p><span className="font-bold text-gold-300">The real trade-off:</span> copperplate inscriptions record thousands of such grants. They pushed agriculture into forests and built irrigation -- total surplus RISES (watch the blue number) -- but the king&apos;s own cut falls, and the grantees became local powers: the samanta-nayaka order that replaced the old kingdoms.</p>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
@@ -116,17 +116,17 @@ export function C9_SocialScienceStateSociety1000CESim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">Peer kingdoms of the same age</p>
-            <p><span className="font-bold text-violet-300">Tripartite struggle:</span> Palas, Gurjara-Pratiharas and Rashtrakutas fought for 200 years over Kanauj -- the symbolic prize of north India.</p>
-            <p><span className="font-bold text-sky-300">Cholas:</span> rebuilt the temple-centred grant economy on an irrigation scale, and sent fleets to Sri Vijaya (1025 CE).</p>
+            <p className="font-bold text-gold-300 mb-1">Peer kingdoms of the same age</p>
+            <p><span className="font-bold text-gold-300">Tripartite struggle:</span> Palas, Gurjara-Pratiharas and Rashtrakutas fought for 200 years over Kanauj -- the symbolic prize of north India.</p>
+            <p><span className="font-bold text-gold-300">Cholas:</span> rebuilt the temple-centred grant economy on an irrigation scale, and sent fleets to Sri Vijaya (1025 CE).</p>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">Grant register</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Grant register</p>
             {grants === 0 && <p className="text-xs text-slate-500">No grants yet -- the king still holds all 12 villages.</p>}
             <div className="flex flex-wrap gap-1">
-              {Array.from({ length: byType.brahmana }).map((_, i) => <span key={`b${i}`} className="px-2 py-0.5 rounded-full bg-violet-950 border border-violet-700 text-violet-200 text-[10px] font-bold">agrahara</span>)}
-              {Array.from({ length: byType.temple }).map((_, i) => <span key={`t${i}`} className="px-2 py-0.5 rounded-full bg-sky-950 border border-sky-700 text-sky-200 text-[10px] font-bold">devadana</span>)}
+              {Array.from({ length: byType.brahmana }).map((_, i) => <span key={`b${i}`} className="px-2 py-0.5 rounded-full bg-gold-950 border border-gold-700 text-gold-200 text-[10px] font-bold">agrahara</span>)}
+              {Array.from({ length: byType.temple }).map((_, i) => <span key={`t${i}`} className="px-2 py-0.5 rounded-full bg-gold-950 border border-gold-700 text-gold-200 text-[10px] font-bold">devadana</span>)}
               {Array.from({ length: byType.official }).map((_, i) => <span key={`o${i}`} className="px-2 py-0.5 rounded-full bg-rose-950 border border-rose-700 text-rose-200 text-[10px] font-bold">samanta</span>)}
             </div>
             <p className="text-[11px] text-slate-500 mt-2">Each chip = one village whose taxes changed hands forever, exactly as the register above records.</p>
@@ -138,7 +138,7 @@ export function C9_SocialScienceStateSociety1000CESim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Grant only to temples and brahmanas for 8 decades -- how much does TOTAL surplus grow while royal revenue falls? Which number tells you agrarian expansion was real?</p>
         <p className="mt-1">2. Grant five villages to military chiefs -- how many decades pass before an independence declaration, and what could you have done to delay it?</p>

@@ -1149,7 +1149,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                 key={difficulty}
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
-                className="text-xs uppercase tracking-wider font-extrabold px-2.5 py-0.5 rounded-full bg-indigo-950/80 text-indigo-300 border border-indigo-700"
+                className="text-xs uppercase tracking-wider font-extrabold px-2.5 py-0.5 rounded-full bg-gold-950/80 text-gold-300 border border-gold-700"
               >
                 {difficulty} TIER
               </motion.span>
@@ -1167,14 +1167,14 @@ function C10_EconomicsPublicExpenditureRevenueSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
               <span>🏛️</span>
               <span>MACROECONOMIC & CONSUMER CASE SCENARIO</span>
             </div>
             <h2 className="text-lg font-bold text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 bg-indigo-950/40 p-3 rounded-xl border border-indigo-900/50">
+            <p className="text-xs text-gold-300/80 mt-3 bg-gold-950/40 p-3 rounded-xl border border-gold-900/50">
               {SCENARIO.context}
             </p>
           </div>
@@ -1386,8 +1386,8 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                 <div className="space-y-6">
                   {/* Predict Then Check Pattern */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
-                      <div className="text-xs font-bold uppercase text-indigo-300 flex items-center gap-1.5">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
+                      <div className="text-xs font-bold uppercase text-gold-300 flex items-center gap-1.5">
                         <span>🔮</span> PREDICT-THEN-CHECK
                       </div>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1669,7 +1669,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={handleApplyReagent}
                         aria-label="Add reagent drops"
-                        className="mt-3 px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                        className="mt-3 px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                       >
                         🧪 Add Chemical Reagent (Iodine / HCl)
                       </motion.button>
@@ -1764,8 +1764,8 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                     <div className="flex justify-center">
                       {selectedScannerItem === 'iron' && (
-                        <div className="p-4 bg-slate-900 rounded-2xl border-2 border-indigo-500 text-center w-48">
-                          <div className="text-3xl font-black text-indigo-400 font-mono tracking-widest border-2 border-indigo-400 p-2 rounded">
+                        <div className="p-4 bg-slate-900 rounded-2xl border-2 border-gold-500 text-center w-48">
+                          <div className="text-3xl font-black text-gold-400 font-mono tracking-widest border-2 border-gold-400 p-2 rounded">
                             ISI
                           </div>
                           <p className="text-xs font-bold text-white mt-2">BIS Standard IS 302</p>
@@ -1839,7 +1839,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
                 aria-label="Next Exploration Lab"
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1881,7 +1881,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-300">Fiscal Policy (Union Budget)</span>
+              <span className="text-xs font-bold text-gold-300">Fiscal Policy (Union Budget)</span>
               <div>
                 <label className="text-[11px] text-slate-400 block">Revenue Exp: ₹{revenueExp} L Cr</label>
                 <input
@@ -1891,7 +1891,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                   value={revenueExp}
                   onChange={(e) => setRevenueExp(Number(e.target.value))}
                   aria-label="Sandbox revenue expenditure"
-                  className="w-full accent-indigo-500 bg-slate-800"
+                  className="w-full accent-gold-500 bg-slate-800"
                 />
               </div>
               <div>
@@ -1968,7 +1968,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
-                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-indigo-300 border border-slate-700 uppercase">
+                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-800 text-gold-300 border border-slate-700 uppercase">
                   {challenge.competencyLevel}
                 </span>
                 <span className="text-xs font-mono text-slate-400">Node: {challenge.nodeId}</span>
@@ -1984,7 +1984,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+                  className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2047,7 +2047,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2227,7 +2227,7 @@ function C10_EconomicsPublicExpenditureRevenueSim({
               </span>
             </p>
             <p className="text-xs text-slate-400">
-              Assessed Mastery Level: <span className="text-indigo-400 font-bold uppercase">{masteryLevel}</span>
+              Assessed Mastery Level: <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2262,12 +2262,12 @@ function C10_EconomicsPublicExpenditureRevenueSim({
           )}
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-900/60 text-xs text-slate-300 flex items-center justify-between">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-900/60 text-xs text-slate-300 flex items-center justify-between">
             <div>
-              <span className="font-bold text-indigo-300 block">Spaced Repetition (SM-2 Algorithm)</span>
+              <span className="font-bold text-gold-300 block">Spaced Repetition (SM-2 Algorithm)</span>
               <span>
                 Based on your response accuracy, review is scheduled in{' '}
-                <strong className="text-indigo-400">
+                <strong className="text-gold-400">
                   {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
                 </strong>
                 .

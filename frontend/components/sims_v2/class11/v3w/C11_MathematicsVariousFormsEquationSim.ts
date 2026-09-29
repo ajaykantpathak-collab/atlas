@@ -11,7 +11,7 @@ export const w_c11_mathematicsvariousformsequationsim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Slope: Parallel and Perpendicular Lines',
     chapters: [],
     nodeIds: ['c11_math_cbse_10_007', 'c11_math_cbse_10_005', 'c11_math_cbse_10_006', 'c11_math_cbse_10_008', 'c11_math_cbse_10_009', 'c11_math_cbse_10_010', 'c11_math_cbse_10_011', 'c11_math_cbse_10_012', 'c11_math_cbse_10_013'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a rectangular garden bed in your backyard.', goal: 'Master Slope: Parallel and Perpendicular Lines.' },
     discovery: {
         question: 'State the condition for two lines with slopes m₁ and m₂ to be (i) parallel, (ii) perpendicular. What is the slope of a line parallel to the y-axis?',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsvariousformsequationsim: SimDef = {
         hook: 'Students often think that perpendicular lines have slopes that are just "negative" of each other (m₂ = -m₁) instead of.',
     },
     teaching: [
-        { title: 'Two non-vertical lines are parallel if and.', text: 'Two non-vertical lines are parallel if and only if their slopes are equal (m₁ = m₂). Two non-vertical lines are perpendicular if and only if the product of their slopes is -1 (m₁ × m₂ = -1).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Two non-vertical lines are parallel if and.', text: 'Two non-vertical lines are parallel if and only if their slopes are equal (m₁ = m₂). Two non-vertical lines are perpendicular if and only if the product of their slopes is -1 (m₁ × m₂ = -1).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_10_007', title: 'Two non-vertical lines are parallel if.',

@@ -455,12 +455,12 @@ const FamilyTreeSVG: React.FC<{ children: number; adults: number; grandparents: 
 // ==========================================
 const Readout: React.FC<{ label: string; value: string; tone?: 'indigo' | 'emerald' | 'amber' | 'rose' | 'sky' | 'violet' }> = ({ label, value, tone = 'indigo' }) => {
   const tones: Record<string, string> = {
-    indigo: 'text-indigo-300',
+    indigo: 'text-gold-300',
     emerald: 'text-emerald-400',
     amber: 'text-amber-400',
     rose: 'text-rose-400',
-    sky: 'text-sky-300',
-    violet: 'text-violet-300',
+    sky: 'text-gold-300',
+    violet: 'text-gold-300',
   };
   return (
     <div className="bg-slate-900 rounded-lg border border-slate-800 px-3 py-2">
@@ -1001,7 +1001,7 @@ export default function C11_HomeScienceUnderstandingFamilyCommunitySocietySim({
                   </svg>
                   <Readout label="Total emphasis" value={`${totalWeight} weight-units`} tone="violet" />
                   <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 text-[11px] text-slate-400 leading-relaxed">
-                    Care capacity = {adultsCount} adults × weighted care functions = <span className="text-sky-300 font-bold">{weightedCareCapacity.toFixed(1)}</span> vs {childrenCount} children needing care →
+                    Care capacity = {adultsCount} adults × weighted care functions = <span className="text-gold-300 font-bold">{weightedCareCapacity.toFixed(1)}</span> vs {childrenCount} children needing care →
                     care gap = <span className={`font-bold ${careGap > 0 ? 'text-rose-400' : 'text-emerald-400'}`}>{careGap > 0 ? `+${careGap.toFixed(1)} short` : 'covered'}</span>.
                   </div>
                   {careGap > 0 && (
@@ -1036,7 +1036,7 @@ export default function C11_HomeScienceUnderstandingFamilyCommunitySocietySim({
                   <div className="bg-slate-950 p-5 rounded-xl border border-pink-500/40 space-y-2">
                     <p className="text-sm font-bold text-pink-300">{stageData.name}</p>
                     <p className="text-xs text-slate-300">{stageData.years} • head of family aged {stageData.headAge}</p>
-                    <p className="text-xs text-slate-400"><span className="text-sky-300 font-bold">Development task:</span> {stageData.task}</p>
+                    <p className="text-xs text-slate-400"><span className="text-gold-300 font-bold">Development task:</span> {stageData.task}</p>
                     <p className="text-xs text-slate-400"><span className="text-emerald-300 font-bold">Budget priority:</span> {stageData.budget}</p>
                   </div>
                 </div>
@@ -1065,7 +1065,7 @@ export default function C11_HomeScienceUnderstandingFamilyCommunitySocietySim({
                     {([
                       { label: 'Children 0-14 yrs', value: depChildren, set: setDepChildren, color: 'accent-amber-500' },
                       { label: 'Working age 15-59 yrs', value: depWorking, set: setDepWorking, color: 'accent-emerald-500' },
-                      { label: 'Elderly 60+ yrs', value: depElderly, set: setDepElderly, color: 'accent-violet-500' },
+                      { label: 'Elderly 60+ yrs', value: depElderly, set: setDepElderly, color: 'accent-gold-500' },
                     ] as const).map(s => (
                       <div key={s.label}>
                         <div className="flex justify-between text-xs text-slate-300 mb-2">
@@ -1117,7 +1117,7 @@ export default function C11_HomeScienceUnderstandingFamilyCommunitySocietySim({
                           <p className="font-bold text-pink-300 mb-2">Facts (Census 2011)</p>{c.facts}
                         </div>
                         <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                          <p className="font-bold text-sky-300 mb-2">Social relations</p>{c.relations}
+                          <p className="font-bold text-gold-300 mb-2">Social relations</p>{c.relations}
                         </div>
                         <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
                           <p className="font-bold text-emerald-300 mb-2">Life texture</p>{c.density}
@@ -1246,7 +1246,7 @@ export default function C11_HomeScienceUnderstandingFamilyCommunitySocietySim({
                       if (idx === currentChallenge.correctIndex) style = 'bg-emerald-950/80 border-emerald-500 text-emerald-200';
                       else if (selectedOption === idx) style = 'bg-rose-950/80 border-rose-500 text-rose-200';
                     } else if (selectedOption === idx) {
-                      style = 'bg-indigo-950/80 border-indigo-500 text-indigo-100';
+                      style = 'bg-gold-950/80 border-gold-500 text-gold-100';
                     }
                     return (
                       <button key={idx} onClick={() => { if (!challengeFeedback?.submitted) { setSelectedOption(idx); playFx('tap'); } }}

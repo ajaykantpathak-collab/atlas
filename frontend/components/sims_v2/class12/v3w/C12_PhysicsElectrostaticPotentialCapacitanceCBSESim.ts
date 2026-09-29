@@ -11,7 +11,7 @@ export const w_c12_physicselectrostaticpotentialcapacitancecbsesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Conductors and Insulators: Charge Distribution',
     chapters: [],
     nodeIds: ['c12_phy_cbse_02_007', 'c12_phy_cbse_02_012', 'c12_phy_cbse_02_008', 'c12_phy_cbse_02_009', 'c12_phy_cbse_02_010', 'c12_phy_cbse_02_011', 'c12_phy_cbse_02_001', 'c12_phy_cbse_02_002', 'c12_phy_cbse_02_003', 'c12_phy_cbse_02_004', 'c12_phy_cbse_02_005', 'c12_phy_cbse_02_006', 'c12_phy_cbse_02_013', 'c12_phy_cbse_05_001', 'c12_phy_cbse_05_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine touching a metal car door after sliding across the seat on a dry day — you feel a spark.', goal: 'Master Conductors and Insulators: Charge Distribution.' },
     discovery: {
         question: 'State the value of the electrostatic electric field inside a conductor in static equilibrium and give the physical reason in one sentence.',
@@ -20,7 +20,7 @@ export const w_c12_physicselectrostaticpotentialcapacitancecbsesim: SimDef = {
         hook: '**Misconception:** "If a conductor has a cavity with no charge inside, the electric field in the cavity is zero **only.',
     },
     teaching: [
-        { title: 'In electrostatic equilibrium, a.', text: 'In electrostatic equilibrium, a **conductor** is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field inside the conductor.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'In electrostatic equilibrium, a.', text: 'In electrostatic equilibrium, a **conductor** is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field inside the conductor.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_02_007', title: 'In electrostatic equilibrium, a.',

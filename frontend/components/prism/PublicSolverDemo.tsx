@@ -206,8 +206,8 @@ export function PublicSolverDemo() {
 
             {/* Thinking step */}
             {stepType?.thinking && !thinkingChecked && (
-              <div className="bg-violet-500/10 border border-violet-500/20 rounded-xl p-4 mb-4">
-                <div className="text-xs text-violet-300 mb-2 flex items-center gap-1.5">
+              <div className="bg-gold-500/10 border border-gold-500/20 rounded-xl p-4 mb-4">
+                <div className="text-xs text-gold-300 mb-2 flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5" /> Thinking step — test your understanding
                 </div>
                 <div className="text-sm text-white mb-3">{stepType.thinking.question}</div>
@@ -218,8 +218,8 @@ export function PublicSolverDemo() {
                       onClick={() => setThinkingAnswer(opt)}
                       className={`w-full text-left text-sm px-3 py-2 rounded-lg border transition-all ${
                         thinkingAnswer === opt
-                          ? 'bg-violet-500/20 border-violet-500/40 text-white'
-                          : 'bg-surface-200/30 border-surface-300/20 text-surface-600 hover:border-violet-500/30'
+                          ? 'bg-gold-500/20 border-gold-500/40 text-white'
+                          : 'bg-surface-200/30 border-surface-300/20 text-surface-600 hover:border-gold-500/30'
                       }`}
                     >
                       {opt}
@@ -229,7 +229,7 @@ export function PublicSolverDemo() {
                 <button
                   onClick={() => setThinkingChecked(true)}
                   disabled={!thinkingAnswer}
-                  className="mt-3 w-full px-4 py-2 rounded-lg bg-violet-500/20 border border-violet-500/30 text-violet-300 text-sm font-medium hover:bg-violet-500/30 transition-all disabled:opacity-50"
+                  className="mt-3 w-full px-4 py-2 rounded-lg bg-gold-500/20 border border-gold-500/30 text-gold-300 text-sm font-medium hover:bg-gold-500/30 transition-all disabled:opacity-50"
                 >
                   Check Answer
                 </button>

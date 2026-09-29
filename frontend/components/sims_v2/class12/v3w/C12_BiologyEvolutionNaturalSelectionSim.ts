@@ -11,7 +11,7 @@ export const w_c12_biologyevolutionnaturalselectionsim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Theory of Natural Selection: Darwin\'s Postulates',
     chapters: [],
     nodeIds: ['c12_bio_cbse_07_002', 'c12_bio_cbse_07_006', 'c12_bio_cbse_07_007', 'c12_bio_cbse_13_003', 'c12_bio_cbse_07_005', 'c12_bio_cbse_07_008', 'c12_bio_cbse_04_002', 'c12_bio_cbse_11_005', 'c12_bio_cbse_07_001', 'c12_bio_cbse_07_003', 'c12_bio_cbse_07_004', 'c12_bio_cbse_07_009', 'c12_bio_cbse_13_006', 'c12_bio_cbse_09_004', 'c12_bio_cbse_01_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a bacterial culture on an agar plate with an antibiotic gradient: most bacteria die near the.', goal: 'Master Theory of Natural Selection: Darwin\'s Postulates.' },
     discovery: {
         question: 'A population of mosquitoes is exposed to a new insecticide. After 10 generations, 95% are resistant.',
@@ -20,7 +20,7 @@ export const w_c12_biologyevolutionnaturalselectionsim: SimDef = {
         hook: 'Students believe "survival of the fittest" means the strongest/biggest individuals survive.',
     },
     teaching: [
-        { title: 'Darwin\'s theory of natural selection.', text: 'Darwin\'s theory of natural selection proposes that evolution occurs through the differential survival and reproduction of individuals due to variations in heritable traits, where organisms with.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Darwin\'s theory of natural selection.', text: 'Darwin\'s theory of natural selection proposes that evolution occurs through the differential survival and reproduction of individuals due to variations in heritable traits, where organisms with.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_07_002', title: 'Darwin\'s theory of natural selection.',

@@ -11,7 +11,7 @@ export const w_c11_appliedmathsgeneraltermsumsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Arithmetic Progression: General Term',
     chapters: [],
     nodeIds: ['c11_math_cbse_09_002', 'c11_math_cbse_09_005', 'c11_math_cbse_03_009', 'c11_math_cbse_08_001', 'c11_math_cbse_08_002', 'c11_math_cbse_08_003', 'c11_math_cbse_08_004', 'c11_math_cbse_08_009', 'c11_math_cbse_08_008', 'c11_math_cbse_09_001', 'c11_math_cbse_09_003', 'c11_math_cbse_09_006', 'c11_math_cbse_09_007', 'c11_math_cbse_09_010', 'c11_math_cbse_09_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you start a savings plan in January where you deposit ₹500 in the first month and decide to increase.', goal: 'Master Arithmetic Progression: General Term.' },
     discovery: {
         question: 'State the position(s) of the middle term(s) in the expansion of (2x - 3y)^9. Do not compute the term(s), only give the term number(s) T_k.',
@@ -20,7 +20,7 @@ export const w_c11_appliedmathsgeneraltermsumsim: SimDef = {
         hook: 'Students consistently confuse the term index (k in T_k) with the r-value in the general term formula T_{r+1}.',
     },
     teaching: [
-        { title: 'The general term (nth term) of an arithmetic.', text: 'The general term (nth term) of an arithmetic progression (AP) with first term \\(a\\) and common difference \\(d\\) is given by \\(a_n = a + (n-1)d\\), where \\(n \\in \\mathbb{N}\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The general term (nth term) of an arithmetic.', text: 'The general term (nth term) of an arithmetic progression (AP) with first term \\(a\\) and common difference \\(d\\) is given by \\(a_n = a + (n-1)d\\), where \\(n \\in \\mathbb{N}\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_09_002', title: 'The general term (nth term) of an.',

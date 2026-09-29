@@ -337,9 +337,9 @@ const VdBalanceVisualizer: React.FC<{ selectedGas: GasData; setSelectedGas: (g: 
   const calculatedVD = useMemo(() => (hydrogenMass > 0 ? gasMass / hydrogenMass : 0), [gasMass, hydrogenMass]);
 
   return (
-    <div className="flex flex-col gap-4 bg-slate-900/90 p-5 rounded-2xl border border-cyan-500/30 text-white">
+    <div className="flex flex-col gap-4 bg-slate-900/90 p-5 rounded-2xl border border-gold-500/30 text-white">
       <div className="flex flex-wrap justify-between items-center gap-2">
-        <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+        <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
           <span>⚖️</span> Gas Mass Balance & Vapour Density
         </h3>
         <div className="flex gap-2">
@@ -352,7 +352,7 @@ const VdBalanceVisualizer: React.FC<{ selectedGas: GasData; setSelectedGas: (g: 
               }}
               className={`px-3 py-1 rounded-lg text-xs font-semibold transition ${
                 selectedGas.formula === g.formula
-                  ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/50'
+                  ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/50'
                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
@@ -412,7 +412,7 @@ const VdBalanceVisualizer: React.FC<{ selectedGas: GasData; setSelectedGas: (g: 
           <div className="w-full mt-2 px-4">
             <div className="flex justify-between text-xs text-slate-400 mb-1">
               <span>Gas Volume (STP):</span>
-              <span className="text-cyan-400 font-bold">{volumeL.toFixed(1)} Litres</span>
+              <span className="text-gold-400 font-bold">{volumeL.toFixed(1)} Litres</span>
             </div>
             <input
               type="range"
@@ -424,7 +424,7 @@ const VdBalanceVisualizer: React.FC<{ selectedGas: GasData; setSelectedGas: (g: 
                 setVolumeL(parseFloat(e.target.value));
                 audioManager.play('tap');
               }}
-              className="w-full accent-cyan-400 cursor-pointer"
+              className="w-full accent-gold-400 cursor-pointer"
             />
           </div>
         </div>
@@ -442,24 +442,24 @@ const VdBalanceVisualizer: React.FC<{ selectedGas: GasData; setSelectedGas: (g: 
             </div>
             <div className="flex justify-between items-center bg-slate-900 p-2 rounded">
               <span className="text-slate-400">Mass of {volumeL} L of H₂ (at same T,P):</span>
-              <span className="text-sky-400 font-bold">{hydrogenMass.toFixed(2)} g</span>
+              <span className="text-gold-400 font-bold">{hydrogenMass.toFixed(2)} g</span>
             </div>
-            <div className="flex justify-between items-center bg-slate-900 p-2 rounded border border-cyan-500/30">
+            <div className="flex justify-between items-center bg-slate-900 p-2 rounded border border-gold-500/30">
               <span className="text-slate-300 font-semibold">Vapour Density (V.D.):</span>
-              <span className="text-cyan-400 font-bold text-sm">
+              <span className="text-gold-400 font-bold text-sm">
                 {gasMass.toFixed(2)} / {hydrogenMass.toFixed(2)} = {calculatedVD.toFixed(2)}
               </span>
             </div>
           </div>
 
-          <div className="mt-2 bg-gradient-to-r from-cyan-950 to-indigo-950 p-3 rounded-lg border border-cyan-500/40 text-center">
-            <div className="text-xs text-cyan-300 uppercase font-bold tracking-wider mb-1">
+          <div className="mt-2 bg-gradient-to-r from-gold-950 to-gold-950 p-3 rounded-lg border border-gold-500/40 text-center">
+            <div className="text-xs text-gold-300 uppercase font-bold tracking-wider mb-1">
               Core Relationship
             </div>
             <div className="text-lg font-extrabold text-white">
               Molecular Mass = 2 × V.D.
             </div>
-            <div className="text-xs text-cyan-200 mt-1">
+            <div className="text-xs text-gold-200 mt-1">
               2 × {selectedGas.vd} = <span className="font-bold text-emerald-400">{selectedGas.molMass}</span> g/mol
             </div>
           </div>
@@ -520,7 +520,7 @@ const EmpiricalFormulaVisualizer: React.FC = () => {
               return (
                 <tr key={el.symbol} className="border-b border-slate-800 hover:bg-slate-850">
                   <td className="p-2 font-bold text-white text-sm">{el.symbol}</td>
-                  <td className="p-2 text-cyan-400 font-mono">{el.massPct}%</td>
+                  <td className="p-2 text-gold-400 font-mono">{el.massPct}%</td>
                   <td className="p-2 text-slate-400">{el.atomicMass}</td>
                   <td className="p-2 font-mono text-purple-300">{moles.toFixed(3)}</td>
                   <td className="p-2 font-bold text-emerald-400 text-sm">{ratio}</td>
@@ -538,14 +538,14 @@ const EmpiricalFormulaVisualizer: React.FC = () => {
         </div>
         <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
           <span className="text-xs text-slate-400 block mb-1">2. V.D. = {selectedCompound.vd}</span>
-          <span className="text-sm font-bold text-cyan-300 block">
+          <span className="text-sm font-bold text-gold-300 block">
             Mol. Mass = 2 × {selectedCompound.vd} = {selectedCompound.vd * 2}
           </span>
           <span className="text-xs text-slate-400 mt-1 block">
             n = {selectedCompound.vd * 2} / Emp. Mass
           </span>
         </div>
-        <div className="bg-gradient-to-br from-purple-900 to-indigo-900 p-3 rounded-xl border border-purple-400/50 text-center">
+        <div className="bg-gradient-to-br from-purple-900 to-gold-900 p-3 rounded-xl border border-purple-400/50 text-center">
           <span className="text-xs text-purple-200 block mb-1">3. Molecular Formula</span>
           <span className="text-xl font-extrabold text-emerald-300">{selectedCompound.molFormula}</span>
         </div>
@@ -621,12 +621,12 @@ const MoleTriangleVisualizer: React.FC = () => {
         </div>
 
         {/* Volume at STP Card */}
-        <div className="bg-slate-950 p-4 rounded-xl border border-sky-500/30 flex flex-col justify-between">
+        <div className="bg-slate-950 p-4 rounded-xl border border-gold-500/30 flex flex-col justify-between">
           <div>
-            <span className="text-xs uppercase font-bold text-sky-400 tracking-wider">Volume at S.T.P.</span>
-            <div className="text-2xl font-black text-sky-300 my-2">{volumeSTP.toFixed(2)} Litres</div>
+            <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">Volume at S.T.P.</span>
+            <div className="text-2xl font-black text-gold-300 my-2">{volumeSTP.toFixed(2)} Litres</div>
           </div>
-          <span className="text-[11px] text-slate-400 bg-sky-950/40 p-1.5 rounded border border-sky-500/20">
+          <span className="text-[11px] text-slate-400 bg-gold-950/40 p-1.5 rounded border border-gold-500/20">
             Volume = Moles × 22.4 L
           </span>
         </div>
@@ -810,10 +810,10 @@ const ElectrolyticCellVisualizer: React.FC = () => {
             <span className="text-[11px] text-red-300 block mt-0.5">Product: {cellDetails.anodeProduct}</span>
           </div>
 
-          <div className="bg-slate-900 p-2.5 rounded border-l-4 border-blue-500">
-            <span className="text-xs font-bold text-blue-400 block">CATHODE (Reduction - Gain of e⁻)</span>
+          <div className="bg-slate-900 p-2.5 rounded border-l-4 border-gold-500">
+            <span className="text-xs font-bold text-gold-400 block">CATHODE (Reduction - Gain of e⁻)</span>
             <span className="text-xs text-slate-300 font-mono block mt-1">{cellDetails.cathodeReaction}</span>
-            <span className="text-[11px] text-blue-300 block mt-0.5">Product: {cellDetails.cathodeProduct}</span>
+            <span className="text-[11px] text-gold-300 block mt-0.5">Product: {cellDetails.cathodeProduct}</span>
           </div>
         </div>
       </div>
@@ -824,39 +824,39 @@ const ElectrolyticCellVisualizer: React.FC = () => {
 // Visual 5: Metallic vs Electrolytic Conduction Comparison Table
 const ConductionComparisonVisualizer: React.FC = () => {
   return (
-    <div className="bg-slate-900/90 p-5 rounded-2xl border border-blue-500/30 text-white flex flex-col gap-4">
-      <h3 className="text-lg font-bold text-blue-400 flex items-center gap-2">
+    <div className="bg-slate-900/90 p-5 rounded-2xl border border-gold-500/30 text-white flex flex-col gap-4">
+      <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
         <span>🔄</span> Metallic Conduction vs Electrolytic Conduction
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Metallic Conduction */}
-        <div className="bg-slate-950 p-4 rounded-xl border border-sky-500/30 flex flex-col gap-2">
+        <div className="bg-slate-950 p-4 rounded-xl border border-gold-500/30 flex flex-col gap-2">
           <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-            <span className="text-sm font-bold text-sky-400">Metallic Conduction</span>
-            <span className="text-xs text-slate-400 bg-sky-950 px-2 py-0.5 rounded">e.g., Copper Wire</span>
+            <span className="text-sm font-bold text-gold-400">Metallic Conduction</span>
+            <span className="text-xs text-slate-400 bg-gold-950 px-2 py-0.5 rounded">e.g., Copper Wire</span>
           </div>
           <ul className="text-xs text-slate-300 space-y-2 mt-1">
             <li className="flex gap-2">
-              <span className="text-sky-400">▪</span>
+              <span className="text-gold-400">▪</span>
               <span>
                 <strong>Charge Carriers:</strong> Free mobile electrons.
               </span>
             </li>
             <li className="flex gap-2">
-              <span className="text-sky-400">▪</span>
+              <span className="text-gold-400">▪</span>
               <span>
                 <strong>Chemical Change:</strong> NO chemical change occurs (purely physical process).
               </span>
             </li>
             <li className="flex gap-2">
-              <span className="text-sky-400">▪</span>
+              <span className="text-gold-400">▪</span>
               <span>
                 <strong>Transfer of Matter:</strong> NO transfer of matter takes place.
               </span>
             </li>
             <li className="flex gap-2">
-              <span className="text-sky-400">▪</span>
+              <span className="text-gold-400">▪</span>
               <span>
                 <strong>Temperature Effect:</strong> Conductivity <em>decreases</em> with rise in temperature due to lattice cation vibration.
               </span>
@@ -1071,7 +1071,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
       {/* Top Header */}
       <header className="w-full max-w-5xl flex flex-wrap justify-between items-center bg-slate-900/80 p-4 rounded-2xl border border-slate-800 mb-6 backdrop-blur">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-xl font-bold border border-cyan-500/30">
+          <div className="w-10 h-10 rounded-xl bg-gold-500/20 text-gold-400 flex items-center justify-center text-xl font-bold border border-gold-500/30">
             🧪
           </div>
           <div>
@@ -1087,7 +1087,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
           <button
             onClick={() => setActiveTab('predict')}
             className={`px-3 py-1.5 rounded-lg font-semibold transition ${
-              activeTab === 'predict' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              activeTab === 'predict' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             1. Discovery
@@ -1095,7 +1095,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
           <button
             onClick={() => setActiveTab('slides')}
             className={`px-3 py-1.5 rounded-lg font-semibold transition ${
-              activeTab === 'slides' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              activeTab === 'slides' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             2. Concepts
@@ -1103,7 +1103,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
           <button
             onClick={() => setActiveTab('lab')}
             className={`px-3 py-1.5 rounded-lg font-semibold transition ${
-              activeTab === 'lab' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              activeTab === 'lab' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             3. Virtual Lab
@@ -1111,7 +1111,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
           <button
             onClick={() => setActiveTab('challenges')}
             className={`px-3 py-1.5 rounded-lg font-semibold transition ${
-              activeTab === 'challenges' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'
+              activeTab === 'challenges' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'
             }`}
           >
             4. Challenges ({score} pts)
@@ -1131,7 +1131,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
             className="bg-slate-900 border border-slate-800 p-6 rounded-2xl flex flex-col gap-6"
           >
             <div className="border-b border-slate-800 pb-4">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Warm-up Discovery Question
               </span>
               <h2 className="text-xl font-extrabold text-white mt-1">
@@ -1160,7 +1160,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                         : i === predictAnswer
                         ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                         : 'bg-slate-950 border-slate-800 text-slate-500'
-                      : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500/50 hover:bg-slate-850'
+                      : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500/50 hover:bg-slate-850'
                   }`}
                 >
                   <span>{opt.label}</span>
@@ -1173,14 +1173,14 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="bg-slate-950 p-4 rounded-xl border border-cyan-500/30 flex flex-col gap-3"
+                className="bg-slate-950 p-4 rounded-xl border border-gold-500/30 flex flex-col gap-3"
               >
                 <p className="text-sm text-slate-300">
-                  <strong className="text-cyan-400">Insight:</strong> The mass ratio is 44 / 2 = 22. This ratio is called the <strong>Vapour Density (V.D.)</strong>. Because one mole of hydrogen gas (H₂) weighs 2 g, multiplying the Vapour Density by 2 restores the true relative molecular mass (2 × 22 = 44).
+                  <strong className="text-gold-400">Insight:</strong> The mass ratio is 44 / 2 = 22. This ratio is called the <strong>Vapour Density (V.D.)</strong>. Because one mole of hydrogen gas (H₂) weighs 2 g, multiplying the Vapour Density by 2 restores the true relative molecular mass (2 × 22 = 44).
                 </p>
                 <button
                   onClick={() => setActiveTab('slides')}
-                  className="self-end px-5 py-2 bg-cyan-500 text-slate-950 font-bold rounded-xl hover:bg-cyan-400 transition"
+                  className="self-end px-5 py-2 bg-gold-500 text-slate-950 font-bold rounded-xl hover:bg-gold-400 transition"
                 >
                   Continue to Guided Visual Lessons →
                 </button>
@@ -1201,7 +1201,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
             {/* Slide Navigation Header */}
             <div className="flex justify-between items-center bg-slate-900 p-4 rounded-2xl border border-slate-800">
               <div className="flex items-center gap-3">
-                <span className="text-xs font-bold bg-cyan-500/20 text-cyan-400 px-2.5 py-1 rounded-lg border border-cyan-500/30">
+                <span className="text-xs font-bold bg-gold-500/20 text-gold-400 px-2.5 py-1 rounded-lg border border-gold-500/30">
                   Concept {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <h2 className="text-lg font-bold text-white">{currentSlide.title}</h2>
@@ -1223,7 +1223,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                     setCurrentSlideIndex((p) => p + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-3 py-1.5 bg-cyan-500 text-slate-950 text-xs font-bold rounded-lg disabled:opacity-40 hover:bg-cyan-400"
+                  className="px-3 py-1.5 bg-gold-500 text-slate-950 text-xs font-bold rounded-lg disabled:opacity-40 hover:bg-gold-400"
                 >
                   Next →
                 </button>
@@ -1236,7 +1236,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
             {/* Explanatory Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-slate-900 p-4 rounded-2xl border border-slate-800">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider block mb-1">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-1">
                   Core Theory
                 </span>
                 <p className="text-xs text-slate-300 leading-relaxed">{currentSlide.conceptText}</p>
@@ -1276,7 +1276,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                   audioManager.play('tap');
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition ${
-                  labTool === 'vd' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-950 text-slate-300'
+                  labTool === 'vd' ? 'bg-gold-500 text-slate-950' : 'bg-slate-950 text-slate-300'
                 }`}
               >
                 1. Vapour Density Balance
@@ -1320,7 +1320,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                   audioManager.play('tap');
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition ${
-                  labTool === 'conduction' ? 'bg-blue-500 text-white' : 'bg-slate-950 text-slate-300'
+                  labTool === 'conduction' ? 'bg-gold-500 text-white' : 'bg-slate-950 text-slate-300'
                 }`}
               >
                 5. Conduction Comparison
@@ -1354,7 +1354,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
             {/* Challenge Header & Progress Bar */}
             <div className="flex flex-col gap-2 border-b border-slate-800 pb-4">
               <div className="flex justify-between items-center">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <span className="text-xs font-mono text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded border border-emerald-500/30">
@@ -1363,7 +1363,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
               </div>
               <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
                 <div
-                  className="bg-cyan-500 h-full transition-all duration-300"
+                  className="bg-gold-500 h-full transition-all duration-300"
                   style={{ width: `${((currentChallengeIdx + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -1382,7 +1382,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                 const isSelected = selectedChallengeOption === i;
                 const isCorrect = i === currentChallenge.correctAnswer;
                 let btnStyle =
-                  'bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500/40 hover:bg-slate-850';
+                  'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500/40 hover:bg-slate-850';
 
                 if (isAnswerSubmitted) {
                   if (isCorrect) {
@@ -1418,12 +1418,12 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                 className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-3"
               >
                 <div className="text-xs text-slate-300">
-                  <strong className="text-cyan-400">Explanation: </strong>
+                  <strong className="text-gold-400">Explanation: </strong>
                   {currentChallenge.explanation}
                 </div>
                 <button
                   onClick={handleNextChallenge}
-                  className="self-end px-5 py-2 bg-cyan-500 text-slate-950 font-bold text-xs rounded-xl hover:bg-cyan-400 transition"
+                  className="self-end px-5 py-2 bg-gold-500 text-slate-950 font-bold text-xs rounded-xl hover:bg-gold-400 transition"
                 >
                   {currentChallengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Finish Mastery Session →'}
                 </button>
@@ -1455,7 +1455,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 w-full max-w-md flex justify-around">
               <div>
                 <span className="text-xs text-slate-400 block">Total Score</span>
-                <span className="text-2xl font-black text-cyan-400">{score} pts</span>
+                <span className="text-2xl font-black text-gold-400">{score} pts</span>
               </div>
               <div className="border-r border-slate-800" />
               <div>
@@ -1473,7 +1473,7 @@ export default function C10_ChemistryVapourdensityandmolecularmassSim() {
                 setActiveTab('challenges');
                 audioManager.play('pop');
               }}
-              className="px-6 py-2.5 bg-cyan-500 text-slate-950 font-bold rounded-xl hover:bg-cyan-400 transition text-xs"
+              className="px-6 py-2.5 bg-gold-500 text-slate-950 font-bold rounded-xl hover:bg-gold-400 transition text-xs"
             >
               Restart Practice Arena 🔄
             </button>

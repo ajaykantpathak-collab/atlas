@@ -11,7 +11,7 @@ export const w_c12_physicselectrostaticsystemchargessim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Superposition Principle for Electric Forces',
     chapters: [],
     nodeIds: ['c12_phy_cbse_01_003', 'c12_phy_cbse_01_004', 'c12_phy_cbse_02_001', 'c12_phy_cbse_02_002', 'c12_phy_cbse_02_004', 'c12_phy_cbse_02_005', 'c12_phy_cbse_01_001', 'c12_phy_cbse_01_005', 'c12_phy_cbse_02_009', 'c12_phy_cbse_01_002', 'c12_phy_cbse_01_006', 'c12_phy_cbse_02_007', 'c12_phy_cbse_02_012', 'c12_phy_cbse_02_003', 'c12_phy_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you rub a plastic ruler with wool and bring it near small paper bits on your desk — they jump up.', goal: 'Master Superposition Principle for Electric Forces.' },
     discovery: {
         question: 'What is the SI unit of electric field, and how is it derived from the definition \\(\\vec{E} = \\vec{F}/q\\)?',
@@ -20,7 +20,7 @@ export const w_c12_physicselectrostaticsystemchargessim: SimDef = {
         hook: 'Students often think the electric field at a point depends on the test charge used to measure it, writing \\(E = F/q\\).',
     },
     teaching: [
-        { title: 'The superposition principle for electric.', text: 'The superposition principle for electric forces states that the net electrostatic force on a given charge due to a system of multiple other charges is the vector sum of the individual forces exerted.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The superposition principle for electric.', text: 'The superposition principle for electric forces states that the net electrostatic force on a given charge due to a system of multiple other charges is the vector sum of the individual forces exerted.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_01_003', title: 'The superposition principle for.',

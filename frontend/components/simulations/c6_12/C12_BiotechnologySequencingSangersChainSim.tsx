@@ -1156,12 +1156,12 @@ function C12_BiotechnologySequencingSangersChainSim({
           <motion.span
             whileHover={{ rotate: 360, scale: 1.2 }}
             transition={{ duration: 0.5 }}
-            className="text-3xl p-2 bg-indigo-900/50 rounded-2xl border border-indigo-700"
+            className="text-3xl p-2 bg-gold-900/50 rounded-2xl border border-gold-700"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-indigo-400">Class 12 ISC Biotechnology</span>
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">Class 12 ISC Biotechnology</span>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
           </div>
         </div>
@@ -1186,13 +1186,13 @@ function C12_BiotechnologySequencingSangersChainSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-purple-950/50 rounded-2xl border border-indigo-700/60 shadow-lg">
-            <span className="px-3 py-1 bg-indigo-600/40 text-indigo-300 text-xs font-black uppercase rounded-full border border-indigo-500/40">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-purple-950/50 rounded-2xl border border-gold-700/60 shadow-lg">
+            <span className="px-3 py-1 bg-gold-600/40 text-gold-300 text-xs font-black uppercase rounded-full border border-gold-500/40">
               Curiosity Hook
             </span>
             <h2 className="text-2xl font-bold text-white mt-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300/80 mt-3 bg-gold-950/60 p-3 rounded-xl border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1241,7 +1241,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1256,7 +1256,7 @@ function C12_BiotechnologySequencingSangersChainSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs uppercase tracking-wider text-indigo-400 font-bold">
+              <span className="text-xs uppercase tracking-wider text-gold-400 font-bold">
                 Guided Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg md:text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1282,7 +1282,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     handleAdvanceToSandbox();
                   }
                 }}
-                className="px-4 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                className="px-4 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold"
               >
                 {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Free Sandbox →' : 'Next Lab →'}
               </motion.button>
@@ -1301,7 +1301,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   {/* Left: Interactive Gel Simulation */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-indigo-300 mb-2">4-Lane Polyacrylamide Gel Ladder (Manual)</h3>
+                    <h3 className="text-sm font-bold text-gold-300 mb-2">4-Lane Polyacrylamide Gel Ladder (Manual)</h3>
                     <p className="text-xs text-slate-400 mb-3">Read from bottom (fastest) to top (5\' to 3\')</p>
 
                     <svg viewBox="0 0 320 220" className="w-full h-48 bg-slate-900 rounded-lg">
@@ -1346,7 +1346,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     <div className="mt-4 space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>ddNTP : dNTP Ratio</span>
-                        <span className="font-bold text-indigo-400">{ddNtpRatio}% ddNTP</span>
+                        <span className="font-bold text-gold-400">{ddNtpRatio}% ddNTP</span>
                       </div>
                       <input
                         type="range"
@@ -1358,15 +1358,15 @@ function C12_BiotechnologySequencingSangersChainSim({
                           audioManager.play('count');
                         }}
                         aria-label="Adjust ddNTP ratio"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
                 </div>
 
                 {/* Predict & Observation Hook in Slide 0 */}
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40 space-y-3">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300">Active Discovery: Predict-Then-Check</h4>
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40 space-y-3">
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-gold-300">Active Discovery: Predict-Then-Check</h4>
                   {!predictionMade ? (
                     <div className="space-y-2">
                       <p className="text-sm text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1401,7 +1401,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   {/* Left: Plasmid Architecture Diagram */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-indigo-300 mb-2">Plasmid Methylation & DpnI Cleavage</h3>
+                    <h3 className="text-sm font-bold text-gold-300 mb-2">Plasmid Methylation & DpnI Cleavage</h3>
                     <svg viewBox="0 0 300 200" className="w-full h-48">
                       {/* Parental Plasmid (Methylated - Orange) */}
                       <circle cx="100" cy="100" r="60" fill="none" stroke={isDamMethylated ? '#f97316' : '#64748b'} strokeWidth="6" strokeDasharray={sdmStage === 'dpn1' && isDamMethylated ? '8, 8' : '0'} />
@@ -1464,7 +1464,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                         }}
                         className={`w-full p-3 text-left text-xs font-bold rounded-xl border transition-all ${
                           sdmStage === st.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                             : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
@@ -1486,7 +1486,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                   {/* Left: Thermal Cycler Chamber */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-3">
-                      <h3 className="text-sm font-bold text-cyan-300">PCR Thermal Block Simulator</h3>
+                      <h3 className="text-sm font-bold text-gold-300">PCR Thermal Block Simulator</h3>
                       <span className="text-xs font-mono font-bold text-amber-400 bg-amber-950/50 px-2.5 py-1 rounded-md border border-amber-800">
                         Temp: {pcrTemp}°C
                       </span>
@@ -1501,7 +1501,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                       )}
                       {pcrTemp === 55 && (
                         <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="text-center space-y-1">
-                          <span className="text-xs font-bold text-blue-400 uppercase tracking-widest">❄️ Annealing (55°C)</span>
+                          <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">❄️ Annealing (55°C)</span>
                           <p className="text-xs text-slate-300">Forward & Reverse primers hybridize to complementary flanks.</p>
                         </motion.div>
                       )}
@@ -1516,7 +1516,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     <div className="grid grid-cols-3 gap-2 mt-4">
                       {[
                         { label: 'Denature (95°C)', temp: 95, color: 'bg-rose-900/60 text-rose-200 border-rose-700' },
-                        { label: 'Anneal (55°C)', temp: 55, color: 'bg-blue-900/60 text-blue-200 border-blue-700' },
+                        { label: 'Anneal (55°C)', temp: 55, color: 'bg-gold-900/60 text-gold-200 border-gold-700' },
                         { label: 'Extend (72°C)', temp: 72, color: 'bg-emerald-900/60 text-emerald-200 border-emerald-700' },
                       ].map(b => (
                         <motion.button
@@ -1539,8 +1539,8 @@ function C12_BiotechnologySequencingSangersChainSim({
                   {/* Right: Exponential DNA Yield Calculator */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
-                      <h3 className="text-sm font-bold text-indigo-300 mb-2">Exponential Amplification Kinetics</h3>
-                      <p className="text-xs text-slate-400 mb-4">Formula: <span className="font-mono text-indigo-400">N = N₀ × 2ⁿ</span> (n = cycle count)</p>
+                      <h3 className="text-sm font-bold text-gold-300 mb-2">Exponential Amplification Kinetics</h3>
+                      <p className="text-xs text-slate-400 mb-4">Formula: <span className="font-mono text-gold-400">N = N₀ × 2ⁿ</span> (n = cycle count)</p>
 
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                         <div className="flex justify-between text-xs">
@@ -1553,7 +1553,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                         </div>
                         <div className="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
                           <motion.div
-                            className="bg-gradient-to-r from-blue-500 to-emerald-500 h-full"
+                            className="bg-gradient-to-r from-gold-500 to-emerald-500 h-full"
                             animate={{ width: `${Math.min(100, (pcrCycleCount / 30) * 100)}%` }}
                           />
                         </div>
@@ -1582,7 +1582,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Left: Interactive Fermenter Vessel Cutaway */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-cyan-300 mb-2">Stirred-Tank Bioreactor Architecture</h3>
+                    <h3 className="text-sm font-bold text-gold-300 mb-2">Stirred-Tank Bioreactor Architecture</h3>
                     <svg viewBox="0 0 300 220" className="w-full h-48 bg-slate-900 rounded-lg">
                       <rect x="70" y="20" width="160" height="180" rx="20" fill="#1e293b" stroke="#64748b" strokeWidth="3" />
                       <path d="M60 40 L60 190 A20 20 0 0 0 80 210" fill="none" stroke="#38bdf8" strokeWidth="4" />
@@ -1608,7 +1608,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                             audioManager.play('tap');
                           }}
                           className={`p-2 rounded-lg text-xs font-bold uppercase ${
-                            bioreactorMode === m ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            bioreactorMode === m ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           {m}
@@ -1620,14 +1620,14 @@ function C12_BiotechnologySequencingSangersChainSim({
                   {/* Right: Chemostat Kinetics Sliders */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
-                      <h3 className="text-sm font-bold text-indigo-300 mb-1">Growth Kinetics & Washout Engine</h3>
+                      <h3 className="text-sm font-bold text-gold-300 mb-1">Growth Kinetics & Washout Engine</h3>
                       <p className="text-xs text-slate-400 mb-3">Dilution rate D = Flow (F) / Volume (V). At steady state, µ = D.</p>
 
                       <div className="space-y-4">
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Dilution Rate (D):</span>
-                            <span className="font-bold text-cyan-400">{dilutionRate.toFixed(2)} h⁻¹</span>
+                            <span className="font-bold text-gold-400">{dilutionRate.toFixed(2)} h⁻¹</span>
                           </div>
                           <input
                             type="range"
@@ -1640,7 +1640,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                               audioManager.play('count');
                             }}
                             aria-label="Set Dilution Rate"
-                            className="w-full accent-cyan-400"
+                            className="w-full accent-gold-400"
                           />
                         </div>
 
@@ -1685,7 +1685,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   {/* Left: Organogenesis Visualiser */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
-                    <h3 className="text-sm font-bold text-indigo-300 mb-2">Tissue Differentiation Simulator</h3>
+                    <h3 className="text-sm font-bold text-gold-300 mb-2">Tissue Differentiation Simulator</h3>
 
                     <div className="h-44 bg-slate-900 rounded-lg flex flex-col justify-center items-center p-4 border border-slate-800">
                       {plantTissueState === 'pollen' && (
@@ -1774,7 +1774,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                       />
                     </div>
 
-                    <p className="text-xs text-indigo-300 bg-indigo-950/40 p-3 rounded-xl border border-indigo-800/40">
+                    <p className="text-xs text-gold-300 bg-gold-950/40 p-3 rounded-xl border border-gold-800/40">
                       💡 Rule of Organogenesis: High Cytokinin/Auxin ratio = Shoots. High Auxin/Cytokinin ratio = Roots. Balanced = Callus.
                     </p>
                   </div>
@@ -1811,7 +1811,7 @@ function C12_BiotechnologySequencingSangersChainSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Control Pod 1: Sanger */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-400">Sanger Dideoxy Module</h3>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400">Sanger Dideoxy Module</h3>
               <label className="text-xs text-slate-300 block">ddNTP Mix: {ddNtpRatio}%</label>
               <input
                 type="range"
@@ -1819,7 +1819,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                 max="100"
                 value={ddNtpRatio}
                 onChange={e => setDdNtpRatio(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
               <div className="flex justify-between text-xs font-mono text-emerald-400 pt-2 border-t border-slate-800">
                 <span>Base: {selectedBase}</span>
@@ -1829,7 +1829,7 @@ function C12_BiotechnologySequencingSangersChainSim({
 
             {/* Control Pod 2: Bioreactor */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-400">Fermentation Chemostat</h3>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400">Fermentation Chemostat</h3>
               <label className="text-xs text-slate-300 block">Dilution Rate: {dilutionRate} h⁻¹</label>
               <input
                 type="range"
@@ -1838,9 +1838,9 @@ function C12_BiotechnologySequencingSangersChainSim({
                 step="0.02"
                 value={dilutionRate}
                 onChange={e => setDilutionRate(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
-              <div className="flex justify-between text-xs font-mono text-cyan-400 pt-2 border-t border-slate-800">
+              <div className="flex justify-between text-xs font-mono text-gold-400 pt-2 border-t border-slate-800">
                 <span>Mode: {bioreactorMode}</span>
                 <span>{dilutionRate > 0.45 ? 'Washout!' : 'Steady State'}</span>
               </div>
@@ -1889,7 +1889,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 border-rose-500 text-rose-300'
-                    : 'bg-blue-950/80 border-blue-500 text-blue-300'
+                    : 'bg-gold-950/80 border-gold-500 text-gold-300'
                 }`}
               >
                 Tier: {difficulty}
@@ -1903,7 +1903,7 @@ function C12_BiotechnologySequencingSangersChainSim({
           {/* Progress Bar */}
           <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
             <motion.div
-              className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-full"
+              className="bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 h-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1956,7 +1956,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold"
                     >
                       {item.label}
                     </motion.div>
@@ -1992,7 +1992,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2020,7 +2020,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-800 hover:bg-slate-750 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 text-center leading-5 font-bold text-xs">
+                    <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 text-center leading-5 font-bold text-xs">
                       {displayIdx + 1}
                     </span>
                     {item}
@@ -2032,7 +2032,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2048,7 +2048,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm w-full focus:outline-none focus:border-indigo-500"
+                    className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm w-full focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold whitespace-nowrap">{activeChallenge.unit}</span>
                   <motion.button
@@ -2056,7 +2056,7 @@ function C12_BiotechnologySequencingSangersChainSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Submit
                   </motion.button>
@@ -2127,14 +2127,14 @@ function C12_BiotechnologySequencingSangersChainSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-2xl border border-emerald-600/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-2xl border border-emerald-600/50 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Module Mastery Achieved!</h2>
             <p className="text-sm text-slate-300">
               Final Proficiency Score:{' '}
               <span className="text-emerald-400 font-extrabold text-lg">{Math.max(0, 100 - errors * 5)}%</span>
             </p>
-            <p className="text-xs text-indigo-300 font-mono">BKT Knowledge State: {masteryLevel.toUpperCase()}</p>
+            <p className="text-xs text-gold-300 font-mono">BKT Knowledge State: {masteryLevel.toUpperCase()}</p>
           </div>
 
           {/* Motivational Feedback Card */}
@@ -2170,18 +2170,18 @@ function C12_BiotechnologySequencingSangersChainSim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-indigo-950/60 rounded-2xl border border-indigo-500/50 flex flex-col sm:flex-row justify-between items-center gap-4 shadow-lg shadow-indigo-950/40">
+          <div className="p-5 bg-gold-950/60 rounded-2xl border border-gold-500/50 flex flex-col sm:flex-row justify-between items-center gap-4 shadow-lg shadow-gold-950/40">
             <div className="flex items-center gap-3.5">
-              <span className="text-3xl p-2 bg-indigo-900/60 rounded-xl border border-indigo-600/40">����</span>
+              <span className="text-3xl p-2 bg-gold-900/60 rounded-xl border border-gold-600/40">����</span>
               <div>
-                <h4 className="text-sm font-bold text-indigo-200">Spaced Repetition Schedule (SRS)</h4>
+                <h4 className="text-sm font-bold text-gold-200">Spaced Repetition Schedule (SRS)</h4>
                 <p className="text-xs text-slate-300 mt-0.5">
                   Optimized retention window based on performance ({errors} error{errors === 1 ? '' : 's'}).
                 </p>
               </div>
             </div>
-            <div className="px-5 py-2.5 bg-indigo-600/30 border border-indigo-400/50 rounded-xl text-center min-w-[170px]">
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-indigo-300 block">Next Target Review</span>
+            <div className="px-5 py-2.5 bg-gold-600/30 border border-gold-400/50 rounded-xl text-center min-w-[170px]">
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-gold-300 block">Next Target Review</span>
               <span className="text-sm font-black text-emerald-300">
                 {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
               </span>
@@ -2190,12 +2190,12 @@ function C12_BiotechnologySequencingSangersChainSim({
 
           {/* Real-World Industry Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">•</span>
+                  <span className="text-gold-400 font-bold">•</span>
                   <span>{st}</span>
                 </div>
               ))}

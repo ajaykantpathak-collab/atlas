@@ -6,7 +6,7 @@ export const c11_phy_ch05_p1: SimDef = {
     id: 'v3_c11_phy_ch05_p1',
     title: 'Work, Energy and Power',
     subtitle: 'The physics of getting things done — and why holding a heavy bag still isn\'t \'work\' at all.',
-    classLevel: 11, subject: 'physics', topic: 'Work, Energy and Power · Part 1/3',
+    classLevel: 11, subject: 'physics', topic: 'Work, Energy and Power',
     chapters: ['c11_phy_ch05'],
     nodeIds: ['c11_phy_cbse_05_001', 'c11_phy_cbse_05_002', 'c11_phy_cbse_05_003', 'c11_phy_cbse_05_004', 'c11_phy_cbse_05_005', 'c11_phy_cbse_05_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

@@ -11,7 +11,7 @@ export const w_c10_evscauseeffectrelationssim: SimDef = {
     classLevel: 10, subject: 'evs', topic: 'Reproductive Health: Contraception Methods and Their Importance',
     chapters: [],
     nodeIds: ['c10_bio_cbse_03_011', 'c10_chem_cbse_01_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine seeing a government poster in your neighbourhood clinic showing a small family with the message "Hum.', goal: 'Master Reproductive Health: Contraception Methods and Their Importance.' },
     discovery: {
         question: 'Name any four contraceptive methods and state the category (barrier, chemical, surgical, natural) each belongs to.',
@@ -20,7 +20,7 @@ export const w_c10_evscauseeffectrelationssim: SimDef = {
         hook: 'Students believe that all hormonal contraceptives (pills, implants, injections) work by "killing the egg" or causing.',
     },
     teaching: [
-        { title: 'Contraception refers to the deliberate use.', text: 'Contraception refers to the deliberate use of artificial methods, devices, or practices to prevent pregnancy by interfering with the process of fertilisation or implantation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Contraception refers to the deliberate use.', text: 'Contraception refers to the deliberate use of artificial methods, devices, or practices to prevent pregnancy by interfering with the process of fertilisation or implantation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_bio_cbse_03_011', title: 'Contraception refers to the deliberate.',

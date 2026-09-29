@@ -53,13 +53,13 @@ export const C8_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Microscope",
+    "title": "A Microscope Is An Optical Instrument",
     "text": "A microscope is an optical instrument that uses lenses to magnify the image of tiny objects invisible to the naked eye, allowing scientists to observe cellular structures and microorganisms.",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Cell",
+    "title": "Cell Is The Fundamental Structural",
     "text": "A cell is the fundamental structural, functional, and biological unit of all living organisms, capable of independent existence and carrying out all life processes necessary for life.",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -95,7 +95,7 @@ export const C8_BIO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Fermentation",
+    "title": "Fermentation Is An Anaerobic Biological",
     "text": "Fermentation is an anaerobic biological process in which microorganisms, particularly yeast (a single-celled fungus), convert carbohydrates (sugars) into alcohol, carbon dioxide, and energy.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -132,7 +132,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "Hooke called them cells because the empty box-like compartments reminded him of the small, bare rooms, called *cella*, where monks lived in a monastery",
      "Staining adds contrast to transparent or colorless cellular structures, making internal components like the nucleus and cell wall visible against a bright background"
     ],
-    "hint": "Straight from the 'microscope' slide -- match the key terms.",
+    "hint": "Straight from the 'A microscope is an optical' slide -- match the key terms.",
     "misconception": "A student who answers that \"stain makes the cells bigger\" confuses magnification with contrast and staining.",
     "id": "gen_c8_bio_ch01_q2",
     "nodeId": "c8_bio_ch1_2",
@@ -153,7 +153,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "Water enters the plant cell through osmosis, filling the vacuole and pushing outward against the rigid cell wall, which creates turgor pressure",
      "A good design uses a Ziploc bag to represent the flexible cell membrane (boundary) and jelly or water-soaked gelatin to represent the cytoplasm (fluid interior)"
     ],
-    "hint": "Straight from the 'cell' slide -- match the key terms.",
+    "hint": "Straight from the 'cell is the fundamental structural' slide -- match the key terms.",
     "misconception": "A poor answer uses rigid cardboard for the boundary of an animal cell or misses the fluid component, showing confusion between plant cell walls and animal cell membranes.",
     "id": "gen_c8_bio_ch01_q3",
     "nodeId": "c8_bio_ch1_3",
@@ -174,7 +174,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "A good design uses a Ziploc bag to represent the flexible cell membrane (boundary) and jelly or water-soaked gelatin to represent the cytoplasm (fluid interior)",
      "Steps: 1. Identify the nucleus as the control center containing genetic material (DNA). 2. Recognize that DNA provides the instructions for synthesizing proteins and managing all"
     ],
-    "hint": "Straight from the 'cell membrane acts as a' slide -- match the key terms.",
+    "hint": "Straight from the 'cell membrane acts as' slide -- match the key terms.",
     "misconception": "A wrong answer assumes the cytoplasm or cell membrane can take over control functions, ignoring the role of genetic instructions.",
     "id": "gen_c8_bio_ch01_q4",
     "nodeId": "c8_bio_ch1_4",
@@ -258,7 +258,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "A good design uses a Ziploc bag to represent the flexible cell membrane (boundary) and jelly or water-soaked gelatin to represent the cytoplasm (fluid interior)",
      "Steps: 1. Identify the biological sample as a collection of similar cells. 2. Note their shared function of protection (barrier)"
     ],
-    "hint": "Straight from the 'Levels of organisation refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Levels of organisation' slide -- match the key terms.",
     "misconception": "A student who answers \"cell\" missed the group aspect, while one who answers \"organ\" missed that organs consist of multiple tissue types.",
     "id": "gen_c8_bio_ch01_q8",
     "nodeId": "c8_bio_ch1_8",
@@ -279,7 +279,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The correct answer is B. Nerve cells are specialized for rapid communication across the body",
      "Both processes extract energy from glucose without needing oxygen (or begin with glycolysis), but human muscle cells produce lactic acid as a byproduct during anaerobic exertion"
     ],
-    "hint": "Straight from the 'Fermentation' slide -- match the key terms.",
+    "hint": "Straight from the 'Fermentation is an anaerobic' slide -- match the key terms.",
     "misconception": "A student who states that humans produce carbon dioxide during anaerobic muscle fatigue confuses animal anaerobic respiration with plant or fungal alcoholic fermentation.",
     "id": "gen_c8_bio_ch01_q9",
     "nodeId": "c8_bio_ch1_11",
@@ -330,7 +330,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The correct answer is B. White blood cells (leukocytes) need an amoeboid shape (diapedesis) so they can squeeze between the cells of blood vessel walls and move directly into",
      "The claim is partially correct for the fermentation stage but incorrect for the finished product. During fermentation"
     ],
-    "hint": "Straight from the 'Fermentation' slide -- match the key terms.",
+    "hint": "Straight from the 'Fermentation is an anaerobic' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the claim is fully correct\" reveals the student does not understand that baking changes the chemical composition of the dough.",
     "id": "gen_c8_bio_ch01_q12",
     "nodeId": "c8_bio_ch1_11",
@@ -345,7 +345,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "Steps: 1. Identify the nucleus as the control center containing genetic material (DNA). 2. Recognize that DNA provides the instructions for synthesizing proteins and managing all",
      "The diaphragm or mirror alignment is likely closed or misaligned, blocking light from passing through the stage aperture and up into the objective lens"
     ],
-    "hint": "Straight from the 'microscope' slide -- match the key terms.",
+    "hint": "Straight from the 'A microscope is an optical' slide -- match the key terms.",
     "misconception": "A student who suggests changing the objective lens does not understand that illumination relies on the independent light path controlled by the diaphragm.",
     "id": "gen_c8_bio_ch01_q13",
     "nodeId": "c8_bio_ch1_2",
@@ -360,7 +360,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The diaphragm or mirror alignment is likely closed or misaligned, blocking light from passing through the stage aperture and up into the objective lens",
      "A good response involves placing a transparent ruler on the stage under low power, counting how many millimeter divisions fit across the circular field of view to find its"
     ],
-    "hint": "Straight from the 'microscope' slide -- match the key terms.",
+    "hint": "Straight from the 'A microscope is an optical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good response involves placing a transparent ruler on the stage under low power, counting how many millimeter",
     "id": "gen_c8_bio_ch01_q14",
     "nodeId": "c8_bio_ch1_2",
@@ -375,7 +375,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The correct answer is B. A vacuole provides internal fluid pressure (turgor), but without a sturdy exterior cell wall (made of cellulose) to push against",
      "The image appears inverted (upside down and flipped backwards) because the lenses bend and cross the light rays passing through the specimen"
     ],
-    "hint": "Straight from the 'microscope' slide -- match the key terms.",
+    "hint": "Straight from the 'A microscope is an optical' slide -- match the key terms.",
     "misconception": "A student who believes the image appears in its normal upright orientation fails to understand how optical lenses invert images during magnification.",
     "id": "gen_c8_bio_ch01_q15",
     "nodeId": "c8_bio_ch1_2",
@@ -390,7 +390,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "A good response involves placing a transparent ruler on the stage under low power, counting how many millimeter divisions fit across the circular field of view to find its",
      "A good response maps the school's boundary wall/gatekeeper to the cell membrane (controlling entry and exit)"
     ],
-    "hint": "Straight from the 'cell membrane acts as a' slide -- match the key terms.",
+    "hint": "Straight from the 'cell membrane acts as' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good response maps the school's boundary wall/gatekeeper to the cell membrane (controlling entry and exit), the",
     "id": "gen_c8_bio_ch01_q16",
     "nodeId": "c8_bio_ch1_4",
@@ -439,14 +439,14 @@ export const C8_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_bio_ch02",
-  "title": "Health",
+  "title": "Health Is Defined As a State Of Complete",
   "subtitle": "Biology · Chapter 2",
   "classLevel": 8,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Health",
+  "topic": "Health Is Defined As a State Of Complete Physical",
   "chapters": [
-   "Biology Ch2: Health"
+   "Biology Ch2: Health Is Defined As a State Of Complete Physical"
   ],
   "nodeIds": [
    "c8_bio_ch2_1",
@@ -469,7 +469,7 @@ export const C8_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Health suddenly stops working?",
+   "question": "What happens if Health Is Defined As a State Of suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -480,7 +480,7 @@ export const C8_BIO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Health",
+    "title": "Health Is Defined As a State Of Complete",
     "text": "Health is defined as a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity. It encompasses the harmonious functioning of the body systems, emotional stability, and the ability to maintain healthy",
     "emoji": "🌿",
     "bgColor": "from-violet-400 to-purple-500"
@@ -492,7 +492,7 @@ export const C8_BIO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Disease",
+    "title": "Disease Is Any Condition That Disturbs",
     "text": "Disease is any condition that disturbs the normal working of the body or mind. Based on origin, a disease is called infectious when microscopic pathogens such as bacteria, viruses, fungi, or protozoa cause it and it can pass from one person to another, and",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -522,13 +522,13 @@ export const C8_BIO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Immunity",
+    "title": "Immunity Is The Body's Inbuilt Ability",
     "text": "Immunity is the body's inbuilt ability to defend itself against disease-causing microbes. It operates through physical barriers like the skin and mucus, white blood cells that hunt down invaders, and antibodies — special proteins that recognise and neutralise",
     "emoji": "🌿",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vaccines",
+    "title": "Vaccines Are Biological Preparations",
     "text": "Vaccines are biological preparations containing weakened, killed, or fragmented parts of a pathogen (such as bacteria or viruses) that stimulate the human immune system to produce specific antibodies without causing the actual disease, thereby establishing",
     "emoji": "🌿",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -558,11 +558,11 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "What are the three dimensions that make up the complete definition of health according to modern health standards?",
     "answer": "The three dimensions are physical, mental, and social well-being",
     "options": [
-     "Proteins are the correct answer because they are polymers of amino acids linked by peptide bonds, containing carbon, hydrogen, oxygen, nitrogen, and often sulfur",
-     "The primary objective is to maintain biological rhythms and metabolic homeostasis throughout the day",
+     "The correct answer is C. Tuberculosis is caused by a pathogen (bacterium) that can be transmitted from person to person",
+     "Disease is any condition that disturbs the normal working of the body or mind",
      "The three dimensions are physical, mental, and social well-being"
     ],
-    "hint": "Straight from the 'Health' slide -- match the key terms.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion with just physical fitness or disease-free status, ignoring the psychological and social aspects of human life.",
     "id": "gen_c8_bio_ch02_q1",
     "nodeId": "c8_bio_ch2_1",
@@ -579,8 +579,8 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "What is the primary objective of following Dinacharya (daily routine) from a physiological perspective?",
     "answer": "The primary objective is to maintain biological rhythms and metabolic homeostasis throughout the day",
     "options": [
-     "The correct answer is C) Viruses. Viruses lack cellular machinery of their own and must hijack a host cell's metabolic processes to replicate",
-     "The correct answer is C. Direct contact transmission involves physical transfer of microorganisms between an infected person and a susceptible host",
+     "The three dimensions are physical, mental, and social well-being",
+     "Health is defined as a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity",
      "The primary objective is to maintain biological rhythms and metabolic homeostasis throughout the day"
     ],
     "hint": "Straight from the 'Ayurveda and Holistic Health' slide -- match the key terms.",
@@ -600,11 +600,11 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "Which of the following describes an infectious disease? A) Diabetes caused by improper insulin production B) Scurvy caused by Vitamin C deficiency C) Tuberculosis caused by Mycobacterium tuberculosis D) Hypertension caused by chronic stress",
     "answer": "The correct answer is C. Tuberculosis is caused by a pathogen (bacterium) that can be transmitted from person to person",
     "options": [
-     "The correct answer is C. Direct contact transmission involves physical transfer of microorganisms between an infected person and a susceptible host",
-     "Proteins are the correct answer because they are polymers of amino acids linked by peptide bonds, containing carbon, hydrogen, oxygen, nitrogen, and often sulfur",
+     "Immunity is the body's inbuilt ability to defend itself against disease-causing microbes",
+     "Students can distinguish between direct and indirect disease transmission routes, categorize common vectors and fomites",
      "The correct answer is C. Tuberculosis is caused by a pathogen (bacterium) that can be transmitted from person to person"
     ],
-    "hint": "Straight from the 'Disease' slide -- match the key terms.",
+    "hint": "Straight from the 'Disease is any condition that' slide -- match the key terms.",
     "misconception": "A student who chooses A, B, or D is confusing non-infectious metabolic or deficiency disorders with pathogen-driven communicable diseases.",
     "id": "gen_c8_bio_ch02_q3",
     "nodeId": "c8_bio_ch2_3",
@@ -621,8 +621,8 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "Which of the following classes of infectious pathogens consists of obligate intracellular parasites that require a living host cell to reproduce? A) Bacteria B) Fungi C) Viruses D) Protozoa",
     "answer": "The correct answer is C) Viruses. Viruses lack cellular machinery of their own and must hijack a host cell's metabolic processes to replicate",
     "options": [
-     "The correct answer is C. Direct contact transmission involves physical transfer of microorganisms between an infected person and a susceptible host",
-     "The correct answer is C. Non-infectious diseases are non-transmissible and develop due to genetic factors, physiological malfunctions, or poor lifestyle habits over time",
+     "Infectious diseases are illnesses caused by microscopic pathogens such as bacteria, viruses, and fungi that invade the body, multiply, and disrupt normal physiological functions",
+     "White blood cells protect the body by identifying, attacking, and destroying foreign pathogens like bacteria and viruses",
      "The correct answer is C) Viruses. Viruses lack cellular machinery of their own and must hijack a host cell's metabolic processes to replicate"
     ],
     "hint": "Straight from the 'Infectious diseases' slide -- match the key terms.",
@@ -787,11 +787,11 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "What is the primary function of white blood cells (leukocytes) in the human body?",
     "answer": "White blood cells protect the body by identifying, attacking, and destroying foreign pathogens like bacteria and viruses",
     "options": [
-     "The three dimensions are physical, mental, and social well-being",
-     "The correct answer is C. Tuberculosis is caused by a pathogen (bacterium) that can be transmitted from person to person",
+     "Infectious diseases are illnesses caused by microscopic pathogens such as bacteria, viruses, and fungi that invade the body, multiply, and disrupt normal physiological functions",
+     "Vaccines are biological preparations containing weakened, killed, or fragmented parts of a pathogen (such as bacteria or viruses) that stimulate the human immune system to produce",
      "White blood cells protect the body by identifying, attacking, and destroying foreign pathogens like bacteria and viruses"
     ],
-    "hint": "Straight from the 'Immunity' slide -- match the key terms.",
+    "hint": "Straight from the 'Immunity is the body's inbuilt' slide -- match the key terms.",
     "misconception": "A wrong answer often confuses white blood cells with red blood cells, which transport oxygen rather than fighting infections.",
     "id": "gen_c8_bio_ch02_q8",
     "nodeId": "c8_bio_ch2_8",
@@ -827,8 +827,8 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "What is the primary chemical property of a soap molecule that enables it to remove oily dirt and destroy pathogen cell membranes during handwashing?",
     "answer": "A soap molecule has a dual structure containing a hydrophobic (water-fearing) hydrocarbon tail that dissolves in oils and grease",
     "options": [
+     "Vaccines are biological preparations containing weakened, killed, or fragmented parts of a pathogen (such as bacteria or viruses) that stimulate the human immune system to produce",
      "The three dimensions are physical, mental, and social well-being",
-     "The correct answer is C. Direct contact transmission involves physical transfer of microorganisms between an infected person and a susceptible host",
      "A soap molecule has a dual structure containing a hydrophobic (water-fearing) hydrocarbon tail that dissolves in oils and grease"
     ],
     "hint": "Straight from the 'Personal hygiene' slide -- match the key terms.",
@@ -848,8 +848,8 @@ export const C8_BIO_GEN: SimDef[] = [
     "question": "What is the primary physiological hormone released by the adrenal glands during acute stress that prepares the body for a \"fight or flight\" response?",
     "answer": "The correct answer is adrenaline (or epinephrine/cortisol)",
     "options": [
-     "The correct answer is C. Tuberculosis is caused by a pathogen (bacterium) that can be transmitted from person to person",
-     "The primary component is a weakened, killed, or fragmented pathogen (antigen)",
+     "The correct answer is C. Non-infectious diseases are non-transmissible and develop due to genetic factors, physiological malfunctions, or poor lifestyle habits over time",
+     "Students can differentiate between normal everyday stress and harmful anxiety, identify the physiological and biochemical impacts of chronic stress on the human body",
      "The correct answer is adrenaline (or epinephrine/cortisol)"
     ],
     "hint": "Straight from the 'Mental health' slide -- match the key terms.",
@@ -936,7 +936,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The statement is scientifically inaccurate. Vaccines are preventative biological agents, not therapeutic cures",
      "This statement is incorrect because social well-being is a core component of health. Humans live in communities, and factors such as peer support, family environment"
     ],
-    "hint": "Straight from the 'Health' slide -- match the key terms.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
     "misconception": "A wrong answer shows a narrow view of health restricted strictly to individual biology.",
     "id": "gen_c8_bio_ch02_q13",
     "nodeId": "c8_bio_ch2_1",
@@ -951,7 +951,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The correct answer is B. Steps to solve: 1. Identify the source: a common well contaminated by flood water",
      "A good answer will include: - Physical: 45 minutes of outdoor sports (strengthens muscles and immunity)"
     ],
-    "hint": "Straight from the 'Health' slide -- match the key terms.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
     "misconception": "A poor answer lists only physical activities like running while ignoring mental and social needs.",
     "id": "gen_c8_bio_ch02_q14",
     "nodeId": "c8_bio_ch2_1",
@@ -966,7 +966,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The statement is invalid because internal enzyme activity is influenced by ambient temperature and seasonal dietary adaptations that provide necessary thermal and nutritional",
      "The person cannot be classified as healthy. Although their physical dimension is supported by exercise and diet"
     ],
-    "hint": "Straight from the 'Health' slide -- match the key terms.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
     "misconception": "A wrong answer prioritizes only the physical body over mental and social aspects.",
     "id": "gen_c8_bio_ch02_q15",
     "nodeId": "c8_bio_ch2_1",
@@ -981,7 +981,7 @@ export const C8_BIO_GEN: SimDef[] = [
      "The correct answer is B. A preventive daily routine must integrate balanced nutrition, regular physical exercise",
      "Steps: 1. Identify the dimensions present: Physical and mental well-being are supported. 2. Identify the missing dimension: Social well-being is compromised due to poor"
     ],
-    "hint": "Straight from the 'Health' slide -- match the key terms.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
     "misconception": "A wrong answer indicates that physical and mental health operate independently of social interactions.",
     "id": "gen_c8_bio_ch02_q16",
     "nodeId": "c8_bio_ch2_1",
@@ -989,42 +989,721 @@ export const C8_BIO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is a person who has no visible disease or physical pain still not considered completely healthy if they suffer from chronic anxiety and isolation?",
-    "answer": "Health is defined as complete physical, mental, and social well-being, not merely the absence of disease",
+    "question": "What is Health? State the definition given in this lesson.",
+    "answer": "Health is defined as a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity",
     "options": [
-     "The correct answer is A. Physical activity increases glucose uptake by muscle cells independently of insulin and helps burn excess lipids",
-     "The skin acts as a physical and chemical barrier (via acidic sweat and oils) that prevents pathogens from entering the body in the first place",
-     "Health is defined as complete physical, mental, and social well-being, not merely the absence of disease"
+     "The student can classify various human ailments as either infectious or non-infectious based on their origin and transmission mechanism",
+     "The correct answer is C) Viruses. Viruses lack cellular machinery of their own and must hijack a host cell's metabolic processes to replicate",
+     "Health is defined as a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity"
     ],
-    "hint": "Straight from the 'Health' slide -- match the key terms.",
-    "misconception": "A wrong answer assumes that feeling no physical pain means a person is fully healthy.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Health is defined as a state of complete physical, mental, and social well-being, and not merely the absence of disease",
     "id": "gen_c8_bio_ch02_q17",
     "nodeId": "c8_bio_ch2_1",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Analyze how improper disposal of domestic organic waste in a community affects both water chemistry (dissolved oxygen levels) and community health.",
-    "answer": "Organic waste dumped into water bodies undergoes microbial decomposition, a process that consumes dissolved oxygen ($O_2$)",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can define health beyond the simple absence of disease, distinguish between physical, mental, and social dimensions of well-being",
     "options": [
-     "Chlorination provides a residual disinfecting effect that protects water throughout distribution pipelines",
-     "Health is defined as complete physical, mental, and social well-being, not merely the absence of disease",
-     "Organic waste dumped into water bodies undergoes microbial decomposition, a process that consumes dissolved oxygen ($O_2$)"
+     "Transmission of diseases refers to the mechanisms by which infectious pathogens (such as bacteria, viruses, and fungi) pass from an infected host to a susceptible individual",
+     "The primary objective is to maintain biological rhythms and metabolic homeostasis throughout the day",
+     "The student can define health beyond the simple absence of disease, distinguish between physical, mental, and social dimensions of well-being"
     ],
-    "hint": "Straight from the 'Personal hygiene' slide -- match the key terms.",
-    "misconception": "A wrong answer claims that organic waste simply dissolves harmlessly like sugar, showing a lack of understanding regarding biochemical oxygen demand and environmental chemical degradation.",
+    "hint": "Straight from the 'Health is defined as a state of' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can define health beyond the simple absence of disease, distinguish between physical, mental, and social",
     "id": "gen_c8_bio_ch02_q18",
-    "nodeId": "c8_bio_ch2_10",
-    "difficulty": "advanced"
+    "nodeId": "c8_bio_ch2_1",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about health?",
+    "What surprised you about health is defined as a state of complete physical?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Health mastered! 🎯",
+  "successLine": "Health Is Defined As a State mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c8_bio_ch03",
+  "title": "Life Stages Of Humans",
+  "subtitle": "Biology · Chapter 3",
+  "classLevel": 8,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Life Stages Of Humans",
+  "chapters": [
+   "Biology Ch3: Life Stages Of Humans"
+  ],
+  "nodeIds": [
+   "c7_bio_ch01_001",
+   "c7_bio_ch01_002",
+   "c7_bio_ch01_003",
+   "c7_bio_ch01_004",
+   "c7_bio_ch01_005",
+   "c7_bio_ch01_006",
+   "c7_bio_ch01_007",
+   "c7_bio_ch01_008",
+   "c7_bio_ch01_009",
+   "c7_bio_ch01_010",
+   "c7_bio_ch01_011",
+   "c7_bio_ch01_012"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "What happens if Life Stages Of Humans suddenly stops working?",
+   "options": [
+    "Things around us change in noticeable ways",
+    "Absolutely nothing changes",
+    "Only textbooks would change"
+   ],
+   "answer": "Things around us change in noticeable ways",
+   "hook": "The life stages of humans refer to the continuous, progressive biological phases of growth, development, maturation, and aging that an individual"
+  },
+  "teaching": [
+   {
+    "title": "Life Stages Of Humans",
+    "text": "The life stages of humans refer to the continuous, progressive biological phases of growth, development, maturation, and aging that an individual passes through from birth to death—specifically including infancy, childhood, adolescence, adulthood, and old age.",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Adolescence: Definition and Age Range",
+    "text": "Adolescence is the transitional period of physical, psychological, and social development between childhood and adulthood, specifically spanning the age range of 10 to 19 years.",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Rapid And Marked Increase",
+    "text": "The rapid and marked increase in height and weight during adolescence, driven by the elongation of long bones and a surge in overall body mass regulated by hormones.",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Changes Indicating Reproductive Maturity",
+    "text": "Changes indicating reproductive maturity refer to the biological developments in adolescents—such as the production of gametes (sperm in males and ova in females) and the maturation of primary sex organs—marking the body's ability to engage in sexual",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Secondary Sexual Characteristics",
+    "text": "Secondary sexual characteristics are the distinct physical features that develop during adolescence—separate from the primary sex organs—which help differentiate males from females and signal the onset of reproductive maturity.",
+    "emoji": "🌿",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Psychological And Physiological Shift During",
+    "text": "The psychological and physiological shift during puberty characterized by mood swings, heightened self-consciousness, and a strong desire for independence, driven by hormonal fluctuations acting on the developing brain.",
+    "emoji": "🌿",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Balanced Diet During Adolescence",
+    "text": "A balanced diet during adolescence is a daily food intake containing appropriate proportions of carbohydrates, proteins, fats, vitamins, minerals, and water to support the rapid skeletal growth, muscular development, hormonal changes, and sudden height and",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Personal Hygiene During Adolescence",
+    "text": "Personal hygiene during adolescence involves daily cleanliness practices required to manage increased activity of sweat and oil glands triggered by hormonal surges, preventing body odor and skin infections.",
+    "emoji": "🌿",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Physical Activities And Regular Exercise",
+    "text": "Physical activities and regular exercise during adolescence refer to planned, structured body movements that contract skeletal muscles, requiring energy expenditure and promoting optimal bone density, cardiovascular endurance, and muscular strength during the",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Balanced Social Life And Mental",
+    "text": "A balanced social life and mental well-being refer to a state of emotional stability, positive interpersonal relationships, and healthy stress management that allow an adolescent to cope with the rapid psychological and hormonal shifts of teenage years.",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Hormones Are Chemical Messengers Secreted",
+    "text": "Hormones are chemical messengers secreted directly into the bloodstream by endocrine glands to regulate and coordinate various physiological processes, including the physical and emotional changes during adolescence.",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Reproductive Health During Adolescence",
+    "text": "Reproductive health during adolescence refers to the complete physical, mental, and social well-being in all matters relating to the reproductive system, requiring personal responsibility, hygiene, and informed decision-making.",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "Which of the following biological stages immediately follows infancy and precedes adolescence in the human life span? A) Old age B) Childhood C) Adulthood D) Prenatal stage",
+    "answer": "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the",
+    "options": [
+     "Reproductive health during adolescence refers to the complete physical, mental, and social well-being in all matters relating to the reproductive system",
+     "Students can correctly classify and differentiate between primary sex organs (present from birth) and secondary sexual characteristics (appearing during adolescence)",
+     "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the"
+    ],
+    "hint": "Straight from the 'life stages of humans' slide -- match the key terms.",
+    "misconception": "A student who chooses A (Old age) or C (Adulthood) confuses the chronological sequence of the human life span, failing to recognize that humans grow progressively through distinct age brackets rather than jumping from infancy to maturity.",
+    "id": "gen_c8_bio_ch03_q1",
+    "nodeId": "c7_bio_ch01_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Look at a family photo album: you see a tiny newborn baby, a toddler taking first steps, a school-going child, a tall teenager, an adult parent, and",
+     "Every human being journeys through these predictable biological chapters, driven by our genetic blueprint and regulated by chemical messengers called",
+     "Just as a seed grows into a seedling, a sapling, a mature tree, and eventually older wood, human bodies undergo physical, functional, and emotional",
+     "Today, we map out this magnificent journey of life, looking at how our organs develop, mature, and eventually slow down as time passes."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Aman is 9 years old and Rahul is 15 years old. Based on the definition of adolescence, which boy falls into the adolescent age bracket, and what biological transition is he entering or experiencing?",
+    "answer": "Rahul (15 years old) falls into the adolescent age bracket (10-19 years), while Aman (9 years old) is still in late childhood",
+    "options": [
+     "A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release from the pituitary gland",
+     "The correct answer is no, because height is influenced by a combination of genetic potential from the entire family tree and environmental factors like nutrition and health",
+     "Rahul (15 years old) falls into the adolescent age bracket (10-19 years), while Aman (9 years old) is still in late childhood"
+    ],
+    "hint": "Straight from the 'Adolescence is the transitional' slide -- match the key terms.",
+    "misconception": "A student who includes Aman fails to recognize the lower age limit of 10 years for adolescence.",
+    "id": "gen_c8_bio_ch03_q2",
+    "nodeId": "c7_bio_ch01_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "When you look at your older cousins or students in higher classes, you might notice they are suddenly growing taller, their voices are changing, or",
+     "To understand why this happens, we must first look at where this life stage sits in the human timeline, building directly on our knowledge of human",
+     "We begin by examining chronological age boundaries, specifically the 10-to-19-year window designated by health organizations worldwide.",
+     "By observing changes in friends and family members across different age groups, we can identify when childhood ends and this transitional phase"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary biological reason behind the sudden increase in height during early adolescence?",
+    "answer": "The correct answer is the rapid elongation of long bones in the arms and legs, stimulated by growth hormones",
+    "options": [
+     "Can identify the hormonal and neural triggers behind adolescent mood shifts, explain the psychological need for independence",
+     "Students can identify the primary reproductive organs in males and females, explain the difference between general physical growth and reproductive maturity",
+     "The correct answer is the rapid elongation of long bones in the arms and legs, stimulated by growth hormones"
+    ],
+    "hint": "Straight from the 'rapid and marked increase' slide -- match the key terms.",
+    "misconception": "A wrong answer often reveals the misconception that muscles stretch the bones, confusing muscle tissue growth with skeletal structural expansion.",
+    "id": "gen_c8_bio_ch03_q3",
+    "nodeId": "c7_bio_ch01_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine standing next to a younger sibling or looking at an old photograph where your uniform trousers suddenly look too short around the ankles.",
+     "This noticeable spurt in height is one of the most visible milestones when entering teenage years.",
+     "Building on the basic life stages learned earlier, we now examine the mechanics of how bones lengthen at their growth plates and how muscle and fat",
+     "To understand this, observe how an adolescent's hands and feet often seem to grow larger first before the torso catches up."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What biological substance acts as the chemical messenger that triggers the changes indicating reproductive maturity in adolescents?",
+    "answer": "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity",
+    "options": [
+     "Can explain why personal hygiene and emotional boundaries are crucial for reproductive health, identify ways to prevent common infections",
+     "Can identify signs of emotional stress in adolescents, explain how positive social interactions and physical activities influence brain chemistry and mood",
+     "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity"
+    ],
+    "hint": "Straight from the 'Changes indicating reproductive' slide -- match the key terms.",
+    "misconception": "A student who answers \"blood\" or \"vitamins\" is confusing the transport medium or nutrients with the actual regulatory molecules that command the body to change.",
+    "id": "gen_c8_bio_ch03_q4",
+    "nodeId": "c7_bio_ch01_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "When teenagers look in the mirror, they notice changes beyond just growing taller or gaining weight, such as deeper voices or changes in body shape.",
+     "But underneath these visible traits, deep inside the body, a much more important biological shift is happening: the reproductive organs are waking up",
+     "To understand this, think back to how plants form flowers and seeds only when they reach a certain stage of maturity; human bodies similarly undergo",
+     "We will begin by looking at what organs are involved and how hormones signal them to start producing gametes."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What are secondary sexual characteristics?",
+    "answer": "Secondary sexual characteristics are physical traits that develop during adolescence, helping to distinguish males from females without being the reproductive organs themselves",
+    "options": [
+     "Students can calculate or interpret growth patterns in adolescents, distinguish between skeletal elongation and tissue mass gain",
+     "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity",
+     "Secondary sexual characteristics are physical traits that develop during adolescence, helping to distinguish males from females without being the reproductive organs themselves"
+    ],
+    "hint": "Straight from the 'Secondary sexual characteristics' slide -- match the key terms.",
+    "misconception": "A student who thinks they are present at birth is confusing them with primary sex organs.",
+    "id": "gen_c8_bio_ch03_q5",
+    "nodeId": "c7_bio_ch01_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "When looking at older cousins or teenagers around us, we notice sudden changes in their appearance, such as boys developing facial hair or a deeper",
+     "To understand why this happens, we begin by observing that human bodies undergo a second major transformation after infancy during the teenage years.",
+     "Connecting back to Class 6, where we learned about general height and weight increases, we now examine the specific features that make male and",
+     "The key biological principle is that chemical messengers called hormones, released by endocrine glands, trigger these visible body changes to prepare"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary biological driver behind the emotional and behavioural changes observed during adolescence?",
+    "answer": "Hormonal fluctuations acting on the developing brain, particularly the limbic system, cause emotional intensity",
+    "options": [
+     "Can identify the hormonal and neural triggers behind adolescent mood shifts, explain the psychological need for independence",
+     "Students can identify the primary reproductive organs in males and females, explain the difference between general physical growth and reproductive maturity",
+     "Hormonal fluctuations acting on the developing brain, particularly the limbic system, cause emotional intensity"
+    ],
+    "hint": "Straight from the 'psychological and physiological' slide -- match the key terms.",
+    "misconception": "A wrong answer often attributes these changes solely to \"bad behavior\" or lack of discipline, failing to recognize the biological and neurological basis of adolescent development.",
+    "id": "gen_c8_bio_ch03_q6",
+    "nodeId": "c7_bio_ch01_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Observe how a teenager in your family might feel thrilled one minute about a new hobby and overwhelmed the next by a minor comment from a teacher.",
+     "Think back to how your body and thoughts started shifting when you entered middle school.",
+     "Just as your height shot up due to hormones, your brain's emotional center (the limbic system) undergoes rapid development and sensitivity.",
+     "Today, we will explore why these intense feelings happen and how they form a normal, healthy part of growing up."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Why do adolescents need a larger quantity of proteins in their balanced diet compared to younger children?",
+    "answer": "Adolescents need more protein because they undergo a rapid growth spurt involving the formation of new tissues, muscles, and organs driven by hormonal changes",
+    "options": [
+     "Adolescents experience increased oiliness and body odor because hormones stimulate sweat glands (sudoriferous glands) and oil glands (sebaceous glands) to become much more active",
+     "The correct answer is that rapid bone elongation and muscle tissue synthesis require vast amounts of energy, minerals (like calcium), and proteins",
+     "Adolescents need more protein because they undergo a rapid growth spurt involving the formation of new tissues, muscles, and organs driven by hormonal changes"
+    ],
+    "hint": "Straight from the 'balanced diet during adolescence' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the misconception that protein is only needed for adults who go to the gym, missing its crucial role in structural growth and cell multiplication during puberty.",
+    "id": "gen_c8_bio_ch03_q7",
+    "nodeId": "c7_bio_ch01_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Think about how rapidly you grow out of your school uniform or shoes during certain years, which requires your body to build new bones, muscles, and",
+     "To understand how this happens, observe what happens when a builder constructs a large building—they need a steady supply of bricks, cement, iron",
+     "Connect this to what you learned in Class 6 about basic nutrition and the components of food.",
+     "Today, we will explore why growing teenagers have higher nutritional demands than adults or younger children, and how combining different food groups"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Why do adolescents experience increased skin oiliness and body odor compared to when they were in primary school?",
+    "answer": "Adolescents experience increased oiliness and body odor because hormones stimulate sweat glands (sudoriferous glands) and oil glands (sebaceous glands) to become much more active",
+    "options": [
+     "They appear in adolescence because endocrine glands become active and release specific hormones (like testosterone in boys and estrogen in girls) that target various body tissues",
+     "B) Because the body undergoes rapid structural and functional changes that prepare it for reproductive capability and adult responsibilities",
+     "Adolescents experience increased oiliness and body odor because hormones stimulate sweat glands (sudoriferous glands) and oil glands (sebaceous glands) to become much more active"
+    ],
+    "hint": "Straight from the 'Personal hygiene during' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student thinks body odor comes from dirt alone rather than the interaction between sweat, skin secretions, and normal skin bacteria breaking them down.",
+    "id": "gen_c8_bio_ch03_q8",
+    "nodeId": "c7_bio_ch01_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "During sports practice on a warm afternoon in school, you might notice a stronger body odor than you did a few years ago.",
+     "This happens because your body is growing, and specific glands under your arms and on your face start producing more secretions.",
+     "To understand how to handle this, think back to how your body systems change during puberty when hormones activate new glands.",
+     "We begin by observing how sweat and oil interact with the skin's natural bacteria."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Rohan, a 13-year-old, spends four hours daily playing video games indoors and complains of feeling sluggish and weak during school sports periods, despite eating a normal diet. Using your knowledge of how body systems respond to disuse, explain what is happening biologically to his muscles and stamina.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Identify Rohan's lifestyle pattern",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Apply this to Rohan—without exercise",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Recall that muscle fibers and cardiovascular",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Conclude that his low stamina",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who believes diet alone can maintain strength without exercise fails to recognize the mechanical stimulus required for muscle and bone development.",
+    "id": "gen_c8_bio_ch03_q9",
+    "nodeId": "c7_bio_ch01_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "When you play a game of kabaddi or football in the school playground, you quickly notice your heart beating faster, your breathing deepening, and",
+     "To understand why this happens, we must connect it to what you learned last year about how cellular respiration provides energy to your muscles.",
+     "When adolescents undergo rapid height and weight spurts, bones lengthen and muscles expand rapidly, demanding increased oxygen and nutrient delivery.",
+     "We begin by observing how our bodies respond to different types of movement, noting how regular exercise strengthens our heart and lungs."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Rohan, a 13-year-old student, has been spending all his free time isolated in his room playing video games, stopped playing cricket with his friends, and snaps angrily at his parents whenever they ask about his day.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyze consequences—prolonged isolation",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Identify the behavior—isolation from peer",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Rohan",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Conclusion—Rohan",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s4",
+      "label": "Relate to developmental stage—adolescents",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer would assume this is normal teenage behavior that requires no attention, ignoring the danger of complete social isolation.",
+    "id": "gen_c8_bio_ch03_q10",
+    "nodeId": "c7_bio_ch01_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Think about how you feel after sharing a worry with a close friend or family member—often, a heavy burden suddenly feels lighter.",
+     "During adolescence, rapid physical and hormonal changes inside the body can trigger sudden mood swings, feelings of self-doubt, or intense peer",
+     "To navigate these changes successfully, teenagers need to build on what they learned about emotional shifts in earlier years by actively fostering",
+     "Mental well-being is not the absence of stress, but the ability to maintain emotional balance, build positive social connections, and seek help when"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the general term for chemical substances secreted by endocrine glands that act as messengers in the human body?",
+    "answer": "The correct answer is hormones",
+    "options": [
+     "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the",
+     "Hormones are chemical messengers secreted directly into the bloodstream by endocrine glands to regulate and coordinate various physiological processes",
+     "The correct answer is hormones"
+    ],
+    "hint": "Straight from the 'Hormones are chemical messengers' slide -- match the key terms.",
+    "misconception": "A student who answers \"enzymes\" or \"nutrients\" is confusing metabolic catalysts or food components with chemical signaling molecules that travel through the bloodstream.",
+    "id": "gen_c8_bio_ch03_q11",
+    "nodeId": "c7_bio_ch01_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "When a Class 7 student notices a sudden spurt in height, deepening of the voice, or the appearance of acne, they are observing visible physical",
+     "To understand why these transformations happen all at once, we must look inside the body for invisible chemical signals.",
+     "Building on the basic idea of teenage physical transformations from Class 6, we now examine the microscopic messengers called hormones.",
+     "We begin by observing how endocrine glands release these substances into the bloodstream, which acts like a highway carrying messages to specific"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A 13-year-old student notices increased sweating and body odor after playing football in the school ground in a humid climate. Based on reproductive health principles, what is the best immediate action?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Recognize that perfumes only mask odor",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Determine that washing with soap and water",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "Identify that sweat and oil accumulation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "The correct answer",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s4",
+      "label": "Conclude that thorough washing",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Choosing A or D shows a misunderstanding that masking odor is the same as cleaning, which invites infections.",
+    "id": "gen_c8_bio_ch03_q12",
+    "nodeId": "c7_bio_ch01_012",
+    "difficulty": "advanced",
+    "workedExample": [
+     "When you experience sudden body changes like increased sweating and oily skin during adolescence, your daily routine must adapt to keep your body",
+     "Just as you learned to wash your hands before eating to keep germs away, taking care of your changing body requires special daily habits to prevent",
+     "Think about how maintaining personal hygiene protects not just your skin, but your entire body from harmful bacteria.",
+     "Now, let us build upon your knowledge of hormonal changes and emotional growth to understand how personal responsibility safeguards our reproductive"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "An adolescent claims that skipping warm-up exercises before playing an intensive game of football has no biological consequence because the body warms up naturally during play. Evaluate this claim using biological reasoning.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Rapid muscle contraction without a warm-up",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Skipping warm-ups increases the likelihood",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Warm-up exercises gradually dilate blood",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A student who agrees with the claim does not understand how gradual circulatory adjustment protects muscle tissue from sudden strain.",
+    "id": "gen_c8_bio_ch03_q13",
+    "nodeId": "c7_bio_ch01_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Design a weekly wellness plan for a 14-year-old student who feels overwhelmed by academic pressure and peer expectations. Your plan must include at least three distinct activities addressing physical, social, and emotional well-being.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "A physical activity like cycling or playing",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "A social activity like joining a school club",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "An emotional/mindfulness practice like",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer would focus only on studying harder or isolating oneself with entertainment devices, missing the holistic nature of mental well-being.",
+    "id": "gen_c8_bio_ch03_q14",
+    "nodeId": "c7_bio_ch01_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A health researcher is plotting a graph of human bone density versus age, spanning from birth to 90 years. Based on human biology, at which life stage would the researcher expect bone density to reach its absolute peak, and why?",
+    "answer": "C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density before age-related decline begins",
+    "options": [
+     "Rahul (15 years old) falls into the adolescent age bracket (10-19 years), while Aman (9 years old) is still in late childhood",
+     "This statement is partially incorrect because while adolescence generally begins around age 10 (marking the lower bound)",
+     "C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density before age-related decline begins"
+    ],
+    "hint": "Straight from the 'life stages of humans' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density",
+    "id": "gen_c8_bio_ch03_q15",
+    "nodeId": "c7_bio_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the physiological status of organ systems (like the circulatory and skeletal systems) during early adulthood versus old age. Which statement best describes the shift between these two life stages?",
+    "answer": "B) Organ systems reach their peak functional efficiency in early adulthood, followed by a gradual, natural decline in elasticity, tissue repair speed",
+    "options": [
+     "At 7 years old, sweat and sebaceous glands are largely dormant, requiring only basic cleanliness. At 14 years old, these glands become fully active due to hormonal surges",
+     "A brisk walk primarily engages the cardiovascular and respiratory systems, improving heart efficiency, lung capacity, and endurance by demanding steady oxygen delivery to cells",
+     "B) Organ systems reach their peak functional efficiency in early adulthood, followed by a gradual, natural decline in elasticity, tissue repair speed"
+    ],
+    "hint": "Straight from the 'life stages of humans' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: B) Organ systems reach their peak functional efficiency in early adulthood, followed by a gradual, natural decline in",
+    "id": "gen_c8_bio_ch03_q16",
+    "nodeId": "c7_bio_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple timeline or conceptual model for a school science project that demonstrates how hormonal signals orchestrate the transition across three consecutive human life stages (childhood, adolescence, and adulthood). Describe what triggers each transition.",
+    "answer": "A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release from the pituitary gland",
+    "options": [
+     "A good model should feature two parallel tracks: Track 1 (Physical Growth) showing height spurts and weight gain from ages 10-14",
+     "C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density before age-related decline begins",
+     "A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release from the pituitary gland"
+    ],
+    "hint": "Straight from the 'life stages of humans' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release",
+    "id": "gen_c8_bio_ch03_q17",
+    "nodeId": "c7_bio_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a child's pituitary gland fails to secrete sufficient growth hormone during their childhood years, how would this primarily impact their progression into subsequent life stages?",
+    "answer": "Steps to solve: 1) Identify that the pituitary gland secretes growth hormone responsible for lengthening long bones during childhood and adolescence",
+    "options": [
+     "A good chart for Boys would list: 1) Growth of facial hair (beard/moustache), 2) Deepening of voice (enlarged larynx), 3) Broadening of shoulders",
+     "A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release from the pituitary gland",
+     "Steps to solve: 1) Identify that the pituitary gland secretes growth hormone responsible for lengthening long bones during childhood and adolescence"
+    ],
+    "hint": "Straight from the 'life stages of humans' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Steps to solve: 1) Identify that the pituitary gland secretes growth hormone responsible for lengthening long bones",
+    "id": "gen_c8_bio_ch03_q18",
+    "nodeId": "c7_bio_ch01_001",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about life stages of humans?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Life Stages Of Humans mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

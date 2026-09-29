@@ -854,7 +854,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
       <header className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2.5 py-1 text-xs font-semibold bg-cyan-950 text-cyan-400 border border-cyan-800 rounded-full">
+            <span className="px-2.5 py-1 text-xs font-semibold bg-gold-950 text-gold-400 border border-gold-800 rounded-full">
               CBSE Class 12 Physics
             </span>
             <span className="px-2.5 py-1 text-xs font-semibold bg-purple-950 text-purple-400 border border-purple-800 rounded-full">
@@ -871,7 +871,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
         <div className="flex items-center gap-4 bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5">
           <div className="text-center border-r border-slate-800 pr-4">
             <span className="text-xs text-slate-400 block">Diagnostic Score</span>
-            <span className="text-xl font-bold text-cyan-400">{totalScore} PTS</span>
+            <span className="text-xl font-bold text-gold-400">{totalScore} PTS</span>
           </div>
           <div className="text-center">
             <span className="text-xs text-slate-400 block">Node Mastery</span>
@@ -902,7 +902,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            activeTab === 'predict' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+            activeTab === 'predict' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
           }`}
         >
           1. Hypothesis & Predict
@@ -913,7 +913,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            activeTab === 'lab' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+            activeTab === 'lab' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
           }`}
         >
           2. Interactive Quantum Labs
@@ -924,7 +924,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            activeTab === 'slides' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+            activeTab === 'slides' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
           }`}
         >
           3. Visual Lessons
@@ -935,7 +935,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            activeTab === 'challenges' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+            activeTab === 'challenges' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
           }`}
         >
           4. Adaptive Diagnostics
@@ -946,7 +946,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            activeTab === 'misconceptions' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+            activeTab === 'misconceptions' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
           }`}
         >
           5. Quantum Misconceptions
@@ -965,16 +965,16 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
         {activeTab === 'predict' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
             <div className="border-b border-slate-800 pb-4">
-              <span className="text-xs uppercase tracking-wider font-semibold text-cyan-400">
+              <span className="text-xs uppercase tracking-wider font-semibold text-gold-400">
                 Mission Objective
               </span>
               <h2 className="text-2xl font-bold text-white mt-1">{SCENARIO.intro}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.context}</p>
             </div>
 
-            <div className="bg-slate-950 border border-cyan-900/50 rounded-xl p-6">
-              <div className="flex items-center gap-2 text-cyan-400 mb-3">
-                <span className="text-xs font-bold px-2 py-0.5 bg-cyan-950 border border-cyan-800 rounded">
+            <div className="bg-slate-950 border border-gold-900/50 rounded-xl p-6">
+              <div className="flex items-center gap-2 text-gold-400 mb-3">
+                <span className="text-xs font-bold px-2 py-0.5 bg-gold-950 border border-gold-800 rounded">
                   DISCOVERY PREDICTION
                 </span>
               </div>
@@ -991,7 +991,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                        : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-700'
+                        : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-700'
                     }`}
                   >
                     <div className="font-semibold text-xs text-slate-400 mb-1">Option {String.fromCharCode(65 + idx)}</div>
@@ -1006,14 +1006,14 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                   animate={{ opacity: 1, y: 0 }}
                   className="mt-6 p-4 rounded-xl bg-slate-900 border border-slate-800 text-sm"
                 >
-                  <div className="font-bold text-cyan-400 mb-1">Physics Insight:</div>
+                  <div className="font-bold text-gold-400 mb-1">Physics Insight:</div>
                   <p className="text-slate-300">{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => {
                       setActiveTab('lab');
                       audioManager.play('whoosh');
                     }}
-                    className="mt-4 px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-medium rounded-lg text-sm transition-colors"
+                    className="mt-4 px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-medium rounded-lg text-sm transition-colors"
                   >
                     Proceed to Interactive Quantum Labs →
                   </button>
@@ -1032,7 +1032,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                 onClick={() => setLabMode('photoelectric')}
                 className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                   labMode === 'photoelectric'
-                    ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                    ? 'bg-gold-600 text-white shadow-lg shadow-gold-900/40'
                     : 'bg-slate-900 text-slate-400 hover:text-white'
                 }`}
               >
@@ -1066,7 +1066,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                 {/* Canvas Visualizer */}
                 <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col items-center">
                   <div className="w-full flex justify-between items-center mb-2 px-2">
-                    <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       Real-Time Quantum Vacuum Tube Simulation
                     </span>
                     <span className="text-xs text-slate-400">E = hν = {photonEnergyEv.toFixed(2)} eV</span>
@@ -1085,7 +1085,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                     </div>
                     <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
                       <span className="text-xs text-slate-400 block">Photon Energy (hν)</span>
-                      <span className="text-lg font-bold text-cyan-400">{photonEnergyEv.toFixed(2)} eV</span>
+                      <span className="text-lg font-bold text-gold-400">{photonEnergyEv.toFixed(2)} eV</span>
                     </div>
                     <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
                       <span className="text-xs text-slate-400 block">Max K.E. (K_max)</span>
@@ -1113,7 +1113,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                         setMetalIndex(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full bg-slate-950 border border-slate-800 text-slate-200 rounded-lg p-2.5 text-sm focus:border-cyan-500 focus:outline-none"
+                      className="w-full bg-slate-950 border border-slate-800 text-slate-200 rounded-lg p-2.5 text-sm focus:border-gold-500 focus:outline-none"
                     >
                       {TARGET_METALS.map((m, idx) => (
                         <option key={idx} value={idx}>
@@ -1127,7 +1127,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Light Wavelength (λ)</span>
-                      <span className="text-cyan-400 font-semibold">{wavelengthNm} nm</span>
+                      <span className="text-gold-400 font-semibold">{wavelengthNm} nm</span>
                     </div>
                     <input
                       type="range"
@@ -1135,7 +1135,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                       max={750}
                       value={wavelengthNm}
                       onChange={(e) => setWavelengthNm(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                       <span>150 nm (UV)</span>
@@ -1332,7 +1332,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                     </div>
                     <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
                       <span className="text-xs text-slate-400 block">Scattering Angle (θ)</span>
-                      <span className="text-lg font-bold text-cyan-400">{dgAngle}°</span>
+                      <span className="text-lg font-bold text-gold-400">{dgAngle}°</span>
                     </div>
                     <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
                       <span className="text-xs text-slate-400 block">Glancing Angle (ϕ)</span>
@@ -1366,7 +1366,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Detector Angle (θ)</span>
-                      <span className="text-cyan-400 font-bold">{dgAngle}°</span>
+                      <span className="text-gold-400 font-bold">{dgAngle}°</span>
                     </div>
                     <input
                       type="range"
@@ -1374,7 +1374,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                       max={80}
                       value={dgAngle}
                       onChange={(e) => setDgAngle(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1409,7 +1409,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs text-cyan-400 uppercase font-semibold">
+                <span className="text-xs text-gold-400 uppercase font-semibold">
                   Visual Lesson {slideIndex + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-0.5">{TEACHING_SLIDES[slideIndex].title}</h2>
@@ -1434,7 +1434,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                     setSlideIndex((prev) => prev + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-3 py-1.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white text-sm font-medium rounded-lg"
+                  className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-sm font-medium rounded-lg"
                 >
                   Next →
                 </button>
@@ -1447,7 +1447,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                 <ul className="space-y-2">
                   {TEACHING_SLIDES[slideIndex].keyPoints.map((pt, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-xs text-slate-300">
-                      <span className="text-cyan-400 font-bold">•</span>
+                      <span className="text-gold-400 font-bold">•</span>
                       <span>{pt}</span>
                     </li>
                   ))}
@@ -1519,7 +1519,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
             {/* Progress Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs text-cyan-400 font-semibold uppercase">
+                <span className="text-xs text-gold-400 font-semibold uppercase">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
@@ -1528,7 +1528,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                       CHALLENGES[currentChallengeIdx].difficulty === 'advanced'
                         ? 'bg-purple-950 text-purple-300 border border-purple-800'
                         : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
-                        ? 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                        ? 'bg-gold-950 text-gold-300 border border-gold-800'
                         : 'bg-emerald-950 text-emerald-300 border border-emerald-800'
                     }`}
                   >
@@ -1573,7 +1573,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                       disabled={challengeSubmitted}
                       className={`text-left p-4 rounded-xl border text-sm transition-all ${
                         userChoice === idx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-100 shadow-md shadow-cyan-950'
+                          ? 'bg-gold-950 border-gold-500 text-gold-100 shadow-md shadow-gold-950'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1596,7 +1596,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                     onChange={(e) => setNumericInput(e.target.value)}
                     disabled={challengeSubmitted}
                     placeholder="Enter value..."
-                    className="bg-slate-950 border border-slate-800 text-white rounded-xl p-3 text-base font-mono w-48 focus:border-cyan-500 focus:outline-none"
+                    className="bg-slate-950 border border-slate-800 text-white rounded-xl p-3 text-base font-mono w-48 focus:border-gold-500 focus:outline-none"
                   />
                   <span className="text-slate-400 text-sm font-semibold">
                     {CHALLENGES[currentChallengeIdx].unit}
@@ -1619,7 +1619,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                             audioManager.play('pickup');
                           }}
                           disabled={challengeSubmitted}
-                          className="bg-slate-900 border border-slate-700 text-xs text-cyan-300 rounded p-1.5 focus:outline-none"
+                          className="bg-slate-900 border border-slate-700 text-xs text-gold-300 rounded p-1.5 focus:outline-none"
                         >
                           <option value="">-- Select Target --</option>
                           {CHALLENGES[currentChallengeIdx].dragItems?.map((d, dIdx) => (
@@ -1645,7 +1645,7 @@ export default function C12_PhysicsDualNatureRadiationCBSESim() {
                     userChoice === null) ||
                   (CHALLENGES[currentChallengeIdx].type === 'numeric' && !numericInput)
                 }
-                className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-bold rounded-xl transition-colors text-sm shadow-lg shadow-cyan-900/30"
+                className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl transition-colors text-sm shadow-lg shadow-gold-900/30"
               >
                 Submit Answer
               </button>

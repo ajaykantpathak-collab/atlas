@@ -11,7 +11,7 @@ export const w_c12_computersciencecomputernetworkssim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Introduction to Computer Networks and their Need',
     chapters: [],
     nodeIds: ['c12_cs_cbse_01_001', 'c12_cs_cbse_01_002', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_005', 'c12_cs_cbse_01_006', 'c12_cs_cbse_01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are working on a project with three classmates. Each of you has a laptop with part of the code,.', goal: 'Master Introduction to Computer Networks and their Need.' },
     discovery: {
         question: 'What are the three fundamental needs that motivate the creation of a computer network?',
@@ -20,7 +20,7 @@ export const w_c12_computersciencecomputernetworkssim: SimDef = {
         hook: 'Students often equate "computer network" with "the Internet" or "Wi-Fi".',
     },
     teaching: [
-        { title: 'A computer network is a collection of.', text: 'A computer network is a collection of interconnected computing devices (nodes) that can communicate with each other and share resources such as data, applications, and hardware.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A computer network is a collection of.', text: 'A computer network is a collection of interconnected computing devices (nodes) that can communicate with each other and share resources such as data, applications, and hardware.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_01_001', title: 'A computer network is a collection of.',

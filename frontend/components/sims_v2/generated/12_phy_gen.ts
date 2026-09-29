@@ -167,6 +167,52 @@ export const C12_PHY_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain why the electric field inside",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Apply electrostatic shielding to predict",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Derive the relation E",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the",
+    "id": "gen_c12_phy_ch02_q3",
+    "nodeId": "c12_phy_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A hollow conducting spherical shell has inner radius a and outer radius b. A point charge +q is placed at the center of the cavity. Calculate the surface charge density on the inner surface (at r = a) and on the outer surface (at r = b). Express answers in terms of q, a, b, and ε₀.",
     "answer": "Step 1: Gaussian sphere of radius r where a < r < b (inside conductor material). E = 0 ⇒ flux = 0 ⇒ total enclosed charge = 0",
@@ -177,7 +223,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., σ_inner = 0) shows the student forgets that the point charge induces opposite charge on the cavity wall to keep E=0 in the conductor.",
-    "id": "gen_c12_phy_ch02_q3",
+    "id": "gen_c12_phy_ch02_q4",
     "nodeId": "c12_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -192,7 +238,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student conflates \"solid conductor\" with \"uniform volume charge distribution\" (true only for insulating spheres).",
-    "id": "gen_c12_phy_ch02_q4",
+    "id": "gen_c12_phy_ch02_q5",
     "nodeId": "c12_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -207,7 +253,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
     "misconception": "A student who thinks it's only for flat surfaces misunderstands the pillbox derivation — the pillbox height is infinitesimal, so curvature is negligible locally.",
-    "id": "gen_c12_phy_ch02_q5",
+    "id": "gen_c12_phy_ch02_q6",
     "nodeId": "c12_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -222,7 +268,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
     "misconception": "A poor answer such as putting a phone in a microwave uses a device not designed for shielding, or misses that the conductive enclosure must have no large apertures.",
-    "id": "gen_c12_phy_ch02_q6",
+    "id": "gen_c12_phy_ch02_q7",
     "nodeId": "c12_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -231,13 +277,13 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "State the value of the electrostatic electric field inside a conductor in static equilibrium and give the physical reason in one sentence.",
     "answer": "The electric field inside a conductor in electrostatic equilibrium is zero. Reason: If E were non-zero, free charges would experience a force (F = qE) and move",
     "options": [
-     "The statement is false. The formula E = σ/ε₀ (normal to surface) is exact for any shaped conductor in electrostatic equilibrium, not just flat planes",
-     "Case 1 (identical radii R): Total charge = +2 μC. By symmetry and equal potential after contact, charge splits equally: each gets +1 μC",
+     "Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the concept of mobile charges and force equilibrium",
+     "In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field",
      "The electric field inside a conductor in electrostatic equilibrium is zero. Reason: If E were non-zero, free charges would experience a force (F = qE) and move"
     ],
     "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"E is non-zero but small\") reveals the student thinks conductors merely \"reduce\" field rather than cancel it completely, confusing conductors with dielectrics.",
-    "id": "gen_c12_phy_ch02_q7",
+    "id": "gen_c12_phy_ch02_q8",
     "nodeId": "c12_phy_cbse_02_007",
     "difficulty": "standard"
    },
@@ -252,7 +298,52 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., still equal split for unequal radii) reveals the student thinks charge always splits equally, ignoring capacitance/potential dependence on geometry.",
-    "id": "gen_c12_phy_ch02_q8",
+    "id": "gen_c12_phy_ch02_q9",
+    "nodeId": "c12_phy_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What common mix-up does this lesson flag about In electrostatic equilibrium, a conductor?",
+    "answer": "Misconception: \"If a conductor has a cavity with no charge inside, the electric field in the cavity is zero only if the conductor is spherical",
+    "options": [
+     "In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field",
+     "Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the concept of mobile charges and force equilibrium",
+     "Misconception: \"If a conductor has a cavity with no charge inside, the electric field in the cavity is zero only if the conductor is spherical"
+    ],
+    "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Misconception: \"If a conductor has a cavity with no charge inside, the electric field in the cavity is zero only if the",
+    "id": "gen_c12_phy_ch02_q10",
+    "nodeId": "c12_phy_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is In electrostatic equilibrium, a conductor? State the definition given in this lesson.",
+    "answer": "In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field",
+    "options": [
+     "Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the concept of mobile charges and force equilibrium",
+     "The electric field inside a conductor in electrostatic equilibrium is zero. Reason: If E were non-zero, free charges would experience a force (F = qE) and move",
+     "In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field"
+    ],
+    "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals)",
+    "id": "gen_c12_phy_ch02_q11",
+    "nodeId": "c12_phy_cbse_02_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the concept of mobile charges and force equilibrium",
+    "options": [
+     "The electric field inside a conductor in electrostatic equilibrium is zero. Reason: If E were non-zero, free charges would experience a force (F = qE) and move",
+     "In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field",
+     "Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the concept of mobile charges and force equilibrium"
+    ],
+    "hint": "Straight from the 'In electrostatic equilibrium, a' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the",
+    "id": "gen_c12_phy_ch02_q12",
     "nodeId": "c12_phy_cbse_02_007",
     "difficulty": "standard"
    }
@@ -264,7 +355,8 @@ export const C12_PHY_GEN: SimDef[] = [
    ]
   },
   "successLine": "In Electrostatic Equilibrium, mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_phy_ch03",
@@ -274,7 +366,9 @@ export const C12_PHY_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "physics",
   "topic": "Ohm's Law",
-  "chapters": ["Physics Ch3: Ohm's Law"],
+  "chapters": [
+   "Physics Ch3: Ohm's Law"
+  ],
   "nodeIds": [
    "c12_phy_cbse_03_002",
    "c12_phy_cbse_03_004"
@@ -303,7 +397,7 @@ export const C12_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Resistivity",
+    "title": "Resistivity Is An Intrinsic Material",
     "text": "Resistivity (ρ) is an intrinsic material property quantifying how strongly a material opposes electric current; its SI unit is ohm-metre (Ω·m).",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -541,6 +635,63 @@ export const C12_PHY_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the three types of limitations",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain why the microscopic form E",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "state Ohm's law with the precise condition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "distinguish ohmic from non-ohmic conductors",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state Ohm's law with the precise condition of constant temperature, (2) distinguish ohmic from",
+    "id": "gen_c12_phy_ch03_q5",
+    "nodeId": "c12_phy_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Design a simple experiment using a meter bridge (slide wire bridge) to determine the temperature coefficient of resistivity (α) of a copper wire. List the apparatus, procedure, measurements, and the formula you would use to calculate α from the balance lengths at two different temperatures.",
     "sortItems": [
      {
@@ -603,7 +754,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that omits temperature control, uses only one temperature, or ignores the need for a standard resistor reveals lack of experimental design skills.",
-    "id": "gen_c12_phy_ch03_q5",
+    "id": "gen_c12_phy_ch03_q6",
     "nodeId": "c12_phy_cbse_03_004",
     "difficulty": "standard"
    },
@@ -649,7 +800,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that says the linear formula works for all temperatures ignores the physical limits of the approximation.",
-    "id": "gen_c12_phy_ch03_q6",
+    "id": "gen_c12_phy_ch03_q7",
     "nodeId": "c12_phy_cbse_03_004",
     "difficulty": "standard"
    },
@@ -662,9 +813,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C. Step 1: ΔT = T - T_0 = 300°C",
      "Step 1: Decode resistance: brown (1), black (0), red (×100) → R = 10 × 100 = 1000 Ω = 1 kΩ. Tolerance ±5% → R = 1000 ± 50 Ω"
     ],
-    "hint": "Straight from the 'Ohm's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1.2 A or 120 mA) reveals misreading the colour code multiplier or unit conversion error.",
-    "id": "gen_c12_phy_ch03_q7",
+    "id": "gen_c12_phy_ch03_q8",
     "nodeId": "c12_phy_cbse_03_002",
     "difficulty": "standard"
    },
@@ -677,9 +828,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C. Step 1: ΔT = T - T_0 = 300°C",
      "The diode violates all three criteria: (1) V vs I is non-linear (exponential) → limitation (a). (2) Reversing V (say +0"
     ],
-    "hint": "Straight from the 'Ohm's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
     "misconception": "A wrong answer that only cites non-linearity misses the sign-dependence and non-uniqueness, which are explicitly tested in JEE.",
-    "id": "gen_c12_phy_ch03_q8",
+    "id": "gen_c12_phy_ch03_q9",
     "nodeId": "c12_phy_cbse_03_002",
     "difficulty": "standard"
    },
@@ -692,9 +843,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "(a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper). (b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF +",
      "The flaw: R = V/I defines resistance for any conductor (ohmic or non-ohmic); it does not imply R ∝ V"
     ],
-    "hint": "Straight from the 'Ohm's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student cannot distinguish between a definition and a physical law.",
-    "id": "gen_c12_phy_ch03_q9",
+    "id": "gen_c12_phy_ch03_q10",
     "nodeId": "c12_phy_cbse_03_002",
     "difficulty": "standard"
    },
@@ -707,9 +858,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "(i) Curve with positive slope (ρ increases with T) → Material A (metal). Curve with negative slope (ρ decreases with T) → Material B (semiconductor)",
      "Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter; voltmeter across rod. (2) Vary rheostat to get 5–6 readings of V (0–9 V) and I"
     ],
-    "hint": "Straight from the 'Ohm's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
     "misconception": "A poor answer omits the rheostat (no variable V), forgets to check origin passage, or doesn't mention temperature control.",
-    "id": "gen_c12_phy_ch03_q10",
+    "id": "gen_c12_phy_ch03_q11",
     "nodeId": "c12_phy_cbse_03_002",
     "difficulty": "standard"
    },
@@ -718,13 +869,13 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "State Ohm's law in its mathematical form and write the SI unit of resistance. What is the essential condition for a conductor to obey Ohm's law?",
     "answer": "Ohm's law: V = IR, where V is potential difference (volt, V), I is current (ampere, A), R is resistance (ohm, Ω)",
     "options": [
+     "The student can calculate the resistivity or resistance of a material at a given temperature using the linear approximation formula",
      "ρ_T = ρ_0[1 + α(T - T_0)], where ρ_T is resistivity at temperature T, ρ_0 at reference T_0, and α is the temperature coefficient of resistivity",
-     "The flaw: R = V/I defines resistance for any conductor (ohmic or non-ohmic); it does not imply R ∝ V",
      "Ohm's law: V = IR, where V is potential difference (volt, V), I is current (ampere, A), R is resistance (ohm, Ω)"
     ],
-    "hint": "Straight from the 'Ohm's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., missing \"constant temperature\" or giving unit as \"ohm per metre\") reveals the student treats Ohm's law as universally true without conditions, a common Board exam error.",
-    "id": "gen_c12_phy_ch03_q11",
+    "id": "gen_c12_phy_ch03_q12",
     "nodeId": "c12_phy_cbse_03_002",
     "difficulty": "standard"
    },
@@ -737,9 +888,24 @@ export const C12_PHY_GEN: SimDef[] = [
      "Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C. Step 1: ΔT = T - T_0 = 300°C",
      "(a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper). (b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF +"
     ],
-    "hint": "Straight from the 'Ohm's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
     "misconception": "A wrong classification (e.g., calling (b) ohmic) shows the student thinks any straight line implies Ohm's law, ignoring the origin condition.",
-    "id": "gen_c12_phy_ch03_q12",
+    "id": "gen_c12_phy_ch03_q13",
+    "nodeId": "c12_phy_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) state Ohm's law with the precise condition of constant temperature, (2) distinguish ohmic from non-ohmic conductors using V–I graphs",
+    "options": [
+     "Resistivity (ρ) is an intrinsic material property quantifying how strongly a material opposes electric current; its SI unit is ohm-metre (Ω·m)",
+     "The student can calculate the resistivity or resistance of a material at a given temperature using the linear approximation formula",
+     "The student can (1) state Ohm's law with the precise condition of constant temperature, (2) distinguish ohmic from non-ohmic conductors using V–I graphs"
+    ],
+    "hint": "Straight from the 'Ohm's Law' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state Ohm's law with the precise condition of constant temperature, (2) distinguish ohmic from",
+    "id": "gen_c12_phy_ch03_q14",
     "nodeId": "c12_phy_cbse_03_002",
     "difficulty": "standard"
    },
@@ -753,9 +919,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C. Meter 1: ΔT = T - T_0 = 300°C",
      "Given: R_0 = 48.0 Ω at T_0 = 20.0°C, α = 1.70 × 10⁻⁴ °C⁻¹, T = 320°C. Step 1: ΔT = T - T_0 = 300°C"
     ],
-    "hint": "Straight from the 'Resistivity' slide -- match the key terms.",
+    "hint": "Straight from the 'Resistivity is an intrinsic' slide -- match the key terms.",
     "misconception": "A wrong answer like 48.0 + 0.051 = 48.051 Ω reveals forgetting to multiply R_0 by the factor (1+αΔT) and instead adding αΔT directly.",
-    "id": "gen_c12_phy_ch03_q13",
+    "id": "gen_c12_phy_ch03_q15",
     "nodeId": "c12_phy_cbse_03_004",
     "difficulty": "standard"
    },
@@ -768,9 +934,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "The flaw: R = V/I defines resistance for any conductor (ohmic or non-ohmic); it does not imply R ∝ V",
      "The student's method is incorrect because the temperature coefficient α is given per °C, and the formula uses temperature difference ΔT"
     ],
-    "hint": "Straight from the 'Resistivity' slide -- match the key terms.",
+    "hint": "Straight from the 'Resistivity is an intrinsic' slide -- match the key terms.",
     "misconception": "A wrong answer that claims the student is entirely wrong because α must be in °C⁻¹ shows confusion about the equivalence of temperature intervals in Celsius and Kelvin.",
-    "id": "gen_c12_phy_ch03_q14",
+    "id": "gen_c12_phy_ch03_q16",
     "nodeId": "c12_phy_cbse_03_004",
     "difficulty": "standard"
    },
@@ -783,9 +949,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "(a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper). (b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF +",
      "Apparatus: Meter bridge, copper wire (unknown resistor), standard resistance box, galvanometer, battery, thermometer, water bath with heater"
     ],
-    "hint": "Straight from the 'Resistivity' slide -- match the key terms.",
+    "hint": "Straight from the 'Resistivity is an intrinsic' slide -- match the key terms.",
     "misconception": "A poor answer that omits temperature control, uses only one temperature, or ignores the need for a standard resistor reveals lack of experimental design skills.",
-    "id": "gen_c12_phy_ch03_q15",
+    "id": "gen_c12_phy_ch03_q17",
     "nodeId": "c12_phy_cbse_03_004",
     "difficulty": "standard"
    },
@@ -794,42 +960,12 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "Explain why the resistivity of copper increases with temperature while that of silicon decreases, using the microscopic formula ρ = m/(ne²τ). What happens to n and τ in each case as temperature rises?",
     "answer": "In copper (metal), n (free electron density) is almost temperature-independent, but τ (relaxation time) decreases because lattice vibrations increase",
     "options": [
-     "Ohm's law: V = IR, where V is potential difference (volt, V), I is current (ampere, A), R is resistance (ohm, Ω)",
-     "ρ_T = ρ_0[1 + α(T - T_0)], where ρ_T is resistivity at temperature T, ρ_0 at reference T_0, and α is the temperature coefficient of resistivity",
+     "(a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper). (b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF +",
+     "The student can calculate the resistivity or resistance of a material at a given temperature using the linear approximation formula",
      "In copper (metal), n (free electron density) is almost temperature-independent, but τ (relaxation time) decreases because lattice vibrations increase"
     ],
-    "hint": "Straight from the 'Resistivity' slide -- match the key terms.",
+    "hint": "Straight from the 'Resistivity is an intrinsic' slide -- match the key terms.",
     "misconception": "A wrong answer that claims n decreases in metals or τ increases in semiconductors shows a fundamental misunderstanding of the charge carrier dynamics.",
-    "id": "gen_c12_phy_ch03_q16",
-    "nodeId": "c12_phy_cbse_03_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "State the formula for the temperature dependence of resistivity of a metallic conductor over a limited temperature range. Define the temperature coefficient of resistivity (α) and give its SI unit.",
-    "answer": "ρ_T = ρ_0[1 + α(T - T_0)], where ρ_T is resistivity at temperature T, ρ_0 at reference T_0, and α is the temperature coefficient of resistivity",
-    "options": [
-     "Ohm's law: V = IR, where V is potential difference (volt, V), I is current (ampere, A), R is resistance (ohm, Ω)",
-     "The student's method is incorrect because the temperature coefficient α is given per °C, and the formula uses temperature difference ΔT",
-     "ρ_T = ρ_0[1 + α(T - T_0)], where ρ_T is resistivity at temperature T, ρ_0 at reference T_0, and α is the temperature coefficient of resistivity"
-    ],
-    "hint": "Straight from the 'Resistivity' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., writing α = (ρ_T - ρ_0)/ρ_0 without dividing by ΔT, or giving unit as Ω·m) reveals confusion between the coefficient and the fractional change, or between resistivity and its temperature coefficient.",
-    "id": "gen_c12_phy_ch03_q17",
-    "nodeId": "c12_phy_cbse_03_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "The graph below shows resistivity ρ versus temperature T for two materials A and B. Material A is a metal, Material B is a semiconductor. (i) Identify which curve corresponds to which material.",
-    "answer": "(i) Curve with positive slope (ρ increases with T) → Material A (metal). Curve with negative slope (ρ decreases with T) → Material B (semiconductor)",
-    "options": [
-     "The student's method is incorrect because the temperature coefficient α is given per °C, and the formula uses temperature difference ΔT",
-     "(a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper). (b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF +",
-     "(i) Curve with positive slope (ρ increases with T) → Material A (metal). Curve with negative slope (ρ decreases with T) → Material B (semiconductor)"
-    ],
-    "hint": "Straight from the 'Resistivity' slide -- match the key terms.",
-    "misconception": "A wrong answer that says the linear formula works for all temperatures ignores the physical limits of the approximation.",
     "id": "gen_c12_phy_ch03_q18",
     "nodeId": "c12_phy_cbse_03_004",
     "difficulty": "standard"
@@ -837,7 +973,7 @@ export const C12_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about ohm's law states that for?",
+    "What surprised you about ohm's law?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1063,14 +1199,14 @@ export const C12_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_phy_ch09",
-  "title": "Refraction",
+  "title": "Refraction Is The Bending",
   "subtitle": "Physics · Chapter 9",
   "classLevel": 12,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Refraction",
+  "topic": "Refraction Is The Bending",
   "chapters": [
-   "Physics Ch9: Refraction"
+   "Physics Ch9: Refraction Is The Bending"
   ],
   "nodeIds": [
    "c12_phy_cbse_09_003"
@@ -1082,7 +1218,7 @@ export const C12_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Refraction in real working life?",
+   "question": "Who uses Refraction Is The Bending in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1093,7 +1229,7 @@ export const C12_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Refraction",
+    "title": "Refraction Is The Bending",
     "text": "Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed. Snell's law states that for a given pair of media and a given wavelength of light, the ratio of the sine of the angle of",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1166,18 +1302,75 @@ export const C12_PHY_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the correct angles from a ray",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "calculate any one of the four quantities",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "predict whether the ray bends towards or",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "state Snell's law in both forms",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the",
+    "id": "gen_c12_phy_ch09_q3",
+    "nodeId": "c12_phy_cbse_09_003",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A light ray in air (n = 1.00) strikes a glass slab (n = 1.50) at an angle of incidence of 35°. Calculate the angle of refraction inside the glass. Give your answer in degrees to one decimal place.",
     "answer": "Given: n₁ = 1.00, n₂ = 1.50, i = 35°. Using n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°",
     "options": [
      "The calculation gives sin r = (n_A/n_B) sin i = (1.6/1.2) × sin 40° = 1.333 × 0.6428 = 0.857. Then r = sin⁻¹(0",
      "The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1",
-     "Given: n₁ = 1.00, n₂ = 1.50, i = 35°. However n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°",
+     "Given: n₁ = 1.00, n₂ = 1.50, i = 35°. The n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°",
      "Given: n₁ = 1.00, n₂ = 1.50, i = 35°. Using n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°"
     ],
-    "hint": "Straight from the 'Refraction' slide -- match the key terms.",
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
     "misconception": "A wrong answer like 57° or 23.5° (using sin 35° ≈ 0.57 without division) reveals either swapping n₁ and n₂ (sin r = 1.5 × sin 35° = 0.86 → r ≈ 59°) or forgetting to take inverse sine. Unit check: refractive indices are dimensionless, angles in degrees, final answer in degrees.",
-    "id": "gen_c12_phy_ch09_q3",
+    "id": "gen_c12_phy_ch09_q4",
     "nodeId": "c12_phy_cbse_09_003",
     "difficulty": "standard"
    },
@@ -1190,9 +1383,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1",
      "The calculation gives sin r = (n_A/n_B) sin i = (1.6/1.2) × sin 40° = 1.333 × 0.6428 = 0.857. Then r = sin⁻¹(0"
     ],
-    "hint": "Straight from the 'Refraction' slide -- match the key terms.",
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
     "misconception": "If the student had used i = 50°, then sin r > 1, which is impossible, and total internal reflection would occur. A wrong evaluation that says \"60° is impossible because sin r > 1\" reveals the student didn't check the critical angle condition or miscalculated n_A/n_B.",
-    "id": "gen_c12_phy_ch09_q4",
+    "id": "gen_c12_phy_ch09_q5",
     "nodeId": "c12_phy_cbse_09_003",
     "difficulty": "standard"
    },
@@ -1205,9 +1398,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "(1) The plotted line — sin i against sin r falls on a straight line through the origin, and its slope is the relative refractive index of glass with respect to air, about 1",
      "The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1"
     ],
-    "hint": "Straight from the 'Refraction' slide -- match the key terms.",
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
     "misconception": "A student who says \"away from the normal\" incorrectly thinks higher refractive index means faster speed, or confuses optical density with mass density (glass has higher mass density than water, but the reasoning must be based on speed of light/optical density).",
-    "id": "gen_c12_phy_ch09_q5",
+    "id": "gen_c12_phy_ch09_q6",
     "nodeId": "c12_phy_cbse_09_003",
     "difficulty": "standard"
    },
@@ -1220,9 +1413,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1",
      "(1) The plotted line — sin i against sin r falls on a straight line through the origin, and its slope is the relative refractive index of glass with respect to air, about 1"
     ],
-    "hint": "Straight from the 'Refraction' slide -- match the key terms.",
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
     "misconception": "A student who says the slope is always the glass-to-air index regardless of axes does not understand the reciprocal relationship between relative refractive indices.",
-    "id": "gen_c12_phy_ch09_q6",
+    "id": "gen_c12_phy_ch09_q7",
     "nodeId": "c12_phy_cbse_09_003",
     "difficulty": "standard"
    },
@@ -1231,25 +1424,56 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "State Snell's law of refraction in terms of the absolute refractive indices of the two media and the angles of incidence and refraction. Define each symbol and its SI unit.",
     "answer": "Snell's law: n₁ sin i = n₂ sin r. Here n₁ = absolute refractive index of medium 1 (dimensionless), n₂ = absolute refractive index of medium 2 (dimensionless)",
     "options": [
-     "The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1",
-     "Given: n₁ = 1.00, n₂ = 1.50, i = 35°. Using n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°",
+     "Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed",
+     "The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the correct angles from a ray diagram",
      "Snell's law: n₁ sin i = n₂ sin r. Here n₁ = absolute refractive index of medium 1 (dimensionless), n₂ = absolute refractive index of medium 2 (dimensionless)"
     ],
-    "hint": "Straight from the 'Refraction' slide -- match the key terms.",
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., writing sin i / sin r = n₁/n₂ or swapping n₁ and n₂) reveals confusion about which medium's refractive index multiplies which angle. The correct form follows from n = c/v and the fact that the tangential component of the wave vector is continuous across the boundary.",
-    "id": "gen_c12_phy_ch09_q7",
+    "id": "gen_c12_phy_ch09_q8",
+    "nodeId": "c12_phy_cbse_09_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Refraction? State the definition given in this lesson.",
+    "answer": "Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed",
+    "options": [
+     "The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the correct angles from a ray diagram",
+     "Snell's law: n₁ sin i = n₂ sin r. Here n₁ = absolute refractive index of medium 1 (dimensionless), n₂ = absolute refractive index of medium 2 (dimensionless)",
+     "Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed"
+    ],
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a",
+    "id": "gen_c12_phy_ch09_q9",
+    "nodeId": "c12_phy_cbse_09_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the correct angles from a ray diagram",
+    "options": [
+     "Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed",
+     "Snell's law: n₁ sin i = n₂ sin r. Here n₁ = absolute refractive index of medium 1 (dimensionless), n₂ = absolute refractive index of medium 2 (dimensionless)",
+     "The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the correct angles from a ray diagram"
+    ],
+    "hint": "Straight from the 'Refraction is the bending' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the",
+    "id": "gen_c12_phy_ch09_q10",
     "nodeId": "c12_phy_cbse_09_003",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about refraction?",
+    "What surprised you about refraction is the bending?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Refraction mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "successLine": "Refraction Is The Bending mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_phy_ch10",
@@ -1290,7 +1514,7 @@ export const C12_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Polarization",
+    "title": "Polarization of Light: Malus's Law",
     "text": "Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane perpendicular to the direction of propagation.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500",
@@ -1632,8 +1856,8 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "Evaluate the following statement: \"Two independent laser pointers of the same wavelength (650 nm) can produce a stable interference pattern on a screen because lasers are highly coherent sources.\" Identify the error and explain the correct physics.",
     "answer": "The statement is FALSE. Even though each laser has high temporal coherence (narrow linewidth), two INDEPENDENT lasers have no fixed phase relationship",
     "options": [
-     "Malus's law: The intensity of plane-polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between the polarization direction of",
-     "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis",
+     "Student can derive the condition for constructive and destructive interference from path difference",
+     "(1) Coherence — yes, the forks are coherent because they share the same frequency and were struck simultaneously",
      "The statement is FALSE. Even though each laser has high temporal coherence (narrow linewidth), two INDEPENDENT lasers have no fixed phase relationship"
     ],
     "hint": "Straight from the 'Coherent sources' slide -- match the key terms.",
@@ -1664,7 +1888,6 @@ export const C12_PHY_GEN: SimDef[] = [
     "options": [
      "Yes, central fringe shifts. The mica introduces additional optical path = (μ - 1)t = (1.58 - 1) × 2 × 10⁻⁶ = 1",
      "Possible reasons: (1) The polaroids are not ideal — they absorb some light even for the transmitted component (absorption loss)",
-     "Given: λ = 600 nm, Δx = 450 nm, I₀ = 4 W/m². Step difference φ = (2π/λ) × Δx = (2π/600) × 450 = 1",
      "Given: λ = 600 nm, Δx = 450 nm, I₀ = 4 W/m². Phase difference φ = (2π/λ) × Δx = (2π/600) × 450 = 1"
     ],
     "hint": "Straight from the 'Coherent sources' slide -- match the key terms.",
@@ -1690,6 +1913,51 @@ export const C12_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Coherent sources?",
+    "answer": "Students believe that \"monochromatic\" and \"coherent\" are synonymous — they think any single-colour light (like a sodium lamp or red LED) is automatically coherent and will",
+    "options": [
+     "They confuse the angle in Malus's law (which is between the polarization direction of the *incident polarized light* and the analyzer's pass-axis) with an absolute orientation",
+     "Student can derive the condition for constructive and destructive interference from path difference",
+     "Students believe that \"monochromatic\" and \"coherent\" are synonymous — they think any single-colour light (like a sodium lamp or red LED) is automatically coherent and will"
+    ],
+    "hint": "Straight from the 'Coherent sources' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe that \"monochromatic\" and \"coherent\" are synonymous — they think any single-colour light (like a sodium",
+    "id": "gen_c12_phy_ch10_q13",
+    "nodeId": "c12_phy_cbse_10_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Coherent sources? State the definition given in this lesson.",
+    "answer": "Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency",
+    "options": [
+     "Malus's law: The intensity of plane-polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between the polarization direction of",
+     "Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane perpendicular to the direction of",
+     "Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency"
+    ],
+    "hint": "Straight from the 'Coherent sources' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency,",
+    "id": "gen_c12_phy_ch10_q14",
+    "nodeId": "c12_phy_cbse_10_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can derive the condition for constructive and destructive interference from path difference",
+    "options": [
+     "They confuse the angle in Malus's law (which is between the polarization direction of the *incident polarized light* and the analyzer's pass-axis) with an absolute orientation",
+     "Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency",
+     "Student can derive the condition for constructive and destructive interference from path difference"
+    ],
+    "hint": "Straight from the 'Coherent sources' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can derive the condition for constructive and destructive interference from path difference, calculate",
+    "id": "gen_c12_phy_ch10_q15",
+    "nodeId": "c12_phy_cbse_10_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A beam of plane-polarized light of intensity \\(I_0\\) is incident on a polaroid whose pass-axis makes an angle \\(\\theta\\) with the polarization direction. The transmitted beam then passes through a second identical polaroid whose pass-axis is at an angle \\(\\phi\\) relative to the first polaroid.",
     "answer": "After first polaroid: \\(I_1 = I_0 \\cos^2\\theta\\) (polarized along first polaroid's axis). After second polaroid: \\(I_2 = I_1 \\cos^2\\phi = I_0 \\cos^2\\theta \\cos^2\\phi\\)",
     "options": [
@@ -1697,9 +1965,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis",
      "After first polaroid: \\(I_1 = I_0 \\cos^2\\theta\\) (polarized along first polaroid's axis). After second polaroid: \\(I_2 = I_1 \\cos^2\\phi = I_0 \\cos^2\\theta \\cos^2\\phi\\)"
     ],
-    "hint": "Straight from the 'Polarization' slide -- match the key terms.",
+    "hint": "Straight from the 'Polarization is the phenomenon of' slide -- match the key terms.",
     "misconception": "A wrong answer that gives maximum at \\(\\theta = \\phi = 45^\\circ\\) shows confusion between the angle of the first polaroid relative to the incident polarization and the angle between the two polaroids.",
-    "id": "gen_c12_phy_ch10_q13",
+    "id": "gen_c12_phy_ch10_q16",
     "nodeId": "c12_phy_cbse_10_008",
     "difficulty": "advanced"
    },
@@ -1712,9 +1980,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "After first polaroid: \\(I_1 = I_0 \\cos^2\\theta\\) (polarized along first polaroid's axis). After second polaroid: \\(I_2 = I_1 \\cos^2\\phi = I_0 \\cos^2\\theta \\cos^2\\phi\\)",
      "(1) Setup — face the torch at the phone's light sensor, fix the first polaroid in front of the torch, and hold the second polaroid between the first and the sensor, (2) Data"
     ],
-    "hint": "Straight from the 'Polarization' slide -- match the key terms.",
+    "hint": "Straight from the 'Polarization is the phenomenon of' slide -- match the key terms.",
     "misconception": "A poor answer omits background subtraction, angle calibration or the unpolarised check, missing the experimental controls.",
-    "id": "gen_c12_phy_ch10_q14",
+    "id": "gen_c12_phy_ch10_q17",
     "nodeId": "c12_phy_cbse_10_008",
     "difficulty": "advanced"
    },
@@ -1727,53 +1995,8 @@ export const C12_PHY_GEN: SimDef[] = [
      "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis",
      "Possible reasons: (1) The polaroids are not ideal — they absorb some light even for the transmitted component (absorption loss)"
     ],
-    "hint": "Straight from the 'Polarization' slide -- match the key terms.",
+    "hint": "Straight from the 'Polarization is the phenomenon of' slide -- match the key terms.",
     "misconception": "A student who blames only \"experimental error\" without specifying the physical limitation of the polaroid material shows lack of understanding of real-world polarizer imperfections.",
-    "id": "gen_c12_phy_ch10_q15",
-    "nodeId": "c12_phy_cbse_10_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "State Malus's law in words and give the mathematical formula with SI units for each quantity. What is the transmitted intensity when the angle between the pass-axes is 60° if the incident polarized intensity is 10 W/m²?",
-    "answer": "Malus's law: The intensity of plane-polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between the polarization direction of",
-    "options": [
-     "(1) Coherence — yes, the forks are coherent because they share the same frequency and were struck simultaneously",
-     "Yes, central fringe shifts. The mica introduces additional optical path = (μ - 1)t = (1.58 - 1) × 2 × 10⁻⁶ = 1",
-     "Malus's law: The intensity of plane-polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between the polarization direction of"
-    ],
-    "hint": "Straight from the 'Polarization' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., using \\(\\cos\\theta\\) instead of \\(\\cos^2\\theta\\) or forgetting to square) reveals the student does not understand the vector component projection: the electric field amplitude is reduced by \\(\\cos\\theta\\), so intensity (proportional to amplitude squared) goes as \\(\\cos^2\\theta\\).",
-    "id": "gen_c12_phy_ch10_q16",
-    "nodeId": "c12_phy_cbse_10_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Two polaroids P1 and P2 are crossed (pass-axes at 90°). A third polaroid P3 is inserted between them with its pass-axis at 45° to both P1 and P2. If unpolarized light of intensity 32 W/m² is incident on P1, calculate the intensity emerging from P2. Show all steps with units.",
-    "answer": "Step 1: Unpolarized light on P1 → transmitted intensity \\(I_1 = \\frac{1}{2} \\times 32 = 16\\ \\text{W/m}^2\\) (polarized along P1)",
-    "options": [
-     "White light LED emits a broad spectrum (Δλ ≈ 30 nm). Each wavelength produces its own fringe pattern with slightly different fringe spacing (β ∝ λ)",
-     "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis",
-     "Step 1: Unpolarized light on P1 → transmitted intensity \\(I_1 = \\frac{1}{2} \\times 32 = 16\\ \\text{W/m}^2\\) (polarized along P1)"
-    ],
-    "hint": "Straight from the 'Polarization' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., 0 W/m² because P1 and P2 are crossed) reveals the student does not realize that inserting a third polaroid at an intermediate angle allows transmission by rotating the polarization direction stepwise. This is a classic JEE trap.",
-    "id": "gen_c12_phy_ch10_q17",
-    "nodeId": "c12_phy_cbse_10_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Unpolarized light of intensity \\(I_{\\text{inc}}\\) falls on a polaroid P1. The transmitted light then passes through a second polaroid P2 whose pass-axis is at 30° to that of P1.",
-    "answer": "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis",
-    "options": [
-     "After first polaroid: \\(I_1 = I_0 \\cos^2\\theta\\) (polarized along first polaroid's axis). After second polaroid: \\(I_2 = I_1 \\cos^2\\phi = I_0 \\cos^2\\theta \\cos^2\\phi\\)",
-     "(1) Setup — face the torch at the phone's light sensor, fix the first polaroid in front of the torch, and hold the second polaroid between the first and the sensor, (2) Data",
-     "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis"
-    ],
-    "hint": "Straight from the 'Polarization' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component",
     "id": "gen_c12_phy_ch10_q18",
     "nodeId": "c12_phy_cbse_10_008",
     "difficulty": "advanced"
@@ -1850,6 +2073,52 @@ export const C12_PHY_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "apply the inequality to estimate minimum",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain why the principle arises",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "state the principle in words and write",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum",
+    "id": "gen_c12_phy_ch11_q2",
+    "nodeId": "c12_phy_cbse_11_006",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student argues: \"The uncertainty principle is just because our measuring instruments disturb the particle. If we had perfect instruments, we could measure both position and momentum exactly.\" Explain why this reasoning is incorrect, using the concept of a matter wave packet.",
     "answer": "The principle is fundamental, not instrumental. A particle is represented by a wave packet (superposition of waves)",
@@ -1860,7 +2129,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student confuses the observer effect (disturbance) with the intrinsic quantum indeterminacy.",
-    "id": "gen_c12_phy_ch11_q2",
+    "id": "gen_c12_phy_ch11_q3",
     "nodeId": "c12_phy_cbse_11_006",
     "difficulty": "standard"
    },
@@ -1875,7 +2144,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the common misconception that Δt is the time taken to perform the energy measurement, confusing it with the position-momentum case where Δx, Δp are standard deviations of simultaneous measurements.",
-    "id": "gen_c12_phy_ch11_q3",
+    "id": "gen_c12_phy_ch11_q4",
     "nodeId": "c12_phy_cbse_11_006",
     "difficulty": "standard"
    },
@@ -1890,7 +2159,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., using h instead of ħ/2, forgetting the factor 2, or unit conversion error nm→m) shows the student cannot correctly apply the inequality with the precise constant and unit handling.",
-    "id": "gen_c12_phy_ch11_q4",
+    "id": "gen_c12_phy_ch11_q5",
     "nodeId": "c12_phy_cbse_11_006",
     "difficulty": "standard"
    },
@@ -1905,7 +2174,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., claiming both are significant, or not linking to mass) shows the student does not grasp the scaling with mass and why quantum effects are invisible at everyday scales.",
-    "id": "gen_c12_phy_ch11_q5",
+    "id": "gen_c12_phy_ch11_q6",
     "nodeId": "c12_phy_cbse_11_006",
     "difficulty": "standard"
    },
@@ -1920,7 +2189,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
     "misconception": "A poor answer shows the student cannot translate the abstract principle into a concrete wave-diffraction picture.",
-    "id": "gen_c12_phy_ch11_q6",
+    "id": "gen_c12_phy_ch11_q7",
     "nodeId": "c12_phy_cbse_11_006",
     "difficulty": "standard"
    },
@@ -1929,13 +2198,43 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "State Heisenberg's Uncertainty Principle for position and momentum, giving the exact mathematical inequality with the reduced Planck constant ħ. What are the SI units of Δx and Δp?",
     "answer": "Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. Δx is in metres (m), Δp is in kg·m/s",
     "options": [
-     "Pass a beam of electrons through a single slit of width a. The slit localises the electron in the transverse direction: Δx ≈ a",
-     "Step 1: Δx = 0.10 nm = 1.0 × 10⁻¹⁰ m. Step 2: Minimum Δp = ħ/(2Δx) = (1.055 × 10⁻³⁴) / (2 × 1.0 × 10⁻¹⁰) = 5",
+     "The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum and energy-time",
+     "Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (x) and exact momentum (p) of a particle",
      "Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. Δx is in metres (m), Δp is in kg·m/s"
     ],
     "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., Δx Δp ≥ h, or using h instead of ħ/2, or omitting the factor 1/2) reveals the student has memorised an approximate or incorrect form and does not know the precise lower bound from the standard deviation definition used in quantum mechanics.",
-    "id": "gen_c12_phy_ch11_q7",
+    "id": "gen_c12_phy_ch11_q8",
+    "nodeId": "c12_phy_cbse_11_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Heisenberg's Uncertainty Principle states that it? State the definition given in this lesson.",
+    "answer": "Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (x) and exact momentum (p) of a particle",
+    "options": [
+     "The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum and energy-time",
+     "Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. Δx is in metres (m), Δp is in kg·m/s",
+     "Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (x) and exact momentum (p) of a particle"
+    ],
+    "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact",
+    "id": "gen_c12_phy_ch11_q9",
+    "nodeId": "c12_phy_cbse_11_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum and energy-time",
+    "options": [
+     "Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (x) and exact momentum (p) of a particle",
+     "Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. Δx is in metres (m), Δp is in kg·m/s",
+     "The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum and energy-time"
+    ],
+    "hint": "Straight from the 'Heisenberg's Uncertainty' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum",
+    "id": "gen_c12_phy_ch11_q10",
     "nodeId": "c12_phy_cbse_11_006",
     "difficulty": "standard"
    }
@@ -1947,7 +2246,8 @@ export const C12_PHY_GEN: SimDef[] = [
    ]
   },
   "successLine": "Heisenberg's Uncertainty mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_phy_ch12",
@@ -1957,7 +2257,9 @@ export const C12_PHY_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "physics",
   "topic": "Rutherford's Nuclear Model Of The Atom",
-  "chapters": ["Physics Ch12: Rutherford's Nuclear Model Of The Atom"],
+  "chapters": [
+   "Physics Ch12: Rutherford's Nuclear Model Of The Atom"
+  ],
   "nodeIds": [
    "c12_phy_cbse_12_001"
   ],
@@ -2098,6 +2400,52 @@ export const C12_PHY_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe the Geiger-Marsden experimental",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "calculate the upper limit on nuclear size",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "derive the distance of closest approach",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact",
+    "id": "gen_c12_phy_ch12_q4",
+    "nodeId": "c12_phy_cbse_12_001",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student claims: \"Rutherford's model explains why atoms are stable because the electrostatic attraction between the nucleus and electrons provides the centripetal force for circular orbits, just like gravity keeps planets in orbit.\" Evaluate this statement. Is the student correct? Why or why not?",
     "answer": "The student is incorrect. While it is true that the Coulomb force provides the centripetal force (Fe = Fc) for a *classical* circular orbit",
@@ -2108,7 +2456,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Rutherford's nuclear model of the' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"yes, it's stable like the solar system\") reveals the student has not grasped the fundamental difference between gravitational and electromagnetic forces: orbiting charges radiate; orbiting masses do not (in Newtonian gravity).",
-    "id": "gen_c12_phy_ch12_q4",
+    "id": "gen_c12_phy_ch12_q5",
     "nodeId": "c12_phy_cbse_12_001",
     "difficulty": "standard"
    },
@@ -2123,7 +2471,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Rutherford's nuclear model of the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., forgetting the factor 2 for α-particle charge, or using Z=1 for gold, or unit errors in MeV→J) reveals the student is not tracking the charge product (2e)(Ze) or is careless with energy unit conversion — a frequent JEE trap.",
-    "id": "gen_c12_phy_ch12_q5",
+    "id": "gen_c12_phy_ch12_q6",
     "nodeId": "c12_phy_cbse_12_001",
     "difficulty": "standard"
    },
@@ -2133,12 +2481,12 @@ export const C12_PHY_GEN: SimDef[] = [
     "answer": "The impact parameter *b* is the perpendicular distance from the nucleus to the initial velocity vector of the α-particle",
     "options": [
      "Step 1: Atomic diameter ≈ 2 × 1.4 × 10⁻¹⁰ m = 2.8 × 10⁻¹⁰ m. Step 2: Number of layers = foil thickness / atomic diameter = (2",
-     "(1) Observation one — most alpha particles passed straight through the gold foil with little or no deflection, showing the atom is mostly empty space, (2) Observation two",
+     "The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact parameter, scattering angle, distance of closest approach)",
      "The impact parameter *b* is the perpendicular distance from the nucleus to the initial velocity vector of the α-particle"
     ],
     "hint": "Straight from the 'Rutherford's nuclear model of the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"larger *b* gives larger θ\" or \"θ is independent of *b*\") reveals the student has not visualized the hyperbolic trajectory in a repulsive 1/r² force field.",
-    "id": "gen_c12_phy_ch12_q6",
+    "id": "gen_c12_phy_ch12_q7",
     "nodeId": "c12_phy_cbse_12_001",
     "difficulty": "standard"
    },
@@ -2147,13 +2495,13 @@ export const C12_PHY_GEN: SimDef[] = [
     "question": "State the two key experimental observations from the Geiger-Marsden alpha-scattering experiment that contradicted Thomson's plum pudding model.",
     "answer": "(1) Observation one — most alpha particles passed straight through the gold foil with little or no deflection, showing the atom is mostly empty space, (2) Observation two",
     "options": [
+     "The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact parameter, scattering angle, distance of closest approach)",
      "The impact parameter *b* is the perpendicular distance from the nucleus to the initial velocity vector of the α-particle",
-     "The student is incorrect. While it is true that the Coulomb force provides the centripetal force (Fe = Fc) for a *classical* circular orbit",
      "(1) Observation one — most alpha particles passed straight through the gold foil with little or no deflection, showing the atom is mostly empty space, (2) Observation two"
     ],
     "hint": "Straight from the 'Rutherford's nuclear model of the' slide -- match the key terms.",
     "misconception": "A wrong answer such as saying the particles were absorbed, or that all were deflected slightly, confuses Rutherford's result with the plum-pudding model's prediction of only small deflections from diffuse charge.",
-    "id": "gen_c12_phy_ch12_q7",
+    "id": "gen_c12_phy_ch12_q8",
     "nodeId": "c12_phy_cbse_12_001",
     "difficulty": "standard"
    },
@@ -2168,19 +2516,35 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Rutherford's nuclear model of the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"thin foil reduces absorption\" or \"multiple scattering increases large-angle events\") reveals the student confuses scattering with absorption or misunderstands that multiple small-angle scatterings can mimic a single large-angle event, corrupting the nuclear size inference.",
-    "id": "gen_c12_phy_ch12_q8",
+    "id": "gen_c12_phy_ch12_q9",
+    "nodeId": "c12_phy_cbse_12_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact parameter, scattering angle, distance of closest approach)",
+    "options": [
+     "(1) Observation one — most alpha particles passed straight through the gold foil with little or no deflection, showing the atom is mostly empty space, (2) Observation two",
+     "Step 1: Identify givens: K = 7.7 MeV = 7.7 × 10⁶ eV = 7.7 × 10⁶ × 1.6 × 10⁻¹⁹ J = 1.232 × 10⁻¹² J. Z = 79, charge of α-particle = 2e",
+     "The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact parameter, scattering angle, distance of closest approach)"
+    ],
+    "hint": "Straight from the 'Rutherford's nuclear model of the' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact",
+    "id": "gen_c12_phy_ch12_q10",
     "nodeId": "c12_phy_cbse_12_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about rutherford's nuclear model of the?",
+    "What surprised you about rutherford's nuclear model of the atom?",
     "Which challenge was hardest -- and why?"
    ]
   },
   "successLine": "Rutherford's Nuclear Model mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them."
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  },
  {
   "id": "gen_c12_phy_ch13",
@@ -2395,6 +2759,52 @@ export const C12_PHY_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why high temperatures",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "calculate the Q-value of a fusion reaction",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "write balanced nuclear equations",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) write balanced nuclear equations for the proton-proton cycle and other fusion reactions (e.",
+    "id": "gen_c12_phy_ch13_q6",
+    "nodeId": "c12_phy_cbse_13_005",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A nuclide has 26 protons and 30 neutrons. Write its nuclide symbol. If its atomic mass is 55.934939 u, calculate its mass defect in u using proton mass = 1.00727 u and neutron mass = 1.00866 u. (Do not convert to kg or energy yet.)",
     "answer": "Nuclide symbol: \\(^{56}_{26} Fe\\). Mass of constituents = 26 × 1.00727 u + 30 × 1.00866 u = 26.18902 u + 30",
@@ -2403,9 +2813,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc)",
      "Nuclide symbol: \\(^{56}_{26} Fe\\). Mass of constituents = 26 × 1.00727 u + 30 × 1.00866 u = 26.18902 u + 30"
     ],
-    "hint": "Straight from the 'atomic number  of an element' slide -- match the key terms.",
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., using electron mass, or subtracting in reverse order) shows confusion about what constitutes the nucleus (protons + neutrons only) and the definition of mass defect (constituents minus actual nucleus).",
-    "id": "gen_c12_phy_ch13_q6",
+    "id": "gen_c12_phy_ch13_q7",
     "nodeId": "c12_phy_cbse_13_001",
     "difficulty": "standard"
    },
@@ -2418,9 +2828,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "(1) Pair one — carbon-14 and nitrogen-14 are isobars, sharing the mass number fourteen with different atomic numbers, (2) Pair two",
      "The statement is incorrect. Mass number (A) is an integer: the total number of protons plus neutrons in a specific nucleus"
     ],
-    "hint": "Straight from the 'atomic number  of an element' slide -- match the key terms.",
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is incorrect. Mass number (A) is an integer: the total number of protons plus neutrons in a specific",
-    "id": "gen_c12_phy_ch13_q7",
+    "id": "gen_c12_phy_ch13_q8",
     "nodeId": "c12_phy_cbse_13_001",
     "difficulty": "standard"
    },
@@ -2433,9 +2843,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "The statement is incorrect. Mass number (A) is an integer: the total number of protons plus neutrons in a specific nucleus",
      "(1) Pair one — carbon-14 and nitrogen-14 are isobars, sharing the mass number fourteen with different atomic numbers, (2) Pair two"
     ],
-    "hint": "Straight from the 'atomic number  of an element' slide -- match the key terms.",
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
     "misconception": "A wrong answer such as calling the first pair isotopes matches only one parameter without checking the other.",
-    "id": "gen_c12_phy_ch13_q8",
+    "id": "gen_c12_phy_ch13_q9",
     "nodeId": "c12_phy_cbse_13_001",
     "difficulty": "standard"
    },
@@ -2448,9 +2858,9 @@ export const C12_PHY_GEN: SimDef[] = [
      "Coulomb barrier height U = (1/4πε₀) (e² / r) with r = 4.0 fm (sum of radii). U = (9×10⁹ N·m²/C²) × (1",
      "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc)"
     ],
-    "hint": "Straight from the 'atomic number  of an element' slide -- match the key terms.",
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N.",
-    "id": "gen_c12_phy_ch13_q9",
+    "id": "gen_c12_phy_ch13_q10",
     "nodeId": "c12_phy_cbse_13_001",
     "difficulty": "standard"
    },
@@ -2460,12 +2870,12 @@ export const C12_PHY_GEN: SimDef[] = [
     "answer": "Chlorine exists as two stable isotopes: \\(^{35}_{17} Cl\\) (75.4% abundance, mass ≈ 34.98 u) and \\(^{37}_{17} Cl\\) (24",
     "options": [
      "Fusion occurs because a small fraction of protons in the high-energy tail of the Maxwell-Boltzmann distribution have energies comparable to the barrier height",
-     "The statement is incorrect. Mass number (A) is an integer: the total number of protons plus neutrons in a specific nucleus",
+     "The student can also distinguish between isotopes, isobars, and isotones with examples",
      "Chlorine exists as two stable isotopes: \\(^{35}_{17} Cl\\) (75.4% abundance, mass ≈ 34.98 u) and \\(^{37}_{17} Cl\\) (24"
     ],
-    "hint": "Straight from the 'atomic number  of an element' slide -- match the key terms.",
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"chlorine atoms have fractional neutrons\") reveals the misconception that atomic mass is the mass of a single atom rather than an average over a natural sample.",
-    "id": "gen_c12_phy_ch13_q10",
+    "id": "gen_c12_phy_ch13_q11",
     "nodeId": "c12_phy_cbse_13_001",
     "difficulty": "standard"
    },
@@ -2475,12 +2885,27 @@ export const C12_PHY_GEN: SimDef[] = [
     "answer": "Atomic mass unit (u) = 1/12th the mass of a carbon-12 atom = 1.660539 × 10⁻²⁷ kg. For \\(^{23}_{11} Na\\): atomic number Z = 11, mass number A = 23",
     "options": [
      "The net reaction is 4¹₁H → ⁴₂He + 2e⁺ + 2νₑ + 26.7 MeV (or equivalently 4 protons → helium-4 + 2 positrons + 2 electron neutrinos + gamma photons)",
-     "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc)",
+     "The student can (1) write balanced nuclear equations for the proton-proton cycle and other fusion reactions (e",
      "Atomic mass unit (u) = 1/12th the mass of a carbon-12 atom = 1.660539 × 10⁻²⁷ kg. For \\(^{23}_{11} Na\\): atomic number Z = 11, mass number A = 23"
     ],
-    "hint": "Straight from the 'atomic number  of an element' slide -- match the key terms.",
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing u with kg, or swapping Z and A) reveals the student has not internalized the definition of u or the nuclide notation convention (superscript = A, subscript = Z).",
-    "id": "gen_c12_phy_ch13_q11",
+    "id": "gen_c12_phy_ch13_q12",
+    "nodeId": "c12_phy_cbse_13_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can also distinguish between isotopes, isobars, and isotones with examples",
+    "options": [
+     "The net reaction is 4¹₁H → ⁴₂He + 2e⁺ + 2νₑ + 26.7 MeV (or equivalently 4 protons → helium-4 + 2 positrons + 2 electron neutrinos + gamma photons)",
+     "Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus",
+     "The student can also distinguish between isotopes, isobars, and isotones with examples"
+    ],
+    "hint": "Straight from the 'atomic number of an element' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can also distinguish between isotopes, isobars, and isotones with examples.",
+    "id": "gen_c12_phy_ch13_q13",
     "nodeId": "c12_phy_cbse_13_001",
     "difficulty": "standard"
    },
@@ -2495,7 +2920,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Nuclear fusion' slide -- match the key terms.",
     "misconception": "A wrong evaluation that agrees with the student shows confusion between energy per reaction and reaction rate; the student fails to see that the net energy is the sum of all steps, and the rate-limiting step controls the total power output.",
-    "id": "gen_c12_phy_ch13_q12",
+    "id": "gen_c12_phy_ch13_q14",
     "nodeId": "c12_phy_cbse_13_005",
     "difficulty": "standard"
    },
@@ -2506,12 +2931,12 @@ export const C12_PHY_GEN: SimDef[] = [
     "options": [
      "Nuclide symbol: \\(^{56}_{26} Fe\\). Mass of constituents = 26 × 1.00727 u + 30 × 1.00866 u = 26.18902 u + 30",
      "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc)",
-     "Step 1: Sun's total mass = 2 × 2.014102 u = 4.028204 u. Step 2: Final total mass = 3.016029 u + 1",
+     "Step 1: Create total mass = 2 × 2.014102 u = 4.028204 u. Step 2: Final total mass = 3.016029 u + 1",
      "Step 1: Initial total mass = 2 × 2.014102 u = 4.028204 u. Step 2: Final total mass = 3.016029 u + 1"
     ],
     "hint": "Straight from the 'Nuclear fusion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 3.27 MeV but with sign error, or using nuclear masses instead of atomic masses without accounting for electrons) reveals confusion about whether atomic masses include electrons and how to handle them in Q-value calculations.",
-    "id": "gen_c12_phy_ch13_q13",
+    "id": "gen_c12_phy_ch13_q15",
     "nodeId": "c12_phy_cbse_13_005",
     "difficulty": "standard"
    },
@@ -2526,7 +2951,7 @@ export const C12_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Nuclear fusion' slide -- match the key terms.",
     "misconception": "A wrong answer claiming fission yields more, or getting the factor wrong by orders of magnitude, indicates the student cannot convert MeV per reaction to J/kg using Avogadro's number or atomic mass unit conversion — a critical skill for competitive exams.",
-    "id": "gen_c12_phy_ch13_q14",
+    "id": "gen_c12_phy_ch13_q16",
     "nodeId": "c12_phy_cbse_13_005",
     "difficulty": "standard"
    },
@@ -2537,42 +2962,26 @@ export const C12_PHY_GEN: SimDef[] = [
     "options": [
      "Nuclide symbol: \\(^{56}_{26} Fe\\). Mass of constituents = 26 × 1.00727 u + 30 × 1.00866 u = 26.18902 u + 30",
      "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc)",
-     "Ca barrier height U = (1/4πε₀) (e² / r) with r = 4.0 fm (sum of radii). U = (9×10⁹ N·m²/C²) × (1",
      "Coulomb barrier height U = (1/4πε₀) (e² / r) with r = 4.0 fm (sum of radii). U = (9×10⁹ N·m²/C²) × (1"
     ],
     "hint": "Straight from the 'Nuclear fusion' slide -- match the key terms.",
     "misconception": "A poor answer that gets T ≈ 10⁷ K reveals the student used the wrong distance (e.g., 2 fm instead of 4 fm) or forgot the factor of 3/2, indicating a lack of care in unit handling and physical modeling.",
-    "id": "gen_c12_phy_ch13_q15",
+    "id": "gen_c12_phy_ch13_q17",
     "nodeId": "c12_phy_cbse_13_005",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "What is the net nuclear reaction of the proton-proton (p-p) cycle in the Sun, and how much energy is released per helium-4 nucleus formed?",
-    "answer": "The net reaction is 4¹₁H → ⁴₂He + 2e⁺ + 2νₑ + 26.7 MeV (or equivalently 4 protons → helium-4 + 2 positrons + 2 electron neutrinos + gamma photons)",
+    "question": "What is Nuclear fusion? State the definition given in this lesson.",
+    "answer": "Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus",
     "options": [
      "Atomic mass unit (u) = 1/12th the mass of a carbon-12 atom = 1.660539 × 10⁻²⁷ kg. For \\(^{23}_{11} Na\\): atomic number Z = 11, mass number A = 23",
-     "The statement is misleading. While the first step releases only 0.42 MeV, it is the bottleneck (slowest step) that determines the overall rate of the cycle",
-     "The net reaction is 4¹₁H → ⁴₂He + 2e⁺ + 2νₑ + 26.7 MeV (or equivalently 4 protons → helium-4 + 2 positrons + 2 electron neutrinos + gamma photons)"
+     "The student can also distinguish between isotopes, isobars, and isotones with examples",
+     "Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus"
     ],
     "hint": "Straight from the 'Nuclear fusion' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., writing 2 protons → deuteron + 0.42 MeV as the net reaction) reveals confusion between an individual step and the overall cycle; the student has not grasped that the first three steps must occur twice to provide two ³He nuclei for the final step.",
-    "id": "gen_c12_phy_ch13_q16",
-    "nodeId": "c12_phy_cbse_13_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why must the temperature in the Sun's core be high (~1.5×10⁷ K) for fusion to occur, even though the average kinetic energy at this temperature (≈1.3 keV) is far below the Coulomb barrier height for two protons (~400 keV)?",
-    "answer": "Fusion occurs because a small fraction of protons in the high-energy tail of the Maxwell-Boltzmann distribution have energies comparable to the barrier height",
-    "options": [
-     "Chlorine exists as two stable isotopes: \\(^{35}_{17} Cl\\) (75.4% abundance, mass ≈ 34.98 u) and \\(^{37}_{17} Cl\\) (24",
-     "Fusion of deuterium: 3.27 MeV per reaction consuming 2 deuterons (≈4 u). Energy per kg = (3.27 MeV / 4 u) × (1 u / 1",
-     "Fusion occurs because a small fraction of protons in the high-energy tail of the Maxwell-Boltzmann distribution have energies comparable to the barrier height"
-    ],
-    "hint": "Straight from the 'Nuclear fusion' slide -- match the key terms.",
-    "misconception": "A wrong answer stating \"average kinetic energy must exceed the barrier\" shows a misunderstanding of statistical mechanics and quantum tunneling; the student treats the plasma as if all particles have the same energy.",
-    "id": "gen_c12_phy_ch13_q17",
+    "misconception": "Recheck the lesson slide -- the key claim is: Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus, releasing",
+    "id": "gen_c12_phy_ch13_q18",
     "nodeId": "c12_phy_cbse_13_005",
     "difficulty": "standard"
    }

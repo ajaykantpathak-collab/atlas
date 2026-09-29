@@ -11,7 +11,7 @@ export const w_c11_biotechnologysignificancemitosismeiosissim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Significance of Mitosis: Growth and Repair',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_05_004', 'c11_biotech_cbse_05_003', 'c11_biotech_cbse_05_006', 'c11_biotech_cbse_05_002', 'c11_biotech_cbse_05_007', 'c11_biotech_cbse_05_001', 'c11_biotech_cbse_05_005', 'c11_biotech_cbse_05_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a deep cut on your finger — within days, the skin knits back together seamlessly.', goal: 'Master Significance of Mitosis: Growth and Repair.' },
     discovery: {
         question: 'State the chromosome number and DNA content (C-value) of each daughter cell immediately after mitosis and cytokinesis in a human somatic cell that started G1.',
@@ -20,7 +20,7 @@ export const w_c11_biotechnologysignificancemitosismeiosissim: SimDef = {
         hook: 'Students often think "growth by mitosis" means cells just get bigger (hypertrophy) or that repair uses a special.',
     },
     teaching: [
-        { title: 'Mitosis is the equational division of a.', text: 'Mitosis is the equational division of a eukaryotic somatic cell that produces two genetically identical daughter cells, each with the same chromosome number (2n) and DNA content (2C) as the parent.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mitosis is the equational division of a.', text: 'Mitosis is the equational division of a eukaryotic somatic cell that produces two genetically identical daughter cells, each with the same chromosome number (2n) and DNA content (2C) as the parent.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_05_004', title: 'Mitosis is the equational division of a.',

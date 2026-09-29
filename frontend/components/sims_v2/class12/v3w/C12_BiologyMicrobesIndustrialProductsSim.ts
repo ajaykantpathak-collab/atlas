@@ -11,7 +11,7 @@ export const w_c12_biologymicrobesindustrialproductssim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Microbes in Household Products: Curd, Cheese, Bread',
     chapters: [],
     nodeIds: ['c12_bio_cbse_10_001', 'c12_bio_cbse_10_002', 'c12_bio_cbse_10_003', 'c12_bio_cbse_10_007', 'c12_bio_cbse_10_004', 'c12_bio_cbse_10_006', 'c12_bio_cbse_10_005', 'c12_bio_cbse_10_008', 'c12_bio_cbse_11_001', 'c12_bio_cbse_11_008', 'c12_bio_cbse_09_005', 'c12_bio_cbse_09_008', 'c12_bio_cbse_12_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Think about the last time you saw your mother set curd overnight — a spoonful of yesterday\'s curd mixed into.', goal: 'Master Microbes in Household Products: Curd, Cheese, Bread.' },
     discovery: {
         question: 'A winemaker observes that fermentation stops at 12% ABV (alcohol by volume) even though residual sugar remains.',
@@ -20,7 +20,7 @@ export const w_c12_biologymicrobesindustrialproductssim: SimDef = {
         hook: 'Students believe that "yeast produces alcohol as a waste product it wants to get rid of" — anthropomorphising.',
     },
     teaching: [
-        { title: 'Microbes in household products refer to the.', text: 'Microbes in household products refer to the beneficial microorganisms (bacteria, fungi, yeast) intentionally used in everyday food preparation to transform raw substrates into nutritionally enhanced,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Microbes in household products refer to the.', text: 'Microbes in household products refer to the beneficial microorganisms (bacteria, fungi, yeast) intentionally used in everyday food preparation to transform raw substrates into nutritionally enhanced,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_10_001', title: 'Microbes in household products refer to.',

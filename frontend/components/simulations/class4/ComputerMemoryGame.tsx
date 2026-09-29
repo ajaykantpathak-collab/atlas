@@ -224,7 +224,7 @@ function TechieTina({ mood, speaking }: { mood: MascotMood; speaking: string | n
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-500"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-500"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -328,7 +328,7 @@ interface SortCardProps {
 function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: SortCardProps) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-300 ${placed ? 'opacity-40' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[10px] font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>
@@ -374,14 +374,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Data vs Information! 📊",
     text: "Data is raw facts and numbers without context, like test marks 90, 80, 70. Information is processed and organised data with meaning, like a report card with student names!",
     emoji: "📊",
-    bgColor: "from-indigo-600 to-blue-600",
+    bgColor: "from-gold-600 to-gold-600",
     spoken: "Data is raw facts and numbers without context, like test marks. Information is processed and organised data with meaning, like a report card!",
   },
   {
     title: "Data Storage Units! 💾",
     text: "Computers measure data storage using special units! A bit is the smallest unit (0 or 1). 8 bits make 1 byte. Then come KB, MB, GB, and TB from smallest to largest!",
     emoji: "💾",
-    bgColor: "from-blue-600 to-cyan-600",
+    bgColor: "from-gold-600 to-gold-600",
     spoken: "Computers measure data storage using special units! A bit is the smallest unit. Eight bits make one byte. Then come kilobyte, megabyte, gigabyte, and terabyte!",
   },
   {
@@ -395,14 +395,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "ROM — Startup Memory! 🔒",
     text: "ROM (Read Only Memory) is non-volatile. It keeps its data safe forever without electricity! It stores the permanent startup instructions called the BIOS.",
     emoji: "🔒",
-    bgColor: "from-purple-600 to-indigo-600",
+    bgColor: "from-purple-600 to-gold-600",
     spoken: "ROM is non-volatile memory. It keeps its data safe forever without electricity and stores permanent startup instructions called the BIOS.",
   },
   {
     title: "Storage Devices & Cloud! ☁️",
     text: "Hard disks (HDD), Solid State Drives (SSD), USB flash drives, CDs, DVDs, and cloud storage keep our files safe for the long term. Cloud storage lives on the Internet!",
     emoji: "☁️",
-    bgColor: "from-cyan-600 to-blue-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "Hard disks, solid state drives, USB flash drives, CDs, DVDs, and cloud storage keep our files safe. Cloud storage lives on the Internet!",
   },
 ];
@@ -736,7 +736,7 @@ export function ComputerMemoryGame({ width = 720, height = 560, onComplete }: Co
           <StarRow count={Math.floor(score / 15)} total={8} />
         </div>
         <div className="flex items-center gap-4">
-          <span className="text-sm font-bold text-cyan-400">Score: {score}</span>
+          <span className="text-sm font-bold text-gold-400">Score: {score}</span>
           {screen === 'play' && (
             <button
               onClick={handleShowHint}
@@ -776,7 +776,7 @@ export function ComputerMemoryGame({ width = 720, height = 560, onComplete }: Co
 
             <div className="flex gap-2">
               {TEACHING_SLIDES.map((_, i) => (
-                <div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-cyan-400 w-6' : 'bg-slate-600'}`} />
+                <div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-gold-400 w-6' : 'bg-slate-600'}`} />
               ))}
             </div>
 
@@ -790,7 +790,7 @@ export function ComputerMemoryGame({ width = 720, height = 560, onComplete }: Co
                   audioManager.play('success');
                 }
               }}
-              className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-extrabold px-6 py-2.5 rounded-2xl shadow-lg transition"
+              className="bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-extrabold px-6 py-2.5 rounded-2xl shadow-lg transition"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
             </button>
@@ -802,7 +802,7 @@ export function ComputerMemoryGame({ width = 720, height = 560, onComplete }: Co
       {screen === 'play' && (
         <div className="absolute inset-0 pt-16 px-6 pb-6 flex flex-col items-center justify-between z-10">
           <div className="w-full max-w-2xl bg-slate-800/90 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-slate-700 mt-2 text-center">
-            <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
             <h2 className="text-lg font-extrabold text-white mt-1">{currentChallenge.question}</h2>
           </div>
 

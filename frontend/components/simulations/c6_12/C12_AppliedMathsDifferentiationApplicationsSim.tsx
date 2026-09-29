@@ -73,10 +73,10 @@ export function C12_AppliedMathsDifferentiationApplicationsSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 12 Applied Maths - Differentiation and Its Applications</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Applied Maths - Differentiation and Its Applications</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Tangent Slope Explorer: watch f&apos;(x) ride the curve</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300">Derivative Lab</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Derivative Lab</span>
       </header>
 
       {/* CONTROLS */}
@@ -84,15 +84,15 @@ export function C12_AppliedMathsDifferentiationApplicationsSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Point x (click the graph too)</span>
-            <span className="text-indigo-300 font-mono font-bold">{x0.toFixed(1)}</span>
+            <span className="text-gold-300 font-mono font-bold">{x0.toFixed(1)}</span>
           </label>
           <input type="range" min={X_MIN} max={X_MAX} step={0.1} value={x0} aria-label="x coordinate of point"
-            onChange={(e) => setX0(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setX0(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="flex gap-2">
           {FNS.map((v) => (
             <button key={v.id} onClick={() => setFnId(v.id)} className={`flex-1 min-h-11 px-2 rounded-2xl text-[11px] font-mono font-bold border transition-all ${
-              fnId === v.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
+              fnId === v.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
               {v.label}
             </button>
           ))}
@@ -131,16 +131,16 @@ export function C12_AppliedMathsDifferentiationApplicationsSim() {
         </div>
 
         <div className="md:col-span-2 bg-slate-900 rounded-2xl border border-slate-800 p-4 space-y-2">
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Live values at x = {x0.toFixed(1)}</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Live values at x = {x0.toFixed(1)}</p>
           <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-sm font-mono space-y-1">
-            <p>f(x) = <span className="text-indigo-300 font-bold">{f0.toFixed(2)}</span></p>
+            <p>f(x) = <span className="text-gold-300 font-bold">{f0.toFixed(2)}</span></p>
             <p>f&apos;(x) = slope = <span className="text-emerald-300 font-bold">{d0.toFixed(2)}</span> (rise per unit x)</p>
             <p>f&apos;&apos;(x) = <span className="text-amber-300 font-bold">{dd0.toFixed(2)}</span></p>
           </div>
           <div className={`p-3 rounded-xl text-xs font-bold border ${d0 > 0 ? 'bg-emerald-950/60 border-emerald-700 text-emerald-300' : d0 < 0 ? 'bg-rose-950/60 border-rose-700 text-rose-300' : 'bg-slate-950 border-slate-700 text-slate-300'}`}>
             {d0 > 0 ? 'f is INCREASING here (slope positive)' : d0 < 0 ? 'f is DECREASING here (slope negative)' : 'Stationary point: slope is zero'}
           </div>
-          <div className={`p-3 rounded-xl text-xs font-bold border ${dd0 > 0 ? 'bg-sky-950/60 border-sky-700 text-sky-300' : 'bg-violet-950/60 border-violet-700 text-violet-300'}`}>
+          <div className={`p-3 rounded-xl text-xs font-bold border ${dd0 > 0 ? 'bg-gold-950/60 border-gold-700 text-gold-300' : 'bg-gold-950/60 border-gold-700 text-gold-300'}`}>
             {dd0 > 0 ? 'Curve bends upward: concave UP (min can live here)' : dd0 < 0 ? 'Curve bends downward: concave DOWN (max can live here)' : 'Straight line: constant slope'}
           </div>
           <p className="text-xs text-slate-400">
@@ -150,7 +150,7 @@ export function C12_AppliedMathsDifferentiationApplicationsSim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Slide x slowly from 0 to 6 on the cubic. Find the x where slope = 0 -- that is your local maximum; check that f&apos;&apos;(x) is negative there.</p>
         <p className="mt-1">2. Switch to the quadratic, set x = 4 and read the slope. Now drag to x = 2 and x = 6 -- why does the sign flip at exactly 4?</p>

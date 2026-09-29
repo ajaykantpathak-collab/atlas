@@ -145,7 +145,7 @@ export default function CircularFlow3D({ c, i, g, x, m }: CircularFlow3DProps) {
         <OrbitControls enablePan={false} minDistance={9} maxDistance={22} />
       </Canvas>
       <div className="pointer-events-none absolute left-3 top-3 rounded-lg border border-white/10 bg-slate-900/80 px-2.5 py-1.5">
-        <p className="text-[9px] font-black uppercase tracking-widest text-sky-300">drag to orbit · scroll to zoom</p>
+        <p className="text-[9px] font-black uppercase tracking-widest text-gold-300">drag to orbit · scroll to zoom</p>
       </div>
     </div>
   )

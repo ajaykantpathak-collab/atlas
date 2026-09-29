@@ -11,7 +11,7 @@ export const w_c6_mathematicsperimeterandareasim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Perimeter',
     chapters: [],
     nodeIds: ['c6_math_ch08_085', 'c6_math_ch08_086', 'c6_math_ch08_090', 'c6_math_ch07_073', 'c6_math_ch08_087', 'c6_math_ch08_088', 'c6_math_ch08_092', 'c6_math_ch07_074', 'c6_math_ch07_077'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to put a decorative lace around your rectangular notebook cover.', goal: 'Master Introduction to Perimeter.' },
     discovery: {
         question: 'If you have a wire of length 20 cm, why does bending it into different rectangular shapes change the area but keep the perimeter the same?',
@@ -20,7 +20,7 @@ export const w_c6_mathematicsperimeterandareasim: SimDef = {
         hook: 'Students often confuse "perimeter" and "area" because they both involve length and width.',
     },
     teaching: [
-        { title: 'Perimeter is the total length of the.', text: 'Perimeter is the total length of the boundary surrounding a closed 2D shape. It represents the distance you would travel if you walked exactly once along the entire edge of a figure.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Perimeter is the total length of the.', text: 'Perimeter is the total length of the boundary surrounding a closed 2D shape. It represents the distance you would travel if you walked exactly once along the entire edge of a figure.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch08_085', title: 'Perimeter is the total length of the.',

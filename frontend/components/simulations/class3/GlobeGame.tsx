@@ -59,35 +59,35 @@ const TEACHING_SLIDES = [
     title: 'The Globe — Model of Earth 🌍',
     text: 'A globe is a small spherical model of the Earth. Because the Earth is too huge to see all at once, a globe shrinks it down so we can study continents and oceans in proportion!',
     emoji: '🌍',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'A globe is a small spherical model of the Earth. Because the Earth is too huge to see all at once, a globe shrinks it down so we can study continents and oceans in proportion!',
   },
   {
     title: 'Shape and Size of Earth 🌐',
     text: 'The Earth is shaped like a sphere — slightly flattened at the poles and bulging at the equator. It is about 12,742 kilometres across and 40,000 kilometres around!',
     emoji: '🌐',
-    bgColor: 'from-cyan-500 to-blue-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'The Earth is shaped like a sphere, slightly flattened at the poles and bulging at the equator. It is about 12,742 kilometres across and 40,000 kilometres around!',
   },
   {
     title: 'Land and Water 🌊',
     text: 'The Earth is called the blue planet because about two-thirds of its surface is covered with water (oceans), while one-third is land (continents like Asia and Africa)!',
     emoji: '🌊',
-    bgColor: 'from-teal-500 to-cyan-600',
+    bgColor: 'from-teal-500 to-gold-600',
     spoken: 'The Earth is called the blue planet because about two-thirds of its surface is covered with water, while one-third is land!',
   },
   {
     title: 'Axis and Equator 🧭',
     text: 'A tilted rod passing through the globe is the axis, representing the line Earth spins on. The equator is the imaginary belt around the middle dividing Northern and Southern hemispheres!',
     emoji: '🧭',
-    bgColor: 'from-indigo-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'A tilted rod passing through the globe is the axis, representing the line Earth spins on. The equator is the imaginary belt around the middle!',
   },
   {
     title: 'Globe vs. Flat Map 🗺️',
     text: 'A globe shows the true round shape of Earth without stretching. Flat maps are easy to carry and show details, but they always distort some parts of the Earth!',
     emoji: '🗺️',
-    bgColor: 'from-blue-600 to-teal-600',
+    bgColor: 'from-gold-600 to-teal-600',
     spoken: 'A globe shows the true round shape of Earth without stretching. Flat maps are easy to carry and show details, but they distort some parts!',
   },
 ];
@@ -230,7 +230,7 @@ function GeetaMascot({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thinki
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-300"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -547,7 +547,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-blue-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[10px] font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>
@@ -812,12 +812,12 @@ export function GlobeGame({ width = 720, height = 560, onComplete }: GlobeGamePr
       {/* Top Header Bar */}
       <div className="absolute top-0 left-0 right-0 h-14 bg-black/40 backdrop-blur-md px-6 flex items-center justify-between z-10 border-b border-white/10">
         <div className="flex items-center gap-3">
-          <div className="bg-blue-600 text-white rounded-xl px-3 py-1 font-black text-sm shadow-inner flex items-center gap-1.5">
+          <div className="bg-gold-600 text-white rounded-xl px-3 py-1 font-black text-sm shadow-inner flex items-center gap-1.5">
             <GlobeIcon size={20} />
             <span>GLOBE & EARTH</span>
           </div>
           {screen === 'play' && (
-            <span className="text-xs font-bold text-blue-200">
+            <span className="text-xs font-bold text-gold-200">
               Challenge {challengeIdx + 1} of {CHALLENGES.length}
             </span>
           )}
@@ -905,7 +905,7 @@ export function GlobeGame({ width = 720, height = 560, onComplete }: GlobeGamePr
             key={challengeIdx}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-blue-300 text-center mb-4 mt-2"
+            className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-300 text-center mb-4 mt-2"
           >
             <h3 className="text-lg font-black text-gray-800">{currentChallenge.question}</h3>
           </motion.div>
@@ -919,10 +919,10 @@ export function GlobeGame({ width = 720, height = 560, onComplete }: GlobeGamePr
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleOptionClick(option)}
-                  className="w-full bg-white hover:bg-blue-50 text-gray-800 font-bold py-3.5 px-6 rounded-2xl shadow-lg border-2 border-blue-200 text-left flex items-center justify-between transition-all"
+                  className="w-full bg-white hover:bg-gold-50 text-gray-800 font-bold py-3.5 px-6 rounded-2xl shadow-lg border-2 border-gold-200 text-left flex items-center justify-between transition-all"
                 >
                   <span>{option}</span>
-                  <div className="w-7 h-7 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-black text-xs">
+                  <div className="w-7 h-7 rounded-full bg-gold-100 flex items-center justify-center text-gold-600 font-black text-xs">
                     {['A', 'B', 'C'][idx]}
                   </div>
                 </motion.button>

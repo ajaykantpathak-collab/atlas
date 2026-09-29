@@ -11,7 +11,7 @@ export const w_c11_businessstudiespublicprivatecompaniessim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Documents for Incorporation: Memorandum of Association (MoA)',
     chapters: [],
     nodeIds: ['c11_bs_cbse_07_004', 'c11_bs_cbse_07_007', 'c11_bs_cbse_07_008', 'c11_bs_cbse_03_001', 'c11_bs_cbse_03_005', 'c11_bs_cbse_03_006', 'c11_bs_cbse_03_010', 'c11_bs_cbse_03_007', 'c11_bs_cbse_02_008', 'c11_bs_cbse_02_009', 'c11_bs_cbse_02_011', 'c11_bs_cbse_03_002', 'c11_bs_cbse_03_003', 'c11_bs_cbse_03_004', 'c11_bs_cbse_04_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a promoter, Avtar, who has invented a fuel-efficient carburettor and wants to incorporate.', goal: 'Master Documents for Incorporation: Memorandum of Association (MoA).' },
     discovery: {
         question: 'A public company files a prospectus and receives applications for 85% of the issue size.',
@@ -20,7 +20,7 @@ export const w_c11_businessstudiespublicprivatecompaniessim: SimDef = {
         hook: 'Students often believe that "minimum subscription achieved = automatic allotment" and forget the stock exchange listing.',
     },
     teaching: [
-        { title: 'The Memorandum of Association (MoA) is the.', text: 'The Memorandum of Association (MoA) is the charter document of a company that defines its constitution, objectives, and the scope of its operations.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Memorandum of Association (MoA) is the.', text: 'The Memorandum of Association (MoA) is the charter document of a company that defines its constitution, objectives, and the scope of its operations.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_07_004', title: 'The Memorandum of Association (MoA) is.',

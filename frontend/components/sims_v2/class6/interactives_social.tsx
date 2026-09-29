@@ -28,12 +28,12 @@ export function GrowthTimeline() {
     return (
         <div className="flex flex-col items-center gap-4 p-4">
             <div className="text-lg font-bold text-gray-700">Place life stages on the growth timeline! 📈</div>
-            <div className="relative w-full max-w-lg h-32 bg-blue-50 rounded-2xl border-4 border-blue-200"
+            <div className="relative w-full max-w-lg h-32 bg-gold-50 rounded-2xl border-4 border-gold-200"
                 onClick={(e) => {
                     const rect = e.currentTarget.getBoundingClientRect();
                     handleClick(((e.clientX - rect.left) / rect.width) * 100);
                 }}>
-                <div className="absolute top-1/2 left-0 right-0 h-2 bg-blue-300 rounded-full" />
+                <div className="absolute top-1/2 left-0 right-0 h-2 bg-gold-300 rounded-full" />
                 {stages.filter(s => placed[s.id]).map(s => (
                     <div key={s.id} className="absolute flex flex-col items-center" style={{ left: `${s.x}%`, top: '20%', transform: 'translateX(-50%)' }}>
                         <span className="text-3xl">{s.emoji}</span>
@@ -49,7 +49,7 @@ export function GrowthTimeline() {
             <div className="flex flex-wrap gap-2 justify-center">
                 {stages.filter(s => !placed[s.id]).map(s => (
                     <button key={s.id} onClick={() => setSelected(s.id)}
-                        className={`px-3 py-2 rounded-xl font-bold text-sm shadow ${selected === s.id ? 'bg-blue-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
+                        className={`px-3 py-2 rounded-xl font-bold text-sm shadow ${selected === s.id ? 'bg-gold-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
                         {s.emoji} {s.label}
                     </button>
                 ))}
@@ -120,7 +120,7 @@ export function DiversityWeb() {
     const [selAttr, setSelAttr] = useState<{ person: string; type: 'lang' | 'food' | 'festival' } | null>(null);
 
     const categories = [
-        { type: 'lang' as const, label: 'Language', color: 'bg-blue-500' },
+        { type: 'lang' as const, label: 'Language', color: 'bg-gold-500' },
         { type: 'food' as const, label: 'Food', color: 'bg-amber-500' },
         { type: 'festival' as const, label: 'Festival', color: 'bg-purple-500' },
     ];
@@ -146,7 +146,7 @@ export function DiversityWeb() {
             <div className="flex flex-wrap gap-2 justify-center">
                 {people.map(p => (
                     <button key={p.id} onClick={() => setSelPerson(p.id)}
-                        className={`px-3 py-1.5 rounded-lg text-sm font-bold ${selPerson === p.id ? 'bg-blue-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
+                        className={`px-3 py-1.5 rounded-lg text-sm font-bold ${selPerson === p.id ? 'bg-gold-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
                         {p.emoji} {p.name}
                     </button>
                 ))}
@@ -182,7 +182,7 @@ export function InfrastructureBuilder() {
         { id: 'dam', text: 'Dam', sector: 'energy', emoji: '🏞️' },
     ];
     const sectors = [
-        { id: 'transport', label: 'Transport', color: 'bg-blue-500' },
+        { id: 'transport', label: 'Transport', color: 'bg-gold-500' },
         { id: 'education', label: 'Education', color: 'bg-emerald-500' },
         { id: 'health', label: 'Health', color: 'bg-red-500' },
         { id: 'energy', label: 'Energy', color: 'bg-amber-500' },
@@ -257,7 +257,7 @@ export function BankingFlow() {
                     const s = steps.find(x => x.order === order)!;
                     return (
                         <motion.div key={order} initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }}
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl bg-blue-500 text-white font-bold shadow">
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl bg-gold-500 text-white font-bold shadow">
                             <span className="w-8 h-8 rounded-full bg-white/30 flex items-center justify-center">{order}</span>
                             <span className="text-2xl">{s.emoji}</span>
                             <span className="text-sm">{s.text}</span>
@@ -307,7 +307,7 @@ export function MarketMatch() {
                     {transactions.filter(t => !matched[t.id]).map(t => (
                         <button key={t.id} onClick={() => setSelBuyer(t.id)}
                             className={`w-full px-3 py-2 rounded-xl font-bold text-sm shadow text-left
-                                ${selBuyer === t.id ? 'bg-blue-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
+                                ${selBuyer === t.id ? 'bg-gold-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
                             {t.emoji} {t.buyer}
                         </button>
                     ))}
@@ -345,7 +345,7 @@ export function EconomyRoleSorter() {
     ];
     const types = [
         { id: 'production', label: 'Production', color: 'bg-emerald-500' },
-        { id: 'regulation', label: 'Regulation', color: 'bg-blue-500' },
+        { id: 'regulation', label: 'Regulation', color: 'bg-gold-500' },
         { id: 'redistribution', label: 'Redistribution', color: 'bg-amber-500' },
     ];
     const [placed, setPlaced] = useState<Record<string, string>>({});
@@ -404,8 +404,8 @@ export function ClimateZoneMapper() {
     const climates = [
         { id: 'desert', label: 'Desert (hot, dry)', color: 'bg-amber-600', emoji: '🏜️' },
         { id: 'tropical', label: 'Tropical (hot, wet)', color: 'bg-emerald-500', emoji: '🌴' },
-        { id: 'mountain', label: 'Mountain (cold, dry)', color: 'bg-sky-500', emoji: '🏔️' },
-        { id: 'coastal', label: 'Coastal (humid, mild)', color: 'bg-blue-500', emoji: '🌊' },
+        { id: 'mountain', label: 'Mountain (cold, dry)', color: 'bg-gold-500', emoji: '🏔️' },
+        { id: 'coastal', label: 'Coastal (humid, mild)', color: 'bg-gold-500', emoji: '🌊' },
         { id: 'continental', label: 'Continental (extreme)', color: 'bg-orange-500', emoji: '🏙️' },
     ];
     const [placed, setPlaced] = useState<Record<string, string>>({});

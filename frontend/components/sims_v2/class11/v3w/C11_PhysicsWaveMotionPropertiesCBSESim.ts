@@ -11,7 +11,7 @@ export const w_c11_physicswavemotionpropertiescbsesim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Speed of Wave: Formula',
     chapters: [],
     nodeIds: ['c11_phy_cbse_14_002', 'c11_phy_cbse_14_004', 'c11_phy_cbse_14_001', 'c11_phy_cbse_14_010', 'c11_phy_cbse_14_011', 'c11_phy_cbse_14_005', 'c11_phy_cbse_14_006', 'c11_phy_cbse_14_007', 'c11_phy_cbse_14_008', 'c11_phy_cbse_14_009', 'c11_phy_cbse_14_012', 'c11_phy_cbse_04_001', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_011', 'c11_phy_cbse_06_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Watch a guitar string being plucked - the disturbance travels along the string at a definite speed.', goal: 'Master Speed of Wave: Formula.' },
     discovery: {
         question: 'A transverse wave travels on a stretched string with speed v. If the tension is doubled while keeping the linear mass density constant, what happens to the.',
@@ -20,7 +20,7 @@ export const w_c11_physicswavemotionpropertiescbsesim: SimDef = {
         hook: 'Students believe wave speed depends on frequency or amplitude because they confuse v = λν (where λ and ν can vary) with.',
     },
     teaching: [
-        { title: 'The speed of a travelling wave is the rate.', text: 'The speed of a travelling wave is the rate at which a particular phase point (such as a crest or trough) propagates through a medium, given by v = ω/k = λν = λ/T, where ω is angular frequency, k is.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The speed of a travelling wave is the rate.', text: 'The speed of a travelling wave is the rate at which a particular phase point (such as a crest or trough) propagates through a medium, given by v = ω/k = λν = λ/T, where ω is angular frequency, k is.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_14_002', title: 'The speed of a travelling wave is the.',

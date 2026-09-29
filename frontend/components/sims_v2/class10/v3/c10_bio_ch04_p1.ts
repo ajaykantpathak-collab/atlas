@@ -6,7 +6,7 @@ export const c10_bio_ch04_p1: SimDef = {
     id: 'v3_c10_bio_ch04_p1',
     title: 'Heredity and Evolution',
     subtitle: 'Why you have your grandmother\'s eyes — and how small changes over millennia built every species alive.',
-    classLevel: 10, subject: 'biology', topic: 'Heredity and Evolution · Part 1/2',
+    classLevel: 10, subject: 'biology', topic: 'Heredity and Evolution',
     chapters: ['c10_bio_ch04'],
     nodeIds: ['c10_bio_cbse_04_001', 'c10_bio_cbse_04_002', 'c10_bio_cbse_04_003', 'c10_bio_cbse_04_004', 'c10_bio_cbse_04_005', 'c10_bio_cbse_04_006'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

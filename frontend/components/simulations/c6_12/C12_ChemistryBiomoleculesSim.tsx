@@ -87,9 +87,9 @@ export function C12_ChemistryBiomoleculesSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700">🍬</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🍬</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 12 Chemistry -- Biomolecules</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 Chemistry -- Biomolecules</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Invert Sugar: Watching the Polarimeter Needle Flip Sign</h1>
         </div>
       </div>
@@ -127,12 +127,12 @@ export function C12_ChemistryBiomoleculesSim() {
           <div className="flex h-6 rounded-lg overflow-hidden border border-slate-700 text-[10px] font-bold text-slate-950">
             <div className="bg-slate-400 flex items-center justify-center transition-all duration-150" style={{ width: `${mSuc}%` }}>{mSuc > 12 ? `sucrose ${mSuc.toFixed(0)}%` : ''}</div>
             <div className="bg-amber-400 flex items-center justify-center transition-all duration-150" style={{ width: `${mGlu}%` }}>{mGlu > 12 ? `glucose` : ''}</div>
-            <div className="bg-violet-400 flex items-center justify-center transition-all duration-150" style={{ width: `${100 - mSuc - mGlu}%` }}>{100 - mSuc - mGlu > 12 ? `fructose` : ''}</div>
+            <div className="bg-gold-400 flex items-center justify-center transition-all duration-150" style={{ width: `${100 - mSuc - mGlu}%` }}>{100 - mSuc - mGlu > 12 ? `fructose` : ''}</div>
           </div>
 
           <div className="flex h-4 rounded-full border border-slate-700 relative">
             <div className="absolute inset-y-0 left-0 rounded-l-full bg-gradient-to-r from-amber-500/70 to-rose-500/70 transition-all duration-150" style={{ width: '76.1%' }} />
-            <div className="absolute inset-y-0 left-[76.1%] right-0 rounded-r-full bg-gradient-to-r from-sky-500/70 to-violet-500/70" />
+            <div className="absolute inset-y-0 left-[76.1%] right-0 rounded-r-full bg-gradient-to-r from-gold-500/70 to-gold-500/70" />
             <div className="absolute inset-y-[-4px] w-0.5 bg-emerald-400 left-[76.1%]" />
             <div className="absolute inset-y-[-2px] w-1 rounded bg-white transition-all duration-150" style={{ left: `calc(${(x * 100).toFixed(1)}% - 2px)` }} />
           </div>
@@ -141,7 +141,7 @@ export function C12_ChemistryBiomoleculesSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs">
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800 col-span-2">
               <p className="text-[10px] text-slate-500">Mixture rotation [α]<sub>D</sub></p>
-              <p className={`font-mono text-xl font-bold ${alpha > 0.5 ? 'text-amber-300' : alpha < -0.5 ? 'text-sky-300' : 'text-emerald-300'}`}>{alpha >= 0 ? '+' : ''}{alpha.toFixed(1)}°</p>
+              <p className={`font-mono text-xl font-bold ${alpha > 0.5 ? 'text-amber-300' : alpha < -0.5 ? 'text-gold-300' : 'text-emerald-300'}`}>{alpha >= 0 ? '+' : ''}{alpha.toFixed(1)}°</p>
             </div>
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Sign</p>
@@ -149,7 +149,7 @@ export function C12_ChemistryBiomoleculesSim() {
             </div>
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Hydrolysed</p>
-              <p className="font-mono font-bold text-violet-300">{(x * 100).toFixed(1)} %</p>
+              <p className="font-mono font-bold text-gold-300">{(x * 100).toFixed(1)} %</p>
             </div>
             <div className="bg-slate-900/60 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Half-life</p>
@@ -168,7 +168,7 @@ export function C12_ChemistryBiomoleculesSim() {
             <div>
               <p className="text-[11px] text-slate-400 mb-1">Catalyst</p>
               <div className="grid grid-cols-2 gap-2">
-                <button onClick={() => setEnzyme(false)} className={`min-h-11 rounded-xl text-xs font-bold ${!enzyme ? 'bg-violet-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>Acid (H⁺)</button>
+                <button onClick={() => setEnzyme(false)} className={`min-h-11 rounded-xl text-xs font-bold ${!enzyme ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>Acid (H⁺)</button>
                 <button onClick={() => setEnzyme(true)} className={`min-h-11 rounded-xl text-xs font-bold ${enzyme ? 'bg-emerald-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>Invertase</button>
               </div>
               {denatured && <p className="text-[10px] text-rose-400 mt-1">Above 45 °C the enzyme is denatured -- its catalysis is dead.</p>}
@@ -176,10 +176,10 @@ export function C12_ChemistryBiomoleculesSim() {
             <div className={enzyme ? 'opacity-40' : ''}>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Acid concentration</span>
-                <span className="font-mono font-bold text-violet-400">{acidM.toFixed(1)} mol/L</span>
+                <span className="font-mono font-bold text-gold-400">{acidM.toFixed(1)} mol/L</span>
               </div>
               <input type="range" min={0.1} max={2} step={0.1} value={acidM} aria-label="acid concentration" disabled={enzyme}
-                onChange={(e) => setAcidM(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setAcidM(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

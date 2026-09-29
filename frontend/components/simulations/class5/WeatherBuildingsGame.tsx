@@ -31,7 +31,7 @@ const TEACHING_SLIDES = [
     title: "Weather & Climate ☀️",
     text: "Weather is the day-to-day condition of the atmosphere (sunny, rainy, windy). Climate is the average weather over 30+ years. Weather elements include temperature (thermometer, °C), rainfall (rain gauge, mm), wind, humidity, and sunshine. Weather affects what we wear and do each day!",
     emoji: "🌤️",
-    bgColor: "from-sky-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Weather is what happens day to day, while climate is the long-term pattern over many years. We measure temperature with a thermometer and rainfall with a rain gauge!"
   },
   {
@@ -59,7 +59,7 @@ const TEACHING_SLIDES = [
     title: "Buildings in the Locality 🏫",
     text: "Community buildings serve our daily needs: school for education, health centre/hospital for medical care, post office for letters and parcels, police station for safety, bank for money, and market for goods. We can draw simple maps of our locality using symbols to show where these buildings stand near roads and homes!",
     emoji: "🏥",
-    bgColor: "from-purple-400 to-indigo-600",
+    bgColor: "from-purple-400 to-gold-600",
     spoken: "Schools teach us, hospitals heal us, post offices keep us connected, and banks keep our money safe. We can draw simple maps to show where these buildings are in our community!"
   },
 ];
@@ -683,7 +683,7 @@ export function WeatherBuildingsGame({ width = 720, height = 560, onComplete }: 
 
   return (
     <div
-      className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl border-4 border-amber-300 bg-gradient-to-b from-sky-300 to-emerald-400 flex flex-col justify-between"
+      className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl border-4 border-amber-300 bg-gradient-to-b from-gold-300 to-emerald-400 flex flex-col justify-between"
       style={{ width, height }}
     >
       <CommunityScene width={width} height={height} />

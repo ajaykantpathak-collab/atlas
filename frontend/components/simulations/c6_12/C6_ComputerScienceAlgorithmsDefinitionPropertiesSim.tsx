@@ -1221,15 +1221,15 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-5 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 ICSE Class 6 • {subjectConfig.name}
               </span>
-              <span className="px-2 py-0.5 text-[10px] font-semibold bg-indigo-900/60 text-indigo-300 rounded-full border border-indigo-700">
+              <span className="px-2 py-0.5 text-[10px] font-semibold bg-gold-900/60 text-gold-300 rounded-full border border-gold-700">
                 CISCE 2026 Aligned
               </span>
             </div>
@@ -1269,8 +1269,8 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 mt-2 leading-relaxed text-sm sm:text-base">{SCENARIO.intro}</p>
@@ -1326,7 +1326,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full sm:w-auto px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1352,7 +1352,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                 }}
                 className={`px-3 py-2 rounded-xl text-xs font-bold transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                 }`}
               >
@@ -1370,7 +1370,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-extrabold uppercase tracking-widest text-indigo-400">
+                <span className="text-xs font-extrabold uppercase tracking-widest text-gold-400">
                   Interactive Investigation • Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-xl font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1382,7 +1382,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                 <div className="space-y-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {/* SVG DIAGRAM 1: Memory Swap Architecture */}
                   <div className="w-full flex flex-col items-center">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                       Figure 1: Memory Register Swap Execution Diagram
                     </span>
                     <svg viewBox="0 0 540 180" className="w-full max-w-lg bg-slate-900/80 rounded-xl p-2 border border-slate-800">
@@ -1423,17 +1423,17 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Swap Section */}
                     <div className="space-y-4">
-                      <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+                      <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                         <span>🔄</span> Memory Swap Step Controller
                       </h4>
                       <div className="p-3 bg-slate-900/80 rounded-xl text-xs space-y-1">
-                        <p className={swapStep === 0 ? 'text-indigo-300 font-bold' : 'text-slate-500'}>
+                        <p className={swapStep === 0 ? 'text-gold-300 font-bold' : 'text-slate-500'}>
                           Step 1: T = A (Store {varA} in T)
                         </p>
-                        <p className={swapStep === 1 ? 'text-indigo-300 font-bold' : 'text-slate-500'}>
+                        <p className={swapStep === 1 ? 'text-gold-300 font-bold' : 'text-slate-500'}>
                           Step 2: A = B (Copy B into A)
                         </p>
-                        <p className={swapStep === 2 ? 'text-indigo-300 font-bold' : 'text-slate-500'}>
+                        <p className={swapStep === 2 ? 'text-gold-300 font-bold' : 'text-slate-500'}>
                           Step 3: B = T (Copy saved value from T into B)
                         </p>
                       </div>
@@ -1442,7 +1442,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={handleStepSwapAlgorithm}
-                        className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                       >
                         {swapStep === 3 ? 'Reset Swap Lab ↺' : `Execute Swap Step ${swapStep + 1} ➔`}
                       </motion.button>
@@ -1450,7 +1450,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
 
                     {/* Largest of 3 Section */}
                     <div className="space-y-4">
-                      <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+                      <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                         <span>🏆</span> Find Largest of 3 Numbers (A, B, C)
                       </h4>
                       <div className="space-y-3">
@@ -1501,8 +1501,8 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                         </div>
                       </div>
 
-                      <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700 flex items-center justify-between">
-                        <span className="text-xs font-semibold text-indigo-200">Result Output (Largest L):</span>
+                      <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700 flex items-center justify-between">
+                        <span className="text-xs font-semibold text-gold-200">Result Output (Largest L):</span>
                         <span className="text-2xl font-black text-emerald-400">{calculatedLargest}</span>
                       </div>
                     </div>
@@ -1533,7 +1533,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
 
                   {/* SVG DIAGRAM 2: Flowchart Decision Engine */}
                   <div className="w-full flex flex-col items-center py-2">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                       Figure 2: Flowchart Logic Flow with Binary Decision Branching
                     </span>
                     <svg viewBox="0 0 500 320" className="w-full max-w-lg bg-slate-900/80 rounded-xl p-2 border border-slate-800">
@@ -1645,7 +1645,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                                   }}
                                   className={`p-3 border transition-all cursor-pointer ${
                                     isSelected
-                                      ? 'border-2 border-indigo-500 bg-indigo-950/80 text-white font-bold'
+                                      ? 'border-2 border-gold-500 bg-gold-950/80 text-white font-bold'
                                       : 'border-slate-800 bg-slate-900/40 text-slate-300 hover:bg-slate-800'
                                   }`}
                                 >
@@ -1665,7 +1665,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
               {currentSlide === 3 && (
                 <div className="space-y-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
                       <p className="text-white font-semibold text-sm">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
@@ -1721,8 +1721,8 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="p-4 bg-slate-900 rounded-xl border border-indigo-700">
-                      <span className="text-xs text-indigo-400 font-bold font-mono">Cell B6: =SUM(B2:B5)</span>
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-700">
+                      <span className="text-xs text-gold-400 font-bold font-mono">Cell B6: =SUM(B2:B5)</span>
                       <div className="text-3xl font-black text-white mt-1">{totalSum}</div>
                     </div>
                     <div className="p-4 bg-slate-900 rounded-xl border border-emerald-700">
@@ -1749,7 +1749,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                           }}
                           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                             networkProtocol === proto
-                              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                               : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                           }`}
                         >
@@ -1779,7 +1779,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
 
                   {/* SVG DIAGRAM 3: Network Topology & Packet Transmission */}
                   <div className="w-full flex flex-col items-center">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                       Figure 3: Multi-tier Network Architecture (LAN → Switch → Router → ISP Modem → WAN)
                     </span>
                     <svg viewBox="0 0 540 130" className="w-full max-w-lg bg-slate-900/80 rounded-xl p-2 border border-slate-800">
@@ -1859,7 +1859,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('whoosh');
                     }}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1909,7 +1909,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   audioManager.play('tap');
                 }}
                 className={`px-3 py-1.5 rounded font-bold text-xs ${
-                  isBold ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  isBold ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 B (Bold)
@@ -1920,7 +1920,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   audioManager.play('tap');
                 }}
                 className={`px-3 py-1.5 rounded italic text-xs ${
-                  isItalic ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  isItalic ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 I (Italic)
@@ -1945,7 +1945,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   audioManager.play('tap');
                 }}
                 className={`px-3 py-1.5 rounded text-xs font-semibold ${
-                  hasBorders ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  hasBorders ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 ▦ Borders: {hasBorders ? 'ON' : 'OFF'}
@@ -1954,7 +1954,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleSaveWorkbook}
-                className="ml-auto px-4 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded shadow"
+                className="ml-auto px-4 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded shadow"
               >
                 💾 Save As (.xlsx)
               </motion.button>
@@ -2028,13 +2028,13 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
               <span className="text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 uppercase tracking-widest">
+              <span className="text-gold-400 uppercase tracking-widest">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2050,7 +2050,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="px-2.5 py-1 text-[10px] font-extrabold uppercase rounded bg-indigo-900/60 text-indigo-300 border border-indigo-700">
+              <span className="px-2.5 py-1 text-[10px] font-extrabold uppercase rounded bg-gold-900/60 text-gold-300 border border-gold-700">
                 {challenge.type}
               </span>
               <span className="text-xs text-slate-400 font-mono">Node: {challenge.nodeId}</span>
@@ -2099,7 +2099,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                       whileTap={{ scale: 0.95 }}
                       role="button"
                       aria-label={`Drag item ${item.label}`}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white font-bold text-xs cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-white font-bold text-xs cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2135,7 +2135,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Drag Placements ➔
                 </motion.button>
@@ -2161,7 +2161,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3.5 bg-slate-800 hover:bg-slate-750 rounded-xl border border-slate-700 text-slate-200 text-xs sm:text-sm cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-xs">
+                    <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2178,7 +2178,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                         : challenge.sortItems!.map((_, i) => i);
                     handleAnswer(ans);
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Check Sequence Order ➔
                 </motion.button>
@@ -2194,14 +2194,14 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
                     aria-label="Numeric answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-56"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-56"
                   />
                   <span className="text-slate-400 text-xs font-semibold">{challenge.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Submit ➔
                   </motion.button>
@@ -2219,7 +2219,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-900 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2230,7 +2230,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-700 text-white text-xs font-mono rounded-lg flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-700 text-white text-xs font-mono rounded-lg flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2251,7 +2251,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs disabled:opacity-40"
                 >
                   Validate Construction ➔
                 </motion.button>
@@ -2318,12 +2318,12 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
       {/* ─── PHASE 5: COMPLETION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-2xl border border-emerald-700/60 text-center space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-2xl border border-emerald-700/60 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Exhibition Architect Certified!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="inline-block px-5 py-2 rounded-2xl bg-indigo-900/80 border border-indigo-400 text-indigo-200 text-base font-extrabold tracking-wide shadow-lg">
+            <div className="inline-block px-5 py-2 rounded-2xl bg-gold-900/80 border border-gold-400 text-gold-200 text-base font-extrabold tracking-wide shadow-lg">
               {motivationalMessage}
             </div>
 
@@ -2337,7 +2337,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-700">
                 <span className="text-[10px] uppercase font-bold text-slate-400">Mastery Level</span>
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-700">
                 <span className="text-[10px] uppercase font-bold text-slate-400">Total Errors</span>
@@ -2347,7 +2347,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD (SRS ENGINE) ─── */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border-2 border-amber-500/60 shadow-xl space-y-4">
+          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 rounded-2xl border-2 border-amber-500/60 shadow-xl space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-3xl p-2 bg-amber-500/20 rounded-xl border border-amber-500/40">📅</span>
@@ -2411,8 +2411,8 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/70 space-y-4 shadow-lg">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/70 space-y-4 shadow-lg">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Reflect on Your Learning Journey
             </h3>
             <p className="text-xs text-slate-400">
@@ -2428,7 +2428,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g. Swapping variables without a third variable T overwrites and erases the original data!"
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2441,7 +2441,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g. An algorithm is like a recipe; a flowchart is a map of decisions; Excel does math instantly when you type =."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2454,7 +2454,7 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g. Calculating sports scores, budgeting family expenses with =SUM(), or setting up a home Wi-Fi network."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2481,14 +2481,14 @@ function C6_ComputerScienceAlgorithmsDefinitionPropertiesSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🛠️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

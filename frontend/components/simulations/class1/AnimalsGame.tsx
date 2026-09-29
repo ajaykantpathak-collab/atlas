@@ -56,7 +56,7 @@ const TEACHING_SLIDES = [
         title: 'Counting Legs! 🦵',
         text: 'Dogs, cats, cows, and goats walk on four legs! Birds have two legs that they use to hop, walk, or perch, and two wings to fly. Counting legs helps us sort them easily!',
         emoji: '🔢',
-        bgColor: 'from-sky-400 to-blue-500',
+        bgColor: 'from-gold-400 to-gold-500',
         spoken: 'Dogs, cats, cows, and goats walk on four legs. Birds have two legs and two wings!',
     },
     {

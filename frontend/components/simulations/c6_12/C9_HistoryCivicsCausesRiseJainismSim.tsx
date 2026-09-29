@@ -1222,9 +1222,9 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
         {/* Phase Badges & Controls */}
         <div className="flex items-center gap-2 flex-wrap">
           <span className={`text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider border ${
-            phase === 'discovery' ? 'bg-indigo-900/60 border-indigo-500 text-indigo-300' :
+            phase === 'discovery' ? 'bg-gold-900/60 border-gold-500 text-gold-300' :
             phase === 'predict' ? 'bg-amber-900/60 border-amber-500 text-amber-300' :
-            phase === 'explore' ? 'bg-sky-900/60 border-sky-500 text-sky-300' :
+            phase === 'explore' ? 'bg-gold-900/60 border-gold-500 text-gold-300' :
             phase === 'observe' ? 'bg-teal-900/60 border-teal-500 text-teal-300' :
             phase === 'sandbox' ? 'bg-purple-900/60 border-purple-500 text-purple-300' :
             phase === 'challenge' ? 'bg-amber-900/60 border-amber-500 text-amber-300' :
@@ -1239,7 +1239,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
               animate={{ scale: 1 }}
               className={`text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider border ${
                 difficulty === 'foundation' ? 'bg-emerald-950 border-emerald-600 text-emerald-300' :
-                difficulty === 'standard' ? 'bg-blue-950 border-blue-600 text-blue-300' :
+                difficulty === 'standard' ? 'bg-gold-950 border-gold-600 text-gold-300' :
                 'bg-rose-950 border-rose-600 text-rose-300'
               }`}
             >
@@ -1263,7 +1263,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span>🔍</span> Discovery Hook • Think &amp; Predict
             </div>
             <p className="text-base md:text-lg font-semibold text-white mb-4">
@@ -1389,8 +1389,8 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
             </div>
 
             {predictAnswers[PREDICTION_QUESTIONS[predictIndex].id] !== undefined && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-sky-500/40 space-y-2">
-                <p className="text-xs font-bold text-sky-400 uppercase tracking-wider flex items-center gap-1">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-gold-500/40 space-y-2">
+                <p className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1">
                   <span>🔬</span> How you will verify this in Lab:
                 </p>
                 <p className="text-xs md:text-sm text-slate-200">
@@ -1454,7 +1454,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
             >
               <div>
                 <h3 className="text-lg font-bold text-amber-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <p className="text-sm text-sky-300 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+                <p className="text-sm text-gold-300 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
               {/* ─── STEP 0: 5-Arrow Convergence Engine SVG ─���─ */}
@@ -1595,7 +1595,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
                       onClick={() => setMetaphysicsMode('buddhist')}
                       aria-label="Toggle to Buddhist Metaphysics: Anatta & Nirvana"
                       className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
-                        metaphysicsMode === 'buddhist' ? 'bg-sky-600 border-sky-400 text-slate-950' : 'bg-slate-800 border-slate-700 text-slate-300'
+                        metaphysicsMode === 'buddhist' ? 'bg-gold-600 border-gold-400 text-slate-950' : 'bg-slate-800 border-slate-700 text-slate-300'
                       }`}
                     >
                       Buddhist Metaphysics: Anatta &amp; Nirvana
@@ -1624,20 +1624,20 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
                       </div>
                     ) : (
                       <div className="text-center space-y-2">
-                        <div className="relative w-48 h-48 mx-auto bg-slate-900 rounded-2xl border border-sky-600/40 p-2 flex flex-col items-center justify-between">
-                          <div className="w-full py-1 bg-sky-500/20 rounded text-[10px] font-bold text-sky-300">
+                        <div className="relative w-48 h-48 mx-auto bg-slate-900 rounded-2xl border border-gold-600/40 p-2 flex flex-col items-center justify-between">
+                          <div className="w-full py-1 bg-gold-500/20 rounded text-[10px] font-bold text-gold-300">
                             Nirvana (Extinguishing of Tanha)
                           </div>
                           <motion.div
                             animate={{ scale: [1, 0.4, 1], opacity: [1, 0.3, 1] }}
                             transition={{ duration: 3, repeat: Infinity }}
-                            className="w-12 h-16 bg-gradient-to-t from-sky-500 to-transparent rounded-full blur-[2px]"
+                            className="w-12 h-16 bg-gradient-to-t from-gold-500 to-transparent rounded-full blur-[2px]"
                           />
                           <div className="text-[9px] text-slate-400">
                             Anatta: 5 Skandhas Dissolve Without Residue
                           </div>
                         </div>
-                        <p className="text-xs text-sky-300 font-semibold">Psychological Cessation Model</p>
+                        <p className="text-xs text-gold-300 font-semibold">Psychological Cessation Model</p>
                       </div>
                     )}
 
@@ -1675,8 +1675,8 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
 
                     {/* 3-Tier Grid Diagram */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4 text-xs">
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-700/50">
-                        <div className="font-bold text-indigo-300 flex items-center gap-1">
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-700/50">
+                        <div className="font-bold text-gold-300 flex items-center gap-1">
                           <span>👑</span> Central Apex
                         </div>
                         <p className="text-slate-300 mt-1">Emperor + Mantriparishad</p>
@@ -1709,7 +1709,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center text-xs mb-2">
                       <span className="text-rose-400 font-bold">War Drum (Bheri Ghosha): {bheriVolume}%</span>
-                      <span className="text-sky-400 font-bold">Dhamma Ghosha &amp; Soft Power: {softPowerScore}%</span>
+                      <span className="text-gold-400 font-bold">Dhamma Ghosha &amp; Soft Power: {softPowerScore}%</span>
                     </div>
                     <input
                       type="range"
@@ -1718,12 +1718,12 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
                       value={dhammaPolicySlider}
                       onChange={(e) => handleDhammaSliderChange(Number(e.target.value))}
                       aria-label="Ashokan Dhamma Policy Slider"
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4 text-xs">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                        <div className="font-bold text-sky-300">🌿 Major Edict Policies Active:</div>
+                        <div className="font-bold text-gold-300">🌿 Major Edict Policies Active:</div>
                         <ul className="mt-2 space-y-1 text-slate-300 text-[11px]">
                           <li>• Rock Edict 1: Animal sacrifices &amp; royal hunting banned</li>
                           <li>• Rock Edict 12: Absolute inter-religious tolerance</li>
@@ -2014,7 +2014,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
               <div>
                 <label className="text-xs text-slate-300 flex justify-between">
                   <span>Prakrit / Pali Vernacular Reach</span>
-                  <span className="font-bold text-sky-400">{sandboxPrakritReach}%</span>
+                  <span className="font-bold text-gold-400">{sandboxPrakritReach}%</span>
                 </label>
                 <input
                   type="range"
@@ -2023,7 +2023,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
                   value={sandboxPrakritReach}
                   onChange={(e) => setSandboxPrakritReach(Number(e.target.value))}
                   aria-label="Prakrit and Pali Vernacular Reach Slider"
-                  className="w-full accent-sky-500 mt-1"
+                  className="w-full accent-gold-500 mt-1"
                 />
               </div>
 
@@ -2115,7 +2115,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-amber-500 to-sky-500"
+              className="h-full bg-gradient-to-r from-amber-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2185,7 +2185,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md focus:outline-none"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md focus:outline-none"
                     >
                       {item.label}
                     </motion.div>
@@ -2457,17 +2457,17 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
           )}
 
           {/* ─── PROMINENT SPACED REPETITION SCHEDULE (SRS VISIBILITY) ─── */}
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border-2 border-indigo-500/40 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border-2 border-gold-500/40 shadow-xl space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-lg">📅</span>
-                <h3 className="text-sm font-black text-indigo-300 uppercase tracking-wider">
+                <h3 className="text-sm font-black text-gold-300 uppercase tracking-wider">
                   Adaptive Spaced Repetition Schedule (SM-2)
                 </h3>
               </div>
               <span className={`text-xs px-2.5 py-1 rounded-full font-black border ${
                 errors === 0 ? 'bg-emerald-950 border-emerald-500 text-emerald-300' :
-                errors <= 3 ? 'bg-blue-950 border-blue-500 text-blue-300' :
+                errors <= 3 ? 'bg-gold-950 border-gold-500 text-gold-300' :
                 'bg-amber-950 border-amber-500 text-amber-300'
               }`}>
                 {errors === 0 ? 'Next: 7 Days' : errors <= 3 ? 'Next: 3 Days' : 'Next: 1 Day'}
@@ -2486,7 +2486,7 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
 
               <div className={`p-3 rounded-xl border text-xs ${
                 errors >= 1 && errors <= 3
-                  ? 'bg-blue-950/60 border-blue-500 text-blue-200 ring-2 ring-blue-500/30'
+                  ? 'bg-gold-950/60 border-gold-500 text-gold-200 ring-2 ring-gold-500/30'
                   : 'bg-slate-950/60 border-slate-800 text-slate-500 opacity-60'
               }`}>
                 <div className="font-bold">⚡ 1–3 Errors: Review in 3 days</div>
@@ -2505,22 +2505,22 @@ function C9_HistoryCivicsCausesRiseJainismSim(props: Props = DEFAULT_PROPS) {
 
             <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 text-[11px] text-slate-300 flex items-center justify-between">
               <span>Your Recommended Next Study Session:</span>
-              <strong className="text-indigo-300">
+              <strong className="text-gold-300">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </strong>
             </div>
           </div>
 
           {/* Real World Activity */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-700/40 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-700/40 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> Real-World Application: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-2.5 bg-slate-950/80 rounded-lg border border-slate-800 text-[11px] text-slate-300">
-                  <strong className="text-indigo-400 mr-1">{idx + 1}.</strong> {step}
+                  <strong className="text-gold-400 mr-1">{idx + 1}.</strong> {step}
                 </div>
               ))}
             </div>

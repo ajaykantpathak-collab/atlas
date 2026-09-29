@@ -59,7 +59,7 @@ const TEACHING_SLIDES = [
     title: "Personal Hygiene & Clean Surroundings 🧼",
     text: "Keep clean to stay healthy! Wash hands with soap before eating, bathe daily, and brush teeth twice. Keep surroundings free of stagnant water so mosquitoes don't breed and spread dengue and malaria!",
     emoji: "🧼",
-    bgColor: "from-blue-400 to-indigo-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Keep clean to stay healthy! Wash hands with soap before eating and bathe daily. Keep surroundings free of stagnant water so mosquitoes don't breed and spread dengue!"
   },
 ];
@@ -777,7 +777,7 @@ export function AgricultureHygieneGame({ width = 720, height = 560, onComplete }
           <div className="bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-amber-200 max-w-2xl mx-auto w-full">
             <div className="flex items-center justify-between mb-1">
               <span className="text-xs font-bold text-amber-700 uppercase tracking-wider">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
-              <button onClick={handleShowHint} className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200 hover:bg-blue-100 flex items-center gap-1">
+              <button onClick={handleShowHint} className="text-xs font-bold text-gold-600 bg-gold-50 px-3 py-1 rounded-full border border-gold-200 hover:bg-gold-100 flex items-center gap-1">
                 💡 Need Hint?
               </button>
             </div>

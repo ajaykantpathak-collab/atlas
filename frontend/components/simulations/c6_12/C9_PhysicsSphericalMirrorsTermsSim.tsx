@@ -778,7 +778,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
   const acousticCategory = useMemo(() => {
     if (acousticFreq < 20) return { category: 'Infrasonic', desc: 'Inaudible to humans (Earthquakes, Elephant rumbles, Ocean waves)', color: 'text-purple-400' };
     if (acousticFreq <= 20000) return { category: 'Sonic (Audible)', desc: 'Audible human range (Human speech 300-3400 Hz, Music 50-5000 Hz)', color: 'text-emerald-400' };
-    return { category: 'Ultrasonic', desc: 'Inaudible high frequency (Submarine SONAR, Medical Ultrasound, Bat echolocation)', color: 'text-cyan-400' };
+    return { category: 'Ultrasonic', desc: 'Inaudible high frequency (Submarine SONAR, Medical Ultrasound, Bat echolocation)', color: 'text-gold-400' };
   }, [acousticFreq]);
 
   const electroCalculations = useMemo(() => {
@@ -1120,9 +1120,9 @@ function C9_PhysicsSphericalMirrorsTermsSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-blue-900/40 rounded-2xl border border-blue-700/50" aria-hidden="true">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50" aria-hidden="true">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-blue-400 via-indigo-300 to-teal-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-teal-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 9 ICSE Physics • 10 Core Syllabus Nodes</p>
@@ -1138,14 +1138,14 @@ function C9_PhysicsSphericalMirrorsTermsSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600/50'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/60 text-blue-400 border-blue-600/50'
+                ? 'bg-gold-950/60 text-gold-400 border-gold-600/50'
                 : 'bg-purple-950/60 text-purple-400 border-purple-600/50'
             }`}
           >
             {difficulty} Tier
           </motion.span>
           <span className="text-xs text-slate-400 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">
-            Mastery: <strong className="text-indigo-300 capitalize">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-300 capitalize">{masteryLevel}</strong>
           </span>
         </div>
       </motion.div>
@@ -1153,13 +1153,13 @@ function C9_PhysicsSphericalMirrorsTermsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-blue-950/60 rounded-2xl border border-indigo-700/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-gold-950/60 rounded-2xl border border-gold-700/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span aria-hidden="true">🚀</span> Narrative Scenario
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 mt-2 bg-indigo-900/40 p-2 rounded-lg border border-indigo-800/40">
+            <p className="text-xs text-gold-300 mt-2 bg-gold-900/40 p-2 rounded-lg border border-gold-800/40">
               {SCENARIO.context}
             </p>
           </div>
@@ -1206,7 +1206,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter interactive labs"
-                  className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-bold shadow-lg shadow-blue-500/20 whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold shadow-lg shadow-gold-500/20 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1221,7 +1221,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-slate-200 flex items-center gap-2">
-              <span className="text-blue-400" aria-hidden="true">🔬</span> Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
+              <span className="text-gold-400" aria-hidden="true">🔬</span> Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </h2>
             <motion.button
               whileHover={{ scale: 1.05 }}
@@ -1234,7 +1234,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
             </motion.button>
           </div>
 
-          <div className="p-3 bg-blue-950/40 border border-blue-800/40 rounded-xl text-xs md:text-sm text-blue-200">
+          <div className="p-3 bg-gold-950/40 border border-gold-800/40 rounded-xl text-xs md:text-sm text-gold-200">
             👉 <strong className="text-white">Instruction:</strong> {EXPLORATION_STEPS[currentSlide].instruction}
           </div>
 
@@ -1250,7 +1250,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       onClick={() => setMirrorType('concave')}
                       aria-label={`Select Concave mirror with focal length minus ${focalLengthF} cm`}
                       className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                        mirrorType === 'concave' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                        mirrorType === 'concave' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Concave (f = -{focalLengthF} cm)
@@ -1259,14 +1259,14 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       onClick={() => setMirrorType('convex')}
                       aria-label={`Select Convex mirror with focal length plus ${focalLengthF} cm`}
                       className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
-                        mirrorType === 'convex' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                        mirrorType === 'convex' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Convex (f = +{focalLengthF} cm)
                     </button>
                   </div>
                   <div className="text-xs text-slate-300">
-                    Radius R: <strong className="text-blue-400">{focalLengthF * 2} cm</strong> (f = R/2)
+                    Radius R: <strong className="text-gold-400">{focalLengthF * 2} cm</strong> (f = R/2)
                   </div>
                 </div>
 
@@ -1406,7 +1406,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between border-b border-slate-800 pb-1">
                       <span className="text-slate-400">Mirror Formula:</span>
-                      <code className="text-indigo-300 font-bold">1/f = 1/u + 1/v</code>
+                      <code className="text-gold-300 font-bold">1/f = 1/u + 1/v</code>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Calculated Image Distance (v):</span>
@@ -1416,7 +1416,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Linear Magnification (m = -v/u):</span>
-                      <strong className="text-cyan-400">{opticsCalculations.m.toFixed(2)}</strong>
+                      <strong className="text-gold-400">{opticsCalculations.m.toFixed(2)}</strong>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Nature & Orientation:</span>
@@ -1429,8 +1429,8 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
                 {/* Prediction 1 */}
                 {!predictionMade[0] && (
-                  <div className="p-4 bg-indigo-950/40 border border-indigo-700/50 rounded-xl space-y-3">
-                    <p className="text-xs font-bold text-indigo-300 uppercase">🤔 Prediction 1: Ray Optics</p>
+                  <div className="p-4 bg-gold-950/40 border border-gold-700/50 rounded-xl space-y-3">
+                    <p className="text-xs font-bold text-gold-300 uppercase">🤔 Prediction 1: Ray Optics</p>
                     <p className="text-sm text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1451,7 +1451,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
                 {/* Observation 1 */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <p className="text-xs font-bold text-cyan-300 uppercase">👁️ Observation 1: What do you notice?</p>
+                  <p className="text-xs font-bold text-gold-300 uppercase">👁️ Observation 1: What do you notice?</p>
                   <p className="text-sm text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => {
@@ -1493,7 +1493,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       }}
                       aria-label="Select Transverse Wave mode"
                       className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                        waveMode === 'transverse' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                        waveMode === 'transverse' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Transverse (Perpendicular)
@@ -1505,14 +1505,14 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       }}
                       aria-label="Select Longitudinal Wave mode"
                       className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                        waveMode === 'longitudinal' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                        waveMode === 'longitudinal' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Longitudinal (Parallel)
                     </button>
                   </div>
                   <div className="text-xs text-slate-300">
-                    Equation: <strong className="text-sky-400 font-bold">V = f · λ</strong>
+                    Equation: <strong className="text-gold-400 font-bold">V = f · λ</strong>
                   </div>
                 </div>
 
@@ -1523,7 +1523,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
                 {/* SVG 2: WAVE ANATOMY DIAGRAM */}
                 <div className="bg-slate-950 rounded-xl p-3 border border-slate-800">
-                  <span className="text-[11px] font-bold text-sky-400 uppercase tracking-wider block mb-2">Wave Anatomy & Physics Terminology</span>
+                  <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider block mb-2">Wave Anatomy & Physics Terminology</span>
                   <svg viewBox="0 0 680 140" role="img" aria-label="Diagram of transverse and longitudinal wave parameters showing wavelength lambda and amplitude" className="w-full h-32">
                     <line x1="20" y1="70" x2="660" y2="70" stroke="#334155" strokeWidth="1.5" strokeDasharray="3 3" />
                     
@@ -1559,7 +1559,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Frequency (f):</span>
-                      <strong className="text-sky-400">{waveFreq} Hz</strong>
+                      <strong className="text-gold-400">{waveFreq} Hz</strong>
                     </div>
                     <input
                       type="range"
@@ -1572,7 +1572,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                         setWaveFreq(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1605,8 +1605,8 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
                 {/* Prediction 2 */}
                 {!predictionMade[1] && (
-                  <div className="p-4 bg-indigo-950/40 border border-indigo-700/50 rounded-xl space-y-3">
-                    <p className="text-xs font-bold text-indigo-300 uppercase">🤔 Prediction 2: Wave Mechanics</p>
+                  <div className="p-4 bg-gold-950/40 border border-gold-700/50 rounded-xl space-y-3">
+                    <p className="text-xs font-bold text-gold-300 uppercase">🤔 Prediction 2: Wave Mechanics</p>
                     <p className="text-sm text-slate-200">{PREDICTION_QUESTIONS[1].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
@@ -1627,7 +1627,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
                 {/* Observation 2 */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <p className="text-xs font-bold text-cyan-300 uppercase">👁️ Observation 2: What do you notice?</p>
+                  <p className="text-xs font-bold text-gold-300 uppercase">👁️ Observation 2: What do you notice?</p>
                   <p className="text-sm text-slate-200">{OBSERVATION_QUESTIONS[1].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => {
@@ -1662,7 +1662,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-slate-400 font-bold">Acoustic Frequency:</span>
-                    <strong className="text-lg font-black text-cyan-400">{acousticFreq >= 1000 ? `${(acousticFreq / 1000).toFixed(1)} kHz` : `${acousticFreq} Hz`}</strong>
+                    <strong className="text-lg font-black text-gold-400">{acousticFreq >= 1000 ? `${(acousticFreq / 1000).toFixed(1)} kHz` : `${acousticFreq} Hz`}</strong>
                   </div>
 
                   <input
@@ -1676,7 +1676,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       setAcousticFreq(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
 
                   {/* Spectrum Visual Band */}
@@ -1687,7 +1687,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                     <div className="w-[50%] h-full bg-emerald-950/80 border-r border-emerald-500 flex items-center justify-center text-emerald-300">
                       Sonic Audible Range (20 Hz - 20,000 Hz)
                     </div>
-                    <div className="w-[40%] h-full bg-cyan-950/80 flex items-center justify-center text-cyan-300">
+                    <div className="w-[40%] h-full bg-gold-950/80 flex items-center justify-center text-gold-300">
                       Ultrasonic (&gt;20,000 Hz)
                     </div>
                   </div>
@@ -1701,7 +1701,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
                 {/* SVG 3: UNDERWATER SUBMARINE SONAR PULSE & ECHO DIAGRAM */}
                 <div className="bg-slate-950 rounded-xl p-3 border border-slate-800">
-                  <span className="text-[11px] font-bold text-cyan-400 uppercase tracking-wider block mb-2">
+                  <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider block mb-2">
                     SONAR Acoustic Pulse & Echo Distance Mechanism (d = V·t / 2)
                   </span>
                   <svg viewBox="0 0 680 180" role="img" aria-label="Underwater SONAR pulse reflection diagram from submarine to seabed" className="w-full h-44">
@@ -1738,10 +1738,10 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                 </div>
 
                 {/* Sonar Depth Slider */}
-                <div className="p-4 bg-gradient-to-r from-blue-950/70 to-slate-950 rounded-xl border border-blue-800/50 space-y-3">
+                <div className="p-4 bg-gradient-to-r from-gold-950/70 to-slate-950 rounded-xl border border-gold-800/50 space-y-3">
                   <div className="flex justify-between text-xs">
-                    <span className="text-blue-300 font-bold">Submarine SONAR Target Distance (Seawater V = 1500 m/s):</span>
-                    <strong className="text-cyan-300">{sonarDistance} meters depth</strong>
+                    <span className="text-gold-300 font-bold">Submarine SONAR Target Distance (Seawater V = 1500 m/s):</span>
+                    <strong className="text-gold-300">{sonarDistance} meters depth</strong>
                   </div>
                   <input
                     type="range"
@@ -1754,11 +1754,11 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       setSonarDistance(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="flex justify-between text-xs bg-slate-900 p-2 rounded-lg text-slate-300">
                     <span>Two-Way Transit Time: <strong className="text-amber-400">{((2 * sonarDistance) / 1500).toFixed(3)} s</strong></span>
-                    <span>Echo Formula: <code className="text-indigo-300">d = (V · t) / 2</code></span>
+                    <span>Echo Formula: <code className="text-gold-300">d = (V · t) / 2</code></span>
                   </div>
                 </div>
               </div>
@@ -1931,7 +1931,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1 flex flex-col justify-center">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Current (I = V/R):</span>
-                      <strong className="text-sky-400">{electroCalculations.currentI.toFixed(2)} A</strong>
+                      <strong className="text-gold-400">{electroCalculations.currentI.toFixed(2)} A</strong>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Work Done W (V·Q):</span>
@@ -1964,7 +1964,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
                 aria-label="Go to next lab"
-                className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -2000,7 +2000,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Ready to start challenge questions"
-              className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl text-sm font-bold shadow-lg shadow-blue-500/30 whitespace-nowrap"
+              className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-500/30 whitespace-nowrap"
             >
               Ready for Challenges! →
             </motion.button>
@@ -2008,7 +2008,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-blue-400 uppercase">Interactive Optics Workbench</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase">Interactive Optics Workbench</h4>
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Object Distance:</span>
                 <strong className="text-emerald-400">{objectDistU} cm</strong>
@@ -2023,7 +2023,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                 className="w-full accent-emerald-500"
               />
               <div className="p-3 bg-slate-950 rounded-lg text-xs space-y-1">
-                <p className="text-slate-300">Image Distance v: <strong className="text-sky-300">{opticsCalculations.v.toFixed(1)} cm</strong></p>
+                <p className="text-slate-300">Image Distance v: <strong className="text-gold-300">{opticsCalculations.v.toFixed(1)} cm</strong></p>
                 <p className="text-slate-300">Magnification m: <strong className="text-purple-300">{opticsCalculations.m.toFixed(2)}</strong></p>
               </div>
             </div>
@@ -2044,7 +2044,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                 className="w-full accent-emerald-500"
               />
               <div className="p-3 bg-slate-950 rounded-lg text-xs space-y-1">
-                <p className="text-slate-300">Current Flow I: <strong className="text-sky-300">{electroCalculations.currentI.toFixed(2)} A</strong></p>
+                <p className="text-slate-300">Current Flow I: <strong className="text-gold-300">{electroCalculations.currentI.toFixed(2)} A</strong></p>
                 <p className="text-slate-300">Charge Moved (in 10s): <strong className="text-amber-300">{electroCalculations.chargeQ.toFixed(1)} C</strong></p>
               </div>
             </div>
@@ -2060,7 +2060,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
               <span className="text-xs text-slate-400 uppercase font-bold tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <h3 className="text-sm font-semibold text-indigo-300 mt-0.5">
+              <h3 className="text-sm font-semibold text-gold-300 mt-0.5">
                 Competency: <span className="capitalize text-white font-bold">{challenge.competencyLevel}</span>
               </h3>
             </div>
@@ -2081,7 +2081,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2138,7 +2138,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       aria-label={`Draggable label: ${item.label}`}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2155,7 +2155,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       className="h-20 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center p-2 text-center"
                     >
                       <span className="text-[10px] text-slate-500 uppercase font-bold">Drop Here</span>
-                      <strong className="text-xs text-sky-400 mt-1">
+                      <strong className="text-xs text-gold-400 mt-1">
                         {droppedLabels[tid] ? `✓ ${droppedLabels[tid]}` : '— Empty —'}
                       </strong>
                     </div>
@@ -2168,7 +2168,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Verify diagram labels"
-                  className="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2209,7 +2209,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check sequence order"
-                  className="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2227,7 +2227,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
                     aria-label="Enter calculated numerical answer"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-64 focus:outline-none focus:border-blue-500"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 font-bold text-sm">{challenge.unit}</span>
                   <motion.button
@@ -2236,7 +2236,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit numeric answer"
-                    className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                   >
                     Submit Answer
                   </motion.button>
@@ -2269,7 +2269,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 text-white rounded-lg text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 text-white rounded-lg text-xs flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2292,7 +2292,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Validate assembled circuit loop"
-                  className="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Validate Assembled Circuit
                 </motion.button>
@@ -2304,13 +2304,13 @@ function C9_PhysicsSphericalMirrorsTermsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/60 border border-indigo-700/50 rounded-xl space-y-4"
+                className="mt-6 p-5 bg-gold-950/60 border border-gold-700/50 rounded-xl space-y-4"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-indigo-300 uppercase tracking-wide">
+                  <span className="text-xs font-bold text-gold-300 uppercase tracking-wide">
                     📘 ICSE Step-by-Step Physics Deduction:
                   </span>
-                  <span className="text-xs text-indigo-400">
+                  <span className="text-xs text-gold-400">
                     Step {revealedSteps + 1} of {challenge.explanation.split('. ').filter(s => s.trim().length > 0).length}
                   </span>
                 </div>
@@ -2327,21 +2327,21 @@ function C9_PhysicsSphericalMirrorsTermsSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-sm text-slate-200 leading-relaxed"
                       >
-                        <strong className="text-indigo-400 mr-2">{idx + 1}.</strong>
+                        <strong className="text-gold-400 mr-2">{idx + 1}.</strong>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
                 </div>
 
-                <div className="flex items-center justify-between pt-3 border-t border-indigo-900/50">
+                <div className="flex items-center justify-between pt-3 border-t border-gold-900/50">
                   {revealedSteps < challenge.explanation.split('. ').filter(s => s.trim().length > 0).length - 1 ? (
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Show next deduction step"
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2366,7 +2366,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
       {/* ─── PHASE 5: COMPLETION SCREEN ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-blue-950/80 rounded-3xl border border-emerald-600/50 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-emerald-600/50 text-center space-y-4">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2380,7 +2380,7 @@ function C9_PhysicsSphericalMirrorsTermsSim({
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[130px]">
                 <span className="text-xs text-slate-400 font-bold uppercase">Mastery Tier</span>
-                <p className="text-xl font-black text-indigo-300 mt-2 capitalize">{masteryLevel}</p>
+                <p className="text-xl font-black text-gold-300 mt-2 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[130px]">
                 <span className="text-xs text-slate-400 font-bold uppercase">Errors Encountered</span>
@@ -2428,14 +2428,14 @@ function C9_PhysicsSphericalMirrorsTermsSim({
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">
               🌐 Real-World Physics Application: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

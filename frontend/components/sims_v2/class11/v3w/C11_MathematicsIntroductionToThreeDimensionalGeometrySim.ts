@@ -11,7 +11,7 @@ export const w_c11_mathematicsintroductiontothreedimensionalgeometrysim: SimDef 
     classLevel: 11, subject: 'mathematics', topic: 'Section Formula in 3D: Internal Division',
     chapters: [],
     nodeIds: ['c11_math_cbse_12_003', 'c11_math_cbse_12_006', 'c11_math_cbse_10_002', 'c11_math_cbse_12_001', 'c11_math_cbse_12_002', 'c11_math_cbse_12_004', 'c11_math_cbse_10_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are designing a model rocket launch pad with three support legs anchored at points A(2, -1, 3).', goal: 'Master Section Formula in 3D: Internal Division.' },
     discovery: {
         question: 'Compare the number of coordinates needed to specify a point on a line, in a plane, and in space. Explain why the number increases with dimension.',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsintroductiontothreedimensionalgeometrysim: SimDef 
         hook: 'Students often confuse which coordinate becomes zero for which plane: they set x=0 for XY-plane instead of z=0, or y=0.',
     },
     teaching: [
-        { title: 'The section formula for internal division in.', text: 'The section formula for internal division in three-dimensional geometry gives the coordinates of a point \\( P(x, y, z) \\) that divides the line segment joining two given points \\( A(x_1, y_1, z_1) \\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The section formula for internal division in.', text: 'The section formula for internal division in three-dimensional geometry gives the coordinates of a point \\( P(x, y, z) \\) that divides the line segment joining two given points \\( A(x_1, y_1, z_1) \\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_12_003', title: 'The section formula for internal.',

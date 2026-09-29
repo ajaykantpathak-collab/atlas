@@ -162,9 +162,9 @@ function C6_ScienceFoodWhereDoesItComeSim() {
               <div className="text-xs text-amber-700 mt-1">{a.story}</div>
             </div>
           ))}
-          <div className="p-3 rounded-2xl bg-sky-50 border-2 border-sky-200 md:col-span-2">
-            <div className="text-sm font-black text-sky-800">Spot the plant eater connection</div>
-            <div className="text-xs text-sky-700 mt-1">
+          <div className="p-3 rounded-2xl bg-gold-50 border-2 border-gold-200 md:col-span-2">
+            <div className="text-sm font-black text-gold-800">Spot the plant eater connection</div>
+            <div className="text-xs text-gold-700 mt-1">
               Bees need flowers, hens need grain, cows need grass -- so even ANIMAL foods secretly start from plants!
             </div>
           </div>
@@ -178,9 +178,9 @@ function C6_ScienceFoodWhereDoesItComeSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Find TWO foods that are roots and TWO that are stems -- guess all four without a mistake.</li>
           <li>On the animal board, trace honey backwards: flower &gt; ? &gt; honey. Which food on the plant board do the bees depend on?</li>
         </ol>

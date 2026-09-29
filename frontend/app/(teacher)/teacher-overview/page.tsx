@@ -198,7 +198,7 @@ function LanguageToggle({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => v
           aria-label={opt.full}
           className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400/60 ${
             lang === opt.code
-              ? 'bg-gradient-to-r from-indigo-500 to-pink-500 text-white shadow-lg shadow-indigo-500/25'
+              ? 'bg-gradient-to-r from-gold-500 to-pink-500 text-white shadow-lg shadow-gold-500/25'
               : 'text-white/60 hover:text-white hover:bg-white/10'
           }`}
         >
@@ -263,7 +263,7 @@ function ClassCard({ cls, onSelect, lang, index }: { cls: ClassData; onSelect: (
       whileHover={{ scale: 1.02, y: -2 }}
       whileTap={{ scale: 0.98 }}
       onClick={onSelect}
-      className="w-full text-left rounded-2xl p-5 border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-md transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60"
+      className="w-full text-left rounded-2xl p-5 border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-md transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60"
     >
       <div className="flex items-start justify-between mb-3">
         <div>
@@ -281,7 +281,7 @@ function ClassCard({ cls, onSelect, lang, index }: { cls: ClassData; onSelect: (
         <span className={cls.averageMastery === null ? 'text-white/40' : 'text-green-400'}>
           🎯 {cls.averageMastery === null ? 'No data yet' : `${cls.averageMastery}%`}
         </span>
-        <span className="text-blue-400">📋 {cls.homeworkCompletionRate}%</span>
+        <span className="text-gold-400">📋 {cls.homeworkCompletionRate}%</span>
       </div>
     </motion.button>
   );
@@ -300,7 +300,7 @@ function StudentRow({ student, onRemediate, lang }: { student: Student; onRemedi
     >
       <div className="flex items-center gap-3 flex-1 min-w-0">
         <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white shrink-0 ${
-          isStruggling ? 'bg-red-500/30' : 'bg-indigo-500/30'
+          isStruggling ? 'bg-red-500/30' : 'bg-gold-500/30'
         }`}>
           {student.name.charAt(0)}
         </div>
@@ -376,7 +376,7 @@ function WorksheetFormView({ form, setForm, onGenerate, onPreview, lang, isGener
         <select
           value={form.subject}
           onChange={(e) => setForm({ ...form, subject: e.target.value })}
-          className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 text-white text-sm backdrop-blur-md focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60"
+          className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 text-white text-sm backdrop-blur-md focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60"
         >
           {subjects.map(s => <option key={s} value={s} className="bg-gray-900">{s}</option>)}
         </select>
@@ -390,7 +390,7 @@ function WorksheetFormView({ form, setForm, onGenerate, onPreview, lang, isGener
           value={form.topic}
           onChange={(e) => setForm({ ...form, topic: e.target.value })}
           placeholder={lang === 'hi' ? 'विषय दर्ज करें...' : 'Enter topic...'}
-          className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 text-white text-sm placeholder:text-white/30 backdrop-blur-md focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60"
+          className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 text-white text-sm placeholder:text-white/30 backdrop-blur-md focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60"
         />
       </div>
 
@@ -402,9 +402,9 @@ function WorksheetFormView({ form, setForm, onGenerate, onPreview, lang, isGener
             <button
               key={d}
               onClick={() => setForm({ ...form, difficulty: d })}
-              className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition-all border focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 ${
+              className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition-all border focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60 ${
                 form.difficulty === d
-                  ? 'bg-gradient-to-r from-indigo-500/30 to-pink-500/30 text-white border-indigo-400/50 shadow-md'
+                  ? 'bg-gradient-to-r from-gold-500/30 to-pink-500/30 text-white border-gold-400/50 shadow-md'
                   : 'text-white/40 hover:text-white hover:bg-white/5 border-white/10'
               }`}
             >
@@ -425,7 +425,7 @@ function WorksheetFormView({ form, setForm, onGenerate, onPreview, lang, isGener
           max={10}
           value={form.numQuestions}
           onChange={(e) => setForm({ ...form, numQuestions: parseInt(e.target.value) })}
-          className="w-full accent-indigo-500"
+          className="w-full accent-gold-500"
         />
       </div>
 
@@ -459,7 +459,7 @@ function WorksheetFormView({ form, setForm, onGenerate, onPreview, lang, isGener
         whileTap={{ scale: 0.98 }}
         onClick={onGenerate}
         disabled={isGenerating}
-        className="w-full py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-bold text-sm shadow-lg shadow-indigo-500/25 disabled:opacity-50 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400/60"
+        className="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-pink-500 text-white font-bold text-sm shadow-lg shadow-gold-500/25 disabled:opacity-50 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400/60"
       >
         {isGenerating ? '⏳ ' + (lang === 'hi' ? 'बन रहा है...' : 'Generating...') : `📝 ${t('generateWorksheet', lang)}`}
       </motion.button>
@@ -503,7 +503,7 @@ function QuestionPreview({ questions, onConfirm, onBack, lang }: {
                   }`}>
                     {t(q.difficulty, lang)}
                   </span>
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-gold-500/15 text-gold-300 border border-gold-500/30">
                     {q.competency}
                   </span>
                 </div>
@@ -731,7 +731,7 @@ function TeacherDashboard() {
   // --- CLASS SELECTION VIEW ---
   if (!selectedClass) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-indigo-950/30 to-gray-950" role="main">
+      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gold-950/30 to-gray-950" role="main">
         <div className="max-w-lg mx-auto px-4 py-8">
           <header className="flex items-center justify-between mb-8">
             <div>
@@ -796,7 +796,7 @@ function TeacherDashboard() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-indigo-950/30 to-gray-950" role="main">
+    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gold-950/30 to-gray-950" role="main">
       <div className="max-w-2xl mx-auto px-4 py-6">
         {/* Header */}
         <header className="flex items-center justify-between mb-6">
@@ -830,9 +830,9 @@ function TeacherDashboard() {
               role="tab"
               aria-selected={activeTab === tab.key}
               onClick={() => { setActiveTab(tab.key); if (tab.key !== 'worksheet') setSubTab('form'); }}
-              className={`flex-1 py-2.5 rounded-lg text-xs font-semibold transition-all flex items-center justify-center gap-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 ${
+              className={`flex-1 py-2.5 rounded-lg text-xs font-semibold transition-all flex items-center justify-center gap-1.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60 ${
                 activeTab === tab.key
-                  ? 'bg-gradient-to-r from-indigo-500/30 to-pink-500/30 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-500/30 to-pink-500/30 text-white shadow-md'
                   : 'text-white/40 hover:text-white/60'
               }`}
             >
@@ -908,7 +908,7 @@ function TeacherDashboard() {
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={action.action}
-                      className="rounded-xl p-4 border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-md text-left transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60"
+                      className="rounded-xl p-4 border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur-md text-left transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60"
                     >
                       <span className="text-2xl block mb-2">{action.icon}</span>
                       <span className="text-white text-sm font-semibold">{action.label}</span>
@@ -976,7 +976,7 @@ function TeacherDashboard() {
                   placeholder="Search students or topics..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-4 py-3 pl-10 rounded-xl bg-white/10 border border-white/15 text-white text-sm placeholder:text-white/30 backdrop-blur-md focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/60 transition-all"
+                  className="w-full px-4 py-3 pl-10 rounded-xl bg-white/10 border border-white/15 text-white text-sm placeholder:text-white/30 backdrop-blur-md focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/60 transition-all"
                   aria-label="Search students"
                 />
                 <span className="absolute left-3 top-3.5 text-white/30">🔍</span>

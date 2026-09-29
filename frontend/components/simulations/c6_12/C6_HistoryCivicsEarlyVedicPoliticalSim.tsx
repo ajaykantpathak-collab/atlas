@@ -1431,7 +1431,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
                   <span className="text-xs text-slate-400">Nishka Exchange Value</span>
-                  <div className="text-2xl font-black text-indigo-300 mt-1">
+                  <div className="text-2xl font-black text-gold-300 mt-1">
                     {Math.round(cattleCount / 12)} Ornaments
                   </div>
                   <span className="text-[10px] text-slate-400">Gift medium (not coin!)</span>
@@ -1475,8 +1475,8 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
           {currentSlide === 2 && (
             <div className="space-y-4 bg-slate-900 p-6 rounded-2xl border border-slate-800">
               {!predictionMade ? (
-                <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/60">
-                  <span className="text-xs font-extrabold uppercase text-indigo-300">
+                <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/60">
+                  <span className="text-xs font-extrabold uppercase text-gold-300">
                     Predict Before You Experiment
                   </span>
                   <p className="text-sm font-semibold text-white mt-1">
@@ -1498,7 +1498,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                   </div>
                 </div>
               ) : (
-                <div className="p-3 bg-slate-950 rounded-xl border border-indigo-800/40 text-xs text-indigo-200 flex items-center justify-between">
+                <div className="p-3 bg-slate-950 rounded-xl border border-gold-800/40 text-xs text-gold-200 flex items-center justify-between">
                   <span>💡 Prediction Logged: {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                   {predictionVerified && <span className="text-emerald-400 font-bold">✓ Verified!</span>}
                 </div>
@@ -1589,7 +1589,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <span className="text-xs text-slate-400">Second Urbanisation Status</span>
-                  <div className="text-lg font-black text-indigo-300 mt-1">
+                  <div className="text-lg font-black text-gold-300 mt-1">
                     {ironLevel > 60 ? 'Rising Towns' : 'Rural Villages'}
                   </div>
                   <span className="text-[10px] text-slate-400">Trade on Ganga waterway</span>
@@ -1621,11 +1621,11 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="flex justify-between items-center">
                     <span className="text-xs font-bold text-slate-300">Sabha &amp; Samiti Assembly Voice</span>
-                    <span className="text-xs font-black text-blue-400">{calculatedAssemblyInfluence}%</span>
+                    <span className="text-xs font-black text-gold-400">{calculatedAssemblyInfluence}%</span>
                   </div>
                   <div className="h-2 bg-slate-800 rounded-full mt-2 overflow-hidden">
                     <motion.div
-                      className="h-full bg-blue-500"
+                      className="h-full bg-gold-500"
                       animate={{ width: `${calculatedAssemblyInfluence}%` }}
                     />
                   </div>
@@ -1660,8 +1660,8 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                   Later Vedic Varna Stratification (Hereditary by Birth)
                 </span>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
-                  <div className="p-2 bg-indigo-950/70 border border-indigo-700/50 rounded-lg">
-                    <span className="font-bold text-indigo-200 block">1. Brahmin</span>
+                  <div className="p-2 bg-gold-950/70 border border-gold-700/50 rounded-lg">
+                    <span className="font-bold text-gold-200 block">1. Brahmin</span>
                     <span className="text-[10px] text-slate-400">Priesthood &amp; Sanskrit study</span>
                   </div>
                   <div className="p-2 bg-amber-950/70 border border-amber-700/50 rounded-lg">
@@ -1773,8 +1773,8 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                   </div>
                 </div>
               ) : (
-                <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40 space-y-3">
-                  <h3 className="text-sm font-bold text-indigo-300">
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40 space-y-3">
+                  <h3 className="text-sm font-bold text-gold-300">
                     Gautama Buddha (563 BCE – 483 BCE, Mahaparinirvana at Kushinagar)
                   </h3>
                   <p className="text-xs text-slate-300">
@@ -1784,7 +1784,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
                     {['Dukkha (Suffering exists)', 'Samudaya (Origin: Craving)', 'Nirodha (Cessation possible)', 'Magga (Eight-Fold Path)'].map((truth, i) => (
                       <div key={i} className="p-2 bg-slate-900 border border-slate-800 rounded-lg">
-                        <span className="font-bold text-indigo-300 block text-[11px]">Noble Truth {i + 1}</span>
+                        <span className="font-bold text-gold-300 block text-[11px]">Noble Truth {i + 1}</span>
                         <span className="text-[10px] text-slate-400">{truth}</span>
                       </div>
                     ))}
@@ -1846,7 +1846,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                 <label className="text-xs font-bold text-slate-300 flex justify-between">
                   <span>Cattle Pen Size:</span>
-                  <span className="text-blue-400">{cattleCount} cows</span>
+                  <span className="text-gold-400">{cattleCount} cows</span>
                 </label>
                 <input
                   type="range"
@@ -1855,7 +1855,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                   max={150}
                   value={cattleCount}
                   onChange={e => handleCattleChange(Number(e.target.value))}
-                  className="w-full mt-2 accent-blue-500"
+                  className="w-full mt-2 accent-gold-500"
                 />
               </div>
             </div>
@@ -1928,7 +1928,7 @@ function C6_HistoryCivicsEarlyVedicPoliticalSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300'
                       : difficulty === 'standard'
-                      ? 'bg-blue-950/60 border-blue-500 text-blue-300'
+                      ? 'bg-gold-950/60 border-gold-500 text-gold-300'
                       : 'bg-rose-950/60 border-rose-500 text-rose-300'
                   }`}
                 >

@@ -11,7 +11,7 @@ export const w_c12_geohumandevelopmentcbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Major Schools of Human Geography: Determinism',
     chapters: [],
     nodeIds: ['c12_geo_cbse_01_004', 'c12_geo_cbse_01_005', 'c12_geo_cbse_01_006', 'c12_geo_cbse_03_001', 'c12_geo_cbse_03_002', 'c12_geo_cbse_03_003', 'c12_geo_cbse_03_004', 'c12_geo_cbse_03_005', 'c12_geo_cbse_03_006', 'c12_geo_cbse_03_007', 'c12_geo_cbse_03_008', 'c12_geo_cbse_03_009', 'c12_geo_cbse_03_010', 'c12_geo_cbse_07_001', 'c12_geo_cbse_07_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a tribal hamlet in the Abujh Maad region of Chhattisgarh where families practice shifting cultivation.', goal: 'Master Major Schools of Human Geography: Determinism.' },
     discovery: {
         question: 'A student argues: "The Inuit in the Arctic and the Bedouins in the Sahara both practice determinism because they wear fur and live in tents respectively.".',
@@ -20,7 +20,7 @@ export const w_c12_geohumandevelopmentcbsesim: SimDef = {
         hook: 'Students equate "Environmental Determinism" with "Climate Determinism" (e.g., "tropical climates make people lazy,.',
     },
     teaching: [
-        { title: 'Environmental Determinism is the school of.', text: 'Environmental Determinism is the school of thought in human geography which asserts that the physical environment (climate, terrain, soil, vegetation) exclusively controls, determines, and limits the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Environmental Determinism is the school of.', text: 'Environmental Determinism is the school of thought in human geography which asserts that the physical environment (climate, terrain, soil, vegetation) exclusively controls, determines, and limits the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_01_004', title: 'Environmental Determinism is the school.',

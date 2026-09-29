@@ -74,7 +74,7 @@ export function C12_BiotechnologyHostVectorSystemSim() {
           <p className="text-xs text-slate-400 mb-2">Origin of replication (ori)</p>
           <div className="flex gap-2">
             {ORIS.map((o) => (
-              <button key={o.id} onClick={() => setOriId(o.id)} className={`flex-1 min-h-11 px-2 rounded-xl text-xs font-bold border ${oriId === o.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+              <button key={o.id} onClick={() => setOriId(o.id)} className={`flex-1 min-h-11 px-2 rounded-xl text-xs font-bold border ${oriId === o.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
                 {o.label}
               </button>
             ))}
@@ -84,7 +84,7 @@ export function C12_BiotechnologyHostVectorSystemSim() {
           <p className="text-xs text-slate-400 mb-2">Selectable marker</p>
           <div className="flex gap-2">
             {MARKERS.map((m) => (
-              <button key={m.id} onClick={() => setMarkerId(m.id)} className={`flex-1 min-h-11 px-2 rounded-xl text-xs font-bold border ${markerId === m.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+              <button key={m.id} onClick={() => setMarkerId(m.id)} className={`flex-1 min-h-11 px-2 rounded-xl text-xs font-bold border ${markerId === m.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
                 {m.label}
               </button>
             ))}
@@ -107,7 +107,7 @@ export function C12_BiotechnologyHostVectorSystemSim() {
           </label>
           <input type="range" min={0.1} max={5} step={0.1} value={uptakePct} aria-label="DNA uptake efficiency percent"
             onChange={(e) => setUptakePct(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-amber-500" />
-          <button onClick={() => setScreened(!screened)} className={`w-full mt-1 min-h-9 rounded-lg text-[11px] font-bold border ${screened ? 'bg-violet-950/60 border-violet-700 text-violet-300' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
+          <button onClick={() => setScreened(!screened)} className={`w-full mt-1 min-h-9 rounded-lg text-[11px] font-bold border ${screened ? 'bg-gold-950/60 border-gold-700 text-gold-300' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
             {screened ? 'X-gal blue-white screen: ON' : 'X-gal blue-white screen: OFF'}
           </button>
         </div>
@@ -136,10 +136,10 @@ export function C12_BiotechnologyHostVectorSystemSim() {
           ) : (
             <>
               <p className="text-slate-300 flex justify-between"><span>Colonies</span><span className="font-mono font-bold text-emerald-300">{result.colonies === 0 ? '0' : result.colonies.toLocaleString('en-IN', { notation: 'compact' })}</span></p>
-              <p className="text-slate-300 flex justify-between"><span>Plasmid copies per cell</span><span className="font-mono font-bold text-indigo-300">{ori.copies}</span></p>
+              <p className="text-slate-300 flex justify-between"><span>Plasmid copies per cell</span><span className="font-mono font-bold text-gold-300">{ori.copies}</span></p>
               <p className="text-slate-300 flex justify-between"><span>Relative protein yield</span><span className="font-mono font-bold text-amber-300">{yieldMg.toFixed(1)} mg/L equiv.</span></p>
               {plated && result.colonies > 0 && screened && (
-                <p className="text-slate-300 flex justify-between"><span>White : blue colonies</span><span className="font-mono font-bold text-violet-300">{dots.filter((d) => d.white).length} : {dots.filter((d) => !d.white).length}</span></p>
+                <p className="text-slate-300 flex justify-between"><span>White : blue colonies</span><span className="font-mono font-bold text-gold-300">{dots.filter((d) => d.white).length} : {dots.filter((d) => !d.white).length}</span></p>
               )}
               <p className={`p-2 rounded-lg font-bold ${result.viable ? 'bg-emerald-950/60 border border-emerald-700 text-emerald-300' : 'bg-rose-950/60 border border-rose-700 text-rose-300'}`}>{result.note}</p>
             </>

@@ -68,7 +68,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Hypothesis",
+    "title": "Hypothesis Is a Tentative",
     "text": "A hypothesis is a tentative, testable explanation or prediction that proposes a relationship between variables based on prior observations or scientific knowledge, which can be supported or refuted through controlled experimentation.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -253,7 +253,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Student A demonstrates careful observation (systematic, measurable, comparative). Student B demonstrates creative thinking (proposing a mechanism — charge conduction",
      "The statement is vague: \"differently\" is not measurable and does not specify the direction of change (increase/decrease in time period)"
     ],
-    "hint": "Straight from the 'hypothesis' slide -- match the key terms.",
+    "hint": "Straight from the 'hypothesis is a tentative' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student cannot distinguish between a testable prediction and a vague guess.",
     "id": "gen_c8_phy_ch01_q4",
     "nodeId": "c8_physics_ch1_4",
@@ -385,9 +385,9 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What gas is produced by yeast during fermentation that causes dough to rise?",
     "answer": "Carbon dioxide (CO₂) is produced",
     "options": [
-     "A well-structured observation table must have: (1) columns for the independent variable with units, (2) columns for the dependent variable with units (including repeated trials)",
-     "includes any five from: Microorganisms, Synthetic Fibres and Plastics, Materials: Metals and Non-metals, Coal and Petroleum, Combustion and Flame",
-     "Flame dioxide (CO₂) is produced",
+     "Science in Everyday Life is the practice of using scientific principles and investigative methods to explain common phenomena (like dough rising due to yeast fermentation) and",
+     "The student can explain the scientific mechanism behind at least two everyday phenomena (e.g., dough rising, cooking",
+     "They dioxide (CO₂) is produced",
      "Carbon dioxide (CO₂) is produced"
     ],
     "hint": "Straight from the 'Science in Everyday Life' slide -- match the key terms.",
@@ -462,7 +462,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "In *Microorganisms*, observation is primarily microscopic and qualitative (shape, movement, colony growth) and often requires culturing over days",
      "A rechargeable cell employs a reversible chemical reaction that can be driven in the opposite direction by an external current, restoring the original reactants"
     ],
-    "hint": "Straight from the 'rechargeable cell  uses' slide -- match the key terms.",
+    "hint": "Straight from the 'rechargeable cell uses' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"rechargeable cells have more chemicals\" reveals the student is focusing on quantity rather than the reversibility of the redox reaction.",
     "id": "gen_c8_phy_ch01_q11",
     "nodeId": "c8_physics_ch2_11",
@@ -566,18 +566,18 @@ export const C8_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A Class 8 group designs an investigation for *Chemical Effects of Electric Current*: \"We will pass current through water with different amounts of salt and see which produces the most bubbles.",
-    "answer": "The plan has a flaw: using pencils as electrodes introduces an uncontrolled variable—graphite from the pencil leads may react or wear unevenly",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can transform a vague wonder (e.g., \"Why do some things float?\") into a focused, testable question that identifies independent and dependent variables (e",
     "options": [
-     "B. It identifies the independent variable (Sun's position / time of day) and dependent variable (shadow length) and implies a measurable relationship",
-     "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard)",
-     "The plan has a flaw: using pencils as electrodes introduces an uncontrolled variable—graphite from the pencil leads may react or wear unevenly"
+     "The student can independently design a fair-test experiment for a given physics question: they write a clear aim, identify the independent, dependent",
+     "Student can formulate a testable hypothesis in \"If... then... because...\" format that identifies independent and dependent variables with measurable units",
+     "Student can transform a vague wonder (e.g., \"Why do some things float?\") into a focused, testable question that identifies independent and dependent variables (e"
     ],
-    "hint": "Straight from the 'overview of the major themes' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls the plan \"perfect\" reveals the student cannot yet evaluate experimental design for confounding factors—a key skill from c8_physics_ch1_7.",
+    "hint": "Straight from the 'focused scientific question' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can transform a vague wonder (e.g., \"Why do some things float?",
     "id": "gen_c8_phy_ch01_q18",
-    "nodeId": "c8_physics_ch1_10",
-    "difficulty": "standard"
+    "nodeId": "c8_physics_ch1_1",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -592,14 +592,14 @@ export const C8_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_phy_ch03",
-  "title": "Force",
+  "title": "Force Is a Push Or Pull",
   "subtitle": "Physics · Chapter 3",
   "classLevel": 8,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Force",
+  "topic": "Force Is a Push Or Pull",
   "chapters": [
-   "Physics Ch3: Force"
+   "Physics Ch3: Force Is a Push Or Pull"
   ],
   "nodeIds": [
    "c8_physics_ch3_1",
@@ -618,7 +618,7 @@ export const C8_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Force directly with your eyes?",
+   "question": "Can you see Force Is a Push Or Pull directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -629,7 +629,7 @@ export const C8_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Force",
+    "title": "Force Is a Push Or Pull",
     "text": "Force is a push or pull acting on an object that can change its state of motion (speed or direction) or its shape and size; it is a vector quantity having both magnitude and direction, measured in newtons (N) where 1 N = 1 kg·m/s².",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -659,7 +659,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Friction",
+    "title": "Friction Is a Contact Force",
     "text": "Friction is a contact force that opposes the relative motion or tendency of motion between two surfaces in contact, acting parallel to the contact surface and opposite to the direction of motion or applied force.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -687,7 +687,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Forces are vectors; opposite directions mean we subtract magnitudes (45 N - 30 N = 15 N) and the direction follows the larger force (south)",
      "Attach the rubber band to the toy car. Pull the car horizontally with the spring balance reading 2 N — car accelerates forward"
     ],
-    "hint": "Straight from the 'Force' slide -- match the key terms.",
+    "hint": "Straight from the 'Force is a push or pull' slide -- match the key terms.",
     "misconception": "A poor answer that only pulls horizontally or ignores the spring balance reading shows the student cannot design an experiment isolating magnitude vs direction.",
     "id": "gen_c8_phy_ch03_q1",
     "nodeId": "c8_physics_ch3_1",
@@ -863,7 +863,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Attach the rubber band to the toy car. Pull the car horizontally with the spring balance reading 2 N — car accelerates forward",
      "Procedure: 1) Place block on tabletop. Attach spring balance horizontally. 2) Pull gently until block just starts moving; record the maximum reading (static friction)"
     ],
-    "hint": "Straight from the 'Friction' slide -- match the key terms.",
+    "hint": "Straight from the 'Friction is a contact force' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"push and see which goes farthest\" or changing mass between trials) shows the student doesn't control variables or measure force quantitatively.",
     "id": "gen_c8_phy_ch03_q6",
     "nodeId": "c8_physics_ch3_9",
@@ -1112,24 +1112,24 @@ export const C8_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about force?",
+    "What surprised you about force is a push or pull?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Force mastered! 🎯",
+  "successLine": "Force Is a Push Or Pull mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_phy_ch04",
-  "title": "Pressure",
+  "title": "Pressure Is The Thrust",
   "subtitle": "Physics · Chapter 4",
   "classLevel": 8,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Pressure",
+  "topic": "Pressure Is The Thrust",
   "chapters": [
-   "Physics Ch4: Pressure"
+   "Physics Ch4: Pressure Is The Thrust"
   ],
   "nodeIds": [
    "c8_physics_ch4_1",
@@ -1152,7 +1152,7 @@ export const C8_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Pressure in real working life?",
+   "question": "Who uses Pressure Is The Thrust in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1163,7 +1163,7 @@ export const C8_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Pressure",
+    "title": "Pressure Is The Thrust",
     "text": "Pressure is the thrust (force acting perpendicular to a surface) applied per unit area of that surface. Its SI unit is the pascal (Pa), where 1 Pa = 1 N/m².",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1175,13 +1175,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Pressure",
+    "title": "Pressure Is The Thrust",
     "text": "Pressure is the thrust (force acting perpendicular to a surface) per unit area; it increases when the same force acts on a smaller area or when the force increases while the area stays constant. The SI unit of pressure is the pascal (Pa), where 1 Pa = 1 N/m².",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Pressure",
+    "title": "Pressure Is The Force Acting Per",
     "text": "Pressure is the force acting per unit area (P = F/A). For a given force, increasing the contact area reduces the pressure exerted on a surface, which is why broad straps on school bags and wide tyres on heavy vehicles are used to distribute weight over a",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1193,13 +1193,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Barometer",
+    "title": "A Barometer Is An Instrument",
     "text": "A barometer is an instrument that measures atmospheric pressure by balancing the weight of a column of mercury (or other fluid) against the weight of the air column above it; the height of the fluid column (typically 760 mm of mercury at sea level) directly",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Wind",
+    "title": "Wind Is The Horizontal Movement",
     "text": "Wind is the horizontal movement of air from regions of higher atmospheric pressure to regions of lower atmospheric pressure, driven by the pressure gradient force. The greater the pressure difference over a given distance, the faster the wind speed.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1211,13 +1211,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Thunderstorm",
+    "title": "Thunderstorm Is a Violent",
     "text": "A thunderstorm is a violent, short-lived weather disturbance characterized by lightning, thunder, heavy rain or hail, and strong gusty winds, formed when warm, moist air rises rapidly in an unstable atmosphere, condenses into towering cumulonimbus clouds, and",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Cyclone",
+    "title": "A Cyclone Is a Large-scale Low-pressure",
     "text": "A cyclone is a large-scale low-pressure weather system characterized by spiraling inward winds that rotate counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere due to the Coriolis effect, forming over warm tropical oceans",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1389,10 +1389,10 @@ export const C8_PHY_GEN: SimDef[] = [
     "answer": "Wind is caused by differences in atmospheric pressure. Air moves horizontally from regions of higher pressure to regions of lower pressure",
     "options": [
      "The typical height is 760 mm (76 cm) of mercury, representing the atmospheric pressure at sea level (≈ 1.013 × 10⁵ Pa)",
-     "SI unit: metre per second (m/s). Wind direction is the direction FROM which the wind blows, expressed in degrees (0° = north, 90° = east) or compass points (N, NE, E...)",
+     "The student can explain how a mercury barometer works, calculate atmospheric pressure from the height of the mercury column using P = hρg",
      "Wind is caused by differences in atmospheric pressure. Air moves horizontally from regions of higher pressure to regions of lower pressure"
     ],
-    "hint": "Straight from the 'Wind' slide -- match the key terms.",
+    "hint": "Straight from the 'Wind is the horizontal movement' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"wind blows from low to high pressure\" or \"wind is caused by temperature alone\") reveals the student confuses the direction of airflow or thinks temperature directly creates wind without the intermediate step of pressure difference.",
     "id": "gen_c8_phy_ch04_q7",
     "nodeId": "c8_physics_ch4_7",
@@ -1628,9 +1628,9 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What is the direction of deflection of wind due to the Coriolis Effect in the Northern Hemisphere?",
     "answer": "In the Northern Hemisphere, wind is deflected to the right of its direction of motion",
     "options": [
-     "The SI unit of pressure is the pascal (Pa), defined as one newton per square metre (1 Pa = 1 N/m²)",
-     "Pressure = Force / Area = 10 N / 2 m² = 5 Pa. SI unit: pascal (Pa) = N/m²",
-     "In the Same, wind is deflected to the right of its direction of motion",
+     "The student can explain how pressure difference, Earth's rotation, and surface friction together determine the observed wind direction and speed at a given location",
+     "Wind is caused by differences in atmospheric pressure. Air moves horizontally from regions of higher pressure to regions of lower pressure",
+     "In the Speed, wind is deflected to the right of its direction of motion",
      "In the Northern Hemisphere, wind is deflected to the right of its direction of motion"
     ],
     "hint": "Straight from the 'Coriolis Effect' slide -- match the key terms.",
@@ -1918,7 +1918,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. Wind is fundamentally caused by pressure differences (pressure gradient force), not directly by Earth's rotation",
      "Step 1: Area = 50 cm × 20 cm = 1000 cm² = 1000 × 10⁻⁴ m² = 0.1 m². Step 2: P = F/A = 250 N / 0.1 m² = 2500 N/m² = 2500 Pa"
     ],
-    "hint": "Straight from the 'Pressure' slide -- match the key terms.",
+    "hint": "Straight from the 'Pressure is the thrust' slide -- match the key terms.",
     "misconception": "A wrong answer of 2.5 Pa (using cm² directly) or 250000 Pa (incorrect conversion) reveals the student is not converting area to m² before substituting, a very common unit error at this level.",
     "id": "gen_c8_phy_ch04_q18",
     "nodeId": "c8_physics_ch4_1",
@@ -1927,24 +1927,24 @@ export const C8_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about pressure?",
+    "What surprised you about pressure is the thrust?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Pressure mastered! 🎯",
+  "successLine": "Pressure Is The Thrust mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_phy_ch05",
-  "title": "Solution",
+  "title": "A Solution Is a Homogeneous Mixture",
   "subtitle": "Physics · Chapter 5",
   "classLevel": 8,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Solution",
+  "topic": "A Solution Is a Homogeneous Mixture",
   "chapters": [
-   "Physics Ch5: Solution"
+   "Physics Ch5: A Solution Is a Homogeneous Mixture"
   ],
   "nodeIds": [
    "c8_physics_ch5_1",
@@ -1965,7 +1965,7 @@ export const C8_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Solution more about facts, or about reasoning?",
+   "question": "Is A Solution Is a Homogeneous more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -1976,13 +1976,13 @@ export const C8_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Solution",
+    "title": "A Solution Is a Homogeneous Mixture",
     "text": "A solution is a homogeneous mixture of two or more substances where the particles are uniformly distributed at the molecular level and do not settle out.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Solution",
+    "title": "A Solution Is a Homogeneous Mixture",
     "text": "A solution is a homogeneous mixture where one substance (the solute) disperses uniformly at the molecular level in another substance (the solvent).",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1994,7 +1994,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Solubility",
+    "title": "Solubility Is The Maximum Mass",
     "text": "Solubility is the maximum mass of a solute (in grams) that can dissolve in 100 grams of a solvent at a specific temperature to form a saturated solution.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2018,13 +2018,13 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Water",
+    "title": "Water Is Called a Universal Solvent",
     "text": "Water is called a universal solvent because its polar molecular structure allows it to dissolve a wider variety of substances (ionic compounds, polar covalent molecules, and many gases) than any other liquid, forming homogeneous mixtures called aqueous",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Evaporation",
+    "title": "Evaporation Is a Separation Technique Where",
     "text": "Evaporation is a separation technique where a soluble solid is recovered from a solution by heating the solvent until it vaporizes, leaving the solid residue behind.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2105,11 +2105,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "Define solute and solvent. Give one example of each from a solid-liquid solution you see at home.",
     "answer": "Solute: the substance that dissolves (e.g., sugar in tea). Solvent: the substance in which the solute dissolves, usually present in larger amount (e.g., water in tea)",
     "options": [
-     "particle size <1 nm, homogeneous (uniform throughout), does NOT show Tyndall effect. Suspension: particle size >1000 nm, heterogeneous (non-uniform), shows Tyndall effect",
-     "The solubility of NaCl increases slightly with temperature (from about 36 g/100 g water at 20°C to about 39 g/100 g water at 80°C)",
+     "The student can correctly identify the solute and solvent in at least five different types of solutions (solid-in-liquid, gas-in-liquid, liquid-in-liquid, gas-in-gas",
+     "Solubility is the maximum mass of solute (in grams) that dissolves in 100 grams of solvent at a specific temperature to form a saturated solution",
      "Solute: the substance that dissolves (e.g., sugar in tea). Solvent: the substance in which the solute dissolves, usually present in larger amount (e.g., water in tea)"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "A wrong answer (swapping the two) reveals the student thinks the solute is always the liquid or the component they \"add,\" confusing the action of adding with the role of dissolving.",
     "id": "gen_c8_phy_ch05_q2",
     "nodeId": "c8_physics_ch5_2",
@@ -2208,11 +2208,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What happens to the solubility of common salt (NaCl) in water when the temperature of the water is increased from 20°C to 80°C?",
     "answer": "The solubility of NaCl increases slightly with temperature (from about 36 g/100 g water at 20°C to about 39 g/100 g water at 80°C)",
     "options": [
-     "Water's polar covalent bonds give it partial positive charges on hydrogen atoms and a partial negative charge on oxygen",
-     "particle size <1 nm, homogeneous (uniform throughout), does NOT show Tyndall effect. Suspension: particle size >1000 nm, heterogeneous (non-uniform), shows Tyndall effect",
+     "Solute: the substance that dissolves (e.g., sugar in tea). Solvent: the substance in which the solute dissolves, usually present in larger amount (e.g., water in tea)",
+     "Solubility is the maximum mass of solute (in grams) that dissolves in 100 grams of solvent at a specific temperature to form a saturated solution",
      "The solubility of NaCl increases slightly with temperature (from about 36 g/100 g water at 20°C to about 39 g/100 g water at 80°C)"
     ],
-    "hint": "Straight from the 'Solubility of a solid solute in' slide -- match the key terms.",
+    "hint": "Straight from the 'Solubility of a solid solute' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"solubility decreases\" or \"stays exactly the same\" reveals the student may be confusing solids with gases (where solubility decreases with temperature) or thinks solubility is a fixed property independent of temperature.",
     "id": "gen_c8_phy_ch05_q5",
     "nodeId": "c8_physics_ch5_5",
@@ -2313,11 +2313,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What is the scientific reason water is called a \"universal solvent\"?",
     "answer": "Water's polar covalent bonds give it partial positive charges on hydrogen atoms and a partial negative charge on oxygen",
     "options": [
-     "Solute: the substance that dissolves (e.g., sugar in tea). Solvent: the substance in which the solute dissolves, usually present in larger amount (e.g., water in tea)",
-     "The solubility of NaCl increases slightly with temperature (from about 36 g/100 g water at 20°C to about 39 g/100 g water at 80°C)",
+     "Solubility is the maximum mass of solute (in grams) that dissolves in 100 grams of solvent at a specific temperature to form a saturated solution",
+     "Students think distillation separates *any* mixture, e.g., they believe a mixture of sand and water can be distilled to get pure water and sand",
      "Water's polar covalent bonds give it partial positive charges on hydrogen atoms and a partial negative charge on oxygen"
     ],
-    "hint": "Straight from the 'Water' slide -- match the key terms.",
+    "hint": "Straight from the 'Water is called a universal' slide -- match the key terms.",
     "misconception": "A wrong answer like \"water is everywhere\" or \"water dissolves everything\" reveals the student confuses the term \"universal\" (meaning wide range) with \"all substances\" and misses the molecular polarity explanation.",
     "id": "gen_c8_phy_ch05_q8",
     "nodeId": "c8_physics_ch5_8",
@@ -2600,7 +2600,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Materials: Salt, water, muddy water (soil + water), filter paper, funnel, two glasses. Steps: 1) Dissolve salt in water (Solution A)",
      "The statement is incorrect. Solvent is defined as the component present in the larger amount (by mass or volume), not by physical state"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student agrees, they hold the misconception that \"the solid is always the solute\" or \"the liquid is always the solvent,\" ignoring the quantitative definition.",
     "id": "gen_c8_phy_ch05_q13",
     "nodeId": "c8_physics_ch5_1",
@@ -2615,7 +2615,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The solution has reached saturation: 15 g dissolved in 100 mL, so the solubility is 15 g/100 mL at 25°C",
      "Original tincture: solute = iodine (solid, small amount), solvent = alcohol (liquid, larger amount)"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student says alcohol remains the solvent, they fail to apply the \"larger amount\" criterion to the new mixture.",
     "id": "gen_c8_phy_ch05_q14",
     "nodeId": "c8_physics_ch5_1",
@@ -2630,7 +2630,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Student X's solution is unsaturated (crystal dissolves). Student Y's solution is saturated (crystal grows)",
      "In air, nitrogen (~78%) is the solvent; oxygen (~21%), argon, CO₂, and other gases are solutes. Air is a solution because the gases are uniformly mixed at the molecular level"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says \"oxygen is the solvent because it supports life,\" they confuse biological importance with quantitative abundance.",
     "id": "gen_c8_phy_ch05_q15",
     "nodeId": "c8_physics_ch5_1",
@@ -2645,7 +2645,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "A solution is a homogeneous mixture where solute particles are uniformly distributed at the molecular level in a solvent",
      "Similarities: Both are homogeneous at molecular level; solute particles do not settle. Differences: Brass is a solid-solid solution (Zn solute in Cu solvent)"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says brass is not a solution because it's a metal, they lack the concept of solid solutions.",
     "id": "gen_c8_phy_ch05_q16",
     "nodeId": "c8_physics_ch5_1",
@@ -2660,7 +2660,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Similarities: Both are homogeneous at molecular level; solute particles do not settle. Differences: Brass is a solid-solid solution (Zn solute in Cu solvent)",
      "A solution is a homogeneous mixture where solute particles are uniformly distributed at the molecular level in a solvent"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If a student says \"solute is the liquid\" or \"solvent is the solid,\" they confuse the roles based on state rather than relative amount.",
     "id": "gen_c8_phy_ch05_q17",
     "nodeId": "c8_physics_ch5_1",
@@ -2675,7 +2675,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The solution has reached saturation: 15 g dissolved in 100 mL, so the solubility is 15 g/100 mL at 25°C",
      "Materials: Salt, water, two transparent glasses, spoon, food colour (optional). Steps: (1) Dissolve 1 tsp salt in 100 mL water in Glass A"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Materials: Salt, water, two transparent glasses, spoon, food colour (optional).",
     "id": "gen_c8_phy_ch05_q18",
     "nodeId": "c8_physics_ch5_1",
@@ -2684,24 +2684,24 @@ export const C8_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about solution?",
+    "What surprised you about a solution is a homogeneous mixture?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Solution mastered! 🎯",
+  "successLine": "A Solution Is a Homogeneous mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_phy_ch06",
-  "title": "Pole",
+  "title": "The Pole Is The Geometric",
   "subtitle": "Physics · Chapter 6",
   "classLevel": 8,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Pole",
+  "topic": "The Pole Is The Geometric",
   "chapters": [
-   "Physics Ch6: Pole"
+   "Physics Ch6: The Pole Is The Geometric"
   ],
   "nodeIds": [
    "c8_physics_ch6_2",
@@ -2717,7 +2717,7 @@ export const C8_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Pole actually explain?",
+   "question": "In one line -- what does The Pole Is The Geometric actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -2728,7 +2728,7 @@ export const C8_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Pole",
+    "title": "The Pole Is The Geometric",
     "text": "The pole (P) is the geometric centre of the spherical mirror's reflecting surface. The centre of curvature (C) is the centre of the hollow sphere of which the mirror forms a part.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2752,7 +2752,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Lens",
+    "title": "A Lens Is a Transparent Optical",
     "text": "A lens is a transparent optical medium bounded by two spherical surfaces (or one spherical and one plane surface) that refracts light to converge or diverge a beam.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2989,7 +2989,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "A good answer includes: (1) Hold spoon close to eye → magnified erect image (shaving/dentist). (2) Hold spoon at arm's length → inverted diminished image (not a use)",
      "The claim is false. Covering half the lens reduces the intensity (brightness) of the image but the full image still forms because every point on the object sends rays through all"
     ],
-    "hint": "Straight from the 'lens' slide -- match the key terms.",
+    "hint": "Straight from the 'A lens is a transparent optical' slide -- match the key terms.",
     "misconception": "A wrong evaluation (agreeing with the claim) reveals the student thinks each part of the lens forms a separate piece of the image, not understanding that each point on the lens contributes to the whole image.",
     "id": "gen_c8_phy_ch06_q5",
     "nodeId": "c8_physics_ch6_10",
@@ -3010,7 +3010,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Procedure: Place a lit candle in front of the convex mirror (spoon back). Hold a white screen (paper) at various positions in front of the mirror (where reflected rays go) and",
      "The statement is incorrect. The principal axis is the straight line passing through the pole (P) and the centre of curvature (C)"
     ],
-    "hint": "Straight from the 'pole' slide -- match the key terms.",
+    "hint": "Straight from the 'The pole is the geometric' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between \"principal axis\" (unique line through P and C) and any radius line from C to the spherical surface.",
     "id": "gen_c8_phy_ch06_q6",
     "nodeId": "c8_physics_ch6_2",
@@ -3025,7 +3025,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Procedure: Place a lit candle in front of the convex mirror (spoon back). Hold a white screen (paper) at various positions in front of the mirror (where reflected rays go) and",
      "A spherical mirror is a part of a hollow sphere. The centre of curvature is the centre of that whole sphere, not a point on the mirror's surface"
     ],
-    "hint": "Straight from the 'pole' slide -- match the key terms.",
+    "hint": "Straight from the 'The pole is the geometric' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student confuses the centre of curvature with the pole (which IS on the surface) or thinks \"centre\" means the middle of the mirror's physical area.",
     "id": "gen_c8_phy_ch06_q7",
     "nodeId": "c8_physics_ch6_2",
@@ -3040,7 +3040,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. The principal axis is the straight line passing through the pole (P) and the centre of curvature (C)",
      "Steps: (1) Place the spoon's concave side (inner curve) on paper. (2) Trace the circular rim. (3) Find the centre of this circle by folding or using a compass - mark it as C"
     ],
-    "hint": "Straight from the 'pole' slide -- match the key terms.",
+    "hint": "Straight from the 'The pole is the geometric' slide -- match the key terms.",
     "misconception": "A poor answer traces only the rim without distinguishing P (on the surface) from C (centre of the circle), or cannot explain why C shifts sides.",
     "id": "gen_c8_phy_ch06_q8",
     "nodeId": "c8_physics_ch6_2",
@@ -3055,7 +3055,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "A spherical mirror is a part of a hollow sphere. The centre of curvature is the centre of that whole sphere, not a point on the mirror's surface",
      "Distance PC = R = 30 cm. No, the centre of curvature cannot lie on the mirror's surface because it is 30 cm from the pole"
     ],
-    "hint": "Straight from the 'pole' slide -- match the key terms.",
+    "hint": "Straight from the 'The pole is the geometric' slide -- match the key terms.",
     "misconception": "A wrong answer reveals confusion between aperture (physical size of mirror) and radius of curvature (radius of parent sphere).",
     "id": "gen_c8_phy_ch06_q9",
     "nodeId": "c8_physics_ch6_2",
@@ -3109,11 +3109,11 @@ export const C8_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about pole?",
+    "What surprised you about the pole is the geometric?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Pole mastered! 🎯",
+  "successLine": "The Pole Is The Geometric mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3174,7 +3174,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Moon",
+    "title": "The Moon Is Visible During Daytime",
     "text": "The Moon is visible during daytime when its orbital position places it above the horizon during daylight hours and its sunlit face reflects enough light to contrast with the bright sky.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3277,7 +3277,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. An annular eclipse occurs when the Moon is near apogee (farthest from Earth), so its angular diameter is smaller than the Sun's",
      "The claim is essentially correct for mid-latitudes. At Full Moon, the Moon is opposite the Sun (180° elongation), so it rises as the Sun sets and sets as the Sun rises"
     ],
-    "hint": "Straight from the 'Moon' slide -- match the key terms.",
+    "hint": "Straight from the 'The Moon is visible during daytime' slide -- match the key terms.",
     "misconception": "A student who says \"Full Moon can be seen at noon\" has the geometry backwards — they're placing the Moon at the same side as the Sun (New Moon position), confusing the phase cycle from c8_physics_ch7_3.",
     "id": "gen_c8_phy_ch07_q4",
     "nodeId": "c8_physics_ch7_6",
@@ -3313,8 +3313,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What is the duration of a mean solar day in hours and in seconds? State the definition of a solar day in your own words.",
     "answer": "A mean solar day is 24 hours = 86,400 seconds. It is the time between two successive solar noons (when the Sun crosses the local meridian)",
     "options": [
+     "The student can explain why a solar day (24 hours) is longer than a sidereal day (23 hours 56 minutes) using a diagram of Earth's rotation and orbital motion",
      "Longitude difference = 88.4° – 72.8° = 15.6°. Time difference = 15.6° / 15° per hour = 1.04 hours = 1 hour 2",
-     "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days",
      "A mean solar day is 24 hours = 86,400 seconds. It is the time between two successive solar noons (when the Sun crosses the local meridian)"
     ],
     "hint": "Straight from the 'solar day' slide -- match the key terms.",
@@ -3338,7 +3338,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Yes, the method is reliable for approximate prediction because the lunar cycle repeats every 29.5 days (synodic period)",
      "Earth's atmosphere refracts (bends) sunlight around the planet's edges into the umbra. Shorter wavelengths (blue) are scattered away (Rayleigh scattering)"
     ],
-    "hint": "Straight from the 'lunar eclipse occurs when the' slide -- match the key terms.",
+    "hint": "Straight from the 'lunar eclipse occurs when' slide -- match the key terms.",
     "misconception": "A wrong answer like \"The Moon reflects Earth's red light\" or \"The Sun's light turns red\" shows the student does not understand atmospheric filtering and refraction.",
     "id": "gen_c8_phy_ch07_q7",
     "nodeId": "c8_physics_ch7_9",
@@ -3359,7 +3359,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. A solar day is defined by the Sun's return to the same meridian due to Earth's rotation",
      "Because the Sun is ~400 times farther away than the Moon, their angular diameters are nearly equal (~0"
     ],
-    "hint": "Straight from the 'solar eclipse occurs when the' slide -- match the key terms.",
+    "hint": "Straight from the 'solar eclipse occurs when' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"The Moon is actually bigger than the Sun\") reveals a lack of understanding of angular size versus physical size, a concept built on rectilinear propagation of light (c6_physics_ch11_036).",
     "id": "gen_c8_phy_ch07_q8",
     "nodeId": "c8_physics_ch7_10",
@@ -3380,7 +3380,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The claim is essentially correct for mid-latitudes. At Full Moon, the Moon is opposite the Sun (180° elongation), so it rises as the Sun sets and sets as the Sun rises",
      "The statement is incorrect. An annular eclipse occurs when the Moon is near apogee (farthest from Earth), so its angular diameter is smaller than the Sun's"
     ],
-    "hint": "Straight from the 'solar eclipse occurs when the' slide -- match the key terms.",
+    "hint": "Straight from the 'solar eclipse occurs when' slide -- match the key terms.",
     "misconception": "A wrong evaluation reveals confusion between the antumbra (annular) and penumbra (partial) regions.",
     "id": "gen_c8_phy_ch07_q9",
     "nodeId": "c8_physics_ch7_10",
@@ -3395,7 +3395,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is false. The Moon's phase is determined by the global Sun-Earth-Moon geometry, not the observer's local position on Earth",
      "Materials: Torch (preferably with a single LED or small bulb), a 2 cm ball (Moon), a 20 cm ball (Earth), a dark room"
     ],
-    "hint": "Straight from the 'solar eclipse occurs when the' slide -- match the key terms.",
+    "hint": "Straight from the 'solar eclipse occurs when' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Materials: Torch (preferably with a single LED or small bulb), a 2 cm ball (Moon), a 20 cm ball (Earth), a dark room.",
     "id": "gen_c8_phy_ch07_q10",
     "nodeId": "c8_physics_ch7_10",
@@ -3410,7 +3410,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days",
      "City A lies within the Moon's umbra (the dark, central shadow cone where the Sun is completely blocked), while City B lies within the penumbra (the outer"
     ],
-    "hint": "Straight from the 'solar eclipse occurs when the' slide -- match the key terms.",
+    "hint": "Straight from the 'solar eclipse occurs when' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"City B has clouds\") reveals the student does not grasp that the shadow is a 3D cone intersecting Earth's surface, not a uniform darkness.",
     "id": "gen_c8_phy_ch07_q11",
     "nodeId": "c8_physics_ch7_10",
@@ -3455,7 +3455,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. A solar day is defined by the Sun's return to the same meridian due to Earth's rotation",
      "The claim is incorrect. Egyptians developed a *solar* civil calendar (365 days, 12 months × 30 days + 5 epagomenal days) tied to the heliacal rising of Sirius"
     ],
-    "hint": "Straight from the 'lunar calendar measures time by' slide -- match the key terms.",
+    "hint": "Straight from the 'lunar calendar measures time' slide -- match the key terms.",
     "misconception": "A wrong evaluation shows the student conflates all ancient calendars as lunar and doesn't know that agriculture requires seasonal (solar) alignment, not lunar phases.",
     "id": "gen_c8_phy_ch07_q14",
     "nodeId": "c8_physics_ch7_7",
@@ -3470,7 +3470,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is false. The Moon's phase is determined by the global Sun-Earth-Moon geometry, not the observer's local position on Earth",
      "The Hindu lunisolar calendar keeps festivals seasonally aligned because it inserts an intercalary month (Adhik Maas) roughly every 32"
     ],
-    "hint": "Straight from the 'lunar calendar measures time by' slide -- match the key terms.",
+    "hint": "Straight from the 'lunar calendar measures time' slide -- match the key terms.",
     "misconception": "A student who says \"both use Moon phases\" misses the critical difference in handling the 11-day annual drift.",
     "id": "gen_c8_phy_ch07_q15",
     "nodeId": "c8_physics_ch7_7",
@@ -3485,7 +3485,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. A solar day is defined by the Sun's return to the same meridian due to Earth's rotation",
      "3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.25 = 1095.75 days"
     ],
-    "hint": "Straight from the 'lunar calendar measures time by' slide -- match the key terms.",
+    "hint": "Straight from the 'lunar calendar measures time' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 3-year lunar cycle: 36 lunar months × 29.5 days = 1062 days. 3 solar years: 3 × 365.",
     "id": "gen_c8_phy_ch07_q16",
     "nodeId": "c8_physics_ch7_7",
@@ -3535,14 +3535,14 @@ export const C8_PHY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_phy_ch08",
-  "title": "Habitat",
+  "title": "Habitat Is The Natural Environment Where",
   "subtitle": "Physics · Chapter 8",
   "classLevel": 8,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Habitat",
+  "topic": "Habitat Is The Natural Environment Where An Organism",
   "chapters": [
-   "Physics Ch8: Habitat"
+   "Physics Ch8: Habitat Is The Natural Environment Where An Organism"
   ],
   "nodeIds": [
    "c8_physics_ch8_1",
@@ -3564,7 +3564,7 @@ export const C8_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Habitat actually explain?",
+   "question": "In one line -- what does Habitat Is The Natural actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -3575,19 +3575,19 @@ export const C8_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Habitat",
+    "title": "Habitat Is The Natural Environment Where",
     "text": "A habitat is the natural environment where an organism lives, providing all necessary biotic (living) and abiotic (non-living) components for its survival, growth, and reproduction.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Ecosystem",
+    "title": "An Ecosystem Is a Functional Unit",
     "text": "An ecosystem is a functional unit where living organisms (biotic components) interact with the non-living physical and chemical factors (abiotic components) of their environment, resulting in a flow of energy and cycling of nutrients.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Producers",
+    "title": "Producers Are Organisms",
     "text": "Producers are organisms (mainly green plants) that capture solar energy through photosynthesis to synthesize their own food; consumers are organisms that obtain energy by eating other organisms (herbivores, carnivores, omnivores); decomposers are organisms",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3617,7 +3617,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Deforestation",
+    "title": "Deforestation Is The Large-scale Removal",
     "text": "Deforestation is the large-scale removal of trees from forested land for human activities such as agriculture, logging, or urbanization, leading to habitat loss where the natural environment required by plants and animals for survival is destroyed or",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3629,7 +3629,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Symbiosis",
+    "title": "Symbiosis Is a Close",
     "text": "Symbiosis is a close, long-term biological interaction between two different species where at least one species benefits; the three main types are mutualism (both benefit), commensalism (one benefits, the other is unaffected), and parasitism (one benefits at",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3647,11 +3647,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What are the two main components of a habitat, and give one example of each from a forest habitat?",
     "answer": "The two main components are biotic (living) and abiotic (non-living). Example: biotic - trees; abiotic - sunlight",
     "options": [
-     "Producers (e.g., mango tree), Consumers (e.g., goat), Decomposers (e.g., bread mold)",
-     "About 10% of energy transfers to the next trophic level; energy is measured in joules (J)",
+     "The student can identify and classify biotic and abiotic components in a given habitat description or diagram",
+     "Symbiosis is a close, long-term biological interaction between two different species where at least one species benefits",
      "The two main components are biotic (living) and abiotic (non-living). Example: biotic - trees; abiotic - sunlight"
     ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only living things or confuses abiotic with biotic shows the student has not grasped the fundamental division of habitat components.",
     "id": "gen_c8_phy_ch08_q1",
     "nodeId": "c8_physics_ch8_1",
@@ -3720,11 +3720,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "Name the three main functional groups of organisms in an ecosystem based on how they obtain energy, and give one common example of each from your surroundings.",
     "answer": "Producers (e.g., mango tree), Consumers (e.g., goat), Decomposers (e.g., bread mold)",
     "options": [
-     "An ecosystem is a community of living organisms interacting with non-living components of their environment",
      "The two main components are biotic (living) and abiotic (non-living). Example: biotic - trees; abiotic - sunlight",
+     "Producers are organisms (mainly green plants) that capture solar energy through photosynthesis to synthesize their own food",
      "Producers (e.g., mango tree), Consumers (e.g., goat), Decomposers (e.g., bread mold)"
     ],
-    "hint": "Straight from the 'Producers' slide -- match the key terms.",
+    "hint": "Straight from the 'Producers are organisms' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"plants, animals, bacteria\" without the functional labels reveals the student is recalling taxonomic groups instead of energy-based roles.",
     "id": "gen_c8_phy_ch08_q3",
     "nodeId": "c8_physics_ch8_3",
@@ -3805,7 +3805,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "answer": "A food web is a network of multiple interconnected food chains showing various feeding relationships in an ecosystem",
     "options": [
      "The primary purpose of an elephant corridor is to connect fragmented habitats so that elephants can move safely between them for food, water, breeding, and seasonal migration",
-     "The two main components are biotic (living) and abiotic (non-living). Example: biotic - trees; abiotic - sunlight",
+     "Elephant corridors are designated strips of natural habitat that connect fragmented forest patches, allowing elephants to move safely between them for food, water, breeding",
      "A food web is a network of multiple interconnected food chains showing various feeding relationships in an ecosystem"
     ],
     "hint": "Straight from the 'food web' slide -- match the key terms.",
@@ -4085,7 +4085,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What are the four main physical (abiotic) environmental factors that, when changed, most directly affect the survival of organisms in a habitat?",
     "answer": "The four main physical factors are temperature, light availability, water availability, and air composition (including oxygen and carbon dioxide levels)",
     "options": [
-     "Approximately 10% is transferred; the remaining 90% is lost primarily as metabolic heat (due to respiration), along with waste (feces, urine) and uneaten biomass",
+     "Balance in nature is the dynamic equilibrium in an ecosystem where populations of organisms remain relatively stable over time due to interdependent relationships such as",
      "The two main components are biotic (living) and abiotic (non-living). Example: biotic - trees; abiotic - sunlight",
      "The four main physical factors are temperature, light availability, water availability, and air composition (including oxygen and carbon dioxide levels)"
     ],
@@ -4110,7 +4110,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Materials: Two identical insulated boxes, fresh vegetable waste (measured mass), thermometer, soil with decomposers",
      "The statement is incorrect. Soil is a critical abiotic component providing anchorage, nutrients, water retention, and habitat for microorganisms"
     ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
     "misconception": "A wrong evaluation that agrees or gives vague reasons shows misunderstanding of soil's role.",
     "id": "gen_c8_phy_ch08_q12",
     "nodeId": "c8_physics_ch8_1",
@@ -4125,7 +4125,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Setup: Jar A: pond water + algae only. Jar B: pond water + algae + snails. Place both in sunlight. Observe: In Jar A",
      "Biotic: rose plants, butterflies. Abiotic: soil, water, air, sunlight. If water decreases, rose plants may wilt, reduce photosynthesis, and eventually die"
     ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
     "misconception": "A wrong classification or inability to link water shortage to plant response shows difficulty applying the concept to a real scenario.",
     "id": "gen_c8_phy_ch08_q13",
     "nodeId": "c8_physics_ch8_1",
@@ -4140,7 +4140,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "In (i), chemical energy in grass moves to deer via ingestion; in (ii), chemical energy in dead deer moves to fungus via external digestion and absorption",
      "Desert: high temperature, low water availability, sandy soil. Lake: moderate temperature, abundant water, muddy bottom"
     ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only biotic differences or fails to link abiotic factors to adaptations indicates poor analytical skill.",
     "id": "gen_c8_phy_ch08_q14",
     "nodeId": "c8_physics_ch8_1",
@@ -4155,9 +4155,24 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. Soil is a critical abiotic component providing anchorage, nutrients, water retention, and habitat for microorganisms",
      "Example: Investigate effect of light on bean sprout growth. Materials: bean seeds, pots, soil, water, cardboard boxes (for dark), ruler"
     ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: Investigate effect of light on bean sprout growth. Materials: bean seeds, pots, soil, water, cardboard boxes",
     "id": "gen_c8_phy_ch08_q15",
+    "nodeId": "c8_physics_ch8_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify and classify biotic and abiotic components in a given habitat description or diagram",
+    "options": [
+     "About 10% of energy transfers to the next trophic level; energy is measured in joules (J)",
+     "The student can calculate the energy available at any trophic level given the producer's captured energy using the 10% transfer rule",
+     "The student can identify and classify biotic and abiotic components in a given habitat description or diagram"
+    ],
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify and classify biotic and abiotic components in a given habitat description or diagram, and",
+    "id": "gen_c8_phy_ch08_q16",
     "nodeId": "c8_physics_ch8_1",
     "difficulty": "standard"
    },
@@ -4170,9 +4185,9 @@ export const C8_PHY_GEN: SimDef[] = [
      "Energy pyramids are always upright because energy flow obeys the Second Law of Thermodynamics: energy degrades to heat at each transfer, so each higher level must have less energy",
      "Sunlight is non-living, thus abiotic. In a pond, sunlight enables photosynthesis in aquatic plants (biotic), producing oxygen and food for other organisms"
     ],
-    "hint": "Straight from the 'habitat' slide -- match the key terms.",
+    "hint": "Straight from the 'habitat is the natural' slide -- match the key terms.",
     "misconception": "A wrong answer that says sunlight is living or does not explain its role reveals confusion about abiotic factors' influence on living organisms.",
-    "id": "gen_c8_phy_ch08_q16",
+    "id": "gen_c8_phy_ch08_q17",
     "nodeId": "c8_physics_ch8_1",
     "difficulty": "standard"
    },
@@ -4185,23 +4200,8 @@ export const C8_PHY_GEN: SimDef[] = [
      "The statement is incorrect. The 90% is not destroyed; it is transformed into heat (during respiration), waste (faeces/urine), and uneaten biomass (bones, shells)",
      "The statement is false. Symbiosis is the broad term for any close, long-term interaction; mutualism is only one subtype where both benefit"
     ],
-    "hint": "Straight from the 'Symbiosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Symbiosis is a close' slide -- match the key terms.",
     "misconception": "A wrong evaluation shows the student equates the everyday meaning of \"symbiosis\" (cooperation) with the scientific definition and has not internalized the three-category framework.",
-    "id": "gen_c8_phy_ch08_q17",
-    "nodeId": "c8_physics_ch8_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the following two interactions: (A) orchids growing on tree branches for support only, (B) mistletoe growing on tree branches and absorbing water and nutrients. Analyze why (A) is commensalism while (B) is parasitism, even though both involve an epiphyte on a host tree.",
-    "answer": "In (A) the orchid benefits (+) from elevated light and the tree is unaffected (0); in (B) the mistletoe benefits (+) but the tree is harmed (-) by losing water and nutrients",
-    "options": [
-     "Desert: low rainfall, high temperature extremes → biotic community limited to drought-tolerant plants (cacti, succulents) and animals with water conservation adaptations",
-     "In (i), chemical energy in grass moves to deer via ingestion; in (ii), chemical energy in dead deer moves to fungus via external digestion and absorption",
-     "In (A) the orchid benefits (+) from elevated light and the tree is unaffected (0); in (B) the mistletoe benefits (+) but the tree is harmed (-) by losing water and nutrients"
-    ],
-    "hint": "Straight from the 'Symbiosis' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student cannot distinguish between using a host merely as a substrate versus tapping into the host's vascular tissue, which is the critical structural difference.",
     "id": "gen_c8_phy_ch08_q18",
     "nodeId": "c8_physics_ch8_10",
     "difficulty": "standard"
@@ -4209,24 +4209,24 @@ export const C8_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about habitat?",
+    "What surprised you about habitat is the natural environment where an organism?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Habitat mastered! 🎯",
+  "successLine": "Habitat Is The Natural mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_phy_ch09",
-  "title": "Earth",
+  "title": "Earth Is a Unique Planet",
   "subtitle": "Physics · Chapter 9",
   "classLevel": 8,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Earth",
+  "topic": "Earth Is a Unique Planet",
   "chapters": [
-   "Physics Ch9: Earth"
+   "Physics Ch9: Earth Is a Unique Planet"
   ],
   "nodeIds": [
    "c8_physics_ch9_1",
@@ -4248,7 +4248,7 @@ export const C8_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Earth outside the classroom?",
+   "question": "Quick guess -- where do you meet Earth Is a Unique Planet outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4259,7 +4259,7 @@ export const C8_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Earth",
+    "title": "Earth Is a Unique Planet",
     "text": "Earth is a unique planet in our solar system because it possesses a specific combination of physical conditions — including a stable temperature range allowing liquid water, a protective atmosphere with breathable gases, a magnetic field shielding from",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4271,7 +4271,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Atmosphere",
+    "title": "Atmosphere Is The Envelope Of Gases",
     "text": "The atmosphere is the envelope of gases surrounding Earth, held by gravity, composed primarily of nitrogen (78%) and oxygen (21%) with trace gases, and structured into distinct layers (troposphere, stratosphere, mesosphere, thermosphere, exosphere) based on",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4307,7 +4307,7 @@ export const C8_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Biodiversity",
+    "title": "Biodiversity Refers To The Variety Of Life",
     "text": "Biodiversity refers to the variety of life forms on Earth, including plants, animals, and microorganisms, and the ecosystems they form. It is measured by species richness, genetic diversity, and ecosystem diversity.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4619,8 +4619,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What is the approximate duration of one complete rotation of Earth on its axis relative to the stars (sidereal day), and in which direction does Earth rotate as viewed from above the North Pole?",
     "answer": "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole",
     "options": [
-     "Nitrogen (~78%) and oxygen (~21%)",
-     "Oxygen ≈ 21%, carbon dioxide ≈ 0.04% (400 ppm). The two processes are photosynthesis (plants take in CO₂, release O₂) and aerobic respiration (animals and plants take in O₂",
+     "The student can explain why the Sun appears to move across the sky using a model of Earth's west-to-east rotation",
+     "Student can identify and explain at least four distinct physical conditions that make Earth habitable, and can reason why the absence of any one condition (e",
      "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole"
     ],
     "hint": "Straight from the 'Earth's rotation' slide -- match the key terms.",
@@ -4640,11 +4640,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "List the three major groups of living organisms on Earth and give one example of each.",
     "answer": "Plants (e.g., mango tree), Animals (e.g., cow), Microorganisms (e.g., bacteria)",
     "options": [
-     "Earth's average surface temperature is ~15°C (288 K). This is critical because it allows water to exist in liquid form over most of the planet",
-     "Three conditions: (1) Suitable temperature range for liquid water (measured in kelvin, K, or degree Celsius, °C), (2) Presence of liquid water",
+     "The student can explain the cyclic exchange of oxygen and carbon dioxide between living organisms and the atmosphere",
+     "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole",
      "Plants (e.g., mango tree), Animals (e.g., cow), Microorganisms (e.g., bacteria)"
     ],
-    "hint": "Straight from the 'Biodiversity' slide -- match the key terms.",
+    "hint": "Straight from the 'Biodiversity refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer that omits microorganisms or confuses fungi with plants reveals the student thinks only visible macro-organisms count as life.",
     "id": "gen_c8_phy_ch09_q9",
     "nodeId": "c8_physics_ch9_9",
@@ -4735,8 +4735,8 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "What are the three major biogeochemical cycles that make Earth a self-sustaining system, and what is the primary energy source driving them?",
     "answer": "The three major cycles are the water cycle, carbon cycle, and nitrogen cycle. The primary energy source driving them is solar radiation (sunlight)",
     "options": [
-     "Three conditions: (1) Suitable temperature range for liquid water (measured in kelvin, K, or degree Celsius, °C), (2) Presence of liquid water",
-     "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole",
+     "Student can explain why the crust is considered a \"thin\" layer by comparing its thickness to Earth's radius",
+     "Earth as a self-sustaining system means the planet maintains stable conditions for life through interconnected biogeochemical cycles (water, carbon, nitrogen",
      "The three major cycles are the water cycle, carbon cycle, and nitrogen cycle. The primary energy source driving them is solar radiation (sunlight)"
     ],
     "hint": "Straight from the 'Earth as a self-sustaining system' slide -- match the key terms.",
@@ -4817,7 +4817,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Good answer: Use two transparent containers with water. Container A: heat from bottom (stove) — shows rising warm water (convection) like troposphere heated from below by ground",
      "Without a magnetic field, the planet has no shield against solar wind (stream of charged particles from the star)"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is a unique planet' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"atmosphere stays because gravity is same as Earth\" reveals the misconception that gravity alone retains atmosphere — ignoring that solar wind can overcome gravitational hold on light gases over geological time.",
     "id": "gen_c8_phy_ch09_q13",
     "nodeId": "c8_physics_ch9_1",
@@ -4832,7 +4832,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Surface gravity g ∝ M/R². Planet A: g_A ∝ 2M/(2R)² = 2M/4R² = 0.5 (M/R²). Planet B: g_B ∝ 4M/(2R)² = 4M/4R² = 1 (M/R²)",
      "Venus fails the \"suitable temperature\" condition. Its atmosphere is 96% CO₂ (vs Earth's 0.04%), creating a runaway greenhouse effect: solar radiation passes through"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is a unique planet' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only \"closer to Sun\" ignores that Venus receives only ~1.9× Earth's solar flux — the extreme heat is atmospheric, not orbital. This shows inability to distinguish radiative forcing from distance-based heating.",
     "id": "gen_c8_phy_ch09_q14",
     "nodeId": "c8_physics_ch9_1",
@@ -4847,7 +4847,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "Materials: Globe/ball with marked axis and latitude lines, lamp, protractor, dark room. Steps: 1) Tilt ball axis 23",
      "Setup: Two identical containers with equal water. Container A covered with plastic wrap (simulates atmosphere with greenhouse gases)"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is a unique planet' slide -- match the key terms.",
     "misconception": "A poor answer that only shows heating without cooling phase, or uses no control, reveals inability to design a fair test isolating the atmospheric effect — a gap in experimental reasoning from Class 6 (c6_physics_ch01_002).",
     "id": "gen_c8_phy_ch09_q15",
     "nodeId": "c8_physics_ch9_1",
@@ -4862,7 +4862,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "The Moon lacks an atmosphere and large water bodies. Without an atmosphere, there is no greenhouse effect to trap outgoing heat, and no convection/conduction to distribute heat",
      "The statement is NOT scientifically valid. Liquid water is a necessary condition for life as we know it, but not sufficient"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is a unique planet' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing reveals confusion between necessary and sufficient conditions — a fundamental logical error in scientific reasoning about habitability.",
     "id": "gen_c8_phy_ch09_q16",
     "nodeId": "c8_physics_ch9_1",
@@ -4877,7 +4877,7 @@ export const C8_PHY_GEN: SimDef[] = [
      "In the troposphere, heat from the sun-warmed ground drives convection, so temperature drops with height",
      "Earth's distance places it in the \"habitable zone\" where solar radiation (received via radiation, c6_physics_ch07_022) allows temperatures for liquid water"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is a unique planet' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on distance ignores the role of atmosphere in heat retention via convection and radiation trapping — showing the student treats conditions in isolation rather than as an interacting system.",
     "id": "gen_c8_phy_ch09_q17",
     "nodeId": "c8_physics_ch9_1",
@@ -4888,11 +4888,11 @@ export const C8_PHY_GEN: SimDef[] = [
     "question": "Name any three physical conditions that make Earth suitable for life, and state the SI unit used to measure the temperature condition.",
     "answer": "Three conditions: (1) Suitable temperature range for liquid water (measured in kelvin, K, or degree Celsius, °C), (2) Presence of liquid water",
     "options": [
-     "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole",
-     "The three major cycles are the water cycle, carbon cycle, and nitrogen cycle. The primary energy source driving them is solar radiation (sunlight)",
+     "Student can identify and explain at least four distinct physical conditions that make Earth habitable, and can reason why the absence of any one condition (e",
+     "Student can explain why Earth's average temperature (15°C) is suitable for life by linking three factors: solar radiation input, atmospheric heat trapping",
      "Three conditions: (1) Suitable temperature range for liquid water (measured in kelvin, K, or degree Celsius, °C), (2) Presence of liquid water"
     ],
-    "hint": "Straight from the 'Earth' slide -- match the key terms.",
+    "hint": "Straight from the 'Earth is a unique planet' slide -- match the key terms.",
     "misconception": "A wrong answer like \"gravity\" without mentioning atmosphere retention, or giving temperature in Fahrenheit without SI unit, reveals the student cannot distinguish between necessary conditions and their measurable parameters, or confuses everyday units with scientific units.",
     "id": "gen_c8_phy_ch09_q18",
     "nodeId": "c8_physics_ch9_1",
@@ -4901,11 +4901,11 @@ export const C8_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about earth?",
+    "What surprised you about earth is a unique planet?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Earth mastered! 🎯",
+  "successLine": "Earth Is a Unique Planet mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

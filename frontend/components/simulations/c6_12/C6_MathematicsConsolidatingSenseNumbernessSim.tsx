@@ -1110,13 +1110,13 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800 mb-6"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/60 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/60 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ICSE Class 6 Mathematics</span>
-              <span className="px-2 py-0.5 text-[10px] rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/40">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ICSE Class 6 Mathematics</span>
+              <span className="px-2 py-0.5 text-[10px] rounded-full bg-gold-900/60 text-gold-300 border border-gold-700/40">
                 NEP 2020 Aligned
               </span>
             </div>
@@ -1135,7 +1135,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700/60'
                 : difficulty === 'advanced'
                 ? 'bg-purple-950/80 text-purple-300 border-purple-700/60'
-                : 'bg-blue-950/80 text-blue-300 border-blue-700/60'
+                : 'bg-gold-950/80 text-gold-300 border-gold-700/60'
             }`}
           >
             Tier: {difficulty}
@@ -1154,13 +1154,13 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">🚀</span>
-              <h3 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h3>
+              <h3 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h3>
             </div>
             <p className="text-slate-200 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-slate-400 text-xs mt-3 italic border-l-2 border-indigo-500 pl-3">{SCENARIO.context}</p>
+            <p className="text-slate-400 text-xs mt-3 italic border-l-2 border-gold-500 pl-3">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800">
@@ -1199,7 +1199,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
                 <p className={discoveryCorrect ? 'text-emerald-400 text-sm font-medium' : 'text-amber-300 text-sm font-medium'}>
                   {discoveryCorrect ? '✓ Correct! Place values always dominate from the left.' : `💡 ${DISCOVERY_QUESTION.hintAfter}`}
                 </p>
@@ -1208,7 +1208,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1235,7 +1235,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 shadow-xl space-y-6"
             >
               <div>
-                <h3 className="text-xl font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-xl font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-sm mt-1 flex items-center gap-1.5">
                   <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1247,7 +1247,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="w-full md:w-auto">
                       <label htmlFor="payload-slider" className="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">
-                        Payload Telemetry Value: <span className="text-indigo-400 font-mono text-base">{sliderNumber.toLocaleString()}</span>
+                        Payload Telemetry Value: <span className="text-gold-400 font-mono text-base">{sliderNumber.toLocaleString()}</span>
                       </label>
                       <input
                         id="payload-slider"
@@ -1257,7 +1257,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                         value={sliderNumber}
                         aria-label="Adjust 5-digit telemetry value"
                         onChange={e => handleSliderNumberChange(Number(e.target.value))}
-                        className="w-full md:w-96 accent-indigo-500"
+                        className="w-full md:w-96 accent-gold-500"
                       />
                     </div>
                     <div className="text-right">
@@ -1268,7 +1268,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
 
                   {/* SVG Place Value Magnitude Tower */}
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-bold text-indigo-300 block mb-1">SVG Place Value Magnitude Visualizer</span>
+                    <span className="text-[11px] font-bold text-gold-300 block mb-1">SVG Place Value Magnitude Visualizer</span>
                     <svg viewBox="0 0 540 130" className="w-full h-auto bg-slate-950 rounded-lg p-2" role="img" aria-label="Dynamic Place Value Comparison Chart">
                       {[
                         { label: 'T-Th (10⁴)', x: 30, color: '#6366f1', dVal: sliderDigits.tth, tVal: compareDigits.tth },
@@ -1297,9 +1297,9 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                     </svg>
                   </div>
 
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 flex items-center justify-between">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 flex items-center justify-between">
                     <div>
-                      <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider block">Decision Point</span>
+                      <span className="text-xs text-gold-400 font-bold uppercase tracking-wider block">Decision Point</span>
                       <span className="text-sm font-semibold text-slate-200">First Differing Place: <strong className="text-amber-400">{firstDiffPlace}</strong></span>
                     </div>
                     <span className="text-sm font-mono font-bold text-slate-300">
@@ -1320,7 +1320,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       onClick={() => { setSystemMode('indian'); audioManager.play('tap'); }}
                       className={`px-5 py-2.5 rounded-xl text-sm font-bold border ${
                         systemMode === 'indian'
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1333,7 +1333,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       onClick={() => { setSystemMode('international'); audioManager.play('tap'); }}
                       className={`px-5 py-2.5 rounded-xl text-sm font-bold border ${
                         systemMode === 'international'
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1346,7 +1346,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                     <div className="text-3xl md:text-4xl font-black font-mono text-amber-400 tracking-wider">
                       {systemMode === 'indian' ? '4,56,78,912' : '45,678,912'}
                     </div>
-                    <div className="text-sm md:text-base font-semibold text-indigo-300">
+                    <div className="text-sm md:text-base font-semibold text-gold-300">
                       {systemMode === 'indian'
                         ? 'Four Crore, Fifty-Six Lakh, Seventy-Eight Thousand, Nine Hundred Twelve'
                         : 'Forty-Five Million, Six Hundred Seventy-Eight Thousand, Nine Hundred Twelve'}
@@ -1355,7 +1355,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-300">
                     <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800">
-                      <strong className="text-indigo-400 block mb-1">Key Insight:</strong>
+                      <strong className="text-gold-400 block mb-1">Key Insight:</strong>
                       1 Million = 10 Lakhs (1,000,000 = 10,00,000). Both have 6 zeros!
                     </div>
                     <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800">
@@ -1370,7 +1370,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
               {currentSlide === 2 && (
                 <div className="space-y-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/60 space-y-3">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/60 space-y-3">
                       <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">Predict Before Testing:</span>
                       <p className="text-white text-sm font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1397,7 +1397,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   <div className="space-y-2">
                     <label htmlFor="cargo-slider" className="text-xs font-bold text-slate-400 uppercase tracking-wider flex justify-between">
                       <span>Cargo Rocket Payload Mass:</span>
-                      <span className="text-indigo-400 font-mono text-base">{cargoKg} kg</span>
+                      <span className="text-gold-400 font-mono text-base">{cargoKg} kg</span>
                     </label>
                     <input
                       id="cargo-slider"
@@ -1407,12 +1407,12 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       value={cargoKg}
                       aria-label="Adjust cargo rocket mass in kilograms"
                       onChange={e => handleCargoKgChange(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-bold text-indigo-300 block mb-1">SVG Metric Scaling Ladder</span>
+                    <span className="text-[11px] font-bold text-gold-300 block mb-1">SVG Metric Scaling Ladder</span>
                     <svg viewBox="0 0 520 110" className="w-full h-auto bg-slate-950 rounded-lg p-2" role="img" aria-label="Metric Conversion Scale Diagram">
                       <rect x="20" y="25" width="130" height="60" rx="8" fill="#1e1b4b" stroke="#6366f1" strokeWidth={2} />
                       <text x="85" y="50" textAnchor="middle" fill="#a5b4fc" fontSize="11" fontWeight="bold">Kilograms (kg)</text>
@@ -1436,7 +1436,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   <div className="grid grid-cols-3 gap-4">
                     <div>
                       <label htmlFor="slider-a" className="text-[10px] text-slate-400 font-bold block mb-1">Multiplier a = {distA}</label>
-                      <input id="slider-a" type="range" min={2} max={12} value={distA} aria-label="Multiplier a slider" onChange={e => handleAreaParamChange('a', Number(e.target.value))} className="w-full accent-indigo-500" />
+                      <input id="slider-a" type="range" min={2} max={12} value={distA} aria-label="Multiplier a slider" onChange={e => handleAreaParamChange('a', Number(e.target.value))} className="w-full accent-gold-500" />
                     </div>
                     <div>
                       <label htmlFor="slider-b" className="text-[10px] text-slate-400 font-bold block mb-1">Tens split b = {distB}</label>
@@ -1449,7 +1449,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-bold text-indigo-300 block mb-1">SVG Geometric Distributive Area Model</span>
+                    <span className="text-[11px] font-bold text-gold-300 block mb-1">SVG Geometric Distributive Area Model</span>
                     <svg viewBox="0 0 500 160" className="w-full bg-slate-950 rounded-xl border border-slate-800 p-2" role="img" aria-label="Distributive Property Area Model">
                       <rect x="50" y="30" width="220" height="90" fill="#4f46e5" fillOpacity="0.3" stroke="#6366f1" strokeWidth="2" rx="4" />
                       <text x="160" y="80" textAnchor="middle" fill="#a5b4fc" fontSize="12" fontWeight="bold">
@@ -1468,7 +1468,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-center font-mono text-sm md:text-base">
-                    <span className="text-indigo-400 font-bold">{distA} × ({distB} + {distC})</span> = ({distA} × {distB}) + ({distA} × {distC}) = {distA * distB} + {distA * distC} = <strong className="text-emerald-400">{distA * (distB + distC)}</strong>
+                    <span className="text-gold-400 font-bold">{distA} × ({distB} + {distC})</span> = ({distA} × {distB}) + ({distA} × {distC}) = {distA * distB} + {distA * distC} = <strong className="text-emerald-400">{distA * (distB + distC)}</strong>
                   </div>
                 </div>
               )}
@@ -1487,7 +1487,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                           aria-label={`Select whole number ${val}`}
                           onClick={() => { setNumberLinePos(val); audioManager.play('tap'); }}
                           className={`px-3 py-1 text-xs rounded-lg font-mono font-bold border ${
-                            numberLinePos === val ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                            numberLinePos === val ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                           }`}
                         >
                           {val}
@@ -1497,7 +1497,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="text-[11px] font-bold text-indigo-300 block mb-1">SVG Whole Numbers Ray Starting at Zero</span>
+                    <span className="text-[11px] font-bold text-gold-300 block mb-1">SVG Whole Numbers Ray Starting at Zero</span>
                     <svg viewBox="0 0 520 80" className="w-full h-auto bg-slate-950 rounded-lg p-2" role="img" aria-label="Whole Number Ray Diagram">
                       <line x1="30" y1="45" x2="490" y2="45" stroke="#94a3b8" strokeWidth="3" />
                       <circle cx="40" cy="45" r="6" fill="#ec4899" />
@@ -1526,7 +1526,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       onClick={() => handleZeroOperation('+0')}
                       className="p-3 bg-slate-900 hover:bg-slate-850 border border-slate-800 rounded-xl text-center"
                     >
-                      <span className="text-indigo-400 font-bold block text-sm">+ 0 (Add)</span>
+                      <span className="text-gold-400 font-bold block text-sm">+ 0 (Add)</span>
                       <span className="text-[10px] text-slate-400">Additive Identity</span>
                     </motion.button>
                     <motion.button
@@ -1536,7 +1536,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       onClick={() => handleZeroOperation('-0')}
                       className="p-3 bg-slate-900 hover:bg-slate-850 border border-slate-800 rounded-xl text-center"
                     >
-                      <span className="text-blue-400 font-bold block text-sm">- 0 (Subtract)</span>
+                      <span className="text-gold-400 font-bold block text-sm">- 0 (Subtract)</span>
                       <span className="text-[10px] text-slate-400">No Change</span>
                     </motion.button>
                     <motion.button
@@ -1586,7 +1586,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Go to next lab"
                     onClick={handleSlideNext}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1618,7 +1618,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <label htmlFor="sandbox-num" className="text-xs text-indigo-400 font-bold uppercase">Test Any Number:</label>
+                <label htmlFor="sandbox-num" className="text-xs text-gold-400 font-bold uppercase">Test Any Number:</label>
                 <input
                   id="sandbox-num"
                   type="number"
@@ -1655,7 +1655,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Start Challenge Mode"
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-bold text-sm shadow-xl shadow-indigo-600/30"
+                className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white rounded-xl font-bold text-sm shadow-xl shadow-gold-600/30"
               >
                 I Am Ready for Challenges! 🎯 →
               </motion.button>
@@ -1673,7 +1673,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Competency: {challenge.competencyLevel}
                 </span>
                 <span className="text-slate-600">•</span>
@@ -1687,7 +1687,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
               </span>
               <div className="w-28 h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -1757,7 +1757,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -1773,7 +1773,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       aria-label={`Drop target Column ${4 - idx}`}
                       className={`p-4 rounded-xl border-2 border-dashed text-center min-h-[90px] flex flex-col items-center justify-center transition-all ${
                         droppedLabels[targetKey]
-                          ? 'bg-indigo-950/60 border-indigo-500 text-indigo-200'
+                          ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                           : 'bg-slate-950/60 border-slate-700 text-slate-500'
                       }`}
                     >
@@ -1792,7 +1792,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Verify label mappings"
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -1836,7 +1836,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   aria-label="Check sort sequence order"
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -1852,7 +1852,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                     aria-label={`Enter numerical value in ${challenge.unit || 'units'}`}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value..."
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-64 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -1861,7 +1861,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                     aria-label="Submit numeric answer"
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                   >
                     Submit Answer →
                   </motion.button>
@@ -1880,7 +1880,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Add token ${part}`}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800/80 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-800/80 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -1893,7 +1893,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-600 text-white rounded-md text-xs font-mono font-bold flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-600 text-white rounded-md text-xs font-mono font-bold flex items-center gap-1"
                     >
                       {part}
                       <button
@@ -1916,7 +1916,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   aria-label="Verify constructed algebraic identity"
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                 >
                   Verify Construction →
                 </motion.button>
@@ -1927,7 +1927,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-700/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-700/60 rounded-2xl space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
@@ -1947,7 +1947,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs md:text-sm leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono mr-1">{i + 1}.</strong>
+                      <strong className="text-gold-400 font-mono mr-1">{i + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -1960,7 +1960,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label="Reveal next explanation step"
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -1985,10 +1985,10 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
       {/* ─── PHASE 5: MISSION COMPLETION, REFLECTION & MASTERY PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Mission Chandrayaan Numbers Mastered!</h2>
-            <p className="text-indigo-200 text-sm max-w-xl mx-auto">
+            <p className="text-gold-200 text-sm max-w-xl mx-auto">
               Your telemetry, arithmetic algorithms, unit conversions, and number property validations meet full ICSE Class 6 standards.
             </p>
 
@@ -1999,13 +1999,13 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 block uppercase">Mastery State</span>
-                <strong className="text-xl text-indigo-400 capitalize">{masteryLevel}</strong>
+                <strong className="text-xl text-gold-400 capitalize">{masteryLevel}</strong>
               </div>
             </div>
 
             {/* SPACED REPETITION VISIBILITY */}
-            <div className="mt-4 p-4 bg-indigo-900/40 rounded-2xl border border-indigo-600/60 max-w-md mx-auto">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 block mb-1">
+            <div className="mt-4 p-4 bg-gold-900/40 rounded-2xl border border-gold-600/60 max-w-md mx-auto">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-300 block mb-1">
                 📅 Spaced Repetition Schedule (SM-2)
               </span>
               <p className="text-sm font-semibold text-white">
@@ -2019,10 +2019,10 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/80 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/80 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
-              <h4 className="text-indigo-300 font-bold text-base">Self-Reflection & Metacognition</h4>
+              <h4 className="text-gold-300 font-bold text-base">Self-Reflection & Metacognition</h4>
             </div>
             <p className="text-slate-300 text-xs">
               Consolidate your mathematical intuition by reflecting on your problem-solving experience:
@@ -2040,7 +2040,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   aria-label="What was the most surprising thing you learned?"
                   onChange={e => setReflections({ ...reflections, surprising: e.target.value })}
                   placeholder="e.g., How commas don't change magnitude, or why division by zero is not defined..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2055,7 +2055,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   aria-label="How would you explain this to a friend?"
                   onChange={e => setReflections({ ...reflections, explainFriend: e.target.value })}
                   placeholder="e.g., Always compare from the leftmost digit because higher place values dominate..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2070,7 +2070,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                   aria-label="Where in real life might you use this?"
                   onChange={e => setReflections({ ...reflections, realLife: e.target.value })}
                   placeholder="e.g., Budget planning in crores/lakhs, converting grocery weights, or rocket fuel measurements..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2084,7 +2084,7 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
                     audioManager.play('success');
                     speechManager.speak('Great reflections! Self-explanation cements mathematical concepts.');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   {reflectionSubmitted ? '✓ Reflection Saved' : 'Save Reflection Answers'}
                 </motion.button>
@@ -2120,12 +2120,12 @@ function C6_MathematicsConsolidatingSenseNumbernessSim({
           )}
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h4 className="text-indigo-300 font-bold text-sm">{REAL_WORLD_ACTIVITY.title}</h4>
+            <h4 className="text-gold-300 font-bold text-sm">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-slate-300 text-xs">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-slate-400 text-xs flex items-start gap-2">
-                  <span className="text-indigo-400 font-mono font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-mono font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

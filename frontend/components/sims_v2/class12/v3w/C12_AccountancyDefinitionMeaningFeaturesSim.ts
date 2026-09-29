@@ -11,7 +11,7 @@ export const w_c12_accountancydefinitionmeaningfeaturessim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'Partnership: Definition and Essential Features under the Act',
     chapters: [],
     nodeIds: ['c12_acc_cbse_01_001', 'c12_acc_cbse_05_001', 'c12_acc_cbse_06_001', 'c12_acc_cbse_07_001', 'c12_acc_cbse_09_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine two friends, Rohan and Sohan, start a food truck business.', goal: 'Master Partnership: Definition and Essential Features under the Act.' },
     discovery: {
         question: 'Rahul and Priya jointly own a building and rent it out, sharing the rental income equally. They have no agreement to carry on any business.',
@@ -20,7 +20,7 @@ export const w_c12_accountancydefinitionmeaningfeaturessim: SimDef = {
         hook: 'Students often believe that sharing profits automatically means a partnership exists.',
     },
     teaching: [
-        { title: 'Partnership is a relation between two or.', text: 'Partnership is a relation between two or more persons who have agreed to share the profits of a business carried on by all or any of them acting for all, as defined under Section 4 of the Indian.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Partnership is a relation between two or.', text: 'Partnership is a relation between two or more persons who have agreed to share the profits of a business carried on by all or any of them acting for all, as defined under Section 4 of the Indian.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_01_001', title: 'Partnership is a relation between two.',

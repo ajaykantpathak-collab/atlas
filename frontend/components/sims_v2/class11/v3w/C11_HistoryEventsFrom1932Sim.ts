@@ -11,7 +11,7 @@ export const w_c11_historyeventsfrom1932sim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'The Life of the Prophet Muhammad and the Founding of Islam',
     chapters: [],
     nodeIds: ['c11_hist_cbse_04_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the Qutb Minar complex in Delhi and notice the Iron Pillar and the Quwwat-ul-Islam.', goal: 'Master The Life of the Prophet Muhammad and the Founding of Islam.' },
     discovery: {
         question: 'The Prophet Muhammad\'s early preaching in Mecca (610–622 CE) focused on Tawhid (monotheism) and social justice.',
@@ -20,7 +20,7 @@ export const w_c11_historyeventsfrom1932sim: SimDef = {
         hook: 'Students often believe the Prophet\'s success was due *primarily* to military conquest or that Islam spread "by the.',
     },
     teaching: [
-        { title: 'The Life of the Prophet Muhammad and the.', text: 'The Life of the Prophet Muhammad and the Founding of Islam refers to the historical period (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Life of the Prophet Muhammad and the.', text: 'The Life of the Prophet Muhammad and the Founding of Islam refers to the historical period (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_04_002', title: 'The Life of the Prophet Muhammad and.',

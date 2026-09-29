@@ -688,7 +688,7 @@ const MolecularDipoleSVG: React.FC<{
 
   return (
     <div className="w-full flex flex-col items-center justify-center p-4 bg-slate-900 rounded-xl border border-slate-700 shadow-inner">
-      <div className="text-xs font-mono text-cyan-400 mb-2 flex items-center gap-2">
+      <div className="text-xs font-mono text-gold-400 mb-2 flex items-center gap-2">
         <span>3D Molecular View: {mol.name} ({mol.formula})</span>
         <span className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-600">
           Geometry: {mol.geometry}
@@ -954,7 +954,7 @@ const ElectronegativityScaleSVG: React.FC<{
       </svg>
 
       <div className="flex items-center justify-between border-t border-slate-800 pt-2 text-sm">
-        <span className="text-slate-400">ΔEN = |{elem1EN} - {elem2EN}| = <strong className="text-cyan-300 font-mono">{diffFixed}</strong></span>
+        <span className="text-slate-400">ΔEN = |{elem1EN} - {elem2EN}| = <strong className="text-gold-300 font-mono">{diffFixed}</strong></span>
         <span className={`px-3 py-1 rounded-full border text-xs font-semibold ${badgeColor}`}>
           {bondType}
         </span>
@@ -1320,13 +1320,13 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
       {/* HEADER BAR */}
       <header className="w-full bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-6 shadow-xl backdrop-blur flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-cyan-500/20 rounded-xl border border-cyan-500/30 text-cyan-400">
+          <div className="p-3 bg-gold-500/20 rounded-xl border border-gold-500/30 text-gold-400">
             <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L5.6 15.12a2 2 0 01-1.022-.547l-1.39-1.39a2 2 0 010-2.828l9.172-9.172a2 2 0 012.828 0l9.172 9.172a2 2 0 010 2.828l-1.39 1.39z" />
             </svg>
           </div>
           <div>
-            <span className="text-xs font-semibold uppercase tracking-wider text-cyan-400">ICSE Class 10 Chemistry</span>
+            <span className="text-xs font-semibold uppercase tracking-wider text-gold-400">ICSE Class 10 Chemistry</span>
             <h1 className="text-xl md:text-2xl font-bold text-white">Polar & Non-Polar Covalent Compounds</h1>
           </div>
         </div>
@@ -1336,7 +1336,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             1. Discovery
@@ -1344,7 +1344,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             2. Interactive Labs ({EXPLORATION_STEPS.length})
@@ -1352,7 +1352,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             3. Practice ({CHALLENGES.length})
@@ -1360,7 +1360,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
           <button
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'summary' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             4. Summary & Real World
@@ -1372,17 +1372,17 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
       {activeTab === 'discovery' && (
         <div className="max-w-4xl mx-auto w-full space-y-6">
           <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h2 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-cyan-400 animate-pulse"></span>
+            <h2 className="text-xl font-bold text-gold-400 flex items-center gap-2">
+              <span className="w-3 h-3 rounded-full bg-gold-400 animate-pulse"></span>
               {SCENARIO.title}
             </h2>
             <p className="text-slate-300 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <p className="text-slate-400 leading-relaxed text-sm border-l-2 border-cyan-500 pl-4 italic">{SCENARIO.context}</p>
+            <p className="text-slate-400 leading-relaxed text-sm border-l-2 border-gold-500 pl-4 italic">{SCENARIO.context}</p>
           </div>
 
           {/* Discovery Question Card */}
-          <div className="bg-slate-900/90 border border-cyan-500/30 rounded-2xl p-6 shadow-xl space-y-4">
-            <span className="px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-xs font-semibold border border-cyan-500/30">
+          <div className="bg-slate-900/90 border border-gold-500/30 rounded-2xl p-6 shadow-xl space-y-4">
+            <span className="px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs font-semibold border border-gold-500/30">
               Counterintuitive Preconception Challenge
             </span>
             <h3 className="text-lg font-bold text-white leading-snug">{DISCOVERY_QUESTION.question}</h3>
@@ -1404,7 +1404,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                     onClick={() => handleDiscoverySubmit(idx)}
                     className={`w-full text-left p-4 rounded-xl border transition-all text-sm md:text-base flex items-start gap-3 ${btnStyle}`}
                   >
-                    <span className="font-mono text-cyan-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
                     <span>{option}</span>
                   </button>
                 );
@@ -1412,12 +1412,12 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
             </div>
 
             {discoverySubmitted && (
-              <div className="mt-4 p-4 rounded-xl bg-slate-800/90 border border-cyan-500/40 text-slate-200 text-sm space-y-2">
-                <p className="font-semibold text-cyan-300">Pedagogical Insight:</p>
+              <div className="mt-4 p-4 rounded-xl bg-slate-800/90 border border-gold-500/40 text-slate-200 text-sm space-y-2">
+                <p className="font-semibold text-gold-300">Pedagogical Insight:</p>
                 <p>{DISCOVERY_QUESTION.hintAfter}</p>
                 <button
                   onClick={() => setActiveTab('lab')}
-                  className="mt-2 px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg text-sm font-semibold transition"
+                  className="mt-2 px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-sm font-semibold transition"
                 >
                   Proceed to Interactive Labs →
                 </button>
@@ -1460,7 +1460,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                   })}
                 </div>
                 {predictionAnswers[pIdx] !== undefined && (
-                  <p className="text-xs text-cyan-300 italic pt-1">{pred.verifyInstruction}</p>
+                  <p className="text-xs text-gold-300 italic pt-1">{pred.verifyInstruction}</p>
                 )}
               </div>
             ))}
@@ -1485,11 +1485,11 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                 }}
                 className={`w-full text-left p-4 rounded-xl border transition-all flex flex-col gap-1 ${
                   selectedLabIndex === idx
-                    ? 'bg-cyan-600/20 border-cyan-500 text-white shadow-lg'
+                    ? 'bg-gold-600/20 border-gold-500 text-white shadow-lg'
                     : 'bg-slate-900/80 border-slate-800 text-slate-400 hover:bg-slate-800/60'
                 }`}
               >
-                <span className="text-xs font-semibold text-cyan-400">{step.title}</span>
+                <span className="text-xs font-semibold text-gold-400">{step.title}</span>
                 <span className="text-xs text-slate-300 line-clamp-2">{step.instruction}</span>
               </button>
             ))}
@@ -1498,7 +1498,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
           {/* Right Main Lab Area */}
           <div className="lg:col-span-8 bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
-              <h3 className="text-lg font-bold text-cyan-400">{EXPLORATION_STEPS[selectedLabIndex].title}</h3>
+              <h3 className="text-lg font-bold text-gold-400">{EXPLORATION_STEPS[selectedLabIndex].title}</h3>
               <span className="text-xs font-mono text-slate-400">Node ID: {EXPLORATION_STEPS[selectedLabIndex].nodeId}</span>
             </div>
 
@@ -1509,7 +1509,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700 space-y-2">
-                    <label className="text-xs font-semibold text-cyan-300 flex justify-between">
+                    <label className="text-xs font-semibold text-gold-300 flex justify-between">
                       <span>Atom A ({elem1Name}): Electronegativity</span>
                       <span>{elem1EN.toFixed(2)}</span>
                     </label>
@@ -1520,7 +1520,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                       step="0.05"
                       value={elem1EN}
                       onChange={(e) => setElem1EN(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                     <div className="flex gap-2 pt-2">
                       {['H (2.2)', 'C (2.55)', 'N (3.04)', 'O (3.44)', 'F (3.98)'].map((preset) => {
@@ -1583,7 +1583,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                         key={key}
                         onClick={() => { setSelectedMoleculeKey(key); audioManager.play('tap'); }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                          selectedMoleculeKey === key ? 'bg-cyan-600 text-white shadow' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+                          selectedMoleculeKey === key ? 'bg-gold-600 text-white shadow' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
                         }`}
                       >
                         {MOLECULES_DB[key].formula}
@@ -1595,7 +1595,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                       type="checkbox"
                       checked={showDipoleVectors}
                       onChange={(e) => { setShowDipoleVectors(e.target.checked); audioManager.play('pop'); }}
-                      className="accent-cyan-400 rounded"
+                      className="accent-gold-400 rounded"
                     />
                     <span>Show Dipole Vectors</span>
                   </label>
@@ -1605,7 +1605,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
 
                 <div className="bg-slate-800/60 p-4 rounded-xl border border-slate-700 flex flex-col md:flex-row justify-between items-center gap-4">
                   <div className="space-y-1 text-xs">
-                    <p className="text-slate-300">Net Dipole Moment: <strong className="text-cyan-300">{MOLECULES_DB[selectedMoleculeKey].netDipole} Debye</strong></p>
+                    <p className="text-slate-300">Net Dipole Moment: <strong className="text-gold-300">{MOLECULES_DB[selectedMoleculeKey].netDipole} Debye</strong></p>
                     <p className="text-slate-300">Bond Angle: <strong className="text-amber-300">{MOLECULES_DB[selectedMoleculeKey].bondAngle}</strong></p>
                     <p className="text-slate-300">Overall Polarity: <strong className={MOLECULES_DB[selectedMoleculeKey].isPolar ? 'text-amber-400' : 'text-emerald-400'}>
                       {MOLECULES_DB[selectedMoleculeKey].isPolar ? 'POLAR MOLECULE' : 'NON-POLAR MOLECULE'}
@@ -1620,7 +1620,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                       max="60"
                       value={rotationAngle}
                       onChange={(e) => setRotationAngle(parseInt(e.target.value))}
-                      className="w-32 accent-cyan-400 cursor-pointer"
+                      className="w-32 accent-gold-400 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1650,7 +1650,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                       const isBoiling = fluidTemp >= mol.boilingPoint;
                       return (
                         <div key={mol.id} className={`p-3 rounded-lg border text-center transition ${isBoiling ? 'bg-amber-500/20 border-amber-500' : 'bg-slate-900 border-slate-700'}`}>
-                          <div className="font-bold text-cyan-300">{mol.formula}</div>
+                          <div className="font-bold text-gold-300">{mol.formula}</div>
                           <div className="text-xs text-slate-400">BP: {mol.boilingPoint}°C</div>
                           <div className={`text-xs mt-1 font-semibold ${isBoiling ? 'text-amber-400 animate-pulse' : 'text-slate-400'}`}>
                             {isBoiling ? 'GAS (Vaporized)' : 'LIQUID / CONDENSED'}
@@ -1675,7 +1675,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                           key={s}
                           onClick={() => { setSoluteType(s); audioManager.play('pop'); }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold border transition ${
-                            soluteType === s ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
+                            soluteType === s ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
                           }`}
                         >
                           {s === 'HCl' ? 'HCl (Polar)' : s === 'I2' ? 'Iodine I₂ (Non-Polar)' : 'Grease (Non-Polar)'}
@@ -1692,7 +1692,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                           key={solv}
                           onClick={() => { setSolventType(solv); audioManager.play('pop'); }}
                           className={`flex-1 py-2 rounded-lg text-xs font-bold border transition ${
-                            solventType === solv ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
+                            solventType === solv ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
                           }`}
                         >
                           {solv === 'Water' ? 'Water H₂O (Polar)' : 'CCl₄ (Non-Polar)'}
@@ -1702,9 +1702,9 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                   </div>
                 </div>
 
-                <div className="p-4 bg-slate-800/80 rounded-xl border border-cyan-500/30 text-center space-y-2">
+                <div className="p-4 bg-slate-800/80 rounded-xl border border-gold-500/30 text-center space-y-2">
                   <span className="text-xs text-slate-400 uppercase tracking-wide">Solubility Experiment Outcome</span>
-                  <p className="text-sm md:text-base font-semibold text-cyan-300">{solubilityResult}</p>
+                  <p className="text-sm md:text-base font-semibold text-gold-300">{solubilityResult}</p>
                 </div>
               </div>
             )}
@@ -1726,7 +1726,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                         audioManager.play('tap');
                       }}
                       className={`px-3 py-2 rounded-lg text-xs font-bold border transition ${
-                        circuitSolvent === item.key ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
+                        circuitSolvent === item.key ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
                       }`}
                     >
                       {item.label}
@@ -1781,7 +1781,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
           {/* Progress Header */}
           <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 shadow-xl flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase">
+              <span className="text-xs font-bold text-gold-400 uppercase">
                 Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
               </span>
               <span className={`px-2.5 py-0.5 rounded-full text-xs font-semibold capitalize border ${
@@ -1797,7 +1797,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
 
             <div className="w-48 bg-slate-800 h-2 rounded-full overflow-hidden">
               <div
-                className="bg-cyan-500 h-full transition-all duration-300"
+                className="bg-gold-500 h-full transition-all duration-300"
                 style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
               />
             </div>
@@ -1824,12 +1824,12 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                   value={numericAnswer}
                   onChange={(e) => setNumericAnswer(e.target.value)}
                   placeholder="Enter calculated numerical value..."
-                  className="w-full bg-slate-800 border border-slate-700 rounded-xl p-4 text-white font-mono focus:border-cyan-400 focus:outline-none"
+                  className="w-full bg-slate-800 border border-slate-700 rounded-xl p-4 text-white font-mono focus:border-gold-400 focus:outline-none"
                 />
                 <button
                   onClick={() => handleAnswerChallenge()}
                   disabled={!numericAnswer.trim() || challengeFeedback.status !== null}
-                  className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-sm font-semibold transition disabled:opacity-50"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold transition disabled:opacity-50"
                 >
                   Submit Answer
                 </button>
@@ -1845,7 +1845,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                       btnStyle = 'bg-rose-600/30 border-rose-500 text-rose-200';
                     }
                   } else if (selectedOption === idx) {
-                    btnStyle = 'bg-cyan-600/30 border-cyan-400 text-cyan-200';
+                    btnStyle = 'bg-gold-600/30 border-gold-400 text-gold-200';
                   }
 
                   return (
@@ -1858,7 +1858,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                       }}
                       className={`text-left p-4 rounded-xl border transition-all text-sm md:text-base flex items-start gap-3 ${btnStyle}`}
                     >
-                      <span className="font-mono text-cyan-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-mono text-gold-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
                       <span>{opt}</span>
                     </button>
                   );
@@ -1876,7 +1876,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
                 <p>{challengeFeedback.message}</p>
                 <button
                   onClick={handleNextChallenge}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg text-sm font-semibold transition"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-sm font-semibold transition"
                 >
                   {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'View Sim Summary →'}
                 </button>
@@ -1891,7 +1891,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim({
         <div className="max-w-4xl mx-auto w-full space-y-6">
           {/* Real World Activity Render */}
           <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
               </svg>

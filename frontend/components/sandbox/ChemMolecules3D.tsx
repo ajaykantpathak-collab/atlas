@@ -253,7 +253,7 @@ export function ReactionParticles3D({
         {groups.a.map((a, i) => <Ball key={'a' + i} el={a.el} p={a.p} scale={0.8} />)}
         <OrbitControls enablePan={false} enableZoom={false} />
       </Canvas>
-      <span className="absolute top-2 left-3 text-[10px] font-black text-sky-300 uppercase tracking-widest pointer-events-none">before</span>
+      <span className="absolute top-2 left-3 text-[10px] font-black text-gold-300 uppercase tracking-widest pointer-events-none">before</span>
       <span className="absolute top-2 right-3 text-[10px] font-black text-emerald-300 uppercase tracking-widest pointer-events-none">after</span>
     </div>
   )

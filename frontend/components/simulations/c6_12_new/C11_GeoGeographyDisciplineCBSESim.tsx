@@ -802,7 +802,7 @@ const GISLayerStackSVG: React.FC<{
   return (
     <div className="w-full bg-slate-900 rounded-xl p-4 shadow-2xl border border-slate-800">
       <div className="flex justify-between items-center mb-3">
-        <h4 className="text-cyan-400 font-bold text-sm tracking-wider uppercase">
+        <h4 className="text-gold-400 font-bold text-sm tracking-wider uppercase">
           GIS Multi-Spectral Layer Stack Visualizer
         </h4>
         <div className="flex gap-2 text-xs">
@@ -886,7 +886,7 @@ const GISLayerStackSVG: React.FC<{
             { id: 'remoteSensing', label: '1. Remote Sensing Sat Imagery', color: 'border-purple-500 text-purple-400' },
             { id: 'settlement', label: '2. Settlement Vectors', color: 'border-red-500 text-red-400' },
             { id: 'soil', label: '3. Soil Geography (Pedology)', color: 'border-amber-500 text-amber-400' },
-            { id: 'hydrology', label: '4. Hydrology & River Basins', color: 'border-blue-500 text-blue-400' },
+            { id: 'hydrology', label: '4. Hydrology & River Basins', color: 'border-gold-500 text-gold-400' },
             { id: 'elevation', label: '5. DEM Elevation (Geomorphology)', color: 'border-emerald-500 text-emerald-400' },
           ].map((item) => {
             const active = activeLayers[item.id as keyof typeof activeLayers];
@@ -1336,7 +1336,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
 
             {/* Render Prediction Questions (Mandatory Render) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔮</span> Predictive Geographic Scenarios (PREDICTION_QUESTIONS)
               </h3>
               <div className="space-y-6">
@@ -1357,7 +1357,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                         </div>
                       ))}
                     </div>
-                    <div className="text-xs text-cyan-300 bg-cyan-950/40 p-2.5 rounded-lg border border-cyan-800">
+                    <div className="text-xs text-gold-300 bg-gold-950/40 p-2.5 rounded-lg border border-gold-800">
                       💡 <strong>Verification Instruction:</strong> {pq.verifyInstruction}
                     </div>
                   </div>
@@ -1399,7 +1399,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-600 text-white border-cyan-400 shadow-lg'
+                      ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                       : 'bg-slate-950 text-slate-400 border-slate-800 hover:bg-slate-800'
                   }`}
                 >
@@ -1464,7 +1464,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                   )}
                   {questionMode === 'WHERE' && (
                     <div>
-                      <span className="text-xs text-cyan-400 font-bold uppercase">2. WHERE (Spatial Location & Distribution)</span>
+                      <span className="text-xs text-gold-400 font-bold uppercase">2. WHERE (Spatial Location & Distribution)</span>
                       <h4 className="text-lg font-bold text-white mt-1">Locates phenomena using coordinates, maps, and spatial distribution</h4>
                       <p className="text-slate-300 text-xs mt-2">
                         Example: Mapping exact coordinates (Latitude 27°N, Longitude 88°E) and boundary spreads of Himalayan tea gardens.
@@ -1520,7 +1520,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                   </div>
 
                   <div>
-                    <label className="text-xs font-bold text-cyan-400 block mb-1">
+                    <label className="text-xs font-bold text-gold-400 block mb-1">
                       Physical Environment Harshness / Climate Severity: {climateSeverity}%
                     </label>
                     <input
@@ -1529,7 +1529,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                       max="100"
                       value={climateSeverity}
                       onChange={(e) => setClimateSeverity(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-400 mt-1">
                       <span>Mild Ecosystem</span>
@@ -1800,7 +1800,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                 ) : (
                   <button
                     onClick={handleNextChallenge}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs md:text-sm rounded-xl transition-all shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs md:text-sm rounded-xl transition-all shadow-lg"
                   >
                     Next Challenge →
                   </button>
@@ -1853,7 +1853,7 @@ export default function C11_GeoGeographyDisciplineCBSESim() {
                               ? 'bg-rose-950 border-rose-500 text-rose-300'
                               : 'bg-slate-900 border-slate-800 text-slate-500'
                             : diagAnswers[dq.id] === optIdx
-                            ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                            ? 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >

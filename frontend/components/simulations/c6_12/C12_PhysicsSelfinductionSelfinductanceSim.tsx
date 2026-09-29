@@ -1208,13 +1208,13 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
         >
           <motion.span
             whileHover={{ rotate: 12, scale: 1.1 }}
-            className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700/60 shadow-inner inline-block"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/60 shadow-inner inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-cyan-400 font-semibold tracking-wide uppercase">
+            <p className="text-xs text-gold-400 font-semibold tracking-wide uppercase">
               ISC Class 12 Physics • Electromagnetism & AC Circuits
             </p>
           </div>
@@ -1235,7 +1235,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-cyan-950/80 text-cyan-300 border-cyan-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1263,9 +1263,9 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-5 bg-gradient-to-br from-cyan-950/50 to-slate-900 rounded-2xl border border-cyan-800/60"
+              className="p-5 bg-gradient-to-br from-gold-950/50 to-slate-900 rounded-2xl border border-gold-800/60"
             >
-              <h2 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>🚀</span> {SCENARIO.title}
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1299,7 +1299,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1325,7 +1325,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-900/30 flex items-center gap-2"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-900/30 flex items-center gap-2"
                   >
                     Enter Interactive Labs & Explore →
                   </motion.button>
@@ -1353,7 +1353,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                 className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
               >
                 <div className="flex items-center justify-between">
-                  <h2 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
+                  <h2 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
                   <motion.span
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}
@@ -1388,7 +1388,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           step={50}
                           value={solenoidTurns}
                           onChange={(e) => handleTurnsChange(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
 
@@ -1402,7 +1402,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleCoreChange(1)}
                             className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                              corePermeability === 1 ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                              corePermeability === 1 ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             Air Core
@@ -1412,7 +1412,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleCoreChange(800)}
                             className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                              corePermeability === 800 ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                              corePermeability === 800 ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             Soft Iron Core (800x L)
@@ -1431,13 +1431,13 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           step={10}
                           value={solenoidCurrentRate}
                           onChange={(e) => setSolenoidCurrentRate(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
 
                       <motion.div
                         animate={{ scale: [1, 1.02, 1] }}
-                        className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono text-cyan-300"
+                        className="p-3 bg-slate-900 rounded-lg text-xs space-y-1 font-mono text-gold-300"
                       >
                         <div>L = μ₀ μ_r N² A / l = {(calculatedSelfInductance * 1000).toFixed(2)} mH</div>
                         <div>Back-EMF |ε| = L (dI/dt) = {calculatedBackEmf.toFixed(2)} V</div>
@@ -1500,7 +1500,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           step={100}
                           value={primaryTurns}
                           onChange={(e) => setPrimaryTurns(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
 
@@ -1513,13 +1513,13 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           step={50}
                           value={secondaryTurns}
                           onChange={(e) => setSecondaryTurns(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
 
                       <motion.div
                         animate={{ scale: [1, 1.02, 1] }}
-                        className="p-3 bg-slate-900 rounded-lg text-xs font-mono space-y-1 text-cyan-300"
+                        className="p-3 bg-slate-900 rounded-lg text-xs font-mono space-y-1 text-gold-300"
                       >
                         <div>Turns Ratio N₂ / N₁ = {(secondaryTurns / primaryTurns).toFixed(3)}</div>
                         <div>Input V₁ = {inputVoltage} V → Output V₂ = {transformerOutputVoltage.toFixed(1)} V</div>
@@ -1565,7 +1565,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           onClick={() => setCircuitMode(mode)}
                           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                             circuitMode === mode
-                              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40'
+                              ? 'bg-gold-600 text-white shadow-lg shadow-gold-900/40'
                               : 'bg-slate-800 text-slate-400 hover:bg-slate-750'
                           }`}
                         >
@@ -1578,7 +1578,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                       <div>
                         <canvas ref={acCanvasRef} width={280} height={140} className="w-full bg-slate-900 rounded-xl border border-slate-800" />
                         <div className="flex justify-between text-xs text-slate-400 mt-1 px-1">
-                          <span className="text-cyan-400">Cyan: Voltage V(t)</span>
+                          <span className="text-gold-400">Cyan: Voltage V(t)</span>
                           <span className="text-amber-400">Amber: Current I(t)</span>
                         </div>
                       </div>
@@ -1587,7 +1587,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         animate={{ scale: [1, 1.02, 1] }}
                         className="p-3 bg-slate-900 rounded-xl text-xs font-mono space-y-1.5 text-slate-200"
                       >
-                        <div>Mode: <span className="text-cyan-300 font-bold">{circuitMode}</span></div>
+                        <div>Mode: <span className="text-gold-300 font-bold">{circuitMode}</span></div>
                         <div>Phase Angle φ = <span className="text-amber-300 font-bold">{phaseAngleDeg}°</span></div>
                         <div>
                           {circuitMode === 'R' && 'V and I cross zero simultaneously (In Phase).'}
@@ -1611,9 +1611,9 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                       <motion.div
                         initial={{ opacity: 0, y: 5 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-3 bg-indigo-950/40 border border-indigo-800/60 rounded-xl"
+                        className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-xl"
                       >
-                        <p className="text-xs font-semibold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                        <p className="text-xs font-semibold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1635,7 +1635,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 font-semibold">
                             <span>Source Frequency (f): {acFrequency} Hz</span>
-                            <span className="text-cyan-400">f₀ = {resonantFrequencyF0.toFixed(1)} Hz</span>
+                            <span className="text-gold-400">f₀ = {resonantFrequencyF0.toFixed(1)} Hz</span>
                           </div>
                           <input
                             type="range"
@@ -1644,7 +1644,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                             step={1}
                             value={acFrequency}
                             onChange={(e) => handleFrequencyChange(Number(e.target.value))}
-                            className="w-full accent-cyan-400"
+                            className="w-full accent-gold-400"
                           />
                         </div>
 
@@ -1655,7 +1655,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           </motion.div>
                           <motion.div whileHover={{ scale: 1.05 }} className="p-2 bg-slate-900 rounded-lg text-center">
                             <div className="text-slate-500 font-semibold">X_L</div>
-                            <div className="text-cyan-400 font-bold">{inductiveReactanceXL.toFixed(1)} Ω</div>
+                            <div className="text-gold-400 font-bold">{inductiveReactanceXL.toFixed(1)} Ω</div>
                           </motion.div>
                           <motion.div whileHover={{ scale: 1.05 }} className="p-2 bg-slate-900 rounded-lg text-center">
                             <div className="text-slate-500 font-semibold">X_C</div>
@@ -1667,7 +1667,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           animate={{ scale: [1, 1.02, 1] }}
                           className="p-3 bg-slate-900 rounded-xl text-xs font-mono space-y-1"
                         >
-                          <div>Z = √(R² + (X_L - X_C)²) = <span className="text-cyan-300 font-bold">{seriesImpedanceZ.toFixed(1)} Ω</span></div>
+                          <div>Z = √(R² + (X_L - X_C)²) = <span className="text-gold-300 font-bold">{seriesImpedanceZ.toFixed(1)} Ω</span></div>
                           <div>Current I_rms = V / Z = <span className="text-emerald-400 font-bold">{circuitCurrentRms.toFixed(2)} A</span></div>
                           <div>Phase φ = <span className="text-amber-300 font-bold">{phaseAngleDeg.toFixed(1)}°</span></div>
                         </motion.div>
@@ -1734,7 +1734,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                           step={10}
                           value={powerFactorCorrectionC}
                           onChange={(e) => setPowerFactorCorrectionC(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
 
@@ -1742,7 +1742,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         animate={{ scale: [1, 1.02, 1] }}
                         className="p-3 bg-slate-900 rounded-xl text-xs font-mono space-y-1"
                       >
-                        <div>Power Factor cos(φ) = <span className="text-cyan-300 font-bold">{powerFactorCosPhi.toFixed(2)}</span></div>
+                        <div>Power Factor cos(φ) = <span className="text-gold-300 font-bold">{powerFactorCosPhi.toFixed(2)}</span></div>
                         <div>Active Real Power = <span className="text-emerald-300 font-bold">{realPowerWatts.toFixed(0)} W</span></div>
                         <div className="text-slate-400">Grid Current: {circuitCurrentRms.toFixed(2)} A</div>
                       </motion.div>
@@ -1754,7 +1754,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     >
                       <span className="text-3xl">🏭 ➔ ⚡ ➔ 💡</span>
                       <h3 className="text-xs font-bold text-white">Power Factor Status:</h3>
-                      <div className="text-xl font-black text-cyan-400">{(powerFactorCosPhi * 100).toFixed(0)}% Efficiency</div>
+                      <div className="text-xl font-black text-gold-400">{(powerFactorCosPhi * 100).toFixed(0)}% Efficiency</div>
                       <p className="text-xs text-slate-400">
                         {powerFactorCosPhi > 0.95
                           ? '✅ Optimal Unity Power Factor! Lowest line transmission losses.'
@@ -1787,7 +1787,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide((s) => s + 1)}
-                  className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Next Lab →
                 </motion.button>
@@ -1820,7 +1820,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
               className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap justify-between items-center gap-3"
             >
               <div>
-                <h2 className="text-base font-bold text-cyan-300">AC Circuit Interactive Sandbox</h2>
+                <h2 className="text-base font-bold text-gold-300">AC Circuit Interactive Sandbox</h2>
                 <p className="text-xs text-slate-400">Freely manipulate all parameters. Observe instantaneous waveforms & phasors.</p>
               </div>
               <motion.button
@@ -1848,7 +1848,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     max={100}
                     value={resistanceR}
                     onChange={(e) => setResistanceR(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
                 <div>
@@ -1860,7 +1860,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     step={0.02}
                     value={inductanceL}
                     onChange={(e) => setInductanceL(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
                 <div>
@@ -1872,7 +1872,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     step={5}
                     value={capacitanceC}
                     onChange={(e) => setCapacitanceC(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
               </motion.div>
@@ -1887,7 +1887,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     max={150}
                     value={acFrequency}
                     onChange={(e) => setAcFrequency(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
                 <div>
@@ -1899,11 +1899,11 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     step={10}
                     value={inputVoltage}
                     onChange={(e) => setInputVoltage(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
 
-                <div className="p-2.5 bg-slate-900 rounded-xl text-xs font-mono space-y-1 text-cyan-300">
+                <div className="p-2.5 bg-slate-900 rounded-xl text-xs font-mono space-y-1 text-gold-300">
                   <div>f₀ = {resonantFrequencyF0.toFixed(1)} Hz</div>
                   <div>X_L = {inductiveReactanceXL.toFixed(1)} Ω | X_C = {capacitiveReactanceXC.toFixed(1)} Ω</div>
                 </div>
@@ -1915,7 +1915,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                 <div className="p-2.5 bg-slate-900 rounded-xl text-xs font-mono space-y-1">
                   <div>Impedance Z: <span className="text-amber-400 font-bold">{seriesImpedanceZ.toFixed(1)} Ω</span></div>
                   <div>I_rms: <span className="text-emerald-400 font-bold">{circuitCurrentRms.toFixed(2)} A</span></div>
-                  <div>cos(φ): <span className="text-cyan-400 font-bold">{powerFactorCosPhi.toFixed(3)}</span></div>
+                  <div>cos(φ): <span className="text-gold-400 font-bold">{powerFactorCosPhi.toFixed(3)}</span></div>
                 </div>
               </motion.div>
             </motion.div>
@@ -1942,7 +1942,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
               </span>
               <motion.span
                 whileHover={{ scale: 1.05 }}
-                className="text-cyan-400 font-mono font-semibold uppercase"
+                className="text-gold-400 font-mono font-semibold uppercase"
               >
                 Competency: {currentChallengeData.competencyLevel}
               </motion.span>
@@ -1954,14 +1954,14 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
               className="h-2 w-full bg-slate-800 rounded-full overflow-hidden"
             >
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-blue-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
             </motion.div>
 
-            <div className="text-xs text-indigo-300 mt-1">
+            <div className="text-xs text-gold-300 mt-1">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -1998,7 +1998,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                             : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                         }`}
                       >
-                        <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                         {opt}
                       </motion.button>
                     ))}
@@ -2016,7 +2016,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-2 bg-cyan-800/80 hover:bg-cyan-700 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
+                        className="px-3 py-2 bg-gold-800/80 hover:bg-gold-700 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2033,7 +2033,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         className="p-4 bg-slate-950 border-2 border-dashed border-slate-700 rounded-xl text-center min-h-[70px] flex flex-col justify-center items-center"
                       >
                         <span className="text-xs text-slate-500 mb-1">Target Zone {idx + 1}</span>
-                        <span className="text-xs font-bold text-cyan-300">
+                        <span className="text-xs font-bold text-gold-300">
                           {droppedLabels[target.targetId] || 'Drop matching label here'}
                         </span>
                       </motion.div>
@@ -2044,7 +2044,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Labels
                   </motion.button>
@@ -2070,7 +2070,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs font-medium text-slate-200 cursor-grab flex items-center gap-2"
                     >
-                      <span className="font-bold text-cyan-400">{dIdx + 1}.</span> {item}
+                      <span className="font-bold text-gold-400">{dIdx + 1}.</span> {item}
                     </motion.div>
                   ))}
 
@@ -2078,7 +2078,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleSortSubmit}
-                    className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Check Sequence
                   </motion.button>
@@ -2101,7 +2101,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => handleAnswer(numericInput)}
-                      className="px-4 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                      className="px-4 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                     >
                       Check
                     </motion.button>
@@ -2119,7 +2119,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-cyan-900/80 hover:bg-cyan-800 text-cyan-200 border border-cyan-700 rounded-lg text-xs font-mono font-bold"
+                        className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-lg text-xs font-mono font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2136,7 +2136,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                         key={pIdx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-cyan-300 flex items-center gap-1"
+                        className="px-2.5 py-1 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-gold-300 flex items-center gap-1"
                       >
                         {part}
                         <motion.button
@@ -2159,7 +2159,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
-                    className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Formula
                   </motion.button>
@@ -2249,7 +2249,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
               <motion.div
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
-                className="text-3xl font-black text-cyan-400"
+                className="text-3xl font-black text-gold-400"
               >
                 {Math.max(0, 100 - errors * 5)}%
               </motion.div>
@@ -2301,9 +2301,9 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-4 bg-cyan-950/40 border border-cyan-800/60 rounded-2xl text-xs text-slate-300 space-y-1"
+              className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-2xl text-xs text-slate-300 space-y-1"
             >
-              <div className="font-bold text-cyan-300">Spaced Repetition Schedule (SM-2):</div>
+              <div className="font-bold text-gold-300">Spaced Repetition Schedule (SM-2):</div>
               <p>
                 Review due in{' '}
                 <span className="text-amber-300 font-bold">
@@ -2319,7 +2319,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <h3 className="text-sm font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-400">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
@@ -2330,7 +2330,7 @@ function C12_PhysicsSelfinductionSelfinductanceSim({
                     transition={{ delay: idx * 0.1 }}
                     className="flex gap-2"
                   >
-                    <span className="text-cyan-400 font-bold">{idx + 1}.</span> {step}
+                    <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                   </motion.li>
                 ))}
               </ul>

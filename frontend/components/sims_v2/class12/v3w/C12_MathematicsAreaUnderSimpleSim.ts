@@ -11,11 +11,11 @@ export const w_c12_mathematicsareaundersimplesim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Area Under Simple Curves: Definition',
     chapters: [],
     nodeIds: ['c12_math_cbse_08_001', 'c12_math_cbse_07_007', 'c12_math_cbse_05_010', 'c12_math_cbse_04_002', 'c12_math_cbse_08_002', 'c12_math_cbse_08_003', 'c12_math_cbse_08_004', 'c12_math_cbse_08_005', 'c12_math_cbse_08_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a curved garden bed along the side of a rectangular plot in your school.', goal: 'Master Area Under Simple Curves: Definition.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The area under a simple curve y = f(x) from.', text: 'The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on [a,b]) is defined as the definite integral ∫_a^b f(x) dx, which represents the limit of the sum of areas of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The area under a simple curve y = f(x) from.', text: 'The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on [a,b]) is defined as the definite integral ∫_a^b f(x) dx, which represents the limit of the sum of areas of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_08_001', title: 'The area under a simple curve y = f(x).',

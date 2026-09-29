@@ -1159,12 +1159,12 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
         className="flex flex-wrap items-center justify-between pb-6 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="p-3 bg-indigo-900/40 border border-indigo-700/50 rounded-2xl text-2xl shadow-inner">
+          <span className="p-3 bg-gold-900/40 border border-gold-700/50 rounded-2xl text-2xl shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold">ISC Class 11 Accountancy</span>
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold">ISC Class 11 Accountancy</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">NEP 2020 Aligned</span>
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
@@ -1177,7 +1177,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
             <span
               key={p}
               className={`px-3 py-1.5 rounded-xl capitalize transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1189,14 +1189,14 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️</span>
               <span>Forensic Audit Narrative</span>
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-indigo-300">
+            <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-gold-300">
               ⚡ <strong>Your Responsibility:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1204,7 +1204,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
           {/* TOPIC SPECIFIC SVG 1: The Accounting Cycle Pipeline Flowchart */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase tracking-wider font-bold text-sky-400">Statutory Accounting Pipeline Flowchart</span>
+              <span className="text-xs uppercase tracking-wider font-bold text-gold-400">Statutory Accounting Pipeline Flowchart</span>
               <span className="text-[11px] text-slate-400 font-mono">Sec 128 / AS-1 Framework</span>
             </div>
             <div className="w-full overflow-x-auto bg-slate-950 p-4 rounded-2xl border border-slate-800/80">
@@ -1309,7 +1309,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Begin interactive exploration"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 text-sm whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 text-sm whitespace-nowrap"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1325,10 +1325,10 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
           {/* Step Breadcrumb Header */}
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold">Guided Interactive Discovery</span>
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold">Guided Interactive Discovery</span>
               <h2 className="text-lg font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
-            <span className="text-xs font-bold px-3 py-1 rounded-full bg-slate-800 text-indigo-300 border border-slate-700">
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-slate-800 text-gold-300 border border-slate-700">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
           </div>
@@ -1341,7 +1341,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
               exit={{ opacity: 0, x: -20 }}
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-6"
             >
-              <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800/40 text-sm text-indigo-200 flex items-center gap-2">
+              <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800/40 text-sm text-gold-200 flex items-center gap-2">
                 <span>👉</span>
                 <span>{EXPLORATION_STEPS[currentSlide].instruction}</span>
               </div>
@@ -1410,7 +1410,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       <div>
                         <div className="flex justify-between text-xs mb-1">
                           <span className="text-slate-300">Manufacturing Cost per unit</span>
-                          <span className="font-bold text-indigo-400">₹{inventoryCost}</span>
+                          <span className="font-bold text-gold-400">₹{inventoryCost}</span>
                         </div>
                         <input
                           type="range"
@@ -1420,7 +1420,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                           value={inventoryCost}
                           onChange={(e) => setInventoryCost(Number(e.target.value))}
                           aria-label="Manufacturing cost per unit slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1472,7 +1472,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         </div>
                         <div className="h-px bg-slate-800" />
                         <div className="flex justify-between items-center">
-                          <span className="text-xs text-indigo-300 font-bold">AS-2 Valuation / Unit:</span>
+                          <span className="text-xs text-gold-300 font-bold">AS-2 Valuation / Unit:</span>
                           <span className="text-base font-black text-emerald-400">₹{inventoryValuationPerUnit}</span>
                         </div>
                         <div className="flex justify-between items-center">
@@ -1497,7 +1497,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   {/* MULTI-REPRESENTATION SELECTOR */}
                   <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-4">
                     <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
-                      <span className="text-xs uppercase font-bold text-indigo-400">Multi-Representation Framework</span>
+                      <span className="text-xs uppercase font-bold text-gold-400">Multi-Representation Framework</span>
                       <div className="flex gap-1.5 bg-slate-900 p-1 rounded-xl">
                         {[
                           { id: 'algebraic', label: 'Rep 1: Algebraic Formula' },
@@ -1508,7 +1508,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                             key={tab.id}
                             onClick={() => setActiveRepTab(tab.id as any)}
                             className={`px-3 py-1 text-xs rounded-lg font-bold transition-all ${
-                              activeRepTab === tab.id ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+                              activeRepTab === tab.id ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
                             }`}
                           >
                             {tab.label}
@@ -1519,13 +1519,13 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
 
                     {/* Representation 1: Algebraic Equation */}
                     {activeRepTab === 'algebraic' && (
-                      <div className="p-4 bg-slate-900 rounded-xl border border-indigo-800/40 space-y-2">
-                        <span className="text-xs text-indigo-300 font-bold uppercase block">Representation 1: Algebraic Mathematical Equation</span>
+                      <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-2">
+                        <span className="text-xs text-gold-300 font-bold uppercase block">Representation 1: Algebraic Mathematical Equation</span>
                         <div className="p-3 bg-slate-950 rounded-lg font-mono text-sm text-center text-emerald-300 border border-slate-800">
                           Assets = Liabilities + Owner&apos;s Capital + (Revenues − Expenses) − Drawings
                         </div>
                         <div className="flex justify-around text-xs pt-1 text-slate-300">
-                          <span>Total Assets: <strong className="text-sky-400">₹{(totalAssets / 100000).toFixed(2)}L</strong></span>
+                          <span>Total Assets: <strong className="text-gold-400">₹{(totalAssets / 100000).toFixed(2)}L</strong></span>
                           <span>=</span>
                           <span>Liabilities (<strong className="text-purple-400">₹{((creditorsLiab + bankLoanLiab) / 100000).toFixed(2)}L</strong>) + Capital (<strong className="text-purple-400">₹{(ownerCapital / 100000).toFixed(2)}L</strong>)</span>
                         </div>
@@ -1534,8 +1534,8 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
 
                     {/* Representation 2: Balance Sheet T-Diagram */}
                     {activeRepTab === 't-diagram' && (
-                      <div className="p-4 bg-slate-900 rounded-xl border border-indigo-800/40 space-y-2">
-                        <span className="text-xs text-indigo-300 font-bold uppercase block">Representation 2: Horizontal Balance Sheet T-Structure</span>
+                      <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-2">
+                        <span className="text-xs text-gold-300 font-bold uppercase block">Representation 2: Horizontal Balance Sheet T-Structure</span>
                         <div className="grid grid-cols-2 gap-3 bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs">
                           <div className="border-r border-slate-800 pr-3">
                             <span className="font-bold text-purple-400 block border-b border-slate-800 pb-1 mb-2">Liabilities & Capital (Credit)</span>
@@ -1547,12 +1547,12 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                             </div>
                           </div>
                           <div className="pl-3">
-                            <span className="font-bold text-sky-400 block border-b border-slate-800 pb-1 mb-2">Assets (Debit)</span>
+                            <span className="font-bold text-gold-400 block border-b border-slate-800 pb-1 mb-2">Assets (Debit)</span>
                             <div className="flex justify-between"><span>Cash in Hand:</span><span>₹{(cashAsset / 100000).toFixed(2)}L</span></div>
                             <div className="flex justify-between"><span>Bank A/c:</span><span>₹{(bankAsset / 100000).toFixed(2)}L</span></div>
                             <div className="flex justify-between"><span>Stock:</span><span>₹{(stockAsset / 100000).toFixed(2)}L</span></div>
                             <div className="flex justify-between"><span>Machinery:</span><span>₹{(machineryAsset / 100000).toFixed(2)}L</span></div>
-                            <div className="border-t border-slate-800 mt-2 pt-1 font-bold flex justify-between text-sky-300">
+                            <div className="border-t border-slate-800 mt-2 pt-1 font-bold flex justify-between text-gold-300">
                               <span>Total Assets:</span><span>₹{(totalAssets / 100000).toFixed(2)}L</span>
                             </div>
                           </div>
@@ -1562,8 +1562,8 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
 
                     {/* Representation 3: Dual Claims Scale */}
                     {activeRepTab === 'dual-matrix' && (
-                      <div className="p-4 bg-slate-900 rounded-xl border border-indigo-800/40 space-y-2">
-                        <span className="text-xs text-indigo-300 font-bold uppercase block">Representation 3: Dynamic Physics Balance Scale</span>
+                      <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-2">
+                        <span className="text-xs text-gold-300 font-bold uppercase block">Representation 3: Dynamic Physics Balance Scale</span>
                         <canvas ref={canvasRef} width={500} height={160} className="w-full bg-slate-950 rounded-xl border border-slate-800" />
                       </div>
                     )}
@@ -1578,7 +1578,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleTransactionInject('capital')}
                         aria-label="Introduce 2 Lakh capital"
-                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-indigo-800 text-xs text-indigo-300 text-left"
+                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-gold-800 text-xs text-gold-300 text-left"
                       >
                         <span className="font-bold block">+ Capital ₹2L</span>
                         <span className="text-[10px] text-slate-400">Cash ↑ Cap ↑</span>
@@ -1589,7 +1589,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleTransactionInject('machinery_credit')}
                         aria-label="Buy 3 Lakh machinery on credit"
-                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-indigo-800 text-xs text-indigo-300 text-left"
+                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-gold-800 text-xs text-gold-300 text-left"
                       >
                         <span className="font-bold block">+ Mach on Credit ₹3L</span>
                         <span className="text-[10px] text-slate-400">Mach ↑ Liab ↑</span>
@@ -1600,7 +1600,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleTransactionInject('salary_cash')}
                         aria-label="Pay 40 thousand salary in cash"
-                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-indigo-800 text-xs text-indigo-300 text-left"
+                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-gold-800 text-xs text-gold-300 text-left"
                       >
                         <span className="font-bold block">- Pay Salary ₹40k</span>
                         <span className="text-[10px] text-slate-400">Cash ↓ Cap ↓</span>
@@ -1611,7 +1611,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleTransactionInject('sale_cash')}
                         aria-label="Cash sale of 1.5 Lakh with 50k profit"
-                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-indigo-800 text-xs text-indigo-300 text-left"
+                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-gold-800 text-xs text-gold-300 text-left"
                       >
                         <span className="font-bold block">+ Cash Sale w/ Profit</span>
                         <span className="text-[10px] text-slate-400">Cash+1.5L Stock-1L Cap+50k</span>
@@ -1622,7 +1622,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleTransactionInject('drawings')}
                         aria-label="Withdraw 30 thousand drawings"
-                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-indigo-800 text-xs text-indigo-300 text-left"
+                        className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-gold-800 text-xs text-gold-300 text-left"
                       >
                         <span className="font-bold block">- Drawings ₹30k</span>
                         <span className="text-[10px] text-slate-400">Cash ↓ Cap ↓</span>
@@ -1658,7 +1658,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                 <div className="space-y-6">
                   {/* TOPIC SPECIFIC SVG 3: Account Classification & Golden Rules Matrix */}
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                    <span className="text-xs uppercase font-bold text-indigo-400 block mb-2">Double-Entry Golden Rules Architecture</span>
+                    <span className="text-xs uppercase font-bold text-gold-400 block mb-2">Double-Entry Golden Rules Architecture</span>
                     <svg viewBox="0 0 620 130" className="w-full h-32 bg-slate-900/60 rounded-xl p-2">
                       {/* Personal Accounts */}
                       <rect x="10" y="20" width="180" height="90" rx="10" fill="#1e1b4b" stroke="#6366f1" strokeWidth="1.5" />
@@ -1698,7 +1698,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         aria-label={btn.label}
                         className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                           selectedTxType === btn.id
-                            ? 'bg-indigo-600 text-white border-indigo-500 shadow-md'
+                            ? 'bg-gold-600 text-white border-gold-500 shadow-md'
                             : 'bg-slate-950 text-slate-300 border-slate-800 hover:bg-slate-800'
                         }`}
                       >
@@ -1826,7 +1826,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={handleAddLedgerDebit}
                         aria-label="Add debit receipt posting"
-                        className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                        className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold"
                       >
                         + Post Debit Receipt (₹40k)
                       </motion.button>
@@ -1905,7 +1905,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       <div>Total Cr: ₹{Math.max(totalLedgerDebit, totalLedgerCredit).toLocaleString()}</div>
                     </div>
 
-                    <div className="mt-2 p-2 bg-slate-900 rounded-lg text-center text-xs text-indigo-300">
+                    <div className="mt-2 p-2 bg-slate-900 rounded-lg text-center text-xs text-gold-300">
                       Next Period Opening: <strong>{heavierSide === 'debit' ? `To Balance b/d: ₹${ledgerDifference.toLocaleString()} (Debit Balance)` : `By Balance b/d: ₹${ledgerDifference.toLocaleString()} (Credit Balance)`}</strong>
                     </div>
                   </div>
@@ -1938,7 +1938,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">Profit & Loss Account Impact</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">Profit & Loss Account Impact</span>
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Cash Salary Paid during Year:</span>
                         <span className="font-mono text-white">₹{nominalExpensePaid.toLocaleString()}</span>
@@ -1951,7 +1951,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       )}
                       <div className="h-px bg-slate-800" />
                       <div className="flex justify-between text-sm font-bold">
-                        <span className="text-indigo-300">Total Salary Charged to P&L:</span>
+                        <span className="text-gold-300">Total Salary Charged to P&L:</span>
                         <span className="font-mono text-emerald-400">₹{adjustedPAndLExpense.toLocaleString()}</span>
                       </div>
                     </div>
@@ -2007,7 +2007,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   audioManager.play('tap');
                 }}
                 aria-label="Next interactive lab"
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -2043,12 +2043,12 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-3xl border border-slate-800">
             {/* Left: Asset Sliders */}
             <div className="space-y-4">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-sky-400">Asset Accounts (Debit Balances)</h3>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400">Asset Accounts (Debit Balances)</h3>
 
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-300">Cash in Hand</span>
-                  <span className="font-mono text-sky-400">₹{cashAsset.toLocaleString()}</span>
+                  <span className="font-mono text-gold-400">₹{cashAsset.toLocaleString()}</span>
                 </div>
                 <input
                   type="range"
@@ -2058,14 +2058,14 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   value={cashAsset}
                   onChange={(e) => setCashAsset(Number(e.target.value))}
                   aria-label="Cash asset slider"
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-300">Bank Balance (HDFC Current A/c)</span>
-                  <span className="font-mono text-sky-400">₹{bankAsset.toLocaleString()}</span>
+                  <span className="font-mono text-gold-400">₹{bankAsset.toLocaleString()}</span>
                 </div>
                 <input
                   type="range"
@@ -2075,14 +2075,14 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   value={bankAsset}
                   onChange={(e) => setBankAsset(Number(e.target.value))}
                   aria-label="Bank asset slider"
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-300">Stock of Finished Goods</span>
-                  <span className="font-mono text-sky-400">₹{stockAsset.toLocaleString()}</span>
+                  <span className="font-mono text-gold-400">₹{stockAsset.toLocaleString()}</span>
                 </div>
                 <input
                   type="range"
@@ -2092,14 +2092,14 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   value={stockAsset}
                   onChange={(e) => setStockAsset(Number(e.target.value))}
                   aria-label="Stock asset slider"
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-300">Plant & Machinery</span>
-                  <span className="font-mono text-sky-400">₹{machineryAsset.toLocaleString()}</span>
+                  <span className="font-mono text-gold-400">₹{machineryAsset.toLocaleString()}</span>
                 </div>
                 <input
                   type="range"
@@ -2109,13 +2109,13 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   value={machineryAsset}
                   onChange={(e) => setMachineryAsset(Number(e.target.value))}
                   aria-label="Machinery asset slider"
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
-              <div className="p-3 bg-sky-950/40 rounded-xl border border-sky-800 text-xs flex justify-between font-bold">
-                <span className="text-sky-300">Total Assets (A):</span>
-                <span className="font-mono text-sky-200">₹{totalAssets.toLocaleString()}</span>
+              <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800 text-xs flex justify-between font-bold">
+                <span className="text-gold-300">Total Assets (A):</span>
+                <span className="font-mono text-gold-200">₹{totalAssets.toLocaleString()}</span>
               </div>
             </div>
 
@@ -2184,7 +2184,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                     audioManager.play('balance');
                   }}
                   aria-label="Auto balance owner capital"
-                  className="w-full py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white shadow"
+                  className="w-full py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white shadow"
                 >
                   ⚡ Auto-Derive Capital Balancing Figure (Assets − Liabilities)
                 </motion.button>
@@ -2221,7 +2221,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
-                <span className="text-xs text-indigo-300 font-semibold uppercase">{challenge.competencyLevel} Competency</span>
+                <span className="text-xs text-gold-300 font-semibold uppercase">{challenge.competencyLevel} Competency</span>
                 <span className="text-slate-600">•</span>
                 <span className="text-xs text-slate-400 font-mono">Node: {challenge.nodeId}</span>
               </div>
@@ -2236,7 +2236,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   ? 'bg-emerald-950/60 text-emerald-300 border-emerald-700'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/60 text-rose-300 border-rose-700'
-                  : 'bg-indigo-950/60 text-indigo-300 border-indigo-700'
+                  : 'bg-gold-950/60 text-gold-300 border-gold-700'
               }`}
             >
               {difficulty} TIER
@@ -2246,7 +2246,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2304,7 +2304,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3.5 py-2 bg-indigo-700 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-2 bg-gold-700 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2322,10 +2322,10 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       key={tid}
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop(tid)}
-                      className="p-4 bg-slate-950 rounded-2xl border-2 border-dashed border-slate-800 hover:border-indigo-600 transition-colors"
+                      className="p-4 bg-slate-950 rounded-2xl border-2 border-dashed border-slate-800 hover:border-gold-600 transition-colors"
                     >
                       <span className="text-xs font-bold text-slate-400 block mb-2">{label}</span>
-                      <div className="min-h-[36px] flex items-center justify-center bg-slate-900 rounded-xl p-2 text-xs font-mono text-indigo-300">
+                      <div className="min-h-[36px] flex items-center justify-center bg-slate-900 rounded-xl p-2 text-xs font-mono text-gold-300">
                         {droppedLabels[tid] || '[ Drop Matching Account Here ]'}
                       </div>
                     </div>
@@ -2339,7 +2339,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Submit label assignments"
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify All Classifications
                 </motion.button>
@@ -2367,7 +2367,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-0.5 rounded bg-slate-800 text-indigo-400 font-bold">{displayIndex + 1}</span>
+                      <span className="px-2 py-0.5 rounded bg-slate-800 text-gold-400 font-bold">{displayIndex + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2383,7 +2383,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                     handleAnswer(ans);
                   }}
                   aria-label="Verify sort sequence"
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Check Sequence
                 </motion.button>
@@ -2400,7 +2400,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Numeric answer input"
-                    className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 focus:outline-none"
+                    className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 focus:outline-none"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2410,7 +2410,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     aria-label="Submit numeric response"
-                    className="px-6 py-3 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                    className="px-6 py-3 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2430,7 +2430,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-slate-950 hover:bg-slate-800 border border-indigo-800 rounded-xl text-xs text-indigo-300 font-bold"
+                      className="px-3 py-1.5 bg-slate-950 hover:bg-slate-800 border border-gold-800 rounded-xl text-xs text-gold-300 font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2439,7 +2439,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
 
                 <div className="min-h-[60px] p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900/80 border border-indigo-700 text-white rounded-lg text-xs font-mono flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-900/80 border border-gold-700 text-white rounded-lg text-xs font-mono flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2461,7 +2461,7 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Validate construction"
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Verify Equation Formula
                 </motion.button>
@@ -2517,26 +2517,26 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
       {/* ─── 5. COMPLETION & MASTERY PROFILE PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800 shadow-2xl text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-800 shadow-2xl text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Forensic Audit & Accountancy Certified!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BADGE */}
-            <div className="inline-block px-5 py-2 rounded-2xl bg-indigo-900/60 border border-indigo-500 text-lg font-black text-amber-300 shadow-md">
+            <div className="inline-block px-5 py-2 rounded-2xl bg-gold-900/60 border border-gold-500 text-lg font-black text-amber-300 shadow-md">
               {motivationalMessage}
             </div>
 
             <p className="text-sm text-slate-300">
               You have systematically closed and audited the accounts of Bharat TexTech under CISCE standards.
             </p>
-            <div className="inline-block px-6 py-2 bg-slate-950 rounded-2xl border border-indigo-700/60 font-mono text-xl text-emerald-400 font-bold">
+            <div className="inline-block px-6 py-2 bg-slate-950 rounded-2xl border border-gold-700/60 font-mono text-xl text-emerald-400 font-bold">
               Final Score: {Math.max(0, 100 - errors * 5)}% &nbsp;•&nbsp; Tier: {masteryLevel.toUpperCase()}
             </div>
           </div>
 
           {/* Personalized Performance Feedback */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800">
-            <span className="text-xs uppercase tracking-wider font-bold text-indigo-400 block mb-2">Diagnostic Feedback</span>
+            <span className="text-xs uppercase tracking-wider font-bold text-gold-400 block mb-2">Diagnostic Feedback</span>
             <p className="text-sm text-slate-200 leading-relaxed">
               {errors === 0
                 ? '🌟 PERFECT SCORE! You possess complete conceptual mastery across AS, IFRS/Ind-AS, Journal, T-Accounts, and Adjustments.'
@@ -2575,20 +2575,20 @@ export function C11_AccountancyAccountingStandardsMeaningSim({
                 <span className="font-bold text-white block">SM-2 Spaced Repetition Active</span>
                 <span className="text-slate-400">
                   Topic retention review scheduled in{' '}
-                  <strong className="text-indigo-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>
+                  <strong className="text-gold-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>
                 </span>
               </div>
             </div>
           </div>
 
           {/* Real-World Activity Card */}
-          <div className="p-6 bg-indigo-950/40 rounded-3xl border border-indigo-800/60 space-y-3">
-            <span className="text-xs uppercase tracking-wider font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</span>
+          <div className="p-6 bg-gold-950/40 rounded-3xl border border-gold-800/60 space-y-3">
+            <span className="text-xs uppercase tracking-wider font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</span>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

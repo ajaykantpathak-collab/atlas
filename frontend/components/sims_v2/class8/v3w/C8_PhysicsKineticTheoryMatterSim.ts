@@ -11,7 +11,7 @@ export const w_c8_physicskinetictheorymattersim: SimDef = {
     classLevel: 8, subject: 'physics', topic: 'Solubility of Gases in Liquids: Effect of Temperature and Pressure',
     chapters: [],
     nodeIds: ['c8_physics_ch5_10', 'c8_physics_ch8_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Observe a sealed cold drink bottle: when opened, bubbles rush out — the dissolved carbon dioxide escapes.', goal: 'Master Solubility of Gases in Liquids: Effect of Temperature and Pressure.' },
     discovery: {
         question: 'A student claims: "If I double the pressure on a gas-liquid system, the amount of dissolved gas will double, no matter what the temperature is." Evaluate this.',
@@ -20,7 +20,7 @@ export const w_c8_physicskinetictheorymattersim: SimDef = {
         hook: 'Students think "heating always increases solubility" because they generalize from solids (sugar, salt) where solubility.',
     },
     teaching: [
-        { title: 'The solubility of a gas in a liquid is the.', text: 'The solubility of a gas in a liquid is the maximum amount of gas (in moles or grams) that can dissolve in a fixed volume of solvent at a given temperature and pressure, reaching dynamic equilibrium.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The solubility of a gas in a liquid is the.', text: 'The solubility of a gas in a liquid is the maximum amount of gas (in moles or grams) that can dissolve in a fixed volume of solvent at a given temperature and pressure, reaching dynamic equilibrium.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch5_10', title: 'The solubility of a gas in a liquid is.',

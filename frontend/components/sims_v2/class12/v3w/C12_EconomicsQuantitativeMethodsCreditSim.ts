@@ -11,7 +11,7 @@ export const w_c12_economicsquantitativemethodscreditsim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR)',
     chapters: [],
     nodeIds: ['c12_eco_cbse_09_006', 'c12_eco_cbse_08_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you deposit ₹10,000 in your savings account at a commercial bank.', goal: 'Master Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR).' },
     discovery: {
         question: 'If a bank\'s NDTL is ₹500 crore, CRR is 4.5%, and SLR is 18%, calculate the amount the bank must hold as CRR reserves with RBI and as SLR assets.',
@@ -20,7 +20,7 @@ export const w_c12_economicsquantitativemethodscreditsim: SimDef = {
         hook: 'Students often believe that CRR and SLR reserves are "idle money" that banks cannot use at all.',
     },
     teaching: [
-        { title: 'Cash Reserve Ratio (CRR) is the fraction of.', text: 'Cash Reserve Ratio (CRR) is the fraction of a commercial bank\'s net demand and time liabilities (NDTL) that must be maintained as interest-free reserves with the Reserve Bank of India (RBI).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Cash Reserve Ratio (CRR) is the fraction of.', text: 'Cash Reserve Ratio (CRR) is the fraction of a commercial bank\'s net demand and time liabilities (NDTL) that must be maintained as interest-free reserves with the Reserve Bank of India (RBI).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_09_006', title: 'Cash Reserve Ratio (CRR) is the.',

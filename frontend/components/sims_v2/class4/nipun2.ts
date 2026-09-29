@@ -20,9 +20,9 @@ export const c4Algo: SimDef = {
     },
     teaching: [
         { title: 'Algorithm = Steps 📋', text: 'An algorithm is a list of steps to finish a task — like a recipe! Wake-up algorithm: wake → brush → bath → eat!', emoji: '📋', bgColor: 'from-slate-400 to-gray-500' },
-        { title: 'Order Matters 🔢', text: 'Step 2 before Step 1? Socks BEFORE shoes! The order of steps changes everything!', emoji: '🔢', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Order Matters 🔢', text: 'Step 2 before Step 1? Socks BEFORE shoes! The order of steps changes everything!', emoji: '🔢', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Be Exact 🎯', text: 'Computers follow instructions LITERALLY. "Draw a circle" not "draw something round" — be precise!', emoji: '🎯', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Logo Commands 🐢', text: 'Logo is a language that moves a turtle: FORWARD 10, RIGHT 90 — the turtle draws shapes!', emoji: '🐢', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Logo Commands 🐢', text: 'Logo is a language that moves a turtle: FORWARD 10, RIGHT 90 — the turtle draws shapes!', emoji: '🐢', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'order', prompt: 'Put the making-tiffin algorithm in order!', labels: ['Open the tiffin box', 'Put in the sandwich', 'Close the box', 'Wrap it in a cloth'] },
     challenges: [
@@ -55,7 +55,7 @@ export const c4Memory: SimDef = {
     id: 'c4_memory', title: 'Memory Bank', subtitle: 'RAM vs Storage — where does work live?',
     classLevel: 4, subject: 'computer', topic: 'Computer Memory',
     chapters: ['Computer: memory and storage'],
-    emoji: '💾', theme: { bg: 'from-indigo-100 to-slate-200', accent: 'indigo', scene: 'computer' },
+    emoji: '💾', theme: { bg: 'from-gold-100 to-slate-200', accent: 'indigo', scene: 'computer' },
     scenario: { role: "a memory manager", intro: 'Computers remember in two ways — fast-and-forgetful RAM, slow-but-forever storage!', goal: 'Sort memory correctly.' },
     discovery: {
         question: 'You typed homework but did not save — power goes off. What happens?',
@@ -66,8 +66,8 @@ export const c4Memory: SimDef = {
     teaching: [
         { title: 'RAM = Fast Worker 🧠', text: 'RAM holds what the computer is doing RIGHT NOW — fast but temporary. Power off = RAM forgets!', emoji: '🧠', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Storage = Forever Box 📦', text: 'Hard disk and pen drives keep files FOREVER — slower but they never forget!', emoji: '📦', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Save = Move to Storage 💾', text: 'Clicking Save copies work from RAM to storage — that is why we SAVE before closing!', emoji: '💾', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Memory Units 📏', text: 'Bytes measure memory: 1000 bytes = 1 KB, 1000 KB = 1 MB, 1000 MB = 1 GB!', emoji: '📏', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Save = Move to Storage 💾', text: 'Clicking Save copies work from RAM to storage — that is why we SAVE before closing!', emoji: '💾', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Memory Units 📏', text: 'Bytes measure memory: 1000 bytes = 1 KB, 1000 KB = 1 MB, 1000 MB = 1 GB!', emoji: '📏', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'match', prompt: 'Match each to RAM or Storage!', labels: ['Typing a letter', 'RAM', 'Saved photo', 'Storage', 'Open app running', 'RAM'] },
     challenges: [
@@ -100,7 +100,7 @@ export const c4EarthMotion: SimDef = {
     id: 'c4_earthmo', title: 'Spinning Earth', subtitle: 'Rotation = day, Revolution = year!',
     classLevel: 4, subject: 'evs', topic: 'Earth Motions',
     chapters: ['EVS-4: rotation and revolution'],
-    emoji: '🌍', theme: { bg: 'from-blue-100 to-cyan-200', accent: 'blue', scene: 'sky' },
+    emoji: '🌍', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'sky' },
     scenario: { role: "a planet scientist", intro: 'Earth does two dances: spinning like a top and circling the sun. Each makes something happen!', goal: 'Match each motion to its effect.' },
     discovery: {
         question: 'Why do we have day and night?',
@@ -109,9 +109,9 @@ export const c4EarthMotion: SimDef = {
         hook: 'Earth SPINS — the side facing the sun gets day!',
     },
     teaching: [
-        { title: 'Rotation = Spinning 🌀', text: 'Earth spins on its AXIS (an invisible stick) — one full spin = 24 hours = 1 day!', emoji: '🌀', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Rotation = Spinning 🌀', text: 'Earth spins on its AXIS (an invisible stick) — one full spin = 24 hours = 1 day!', emoji: '🌀', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Revolution = Going Around 🔄', text: 'Earth travels around the SUN — one full trip = 365 days = 1 year!', emoji: '🔄', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Day and Night 🌗', text: 'Rotation causes day and night — facing the sun = day, facing away = night!', emoji: '🌗', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Day and Night 🌗', text: 'Rotation causes day and night — facing the sun = day, facing away = night!', emoji: '🌗', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Seasons 🍂', text: 'Revolution + Earth\'s tilt cause seasons — different parts lean toward the sun during the year!', emoji: '🍂', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { lab: 'orbit', prompt: 'Watch the planet circle the sun — that is revolution!' },
@@ -145,7 +145,7 @@ export const c4SynAnt: SimDef = {
     id: 'c4_synant', title: 'Word Twins & Opposites', subtitle: 'Synonyms match — antonyms fight!',
     classLevel: 4, subject: 'english', topic: 'Synonyms & Antonyms',
     chapters: ['English: synonyms and antonyms'],
-    emoji: '⚔️', theme: { bg: 'from-purple-100 to-violet-200', accent: 'purple', scene: 'grammar' },
+    emoji: '⚔️', theme: { bg: 'from-purple-100 to-gold-200', accent: 'purple', scene: 'grammar' },
     scenario: { role: "a word warrior", intro: 'Synonyms mean the SAME (big/huge), antonyms mean OPPOSITE (big/small)!', goal: 'Match every twin and enemy.' },
     discovery: {
         question: '"Happy" — is its synonym "glad" or "sad"?',
@@ -156,7 +156,7 @@ export const c4SynAnt: SimDef = {
     teaching: [
         { title: 'Synonym = Same 🤝', text: 'Synonyms mean almost the same: big/huge, happy/glad, quick/fast — word twins!', emoji: '🤝', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Antonym = Opposite ⚔️', text: 'Antonyms mean the OPPOSITE: hot/cold, day/night, up/down — word enemies!', emoji: '⚔️', bgColor: 'from-rose-400 to-red-500' },
-        { title: 'Why They Matter ✍️', text: 'Synonyms make writing RICH — instead of "good, good, good" try "great, lovely, fine"!', emoji: '✍️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Why They Matter ✍️', text: 'Synonyms make writing RICH — instead of "good, good, good" try "great, lovely, fine"!', emoji: '✍️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Tricky Pairs 🎭', text: 'Some look same but are not: "knight/night" sound same but mean different things — check the meaning!', emoji: '🎭', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: 'match', prompt: 'Match the synonym pairs!', labels: ['big', 'huge', 'happy', 'glad', 'quick', 'fast'] },
@@ -235,7 +235,7 @@ export const c4Internet: SimDef = {
     id: 'c4_internet', title: 'Web Explorer', subtitle: 'Internet, browser, search!',
     classLevel: 4, subject: 'computer', topic: 'Internet & Browsers',
     chapters: ['Computer: internet basics'],
-    emoji: '🌐', theme: { bg: 'from-sky-100 to-blue-200', accent: 'sky', scene: 'computer' },
+    emoji: '🌐', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'computer' },
     scenario: { role: "a web explorer", intro: 'The internet connects computers worldwide — a browser is your window to it!', goal: 'Navigate the web safely.' },
     discovery: {
         question: 'Which opens websites?',
@@ -244,8 +244,8 @@ export const c4Internet: SimDef = {
         hook: 'Browser = the app that opens websites — Chrome, Edge, Firefox!',
     },
     teaching: [
-        { title: 'Internet = Big Network 🌐', text: 'The internet joins millions of computers worldwide — websites live on it!', emoji: '🌐', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Browser = The Window 🪟', text: 'A browser (Chrome, Edge, Firefox) is the app that SHOWS websites to you!', emoji: '🪟', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Internet = Big Network 🌐', text: 'The internet joins millions of computers worldwide — websites live on it!', emoji: '🌐', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Browser = The Window 🪟', text: 'A browser (Chrome, Edge, Firefox) is the app that SHOWS websites to you!', emoji: '🪟', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Search Engine 🔍', text: 'A search engine (Google, Bing) FINDS websites matching your question — type words, get links!', emoji: '🔍', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Stay Safe 🔒', text: 'Never share passwords/address online. Tell an adult about strange messages — browse safe!', emoji: '🔒', bgColor: 'from-rose-400 to-red-500' },
     ],
@@ -280,7 +280,7 @@ export const c4MatterAir: SimDef = {
     id: 'c4_matterair', title: 'Invisible Air', subtitle: 'Matter everywhere — even in air!',
     classLevel: 4, subject: 'evs', topic: 'Matter and Air',
     chapters: ['EVS-4: matter, air'],
-    emoji: '💨', theme: { bg: 'from-cyan-100 to-sky-200', accent: 'cyan', scene: 'air' },
+    emoji: '💨', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'air' },
     scenario: { role: "an air scientist", intro: 'Air is invisible but it IS matter — it has weight and takes space. Prove it!', goal: 'Show what air can do.' },
     discovery: {
         question: 'An "empty" bottle pushed into water — bubbles escape! Why?',
@@ -289,10 +289,10 @@ export const c4MatterAir: SimDef = {
         hook: 'The bottle was FULL of air — air takes up space!',
     },
     teaching: [
-        { title: 'Air Takes Space 💨', text: 'An "empty" bottle is full of AIR — push it in water and bubbles escape. Air occupies space!', emoji: '💨', bgColor: 'from-cyan-400 to-sky-500' },
+        { title: 'Air Takes Space 💨', text: 'An "empty" bottle is full of AIR — push it in water and bubbles escape. Air occupies space!', emoji: '💨', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Air Has Weight ⚖️', text: 'Inflate a balloon — it gets heavier! Air has weight even though we cannot see it!', emoji: '⚖️', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Air Pushes 🎈', text: 'Moving air (wind) pushes kites, sails, windmills — air pressure is a real force!', emoji: '🎈', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Matter = Everything 📦', text: 'Anything with weight that takes space is matter — solids, liquids, AND gases like air!', emoji: '📦', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Matter = Everything 📦', text: 'Anything with weight that takes space is matter — solids, liquids, AND gases like air!', emoji: '📦', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'match', prompt: 'Match each to solid, liquid or gas!', labels: ['stone', 'solid', 'water', 'liquid', 'air', 'gas'] },
     challenges: [
@@ -336,7 +336,7 @@ export const c4Operations: SimDef = {
     teaching: [
         { title: 'Addition Joins ➕', text: '+ puts groups together: 25 + 15 = 40. Total, sum, altogether!', emoji: '➕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Subtraction Takes ➖', text: '− removes or finds difference: 40 − 15 = 25. Left over, remain, difference!', emoji: '➖', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Multiplication Groups ✖️', text: '× is repeated addition for equal groups: 4×6 = 6+6+6+6 = 24!', emoji: '✖️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Multiplication Groups ✖️', text: '× is repeated addition for equal groups: 4×6 = 6+6+6+6 = 24!', emoji: '✖️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Division Shares ➗', text: '÷ splits into equal parts: 24÷4 = 6 each. Share, split, equal groups!', emoji: '➗', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: 'match', prompt: 'Match the word to its operation!', labels: ['altogether', '+', 'left over', '−', 'share equally', '÷'] },
@@ -381,8 +381,8 @@ export const c4Ppt: SimDef = {
     teaching: [
         { title: 'Slides = Pages 🖼️', text: 'A presentation = slides shown one by one — each slide covers ONE idea!', emoji: '🖼️', bgColor: 'from-orange-400 to-red-500' },
         { title: 'Keep It Short ✂️', text: 'Key points only — bullets, not paragraphs. The speaker explains, the slide supports!', emoji: '✂️', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Pictures Help 📷', text: 'Images and charts make ideas stick — a picture of the water cycle beats 100 words!', emoji: '📷', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Design Matters 🎨', text: 'Readable fonts, contrasting colours, not too many animations — clean beats flashy!', emoji: '🎨', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Pictures Help 📷', text: 'Images and charts make ideas stick — a picture of the water cycle beats 100 words!', emoji: '📷', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Design Matters 🎨', text: 'Readable fonts, contrasting colours, not too many animations — clean beats flashy!', emoji: '🎨', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'order', prompt: 'Order the steps to make a presentation!', labels: ['Plan the topic', 'Make slides', 'Add pictures', 'Present it'] },
     challenges: [
@@ -426,7 +426,7 @@ export const c4Skin: SimDef = {
     teaching: [
         { title: 'Skin = Giant Sensor 🖐️', text: 'Skin is our biggest sense organ — it feels touch, heat, cold and pain!', emoji: '🖐️', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Nerves = Message Wires ⚡', text: 'Nerves carry messages from skin to brain and back — faster than you can blink!', emoji: '⚡', bgColor: 'from-amber-400 to-yellow-500' },
-        { title: 'Brain = The Boss 🧠', text: 'The brain reads nerve messages and orders muscles — "HOT! Pull away NOW!"', emoji: '🧠', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Brain = The Boss 🧠', text: 'The brain reads nerve messages and orders muscles — "HOT! Pull away NOW!"', emoji: '🧠', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Reflexes Save You 🏃', text: 'Touch something hot → hand pulls back before you even THINK. That is a reflex — instant safety!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     explore: { widget: 'order', prompt: 'Order the message path!', labels: ['Skin feels heat', 'Nerve carries message', 'Brain processes', 'Muscle pulls hand'] },
@@ -460,7 +460,7 @@ export const c4Word: SimDef = {
     id: 'c4_word', title: 'Type It Pretty', subtitle: 'Word formatting and documents!',
     classLevel: 4, subject: 'computer', topic: 'Word Processing',
     chapters: ['Computer: word formatting'],
-    emoji: '📄', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'computer' },
+    emoji: '📄', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'computer' },
     scenario: { role: "a document designer", intro: 'Word processors write letters, reports, stories — formatting makes them readable!', goal: 'Format every document right.' },
     discovery: {
         question: 'To make a title stand out you would:',
@@ -469,10 +469,10 @@ export const c4Word: SimDef = {
         hook: 'Formatting = making text look right — bold titles, clear fonts!',
     },
     teaching: [
-        { title: 'Word Processor 📝', text: 'MS Word / Google Docs type documents — letters, stories, reports!', emoji: '📝', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Word Processor 📝', text: 'MS Word / Google Docs type documents — letters, stories, reports!', emoji: '📝', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Bold, Italic, Underline ✏️', text: 'B makes text bold, I makes it slanted, U underlines — use them for emphasis!', emoji: '✏️', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Fonts & Sizes 📏', text: 'Font = letter style; size = how big. Titles get big fonts, body gets readable ones!', emoji: '📏', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Align & Save 📐', text: 'Align left/center/right for neatness. Always SAVE (Ctrl+S) so work is not lost!', emoji: '📐', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Align & Save 📐', text: 'Align left/center/right for neatness. Always SAVE (Ctrl+S) so work is not lost!', emoji: '📐', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'match', prompt: 'Match the button to its effect!', labels: ['B', 'bold', 'I', 'italic', 'U', 'underline'] },
     challenges: [

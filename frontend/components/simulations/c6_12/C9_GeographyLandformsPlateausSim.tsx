@@ -1172,7 +1172,7 @@ function C9_GeographyLandformsPlateausSim({
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} className="bg-slate-900/90 px-3 py-1.5 rounded-xl border border-slate-800 text-right">
             <p className="text-[10px] text-slate-400 uppercase font-semibold">Accuracy</p>
-            <p className="text-sm font-bold text-cyan-400">
+            <p className="text-sm font-bold text-gold-400">
               {scoreBreakdown.total > 0 ? `${Math.round((scoreBreakdown.correct / scoreBreakdown.total) * 100)}%` : '100%'}
             </p>
           </motion.div>
@@ -1182,13 +1182,13 @@ function C9_GeographyLandformsPlateausSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <motion.div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900/90 rounded-2xl border border-indigo-700/50 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <motion.div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900/90 rounded-2xl border border-gold-700/50 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🧭</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-200 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 font-medium">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 font-medium">{SCENARIO.context}</p>
           </motion.div>
 
           {/* Discovery Visual Interactive Card */}
@@ -1214,7 +1214,7 @@ function C9_GeographyLandformsPlateausSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/60 border-slate-800 text-slate-400 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1238,7 +1238,7 @@ function C9_GeographyLandformsPlateausSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 shrink-0"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 shrink-0"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1265,7 +1265,7 @@ function C9_GeographyLandformsPlateausSim({
                 }}
                 className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/20'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/20'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-700'
                 }`}
               >
@@ -1283,7 +1283,7 @@ function C9_GeographyLandformsPlateausSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">{EXPLORATION_STEPS[currentSlide].title}</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">{EXPLORATION_STEPS[currentSlide].title}</span>
                 <p className="text-amber-300 text-sm mt-1 flex items-center gap-1.5 font-medium">
                   <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1298,7 +1298,7 @@ function C9_GeographyLandformsPlateausSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Mountain Enclosure Flanks:</span>
-                        <span className="font-bold text-indigo-400">{mountainFlankCount === 2 ? '2 (Intermontane)' : mountainFlankCount === 1 ? '1 (Piedmont)' : '0 (Shield)'}</span>
+                        <span className="font-bold text-gold-400">{mountainFlankCount === 2 ? '2 (Intermontane)' : mountainFlankCount === 1 ? '1 (Piedmont)' : '0 (Shield)'}</span>
                       </div>
                       <input
                         type="range"
@@ -1307,7 +1307,7 @@ function C9_GeographyLandformsPlateausSim({
                         step={1}
                         value={mountainFlankCount}
                         onChange={(e) => setMountainFlankCount(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Mountain Flank Count"
                       />
                     </div>
@@ -1315,7 +1315,7 @@ function C9_GeographyLandformsPlateausSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Plateau Tableland Uplift:</span>
-                        <span className="font-bold text-indigo-400">{1500 + plateauUplift * 15} m</span>
+                        <span className="font-bold text-gold-400">{1500 + plateauUplift * 15} m</span>
                       </div>
                       <input
                         type="range"
@@ -1323,13 +1323,13 @@ function C9_GeographyLandformsPlateausSim({
                         max={100}
                         value={plateauUplift}
                         onChange={(e) => setPlateauUplift(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Plateau Tableland Uplift"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-300">
-                      <p className="font-bold text-indigo-300 mb-1">Classified Geomorphology:</p>
+                      <p className="font-bold text-gold-300 mb-1">Classified Geomorphology:</p>
                       <p>
                         {plateauType === 'intermontane' && 'Tibetan / Bolivian Plateau Type: Elevated flatland locked between opposing mountain cordilleras.'}
                         {plateauType === 'piedmont' && 'Patagonian / Appalachian Plateau Type: Sits at the foot of a single mountain barrier.'}
@@ -1458,7 +1458,7 @@ function C9_GeographyLandformsPlateausSim({
                 <div className="space-y-4">
                   {/* Predict Hook if not made */}
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="p-4 bg-indigo-950/70 border border-indigo-700 rounded-xl">
+                    <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="p-4 bg-gold-950/70 border border-gold-700 rounded-xl">
                       <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-1">Pre-Simulation Prediction</p>
                       <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
@@ -1585,7 +1585,7 @@ function C9_GeographyLandformsPlateausSim({
                           onClick={() => setSeismicWaveType(w)}
                           className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${
                             seismicWaveType === w
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-900 text-slate-400 border border-slate-800'
                           }`}
                         >
@@ -1624,7 +1624,7 @@ function C9_GeographyLandformsPlateausSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-400 mb-1">
                           <span>River Gradient & Course:</span>
-                          <span className="font-bold text-cyan-400">{riverGradient > 60 ? 'Upper (Mountain Gorge)' : riverGradient > 30 ? 'Middle (Meanders)' : 'Lower (Delta / Floodplain)'}</span>
+                          <span className="font-bold text-gold-400">{riverGradient > 60 ? 'Upper (Mountain Gorge)' : riverGradient > 30 ? 'Middle (Meanders)' : 'Lower (Delta / Floodplain)'}</span>
                         </div>
                         <input
                           type="range"
@@ -1632,13 +1632,13 @@ function C9_GeographyLandformsPlateausSim({
                           max={90}
                           value={riverGradient}
                           onChange={(e) => setRiverGradient(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                           aria-label="Adjust River Gradient"
                         />
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg text-xs text-slate-300">
-                        <p className="font-bold text-cyan-300">Dominant Fluvial Process:</p>
+                        <p className="font-bold text-gold-300">Dominant Fluvial Process:</p>
                         <p>
                           {riverGradient > 60 && 'Vertical Hydraulic Downcutting: Carving V-shaped valleys and waterfalls (e.g., Jog Falls).'}
                           {riverGradient <= 60 && riverGradient > 30 && 'Lateral Erosion & Sinuous Meandering: Undercutting outer concave banks.'}
@@ -1683,7 +1683,7 @@ function C9_GeographyLandformsPlateausSim({
 
                   {/* Observation Question */}
                   {!observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/60 border border-indigo-700 rounded-xl">
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/60 border border-gold-700 rounded-xl">
                       <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-1">Scientific Observation Question</p>
                       <p className="text-sm font-semibold text-white mb-3">{OBSERVATION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1731,7 +1731,7 @@ function C9_GeographyLandformsPlateausSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
               >
                 Next Lab →
               </motion.button>
@@ -1771,7 +1771,7 @@ function C9_GeographyLandformsPlateausSim({
                     audioManager.play('tap');
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase ${
-                    sandboxMode === mode ? 'bg-indigo-600 text-white' : 'bg-slate-950 text-slate-400 border border-slate-800'
+                    sandboxMode === mode ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400 border border-slate-800'
                   }`}
                 >
                   {mode}
@@ -1793,7 +1793,7 @@ function C9_GeographyLandformsPlateausSim({
                   max={100}
                   value={plateauUplift}
                   onChange={(e) => setPlateauUplift(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox Plateau Uplift"
                 />
                 <div className="h-48 w-full bg-slate-950 rounded-xl p-2">
@@ -1844,7 +1844,7 @@ function C9_GeographyLandformsPlateausSim({
                   max={90}
                   value={riverGradient}
                   onChange={(e) => setRiverGradient(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox River Gradient"
                 />
               </div>
@@ -1890,20 +1890,20 @@ function C9_GeographyLandformsPlateausSim({
               <span className="font-bold text-slate-400">
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-semibold uppercase tracking-wider">
+              <span className="text-gold-400 font-semibold uppercase tracking-wider">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
             </div>
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -1963,7 +1963,7 @@ function C9_GeographyLandformsPlateausSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1999,7 +1999,7 @@ function C9_GeographyLandformsPlateausSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Anatomy Labels
                 </motion.button>
@@ -2037,7 +2037,7 @@ function C9_GeographyLandformsPlateausSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Confirm Transformation Order
                 </motion.button>
@@ -2052,7 +2052,7 @@ function C9_GeographyLandformsPlateausSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter value"
-                  className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-sm text-white focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-xs text-slate-400">{activeChallenge.unit}</span>
                 <motion.button
@@ -2060,7 +2060,7 @@ function C9_GeographyLandformsPlateausSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Calculation
                 </motion.button>
@@ -2078,7 +2078,7 @@ function C9_GeographyLandformsPlateausSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="text-left p-2 bg-slate-950 border border-slate-800 hover:border-indigo-500 rounded-lg text-xs text-slate-300"
+                      className="text-left p-2 bg-slate-950 border border-slate-800 hover:border-gold-500 rounded-lg text-xs text-slate-300"
                     >
                       + {part}
                     </motion.button>
@@ -2100,7 +2100,7 @@ function C9_GeographyLandformsPlateausSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Sequence Construction
                 </motion.button>
@@ -2109,11 +2109,11 @@ function C9_GeographyLandformsPlateausSim({
 
             {/* Step-by-Step Explanation Card (Progressive Disclosure) */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-indigo-950/40 border border-indigo-700/60 rounded-xl space-y-3">
-                <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Geomorphological Breakdown:</h4>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-gold-950/40 border border-gold-700/60 rounded-xl space-y-3">
+                <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Geomorphological Breakdown:</h4>
                 {activeChallenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, i) => (
                   <motion.p key={i} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="text-xs text-slate-200 leading-relaxed">
-                    <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}{!sentence.endsWith('.') && '.'}
+                    <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
 
@@ -2122,7 +2122,7 @@ function C9_GeographyLandformsPlateausSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-3.5 py-1.5 bg-indigo-800 text-white text-xs font-semibold rounded-lg"
+                    className="px-3.5 py-1.5 bg-gold-800 text-white text-xs font-semibold rounded-lg"
                   >
                     Show next point →
                   </motion.button>
@@ -2147,11 +2147,11 @@ function C9_GeographyLandformsPlateausSim({
       {/* ─── PHASE 5: COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.section initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="text-center p-8 bg-gradient-to-br from-slate-900 to-indigo-950 rounded-3xl border border-indigo-700/50 shadow-2xl">
+          <div className="text-center p-8 bg-gradient-to-br from-slate-900 to-gold-950 rounded-3xl border border-gold-700/50 shadow-2xl">
             <h2 className="text-2xl md:text-3xl font-extrabold text-white">🏆 Geomorphology Mastery Achieved!</h2>
             <p className="text-slate-300 text-sm mt-2">
               Final Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> | Performance Level:{' '}
-              <span className="text-indigo-300 font-bold capitalize">{masteryLevel}</span>
+              <span className="text-gold-300 font-bold capitalize">{masteryLevel}</span>
             </p>
 
             <div className="mt-6 p-4 bg-slate-950/80 rounded-2xl border border-slate-800 text-xs md:text-sm text-slate-300 max-w-2xl mx-auto">
@@ -2165,7 +2165,7 @@ function C9_GeographyLandformsPlateausSim({
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Key Learning Reflections
             </h3>
             <p className="text-xs text-slate-400">Consolidate your geomorphological understanding by answering these three metacognitive prompts:</p>
@@ -2180,7 +2180,7 @@ function C9_GeographyLandformsPlateausSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., How cooling time dictates crystal sizes in granite, or how the Deccan Traps are both a shield and a volcanic trap..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2193,7 +2193,7 @@ function C9_GeographyLandformsPlateausSim({
                   value={reflections.explainFriend}
                   onChange={(e) => setReflections(prev => ({ ...prev, explainFriend: e.target.value }))}
                   placeholder="e.g., Earth is a continuous recycling engine: underground heat builds plateaus, while rain and rivers carve them into plains..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2206,7 +2206,7 @@ function C9_GeographyLandformsPlateausSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., Civil engineering on seismic fault zones, assessing river floodplains before building homes, or choosing granite/marble materials..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2221,7 +2221,7 @@ function C9_GeographyLandformsPlateausSim({
                 className={`w-full py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all ${
                   reflectionSubmitted
                     ? 'bg-emerald-950 text-emerald-300 border border-emerald-700'
-                    : 'bg-indigo-600 hover:bg-indigo-500 text-white'
+                    : 'bg-gold-600 hover:bg-gold-500 text-white'
                 }`}
               >
                 {reflectionSubmitted ? '✓ Reflections Saved to Portfolio' : 'Save Reflections'}
@@ -2261,12 +2261,12 @@ function C9_GeographyLandformsPlateausSim({
 
           {/* Capstone Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="w-5 h-5 rounded-md bg-indigo-900/80 text-indigo-300 flex items-center justify-center font-bold shrink-0">
+                  <span className="w-5 h-5 rounded-md bg-gold-900/80 text-gold-300 flex items-center justify-center font-bold shrink-0">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

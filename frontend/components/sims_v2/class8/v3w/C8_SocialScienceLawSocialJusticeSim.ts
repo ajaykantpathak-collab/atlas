@@ -11,11 +11,11 @@ export const w_c8_socialsciencelawsocialjusticesim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Law and Justice: Connection Between Them',
     chapters: [],
     nodeIds: ['c8_civ_ch3_2', 'c8_civ_ch3_1', 'c8_civ_ch3_11', 'c8_civ_ch3_3', 'c8_civ_ch3_4', 'c8_civ_ch3_7', 'c8_civ_ch3_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine a new municipal rule is passed requiring all street vendors to pay a heavy daily fee, which suddenly.', goal: 'Master Law and Justice: Connection Between Them.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Law and justice are deeply interconnected.', text: 'Law and justice are deeply interconnected pillars of a democratic society; laws are the formal rules established by the legislature, while justice is the moral and constitutional ideal that ensures.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Law and justice are deeply interconnected.', text: 'Law and justice are deeply interconnected pillars of a democratic society; laws are the formal rules established by the legislature, while justice is the moral and constitutional ideal that ensures.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_civ_ch3_2', title: 'Law and justice are deeply.',

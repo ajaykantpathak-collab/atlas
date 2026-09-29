@@ -1071,7 +1071,7 @@ function C7_BiologyTissueConceptPlantSim({
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ICSE Class 7 Biology • Interactive Master Simulation</p>
@@ -1087,7 +1087,7 @@ function C7_BiologyTissueConceptPlantSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-cyan-950/60 text-cyan-400 border-cyan-700'
+                ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                 : 'bg-purple-950/60 text-purple-400 border-purple-700'
             }`}
           >
@@ -1102,13 +1102,13 @@ function C7_BiologyTissueConceptPlantSim({
       {/* ─── DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-amber-400 text-lg">🔍</span>
-              <h2 className="text-lg font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-200">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/90 mt-2 font-mono">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400/90 mt-2 font-mono">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1136,7 +1136,7 @@ function C7_BiologyTissueConceptPlantSim({
                       : 'bg-slate-800/80 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && ' ✓'}
                 </motion.button>
@@ -1207,7 +1207,7 @@ function C7_BiologyTissueConceptPlantSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-5 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 text-white text-xs font-black rounded-lg shadow-lg"
+                className="px-5 py-2 bg-gradient-to-r from-gold-600 to-gold-600 text-white text-xs font-black rounded-lg shadow-lg"
               >
                 Launch Free Sandbox →
               </motion.button>
@@ -1387,8 +1387,8 @@ function C7_BiologyTissueConceptPlantSim({
               {currentSlide === 1 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800 space-y-3">
-                      <p className="text-sm font-semibold text-indigo-200">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-800 space-y-3">
+                      <p className="text-sm font-semibold text-gold-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1399,7 +1399,7 @@ function C7_BiologyTissueConceptPlantSim({
                             onClick={() => handlePrediction(i)}
                             className="p-3 text-left bg-slate-900/90 hover:bg-slate-800 rounded-xl text-xs text-slate-200 border border-slate-700"
                           >
-                            <span className="font-bold text-indigo-400 mr-1.5">{String.fromCharCode(65 + i)}.</span>
+                            <span className="font-bold text-gold-400 mr-1.5">{String.fromCharCode(65 + i)}.</span>
                             {opt}
                           </motion.button>
                         ))}
@@ -1558,8 +1558,8 @@ function C7_BiologyTissueConceptPlantSim({
                     <div className="lg:col-span-7 flex flex-col items-center justify-center bg-slate-900/60 p-4 rounded-xl border border-slate-800">
                       <canvas ref={canvasRef} width={340} height={190} className="w-full rounded-lg border border-slate-800 shadow-inner" />
                       <div className="flex justify-around w-full mt-3 text-xs">
-                        <span className="flex items-center gap-1.5 text-sky-400 font-bold">
-                          <span className="w-3 h-3 rounded-full bg-sky-400 inline-block" /> Xylem: Water & Minerals (↑ Unidirectional)
+                        <span className="flex items-center gap-1.5 text-gold-400 font-bold">
+                          <span className="w-3 h-3 rounded-full bg-gold-400 inline-block" /> Xylem: Water & Minerals (↑ Unidirectional)
                         </span>
                         <span className="flex items-center gap-1.5 text-emerald-400 font-bold">
                           <span className="w-3 h-3 rounded-full bg-emerald-400 inline-block" /> Phloem: Sucrose (⇅ Bidirectional)
@@ -1571,7 +1571,7 @@ function C7_BiologyTissueConceptPlantSim({
                       <div>
                         <label className="text-xs text-slate-300 flex justify-between">
                           <span>Soil Water Availability:</span>
-                          <span className="font-bold text-sky-400">{soilWaterLevel}%</span>
+                          <span className="font-bold text-gold-400">{soilWaterLevel}%</span>
                         </label>
                         <input
                           type="range"
@@ -1583,7 +1583,7 @@ function C7_BiologyTissueConceptPlantSim({
                             setSoilWaterLevel(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1612,8 +1612,8 @@ function C7_BiologyTissueConceptPlantSim({
                       </div>
 
                       {!observationAnswered && (
-                        <div className="p-3 bg-sky-950/60 rounded-xl border border-sky-800 space-y-2">
-                          <p className="text-xs font-semibold text-sky-200">{OBSERVATION_QUESTIONS[0].question}</p>
+                        <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800 space-y-2">
+                          <p className="text-xs font-semibold text-gold-200">{OBSERVATION_QUESTIONS[0].question}</p>
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                             <motion.button
                               key={i}
@@ -1705,7 +1705,7 @@ function C7_BiologyTissueConceptPlantSim({
                             }}
                             className={`flex-1 py-2 rounded-lg text-xs font-bold capitalize border ${
                               selectedMuscle === m
-                                ? 'bg-indigo-950 border-indigo-500 text-indigo-300'
+                                ? 'bg-gold-950 border-gold-500 text-gold-300'
                                 : 'bg-slate-800 border-slate-700 text-slate-400'
                             }`}
                           >
@@ -1737,7 +1737,7 @@ function C7_BiologyTissueConceptPlantSim({
                       </div>
                     </div>
 
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-xs text-indigo-200">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 text-xs text-gold-200">
                       🧠 <strong>Neuron Rule:</strong> Signals travel ONE-WAY: Dendrites → Cyton → Axon → Synapse. Nerves are bundles of neuron axons wrapped in connective tissue!
                     </div>
                   </div>
@@ -1811,7 +1811,7 @@ function C7_BiologyTissueConceptPlantSim({
                             }}
                             className={`flex-1 py-1.5 rounded-lg text-xs font-bold border ${
                               amoebaSalinity === 1
-                                ? 'bg-sky-950 border-sky-500 text-sky-300'
+                                ? 'bg-gold-950 border-gold-500 text-gold-300'
                                 : 'bg-slate-800 border-slate-700 text-slate-400'
                             }`}
                           >
@@ -1862,7 +1862,7 @@ function C7_BiologyTissueConceptPlantSim({
       {/* ─── FREE PLAY SANDBOX PHASE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-4 bg-gradient-to-r from-blue-950/70 via-indigo-950/60 to-slate-900 rounded-2xl border border-blue-800/60 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="p-4 bg-gradient-to-r from-gold-950/70 via-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
                 <span>🧪</span> Biology Sandbox & Multi-Variable Lab
@@ -1900,7 +1900,7 @@ function C7_BiologyTissueConceptPlantSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-sky-400 uppercase">Xylem Transpiration Pull</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase">Xylem Transpiration Pull</h4>
               <input
                 type="range"
                 min={0}
@@ -1908,7 +1908,7 @@ function C7_BiologyTissueConceptPlantSim({
                 aria-label="Sandbox Soil Water Availability"
                 value={soilWaterLevel}
                 onChange={(e) => setSoilWaterLevel(Number(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
               />
               <p className="text-xs text-slate-300">
                 Soil Water: <strong>{soilWaterLevel}%</strong> | Ascent of Sap: <strong>{(soilWaterLevel * 0.15).toFixed(2)} cm/min</strong>
@@ -1942,7 +1942,7 @@ function C7_BiologyTissueConceptPlantSim({
               <span className="text-xs font-bold text-slate-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-indigo-950 text-indigo-300 border border-indigo-800 uppercase">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-gold-950 text-gold-300 border border-gold-800 uppercase">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
@@ -1983,7 +1983,7 @@ function C7_BiologyTissueConceptPlantSim({
                         : 'bg-slate-800/90 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     {opt}
                     {showExplanation && idx === challenge.correctIndex && ' ✓'}
                   </motion.button>
@@ -2005,7 +2005,7 @@ function C7_BiologyTissueConceptPlantSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2068,7 +2068,7 @@ function C7_BiologyTissueConceptPlantSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3.5 bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-900/80 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                    <span className="w-6 h-6 rounded-full bg-gold-900/80 text-gold-300 font-bold flex items-center justify-center text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2081,7 +2081,7 @@ function C7_BiologyTissueConceptPlantSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-2 px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="mt-2 px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -2125,7 +2125,7 @@ function C7_BiologyTissueConceptPlantSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 text-xs font-semibold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 text-xs font-semibold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2134,7 +2134,7 @@ function C7_BiologyTissueConceptPlantSim({
 
                 <div className="min-h-[50px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-800 text-white text-xs font-bold rounded-lg flex items-center gap-1.5">
+                    <span key={i} className="px-3 py-1 bg-gold-800 text-white text-xs font-bold rounded-lg flex items-center gap-1.5">
                       {p}
                       <button aria-label={`Remove ${p}`} onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-300 hover:text-white">✕</button>
                     </span>
@@ -2304,8 +2304,8 @@ function C7_BiologyTissueConceptPlantSim({
           )}
 
           {/* SPACED REPETITION SCHEDULE */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700/70 space-y-2">
-            <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-1.5">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700/70 space-y-2">
+            <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider flex items-center gap-1.5">
               <span>📅</span> Next Review Recommendation (Spaced Repetition Engine)
             </h3>
             <p className="text-sm text-slate-200">

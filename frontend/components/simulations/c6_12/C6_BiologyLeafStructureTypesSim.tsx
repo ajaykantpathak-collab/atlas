@@ -1162,7 +1162,7 @@ export default function C6_BiologyLeafStructureTypesSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-600'
                 : difficulty === 'standard'
-                ? 'bg-sky-900/60 text-sky-300 border border-sky-600'
+                ? 'bg-gold-900/60 text-gold-300 border border-gold-600'
                 : 'bg-rose-900/60 text-rose-300 border border-rose-600'
             }`}
             aria-label={`Current Difficulty Tier: ${difficulty}`}
@@ -1547,7 +1547,7 @@ export default function C6_BiologyLeafStructureTypesSim({
                       >
                         <span className="text-xs text-slate-400 font-bold mb-1">Xylem Suction Pull Flow Simulation</span>
                         <canvas ref={canvasRef} width={260} height={180} className="w-full rounded-lg bg-slate-900" />
-                        <span className="text-[11px] text-sky-400 mt-1">Transpiration Rate: {waterTranspirationRate} µL/min</span>
+                        <span className="text-[11px] text-gold-400 mt-1">Transpiration Rate: {waterTranspirationRate} µL/min</span>
                       </motion.div>
 
                       <motion.div
@@ -1880,7 +1880,7 @@ export default function C6_BiologyLeafStructureTypesSim({
                           <p><strong className="text-teal-400">Cell Membrane:</strong> Selectively permeable living security gate controlling entry and exit of molecules.</p>
                         )}
                         {selectedOrganelle === 'vacuole' && (
-                          <p><strong className="text-sky-400">Large Vacuole:</strong> Massive central fluid-filled reservoir storing cell sap, sugars, and maintaining internal turgor pressure.</p>
+                          <p><strong className="text-gold-400">Large Vacuole:</strong> Massive central fluid-filled reservoir storing cell sap, sugars, and maintaining internal turgor pressure.</p>
                         )}
                         {selectedOrganelle === 'chloroplast' && (
                           <p><strong className="text-green-400">Chloroplast (Plastid):</strong> Solar power organelle housing green chlorophyll pigment for manufacturing glucose via photosynthesis.</p>
@@ -1947,7 +1947,7 @@ export default function C6_BiologyLeafStructureTypesSim({
                 />
                 <div className="p-3 bg-slate-950 rounded-xl text-xs text-slate-300 flex justify-between">
                   <span>Calculated Suction Pull:</span>
-                  <span className="text-sky-400 font-bold">{waterTranspirationRate} % Capacity</span>
+                  <span className="text-gold-400 font-bold">{waterTranspirationRate} % Capacity</span>
                 </div>
               </motion.div>
 
@@ -1966,7 +1966,7 @@ export default function C6_BiologyLeafStructureTypesSim({
                     value={seedMoisture}
                     aria-label="Seed moisture level slider"
                     onChange={e => setSeedMoisture(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <input
                     type="range"
@@ -2347,7 +2347,7 @@ export default function C6_BiologyLeafStructureTypesSim({
                 </motion.span>
                 <motion.span
                   whileHover={{ scale: 1.05 }}
-                  className="px-4 py-1.5 bg-sky-900/60 rounded-full border border-sky-500 text-sky-300 capitalize"
+                  className="px-4 py-1.5 bg-gold-900/60 rounded-full border border-gold-500 text-gold-300 capitalize"
                 >
                   Tier Mastery: {masteryLevel}
                 </motion.span>
@@ -2361,7 +2361,7 @@ export default function C6_BiologyLeafStructureTypesSim({
                 errors === 0
                   ? 'bg-emerald-950/60 border-emerald-500'
                   : errors <= 3
-                  ? 'bg-sky-950/60 border-sky-500'
+                  ? 'bg-gold-950/60 border-gold-500'
                   : errors <= 7
                   ? 'bg-amber-950/60 border-amber-500'
                   : 'bg-rose-950/60 border-rose-500'

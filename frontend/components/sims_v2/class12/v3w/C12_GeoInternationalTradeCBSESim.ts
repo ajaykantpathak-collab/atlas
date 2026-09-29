@@ -11,7 +11,7 @@ export const w_c12_geointernationaltradecbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'International Trade: Definition, Basis and Importance',
     chapters: [],
     nodeIds: ['c12_geo_cbse_16_001', 'c12_geo_cbse_16_004', 'c12_geo_cbse_16_009', 'c12_geo_cbse_16_010', 'c12_geo_cbse_16_011', 'c12_geo_cbse_08_003', 'c12_geo_cbse_08_004', 'c12_geo_cbse_08_011', 'c12_geo_cbse_15_007', 'c12_geo_cbse_15_012', 'c12_geo_cbse_07_002', 'c12_geo_cbse_16_002', 'c12_geo_cbse_16_003', 'c12_geo_cbse_16_005', 'c12_geo_cbse_16_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: ask the student to check the label on their shirt, phone, or a packet of.', goal: 'Master International Trade: Definition, Basis and Importance.' },
     discovery: {
         question: 'India\'s international trade was worth Rs. 1,214 crore in 1950-51 and Rs. 77,19,796 crore in 2020-21. Calculate the percentage growth.',
@@ -20,7 +20,7 @@ export const w_c12_geointernationaltradecbsesim: SimDef = {
         hook: 'Students think "international trade" means only exports and imports of goods — they forget services (software, IT,.',
     },
     teaching: [
-        { title: 'International trade is the exchange of.', text: 'International trade is the exchange of goods, services, and capital across national borders driven by the uneven distribution of natural resources, differences in climate, technology, labour skills,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'International trade is the exchange of.', text: 'International trade is the exchange of goods, services, and capital across national borders driven by the uneven distribution of natural resources, differences in climate, technology, labour skills,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_16_001', title: 'International trade is the exchange of.',

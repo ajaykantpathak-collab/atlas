@@ -11,7 +11,7 @@ export const w_c11_geographyaeolianprocesseslandformssim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Erosion and Deposition: Agents (Water, Wind, Ice) and Processes',
     chapters: [],
     nodeIds: ['c11_geo_cbse_06_009', 'c11_geo_cbse_07_008', 'c11_geo_cbse_07_005', 'c11_geo_cbse_09_001', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_004', 'c11_geo_cbse_06_005', 'c11_geo_cbse_07_001', 'c11_geo_cbse_07_004', 'c11_geo_cbse_07_006', 'c11_geo_cbse_07_007', 'c11_geo_cbse_06_003', 'c11_geo_cbse_09_006', 'c11_geo_cbse_09_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Stand at a riverbank during monsoon and watch the muddy water rushing past — that brown colour is not "dirty.', goal: 'Master Erosion and Deposition: Agents (Water, Wind, Ice) and Processes.' },
     discovery: {
         question: 'A river channel has a width of 30 m, mean depth of 2.5 m, and slope of 0.001.',
@@ -20,7 +20,7 @@ export const w_c11_geographyaeolianprocesseslandformssim: SimDef = {
         hook: 'Students believe "erosion only happens during floods/high energy events" and "deposition only happens in calm water.".',
     },
     teaching: [
-        { title: 'Erosion is the detachment, entrainment, and.', text: 'Erosion is the detachment, entrainment, and transport of weathered rock material and regolith by mobile agents (running water, wind, glacial ice, waves) driven by gravity and kinetic energy;.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Erosion is the detachment, entrainment, and.', text: 'Erosion is the detachment, entrainment, and transport of weathered rock material and regolith by mobile agents (running water, wind, glacial ice, waves) driven by gravity and kinetic energy;.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_06_009', title: 'Erosion is the detachment, entrainment,.',

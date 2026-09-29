@@ -868,7 +868,7 @@ const AggregateDemandGraphSVG: React.FC<{
 
   return (
     <div className="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-2xl">
-      <h3 className="text-sm font-semibold text-cyan-400 mb-2 tracking-wide uppercase flex items-center gap-2">
+      <h3 className="text-sm font-semibold text-gold-400 mb-2 tracking-wide uppercase flex items-center gap-2">
         <span>📈</span> Aggregate Demand (AD = C + I + G) & Keynesian Multiplier
       </h3>
       <svg viewBox="0 0 600 320" className="w-full h-auto rounded-lg bg-slate-950">
@@ -1428,7 +1428,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
             <span className="bg-emerald-500/20 text-emerald-400 text-xs font-bold px-2.5 py-1 rounded-full border border-emerald-500/30">
               ISC Class 12 Economics
             </span>
-            <span className="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-2.5 py-1 rounded-full border border-cyan-500/30">
+            <span className="bg-gold-500/20 text-gold-400 text-xs font-bold px-2.5 py-1 rounded-full border border-gold-500/30">
               Macroeconomics
             </span>
           </div>
@@ -1462,7 +1462,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
             }}
             className={`px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
               activeTab === 'lab'
-                ? 'bg-cyan-500 text-slate-950 shadow-md font-bold'
+                ? 'bg-gold-500 text-slate-950 shadow-md font-bold'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -1569,7 +1569,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
 
             {/* Render PREDICTION QUESTIONS inside Discovery */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-md font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-md font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔮</span> Prediction Lab Scenarios
               </h3>
               <div className="space-y-6">
@@ -1589,7 +1589,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                                 : predictionAnswers[pIdx] === oIdx
                                 ? 'bg-rose-900/60 border-rose-500 text-rose-200'
                                 : 'bg-slate-900/40 border-slate-800 text-slate-500'
-                              : 'bg-slate-900 border-slate-800 hover:border-cyan-500 text-slate-300'
+                              : 'bg-slate-900 border-slate-800 hover:border-gold-500 text-slate-300'
                           }`}
                         >
                           {opt}
@@ -1597,7 +1597,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                       ))}
                     </div>
                     {predictionSubmitted[pIdx] && (
-                      <p className="text-xs text-cyan-300 bg-cyan-950/40 border border-cyan-800 p-2.5 rounded-lg">
+                      <p className="text-xs text-gold-300 bg-gold-950/40 border border-gold-800 p-2.5 rounded-lg">
                         🔍 <strong>Verification Instruction:</strong> {pred.verifyInstruction}
                       </p>
                     )}
@@ -1626,19 +1626,19 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                     }}
                     className={`p-3 rounded-xl text-left transition-all border flex flex-col justify-between ${
                       activeLabStepIndex === sIdx
-                        ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300 shadow-lg'
+                        ? 'bg-gold-500/20 border-gold-400 text-gold-300 shadow-lg'
                         : 'bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-400'
                     }`}
                   >
-                    <span className="text-xs font-extrabold text-cyan-400">Step {sIdx + 1}</span>
+                    <span className="text-xs font-extrabold text-gold-400">Step {sIdx + 1}</span>
                     <span className="text-xs font-medium line-clamp-2 mt-1">{step.title.split(':')[1] || step.title}</span>
                   </button>
                 ))}
               </div>
 
               {/* Instruction banner for active step */}
-              <div className="mt-4 bg-slate-950 border border-cyan-500/30 p-3.5 rounded-xl text-xs sm:text-sm text-cyan-200 flex items-start gap-2">
-                <span className="text-cyan-400 text-base">ℹ️</span>
+              <div className="mt-4 bg-slate-950 border border-gold-500/30 p-3.5 rounded-xl text-xs sm:text-sm text-gold-200 flex items-start gap-2">
+                <span className="text-gold-400 text-base">ℹ️</span>
                 <div>
                   <strong className="text-white">{EXPLORATION_STEPS[activeLabStepIndex].title}: </strong>
                   {EXPLORATION_STEPS[activeLabStepIndex].instruction}
@@ -1710,7 +1710,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                     <div>
                       <div className="flex justify-between mb-1">
                         <span className="text-slate-300 font-medium">Non-Debt Capital Receipts (Disinvestment/Loans):</span>
-                        <span className="text-cyan-400 font-bold">₹{nonDebtCapitalReceipt} Cr</span>
+                        <span className="text-gold-400 font-bold">₹{nonDebtCapitalReceipt} Cr</span>
                       </div>
                       <input
                         type="range"
@@ -1719,7 +1719,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                         step="250"
                         value={nonDebtCapitalReceipt}
                         onChange={(e) => setNonDebtCapitalReceipt(Number(e.target.value))}
-                        className="w-full accent-cyan-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
                       />
                     </div>
 
@@ -1809,7 +1809,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
             {activeLabStepIndex === 1 && (
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                 <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col gap-4">
-                  <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                     🧮 Keynesian Multiplier Controls
                   </h3>
 
@@ -1817,7 +1817,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                     <div>
                       <div className="flex justify-between mb-1">
                         <span className="text-slate-300 font-medium">Marginal Propensity to Consume (MPC c):</span>
-                        <span className="text-cyan-400 font-bold">{mpc.toFixed(2)}</span>
+                        <span className="text-gold-400 font-bold">{mpc.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1829,7 +1829,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                           audioManager.play('count');
                           setMpc(Number(e.target.value));
                         }}
-                        className="w-full accent-cyan-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
                       />
                     </div>
 
@@ -1868,7 +1868,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                     <div className="bg-slate-950 border border-slate-800 p-4 rounded-xl space-y-2 mt-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Gov Exp Multiplier (Kg):</span>
-                        <span className="text-cyan-300 font-bold">{govMultiplier}</span>
+                        <span className="text-gold-300 font-bold">{govMultiplier}</span>
                       </div>
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Tax Multiplier (Kt):</span>
@@ -2026,7 +2026,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">FRBMA Target Fiscal Deficit % GDP:</span>
-                        <span className="text-cyan-300 font-bold">3.0% GDP</span>
+                        <span className="text-gold-300 font-bold">3.0% GDP</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Current Sim Fiscal Deficit Ratio:</span>
@@ -2101,7 +2101,7 @@ export const C12_EcoGovernmentBudgetCBSESim: React.FC<{ onComplete?: (score: num
                         activeChallenge.difficulty === 'foundation'
                           ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                           : activeChallenge.difficulty === 'standard'
-                          ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
+                          ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                           : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
                       }`}
                     >

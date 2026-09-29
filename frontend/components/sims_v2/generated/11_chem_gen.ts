@@ -9,15 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C11_CHEM_GEN: SimDef[] = [
  {
   "id": "gen_c11_chem_ch01",
-  "title": "Chemistry",
+  "title": "Chemistry Is The Central Science That Studies",
   "subtitle": "Chemistry · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Chemistry",
+  "topic": "Chemistry Is The Central Science That Studies The Co",
   "chapters": [
-   "Chemistry Ch1: Chemistry",
-   "Chemistry Ch2: Chemistry"
+   "Chemistry Ch1: Chemistry Is The Central Science That Studies The Co",
+   "Chemistry Ch2: Chemistry Is The Central Science That Studies The Co"
   ],
   "nodeIds": [
    "c11_chem_cbse_01_001",
@@ -34,7 +34,7 @@ export const C11_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Chemistry suddenly stops working?",
+   "question": "What happens if Chemistry Is The Central Science suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -45,7 +45,7 @@ export const C11_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Chemistry",
+    "title": "Chemistry Is The Central Science That",
     "text": "Chemistry is the central science that studies the composition, structure, properties, and transformations of matter at the atomic and molecular level, enabling the design of substances with specific functions for applications ranging from healthcare and",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -63,7 +63,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Stoichiometry",
+    "title": "Stoichiometry Is The Quantitative Study",
     "text": "Stoichiometry is the quantitative study of reactants and products in a chemical reaction based on a balanced chemical equation, where stoichiometric coefficients represent the molar ratios in which substances react and are formed, enabling conversion between",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
@@ -75,7 +75,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Hund's Rule Of Maximum Multiplicity States",
+    "title": "Hund's Rule Of Maximum Multiplicity",
     "text": "Hund's Rule of Maximum Multiplicity states that when electrons occupy degenerate orbitals (orbitals of equal energy within the same subshell), they occupy separate orbitals singly with parallel spins before any pairing occurs.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -91,7 +91,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Expected %Na for pure Na₂CO₃·10H₂O: Molar mass = 2(23) + 12 + 3(16) + 10(18) = 286 g/mol. Mass Na = 46 g",
      "DAP is (NH₄)₂HPO₄. The principle is ionic dissociation in aqueous soil solution: (NH₄)₂HPO₄(s) → 2NH₄⁺(aq) + HPO₄²⁻(aq)"
     ],
-    "hint": "Straight from the 'Chemistry' slide -- match the key terms.",
+    "hint": "Straight from the 'Chemistry is the central science' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: DAP is (NH₄)₂HPO₄. The principle is ionic dissociation in aqueous soil solution: (NH₄)₂HPO₄(s) → 2NH₄⁺(aq) +",
     "id": "gen_c11_chem_ch01_q1",
     "nodeId": "c11_chem_cbse_01_001",
@@ -153,7 +153,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Apparatus: Two small stoppered test tubes (one for BaCl₂, one for Na₂SO₄), a conical flask with rubber stopper, analytical balance (±0",
      "Equation: NaHCO₃(s) + CH₃COOH(aq) → CH₃COONa(aq) + H₂O(l) + CO₂(g). Procedure: Take fixed vinegar volume (e"
     ],
-    "hint": "Straight from the 'Stoichiometry' slide -- match the key terms.",
+    "hint": "Straight from the 'Stoichiometry is the quantitative' slide -- match the key terms.",
     "misconception": "A poor answer uses only one mass of NaHCO₃ (no variation), showing inability to design a controlled variable experiment.",
     "id": "gen_c11_chem_ch01_q4",
     "nodeId": "c11_chem_cbse_01_011",
@@ -267,24 +267,24 @@ export const C11_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about chemistry?",
+    "What surprised you about chemistry is the central science that studies the co?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Chemistry mastered! 🎯",
+  "successLine": "Chemistry Is The Central mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c11_chem_ch03",
-  "title": "Mendeleev's Periodic Table Arranges The Known",
+  "title": "Mendeleev's Periodic Table Arranges",
   "subtitle": "Chemistry · Chapter 3",
   "classLevel": 11,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Mendeleev's Periodic Table Arranges The Known",
+  "topic": "Mendeleev's Periodic Table Arranges",
   "chapters": [
-   "Chemistry Ch3: Mendeleev's Periodic Table Arranges The Known",
-   "Chemistry Ch4: Mendeleev's Periodic Table Arranges The Known"
+   "Chemistry Ch3: Mendeleev's Periodic Table Arranges",
+   "Chemistry Ch4: Mendeleev's Periodic Table Arranges"
   ],
   "nodeIds": [
    "c11_chem_cbse_03_001",
@@ -322,7 +322,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Modern Periodic Law States",
+    "title": "The Modern Periodic Law",
     "text": "The Modern Periodic Law states that the physical and chemical properties of elements are periodic functions of their atomic numbers. The modern periodic table arranges elements in increasing order of atomic number into 7 periods (horizontal rows) and 18",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
@@ -335,7 +335,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "katex": "n = 1 to 7)"
    },
    {
-    "title": "Elements",
+    "title": "Elements Are Classified Into s",
     "text": "Elements are classified into s, p, d, and f blocks based on the subshell (s, p, d, f) that receives the last electron (differentiating electron) in their ground-state electronic configuration.",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -365,7 +365,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Valency",
+    "title": "Periodic Trends in Chemical Properties:",
     "text": "Valency is the combining capacity of an element, numerically equal to the number of electrons in the outermost shell (valence electrons) that an atom can lose, gain, or share to achieve a stable noble gas configuration; for representative elements, it equals",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
@@ -462,7 +462,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "In the Born-Haber cycle for NaCl: ΔHf = ΔHsub(Na) + ΔiH(Na) + ½ΔHdiss(Cl₂) + ΔegH(Cl) + U(lattice)",
      "For Z=35: Electronic configuration: [Ar] 3d10 4s2 4p5. Period = 4 (highest n=4), Group = 17 (halogens), Block = p-block"
     ],
-    "hint": "Straight from the 'The Modern Periodic Law states' slide -- match the key terms.",
+    "hint": "Straight from the 'The Modern Periodic Law' slide -- match the key terms.",
     "misconception": "A wrong answer might misidentify group as 7 (old notation) or miscalculate period, showing confusion between principal quantum number and period number.",
     "id": "gen_c11_chem_ch03_q2",
     "nodeId": "c11_chem_cbse_03_002",
@@ -504,7 +504,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "First electron gain enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of gaseous atoms in their ground state to form one mole of gaseous",
      "Helium has a completely filled valence shell (1s²) with no p orbitals in n=1. Its chemical inertness and closed-shell configuration match the noble gases (ns²np⁶ for n≥2)"
     ],
-    "hint": "Straight from the 'Elements' slide -- match the key terms.",
+    "hint": "Straight from the 'Elements are classified into s' slide -- match the key terms.",
     "misconception": "A student who says \"helium belongs to s-block because of 1s²\" ignores that block classification prioritizes chemical properties over strict orbital-filling order for this exception.",
     "id": "gen_c11_chem_ch03_q4",
     "nodeId": "c11_chem_cbse_03_005",
@@ -609,7 +609,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "In H₂, bond distance = 2 × r_cov(H) → r_cov(H) = 74/2 = 37 pm. In HF, bond distance = r_cov(H) + r_cov(F) = 92 pm",
      "The student’s cross-multiplication (Al³⁺ S²⁻ → Al₂S₃) is correct, but simplification is invalid: subscripts represent the *ratio* of ions in the crystal lattice, not a fraction"
     ],
-    "hint": "Straight from the 'Valency' slide -- match the key terms.",
+    "hint": "Straight from the 'Valency is the combining capacity' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student’s cross-multiplication (Al³⁺ S²⁻ → Al₂S₃) is correct, but simplification is invalid: subscripts represent",
     "id": "gen_c11_chem_ch03_q9",
     "nodeId": "c11_chem_cbse_03_011",
@@ -795,7 +795,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Reason 1: Mendeleev used a broader range of physical and chemical properties (especially compound formulae like oxides and chlorides) to group elements",
      "Mendeleev used atomic mass but prioritized chemical properties; he placed Te in Group 16 and I in Group 17 because their properties matched those groups"
     ],
-    "hint": "Straight from the 'The Modern Periodic Law states' slide -- match the key terms.",
+    "hint": "Straight from the 'The Modern Periodic Law' slide -- match the key terms.",
     "misconception": "A wrong answer that says Mendeleev strictly followed atomic mass shows misunderstanding of his methodology.",
     "id": "gen_c11_chem_ch03_q15",
     "nodeId": "c11_chem_cbse_03_002",
@@ -810,7 +810,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "In PES of carbon (1s²2s²2p²), three peaks appear: lowest binding energy (≈11.3 eV) corresponds to 2p electrons (2 peaks if spin-orbit resolved), higher binding energy (≈16",
      "Example mnemonic: \"Nil Un Bi Tri Quad Pent Hex Sept Oct Enn\" -> \"Nil Uncle Bill Tripped Quadrillion Pentagons Hexing Seven Octopuses Entering November\""
     ],
-    "hint": "Straight from the 'The Modern Periodic Law states' slide -- match the key terms.",
+    "hint": "Straight from the 'The Modern Periodic Law' slide -- match the key terms.",
     "misconception": "A poor answer might mix up roots (e.g., using 'sept' for 7 but 'oct' for 8 incorrectly) indicating lack of memorization.",
     "id": "gen_c11_chem_ch03_q16",
     "nodeId": "c11_chem_cbse_03_002",
@@ -841,7 +841,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Example scheme: Determine n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18",
      "Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18"
     ],
-    "hint": "Straight from the 'Elements' slide -- match the key terms.",
+    "hint": "Straight from the 'Elements are classified into s' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements.",
     "id": "gen_c11_chem_ch03_q18",
     "nodeId": "c11_chem_cbse_03_005",
@@ -850,7 +850,7 @@ export const C11_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mendeleev's periodic table arranges the known?",
+    "What surprised you about mendeleev's periodic table arranges?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -925,7 +925,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Ideal Gas Equation, PV = NRT",
+    "title": "Ideal Gas Equation, PV",
     "text": "The ideal gas equation, PV = nRT, is a fundamental equation of state that relates the pressure (P), volume (V), temperature (T), and amount of substance (n) for a hypothetical ideal gas composed of point particles with no intermolecular forces undergoing",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -937,7 +937,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Graham's Law Of Diffusion States",
+    "title": "Graham's Law Of Diffusion",
     "text": "Graham's Law of Diffusion states that at constant temperature and pressure, the rate of diffusion of a gas is inversely proportional to the square root of its molar mass (or density).",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1025,7 +1025,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "The student likely used the equation correctly but the conditions (high density: \\(V_m = 0.5\\ \\text{L/mol}\\) close to \\(b = 0",
      "The \\(P\\) vs \\(1/V\\) plot confirms Boyle's Law directly because it yields a straight line (\\(P = k \\times 1/V\\)), making verification of proportionality immediate"
     ],
-    "hint": "Straight from the 'Boyle's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Boyle's Law' slide -- match the key terms.",
     "misconception": "A wrong choice (hyperbola) or inability to explain the origin intercept shows lack of understanding of linearizing inverse relationships.",
     "id": "gen_c11_chem_ch05_q3",
     "nodeId": "c11_chem_cbse_05_004",
@@ -1046,7 +1046,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "The \\(P\\) vs \\(1/V\\) plot confirms Boyle's Law directly because it yields a straight line (\\(P = k \\times 1/V\\)), making verification of proportionality immediate",
      "Trapped air column in a capillary tube (sealed at one end) acts as constant-pressure gas (atmospheric pressure on open end)"
     ],
-    "hint": "Straight from the 'Charles's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Charles's Law' slide -- match the key terms.",
     "misconception": "A poor answer omits the need for constant pressure (open to atmosphere) or suggests plotting volume directly without justifying length ∝ volume.",
     "id": "gen_c11_chem_ch05_q4",
     "nodeId": "c11_chem_cbse_05_005",
@@ -1067,7 +1067,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Procedure: (1) Fill rigid container of known volume V with N₂ gas. (2) Measure pressure P at temperature T using gauge and thermometer",
      "The calculation is incorrect. The student must use dry gas pressure: P(O₂) = P_total − P_H₂O = 0.95 − 0"
     ],
-    "hint": "Straight from the 'ideal gas equation, PV = nRT' slide -- match the key terms.",
+    "hint": "Straight from the 'ideal gas equation, PV' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The calculation is incorrect. The student must use dry gas pressure: P(O₂) = P_total − P_H₂O = 0.",
     "id": "gen_c11_chem_ch05_q5",
     "nodeId": "c11_chem_cbse_05_006",
@@ -1103,11 +1103,11 @@ export const C11_CHEM_GEN: SimDef[] = [
     "question": "State Graham's Law of Diffusion mathematically and define each variable with its SI unit.",
     "answer": "Graham's Law: r₁/r₂ = √(M₂/M₁) where r₁, r₂ are rates of diffusion (mol s⁻¹ or volume per time, e.g., mL s⁻¹), M₁, M₂ are molar masses (kg mol⁻¹ or g mol⁻¹)",
     "options": [
-     "P_total = P_A + P_B + P_C, where P_total is the total pressure of the mixture, and P_A, P_B, P_C are the partial pressures of gases A, B, and C respectively",
+     "The student can derive the pressure equation P = (1/3)ρu²_rms from momentum change during wall collisions",
      "The five postulates: (1) Gases consist of large number of tiny particles (molecules) with negligible volume compared to container volume — explains compressibility and Boyle's Law",
      "Graham's Law: r₁/r₂ = √(M₂/M₁) where r₁, r₂ are rates of diffusion (mol s⁻¹ or volume per time, e.g., mL s⁻¹), M₁, M₂ are molar masses (kg mol⁻¹ or g mol⁻¹)"
     ],
-    "hint": "Straight from the 'Graham's Law of Diffusion states' slide -- match the key terms.",
+    "hint": "Straight from the 'Graham's Law of Diffusion' slide -- match the key terms.",
     "misconception": "A wrong answer like r₁/r₂ = M₂/M₁ (missing square root) reveals the student memorized the inverse relationship but not the kinetic energy derivation. Writing r ∝ 1/M instead of r ∝ 1/√M shows confusion between momentum and kinetic energy proportionality.",
     "id": "gen_c11_chem_ch05_q7",
     "nodeId": "c11_chem_cbse_05_008",
@@ -1490,7 +1490,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Final total pressure = 2.5 atm, which is less than initial sum (5 atm). Reason: When valve opens, each gas expands to fill 2V",
      "\\(P_1V_1 = P_2V_2 \\Rightarrow V_2 = \\frac{1 \\times 10}{0.5} = 20\\) m³. Volume doubles. Whether it bursts depends on the balloon's maximum elastic volume"
     ],
-    "hint": "Straight from the 'Boyle's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Boyle's Law' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: \\(P_1V_1 = P_2V_2 \\Rightarrow V_2 = \\frac{1 \\times 10}{0.5} = 20\\) m³.",
     "id": "gen_c11_chem_ch05_q16",
     "nodeId": "c11_chem_cbse_05_004",
@@ -1505,7 +1505,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "The \\(P\\) vs \\(1/V\\) plot confirms Boyle's Law directly because it yields a straight line (\\(P = k \\times 1/V\\)), making verification of proportionality immediate",
      "Control: temperature (allow thermal equilibrium after each compression), amount of gas (sealed syringe), and sensor calibration"
     ],
-    "hint": "Straight from the 'Boyle's Law states that for' slide -- match the key terms.",
+    "hint": "Straight from the 'Boyle's Law' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Control: temperature (allow thermal equilibrium after each compression), amount of gas (sealed syringe), and sensor",
     "id": "gen_c11_chem_ch05_q17",
     "nodeId": "c11_chem_cbse_05_004",
@@ -1578,7 +1578,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Enthalpy",
+    "title": "Enthalpy Is a Thermodynamic",
     "text": "Enthalpy (H) is a thermodynamic state function defined as the sum of a system's internal energy (U) and the product of its pressure (p) and volume (V): H = U + pV.",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1627,7 +1627,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Error: Calcium's standard state at 298 K is solid Ca(s), but it must be written as Ca(s) – actually Ca(s) is correct for standard state",
      "For (i): Δn_g = 0 – 1.5 = –1.5 → |ΔH – ΔU| = 1.5RT ≈ 3.7 kJ. For (ii): Δn_g = 1 – 1.5 = –0.5 → |ΔH – ΔU| = 0"
     ],
-    "hint": "Straight from the 'Enthalpy' slide -- match the key terms.",
+    "hint": "Straight from the 'Enthalpy is a thermodynamic' slide -- match the key terms.",
     "misconception": "Wrong answer (e.g., same difference, or (ii) larger) reveals failure to account for phase in Δn_g counting — a frequent board error where students treat H₂O(l) and H₂O(g) identically in gas mole tally.",
     "id": "gen_c11_chem_ch06_q2",
     "nodeId": "c11_chem_cbse_06_003",
@@ -1669,7 +1669,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Error: Calcium's standard state at 298 K is solid Ca(s), but it must be written as Ca(s) – actually Ca(s) is correct for standard state",
      "Since R > 0 and T > 0, the sign of –RT ln K is opposite to the sign of ln K. If ΔG° < 0, then –RT ln K < 0 ⇒ ln K > 0 ⇒ K > 1 (products favoured)"
     ],
-    "hint": "Straight from the 'standard Gibbs energy change  of' slide -- match the key terms.",
+    "hint": "Straight from the 'standard Gibbs energy change of a' slide -- match the key terms.",
     "misconception": "A student who says \"negative ΔG° means spontaneous so K is large\" without invoking the logarithm misses the mathematical necessity; they are recalling a rule, not understanding the functional relationship.",
     "id": "gen_c11_chem_ch06_q4",
     "nodeId": "c11_chem_cbse_06_010",
@@ -1999,7 +1999,7 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Corrosion",
+    "title": "Corrosion Is An Electrochemical Redox",
     "text": "Corrosion is an electrochemical redox process where a metal spontaneously oxidises in the presence of moisture and oxygen, forming metal oxides/hydroxides/carbonates; rusting of iron specifically involves Fe → Fe²⁺ + 2e⁻ (anode) and O₂ + 2H₂O + 4e⁻ → 4OH⁻",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2042,7 +2042,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Carbon reduction: Fe₂O₃ + 3C → 2Fe + 3CO; ΔG becomes negative above ~700°C because CO formation has a steep negative slope on Ellingham diagram",
      "Linoleic has −CH=CH−CH₂−CH=CH− (bis-allylic) with C−H BDE ≈ 335 kJ/mol; oleic has only allylic −CH=CH−CH₂− with BDE ≈ 360 kJ/mol"
     ],
-    "hint": "Straight from the 'Corrosion' slide -- match the key terms.",
+    "hint": "Straight from the 'Corrosion is an electrochemical' slide -- match the key terms.",
     "misconception": "A wrong answer citing only \"more double bonds\" without bis-allylic distinction reveals superficial understanding of radical stability.",
     "id": "gen_c11_chem_ch08_q2",
     "nodeId": "c11_chem_cbse_08_006",
@@ -2155,7 +2155,7 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Step 1: n-factor of K₂Cr₂O₇ = 6 (6 e⁻ gained per Cr₂O₇²⁻). Step 2: Equivalents of Fe²⁺ = M × V × n-factor = 0",
      "No — nitrogen flushing removes O₂ (slowing propagation) and opaque packaging blocks UV (slowing initiation)"
     ],
-    "hint": "Straight from the 'Corrosion' slide -- match the key terms.",
+    "hint": "Straight from the 'Corrosion is an electrochemical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No — nitrogen flushing removes O₂ (slowing propagation) and opaque packaging blocks UV (slowing initiation), but trace",
     "id": "gen_c11_chem_ch08_q6",
     "nodeId": "c11_chem_cbse_08_006",
@@ -2219,14 +2219,14 @@ export const C11_CHEM_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_chem_ch09",
-  "title": "Dihydrogen",
+  "title": "Hydrogen Is The Only",
   "subtitle": "Chemistry · Chapter 9",
   "classLevel": 11,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Dihydrogen",
+  "topic": "Hydrogen Is The Only",
   "chapters": [
-   "Chemistry Ch9: Dihydrogen"
+   "Chemistry Ch9: Hydrogen Is The Only"
   ],
   "nodeIds": [
    "c11_chem_cbse_09_001",
@@ -2249,7 +2249,7 @@ export const C11_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Dihydrogen outside the classroom?",
+   "question": "Quick guess -- where do you meet Hydrogen Is The Only outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -2260,7 +2260,7 @@ export const C11_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Hydrogen",
+    "title": "Hydrogen Is The Only",
     "text": "Hydrogen (H, Z=1) is the only element with electronic configuration 1s¹ that exhibits dual character: it can lose its single electron to form H⁺ (resembling alkali metals, Group 1) or gain one electron to form H⁻ hydride ion (resembling halogens, Group 17),",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2272,31 +2272,31 @@ export const C11_CHEM_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Dihydrogen",
+    "title": "Dihydrogen Is Prepared",
     "text": "Dihydrogen (H₂) is prepared in the laboratory by the reaction of metals (Zn, Fe) with dilute acids (H₂SO₄, HCl) or with aqueous alkalis (NaOH), and by the reaction of metals (Mg, Fe) with steam.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Dihydrogen",
+    "title": "Properties of Dihydrogen",
     "text": "Dihydrogen (H₂) is the molecular form of hydrogen element, existing as a colorless, odorless, tasteless, and highly flammable diatomic gas under standard conditions, with a bond dissociation enthalpy of 435.9 kJ mol⁻¹ for the H–H single covalent bond.",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Dihydrogen",
+    "title": "Dihydrogen Is The Molecular Form",
     "text": "Dihydrogen (H₂) is the molecular form of hydrogen gas used industrially as a reducing agent, fuel, and chemical feedstock; its applications exploit its high bond enthalpy (436 kJ mol⁻¹), flammability, reducing nature, and ability to form hydrides with metals",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Hydrides",
+    "title": "Hydrides Are Binary Compounds Of Hydrogen",
     "text": "Hydrides are binary compounds of hydrogen with other elements (except noble gases), classified into three types based on bonding nature: ionic hydrides formed with highly electropositive s-block metals (Group 1, 2 except Be) where hydrogen exists as H⁻",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Water",
+    "title": "Water Is a Bent Covalent",
     "text": "Water (H₂O) is a bent covalent molecule with sp³ hybridised oxygen (bond angle 104.5°) that exhibits extensive hydrogen bonding, giving it anomalous physical properties (high boiling point, density maximum at 4°C, high specific heat) and amphoteric chemical",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500",
@@ -2335,16 +2335,47 @@ export const C11_CHEM_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "Write the electronic configuration of hydrogen and state the two ions it can form by losing or gaining one electron. What are the oxidation states in these ions?",
-    "answer": "Electronic configuration: 1s¹. Losing 1e⁻ gives H⁺ (oxidation state +1); gaining 1e⁻ gives H⁻ (oxidation state -1)",
-    "options": [
-     "Procedure: Fill two test tubes with each gas. (1) Introduce a burning splint – H₂ gives a 'pop' sound (2H₂ + O₂ → 2H₂O)",
-     "Components: Two Pt-coated electrodes (anode/cathode), KOH electrolyte, H₂ and O₂ gas supply (from electrolysis of water), multimeter, LED",
-     "Electronic configuration: 1s¹. Losing 1e⁻ gives H⁺ (oxidation state +1); gaining 1e⁻ gives H⁻ (oxidation state -1)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "justify why hydrogen",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "list at least three similarities and three",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "write hydrogen's electronic configuration",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Hydrogen' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., writing 1s² or stating only H⁺) reveals the student hasn't grasped that hydrogen's single electron allows both electron loss and gain, which is the root of its dual character.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) write hydrogen's electronic configuration and explain how it leads to dual behavior, (2) list at least",
     "id": "gen_c11_chem_ch09_q1",
     "nodeId": "c11_chem_cbse_09_001",
     "difficulty": "standard",
@@ -2356,17 +2387,58 @@ export const C11_CHEM_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Write the complete nuclear symbol (with atomic number and mass number) for each hydrogen isotope and state the number of protons, neutrons, and electrons in a neutral atom of each.",
-    "answer": "Protium: ¹₁H (1p, 0n, 1e⁻); Deuterium: ²₁H or D (1p, 1n, 1e⁻); Tritium: ³₁H or T (1p, 2n, 1e⁻)",
-    "options": [
-     "Average mass = (99.985/100 × 1.007825) + (0.015/100 × 2.014102) = 1.007975 + 0.000302 = 1.0083 u. Steps: convert % to fraction",
-     "Electronic configuration: 1s¹. Losing 1e⁻ gives H⁺ (oxidation state +1); gaining 1e⁻ gives H⁻ (oxidation state -1)",
-     "ZPE: ¹₁H (1p, 0n, 1e⁻); Deuterium: ²₁H or D (1p, 1n, 1e⁻); Tritium: ³₁H or T (1p, 2n, 1e⁻)",
-     "Protium: ¹₁H (1p, 0n, 1e⁻); Deuterium: ²₁H or D (1p, 1n, 1e⁻); Tritium: ³₁H or T (1p, 2n, 1e⁻)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain why chemical properties",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Write the nuclear notation for each isotope",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Identify applications of each isotope",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Calculate average atomic mass from isotopic",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Isotopes of hydrogen' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., writing ²₁H for protium or missing the atomic number) reveals confusion between mass number and atomic number, or inability to distinguish isotopes by neutron count — a Class 9 concept (c9_chem_ch2_5) that must be solid before proceeding.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Write the nuclear notation for each isotope showing protons, neutrons, and electrons; (2) Explain why",
     "id": "gen_c11_chem_ch09_q2",
     "nodeId": "c11_chem_cbse_09_002",
     "difficulty": "standard",
@@ -2442,10 +2514,10 @@ export const C11_CHEM_GEN: SimDef[] = [
     "answer": "In NaH, hydrogen has oxidation state -1 (hydride ion H⁻) because sodium (Group 1) is more electropositive (EN = 0",
     "options": [
      "Oxygen is sp³ hybridised, bond angle = 104.5°, two lone pairs. In ice each H₂O forms four hydrogen bonds (two as donor via H atoms, two as acceptor via lone pairs)",
-     "The gas is dihydrogen (H₂). Equation: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g)",
+     "Hydrides are binary compounds of hydrogen with other elements (except noble gases), classified into three types based on bonding nature: ionic hydrides formed with highly",
      "In NaH, hydrogen has oxidation state -1 (hydride ion H⁻) because sodium (Group 1) is more electropositive (EN = 0"
     ],
-    "hint": "Straight from the 'Hydrides' slide -- match the key terms.",
+    "hint": "Straight from the 'Hydrides are binary compounds of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying H is +1 in both) reveals the student thinks hydrogen always has +1 oxidation state, ignoring the electronegativity principle that hydrogen shows -1 with metals more electropositive than itself.",
     "id": "gen_c11_chem_ch09_q6",
     "nodeId": "c11_chem_cbse_09_006",
@@ -2603,16 +2675,47 @@ export const C11_CHEM_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the molecular formula and molar mass of heavy water. How does its molar mass differ from that of ordinary water?",
-    "answer": "Heavy water is D₂O with molar mass ≈ 20 g mol⁻¹ (2 × 2.014 + 16.00). Ordinary water H₂O has molar mass ≈ 18 g mol⁻¹ (2 × 1",
-    "options": [
-     "CuO(s) + H₂(g) → Cu(s) + H₂O(g). Cu changes from +2 to 0 (reduction), H from 0 to +1 (oxidation). Heating is needed because solid-state diffusion in CuO is slower than gas-phase",
-     "The gas is dihydrogen (H₂). Equation: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g)",
-     "Heavy water is D₂O with molar mass ≈ 20 g mol⁻¹ (2 × 2.014 + 16.00). Ordinary water H₂O has molar mass ≈ 18 g mol⁻¹ (2 × 1"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe the industrial preparation of heavy",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain the structural difference between",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "list and justify the uses of heavy",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Heavy water' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., writing H₂O or 18 g mol⁻¹) reveals confusion between isotopes and the common form of water, indicating the student has not internalised the isotopic composition from c11_chem_cbse_09_002.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) explain the structural difference between H₂O and D₂O and its impact on physical properties",
     "id": "gen_c11_chem_ch09_q10",
     "nodeId": "c11_chem_cbse_09_010",
     "difficulty": "standard",
@@ -2721,6 +2824,109 @@ export const C11_CHEM_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "predict products of water's reaction with Na",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "draw the water molecule with correct bond",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "write autoionisation equilibrium",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) draw the water molecule with correct bond angle and lone pairs, explain hydrogen bonding network, and",
+    "id": "gen_c11_chem_ch09_q15",
+    "nodeId": "c11_chem_cbse_09_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Select and write balanced chemical equations",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Calculate the quantity of softening agent",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Explain the principle and limitations of",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "Identify the type of hardness from given",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Identify the type of hardness from given salt composition, (2) Select and write balanced chemical",
+    "id": "gen_c11_chem_ch09_q16",
+    "nodeId": "c11_chem_cbse_09_009",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A student writes: \"Hydrogen should be placed in Group 1 because it forms H⁺ ions in acids like HCl, H₂SO₄, just as Na forms Na⁺ in NaCl.\" Evaluate this statement. Is it sufficient for Group 1 placement? Justify using the concept of ionization enthalpy and the physical nature of H⁺.",
     "answer": "The statement is chemically incomplete. While H does form H⁺ in aqueous acids, the bare H⁺ ion (a proton) has no electron cloud, radius ~1",
@@ -2729,9 +2935,9 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Good answer: Stage 1: Sedimentation/filtration (removes suspended clay - physical). Stage 2: Boiling or Clark's method (removes temporary hardness via CaCO₃ precipitation)",
      "The statement is chemically incomplete. While H does form H⁺ in aqueous acids, the bare H⁺ ion (a proton) has no electron cloud, radius ~1"
     ],
-    "hint": "Straight from the 'Hydrogen' slide -- match the key terms.",
+    "hint": "Straight from the 'Hydrogen is the only' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is chemically incomplete. While H does form H⁺ in aqueous acids, the bare H⁺ ion (a proton) has no",
-    "id": "gen_c11_chem_ch09_q15",
+    "id": "gen_c11_chem_ch09_q17",
     "nodeId": "c11_chem_cbse_09_001",
     "difficulty": "standard"
    },
@@ -2744,38 +2950,8 @@ export const C11_CHEM_GEN: SimDef[] = [
      "Period 2 hydrides (NH₃, H₂O, HF) have higher thermal stability than Period 3 analogues (PH₃, H₂S, HCl) due to better orbital overlap between small 2p orbitals of N, O",
      "(a) In NaH, H gains 1e⁻ to form H⁻ (halogen-like); in NaCl, Cl gains 1e⁻ to form Cl⁻. Both show halogen behavior"
     ],
-    "hint": "Straight from the 'Hydrogen' slide -- match the key terms.",
+    "hint": "Straight from the 'Hydrogen is the only' slide -- match the key terms.",
     "misconception": "A wrong assignment (e.g., calling HCl formation \"metal-like\") reveals inability to distinguish electron transfer (ionic) from electron sharing (covalent).",
-    "id": "gen_c11_chem_ch09_q16",
-    "nodeId": "c11_chem_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a thought experiment: If you could measure the \"metallic character index\" M = (Ionization Enthalpy)⁻¹ × (Electron Gain Enthalpy) for H, Li, Na, F, Cl, how would you calculate and interpret the values?",
-    "answer": "Calculate M = (1/IE) × |EG| (using absolute EG for index). H: (1/1312)×73 = 0.0556; Li: (1/520)×60 = 0",
-    "options": [
-     "Experiment: (1) Add few drops of H₂O₂ to acidified KMnO₄ (purple) → colorless (Mn²⁺). (2) Add H₂O₂ to acidified KI + starch → blue-black (I₂)",
-     "The statement is chemically incomplete. While H does form H⁺ in aqueous acids, the bare H⁺ ion (a proton) has no electron cloud, radius ~1",
-     "Calculate M = (1/IE) × |EG| (using absolute EG for index). H: (1/1312)×73 = 0.0556; Li: (1/520)×60 = 0"
-    ],
-    "hint": "Straight from the 'Hydrogen' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Calculate M = (1/IE) × |EG| (using absolute EG for index). H: (1/1312)×73 = 0.",
-    "id": "gen_c11_chem_ch09_q17",
-    "nodeId": "c11_chem_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Given: Ionization enthalpy of H = 1312 kJ/mol, Li = 520 kJ/mol, F = 1681 kJ/mol. Electron gain enthalpy of H = -73 kJ/mol, F = -328 kJ/mol. H-H bond dissociation energy = 436 kJ/mol, F-F = 158 kJ/mol. Using ONLY this data, argue whether hydrogen should be placed with Group 1, Group 17, or separately.",
-    "answer": "Hydrogen's ionization enthalpy (1312 kJ/mol) is much higher than Li (520 kJ/mol) but closer to F (1681 kJ/mol), suggesting it holds its electron tightly like halogens",
-    "options": [
-     "Calculate M = (1/IE) × |EG| (using absolute EG for index). H: (1/1312)×73 = 0.0556; Li: (1/520)×60 = 0",
-     "Deuterium forms a stronger bond (higher BDE). Heavier nuclei vibrate with lower zero-point energy (ZPE = ½hν, ν ∝ 1/√μ)",
-     "Hydrogen's ionization enthalpy (1312 kJ/mol) is much higher than Li (520 kJ/mol) but closer to F (1681 kJ/mol), suggesting it holds its electron tightly like halogens"
-    ],
-    "hint": "Straight from the 'Hydrogen' slide -- match the key terms.",
-    "misconception": "A wrong conclusion (e.g., \"place with Group 1 because it forms H⁺\") reveals the student ignores quantitative periodic trends and relies only on qualitative similarity.",
     "id": "gen_c11_chem_ch09_q18",
     "nodeId": "c11_chem_cbse_09_001",
     "difficulty": "standard"
@@ -2783,11 +2959,11 @@ export const C11_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about dihydrogen?",
+    "What surprised you about hydrogen is the only?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Dihydrogen mastered! 🎯",
+  "successLine": "Hydrogen Is The Only mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

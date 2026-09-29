@@ -11,7 +11,7 @@ export const w_c12_biotechnologyricegenomeprojectsim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Human Genome Project: Goals and Key Findings',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_005', 'c12_biotech_cbse_05_004', 'c12_biotech_cbse_01_010', 'c12_biotech_cbse_11_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a doctor in 2025 trying to diagnose a rare genetic disorder in a child.', goal: 'Master Human Genome Project: Goals and Key Findings.' },
     discovery: {
         question: 'Compare the copy number control mechanisms of BACs and standard high-copy plasmids (e.g., pUC19).',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologyricegenomeprojectsim: SimDef = {
         hook: 'Students often think YACs are "better" than BACs solely because of larger insert capacity, and they confuse YACs with.',
     },
     teaching: [
-        { title: 'The Human Genome Project (HGP) was an.', text: 'The Human Genome Project (HGP) was an international scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Human Genome Project (HGP) was an.', text: 'The Human Genome Project (HGP) was an international scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_05_005', title: 'The Human Genome Project (HGP) was an.',

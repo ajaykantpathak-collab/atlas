@@ -714,7 +714,7 @@ const PhenolResonanceSVG: React.FC<{ substituent: string; position: string }> = 
 const NitrationRegioselectivitySVG: React.FC<{ reagent: string }> = ({ reagent }) => {
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 flex flex-col items-center">
-      <h4 className="text-cyan-400 font-semibold mb-2 text-sm text-center">
+      <h4 className="text-gold-400 font-semibold mb-2 text-sm text-center">
         Hydrogen Bonding Chelation & Steam Volatility Analysis
       </h4>
       <svg viewBox="0 0 600 200" className="w-full h-44">
@@ -1351,7 +1351,7 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
             <span className="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30 uppercase tracking-wide">
               ISC Class 12 Chemistry
             </span>
-            <span className="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full border border-cyan-500/30">
+            <span className="bg-gold-500/20 text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30">
               Nodes 071 - 080
             </span>
           </div>
@@ -1391,7 +1391,7 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all ${
             activeTab === 'lab'
-              ? 'bg-cyan-500 text-slate-950 shadow-lg'
+              ? 'bg-gold-500 text-slate-950 shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1472,12 +1472,12 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
 
           {/* PREDICTION_QUESTIONS.map() */}
           <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-lg">
-            <h3 className="text-cyan-400 text-lg font-bold mb-4">Hypothesis Predictions (Pre-Lab Testing)</h3>
+            <h3 className="text-gold-400 text-lg font-bold mb-4">Hypothesis Predictions (Pre-Lab Testing)</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                 <div key={qIdx} className="bg-slate-950 border border-slate-800 p-5 rounded-xl flex flex-col justify-between">
                   <div>
-                    <div className="text-xs text-cyan-400 font-bold mb-2">Prediction Question {qIdx + 1} ({pq.nodeId})</div>
+                    <div className="text-xs text-gold-400 font-bold mb-2">Prediction Question {qIdx + 1} ({pq.nodeId})</div>
                     <p className="text-sm font-semibold text-white mb-3">{pq.question}</p>
                     <div className="space-y-2 mb-4">
                       {pq.options.map((opt, oIdx) => (
@@ -1522,7 +1522,7 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
                 onClick={() => { setSelectedLabStep(idx); audioManager.play('tap'); }}
                 className={`p-3 rounded-xl border text-left text-xs font-bold transition-all ${
                   selectedLabStep === idx
-                    ? 'bg-cyan-500 border-cyan-400 text-slate-950 shadow-lg scale-102'
+                    ? 'bg-gold-500 border-gold-400 text-slate-950 shadow-lg scale-102'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850 hover:text-white'
                 }`}
               >
@@ -1533,9 +1533,9 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
           </div>
 
           {/* Current Step Instruction Box */}
-          <div className="bg-slate-900 border border-cyan-500/30 p-5 rounded-2xl shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <div className="bg-slate-900 border border-gold-500/30 p-5 rounded-2xl shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div>
-              <h3 className="text-cyan-400 font-bold text-lg">
+              <h3 className="text-gold-400 font-bold text-lg">
                 {EXPLORATION_STEPS[selectedLabStep].title}
               </h3>
               <p className="text-slate-300 text-sm mt-1">
@@ -1660,12 +1660,12 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
                       max="100"
                       value={temperature}
                       onChange={(e) => setTemperature(parseInt(e.target.value))}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs text-slate-300">
-                    <span className="font-bold text-cyan-400 block mb-1">Reaction Outcome:</span>
+                    <span className="font-bold text-gold-400 block mb-1">Reaction Outcome:</span>
                     {reagent === 'dil_HNO3' && 'Yields o-nitrophenol (30-40%) and p-nitrophenol (15-20%). Separated by steam distillation.'}
                     {reagent === 'conc_HNO3' && 'Vigorous oxidation & nitration to yield 2,4,6-trinitrophenol (Picric acid).'}
                     {reagent === 'Br2_CS2' && 'Yields 4-bromophenol (80% major) without any catalyst.'}
@@ -1778,7 +1778,7 @@ export const C12_ChemistryPhenolsSim: React.FC<{ onComplete?: (score: number) =>
             <div className="flex items-center gap-3">
               <span className={`px-3 py-1 rounded-full text-xs font-black uppercase ${
                 currentChallenge.difficulty === 'foundation'
-                  ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                  ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                   : currentChallenge.difficulty === 'standard'
                   ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                   : 'bg-purple-500/20 text-purple-400 border border-purple-500/30'

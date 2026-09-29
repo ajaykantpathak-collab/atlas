@@ -11,7 +11,7 @@ export const w_c12_biologyevolutionsim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Origin of Life: Oparin-Haldane Theory',
     chapters: [],
     nodeIds: ['c12_bio_cbse_07_001', 'c12_bio_cbse_07_002', 'c12_bio_cbse_07_003', 'c12_bio_cbse_07_004', 'c12_bio_cbse_07_006', 'c12_bio_cbse_07_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a droplet of oil in water — it forms a sphere with a boundary separating inside from outside, yet it.', goal: 'Master Origin of Life: Oparin-Haldane Theory.' },
     discovery: {
         question: 'A student claims: "Miller-Urey proved life originated exactly as Oparin-Haldane described." Evaluate this statement.',
@@ -20,7 +20,7 @@ export const w_c12_biologyevolutionsim: SimDef = {
         hook: 'Students often think the Oparin-Haldane theory says "lightning struck a pond and created a living cell in one step.".',
     },
     teaching: [
-        { title: 'The Oparin-Haldane theory proposes that life.', text: 'The Oparin-Haldane theory proposes that life originated on early Earth through a gradual process of chemical evolution: simple inorganic molecules (CH₄, NH₃, H₂O, H₂, CO₂) combined under energy.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Oparin-Haldane theory proposes that life.', text: 'The Oparin-Haldane theory proposes that life originated on early Earth through a gradual process of chemical evolution: simple inorganic molecules (CH₄, NH₃, H₂O, H₂, CO₂) combined under energy.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_07_001', title: 'The Oparin-Haldane theory proposes that.',

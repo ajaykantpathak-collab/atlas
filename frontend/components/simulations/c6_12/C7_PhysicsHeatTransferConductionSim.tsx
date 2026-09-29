@@ -1322,13 +1322,13 @@ function C7_PhysicsHeatTransferConductionSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 20, scale: 1.15 }}
-            className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-800"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-800"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 7 Physics • Nodes c7_phy_021 to c7_phy_030</p>
@@ -1349,7 +1349,7 @@ function C7_PhysicsHeatTransferConductionSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/30'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
             >
@@ -1362,15 +1362,15 @@ function C7_PhysicsHeatTransferConductionSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-3xl border border-indigo-800/60 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-3xl border border-gold-800/60 shadow-xl">
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-lg text-xs font-bold uppercase tracking-wider">
+              <span className="px-2.5 py-1 bg-gold-500/20 text-gold-300 rounded-lg text-xs font-bold uppercase tracking-wider">
                 Expedition Scenario
               </span>
             </div>
-            <h2 className="text-2xl font-black text-indigo-200">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-black text-gold-200">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm md:text-base mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-4">
@@ -1394,10 +1394,10 @@ function C7_PhysicsHeatTransferConductionSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-cyan-500/60'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/60'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                   {opt}
                 </motion.button>
@@ -1408,7 +1408,7 @@ function C7_PhysicsHeatTransferConductionSim({
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="mt-4 p-4 rounded-2xl bg-cyan-950/40 border border-cyan-800/70 space-y-3"
+                className="mt-4 p-4 rounded-2xl bg-gold-950/40 border border-gold-800/70 space-y-3"
               >
                 <p className={discoveryCorrect ? 'text-emerald-400 font-bold text-sm' : 'text-amber-400 text-sm font-medium'}>
                   {discoveryCorrect
@@ -1420,7 +1420,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   whileTap={{ scale: 0.97 }}
                   aria-label="Enter interactive labs"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl font-black text-sm shadow-lg shadow-cyan-500/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl font-black text-sm shadow-lg shadow-gold-500/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1435,7 +1435,7 @@ function C7_PhysicsHeatTransferConductionSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-xl font-extrabold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1466,7 +1466,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     handleAdvanceToSandbox();
                   }
                 }}
-                className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-500/20"
+                className="px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-500/20"
               >
                 {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Go to Sandbox →' : 'Next Lab →'}
               </motion.button>
@@ -1494,7 +1494,7 @@ function C7_PhysicsHeatTransferConductionSim({
                         onClick={() => handleRodChange(mat)}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize border ${
                           rodMaterial === mat
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1512,7 +1512,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       value={flameIntensity}
                       aria-label="Flame intensity slider"
                       onChange={(e) => setFlameIntensity(Number(e.target.value))}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                 </div>
@@ -1521,7 +1521,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   <canvas ref={canvasRef} width={650} height={120} className="w-full h-32 rounded-xl" />
                   <div className="flex justify-between text-xs font-bold text-slate-400 mt-2 px-4">
                     <span className="text-red-400">🔥 Hot End (High Kinetic Energy)</span>
-                    <span className="text-sky-400">❄️ Cold End (Lattice Jiggle Relayed)</span>
+                    <span className="text-gold-400">❄️ Cold End (Lattice Jiggle Relayed)</span>
                   </div>
                 </div>
 
@@ -1537,7 +1537,7 @@ function C7_PhysicsHeatTransferConductionSim({
                           whileTap={{ scale: 0.98 }}
                           aria-label={`Prediction option ${i + 1}: ${opt}`}
                           onClick={() => handlePrediction(i)}
-                          className="p-2.5 rounded-xl text-left text-xs bg-slate-900 border border-slate-700 text-slate-300 hover:border-cyan-500"
+                          className="p-2.5 rounded-xl text-left text-xs bg-slate-900 border border-slate-700 text-slate-300 hover:border-gold-500"
                         >
                           {opt}
                         </motion.button>
@@ -1564,7 +1564,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     value={convectionHeat}
                     aria-label="Bottom burner output power slider"
                     onChange={(e) => setConvectionHeat(Number(e.target.value))}
-                    className="w-48 accent-cyan-400"
+                    className="w-48 accent-gold-400"
                   />
                 </div>
 
@@ -1583,7 +1583,7 @@ function C7_PhysicsHeatTransferConductionSim({
                           whileTap={{ scale: 0.98 }}
                           aria-label={`Observation option ${i + 1}: ${opt}`}
                           onClick={() => handleObservation(i)}
-                          className="p-2.5 rounded-xl text-left text-xs bg-slate-900 border border-slate-700 text-slate-300 hover:border-cyan-500"
+                          className="p-2.5 rounded-xl text-left text-xs bg-slate-900 border border-slate-700 text-slate-300 hover:border-gold-500"
                         >
                           {opt}
                         </motion.button>
@@ -1591,7 +1591,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     </div>
                   </div>
                 ) : (
-                  <div className="p-3 bg-cyan-950/40 rounded-xl border border-cyan-800 text-xs text-cyan-300">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800 text-xs text-gold-300">
                     ✓ Observed: Warm fluid expands, density falls, and upward buoyant forces drive the circulation current!
                   </div>
                 )}
@@ -1610,7 +1610,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     onClick={() => handleRadiationToggle('black')}
                     className={`px-4 py-2 rounded-xl text-xs font-bold border ${
                       radiationSurface === 'black'
-                        ? 'bg-slate-950 border-cyan-400 text-cyan-300 shadow-md'
+                        ? 'bg-slate-950 border-gold-400 text-gold-300 shadow-md'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1623,7 +1623,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     onClick={() => handleRadiationToggle('silver')}
                     className={`px-4 py-2 rounded-xl text-xs font-bold border ${
                       radiationSurface === 'silver'
-                        ? 'bg-slate-200 border-cyan-400 text-slate-950 shadow-md'
+                        ? 'bg-slate-200 border-gold-400 text-slate-950 shadow-md'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1725,7 +1725,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       value={batteryVoltage}
                       aria-label="Battery voltage slider in volts"
                       onChange={(e) => setBatteryVoltage(Number(e.target.value))}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                   <div>
@@ -1737,7 +1737,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       value={loadResistance}
                       aria-label="Load resistance slider in ohms"
                       onChange={(e) => setLoadResistance(Number(e.target.value))}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
                   <div className="flex items-end">
@@ -1829,7 +1829,7 @@ function C7_PhysicsHeatTransferConductionSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 rounded-3xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h2 className="text-xl font-black text-cyan-300">🎛️ Free Physics Exploration Sandbox</h2>
+              <h2 className="text-xl font-black text-gold-300">🎛️ Free Physics Exploration Sandbox</h2>
               <p className="text-xs text-slate-400 mt-1">
                 Tinker with heat rods, acoustic walls, and DC circuits freely without any tests or grades.
               </p>
@@ -1857,7 +1857,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   audioManager.play('tap');
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold uppercase transition-all ${
-                  sandboxTab === tab ? 'bg-cyan-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:text-white'
+                  sandboxTab === tab ? 'bg-gold-600 text-white shadow-md' : 'bg-slate-800 text-slate-400 hover:text-white'
                 }`}
               >
                 {tab === 'thermal' ? '🔥 Thermal Modes' : tab === 'sound' ? '🔊 Echo & Reverb' : '⚡ DC Circuits'}
@@ -1877,7 +1877,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     value={flameIntensity}
                     aria-label="Conduction flame slider"
                     onChange={(e) => setFlameIntensity(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
                 <div>
@@ -1889,7 +1889,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     value={convectionHeat}
                     aria-label="Convection heater power slider"
                     onChange={(e) => setConvectionHeat(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
               </div>
@@ -1926,7 +1926,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     value={batteryVoltage}
                     aria-label="Sandbox battery voltage slider"
                     onChange={(e) => setBatteryVoltage(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
                 <div>
@@ -1938,7 +1938,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     value={loadResistance}
                     aria-label="Sandbox load resistance slider"
                     onChange={(e) => setLoadResistance(Number(e.target.value))}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
                 </div>
               </div>
@@ -1953,7 +1953,7 @@ function C7_PhysicsHeatTransferConductionSim({
                 </div>
                 <div>
                   <p className="text-xs text-slate-400">Charge in 10s (Q=It)</p>
-                  <p className="text-xl font-black text-cyan-400">{chargeIn10Sec} C</p>
+                  <p className="text-xl font-black text-gold-400">{chargeIn10Sec} C</p>
                 </div>
               </div>
             </div>
@@ -1978,7 +1978,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                     : difficulty === 'standard'
-                    ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30'
+                    ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                     : 'bg-purple-500/20 text-purple-300 border border-purple-500/30'
                 }`}
               >
@@ -1990,14 +1990,14 @@ function C7_PhysicsHeatTransferConductionSim({
             </div>
 
             <div className="text-xs font-bold text-slate-400">
-              Mastery: <span className="text-cyan-400 capitalize">{masteryLevel}</span>
+              Mastery: <span className="text-gold-400 capitalize">{masteryLevel}</span>
             </div>
           </div>
 
           {/* Progress bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2033,10 +2033,10 @@ function C7_PhysicsHeatTransferConductionSim({
                       className={`p-4 rounded-2xl text-left text-sm font-medium transition-all border ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-cyan-500/60'
+                          : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/60'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {showExplanation && i === challenge.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                       {opt}
                     </motion.button>
@@ -2057,7 +2057,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       aria-label={`Draggable label: ${item.label}`}
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
-                      className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing"
                     >
                       {item.label}
                     </motion.div>
@@ -2087,7 +2087,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   whileTap={{ scale: 0.97 }}
                   aria-label="Verify dropped labels"
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Dropped Labels
                 </motion.button>
@@ -2116,7 +2116,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl text-xs font-medium text-slate-200 border border-slate-700 cursor-grab active:cursor-grabbing flex items-center gap-3"
                   >
-                    <span className="px-2 py-1 bg-slate-900 rounded-lg text-cyan-400 font-bold">{dIdx + 1}</span>
+                    <span className="px-2 py-1 bg-slate-900 rounded-lg text-gold-400 font-bold">{dIdx + 1}</span>
                     {item}
                   </motion.div>
                 ))}
@@ -2131,7 +2131,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i)
                     )
                   }
-                  className="px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Submit Order
                 </motion.button>
@@ -2147,7 +2147,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
                   aria-label={`Enter numerical value in ${challenge.unit || 'units'}`}
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-bold w-52 focus:border-cyan-500 focus:outline-none"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-bold w-52 focus:border-gold-500 focus:outline-none"
                 />
                 <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                 <motion.button
@@ -2156,7 +2156,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   disabled={showExplanation || !numericInput}
                   aria-label="Check calculation"
                   onClick={() => handleAnswer(parseFloat(numericInput))}
-                  className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-2xl text-sm"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-sm"
                 >
                   Check Calculation
                 </motion.button>
@@ -2174,7 +2174,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Add part ${part}`}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2183,7 +2183,7 @@ function C7_PhysicsHeatTransferConductionSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-cyan-900 text-cyan-200 rounded-lg text-xs font-bold flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-900 text-gold-200 rounded-lg text-xs font-bold flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts((p) => p.filter((_, idx) => idx !== i))}
@@ -2202,7 +2202,7 @@ function C7_PhysicsHeatTransferConductionSim({
                   disabled={constructParts.length === 0 || showExplanation}
                   aria-label="Verify circuit assembly"
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-cyan-600 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Circuit Assembly
                 </motion.button>
@@ -2214,9 +2214,9 @@ function C7_PhysicsHeatTransferConductionSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-cyan-950/40 rounded-3xl border border-cyan-800/80 space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 rounded-3xl border border-gold-800/80 space-y-3"
               >
-                <h4 className="text-sm font-black text-cyan-300">Detailed ICSE Physical Explanation:</h4>
+                <h4 className="text-sm font-black text-gold-300">Detailed ICSE Physical Explanation:</h4>
                 {challenge.explanation
                   .split('. ')
                   .filter((s) => s.trim().length > 0)
@@ -2228,7 +2228,7 @@ function C7_PhysicsHeatTransferConductionSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <span className="font-bold text-cyan-400">{sIdx + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{sIdx + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2239,7 +2239,7 @@ function C7_PhysicsHeatTransferConductionSim({
                     whileTap={{ scale: 0.97 }}
                     aria-label="Reveal next reasoning step"
                     onClick={() => setRevealedSteps((r) => r + 1)}
-                    className="px-4 py-1.5 bg-cyan-800 hover:bg-cyan-700 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     Reveal Next Reasoning Step →
                   </motion.button>
@@ -2266,20 +2266,20 @@ function C7_PhysicsHeatTransferConductionSim({
       {/* ─── PHASE 5: EXPEDITION COMPLETION & MASTERY SUMMARY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-slate-900 to-cyan-950/80 rounded-3xl border border-cyan-800/80 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-slate-900 to-gold-950/80 rounded-3xl border border-gold-800/80 text-center space-y-4">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="p-4 bg-cyan-900/40 rounded-2xl border border-cyan-500/40 max-w-md mx-auto">
+            <div className="p-4 bg-gold-900/40 rounded-2xl border border-gold-500/40 max-w-md mx-auto">
               <h3 className="text-2xl font-black text-amber-300 uppercase tracking-wide">
                 {motivationalFeedback.title}
               </h3>
-              <p className="text-xs text-cyan-200 mt-1">
+              <p className="text-xs text-gold-200 mt-1">
                 {motivationalFeedback.subtitle}
               </p>
             </div>
 
-            <h2 className="text-3xl font-black bg-gradient-to-r from-cyan-300 via-sky-200 to-emerald-300 bg-clip-text text-transparent">
+            <h2 className="text-3xl font-black bg-gradient-to-r from-gold-300 via-gold-200 to-emerald-300 bg-clip-text text-transparent">
               Himalayan Physics Expedition Complete!
             </h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto leading-relaxed">
@@ -2293,17 +2293,17 @@ function C7_PhysicsHeatTransferConductionSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 w-36">
                 <p className="text-xs text-slate-400">Mastery Level</p>
-                <p className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>
 
           {/* VISIBLE SPACED REPETITION SCHEDULE (SRS) */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-cyan-950/80 rounded-3xl border border-indigo-500/40 text-center space-y-3 shadow-xl">
-            <div className="flex items-center justify-center gap-2 text-indigo-300 font-bold text-sm tracking-wide uppercase">
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-gold-500/40 text-center space-y-3 shadow-xl">
+            <div className="flex items-center justify-center gap-2 text-gold-300 font-bold text-sm tracking-wide uppercase">
               <span aria-hidden="true">📅</span> Spaced Repetition Review Schedule (SM-2 Algorithm)
             </div>
-            <div className="p-4 bg-slate-950/90 rounded-2xl border border-indigo-900/60 max-w-lg mx-auto">
+            <div className="p-4 bg-slate-950/90 rounded-2xl border border-gold-900/60 max-w-lg mx-auto">
               <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Recommended Review Window</p>
               <p className="text-3xl font-black text-amber-400 my-1">
                 Review in {motivationalFeedback.srsLabel}
@@ -2339,12 +2339,12 @@ function C7_PhysicsHeatTransferConductionSim({
 
           {/* REAL-WORLD APPLICATION EXTENSION */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-black text-cyan-300">🏔️ {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-black text-gold-300">🏔️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, sIdx) => (
                 <div key={sIdx} className="p-3 bg-slate-950 rounded-xl text-xs text-slate-400 border border-slate-800">
-                  <span className="font-bold text-cyan-400 mr-1">{sIdx + 1}.</span> {st}
+                  <span className="font-bold text-gold-400 mr-1">{sIdx + 1}.</span> {st}
                 </div>
               ))}
             </div>

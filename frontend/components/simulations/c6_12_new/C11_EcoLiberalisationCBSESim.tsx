@@ -1041,7 +1041,7 @@ const IndustrialLicensingVisualizer: React.FC<{
           className={`p-3 rounded-lg border transition-all ${
             mrtpActive
               ? 'bg-amber-950/40 border-amber-600/50 text-amber-200'
-              : 'bg-blue-950/40 border-blue-500/50 text-blue-200'
+              : 'bg-gold-950/40 border-gold-500/50 text-gold-200'
           }`}
         >
           <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider">MRTP Monopoly Limit</div>
@@ -1068,14 +1068,14 @@ const FinancialSectorDiagram: React.FC<{
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 text-white shadow-xl">
       <div className="flex justify-between items-center mb-3">
-        <h4 className="text-sm font-bold text-cyan-400 flex items-center gap-2">
+        <h4 className="text-sm font-bold text-gold-400 flex items-center gap-2">
           <span>🏦</span> Central Bank (RBI) & Commercial Liquidity Flow
         </h4>
         <span
           className={`px-3 py-1 text-xs font-bold rounded-full border ${
             rbiRole === 'Regulator'
               ? 'bg-rose-500/20 text-rose-300 border-rose-500/40'
-              : 'bg-cyan-500/20 text-cyan-300 border-cyan-500/40'
+              : 'bg-gold-500/20 text-gold-300 border-gold-500/40'
           }`}
         >
           Role: {rbiRole}
@@ -1157,11 +1157,11 @@ const SectoralGDPGraph: React.FC<{ year: number }> = ({ year }) => {
         {/* Services */}
         <div>
           <div className="flex justify-between text-xs mb-1">
-            <span className="text-sky-400 font-medium">💻 Services & IT Boom</span>
+            <span className="text-gold-400 font-medium">💻 Services & IT Boom</span>
             <span className="font-bold">{servPct}% of GDP</span>
           </div>
           <div className="w-full h-3.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
-            <div className="bg-sky-500 h-full transition-all duration-300" style={{ width: `${servPct}%` }} />
+            <div className="bg-gold-500 h-full transition-all duration-300" style={{ width: `${servPct}%` }} />
           </div>
         </div>
       </div>
@@ -1362,7 +1362,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
             <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
               CISCE Class 11 Economics
             </span>
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-sky-500/20 text-sky-300 border border-sky-500/30">
+            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-gold-500/20 text-gold-300 border border-gold-500/30">
               Chapter: Liberalisation (NEP 1991)
             </span>
           </div>
@@ -1407,7 +1407,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg font-bold text-xs md:text-sm transition-all ${
             activeTab === 'lab'
-              ? 'bg-sky-500 text-slate-950 shadow-lg shadow-sky-500/20'
+              ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/50'
           }`}
         >
@@ -1517,7 +1517,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
 
             {/* Prediction Questions Mapping (MANDATORY SECTION) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-sky-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔮</span> Predictive Policy Hypotheses ({PREDICTION_QUESTIONS.length})
               </h3>
               <div className="space-y-6">
@@ -1554,7 +1554,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
                       })}
                     </div>
                     {predictionAnswers[qIdx] !== undefined && (
-                      <div className="text-xs text-sky-300 bg-sky-950/40 p-2.5 rounded border border-sky-800/50">
+                      <div className="text-xs text-gold-300 bg-gold-950/40 p-2.5 rounded border border-gold-800/50">
                         🧪 <strong>How to Verify:</strong> {pred.verifyInstruction}
                       </div>
                     )}
@@ -1584,11 +1584,11 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
                   }}
                   className={`w-full text-left p-3.5 rounded-xl border transition-all flex flex-col gap-1 ${
                     activeLabIndex === idx
-                      ? 'bg-sky-500/15 border-sky-500 text-white shadow-lg'
+                      ? 'bg-gold-500/15 border-gold-500 text-white shadow-lg'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-850'
                   }`}
                 >
-                  <span className="text-xs font-bold text-sky-400">{step.title}</span>
+                  <span className="text-xs font-bold text-gold-400">{step.title}</span>
                   <span className="text-[11px] text-slate-400 line-clamp-2">{step.instruction}</span>
                 </button>
               ))}
@@ -1598,7 +1598,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
             <div className="lg:col-span-8 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col justify-between">
               <div>
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-base font-bold text-sky-300">
+                  <h3 className="text-base font-bold text-gold-300">
                     {EXPLORATION_STEPS[activeLabIndex].title}
                   </h3>
                   <span className="text-xs font-mono text-slate-400 bg-slate-800 px-2.5 py-1 rounded-full border border-slate-700">
@@ -1677,7 +1677,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
                         className={`p-4 rounded-xl border font-bold text-xs flex justify-between items-center ${
                           labState.mrtpLimitActive
                             ? 'bg-amber-950/40 border-amber-600 text-amber-300'
-                            : 'bg-blue-950/40 border-blue-500 text-blue-300'
+                            : 'bg-gold-950/40 border-gold-500 text-gold-300'
                         }`}
                       >
                         <span>MRTP Asset Ceiling (£100 Cr)</span>
@@ -1702,7 +1702,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                           <span>Statutory Liquidity Ratio (SLR) Slider</span>
-                          <span className="text-cyan-400">{labState.slrRate}%</span>
+                          <span className="text-gold-400">{labState.slrRate}%</span>
                         </div>
                         <input
                           type="range"
@@ -1717,7 +1717,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
                               slrRate: parseFloat(e.target.value),
                             }));
                           }}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1731,7 +1731,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
                               rbiRole: prev.rbiRole === 'Regulator' ? 'Facilitator' : 'Regulator',
                             }));
                           }}
-                          className="px-4 py-2 bg-cyan-500 text-slate-950 font-bold rounded-lg text-xs hover:bg-cyan-400 transition-all"
+                          className="px-4 py-2 bg-gold-500 text-slate-950 font-bold rounded-lg text-xs hover:bg-gold-400 transition-all"
                         >
                           Switch to {labState.rbiRole === 'Regulator' ? 'Facilitator Mandate' : 'Regulator Mandate'}
                         </button>
@@ -1984,7 +1984,7 @@ export const C11_EcoLiberalisationCBSESim: React.FC<{
 
             {/* Diagnostic Diagnostic Knowledge Base */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-base font-bold text-sky-400 mb-4">
+              <h3 className="text-base font-bold text-gold-400 mb-4">
                 📋 Diagnostic Question Bank Review ({DIAGNOSTIC_QUESTIONS.length} Questions)
               </h3>
               <div className="space-y-3">

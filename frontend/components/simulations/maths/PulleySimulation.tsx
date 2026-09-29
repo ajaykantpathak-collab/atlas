@@ -290,7 +290,7 @@ export function PulleySimulation({ onComplete, className }: PulleySimulationProp
 
         {/* Pull slider */}
         <div className="flex items-center gap-3">
-          <label className="text-xs font-mono text-sky-400 w-16">Pull</label>
+          <label className="text-xs font-mono text-gold-400 w-16">Pull</label>
           <input
             type="range"
             min={0}
@@ -298,7 +298,7 @@ export function PulleySimulation({ onComplete, className }: PulleySimulationProp
             step={0.01}
             value={pullDistance}
             onChange={(e) => handlePull(Number(e.target.value))}
-            className="flex-1 accent-sky-400"
+            className="flex-1 accent-gold-400"
           />
           <span className="text-xs font-mono text-white/60 w-12 text-right">{Math.round(pullDistance * 100)}%</span>
         </div>

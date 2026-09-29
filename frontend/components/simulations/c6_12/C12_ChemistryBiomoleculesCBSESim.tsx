@@ -694,8 +694,8 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
     }
 
     return (
-      <div className="flex flex-col items-center bg-slate-900/80 p-5 rounded-2xl border border-indigo-500/30 text-white w-full">
-        <h4 className="text-lg font-bold text-cyan-300 mb-3">
+      <div className="flex flex-col items-center bg-slate-900/80 p-5 rounded-2xl border border-gold-500/30 text-white w-full">
+        <h4 className="text-lg font-bold text-gold-300 mb-3">
           D-Glucose Open-Chain Fischer Projection & Chemical Proof
         </h4>
         
@@ -738,8 +738,8 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
 
           {/* Reaction arrow & Product SVG */}
           <div className="flex flex-col items-center justify-center max-w-xs text-center space-y-3">
-            <div className="bg-indigo-950/80 px-4 py-2 rounded-lg border border-indigo-500/40">
-              <span className="text-xs uppercase tracking-wider text-indigo-400 font-semibold block">Reagent</span>
+            <div className="bg-gold-950/80 px-4 py-2 rounded-lg border border-gold-500/40">
+              <span className="text-xs uppercase tracking-wider text-gold-400 font-semibold block">Reagent</span>
               <span className="text-lg font-bold text-yellow-400">{glucoseReagent}</span>
             </div>
             
@@ -773,7 +773,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                 glucoseReagent === reagent
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/30 scale-105'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/30 scale-105'
                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
@@ -788,7 +788,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
   // Render SVG Pyranose/Haworth & Base Pair Diagrams
   const renderHaworthDisaccharideSVG = () => {
     return (
-      <svg width="340" height="180" viewBox="0 0 340 180" className="bg-slate-950 p-2 rounded-xl border border-indigo-900/60">
+      <svg width="340" height="180" viewBox="0 0 340 180" className="bg-slate-950 p-2 rounded-xl border border-gold-900/60">
         <text x="170" y="20" fill="#a5b4fc" fontSize="13" fontWeight="bold" textAnchor="middle">
           α-1,4-Glycosidic Linkage in Maltose
         </text>
@@ -821,19 +821,19 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans p-4 md:p-8">
       {/* Top Banner Header */}
-      <header className="max-w-6xl mx-auto bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 rounded-3xl p-6 mb-8 shadow-2xl relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+      <header className="max-w-6xl mx-auto bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-500/30 rounded-3xl p-6 mb-8 shadow-2xl relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 relative z-10">
           <div>
             <div className="flex items-center space-x-3 mb-2">
-              <span className="px-3 py-1 bg-cyan-500/20 border border-cyan-400/40 text-cyan-300 text-xs font-semibold rounded-full uppercase tracking-wider">
+              <span className="px-3 py-1 bg-gold-500/20 border border-gold-400/40 text-gold-300 text-xs font-semibold rounded-full uppercase tracking-wider">
                 CBSE Class 12 Chemistry
               </span>
               <span className="px-3 py-1 bg-purple-500/20 border border-purple-400/40 text-purple-300 text-xs font-semibold rounded-full uppercase tracking-wider">
                 Chapter 10: Biomolecules
               </span>
             </div>
-            <h1 className="text-3xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white via-cyan-200 to-indigo-300">
+            <h1 className="text-3xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white via-gold-200 to-gold-300">
               Biomolecules Interactive Lab
             </h1>
             <p className="text-sm text-slate-300 mt-1 max-w-xl">
@@ -845,7 +845,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
           <div className="flex items-center space-x-4 bg-slate-900/90 border border-slate-700/80 p-4 rounded-2xl shadow-inner">
             <div className="text-center">
               <span className="text-xs text-slate-400 block font-semibold">Mastery Score</span>
-              <span className="text-2xl font-black text-cyan-400">{score} pts</span>
+              <span className="text-2xl font-black text-gold-400">{score} pts</span>
             </div>
             <div className="h-8 w-px bg-slate-800" />
             <div className="text-center">
@@ -864,7 +864,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
             }}
             className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all flex items-center space-x-2 ${
               activeTab === 'learn'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/25'
                 : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -879,7 +879,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
             }}
             className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all flex items-center space-x-2 ${
               activeTab === 'workbench'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/25'
                 : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -894,7 +894,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
             }}
             className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all flex items-center space-x-2 ${
               activeTab === 'quiz'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/25'
                 : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -918,12 +918,12 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
             <div className="lg:col-span-7 bg-slate-900/80 border border-slate-800 rounded-3xl p-6 flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-xs font-bold px-3 py-1 bg-indigo-900/60 text-indigo-300 rounded-full border border-indigo-700/50">
+                  <span className="text-xs font-bold px-3 py-1 bg-gold-900/60 text-gold-300 rounded-full border border-gold-700/50">
                     Topic {currentSlideIndex + 1} of {LESSON_SLIDES.length}
                   </span>
                   <button
                     onClick={() => speakText(LESSON_SLIDES[currentSlideIndex].summary)}
-                    className="p-2 bg-slate-800 hover:bg-slate-700 rounded-xl text-cyan-400 transition-all text-xs flex items-center space-x-1"
+                    className="p-2 bg-slate-800 hover:bg-slate-700 rounded-xl text-gold-400 transition-all text-xs flex items-center space-x-1"
                   >
                     <span>🔊 Speak Explanation</span>
                   </button>
@@ -937,21 +937,21 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                   {LESSON_SLIDES[currentSlideIndex].summary}
                 </p>
 
-                <h3 className="text-xs font-bold text-cyan-400 uppercase tracking-wider mb-2">
+                <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                   Key CBSE Concepts & Reaction Rules:
                 </h3>
                 <ul className="space-y-2 mb-4">
                   {LESSON_SLIDES[currentSlideIndex].bulletPoints.map((pt, idx) => (
                     <li key={idx} className="flex items-start text-xs text-slate-300 space-x-2">
-                      <span className="text-cyan-400 font-bold">•</span>
+                      <span className="text-gold-400 font-bold">•</span>
                       <span>{pt}</span>
                     </li>
                   ))}
                 </ul>
 
                 {LESSON_SLIDES[currentSlideIndex].equation && (
-                  <div className="bg-indigo-950/60 p-3 rounded-xl border border-indigo-500/40 text-xs font-mono text-yellow-300 mt-2">
-                    <span className="text-indigo-400 font-sans font-semibold block text-[10px] uppercase">
+                  <div className="bg-gold-950/60 p-3 rounded-xl border border-gold-500/40 text-xs font-mono text-yellow-300 mt-2">
+                    <span className="text-gold-400 font-sans font-semibold block text-[10px] uppercase">
                       CBSE Equation:
                     </span>
                     {LESSON_SLIDES[currentSlideIndex].equation}
@@ -972,14 +972,14 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                     <div
                       key={idx}
                       className={`h-2 rounded-full transition-all ${
-                        idx === currentSlideIndex ? 'w-6 bg-cyan-400' : 'w-2 bg-slate-700'
+                        idx === currentSlideIndex ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                       }`}
                     />
                   ))}
                 </div>
                 <button
                   onClick={handleNextSlide}
-                  className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl transition-all shadow-lg shadow-cyan-600/30"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl transition-all shadow-lg shadow-gold-600/30"
                 >
                   Next Concept →
                 </button>
@@ -1023,11 +1023,11 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
             <div className="lg:col-span-6 bg-slate-900/80 border border-slate-800 rounded-3xl p-6 flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-lg font-bold text-cyan-300 flex items-center space-x-2">
+                  <h3 className="text-lg font-bold text-gold-300 flex items-center space-x-2">
                     <span>🔄</span>
                     <span>Sucrose Hydrolysis & Invert Sugar Simulator</span>
                   </h3>
-                  <span className="text-xs px-2.5 py-1 bg-cyan-950 border border-cyan-800 text-cyan-300 rounded-lg font-mono">
+                  <span className="text-xs px-2.5 py-1 bg-gold-950 border border-gold-800 text-gold-300 rounded-lg font-mono">
                     c12_chem_cbse_310
                   </span>
                 </div>
@@ -1040,7 +1040,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                 <div className="space-y-3 bg-slate-950 p-4 rounded-2xl border border-slate-800 mb-4">
                   <div className="flex justify-between items-center text-xs font-semibold">
                     <span className="text-slate-400">Hydrolysis Progress:</span>
-                    <span className="text-cyan-400 font-mono text-sm">{hydrolysisPercent}% Complete</span>
+                    <span className="text-gold-400 font-mono text-sm">{hydrolysisPercent}% Complete</span>
                   </div>
                   <input
                     type="range"
@@ -1051,7 +1051,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                       playSound('tap');
                       setHydrolysisPercent(Number(e.target.value));
                     }}
-                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500 font-mono">
                     <span>0% (Pure Sucrose)</span>
@@ -1061,7 +1061,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                 </div>
 
                 {/* Optical Polarimeter Display */}
-                <div className="bg-slate-950 p-5 rounded-2xl border border-indigo-900/60 text-center flex flex-col items-center">
+                <div className="bg-slate-950 p-5 rounded-2xl border border-gold-900/60 text-center flex flex-col items-center">
                   <span className="text-xs text-slate-400 uppercase font-semibold mb-1">
                     Simulated Polarimeter Rotation [α]<sub>D</sub>
                   </span>
@@ -1131,7 +1131,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                   <div>
                     <div className="flex justify-between items-center text-xs font-semibold mb-1">
                       <span className="text-slate-400">pH Level:</span>
-                      <span className={`font-mono text-sm ${phLevel < 3 || phLevel > 11 ? 'text-rose-400 font-bold' : 'text-cyan-400'}`}>
+                      <span className={`font-mono text-sm ${phLevel < 3 || phLevel > 11 ? 'text-rose-400 font-bold' : 'text-gold-400'}`}>
                         pH {phLevel}
                       </span>
                     </div>
@@ -1145,7 +1145,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                         playSound('tap');
                         setPhLevel(Number(e.target.value));
                       }}
-                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                     />
                   </div>
                 </div>
@@ -1176,7 +1176,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
             {/* Challenge Header */}
             <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-800">
               <div className="flex items-center space-x-3">
-                <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 text-xs font-bold rounded-full border border-cyan-500/30">
+                <span className="px-3 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-full border border-gold-500/30">
                   Question {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span className="px-2.5 py-0.5 bg-purple-950 text-purple-300 text-[11px] font-mono rounded border border-purple-800">
@@ -1210,7 +1210,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                     btnStyle = 'bg-slate-950/40 border-slate-900 text-slate-500 opacity-60';
                   }
                 } else if (isSelected) {
-                  btnStyle = 'bg-indigo-950/80 border-indigo-500 text-indigo-200 shadow-md shadow-indigo-950/50';
+                  btnStyle = 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-md shadow-gold-950/50';
                 }
 
                 return (
@@ -1257,7 +1257,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                     disabled={selectedOption === null}
                     className={`px-6 py-3 rounded-2xl font-bold text-sm transition-all shadow-lg ${
                       selectedOption !== null
-                        ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-cyan-500/30 hover:scale-105'
+                        ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-gold-500/30 hover:scale-105'
                         : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                     }`}
                   >
@@ -1291,7 +1291,7 @@ export default function C12_ChemistryBiomoleculesCBSESim() {
                   <div className="flex justify-end">
                     <button
                       onClick={handleNextChallenge}
-                      className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm rounded-2xl transition-all shadow-lg shadow-cyan-600/30 flex items-center space-x-2"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-2xl transition-all shadow-lg shadow-gold-600/30 flex items-center space-x-2"
                     >
                       <span>
                         {currentChallengeIndex < CHALLENGES.length - 1

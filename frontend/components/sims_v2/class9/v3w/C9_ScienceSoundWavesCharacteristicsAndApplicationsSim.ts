@@ -11,7 +11,7 @@ export const w_c9_sciencesoundwavescharacteristicsandapplicationssim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Propagation of Sound: Need for a Medium',
     chapters: [],
     nodeIds: ['c9_physics_ch5_2', 'c9_physics_ch5_7', 'c9_physics_ch5_10', 'c9_physics_ch5_11', 'c9_physics_ch5_9', 'c9_physics_ch5_1', 'c9_physics_ch5_3', 'c9_physics_ch5_4', 'c9_physics_ch5_5', 'c9_physics_ch5_6', 'c9_physics_ch5_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Pluck a guitar string. Watch it vibrate — it moves back and forth rapidly.', goal: 'Master Propagation of Sound: Need for a Medium.' },
     discovery: {
         question: 'Explain how a vibrating tuning fork produces sound. Describe the formation of compressions and rarefactions.',
@@ -20,7 +20,7 @@ export const w_c9_sciencesoundwavescharacteristicsandapplicationssim: SimDef = {
         hook: 'Students think sound can travel through vacuum (like light). The exact error: they conflate sound (mechanical wave,.',
     },
     teaching: [
-        { title: 'Production of sound is the generation of.', text: 'Production of sound is the generation of mechanical waves through the vibration of a source, which creates compressions and rarefactions in a medium (air, water, solids) that propagate as.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Production of sound is the generation of.', text: 'Production of sound is the generation of mechanical waves through the vibration of a source, which creates compressions and rarefactions in a medium (air, water, solids) that propagate as.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch5_2', title: 'Production of sound is the generation.',

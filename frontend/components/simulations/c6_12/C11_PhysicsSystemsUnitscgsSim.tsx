@@ -1133,14 +1133,14 @@ export function C11_PhysicsSystemsUnitscgsSim({
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.8 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner cursor-pointer"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner cursor-pointer"
             onClick={triggerSparkleAt}
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold">ISC Class 11 Physics</span>
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold">ISC Class 11 Physics</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">NEP 2020</span>
             </div>
             <h1 className="text-lg md:text-xl font-bold text-white tracking-tight">{title}</h1>
@@ -1158,7 +1158,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                   : difficulty === 'standard'
-                  ? 'bg-sky-950/60 text-sky-400 border-sky-700'
+                  ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                   : 'bg-rose-950/60 text-rose-400 border-rose-700'
               }`}
             >
@@ -1166,7 +1166,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
             </motion.span>
           )}
           <div className="text-xs text-slate-400 bg-slate-900 px-3 py-1.5 rounded-xl border border-slate-800">
-            Phase: <span className="text-indigo-300 font-semibold uppercase">{phase}</span>
+            Phase: <span className="text-gold-300 font-semibold uppercase">{phase}</span>
           </div>
         </div>
       </div>
@@ -1174,11 +1174,11 @@ export function C11_PhysicsSystemsUnitscgsSim({
       {/* ─── PHASE 1: NARRATIVE & DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-5 md:p-6 rounded-2xl bg-gradient-to-br from-indigo-950/40 via-slate-900 to-slate-900 border border-indigo-500/30 shadow-lg relative">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-300 text-xs font-semibold mb-3 border border-indigo-500/20">
+          <div className="p-5 md:p-6 rounded-2xl bg-gradient-to-br from-gold-950/40 via-slate-900 to-slate-900 border border-gold-500/30 shadow-lg relative">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/10 text-gold-300 text-xs font-semibold mb-3 border border-gold-500/20">
               🛰️ Flight Telemetry Scenario
             </div>
-            <h2 className="text-xl font-bold text-indigo-200 mb-2">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-200 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-3 p-3 bg-slate-950/70 rounded-xl border border-slate-800">
               🎯 <strong className="text-slate-200">Mission Requirement:</strong> {SCENARIO.context}
@@ -1205,10 +1205,10 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-md'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-950/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500/50'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
-                  <span className="inline-block w-6 h-6 rounded-lg bg-slate-700/60 text-center text-xs leading-6 mr-2 font-mono text-indigo-300">
+                  <span className="inline-block w-6 h-6 rounded-lg bg-slate-700/60 text-center text-xs leading-6 mr-2 font-mono text-gold-300">
                     {String.fromCharCode(65 + i)}
                   </span>
                   {opt}
@@ -1225,7 +1225,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Flight Telemetry Labs →
                 </motion.button>
@@ -1249,7 +1249,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   onClick={() => setCurrentSlide(idx)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1272,7 +1272,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
               className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs md:text-sm text-amber-300/90 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1358,7 +1358,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Vector P (Thruster 1):</span>
-                          <span className="font-mono text-sky-400 font-bold">{vecP} N</span>
+                          <span className="font-mono text-gold-400 font-bold">{vecP} N</span>
                         </div>
                         <input
                           type="range"
@@ -1366,7 +1366,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                           max={20}
                           value={vecP}
                           onChange={(e) => setVecP(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1409,7 +1409,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                         = √({vecP}² + {vecQ}² + 2·{vecP}·{vecQ}·cos{vecAngle}°) = <strong className="text-emerald-300 text-sm">{vecResultant.magnitude} N</strong>
                       </div>
                       <div className="text-slate-400 text-[11px]">
-                        Direction α with P = <span className="text-indigo-300 font-bold">{vecResultant.alpha}°</span>
+                        Direction α with P = <span className="text-gold-300 font-bold">{vecResultant.alpha}°</span>
                       </div>
                     </div>
                   </div>
@@ -1422,7 +1422,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400 block mb-1">Constant Acceleration a = dv/dt</label>
-                      <div className="flex justify-between text-sm font-mono text-indigo-300 font-bold mb-1">
+                      <div className="flex justify-between text-sm font-mono text-gold-300 font-bold mb-1">
                         <span>{simAccel} m/s²</span>
                       </div>
                       <input
@@ -1432,13 +1432,13 @@ export function C11_PhysicsSystemsUnitscgsSim({
                         step={0.5}
                         value={simAccel}
                         onChange={(e) => setSimAccel(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <label className="text-xs text-slate-400 block mb-1">Initial Velocity u = v(0)</label>
-                      <div className="flex justify-between text-sm font-mono text-sky-300 font-bold mb-1">
+                      <div className="flex justify-between text-sm font-mono text-gold-300 font-bold mb-1">
                         <span>{simInitVel} m/s</span>
                       </div>
                       <input
@@ -1448,7 +1448,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                         step={1}
                         value={simInitVel}
                         onChange={(e) => setSimInitVel(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1538,7 +1538,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                         onClick={() => setGravMode('projectile')}
                         className={`flex-1 py-2 text-xs font-bold rounded-xl border ${
                           gravMode === 'projectile'
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1549,7 +1549,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                         onClick={() => setGravMode('drop')}
                         className={`flex-1 py-2 text-xs font-bold rounded-xl border ${
                           gravMode === 'drop'
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1561,7 +1561,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Initial Launch Velocity u:</span>
-                          <span className="font-mono text-indigo-300 font-bold">{gravU} m/s</span>
+                          <span className="font-mono text-gold-300 font-bold">{gravU} m/s</span>
                         </div>
                         <input
                           type="range"
@@ -1570,14 +1570,14 @@ export function C11_PhysicsSystemsUnitscgsSim({
                           step={4.9}
                           value={gravU}
                           onChange={(e) => setGravU(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     ) : (
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Drop Height H:</span>
-                          <span className="font-mono text-sky-300 font-bold">{gravH} m</span>
+                          <span className="font-mono text-gold-300 font-bold">{gravH} m</span>
                         </div>
                         <input
                           type="range"
@@ -1586,7 +1586,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                           step={5}
                           value={gravH}
                           onChange={(e) => setGravH(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     )}
@@ -1649,7 +1649,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                         onClick={() => setDimFormulaSelected(eq)}
                         className={`px-4 py-2 text-xs font-mono font-bold rounded-xl border ${
                           dimFormulaSelected === eq
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1662,7 +1662,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                     {dimFormulaSelected === 'v2=u2+2as' && (
                       <div className="space-y-2">
                         <div className="text-slate-300 font-bold">Checking Homogeneity of v² = u² + 2as:</div>
-                        <div className="p-2.5 bg-slate-950 rounded-lg text-sky-400">
+                        <div className="p-2.5 bg-slate-950 rounded-lg text-gold-400">
                           [LHS] [v²] = ([L T⁻¹])² = <strong className="text-white">[L² T⁻²]</strong>
                         </div>
                         <div className="p-2.5 bg-slate-950 rounded-lg text-pink-400">
@@ -1680,7 +1680,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                     {dimFormulaSelected === 'F=ma' && (
                       <div className="space-y-2">
                         <div className="text-slate-300 font-bold">Checking Homogeneity of F = ma:</div>
-                        <div className="p-2.5 bg-slate-950 rounded-lg text-sky-400">
+                        <div className="p-2.5 bg-slate-950 rounded-lg text-gold-400">
                           [LHS] Force [F] = <strong className="text-white">[M L T⁻²]</strong> (Newton: kg·m·s⁻²)
                         </div>
                         <div className="p-2.5 bg-slate-950 rounded-lg text-emerald-400">
@@ -1695,7 +1695,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                     {dimFormulaSelected === 'E=mc2' && (
                       <div className="space-y-2">
                         <div className="text-slate-300 font-bold">Checking Homogeneity of E = mc²:</div>
-                        <div className="p-2.5 bg-slate-950 rounded-lg text-sky-400">
+                        <div className="p-2.5 bg-slate-950 rounded-lg text-gold-400">
                           [LHS] Energy [E] = <strong className="text-white">[M L² T⁻²]</strong> (Joule: kg·m²·s⁻²)
                         </div>
                         <div className="p-2.5 bg-slate-950 rounded-lg text-emerald-400">
@@ -1716,7 +1716,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>SI Prefix Scale Power of 10ⁿ:</span>
-                      <span className="font-mono text-indigo-300 font-bold">10^{prefixExponent}</span>
+                      <span className="font-mono text-gold-300 font-bold">10^{prefixExponent}</span>
                     </div>
                     <input
                       type="range"
@@ -1725,14 +1725,14 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       step={3}
                       value={prefixExponent}
                       onChange={(e) => setPrefixExponent(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                       <span className="text-[11px] text-slate-400 block">Prefix Name</span>
-                      <span className="text-base font-bold text-indigo-300">
+                      <span className="text-base font-bold text-gold-300">
                         {prefixExponent === -15
                           ? 'Femto (f)'
                           : prefixExponent === -12
@@ -1762,7 +1762,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                       <span className="text-[11px] text-slate-400 block">1 Newton in Dynes</span>
-                      <span className="text-sm font-mono text-sky-300 font-bold">10⁵ dynes</span>
+                      <span className="text-sm font-mono text-gold-300 font-bold">10⁵ dynes</span>
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
@@ -1795,7 +1795,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       ))}
                     </div>
                   ) : (
-                    <div className="p-2.5 bg-indigo-950/40 border border-indigo-700 rounded-lg text-xs text-indigo-300">
+                    <div className="p-2.5 bg-gold-950/40 border border-gold-700 rounded-lg text-xs text-gold-300">
                       Prediction saved! {PREDICTION_QUESTIONS[0].verifyInstruction}
                     </div>
                   )}
@@ -1805,7 +1805,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
               {/* Observation Question Container */}
               {currentSlide === 0 && (
                 <div className="mt-4 p-4 bg-slate-950/70 rounded-xl border border-slate-800 space-y-3">
-                  <span className="text-xs font-bold text-sky-400 block">🔍 What Do You Notice? (Observation)</span>
+                  <span className="text-xs font-bold text-gold-400 block">🔍 What Do You Notice? (Observation)</span>
                   <p className="text-xs md:text-sm text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="space-y-2">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1846,7 +1846,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-semibold shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-semibold shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1888,7 +1888,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Vector Free Sandbox */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-sky-400 uppercase tracking-wider">Dual Thruster Vector Resultant</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Dual Thruster Vector Resultant</h4>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Thruster P: {vecP} N</span>
@@ -1900,7 +1900,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   max={50}
                   value={vecP}
                   onChange={(e) => setVecP(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
                 <input
                   type="range"
@@ -1927,7 +1927,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
 
             {/* Descent Module Kinematics */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Descent Velocity & Odometer</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Descent Velocity & Odometer</h4>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Braking Decel: {simAccel} m/s²</span>
@@ -1940,7 +1940,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   step={0.5}
                   value={simAccel}
                   onChange={(e) => setSimAccel(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Scrub Time: {simTime} s</span>
@@ -1972,19 +1972,19 @@ export function C11_PhysicsSystemsUnitscgsSim({
             <span className="font-semibold text-slate-200">
               Flight Certification Challenge {currentChallenge + 1} of {filteredChallenges.length}
             </span>
-            <span className="font-mono text-indigo-400">Competency: {challenge.competencyLevel.toUpperCase()}</span>
+            <span className="font-mono text-gold-400">Competency: {challenge.competencyLevel.toUpperCase()}</span>
           </div>
 
           {/* Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -1998,7 +1998,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                 : 'bg-slate-900 border-slate-800 text-slate-100'
             }`}
           >
-            <div className="inline-block px-2.5 py-0.5 rounded-full bg-slate-800 text-indigo-300 text-[11px] font-mono mb-2 border border-slate-700">
+            <div className="inline-block px-2.5 py-0.5 rounded-full bg-slate-800 text-gold-300 text-[11px] font-mono mb-2 border border-slate-700">
               Target Node: {challenge.nodeId}
             </div>
             <h3 className="text-sm md:text-base font-semibold leading-relaxed mb-4 text-white">{challenge.question}</h3>
@@ -2020,11 +2020,11 @@ export function C11_PhysicsSystemsUnitscgsSim({
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : showExplanation && i !== challenge.correctIndex
                           ? 'bg-slate-950/40 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/90 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/90 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-6 h-6 rounded-lg bg-slate-700 text-indigo-300 font-mono text-xs flex items-center justify-center font-bold">
+                        <span className="w-6 h-6 rounded-lg bg-slate-700 text-gold-300 font-mono text-xs flex items-center justify-center font-bold">
                           {String.fromCharCode(65 + i)}
                         </span>
                         <span>{opt}</span>
@@ -2046,7 +2046,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-mono cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-mono cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2083,7 +2083,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -2111,7 +2111,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 flex items-center justify-between cursor-grab"
                     >
                       <div className="flex items-center gap-2.5">
-                        <span className="w-5 h-5 rounded-full bg-slate-700 text-indigo-300 font-mono flex items-center justify-center font-bold">
+                        <span className="w-5 h-5 rounded-full bg-slate-700 text-gold-300 font-mono flex items-center justify-center font-bold">
                           {i + 1}
                         </span>
                         <span>{item}</span>
@@ -2140,7 +2140,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(sortArrangement)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Derivation Flow →
                 </motion.button>
@@ -2158,7 +2158,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     disabled={showExplanation}
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-indigo-500 w-48"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs font-mono text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2166,7 +2166,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md disabled:opacity-40"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md disabled:opacity-40"
                   >
                     Submit Telemetry →
                   </motion.button>
@@ -2186,7 +2186,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       disabled={showExplanation}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 text-xs font-mono rounded-lg border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 text-xs font-mono rounded-lg border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2195,7 +2195,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900/60 text-indigo-200 border border-indigo-700 rounded-md text-xs font-mono flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900/60 text-gold-200 border border-gold-700 rounded-md text-xs font-mono flex items-center gap-1.5">
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2213,7 +2213,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md disabled:opacity-40"
                 >
                   Verify Assembly →
                 </motion.button>
@@ -2282,7 +2282,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[11px] text-slate-400 block">Mastery Level</span>
-                <span className="text-sm font-bold text-sky-400 uppercase font-mono">{masteryLevel}</span>
+                <span className="text-sm font-bold text-gold-400 uppercase font-mono">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[11px] text-slate-400 block">Errors Caught</span>
@@ -2290,7 +2290,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[11px] text-slate-400 block">Review Due In</span>
-                <span className="text-sm font-bold text-indigo-300 font-mono">
+                <span className="text-sm font-bold text-gold-300 font-mono">
                   {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
                 </span>
               </div>
@@ -2321,7 +2321,7 @@ export function C11_PhysicsSystemsUnitscgsSim({
 
           {/* Reflection Section */}
           <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
-            <h4 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🤔 Reflection & Consolidation</span>
             </h4>
             <div className="space-y-3">
@@ -2360,22 +2360,22 @@ export function C11_PhysicsSystemsUnitscgsSim({
           )}
 
           {/* Spaced Repetition Visibility Banner */}
-          <div className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-800/80 text-xs space-y-1.5">
-            <span className="text-indigo-300 font-bold block">SM-2 Spaced Repetition Schedule:</span>
+          <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800/80 text-xs space-y-1.5">
+            <span className="text-gold-300 font-bold block">SM-2 Spaced Repetition Schedule:</span>
             <p className="text-slate-300">
               Based on your response latency and accuracy, this ISC Class 11 physics cluster is scheduled for automatic spaced review in{' '}
-              <strong className="text-indigo-200 font-mono">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
+              <strong className="text-gold-200 font-mono">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
             </p>
           </div>
 
           {/* Real World Activity Capstone */}
           <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-3">
-            <h4 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h4>
+            <h4 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 font-mono">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

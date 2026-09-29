@@ -1031,7 +1031,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50"
             role="img"
             aria-label="calculator math"
           >
@@ -1053,7 +1053,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700/60'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700/60'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700/60'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700/60'
             }`}
           >
             Tier: {difficulty}
@@ -1063,7 +1063,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
             whileHover={{ scale: 1.05 }}
             className="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-xl text-xs font-semibold text-slate-300"
           >
-            Mastery: <span className="text-indigo-400 capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-400 capitalize">{masteryLevel}</span>
           </motion.div>
         </div>
       </motion.header>
@@ -1074,12 +1074,12 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 relative overflow-hidden"
+            className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 relative overflow-hidden"
           >
-            <div className="absolute top-0 right-0 p-8 opacity-10 text-8xl font-black text-indigo-400 select-none">∫dy/dx</div>
-            <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+            <div className="absolute top-0 right-0 p-8 opacity-10 text-8xl font-black text-gold-400 select-none">∫dy/dx</div>
+            <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed max-w-3xl">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/90 mt-3 font-semibold tracking-wide uppercase">Context: {SCENARIO.context}</p>
+            <p className="text-xs text-gold-400/90 mt-3 font-semibold tracking-wide uppercase">Context: {SCENARIO.context}</p>
           </motion.div>
 
           <motion.div
@@ -1107,11 +1107,11 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-700 border-slate-700/70 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-700 border-slate-700/70 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div>
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </div>
                   {discoveryAnswered && (
@@ -1142,7 +1142,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2 text-sm"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                   >
                     Enter Interactive Lab Suite →
                   </motion.button>
@@ -1174,7 +1174,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     audioManager.play('tap');
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${
-                    currentSlide === idx ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                    currentSlide === idx ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
                   }`}
                 >
                   {step.title.split(':')[0]}
@@ -1198,7 +1198,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-lg md:text-xl font-black text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg md:text-xl font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs md:text-sm text-amber-400 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1216,7 +1216,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       audioManager.play('tap');
                     }}
                     className={`px-3 py-1 rounded-lg text-xs font-bold capitalize transition-all ${
-                      representationMode === mode ? 'bg-indigo-950 text-indigo-300 border border-indigo-700' : 'text-slate-400 hover:bg-slate-800'
+                      representationMode === mode ? 'bg-gold-950 text-gold-300 border border-gold-700' : 'text-slate-400 hover:bg-slate-800'
                     }`}
                   >
                     {mode}
@@ -1231,7 +1231,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Fixed Cost (FC):</span>
-                        <span className="font-bold text-indigo-400">₹{fixedCost}</span>
+                        <span className="font-bold text-gold-400">₹{fixedCost}</span>
                       </div>
                       <input
                         aria-label="Fixed Cost Slider"
@@ -1244,14 +1244,14 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           setFixedCost(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Quadratic Coeff (a):</span>
-                        <span className="font-bold text-indigo-400">{quadCostCoeff}</span>
+                        <span className="font-bold text-gold-400">{quadCostCoeff}</span>
                       </div>
                       <input
                         aria-label="Quadratic Coefficient Slider"
@@ -1264,14 +1264,14 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           setQuadCostCoeff(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Linear Coeff (b):</span>
-                        <span className="font-bold text-indigo-400">{linearCostCoeff}</span>
+                        <span className="font-bold text-gold-400">{linearCostCoeff}</span>
                       </div>
                       <input
                         aria-label="Linear Coefficient Slider"
@@ -1284,7 +1284,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           setLinearCostCoeff(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1345,9 +1345,9 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
 
                   {representationMode === 'algebra' && (
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3 font-mono text-xs md:text-sm text-slate-300">
-                      <p className="text-indigo-400 font-bold">1. Total Cost Function: C(q) = {quadCostCoeff}q² + {linearCostCoeff}q + {fixedCost}</p>
+                      <p className="text-gold-400 font-bold">1. Total Cost Function: C(q) = {quadCostCoeff}q² + {linearCostCoeff}q + {fixedCost}</p>
                       <p className="text-rose-400">2. Marginal Cost: MC(q) = dC/dq = {2 * quadCostCoeff}q + {linearCostCoeff}</p>
-                      <p className="text-sky-400">3. Average Cost: AC(q) = C(q)/q = {quadCostCoeff}q + {linearCostCoeff} + {fixedCost}/q</p>
+                      <p className="text-gold-400">3. Average Cost: AC(q) = C(q)/q = {quadCostCoeff}q + {linearCostCoeff} + {fixedCost}/q</p>
                       <p className="text-emerald-400 font-bold">
                         4. Minimum AC Condition (MC = AC): {2 * quadCostCoeff}q + {linearCostCoeff} = {quadCostCoeff}q + {linearCostCoeff} + {fixedCost}/q ⇒ {quadCostCoeff}q = {fixedCost}/q ⇒ q = √({fixedCost}/{quadCostCoeff}) = {minAC_Q.toFixed(2)} units.
                       </p>
@@ -1388,10 +1388,10 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                   )}
 
                   {/* Predict-Then-Check Box */}
-                  <motion.div initial={{ scale: 0.98 }} animate={{ scale: 1 }} className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
+                  <motion.div initial={{ scale: 0.98 }} animate={{ scale: 1 }} className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
                     <div className="flex items-center gap-2">
                       <span className="text-amber-400 text-sm" aria-hidden="true">🎯</span>
-                      <h4 className="text-xs md:text-sm font-bold text-indigo-300">Predict-Then-Check:</h4>
+                      <h4 className="text-xs md:text-sm font-bold text-gold-300">Predict-Then-Check:</h4>
                     </div>
                     {!predictionMade ? (
                       <div className="space-y-2">
@@ -1404,7 +1404,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                               whileHover={{ scale: 1.03 }}
                               whileTap={{ scale: 0.97 }}
                               onClick={() => handlePrediction(i)}
-                              className="p-2.5 bg-slate-900 hover:bg-slate-800 text-left rounded-xl text-xs text-slate-300 border border-slate-800 hover:border-indigo-500 transition-all"
+                              className="p-2.5 bg-slate-900 hover:bg-slate-800 text-left rounded-xl text-xs text-slate-300 border border-slate-800 hover:border-gold-500 transition-all"
                             >
                               {opt}
                             </motion.button>
@@ -1443,7 +1443,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           setDemandIntercept(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer mb-2"
+                        className="w-full accent-gold-500 cursor-pointer mb-2"
                       />
                       <input
                         aria-label="Demand Slope Slider"
@@ -1456,7 +1456,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           setDemandSlope(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1530,9 +1530,9 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     </svg>
 
                     <div className="grid grid-cols-2 gap-3 mt-3 pt-3 border-t border-slate-800 text-xs">
-                      <motion.div whileHover={{ scale: 1.02 }} className="p-2.5 bg-indigo-950/50 rounded-xl border border-indigo-800">
-                        <span className="font-bold text-indigo-400 block mb-1">Consumer Surplus (CS):</span>
-                        <span className="text-lg font-black text-indigo-300">₹{marketEquilibrium.cs}</span>
+                      <motion.div whileHover={{ scale: 1.02 }} className="p-2.5 bg-gold-950/50 rounded-xl border border-gold-800">
+                        <span className="font-bold text-gold-400 block mb-1">Consumer Surplus (CS):</span>
+                        <span className="text-lg font-black text-gold-300">₹{marketEquilibrium.cs}</span>
                         <p className="text-slate-400 mt-1">∫₀^{marketEquilibrium.q0} [D(q) - {marketEquilibrium.p0}] dq</p>
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-2.5 bg-emerald-950/50 rounded-xl border border-emerald-800">
@@ -1567,7 +1567,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                             setDiffInitialY(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="accent-indigo-500 cursor-pointer"
+                          className="accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
@@ -1639,7 +1639,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           audioManager.play('tap');
                         }}
                         className={`p-4 rounded-2xl text-left border transition-all ${
-                          selectedIFType === item.id ? 'bg-indigo-950/80 border-indigo-500 shadow-md' : 'bg-slate-950 border-slate-800 hover:bg-slate-900'
+                          selectedIFType === item.id ? 'bg-gold-950/80 border-gold-500 shadow-md' : 'bg-slate-950 border-slate-800 hover:bg-slate-900'
                         }`}
                       >
                         <h4 className="font-bold text-white text-sm mb-1">{item.label}</h4>
@@ -1649,7 +1649,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                   </div>
 
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-6 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
-                    <h4 className="text-sm font-bold text-indigo-400">Step-by-Step Exact Derivative Collapse:</h4>
+                    <h4 className="text-sm font-bold text-gold-400">Step-by-Step Exact Derivative Collapse:</h4>
                     <div className="space-y-3 font-mono text-xs md:text-sm">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">Step 1 (Integrating Factor):</span>{' '}
@@ -1659,7 +1659,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400">Step 2 (Exact Product Derivative):</span>{' '}
-                        <span className="text-sky-400 font-bold">
+                        <span className="text-gold-400 font-bold">
                           {selectedIFType === 'inv_x' ? 'd/dx[x · y] = x³' : selectedIFType === 'const' ? 'd/dx[y · e^(2x)] = e^(3x)' : 'd/dx[y · e^(x²)] = x e^(x²)'}
                         </span>
                       </div>
@@ -1694,7 +1694,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                           setPriorPlant1(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1746,14 +1746,14 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                         <div>
                           <div className="flex justify-between text-xs mb-1">
                             <span>Plant 1 (Prior: {priorPlant1}%)</span>
-                            <span className="font-bold text-indigo-400">Posterior: {bayesCalculations.postP1Percent}%</span>
+                            <span className="font-bold text-gold-400">Posterior: {bayesCalculations.postP1Percent}%</span>
                           </div>
                           <div className="h-3 bg-slate-900 rounded-full overflow-hidden flex">
-                            <div style={{ width: `${priorPlant1}%` }} className="bg-indigo-600/40 h-full" />
+                            <div style={{ width: `${priorPlant1}%` }} className="bg-gold-600/40 h-full" />
                             <div style={{ width: `${100 - priorPlant1}%` }} className="bg-slate-800 h-full" />
                           </div>
                           <div className="h-3 bg-slate-900 rounded-full overflow-hidden flex mt-1">
-                            <div style={{ width: `${bayesCalculations.postP1Percent}%` }} className="bg-indigo-500 h-full transition-all duration-300" />
+                            <div style={{ width: `${bayesCalculations.postP1Percent}%` }} className="bg-gold-500 h-full transition-all duration-300" />
                             <div style={{ width: `${bayesCalculations.postP2Percent}%` }} className="bg-rose-500 h-full transition-all duration-300" />
                           </div>
                         </div>
@@ -1761,9 +1761,9 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       <p className="text-xs text-slate-400">Total Defect Probability P(D) = {bayesCalculations.totalDefectPercent}%</p>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex flex-col justify-between">
+                    <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex flex-col justify-between">
                       <div>
-                        <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300 mb-2">Bayes\' Inversion Law</h4>
+                        <h4 className="text-xs font-bold uppercase tracking-wider text-gold-300 mb-2">Bayes\' Inversion Law</h4>
                         <p className="text-xs text-slate-300 font-mono">
                           P(Plant 1 | Defective) = [P(Plant 1) · P(D|Plant 1)] / P(Defective)
                         </p>
@@ -1804,7 +1804,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs md:text-sm font-bold"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs md:text-sm font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1845,7 +1845,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-xs font-bold text-indigo-400 uppercase">Interactive Cost Vertex:</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">Interactive Cost Vertex:</h4>
                 <div className="flex gap-4">
                   <div className="flex-1">
                     <span className="text-xs text-slate-400">Fixed Cost: ₹{fixedCost}</span>
@@ -1856,7 +1856,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       max={200}
                       value={fixedCost}
                       onChange={(e) => setFixedCost(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="flex-1">
@@ -1875,7 +1875,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                   </div>
                   <div>
                     <span className="text-xs text-slate-400">Total Welfare:</span>
-                    <p className="text-lg font-bold text-indigo-400">₹{(marketEquilibrium.cs + marketEquilibrium.ps).toFixed(1)}</p>
+                    <p className="text-lg font-bold text-gold-400">₹{(marketEquilibrium.cs + marketEquilibrium.ps).toFixed(1)}</p>
                   </div>
                 </div>
               </motion.div>
@@ -1895,11 +1895,11 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
               <span className="text-slate-400 font-semibold">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-bold capitalize">NEP 2020: {activeChallenge.competencyLevel}</span>
+              <span className="text-gold-400 font-bold capitalize">NEP 2020: {activeChallenge.competencyLevel}</span>
             </div>
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1939,11 +1939,11 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                             : isSelectedAndWrong
                             ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                            : 'bg-slate-950/80 hover:bg-slate-800 border-slate-800 text-slate-200 hover:border-indigo-500'
+                            : 'bg-slate-950/80 hover:bg-slate-800 border-slate-800 text-slate-200 hover:border-gold-500'
                         }`}
                       >
                         <div>
-                          <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                          <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                           {opt}
                         </div>
                         {(showExplanation || answerRevealed) && (
@@ -1971,7 +1971,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 rounded-xl text-xs font-mono font-bold cursor-grab border border-indigo-700"
+                      className="px-3 py-2 bg-gold-900/80 hover:bg-gold-800 text-gold-200 rounded-xl text-xs font-mono font-bold cursor-grab border border-gold-700"
                     >
                       {item.label}
                     </motion.div>
@@ -2000,7 +2000,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                   whileTap={{ scale: 0.95 }}
                   disabled={showExplanation || answerRevealed}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Solution Flow
                 </motion.button>
@@ -2032,7 +2032,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs md:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-1 bg-indigo-950 text-indigo-400 rounded-lg font-bold">{displayIdx + 1}</span>
+                      <span className="px-2 py-1 bg-gold-950 text-gold-400 rounded-lg font-bold">{displayIdx + 1}</span>
                       {item}
                     </motion.div>
                   ))}
@@ -2047,7 +2047,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     const ans = sortArrangement.length > 0 ? sortArrangement : activeChallenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(ans);
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Ordering
                 </motion.button>
@@ -2065,7 +2065,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-indigo-500 w-64"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2074,7 +2074,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     whileTap={{ scale: 0.95 }}
                     disabled={showExplanation || answerRevealed || !numericInput}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Answer
                   </motion.button>
@@ -2094,7 +2094,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-2 bg-indigo-950/80 border border-indigo-700 hover:bg-indigo-800 text-indigo-300 rounded-xl text-xs font-bold"
+                      className="px-3 py-2 bg-gold-950/80 border border-gold-700 hover:bg-gold-800 text-gold-300 rounded-xl text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2107,7 +2107,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900 text-white rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900 text-white rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       {part}
                       <motion.button
@@ -2130,7 +2130,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                   whileTap={{ scale: 0.95 }}
                   disabled={showExplanation || answerRevealed || constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Formulation
                 </motion.button>
@@ -2139,9 +2139,9 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
 
             {/* ─── PROGRESSIVE DISCLOSURE EXPLANATION ─── */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800 rounded-2xl space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-gold-950/40 border border-gold-800 rounded-2xl space-y-3">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300">Analytical Solution Walkthrough</h4>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-gold-300">Analytical Solution Walkthrough</h4>
                   <span className="text-xs text-slate-400">Step {revealedSteps + 1} of {activeChallenge.explanation.split('. ').filter((s) => s.trim().length > 0).length}</span>
                 </div>
 
@@ -2151,7 +2151,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                     .filter((s) => s.trim().length > 0)
                     .slice(0, revealedSteps + 1)
                     .map((sentence, i) => (
-                      <motion.p key={i} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-indigo-100 leading-relaxed font-sans">
+                      <motion.p key={i} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-gold-100 leading-relaxed font-sans">
                         <span className="font-bold text-amber-400 mr-1.5">{i + 1}.</span>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
@@ -2169,7 +2169,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
                         setRevealedSteps((s) => s + 1);
                         audioManager.play('tap');
                       }}
-                      className="px-4 py-2 bg-indigo-800/80 hover:bg-indigo-700 text-indigo-200 rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-800/80 hover:bg-gold-700 text-gold-200 rounded-xl text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2201,18 +2201,18 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
           <motion.div
             initial={{ y: -10 }}
             animate={{ y: 0 }}
-            className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-4"
+            className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-4"
           >
             <h2 className="text-2xl md:text-3xl font-black text-white">Applied Calculus & Bayesian Mastery Complete!</h2>
             <p className="text-sm text-slate-300">
-              Assessment Score: <span className="text-emerald-400 font-bold text-xl">{Math.max(0, 100 - errors * 5)}%</span> • Mastery Tier: <span className="text-indigo-400 font-bold capitalize">{masteryLevel}</span>
+              Assessment Score: <span className="text-emerald-400 font-bold text-xl">{Math.max(0, 100 - errors * 5)}%</span> • Mastery Tier: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
             </p>
 
             {/* Motivational Feedback */}
             <motion.div
               initial={{ scale: 0.95 }}
               animate={{ scale: 1 }}
-              className="p-4 bg-indigo-950/70 border border-indigo-600 rounded-2xl text-xs md:text-sm text-indigo-200 font-bold flex items-center justify-center gap-2"
+              className="p-4 bg-gold-950/70 border border-gold-600 rounded-2xl text-xs md:text-sm text-gold-200 font-bold flex items-center justify-center gap-2"
             >
               <span className="text-lg">🎉</span>
               <span>{motivationalMessage}</span>
@@ -2223,7 +2223,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-slate-900 rounded-3xl border border-indigo-500/40 bg-gradient-to-br from-indigo-950/40 via-slate-900 to-slate-900 space-y-4 shadow-xl"
+            className="p-6 bg-slate-900 rounded-3xl border border-gold-500/40 bg-gradient-to-br from-gold-950/40 via-slate-900 to-slate-900 space-y-4 shadow-xl"
           >
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-3">
               <div className="flex items-center gap-2">
@@ -2236,7 +2236,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
 
               <div className="flex items-center gap-2">
                 <span className="text-xs text-slate-400">Performance:</span>
-                <span className="px-2.5 py-1 bg-slate-800 rounded-lg text-xs font-mono font-bold text-indigo-300">
+                <span className="px-2.5 py-1 bg-slate-800 rounded-lg text-xs font-mono font-bold text-gold-300">
                   {errors} {errors === 1 ? 'error' : 'errors'}
                 </span>
               </div>
@@ -2258,12 +2258,12 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
 
               <div className={`p-4 rounded-2xl border flex flex-col justify-between transition-all ${
                 errors >= 1 && errors <= 3
-                  ? 'bg-indigo-950/70 border-indigo-500 shadow-lg shadow-indigo-950/50'
+                  ? 'bg-gold-950/70 border-gold-500 shadow-lg shadow-gold-950/50'
                   : 'bg-slate-950/60 border-slate-800 opacity-50'
               }`}>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">1–3 Errors (Review)</span>
-                  {errors >= 1 && errors <= 3 && <span className="text-xs bg-indigo-500 text-white font-black px-1.5 py-0.5 rounded">ACTIVE</span>}
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">1–3 Errors (Review)</span>
+                  {errors >= 1 && errors <= 3 && <span className="text-xs bg-gold-500 text-white font-black px-1.5 py-0.5 rounded">ACTIVE</span>}
                 </div>
                 <div className="text-xl md:text-2xl font-black text-white">Review in 3 days</div>
                 <p className="text-[11px] text-slate-400 mt-1">Medium-term retention reinforcement</p>
@@ -2286,7 +2286,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
             <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 flex items-center justify-between text-xs">
               <span className="text-slate-300">
                 🎯 Target Next Review:{' '}
-                <strong className="text-indigo-400 font-bold">
+                <strong className="text-gold-400 font-bold">
                   {errors === 0
                     ? 'Review in 7 days'
                     : errors <= 3
@@ -2309,7 +2309,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 text-xs">
-                <span className="font-bold text-indigo-400 block">Surprise Point:</span>
+                <span className="font-bold text-gold-400 block">Surprise Point:</span>
                 <p className="text-slate-300">What was the most surprising thing you learned about how MC cuts AC at minimum, or how Bayes updates probability?</p>
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 text-xs">
@@ -2360,7 +2360,7 @@ function C12_AppliedMathsApplicationCalculusSketchingSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <motion.div key={idx} whileHover={{ scale: 1.01 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="text-indigo-400 font-bold mr-1.5">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold mr-1.5">{idx + 1}.</span>
                   {step}
                 </motion.div>
               ))}

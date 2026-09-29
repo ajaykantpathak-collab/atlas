@@ -11,7 +11,7 @@ export const w_c11_homescienceunderstandingfamilycommunitysocietysim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Family as a Central Social Unit and Context for Individual Development',
     chapters: [],
     nodeIds: ['c11_hs_cbse_01_004', 'c11_hs_cbse_01_005', 'c11_hs_cbse_01_007', 'c11_hs_cbse_01_011', 'c11_hs_cbse_01_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a 16-year-old student, Rohan, who excels in science but struggles with anxiety before board exams.', goal: 'Master Home Science Understanding Family Community..' },
     discovery: {
         question: 'The NCERT text states Home Science was "not intended to be a subject only about the \'home\'." Explain in your own words what the *original* interdisciplinary.',
@@ -20,7 +20,7 @@ export const w_c11_homescienceunderstandingfamilycommunitysocietysim: SimDef = {
         hook: 'Students often believe Home Science was *originally* designed as a "housewife training" subject for girls, and the.',
     },
     teaching: [
-        { title: 'Family is the primary social institution.', text: 'Family is the primary social institution that provides the immediate ecological context for human development, characterized by enduring emotional bonds, shared resources, intergenerational care, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Family is the primary social institution.', text: 'Family is the primary social institution that provides the immediate ecological context for human development, characterized by enduring emotional bonds, shared resources, intergenerational care, and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hs_cbse_01_004', title: 'Family is the primary social.',

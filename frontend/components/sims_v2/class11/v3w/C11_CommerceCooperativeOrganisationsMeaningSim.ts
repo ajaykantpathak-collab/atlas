@@ -11,7 +11,7 @@ export const w_c11_commercecooperativeorganisationsmeaningsim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Private Sector and Public Sector: Meaning and Distinction',
     chapters: [],
     nodeIds: ['c11_bs_cbse_03_001', 'c11_bs_cbse_10_001', 'c11_bs_cbse_03_009', 'c11_bs_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are reading a news headline: "Government to sell 51% stake in BPCL to private players." You.', goal: 'Master Private Sector and Public Sector: Meaning and Distinction.' },
     discovery: {
         question: 'A farmer in Punjab sells wheat to a flour mill in Punjab. The flour mill sells flour to a wholesaler in Delhi. The wholesaler sells to a retailer in Mumbai.',
@@ -20,7 +20,7 @@ export const w_c11_commercecooperativeorganisationsmeaningsim: SimDef = {
         hook: 'Students believe "internal trade = local trade within a city/state" and "external trade = trade between states." They.',
     },
     teaching: [
-        { title: 'The private sector comprises business.', text: 'The private sector comprises business enterprises owned, controlled, and managed by private individuals or groups (sole proprietorship, partnership, Joint Hindu Family, cooperative, company) with the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The private sector comprises business.', text: 'The private sector comprises business enterprises owned, controlled, and managed by private individuals or groups (sole proprietorship, partnership, Joint Hindu Family, cooperative, company) with the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_03_001', title: 'The private sector comprises business.',

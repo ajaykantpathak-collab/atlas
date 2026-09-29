@@ -11,7 +11,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Composition of Urine',
     chapters: [],
     nodeIds: ['c11_bio_cbse_16_006', 'c11_bio_cbse_07_009', 'c11_bio_cbse_16_003', 'c11_bio_cbse_16_007', 'c11_bio_cbse_16_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a routine urinalysis report from a local pathology lab — notice how a simple "dipstick test" reveals.', goal: 'Master Composition of Urine.' },
     discovery: {
         question: 'An APPLY level question: A patient\'s 24-hour urine shows: volume 1.2 L, urea 18 g, creatinine 0.8 g, glucose 45 g, ketones positive.',
@@ -20,7 +20,7 @@ export const w_c11_biologyexcretionnitrogenouswastessim: SimDef = {
         hook: 'Students believe that "urine composition is fixed" — i.e., the kidney produces urine of constant composition regardless.',
     },
     teaching: [
-        { title: 'Urine composition refers to the quantitative.', text: 'Urine composition refers to the quantitative and qualitative profile of dissolved solutes (primarily nitrogenous wastes like urea, uric acid, creatinine; electrolytes like Na⁺, K⁺, Cl⁻, HCO₃⁻,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Urine composition refers to the quantitative.', text: 'Urine composition refers to the quantitative and qualitative profile of dissolved solutes (primarily nitrogenous wastes like urea, uric acid, creatinine; electrolytes like Na⁺, K⁺, Cl⁻, HCO₃⁻,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_16_006', title: 'Urine composition refers to the.',

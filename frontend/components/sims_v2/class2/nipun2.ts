@@ -7,7 +7,7 @@ export const c2Solar: SimDef = {
     id: 'c2_solar', title: 'Sun, Moon and Stars', subtitle: 'Our neighbours in the sky!',
     classLevel: 2, subject: 'evs', topic: 'Solar System Basics',
     chapters: ['EVS-2: sun, moon, stars'],
-    emoji: '🌞', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'sky' },
+    emoji: '🌞', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'sky' },
     scenario: { role: "a little astronaut", intro: 'Look up! The sun, moon and stars are our sky-friends. Learn what each does!', goal: 'Know every sky friend.' },
     discovery: {
         question: "Which is a star — the Sun or the Moon?",
@@ -18,8 +18,8 @@ export const c2Solar: SimDef = {
     teaching: [
         { title: 'The Sun is a Star ⭐', text: 'The Sun is a giant ball of fire — a STAR! It makes its own light and heat. All stars twinkle far away — the sun is just very close!', emoji: '⭐', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'The Moon Borrows Light 🌙', text: 'The moon has NO light of its own — it bounces sunlight back to us like a mirror!', emoji: '🌙', bgColor: 'from-slate-400 to-gray-500' },
-        { title: 'Earth is a Planet 🌍', text: 'We live on planet Earth — it goes around the sun. Eight planets circle the sun!', emoji: '🌍', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Day and Night 🌗', text: 'Earth spins like a top! When our side faces the sun = day. When it turns away = night!', emoji: '🌗', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Earth is a Planet 🌍', text: 'We live on planet Earth — it goes around the sun. Eight planets circle the sun!', emoji: '🌍', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Day and Night 🌗', text: 'Earth spins like a top! When our side faces the sun = day. When it turns away = night!', emoji: '🌗', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: 'orbit', prompt: 'Speed the planet around the sun — watch it orbit!' },
     challenges: [

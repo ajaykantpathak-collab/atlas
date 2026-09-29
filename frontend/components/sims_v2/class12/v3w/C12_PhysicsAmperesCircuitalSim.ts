@@ -11,7 +11,7 @@ export const w_c12_physicsamperescircuitalsim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Electric Current: Definition and Direction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_03_001', 'c12_phy_cbse_06_007', 'c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_004', 'c12_phy_cbse_06_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a mobile phone charging: the battery icon shows a lightning bolt, indicating charge flow.', goal: 'Master Electric Current: Definition and Direction.' },
     discovery: {
         question: 'A student writes: "Current I = 5 C flowing through a wire." Identify the error and state the correct quantity with its unit.',
@@ -20,7 +20,7 @@ export const w_c12_physicsamperescircuitalsim: SimDef = {
         hook: 'Students think "current is a vector because it has direction (arrow in circuit diagrams)." They incorrectly apply.',
     },
     teaching: [
-        { title: 'Electric current is the rate of flow of net.', text: 'Electric current is the rate of flow of net charge across a cross-sectional area of a conductor. In SI units, it is measured in amperes (A), where 1 A = 1 C/s.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Electric current is the rate of flow of net.', text: 'Electric current is the rate of flow of net charge across a cross-sectional area of a conductor. In SI units, it is measured in amperes (A), where 1 A = 1 C/s.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_03_001', title: 'Electric current is the rate of flow of.',

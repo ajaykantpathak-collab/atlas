@@ -9,7 +9,7 @@ export const c2Seasons: SimDef = {
     id: 'c2_seasons', title: 'Seasons and Weather', subtitle: 'Hot, cold, rainy!',
     classLevel: 2, subject: 'evs', topic: 'Seasons',
     chapters: ['World Around Us: Seasons'],
-    emoji: '🌦️', theme: { bg: 'from-sky-100 to-cyan-200', accent: 'sky', scene: 'seasons' },
+    emoji: '🌦️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'seasons' },
     scenario: { role: "a weather-watcher", intro: "Seasons change weather, food, and clothes!", goal: "Match seasons to their signs." },
     discovery: {
         question: "Do we wear the same clothes in summer and winter?",
@@ -19,10 +19,10 @@ export const c2Seasons: SimDef = {
     },
     observe: { prompt: "What changes with each season?", options: ["Clothes, food, weather", "Only the sun", "Nothing"], answer: "Clothes, food, weather" },
     teaching: [
-        { title: 'Three Main Seasons! 🌦️', text: 'India has three main seasons: summer (hot), monsoon (rainy), and winter (cold). Each changes what we wear and eat!', emoji: '🌦️', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Three Main Seasons! 🌦️', text: 'India has three main seasons: summer (hot), monsoon (rainy), and winter (cold). Each changes what we wear and eat!', emoji: '🌦️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Summer ☀️', text: 'Hot and sunny! We wear cotton clothes, drink nimbu pani, and eat mangoes and ice cream!', emoji: '☀️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Monsoon 🌧️', text: 'Rain, rain! We carry umbrellas, wear raincoats, and watch frogs jump and peacocks dance!', emoji: '🌧️', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Winter ❄️', text: 'Cold days! We wear woolen sweaters, drink hot milk, and eat peanuts and gajak!', emoji: '❄️', bgColor: 'from-cyan-400 to-sky-500' },
+        { title: 'Monsoon 🌧️', text: 'Rain, rain! We carry umbrellas, wear raincoats, and watch frogs jump and peacocks dance!', emoji: '🌧️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Winter ❄️', text: 'Cold days! We wear woolen sweaters, drink hot milk, and eat peanuts and gajak!', emoji: '❄️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: "grow", prompt: "Give the plant sun or water — what does each season bring?" },
     challenges: [
@@ -70,7 +70,7 @@ export const c2Homes: SimDef = {
     teaching: [
         { title: 'Every Animal Has a Home! 🏠', text: 'Birds live in nests, dogs in kennels, lions in dens, bees in hives. Each home suits the animal!', emoji: '🏠', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Homes in Nature 🌳', text: 'Nests in trees, burrows underground, webs on corners, hives on branches — nature builds many homes!', emoji: '🌳', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'We Build Homes Too 🏗️', text: 'We build homes for our animals — cowsheds for cows, stables for horses, aquariums for fish!', emoji: '🏗️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'We Build Homes Too 🏗️', text: 'We build homes for our animals — cowsheds for cows, stables for horses, aquariums for fish!', emoji: '🏗️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "Match animals to their homes!" },
     challenges: [
@@ -108,7 +108,7 @@ export const c2Helpers: SimDef = {
     id: 'c2_helpers', title: 'People Who Help Us', subtitle: 'Community helpers!',
     classLevel: 2, subject: 'evs', topic: 'Community Helpers',
     chapters: ['World Around Us: Helpers'],
-    emoji: '👨‍⚕️', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'helpers' },
+    emoji: '👨‍⚕️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'helpers' },
     scenario: { role: "a community-helper", intro: "Farmers, doctors, teachers — everyone helps!", goal: "Learn who does what." },
     discovery: {
         question: "Who grows the food on your plate - the cook or someone before?",
@@ -117,7 +117,7 @@ export const c2Helpers: SimDef = {
         hook: "Many helpers work before food reaches us! Let's meet them.",
     },
     teaching: [
-        { title: 'Helpers All Around! 👨‍⚕️', text: 'Doctors, teachers, police, farmers, sweepers, drivers — many people help us every day!', emoji: '👨‍⚕️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Helpers All Around! 👨‍⚕️', text: 'Doctors, teachers, police, farmers, sweepers, drivers — many people help us every day!', emoji: '👨‍⚕️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Each Has a Tool 🧰', text: 'A doctor has a stethoscope, a farmer has a plough, a teacher has a blackboard, a cobbler has leather tools!', emoji: '🧰', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Thank Our Helpers 🙏', text: 'Helpers work hard for us. Say thank you, be polite, and respect every job!', emoji: '🙏', bgColor: 'from-rose-400 to-pink-500' },
     ],
@@ -165,7 +165,7 @@ export const c2Directions: SimDef = {
     },
     teaching: [
         { title: 'Left and Right! 🧭', text: 'Your LEFT hand makes an L shape. Your RIGHT hand writes. Know your left from right!', emoji: '🧭', bgColor: 'from-green-400 to-emerald-500' },
-        { title: 'Up, Down, Near, Far ⬆️', text: 'Up is above, down is below. Near is close, far is away. These words tell us where things are!', emoji: '⬆️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Up, Down, Near, Far ⬆️', text: 'Up is above, down is below. Near is close, far is away. These words tell us where things are!', emoji: '⬆️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Directions ☀️', text: 'The sun rises in the EAST and sets in the WEST. East, West, North, South are the four directions!', emoji: '☀️', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { lab: "jump", prompt: "Hop the directions — north, south, east, west!" },

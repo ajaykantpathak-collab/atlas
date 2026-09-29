@@ -1081,16 +1081,16 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950/70 border border-indigo-700 rounded-xl inline-block"
+            className="text-3xl p-2 bg-gold-950/70 border border-gold-700 rounded-xl inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ICSE Class 9 Commercial Studies</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ICSE Class 9 Commercial Studies</span>
               <motion.span
                 whileHover={{ scale: 1.05 }}
-                className="text-xs px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded-full border border-indigo-500/30"
+                className="text-xs px-2 py-0.5 bg-gold-500/20 text-gold-300 rounded-full border border-gold-500/30"
               >
                 10 Core Nodes
               </motion.span>
@@ -1115,7 +1115,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/60 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1137,21 +1137,21 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/60 shadow-xl"
+              className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/60 shadow-xl"
             >
               <div className="flex items-center gap-2 mb-2">
-                <motion.span whileHover={{ scale: 1.05 }} className="text-xs font-bold uppercase px-2.5 py-1 bg-indigo-500/30 text-indigo-200 rounded-md">
+                <motion.span whileHover={{ scale: 1.05 }} className="text-xs font-bold uppercase px-2.5 py-1 bg-gold-500/30 text-gold-200 rounded-md">
                   Real-World Case Study
                 </motion.span>
                 <span className="text-xs text-slate-400">Jaipur, Rajasthan</span>
               </div>
-              <h2 className="text-xl font-black text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-black text-gold-200">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-300 flex items-center gap-2"
+                className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-300 flex items-center gap-2"
               >
                 <span>💡</span>
                 <span>{SCENARIO.context}</span>
@@ -1182,7 +1182,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-900/60 border-emerald-500 text-emerald-100'
                           : 'bg-slate-800/40 border-slate-700 text-slate-400'
-                        : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-700 hover:border-indigo-500'
+                        : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-700 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-center gap-3">
@@ -1208,7 +1208,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-xl shadow-lg hover:from-indigo-500 hover:to-purple-500 flex items-center gap-2"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-xl shadow-lg hover:from-gold-500 hover:to-purple-500 flex items-center gap-2"
                   >
                     <span>Enter Interactive Learning Labs</span>
                     <span>→</span>
@@ -1235,7 +1235,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
               className="flex items-center justify-between p-3 bg-slate-800/60 rounded-xl border border-slate-700"
             >
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase text-indigo-400">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
+                <span className="text-xs font-bold uppercase text-gold-400">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
                 <span className="text-sm font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</span>
               </div>
               <div className="flex gap-1.5">
@@ -1245,7 +1245,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.9 }}
                     onClick={() => setCurrentSlide(i)}
-                    className={`h-3 rounded-full transition-all ${currentSlide === i ? 'bg-indigo-500 w-7' : 'bg-slate-600 w-3'}`}
+                    className={`h-3 rounded-full transition-all ${currentSlide === i ? 'bg-gold-500 w-7' : 'bg-slate-600 w-3'}`}
                     aria-label={`Go to slide ${i + 1}`}
                   />
                 ))}
@@ -1282,7 +1282,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                       onClick={() => handleChannelSelect(ch.id as 'letter' | 'email' | 'audio' | 'video' | 'social')}
                       className={`p-3 rounded-xl text-center border transition-all ${
                         selectedChannel === ch.id
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                           : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                       }`}
                     >
@@ -1299,7 +1299,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   className="p-4 bg-slate-950 rounded-xl border border-slate-800"
                 >
                   <div className="text-center mb-2">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       SVG 1: Business Communication Routing & Legal Evidence Engine
                     </span>
                   </div>
@@ -1345,7 +1345,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                 {/* Channel Inspector Details */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="text-xs font-bold uppercase text-indigo-400 mb-2">Technical Profile: {selectedChannel.toUpperCase()}</h4>
+                    <h4 className="text-xs font-bold uppercase text-gold-400 mb-2">Technical Profile: {selectedChannel.toUpperCase()}</h4>
                     <div className="space-y-2 text-xs">
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Transmission Speed:</span>
@@ -1361,7 +1361,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                       </div>
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Bandwidth / Infrastructure:</span>
-                        <span className="text-indigo-300 font-bold">
+                        <span className="text-gold-300 font-bold">
                           {selectedChannel === 'video' ? 'High (1-2 Mbps with Camera)' : selectedChannel === 'letter' ? 'Zero Internet (India Post)' : 'Standard Telecom'}
                         </span>
                       </div>
@@ -1396,7 +1396,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   className="p-4 bg-slate-950 rounded-xl border border-slate-800"
                 >
                   <div className="text-center mb-2">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       SVG 2: The 6-Stage Continuous Accounting Cycle Architecture
                     </span>
                   </div>
@@ -1423,10 +1423,10 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
 
                 {/* Golden Rules Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-700">
-                    <span className="text-xs font-bold uppercase text-indigo-300 block">1. Personal Accounts</span>
+                  <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-gold-950/50 rounded-xl border border-gold-700">
+                    <span className="text-xs font-bold uppercase text-gold-300 block">1. Personal Accounts</span>
                     <p className="text-xs text-slate-400 mt-1">Persons, Firms, Companies, Capital A/c</p>
-                    <div className="mt-2 p-2 bg-indigo-900/50 rounded-lg font-mono text-xs text-indigo-200 font-bold">
+                    <div className="mt-2 p-2 bg-gold-900/50 rounded-lg font-mono text-xs text-gold-200 font-bold">
                       Rule: Debit the receiver, Credit the giver
                     </div>
                   </motion.div>
@@ -1457,7 +1457,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
               >
                 {/* Predict Hook */}
                 {!predictionMade ? (
-                  <motion.div initial={{ y: -5 }} animate={{ y: 0 }} className="p-4 bg-indigo-950/70 rounded-xl border border-indigo-700">
+                  <motion.div initial={{ y: -5 }} animate={{ y: 0 }} className="p-4 bg-gold-950/70 rounded-xl border border-gold-700">
                     <span className="text-xs font-bold text-amber-400 uppercase block mb-1">Step 1: Predict before manipulating</span>
                     <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-2 gap-2">
@@ -1477,7 +1477,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                 ) : (
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-emerald-950/60 rounded-xl border border-emerald-700 text-xs text-emerald-300 flex justify-between items-center">
                     <span>✓ Prediction recorded! Check the live scale balance below as you adjust sliders.</span>
-                    <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={() => setPredictionMade(false)} className="text-indigo-400 underline font-bold">
+                    <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={() => setPredictionMade(false)} className="text-gold-400 underline font-bold">
                       Reset
                     </motion.button>
                   </motion.div>
@@ -1527,7 +1527,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   className="p-4 bg-slate-950 rounded-xl border border-slate-800"
                 >
                   <div className="text-center mb-2">
-                    <span className="text-xs font-mono uppercase text-indigo-400">
+                    <span className="text-xs font-mono uppercase text-gold-400">
                       SVG 3: Dual-Aspect Balance Scale Identity
                     </span>
                   </div>
@@ -1583,7 +1583,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
 
                   {/* Live Trial Balance Statement */}
                   <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 font-mono text-xs">
-                    <div className="text-center font-bold text-indigo-400 border-b border-slate-700 pb-1 mb-2">
+                    <div className="text-center font-bold text-gold-400 border-b border-slate-700 pb-1 mb-2">
                       TRIAL BALANCE as at 31st March 2024
                     </div>
                     <table className="w-full text-left">
@@ -1598,12 +1598,12 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         <tr><td>Cash in Hand (Asset)</td><td className="text-right text-emerald-400">3,25,000</td><td className="text-right">-</td></tr>
                         <tr><td>Purchases (Expense)</td><td className="text-right text-emerald-400">3,00,000</td><td className="text-right">-</td></tr>
                         <tr><td>Rent Paid (Expense)</td><td className="text-right text-emerald-400">25,000</td><td className="text-right">-</td></tr>
-                        <tr><td>Capital A/c (Proprietor)</td><td className="text-right">-</td><td className="text-right text-indigo-400">5,00,000</td></tr>
-                        <tr><td>Sales A/c (Revenue)</td><td className="text-right">-</td><td className="text-right text-indigo-400">1,50,000</td></tr>
+                        <tr><td>Capital A/c (Proprietor)</td><td className="text-right">-</td><td className="text-right text-gold-400">5,00,000</td></tr>
+                        <tr><td>Sales A/c (Revenue)</td><td className="text-right">-</td><td className="text-right text-gold-400">1,50,000</td></tr>
                         <tr className="font-bold border-t-2 border-slate-700">
                           <td className="text-amber-400">TALLY TOTALS:</td>
                           <td className="text-right text-emerald-400">₹6,50,000</td>
-                          <td className="text-right text-indigo-400">₹6,50,000</td>
+                          <td className="text-right text-gold-400">₹6,50,000</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1647,7 +1647,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   className="p-4 bg-slate-950 rounded-xl border border-slate-800"
                 >
                   <div className="text-center mb-2">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       SVG 4: Commercial Bank Financial Intermediation & Reserve Mechanism
                     </span>
                   </div>
@@ -1727,7 +1727,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   </motion.div>
                   <motion.div whileHover={{ scale: 1.03 }} className="p-3 bg-slate-900 rounded-lg">
                     <span className="text-[11px] text-slate-400 block">Net Interest Spread</span>
-                    <span className="text-sm font-bold text-indigo-400 font-mono">{bankMetrics.spreadPercentage.toFixed(1)}%</span>
+                    <span className="text-sm font-bold text-gold-400 font-mono">{bankMetrics.spreadPercentage.toFixed(1)}%</span>
                   </motion.div>
                   <motion.div whileHover={{ scale: 1.03 }} className="p-3 bg-slate-900 rounded-lg">
                     <span className="text-[11px] text-slate-400 block">Annual Net Profit Margin</span>
@@ -1754,7 +1754,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide((s) => s + 1)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                 >
                   Next Lab →
                 </motion.button>
@@ -1784,7 +1784,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-emerald-700/50"
+              className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-emerald-700/50"
             >
               <div className="flex items-center gap-2 mb-1">
                 <motion.span whileHover={{ scale: 1.05 }} className="text-xs font-bold uppercase px-2.5 py-0.5 bg-emerald-500/30 text-emerald-300 rounded-md">
@@ -1800,7 +1800,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
             {/* Sandbox Double Scale & Dashboard */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-800/80 rounded-xl border border-slate-700 space-y-3">
-                <h4 className="text-xs font-bold text-indigo-400 uppercase">1. Business Operations & Capital</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">1. Business Operations & Capital</h4>
                 <div>
                   <label className="text-xs text-slate-400 flex justify-between">
                     <span>Initial Capital:</span>
@@ -1818,11 +1818,11 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
               </motion.div>
 
               <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-800/80 rounded-xl border border-slate-700 space-y-3">
-                <h4 className="text-xs font-bold text-indigo-400 uppercase">2. Trading & Inventory Cycle</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">2. Trading & Inventory Cycle</h4>
                 <div>
                   <label className="text-xs text-slate-400 flex justify-between">
                     <span>Inventory Purchases:</span>
-                    <span className="text-indigo-400 font-bold">₹{simInventoryBuy.toLocaleString()}</span>
+                    <span className="text-gold-400 font-bold">₹{simInventoryBuy.toLocaleString()}</span>
                   </label>
                   <input type="range" min={50000} max={800000} step={50000} value={simInventoryBuy} onChange={(e) => setSimInventoryBuy(Number(e.target.value))} className="w-full cursor-pointer" />
                 </div>
@@ -1847,7 +1847,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleAdvanceToChallenge}
-              className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-extrabold rounded-xl shadow-xl text-sm"
+              className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-extrabold rounded-xl shadow-xl text-sm"
             >
               I Am Ready for Graded Challenges! →
             </motion.button>
@@ -1869,7 +1869,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
             {/* Challenge Progress Header */}
             <motion.div initial={{ y: -5 }} animate={{ y: 0 }} className="flex items-center justify-between">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <motion.span whileHover={{ scale: 1.05 }} className="text-xs px-2 py-0.5 ml-2 bg-slate-800 text-slate-300 rounded border border-slate-700">
@@ -1910,7 +1910,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                             ? i === activeChallenge.correctIndex
                               ? 'bg-emerald-900/60 border-emerald-500 text-emerald-100'
                               : 'bg-slate-800/40 border-slate-700 text-slate-500'
-                            : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-700 hover:border-indigo-500'
+                            : 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-700 hover:border-gold-500'
                         }`}
                       >
                         <div className="flex items-center gap-3">
@@ -1935,7 +1935,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-2 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-2 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         ⠿ {item.label}
                       </motion.div>
@@ -1951,7 +1951,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         onDrop={() => handleDragDrop(targetId)}
                         className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 min-h-[90px] flex flex-col justify-between"
                       >
-                        <span className="text-[11px] font-bold uppercase text-indigo-400">
+                        <span className="text-[11px] font-bold uppercase text-gold-400">
                           {targetId === 'box_assets' ? 'Assets Column' : targetId === 'box_liabilities' ? 'Liabilities Column' : 'Capital Column'}
                         </span>
                         <div className="text-xs font-bold text-amber-300 mt-2">
@@ -1966,7 +1966,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Check Mapping ✓
                   </motion.button>
@@ -2006,7 +2006,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                       handleAnswer(ans);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Check Order Sequence ✓
                   </motion.button>
@@ -2031,7 +2031,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation}
-                      className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                      className="px-6 py-3 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                     >
                       Submit Calculation
                     </motion.button>
@@ -2050,7 +2050,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono"
+                        className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono"
                       >
                         + {part}
                       </motion.button>
@@ -2066,7 +2066,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-600 text-white rounded text-xs font-mono flex items-center gap-1"
+                        className="px-2.5 py-1 bg-gold-600 text-white rounded text-xs font-mono flex items-center gap-1"
                       >
                         {part}
                         <motion.button whileHover={{ scale: 1.2 }} onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))} className="text-rose-300 font-bold ml-1">×</motion.button>
@@ -2080,7 +2080,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Validate Constructed Entry ✓
                   </motion.button>
@@ -2092,7 +2092,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 bg-slate-900/90 rounded-xl border border-indigo-500/40 space-y-3"
+                  className="mt-6 p-4 bg-slate-900/90 rounded-xl border border-gold-500/40 space-y-3"
                 >
                   <span className="text-xs font-bold text-amber-400 uppercase tracking-wider block">
                     Progressive Conceptual Breakdown:
@@ -2108,7 +2108,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs text-slate-200 leading-relaxed font-sans"
                       >
-                        <span className="font-bold text-indigo-400">{idx + 1}.</span> {sentence}
+                        <span className="font-bold text-gold-400">{idx + 1}.</span> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2119,7 +2119,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={() => setRevealedSteps((s) => s + 1)}
-                        className="px-4 py-2 bg-indigo-700/60 hover:bg-indigo-600 text-indigo-100 rounded-lg text-xs font-bold shadow"
+                        className="px-4 py-2 bg-gold-700/60 hover:bg-gold-600 text-gold-100 rounded-lg text-xs font-bold shadow"
                       >
                         Reveal Next Sentence →
                       </motion.button>
@@ -2153,7 +2153,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
             <motion.div
               initial={{ y: -10 }}
               animate={{ y: 0 }}
-              className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-indigo-950 rounded-2xl border border-emerald-600/60 text-center space-y-2"
+              className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-gold-950 rounded-2xl border border-emerald-600/60 text-center space-y-2"
             >
               <motion.span animate={{ rotate: [0, -10, 10, 0] }} transition={{ repeat: Infinity, duration: 2 }} className="text-4xl block mb-2">🏆</motion.span>
               <h2 className="text-2xl font-black text-white">ICSE Module Certified Complete!</h2>
@@ -2206,11 +2206,11 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-purple-950/60 rounded-2xl border border-indigo-500/40 space-y-4"
+              className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-purple-950/60 rounded-2xl border border-gold-500/40 space-y-4"
             >
               <div className="flex items-center gap-2">
                 <span className="text-lg">💭</span>
-                <h3 className="text-sm font-bold uppercase tracking-wider text-indigo-300">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-gold-300">
                   Critical Reflection & Conceptual Synthesis
                 </h3>
               </div>
@@ -2228,7 +2228,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     value={reflectionAnswers.surprising}
                     onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                     placeholder="e.g., That Trade Discount is never recorded in ledger accounts..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:border-indigo-500 outline-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:border-gold-500 outline-none"
                   />
                 </div>
 
@@ -2241,7 +2241,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     value={reflectionAnswers.explain}
                     onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                     placeholder="e.g., The owner and the business are treated as distinct legal and accounting persons..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:border-indigo-500 outline-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:border-gold-500 outline-none"
                   />
                 </div>
 
@@ -2254,7 +2254,7 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                     value={reflectionAnswers.realLife}
                     onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                     placeholder="e.g., Managing current account overdrafts, negotiating bill discounting, or reconciling receipts..."
-                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:border-indigo-500 outline-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:border-gold-500 outline-none"
                   />
                 </div>
               </div>
@@ -2267,15 +2267,15 @@ function C9_CommercialStudiesMethodsCommunicationLetterSim({
                   audioManager.play('success');
                   speechManager.speak('Reflections recorded in your learning portfolio!');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
               >
                 {reflectionsSaved ? '✓ Reflections Logged' : 'Save Reflection Journal'}
               </motion.button>
             </motion.div>
 
             {/* Real World Activity Synthesis */}
-            <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-slate-800/90 rounded-2xl border border-indigo-800/60 space-y-3">
-              <span className="text-xs font-bold uppercase text-indigo-400">Final Real-World Task:</span>
+            <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-slate-800/90 rounded-2xl border border-gold-800/60 space-y-3">
+              <span className="text-xs font-bold uppercase text-gold-400">Final Real-World Task:</span>
               <h4 className="text-sm font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h4>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="space-y-1 text-xs text-slate-400 pl-4 list-decimal">

@@ -9,7 +9,7 @@ export const c4Transport: SimDef = {
     id: 'c4_transport', title: 'Going to School', subtitle: 'How do we travel?',
     classLevel: 4, subject: 'evs', topic: 'Transport',
     chapters: ['Looking Around-4 Ch1: Going to School', 'Ch8: Reaching Grandmother\'s House'],
-    emoji: '🚌', theme: { bg: 'from-sky-100 to-blue-200', accent: 'sky', scene: 'transport' },
+    emoji: '🚌', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'transport' },
     scenario: { role: "a transport-expert", intro: "Land, water, air — every way to travel!", goal: "Sort all transport." },
     discovery: {
         question: "How do children cross a river to reach school where there is no bridge?",
@@ -18,9 +18,9 @@ export const c4Transport: SimDef = {
         hook: "People travel amazing ways! Let's explore transport.",
     },
     teaching: [
-        { title: 'So Many Ways to Travel! 🚌', text: 'Walk, cycle, bus, boat, camel cart, even a ropeway over a river! Children travel many ways to school.', emoji: '🚌', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'So Many Ways to Travel! 🚌', text: 'Walk, cycle, bus, boat, camel cart, even a ropeway over a river! Children travel many ways to school.', emoji: '🚌', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Travel by Land 🚲', text: 'Bicycles, buses, bullock carts, camels — land transport uses wheels or feet!', emoji: '🚲', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Travel by Water & Air ⛵', text: 'Boats and ferries cross rivers. Aeroplanes fly through the sky. Some children even cross water to reach school!', emoji: '⛵', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Travel by Water & Air ⛵', text: 'Boats and ferries cross rivers. Aeroplanes fly through the sky. Some children even cross water to reach school!', emoji: '⛵', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "Sort transport — land, water, air!" },
     challenges: [
@@ -68,7 +68,7 @@ export const c4Animals: SimDef = {
     teaching: [
         { title: 'Look at Their Ears! 🦜', text: 'Some animals have big ears you can see, some have tiny ear-holes, some have none you can see. Look ear to ear!', emoji: '🦜', bgColor: 'from-green-400 to-emerald-500' },
         { title: 'Skin, Hair, Feathers 🐊', text: 'Elephants have thick skin, dogs have hair, birds have feathers, fish have scales. Each covering protects them!', emoji: '🐊', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Big and Small 🐘', text: 'Nandu the elephant is huge! Animals come in all sizes — from an ant to a whale!', emoji: '🐘', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Big and Small 🐘', text: 'Nandu the elephant is huge! Animals come in all sizes — from an ant to a whale!', emoji: '🐘', bgColor: 'from-gold-400 to-gold-500' },
     ],
     // lexicon-driven: fresh sort + odd-one-out + which each run
     generate: {
@@ -120,7 +120,7 @@ export const c4Trees: SimDef = {
     teaching: [
         { title: 'Amrita Saved the Trees! 🌳', text: 'Amrita hugged the Khejadi trees so the king\'s men could not cut them. Trees give us life — protect them!', emoji: '🌳', bgColor: 'from-emerald-400 to-green-500' },
         { title: 'Trees Give Us 🍃', text: 'Oxygen to breathe, fruits to eat, shade to rest, wood to build, homes for birds!', emoji: '🍃', bgColor: 'from-lime-400 to-green-500' },
-        { title: 'A Tree is a World 🌍', text: 'One tree is home to birds, insects, squirrels. Cutting one tree destroys many homes!', emoji: '🌍', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'A Tree is a World 🌍', text: 'One tree is home to birds, insects, squirrels. Cutting one tree destroys many homes!', emoji: '🌍', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: "grow", prompt: "Grow a forest — what do trees need?" },
     challenges: [
@@ -147,7 +147,7 @@ export const c4WaterBodies: SimDef = {
     id: 'c4_waterbodies', title: 'A River\'s Tale', subtitle: 'Too much, too little!',
     classLevel: 4, subject: 'evs', topic: 'Water and Rivers',
     chapters: ['Looking Around-4 Ch13: A River\'s Tale', 'Ch19: Too Much Water, Too Little Water'],
-    emoji: '🏞️', theme: { bg: 'from-cyan-100 to-blue-200', accent: 'cyan', scene: 'river' },
+    emoji: '🏞️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'river' },
     scenario: { role: "a river-keeper", intro: "Rivers flood and dry — learn their power!", goal: "Understand water bodies." },
     discovery: {
         question: "Can the SAME river bring too much water one year and too little another?",
@@ -156,8 +156,8 @@ export const c4WaterBodies: SimDef = {
         hook: "Rivers give life but can flood or dry up! Let's learn.",
     },
     teaching: [
-        { title: 'The River\'s Journey 🏞️', text: 'A river starts small in the mountains, grows big, and meets the sea. It gives water to everyone on the way!', emoji: '🏞️', bgColor: 'from-cyan-400 to-blue-500' },
-        { title: 'Too Much Water! 🌊', text: 'Floods come when too much rain falls — water fills homes and fields. Dangerous!', emoji: '🌊', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'The River\'s Journey 🏞️', text: 'A river starts small in the mountains, grows big, and meets the sea. It gives water to everyone on the way!', emoji: '🏞️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Too Much Water! 🌊', text: 'Floods come when too much rain falls — water fills homes and fields. Dangerous!', emoji: '🌊', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Too Little Water! 🏜️', text: 'Drought comes when no rain falls — crops dry, animals thirst. Water must be saved!', emoji: '🏜️', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { lab: "cycle", prompt: "Try the lab — what do you discover?" },
@@ -199,7 +199,7 @@ export const c4Farm: SimDef = {
     teaching: [
         { title: 'Life on a Farm! 🌾', text: 'Basva\'s farm grows onions. Seeds are sown, plants watered, crop harvested, then taken to market!', emoji: '🌾', bgColor: 'from-amber-400 to-yellow-500' },
         { title: 'Tools of Farming 🚜', text: 'Plough the soil, sow the seeds, water the field, harvest the crop — each step needs the right tool!', emoji: '🚜', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Farm to Market to Home 🏪', text: 'Food travels from the farm to the market to your home. Many people work to bring your food!', emoji: '🏪', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Farm to Market to Home 🏪', text: 'Food travels from the farm to the market to your home. Many people work to bring your food!', emoji: '🏪', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "Trace food from farm to plate!" },
     challenges: [
@@ -245,7 +245,7 @@ export const c4Food: SimDef = {
     },
     teaching: [
         { title: 'Food Brings Us Together! 🍛', text: 'Festivals, weddings, langars — we eat together. Sharing food is sharing love!', emoji: '🍛', bgColor: 'from-rose-400 to-orange-500' },
-        { title: 'Foods of India 🗺️', text: 'Every region has its food — dosa in the south, sarson da saag in the north, fish curry in the east!', emoji: '🗺️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Foods of India 🗺️', text: 'Every region has its food — dosa in the south, sarson da saag in the north, fish curry in the east!', emoji: '🗺️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Spices and Riddles 🌶️', text: 'Turmeric, chilli, cumin — spices make food tasty and are in every spicy riddle!', emoji: '🌶️', bgColor: 'from-amber-400 to-red-500' },
     ],
     explore: { widget: "tray", prompt: "Sort festival foods!" },
@@ -273,7 +273,7 @@ export const c4Diversity: SimDef = {
     id: 'c4_diversity', title: 'Home and Abroad', subtitle: 'Different but same!',
     classLevel: 4, subject: 'evs', topic: 'Diversity and Community',
     chapters: ['Looking Around-4 Ch22: The World in my Home', 'Ch25: Home and Abroad', 'Ch27: Chuskit Goes to School'],
-    emoji: '🌍', theme: { bg: 'from-indigo-100 to-purple-200', accent: 'indigo', scene: 'diversity' },
+    emoji: '🌍', theme: { bg: 'from-gold-100 to-purple-200', accent: 'indigo', scene: 'diversity' },
     scenario: { role: "a unity-builder", intro: "Different people, foods, languages — India's strength!", goal: "Celebrate diversity." },
     discovery: {
         question: "Is it better if everyone is the same - or different?",
@@ -282,8 +282,8 @@ export const c4Diversity: SimDef = {
         hook: "Different friends, foods, languages - that is India's strength!",
     },
     teaching: [
-        { title: 'So Many Ways to Live! 🌍', text: 'Different clothes, foods, languages, homes — India has so many ways of living, and all are wonderful!', emoji: '🌍', bgColor: 'from-indigo-400 to-purple-500' },
-        { title: 'Everyone Can Learn 📚', text: 'Chuskit could not walk, but she still went to school. Everyone deserves a chance to learn!', emoji: '📚', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'So Many Ways to Live! 🌍', text: 'Different clothes, foods, languages, homes — India has so many ways of living, and all are wonderful!', emoji: '🌍', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Everyone Can Learn 📚', text: 'Chuskit could not walk, but she still went to school. Everyone deserves a chance to learn!', emoji: '📚', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Brave Helpers 🎖️', text: 'Defence Officer Wahida served our country. People do brave and different jobs everywhere!', emoji: '🎖️', bgColor: 'from-rose-400 to-pink-500' },
     ],
     explore: { widget: "tray", prompt: "Celebrate different things!" },

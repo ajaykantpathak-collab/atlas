@@ -36,11 +36,11 @@ export function C8_MathematicsProportionalReasoning2Sim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Proportional Reasoning 2: Sharing a Fixed Total</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Proportional Reasoning 2: Sharing a Fixed Total</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">The inverse test:</span> ask "is something
+          <span className="font-bold text-gold-700">The inverse test:</span> ask "is something
           FIXED no matter what?" If yes, the two quantities are inversely proportional: x1 x y1 =
           x2 x y2. Builders use it to quote deadlines; drivers use it to plan arrival times. Slide
           the active quantity and watch the partner compensate so the product never budges.
@@ -48,10 +48,10 @@ export function C8_MathematicsProportionalReasoning2Sim() {
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        <button onClick={() => setMode('work')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'work' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setMode('work')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'work' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Work: workers and days
         </button>
-        <button onClick={() => setMode('travel')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'travel' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setMode('travel')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'travel' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Travel: speed and time
         </button>
       </div>
@@ -65,11 +65,11 @@ export function C8_MathematicsProportionalReasoning2Sim() {
                 <input type="range" min={12} max={144} step={6} value={totalWork} aria-label="total work" onChange={(e) => setTotalWork(Number(e.target.value))} className="w-full mt-1 accent-emerald-600" />
               </div>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Workers on the job</span><span className="font-mono text-indigo-600">{workers}</span></label>
-                <input type="range" min={1} max={12} value={workers} aria-label="workers" onChange={(e) => setWorkers(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Workers on the job</span><span className="font-mono text-gold-600">{workers}</span></label>
+                <input type="range" min={1} max={12} value={workers} aria-label="workers" onChange={(e) => setWorkers(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-                <div>days = {totalWork} / {workers} = <span className="text-indigo-700 font-bold">{days}</span></div>
+                <div>days = {totalWork} / {workers} = <span className="text-gold-700 font-bold">{days}</span></div>
                 <div className="mt-1 text-emerald-700">check product: {workers} x {days} = {product} (fixed!)</div>
               </div>
             </>
@@ -80,11 +80,11 @@ export function C8_MathematicsProportionalReasoning2Sim() {
                 <input type="range" min={60} max={480} step={20} value={distance} aria-label="distance" onChange={(e) => setDistance(Number(e.target.value))} className="w-full mt-1 accent-emerald-600" />
               </div>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Speed (km/h)</span><span className="font-mono text-indigo-600">{speed}</span></label>
-                <input type="range" min={10} max={120} step={5} value={speed} aria-label="speed" onChange={(e) => setSpeed(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Speed (km/h)</span><span className="font-mono text-gold-600">{speed}</span></label>
+                <input type="range" min={10} max={120} step={5} value={speed} aria-label="speed" onChange={(e) => setSpeed(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-                <div>time = {distance} / {speed} = <span className="text-indigo-700 font-bold">{timeH} h</span></div>
+                <div>time = {distance} / {speed} = <span className="text-gold-700 font-bold">{timeH} h</span></div>
                 <div className="mt-1 text-emerald-700">check product: {speed} x {timeH} = {product2} km (fixed!)</div>
               </div>
             </>
@@ -94,7 +94,7 @@ export function C8_MathematicsProportionalReasoning2Sim() {
               <button
                 key={v}
                 onClick={() => (mode === 'work' ? setWorkers(v) : setSpeed(v))}
-                className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all"
+                className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all"
               >
                 {mode === 'work' ? `${v} workers` : `${v} km/h`}
               </button>
@@ -102,7 +102,7 @@ export function C8_MathematicsProportionalReasoning2Sim() {
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 320 210" className="w-full">
             <line x1={40} y1={180} x2={305} y2={180} stroke="#94a3b8" />
             <line x1={40} y1={180} x2={40} y2={15} stroke="#94a3b8" />

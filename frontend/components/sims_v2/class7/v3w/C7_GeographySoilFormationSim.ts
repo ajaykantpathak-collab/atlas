@@ -11,11 +11,11 @@ export const w_c7_geographysoilformationsim: SimDef = {
     classLevel: 7, subject: 'geography', topic: 'Agriculture in India: Importance and Characteristics',
     chapters: [],
     nodeIds: ['c7_geo_ch04_001', 'c7_geo_ch04_005', 'c7_geo_ch01_003', 'c7_geo_ch01_005', 'c7_geo_ch04_003', 'c7_geo_ch04_004', 'c7_geo_ch04_006', 'c7_geo_ch04_007', 'c7_geo_ch04_009', 'c7_geo_ch04_011', 'c7_geo_ch01_004', 'c7_geo_ch01_006', 'c7_geo_ch01_007', 'c7_geo_ch01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Look out of your classroom window or recall a journey through your state; you likely see green fields,.', goal: 'Master Agriculture in India: Importance and Characteristics.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Agriculture in India is the cultivation of.', text: 'Agriculture in India is the cultivation of crops, raising of livestock, and management of natural resources that forms the primary economic backbone of the country, deeply influenced by monsoonal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Agriculture in India is the cultivation of.', text: 'Agriculture in India is the cultivation of crops, raising of livestock, and management of natural resources that forms the primary economic backbone of the country, deeply influenced by monsoonal.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_geo_ch04_001', title: 'Agriculture in India is the cultivation.',

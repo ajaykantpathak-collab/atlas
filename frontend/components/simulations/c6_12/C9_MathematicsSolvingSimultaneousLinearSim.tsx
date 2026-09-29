@@ -1214,12 +1214,12 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <motion.span whileHover={{ rotate: 20 }} className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-800">
+          <motion.span whileHover={{ rotate: 20 }} className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-800">
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium tracking-wide">
+            <p className="text-xs text-gold-400 font-medium tracking-wide">
               ICSE Class 9 Mathematics • Simultaneous Systems, Logarithms & Geometry
             </p>
           </div>
@@ -1236,7 +1236,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-800'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-800'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-800'
+                : 'bg-gold-950/60 text-gold-400 border-gold-800'
             }`}
           >
             Tier: {difficulty}
@@ -1250,11 +1250,11 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">Scenario Mission Hook</span>
+          <motion.div whileHover={{ scale: 1.005 }} className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/80 shadow-lg">
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">Scenario Mission Hook</span>
             <h2 className="text-xl font-black text-white mt-1 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-indigo-300 flex items-center gap-2">
+            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-gold-300 flex items-center gap-2">
               <span className="text-base">🚀</span> {SCENARIO.context}
             </div>
           </motion.div>
@@ -1286,13 +1286,13 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-indigo-900/60">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-gold-900/60">
                 <p className={`text-sm mb-3 ${discoveryCorrect ? 'text-emerald-400 font-bold' : 'text-amber-400 font-medium'}`}>
                   {discoveryCorrect ? '✓ Exceptional intuition! You spotted the core standard-form sign requirement.' : `Notice: ${DISCOVERY_QUESTION.hintAfter}`}
                 </p>
@@ -1300,7 +1300,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToPrediction}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                 >
                   Proceed to Prediction Phase →
                 </motion.button>
@@ -1341,13 +1341,13 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
 
             {predictionSubmitted && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
                 <div className="text-xs text-amber-300 font-medium">
                   <strong>Verification Plan:</strong> {PREDICTION_QUESTIONS[predictionIndex].verifyInstruction}
                 </div>
@@ -1365,7 +1365,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         setSelectedPrediction(null);
                         setPredictionSubmitted(false);
                       }}
-                      className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                     >
                       Next Prediction →
                     </motion.button>
@@ -1390,7 +1390,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Interactive Lab Exploration ({currentSlide + 1} of {EXPLORATION_STEPS.length})
             </span>
             <span className="text-xs text-slate-400 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">
@@ -1417,7 +1417,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
               {currentSlide === 0 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   <div className="space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">System 1 & 2 Coefficients</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">System 1 & 2 Coefficients</h4>
                     <div className="grid grid-cols-3 gap-2">
                       <div>
                         <label className="text-xs text-slate-400">a1: {simA1}</label>
@@ -1427,7 +1427,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                           max={5}
                           value={simA1}
                           onChange={(e) => setSimA1(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1438,7 +1438,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                           max={5}
                           value={simB1}
                           onChange={(e) => setSimB1(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1449,7 +1449,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                           max={15}
                           value={simC1}
                           onChange={(e) => setSimC1(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1463,7 +1463,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                           max={5}
                           value={simA2}
                           onChange={(e) => setSimA2(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1474,7 +1474,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                           max={5}
                           value={simB2}
                           onChange={(e) => setSimB2(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1485,7 +1485,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                           max={15}
                           value={simC2}
                           onChange={(e) => setSimC2(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1528,10 +1528,10 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
 
                     {/* Dynamic System Equations Display */}
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs space-y-1">
-                      <div className="text-indigo-300">
+                      <div className="text-gold-300">
                         Eq 1: {simA1}x {simB1 >= 0 ? `+ ${simB1}` : `- ${Math.abs(simB1)}`}y {simC1 >= 0 ? `+ ${simC1}` : `- ${Math.abs(simC1)}`} = 0
                       </div>
-                      <div className="text-cyan-300">
+                      <div className="text-gold-300">
                         Eq 2: {simA2}x {simB2 >= 0 ? `+ ${simB2}` : `- ${Math.abs(simB2)}`}y {simC2 >= 0 ? `+ ${simC2}` : `- ${Math.abs(simC2)}`} = 0
                       </div>
                     </div>
@@ -1547,11 +1547,11 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block text-[10px]">x = numX / D</span>
-                        <strong className="text-sky-300">{solX}</strong>
+                        <strong className="text-gold-300">{solX}</strong>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block text-[10px]">y = numY / D</span>
-                        <strong className="text-indigo-300">{solY}</strong>
+                        <strong className="text-gold-300">{solY}</strong>
                       </div>
                     </div>
                   </div>
@@ -1570,7 +1570,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         max={10}
                         value={simBase}
                         onChange={(e) => setSimBase(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1581,7 +1581,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         max={5}
                         value={simExp}
                         onChange={(e) => setSimExp(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1611,8 +1611,8 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 text-center">
-                      <span className="text-xs text-indigo-400 uppercase font-bold tracking-wider">Exponential Domain</span>
+                    <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 text-center">
+                      <span className="text-xs text-gold-400 uppercase font-bold tracking-wider">Exponential Domain</span>
                       <div className="text-2xl font-black text-white mt-2">
                         {simBase}
                         <sup className="text-amber-400 font-extrabold">{simExp}</sup> ={' '}
@@ -1624,7 +1624,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                     <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-purple-950/40 rounded-xl border border-purple-800 text-center">
                       <span className="text-xs text-purple-400 uppercase font-bold tracking-wider">Logarithmic Dual Domain</span>
                       <div className="text-2xl font-black text-white mt-2">
-                        log<sub className="text-indigo-300 font-extrabold">{simBase}</sub> (
+                        log<sub className="text-gold-300 font-extrabold">{simBase}</sub> (
                         <span className="text-emerald-400">{powerVal >= 1 ? powerVal : `1/${Math.pow(simBase, Math.abs(simExp))}`}</span>) ={' '}
                         <span className="text-amber-400">{logVal}</span>
                       </div>
@@ -1646,7 +1646,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         max={6}
                         value={simExpP}
                         onChange={(e) => setSimExpP(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1657,7 +1657,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         max={6}
                         value={simExpQ}
                         onChange={(e) => setSimExpQ(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1668,7 +1668,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         max={6}
                         value={simExpR}
                         onChange={(e) => setSimExpR(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1677,8 +1677,8 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                     <div className="text-lg font-bold text-white font-mono">
                       log [ ( a<sup>{simExpP}</sup> · b<sup>{simExpQ}</sup> ) / c<sup>{simExpR}</sup> ]
                     </div>
-                    <div className="text-xl font-black text-indigo-300 font-mono">
-                      = <span className="text-emerald-400">{simExpP} log a</span> + <span className="text-sky-400">{simExpQ} log b</span>{' '}
+                    <div className="text-xl font-black text-gold-300 font-mono">
+                      = <span className="text-emerald-400">{simExpP} log a</span> + <span className="text-gold-400">{simExpQ} log b</span>{' '}
                       <span className="text-rose-400">- {simExpR} log c</span>
                     </div>
                     <p className="text-xs text-slate-400">
@@ -1700,7 +1700,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         onClick={() => setSelectedTrussCrit(crit)}
                         className={`px-4 py-2 rounded-xl text-xs font-bold border ${
                           selectedTrussCrit === crit
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-md shadow-indigo-600/30'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-md shadow-gold-600/30'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1760,7 +1760,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       max={300}
                       value={vertexAx}
                       onChange={(e) => setVertexAx(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <label className="text-xs text-slate-400">Drag Vertex A (Y Height): {vertexAy}px</label>
@@ -1770,13 +1770,13 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       max={180}
                       value={vertexAy}
                       onChange={(e) => setVertexAy(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1 font-mono">
                       <div>Side AB = {sideAB.toFixed(1)} mm | Side AC = {sideAC.toFixed(1)} mm</div>
                       <div>Base BC = {sideBC.toFixed(1)} mm</div>
-                      <div className="text-indigo-400 font-bold">
+                      <div className="text-gold-400 font-bold">
                         ∠A = {angleA}° | ∠B = {angleB}° | ∠C = {angleC}°
                       </div>
                     </div>
@@ -1834,7 +1834,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1928,7 +1928,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
       {/* ─── PHASE 3: FREE PLAY SANDBOX (NO GRADING) ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-800/80">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 to-slate-900 rounded-2xl border border-gold-800/80">
             <h3 className="text-lg font-bold text-white">Free Sandbox Simulation Matrix</h3>
             <p className="text-xs text-slate-300 mt-1">
               Zero grading pressure. Test cross-product determinants, exponent-log inversions, and triangle inequality bounds freely before challenges begin.
@@ -1938,25 +1938,25 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-900 p-5 rounded-2xl border border-slate-800">
             {/* System Sandbox */}
             <div className="space-y-4">
-              <h4 className="text-xs font-bold text-indigo-400 uppercase">Live Cross Multiplication Solver</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase">Live Cross Multiplication Solver</h4>
               <div className="grid grid-cols-3 gap-2">
                 <div>
                   <label className="text-[10px] text-slate-400">a1: {simA1}</label>
-                  <input type="range" min={-5} max={5} value={simA1} onChange={(e) => setSimA1(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={-5} max={5} value={simA1} onChange={(e) => setSimA1(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-[10px] text-slate-400">b1: {simB1}</label>
-                  <input type="range" min={-5} max={5} value={simB1} onChange={(e) => setSimB1(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={-5} max={5} value={simB1} onChange={(e) => setSimB1(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-[10px] text-slate-400">c1: {simC1}</label>
-                  <input type="range" min={-15} max={15} value={simC1} onChange={(e) => setSimC1(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={-15} max={15} value={simC1} onChange={(e) => setSimC1(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
                 <div className="text-emerald-400 font-bold">Determinant = {systemDet}</div>
-                <div className="text-sky-300">Solution Vector: ({solX}, {solY})</div>
+                <div className="text-gold-300">Solution Vector: ({solX}, {solY})</div>
               </div>
             </div>
 
@@ -1994,7 +1994,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
               <span className="font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-semibold uppercase tracking-wider">
+              <span className="text-gold-400 font-semibold uppercase tracking-wider">
                 Competency: <strong className="text-white">{challenge.competencyLevel}</strong>
               </span>
             </div>
@@ -2002,7 +2002,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
             {/* Animated Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -2016,7 +2016,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-400 text-[10px] font-bold uppercase tracking-wider border border-indigo-800">
+              <span className="px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-400 text-[10px] font-bold uppercase tracking-wider border border-gold-800">
                 {challenge.type}
               </span>
               <span className="text-xs text-slate-500 font-mono">Node: {challenge.nodeId}</span>
@@ -2043,7 +2043,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         : 'bg-slate-800/90 border-slate-700/80 text-slate-200 hover:bg-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -2060,7 +2060,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2090,7 +2090,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -2116,7 +2116,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                         whileTap={{ scale: 0.99 }}
                         className="p-3 bg-slate-800 rounded-xl text-xs font-medium text-slate-200 border border-slate-700 flex items-center gap-3 cursor-grab"
                       >
-                        <span className="w-6 h-6 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-800 flex items-center justify-center font-bold text-xs">
+                        <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 border border-gold-800 flex items-center justify-center font-bold text-xs">
                           {displayIdx + 1}
                         </span>
                         {item}
@@ -2132,7 +2132,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Logical Order →
                 </motion.button>
@@ -2149,7 +2149,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2159,7 +2159,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput.trim() === ''}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                   >
                     Submit Answer →
                   </motion.button>
@@ -2178,7 +2178,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-300 rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-300 rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2191,7 +2191,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-800 text-white rounded-lg text-xs font-mono font-bold flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-800 text-white rounded-lg text-xs font-mono font-bold flex items-center gap-1.5"
                     >
                       {part}
                       <button onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))} className="text-rose-300 hover:text-rose-100">
@@ -2209,7 +2209,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Construction →
                 </motion.button>
@@ -2263,7 +2263,7 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Curriculum Certification Complete</h2>
             <p className="text-sm text-slate-300">
@@ -2308,12 +2308,12 @@ function C9_MathematicsSolvingSimultaneousLinearSim({
 
           {/* Real World Scenario Capstone */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h4 className="text-sm font-black text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h4>
+            <h4 className="text-sm font-black text-gold-300">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

@@ -1230,7 +1230,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
           <motion.span key={difficulty} initial={{ scale: 0.8 }} animate={{ scale: 1 }} className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border ${
             difficulty === 'foundation' ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300' :
             difficulty === 'advanced' ? 'bg-rose-950/60 border-rose-500 text-rose-300' :
-            'bg-indigo-950/60 border-indigo-500 text-indigo-300'
+            'bg-gold-950/60 border-gold-500 text-gold-300'
           }`}>
             Tier: {difficulty}
           </motion.span>
@@ -1243,7 +1243,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/50 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-800/60 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/50 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-800/60 shadow-xl">
             <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Investigative Brief</span>
             <h2 className="text-xl font-black text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1317,7 +1317,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
               <button
                 onClick={() => setActiveTab('predictions')}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                  activeTab === 'predictions' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                  activeTab === 'predictions' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
                 🔮 Predict & Verify ({Object.keys(predAnswers).length}/{PREDICTION_QUESTIONS.length})
@@ -1363,7 +1363,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                           aria-label="Toggle Parent 1 Allele"
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setParent1Allele(p => p === 'T' ? 't' : 'T')}
-                          className="px-3 py-1 bg-indigo-900 text-indigo-200 border border-indigo-500 rounded-lg text-xs font-bold"
+                          className="px-3 py-1 bg-gold-900 text-gold-200 border border-gold-500 rounded-lg text-xs font-bold"
                         >
                           Allele: {parent1Allele} ({parent1Allele === 'T' ? 'Tall' : 'Dwarf'})
                         </motion.button>
@@ -1405,7 +1405,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                           <p className="text-slate-300 mt-0.5">Heterozygotes (Tt) express the dominant Tall phenotype because the functional enzyme produces sufficient gibberellin hormone.</p>
                         </div>
                         <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                          <span className="text-indigo-400 font-bold">Gametic Law of Segregation:</span>
+                          <span className="text-gold-400 font-bold">Gametic Law of Segregation:</span>
                           <p className="text-slate-300 mt-0.5">Alleles separate independently during Anaphase I of meiosis so each haploid gamete carries only one copy.</p>
                         </div>
                       </div>
@@ -1477,7 +1477,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                       <motion.button aria-label="Simulate Normal Pathway" whileTap={{ scale: 0.95 }} onClick={() => handleEnzymeBlock('none')} className={`px-3 py-1 rounded text-xs font-bold ${blockedEnzyme === 'none' ? 'bg-emerald-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Normal Pathway</motion.button>
                       <motion.button aria-label="Block Phenylalanine Hydroxylase" whileTap={{ scale: 0.95 }} onClick={() => handleEnzymeBlock('pah')} className={`px-3 py-1 rounded text-xs font-bold ${blockedEnzyme === 'pah' ? 'bg-rose-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Block PAH (PKU)</motion.button>
                       <motion.button aria-label="Block Tyrosinase" whileTap={{ scale: 0.95 }} onClick={() => handleEnzymeBlock('tyrosinase')} className={`px-3 py-1 rounded text-xs font-bold ${blockedEnzyme === 'tyrosinase' ? 'bg-amber-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Block Tyrosinase (Albinism)</motion.button>
-                      <motion.button aria-label="Block Homogentisic Acid Oxidase" whileTap={{ scale: 0.95 }} onClick={() => handleEnzymeBlock('hgao')} className={`px-3 py-1 rounded text-xs font-bold ${blockedEnzyme === 'hgao' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Block HGAO (Alkaptonuria)</motion.button>
+                      <motion.button aria-label="Block Homogentisic Acid Oxidase" whileTap={{ scale: 0.95 }} onClick={() => handleEnzymeBlock('hgao')} className={`px-3 py-1 rounded text-xs font-bold ${blockedEnzyme === 'hgao' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Block HGAO (Alkaptonuria)</motion.button>
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs font-mono space-y-2">
@@ -1497,7 +1497,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                       </div>
                       <div className="flex items-center justify-between p-2 bg-slate-950 rounded border border-slate-800">
                         <span>Homogentisic Acid</span>
-                        <span className={`px-2 py-0.5 rounded font-bold ${blockedEnzyme === 'hgao' ? 'bg-indigo-950 text-indigo-400 border border-indigo-600' : 'bg-emerald-950 text-emerald-400'}`}>
+                        <span className={`px-2 py-0.5 rounded font-bold ${blockedEnzyme === 'hgao' ? 'bg-gold-950 text-gold-400 border border-gold-600' : 'bg-emerald-950 text-emerald-400'}`}>
                           {blockedEnzyme === 'hgao' ? '❌ HGAO Blocked → Black Urine & Ochronosis!' : '→ HGA Oxidase →'}
                         </span>
                         <span>Acetoacetate</span>
@@ -1583,7 +1583,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                               key={i}
                               className={`h-7 rounded flex items-center justify-center text-[10px] font-bold border ${
                                 isDead
-                                  ? 'bg-blue-900/80 border-blue-400 text-blue-200'
+                                  ? 'bg-gold-900/80 border-gold-400 text-gold-200'
                                   : 'bg-emerald-950/40 border-emerald-600 text-emerald-200'
                               }`}
                             >
@@ -1598,7 +1598,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                           <p className="text-slate-300 mt-1">Viable cells have intact plasma membranes that exclude Trypan blue (clear). Non-viable cells take up dye (blue).</p>
                         </div>
                         <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                          <span className="text-indigo-400 font-bold">Standard Formula:</span>
+                          <span className="text-gold-400 font-bold">Standard Formula:</span>
                           <p className="text-slate-300 font-mono mt-0.5">Viability % = (Live Cells / Total Cells) × 100</p>
                           <p className="text-slate-400 mt-0.5">22 live / 25 total = 88.0% Viability</p>
                         </div>
@@ -1626,7 +1626,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                       </div>
                       <div>
                         <span className="text-slate-400 font-bold">Distance B — C: </span>
-                        <span className="font-bold text-indigo-400">{markerDistanceBC} cM</span>
+                        <span className="font-bold text-gold-400">{markerDistanceBC} cM</span>
                         <input
                           type="range"
                           min={2}
@@ -1634,7 +1634,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                           value={markerDistanceBC}
                           aria-label="Marker Distance B to C"
                           onChange={e => setMarkerDistanceBC(Number(e.target.value))}
-                          className="w-32 ml-2 accent-indigo-500"
+                          className="w-32 ml-2 accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1685,7 +1685,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleAdvanceToSandbox}
-                      className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-900/30"
+                      className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-900/30"
                     >
                       Enter Free Sandbox →
                     </motion.button>
@@ -1699,7 +1699,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
           {activeTab === 'predictions' && (
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Scientific Method: Hypothesis Formation</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Scientific Method: Hypothesis Formation</span>
                 <h3 className="text-lg font-black text-white mt-1">Predict-Then-Check Inquiries</h3>
                 <p className="text-xs text-slate-400">Make your deduction first, then verify using the simulated experimental tools.</p>
               </div>
@@ -1712,7 +1712,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                 return (
                   <div key={pq.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex items-start gap-2">
-                      <span className="px-2 py-0.5 bg-indigo-900/80 text-indigo-300 font-bold text-xs rounded">Prediction {qIdx + 1}</span>
+                      <span className="px-2 py-0.5 bg-gold-900/80 text-gold-300 font-bold text-xs rounded">Prediction {qIdx + 1}</span>
                       <p className="text-sm font-semibold text-white">{pq.question}</p>
                     </div>
 
@@ -1743,7 +1743,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                         <p className={`font-bold ${isCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
                           {isCorrect ? '✓ Hypothesis Supported!' : 'ⓘ Prediction Refined:'} {pq.explanation}
                         </p>
-                        <p className="text-indigo-300 italic">🔬 How to verify: {pq.verifyInstruction}</p>
+                        <p className="text-gold-300 italic">🔬 How to verify: {pq.verifyInstruction}</p>
                       </motion.div>
                     )}
                   </div>
@@ -1833,7 +1833,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400 uppercase">Pea Trait Tester</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Pea Trait Tester</span>
                 <div className="flex gap-2">
                   <motion.button
                     aria-label="Toggle Pea Shape"
@@ -1866,14 +1866,14 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                     aria-label="Toggle Trypan Blue Stain"
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setTrypanBlueAdded(t => !t)}
-                    className={`px-2.5 py-1 rounded text-xs font-bold ${trypanBlueAdded ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                    className={`px-2.5 py-1 rounded text-xs font-bold ${trypanBlueAdded ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                   >
                     {trypanBlueAdded ? 'Active (Clear vs Blue)' : 'Inactive'}
                   </motion.button>
                 </div>
                 <div className="grid grid-cols-4 gap-1 p-2 bg-slate-900 rounded-lg border border-slate-800">
                   {[...Array(12)].map((_, i) => (
-                    <div key={i} className={`h-8 rounded flex items-center justify-center text-xs font-bold border ${i % 4 === 0 && trypanBlueAdded ? 'bg-blue-900/60 border-blue-500 text-blue-200' : 'bg-emerald-950/40 border-emerald-600 text-emerald-200'}`}>
+                    <div key={i} className={`h-8 rounded flex items-center justify-center text-xs font-bold border ${i % 4 === 0 && trypanBlueAdded ? 'bg-gold-900/60 border-gold-500 text-gold-200' : 'bg-emerald-950/40 border-emerald-600 text-emerald-200'}`}>
                       {i % 4 === 0 && trypanBlueAdded ? 'Dead (Blue)' : 'Live (Clear)'}
                     </div>
                   ))}
@@ -1895,7 +1895,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
 
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1913,7 +1913,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
               <span className={`px-2.5 py-0.5 rounded text-xs font-bold uppercase ${
                 challenge.difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300' :
                 challenge.difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300' :
-                'bg-indigo-500/20 text-indigo-300'
+                'bg-gold-500/20 text-gold-300'
               }`}>
                 {challenge.difficulty}
               </span>
@@ -1959,7 +1959,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2071,7 +2071,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, p])}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-600 text-indigo-100 rounded-lg text-xs font-medium"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-600 text-gold-100 rounded-lg text-xs font-medium"
                     >
                       + {p}
                     </motion.button>
@@ -2146,7 +2146,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
           {/* Motivational Feedback Header */}
-          <div className="p-8 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-600 shadow-2xl text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-600 shadow-2xl text-center space-y-3">
             <span className="px-3 py-1 bg-emerald-500/20 text-emerald-300 rounded-full text-xs font-bold uppercase tracking-widest border border-emerald-500">
               Mission Certified
             </span>
@@ -2156,7 +2156,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
               <span className="px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-emerald-400">
                 Final Score: {Math.max(0, 100 - errors * 5)}%
               </span>
-              <span className="px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-indigo-300">
+              <span className="px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-gold-300">
                 Mastery Tier: {masteryLevel.toUpperCase()}
               </span>
               <span className="px-3 py-1.5 bg-slate-900 border border-slate-700 rounded-lg text-rose-300">
@@ -2206,7 +2206,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-indigo-300 mb-1">
+                <label className="block text-xs font-semibold text-gold-300 mb-1">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2215,7 +2215,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                   onChange={e => setReflectionResponses(r => ({ ...r, explain: e.target.value }))}
                   placeholder="e.g., Genes segregate during meiosis like dealing a deck of cards into haploid hands..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2242,7 +2242,7 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
                     setReflectionSubmitted(true);
                     audioManager.play('success');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Save Reflection Log ✓
                 </motion.button>
@@ -2261,8 +2261,8 @@ function C11_BiotechnologyMendelsExperimentsLawsSim({
           </div>
 
           {/* Real-World Activity Card */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/80 space-y-3">
-            <h3 className="text-base font-bold text-indigo-200">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/80 space-y-3">
+            <h3 className="text-base font-bold text-gold-200">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

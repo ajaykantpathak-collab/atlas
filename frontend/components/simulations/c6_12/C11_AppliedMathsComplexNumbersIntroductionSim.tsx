@@ -1147,10 +1147,10 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium tracking-wide uppercase">ISC Class 11 • Applied Mathematics</p>
+            <p className="text-xs text-gold-300 font-medium tracking-wide uppercase">ISC Class 11 • Applied Mathematics</p>
           </div>
         </div>
 
@@ -1164,7 +1164,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/80 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950/80 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1179,8 +1179,8 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900/90 rounded-2xl border border-indigo-800/60">
-            <div className="flex items-center gap-2 text-indigo-400 mb-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900/90 rounded-2xl border border-gold-800/60">
+            <div className="flex items-center gap-2 text-gold-400 mb-2">
               <span className="text-lg">🚀</span>
               <h3 className="font-bold text-lg">{SCENARIO.title}</h3>
             </div>
@@ -1214,7 +1214,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       : 'bg-slate-900/80 text-slate-200 hover:bg-slate-750 border border-slate-700/60'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1231,7 +1231,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to Interactive Exploration"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Exploration Lab →
                 </motion.button>
@@ -1253,7 +1253,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                 <div
                   key={i}
                   className={`w-6 h-1.5 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-500' : i < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
+                    i === currentSlide ? 'bg-gold-500' : i < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1261,9 +1261,9 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
           </div>
 
           {/* ── PREDICT-THEN-CHECK CARD (BRILLIANT PATTERN) ── */}
-          <div className="p-4 bg-gradient-to-r from-indigo-950/80 to-purple-950/70 rounded-2xl border border-indigo-700/60 shadow-lg space-y-3">
+          <div className="p-4 bg-gradient-to-r from-gold-950/80 to-purple-950/70 rounded-2xl border border-gold-700/60 shadow-lg space-y-3">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-1.5">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-300 flex items-center gap-1.5">
                 🔮 Prediction Challenge #{predictionIndex + 1}
               </span>
               <button
@@ -1272,7 +1272,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   setSelectedPrediction(null);
                   setPredictionSubmitted(false);
                 }}
-                className="text-[11px] text-indigo-400 hover:text-indigo-200 underline"
+                className="text-[11px] text-gold-400 hover:text-gold-200 underline"
               >
                 Switch Prediction Question
               </button>
@@ -1291,16 +1291,16 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                     predictionSubmitted && i === PREDICTION_QUESTIONS[predictionIndex].correctIndex
                       ? 'bg-emerald-900/60 border border-emerald-500 text-emerald-200'
                       : selectedPrediction === i
-                      ? 'bg-indigo-700 text-white'
+                      ? 'bg-gold-700 text-white'
                       : 'bg-slate-900/80 text-slate-300 hover:bg-slate-800 border border-slate-700'
                   }`}
                 >
-                  <span className="font-bold text-indigo-400 mr-1">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold text-gold-400 mr-1">{String.fromCharCode(65 + i)}.</span> {opt}
                 </button>
               ))}
             </div>
             {predictionSubmitted && (
-              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 bg-slate-950/80 rounded-xl border border-indigo-900/80 text-xs">
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 bg-slate-950/80 rounded-xl border border-gold-900/80 text-xs">
                 <p className="text-amber-300 font-semibold mb-1">
                   🔍 Verify below: {PREDICTION_QUESTIONS[predictionIndex].verifyInstruction}
                 </p>
@@ -1318,8 +1318,8 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
               className="p-5 sm:p-6 bg-slate-800/90 rounded-2xl border border-slate-700 shadow-xl"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-                <h3 className="text-lg sm:text-xl font-black text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <span className="text-xs px-2.5 py-1 bg-indigo-950 text-indigo-300 rounded-lg border border-indigo-700 font-mono">
+                <h3 className="text-lg sm:text-xl font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <span className="text-xs px-2.5 py-1 bg-gold-950 text-gold-300 rounded-lg border border-gold-700 font-mono">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1437,7 +1437,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
 
                   <div className="absolute bottom-2 right-2 flex items-center gap-2 bg-slate-900/80 px-2.5 py-1 rounded-lg border border-slate-800">
                     <canvas ref={canvasRef} width={80} height={40} className="w-16 h-8 rounded" />
-                    <span className="text-[10px] text-indigo-300 font-mono">2D Phasor Live</span>
+                    <span className="text-[10px] text-gold-300 font-mono">2D Phasor Live</span>
                   </div>
                 </div>
 
@@ -1448,7 +1448,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Real Part (a): {realA}</span>
-                          <span className="text-indigo-400 font-mono">Re(z) = {realA}</span>
+                          <span className="text-gold-400 font-mono">Re(z) = {realA}</span>
                         </div>
                         <input
                           type="range"
@@ -1461,14 +1461,14 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                             handleRealChange(val);
                           }}
                           aria-label="Set Real Part"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Imaginary Part (b): {imagB}</span>
-                          <span className="text-indigo-400 font-mono">Im(z) = {imagB}</span>
+                          <span className="text-gold-400 font-mono">Im(z) = {imagB}</span>
                         </div>
                         <input
                           type="range"
@@ -1481,7 +1481,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                             handleImagChange(val);
                           }}
                           aria-label="Set Imaginary Part"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1494,7 +1494,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                           className={`w-full py-2.5 rounded-xl text-xs font-bold transition-all ${
                             isConjugate
                               ? 'bg-rose-600 text-white shadow-lg shadow-rose-900/40'
-                              : 'bg-slate-800 text-indigo-300 border border-indigo-700/60 hover:bg-slate-750'
+                              : 'bg-slate-800 text-gold-300 border border-gold-700/60 hover:bg-slate-750'
                           }`}
                         >
                           {isConjugate ? '✓ Conjugate Active (z̄ = a - bi)' : '⚡ Reflect Conjugate (z̄ = a - bi)'}
@@ -1512,7 +1512,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                         </div>
                         <div className="flex justify-between text-slate-300">
                           <span>z · z̄ = |z|²:</span>
-                          <span className="text-indigo-300 font-bold">{(currentModulus * currentModulus).toFixed(1)}</span>
+                          <span className="text-gold-300 font-bold">{(currentModulus * currentModulus).toFixed(1)}</span>
                         </div>
                       </div>
                     </>
@@ -1561,7 +1561,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
 
                       <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 space-y-1 font-mono text-xs">
                         <p className="text-slate-400">Euler / Polar Form:</p>
-                        <p className="text-indigo-300 font-bold">
+                        <p className="text-gold-300 font-bold">
                           z = {polarR.toFixed(1)}(cos {polarThetaDeg}° + i sin {polarThetaDeg}°)
                         </p>
                         <p className="text-emerald-400 font-bold">z = {polarR.toFixed(1)} e^(i{((polarThetaDeg * Math.PI) / 180).toFixed(2)})</p>
@@ -1586,7 +1586,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                             handleQuadAChange(val);
                           }}
                           aria-label="Set Quadratic Coefficient a"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1605,7 +1605,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                             handleQuadBChange(val);
                           }}
                           aria-label="Set Quadratic Coefficient b"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1624,7 +1624,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                             handleQuadCChange(val);
                           }}
                           aria-label="Set Quadratic Constant c"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1644,7 +1644,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                           </div>
                         )}
                         {currentSlide === 4 && (
-                          <div className="text-indigo-300 font-bold">
+                          <div className="text-gold-300 font-bold">
                             Sign: {quadA > 0 && quadDiscriminant < 0 ? 'POSITIVE DEFINITE (+)' : quadA < 0 && quadDiscriminant < 0 ? 'NEGATIVE DEFINITE (-)' : 'Sign Changing'}
                           </div>
                         )}
@@ -1685,7 +1685,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                         observationSubmitted && idx === OBSERVATION_QUESTIONS[observationIndex].correctIndex
                           ? 'bg-emerald-900/70 border border-emerald-400 text-emerald-200 font-bold'
                           : selectedObservation === idx
-                          ? 'bg-indigo-700 text-white'
+                          ? 'bg-gold-700 text-white'
                           : 'bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800'
                       }`}
                     >
@@ -1727,7 +1727,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
                 aria-label="Next Exploration Slide"
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -1751,7 +1751,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h3 className="text-lg font-black text-indigo-300">Free Practice Sandbox</h3>
+              <h3 className="text-lg font-black text-gold-300">Free Practice Sandbox</h3>
               <p className="text-xs text-slate-300 mt-1">Zero pressure playground. Switch tabs to inspect Phasors, Roots, or Signs.</p>
             </div>
 
@@ -1761,7 +1761,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                 whileTap={{ scale: 0.96 }}
                 onClick={() => handleTabSwitch('argand')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                  activeTab === 'argand' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-300'
+                  activeTab === 'argand' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-300'
                 }`}
               >
                 Argand Plane
@@ -1771,7 +1771,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                 whileTap={{ scale: 0.96 }}
                 onClick={() => handleTabSwitch('roots')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                  activeTab === 'roots' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-300'
+                  activeTab === 'roots' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-300'
                 }`}
               >
                 Complex Roots
@@ -1781,7 +1781,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                 whileTap={{ scale: 0.96 }}
                 onClick={() => handleTabSwitch('sign')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                  activeTab === 'sign' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-300'
+                  activeTab === 'sign' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-300'
                 }`}
               >
                 Sign Definiteness
@@ -1791,7 +1791,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
 
           <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-4">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Interactive Inputs</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Interactive Inputs</span>
               {activeTab === 'argand' && (
                 <>
                   <div>
@@ -1802,7 +1802,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       max={6}
                       value={realA}
                       onChange={(e) => setRealA(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <div>
@@ -1813,7 +1813,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       max={6}
                       value={imagB}
                       onChange={(e) => setImagB(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <motion.button
@@ -1837,7 +1837,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       max={4}
                       value={quadA}
                       onChange={(e) => setQuadA(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <div>
@@ -1848,7 +1848,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       max={8}
                       value={quadB}
                       onChange={(e) => setQuadB(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <div>
@@ -1859,7 +1859,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       max={10}
                       value={quadC}
                       onChange={(e) => setQuadC(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                 </>
@@ -1872,7 +1872,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
               {activeTab === 'argand' && (
                 <div className="space-y-2">
                   <p className="text-slate-200">
-                    Algebraic Form: <span className="text-indigo-400 font-bold">{realA} + {imagB}i</span>
+                    Algebraic Form: <span className="text-gold-400 font-bold">{realA} + {imagB}i</span>
                   </p>
                   <p className="text-slate-200">
                     Conjugate z̄: <span className="text-rose-400 font-bold">{realA} - {imagB}i</span>
@@ -1889,7 +1889,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
               {(activeTab === 'roots' || activeTab === 'sign') && (
                 <div className="space-y-2">
                   <p className="text-slate-200">
-                    Equation: <span className="text-indigo-400 font-bold">{quadA}x² + ({quadB})x + ({quadC}) = 0</span>
+                    Equation: <span className="text-gold-400 font-bold">{quadA}x² + ({quadB})x + ({quadC}) = 0</span>
                   </p>
                   <p className="text-slate-200">
                     Discriminant D: <span className="text-amber-400 font-bold">{quadDiscriminant}</span>
@@ -1919,7 +1919,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
             aria-label="Ready to Start Challenges"
-            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-2xl font-black text-sm tracking-wide shadow-xl flex items-center justify-center gap-2"
+            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-2xl font-black text-sm tracking-wide shadow-xl flex items-center justify-center gap-2"
           >
             I Am Ready For Graded Challenges! 🎯 →
           </motion.button>
@@ -1935,7 +1935,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
               <span className="text-sm font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-800 text-indigo-300 border border-slate-700">
+              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-800 text-gold-300 border border-slate-700">
                 {challenge.competencyLevel}
               </span>
             </div>
@@ -1948,7 +1948,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
           {/* Animated Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1980,7 +1980,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                           : 'bg-slate-900/80 text-slate-200 hover:bg-slate-750 border border-slate-700/60'
                       }`}
                     >
-                      <span className="inline-block w-6 font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -1997,7 +1997,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   placeholder="Type number..."
                   disabled={showExplanation}
                   aria-label="Numeric answer input"
-                  className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-slate-400 text-sm font-bold">{challenge.unit}</span>
                 <motion.button
@@ -2006,7 +2006,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || numericInput.trim() === ''}
                   aria-label="Submit numeric answer"
-                  className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-md disabled:opacity-50"
+                  className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-md disabled:opacity-50"
                 >
                   Check Value
                 </motion.button>
@@ -2027,7 +2027,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag item: ${item.label}`}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2056,7 +2056,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 4}
                   aria-label="Submit Quadrant Mapping"
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
                 >
                   Verify Quadrant Placements
                 </motion.button>
@@ -2080,7 +2080,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-slate-200 text-xs sm:text-sm font-medium flex items-center gap-3 cursor-grab"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-950 text-indigo-400 flex items-center justify-center font-bold text-xs">
+                    <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 flex items-center justify-center font-bold text-xs">
                       {displayIdx + 1}
                     </span>
                     {challenge.sortItems![itemIdx]}
@@ -2093,7 +2093,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check Sorted Order"
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2112,7 +2112,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-800 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2121,7 +2121,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-700 min-h-[50px] flex items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900 text-emerald-300 rounded font-mono text-xs">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900 text-emerald-300 rounded font-mono text-xs">
                       {part}
                     </span>
                   ))}
@@ -2134,7 +2134,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Construction"
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-40"
                 >
                   Check Assembled Expression
                 </motion.button>
@@ -2194,7 +2194,7 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
               Final Mastery Score:{' '}
               <span className="text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 5)}%</span>
             </p>
-            <p className="text-xs text-slate-400">Knowledge Tracing Status: <span className="text-indigo-300 font-bold capitalize">{masteryLevel}</span></p>
+            <p className="text-xs text-slate-400">Knowledge Tracing Status: <span className="text-gold-300 font-bold capitalize">{masteryLevel}</span></p>
           </div>
 
           {/* MOTIVATIONAL FEEDBACK */}
@@ -2227,8 +2227,8 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
 
           {/* REFLECTION & REVIEW SCHEDULE */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="p-5 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl space-y-2 text-xs">
-              <h3 className="font-bold text-indigo-300 uppercase tracking-wider">Concept Reflection</h3>
+            <div className="p-5 bg-gold-950/40 border border-gold-800/60 rounded-2xl space-y-2 text-xs">
+              <h3 className="font-bold text-gold-300 uppercase tracking-wider">Concept Reflection</h3>
               <ul className="space-y-1.5 text-slate-300">
                 <li>1. Why is the 2D Argand plane required for negative discriminants?</li>
                 <li>2. How do Vieta&apos;s relations (S = -b/a, P = c/a) transform for reciprocal roots?</li>
@@ -2250,12 +2250,12 @@ export function C11_AppliedMathsComplexNumbersIntroductionSim({
 
           {/* REAL WORLD ACTIVITY */}
           <div className="p-5 bg-slate-800 rounded-2xl border border-slate-700 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">🛰️ {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">🛰️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-900 rounded-lg text-[11px] text-slate-300 border border-slate-800">
-                  <span className="text-indigo-400 font-bold mr-1">Step {i + 1}:</span> {step}
+                  <span className="text-gold-400 font-bold mr-1">Step {i + 1}:</span> {step}
                 </div>
               ))}
             </div>

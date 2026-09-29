@@ -68,7 +68,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 9 Civics - Working of Institutions</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 9 Civics - Working of Institutions</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Steer a Bill Through Every Institution</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -80,7 +80,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
           const active = stage === s.id;
           const past = order.indexOf(s.id) < idx;
           return (
-            <div key={s.id} className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all ${active ? 'bg-indigo-600 border-indigo-400 text-white' : past ? 'bg-emerald-950 border-emerald-700 text-emerald-300' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
+            <div key={s.id} className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all ${active ? 'bg-gold-600 border-gold-400 text-white' : past ? 'bg-emerald-950 border-emerald-700 text-emerald-300' : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
               {i + 1}. {s.label}
             </div>
           );
@@ -103,7 +103,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
                 <span className={`font-mono ${lsOk ? 'text-emerald-300' : 'text-rose-400'}`}>{lsSeats} {lsOk ? 'majority OK' : 'no majority'}</span>
               </label>
               <input type="range" min={100} max={520} value={lsSeats} aria-label="lok sabha seats"
-                onChange={(e) => setLsSeats(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setLsSeats(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
@@ -111,7 +111,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
                 <span className={`font-mono ${rsOk ? 'text-emerald-300' : 'text-rose-400'}`}>{bill === 'money' ? 'not needed' : `${rsSeats} ${rsOk ? 'majority OK' : 'no majority'}`}</span>
               </label>
               <input type="range" min={30} max={200} value={rsSeats} aria-label="rajya sabha seats"
-                onChange={(e) => setRsSeats(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-violet-500" />
+                onChange={(e) => setRsSeats(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <button onClick={() => setCourt((c) => !c)}
               className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${court ? 'bg-amber-600 border-amber-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-amber-500'}`}>
@@ -119,7 +119,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
             </button>
             {stage !== 'done' && stage !== 'again' && (
               <div className="flex gap-2">
-                <button onClick={act} className="flex-1 min-h-11 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold transition-all">{btnLabel || '...'}</button>
+                <button onClick={act} className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">{btnLabel || '...'}</button>
                 {stage === 'president' && bill === 'ordinary' && (
                   <button onClick={assentNow} className="flex-1 min-h-11 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold transition-all">President: assent now</button>
                 )}
@@ -127,7 +127,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
             )}
             {stage === 'again' && (
               <button onClick={() => finish(true, 'Parliament passed it AGAIN, so the President MUST assent. The bill becomes an Act!')}
-                className="w-full min-h-11 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold transition-all">
+                className="w-full min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">
                 Parliament passes it again -- President must assent
               </button>
             )}
@@ -140,8 +140,8 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
             {verdict || 'Set the seat maths, pick a bill, and press Introduce. Every institution can change the outcome.'}
           </div>
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-1">
-            <p><span className="font-bold text-indigo-300">Needed numbers:</span> Lok Sabha majority = 272 of 543; constitutional amendment = 362 (two-thirds); Rajya Sabha majority = 123 (163 for amendments).</p>
-            <p><span className="font-bold text-indigo-300">Real anchors:</span> a money bill cannot be blocked by the Rajya Sabha; an ordinary bill returned by the President must be assented if passed again; courts can strike down what violates the basic structure (Kesavananda Bharati, 1973).</p>
+            <p><span className="font-bold text-gold-300">Needed numbers:</span> Lok Sabha majority = 272 of 543; constitutional amendment = 362 (two-thirds); Rajya Sabha majority = 123 (163 for amendments).</p>
+            <p><span className="font-bold text-gold-300">Real anchors:</span> a money bill cannot be blocked by the Rajya Sabha; an ordinary bill returned by the President must be assented if passed again; courts can strike down what violates the basic structure (Kesavananda Bharati, 1973).</p>
           </div>
           <div className="p-3 rounded-2xl bg-amber-950/40 border border-amber-800 text-xs text-amber-200 leading-relaxed">
             <span className="font-bold">Misconception killer:</span> the Prime Minister does NOT make laws by decision. Even a powerful PM needs the majority arithmetic of two Houses, the President&apos;s assent and laws that survive the courts -- institutions check each other on purpose.
@@ -149,7 +149,7 @@ export function C9_SocialScienceWorkingOfInstitutionsSim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set Lok Sabha to 250 seats and try to pass the ordinary bill -- where exactly does it die? Now find the minimum LS seats that still work when the Rajya Sabha is hostile (60 seats).</p>
         <p className="mt-1">2. Pass a constitutional amendment with the court challenge ON -- why can a two-thirds Parliament still lose in the Supreme Court?</p>

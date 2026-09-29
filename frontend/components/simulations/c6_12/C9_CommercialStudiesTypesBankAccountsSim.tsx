@@ -1069,14 +1069,14 @@ function C9_CommercialStudiesTypesBankAccountsSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-900/40 rounded-2xl border border-indigo-700/50"
+            className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950 px-2 py-0.5 rounded-full border border-gold-800">
                 ICSE Class 9 Commercial Studies
               </span>
               <motion.span
@@ -1086,7 +1086,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                 className={`text-xs font-bold px-2 py-0.5 rounded-full uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
                   difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-800' :
-                  'bg-sky-950 text-sky-400 border border-sky-800'
+                  'bg-gold-950 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty}
@@ -1105,13 +1105,13 @@ function C9_CommercialStudiesTypesBankAccountsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm mb-1">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm mb-1">
               <span>🌟</span> Commercial Scenario Hook
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 bg-indigo-950/50 p-2.5 rounded-xl border border-indigo-900">
+            <p className="text-xs text-gold-300/80 mt-2 bg-gold-950/50 p-2.5 rounded-xl border border-gold-900">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1155,7 +1155,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold rounded-xl shadow-lg shadow-indigo-900/40"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold rounded-xl shadow-lg shadow-gold-900/40"
                 >
                   Enter Interactive Exploration Lab →
                 </motion.button>
@@ -1171,7 +1171,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
           {/* Exploration Navigation Bar */}
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-indigo-400">LAB {currentSlide + 1} OF 5</span>
+              <span className="text-xs font-bold text-gold-400">LAB {currentSlide + 1} OF 5</span>
               <span className="text-slate-400">|</span>
               <h2 className="text-sm md:text-base font-bold text-white truncate">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
@@ -1198,7 +1198,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                     handleAdvanceToSandbox();
                   }
                 }}
-                className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-xs font-bold rounded-lg text-white"
+                className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-xs font-bold rounded-lg text-white"
               >
                 {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Lab →' : 'Enter Free Sandbox →'}
               </motion.button>
@@ -1220,12 +1220,12 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                 className="grid grid-cols-1 lg:grid-cols-12 gap-5"
               >
                 <div className="lg:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">Deposit & Usage Controls</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">Deposit & Usage Controls</h3>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1 font-medium">
                       <span>Deposit Corpus:</span>
-                      <span className="text-indigo-400 font-bold">₹{depositAmount.toLocaleString('en-IN')}</span>
+                      <span className="text-gold-400 font-bold">₹{depositAmount.toLocaleString('en-IN')}</span>
                     </div>
                     <input
                       type="range"
@@ -1235,14 +1235,14 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       value={depositAmount}
                       aria-label="Deposit Corpus Slider"
                       onChange={e => handleSliderChangeDeposit(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1 font-medium">
                       <span>Lock-in Tenure:</span>
-                      <span className="text-indigo-400 font-bold">{tenureYears} Year{tenureYears > 1 ? 's' : ''}</span>
+                      <span className="text-gold-400 font-bold">{tenureYears} Year{tenureYears > 1 ? 's' : ''}</span>
                     </div>
                     <input
                       type="range"
@@ -1252,7 +1252,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       value={tenureYears}
                       aria-label="Lock-in Tenure Slider"
                       onChange={e => handleSliderChangeTenure(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1288,7 +1288,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                           }}
                           className={`p-2 rounded-lg text-xs font-bold uppercase transition-all ${
                             selectedAccTab === acc
-                              ? 'bg-indigo-600 text-white border border-indigo-400 shadow-md'
+                              ? 'bg-gold-600 text-white border border-gold-400 shadow-md'
                               : 'bg-slate-800/80 text-slate-300 border border-slate-700 hover:bg-slate-700'
                           }`}
                         >
@@ -1392,7 +1392,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                 className="grid grid-cols-1 md:grid-cols-12 gap-5"
               >
                 <div className="md:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">Interactive Transaction Builder</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">Interactive Transaction Builder</h3>
 
                   <div>
                     <label className="text-xs font-bold text-slate-300 block mb-1">Step 1: Who is the Seller?</label>
@@ -1402,7 +1402,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => { setSellerType('business'); audioManager.play('tap'); }}
                         className={`p-2.5 rounded-xl text-xs font-bold border ${
-                          sellerType === 'business' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          sellerType === 'business' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         🏢 Business (Enterprise)
@@ -1412,7 +1412,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => { setSellerType('consumer'); audioManager.play('tap'); }}
                         className={`p-2.5 rounded-xl text-xs font-bold border ${
-                          sellerType === 'consumer' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          sellerType === 'consumer' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         👤 Consumer (Individual)
@@ -1428,7 +1428,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => { setBuyerType('business'); audioManager.play('tap'); }}
                         className={`p-2.5 rounded-xl text-xs font-bold border ${
-                          buyerType === 'business' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          buyerType === 'business' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         🏢 Business (Factory/Store)
@@ -1438,7 +1438,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => { setBuyerType('consumer'); audioManager.play('tap'); }}
                         className={`p-2.5 rounded-xl text-xs font-bold border ${
-                          buyerType === 'consumer' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          buyerType === 'consumer' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         👤 Consumer (Household)
@@ -1446,9 +1446,9 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                     </div>
                   </div>
 
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 text-center">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 text-center">
                     <span className="text-xs uppercase text-slate-400 block mb-1">Resulting E-Commerce Model</span>
-                    <span className="text-xl font-black text-indigo-400">
+                    <span className="text-xl font-black text-gold-400">
                       {sellerType === 'business' && buyerType === 'business' ? 'B2B (Business-to-Business)' :
                        sellerType === 'business' && buyerType === 'consumer' ? 'B2C (Business-to-Consumer)' :
                        sellerType === 'consumer' && buyerType === 'consumer' ? 'C2C (Consumer-to-Consumer)' :
@@ -1516,7 +1516,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                 className="grid grid-cols-1 md:grid-cols-12 gap-5"
               >
                 <div className="md:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">Select Discarded Device Component</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">Select Discarded Device Component</h3>
                   <div className="space-y-2">
                     {[
                       { id: 'circuit_board', name: 'Printed Circuit Board (Motherboard)', metal: 'Lead & Beryllium', hazard: 'Kidney damage & Neurological harm' },
@@ -1534,7 +1534,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         }}
                         className={`w-full text-left p-3 rounded-xl border text-xs ${
                           inspectedComponent === comp.id
-                            ? 'bg-indigo-900/50 border-indigo-500 text-white'
+                            ? 'bg-gold-900/50 border-gold-500 text-white'
                             : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1607,7 +1607,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                 className="grid grid-cols-1 md:grid-cols-12 gap-5"
               >
                 <div className="md:col-span-6 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3">
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">4-Checkpoint Lifecycle Auditor</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">4-Checkpoint Lifecycle Auditor</h3>
 
                   {/* Stage 1 */}
                   <div>
@@ -1619,7 +1619,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                           aria-label={`Select raw material ${mat}`}
                           onClick={() => { setLcMaterial(mat); audioManager.play('tap'); }}
                           className={`p-1.5 rounded-lg text-xs font-semibold capitalize border ${
-                            lcMaterial === mat ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                            lcMaterial === mat ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                           }`}
                         >
                           {mat}
@@ -1638,7 +1638,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                           aria-label={`Select production mode ${pr}`}
                           onClick={() => { setLcProduction(pr); audioManager.play('tap'); }}
                           className={`p-1.5 rounded-lg text-xs font-semibold capitalize border ${
-                            lcProduction === pr ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                            lcProduction === pr ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                           }`}
                         >
                           {pr === 'toxic_dye' ? 'Toxic Dyes' : pr === 'high_coal' ? 'Coal Heavy' : 'Clean / Zero Effluent'}
@@ -1655,7 +1655,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         aria-label="Set usage as low energy BPA free"
                         onClick={() => { setLcUsage('efficient'); audioManager.play('tap'); }}
                         className={`p-1.5 rounded-lg text-xs font-semibold border ${
-                          lcUsage === 'efficient' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          lcUsage === 'efficient' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         ⚡ Low Energy / BPA-Free
@@ -1664,7 +1664,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         aria-label="Set usage as toxic chemical leaching"
                         onClick={() => { setLcUsage('toxic_bpa'); audioManager.play('tap'); }}
                         className={`p-1.5 rounded-lg text-xs font-semibold border ${
-                          lcUsage === 'toxic_bpa' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          lcUsage === 'toxic_bpa' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         ☣️ Toxic Chemical Leaching
@@ -1682,7 +1682,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                           aria-label={`Set disposal method as ${disp}`}
                           onClick={() => { setLcDisposal(disp); audioManager.play('tap'); }}
                           className={`p-1.5 rounded-lg text-xs font-semibold capitalize border ${
-                            lcDisposal === disp ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                            lcDisposal === disp ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                           }`}
                         >
                           {disp}
@@ -1739,7 +1739,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                 className="grid grid-cols-1 md:grid-cols-12 gap-5"
               >
                 <div className="md:col-span-6 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">Factory Emissions & Effluent Controls</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">Factory Emissions & Effluent Controls</h3>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
@@ -1756,7 +1756,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       value={effluentToxicity}
                       aria-label="Liquid Effluent Toxicity Slider"
                       onChange={e => handleEffluentChange(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1775,7 +1775,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       value={airSo2Ppm}
                       aria-label="Air SO2 Chimney Emissions Slider"
                       onChange={e => handleAirSo2Change(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1809,7 +1809,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                     </div>
 
                     <div className="text-sm font-semibold text-white">
-                      Enforcement Action: <span className="text-indigo-300">{legalStatus.action}</span>
+                      Enforcement Action: <span className="text-gold-300">{legalStatus.action}</span>
                     </div>
 
                     <div className="pt-2 border-t border-slate-800 text-xs text-slate-400">
@@ -1817,7 +1817,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                     </div>
                   </div>
 
-                  <div className="mt-4 p-3 bg-indigo-950/40 rounded-xl border border-indigo-900 text-xs text-indigo-200">
+                  <div className="mt-4 p-3 bg-gold-950/40 rounded-xl border border-gold-900 text-xs text-gold-200">
                     ⚖️ <strong>NGT Distinction:</strong> National Green Tribunal (NGT) is a judicial court for dispute penalty rulings. CPCB and State PCBs are regulatory executive bodies.
                   </div>
                 </div>
@@ -1848,7 +1848,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-indigo-300">Live Bank Yield vs Liquidity Matrix</h3>
+              <h3 className="text-sm font-bold text-gold-300">Live Bank Yield vs Liquidity Matrix</h3>
               <div className="h-48 w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={bankingChartData}>
@@ -1869,7 +1869,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                   value={depositAmount}
                   aria-label="Sandbox Deposit Amount Slider"
                   onChange={e => handleSliderChangeDeposit(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
@@ -1893,12 +1893,12 @@ function C9_CommercialStudiesTypesBankAccountsSim({
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs text-slate-400 font-semibold">
               <span>Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-              <span className="uppercase tracking-wider text-indigo-400">{activeChallenge.competencyLevel} Competency</span>
+              <span className="uppercase tracking-wider text-gold-400">{activeChallenge.competencyLevel} Competency</span>
               <span>Errors: {errors}</span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1915,7 +1915,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-950 px-2.5 py-1 rounded-lg border border-indigo-800">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider bg-gold-950 px-2.5 py-1 rounded-lg border border-gold-800">
                 Type: {activeChallenge.type.toUpperCase()}
               </span>
               <span className="text-xs text-slate-400 font-medium">Node: {activeChallenge.nodeId}</span>
@@ -1946,7 +1946,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                         : 'bg-slate-800/90 hover:bg-slate-700 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="inline-block w-6 font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                     {showExplanation && i === activeChallenge.correctIndex && <span className="ml-2 font-bold text-emerald-400">✓</span>}
                   </motion.button>
                 ))}
@@ -1968,7 +1968,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2004,7 +2004,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2036,7 +2036,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-700 flex items-center gap-3 cursor-grab text-xs md:text-sm text-slate-200"
                     >
-                      <span className="w-6 h-6 flex items-center justify-center bg-indigo-900/60 rounded-full text-indigo-300 font-bold text-xs">
+                      <span className="w-6 h-6 flex items-center justify-center bg-gold-900/60 rounded-full text-gold-300 font-bold text-xs">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2051,7 +2051,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Confirm Statutory Sequence
                 </motion.button>
@@ -2068,7 +2068,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                     aria-label="Calculated interest input"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-52"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-52"
                   />
                   <span className="text-sm font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2079,7 +2079,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2110,7 +2110,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                   ))}
                 </div>
 
-                <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] text-xs text-indigo-300">
+                <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] text-xs text-gold-300">
                   <strong>Selected Blueprint:</strong> {constructParts.length > 0 ? constructParts.join(' • ') : <span className="text-slate-600">None selected</span>}
                 </div>
 
@@ -2122,7 +2122,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Framework Assembly
                 </motion.button>
@@ -2134,9 +2134,9 @@ function C9_CommercialStudiesTypesBankAccountsSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-800/80 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-800/80 space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
                   <span>📖</span> Structured ICSE Concept Walkthrough:
                 </div>
 
@@ -2151,7 +2151,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                      <strong className="text-gold-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
 
@@ -2162,7 +2162,7 @@ function C9_CommercialStudiesTypesBankAccountsSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-xs font-bold text-white rounded-lg"
+                      className="px-4 py-1.5 bg-gold-800 hover:bg-gold-700 text-xs font-bold text-white rounded-lg"
                     >
                       Show Next Detail →
                     </motion.button>
@@ -2189,11 +2189,11 @@ function C9_CommercialStudiesTypesBankAccountsSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & REAL-WORLD SYNTHESIS ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-3">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Commercial Studies Mastery Complete!</h2>
             <p className="text-sm text-slate-300">
-              Final Competency Score: <strong className="text-emerald-400 text-xl">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Level: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+              Final Competency Score: <strong className="text-emerald-400 text-xl">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Level: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
             </p>
           </div>
 
@@ -2229,14 +2229,14 @@ function C9_CommercialStudiesTypesBankAccountsSim({
 
           {/* Real-World Activity Blueprint */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wide">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wide">
               📋 {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="w-5 h-5 flex-shrink-0 flex items-center justify-center bg-indigo-900 rounded-full text-indigo-300 font-bold">
+                  <span className="w-5 h-5 flex-shrink-0 flex items-center justify-center bg-gold-900 rounded-full text-gold-300 font-bold">
                     {i + 1}
                   </span>
                   <span>{step}</span>

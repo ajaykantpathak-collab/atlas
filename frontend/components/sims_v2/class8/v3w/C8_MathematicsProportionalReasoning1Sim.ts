@@ -11,7 +11,7 @@ export const w_c8_mathematicsproportionalreasoning1sim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Proportional Change: Multiplicative vs Additive Changes',
     chapters: [],
     nodeIds: ['c8_math_ch7_1', 'c8_math_ch7_10', 'c8_math_ch10_3', 'c8_math_ch7_4', 'c8_math_ch7_5', 'c8_math_ch7_6', 'c8_math_ch7_8', 'c8_math_ch7_9', 'c8_math_ch10_10', 'c8_math_ch10_5', 'c8_math_ch10_7', 'c8_math_ch10_9', 'c8_math_ch12_12', 'c8_math_ch12_5'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are helping your mother adjust a recipe for *aloo paratha* filling.', goal: 'Master Proportional Change: Multiplicative vs Additive Changes.' },
     discovery: {
         question: 'Riya has a 10 cm × 6 cm photo. She wants to enlarge it to a width of 25 cm.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsproportionalreasoning1sim: SimDef = {
         hook: 'Students treat scaling as additive: they believe that to enlarge an image, you add the same amount to both width and.',
     },
     teaching: [
-        { title: 'Proportional change refers to a change where.', text: 'Proportional change refers to a change where quantities vary in a constant ratio.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Proportional change refers to a change where.', text: 'Proportional change refers to a change where quantities vary in a constant ratio.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch7_1', title: 'Proportional change refers to a change.',

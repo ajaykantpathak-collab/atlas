@@ -47,9 +47,9 @@ export function C11_MathematicsStraightLinesSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700 font-mono">/</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">/</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 11 -- Straight Lines</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Straight Lines</span>
           <h1 className="text-xl md:text-2xl font-extrabold">y = mx + c: Slope, Angle, and Distance From a Point</h1>
         </div>
       </div>
@@ -101,7 +101,7 @@ export function C11_MathematicsStraightLinesSim() {
           </svg>
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-2 gap-2">
-            <div><span className="text-slate-500">Inclination theta = atan(m)</span><div className="text-sky-300 font-bold text-sm">{thetaDeg.toFixed(2)} deg</div></div>
+            <div><span className="text-slate-500">Inclination theta = atan(m)</span><div className="text-gold-300 font-bold text-sm">{thetaDeg.toFixed(2)} deg</div></div>
             <div><span className="text-slate-500">Distance Q to line</span><div className="text-pink-300 font-bold text-sm">{dist.toFixed(4)}</div></div>
             <div><span className="text-slate-500">Parallel through Q</span><div className="text-emerald-300 font-bold text-sm">y = {m.toFixed(1)}x {(qy - m * qx >= 0 ? '+' : '-')} {Math.abs(qy - m * qx).toFixed(2)}</div></div>
             <div><span className="text-slate-500">Perpendicular slope</span><div className="text-amber-300 font-bold text-sm">{(-1 / m).toFixed(3)}</div></div>
@@ -112,17 +112,17 @@ export function C11_MathematicsStraightLinesSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Slope m</span><span className="font-mono font-bold text-sky-400">{m.toFixed(1)}</span>
+                <span>Slope m</span><span className="font-mono font-bold text-gold-400">{m.toFixed(1)}</span>
               </div>
               <input type="range" min={-3} max={3} step={0.1} value={m} aria-label="Slope"
-                onChange={(e) => setM(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setM(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Intercept c</span><span className="font-mono font-bold text-cyan-300">{c}</span>
+                <span>Intercept c</span><span className="font-mono font-bold text-gold-300">{c}</span>
               </div>
               <input type="range" min={-5} max={5} step={1} value={c} aria-label="Intercept"
-                onChange={(e) => setC(Number(e.target.value))} className="w-full accent-cyan-500" />
+                onChange={(e) => setC(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -140,8 +140,8 @@ export function C11_MathematicsStraightLinesSim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-cyan-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-cyan-300 font-bold">Worked distance (point-to-line)</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Worked distance (point-to-line)</div>
             <div className="text-slate-400">d = |{m.toFixed(1)} x {qx} - ({qy}) + ({c})| / sqrt({m.toFixed(1)}^2 + 1)</div>
             <div className="text-slate-300">= {Math.abs(m * qx - qy + c).toFixed(2)} / {denom.toFixed(3)} = <b className="text-pink-300">{dist.toFixed(4)}</b></div>
             <div className="text-slate-500">general form check: {m.toFixed(1)}x - y {(c >= 0 ? '+' : '-')} {Math.abs(c)} = 0, A = {m.toFixed(1)}, B = -1, C = {c}</div>
@@ -157,8 +157,8 @@ export function C11_MathematicsStraightLinesSim() {
             </p>
           </div>
 
-          <div className="bg-cyan-950/40 rounded-2xl border border-cyan-800/50 p-4 text-xs">
-            <p className="font-bold text-cyan-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Move Q onto the blue line (make d = 0): what relation between qx, qy must hold? Verify by substitution.</p>
             <p>2. Set m = 1 and c = 0 (the line y = x). Find two different Q points at distance exactly 2 x sqrt(2) -- what shape do all such points trace?</p>
           </div>

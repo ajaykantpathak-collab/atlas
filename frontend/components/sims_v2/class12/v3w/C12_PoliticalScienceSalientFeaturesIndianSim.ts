@@ -11,7 +11,7 @@ export const w_c12_politicalsciencesalientfeaturesindiansim: SimDef = {
     classLevel: 12, subject: 'political_science', topic: 'Congress as the Dominant Party: Organisation and Social Coalition',
     chapters: [],
     nodeIds: ['c12_ps_cbse_09_001', 'c12_ps_cbse_15_001', 'c12_ps_cbse_13_001', 'c12_ps_cbse_02_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are watching a news debate where a political analyst says, "The Congress party ruled India for.', goal: 'Master Congress as the Dominant Party: Organisation and Social Coalition.' },
     discovery: {
         question: 'Evaluate the statement: "The end of the Congress system weakened Indian democracy because coalition governments are inherently unstable and ineffective." Use.',
@@ -20,7 +20,7 @@ export const w_c12_politicalsciencesalientfeaturesindiansim: SimDef = {
         hook: 'Students often think **"the Congress system ended because the Congress party disintegrated or disappeared."** In.',
     },
     teaching: [
-        { title: 'The Indian National Congress emerged as the.', text: 'The Indian National Congress emerged as the dominant political party in the first three general elections (1952, 1957, 1962) due to its unique organisational structure as a broad-based social and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Indian National Congress emerged as the.', text: 'The Indian National Congress emerged as the dominant political party in the first three general elections (1952, 1957, 1962) due to its unique organisational structure as a broad-based social and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_ps_cbse_09_001', title: 'The Indian National Congress emerged as.',

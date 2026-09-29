@@ -1279,12 +1279,12 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
       {/* ─── HEADER BAR ─── */}
       <motion.div initial={{ opacity: 0, y: -15 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4">
         <div className="flex items-center gap-3">
-          <motion.div whileHover={{ rotate: 15 }} className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner">
+          <motion.div whileHover={{ rotate: 15 }} className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2.5 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2.5 py-0.5 rounded-full border border-gold-800">
                 ICSE Class 10 Commercial Applications
               </span>
               <span className="text-xs text-slate-400">Nodes 021 - 030</span>
@@ -1300,7 +1300,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
             key={phase}
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="text-xs font-bold px-2.5 py-0.5 rounded-lg bg-indigo-500/20 text-indigo-300 uppercase tracking-wider"
+            className="text-xs font-bold px-2.5 py-0.5 rounded-lg bg-gold-500/20 text-gold-300 uppercase tracking-wider"
           >
             {phase}
           </motion.span>
@@ -1311,7 +1311,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
               animate={{ scale: 1 }}
               className={`text-xs font-bold px-2.5 py-0.5 rounded-lg uppercase tracking-wider ${
                 difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-800' :
-                difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-800' : 'bg-blue-500/20 text-blue-300 border border-blue-800'
+                difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-800' : 'bg-gold-500/20 text-gold-300 border border-gold-800'
               }`}
             >
               {difficulty}
@@ -1323,12 +1323,12 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
       {/* ─── PHASE 1: DISCOVERY (CURIOSITY HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/70 mt-2 font-mono bg-indigo-950/80 p-2.5 rounded-lg border border-indigo-900/50">
+            <p className="text-xs text-gold-200/70 mt-2 font-mono bg-gold-950/80 p-2.5 rounded-lg border border-gold-900/50">
               {SCENARIO.context}
             </p>
           </div>
@@ -1336,7 +1336,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
           {/* SVG DIAGRAM 1: Fractional Reserve Credit Multiplier Engine */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 shadow-md">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 System Schematic 1: Fractional Reserve Credit Expansion Engine
               </span>
               <span className="text-[11px] text-slate-400 font-mono">Multiplier = 1 / CRR</span>
@@ -1422,7 +1422,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/40'
                         : 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-850 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-850 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-2.5">
@@ -1448,7 +1448,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 shrink-0"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 shrink-0"
                 >
                   Enter Macroeconomic Labs →
                 </motion.button>
@@ -1464,7 +1464,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Interactive Discovery Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg font-bold text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1475,7 +1475,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     key={idx}
                     aria-label={`Jump to lab ${idx + 1}`}
                     onClick={() => setCurrentSlide(idx)}
-                    className={`w-8 h-2 rounded-full transition-all ${currentSlide === idx ? 'bg-indigo-500 w-10' : 'bg-slate-700'}`}
+                    className={`w-8 h-2 rounded-full transition-all ${currentSlide === idx ? 'bg-gold-500 w-10' : 'bg-slate-700'}`}
                   />
                 ))}
               </div>
@@ -1501,13 +1501,13 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       className="rounded-lg border border-slate-800/80 bg-slate-900/50"
                       aria-label="Real-time currency velocity animation canvas"
                     />
-                    <span className="text-[10px] text-indigo-300 mt-1 font-mono">Interbank Lending Flow</span>
+                    <span className="text-[10px] text-gold-300 mt-1 font-mono">Interbank Lending Flow</span>
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <label htmlFor="crr-slider" className="text-xs font-bold text-slate-400 uppercase">Cash Reserve Ratio (CRR)</label>
                     <div className="flex items-center justify-between">
-                      <span className="text-2xl font-black text-indigo-400">{crrValue}%</span>
+                      <span className="text-2xl font-black text-gold-400">{crrValue}%</span>
                       <span className="text-xs text-slate-400 font-mono">k = {(100 / crrValue).toFixed(1)}x</span>
                     </div>
                     <input
@@ -1519,7 +1519,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       step={0.5}
                       value={crrValue}
                       onChange={e => handleCrrSliderChange(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <p className="text-[11px] text-slate-500">Statutory RBI Reserve lock on Net Demand & Time Liabilities</p>
                   </div>
@@ -1543,10 +1543,10 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     <p className="text-[11px] text-slate-500">Fresh cash brought into bank branch by depositors</p>
                   </div>
 
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-2">
-                    <label className="text-xs font-bold text-indigo-300 uppercase">Theoretical Maximum Expansion</label>
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-2">
+                    <label className="text-xs font-bold text-gold-300 uppercase">Theoretical Maximum Expansion</label>
                     <div className="text-2xl font-black text-white">₹{Math.round(totalBankDeposits).toLocaleString()}</div>
-                    <div className="text-xs text-indigo-300">Total Credit Created: <span className="font-bold text-emerald-400">₹{Math.round(totalCreditCreated).toLocaleString()}</span></div>
+                    <div className="text-xs text-gold-300">Total Credit Created: <span className="font-bold text-emerald-400">₹{Math.round(totalCreditCreated).toLocaleString()}</span></div>
                     <p className="text-[11px] text-slate-400">Formula: Initial × (1 / CRR)</p>
                   </div>
                 </div>
@@ -1613,7 +1613,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <label htmlFor="rd-deposit-slider" className="text-xs font-bold text-slate-400 uppercase">Monthly Instalment (P)</label>
-                    <div className="text-2xl font-black text-indigo-400">₹{rdMonthlyDeposit.toLocaleString()}</div>
+                    <div className="text-2xl font-black text-gold-400">₹{rdMonthlyDeposit.toLocaleString()}</div>
                     <input
                       id="rd-deposit-slider"
                       aria-label="RD Monthly Deposit Slider"
@@ -1623,7 +1623,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       step={500}
                       value={rdMonthlyDeposit}
                       onChange={e => setRdMonthlyDeposit(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <p className="text-xs text-slate-500">Disciplined monthly commitment</p>
                   </div>
@@ -1673,16 +1673,16 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     <span className="text-xs text-slate-400">Compound Interest Earned</span>
                     <div className="text-xl font-bold text-emerald-400 mt-1">+ ₹{rdMaturityCalculation.interest.toLocaleString()}</div>
                   </div>
-                  <div className="p-3 bg-indigo-950/60 border border-indigo-800/80 rounded-lg">
-                    <span className="text-xs text-indigo-300 font-bold">Total Maturity Value</span>
-                    <div className="text-2xl font-black text-indigo-200 mt-1">₹{rdMaturityCalculation.maturityValue.toLocaleString()}</div>
+                  <div className="p-3 bg-gold-950/60 border border-gold-800/80 rounded-lg">
+                    <span className="text-xs text-gold-300 font-bold">Total Maturity Value</span>
+                    <div className="text-2xl font-black text-gold-200 mt-1">₹{rdMaturityCalculation.maturityValue.toLocaleString()}</div>
                   </div>
                 </div>
 
                 {/* Account Comparison Matrix */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                    <div className="font-bold text-indigo-400">Savings Account</div>
+                    <div className="font-bold text-gold-400">Savings Account</div>
                     <p className="text-slate-400">2.7% - 3.5% p.a. | High Liquidity | For households & students | PMJDY variants.</p>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
@@ -1742,7 +1742,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2 md:col-span-1">
                     <label htmlFor="tax-income-slider" className="text-xs font-bold text-slate-400 uppercase">Annual Taxable Income</label>
-                    <div className="text-2xl font-black text-indigo-400">₹{(taxableIncome / 100000).toFixed(1)} Lakhs</div>
+                    <div className="text-2xl font-black text-gold-400">₹{(taxableIncome / 100000).toFixed(1)} Lakhs</div>
                     <input
                       id="tax-income-slider"
                       aria-label="Annual Taxable Income Slider"
@@ -1752,7 +1752,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       step={50000}
                       value={taxableIncome}
                       onChange={e => setTaxableIncome(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="p-3 bg-slate-900 rounded-lg space-y-1 text-xs">
                       <div className="flex justify-between">
@@ -1819,7 +1819,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                 {/* SVG DIAGRAM 3: Monetary Policy Transmission Mechanism */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       System Schematic 3: RBI MPC Monetary Transmission Pipeline
                     </span>
                     <span className="text-[11px] text-slate-400">Target: 4.0% ± 2.0% CPI Band</span>
@@ -1859,7 +1859,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <label htmlFor="repo-slider" className="text-xs font-bold text-slate-400 uppercase">RBI MPC Policy Repo Rate</label>
                     <div className="flex items-center justify-between">
-                      <span className="text-3xl font-black text-indigo-400">{repoRate}%</span>
+                      <span className="text-3xl font-black text-gold-400">{repoRate}%</span>
                       <span className="text-xs text-slate-400">Target Band: 4.0% ± 2.0%</span>
                     </div>
                     <input
@@ -1871,7 +1871,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       step={0.25}
                       value={repoRate}
                       onChange={e => handleRepoSliderChange(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="text-xs text-slate-400 leading-relaxed bg-slate-900 p-3 rounded-lg border border-slate-800">
                       Repo Rate is the rate at which the RBI lends short-term liquidity to commercial banks against G-Sec collateral.
@@ -1942,7 +1942,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       }}
                       className={`p-3 rounded-xl text-left border transition-all ${
                         selectedStateRole === role.id
-                          ? 'bg-indigo-950 border-indigo-500 shadow-lg shadow-indigo-950/50'
+                          ? 'bg-gold-950 border-gold-500 shadow-lg shadow-gold-950/50'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
@@ -1955,7 +1955,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                 {/* PSU Case Detail Box */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                   <div className="flex items-center justify-between">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       Strategic vs Non-Strategic PSU Policy (2021 Landmark Reform)
                     </h4>
                     <span className="text-xs bg-slate-900 px-2 py-0.5 rounded text-slate-400 font-mono">DIPAM / MoF</span>
@@ -2008,7 +2008,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2043,7 +2043,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30 shrink-0"
+              className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30 shrink-0"
             >
               Ready for Assessed Challenges! →
             </motion.button>
@@ -2052,10 +2052,10 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Multiplier Dial */}
             <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase">1. Fractional Reserve Dial</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">1. Fractional Reserve Dial</span>
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">CRR: {crrValue}%</span>
-                <span className="text-indigo-300 font-mono">Multiplier: {(100 / crrValue).toFixed(1)}x</span>
+                <span className="text-gold-300 font-mono">Multiplier: {(100 / crrValue).toFixed(1)}x</span>
               </div>
               <input
                 aria-label="Sandbox CRR Slider"
@@ -2065,7 +2065,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                 step={0.5}
                 value={crrValue}
                 onChange={e => handleCrrSliderChange(parseFloat(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="p-3 bg-slate-950 rounded-lg text-xs space-y-1">
                 <div className="flex justify-between">
@@ -2154,7 +2154,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-slate-400">Score: <strong className="text-emerald-400">{scoreBreakdown.correct}</strong> / {scoreBreakdown.total}</span>
-                <span className="text-slate-400">Mastery: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong></span>
+                <span className="text-slate-400">Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong></span>
                 <span className="text-xs uppercase px-2 py-0.5 rounded bg-purple-950 text-purple-300 border border-purple-800">
                   NEP: {currentChallengeObj.competencyLevel}
                 </span>
@@ -2163,7 +2163,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
 
             <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2179,7 +2179,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2.5 py-1 rounded-md border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2.5 py-1 rounded-md border border-gold-800">
                 Type: {currentChallengeObj.type}
               </span>
               {hintCount > 0 && (
@@ -2209,7 +2209,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     className={`w-full text-left p-4 rounded-xl text-xs md:text-sm font-medium transition-all duration-200 border ${
                       showExplanation && i === currentChallengeObj.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 ring-2 ring-emerald-500/20 shadow-lg'
-                        : 'bg-slate-850 hover:bg-slate-800 text-slate-200 border-slate-750 hover:border-indigo-500'
+                        : 'bg-slate-850 hover:bg-slate-800 text-slate-200 border-slate-750 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start justify-between gap-3">
@@ -2241,7 +2241,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer..."
                     disabled={showExplanation}
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-64"
                   />
                   <span className="text-slate-400 font-bold text-sm">{currentChallengeObj.unit}</span>
                   <motion.button
@@ -2252,7 +2252,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Validate Calculation
                   </motion.button>
@@ -2274,7 +2274,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2292,7 +2292,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       key={box.id}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(box.id)}
-                      className="p-4 bg-slate-950 rounded-xl border border-dashed border-slate-700 hover:border-indigo-500 min-h-[90px] flex flex-col justify-between"
+                      className="p-4 bg-slate-950 rounded-xl border border-dashed border-slate-700 hover:border-gold-500 min-h-[90px] flex flex-col justify-between"
                     >
                       <span className="text-[11px] font-bold text-slate-400">{box.title}</span>
                       <div className="mt-2 text-xs font-bold text-emerald-400">
@@ -2310,7 +2310,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Verify Tax Mappings
                 </motion.button>
@@ -2339,7 +2339,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       className="p-3 bg-slate-950 rounded-xl border border-slate-700 flex items-center justify-between text-xs text-slate-200 cursor-grab"
                     >
                       <div className="flex items-center gap-2.5">
-                        <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center border border-indigo-800">
+                        <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center border border-gold-800">
                           {displayIdx + 1}
                         </span>
                         <span>{currentChallengeObj.sortItems![itemIdx]}</span>
@@ -2356,7 +2356,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Check Sequence
                 </motion.button>
@@ -2375,7 +2375,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950/80 hover:bg-indigo-900 border border-indigo-700/60 text-indigo-200 text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-950/80 hover:bg-gold-900 border border-gold-700/60 text-gold-200 text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2384,7 +2384,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
 
                 <div className="min-h-[80px] p-3 bg-slate-950 rounded-xl border border-slate-700 flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-600 text-white font-mono text-xs rounded-lg flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-600 text-white font-mono text-xs rounded-lg flex items-center gap-1.5">
                       {part}
                       <button aria-label={`Remove part ${part}`} onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-red-300 font-bold hover:text-white">×</button>
                     </span>
@@ -2401,7 +2401,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                   >
                     Evaluate Formula
                   </motion.button>
@@ -2412,9 +2412,9 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
 
             {/* STEP-BY-STEP EXPLANATION WITH PROGRESSIVE DISCLOSURE */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-5 bg-gradient-to-br from-indigo-950/80 to-slate-950 border border-indigo-800 rounded-2xl space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-5 bg-gradient-to-br from-gold-950/80 to-slate-950 border border-gold-800 rounded-2xl space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Step-by-Step Economic Walkthrough:</span>
+                  <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">Step-by-Step Economic Walkthrough:</span>
                   <span className="text-xs text-slate-400 font-mono">
                     Step {revealedSteps + 1} of {currentChallengeObj.explanation.split('. ').filter(s => s.trim().length > 0).length}
                   </span>
@@ -2423,7 +2423,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                 <div className="space-y-2">
                   {currentChallengeObj.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, i) => (
                     <motion.p key={i} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-slate-200 leading-relaxed">
-                      <strong className="text-indigo-400">{i + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                      <strong className="text-gold-400">{i + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
                 </div>
@@ -2435,7 +2435,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-xl"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2462,7 +2462,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
       {/* ─── PHASE 5: COMPLETION SCREEN ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-3 shadow-2xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-3 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Macroeconomic Mastery Achieved!</h2>
             <div className="flex justify-center items-center gap-4 pt-2">
@@ -2472,7 +2472,7 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
               </div>
               <div className="bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Knowledge Tier</span>
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2506,41 +2506,41 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-5 bg-slate-900/90 rounded-2xl border border-indigo-800/60 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+          <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-800/60 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Post-Simulation Deep Reflection
             </h3>
             <div className="space-y-3">
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                <label className="text-xs font-bold text-indigo-300 block">1. What was the most surprising thing you learned?</label>
+                <label className="text-xs font-bold text-gold-300 block">1. What was the most surprising thing you learned?</label>
                 <textarea
                   aria-label="Reflection on what was most surprising"
                   value={reflections.surprising}
                   onChange={e => setReflections({ ...reflections, surprising: e.target.value })}
                   placeholder="e.g., How banks create money out of initial deposits using fractional reserve ratios..."
-                  className="w-full bg-slate-900 text-xs p-2.5 rounded-lg border border-slate-700 text-slate-200 outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full bg-slate-900 text-xs p-2.5 rounded-lg border border-slate-700 text-slate-200 outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                <label className="text-xs font-bold text-indigo-300 block">2. How would you explain this to a friend?</label>
+                <label className="text-xs font-bold text-gold-300 block">2. How would you explain this to a friend?</label>
                 <textarea
                   aria-label="Reflection on explaining this to a friend"
                   value={reflections.explain}
                   onChange={e => setReflections({ ...reflections, explain: e.target.value })}
                   placeholder="e.g., The RBI MPC uses the Repo Rate like a brake pedal to cool inflation..."
-                  className="w-full bg-slate-900 text-xs p-2.5 rounded-lg border border-slate-700 text-slate-200 outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full bg-slate-900 text-xs p-2.5 rounded-lg border border-slate-700 text-slate-200 outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                <label className="text-xs font-bold text-indigo-300 block">3. Where in real life might you use this?</label>
+                <label className="text-xs font-bold text-gold-300 block">3. Where in real life might you use this?</label>
                 <textarea
                   aria-label="Reflection on real life application"
                   value={reflections.reallife}
                   onChange={e => setReflections({ ...reflections, reallife: e.target.value })}
                   placeholder="e.g., Choosing between fixed and recurring deposits, understanding why home loan EMIs fluctuate..."
-                  className="w-full bg-slate-900 text-xs p-2.5 rounded-lg border border-slate-700 text-slate-200 outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full bg-slate-900 text-xs p-2.5 rounded-lg border border-slate-700 text-slate-200 outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
             </div>
@@ -2579,13 +2579,13 @@ export function C10_EconApplicationsRoleCommercialBanksSim({
           </div>
 
           {/* Real World Application Arc */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">💼 {REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300">💼 {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 flex items-start gap-2">
-                  <span className="w-4 h-4 rounded-full bg-indigo-950 text-indigo-400 font-bold flex items-center justify-center text-[10px] shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center text-[10px] shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{step}</span>

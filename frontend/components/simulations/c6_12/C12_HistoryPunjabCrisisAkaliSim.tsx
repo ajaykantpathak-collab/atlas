@@ -1283,8 +1283,8 @@ export function C12_HistoryPunjabCrisisAkaliSim({
                   </div>
 
                   {punjabTension > 60 && !observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-indigo-500/30">
-                      <p className="text-xs font-bold text-indigo-400 mb-2">👁️ What do you observe from the causal dynamic?</p>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-gold-500/30">
+                      <p className="text-xs font-bold text-gold-400 mb-2">👁️ What do you observe from the causal dynamic?</p>
                       <p className="text-xs text-slate-300 mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1961,7 +1961,7 @@ export function C12_HistoryPunjabCrisisAkaliSim({
           </div>
 
           {/* ─── VISIBLE SPACED REPETITION (SRS) SCHEDULE CARD ─── */}
-          <div className="p-6 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border-2 border-indigo-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="p-6 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border-2 border-gold-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <span className="text-lg" aria-hidden="true">📅</span>
@@ -1977,9 +1977,9 @@ export function C12_HistoryPunjabCrisisAkaliSim({
               </p>
             </div>
             <div className="flex items-center gap-2">
-              <div className="px-4 py-2 bg-indigo-600/30 border border-indigo-400/50 rounded-xl text-center">
-                <span className="text-[10px] text-indigo-300 uppercase font-mono block">Recommended Target</span>
-                <span className="text-sm font-black text-indigo-200 font-mono">
+              <div className="px-4 py-2 bg-gold-600/30 border border-gold-400/50 rounded-xl text-center">
+                <span className="text-[10px] text-gold-300 uppercase font-mono block">Recommended Target</span>
+                <span className="text-sm font-black text-gold-200 font-mono">
                   {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
                 </span>
               </div>

@@ -1123,11 +1123,11 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="p-3 bg-indigo-900/40 border border-indigo-700 rounded-2xl text-2xl shadow-inner">
+          <span className="p-3 bg-gold-900/40 border border-gold-700 rounded-2xl text-2xl shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-300 to-purple-400">
+            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 9 Computer Science • Nodes c9_cs_021 - c9_cs_030</p>
@@ -1148,7 +1148,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all uppercase tracking-wider ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1161,16 +1161,16 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
       {/* ─── PHASE 1: DISCOVERY ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-purple-950/40 rounded-3xl border border-indigo-800/60 shadow-xl relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-purple-950/40 rounded-3xl border border-gold-800/60 shadow-xl relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none text-9xl">🚇</div>
-            <div className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-bold rounded-full border border-indigo-400/30 mb-3">
+            <div className="inline-block px-3 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-full border border-gold-400/30 mb-3">
               NARRATIVE MISSION
             </div>
-            <h2 className="text-2xl font-black text-indigo-200 mb-2">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-black text-gold-200 mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed max-w-3xl">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-900/80 rounded-xl border border-indigo-900/50 flex items-center gap-3">
+            <div className="mt-4 p-3 bg-slate-900/80 rounded-xl border border-gold-900/50 flex items-center gap-3">
               <span className="text-xl">⚠️</span>
-              <p className="text-xs text-indigo-300 font-mono">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-300 font-mono">{SCENARIO.context}</p>
             </div>
           </div>
 
@@ -1198,7 +1198,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700/80 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold text-indigo-400 mr-2">
+                  <span className="font-bold text-gold-400 mr-2">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : discoveryAnswered ? '✗ ' : ''}
                     {String.fromCharCode(65 + i)}.
                   </span>
@@ -1212,10 +1212,10 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="mt-4 p-4 rounded-2xl bg-indigo-900/30 border border-indigo-700/50 flex flex-col md:flex-row items-center justify-between gap-4"
+                  className="mt-4 p-4 rounded-2xl bg-gold-900/30 border border-gold-700/50 flex flex-col md:flex-row items-center justify-between gap-4"
                 >
                   <div>
-                    <p className="text-sm font-bold text-indigo-200">
+                    <p className="text-sm font-bold text-gold-200">
                       {discoveryCorrect ? '✓ Great intuition!' : '✗ Common Trap Alert!'}
                     </p>
                     <p className="text-xs text-slate-300 mt-1">
@@ -1232,7 +1232,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       setPhase('explore');
                       audioManager.play('whoosh');
                     }}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-black text-sm rounded-xl shadow-lg hover:shadow-indigo-500/25"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-black text-sm rounded-xl shadow-lg hover:shadow-gold-500/25"
                   >
                     Enter Interactive Lab →
                   </motion.button>
@@ -1248,7 +1248,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}</span>
+              <span className="text-xs font-bold text-gold-400">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <div className="flex gap-2">
@@ -1278,7 +1278,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     audioManager.play('whoosh');
                   }
                 }}
-                className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Free Sandbox Mode →' : 'Next Lab →'}
               </motion.button>
@@ -1300,7 +1300,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleBluejCreateClass}
-                    className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-indigo-300 font-bold text-xs rounded-xl border border-slate-700"
+                    className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 font-bold text-xs rounded-xl border border-slate-700"
                   >
                     + New Class (FareEngine)
                   </motion.button>
@@ -1310,7 +1310,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     whileTap={{ scale: 0.95 }}
                     disabled={!bluejClassCreated}
                     onClick={handleBluejCompile}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     ⚙️ Compile
                   </motion.button>
@@ -1383,7 +1383,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       <button aria-label="Close inspector" onClick={handleBluejInspect} className="text-slate-400 hover:text-white text-xs">✕ Close</button>
                     </div>
                     <div className="grid grid-cols-3 gap-2 text-xs font-mono bg-slate-950 p-3 rounded-xl border border-slate-700">
-                      <div><span className="text-slate-500">Field:</span> <span className="text-indigo-300">baseFare</span></div>
+                      <div><span className="text-slate-500">Field:</span> <span className="text-gold-300">baseFare</span></div>
                       <div><span className="text-slate-500">Type:</span> <span className="text-emerald-400">double</span></div>
                       <div><span className="text-slate-500">Value:</span> <span className="text-amber-300">25.0</span></div>
                     </div>
@@ -1396,8 +1396,8 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
             {currentSlide === 1 && (
               <div className="space-y-6">
                 {!predictionMade && (
-                  <div className="p-4 bg-indigo-950/60 border border-indigo-700/60 rounded-2xl space-y-3">
-                    <span className="text-xs font-bold text-indigo-300 uppercase">Step 1: Predict Before Interacting</span>
+                  <div className="p-4 bg-gold-950/60 border border-gold-700/60 rounded-2xl space-y-3">
+                    <span className="text-xs font-bold text-gold-300 uppercase">Step 1: Predict Before Interacting</span>
                     <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1420,7 +1420,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
                       <label className="text-xs text-slate-400 font-bold">
-                        Manipulate Double Variable (8 Bytes): <span className="text-indigo-400 font-mono text-base">{simDoubleVal.toFixed(2)}</span>
+                        Manipulate Double Variable (8 Bytes): <span className="text-gold-400 font-mono text-base">{simDoubleVal.toFixed(2)}</span>
                       </label>
                       <span className="text-xs text-emerald-400 font-mono">IEEE 754 Floating Precision</span>
                     </div>
@@ -1432,7 +1432,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       step={0.05}
                       value={simDoubleVal}
                       onChange={e => handleDoubleSliderChange(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     />
 
                     {/* SVG 2: Memory Box & Explicit Narrowing Truncation Diagram */}
@@ -1467,9 +1467,9 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     )}
 
                     {/* Integrated Observation Question 1 */}
-                    <div className="mt-4 p-4 bg-slate-950 rounded-2xl border border-indigo-900/50 space-y-3">
+                    <div className="mt-4 p-4 bg-slate-950 rounded-2xl border border-gold-900/50 space-y-3">
                       <div className="flex items-center gap-2">
-                        <span className="text-xs font-black uppercase text-indigo-400 tracking-wider">🔬 What Do You Notice? (Observation 1)</span>
+                        <span className="text-xs font-black uppercase text-gold-400 tracking-wider">🔬 What Do You Notice? (Observation 1)</span>
                       </div>
                       <p className="text-xs font-semibold text-slate-200">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
@@ -1485,13 +1485,13 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                                 : 'bg-slate-900 hover:bg-slate-800 border-slate-700 text-slate-300'
                             }`}
                           >
-                            <span className="font-mono text-indigo-400 mr-2">{String.fromCharCode(65 + optIdx)}.</span>
+                            <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + optIdx)}.</span>
                             {opt}
                           </button>
                         ))}
                       </div>
                       {obsSubmitted[0] && (
-                        <p className="text-[11px] text-indigo-300 font-mono pt-1">
+                        <p className="text-[11px] text-gold-300 font-mono pt-1">
                           💡 {OBSERVATION_QUESTIONS[0].explanation}
                         </p>
                       )}
@@ -1506,7 +1506,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
               <div className="space-y-6">
                 <div className="flex items-center justify-between bg-slate-950 p-4 rounded-2xl border border-slate-800">
                   <div>
-                    <span className="text-xs font-mono text-indigo-400">Target Expression:</span>
+                    <span className="text-xs font-mono text-gold-400">Target Expression:</span>
                     <h3 className="text-lg font-black font-mono text-white">int p = 5; int q = p++ + ++p;</h3>
                   </div>
                   <motion.button
@@ -1514,7 +1514,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleIncStepNext}
-                    className="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-xs rounded-xl shadow-lg"
+                    className="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg"
                   >
                     {simIncStep === 3 ? 'Reset Trace ↺' : `Execute Step ${simIncStep + 1} →`}
                   </motion.button>
@@ -1568,7 +1568,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleScannerFlush}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Action: Read Token / Clear Buffer →
                   </motion.button>
@@ -1616,9 +1616,9 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                 </div>
 
                 {/* Integrated Observation Question 2 */}
-                <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/50 space-y-3">
+                <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/50 space-y-3">
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-black uppercase text-indigo-400 tracking-wider">🔬 What Do You Notice? (Observation 2)</span>
+                    <span className="text-xs font-black uppercase text-gold-400 tracking-wider">🔬 What Do You Notice? (Observation 2)</span>
                   </div>
                   <p className="text-xs font-semibold text-slate-200">{OBSERVATION_QUESTIONS[1].question}</p>
                   <div className="space-y-2">
@@ -1634,13 +1634,13 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                             : 'bg-slate-900 hover:bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
-                        <span className="font-mono text-indigo-400 mr-2">{String.fromCharCode(65 + optIdx)}.</span>
+                        <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + optIdx)}.</span>
                         {opt}
                       </button>
                     ))}
                   </div>
                   {obsSubmitted[1] && (
-                    <p className="text-[11px] text-indigo-300 font-mono pt-1">
+                    <p className="text-[11px] text-gold-300 font-mono pt-1">
                       💡 {OBSERVATION_QUESTIONS[1].explanation}
                     </p>
                   )}
@@ -1660,7 +1660,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                         aria-label={`Select metro line ${num}`}
                         onClick={() => setSimSwitchLine(num)}
                         className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold ${
-                          simSwitchLine === num ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          simSwitchLine === num ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Line {num}
@@ -1685,7 +1685,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 font-mono text-xs text-slate-300 space-y-1">
-                    <p className="text-indigo-400">switch (line) {'{'}</p>
+                    <p className="text-gold-400">switch (line) {'{'}</p>
                     <p className={`pl-4 ${simSwitchLine === 1 ? 'text-amber-300 font-bold bg-amber-950/30' : ''}`}>
                       case 1: routePurple(); {simSwitchBreakOn && 'break;'}
                     </p>
@@ -1696,13 +1696,13 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       case 3: routeYellow(); break;
                     </p>
                     <p className="pl-4 text-slate-500">default: routeShuttle();</p>
-                    <p className="text-indigo-400">{'}'}</p>
+                    <p className="text-gold-400">{'}'}</p>
                     <motion.button
                       aria-label="Trigger switch case execution"
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={handleSwitchDispatch}
-                      className="w-full mt-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl"
+                      className="w-full mt-3 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl"
                     >
                       Trigger Switch Execution ⚡
                     </motion.button>
@@ -1719,7 +1719,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                           className={`p-2 rounded-lg text-xs font-mono font-bold ${
                             out.includes('FALL-THROUGH')
                               ? 'bg-rose-950/60 border border-rose-700 text-rose-300'
-                              : 'bg-slate-900 border border-indigo-700 text-indigo-200'
+                              : 'bg-slate-900 border border-gold-700 text-gold-200'
                           }`}
                         >
                           {out}
@@ -1740,7 +1740,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
       {/* ─── PHASE 3: FREE SANDBOX ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-r from-slate-900 to-indigo-950 rounded-3xl border border-indigo-900/60 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-6 bg-gradient-to-r from-slate-900 to-gold-950 rounded-3xl border border-gold-900/60 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">Free Play Sandbox</span>
               <h2 className="text-xl font-bold text-white">Metro Smart Fare & Conditional Playground</h2>
@@ -1764,12 +1764,12 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-5 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-              <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Input Controls</h3>
+              <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Input Controls</h3>
 
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Travel Distance:</span>
-                  <span className="font-mono text-indigo-400 font-bold">{sandboxDistanceInput.toFixed(1)} km</span>
+                  <span className="font-mono text-gold-400 font-bold">{sandboxDistanceInput.toFixed(1)} km</span>
                 </div>
                 <input
                   type="range"
@@ -1779,7 +1779,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   step={0.5}
                   value={sandboxDistanceInput}
                   onChange={e => setSandboxDistanceInput(parseFloat(e.target.value))}
-                  className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                 />
               </div>
 
@@ -1805,7 +1805,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   aria-label="Toggle monthly pass status"
                   onClick={() => setSandboxHasPass(p => !p)}
                   className={`px-3 py-1 rounded-lg text-xs font-bold border ${
-                    sandboxHasPass ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400'
+                    sandboxHasPass ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400'
                   }`}
                 >
                   {sandboxHasPass ? '✓ YES (-20%)' : '✗ NO'}
@@ -1821,7 +1821,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
 
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-2">
                 <p className="text-slate-400">// Computed Java Logic:</p>
-                <p className="text-indigo-300">
+                <p className="text-gold-300">
                   double slabFare = ({sandboxDistanceInput} &gt;= 20) ? 50.0 : ({sandboxDistanceInput} &gt;= 10) ? 30.0 : 20.0;
                 </p>
                 <p className="text-purple-300">
@@ -1854,7 +1854,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 border border-emerald-500 text-emerald-300'
                     : difficulty === 'standard'
-                    ? 'bg-sky-950 border border-sky-500 text-sky-300'
+                    ? 'bg-gold-950 border border-gold-500 text-gold-300'
                     : 'bg-rose-950 border border-rose-500 text-rose-300'
                 }`}
               >
@@ -1867,13 +1867,13 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
 
             <div className="flex items-center gap-2">
               <span className="text-xs text-slate-400">Mastery:</span>
-              <span className="text-xs font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+              <span className="text-xs font-bold text-gold-400 capitalize">{masteryLevel}</span>
             </div>
           </div>
 
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1905,7 +1905,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                         : 'bg-slate-800 hover:bg-slate-755 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">
+                    <span className="font-bold text-gold-400 mr-2">
                       {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                       {String.fromCharCode(65 + i)}.
                     </span>
@@ -1926,7 +1926,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       aria-label={`Draggable item ${item.label}`}
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow-md"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow-md"
                     >
                       {item.label}
                     </div>
@@ -1944,7 +1944,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       className="p-5 bg-slate-950 rounded-2xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[90px]"
                     >
                       <span className="text-[10px] text-slate-500 uppercase font-mono">{target.replace('_', ' ')}</span>
-                      <span className="text-sm font-bold text-indigo-300 mt-1">
+                      <span className="text-sm font-bold text-gold-300 mt-1">
                         {droppedLabels[target] ? `✓ ${droppedLabels[target]}` : 'Drop Label Here'}
                       </span>
                     </div>
@@ -1956,7 +1956,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify IDE Mapping →
                 </motion.button>
@@ -1979,7 +1979,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Submit Value
                 </motion.button>
@@ -2003,7 +2003,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                     }}
                     className="p-3 bg-slate-800 hover:bg-slate-755 border border-slate-700 rounded-xl text-xs font-mono text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="text-indigo-400 font-bold">{pos + 1}.</span>
+                    <span className="text-gold-400 font-bold">{pos + 1}.</span>
                     {challenge.sortItems![itemIdx]}
                   </div>
                 ))}
@@ -2012,7 +2012,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i))}
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Code Sequence
                 </motion.button>
@@ -2027,7 +2027,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       key={i}
                       aria-label={`Add block ${part}`}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-755 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-755 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </button>
@@ -2036,7 +2036,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900 border border-indigo-600 rounded-md text-xs font-mono text-white flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900 border border-gold-600 rounded-md text-xs font-mono text-white flex items-center gap-1">
                       {part}
                       <button aria-label={`Remove block ${part}`} onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))} className="text-rose-400 ml-1">✕</button>
                     </span>
@@ -2048,7 +2048,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Expression
                 </motion.button>
@@ -2059,9 +2059,9 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800/60 rounded-2xl space-y-3"
               >
-                <span className="text-xs font-bold text-indigo-300 uppercase">Step-by-Step Explanation:</span>
+                <span className="text-xs font-bold text-gold-300 uppercase">Step-by-Step Explanation:</span>
                 {challenge.explanation
                   .split('. ')
                   .filter(s => s.trim().length > 0)
@@ -2073,7 +2073,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200"
                     >
-                      <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2082,7 +2082,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                   <button
                     aria-label="Show next explanation step"
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Step →
                   </button>
@@ -2108,7 +2108,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD CERTIFICATION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-3xl border border-indigo-800 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-3xl border border-gold-800 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-black text-white">Java Simulation Complete!</h2>
 
@@ -2120,7 +2120,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
                 </span>
               )}
               {errors >= 1 && errors <= 3 && (
-                <span className="text-sky-300 font-black text-sm tracking-wide">
+                <span className="text-gold-300 font-black text-sm tracking-wide">
                   ✓ Great work! You have a solid grasp of Java in BlueJ!
                 </span>
               )}
@@ -2147,7 +2147,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 w-36">
                 <span className="text-xs text-slate-400 font-mono">Mastery Rank</span>
-                <div className="text-2xl font-black text-indigo-300 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-300 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2176,22 +2176,22 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
             </h3>
             <div className="space-y-3 text-xs text-slate-300">
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="font-semibold text-indigo-300">1. What was the most surprising thing you learned?</p>
+                <p className="font-semibold text-gold-300">1. What was the most surprising thing you learned?</p>
                 <p className="text-slate-400 mt-1">e.g., How nextInt() leaves the dangling newline '\n' on the conveyor belt, or how (int) truncates without rounding.</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="font-semibold text-indigo-300">2. How would you explain prefix vs postfix increment to a friend?</p>
+                <p className="font-semibold text-gold-300">2. How would you explain prefix vs postfix increment to a friend?</p>
                 <p className="text-slate-400 mt-1">e.g., ++p increments the variable immediately before use, while p++ supplies the old value first then increments.</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="font-semibold text-indigo-300">3. Where in real life might you use this?</p>
+                <p className="font-semibold text-gold-300">3. Where in real life might you use this?</p>
                 <p className="text-slate-400 mt-1">e.g., Constructing smart metro fare gates, automated discount calculators, or sensor stream parsers.</p>
               </div>
             </div>
           </div>
 
           {/* Spaced Repetition Visibility Card (SRS) */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 border-2 border-amber-500/60 rounded-3xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 border-2 border-amber-500/60 rounded-3xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <div className="p-3.5 bg-amber-500/20 rounded-2xl border border-amber-500/40 text-3xl">
                 📅
@@ -2227,7 +2227,7 @@ function C9_ComputerScienceBluejCreatingProjectsSim({
             <div className="space-y-1 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="text-xs text-slate-400 font-mono flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

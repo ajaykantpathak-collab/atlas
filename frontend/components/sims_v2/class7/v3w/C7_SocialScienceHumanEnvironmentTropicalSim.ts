@@ -11,7 +11,7 @@ export const w_c7_socialsciencehumanenvironmenttropicalsim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Challenges Faced by Indian Farmers',
     chapters: [],
     nodeIds: ['c7_geo_ch04_010', 'c7_geo_ch03_010', 'c7_geo_ch04_004', 'c7_geo_ch04_002', 'c7_geo_ch04_001', 'c7_geo_ch04_011', 'c7_geo_ch03_006', 'c7_geo_ch03_007', 'c7_geo_ch03_008', 'c7_geo_ch03_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you look at fields in your nearest village or read about farmers in the news, you might notice that.', goal: 'Master Challenges Faced by Indian Farmers.' },
     discovery: {
         question: 'What term describes a farming plot that has been divided into very small, scattered pieces across generations among family members?',
@@ -20,7 +20,7 @@ export const w_c7_socialsciencehumanenvironmenttropicalsim: SimDef = {
         hook: 'Students often believe that Indian farmers are poor simply because they are lazy or do not know modern farming.',
     },
     teaching: [
-        { title: 'Challenges faced by Indian farmers refer to.', text: 'Challenges faced by Indian farmers refer to the severe economic, environmental, and structural obstacles—such as erratic monsoon rainfall, fragmented landholdings, high debt burdens, and inadequate.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Challenges faced by Indian farmers refer to.', text: 'Challenges faced by Indian farmers refer to the severe economic, environmental, and structural obstacles—such as erratic monsoon rainfall, fragmented landholdings, high debt burdens, and inadequate.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_geo_ch04_010', title: 'Challenges faced by Indian farmers.',

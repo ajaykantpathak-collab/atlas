@@ -11,7 +11,7 @@ export const w_c11_mathematicsstraightlinessim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Distance Between Two Points',
     chapters: [],
     nodeIds: ['c11_math_cbse_10_002', 'c11_math_cbse_10_007', 'c11_math_cbse_10_009', 'c11_math_cbse_10_010', 'c11_math_cbse_10_011', 'c11_math_cbse_10_012', 'c11_math_cbse_10_013', 'c11_math_cbse_11_009', 'c11_math_cbse_02_006', 'c11_math_cbse_10_001', 'c11_math_cbse_10_003', 'c11_math_cbse_10_004', 'c11_math_cbse_10_005', 'c11_math_cbse_10_006', 'c11_math_cbse_10_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at your school gate (point A) and your friend is at the bus stop (point B).', goal: 'Master Distance Between Two Points.' },
     discovery: {
         question: 'State the condition for two lines with slopes m₁ and m₂ to be (i) parallel, (ii) perpendicular. What is the slope of a line parallel to the y-axis?',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsstraightlinessim: SimDef = {
         hook: 'Students often think that perpendicular lines have slopes that are just "negative" of each other (m₂ = -m₁) instead of.',
     },
     teaching: [
-        { title: 'The distance between two points \\(P(x_1,.', text: 'The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian plane is the length of the straight line segment joining them, given by \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 -.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The distance between two points \\(P(x_1,.', text: 'The distance between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian plane is the length of the straight line segment joining them, given by \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 -.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_10_002', title: 'The distance between two points.',

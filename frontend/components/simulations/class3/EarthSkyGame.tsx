@@ -58,7 +58,7 @@ const TEACHING_SLIDES = [
     title: 'Our Home: The Earth 🌍',
     text: 'The earth is the planet we live on! It is shaped like a big round ball floating in space, and it is the only home we have with air to breathe, water to drink, plants, and animals.',
     emoji: '🌍',
-    bgColor: 'from-blue-400 to-indigo-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'The earth is the planet we live on! It is shaped like a big round ball with air, water, plants, and animals.',
   },
   {
@@ -79,7 +79,7 @@ const TEACHING_SLIDES = [
     title: 'Clean Food, Air & Water 💧🍎💨',
     text: 'To stay healthy and strong, we need clean food, clean air, and clean water! Dirty water has germs, uncovered food attracts flies, and smoky air causes coughing.',
     emoji: '💧',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'We need clean food, clean air, and clean water to stay healthy. Dirty water and spoiled food cause illness.',
   },
   {
@@ -385,7 +385,7 @@ function SkywatcherSana({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thi
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-2xl px-4 py-2.5 shadow-xl max-w-[240px] border-2 border-sky-300"
+            className="mb-1 bg-white rounded-2xl px-4 py-2.5 shadow-xl max-w-[240px] border-2 border-gold-300"
           >
             <p className="text-xs font-bold text-gray-800 leading-snug">{speaking}</p>
           </motion.div>
@@ -513,7 +513,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-sky-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1.5`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1.5`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -775,7 +775,7 @@ export function EarthSkyGame({ width = 720, height = 560, onComplete }: EarthSky
               {TEACHING_SLIDES.map((_, i) => (
                 <div
                   key={i}
-                  className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-sky-400' : 'w-2.5 bg-white/40'}`}
+                  className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-400' : 'w-2.5 bg-white/40'}`}
                 />
               ))}
             </div>
@@ -808,7 +808,7 @@ export function EarthSkyGame({ width = 720, height = 560, onComplete }: EarthSky
                 if (slideIdx > 0) setSlideIdx(prev => prev - 1);
               }}
               disabled={slideIdx === 0}
-              className={`px-5 py-2.5 rounded-2xl font-bold text-white shadow-lg transition-all ${slideIdx === 0 ? 'opacity-40 cursor-not-allowed bg-gray-600' : 'bg-sky-600 hover:bg-sky-500'}`}
+              className={`px-5 py-2.5 rounded-2xl font-bold text-white shadow-lg transition-all ${slideIdx === 0 ? 'opacity-40 cursor-not-allowed bg-gray-600' : 'bg-gold-600 hover:bg-gold-500'}`}
             >
               ⬅️ Previous
             </button>
@@ -836,7 +836,7 @@ export function EarthSkyGame({ width = 720, height = 560, onComplete }: EarthSky
           {/* Top Bar */}
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-3">
-              <span className="bg-sky-500/80 text-white font-black text-xs px-3 py-1.5 rounded-full shadow">
+              <span className="bg-gold-500/80 text-white font-black text-xs px-3 py-1.5 rounded-full shadow">
                 Level {challengeIdx + 1} / {CHALLENGES.length}
               </span>
               <StarRow count={stars} total={CHALLENGES.length} />
@@ -855,7 +855,7 @@ export function EarthSkyGame({ width = 720, height = 560, onComplete }: EarthSky
           </div>
 
           {/* Question Card */}
-          <div className="bg-white/95 rounded-3xl p-6 shadow-2xl mx-auto max-w-xl w-full border-4 border-sky-300 text-center my-auto">
+          <div className="bg-white/95 rounded-3xl p-6 shadow-2xl mx-auto max-w-xl w-full border-4 border-gold-300 text-center my-auto">
             <h3 className="text-xl font-extrabold text-gray-900 mb-6 leading-snug">
               {currentChallenge.question}
             </h3>
@@ -866,7 +866,7 @@ export function EarthSkyGame({ width = 720, height = 560, onComplete }: EarthSky
                 {currentChallenge.options.map((opt, idx) => {
                   const isSelected = selectedOption === opt;
                   const isCorrect = opt === currentChallenge.answer;
-                  let btnBg = 'bg-sky-50 hover:bg-sky-100 text-gray-800 border-sky-200';
+                  let btnBg = 'bg-gold-50 hover:bg-gold-100 text-gray-800 border-gold-200';
 
                   if (selectedOption !== null) {
                     if (isCorrect) btnBg = 'bg-emerald-500 text-white border-emerald-600 scale-[1.02]';

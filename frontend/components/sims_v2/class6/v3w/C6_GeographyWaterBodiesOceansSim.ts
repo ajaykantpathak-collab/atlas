@@ -11,7 +11,7 @@ export const w_c6_geographywaterbodiesoceanssim: SimDef = {
     classLevel: 6, subject: 'geography', topic: 'The Monsoons: India\'s Lifeline',
     chapters: [],
     nodeIds: ['c6_geography_ch03_016', 'c6_geography_ch03_015'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are standing on a beach on a hot summer afternoon; why does the breeze feel like it’s blowing.', goal: 'Master The Monsoons: India\'s Lifeline.' },
     discovery: {
         question: 'What does the word "monsoon" mean, and where does it come from?',
@@ -20,7 +20,7 @@ export const w_c6_geographywaterbodiesoceanssim: SimDef = {
         hook: 'Students often believe that the monsoon is just "rainy clouds" that appear out of nowhere.',
     },
     teaching: [
-        { title: 'The monsoon is a seasonal reversal of wind.', text: 'The monsoon is a seasonal reversal of wind patterns that brings heavy, life-sustaining rainfall to India between June and September.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The monsoon is a seasonal reversal of wind.', text: 'The monsoon is a seasonal reversal of wind patterns that brings heavy, life-sustaining rainfall to India between June and September.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_geography_ch03_016', title: 'The monsoon is a seasonal reversal of.',

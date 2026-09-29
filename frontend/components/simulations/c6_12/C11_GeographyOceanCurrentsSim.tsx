@@ -62,9 +62,9 @@ export function C11_GeographyOceanCurrentsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">🌀</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🌀</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 11 -- Movements of Ocean Water</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Movements of Ocean Water</span>
           <h1 className="text-xl md:text-2xl font-extrabold">The Gyre Engine: Warm West, Cold East</h1>
         </div>
       </div>
@@ -115,11 +115,11 @@ export function C11_GeographyOceanCurrentsSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">East current</p>
-              <p className="font-mono font-bold text-sky-300">{vEast.toFixed(2)} m/s</p>
+              <p className="font-mono font-bold text-gold-300">{vEast.toFixed(2)} m/s</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Winter anomaly</p>
-              <p className={`font-mono font-bold ${fx.anomaly >= 0 ? 'text-orange-300' : 'text-sky-300'}`}>{fx.anomaly >= 0 ? '+' : ''}{fx.anomaly.toFixed(1)} &deg;C</p>
+              <p className={`font-mono font-bold ${fx.anomaly >= 0 ? 'text-orange-300' : 'text-gold-300'}`}>{fx.anomaly >= 0 ? '+' : ''}{fx.anomaly.toFixed(1)} &deg;C</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Crossing (5000 km)</p>
@@ -132,11 +132,11 @@ export function C11_GeographyOceanCurrentsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setSouth(false)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${!south ? 'bg-sky-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${!south ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 North hemisphere
               </button>
               <button onClick={() => setSouth(true)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${south ? 'bg-sky-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${south ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 South hemisphere
               </button>
             </div>
@@ -153,7 +153,7 @@ export function C11_GeographyOceanCurrentsSim() {
                 Station: {warmName}
               </button>
               <button onClick={() => setCoast('east')}
-                className={`min-h-11 rounded-xl text-[10px] font-bold ${coast === 'east' ? 'bg-sky-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-[10px] font-bold ${coast === 'east' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Station: {coldName}
               </button>
             </div>
@@ -174,7 +174,7 @@ export function C11_GeographyOceanCurrentsSim() {
           <div className="bg-slate-900/60 rounded-2xl border border-slate-800 p-4 text-xs grid grid-cols-2 gap-3">
             <div>
               <p className="text-[10px] text-slate-500">Coast water source</p>
-              <p className={`font-bold ${fx.warm ? 'text-orange-300' : 'text-sky-300'}`}>{fx.warm ? 'tropical, 26 &deg;C' : 'subpolar, 12 &deg;C'}</p>
+              <p className={`font-bold ${fx.warm ? 'text-orange-300' : 'text-gold-300'}`}>{fx.warm ? 'tropical, 26 &deg;C' : 'subpolar, 12 &deg;C'}</p>
             </div>
             <div>
               <p className="text-[10px] text-slate-500">Fog days / year</p>
@@ -199,8 +199,8 @@ export function C11_GeographyOceanCurrentsSim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Flip to the Southern Hemisphere. Which way does the gyre turn now -- and which coast keeps the cold, foggy, fish-rich current?</p>
             <p>2. Set wind to 5 m/s, then 35. How many days does the crossing swing by -- and why does the western current grow about six times faster?</p>
           </div>

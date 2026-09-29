@@ -11,7 +11,7 @@ export const w_c12_physicsalternatingcurrentcbsesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'AC Voltage and Current: RMS Value',
     chapters: [],
     nodeIds: ['c12_phy_cbse_07_001', 'c12_phy_cbse_07_003', 'c12_phy_cbse_07_004', 'c12_phy_cbse_07_009', 'c12_phy_cbse_06_005', 'c12_phy_cbse_06_006', 'c12_phy_cbse_14_005', 'c12_phy_cbse_14_006', 'c12_phy_cbse_07_002', 'c12_phy_cbse_07_005', 'c12_phy_cbse_07_006', 'c12_phy_cbse_07_007', 'c12_phy_cbse_07_008', 'c12_phy_cbse_13_005', 'c12_phy_cbse_10_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe the ceiling fan in your classroom — it runs on the 220 V AC mains supply.', goal: 'Master AC Voltage and Current: RMS Value.' },
     discovery: {
         question: 'What is the SI unit of capacitive reactance, and how does it change if the frequency of the AC source is doubled while capacitance remains constant?',
@@ -20,7 +20,7 @@ export const w_c12_physicsalternatingcurrentcbsesim: SimDef = {
         hook: 'Students often think that because the average power in a pure capacitor is zero, the capacitor “does not draw any.',
     },
     teaching: [
-        { title: 'The root mean square (RMS) value of an.', text: 'The root mean square (RMS) value of an alternating current or voltage is the equivalent steady direct current or voltage that would produce the same average power dissipation in a purely resistive.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The root mean square (RMS) value of an.', text: 'The root mean square (RMS) value of an alternating current or voltage is the equivalent steady direct current or voltage that would produce the same average power dissipation in a purely resistive.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_07_001', title: 'The root mean square (RMS) value of an.',

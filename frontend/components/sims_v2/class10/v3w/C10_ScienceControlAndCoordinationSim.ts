@@ -11,7 +11,7 @@ export const w_c10_sciencecontrolandcoordinationsim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Control and Coordination in Animals vs Plants: Overview',
     chapters: [],
     nodeIds: ['c10_bio_cbse_02_001', 'c10_bio_cbse_02_010', 'c10_bio_cbse_02_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a mimosa plant (touch-me-not) folding its leaves when touched and compare it to instantly pulling.', goal: 'Master Control and Coordination in Animals vs Plants: Overview.' },
     discovery: {
         question: 'Name the three major divisions of the human brain and give one main function of each.',
@@ -20,7 +20,7 @@ export const w_c10_sciencecontrolandcoordinationsim: SimDef = {
         hook: 'Students think the "midbrain" is a minor relay with no distinct function, so they write "connects forebrain and.',
     },
     teaching: [
-        { title: 'Control and coordination is the biological.', text: 'Control and coordination is the biological process by which organisms detect changes (stimuli) in their internal and external environment and produce appropriate, regulated responses; in animals this.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Control and coordination is the biological.', text: 'Control and coordination is the biological process by which organisms detect changes (stimuli) in their internal and external environment and produce appropriate, regulated responses; in animals this.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_bio_cbse_02_001', title: 'Control and coordination is the.',

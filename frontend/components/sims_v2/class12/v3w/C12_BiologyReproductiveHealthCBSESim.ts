@@ -11,7 +11,7 @@ export const w_c12_biologyreproductivehealthcbsesim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Gametogenesis: Spermatogenesis',
     chapters: [],
     nodeIds: ['c12_bio_cbse_03_003', 'c12_bio_cbse_03_009', 'c12_bio_cbse_04_001', 'c12_bio_cbse_04_005', 'c12_bio_cbse_04_007', 'c12_bio_cbse_09_002', 'c12_bio_cbse_03_001', 'c12_bio_cbse_03_002', 'c12_bio_cbse_03_006', 'c12_bio_cbse_03_008', 'c12_bio_cbse_09_001', 'c12_bio_cbse_09_003', 'c12_bio_cbse_08_002', 'c12_bio_cbse_08_008', 'c12_bio_cbse_08_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: a healthy adult male produces ~100–300 million sperm daily — ask "How.', goal: 'Master Gametogenesis: Spermatogenesis.' },
     discovery: {
         question: 'A histology slide shows a seminiferous tubule cross-section with large cells having prominent nucleoli near the basement membrane, smaller cells with condensed.',
@@ -20,7 +20,7 @@ export const w_c12_biologyreproductivehealthcbsesim: SimDef = {
         hook: 'Students often think "spermatogenesis = meiosis only" and forget the mitotic stem-cell amplification phase.',
     },
     teaching: [
-        { title: 'Spermatogenesis is the continuous, cyclic.', text: 'Spermatogenesis is the continuous, cyclic process in the seminiferous tubules of the testes where diploid spermatogonia undergo mitotic proliferation, meiotic division, and spermiogenesis to produce.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Spermatogenesis is the continuous, cyclic.', text: 'Spermatogenesis is the continuous, cyclic process in the seminiferous tubules of the testes where diploid spermatogonia undergo mitotic proliferation, meiotic division, and spermiogenesis to produce.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_03_003', title: 'Spermatogenesis is the continuous,.',

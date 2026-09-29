@@ -11,11 +11,11 @@ export const w_c7_mathematicsperimeterandareasim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Equilateral Triangles: Construction and Properties',
     chapters: [],
     nodeIds: ['c7_math_ch07_002', 'c7_math_ch04_010', 'c7_math_ch07_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need.', goal: 'Master Equilateral Triangles: Construction and Properties.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'An equilateral triangle is a special.', text: 'An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An equilateral triangle is a special.', text: 'An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch07_002', title: 'An equilateral triangle is a special.',

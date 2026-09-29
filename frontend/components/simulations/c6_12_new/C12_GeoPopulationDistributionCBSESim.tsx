@@ -1440,10 +1440,10 @@ const DemographicTransitionChartSVG: React.FC<{
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-xl">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-cyan-400 font-bold text-sm uppercase tracking-wide">
+        <h4 className="text-gold-400 font-bold text-sm uppercase tracking-wide">
           Demographic Transition Model & Growth Curves
         </h4>
-        <div className="text-xs bg-cyan-950 text-cyan-300 px-3 py-1 rounded-full border border-cyan-800">
+        <div className="text-xs bg-gold-950 text-gold-300 px-3 py-1 rounded-full border border-gold-800">
           Current Stage: <span className="font-bold text-white">Stage {stage}</span> | RNI:{' '}
           <span className="font-bold text-amber-300">{rni} / 1000</span>
         </div>
@@ -1671,7 +1671,7 @@ const LandUseAndCropDistributionSVG: React.FC<{
           </div>
           <div className="border-b border-slate-800 pb-1">
             <span className="text-slate-400">Top Producing States:</span>
-            <span className="block font-semibold text-sky-300 mt-0.5">{selectedCrop.topStates.join(', ')}</span>
+            <span className="block font-semibold text-gold-300 mt-0.5">{selectedCrop.topStates.join(', ')}</span>
           </div>
           <div>
             <span className="text-slate-400">Climate & Soil Needs:</span>
@@ -2054,7 +2054,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
             GEO
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-amber-400 via-emerald-300 to-sky-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-amber-400 via-emerald-300 to-gold-400 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">Class 12 ISC / CBSE Geography • Population Distribution & Dynamics</p>
@@ -2179,7 +2179,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
 
           {/* PREDICTION QUESTIONS LIST */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-sky-400">Demographic Hypothesis & Predictions</h3>
+            <h3 className="text-base font-bold text-gold-400">Demographic Hypothesis & Predictions</h3>
             {PREDICTION_QUESTIONS.map((pred, pIdx) => (
               <div key={pIdx} className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-2">{pred.question}</p>
@@ -2190,7 +2190,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                       onClick={() => setPredAnswers((prev) => ({ ...prev, [pIdx]: oIdx }))}
                       className={`p-2 rounded text-xs text-left transition-all ${
                         predAnswers[pIdx] === oIdx
-                          ? 'bg-sky-500/20 border border-sky-400 text-sky-200 font-medium'
+                          ? 'bg-gold-500/20 border border-gold-400 text-gold-200 font-medium'
                           : 'bg-slate-900 border border-slate-800 text-slate-400 hover:bg-slate-850'
                       }`}
                     >
@@ -2322,7 +2322,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                 <div className="pt-2 border-t border-slate-800 space-y-2">
                   <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 flex justify-between items-center">
                     <span className="text-xs text-slate-400">Arithmetic Density:</span>
-                    <span className="font-bold text-sky-400 text-sm">
+                    <span className="font-bold text-gold-400 text-sm">
                       {calculatedArithmeticDensity} persons/km²
                     </span>
                   </div>
@@ -2354,7 +2354,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
           {activeLabStep === 1 && (
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div className="lg:col-span-1 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wide">
+                <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                   Natality & Mortality Controls
                 </h4>
 
@@ -2377,7 +2377,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                 <div>
                   <label className="text-xs text-slate-300 flex justify-between">
                     <span>Crude Death Rate (CDR per 1,000):</span>
-                    <span className="font-bold text-sky-400">{cdr}</span>
+                    <span className="font-bold text-gold-400">{cdr}</span>
                   </label>
                   <input
                     type="range"
@@ -2386,7 +2386,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                     step="0.5"
                     value={cdr}
                     onChange={(e) => setCdr(Number(e.target.value))}
-                    className="w-full accent-sky-500 mt-1"
+                    className="w-full accent-gold-500 mt-1"
                   />
                 </div>
 
@@ -2461,7 +2461,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
           {activeLabStep === 2 && (
             <div className="space-y-6">
               <div className="bg-slate-900 p-5 rounded-2xl border border-slate-800">
-                <h4 className="text-xs font-bold text-sky-400 uppercase tracking-wide mb-3">
+                <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wide mb-3">
                   Select Indian State Profile (Census Matrix)
                 </h4>
                 <div className="flex flex-wrap gap-2">
@@ -2471,7 +2471,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                       onClick={() => setSelectedStateId(state.id)}
                       className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                         selectedStateId === state.id
-                          ? 'bg-sky-500 text-slate-950 font-bold shadow-lg scale-105'
+                          ? 'bg-gold-500 text-slate-950 font-bold shadow-lg scale-105'
                           : 'bg-slate-950 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
@@ -2496,13 +2496,13 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                   </div>
                   <div className="text-xs text-slate-300">
                     Sex Ratio:{' '}
-                    <span className="font-bold text-sky-300">{currentStateData.sexRatio} females / 1000 males</span>
+                    <span className="font-bold text-gold-300">{currentStateData.sexRatio} females / 1000 males</span>
                   </div>
                 </div>
 
                 <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
                   <h5 className="text-xs font-bold text-slate-400 uppercase">Spatial Density & Urbanization</h5>
-                  <div className="text-xl font-bold text-sky-400">{currentStateData.density} persons/km²</div>
+                  <div className="text-xl font-bold text-gold-400">{currentStateData.density} persons/km²</div>
                   <div className="text-xs text-slate-300">
                     Physiological Density:{' '}
                     <span className="font-bold text-amber-300">{currentStateData.physioDensity} persons/ha</span>
@@ -2529,7 +2529,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                       <span className="font-bold text-white">{currentStateData.secondaryWorkerPct}%</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sky-400">Tertiary Sector (Services):</span>
+                      <span className="text-gold-400">Tertiary Sector (Services):</span>
                       <span className="font-bold text-white">{currentStateData.tertiaryWorkerPct}%</span>
                     </div>
                   </div>
@@ -2598,7 +2598,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
                       </div>
                       <div className="text-xs text-emerald-400 font-semibold mb-1">Global: {crop.globalRank}</div>
                       <div className="text-[11px] text-slate-300">
-                        Top States: <span className="text-sky-300 font-medium">{crop.topStates.join(', ')}</span>
+                        Top States: <span className="text-gold-300 font-medium">{crop.topStates.join(', ')}</span>
                       </div>
                     </div>
                   ))}
@@ -2818,7 +2818,7 @@ export const C12_GeoPopulationDistributionCBSESim: React.FC<Props> = ({ onComple
 
             {/* Diagnostic Knowledge Assessment */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-3">
-              <h4 className="text-xs font-bold text-sky-400 uppercase tracking-wide">
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                 Diagnostic Board Exam Self-Check
               </h4>
               <div className="space-y-4 max-h-[420px] overflow-y-auto pr-2">

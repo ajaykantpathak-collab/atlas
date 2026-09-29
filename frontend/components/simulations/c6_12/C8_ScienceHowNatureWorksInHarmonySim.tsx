@@ -86,8 +86,8 @@ export function C8_ScienceHowNatureWorksInHarmonySim() {
             <input type="range" min={0.2} max={0.9} step={0.05} value={eatRate} aria-label="grazing rate" onChange={(e) => setEatRate(Number(e.target.value))} className="w-full mt-1 accent-amber-600" />
           </div>
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Starting rabbits</span><span className="font-mono text-indigo-600">{initRabbits}</span></label>
-            <input type="range" min={5} max={60} value={initRabbits} aria-label="initial rabbits" onChange={(e) => setInitRabbits(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Starting rabbits</span><span className="font-mono text-gold-600">{initRabbits}</span></label>
+            <input type="range" min={5} max={60} value={initRabbits} aria-label="initial rabbits" onChange={(e) => setInitRabbits(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Starting foxes</span><span className="font-mono text-rose-600">{initFoxes}</span></label>
@@ -103,12 +103,12 @@ export function C8_ScienceHowNatureWorksInHarmonySim() {
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             <div>grass cover: <span className="text-emerald-700 font-bold">{Math.round(last.grass)}%</span></div>
-            <div>rabbits: <span className="text-indigo-700 font-bold">{Math.round(last.rabbits)}</span></div>
+            <div>rabbits: <span className="text-gold-700 font-bold">{Math.round(last.rabbits)}</span></div>
             <div>foxes: <span className="text-rose-700 font-bold">{Math.round(last.foxes)}</span></div>
           </div>
         </div>
 
-        <div className="md:col-span-3 p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="md:col-span-3 p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 340 190" className="w-full">
             <line x1={10} y1={170} x2={330} y2={170} stroke="#94a3b8" />
             <polyline points={chart.grassLine} fill="none" stroke="#16a34a" strokeWidth={2} opacity={0.7} />

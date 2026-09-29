@@ -1158,14 +1158,14 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
           <motion.div
             whileHover={{ rotate: 360, scale: 1.1 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
             aria-label="Computer Science icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl font-black text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 12 Capstone • Nodes 081–085 Synchronized</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 12 Capstone • Nodes 081–085 Synchronized</p>
           </div>
         </div>
 
@@ -1177,14 +1177,14 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
             className={`px-3 py-1 text-xs font-bold rounded-full border ${
               difficulty === 'foundation' ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700' :
               difficulty === 'advanced' ? 'bg-rose-950/80 text-rose-400 border-rose-700' :
-              'bg-indigo-950/80 text-indigo-400 border-indigo-700'
+              'bg-gold-950/80 text-gold-400 border-gold-700'
             }`}
           >
             {difficulty.toUpperCase()} TIER
           </motion.span>
 
           <div className="px-3 py-1 bg-slate-800/80 rounded-full border border-slate-700 text-xs text-slate-300">
-            Phase: <span className="text-indigo-300 font-bold capitalize">{phase}</span>
+            Phase: <span className="text-gold-300 font-bold capitalize">{phase}</span>
           </div>
         </div>
       </motion.div>
@@ -1192,13 +1192,13 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 mb-2 text-indigo-400 font-semibold text-sm">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 font-semibold text-sm">
               <span>🚀</span> NARRATIVE MISSION BRIEFING
             </div>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 bg-indigo-950/50 p-3 rounded-xl border border-indigo-900">
+            <p className="text-xs text-gold-300/80 bg-gold-950/50 p-3 rounded-xl border border-gold-900">
               {SCENARIO.context}
             </p>
           </div>
@@ -1223,10 +1223,10 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-bold mr-2 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 mr-2 font-bold">✓</span>}
                   {opt}
                 </motion.button>
@@ -1248,7 +1248,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Launch Live Revision Labs"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-950/50 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-700 hover:from-gold-500 hover:to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-950/50 flex items-center gap-2"
                 >
                   Launch Live Revision Labs →
                 </motion.button>
@@ -1265,7 +1265,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
             <div className="flex items-center gap-2">
               <span className="text-lg">🧪</span>
               <span className="text-sm font-bold text-white">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
-              <span className="text-sm text-indigo-300 font-semibold">{EXPLORATION_STEPS[currentSlide].title}</span>
+              <span className="text-sm text-gold-300 font-semibold">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex gap-2">
               {EXPLORATION_STEPS.map((_, idx) => (
@@ -1273,7 +1273,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   key={idx}
                   onClick={() => setCurrentSlide(idx)}
                   aria-label={`Jump to lab ${idx + 1}`}
-                  className={`w-3 h-3 rounded-full transition-all ${currentSlide === idx ? 'bg-indigo-500 w-8' : 'bg-slate-700'}`}
+                  className={`w-3 h-3 rounded-full transition-all ${currentSlide === idx ? 'bg-gold-500 w-8' : 'bg-slate-700'}`}
                 />
               ))}
             </div>
@@ -1287,7 +1287,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
               exit={{ opacity: 0, x: -20 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
-              <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/50 text-indigo-300 text-xs font-medium">
+              <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/50 text-gold-300 text-xs font-medium">
                 🎯 {EXPLORATION_STEPS[currentSlide].instruction}
               </div>
 
@@ -1297,7 +1297,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
                       <span className="text-xs font-bold text-slate-400 uppercase">Interactive Recursion Call Stack</span>
-                      <span className="text-xs text-indigo-400 font-mono">factorial({recursionN})</span>
+                      <span className="text-xs text-gold-400 font-mono">factorial({recursionN})</span>
                     </div>
 
                     <div className="flex items-center gap-3">
@@ -1310,13 +1310,13 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                         max={6}
                         value={recursionN}
                         onChange={(e) => setRecursionN(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <span className="text-sm font-mono font-bold text-white">{recursionN}</span>
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl font-mono text-xs text-slate-300 border border-slate-800 space-y-1">
-                      <p className="text-indigo-400 font-bold">// Model ISC Recursive Method</p>
+                      <p className="text-gold-400 font-bold">// Model ISC Recursive Method</p>
                       <p><span className="text-purple-400">int</span> fact(<span className="text-purple-400">int</span> n) &#123;</p>
                       <p className="pl-4"><span className="text-rose-400">if</span> (n &lt;= 1) <span className="text-rose-400">return</span> 1; <span className="text-slate-500">// Base Case</span></p>
                       <p className="pl-4"><span className="text-rose-400">return</span> n * fact(n - 1); <span className="text-slate-500">// Recursive Step</span></p>
@@ -1329,7 +1329,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setTraceStep(s => Math.min(recursionN, s + 1))}
                         aria-label="Step deeper in recursion stack"
-                        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                        className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                       >
                         Step Deeper ↓
                       </motion.button>
@@ -1357,12 +1357,12 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             className={`p-2.5 rounded-lg border font-mono text-xs flex justify-between items-center ${
                               i === traceStep - 1
-                                ? 'bg-indigo-950/80 border-indigo-500 text-indigo-200 shadow-md'
+                                ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-md'
                                 : 'bg-slate-800 border-slate-700 text-slate-400'
                             }`}
                           >
                             <span>Frame #{i + 1}: fact({currentVal})</span>
-                            <span className="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-indigo-300">
+                            <span className="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-gold-300">
                               {currentVal <= 1 ? 'Base Hit: returns 1' : `Waiting on fact(${currentVal - 1})`}
                             </span>
                           </motion.div>
@@ -1386,7 +1386,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                           aria-label={`Set BST traversal to ${mode}`}
                           className={`px-3 py-1 text-xs font-bold rounded-lg capitalize border ${
                             bstTraversalMode === mode
-                              ? 'bg-indigo-600 border-indigo-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1423,12 +1423,12 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
                     <span className="text-slate-400">Generated Stream:</span>
-                    <span className="font-mono text-indigo-300 font-bold">{bstTraversalResult}</span>
+                    <span className="font-mono text-gold-300 font-bold">{bstTraversalResult}</span>
                   </div>
 
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/80 space-y-3">
-                      <p className="text-xs font-bold text-indigo-200">🔮 Predict-Then-Check: {PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/80 space-y-3">
+                      <p className="text-xs font-bold text-gold-200">🔮 Predict-Then-Check: {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1437,7 +1437,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
                             aria-label={`Prediction choice ${i + 1}: ${opt}`}
-                            className="p-2.5 bg-slate-900 hover:bg-slate-800 rounded-lg text-left text-xs text-slate-300 border border-slate-800 hover:border-indigo-500"
+                            className="p-2.5 bg-slate-900 hover:bg-slate-800 rounded-lg text-left text-xs text-slate-300 border border-slate-800 hover:border-gold-500"
                           >
                             {opt}
                           </motion.button>
@@ -1516,7 +1516,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                             key={i}
                             onClick={() => handleObservation(i)}
                             aria-label={`Observation option ${i + 1}: ${opt}`}
-                            className="p-2.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-left text-xs text-slate-300 border border-slate-700 hover:border-indigo-500"
+                            className="p-2.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-left text-xs text-slate-300 border border-slate-700 hover:border-gold-500"
                           >
                             {opt}
                           </button>
@@ -1535,7 +1535,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
-                        <span className="text-indigo-400 font-bold">Section A (40 Marks)</span>
+                        <span className="text-gold-400 font-bold">Section A (40 Marks)</span>
                         <span className="font-mono text-white">{timeSectionA} min</span>
                       </div>
                       <input
@@ -1545,7 +1545,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                         value={timeSectionA}
                         onChange={(e) => setTimeSectionA(Number(e.target.value))}
                         aria-label="Section A allocated minutes"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[10px] text-slate-400">Pace: {examTimeAudit.minPerMarkSecA} min/mark</p>
                     </div>
@@ -1603,7 +1603,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                 <div className="space-y-4 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   <div className="flex justify-between items-center">
                     <span className="text-xs font-bold text-slate-400 uppercase">Asymptotic Big-O Scaling Inspector</span>
-                    <span className="text-xs text-indigo-400 font-mono">Input Size N = {complexityN}</span>
+                    <span className="text-xs text-gold-400 font-mono">Input Size N = {complexityN}</span>
                   </div>
 
                   <div className="flex items-center gap-3">
@@ -1616,7 +1616,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       value={complexityN}
                       onChange={(e) => setComplexityN(Number(e.target.value))}
                       aria-label="Input size N slider"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1632,7 +1632,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       <p className="text-[9px] text-slate-500">Binary Search</p>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
-                      <p className="text-[10px] text-blue-400 font-bold font-mono">O(N)</p>
+                      <p className="text-[10px] text-gold-400 font-bold font-mono">O(N)</p>
                       <p className="text-sm font-mono text-white font-bold">{complexityCounts.cLinear}</p>
                       <p className="text-[9px] text-slate-500">Linear Scan</p>
                     </div>
@@ -1671,7 +1671,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
                     aria-label="Next Lab"
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1716,7 +1716,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
               <div className="flex justify-between items-center">
                 <span className="text-xs font-bold text-slate-400 uppercase">Array Stack (LIFO) Sandbox</span>
-                <span className="text-xs font-mono text-indigo-400">Capacity: 5 | Size: {sandboxStack.length}</span>
+                <span className="text-xs font-mono text-gold-400">Capacity: 5 | Size: {sandboxStack.length}</span>
               </div>
 
               <div className="flex gap-2">
@@ -1725,7 +1725,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handlePushSandboxStack}
                   aria-label={`Push element ${sandboxInputVal} to stack`}
-                  className="flex-1 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="flex-1 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Push({sandboxInputVal})
                 </motion.button>
@@ -1751,7 +1751,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       animate={{ opacity: 1, scale: 1 }}
                       className={`w-full max-w-xs py-2 px-4 rounded-lg font-mono text-xs text-center border ${
                         idx === sandboxStack.length - 1
-                          ? 'bg-indigo-950/80 border-indigo-400 text-indigo-200 font-bold'
+                          ? 'bg-gold-950/80 border-gold-400 text-gold-200 font-bold'
                           : 'bg-slate-800 border-slate-700 text-slate-300'
                       }`}
                     >
@@ -1776,7 +1776,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     onClick={() => handleKmapToggle(i)}
                     aria-label={`Toggle minterm m${i} current value ${val}`}
                     className={`h-10 rounded font-mono text-xs font-bold transition-all ${
-                      val === 1 ? 'bg-indigo-600 text-white shadow' : 'bg-slate-800 text-slate-500 hover:bg-slate-700'
+                      val === 1 ? 'bg-gold-600 text-white shadow' : 'bg-slate-800 text-slate-500 hover:bg-slate-700'
                     }`}
                   >
                     m{i}: {val}
@@ -1784,7 +1784,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                 ))}
               </div>
               <p className="text-[10px] text-slate-400 text-center">
-                Corners m0, m2, m8, m10 toggle simplifies to <span className="text-indigo-400 font-mono font-bold">B&apos;D&apos;</span>
+                Corners m0, m2, m8, m10 toggle simplifies to <span className="text-gold-400 font-mono font-bold">B&apos;D&apos;</span>
               </p>
             </div>
           </div>
@@ -1805,14 +1805,14 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
               <span className="font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-medium">
+              <span className="text-gold-400 font-medium">
                 Competency: <span className="font-bold uppercase">{challenge.competencyLevel}</span>
               </span>
             </div>
 
             <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-teal-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-teal-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1845,11 +1845,11 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-center justify-between ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-bold'
-                        : 'bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 hover:bg-slate-700 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <span>
-                      <span className="font-bold mr-2 text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                      <span className="font-bold mr-2 text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                       {opt}
                     </span>
                     {showExplanation && (
@@ -1876,7 +1876,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1893,7 +1893,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                         onDrop={() => handleDragDrop(item.targetId)}
                         aria-label={`Target slot ${i + 1} with current value ${droppedVal || 'empty'}`}
                         className={`p-4 rounded-xl border-2 border-dashed flex flex-col justify-center items-center min-h-[70px] text-xs transition-colors ${
-                          droppedVal ? 'bg-indigo-950/40 border-indigo-500 text-indigo-200' : 'bg-slate-950/50 border-slate-700 text-slate-500'
+                          droppedVal ? 'bg-gold-950/40 border-gold-500 text-gold-200' : 'bg-slate-950/50 border-slate-700 text-slate-500'
                         }`}
                       >
                         <span className="text-[10px] text-slate-400 mb-1">Target Slot #{i + 1}</span>
@@ -1913,7 +1913,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Verify Mappings"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -1944,7 +1944,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 flex items-center justify-between cursor-grab"
                   >
                     <span>
-                      <span className="font-bold text-indigo-400 mr-2">{displayIndex + 1}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{displayIndex + 1}.</span>
                       {item}
                     </span>
                     <span className="text-slate-500 text-xs">↕ Drag</span>
@@ -1959,7 +1959,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check Sequence"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold mt-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold mt-2"
                 >
                   Check Sequence →
                 </motion.button>
@@ -1976,7 +1976,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     aria-label="Numeric answer input"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -1987,7 +1987,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
                     aria-label="Submit Number"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Number →
                   </motion.button>
@@ -2007,7 +2007,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(p => [...p, part])}
                       aria-label={`Add block: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-medium border border-indigo-600"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-medium border border-gold-600"
                     >
                       + {part}
                     </motion.button>
@@ -2016,7 +2016,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[80px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-lg text-xs border border-indigo-700 flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-900 text-gold-200 rounded-lg text-xs border border-gold-700 flex items-center gap-2">
                       {part}
                       <button
                         onClick={() => setConstructParts(cp => cp.filter((_, idx) => idx !== i))}
@@ -2037,7 +2037,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Constructed Logic"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Constructed Logic →
                 </motion.button>
@@ -2049,9 +2049,9 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800 rounded-xl space-y-4"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800 rounded-xl space-y-4"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs">
                   <span>💡</span> Model ISC Marking Breakdown & Explanation
                 </div>
 
@@ -2062,7 +2062,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-slate-300 text-xs leading-relaxed"
                   >
-                    <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span>
+                    <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span>
                     {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2074,7 +2074,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Show Next Point"
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Show Next Point →
                     </motion.button>
@@ -2111,7 +2111,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
             <h2 className="text-3xl font-black text-white">ISC Board Revision Complete!</h2>
 
             {/* Motivational Feedback Banner */}
-            <div className="inline-block px-5 py-2 rounded-2xl bg-indigo-950/80 border border-indigo-500/50 text-indigo-300 font-black text-lg tracking-wide shadow-lg">
+            <div className="inline-block px-5 py-2 rounded-2xl bg-gold-950/80 border border-gold-500/50 text-gold-300 font-black text-lg tracking-wide shadow-lg">
               {motivationalMessage}
             </div>
 
@@ -2132,7 +2132,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
 
           {/* ─── REFLECTION QUESTIONS SECTION ─── */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
               <span>💭</span> POST-SIMULATION METACOGNITIVE REFLECTION
             </div>
             <p className="text-xs text-slate-400">
@@ -2151,7 +2151,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q1: e.target.value }))}
                   placeholder="e.g., How String comparison with == actually behaves in Java memory..."
                   aria-label="Reflection: What was the most surprising thing you learned?"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2166,7 +2166,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q2: e.target.value }))}
                   placeholder="e.g., A full adder simply adds three bits and separates the sum and carry using XOR and AND gates..."
                   aria-label="Reflection: How would you explain this to a friend?"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2181,7 +2181,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q3: e.target.value }))}
                   placeholder="e.g., Scaling database queries with HAVING or optimizing backend service latency using O(log N) structures..."
                   aria-label="Reflection: Where in real life might you use this?"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-750 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2205,12 +2205,12 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
           )}
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800 flex justify-between items-center text-xs">
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800 flex justify-between items-center text-xs">
             <div>
               <p className="font-bold text-white mb-1">📅 Recommended Spaced Review Schedule (SM-2)</p>
               <p className="text-slate-400">Re-visit high-frequency templates (Recursion & Full Adders) in:</p>
             </div>
-            <span className="px-4 py-2 bg-indigo-600 text-white font-mono font-bold rounded-xl">
+            <span className="px-4 py-2 bg-gold-600 text-white font-mono font-bold rounded-xl">
               {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '24 Hours'}
             </span>
           </div>
@@ -2222,7 +2222,7 @@ function C12_ComputerScienceFinalRevisionCompleteSim({
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-lg text-[11px] text-slate-400 border border-slate-800">
-                  <span className="text-indigo-400 font-bold mr-1">#{i + 1}</span> {step}
+                  <span className="text-gold-400 font-bold mr-1">#{i + 1}</span> {step}
                 </div>
               ))}
             </div>

@@ -407,7 +407,7 @@ const RelationTable: React.FC<{
             <th
               key={c.name}
               className={`px-3 py-2 text-left font-bold whitespace-nowrap ${
-                primaryKey === c.name ? 'text-emerald-400' : highlightCol === c.name ? 'text-sky-300' : 'text-slate-200'
+                primaryKey === c.name ? 'text-emerald-400' : highlightCol === c.name ? 'text-gold-300' : 'text-slate-200'
               }`}
             >
               {primaryKey === c.name && <KeyRound className="inline w-3 h-3 mr-1 -mt-0.5" />}
@@ -428,7 +428,7 @@ const RelationTable: React.FC<{
                   key={c.name}
                   onClick={() => onSelect(i, c.name)}
                   className={`px-3 py-1.5 cursor-pointer transition-colors duration-150 whitespace-nowrap ${
-                    isSel ? 'bg-indigo-600/40 text-white font-bold ring-1 ring-indigo-400' : 'text-slate-300 hover:bg-slate-800/70'
+                    isSel ? 'bg-gold-600/40 text-white font-bold ring-1 ring-gold-400' : 'text-slate-300 hover:bg-slate-800/70'
                   }`}
                 >
                   {r[c.name] === null ? <span className="text-rose-400 italic">NULL</span> : String(r[c.name])}
@@ -444,11 +444,11 @@ const RelationTable: React.FC<{
 
 const Readout: React.FC<{ label: string; value: string; tone?: 'indigo' | 'emerald' | 'amber' | 'rose' | 'sky' }> = ({ label, value, tone = 'indigo' }) => {
   const tones: Record<string, string> = {
-    indigo: 'text-indigo-300',
+    indigo: 'text-gold-300',
     emerald: 'text-emerald-400',
     amber: 'text-amber-400',
     rose: 'text-rose-400',
-    sky: 'text-sky-300',
+    sky: 'text-gold-300',
   };
   return (
     <div className="bg-slate-900 rounded-lg border border-slate-800 px-3 py-2">
@@ -895,11 +895,11 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
       {/* HEADER */}
       <header className="max-w-7xl mx-auto bg-slate-900/90 backdrop-blur border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-gradient-to-br from-sky-500 to-indigo-700 rounded-xl shadow-lg">
+          <div className="p-3 bg-gradient-to-br from-gold-500 to-gold-700 rounded-xl shadow-lg">
             <Database className="w-8 h-8 text-slate-950" />
           </div>
           <div>
-            <h1 className="text-2xl font-extrabold bg-gradient-to-r from-sky-400 via-indigo-300 to-violet-400 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-extrabold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               Class 11 IP: Database Concepts
             </h1>
             <p className="text-xs text-slate-400">Relations • Keys • DBMS vs Files • SELECT/PROJECT • Constraints</p>
@@ -908,7 +908,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
 
         <div className="flex items-center gap-4 flex-wrap justify-end">
           <div className="bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700 flex items-center gap-3">
-            <div className="flex items-center gap-1 text-sky-400 font-bold text-sm">
+            <div className="flex items-center gap-1 text-gold-400 font-bold text-sm">
               <Award className="w-4 h-4" /> Score: {score}
             </div>
             <div className="w-px h-4 bg-slate-700" />
@@ -922,7 +922,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
           </div>
           <div className="flex items-center gap-2">
             <button onClick={() => setSoundEnabled(!soundEnabled)} className="p-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl text-slate-300 transition-colors" title="Toggle Sound FX">
-              {soundEnabled ? <Volume2 className="w-5 h-5 text-sky-400" /> : <VolumeX className="w-5 h-5 text-slate-500" />}
+              {soundEnabled ? <Volume2 className="w-5 h-5 text-gold-400" /> : <VolumeX className="w-5 h-5 text-slate-500" />}
             </button>
             <button onClick={() => setSpeechEnabled(!speechEnabled)} className="p-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl text-slate-300 transition-colors" title="Toggle Voice Readout">
               <BookOpen className={`w-5 h-5 ${speechEnabled ? 'text-emerald-400' : 'text-slate-500'}`} />
@@ -951,11 +951,11 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
               onClick={() => { setActiveTab(tab.id as 'discovery' | 'lab' | 'challenges' | 'misconceptions' | 'summary'); playFx('tap'); }}
               className={`flex items-center gap-2 px-5 py-3 rounded-xl font-semibold text-sm transition-all whitespace-nowrap ${
                 active
-                  ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-slate-950 shadow-lg shadow-sky-500/20 font-bold'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 shadow-lg shadow-gold-500/20 font-bold'
                   : 'bg-slate-900/80 hover:bg-slate-800 text-slate-400 border border-slate-800'
               }`}
             >
-              <Icon className={`w-4 h-4 ${active ? 'text-slate-950' : 'text-sky-400'}`} />
+              <Icon className={`w-4 h-4 ${active ? 'text-slate-950' : 'text-gold-400'}`} />
               {tab.label}
             </button>
           );
@@ -967,15 +967,15 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
-              <h2 className="text-2xl font-bold text-sky-400 mb-3 flex items-center gap-2">
+              <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+              <h2 className="text-2xl font-bold text-gold-400 mb-3 flex items-center gap-2">
                 <Compass className="w-6 h-6" /> Scenario Context
               </h2>
               <p className="text-slate-300 text-lg leading-relaxed mb-4">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-base leading-relaxed bg-slate-950/60 p-4 rounded-xl border border-slate-800/80">{SCENARIO.context}</p>
             </div>
 
-            <div className="bg-slate-900 border border-sky-500/30 rounded-2xl p-6 shadow-xl">
+            <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center gap-2 mb-4">
                 <Lightbulb className="w-6 h-6 text-amber-400 animate-pulse" />
                 <h3 className="text-xl font-bold text-slate-100">Discovery Hypothesis Challenge</h3>
@@ -993,7 +993,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                   return (
                     <button key={idx} onClick={() => handleDiscoverySubmit(idx)} disabled={discoverySubmitted}
                       className={`p-4 rounded-xl border text-left transition-all text-sm leading-relaxed flex items-start gap-3 ${btnStyle}`}>
-                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-xs font-bold text-sky-400">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-400">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{option}</span>
@@ -1014,7 +1014,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
 
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <h3 className="text-xl font-bold text-slate-100 mb-4 flex items-center gap-2">
-                <HelpCircle className="w-5 h-5 text-sky-400" /> Interactive Predictions
+                <HelpCircle className="w-5 h-5 text-gold-400" /> Interactive Predictions
               </h3>
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1056,7 +1056,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                 <button key={idx} onClick={() => { setActiveExplorationIndex(idx); playFx('tap'); }}
                   className={`px-4 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                     activeExplorationIndex === idx
-                      ? 'bg-sky-500 border-sky-400 text-slate-950 shadow-md'
+                      ? 'bg-gold-500 border-gold-400 text-slate-950 shadow-md'
                       : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                   }`}>
                   {step.title}
@@ -1064,12 +1064,12 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
               ))}
             </div>
 
-            <div className="bg-slate-900 border border-sky-500/20 rounded-2xl p-5 shadow-xl flex items-center gap-4">
-              <div className="p-3 bg-sky-500/10 rounded-xl border border-sky-500/30">
-                <Beaker className="w-6 h-6 text-sky-400" />
+            <div className="bg-slate-900 border border-gold-500/20 rounded-2xl p-5 shadow-xl flex items-center gap-4">
+              <div className="p-3 bg-gold-500/10 rounded-xl border border-gold-500/30">
+                <Beaker className="w-6 h-6 text-gold-400" />
               </div>
               <div>
-                <h3 className="font-bold text-sky-400 text-sm">{EXPLORATION_STEPS[activeExplorationIndex].title}</h3>
+                <h3 className="font-bold text-gold-400 text-sm">{EXPLORATION_STEPS[activeExplorationIndex].title}</h3>
                 <p className="text-slate-300 text-sm">{EXPLORATION_STEPS[activeExplorationIndex].instruction}</p>
               </div>
             </div>
@@ -1089,11 +1089,11 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                   <RelationTable columns={columns} rows={students} selected={selectedCell} primaryKey={primaryKey}
                     onSelect={(rowIdx, colName) => { setSelectedCell({ row: rowIdx, col: colName }); playFx('tap'); }} />
                   <p className="text-xs text-slate-500 flex items-center gap-2">
-                    <MousePointerClick className="w-4 h-4 text-sky-400" /> Click any cell — each crossing of one tuple with one attribute holds exactly ONE atomic value.
+                    <MousePointerClick className="w-4 h-4 text-gold-400" /> Click any cell — each crossing of one tuple with one attribute holds exactly ONE atomic value.
                   </p>
                 </div>
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h4 className="font-bold text-sky-400 text-sm flex items-center gap-2"><Table2 className="w-4 h-4" /> Tuple / Attribute Controls</h4>
+                  <h4 className="font-bold text-gold-400 text-sm flex items-center gap-2"><Table2 className="w-4 h-4" /> Tuple / Attribute Controls</h4>
                   <div className="grid grid-cols-2 gap-2">
                     <button onClick={addRow} disabled={students.length >= 8} className="flex items-center justify-center gap-1 py-2.5 bg-emerald-600/80 hover:bg-emerald-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold transition-all">
                       <Plus className="w-4 h-4" /> Tuple (row)
@@ -1101,7 +1101,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                     <button onClick={removeRow} disabled={students.length <= 2} className="flex items-center justify-center gap-1 py-2.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-slate-200 rounded-xl text-xs font-bold border border-slate-700 transition-all">
                       <Minus className="w-4 h-4" /> Tuple
                     </button>
-                    <button onClick={addHouseColumn} disabled={columns.some(c => c.name === 'House')} className="flex items-center justify-center gap-1 py-2.5 bg-indigo-600/80 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold transition-all">
+                    <button onClick={addHouseColumn} disabled={columns.some(c => c.name === 'House')} className="flex items-center justify-center gap-1 py-2.5 bg-gold-600/80 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl text-xs font-bold transition-all">
                       <Plus className="w-4 h-4" /> Attribute: House
                     </button>
                     <button onClick={removeExtraColumn} disabled={!columns.some(c => c.name === 'House')} className="flex items-center justify-center gap-1 py-2.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-slate-200 rounded-xl text-xs font-bold border border-slate-700 transition-all">
@@ -1109,10 +1109,10 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                     </button>
                   </div>
                   {selectedCellInfo && (
-                    <div className="bg-slate-900 p-4 rounded-lg border border-indigo-500/40 space-y-1.5 text-xs">
+                    <div className="bg-slate-900 p-4 rounded-lg border border-gold-500/40 space-y-1.5 text-xs">
                       <p className="text-slate-500 uppercase text-[10px]">Selected cell coordinates</p>
-                      <p className="text-slate-300">Tuple: <span className="font-bold text-indigo-300">{selectedCellInfo.tuple}</span> (row {selectedCell.row + 1} of {cardinality})</p>
-                      <p className="text-slate-300">Attribute: <span className="font-bold text-indigo-300">{selectedCellInfo.attribute}</span> (of {degree})</p>
+                      <p className="text-slate-300">Tuple: <span className="font-bold text-gold-300">{selectedCellInfo.tuple}</span> (row {selectedCell.row + 1} of {cardinality})</p>
+                      <p className="text-slate-300">Attribute: <span className="font-bold text-gold-300">{selectedCellInfo.attribute}</span> (of {degree})</p>
                       <p className="text-slate-300">Value: <span className="font-bold text-white">{selectedCellInfo.value}</span></p>
                       <p className="text-slate-400">Domain: <span className="text-amber-300">{selectedCellInfo.domain}</span></p>
                     </div>
@@ -1130,7 +1130,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
               <div className="space-y-6">
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-1 lg:grid-cols-3 gap-6">
                   <div className="lg:col-span-2 space-y-3">
-                    <h4 className="font-bold text-sky-400 text-sm flex items-center gap-2"><KeyRound className="w-4 h-4" /> Key Detective — click a column to test / elect it</h4>
+                    <h4 className="font-bold text-gold-400 text-sm flex items-center gap-2"><KeyRound className="w-4 h-4" /> Key Detective — click a column to test / elect it</h4>
                     <div className="space-y-2">
                       {columns.map(c => {
                         const distinct = distinctCount(students, c.name);
@@ -1141,7 +1141,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                             className={`w-full flex flex-wrap items-center justify-between gap-2 px-4 py-2.5 rounded-xl border text-xs transition-all text-left ${
                               primaryKey === c.name
                                 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
-                                : candidate ? 'bg-slate-950 border-slate-700 hover:border-sky-500 text-slate-200' : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-600'
+                                : candidate ? 'bg-slate-950 border-slate-700 hover:border-gold-500 text-slate-200' : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-600'
                             }`}>
                             <span className="font-bold">{c.name}</span>
                             <span className="text-slate-500">distinct {distinct}/{students.length} • NULLs {nulls}</span>
@@ -1155,12 +1155,12 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                     <div className="text-xs text-slate-400 bg-slate-950 p-3 rounded-lg border border-slate-800">
                       Primary key in force: <span className="font-bold text-emerald-400">{primaryKey ?? 'none'}</span>.
                       {candidateKeys.length > 1 && (
-                        <> Alternate key(s): <span className="text-sky-300 font-semibold">{candidateKeys.filter(k => k !== primaryKey).join(', ') || '—'}</span>.</>
+                        <> Alternate key(s): <span className="text-gold-300 font-semibold">{candidateKeys.filter(k => k !== primaryKey).join(', ') || '—'}</span>.</>
                       )}
                     </div>
                   </div>
                   <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
-                    <h4 className="font-bold text-sky-400 text-sm">Referential Integrity Tester</h4>
+                    <h4 className="font-bold text-gold-400 text-sm">Referential Integrity Tester</h4>
                     <p className="text-[11px] text-slate-400">ENROLLMENT.AdmNo is a FOREIGN KEY referencing STUDENT(AdmNo). Try to enrol:</p>
                     <button onClick={() => insertEnrollment(104, 'PE')} className="w-full py-2.5 bg-emerald-600/80 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold transition-all">
                       INSERT (EnrollNo {nextEnrollNo}, AdmNo 104, &apos;PE&apos;) — valid
@@ -1191,7 +1191,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
             {activeExplorationIndex === 2 && (
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div className="lg:col-span-2 space-y-4">
-                  <h4 className="font-bold text-sky-400 text-sm flex items-center gap-2"><FolderCopyIcon className="w-4 h-4" /> One fact, many copies — &ldquo;Aman&apos;s city&rdquo;</h4>
+                  <h4 className="font-bold text-gold-400 text-sm flex items-center gap-2"><FolderCopyIcon className="w-4 h-4" /> One fact, many copies — &ldquo;Aman&apos;s city&rdquo;</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-emerald-500/40">
                       <p className="text-xs font-bold text-emerald-400 mb-2">DBMS — one logical copy</p>
@@ -1220,7 +1220,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                   </div>
                 </div>
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h4 className="font-bold text-sky-400 text-sm">Redundancy Controls</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Redundancy Controls</h4>
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-2">
                       <span>Department file copies:</span>
@@ -1228,7 +1228,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                     </div>
                     <input type="range" min={1} max={6} value={deptCopies} onChange={e => setDeptCopies(Number(e.target.value))} className="w-full accent-amber-500" />
                   </div>
-                  <button onClick={performUpdate} className="w-full py-3 bg-gradient-to-r from-sky-500 to-indigo-600 text-slate-950 rounded-xl text-xs font-bold shadow-lg hover:from-sky-400 transition-all">
+                  <button onClick={performUpdate} className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 rounded-xl text-xs font-bold shadow-lg hover:from-gold-400 transition-all">
                     UPDATE: exam cell changes city ({updateCount} updates done)
                   </button>
                   <button onClick={syncFiles} disabled={!fileStale} className="w-full py-2.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-amber-400 border border-slate-700 rounded-xl text-xs font-bold transition-all">
@@ -1249,7 +1249,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
             {activeExplorationIndex === 3 && (
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div className="space-y-4">
-                  <h4 className="font-bold text-sky-400 text-sm flex items-center gap-2"><Filter className="w-4 h-4" /> Query Designer</h4>
+                  <h4 className="font-bold text-gold-400 text-sm flex items-center gap-2"><Filter className="w-4 h-4" /> Query Designer</h4>
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                     <p className="text-[10px] text-slate-500 uppercase font-bold">π PROJECT — tick columns</p>
                     <div className="grid grid-cols-2 gap-1.5">
@@ -1262,7 +1262,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                               playFx('tap');
                             }}
                             className={`px-2 py-2 rounded-lg border text-[11px] font-bold transition-all min-h-[36px] ${
-                              on ? 'bg-indigo-600/70 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
+                              on ? 'bg-gold-600/70 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'
                             }`}>
                             {on ? '✓ ' : ''}{c.name}
                           </button>
@@ -1286,7 +1286,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                     <label className="flex items-center justify-between text-xs text-slate-300 pt-1">
                       <span>Apply σ filter</span>
                       <button onClick={() => { setFilterEnabled(!filterEnabled); playFx('tap'); }}
-                        className={`w-11 h-6 rounded-full transition-colors relative ${filterEnabled ? 'bg-sky-500' : 'bg-slate-700'}`}>
+                        className={`w-11 h-6 rounded-full transition-colors relative ${filterEnabled ? 'bg-gold-500' : 'bg-slate-700'}`}>
                         <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full transition-all ${filterEnabled ? 'left-[22px]' : 'left-0.5'}`} />
                       </button>
                     </label>
@@ -1331,7 +1331,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
             {activeExplorationIndex === 4 && (
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4">
-                  <h4 className="font-bold text-sky-400 text-sm flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> Insert Attempt — poisoned by default</h4>
+                  <h4 className="font-bold text-gold-400 text-sm flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> Insert Attempt — poisoned by default</h4>
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 grid grid-cols-2 gap-3">
                     {(['AdmNo', 'SName', 'City', 'Age', 'Marks'] as const).map(f => (
                       <label key={f} className="text-xs text-slate-400 space-y-1">
@@ -1343,7 +1343,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                             const isInt = columns.find(c => c.name === f)?.kind === 'int';
                             setTestRow(prev => ({ ...prev, [f]: isInt ? (raw === '' ? null : Number(raw)) : raw }));
                           }}
-                          className="w-full min-h-9 bg-slate-900 border border-slate-700 rounded-lg px-2 text-sm text-slate-100 focus:border-sky-500 outline-none"
+                          className="w-full min-h-9 bg-slate-900 border border-slate-700 rounded-lg px-2 text-sm text-slate-100 focus:border-gold-500 outline-none"
                         />
                       </label>
                     ))}
@@ -1361,7 +1361,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <h4 className="font-bold text-sky-400 text-sm">Constraint Checker Log</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Constraint Checker Log</h4>
                   {constraintLog.length === 0 && (
                     <div className="bg-slate-950 border border-slate-800 rounded-xl p-4 text-xs text-slate-500">
                       Run an insert to see which constraints fire. Constraints checked: PRIMARY KEY (unique + not null), NOT NULL, DOMAIN (Age 5-25, Marks 0-100, name 2-20 letters).
@@ -1379,7 +1379,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
             {/* Guided observation question (lab footer) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <h3 className="text-lg font-bold text-slate-100 mb-4 flex items-center gap-2">
-                <HelpCircle className="w-5 h-5 text-sky-400" /> {OBSERVATION_QUESTIONS[0].question}
+                <HelpCircle className="w-5 h-5 text-gold-400" /> {OBSERVATION_QUESTIONS[0].question}
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, idx) => {
@@ -1428,7 +1428,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                       if (idx === currentChallenge.correctIndex) style = 'bg-emerald-950/80 border-emerald-500 text-emerald-200';
                       else if (selectedOption === idx) style = 'bg-rose-950/80 border-rose-500 text-rose-200';
                     } else if (selectedOption === idx) {
-                      style = 'bg-indigo-950/80 border-indigo-500 text-indigo-100';
+                      style = 'bg-gold-950/80 border-gold-500 text-gold-100';
                     }
                     return (
                       <button key={idx} onClick={() => { if (!challengeFeedback?.submitted) { setSelectedOption(idx); playFx('tap'); } }}
@@ -1449,7 +1449,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                       onChange={e => setNumericInput(e.target.value)}
                       disabled={challengeFeedback?.submitted}
                       placeholder="Your answer"
-                      className="flex-1 min-h-11 bg-slate-950 border border-slate-700 rounded-xl px-4 text-lg text-slate-100 focus:border-sky-500 outline-none"
+                      className="flex-1 min-h-11 bg-slate-950 border border-slate-700 rounded-xl px-4 text-lg text-slate-100 focus:border-gold-500 outline-none"
                     />
                     {currentChallenge.unit && <span className="text-sm text-slate-500 font-bold">{currentChallenge.unit}</span>}
                   </div>
@@ -1457,14 +1457,14 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
               )}
 
               {!challengeFeedback?.submitted ? (
-                <button onClick={handleSubmitChallenge} className="w-full py-3 bg-gradient-to-r from-sky-500 to-indigo-600 text-slate-950 rounded-xl font-bold shadow-lg hover:from-sky-400 transition-all">
+                <button onClick={handleSubmitChallenge} className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 rounded-xl font-bold shadow-lg hover:from-gold-400 transition-all">
                   Submit Answer
                 </button>
               ) : (
                 <div className="space-y-4">
                   <Verdict ok={challengeFeedback.isCorrect} text={challengeFeedback.isCorrect ? 'Correct! +10 points.' : 'Incorrect — read the reasoning.'} />
                   <div className="bg-slate-950 border border-slate-800 rounded-xl p-4 text-sm text-slate-300">
-                    <p className="font-bold text-sky-400 mb-1">Explanation:</p>{challengeFeedback.explanation}
+                    <p className="font-bold text-gold-400 mb-1">Explanation:</p>{challengeFeedback.explanation}
                   </div>
                   <button onClick={handleNextChallenge} className="w-full py-3 bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 rounded-xl font-bold shadow-lg hover:from-emerald-400 transition-all">
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge' : 'Finish & Record Score'}
@@ -1479,7 +1479,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
         {activeTab === 'misconceptions' && (
           <div className="space-y-6 animate-fadeIn">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-2xl font-bold text-sky-400 mb-2 flex items-center gap-2">
+              <h2 className="text-2xl font-bold text-gold-400 mb-2 flex items-center gap-2">
                 <AlertTriangle className="w-6 h-6" /> Key Misconceptions Clarified
               </h2>
               <p className="text-slate-400 text-sm mb-6">The classic exam traps of Database Concepts — each one is disproved by the labs above.</p>
@@ -1505,15 +1505,15 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
         {/* ══════ TAB 5: SUMMARY ══════ */}
         {activeTab === 'summary' && (
           <div className="space-y-6 animate-fadeIn">
-            <div className="bg-slate-900 border border-sky-500/30 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-2xl font-bold text-sky-400 mb-2 flex items-center gap-2">
+            <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+              <h2 className="text-2xl font-bold text-gold-400 mb-2 flex items-center gap-2">
                 <Sparkles className="w-6 h-6" /> {REAL_WORLD_ACTIVITY.title}
               </h2>
               <p className="text-slate-300 text-sm mb-6">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex items-start gap-3">
-                    <div className="w-7 h-7 rounded-full bg-sky-500 text-slate-950 font-bold text-xs flex items-center justify-center flex-shrink-0">{idx + 1}</div>
+                    <div className="w-7 h-7 rounded-full bg-gold-500 text-slate-950 font-bold text-xs flex items-center justify-center flex-shrink-0">{idx + 1}</div>
                     <p className="text-slate-300 text-xs leading-relaxed">{step}</p>
                   </div>
                 ))}
@@ -1522,7 +1522,7 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
 
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <h3 className="text-xl font-bold text-slate-100 mb-4 flex items-center gap-2">
-                <Award className="w-5 h-5 text-sky-400" /> Concept Mastery Matrix
+                <Award className="w-5 h-5 text-gold-400" /> Concept Mastery Matrix
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
                 {ALL_NODE_IDS.map(nodeId => {
@@ -1531,10 +1531,10 @@ export default function C11_InformaticsPracticesDatabaseConceptsSim({
                   return (
                     <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                       <p className="text-[10px] text-slate-400 font-mono mb-1">{nodeId}</p>
-                      <div className="text-lg font-bold text-sky-400">{m}%</div>
+                      <div className="text-lg font-bold text-gold-400">{m}%</div>
                       <p className="text-[10px] text-slate-500">{level}</p>
                       <div className="w-full bg-slate-800 h-1.5 rounded-full mt-2 overflow-hidden">
-                        <div className="bg-sky-500 h-full transition-all duration-500" style={{ width: `${m}%` }} />
+                        <div className="bg-gold-500 h-full transition-all duration-500" style={{ width: `${m}%` }} />
                       </div>
                     </div>
                   );

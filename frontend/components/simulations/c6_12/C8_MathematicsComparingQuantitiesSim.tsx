@@ -31,11 +31,11 @@ export function C8_MathematicsComparingQuantitiesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Comparing Quantities - Percentage Lab</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Comparing Quantities - Percentage Lab</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Three power tools:</span> Discount reduces a
+          <span className="font-bold text-gold-700">Three power tools:</span> Discount reduces a
           marked price by a percent; profit% is profit divided by cost price times 100; and interest
           shows how money grows. Watch the bars below: simple interest climbs the same amount every
           year, compound interest climbs faster and faster.
@@ -44,7 +44,7 @@ export function C8_MathematicsComparingQuantitiesSim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {([['discount', 'Discount'], ['profit', 'Profit / Loss'], ['interest', 'SI vs CI']] as [Mode, string][]).map(([m, label]) => (
-          <button key={m} onClick={() => setMode(m)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === m ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button key={m} onClick={() => setMode(m)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === m ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {label}
           </button>
         ))}
@@ -55,8 +55,8 @@ export function C8_MathematicsComparingQuantitiesSim() {
           {mode === 'discount' && (
             <>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Marked price (Rs)</span><span className="font-mono text-indigo-600">{price}</span></label>
-                <input type="range" min={100} max={5000} step={50} value={price} aria-label="marked price" onChange={(e) => setPrice(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Marked price (Rs)</span><span className="font-mono text-gold-600">{price}</span></label>
+                <input type="range" min={100} max={5000} step={50} value={price} aria-label="marked price" onChange={(e) => setPrice(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Discount %</span><span className="font-mono text-emerald-600">{discount}%</span></label>
@@ -67,8 +67,8 @@ export function C8_MathematicsComparingQuantitiesSim() {
           {mode === 'profit' && (
             <>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Cost price (Rs)</span><span className="font-mono text-indigo-600">{cp}</span></label>
-                <input type="range" min={50} max={2000} step={10} value={cp} aria-label="cost price" onChange={(e) => setCp(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Cost price (Rs)</span><span className="font-mono text-gold-600">{cp}</span></label>
+                <input type="range" min={50} max={2000} step={10} value={cp} aria-label="cost price" onChange={(e) => setCp(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Selling price (Rs)</span><span className="font-mono text-emerald-600">{sp}</span></label>
@@ -79,8 +79,8 @@ export function C8_MathematicsComparingQuantitiesSim() {
           {mode === 'interest' && (
             <>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Principal (Rs)</span><span className="font-mono text-indigo-600">{principal}</span></label>
-                <input type="range" min={500} max={20000} step={500} value={principal} aria-label="principal" onChange={(e) => setPrincipal(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Principal (Rs)</span><span className="font-mono text-gold-600">{principal}</span></label>
+                <input type="range" min={500} max={20000} step={500} value={principal} aria-label="principal" onChange={(e) => setPrincipal(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Rate % per year</span><span className="font-mono text-emerald-600">{rate}%</span></label>
@@ -98,10 +98,10 @@ export function C8_MathematicsComparingQuantitiesSim() {
           {mode === 'discount' && (
             <>
               <div className="font-mono text-sm text-slate-600">Sale price = {price} x (1 - {discount}/100)</div>
-              <div className="text-2xl font-black text-indigo-700 mt-1">Rs {sale}</div>
+              <div className="text-2xl font-black text-gold-700 mt-1">Rs {sale}</div>
               <div className="text-sm text-emerald-700 font-semibold">You save Rs {saved} ({discount}% off)</div>
               <div className="mt-3 h-6 rounded-lg bg-slate-200 overflow-hidden">
-                <div className="h-full bg-indigo-500 flex items-center px-2 text-white text-xs font-bold" style={{ width: `${100 - discount}%`, transition: 'width 300ms' }}>{sale}</div>
+                <div className="h-full bg-gold-500 flex items-center px-2 text-white text-xs font-bold" style={{ width: `${100 - discount}%`, transition: 'width 300ms' }}>{sale}</div>
               </div>
               <div className="mt-1 h-6 rounded-lg bg-slate-200 overflow-hidden">
                 <div className="h-full bg-emerald-500 flex items-center px-2 text-white text-xs font-bold" style={{ width: `${discount}%`, transition: 'width 300ms' }}>{saved}</div>
@@ -117,7 +117,7 @@ export function C8_MathematicsComparingQuantitiesSim() {
               </div>
               <div className="mt-3 text-xs text-slate-500">CP vs SP</div>
               <div className="flex items-center gap-2 mt-1">
-                <div className="h-6 flex-1 rounded-lg bg-slate-200 overflow-hidden"><div className="h-full bg-indigo-500" style={{ width: `${(cp / 2000) * 100}%`, transition: 'width 300ms' }} /></div>
+                <div className="h-6 flex-1 rounded-lg bg-slate-200 overflow-hidden"><div className="h-full bg-gold-500" style={{ width: `${(cp / 2000) * 100}%`, transition: 'width 300ms' }} /></div>
                 <span className="font-mono text-xs">{cp}</span>
               </div>
               <div className="flex items-center gap-2 mt-1">
@@ -132,7 +132,7 @@ export function C8_MathematicsComparingQuantitiesSim() {
               <div className="font-mono text-xs text-slate-600">CI = P(1 + R/100)^T - P = {ci}</div>
               <div className="text-sm font-bold mt-2">Compound earns Rs {Math.max(0, ci - si)} MORE</div>
               <div className="mt-3 space-y-2">
-                {[['SI', si, 'bg-sky-500'], ['CI', ci, 'bg-violet-500']].map(([label, v, color]) => (
+                {[['SI', si, 'bg-gold-500'], ['CI', ci, 'bg-gold-500']].map(([label, v, color]) => (
                   <div key={label as string} className="flex items-center gap-2">
                     <span className="w-8 font-mono text-xs">{label as string}</span>
                     <div className="h-6 flex-1 rounded-lg bg-slate-200 overflow-hidden">

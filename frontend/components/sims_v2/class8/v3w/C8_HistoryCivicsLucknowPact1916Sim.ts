@@ -11,7 +11,7 @@ export const w_c8_historycivicslucknowpact1916sim: SimDef = {
     classLevel: 8, subject: 'history', topic: 'Moderates vs Extremists in the Congress',
     chapters: [],
     nodeIds: ['c8_hist_ch4_4', 'c8_hist_ch4_2', 'c8_hist_ch4_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you and your friends want to change a school rule — some want to write a polite letter to the.', goal: 'Master Moderates vs Extremists in the Congress.' },
     discovery: {
         question: 'Was the Gandhi-Irwin Pact (March 1931) a victory for the Civil Disobedience Movement? Defend your position with *two* specific pieces of evidence.',
@@ -20,7 +20,7 @@ export const w_c8_historycivicslucknowpact1916sim: SimDef = {
         hook: 'Students often think the Salt March *was* the entire Civil Disobedience Movement, or that the movement ended with the.',
     },
     teaching: [
-        { title: 'The Moderates vs Extremists debate.', text: 'The Moderates vs Extremists debate (1885–1907) refers to the ideological split within the Indian National Congress between Early Nationalists (Moderates) who sought constitutional reforms through.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Moderates vs Extremists debate.', text: 'The Moderates vs Extremists debate (1885–1907) refers to the ideological split within the Indian National Congress between Early Nationalists (Moderates) who sought constitutional reforms through.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_hist_ch4_4', title: 'The Moderates vs Extremists debate.',

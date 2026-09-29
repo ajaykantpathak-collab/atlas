@@ -71,13 +71,13 @@ const TEACHING_SLIDES = [
         title: 'Land, Water, and Climbers 🌊',
         text: 'Land plants stand firmly in soil. Water plants float peacefully in ponds. Climbers have soft stems and creep upward, holding on to a wall or stick!',
         emoji: '🌺',
-        bgColor: 'from-cyan-400 to-blue-600',
+        bgColor: 'from-gold-400 to-gold-600',
     },
     {
         title: 'Always Ask an Adult! 🧑‍⚕️',
         text: 'Never pluck or eat unknown leaves from the garden! Medicinal plants like tulsi and aloe vera must always be used with adult guidance and care!',
         emoji: '🛡️',
-        bgColor: 'from-purple-400 to-indigo-600',
+        bgColor: 'from-purple-400 to-gold-600',
     },
 ];
 // ─── Types ────────────────────────────────────────────────────

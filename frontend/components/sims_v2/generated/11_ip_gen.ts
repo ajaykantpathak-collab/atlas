@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C11_IP_GEN: SimDef[] = [
  {
   "id": "gen_c11_ip_ch01",
-  "title": "Computer",
+  "title": "Computer Is a Programmable Electronic Device",
   "subtitle": "Informatics Practices · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "informatics practices",
-  "topic": "Computer",
+  "topic": "Computer Is a Programmable Electronic Device That Ac",
   "chapters": [
-   "Informatics Practices Ch1: Computer"
+   "Informatics Practices Ch1: Computer Is a Programmable Electronic Device That Ac"
   ],
   "nodeIds": [
    "c11_ip_cbse_01_001",
@@ -35,7 +35,7 @@ export const C11_IP_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Computer suddenly stops working?",
+   "question": "What happens if Computer Is a Programmable suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -46,7 +46,7 @@ export const C11_IP_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Computer",
+    "title": "Computer Is a Programmable Electronic",
     "text": "A computer is a programmable electronic device that accepts data (input), processes it according to a set of instructions (program), and produces meaningful information (output); a computer system is the integrated combination of the computer hardware (CPU,",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -104,7 +104,7 @@ export const C11_IP_GEN: SimDef[] = [
      "Allocate OS + software (200 GB) to SSD for fast random access (boot, app launch). Allocate raw footage (1",
      "Riya's claim is incorrect. A digital wristwatch *is* a computer because it accepts input (button presses, sensor data), processes it (calculates time, counts steps"
     ],
-    "hint": "Straight from the 'computer' slide -- match the key terms.",
+    "hint": "Straight from the 'computer is a programmable' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that \"computer\" requires user-installable applications or a general-purpose OS, rather than the core criterion: programmable electronic data processing.",
     "id": "gen_c11_ip_ch01_q1",
     "nodeId": "c11_ip_cbse_01_001",
@@ -142,9 +142,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "List any three input devices mentioned in the NCERT textbook for Class 11 Informatics Practices and state the primary type of data each captures (e.g., text, positional, image, audio, video).",
     "answer": "Keyboard (text), Mouse (positional/movement), Scanner (images/documents)",
     "options": [
+     "The student must be able to: (1) Classify at least five input devices (keyboard, mouse, scanner, microphone, webcam) by the physical modality they capture (text, positional",
      "Visual display (monitor, projector), Audio output (speaker, headphone), Hardcopy output (printer, 3D printer), Tactile/assistive output (braille display)",
-     "Scanner for the photos (captures still images), Microphone for the voice notes (captures audio). Steps: 1) Identify the two distinct data types: visual (photos) and auditory",
-     "MS Word (text), Mouse (positional/movement), Scanner (images/documents)",
      "Keyboard (text), Mouse (positional/movement), Scanner (images/documents)"
     ],
     "hint": "Straight from the 'input device' slide -- match the key terms.",
@@ -165,7 +164,7 @@ export const C11_IP_GEN: SimDef[] = [
     "answer": "Visual display (monitor, projector), Audio output (speaker, headphone), Hardcopy output (printer, 3D printer), Tactile/assistive output (braille display)",
     "options": [
      "Keyboard (text), Mouse (positional/movement), Scanner (images/documents)",
-     "(a) Linux Ubuntu – SS (Operating System); (b) Laser Printer – H (Output Device); (c) Python Interpreter – PT (translates high-level code to machine code)",
+     "The student must be able to: (1) Classify at least five input devices (keyboard, mouse, scanner, microphone, webcam) by the physical modality they capture (text, positional",
      "Visual display (monitor, projector), Audio output (speaker, headphone), Hardcopy output (printer, 3D printer), Tactile/assistive output (braille display)"
     ],
     "hint": "Straight from the 'Output devices' slide -- match the key terms.",
@@ -434,6 +433,21 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to: (1) Classify at least five input devices (keyboard, mouse, scanner, microphone, webcam) by the physical modality they capture (text, positional",
+    "options": [
+     "Keyboard (text), Mouse (positional/movement), Scanner (images/documents)",
+     "Visual display (monitor, projector), Audio output (speaker, headphone), Hardcopy output (printer, 3D printer), Tactile/assistive output (braille display)",
+     "The student must be able to: (1) Classify at least five input devices (keyboard, mouse, scanner, microphone, webcam) by the physical modality they capture (text, positional"
+    ],
+    "hint": "Straight from the 'input device' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Classify at least five input devices (keyboard, mouse, scanner, microphone, webcam) by",
+    "id": "gen_c11_ip_ch01_q14",
+    "nodeId": "c11_ip_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare and contrast the working principle of an inkjet printer and a laser printer. Identify one specific scenario where each would be the preferred choice.",
     "answer": "Inkjet uses liquid ink sprayed through microscopic nozzles onto paper; laser uses a photosensitive drum, toner powder, and heat fusion",
     "options": [
@@ -443,7 +457,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Output devices' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the principles or scenarios demonstrates failure to analyze the technical differences and match them to appropriate use cases.",
-    "id": "gen_c11_ip_ch01_q14",
+    "id": "gen_c11_ip_ch01_q15",
     "nodeId": "c11_ip_cbse_01_004",
     "difficulty": "standard"
    },
@@ -458,7 +472,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Output devices' slide -- match the key terms.",
     "misconception": "A wrong answer that calls it an input device because raw material is fed in, or says it's not output because it's not visual, reveals a misunderstanding of the data-flow definition and the broad scope of \"output\" beyond screens.",
-    "id": "gen_c11_ip_ch01_q15",
+    "id": "gen_c11_ip_ch01_q16",
     "nodeId": "c11_ip_cbse_01_004",
     "difficulty": "standard"
    },
@@ -473,7 +487,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
     "misconception": "A wrong choice (e.g., DVD-R) ignores reusability and total cost of ownership.",
-    "id": "gen_c11_ip_ch01_q16",
+    "id": "gen_c11_ip_ch01_q17",
     "nodeId": "c11_ip_cbse_01_007",
     "difficulty": "advanced"
    },
@@ -488,21 +502,6 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
     "misconception": "A poor answer omits the upload bandwidth constraint or confuses cloud with local secondary storage.",
-    "id": "gen_c11_ip_ch01_q17",
-    "nodeId": "c11_ip_cbse_01_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "You have a 2 TB HDD (₹4,500) and a 1 TB SSD (₹5,500). A video editor needs 1.5 TB for raw footage (sequential read/write) and 200 GB for OS + editing software (random access). Allocate the storage between the two drives to optimize performance and cost. Show your calculation.",
-    "answer": "Allocate OS + software (200 GB) to SSD for fast random access (boot, app launch). Allocate raw footage (1",
-    "options": [
-     "Ubuntu → SS (OS), MS Word → AS (general purpose), Printer Driver → SS (device driver), Photoshop → AS (general purpose), Python Interpreter → PT (programming tool)",
-     "Scanner for the photos (captures still images), Microphone for the voice notes (captures audio). Steps: 1) Identify the two distinct data types: visual (photos) and auditory",
-     "Allocate OS + software (200 GB) to SSD for fast random access (boot, app launch). Allocate raw footage (1"
-    ],
-    "hint": "Straight from the 'Secondary storage devices' slide -- match the key terms.",
-    "misconception": "A wrong allocation (e.g., footage on SSD) shows inability to match access pattern (sequential vs random) to device strength.",
     "id": "gen_c11_ip_ch01_q18",
     "nodeId": "c11_ip_cbse_01_007",
     "difficulty": "advanced"
@@ -510,24 +509,24 @@ export const C11_IP_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about computer?",
+    "What surprised you about computer is a programmable electronic device that ac?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Computer mastered! 🎯",
+  "successLine": "Computer Is a Programmable mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ip_ch02",
-  "title": "Python",
+  "title": "Python Is a High-level",
   "subtitle": "Informatics Practices · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "informatics practices",
-  "topic": "Python",
+  "topic": "Python Is a High-level",
   "chapters": [
-   "Informatics Practices Ch2: Python"
+   "Informatics Practices Ch2: Python Is a High-level"
   ],
   "nodeIds": [
    "c11_ip_cbse_02_001",
@@ -550,7 +549,7 @@ export const C11_IP_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Python more about facts, or about reasoning?",
+   "question": "Is Python Is a High-level more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -561,7 +560,7 @@ export const C11_IP_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Python",
+    "title": "Python Is a High-level",
     "text": "Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic memory management, and a design philosophy that emphasizes code readability through significant indentation.",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -585,7 +584,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Keywords",
+    "title": "Keywords Are Reserved Words In Python",
     "text": "Keywords are reserved words in Python that have a predefined meaning and cannot be used as names for variables, functions, or other user-defined entities.",
     "emoji": "🗂️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -639,11 +638,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary reason Python is called an \"interpreted language\"?",
     "answer": "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code",
     "options": [
-     "The >>> prompt (three greater-than signs) indicates Interactive Mode",
-     "The five token categories are: 1) Keywords (e.g., if), 2) Identifiers (e.g., total_marks), 3) Literals (e.g., 42, \"hello\"), 4) Operators (e.g., +), 5) Punctuators (e.g., :)",
+     "Operators in Python are special symbols or keywords that perform specific computations on one or more operands (values or variables)",
+     "Python installation is the process of downloading the Python interpreter from python.org, executing the platform-specific installer with the \"Add Python to PATH\" option enabled",
      "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code"
     ],
-    "hint": "Straight from the 'Python' slide -- match the key terms.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Python is compiled to bytecode which is then interpreted\") reveals the student confuses the implementation detail (CPython compiles to bytecode) with the language classification; they need to understand that from the programmer's perspective, there is no explicit compile step.",
     "id": "gen_c11_ip_ch02_q1",
     "nodeId": "c11_ip_cbse_02_001",
@@ -660,8 +659,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What does IDLE stand for, and which two distinct windows does it provide when launched?",
     "answer": "IDLE stands for Integrated Development and Learning Environment. It provides two windows: (1) the Shell window (interactive REPL with >>> prompt for immediate single-statement",
     "options": [
-     "The two id() values will be different. Integers are immutable in Python; x = x + 1 creates a new integer object 11 and rebinds x to it. The original object 10 remains unchanged",
      "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code",
+     "Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic memory management",
      "IDLE stands for Integrated Development and Learning Environment. It provides two windows: (1) the Shell window (interactive REPL with >>> prompt for immediate single-statement"
     ],
     "hint": "Straight from the 'Python installation' slide -- match the key terms.",
@@ -681,8 +680,9 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary visual indicator that you are in Interactive Mode in IDLE?",
     "answer": "The >>> prompt (three greater-than signs) indicates Interactive Mode",
     "options": [
-     "The five token categories are: 1) Keywords (e.g., if), 2) Identifiers (e.g., total_marks), 3) Literals (e.g., 42, \"hello\"), 4) Operators (e.g., +), 5) Punctuators (e.g., :)",
-     "Five Python keywords: if, else, for, while, def. True, False, and None are keywords (they are reserved constants)",
+     "Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic memory management",
+     "The student must be able to list at least five key features of Python (e.g., interpreted, dynamically typed, cross-platform, open source",
+     "The >>> prompt (three greater-than signs) indicates Start",
      "The >>> prompt (three greater-than signs) indicates Interactive Mode"
     ],
     "hint": "Straight from the 'Python provides two distinct' slide -- match the key terms.",
@@ -702,11 +702,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "List the five categories of tokens in Python and give one example of each.",
     "answer": "The five token categories are: 1) Keywords (e.g., if), 2) Identifiers (e.g., total_marks), 3) Literals (e.g., 42, \"hello\"), 4) Operators (e.g., +), 5) Punctuators (e.g., :)",
     "options": [
-     "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code",
-     "The two id() values will be the same. Lists are mutable; append() modifies the list object in-place without creating a new list",
+     "In Python, errors are classified into four categories: Syntax Errors occur when code violates the language's grammatical rules and are detected before execution",
+     "Student can correctly classify any given Python source line into its constituent tokens, identify indentation errors in a multi-block snippet",
      "The five token categories are: 1) Keywords (e.g., if), 2) Identifiers (e.g., total_marks), 3) Literals (e.g., 42, \"hello\"), 4) Operators (e.g., +), 5) Punctuators (e.g., :)"
     ],
-    "hint": "Straight from the 'Python's character set defines the' slide -- match the key terms.",
+    "hint": "Straight from the 'Python's character set defines' slide -- match the key terms.",
     "misconception": "A wrong answer that misses punctuators or confuses operators with keywords shows the student hasn't internalized the token classification hierarchy.",
     "id": "gen_c11_ip_ch02_q4",
     "nodeId": "c11_ip_cbse_02_004",
@@ -775,8 +775,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of the following code snippet? a = 5 b = a a = 7 print(a, b)",
     "answer": "Output: 7 5. The assignment b = a makes b refer to the same integer object 5 that a refers to. Integers are immutable, so a = 7 rebinds a to a new object 7; b still refers to 5",
     "options": [
-     "Five Python keywords: if, else, for, while, def. True, False, and None are keywords (they are reserved constants)",
-     "The data type is str (string). input() always returns a string, regardless of what the user types",
+     "The student must be able to list at least five key features of Python (e.g., interpreted, dynamically typed, cross-platform, open source",
+     "IDLE stands for Integrated Development and Learning Environment. It provides two windows: (1) the Shell window (interactive REPL with >>> prompt for immediate single-statement",
      "Output: 7 5. The assignment b = a makes b refer to the same integer object 5 that a refers to. Integers are immutable, so a = 7 rebinds a to a new object 7; b still refers to 5"
     ],
     "hint": "Straight from the 'variable in Python' slide -- match the key terms.",
@@ -859,11 +859,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of type(10) and type(10.0) in Python? Explain the difference.",
     "answer": "type(10) returns <class 'int'> and type(10.0) returns <class 'float'>. The first is an integer literal (no decimal point)",
     "options": [
-     "Output: 7 5. The assignment b = a makes b refer to the same integer object 5 that a refers to. Integers are immutable, so a = 7 rebinds a to a new object 7; b still refers to 5",
-     "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code",
+     "Type conversion in Python is the process of changing a value from one data type (int, float, str) to another",
+     "The student can correctly identify the data type of any given literal or variable using type(), explain the range and behavior of each type (e",
      "type(10) returns <class 'int'> and type(10.0) returns <class 'float'>. The first is an integer literal (no decimal point)"
     ],
-    "hint": "Straight from the 'In Python, data types classify the' slide -- match the key terms.",
+    "hint": "Straight from the 'In Python, data types classify' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., both are int or both are float) reveals the student does not recognize that the presence of a decimal point changes the data type, even if the mathematical value is the same.",
     "id": "gen_c11_ip_ch02_q8",
     "nodeId": "c11_ip_cbse_02_008",
@@ -880,8 +880,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of the following code and why? x = 10 print(id(x)) x = x + 1 print(id(x))",
     "answer": "The two id() values will be different. Integers are immutable in Python; x = x + 1 creates a new integer object 11 and rebinds x to it. The original object 10 remains unchanged",
     "options": [
-     "The five token categories are: 1) Keywords (e.g., if), 2) Identifiers (e.g., total_marks), 3) Literals (e.g., 42, \"hello\"), 4) Operators (e.g., +), 5) Punctuators (e.g., :)",
      "Output: 7 5. The assignment b = a makes b refer to the same integer object 5 that a refers to. Integers are immutable, so a = 7 rebinds a to a new object 7; b still refers to 5",
+     "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code",
      "The two id() values will be different. Integers are immutable in Python; x = x + 1 creates a new integer object 11 and rebinds x to it. The original object 10 remains unchanged"
     ],
     "hint": "Straight from the 'In Python, a data type' slide -- match the key terms.",
@@ -986,8 +986,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the data type of the expression 10 + 3.14 in Python, and why does Python choose that type?",
     "answer": "The data type is float. Python implicitly converts the int (10) to float (10.0) before addition to avoid loss of precision",
     "options": [
-     "Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code",
-     "The two id() values will be different. Integers are immutable in Python; x = x + 1 creates a new integer object 11 and rebinds x to it. The original object 10 remains unchanged",
+     "The student must be able to examine a given Python code snippet, identify the exact error type (syntax, name, type, or logical), explain why it occurs",
+     "The student can correctly predict the resulting data type and value after any arithmetic or concatenation operation involving mixed int, float, and str operands",
      "The data type is float. Python implicitly converts the int (10) to float (10.0) before addition to avoid loss of precision"
     ],
     "hint": "Straight from the 'Type conversion in Python' slide -- match the key terms.",
@@ -1007,8 +1007,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact error message Python displays when you write print(\"Hello) (missing closing quote) and press Enter in interactive mode?",
     "answer": "SyntaxError: EOL while scanning string literal Why wrong answers reveal misunderstanding: If a student says \"NameError\" or \"TypeError\"",
     "options": [
-     "The two id() values will be different. Integers are immutable in Python; x = x + 1 creates a new integer object 11 and rebinds x to it. The original object 10 remains unchanged",
-     "The >>> prompt (three greater-than signs) indicates Interactive Mode",
+     "The data type is float. Python implicitly converts the int (10) to float (10.0) before addition to avoid loss of precision",
+     "Type conversion in Python is the process of changing a value from one data type (int, float, str) to another",
      "SyntaxError: EOL while scanning string literal Why wrong answers reveal misunderstanding: If a student says \"NameError\" or \"TypeError\""
     ],
     "hint": "Straight from the 'In Python, errors' slide -- match the key terms.",
@@ -1032,7 +1032,7 @@ export const C11_IP_GEN: SimDef[] = [
      "The statement is imprecise. Variables in Python have no type; *objects* have types. Dynamic typing means a variable can be rebound to objects of different types at different times",
      "Cross-platform portability – Python's standard library (including os.path) abstracts operating system differences; the interpreter on each OS handles the translation"
     ],
-    "hint": "Straight from the 'Python' slide -- match the key terms.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Python compiles to an executable that runs everywhere\") indicates the student thinks Python produces native binaries like C++; they must learn that the interpreter is platform-specific but the source code is portable.",
     "id": "gen_c11_ip_ch02_q13",
     "nodeId": "c11_ip_cbse_02_001",
@@ -1047,7 +1047,7 @@ export const C11_IP_GEN: SimDef[] = [
      "int in Python has arbitrary precision, so 10100 is stored exactly as an integer with 101 digits. float uses IEEE 754 double precision (53 bits of significand)",
      "In C, the programmer manually allocates/frees memory (malloc/free); in Python, reference counting and a cyclic garbage collector automatically reclaim unused objects"
     ],
-    "hint": "Straight from the 'Python' slide -- match the key terms.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Python has no memory management\") shows the student thinks automatic means \"no management at all\"; they need to understand that management is shifted from programmer to runtime.",
     "id": "gen_c11_ip_ch02_q14",
     "nodeId": "c11_ip_cbse_02_001",
@@ -1062,7 +1062,7 @@ export const C11_IP_GEN: SimDef[] = [
      "Example snippet: data = 42 data = \"Answer\" data = [1, 2, 3] print(type(data)) In Python, data is sequentially bound to an int, a str, and a list",
      "Good answer example: data = [1, 2, 3] # Dynamic typing: no type declaration data.append(\"hello\") # Heterogeneous lists: dynamic typing + high-level data structures print(sum(x for"
     ],
-    "hint": "Straight from the 'Python' slide -- match the key terms.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., a trivial print(\"Hello\")) shows the student cannot synthesize multiple features; they need practice mapping code constructs to language characteristics.",
     "id": "gen_c11_ip_ch02_q15",
     "nodeId": "c11_ip_cbse_02_001",
@@ -1077,7 +1077,7 @@ export const C11_IP_GEN: SimDef[] = [
      "Python never implicitly converts non-string types to str during concatenation; + with a string requires both operands to be strings",
      "Dynamic typing means variable types are determined at runtime and can change during execution (e.g"
     ],
-    "hint": "Straight from the 'Python' slide -- match the key terms.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"dynamic typing means you don't have to declare variables\") shows the student confuses dynamic typing with implicit declaration; they need to distinguish between type binding time and declaration requirement.",
     "id": "gen_c11_ip_ch02_q16",
     "nodeId": "c11_ip_cbse_02_001",
@@ -1085,42 +1085,42 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Your team is deciding between Python and Java for a new data-analysis project. Evaluate the trade-offs considering: (a) development speed, (b) execution speed, (c) ecosystem libraries. Justify your recommendation.",
-    "answer": "Python wins on development speed (concise syntax, dynamic typing, REPL) and ecosystem (pandas, NumPy, scikit-learn)",
+    "question": "What is Python? State the definition given in this lesson.",
+    "answer": "Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic memory management",
     "options": [
-     "After the multiple assignment: p refers to 3.14 (float), q refers to \"Python\" (str), r refers to 10 (int)",
-     "Error: 'python' is not recognized as an internal or external command, operable program or batch file",
-     "Python wins on development speed (concise syntax, dynamic typing, REPL) and ecosystem (pandas, NumPy, scikit-learn)"
+     "Type conversion in Python is the process of changing a value from one data type (int, float, str) to another",
+     "Misconception: *\"Installing Python automatically means IDLE works, and the Shell window is where I write my programs",
+     "Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic memory management"
     ],
-    "hint": "Straight from the 'Python' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Java is always faster so choose Java\") reveals the student prioritizes a single factor without context; they must learn to weigh multiple criteria.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic",
     "id": "gen_c11_ip_ch02_q17",
     "nodeId": "c11_ip_cbse_02_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A Class 11 student claims: *\"IDLE is sufficient for all Python development — professional developers don't need VS Code or PyCharm.\"* Evaluate this statement with three specific technical limitations of IDLE that make it unsuitable for large-scale projects, and one scenario where IDLE remains the preferred tool.",
-    "answer": "Evaluation: The claim is false for professional work but true for learning. Three limitations of IDLE: 1",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to list at least five key features of Python (e.g., interpreted, dynamically typed, cross-platform, open source",
     "options": [
-     "After the multiple assignment: p refers to 3.14 (float), q refers to \"Python\" (str), r refers to 10 (int)",
-     "The student is incorrect. x = \"True\" is a string (type str) because it is enclosed in quotes, while y = True is a boolean (type bool)",
-     "Evaluation: The claim is false for professional work but true for learning. Three limitations of IDLE: 1"
+     "IDLE stands for Integrated Development and Learning Environment. It provides two windows: (1) the Shell window (interactive REPL with >>> prompt for immediate single-statement",
+     "Python installation is the process of downloading the Python interpreter from python.org, executing the platform-specific installer with the \"Add Python to PATH\" option enabled",
+     "The student must be able to list at least five key features of Python (e.g., interpreted, dynamically typed, cross-platform, open source"
     ],
-    "hint": "Straight from the 'Python installation' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"IDLE has no debugger\" — it has a basic one; or \"IDLE can't run big files\" — it can) reveals the student confuses *feature absence* with *capacity limits* and doesn't distinguish pedagogical fit from production readiness.",
+    "hint": "Straight from the 'Python is a high-level' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to list at least five key features of Python (e.",
     "id": "gen_c11_ip_ch02_q18",
-    "nodeId": "c11_ip_cbse_02_002",
-    "difficulty": "advanced"
+    "nodeId": "c11_ip_cbse_02_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about python?",
+    "What surprised you about python is a high-level?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Python mastered! 🎯",
+  "successLine": "Python Is a High-level mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1203,7 +1203,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Iteration",
+    "title": "Iteration Is The Process Of Repeating",
     "text": "Iteration is the process of repeating a set of instructions until a specific condition is met, and a loop is the programming construct that implements this repetition by executing a block of code multiple times without rewriting it.",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1475,8 +1475,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact output of the following code snippet when the user enters 15? num = int(input(\"Enter a number: \")) if num > 10: if num % 2 == 0: print(\"A\") else: print(\"B\") else: print(\"C\")",
     "answer": "The output is B. The outer condition num > 10 is true (15 > 10), so the inner if executes. Since 15 % 2 == 1 (not 0), the inner else block runs, printing B",
     "options": [
-     "The result is True. Python compares strings lexicographically using Unicode code points of characters",
-     "Syntax: value_if_true if condition else value_if_false. Evaluation order: first the condition (marks >= 33) is evaluated",
+     "The student can write a complete Python program that reads numeric input, uses an if-else construct with correct indentation and colon syntax to choose between two distinct",
+     "The syntax is: if condition: # block of statements (indented) else: # block of statements (indented) A colon : must follow the condition and the else keyword",
      "The output is B. The outer condition num > 10 is true (15 > 10), so the inner if executes. Since 15 % 2 == 1 (not 0), the inner else block runs, printing B"
     ],
     "hint": "Straight from the 'nested if statement' slide -- match the key terms.",
@@ -1496,11 +1496,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact syntax of Python's ternary operator and which part is evaluated first when the expression result = \"Pass\" if marks >= 33 else \"Fail\" runs?",
     "answer": "Syntax: value_if_true if condition else value_if_false. Evaluation order: first the condition (marks >= 33) is evaluated",
     "options": [
-     "The default control flow is sequential execution: statements are executed one after another in the exact order they appear in the source code, from top to bottom",
-     "if condition: followed by an indented block. The colon (:) after the condition and consistent indentation (typically 4 spaces) for the block are mandatory",
+     "The result is True. Python compares strings lexicographically using Unicode code points of characters",
+     "The output is B. The outer condition num > 10 is true (15 > 10), so the inner if executes. Since 15 % 2 == 1 (not 0), the inner else block runs, printing B",
      "Syntax: value_if_true if condition else value_if_false. Evaluation order: first the condition (marks >= 33) is evaluated"
     ],
-    "hint": "Straight from the 'conditional expression  in Python' slide -- match the key terms.",
+    "hint": "Straight from the 'conditional expression in Python' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying the branches are evaluated first or that the syntax is if condition: value_if_true else: value_if_false) reveals confusion between the ternary *expression* and the if-else *statement*.",
     "id": "gen_c11_ip_ch03_q6",
     "nodeId": "c11_ip_cbse_03_006",
@@ -1517,11 +1517,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary purpose of a loop in programming, and how does it differ from writing the same statement multiple times?",
     "answer": "A loop automates repetition by executing a block of code multiple times with a changing state (loop variable)",
     "options": [
-     "if condition: followed by an indented block. The colon (:) after the condition and consistent indentation (typically 4 spaces) for the block are mandatory",
-     "The inner loop executes 12 times (3 × 4)",
+     "The student can independently write a for loop using range() to solve a problem requiring a specific number of iterations with a custom start, stop",
+     "The student can trace a given loop's execution flow, identify whether it will terminate correctly, detect off-by-one errors by comparing expected vs actual iteration counts",
      "A loop automates repetition by executing a block of code multiple times with a changing state (loop variable)"
     ],
-    "hint": "Straight from the 'Iteration' slide -- match the key terms.",
+    "hint": "Straight from the 'Iteration is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"loops make code faster\") reveals confusion between *code conciseness* and *execution speed* — loops don't inherently speed up execution; they improve maintainability and flexibility.",
     "id": "gen_c11_ip_ch03_q7",
     "nodeId": "c11_ip_cbse_03_007",
@@ -1534,16 +1534,47 @@ export const C11_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Write the exact syntax of a while loop in Python, including the colon and indentation requirements. What happens if the colon is omitted?",
-    "answer": "Correct syntax: while condition:\\n statement(s). The colon is mandatory; omitting it raises a SyntaxError because Python uses the colon to mark the start of an indented block",
-    "options": [
-     "The code has a critical error: the update i = i + 1 is missing inside the loop. Without it, i remains 1 forever, the condition i <= n stays True (for n>=1)",
-     "correct_pass = \"ip123\" for attempt in range(3): # iterative flow pwd = input(\"Enter password: \") # sequential inside loop if pwd == correct_pass: # conditional flow print(\"Access",
-     "Correct syntax: while condition:\\n statement(s). The colon is mandatory; omitting it raises a SyntaxError because Python uses the colon to mark the start of an indented block"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the execution flow using a flowchart",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "write syntactically correct while loops",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "identify and correct infinite loops caused",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'while loop' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., missing colon, wrong indentation, or using curly braces) reveals the student confuses Python's block structure with languages like C++ or Java, or doesn't understand that indentation is syntactic, not cosmetic.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) write syntactically correct while loops with proper initialization, condition, and",
     "id": "gen_c11_ip_ch03_q8",
     "nodeId": "c11_ip_cbse_03_008",
     "difficulty": "standard",
@@ -1578,8 +1609,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the total number of times the inner loop body executes in the following code snippet? for i in range(3): for j in range(4): print(i, j)",
     "answer": "The inner loop executes 12 times (3 × 4)",
     "options": [
-     "The result is True. Python compares strings lexicographically using Unicode code points of characters",
-     "A loop automates repetition by executing a block of code multiple times with a changing state (loop variable)",
+     "The student can independently write a for loop using range() to solve a problem requiring a specific number of iterations with a custom start, stop",
+     "The break statement immediately terminates the while loop entirely; control jumps to the first executable statement after the loop body",
      "The inner loop executes 12 times (3 × 4)"
     ],
     "hint": "Straight from the 'nested loop' slide -- match the key terms.",
@@ -1599,8 +1630,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact effect of the break statement when encountered inside a while loop?",
     "answer": "The break statement immediately terminates the while loop entirely; control jumps to the first executable statement after the loop body",
     "options": [
-     "The inner loop executes 12 times (3 × 4)",
-     "A loop automates repetition by executing a block of code multiple times with a changing state (loop variable)",
+     "The default control flow is sequential execution: statements are executed one after another in the exact order they appear in the source code, from top to bottom",
+     "An infinite loop occurs when the loop condition remains true indefinitely because the loop control variable is not updated inside the loop body",
      "The break statement immediately terminates the while loop entirely; control jumps to the first executable statement after the loop body"
     ],
     "hint": "Straight from the 'break statement immediately' slide -- match the key terms.",
@@ -1620,11 +1651,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the defining characteristic of an infinite loop in a while statement?",
     "answer": "An infinite loop occurs when the loop condition remains true indefinitely because the loop control variable is not updated inside the loop body",
     "options": [
-     "The result is True. Python compares strings lexicographically using Unicode code points of characters",
-     "if condition: followed by an indented block. The colon (:) after the condition and consistent indentation (typically 4 spaces) for the block are mandatory",
+     "The student can trace a given loop's execution flow, identify whether it will terminate correctly, detect off-by-one errors by comparing expected vs actual iteration counts",
+     "The default control flow is sequential execution: statements are executed one after another in the exact order they appear in the source code, from top to bottom",
      "An infinite loop occurs when the loop condition remains true indefinitely because the loop control variable is not updated inside the loop body"
     ],
-    "hint": "Straight from the 'infinite loop occurs when a' slide -- match the key terms.",
+    "hint": "Straight from the 'infinite loop occurs when' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it runs for a very long time\") reveals the student confuses long-running loops with truly non-terminating ones and misses the structural cause: absent or ineffective variable update.",
     "id": "gen_c11_ip_ch03_q12",
     "nodeId": "c11_ip_cbse_03_012",
@@ -1637,6 +1668,52 @@ export const C11_IP_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the execution flow using a flowchart",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "predict the output of code snippets",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "write syntactically correct if statements",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) write syntactically correct if statements with proper colon and consistent indentation,",
+    "id": "gen_c11_ip_ch03_q13",
+    "nodeId": "c11_ip_cbse_03_003",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student writes the following code to calculate the factorial of 5 using a loop. They claim the output will be 120. Evaluate their claim by tracing the control flow and block membership.",
     "answer": "The student is correct. The loop block consists only of fact = fact * i (indented under for). The print(fact) is *outside* the loop block (dedented)",
@@ -1647,7 +1724,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Control flow' slide -- match the key terms.",
     "misconception": "A wrong answer claiming the output is 1, 2, 6, 24, 120 (each on new line) reveals the misconception that print(fact) is inside the loop block — a classic indentation error.",
-    "id": "gen_c11_ip_ch03_q13",
+    "id": "gen_c11_ip_ch03_q14",
     "nodeId": "c11_ip_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1662,7 +1739,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Control flow' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"indentation is just for readability\" reveals the dangerous misconception that Python ignores whitespace, leading to IndentationError or silent logical bugs when blocks are misaligned.",
-    "id": "gen_c11_ip_ch03_q14",
+    "id": "gen_c11_ip_ch03_q15",
     "nodeId": "c11_ip_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1677,7 +1754,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Control flow' slide -- match the key terms.",
     "misconception": "A poor answer that puts print(\"Account locked\") outside the loop at same indentation as for (without else) shows misunderstanding of the for-else construct and block association.",
-    "id": "gen_c11_ip_ch03_q15",
+    "id": "gen_c11_ip_ch03_q16",
     "nodeId": "c11_ip_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1692,7 +1769,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Control flow' slide -- match the key terms.",
     "misconception": "A wrong answer that groups print(\"Done\") with the if block reveals the misconception that a blank line or a comment ends a block, rather than dedentation.",
-    "id": "gen_c11_ip_ch03_q16",
+    "id": "gen_c11_ip_ch03_q17",
     "nodeId": "c11_ip_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1707,21 +1784,6 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Control flow' slide -- match the key terms.",
     "misconception": "A wrong answer with incorrect indentation (e.g., grade = 'C' not indented) shows the student does not understand that indentation *is* the block delimiter in Python.",
-    "id": "gen_c11_ip_ch03_q17",
-    "nodeId": "c11_ip_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the default control flow mechanism in a Python program when no conditional or looping statements are used?",
-    "answer": "The default control flow is sequential execution: statements are executed one after another in the exact order they appear in the source code, from top to bottom",
-    "options": [
-     "The break statement immediately terminates the while loop entirely; control jumps to the first executable statement after the loop body",
-     "An infinite loop occurs when the loop condition remains true indefinitely because the loop control variable is not updated inside the loop body",
-     "The default control flow is sequential execution: statements are executed one after another in the exact order they appear in the source code, from top to bottom"
-    ],
-    "hint": "Straight from the 'Control flow' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"random order\" or \"alphabetical order\") reveals that the student has not internalized the fundamental concept that a program is a sequence of instructions executed linearly unless explicitly directed otherwise.",
     "id": "gen_c11_ip_ch03_q18",
     "nodeId": "c11_ip_cbse_03_001",
     "difficulty": "standard"
@@ -1739,14 +1801,14 @@ export const C11_IP_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_ip_ch04",
-  "title": "Tuple",
+  "title": "Tuple Is An Ordered",
   "subtitle": "Informatics Practices · Chapter 4",
   "classLevel": 11,
   "mode": "senior",
   "subject": "informatics practices",
-  "topic": "Tuple",
+  "topic": "Tuple Is An Ordered",
   "chapters": [
-   "Informatics Practices Ch4: Tuple"
+   "Informatics Practices Ch4: Tuple Is An Ordered"
   ],
   "nodeIds": [
    "c11_ip_cbse_04_001",
@@ -1769,7 +1831,7 @@ export const C11_IP_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Tuple more about facts, or about reasoning?",
+   "question": "Is Tuple Is An Ordered more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -1786,7 +1848,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Indexing",
+    "title": "Indexing Is The Mechanism To Access",
     "text": "Indexing is the mechanism to access individual elements of a list using their position (zero-based positive index from left, or negative index from right), while slicing is the operation to extract a sublist by specifying a range of indices with optional step",
     "emoji": "🗂️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1798,7 +1860,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "List Methods Append, Insert, Remove, Pop,",
+    "title": "List Methods Append , Insert , Remove , Pop",
     "text": "List methods append(), insert(), remove(), pop(), sort(), and reverse() are built-in mutator functions that modify a list *in-place* (returning None except pop() which returns the removed element).",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1810,13 +1872,13 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Tuple",
+    "title": "Tuple Is An Ordered",
     "text": "A tuple is an ordered, immutable sequence of elements enclosed in parentheses () where elements can be of mixed data types. Immutability means once a tuple is created, its elements cannot be modified, added, or removed — any operation that appears to change a",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Tuple",
+    "title": "Tuple Is An Ordered",
     "text": "A tuple is an ordered, immutable sequence of elements enclosed in parentheses () where elements are separated by commas; unlike lists, tuples cannot be modified after creation but support indexing, slicing, concatenation, repetition, and membership operations.",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1858,8 +1920,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "Write the exact Python syntax to create: (a) an empty list, (b) a list of three integers, (c) a list containing an integer, a float, a string, and another list.",
     "answer": "(a) [] or list() (b) [10, 20, 30] (c) [42, 3.14, 'hello', [1, 2]]",
     "options": [
-     "Problem: A shopkeeper has a list of bill amounts [250, 500, 1200, 300] (oldest to newest). He wants to process refunds from the newest bill backwards until the total refunded",
-     "Scenario: Storing RGB color constants RED = (255, 0, 0). Buggy list version: RED = [255, 0, 0]; later code accidentally does RED[1] = 128 turning red into orange globally",
+     "No, it does not update the dictionary. scores.values() returns a view of values; the loop variable v is a local reference to each value (integers are immutable)",
+     "Error: sort() returns None and mutates marks. Version 1 (mutate original): marks.sort() new_marks = marks # both refer to same sorted list Version 2 (keep original unchanged):",
      "(a) [] or list() (b) [10, 20, 30] (c) [42, 3.14, 'hello', [1, 2]]"
     ],
     "hint": "Straight from the 'list in Python' slide -- match the key terms.",
@@ -1879,11 +1941,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of lst = [10, 20, 30, 40, 50]; print(lst[-3])?",
     "answer": "The output is 30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the right",
     "options": [
-     "The correct syntax is (42,) — note the trailing comma. Without the comma, (42) is just an integer in parentheses, not a tuple",
-     "The correct syntax is (42,) — the trailing comma is mandatory. Without it, (42) is just an integer expression evaluating to 42, not a tuple",
+     "The student must be able to write Python code that correctly uses +, *, in, and not in with lists, predict the output of expressions involving these operators",
+     "Students believe that slicing with an out-of-range index (e.g., lst[2:100] on a 5-element list) raises an IndexError, just like indexing does",
      "The output is 30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the right"
     ],
-    "hint": "Straight from the 'Indexing' slide -- match the key terms.",
+    "hint": "Straight from the 'Indexing is the mechanism to' slide -- match the key terms.",
     "misconception": "A wrong answer like 20 or 40 reveals confusion about whether negative counting starts at 0 or 1, or mixing up left/right direction.",
     "id": "gen_c11_ip_ch04_q2",
     "nodeId": "c11_ip_cbse_04_002",
@@ -1900,8 +1962,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the result of the expression [1, 2] + [3, 4] and what is the data type of the result?",
     "answer": "The result is [1, 2, 3, 4] of type list",
     "options": [
-     "The output is 2 1. count(20) returns 2 because 20 appears twice. index(20) returns 1 because the first occurrence is at index 1 (zero-based)",
-     "A dictionary key must be (1) immutable (int, float, string, tuple) and (2) unique within that dictionary",
+     "The return value is None. append() modifies the list in-place and does not return the modified list",
+     "Given a list and a sequence of 3–5 method calls (including edge cases like index out of range, duplicate values, empty list)",
      "The result is [1, 2, 3, 4] of type list"
     ],
     "hint": "Straight from the 'List operations in Python include' slide -- match the key terms.",
@@ -1921,11 +1983,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the return value of list1.append(5) if list1 = [1, 2, 3]?",
     "answer": "The return value is None. append() modifies the list in-place and does not return the modified list",
     "options": [
-     "The output is 30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the right",
-     "The correct syntax is (42,) — note the trailing comma. Without the comma, (42) is just an integer in parentheses, not a tuple",
+     "Students believe that slicing with an out-of-range index (e.g., lst[2:100] on a 5-element list) raises an IndexError, just like indexing does",
+     "Given a list and a sequence of 3–5 method calls (including edge cases like index out of range, duplicate values, empty list)",
      "The return value is None. append() modifies the list in-place and does not return the modified list"
     ],
-    "hint": "Straight from the 'List methods append, insert,' slide -- match the key terms.",
+    "hint": "Straight from the 'List methods append , insert ,' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., [1, 2, 3, 5]) reveals the student confuses mutator methods (which return None) with functional methods like sorted() that return a new list.",
     "id": "gen_c11_ip_ch04_q4",
     "nodeId": "c11_ip_cbse_04_004",
@@ -1963,11 +2025,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the correct syntax to create a tuple containing only the integer 42?",
     "answer": "The correct syntax is (42,) — note the trailing comma. Without the comma, (42) is just an integer in parentheses, not a tuple",
     "options": [
-     "The result is [1, 2, 3, 4] of type list",
-     "The return value is None. append() modifies the list in-place and does not return the modified list",
+     "A dictionary key must be (1) immutable (int, float, string, tuple) and (2) unique within that dictionary",
+     "The student must be able to (1) correctly predict the return value of count() and index() for any given tuple and element",
      "The correct syntax is (42,) — note the trailing comma. Without the comma, (42) is just an integer in parentheses, not a tuple"
     ],
-    "hint": "Straight from the 'tuple' slide -- match the key terms.",
+    "hint": "Straight from the 'tuple is an ordered' slide -- match the key terms.",
     "misconception": "A wrong answer like (42) reveals the student thinks parentheses alone define a tuple, missing the critical comma rule for single-element tuples.",
     "id": "gen_c11_ip_ch04_q6",
     "nodeId": "c11_ip_cbse_04_006",
@@ -1984,11 +2046,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the correct syntax to create a single-element tuple containing only the integer 42, and why does the alternative without the comma fail?",
     "answer": "The correct syntax is (42,) — the trailing comma is mandatory. Without it, (42) is just an integer expression evaluating to 42, not a tuple",
     "options": [
-     "A dictionary key must be (1) immutable (int, float, string, tuple) and (2) unique within that dictionary",
-     "The result is [1, 2, 3, 4] of type list",
+     "Students believe that slicing with an out-of-range index (e.g., lst[2:100] on a 5-element list) raises an IndexError, just like indexing does",
+     "The student can write correct Python code to traverse a given list using both for loops (with direct element access and range(len()) indexing) and while loops",
      "The correct syntax is (42,) — the trailing comma is mandatory. Without it, (42) is just an integer expression evaluating to 42, not a tuple"
     ],
-    "hint": "Straight from the 'tuple' slide -- match the key terms.",
+    "hint": "Straight from the 'tuple is an ordered' slide -- match the key terms.",
     "misconception": "A wrong answer like (42) reveals the student doesn't understand that parentheses alone don't create a tuple; the comma is the actual tuple constructor for single elements, which is a unique Python syntax rule often missed.",
     "id": "gen_c11_ip_ch04_q7",
     "nodeId": "c11_ip_cbse_04_007",
@@ -2005,8 +2067,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of the following code snippet? t = (10, 20, 30, 20, 40) print(t.count(20), t.index(20))",
     "answer": "The output is 2 1. count(20) returns 2 because 20 appears twice. index(20) returns 1 because the first occurrence is at index 1 (zero-based)",
     "options": [
-     "The correct syntax is (42,) — note the trailing comma. Without the comma, (42) is just an integer in parentheses, not a tuple",
-     "The correct syntax is (42,) — the trailing comma is mandatory. Without it, (42) is just an integer expression evaluating to 42, not a tuple",
+     "Students believe that slicing with an out-of-range index (e.g., lst[2:100] on a 5-element list) raises an IndexError, just like indexing does",
+     "Given a list and a sequence of 3–5 method calls (including edge cases like index out of range, duplicate values, empty list)",
      "The output is 2 1. count(20) returns 2 because 20 appears twice. index(20) returns 1 because the first occurrence is at index 1 (zero-based)"
     ],
     "hint": "Straight from the 'Tuple methods count and index' slide -- match the key terms.",
@@ -2100,8 +2162,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of the following code snippet? student = {'name': 'Priya', 'age': 17, 'grade': 'A'} print(student['age']) print(student.get('grade')) print(student.get('city'))",
     "answer": "Output: 17, 'A', None. The first two access existing keys directly and via get(). The third uses get() for a non-existent key 'city', returning None instead of raising KeyError",
     "options": [
-     "The result is [1, 2, 3, 4] of type list",
-     "The return value is None. append() modifies the list in-place and does not return the modified list",
+     "The output is 30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the right",
+     "The output is 2 1. count(20) returns 2 because 20 appears twice. index(20) returns 1 because the first occurrence is at index 1 (zero-based)",
      "Output: 17, 'A', None. The first two access existing keys directly and via get(). The third uses get() for a non-existent key 'city', returning None instead of raising KeyError"
     ],
     "hint": "Straight from the 'dictionary in Python' slide -- match the key terms.",
@@ -2121,8 +2183,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What does the expression d.keys() return for a dictionary d, and how does it behave if you later add a new key to d?",
     "answer": "It returns a dict_keys view object that dynamically reflects the dictionary's keys. If a new key is added to d",
     "options": [
-     "A dictionary key must be (1) immutable (int, float, string, tuple) and (2) unique within that dictionary",
-     "Output: 17, 'A', None. The first two access existing keys directly and via get(). The third uses get() for a non-existent key 'city', returning None instead of raising KeyError",
+     "Dictionary methods in Python are built-in functions that allow manipulation and retrieval of key-value pairs in a dictionary",
+     "Traversing a dictionary using loops means systematically visiting each key-value pair (item) in the dictionary exactly once",
      "It returns a dict_keys view object that dynamically reflects the dictionary's keys. If a new key is added to d"
     ],
     "hint": "Straight from the 'Dictionary methods in Python' slide -- match the key terms.",
@@ -2142,7 +2204,7 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What does the expression for key in my_dict: iterate over in Python 3.7+?",
     "answer": "It iterates over the keys of my_dict in insertion order",
     "options": [
-     "The return value is None. append() modifies the list in-place and does not return the modified list",
+     "Students believe for item in my_list: allows modification of the original list by assigning to item (e.g., for x in L: x = x * 2)",
      "A dictionary key must be (1) immutable (int, float, string, tuple) and (2) unique within that dictionary",
      "It iterates over the keys of my_dict in insertion order"
     ],
@@ -2193,8 +2255,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "Design a list structure to represent a weekly timetable for a student. Each day has a list of periods, each period is a list containing [subject, teacher, room]. Create the list for Monday with 3 periods: Physics (Dr. Rao, Lab1), Chemistry (Ms. Singh, Room20), Mathematics (Mr. Das, Room15). Write the Python code.",
     "answer": "monday = [['Physics', 'Dr. Rao', 'Lab1'], ['Chemistry', 'Ms. Singh', 'Room20'], ['Mathematics', 'Mr",
     "options": [
-     "The code prints \"Not Found\" for every non-matching element before \"Found\", e.g., \"Not Found\\nNot Found\\nFound\\nNot Found\"",
      "(a) marks['Chemistry'] += 5 or marks['Chemistry'] = marks['Chemistry'] + 5 (b) marks['English'] = 88 (c) 'Biology' in marks returns False, or marks.get('Biology') returns None",
+     "The approach is correct logically but inefficient for large lists because in on a list is O(n) linear search",
      "monday = [['Physics', 'Dr. Rao', 'Lab1'], ['Chemistry', 'Ms. Singh', 'Room20'], ['Mathematics', 'Mr"
     ],
     "hint": "Straight from the 'list in Python' slide -- match the key terms.",
@@ -2235,40 +2297,40 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student writes marks = [85, 90, 78, 92, 88]; top_three = marks[-3:] to get the last three marks. Another writes top_three = marks[2:]. Are both correct? Justify your answer.",
-    "answer": "Both are correct for this specific 5-element list. marks[-3:] means \"from 3rd-last to end\" → indices 2,3,4",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently create lists with homogeneous and heterogeneous elements, create nested lists, explain the significance of mutability and ordering",
     "options": [
-     "A KeyError is raised. The student could use d.pop('z', None) (though pop is not in scope) or check 'z' in d before deletion",
-     "Output: 85 88 3 Step-by-step: (1) marks[\"Physics\"] retrieves value 85 via key \"Physics\". (2) marks[\"Physics\"] = 88 modifies the existing key's value (mutability)",
-     "Both are correct for this specific 5-element list. marks[-3:] means \"from 3rd-last to end\" → indices 2,3,4"
+     "The student must be able to create tuples using multiple syntaxes, access elements via positive/negative indexing and slicing, perform tuple operations (concatenation, repetition",
+     "The student must be able to write Python code that correctly uses keys(), values(), items(), get(), update(), and del to inspect, safely access, merge, and delete dictionary data",
+     "The student can independently create lists with homogeneous and heterogeneous elements, create nested lists, explain the significance of mutability and ordering"
     ],
-    "hint": "Straight from the 'Indexing' slide -- match the key terms.",
-    "misconception": "A student who says \"only first is correct\" misses that slicing syntax can be equivalent for specific lengths; one who says \"both always correct\" misses that the second is length-dependent.",
+    "hint": "Straight from the 'list in Python' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently create lists with homogeneous and heterogeneous elements, create nested lists, explain",
     "id": "gen_c11_ip_ch04_q18",
-    "nodeId": "c11_ip_cbse_04_002",
+    "nodeId": "c11_ip_cbse_04_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about tuple?",
+    "What surprised you about tuple is an ordered?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Tuple mastered! 🎯",
+  "successLine": "Tuple Is An Ordered mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ip_ch05",
-  "title": "Function",
+  "title": "Function Is a Named",
   "subtitle": "Informatics Practices · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "informatics practices",
-  "topic": "Function",
+  "topic": "Function Is a Named",
   "chapters": [
-   "Informatics Practices Ch5: Function"
+   "Informatics Practices Ch5: Function Is a Named"
   ],
   "nodeIds": [
    "c11_ip_cbse_05_001",
@@ -2291,7 +2353,7 @@ export const C11_IP_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Function directly with your eyes?",
+   "question": "Can you see Function Is a Named directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -2302,7 +2364,7 @@ export const C11_IP_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Function",
+    "title": "Function Is a Named",
     "text": "A function is a named, reusable block of code that performs a specific task and optionally returns a value. Modular programming is the practice of decomposing a program into independent, self-contained functions (modules) that can be developed, tested, and",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2314,7 +2376,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Parameters",
+    "title": "Parameters Are Variables Declared",
     "text": "Parameters are variables declared in a function definition that act as placeholders for input values; arguments are the actual values passed during a function call.",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2326,7 +2388,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "The Scope Of a Variable",
+    "title": "The Scope Of a Variable Defines",
     "text": "The scope of a variable defines the region of a program where that variable is accessible; a local variable is created inside a function and exists only during that function's execution, while a global variable is defined outside all functions and is",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2350,7 +2412,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "The Random Module In Python",
+    "title": "The Random Module In Python Provides",
     "text": "The random module in Python provides functions to generate pseudo-random numbers. Key functions: randint(a, b) returns a random integer between a and b inclusive; random() returns a random float in [0.",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2380,11 +2442,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary purpose of a function in programming?",
     "answer": "A function is a named block of code that performs a specific task and can be reused multiple times",
     "options": [
-     "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
-     "Output: 10 10 A wrong answer (e.g., thinking the second print fails) reveals the student believes global variables are not accessible inside functions unless explicitly passed",
+     "The student can explain the purpose of modules, write correct import statements (including import module, import module as alias, from module import name",
+     "The student must be able to write a complete Python function definition using def with proper indentation, call the function correctly",
      "A function is a named block of code that performs a specific task and can be reused multiple times"
     ],
-    "hint": "Straight from the 'function' slide -- match the key terms.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"functions are used to store data\" or \"functions make programs run faster\") reveals that the student confuses functions with variables or performance optimization, missing the core idea of task encapsulation and reuse.",
     "id": "gen_c11_ip_ch05_q1",
     "nodeId": "c11_ip_cbse_05_001",
@@ -2401,8 +2463,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact syntax to define a function named greet that takes no parameters and prints \"Hello\"?",
     "answer": "The correct syntax is: def greet(): print(\"Hello\") A wrong answer (e.g., missing colon, incorrect indentation",
     "options": [
-     "The file must be named myutils.py (lowercase, no spaces, valid identifier)",
-     "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
+     "A function is a named block of code that performs a specific task and can be reused multiple times",
+     "Parameters are variables declared in a function definition that act as placeholders for input values; arguments are the actual values passed during a function call",
      "The correct syntax is: def greet(): print(\"Hello\") A wrong answer (e.g., missing colon, incorrect indentation"
     ],
     "hint": "Straight from the 'function in Python' slide -- match the key terms.",
@@ -2422,11 +2484,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of the following code snippet? def greet(name, greeting=\"Hello\"): print(greeting, name) greet(\"Aman\") greet(\"Priya\", \"Namaste\")",
     "answer": "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
     "options": [
-     "The first print(math.pi) outputs 3.141592653589793 because math.pi is accessed through the module namespace",
      "A function is a named block of code that performs a specific task and can be reused multiple times",
+     "The student can explain the purpose of modules, write correct import statements (including import module, import module as alias, from module import name",
      "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the"
     ],
-    "hint": "Straight from the 'Parameters' slide -- match the key terms.",
+    "hint": "Straight from the 'Parameters are variables declared' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the default value for greeting because only one positional argument is supplied, while the second call overrides the default by providing a second positional argument.",
     "id": "gen_c11_ip_ch05_q3",
     "nodeId": "c11_ip_cbse_05_003",
@@ -2443,8 +2505,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the value of the expression result = greet() if greet is defined as def greet(): print(\"Namaste\") and the function is called?",
     "answer": "The value of result is None. The function greet prints \"Namaste\" but has no return statement, so it implicitly returns None",
     "options": [
-     "global counter placed at the beginning of the function body before any use of counter",
      "The first print(math.pi) outputs 3.141592653589793 because math.pi is accessed through the module namespace",
+     "A function is a named block of code that performs a specific task and can be reused multiple times",
      "The value of result is None. The function greet prints \"Namaste\" but has no return statement, so it implicitly returns None"
     ],
     "hint": "Straight from the 'function that uses the return' slide -- match the key terms.",
@@ -2464,11 +2526,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the output of the following code? x = 10 def show(): print(x) show() print(x)",
     "answer": "Output: 10 10 A wrong answer (e.g., thinking the second print fails) reveals the student believes global variables are not accessible inside functions unless explicitly passed",
     "options": [
-     "The value of result is None. The function greet prints \"Namaste\" but has no return statement, so it implicitly returns None",
-     "global counter placed at the beginning of the function body before any use of counter",
+     "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
+     "The student can explain the purpose of functions in their own words, list at least four distinct advantages of modular programming (e",
      "Output: 10 10 A wrong answer (e.g., thinking the second print fails) reveals the student believes global variables are not accessible inside functions unless explicitly passed"
     ],
-    "hint": "Straight from the 'The scope of a variable' slide -- match the key terms.",
+    "hint": "Straight from the 'The scope of a variable defines' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., thinking the second print fails) reveals the student believes global variables are not accessible inside functions unless explicitly passed, confusing Python's LEGB rule with languages like C where globals need extern.",
     "id": "gen_c11_ip_ch05_q5",
     "nodeId": "c11_ip_cbse_05_005",
@@ -2506,8 +2568,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact output of the following code snippet, and why does it behave that way? import math print(math.pi) print(pi)",
     "answer": "The first print(math.pi) outputs 3.141592653589793 because math.pi is accessed through the module namespace",
     "options": [
+     "A function is a named block of code that performs a specific task and can be reused multiple times",
      "The correct syntax is: def greet(): print(\"Hello\") A wrong answer (e.g., missing colon, incorrect indentation",
-     "The value of result is None. The function greet prints \"Namaste\" but has no return statement, so it implicitly returns None",
      "The first print(math.pi) outputs 3.141592653589793 because math.pi is accessed through the module namespace"
     ],
     "hint": "Straight from the 'module in Python' slide -- match the key terms.",
@@ -2590,8 +2652,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What does random.randint(1, 6) return, and how many possible outcomes are there?",
     "answer": "random.randint(1, 6) returns a random integer between 1 and 6 inclusive. There are 6 possible outcomes (1, 2, 3, 4, 5, 6)",
     "options": [
-     "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
-     "A function is a named block of code that performs a specific task and can be reused multiple times",
+     "The student must be able to write Python code that imports the random module and correctly uses randint, random, and choice to solve problems requiring randomness",
+     "Both return 3. ceil returns the smallest integer ≥ argument, floor returns the largest integer ≤ argument",
      "random.randint(1, 6) returns a random integer between 1 and 6 inclusive. There are 6 possible outcomes (1, 2, 3, 4, 5, 6)"
     ],
     "hint": "Straight from the 'The random module in Python' slide -- match the key terms.",
@@ -2611,8 +2673,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the correct file extension and naming convention for a Python user-defined module that you intend to import with import myutils?",
     "answer": "The file must be named myutils.py (lowercase, no spaces, valid identifier)",
     "options": [
-     "A function is a named block of code that performs a specific task and can be reused multiple times",
-     "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
+     "A user-defined module allows you to group related functions and variables into a separate file (e.g",
+     "The student can explain the purpose of modules, write correct import statements (including import module, import module as alias, from module import name",
      "The file must be named myutils.py (lowercase, no spaces, valid identifier)"
     ],
     "hint": "Straight from the 'user-defined module in Python' slide -- match the key terms.",
@@ -2632,8 +2694,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact syntax to import only the ceil function from the math module so it can be used directly as ceil(4.2) without the math. prefix?",
     "answer": "from math import ceil — this brings ceil into the current namespace",
     "options": [
-     "global counter placed at the beginning of the function body before any use of counter",
-     "Both return 3. ceil returns the smallest integer ≥ argument, floor returns the largest integer ≤ argument",
+     "Student can correctly write from module import name and import module as alias statements, explain how they affect the namespace",
+     "The student can independently create a .py file with multiple functions, import it into a separate driver script using import module_name",
      "from math import ceil — this brings ceil into the current namespace"
     ],
     "hint": "Straight from the 'from-import statement allows' slide -- match the key terms.",
@@ -2653,8 +2715,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary purpose of creating a user-defined module in Python when solving a practical problem?",
     "answer": "A user-defined module allows you to group related functions and variables into a separate file (e.g",
     "options": [
-     "The correct syntax is: def greet(): print(\"Hello\") A wrong answer (e.g., missing colon, incorrect indentation",
-     "The output is: Hello Aman Namaste Priya A wrong answer (e.g., swapping the order or missing the default) reveals the student does not understand that the first call uses the",
+     "Student can correctly write from module import name and import module as alias statements, explain how they affect the namespace",
+     "The student must be able to write a complete Python function definition using def with proper indentation, call the function correctly",
      "A user-defined module allows you to group related functions and variables into a separate file (e.g"
     ],
     "hint": "Straight from the 'Practical problem solving using' slide -- match the key terms.",
@@ -2678,7 +2740,7 @@ export const C11_IP_GEN: SimDef[] = [
      "score = 90 # global def update_score(): score = 75 # local shadows global print(\"Inside:\", score) # prints 75 update_score() print(\"Outside:\"",
      "1. Code duplication: Each shape’s formula is repeated, so fixing a bug (e.g., using 3.14 instead of math"
     ],
-    "hint": "Straight from the 'function' slide -- match the key terms.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"code becomes long\" misses the maintenance and reusability consequences that modular design directly solves.",
     "id": "gen_c11_ip_ch05_q13",
     "nodeId": "c11_ip_cbse_05_001",
@@ -2693,7 +2755,7 @@ export const C11_IP_GEN: SimDef[] = [
      "Statement 1 adds r (module object); randint is accessed as r.randint. Statement 2 adds ri (function object); randint is NOT added",
      "A function is a single reusable block of code within a file; a module is a .py file containing multiple related functions (and variables) that can be imported into other programs"
     ],
-    "hint": "Straight from the 'function' slide -- match the key terms.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"modules are just bigger functions\" shows confusion between physical organization (files) and logical units (functions).",
     "id": "gen_c11_ip_ch05_q14",
     "nodeId": "c11_ip_cbse_05_001",
@@ -2708,7 +2770,7 @@ export const C11_IP_GEN: SimDef[] = [
      "import stats as st then call st.mean(data) for the module version and mean(values) for your own",
      "The statement is false. Functions may introduce a tiny overhead due to function call stack operations (pushing arguments, return address)"
     ],
-    "hint": "Straight from the 'function' slide -- match the key terms.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
     "misconception": "A student who agrees reveals a misconception that reuse equals performance gain, confusing developer efficiency with runtime efficiency.",
     "id": "gen_c11_ip_ch05_q15",
     "nodeId": "c11_ip_cbse_05_001",
@@ -2719,11 +2781,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "Design a modular structure (list the functions/modules) for a \"Library Management System\" that handles book issue, return, fine calculation, and member registration. Justify why each is a separate function.",
     "answer": "Good answer includes at least 4 functions: register_member(), issue_book(), return_book(), calculate_fine()",
     "options": [
-     "school_kit/ ├── main.py ├── fees.py ├── attendance.py └── reports.py fees.py: def calculate_fee(base, discount=0): return base * (1 - discount/100) main",
+     "The student wrote calculate (without parentheses) which is just a reference to the function object, not a call. To fix, change the last line to calculate()",
      "The statement is false. Functions may introduce a tiny overhead due to function call stack operations (pushing arguments, return address)",
      "Good answer includes at least 4 functions: register_member(), issue_book(), return_book(), calculate_fine()"
     ],
-    "hint": "Straight from the 'function' slide -- match the key terms.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
     "misconception": "A poor answer lumps everything into one manage_library() function, showing inability to decompose a problem into cohesive units.",
     "id": "gen_c11_ip_ch05_q16",
     "nodeId": "c11_ip_cbse_05_001",
@@ -2738,7 +2800,7 @@ export const C11_IP_GEN: SimDef[] = [
      "Refute: While overuse of globals is discouraged, global is appropriate for simple stateful functions in Class 11, e",
      "Modular programming divides a program into independent functions, each handling a single responsibility"
     ],
-    "hint": "Straight from the 'function' slide -- match the key terms.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"less code\" or \"easier to read\" shows a surface-level understanding; the student misses critical advantages like isolation of faults, parallel development, and separation of concerns.",
     "id": "gen_c11_ip_ch05_q17",
     "nodeId": "c11_ip_cbse_05_001",
@@ -2746,27 +2808,27 @@ export const C11_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student writes: def calculate(): a = 10 b = 20 print(a + b) calculate The program runs without error but prints nothing. Evaluate why this happens and how to fix it.",
-    "answer": "The student wrote calculate (without parentheses) which is just a reference to the function object, not a call. To fix, change the last line to calculate()",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain the purpose of functions in their own words, list at least four distinct advantages of modular programming (e",
     "options": [
-     "def print_line(): print(\"-\" * 20) print_line() print_line() print_line() Output: -------------------- -------------------- -------------------- A wrong answer (e",
-     "def calculate_discount(price, discount_percent): discount_amount = price * discount_percent / 100 return price - discount_amount final = calculate_discount(1200",
-     "The student wrote calculate (without parentheses) which is just a reference to the function object, not a call. To fix, change the last line to calculate()"
+     "The student must be able to write a complete Python function definition using def with proper indentation, call the function correctly",
+     "The student must be able to write a function that computes a result and returns it using return, correctly capture the returned value in a variable",
+     "The student can explain the purpose of functions in their own words, list at least four distinct advantages of modular programming (e"
     ],
-    "hint": "Straight from the 'function in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., thinking the function runs automatically) reveals the misconception that naming a function invokes it; the student must understand that parentheses are mandatory for calling.",
+    "hint": "Straight from the 'function is a named' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain the purpose of functions in their own words, list at least four distinct advantages of modular",
     "id": "gen_c11_ip_ch05_q18",
-    "nodeId": "c11_ip_cbse_05_002",
+    "nodeId": "c11_ip_cbse_05_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about function?",
+    "What surprised you about function is a named?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Function mastered! 🎯",
+  "successLine": "Function Is a Named mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2831,7 +2893,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Read, Readline, And Readlines",
+    "title": "Read , Readline , And Readlines",
     "text": "The read(), readline(), and readlines() are methods of a file object opened in text mode ('r') that return file content as strings: read([n]) reads the entire file or up to n characters as a single string; readline() reads one line including the trailing",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2849,7 +2911,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Seek(offset, Whence) Method Moves",
+    "title": "The Seek Method Moves",
     "text": "The seek(offset, whence) method moves the file pointer to a specific byte position within an open file, where offset is the number of bytes to move and whence (0, 1, or 2) specifies the reference point (start, current position, or end).",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2912,8 +2974,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What are the two mandatory arguments for the open() function when opening a text file in Python, and what does the function return?",
     "answer": "The two mandatory arguments are the file path (string) and the mode (string such as 'r', 'w', 'a')",
     "options": [
-     "The newline='' parameter tells Python not to perform universal newline translation, allowing the csv module to control line endings directly",
-     "The newline='' parameter tells Python not to perform universal newline translation, allowing the csv module to handle line endings correctly across platforms (Windows uses \\r\\n",
+     "The syntax is with open('data.txt', 'r') as f: followed by indented operations. After the indented block ends, Python automatically calls f",
+     "The student must be able to write a complete Python program that creates a CSV file from a given dataset (list of lists or list of dictionaries) using appropriate csv",
      "The two mandatory arguments are the file path (string) and the mode (string such as 'r', 'w', 'a')"
     ],
     "hint": "Straight from the 'open function in Python creates' slide -- match the key terms.",
@@ -2954,11 +3016,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the return type of file_object.read() when the file pointer is at the end of a non-empty text file?",
     "answer": "The return type is str (an empty string '')",
     "options": [
-     "csv.reader returns each row as a list of strings (positional access via index), while csv.DictReader returns each row as a dict (or OrderedDict) with keys from the header row",
+     "The student must be able to select the correct file access mode for a given real-world scenario, predict the exact effect on existing file content and file pointer position",
      "The mode string is 'a' (append mode). The file pointer is positioned at the end of the file (EOF), so any write operation adds data after existing content",
      "The return type is str (an empty string '')"
     ],
-    "hint": "Straight from the 'read, readline, and readlines' slide -- match the key terms.",
+    "hint": "Straight from the 'read , readline , and readlines' slide -- match the key terms.",
     "misconception": "A wrong answer like None or [] reveals the student confuses end-of-file behaviour with readline() (which returns '') or readlines() (which returns []), or mistakenly thinks read returns None like some other languages.",
     "id": "gen_c11_ip_ch06_q4",
     "nodeId": "c11_ip_cbse_06_004",
@@ -2976,7 +3038,7 @@ export const C11_IP_GEN: SimDef[] = [
     "answer": "writelines() does not insert newline characters between list elements; it writes each string exactly as it appears",
     "options": [
      "fp = open('log.txt', 'a', encoding='utf-8') try: fp.write('System started\\n') finally: fp.close() A poor answer might omit try/finally, place close() only after write()",
-     "try: f = open('config.ini', 'r') except FileNotFoundError: f = open('config.ini', 'w') f.write('debug=false') f.close() f = open('config.ini', 'r')",
+     "try: with open('notes.txt', 'r') as f: content = f.read() lines = len(content.splitlines()) words = len(content",
      "writelines() does not insert newline characters between list elements; it writes each string exactly as it appears"
     ],
     "hint": "Straight from the 'Writing to a text file in Python' slide -- match the key terms.",
@@ -2996,8 +3058,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact syntax to open a file named 'data.txt' in read mode using the with statement, and what happens to the file object after the indented block ends?",
     "answer": "The syntax is with open('data.txt', 'r') as f: followed by indented operations. After the indented block ends, Python automatically calls f",
     "options": [
-     "file.tell() returns 0, indicating the file pointer is at the very beginning (byte offset 0)",
-     "The return type is str (an empty string '')",
+     "The mode string is 'a' (append mode). The file pointer is positioned at the end of the file (EOF), so any write operation adds data after existing content",
+     "The student must be able to write a complete Python program that opens a text file using the with statement, reads its content appropriately",
      "The syntax is with open('data.txt', 'r') as f: followed by indented operations. After the indented block ends, Python automatically calls f"
     ],
     "hint": "Straight from the 'with statement in Python' slide -- match the key terms.",
@@ -3091,8 +3153,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the exact file access mode string used to open a text file for appending data without overwriting existing content, and where is the file pointer positioned immediately after opening?",
     "answer": "The mode string is 'a' (append mode). The file pointer is positioned at the end of the file (EOF), so any write operation adds data after existing content",
     "options": [
-     "The two mandatory arguments are the file path (string) and the mode (string such as 'r', 'w', 'a')",
-     "file.tell() returns 0, indicating the file pointer is at the very beginning (byte offset 0)",
+     "The student must be able to select the correct file access mode for a given real-world scenario, predict the exact effect on existing file content and file pointer position",
+     "The student must be able to write Python code that correctly opens a text file in append mode using both open() and with statement",
      "The mode string is 'a' (append mode). The file pointer is positioned at the end of the file (EOF), so any write operation adds data after existing content"
     ],
     "hint": "Straight from the 'Appending data to an existing' slide -- match the key terms.",
@@ -3112,11 +3174,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary purpose of the newline='' parameter when opening a CSV file in Python using the open() function?",
     "answer": "The newline='' parameter tells Python not to perform universal newline translation, allowing the csv module to handle line endings correctly across platforms (Windows uses \\r\\n",
     "options": [
-     "The syntax is with open('data.txt', 'r') as f: followed by indented operations. After the indented block ends, Python automatically calls f",
-     "The two mandatory arguments are the file path (string) and the mode (string such as 'r', 'w', 'a')",
+     "Student can write Python code to open a CSV file using with statement, create appropriate reader objects (csv",
+     "The student must be able to write Python code that correctly opens a text file in append mode using both open() and with statement",
      "The newline='' parameter tells Python not to perform universal newline translation, allowing the csv module to handle line endings correctly across platforms (Windows uses \\r\\n"
     ],
-    "hint": "Straight from the 'CSV  file' slide -- match the key terms.",
+    "hint": "Straight from the 'CSV file' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it creates a new line\" or \"it skips the header\") reveals the student confuses file opening modes with CSV parsing logic.",
     "id": "gen_c11_ip_ch06_q9",
     "nodeId": "c11_ip_cbse_06_009",
@@ -3152,8 +3214,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the purpose of the newline='' parameter when opening a file for CSV writing in Python, and what happens if you omit it on Windows?",
     "answer": "The newline='' parameter tells Python not to perform universal newline translation, allowing the csv module to control line endings directly",
     "options": [
-     "csv.reader returns each row as a list of strings (positional access via index), while csv.DictReader returns each row as a dict (or OrderedDict) with keys from the header row",
-     "The two mandatory arguments are the file path (string) and the mode (string such as 'r', 'w', 'a')",
+     "The student must be able to write a complete Python program that opens a text file using the with statement, reads its content appropriately",
+     "Student can write Python code to open a CSV file using with statement, create appropriate reader objects (csv",
      "The newline='' parameter tells Python not to perform universal newline translation, allowing the csv module to control line endings directly"
     ],
     "hint": "Straight from the 'Writing CSV files in Python uses' slide -- match the key terms.",
@@ -3600,7 +3662,7 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Matplotlib",
+    "title": "Matplotlib Is a Comprehensive Python",
     "text": "Matplotlib is a comprehensive Python library for creating static, animated, and interactive visualizations. The pyplot module (commonly imported as plt) provides a MATLAB-like procedural interface that allows users to generate plots with simple function calls",
     "emoji": "🗂️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3636,13 +3698,13 @@ export const C11_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Malware",
+    "title": "Malware: Virus, Worm, Trojan, Ransomware",
     "text": "Malware (malicious software) is any program or code designed to harm, exploit, or gain unauthorized access to a computer system. The five primary categories are: Virus (attaches to legitimate programs and requires human action to spread), Worm",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Phishing",
+    "title": "Phishing Is a Cyber Attack Where",
     "text": "Phishing is a cyber attack where attackers impersonate legitimate entities via deceptive emails, messages, or websites to trick individuals into revealing sensitive information such as passwords, credit card numbers, or Aadhaar details.",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3672,8 +3734,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "Define Data Visualisation in your own words and state its primary purpose in data analysis.",
     "answer": "Data Visualisation is the representation of data in graphical form (charts, graphs, maps) to make patterns, trends, and outliers easily understandable",
     "options": [
-     "The standard convention is import matplotlib.pyplot as plt",
-     "When only y is provided, plt.plot(y) uses integer indices starting from 0 as the x-coordinates (i.e., 0, 1, 2, ..., len(y)-1)",
+     "The student must be able to: (1) Define each malware type with precise technical characteristics, (2) Differentiate between them based on propagation method, payload",
+     "The 'S' stands for 'Secure' (implemented via TLS/SSL). It provides encryption of data in transit between the browser and server, preventing eavesdropping and tampering",
      "Data Visualisation is the representation of data in graphical form (charts, graphs, maps) to make patterns, trends, and outliers easily understandable"
     ],
     "hint": "Straight from the 'Data Visualisation' slide -- match the key terms.",
@@ -3693,11 +3755,11 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the standard convention for importing the pyplot module from Matplotlib in Python scripts?",
     "answer": "The standard convention is import matplotlib.pyplot as plt",
     "options": [
-     "The primary goal of phishing is to deceive the recipient into revealing sensitive personal information (like passwords, OTPs, bank details) by masquerading as a trustworthy entity",
-     "The 'S' stands for 'Secure' (implemented via TLS/SSL). It provides encryption of data in transit between the browser and server, preventing eavesdropping and tampering",
+     "The student can independently write a complete Matplotlib script that: (1) plots multiple data series on the same figure, (2) adds appropriate axis labels with units",
+     "Student can independently write a complete Python program that reads categorical data from a list or CSV, creates a vertical bar chart using plt",
      "The standard convention is import matplotlib.pyplot as plt"
     ],
-    "hint": "Straight from the 'Matplotlib' slide -- match the key terms.",
+    "hint": "Straight from the 'Matplotlib is a comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., import matplotlib.pyplot without alias, or from matplotlib import pyplot) reveals that the student has not internalised the community‑wide alias plt used in almost all documentation, tutorials, and board‑exam solutions. This alias keeps code concise and readable.",
     "id": "gen_c11_ip_ch08_q2",
     "nodeId": "c11_ip_cbse_08_002",
@@ -3714,8 +3776,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the default behaviour of plt.plot(y) when only a single list y is provided? Describe the x-coordinates used.",
     "answer": "When only y is provided, plt.plot(y) uses integer indices starting from 0 as the x-coordinates (i.e., 0, 1, 2, ..., len(y)-1)",
     "options": [
-     "A scatter plot displays the relationship between two continuous variables by plotting individual data points without connecting them, revealing correlation patterns, clusters",
-     "The label parameter assigns a text identifier to a specific data series (line, bar, scatter). plt.legend() then collects all labels from the current axes and displays them in a",
+     "Data Visualisation is the graphical representation of information and data using visual elements like charts, graphs, maps, and plots to communicate patterns, trends, outliers",
+     "The student must be able to (1) explain why visualisation is essential for data analysis in at least three distinct real-world scenarios",
      "When only y is provided, plt.plot(y) uses integer indices starting from 0 as the x-coordinates (i.e., 0, 1, 2, ..., len(y)-1)"
     ],
     "hint": "Straight from the 'line chart' slide -- match the key terms.",
@@ -3756,8 +3818,8 @@ export const C11_IP_GEN: SimDef[] = [
     "question": "What is the primary purpose of a scatter plot in data visualisation, and how does it differ from a line chart created with plt.plot()?",
     "answer": "A scatter plot displays the relationship between two continuous variables by plotting individual data points without connecting them, revealing correlation patterns, clusters",
     "options": [
-     "The 'S' stands for 'Secure' (implemented via TLS/SSL). It provides encryption of data in transit between the browser and server, preventing eavesdropping and tampering",
-     "The primary goal of phishing is to deceive the recipient into revealing sensitive personal information (like passwords, OTPs, bank details) by masquerading as a trustworthy entity",
+     "The student must be able to (1) explain why visualisation is essential for data analysis in at least three distinct real-world scenarios",
+     "Data Visualisation is the representation of data in graphical form (charts, graphs, maps) to make patterns, trends, and outliers easily understandable",
      "A scatter plot displays the relationship between two continuous variables by plotting individual data points without connecting them, revealing correlation patterns, clusters"
     ],
     "hint": "Straight from the 'scatter plot' slide -- match the key terms.",
@@ -3773,16 +3835,69 @@ export const C11_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the exact purpose of the label parameter inside plt.plot() and how does it relate to plt.legend()?",
-    "answer": "The label parameter assigns a text identifier to a specific data series (line, bar, scatter). plt.legend() then collects all labels from the current axes and displays them in a",
-    "options": [
-     "When only y is provided, plt.plot(y) uses integer indices starting from 0 as the x-coordinates (i.e., 0, 1, 2, ..., len(y)-1)",
-     "The standard convention is import matplotlib.pyplot as plt",
-     "The label parameter assigns a text identifier to a specific data series (line, bar, scatter). plt.legend() then collects all labels from the current axes and displays them in a"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "adds appropriate axis labels with units",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "sets a descriptive title",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "plots multiple data series on the same",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "saves the figure to a specified file format",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s4",
+      "label": "includes a legend that correctly identifies",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Customising charts in Matplotlib' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., thinking plt.legend() automatically uses variable names) reveals the student confuses Python variable names with plot labels.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently write a complete Matplotlib script that: (1) plots multiple data series on the same",
     "id": "gen_c11_ip_ch08_q6",
     "nodeId": "c11_ip_cbse_08_006",
     "difficulty": "advanced",
@@ -4076,16 +4191,47 @@ export const C11_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the fundamental difference between copyright infringement and plagiarism in the context of using a photograph found on a website in a school project?",
-    "answer": "Copyright infringement is a legal violation of the photographer's exclusive rights (reproduction, distribution) regardless of attribution",
-    "options": [
-     "The bar chart is more appropriate because months are discrete categories (not continuous time points)",
-     "Plot A indicates strong positive linear correlation (as one variable increases, the other increases consistently)",
-     "Copyright infringement is a legal violation of the photographer's exclusive rights (reproduction, distribution) regardless of attribution"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Distinguish between IPR",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Explain the legal consequences of copyright",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Identify whether a given real-world scenario",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Intellectual Property Rights' slide -- match the key terms.",
-    "misconception": "A wrong answer that conflates the two (e.g., \"plagiarism is illegal copyright violation\") reveals the misconception that plagiarism is solely a legal issue rather than an ethical/academic one, and that giving credit always makes unauthorized use legal (it doesn't — copyright requires permission unless fair use",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Distinguish between IPR, copyright, and plagiarism with precise definitions; (2)",
     "id": "gen_c11_ip_ch08_q12",
     "nodeId": "c11_ip_cbse_08_012",
     "difficulty": "standard",
@@ -4095,6 +4241,52 @@ export const C11_IP_GEN: SimDef[] = [
      "Your teacher runs a plagiarism checker and flags it.",
      "Why is this wrong even though the code was publicly available?"
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Classify a given real-world incident",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Define each malware type with precise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Differentiate between them based",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Define each malware type with precise technical characteristics, (2) Differentiate",
+    "id": "gen_c11_ip_ch08_q13",
+    "nodeId": "c11_ip_cbse_08_008",
+    "difficulty": "standard"
    },
    {
     "type": "order",
@@ -4138,7 +4330,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer focusing only on \"digital is longer\" misses the structural differences in replicability and searchability.",
-    "id": "gen_c11_ip_ch08_q13",
+    "id": "gen_c11_ip_ch08_q14",
     "nodeId": "c11_ip_cbse_08_011",
     "difficulty": "standard"
    },
@@ -4206,7 +4398,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer listing \"be careful online\" shows inability to translate concept into technical agency.",
-    "id": "gen_c11_ip_ch08_q14",
+    "id": "gen_c11_ip_ch08_q15",
     "nodeId": "c11_ip_cbse_08_011",
     "difficulty": "standard"
    },
@@ -4221,7 +4413,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data Visualisation' slide -- match the key terms.",
     "misconception": "Choosing pie or bar chart indicates confusion between comparison of parts vs. tracking change over time.",
-    "id": "gen_c11_ip_ch08_q15",
+    "id": "gen_c11_ip_ch08_q16",
     "nodeId": "c11_ip_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4236,7 +4428,7 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data Visualisation' slide -- match the key terms.",
     "misconception": "A student who agrees reveals a misconception that visual appeal equals effectiveness.",
-    "id": "gen_c11_ip_ch08_q16",
+    "id": "gen_c11_ip_ch08_q17",
     "nodeId": "c11_ip_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4251,21 +4443,6 @@ export const C11_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Data Visualisation' slide -- match the key terms.",
     "misconception": "A weak answer suggests a line chart, confusing continuous X with time-series.",
-    "id": "gen_c11_ip_ch08_q17",
-    "nodeId": "c11_ip_cbse_08_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate: \"For any dataset, there is a single 'correct' chart type that must be used.\" Defend your position with two examples where the same data can be visualised differently based on the analytical question.",
-    "answer": "The statement is false. Chart choice depends on the question, not just the data. Example 1: Monthly sales data",
-    "options": [
-     "Refute. While spyware causes severe privacy/financial loss, \"most dangerous\" is context-dependent. Arguments: (1) Impact: Ransomware causes immediate operational paralysis and",
-     "A privacy policy is a disclosure document, not a protection mechanism. Two reasons it's insufficient: (1) No enforcement guarantee: Policies often contain clauses like \"we may",
-     "The statement is false. Chart choice depends on the question, not just the data. Example 1: Monthly sales data"
-    ],
-    "hint": "Straight from the 'Data Visualisation' slide -- match the key terms.",
-    "misconception": "A student who insists on one \"correct\" chart fails to understand that visualisation is a communication tool tailored to the message.",
     "id": "gen_c11_ip_ch08_q18",
     "nodeId": "c11_ip_cbse_08_001",
     "difficulty": "standard"

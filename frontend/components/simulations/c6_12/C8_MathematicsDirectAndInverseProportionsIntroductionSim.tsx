@@ -27,11 +27,11 @@ export function C8_MathematicsDirectAndInverseProportionsIntroductionSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Proportions: The Constant Detective</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Proportions: The Constant Detective</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Detective rule:</span> in every row of a
+          <span className="font-bold text-gold-700">Detective rule:</span> in every row of a
           proportional table one calculation refuses to change. Direct proportion hides a constant
           <span className="font-mono"> ratio y/x</span>; inverse proportion hides a constant
           <span className="font-mono"> product x x y</span>. Find the constant and you can predict
@@ -40,10 +40,10 @@ export function C8_MathematicsDirectAndInverseProportionsIntroductionSim() {
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        <button onClick={() => setMode('direct')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'direct' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setMode('direct')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'direct' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Direct: y = k x x
         </button>
-        <button onClick={() => setMode('inverse')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'inverse' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setMode('inverse')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'inverse' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Inverse: y = k / x
         </button>
       </div>
@@ -60,13 +60,13 @@ export function C8_MathematicsDirectAndInverseProportionsIntroductionSim() {
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between">
               <span>Chosen x {mode === 'direct' ? '(pens)' : '(workers)'}</span>
-              <span className="font-mono text-indigo-600">{x}</span>
+              <span className="font-mono text-gold-600">{x}</span>
             </label>
-            <input type="range" min={1} max={12} value={x} aria-label="chosen x" onChange={(e) => setX(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <input type="range" min={1} max={12} value={x} aria-label="chosen x" onChange={(e) => setX(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 text-sm font-mono">
             <div>
-              y = {mode === 'direct' ? `k x x = ${k} x ${x}` : `k / x = ${k} / ${x}`} = <span className="text-indigo-700 font-bold">{yNow}</span>
+              y = {mode === 'direct' ? `k x x = ${k} x ${x}` : `k / x = ${k} / ${x}`} = <span className="text-gold-700 font-bold">{yNow}</span>
             </div>
             <div className="mt-1 text-slate-500">
               {mode === 'direct' ? 'check: y/x = ' + yNow + '/' + x + ' = ' + Math.round((yNow / x) * 100) / 100 : 'check: x x y = ' + x + ' x ' + yNow + ' = ' + Math.round(x * yNow * 100) / 100}
@@ -93,7 +93,7 @@ export function C8_MathematicsDirectAndInverseProportionsIntroductionSim() {
               {rows.map((row) => (
                 <tr
                   key={row.r}
-                  className={`border-t border-slate-200 transition-all ${row.r === x ? 'bg-indigo-100 font-bold' : ''}`}
+                  className={`border-t border-slate-200 transition-all ${row.r === x ? 'bg-gold-100 font-bold' : ''}`}
                 >
                   <td className="py-1.5">{row.r}</td>
                   <td>{row.y}</td>

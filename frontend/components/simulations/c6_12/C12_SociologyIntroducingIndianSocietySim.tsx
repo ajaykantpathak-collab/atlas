@@ -62,7 +62,7 @@ export function C12_SociologyIntroducingIndianSocietySim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">India in Numbers: The Diversity Explorer</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">India in Numbers: The Diversity Explorer</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -89,16 +89,16 @@ export function C12_SociologyIntroducingIndianSocietySim() {
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-700 text-sm space-y-2">
           <div className="text-xs uppercase tracking-wide text-slate-400">Live diversity meter</div>
           <div className="text-slate-300">
-            Chance two random people differ: <span className="font-mono text-sky-300 font-bold">{diversity}%</span>
+            Chance two random people differ: <span className="font-mono text-gold-300 font-bold">{diversity}%</span>
             <span className="text-slate-400"> (about {perTen} in every 10 pairs)</span>
           </div>
           <div className="h-3 bg-slate-800 rounded">
-            <div className="h-3 rounded bg-gradient-to-r from-emerald-500 to-sky-500" style={{ width: `${diversity}%`, transition: 'width 0.35s' }} />
+            <div className="h-3 rounded bg-gradient-to-r from-emerald-500 to-gold-500" style={{ width: `${diversity}%`, transition: 'width 0.35s' }} />
           </div>
           <div className="text-slate-300">Largest group: <span className="font-mono text-amber-300">{biggest.label}</span> at {biggest.pct}%</div>
           {pickedSeg && (
             <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">
-              Focus: <span className="font-mono text-indigo-300">{pickedSeg.label}</span> -- {pickedSeg.pct}% of the population,{' '}
+              Focus: <span className="font-mono text-gold-300">{pickedSeg.label}</span> -- {pickedSeg.pct}% of the population,{' '}
               which is {Math.round(pickedSeg.pct * 10) / 10} times the smallest listed group&apos;s share ({Math.min(...segments.map((s) => s.pct))}%).
             </div>
           )}
@@ -122,7 +122,7 @@ export function C12_SociologyIntroducingIndianSocietySim() {
           <div className="flex gap-2 mt-2">
             {(['religion', 'language', 'settlement'] as View[]).map((v) => (
               <button key={v} onClick={() => { setView(v); setPicked(null); }}
-                className={`flex-1 min-h-11 rounded-xl text-[11px] font-semibold border ${view === v ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}>
+                className={`flex-1 min-h-11 rounded-xl text-[11px] font-semibold border ${view === v ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}>
                 {v === 'settlement' ? 'rural-urban' : v}
               </button>
             ))}
@@ -144,7 +144,7 @@ export function C12_SociologyIntroducingIndianSocietySim() {
       </div>
 
       <div className="flex flex-wrap gap-2 mt-4">
-        <button onClick={() => { setView('settlement'); setDecadeIdx(0); setPicked(null); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={() => { setView('settlement'); setDecadeIdx(0); setPicked(null); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Show 1901 village India
         </button>
         <button onClick={reset} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -152,8 +152,8 @@ export function C12_SociologyIntroducingIndianSocietySim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Compare the diversity meter for religion vs mother tongues. Why does language diversity read higher even though Hindi speakers are the biggest group?</li>
           <li>Slide the census year from 1901 to 2011. The urban share tripled -- read the &quot;different pairs&quot; meter at both ends. Why does it climb as the two groups grow more equal?</li>

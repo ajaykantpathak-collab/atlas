@@ -43,7 +43,7 @@ const TEACHING_SLIDES = [
     title: 'How Animals Move! 🦅',
     text: 'Different animals move in different ways! Dogs walk and run on legs, birds fly with wings, fish swim with fins and tails, and snakes crawl on their long bodies!',
     emoji: '🦅',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Dogs walk and run, birds fly, fish swim, and snakes crawl!',
   },
   {
@@ -57,7 +57,7 @@ const TEACHING_SLIDES = [
     title: 'Why Animals Need Shelter! 🛡️',
     text: 'Animals need shelter to stay safe from enemies and bad weather like rain and hot sun. It is also a safe place for parents to raise their young ones!',
     emoji: '🛡️',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'Animals need shelter to stay safe from enemies and weather, and to raise babies!',
   },
   {
@@ -600,7 +600,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
               }
             }}
             disabled={currentSlide === 0}
-            className={`px-6 py-2.5 rounded-2xl font-bold text-white shadow-lg transition-all ${currentSlide === 0 ? 'opacity-40 bg-gray-500 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-500'}`}
+            className={`px-6 py-2.5 rounded-2xl font-bold text-white shadow-lg transition-all ${currentSlide === 0 ? 'opacity-40 bg-gray-500 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500'}`}
           >
             ← Previous
           </button>
@@ -814,7 +814,7 @@ export function AnimalsGame({ width = 720, height = 560, onComplete }: AnimalsGa
             audioManager.play('tap');
             setScreen('teaching');
           }}
-          className="text-xs font-bold text-blue-700 bg-blue-100 hover:bg-blue-200 px-3 py-1.5 rounded-xl transition-all shadow-sm"
+          className="text-xs font-bold text-gold-700 bg-gold-100 hover:bg-gold-200 px-3 py-1.5 rounded-xl transition-all shadow-sm"
         >
           📖 Guide
         </button>

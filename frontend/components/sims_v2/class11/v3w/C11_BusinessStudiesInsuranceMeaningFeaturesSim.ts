@@ -11,7 +11,7 @@ export const w_c11_businessstudiesinsurancemeaningfeaturessim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Business Process Outsourcing (BPO): Features and Scope',
     chapters: [],
     nodeIds: ['c11_bs_cbse_05_007', 'c11_bs_cbse_04_004', 'c11_bs_cbse_04_007', 'c11_bs_cbse_01_007', 'c11_bs_cbse_05_006', 'c11_bs_cbse_03_001', 'c11_bs_cbse_08_001', 'c11_bs_cbse_08_006', 'c11_bs_cbse_10_003', 'c11_bs_cbse_02_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you run a fast-growing Indian startup selling handmade organic skincare products online.', goal: 'Master Business Process Outsourcing (BPO): Features and Scope.' },
     discovery: {
         question: 'What is the fundamental distinction between \'horizontal\' and \'vertical\' BPO services? Give one Indian industry example of each.',
@@ -20,7 +20,7 @@ export const w_c11_businessstudiesinsurancemeaningfeaturessim: SimDef = {
         hook: 'Students often equate BPO with "call centres" or "low-skill data entry jobs" and assume all BPO is horizontal.',
     },
     teaching: [
-        { title: 'Business Process Outsourcing (BPO) is the.', text: 'Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations (such as customer support, payroll, data entry, or technical support) to an.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Business Process Outsourcing (BPO) is the.', text: 'Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations (such as customer support, payroll, data entry, or technical support) to an.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_05_007', title: 'Business Process Outsourcing (BPO) is.',

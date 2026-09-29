@@ -11,7 +11,7 @@ export const w_c6_sciencebodymovementssim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Respiration and Circulation: How Oxygen Reaches Cells',
     chapters: [],
     nodeIds: ['c6_biology_ch09_008', 'c6_biology_ch09_001', 'c6_biology_ch09_003', 'c6_biology_ch09_004', 'c6_biology_ch09_005', 'c6_biology_ch09_007', 'c6_physics_ch12_049', 'c6_physics_ch07_019', 'c6_physics_ch07_020', 'c6_physics_ch07_022', 'c6_physics_ch07_021', 'c6_physics_ch12_048', 'c6_physics_ch07_024'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are waiting for a delivery of a parcel at your home.', goal: 'Master Respiration and Circulation: How Oxygen Reaches Cells.' },
     discovery: {
         question: 'What is the primary role of the heart in the context of oxygen transport?',
@@ -20,7 +20,7 @@ export const w_c6_sciencebodymovementssim: SimDef = {
         hook: 'Students often think breathing *is* the same as oxygen reaching the cells.',
     },
     teaching: [
-        { title: 'The circulatory system acts as the body\'s.', text: 'The circulatory system acts as the body\'s transport highway, using the heart as a pump to move blood through vessels to deliver oxygen from the lungs to every individual cell.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The circulatory system acts as the body\'s.', text: 'The circulatory system acts as the body\'s transport highway, using the heart as a pump to move blood through vessels to deliver oxygen from the lungs to every individual cell.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_biology_ch09_008', title: 'The circulatory system acts as the.',

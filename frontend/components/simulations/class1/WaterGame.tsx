@@ -48,9 +48,9 @@ import { speechManager } from '../../../lib/sim-engine/speech';
 import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine/feedback';
 // ─── Teaching slides (from enrichment DEFINITION + TEXT_WALKTHROUGH) ──
 const TEACHING_SLIDES = [
-    { title: 'Water is a Helper! 💧', text: 'Water helps us every day! We drink it, cook with it, bathe with it, wash clothes and utensils, and water plants! It is a daily helper in every home!', emoji: '💧', bgColor: 'from-cyan-400 to-blue-500', spoken: 'Water helps us every day! We drink it, cook with it, bathe with it, wash clothes and utensils, and water plants!' },
-    { title: 'With or Without Water? 🚰', text: 'Some jobs need water - bathing, cooking, washing. Some jobs do NOT need water - sweeping with a broom, folding dry clothes, dusting! Can you tell the difference?', emoji: '🧹', bgColor: 'from-blue-400 to-indigo-500', spoken: 'Some jobs need water like bathing, cooking, and washing. Some jobs do not need water like sweeping, folding clothes, and dusting!' },
-    { title: 'Where Does Water Come From? 🏞️', text: 'Water comes from many places! Taps, wells, hand pumps, rivers, ponds, lakes, rain, and water tankers are all sources of water!', emoji: '🌊', bgColor: 'from-teal-400 to-cyan-500', spoken: 'Water comes from many places! Taps, wells, hand pumps, rivers, ponds, lakes, rain, and water tankers are all sources of water!' },
+    { title: 'Water is a Helper! 💧', text: 'Water helps us every day! We drink it, cook with it, bathe with it, wash clothes and utensils, and water plants! It is a daily helper in every home!', emoji: '💧', bgColor: 'from-gold-400 to-gold-500', spoken: 'Water helps us every day! We drink it, cook with it, bathe with it, wash clothes and utensils, and water plants!' },
+    { title: 'With or Without Water? 🚰', text: 'Some jobs need water - bathing, cooking, washing. Some jobs do NOT need water - sweeping with a broom, folding dry clothes, dusting! Can you tell the difference?', emoji: '🧹', bgColor: 'from-gold-400 to-gold-500', spoken: 'Some jobs need water like bathing, cooking, and washing. Some jobs do not need water like sweeping, folding clothes, and dusting!' },
+    { title: 'Where Does Water Come From? 🏞️', text: 'Water comes from many places! Taps, wells, hand pumps, rivers, ponds, lakes, rain, and water tankers are all sources of water!', emoji: '🌊', bgColor: 'from-teal-400 to-gold-500', spoken: 'Water comes from many places! Taps, wells, hand pumps, rivers, ponds, lakes, rain, and water tankers are all sources of water!' },
     { title: 'Save Water! 💪', text: 'Fresh water is limited! Close taps tightly, use a mug for bathing, fix leaks. Do not let water overflow or run while brushing! Every drop counts!', emoji: '🪣', bgColor: 'from-green-400 to-emerald-500', spoken: 'Fresh water is limited! Close taps tightly, use a mug for bathing, fix leaks. Do not let water overflow or run while brushing!' },
     { title: 'Reuse Water! 🔄', text: 'Reuse means using the same water again! Vegetable wash water can water plants. Leftover drinking water can clean tables. Washing machine water can mop floors!', emoji: '🌱', bgColor: 'from-emerald-400 to-teal-500', spoken: 'Reuse means using the same water again! Vegetable wash water can water plants. Leftover drinking water can clean tables!' },
 ];
@@ -462,7 +462,7 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
   onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
   return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-sky-200`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-gold-200`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(id, 48)}
         <span className="text-xs font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>
@@ -525,7 +525,7 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center gap-4">
         {slide > 0 && <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={prev} className="bg-white/20 hover:bg-white/30 text-white font-bold rounded-xl px-6 py-3 text-base">← Back</motion.button>}
-        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={next} className="bg-white text-cyan-600 font-bold rounded-xl px-8 py-3 text-base shadow-lg">
+        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={next} className="bg-white text-gold-600 font-bold rounded-xl px-8 py-3 text-base shadow-lg">
           {slide < total - 1 ? 'Next →' : "Let’s Play! 🎮"}
 
 
@@ -795,7 +795,7 @@ export function WaterGame({ onComplete, width = 720, height = 560 }: WaterGamePr
 
       {/* Progress bar */}
       <div className="absolute top-[60px] left-4 right-4 z-20 h-2 bg-white/10 rounded-full overflow-hidden">
-        <motion.div className="h-full bg-gradient-to-r from-cyan-400 to-blue-500" animate={{ width: `${progress}%` }} transition={{ duration: 0.5 }}/>
+        <motion.div className="h-full bg-gradient-to-r from-gold-400 to-gold-500" animate={{ width: `${progress}%` }} transition={{ duration: 0.5 }}/>
       </div>
 
       {/* Dr. Pipa mascot */}

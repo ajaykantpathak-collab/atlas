@@ -1098,10 +1098,10 @@ function C11_SociologyToolsDataCollectionSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-900/40 rounded-2xl border border-indigo-700/50" role="img" aria-label="Sociology icon">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50" role="img" aria-label="Sociology icon">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-lg sm:text-xl font-extrabold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 11 Sociology • 10 Core Syllabus Nodes</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 11 Sociology • 10 Core Syllabus Nodes</p>
           </div>
         </div>
 
@@ -1113,13 +1113,13 @@ function C11_SociologyToolsDataCollectionSim({
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
               difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30' :
-              'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+              'bg-gold-500/20 text-gold-400 border border-gold-500/30'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <span className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-medium border border-slate-700">
-            Phase: <span className="text-indigo-300 font-bold capitalize">{phase}</span>
+            Phase: <span className="text-gold-300 font-bold capitalize">{phase}</span>
           </span>
         </div>
       </motion.div>
@@ -1127,11 +1127,11 @@ function C11_SociologyToolsDataCollectionSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-inner">
-            <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-semibold rounded-md uppercase tracking-wider">Field Expedition Scenario</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40 shadow-inner">
+            <span className="px-2.5 py-1 bg-gold-500/20 text-gold-300 text-xs font-semibold rounded-md uppercase tracking-wider">Field Expedition Scenario</span>
             <h2 className="text-xl font-bold text-white mt-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/90 mt-2 italic bg-indigo-900/30 p-2.5 rounded-lg border border-indigo-800/30">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/90 mt-2 italic bg-gold-900/30 p-2.5 rounded-lg border border-gold-800/30">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800">
@@ -1177,7 +1177,7 @@ function C11_SociologyToolsDataCollectionSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-500/20 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-500/20 flex items-center gap-2"
                   >
                     Enter Interactive Simulation Lab →
                   </motion.button>
@@ -1192,7 +1192,7 @@ function C11_SociologyToolsDataCollectionSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="flex items-center justify-between bg-slate-900 px-4 py-3 rounded-xl border border-slate-800">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </span>
             <div className="flex gap-1.5" role="progressbar" aria-valuenow={currentSlide + 1} aria-valuemin={1} aria-valuemax={EXPLORATION_STEPS.length}>
@@ -1200,7 +1200,7 @@ function C11_SociologyToolsDataCollectionSim({
                 <div
                   key={i}
                   className={`w-3 h-1.5 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-500 w-6' : 'bg-slate-700'
+                    i === currentSlide ? 'bg-gold-500 w-6' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1229,7 +1229,7 @@ function C11_SociologyToolsDataCollectionSim({
                 <div className="space-y-4">
                   {/* TOPIC SVG 1: Data Collection Methodology Taxonomy Diagram */}
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <p className="text-[11px] font-bold text-indigo-400 uppercase tracking-wider mb-2 text-center">
+                    <p className="text-[11px] font-bold text-gold-400 uppercase tracking-wider mb-2 text-center">
                       Sociological Data Collection Triangulation Model
                     </p>
                     <svg viewBox="0 0 600 130" className="w-full h-auto max-h-32" aria-label="Data collection taxonomy diagram">
@@ -1277,10 +1277,10 @@ function C11_SociologyToolsDataCollectionSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => { setSelectedToolScenario(i); setSelectedTool(null); audioManager.play('tap'); }}
                         className={`p-3 rounded-xl text-left border transition-all ${
-                          selectedToolScenario === i ? 'bg-indigo-900/50 border-indigo-500 text-white' : 'bg-slate-800/70 border-slate-700 text-slate-300'
+                          selectedToolScenario === i ? 'bg-gold-900/50 border-gold-500 text-white' : 'bg-slate-800/70 border-slate-700 text-slate-300'
                         }`}
                       >
-                        <p className="font-bold text-indigo-300">{c.title}</p>
+                        <p className="font-bold text-gold-300">{c.title}</p>
                         <p className="text-[11px] text-slate-400 mt-1">{c.desc}</p>
                       </motion.button>
                     ))}
@@ -1303,7 +1303,7 @@ function C11_SociologyToolsDataCollectionSim({
                           onClick={() => handleToolSelection(t.id)}
                           className={`p-3 rounded-xl border text-center transition-all ${
                             selectedTool === t.id
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-md shadow-indigo-500/30'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-md shadow-gold-500/30'
                               : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750'
                           }`}
                         >
@@ -1314,8 +1314,8 @@ function C11_SociologyToolsDataCollectionSim({
                     </div>
 
                     {selectedTool && (
-                      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-3.5 bg-indigo-950/40 rounded-xl border border-indigo-800/50">
-                        <div className="flex items-center justify-between text-xs font-bold text-indigo-300 mb-2">
+                      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-3.5 bg-gold-950/40 rounded-xl border border-gold-800/50">
+                        <div className="flex items-center justify-between text-xs font-bold text-gold-300 mb-2">
                           <span>Field Diagnostic Result:</span>
                           <span>{selectedTool === (selectedToolScenario === 0 ? 'participant_observation' : selectedToolScenario === 1 ? 'questionnaire' : 'documentary') ? '✓ Optimal Tool Choice' : '✗ Sub-optimal Match'}</span>
                         </div>
@@ -1360,7 +1360,7 @@ function C11_SociologyToolsDataCollectionSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center mb-2">
                         <span className="text-xs font-bold text-slate-300">Division of Labour & Urbanism</span>
-                        <span className="text-xs font-bold text-indigo-400">{solidarityLevel}% Urban Organic</span>
+                        <span className="text-xs font-bold text-gold-400">{solidarityLevel}% Urban Organic</span>
                       </div>
                       <input
                         type="range"
@@ -1369,13 +1369,13 @@ function C11_SociologyToolsDataCollectionSim({
                         max={100}
                         value={solidarityLevel}
                         onChange={(e) => handleSolidaritySlider(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="mt-4 space-y-2 text-xs">
                         <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex justify-between items-center">
                           <span className="text-slate-400">Solidarity Form:</span>
-                          <span className="font-bold text-indigo-300">{solidarityLevel < 50 ? 'Mechanical (Likeness)' : 'Organic (Interdependence)'}</span>
+                          <span className="font-bold text-gold-300">{solidarityLevel < 50 ? 'Mechanical (Likeness)' : 'Organic (Interdependence)'}</span>
                         </div>
                         <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex justify-between items-center">
                           <span className="text-slate-400">Primary Occupation:</span>
@@ -1425,7 +1425,7 @@ function C11_SociologyToolsDataCollectionSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-2 text-xs font-bold">
                       <span className="text-emerald-400">Nature (Heredity Potential: {100 - natureNurtureRatio}%)</span>
-                      <span className="text-indigo-400">Nurture (Socialisation Input: {natureNurtureRatio}%)</span>
+                      <span className="text-gold-400">Nurture (Socialisation Input: {natureNurtureRatio}%)</span>
                     </div>
                     <input
                       type="range"
@@ -1434,7 +1434,7 @@ function C11_SociologyToolsDataCollectionSim({
                       max={100}
                       value={natureNurtureRatio}
                       onChange={(e) => setNatureNurtureRatio(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -1443,8 +1443,8 @@ function C11_SociologyToolsDataCollectionSim({
                         <p className="text-[11px] text-slate-400 mt-1">Grew in a wolf den near Midnapore. Without human socialisation, walked on all fours and howled.</p>
                       </div>
 
-                      <div className={`p-3 rounded-xl border transition-all ${natureNurtureRatio >= 25 && natureNurtureRatio <= 75 ? 'bg-indigo-950/40 border-indigo-500' : 'bg-slate-900 border-slate-800'}`}>
-                        <span className="text-xs font-bold text-indigo-300 block">Feral Case: Genie (1970)</span>
+                      <div className={`p-3 rounded-xl border transition-all ${natureNurtureRatio >= 25 && natureNurtureRatio <= 75 ? 'bg-gold-950/40 border-gold-500' : 'bg-slate-900 border-slate-800'}`}>
+                        <span className="text-xs font-bold text-gold-300 block">Feral Case: Genie (1970)</span>
                         <p className="text-[11px] text-slate-400 mt-1">Isolated in a locked room for 13 years. Despite normal genes, full grammar was never achieved.</p>
                       </div>
 
@@ -1510,7 +1510,7 @@ function C11_SociologyToolsDataCollectionSim({
                     <div className="space-y-3">
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
-                          <span className="text-blue-400">Material Culture Speed (Tools / AI / Smartphones): {materialTechSpeed}%</span>
+                          <span className="text-gold-400">Material Culture Speed (Tools / AI / Smartphones): {materialTechSpeed}%</span>
                         </div>
                         <input
                           type="range"
@@ -1519,7 +1519,7 @@ function C11_SociologyToolsDataCollectionSim({
                           max={100}
                           value={materialTechSpeed}
                           onChange={(e) => handleTechSpeedSlider(Number(e.target.value))}
-                          className="w-full accent-blue-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1574,7 +1574,7 @@ function C11_SociologyToolsDataCollectionSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => { setActiveStatusEntity(c.id); audioManager.play('tap'); }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                          activeStatusEntity === c.id ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          activeStatusEntity === c.id ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {c.label}
@@ -1636,7 +1636,7 @@ function C11_SociologyToolsDataCollectionSim({
                       )}
                     </svg>
 
-                    <p className="text-xs text-indigo-300 mt-2 text-center">
+                    <p className="text-xs text-gold-300 mt-2 text-center">
                       💡 <strong>Status Set Principle:</strong> A single person occupies both Ascribed and Achieved statuses simultaneously (Andre Béteille).
                     </p>
                   </div>
@@ -1668,7 +1668,7 @@ function C11_SociologyToolsDataCollectionSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold border border-indigo-500 shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold border border-gold-500 shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1713,7 +1713,7 @@ function C11_SociologyToolsDataCollectionSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Sandbox Lever 1 */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">Urbanization & Mechanical/Organic Solidarity</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">Urbanization & Mechanical/Organic Solidarity</span>
               <input
                 type="range"
                 aria-label="Sandbox Solidarity slider"
@@ -1721,11 +1721,11 @@ function C11_SociologyToolsDataCollectionSim({
                 max={100}
                 value={solidarityLevel}
                 onChange={(e) => setSolidarityLevel(Number(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="text-xs text-slate-300 space-y-1">
                 <p>• Setting: <strong className="text-white">{solidarityLevel}% Urban</strong></p>
-                <p>• Solidarity: <strong className="text-indigo-300">{solidarityLevel > 50 ? 'Organic (Division of labour)' : 'Mechanical (Shared likeness)'}</strong></p>
+                <p>• Solidarity: <strong className="text-gold-300">{solidarityLevel > 50 ? 'Organic (Division of labour)' : 'Mechanical (Shared likeness)'}</strong></p>
                 <p>• Primary Family Form: <strong className="text-emerald-300">{solidarityLevel > 50 ? 'Nuclear, dual-earner' : 'Joint / Extended family'}</strong></p>
               </div>
             </div>
@@ -1741,7 +1741,7 @@ function C11_SociologyToolsDataCollectionSim({
                   max={100}
                   value={materialTechSpeed}
                   onChange={(e) => setMaterialTechSpeed(Number(e.target.value))}
-                  className="w-full accent-blue-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
                 <input
                   type="range"
@@ -1754,7 +1754,7 @@ function C11_SociologyToolsDataCollectionSim({
                 />
               </div>
               <div className="text-xs text-slate-300 space-y-1">
-                <p>• Tech Speed: <strong className="text-blue-400">{materialTechSpeed}%</strong> | Norm Speed: <strong className="text-amber-400">{nonMaterialNormSpeed}%</strong></p>
+                <p>• Tech Speed: <strong className="text-gold-400">{materialTechSpeed}%</strong> | Norm Speed: <strong className="text-amber-400">{nonMaterialNormSpeed}%</strong></p>
                 <p>• Current Lag Gap: <strong className="text-rose-400">{cultureLagGap}%</strong></p>
                 <p>• Societal Consequence: <strong className="text-slate-200">{cultureLagGap > 40 ? 'Severe Culture Conflict & Moral Friction' : 'Equilibrium / Cultural Harmony'}</strong></p>
               </div>
@@ -1772,7 +1772,7 @@ function C11_SociologyToolsDataCollectionSim({
               Challenge {currentChallenge + 1} of {filteredChallenges.length}
             </span>
             <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase font-bold px-2 py-0.5 bg-indigo-950 text-indigo-400 border border-indigo-800 rounded">
+              <span className="text-[10px] uppercase font-bold px-2 py-0.5 bg-gold-950 text-gold-400 border border-gold-800 rounded">
                 NEP Competency: {challenge.competencyLevel}
               </span>
               <span className="text-slate-400">Score: {scoreBreakdown.correct} / {scoreBreakdown.total}</span>
@@ -1781,7 +1781,7 @@ function C11_SociologyToolsDataCollectionSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700/50" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1839,7 +1839,7 @@ function C11_SociologyToolsDataCollectionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -1865,7 +1865,7 @@ function C11_SociologyToolsDataCollectionSim({
                       }`}
                     >
                       <p className="text-xs font-bold text-white mb-1">{target.label}</p>
-                      <p className="text-[11px] text-indigo-300">
+                      <p className="text-[11px] text-gold-300">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop correct classification here...'}
                       </p>
                     </div>
@@ -1878,7 +1878,7 @@ function C11_SociologyToolsDataCollectionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="mt-2 px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="mt-2 px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Mappings
                 </motion.button>
@@ -1909,7 +1909,7 @@ function C11_SociologyToolsDataCollectionSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs sm:text-sm text-slate-200 cursor-grab border border-slate-700 flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-xs shrink-0">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-xs shrink-0">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -1926,7 +1926,7 @@ function C11_SociologyToolsDataCollectionSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="mt-2 px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="mt-2 px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Order
                 </motion.button>
@@ -1944,7 +1944,7 @@ function C11_SociologyToolsDataCollectionSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -1953,7 +1953,7 @@ function C11_SociologyToolsDataCollectionSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                   >
                     Check
                   </motion.button>
@@ -1973,7 +1973,7 @@ function C11_SociologyToolsDataCollectionSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => prev.includes(part) ? prev : [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-750 text-indigo-300 text-xs font-bold rounded-lg border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-750 text-gold-300 text-xs font-bold rounded-lg border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -1982,7 +1982,7 @@ function C11_SociologyToolsDataCollectionSim({
 
                 <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5">
                       {part}
                       <button aria-label={`Remove part: ${part}`} onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-400 font-bold hover:text-rose-300">✕</button>
                     </span>
@@ -1996,7 +1996,7 @@ function C11_SociologyToolsDataCollectionSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Structure
                 </motion.button>
@@ -2056,11 +2056,11 @@ function C11_SociologyToolsDataCollectionSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-700/50 text-center space-y-3">
             <span className="text-4xl" role="img" aria-label="Graduation cap">🎓</span>
             <h2 className="text-2xl font-extrabold text-white">Sociological Field Expedition Complete!</h2>
             <p className="text-sm text-slate-300">
-              Final Mastery Score: <strong className="text-emerald-400 text-base">{Math.max(0, 100 - errors * 5)}%</strong> | Standing: <strong className="text-indigo-300 capitalize">{masteryLevel}</strong>
+              Final Mastery Score: <strong className="text-emerald-400 text-base">{Math.max(0, 100 - errors * 5)}%</strong> | Standing: <strong className="text-gold-300 capitalize">{masteryLevel}</strong>
             </p>
           </div>
 
@@ -2093,9 +2093,9 @@ function C11_SociologyToolsDataCollectionSim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 text-xs text-slate-300">
+          <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 text-xs text-slate-300">
             📅 <strong>SRS Schedule:</strong> Based on the SM-2 algorithm, your review for these 10 nodes is scheduled in{' '}
-            <strong className="text-indigo-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
+            <strong className="text-gold-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong>.
           </div>
 
           {/* Capstone Activity */}

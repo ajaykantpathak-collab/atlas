@@ -914,11 +914,11 @@ export default function C12_ChemistryPhenolsSim() {
             <span className="bg-amber-500/20 text-amber-400 text-xs px-2.5 py-1 rounded-full font-bold uppercase border border-amber-500/30">
               Class 12 (ISC) Chemistry
             </span>
-            <span className="bg-cyan-500/20 text-cyan-400 text-xs px-2.5 py-1 rounded-full font-bold uppercase border border-cyan-500/30">
+            <span className="bg-gold-500/20 text-gold-400 text-xs px-2.5 py-1 rounded-full font-bold uppercase border border-gold-500/30">
               Nodes 071-080
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-amber-400 via-rose-400 to-cyan-400 bg-clip-text text-transparent">
+          <h1 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-amber-400 via-rose-400 to-gold-400 bg-clip-text text-transparent">
             {SCENARIO.title}
           </h1>
           <p className="text-xs text-slate-400 mt-1">{SCENARIO.subtitle}</p>
@@ -958,7 +958,7 @@ export default function C12_ChemistryPhenolsSim() {
                 triggerAudio('tap');
               }}
               className={`p-2 rounded-lg text-xs font-bold transition-all ${
-                speechEnabled ? 'bg-cyan-500 text-slate-950' : 'bg-slate-700 text-slate-400'
+                speechEnabled ? 'bg-gold-500 text-slate-950' : 'bg-slate-700 text-slate-400'
               }`}
               title="Toggle Voice Tutor"
             >
@@ -1162,7 +1162,7 @@ export default function C12_ChemistryPhenolsSim() {
               <div className="lg:col-span-7 flex flex-col justify-between">
                 <div>
                   <div className="bg-slate-950/80 p-4 rounded-xl border border-slate-800 mb-4">
-                    <h3 className="text-sm font-bold text-cyan-400 mb-1">
+                    <h3 className="text-sm font-bold text-gold-400 mb-1">
                       {TEACHING_SLIDES[currentSlideIndex].subtitle}
                     </h3>
                     <p className="text-xs text-slate-300 leading-relaxed">
@@ -1255,7 +1255,7 @@ export default function C12_ChemistryPhenolsSim() {
               <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">
                 ISC Board Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
               </span>
-              <span className="text-xs font-mono font-bold bg-slate-800 px-3 py-1 rounded-full text-cyan-400">
+              <span className="text-xs font-mono font-bold bg-slate-800 px-3 py-1 rounded-full text-gold-400">
                 Node ID: {CHALLENGES[currentChallengeIndex].nodeId}
               </span>
             </div>
@@ -1343,7 +1343,7 @@ export default function C12_ChemistryPhenolsSim() {
                 return (
                   <div key={nodeId} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 flex justify-between items-center">
                     <div>
-                      <span className="text-xs font-mono text-cyan-400 font-bold block">{nodeId}</span>
+                      <span className="text-xs font-mono text-gold-400 font-bold block">{nodeId}</span>
                       <span className="text-xs text-slate-300 capitalize">{nodeId.replace('c12_chem_', 'Module ')}</span>
                     </div>
                     <div className="flex items-center gap-3">

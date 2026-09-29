@@ -100,8 +100,8 @@ function C6_ScienceTheWonderfulWorldOfScienceSim() {
   const lidLevel = 70;
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-violet-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-violet-700">The wonderful world of science -- think like a scientist</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">The wonderful world of science -- think like a scientist</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         Science is not magic answers -- it is a fair <b>method</b>: observe, question, guess, test, conclude.
         Order the five steps, then run the test and WAIT. Remember: a wrong guess is not a failure -- the test
@@ -110,7 +110,7 @@ function C6_ScienceTheWonderfulWorldOfScienceSim() {
 
       <div className="flex flex-wrap gap-2 mt-3">
         {MYSTERIES.map((mys2, i) => (
-          <button key={mys2.name} onClick={() => pickMystery(i)} className={'px-3 py-2 rounded-xl text-xs font-black transition-colors ' + (m === i ? 'bg-violet-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200')}>
+          <button key={mys2.name} onClick={() => pickMystery(i)} className={'px-3 py-2 rounded-xl text-xs font-black transition-colors ' + (m === i ? 'bg-gold-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200')}>
             Mystery {i + 1}: {mys2.name}
           </button>
         ))}
@@ -120,7 +120,7 @@ function C6_ScienceTheWonderfulWorldOfScienceSim() {
       </div>
 
       <div className="grid md:grid-cols-[1fr_260px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-violet-100 bg-violet-50/40 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/40 overflow-hidden">
           <svg viewBox="0 0 640 300" className="w-full">
             <rect width="640" height="300" fill="#f5f3ff" />
             {m === 0 && (
@@ -175,12 +175,12 @@ function C6_ScienceTheWonderfulWorldOfScienceSim() {
           })}
           {wrong && <div className="p-2 rounded-xl bg-rose-50 border-2 border-rose-300 text-[11px] font-semibold text-rose-700">{wrong}</div>}
           {done && (
-            <div className="p-2 rounded-xl bg-violet-50 border-2 border-violet-300 text-[11px] text-violet-800 font-semibold">
+            <div className="p-2 rounded-xl bg-gold-50 border-2 border-gold-300 text-[11px] text-gold-800 font-semibold">
               {mys.text[progress >= 5 ? 'test' : 'observe']}
             </div>
           )}
           {testReady && !ranTest && (
-            <button onClick={() => setRanTest(true)} className="w-full min-h-11 px-3 py-2 rounded-xl text-xs font-black bg-violet-600 text-white hover:bg-violet-700 transition-colors">
+            <button onClick={() => setRanTest(true)} className="w-full min-h-11 px-3 py-2 rounded-xl text-xs font-black bg-gold-600 text-white hover:bg-gold-700 transition-colors">
               {mys.testButton}
             </button>
           )}
@@ -204,9 +204,9 @@ function C6_ScienceTheWonderfulWorldOfScienceSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Order all 5 steps with ZERO wrong clicks on both mysteries -- then write the full chain from observation to conclusion for ONE of them.</li>
           <li>Design a better test for Mystery 1: what would you expect if you covered the window with black paper? Which step would that answer?</li>
         </ol>

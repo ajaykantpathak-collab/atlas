@@ -59,13 +59,13 @@ const TEACHING_SLIDES = [
     title: 'Division is Repeated Subtraction! 🧺',
     text: 'Just as multiplication builds up by adding, division breaks down by subtracting the same number again and again until zero! 15 minus 5, three times, leaves 0!',
     emoji: '🧺',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
   },
   {
     title: 'Gardener Gita is Ready! 🌻',
     text: 'Plant seeds in equal rows, arrange flower pots, and share apples equally. Show your steps and become a Master Gardener!',
     emoji: '🌻',
-    bgColor: 'from-teal-500 to-cyan-600',
+    bgColor: 'from-teal-500 to-gold-600',
   },
 ];
 
@@ -496,7 +496,7 @@ function TeachingScreen({ onComplete }: TeachingScreenProps) {
   const current = TEACHING_SLIDES[slide];
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-100 z-30">
+    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-gradient-to-br from-emerald-50 via-teal-50 to-gold-100 z-30">
       <div className="w-full max-w-xl bg-white rounded-3xl shadow-2xl border-4 border-emerald-300 p-8 flex flex-col items-center relative overflow-hidden">
         {/* Header decoration */}
         <div className={`w-full py-3 px-6 rounded-2xl bg-gradient-to-r ${current.bgColor} text-white flex items-center justify-between shadow-md mb-6`}>

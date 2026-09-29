@@ -11,7 +11,7 @@ export const w_c11_physicslawsofmotionfrictionsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Aristotle\'s Fallacy and Galileo\'s Experiment',
     chapters: [],
     nodeIds: ['c11_phy_cbse_04_001', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_008', 'c11_phy_cbse_04_009', 'c11_phy_cbse_04_010', 'c11_phy_cbse_04_011', 'c11_phy_cbse_04_012', 'c11_phy_cbse_04_013', 'c11_phy_cbse_04_014', 'c11_phy_cbse_04_006', 'c11_phy_cbse_04_003', 'c11_phy_cbse_12_001', 'c11_phy_cbse_07_001', 'c11_phy_cbse_02_009', 'c11_phy_cbse_06_014'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a marble rolling on a smooth floor versus a rough carpet—on the smooth floor it travels farther.', goal: 'Master Aristotle\'s Fallacy and Galileo\'s Experiment.' },
     discovery: {
         question: 'A ball is released from rest at height h on a smooth (frictionless) inclined plane. It rolls down and up a second smooth inclined plane of the same angle.',
@@ -20,7 +20,7 @@ export const w_c11_physicslawsofmotionfrictionsim: SimDef = {
         hook: 'Students believe "inertia is a force that keeps things moving" or "inertia is the tendency to resist motion." In.',
     },
     teaching: [
-        { title: 'Aristotle\'s fallacy is the incorrect.', text: 'Aristotle\'s fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo\'s experiments with inclined planes demonstrated that in the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Aristotle\'s fallacy is the incorrect.', text: 'Aristotle\'s fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo\'s experiments with inclined planes demonstrated that in the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_04_001', title: 'Aristotle\'s fallacy is the incorrect.',

@@ -1293,11 +1293,11 @@ function C12_MathematicsGeometryFormsPlaneSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">
@@ -1318,7 +1318,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                 ? 'bg-emerald-950 text-emerald-300 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-300 border border-rose-700'
-                : 'bg-sky-950 text-sky-300 border border-sky-700'
+                : 'bg-gold-950 text-gold-300 border border-gold-700'
             }`}
           >
             {difficulty}
@@ -1339,12 +1339,12 @@ function C12_MathematicsGeometryFormsPlaneSim({
           exit={{ opacity: 0, y: -15 }}
           className="space-y-6"
         >
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/70 mt-2 font-mono">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-200/70 mt-2 font-mono">{SCENARIO.context}</p>
           </div>
 
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800">
@@ -1365,7 +1365,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   className={`w-full text-left p-3.5 rounded-xl border text-sm transition-all ${
                     discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700/80 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700/80 hover:border-gold-500'
                   }`}
                 >
                   <span className="inline-block w-6 text-slate-400 font-mono">
@@ -1401,7 +1401,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Guided Lab"
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white text-sm font-bold rounded-xl shadow-lg whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white text-sm font-bold rounded-xl shadow-lg whitespace-nowrap"
                 >
                   Enter Guided Lab →
                 </motion.button>
@@ -1433,7 +1433,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                 aria-label={`Lab Step ${idx + 1}: ${step.title}`}
                 className={`p-2.5 rounded-xl border text-left transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-900/60 border-indigo-400 text-indigo-200 font-bold shadow-md'
+                    ? 'bg-gold-900/60 border-gold-400 text-gold-200 font-bold shadow-md'
                     : 'bg-slate-900/50 border-slate-800 text-slate-400 hover:border-slate-700'
                 }`}
               >
@@ -1455,7 +1455,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
               className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
               <div>
-                <span className="text-xs font-mono text-indigo-400 font-bold uppercase tracking-wider">
+                <span className="text-xs font-mono text-gold-400 font-bold uppercase tracking-wider">
                   Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg font-bold text-white mt-1">
@@ -1517,7 +1517,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Normal DR a:</span>
-                        <span className="font-mono text-indigo-400 font-bold">{planeA}</span>
+                        <span className="font-mono text-gold-400 font-bold">{planeA}</span>
                       </div>
                       <input
                         type="range"
@@ -1526,12 +1526,12 @@ function C12_MathematicsGeometryFormsPlaneSim({
                         value={planeA}
                         onChange={(e) => handlePlaneAChange(Number(e.target.value))}
                         aria-label="Plane normal component a"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
 
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Normal DR b:</span>
-                        <span className="font-mono text-indigo-400 font-bold">{planeB}</span>
+                        <span className="font-mono text-gold-400 font-bold">{planeB}</span>
                       </div>
                       <input
                         type="range"
@@ -1540,12 +1540,12 @@ function C12_MathematicsGeometryFormsPlaneSim({
                         value={planeB}
                         onChange={(e) => handlePlaneBChange(Number(e.target.value))}
                         aria-label="Plane normal component b"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
 
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Normal DR c:</span>
-                        <span className="font-mono text-indigo-400 font-bold">{planeC}</span>
+                        <span className="font-mono text-gold-400 font-bold">{planeC}</span>
                       </div>
                       <input
                         type="range"
@@ -1554,7 +1554,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                         value={planeC}
                         onChange={(e) => handlePlaneCChange(Number(e.target.value))}
                         aria-label="Plane normal component c"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
 
                       <div className="flex justify-between text-xs">
@@ -1572,8 +1572,8 @@ function C12_MathematicsGeometryFormsPlaneSim({
                       />
                     </div>
 
-                    <div className="p-3.5 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-1 text-xs">
-                      <p className="font-bold text-indigo-300">Mathematical Representations:</p>
+                    <div className="p-3.5 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-1 text-xs">
+                      <p className="font-bold text-gold-300">Mathematical Representations:</p>
                       <p className="font-mono text-slate-200">
                         Cartesian: {planeA}x + ({planeB})y + {planeC}z = {planeD}
                       </p>
@@ -1669,7 +1669,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                         Numerator: |{planeA}({pointX}) + ({planeB})({pointY}) + {planeC}({pointZ}) - {planeD}| ={' '}
                         {Math.abs(planeA * pointX + planeB * pointY + planeC * pointZ - planeD).toFixed(1)}
                       </p>
-                      <p className="text-sky-300">
+                      <p className="text-gold-300">
                         Denominator: sqrt({planeA}^2 + ({planeB})^2 + {planeC}^2) = {planeNormalMag.toFixed(2)}
                       </p>
                       <p className="text-emerald-400 font-bold text-sm">
@@ -1823,7 +1823,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
 
                       <div className="flex justify-between">
                         <span className="text-slate-400">Labour Limit (x + 2y &lt;= L):</span>
-                        <span className="font-mono text-sky-400 font-bold">{labourLimit}</span>
+                        <span className="font-mono text-gold-400 font-bold">{labourLimit}</span>
                       </div>
                       <input
                         type="range"
@@ -1832,7 +1832,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                         value={labourLimit}
                         onChange={(e) => handleLabourLimitChange(Number(e.target.value))}
                         aria-label="LPP labour resource limit"
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1906,7 +1906,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                       <button
                         onClick={() => handleConditionSelect('A')}
                         className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                          selectedConditionEvent === 'A' ? 'bg-indigo-700 text-white' : 'bg-slate-800 text-slate-400'
+                          selectedConditionEvent === 'A' ? 'bg-gold-700 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Given A Happened
@@ -1947,8 +1947,8 @@ function C12_MathematicsGeometryFormsPlaneSim({
 
               {/* Predict-then-check prompt */}
               {currentSlide === 1 && !predictionMade && (
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 mt-4 space-y-2">
-                  <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 mt-4 space-y-2">
+                  <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                     Predict-Then-Check
                   </p>
                   <p className="text-sm text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1969,7 +1969,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
               )}
 
               {currentSlide === 1 && predictionMade && (
-                <div className="p-3 bg-slate-950 rounded-xl border border-indigo-700 text-xs text-amber-300">
+                <div className="p-3 bg-slate-950 rounded-xl border border-gold-700 text-xs text-amber-300">
                   {PREDICTION_QUESTIONS[0].verifyInstruction}
                 </div>
               )}
@@ -2003,7 +2003,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Step →
               </motion.button>
@@ -2051,7 +2051,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Sandbox Panel 1: 3D Plane */}
             <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-indigo-300">3D Plane &amp; Distance Engine</h3>
+              <h3 className="text-sm font-bold text-gold-300">3D Plane &amp; Distance Engine</h3>
               <div className="text-xs font-mono text-slate-300 space-y-1">
                 <p>Normal vector: n = ({planeA}, {planeB}, {planeC})</p>
                 <p>Magnitude: |n| = {planeNormalMag.toFixed(2)}</p>
@@ -2069,7 +2069,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   value={planeA}
                   onChange={(e) => setPlaneA(Number(e.target.value))}
                   aria-label="Plane normal component A"
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <label className="text-slate-400">Offset D: {planeD}</label>
                 <input
@@ -2113,7 +2113,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   value={labourLimit}
                   onChange={(e) => setLabourLimit(Number(e.target.value))}
                   aria-label="Labour capacity"
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
@@ -2133,7 +2133,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
           <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-mono uppercase text-indigo-400 font-bold">
+                <span className="text-xs font-mono uppercase text-gold-400 font-bold">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-[10px] uppercase px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
@@ -2154,7 +2154,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
                   animate={{
                     width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
                   }}
@@ -2194,7 +2194,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                       className={`w-full text-left p-3.5 rounded-xl border text-sm transition-all ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700/80 hover:border-indigo-500'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-700/80 hover:border-gold-500'
                       }`}
                     >
                       <span className="inline-block w-6 text-slate-400 font-mono">
@@ -2221,7 +2221,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Formula label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg cursor-grab text-xs font-mono font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg cursor-grab text-xs font-mono font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2254,7 +2254,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Validate drag labels"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Mapping
                 </motion.button>
@@ -2300,7 +2300,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                     )
                   }
                   aria-label="Submit sequential sort"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Step Order
                 </motion.button>
@@ -2318,7 +2318,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
                     aria-label="Enter numeric calculated answer"
-                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 focus:outline-none"
+                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 focus:outline-none"
                   />
                   {challenge.unit && (
                     <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
@@ -2330,7 +2330,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
                   aria-label="Check numeric answer"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                 >
                   Submit Calculated Value
                 </motion.button>
@@ -2349,7 +2349,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add equation part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2360,7 +2360,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-2.5 py-1 bg-slate-800 text-indigo-300 rounded-md text-xs font-mono font-bold flex items-center gap-2"
+                      className="px-2.5 py-1 bg-slate-800 text-gold-300 rounded-md text-xs font-mono font-bold flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2384,7 +2384,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Validate assembled equation"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Assembly
                 </motion.button>
@@ -2457,7 +2457,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
           animate={{ opacity: 1, scale: 1 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl font-bold text-white">Mission Optimization Complete!</h2>
             <p className="text-sm text-slate-300">
@@ -2465,7 +2465,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
               <span className="font-mono font-bold text-emerald-400">
                 {Math.max(0, 100 - errors * 5)}%
               </span>{' '}
-              | BKT Mastery: <span className="uppercase text-sky-300 font-bold">{masteryLevel}</span>
+              | BKT Mastery: <span className="uppercase text-gold-300 font-bold">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2482,7 +2482,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
           </div>
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/50 to-indigo-950/50 rounded-2xl border border-amber-500/40 shadow-lg space-y-2">
+          <div className="p-5 bg-gradient-to-r from-amber-950/50 to-gold-950/50 rounded-2xl border border-amber-500/40 shadow-lg space-y-2">
             <div className="flex items-center justify-between">
               <h3 className="font-bold text-amber-300 flex items-center gap-2 text-sm">
                 <span>🔄</span> Spaced Repetition Schedule (SM-2)
@@ -2503,8 +2503,8 @@ function C12_MathematicsGeometryFormsPlaneSim({
           </div>
 
           {/* Structured Reflection Section */}
-          <div className="p-5 bg-slate-900/90 rounded-2xl border border-indigo-900/60 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-900/60 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Reflective Conceptual Synthesis
             </h3>
             <p className="text-xs text-slate-400">
@@ -2522,7 +2522,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                     setReflections((prev) => ({ ...prev, surprising: e.target.value }))
                   }
                   placeholder="e.g., How the line-plane angle formula uses sine instead of cosine because the normal is perpendicular..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2537,7 +2537,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                     setReflections((prev) => ({ ...prev, friend: e.target.value }))
                   }
                   placeholder="e.g., LPP is like finding the most profitable corner peg on a fenced polygonal playground..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2552,7 +2552,7 @@ function C12_MathematicsGeometryFormsPlaneSim({
                     setReflections((prev) => ({ ...prev, realLife: e.target.value }))
                   }
                   placeholder="e.g., Calculating satellite re-entry vectors or allocating factory resources for max ROI..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2578,14 +2578,14 @@ function C12_MathematicsGeometryFormsPlaneSim({
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🛰️</span> Real-World Application: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs text-slate-400 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

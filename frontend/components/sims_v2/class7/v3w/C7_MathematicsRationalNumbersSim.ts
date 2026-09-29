@@ -11,7 +11,7 @@ export const w_c7_mathematicsrationalnumberssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Subtraction of Integers: Rules and Examples',
     chapters: [],
     nodeIds: ['c7_math_ch10_003', 'c7_math_ch10_008', 'c7_math_ch10_009', 'c7_math_ch08_004', 'c7_math_ch08_009', 'c7_math_ch08_003', 'c7_math_ch08_010', 'c7_math_ch10_001', 'c7_math_ch10_002', 'c7_math_ch10_004', 'c7_math_ch10_005', 'c7_math_ch10_006', 'c7_math_ch08_001', 'c7_math_ch08_002', 'c7_math_ch08_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are checking the weather report in Srinagar, where the morning temperature is $-3^\\circ\\text{C}$.', goal: 'Master Subtraction of Integers: Rules and Examples.' },
     discovery: {
         question: 'At 6:00 PM, the temperature in Shimla was 2 °C. By midnight, the temperature dropped by 5 °C. Which integer represents the temperature at midnight?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsrationalnumberssim: SimDef = {
         hook: 'Students frequently misinterpret directional words in word problems, confusing words like "below sea level" or.',
     },
     teaching: [
-        { title: 'Subtraction of integers involves finding the.', text: 'Subtraction of integers involves finding the difference between two integers by adding the additive inverse of the subtrahend to the minuend, following the algebraic rule $a - b = a + (-b)$ and $a -.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Subtraction of integers involves finding the.', text: 'Subtraction of integers involves finding the difference between two integers by adding the additive inverse of the subtrahend to the minuend, following the algebraic rule $a - b = a + (-b)$ and $a -.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch10_003', title: 'Subtraction of integers involves.',

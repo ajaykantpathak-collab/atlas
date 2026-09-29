@@ -1306,7 +1306,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-sky-500/10 text-sky-400 border border-sky-500/30 text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
+            <span className="bg-gold-500/10 text-gold-400 border border-gold-500/30 text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
               Class 11 ISC Chemistry
             </span>
             <span className="bg-amber-500/10 text-amber-400 border border-amber-500/30 text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider">
@@ -1339,7 +1339,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
               }}
               className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
                 activeTab === tab.id
-                  ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -1355,13 +1355,13 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
         {activeTab === 'discovery' && (
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-8">
             <div className="border-b border-slate-800 pb-4">
-              <h2 className="text-xl font-bold text-sky-400">Phase 1: Guided Discovery</h2>
+              <h2 className="text-xl font-bold text-gold-400">Phase 1: Guided Discovery</h2>
               <p className="text-slate-300 text-sm mt-1">{SCENARIO.context}</p>
             </div>
 
             {/* Discovery Question Box */}
-            <div className="bg-slate-950 p-6 rounded-xl border border-sky-900/40 space-y-4">
-              <span className="text-xs font-bold text-sky-400 uppercase tracking-wide">Key Discovery Question</span>
+            <div className="bg-slate-950 p-6 rounded-xl border border-gold-900/40 space-y-4">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">Key Discovery Question</span>
               <h3 className="text-lg font-semibold text-white">{DISCOVERY_QUESTION.question}</h3>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
@@ -1374,7 +1374,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                     }}
                     className={`p-4 rounded-xl text-left text-sm transition-all border ${
                       discoveryAnswer === idx
-                        ? 'border-sky-500 bg-sky-950/60 text-sky-200 font-semibold'
+                        ? 'border-gold-500 bg-gold-950/60 text-gold-200 font-semibold'
                         : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-850'
                     }`}
                   >
@@ -1395,7 +1395,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                       audioManager.play('error');
                     }
                   }}
-                  className="mt-4 px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white text-sm font-bold rounded-xl shadow-lg transition-all disabled:opacity-50"
+                  className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg transition-all disabled:opacity-50"
                 >
                   Verify Hypothesis
                 </button>
@@ -1476,7 +1476,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-8">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-4">
               <div>
-                <h2 className="text-xl font-bold text-sky-400">Phase 2: Interactive Exploration Labs</h2>
+                <h2 className="text-xl font-bold text-gold-400">Phase 2: Interactive Exploration Labs</h2>
                 <p className="text-slate-400 text-xs mt-1">Select a guided laboratory module and adjust dynamic thermal parameters.</p>
               </div>
 
@@ -1491,7 +1491,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all border ${
                       currentStepIndex === idx
-                        ? 'bg-sky-600 border-sky-400 text-white shadow-md shadow-sky-600/30'
+                        ? 'bg-gold-600 border-gold-400 text-white shadow-md shadow-gold-600/30'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-850'
                     }`}
                   >
@@ -1502,10 +1502,10 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
             </div>
 
             {/* Active Lab Instruction Card */}
-            <div className="bg-slate-950 p-4 rounded-xl border border-sky-800/40 flex items-start gap-3">
+            <div className="bg-slate-950 p-4 rounded-xl border border-gold-800/40 flex items-start gap-3">
               <span className="text-2xl">🧪</span>
               <div>
-                <h3 className="text-sm font-bold text-sky-300">{EXPLORATION_STEPS[currentStepIndex].title}</h3>
+                <h3 className="text-sm font-bold text-gold-300">{EXPLORATION_STEPS[currentStepIndex].title}</h3>
                 <p className="text-xs text-slate-300 mt-1">{EXPLORATION_STEPS[currentStepIndex].instruction}</p>
               </div>
             </div>
@@ -1522,7 +1522,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                   <select
                     value={selectedCompound}
                     onChange={(e) => handleCompoundChange(e.target.value)}
-                    className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-3 py-2 text-xs focus:ring-2 focus:ring-sky-500 outline-none"
+                    className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-3 py-2 text-xs focus:ring-2 focus:ring-gold-500 outline-none"
                   >
                     <option value="H2O">Water (H2O) - Extensive 3D H-Bonds</option>
                     <option value="HF">Hydrogen Fluoride (HF) - Hexamer Chains</option>
@@ -1546,7 +1546,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                     step="5"
                     value={temperatureK}
                     onChange={(e) => setTemperatureK(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1586,7 +1586,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
               <h3 className="text-lg font-bold text-slate-200">Lab Observation Checks</h3>
               {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
                 <div key={oIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
-                  <div className="text-xs text-sky-400 font-semibold">Observation Lab Task #{oIdx + 1}</div>
+                  <div className="text-xs text-gold-400 font-semibold">Observation Lab Task #{oIdx + 1}</div>
                   <div className="text-sm font-semibold text-slate-100">{obs.question}</div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1601,7 +1601,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                         }}
                         className={`p-3 rounded-lg text-left text-xs transition-all border ${
                           observationAnswers[oIdx] === optIdx
-                            ? 'border-sky-500 bg-sky-950/40 text-sky-200'
+                            ? 'border-gold-500 bg-gold-950/40 text-gold-200'
                             : 'border-slate-800 bg-slate-900 text-slate-400 hover:bg-slate-850'
                         }`}
                       >
@@ -1619,7 +1619,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                         setObservationSubmitted(updated);
                         audioManager.play('balance');
                       }}
-                      className="px-4 py-1.5 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs rounded-lg transition-all disabled:opacity-50"
+                      className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-lg transition-all disabled:opacity-50"
                     >
                       Verify Observation
                     </button>
@@ -1643,12 +1643,12 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-4">
               <div>
-                <h2 className="text-xl font-bold text-sky-400">Phase 3: ISC Challenge Engine (22+ Items)</h2>
+                <h2 className="text-xl font-bold text-gold-400">Phase 3: ISC Challenge Engine (22+ Items)</h2>
                 <p className="text-slate-400 text-xs mt-1">Adaptive mastery engine driven by Bayesian Knowledge Tracing & SM-2 Spaced Repetition.</p>
               </div>
               <div className="flex items-center gap-4">
                 <div className="text-xs font-mono bg-slate-950 px-3 py-1.5 rounded-lg stroke-slate-700 border border-slate-800">
-                  Challenge <span className="text-sky-400 font-bold">{challengeIdx + 1}</span> of {CHALLENGES.length}
+                  Challenge <span className="text-gold-400 font-bold">{challengeIdx + 1}</span> of {CHALLENGES.length}
                 </div>
                 <div className="text-xs font-mono bg-slate-950 px-3 py-1.5 rounded-lg stroke-slate-700 border border-slate-800">
                   Score: <span className="text-emerald-400 font-bold">{challengeScore} pts</span>
@@ -1695,7 +1695,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                         }}
                         className={`p-4 rounded-xl text-left text-sm transition-all border ${
                           selectedOption === oIdx
-                            ? 'border-sky-500 bg-sky-950/60 text-sky-200 font-semibold shadow-md shadow-sky-900/30'
+                            ? 'border-gold-500 bg-gold-950/60 text-gold-200 font-semibold shadow-md shadow-gold-900/30'
                             : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-850'
                         }`}
                       >
@@ -1718,7 +1718,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                         resetInactivityTimer();
                       }}
                       placeholder="Type number..."
-                      className="w-full md:w-64 bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-sky-500 outline-none font-mono"
+                      className="w-full md:w-64 bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-gold-500 outline-none font-mono"
                     />
                   </div>
                 )}
@@ -1749,7 +1749,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
 
                   <button
                     onClick={handleAnswerChallenge}
-                    className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white text-sm font-bold rounded-xl shadow-lg transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg transition-all"
                   >
                     Submit Answer
                   </button>
@@ -1772,7 +1772,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
         {activeTab === 'misconceptions' && (
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
             <div className="border-b border-slate-800 pb-4">
-              <h2 className="text-xl font-bold text-sky-400">Phase 4: Common Misconceptions & Clarifications</h2>
+              <h2 className="text-xl font-bold text-gold-400">Phase 4: Common Misconceptions & Clarifications</h2>
               <p className="text-slate-400 text-xs mt-1">Review critical intuitive traps identified by ISC chemistry examiners.</p>
             </div>
 
@@ -1793,7 +1793,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                   <div className="mt-4 pt-3 border-t border-slate-900">
                     <span className="text-xs font-bold text-emerald-400 uppercase tracking-wide">Scientific Fact</span>
                     <p className="text-xs text-slate-300 mt-1 leading-relaxed">{misc.correction}</p>
-                    <div className="mt-2 text-xs font-mono text-sky-400 bg-sky-950/30 p-2 rounded border border-sky-900/30">
+                    <div className="mt-2 text-xs font-mono text-gold-400 bg-gold-950/30 p-2 rounded border border-gold-900/30">
                       e.g., {misc.example}
                     </div>
                   </div>
@@ -1807,7 +1807,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
         {activeTab === 'diagnostic' && (
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
             <div className="border-b border-slate-800 pb-4">
-              <h2 className="text-xl font-bold text-sky-400">Phase 5: Diagnostic Readiness Assessment</h2>
+              <h2 className="text-xl font-bold text-gold-400">Phase 5: Diagnostic Readiness Assessment</h2>
               <p className="text-slate-400 text-xs mt-1">Quick evaluation to test core comprehension prior to final summary.</p>
             </div>
 
@@ -1830,7 +1830,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                         }}
                         className={`p-3 rounded-lg text-left text-xs transition-all border ${
                           diagnosticAnswers[qIdx] === oIdx
-                            ? 'border-sky-500 bg-sky-950/50 text-sky-200 font-semibold'
+                            ? 'border-gold-500 bg-gold-950/50 text-gold-200 font-semibold'
                             : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-850'
                         }`}
                       >
@@ -1845,7 +1845,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                 <button
                   disabled={diagnosticAnswers.includes(null)}
                   onClick={handleDiagnosticSubmit}
-                  className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg disabled:opacity-50"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl transition-all shadow-lg disabled:opacity-50"
                 >
                   Submit Diagnostic Evaluation
                 </button>
@@ -1865,16 +1865,16 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
         {activeTab === 'summary' && (
           <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-8">
             <div className="border-b border-slate-800 pb-4">
-              <h2 className="text-xl font-bold text-sky-400">Phase 6: Comprehensive Lab Summary</h2>
+              <h2 className="text-xl font-bold text-gold-400">Phase 6: Comprehensive Lab Summary</h2>
               <p className="text-slate-400 text-xs mt-1">Review mastered nodes, dynamic energy scaling, and real-world industrial applications.</p>
             </div>
 
             {/* Render Real World Activity (MANDATORY SECTION 6) */}
-            <div className="bg-slate-950 p-6 rounded-xl border border-sky-900/40 space-y-4">
+            <div className="bg-slate-950 p-6 rounded-xl border border-gold-900/40 space-y-4">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🏭</span>
                 <div>
-                  <h3 className="text-base font-bold text-sky-300">{REAL_WORLD_ACTIVITY.title}</h3>
+                  <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
                   <p className="text-xs text-slate-300 mt-1">{REAL_WORLD_ACTIVITY.description}</p>
                 </div>
               </div>
@@ -1882,7 +1882,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-900 p-4 rounded-lg border border-slate-800 text-xs text-slate-300 space-y-1">
-                    <div className="text-sky-400 font-bold uppercase">Engineering Step {sIdx + 1}</div>
+                    <div className="text-gold-400 font-bold uppercase">Engineering Step {sIdx + 1}</div>
                     <p className="leading-relaxed">{step}</p>
                   </div>
                 ))}
@@ -1899,7 +1899,7 @@ export default function C11_ChemistryHydrogenbondingSim({ onComplete }: { onComp
                   return (
                     <div key={nodeId} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 flex items-center justify-between">
                       <div>
-                        <span className="text-xs font-mono font-bold text-sky-400">{nodeId}</span>
+                        <span className="text-xs font-mono font-bold text-gold-400">{nodeId}</span>
                         <div className="text-xs text-slate-400 mt-0.5">
                           {nodeId === 'c11_chem_041' && 'Definition & Electronegativity'}
                           {nodeId === 'c11_chem_042' && 'Donor/Acceptor Atomic Size Criteria'}

@@ -11,7 +11,7 @@ export const w_c9_mathematicsexploringalgebraicidentitiessim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Algebraic Identities: (a+b)^2 and (a-b)^2',
     chapters: [],
     nodeIds: ['c9_math_ch4_1', 'c9_math_ch4_2', 'c9_math_ch4_3', 'c9_math_ch4_4', 'c9_math_ch4_5', 'c9_math_ch4_6', 'c9_math_ch4_7', 'c9_math_ch4_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are at a stationery shop buying notebooks: each notebook costs ₹\\(x\\) and you buy \\(x+5\\).', goal: 'Master Algebraic Identities: (a+b)^2 and (a-b)^2.' },
     discovery: {
         question: 'What is the greatest common factor (GCF) of the terms \\(12x^3y^2\\) and \\(18x^2y^4\\)?',
@@ -20,7 +20,7 @@ export const w_c9_mathematicsexploringalgebraicidentitiessim: SimDef = {
         hook: 'Students often take the common factor as the product of common variables with the HIGHEST power (e.g., for \\(x^3 +.',
     },
     teaching: [
-        { title: 'The identities \\((a+b)^2 = a^2 + 2ab + b^2\\).', text: 'The identities \\((a+b)^2 = a^2 + 2ab + b^2\\) and \\((a-b)^2 = a^2 - 2ab + b^2\\) are algebraic statements that hold true for all real values of \\(a\\) and \\(b\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The identities \\((a+b)^2 = a^2 + 2ab + b^2\\).', text: 'The identities \\((a+b)^2 = a^2 + 2ab + b^2\\) and \\((a-b)^2 = a^2 - 2ab + b^2\\) are algebraic statements that hold true for all real values of \\(a\\) and \\(b\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch4_1', title: 'The identities \\((a+b)^2 = a^2 + 2ab +.',

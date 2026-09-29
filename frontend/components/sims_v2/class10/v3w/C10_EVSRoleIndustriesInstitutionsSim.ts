@@ -11,7 +11,7 @@ export const w_c10_evsroleindustriesinstitutionssim: SimDef = {
     classLevel: 10, subject: 'evs', topic: 'Manufacturing: Importance and Industrial Location Factors',
     chapters: [],
     nodeIds: ['c10_geo_cbse_06_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a factory near your city — perhaps a sugar mill in Uttar Pradesh or a textile unit in Tamil Nadu —.', goal: 'Master Manufacturing: Importance and Industrial Location Factors.' },
     discovery: {
         question: 'Why do sugar mills in India concentrate in the sugarcane-growing belts of Uttar Pradesh, Maharashtra, and Karnataka, even though sugar can be transported.',
@@ -20,7 +20,7 @@ export const w_c10_evsroleindustriesinstitutionssim: SimDef = {
         hook: 'Students believe "industries locate where raw materials are found" as a universal rule.',
     },
     teaching: [
-        { title: 'Manufacturing is the process of transforming.', text: 'Manufacturing is the process of transforming raw materials into finished goods on a large scale using machinery, labour, and capital; industrial location factors are the geographical and economic.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Manufacturing is the process of transforming.', text: 'Manufacturing is the process of transforming raw materials into finished goods on a large scale using machinery, labour, and capital; industrial location factors are the geographical and economic.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_geo_cbse_06_001', title: 'Manufacturing is the process of.',

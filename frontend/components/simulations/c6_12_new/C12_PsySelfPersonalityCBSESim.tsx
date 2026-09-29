@@ -611,7 +611,7 @@ const FreudIcebergDiagram: React.FC<{
 }> = ({ idVal, egoVal, superegoVal, activeDefense }) => {
   return (
     <div className="w-full bg-slate-900 rounded-xl p-4 border border-slate-700 shadow-xl flex flex-col items-center">
-      <h4 className="text-sm font-bold text-cyan-400 mb-2 uppercase tracking-wider">
+      <h4 className="text-sm font-bold text-gold-400 mb-2 uppercase tracking-wider">
         Freud's Mind Iceberg & Structural Dynamic Model
       </h4>
       <svg viewBox="0 0 500 320" className="w-full max-w-lg h-auto rounded-lg overflow-hidden bg-slate-950">
@@ -687,7 +687,7 @@ const FreudIcebergDiagram: React.FC<{
 
       <div className="w-full mt-3 flex justify-between text-xs text-slate-300 px-2">
         <span className="text-red-400">Id Impulse: {idVal}%</span>
-        <span className="text-cyan-400">Ego Mediator: {egoVal}%</span>
+        <span className="text-gold-400">Ego Mediator: {egoVal}%</span>
         <span className="text-purple-400">Superego Conscience: {superegoVal}%</span>
       </div>
     </div>
@@ -871,7 +871,7 @@ const ProjectiveAssessmentSimulator: React.FC<{
 
   return (
     <div className="w-full bg-slate-900 rounded-xl p-4 border border-slate-700 shadow-xl flex flex-col items-center">
-      <h4 className="text-sm font-bold text-violet-400 mb-2 uppercase tracking-wider">
+      <h4 className="text-sm font-bold text-gold-400 mb-2 uppercase tracking-wider">
         Projective Assessment Simulator ({testType === 'inkblot' ? 'Rorschach Inkblot' : 'TAT Narrative'})
       </h4>
 
@@ -903,7 +903,7 @@ const ProjectiveAssessmentSimulator: React.FC<{
             <button
               key={idx}
               onClick={() => onPerceptSelect(opt)}
-              className="py-2 px-3 bg-slate-800 hover:bg-violet-900 text-violet-200 text-xs rounded border border-violet-800/50 transition-all font-medium text-center"
+              className="py-2 px-3 bg-slate-800 hover:bg-gold-900 text-gold-200 text-xs rounded border border-gold-800/50 transition-all font-medium text-center"
             >
               {opt}
             </button>
@@ -1132,10 +1132,10 @@ export default function C12_PsySelfPersonalityCBSESim() {
       {/* Top Header Banner */}
       <header className="w-full max-w-6xl mb-6 flex flex-col md:flex-row items-center justify-between border-b border-slate-800 pb-4 gap-4">
         <div>
-          <span className="text-xs font-semibold px-2.5 py-1 bg-violet-950 text-violet-300 rounded border border-violet-800">
+          <span className="text-xs font-semibold px-2.5 py-1 bg-gold-950 text-gold-300 rounded border border-gold-800">
             ISC / CBSE Class 12 Psychology • Chapter 2
           </span>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-cyan-400 mt-1">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-gold-400 mt-1">
             Self and Personality Simulator
           </h1>
           <p className="text-xs text-slate-400">
@@ -1163,7 +1163,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
         <button
           onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
           className={`flex-1 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all ${
-            activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+            activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           1. Discovery & Scenario
@@ -1171,7 +1171,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
         <button
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`flex-1 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all ${
-            activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+            activeTab === 'lab' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           2. Interactive Lab Suite ({EXPLORATION_STEPS.length} Labs)
@@ -1179,7 +1179,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
         <button
           onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
           className={`flex-1 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all ${
-            activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+            activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           3. Challenges ({CHALLENGES.length} Progressive)
@@ -1187,7 +1187,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
         <button
           onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
           className={`flex-1 py-2.5 text-xs md:text-sm font-bold rounded-lg transition-all ${
-            activeTab === 'summary' ? 'bg-cyan-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+            activeTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
           }`}
         >
           4. Synthesis & Extension
@@ -1201,12 +1201,12 @@ export default function C12_PsySelfPersonalityCBSESim() {
         <div className="w-full max-w-6xl flex flex-col gap-6">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
             <div className="flex items-center gap-3 mb-3">
-              <span className="p-2 bg-cyan-950 text-cyan-400 rounded-lg border border-cyan-800 text-lg">🧠</span>
-              <h2 className="text-xl font-bold text-cyan-300">{SCENARIO.title}</h2>
+              <span className="p-2 bg-gold-950 text-gold-400 rounded-lg border border-gold-800 text-lg">🧠</span>
+              <h2 className="text-xl font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-400">
-              <strong className="text-cyan-400 block mb-1">Clinical Scenario Briefing:</strong>
+              <strong className="text-gold-400 block mb-1">Clinical Scenario Briefing:</strong>
               {SCENARIO.context}
             </div>
           </div>
@@ -1224,7 +1224,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
                   disabled={discoverySubmitted}
                   className={`p-3 rounded-xl text-xs md:text-sm text-left border transition-all ${
                     discoverySelected === idx
-                      ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                      ? 'bg-gold-950 border-gold-500 text-gold-200'
                       : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800'
                   }`}
                 >
@@ -1238,7 +1238,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
               <button
                 onClick={handleDiscoverySubmit}
                 disabled={discoverySelected === null}
-                className="py-2.5 px-6 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white text-xs font-bold rounded-lg shadow"
+                className="py-2.5 px-6 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-lg shadow"
               >
                 Submit Hypothesis
               </button>
@@ -1307,7 +1307,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
                 onClick={() => { setCurrentStepIndex(sIdx); audioManager.play('swoop'); }}
                 className={`px-4 py-2 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${
                   currentStepIndex === sIdx
-                    ? 'bg-cyan-600 text-white shadow'
+                    ? 'bg-gold-600 text-white shadow'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1319,7 +1319,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
           {/* Active Lab Instruction Header */}
           <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl flex items-center justify-between">
             <div>
-              <h3 className="text-base font-bold text-cyan-300">
+              <h3 className="text-base font-bold text-gold-300">
                 {EXPLORATION_STEPS[currentStepIndex].title}
               </h3>
               <p className="text-xs text-slate-400">
@@ -1337,7 +1337,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
               <FreudIcebergDiagram idVal={idVal} egoVal={egoVal} superegoVal={superegoVal} activeDefense={activeDefense} />
               <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col justify-between">
                 <div>
-                  <h4 className="text-sm font-bold text-cyan-400 mb-4">Psychodynamic Controls</h4>
+                  <h4 className="text-sm font-bold text-gold-400 mb-4">Psychodynamic Controls</h4>
 
                   <div className="mb-4">
                     <label className="text-xs text-red-400 font-semibold flex justify-between mb-1">
@@ -1352,14 +1352,14 @@ export default function C12_PsySelfPersonalityCBSESim() {
                   </div>
 
                   <div className="mb-4">
-                    <label className="text-xs text-cyan-400 font-semibold flex justify-between mb-1">
+                    <label className="text-xs text-gold-400 font-semibold flex justify-between mb-1">
                       <span>Ego Executive Power (Reality Principle)</span>
                       <span>{egoVal}%</span>
                     </label>
                     <input
                       type="range" min="10" max="100" value={egoVal}
                       onChange={e => { setEgoVal(Number(e.target.value)); audioManager.play('count'); }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1428,7 +1428,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
                     { label: 'Openness to Experience', val: openness, set: setOpenness, color: 'accent-emerald-500' },
                     { label: 'Conscientiousness', val: conscientiousness, set: setConscientiousness, color: 'accent-teal-500' },
                     { label: 'Extraversion', val: extraversion, set: setExtraversion, color: 'accent-amber-500' },
-                    { label: 'Agreeableness', val: agreeableness, set: setAgreeableness, color: 'accent-blue-500' },
+                    { label: 'Agreeableness', val: agreeableness, set: setAgreeableness, color: 'accent-gold-500' },
                     { label: 'Neuroticism', val: neuroticism, set: setNeuroticism, color: 'accent-rose-500' },
                   ].map((trait, idx) => (
                     <div key={idx} className="mb-3">
@@ -1481,14 +1481,14 @@ export default function C12_PsySelfPersonalityCBSESim() {
                   <h4 className="text-sm font-bold text-amber-400 mb-4">Humanistic & Self Dynamics</h4>
 
                   <div className="mb-4">
-                    <label className="text-xs text-blue-400 font-semibold flex justify-between mb-1">
+                    <label className="text-xs text-gold-400 font-semibold flex justify-between mb-1">
                       <span>Real Self (Current Reality)</span>
                       <span>{realSelfVal}%</span>
                     </label>
                     <input
                       type="range" min="0" max="100" value={realSelfVal}
                       onChange={e => { setRealSelfVal(Number(e.target.value)); audioManager.play('count'); }}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1548,11 +1548,11 @@ export default function C12_PsySelfPersonalityCBSESim() {
               />
               <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 flex flex-col justify-between">
                 <div>
-                  <h4 className="text-sm font-bold text-violet-400 mb-3">Projective Psychometric Diagnostic Log</h4>
+                  <h4 className="text-sm font-bold text-gold-400 mb-3">Projective Psychometric Diagnostic Log</h4>
 
                   <div className="bg-slate-950 p-4 rounded-lg border border-slate-800 mb-4">
                     <span className="text-xs text-slate-400 block mb-1 font-mono">Recorded Subject Response:</span>
-                    <p className="text-sm font-bold text-violet-300">
+                    <p className="text-sm font-bold text-gold-300">
                       {projectivePercept ? `"${projectivePercept}"` : 'No response selected yet.'}
                     </p>
                   </div>
@@ -1565,7 +1565,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
                   </div>
 
                   <div className="p-3 bg-slate-950 rounded border border-slate-800 text-xs text-slate-400">
-                    <strong className="text-cyan-400 block mb-1">Exner Comprehensive Scoring Indicators:</strong>
+                    <strong className="text-gold-400 block mb-1">Exner Comprehensive Scoring Indicators:</strong>
                     Location: Whole (W) • Determinants: Form (F), Color (C) • Content: Human (H) / Animal (A).
                   </div>
                 </div>
@@ -1575,7 +1575,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
 
           {currentStepIndex === 4 && (
             <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 flex flex-col gap-6">
-              <h4 className="text-base font-bold text-cyan-300">Cross-Cultural & Behavioral Self Regulation Lab</h4>
+              <h4 className="text-base font-bold text-gold-300">Cross-Cultural & Behavioral Self Regulation Lab</h4>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -1592,7 +1592,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
                     <button
                       onClick={() => setCulturalPerspective('Western')}
                       className={`flex-1 py-2 text-xs font-bold rounded border ${
-                        culturalPerspective === 'Western' ? 'bg-blue-950 border-blue-500 text-blue-200' : 'bg-slate-900 border-slate-800 text-slate-400'
+                        culturalPerspective === 'Western' ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
                       Western Independent Self
@@ -1626,12 +1626,12 @@ export default function C12_PsySelfPersonalityCBSESim() {
 
           {/* Observation Questions Section */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl mt-4">
-            <h3 className="text-base font-bold text-cyan-400 mb-4">Lab Observation Analysis</h3>
+            <h3 className="text-base font-bold text-gold-400 mb-4">Lab Observation Analysis</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
                 <div key={oIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
                   <div>
-                    <span className="text-xs text-cyan-400 font-semibold mb-1 block">Observation #{oIdx + 1}</span>
+                    <span className="text-xs text-gold-400 font-semibold mb-1 block">Observation #{oIdx + 1}</span>
                     <p className="text-xs text-slate-200 font-medium mb-3">{oq.question}</p>
                     <div className="flex flex-col gap-2 mb-2">
                       {oq.observableOptions.map((opt, optIdx) => (
@@ -1689,7 +1689,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
             {/* Progress Bar */}
             <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800 mb-6">
               <div
-                className="bg-cyan-500 h-full transition-all duration-300"
+                className="bg-gold-500 h-full transition-all duration-300"
                 style={{ width: `${((activeChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
               />
             </div>
@@ -1708,11 +1708,11 @@ export default function C12_PsySelfPersonalityCBSESim() {
                     onClick={() => { setMcqChoice(idx); audioManager.play('tap'); }}
                     className={`p-3.5 rounded-xl text-xs md:text-sm text-left border transition-all ${
                       mcqChoice === idx
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-200 font-semibold shadow'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200 font-semibold shadow'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-850'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     {opt}
                   </button>
                 ))}
@@ -1727,7 +1727,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numerical answer..."
-                  className="w-full bg-slate-950 border border-slate-800 p-3 rounded-xl text-sm text-slate-100 focus:outline-none focus:border-cyan-500"
+                  className="w-full bg-slate-950 border border-slate-800 p-3 rounded-xl text-sm text-slate-100 focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -1744,7 +1744,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
               {!challengeFeedback?.isCorrect ? (
                 <button
                   onClick={handleChallengeSubmit}
-                  className="py-2.5 px-6 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg shadow-lg"
+                  className="py-2.5 px-6 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow-lg"
                 >
                   Submit Answer
                 </button>
@@ -1815,7 +1815,7 @@ export default function C12_PsySelfPersonalityCBSESim() {
 
           {/* Diagnostic Questions Review */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-lg font-bold text-cyan-400 mb-4">Diagnostic Review Questions</h3>
+            <h3 className="text-lg font-bold text-gold-400 mb-4">Diagnostic Review Questions</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {DIAGNOSTIC_QUESTIONS.map((dq, dIdx) => (
                 <div key={dIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">

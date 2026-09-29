@@ -1340,7 +1340,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/50 rounded-2xl border border-emerald-800/60 shadow-xl"
+              className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/50 rounded-2xl border border-emerald-800/60 shadow-xl"
             >
               <motion.span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Clinical Case Scenario</motion.span>
               <motion.h2 className="text-2xl font-extrabold text-white mt-1">{SCENARIO.title}</motion.h2>
@@ -1509,7 +1509,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                       />
 
                       <label htmlFor="strokeVolumeSlider" className="text-xs font-bold text-slate-300 block mt-3 mb-1">
-                        Stroke Volume: <span className="text-sky-400 font-mono text-sm">{strokeVolume} mL/beat</span>
+                        Stroke Volume: <span className="text-gold-400 font-mono text-sm">{strokeVolume} mL/beat</span>
                       </label>
                       <input
                         id="strokeVolumeSlider"
@@ -1519,7 +1519,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                         max={120}
                         value={strokeVolume}
                         onChange={(e) => setStrokeVolume(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
 
                       <motion.div className="mt-4 p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1806,15 +1806,15 @@ function C10_BiologyCirculatorySystemdetailedSim({
             {/* ─�� PREDICTIONS & OBSERVATIONS INTERACTIVE CARDS ── */}
             <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Prediction Question Card */}
-              <motion.div className="p-5 bg-slate-900 rounded-2xl border border-indigo-900/60 shadow-lg space-y-3">
+              <motion.div className="p-5 bg-slate-900 rounded-2xl border border-gold-900/60 shadow-lg space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-extrabold uppercase tracking-widest text-indigo-400">🔬 Prediction Challenge {predictionIndex + 1}/{PREDICTION_QUESTIONS.length}</span>
+                  <span className="text-xs font-extrabold uppercase tracking-widest text-gold-400">🔬 Prediction Challenge {predictionIndex + 1}/{PREDICTION_QUESTIONS.length}</span>
                   <button 
                     onClick={() => {
                       setPredictionIndex(p => (p + 1) % PREDICTION_QUESTIONS.length);
                       setPredictionSelected(null);
                     }} 
-                    className="text-xs text-indigo-300 hover:text-white underline"
+                    className="text-xs text-gold-300 hover:text-white underline"
                   >
                     Next Prediction
                   </button>
@@ -1843,8 +1843,8 @@ function C10_BiologyCirculatorySystemdetailedSim({
                   ))}
                 </div>
                 {predictionSelected !== null && (
-                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 bg-indigo-950/50 rounded-xl border border-indigo-800 text-xs text-indigo-200">
-                    <span className="font-bold text-indigo-300">🔎 How to Verify: </span>
+                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 bg-gold-950/50 rounded-xl border border-gold-800 text-xs text-gold-200">
+                    <span className="font-bold text-gold-300">🔎 How to Verify: </span>
                     {PREDICTION_QUESTIONS[predictionIndex].verifyInstruction}
                   </motion.div>
                 )}
@@ -1968,12 +1968,12 @@ function C10_BiologyCirculatorySystemdetailedSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-sm font-bold text-sky-300">Hemodynamics Free Control</h4>
+                <h4 className="text-sm font-bold text-gold-300">Hemodynamics Free Control</h4>
                 <label htmlFor="sbHeartRate" className="text-xs text-slate-400 block">Heart Rate: {heartRate} BPM</label>
-                <input id="sbHeartRate" aria-label="Sandbox Heart Rate" type="range" min={40} max={180} value={heartRate} onChange={(e) => setHeartRate(Number(e.target.value))} className="w-full accent-sky-500" />
+                <input id="sbHeartRate" aria-label="Sandbox Heart Rate" type="range" min={40} max={180} value={heartRate} onChange={(e) => setHeartRate(Number(e.target.value))} className="w-full accent-gold-500" />
 
                 <label htmlFor="sbStrokeVol" className="text-xs text-slate-400 block">Stroke Volume: {strokeVolume} mL</label>
-                <input id="sbStrokeVol" aria-label="Sandbox Stroke Volume" type="range" min={40} max={120} value={strokeVolume} onChange={(e) => setStrokeVolume(Number(e.target.value))} className="w-full accent-sky-500" />
+                <input id="sbStrokeVol" aria-label="Sandbox Stroke Volume" type="range" min={40} max={120} value={strokeVolume} onChange={(e) => setStrokeVolume(Number(e.target.value))} className="w-full accent-gold-500" />
 
                 <div className="p-3 bg-slate-950 rounded-xl text-xs font-mono text-emerald-300">
                   Cardiac Output: {(heartRate * strokeVolume / 1000).toFixed(2)} L/min
@@ -2029,7 +2029,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                       ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                      : 'bg-sky-950 text-sky-400 border border-sky-700'
+                      : 'bg-gold-950 text-gold-400 border border-gold-700'
                   }`}
                 >
                   {difficulty}
@@ -2040,7 +2040,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
             {/* Animated Progress Bar */}
             <motion.div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-sky-500"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -2357,7 +2357,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                 <motion.span whileHover={{ scale: 1.05 }} className="px-4 py-1.5 bg-slate-900 rounded-xl border border-slate-700 text-emerald-300">
                   Final Score: <strong className="text-lg text-white">{Math.max(0, 100 - errors * 5)}%</strong>
                 </motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-4 py-1.5 bg-slate-900 rounded-xl border border-slate-700 text-sky-300">
+                <motion.span whileHover={{ scale: 1.05 }} className="px-4 py-1.5 bg-slate-900 rounded-xl border border-slate-700 text-gold-300">
                   Mastery Level: <strong className="text-lg text-white capitalize">{masteryLevel}</strong>
                 </motion.span>
               </div>
@@ -2383,7 +2383,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
             >
               <div className="flex items-center gap-2">
                 <span className="text-xl">💭</span>
-                <h3 className="text-lg font-bold text-sky-300">Self-Reflection & Consolidation</h3>
+                <h3 className="text-lg font-bold text-gold-300">Self-Reflection & Consolidation</h3>
               </div>
               <p className="text-xs text-slate-400">Take a moment to reflect on your learning journey:</p>
 
@@ -2399,7 +2399,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                     placeholder="e.g. That 180 L of filtrate is produced daily, but 99% is reabsorbed!"
                     value={reflectionAnswers.surprising}
                     onChange={(e) => setReflectionAnswers(p => ({ ...p, surprising: e.target.value }))}
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-sky-400"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-gold-400"
                   />
                 </motion.div>
 
@@ -2414,7 +2414,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                     placeholder="e.g. The left ventricle is the high-pressure pump sending blood to the whole body..."
                     value={reflectionAnswers.friend}
                     onChange={(e) => setReflectionAnswers(p => ({ ...p, friend: e.target.value }))}
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-sky-400"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-gold-400"
                   />
                 </motion.div>
 
@@ -2429,7 +2429,7 @@ function C10_BiologyCirculatorySystemdetailedSim({
                     placeholder="e.g. Interpreting health checkup reports, blood pressure, or family genetics!"
                     value={reflectionAnswers.realLife}
                     onChange={(e) => setReflectionAnswers(p => ({ ...p, realLife: e.target.value }))}
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-sky-400"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-gold-400"
                   />
                 </motion.div>
               </div>

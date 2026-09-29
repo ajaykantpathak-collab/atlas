@@ -11,7 +11,7 @@ export const w_c11_politicalsciencerightssim: SimDef = {
     classLevel: 11, subject: 'political_science', topic: 'What are rights: Claims recognised by society and enforced by the state',
     chapters: [],
     nodeIds: ['c11_ps_cbse_05_001', 'c11_ps_cbse_05_002', 'c11_ps_cbse_05_003', 'c11_ps_cbse_05_004', 'c11_ps_cbse_05_005', 'c11_ps_cbse_05_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a student demanding the "right" to use a mobile phone during class because they feel it helps them.', goal: 'Master What are rights: Claims recognised by society and enforced by the state.' },
     discovery: {
         question: 'A group of citizens demands the "right to high-speed internet" in their village.',
@@ -20,7 +20,7 @@ export const w_c11_politicalsciencerightssim: SimDef = {
         hook: 'Students often think that any strong personal desire or preference (e.g., "right to bunk class", "right to unlimited.',
     },
     teaching: [
-        { title: 'A right is a justified claim or entitlement.', text: 'A right is a justified claim or entitlement that is recognised by society as necessary for a life of dignity and self-respect, and which is enforced by the state through legal and constitutional.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A right is a justified claim or entitlement.', text: 'A right is a justified claim or entitlement that is recognised by society as necessary for a life of dignity and self-respect, and which is enforced by the state through legal and constitutional.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ps_cbse_05_001', title: 'A right is a justified claim or.',

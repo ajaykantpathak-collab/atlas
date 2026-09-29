@@ -755,11 +755,11 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center bg-slate-900/80 backdrop-blur-md border border-slate-800 p-4 rounded-2xl mb-6 shadow-xl gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-indigo-600/30 border border-indigo-500/50 rounded-xl flex items-center justify-center text-2xl font-black text-indigo-400">
+          <div className="w-12 h-12 bg-gold-600/30 border border-gold-500/50 rounded-xl flex items-center justify-center text-2xl font-black text-gold-400">
             ⚛️
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400 bg-clip-text text-transparent">
               Class 9 ICSE Chemistry Laboratory
             </h1>
             <p className="text-xs text-slate-400">Mastering Symbols, Formulae, Masses & Reaction Dynamics</p>
@@ -771,7 +771,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
           <button
             onClick={() => {audioManager.play('tap');  setActiveTab('discovery'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'discovery' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             🔍 Predict
@@ -779,7 +779,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
           <button
             onClick={() => {audioManager.play('tap');  setActiveTab('learn'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'learn' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'learn' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             📚 Visual Lessons
@@ -787,7 +787,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
           <button
             onClick={() => {audioManager.play('tap');  setActiveTab('lab'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'lab' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             🧪 Interactive Lab
@@ -795,7 +795,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
           <button
             onClick={() => {audioManager.play('tap');  setActiveTab('challenges'); playSound('tap'); }}
             className={`px-3 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all ${
-              activeTab === 'challenges' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             🎯 Mastery Challenges
@@ -809,7 +809,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
             <span className="text-sm font-bold text-slate-200">{score} pts</span>
           </div>
           <div className="h-4 w-px bg-slate-800" />
-          <div className="text-xs text-indigo-400 font-medium">
+          <div className="text-xs text-gold-400 font-medium">
             Mastery: {Math.round((Object.values(bktStates).reduce((acc, curr) => acc + curr.pKnown, 0) / ALL_NODE_IDS.length) * 100)}%
           </div>
         </div>
@@ -829,7 +829,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
             animate={{ opacity: 1, y: 0 }}
             className="w-full bg-slate-900/90 border border-slate-800 rounded-3xl p-6 md:p-10 flex flex-col items-center text-center shadow-2xl"
           >
-            <div className="inline-block px-3 py-1 bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 rounded-full text-xs font-semibold mb-4">
+            <div className="inline-block px-3 py-1 bg-gold-500/10 border border-gold-500/30 text-gold-400 rounded-full text-xs font-semibold mb-4">
               DISCOVERY QUESTION — PREDICT BEFORE LEARNING
             </div>
             <h2 className="text-2xl md:text-3xl font-bold text-slate-100 max-w-2xl mb-6">
@@ -839,7 +839,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
             {/* Visual beaker comparison */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 my-6 w-full max-w-3xl">
               <div className="flex flex-col items-center bg-slate-950 p-6 rounded-2xl border border-slate-800 w-full md:w-1/2">
-                <span className="text-xs font-bold text-sky-400 mb-2">BEFORE REACTION</span>
+                <span className="text-xs font-bold text-gold-400 mb-2">BEFORE REACTION</span>
                 <svg className="w-32 h-40" viewBox="0 0 100 120">
                   <path d="M 20 20 L 20 100 Q 20 110 50 110 Q 80 110 80 100 L 80 20" fill="none" stroke="#64748b" strokeWidth="4" />
                   {/* Blue liquid CuSO4 */}
@@ -898,7 +898,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                 </p>
                 <button
                   onClick={() => {audioManager.play('tap');  setActiveTab('learn'); playSound('swoop'); }}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-sky-500 hover:from-indigo-600 hover:to-sky-600 font-bold rounded-xl text-white shadow-lg shadow-indigo-500/20 transition-all"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-500 hover:from-gold-600 hover:to-gold-600 font-bold rounded-xl text-white shadow-lg shadow-gold-500/20 transition-all"
                 >
                   Explore Interactive Visual Lessons ➔
                 </button>
@@ -921,7 +921,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                     key={idx}
                     onClick={() => {audioManager.play('tap');  setCurrentSlideIndex(idx); playSound('tap'); }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                      currentSlideIndex === idx ? 'bg-indigo-600 text-white' : 'bg-slate-950 text-slate-400 hover:text-slate-200'
+                      currentSlideIndex === idx ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400 hover:text-slate-200'
                     }`}
                   >
                     {title}
@@ -936,7 +936,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
               {currentSlideIndex === 0 && (
                 <div className="flex flex-col gap-6">
                   <div className="border-b border-slate-800 pb-3">
-                    <h3 className="text-2xl font-bold text-indigo-400">1. Symbols of Elements & IUPAC Rules</h3>
+                    <h3 className="text-2xl font-bold text-gold-400">1. Symbols of Elements & IUPAC Rules</h3>
                     <p className="text-xs text-slate-400 mt-1">Node: c9_chem_001</p>
                   </div>
 
@@ -955,10 +955,10 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                             key={e.symbol}
                             onClick={() => setSelectedElemSymbol(e.symbol)}
                             className={`p-3 rounded-xl border cursor-pointer transition-all flex flex-col items-center ${
-                              selectedElemSymbol === e.symbol ? 'bg-indigo-950 border-indigo-500 shadow-md scale-105' : 'bg-slate-900 border-slate-800 hover:border-slate-700'
+                              selectedElemSymbol === e.symbol ? 'bg-gold-950 border-gold-500 shadow-md scale-105' : 'bg-slate-900 border-slate-800 hover:border-slate-700'
                             }`}
                           >
-                            <span className="text-xl font-black text-indigo-400">{e.symbol}</span>
+                            <span className="text-xl font-black text-gold-400">{e.symbol}</span>
                             <span className="text-xs font-bold text-slate-200">{e.name}</span>
                             <span className="text-[10px] text-amber-400 italic">Latin: {e.latinName}</span>
                           </div>
@@ -969,7 +969,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                     {/* Interactive Casing Checker Sandbox */}
                     <div className="flex flex-col justify-between bg-slate-900 p-4 rounded-xl border border-slate-800">
                       <div>
-                        <h4 className="text-xs font-bold text-sky-400 uppercase tracking-wider mb-2">IUPAC Casing Tester Sandbox</h4>
+                        <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">IUPAC Casing Tester Sandbox</h4>
                         <p className="text-xs text-slate-400 mb-4">Try typing a symbol (e.g., Na, CL, co, CO):</p>
 
                         <div className="flex gap-2 mb-3">
@@ -979,17 +979,17 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                             value={customCasingInput}
                             onChange={e => setCustomCasingInput(e.target.value)}
                             placeholder="e.g. Na"
-                            className="bg-slate-950 border border-slate-700 px-3 py-2 rounded-lg text-lg font-bold text-center w-24 text-slate-100 focus:outline-none focus:border-indigo-500"
+                            className="bg-slate-950 border border-slate-700 px-3 py-2 rounded-lg text-lg font-bold text-center w-24 text-slate-100 focus:outline-none focus:border-gold-500"
                           />
                           <button
                             onClick={handleCasingCheck}
-                            className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-lg text-sm transition-all"
+                            className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-semibold rounded-lg text-sm transition-all"
                           >
                             Validate IUPAC
                           </button>
                         </div>
                         {casingValidationMsg && (
-                          <div className="p-3 bg-slate-950 rounded-lg text-xs font-medium text-indigo-300 border border-indigo-900/50">
+                          <div className="p-3 bg-slate-950 rounded-lg text-xs font-medium text-gold-300 border border-gold-900/50">
                             {casingValidationMsg}
                           </div>
                         )}
@@ -1013,7 +1013,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
 
                   <p className="text-sm md:text-base text-slate-300 leading-relaxed">
                     <strong className="text-emerald-400">Valency</strong> is the combining capacity of an atom (how many "hands" it has).
-                    A <strong className="text-sky-400">Radical</strong> is a group of atoms carrying a net charge that behaves as a single chemical unit in reactions.
+                    A <strong className="text-gold-400">Radical</strong> is a group of atoms carrying a net charge that behaves as a single chemical unit in reactions.
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
@@ -1047,7 +1047,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
 
                     {/* Polyatomic Radicals Table */}
                     <div className="flex flex-col gap-2">
-                      <span className="text-xs font-bold text-indigo-400 uppercase">Key ICSE Radicals</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Key ICSE Radicals</span>
                       <div className="grid grid-cols-2 gap-2 text-xs">
                         {Object.entries(RADICALS_DATA).map(([key, rad]) => (
                           <div key={key} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 flex justify-between items-center">
@@ -1055,7 +1055,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                               <span className="font-bold text-slate-200">{rad.name}</span>
                               <div className="text-[11px] text-slate-400 font-mono">{rad.formula}</div>
                             </div>
-                            <span className="px-2 py-0.5 bg-indigo-950 border border-indigo-800 text-indigo-300 font-bold rounded">
+                            <span className="px-2 py-0.5 bg-gold-950 border border-gold-800 text-gold-300 font-bold rounded">
                               Val: {rad.valency}
                             </span>
                           </div>
@@ -1070,7 +1070,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
               {currentSlideIndex === 2 && (
                 <div className="flex flex-col gap-6">
                   <div className="border-b border-slate-800 pb-3">
-                    <h3 className="text-2xl font-bold text-sky-400">3. Writing Compound Formulae (Criss-Cross Method)</h3>
+                    <h3 className="text-2xl font-bold text-gold-400">3. Writing Compound Formulae (Criss-Cross Method)</h3>
                     <p className="text-xs text-slate-400 mt-1">Node: c9_chem_003</p>
                   </div>
 
@@ -1101,14 +1101,14 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
 
                       {/* Anion selector */}
                       <div>
-                        <span className="text-xs font-bold text-sky-400 uppercase block mb-2">2. Select Negative Ion (Anion)</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase block mb-2">2. Select Negative Ion (Anion)</span>
                         <div className="flex gap-2">
                           {['Cl', 'OH', 'CO3', 'SO4'].map(ani => (
                             <button
                               key={ani}
                               onClick={() => { setSelectedAnion(ani); playSound('tap'); }}
                               className={`px-3 py-2 rounded-xl border text-sm font-bold transition-all ${
-                                selectedAnion === ani ? 'bg-sky-500 text-slate-950 border-sky-400' : 'bg-slate-900 border-slate-800 text-slate-300'
+                                selectedAnion === ani ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-900 border-slate-800 text-slate-300'
                               }`}
                             >
                               {ani} ({ani === 'Cl' ? '1-' : RADICALS_DATA[ani]?.valency + '-'})
@@ -1127,8 +1127,8 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                         </div>
                         <span className="text-slate-600 text-3xl">✕</span>
                         <div className="flex flex-col items-center">
-                          <span className="text-sky-400 text-2xl">{selectedAnion}</span>
-                          <span className="text-xs text-sky-300">Valency: {crissCrossResult.aniValency}</span>
+                          <span className="text-gold-400 text-2xl">{selectedAnion}</span>
+                          <span className="text-xs text-gold-300">Valency: {crissCrossResult.aniValency}</span>
                         </div>
                       </div>
 
@@ -1161,12 +1161,12 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                     {/* Interactive Mass & Percentage Calculator */}
                     <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
-                      <h4 className="text-xs font-bold text-indigo-400 uppercase mb-3">Formula Mass & Percentage Breakdown</h4>
+                      <h4 className="text-xs font-bold text-gold-400 uppercase mb-3">Formula Mass & Percentage Breakdown</h4>
                       <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs flex flex-col gap-2 font-mono">
                         <div className="text-slate-200 font-bold">Water (H₂O):</div>
                         <div>2 × H (1) + 1 × O (16) = 18 amu</div>
                         <div className="h-px bg-slate-800 my-1" />
-                        <div className="flex justify-between text-sky-400">
+                        <div className="flex justify-between text-gold-400">
                           <span>% H = (2/18) × 100</span>
                           <span>11.11%</span>
                         </div>
@@ -1216,7 +1216,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                      <span className="text-xs font-bold text-sky-400 uppercase block">3. Single Displacement</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase block">3. Single Displacement</span>
                       <span className="font-mono text-sm text-slate-200 block my-1">A + BC ➔ AC + B</span>
                       <p className="text-xs text-slate-400">More reactive metal/halogen displaces a less reactive element. Example: Zn + CuSO₄ ➔ ZnSO₄ + Cu.</p>
                     </div>
@@ -1243,7 +1243,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                 {currentSlideIndex < 4 ? (
                   <button
                     onClick={() => { setCurrentSlideIndex(prev => prev + 1); playSound('swoop'); }}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 font-bold rounded-xl text-white text-xs md:text-sm transition-all"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 font-bold rounded-xl text-white text-xs md:text-sm transition-all"
                   >
                     Next Lesson ▶
                   </button>
@@ -1266,7 +1266,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-3xl shadow-2xl flex flex-col gap-6">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-800 pb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-sky-400">ICSE Chemistry Reaction Simulator</h3>
+                  <h3 className="text-2xl font-bold text-gold-400">ICSE Chemistry Reaction Simulator</h3>
                   <p className="text-xs text-slate-400">Simulate real reaction dynamics, observation changes, and precipitate formation.</p>
                 </div>
 
@@ -1274,7 +1274,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                 <select
                   value={selectedRxnId}
                   onChange={e => { setSelectedRxnId(e.target.value); setRxnProgress(0); playSound('tap'); }}
-                  className="bg-slate-950 border border-slate-700 text-slate-100 font-semibold px-4 py-2 rounded-xl text-sm focus:outline-none focus:border-sky-500"
+                  className="bg-slate-950 border border-slate-700 text-slate-100 font-semibold px-4 py-2 rounded-xl text-sm focus:outline-none focus:border-gold-500"
                 >
                   {REACTIONS_DATA.map(r => (
                     <option key={r.id} value={r.id}>
@@ -1336,7 +1336,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                   <button
                     disabled={isRxnSimulating}
                     onClick={() => { setIsRxnSimulating(true); setRxnProgress(0); playSound('pop'); }}
-                    className="mt-4 px-6 py-2.5 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold rounded-xl text-sm transition-all shadow-lg shadow-sky-600/20"
+                    className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl text-sm transition-all shadow-lg shadow-gold-600/20"
                   >
                     {isRxnSimulating ? 'Reaction in Progress...' : '▶ Start Reaction'}
                   </button>
@@ -1346,7 +1346,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                 <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
                   <div className="flex flex-col gap-4">
                     <div>
-                      <span className="text-[10px] font-bold text-sky-400 uppercase tracking-wider block mb-1">
+                      <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wider block mb-1">
                         Balanced Chemical Equation
                       </span>
                       <div className="text-xl font-mono font-bold text-slate-100 bg-slate-900 p-3 rounded-xl border border-slate-800">
@@ -1376,7 +1376,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                   </div>
 
                   <div className="mt-4 pt-4 border-t border-slate-800 flex justify-between items-center text-xs text-slate-400">
-                    <span>Node: <strong className="text-indigo-400">{activeRxnDef.nodeId}</strong></span>
+                    <span>Node: <strong className="text-gold-400">{activeRxnDef.nodeId}</strong></span>
                     <span>Type: <strong className="text-slate-200 capitalize">{activeRxnDef.type.replace('_', ' ')}</strong></span>
                   </div>
                 </div>
@@ -1392,12 +1392,12 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
             <div className="w-full bg-slate-900 border border-slate-800 p-4 rounded-2xl flex flex-col gap-2">
               <div className="flex justify-between items-center text-xs font-semibold text-slate-400">
                 <span>Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}</span>
-                <span className="text-indigo-400 font-bold">{currentChallenge.title}</span>
+                <span className="text-gold-400 font-bold">{currentChallenge.title}</span>
                 <span>Node: {currentChallenge.nodeId}</span>
               </div>
               <div className="w-full h-2 bg-slate-950 rounded-full overflow-hidden border border-slate-800">
                 <div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-sky-400 transition-all duration-300"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-400 transition-all duration-300"
                   style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -1408,7 +1408,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
               <HintBubble show={showHint} text={currentChallenge.hint} />
 
               <div className="flex justify-between items-center">
-                <span className="px-3 py-1 bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 rounded-full text-xs font-bold">
+                <span className="px-3 py-1 bg-gold-500/10 border border-gold-500/30 text-gold-400 rounded-full text-xs font-bold">
                   {currentChallenge.nodeId}
                 </span>
                 <button
@@ -1463,7 +1463,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
 
                   <button
                     onClick={handleNextChallenge}
-                    className="self-end px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-lg text-xs transition-all shadow-md"
+                    className="self-end px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-lg text-xs transition-all shadow-md"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge ➔' : 'View Mastery Report 🏆'}
                   </button>
@@ -1526,7 +1526,7 @@ export default function C9_ChemistrySymbolsofelementsSim({ onComplete }: { onCom
                   setActiveTab('lab');
                   playSound('swoop');
                 }}
-                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm transition-all shadow-lg shadow-indigo-600/20"
+                className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm transition-all shadow-lg shadow-gold-600/20"
               >
                 🧪 Return to Virtual Lab
               </button>

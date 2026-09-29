@@ -11,11 +11,11 @@ export const w_c10_mathematicslocusequidistantfromsim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Distance Formula: Applications and Calculations',
     chapters: [],
     nodeIds: ['c10_math_cbse_07_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you\'re planning a cycling route from your home at point A(2, 3) to your friend\'s house at point B(8,.', goal: 'Master Distance Formula: Applications and Calculations.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The distance formula calculates the.', text: 'The distance formula calculates the straight-line distance between two points P(x₁, y₁) and Q(x₂, y₂) in the Cartesian plane using the formula d = √[(x₂ - x₁)² + (y₂ - y₁)²], derived from the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The distance formula calculates the.', text: 'The distance formula calculates the straight-line distance between two points P(x₁, y₁) and Q(x₂, y₂) in the Cartesian plane using the formula d = √[(x₂ - x₁)² + (y₂ - y₁)²], derived from the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_07_002', title: 'The distance formula calculates the.',

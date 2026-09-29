@@ -260,7 +260,7 @@ export function PairingSim({ pairs, nodeId, title, hint, doneText, causeLabel, e
           </div>
         </div>
         <div>
-          <p className="text-[10px] font-black text-sky-300 uppercase tracking-widest mb-1.5">{effectLabel}</p>
+          <p className="text-[10px] font-black text-gold-300 uppercase tracking-widest mb-1.5">{effectLabel}</p>
           <div className="space-y-1.5">
             {pairs.map(p => {
               const got = placed[p.key]
@@ -321,7 +321,7 @@ export function PreambleSim({ onDone }: { onDone?: () => void }) {
 
 const ORGAN_STAGES = [
   {
-    key: 'legislature', organ: 'Legislature', organColor: 'text-sky-200', node: 'c10_histciv_icse_01_001',
+    key: 'legislature', organ: 'Legislature', organColor: 'text-gold-200', node: 'c10_histciv_icse_01_001',
     prompt: 'A proposal for a new law has been drafted. WHO debates it, passes it (both Houses), and turns the proposal into a statute?',
     right: 'Parliament (Article 79) — the Union Legislature — is the supreme legislative authority: it deliberates and passes the bill.',
     wrongs: 'Laws are MADE here. The Executive implements what the Legislature has already passed; the Judiciary interprets — it does not draft statutes.',
@@ -379,7 +379,7 @@ export function ThreeOrgansSim({ onDone }: { onDone?: () => void }) {
                 <Check className="w-3 h-3 inline mr-1" />{cur.right}
               </p>
               <button onClick={next}
-                className="rounded-xl bg-sky-500 hover:bg-sky-400 px-3 py-1.5 text-[11px] font-black text-slate-950">
+                className="rounded-xl bg-gold-500 hover:bg-gold-400 px-3 py-1.5 text-[11px] font-black text-slate-950">
                 {stage + 1 >= ORGAN_STAGES.length ? 'finish the law\'s journey' : 'next station →'}
               </button>
             </div>
@@ -445,7 +445,7 @@ export function ElectionSim({ onDone }: { onDone?: () => void }) {
       <div className="flex gap-1.5">
         {([['flow', 'process order'], ['malpractice', 'malpractice → reform']] as const).map(([k, label]) => (
           <button key={k} onClick={() => setPart(k)}
-            className={`px-3 py-1 rounded-lg text-[11px] font-bold border ${part === k ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+            className={`px-3 py-1 rounded-lg text-[11px] font-bold border ${part === k ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
             {label}
           </button>
         ))}

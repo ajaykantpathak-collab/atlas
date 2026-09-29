@@ -11,7 +11,7 @@ export const w_c11_historythethreeorderssim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'Feudal Society: The Three Orders of Medieval Europe',
     chapters: [],
     nodeIds: ['c11_hist_cbse_06_001', 'c11_hist_cbse_06_002', 'c11_hist_cbse_06_005', 'c11_hist_cbse_06_008', 'c11_hist_cbse_07_007', 'c11_hist_cbse_07_009', 'c11_hist_cbse_06_003', 'c11_hist_cbse_06_004', 'c11_hist_cbse_06_011', 'c11_hist_cbse_06_007', 'c11_hist_cbse_07_004', 'c11_hist_cbse_07_010', 'c11_hist_cbse_04_002', 'c11_hist_cbse_04_010', 'c11_hist_cbse_02_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the ruins of a medieval European cathedral — say, Chartres in France — and notice.', goal: 'Master Feudal Society: The Three Orders of Medieval Europe.' },
     discovery: {
         question: 'In which century did the "Three Orders" conceptual model (Oratores, Bellatores, Laboratores) first appear in European written sources, and which bishop is most.',
@@ -20,7 +20,7 @@ export const w_c11_historythethreeorderssim: SimDef = {
         hook: 'Students often believe the Three Orders was a *legal caste system* enforced by law, like Indian varna, where birth.',
     },
     teaching: [
-        { title: 'Feudal society in medieval Europe (c..', text: 'Feudal society in medieval Europe (c. 9th–15th century) was a hierarchical social, economic, and political system structured around land tenure and reciprocal obligations, divided into three.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Feudal society in medieval Europe (c..', text: 'Feudal society in medieval Europe (c. 9th–15th century) was a hierarchical social, economic, and political system structured around land tenure and reciprocal obligations, divided into three.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_06_001', title: 'Feudal society in medieval Europe (c..',

@@ -11,7 +11,7 @@ export const w_c6_historycivicsindusvalleysocietysim: SimDef = {
     classLevel: 6, subject: 'history', topic: 'Harappan Life: Food, Crafts, Trade',
     chapters: [],
     nodeIds: ['c6_history_ch04_004', 'c6_history_ch04_001', 'c6_history_ch04_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'If you were exploring a dusty site in Pakistan and found ancient bricks and city walls, how would you know.', goal: 'Master Harappan Life: Food, Crafts, Trade.' },
     discovery: {
         question: 'In which decade did archaeologists begin the discovery of the major sites of the Harappan Civilisation?',
@@ -20,7 +20,7 @@ export const w_c6_historycivicsindusvalleysocietysim: SimDef = {
         hook: 'Students often confuse the "discovery" of the civilisation (1920s) with the "existence" of the civilisation (2600 BCE).',
     },
     teaching: [
-        { title: 'The Harappan Civilisation was one of the.', text: 'The Harappan Civilisation was one of the world\'s first major urban societies, flourishing in the Indus Valley between 2600 BCE and 1900 BCE.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Harappan Civilisation was one of the.', text: 'The Harappan Civilisation was one of the world\'s first major urban societies, flourishing in the Indus Valley between 2600 BCE and 1900 BCE.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_history_ch04_002', title: 'The Harappan Civilisation was one of.',

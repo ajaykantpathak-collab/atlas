@@ -1238,7 +1238,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
           {/* Interactive Curiosity Question */}
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-sm font-bold">?</span>
+              <span className="w-7 h-7 rounded-lg bg-gold-500/20 text-gold-400 flex items-center justify-center text-sm font-bold">?</span>
               <h3 className="text-sm font-bold text-slate-200 uppercase tracking-wide">Predict Before You Learn</h3>
             </div>
             <p className="text-base sm:text-lg font-semibold text-white mb-4 leading-snug">
@@ -1338,7 +1338,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                 <div className="space-y-5">
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                     {[
-                      { id: 'justice' as const, title: 'JUSTICE', sub: 'Social, Economic, Political', icon: '⚖️', color: 'border-blue-500 bg-blue-950/40 text-blue-300' },
+                      { id: 'justice' as const, title: 'JUSTICE', sub: 'Social, Economic, Political', icon: '⚖️', color: 'border-gold-500 bg-gold-950/40 text-gold-300' },
                       { id: 'liberty' as const, title: 'LIBERTY', sub: 'Thought, Expression, Belief, Worship', icon: '🕊️', color: 'border-emerald-500 bg-emerald-950/40 text-emerald-300' },
                       { id: 'equality' as const, title: 'EQUALITY', sub: 'Status & Opportunity', icon: '🤝', color: 'border-amber-500 bg-amber-950/40 text-amber-300' },
                       { id: 'fraternity' as const, title: 'FRATERNITY', sub: 'Dignity & National Unity', icon: '🇮🇳', color: 'border-purple-500 bg-purple-950/40 text-purple-300' },
@@ -1433,7 +1433,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                     >
                       {selectedPillar === 'justice' && (
                         <p>
-                          <strong className="text-blue-400">⚖️ Tripartite Justice:</strong> Social (Abolishing untouchability via <span className="underline">Art 17</span> & SC/ST Act), Economic (Banning forced labour via <span className="underline">Art 23</span> & Minimum Wages Act 1948), Political (Universal adult voting under <span className="underline">Art 326</span>).
+                          <strong className="text-gold-400">⚖️ Tripartite Justice:</strong> Social (Abolishing untouchability via <span className="underline">Art 17</span> & SC/ST Act), Economic (Banning forced labour via <span className="underline">Art 23</span> & Minimum Wages Act 1948), Political (Universal adult voting under <span className="underline">Art 326</span>).
                         </p>
                       )}
                       {selectedPillar === 'liberty' && (
@@ -1461,8 +1461,8 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                 <div className="space-y-4">
                   {/* Predict Then Check Trigger */}
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/50">
-                      <span className="text-xs font-bold text-indigo-400 uppercase">Predict First</span>
+                    <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/50">
+                      <span className="text-xs font-bold text-gold-400 uppercase">Predict First</span>
                       <p className="text-sm font-semibold text-white mt-1">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1501,7 +1501,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                         }}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                           chariotTab === t.id
-                            ? 'bg-indigo-600 text-white shadow-md'
+                            ? 'bg-gold-600 text-white shadow-md'
                             : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1565,8 +1565,8 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                     </svg>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full mt-3 text-xs">
-                      <div className="p-3 bg-blue-950/30 rounded-xl border border-blue-800/40">
-                        <span className="font-bold text-blue-400">🛡️ Part III (Articles 12-35):</span>
+                      <div className="p-3 bg-gold-950/30 rounded-xl border border-gold-800/40">
+                        <span className="font-bold text-gold-400">🛡️ Part III (Articles 12-35):</span>
                         <ul className="list-disc list-inside text-slate-300 mt-1 space-y-1">
                           <li>Justiciable: enforceable via Art 32 / 226</li>
                           <li>Negative obligations (tells State what NOT to do)</li>
@@ -1669,7 +1669,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                       <div>
                         <div className="flex justify-between text-[11px] text-slate-400">
                           <label htmlFor="explore-mnrega-slider">MNREGA Guaranteed Days (Art 41):</label>
-                          <span className="text-blue-400 font-bold">{workGuaranteeDays} Days</span>
+                          <span className="text-gold-400 font-bold">{workGuaranteeDays} Days</span>
                         </div>
                         <input
                           id="explore-mnrega-slider"
@@ -1679,7 +1679,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                           aria-label="MNREGA Guaranteed Work Days"
                           value={workGuaranteeDays}
                           onChange={e => handlePolicySlider(setWorkGuaranteeDays, Number(e.target.value))}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1780,12 +1780,12 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
 
                     {timelineEra === 1930 && (
                       <div>
-                        <span className="text-xs font-bold text-blue-400 uppercase tracking-widest">Lahore Congress Session</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Lahore Congress Session</span>
                         <h4 className="text-lg font-black text-white mt-1">Purna Swaraj Declaration (26 January 1930)</h4>
                         <p className="text-xs text-slate-300 mt-2 leading-relaxed">
                           Under Jawaharlal Nehru’s presidency, the Indian National Congress pledged complete independence (Purna Swaraj) and celebrated 26 January 1930 as the first Independence Day.
                         </p>
-                        <p className="text-[11px] text-blue-300 mt-2 bg-blue-950/40 p-2 rounded-lg">
+                        <p className="text-[11px] text-gold-300 mt-2 bg-gold-950/40 p-2 rounded-lg">
                           🇮🇳 <strong>Significance:</strong> The framers waited until 26 January 1950 to enforce the Constitution specifically to honour this sacred freedom pledge.
                         </p>
                       </div>
@@ -1826,7 +1826,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
 
                     {timelineEra === 2005 && (
                       <div>
-                        <span className="text-xs font-bold text-blue-400 uppercase tracking-widest">Right to Work in Practice</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Right to Work in Practice</span>
                         <h4 className="text-lg font-black text-white mt-1">MNREGA (Enacting Article 41)</h4>
                         <p className="text-xs text-slate-300 mt-2 leading-relaxed">
                           Legally guarantees 100 days of rural wage employment per household per year. Administered by Gram Panchayats with mandatory Gram Sabha Social Audits.
@@ -1875,7 +1875,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                         name: 'Simple Majority',
                         thresh: '>50% present & voting',
                         ex: 'Creation of new States (Art 3), changes to citizenship & official languages.',
-                        color: 'border-blue-500/40 bg-blue-950/20 text-blue-300',
+                        color: 'border-gold-500/40 bg-gold-950/20 text-gold-300',
                       },
                       {
                         name: 'Special Majority',
@@ -1987,7 +1987,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1 font-medium">
                   <label htmlFor="sandbox-mnrega">1. MNREGA Guaranteed Work Days (Article 41):</label>
-                  <span className="text-blue-400 font-bold font-mono">{workGuaranteeDays} Days</span>
+                  <span className="text-gold-400 font-bold font-mono">{workGuaranteeDays} Days</span>
                 </div>
                 <input
                   id="sandbox-mnrega"
@@ -1997,7 +1997,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                   aria-label="MNREGA Guaranteed Work Days Slider"
                   value={workGuaranteeDays}
                   onChange={e => handlePolicySlider(setWorkGuaranteeDays, Number(e.target.value))}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2132,7 +2132,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                       : difficulty === 'standard'
-                      ? 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                      ? 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
                       : 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
                   }`}
                 >
@@ -2162,7 +2162,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -2224,7 +2224,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold cursor-grab transition-all ${
                         draggedItem === item.label
                           ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-300'
-                          : 'bg-indigo-600 text-white hover:bg-indigo-500'
+                          : 'bg-gold-600 text-white hover:bg-gold-500'
                       }`}
                     >
                       {item.label}
@@ -2383,7 +2383,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
                         audioManager.play('tap');
                       }
                     }}
-                    className="px-3 py-1.5 rounded-lg bg-indigo-700/80 hover:bg-indigo-600 text-white text-xs font-semibold"
+                    className="px-3 py-1.5 rounded-lg bg-gold-700/80 hover:bg-gold-600 text-white text-xs font-semibold"
                   >
                     + {part}
                   </motion.button>
@@ -2522,7 +2522,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
               </div>
               <div className="px-5 py-3 rounded-xl bg-slate-950 border border-slate-800">
                 <span className="text-[10px] uppercase text-slate-400 font-bold">Total Inquiries</span>
-                <p className="text-2xl font-black text-indigo-400 font-mono mt-0.5">{scoreBreakdown.total}</p>
+                <p className="text-2xl font-black text-gold-400 font-mono mt-0.5">{scoreBreakdown.total}</p>
               </div>
             </div>
           </div>
@@ -2599,7 +2599,7 @@ function C7_HistoryCivicsObjectivesJusticeLibertySim({
 
           {/* Real World Civic Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
               🌍 Take-Home Field Action: {REAL_WORLD_ACTIVITY.title}
             </span>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>

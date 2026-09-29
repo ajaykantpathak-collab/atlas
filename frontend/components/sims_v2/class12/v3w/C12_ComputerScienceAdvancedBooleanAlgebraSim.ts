@@ -11,7 +11,7 @@ export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Introduction to Boolean Algebra and Logic',
     chapters: [],
     nodeIds: ['c12_cs_cbse_07_001', 'c12_cs_cbse_07_002', 'c12_cs_cbse_07_006', 'c12_cs_cbse_07_007', 'c12_cs_cbse_04_003', 'c12_cs_cbse_07_003', 'c12_cs_cbse_07_004', 'c12_cs_cbse_07_005', 'c12_cs_cbse_07_008', 'c12_cs_cbse_07_009', 'c12_cs_cbse_07_010', 'c12_cs_cbse_07_011', 'c12_cs_cbse_07_012', 'c12_cs_cbse_11_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are designing a security system for a bank vault: the vault opens ONLY if (the manager inserts.', goal: 'Master Introduction to Boolean Algebra and Logic.' },
     discovery: {
         question: 'What are the only two values a Boolean variable can take?',
@@ -20,7 +20,7 @@ export const w_c12_computerscienceadvancedbooleanalgebrasim: SimDef = {
         hook: 'Students often treat Boolean variables exactly like algebraic variables from middle-school math.',
     },
     teaching: [
-        { title: 'Boolean Algebra is a mathematical system for.', text: 'Boolean Algebra is a mathematical system for representing and manipulating logical statements using variables that take only two values: TRUE (1) and FALSE (0).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Boolean Algebra is a mathematical system for.', text: 'Boolean Algebra is a mathematical system for representing and manipulating logical statements using variables that take only two values: TRUE (1) and FALSE (0).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_07_001', title: 'Boolean Algebra is a mathematical.',

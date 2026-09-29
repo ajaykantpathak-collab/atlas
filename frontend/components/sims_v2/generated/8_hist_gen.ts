@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C8_HIST_GEN: SimDef[] = [
  {
   "id": "gen_c8_hist_ch01",
-  "title": "Turkic And Afghan Invasions Refer",
+  "title": "Turkic And Afghan Invasions",
   "subtitle": "History · Chapter 1",
   "classLevel": 8,
   "mode": "senior",
   "subject": "history",
-  "topic": "Turkic And Afghan Invasions Refer",
+  "topic": "Turkic And Afghan Invasions",
   "chapters": [
-   "History Ch1: Turkic And Afghan Invasions Refer"
+   "History Ch1: Turkic And Afghan Invasions"
   ],
   "nodeIds": [
    "c8_hist_ch1_1",
@@ -37,7 +37,7 @@ export const C8_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Turkic And Afghan Invasions Refer suddenly stops working?",
+   "question": "What happens if Turkic And Afghan Invasions suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -48,7 +48,7 @@ export const C8_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Turkic And Afghan Invasions Refer",
+    "title": "Turkic And Afghan Invasions",
     "text": "The Turkic and Afghan invasions refer to a series of military campaigns into northern India between the late 10th and late 12th centuries CE, led primarily by rulers of the Ghaznavid and Ghurid dynasties from Central and South-Central Asia.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -60,7 +60,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Mamluk Dynasty Was",
+    "title": "Mamluk Dynasty",
     "text": "The Mamluk Dynasty (1206–1290 CE) was the founding dynasty of the Delhi Sultanate, established by Qutb-ud-din Aibak and formally consolidated by Shams-ud-din Iltutmish, both of whom were former military slaves (*mamluks*) who built centralized administrative,",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -78,7 +78,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Lodhi Dynasty Was",
+    "title": "Lodhi Dynasty",
     "text": "The Lodhi Dynasty (1451–1526 CE) was the fifth and final ruling dynasty of the Delhi Sultanate, established by Bahlul Lodhi as the first Pashtun/Afghan dynasty in North India.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -118,7 +118,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "B) The market controls collapsed rapidly because they relied on heavy state coercion, spy networks, and severe punishments rather than organic economic supply and demand",
      "The claim is incorrect and unhistorical. Rajput warriors were renowned for individual bravery and martial tradition"
     ],
-    "hint": "Straight from the 'Turkic and Afghan invasions refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Turkic and Afghan invasions' slide -- match the key terms.",
     "misconception": "A wrong answer shows a tendency to evaluate historical events through simplistic moral judgments rather than analyzing structural, technological, and political causes.",
     "id": "gen_c8_hist_ch01_q1",
     "nodeId": "c8_hist_ch1_1",
@@ -156,12 +156,12 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Who was the first formal ruler of the Mamluk Dynasty to receive official investiture (recognition) as Sultan of Delhi from the Abbasid Caliph of Baghdad, and in which year?",
     "answer": "Shams-ud-din Iltutmish received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE",
     "options": [
-     "The city was Devagiri, located in the modern-day state of Maharashtra. *What a wrong answer reveals:* If a student names a different city (like Hyderabad or Pune) or state",
-     "Ala-ud-Din Hasan Bahman Shah in 1347 CE",
-     "Mansabdari received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE",
+     "Domination of the fertile Raichur Doab situated between the Krishna and Tungabhadra rivers",
+     "B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems *Explanation*: Option B is correct because Alauddin Khilji mandated *dagh* (branding",
+     "Alauddin Khilji's received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE",
      "Shams-ud-din Iltutmish received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE"
     ],
-    "hint": "Straight from the 'Mamluk Dynasty  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Mamluk Dynasty' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Shams-ud-din Iltutmish received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in",
     "id": "gen_c8_hist_ch01_q3",
     "nodeId": "c8_hist_ch1_3",
@@ -230,11 +230,11 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Which city did Muhammad bin Tughlaq rename 'Daulatabad' when he decided to shift his capital from Delhi, and in which modern Indian state is it located?",
     "answer": "The city was Devagiri, located in the modern-day state of Maharashtra. *What a wrong answer reveals:* If a student names a different city (like Hyderabad or Pune) or state",
     "options": [
-     "Domination of the fertile Raichur Doab situated between the Krishna and Tungabhadra rivers",
      "Shams-ud-din Iltutmish received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE",
+     "B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems *Explanation*: Option B is correct because Alauddin Khilji mandated *dagh* (branding",
      "The city was Devagiri, located in the modern-day state of Maharashtra. *What a wrong answer reveals:* If a student names a different city (like Hyderabad or Pune) or state"
     ],
-    "hint": "Straight from the 'Muhammad bin Tughlaq (reign' slide -- match the key terms.",
+    "hint": "Straight from the 'Muhammad bin Tughlaq' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student names a different city (like Hyderabad or Pune) or state, it shows they lack the basic geographical anchor needed to understand the immense distance (around 1500 km) and the logistical scale of the capital shift.",
     "id": "gen_c8_hist_ch01_q5",
     "nodeId": "c8_hist_ch1_5",
@@ -255,7 +255,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "B) The market controls collapsed rapidly because they relied on heavy state coercion, spy networks, and severe punishments rather than organic economic supply and demand",
      "Bahlul Lodhi followed traditional Afghan tribal customs where leadership was based on tribal consensus and the king was considered \"first among equals"
     ],
-    "hint": "Straight from the 'Lodhi Dynasty  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Lodhi Dynasty' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Bahlul Lodhi followed traditional Afghan tribal customs where leadership was based on tribal consensus and the king was",
     "id": "gen_c8_hist_ch01_q6",
     "nodeId": "c8_hist_ch1_6",
@@ -324,8 +324,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Who was the founder of the Bahmani Sultanate, and in which year did he declare independence from the Delhi Sultanate? 1. Harihara I in 1336 CE 2. Ala-ud-Din Hasan Bahman Shah in 1347 CE 3. Mahmud Gawan in 1463 CE 4. Ahmad Shah I in 1424 CE",
     "answer": "Ala-ud-Din Hasan Bahman Shah in 1347 CE",
     "options": [
-     "Shams-ud-din Iltutmish received official investiture (*manshur*) from the Abbasid Caliph Al-Mustansir of Baghdad in 1229 CE",
-     "B) The *Dagh* (branding of horses) and *Chehra* (descriptive roll of soldiers) systems *Explanation*: Option B is correct because Alauddin Khilji mandated *dagh* (branding",
+     "The city was Devagiri, located in the modern-day state of Maharashtra. *What a wrong answer reveals:* If a student names a different city (like Hyderabad or Pune) or state",
+     "The student can analyze the strategic logic behind Muhammad bin Tughlaq’s administrative experiments (capital transfer, token currency",
      "Ala-ud-Din Hasan Bahman Shah in 1347 CE"
     ],
     "hint": "Straight from the 'Bahmani Sultanate was the first' slide -- match the key terms.",
@@ -349,7 +349,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "He introduced token currency because there was a global shortage of silver during the 14th century",
      "Ibrahim Lodi lost because his army relied on rigid, traditional frontal charges with war elephants and heavy infantry"
     ],
-    "hint": "Straight from the 'First Battle of Panipat (21' slide -- match the key terms.",
+    "hint": "Straight from the 'First Battle of Panipat' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on numbers shows the student assumes larger armies automatically win, ignoring tactical innovation, technology, and battlefield geometry.",
     "id": "gen_c8_hist_ch01_q9",
     "nodeId": "c8_hist_ch1_9",
@@ -370,7 +370,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "B) To ensure a steady supply of grain at fixed, low prices so his large cash-paid army could afford necessities *Explanation*: Option B is correct because fixing low prices for",
      "Akbar built the Ibadat Khana to hold discussions with scholars of different religions (including Islam, Hinduism, Jainism, Christianity"
     ],
-    "hint": "Straight from the 'Akbar's reign  established a' slide -- match the key terms.",
+    "hint": "Straight from the 'Akbar's reign established a' slide -- match the key terms.",
     "misconception": "A wrong answer stating it was built exclusively as a private mosque for orthodox prayers reveals a failure to understand Akbar's shift toward multi-faith dialogue and inclusive governance.",
     "id": "gen_c8_hist_ch01_q10",
     "nodeId": "c8_hist_ch1_10",
@@ -391,7 +391,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "The noble would argue: 1) \"Ibrahim disrespects traditional Afghan custom by forcing us to stand submissively in court rather than treating us as respected equals like Bahlul Lodhi",
      "The 'zat' rank determines the noble's personal salary and official status in the court hierarchy"
     ],
-    "hint": "Straight from the 'Akbar's reign  established a' slide -- match the key terms.",
+    "hint": "Straight from the 'Akbar's reign established a' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The 'zat' rank determines the noble's personal salary and official status in the court hierarchy, while the 'sawar'",
     "id": "gen_c8_hist_ch01_q11",
     "nodeId": "c8_hist_ch1_10",
@@ -406,7 +406,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "He divided the original 4 large provinces into 8 smaller ones and placed limits on the revenue and military command of provincial governors",
      "The *Iqta* system assigned revenue-collection rights of specific territories (*iqtas*) to military commanders (*Iqtadars* or *Muqtis*)"
     ],
-    "hint": "Straight from the 'Mamluk Dynasty  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Mamluk Dynasty' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The *Iqta* system assigned revenue-collection rights of specific territories (*iqtas*) to military commanders",
     "id": "gen_c8_hist_ch01_q12",
     "nodeId": "c8_hist_ch1_3",
@@ -421,7 +421,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "Minting coins locally with Islamic imperial titles while invoking the distant Abbasid Caliph gave the early Sultans dual legitimacy: practical economic sovereignty within north",
      "A successful strategy would argue that granting asylum to Mingburnu would provoke Genghis Khan to invade the newly established, politically fragile Delhi Sultanate"
     ],
-    "hint": "Straight from the 'Mamluk Dynasty  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Mamluk Dynasty' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A successful strategy would argue that granting asylum to Mingburnu would provoke Genghis Khan to invade the newly",
     "id": "gen_c8_hist_ch01_q13",
     "nodeId": "c8_hist_ch1_3",
@@ -436,7 +436,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "Minting coins locally with Islamic imperial titles while invoking the distant Abbasid Caliph gave the early Sultans dual legitimacy: practical economic sovereignty within north",
      "Iltutmish introduced two standardized coins: the silver *Tanka* (175 grains) for high-value wholesale transactions and the copper *Jital* for everyday local trade"
     ],
-    "hint": "Straight from the 'Mamluk Dynasty  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Mamluk Dynasty' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Iltutmish introduced two standardized coins: the silver *Tanka* (175 grains) for high-value wholesale transactions and",
     "id": "gen_c8_hist_ch01_q14",
     "nodeId": "c8_hist_ch1_3",
@@ -463,7 +463,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "answer": "A) Northern regions were annexed into direct Sultanate administration, whereas southern kingdoms were retained as tax-paying tributary states",
     "options": [
      "While both rulers taxed the fertile Doab heavily, Tughlaq raised taxes precisely during a severe, multi-year famine in the region",
-     "He introduced token currency because there was a global shortage of silver during the 14th century",
+     "The *Iqta* system assigned revenue-collection rights of specific territories (*iqtas*) to military commanders (*Iqtadars* or *Muqtis*)",
      "A) Northern regions were annexed into direct Sultanate administration, whereas southern kingdoms were retained as tax-paying tributary states"
     ],
     "hint": "Straight from the 'Khilji Dynasty , led' slide -- match the key terms.",
@@ -505,7 +505,7 @@ export const C8_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about turkic and afghan invasions refer?",
+    "What surprised you about turkic and afghan invasions?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -521,7 +521,10 @@ export const C8_HIST_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "history",
   "topic": "Term 'Marathas' Historically Designates",
-  "chapters": ["History Ch2: Term 'Marathas' Historically Designates", "History Ch3: Term 'Marathas' Historically Designates"],
+  "chapters": [
+   "History Ch2: Term 'Marathas' Historically Designates",
+   "History Ch3: Term 'Marathas' Historically Designates"
+  ],
   "nodeIds": [
    "c8_hist_ch2_1",
    "c8_hist_ch2_2",
@@ -691,12 +694,12 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Which city served as the prominent capital of the Yadava Dynasty in medieval Maharashtra? 1. Pune 2. Devagiri (Daulatabad) 3. Raigad 4. Satara",
     "answer": "Devagiri (Daulatabad) is the correct answer",
     "options": [
-     "B) Padmadurg (Kasa Fort) A wrong choice shows that the student confuses European colonial coastal settlements (Fort William) or Portuguese forts (Aguada) with indigenous Maratha",
-     "The eight ministers were the *Peshwa* (Prime Minister), *Amatya* (Finance Minister), *Sachiv* (Secretary), *Mantri* (Interior Minister/Chronicler)",
-     "Audited (Daulatabad) is the correct answer",
+     "Students can analyze the political, legal, and socio-religious necessity of Shivaji Maharaj's coronation at Raigad in 1674",
+     "B) Shaista Khan *Explanation:* Shaista Khan was appointed governor of the Deccan by Aurangzeb and occupied Lal Mahal in Pune",
+     "Aguada (Daulatabad) is the correct answer",
      "Devagiri (Daulatabad) is the correct answer"
     ],
-    "hint": "Straight from the 'Yadava Dynasty (also known as' slide -- match the key terms.",
+    "hint": "Straight from the 'Yadava Dynasty' slide -- match the key terms.",
     "misconception": "A student who selects Pune or Raigad is confusing the medieval Yadava capital with later Maratha political centers established under Shivaji Maharaj and the Peshwas in the 17th and 18th centuries.",
     "id": "gen_c8_hist_ch02_q2",
     "nodeId": "c8_hist_ch2_2",
@@ -780,7 +783,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "His presence demonstrates that European maritime trading powers (the East India Company) formally recognized Shivaji Maharaj as an independent sovereign monarch with whom they",
      "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai"
     ],
-    "hint": "Straight from the 'Chhatrapati Shivaji Maharaj  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Chhatrapati Shivaji Maharaj' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and",
     "id": "gen_c8_hist_ch02_q4",
     "nodeId": "c8_hist_ch2_3",
@@ -860,8 +863,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Which was the first fort captured by Shivaji Maharaj in 1646 at the young age of 16, which marked the formal beginning of his campaign for *Swarajya*?",
     "answer": "Torna Fort (also known as Prachandagad). *What a wrong answer reveals:* If a student answers \"Raigad\" or \"Sinhagad,\" they are confusing Shivaji's later capital or highly famous",
     "options": [
-     "2. Baji Rao I *Explanation*: Baji Rao I (Peshwa from 1720 to 1740) was instrumental in expanding Maratha authority northward into Malwa, Bundelkhand, and Gujarat",
-     "The *Rajavyavahara Kosha*",
+     "The student can analyze how the unique geography of the Western Ghats was leveraged through guerrilla tactics (*Ganimi Kava*) and defensive-offensive fort architecture to",
+     "B) Padmadurg (Kasa Fort) A wrong choice shows that the student confuses European colonial coastal settlements (Fort William) or Portuguese forts (Aguada) with indigenous Maratha",
      "Torna Fort (also known as Prachandagad). *What a wrong answer reveals:* If a student answers \"Raigad\" or \"Sinhagad,\" they are confusing Shivaji's later capital or highly famous"
     ],
     "hint": "Straight from the 'Shivaji's military campaigns and' slide -- match the key terms.",
@@ -944,8 +947,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Name the eight ministerial positions that constituted Shivaji's *Ashtapradhan* council, and identify which minister held the highest rank.",
     "answer": "The eight ministers were the *Peshwa* (Prime Minister), *Amatya* (Finance Minister), *Sachiv* (Secretary), *Mantri* (Interior Minister/Chronicler)",
     "options": [
-     "Torna Fort (also known as Prachandagad). *What a wrong answer reveals:* If a student answers \"Raigad\" or \"Sinhagad,\" they are confusing Shivaji's later capital or highly famous",
-     "Devagiri (Daulatabad) is the correct answer",
+     "Students can analyze the structural division of power within the Ashtapradhan council, differentiate between the taxation mechanisms of Chauth and Sardeshmukhi",
+     "Students can analyze the political, legal, and socio-religious necessity of Shivaji Maharaj's coronation at Raigad in 1674",
      "The eight ministers were the *Peshwa* (Prime Minister), *Amatya* (Finance Minister), *Sachiv* (Secretary), *Mantri* (Interior Minister/Chronicler)"
     ],
     "hint": "Straight from the 'Shivaji's administration was a' slide -- match the key terms.",
@@ -967,7 +970,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "options": [
      "Shivaji Maharaj was born at Shivneri Fort near Junnar in 1630 to Shahaji Bhonsle, a noble military commander, and Jijabai",
      "Chhatrapati Shivaji Maharaj launched the Dakshina Digvijaya in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda",
-     "Bengal was crowned in 1674 at Raigad Fort",
+     "Sambhaji's was crowned in 1674 at Raigad Fort",
      "Shivaji Maharaj was crowned in 1674 at Raigad Fort"
     ],
     "hint": "Straight from the 'Coronation of Shivaji Maharaj took' slide -- match the key terms.",
@@ -987,11 +990,11 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Which Mughal general was sent by Aurangzeb to the Deccan in 1660 to suppress Shivaji, but was surprised by a daring night attack on his residence in Pune? A) Jai Singh I B) Shaista Khan C) Dilir Khan D) Muazzam",
     "answer": "B) Shaista Khan *Explanation:* Shaista Khan was appointed governor of the Deccan by Aurangzeb and occupied Lal Mahal in Pune",
     "options": [
-     "Devagiri (Daulatabad) is the correct answer",
-     "B) Padmadurg (Kasa Fort) A wrong choice shows that the student confuses European colonial coastal settlements (Fort William) or Portuguese forts (Aguada) with indigenous Maratha",
+     "Students can analyze the political and military strategies used by both the Mughals and the Marathas during the conflict with Aurangzeb",
+     "Students can analyze the political, legal, and socio-religious necessity of Shivaji Maharaj's coronation at Raigad in 1674",
      "B) Shaista Khan *Explanation:* Shaista Khan was appointed governor of the Deccan by Aurangzeb and occupied Lal Mahal in Pune"
     ],
-    "hint": "Straight from the 'Mughal-Maratha Wars  were a' slide -- match the key terms.",
+    "hint": "Straight from the 'Mughal-Maratha Wars' slide -- match the key terms.",
     "misconception": "A wrong choice shows the student confuses individual Mughal commanders and their respective campaigns against the Marathas.",
     "id": "gen_c8_hist_ch02_q10",
     "nodeId": "c8_hist_ch2_8",
@@ -1012,7 +1015,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "His presence demonstrates that European maritime trading powers (the East India Company) formally recognized Shivaji Maharaj as an independent sovereign monarch with whom they",
      "Chhatrapati Shivaji Maharaj launched the Dakshina Digvijaya in 1677, forming a diplomatic alliance with the Qutb Shahi Sultanate of Golconda"
     ],
-    "hint": "Straight from the 'Dakshina Digvijaya  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Dakshina Digvijaya was Chhatrapati' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student suggests the Adil Shahis of Bijapur or dates it before his coronation (e.g., 1670), it shows they do not understand the chronological link between his coronation as a sovereign king (1674) and his subsequent need to engage in high-level interstate diplomacy as an equal sovereign.",
     "id": "gen_c8_hist_ch02_q11",
     "nodeId": "c8_hist_ch2_9",
@@ -1029,8 +1032,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Who was the Peshwa who significantly expanded Maratha power across North India through military campaigns and popularised the vision of *Hindu Pad Padshahi*? 1. Balaji Vishwanath 2. Baji Rao I 3. Balaji Baji Rao 4. Madhavrao I",
     "answer": "2. Baji Rao I *Explanation*: Baji Rao I (Peshwa from 1720 to 1740) was instrumental in expanding Maratha authority northward into Malwa, Bundelkhand, and Gujarat",
     "options": [
-     "The *Rajavyavahara Kosha*",
-     "The eight ministers were the *Peshwa* (Prime Minister), *Amatya* (Finance Minister), *Sachiv* (Secretary), *Mantri* (Interior Minister/Chronicler)",
+     "Can analyze the socio-geographical origins of the Maratha community and evaluate how the evolution of the Marathi language and Bhakti literature transformed a dispersed agrarian",
+     "The student can analyze how Maratha administrative institutions, military innovations, and political decentralization transformed 18th-century Indian politics and evaluated their",
      "2. Baji Rao I *Explanation*: Baji Rao I (Peshwa from 1720 to 1740) was instrumental in expanding Maratha authority northward into Malwa, Bundelkhand, and Gujarat"
     ],
     "hint": "Straight from the 'Maratha Confederacy' slide -- match the key terms.",
@@ -1175,7 +1178,7 @@ export const C8_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about term 'marathas' historically designates the?",
+    "What surprised you about term 'marathas' historically designates?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1280,7 +1283,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "The Sanyasis were not mere bandits; they were a network of ascetics who controlled trade routes and provided credit to peasants",
      "The 1857 response involved massive troop deployments, brutal reprisals (blowing from cannons, mass executions), and a scorched-earth policy"
     ],
-    "hint": "Straight from the 'Revolt of 1857 was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Revolt of 1857' slide -- match the key terms.",
     "misconception": "A wrong answer that treats all suppressions as similar misses the existential threat 1857 posed and the consequent shift to Crown rule.",
     "id": "gen_c8_hist_ch04_q2",
     "nodeId": "c8_hist_ch4_2",
@@ -1322,7 +1325,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "The Paiks were hereditary militia-farmers who held rent-free land (*nishkar jagir*) in return for military service",
      "Gandhi insisted on strict non-violence and adherence to the Congress programme, which did not include rent strikes"
     ],
-    "hint": "Straight from the 'Non-Cooperation Movement  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Non-Cooperation Movement was' slide -- match the key terms.",
     "misconception": "A wrong answer that praises the peasant as \"following Gandhi\" shows the student conflates local grievances with the centralised, disciplined strategy Gandhi demanded.",
     "id": "gen_c8_hist_ch04_q4",
     "nodeId": "c8_hist_ch4_8",
@@ -1377,7 +1380,7 @@ export const C8_HIST_GEN: SimDef[] = [
      "Gandhi insisted on strict non-violence and adherence to the Congress programme, which did not include rent strikes",
      "Timeline: May 1857 (Meerut mutiny, march to Delhi), June 1857 (Siege of Cawnpore, Bibighar massacre), September 1857 (British recapture Delhi)"
     ],
-    "hint": "Straight from the 'Revolt of 1857 was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Revolt of 1857' slide -- match the key terms.",
     "misconception": "A poor answer lists consequences without linking them to long-term British policy or misses the structural changes in army and administration.",
     "id": "gen_c8_hist_ch04_q7",
     "nodeId": "c8_hist_ch4_2",
@@ -1466,7 +1469,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "The Brihadiswara Temple At Thanjavur",
+    "title": "The Brihadiswara Temple At Thanjavur, Built",
     "text": "The Brihadiswara Temple at Thanjavur, built by Chola emperor Rajaraja I (reigned 985–1014 CE) and completed around 1010 CE, is the supreme achievement of Dravida-style temple architecture.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1514,8 +1517,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Name two distinct historical periods before the 12th century CE when Indian architecture made significant technological advances in stone construction, and give one example from each.",
     "answer": "Mauryan period (3rd century BCE) — polished sandstone pillars with monolithic shafts; Gupta period (4th–6th century CE)",
     "options": [
-     "The Brihadiswara Temple was commissioned by Chola emperor Rajaraja I (reigned 985–1014 CE) and completed around 1010 CE",
-     "The Shunga dynasty (c. 150–50 BCE) commissioned the stone veneer, harmika, and the four toranas at Sanchi Stupa 1",
+     "Nagara and Dravida are the two major classical styles of Hindu temple architecture that emerged in India between the 6th-12th centuries CE",
+     "The student can explain how Indian architecture integrates artistic symbolism with structural technology across at least three historical periods",
      "Mauryan period (3rd century BCE) — polished sandstone pillars with monolithic shafts; Gupta period (4th–6th century CE)"
     ],
     "hint": "Straight from the 'Indian architecture' slide -- match the key terms.",
@@ -1535,8 +1538,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Name the three distinct fortified divisions of Dholavira's city layout and state one unique public structure found there that is absent at Mohenjo-daro.",
     "answer": "The three divisions are the Citadel (highest, westernmost), the Middle Town (north of citadel), and the Lower Town (east)",
     "options": [
-     "The Kailasa temple at Ellora was excavated under the Rashtrakuta king Krishna I in the 8th century CE (c. 756–773 CE)",
-     "The Shunga dynasty (c. 150–50 BCE) commissioned the stone veneer, harmika, and the four toranas at Sanchi Stupa 1",
+     "The student can compare the three regional styles by identifying how geography, patronage, and trade shaped their materials, decorative programmes, and spatial layouts",
+     "The Qutub Minar stands approximately 73 meters (240 feet) tall. Construction began under Qutb-ud-din Aibak (1199 CE), the first three storeys were completed by Iltutmish (1220s)",
      "The three divisions are the Citadel (highest, westernmost), the Middle Town (north of citadel), and the Lower Town (east)"
     ],
     "hint": "Straight from the 'Harappan Civilisation' slide -- match the key terms.",
@@ -1556,7 +1559,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Which dynasty is primarily associated with the excavation of the Kailasa temple (Cave 16) at Ellora, and during which century was it carved?",
     "answer": "The Kailasa temple at Ellora was excavated under the Rashtrakuta king Krishna I in the 8th century CE (c. 756–773 CE)",
     "options": [
-     "The true arch (voussoir arch with keystone), which transfers weight sideways to piers, unlike the corbelled arch used in Indian temples where stones are layered horizontally",
+     "Indian architecture is a continuous tradition from the 3rd millennium BCE to the present where buildings serve as both artistic expressions of religious, political",
      "The Brihadiswara Temple was commissioned by Chola emperor Rajaraja I (reigned 985–1014 CE) and completed around 1010 CE",
      "The Kailasa temple at Ellora was excavated under the Rashtrakuta king Krishna I in the 8th century CE (c. 756–773 CE)"
     ],
@@ -1577,8 +1580,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Name the dynasty that commissioned the stone encasing and the four carved gateways (toranas) of the Great Stupa at Sanchi in the 1st century BCE.",
     "answer": "The Shunga dynasty (c. 150–50 BCE) commissioned the stone veneer, harmika, and the four toranas at Sanchi Stupa 1",
     "options": [
-     "The three divisions are the Citadel (highest, westernmost), the Middle Town (north of citadel), and the Lower Town (east)",
-     "The two main styles are Nagara (North India) and Dravida (South India)",
+     "Mauryan period (3rd century BCE) — polished sandstone pillars with monolithic shafts; Gupta period (4th–6th century CE)",
+     "Can explain how the structural elements of the Sanchi and Bharhut stupas (anda, harmika, vedika",
      "The Shunga dynasty (c. 150–50 BCE) commissioned the stone veneer, harmika, and the four toranas at Sanchi Stupa 1"
     ],
     "hint": "Straight from the 'Buddhist Architecture at Sanchi' slide -- match the key terms.",
@@ -1868,8 +1871,8 @@ export const C8_HIST_GEN: SimDef[] = [
     "question": "Which European power built the first European-style fort in India, and what was its name and location?",
     "answer": "The Portuguese built Fort Manuel (later Fort Emmanuel) in Kochi (Cochin) in 1503, the first European fort in India",
     "options": [
-     "The Shunga dynasty (c. 150–50 BCE) commissioned the stone veneer, harmika, and the four toranas at Sanchi Stupa 1",
-     "The two main styles are Nagara (North India) and Dravida (South India)",
+     "Islamic Architecture in India refers to the distinct building tradition that emerged from the 13th to 18th centuries under the Delhi Sultanate (1206–1526) and Mughal Empire",
+     "Can explain how colonial architecture served as a tool of political power by analyzing specific buildings (forts, churches, public buildings) for their structural features",
      "The Portuguese built Fort Manuel (later Fort Emmanuel) in Kochi (Cochin) in 1503, the first European fort in India"
     ],
     "hint": "Straight from the 'Colonial architecture in India' slide -- match the key terms.",
@@ -1890,7 +1893,7 @@ export const C8_HIST_GEN: SimDef[] = [
     "answer": "The primary material is terracotta (burnt clay bricks and tiles). It was chosen because the alluvial plains of Bengal lack quality building stone, while clay is abundant",
     "options": [
      "The Shunga dynasty (c. 150–50 BCE) commissioned the stone veneer, harmika, and the four toranas at Sanchi Stupa 1",
-     "Mauryan period (3rd century BCE) — polished sandstone pillars with monolithic shafts; Gupta period (4th–6th century CE)",
+     "The student can explain how Indian architecture integrates artistic symbolism with structural technology across at least three historical periods",
      "The primary material is terracotta (burnt clay bricks and tiles). It was chosen because the alluvial plains of Bengal lack quality building stone, while clay is abundant"
     ],
     "hint": "Straight from the 'Regional architecture in India' slide -- match the key terms.",
@@ -2087,15 +2090,15 @@ export const C8_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did Indian builders continue using the post-and-lintel (trabeate) system for temples long after the arch and dome were known from the 12th century onwards?",
-    "answer": "The trabeate system was deeply tied to Hindu temple symbolism — the horizontal beam (lintel) represented the cosmic axis and the threshold between worlds",
+    "question": "What is Indian architecture? State the definition given in this lesson.",
+    "answer": "Indian architecture is a continuous tradition from the 3rd millennium BCE to the present where buildings serve as both artistic expressions of religious, political",
     "options": [
-     "Because the new rulers lacked skilled craftsmen familiar with stone construction — early Turkic builders were used to brick and timber",
-     "Dholavira lay in an arid zone (Kutch) with no perennial river and only seasonal monsoon runoff; reservoirs captured and stored this fleeting surface water for year-round use",
-     "The trabeate system was deeply tied to Hindu temple symbolism — the horizontal beam (lintel) represented the cosmic axis and the threshold between worlds"
+     "Buddhist Architecture at Sanchi and Bharhut refers to the stupa complexes built between the 3rd century BCE and 1st century CE in central India (Madhya Pradesh)",
+     "Can compare the Qutub Minar and Jama Masjid to explain how Indo-Islamic architecture evolved from early Sultanate reuse of temple materials to mature Mughal synthesis",
+     "Indian architecture is a continuous tradition from the 3rd millennium BCE to the present where buildings serve as both artistic expressions of religious, political"
     ],
     "hint": "Straight from the 'Indian architecture' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"they didn't know how to build arches\") shows the student confuses technological ignorance with deliberate cultural choice, ignoring that arches were used in secular buildings and water structures simultaneously.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Indian architecture is a continuous tradition from the 3rd millennium BCE to the present where buildings serve as both",
     "id": "gen_c8_hist_ch05_q18",
     "nodeId": "c8_hist_ch5_1",
     "difficulty": "standard"

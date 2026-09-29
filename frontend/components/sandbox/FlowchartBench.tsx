@@ -352,7 +352,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
               onDragStart={() => setDragKind(p.kind)}
               onDragEnd={() => setDragKind(null)}
               onClick={() => addBlock(p.kind)}
-              className={`cursor-grab rounded-xl border px-2.5 py-1.5 transition select-none ${dragKind === p.kind ? 'border-sky-400 bg-sky-500/20' : 'border-slate-700 bg-slate-800/60 hover:border-slate-500'}`}>
+              className={`cursor-grab rounded-xl border px-2.5 py-1.5 transition select-none ${dragKind === p.kind ? 'border-gold-400 bg-gold-500/20' : 'border-slate-700 bg-slate-800/60 hover:border-slate-500'}`}>
               <p className="text-[11px] font-black text-slate-200">{SYM[p.kind]} {p.label}</p>
               <p className="text-[10px] text-slate-500">{p.hint}</p>
             </div>
@@ -374,7 +374,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
       <div>
         <div className="flex items-center gap-2 mb-2">
           <button onClick={doStep} disabled={!!st?.done}
-            className="px-3 py-1.5 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs flex items-center gap-1">
+            className="px-3 py-1.5 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs flex items-center gap-1">
             <StepForward className="w-3.5 h-3.5" />Step
           </button>
           <button onClick={runAll} disabled={!!st?.done}
@@ -388,7 +388,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
           <label className="ml-auto flex items-center gap-1.5 text-[10px] text-slate-400 font-semibold">
             inputs (one per line)
             <input value={inputs} onChange={e => setInputs(e.target.value)}
-              className="w-32 rounded-lg bg-slate-950 border border-slate-700 px-2 py-1 text-[11px] font-mono text-emerald-200 focus:outline-none focus:border-sky-400" />
+              className="w-32 rounded-lg bg-slate-950 border border-slate-700 px-2 py-1 text-[11px] font-mono text-emerald-200 focus:outline-none focus:border-gold-400" />
           </label>
         </div>
 
@@ -405,7 +405,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
                       : 'border-slate-700 bg-slate-900/70'}`}>
                 <div className="flex items-center gap-1.5 flex-wrap">
                   <span className="text-[9px] font-mono text-slate-500 w-4">{i}</span>
-                  <span className={`text-[9px] font-black uppercase tracking-wider w-20 ${b.kind === 'decision' ? 'text-amber-300' : b.kind === 'loop' || b.kind === 'endloop' ? 'text-fuchsia-300' : b.kind === 'start' ? 'text-slate-400' : 'text-sky-300'}`}>
+                  <span className={`text-[9px] font-black uppercase tracking-wider w-20 ${b.kind === 'decision' ? 'text-amber-300' : b.kind === 'loop' || b.kind === 'endloop' ? 'text-fuchsia-300' : b.kind === 'start' ? 'text-slate-400' : 'text-gold-300'}`}>
                     {SYM[b.kind]} {SYM_LABEL[b.kind]}
                   </span>
                   {b.kind === 'start' ? (
@@ -415,7 +415,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
                   ) : (
                     <input value={b.text} onChange={e => update(b.id, { text: e.target.value })}
                       placeholder={b.kind === 'input' ? 'variable name' : b.kind === 'decision' || b.kind === 'loop' ? 'condition' : b.kind === 'process' ? 'name = expression' : 'value or "text"'}
-                      className="flex-1 min-w-[120px] rounded-md bg-slate-950 border border-slate-700 px-2 py-0.5 text-[11px] font-mono text-slate-100 focus:outline-none focus:border-sky-400" />
+                      className="flex-1 min-w-[120px] rounded-md bg-slate-950 border border-slate-700 px-2 py-0.5 text-[11px] font-mono text-slate-100 focus:outline-none focus:border-gold-400" />
                   )}
                   {b.kind === 'decision' && (
                     <label className="text-[9px] text-amber-300/80 font-bold">
@@ -428,7 +428,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
                     </label>
                   )}
                   {b.kind === 'jump' && (
-                    <label className="text-[9px] text-sky-300/80 font-bold">
+                    <label className="text-[9px] text-gold-300/80 font-bold">
                       →
                       <select value={b.jumpTo} onChange={e => update(b.id, { jumpTo: Number(e.target.value) })}
                         className="ml-1 rounded bg-slate-950 border border-slate-700 text-[10px] text-slate-200 px-1 py-0.5">
@@ -466,7 +466,7 @@ export default function FlowchartBench({ nodeId, onActivity }: {
               <tbody>
                 {Object.entries(st.vars).map(([k, v]) => (
                   <tr key={k}>
-                    <td className="text-sky-300 pr-2">{k}</td>
+                    <td className="text-gold-300 pr-2">{k}</td>
                     <td className="text-slate-100 text-right">{String(v)}</td>
                   </tr>
                 ))}
@@ -508,6 +508,6 @@ function DropZone({ onDrop, active }: { onDrop: () => void; active: boolean }) {
       onDragOver={e => { if (active) { e.preventDefault(); setHover(true) } }}
       onDragLeave={() => setHover(false)}
       onDrop={e => { e.preventDefault(); e.stopPropagation(); setHover(false); onDrop() }}
-      className={`h-1.5 rounded-full my-0.5 transition ${hover ? 'bg-sky-400/70' : active ? 'bg-sky-500/20' : 'bg-transparent'}`} />
+      className={`h-1.5 rounded-full my-0.5 transition ${hover ? 'bg-gold-400/70' : active ? 'bg-gold-500/20' : 'bg-transparent'}`} />
   )
 }

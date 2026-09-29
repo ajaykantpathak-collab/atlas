@@ -126,11 +126,11 @@ export function C11_PhysicsThermalPropertiesOfMatterSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Mass of ice</span><span className="font-mono font-bold text-sky-400">{massKg.toFixed(1)} kg</span>
+                <span>Mass of ice</span><span className="font-mono font-bold text-gold-400">{massKg.toFixed(1)} kg</span>
               </div>
               <input type="range" min={0.2} max={2} step={0.1} value={massKg} aria-label="Mass"
                 onChange={(e) => { setMassKg(Number(e.target.value)); setEnergy(0); setHeating(false); }}
-                className="w-full accent-sky-500" />
+                className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -159,9 +159,9 @@ export function C11_PhysicsThermalPropertiesOfMatterSim() {
           </div>
 
           <div className="bg-slate-900/80 rounded-2xl border border-amber-800/60 p-4 text-xs font-mono grid grid-cols-2 gap-2">
-            <div><span className="text-slate-500">Warm ice 20 K</span><div className="text-sky-300 font-bold text-sm">{(qIce / 1000).toFixed(0)} kJ</div></div>
-            <div><span className="text-slate-500">Melt at 0 C</span><div className="text-cyan-300 font-bold text-sm">{(qMelt / 1000).toFixed(0)} kJ</div></div>
-            <div><span className="text-slate-500">Warm water 100 K</span><div className="text-blue-300 font-bold text-sm">{(qWater / 1000).toFixed(0)} kJ</div></div>
+            <div><span className="text-slate-500">Warm ice 20 K</span><div className="text-gold-300 font-bold text-sm">{(qIce / 1000).toFixed(0)} kJ</div></div>
+            <div><span className="text-slate-500">Melt at 0 C</span><div className="text-gold-300 font-bold text-sm">{(qMelt / 1000).toFixed(0)} kJ</div></div>
+            <div><span className="text-slate-500">Warm water 100 K</span><div className="text-gold-300 font-bold text-sm">{(qWater / 1000).toFixed(0)} kJ</div></div>
             <div><span className="text-slate-500">Boil at 100 C</span><div className="text-rose-300 font-bold text-sm">{((massKg * L_VAPOR) / 1000).toFixed(0)} kJ</div></div>
           </div>
 

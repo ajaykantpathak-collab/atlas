@@ -45,11 +45,11 @@ export function C8_ScienceTheInvisibleLivingWorldBeyondSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-violet-700">The Invisible Living World: Beyond Our Naked Eye</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">The Invisible Living World: Beyond Our Naked Eye</h1>
 
-      <div className="mt-3 p-4 bg-violet-50 border border-violet-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-violet-700">A hidden universe:</span> your eye cannot
+          <span className="font-bold text-gold-700">A hidden universe:</span> your eye cannot
           clearly see anything smaller than about 0.1 millimetre. Microorganisms - protozoa, algae,
           bacteria, fungi and viruses - live in soil, water, air, and even inside you. They decay
           waste, make curd and bread, fix nitrogen... and a few cause disease. Magnification is the
@@ -59,7 +59,7 @@ export function C8_ScienceTheInvisibleLivingWorldBeyondSim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {presets.map(([label, z]) => (
-          <button key={label} onClick={() => setZoom(z)} className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${zoom === z ? 'bg-violet-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button key={label} onClick={() => setZoom(z)} className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${zoom === z ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {label}
           </button>
         ))}
@@ -68,8 +68,8 @@ export function C8_ScienceTheInvisibleLivingWorldBeyondSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Magnification</span><span className="font-mono text-violet-600">{zoom}x</span></label>
-            <input type="range" min={0} max={4} step={1} value={[1, 10, 100, 400, 1000].indexOf(zoom) === -1 ? 0 : [1, 10, 100, 400, 1000].indexOf(zoom)} aria-label="magnification" onChange={(e) => setZoom([1, 10, 100, 400, 1000][Number(e.target.value)])} className="w-full mt-1 accent-violet-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Magnification</span><span className="font-mono text-gold-600">{zoom}x</span></label>
+            <input type="range" min={0} max={4} step={1} value={[1, 10, 100, 400, 1000].indexOf(zoom) === -1 ? 0 : [1, 10, 100, 400, 1000].indexOf(zoom)} aria-label="magnification" onChange={(e) => setZoom([1, 10, 100, 400, 1000][Number(e.target.value)])} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <p className="text-xs font-semibold text-slate-500 mb-1">SPECIMEN SLIDE</p>
@@ -88,7 +88,7 @@ export function C8_ScienceTheInvisibleLivingWorldBeyondSim() {
             <div className="mt-2 text-xs font-bold" style={{ color: visible ? '#059669' : '#e11d48' }}>
               {visible ? 'VISIBLE at this magnification!' : `too small - need ${bug.zoomNeeded}x or more`}
             </div>
-            <button onClick={() => setReveal((r) => !r)} className="mt-2 px-3 py-1.5 rounded-lg text-xs font-bold bg-violet-100 text-violet-700 hover:bg-violet-200 transition-all">
+            <button onClick={() => setReveal((r) => !r)} className="mt-2 px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
               {reveal ? 'Hide zoom hints' : 'What magnification do I need?'}
             </button>
             {reveal && (

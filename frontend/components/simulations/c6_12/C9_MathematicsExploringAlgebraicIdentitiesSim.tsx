@@ -59,10 +59,10 @@ export function C9_MathematicsExploringAlgebraicIdentitiesSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Mathematics - Polynomials</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Mathematics - Polynomials</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Exploring Algebraic Identities with Areas</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300">Area Model Lab</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Area Model Lab</span>
       </header>
 
       {/* IDENTITY TABS */}
@@ -72,7 +72,7 @@ export function C9_MathematicsExploringAlgebraicIdentitiesSim() {
             key={t.id}
             onClick={() => setIdentity(t.id)}
             className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${
-              identity === t.id ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:bg-slate-800'
+              identity === t.id ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:bg-slate-800'
             }`}
           >
             {t.label}
@@ -85,10 +85,10 @@ export function C9_MathematicsExploringAlgebraicIdentitiesSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>a</span>
-            <span className="text-indigo-300 font-mono font-bold">{a}</span>
+            <span className="text-gold-300 font-mono font-bold">{a}</span>
           </label>
           <input type="range" min={2} max={9} value={a} aria-label="value of a"
-            onChange={(e) => setA(Number(e.target.value))} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => setA(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -169,7 +169,7 @@ export function C9_MathematicsExploringAlgebraicIdentitiesSim() {
 
         {/* NUMERIC VERIFICATION PANEL */}
         <div className="md:col-span-2 bg-slate-900 rounded-2xl border border-slate-800 p-4 space-y-3">
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Live verification</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Live verification</p>
           <p className="text-sm font-mono text-amber-300">{activeTab.formula}</p>
           <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-sm font-mono space-y-1">
             {identity === 'sqSum' && (
@@ -206,14 +206,14 @@ export function C9_MathematicsExploringAlgebraicIdentitiesSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> an identity is an algebra statement that is true for every value of
+          <span className="font-bold text-gold-300">Big idea:</span> an identity is an algebra statement that is true for every value of
           its letters. Each one here is a cut-and-rearrange story about areas: (a+b)^2 splits a big square into four tiles,
           (a-b)^2 removes two strips and adds back the overlapping corner, and (a+b)(a-b) reshapes an L-shape into a rectangle.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set a = 7 and b = 4, choose (a-b)^2, and confirm 49 = 9 + 2 x 4 x 3 + 16 before reading the numbers off the panel.</p>
         <p className="mt-1">2. Use the (a+b)(a-b) tab to compute 102 x 98 mentally (hint: a = 100, b = 2) and verify it in the panel.</p>

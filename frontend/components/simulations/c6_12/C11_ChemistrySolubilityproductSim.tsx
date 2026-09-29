@@ -588,7 +588,7 @@ export default function C11_ChemistrySolubilityproductSim({
       <header className="border-b border-slate-800 pb-4 mb-4">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <span className="text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-950 px-2.5 py-1 rounded-full border border-cyan-800">
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase bg-gold-950 px-2.5 py-1 rounded-full border border-gold-800">
               Class 11 (ISC) Chemistry
             </span>
             <h1 className="text-2xl md:text-3xl font-bold mt-1 text-white tracking-tight">
@@ -604,7 +604,7 @@ export default function C11_ChemistrySolubilityproductSim({
             </div>
             <div className="w-24 bg-slate-700 h-3 rounded-full overflow-hidden">
               <div
-                className="bg-gradient-to-r from-emerald-500 to-cyan-400 h-full transition-all duration-500"
+                className="bg-gradient-to-r from-emerald-500 to-gold-400 h-full transition-all duration-500"
                 style={{ width: `${overallMastery}%` }}
               />
             </div>
@@ -631,7 +631,7 @@ export default function C11_ChemistrySolubilityproductSim({
               }}
               className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all whitespace-nowrap ${
                 activeTab === tab.id
-                  ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20'
+                  ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20'
                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
@@ -683,7 +683,7 @@ export default function C11_ChemistrySolubilityproductSim({
                   onClick={() => handleDiscoverySubmit(item.id)}
                   className={`p-4 rounded-xl text-left border transition-all text-sm font-medium ${
                     discoveryPrediction === item.id
-                      ? 'border-cyan-400 bg-cyan-950/60 text-cyan-200'
+                      ? 'border-gold-400 bg-gold-950/60 text-gold-200'
                       : 'border-slate-700 bg-slate-900/60 hover:border-slate-500 text-slate-200'
                   }`}
                 >
@@ -696,10 +696,10 @@ export default function C11_ChemistrySolubilityproductSim({
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="mt-6 p-4 rounded-xl bg-cyan-950/80 border border-cyan-700 text-cyan-100 space-y-2"
+                className="mt-6 p-4 rounded-xl bg-gold-950/80 border border-gold-700 text-gold-100 space-y-2"
               >
-                <div className="font-bold text-lg text-cyan-300">Discovery Explanation:</div>
-                <p className="text-sm text-cyan-200/90 leading-relaxed">
+                <div className="font-bold text-lg text-gold-300">Discovery Explanation:</div>
+                <p className="text-sm text-gold-200/90 leading-relaxed">
                   Spot on! Organic molecules are covalent structures formed by carbon’s tetravalency and catenation, governed by standard thermodynamics (as Wöhler proved by synthesizing urea from ammonium cyanate). Simultaneously, solubility of sparingly soluble salts like AgCl follows exact mass-action equilibrium (Ksp = [Ag⁺][Cl⁻]). Adding common Cl⁻ ions shifts the equilibrium left, precipitating solid AgCl!
                 </p>
                 <button
@@ -707,7 +707,7 @@ export default function C11_ChemistrySolubilityproductSim({
                     setActiveTab('visuals');
                     audioManager.play('swoop');
                   }}
-                  className="mt-3 px-5 py-2 bg-cyan-400 text-slate-950 font-bold rounded-lg text-sm hover:bg-cyan-300 transition-all shadow-md"
+                  className="mt-3 px-5 py-2 bg-gold-400 text-slate-950 font-bold rounded-lg text-sm hover:bg-gold-300 transition-all shadow-md"
                 >
                   Proceed to Interactive Visual Labs →
                 </button>
@@ -732,7 +732,7 @@ export default function C11_ChemistrySolubilityproductSim({
             >
               ← Previous Concept
             </button>
-            <span className="text-xs font-bold text-cyan-300">
+            <span className="text-xs font-bold text-gold-300">
               Concept {currentSlideIndex + 1} of {TEACHING_SLIDES.length}: {TEACHING_SLIDES[currentSlideIndex].title}
             </span>
             <button
@@ -750,13 +750,13 @@ export default function C11_ChemistrySolubilityproductSim({
           {/* Current Slide Content */}
           <div className="bg-slate-800/90 border border-slate-700 p-6 rounded-2xl grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
             <div className="lg:col-span-5 space-y-4">
-              <span className="text-xs font-bold text-cyan-400 bg-cyan-950 px-2.5 py-1 rounded-full border border-cyan-800 uppercase">
+              <span className="text-xs font-bold text-gold-400 bg-gold-950 px-2.5 py-1 rounded-full border border-gold-800 uppercase">
                 {TEACHING_SLIDES[currentSlideIndex].subtitle}
               </span>
               <h2 className="text-xl font-bold text-white">{TEACHING_SLIDES[currentSlideIndex].title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed">{TEACHING_SLIDES[currentSlideIndex].text}</p>
               {TEACHING_SLIDES[currentSlideIndex].keyFormula && (
-                <div className="p-3 bg-slate-900 rounded-xl border border-cyan-800/60 font-mono text-xs text-cyan-300">
+                <div className="p-3 bg-slate-900 rounded-xl border border-gold-800/60 font-mono text-xs text-gold-300">
                   {TEACHING_SLIDES[currentSlideIndex].keyFormula}
                 </div>
               )}
@@ -772,7 +772,7 @@ export default function C11_ChemistrySolubilityproductSim({
                     {/* Beaker SVG */}
                     <div className="relative w-40 h-48 bg-slate-900 border-2 border-slate-600 rounded-b-2xl overflow-hidden shadow-inner flex flex-col justify-end">
                       {/* Water solution fill */}
-                      <div className="w-full bg-cyan-900/40 border-t border-cyan-400/50 transition-all duration-500 relative h-[80%]">
+                      <div className="w-full bg-gold-900/40 border-t border-gold-400/50 transition-all duration-500 relative h-[80%]">
                         {/* Floating Ag+ and Cl- ions */}
                         <div className="absolute inset-0 p-2 flex flex-wrap gap-2 justify-center items-center">
                           {[...Array(6)].map((_, i) => (
@@ -813,7 +813,7 @@ export default function C11_ChemistrySolubilityproductSim({
                     {/* Stats Panel */}
                     <div className="text-left text-xs space-y-2 bg-slate-900 p-3 rounded-xl border border-slate-800">
                       <div>
-                        Ksp (AgCl) = <span className="font-mono text-cyan-300">1.8 × 10⁻¹⁰</span>
+                        Ksp (AgCl) = <span className="font-mono text-gold-300">1.8 × 10⁻¹⁰</span>
                       </div>
                       <div>
                         [Ag⁺] = <span className="font-mono text-amber-300">{concAg.toExponential(2)} M</span>
@@ -822,7 +822,7 @@ export default function C11_ChemistrySolubilityproductSim({
                         [Cl⁻] = <span className="font-mono text-emerald-300">{concCl.toFixed(3)} M</span>
                       </div>
                       <div>
-                        Ion Product Q = <span className="font-mono text-cyan-300">{ionicProductQ.toExponential(2)}</span>
+                        Ion Product Q = <span className="font-mono text-gold-300">{ionicProductQ.toExponential(2)}</span>
                       </div>
                       <div className="pt-2 border-t border-slate-800">
                         Status:{' '}
@@ -843,7 +843,7 @@ export default function C11_ChemistrySolubilityproductSim({
                   <div className="w-full max-w-md mx-auto space-y-1">
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Add Common Ion (NaCl Solution Concentration):</span>
-                      <span className="font-mono text-cyan-300">{addedNaCl.toFixed(3)} M</span>
+                      <span className="font-mono text-gold-300">{addedNaCl.toFixed(3)} M</span>
                     </label>
                     <input
                       type="range"
@@ -855,7 +855,7 @@ export default function C11_ChemistrySolubilityproductSim({
                         setAddedNaCl(parseFloat(e.target.value));
                         audioManager.play('pop');
                       }}
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -917,7 +917,7 @@ export default function C11_ChemistrySolubilityproductSim({
                           audioManager.play('pop');
                         }}
                         className={`px-3 py-1 rounded text-xs font-bold ${
-                          selectedOxMol === m ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300'
+                          selectedOxMol === m ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         {m}
@@ -928,27 +928,27 @@ export default function C11_ChemistrySolubilityproductSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2 max-w-md mx-auto text-left">
                     {selectedOxMol === 'K2Cr2O7' && (
                       <>
-                        <div className="font-bold text-cyan-300 text-sm">Potassium Dichromate (K₂Cr₂O₇)</div>
+                        <div className="font-bold text-gold-300 text-sm">Potassium Dichromate (K₂Cr₂O₇)</div>
                         <div>Potassium (K): Group 1 metal = <span className="text-amber-400 font-mono">+1</span> (2 atoms = +2)</div>
                         <div>Oxygen (O): Standard oxide = <span className="text-rose-400 font-mono">-2</span> (7 atoms = -14)</div>
                         <div>Net Charge = 0  ⇒  2(K) + 2(Cr) + 7(O) = 0</div>
-                        <div className="p-2 bg-slate-950 rounded border border-cyan-800 font-mono text-cyan-200">
+                        <div className="p-2 bg-slate-950 rounded border border-gold-800 font-mono text-gold-200">
                           2(+1) + 2(x) + 7(-2) = 0  ⇒  2x = +12  ⇒  <span className="text-emerald-400 font-bold">Cr = +6</span>
                         </div>
                       </>
                     )}
                     {selectedOxMol === 'KMnO4' && (
                       <>
-                        <div className="font-bold text-cyan-300 text-sm">Potassium Permanganate (KMnO₄)</div>
+                        <div className="font-bold text-gold-300 text-sm">Potassium Permanganate (KMnO₄)</div>
                         <div>Potassium (K): +1 | Oxygen (O): -2 (4 atoms = -8)</div>
-                        <div className="p-2 bg-slate-950 rounded border border-cyan-800 font-mono text-cyan-200">
+                        <div className="p-2 bg-slate-950 rounded border border-gold-800 font-mono text-gold-200">
                           (+1) + x + 4(-2) = 0  ⇒  x - 7 = 0  ⇒  <span className="text-emerald-400 font-bold">Mn = +7</span>
                         </div>
                       </>
                     )}
                     {selectedOxMol === 'H2O2' && (
                       <>
-                        <div className="font-bold text-cyan-300 text-sm">Hydrogen Peroxide (H₂O₂ - Peroxide Exception!)</div>
+                        <div className="font-bold text-gold-300 text-sm">Hydrogen Peroxide (H₂O₂ - Peroxide Exception!)</div>
                         <div>Hydrogen (H): +1 (2 atoms = +2)</div>
                         <div>Oxygen-Oxygen single covalent bond O-O shares electrons equally!</div>
                         <div className="p-2 bg-slate-950 rounded border border-rose-800 font-mono text-rose-200">
@@ -958,9 +958,9 @@ export default function C11_ChemistrySolubilityproductSim({
                     )}
                     {selectedOxMol === 'S2O3' && (
                       <>
-                        <div className="font-bold text-cyan-300 text-sm">Thiosulfate Ion (S₂O₃²⁻)</div>
+                        <div className="font-bold text-gold-300 text-sm">Thiosulfate Ion (S₂O₃²⁻)</div>
                         <div>Oxygen (O): -2 (3 atoms = -6) | Net Ion Charge = -2</div>
-                        <div className="p-2 bg-slate-950 rounded border border-cyan-800 font-mono text-cyan-200">
+                        <div className="p-2 bg-slate-950 rounded border border-gold-800 font-mono text-gold-200">
                           2(x) + 3(-2) = -2  ⇒  2x = +4  ⇒  <span className="text-emerald-400 font-bold">Average S = +2</span>
                         </div>
                       </>
@@ -982,7 +982,7 @@ export default function C11_ChemistrySolubilityproductSim({
                       { step: '5. Combine', text: 'Equalize e⁻ transfer and add halves.' },
                     ].map((s, idx) => (
                       <div key={idx} className="p-2 bg-slate-900 border border-slate-800 rounded-lg">
-                        <div className="font-bold text-cyan-400">{s.step}</div>
+                        <div className="font-bold text-gold-400">{s.step}</div>
                         <div className="text-[11px] text-slate-400 mt-1">{s.text}</div>
                       </div>
                     ))}
@@ -1020,7 +1020,7 @@ export default function C11_ChemistrySolubilityproductSim({
                   <h3 className="text-sm font-bold text-slate-300">Organic Classification Hierarchy</h3>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-left">
                     <div className="p-2 bg-slate-900 border border-slate-800 rounded">
-                      <div className="font-bold text-cyan-300">Acyclic (Open-Chain)</div>
+                      <div className="font-bold text-gold-300">Acyclic (Open-Chain)</div>
                       <div className="text-[10px] text-slate-400">Hexane, Isobutane</div>
                     </div>
                     <div className="p-2 bg-slate-900 border border-slate-800 rounded">
@@ -1049,7 +1049,7 @@ export default function C11_ChemistrySolubilityproductSim({
                       <select
                         value={iupacChainLength}
                         onChange={(e) => setIupacChainLength(parseInt(e.target.value))}
-                        className="bg-slate-900 text-cyan-300 border border-slate-700 rounded px-2 py-1 text-xs"
+                        className="bg-slate-900 text-gold-300 border border-slate-700 rounded px-2 py-1 text-xs"
                       >
                         <option value={3}>3 Carbon (Prop-)</option>
                         <option value={4}>4 Carbon (But-)</option>
@@ -1061,7 +1061,7 @@ export default function C11_ChemistrySolubilityproductSim({
                       <select
                         value={iupacFunctionalGroup}
                         onChange={(e) => setIupacFunctionalGroup(e.target.value as any)}
-                        className="bg-slate-900 text-cyan-300 border border-slate-700 rounded px-2 py-1 text-xs"
+                        className="bg-slate-900 text-gold-300 border border-slate-700 rounded px-2 py-1 text-xs"
                       >
                         <option value="ol">Alcohol (-ol)</option>
                         <option value="oic_acid">Carboxylic Acid (-oic acid)</option>
@@ -1074,7 +1074,7 @@ export default function C11_ChemistrySolubilityproductSim({
                       <select
                         value={iupacSubstituentPos}
                         onChange={(e) => setIupacSubstituentPos(parseInt(e.target.value))}
-                        className="bg-slate-900 text-cyan-300 border border-slate-700 rounded px-2 py-1 text-xs"
+                        className="bg-slate-900 text-gold-300 border border-slate-700 rounded px-2 py-1 text-xs"
                       >
                         <option value={1}>C-1</option>
                         <option value={2}>C-2</option>
@@ -1083,7 +1083,7 @@ export default function C11_ChemistrySolubilityproductSim({
                     </div>
                   </div>
 
-                  <div className="p-3 bg-slate-900 rounded-xl border border-cyan-800 text-center">
+                  <div className="p-3 bg-slate-900 rounded-xl border border-gold-800 text-center">
                     <span className="text-xs text-slate-400">Generated Systematic IUPAC Name: </span>
                     <span className="font-mono font-bold text-base text-amber-300">{calculatedIupacName}</span>
                   </div>
@@ -1095,8 +1095,8 @@ export default function C11_ChemistrySolubilityproductSim({
                 <div className="w-full space-y-3 text-center text-xs">
                   <h3 className="text-sm font-bold text-slate-300">Functional Group Isomers of C₂H₆O</h3>
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="p-3 bg-slate-900 border border-cyan-800 rounded-xl">
-                      <div className="font-bold text-cyan-300">Ethanol (Alcohol)</div>
+                    <div className="p-3 bg-slate-900 border border-gold-800 rounded-xl">
+                      <div className="font-bold text-gold-300">Ethanol (Alcohol)</div>
                       <div className="font-mono text-slate-300 mt-1">CH₃–CH₂–OH</div>
                       <div className="text-[10px] text-emerald-400 mt-2">Reacts with Na metal to release H₂ gas</div>
                     </div>
@@ -1122,7 +1122,7 @@ export default function C11_ChemistrySolubilityproductSim({
                           audioManager.play('pop');
                         }}
                         className={`px-3 py-1 rounded font-bold uppercase text-[10px] ${
-                          activeIsomer === iso ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300'
+                          activeIsomer === iso ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         {iso}-Form
@@ -1190,7 +1190,7 @@ export default function C11_ChemistrySolubilityproductSim({
                           audioManager.play('pop');
                         }}
                         className={`px-3 py-1 rounded font-bold text-xs ${
-                          testElement === el ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300'
+                          testElement === el ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         Test for {el === 'N' ? 'Nitrogen (N)' : el === 'S' ? 'Sulphur (S)' : 'Chlorine (Cl)'}
@@ -1204,7 +1204,7 @@ export default function C11_ChemistrySolubilityproductSim({
                       <div
                         className={`w-full transition-all duration-700 h-[65%] ${
                           testElement === 'N'
-                            ? 'bg-blue-700'
+                            ? 'bg-gold-700'
                             : testElement === 'S'
                             ? 'bg-purple-800'
                             : 'bg-slate-200'
@@ -1214,7 +1214,7 @@ export default function C11_ChemistrySolubilityproductSim({
                     <div className="text-left space-y-1 max-w-xs">
                       {testElement === 'N' && (
                         <>
-                          <div className="font-bold text-blue-400 text-sm">Prussian Blue Test</div>
+                          <div className="font-bold text-gold-400 text-sm">Prussian Blue Test</div>
                           <div>Reagent: FeSO₄ + dil. H₂SO₄</div>
                           <div>Formula: Fe₄[Fe(CN)₆]₃</div>
                           <div className="text-[10px] text-slate-400">Deep Prussian blue precipitate confirms Nitrogen.</div>
@@ -1253,7 +1253,7 @@ export default function C11_ChemistrySolubilityproductSim({
             <span className="text-slate-300 font-bold">
               Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
             </span>
-            <span className="text-cyan-400 font-mono">Node: {challenge.nodeId}</span>
+            <span className="text-gold-400 font-mono">Node: {challenge.nodeId}</span>
             <span className="text-amber-400 font-bold uppercase">Difficulty: {challenge.difficulty}</span>
           </div>
 
@@ -1267,7 +1267,7 @@ export default function C11_ChemistrySolubilityproductSim({
               {challenge.options.map((opt) => {
                 let btnStyle = 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-slate-500';
                 if (selectedOptionId === opt.id) {
-                  btnStyle = 'border-cyan-400 bg-cyan-950 text-cyan-200';
+                  btnStyle = 'border-gold-400 bg-gold-950 text-gold-200';
                 }
                 if (isAnswerSubmitted) {
                   if (opt.isCorrect) {
@@ -1304,7 +1304,7 @@ export default function C11_ChemistrySolubilityproductSim({
                 <button
                   disabled={!selectedOptionId}
                   onClick={handleSubmitAnswer}
-                  className="w-full md:w-auto px-6 py-2.5 bg-cyan-500 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-sm hover:bg-cyan-400 transition-all shadow-md"
+                  className="w-full md:w-auto px-6 py-2.5 bg-gold-500 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-sm hover:bg-gold-400 transition-all shadow-md"
                 >
                   Submit Answer
                 </button>
@@ -1357,7 +1357,7 @@ export default function C11_ChemistrySolubilityproductSim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 space-y-2">
-                <div className="font-bold text-cyan-300 text-sm">🌾 Go-Bar Biogas & Sugarcane Chemistry</div>
+                <div className="font-bold text-gold-300 text-sm">🌾 Go-Bar Biogas & Sugarcane Chemistry</div>
                 <p className="text-xs text-slate-300 leading-relaxed">
                   Rural Indian biogas (go-bar gas) plants harvest Methane (CH₄). Simultaneously, the sugarcane belts of Uttar Pradesh & Maharashtra ferment sucrose molasses into ethanol (C₂H₅OH), exemplifying industrial aliphatic organic chemistry.
                 </p>
@@ -1378,14 +1378,14 @@ export default function C11_ChemistrySolubilityproductSim({
               </div>
             </div>
 
-            <div className="p-4 bg-slate-950 rounded-xl border border-cyan-800 text-xs text-cyan-200 flex items-center justify-between">
+            <div className="p-4 bg-slate-950 rounded-xl border border-gold-800 text-xs text-gold-200 flex items-center justify-between">
               <span>Ready to test your complete Class 11 knowledge in the Adaptive Quiz?</span>
               <button
                 onClick={() => {
                   setActiveTab('challenges');
                   audioManager.play('swoop');
                 }}
-                className="px-4 py-2 bg-cyan-400 text-slate-950 font-bold rounded-lg hover:bg-cyan-300 transition-all"
+                className="px-4 py-2 bg-gold-400 text-slate-950 font-bold rounded-lg hover:bg-gold-300 transition-all"
               >
                 Start Adaptive Challenges
               </button>

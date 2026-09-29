@@ -112,7 +112,7 @@ function TopicPanel({ node, masteryPct, onClose }: { node: GNode; masteryPct: nu
                 <X className="w-4 h-4" />
             </button>
 
-            <p className="text-[10px] font-black uppercase tracking-widest text-sky-300/90 pr-8">{metaLine}</p>
+            <p className="text-[10px] font-black uppercase tracking-widest text-gold-300/90 pr-8">{metaLine}</p>
 
             {status === 'loading' ? (
                 <div className="h-7 w-3/4 mt-1 rounded-lg bg-slate-700/60 animate-pulse" aria-label="Loading title" />
@@ -136,7 +136,7 @@ function TopicPanel({ node, masteryPct, onClose }: { node: GNode; masteryPct: nu
                             <span>In progress</span><span className="text-slate-200">{masteryPct}%</span>
                         </div>
                         <div className="h-1.5 rounded-full bg-slate-700 mt-1 overflow-hidden">
-                            <div className="h-full rounded-full bg-gradient-to-r from-sky-400 to-amber-400" style={{ width: `${masteryPct}%` }} />
+                            <div className="h-full rounded-full bg-gradient-to-r from-gold-400 to-amber-400" style={{ width: `${masteryPct}%` }} />
                         </div>
                     </>
                 ) : (

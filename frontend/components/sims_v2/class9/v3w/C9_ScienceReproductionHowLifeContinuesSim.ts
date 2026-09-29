@@ -11,7 +11,7 @@ export const w_c9_sciencereproductionhowlifecontinuessim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Pregnancy and Embryonic Development',
     chapters: [],
     nodeIds: ['c9_bio_ch3_10', 'c9_bio_ch3_4', 'c9_bio_ch3_8', 'c9_bio_ch3_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a pregnant woman in your neighborhood visiting the clinic for her monthly check-up — the doctor.', goal: 'Master Pregnancy and Embryonic Development.' },
     discovery: {
         question: 'A student claims: "The embryo receives oxygen and nutrients directly from the mother\'s blood because their blood mixes in the placenta." Evaluate this.',
@@ -20,7 +20,7 @@ export const w_c9_sciencereproductionhowlifecontinuessim: SimDef = {
         hook: 'Students believe the embryo "breathes" and "eats" like a newborn — i.e., that the fetus uses its lungs for gas exchange.',
     },
     teaching: [
-        { title: 'Pregnancy is the physiological state in a.', text: 'Pregnancy is the physiological state in a female mammal beginning from the implantation of a blastocyst in the uterine wall and continuing through embryonic and fetal development until parturition,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Pregnancy is the physiological state in a.', text: 'Pregnancy is the physiological state in a female mammal beginning from the implantation of a blastocyst in the uterine wall and continuing through embryonic and fetal development until parturition,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_bio_ch3_10', title: 'Pregnancy is the physiological state in.',

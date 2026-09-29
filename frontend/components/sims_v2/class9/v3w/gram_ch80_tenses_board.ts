@@ -9,7 +9,7 @@ export const c9_gram_ch80: SimDef = {
     classLevel: 9, subject: 'english-grammar', topic: 'Tenses through markers and editing',
     chapters: ['c9_gram_ch80'],
     nodeIds: ['c9_gram_cbse_80_001', 'c9_gram_cbse_80_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-900 to-indigo-950', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-900 to-gold-950', accent: 'indigo', scene: 'senior' },
 
     scenario: {
         role: 'an examiner\'s adversary — you find the marker they hid before they find your error',
@@ -28,8 +28,8 @@ export const c9_gram_ch80: SimDef = {
         hook: 'The Hindi version "main 2019 se yahan hoon" feels like present — English says the since-marker overrides that instinct.',
     },
     teaching: [
-        { title: 'Markers → cells', text: 'since/for → perfect family; while → continuous background; before/by the time → past perfect on the earlier event.', emoji: '🗺️', bgColor: 'from-indigo-500 to-violet-600' },
-        { title: 'The four sins', text: 'Wrong form for the marker, double past ("didn\'t went"), missing auxiliary ("she reading"), tense drift mid-sentence.', emoji: '🚨', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'Markers → cells', text: 'since/for → perfect family; while → continuous background; before/by the time → past perfect on the earlier event.', emoji: '🗺️', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'The four sins', text: 'Wrong form for the marker, double past ("didn\'t went"), missing auxiliary ("she reading"), tense drift mid-sentence.', emoji: '🚨', bgColor: 'from-gold-500 to-purple-600' },
     ],
 
     beats: [

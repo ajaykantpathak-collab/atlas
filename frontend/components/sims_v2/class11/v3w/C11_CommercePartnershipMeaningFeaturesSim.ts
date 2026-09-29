@@ -11,7 +11,7 @@ export const w_c11_commercepartnershipmeaningfeaturessim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Partnership: Meaning, Features and Types',
     chapters: [],
     nodeIds: ['c11_bs_cbse_02_003', 'c11_bs_cbse_03_001', 'c11_bs_cbse_03_007', 'c11_bs_cbse_02_002', 'c11_bs_cbse_02_008', 'c11_bs_cbse_02_011', 'c11_bs_cbse_02_004', 'c11_bs_cbse_02_005', 'c11_bs_cbse_02_006', 'c11_bs_cbse_02_010', 'c11_bs_cbse_03_005', 'c11_bs_cbse_08_001', 'c11_bs_cbse_08_006', 'c11_bs_cbse_10_003', 'c11_bs_cbse_05_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine two friends, Priya and Rohan, want to start a bakery together.', goal: 'Master Partnership: Meaning, Features and Types.' },
     discovery: {
         question: 'Two classmates, Aisha and Vikram, agree to buy and sell used textbooks online. They split profits equally but have no written agreement.',
@@ -20,7 +20,7 @@ export const w_c11_commercepartnershipmeaningfeaturessim: SimDef = {
         hook: 'Students often believe "registration creates a partnership." They think an unregistered firm is not a partnership.',
     },
     teaching: [
-        { title: 'Partnership is a form of business.', text: 'Partnership is a form of business organisation defined under the Indian Partnership Act, 1932 as the relation between two or more persons who have agreed to share the profits of a lawful business.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Partnership is a form of business.', text: 'Partnership is a form of business organisation defined under the Indian Partnership Act, 1932 as the relation between two or more persons who have agreed to share the profits of a lawful business.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_02_003', title: 'Partnership is a form of business.',

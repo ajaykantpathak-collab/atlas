@@ -1097,7 +1097,7 @@ function C11_HistoryEventsFrom1932Sim({
     <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl shadow-2xl border border-slate-800 relative overflow-hidden font-sans">
       {/* Background Ambience */}
       <div className="absolute -top-32 -right-32 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header bar */}
       <motion.header
@@ -1412,8 +1412,8 @@ function C11_HistoryEventsFrom1932Sim({
                         <span className="flex items-center gap-1 text-red-400">
                           <span className="w-2.5 h-2.5 rounded-full bg-red-600 inline-block" /> Nazis ({cabinetNaziCount})
                         </span>
-                        <span className="flex items-center gap-1 text-blue-400">
-                          <span className="w-2.5 h-2.5 rounded-full bg-blue-700 inline-block" /> Conservatives ({12 - cabinetNaziCount})
+                        <span className="flex items-center gap-1 text-gold-400">
+                          <span className="w-2.5 h-2.5 rounded-full bg-gold-700 inline-block" /> Conservatives ({12 - cabinetNaziCount})
                         </span>
                       </div>
                     </div>
@@ -2231,7 +2231,7 @@ function C11_HistoryEventsFrom1932Sim({
                 : errors <= 3
                 ? 'bg-amber-950/60 border-amber-600 text-amber-300'
                 : errors <= 7
-                ? 'bg-blue-950/60 border-blue-600 text-blue-300'
+                ? 'bg-gold-950/60 border-gold-600 text-gold-300'
                 : 'bg-rose-950/60 border-rose-600 text-rose-300'
             }`}
           >

@@ -129,7 +129,9 @@ const SUBJECTS: SubjectOption[] = [
   { key: 'biology', name: 'Biology' },
   { key: 'history', name: 'History' },
   { key: 'geography', name: 'Geography' },
-  { key: 'economics', name: 'Economics' },
+  // GRADE-01: Economics isn't a standalone NCERT subject until Class 9 —
+  // gating it at c9 prevents c6 kids drawing senior econ questions.
+  { key: 'economics', name: 'Economics', minClass: 9 },
   { key: 'grammar', name: 'Grammar' },
   // TESTCOV: senior-stream subjects with real chapter-test banks
   // (classes 11-12). Chips only render for those classes so a junior

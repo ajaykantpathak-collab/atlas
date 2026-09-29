@@ -50,7 +50,7 @@ const TEACHING_SLIDES = [
         title: 'Animal Habitats - Where They Live 🌿',
         text: 'A habitat is an animal home! Fish swim in water, land animals walk on the ground (cows, elephants), and birds fly high in the air!',
         emoji: '🌊',
-        bgColor: 'from-cyan-400 to-blue-500',
+        bgColor: 'from-gold-400 to-gold-500',
         spoken: 'A habitat is an animal home! Fish swim in water, land animals walk on the ground, and birds fly high in the air!',
     },
     {
@@ -71,7 +71,7 @@ const TEACHING_SLIDES = [
         title: 'Ready for Zookeeper Duty? ⭐',
         text: 'Now you are ready to be an animal expert! Help Zookeeper Zoya sort animals, match habitats, name body parts, and show kindness!',
         emoji: '⭐',
-        bgColor: 'from-purple-400 to-indigo-500',
+        bgColor: 'from-purple-400 to-gold-500',
         spoken: 'Now you are ready to be an animal expert! Help Zookeeper Zoya sort animals, match habitats, and show kindness!',
     },
 ];
@@ -484,7 +484,7 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-sky-200`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-gold-200`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(id, 48)}
         <span className="text-xs font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>

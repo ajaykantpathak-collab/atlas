@@ -896,7 +896,7 @@ const StereoIsomerDiagram: React.FC<{
 }> = ({ isomerType, selectedVariant }) => {
   return (
     <div className="w-full bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-      <div className="text-xs font-semibold text-cyan-400 mb-2 uppercase tracking-wide">
+      <div className="text-xs font-semibold text-gold-400 mb-2 uppercase tracking-wide">
         3D Structural Isomer Spatial Orientation ({selectedVariant})
       </div>
 
@@ -1116,7 +1116,7 @@ const ColorAbsorptionWheelCanvas: React.FC<{
       </div>
       <canvas ref={canvasRef} width="300" height="180" className="rounded-lg shadow-inner" />
       <div className="mt-2 text-xs text-slate-300 flex items-center gap-3">
-        <div>Absorbed λ: <span className="font-mono text-cyan-300 font-bold">{absorbedWavelength} nm</span></div>
+        <div>Absorbed λ: <span className="font-mono text-gold-300 font-bold">{absorbedWavelength} nm</span></div>
         <div>Perceived Solution Color: <span className="font-bold" style={{ color: complexHex }}>{complexColorName}</span></div>
       </div>
     </div>
@@ -1345,7 +1345,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
       {/* TOP HEADER BAR */}
       <header className="w-full bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between shadow-lg">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-white text-xl shadow-md">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-white text-xl shadow-md">
             ⚛️
           </div>
           <div>
@@ -1362,7 +1362,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
         <div className="flex items-center space-x-6 mt-3 sm:mt-0">
           <div className="text-right">
             <div className="text-xs text-slate-400">Lab Score</div>
-            <div className="text-lg font-mono font-bold text-cyan-400">{score} pts</div>
+            <div className="text-lg font-mono font-bold text-gold-400">{score} pts</div>
           </div>
           <div className="text-right">
             <div className="text-xs text-slate-400">Challenge Progress</div>
@@ -1379,7 +1379,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
           onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
             activeTab === 'discovery'
-              ? 'bg-cyan-600 text-white shadow-md'
+              ? 'bg-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1390,7 +1390,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
             activeTab === 'lab'
-              ? 'bg-cyan-600 text-white shadow-md'
+              ? 'bg-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1401,7 +1401,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
           onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-md'
+              ? 'bg-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1412,7 +1412,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
           onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
             activeTab === 'summary'
-              ? 'bg-cyan-600 text-white shadow-md'
+              ? 'bg-gold-600 text-white shadow-md'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
           }`}
         >
@@ -1432,11 +1432,11 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
               <div className="flex items-center space-x-3 mb-3">
                 <span className="text-2xl">🏛️</span>
-                <h2 className="text-xl font-bold text-cyan-400">{SCENARIO.title}</h2>
+                <h2 className="text-xl font-bold text-gold-400">{SCENARIO.title}</h2>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-400 leading-relaxed">
-                <span className="font-semibold text-cyan-300">Context: </span>
+                <span className="font-semibold text-gold-300">Context: </span>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1461,7 +1461,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     onClick={() => setSelectedDiscoveryOpt(idx)}
                     className={`w-full text-left p-4 rounded-xl border transition-all text-sm ${
                       selectedDiscoveryOpt === idx
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1477,7 +1477,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     setDiscoverySubmitted(true);
                     audioManager.play(selectedDiscoveryOpt === DISCOVERY_QUESTION.correctIndex ? 'success' : 'error');
                   }}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl disabled:opacity-50 shadow-md transition-all"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-semibold rounded-xl disabled:opacity-50 shadow-md transition-all"
                 >
                   Confirm Answer
                 </button>
@@ -1550,7 +1550,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                   onClick={() => { setActiveLabIndex(idx); audioManager.play('tap'); }}
                   className={`p-3 rounded-xl border text-left transition-all flex flex-col justify-between ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-950 border-cyan-500 text-cyan-200 shadow-md'
+                      ? 'bg-gold-950 border-gold-500 text-gold-200 shadow-md'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
@@ -1562,7 +1562,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
 
             {/* Current Lab Step Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-lg">
-              <h2 className="text-lg font-bold text-cyan-400 mb-1">
+              <h2 className="text-lg font-bold text-gold-400 mb-1">
                 {EXPLORATION_STEPS[activeLabIndex].title}
               </h2>
               <p className="text-xs text-slate-300 leading-relaxed">
@@ -1584,7 +1584,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         onClick={() => { setSelectedWernerSalt(type); setAgNo3Added(false); audioManager.play('tap'); }}
                         className={`p-3 rounded-xl border font-mono text-xs font-semibold transition-all ${
                           selectedWernerSalt === type
-                            ? 'bg-cyan-900/60 border-cyan-500 text-cyan-200'
+                            ? 'bg-gold-900/60 border-gold-500 text-gold-200'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1611,8 +1611,8 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <div className="text-emerald-400 font-bold">Precipitation Results:</div>
                       <div>Deductions for 1 mole of {wernerData.formula}:</div>
                       <ul className="list-disc list-inside text-slate-300 space-y-1">
-                        <li>Ionizable Cl⁻ (Primary Valency): <span className="font-mono text-cyan-300 font-bold">{wernerData.outerCl}</span></li>
-                        <li>Non-ionizable Ligands (Secondary Valency): <span className="font-mono text-cyan-300 font-bold">6</span></li>
+                        <li>Ionizable Cl⁻ (Primary Valency): <span className="font-mono text-gold-300 font-bold">{wernerData.outerCl}</span></li>
+                        <li>Non-ionizable Ligands (Secondary Valency): <span className="font-mono text-gold-300 font-bold">6</span></li>
                         <li>AgCl Precipitate Formed: <span className="font-mono text-amber-400 font-bold">{wernerData.agClMoles} moles</span></li>
                       </ul>
                     </div>
@@ -1636,7 +1636,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     )}
                   </svg>
                   <div className="mt-2 text-xs font-bold text-slate-300">
-                    Formula: <span className="font-mono text-cyan-400">{wernerData.formula}</span>
+                    Formula: <span className="font-mono text-gold-400">{wernerData.formula}</span>
                   </div>
                 </div>
               </div>
@@ -1688,9 +1688,9 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         max="6"
                         value={ligandACount}
                         onChange={e => setLigandACount(parseInt(e.target.value))}
-                        className="w-full accent-cyan-500 mt-2"
+                        className="w-full accent-gold-500 mt-2"
                       />
-                      <span className="text-xs text-cyan-400 font-mono font-bold">{ligandACount}</span>
+                      <span className="text-xs text-gold-400 font-mono font-bold">{ligandACount}</span>
                     </div>
                   </div>
                 </div>
@@ -1700,13 +1700,13 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     <h3 className="text-xs font-bold text-emerald-400 uppercase tracking-wide mb-3">
                       Dynamically Generated IUPAC Name
                     </h3>
-                    <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-sm font-bold text-cyan-300">
+                    <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-sm font-bold text-gold-300">
                       [{metalIon.substring(0, 2)}({ligandA}){ligandACount}]
                     </div>
                   </div>
 
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2">
-                    <div>Coordination Number: <span className="font-mono text-cyan-400 font-bold">{ligandACount}</span></div>
+                    <div>Coordination Number: <span className="font-mono text-gold-400 font-bold">{ligandACount}</span></div>
                     <div>Geometry: <span className="font-bold text-amber-400">{ligandACount === 6 ? 'Octahedral' : 'Square Planar / Tetrahedral'}</span></div>
                   </div>
                 </div>
@@ -1728,7 +1728,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         onClick={() => { setIsomerType(type); audioManager.play('tap'); }}
                         className={`flex-1 py-2 rounded-xl border text-xs font-semibold capitalize transition-all ${
                           isomerType === type
-                            ? 'bg-cyan-900 border-cyan-500 text-cyan-200'
+                            ? 'bg-gold-900 border-gold-500 text-gold-200'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1742,13 +1742,13 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <>
                         <button
                           onClick={() => setSelectedVariant('cis-Pt(NH3)2Cl2')}
-                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500"
+                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500"
                         >
                           cis-diamminedichloroplatinum(II) [Anticancer Active]
                         </button>
                         <button
                           onClick={() => setSelectedVariant('trans-Pt(NH3)2Cl2')}
-                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500"
+                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500"
                         >
                           trans-diamminedichloroplatinum(II) [Inactive]
                         </button>
@@ -1759,13 +1759,13 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <>
                         <button
                           onClick={() => setSelectedVariant('fac-[Co(NH3)3(NO2)3]')}
-                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500"
+                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500"
                         >
                           fac-[Co(NH3)3(NO2)3] (Facial - Octahedral face)
                         </button>
                         <button
                           onClick={() => setSelectedVariant('mer-[Co(NH3)3(NO2)3]')}
-                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500"
+                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500"
                         >
                           mer-[Co(NH3)3(NO2)3] (Meridional - Plane boundary)
                         </button>
@@ -1776,13 +1776,13 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <>
                         <button
                           onClick={() => setSelectedVariant('dextro-[Co(en)3]3+')}
-                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500"
+                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500"
                         >
                           dextro (+)-[Co(en)3]3+ (Right plane rotation)
                         </button>
                         <button
                           onClick={() => setSelectedVariant('laevo-[Co(en)3]3+')}
-                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500"
+                          className="w-full p-3 rounded-xl border text-xs text-left bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500"
                         >
                           laevo (-)-[Co(en)3]3+ (Left plane rotation)
                         </button>
@@ -1808,7 +1808,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <label className="text-xs text-slate-400 block mb-1">Geometry:</label>
                       <button
                         onClick={() => setCftGeometry(cftGeometry === 'octahedral' ? 'tetrahedral' : 'octahedral')}
-                        className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs font-semibold text-cyan-300"
+                        className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs font-semibold text-gold-300"
                       >
                         {cftGeometry.toUpperCase()}
                       </button>
@@ -1833,9 +1833,9 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       max="10"
                       value={metalDElectrons}
                       onChange={e => setMetalDElectrons(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
-                    <div className="text-xs text-cyan-400 font-mono font-bold mt-1">d^{metalDElectrons} configuration</div>
+                    <div className="text-xs text-gold-400 font-mono font-bold mt-1">d^{metalDElectrons} configuration</div>
                   </div>
 
                   <CFTOrbitalSplittingDiagram
@@ -1894,7 +1894,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
 
             {/* Mandatory Observation Questions Section */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
-              <h3 className="text-md font-bold text-cyan-400 mb-4 uppercase tracking-wide">
+              <h3 className="text-md font-bold text-gold-400 mb-4 uppercase tracking-wide">
                 Post-Lab Observation Check
               </h3>
 
@@ -1939,7 +1939,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             {/* Challenge Header & Difficulty Badge */}
             <div className="flex flex-wrap items-center justify-between border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wide">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                   Challenge #{currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-lg font-bold text-white mt-1">
@@ -1979,7 +1979,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       btnStyle = 'bg-rose-950 border-rose-500 text-rose-200';
                     }
                   } else if (isSelected) {
-                    btnStyle = 'bg-cyan-950 border-cyan-500 text-cyan-200';
+                    btnStyle = 'bg-gold-950 border-gold-500 text-gold-200';
                   }
 
                   return (
@@ -2009,7 +2009,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                   value={numericAnswer}
                   onChange={e => setNumericAnswer(e.target.value)}
                   placeholder="e.g. 28.66 or -0.4"
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-white font-mono text-sm focus:border-cyan-500 focus:outline-none"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-white font-mono text-sm focus:border-gold-500 focus:outline-none"
                 />
               </div>
             )}
@@ -2037,7 +2037,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                 <button
                   disabled={selectedOption === null && numericAnswer === ''}
                   onClick={handleSubmitAnswer}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold rounded-xl disabled:opacity-50 shadow-md transition-all text-sm"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl disabled:opacity-50 shadow-md transition-all text-sm"
                 >
                   Submit Response
                 </button>
@@ -2101,7 +2101,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map(misc => (
                   <div key={misc.id} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-                    <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide">{misc.topic}</div>
+                    <div className="text-xs font-bold text-gold-400 uppercase tracking-wide">{misc.topic}</div>
                     <div className="text-xs text-rose-300 line-through">Myth: {misc.misconception}</div>
                     <div className="text-xs text-emerald-300">Correction: {misc.correction}</div>
                   </div>

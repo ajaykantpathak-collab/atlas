@@ -320,34 +320,34 @@ const BondingVisualizer: React.FC<BondingVisualizerProps> = ({ type, step, onSte
             <div className="flex items-center justify-center relative w-full h-full">
               {/* Oxygen Center */}
               <motion.div
-                className="w-24 h-24 rounded-full border-2 border-cyan-400 bg-cyan-950/60 flex items-center justify-center relative shadow-lg shadow-cyan-500/20"
+                className="w-24 h-24 rounded-full border-2 border-gold-400 bg-gold-950/60 flex items-center justify-center relative shadow-lg shadow-gold-500/20"
                 animate={{ scale: step >= 1 ? 1.05 : 1 }}
               >
-                <span className="text-xs font-bold text-cyan-200">Oxygen (O)</span>
+                <span className="text-xs font-bold text-gold-200">Oxygen (O)</span>
 
                 {/* Hydrogen 1 */}
                 <motion.div
-                  className="w-16 h-16 rounded-full border-2 border-indigo-400 bg-indigo-950/70 absolute flex items-center justify-center"
+                  className="w-16 h-16 rounded-full border-2 border-gold-400 bg-gold-950/70 absolute flex items-center justify-center"
                   style={{ left: -36, top: 20 }}
                   animate={{ x: step >= 1 ? 12 : 0 }}
                 >
-                  <span className="text-[10px] font-bold text-indigo-200">H</span>
+                  <span className="text-[10px] font-bold text-gold-200">H</span>
                   {/* Shared pair highlight */}
                   {step >= 1 && (
-                    <div className="w-3 h-3 rounded-full bg-yellow-300 absolute right-0 top-6 ring-2 ring-indigo-400 shadow-md animate-pulse" />
+                    <div className="w-3 h-3 rounded-full bg-yellow-300 absolute right-0 top-6 ring-2 ring-gold-400 shadow-md animate-pulse" />
                   )}
                 </motion.div>
 
                 {/* Hydrogen 2 */}
                 <motion.div
-                  className="w-16 h-16 rounded-full border-2 border-indigo-400 bg-indigo-950/70 absolute flex items-center justify-center"
+                  className="w-16 h-16 rounded-full border-2 border-gold-400 bg-gold-950/70 absolute flex items-center justify-center"
                   style={{ right: -36, top: 20 }}
                   animate={{ x: step >= 1 ? -12 : 0 }}
                 >
-                  <span className="text-[10px] font-bold text-indigo-200">H</span>
+                  <span className="text-[10px] font-bold text-gold-200">H</span>
                   {/* Shared pair highlight */}
                   {step >= 1 && (
-                    <div className="w-3 h-3 rounded-full bg-yellow-300 absolute left-0 top-6 ring-2 ring-indigo-400 shadow-md animate-pulse" />
+                    <div className="w-3 h-3 rounded-full bg-yellow-300 absolute left-0 top-6 ring-2 ring-gold-400 shadow-md animate-pulse" />
                   )}
                 </motion.div>
               </motion.div>
@@ -363,7 +363,7 @@ const BondingVisualizer: React.FC<BondingVisualizerProps> = ({ type, step, onSte
             onStepChange?.(0);
           }}
           className={`px-3 py-1 rounded text-xs font-semibold ${
-            step === 0 ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+            step === 0 ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
           }`}
         >
           1. Initial Atoms
@@ -374,7 +374,7 @@ const BondingVisualizer: React.FC<BondingVisualizerProps> = ({ type, step, onSte
             onStepChange?.(1);
           }}
           className={`px-3 py-1 rounded text-xs font-semibold ${
-            step === 1 ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+            step === 1 ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
           }`}
         >
           {type === 'ionic' ? '2. Electron Transfer' : '2. Share Electron Pair'}
@@ -385,7 +385,7 @@ const BondingVisualizer: React.FC<BondingVisualizerProps> = ({ type, step, onSte
             onStepChange?.(2);
           }}
           className={`px-3 py-1 rounded text-xs font-semibold ${
-            step === 2 ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+            step === 2 ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
           }`}
         >
           3. Bonded Compound
@@ -898,11 +898,11 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
       {/* TOP BAR / HEADER */}
       <header className="w-full max-w-5xl bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-4 shadow-xl flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-xl font-black text-white shadow-lg shadow-cyan-500/30">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-xl font-black text-white shadow-lg shadow-gold-500/30">
             ⚗️
           </div>
           <div>
-            <h1 className="text-lg font-bold bg-gradient-to-r from-cyan-400 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-lg font-bold bg-gradient-to-r from-gold-400 to-gold-300 bg-clip-text text-transparent">
               ICSE Class 7 Chemistry: Matter & Reactions
             </h1>
             <p className="text-xs text-slate-400">Nodes c7_chem_001 to c7_chem_008</p>
@@ -938,7 +938,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
             activeTab === 'discovery'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
           }`}
         >
@@ -952,7 +952,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
             activeTab === 'slides'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
           }`}
         >
@@ -966,7 +966,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
             activeTab === 'lab'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
           }`}
         >
@@ -980,7 +980,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
           }`}
         >
@@ -994,7 +994,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
             activeTab === 'srs'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
           }`}
         >
@@ -1007,8 +1007,8 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
         {/* TAB 1: DISCOVERY PREDICTOR */}
         {activeTab === 'discovery' && (
           <div className="space-y-6">
-            <div className="bg-gradient-to-r from-blue-950 to-indigo-950 border border-blue-800/50 rounded-xl p-5">
-              <span className="text-xs font-bold tracking-wider text-cyan-400 uppercase">
+            <div className="bg-gradient-to-r from-gold-950 to-gold-950 border border-gold-800/50 rounded-xl p-5">
+              <span className="text-xs font-bold tracking-wider text-gold-400 uppercase">
                 Discovery Scenario
               </span>
               <h2 className="text-xl font-bold text-white mt-1">
@@ -1034,7 +1034,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                   onClick={() => handleDiscoverySubmit(0)}
                   className={`p-4 rounded-xl border text-left text-sm transition-all ${
                     discoveryAnswer === 0
-                      ? 'bg-cyan-950 border-cyan-500 text-cyan-200 ring-2 ring-cyan-500'
+                      ? 'bg-gold-950 border-gold-500 text-gold-200 ring-2 ring-gold-500'
                       : 'bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300'
                   }`}
                 >
@@ -1078,7 +1078,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                     audioManager.play('swoop');
                     setActiveTab('slides');
                   }}
-                  className="mt-4 px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg text-xs font-bold transition-all shadow-md"
+                  className="mt-4 px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold transition-all shadow-md"
                 >
                   Proceed to Visual Lessons →
                 </button>
@@ -1093,7 +1093,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
             {/* Slide Header */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-mono px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
+                <span className="text-xs font-mono px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                   {TEACHING_SLIDES[currentSlideIndex].badgeText}
                 </span>
                 <h2 className="text-lg font-bold text-white mt-1">
@@ -1124,7 +1124,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                     audioManager.play('pop');
                     setCurrentSlideIndex((prev) => prev + 1);
                   }}
-                  className="px-3 py-1.5 rounded-lg bg-cyan-600 text-white text-xs font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-cyan-500 shadow-md"
+                  className="px-3 py-1.5 rounded-lg bg-gold-600 text-white text-xs font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gold-500 shadow-md"
                 >
                   Next →
                 </button>
@@ -1147,9 +1147,9 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                         max="100"
                         value={simTemp}
                         onChange={(e) => setSimTemp(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
-                      <span className="text-xs font-bold text-cyan-400 uppercase min-w-[50px]">
+                      <span className="text-xs font-bold text-gold-400 uppercase min-w-[50px]">
                         {simStateMode}
                       </span>
                     </div>
@@ -1175,7 +1175,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                         ? '⚡'
                         : '🥛'}
                     </div>
-                    <p className="text-xs text-cyan-300 font-semibold text-center">
+                    <p className="text-xs text-gold-300 font-semibold text-center">
                       Interactive Chemistry Visual Model
                     </p>
                     <div className="text-[11px] text-slate-400 text-center mt-2 max-w-xs">
@@ -1194,18 +1194,18 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                   <ul className="space-y-2">
                     {TEACHING_SLIDES[currentSlideIndex].content.map((point, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-xs text-slate-300 leading-relaxed">
-                        <span className="text-cyan-400 mt-0.5">•</span>
+                        <span className="text-gold-400 mt-0.5">•</span>
                         <span>{point}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                <div className="bg-indigo-950/40 border border-indigo-800/60 p-3 rounded-xl">
-                  <span className="text-[11px] font-bold text-indigo-300 uppercase block mb-1">
+                <div className="bg-gold-950/40 border border-gold-800/60 p-3 rounded-xl">
+                  <span className="text-[11px] font-bold text-gold-300 uppercase block mb-1">
                     💡 ELI5 Analogy
                   </span>
-                  <p className="text-xs text-indigo-200 leading-relaxed">
+                  <p className="text-xs text-gold-200 leading-relaxed">
                     {TEACHING_SLIDES[currentSlideIndex].eli5}
                   </p>
                 </div>
@@ -1232,7 +1232,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                     setBondingStep(0);
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                    bondingType === 'ionic' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                    bondingType === 'ionic' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   Ionic Lab
@@ -1244,7 +1244,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                     setBondingStep(0);
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                    bondingType === 'covalent' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                    bondingType === 'covalent' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   Covalent Lab
@@ -1255,7 +1255,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Kinetic Matter Chamber */}
               <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
-                <h3 className="text-xs font-bold text-cyan-400 uppercase">
+                <h3 className="text-xs font-bold text-gold-400 uppercase">
                   1. Thermal Kinetic Engine
                 </h3>
                 <KineticMatterCanvas temperature={simTemp} stateMode={simStateMode} />
@@ -1271,7 +1271,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                     max="100"
                     value={simTemp}
                     onChange={(e) => setSimTemp(Number(e.target.value))}
-                    className="w-full accent-cyan-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
               </div>
@@ -1297,7 +1297,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
             {/* Challenge Stepper Header */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-mono text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-wider">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-lg font-bold text-white mt-0.5">
@@ -1316,7 +1316,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                 <button
                   disabled={currentChallengeIndex === CHALLENGES.length - 1}
                   onClick={nextChallenge}
-                  className="px-3 py-1.5 rounded-lg bg-cyan-600 text-white text-xs font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-cyan-500"
+                  className="px-3 py-1.5 rounded-lg bg-gold-600 text-white text-xs font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gold-500"
                 >
                   Next →
                 </button>
@@ -1346,7 +1346,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                       }}
                       className={`p-3.5 rounded-xl border text-left text-xs font-semibold transition-all flex items-center justify-between ${
                         selectedMcqOption === idx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200 ring-2 ring-cyan-500/40'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200 ring-2 ring-gold-500/40'
                           : 'bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300'
                       }`}
                     >
@@ -1368,7 +1368,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                         key={cIdx}
                         className="bg-slate-950 border border-slate-800 rounded-xl p-3 min-h-[140px]"
                       >
-                        <h4 className="text-xs font-bold text-cyan-400 border-b border-slate-800 pb-2 mb-2">
+                        <h4 className="text-xs font-bold text-gold-400 border-b border-slate-800 pb-2 mb-2">
                           {cat}
                         </h4>
                         <div className="space-y-2">
@@ -1421,7 +1421,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                                     [item.name]: cat,
                                   }));
                                 }}
-                                className="bg-slate-800 hover:bg-cyan-700 text-slate-300 hover:text-white px-2 py-0.5 rounded text-[10px] font-bold"
+                                className="bg-slate-800 hover:bg-gold-700 text-slate-300 hover:text-white px-2 py-0.5 rounded text-[10px] font-bold"
                               >
                                 {catIdx === 0 ? 'Reversible' : 'Irreversible'}
                               </button>
@@ -1444,7 +1444,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
 
                 <button
                   onClick={handleChallengeSubmit}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30 transition-all"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30 transition-all"
                 >
                   Submit Answer ✓
                 </button>
@@ -1501,7 +1501,7 @@ export default function C7_ChemistryMatterclassificationrevisitedSim({
                     className="bg-slate-950 border border-slate-800 rounded-xl p-3 flex flex-col justify-between space-y-2"
                   >
                     <div>
-                      <span className="text-[10px] font-mono text-cyan-400 bg-cyan-950/60 px-1.5 py-0.5 rounded border border-cyan-800/50">
+                      <span className="text-[10px] font-mono text-gold-400 bg-gold-950/60 px-1.5 py-0.5 rounded border border-gold-800/50">
                         {nodeId}
                       </span>
                       <h4 className="text-xs font-bold text-slate-200 mt-1.5 line-clamp-2">

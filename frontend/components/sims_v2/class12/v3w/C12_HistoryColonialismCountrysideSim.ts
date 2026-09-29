@@ -11,7 +11,7 @@ export const w_c12_historycolonialismcountrysidesim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive',
     chapters: [],
     nodeIds: ['c12_hist_cbse_10_007', 'c12_hist_cbse_10_008', 'c12_hist_cbse_11_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine standing on the Delhi Ridge in July 1857: a small British force, decimated by cholera and heat,.', goal: 'Master British Repression: The Relief of Delhi, Lucknow and the Counter-Offensive.' },
     discovery: {
         question: 'Why did the British choose a two-pronged attack on Delhi (from Punjab and Calcutta) rather than a single advance, and what does this reveal about their.',
@@ -20,7 +20,7 @@ export const w_c12_historycolonialismcountrysidesim: SimDef = {
         hook: 'Students often think British repression was purely military — "they had better guns and won." In reality, the British.',
     },
     teaching: [
-        { title: 'British repression of the 1857 revolt refers.', text: 'British repression of the 1857 revolt refers to the coordinated military, legal, and psychological campaign launched by the East India Company from June 1857 to March 1858 to reconquer Delhi,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'British repression of the 1857 revolt refers.', text: 'British repression of the 1857 revolt refers to the coordinated military, legal, and psychological campaign launched by the East India Company from June 1857 to March 1858 to reconquer Delhi,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_10_007', title: 'British repression of the 1857 revolt.',

@@ -11,7 +11,7 @@ export const w_c12_sociologyintroducingindiansocietysim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'The Significance of a Sociology of India: Why Study Indian Society',
     chapters: [],
     nodeIds: ['c12_soc_cbse_01_001', 'c12_soc_cbse_01_002', 'c12_soc_cbse_01_004', 'c12_soc_cbse_01_006', 'c12_soc_cbse_01_008', 'c12_soc_cbse_01_009', 'c12_soc_cbse_06_003', 'c12_soc_cbse_13_003', 'c12_soc_cbse_13_009', 'c12_soc_cbse_14_001', 'c12_soc_cbse_14_003', 'c12_soc_cbse_14_004', 'c12_soc_cbse_14_005', 'c12_soc_cbse_14_010', 'c12_soc_cbse_02_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are asked: "Why do we need a whole subject to study Indian society when we live in it every day?".', goal: 'Master The Significance of a Sociology of India: Why Study Indian Society.' },
     discovery: {
         question: 'What was the primary purpose of the British decennial census (starting 1881) in India, and how did it unintentionally become a sociological tool?',
@@ -20,7 +20,7 @@ export const w_c12_sociologyintroducingindiansocietysim: SimDef = {
         hook: 'Students believe Indian sociology simply "applied Western theories to India" — a passive transfer.',
     },
     teaching: [
-        { title: 'The significance of a sociology of India.', text: 'The significance of a sociology of India lies in its systematic, scientific study of Indian society that moves beyond common sense by requiring \'unlearning\' of partial, group-biased knowledge,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The significance of a sociology of India.', text: 'The significance of a sociology of India lies in its systematic, scientific study of Indian society that moves beyond common sense by requiring \'unlearning\' of partial, group-biased knowledge,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_01_001', title: 'The significance of a sociology of.',

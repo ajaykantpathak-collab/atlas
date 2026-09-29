@@ -1307,12 +1307,12 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
         className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/90 backdrop-blur rounded-2xl border border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-800/60 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-800/60 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold">ISC CLASS 12 CALCULUS & SYSTEMS</span>
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold">ISC CLASS 12 CALCULUS & SYSTEMS</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">CISCE 2026</span>
             </div>
             <h1 className="text-lg sm:text-xl font-black text-white tracking-tight">{title}</h1>
@@ -1327,7 +1327,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
             className={`px-3 py-1 rounded-xl text-xs font-bold border ${
               difficulty === 'foundation' ? 'bg-emerald-950/80 border-emerald-700 text-emerald-300' :
               difficulty === 'advanced' ? 'bg-rose-950/80 border-rose-700 text-rose-300' :
-              'bg-blue-950/80 border-blue-700 text-blue-300'
+              'bg-gold-950/80 border-gold-700 text-gold-300'
             }`}
           >
             {difficulty.toUpperCase()} TIER
@@ -1342,8 +1342,8 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚀</span> {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-base leading-relaxed">{SCENARIO.intro}</p>
@@ -1353,7 +1353,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
           {/* MULTI-REPRESENTATION SECTION (Interactive Decision Diagram + Matrix Truth Table) */}
           <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Multi-Representation: Algebraic vs Decision Tree</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Multi-Representation: Algebraic vs Decision Tree</span>
               <span className="text-xs text-slate-400">Martin's Rule Core Conditions</span>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
@@ -1438,7 +1438,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Flight Labs →
                 </motion.button>
@@ -1452,7 +1452,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1">
@@ -1460,7 +1460,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                 <div
                   key={i}
                   className={`h-1.5 rounded-full transition-all ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-3 bg-slate-800'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-3 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1528,7 +1528,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                         </div>
                         <div className="flex justify-between items-center text-sm">
                           <span className="text-slate-300">(adj A)B Product:</span>
-                          <span className="font-mono font-bold text-indigo-300">[{adjA_times_B[0]}, {adjA_times_B[1]}]ᵀ</span>
+                          <span className="font-mono font-bold text-gold-300">[{adjA_times_B[0]}, {adjA_times_B[1]}]ᵀ</span>
                         </div>
                         <div className="pt-2 border-t border-slate-700 flex items-center justify-between">
                           <span className="text-xs text-slate-400">Classification:</span>
@@ -1541,7 +1541,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                     <div className="flex flex-col items-center justify-center p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <canvas ref={canvasRef} width={340} height={240} className="rounded-lg shadow-inner bg-slate-900 border border-slate-800" />
                       <div className="mt-3 flex items-center gap-4 text-xs text-slate-400">
-                        <span className="flex items-center gap-1.5"><span className="w-3 h-3 bg-sky-400 rounded-sm"></span> Line 1: {matrixA11}x + {matrixA12}y = {vectorB1}</span>
+                        <span className="flex items-center gap-1.5"><span className="w-3 h-3 bg-gold-400 rounded-sm"></span> Line 1: {matrixA11}x + {matrixA12}y = {vectorB1}</span>
                         <span className="flex items-center gap-1.5"><span className="w-3 h-3 bg-rose-500 rounded-sm"></span> Line 2: {matrixA21}x + {matrixA22}y = {vectorB2}</span>
                       </div>
                     </div>
@@ -1569,7 +1569,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                       <div className="grid grid-cols-3 gap-2 text-center">
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <div className="text-[11px] text-slate-400">LHL (x→2⁻)</div>
-                          <div className="text-sm font-bold text-sky-400 mt-1">4.00</div>
+                          <div className="text-sm font-bold text-gold-400 mt-1">4.00</div>
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <div className="text-[11px] text-slate-400">RHL (x→2⁺)</div>
@@ -1594,8 +1594,8 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   </div>
 
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 space-y-3">
-                      <p className="text-sm text-indigo-200 font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 space-y-3">
+                      <p className="text-sm text-gold-200 font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
                           <motion.button
@@ -1684,14 +1684,14 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
               {currentSlide === 3 && (
                 <div className="space-y-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center space-y-2">
-                    <span className="text-xs text-indigo-400 font-bold uppercase tracking-widest">Composite Target Function</span>
+                    <span className="text-xs text-gold-400 font-bold uppercase tracking-widest">Composite Target Function</span>
                     <h4 className="text-2xl font-black text-white font-mono">y = sin( (2x + 1)³ )</h4>
                     <p className="text-xs text-slate-400">Click each layer below to differentiate outer-to-inner.</p>
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     {[
-                      { layer: 0, title: '1. Outer Layer', expr: 'sin(u)', deriv: 'cos((2x + 1)³)', color: 'border-sky-500 bg-sky-950/40 text-sky-300' },
+                      { layer: 0, title: '1. Outer Layer', expr: 'sin(u)', deriv: 'cos((2x + 1)³)', color: 'border-gold-500 bg-gold-950/40 text-gold-300' },
                       { layer: 1, title: '2. Middle Layer', expr: 'v³ (Power)', deriv: '3(2x + 1)²', color: 'border-amber-500 bg-amber-950/40 text-amber-300' },
                       { layer: 2, title: '3. Inner Layer', expr: '2x + 1 (Linear)', deriv: '2', color: 'border-rose-500 bg-rose-950/40 text-rose-300' },
                     ].map((item) => (
@@ -1779,7 +1779,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -1823,7 +1823,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-4 border-t border-slate-800">
               <div className="space-y-4">
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <span className="text-xs text-indigo-400 font-bold uppercase">Dynamic 2×2 Matrix Generator</span>
+                  <span className="text-xs text-gold-400 font-bold uppercase">Dynamic 2×2 Matrix Generator</span>
                   <div className="grid grid-cols-2 gap-3">
                     <div>
                       <label className="text-xs text-slate-400" htmlFor="sb-a11">A₁₁: {matrixA11}</label>
@@ -1866,13 +1866,13 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
               <span className="text-slate-400 font-semibold">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-gold-400 font-bold uppercase tracking-wider">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1887,7 +1887,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800 font-semibold uppercase">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-800 font-semibold uppercase">
                 {challenge.nodeId}
               </span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400">
@@ -1944,7 +1944,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3.5 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1979,7 +1979,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Labels
                 </motion.button>
@@ -2025,7 +2025,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Validate Sequence
                 </motion.button>
@@ -2043,7 +2043,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2052,7 +2052,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Submit Answer
                   </motion.button>
@@ -2072,7 +2072,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-mono font-bold text-white shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-mono font-bold text-white shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2097,7 +2097,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Formula
                 </motion.button>
@@ -2158,7 +2158,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
       {/* ─── PHASE 5: COMPLETION, MASTERY SUMMARY & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Mission Certification Complete!</h2>
             <div className="flex justify-center items-center gap-6 text-sm">
@@ -2180,8 +2180,8 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/80 space-y-4 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/80 space-y-4 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider">
               <span>💭</span> Post-Simulation Deep Reflection
             </div>
 
@@ -2195,7 +2195,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g., That |A| = 0 doesn't automatically mean no solution—it can still have infinitely many solutions if (adj A)B = O..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 h-20"
                 />
               </div>
 
@@ -2208,7 +2208,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="e.g., Continuity is drawing a path without lifting the pen; differentiability means it is so smooth there are no sharp jerks..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 h-20"
                 />
               </div>
 
@@ -2221,7 +2221,7 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="e.g., Spacecraft docking maneuvers, automated vehicle steering trajectories, financial rate-of-change modeling..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 h-20"
                 />
               </div>
             </div>
@@ -2259,8 +2259,8 @@ function C12_MathematicsConsistencyInconsistencySystemsSim(props: Props = DEFAUL
           </div>
 
           {/* Real-World Activity */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-3">
-            <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h4>
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-3">
+            <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1 text-xs text-slate-400 list-disc list-inside">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

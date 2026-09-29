@@ -51,7 +51,7 @@ function C6_ScienceTemperatureAndItsMeasurementSim() {
         <button onClick={() => setMode(mode === 'lab' ? 'clinical' : 'lab')} className={'px-4 py-2 rounded-xl text-xs font-black transition-colors ' + (mode === 'lab' ? 'bg-red-600 text-white' : 'bg-pink-500 text-white')}>
           {mode === 'lab' ? 'Laboratory thermometer (-10 to 110)' : 'Clinical thermometer (35 to 42)'}
         </button>
-        <button onClick={() => setUnit(unit === 'C' ? 'F' : 'C')} className="px-4 py-2 rounded-xl text-xs font-black bg-sky-500 text-white hover:bg-sky-600 transition-colors">
+        <button onClick={() => setUnit(unit === 'C' ? 'F' : 'C')} className="px-4 py-2 rounded-xl text-xs font-black bg-gold-500 text-white hover:bg-gold-600 transition-colors">
           Show in &deg;{unit === 'C' ? 'F' : 'C'}
         </button>
         <button onClick={reset} className="px-4 py-2 rounded-xl text-xs font-black bg-slate-800 text-white hover:bg-slate-700 transition-colors">
@@ -115,13 +115,13 @@ function C6_ScienceTemperatureAndItsMeasurementSim() {
             </div>
             <div className="p-2 rounded-xl bg-slate-100 text-center">
               <div className="text-[10px] uppercase tracking-wide text-slate-500 font-bold">Other scale</div>
-              <div className="text-lg font-black text-sky-700">{unit === 'C' ? f + ' \u00B0F' : temp + ' \u00B0C'}</div>
+              <div className="text-lg font-black text-gold-700">{unit === 'C' ? f + ' \u00B0F' : temp + ' \u00B0C'}</div>
             </div>
           </div>
           <div className="p-2 rounded-xl bg-amber-50 border-2 border-amber-200 text-[11px] text-amber-800 font-semibold">
             Same temperature, different heat: the cup (1 glass) and the bucket (10 glasses) are BOTH at {temp}&deg;C -- but the bucket stores 10 times more heat energy.
           </div>
-          <div className="p-2 rounded-xl bg-sky-50 border-2 border-sky-200 text-[11px] text-sky-800 font-semibold">
+          <div className="p-2 rounded-xl bg-gold-50 border-2 border-gold-200 text-[11px] text-gold-800 font-semibold">
             {overRange ? 'Rule: the clinical thermometer only reads fevers, 35 to 42.' : 'Rule: read the thermometer with your eye LEVEL with the liquid top.'}
           </div>
         </div>
@@ -134,9 +134,9 @@ function C6_ScienceTemperatureAndItsMeasurementSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Set the burner so water just boils. Write the reading in both scales -- how do the two numbers compare at 100 and at 37?</li>
           <li>Switch to the clinical thermometer and drag the heat up. At which temperature does it go OVER RANGE, and why can it not be used for a beaker?</li>
         </ol>

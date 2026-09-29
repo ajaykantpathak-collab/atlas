@@ -1290,13 +1290,13 @@ function C12_BiologyLinkageCrossingOverSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span>🏛️ Real-World Research Context</span>
             </div>
-            <h2 className="text-2xl font-black text-indigo-200 mb-3">{SCENARIO.title}</h2>
+            <h2 className="text-2xl font-black text-gold-200 mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <p className="text-slate-400 text-xs mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
+            <p className="text-slate-400 text-xs mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1417,8 +1417,8 @@ function C12_BiologyLinkageCrossingOverSim({
                 <div className="space-y-6">
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800/80 space-y-3">
-                      <p className="text-sm font-bold text-indigo-200">
+                    <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-800/80 space-y-3">
+                      <p className="text-sm font-bold text-gold-200">
                         🔮 {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1428,7 +1428,7 @@ function C12_BiologyLinkageCrossingOverSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 bg-slate-800 text-slate-200 rounded-xl text-xs text-left border border-slate-700 hover:border-indigo-400"
+                            className="p-3 bg-slate-800 text-slate-200 rounded-xl text-xs text-left border border-slate-700 hover:border-gold-400"
                           >
                             {opt}
                           </motion.button>
@@ -1628,7 +1628,7 @@ function C12_BiologyLinkageCrossingOverSim({
                       animate={{ opacity: 1, y: 0 }}
                       className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2"
                     >
-                      <p className="text-xs text-indigo-400 font-bold uppercase">Scientific Observation</p>
+                      <p className="text-xs text-gold-400 font-bold uppercase">Scientific Observation</p>
                       <p className="text-sm text-white font-semibold">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1657,7 +1657,7 @@ function C12_BiologyLinkageCrossingOverSim({
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                     <div className="space-y-1">
-                      <span className="text-xs font-bold text-sky-400">Primary Strand (5’ → 3’):</span>
+                      <span className="text-xs font-bold text-gold-400">Primary Strand (5’ → 3’):</span>
                       <div className="flex gap-2 flex-wrap">
                         {dnaBases.map((base, idx) => (
                           <motion.button
@@ -1673,7 +1673,7 @@ function C12_BiologyLinkageCrossingOverSim({
                                 ? 'bg-amber-950 border-amber-500 text-amber-300'
                                 : base === 'G'
                                 ? 'bg-emerald-950 border-emerald-500 text-emerald-300'
-                                : 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                                : 'bg-gold-950 border-gold-500 text-gold-300'
                             }`}
                           >
                             <span>{base}</span>
@@ -1711,7 +1711,7 @@ function C12_BiologyLinkageCrossingOverSim({
                                 ? 'bg-amber-950/60 border-amber-600 text-amber-300'
                                 : comp === 'G'
                                 ? 'bg-emerald-950/60 border-emerald-600 text-emerald-300'
-                                : 'bg-cyan-950/60 border-cyan-600 text-cyan-300'
+                                : 'bg-gold-950/60 border-gold-600 text-gold-300'
                             }`}
                           >
                             <span>{comp}</span>
@@ -1732,7 +1732,7 @@ function C12_BiologyLinkageCrossingOverSim({
                         G count: <strong className="text-emerald-400">{dnaBases.filter((b) => b === 'G').length * 2}</strong>
                       </div>
                       <div>
-                        C count: <strong className="text-cyan-400">{dnaBases.filter((b) => b === 'C').length * 2}</strong>
+                        C count: <strong className="text-gold-400">{dnaBases.filter((b) => b === 'C').length * 2}</strong>
                       </div>
                     </div>
                   </div>
@@ -1744,7 +1744,7 @@ function C12_BiologyLinkageCrossingOverSim({
                 <div className="space-y-4">
                   <div className="flex justify-between items-center text-xs text-slate-300">
                     <span>Replication Fork Opening: <strong>{forkProgress}% Unzipped</strong></span>
-                    <span className="text-indigo-400">Helicase + DNA Polymerase III Active</span>
+                    <span className="text-gold-400">Helicase + DNA Polymerase III Active</span>
                   </div>
                   <input
                     type="range"
@@ -1756,7 +1756,7 @@ function C12_BiologyLinkageCrossingOverSim({
                       audioManager.play('count');
                     }}
                     aria-label="Adjust replication fork unzipping progress"
-                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-sky-500"
+                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-500"
                   />
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
@@ -1818,8 +1818,8 @@ function C12_BiologyLinkageCrossingOverSim({
               {currentSlide === 3 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800/80 space-y-3">
-                      <p className="text-sm font-bold text-indigo-200">
+                    <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-800/80 space-y-3">
+                      <p className="text-sm font-bold text-gold-200">
                         🔮 {PREDICTION_QUESTIONS[1].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1829,7 +1829,7 @@ function C12_BiologyLinkageCrossingOverSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 bg-slate-800 text-slate-200 rounded-xl text-xs text-left border border-slate-700 hover:border-indigo-400"
+                            className="p-3 bg-slate-800 text-slate-200 rounded-xl text-xs text-left border border-slate-700 hover:border-gold-400"
                           >
                             {opt}
                           </motion.button>
@@ -2112,7 +2112,7 @@ function C12_BiologyLinkageCrossingOverSim({
             </div>
 
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-              <span className="text-xs font-bold text-sky-400 block mb-2">Live Molecular Dynamics Wave:</span>
+              <span className="text-xs font-bold text-gold-400 block mb-2">Live Molecular Dynamics Wave:</span>
               <canvas ref={canvasRef} width={600} height={70} className="w-full h-auto rounded-xl" />
             </div>
 
@@ -2135,7 +2135,7 @@ function C12_BiologyLinkageCrossingOverSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-indigo-300">Lac Operon State:</span>
+                <span className="text-xs font-bold text-gold-300">Lac Operon State:</span>
                 <div className="flex gap-2">
                   <button
                     onClick={handleOperonLactoseToggle}
@@ -2174,13 +2174,13 @@ function C12_BiologyLinkageCrossingOverSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-300 border border-emerald-700'
                       : difficulty === 'standard'
-                      ? 'bg-sky-950 text-sky-300 border border-sky-700'
+                      ? 'bg-gold-950 text-gold-300 border border-gold-700'
                       : 'bg-rose-950 text-rose-300 border border-rose-700'
                   }`}
                 >
                   Tier: {difficulty}
                 </motion.span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800 capitalize">
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-800 capitalize">
                   Competency: {currentChallengeItem.competencyLevel}
                 </span>
               </div>
@@ -2374,7 +2374,7 @@ function C12_BiologyLinkageCrossingOverSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setConstructParts((prev) => [...prev, part])}
                     aria-label={`Add part: ${part}`}
-                    className="px-3 py-1.5 bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                    className="px-3 py-1.5 bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     + {part}
                   </motion.button>
@@ -2385,7 +2385,7 @@ function C12_BiologyLinkageCrossingOverSim({
                 {constructParts.map((part, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-indigo-900 text-indigo-200 border border-indigo-700 rounded-lg text-xs flex items-center gap-2"
+                    className="px-3 py-1 bg-gold-900 text-gold-200 border border-gold-700 rounded-lg text-xs flex items-center gap-2"
                   >
                     {part}
                     <button
@@ -2472,7 +2472,7 @@ function C12_BiologyLinkageCrossingOverSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 rounded-3xl border border-indigo-800 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-slate-900 via-slate-900 to-gold-950 rounded-3xl border border-gold-800 text-center space-y-4">
             <span className="text-4xl">🧬</span>
             <h2 className="text-3xl font-black text-white">Genomics Simulation Mastery Achieved!</h2>
             
@@ -2482,7 +2482,7 @@ function C12_BiologyLinkageCrossingOverSim({
                 errors === 0
                   ? 'text-emerald-400'
                   : errors <= 3
-                  ? 'text-sky-400'
+                  ? 'text-gold-400'
                   : errors <= 7
                   ? 'text-amber-400'
                   : 'text-rose-400'
@@ -2505,7 +2505,7 @@ function C12_BiologyLinkageCrossingOverSim({
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">Mastery Tier</span>
-                <span className="text-2xl font-black text-sky-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2548,7 +2548,7 @@ function C12_BiologyLinkageCrossingOverSim({
                 <div className={`px-4 py-2 rounded-xl text-xs font-bold ${errors === 0 ? 'bg-emerald-950 border border-emerald-500 text-emerald-300' : 'bg-slate-800 text-slate-500'}`}>
                   7 Days (0 errors)
                 </div>
-                <div className={`px-4 py-2 rounded-xl text-xs font-bold ${errors >= 1 && errors <= 3 ? 'bg-sky-950 border border-sky-500 text-sky-300' : 'bg-slate-800 text-slate-500'}`}>
+                <div className={`px-4 py-2 rounded-xl text-xs font-bold ${errors >= 1 && errors <= 3 ? 'bg-gold-950 border border-gold-500 text-gold-300' : 'bg-slate-800 text-slate-500'}`}>
                   3 Days (1-3)
                 </div>
                 <div className={`px-4 py-2 rounded-xl text-xs font-bold ${errors >= 4 ? 'bg-rose-950 border border-rose-500 text-rose-300' : 'bg-slate-800 text-slate-500'}`}>
@@ -2565,7 +2565,7 @@ function C12_BiologyLinkageCrossingOverSim({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-sky-400">1. Discovery Reflection</span>
+                <span className="text-xs font-bold text-gold-400">1. Discovery Reflection</span>
                 <p className="text-xs text-slate-300 font-medium">What was the most surprising thing you learned?</p>
                 <p className="text-[11px] text-slate-400">
                   Reflect on how physical distance directly sets recombinant ratios or how small mutations create massive clinical consequences.
@@ -2611,7 +2611,7 @@ function C12_BiologyLinkageCrossingOverSim({
 
           {/* Real-World Clinical Project */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-lg font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-lg font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

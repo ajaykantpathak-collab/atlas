@@ -17,8 +17,8 @@ export interface WelcomeScreenProps {
 
 const CLASS_OPTIONS = [
   { level: 1, label: 'Class 1', emoji: '🌱', color: 'from-green-400 to-emerald-500' },
-  { level: 2, label: 'Class 2', emoji: '🌿', color: 'from-teal-400 to-cyan-500' },
-  { level: 3, label: 'Class 3', emoji: '🌳', color: 'from-blue-400 to-indigo-500' },
+  { level: 2, label: 'Class 2', emoji: '🌿', color: 'from-teal-400 to-gold-500' },
+  { level: 3, label: 'Class 3', emoji: '🌳', color: 'from-gold-400 to-gold-500' },
   { level: 4, label: 'Class 4', emoji: '🌟', color: 'from-purple-400 to-pink-500' },
   { level: 5, label: 'Class 5', emoji: '🚀', color: 'from-orange-400 to-red-500' },
 ];
@@ -28,7 +28,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
   const [studentName, setStudentName] = useState('');
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-indigo-100 via-purple-50 to-pink-100 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gold-100 via-purple-50 to-pink-100 p-4">
       <AnimatePresence mode="wait">
         {/* Step 1: Greeting */}
         {step === 'greeting' && (
@@ -51,7 +51,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="text-3xl font-black text-indigo-600 mb-3"
+              className="text-3xl font-black text-gold-600 mb-3"
             >
               Welcome to Atlas!
             </motion.h1>
@@ -72,7 +72,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setStep('name')}
-              className="px-8 py-4 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-lg font-bold shadow-lg hover:shadow-xl transition-all"
+              className="px-8 py-4 rounded-2xl bg-gradient-to-r from-gold-500 to-purple-500 text-white text-lg font-bold shadow-lg hover:shadow-xl transition-all"
             >
               Let's Go! 🚀
             </motion.button>
@@ -92,7 +92,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
               <RiveMascot src="/rive/dog-mascot.riv" mood="thinking" width={120} height={120} />
             </div>
 
-            <h2 className="text-2xl font-black text-indigo-600 mb-2">
+            <h2 className="text-2xl font-black text-gold-600 mb-2">
               What's your name?
             </h2>
             <p className="text-sm text-gray-500 mb-6">
@@ -109,7 +109,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
               placeholder="Type your name here..."
               autoFocus
               maxLength={20}
-              className="w-64 px-4 py-3 rounded-2xl border-2 border-indigo-200 text-center text-lg font-semibold text-indigo-700 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 mb-6"
+              className="w-64 px-4 py-3 rounded-2xl border-2 border-gold-200 text-center text-lg font-semibold text-gold-700 focus:outline-none focus:border-gold-500 focus:ring-2 focus:ring-gold-200 mb-6"
             />
 
             <div className="flex gap-3">
@@ -124,7 +124,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
                 disabled={!studentName.trim()}
                 className={`px-8 py-3 rounded-2xl font-bold text-white shadow-lg transition-all ${
                   studentName.trim()
-                    ? 'bg-gradient-to-r from-indigo-500 to-purple-500 hover:shadow-xl'
+                    ? 'bg-gradient-to-r from-gold-500 to-purple-500 hover:shadow-xl'
                     : 'bg-gray-300 cursor-not-allowed'
                 }`}
               >
@@ -147,7 +147,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
               <RiveMascot src="/rive/dog-mascot.riv" mood="celebrate" width={100} height={100} />
             </div>
 
-            <h2 className="text-2xl font-black text-indigo-600 mb-1">
+            <h2 className="text-2xl font-black text-gold-600 mb-1">
               Hi {studentName}! 👋
             </h2>
             <p className="text-sm text-gray-500 mb-6">

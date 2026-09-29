@@ -1310,12 +1310,12 @@ function C7_PhysicsPhysicalNatureMatterSim({
       {/* ─── HEADER ─── */}
       <header className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 p-4 bg-slate-900/80 rounded-2xl border border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700" aria-hidden="true">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ICSE Class 7 Physics</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ICSE Class 7 Physics</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400">NEP 2020</span>
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
@@ -1332,7 +1332,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border-gold-700'
             }`}
           >
             {difficulty.toUpperCase()} TIER
@@ -1346,13 +1346,13 @@ function C7_PhysicsPhysicalNatureMatterSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wide">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wide">
               <span>🚀 Mission Briefing</span>
             </div>
             <h2 className="text-2xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 mt-3 p-3 bg-indigo-950/50 rounded-xl border border-indigo-900">
+            <p className="text-xs text-gold-300 mt-3 p-3 bg-gold-950/50 rounded-xl border border-gold-900">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1378,7 +1378,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start justify-between gap-2">
@@ -1399,7 +1399,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 flex flex-col md:flex-row items-center justify-between gap-4">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-gold-950/40 rounded-xl border border-gold-800 flex flex-col md:flex-row items-center justify-between gap-4">
                 <p className={discoveryCorrect ? 'text-emerald-400 text-sm' : 'text-amber-300 text-sm'}>
                   {discoveryCorrect
                     ? '✓ 🎯 Spot on! Gases have vast empty spaces between particles, allowing large volumes to compress into small cylinders.'
@@ -1410,7 +1410,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-950 shrink-0"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-950 shrink-0"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1427,14 +1427,14 @@ function C7_PhysicsPhysicalNatureMatterSim({
           <div className="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-800">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-slate-400">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}:</span>
-              <span className="text-xs md:text-sm font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</span>
+              <span className="text-xs md:text-sm font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex items-center gap-1.5" aria-hidden="true">
               {EXPLORATION_STEPS.map((_, idx) => (
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1468,7 +1468,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                             aria-label={`Select ${st} state`}
                             className={`py-2 px-1 text-xs font-bold rounded-lg capitalize border ${
                               simState === st
-                                ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                                ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                                 : 'bg-slate-900 text-slate-300 border-slate-700 hover:bg-slate-800'
                             }`}
                           >
@@ -1480,7 +1480,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       <div className="mt-4 space-y-1">
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Temperature:</span>
-                          <strong className={simTemp > 100 ? 'text-rose-400' : simTemp <= 0 ? 'text-sky-400' : 'text-amber-400'}>
+                          <strong className={simTemp > 100 ? 'text-rose-400' : simTemp <= 0 ? 'text-gold-400' : 'text-amber-400'}>
                             {simTemp}°C
                           </strong>
                         </div>
@@ -1491,7 +1491,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                           value={simTemp}
                           onChange={(e) => handleTempChange(Number(e.target.value))}
                           aria-label="Temperature slider in Celsius"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1506,8 +1506,8 @@ function C7_PhysicsPhysicalNatureMatterSim({
                 </div>
 
                 {/* Observation Question inside Lab */}
-                <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
-                  <span className="text-xs font-bold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300">Scientific Observation</span>
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
+                  <span className="text-xs font-bold px-2 py-0.5 rounded bg-gold-500/20 text-gold-300">Scientific Observation</span>
                   <p className="text-sm font-medium text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2" role="group" aria-label="Observation Question Options">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1550,14 +1550,14 @@ function C7_PhysicsPhysicalNatureMatterSim({
                         <button
                           onClick={() => { setSyringeState('gas'); audioManager.play('tap'); }}
                           aria-label="Set syringe medium to Gas"
-                          className={`text-xs px-2.5 py-1 rounded-md font-bold ${syringeState === 'gas' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                          className={`text-xs px-2.5 py-1 rounded-md font-bold ${syringeState === 'gas' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                         >
                           Gas (Air)
                         </button>
                         <button
                           onClick={() => { setSyringeState('liquid'); audioManager.play('tap'); }}
                           aria-label="Set syringe medium to Liquid"
-                          className={`text-xs px-2.5 py-1 rounded-md font-bold ${syringeState === 'liquid' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                          className={`text-xs px-2.5 py-1 rounded-md font-bold ${syringeState === 'liquid' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                         >
                           Liquid (Water)
                         </button>
@@ -1624,7 +1624,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                           audioManager.play('count');
                         }}
                         aria-label="Syringe plunger position slider"
-                        className="w-full accent-indigo-500 disabled:opacity-40"
+                        className="w-full accent-gold-500 disabled:opacity-40"
                       />
                     </div>
                   </div>
@@ -1664,8 +1664,8 @@ function C7_PhysicsPhysicalNatureMatterSim({
               <div className="space-y-4">
                 {/* PREDICTION HOOK ON SLIDE 3 */}
                 {currentSlide === 3 && !predictionMade && (
-                  <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
-                    <span className="text-xs px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-bold">Predict-Then-Check</span>
+                  <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
+                    <span className="text-xs px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 font-bold">Predict-Then-Check</span>
                     <p className="text-sm font-medium text-white">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2" role="group" aria-label="Prediction Options">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1735,7 +1735,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       </div>
                       <div>
                         <span className="text-slate-400">Density:</span>
-                        <p className="font-bold text-indigo-300">{currentDensity} g/cm³</p>
+                        <p className="font-bold text-gold-300">{currentDensity} g/cm³</p>
                       </div>
                       <div>
                         <span className="text-slate-400">Relative Density:</span>
@@ -1754,7 +1754,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                           onClick={() => handleMaterialSelect(m)}
                           aria-label={`Select material ${m}`}
                           className={`p-1.5 text-xs font-bold rounded-lg capitalize border ${
-                            selectedMaterial === m ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-300 border-slate-800'
+                            selectedMaterial === m ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-300 border-slate-800'
                           }`}
                         >
                           {m}
@@ -1848,7 +1848,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                     <div className="pt-2">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Added Load Mass:</span>
-                        <strong className="text-indigo-400">+{addedMassKg} kg</strong>
+                        <strong className="text-gold-400">+{addedMassKg} kg</strong>
                       </div>
                       <input
                         type="range"
@@ -1861,7 +1861,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                           audioManager.play('count');
                         }}
                         aria-label="Added load mass slider in kilograms"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1873,7 +1873,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                         }}
                         aria-label={useBallBearings ? "Uninstall Ball Bearings" : "Install Ball Bearings"}
                         className={`w-full py-2 text-xs font-bold rounded-lg border ${
-                          useBallBearings ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-300 border-slate-700'
+                          useBallBearings ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-300 border-slate-700'
                         }`}
                       >
                         {useBallBearings ? '✓ Ball Bearings Installed' : '+ Install Ball Bearings'}
@@ -1914,7 +1914,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   audioManager.play('whoosh');
                 }}
                 aria-label="Go to next lab"
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-950"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-950"
               >
                 Next Lab →
               </motion.button>
@@ -1948,7 +1948,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Start graded challenges"
-              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-950"
+              className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-950"
             >
               Ready for Graded Challenges! 🎯
             </motion.button>
@@ -1964,7 +1964,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                     key={st}
                     onClick={() => handleStateSelect(st)}
                     aria-label={`Select ${st}`}
-                    className={`flex-1 py-1.5 text-xs font-bold rounded-lg capitalize ${simState === st ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                    className={`flex-1 py-1.5 text-xs font-bold rounded-lg capitalize ${simState === st ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                   >
                     {st}
                   </button>
@@ -2001,13 +2001,13 @@ function C7_PhysicsPhysicalNatureMatterSim({
               <span className="text-slate-400">
                 CHALLENGE {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 uppercase tracking-wider">
+              <span className="text-gold-400 uppercase tracking-wider">
                 COMPETENCY: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2037,7 +2037,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                         ? 'bg-rose-900/60 border-rose-500 text-rose-200'
                         : showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/90 hover:bg-slate-800 text-slate-200 border-slate-700 hover:border-indigo-500'
+                        : 'bg-slate-800/90 hover:bg-slate-800 text-slate-200 border-slate-700 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start justify-between gap-3">
@@ -2070,7 +2070,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       draggable
                       aria-label={`Draggable label: ${item.label}`}
                       onDragStart={() => handleDragStart(item.label)}
-                      className="px-4 py-2 bg-indigo-700 text-white rounded-lg text-sm font-bold cursor-grab shadow-md"
+                      className="px-4 py-2 bg-gold-700 text-white rounded-lg text-sm font-bold cursor-grab shadow-md"
                     >
                       {item.label}
                     </div>
@@ -2091,7 +2091,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[110px] text-center"
                     >
                       <p className="text-xs text-slate-400 mb-2">{target.title}</p>
-                      <div className="font-bold text-indigo-300 text-base">
+                      <div className="font-bold text-gold-300 text-base">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop Label Here'}
                       </div>
                     </div>
@@ -2104,7 +2104,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Verify matched labels"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                 >
                   Verify Matched Labels
                 </motion.button>
@@ -2132,7 +2132,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                     }}
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3 cursor-grab text-sm text-slate-200"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 text-xs flex items-center justify-center font-bold">
+                    <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 text-xs flex items-center justify-center font-bold">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2148,7 +2148,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   }}
                   disabled={showExplanation}
                   aria-label="Verify arranged order"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg mt-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg mt-2"
                 >
                   Verify Arranged Order
                 </motion.button>
@@ -2166,7 +2166,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
                     aria-label="Numeric calculation answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-64"
                   />
                   <span className="text-slate-300 font-bold text-sm">{challenge.unit}</span>
                   <motion.button
@@ -2175,7 +2175,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit calculation answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2198,7 +2198,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                         audioManager.play('tap');
                       }}
                       aria-label={`Add formula part ${part}`}
-                      className="px-3.5 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-bold font-mono"
+                      className="px-3.5 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-lg text-xs font-bold font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2232,7 +2232,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify constructed formula"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                 >
                   Verify Formula
                 </motion.button>
@@ -2244,9 +2244,9 @@ function C7_PhysicsPhysicalNatureMatterSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800 rounded-2xl space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
                   <span>🔬 Step-by-Step Scientific Explanation</span>
                 </div>
 
@@ -2261,7 +2261,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400">{i + 1}.</strong> {sentence}
+                      <strong className="text-gold-400">{i + 1}.</strong> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2275,7 +2275,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                       audioManager.play('tap');
                     }}
                     aria-label="Show next explanation step"
-                    className="mt-2 px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                    className="mt-2 px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Logical Step →
                   </motion.button>
@@ -2299,7 +2299,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
       {/* ─── 5. COMPLETION & MASTERY SUMMARY PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-800 space-y-3 text-center">
+          <div className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-800 space-y-3 text-center">
             <span className="text-4xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Mission Accomplished!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2312,7 +2312,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Mastery Level</span>
-                <p className="text-xl font-bold text-indigo-400">{masteryLevel.toUpperCase()}</p>
+                <p className="text-xl font-bold text-gold-400">{masteryLevel.toUpperCase()}</p>
               </div>
             </div>
           </div>
@@ -2322,7 +2322,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
             errors === 0
               ? 'bg-emerald-950/50 border-emerald-500/80'
               : errors <= 3
-              ? 'bg-indigo-950/50 border-indigo-500/80'
+              ? 'bg-gold-950/50 border-gold-500/80'
               : errors <= 7
               ? 'bg-amber-950/50 border-amber-500/80'
               : 'bg-rose-950/50 border-rose-500/80'
@@ -2338,14 +2338,14 @@ function C7_PhysicsPhysicalNatureMatterSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span>💭 Deep Learning Reflection</span>
             </div>
             <h3 className="text-lg font-bold text-white">Consolidate Your Understanding</h3>
             
             <div className="space-y-4">
               <div className="space-y-1.5">
-                <label className="block text-xs font-semibold text-indigo-300">
+                <label className="block text-xs font-semibold text-gold-300">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2354,12 +2354,12 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., That massive ships float because of hollow trapped air lowering total density..."
                   aria-label="Reflection question 1: What was the most surprising thing you learned?"
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label className="block text-xs font-semibold text-indigo-300">
+                <label className="block text-xs font-semibold text-gold-300">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2368,12 +2368,12 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, explanation: e.target.value }))}
                   placeholder="e.g., Everything is made of tiny jiggling particles with spaces between them..."
                   aria-label="Reflection question 2: How would you explain this to a friend?"
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label className="block text-xs font-semibold text-indigo-300">
+                <label className="block text-xs font-semibold text-gold-300">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2382,7 +2382,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., Choosing bicycle tyres, selecting lubricants for machinery, understanding weather..."
                   aria-label="Reflection question 3: Where in real life might you use this?"
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
             </div>
@@ -2408,11 +2408,11 @@ function C7_PhysicsPhysicalNatureMatterSim({
           )}
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-2">
-            <h3 className="text-indigo-300 text-sm font-bold">Spaced Repetition Schedule (SM-2)</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-2">
+            <h3 className="text-gold-300 text-sm font-bold">Spaced Repetition Schedule (SM-2)</h3>
             <p className="text-xs text-slate-300">
               To consolidate these neural pathways, your next review session is scheduled in{' '}
-              <strong className="text-indigo-400">
+              <strong className="text-gold-400">
                 {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
               </strong>
               .
@@ -2421,7 +2421,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
 
           {/* Real-World Capstone Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span>🛠️ Hands-On Real World Challenge</span>
             </div>
             <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2429,7 +2429,7 @@ function C7_PhysicsPhysicalNatureMatterSim({
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="w-4 h-4 rounded-full bg-indigo-950 text-indigo-300 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-gold-950 text-gold-300 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{st}</span>

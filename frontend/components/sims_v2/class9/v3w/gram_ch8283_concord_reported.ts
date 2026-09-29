@@ -28,8 +28,8 @@ export const c9_gram_ch8283: SimDef = {
         hook: 'Semantic plurality is the trap — "each" singles them out grammatically, one at a time.',
     },
     teaching: [
-        { title: 'The three boxes', text: 'ALWAYS SINGULAR: each/every/everyone/nobody/either/neither. ALWAYS PLURAL: few/many/several/both. DEPENDS: some/all/most — look at the of-phrase.', emoji: '📦', bgColor: 'from-teal-500 to-cyan-600' },
-        { title: 'The three frames', text: 'Statement → that + backshift. Yes/no Q → if/whether + statement order. Wh-Q → wh-word kept + statement order. Command → told + object + (not) to-infinitive.', emoji: '🖼️', bgColor: 'from-cyan-500 to-sky-600' },
+        { title: 'The three boxes', text: 'ALWAYS SINGULAR: each/every/everyone/nobody/either/neither. ALWAYS PLURAL: few/many/several/both. DEPENDS: some/all/most — look at the of-phrase.', emoji: '📦', bgColor: 'from-teal-500 to-gold-600' },
+        { title: 'The three frames', text: 'Statement → that + backshift. Yes/no Q → if/whether + statement order. Wh-Q → wh-word kept + statement order. Command → told + object + (not) to-infinitive.', emoji: '🖼️', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

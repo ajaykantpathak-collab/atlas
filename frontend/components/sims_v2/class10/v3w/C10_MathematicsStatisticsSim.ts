@@ -11,7 +11,7 @@ export const w_c10_mathematicsstatisticssim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Word Problems: Interpreting Frequency Distribution Tables',
     chapters: [],
     nodeIds: ['c10_math_cbse_13_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine your school conducts a health check-up and records the heights of 100 Class 10 students in a.', goal: 'Master Word Problems: Interpreting Frequency Distribution Tables.' },
     discovery: {
         question: 'The following table shows the literacy rate (in %) of 35 cities: | Literacy Rate | 45-55 | 55-65 | 65-75 | 75-85 | 85-95 |.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsstatisticssim: SimDef = {
         hook: 'Students consistently use the cumulative frequency OF the median class (cf = 24 in Diagnostic 3) instead of the.',
     },
     teaching: [
-        { title: 'Word problems on interpreting frequency.', text: 'Word problems on interpreting frequency distribution tables require extracting statistical information (class intervals, frequencies, cumulative frequencies, class marks) from a given table and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Word problems on interpreting frequency.', text: 'Word problems on interpreting frequency distribution tables require extracting statistical information (class intervals, frequencies, cumulative frequencies, class marks) from a given table and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_13_010', title: 'Word problems on interpreting frequency.',

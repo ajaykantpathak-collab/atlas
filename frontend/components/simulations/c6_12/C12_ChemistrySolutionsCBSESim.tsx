@@ -681,7 +681,7 @@ export function C12_ChemistrySolutionsCBSESim() {
   const currentChallenge = challenges[currentChallengeIdx];
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-cyan-500 selection:text-black">
+    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-gold-500 selection:text-black">
       {/* Simulation Engine Overlays */}
       <Confetti show={showConfetti} />
       <SuccessBanner show={showSuccess} text="CBSE Solutions Mastered! All Challenges Complete!" />
@@ -691,14 +691,14 @@ export function C12_ChemistrySolutionsCBSESim() {
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900/80 backdrop-blur-md p-6 rounded-2xl border border-slate-800 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-3 mb-2">
-            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
+            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/20 text-gold-400 border border-gold-500/30">
               CBSE Class 12 Chemistry
             </span>
-            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">
+            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/20 text-gold-400 border border-gold-500/30">
               NCERT Chapter 2: Solutions
             </span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
             Solutions & Colligative Phenomena
           </h1>
           <p className="text-slate-400 text-sm mt-1">
@@ -710,7 +710,7 @@ export function C12_ChemistrySolutionsCBSESim() {
         <div className="flex items-center gap-4 bg-slate-950/60 p-3 rounded-xl border border-slate-800">
           <div className="text-center px-3">
             <div className="text-xs text-slate-400 uppercase font-semibold">Mastery Score</div>
-            <div className="text-2xl font-black text-cyan-400">{score} pts</div>
+            <div className="text-2xl font-black text-gold-400">{score} pts</div>
           </div>
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center px-3">
@@ -737,7 +737,7 @@ export function C12_ChemistrySolutionsCBSESim() {
             onClick={() => handleTabChange(tab.id as ActiveTab)}
             className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/20'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -751,7 +751,7 @@ export function C12_ChemistrySolutionsCBSESim() {
         <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           {/* Simulation Controls Panel */}
           <div className="lg:col-span-5 bg-slate-900/80 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-5">
-            <h2 className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               🧪 Solution Preparation Controls
             </h2>
 
@@ -774,7 +774,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                     }}
                     className={`p-2.5 rounded-lg text-xs font-medium border text-left transition ${
                       soluteType === item.id
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                        ? 'bg-gold-950 border-gold-500 text-gold-300'
                         : 'bg-slate-800/50 border-slate-700 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -808,7 +808,7 @@ export function C12_ChemistrySolutionsCBSESim() {
             <div>
               <div className="flex justify-between text-sm mb-1">
                 <span className="text-slate-300">Solvent Mass Water (w₁):</span>
-                <span className="font-mono font-bold text-sky-400">{solventMass} g</span>
+                <span className="font-mono font-bold text-gold-400">{solventMass} g</span>
               </div>
               <input
                 type="range"
@@ -819,7 +819,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                   setSolventMass(Number(e.target.value));
                   audioManager.play('tap');
                 }}
-                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-sky-400"
+                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
               />
             </div>
 
@@ -863,9 +863,9 @@ export function C12_ChemistrySolutionsCBSESim() {
 
             {/* Real-time CBSE Concentration Units Grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              <div className="bg-slate-900/90 border border-cyan-500/30 p-3 rounded-xl">
-                <div className="text-[10px] text-cyan-400 uppercase font-semibold">Mass % (w/w)</div>
-                <div className="text-xl font-mono font-bold text-cyan-200">{massPctCalculated.toFixed(2)} %</div>
+              <div className="bg-slate-900/90 border border-gold-500/30 p-3 rounded-xl">
+                <div className="text-[10px] text-gold-400 uppercase font-semibold">Mass % (w/w)</div>
+                <div className="text-xl font-mono font-bold text-gold-200">{massPctCalculated.toFixed(2)} %</div>
                 <div className="text-[10px] text-slate-400 mt-0.5">(w₂ / Total w) × 100</div>
               </div>
 
@@ -893,12 +893,12 @@ export function C12_ChemistrySolutionsCBSESim() {
                 <div className="text-[10px] text-slate-400 mt-0.5">(w₂ / Total w) × 10⁶</div>
               </div>
 
-              <div className="bg-slate-900/90 border border-indigo-500/30 p-3 rounded-xl">
-                <div className="text-[10px] text-indigo-400 uppercase font-semibold">Temp Dependence</div>
-                <div className="text-xs font-bold text-indigo-200 mt-1">
+              <div className="bg-slate-900/90 border border-gold-500/30 p-3 rounded-xl">
+                <div className="text-[10px] text-gold-400 uppercase font-semibold">Temp Dependence</div>
+                <div className="text-xs font-bold text-gold-200 mt-1">
                   Molarity: <span className="text-rose-400">Varies</span>
                 </div>
-                <div className="text-xs font-bold text-indigo-200">
+                <div className="text-xs font-bold text-gold-200">
                   Molality: <span className="text-emerald-400">Constant</span>
                 </div>
               </div>
@@ -911,7 +911,7 @@ export function C12_ChemistrySolutionsCBSESim() {
       {activeTab === 'gas_henry' && (
         <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-5 bg-slate-900/80 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-6">
-            <h2 className="text-xl font-bold text-cyan-300">
+            <h2 className="text-xl font-bold text-gold-300">
               💨 Henry's Law: p = K_H · x
             </h2>
             <p className="text-xs text-slate-300 leading-relaxed">
@@ -935,7 +935,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                     }}
                     className={`p-2 rounded-lg text-xs font-semibold border ${
                       selectedGas === gas.id
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-300'
+                        ? 'bg-gold-950 border-gold-500 text-gold-300'
                         : 'bg-slate-800 border-slate-700 text-slate-300'
                     }`}
                   >
@@ -1014,7 +1014,7 @@ export function C12_ChemistrySolutionsCBSESim() {
       {activeTab === 'vapour_raoult' && (
         <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-5 bg-slate-900/80 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-5">
-            <h2 className="text-xl font-bold text-cyan-300">
+            <h2 className="text-xl font-bold text-gold-300">
               ♨️ Vapour Pressure & Raoult's Law
             </h2>
             <p className="text-xs text-slate-300 leading-relaxed">
@@ -1025,7 +1025,7 @@ export function C12_ChemistrySolutionsCBSESim() {
             <div>
               <div className="flex justify-between text-sm mb-1">
                 <span className="text-slate-300">Solute Mole Fraction (x₂):</span>
-                <span className="font-mono font-bold text-cyan-400">{moleFractionSolute.toFixed(2)}</span>
+                <span className="font-mono font-bold text-gold-400">{moleFractionSolute.toFixed(2)}</span>
               </div>
               <input
                 type="range"
@@ -1037,7 +1037,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                   setMoleFractionSolute(Number(e.target.value));
                   audioManager.play('tap');
                 }}
-                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
               />
               <div className="text-[11px] text-slate-400 mt-1">
                 Solvent Mole Fraction (x₁) = {(1 - moleFractionSolute).toFixed(2)}
@@ -1048,7 +1048,7 @@ export function C12_ChemistrySolutionsCBSESim() {
             <div>
               <div className="flex justify-between text-sm mb-1">
                 <span className="text-slate-300">Pure Solvent Vapour Pressure (p°₁):</span>
-                <span className="font-mono font-bold text-sky-400">{pureVapourPressureA} kPa</span>
+                <span className="font-mono font-bold text-gold-400">{pureVapourPressureA} kPa</span>
               </div>
               <input
                 type="range"
@@ -1059,7 +1059,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                   setPureVapourPressureA(Number(e.target.value));
                   audioManager.play('tap');
                 }}
-                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-sky-400"
+                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
               />
             </div>
 
@@ -1072,7 +1072,7 @@ export function C12_ChemistrySolutionsCBSESim() {
               <div className="text-xs text-slate-400">
                 Vapour Pressure Lowering Δp = {(moleFractionSolute * pureVapourPressureA).toFixed(1)} kPa
               </div>
-              <div className="text-xs font-mono text-cyan-300 mt-2">
+              <div className="text-xs font-mono text-gold-300 mt-2">
                 Relative Lowering (Δp / p°₁) = {moleFractionSolute.toFixed(2)} = x₂
               </div>
             </div>
@@ -1092,18 +1092,18 @@ export function C12_ChemistrySolutionsCBSESim() {
                     key={i}
                     animate={{ y: [0, -8, 0] }}
                     transition={{ repeat: Infinity, duration: 1.5 + (i % 3) * 0.4 }}
-                    className="w-3 h-3 rounded-full bg-sky-400 shadow-lg shadow-sky-500/50"
+                    className="w-3 h-3 rounded-full bg-gold-400 shadow-lg shadow-gold-500/50"
                   />
                 ))}
               </div>
 
               {/* Surface Interface Line */}
-              <div className="w-full h-px bg-cyan-500/50 my-2 relative">
-                <span className="absolute right-2 -top-5 text-[10px] text-cyan-400 font-mono">Liquid-Vapour Boundary</span>
+              <div className="w-full h-px bg-gold-500/50 my-2 relative">
+                <span className="absolute right-2 -top-5 text-[10px] text-gold-400 font-mono">Liquid-Vapour Boundary</span>
               </div>
 
               {/* Surface Liquid Molecules */}
-              <div className="flex justify-around items-center h-16 bg-blue-950/40 rounded-lg p-2">
+              <div className="flex justify-around items-center h-16 bg-gold-950/40 rounded-lg p-2">
                 {Array.from({ length: 12 }).map((_, i) => {
                   const isBlocked = i < Math.round(moleFractionSolute * 12);
                   return (
@@ -1112,7 +1112,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                       className={`w-6 h-6 rounded-full flex items-center justify-center font-bold text-[9px] border ${
                         isBlocked
                           ? 'bg-amber-500 border-amber-300 text-black shadow-md'
-                          : 'bg-sky-600 border-sky-300 text-white'
+                          : 'bg-gold-600 border-gold-300 text-white'
                       }`}
                     >
                       {isBlocked ? 'S' : 'H₂O'}
@@ -1133,7 +1133,7 @@ export function C12_ChemistrySolutionsCBSESim() {
       {activeTab === 'osmosis_ro' && (
         <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-5 bg-slate-900/80 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-6">
-            <h2 className="text-xl font-bold text-cyan-300">
+            <h2 className="text-xl font-bold text-gold-300">
               🌊 Osmosis & Reverse Osmosis (RO)
             </h2>
 
@@ -1143,7 +1143,7 @@ export function C12_ChemistrySolutionsCBSESim() {
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Applied Pressure (P):</span>
-                  <span className="font-bold font-mono text-cyan-400">{roAppliedPressure} bar</span>
+                  <span className="font-bold font-mono text-gold-400">{roAppliedPressure} bar</span>
                 </div>
                 <input
                   type="range"
@@ -1154,7 +1154,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                     setRoAppliedPressure(Number(e.target.value));
                     audioManager.play('tap');
                   }}
-                  className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                  className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
                 />
               </div>
 
@@ -1239,7 +1239,7 @@ export function C12_ChemistrySolutionsCBSESim() {
       {activeTab === 'colligative' && (
         <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-5 bg-slate-900/80 rounded-2xl p-6 border border-slate-800 shadow-xl space-y-6">
-            <h2 className="text-xl font-bold text-cyan-300">
+            <h2 className="text-xl font-bold text-gold-300">
               📊 Modified Colligative Properties & van 't Hoff Factor (i)
             </h2>
 
@@ -1276,7 +1276,7 @@ export function C12_ChemistrySolutionsCBSESim() {
             <div>
               <div className="flex justify-between text-sm mb-1">
                 <span className="text-slate-300">Molality (m):</span>
-                <span className="font-mono font-bold text-cyan-400">{molalityVal.toFixed(1)} mol/kg</span>
+                <span className="font-mono font-bold text-gold-400">{molalityVal.toFixed(1)} mol/kg</span>
               </div>
               <input
                 type="range"
@@ -1288,18 +1288,18 @@ export function C12_ChemistrySolutionsCBSESim() {
                   setMolalityVal(Number(e.target.value));
                   audioManager.play('tap');
                 }}
-                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
               />
             </div>
 
             {/* Four Modified Formulas Display */}
             <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs font-mono">
-              <div className="text-cyan-400 font-bold mb-1">NCERT Colligative Equations with Factor i:</div>
+              <div className="text-gold-400 font-bold mb-1">NCERT Colligative Equations with Factor i:</div>
               <div className="p-2 bg-slate-900 rounded border border-slate-800">
                 1. Boiling Point Elevation: <span className="text-amber-300">ΔT_b = i · K_b · m</span>
               </div>
               <div className="p-2 bg-slate-900 rounded border border-slate-800">
-                2. Freezing Point Depression: <span className="text-sky-300">ΔT_f = i · K_f · m</span>
+                2. Freezing Point Depression: <span className="text-gold-300">ΔT_f = i · K_f · m</span>
               </div>
               <div className="p-2 bg-slate-900 rounded border border-slate-800">
                 3. Osmotic Pressure: <span className="text-emerald-300">Π = i · C · R · T</span>
@@ -1320,18 +1320,18 @@ export function C12_ChemistrySolutionsCBSESim() {
               <div className="flex items-center justify-around">
                 <div className="text-center">
                   <div className="text-xs text-slate-400 mb-2">1 Formula Unit Added</div>
-                  <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center font-bold text-white shadow-lg mx-auto">
+                  <div className="w-12 h-12 bg-gold-600 rounded-full flex items-center justify-center font-bold text-white shadow-lg mx-auto">
                     AB
                   </div>
                 </div>
 
-                <div className="text-2xl text-cyan-400 font-bold">➔</div>
+                <div className="text-2xl text-gold-400 font-bold">➔</div>
 
                 <div className="text-center">
                   <div className="text-xs text-slate-400 mb-2">Particles in Solution ({vanTHoffI}x)</div>
                   <div className="flex gap-2 justify-center">
                     {vanTHoffI === 1.0 && (
-                      <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-xs font-bold text-white">
+                      <div className="w-10 h-10 bg-gold-600 rounded-full flex items-center justify-center text-xs font-bold text-white">
                         AB
                       </div>
                     )}
@@ -1388,7 +1388,7 @@ export function C12_ChemistrySolutionsCBSESim() {
           {/* Progress Header */}
           <div className="bg-slate-900/80 rounded-2xl p-6 border border-slate-800 shadow-xl flex items-center justify-between">
             <div>
-              <div className="text-xs font-semibold text-cyan-400 uppercase tracking-wider mb-1">
+              <div className="text-xs font-semibold text-gold-400 uppercase tracking-wider mb-1">
                 Challenge {currentChallengeIdx + 1} of {challenges.length}
               </div>
               <h2 className="text-xl font-bold text-white">{currentChallenge.title}</h2>
@@ -1404,7 +1404,7 @@ export function C12_ChemistrySolutionsCBSESim() {
               {currentChallenge.description}
             </p>
 
-            <div className="p-4 bg-slate-950 rounded-xl border border-cyan-500/30 text-base md:text-lg font-medium text-cyan-100">
+            <div className="p-4 bg-slate-950 rounded-xl border border-gold-500/30 text-base md:text-lg font-medium text-gold-100">
               {currentChallenge.question}
             </div>
 
@@ -1413,7 +1413,7 @@ export function C12_ChemistrySolutionsCBSESim() {
               {currentChallenge.options.map((option, idx) => {
                 let btnStyle = 'bg-slate-800/60 border-slate-700 text-slate-200 hover:bg-slate-800';
                 if (selectedAnswer === idx) {
-                  btnStyle = 'bg-cyan-950 border-cyan-500 text-cyan-200';
+                  btnStyle = 'bg-gold-950 border-gold-500 text-gold-200';
                 }
                 if (isAnswerSubmitted) {
                   if (idx === currentChallenge.correctIndex) {
@@ -1457,7 +1457,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                   disabled={selectedAnswer === null}
                   className={`px-6 py-2.5 rounded-xl font-bold text-sm transition-all shadow-lg ${
                     selectedAnswer !== null
-                      ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-cyan-500/25 hover:brightness-110'
+                      ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-gold-500/25 hover:brightness-110'
                       : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                   }`}
                 >
@@ -1483,7 +1483,7 @@ export function C12_ChemistrySolutionsCBSESim() {
                 animate={{ opacity: 1, y: 0 }}
                 className="p-5 rounded-xl bg-slate-950 border border-slate-800 space-y-2 text-sm"
               >
-                <div className="font-bold text-cyan-400 flex items-center gap-2">
+                <div className="font-bold text-gold-400 flex items-center gap-2">
                   <span>📘 NCERT CBSE Step-by-Step Explanation:</span>
                 </div>
                 <p className="text-slate-300 leading-relaxed">{currentChallenge.explanation}</p>

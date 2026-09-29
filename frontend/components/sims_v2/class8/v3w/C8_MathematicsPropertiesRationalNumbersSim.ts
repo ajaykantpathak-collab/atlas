@@ -11,11 +11,11 @@ export const w_c8_mathematicspropertiesrationalnumberssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Multiplying Powers with the Same Base: am x an = am+n',
     chapters: [],
     nodeIds: ['c8_math_ch2_7', 'c8_math_ch13_5', 'c8_math_ch13_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are folding a paper: each fold doubles the layers.', goal: 'Master Multiplying Powers with the Same Base: am x an = am+n.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'When multiplying two powers with the same.', text: 'When multiplying two powers with the same base, we keep the base unchanged and add the exponents. For any non-zero integer \\(a\\) and positive integers \\(m\\) and \\(n\\), \\(a^m \\times a^n = a^{m+n}\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'When multiplying two powers with the same.', text: 'When multiplying two powers with the same base, we keep the base unchanged and add the exponents. For any non-zero integer \\(a\\) and positive integers \\(m\\) and \\(n\\), \\(a^m \\times a^n = a^{m+n}\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch2_7', title: 'When multiplying two powers with the.',

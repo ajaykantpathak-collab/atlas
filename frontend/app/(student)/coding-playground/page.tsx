@@ -8,6 +8,7 @@ import {
 } from 'lucide-react'
 import Link from 'next/link'
 import { useState, useEffect, useRef } from 'react'
+import InternalDemoBadge from "@/components/InternalDemoBadge";
 
 const challenges = [
   {
@@ -178,6 +179,7 @@ export default function CodingPlaygroundPage() {
 
   return (
     <div className="min-h-screen mesh-bg flex flex-col">
+      <InternalDemoBadge what="static check only, no real execution" />
       {/* Header */}
       <div className="glass-strong border-b border-surface-300/30 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">

@@ -1130,12 +1130,12 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs font-bold tracking-widest text-indigo-400 uppercase">Class 11 ISC Commerce • Business Studies</span>
+            <span className="text-xs font-bold tracking-widest text-gold-400 uppercase">Class 11 ISC Commerce • Business Studies</span>
             <h1 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1155,7 +1155,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           >
             {difficulty} TIER
           </motion.span>
-          <div className="px-3 py-1 bg-slate-800 rounded-full border border-slate-700 text-xs font-mono text-indigo-300">
+          <div className="px-3 py-1 bg-slate-800 rounded-full border border-slate-700 text-xs font-mono text-gold-300">
             Score: {scoreBreakdown.correct}/{scoreBreakdown.total}
           </div>
         </div>
@@ -1172,11 +1172,11 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
             <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">Case Scenario Launch</span>
             <h2 className="text-xl font-bold text-white mt-1 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-indigo-300 font-mono">
+            <div className="mt-4 p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-gold-300 font-mono">
               ⚡ Challenge Context: {SCENARIO.context}
             </div>
           </div>
@@ -1201,17 +1201,17 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-medium'
                       : discoveryAnswered && idx !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-900/90 border-slate-700 text-slate-200 hover:bg-indigo-950/50 hover:border-indigo-600'
+                      : 'bg-slate-900/90 border-slate-700 text-slate-200 hover:bg-gold-950/50 hover:border-gold-600'
                   }`}
                 >
-                  <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
+                  <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + idx)}]</span>
                   {option}
                 </motion.button>
               ))}
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-xl bg-slate-900 border border-indigo-900/60 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-xl bg-slate-900 border border-gold-900/60 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className={`text-xs ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
                   {discoveryCorrect
                     ? '✓ Spot on! RTGS is 24x7x365 since Dec 2020 (₹2L min), and IMPS caps at ₹5L.'
@@ -1221,7 +1221,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold tracking-wide shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold tracking-wide shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1248,7 +1248,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-900/70 text-slate-400 hover:text-white'
                   }`}
                 >
@@ -1268,7 +1268,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
               className="p-6 bg-slate-800/60 rounded-3xl border border-slate-700 shadow-xl space-y-6"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider font-mono">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider font-mono">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
                 <h2 className="text-lg sm:text-xl font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1279,8 +1279,8 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
               {currentSlide === 0 && (
                 <div className="space-y-6 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   {/* TOPIC SVG 1: Indian Payment Rails Architecture */}
-                  <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-indigo-900/50">
-                    <span className="text-[11px] font-mono font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                  <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-gold-900/50">
+                    <span className="text-[11px] font-mono font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Diagram 1: RBI & NPCI Payment Settlement Rails Architecture
                     </span>
                     <svg viewBox="0 0 700 160" className="w-full h-auto max-h-44" xmlns="http://www.w3.org/2000/svg">
@@ -1335,7 +1335,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                           setPaymentAmount(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 font-mono">
                         <span>₹100 (Retail UPI)</span>
@@ -1370,7 +1370,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                         onClick={() => handlePaymentRailChange(rail)}
                         className={`p-3 rounded-xl border text-center transition-all ${
                           selectedRail === rail
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1414,7 +1414,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
 
                     <div>
                       <span className="text-slate-500 block">SETTLEMENT SPEED:</span>
-                      <span className="text-indigo-300 font-bold">
+                      <span className="text-gold-300 font-bold">
                         {selectedRail === 'RTGS' ? 'Instant (< 5 seconds)' : selectedRail === 'NEFT' ? '30-minute Batch Net' : selectedRail === 'IMPS' ? 'Instant (24x7)' : selectedRail === 'UPI' ? 'Real-Time (< 2 seconds)' : 'Peer-to-Peer Instant'}
                       </span>
                     </div>
@@ -1449,7 +1449,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                           setCardSpend(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1519,8 +1519,8 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
               {currentSlide === 2 && (
                 <div className="space-y-6 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   {/* TOPIC SVG 2: Transaction Contact Reduction Model */}
-                  <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-indigo-900/50">
-                    <span className="text-[11px] font-mono font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                  <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-gold-900/50">
+                    <span className="text-[11px] font-mono font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Diagram 2: Williamson Transaction Cost Economics — Contact Line Reduction
                     </span>
                     <svg viewBox="0 0 700 150" className="w-full h-auto max-h-44" xmlns="http://www.w3.org/2000/svg">
@@ -1581,7 +1581,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-1">
-                      <label className="text-xs text-slate-300">Wholesaler Gross Margin: <strong className="text-indigo-400 font-mono">{wholesalerMarginPct}%</strong></label>
+                      <label className="text-xs text-slate-300">Wholesaler Gross Margin: <strong className="text-gold-400 font-mono">{wholesalerMarginPct}%</strong></label>
                       <input
                         type="range"
                         aria-label="Set wholesaler gross margin percentage"
@@ -1589,7 +1589,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                         max={15}
                         value={wholesalerMarginPct}
                         onChange={(e) => setWholesalerMarginPct(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="space-y-1">
@@ -1608,18 +1608,18 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
 
                   {/* Value Chain Stages Visualization */}
                   <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
-                    <div className="p-3 bg-slate-900 rounded-xl border border-indigo-900 text-center">
-                      <span className="text-[10px] text-indigo-400 font-bold block">1. PRODUCER</span>
+                    <div className="p-3 bg-slate-900 rounded-xl border border-gold-900 text-center">
+                      <span className="text-[10px] text-gold-400 font-bold block">1. PRODUCER</span>
                       <p className="text-sm font-bold text-white mt-1">Surat Weaves</p>
                       <p className="text-xs text-slate-400 font-mono">₹{distributionEconomics.producerCost}/m</p>
-                      <span className="inline-block mt-2 px-2 py-0.5 bg-indigo-950 text-indigo-300 text-[9px] rounded font-mono">Form Utility</span>
+                      <span className="inline-block mt-2 px-2 py-0.5 bg-gold-950 text-gold-300 text-[9px] rounded font-mono">Form Utility</span>
                     </div>
 
-                    <div className="p-3 bg-slate-900 rounded-xl border border-blue-900 text-center">
-                      <span className="text-[10px] text-blue-400 font-bold block">2. WHOLESALER</span>
+                    <div className="p-3 bg-slate-900 rounded-xl border border-gold-900 text-center">
+                      <span className="text-[10px] text-gold-400 font-bold block">2. WHOLESALER</span>
                       <p className="text-sm font-bold text-white mt-1">Redington/District</p>
                       <p className="text-xs text-slate-400 font-mono">₹{distributionEconomics.wholesalePrice}/m</p>
-                      <span className="inline-block mt-2 px-2 py-0.5 bg-blue-950 text-blue-300 text-[9px] rounded font-mono">Time & Place Utility</span>
+                      <span className="inline-block mt-2 px-2 py-0.5 bg-gold-950 text-gold-300 text-[9px] rounded font-mono">Time & Place Utility</span>
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-emerald-900 text-center">
@@ -1662,7 +1662,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                         onClick={() => setSelectedFormat(f.id as typeof selectedFormat)}
                         className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all ${
                           selectedFormat === f.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1674,7 +1674,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                   <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs space-y-3 font-mono">
                     <div className="flex justify-between border-b border-slate-800 pb-2">
                       <span className="text-slate-400">PRODUCT ASSORTMENT WIDTH:</span>
-                      <strong className="text-indigo-300">
+                      <strong className="text-gold-300">
                         {selectedFormat === 'dept' ? 'Very Wide (Apparel, Cosmetics, Home, Toys)' : selectedFormat === 'chain' ? 'Narrow (Private Label Apparel Only)' : selectedFormat === 'dark' ? 'Targeted Groceries (2,000 SKUs)' : selectedFormat === 'kirana' ? 'Neighborhood Staples' : 'Full Catalog Integrated'}
                       </strong>
                     </div>
@@ -1707,8 +1707,8 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
               {currentSlide === 4 && (
                 <div className="space-y-6 bg-slate-950 p-5 rounded-2xl border border-slate-800">
                   {/* TOPIC SVG 3: Frank Knight's 3-Filter Insurability Funnel */}
-                  <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-indigo-900/50">
-                    <span className="text-[11px] font-mono font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                  <div className="w-full bg-slate-900/90 rounded-2xl p-4 border border-gold-900/50">
+                    <span className="text-[11px] font-mono font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Diagram 3: Frank Knight Insurable Risk Decision Funnel
                     </span>
                     <svg viewBox="0 0 700 130" className="w-full h-auto max-h-36" xmlns="http://www.w3.org/2000/svg">
@@ -1749,7 +1749,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       aria-label="Select real-world incident case for risk analysis"
                       value={selectedRiskCase}
                       onChange={(e) => setSelectedRiskCase(Number(e.target.value))}
-                      className="bg-slate-900 border border-slate-700 text-indigo-300 px-3 py-1 rounded-lg font-mono text-xs"
+                      className="bg-slate-900 border border-slate-700 text-gold-300 px-3 py-1 rounded-lg font-mono text-xs"
                     >
                       {riskCases.map((rc, idx) => (
                         <option key={rc.id} value={idx}>{rc.title}</option>
@@ -1825,7 +1825,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1846,7 +1846,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
       {/* ─── PHASE 3: SANDBOX FREE PLAY ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950 rounded-2xl border border-indigo-800/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950 rounded-2xl border border-gold-800/50 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
               <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Zero Pressure Sandbox</span>
               <h2 className="text-lg font-bold text-white">Full Commercial Cockpit Sandbox</h2>
@@ -1865,7 +1865,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Sandbox Card 1: Fast Payment Switcher */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3 text-xs">
-              <strong className="text-indigo-400 block font-mono">1. PAYMENT ROUTING ENGINE</strong>
+              <strong className="text-gold-400 block font-mono">1. PAYMENT ROUTING ENGINE</strong>
               <div className="flex justify-between">
                 <span>Amount: <strong className="text-emerald-400">₹{paymentAmount.toLocaleString('en-IN')}</strong></span>
                 <span>Mode: <strong>{selectedRail}</strong></span>
@@ -1878,7 +1878,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                 step={500}
                 value={paymentAmount}
                 onChange={(e) => setPaymentAmount(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-2.5 bg-slate-900 rounded-lg text-slate-300 font-mono text-[11px]">
                 {paymentAmount >= 200000 ? '✅ Route via RTGS (Instant 24x7)' : paymentAmount <= 100000 ? '✅ Route via UPI (QR mobile zero MDR)' : '✅ Route via IMPS (Instant 24x7 up to ₹5L)'}
@@ -1908,7 +1908,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           {/* Challenge Status Bar */}
           <div className="flex items-center justify-between p-3 bg-slate-800/80 rounded-2xl border border-slate-700">
             <div>
-              <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest font-mono">
+              <span className="text-[10px] font-bold text-gold-400 uppercase tracking-widest font-mono">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length} • {challenge.competencyLevel.toUpperCase()}
               </span>
               <h3 className="text-xs font-mono text-slate-300 mt-0.5">Node: {challenge.nodeId}</h3>
@@ -1921,7 +1921,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1937,7 +1937,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
               className="space-y-4"
             >
               <div className="flex items-start gap-3">
-                <span className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-300 text-xs font-mono font-bold rounded-lg mt-0.5">
+                <span className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-300 text-xs font-mono font-bold rounded-lg mt-0.5">
                   Q{currentChallenge + 1}
                 </span>
                 <p className="text-sm sm:text-base font-semibold text-white leading-relaxed">{challenge.question}</p>
@@ -1958,10 +1958,10 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : showExplanation && i !== challenge.correctIndex
                           ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                          : 'bg-slate-900/90 border-slate-700 text-slate-200 hover:bg-indigo-950/60 hover:border-indigo-600'
+                          : 'bg-slate-900/90 border-slate-700 text-slate-200 hover:bg-gold-950/60 hover:border-gold-600'
                       }`}
                     >
-                      <span className="font-mono text-xs text-indigo-400 mr-2">({String.fromCharCode(65 + i)})</span>
+                      <span className="font-mono text-xs text-gold-400 mr-2">({String.fromCharCode(65 + i)})</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -1980,7 +1980,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                        className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -1994,7 +1994,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       className="p-4 rounded-xl bg-slate-900 border-2 border-dashed border-slate-700 text-center space-y-2"
                     >
                       <span className="text-xs text-slate-400 block font-mono">Wide Assortment Under 1 Roof (Shoppers Stop)</span>
-                      <div className="p-2 bg-slate-950 rounded-lg text-xs font-bold text-indigo-300">
+                      <div className="p-2 bg-slate-950 rounded-lg text-xs font-bold text-gold-300">
                         {droppedLabels.slot_wide || 'Drop Format Here'}
                       </div>
                     </div>
@@ -2005,7 +2005,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       className="p-4 rounded-xl bg-slate-900 border-2 border-dashed border-slate-700 text-center space-y-2"
                     >
                       <span className="text-xs text-slate-400 block font-mono">Standardized Private Label Chain (Westside)</span>
-                      <div className="p-2 bg-slate-950 rounded-lg text-xs font-bold text-indigo-300">
+                      <div className="p-2 bg-slate-950 rounded-lg text-xs font-bold text-gold-300">
                         {droppedLabels.slot_standard || 'Drop Format Here'}
                       </div>
                     </div>
@@ -2016,7 +2016,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       className="p-4 rounded-xl bg-slate-900 border-2 border-dashed border-slate-700 text-center space-y-2"
                     >
                       <span className="text-xs text-slate-400 block font-mono">Online-Only 10-Min Micro-Warehouse (Zepto)</span>
-                      <div className="p-2 bg-slate-950 rounded-lg text-xs font-bold text-indigo-300">
+                      <div className="p-2 bg-slate-950 rounded-lg text-xs font-bold text-gold-300">
                         {droppedLabels.slot_online || 'Drop Format Here'}
                       </div>
                     </div>
@@ -2027,7 +2027,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                   >
                     Validate Mapping
                   </motion.button>
@@ -2054,7 +2054,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                         whileHover={{ scale: 1.01 }}
                         className="p-3 bg-slate-900 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="font-mono text-indigo-400 font-bold">{displayIdx + 1}.</span>
+                        <span className="font-mono text-gold-400 font-bold">{displayIdx + 1}.</span>
                         <span>{item}</span>
                       </motion.div>
                     ))}
@@ -2068,7 +2068,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       handleAnswer(answer);
                     }}
                     disabled={showExplanation}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Check Ordered Sequence
                   </motion.button>
@@ -2085,7 +2085,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter value"
-                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none"
+                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none"
                     />
                     <span className="text-sm font-mono text-slate-400">{challenge.unit}</span>
                     <motion.button
@@ -2093,7 +2093,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                      className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                     >
                       Check Calculation
                     </motion.button>
@@ -2112,7 +2112,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={() => setConstructParts(prev => prev.includes(part) ? prev : [...prev, part])}
-                        className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-indigo-300 text-xs rounded-lg font-mono hover:border-indigo-500"
+                        className="px-3 py-1.5 bg-slate-900 border border-slate-700 text-gold-300 text-xs rounded-lg font-mono hover:border-gold-500"
                       >
                         + {part}
                       </motion.button>
@@ -2121,7 +2121,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
 
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((part, idx) => (
-                      <span key={idx} className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 text-xs rounded-lg flex items-center gap-2">
+                      <span key={idx} className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-200 text-xs rounded-lg flex items-center gap-2">
                         {part}
                         <button
                           type="button"
@@ -2141,7 +2141,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Validate Criteria Assembly
                   </motion.button>
@@ -2151,11 +2151,11 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
 
             {/* ─── PROGRESSIVE STEP-BY-STEP EXPLANATION ─── */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-slate-900 rounded-2xl border border-indigo-900 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-slate-900 rounded-2xl border border-gold-900 space-y-3">
                 <span className="text-xs font-bold text-amber-400 font-mono block">Step-by-Step Business Analysis:</span>
                 {challenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, idx) => (
                   <motion.p key={idx} initial={{ opacity: 0, x: -6 }} animate={{ opacity: 1, x: 0 }} className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                    <strong className="text-indigo-400 font-mono">[{idx + 1}]</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                    <strong className="text-gold-400 font-mono">[{idx + 1}]</strong> {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
 
@@ -2189,11 +2189,11 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
       {/* ─── PHASE 5: COMPLETION & METACOGNITION PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-extrabold text-white">ISC Commerce Master Lab Certified</h2>
             <p className="text-sm text-slate-300">
-              Final Mastery Grade: <strong className="text-emerald-400 font-mono text-base">{Math.max(0, 100 - errors * 5)}%</strong> • Performance Tier: <strong className="text-indigo-300 uppercase font-mono">{masteryLevel}</strong>
+              Final Mastery Grade: <strong className="text-emerald-400 font-mono text-base">{Math.max(0, 100 - errors * 5)}%</strong> • Performance Tier: <strong className="text-gold-300 uppercase font-mono">{masteryLevel}</strong>
             </p>
           </div>
 
@@ -2228,7 +2228,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           )}
 
           {/* ─── REQUIRED REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/70 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/70 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-lg">💭</span>
               <h3 className="text-base font-bold text-white">Metacognitive Reflection</h3>
@@ -2236,19 +2236,19 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
             <p className="text-xs text-slate-400">Deepen your conceptual retention by reflecting on these core questions:</p>
             <div className="space-y-3">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <span className="text-xs font-bold text-indigo-300">1. What was the most surprising thing you learned?</span>
+                <span className="text-xs font-bold text-gold-300">1. What was the most surprising thing you learned?</span>
                 <p className="text-xs text-slate-400">
                   e.g., How RTGS operates 24x7x365 with a strict ₹2,00,000 statutory minimum, or how paying only the 5% minimum due on a credit card compounds into a devastating 42% p.a. revolving debt spiral.
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <span className="text-xs font-bold text-indigo-300">2. How would you explain this to a friend?</span>
+                <span className="text-xs font-bold text-gold-300">2. How would you explain this to a friend?</span>
                 <p className="text-xs text-slate-400">
                   e.g., Wholesalers do not just mark up prices—they dramatically collapse market contact friction from (P × R) to (P + R), bearing godown storage risks and extending working capital credit so kiranas can survive.
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <span className="text-xs font-bold text-indigo-300">3. Where in real life might you use this?</span>
+                <span className="text-xs font-bold text-gold-300">3. Where in real life might you use this?</span>
                 <p className="text-xs text-slate-400">
                   e.g., Selecting the optimal payment rail (UPI vs IMPS vs RTGS) for vendor remittances, understanding buyer rights under RBI zero-liability fraud rules, and deciding whether business perils can be insured under IRDAI policies.
                 </p>
@@ -2257,7 +2257,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           </div>
 
           {/* Real-World Activity: Boardroom Plan */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/70 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/70 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-lg">📋</span>
               <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2266,7 +2266,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2.5">
-                  <span className="px-2 py-0.5 bg-indigo-950 text-indigo-400 rounded font-mono font-bold mt-0.5">{idx + 1}</span>
+                  <span className="px-2 py-0.5 bg-gold-950 text-gold-400 rounded font-mono font-bold mt-0.5">{idx + 1}</span>
                   <span>{step}</span>
                 </div>
               ))}
@@ -2276,7 +2276,7 @@ function C11_BusinessStudiesEbankingOnlineServicesSim({
           {/* Spaced Repetition Schedule Banner */}
           <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-400 flex justify-between items-center font-mono">
             <span>SM-2 Memory Retention Schedule:</span>
-            <span className="text-indigo-400 font-bold">
+            <span className="text-gold-400 font-bold">
               Review due in {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
             </span>
           </div>

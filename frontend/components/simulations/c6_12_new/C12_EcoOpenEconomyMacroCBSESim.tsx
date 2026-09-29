@@ -1132,7 +1132,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
       <header className="w-full bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
               ISC Class 12 Economics
             </span>
             <span className="text-slate-400 text-xs">Chapter: Open Economy Macroeconomics</span>
@@ -1162,7 +1162,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
           onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
             activeTab === 'discovery'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1173,7 +1173,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
             activeTab === 'lab'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1184,7 +1184,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
           onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
             activeTab === 'challenges'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1195,7 +1195,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
           onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
             activeTab === 'summary'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1209,12 +1209,12 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
           {/* Scenario & Context */}
           <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl flex flex-col justify-between">
             <div>
-              <h2 className="text-xl font-bold text-indigo-400 mb-3">Central Bank Operational Context</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-3">Central Bank Operational Context</h2>
               <p className="text-slate-300 mb-4 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-sm leading-relaxed">{SCENARIO.context}</p>
             </div>
-            <div className="mt-6 p-4 bg-indigo-950/40 border border-indigo-800/40 rounded-xl">
-              <h4 className="text-sm font-semibold text-indigo-300 mb-1">Key Open Economy Links:</h4>
+            <div className="mt-6 p-4 bg-gold-950/40 border border-gold-800/40 rounded-xl">
+              <h4 className="text-sm font-semibold text-gold-300 mb-1">Key Open Economy Links:</h4>
               <ul className="text-xs text-slate-300 space-y-1 list-disc list-inside">
                 <li>Output Linkage: International Trade in Goods & Services</li>
                 <li>Financial Linkage: Cross-Border Capital Flows (FDI & FPI)</li>
@@ -1238,7 +1238,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                     onClick={() => { setDiscoveryAns(idx); audioManager.play('tap'); }}
                     className={`w-full text-left p-3 rounded-xl border transition-all text-sm ${
                       discoveryAns === idx
-                        ? 'bg-indigo-600/30 border-indigo-500 text-white'
+                        ? 'bg-gold-600/30 border-gold-500 text-white'
                         : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
@@ -1253,12 +1253,12 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                 <button
                   disabled={discoveryAns === null}
                   onClick={handleDiscoverySubmit}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-800 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Confirm Hypothesis
                 </button>
               ) : (
-                <div className="p-4 bg-slate-950 rounded-xl border border-indigo-500/30">
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-500/30">
                   <p className="text-sm text-slate-200">{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1322,11 +1322,11 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                 onClick={() => { setSelectedLabIndex(idx); audioManager.play('tap'); }}
                 className={`p-3 rounded-xl border text-left transition-all flex flex-col justify-between ${
                   selectedLabIndex === idx
-                    ? 'bg-indigo-600/30 border-indigo-500 text-white shadow-md'
+                    ? 'bg-gold-600/30 border-gold-500 text-white shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                 }`}
               >
-                <span className="text-xs font-bold text-indigo-400">Lab Step {idx + 1}</span>
+                <span className="text-xs font-bold text-gold-400">Lab Step {idx + 1}</span>
                 <span className="text-xs font-semibold mt-1 text-slate-200 line-clamp-2">{step.title}</span>
               </button>
             ))}
@@ -1343,7 +1343,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
             {selectedLabIndex === 0 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase">BoP Ledger Controls</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase">BoP Ledger Controls</h3>
 
                   <div>
                     <div className="flex justify-between text-xs mb-1">
@@ -1355,7 +1355,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       max="250"
                       value={goodsExp}
                       onChange={(e) => setGoodsExp(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1369,7 +1369,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       max="250"
                       value={goodsImp}
                       onChange={(e) => setGoodsImp(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1383,7 +1383,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       max="100"
                       value={netInvisibles}
                       onChange={(e) => setNetInvisibles(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1415,7 +1415,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       </span>
                     </div>
                     <div className="flex justify-between border-t border-slate-800 pt-2">
-                      <span className="text-indigo-300 font-bold">Required RBI Accommodating Action:</span>
+                      <span className="text-gold-300 font-bold">Required RBI Accommodating Action:</span>
                       <span className="text-amber-400 font-bold">
                         {bopAccommodatingNeed > 0 ? `Sell $${bopAccommodatingNeed}B Forex Reserves` : `Buy $${Math.abs(bopAccommodatingNeed)}B Forex Reserves`}
                       </span>
@@ -1475,7 +1475,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       max="150"
                       value={exportDemand}
                       onChange={(e) => setExportDemand(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1496,7 +1496,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                   <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Interest Spread (Domestic - Foreign):</span>
-                      <span className="text-indigo-400 font-bold">{netInterestDiff.toFixed(1)}%</span>
+                      <span className="text-gold-400 font-bold">{netInterestDiff.toFixed(1)}%</span>
                     </div>
                     <div className="flex justify-between mt-1">
                       <span className="text-slate-400">Equilibrium Exchange Rate:</span>
@@ -1519,7 +1519,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
             {selectedLabIndex === 2 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h3 className="text-sm font-bold text-sky-300 uppercase">Multiplier Parameters</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase">Multiplier Parameters</h3>
 
                   <div>
                     <div className="flex justify-between text-xs mb-1">
@@ -1532,7 +1532,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       step="0.05"
                       value={mpc}
                       onChange={(e) => setMpc(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1562,7 +1562,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       step="50"
                       value={autonomousExp}
                       onChange={(e) => setAutonomousExp(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1572,8 +1572,8 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       <span className="text-slate-300 font-bold">{(1 / (1 - mpc)).toFixed(2)}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sky-300 font-bold">Open Economy Multiplier (1 / 1-c+m):</span>
-                      <span className="text-sky-400 font-extrabold text-sm">{openMultiplier.toFixed(2)}</span>
+                      <span className="text-gold-300 font-bold">Open Economy Multiplier (1 / 1-c+m):</span>
+                      <span className="text-gold-400 font-extrabold text-sm">{openMultiplier.toFixed(2)}</span>
                     </div>
                     <div className="flex justify-between border-t border-slate-800 pt-2">
                       <span className="text-emerald-400 font-bold">Equilibrium Income (Y*):</span>
@@ -1642,7 +1642,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
             {selectedLabIndex === 4 && (
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h3 className="text-sm font-bold text-violet-300 uppercase">Inflation & Parity Controls</h3>
+                  <h3 className="text-sm font-bold text-gold-300 uppercase">Inflation & Parity Controls</h3>
 
                   <div>
                     <div className="flex justify-between text-xs mb-1">
@@ -1655,7 +1655,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                       step="0.5"
                       value={domesticInf}
                       onChange={(e) => setDomesticInf(Number(e.target.value))}
-                      className="w-full accent-violet-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1677,7 +1677,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                   <div className="p-4 bg-slate-900 rounded-lg border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Inflation Differential (Domestic - Foreign):</span>
-                      <span className="text-violet-400 font-bold">{(domesticInf - foreignInf).toFixed(1)}%</span>
+                      <span className="text-gold-400 font-bold">{(domesticInf - foreignInf).toFixed(1)}%</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Expected PPP Currency Depreciation:</span>
@@ -1693,7 +1693,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col justify-center text-xs space-y-3">
-                  <h4 className="font-bold text-violet-400 text-sm">Relative Purchasing Power Parity Theorem</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Relative Purchasing Power Parity Theorem</h4>
                   <p className="text-slate-300 leading-relaxed">
                     Percentage change in nominal exchange rate %ΔE equals the inflation differential (π_domestic - π_foreign).
                   </p>
@@ -1706,7 +1706,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
 
             {/* OBSERVATION QUESTIONS AT BOTTOM OF LAB */}
             <div className="mt-4 border-t border-slate-800 pt-6">
-              <h3 className="text-md font-bold text-indigo-400 mb-4">Lab Observation Questions</h3>
+              <h3 className="text-md font-bold text-gold-400 mb-4">Lab Observation Questions</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {OBSERVATION_QUESTIONS.map((oq, oqIdx) => (
                   <div key={oqIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
@@ -1748,7 +1748,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                   onClick={() => { setActiveDifficulty(diff); setCurrentChallengeIndex(0); audioManager.play('tap'); }}
                   className={`py-1.5 rounded font-semibold capitalize transition-all ${
                     activeDifficulty === diff
-                      ? 'bg-indigo-600 text-white'
+                      ? 'bg-gold-600 text-white'
                       : 'bg-slate-950 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
@@ -1769,7 +1769,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                     onClick={() => { setCurrentChallengeIndex(idx); audioManager.play('tap'); }}
                     className={`p-2 rounded-lg text-xs font-bold border transition-all flex flex-col items-center justify-center gap-1 ${
                       isCurrent
-                        ? 'bg-indigo-600 border-white text-white'
+                        ? 'bg-gold-600 border-white text-white'
                         : isCompleted
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-400'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
@@ -1790,7 +1790,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                 <div>
                   <div className="flex justify-between items-center mb-4">
                     <div className="flex items-center gap-2">
-                      <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-400 text-xs font-bold rounded-full uppercase">
+                      <span className="px-2.5 py-1 bg-gold-500/20 text-gold-400 text-xs font-bold rounded-full uppercase">
                         {currentChallenge.difficulty} Tier
                       </span>
                       <span className="text-xs text-slate-400">Competency: {currentChallenge.competencyLevel}</span>
@@ -1818,11 +1818,11 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                           onClick={() => { setUserMcqAnswer(oIdx); audioManager.play('tap'); }}
                           className={`w-full text-left p-4 rounded-xl border text-sm transition-all ${
                             userMcqAnswer === oIdx
-                              ? 'bg-indigo-600/30 border-indigo-500 text-white font-medium'
+                              ? 'bg-gold-600/30 border-gold-500 text-white font-medium'
                               : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:border-slate-700'
                           }`}
                         >
-                          <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + oIdx)}.</span>
+                          <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span>
                           {opt}
                         </button>
                       ))}
@@ -1839,7 +1839,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
                         value={userNumericAnswer}
                         onChange={(e) => setUserNumericAnswer(e.target.value)}
                         placeholder="Type numeric answer..."
-                        className="w-full p-4 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-indigo-500"
+                        className="w-full p-4 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-lg focus:outline-none focus:border-gold-500"
                       />
                     </div>
                   )}
@@ -1870,7 +1870,7 @@ export const C12_EcoOpenEconomyMacroCBSESim: React.FC<SimProps> = ({ onComplete 
 
                   <button
                     onClick={handleChallengeAnswer}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg transition-all"
                   >
                     Submit Answer
                   </button>

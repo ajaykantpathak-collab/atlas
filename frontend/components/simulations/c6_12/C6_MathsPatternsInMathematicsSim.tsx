@@ -315,10 +315,10 @@ export function C6_MathsPatternsInMathematicsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100 shadow-2xl">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700">🔵</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🔵</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 6 Maths — Patterns in Mathematics</p>
-          <h1 className="text-xl md:text-2xl font-black text-violet-300">Sequences You Can See: dots, gaps &amp; gnomons</h1>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 6 Maths — Patterns in Mathematics</p>
+          <h1 className="text-xl md:text-2xl font-black text-gold-300">Sequences You Can See: dots, gaps &amp; gnomons</h1>
         </div>
         <div className="text-right">
           <span className="font-mono text-xs text-slate-400 block">1 + 3 + … + (2n−1) = n²</span>
@@ -337,7 +337,7 @@ export function C6_MathsPatternsInMathematicsSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-violet-600 border-violet-500 text-white shadow-lg shadow-violet-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -352,8 +352,8 @@ export function C6_MathsPatternsInMathematicsSim() {
       {/* ============================================================ */}
       {tab === 'predict' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-violet-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-violet-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               Add the first five ODD numbers: 1 + 3 + 5 + 7 + 9. Before any arithmetic — which
               &quot;famous&quot; number do you bet the total is?
@@ -367,7 +367,7 @@ export function C6_MathsPatternsInMathematicsSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 1;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-violet-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -402,7 +402,7 @@ export function C6_MathsPatternsInMathematicsSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-violet-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -431,19 +431,19 @@ export function C6_MathsPatternsInMathematicsSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>terms shown</span>
-                <span className="font-mono text-violet-300">{terms}</span>
+                <span className="font-mono text-gold-300">{terms}</span>
               </label>
               <input type="range" min={4} max={12} step={1} value={terms} aria-label="terms shown"
                 onChange={(e) => { setTerms(Number(e.target.value)); setHi(Math.min(hi, Number(e.target.value))); }}
-                className="w-full mt-1 min-h-11 accent-violet-500" />
+                className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>highlighted term n</span>
-                <span className="font-mono text-violet-300">{hi}</span>
+                <span className="font-mono text-gold-300">{hi}</span>
               </label>
               <input type="range" min={1} max={terms} step={1} value={hi} aria-label="highlighted term"
-                onChange={(e) => setHi(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-violet-500" />
+                onChange={(e) => setHi(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
           </div>
 
@@ -499,7 +499,7 @@ export function C6_MathsPatternsInMathematicsSim() {
                 ].map((x) => (
                   <div key={x.k} className="p-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
                     <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">{x.k}</p>
-                    <p className="font-mono text-sm font-bold text-violet-300">{x.v}</p>
+                    <p className="font-mono text-sm font-bold text-gold-300">{x.v}</p>
                   </div>
                 ))}
               </div>
@@ -559,13 +559,13 @@ export function C6_MathsPatternsInMathematicsSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>layers (odd numbers)</span>
-                <span className="font-mono text-violet-300">{layers}</span>
+                <span className="font-mono text-gold-300">{layers}</span>
               </label>
               <input type="range" min={1} max={9} step={1} value={layers} aria-label="layers"
-                onChange={(e) => setLayers(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-violet-500" />
+                onChange={(e) => setLayers(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div className="flex items-end gap-2">
-              <button onClick={() => { setBuilt(0); setPlay(true); }} className="min-h-11 px-4 py-2 rounded-xl bg-violet-600 border border-violet-500 text-xs font-bold text-white transition-all">
+              <button onClick={() => { setBuilt(0); setPlay(true); }} className="min-h-11 px-4 py-2 rounded-xl bg-gold-600 border border-gold-500 text-xs font-bold text-white transition-all">
                 ▶ build the square
               </button>
               <button onClick={() => setBuilt(layers)} className="min-h-11 px-4 py-2 rounded-xl bg-slate-800 border border-slate-700 text-xs font-bold text-slate-200">
@@ -659,7 +659,7 @@ export function C6_MathsPatternsInMathematicsSim() {
             {(['all', 'foundation', 'standard', 'advanced'] as const).map((t) => (
               <button key={t} onClick={() => setTierFilter(t)}
                 className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all capitalize ${
-                  tierFilter === t ? 'bg-violet-600 border-violet-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                  tierFilter === t ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                 }`}>
                 {t}
               </button>
@@ -683,7 +683,7 @@ export function C6_MathsPatternsInMathematicsSim() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {ch.options.map((opt, i) => {
                     const isCorrect = i === ch.correctIndex;
-                    let cls = 'border-slate-700 bg-slate-900 hover:border-violet-600';
+                    let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                     if (done && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                     else if (done && picked === i) cls = 'border-rose-600 bg-rose-950/40';
                     return (
@@ -745,7 +745,7 @@ export function C6_MathsPatternsInMathematicsSim() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-violet-300 uppercase tracking-wider mb-2">Pattern dictionary (all live in this sim)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Pattern dictionary (all live in this sim)</p>
               <ul className="text-xs text-slate-300 space-y-1.5 font-mono leading-relaxed">
                 <li>counting: 1, 2, 3 … (+1)</li>
                 <li>odd / even: +2 steppers</li>
@@ -758,7 +758,7 @@ export function C6_MathsPatternsInMathematicsSim() {
               </ul>
             </div>
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-violet-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
               <ul className="text-xs text-slate-400 space-y-1.5 leading-relaxed">
                 <li>• Every term on screen is integer arithmetic from the rule — no rounding anywhere in this chapter.</li>
                 <li>• The green/amber colouring of gap chips is computed per row: a row lights green ONLY when every gap is truly identical.</li>

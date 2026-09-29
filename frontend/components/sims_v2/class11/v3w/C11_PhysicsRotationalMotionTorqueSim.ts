@@ -11,7 +11,7 @@ export const w_c11_physicsrotationalmotiontorquesim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Newton\'s Third Law: Action and Reaction',
     chapters: [],
     nodeIds: ['c11_phy_cbse_04_004', 'c11_phy_cbse_04_007', 'c11_phy_cbse_04_014', 'c11_phy_cbse_06_002', 'c11_phy_cbse_06_003', 'c11_phy_cbse_06_004', 'c11_phy_cbse_06_005', 'c11_phy_cbse_06_006', 'c11_phy_cbse_06_012', 'c11_phy_cbse_06_013', 'c11_phy_cbse_06_015', 'c11_phy_cbse_04_003', 'c11_phy_cbse_06_007', 'c11_phy_cbse_06_011', 'c11_phy_cbse_06_014'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Place a heavy book on a spring balance held vertically. Observe the reading.', goal: 'Master Newton\'s Third Law: Action and Reaction.' },
     discovery: {
         question: 'A student argues: "A book lying on a table is in equilibrium because the weight **mg** and the normal reaction **R** are an action-reaction pair, so they.',
@@ -20,7 +20,7 @@ export const w_c11_physicsrotationalmotiontorquesim: SimDef = {
         hook: 'Students often believe that **"equilibrium means no forces act on the particle"** or that **"action-reaction pairs.',
     },
     teaching: [
-        { title: 'Newton\'s Third Law states that for every.', text: 'Newton\'s Third Law states that for every force exerted by body A on body B, there exists a simultaneous force of equal magnitude but opposite direction exerted by body B on body A.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Newton\'s Third Law states that for every.', text: 'Newton\'s Third Law states that for every force exerted by body A on body B, there exists a simultaneous force of equal magnitude but opposite direction exerted by body B on body A.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_04_004', title: 'Newton\'s Third Law states that for.',

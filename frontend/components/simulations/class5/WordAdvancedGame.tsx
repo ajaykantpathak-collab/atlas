@@ -64,14 +64,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Advanced Formatting & Format Painter 🖌️",
     text: "The Format Painter is like a magic styling photocopier! It copies font style, size, and color from one heading and applies it instantly to another without copying the words.",
     emoji: "🖌️",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "The Format Painter is like a magic styling photocopier! It copies font style and color from one heading and applies it to another instantly."
   },
   {
     title: "Superscript & Subscript 🔣",
     text: "Superscript raises text slightly above the baseline for math exponents like x²! Subscript lowers text below the baseline for chemical formulas like H₂O.",
     emoji: "🔣",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Superscript raises text above the line for math like x squared! Subscript lowers text below the line for chemistry like H2O."
   },
   {
@@ -92,7 +92,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "WordArt, Watermarks & Cover Pages ✨",
     text: "WordArt gives titles 3D and shadow effects. Watermarks place faint text like DRAFT behind your content. Borders frame paragraphs, and cover pages introduce your project beautifully!",
     emoji: "✨",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "WordArt gives titles 3D and shadow effects. Watermarks place faint text like DRAFT behind your content. Cover pages introduce your project!"
   },
 ];
@@ -293,9 +293,9 @@ function DesignerDev({ mood, speaking }: { mood: MascotMood; speaking: string | 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[220px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[220px] border-2 border-gold-200"
           >
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -534,7 +534,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: Sor
       width={110}
       height={95}
     >
-      <div className="flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-indigo-300 bg-white/95 backdrop-blur cursor-grab active:cursor-grabbing p-1" style={{ width: 110, height: 95 }}>
+      <div className="flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-300 bg-white/95 backdrop-blur cursor-grab active:cursor-grabbing p-1" style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 42)}
         <span className="text-[10px] font-bold text-gray-800 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -735,7 +735,7 @@ export function WordAdvancedGame({ width = 720, height = 560, onComplete }: Word
         <div className="flex items-center gap-4 text-white font-bold text-sm">
           <span>Score: {score}</span>
           {screen === 'play' && (
-            <span className="bg-indigo-600 px-3 py-1 rounded-full text-xs">
+            <span className="bg-gold-600 px-3 py-1 rounded-full text-xs">
               Challenge {challengeIdx + 1} / {CHALLENGES.length}
             </span>
           )}
@@ -750,18 +750,18 @@ export function WordAdvancedGame({ width = 720, height = 560, onComplete }: Word
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
-            className="bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl max-w-xl w-full border-4 border-indigo-300 flex flex-col items-center text-center"
+            className="bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl max-w-xl w-full border-4 border-gold-300 flex flex-col items-center text-center"
           >
             <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${TEACHING_SLIDES[slideIdx].bgColor} flex items-center justify-center text-3xl shadow-lg mb-3`}>
               {TEACHING_SLIDES[slideIdx].emoji}
             </div>
-            <h2 className="text-xl font-black text-indigo-950 mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
+            <h2 className="text-xl font-black text-gold-950 mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
             <p className="text-slate-700 text-sm leading-relaxed mb-6 px-2">{TEACHING_SLIDES[slideIdx].text}</p>
 
             <div className="flex items-center justify-between w-full mt-auto pt-4 border-t border-slate-200">
               <div className="flex gap-1.5">
                 {TEACHING_SLIDES.map((_, i) => (
-                  <div key={i} className={`w-2.5 h-2.5 rounded-full ${i === slideIdx ? 'bg-indigo-600' : 'bg-slate-300'}`} />
+                  <div key={i} className={`w-2.5 h-2.5 rounded-full ${i === slideIdx ? 'bg-gold-600' : 'bg-slate-300'}`} />
                 ))}
               </div>
               <div className="flex gap-2">
@@ -785,7 +785,7 @@ export function WordAdvancedGame({ width = 720, height = 560, onComplete }: Word
                       setScreen('play');
                     }
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl text-xs shadow-lg transition-all"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-700 text-white font-bold rounded-xl text-xs shadow-lg transition-all"
                 >
                   {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Designing!' : 'Next'}
                 </button>
@@ -800,8 +800,8 @@ export function WordAdvancedGame({ width = 720, height = 560, onComplete }: Word
             className="w-full max-w-2xl flex flex-col items-center"
           >
             {/* Question Card */}
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl p-5 shadow-xl border-2 border-indigo-200 w-full mb-4 text-center">
-              <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">Document Challenge</span>
+            <div className="bg-white/95 backdrop-blur-md rounded-2xl p-5 shadow-xl border-2 border-gold-200 w-full mb-4 text-center">
+              <span className="text-xs font-bold text-gold-600 uppercase tracking-wider">Document Challenge</span>
               <h3 className="text-base font-black text-slate-900 mt-1 mb-2">{currentChallenge.question}</h3>
               <button
                 onClick={handleShowHint}
@@ -848,7 +848,7 @@ export function WordAdvancedGame({ width = 720, height = 560, onComplete }: Word
                       <div
                         key={bin.id}
                         data-bin-id={bin.id}
-                        className="h-28 rounded-2xl border-4 border-dashed border-indigo-300 bg-white/70 backdrop-blur flex flex-col items-center justify-center p-2 shadow-inner transition-all"
+                        className="h-28 rounded-2xl border-4 border-dashed border-gold-300 bg-white/70 backdrop-blur flex flex-col items-center justify-center p-2 shadow-inner transition-all"
                       >
                         <div className="w-6 h-6 rounded-full mb-1 shadow-sm" style={{ backgroundColor: bin.color }} />
                         <span className="text-xs font-black text-slate-800 text-center">{bin.label}</span>

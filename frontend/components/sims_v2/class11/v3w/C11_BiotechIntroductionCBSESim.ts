@@ -11,7 +11,7 @@ export const w_c11_biotechintroductioncbsesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Ethical Issues in Biotechnology: Bioethics',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_01_009', 'c11_biotech_cbse_01_010', 'c11_biotech_cbse_01_011', 'c11_biotech_cbse_07_003', 'c11_biotech_cbse_01_001', 'c11_biotech_cbse_01_002', 'c11_biotech_cbse_01_003', 'c11_biotech_cbse_01_004', 'c11_biotech_cbse_01_006', 'c11_biotech_cbse_01_007', 'c11_biotech_cbse_01_008', 'c11_biotech_cbse_07_001', 'c11_biotech_cbse_07_002', 'c11_biotech_cbse_07_006', 'c11_biotech_cbse_07_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a 17-year-old student in Punjab reads about "Golden Rice" engineered to produce beta-carotene to.', goal: 'Master Ethical Issues in Biotechnology: Bioethics.' },
     discovery: {
         question: 'A student claims: "Since *E. coli* K-12 is a Risk Group 1 organism, any recombinant DNA experiment using this host can be performed at BSL-1 without IBSC.',
@@ -20,7 +20,7 @@ export const w_c11_biotechintroductioncbsesim: SimDef = {
         hook: 'Students believe "Biosafety Level" is determined *solely* by the pathogenicity of the *wild-type host organism* (e.g.,.',
     },
     teaching: [
-        { title: 'Bioethics in biotechnology is the systematic.', text: 'Bioethics in biotechnology is the systematic study of ethical principles—autonomy, beneficence, non-maleficence, and justice—applied to evaluate the moral permissibility of manipulating living.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Bioethics in biotechnology is the systematic.', text: 'Bioethics in biotechnology is the systematic study of ethical principles—autonomy, beneficence, non-maleficence, and justice—applied to evaluate the moral permissibility of manipulating living.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_01_009', title: 'Bioethics in biotechnology is the.',

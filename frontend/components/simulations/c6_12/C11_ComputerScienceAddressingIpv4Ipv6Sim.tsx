@@ -1129,12 +1129,12 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs uppercase tracking-wider text-indigo-400 font-bold">{subjectConfig.name} • Class 11 (ISC)</span>
+            <span className="text-xs uppercase tracking-wider text-gold-400 font-bold">{subjectConfig.name} • Class 11 (ISC)</span>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1151,7 +1151,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1169,14 +1169,14 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
           exit={{ opacity: 0, y: -15 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-500/20 shadow-xl">
-            <div className="flex items-center gap-2 mb-2 text-indigo-400 text-sm font-semibold">
-              <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-500/20 shadow-xl">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 text-sm font-semibold">
+              <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
               <span>MISSION DIRECTIVE</span>
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 leading-relaxed text-sm sm:text-base">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300/80 mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
               ⚡ {SCENARIO.context}
             </p>
           </div>
@@ -1200,7 +1200,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-950/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-indigo-500 hover:bg-slate-800/60'
+                      : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500 hover:bg-slate-800/60'
                   }`}
                 >
                   <span className="inline-block w-6 h-6 rounded-lg bg-slate-800 text-center text-xs font-bold mr-3 leading-6 text-slate-300">
@@ -1215,9 +1215,9 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-4 p-4 rounded-2xl bg-gold-950/40 border border-gold-800 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
-                <p className="text-sm text-indigo-200">
+                <p className="text-sm text-gold-200">
                   {discoveryCorrect
                     ? '🎉 Superb deduction! NAT bridges private and public address realms seamlessly.'
                     : DISCOVERY_QUESTION.hintAfter}
@@ -1229,7 +1229,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     setPhase('explore');
                     audioManager.play('whoosh');
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1248,7 +1248,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
         >
           <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg sm:text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1278,7 +1278,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     audioManager.play('celebration');
                   }
                 }}
-                className="px-4 py-1.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                className="px-4 py-1.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
               >
                 {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Go to Sandbox →' : 'Next Lab →'}
               </motion.button>
@@ -1297,7 +1297,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                 <div>
                   <div className="flex justify-between text-xs font-semibold mb-1">
                     <span className="text-slate-300">Octet 1 (Class):</span>
-                    <span className="text-indigo-400 font-mono font-bold text-sm">{firstOctet}</span>
+                    <span className="text-gold-400 font-mono font-bold text-sm">{firstOctet}</span>
                   </div>
                   <input
                     type="range"
@@ -1309,7 +1309,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       setFirstOctet(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <div className="text-[10px] text-slate-500">0-127 A | 128-191 B | 192-223 C</div>
                 </div>
@@ -1317,7 +1317,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                 <div>
                   <div className="flex justify-between text-xs font-semibold mb-1">
                     <span className="text-slate-300">Octet 2:</span>
-                    <span className="text-sky-400 font-mono font-bold text-sm">{secondOctet}</span>
+                    <span className="text-gold-400 font-mono font-bold text-sm">{secondOctet}</span>
                   </div>
                   <input
                     type="range"
@@ -1326,7 +1326,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     value={secondOctet}
                     aria-label="Second Octet Slider"
                     onChange={(e) => setSecondOctet(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1367,7 +1367,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* REPRESENTATION 1: TOPIC-SPECIFIC SVG DIAGRAM (32-Bit Bit Allocation) */}
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                  <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Representation 1: 32-Bit Architecture SVG Diagram
                   </span>
                   <svg viewBox="0 0 520 180" className="w-full h-auto bg-slate-900 rounded-xl p-2 border border-slate-800">
@@ -1447,7 +1447,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">32-Bit Binary:</span>
-                      <span className="text-indigo-300 text-[11px]">{ipClassInfo.fullBinary}</span>
+                      <span className="text-gold-300 text-[11px]">{ipClassInfo.fullBinary}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Subnet Mask:</span>
@@ -1462,11 +1462,11 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                   <div className="grid grid-cols-2 gap-2 text-[11px]">
                     <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="text-slate-400 font-sans font-bold">CIDR Notation</div>
-                      <div className="text-sky-400 font-bold text-sm mt-0.5">/{ipClassInfo.netBits}</div>
+                      <div className="text-gold-400 font-bold text-sm mt-0.5">/{ipClassInfo.netBits}</div>
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="text-slate-400 font-sans font-bold">Scope / Classification</div>
-                      <div className="text-indigo-400 font-bold text-sm mt-0.5">{ipClassInfo.type}</div>
+                      <div className="text-gold-400 font-bold text-sm mt-0.5">{ipClassInfo.type}</div>
                     </div>
                   </div>
                 </div>
@@ -1474,8 +1474,8 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
 
               {/* Predict-Then-Check */}
               {!predictionMade ? (
-                <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-2">
-                  <span className="text-xs text-indigo-300 font-bold uppercase tracking-wider">🔬 Prediction Challenge</span>
+                <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-2">
+                  <span className="text-xs text-gold-300 font-bold uppercase tracking-wider">🔬 Prediction Challenge</span>
                   <p className="text-xs text-white">{PREDICTION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                     {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1493,7 +1493,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                 </div>
               ) : (
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between text-xs">
-                  <span className="text-indigo-300">
+                  <span className="text-gold-300">
                     {predictionIndex === PREDICTION_QUESTIONS[0].correctIndex ? '✓ Correct Prediction!' : '⚡ Check Verification:'}
                   </span>
                   <span className="text-slate-400 text-[11px]">{PREDICTION_QUESTIONS[0].verifyInstruction}</span>
@@ -1510,7 +1510,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                   <h3 className="text-base font-bold text-white">LAN to WAN Network Address Translation (NAT) Topology</h3>
                   <p className="text-xs text-slate-400">Click any internal computer to dispatch an HTTP packet to the Web Server.</p>
                 </div>
-                <div className="px-3 py-1 bg-indigo-900/50 rounded-full text-xs text-indigo-300 border border-indigo-700">
+                <div className="px-3 py-1 bg-gold-900/50 rounded-full text-xs text-gold-300 border border-gold-700">
                   Public IP: 203.115.71.45
                 </div>
               </div>
@@ -1603,7 +1603,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     }}
                     className={`px-5 py-2 rounded-2xl text-xs font-bold transition-all ${
                       selectedCloudModel === model
-                        ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                        ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                         : 'bg-slate-800 text-slate-400 hover:text-white'
                     }`}
                   >
@@ -1757,7 +1757,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     }}
                     className={`px-4 py-2 rounded-2xl text-xs font-bold ${
                       collectionType === col
-                        ? 'bg-indigo-600 text-white'
+                        ? 'bg-gold-600 text-white'
                         : 'bg-slate-800 text-slate-300'
                     }`}
                   >
@@ -1774,13 +1774,13 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       value={collectionInput}
                       onChange={(e) => setCollectionInput(e.target.value)}
                       placeholder="Add city or string item..."
-                      className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-indigo-500 flex-grow"
+                      className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500 flex-grow"
                     />
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleAddCollectionItem}
-                      className="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                     >
                       + Add Item
                     </motion.button>
@@ -1803,8 +1803,8 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {collectionItems.map((item, idx) => (
-                        <span key={idx} className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-800 rounded-xl text-xs font-mono">
-                          {collectionType === 'List' && <span className="text-indigo-400 mr-1">[{idx}]</span>}
+                        <span key={idx} className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-800 rounded-xl text-xs font-mono">
+                          {collectionType === 'List' && <span className="text-gold-400 mr-1">[{idx}]</span>}
                           {item}
                         </span>
                       ))}
@@ -1832,7 +1832,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handlePutMapEntry}
-                      className="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                     >
                       put(k, v)
                     </motion.button>
@@ -1871,11 +1871,11 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 bg-slate-900/90 rounded-3xl border border-slate-800">
             <div className="space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase">Subnet Calculator Tool</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase">Subnet Calculator Tool</h3>
               <div>
                 <label className="text-xs text-slate-300 font-semibold flex justify-between">
                   <span>First Octet:</span>
-                  <span className="font-mono text-indigo-400">{sandboxOctet}</span>
+                  <span className="font-mono text-gold-400">{sandboxOctet}</span>
                 </label>
                 <input
                   type="range"
@@ -1884,7 +1884,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                   value={sandboxOctet}
                   aria-label="Sandbox Octet"
                   onChange={(e) => setSandboxOctet(Number(e.target.value))}
-                  className="w-full accent-indigo-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
 
@@ -1905,13 +1905,13 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 text-xs font-mono space-y-1">
-                <div>Total Usable Host IP Addresses: <span className="text-sky-400 font-bold">{Math.pow(2, 32 - sandboxBits) - 2}</span></div>
+                <div>Total Usable Host IP Addresses: <span className="text-gold-400 font-bold">{Math.pow(2, 32 - sandboxBits) - 2}</span></div>
                 <div>Host Bits Available: <span className="text-amber-400">{32 - sandboxBits} bits</span></div>
               </div>
             </div>
 
             <div className="space-y-2">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase">Live WAN Packet Inspection</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase">Live WAN Packet Inspection</h3>
               <canvas
                 ref={canvasRef}
                 width={450}
@@ -1950,7 +1950,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                 <span className="text-xs uppercase tracking-wider text-slate-400 font-bold">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="ml-2 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-indigo-950 text-indigo-300 border border-indigo-800 uppercase">
+                <span className="ml-2 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-gold-950 text-gold-300 border border-gold-800 uppercase">
                   {challenge.competencyLevel}
                 </span>
               </div>
@@ -1960,7 +1960,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                 animate={{ scale: 1 }}
                 className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                  difficulty === 'standard' ? 'bg-indigo-950 text-indigo-400 border border-indigo-800' :
+                  difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                   'bg-rose-950 text-rose-400 border border-rose-800'
                 }`}
               >
@@ -1970,7 +1970,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
 
             <div className="h-2 bg-slate-950 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2001,7 +2001,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     className={`w-full text-left p-4 rounded-2xl border text-sm font-medium transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-indigo-500 hover:bg-slate-800/60'
+                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500 hover:bg-slate-800/60'
                     }`}
                   >
                     <span className="inline-block w-6 h-6 rounded-lg bg-slate-800 text-center text-xs font-bold mr-3 leading-6 text-slate-300">
@@ -2023,7 +2023,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2050,7 +2050,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Target Mappings
                 </motion.button>
@@ -2082,7 +2082,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Confirm Sorted Sequence
                 </motion.button>
@@ -2097,7 +2097,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculation..."
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2105,7 +2105,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Submit
                   </motion.button>
@@ -2123,7 +2123,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-xl text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-950 border border-gold-700 text-gold-200 rounded-xl text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2132,7 +2132,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-700 text-white rounded-lg text-xs font-mono flex items-center gap-1">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-700 text-white rounded-lg text-xs font-mono flex items-center gap-1">
                       {part}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))} className="text-red-300 ml-1">✕</button>
                     </span>
@@ -2144,7 +2144,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Constructed Class
                 </motion.button>
@@ -2155,9 +2155,9 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800/80 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800/80 rounded-2xl space-y-3"
               >
-                <div className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                <div className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                   📋 Technical Breakdown:
                 </div>
 
@@ -2168,7 +2168,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-xs sm:text-sm text-slate-200 leading-relaxed"
                   >
-                    <strong className="text-indigo-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                    <strong className="text-gold-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
 
@@ -2178,7 +2178,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-800 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-800 text-white text-xs font-bold rounded-xl"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2216,7 +2216,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
               {Math.max(0, 100 - errors * 5)}%
             </div>
             <div className="text-xs text-slate-400">
-              BKT Cognitive Mastery Status: <span className="text-indigo-400 font-bold uppercase">{masteryLevel}</span>
+              BKT Cognitive Mastery Status: <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span>
             </div>
           </div>
 
@@ -2249,8 +2249,8 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
             </div>
           )}
 
-          <div className="p-5 bg-indigo-950/40 rounded-3xl border border-indigo-800/60 space-y-2 text-xs">
-            <h3 className="font-bold text-indigo-300 uppercase tracking-wider">Spaced Repetition Review Schedule</h3>
+          <div className="p-5 bg-gold-950/40 rounded-3xl border border-gold-800/60 space-y-2 text-xs">
+            <h3 className="font-bold text-gold-300 uppercase tracking-wider">Spaced Repetition Review Schedule</h3>
             <p className="text-slate-300">
               Next scheduled review in <span className="font-bold text-amber-300">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span> to maintain long-term memory retention.
             </p>
@@ -2262,7 +2262,7 @@ function C11_ComputerScienceAddressingIpv4Ipv6Sim({
             <div className="space-y-1.5 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

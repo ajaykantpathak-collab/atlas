@@ -874,11 +874,11 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
       {/* ─── HEADER BAR ─── */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between shadow-xl">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center shadow-lg shadow-gold-500/20">
             <span className="text-xl font-black text-white">KT</span>
           </div>
           <div>
-            <h1 className="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-300 to-indigo-300">
+            <h1 className="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300">
               Kinetic Theory of Gases Lab
             </h1>
             <p className="text-xs text-slate-400">{SCENARIO.title}</p>
@@ -892,11 +892,11 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
             <div className="flex items-center space-x-2">
               <div className="w-24 h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                 <div
-                  className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 transition-all duration-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-500 transition-all duration-500"
                   style={{ width: `${overallMastery}%` }}
                 />
               </div>
-              <span className="text-xs font-bold text-cyan-400">{overallMastery}%</span>
+              <span className="text-xs font-bold text-gold-400">{overallMastery}%</span>
             </div>
           </div>
 
@@ -925,7 +925,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
             }}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all duration-200 whitespace-nowrap ${
               activeTab === tab.id
-                ? 'bg-cyan-500 text-slate-950 font-bold shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 font-bold shadow-md shadow-gold-500/20'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -948,10 +948,10 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
             >
               {/* Mission Scenario Briefing */}
               <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
-                <h2 className="text-2xl font-bold text-cyan-400 mb-2">{SCENARIO.title}</h2>
+                <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+                <h2 className="text-2xl font-bold text-gold-400 mb-2">{SCENARIO.title}</h2>
                 <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-                <div className="bg-cyan-950/40 border border-cyan-800/40 rounded-xl p-4 text-xs text-cyan-200">
+                <div className="bg-gold-950/40 border border-gold-800/40 rounded-xl p-4 text-xs text-gold-200">
                   <span className="font-bold">Mission Context:</span> {SCENARIO.context}
                 </div>
               </div>
@@ -991,7 +991,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                     animate={{ opacity: 1, height: 'auto' }}
                     className="p-4 rounded-xl bg-slate-800/90 border border-slate-700 space-y-2 text-xs"
                   >
-                    <div className="flex items-center space-x-2 text-cyan-400 font-bold">
+                    <div className="flex items-center space-x-2 text-gold-400 font-bold">
                       <span>Scientific Explanation:</span>
                     </div>
                     <p className="text-slate-300 leading-relaxed">{DISCOVERY_QUESTION.explanation}</p>
@@ -1000,7 +1000,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                         setActiveTab('learn');
                         audioManager.play('swoop');
                       }}
-                      className="mt-2 px-5 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-lg shadow-lg shadow-cyan-500/20 transition-all text-xs"
+                      className="mt-2 px-5 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-lg shadow-lg shadow-gold-500/20 transition-all text-xs"
                     >
                       Proceed to Core Concepts →
                     </button>
@@ -1033,7 +1033,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                         audioManager.play('tap');
                       }}
                       className={`w-8 h-2 rounded-full transition-all ${
-                        currentSlideIndex === i ? 'bg-cyan-400' : 'bg-slate-800 hover:bg-slate-700'
+                        currentSlideIndex === i ? 'bg-gold-400' : 'bg-slate-800 hover:bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1047,20 +1047,20 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                   <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
                     <div className="lg:col-span-7 space-y-4">
                       <div>
-                        <h2 className="text-xl font-bold text-cyan-400">{slide.title}</h2>
+                        <h2 className="text-xl font-bold text-gold-400">{slide.title}</h2>
                         <p className="text-xs text-slate-400 font-medium">{slide.subtitle}</p>
                       </div>
 
                       <p className="text-sm text-slate-300 leading-relaxed">{slide.content}</p>
 
                       {slide.formula && (
-                        <div className="p-3 bg-slate-950 border border-cyan-900/40 rounded-xl text-center font-mono text-cyan-300 font-bold text-base tracking-widest shadow-inner">
+                        <div className="p-3 bg-slate-950 border border-gold-900/40 rounded-xl text-center font-mono text-gold-300 font-bold text-base tracking-widest shadow-inner">
                           {slide.formula}
                         </div>
                       )}
 
-                      <div className="p-3 bg-indigo-950/40 border border-indigo-800/40 rounded-xl text-xs text-indigo-300">
-                        <span className="font-bold text-indigo-400">Key Takeaway: </span>
+                      <div className="p-3 bg-gold-950/40 border border-gold-800/40 rounded-xl text-xs text-gold-300">
+                        <span className="font-bold text-gold-400">Key Takeaway: </span>
                         {slide.keyTakeaway}
                       </div>
 
@@ -1081,7 +1081,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                               setCurrentSlideIndex((prev) => prev + 1);
                               audioManager.play('swoop');
                             }}
-                            className="px-4 py-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-lg text-xs font-bold shadow-md shadow-cyan-500/20"
+                            className="px-4 py-2 bg-gold-500 hover:bg-gold-400 text-slate-950 rounded-lg text-xs font-bold shadow-md shadow-gold-500/20"
                           >
                             Next Slide →
                           </button>
@@ -1204,7 +1204,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                   {/* Canvas 1: Piston Container */}
                   <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl">
                     <div className="flex items-center justify-between mb-3">
-                      <h3 className="text-sm font-bold text-cyan-400 flex items-center space-x-2">
+                      <h3 className="text-sm font-bold text-gold-400 flex items-center space-x-2">
                         <span>Piston Particle Simulation Chamber</span>
                       </h3>
                       <span className="text-xs text-slate-400 font-mono">
@@ -1222,7 +1222,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                   {/* Canvas 2: Maxwell-Boltzmann Graph */}
                   <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl">
                     <div className="flex items-center justify-between mb-3">
-                      <h3 className="text-sm font-bold text-indigo-400">
+                      <h3 className="text-sm font-bold text-gold-400">
                         Live Maxwell-Boltzmann Speed Distribution Curve
                       </h3>
                       <span className="text-xs text-slate-400">T = {labTemp} K</span>
@@ -1247,7 +1247,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                     <div className="grid grid-cols-2 gap-3">
                       <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
                         <span className="text-[10px] text-slate-400 uppercase tracking-wider block">Pressure (P)</span>
-                        <span className="text-lg font-black text-cyan-400">{calculatedPhysics.pressureAtm} atm</span>
+                        <span className="text-lg font-black text-gold-400">{calculatedPhysics.pressureAtm} atm</span>
                         <span className="text-[10px] text-slate-500 block">{calculatedPhysics.pressureBar} bar</span>
                       </div>
 
@@ -1264,7 +1264,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
 
                       <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
                         <span className="text-[10px] text-slate-400 uppercase tracking-wider block">Internal Energy (U)</span>
-                        <span className="text-lg font-black text-indigo-400">{calculatedPhysics.internalEnergykJ} kJ</span>
+                        <span className="text-lg font-black text-gold-400">{calculatedPhysics.internalEnergykJ} kJ</span>
                       </div>
                     </div>
                   </div>
@@ -1288,7 +1288,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                             }}
                             className={`py-2 text-xs font-bold rounded-lg border transition-all ${
                               gasType === g
-                                ? 'bg-cyan-500 text-slate-950 border-cyan-400'
+                                ? 'bg-gold-500 text-slate-950 border-gold-400'
                                 : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-750'
                             }`}
                           >
@@ -1302,7 +1302,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                     <div>
                       <div className="flex justify-between items-center text-xs mb-1">
                         <span className="text-slate-300 font-medium">Temperature (T)</span>
-                        <span className="font-bold text-cyan-400">{labTemp} K</span>
+                        <span className="font-bold text-gold-400">{labTemp} K</span>
                       </div>
                       <input
                         type="range"
@@ -1314,7 +1314,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                           setLabTemp(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
 
@@ -1322,7 +1322,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                     <div>
                       <div className="flex justify-between items-center text-xs mb-1">
                         <span className="text-slate-300 font-medium">Volume (V)</span>
-                        <span className="font-bold text-cyan-400">{labVolume.toFixed(1)} L</span>
+                        <span className="font-bold text-gold-400">{labVolume.toFixed(1)} L</span>
                       </div>
                       <input
                         type="range"
@@ -1334,7 +1334,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                           setLabVolume(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
 
@@ -1342,7 +1342,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                     <div>
                       <div className="flex justify-between items-center text-xs mb-1">
                         <span className="text-slate-300 font-medium">Simulated Particle Count</span>
-                        <span className="font-bold text-cyan-400">{particleCount}</span>
+                        <span className="font-bold text-gold-400">{particleCount}</span>
                       </div>
                       <input
                         type="range"
@@ -1354,7 +1354,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                           setParticleCount(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1376,7 +1376,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
               <div className="flex items-center justify-between bg-slate-900 border border-slate-800 rounded-xl p-4">
                 <div>
                   <span className="text-xs text-slate-400 block font-semibold">Diagnostic Challenge</span>
-                  <span className="text-sm font-bold text-cyan-400">
+                  <span className="text-sm font-bold text-gold-400">
                     {currentChallengeIdx + 1} of {CHALLENGES.length}
                   </span>
                 </div>
@@ -1407,7 +1407,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                             }}
                             className={`p-4 rounded-xl text-left text-sm transition-all flex items-start space-x-3 border ${
                               userSelectedOption === idx
-                                ? 'bg-cyan-950/60 border-cyan-400 text-cyan-200'
+                                ? 'bg-gold-950/60 border-gold-400 text-gold-200'
                                 : 'bg-slate-800/40 border-slate-700/60 hover:bg-slate-800 text-slate-300'
                             }`}
                           >
@@ -1429,7 +1429,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                             placeholder="Enter numerical answer..."
                             value={userNumericInput}
                             onChange={(e) => setUserNumericInput(e.target.value)}
-                            className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-base focus:border-cyan-400 focus:outline-none w-64"
+                            className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-base focus:border-gold-400 focus:outline-none w-64"
                           />
                           <span className="text-slate-400 font-bold text-sm">{challenge.unit}</span>
                         </div>
@@ -1452,7 +1452,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                                     onClick={() => handleDragDrop(item.targetId, option.label)}
                                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${
                                       dragState[item.targetId] === option.label
-                                        ? 'bg-cyan-500 text-slate-950 border-cyan-400'
+                                        ? 'bg-gold-500 text-slate-950 border-gold-400'
                                         : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                                     }`}
                                   >
@@ -1471,7 +1471,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                       {!challengeSubmitted ? (
                         <button
                           onClick={handleChallengeSubmit}
-                          className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-cyan-500/20 transition-all text-xs"
+                          className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-gold-500/20 transition-all text-xs"
                         >
                           Submit Answer
                         </button>
@@ -1553,7 +1553,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
               className="space-y-6 max-w-3xl mx-auto w-full text-center"
             >
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-xl space-y-6">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-cyan-500 to-emerald-500 mx-auto flex items-center justify-center shadow-lg shadow-cyan-500/30">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-gold-500 to-emerald-500 mx-auto flex items-center justify-center shadow-lg shadow-gold-500/30">
                   <span className="text-3xl font-black text-slate-950">✓</span>
                 </div>
 
@@ -1571,7 +1571,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                   </div>
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <span className="text-[10px] text-slate-400 uppercase block">Mastery Index</span>
-                    <span className="text-xl font-bold text-cyan-400">{overallMastery}%</span>
+                    <span className="text-xl font-bold text-gold-400">{overallMastery}%</span>
                   </div>
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 col-span-2 sm:col-span-1">
                     <span className="text-[10px] text-slate-400 uppercase block">Nodes Mastered</span>
@@ -1589,7 +1589,7 @@ export default function C11_PhysicsKineticTheoryGasesCBSESim() {
                     setChallengeSubmitted(false);
                     audioManager.play('swoop');
                   }}
-                  className="px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-cyan-500/20 transition-all text-xs"
+                  className="px-8 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl shadow-lg shadow-gold-500/20 transition-all text-xs"
                 >
                   Restart Diagnostics Simulation 🔄
                 </button>

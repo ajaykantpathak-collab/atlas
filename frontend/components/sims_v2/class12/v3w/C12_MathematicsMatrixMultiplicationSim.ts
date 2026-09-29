@@ -11,7 +11,7 @@ export const w_c12_mathematicsmatrixmultiplicationsim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Matrix: Definition and Types',
     chapters: [],
     nodeIds: ['c12_math_cbse_03_001', 'c12_math_cbse_03_003', 'c12_math_cbse_03_004', 'c12_math_cbse_03_005', 'c12_math_cbse_03_006', 'c12_math_cbse_03_007', 'c12_math_cbse_03_008', 'c12_math_cbse_03_010', 'c12_math_cbse_04_003', 'c12_math_cbse_01_009', 'c12_math_cbse_03_002', 'c12_math_cbse_03_009', 'c12_math_cbse_03_011', 'c12_math_cbse_04_001', 'c12_math_cbse_04_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are the class monitor and need to record the marks of 40 students in 5 subjects.', goal: 'Master Matrix: Definition and Types.' },
     discovery: {
         question: 'A student writes: "The matrix B = [5] is a row matrix because it has one row." Is this correct? Explain why or why not.',
@@ -20,7 +20,7 @@ export const w_c12_mathematicsmatrixmultiplicationsim: SimDef = {
         hook: 'Students confuse the notation a_ij: they think the first subscript is column and the second is row (i.e., a_ij =.',
     },
     teaching: [
-        { title: 'A matrix is an ordered rectangular array of.', text: 'A matrix is an ordered rectangular array of numbers or functions arranged in rows and columns, denoted by a capital letter. The individual items are called elements or entries.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A matrix is an ordered rectangular array of.', text: 'A matrix is an ordered rectangular array of numbers or functions arranged in rows and columns, denoted by a capital letter. The individual items are called elements or entries.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_03_001', title: 'A matrix is an ordered rectangular.',

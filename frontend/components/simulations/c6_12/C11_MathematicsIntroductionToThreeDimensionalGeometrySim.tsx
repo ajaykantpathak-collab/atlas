@@ -53,9 +53,9 @@ export function C11_MathematicsIntroductionToThreeDimensionalGeometrySim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-blue-950/80 rounded-2xl border border-blue-700 font-mono">xyz</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">xyz</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-blue-400">Class 11 -- Three Dimensional Geometry</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Three Dimensional Geometry</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Coordinates in Space: Point P on a Turntable</h1>
         </div>
       </div>
@@ -93,31 +93,31 @@ export function C11_MathematicsIntroductionToThreeDimensionalGeometrySim() {
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-2 gap-2">
             <div><span className="text-slate-500">OP = sqrt(x^2+y^2+z^2)</span><div className="text-amber-300 font-bold text-sm">{opDist.toFixed(3)}</div></div>
-            <div><span className="text-slate-500">Octant (sign pattern)</span><div className="text-violet-300 font-bold text-sm">{octant}</div></div>
+            <div><span className="text-slate-500">Octant (sign pattern)</span><div className="text-gold-300 font-bold text-sm">{octant}</div></div>
             <div><span className="text-slate-500">P to x-axis = sqrt(y^2+z^2)</span><div className="text-pink-300 font-bold text-sm">{dX.toFixed(3)}</div></div>
             <div><span className="text-slate-500">P to y-axis</span><div className="text-emerald-300 font-bold text-sm">{dY.toFixed(3)}</div></div>
-            <div><span className="text-slate-500">P to z-axis</span><div className="text-sky-300 font-bold text-sm">{dZ.toFixed(3)}</div></div>
+            <div><span className="text-slate-500">P to z-axis</span><div className="text-gold-300 font-bold text-sm">{dZ.toFixed(3)}</div></div>
             <div><span className="text-slate-500">Pythagoras check: PF^2 + OF^2</span><div className="text-slate-300 font-bold text-sm">{(pz * pz + px * px + py * py).toFixed(2)} = OP^2 = {(opDist * opDist).toFixed(2)}</div></div>
           </div>
         </div>
 
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
-            {([['x', px, setPx, 'text-pink-400'], ['y', py, setPy, 'text-emerald-400'], ['z', pz, setPz, 'text-sky-400']] as [string, number, (n: number) => void, string][]).map(([lbl, val, set, col]) => (
+            {([['x', px, setPx, 'text-pink-400'], ['y', py, setPy, 'text-emerald-400'], ['z', pz, setPz, 'text-gold-400']] as [string, number, (n: number) => void, string][]).map(([lbl, val, set, col]) => (
               <div key={lbl}>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Coordinate {lbl}</span><span className={`font-mono font-bold ${col}`}>{val}</span>
                 </div>
                 <input type="range" min={-10} max={10} step={1} value={val} aria-label={`Coordinate ${lbl}`}
-                  onChange={(e) => set(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  onChange={(e) => set(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
             ))}
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>View azimuth (rotate room)</span><span className="font-mono font-bold text-violet-400">{((azimuth * 180) / Math.PI).toFixed(0)} deg</span>
+                <span>View azimuth (rotate room)</span><span className="font-mono font-bold text-gold-400">{((azimuth * 180) / Math.PI).toFixed(0)} deg</span>
               </div>
               <input type="range" min={0} max={6.28} step={0.02} value={azimuth} aria-label="View azimuth"
-                onChange={(e) => setAzimuth(Number(e.target.value))} className="w-full accent-violet-500" />
+                onChange={(e) => setAzimuth(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div className="grid grid-cols-4 gap-1">
               {[
@@ -134,8 +134,8 @@ export function C11_MathematicsIntroductionToThreeDimensionalGeometrySim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-blue-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-blue-300 font-bold">Octant decoder</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Octant decoder</div>
             <div className="text-slate-400">signs of (x, y, z) name the octant:</div>
             <div className="text-slate-400">(+,+,+) = I, (-,+,+) = II, (-,-,+) = III, (+,-,+) = IV</div>
             <div className="text-slate-400">(+,+,-) = V, (-,+,-) = VI, (-,-,-) = VII, (+,-,-) = VIII</div>
@@ -152,8 +152,8 @@ export function C11_MathematicsIntroductionToThreeDimensionalGeometrySim() {
             </p>
           </div>
 
-          <div className="bg-blue-950/40 rounded-2xl border border-blue-800/50 p-4 text-xs">
-            <p className="font-bold text-blue-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Find a point equidistant (distance 5) from all three axes -- what must x^2 = y^2 = z^2 be?</p>
             <p>2. Visit all three preset points and list their octants; then flip z of B from 3 to -3 and confirm it crosses exactly one plane (z = 0).</p>
           </div>

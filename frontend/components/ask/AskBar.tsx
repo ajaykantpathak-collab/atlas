@@ -58,7 +58,7 @@ function MathPreview({ text }: { text: string }) {
     } catch { html = '' }
     if (!html) return null
     return (
-        <div className="px-4 py-3 rounded-xl bg-indigo-500/5 border border-indigo-500/20 overflow-x-auto"
+        <div className="px-4 py-3 rounded-xl bg-gold-500/5 border border-gold-500/20 overflow-x-auto"
             dangerouslySetInnerHTML={{ __html: sanitizeHtml(html) }} />
     )
 }
@@ -82,7 +82,7 @@ export default function AskBar({
     const fileRef = useRef<HTMLInputElement>(null)
 
     const accents = {
-        indigo: 'from-indigo-500 to-indigo-600 shadow-indigo-500/20',
+        indigo: 'from-gold-500 to-gold-600 shadow-gold-500/20',
         mint: 'from-emerald-500 to-emerald-600 shadow-emerald-500/20',
         pink: 'from-pink-500 to-pink-600 shadow-pink-500/20',
     }[accent]
@@ -140,7 +140,7 @@ export default function AskBar({
                         <div className="flex flex-wrap gap-1.5 p-3 mb-2 rounded-xl bg-white/[0.03] border border-white/10">
                             {MATH_SYMBOLS.map(({ s, ins }) => (
                                 <button key={s} onClick={() => insertSymbol(ins)}
-                                    className="min-w-[34px] px-1.5 py-1.5 rounded-lg bg-white/5 hover:bg-indigo-500/20 hover:text-indigo-200 text-surface-200 text-sm font-mono transition-colors">
+                                    className="min-w-[34px] px-1.5 py-1.5 rounded-lg bg-white/5 hover:bg-gold-500/20 hover:text-gold-200 text-surface-200 text-sm font-mono transition-colors">
                                     {s}
                                 </button>
                             ))}
@@ -168,7 +168,7 @@ export default function AskBar({
                 <button
                     onClick={() => setMathMode(m => !m)}
                     title="Math mode — symbols + preview"
-                    className={`shrink-0 w-11 h-11 rounded-xl border flex items-center justify-center transition-colors ${mathMode ? 'bg-indigo-500/20 border-indigo-500/40 text-indigo-300' : 'bg-white/5 border-white/10 text-surface-400 hover:text-surface-200'}`}
+                    className={`shrink-0 w-11 h-11 rounded-xl border flex items-center justify-center transition-colors ${mathMode ? 'bg-gold-500/20 border-gold-500/40 text-gold-300' : 'bg-white/5 border-white/10 text-surface-400 hover:text-surface-200'}`}
                 >
                     <Sigma className="w-5 h-5" />
                 </button>
@@ -180,10 +180,10 @@ export default function AskBar({
                     onKeyDown={e => e.key === 'Enter' && submit()}
                     placeholder={mathMode ? 'x^2 + 5x + 6 = 0 — symbols insert at cursor' : placeholder}
                     disabled={busy}
-                    className="flex-1 h-11 px-4 rounded-xl bg-white/5 border border-white/10 text-surface-100 placeholder:text-surface-500 text-sm font-body focus:outline-none focus:border-indigo-500/50 focus:bg-white/[0.07] transition-all disabled:opacity-50"
+                    className="flex-1 h-11 px-4 rounded-xl bg-white/5 border border-white/10 text-surface-100 placeholder:text-surface-500 text-sm font-body focus:outline-none focus:border-gold-500/50 focus:bg-white/[0.07] transition-all disabled:opacity-50"
                 />
 
-                <label className={`shrink-0 w-11 h-11 rounded-xl border flex items-center justify-center cursor-pointer transition-colors ${extracting ? 'bg-indigo-500/20 border-indigo-500/40' : 'bg-white/5 border-white/10 hover:bg-white/10'}`}
+                <label className={`shrink-0 w-11 h-11 rounded-xl border flex items-center justify-center cursor-pointer transition-colors ${extracting ? 'bg-gold-500/20 border-gold-500/40' : 'bg-white/5 border-white/10 hover:bg-white/10'}`}
                     title="Snap a photo of the problem">
                     <input
                         ref={fileRef}
@@ -193,7 +193,7 @@ export default function AskBar({
                         className="hidden"
                         onChange={e => { const f = e.target.files?.[0]; if (f) onPhoto(f); e.target.value = '' }}
                     />
-                    {extracting ? <Loader2 className="w-5 h-5 text-indigo-300 animate-spin" /> : <Camera className="w-5 h-5 text-surface-300" />}
+                    {extracting ? <Loader2 className="w-5 h-5 text-gold-300 animate-spin" /> : <Camera className="w-5 h-5 text-surface-300" />}
                 </label>
 
                 <motion.button
@@ -208,7 +208,7 @@ export default function AskBar({
             </div>
 
             {extracting && (
-                <div className="mt-2 flex items-center gap-2 text-xs text-indigo-300/80">
+                <div className="mt-2 flex items-center gap-2 text-xs text-gold-300/80">
                     <ImageIcon className="w-3.5 h-3.5" /> Reading the photo…
                 </div>
             )}

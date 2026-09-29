@@ -966,11 +966,11 @@ const MentalRepresentationDiagram: React.FC<{ activeTab: string }> = ({ activeTa
   return (
     <div className="w-full bg-slate-900 border border-slate-800 rounded-xl p-4 shadow-xl text-white">
       <div className="flex justify-between items-center mb-2 border-b border-slate-800 pb-2">
-        <h4 className="text-sm font-semibold text-cyan-400 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
+        <h4 className="text-sm font-semibold text-gold-400 flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-gold-400 animate-pulse"></span>
           Cognitive Architecture: Mental Representations & Neural Encoding
         </h4>
-        <span className="text-xs bg-cyan-950 text-cyan-300 px-2 py-0.5 rounded border border-cyan-800">
+        <span className="text-xs bg-gold-950 text-gold-300 px-2 py-0.5 rounded border border-gold-800">
           Nodes 154-157
         </span>
       </div>
@@ -1160,8 +1160,8 @@ const LanguageThoughtDiagram: React.FC = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
         {/* Piaget */}
-        <div className="bg-slate-950 p-3 rounded-lg border border-indigo-900/60 hover:border-indigo-500 transition-colors">
-          <div className="text-indigo-400 font-bold mb-1 border-b border-indigo-950 pb-1">PIAGET</div>
+        <div className="bg-slate-950 p-3 rounded-lg border border-gold-900/60 hover:border-gold-500 transition-colors">
+          <div className="text-gold-400 font-bold mb-1 border-b border-gold-950 pb-1">PIAGET</div>
           <p className="text-slate-300 font-semibold text-[11px] mb-1">Thought Determines Language</p>
           <p className="text-slate-400 text-[10px]">Egocentric speech reflects cognitive immaturity. Language is a vehicle for internal schemas formed first.</p>
         </div>
@@ -1209,11 +1209,11 @@ const MentalRotationLabWidget: React.FC = () => {
   }, [angle, isFlipped]);
 
   return (
-    <div className="bg-slate-950 p-4 rounded-xl border border-cyan-800/80 text-white space-y-4">
+    <div className="bg-slate-950 p-4 rounded-xl border border-gold-800/80 text-white space-y-4">
       <div className="flex justify-between items-center">
-        <h3 className="text-sm font-bold text-cyan-300">Mental Rotation Visualizer (Shepard & Metzler Paradigm)</h3>
-        <span className="text-xs bg-cyan-900/50 text-cyan-200 px-2.5 py-1 rounded-full border border-cyan-700">
-          Latency: <strong className="text-cyan-400">{reactionTimeMs} ms</strong>
+        <h3 className="text-sm font-bold text-gold-300">Mental Rotation Visualizer (Shepard & Metzler Paradigm)</h3>
+        <span className="text-xs bg-gold-900/50 text-gold-200 px-2.5 py-1 rounded-full border border-gold-700">
+          Latency: <strong className="text-gold-400">{reactionTimeMs} ms</strong>
         </span>
       </div>
 
@@ -1240,7 +1240,7 @@ const MentalRotationLabWidget: React.FC = () => {
           <div>
             <div className="flex justify-between text-xs mb-1">
               <span className="text-slate-300">Rotation Angle:</span>
-              <span className="text-cyan-400 font-bold">{angle}°</span>
+              <span className="text-gold-400 font-bold">{angle}°</span>
             </div>
             <input
               type="range"
@@ -1252,7 +1252,7 @@ const MentalRotationLabWidget: React.FC = () => {
                 setAngle(parseInt(e.target.value));
                 audioManager.play('pop');
               }}
-              className="w-full accent-cyan-500 cursor-pointer"
+              className="w-full accent-gold-500 cursor-pointer"
             />
           </div>
 
@@ -1273,7 +1273,7 @@ const MentalRotationLabWidget: React.FC = () => {
           </div>
 
           <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 text-[11px] text-slate-300">
-            <p className="font-semibold text-cyan-400 mb-1">Psychological Insight:</p>
+            <p className="font-semibold text-gold-400 mb-1">Psychological Insight:</p>
             Mental rotation speed averages ~60° per second. Notice how latency increases linearly with angular disorientation, demonstrating that spatial imagery operates as an analog mental transformation!
           </div>
         </div>
@@ -1387,7 +1387,7 @@ const ProblemSolvingLabWidget: React.FC = () => {
               className={`w-full py-2 px-3 text-xs rounded-lg font-bold border transition-all ${
                 isCandleMounted
                   ? 'bg-emerald-900 text-emerald-300 border-emerald-700'
-                  : 'bg-cyan-600 hover:bg-cyan-500 text-slate-950 border-cyan-400'
+                  : 'bg-gold-600 hover:bg-gold-500 text-slate-950 border-gold-400'
               }`}
             >
               2. Tack Empty Box to Wall & Place Candle Inside
@@ -1495,7 +1495,7 @@ const DivergentThinkingLabWidget: React.FC = () => {
           <div className="grid grid-cols-2 gap-2">
             <div className="bg-slate-950 p-2 rounded border border-slate-800 text-center">
               <span className="text-[10px] text-slate-400 uppercase">Fluency (Count)</span>
-              <p className="text-lg font-extrabold text-cyan-400">{fluency}</p>
+              <p className="text-lg font-extrabold text-gold-400">{fluency}</p>
             </div>
             <div className="bg-slate-950 p-2 rounded border border-slate-800 text-center">
               <span className="text-[10px] text-slate-400 uppercase">Flexibility (Categories)</span>
@@ -1677,13 +1677,13 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
       {/* HEADER BAR */}
       <header className="flex flex-col md:flex-row justify-between items-start md:items-center bg-slate-900 border border-slate-800 rounded-2xl p-4 gap-4 shadow-2xl">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center font-black text-xl text-white shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-black text-xl text-white shadow-lg">
             Ψ
           </div>
           <div>
             <h1 className="text-lg sm:text-xl font-black tracking-tight text-white flex items-center gap-2">
               THINKING & PSYCHOLINGUISTICS
-              <span className="text-xs font-normal bg-indigo-950 text-indigo-300 border border-indigo-800 px-2 py-0.5 rounded-full">
+              <span className="text-xs font-normal bg-gold-950 text-gold-300 border border-gold-800 px-2 py-0.5 rounded-full">
                 ISC Class 11
               </span>
             </h1>
@@ -1697,10 +1697,10 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
         <div className="flex flex-wrap items-center gap-3 w-full md:w-auto justify-between md:justify-end">
           <div className="flex items-center gap-2 bg-slate-950 border border-slate-800 px-3 py-1.5 rounded-xl text-xs">
             <span className="text-slate-400">Mastery:</span>
-            <span className="font-bold text-cyan-400">{overallMastery}%</span>
+            <span className="font-bold text-gold-400">{overallMastery}%</span>
             <div className="w-16 bg-slate-800 h-2 rounded-full overflow-hidden ml-1">
               <div
-                className="bg-gradient-to-r from-cyan-500 to-indigo-500 h-full transition-all duration-500"
+                className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-500"
                 style={{ width: `${overallMastery}%` }}
               ></div>
             </div>
@@ -1715,7 +1715,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
               }}
               className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 activeTab === 'discovery'
-                  ? 'bg-cyan-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1728,7 +1728,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
               }}
               className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 activeTab === 'lab'
-                  ? 'bg-cyan-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1741,7 +1741,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
               }}
               className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 activeTab === 'challenges'
-                  ? 'bg-cyan-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1754,7 +1754,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
               }}
               className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 activeTab === 'summary'
-                  ? 'bg-cyan-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1775,9 +1775,9 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
       {activeTab === 'discovery' && (
         <div className="space-y-6">
           {/* Scenario Banner */}
-          <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-900/60 rounded-2xl p-6 shadow-xl space-y-3">
+          <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-900/60 rounded-2xl p-6 shadow-xl space-y-3">
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-1 bg-indigo-900/60 text-indigo-300 rounded text-xs font-bold border border-indigo-700">
+              <span className="px-2.5 py-1 bg-gold-900/60 text-gold-300 rounded text-xs font-bold border border-gold-700">
                 SCENARIO NARRATIVE
               </span>
               <h2 className="text-xl font-bold text-white">{SCENARIO.title}</h2>
@@ -1790,8 +1790,8 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
 
           {/* Discovery Question Card */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-gold-400"></span>
               Discovery Challenge: Counterintuitive Cognitive Paradox
             </h3>
             <p className="text-sm text-slate-200">{DISCOVERY_QUESTION.question}</p>
@@ -1808,23 +1808,23 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
                       audioManager.play('drop-wrong');
                     }
                   }}
-                  className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl text-xs text-left text-slate-300 border border-slate-800 hover:border-cyan-500/50 transition-all flex items-start gap-2"
+                  className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl text-xs text-left text-slate-300 border border-slate-800 hover:border-gold-500/50 transition-all flex items-start gap-2"
                 >
-                  <span className="font-bold text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   <span>{opt}</span>
                 </button>
               ))}
             </div>
 
             <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs text-slate-400">
-              <strong className="text-cyan-400">Key Takeaway Hint:</strong> {DISCOVERY_QUESTION.hintAfter}
+              <strong className="text-gold-400">Key Takeaway Hint:</strong> {DISCOVERY_QUESTION.hintAfter}
             </div>
           </div>
 
           {/* Mandatory Prediction Questions Section */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-gold-400"></span>
               Hypothesis & Prediction Questions
             </h3>
 
@@ -1844,13 +1844,13 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
                             audioManager.play('drop-wrong');
                           }
                         }}
-                        className="p-2.5 bg-slate-900 hover:bg-slate-800 rounded-lg text-xs text-left text-slate-300 border border-slate-800 hover:border-indigo-500 transition-all"
+                        className="p-2.5 bg-slate-900 hover:bg-slate-800 rounded-lg text-xs text-left text-slate-300 border border-slate-800 hover:border-gold-500 transition-all"
                       >
                         {opt}
                       </button>
                     ))}
                   </div>
-                  <p className="text-[11px] text-indigo-400 italic">Verify Instruction: {pq.verifyInstruction}</p>
+                  <p className="text-[11px] text-gold-400 italic">Verify Instruction: {pq.verifyInstruction}</p>
                 </div>
               ))}
             </div>
@@ -1881,7 +1881,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
                   }}
                   className={`p-3 rounded-xl text-xs text-left font-semibold border transition-all ${
                     selectedLabIndex === idx
-                      ? 'bg-cyan-600 text-white border-cyan-400 shadow-lg'
+                      ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                       : 'bg-slate-950 text-slate-400 border-slate-800 hover:bg-slate-800 hover:text-white'
                   }`}
                 >
@@ -1896,14 +1896,14 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
             <div className="border-b border-slate-800 pb-3 flex justify-between items-center">
               <div>
-                <h3 className="text-lg font-bold text-cyan-300">
+                <h3 className="text-lg font-bold text-gold-300">
                   {EXPLORATION_STEPS[selectedLabIndex].title}
                 </h3>
                 <p className="text-xs text-slate-400 mt-1">
                   {EXPLORATION_STEPS[selectedLabIndex].instruction}
                 </p>
               </div>
-              <span className="text-xs bg-cyan-950 text-cyan-300 px-2.5 py-1 rounded border border-cyan-800">
+              <span className="text-xs bg-gold-950 text-gold-300 px-2.5 py-1 rounded border border-gold-800">
                 Node: {EXPLORATION_STEPS[selectedLabIndex].nodeId}
               </span>
             </div>
@@ -1912,11 +1912,11 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
             {selectedLabIndex === 0 && <MentalRotationLabWidget />}
             {selectedLabIndex === 1 && <ProblemSolvingLabWidget />}
             {selectedLabIndex === 2 && (
-              <div className="bg-slate-950 p-4 rounded-xl border border-indigo-800 space-y-4 text-white">
-                <h4 className="text-sm font-bold text-indigo-300">Syllogistic Deductive Reasoning Workbench</h4>
+              <div className="bg-slate-950 p-4 rounded-xl border border-gold-800 space-y-4 text-white">
+                <h4 className="text-sm font-bold text-gold-300">Syllogistic Deductive Reasoning Workbench</h4>
                 <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 text-xs space-y-2">
-                  <p className="font-semibold text-indigo-400">Premise 1: All psychological phenomena are brain-based.</p>
-                  <p className="font-semibold text-indigo-400">Premise 2: Memory is a psychological phenomenon.</p>
+                  <p className="font-semibold text-gold-400">Premise 1: All psychological phenomena are brain-based.</p>
+                  <p className="font-semibold text-gold-400">Premise 2: Memory is a psychological phenomenon.</p>
                   <p className="font-bold text-emerald-400">Conclusion: Therefore, memory is brain-based.</p>
                   <p className="text-[11px] text-slate-400">Status: Deductively Valid & Sound Argument!</p>
                 </div>
@@ -1989,12 +1989,12 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
           {/* Challenge Progress Header */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-3">
-              <span className="w-8 h-8 rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 flex items-center justify-center font-bold text-xs">
+              <span className="w-8 h-8 rounded-full bg-gold-950 border border-gold-700 text-gold-300 flex items-center justify-center font-bold text-xs">
                 #{challengeIndex + 1}
               </span>
               <div>
                 <span className="text-xs text-slate-400 block">Competency Level: {currentChal.competencyLevel}</span>
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   {currentChal.difficulty} Tier • Node {currentChal.nodeId}
                 </span>
               </div>
@@ -2020,7 +2020,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
             {/* Options List */}
             <div className="space-y-3">
               {currentChal.options?.map((opt, idx) => {
-                let btnStyle = 'bg-slate-950 text-slate-300 border-slate-800 hover:border-cyan-500/50';
+                let btnStyle = 'bg-slate-950 text-slate-300 border-slate-800 hover:border-gold-500/50';
                 if (showExplanation) {
                   if (idx === currentChal.correctIndex) {
                     btnStyle = 'bg-emerald-950/80 text-emerald-200 border-emerald-500 font-bold';
@@ -2036,7 +2036,7 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
                     onClick={() => handleAnswerChallenge(idx)}
                     className={`w-full p-4 rounded-xl text-xs text-left border transition-all flex items-start gap-3 ${btnStyle}`}
                   >
-                    <span className="w-6 h-6 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-cyan-400 shrink-0">
+                    <span className="w-6 h-6 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-gold-400 shrink-0">
                       {String.fromCharCode(65 + idx)}
                     </span>
                     <span className="leading-relaxed">{opt}</span>
@@ -2049,13 +2049,13 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
             {showExplanation && (
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3 animate-fadeIn">
                 <div className="flex justify-between items-center border-b border-slate-800 pb-2">
-                  <span className="text-xs font-bold text-cyan-400">Psychological Explanation</span>
+                  <span className="text-xs font-bold text-gold-400">Psychological Explanation</span>
                   <span className="text-[10px] text-slate-400">SM-2 Spaced Repetition Updated</span>
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed">{currentChal.explanation}</p>
                 <button
                   onClick={handleNextChallenge}
-                  className="w-full py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg transition-all"
+                  className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl text-xs shadow-lg transition-all"
                 >
                   {challengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Challenge Module'}
                 </button>
@@ -2075,8 +2075,8 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
           {/* Diagnostic Test Box */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
-              <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+              <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-gold-400"></span>
                 ISC Diagnostic Assessment (8 Questions)
               </h3>
               <span className="text-xs text-slate-400">
@@ -2110,11 +2110,11 @@ export default function C11_PsyThinkingCBSESim({ onComplete = DEFAULT_PROPS.onCo
 
                 {diagSelected !== null && (
                   <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs text-slate-300 space-y-2">
-                    <p className="text-cyan-400 font-bold">Explanation:</p>
+                    <p className="text-gold-400 font-bold">Explanation:</p>
                     <p>{DIAGNOSTIC_QUESTIONS[diagIndex].explanation}</p>
                     <button
                       onClick={handleNextDiagnostic}
-                      className="mt-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs px-4 py-2 rounded-lg"
+                      className="mt-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs px-4 py-2 rounded-lg"
                     >
                       Next Diagnostic Question
                     </button>

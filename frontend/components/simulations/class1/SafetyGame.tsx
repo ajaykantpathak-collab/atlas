@@ -46,9 +46,9 @@ import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/
 const TEACHING_SLIDES = [
     { title: 'Welcome to Safety School! 🛡️', text: 'Accidents happen suddenly and can hurt us like a cut or a burn. Hazards are things around us that can cause accidents. Safety rules help us stay safe!', emoji: '🛡️', bgColor: 'from-amber-400 to-orange-500' },
     { title: 'Sharp Objects & Fire 🔪🔥', text: 'Knives, scissors, and broken glass can cut our skin. Matchsticks, candles, and stoves can burn us. Never touch them without a grown-up beside you!', emoji: '🔪', bgColor: 'from-red-400 to-rose-500' },
-    { title: 'Electricity & Falls ⚡🪜', text: 'Never touch a switch or socket with wet hands because water carries electricity and gives a shock. Walk slowly on stairs and never climb chairs or tables!', emoji: '⚡', bgColor: 'from-blue-400 to-indigo-500' },
+    { title: 'Electricity & Falls ⚡🪜', text: 'Never touch a switch or socket with wet hands because water carries electricity and gives a shock. Walk slowly on stairs and never climb chairs or tables!', emoji: '⚡', bgColor: 'from-gold-400 to-gold-500' },
     { title: 'Road Safety on Indian Roads 🚦🚶', text: 'Always hold a grown-up hand, walk on the footpath, and look left, then right, then left again before crossing the road where vehicles move fast!', emoji: '🚦', bgColor: 'from-emerald-400 to-teal-500' },
-    { title: 'When You Get Hurt 🩹👩‍⚕️', text: 'If you get a cut or burn, never hide it! Tell a teacher, parent, or grown-up right away so they can give first aid and keep you safe!', emoji: '🩹', bgColor: 'from-purple-400 to-indigo-600' },
+    { title: 'When You Get Hurt 🩹👩‍⚕️', text: 'If you get a cut or burn, never hide it! Tell a teacher, parent, or grown-up right away so they can give first aid and keep you safe!', emoji: '🩹', bgColor: 'from-purple-400 to-gold-600' },
 ];
 // ─── Types ────────────────────────────────────────────────────
 type ChallengeType = 'identify_road' | 'identify_fire' | 'identify_electricity' | 'sort_rules' | 'identify_footpath' | 'identify_hurt' | 'sort_safe_unsafe' | 'sort_locations';

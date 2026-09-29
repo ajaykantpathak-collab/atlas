@@ -55,7 +55,7 @@ export function C8_ScienceHealthTheUltimateTreasureSim() {
 
   const rows: [string, number, number, string, string][] = [
     ['Energy (kcal)', totals.kcal, NEED.kcal, 'bg-amber-500', 'fuel for play and study'],
-    ['Protein (g)', totals.protein, NEED.protein, 'bg-indigo-500', 'growth and repair'],
+    ['Protein (g)', totals.protein, NEED.protein, 'bg-gold-500', 'growth and repair'],
     ['Iron (mg)', Math.round(totals.iron * 10) / 10, NEED.iron, 'bg-rose-500', 'blood - fights anaemia'],
     ['Vitamin C (mg)', totals.vitC, NEED.vitC, 'bg-emerald-500', 'immunity, absorbs iron'],
   ];
@@ -75,7 +75,7 @@ export function C8_ScienceHealthTheUltimateTreasureSim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {([['Bal day', { rice: 2, dal: 2, orange: 1, greens: 1, egg: 1 }], ['Fast food day', { paratha: 1, chips: 2, cola: 2 }], ['Clear']] as [string, Record<string, number>][]).map(([label, preset]) => (
-          <button key={label} onClick={() => { setServings(preset); setDay((d) => d + 1); }} className="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+          <button key={label} onClick={() => { setServings(preset); setDay((d) => d + 1); }} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
             {label}
           </button>
         ))}

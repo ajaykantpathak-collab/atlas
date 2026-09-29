@@ -11,7 +11,7 @@ export const w_c11_politicalsciencesovereigntymeaningdefinitionsim: SimDef = {
     classLevel: 11, subject: 'political_science', topic: 'Why do we need a constitution: Functions and importance',
     chapters: [],
     nodeIds: ['c11_ps_cbse_10_002', 'c11_ps_cbse_09_010', 'c11_ps_cbse_07_004', 'c11_ps_cbse_06_002', 'c11_ps_cbse_06_010', 'c11_ps_cbse_01_003', 'c11_ps_cbse_01_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are playing a cricket match without any agreed-upon rules: no fixed number of players, no.', goal: 'Master Why do we need a constitution: Functions and importance.' },
     discovery: {
         question: 'Compare and contrast the role of "reason" in Political Theory versus its role in Mathematics, based on the NCERT\'s reference to Socrates and the statement:.',
@@ -20,7 +20,7 @@ export const w_c11_politicalsciencesovereigntymeaningdefinitionsim: SimDef = {
         hook: 'Students often think Political Theory is just "learning what famous dead philosophers like Plato or Marx said" — i.e.,.',
     },
     teaching: [
-        { title: 'A constitution is the fundamental law of a.', text: 'A constitution is the fundamental law of a country that establishes the framework of government, defines the relationship between different organs of government (legislature, executive, judiciary),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A constitution is the fundamental law of a.', text: 'A constitution is the fundamental law of a country that establishes the framework of government, defines the relationship between different organs of government (legislature, executive, judiciary),.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ps_cbse_10_002', title: 'A constitution is the fundamental law.',

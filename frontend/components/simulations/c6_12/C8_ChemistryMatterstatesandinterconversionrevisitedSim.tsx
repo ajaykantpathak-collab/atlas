@@ -421,12 +421,12 @@ const ParticleStateCanvas: React.FC<{
   return (
     <div className="bg-slate-900 p-4 rounded-xl text-white shadow-lg flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-2">
-        <span className="font-semibold text-sm text-cyan-300">Particle Kinetic Model Simulator</span>
+        <span className="font-semibold text-sm text-gold-300">Particle Kinetic Model Simulator</span>
         <span className="text-xs bg-slate-800 px-2 py-1 rounded border border-slate-700">c8_chem_001</span>
       </div>
       <canvas ref={canvasRef} width={380} height={240} className="bg-slate-950 rounded-lg border border-slate-800" />
       <div className="w-full mt-4 flex items-center space-x-3">
-        <span className="text-xs text-blue-400 font-bold">0 K (Cold)</span>
+        <span className="text-xs text-gold-400 font-bold">0 K (Cold)</span>
         <input
           type="range"
           min={0}
@@ -436,7 +436,7 @@ const ParticleStateCanvas: React.FC<{
             audioManager.play('pop');
             onTempChange(Number(e.target.value));
           }}
-          className="flex-1 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+          className="flex-1 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
         />
         <span className="text-xs text-red-400 font-bold">500 K (Hot)</span>
       </div>
@@ -638,7 +638,7 @@ const BohrAtomVisualizer: React.FC<{
         </div>
         <div className="flex justify-between">
           <span className="text-slate-400">Configuration:</span>
-          <span className="font-mono text-cyan-300">{elem.config.join(' , ')}</span>
+          <span className="font-mono text-gold-300">{elem.config.join(' , ')}</span>
         </div>
         <div className="flex justify-between">
           <span className="text-slate-400">Valence Electrons:</span>
@@ -681,7 +681,7 @@ const CrissCrossTool: React.FC = () => {
       <div className="grid grid-cols-2 gap-4 w-full my-3">
         {/* Cation Picker */}
         <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 flex flex-col items-center">
-          <span className="text-xs text-blue-400 font-bold mb-1">Metal / Cation</span>
+          <span className="text-xs text-gold-400 font-bold mb-1">Metal / Cation</span>
           <select
             value={cationZ}
             onChange={(e) => {
@@ -695,7 +695,7 @@ const CrissCrossTool: React.FC = () => {
             ))}
           </select>
           <div className="mt-3 text-center">
-            <div className="text-2xl font-bold text-blue-400">{cation.symbol}</div>
+            <div className="text-2xl font-bold text-gold-400">{cation.symbol}</div>
             <div className="text-xs text-amber-300 font-semibold">Valency = {cation.valency}</div>
           </div>
         </div>
@@ -728,7 +728,7 @@ const CrissCrossTool: React.FC = () => {
         <div className="flex items-center space-x-12 text-lg font-mono">
           <div className="flex flex-col items-center">
             <span className="text-amber-400 font-bold text-sm">{cation.valency}</span>
-            <span className="text-2xl text-blue-400 font-bold">{cation.symbol}</span>
+            <span className="text-2xl text-gold-400 font-bold">{cation.symbol}</span>
           </div>
           <div className="text-purple-400 text-xl font-bold">✕</div>
           <div className="flex flex-col items-center">
@@ -739,7 +739,7 @@ const CrissCrossTool: React.FC = () => {
 
         <div className="mt-4 pt-3 border-t border-slate-800 w-full text-center">
           <span className="text-xs text-slate-400">Resulting Formula: </span>
-          <span className="text-2xl font-mono font-extrabold text-cyan-300 tracking-wider ml-2">{formulaStr}</span>
+          <span className="text-2xl font-mono font-extrabold text-gold-300 tracking-wider ml-2">{formulaStr}</span>
         </div>
       </div>
     </div>
@@ -776,7 +776,7 @@ const SeparationLabBench: React.FC = () => {
   return (
     <div className="bg-slate-900 p-4 rounded-xl text-white shadow-lg flex flex-col items-center">
       <div className="w-full flex justify-between items-center mb-2">
-        <span className="font-semibold text-sm text-cyan-300">Virtual Separation Workbench</span>
+        <span className="font-semibold text-sm text-gold-300">Virtual Separation Workbench</span>
         <span className="text-xs bg-slate-800 px-2 py-1 rounded border border-slate-700">c8_chem_004</span>
       </div>
 
@@ -794,7 +794,7 @@ const SeparationLabBench: React.FC = () => {
                 setResultMsg('');
               }}
               className={`p-2 rounded text-xs text-left border font-semibold transition ${
-                selectedMixture === key ? 'bg-cyan-950 border-cyan-500 text-cyan-200' : 'bg-slate-950 border-slate-800 text-slate-300'
+                selectedMixture === key ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-950 border-slate-800 text-slate-300'
               }`}
             >
               {item.name}
@@ -988,7 +988,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
       {/* Header */}
       <header className="w-full max-w-5xl flex flex-col md:flex-row justify-between items-center mb-6 pb-4 border-b border-slate-800 gap-3">
         <div>
-          <span className="text-xs font-mono bg-cyan-950 text-cyan-400 border border-cyan-800 px-2 py-0.5 rounded">
+          <span className="text-xs font-mono bg-gold-950 text-gold-400 border border-gold-800 px-2 py-0.5 rounded">
             ICSE CLASS 8 CHEMISTRY
           </span>
           <h1 className="text-2xl font-extrabold text-white tracking-tight mt-1">{SCENARIO.title}</h1>
@@ -999,7 +999,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
         <div className="flex items-center space-x-4 bg-slate-900 border border-slate-800 px-4 py-2 rounded-xl">
           <div className="text-center">
             <div className="text-xs text-slate-400">Score</div>
-            <div className="text-lg font-extrabold text-cyan-400">{score}</div>
+            <div className="text-lg font-extrabold text-gold-400">{score}</div>
           </div>
           <div className="h-6 w-px bg-slate-800" />
           <div className="text-center">
@@ -1026,7 +1026,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
             }}
             className={`px-4 py-2 text-xs font-bold rounded-lg transition whitespace-nowrap ${
               activeTab === tab.id
-                ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                 : 'bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800'
             }`}
           >
@@ -1044,7 +1044,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
             animate={{ opacity: 1, y: 0 }}
             className="w-full bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl"
           >
-            <div className="flex items-center space-x-2 text-cyan-400 font-bold text-sm mb-3">
+            <div className="flex items-center space-x-2 text-gold-400 font-bold text-sm mb-3">
               <span>PREDICT BEFORE YOU LEARN</span>
             </div>
             <h2 className="text-lg font-bold text-white mb-4">{DISCOVERY_QUESTION.prompt}</h2>
@@ -1081,7 +1081,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                   audioManager.play('swoop');
                   setActiveTab('slides');
                 }}
-                className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-2.5 rounded-xl text-sm transition"
+                className="bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold px-6 py-2.5 rounded-xl text-sm transition"
               >
                 Proceed to Lessons →
               </button>
@@ -1138,7 +1138,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                     {slide.visualType === 'changes' && (
                       <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 w-full text-center space-y-3">
                         <span className="text-amber-400 font-bold text-sm block">Candle Dual Change Visualizer</span>
-                        <div className="p-3 bg-slate-900 rounded border border-blue-900/50 text-xs text-blue-300">
+                        <div className="p-3 bg-slate-900 rounded border border-gold-900/50 text-xs text-gold-300">
                           🧊 Wax Melting = Physical (State change from Solid to Liquid Wax, Reversible).
                         </div>
                         <div className="p-3 bg-slate-900 rounded border border-red-900/50 text-xs text-red-300">
@@ -1160,11 +1160,11 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                           </div>
                           <div className="text-center">
                             <div className="flex space-x-1 justify-center items-center">
-                              <div className="w-4 h-4 bg-cyan-400 rounded-full" />
+                              <div className="w-4 h-4 bg-gold-400 rounded-full" />
                               <div className="w-7 h-7 bg-red-500 rounded-full" />
-                              <div className="w-4 h-4 bg-cyan-400 rounded-full" />
+                              <div className="w-4 h-4 bg-gold-400 rounded-full" />
                             </div>
-                            <span className="text-xs font-bold text-cyan-400 mt-1 block">H₂O Molecule</span>
+                            <span className="text-xs font-bold text-gold-400 mt-1 block">H₂O Molecule</span>
                             <span className="text-[10px] text-slate-400">Different Elements = Compound</span>
                           </div>
                         </div>
@@ -1180,14 +1180,14 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                   {/* Right: Explanation & Key Takeaway */}
                   <div className="flex flex-col justify-between">
                     <div>
-                      <span className="text-xs font-mono text-cyan-400 font-bold">{slide.nodeId}</span>
+                      <span className="text-xs font-mono text-gold-400 font-bold">{slide.nodeId}</span>
                       <h2 className="text-xl font-extrabold text-white mt-1 mb-2">{slide.title}</h2>
                       <p className="text-xs text-amber-300 font-semibold mb-3">{slide.subtitle}</p>
                       <p className="text-xs text-slate-300 leading-relaxed mb-4">{slide.explanation}</p>
                     </div>
 
-                    <div className="bg-slate-950 p-3 rounded-xl border border-cyan-900/50 text-xs text-cyan-200">
-                      <span className="font-bold text-cyan-400 block mb-1">KEY TAKEAWAY:</span>
+                    <div className="bg-slate-950 p-3 rounded-xl border border-gold-900/50 text-xs text-gold-200">
+                      <span className="font-bold text-gold-400 block mb-1">KEY TAKEAWAY:</span>
                       {slide.keyTakeaway}
                     </div>
                   </div>
@@ -1221,7 +1221,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
             {/* Progress Bar */}
             <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden mb-4 border border-slate-800">
               <div
-                className="bg-cyan-500 h-full transition-all duration-300"
+                className="bg-gold-500 h-full transition-all duration-300"
                 style={{ width: `${((currentChallengeIdx + 1) / CHALLENGES.length) * 100}%` }}
               />
             </div>
@@ -1230,7 +1230,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
               <span className="text-xs text-slate-400 font-bold">
                 Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
               </span>
-              <span className="text-xs font-mono text-cyan-400 font-bold bg-slate-950 px-2 py-0.5 rounded">
+              <span className="text-xs font-mono text-gold-400 font-bold bg-slate-950 px-2 py-0.5 rounded">
                 Node: {currentChallenge.nodeId}
               </span>
             </div>
@@ -1292,7 +1292,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                     setChallengeCompleted(false);
                     setShowHint(false);
                   }}
-                  className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-5 py-2 rounded-xl text-xs transition"
+                  className="bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold px-5 py-2 rounded-xl text-xs transition"
                 >
                   Next Challenge →
                 </button>
@@ -1333,7 +1333,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                 return (
                   <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex justify-between items-center">
                     <div>
-                      <span className="text-[10px] font-mono text-cyan-400 block">{nodeId}</span>
+                      <span className="text-[10px] font-mono text-gold-400 block">{nodeId}</span>
                       <span className="text-xs text-slate-200 font-semibold">
                         {nodeId === NODE_C8_CHEM_001 && 'States & Interconversion'}
                         {nodeId === NODE_C8_CHEM_002 && 'Physical & Chemical Changes'}
@@ -1365,7 +1365,7 @@ export default function C8_ChemistryMatterstatesandinterconversionrevisitedSim()
                 setChallengeFeedback('');
                 setChallengeCompleted(false);
               }}
-              className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-2.5 rounded-xl text-xs transition"
+              className="bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold px-6 py-2.5 rounded-xl text-xs transition"
             >
               Restart Simulation Lab 🔄
             </button>

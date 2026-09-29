@@ -11,11 +11,11 @@ export const w_c11_economicsindianartarchitecturesim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Quality of Employment: Wages, Working Conditions and Social Security',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_011', 'c11_eco_cbse_07_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a 28-year-old delivery partner for a food aggregator platform in Bengaluru — he works 12-hour shifts,.', goal: 'Master Quality of Employment: Wages, Working Conditions and Social Security.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Quality of employment refers to the.', text: 'Quality of employment refers to the multidimensional assessment of a job beyond mere employment status, encompassing adequacy of wages (real wages adjusted for inflation and purchasing power),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Quality of employment refers to the.', text: 'Quality of employment refers to the multidimensional assessment of a job beyond mere employment status, encompassing adequacy of wages (real wages adjusted for inflation and purchasing power),.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_06_011', title: 'Quality of employment refers to the.',

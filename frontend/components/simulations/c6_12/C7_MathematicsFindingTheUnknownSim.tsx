@@ -33,7 +33,7 @@ export function C7_MathematicsFindingTheUnknownSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Finding the Unknown: The Balance Method</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Finding the Unknown: The Balance Method</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Balance scale */}
@@ -57,7 +57,7 @@ export function C7_MathematicsFindingTheUnknownSim() {
                 </g>
               )}
               <g transform="translate(96, 112)">
-                <Peg n={Math.min(a, 8)} color="bg-sky-400" />
+                <Peg n={Math.min(a, 8)} color="bg-gold-400" />
               </g>
             </g>
             {/* right pan */}
@@ -128,8 +128,8 @@ export function C7_MathematicsFindingTheUnknownSim() {
       {/* Equation builders */}
       <div className="grid grid-cols-3 gap-3 mt-4">
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
-          <label className="text-xs text-slate-300 flex justify-between"><span>x-crates (a)</span><span className="font-mono font-bold text-sky-300">{a}</span></label>
-          <input type="range" aria-label="coefficient a" min={2} max={6} value={a} onChange={(e) => { setA(Number(e.target.value)); setStage(0); }} className="w-full mt-2 accent-sky-400" />
+          <label className="text-xs text-slate-300 flex justify-between"><span>x-crates (a)</span><span className="font-mono font-bold text-gold-300">{a}</span></label>
+          <input type="range" aria-label="coefficient a" min={2} max={6} value={a} onChange={(e) => { setA(Number(e.target.value)); setStage(0); }} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between"><span>loose blocks (b)</span><span className="font-mono font-bold text-amber-300">{b}</span></label>
@@ -141,8 +141,8 @@ export function C7_MathematicsFindingTheUnknownSim() {
         </div>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Find settings a, b, c where the answer x is a whole number, then hunt for one where x is NOT whole. What did you notice about c?</li>
           <li>Guess x BEFORE pressing any step button -- use the balance feedback (too light / too heavy) to zero in on the answer.</li>

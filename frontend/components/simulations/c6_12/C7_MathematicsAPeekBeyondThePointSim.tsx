@@ -27,13 +27,13 @@ export function C7_MathematicsAPeekBeyondThePointSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">A Peek Beyond the Point</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">A Peek Beyond the Point</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Place value cards */}
       <div className="flex items-center justify-center gap-2 mt-5">
         {[
-          { v: ones, name: 'Ones', color: 'bg-sky-700' },
+          { v: ones, name: 'Ones', color: 'bg-gold-700' },
           { v: tenths, name: 'Tenths', color: 'bg-emerald-700' },
           { v: hundredths, name: 'Hundredths', color: 'bg-amber-600' },
         ].map((c, i) => (
@@ -45,7 +45,7 @@ export function C7_MathematicsAPeekBeyondThePointSim() {
             </div>
           </React.Fragment>
         ))}
-        <div className="ml-3 px-4 py-3 rounded-xl bg-slate-800 border border-indigo-500 text-lg font-mono">
+        <div className="ml-3 px-4 py-3 rounded-xl bg-slate-800 border border-gold-500 text-lg font-mono">
           = <span className="text-emerald-400 font-bold">{label}</span>
         </div>
       </div>
@@ -58,7 +58,7 @@ export function C7_MathematicsAPeekBeyondThePointSim() {
             key={z}
             onClick={() => setZoom(i as 0 | 1 | 2)}
             className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-colors ${
-              zoom === i ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-600 text-slate-300 hover:bg-slate-700'
+              zoom === i ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-600 text-slate-300 hover:bg-slate-700'
             }`}
           >
             {z}
@@ -141,7 +141,7 @@ export function C7_MathematicsAPeekBeyondThePointSim() {
       {/* Digit sliders */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
         {[
-          { label: 'Ones digit', v: ones, set: setOnes, color: 'accent-sky-400' },
+          { label: 'Ones digit', v: ones, set: setOnes, color: 'accent-gold-400' },
           { label: 'Tenths digit', v: tenths, set: setTenths, color: 'accent-emerald-400' },
           { label: 'Hundredths digit', v: hundredths, set: setHundredths, color: 'accent-amber-400' },
         ].map((s) => (
@@ -163,8 +163,8 @@ export function C7_MathematicsAPeekBeyondThePointSim() {
         ))}
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Set the tenths digit to 9 and then move the hundredths digit from 0 up to 9. Watch the x100 zoom: what number comes right after 2.99?</li>
           <li>Make the largest and the smallest numbers you can. Which digit is worth the most when you change it by one step -- ones, tenths or hundredths?</li>

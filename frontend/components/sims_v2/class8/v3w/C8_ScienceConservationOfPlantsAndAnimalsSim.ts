@@ -11,7 +11,7 @@ export const w_c8_scienceconservationofplantsandanimalssim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Human Impact on Ecosystems: Deforestation and Habitat Loss',
     chapters: [],
     nodeIds: ['c8_physics_ch8_8', 'c8_physics_ch8_2', 'c8_physics_ch8_9', 'c8_physics_ch8_3', 'c8_physics_ch9_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Begin by showing students a satellite image time-lapse of a familiar Indian forest region (e.g., Corbett.', goal: 'Master Human Impact on Ecosystems: Deforestation and Habitat Loss.' },
     discovery: {
         question: 'A 500 km² forest loses 2% of its area per year due to logging. If this rate continues, calculate the forest area remaining after 5 years.',
@@ -20,7 +20,7 @@ export const w_c8_scienceconservationofplantsandanimalssim: SimDef = {
         hook: 'Students often think "deforestation only affects the trees cut down" or "animals can just move to another forest." They.',
     },
     teaching: [
-        { title: 'Deforestation is the large-scale removal of.', text: 'Deforestation is the large-scale removal of trees from forested land for human activities such as agriculture, logging, or urbanization, leading to habitat loss where the natural environment required.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Deforestation is the large-scale removal of.', text: 'Deforestation is the large-scale removal of trees from forested land for human activities such as agriculture, logging, or urbanization, leading to habitat loss where the natural environment required.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch8_8', title: 'Deforestation is the large-scale.',

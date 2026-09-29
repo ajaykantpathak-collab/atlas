@@ -146,7 +146,7 @@ export function C12_HistoryMeerutMutinySim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setTelegraph(!telegraph)}
-                className={`min-h-11 rounded-xl text-[10px] font-bold ${telegraph ? 'bg-cyan-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-[10px] font-bold ${telegraph ? 'bg-gold-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Telegraph: {telegraph ? 'British-run' : 'CUT'}
               </button>
               <button onClick={() => { setWeek(0); setGrievance(70); setTelegraph(true); }}

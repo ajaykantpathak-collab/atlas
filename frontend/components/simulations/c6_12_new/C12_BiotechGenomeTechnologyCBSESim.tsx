@@ -1253,7 +1253,7 @@ export default function C12_BiotechGenomeTechnologyCBSESim({
             <span className="bg-purple-600/30 text-purple-400 border border-purple-500/40 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
               ISC Class 12 Biotechnology
             </span>
-            <span className="bg-blue-600/30 text-blue-400 border border-blue-500/40 text-xs font-semibold px-3 py-1 rounded-full">
+            <span className="bg-gold-600/30 text-gold-400 border border-gold-500/40 text-xs font-semibold px-3 py-1 rounded-full">
               41 Learning Nodes
             </span>
           </div>
@@ -1338,7 +1338,7 @@ export default function C12_BiotechGenomeTechnologyCBSESim({
               </p>
             </div>
             <div className="p-5 bg-slate-950/70 border border-slate-800 rounded-xl space-y-2">
-              <h3 className="font-semibold text-blue-400">High-Throughput Genomics</h3>
+              <h3 className="font-semibold text-gold-400">High-Throughput Genomics</h3>
               <p className="text-xs text-slate-400">
                 Decoding DNA via Sanger, Illumina bridge PCR, Oxford Nanopore, RFLP mapping, and RNA-seq.
               </p>
@@ -1435,7 +1435,7 @@ export default function C12_BiotechGenomeTechnologyCBSESim({
                         }}
                         className={`w-full p-3 rounded-lg text-left text-xs transition-all border ${
                           predictionAnswers[idx] === oIdx
-                            ? 'bg-blue-900/50 border-blue-500 text-blue-100'
+                            ? 'bg-gold-900/50 border-gold-500 text-gold-100'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1452,13 +1452,13 @@ export default function C12_BiotechGenomeTechnologyCBSESim({
                       newSub[idx] = true;
                       setPredictionSubmitted(newSub);
                     }}
-                    className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold rounded-lg transition-all"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-semibold rounded-lg transition-all"
                   >
                     Lock Prediction
                   </button>
 
                   {predictionSubmitted[idx] && (
-                    <div className="p-3 bg-slate-900 border border-blue-800/40 rounded-lg text-xs text-blue-300">
+                    <div className="p-3 bg-slate-900 border border-gold-800/40 rounded-lg text-xs text-gold-300">
                       <strong>Verification Guide:</strong> {pq.verifyInstruction}
                     </div>
                   )}
@@ -1564,7 +1564,7 @@ export default function C12_BiotechGenomeTechnologyCBSESim({
                     </div>
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                       <div className="text-xs text-slate-400">kcat / Km (s⁻¹ M⁻¹)</div>
-                      <div className="text-xl font-extrabold text-blue-400">
+                      <div className="text-xl font-extrabold text-gold-400">
                         {subtilisinMetrics.kcatKm.toFixed(0)}
                       </div>
                     </div>
@@ -1722,7 +1722,7 @@ export default function C12_BiotechGenomeTechnologyCBSESim({
                           onClick={() => setRestrictionEnzyme(e as any)}
                           className={`p-2 rounded-lg text-xs font-bold border transition-all ${
                             restrictionEnzyme === e
-                              ? 'bg-blue-600 border-blue-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >

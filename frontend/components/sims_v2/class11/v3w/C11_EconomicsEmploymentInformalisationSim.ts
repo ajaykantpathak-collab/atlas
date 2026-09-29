@@ -11,7 +11,7 @@ export const w_c11_economicsemploymentinformalisationsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Economically Active Population: Labour Force and Workforce',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_002', 'c11_eco_cbse_06_004', 'c11_eco_cbse_06_005', 'c11_eco_cbse_06_009', 'c11_eco_cbse_06_001', 'c11_eco_cbse_06_003', 'c11_eco_cbse_06_006', 'c11_eco_cbse_06_007', 'c11_eco_cbse_06_008', 'c11_eco_cbse_06_010', 'c11_eco_cbse_06_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy Delhi Metro station at 8 AM: you see office-goers with ID cards, a street.', goal: 'Master Economically Active Population: Labour Force and Workforce.' },
     discovery: {
         question: 'Analyse the trend in Table 6.3: Share of casual wage labourers rose from 23.2% (1972–73) to 31.8% (1993–94) then fell to 19.9% (2023–24), while regular.',
@@ -20,7 +20,7 @@ export const w_c11_economicsemploymentinformalisationsim: SimDef = {
         hook: 'Students often think **"Labour Force = Workforce"** and use the terms interchangeably.',
     },
     teaching: [
-        { title: 'The **Economically Active Population**.', text: 'The **Economically Active Population** (Labour Force) comprises all persons who are either **working** (workforce) or **seeking/available for work** (unemployed) during a specified reference period.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The **Economically Active Population**.', text: 'The **Economically Active Population** (Labour Force) comprises all persons who are either **working** (workforce) or **seeking/available for work** (unemployed) during a specified reference period.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_06_002', title: 'The **Economically Active Population**.',

@@ -1186,7 +1186,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
             animate={{ scale: 1, opacity: 1 }}
             className={`text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full border ${
               difficulty === 'foundation' ? 'bg-emerald-900/40 border-emerald-500 text-emerald-300' :
-              difficulty === 'standard' ? 'bg-blue-900/40 border-blue-500 text-blue-300' :
+              difficulty === 'standard' ? 'bg-gold-900/40 border-gold-500 text-gold-300' :
               'bg-amber-900/40 border-amber-500 text-amber-300'
             }`}
           >
@@ -1206,7 +1206,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
           exit={{ opacity: 0, y: -15 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-5 md:p-6 bg-gradient-to-r from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-emerald-800/60 shadow-xl">
+          <div className="p-5 md:p-6 bg-gradient-to-r from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-emerald-800/60 shadow-xl">
             <h3 className="text-lg font-bold text-emerald-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h3>
@@ -1452,8 +1452,8 @@ export function C12_EconomicsCircularFlowIncomeSim({
                   </div>
 
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                      <p className="text-sm font-semibold text-indigo-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                      <p className="text-sm font-semibold text-gold-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1604,7 +1604,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg text-slate-300 space-y-1">
-                      <p>Physical Production (Real GDP): <span className="text-blue-400 font-bold">₹{simBaseOutput} L Cr</span></p>
+                      <p>Physical Production (Real GDP): <span className="text-gold-400 font-bold">₹{simBaseOutput} L Cr</span></p>
                       <p>Price Tag Output (Nominal GDP): <span className="text-amber-400 font-bold">₹{simNominalOutput.toFixed(0)} L Cr</span></p>
                       <p className="text-[11px] text-slate-400">
                         Inflation has inflated the nominal number by <span className="text-rose-400 font-bold">{simDeflator - 100}%</span>, but real tractors, food, and software remained identical!
@@ -1649,7 +1649,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
 
                     {activeMethodTab === 'income' && (
                       <div className="space-y-2">
-                        <p className="font-bold text-blue-400">Factor Incomes: NDP(FC) = Compensation + Operating Surplus + Mixed Income</p>
+                        <p className="font-bold text-gold-400">Factor Incomes: NDP(FC) = Compensation + Operating Surplus + Mixed Income</p>
                         <p className="text-slate-300">• Compensation of Employees (Wages/Salaries): ₹90,000 Cr</p>
                         <p className="text-slate-300">• Operating Surplus (Rent, Interest, Corporate Profit): ₹65,000 Cr</p>
                         <p className="text-slate-300">• Mixed Income of Self-Employed (Farmers, Own-Account): ₹25,000 Cr</p>
@@ -1771,7 +1771,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
 
                 <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                   <span className="text-[11px] text-slate-400 uppercase">NNP at Market Price</span>
-                  <p className="text-base font-bold text-blue-400 font-mono mt-1">₹{sandboxNNP_MP} L Cr</p>
+                  <p className="text-base font-bold text-gold-400 font-mono mt-1">₹{sandboxNNP_MP} L Cr</p>
                   <span className="text-[10px] text-slate-500">GNP(MP) − Deprec</span>
                 </div>
 
@@ -1985,7 +1985,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
-                      className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 text-xs font-semibold rounded-lg hover:bg-indigo-800"
+                      className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 text-xs font-semibold rounded-lg hover:bg-gold-800"
                     >
                       + {part}
                     </motion.button>
@@ -2094,13 +2094,13 @@ export function C12_EconomicsCircularFlowIncomeSim({
           </div>
 
           {/* VISIBLE SPACED REPETITION SCHEDULE (SRS) */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-emerald-950/80 border-2 border-indigo-500/50 rounded-2xl shadow-xl space-y-4">
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 via-slate-900 to-emerald-950/80 border-2 border-gold-500/50 rounded-2xl shadow-xl space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-3xl">🗓️</span>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950 px-2.5 py-0.5 rounded-full border border-indigo-700">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950 px-2.5 py-0.5 rounded-full border border-gold-700">
                       SuperMemo-2 Adaptive SRS
                     </span>
                     <span className="text-xs font-semibold text-slate-400">Memory Retention Plan</span>
@@ -2111,7 +2111,7 @@ export function C12_EconomicsCircularFlowIncomeSim({
                 </div>
               </div>
 
-              <div className="px-4 py-2 rounded-xl bg-slate-950/80 border border-indigo-800 text-right">
+              <div className="px-4 py-2 rounded-xl bg-slate-950/80 border border-gold-800 text-right">
                 <span className="text-[11px] text-slate-400 uppercase tracking-wider block">SRS Status</span>
                 <span className="text-sm font-bold font-mono text-emerald-400">
                   {errors === 0 ? 'Optimal (7d Interval)' : errors <= 3 ? 'Review Soon (3d Interval)' : 'Immediate Drill (1d Interval)'}
@@ -2171,8 +2171,8 @@ export function C12_EconomicsCircularFlowIncomeSim({
           )}
 
           {/* REAL WORLD ACTIVITY ARC */}
-          <div className="p-5 bg-indigo-950/40 border border-indigo-800/60 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/40 border border-gold-800/60 rounded-2xl space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💼</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

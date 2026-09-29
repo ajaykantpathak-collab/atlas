@@ -11,7 +11,7 @@ export const w_c12_historyfirstgeneralelectionsim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_009', 'c12_hist_cbse_11_005', 'c12_hist_cbse_11_002', 'c12_hist_cbse_11_007', 'c12_hist_cbse_11_010', 'c12_hist_cbse_01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Dalit student in 1932 reading about Gandhi\'s fast unto death against separate electorates.', goal: 'Master The Poona Pact (1932): Ambedkar, Separate Electorates and the Gandhi-Ambedkar Debate.' },
     discovery: {
         question: 'Why did Gandhi oppose separate electorates for the Depressed Classes, and how did his argument differ from Ambedkar\'s justification for demanding them?',
@@ -20,7 +20,7 @@ export const w_c12_historyfirstgeneralelectionsim: SimDef = {
         hook: 'Students commonly believe the Poona Pact simply "gave Dalits reserved seats" and that this was what Ambedkar wanted all.',
     },
     teaching: [
-        { title: 'The Poona Pact (1932) was an agreement.', text: 'The Poona Pact (1932) was an agreement between Mahatma Gandhi and Dr. B.R.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Poona Pact (1932) was an agreement.', text: 'The Poona Pact (1932) was an agreement between Mahatma Gandhi and Dr. B.R.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_11_009', title: 'The Poona Pact (1932) was an agreement.',

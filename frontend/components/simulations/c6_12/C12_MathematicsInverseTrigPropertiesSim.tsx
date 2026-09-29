@@ -1190,12 +1190,12 @@ export function C12_MathematicsInverseTrigPropertiesSim({
         <motion.div className="flex items-center gap-3" initial={{ x: -20 }} animate={{ x: 0 }}>
           <motion.span
             whileHover={{ rotate: 15 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50 cursor-pointer"
+            className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50 cursor-pointer"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-indigo-300 via-sky-300 to-teal-200 bg-clip-text text-transparent">
+            <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-gold-300 via-gold-300 to-teal-200 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ISC Class 12 • CISCE Core Curriculum Mastery</p>
@@ -1214,7 +1214,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             {difficulty}
@@ -1223,7 +1223,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
             whileHover={{ scale: 1.05 }}
             className="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700"
           >
-            Phase: <strong className="text-sky-400 uppercase">{phase}</strong>
+            Phase: <strong className="text-gold-400 uppercase">{phase}</strong>
           </motion.span>
         </motion.div>
       </motion.div>
@@ -1234,10 +1234,10 @@ export function C12_MathematicsInverseTrigPropertiesSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+            className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
           >
-            <div className="flex items-center gap-2 text-indigo-400 font-semibold text-sm mb-2">
-              <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
+            <div className="flex items-center gap-2 text-gold-400 font-semibold text-sm mb-2">
+              <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
               MISSION CONTEXT: {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-sm sm:text-base leading-relaxed">{SCENARIO.intro}</p>
@@ -1296,7 +1296,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Exploration Lab →
                 </motion.button>
@@ -1320,7 +1320,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                 <motion.div
                   key={idx}
                   animate={{ scale: idx === currentSlide ? 1.2 : 1 }}
-                  className={`w-5 h-1.5 rounded-full ${idx === currentSlide ? 'bg-sky-400' : 'bg-slate-700'}`}
+                  className={`w-5 h-1.5 rounded-full ${idx === currentSlide ? 'bg-gold-400' : 'bg-slate-700'}`}
                 />
               ))}
             </div>
@@ -1335,7 +1335,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-lg font-bold text-sky-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-300 text-sm mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1355,7 +1355,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       initial={{ scale: 0.95, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
                       viewBox="0 0 400 130"
-                      className="w-full max-w-md bg-slate-900/80 rounded-xl border border-indigo-900/60 p-2"
+                      className="w-full max-w-md bg-slate-900/80 rounded-xl border border-gold-900/60 p-2"
                     >
                       <text x="200" y="16" textAnchor="middle" fill="#93c5fd" fontSize="12" fontWeight="bold">
                         SVG 1: Unit Circle Geometry vs. Right-Triangle Complement
@@ -1380,7 +1380,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Ratio input x:</span>
-                        <strong className="text-sky-400 font-mono">{trigX.toFixed(2)}</strong>
+                        <strong className="text-gold-400 font-mono">{trigX.toFixed(2)}</strong>
                       </div>
                       <input
                         type="range"
@@ -1389,7 +1389,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                         step="0.05"
                         value={trigX}
                         onChange={e => handleTrigSliderChange(parseFloat(e.target.value))}
-                        className="w-full accent-sky-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         aria-label="Ratio input x for inverse trig functions"
                       />
                     </motion.div>
@@ -1409,7 +1409,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       </div>
                       <div className="flex justify-between pt-2 border-t border-slate-800 text-white font-bold text-sm">
                         <span>Sum [sin⁻¹x + cos⁻¹x]:</span>
-                        <span className="text-sky-400">{(sumVal / Math.PI).toFixed(4)}π (= π/2)</span>
+                        <span className="text-gold-400">{(sumVal / Math.PI).toFixed(4)}π (= π/2)</span>
                       </div>
                     </motion.div>
 
@@ -1418,16 +1418,16 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50"
+                        className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50"
                       >
-                        <p className="text-xs text-indigo-300 font-semibold mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                        <p className="text-xs text-gold-300 font-semibold mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
                             key={i}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleObservation(i)}
-                            className="w-full text-left p-2 mb-1 bg-slate-900 hover:bg-indigo-900/60 rounded text-xs text-slate-200 border border-slate-800"
+                            className="w-full text-left p-2 mb-1 bg-slate-900 hover:bg-gold-900/60 rounded text-xs text-slate-200 border border-slate-800"
                           >
                             {opt}
                           </motion.button>
@@ -1454,7 +1454,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     initial={{ scale: 0.95, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     viewBox="0 0 500 120"
-                    className="w-full bg-slate-900/80 rounded-xl border border-indigo-900/60 p-2"
+                    className="w-full bg-slate-900/80 rounded-xl border border-gold-900/60 p-2"
                   >
                     <text x="250" y="15" textAnchor="middle" fill="#93c5fd" fontSize="12" fontWeight="bold">
                       SVG 2: The Tangent Addition Branch Boundary (xy = 1 Barrier)
@@ -1480,7 +1480,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Slope x:</span>
-                        <strong className="text-indigo-400 font-mono">{tanX.toFixed(2)}</strong>
+                        <strong className="text-gold-400 font-mono">{tanX.toFixed(2)}</strong>
                       </div>
                       <input
                         type="range"
@@ -1489,13 +1489,13 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                         step="0.1"
                         value={tanX}
                         onChange={e => handleTanSlidersChange(parseFloat(e.target.value), tanY)}
-                        className="w-full accent-indigo-400"
+                        className="w-full accent-gold-400"
                       />
                     </motion.div>
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Slope y:</span>
-                        <strong className="text-sky-400 font-mono">{tanY.toFixed(2)}</strong>
+                        <strong className="text-gold-400 font-mono">{tanY.toFixed(2)}</strong>
                       </div>
                       <input
                         type="range"
@@ -1504,7 +1504,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                         step="0.1"
                         value={tanY}
                         onChange={e => handleTanSlidersChange(tanX, parseFloat(e.target.value))}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </motion.div>
                   </div>
@@ -1522,7 +1522,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     </div>
                     <div className="flex justify-between text-slate-300">
                       <span>tan⁻¹({tanX.toFixed(2)}) + tan⁻¹({tanY.toFixed(2)}):</span>
-                      <span className="text-sky-300 font-bold">{tanCombinedAngle.toFixed(4)} rad ({(tanCombinedAngle * 180 / Math.PI).toFixed(1)}°)</span>
+                      <span className="text-gold-300 font-bold">{tanCombinedAngle.toFixed(4)} rad ({(tanCombinedAngle * 180 / Math.PI).toFixed(1)}°)</span>
                     </div>
                   </motion.div>
 
@@ -1531,9 +1531,9 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-2"
+                      className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-2"
                     >
-                      <p className="text-xs text-indigo-300 font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
+                      <p className="text-xs text-gold-300 font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                         <motion.button
                           key={i}
@@ -1550,7 +1550,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700 text-xs text-indigo-200"
+                      className="p-3 bg-gold-950/60 rounded-xl border border-gold-700 text-xs text-gold-200"
                     >
                       💡 {PREDICTION_QUESTIONS[0].verifyInstruction}
                     </motion.div>
@@ -1564,7 +1564,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Matrix A */}
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                      <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-3">Matrix A (2 x 2)</h4>
+                      <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-3">Matrix A (2 x 2)</h4>
                       <div className="grid grid-cols-2 gap-2">
                         {matA.map((row, r) =>
                           row.map((val, c) => (
@@ -1574,7 +1574,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                                 type="number"
                                 value={val}
                                 onChange={e => handleMatrixCellChange('A', r, c, parseFloat(e.target.value) || 0)}
-                                className="bg-slate-950 border border-slate-700 rounded p-2 text-center text-sm font-bold text-indigo-300"
+                                className="bg-slate-950 border border-slate-700 rounded p-2 text-center text-sm font-bold text-gold-300"
                               />
                             </div>
                           ))
@@ -1584,7 +1584,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
 
                     {/* Matrix B */}
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                      <h4 className="text-xs font-bold text-sky-400 uppercase tracking-wider mb-3">Matrix B (2 x 2)</h4>
+                      <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-3">Matrix B (2 x 2)</h4>
                       <div className="grid grid-cols-2 gap-2">
                         {matB.map((row, r) =>
                           row.map((val, c) => (
@@ -1594,7 +1594,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                                 type="number"
                                 value={val}
                                 onChange={e => handleMatrixCellChange('B', r, c, parseFloat(e.target.value) || 0)}
-                                className="bg-slate-950 border border-slate-700 rounded p-2 text-center text-sm font-bold text-sky-300"
+                                className="bg-slate-950 border border-slate-700 rounded p-2 text-center text-sm font-bold text-gold-300"
                               />
                             </div>
                           ))
@@ -1636,13 +1636,13 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                         <tbody>
                           <tr>
                             <td className="p-3 text-amber-400 font-bold border-b border-r border-slate-800">1</td>
-                            <td className="p-3 text-indigo-300 border-b border-r border-slate-800">2</td>
-                            <td className="p-3 text-sky-300 border-b border-slate-800">3</td>
+                            <td className="p-3 text-gold-300 border-b border-r border-slate-800">2</td>
+                            <td className="p-3 text-gold-300 border-b border-slate-800">3</td>
                           </tr>
                           <tr>
-                            <td className="p-3 text-indigo-300 border-r border-slate-800">4</td>
+                            <td className="p-3 text-gold-300 border-r border-slate-800">4</td>
                             <td className="p-3 text-amber-400 font-bold border-r border-slate-800">5</td>
-                            <td className="p-3 text-indigo-300">6</td>
+                            <td className="p-3 text-gold-300">6</td>
                           </tr>
                         </tbody>
                       </table>
@@ -1652,7 +1652,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleTransposeToggle}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-xs font-bold text-white shadow-lg"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 rounded-xl text-xs font-bold text-white shadow-lg"
                     >
                       ⇄ Transpose A
                     </motion.button>
@@ -1660,22 +1660,22 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     {/* Transposed Matrix */}
                     <motion.div
                       whileHover={{ scale: 1.02 }}
-                      className="p-4 bg-slate-900 rounded-2xl border border-indigo-700/60 inline-block shadow-lg"
+                      className="p-4 bg-slate-900 rounded-2xl border border-gold-700/60 inline-block shadow-lg"
                     >
-                      <span className="text-xs text-indigo-400 block mb-2 font-mono">Aᵀ (3 x 2)</span>
+                      <span className="text-xs text-gold-400 block mb-2 font-mono">Aᵀ (3 x 2)</span>
                       <table className="border-collapse font-mono text-base">
                         <tbody>
                           <tr>
                             <td className="p-3 text-amber-400 font-bold border-b border-r border-slate-800">1</td>
-                            <td className="p-3 text-indigo-300 border-b border-slate-800">4</td>
+                            <td className="p-3 text-gold-300 border-b border-slate-800">4</td>
                           </tr>
                           <tr>
-                            <td className="p-3 text-indigo-300 border-b border-r border-slate-800">2</td>
+                            <td className="p-3 text-gold-300 border-b border-r border-slate-800">2</td>
                             <td className="p-3 text-amber-400 font-bold border-b border-slate-800">5</td>
                           </tr>
                           <tr>
-                            <td className="p-3 text-sky-300 border-r border-slate-800">3</td>
-                            <td className="p-3 text-indigo-300">6</td>
+                            <td className="p-3 text-gold-300 border-r border-slate-800">3</td>
+                            <td className="p-3 text-gold-300">6</td>
                           </tr>
                         </tbody>
                       </table>
@@ -1695,7 +1695,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     initial={{ scale: 0.95, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     viewBox="0 0 500 130"
-                    className="w-full bg-slate-900/80 rounded-xl border border-indigo-900/60 p-2"
+                    className="w-full bg-slate-900/80 rounded-xl border border-gold-900/60 p-2"
                   >
                     <text x="250" y="16" textAnchor="middle" fill="#93c5fd" fontSize="12" fontWeight="bold">
                       SVG 3: Unique Theorem Decomposition A = S + K
@@ -1735,7 +1735,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                               type="number"
                               value={val}
                               onChange={e => handleDecompMatrixChange(r, c, parseFloat(e.target.value) || 0)}
-                              className="bg-slate-950 border border-slate-700 rounded p-2 text-center font-bold text-sky-300"
+                              className="bg-slate-950 border border-slate-700 rounded p-2 text-center font-bold text-gold-300"
                             />
                           ))
                         )}
@@ -1788,7 +1788,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold text-sm shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-semibold text-sm shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1817,7 +1817,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
             <div className="flex flex-wrap justify-between items-center gap-4 mb-2">
               <div>
                 <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                  <span className="text-sky-400">🧪</span> Ungraded Master Sandbox & Multi-Representation Lab
+                  <span className="text-gold-400">🧪</span> Ungraded Master Sandbox & Multi-Representation Lab
                 </h3>
                 <p className="text-xs text-slate-400">Explore concept representations across Geometric, Algebraic, and Graphical views.</p>
               </div>
@@ -1829,7 +1829,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setActiveTab('trig')}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                    activeTab === 'trig' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+                    activeTab === 'trig' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
                   }`}
                 >
                   Inverse Trig Lab
@@ -1839,7 +1839,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setActiveTab('matrix')}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                    activeTab === 'matrix' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+                    activeTab === 'matrix' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
                   }`}
                 >
                   Matrix Operations Lab
@@ -1854,7 +1854,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
               className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 space-y-3"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-2">
-                <span className="text-xs font-bold text-indigo-300 flex items-center gap-1.5">
+                <span className="text-xs font-bold text-gold-300 flex items-center gap-1.5">
                   <span>📊</span> Multi-Representation View: Complement Identity (sin⁻¹x + cos⁻¹x = π/2)
                 </span>
                 <div className="flex gap-2">
@@ -1865,7 +1865,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRepresentationMode(mode)}
                       className={`px-2.5 py-1 rounded text-[11px] capitalize font-semibold ${
-                        representationMode === mode ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-slate-200'
+                        representationMode === mode ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                       }`}
                     >
                       {mode} Mode
@@ -1911,7 +1911,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     exit={{ opacity: 0, y: -5 }}
                     className="p-3 bg-slate-900 rounded-xl space-y-2 text-xs font-mono"
                   >
-                    <p className="font-semibold text-sky-400 font-sans">Representation 2: Formal Algebraic Derivation</p>
+                    <p className="font-semibold text-gold-400 font-sans">Representation 2: Formal Algebraic Derivation</p>
                     <div className="space-y-1 text-slate-300">
                       <div>1. Let θ = sin⁻¹(x)  ⟹  x = sin(θ) for θ ∈ [-π/2, π/2]</div>
                       <div>2. Using co-function identity: x = cos(π/2 - θ)</div>
@@ -1935,7 +1935,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       <div className="text-slate-300 space-y-1">
                         <p>Graph of y = sin⁻¹(x) is monotonically increasing from (-1, -π/2) to (1, π/2).</p>
                         <p>Graph of y = cos⁻¹(x) is monotonically decreasing from (-1, π) to (1, 0).</p>
-                        <p className="text-sky-300 font-bold">Sum Graph y = sin⁻¹(x) + cos⁻¹(x) forms a perfectly horizontal line y = π/2 across [-1, 1].</p>
+                        <p className="text-gold-300 font-bold">Sum Graph y = sin⁻¹(x) + cos⁻¹(x) forms a perfectly horizontal line y = π/2 across [-1, 1].</p>
                       </div>
                       <svg viewBox="0 0 220 90" className="w-full max-w-xs bg-slate-950 rounded p-1 border border-slate-800">
                         <line x1="20" y1="45" x2="200" y2="45" stroke="#475569" strokeWidth="1" />
@@ -1964,7 +1964,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-4 rounded-xl border border-slate-800"
                 >
                   <div className="space-y-3">
-                    <h4 className="text-xs font-bold text-indigo-300 uppercase">Double & Triple Angle Explorer</h4>
+                    <h4 className="text-xs font-bold text-gold-300 uppercase">Double & Triple Angle Explorer</h4>
                     <div>
                       <label className="text-xs text-slate-400 block mb-1">Single ratio x: {trigX.toFixed(2)}</label>
                       <input
@@ -1974,7 +1974,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                         step="0.05"
                         value={trigX}
                         onChange={e => handleTrigSliderChange(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl space-y-1 font-mono text-xs text-slate-300">
@@ -1985,11 +1985,11 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   </div>
 
                   <div className="space-y-3">
-                    <h4 className="text-xs font-bold text-sky-300 uppercase">Complementary Verification</h4>
+                    <h4 className="text-xs font-bold text-gold-300 uppercase">Complementary Verification</h4>
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 font-mono text-xs">
                       <div className="text-emerald-400">sin⁻¹({trigX.toFixed(2)}) + cos⁻¹({trigX.toFixed(2)}) = {(asinVal + acosVal).toFixed(4)} rad</div>
                       <div className="text-amber-400">tan⁻¹({trigX.toFixed(2)}) + cot⁻¹({trigX.toFixed(2)}) = {(Math.atan(trigX) + (Math.PI / 2 - Math.atan(trigX))).toFixed(4)} rad</div>
-                      <div className="text-sky-300 font-bold pt-2 border-t border-slate-800">Invariant π/2 = {(Math.PI / 2).toFixed(4)} rad</div>
+                      <div className="text-gold-300 font-bold pt-2 border-t border-slate-800">Invariant π/2 = {(Math.PI / 2).toFixed(4)} rad</div>
                     </div>
                   </div>
                 </motion.div>
@@ -2011,7 +2011,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                         step="1"
                         value={scalarK}
                         onChange={e => setScalarK(parseInt(e.target.value))}
-                        className="w-28 accent-indigo-400"
+                        className="w-28 accent-gold-400"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl text-center font-mono text-sm">
@@ -2055,12 +2055,12 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-slate-400 font-mono">
-                Competency: <strong className="text-sky-400 uppercase">{challenge.competencyLevel}</strong>
+                Competency: <strong className="text-gold-400 uppercase">{challenge.competencyLevel}</strong>
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-sky-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2117,7 +2117,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-semibold cursor-grab text-white"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-semibold cursor-grab text-white"
                       role="button"
                       aria-label={`Draggable property: ${item.label}`}
                     >
@@ -2145,7 +2145,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       }`}
                     >
                       <span className="text-slate-400 font-bold">{target.eq}</span>
-                      <span className="text-sky-300 font-semibold">{droppedLabels[target.id] || 'Drop matching property label here'}</span>
+                      <span className="text-gold-300 font-semibold">{droppedLabels[target.id] || 'Drop matching property label here'}</span>
                     </motion.div>
                   ))}
                 </div>
@@ -2154,7 +2154,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Property Mapping
                 </motion.button>
@@ -2179,7 +2179,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       whileHover={{ scale: 1.02 }}
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center font-mono font-bold text-sky-400">
+                      <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center font-mono font-bold text-gold-400">
                         {pos + 1}
                       </span>
                       <span>{challenge.sortItems![itemIdx]}</span>
@@ -2191,7 +2191,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Sequence Order
                 </motion.button>
@@ -2215,7 +2215,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg"
                 >
                   Submit Answer
                 </motion.button>
@@ -2227,9 +2227,9 @@ export function C12_MathematicsInverseTrigPropertiesSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 bg-indigo-950/40 border border-indigo-700/60 rounded-xl space-y-3"
+                className="mt-6 p-4 bg-gold-950/40 border border-gold-700/60 rounded-xl space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs">
                   <span>📘</span> Step-by-Step Rigorous Mathematical Proof:
                 </div>
                 {challenge.explanation
@@ -2243,7 +2243,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono">Step {idx + 1}:</strong> {sentence}
+                      <strong className="text-gold-400 font-mono">Step {idx + 1}:</strong> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2253,7 +2253,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="text-xs font-bold text-sky-400 hover:text-sky-300 underline block pt-1"
+                    className="text-xs font-bold text-gold-400 hover:text-gold-300 underline block pt-1"
                   >
                     Show next logical step →
                   </motion.button>
@@ -2279,7 +2279,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4"
+            className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4"
           >
             <motion.h2
               initial={{ scale: 0.9 }}
@@ -2302,7 +2302,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                 className="p-3 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[110px]"
               >
                 <span className="text-[10px] text-slate-400 uppercase block">BKT Mastery</span>
-                <span className="text-2xl font-bold text-sky-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </motion.div>
             </div>
 
@@ -2315,7 +2315,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
                 errors === 0
                   ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                   : errors <= 3
-                  ? 'bg-sky-950/70 border-sky-500 text-sky-300'
+                  ? 'bg-gold-950/70 border-gold-500 text-gold-300'
                   : errors <= 7
                   ? 'bg-amber-950/70 border-amber-500 text-amber-300'
                   : 'bg-rose-950/70 border-rose-500 text-rose-300'
@@ -2391,7 +2391,7 @@ export function C12_MathematicsInverseTrigPropertiesSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
           >
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

@@ -11,7 +11,7 @@ export const w_c12_geoplanningsustainabledevcbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Disaster Management: Mitigation, Preparedness, Response, Recovery',
     chapters: [],
     nodeIds: ['c12_geo_cbse_17_009', 'c12_geo_cbse_17_010', 'c12_geo_cbse_04_007', 'c12_geo_cbse_04_010', 'c12_geo_cbse_10_008', 'c12_geo_cbse_10_010', 'c12_geo_cbse_02_010', 'c12_geo_cbse_12_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re in a village in Assam\'s Majuli island during the 2022 Brahmaputra floods — water rises.', goal: 'Master Disaster Management: Mitigation, Preparedness, Response, Recovery.' },
     discovery: {
         question: 'Explain why "compact city" form is considered more sustainable than "sprawl" for Indian metropolitan regions, linking land use, transport, and energy.',
@@ -20,7 +20,7 @@ export const w_c12_geoplanningsustainabledevcbsesim: SimDef = {
         hook: 'Students equate "Smart City" with "high-tech city" (flying cars, AI everywhere) and assume sustainability is automatic.',
     },
     teaching: [
-        { title: 'Disaster management is a continuous and.', text: 'Disaster management is a continuous and integrated cycle of four interdependent phases — mitigation (reducing risk before disaster), preparedness (building capacity to respond), response (immediate.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Disaster management is a continuous and.', text: 'Disaster management is a continuous and integrated cycle of four interdependent phases — mitigation (reducing risk before disaster), preparedness (building capacity to respond), response (immediate.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_17_009', title: 'Disaster management is a continuous and.',

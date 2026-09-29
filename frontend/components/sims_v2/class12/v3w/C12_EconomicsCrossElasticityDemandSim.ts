@@ -11,7 +11,7 @@ export const w_c12_economicscrosselasticitydemandsim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve',
     chapters: [],
     nodeIds: ['c12_eco_cbse_02_011', 'c12_eco_cbse_02_012', 'c12_eco_cbse_04_009', 'c12_eco_cbse_02_008', 'c12_eco_cbse_02_009', 'c12_eco_cbse_02_010', 'c12_eco_cbse_10_006', 'c12_eco_cbse_04_001', 'c12_eco_cbse_04_002', 'c12_eco_cbse_04_008', 'c12_eco_cbse_06_002', 'c12_eco_cbse_06_005', 'c12_eco_cbse_06_006', 'c12_eco_cbse_06_008', 'c12_eco_cbse_06_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you\'re a vegetable vendor in Delhi\'s Azadpur mandi selling onions.', goal: 'Master Price Elasticity of Demand: Geometric (Point) Method on Linear Demand Curve.' },
     discovery: {
         question: 'On a linear demand curve, elasticity is 1 at the midpoint, greater than 1 above the midpoint, and less than 1 below the midpoint.',
@@ -20,7 +20,7 @@ export const w_c12_economicscrosselasticitydemandsim: SimDef = {
         hook: 'Students believe that "slope of the demand curve = price elasticity of demand" because both involve ΔP/ΔQ.',
     },
     teaching: [
-        { title: 'Price Elasticity of Demand (Ed) at a.', text: 'Price Elasticity of Demand (Ed) at a specific point on a linear demand curve is measured by the geometric (point) method as the ratio of the lower segment of the demand curve to the upper segment.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Price Elasticity of Demand (Ed) at a.', text: 'Price Elasticity of Demand (Ed) at a specific point on a linear demand curve is measured by the geometric (point) method as the ratio of the lower segment of the demand curve to the upper segment.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_02_011', title: 'Price Elasticity of Demand (Ed) at a.',

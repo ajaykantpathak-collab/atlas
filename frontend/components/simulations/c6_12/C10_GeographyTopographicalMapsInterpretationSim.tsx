@@ -1128,7 +1128,7 @@ function C10_GeographyTopographicalMapsInterpretationSim({
             className={`px-3 py-1 text-xs font-black uppercase rounded-full tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40' :
               difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-400 border-rose-500/40' :
-              'bg-cyan-500/20 text-cyan-400 border-cyan-500/40'
+              'bg-gold-500/20 text-gold-400 border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1725,7 +1725,7 @@ function C10_GeographyTopographicalMapsInterpretationSim({
                       <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Water Management &amp; Drip Technology</span>
                       <div className="flex items-center justify-between text-xs text-slate-300">
                         <span>Drip Irrigation Efficiency: <strong>{dripEfficiencyPercent}%</strong></span>
-                        <span className="text-cyan-400">Water Saved: ~<strong>{(dripEfficiencyPercent * 0.7).toFixed(0)}%</strong></span>
+                        <span className="text-gold-400">Water Saved: ~<strong>{(dripEfficiencyPercent * 0.7).toFixed(0)}%</strong></span>
                       </div>
                       <input
                         type="range"
@@ -1733,7 +1733,7 @@ function C10_GeographyTopographicalMapsInterpretationSim({
                         max={95}
                         value={dripEfficiencyPercent}
                         onChange={e => setDripEfficiencyPercent(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                       <div className="h-16 bg-slate-950 rounded border border-slate-800 flex items-center justify-around px-4">
                         <div className="text-center">
@@ -1846,10 +1846,10 @@ function C10_GeographyTopographicalMapsInterpretationSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-950 p-4 rounded-2xl border border-slate-800">
             {/* River Length Thread Converter Tool */}
             <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Curved River Distance Calculator (RF 1:50,000)</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Curved River Distance Calculator (RF 1:50,000)</span>
               <p className="text-xs text-slate-300">Adjust the thread length laid along winding river meanders:</p>
               <div className="flex items-center justify-between text-xs">
-                <span>Thread on map: <strong className="text-cyan-400">{riverThreadLengthCm} cm</strong></span>
+                <span>Thread on map: <strong className="text-gold-400">{riverThreadLengthCm} cm</strong></span>
                 <span>True ground distance: <strong className="text-emerald-400">{calculatedGroundKm} km</strong></span>
               </div>
               <input
@@ -1859,7 +1859,7 @@ function C10_GeographyTopographicalMapsInterpretationSim({
                 step={0.2}
                 value={riverThreadLengthCm}
                 onChange={e => setRiverThreadLengthCm(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-2.5 bg-slate-950 rounded border border-slate-800 text-[11px] text-slate-400">
                 Formula: <code>Ground Distance (km) = Map Distance (cm) × 0.5</code>
@@ -1923,7 +1923,7 @@ function C10_GeographyTopographicalMapsInterpretationSim({
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 

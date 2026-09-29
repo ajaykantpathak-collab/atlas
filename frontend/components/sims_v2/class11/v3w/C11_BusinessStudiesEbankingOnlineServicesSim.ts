@@ -11,7 +11,7 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Online Transactions: Payment Mechanisms and Security',
     chapters: [],
     nodeIds: ['c11_bs_cbse_05_005', 'c11_bs_cbse_05_001', 'c11_bs_cbse_05_002', 'c11_bs_cbse_05_004', 'c11_bs_cbse_05_009', 'c11_bs_cbse_05_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you want to buy a smartphone online at midnight. You visit an e-commerce site, create an account.', goal: 'Master Online Transactions: Payment Mechanisms and Security.' },
     discovery: {
         question: 'List the three operational stages of an online transaction in their correct sequence as per NCERT.',
@@ -20,7 +20,7 @@ export const w_c11_businessstudiesebankingonlineservicessim: SimDef = {
         hook: 'Students often believe "Digital Cash" and "Net-banking" are the same because both use the internet and banks.',
     },
     teaching: [
-        { title: 'Online transactions in e-business refer to.', text: 'Online transactions in e-business refer to the end-to-end digital process of purchasing goods or services over the internet, encompassing three operational stages: pre-purchase/sale (advertising,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Online transactions in e-business refer to.', text: 'Online transactions in e-business refer to the end-to-end digital process of purchasing goods or services over the internet, encompassing three operational stages: pre-purchase/sale (advertising,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_05_005', title: 'Online transactions in e-business refer.',

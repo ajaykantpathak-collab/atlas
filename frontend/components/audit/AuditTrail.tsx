@@ -40,7 +40,7 @@ export interface AuditTrailData {
 const MODE_STYLES: Record<string, string> = {
   VERIFIED: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30',
   SOLVED: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30',
-  RUBRIC: 'bg-sky-500/10 text-sky-300 border-sky-500/30',
+  RUBRIC: 'bg-gold-500/10 text-gold-300 border-gold-500/30',
   GUIDED: 'bg-amber-500/10 text-amber-300 border-amber-500/30',
   FALLBACK: 'bg-orange-500/10 text-orange-300 border-orange-500/30',
 };

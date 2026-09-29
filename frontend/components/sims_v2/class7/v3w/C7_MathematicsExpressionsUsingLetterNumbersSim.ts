@@ -11,7 +11,7 @@ export const w_c7_mathematicsexpressionsusingletternumberssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Revisiting Arithmetic Expressions with Variables',
     chapters: [],
     nodeIds: ['c7_math_ch04_003', 'c7_math_ch04_004', 'c7_math_ch04_009', 'c7_math_ch15_007', 'c7_math_ch04_001', 'c7_math_ch06_006', 'c7_math_ch04_005', 'c7_math_ch04_010', 'c7_math_ch06_001', 'c7_math_ch06_002', 'c7_math_ch04_006', 'c7_math_ch04_007', 'c7_math_ch06_004', 'c7_math_ch06_009', 'c7_math_ch15_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a local stationery shop in your town and buy $x$ notebooks for ₹25 each, plus a single pen.', goal: 'Master Revisiting Arithmetic Expressions with Variables.' },
     discovery: {
         question: 'If Rahul has $x$ marbles and Priya has 5 more marbles than Rahul, write the algebraic expression for Priya\'s number of marbles.',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsexpressionsusingletternumberssim: SimDef = {
         hook: 'Students frequently misinterpret verbal phrases involving subtraction and division by reversing the order of terms.',
     },
     teaching: [
-        { title: 'Revisiting arithmetic expressions with.', text: 'Revisiting arithmetic expressions with variables bridges the gap between purely numerical expressions and algebraic expressions by showing how known operations (addition, subtraction, multiplication,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Revisiting arithmetic expressions with.', text: 'Revisiting arithmetic expressions with variables bridges the gap between purely numerical expressions and algebraic expressions by showing how known operations (addition, subtraction, multiplication,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch04_004', title: 'Writing algebraic expressions from word.',

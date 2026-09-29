@@ -1253,12 +1253,12 @@ function C8_PhysicsKineticTheoryMatterSim({
         className="flex flex-wrap items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-3"
       >
         <div className="flex items-center gap-3">
-          <motion.span whileHover={{ rotate: 20 }} className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700/50">
+          <motion.span whileHover={{ rotate: 20 }} className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">ICSE Class 8 Physics</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ICSE Class 8 Physics</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">CISCE 2026</span>
             </div>
             <h1 className="text-lg md:text-xl font-black text-white tracking-tight">{title}</h1>
@@ -1280,7 +1280,7 @@ function C8_PhysicsKineticTheoryMatterSim({
               }}
               className={`px-3 py-1.5 rounded-xl font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1304,14 +1304,14 @@ function C8_PhysicsKineticTheoryMatterSim({
             {/* Narrative Scenario Box */}
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-5 bg-gradient-to-br from-cyan-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-cyan-800/40"
+              className="p-5 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/40"
             >
-              <div className="flex items-center gap-2 text-cyan-400 text-sm font-bold uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
                 <span>🏔️ Expedition Briefing</span>
               </div>
               <h2 className="text-xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-cyan-300/80 mt-2 font-medium">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-300/80 mt-2 font-medium">{SCENARIO.context}</p>
             </motion.div>
 
             {/* Interactive Curiosity Hook */}
@@ -1337,7 +1337,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-cyan-500/50'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-500/50'
                     }`}
                     aria-label={`Option ${i + 1}: ${opt}`}
                   >
@@ -1360,7 +1360,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="w-full py-3.5 bg-gradient-to-r from-cyan-600 to-indigo-600 text-white rounded-xl font-extrabold text-sm shadow-lg shadow-cyan-600/30 flex items-center justify-center gap-2"
+                    className="w-full py-3.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-extrabold text-sm shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                   >
                     <span>Enter the Interactive Physics Lab</span>
                     <span>→</span>
@@ -1385,12 +1385,12 @@ function C8_PhysicsKineticTheoryMatterSim({
             {/* Step Header */}
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
               </div>
-              <span className="text-xs px-3 py-1 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800 font-mono">
+              <span className="text-xs px-3 py-1 rounded-full bg-gold-950 text-gold-300 border border-gold-800 font-mono">
                 {EXPLORATION_STEPS[currentSlide].nodeId}
               </span>
             </div>
@@ -1411,7 +1411,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between text-xs font-bold">
                       <span className="text-slate-400">Temperature Control:</span>
-                      <span className={tempSim <= 0 ? 'text-blue-400' : tempSim >= 100 ? 'text-orange-400' : 'text-cyan-400'}>
+                      <span className={tempSim <= 0 ? 'text-gold-400' : tempSim >= 100 ? 'text-orange-400' : 'text-gold-400'}>
                         {tempSim}°C ({currentPhaseState})
                       </span>
                     </div>
@@ -1421,7 +1421,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                       max={150}
                       value={tempSim}
                       onChange={(e) => setTempSim(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Temperature slider"
                     />
                     <div className="flex justify-between text-[11px] text-slate-500 font-mono">
@@ -1515,14 +1515,14 @@ function C8_PhysicsKineticTheoryMatterSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-3">
                     <div className="space-y-1">
                       <span className="text-xs text-slate-400">Current Phase & Energy State:</span>
-                      <p className="text-sm font-bold text-cyan-300">{currentPhaseState}</p>
+                      <p className="text-sm font-bold text-gold-300">{currentPhaseState}</p>
                     </div>
                     <div className="flex gap-2">
                       <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setTempSim(0)}
-                        className="px-3 py-1.5 bg-blue-900/60 hover:bg-blue-800 text-blue-200 text-xs font-bold rounded-lg border border-blue-700"
+                        className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 text-gold-200 text-xs font-bold rounded-lg border border-gold-700"
                       >
                         Snap to 0°C (Fusion)
                       </motion.button>
@@ -1544,8 +1544,8 @@ function C8_PhysicsKineticTheoryMatterSim({
                 <div className="space-y-4">
                   {/* Predict-then-check block */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-3">
-                      <span className="text-xs font-bold text-indigo-400">Predict Before Testing:</span>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-3">
+                      <span className="text-xs font-bold text-gold-400">Predict Before Testing:</span>
                       <p className="text-sm text-slate-100">{PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
@@ -1564,9 +1564,9 @@ function C8_PhysicsKineticTheoryMatterSim({
                   )}
 
                   {predictionMade && !predictionVerified && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-between items-center p-3 bg-indigo-950/60 rounded-xl border border-indigo-700 text-xs">
-                      <span className="text-indigo-200">{PREDICTION_QUESTIONS[1].verifyInstruction}</span>
-                      <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleVerifyPrediction} className="px-3 py-1 bg-indigo-600 text-white font-bold rounded-lg">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-between items-center p-3 bg-gold-950/60 rounded-xl border border-gold-700 text-xs">
+                      <span className="text-gold-200">{PREDICTION_QUESTIONS[1].verifyInstruction}</span>
+                      <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleVerifyPrediction} className="px-3 py-1 bg-gold-600 text-white font-bold rounded-lg">
                         Verify ✓
                       </motion.button>
                     </motion.div>
@@ -1602,7 +1602,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleMatkaToggle}
-                        className="mt-2 px-3 py-1 text-xs bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold rounded-lg border border-slate-700"
+                        className="mt-2 px-3 py-1 text-xs bg-slate-800 hover:bg-slate-700 text-gold-300 font-bold rounded-lg border border-slate-700"
                       >
                         Toggle: {matkaPorous ? 'Porous Clay' : 'Non-Porous Steel'}
                       </motion.button>
@@ -1613,23 +1613,23 @@ function C8_PhysicsKineticTheoryMatterSim({
                       <div>
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">Surface Area:</span>
-                          <span className="text-cyan-400 font-mono font-bold">{evapArea} cm²</span>
+                          <span className="text-gold-400 font-mono font-bold">{evapArea} cm²</span>
                         </div>
-                        <input type="range" min={10} max={100} value={evapArea} onChange={(e) => setEvapArea(Number(e.target.value))} className="w-full accent-cyan-500" />
+                        <input type="range" min={10} max={100} value={evapArea} onChange={(e) => setEvapArea(Number(e.target.value))} className="w-full accent-gold-500" />
                       </div>
                       <div>
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">Wind Speed:</span>
-                          <span className="text-cyan-400 font-mono font-bold">{evapWind} km/h</span>
+                          <span className="text-gold-400 font-mono font-bold">{evapWind} km/h</span>
                         </div>
-                        <input type="range" min={0} max={60} value={evapWind} onChange={(e) => setEvapWind(Number(e.target.value))} className="w-full accent-cyan-500" />
+                        <input type="range" min={0} max={60} value={evapWind} onChange={(e) => setEvapWind(Number(e.target.value))} className="w-full accent-gold-500" />
                       </div>
                       <div>
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">Humidity (Air Saturation):</span>
-                          <span className="text-cyan-400 font-mono font-bold">{evapHumidity}%</span>
+                          <span className="text-gold-400 font-mono font-bold">{evapHumidity}%</span>
                         </div>
-                        <input type="range" min={5} max={95} value={evapHumidity} onChange={(e) => setEvapHumidity(Number(e.target.value))} className="w-full accent-cyan-500" />
+                        <input type="range" min={5} max={95} value={evapHumidity} onChange={(e) => setEvapHumidity(Number(e.target.value))} className="w-full accent-gold-500" />
                       </div>
                       <div className="pt-2 border-t border-slate-800 flex justify-between items-center text-xs">
                         <span className="text-slate-400 font-bold">Evaporation Rate Index:</span>
@@ -1686,7 +1686,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                               onClick={() => setSublimeMaterial(mat)}
                               className={`p-2 rounded-lg text-xs font-bold capitalize border ${
                                 sublimeMaterial === mat
-                                  ? 'bg-cyan-600 text-white border-cyan-400'
+                                  ? 'bg-gold-600 text-white border-gold-400'
                                   : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                               }`}
                             >
@@ -1765,7 +1765,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                                 setOverflowCollected(0);
                               }}
                               className={`p-1.5 rounded-lg font-bold capitalize border ${
-                                selectedSpecimen === s ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                                selectedSpecimen === s ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                               }`}
                             >
                               {s}
@@ -1784,7 +1784,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                               whileTap={{ scale: 0.95 }}
                               onClick={() => setSelectedFluid(f)}
                               className={`p-1.5 rounded-lg font-bold capitalize border ${
-                                selectedFluid === f ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                                selectedFluid === f ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                               }`}
                             >
                               {f} ({f === 'water' ? '1.0' : f === 'kerosene' ? '0.8' : '13.6'})
@@ -1797,11 +1797,11 @@ function C8_PhysicsKineticTheoryMatterSim({
                       <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 space-y-1 font-mono">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Specimen Density (ρ_obj):</span>
-                          <span className="text-cyan-300 font-bold">{specimenDensity} g/cm³</span>
+                          <span className="text-gold-300 font-bold">{specimenDensity} g/cm³</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Fluid Density (ρ_fluid):</span>
-                          <span className="text-cyan-300 font-bold">{fluidDensity} g/cm³</span>
+                          <span className="text-gold-300 font-bold">{fluidDensity} g/cm³</span>
                         </div>
                         <div className="flex justify-between pt-1 border-t border-slate-800">
                           <span className="text-slate-400">Prediction & Result:</span>
@@ -1815,7 +1815,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={handleImmersionToggle}
-                        className="w-full py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl shadow-lg"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg"
                       >
                         {isImmersed ? 'Lift Out of Eureka Can' : '💧 Lower into Eureka Can'}
                       </motion.button>
@@ -1846,7 +1846,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-600/30"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -1886,7 +1886,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white rounded-xl font-black text-xs shadow-lg shadow-emerald-600/30"
+                className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-xl font-black text-xs shadow-lg shadow-emerald-600/30"
               >
                 Ready for ICSE Challenges! →
               </motion.button>
@@ -1895,22 +1895,22 @@ function C8_PhysicsKineticTheoryMatterSim({
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
               {/* Sandbox 1: Particle Dynamics Engine */}
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-sm font-bold text-cyan-300">Particle Simulation Chamber</h4>
+                <h4 className="text-sm font-bold text-gold-300">Particle Simulation Chamber</h4>
                 <div className="rounded-xl overflow-hidden bg-slate-950 border border-slate-800">
                   <canvas ref={canvasRef} className="w-full block" />
                 </div>
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs font-bold">
                     <span className="text-slate-400">Set Temperature:</span>
-                    <span className="text-cyan-400 font-mono">{tempSim}°C</span>
+                    <span className="text-gold-400 font-mono">{tempSim}°C</span>
                   </div>
-                  <input type="range" min={-20} max={150} value={tempSim} onChange={(e) => setTempSim(Number(e.target.value))} className="w-full accent-cyan-500" />
+                  <input type="range" min={-20} max={150} value={tempSim} onChange={(e) => setTempSim(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
               </div>
 
               {/* Sandbox 2: Density & Buoyancy Tank */}
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-sm font-bold text-cyan-300">Density & Floatation Testing Tank</h4>
+                <h4 className="text-sm font-bold text-gold-300">Density & Floatation Testing Tank</h4>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <div className="grid grid-cols-2 gap-3 text-xs">
                     <div>
@@ -1977,7 +1977,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                 <span className="text-xs font-bold text-slate-400 font-mono">
                   Challenge {currentChallenge + 1} / {filteredChallenges.length}
                 </span>
-                <span className="text-xs px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800 font-mono">
+                <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-800 font-mono">
                   {challenge.nodeId}
                 </span>
               </div>
@@ -1992,7 +1992,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                       : difficulty === 'standard'
-                      ? 'bg-blue-950/70 border-blue-500 text-blue-300'
+                      ? 'bg-gold-950/70 border-gold-500 text-gold-300'
                       : 'bg-purple-950/70 border-purple-500 text-purple-300'
                   }`}
                 >
@@ -2009,7 +2009,7 @@ function C8_PhysicsKineticTheoryMatterSim({
             {/* Progress Bar */}
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2042,7 +2042,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                           ? idx === challenge.correctIndex
                             ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                             : 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-50'
-                          : 'bg-slate-800/80 border-slate-700 hover:bg-slate-800 hover:border-cyan-500/50 text-slate-200'
+                          : 'bg-slate-800/80 border-slate-700 hover:bg-slate-800 hover:border-gold-500/50 text-slate-200'
                       }`}
                       aria-label={`Option ${idx + 1}: ${opt}`}
                     >
@@ -2064,7 +2064,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         draggable
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
-                        className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing"
                       >
                         {item.label}
                       </motion.div>
@@ -2086,7 +2086,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         }`}
                       >
                         <span className="text-xs font-bold text-slate-400">{target.desc}</span>
-                        <div className="text-sm font-black text-cyan-300 mt-2">
+                        <div className="text-sm font-black text-gold-300 mt-2">
                           {droppedLabels[target.id] || 'Drop matching state here'}
                         </div>
                       </div>
@@ -2098,7 +2098,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={Object.keys(droppedLabels).length < 3 || showExplanation}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-lg"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-lg"
                   >
                     Check Diagram Labels
                   </motion.button>
@@ -2125,7 +2125,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-xs md:text-sm font-medium flex items-center gap-3 cursor-grab text-slate-200"
                     >
-                      <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-400 font-bold flex items-center justify-center border border-cyan-800 text-xs">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 font-bold flex items-center justify-center border border-gold-800 text-xs">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2137,7 +2137,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                   >
                     Check Ordered Sequence
                   </motion.button>
@@ -2155,7 +2155,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer"
                       disabled={showExplanation}
-                      className="bg-slate-900 text-white p-3 rounded-lg border border-slate-700 text-sm font-mono flex-1 focus:border-cyan-500 focus:outline-none"
+                      className="bg-slate-900 text-white p-3 rounded-lg border border-slate-700 text-sm font-mono flex-1 focus:border-gold-500 focus:outline-none"
                     />
                     <span className="text-sm font-bold text-slate-400 font-mono">{challenge.unit}</span>
                   </div>
@@ -2165,7 +2165,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={!numericInput || showExplanation}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-lg"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-lg"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2184,7 +2184,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
                         disabled={showExplanation || constructParts.includes(part)}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-cyan-300 text-xs font-bold rounded-lg border border-slate-700"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-gold-300 text-xs font-bold rounded-lg border border-slate-700"
                       >
                         + {part}
                       </motion.button>
@@ -2219,7 +2219,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0 || showExplanation}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                   >
                     Verify Assembled Sequence
                   </motion.button>
@@ -2231,9 +2231,9 @@ function C8_PhysicsKineticTheoryMatterSim({
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/60 space-y-4"
+                  className="mt-6 p-5 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/60 space-y-4"
                 >
-                  <div className="flex items-center gap-2 text-indigo-300 font-extrabold text-sm">
+                  <div className="flex items-center gap-2 text-gold-300 font-extrabold text-sm">
                     <span>📖 Step-by-Step CISCE Board Breakdown:</span>
                   </div>
 
@@ -2249,7 +2249,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                           animate={{ opacity: 1, x: 0 }}
                           className="text-xs md:text-sm text-slate-300 leading-relaxed font-sans"
                         >
-                          <span className="font-bold text-cyan-400 font-mono">{idx + 1}.</span>{' '}
+                          <span className="font-bold text-gold-400 font-mono">{idx + 1}.</span>{' '}
                           {sentence}{!sentence.endsWith('.') ? '.' : ''}
                         </motion.p>
                       ))}
@@ -2261,7 +2261,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setRevealedSteps(s => s + 1)}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-xl"
                       >
                         Reveal Next Sentence →
                       </motion.button>
@@ -2292,12 +2292,12 @@ function C8_PhysicsKineticTheoryMatterSim({
             animate={{ opacity: 1, scale: 1 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-cyan-950/40 rounded-3xl border border-emerald-600/50 text-center space-y-3">
+            <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-600/50 text-center space-y-3">
               <span className="text-4xl">🎓</span>
               <h2 className="text-2xl font-black text-white">ICSE Physics Simulation Complete!</h2>
               <p className="text-sm text-slate-300 max-w-xl mx-auto">
                 Score: <span className="text-emerald-400 font-bold text-lg">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier:{' '}
-                <span className="text-cyan-400 font-bold capitalize">{masteryLevel}</span>
+                <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
               </p>
             </div>
 
@@ -2309,7 +2309,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                 errors === 0
                   ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300 shadow-emerald-500/20'
                   : errors <= 3
-                  ? 'bg-cyan-950/60 border-cyan-500 text-cyan-300 shadow-cyan-500/20'
+                  ? 'bg-gold-950/60 border-gold-500 text-gold-300 shadow-gold-500/20'
                   : errors <= 7
                   ? 'bg-amber-950/60 border-amber-500 text-amber-300 shadow-amber-500/20'
                   : 'bg-rose-950/60 border-rose-500 text-rose-300 shadow-rose-500/20'
@@ -2361,19 +2361,19 @@ function C8_PhysicsKineticTheoryMatterSim({
                 <span className="text-slate-400 font-bold block">SM-2 Spaced Repetition Schedule:</span>
                 <span className="text-slate-300">Next active recall session recommended in:</span>
               </div>
-              <span className="text-sm font-black text-cyan-400 font-mono px-3 py-1 bg-cyan-950 rounded-lg border border-cyan-800">
+              <span className="text-sm font-black text-gold-400 font-mono px-3 py-1 bg-gold-950 rounded-lg border border-gold-800">
                 {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
               </span>
             </div>
 
             {/* Capstone Real-World Activities */}
-            <div className="p-5 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/50 space-y-3">
-              <h3 className="text-sm font-black text-indigo-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
+            <div className="p-5 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/50 space-y-3">
+              <h3 className="text-sm font-black text-gold-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-2 text-xs text-slate-300 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-cyan-400 font-bold">{i + 1}.</span>
+                    <span className="text-gold-400 font-bold">{i + 1}.</span>
                     <span>{st}</span>
                   </li>
                 ))}
@@ -2389,7 +2389,7 @@ function C8_PhysicsKineticTheoryMatterSim({
                   setCurrentSlide(0);
                   setErrors(0);
                 }}
-                className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
               >
                 🔄 Replay Interactive Labs
               </motion.button>

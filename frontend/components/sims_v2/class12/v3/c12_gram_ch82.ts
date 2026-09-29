@@ -24,7 +24,7 @@ export const c12_gram_ch82: SimDef = {
             { id: 's3', label: 'Mixed and minor sentence-types report', prompt: 'Which idea is this? — Mixed and minor sentence-types report through their own frames: suggestions (\'Let\'s…\'.', answer: 'Mixed and minor sentence-types report', options: ['Mixed and minor sentence-types report', 'Senior reported speech handles the', 'Reporting exclamations wishes and optatives'] }
           ] } },
         { type: 'build', nodeId: 'c12_gram_ch82_002', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['\'She wished that I might succeed.\'', 'Frame \'wished that\' + might.', 'Identify the optative — a wish.'], answer: 'Identify the optative — a wish. Frame \'wished that\' + might. \'She wished that I might succeed.\'' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Identify the optative — a wish.', 'Frame \'wished that\' + might.', '\'She wished that I might succeed.\''], answer: 'Identify the optative — a wish. Frame \'wished that\' + might. \'She wished that I might succeed.\'' } },
         { type: 'case', nodeId: 'c12_gram_ch82_003', title: 'You made it',
           caseStudy: { intro: 'You finished Senior reported speech handles the leftovers. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

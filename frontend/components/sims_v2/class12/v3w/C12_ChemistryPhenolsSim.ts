@@ -11,7 +11,7 @@ export const w_c12_chemistryphenolssim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Classification of Alcohols: Primary, Secondary, Tertiary',
     chapters: [],
     nodeIds: ['c12_chem_cbse_07_001', 'c12_chem_cbse_07_002', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_005', 'c12_chem_cbse_07_006', 'c12_chem_cbse_07_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: when you rub hand sanitiser (mostly ethanol, a primary alcohol) on your.', goal: 'Master Classification of Alcohols: Primary, Secondary, Tertiary.' },
     discovery: {
         question: 'A student claims: "All secondary alcohols have the general formula R–CH(OH)–R\' where R and R\' are different alkyl groups." Analyse this statement and correct.',
@@ -20,7 +20,7 @@ export const w_c12_chemistryphenolssim: SimDef = {
         hook: 'Students often classify alcohols by counting the total number of carbon atoms in the molecule (e.g., "propanol has 3.',
     },
     teaching: [
-        { title: 'Alcohols are organic compounds in which a.', text: 'Alcohols are organic compounds in which a hydroxyl (–OH) group is attached to an sp³ hybridised carbon atom of an aliphatic system; they are classified as primary (1°), secondary (2°), or tertiary.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Alcohols are organic compounds in which a.', text: 'Alcohols are organic compounds in which a hydroxyl (–OH) group is attached to an sp³ hybridised carbon atom of an aliphatic system; they are classified as primary (1°), secondary (2°), or tertiary.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_07_001', title: 'Alcohols are organic compounds in which.',

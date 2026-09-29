@@ -654,7 +654,7 @@ const AntibodyStructureDiagram: React.FC<{ activeDomain: string; setActiveDomain
 }) => {
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-xl text-center">
-      <h4 className="text-cyan-400 font-bold mb-2 text-sm uppercase tracking-wider">
+      <h4 className="text-gold-400 font-bold mb-2 text-sm uppercase tracking-wider">
         Interactive Immunoglobulin ($H_2L_2$) Structure
       </h4>
       <p className="text-xs text-slate-300 mb-3">Click on regions of the Y-shaped antibody to inspect molecular domains:</p>
@@ -747,7 +747,7 @@ const AntibodyStructureDiagram: React.FC<{ activeDomain: string; setActiveDomain
           </p>
         )}
         {activeDomain === 'heavy' && (
-          <p className="text-blue-300">
+          <p className="text-gold-300">
             <strong>Heavy Chains ($H_2$):</strong> Two identical long polypeptide chains (~50 kDa each) connected to each other by interchain disulfide bonds at the hinge region. Determines immunoglobulin class ($\gamma, \alpha, \mu, \epsilon, \delta$).
           </p>
         )}
@@ -1180,7 +1180,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
       <header className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full border border-cyan-500/30">
+            <span className="bg-gold-500/20 text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500/30">
               ISC CLASS 12 BIOLOGY
             </span>
             <span className="bg-emerald-500/20 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full border border-emerald-500/30">
@@ -1199,7 +1199,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
         <div className="flex items-center gap-6 bg-slate-950/80 px-5 py-3 rounded-xl border border-slate-800">
           <div className="text-center">
             <p className="text-xs text-slate-400 uppercase font-semibold">Mastery Score</p>
-            <p className="text-2xl font-black text-cyan-400">{score} XP</p>
+            <p className="text-2xl font-black text-gold-400">{score} XP</p>
           </div>
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center">
@@ -1220,7 +1220,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
           }}
           className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'discovery'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1233,7 +1233,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
           }}
           className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'lab'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1246,7 +1246,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
           }}
           className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'challenges'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1259,7 +1259,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
           }}
           className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'summary'
-              ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30'
+              ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
               : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
@@ -1272,8 +1272,8 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Scenario Overview */}
           <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-            <h2 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
-              <span className="w-3 h-3 rounded-full bg-cyan-400 animate-pulse" />
+            <h2 className="text-xl font-bold text-gold-400 flex items-center gap-2">
+              <span className="w-3 h-3 rounded-full bg-gold-400 animate-pulse" />
               {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-base leading-relaxed">{SCENARIO.intro}</p>
@@ -1282,8 +1282,8 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
             </p>
 
             {/* Counterintuitive Discovery Question */}
-            <div className="mt-4 bg-slate-950 p-5 rounded-xl border border-cyan-500/30">
-              <h3 className="text-lg font-semibold text-cyan-300 mb-3">
+            <div className="mt-4 bg-slate-950 p-5 rounded-xl border border-gold-500/30">
+              <h3 className="text-lg font-semibold text-gold-300 mb-3">
                 Discovery Challenge: Pathogen Pathophysiology
               </h3>
               <p className="text-sm text-slate-200 mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1307,8 +1307,8 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
               </div>
 
               {showDiscoveryExplanation && (
-                <div className="mt-4 p-4 rounded-xl bg-cyan-950/60 border border-cyan-800/60 text-xs text-cyan-200">
-                  <p className="font-bold text-cyan-400 mb-1">Immunological Mechanism:</p>
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/60 border border-gold-800/60 text-xs text-gold-200">
+                  <p className="font-bold text-gold-400 mb-1">Immunological Mechanism:</p>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1364,7 +1364,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
                 }}
                 className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
                   activeLabIndex === idx
-                    ? 'bg-cyan-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-950 text-slate-400 hover:text-white'
                 }`}
               >
@@ -1377,10 +1377,10 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col gap-6">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-slate-800 pb-4 gap-2">
               <div>
-                <h3 className="text-xl font-bold text-cyan-400">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
+                <h3 className="text-xl font-bold text-gold-400">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
                 <p className="text-xs text-slate-400 mt-1">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
               </div>
-              <span className="text-xs font-mono bg-slate-950 text-cyan-400 px-3 py-1 rounded-full border border-slate-800">
+              <span className="text-xs font-mono bg-slate-950 text-gold-400 px-3 py-1 rounded-full border border-slate-800">
                 Node: {EXPLORATION_STEPS[activeLabIndex].nodeId}
               </span>
             </div>
@@ -1466,7 +1466,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
                 <AntibodyStructureDiagram activeDomain={activeAntibodyDomain} setActiveDomain={setActiveAntibodyDomain} />
 
                 <div className="flex flex-col gap-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h4 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+                  <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                     Innate Barriers vs Acquired Immunity Simulator
                   </h4>
                   <div className="grid grid-cols-2 gap-2 text-xs">
@@ -1489,7 +1489,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
                   </div>
 
                   <div className="mt-2 text-xs text-slate-300">
-                    <p className="font-bold text-cyan-300 mb-1">Immunoglobulin Classes Matrix:</p>
+                    <p className="font-bold text-gold-300 mb-1">Immunoglobulin Classes Matrix:</p>
                     <ul className="list-disc pl-4 space-y-1">
                       <li><strong>IgG:</strong> Most abundant in blood serum (80%); crosses placenta for fetal protection.</li>
                       <li><strong>IgA:</strong> Dimeric secretory antibody in colostrum, tears, and saliva.</li>
@@ -1535,7 +1535,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
                         <div className="w-16 h-16 rounded-full bg-rose-600 border-4 border-rose-400 flex items-center justify-center font-bold text-white text-xs">
                           HIV Virion
                         </div>
-                        <div className="w-24 h-4 bg-blue-600 rounded-b-lg mt-4 flex items-center justify-center text-[10px] text-white">
+                        <div className="w-24 h-4 bg-gold-600 rounded-b-lg mt-4 flex items-center justify-center text-[10px] text-white">
                           CD4 Receptor
                         </div>
                       </div>
@@ -1544,12 +1544,12 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
                       <div className="flex items-center gap-6">
                         <div className="text-rose-400 font-mono text-xs">ssRNA (Viral)</div>
                         <div className="text-yellow-400 font-bold text-xs animate-pulse"> Reverse Transcriptase →</div>
-                        <div className="text-cyan-400 font-mono text-xs">dsDNA (cDNA)</div>
+                        <div className="text-gold-400 font-mono text-xs">dsDNA (cDNA)</div>
                       </div>
                     )}
                     {hivStage === 3 && (
                       <div className="flex flex-col items-center">
-                        <div className="w-48 h-12 bg-indigo-950 border-2 border-indigo-500 rounded-lg flex items-center justify-center text-xs font-mono text-indigo-200">
+                        <div className="w-48 h-12 bg-gold-950 border-2 border-gold-500 rounded-lg flex items-center justify-center text-xs font-mono text-gold-200">
                           Host Chromosomal DNA + Provirus
                         </div>
                         <span className="text-emerald-400 text-xs mt-2 font-bold">Integrase Mediated Insertion Complete</span>
@@ -1761,7 +1761,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
           {/* Question Text */}
           <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col gap-3">
             <p className="text-base text-slate-100 font-medium leading-relaxed">{currChallenge.question}</p>
-            <span className="text-[11px] font-mono text-cyan-400">Node ID: {currChallenge.nodeId}</span>
+            <span className="text-[11px] font-mono text-gold-400">Node ID: {currChallenge.nodeId}</span>
           </div>
 
           {/* Hint Bubble Component */}
@@ -1781,7 +1781,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
                     className="flex items-center justify-between p-3.5 rounded-xl bg-slate-950 border border-slate-800 text-xs md:text-sm text-slate-200"
                   >
                     <span className="flex items-center gap-3">
-                      <span className="w-6 h-6 rounded-full bg-cyan-900 text-cyan-300 font-bold text-xs flex items-center justify-center">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 font-bold text-xs flex items-center justify-center">
                         {idx + 1}
                       </span>
                       {item}
@@ -1807,7 +1807,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
               </div>
               <button
                 onClick={() => handleAnswerSubmit()}
-                className="mt-3 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-500 font-bold text-white text-sm transition-all"
+                className="mt-3 py-3 rounded-xl bg-gold-600 hover:bg-gold-500 font-bold text-white text-sm transition-all"
               >
                 Validate Order
               </button>
@@ -1872,7 +1872,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Real World Clinical Task */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col gap-4">
-            <h3 className="text-lg font-bold text-cyan-400">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-lg font-bold text-gold-400">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
@@ -1890,7 +1890,7 @@ export const C12_BiologyHumanHealthandDiseaseCBSESim: React.FC<SimProps> = ({ on
               {MISCONCEPTIONS.map((m) => (
                 <div key={m.id} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 text-xs flex flex-col gap-1.5">
                   <div className="flex justify-between items-center">
-                    <span className="font-bold text-cyan-400">{m.topic}</span>
+                    <span className="font-bold text-gold-400">{m.topic}</span>
                   </div>
                   <p className="text-rose-300 line-through">❌ Misconception: {m.misconception}</p>
                   <p className="text-emerald-300 font-medium">✔ Fact: {m.correction}</p>

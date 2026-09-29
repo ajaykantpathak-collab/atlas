@@ -40,11 +40,11 @@ export function C8_MathematicsCubesAndCubeRootsSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Cubes and Cube Roots - Prime Triple Machine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Cubes and Cube Roots - Prime Triple Machine</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">The triple test:</span> break the number into
+          <span className="font-bold text-gold-700">The triple test:</span> break the number into
           prime factors. If every prime appears a multiple of 3 times, the factors group into
           triples - one number from each triple multiplies to the cube root. Prime colors and card
           stacks below show exactly how the grouping works.
@@ -55,12 +55,12 @@ export function C8_MathematicsCubesAndCubeRootsSim() {
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200">
           <label className="text-xs font-semibold text-slate-500 flex justify-between">
             <span>Number M (8 to 1000)</span>
-            <span className="font-mono text-indigo-600 text-base">{m}</span>
+            <span className="font-mono text-gold-600 text-base">{m}</span>
           </label>
-          <input type="range" min={8} max={1000} value={m} aria-label="number to test" onChange={(e) => setM(Number(e.target.value))} className="w-full mt-2 accent-indigo-600" />
+          <input type="range" min={8} max={1000} value={m} aria-label="number to test" onChange={(e) => setM(Number(e.target.value))} className="w-full mt-2 accent-gold-600" />
           <div className="flex flex-wrap gap-2 mt-3">
             {[27, 64, 125, 216, 243, 500].map((v) => (
-              <button key={v} onClick={() => setM(v)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+              <button key={v} onClick={() => setM(v)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                 {v}
               </button>
             ))}
@@ -71,7 +71,7 @@ export function C8_MathematicsCubesAndCubeRootsSim() {
           <div className="mt-4 p-3 bg-white rounded-xl border border-slate-200 text-sm">
             <div className="font-mono">
               <span className="text-slate-500">Prime factorisation: </span>
-              <span className="text-indigo-700 font-bold">
+              <span className="text-gold-700 font-bold">
                 {factors.map(([p, e], i) => `${i > 0 ? ' x ' : ''}${p}^${e}`).join('')}
               </span>
             </div>
@@ -89,7 +89,7 @@ export function C8_MathematicsCubesAndCubeRootsSim() {
         </div>
 
         {/* Card-stack visualization */}
-        <div className="p-4 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-4 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 380 240" className="w-full">
             {factors.map(([p, e], idx) => {
               const groupW = 84;

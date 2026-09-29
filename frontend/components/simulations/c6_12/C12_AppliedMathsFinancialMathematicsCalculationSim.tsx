@@ -1332,12 +1332,12 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
         >
           <motion.span
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950 border border-indigo-700 rounded-2xl cursor-pointer"
+            className="text-3xl p-2 bg-gold-950 border border-gold-700 rounded-2xl cursor-pointer"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">
@@ -1371,7 +1371,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border-rose-800'
-                : 'bg-indigo-950 text-indigo-400 border-indigo-800'
+                : 'bg-gold-950 text-gold-400 border-gold-800'
             }`}
           >
             {difficulty}
@@ -1398,11 +1398,11 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
             >
-              <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-indigo-900/50">{SCENARIO.context}</p>
+              <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-gold-900/50">{SCENARIO.context}</p>
             </motion.div>
 
             <motion.div
@@ -1432,7 +1432,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                         : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                         ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                        : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start gap-2">
@@ -1459,7 +1459,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2 text-sm"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                   >
                     <span>Proceed to Prediction Phase</span>
                     <span>→</span>
@@ -1479,8 +1479,8 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/60 space-y-4">
-              <div className="flex items-center justify-between text-xs text-indigo-400 font-bold uppercase tracking-wider">
+            <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/60 space-y-4">
+              <div className="flex items-center justify-between text-xs text-gold-400 font-bold uppercase tracking-wider">
                 <span>🤔 Step 1: Predict Before You Interact ({predIndex + 1} of {PREDICTION_QUESTIONS.length})</span>
                 <span className="text-slate-400">Brilliant.org Predict-then-Check</span>
               </div>
@@ -1505,7 +1505,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                           : showPredFeedback && isSelected && !isCorrect
                           ? 'bg-rose-950/70 border-rose-500 text-rose-200'
-                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                     >
                       <div className="flex items-start gap-2">
@@ -1526,7 +1526,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                   className="pt-4 border-t border-slate-800 space-y-3"
                 >
                   <p className="text-xs md:text-sm text-slate-200 leading-relaxed">
-                    <span className="font-bold text-indigo-300">Explanation: </span>
+                    <span className="font-bold text-gold-300">Explanation: </span>
                     {PREDICTION_QUESTIONS[predIndex].explanation}
                   </p>
                   <div className="p-3 bg-amber-950/40 border border-amber-700/60 rounded-xl text-xs text-amber-300 font-semibold">
@@ -1536,7 +1536,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextPrediction}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow"
                   >
                     {predIndex + 1 < PREDICTION_QUESTIONS.length ? 'Next Prediction Question →' : 'Enter Interactive Labs →'}
                   </motion.button>
@@ -1561,7 +1561,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
               className="flex flex-wrap items-center justify-between gap-3 bg-slate-900/80 p-3 rounded-2xl border border-slate-800"
             >
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold px-2 py-1 bg-indigo-900/80 text-indigo-300 rounded-lg">
+                <span className="text-xs font-bold px-2 py-1 bg-gold-900/80 text-gold-300 rounded-lg">
                   Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-sm md:text-base font-bold text-white">
@@ -1583,7 +1583,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={currentSlide === EXPLORATION_STEPS.length - 1 ? handleAdvanceToSandbox : handleNextSlide}
-                  className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold text-white rounded-lg"
+                  className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-xs font-semibold text-white rounded-lg"
                 >
                   {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Free Sandbox →' : 'Next Lab →'}
                 </motion.button>
@@ -1605,7 +1605,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleTabSwitch('visualizer')}
                 className={`px-4 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-                  activeTab === 'visualizer' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                  activeTab === 'visualizer' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                 }`}
               >
                 Interactive Graph & Controls
@@ -1615,7 +1615,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleTabSwitch('formula')}
                 className={`px-4 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-                  activeTab === 'formula' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                  activeTab === 'formula' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                 }`}
               >
                 Formula & Derivation
@@ -1625,7 +1625,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleTabSwitch('table')}
                 className={`px-4 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-                  activeTab === 'table' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                  activeTab === 'table' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                 }`}
               >
                 Computed Schedule
@@ -1635,7 +1635,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleTabSwitch('observations')}
                 className={`px-4 py-1.5 text-xs font-semibold rounded-lg transition-all ${
-                  activeTab === 'observations' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                  activeTab === 'observations' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                 }`}
               >
                 Observation Checks
@@ -1689,7 +1689,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                             setShowObsFeedback(false);
                             setObsIndex(o => o + 1);
                           }}
-                          className="px-4 py-2 bg-indigo-600 text-white font-bold rounded-lg text-xs"
+                          className="px-4 py-2 bg-gold-600 text-white font-bold rounded-lg text-xs"
                         >
                           Next Observation Check →
                         </button>
@@ -1711,7 +1711,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       animate={{ x: 0 }}
                       className="lg:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4"
                     >
-                      <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                      <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                         Loan Parameters (Real-Time)
                       </h3>
 
@@ -1727,7 +1727,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                           step={50000}
                           value={loanPrincipal}
                           onChange={(e) => setLoanPrincipal(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                           aria-label="Set Loan Principal"
                         />
                       </div>
@@ -1752,7 +1752,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Tenure (T):</span>
-                          <span className="font-mono text-cyan-400 font-bold">{loanTenureYears} Years ({loanTenureYears * 12} mos)</span>
+                          <span className="font-mono text-gold-400 font-bold">{loanTenureYears} Years ({loanTenureYears * 12} mos)</span>
                         </div>
                         <input
                           type="range"
@@ -1761,7 +1761,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                           step={1}
                           value={loanTenureYears}
                           onChange={(e) => setLoanTenureYears(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                           aria-label="Set Loan Tenure"
                         />
                       </div>
@@ -1789,9 +1789,9 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
 
                       <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-3 bg-indigo-950/50 border border-indigo-700/60 rounded-xl text-center"
+                        className="p-3 bg-gold-950/50 border border-gold-700/60 rounded-xl text-center"
                       >
-                        <span className="text-xs text-indigo-300">Reducing Method Saves You: </span>
+                        <span className="text-xs text-gold-300">Reducing Method Saves You: </span>
                         <span className="text-sm font-bold text-emerald-400">₹{emiCalculations.interestDifference.toLocaleString('en-IN')}</span>
                       </motion.div>
                     </motion.div>
@@ -1802,7 +1802,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       animate={{ x: 0 }}
                       className="lg:col-span-7 bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between"
                     >
-                      <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider mb-2">
+                      <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider mb-2">
                         Amortisation Curve (Principal vs Interest Shift)
                       </h3>
                       <div className="w-full h-64">
@@ -1821,7 +1821,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
 
                       {/* Topic Specific SVG 1: EMI Anatomy */}
                       <div className="mt-4 p-3 bg-slate-950 rounded-xl border border-slate-800">
-                        <div className="text-xs font-bold text-indigo-400 mb-1">📐 Architectural Concept: Flat vs Reducing Loan Mechanism</div>
+                        <div className="text-xs font-bold text-gold-400 mb-1">📐 Architectural Concept: Flat vs Reducing Loan Mechanism</div>
                         <svg viewBox="0 0 500 90" className="w-full h-20">
                           <rect x="20" y="15" width="200" height="25" rx="4" fill="#3b82f6" opacity="0.8" />
                           <rect x="20" y="45" width="200" height="25" rx="4" fill="#ef4444" opacity="0.8" />
@@ -1846,7 +1846,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     animate={{ opacity: 1 }}
                     className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
                   >
-                    <h3 className="text-lg font-bold text-indigo-300">Formulas & Mathematical Equivalency</h3>
+                    <h3 className="text-lg font-bold text-gold-300">Formulas & Mathematical Equivalency</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                         <h4 className="text-sm font-bold text-rose-400 mb-2">1. Flat Rate Method</h4>
@@ -1872,7 +1872,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     animate={{ opacity: 1 }}
                     className="p-6 bg-slate-900 rounded-2xl border border-slate-800 overflow-x-auto"
                   >
-                    <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider mb-4">
+                    <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider mb-4">
                       Amortisation Breakdown Schedule
                     </h3>
                     <table className="w-full text-xs text-left">
@@ -1909,7 +1909,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     animate={{ x: 0 }}
                     className="lg:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4"
                   >
-                    <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                    <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                       Investment Trajectory Inputs
                     </h3>
 
@@ -1989,7 +1989,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     animate={{ x: 0 }}
                     className="lg:col-span-7 bg-slate-900 p-5 rounded-2xl border border-slate-800"
                   >
-                    <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider mb-2">
+                    <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider mb-2">
                       Compounded Annual Growth vs Simple Linear Illusion
                     </h3>
                     <div className="w-full h-64">
@@ -2007,7 +2007,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     </div>
 
                     <p className="text-xs text-slate-400 mt-4 leading-relaxed">
-                      💡 <span className="text-indigo-300 font-semibold">Key Insight:</span> Simple division ignores interest-on-interest. Because each year grows from a higher base, the real CAGR ({cagrCalculations.cagr}%) is lower than the naive simple average ({cagrCalculations.simpleAvgReturn}%).
+                      💡 <span className="text-gold-300 font-semibold">Key Insight:</span> Simple division ignores interest-on-interest. Because each year grows from a higher base, the real CAGR ({cagrCalculations.cagr}%) is lower than the naive simple average ({cagrCalculations.simpleAvgReturn}%).
                     </p>
                   </motion.div>
                 </div>
@@ -2022,7 +2022,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                   animate={{ x: 0 }}
                   className="lg:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4"
                 >
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                     Asset Parameters
                   </h3>
 
@@ -2063,7 +2063,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Useful Life (n):</span>
-                      <span className="font-mono text-cyan-400 font-bold">{usefulLife} Years</span>
+                      <span className="font-mono text-gold-400 font-bold">{usefulLife} Years</span>
                     </div>
                     <input
                       type="range"
@@ -2072,7 +2072,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       step={1}
                       value={usefulLife}
                       onChange={(e) => setUsefulLife(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Set Useful Life"
                     />
                   </div>
@@ -2091,7 +2091,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Depreciation Rate:</span>
-                      <span className="font-bold text-indigo-300">{depreciationCalculations.depRatePct}% of Cost</span>
+                      <span className="font-bold text-gold-300">{depreciationCalculations.depRatePct}% of Cost</span>
                     </div>
                   </motion.div>
                 </motion.div>
@@ -2101,7 +2101,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                   animate={{ x: 0 }}
                   className="lg:col-span-7 bg-slate-900 p-5 rounded-2xl border border-slate-800"
                 >
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider mb-2">
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider mb-2">
                     Straight-Line Book Value Depletion
                   </h3>
                   <div className="w-full h-64">
@@ -2133,7 +2133,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     animate={{ x: 0 }}
                     className="lg:col-span-6 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4"
                   >
-                    <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                    <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                       Current Year Market Shifts (Base: Rice ₹40, Q=20; Wheat ₹30, Q=15)
                     </h3>
 
@@ -2195,13 +2195,13 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     animate={{ x: 0 }}
                     className="lg:col-span-6 bg-slate-900 p-5 rounded-2xl border border-slate-800 flex flex-col justify-between space-y-4"
                   >
-                    <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                    <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                       Weighted Aggregate Price Index Output
                     </h3>
 
                     <div className="grid grid-cols-2 gap-3">
-                      <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-slate-950 rounded-xl border border-indigo-800/50">
-                        <p className="text-[10px] text-indigo-400 font-bold uppercase">Laspeyres (Base Q₀)</p>
+                      <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-slate-950 rounded-xl border border-gold-800/50">
+                        <p className="text-[10px] text-gold-400 font-bold uppercase">Laspeyres (Base Q₀)</p>
                         <p className="text-xl font-bold text-white mt-1 font-mono">{indexCalculations.laspeyres}</p>
                         <p className="text-[10px] text-slate-400 mt-1">Σ(P₁Q₀)/Σ(P₀Q₀)</p>
                       </motion.div>
@@ -2218,16 +2218,16 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                         <p className="text-[10px] text-slate-300 mt-1">Geometric Mean</p>
                       </motion.div>
 
-                      <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-cyan-950/60 border border-cyan-700/70 rounded-xl">
-                        <p className="text-[10px] text-cyan-300 font-bold uppercase">Marshall-Edgeworth</p>
-                        <p className="text-xl font-bold text-cyan-400 mt-1 font-mono">{indexCalculations.marshallEdgeworth}</p>
+                      <motion.div whileHover={{ scale: 1.04 }} className="p-3 bg-gold-950/60 border border-gold-700/70 rounded-xl">
+                        <p className="text-[10px] text-gold-300 font-bold uppercase">Marshall-Edgeworth</p>
+                        <p className="text-xl font-bold text-gold-400 mt-1 font-mono">{indexCalculations.marshallEdgeworth}</p>
                         <p className="text-[10px] text-slate-300 mt-1">Mean Q = (Q₀+Q₁)/2</p>
                       </motion.div>
                     </div>
 
                     {/* Topic Specific SVG 2: Index Numbers Bridge */}
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <div className="text-xs font-bold text-indigo-400 mb-1">📐 Index Weighting Architecture</div>
+                      <div className="text-xs font-bold text-gold-400 mb-1">📐 Index Weighting Architecture</div>
                       <svg viewBox="0 0 500 80" className="w-full h-18">
                         <rect x="10" y="10" width="130" height="40" rx="8" fill="#4338ca" opacity="0.6" />
                         <text x="75" y="28" fill="#a5b4fc" fontSize="10" fontWeight="bold" textAnchor="middle">Laspeyres (L)</text>
@@ -2258,7 +2258,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
                   <div className="flex flex-wrap items-center justify-between gap-3">
                     <div>
-                      <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                      <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                         4-Yearly Time Series Smoothing
                       </h3>
                       <p className="text-xs text-slate-400 mt-1">
@@ -2301,7 +2301,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
 
                   {/* Topic Specific SVG 3: Centering Timeline Visualizer */}
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <div className="text-xs font-bold text-indigo-400 mb-1">📐 Moving Average Centering Timing Schema</div>
+                    <div className="text-xs font-bold text-gold-400 mb-1">📐 Moving Average Centering Timing Schema</div>
                     <svg viewBox="0 0 500 85" className="w-full h-20">
                       <line x1="40" y1="30" x2="460" y2="30" stroke="#475569" strokeWidth="2" />
                       <circle cx="60" cy="30" r="4" fill="#38bdf8" />
@@ -2359,10 +2359,10 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400">Instant Loan Solver</span>
+                <span className="text-xs font-bold text-gold-400">Instant Loan Solver</span>
                 <div>
                   <label className="text-[11px] text-slate-400">Principal: ₹{loanPrincipal.toLocaleString('en-IN')}</label>
-                  <input type="range" min={50000} max={2000000} step={25000} value={loanPrincipal} onChange={(e) => setLoanPrincipal(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={50000} max={2000000} step={25000} value={loanPrincipal} onChange={(e) => setLoanPrincipal(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-[11px] text-slate-400">Rate: {loanRateAnnual}% | Tenure: {loanTenureYears} yrs</label>
@@ -2381,7 +2381,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 </div>
                 <div>
                   <label className="text-[11px] text-slate-400">Years: {cagrYears} yrs</label>
-                  <input type="range" min={1} max={10} value={cagrYears} onChange={(e) => setCagrYears(Number(e.target.value))} className="w-full accent-cyan-500" />
+                  <input type="range" min={1} max={10} value={cagrYears} onChange={(e) => setCagrYears(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div className="text-xs font-mono p-2 bg-slate-950 rounded border border-slate-800">
                   CAGR: <span className="text-purple-300 font-bold">{cagrCalculations.cagr}% p.a.</span>
@@ -2408,7 +2408,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-2xl shadow-xl shadow-emerald-600/30 text-sm flex items-center gap-2 mx-auto"
+              className="px-8 py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-2xl shadow-xl shadow-emerald-600/30 text-sm flex items-center gap-2 mx-auto"
             >
               <span>Ready for CISCE Exam Level Challenges</span>
               <span>→</span>
@@ -2431,14 +2431,14 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 <span className="text-slate-400">
                   Question <span className="text-white font-bold">{currentChallenge + 1}</span> of {filteredChallenges.length}
                 </span>
-                <span className="text-indigo-400 uppercase font-mono tracking-wider font-semibold">
+                <span className="text-gold-400 uppercase font-mono tracking-wider font-semibold">
                   Competency: {challenge.competencyLevel}
                 </span>
               </div>
 
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -2479,7 +2479,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                           : showExplanation && i !== challenge.correctIndex
                           ? 'bg-slate-950/40 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                     >
                       <div className="flex items-start gap-3">
@@ -2505,7 +2505,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-semibold shadow"
+                        className="px-3 py-1.5 bg-gold-600 text-white rounded-lg cursor-grab text-xs font-semibold shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2542,7 +2542,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={(e) => handleAnswer(droppedLabels, e)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Mappings
                   </motion.button>
@@ -2566,7 +2566,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       whileHover={{ scale: 1.02 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs md:text-sm cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-0.5 bg-indigo-950 text-indigo-400 rounded font-mono text-xs font-bold">
+                      <span className="px-2 py-0.5 bg-gold-950 text-gold-400 rounded font-mono text-xs font-bold">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2578,7 +2578,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs mt-2"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs mt-2"
                   >
                     Verify Order
                   </motion.button>
@@ -2597,7 +2597,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter calculated numerical value..."
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none w-64"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none w-64"
                     />
                     <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
                     <motion.button
@@ -2605,7 +2605,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={(e) => handleAnswer(numericInput, e)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                     >
                       Submit Answer
                     </motion.button>
@@ -2624,7 +2624,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                         whileHover={{ scale: 1.08 }}
                         whileTap={{ scale: 0.92 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2637,7 +2637,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-900/80 text-indigo-200 rounded text-xs font-mono flex items-center gap-1"
+                        className="px-2.5 py-1 bg-gold-900/80 text-gold-200 rounded text-xs font-mono flex items-center gap-1"
                       >
                         {part}
                         <motion.button
@@ -2661,7 +2661,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={(e) => handleAnswer(constructParts.join(' '), e)}
                       disabled={showExplanation || constructParts.length === 0}
-                      className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                      className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                     >
                       Verify Construction
                     </motion.button>
@@ -2683,9 +2683,9 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/60 rounded-2xl space-y-3"
+                className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/60 rounded-2xl space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>📚</span>
                   <span>Examiner's Step-by-Step Solution Breakdown</span>
                 </div>
@@ -2701,7 +2701,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <span className="text-indigo-400 font-bold mr-1">{idx + 1}.</span>
+                      <span className="text-gold-400 font-bold mr-1">{idx + 1}.</span>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2713,7 +2713,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-800/80 hover:bg-indigo-700 text-white text-xs font-semibold rounded-lg"
+                      className="px-4 py-2 bg-gold-800/80 hover:bg-gold-700 text-white text-xs font-semibold rounded-lg"
                     >
                       Reveal Next Working Step →
                     </motion.button>
@@ -2745,7 +2745,7 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
             <motion.div
               initial={{ y: -20 }}
               animate={{ y: 0 }}
-              className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-3xl border border-indigo-700 text-center space-y-4"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-3xl border border-gold-700 text-center space-y-4"
             >
               <h2 className="text-2xl md:text-3xl font-extrabold text-white">Applied Mathematics Unit Mastered!</h2>
               <div className="flex justify-center gap-6 flex-wrap">
@@ -2768,9 +2768,9 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
                 initial={{ scale: 0.9, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="p-4 bg-slate-900/90 rounded-2xl border border-indigo-500/40 max-w-lg mx-auto"
+                className="p-4 bg-slate-900/90 rounded-2xl border border-gold-500/40 max-w-lg mx-auto"
               >
-                <p className="text-base font-bold text-indigo-300">
+                <p className="text-base font-bold text-gold-300">
                   {errors === 0
                     ? 'PERFECT SCORE!'
                     : errors <= 3
@@ -2840,12 +2840,12 @@ function C12_AppliedMathsFinancialMathematicsCalculationSim({
               whileHover={{ scale: 1.01 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1 text-xs text-slate-400 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                    <span className="text-gold-400 font-bold">{i + 1}.</span>
                     <span>{st}</span>
                   </li>
                 ))}

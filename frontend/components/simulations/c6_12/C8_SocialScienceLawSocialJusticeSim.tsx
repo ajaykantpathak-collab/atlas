@@ -37,7 +37,7 @@ export function C8_SocialScienceLawSocialJusticeSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 8 Civics - Law and Social Justice</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 8 Civics - Law and Social Justice</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">The Factory Dilemma: Law on Paper vs Law in Practice</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -49,10 +49,10 @@ export function C8_SocialScienceLawSocialJusticeSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Factory owner: pollution-control investment</span>
-                <span className="font-mono text-indigo-300">{invest} ({controlCost.toFixed(1)} Rs lakh/month)</span>
+                <span className="font-mono text-gold-300">{invest} ({controlCost.toFixed(1)} Rs lakh/month)</span>
               </label>
               <input type="range" min={0} max={100} step={5} value={invest} aria-label="pollution investment"
-                onChange={(e) => setInvest(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setInvest(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
@@ -63,11 +63,11 @@ export function C8_SocialScienceLawSocialJusticeSim() {
                 onChange={(e) => setEnforce(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-emerald-500" />
             </div>
             <button onClick={() => setTraining((t) => !t)}
-              className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${training ? 'bg-violet-600 border-violet-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-violet-500'}`}>
+              className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${training ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-gold-500'}`}>
               Safety training for workers {training ? 'ON (+8 lakh cost, -15 unsafe practices)' : 'OFF'}
             </button>
             <button onClick={() => setUnion((u) => !u)}
-              className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${union ? 'bg-sky-600 border-sky-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-sky-500'}`}>
+              className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${union ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-gold-500'}`}>
               Workers&apos; union files complaints {union ? 'ON (effective enforcement +15)' : 'OFF'}
             </button>
             <div className="flex gap-2">
@@ -89,8 +89,8 @@ export function C8_SocialScienceLawSocialJusticeSim() {
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Expected fine paid</p><p className="font-mono text-lg text-amber-300">{expectedFine.toFixed(1)} Rs lakh/mo</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Unsafe practices index</p><p className="font-mono text-lg text-rose-300">{Math.round(violations)}</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Worker accidents/mo</p><p className="font-mono text-lg text-rose-300">{accidents.toFixed(1)}</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">River pollution</p><p className="font-mono text-lg text-sky-300">{pollution}/100</p>
-              <div className="h-1.5 mt-1 rounded-full bg-slate-950 overflow-hidden"><div className="h-full bg-sky-500 transition-all duration-500" style={{ width: `${pollution}%` }} /></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">River pollution</p><p className="font-mono text-lg text-gold-300">{pollution}/100</p>
+              <div className="h-1.5 mt-1 rounded-full bg-slate-950 overflow-hidden"><div className="h-full bg-gold-500 transition-all duration-500" style={{ width: `${pollution}%` }} /></div>
             </div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Town health</p><p className="font-mono text-lg text-emerald-300">{health}/100</p>
               <div className="h-1.5 mt-1 rounded-full bg-slate-950 overflow-hidden"><div className="h-full bg-emerald-500 transition-all duration-500" style={{ width: `${health}%` }} /></div>
@@ -98,7 +98,7 @@ export function C8_SocialScienceLawSocialJusticeSim() {
           </div>
           {msg && <p className="text-xs p-3 rounded-xl bg-slate-950 border border-slate-800 text-slate-300 leading-relaxed">{msg}</p>}
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-1 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">The laws behind this sim</p>
+            <p className="font-bold text-gold-300 mb-1">The laws behind this sim</p>
             <p><span className="font-bold">Factories Act 1948:</span> safety rules, working hours, safe machinery.</p>
             <p><span className="font-bold">Water / Environment Acts (1974, 1986):</span> pollution boards can fine and close plants.</p>
             <p><span className="font-bold">Minimum Wages Act 1948:</span> a wage floor that markets alone would not guarantee.</p>
@@ -107,23 +107,23 @@ export function C8_SocialScienceLawSocialJusticeSim() {
             <p className="mt-1">Chapter watch-words: workers&apos; safety, environment, minimum wages -- the three costs a market left alone tends to underprice.</p>
           </div>
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">Where each rupee goes (Rs lakh/month)</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Where each rupee goes (Rs lakh/month)</p>
             <div className="h-6 rounded-lg bg-slate-950 border border-slate-800 flex overflow-hidden text-[9px] font-bold text-slate-900">
               <div className="bg-slate-600 transition-all duration-500" style={{ width: `${40}%` }} />
-              <div className="bg-indigo-500 transition-all duration-500" style={{ width: `${controlCost}%` }} />
-              <div className="bg-violet-400 transition-all duration-500" style={{ width: `${trainCost}%` }} />
+              <div className="bg-gold-500 transition-all duration-500" style={{ width: `${controlCost}%` }} />
+              <div className="bg-gold-400 transition-all duration-500" style={{ width: `${trainCost}%` }} />
               <div className="bg-amber-400 transition-all duration-500" style={{ width: `${expectedFine}%` }} />
               <div className="bg-emerald-400 transition-all duration-500" style={{ width: `${Math.max(0, profit)}%` }} />
             </div>
             <div className="flex flex-wrap gap-3 mt-2 text-[10px] text-slate-400">
-              <span>grey: inputs 40</span><span className="text-indigo-300">controls {controlCost.toFixed(0)}</span>
-              <span className="text-violet-300">training {trainCost}</span><span className="text-amber-300">fines {expectedFine.toFixed(0)}</span>
+              <span>grey: inputs 40</span><span className="text-gold-300">controls {controlCost.toFixed(0)}</span>
+              <span className="text-gold-300">training {trainCost}</span><span className="text-amber-300">fines {expectedFine.toFixed(0)}</span>
               <span className="text-emerald-300">profit {Math.max(0, profit).toFixed(0)}</span>
             </div>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-1 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">Read your own town</p>
+            <p className="font-bold text-gold-300 mb-1">Read your own town</p>
             <p>{enforce < 40 ? '- Inspectors rarely come: the owner can pocket the safety money and pollution stays high.' : '- Inspectors visit and fine: cutting corners now costs more than controlling them.'}</p>
             <p>{union ? '- The union\'s complaints raise effective enforcement: collective action is part of how laws actually work.' : '- No union: nobody reports violations, so even good inspectors miss them.'}</p>
             <p>{health < 50 ? '- Town health is failing: the hospital queue is the hidden bill for cheap production.' : '- Town health is holding: law + enforcement + voice together, not law alone.'}</p>
@@ -143,7 +143,7 @@ export function C8_SocialScienceLawSocialJusticeSim() {
         ))}
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set enforcement to 0 and investment to 0: read the profit. Then drag ONLY enforcement up -- at what value does cutting corners stop being profitable?</p>
         <p className="mt-1">2. Keep profit above 45 Rs lakh while pushing river pollution below 30 -- which is cheaper for the owner, control equipment or worker training?</p>

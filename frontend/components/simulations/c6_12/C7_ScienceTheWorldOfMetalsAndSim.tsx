@@ -56,7 +56,7 @@ export function C7_ScienceTheWorldOfMetalsAndSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The World of Metals and Non-Metals</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The World of Metals and Non-Metals</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Sample tray */}
@@ -76,7 +76,7 @@ export function C7_ScienceTheWorldOfMetalsAndSim() {
         {queue.length === 0 && (
           <button
             onClick={() => { setVerdict([]); setScore(0); }}
-            className="px-5 py-2 rounded-xl text-sm font-bold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500"
+            className="px-5 py-2 rounded-xl text-sm font-bold border bg-gold-600 border-gold-400 hover:bg-gold-500"
           >
             Play again (score {score}/{ELEMENTS.length})
           </button>
@@ -88,7 +88,7 @@ export function C7_ScienceTheWorldOfMetalsAndSim() {
         {element ? (
           <div>
             <div className="text-lg font-black">
-              {element.emoji} Testing: <span className="text-sky-300">{element.name}</span>
+              {element.emoji} Testing: <span className="text-gold-300">{element.name}</span>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-3">
               {TESTS.map((t, i) => (
@@ -96,7 +96,7 @@ export function C7_ScienceTheWorldOfMetalsAndSim() {
                   key={t.id}
                   onClick={() => runTest(i)}
                   className={`p-3 rounded-xl border text-xs font-semibold transition-colors ${
-                    runTests.includes(i) ? 'bg-slate-800 border-sky-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-800'
+                    runTests.includes(i) ? 'bg-slate-800 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-800'
                   }`}
                 >
                   <div className="text-xl">{t.emoji}</div>
@@ -118,7 +118,7 @@ export function C7_ScienceTheWorldOfMetalsAndSim() {
               <button onClick={() => classify(true)} className="px-5 py-2 rounded-xl text-sm font-bold border bg-rose-600 border-rose-400 hover:bg-rose-500">
                 It is a METAL
               </button>
-              <button onClick={() => classify(false)} className="px-5 py-2 rounded-xl text-sm font-bold border bg-sky-600 border-sky-400 hover:bg-sky-500">
+              <button onClick={() => classify(false)} className="px-5 py-2 rounded-xl text-sm font-bold border bg-gold-600 border-gold-400 hover:bg-gold-500">
                 It is a NON-METAL
               </button>
             </div>
@@ -145,8 +145,8 @@ export function C7_ScienceTheWorldOfMetalsAndSim() {
         </div>
       )}
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Test carbon (graphite) carefully. Three tests look like a non-metal -- why does one glowing bulb surprise scientists?</li>
           <li>Score 5/5 by running ALL FOUR tests before classifying. Which single test would you trust alone, and why might that fail?</li>

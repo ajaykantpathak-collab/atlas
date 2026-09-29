@@ -1319,7 +1319,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
         className="flex flex-wrap items-center justify-between gap-4 p-4 mb-6 bg-slate-900/80 rounded-2xl border border-slate-800 backdrop-blur-md"
       >
         <div className="flex items-center gap-3">
-          <span className="p-3 bg-indigo-600/20 text-indigo-400 rounded-xl text-2xl border border-indigo-500/30" aria-hidden="true">
+          <span className="p-3 bg-gold-600/20 text-gold-400 rounded-xl text-2xl border border-gold-500/30" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
@@ -1342,7 +1342,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
               aria-label={`Switch to ${p} phase`}
               className={`px-3 py-1.5 rounded-lg capitalize font-semibold transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1355,10 +1355,10 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-inner">
-            <h2 className="text-xl font-bold text-indigo-300 mb-2">🏢 {SCENARIO.title}</h2>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/40 shadow-inner">
+            <h2 className="text-xl font-bold text-gold-300 mb-2">🏢 {SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-700/30 text-xs text-indigo-200">
+            <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-700/30 text-xs text-gold-200">
               💡 <span className="font-semibold">Context:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1383,7 +1383,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-900/50 border-2 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800/80 border border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800/80 border border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <span className="mr-2">{discoveryAnswered ? (i === DISCOVERY_QUESTION.correctIndex ? '✓' : '✗') : '•'}</span>
@@ -1404,7 +1404,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1420,7 +1420,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
           {/* Step Navigator Bar */}
           <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs uppercase font-bold text-indigo-400 tracking-wider">
+              <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1446,8 +1446,8 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
 
                   {/* Predict-then-check block */}
                   {!pred1Made ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/40">
-                      <p className="text-sm font-semibold text-indigo-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/40">
+                      <p className="text-sm font-semibold text-gold-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1466,7 +1466,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   ) : (
                     <div className="p-3 bg-amber-950/40 rounded-xl border border-amber-600/40 text-xs text-amber-200 flex items-center justify-between">
                       <span>✓ {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
-                      <span className="font-bold text-indigo-400">Your Prediction: Option {pred1Index + 1}</span>
+                      <span className="font-bold text-gold-400">Your Prediction: Option {pred1Index + 1}</span>
                     </div>
                   )}
 
@@ -1560,7 +1560,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                         </tr>
                         <tr className="bg-slate-800/80 font-bold">
                           <td className="p-3 font-mono text-slate-400 border border-slate-700">A9/C9</td>
-                          <td className="p-3 border border-slate-700 text-left text-indigo-300">Total =SUM(C4:C8)</td>
+                          <td className="p-3 border border-slate-700 text-left text-gold-300">Total =SUM(C4:C8)</td>
                           <td className="p-3 border border-slate-700 text-center">-</td>
                           <td className={`p-3 border border-slate-700 text-right font-mono text-base ${
                             excelTotals.isBalanced ? 'text-emerald-400' : 'text-rose-400'
@@ -1620,7 +1620,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                         }}
                         aria-label="Select 5-Year Revenue dataset"
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          chartMode === 'revenue' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          chartMode === 'revenue' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         5-Yr Revenue (Comparison)
@@ -1634,7 +1634,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                         }}
                         aria-label="Select Total Assets Composition dataset"
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          chartMode === 'assets' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          chartMode === 'assets' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         Total Assets (Composition)
@@ -1651,7 +1651,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                             audioManager.play('tap');
                           }}
                           aria-label="Toggle include category labels column A1:A6"
-                          className="rounded text-indigo-600"
+                          className="rounded text-gold-600"
                         />
                         Include Category Labels Column (A1:A6)
                       </label>
@@ -1659,14 +1659,14 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                         <button
                           onClick={() => setChartType('bar')}
                           aria-label="Switch to Bar chart view"
-                          className={`px-2.5 py-1 rounded text-xs ${chartType === 'bar' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                          className={`px-2.5 py-1 rounded text-xs ${chartType === 'bar' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                         >
                           Bar
                         </button>
                         <button
                           onClick={() => setChartType('pie')}
                           aria-label="Switch to Pie chart view"
-                          className={`px-2.5 py-1 rounded text-xs ${chartType === 'pie' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                          className={`px-2.5 py-1 rounded text-xs ${chartType === 'pie' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                         >
                           Pie
                         </button>
@@ -1736,8 +1736,8 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                     {/* Parent LEDGER table */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="font-mono text-xs text-indigo-400 font-bold">PARENT: LEDGER</span>
-                        <span className="text-[10px] bg-indigo-900/40 text-indigo-300 px-2 py-0.5 rounded">Primary Key = Ledger_ID</span>
+                        <span className="font-mono text-xs text-gold-400 font-bold">PARENT: LEDGER</span>
+                        <span className="text-[10px] bg-gold-900/40 text-gold-300 px-2 py-0.5 rounded">Primary Key = Ledger_ID</span>
                       </div>
                       <table className="w-full text-xs text-left border-collapse">
                         <thead>
@@ -1789,7 +1789,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                           whileTap={{ scale: 0.98 }}
                           onClick={handleTestFkValidation}
                           aria-label="Submit Voucher via DBMS validation engine"
-                          className="w-full py-2 bg-indigo-600 text-white rounded-lg font-bold text-xs shadow-lg"
+                          className="w-full py-2 bg-gold-600 text-white rounded-lg font-bold text-xs shadow-lg"
                         >
                           Submit Voucher via DBMS
                         </motion.button>
@@ -1875,7 +1875,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                         <tbody>
                           {voucherRecords.map(v => (
                             <tr key={v.id} className="text-slate-200">
-                              <td className="p-1.5 border border-slate-800 text-indigo-400">{v.id}</td>
+                              <td className="p-1.5 border border-slate-800 text-gold-400">{v.id}</td>
                               <td className="p-1.5 border border-slate-800">{v.date}</td>
                               <td className="p-1.5 border border-slate-800 font-mono text-emerald-400">{v.ledgerId}</td>
                               <td className="p-1.5 border border-slate-800 text-right">{v.debit.toLocaleString('en-IN')}</td>
@@ -1907,7 +1907,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                     {/* Section 128 Backup Strategy Simulator */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-indigo-400 uppercase">Companies Act 2013 • Sec 128</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase">Companies Act 2013 • Sec 128</span>
                         <span className="text-[10px] bg-emerald-900/40 text-emerald-300 px-2 py-0.5 rounded">8-Yr Retention</span>
                       </div>
                       <p className="text-xs text-slate-400">
@@ -1958,7 +1958,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                             }}
                             aria-label={`Select user security role: ${role}`}
                             className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                              userRole === role ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              userRole === role ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {role}
@@ -2025,7 +2025,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   audioManager.play('tap');
                 }}
                 aria-label="Go to next lab"
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2048,7 +2048,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
       {phase === 'sandbox' && (
         <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
-            <h2 className="text-xl font-bold text-indigo-300 mb-1">🎮 System Architect Sandbox</h2>
+            <h2 className="text-xl font-bold text-gold-300 mb-1">🎮 System Architect Sandbox</h2>
             <p className="text-xs text-slate-400 mb-4">
               Free play mode: Experiment with SQL commands, chart toggles, and Excel alignment tests with zero grading penalties!
             </p>
@@ -2090,7 +2090,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   <button
                     onClick={handleExecuteSql}
                     aria-label="Run sandbox SQL command"
-                    className="px-3 py-1 bg-indigo-600 text-white rounded text-xs font-bold"
+                    className="px-3 py-1 bg-gold-600 text-white rounded text-xs font-bold"
                   >
                     Run
                   </button>
@@ -2125,7 +2125,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                 <span className="text-xs text-slate-400 block">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-xs font-mono text-indigo-400">
+                <span className="text-xs font-mono text-gold-400">
                   Competency: <span className="uppercase font-bold">{challenge.competencyLevel}</span>
                 </span>
               </div>
@@ -2140,7 +2140,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                  : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                  : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
               }`}
             >
               Tier: {difficulty}
@@ -2150,7 +2150,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={((currentChallenge + 1) / filteredChallenges.length) * 100} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2184,7 +2184,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                     className={`w-full text-left p-4 rounded-xl text-xs sm:text-sm font-medium transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-900/60 border-2 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 border border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 border border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <span className="mr-2">
@@ -2211,7 +2211,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2228,11 +2228,11 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                       className={`p-4 rounded-xl border-2 border-dashed flex flex-col items-center justify-center min-h-[90px] transition-all ${
                         droppedLabels[item.targetId]
                           ? 'border-emerald-500 bg-emerald-950/30'
-                          : 'border-slate-700 bg-slate-950/50 hover:border-indigo-500'
+                          : 'border-slate-700 bg-slate-950/50 hover:border-gold-500'
                       }`}
                     >
                       <span className="text-xs text-slate-400 mb-1">Target Slot: {item.targetId.toUpperCase()}</span>
-                      <span className="font-bold text-sm text-indigo-300">
+                      <span className="font-bold text-sm text-gold-300">
                         {droppedLabels[item.targetId] ? `✓ ${droppedLabels[item.targetId]}` : 'Drop Label Here'}
                       </span>
                     </div>
@@ -2245,7 +2245,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Verify dragged labels"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Labels
                 </motion.button>
@@ -2275,7 +2275,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3 font-mono"
                     >
-                      <span className="w-6 h-6 flex items-center justify-center bg-indigo-900/60 text-indigo-300 rounded-full text-xs font-bold">
+                      <span className="w-6 h-6 flex items-center justify-center bg-gold-900/60 text-gold-300 rounded-full text-xs font-bold">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -2292,7 +2292,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   }}
                   disabled={showExplanation}
                   aria-label="Check sequence order"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2319,7 +2319,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
                     aria-label="Submit calculated numerical answer"
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                   >
                     Submit
                   </motion.button>
@@ -2339,7 +2339,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add SQL part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700/80 hover:bg-indigo-600 text-white rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-700/80 hover:bg-gold-600 text-white rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2349,7 +2349,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[80px]">
                   <div className="flex flex-wrap gap-2">
                     {constructParts.map((p, idx) => (
-                      <span key={idx} className="px-2.5 py-1 bg-indigo-900/60 border border-indigo-600 rounded text-xs font-mono text-indigo-200 flex items-center gap-1">
+                      <span key={idx} className="px-2.5 py-1 bg-gold-900/60 border border-gold-600 rounded text-xs font-mono text-gold-200 flex items-center gap-1">
                         {p}
                         <button
                           onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2372,7 +2372,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Check assembled SQL query"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                 >
                   Check SQL Query
                 </motion.button>
@@ -2381,8 +2381,8 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
 
             {/* Progressive Disclosure Explanation Box */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-indigo-950/40 rounded-xl border border-indigo-700/40 space-y-3">
-                <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider block">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-gold-950/40 rounded-xl border border-gold-700/40 space-y-3">
+                <span className="text-xs font-bold text-gold-300 uppercase tracking-wider block">
                   Step-by-Step Rationale:
                 </span>
                 {challenge.explanation
@@ -2391,7 +2391,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   .slice(0, revealedSteps + 1)
                   .map((sentence, idx) => (
                     <motion.p key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                      <span className="font-bold text-indigo-400">{idx + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{idx + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2402,7 +2402,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
                     aria-label="Show next explanation step"
-                    className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold mt-2"
+                    className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold mt-2"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2426,7 +2426,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
       {/* ─── 5. COMPLETION, REFLECTION & SUMMARY PHASE ─── */}
       {phase === 'complete' && (
         <motion.section initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-3xl border border-indigo-700/50 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-3xl border border-gold-700/50 text-center space-y-4 shadow-2xl">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Systems Audit Simulation Complete!</h2>
             <div className="flex flex-wrap items-center justify-center gap-6 pt-2">
@@ -2436,12 +2436,12 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 w-36">
                 <span className="text-xs text-slate-400 block">Mastery Level</span>
-                <span className="text-lg font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-lg font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
 
             {/* Motivational Feedback */}
-            <p className="text-sm font-semibold text-indigo-200 max-w-xl mx-auto pt-2">
+            <p className="text-sm font-semibold text-gold-200 max-w-xl mx-auto pt-2">
               {errors === 0
                 ? '🌟 PERFECT SCORE! You possess complete mastery of Excel accounting pipelines and RDBMS SQL architectures!'
                 : errors <= 3
@@ -2462,7 +2462,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
 
             <div className="space-y-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label htmlFor="reflection-surprising" className="text-xs font-bold text-indigo-300 block">
+                <label htmlFor="reflection-surprising" className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2472,12 +2472,12 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. How an apostrophe forces text alignment and causes =SUM() to silently output ₹0..."
                   aria-label="Reflection: What was the most surprising thing you learned?"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-indigo-500 font-sans"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label htmlFor="reflection-explain" className="text-xs font-bold text-indigo-300 block">
+                <label htmlFor="reflection-explain" className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2487,12 +2487,12 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. A database is like an ultra-strict librarian who refuses to file a voucher unless the ledger account already exists in the catalog..."
                   aria-label="Reflection: How would you explain this to a friend?"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-indigo-500 font-sans"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
-                <label htmlFor="reflection-real-life" className="text-xs font-bold text-indigo-300 block">
+                <label htmlFor="reflection-real-life" className="text-xs font-bold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2502,7 +2502,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. During statutory CA audits to ensure read-only permissions, or when configuring ERP trial balance templates..."
                   aria-label="Reflection: Where in real life might you use this?"
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-indigo-500 font-sans"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-gold-500 font-sans"
                 />
               </div>
             </div>
@@ -2549,7 +2549,7 @@ function C12_AccountancyCreatingWorksheetsEnteringSim({
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{idx + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

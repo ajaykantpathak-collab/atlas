@@ -9,7 +9,7 @@ export const c8_gram_ch82: SimDef = {
     classLevel: 8, subject: 'english-grammar', topic: 'Direct and indirect speech — statements, questions, commands',
     chapters: ['c8_gram_ch82'],
     nodeIds: ['c8_gram_cbse_82_001', 'c8_gram_cbse_82_002'],
-    emoji: '🎥', theme: { bg: 'from-slate-900 to-sky-950', accent: 'sky', scene: 'junior' },
+    emoji: '🎥', theme: { bg: 'from-slate-900 to-gold-950', accent: 'sky', scene: 'junior' },
 
     scenario: {
         role: 'a reporter who must retell quotes without quoting them',
@@ -28,8 +28,8 @@ export const c8_gram_ch82: SimDef = {
         hook: 'Half-shifts are the classic error: the verb moved but tomorrow stayed glued to the speaker\'s "now".',
     },
     teaching: [
-        { title: 'The three-part shift', text: 'Tense steps back (will→would), pronouns re-anchor (I→he/she), pointing words move (now→then, today→that day, here→there).', emoji: '🔄', bgColor: 'from-sky-500 to-blue-600' },
-        { title: 'Three frames, three fates', text: 'Statement → that. Yes/no question → if/whether + statement order. Command → told + object + to-infinitive.', emoji: '🖼️', bgColor: 'from-blue-500 to-indigo-600' },
+        { title: 'The three-part shift', text: 'Tense steps back (will→would), pronouns re-anchor (I→he/she), pointing words move (now→then, today→that day, here→there).', emoji: '🔄', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Three frames, three fates', text: 'Statement → that. Yes/no question → if/whether + statement order. Command → told + object + to-infinitive.', emoji: '🖼️', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

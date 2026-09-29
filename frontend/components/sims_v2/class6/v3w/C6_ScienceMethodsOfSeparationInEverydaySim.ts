@@ -11,7 +11,7 @@ export const w_c6_sciencemethodsofseparationineverydaysim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'What is Heat and How It Flows',
     chapters: [],
     nodeIds: ['c6_physics_ch07_019'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why the handle of your frying pan is often made of wood or plastic instead of metal?', goal: 'Master What is Heat and How It Flows.' },
     discovery: {
         question: 'If you touch a cold windowpane on a sunny day and it feels warm, which process is primarily responsible for the heat reaching the glass from the sun?',
@@ -20,7 +20,7 @@ export const w_c6_sciencemethodsofseparationineverydaysim: SimDef = {
         hook: 'Students often believe that "insulators" create cold or stop heat entirely.',
     },
     teaching: [
-        { title: 'Heat transfer in daily life refers to the.', text: 'Heat transfer in daily life refers to the natural movement of thermal energy through conduction, convection, and radiation, which we use to regulate temperature, cook food, and maintain comfort.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Heat transfer in daily life refers to the.', text: 'Heat transfer in daily life refers to the natural movement of thermal energy through conduction, convection, and radiation, which we use to regulate temperature, cook food, and maintain comfort.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_physics_ch07_026', title: 'Heat transfer in daily life refers to.',

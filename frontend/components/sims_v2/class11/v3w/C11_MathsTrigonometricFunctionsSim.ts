@@ -11,7 +11,7 @@ export const w_c11_mathstrigonometricfunctionssim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Angles: Degree and Radian Measure',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_001', 'c11_math_cbse_03_002', 'c11_math_cbse_03_003', 'c11_math_cbse_03_004', 'c11_math_cbse_03_005', 'c11_math_cbse_03_006', 'c11_math_cbse_03_007', 'c11_math_cbse_03_008', 'c11_math_cbse_03_009', 'c11_math_cbse_03_010', 'c11_math_cbse_03_011', 'c11_math_cbse_03_012', 'c11_math_cbse_03_013', 'c11_math_cbse_03_014', 'c11_math_cbse_02_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a Ferris wheel at a fair in Delhi with a radius of 20 metres.', goal: 'Master Angles: Degree and Radian Measure.' },
     discovery: {
         question: 'State the exact conversion factor to change an angle from degrees to radians, and write the formula for converting 150° to radians in terms of π.',
@@ -20,7 +20,7 @@ export const w_c11_mathstrigonometricfunctionssim: SimDef = {
         hook: 'Students frequently confuse the direction of the conversion factor: they multiply by π/180 when converting radians to.',
     },
     teaching: [
-        { title: 'An angle is a measure of rotation of a ray.', text: 'An angle is a measure of rotation of a ray about its initial point, where the amount of rotation from the initial side to the terminal side determines its measure.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An angle is a measure of rotation of a ray.', text: 'An angle is a measure of rotation of a ray about its initial point, where the amount of rotation from the initial side to the terminal side determines its measure.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_03_001', title: 'An angle is a measure of rotation of a.',

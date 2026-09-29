@@ -11,7 +11,7 @@ export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Mitochondria: Structure and ATP Synthesis',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_02_007', 'c11_biotech_cbse_02_008', 'c11_biotech_cbse_02_003', 'c11_biotech_cbse_02_006', 'c11_biotech_cbse_02_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a long-distance runner collapsing at the 35 km mark — their muscle cells have exhausted glycolytic.', goal: 'Master Mitochondria: Structure and ATP Synthesis.' },
     discovery: {
         question: 'State the two mitochondrial compartments where the TCA cycle enzymes and the electron transport chain complexes are respectively located, and name the membrane.',
@@ -20,7 +20,7 @@ export const w_c11_biotechenzymesbioenergeticscbsesim: SimDef = {
         hook: 'Students believe ATP is synthesised in the mitochondrial matrix because the TCA cycle occurs there.',
     },
     teaching: [
-        { title: 'Mitochondria are double membrane-bound.', text: 'Mitochondria are double membrane-bound organelles in eukaryotic cells where the inner membrane forms cristae to increase surface area for oxidative phosphorylation; the matrix houses the TCA cycle.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Mitochondria are double membrane-bound.', text: 'Mitochondria are double membrane-bound organelles in eukaryotic cells where the inner membrane forms cristae to increase surface area for oxidative phosphorylation; the matrix houses the TCA cycle.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_02_007', title: 'Mitochondria are double membrane-bound.',

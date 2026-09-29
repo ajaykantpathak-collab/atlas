@@ -411,7 +411,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
     <div>
       <label className="text-xs font-semibold text-slate-400 flex justify-between">
         <span>{label}</span>
-        <span className="font-mono text-sky-300">{c[k]}</span>
+        <span className="font-mono text-gold-300">{c[k]}</span>
       </label>
       <input
         type="range"
@@ -421,7 +421,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
         value={c[k]}
         aria-label={label}
         onChange={(e) => setCoef(k, Number(e.target.value))}
-        className="w-full mt-1 min-h-11 accent-sky-500"
+        className="w-full mt-1 min-h-11 accent-gold-500"
       />
     </div>
   );
@@ -430,10 +430,10 @@ export function C10_MathsPairOfLinearEquationsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100 shadow-2xl">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">📈</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">📈</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 10 Maths — Pair of Linear Equations in Two Variables</p>
-          <h1 className="text-xl md:text-2xl font-black text-sky-300">Two Lines, One Truth: cross, run parallel, or merge</h1>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Maths — Pair of Linear Equations in Two Variables</p>
+          <h1 className="text-xl md:text-2xl font-black text-gold-300">Two Lines, One Truth: cross, run parallel, or merge</h1>
         </div>
         <div className="text-right">
           <span className="font-mono text-xs text-slate-400 block">D = a₁b₂ − a₂b₁</span>
@@ -452,7 +452,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-sky-600 border-sky-500 text-white shadow-lg shadow-sky-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -467,7 +467,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
         <span className="font-mono text-sm text-amber-300">Eq1: {eqString(a1, b1, c1)}</span>
         <span className="font-mono text-sm text-emerald-300">Eq2: {eqString(a2, b2, c2)}</span>
         <span className={`ml-auto text-xs font-bold px-2.5 py-1 rounded-full ${
-          sol.kind === 'unique' ? 'bg-emerald-950 text-emerald-300' : sol.kind === 'infinite' ? 'bg-violet-950 text-violet-300' : 'bg-rose-950 text-rose-300'
+          sol.kind === 'unique' ? 'bg-emerald-950 text-emerald-300' : sol.kind === 'infinite' ? 'bg-gold-950 text-gold-300' : 'bg-rose-950 text-rose-300'
         }`}>
           {sol.kind === 'unique' ? 'unique solution' : sol.kind === 'infinite' ? 'infinitely many' : 'no solution'}
         </span>
@@ -478,8 +478,8 @@ export function C10_MathsPairOfLinearEquationsSim() {
       {/* ============================================================ */}
       {tab === 'predict' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-sky-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-sky-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               Eq1: x + y = 4 and Eq2: 2x + 2y = 8. Without solving anything — how many (x, y) pairs
               satisfy BOTH equations at once?
@@ -493,7 +493,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 2;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-sky-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -527,7 +527,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-sky-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -611,7 +611,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
             ].map((x) => (
               <div key={x.k} className="p-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
                 <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">{x.k}</p>
-                <p className="font-mono text-sm font-bold text-sky-300">{x.v}</p>
+                <p className="font-mono text-sm font-bold text-gold-300">{x.v}</p>
               </div>
             ))}
           </div>
@@ -624,7 +624,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
               <span className="px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800">b₁/b₂ = {reduceRatio(b1, b2)}</span>
               <span className="px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800">c₁/c₂ = {reduceRatio(c1, c2)}</span>
             </div>
-            <p className={`mt-2 text-xs font-bold ${sol.kind === 'unique' ? 'text-emerald-300' : sol.kind === 'infinite' ? 'text-violet-300' : 'text-rose-300'}`}>
+            <p className={`mt-2 text-xs font-bold ${sol.kind === 'unique' ? 'text-emerald-300' : sol.kind === 'infinite' ? 'text-gold-300' : 'text-rose-300'}`}>
               {sol.verdict}
             </p>
           </div>
@@ -652,8 +652,8 @@ export function C10_MathsPairOfLinearEquationsSim() {
             </button>
             <label className="text-xs text-slate-400 flex items-center gap-2 min-h-11">
               zoom
-              <input type="range" min={4} max={30} step={1} value={zoom} aria-label="zoom" onChange={(e) => setZoom(Number(e.target.value))} className="w-28 min-h-11 accent-sky-500" />
-              <span className="font-mono text-sky-300">±{zoom}</span>
+              <input type="range" min={4} max={30} step={1} value={zoom} aria-label="zoom" onChange={(e) => setZoom(Number(e.target.value))} className="w-28 min-h-11 accent-gold-500" />
+              <span className="font-mono text-gold-300">±{zoom}</span>
             </label>
           </div>
 
@@ -711,8 +711,8 @@ export function C10_MathsPairOfLinearEquationsSim() {
           </div>
 
           {/* verification strip */}
-          <div className="p-4 bg-slate-900/70 rounded-2xl border border-sky-900/60">
-            <p className="text-xs font-bold text-sky-300 uppercase tracking-wider mb-2">Verification (the step students skip)</p>
+          <div className="p-4 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Verification (the step students skip)</p>
             {sol.kind === 'unique' ? (
               <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs font-mono">
                 <div className="p-3 bg-slate-950 border border-slate-800 rounded-lg">
@@ -761,7 +761,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
             {(['all', 'foundation', 'standard', 'advanced'] as const).map((t) => (
               <button key={t} onClick={() => setTierFilter(t)}
                 className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all capitalize ${
-                  tierFilter === t ? 'bg-sky-600 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                  tierFilter === t ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                 }`}>
                 {t}
               </button>
@@ -785,7 +785,7 @@ export function C10_MathsPairOfLinearEquationsSim() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {ch.options.map((opt, i) => {
                     const isCorrect = i === ch.correctIndex;
-                    let cls = 'border-slate-700 bg-slate-900 hover:border-sky-600';
+                    let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                     if (done && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                     else if (done && picked === i) cls = 'border-rose-600 bg-rose-950/40';
                     return (
@@ -847,16 +847,16 @@ export function C10_MathsPairOfLinearEquationsSim() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-sky-300 uppercase tracking-wider mb-2">The three outcomes (all live in this sim)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">The three outcomes (all live in this sim)</p>
               <ul className="text-xs text-slate-300 space-y-2 leading-relaxed">
                 <li><span className="text-emerald-300 font-bold">D ≠ 0</span> → lines cross once → exactly one solution (consistent, independent).</li>
                 <li><span className="text-rose-300 font-bold">D = 0, c-ratio differs</span> → parallel → no solution (inconsistent).</li>
-                <li><span className="text-violet-300 font-bold">D = 0, c-ratio equal</span> → same line → infinitely many (consistent, dependent).</li>
+                <li><span className="text-gold-300 font-bold">D = 0, c-ratio equal</span> → same line → infinitely many (consistent, dependent).</li>
                 <li className="text-slate-400">Equivalently: a₁/a₂ = b₁/b₂ = c₁/c₂ ⇒ infinite; only a and b ratios equal ⇒ none; else unique.</li>
               </ul>
             </div>
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-sky-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
               <ul className="text-xs text-slate-400 space-y-1.5 leading-relaxed">
                 <li>• Cramer values are computed with exact integer arithmetic in the numerators; the only rounding anywhere is the 4-decimal display.</li>
                 <li>• The verification strip recomputes a·x + b·y + c from YOUR sliders and shows the residual — if it is not 0, the bug is on screen, not hidden.</li>

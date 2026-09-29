@@ -1248,12 +1248,12 @@ export function C8_BiologyEndocrineSystemHormonesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/40 rounded-2xl">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/40 rounded-2xl">
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-0.5 text-xs font-bold bg-indigo-500/20 text-indigo-300 rounded-full border border-indigo-400/30">
+              <span className="px-2.5 py-0.5 text-xs font-bold bg-gold-500/20 text-gold-300 rounded-full border border-gold-400/30">
                 SCENARIO BRIEFING
               </span>
-              <h2 className="text-lg font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-200">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 bg-slate-950/40 p-2.5 rounded-lg border border-slate-800">
@@ -1497,8 +1497,8 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   {/* Predict-then-check banner */}
                   {!predictionMade ? (
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700/50 space-y-2">
-                      <p className="text-xs md:text-sm font-semibold text-indigo-200">
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/50 space-y-2">
+                      <p className="text-xs md:text-sm font-semibold text-gold-200">
                         🤔 {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1508,7 +1508,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(pIdx)}
-                            className="p-2 text-left text-xs bg-slate-900 border border-slate-700 rounded-lg hover:border-indigo-400 text-slate-300"
+                            className="p-2 text-left text-xs bg-slate-900 border border-slate-700 rounded-lg hover:border-gold-400 text-slate-300"
                           >
                             {opt}
                           </motion.button>
@@ -1544,7 +1544,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                         <button
                           onClick={() => setActiveCircLoop('pulmonary')}
                           className={`flex-1 py-1 px-2 rounded-lg font-bold ${
-                            activeCircLoop === 'pulmonary' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeCircLoop === 'pulmonary' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Pulmonary Loop
@@ -1923,7 +1923,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-600'
                     : difficulty === 'standard'
-                    ? 'bg-blue-900/60 text-blue-300 border border-blue-600'
+                    ? 'bg-gold-900/60 text-gold-300 border border-gold-600'
                     : 'bg-rose-900/60 text-rose-300 border border-rose-600'
                 }`}
               >
@@ -1938,7 +1938,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1992,7 +1992,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2120,7 +2120,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2131,7 +2131,7 @@ export function C8_BiologyEndocrineSystemHormonesSim({
                   {constructParts.map((part, cIdx) => (
                     <span
                       key={cIdx}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 rounded-lg text-xs font-bold text-indigo-200 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 rounded-lg text-xs font-bold text-gold-200 flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2276,14 +2276,14 @@ export function C8_BiologyEndocrineSystemHormonesSim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-4 bg-indigo-950/40 border border-indigo-700/50 rounded-2xl flex items-center justify-between">
+          <div className="p-4 bg-gold-950/40 border border-gold-700/50 rounded-2xl flex items-center justify-between">
             <div className="space-y-1">
-              <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+              <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                 SM-2 Spaced Repetition Memory Schedule
               </h4>
               <p className="text-xs text-slate-300">
                 Optimal retention review scheduled in{' '}
-                <strong className="text-indigo-200">
+                <strong className="text-gold-200">
                   {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
                 </strong>{' '}
                 to convert concepts into permanent recall.

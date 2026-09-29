@@ -24,7 +24,7 @@ export const c11_gram_ch81: SimDef = {
             { id: 's3', label: 'Sentence transformation converts a sentence', prompt: 'Which idea is this? — Sentence transformation converts a sentence between structures while preserving meaning.', answer: 'Sentence transformation converts a sentence', options: ['Sentence transformation converts a sentence', 'Transformation repackages one truth into', 'Synthesis merges separate sentences into'] }
           ] } },
         { type: 'build', nodeId: 'c11_gram_cbse_81_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Rebuild preserving every logical piece — check that nothing.', 'Pick the target container.', 'Identify the hidden logic — cause-result, concession.'], answer: 'Identify the hidden logic — cause-result, concession. Pick the target container. Rebuild preserving every logical piece — check that nothing.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Identify the hidden logic — cause-result, concession.', 'Pick the target container.', 'Rebuild preserving every logical piece — check that nothing.'], answer: 'Identify the hidden logic — cause-result, concession. Pick the target container. Rebuild preserving every logical piece — check that nothing.' } },
         { type: 'case', nodeId: 'c11_gram_ch81_003', title: 'You made it',
           caseStudy: { intro: 'You finished Transformation repackages one truth into. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

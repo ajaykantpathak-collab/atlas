@@ -1152,7 +1152,7 @@ function C12_EVSModernSchoolsEcologicalSim({
             className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-green-500/20 text-green-300 border border-green-500/40' :
               difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' :
-              'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+              'bg-gold-500/20 text-gold-300 border border-gold-500/40'
             }`}
           >
             {difficulty}
@@ -1163,13 +1163,13 @@ function C12_EVSModernSchoolsEcologicalSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🎯</span> Real-World Scenario Hook
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-white mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm sm:text-base mb-4">{SCENARIO.intro}</p>
-            <div className="p-4 bg-slate-950/70 rounded-xl border border-indigo-900/50 text-xs sm:text-sm text-indigo-200">
+            <div className="p-4 bg-slate-950/70 rounded-xl border border-gold-900/50 text-xs sm:text-sm text-gold-200">
               💡 <span className="font-bold">Your Mission:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1322,14 +1322,14 @@ function C12_EVSModernSchoolsEcologicalSim({
                     {selectedSchool === 'land_ethic' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-3">
                         <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-                          <span className="text-xs font-bold text-blue-400 uppercase">Worldview: Stewardship (Aldo Leopold, 1949)</span>
+                          <span className="text-xs font-bold text-gold-400 uppercase">Worldview: Stewardship (Aldo Leopold, 1949)</span>
                           <span className="text-xs text-slate-400">Human Role: Plain member and citizen of the biotic community</span>
                         </div>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                          Leopold enlarged the moral community to include soils, waters, plants, and animals — the land. <span className="text-blue-300 font-semibold italic">&quot;A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community; it is wrong when it tends otherwise.&quot;</span>
+                          Leopold enlarged the moral community to include soils, waters, plants, and animals — the land. <span className="text-gold-300 font-semibold italic">&quot;A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community; it is wrong when it tends otherwise.&quot;</span>
                         </p>
                         <div className="p-3 bg-slate-900 rounded-lg text-xs text-slate-300">
-                          <strong className="text-blue-300">Key Focus:</strong> Community-level holistic health. Clear-felling sal forest for open-cast mines is ethically wrong because it destroys community wholeness.
+                          <strong className="text-gold-300">Key Focus:</strong> Community-level holistic health. Clear-felling sal forest for open-cast mines is ethically wrong because it destroys community wholeness.
                         </div>
                       </motion.div>
                     )}
@@ -1365,7 +1365,7 @@ function C12_EVSModernSchoolsEcologicalSim({
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/60">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/60">
                       <p className="text-sm font-bold text-white mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1399,7 +1399,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1 font-semibold">
                         <span>Current Population (N)</span>
-                        <span className="text-sky-400 font-bold">{popN}</span>
+                        <span className="text-gold-400 font-bold">{popN}</span>
                       </div>
                       <input
                         type="range"
@@ -1412,7 +1412,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                           setPopN(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1484,7 +1484,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                 <div className="space-y-6">
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-bold text-white">Select Demographic Transition Stage:</span>
-                    <span className="text-xs px-2.5 py-1 rounded bg-indigo-500/20 text-indigo-300 font-bold">
+                    <span className="text-xs px-2.5 py-1 rounded bg-gold-500/20 text-gold-300 font-bold">
                       Stage {demogStage}
                     </span>
                   </div>
@@ -1501,7 +1501,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                         }}
                         className={`py-2 rounded-xl border font-bold text-xs transition-all ${
                           demogStage === st
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800/60 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1653,7 +1653,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1 font-semibold">
                         <span>Dissolved Oxygen (DO)</span>
-                        <span className="text-sky-400 font-bold">{waterDO.toFixed(1)} mg/L</span>
+                        <span className="text-gold-400 font-bold">{waterDO.toFixed(1)} mg/L</span>
                       </div>
                       <input
                         type="range"
@@ -1666,7 +1666,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                           setWaterDO(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                       <span className="text-[10px] text-slate-500">Class A requires ≥ 6.0 mg/L</span>
                     </div>
@@ -1833,7 +1833,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                   step={10}
                   value={popN}
                   onChange={e => setPopN(Number(e.target.value))}
-                  className="w-full accent-sky-400"
+                  className="w-full accent-gold-400"
                 />
               </div>
             </div>
@@ -1850,7 +1850,7 @@ function C12_EVSModernSchoolsEcologicalSim({
               <span className="text-xs font-bold uppercase tracking-wider px-2 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-xs uppercase font-bold px-2 py-1 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs uppercase font-bold px-2 py-1 rounded bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 NEP Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
@@ -1861,7 +1861,7 @@ function C12_EVSModernSchoolsEcologicalSim({
 
           <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1974,7 +1974,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs sm:text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs sm:text-sm"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2047,7 +2047,7 @@ function C12_EVSModernSchoolsEcologicalSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900/60 border border-indigo-500 text-indigo-200 text-xs font-bold rounded-md flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900/60 border border-gold-500 text-gold-200 text-xs font-bold rounded-md flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2132,15 +2132,15 @@ function C12_EVSModernSchoolsEcologicalSim({
           </div>
 
           {/* Spaced Repetition Visibility Card */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-indigo-950/80 rounded-2xl border border-indigo-500/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 rounded-2xl border border-gold-500/40 shadow-xl">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-indigo-500/20 border border-indigo-400/30 flex items-center justify-center text-3xl shrink-0">
+                <div className="w-14 h-14 rounded-2xl bg-gold-500/20 border border-gold-400/30 flex items-center justify-center text-3xl shrink-0">
                   📅
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-black uppercase tracking-wider text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded border border-indigo-500/20">
+                    <span className="text-xs font-black uppercase tracking-wider text-gold-400 bg-gold-500/10 px-2 py-0.5 rounded border border-gold-500/20">
                       SM-2 Spaced Repetition Memory Engine
                     </span>
                   </div>
@@ -2178,11 +2178,11 @@ function C12_EVSModernSchoolsEcologicalSim({
                 <p className="text-sm text-slate-300">What was the most surprising thing you learned?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="text-xs font-bold text-sky-400 mb-1">2. Peer Explanation</p>
+                <p className="text-xs font-bold text-gold-400 mb-1">2. Peer Explanation</p>
                 <p className="text-sm text-slate-300">How would you explain this to a friend?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="text-xs font-bold text-indigo-400 mb-1">3. Real-World Application</p>
+                <p className="text-xs font-bold text-gold-400 mb-1">3. Real-World Application</p>
                 <p className="text-sm text-slate-300">Where in real life might you use this?</p>
               </div>
             </div>

@@ -1270,7 +1270,7 @@ function C6_HistoryCivicsSpreadDeclineJainismSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-800/60 shadow-lg">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-800/60 shadow-lg">
             <span className="px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-md border border-amber-500/30">
               📜 HISTORICAL ARCHIVIST SCENARIO
             </span>
@@ -1591,7 +1591,7 @@ function C6_HistoryCivicsSpreadDeclineJainismSim({
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 space-y-1">
-                      <h4 className="text-sky-400 font-bold">Macedonian Expedition (Exhausted)</h4>
+                      <h4 className="text-gold-400 font-bold">Macedonian Expedition (Exhausted)</h4>
                       <p className="text-slate-300">• 8 continuous years marching from Greece</p>
                       <p className="text-slate-300">• Shaken by Porus&apos;s 200 elephants in monsoon mud</p>
                       <p className="text-rose-400 font-semibold">✗ Refused to enter Gangetic plain</p>
@@ -1837,7 +1837,7 @@ function C6_HistoryCivicsSpreadDeclineJainismSim({
               </div>
 
               <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                <span className="text-sky-400 font-bold capitalize">{selectedProvince} Governance:</span>
+                <span className="text-gold-400 font-bold capitalize">{selectedProvince} Governance:</span>
                 <p className="text-slate-300 mt-1">
                   {selectedProvince === 'uttarapatha' &&
                     'Taxila: Guarded northwestern frontier against Seleucid invasion, administered Gandharan trade corridors.'}
@@ -1885,7 +1885,7 @@ function C6_HistoryCivicsSpreadDeclineJainismSim({
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 

@@ -1,9 +1,21 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 // Fully static content (all data is baked): serve from cache instead of
 // per-request SSR — the root layout's force-dynamic made every landing
 // visit pay a full SSR render (~1s p50 at 50 CCU in the TIER3 load test).
 export const dynamic = 'force-static';
+
+// P5 gap 1: the landing keeps its full marketing-free title verbatim.
+// `absolute` bypasses the root layout's "%s | Atlas" template so the
+// <title> is not suffixed with its own brand.
+export const metadata: Metadata = {
+  title: {
+    absolute: 'Atlas — Every answer verified, never guessed | CBSE',
+  },
+  description:
+    'A CBSE learning galaxy for Classes 1–12: interactive simulations, verified step-by-step solutions, per-concept mastery and board-pattern exams.',
+};
 import { AtlasMark } from '@/components/atlas/AtlasMark';
 import LumenCosmos from '@/components/landing/LumenCosmos';
 

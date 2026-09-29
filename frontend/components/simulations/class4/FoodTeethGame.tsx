@@ -159,14 +159,14 @@ const TEACHING_SLIDES = [
     title: 'Types of Teeth 🦷',
     text: 'We have four types of teeth! Incisors at the front cut food like scissors. Canines at the corners tear food. Premolars and molars at the back crush and grind food into a paste!',
     emoji: '🦷',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'We have four types of teeth! Incisors cut food, canines tear food, and premolars and molars crush and grind food.',
   },
   {
     title: 'Structure of a Tooth 🛡️',
     text: 'The crown is visible above the gum; the root is hidden in the jaw. Enamel is the hard, protective outer covering of the crown. Dentine is underneath, and pulp inside has nerves and blood vessels!',
     emoji: '🛡️',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'Enamel is the hardest outer covering of a tooth. Dentine is underneath, and the pulp inside contains nerves and blood vessels.',
   },
   {
@@ -303,7 +303,7 @@ function DentistDinesh({ mood, speaking }: { mood: MascotMood; speaking: string 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-200"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-200"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -705,14 +705,14 @@ export function FoodTeethGame({ width = 720, height = 560, onComplete }: FoodTee
       {/* Top Navigation Bar */}
       <div className="relative z-10 w-full px-6 pt-4 flex items-center justify-between bg-white/80 backdrop-blur-md shadow-sm pb-3">
         <div className="flex items-center gap-3">
-          <span className="text-2xl font-extrabold text-blue-600 drop-shadow">🦷 Food & Teeth Game</span>
+          <span className="text-2xl font-extrabold text-gold-600 drop-shadow">🦷 Food & Teeth Game</span>
         </div>
         {screen === 'play' && (
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-gray-600">Challenge {challengeIdx + 1}/8</span>
               <div className="w-24 h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div className="h-full bg-blue-500 rounded-full transition-all duration-300" style={{ width: `${((challengeIdx + 1) / 8) * 100}%` }} />
+                <div className="h-full bg-gold-500 rounded-full transition-all duration-300" style={{ width: `${((challengeIdx + 1) / 8) * 100}%` }} />
               </div>
             </div>
             <StarRow count={Math.min(5, Math.floor(score / 20))} total={5} />
@@ -741,7 +741,7 @@ export function FoodTeethGame({ width = 720, height = 560, onComplete }: FoodTee
                   if (slideIdx > 0) setSlideIdx(prev => prev - 1);
                 }}
                 disabled={slideIdx === 0}
-                className={`px-5 py-2.5 rounded-full font-bold shadow transition-all ${slideIdx === 0 ? 'bg-white/20 text-white/40 cursor-not-allowed' : 'bg-white text-blue-600 hover:bg-blue-50'}`}
+                className={`px-5 py-2.5 rounded-full font-bold shadow transition-all ${slideIdx === 0 ? 'bg-white/20 text-white/40 cursor-not-allowed' : 'bg-white text-gold-600 hover:bg-gold-50'}`}
               >
                 Previous
               </button>
@@ -762,7 +762,7 @@ export function FoodTeethGame({ width = 720, height = 560, onComplete }: FoodTee
                     audioManager.play('success');
                   }
                 }}
-                className="px-6 py-2.5 rounded-full font-bold bg-white text-blue-600 shadow hover:bg-blue-50 transition-all"
+                className="px-6 py-2.5 rounded-full font-bold bg-white text-gold-600 shadow hover:bg-gold-50 transition-all"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
               </button>
@@ -775,7 +775,7 @@ export function FoodTeethGame({ width = 720, height = 560, onComplete }: FoodTee
               key={challengeIdx}
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="bg-white/95 backdrop-blur-md rounded-2xl p-6 shadow-xl w-full text-center mb-6 border-2 border-blue-100"
+              className="bg-white/95 backdrop-blur-md rounded-2xl p-6 shadow-xl w-full text-center mb-6 border-2 border-gold-100"
             >
               <h3 className="text-xl font-bold text-gray-800">{currentChallenge.question}</h3>
             </motion.div>
@@ -786,7 +786,7 @@ export function FoodTeethGame({ width = 720, height = 560, onComplete }: FoodTee
                 {currentChallenge.options.map(opt => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectOpt = opt === currentChallenge.answer;
-                  let btnBg = 'bg-white hover:bg-blue-50 text-gray-800 border-2 border-gray-200';
+                  let btnBg = 'bg-white hover:bg-gold-50 text-gray-800 border-2 border-gray-200';
                   if (selectedOpt) {
                     if (isCorrectOpt) btnBg = 'bg-emerald-500 text-white border-2 border-emerald-600 shadow-lg';
                     else if (isSelected) btnBg = 'bg-rose-500 text-white border-2 border-rose-600';

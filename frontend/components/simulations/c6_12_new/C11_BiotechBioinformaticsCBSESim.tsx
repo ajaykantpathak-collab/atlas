@@ -1196,9 +1196,9 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
       <SparkleBurst show={showSparkle} x={400} y={300} />
 
       {/* Header Banner */}
-      <header className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <header className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
-          <div className="flex items-center gap-2 text-indigo-400 font-mono text-xs uppercase tracking-widest mb-1">
+          <div className="flex items-center gap-2 text-gold-400 font-mono text-xs uppercase tracking-widest mb-1">
             <span>ISC Class 11 Biology</span>
             <span>•</span>
             <span>Unit: Computational Biology</span>
@@ -1234,7 +1234,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
             }}
             className={`flex-1 py-2.5 rounded-lg font-semibold text-sm transition-all duration-200 capitalize ${
               activeTab === tab
-                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
@@ -1283,8 +1283,8 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
 
             {/* Explanation reveal */}
             {showDiscoveryExplanation && (
-              <div className="mt-4 p-4 bg-indigo-950/50 border border-indigo-800/60 rounded-xl text-indigo-200 text-sm animate-fadeIn">
-                <span className="font-bold block text-indigo-400 mb-1">Scientific Context & Solution:</span>
+              <div className="mt-4 p-4 bg-gold-950/50 border border-gold-800/60 rounded-xl text-gold-200 text-sm animate-fadeIn">
+                <span className="font-bold block text-gold-400 mb-1">Scientific Context & Solution:</span>
                 {DISCOVERY_QUESTION.hintAfter}
               </div>
             )}
@@ -1352,8 +1352,8 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                   className="bg-slate-950 border border-slate-800 rounded-2xl p-5 shadow-inner space-y-4"
                 >
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-slate-800 pb-3">
-                    <h3 className="text-lg font-bold text-indigo-400">{labStep.title}</h3>
-                    <span className="text-xs font-mono bg-indigo-950 text-indigo-300 px-3 py-1 rounded-full border border-indigo-800/50">
+                    <h3 className="text-lg font-bold text-gold-400">{labStep.title}</h3>
+                    <span className="text-xs font-mono bg-gold-950 text-gold-300 px-3 py-1 rounded-full border border-gold-800/50">
                       Node: {NODE_TITLES[labStep.nodeId]}
                     </span>
                   </div>
@@ -1377,7 +1377,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                             setPhredScore(parseInt(e.target.value));
                             audioManager.play('pop');
                           }}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <FastaFastqDiagramSVG phred={phredScore} />
@@ -1444,7 +1444,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                       <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex justify-around text-center">
                         <div>
                           <span className="text-xs text-slate-400 block">Alignment Score (S)</span>
-                          <span className="text-xl font-bold text-indigo-400 font-mono">{blastAlignmentScore}</span>
+                          <span className="text-xl font-bold text-gold-400 font-mono">{blastAlignmentScore}</span>
                         </div>
                         <div className="w-px h-10 bg-slate-800" />
                         <div>
@@ -1466,7 +1466,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                           }}
                           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
                             applyFDR
-                              ? 'bg-indigo-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                           }`}
                         >
@@ -1495,7 +1495,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                     <div className="space-y-4">
                       <div className="flex items-center gap-4 bg-slate-900 p-4 rounded-xl border border-slate-800">
                         <label className="text-sm font-semibold text-slate-300 min-w-44">
-                          Pairwise Distance d(A,B): <span className="text-cyan-400 font-mono font-bold">{distAB} Myr</span>
+                          Pairwise Distance d(A,B): <span className="text-gold-400 font-mono font-bold">{distAB} Myr</span>
                         </label>
                         <input
                           type="range"
@@ -1507,7 +1507,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                             setDistAB(parseFloat(e.target.value));
                             audioManager.play('pop');
                           }}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <PhylogeneticTreeSVG distAB={distAB} />
@@ -1562,7 +1562,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
             <span className="text-xs font-mono text-slate-400">
               Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
             </span>
-            <span className="text-xs font-semibold px-3 py-1 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">
+            <span className="text-xs font-semibold px-3 py-1 rounded-full bg-gold-950 text-gold-300 border border-gold-800">
               Tier: {currentChallenge.difficulty.toUpperCase()} | Competency: {currentChallenge.competencyLevel}
             </span>
           </div>
@@ -1570,7 +1570,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
           {/* Active Challenge Card */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6 relative">
             <div className="space-y-2">
-              <span className="text-xs font-mono text-indigo-400 uppercase tracking-wide">
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-wide">
                 Topic Node: {NODE_TITLES[currentChallenge.nodeId]}
               </span>
               <h2 className="text-lg md:text-xl font-bold text-white leading-snug">
@@ -1596,11 +1596,11 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                     }}
                     className={`p-4 rounded-xl border text-left text-sm font-medium transition-all ${
                       selectedOption === idx
-                        ? 'bg-indigo-900/60 border-indigo-500 text-white shadow-lg'
+                        ? 'bg-gold-900/60 border-gold-500 text-white shadow-lg'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800/50 hover:border-slate-700'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                     {opt}
                   </button>
                 ))}
@@ -1616,7 +1616,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                   value={numericAnswer}
                   onChange={(e) => setNumericAnswer(e.target.value)}
                   placeholder="e.g. 0.001"
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-4 text-base font-mono text-emerald-400 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-4 text-base font-mono text-emerald-400 focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -1630,7 +1630,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                     <select
                       value={classificationAnswers[item] || ''}
                       onChange={(e) => setClassificationAnswers({ ...classificationAnswers, [item]: e.target.value })}
-                      className="bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-indigo-300 font-semibold"
+                      className="bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-gold-300 font-semibold"
                     >
                       <option value="">-- Select Category --</option>
                       {currentChallenge.categories?.map((cat) => (
@@ -1673,7 +1673,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
               {!feedback ? (
                 <button
                   onClick={handleCheckAnswer}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 transition-all"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 transition-all"
                 >
                   Submit & Verify
                 </button>
@@ -1769,7 +1769,7 @@ export const C11_BiotechBioinformaticsCBSESim: React.FC = () => {
                     <p className="text-xs text-slate-300 font-medium truncate">{NODE_TITLES[id]}</p>
                     <div className="w-full h-1.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
                       <div
-                        className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all duration-300"
+                        className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 transition-all duration-300"
                         style={{ width: `${pct}%` }}
                       />
                     </div>

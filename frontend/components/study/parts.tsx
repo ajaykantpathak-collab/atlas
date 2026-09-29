@@ -56,7 +56,7 @@ export function ChunkedText({ text, groupSize = 1 }: { text: string; groupSize?:
                         {!revealed && (
                             <button
                                 onClick={() => setOpen(i)}
-                                className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-indigo-300/80 hover:text-indigo-200"
+                                className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-gold-300/80 hover:text-gold-200"
                             >
                                 tap to reveal · {i + 1}/{chunks.length}
                             </button>
@@ -64,7 +64,7 @@ export function ChunkedText({ text, groupSize = 1 }: { text: string; groupSize?:
                         {revealed && (
                             <button
                                 onClick={() => speechManager.speak(c.replace(/[*_`#|]/g, ''))}
-                                className="absolute -right-1 top-0 p-1.5 text-surface-500 hover:text-indigo-300 opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity"
+                                className="absolute -right-1 top-0 p-1.5 text-surface-500 hover:text-gold-300 opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity"
                                 aria-label="Listen" title="Listen"
                             >
                                 <Volume2 className="w-3.5 h-3.5" />
@@ -119,7 +119,7 @@ export function ConfidenceGate({ onRate, children }: { onRate: (c: 'unsure' | 'h
 export function CoachLine({ icon: Icon, children }: { icon: any; children: React.ReactNode }) {
     return (
         <motion.div initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-2 mb-5 text-indigo-300/90 text-sm">
+            className="flex items-center gap-2 mb-5 text-gold-300/90 text-sm">
             <Icon className="w-4 h-4 shrink-0" />
             <span>{children}</span>
         </motion.div>

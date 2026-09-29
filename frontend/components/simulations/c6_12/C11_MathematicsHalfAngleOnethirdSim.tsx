@@ -1169,8 +1169,8 @@ export function C11_MathematicsHalfAngleOnethirdSim({
         title: 'Great work!',
         badge: '🌟 High Proficiency',
         message: 'Excellent algebraic fluency! You demonstrated sharp problem-solving across multi-angle reductions, Argand polar conversions, and complex arithmetic with only minor slips. Review the quadrant sign subtleties to achieve 100% perfection!',
-        color: 'from-indigo-600 to-cyan-500',
-        borderColor: 'border-indigo-500',
+        color: 'from-gold-600 to-gold-500',
+        borderColor: 'border-gold-500',
       };
     } else if (errCount >= 4 && errCount <= 7) {
       return {
@@ -1209,7 +1209,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
           <motion.div
             whileHover={{ scale: 1.08, rotate: 5 }}
             whileTap={{ scale: 0.95 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner cursor-pointer"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner cursor-pointer"
             aria-label="Simulation Topic Icon"
           >
             {subjectConfig.emoji}
@@ -1218,7 +1218,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
             </h1>
-            <p className="text-xs text-indigo-400 font-semibold tracking-wide uppercase">
+            <p className="text-xs text-gold-400 font-semibold tracking-wide uppercase">
               ISC Class 11 • {subjectConfig.name} • 10 Curriculum Nodes Covered
             </p>
           </div>
@@ -1239,7 +1239,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 aria-label={`Switch to ${p} phase`}
                 className={`px-2.5 py-1 rounded-lg text-xs font-bold capitalize transition-all ${
                   phase === p
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1257,7 +1257,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-600/40'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-600/40'
+                : 'bg-gold-950/60 text-gold-300 border-gold-600/40'
             }`}
           >
             Tier: {difficulty}
@@ -1275,7 +1275,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
           <span className="text-amber-400 font-bold">💡 Intuition:</span>
           <span>{eli5}</span>
         </div>
-        <div className="flex items-center gap-2 text-indigo-400 font-mono text-[11px] bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
+        <div className="flex items-center gap-2 text-gold-400 font-mono text-[11px] bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
           <span>Target Mastery: BKT &gt; 0.85</span>
         </div>
       </motion.div>
@@ -1295,17 +1295,17 @@ export function C11_MathematicsHalfAngleOnethirdSim({
             {/* Narrative Scenario Card */}
             <motion.div
               whileHover={{ scale: 1.005 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/40 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/50 relative overflow-hidden shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/50 relative overflow-hidden shadow-lg"
             >
               <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none text-8xl font-black font-mono">
                 i² = -1
               </div>
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold tracking-wider uppercase mb-1">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold tracking-wider uppercase mb-1">
                 <span>🚀</span> ISRO Mission Scenario
               </div>
               <h2 className="text-xl md:text-2xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-300/80 italic">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-300/80 italic">{SCENARIO.context}</p>
             </motion.div>
 
             {/* Discovery Curiosity Question */}
@@ -1342,10 +1342,10 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/90 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500/60'
+                        : 'bg-slate-800/90 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500/60'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                     {discoveryAnswered && (
                       <span className="ml-2 font-bold">
@@ -1383,7 +1383,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={handleAdvanceToExploration}
                       aria-label="Start Interactive Discovery Lab"
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                     >
                       Start Interactive Discovery Lab →
                     </motion.button>
@@ -1411,7 +1411,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
               className="flex flex-col md:flex-row items-start md:items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800 gap-3"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Discovery Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-lg md:text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1492,14 +1492,14 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                         <span className="text-xs text-slate-400 font-mono">sin(θ)</span>
                         <div className="text-lg font-bold text-white font-mono">{sinTheta.toFixed(3)}</div>
                       </div>
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
-                        <span className="text-xs text-cyan-300 font-semibold">cos²(θ/2) = (1+cos θ)/2</span>
-                        <div className="text-lg font-bold text-cyan-200 font-mono">{((1 + cosTheta) / 2).toFixed(3)}</div>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60">
+                        <span className="text-xs text-gold-300 font-semibold">cos²(θ/2) = (1+cos θ)/2</span>
+                        <div className="text-lg font-bold text-gold-200 font-mono">{((1 + cosTheta) / 2).toFixed(3)}</div>
                         <span className="text-[11px] text-slate-400">cos(θ/2) = {cosHalfTheta.toFixed(3)}</span>
                       </div>
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
-                        <span className="text-xs text-cyan-300 font-semibold">sin²(θ/2) = (1-cos θ)/2</span>
-                        <div className="text-lg font-bold text-cyan-200 font-mono">{((1 - cosTheta) / 2).toFixed(3)}</div>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60">
+                        <span className="text-xs text-gold-300 font-semibold">sin²(θ/2) = (1-cos θ)/2</span>
+                        <div className="text-lg font-bold text-gold-200 font-mono">{((1 - cosTheta) / 2).toFixed(3)}</div>
                         <span className="text-[11px] text-slate-400">sin(θ/2) = {sinHalfTheta.toFixed(3)}</span>
                       </div>
                     </div>
@@ -1525,12 +1525,12 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                         aria-label={`Select ${item.label}`}
                         className={`p-4 rounded-xl text-left border transition-all ${
                           selectedQuadrant === item.q
-                            ? 'bg-indigo-600/30 border-indigo-500 shadow-lg shadow-indigo-600/20'
+                            ? 'bg-gold-600/30 border-gold-500 shadow-lg shadow-gold-600/20'
                             : 'bg-slate-950 border-slate-800 hover:border-slate-700'
                         }`}
                       >
                         <div className="flex items-center justify-between mb-1">
-                          <span className="text-xs font-bold text-indigo-400">{item.label}</span>
+                          <span className="text-xs font-bold text-gold-400">{item.label}</span>
                           <span className="text-lg font-black text-white px-2 py-0.5 rounded bg-slate-800">{item.code}</span>
                         </div>
                         <p className="text-xs text-emerald-400 font-semibold">{item.pos}</p>
@@ -1542,12 +1542,12 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center justify-between">
                       <span>Quadrant {selectedQuadrant} Analysis</span>
-                      <span className="text-xs text-indigo-400 font-mono">ASTC Law</span>
+                      <span className="text-xs text-gold-400 font-mono">ASTC Law</span>
                     </h3>
                     <div className="space-y-2 text-xs text-slate-300">
-                      <p>• <strong className="text-indigo-300">Pythagorean Law:</strong> sin²x + cos²x = 1 holds unconditionally across all 4 quadrants.</p>
-                      <p>• <strong className="text-indigo-300">Secant Identity:</strong> 1 + tan²x = sec²x (singular at odd multiples of π/2).</p>
-                      <p>• <strong className="text-indigo-300">Cosecant Identity:</strong> 1 + cot²x = cosec²x (singular at integer multiples of π).</p>
+                      <p>• <strong className="text-gold-300">Pythagorean Law:</strong> sin²x + cos²x = 1 holds unconditionally across all 4 quadrants.</p>
+                      <p>• <strong className="text-gold-300">Secant Identity:</strong> 1 + tan²x = sec²x (singular at odd multiples of π/2).</p>
+                      <p>• <strong className="text-gold-300">Cosecant Identity:</strong> 1 + cot²x = cosec²x (singular at integer multiples of π).</p>
                     </div>
                     <canvas ref={canvasRef} width={300} height={60} className="w-full bg-slate-900 rounded-lg shadow-inner" aria-label="Animated Phasor Waveform" />
                   </div>
@@ -1651,14 +1651,14 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setPolarMode(!polarMode)}
                       aria-label="Toggle between Rectangular and Polar forms"
-                      className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow-md"
+                      className="px-4 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow-md"
                     >
                       Switch to {polarMode ? 'Rectangular Form (a + bi)' : 'Polar Form (r(cos θ + i sin θ))'}
                     </motion.button>
                   </div>
 
                   <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 text-center space-y-3">
-                    <div className="text-2xl md:text-3xl font-black text-indigo-300 font-mono">
+                    <div className="text-2xl md:text-3xl font-black text-gold-300 font-mono">
                       {polarMode ? (
                         <span>{modZ.toFixed(2)} ( cos({argZRad.toFixed(2)}) + i sin({argZRad.toFixed(2)}) )</span>
                       ) : (
@@ -1671,9 +1671,9 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                   </div>
 
                   {/* Prediction Component Inside Discovery */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/50 space-y-2">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/50 space-y-2">
                     <div className="flex justify-between items-center text-xs">
-                      <span className="font-bold text-indigo-400 uppercase">Interactive Verification Prediction:</span>
+                      <span className="font-bold text-gold-400 uppercase">Interactive Verification Prediction:</span>
                       <span className="text-slate-400">Scenario {predictionIndex + 1}/{PREDICTION_QUESTIONS.length}</span>
                     </div>
                     <p className="text-xs text-slate-200 font-semibold">{PREDICTION_QUESTIONS[predictionIndex].question}</p>
@@ -1694,7 +1694,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                                 ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                                 : 'bg-slate-900 border-slate-800 text-slate-500'
                               : predictionSelected === pIdx
-                              ? 'bg-indigo-600/30 border-indigo-500 text-white'
+                              ? 'bg-gold-600/30 border-gold-500 text-white'
                               : 'bg-slate-900 hover:bg-slate-855 border-slate-800 text-slate-300'
                           }`}
                         >
@@ -1715,7 +1715,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                           onClick={handlePredictionVerify}
                           disabled={predictionSelected === null}
                           aria-label="Confirm Prediction"
-                          className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-lg text-xs"
+                          className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-lg text-xs"
                         >
                           Confirm Prediction
                         </motion.button>
@@ -1789,24 +1789,24 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                      <span className="text-xs text-indigo-400 font-bold">Triple Angle Formula</span>
+                      <span className="text-xs text-gold-400 font-bold">Triple Angle Formula</span>
                       <div className="text-sm font-bold text-white font-mono">cos(3θ) = 4cos³θ - 3cos θ</div>
                       <p className="text-[11px] text-slate-400">Derived from cos(2θ + θ) expansion.</p>
                     </div>
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                      <span className="text-xs text-indigo-400 font-bold">Sine Triple Angle</span>
+                      <span className="text-xs text-gold-400 font-bold">Sine Triple Angle</span>
                       <div className="text-sm font-bold text-white font-mono">sin(3θ) = 3sin θ - 4sin³θ</div>
                       <p className="text-[11px] text-slate-400">Fundamental for cubic resonance.</p>
                     </div>
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                      <span className="text-xs text-indigo-400 font-bold">One-Third Angle</span>
+                      <span className="text-xs text-gold-400 font-bold">One-Third Angle</span>
                       <div className="text-sm font-bold text-white font-mono">θ/3 = {(thetaDeg / 3).toFixed(1)}°</div>
                       <p className="text-[11px] text-slate-400">cos(θ/3) = {cosOneThirdTheta.toFixed(3)}</p>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-900/60 text-xs text-slate-300">
-                    <p className="font-bold text-indigo-300 mb-1">Key ISC Examination Takeaway:</p>
+                  <div className="p-4 bg-gold-950/30 rounded-xl border border-gold-900/60 text-xs text-slate-300">
+                    <p className="font-bold text-gold-300 mb-1">Key ISC Examination Takeaway:</p>
                     <p>Solving for cos(θ/3) given cos θ leads to the cubic equation 4c³ - 3c - cos θ = 0. This demonstrates why general angle trisection cannot be performed with straightedge and compass alone!</p>
                   </div>
                 </div>
@@ -1817,7 +1817,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-slate-900 rounded-2xl border border-indigo-900/40 space-y-4"
+              className="p-5 bg-slate-900 rounded-2xl border border-gold-900/40 space-y-4"
             >
               <div className="flex items-center gap-2">
                 <span className="text-lg">🔍</span>
@@ -1839,7 +1839,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
 
                   return (
                     <div key={obsQ.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                      <p className="text-xs md:text-sm font-semibold text-indigo-200">
+                      <p className="text-xs md:text-sm font-semibold text-gold-200">
                         <span className="text-amber-400 mr-1.5">Observation {qIdx + 1}:</span>
                         {obsQ.prompt}
                       </p>
@@ -1911,7 +1911,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
                   aria-label="Next Exploration Lab"
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm shadow-md"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-md"
                 >
                   Next Lab →
                 </motion.button>
@@ -1965,7 +1965,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 {/* Real-Time Slider 1: Theta */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                   <div className="flex justify-between items-center text-xs">
-                    <label htmlFor="sb-theta" className="font-bold text-indigo-400">Angle Slider θ</label>
+                    <label htmlFor="sb-theta" className="font-bold text-gold-400">Angle Slider θ</label>
                     <span className="font-mono text-white font-bold">{thetaDeg}°</span>
                   </div>
                   <input
@@ -1977,7 +1977,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                     onChange={(e) => setThetaDeg(Number(e.target.value))}
                     aria-label="Sandbox Angle Theta Slider"
                     aria-valuenow={thetaDeg}
-                    className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                   />
                   <div className="text-[11px] text-slate-400 font-mono space-y-0.5 pt-1">
                     <div>sin(θ/2) = {sinHalfTheta.toFixed(3)}</div>
@@ -2060,7 +2060,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
               </div>
               <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
                   initial={{ width: 0 }}
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.4 }}
@@ -2077,7 +2077,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
               } space-y-4`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-indigo-950 text-indigo-300 border border-indigo-800 uppercase tracking-wider">
+                <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-gold-950 text-gold-300 border border-gold-800 uppercase tracking-wider">
                   {activeChallenge.competencyLevel} • {activeChallenge.type}
                 </span>
                 <span className="text-xs text-slate-400 font-mono">Node: {activeChallenge.nodeId}</span>
@@ -2101,10 +2101,10 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                       className={`p-4 rounded-xl text-left text-sm font-medium transition-all border ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                       {showExplanation && (
                         <span className="ml-2 font-bold">
@@ -2134,7 +2134,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Verify Numeric Answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl disabled:opacity-50"
                   >
                     Verify Number
                   </motion.button>
@@ -2155,7 +2155,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Draggable complex number: ${item.label}`}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2181,7 +2181,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     aria-label="Check Quadrant Mapping"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Check Quadrant Mapping
                   </motion.button>
@@ -2207,7 +2207,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                       aria-label={`Step ${pos + 1}: ${activeChallenge.sortItems![itemIdx]}`}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-sm cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-900 text-indigo-400 font-bold text-xs flex items-center justify-center">
+                      <span className="w-6 h-6 rounded-full bg-slate-900 text-gold-400 font-bold text-xs flex items-center justify-center">
                         {pos + 1}
                       </span>
                       <span className="text-slate-200">{activeChallenge.sortItems![itemIdx]}</span>
@@ -2218,7 +2218,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={handleSortSubmit}
                     aria-label="Verify Step Sequence"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                   >
                     Verify Step Sequence
                   </motion.button>
@@ -2236,7 +2236,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
                         aria-label={`Add part ${part}`}
-                        className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                        className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2244,7 +2244,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[50px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((part, i) => (
-                      <span key={i} className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-md text-xs font-bold flex items-center gap-1 font-mono">
+                      <span key={i} className="px-3 py-1 bg-gold-900 text-gold-200 rounded-md text-xs font-bold flex items-center gap-1 font-mono">
                         {part}
                         <motion.button
                           whileHover={{ scale: 1.2 }}
@@ -2267,7 +2267,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
                     aria-label="Validate Expression"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
                   >
                     Validate Polar Expression
                   </motion.button>
@@ -2279,7 +2279,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-5 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3"
+                  className="p-5 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3"
                 >
                   <span className="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
                     <span>📝</span> Step-by-Step Formal Mathematical Solution:
@@ -2287,7 +2287,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                   <div className="space-y-1.5 text-xs md:text-sm text-slate-300">
                     {activeChallenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, i) => (
                       <motion.p key={i} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}>
-                        <strong className="text-indigo-400 font-mono">{i + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                        <strong className="text-gold-400 font-mono">{i + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
                   </div>
@@ -2374,7 +2374,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-gradient-to-r from-amber-950/40 via-indigo-950/40 to-slate-900 rounded-2xl border border-amber-500/40 space-y-3"
+              className="p-6 bg-gradient-to-r from-amber-950/40 via-gold-950/40 to-slate-900 rounded-2xl border border-amber-500/40 space-y-3"
             >
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                 <div className="flex items-center gap-2">
@@ -2394,7 +2394,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 flex justify-between items-center font-mono">
                 <span>Memory Decay Threshold: 0.85 BKT</span>
-                <span className="text-indigo-400">Next SRS Check: {new Date(Date.now() + reviewIntervalDays * 86400000).toLocaleDateString()}</span>
+                <span className="text-gold-400">Next SRS Check: {new Date(Date.now() + reviewIntervalDays * 86400000).toLocaleDateString()}</span>
               </div>
             </motion.div>
 
@@ -2429,7 +2429,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 whileHover={{ scale: 1.01 }}
                 className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-2"
               >
-                <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Reflective Thinking</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Reflective Thinking</h4>
                 <ul className="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
                   <li>Why does cos(2x) produce three equivalent algebraic forms while sin(2x) produces one?</li>
                   <li>How does complex multiplication geometrically combine rotation (arg sum) and scaling (modulus product)?</li>
@@ -2448,7 +2448,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                 <div className="grid grid-cols-1 gap-1 pt-1">
                   {REAL_WORLD_ACTIVITY.steps.slice(0, 2).map((st, i) => (
                     <div key={i} className="text-[11px] text-slate-400">
-                      <strong className="text-indigo-400 mr-1">{i + 1}.</strong> {st}
+                      <strong className="text-gold-400 mr-1">{i + 1}.</strong> {st}
                     </div>
                   ))}
                 </div>
@@ -2466,7 +2466,7 @@ export function C11_MathematicsHalfAngleOnethirdSim({
                   setErrors(0);
                 }}
                 aria-label="Restart Exploration Laboratory"
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Restart Exploration Laboratory 🔄
               </motion.button>

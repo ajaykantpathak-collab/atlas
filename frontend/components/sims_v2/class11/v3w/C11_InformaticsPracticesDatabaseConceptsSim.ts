@@ -11,7 +11,7 @@ export const w_c11_informaticspracticesdatabaseconceptssim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Introduction to Data, Database and Database Management System',
     chapters: [],
     nodeIds: ['c11_ip_cbse_07_001', 'c11_ip_cbse_07_005', 'c11_ip_cbse_07_002', 'c11_ip_cbse_07_003', 'c11_ip_cbse_07_004', 'c11_ip_cbse_07_006', 'c11_ip_cbse_07_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine your school library still uses paper registers: one register for book details, another for student.', goal: 'Master Introduction to Data, Database and Database Management System.' },
     discovery: {
         question: 'Explain why "data inconsistency" is a more dangerous problem than "data redundancy" in a file system, using the example of a student\'s name correction across.',
@@ -20,7 +20,7 @@ export const w_c11_informaticspracticesdatabaseconceptssim: SimDef = {
         hook: 'Students often believe "Primary Key = Unique Identifier" and "Foreign Key = Primary Key of another table" are.',
     },
     teaching: [
-        { title: 'A Database Management System (DBMS) is a.', text: 'A Database Management System (DBMS) is a software system that enables users to define, create, maintain, and control access to a database—a logically organized collection of interrelated data stored.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Database Management System (DBMS) is a.', text: 'A Database Management System (DBMS) is a software system that enables users to define, create, maintain, and control access to a database—a logically organized collection of interrelated data stored.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ip_cbse_07_001', title: 'A Database Management System (DBMS) is.',

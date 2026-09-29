@@ -11,7 +11,7 @@ export const w_c11_psythinkingcbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Nature of Thinking: Definition and Characteristics',
     chapters: [],
     nodeIds: ['c11_psy_cbse_07_001', 'c11_psy_cbse_07_002', 'c11_psy_cbse_07_003', 'c11_psy_cbse_07_004', 'c11_psy_cbse_07_007', 'c11_psy_cbse_07_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are watching a Class 11 student staring at a complex physics numerical for five minutes without.', goal: 'Master Nature of Thinking: Definition and Characteristics.' },
     discovery: {
         question: 'Compare linguistic relativity (Whorf) and cognitive primacy (Piaget) on the thought-language relationship.',
@@ -20,7 +20,7 @@ export const w_c11_psythinkingcbsesim: SimDef = {
         hook: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs.',
     },
     teaching: [
-        { title: 'Thinking is a higher-order, internal.', text: 'Thinking is a higher-order, internal cognitive process that involves the goal-directed manipulation and analysis of acquired information through mental representations (mental images and concepts) to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Thinking is a higher-order, internal.', text: 'Thinking is a higher-order, internal cognitive process that involves the goal-directed manipulation and analysis of acquired information through mental representations (mental images and concepts) to.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_07_001', title: 'Thinking is a higher-order, internal.',

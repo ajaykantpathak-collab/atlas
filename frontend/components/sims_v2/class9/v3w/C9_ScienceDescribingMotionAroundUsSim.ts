@@ -11,11 +11,11 @@ export const w_c9_sciencedescribingmotionaroundussim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Distance and Displacement: Difference',
     chapters: [],
     nodeIds: ['c9_physics_ch2_1'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a student walking from the school gate to the library, then to the canteen, and back to the gate.', goal: 'Master Distance and Displacement: Difference.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Distance is a scalar quantity measuring the.', text: 'Distance is a scalar quantity measuring the total path length traveled by an object, with SI unit meter (m).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Distance is a scalar quantity measuring the.', text: 'Distance is a scalar quantity measuring the total path length traveled by an object, with SI unit meter (m).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch2_1', title: 'Distance is a scalar quantity measuring.',

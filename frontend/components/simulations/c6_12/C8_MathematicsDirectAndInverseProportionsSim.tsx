@@ -43,11 +43,11 @@ export function C8_MathematicsDirectAndInverseProportionsSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Direct and Inverse Proportions</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Direct and Inverse Proportions</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">How to tell them apart:</span> in direct
+          <span className="font-bold text-gold-700">How to tell them apart:</span> in direct
           proportion y/x stays constant (double one, double the other) and the graph is a straight
           line through the origin. In inverse proportion x x y stays constant (double one, halve the
           other) and the graph sweeps down like a slide.
@@ -55,10 +55,10 @@ export function C8_MathematicsDirectAndInverseProportionsSim() {
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        <button onClick={() => setMode('direct')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'direct' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setMode('direct')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'direct' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Direct: speed and distance
         </button>
-        <button onClick={() => setMode('inverse')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'inverse' ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setMode('inverse')} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === 'inverse' ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Inverse: workers and days
         </button>
       </div>
@@ -72,11 +72,11 @@ export function C8_MathematicsDirectAndInverseProportionsSim() {
                 <input type="range" min={10} max={80} step={5} value={speed} aria-label="speed" onChange={(e) => setSpeed(Number(e.target.value))} className="w-full mt-1 accent-emerald-600" />
               </div>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Time t (hours)</span><span className="font-mono text-indigo-600">{hours}</span></label>
-                <input type="range" min={1} max={8} value={hours} aria-label="hours" onChange={(e) => setHours(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Time t (hours)</span><span className="font-mono text-gold-600">{hours}</span></label>
+                <input type="range" min={1} max={8} value={hours} aria-label="hours" onChange={(e) => setHours(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-                <div>distance = speed x time = {speed} x {hours} = <span className="text-indigo-700 font-bold">{distance} km</span></div>
+                <div>distance = speed x time = {speed} x {hours} = <span className="text-gold-700 font-bold">{distance} km</span></div>
                 <div className="mt-1 text-slate-500">ratio d/t = {distance / hours} km per hour (constant!)</div>
               </div>
             </>
@@ -87,11 +87,11 @@ export function C8_MathematicsDirectAndInverseProportionsSim() {
                 <input type="range" min={20} max={120} step={5} value={job} aria-label="job size" onChange={(e) => setJob(Number(e.target.value))} className="w-full mt-1 accent-emerald-600" />
               </div>
               <div>
-                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Workers n</span><span className="font-mono text-indigo-600">{workers}</span></label>
-                <input type="range" min={1} max={15} value={workers} aria-label="workers" onChange={(e) => setWorkers(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+                <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Workers n</span><span className="font-mono text-gold-600">{workers}</span></label>
+                <input type="range" min={1} max={15} value={workers} aria-label="workers" onChange={(e) => setWorkers(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
               </div>
               <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-                <div>days = k / n = {job} / {workers} = <span className="text-indigo-700 font-bold">{Math.round(daysFrac * 100) / 100} days</span> (plan {daysWhole} days)</div>
+                <div>days = k / n = {job} / {workers} = <span className="text-gold-700 font-bold">{Math.round(daysFrac * 100) / 100} days</span> (plan {daysWhole} days)</div>
                 <div className="mt-1 text-slate-500">product n x days = {Math.round(product * 100) / 100} (constant!)</div>
               </div>
             </>
@@ -103,7 +103,7 @@ export function C8_MathematicsDirectAndInverseProportionsSim() {
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 320 210" className="w-full">
             <line x1={40} y1={180} x2={305} y2={180} stroke="#94a3b8" />
             <line x1={40} y1={180} x2={40} y2={15} stroke="#94a3b8" />

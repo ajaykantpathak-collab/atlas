@@ -11,7 +11,7 @@ export const w_c11_computersciencejavacomplexprogramsim: SimDef = {
     classLevel: 11, subject: 'computer_science', topic: 'Data Types in Python: int, float, str, bool',
     chapters: [],
     nodeIds: ['c11_cs_cbse_04_009', 'c11_cs_cbse_04_012', 'c11_cs_cbse_08_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a simple billing program for a kirana store.', goal: 'Master Data Types in Python: int, float, str, bool.' },
     discovery: {
         question: 'Consider the following recursive function: ```python def mystery(n): if n == 0: return 1 else: return n * mystery(n-1) ``` Explain in your own words what this.',
@@ -20,7 +20,7 @@ export const w_c11_computersciencejavacomplexprogramsim: SimDef = {
         hook: 'Students often think recursion is just "a function that calls itself" and forget that the recursive call must be on a.',
     },
     teaching: [
-        { title: 'In Python, data types classify the kind of.', text: 'In Python, data types classify the kind of value a variable holds, determining the operations allowed and the memory representation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'In Python, data types classify the kind of.', text: 'In Python, data types classify the kind of value a variable holds, determining the operations allowed and the memory representation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_cs_cbse_04_009', title: 'In Python, data types classify the kind.',

@@ -26,14 +26,14 @@ const TEACHING_SLIDES = [
     title: 'Welcome to the World of Time! ⏰',
     text: 'Time helps us know when to wake up, go to school, eat lunch, and sleep! A day has 24 hours, a week has 7 days, and a year has 12 months!',
     emoji: '⏰',
-    bgColor: 'from-cyan-500 to-blue-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Welcome to the world of time! Time helps us know when to wake up, go to school, eat lunch, and sleep! A day has 24 hours, a week has 7 days, and a year has 12 months!',
   },
   {
     title: 'Reading the Calendar 📅',
     text: 'A calendar shows days, weeks, and months in an organized grid! We have 7 days in a week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday!',
     emoji: '📅',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'A calendar shows days, weeks, and months in an organized grid! We have seven days in a week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday!',
   },
   {
@@ -47,7 +47,7 @@ const TEACHING_SLIDES = [
     title: 'The 24-Hour Clock 🚂',
     text: 'Railways and airports use the 24-hour clock from 00:00 to 23:59 without AM or PM! For PM times after noon, just add 12 to the hour! So 3:00 PM becomes 15:00!',
     emoji: '🚂',
-    bgColor: 'from-purple-500 to-indigo-700',
+    bgColor: 'from-purple-500 to-gold-700',
     spoken: 'Railways and airports use the twenty-four-hour clock from zero to twenty-three fifty-nine without A M or P M! For P M times after noon, just add twelve to the hour! So three P M becomes fifteen hundred hours!',
   },
   {
@@ -681,7 +681,7 @@ export function TimeCalendarGame({ width = 720, height = 560, onComplete }: Time
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl shadow-2xl bg-indigo-900 select-none flex flex-col items-center justify-between" style={{ width, height }}>
+    <div className="relative overflow-hidden rounded-3xl shadow-2xl bg-gold-900 select-none flex flex-col items-center justify-between" style={{ width, height }}>
       {/* Background Scene */}
       <TimeSceneBackground width={width} height={height} />
 
@@ -690,13 +690,13 @@ export function TimeCalendarGame({ width = 720, height = 560, onComplete }: Time
 
       {/* Top Header Bar */}
       <div className="relative z-10 w-full px-6 pt-4 flex items-center justify-between">
-        <div className="flex items-center gap-3 bg-indigo-950/80 backdrop-blur-md px-4 py-2 rounded-2xl border-2 border-amber-400/50 shadow-lg">
+        <div className="flex items-center gap-3 bg-gold-950/80 backdrop-blur-md px-4 py-2 rounded-2xl border-2 border-amber-400/50 shadow-lg">
           <span className="text-xl font-black text-amber-300">⏳ Time & Calendar</span>
-          <span className="text-xs font-bold text-cyan-200">CISCE Class 3</span>
+          <span className="text-xs font-bold text-gold-200">CISCE Class 3</span>
         </div>
 
         {screen === 'play' && (
-          <div className="flex items-center gap-4 bg-indigo-950/80 backdrop-blur-md px-4 py-2 rounded-2xl border-2 border-indigo-400/50 shadow-lg">
+          <div className="flex items-center gap-4 bg-gold-950/80 backdrop-blur-md px-4 py-2 rounded-2xl border-2 border-gold-400/50 shadow-lg">
             <span className="text-xs font-bold text-white">Challenge {challengeIdx + 1} / {CHALLENGES.length}</span>
             <StarRow count={stars} total={CHALLENGES.length} />
           </div>
@@ -753,7 +753,7 @@ export function TimeCalendarGame({ width = 720, height = 560, onComplete }: Time
                     setScreen('play');
                   }
                 }}
-                className="px-8 py-3 rounded-2xl bg-white text-indigo-900 font-black text-base shadow-xl hover:scale-105 active:scale-95 transition-all"
+                className="px-8 py-3 rounded-2xl bg-white text-gold-900 font-black text-base shadow-xl hover:scale-105 active:scale-95 transition-all"
               >
                 {slideIdx < TEACHING_SLIDES.length - 1 ? 'Next ➡️' : 'Start Game! 🚀'}
               </button>
@@ -770,9 +770,9 @@ export function TimeCalendarGame({ width = 720, height = 560, onComplete }: Time
             key={challengeIdx}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-4 shadow-xl border-2 border-indigo-200 mb-6 max-w-xl w-full text-center"
+            className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-4 shadow-xl border-2 border-gold-200 mb-6 max-w-xl w-full text-center"
           >
-            <h3 className="text-lg font-black text-indigo-950">{currentChallenge.question}</h3>
+            <h3 className="text-lg font-black text-gold-950">{currentChallenge.question}</h3>
           </motion.div>
 
           {/* Multiple Choice Challenge */}
@@ -844,7 +844,7 @@ export function TimeCalendarGame({ width = 720, height = 560, onComplete }: Time
             animate={{ scale: 1 }}
             className="mt-6 bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-4 border-amber-400 max-w-md w-full"
           >
-            <h2 className="text-3xl font-black text-indigo-900 mb-2">Time Master! 🎉</h2>
+            <h2 className="text-3xl font-black text-gold-900 mb-2">Time Master! 🎉</h2>
             <p className="text-sm font-bold text-gray-700 mb-6">You have mastered calendars, clocks, AM/PM, and time conversions like a true champion!</p>
             <button
               onClick={() => {
@@ -889,13 +889,13 @@ export function TimeCalendarGame({ width = 720, height = 560, onComplete }: Time
 
       {/* Bottom Footer Bar */}
       <div className="relative z-10 w-full px-6 pb-4 flex items-center justify-between">
-        <span className="text-xs font-bold text-indigo-200">CISCE Class 3 • Mathematics</span>
+        <span className="text-xs font-bold text-gold-200">CISCE Class 3 • Mathematics</span>
         <button
           onClick={() => {
             audioManager.play('tap');
             setScreen(screen === 'teaching' ? 'play' : 'teaching');
           }}
-          className="px-4 py-2 rounded-xl bg-indigo-950/80 hover:bg-indigo-950 text-amber-300 text-xs font-black backdrop-blur-md border border-amber-400/30 shadow-md transition-all"
+          className="px-4 py-2 rounded-xl bg-gold-950/80 hover:bg-gold-950 text-amber-300 text-xs font-black backdrop-blur-md border border-amber-400/30 shadow-md transition-all"
         >
           {screen === 'teaching' ? 'Skip to Play 🎮' : 'Review Rules 📖'}
         </button>

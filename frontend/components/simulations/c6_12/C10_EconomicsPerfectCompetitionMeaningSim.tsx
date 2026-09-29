@@ -1135,7 +1135,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
             className={`px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase border shadow-md ${
               difficulty === 'foundation' ? 'bg-emerald-900/60 border-emerald-500 text-emerald-300' :
               difficulty === 'advanced' ? 'bg-rose-900/60 border-rose-500 text-rose-300' :
-              'bg-cyan-900/60 border-cyan-500 text-cyan-300'
+              'bg-gold-900/60 border-gold-500 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1150,7 +1150,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
 
           <motion.span
             whileHover={{ scale: 1.05 }}
-            className="px-3 py-1.5 rounded-full text-xs font-semibold bg-indigo-950/80 text-indigo-300 border border-indigo-700 shadow"
+            className="px-3 py-1.5 rounded-full text-xs font-semibold bg-gold-950/80 text-gold-300 border border-gold-700 shadow"
           >
             Score: {scoreBreakdown.correct}/{scoreBreakdown.total}
           </motion.span>
@@ -1180,7 +1180,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
             <motion.div
               initial={{ scale: 0.98, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="p-6 bg-gradient-to-br from-emerald-950/50 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-800/60 shadow-lg"
+              className="p-6 bg-gradient-to-br from-emerald-950/50 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-800/60 shadow-lg"
             >
               <h2 className="text-lg font-bold text-emerald-300 flex items-center gap-2">
                 <span>🌾</span> {SCENARIO.title}
@@ -1346,7 +1346,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                       <span>Farmer Harjit’s Output: {farmerOutput} Quintals</span>
-                      <span className="text-cyan-400 font-mono">Total Revenue: ₹{(mandiPrice * farmerOutput).toLocaleString('en-IN')}</span>
+                      <span className="text-gold-400 font-mono">Total Revenue: ₹{(mandiPrice * farmerOutput).toLocaleString('en-IN')}</span>
                     </div>
                     <input
                       type="range"
@@ -1356,7 +1356,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                       value={farmerOutput}
                       aria-label="Farmer Output Slider"
                       onChange={(e) => setFarmerOutput(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1437,7 +1437,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                   >
                     <div className="flex justify-between text-xs text-slate-300">
                       <span>Indian Telecom Dominant Rivals: {rivalCount} Firms (Jio, Airtel, Vi)</span>
-                      <span className="text-cyan-400 font-semibold">TRAI ~89% Market Control</span>
+                      <span className="text-gold-400 font-semibold">TRAI ~89% Market Control</span>
                     </div>
                     <input
                       type="range"
@@ -1446,7 +1446,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                       value={rivalCount}
                       aria-label="Rivals Count Slider"
                       onChange={(e) => setRivalCount(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                     <p className="text-xs text-slate-400">
                       <strong>Mutual Interdependence:</strong> If Jio slashes 4G prices, Airtel ({Math.round(100 / rivalCount)}% market share) matches immediately to prevent mass churn.
@@ -1595,7 +1595,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                   </div>
                   <div className="text-right">
                     <span className="text-xs text-slate-400">Current Repo Rate:</span>
-                    <p className="text-lg font-black text-cyan-400">{simRepoRate}%</p>
+                    <p className="text-lg font-black text-gold-400">{simRepoRate}%</p>
                   </div>
                 </div>
 
@@ -1607,7 +1607,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                   value={simRepoRate}
                   aria-label="Repo Rate Slider"
                   onChange={(e) => setSimRepoRate(Number(e.target.value))}
-                  className="w-full accent-cyan-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
 
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -1749,7 +1749,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                       value={simRawInputGST}
                       aria-label="Input GST Slider"
                       onChange={(e) => setSimRawInputGST(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1776,7 +1776,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                 >
                   <div className="text-xs space-y-1">
                     <p className="text-slate-400">Total Output Tax Liability: ₹{simFinishedOutputGST.toLocaleString('en-IN')}</p>
-                    <p className="text-indigo-400 font-semibold">(-) Input Tax Credit (ITC Offset): ₹{simRawInputGST.toLocaleString('en-IN')}</p>
+                    <p className="text-gold-400 font-semibold">(-) Input Tax Credit (ITC Offset): ₹{simRawInputGST.toLocaleString('en-IN')}</p>
                   </div>
                   <div className="text-right">
                     <span className="text-xs text-slate-400 uppercase font-bold">Net Remitted to Government:</span>
@@ -1791,9 +1791,9 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/40 rounded-2xl border border-indigo-900/50 space-y-3"
+              className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-2xl border border-gold-900/50 space-y-3"
             >
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Scientific Predict-Then-Check Protocol
               </span>
               {!predictionMade ? (
@@ -1809,7 +1809,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                         aria-label={`Prediction Option: ${opt}`}
                         className="p-3 text-left rounded-xl bg-slate-800/70 hover:bg-slate-750 text-xs text-slate-200 border border-slate-700 transition-colors"
                       >
-                        <span className="font-bold mr-1 text-cyan-400">[{idx + 1}]</span> {opt}
+                        <span className="font-bold mr-1 text-gold-400">[{idx + 1}]</span> {opt}
                       </motion.button>
                     ))}
                   </div>
@@ -1863,7 +1863,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                 whileHover={{ scale: 1.02 }}
                 className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3"
               >
-                <span className="text-xs font-bold text-cyan-400 uppercase">1. Mandi Wheat Price</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">1. Mandi Wheat Price</span>
                 <input
                   type="range"
                   min={1500}
@@ -1871,7 +1871,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                   value={mandiPrice}
                   aria-label="Sandbox Mandi Price"
                   onChange={(e) => setMandiPrice(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
                 <p className="text-xs text-slate-300 font-mono">MSP: ₹{mandiPrice} | Farm Rev: ₹{(mandiPrice * farmerOutput).toLocaleString('en-IN')}</p>
               </motion.div>
@@ -1934,7 +1934,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
               </div>
               <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500"
+                  className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-gold-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.35 }}
                 />
@@ -1987,7 +1987,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2050,7 +2050,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                       whileTap={{ scale: 0.985 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-900 flex items-center justify-center text-[10px] font-bold text-cyan-400">
+                      <span className="w-6 h-6 rounded-full bg-slate-900 flex items-center justify-center text-[10px] font-bold text-gold-400">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -2100,7 +2100,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
               {/* E. CONSTRUCT CHALLENGE */}
               {challenge.type === 'construct' && challenge.availableParts && (
                 <div className="space-y-4">
-                  <p className="text-xs text-cyan-400 font-semibold">{challenge.validationHint}</p>
+                  <p className="text-xs text-gold-400 font-semibold">{challenge.validationHint}</p>
                   <div className="flex flex-wrap gap-2">
                     {challenge.availableParts.map((part, idx) => (
                       <motion.button
@@ -2109,7 +2109,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(p => [...p, part])}
                         aria-label={`Add part: ${part}`}
-                        className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-lg text-xs font-bold text-white shadow"
+                        className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-lg text-xs font-bold text-white shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2222,7 +2222,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
             <motion.div
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="p-8 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-3xl border border-emerald-600/60 shadow-2xl text-center space-y-4"
+              className="p-8 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-3xl border border-emerald-600/60 shadow-2xl text-center space-y-4"
             >
               <motion.span
                 animate={{ rotate: [0, 10, -10, 0], scale: [1, 1.15, 1] }}
@@ -2248,18 +2248,18 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-900/60 space-y-4 shadow-xl"
+              className="p-6 bg-slate-900/90 rounded-2xl border border-gold-900/60 space-y-4 shadow-xl"
             >
               <div className="flex items-center justify-between border-b border-slate-800 pb-3">
                 <div>
-                  <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                     <span>🧠</span> Post-Simulation Metacognitive Reflection
                   </h3>
                   <p className="text-xs text-slate-400 mt-0.5">
                     Consolidate conceptual schemas into long-term memory through structured reflection.
                   </p>
                 </div>
-                <span className="text-xs font-semibold px-2.5 py-1 bg-indigo-950 text-indigo-400 rounded-lg border border-indigo-800">
+                <span className="text-xs font-semibold px-2.5 py-1 bg-gold-950 text-gold-400 rounded-lg border border-gold-800">
                   3 Prompts
                 </span>
               </div>
@@ -2279,7 +2279,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                       placeholder={`${prompt.starter} (e.g. "${prompt.example}")`}
                       disabled={reflectionSubmitted}
                       aria-label={prompt.question}
-                      className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-600 focus:border-indigo-500 outline-none resize-none"
+                      className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-600 focus:border-gold-500 outline-none resize-none"
                     />
                   </motion.div>
                 ))}
@@ -2292,7 +2292,7 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleReflectionSubmit}
                     aria-label="Submit Reflection Responses"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg transition-all"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg transition-all"
                   >
                     Save Reflection Notes & Earn Long-Term Retention Badge 🎖️
                   </motion.button>
@@ -2357,16 +2357,16 @@ function C10_EconomicsPerfectCompetitionMeaningSim({
             {/* Real-World Activity */}
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-6 bg-indigo-950/40 border border-indigo-900/50 rounded-2xl space-y-3"
+              className="p-6 bg-gold-950/40 border border-gold-900/50 rounded-2xl space-y-3"
             >
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                 🌟 {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((st, idx) => (
                   <li key={idx} className="flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{idx + 1}.</span> {st}
+                    <span className="text-gold-400 font-bold">{idx + 1}.</span> {st}
                   </li>
                 ))}
               </ul>

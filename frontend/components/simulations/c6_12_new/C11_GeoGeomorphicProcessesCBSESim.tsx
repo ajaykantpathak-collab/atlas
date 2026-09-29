@@ -1423,7 +1423,7 @@ export const C11_GeoGeomorphicProcessesCBSESim: React.FC<Props> = ({ onComplete,
             {/* Prediction Questions */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-xl space-y-6">
               <h3 className="text-md font-bold text-white flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-sky-400" />
+                <span className="w-2 h-2 rounded-full bg-gold-400" />
                 Formulate Lab Predictions
               </h3>
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1439,7 +1439,7 @@ export const C11_GeoGeomorphicProcessesCBSESim: React.FC<Props> = ({ onComplete,
                         }}
                         className={`p-2.5 text-xs text-left rounded border transition-all ${
                           predictionAnswers[pIdx] === oIdx
-                            ? 'bg-sky-950 border-sky-500 text-sky-200'
+                            ? 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1575,7 +1575,7 @@ export const C11_GeoGeomorphicProcessesCBSESim: React.FC<Props> = ({ onComplete,
               <div>
                 <div className="flex justify-between text-xs mb-1">
                   <span className="text-slate-300 font-semibold">Annual Rainfall (Exogenic agent)</span>
-                  <span className="text-sky-400 font-mono">{rainfall} cm/year</span>
+                  <span className="text-gold-400 font-mono">{rainfall} cm/year</span>
                 </div>
                 <input
                   type="range"
@@ -1583,7 +1583,7 @@ export const C11_GeoGeomorphicProcessesCBSESim: React.FC<Props> = ({ onComplete,
                   max="200"
                   value={rainfall}
                   onChange={e => setRainfall(parseInt(e.target.value))}
-                  className="w-full accent-sky-500 bg-slate-950"
+                  className="w-full accent-gold-500 bg-slate-950"
                 />
               </div>
 

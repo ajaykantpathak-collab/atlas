@@ -89,7 +89,7 @@ export default function TeachCard({ card }: { card: TeachCardContent }) {
 
         {dq && da && (
           <div className="rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3">
-            <div className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-sky-300/90">
+            <div className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-gold-300/90">
               <Sparkles className="h-3 w-3" /> Quick check
             </div>
             <p className="text-sm text-white/85">{dq}</p>

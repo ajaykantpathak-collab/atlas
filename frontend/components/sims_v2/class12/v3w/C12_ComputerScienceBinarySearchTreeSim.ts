@@ -11,7 +11,7 @@ export const w_c12_computersciencebinarysearchtreesim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Recursive Functions: Concept and Examples',
     chapters: [],
     nodeIds: ['c12_cs_cbse_09_008', 'c12_cs_cbse_11_012', 'c12_cs_cbse_08_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing in a queue and want to know your position from the front.', goal: 'Master Recursive Functions: Concept and Examples.' },
     discovery: {
         question: 'Explain in your own words why a recursive function must have a base case and why each recursive call must progress toward that base case.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencebinarysearchtreesim: SimDef = {
         hook: 'Students often treat recursion as a magical loop and write the recursive call without ensuring the argument moves.',
     },
     teaching: [
-        { title: 'A recursive function in Python is a function.', text: 'A recursive function in Python is a function that calls itself during its execution to solve a problem by breaking it down into smaller instances of the same problem, with a mandatory base case that.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A recursive function in Python is a function.', text: 'A recursive function in Python is a function that calls itself during its execution to solve a problem by breaking it down into smaller instances of the same problem, with a mandatory base case that.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_09_008', title: 'A recursive function in Python is a.',

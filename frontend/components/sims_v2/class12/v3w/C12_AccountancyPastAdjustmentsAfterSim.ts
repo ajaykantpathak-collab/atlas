@@ -11,11 +11,11 @@ export const w_c12_accountancypastadjustmentsaftersim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'Profit and Loss Appropriation Account: Preparation and Format',
     chapters: [],
     nodeIds: ['c12_acc_cbse_01_005', 'c12_acc_cbse_01_008', 'c12_acc_cbse_02_003', 'c12_acc_cbse_01_007', 'c12_acc_cbse_01_010', 'c12_acc_cbse_01_011', 'c12_acc_cbse_02_008', 'c12_acc_cbse_02_009', 'c12_acc_cbse_02_010', 'c12_acc_cbse_02_011', 'c12_acc_cbse_07_010', 'c12_acc_cbse_07_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you and two friends run a bakery partnership. At year-end, your Profit & Loss Account shows ₹5,00,000.', goal: 'Master Profit and Loss Appropriation Account: Preparation and Format.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The Profit and Loss Appropriation Account is.', text: 'The Profit and Loss Appropriation Account is a nominal account prepared by partnership firms to show how the net profit (or loss) earned during an accounting period is distributed among partners.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Profit and Loss Appropriation Account is.', text: 'The Profit and Loss Appropriation Account is a nominal account prepared by partnership firms to show how the net profit (or loss) earned during an accounting period is distributed among partners.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_01_005', title: 'The Profit and Loss Appropriation.',

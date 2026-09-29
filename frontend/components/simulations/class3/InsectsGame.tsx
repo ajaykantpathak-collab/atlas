@@ -84,7 +84,7 @@ const TEACHING_SLIDES = [
     title: 'Bug Explorers & Remedies! 🧼',
     text: 'We protect ourselves with simple remedies! Keep surroundings clean, cover food, use mosquito nets, remove stagnant water so mosquitoes cannot breed, and protect helpful bees!',
     emoji: '💧',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'We protect ourselves with simple remedies! Keep surroundings clean, cover food, use mosquito nets, remove stagnant water, and protect helpful bees!',
   },
 ];

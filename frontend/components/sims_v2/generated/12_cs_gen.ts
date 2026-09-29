@@ -360,16 +360,58 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the maximum decimal value of the first octet in a Class A IPv4 address, and which bit pattern in the first octet defines Class A?",
-    "answer": "The maximum first-octet value for Class A is 127; Class A is defined by a leading bit of 0 (i.e., first octet 0xxxxxxx in binary)",
-    "options": [
-     "The three fundamental needs are: (1) Resource sharing — e.g., multiple computers in a lab accessing a single network printer",
-     "The three are Twisted Pair (pairs of insulated copper wires twisted together), Coaxial Cable (central conductor, dielectric insulator, braided metal shield, outer jacket)",
-     "The maximum first-octet value for Class A is 127; Class A is defined by a leading bit of 0 (i.e., first octet 0xxxxxxx in binary)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify its class by examining the first",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "determine whether the address",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "state the default subnet mask and the number",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "compute the network address and broadcast",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'IPv4 address' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"128\" or \"leading bits 10\" reveals the student is confusing Class A with Class B boundaries or misremembering the binary-to-decimal conversion for the most significant bit.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Given any IPv4 address in dotted-decimal form, the student must correctly: (1) identify its class by examining the",
     "id": "gen_c12_cs_ch01_q6",
     "nodeId": "c12_cs_cbse_01_006",
     "difficulty": "standard",
@@ -387,7 +429,7 @@ export const C12_CS_GEN: SimDef[] = [
     "options": [
      "Only the *source* fragments in IPv6 — routers do NOT fragment. The packet will be dropped and an ICMPv6 Packet Too Big message sent back",
      "No. The firewall's rule \"allow incoming only as replies to internal requests\" means it tracks outgoing requests in its state table and permits incoming packets matching those",
-     "Port expansion: 2001:0db8:0000:0000:0000:0000:0000:0001 (8 hextets)",
+     "SNR expansion: 2001:0db8:0000:0000:0000:0000:0000:0001 (8 hextets)",
      "Full expansion: 2001:0db8:0000:0000:0000:0000:0000:0001 (8 hextets)"
     ],
     "hint": "Straight from the 'IPv6' slide -- match the key terms.",
@@ -408,7 +450,7 @@ export const C12_CS_GEN: SimDef[] = [
     "answer": "DNS stands for Domain Name System. Its primary function is to translate human-readable domain names (like www",
     "options": [
      "The three are Twisted Pair (pairs of insulated copper wires twisted together), Coaxial Cable (central conductor, dielectric insulator, braided metal shield, outer jacket)",
-     "Microwaves: 300 MHz – 300 GHz (commonly 1–40 GHz for terrestrial links). Propagation: Line-of-sight (space wave)",
+     "The student must be able to (1) trace the step-by-step DNS resolution process from a browser request to the final IP address",
      "DNS stands for Domain Name System. Its primary function is to translate human-readable domain names (like www"
     ],
     "hint": "Straight from the 'Domain Name System' slide -- match the key terms.",
@@ -623,6 +665,109 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why twisting reduces crosstalk",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "label a cross‑section diagram of each medium",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "compare the three media on bandwidth",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) label a cross‑section diagram of each medium identifying core, cladding, shield, insulation, and",
+    "id": "gen_c12_cs_ch01_q13",
+    "nodeId": "c12_cs_cbse_01_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Compare bandwidth",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Calculate satellite link latency for GEO vs",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Explain why microwave links require",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "Classify unguided media by frequency band",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Classify unguided media by frequency band and propagation mode with correct frequency ranges; (2)",
+    "id": "gen_c12_cs_ch01_q14",
+    "nodeId": "c12_cs_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Design a hybrid architecture for a video-on-demand platform that uses Client-Server for metadata/search and P2P for video chunk delivery. Sketch the data flow for a user requesting a movie, labeling components and protocols at each step.",
     "sortItems": [
      {
@@ -685,7 +830,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer omits the metadata server, assumes pure P2P discovery (ignoring bootstrap), or misses that chunk verification requires trusted hashes from the central server.",
-    "id": "gen_c12_cs_ch01_q13",
+    "id": "gen_c12_cs_ch01_q15",
     "nodeId": "c12_cs_cbse_01_009",
     "difficulty": "standard"
    },
@@ -731,7 +876,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting the statement confuses network topology (P2P gossip) with governance and economic centralization — a critical distinction in distributed systems.",
-    "id": "gen_c12_cs_ch01_q14",
+    "id": "gen_c12_cs_ch01_q16",
     "nodeId": "c12_cs_cbse_01_009",
     "difficulty": "standard"
    },
@@ -746,7 +891,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
     "misconception": "A poor answer that says \"Bluetooth for everything\" ignores bandwidth/range limits for ultrasound video and shows inability to match protocol to requirement — a skill tested in board competency questions.",
-    "id": "gen_c12_cs_ch01_q15",
+    "id": "gen_c12_cs_ch01_q17",
     "nodeId": "c12_cs_cbse_01_001",
     "difficulty": "standard"
    },
@@ -761,38 +906,8 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Steps: (1) Physically connect the new computer to the switch using a network cable (link establishment).",
-    "id": "gen_c12_cs_ch01_q16",
-    "nodeId": "c12_cs_cbse_01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What are the three fundamental needs that motivate the creation of a computer network? State each need in one phrase and give a distinct real-world example for each.",
-    "answer": "The three fundamental needs are: (1) Resource sharing — e.g., multiple computers in a lab accessing a single network printer",
-    "options": [
-     "Microwaves: 300 MHz – 300 GHz (commonly 1–40 GHz for terrestrial links). Propagation: Line-of-sight (space wave)",
-     "The maximum first-octet value for Class A is 127; Class A is defined by a leading bit of 0 (i.e., first octet 0xxxxxxx in binary)",
-     "The three fundamental needs are: (1) Resource sharing — e.g., multiple computers in a lab accessing a single network printer"
-    ],
-    "hint": "Straight from the 'computer network' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only \"sharing files\" or \"internet access\" reveals the student conflates specific applications with the underlying abstract needs, and cannot generalise to new scenarios like cloud gaming or IoT sensor networks.",
-    "id": "gen_c12_cs_ch01_q17",
-    "nodeId": "c12_cs_cbse_01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A company has offices in three buildings within a 1.5 km radius on the same campus. They want to interconnect all computers with high speed (1 Gbps), low latency, and full control over the infrastructure. Which network type should they implement? Justify your choice with three specific reasons.",
-    "answer": "They should implement a LAN (specifically a Campus Area Network, a LAN variant). Reasons: (1) Geographical span 1",
-    "options": [
-     "The statement is incorrect. 172.16.255.255 is a valid host address in the Class B network 172.16.0",
-     "(a) Class C (first octet 203 → 192–223). (b) Default mask: 255.255.255.0 or /24. (c) Network address: 203",
-     "They should implement a LAN (specifically a Campus Area Network, a LAN variant). Reasons: (1) Geographical span 1"
-    ],
-    "hint": "Straight from the 'computer network' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing MAN reveals misunderstanding that MAN implies third-party/provider ownership and typically spans a city, not a single campus.",
     "id": "gen_c12_cs_ch01_q18",
-    "nodeId": "c12_cs_cbse_01_002",
+    "nodeId": "c12_cs_cbse_01_001",
     "difficulty": "standard"
    }
   ],
@@ -913,8 +1028,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the exact definition of 'network topology' as per the CBSE Class 12 Computer Science curriculum? Use the terms 'nodes' and 'links' in your answer.",
     "answer": "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network",
     "options": [
-     "Circuit switching establishes a dedicated physical path (or logical channel) between endpoints for the entire session duration, reserving bandwidth continuously",
-     "IPv4 address: 32 bits, written as four decimal octets separated by dots (e.g., 192.168.1.10). MAC address: 48 bits",
+     "Network protocols are standardized rules governing communication between devices over a network",
+     "Application → Transport → Internet → Network Access (also called Link or Network Interface layer)",
      "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network"
     ],
     "hint": "Straight from the 'Network topology' slide -- match the key terms.",
@@ -1137,16 +1252,58 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "List the four layers of the TCP/IP model in order from the top (closest to the user application) to the bottom (closest to the physical medium).",
-    "answer": "Application → Transport → Internet → Network Access (also called Link or Network Interface layer)",
-    "options": [
-     "IPv4 address: 32 bits, written as four decimal octets separated by dots (e.g., 192.168.1.10). MAC address: 48 bits",
-     "Circuit switching establishes a dedicated physical path (or logical channel) between endpoints for the entire session duration, reserving bandwidth continuously",
-     "Application → Transport → Internet → Network Access (also called Link or Network Interface layer)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "contrast the TCP/IP",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "name all four layers of the TCP/IP model",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how data encapsulation proceeds down",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "state the primary function and at least two",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'TCP/IP  protocol suite' slide -- match the key terms.",
-    "misconception": "A wrong answer such as \"Physical, Data Link, Network, Transport\" reveals the student is confusing the TCP/IP model with the OSI 7-layer model or reversing the layer order. Another common error is inserting \"Session\" or \"Presentation\" as separate layers, which exist only in OSI, not TCP/IP.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) name all four layers of the TCP/IP model in correct order from top to bottom, (2)",
     "id": "gen_c12_cs_ch02_q7",
     "nodeId": "c12_cs_cbse_02_007",
     "difficulty": "standard",
@@ -1158,16 +1315,47 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary function of SMTP in email communication, and on which default port does it operate?",
-    "answer": "SMTP is used for sending emails from a client to a server or between servers; its default port is 25 (port 587 is used for mail submission with authentication)",
-    "options": [
-     "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network",
-     "Application → Transport → Internet → Network Access (also called Link or Network Interface layer)",
-     "SMTP is used for sending emails from a client to a server or between servers; its default port is 25 (port 587 is used for mail submission with authentication)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "state the default port numbers for SMTP",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify the correct protocol for a given",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "compare POP3 and IMAP in terms of message",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Email protocols' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., saying SMTP receives emails or uses port 110) reveals confusion between sending and receiving protocols and port numbers.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify the correct protocol for a given email operation (sending vs.",
     "id": "gen_c12_cs_ch02_q8",
     "nodeId": "c12_cs_cbse_02_008",
     "difficulty": "standard",
@@ -1183,8 +1371,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the defining characteristic of circuit switching that distinguishes it from packet switching?",
     "answer": "Circuit switching establishes a dedicated physical path (or logical channel) between endpoints for the entire session duration, reserving bandwidth continuously",
     "options": [
+     "The student can (1) explain the fundamental operational difference between circuit and packet switching using the concepts of resource reservation vs",
      "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network",
-     "Application → Transport → Internet → Network Access (also called Link or Network Interface layer)",
      "Circuit switching establishes a dedicated physical path (or logical channel) between endpoints for the entire session duration, reserving bandwidth continuously"
     ],
     "hint": "Straight from the 'Circuit switching establishes a' slide -- match the key terms.",
@@ -1204,11 +1392,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "State the bit-length and typical textual representation of an IPv4 address and a MAC address.",
     "answer": "IPv4 address: 32 bits, written as four decimal octets separated by dots (e.g., 192.168.1.10). MAC address: 48 bits",
     "options": [
-     "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network",
-     "Application → Transport → Internet → Network Access (also called Link or Network Interface layer)",
+     "The student can correctly identify whether a given address is MAC or IP based on format and length",
+     "The student must be able to: (1) Compare HTTP, HTTPS, and FTP across dimensions of purpose, port numbers, security, connection model, and typical use cases in a structured table",
      "IPv4 address: 32 bits, written as four decimal octets separated by dots (e.g., 192.168.1.10). MAC address: 48 bits"
     ],
-    "hint": "Straight from the 'MAC  address' slide -- match the key terms.",
+    "hint": "Straight from the 'MAC address' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying MAC is 32 bits or IP is hexadecimal) reveals confusion between the two address formats and their underlying bit-lengths, which leads to errors in identifying addresses in packet captures or configuration tasks.",
     "id": "gen_c12_cs_ch02_q10",
     "nodeId": "c12_cs_cbse_02_010",
@@ -1517,16 +1705,47 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Identify the tag, element, and attribute in this snippet: <img src=\"photo.jpg\" alt=\"My photo\">",
-    "answer": "Tag: <img> (self-closing tag). Element: the entire <img src=\"photo.jpg\" alt=\"My photo\"> (since void elements have no closing tag, the element is just the tag with its attributes)",
-    "options": [
-     "The default marker is a solid disc (bullet). To change it to squares, use the CSS property list-style-type: square;",
-     "Correct order: <table> → <tr> → <th> or <td> → cell content",
-     "Tag: <img> (self-closing tag). Element: the entire <img src=\"photo.jpg\" alt=\"My photo\"> (since void elements have no closing tag, the element is just the tag with its attributes)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why missing closing tags or",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "write a valid HTML5 document skeleton",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between a tag",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'HTML  uses tags' slide -- match the key terms.",
-    "misconception": "A wrong answer like calling src a \"tag\" or saying the element is just photo.jpg reveals confusion between the three vocabulary terms — students often conflate the attribute name with the tag name, or think the attribute value is the element content.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between a tag, an element, and an attribute in any given HTML snippet, (2) write a",
     "id": "gen_c12_cs_ch03_q2",
     "nodeId": "c12_cs_cbse_03_002",
     "difficulty": "standard",
@@ -1594,8 +1813,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the default marker style for an unordered list (<ul>) in HTML5, and which CSS property would you use to change it to squares?",
     "answer": "The default marker is a solid disc (bullet). To change it to squares, use the CSS property list-style-type: square;",
     "options": [
-     "The name attribute assigns a unique identifier to the input field so that when the form is submitted, the server can associate the submitted value with that field (e",
-     "h1 { color: red; font-size: 24px; }",
+     "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and layout of HTML documents",
+     "CSS Selectors are patterns used to target specific HTML elements for styling, while CSS Properties are the style attributes (such as color, font-size",
      "The default marker is a solid disc (bullet). To change it to squares, use the CSS property list-style-type: square;"
     ],
     "hint": "Straight from the 'HTML lists' slide -- match the key terms.",
@@ -1615,8 +1834,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the correct hierarchical order of HTML table tags from outermost container to innermost cell content?",
     "answer": "Correct order: <table> → <tr> → <th> or <td> → cell content",
     "options": [
-     "h1 { color: red; font-size: 24px; }",
-     "The primary function of DNS is to translate human-readable domain names (e.g., example.com) into machine-readable IP addresses (e",
+     "The student must be able to (1) distinguish between Web 1.0 and Web 2.0 characteristics with concrete examples, (2) explain the role of key technologies (HTML, CSS, JavaScript",
+     "HTML lists are semantic container elements that group related items in a specific order (ordered list <ol>), without implied sequence (unordered list <ul>)",
      "Correct order: <table> → <tr> → <th> or <td> → cell content"
     ],
     "hint": "Straight from the 'HTML table' slide -- match the key terms.",
@@ -1710,8 +1929,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the correct syntax for a CSS rule that makes all <h1> elements have red text and a font size of 24 pixels?",
     "answer": "h1 { color: red; font-size: 24px; }",
     "options": [
-     "Tag: <img> (self-closing tag). Element: the entire <img src=\"photo.jpg\" alt=\"My photo\"> (since void elements have no closing tag, the element is just the tag with its attributes)",
      "Correct order: <table> → <tr> → <th> or <td> → cell content",
+     "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and layout of HTML documents",
      "h1 { color: red; font-size: 24px; }"
     ],
     "hint": "Straight from the 'CSS' slide -- match the key terms.",
@@ -1752,8 +1971,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the primary function of the Domain Name System (DNS) in the context of web hosting?",
     "answer": "The primary function of DNS is to translate human-readable domain names (e.g., example.com) into machine-readable IP addresses (e",
     "options": [
-     "h1 { color: red; font-size: 24px; }",
-     "The name attribute assigns a unique identifier to the input field so that when the form is submitted, the server can associate the submitted value with that field (e",
+     "The student must be able to (1) distinguish between Web 1.0 and Web 2.0 characteristics with concrete examples, (2) explain the role of key technologies (HTML, CSS, JavaScript",
+     "False. Web 2.0 is not a protocol; it is a design philosophy and set of practices that use existing protocols (HTTP/HTTPS) to enable interactivity, user-generated content",
      "The primary function of DNS is to translate human-readable domain names (e.g., example.com) into machine-readable IP addresses (e"
     ],
     "hint": "Straight from the 'Web hosting' slide -- match the key terms.",
@@ -1821,6 +2040,52 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the role of key technologies",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between Web 1.0 and Web 2.0",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "identify whether a given real-world website",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) distinguish between Web 1.0 and Web 2.",
+    "id": "gen_c12_cs_ch03_q11",
+    "nodeId": "c12_cs_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student claims: \"Google Search is a Web 1.0 service because it only shows links to other pages.\" Explain why this classification is incorrect, referencing at least two Web 2.0 characteristics Google exhibits.",
     "answer": "Google Search is a Web 2.0 service because (1) it heavily relies on user-generated data (clicks, links, behavior) to improve rankings via PageRank and machine learning",
@@ -1831,7 +2096,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student equates \"showing links\" with static content, missing that the *backend intelligence* and *frontend interactivity* are Web 2.0 hallmarks.",
-    "id": "gen_c12_cs_ch03_q11",
+    "id": "gen_c12_cs_ch03_q12",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1846,7 +2111,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"Web 2.0 is just more HTML\" misses the fundamental shift to application logic + persistent state on the server.",
-    "id": "gen_c12_cs_ch03_q12",
+    "id": "gen_c12_cs_ch03_q13",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1861,7 +2126,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., attributing live updates to \"HTML5\" or reviews to \"CSS\") reveals confusion between *presentation* and *data-driven interaction* layers.",
-    "id": "gen_c12_cs_ch03_q13",
+    "id": "gen_c12_cs_ch03_q14",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1876,7 +2141,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A poor answer that puts all logic in HTML/JS (no server, no database) shows the student hasn't grasped the client-server-data triad essential to Web 2.0.",
-    "id": "gen_c12_cs_ch03_q14",
+    "id": "gen_c12_cs_ch03_q15",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1891,7 +2156,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates *authoring tools* with *output format* — a dangerous misconception that leads to inaccessible, poorly indexed web applications.",
-    "id": "gen_c12_cs_ch03_q15",
+    "id": "gen_c12_cs_ch03_q16",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1900,44 +2165,29 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "State whether the following is true or false: \"Web 2.0 is a separate technical protocol that replaced HTTP.\"",
     "answer": "False. Web 2.0 is not a protocol; it is a design philosophy and set of practices that use existing protocols (HTTP/HTTPS) to enable interactivity, user-generated content",
     "options": [
-     "Tag: <img> (self-closing tag). Element: the entire <img src=\"photo.jpg\" alt=\"My photo\"> (since void elements have no closing tag, the element is just the tag with its attributes)",
-     "The default marker is a solid disc (bullet). To change it to squares, use the CSS property list-style-type: square;",
+     "The student must be able to (1) distinguish between Web 1.0 and Web 2.0 characteristics with concrete examples, (2) explain the role of key technologies (HTML, CSS, JavaScript",
+     "Web hosting is a service that allows individuals and organizations to make their website accessible via the World Wide Web by storing website files on a server connected to the",
      "False. Web 2.0 is not a protocol; it is a design philosophy and set of practices that use existing protocols (HTTP/HTTPS) to enable interactivity, user-generated content"
     ],
     "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student confuses the *application layer paradigm* with the *transport protocol*, a common category error that leads to misunderstanding why Web 2.0 sites still use standard URLs and browsers.",
-    "id": "gen_c12_cs_ch03_q16",
+    "id": "gen_c12_cs_ch03_q17",
     "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A student writes <input required=\"false\"> to make a field optional. Evaluate this approach and state the correct way to make an input optional.",
-    "answer": "The approach is wrong. required is a boolean attribute — its presence alone means true; writing required=\"false\" still makes it required because the attribute exists",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to (1) distinguish between Web 1.0 and Web 2.0 characteristics with concrete examples, (2) explain the role of key technologies (HTML, CSS, JavaScript",
     "options": [
-     "<article><section>...</section></article> is correct because <article> represents a self-contained composition (the blog post), while <section> groups thematic content *within* it",
-     "<article class=\"profile-card\" id=\"student-1\"> <header> <img src=\"avatar.png\" alt=\"Student photo\"> <!",
-     "The approach is wrong. required is a boolean attribute — its presence alone means true; writing required=\"false\" still makes it required because the attribute exists"
+     "The student must be able to write complete HTML code to create a table with headers, data rows, merged cells using rowspan/colspan, and correctly apply border, cellpadding",
+     "Tag: <img> (self-closing tag). Element: the entire <img src=\"photo.jpg\" alt=\"My photo\"> (since void elements have no closing tag, the element is just the tag with its attributes)",
+     "The student must be able to (1) distinguish between Web 1.0 and Web 2.0 characteristics with concrete examples, (2) explain the role of key technologies (HTML, CSS, JavaScript"
     ],
-    "hint": "Straight from the 'HTML  uses tags' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The approach is wrong. required is a boolean attribute — its presence alone means true; writing required=\"false\" still",
-    "id": "gen_c12_cs_ch03_q17",
-    "nodeId": "c12_cs_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare these two snippets. Which produces semantically correct structure for a navigation menu and why? A) <div><a href=\"/home\">Home</a> | <a href=\"/about\">About</a></div> B) <nav><a href=\"/home\">Home</a> | <a href=\"/about\">About</a></nav>",
-    "answer": "Snippet B is correct. <nav> is a semantic element that tells browsers, screen readers, and search engines \"this is a navigation section.\" <div> is generic and carries no meaning",
-    "options": [
-     "<dl> uses <dt> (term) and <dd> (description) which are semantically linked; <table> uses <tr>, <th>, <td> for tabular data with rows/columns",
-     "| Aspect | Web 1.0 Blog | Web 2.0 Blog Platform | |--------|--------------|------------------------| | Data Flow | Server → Client only (one-way)",
-     "Snippet B is correct. <nav> is a semantic element that tells browsers, screen readers, and search engines \"this is a navigation section.\" <div> is generic and carries no meaning"
-    ],
-    "hint": "Straight from the 'HTML  uses tags' slide -- match the key terms.",
-    "misconception": "Students who pick A often think \"both look the same\" — missing that semantic HTML affects SEO, accessibility, and maintainability, which CBSE competency questions explicitly test.",
+    "hint": "Straight from the 'World Wide Web' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) distinguish between Web 1.0 and Web 2.",
     "id": "gen_c12_cs_ch03_q18",
-    "nodeId": "c12_cs_cbse_03_002",
+    "nodeId": "c12_cs_cbse_03_001",
     "difficulty": "standard"
    }
   ],
@@ -1953,14 +2203,14 @@ export const C12_CS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_cs_ch04",
-  "title": "Database",
+  "title": "A Database Is An Organized Collection",
   "subtitle": "Computer Science · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "computer science",
-  "topic": "Database",
+  "topic": "A Database Is An Organized Collection",
   "chapters": [
-   "Computer Science Ch4: Database"
+   "Computer Science Ch4: A Database Is An Organized Collection"
   ],
   "nodeIds": [
    "c12_cs_cbse_04_001",
@@ -1975,7 +2225,7 @@ export const C12_CS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Database actually explain?",
+   "question": "In one line -- what does A Database Is An Organized actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1986,7 +2236,7 @@ export const C12_CS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Database",
+    "title": "A Database Is An Organized Collection",
     "text": "A database is an organized collection of structured data stored electronically in a computer system, typically managed by a Database Management System (DBMS) — software that provides controlled access, efficient retrieval, and secure manipulation of data",
     "emoji": "💻",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2223,7 +2473,7 @@ export const C12_CS_GEN: SimDef[] = [
      "Expected schema: - Movie(MovieID, Title, Genre, Duration) — PK: MovieID; Candidate: {MovieID}; Alternate: N/A (unless Title+Genre unique, but unlikely)",
      "Hidden costs/risks: (1) Development effort: building custom concurrency, recovery, security from scratch is expensive and error-prone"
     ],
-    "hint": "Straight from the 'database' slide -- match the key terms.",
+    "hint": "Straight from the 'A database is an organized' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"DBMS is easier\" without concrete technical trade-offs shows superficial evaluation.",
     "id": "gen_c12_cs_ch04_q6",
     "nodeId": "c12_cs_cbse_04_001",
@@ -2238,7 +2488,7 @@ export const C12_CS_GEN: SimDef[] = [
      "No, because the attributes differ in name, meaning, and domain (EmpID vs ProjID, Name vs Title, Dept vs Budget)",
      "Program-data independence means the physical storage structure (file organization, indexing"
     ],
-    "hint": "Straight from the 'database' slide -- match the key terms.",
+    "hint": "Straight from the 'A database is an organized' slide -- match the key terms.",
     "misconception": "A wrong answer that describes only \"data independence\" without specifying program vs data, or gives an example like \"changing a password\" (which is access control, not structural independence), shows the student misunderstands the level of abstraction the DBMS provides.",
     "id": "gen_c12_cs_ch04_q7",
     "nodeId": "c12_cs_cbse_04_001",
@@ -2292,11 +2542,11 @@ export const C12_CS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about database?",
+    "What surprised you about a database is an organized collection?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Database mastered! 🎯",
+  "successLine": "A Database Is An Organized mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2409,7 +2659,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Subquery",
+    "title": "A Subquery",
     "text": "A subquery (inner query) is a SELECT statement nested inside another SQL statement (outer query) such that the result of the inner query is used by the outer query to further restrict or compute data.",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2473,11 +2723,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the primary purpose of the DDL command CREATE TABLE in SQL, and name two mandatory components required in its syntax?",
     "answer": "The primary purpose of CREATE TABLE is to define a new table structure in the database by specifying column names, data types, and constraints",
     "options": [
-     "String functions — UPPER, LOWER, SUBSTRING, TRIM, CONCAT, LENGTH, LEFT, RIGHT (any four). Date function — YEAR(date)",
-     "The default sort order is ASC (ascending)",
+     "INSERT INTO Employee (EmpID, Name, Dept) VALUES (101, 'Amit', 'IT'); — the column list explicitly names only the three columns being supplied",
+     "The student must be able to write syntactically correct CREATE TABLE statements with appropriate data types and constraints",
      "The primary purpose of CREATE TABLE is to define a new table structure in the database by specifying column names, data types, and constraints"
     ],
-    "hint": "Straight from the 'DDL  commands' slide -- match the key terms.",
+    "hint": "Straight from the 'DDL commands' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying it inserts data or doesn't require data types) reveals confusion between DDL (structure) and DML (data manipulation), or ignorance of SQL's strict typing.",
     "id": "gen_c12_cs_ch05_q2",
     "nodeId": "c12_cs_cbse_05_002",
@@ -2494,11 +2744,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the exact syntax to insert a new row into a table Employee(EmpID, Name, Dept, Salary) providing values only for EmpID, Name, and Dept, assuming Salary has a DEFAULT constraint?",
     "answer": "INSERT INTO Employee (EmpID, Name, Dept) VALUES (101, 'Amit', 'IT'); — the column list explicitly names only the three columns being supplied",
     "options": [
-     "A is equivalent — the old-style comma join with a WHERE equality condition is an implicit INNER JOIN",
      "The primary purpose of CREATE TABLE is to define a new table structure in the database by specifying column names, data types, and constraints",
+     "In MySQL, MODIFY only changes data type/size/constraints; to rename, you must use CHANGE COLUMN old_name new_name definition",
      "INSERT INTO Employee (EmpID, Name, Dept) VALUES (101, 'Amit', 'IT'); — the column list explicitly names only the three columns being supplied"
     ],
-    "hint": "Straight from the 'DML  commands' slide -- match the key terms.",
+    "hint": "Straight from the 'DML commands' slide -- match the key terms.",
     "misconception": "A wrong answer like INSERT INTO Employee VALUES (101, 'Amit', 'IT'); (without column list) reveals the student believes values must be supplied for ALL columns in table order, ignoring DEFAULT handling.",
     "id": "gen_c12_cs_ch05_q3",
     "nodeId": "c12_cs_cbse_05_003",
@@ -2641,11 +2891,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the default sort order when you write ORDER BY column_name without specifying ASC or DESC?",
     "answer": "The default sort order is ASC (ascending)",
     "options": [
-     "The result will contain exactly 2 rows — only the matching pairs",
-     "A is equivalent — the old-style comma join with a WHERE equality condition is an implicit INNER JOIN",
+     "INSERT INTO Employee (EmpID, Name, Dept) VALUES (101, 'Amit', 'IT'); — the column list explicitly names only the three columns being supplied",
+     "The student must be able to write a correct INNER JOIN query for two tables with a single matching column, explain which rows appear in the result and why",
      "The default sort order is ASC (ascending)"
     ],
-    "hint": "Straight from the 'ORDER BY clause sorts the' slide -- match the key terms.",
+    "hint": "Straight from the 'ORDER BY clause sorts' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"DESC\" or \"random\") reveals the student has not memorized the SQL standard default and may assume the database \"guesses\" or uses insertion order — a dangerous misconception because exam questions often test default behavior explicitly.",
     "id": "gen_c12_cs_ch05_q8",
     "nodeId": "c12_cs_cbse_05_008",
@@ -2684,7 +2934,7 @@ export const C12_CS_GEN: SimDef[] = [
     "answer": "The result will contain exactly 2 rows — only the matching pairs",
     "options": [
      "INSERT INTO Employee (EmpID, Name, Dept) VALUES (101, 'Amit', 'IT'); — the column list explicitly names only the three columns being supplied",
-     "String functions — UPPER, LOWER, SUBSTRING, TRIM, CONCAT, LENGTH, LEFT, RIGHT (any four). Date function — YEAR(date)",
+     "The student must independently write correct INSERT, UPDATE, and DELETE statements for a given table schema, including handling NULL values, DEFAULT constraints",
      "The result will contain exactly 2 rows — only the matching pairs"
     ],
     "hint": "Straight from the 'INNER JOIN in SQL combines' slide -- match the key terms.",
@@ -2708,7 +2958,7 @@ export const C12_CS_GEN: SimDef[] = [
      "LEFT JOIN / IS NULL is usually faster because the optimizer can use a single pass with a hash join or merge join",
      "INNER JOIN returns only rows from the left table that have a matching row in the right table based on the join condition"
     ],
-    "hint": "Straight from the 'LEFT JOIN returns all rows from' slide -- match the key terms.",
+    "hint": "Straight from the 'LEFT JOIN returns all rows' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"LEFT JOIN returns only matching rows\") reveals the student confuses LEFT JOIN with INNER JOIN and does not understand the \"preserve left table\" semantics.",
     "id": "gen_c12_cs_ch05_q11",
     "nodeId": "c12_cs_cbse_05_011",
@@ -2729,7 +2979,7 @@ export const C12_CS_GEN: SimDef[] = [
      "Yes, they are logically identical in terms of rows and values: both return all rows from A and matching rows from B, with NULLs for non-matching B columns",
      "A non-correlated subquery does not reference any column from the outer query and executes independently once"
     ],
-    "hint": "Straight from the 'subquery' slide -- match the key terms.",
+    "hint": "Straight from the 'A subquery' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both reference outer columns\") reveals confusion about execution semantics and leads to incorrect performance expectations.",
     "id": "gen_c12_cs_ch05_q12",
     "nodeId": "c12_cs_cbse_05_012",
@@ -2803,6 +3053,21 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What is SQL (Structured Query Language)? State the definition given in this lesson.",
+    "answer": "SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases",
+    "options": [
+     "DDL (Data Definition Language) commands are SQL statements used to define, modify, and remove the structure of database objects such as tables, indexes, and schemas",
+     "The student can write correct SQL queries using LEFT JOIN, RIGHT JOIN, and CROSS JOIN for given relational scenarios",
+     "SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases"
+    ],
+    "hint": "Straight from the 'SQL' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational",
+    "id": "gen_c12_cs_ch05_q17",
+    "nodeId": "c12_cs_cbse_05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "What is the fundamental difference between SQL and MySQL?",
     "answer": "SQL is a language standard (ANSI/ISO) for querying relational databases; MySQL is a specific RDBMS product that implements that language",
     "options": [
@@ -2812,21 +3077,6 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'SQL' slide -- match the key terms.",
     "misconception": "A wrong answer such as “SQL is the software and MySQL is the language” reveals the student has confused the specification with the implementation — a classic Category Error that leads to writing “MySQL queries” when they mean “SQL queries” and causes confusion when switching to PostgreSQL or SQLite later.",
-    "id": "gen_c12_cs_ch05_q17",
-    "nodeId": "c12_cs_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Write the exact sequence of SQL commands to create a database named school_fest, switch to it, create a table participants with columns pid (integer), name (variable string up to 30 characters), class (integer), phone (fixed string of 10 digits), and event (variable string up to 20 characters), and then insert one row",
-    "answer": "CREATE DATABASE school_fest; USE school_fest; CREATE TABLE participants ( pid INT, name VARCHAR(30), class INT, phone CHAR(10), event VARCHAR(20) )",
-    "options": [
-     "The SELECT clause must specify at least one column or *. The fix is SELECT * FROM students; or SELECT column_name FROM students;",
-     "SELECT UPPER(name) AS student_name, YEAR(dob) AS birth_year FROM STUDENT; Steps: (1) Identify columns name and dob",
-     "CREATE DATABASE school_fest; USE school_fest; CREATE TABLE participants ( pid INT, name VARCHAR(30), class INT, phone CHAR(10), event VARCHAR(20) )"
-    ],
-    "hint": "Straight from the 'SQL' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: CREATE DATABASE school_fest; USE school_fest; CREATE TABLE participants ( pid INT, name VARCHAR(30), class INT, phone",
     "id": "gen_c12_cs_ch05_q18",
     "nodeId": "c12_cs_cbse_05_001",
     "difficulty": "standard"
@@ -2901,13 +3151,13 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "A Cursor Object In Python's",
+    "title": "A Cursor Object In Python's Mysql.connector",
     "text": "A cursor object in Python's mysql.connector acts as a control structure that enables traversal and manipulation of database records; it is created by calling the cursor() method on a connection object and used to execute SQL statements via its execute()",
     "emoji": "💻",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Fetchone, Fetchall, And Fetchmany Methods",
+    "title": "Fetchone , Fetchall , And Fetchmany Methods",
     "text": "The fetchone(), fetchall(), and fetchmany(size) methods of a MySQL cursor object retrieve rows from the result set of an executed SELECT query.",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2949,8 +3199,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the primary purpose of a database connector (like mysql-connector-python) in Python-MySQL connectivity?",
     "answer": "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server",
     "options": [
-     "The placeholder is %s for all data types (strings, integers, floats, dates, etc.). mysql.connector handles type conversion internally",
-     "The base class is mysql.connector.Error. Catch mysql.connector.InterfaceError for lost network connection and mysql.connector.ProgrammingError for SQL syntax errors",
+     "Database connectivity refers to the mechanism that allows a Python program to communicate with a database management system (DBMS) like MySQL",
+     "The student must be able to explain the need for database connectivity, list the sequential steps to connect Python with MySQL",
      "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server"
     ],
     "hint": "Straight from the 'Database connectivity' slide -- match the key terms.",
@@ -2970,8 +3220,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the exact pip command to install the official MySQL Connector for Python, and what is the import statement used in Python code to access it?",
     "answer": "The pip command is pip install mysql-connector-python and the import statement is import mysql.connector",
     "options": [
-     "The placeholder is %s for all data types (strings, integers, floats, dates, etc.). mysql.connector handles type conversion internally",
-     "The base class is mysql.connector.Error. Catch mysql.connector.InterfaceError for lost network connection and mysql.connector.ProgrammingError for SQL syntax errors",
+     "The student must be able to write Python code that correctly closes the cursor and connection objects in a mysql",
+     "Connecting to MySQL using mysql.connector is the process of establishing a communication channel between a Python program and a MySQL database server by invoking the mysql",
      "The pip command is pip install mysql-connector-python and the import statement is import mysql.connector"
     ],
     "hint": "Straight from the 'MySQL Connector/Python' slide -- match the key terms.",
@@ -2991,8 +3241,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the exact method name and module used to create a connection to a MySQL database in Python, and what does it return on success?",
     "answer": "The method is mysql.connector.connect() and it returns a MySQLConnection object on success",
     "options": [
-     "1. Install the connector library (e.g., pip install mysql-connector-python). 2. Import the module (import mysql",
-     "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server",
+     "Database connectivity refers to the mechanism that allows a Python program to communicate with a database management system (DBMS) like MySQL",
+     "MySQL Connector/Python is a standardized database driver that enables Python applications to connect to and interact with MySQL databases by implementing the Python Database API",
      "The method is mysql.connector.connect() and it returns a MySQLConnection object on success"
     ],
     "hint": "Straight from the 'Connecting to MySQL using mysql.' slide -- match the key terms.",
@@ -3016,7 +3266,7 @@ export const C12_CS_GEN: SimDef[] = [
      "The pip command is pip install mysql-connector-python and the import statement is import mysql.connector",
      "The method is cursor() (e.g., cur = conn.cursor()). The cursor's primary purpose is to execute SQL statements and manage the result set (for SELECT) or report affected rows (for"
     ],
-    "hint": "Straight from the 'A cursor object in Python's' slide -- match the key terms.",
+    "hint": "Straight from the 'A cursor object in Python's mysql.' slide -- match the key terms.",
     "misconception": "A wrong answer like \"execute() creates the cursor\" or \"cursor stores data permanently\" reveals confusion between connection, cursor, and result set roles.",
     "id": "gen_c12_cs_ch06_q4",
     "nodeId": "c12_cs_cbse_06_004",
@@ -3104,8 +3354,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the default autocommit mode in mysql.connector and what does it imply for each individual SQL statement executed?",
     "answer": "The default autocommit mode in mysql.connector is False. This means each SQL statement is NOT automatically committed; the programmer must explicitly call connection",
     "options": [
-     "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server",
-     "The pip command is pip install mysql-connector-python and the import statement is import mysql.connector",
+     "The base class is mysql.connector.Error. Catch mysql.connector.InterfaceError for lost network connection and mysql.connector.ProgrammingError for SQL syntax errors",
+     "The student must be able to write Python code that creates a cursor from an active MySQL connection, executes a given SQL statement (SELECT, INSERT, UPDATE",
      "The default autocommit mode in mysql.connector is False. This means each SQL statement is NOT automatically committed; the programmer must explicitly call connection"
     ],
     "hint": "Straight from the 'transaction in database' slide -- match the key terms.",
@@ -3125,8 +3375,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What method is used to close a cursor object in mysql.connector? What about the connection object?",
     "answer": "The cursor object uses cursor.close() and the connection object uses connection.close()",
     "options": [
-     "The pip command is pip install mysql-connector-python and the import statement is import mysql.connector",
-     "The placeholder is %s for all data types (strings, integers, floats, dates, etc.). mysql.connector handles type conversion internally",
+     "Closing database connection and resources refers to the explicit release of the cursor and connection objects after database operations are completed, using the close() method",
+     "The student must be able to write Python code that correctly closes the cursor and connection objects in a mysql",
      "The cursor object uses cursor.close() and the connection object uses connection.close()"
     ],
     "hint": "Straight from the 'Closing database connection and' slide -- match the key terms.",
@@ -3198,8 +3448,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the base exception class for all mysql.connector errors, and which two specific subclasses would you catch to distinguish between \"lost network connection to MySQL server\" and \"SQL syntax error in your query\"?",
     "answer": "The base class is mysql.connector.Error. Catch mysql.connector.InterfaceError for lost network connection and mysql.connector.ProgrammingError for SQL syntax errors",
     "options": [
-     "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server",
-     "The default autocommit mode in mysql.connector is False. This means each SQL statement is NOT automatically committed; the programmer must explicitly call connection",
+     "The student must be able to write Python code that creates a cursor from an active MySQL connection, executes a given SQL statement (SELECT, INSERT, UPDATE",
+     "1. Install the connector library (e.g., pip install mysql-connector-python). 2. Import the module (import mysql",
      "The base class is mysql.connector.Error. Catch mysql.connector.InterfaceError for lost network connection and mysql.connector.ProgrammingError for SQL syntax errors"
     ],
     "hint": "Straight from the 'Exception handling in database' slide -- match the key terms.",
@@ -3337,8 +3587,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "Design a real-world scenario where a Python application needs to connect to a MySQL database. Describe the complete data flow from user input to database update, naming the specific components involved at each stage.",
     "answer": "Scenario: A library management system where a student returns a book. Data flow: 1. User enters Book ID in Python GUI → 2",
     "options": [
-     "import mysql.connector from mysql.connector import Error conn = N/A try: conn = mysql.connector.connect( host='localhost', user='root', password='admin123'",
-     "This is expected behavior, not a bug. According to the Python DB-API (PEP 249) and mysql.connector implementation",
+     "Checklist: 1) Activate the virtual environment. 2) Run pip list | grep mysql-connector-python to see the package",
+     "The statement is false. The connector is only a client library that allows Python to communicate with an existing MySQL server; it does not install or start a server",
      "Scenario: A library management system where a student returns a book. Data flow: 1. User enters Book ID in Python GUI → 2"
     ],
     "hint": "Straight from the 'Database connectivity' slide -- match the key terms.",
@@ -3367,8 +3617,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "List the correct sequence of high-level steps to perform a database operation from Python, starting from a fresh environment.",
     "answer": "1. Install the connector library (e.g., pip install mysql-connector-python). 2. Import the module (import mysql",
     "options": [
-     "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server",
-     "The correct placeholder is %s (percent sign followed by lowercase s) for all data types. Using string formatting (e",
+     "The student must be able to explain the need for database connectivity, list the sequential steps to connect Python with MySQL",
+     "MySQL Connector/Python is a standardized database driver that enables Python applications to connect to and interact with MySQL databases by implementing the Python Database API",
      "1. Install the connector library (e.g., pip install mysql-connector-python). 2. Import the module (import mysql"
     ],
     "hint": "Straight from the 'Database connectivity' slide -- match the key terms.",
@@ -3379,32 +3629,32 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why can't a Python program directly execute SQL commands on a MySQL database without a connector?",
-    "answer": "Python and MySQL run as separate processes, often on different machines, and communicate over a network using a specific protocol (MySQL protocol)",
+    "question": "What is Database connectivity? State the definition given in this lesson.",
+    "answer": "Database connectivity refers to the mechanism that allows a Python program to communicate with a database management system (DBMS) like MySQL",
     "options": [
-     "The package installs a top-level namespace mysql with a submodule connector; import mysql only loads the namespace, not the connector functionality",
-     "The cursor sends the SQL to the MySQL server, which parses, optimizes, and executes the query, then returns a result set (metadata + rows)",
-     "Python and MySQL run as separate processes, often on different machines, and communicate over a network using a specific protocol (MySQL protocol)"
+     "Exception handling in database connectivity is the practice of using Python's try-except-else-finally blocks to catch and manage runtime errors (such as connection failures",
+     "MySQL Connector/Python is a standardized database driver that enables Python applications to connect to and interact with MySQL databases by implementing the Python Database API",
+     "Database connectivity refers to the mechanism that allows a Python program to communicate with a database management system (DBMS) like MySQL"
     ],
     "hint": "Straight from the 'Database connectivity' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Python doesn't know SQL\") shows the student doesn't understand the client-server architecture and the need for a standard communication protocol; SQL is just text — the protocol handles authentication, packet framing, and result serialization.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Database connectivity refers to the mechanism that allows a Python program to communicate with a database management",
     "id": "gen_c12_cs_ch06_q17",
     "nodeId": "c12_cs_cbse_06_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A student runs pip install mysql-connector-python in a terminal and gets \"Requirement already satisfied\". They then run a Python script with import mysql.connector and get ModuleNotFoundError: No module named 'mysql'. Diagnose the most likely cause and propose a fix.",
-    "answer": "The pip and Python interpreter belong to different environments (e.g., pip installed for Python 3.11 but the script runs with Python 3",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to explain the need for database connectivity, list the sequential steps to connect Python with MySQL",
     "options": [
-     "This is expected behavior, not a bug. According to the Python DB-API (PEP 249) and mysql.connector implementation",
-     "import mysql.connector conn = mysql.connector.connect(user='root', password='pwd', database='bank') conn",
-     "The pip and Python interpreter belong to different environments (e.g., pip installed for Python 3.11 but the script runs with Python 3"
+     "The student must be able to write Python code that correctly closes the cursor and connection objects in a mysql",
+     "The student must be able to write Python code using mysql.connector that explicitly controls transactions: disable autocommit",
+     "The student must be able to explain the need for database connectivity, list the sequential steps to connect Python with MySQL"
     ],
-    "hint": "Straight from the 'MySQL Connector/Python' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student does not grasp environment isolation.",
+    "hint": "Straight from the 'Database connectivity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain the need for database connectivity, list the sequential steps to connect Python",
     "id": "gen_c12_cs_ch06_q18",
-    "nodeId": "c12_cs_cbse_06_002",
+    "nodeId": "c12_cs_cbse_06_001",
     "difficulty": "standard"
    }
   ],
@@ -3499,7 +3749,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Global Keyword In Python",
+    "title": "The Global Keyword In Python Declares",
     "text": "The global keyword in Python declares that a variable inside a function refers to a variable in the global (module-level) scope, allowing the function to read and write to that global variable.",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3658,16 +3908,58 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the difference between a parameter and an argument in Python? Give a one‑line definition for each.",
-    "answer": "A parameter is a variable in the function definition (e.g., x in def f(x):). An argument is the actual value passed during the call (e.g., 5 in f(5))",
-    "options": [
-     "Snippet B is more appropriate for a simple, one‑off transformation because it avoids polluting the namespace with a named function",
-     "Correct analysis: Snippet A prints \"Hello\" because show_message() is called after definition. Snippet B prints nothing because the function is defined but never called",
-     "A parameter is a variable in the function definition (e.g., x in def f(x):). An argument is the actual value passed during the call (e.g., 5 in f(5))"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between parameters and arguments",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "correctly write function definitions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "call such functions using positional",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "explain why mutable",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'In Python, a parameter' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: If the student swaps the terms or says they are the same, they confuse the static definition with the dynamic call — a fundamental gap that leads to errors when reading tracebacks or documentation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between parameters and arguments, (2) correctly write function definitions with",
     "id": "gen_c12_cs_ch09_q3",
     "nodeId": "c12_cs_cbse_09_003",
     "difficulty": "standard",
@@ -3746,8 +4038,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the output of the following code? def demo(a, b=10, *args, kwargs): print(f\"a={a}, b={b}, args={args}, kwargs={kwargs}\") demo(1, 2, 3, 4, x=5, y=6)",
     "answer": "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
     "options": [
-     "A function encapsulates a specific task into a named, reusable unit that can be called with different inputs, avoiding code duplication",
-     "lambda x, y: x + y A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def",
+     "The student can write a function definition using *args and kwargs together with regular parameters, correctly call it with mixed positional, keyword, and unpacked arguments",
+     "Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20",
      "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}"
     ],
     "hint": "Straight from the 'Keyword arguments allow passing' slide -- match the key terms.",
@@ -3767,8 +4059,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the output of the following code? x = 10 def outer(): x = 20 def inner(): print(x) inner() outer()",
     "answer": "Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20",
     "options": [
-     "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
-     "Correct output: Inside function Returned: 42 A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does",
+     "def calculate_gst(): \"\"\"Calculate GST at 18%\"\"\" # function body here A wrong answer like function calculate_gst(): or def calculate_gst (missing parentheses and colon) reveals the",
+     "The student must be able to (1) correctly insert global or nonlocal declarations in a function to modify an outer-scope variable",
      "Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20"
     ],
     "hint": "Straight from the 'Variable scope in Python defines' slide -- match the key terms.",
@@ -3858,16 +4150,58 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the exact output of the following code snippet? def demo(): print(\"Inside function\") return 42 result = demo() print(\"Returned:\", result)",
-    "answer": "Correct output: Inside function Returned: 42 A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does",
-    "options": [
-     "A recursive function is a function that calls itself to solve a problem by dividing it into smaller sub‑problems of the same type",
-     "Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20",
-     "Correct output: Inside function Returned: 42 A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "write a function that returns a computed",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the difference between print",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "capture the returned value in a variable",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "correctly handle multiple return values via",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Python function returns a value' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does not understand that return passes a value back to the assignment.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) write a function that returns a computed result using return, (2) capture the returned",
     "id": "gen_c12_cs_ch09_q8",
     "nodeId": "c12_cs_cbse_09_007",
     "difficulty": "standard",
@@ -3879,16 +4213,47 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the definition of a recursive function, and what is the role of the base case in recursion?",
-    "answer": "A recursive function is a function that calls itself to solve a problem by dividing it into smaller sub‑problems of the same type",
-    "options": [
-     "Correct output: Inside function Returned: 42 A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does",
-     "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
-     "A recursive function is a function that calls itself to solve a problem by dividing it into smaller sub‑problems of the same type"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the call stack for a small input",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "write a correct recursive Python function",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify the base case and recursive step",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'recursive function in Python' slide -- match the key terms.",
-    "misconception": "If a student omits the base case or describes it as \"the last call\", they confuse the base case with the final recursive call; the base case must be a non‑recursive return.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify the base case and recursive step for a given problem, (2) write a correct",
     "id": "gen_c12_cs_ch09_q9",
     "nodeId": "c12_cs_cbse_09_008",
     "difficulty": "advanced",
@@ -3900,16 +4265,47 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the correct syntax to define a lambda function that takes two arguments x and y and returns their sum?",
-    "answer": "lambda x, y: x + y A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def",
-    "options": [
-     "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
-     "Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20",
-     "lambda x, y: x + y A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why a lambda cannot contain",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "correctly use lambda with built‑in",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "write a lambda function to perform a simple",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'lambda function in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def. Another error lambda x, y -> x + y shows confusion with arrow syntax from other languages. The correct form uses a colon and a single expression without return.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) write a lambda function to perform a simple computation, (2) correctly use lambda with built‑in",
     "id": "gen_c12_cs_ch09_q10",
     "nodeId": "c12_cs_cbse_09_009",
     "difficulty": "standard",
@@ -3925,8 +4321,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the exact filename extension required for a Python user-defined module, and what name is used to import it?",
     "answer": "The file must have a .py extension (e.g., utils.py). The import name is the filename without the extension (import utils)",
     "options": [
-     "Correct output: Inside function Returned: 42 A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does",
-     "Output: 20. The inner function has no local x, so Python looks in the enclosing scope (outer) and finds x = 20",
+     "In Python, a parameter is a variable listed in the function definition that receives a value when the function is called; an argument is the actual value passed during the call",
+     "The student must be able to (1) create a package directory structure with init.py, (2) import modules from a package using absolute and relative imports",
      "The file must have a .py extension (e.g., utils.py). The import name is the filename without the extension (import utils)"
     ],
     "hint": "Straight from the 'user-defined module in Python' slide -- match the key terms.",
@@ -3946,8 +4342,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the output of math.sin(math.pi / 2) and why might a student incorrectly expect 1.0 exactly?",
     "answer": "Output is 1.0 (within floating-point precision). A student might expect exactly 1.0 because mathematically sin(π/2) = 1, but math",
     "options": [
-     "Correct output: a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}",
-     "Correct output: Inside function Returned: 42 A wrong answer (e.g., thinking result is N/A or that the function prints 42) reveals the student confuses print with return or does",
+     "The student can (1) distinguish between parameters and arguments, (2) correctly write function definitions with positional and default parameters in the proper order (non‑default",
+     "lambda x, y: x + y A wrong answer like lambda x, y { return x + y } reveals the student thinks lambdas use block syntax like def",
      "Output is 1.0 (within floating-point precision). A student might expect exactly 1.0 because mathematically sin(π/2) = 1, but math"
     ],
     "hint": "Straight from the 'Python Standard Library provides' slide -- match the key terms.",
@@ -3963,16 +4359,58 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the minimum requirement for a directory to be considered a Python package?",
-    "answer": "The directory must contain a file named init.py (which can be empty)",
-    "options": [
-     "A function encapsulates a specific task into a named, reusable unit that can be called with different inputs, avoiding code duplication",
-     "def calculate_gst(): \"\"\"Calculate GST at 18%\"\"\" # function body here A wrong answer like function calculate_gst(): or def calculate_gst (missing parentheses and colon) reveals the",
-     "The directory must contain a file named init.py (which can be empty)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the difference between a module",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "control the public API using all in init.py",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "import modules from a package using absolute",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "create a package directory structure",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Python package' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it must contain at least one .py file\" or \"it must have a setup.py\") reveals the student confuses a package with a mere collection of modules or a distributable project. The presence of init.py is the defining marker for regular packages (pre-PEP 420).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) create a package directory structure with init.",
     "id": "gen_c12_cs_ch09_q13",
     "nodeId": "c12_cs_cbse_09_012",
     "difficulty": "advanced",
@@ -3982,6 +4420,109 @@ export const C12_CS_GEN: SimDef[] = [
      "Instead, you create a directory school with an init.py file, and inside it subdirectories academics and admin each with their own init.py and modules.",
      "This hierarchy lets you write from school.academics import students — clean, scalable, and professional."
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the difference between defining",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "trace the execution flow when a function",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "write syntactically correct function",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "call functions correctly with and without",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) write syntactically correct function definitions using def with proper indentation,",
+    "id": "gen_c12_cs_ch09_q14",
+    "nodeId": "c12_cs_cbse_09_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "correctly insert global or nonlocal",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "predict the output of code snippets",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain why a SyntaxError",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) correctly insert global or nonlocal declarations in a function to modify an outer-scope",
+    "id": "gen_c12_cs_ch09_q15",
+    "nodeId": "c12_cs_cbse_09_006",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -3994,7 +4535,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Infix to Postfix conversion' slide -- match the key terms.",
     "misconception": "A wrong answer claiming the conversion is incorrect reveals misunderstanding of the precedence hierarchy or of associativity.",
-    "id": "gen_c12_cs_ch09_q14",
+    "id": "gen_c12_cs_ch09_q16",
     "nodeId": "c12_cs_cbse_08_004",
     "difficulty": "advanced"
    },
@@ -4009,7 +4550,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'function in Python' slide -- match the key terms.",
     "misconception": "A wrong answer that suggests copying the code block or using a loop shows they don't grasp parameterization and single-responsibility — the function should do ONE thing (grade from average) and take exactly what it needs.",
-    "id": "gen_c12_cs_ch09_q15",
+    "id": "gen_c12_cs_ch09_q17",
     "nodeId": "c12_cs_cbse_09_001",
     "difficulty": "standard"
    },
@@ -4024,36 +4565,6 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'function in Python' slide -- match the key terms.",
     "misconception": "A weak answer (\"it's messy\") lacks specificity — the student must articulate why monolithic functions hurt collaboration and maintenance.",
-    "id": "gen_c12_cs_ch09_q16",
-    "nodeId": "c12_cs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare built-in functions (e.g., len(), print()) and user-defined functions. What is the key similarity and the key difference in how a programmer interacts with them?",
-    "answer": "Similarity: both are called by name with parentheses and arguments, and both return a value (or N/A)",
-    "options": [
-     "In Snippet A, x is never assigned inside f, so it is a free variable resolved via LEGB to the global x = 10",
-     "Snippet A (global): inner modifies the module-level x. Output: outer: 20 (outer's local x unchanged), global: 30",
-     "Similarity: both are called by name with parentheses and arguments, and both return a value (or N/A)"
-    ],
-    "hint": "Straight from the 'function in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"built-ins are faster\" or \"user-defined functions can't return values\" reveals confusion about origin vs. capability — both can do the same things; the difference is who wrote them and for what purpose.",
-    "id": "gen_c12_cs_ch09_q17",
-    "nodeId": "c12_cs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a new real-world scenario (not bakery, not marks) where a function would be useful. Specify: (a) the task, (b) inputs, (c) output, (d) why a function is better than inline code. Write the function signature.",
-    "answer": "Example: Auto-rickshaw fare calculator. (a) Task: compute fare from distance. (b) Input: distance_km (float)",
-    "options": [
-     "Example scenario: A school library system needs to print book checkout receipts. def print_checkout_receipt(book_title",
-     "Correct evaluation: The error is area (missing parentheses) on the last line. This is a valid expression that evaluates to the function object itself but does not call it",
-     "Example: Auto-rickshaw fare calculator. (a) Task: compute fare from distance. (b) Input: distance_km (float)"
-    ],
-    "hint": "Straight from the 'function in Python' slide -- match the key terms.",
-    "misconception": "A poor answer gives a trivial task (e.g., \"add two numbers\") or omits why a function helps — the scenario must show repeated use with varying inputs and likelihood of change.",
     "id": "gen_c12_cs_ch09_q18",
     "nodeId": "c12_cs_cbse_09_001",
     "difficulty": "standard"
@@ -4123,7 +4634,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Read, Readline, And Readlines Methods",
+    "title": "Read , Readline , And Readlines Methods",
     "text": "The read(), readline(), and readlines() methods are used to read data from a text file opened in Python. read([n]) reads the entire file or up to n characters as a single string, readline() reads one line including the trailing newline character, and",
     "emoji": "💻",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4154,7 +4665,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Binary Files Store Data As",
+    "title": "Binary Files Store Data As Raw",
     "text": "Binary files store data as raw bytes (sequences of 0s and 1s) without any character encoding or newline translation. In Python, they are opened by appending 'b' to the file mode (e.",
     "emoji": "💻",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4247,8 +4758,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the default file mode when you call open('notes.txt') without a second argument?",
     "answer": "The default mode is 'r' (read text)",
     "options": [
-     "file.tell() returns 0 because the file pointer starts at the very beginning of the file (byte/character position 0)",
-     "'Hello\\nWorld' (a single string containing the entire file content including the newline character)",
+     "The student can, given a real-world scenario (e.g., \"append a log entry without erasing previous logs\"), select the correct file mode, write the exact open() call",
+     "The mode string is 'a'. The file pointer is positioned at the end of the file (after the last character)",
      "The default mode is 'r' (read text)"
     ],
     "hint": "Straight from the 'open function in Python' slide -- match the key terms.",
@@ -4268,11 +4779,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What does file_obj.read() return when called on a text file opened in 'r' mode, assuming the file contains the text Hello\\nWorld and the file pointer is at the beginning?",
     "answer": "'Hello\\nWorld' (a single string containing the entire file content including the newline character)",
     "options": [
-     "with open(\"data.txt\", \"r\") as f: — when the indented block ends (normally or via exception), Python automatically calls f.close() even if an error occurred inside the block",
-     "It returns 3. The split() method without arguments splits on ANY whitespace (spaces, tabs, newlines) and treats consecutive whitespace as a single delimiter",
+     "The mode string is 'a'. The file pointer is positioned at the end of the file (after the last character)",
+     "file.tell() returns 0 because the file pointer starts at the very beginning of the file (byte/character position 0)",
      "'Hello\\nWorld' (a single string containing the entire file content including the newline character)"
     ],
-    "hint": "Straight from the 'read, readline, and readlines' slide -- match the key terms.",
+    "hint": "Straight from the 'read , readline , and readlines' slide -- match the key terms.",
     "misconception": "A wrong answer like ['Hello', 'World'] reveals the student confuses read() with readlines(). An answer like 'Hello' (without the rest) reveals the student thinks read() stops at the first newline — confusing it with readline().",
     "id": "gen_c12_cs_ch10_q3",
     "nodeId": "c12_cs_cbse_10_003",
@@ -4362,8 +4873,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What does file.tell() return immediately after opening a file in 'r' mode, before any read or write operation?",
     "answer": "file.tell() returns 0 because the file pointer starts at the very beginning of the file (byte/character position 0)",
     "options": [
-     "The correct mode is 'wb' (write binary)",
-     "The mode string is 'a'. The file pointer is positioned at the end of the file (after the last character)",
+     "The student can (1) predict the exact file pointer position after a sequence of read/write/seek/tell operations on both text and binary files",
+     "The default mode is 'r' (read text)",
      "file.tell() returns 0 because the file pointer starts at the very beginning of the file (byte/character position 0)"
     ],
     "hint": "Straight from the 'file pointer' slide -- match the key terms.",
@@ -4435,11 +4946,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the correct file mode to open a binary file for writing in Python?",
     "answer": "The correct mode is 'wb' (write binary)",
     "options": [
-     "The default mode is 'r' (read text)",
-     "with open(\"data.txt\", \"r\") as f: — when the indented block ends (normally or via exception), Python automatically calls f.close() even if an error occurred inside the block",
+     "The student must be able to write a complete Python program that opens a file for reading/writing inside a try block",
+     "The student can, given a real-world scenario (e.g., \"append a log entry without erasing previous logs\"), select the correct file mode, write the exact open() call",
      "The correct mode is 'wb' (write binary)"
     ],
-    "hint": "Straight from the 'Binary files store data as' slide -- match the key terms.",
+    "hint": "Straight from the 'Binary files store data as raw' slide -- match the key terms.",
     "misconception": "A wrong answer like 'w' reveals the student confuses text and binary modes; 'w' opens a text file and will perform encoding/newline translation, corrupting binary data.",
     "id": "gen_c12_cs_ch10_q8",
     "nodeId": "c12_cs_cbse_10_008",
@@ -4456,8 +4967,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What does len(content.split()) return when content = \"Hello world\\n\\nPython\"?",
     "answer": "It returns 3. The split() method without arguments splits on ANY whitespace (spaces, tabs, newlines) and treats consecutive whitespace as a single delimiter",
     "options": [
-     "'Hello\\nWorld' (a single string containing the entire file content including the newline character)",
-     "The default mode is 'r' (read text)",
+     "Student can write a complete Python program that opens a text file using the with statement, reads its content appropriately, and correctly computes lines, words, and characters",
+     "The student can, given a real-world scenario (e.g., \"append a log entry without erasing previous logs\"), select the correct file mode, write the exact open() call",
      "It returns 3. The split() method without arguments splits on ANY whitespace (spaces, tabs, newlines) and treats consecutive whitespace as a single delimiter"
     ],
     "hint": "Straight from the 'Text file operations for counting' slide -- match the key terms.",
@@ -4670,6 +5181,52 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why the file pointer cannot be moved",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "correctly choose between 'w'",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "write Python code using with open",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) correctly choose between 'w', 'a', and 'a+' modes for a given scenario, (2) write",
+    "id": "gen_c12_cs_ch10_q14",
+    "nodeId": "c12_cs_cbse_10_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Write a Python function read_config(filename) that reads a JSON configuration file. It must: (a) return the parsed dict on success, (b) return N/A and log \"File not found\" if file missing, (c) return N/A and log \"Permission denied\" if no read permission, (d) return N/A and log \"Corrupted data\" if JSON decode fails,",
     "sortItems": [
      {
@@ -4721,7 +5278,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer using except Exception: or missing encoding='utf-8' reveals ignorance of encoding-related failures (common in board exams).",
-    "id": "gen_c12_cs_ch10_q14",
+    "id": "gen_c12_cs_ch10_q15",
     "nodeId": "c12_cs_cbse_10_010",
     "difficulty": "advanced"
    },
@@ -4736,7 +5293,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'File handling' slide -- match the key terms.",
     "misconception": "This misconception is extremely common and causes data loss in board practicals when students intend to add records but overwrite the entire file instead.",
-    "id": "gen_c12_cs_ch10_q15",
+    "id": "gen_c12_cs_ch10_q16",
     "nodeId": "c12_cs_cbse_10_001",
     "difficulty": "standard"
    },
@@ -4751,7 +5308,7 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'File handling' slide -- match the key terms.",
     "misconception": "A student who says \"both are same\" misses the core trade-off: text for interoperability, binary for Python-specific efficiency and fidelity.",
-    "id": "gen_c12_cs_ch10_q16",
+    "id": "gen_c12_cs_ch10_q17",
     "nodeId": "c12_cs_cbse_10_001",
     "difficulty": "standard"
    },
@@ -4766,21 +5323,6 @@ export const C12_CS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'File handling' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Scenario: A banking app stores transaction records (date, amount, account) using Python's pickle in binary mode.",
-    "id": "gen_c12_cs_ch10_q17",
-    "nodeId": "c12_cs_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this statement: \"Since binary files are more compact and faster, we should always use binary mode for all file operations in Python.\" Defend or refute with at least three concrete arguments.",
-    "answer": "Refute. Arguments: (1) Human readability & debugging: text files (logs, config, CSV) can be inspected/edited with Notepad, vi, Excel — critical for maintenance",
-    "options": [
-     "pickle produces a binary byte stream that may contain null bytes, non‑ASCII bytes, and byte sequences that are not valid text encodings",
-     "writelines() does not insert newline characters; it writes each string exactly as given. Since the strings in lines lack \\n, they are concatenated without separation",
-     "Refute. Arguments: (1) Human readability & debugging: text files (logs, config, CSV) can be inspected/edited with Notepad, vi, Excel — critical for maintenance"
-    ],
-    "hint": "Straight from the 'File handling' slide -- match the key terms.",
-    "misconception": "A student who agrees ignores real-world software engineering constraints.",
     "id": "gen_c12_cs_ch10_q18",
     "nodeId": "c12_cs_cbse_10_001",
     "difficulty": "standard"
@@ -4857,7 +5399,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Tuple",
+    "title": "Tuple Is An Ordered",
     "text": "A tuple is an ordered, immutable sequence of heterogeneous elements in Python, created using parentheses () or the tuple() constructor. Unlike lists, tuples cannot be modified after creation — elements cannot be added, removed, or changed — making them",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4869,7 +5411,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Dictionary Methods Keys, Values, Items, Get",
+    "title": "Dictionary Methods Keys , Values , Items ,",
     "text": "Dictionary methods keys(), values(), items(), get(), and update() provide ways to access, retrieve, and modify key-value pairs in a Python dictionary.",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4887,7 +5429,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Set Operations In Python Allow",
+    "title": "Set Operations In Python Allow Combining",
     "text": "Set operations in Python allow combining, comparing, and extracting elements from two or more sets. The four fundamental operations are: Union (all elements from both sets, | or union()), Intersection (elements common to both sets, & or intersection()),",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -4905,7 +5447,7 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Searching",
+    "title": "Searching Is The Algorithmic Process",
     "text": "Searching is the algorithmic process of locating a target element within a data structure (e.g., a Python list) and returning its position or a boolean indicating presence; sorting is the process of rearranging elements into a defined order",
     "emoji": "💻",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4913,16 +5455,58 @@ export const C12_CS_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "What is the output of the following code snippet? data = [10, 20, 30, 40, 50] print(data[-3])",
-    "answer": "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end",
-    "options": [
-     "Empty dictionary can be created using {} or dict()",
-     "The correct answer: d.keys() returns a dict_keys view object (not a list, tuple, or set)",
-     "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "perform slicing with start",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "create lists using literal syntax and the",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "correctly access and modify elements using",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "predict the output of concatenation",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'list in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer like 20 or 40 reveals the student either counts from -0 (which doesn't exist) or miscounts the offset. If they answer 30 but cannot explain why, they have rote memorisation without understanding the index mapping.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) create lists using literal syntax and the list() constructor from various iterables,",
     "id": "gen_c12_cs_ch11_q1",
     "nodeId": "c12_cs_cbse_11_001",
     "difficulty": "standard",
@@ -4934,16 +5518,47 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the output of the following code snippet? prices = [20, 15, 30] prices.append(25) prices.insert(1, 10) print(prices)",
-    "answer": "The output is [20, 10, 15, 30, 25]",
-    "options": [
-     "The output is [20, 30, 40]. Slicing lst[1:4] starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3",
-     "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end",
-     "The output is [20, 10, 15, 30, 25]"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "write correct Python code using each",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "choose the appropriate method for a given",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "predict the exact state of a list after",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'List methods in Python' slide -- match the key terms.",
-    "misconception": "A wrong answer like [20, 15, 30, 25, 10] reveals the student thinks insert(1, 10) adds at the end or confuses the index parameter. A wrong answer like [20, 15, 30, 10, 25] shows they think insert shifts existing elements incorrectly.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) write correct Python code using each of the five methods with proper syntax and",
     "id": "gen_c12_cs_ch11_q2",
     "nodeId": "c12_cs_cbse_11_002",
     "difficulty": "advanced",
@@ -4959,8 +5574,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the output of lst = [10, 20, 30, 40, 50]; print(lst[1:4])?",
     "answer": "The output is [20, 30, 40]. Slicing lst[1:4] starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3",
     "options": [
-     "The output is [20, 10, 15, 30, 25]",
-     "The output is {1, 2, 5, 6}. Symmetric difference (^) returns elements that are in exactly one of the sets",
+     "The student can write correct list comprehensions with filtering and nested loops, predict the output of slicing expressions with negative indices and non-unit steps",
+     "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end",
      "The output is [20, 30, 40]. Slicing lst[1:4] starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3"
     ],
     "hint": "Straight from the 'List comprehension' slide -- match the key terms.",
@@ -4976,16 +5591,58 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Create a tuple containing a single integer 42 using parentheses. What is the type of the result?",
-    "answer": "The result is <class 'int'>, not a tuple. Writing (42) creates an integer because parentheses are interpreted as grouping, not tuple creation",
-    "options": [
-     "The approach is incorrect — deleting keys during iteration over freq.items() raises RuntimeError. Correct alternative: create a new filtered dictionary using a comprehension",
-     "Correct evaluation: The code does NOT achieve the intended result. scores * 3 performs repetition, producing [85, 90, 78, 85, 90, 78, 85, 90, 78]",
-     "The result is <class 'int'>, not a tuple. Writing (42) creates an integer because parentheses are interpreted as grouping, not tuple creation"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "correctly use count",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between tuple",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "create tuples using three different syntaxes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "explain why tuples",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'tuple' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student thinks parentheses alone define a tuple, missing the comma rule — a classic board exam trap.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) create tuples using three different syntaxes (parentheses, tuple() constructor,",
     "id": "gen_c12_cs_ch11_q4",
     "nodeId": "c12_cs_cbse_11_004",
     "difficulty": "standard",
@@ -5001,9 +5658,9 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the syntax to create an empty dictionary in Python? Provide two ways.",
     "answer": "Empty dictionary can be created using {} or dict()",
     "options": [
-     "The output is [20, 10, 15, 30, 25]",
-     "The output is [20, 30, 40]. Slicing lst[1:4] starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3",
-     "Insertion dictionary can be created using {} or dict()",
+     "Converting between data structures in Python refers to transforming data from one built-in collection type (list, tuple, set, dictionary",
+     "The correct way is empty_set = set(). {} creates an empty dictionary because curly braces without colons are reserved for set literals only when they contain at least one element",
+     "Code dictionary can be created using {} or dict()",
      "Empty dictionary can be created using {} or dict()"
     ],
     "hint": "Straight from the 'dictionary in Python' slide -- match the key terms.",
@@ -5023,11 +5680,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What does the expression d.keys() return for a dictionary d = {'a': 1, 'b': 2}? Is it a list, a tuple, a set, or a view object?",
     "answer": "The correct answer: d.keys() returns a dict_keys view object (not a list, tuple, or set)",
     "options": [
-     "The output is [20, 10, 15, 30, 25]",
-     "It iterates over the keys of the dictionary",
+     "Empty dictionary can be created using {} or dict()",
+     "Converting between data structures in Python refers to transforming data from one built-in collection type (list, tuple, set, dictionary",
      "The correct answer: d.keys() returns a dict_keys view object (not a list, tuple, or set)"
     ],
-    "hint": "Straight from the 'Dictionary methods keys, values,' slide -- match the key terms.",
+    "hint": "Straight from the 'Dictionary methods keys , values' slide -- match the key terms.",
     "misconception": "A wrong answer like \"list\" reveals that the student assumes the method returns a static snapshot (as in Python 2) and does not understand the dynamic view concept introduced in Python 3.",
     "id": "gen_c12_cs_ch11_q6",
     "nodeId": "c12_cs_cbse_11_006",
@@ -5044,8 +5701,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What does for x in my_dict: iterate over by default — keys, values, or key-value pairs?",
     "answer": "It iterates over the keys of the dictionary",
     "options": [
-     "Empty dictionary can be created using {} or dict()",
-     "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end",
+     "Traversing a dictionary with loops means systematically accessing each key-value pair (or just keys",
+     "The student must be able to create dictionaries using curly braces and dict() constructor, access values using keys and the get() method",
      "It iterates over the keys of the dictionary"
     ],
     "hint": "Straight from the 'Traversing a dictionary with loops' slide -- match the key terms.",
@@ -5061,16 +5718,47 @@ export const C12_CS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the correct way to create an empty set in Python, and why does {} not work?",
-    "answer": "The correct way is empty_set = set(). {} creates an empty dictionary because curly braces without colons are reserved for set literals only when they contain at least one element",
-    "options": [
-     "The output is [20, 10, 15, 30, 25]",
-     "The output is [20, 30, 40]. Slicing lst[1:4] starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3",
-     "The correct way is empty_set = set(). {} creates an empty dictionary because curly braces without colons are reserved for set literals only when they contain at least one element"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "create sets using curly braces and the set",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "add elements with add",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "test membership with in/not",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'set in Python' slide -- match the key terms.",
-    "misconception": "A student who writes s = {} and then tries s.add(1) will get an AttributeError: 'dict' object has no attribute 'add', revealing confusion between dict and set literal syntax.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) create sets using curly braces and the set() constructor, distinguishing between empty",
     "id": "gen_c12_cs_ch11_q8",
     "nodeId": "c12_cs_cbse_11_008",
     "difficulty": "standard",
@@ -5149,8 +5837,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the correct syntax to create a list containing two dictionaries, where each dictionary has keys 'id' and 'score' for two students?",
     "answer": "students = [{'id': 1, 'score': 85}, {'id': 2, 'score': 92}]",
     "options": [
-     "Empty dictionary can be created using {} or dict()",
-     "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end",
+     "The student must be able to create dictionaries using curly braces and dict() constructor, access values using keys and the get() method",
+     "The student must be able to create, access, modify, and traverse a list of dictionaries to solve real-world data processing problems (e",
      "students = [{'id': 1, 'score': 85}, {'id': 2, 'score': 92}]"
     ],
     "hint": "Straight from the 'list of dictionaries' slide -- match the key terms.",
@@ -5233,11 +5921,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the worst-case time complexity of linear search on a list of size n, and what does it mean in practical terms for a list of 10,000 elements?",
     "answer": "Worst-case time complexity is O(n) — the algorithm may examine all n elements. For 10,000 elements, up to 10,000 comparisons are needed",
     "options": [
-     "The output is [20, 10, 15, 30, 25]",
      "The output is a list containing the elements 1, 2, 3 but in an arbitrary order (e.g., [2, 1, 3]). Sets in Python are unordered collections",
+     "The output is {1, 2, 5, 6}. Symmetric difference (^) returns elements that are in exactly one of the sets",
      "Worst-case time complexity is O(n) — the algorithm may examine all n elements. For 10,000 elements, up to 10,000 comparisons are needed"
     ],
-    "hint": "Straight from the 'Searching' slide -- match the key terms.",
+    "hint": "Straight from the 'Searching is the algorithmic' slide -- match the key terms.",
     "misconception": "A wrong answer like O(log n) or O(1) reveals the student confuses linear search with binary search or hash-based lookup, not understanding that linear search has no precondition on ordering and must check each element sequentially in the worst case.",
     "id": "gen_c12_cs_ch11_q12",
     "nodeId": "c12_cs_cbse_11_012",
@@ -5326,18 +6014,18 @@ export const C12_CS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student writes the following code to sort a list of strings case‑insensitively: words = ['apple', 'Banana', 'cherry'] words.sort(key=str.lower) print(words) They claim the output is ['apple', 'Banana', 'cherry'] because \"the list is already in alphabetical order\". Evaluate this claim and correct it if necessary.",
-    "answer": "The claim is incorrect. The default sort() uses ASCII order where uppercase letters come before lowercase, so 'Banana' (B=66) would come before 'apple' (a=97)",
+    "question": "What is the output of the following code snippet? data = [10, 20, 30, 40, 50] print(data[-3])",
+    "answer": "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end",
     "options": [
-     "Dictionary with subject as key and list of scores as value, e.g., marks = {'Physics': [85, 90, 78], 'Chemistry': [88, 92]}",
-     "After d['r'] = 30, the view v reflects the change, so list(v) becomes [10, 20, 30] (order may vary but includes all three values)",
-     "The claim is incorrect. The default sort() uses ASCII order where uppercase letters come before lowercase, so 'Banana' (B=66) would come before 'apple' (a=97)"
+     "The student must be able to create, access, modify, and traverse a list of dictionaries to solve real-world data processing problems (e",
+     "Converting between data structures in Python refers to transforming data from one built-in collection type (list, tuple, set, dictionary",
+     "30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end"
     ],
-    "hint": "Straight from the 'List methods in Python' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The claim is incorrect. The default sort() uses ASCII order where uppercase letters come before lowercase, so 'Banana'",
+    "hint": "Straight from the 'list in Python' slide -- match the key terms.",
+    "misconception": "A wrong answer like 20 or 40 reveals the student either counts from -0 (which doesn't exist) or miscounts the offset. If they answer 30 but cannot explain why, they have rote memorisation without understanding the index mapping.",
     "id": "gen_c12_cs_ch11_q18",
-    "nodeId": "c12_cs_cbse_11_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_cs_cbse_11_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -5352,14 +6040,14 @@ export const C12_CS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_cs_ch12",
-  "title": "Phishing",
+  "title": "Phishing Is a Cyber Attack Where",
   "subtitle": "Computer Science · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "computer science",
-  "topic": "Phishing",
+  "topic": "Phishing Is a Cyber Attack Where",
   "chapters": [
-   "Computer Science Ch12: Phishing"
+   "Computer Science Ch12: Phishing Is a Cyber Attack Where"
   ],
   "nodeIds": [
    "c12_cs_cbse_12_003",
@@ -5378,7 +6066,7 @@ export const C12_CS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Phishing suddenly stops working?",
+   "question": "What happens if Phishing Is a Cyber Attack Where suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -5389,13 +6077,13 @@ export const C12_CS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Phishing",
+    "title": "Phishing Is a Cyber Attack Where",
     "text": "Phishing is a cyber attack where attackers impersonate legitimate entities via deceptive emails, messages, or websites to trick users into revealing sensitive information like passwords, OTPs, or financial details.",
     "emoji": "💻",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Eavesdropping",
+    "title": "Eavesdropping Is The Unauthorized Real-time",
     "text": "Eavesdropping is the unauthorized real-time interception and monitoring of private communications (such as VoIP calls, instant messages, video conferences, or fax transmissions) between two entities over a network.",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5499,7 +6187,7 @@ export const C12_CS_GEN: SimDef[] = [
      "Anonymization irreversibly transforms data so that the data subject cannot be identified by any means reasonably likely to be used",
      "Eavesdropping is the unauthorized real-time interception of private communications (e.g., VoIP, chat, video calls) as they occur"
     ],
-    "hint": "Straight from the 'Eavesdropping' slide -- match the key terms.",
+    "hint": "Straight from the 'Eavesdropping is the unauthorized' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as synonyms reveals the student misses the critical distinction: eavesdropping = live monitoring (like a hidden microphone), snooping = packet capture + offline analysis (like photocopying a letter).",
     "id": "gen_c12_cs_ch12_q2",
     "nodeId": "c12_cs_cbse_12_004",
@@ -5646,7 +6334,7 @@ export const C12_CS_GEN: SimDef[] = [
      "The claim is flawed. Even if roll numbers alone seem low-risk, HTTP exposes metadata (timestamps, IP addresses",
      "Correct indicators: (1) Sender domain \"gov.in.biz\" is a subdomain of \"biz\" — not the official \"gov"
     ],
-    "hint": "Straight from the 'Phishing' slide -- match the key terms.",
+    "hint": "Straight from the 'Phishing is a cyber attack where' slide -- match the key terms.",
     "misconception": "A wrong answer like \"the email has spelling mistakes\" reveals the student relies on superficial cues rather than structural domain analysis — they would miss sophisticated phishing with perfect grammar but malicious domains.",
     "id": "gen_c12_cs_ch12_q9",
     "nodeId": "c12_cs_cbse_12_003",
@@ -5661,7 +6349,7 @@ export const C12_CS_GEN: SimDef[] = [
      "Anonymization irreversibly transforms data so that the data subject cannot be identified by any means reasonably likely to be used",
      "Scenario B is cyberbullying: repetition (daily for weeks), power imbalance (anonymous mob vs single target, disability targeting), intent to harm (threats, morphed images)"
     ],
-    "hint": "Straight from the 'Phishing' slide -- match the key terms.",
+    "hint": "Straight from the 'Phishing is a cyber attack where' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Scenario B is cyberbullying: repetition (daily for weeks), power imbalance (anonymous mob vs single target, disability",
     "id": "gen_c12_cs_ch12_q10",
     "nodeId": "c12_cs_cbse_12_003",
@@ -5676,7 +6364,7 @@ export const C12_CS_GEN: SimDef[] = [
      "Section 66A was struck down in its entirety by the Supreme Court in *Shreya Singhal v. Union of India* (2015) as unconstitutional because it violated Article 19(1)(a) (freedom of",
      "Demonstration outline: 1. Enable IP forwarding: echo 1 > /proc/sys/net/ipv4/ip_forward (Linux) — makes attacker a router"
     ],
-    "hint": "Straight from the 'Eavesdropping' slide -- match the key terms.",
+    "hint": "Straight from the 'Eavesdropping is the unauthorized' slide -- match the key terms.",
     "misconception": "A poor answer that suggests using Wireshark alone misses the active ARP poisoning step; one that says \"use Ettercap\" violates the \"no specialized frameworks\" constraint.",
     "id": "gen_c12_cs_ch12_q11",
     "nodeId": "c12_cs_cbse_12_004",
@@ -5745,24 +6433,24 @@ export const C12_CS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about phishing?",
+    "What surprised you about phishing is a cyber attack where?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Phishing mastered! 🎯",
+  "successLine": "Phishing Is a Cyber Attack mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_cs_ch13",
-  "title": "Technology",
+  "title": "Technology Refers To The Application",
   "subtitle": "Computer Science · Chapter 13",
   "classLevel": 12,
   "mode": "senior",
   "subject": "computer science",
-  "topic": "Technology",
+  "topic": "Technology Refers To The Application",
   "chapters": [
-   "Computer Science Ch13: Technology"
+   "Computer Science Ch13: Technology Refers To The Application"
   ],
   "nodeIds": [
    "c12_cs_cbse_13_001",
@@ -5785,7 +6473,7 @@ export const C12_CS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Technology in real working life?",
+   "question": "Who uses Technology Refers To The in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -5796,7 +6484,7 @@ export const C12_CS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Technology",
+    "title": "Technology Refers To The Application",
     "text": "Technology refers to the application of scientific knowledge for practical purposes, especially in industry and daily life, encompassing tools, systems, and methods that solve problems or extend human capabilities.",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5808,13 +6496,13 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "E-Waste",
+    "title": "E-Waste Refers To Discarded",
     "text": "E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and refrigerators that have reached the end of their useful life.",
     "emoji": "💻",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Ergonomics",
+    "title": "Ergonomics Is The Scientific Discipline",
     "text": "Ergonomics is the scientific discipline concerned with designing and arranging workspaces, tools, and tasks to fit the capabilities and limitations of the human body, thereby optimizing well-being and performance.",
     "emoji": "💻",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5844,13 +6532,13 @@ export const C12_CS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "E-Learning",
+    "title": "E-Learning Refers To The Use Of Electronic",
     "text": "E-Learning refers to the use of electronic technologies, primarily the internet, to access educational curricula outside of a traditional classroom.",
     "emoji": "💻",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Gender Issues In Technology Access Refer",
+    "title": "Gender Issues In Technology Access",
     "text": "Gender issues in technology access refer to the systemic disparities in availability, affordability, digital literacy, and meaningful use of digital technologies between genders, shaped by socio-cultural norms, economic structures, educational opportunities,",
     "emoji": "💻",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5870,16 +6558,47 @@ export const C12_CS_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "Define \"technology\" in the context of societal impact analysis. Your definition must distinguish it from \"science\" and \"engineering\" in one sentence.",
-    "answer": "Technology is the *application* of scientific knowledge through engineered artefacts, systems, or processes to achieve practical human goals",
-    "options": [
-     "The primary goal of Green Computing is to reduce the environmental impact of computing resources by minimizing energy consumption, reducing electronic waste",
-     "Context collapse occurs when multiple distinct social audiences (e.g., friends, family, teachers) become part of a single audience on a social media platform",
-     "Technology is the *application* of scientific knowledge through engineered artefacts, systems, or processes to achieve practical human goals"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify at least three distinct societal",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "articulate a precise definition of",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain why the same technology can",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Technology' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates technology with \"gadgets\" or \"computers\" reveals a hardware-only mental model that cannot analyse systemic impacts like algorithmic bias in loan approvals or the gig-economy restructuring of labour laws.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) articulate a precise definition of technology that goes beyond \"computers/gadgets\" to include",
     "id": "gen_c12_cs_ch13_q1",
     "nodeId": "c12_cs_cbse_13_001",
     "difficulty": "standard",
@@ -5951,7 +6670,7 @@ export const C12_CS_GEN: SimDef[] = [
      "1. Gatekeeping: Male household heads control device access, prioritising sons' education or entertainment over daughters' — rooted in patriarchal resource allocation",
      "No, the definition is incomplete. The missing critical element is \"end of life\" / \"discarded by the consumer\" — the device must be *waste*, i"
     ],
-    "hint": "Straight from the 'E-Waste' slide -- match the key terms.",
+    "hint": "Straight from the 'E-Waste refers to discarded' slide -- match the key terms.",
     "misconception": "Wrong answers reveal the student conflates \"broken\" with \"waste,\" ignoring the legal and lifecycle distinction central to the Rules' scope (Schedule I lists specific equipment *when they become waste*).",
     "id": "gen_c12_cs_ch13_q3",
     "nodeId": "c12_cs_cbse_13_003",
@@ -5972,7 +6691,7 @@ export const C12_CS_GEN: SimDef[] = [
      "The gender digital divide is the measurable gap between men/women (and gender minorities) in access to, use of, and benefits from digital technologies",
      "Neutral wrist position means the wrist is straight, not bent up (extension), down (flexion), or sideways (ulnar/radial deviation)"
     ],
-    "hint": "Straight from the 'Ergonomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Ergonomics is the scientific' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"wrists should rest on the wrist rest while typing\" or \"a slight upward bend is fine\") reveals the misconception that resting the wrists on a pad during typing is ergonomic; in fact, planting wrists compresses the carpal tunnel and forces finger tendons to work through a bent tunnel, increasing",
     "id": "gen_c12_cs_ch13_q4",
     "nodeId": "c12_cs_cbse_13_004",
@@ -6062,8 +6781,8 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "Define \"context collapse\" in the context of social media communication and give one example of how it affects a student's relationship with both peers and family simultaneously.",
     "answer": "Context collapse occurs when multiple distinct social audiences (e.g., friends, family, teachers) become part of a single audience on a social media platform",
     "options": [
-     "The three primary channels are: (1) Substitution/Displacement — technology replaces human labor in routine, codifiable tasks",
-     "E-commerce is the buying and selling of goods/services over the internet. Differences: (1) No physical storefront needed — operates via website/app",
+     "The student can explain the key ergonomic principles for computer workstation setup (monitor height, chair adjustment, keyboard/mouse placement)",
+     "The student must be able to evaluate the societal, economic, and environmental impacts of e-commerce by analyzing real-world scenarios, identifying both benefits and drawbacks",
      "Context collapse occurs when multiple distinct social audiences (e.g., friends, family, teachers) become part of a single audience on a social media platform"
     ],
     "hint": "Straight from the 'Social media' slide -- match the key terms.",
@@ -6146,11 +6865,11 @@ export const C12_CS_GEN: SimDef[] = [
     "question": "What is the primary distinguishing feature of a MOOC compared to a traditional online university course?",
     "answer": "A MOOC is \"Massive\" (unlimited enrollment), \"Open\" (no formal admission prerequisites), and \"Online\" (delivered entirely via the web)",
     "options": [
-     "Digital Divide is the gap between those who have access to ICTs and the skills to use them effectively and those who do not",
-     "Neutral wrist position means the wrist is straight, not bent up (extension), down (flexion), or sideways (ulnar/radial deviation)",
+     "The student must be able to: (1) classify the three levels of digital divide (access, usage, and outcome) with real-world Indian examples for each",
+     "E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions",
      "A MOOC is \"Massive\" (unlimited enrollment), \"Open\" (no formal admission prerequisites), and \"Online\" (delivered entirely via the web)"
     ],
-    "hint": "Straight from the 'E-Learning' slide -- match the key terms.",
+    "hint": "Straight from the 'E-Learning refers to the use of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"MOOCs are only free\" or \"MOOCs are always self-paced\") reveals confusion between \"open access\" and \"free of cost\" or between \"massive scale\" and \"self-paced structure\" — some MOOCs charge for certificates, and some have fixed schedules.",
     "id": "gen_c12_cs_ch13_q9",
     "nodeId": "c12_cs_cbse_13_009",
@@ -6570,7 +7289,7 @@ export const C12_CS_GEN: SimDef[] = [
      "The statement is overstated. Evidence: (1) Singapore’s SkillsFuture — a lifelong learning account (S$500 credit for every citizen ≥25) combined with industry‑led training pathways",
      "The flaw is *monovalent reasoning* — assuming a technology’s impact is unidirectional. The correct concept is dual-impact nature (or \"double-edged sword\"): WhatsApp enables free"
     ],
-    "hint": "Straight from the 'Technology' slide -- match the key terms.",
+    "hint": "Straight from the 'Technology refers to the' slide -- match the key terms.",
     "misconception": "A student who cannot name \"dual-impact\" or \"unintended consequences\" will later fail to write balanced board answers on AI ethics or social media regulation.",
     "id": "gen_c12_cs_ch13_q18",
     "nodeId": "c12_cs_cbse_13_001",
@@ -6579,11 +7298,11 @@ export const C12_CS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about technology?",
+    "What surprised you about technology refers to the application?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Technology mastered! 🎯",
+  "successLine": "Technology Refers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

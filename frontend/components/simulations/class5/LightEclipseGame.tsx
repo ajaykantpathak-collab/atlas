@@ -72,14 +72,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Transparent, Translucent & Opaque 🔍",
     text: "Transparent materials let light pass through completely so you see clearly (clear glass, water). Translucent materials let partial light pass through with a blurred view (frosted glass, butter paper). Opaque materials block light completely (wood, metal, stone)!",
     emoji: "🔍",
-    bgColor: "from-blue-400 to-cyan-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Transparent materials let light pass through completely like clear glass. Translucent materials let partial light pass through like frosted glass. Opaque materials block light completely like wood!"
   },
   {
     title: "Conditions for Shadow Formation 👥",
     text: "A shadow is a dark shape formed when an opaque object blocks light. Three conditions are needed: (1) a light source, (2) an opaque object, and (3) a surface or screen! Transparent objects do not cast dark shadows because they let light pass through.",
     emoji: "👥",
-    bgColor: "from-indigo-400 to-purple-500",
+    bgColor: "from-gold-400 to-purple-500",
     spoken: "A shadow needs three conditions: a light source, an opaque object, and a surface or screen. Without all three, no shadow can form!"
   },
   {

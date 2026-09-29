@@ -11,7 +11,7 @@ export const w_c10_sciencemetalsandnonmetalssim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility',
     chapters: [],
     nodeIds: ['c10_chem_cbse_03_001', 'c10_chem_cbse_03_002', 'c10_chem_cbse_03_004', 'c10_chem_cbse_03_006', 'c10_chem_cbse_03_008', 'c10_chem_cbse_03_009', 'c10_chem_cbse_01_005', 'c10_chem_cbse_02_007', 'c10_chem_cbse_05_006', 'c10_chem_cbse_05_009', 'c10_chem_cbse_05_010', 'c10_chem_cbse_04_001', 'c10_chem_cbse_04_009', 'c10_chem_cbse_03_003', 'c10_chem_cbse_03_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: a student sees a gold ornament shining (lustre), a blacksmith hammering.', goal: 'Master Physical Properties of Metals: Lustre, Hardness, Malleability, Ductility.' },
     discovery: {
         question: 'Why are metals generally malleable and ductile while ionic compounds like NaCl are brittle? Explain using the nature of bonding.',
@@ -20,7 +20,7 @@ export const w_c10_sciencemetalsandnonmetalssim: SimDef = {
         hook: 'Students often write "metals are malleable because they are soft" — confusing malleability (ability to deform under.',
     },
     teaching: [
-        { title: 'Physical properties of metals such as.', text: 'Physical properties of metals such as metallic lustre (shiny appearance due to reflection of light by free electrons), hardness (resistance to deformation, generally high except for alkali metals),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Physical properties of metals such as.', text: 'Physical properties of metals such as metallic lustre (shiny appearance due to reflection of light by free electrons), hardness (resistance to deformation, generally high except for alkali metals),.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_chem_cbse_03_001', title: 'Physical properties of metals such as.',

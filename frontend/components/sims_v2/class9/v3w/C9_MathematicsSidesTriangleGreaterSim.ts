@@ -11,7 +11,7 @@ export const w_c9_mathematicssidestrianglegreatersim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Perimeter of Plane Figures: Rectangle, Triangle, Square',
     chapters: [],
     nodeIds: ['c9_math_ch6_1', 'c9_math_ch6_5', 'c9_math_ch6_6', 'c9_math_ch6_7', 'c9_math_ch6_4'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are helping your family fence a rectangular garden that is 12 metres long and 8 metres wide.', goal: 'Master Perimeter of Plane Figures: Rectangle, Triangle, Square.' },
     discovery: {
         question: 'An isosceles triangle has a perimeter of 36 cm. The base is 4 cm less than each equal side. Find the length of each side.',
@@ -20,7 +20,7 @@ export const w_c9_mathematicssidestrianglegreatersim: SimDef = {
         hook: 'Students treat the perimeter formula $P = 2(l + b)$ as $P = 2l + b$ (forgetting to multiply breadth by 2) OR they add.',
     },
     teaching: [
-        { title: 'The perimeter of a plane figure is the total.', text: 'The perimeter of a plane figure is the total length of its boundary, calculated as the sum of the lengths of all its sides.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The perimeter of a plane figure is the total.', text: 'The perimeter of a plane figure is the total length of its boundary, calculated as the sum of the lengths of all its sides.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch6_1', title: 'The perimeter of a plane figure is the.',

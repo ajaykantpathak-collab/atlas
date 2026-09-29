@@ -517,10 +517,10 @@ const InteractiveOrbitalFiller: React.FC<OrbitalFillerProps> = ({ targetZ, onCom
   };
 
   return (
-    <div className="bg-slate-900 text-white p-6 rounded-2xl border border-indigo-500/30 shadow-xl max-w-2xl mx-auto my-4">
+    <div className="bg-slate-900 text-white p-6 rounded-2xl border border-gold-500/30 shadow-xl max-w-2xl mx-auto my-4">
       <div className="flex justify-between items-center mb-4">
         <div>
-          <h4 className="text-xl font-bold text-indigo-300">Interactive Orbital Filling Canvas</h4>
+          <h4 className="text-xl font-bold text-gold-300">Interactive Orbital Filling Canvas</h4>
           <p className="text-xs text-slate-400">Target Atom Z = {targetZ} | Electrons placed: <span className="font-bold text-emerald-400">{totalPlaced} / {targetZ}</span></p>
         </div>
         <div className="flex gap-2">
@@ -543,10 +543,10 @@ const InteractiveOrbitalFiller: React.FC<OrbitalFillerProps> = ({ targetZ, onCom
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
         {/* 1s */}
         <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700 text-center">
-          <span className="text-xs font-mono text-indigo-400 font-bold block mb-2">1s Orbital (n=1, l=0)</span>
+          <span className="text-xs font-mono text-gold-400 font-bold block mb-2">1s Orbital (n=1, l=0)</span>
           <div
             onClick={() => handleBoxClick('1s')}
-            className="w-16 h-16 mx-auto bg-slate-900 border-2 border-indigo-500/50 rounded-lg flex items-center justify-center gap-1 cursor-pointer hover:border-indigo-400 transition"
+            className="w-16 h-16 mx-auto bg-slate-900 border-2 border-gold-500/50 rounded-lg flex items-center justify-center gap-1 cursor-pointer hover:border-gold-400 transition"
           >
             {boxes.find(b => b.id === '1s')?.electrons.map((e, idx) => (
               <span key={idx} className={`text-2xl font-bold ${e === 'up' ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -558,10 +558,10 @@ const InteractiveOrbitalFiller: React.FC<OrbitalFillerProps> = ({ targetZ, onCom
 
         {/* 2s */}
         <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700 text-center">
-          <span className="text-xs font-mono text-indigo-400 font-bold block mb-2">2s Orbital (n=2, l=0)</span>
+          <span className="text-xs font-mono text-gold-400 font-bold block mb-2">2s Orbital (n=2, l=0)</span>
           <div
             onClick={() => handleBoxClick('2s')}
-            className="w-16 h-16 mx-auto bg-slate-900 border-2 border-indigo-500/50 rounded-lg flex items-center justify-center gap-1 cursor-pointer hover:border-indigo-400 transition"
+            className="w-16 h-16 mx-auto bg-slate-900 border-2 border-gold-500/50 rounded-lg flex items-center justify-center gap-1 cursor-pointer hover:border-gold-400 transition"
           >
             {boxes.find(b => b.id === '2s')?.electrons.map((e, idx) => (
               <span key={idx} className={`text-2xl font-bold ${e === 'up' ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -573,7 +573,7 @@ const InteractiveOrbitalFiller: React.FC<OrbitalFillerProps> = ({ targetZ, onCom
 
         {/* 2p Degenerate Set */}
         <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700 text-center md:col-span-1">
-          <span className="text-xs font-mono text-indigo-400 font-bold block mb-2">2p Degenerate Set (n=2, l=1)</span>
+          <span className="text-xs font-mono text-gold-400 font-bold block mb-2">2p Degenerate Set (n=2, l=1)</span>
           <div className="flex justify-center gap-2">
             {['2px', '2py', '2pz'].map(id => (
               <div key={id} className="text-center">
@@ -603,7 +603,7 @@ const InteractiveOrbitalFiller: React.FC<OrbitalFillerProps> = ({ targetZ, onCom
         </button>
         <button
           onClick={verifyFilling}
-          className="px-6 py-2.5 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 text-white rounded-xl text-xs font-bold shadow-lg transition transform active:scale-95"
+          className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-purple-600 hover:from-gold-400 hover:to-purple-500 text-white rounded-xl text-xs font-bold shadow-lg transition transform active:scale-95"
         >
           Verify Electronic Configuration
         </button>
@@ -643,12 +643,12 @@ const PeriodicTableExplorer: React.FC<PeriodicExplorerProps> = ({ selectedProper
     <div className="bg-slate-900 text-white p-5 rounded-2xl border border-slate-800 shadow-xl my-4">
       <div className="flex flex-wrap justify-between items-center mb-4 gap-2">
         <div>
-          <h4 className="text-lg font-bold text-indigo-300">Periodic Trend Visualizer</h4>
+          <h4 className="text-lg font-bold text-gold-300">Periodic Trend Visualizer</h4>
           <p className="text-xs text-slate-400">Current Metric: <span className="text-emerald-400 font-bold">{propertyLabel}</span></p>
         </div>
         <div className="flex gap-2">
           <span className="text-[10px] text-slate-400 self-center">Heatmap scale:</span>
-          <div className="w-24 h-3 rounded bg-gradient-to-r from-slate-800 via-indigo-600 to-emerald-400"></div>
+          <div className="w-24 h-3 rounded bg-gradient-to-r from-slate-800 via-gold-600 to-emerald-400"></div>
         </div>
       </div>
 
@@ -670,7 +670,7 @@ const PeriodicTableExplorer: React.FC<PeriodicExplorerProps> = ({ selectedProper
                 gridRow: el.period,
                 backgroundColor: isSelected ? '#10b981' : `rgba(79, 70, 229, ${ratio})`
               }}
-              className={`p-1.5 rounded-lg border flex flex-col items-center justify-center cursor-pointer transition transform hover:scale-110 ${isSelected ? 'border-white ring-2 ring-emerald-300' : 'border-indigo-500/30'}`}
+              className={`p-1.5 rounded-lg border flex flex-col items-center justify-center cursor-pointer transition transform hover:scale-110 ${isSelected ? 'border-white ring-2 ring-emerald-300' : 'border-gold-500/30'}`}
             >
               <span className="text-[9px] text-slate-300 font-mono">{el.z}</span>
               <span className="text-xs font-bold text-white">{el.symbol}</span>
@@ -681,13 +681,13 @@ const PeriodicTableExplorer: React.FC<PeriodicExplorerProps> = ({ selectedProper
       </div>
 
       {/* Selected Element Detail Panel */}
-      <div className="mt-4 p-4 bg-slate-800/90 rounded-xl border border-indigo-500/30 flex flex-wrap justify-between items-center gap-4">
+      <div className="mt-4 p-4 bg-slate-800/90 rounded-xl border border-gold-500/30 flex flex-wrap justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2">
             <span className="text-2xl font-bold text-emerald-400">{activeEl.symbol}</span>
             <div>
               <h5 className="text-sm font-bold text-white">{activeEl.name} (Z = {activeEl.z})</h5>
-              <p className="text-xs text-slate-400">Block: <span className="uppercase text-indigo-300 font-bold">{activeEl.block}-block</span> | Group {activeEl.group}, Period {activeEl.period}</p>
+              <p className="text-xs text-slate-400">Block: <span className="uppercase text-gold-300 font-bold">{activeEl.block}-block</span> | Group {activeEl.group}, Period {activeEl.period}</p>
             </div>
           </div>
           <p className="text-xs text-slate-300 mt-2 font-mono">Full Config: <span className="text-amber-300">{activeEl.config}</span> ({activeEl.configShort})</p>
@@ -696,7 +696,7 @@ const PeriodicTableExplorer: React.FC<PeriodicExplorerProps> = ({ selectedProper
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
           <div className="bg-slate-900/80 p-2 rounded-lg text-center">
             <span className="text-[10px] text-slate-400 block">Atomic Radius</span>
-            <span className="font-bold text-indigo-300">{activeEl.atomicRadius} pm</span>
+            <span className="font-bold text-gold-300">{activeEl.atomicRadius} pm</span>
           </div>
           <div className="bg-slate-900/80 p-2 rounded-lg text-center">
             <span className="text-[10px] text-slate-400 block">1st Ionisation Enthalpy</span>
@@ -724,19 +724,19 @@ const AtomicRadiusVisualizer: React.FC = () => {
     <div className="bg-slate-900 text-white p-5 rounded-2xl border border-slate-800 my-4">
       <div className="flex justify-between items-center mb-4">
         <div>
-          <h4 className="text-lg font-bold text-indigo-300">Atomic & Ionic Radius Visualizer</h4>
+          <h4 className="text-lg font-bold text-gold-300">Atomic & Ionic Radius Visualizer</h4>
           <p className="text-xs text-slate-400">Compare physical electron cloud expansion and contraction</p>
         </div>
         <div className="flex gap-2">
           <button
             onClick={() => { setMode('neutral_vs_ion'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${mode === 'neutral_vs_ion' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${mode === 'neutral_vs_ion' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
           >
             Atom vs Cation / Anion
           </button>
           <button
             onClick={() => { setMode('isoelectronic'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${mode === 'isoelectronic' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${mode === 'isoelectronic' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
           >
             Isoelectronic Series
           </button>
@@ -803,7 +803,7 @@ const AtomicRadiusVisualizer: React.FC = () => {
         </div>
       ) : (
         <div className="bg-slate-800/80 p-4 rounded-xl text-center border border-slate-700">
-          <h5 className="text-sm font-bold text-indigo-300 mb-3">{'10-Electron Isoelectronic Series ($N^{3-}$ to $Al^{3+}$)'}</h5>
+          <h5 className="text-sm font-bold text-gold-300 mb-3">{'10-Electron Isoelectronic Series ($N^{3-}$ to $Al^{3+}$)'}</h5>
           <div className="flex flex-wrap justify-center items-end gap-4 py-4">
             {[
               { name: 'N³⁻', z: 7, r: 146, color: '#ef4444' },
@@ -845,7 +845,7 @@ const OxideAcidityScale: React.FC = () => {
   const oxideData = {
     Na2O: {
       type: 'Basic Oxide',
-      color: 'from-blue-600 to-indigo-600',
+      color: 'from-gold-600 to-gold-600',
       reactionWithWater: 'Na₂O + H₂O → 2 NaOH (Strong Alkaline Solution, pH ~ 13)',
       reactionWithAcid: 'Na₂O + 2 HCl → 2 NaCl + H₂O',
       desc: 'Formed by strongly electropositive alkali metal (Group 1). Ionises completely to give OH⁻ ions.'
@@ -871,7 +871,7 @@ const OxideAcidityScale: React.FC = () => {
 
   return (
     <div className="bg-slate-900 text-white p-5 rounded-2xl border border-slate-800 my-4">
-      <h4 className="text-lg font-bold text-indigo-300 mb-1">Period 3 Oxide Character Scale</h4>
+      <h4 className="text-lg font-bold text-gold-300 mb-1">Period 3 Oxide Character Scale</h4>
       <p className="text-xs text-slate-400 mb-4">Electropositive Metals (Basic) $\rightarrow$ Metalloids (Amphoteric) $\rightarrow$ Non-Metals (Acidic)</p>
 
       {/* Selector Buttons */}
@@ -880,7 +880,7 @@ const OxideAcidityScale: React.FC = () => {
           <button
             key={ox}
             onClick={() => { setActiveOxide(ox); audioManager.play('tap'); }}
-            className={`py-2 px-3 rounded-xl font-bold text-xs transition border ${activeOxide === ox ? 'bg-indigo-600 border-white text-white shadow-lg' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'}`}
+            className={`py-2 px-3 rounded-xl font-bold text-xs transition border ${activeOxide === ox ? 'bg-gold-600 border-white text-white shadow-lg' : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'}`}
           >
             {ox}
           </button>
@@ -897,7 +897,7 @@ const OxideAcidityScale: React.FC = () => {
 
         <div className="space-y-2 text-xs font-mono bg-black/30 p-3 rounded-lg border border-white/20">
           <div><span className="text-emerald-300 font-bold">Water Reaction:</span> {curr.reactionWithWater}</div>
-          <div><span className="text-cyan-300 font-bold">Acid Reaction:</span> {curr.reactionWithAcid}</div>
+          <div><span className="text-gold-300 font-bold">Acid Reaction:</span> {curr.reactionWithAcid}</div>
           {curr.reactionWithBase && <div><span className="text-pink-300 font-bold">Base Reaction:</span> {curr.reactionWithBase}</div>}
         </div>
       </div>
@@ -1004,16 +1004,16 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
   const currChallenge = LAB_CHALLENGES[challengeIdx];
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-indigo-500 selection:text-white pb-12">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-gold-500 selection:text-white pb-12">
       {/* TOP NAVBAR */}
-      <header className="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-indigo-500/20 px-4 py-3 flex flex-wrap justify-between items-center shadow-lg">
+      <header className="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-gold-500/20 px-4 py-3 flex flex-wrap justify-between items-center shadow-lg">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center font-extrabold text-white text-xl shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-purple-600 flex items-center justify-center font-extrabold text-white text-xl shadow-lg">
             ⚛️
           </div>
           <div>
             <h1 className="text-base font-bold text-white leading-tight">ISC Class 11 Chemistry Simulator</h1>
-            <p className="text-xs text-indigo-400 font-mono">Aufbau, Pauli, Hund & Periodic Trends</p>
+            <p className="text-xs text-gold-400 font-mono">Aufbau, Pauli, Hund & Periodic Trends</p>
           </div>
         </div>
 
@@ -1021,25 +1021,25 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
         <nav className="flex gap-1 bg-slate-800/80 p-1 rounded-xl border border-slate-700 text-xs font-semibold">
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'discovery' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'discovery' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
           >
             1. Predict
           </button>
           <button
             onClick={() => { setActiveTab('slides'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'slides' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'slides' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
           >
             2. Learn
           </button>
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'lab' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'lab' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
           >
             3. Interactive Lab
           </button>
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'challenges' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg transition ${activeTab === 'challenges' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-slate-200'}`}
           >
             4. Challenges ({challengeIdx + 1}/{LAB_CHALLENGES.length})
           </button>
@@ -1064,9 +1064,9 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="bg-slate-900 border border-indigo-500/30 p-8 rounded-3xl shadow-2xl max-w-3xl mx-auto"
+              className="bg-slate-900 border border-gold-500/30 p-8 rounded-3xl shadow-2xl max-w-3xl mx-auto"
             >
-              <div className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+              <div className="inline-block px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
                 Discovery Challenge • Predict Before Learning
               </div>
               <h2 className="text-2xl font-extrabold text-white mb-4">
@@ -1083,10 +1083,10 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                       if (opt.isCorrect) setScore(s => s + 50);
                       setTimeout(() => setActiveTab('slides'), 2000);
                     }}
-                    className="w-full text-left p-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 hover:border-indigo-500 transition font-medium text-sm text-slate-200 flex items-center justify-between group"
+                    className="w-full text-left p-4 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 hover:border-gold-500 transition font-medium text-sm text-slate-200 flex items-center justify-between group"
                   >
                     <span>{opt.label}</span>
-                    <span className="text-xs text-indigo-400 opacity-0 group-hover:opacity-100 transition">Select →</span>
+                    <span className="text-xs text-gold-400 opacity-0 group-hover:opacity-100 transition">Select →</span>
                   </button>
                 ))}
               </div>
@@ -1104,7 +1104,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
             >
               <div className="flex justify-between items-center mb-6">
                 <div>
-                  <span className="text-xs font-mono text-indigo-400 font-bold uppercase tracking-wider">
+                  <span className="text-xs font-mono text-gold-400 font-bold uppercase tracking-wider">
                     ISC Module Slide {slideIdx + 1} of {TEACHING_SLIDES.length}
                   </span>
                   <h2 className="text-2xl font-bold text-white mt-1">
@@ -1116,7 +1116,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                 </span>
               </div>
 
-              <h3 className="text-sm font-semibold text-indigo-300 mb-4">
+              <h3 className="text-sm font-semibold text-gold-300 mb-4">
                 {TEACHING_SLIDES[slideIdx].subtitle}
               </h3>
 
@@ -1138,7 +1138,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                   {TEACHING_SLIDES.map((_, i) => (
                     <div
                       key={i}
-                      className={`w-2.5 h-2.5 rounded-full ${i === slideIdx ? 'bg-indigo-500' : 'bg-slate-800'}`}
+                      className={`w-2.5 h-2.5 rounded-full ${i === slideIdx ? 'bg-gold-500' : 'bg-slate-800'}`}
                     />
                   ))}
                 </div>
@@ -1146,7 +1146,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                 {slideIdx < TEACHING_SLIDES.length - 1 ? (
                   <button
                     onClick={() => { setSlideIdx(prev => prev + 1); audioManager.play('swoop'); }}
-                    className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-lg"
+                    className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold transition shadow-lg"
                   >
                     Next Slide →
                   </button>
@@ -1180,25 +1180,25 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                   <div className="flex gap-2">
                     <button
                       onClick={() => { setSelectedProp('atomicRadius'); audioManager.play('tap'); }}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'atomicRadius' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'atomicRadius' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       Radius
                     </button>
                     <button
                       onClick={() => { setSelectedProp('firstIE'); audioManager.play('tap'); }}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'firstIE' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'firstIE' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       IE₁
                     </button>
                     <button
                       onClick={() => { setSelectedProp('ege'); audioManager.play('tap'); }}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'ege' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'ege' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       EGE
                     </button>
                     <button
                       onClick={() => { setSelectedProp('en'); audioManager.play('tap'); }}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'en' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold ${selectedProp === 'en' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       EN
                     </button>
@@ -1221,7 +1221,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
               <div className="text-center pt-4">
                 <button
                   onClick={() => { setActiveTab('challenges'); audioManager.play('swoop'); }}
-                  className="px-8 py-3 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 hover:from-indigo-400 hover:to-pink-500 text-white font-extrabold rounded-2xl shadow-2xl transition transform active:scale-95 text-sm"
+                  className="px-8 py-3 bg-gradient-to-r from-gold-500 via-purple-600 to-pink-600 hover:from-gold-400 hover:to-pink-500 text-white font-extrabold rounded-2xl shadow-2xl transition transform active:scale-95 text-sm"
                 >
                   Start Mastery Challenges (10 Experiments) →
                 </button>
@@ -1236,12 +1236,12 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              className="bg-slate-900 border border-indigo-500/30 p-8 rounded-3xl shadow-2xl max-w-4xl mx-auto"
+              className="bg-slate-900 border border-gold-500/30 p-8 rounded-3xl shadow-2xl max-w-4xl mx-auto"
             >
               {/* Header */}
               <div className="flex justify-between items-center mb-6">
                 <div>
-                  <span className="text-xs font-mono text-indigo-400 font-bold uppercase tracking-wider">
+                  <span className="text-xs font-mono text-gold-400 font-bold uppercase tracking-wider">
                     Challenge {challengeIdx + 1} of {LAB_CHALLENGES.length} • Node: {currChallenge.nodeId}
                   </span>
                   <h2 className="text-2xl font-extrabold text-white mt-1">
@@ -1252,7 +1252,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                   <span className="text-xs font-mono text-slate-400">Progress:</span>
                   <div className="w-24 h-2 bg-slate-800 rounded-full overflow-hidden">
                     <div
-                      className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400 transition-all duration-300"
+                      className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 transition-all duration-300"
                       style={{ width: `${((challengeIdx + 1) / LAB_CHALLENGES.length) * 100}%` }}
                     />
                   </div>
@@ -1277,10 +1277,10 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                     <button
                       key={idx}
                       onClick={() => handleChallengeSubmit(opt.isCorrect, opt.feedback, currChallenge.nodeId)}
-                      className="w-full text-left p-4 rounded-xl bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-indigo-500 transition text-xs font-semibold text-slate-200 flex items-center justify-between"
+                      className="w-full text-left p-4 rounded-xl bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-gold-500 transition text-xs font-semibold text-slate-200 flex items-center justify-between"
                     >
                       <span>{opt.label}</span>
-                      <span className="text-indigo-400 font-mono text-[10px]">Select</span>
+                      <span className="text-gold-400 font-mono text-[10px]">Select</span>
                     </button>
                   ))}
                 </div>
@@ -1299,7 +1299,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                   </div>
                   <button
                     onClick={() => handleChallengeSubmit(true, "Perfect Isoelectronic ordering! High Z pulls electrons inwards tightly!", currChallenge.nodeId)}
-                    className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs transition mt-2"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs transition mt-2"
                   >
                     Confirm Isoelectronic Radius Sequence →
                   </button>
@@ -1312,7 +1312,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                     <button
                       key={idx}
                       onClick={() => handleChallengeSubmit(opt.isCorrect, opt.feedback, currChallenge.nodeId)}
-                      className="w-full text-left p-4 rounded-xl bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-indigo-500 transition text-xs font-semibold text-slate-200"
+                      className="w-full text-left p-4 rounded-xl bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-gold-500 transition text-xs font-semibold text-slate-200"
                     >
                       {opt.label}
                     </button>
@@ -1326,7 +1326,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                     <button
                       key={idx}
                       onClick={() => handleChallengeSubmit(opt.isCorrect, opt.feedback, currChallenge.nodeId)}
-                      className="w-full text-left p-4 rounded-xl bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-indigo-500 transition text-xs font-semibold text-slate-200"
+                      className="w-full text-left p-4 rounded-xl bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-gold-500 transition text-xs font-semibold text-slate-200"
                     >
                       {opt.label}
                     </button>
@@ -1360,7 +1360,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
               key="tab_summary"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="bg-slate-900 border border-indigo-500/30 p-8 rounded-3xl shadow-2xl max-w-3xl mx-auto text-center"
+              className="bg-slate-900 border border-gold-500/30 p-8 rounded-3xl shadow-2xl max-w-3xl mx-auto text-center"
             >
               <div className="w-16 h-16 bg-gradient-to-tr from-emerald-400 to-teal-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-4 shadow-xl">
                 🏆
@@ -1383,7 +1383,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
                   const level = getMasteryLevel(bkt);
                   return (
                     <div key={nodeId} className="p-2.5 bg-slate-800/80 rounded-xl border border-slate-700">
-                      <span className="text-[9px] font-mono text-indigo-400 block">{nodeId}</span>
+                      <span className="text-[9px] font-mono text-gold-400 block">{nodeId}</span>
                       <span className="text-xs font-bold text-white capitalize">{level}</span>
                     </div>
                   );
@@ -1392,7 +1392,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim() {
 
               <button
                 onClick={() => { setActiveTab('discovery'); setChallengeIdx(0); setScore(0); audioManager.play('swoop'); }}
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-extrabold rounded-xl shadow-lg transition text-xs"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-extrabold rounded-xl shadow-lg transition text-xs"
               >
                 Restart Simulation 🔄
               </button>

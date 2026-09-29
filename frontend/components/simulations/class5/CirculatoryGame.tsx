@@ -153,7 +153,7 @@ const TEACHING_SLIDES = [
     title: "Arteries vs Veins 🛣️",
     text: "Arteries are thick, strong blood vessels that carry blood AWAY from the heart under high pressure. Veins carry blood BACK to the heart and have special one-way valves to prevent blood from flowing backward!",
     emoji: "🛣️",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Arteries carry blood away from the heart with thick walls, while veins bring blood back with valves to stop backflow.",
   },
   {

@@ -1171,12 +1171,12 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-lg sm:text-xl font-extrabold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">ISC Class 12 Economics • Comprehensive Macro Simulator</p>
+            <p className="text-xs text-gold-400 font-medium">ISC Class 12 Economics • Comprehensive Macro Simulator</p>
           </div>
         </div>
         <div className="flex items-center gap-2 sm:gap-3">
@@ -1187,13 +1187,13 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
             className={`text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950/70 border-emerald-500/50 text-emerald-400' :
               difficulty === 'advanced' ? 'bg-rose-950/70 border-rose-500/50 text-rose-400' :
-              'bg-blue-950/70 border-blue-500/50 text-blue-400'
+              'bg-gold-950/70 border-gold-500/50 text-gold-400'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="text-xs px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-slate-300 font-mono">
-            Mastery: <span className="text-indigo-400 font-bold">{masteryLevel}</span>
+            Mastery: <span className="text-gold-400 font-bold">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1201,8 +1201,8 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/60 via-slate-900 to-purple-950/60 rounded-2xl border border-indigo-800/60 shadow-inner">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-r from-gold-950/60 via-slate-900 to-purple-950/60 rounded-2xl border border-gold-800/60 shadow-inner">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🚨</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1233,7 +1233,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                      : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                   }`}
                 >
                   <span className="mr-2 font-mono text-xs text-slate-400 font-bold">[{String.fromCharCode(65 + i)}]</span>
@@ -1251,7 +1251,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Macroeconomic Lab →
                 </motion.button>
@@ -1273,7 +1273,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                 onClick={() => { setCurrentSlide(idx); audioManager.play('tap'); }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/40'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/40'
                     : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                 }`}
               >
@@ -1291,7 +1291,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
-                <h3 className="text-base sm:text-lg font-bold text-indigo-300">
+                <h3 className="text-base sm:text-lg font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-md text-amber-300 font-medium">
@@ -1310,7 +1310,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400 font-semibold">Policy Repo Rate</span>
-                        <span className="text-indigo-400 font-bold font-mono">{repoRate.toFixed(2)}%</span>
+                        <span className="text-gold-400 font-bold font-mono">{repoRate.toFixed(2)}%</span>
                       </div>
                       <input
                         type="range"
@@ -1319,7 +1319,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                         step={0.25}
                         value={repoRate}
                         onChange={(e) => handleRepoSlider(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set Repo Rate"
                       />
                       <p className="text-[11px] text-slate-500">RBI Lending Rate to Commercial Banks</p>
@@ -1373,7 +1373,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     </div>
                     <div className="p-3 bg-slate-950/90 rounded-xl border border-slate-800">
                       <p className="text-[11px] text-slate-400">Lendable Funds Base</p>
-                      <p className="text-base font-bold text-cyan-400 font-mono mt-0.5">₹{lendableDeposits.toFixed(1)} L.Cr</p>
+                      <p className="text-base font-bold text-gold-400 font-mono mt-0.5">₹{lendableDeposits.toFixed(1)} L.Cr</p>
                       <p className="text-[10px] text-slate-500 mt-1">Free to extend loans</p>
                     </div>
                     <div className="p-3 bg-slate-950/90 rounded-xl border border-slate-800">
@@ -1414,7 +1414,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     <motion.button
                       whileTap={{ scale: 0.95 }}
                       onClick={() => { setSelectedSector('unsecured'); audioManager.play('tap'); }}
-                      className={`px-3 py-2 rounded-xl text-xs font-bold border ${selectedSector === 'unsecured' ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
+                      className={`px-3 py-2 rounded-xl text-xs font-bold border ${selectedSector === 'unsecured' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
                     >
                       Unsecured Personal Credit (Risk Weight 125%)
                     </motion.button>
@@ -1487,7 +1487,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     {/* Current Account Card */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between items-center text-xs pb-1 border-b border-slate-800">
-                        <span className="font-bold text-cyan-400">1. Current Account (Flows)</span>
+                        <span className="font-bold text-gold-400">1. Current Account (Flows)</span>
                         <span className={`font-mono font-bold ${currentAccountBalance >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
                           {currentAccountBalance >= 0 ? '+' : ''}{currentAccountBalance} $B
                         </span>
@@ -1495,7 +1495,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       <div className="text-xs space-y-1 text-slate-300 font-mono">
                         <div className="flex justify-between"><span>Visible Goods Exports:</span><span>+${merchandiseExports}B</span></div>
                         <div className="flex justify-between text-rose-300"><span>Visible Goods Imports:</span><span>-${merchandiseImports}B</span></div>
-                        <div className="flex justify-between text-cyan-300"><span>Software Invisibles:</span><span>+${softwareExports}B</span></div>
+                        <div className="flex justify-between text-gold-300"><span>Software Invisibles:</span><span>+${softwareExports}B</span></div>
                         <div className="flex justify-between text-emerald-300"><span>Diaspora Remittances:</span><span>+${inwardRemittances}B</span></div>
                       </div>
                     </div>
@@ -1508,16 +1508,16 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       </div>
                       <div className="text-xs space-y-1 text-slate-300 font-mono">
                         <div className="flex justify-between text-purple-200"><span>FDI Direct Inflows:</span><span>+${fdiInflows}B</span></div>
-                        <div className="flex justify-between text-indigo-200"><span>FII / FPI Portfolio:</span><span>+${fiiNetFlows}B</span></div>
+                        <div className="flex justify-between text-gold-200"><span>FII / FPI Portfolio:</span><span>+${fiiNetFlows}B</span></div>
                         <div className="flex justify-between text-slate-400"><span>ECB Borrowings:</span><span>+${ecbBorrowing}B</span></div>
                       </div>
                     </div>
                   </div>
 
                   {/* Balancing Reserve Entry */}
-                  <div className="p-3.5 bg-indigo-950/50 rounded-xl border border-indigo-700/60 flex flex-wrap items-center justify-between gap-3">
+                  <div className="p-3.5 bg-gold-950/50 rounded-xl border border-gold-700/60 flex flex-wrap items-center justify-between gap-3">
                     <div>
-                      <p className="text-xs font-bold text-indigo-200">3. Official Reserve Account (Accommodating Balancing Item)</p>
+                      <p className="text-xs font-bold text-gold-200">3. Official Reserve Account (Accommodating Balancing Item)</p>
                       <p className="text-[11px] text-slate-300 mt-0.5">
                         Autonomous Balance: <span className="font-mono font-bold text-amber-300">{autonomousBalance >= 0 ? '+' : ''}{autonomousBalance} $B</span> → RBI Reserve Action: <span className="font-mono font-bold text-emerald-300">{reserveChangeRequired >= 0 ? `+${reserveChangeRequired} $B (Drawdown/Credit)` : `${reserveChangeRequired} $B (Accretion/Debit)`}</span>
                       </p>
@@ -1556,7 +1556,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400 font-semibold">RBI Forex Market Intervention</span>
-                        <span className="text-cyan-400 font-bold font-mono">{rbiForexIntervention > 0 ? `Selling $${rbiForexIntervention}B` : 'No Intervention'}</span>
+                        <span className="text-gold-400 font-bold font-mono">{rbiForexIntervention > 0 ? `Selling $${rbiForexIntervention}B` : 'No Intervention'}</span>
                       </div>
                       <input
                         type="range"
@@ -1565,7 +1565,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                         step={5}
                         value={rbiForexIntervention}
                         onChange={(e) => { setRbiForexIntervention(parseInt(e.target.value)); audioManager.play('count'); }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set RBI Forex Intervention"
                       />
                       <p className="text-[11px] text-slate-500">Supplies USD from $640B Reserves to Smooth Volatility</p>
@@ -1610,7 +1610,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400 font-semibold">Capital Expenditure (Capex)</span>
-                        <span className="text-indigo-400 font-bold font-mono">₹{publicCapex.toFixed(2)} L.Cr</span>
+                        <span className="text-gold-400 font-bold font-mono">₹{publicCapex.toFixed(2)} L.Cr</span>
                       </div>
                       <input
                         type="range"
@@ -1619,7 +1619,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                         step={0.5}
                         value={publicCapex}
                         onChange={(e) => handleCapexSlider(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set Public Capex"
                       />
                       <p className="text-[11px] text-slate-500">High Multiplier Infrastructure Spending</p>
@@ -1690,7 +1690,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => { setCurrentSlide(s => s + 1); audioManager.play('tap'); }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs sm:text-sm font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs sm:text-sm font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1713,7 +1713,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h3 className="text-base font-bold text-indigo-300">Macroeconomic Control Sandbox (Zero Pressure)</h3>
+              <h3 className="text-base font-bold text-gold-300">Macroeconomic Control Sandbox (Zero Pressure)</h3>
               <p className="text-xs text-slate-400 mt-0.5">Manipulate any combination of monetary, forex, and fiscal dials. Observe the live Canvas & Dashboard.</p>
             </div>
             <motion.button
@@ -1737,7 +1737,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => { setActiveTab(tab); audioManager.play('tap'); }}
                 className={`px-3.5 py-1.5 rounded-xl text-xs font-bold capitalize ${
-                  activeTab === tab ? 'bg-indigo-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
+                  activeTab === tab ? 'bg-gold-600 text-white shadow' : 'bg-slate-900 text-slate-400 hover:text-slate-200'
                 }`}
               >
                 {tab} Levers
@@ -1750,7 +1750,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="space-y-1">
                   <label className="text-xs text-slate-400">Repo Rate ({repoRate}%)</label>
-                  <input type="range" min={4.0} max={8.5} step={0.25} value={repoRate} onChange={(e) => handleRepoSlider(parseFloat(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={4.0} max={8.5} step={0.25} value={repoRate} onChange={(e) => handleRepoSlider(parseFloat(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div className="space-y-1">
                   <label className="text-xs text-slate-400">CRR ({crrRate}%)</label>
@@ -1761,7 +1761,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   <input type="range" min={15} max={25} step={0.5} value={slrRate} onChange={(e) => { setSlrRate(parseFloat(e.target.value)); audioManager.play('count'); }} className="w-full accent-amber-500" />
                 </div>
                 <div className="sm:col-span-3 pt-2 grid grid-cols-3 gap-3 text-center">
-                  <div className="p-2 bg-slate-950 rounded-lg text-xs"><span className="text-slate-400">Lendable:</span> <span className="font-bold text-cyan-300 font-mono">₹{lendableDeposits.toFixed(1)} L.Cr</span></div>
+                  <div className="p-2 bg-slate-950 rounded-lg text-xs"><span className="text-slate-400">Lendable:</span> <span className="font-bold text-gold-300 font-mono">₹{lendableDeposits.toFixed(1)} L.Cr</span></div>
                   <div className="p-2 bg-slate-950 rounded-lg text-xs"><span className="text-slate-400">Multiplier:</span> <span className="font-bold text-purple-300 font-mono">{creditMultiplier.toFixed(1)}x</span></div>
                   <div className="p-2 bg-slate-950 rounded-lg text-xs"><span className="text-slate-400">Lending MCLR:</span> <span className="font-bold text-rose-300 font-mono">{bankLendingRateMCLR.toFixed(2)}%</span></div>
                 </div>
@@ -1777,7 +1777,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   </div>
                   <div>
                     <label className="text-slate-400">IT Exports ($B): {softwareExports}</label>
-                    <input type="range" min={150} max={250} step={5} value={softwareExports} onChange={(e) => setSoftwareExports(parseInt(e.target.value))} className="w-full accent-cyan-500" />
+                    <input type="range" min={150} max={250} step={5} value={softwareExports} onChange={(e) => setSoftwareExports(parseInt(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-slate-400">Remittances ($B): {inwardRemittances}</label>
@@ -1805,7 +1805,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   </div>
                   <div>
                     <label className="text-slate-400">US Fed Funds Rate: {usFedRate}%</label>
-                    <input type="range" min={1} max={7} step={0.25} value={usFedRate} onChange={(e) => setUsFedRate(parseFloat(e.target.value))} className="w-full accent-cyan-500" />
+                    <input type="range" min={1} max={7} step={0.25} value={usFedRate} onChange={(e) => setUsFedRate(parseFloat(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
                 <p className="text-center text-sm font-bold text-amber-300 font-mono bg-slate-950 p-2 rounded-lg">
@@ -1819,7 +1819,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div>
                     <label className="text-slate-400">Infra Capex: ₹{publicCapex.toFixed(1)} L.Cr</label>
-                    <input type="range" min={5} max={16} step={0.5} value={publicCapex} onChange={(e) => handleCapexSlider(parseFloat(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={5} max={16} step={0.5} value={publicCapex} onChange={(e) => handleCapexSlider(parseFloat(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <label className="text-slate-400">Direct Tax Efficiency: {directTaxRate}%</label>
@@ -1848,7 +1848,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded font-mono uppercase text-[10px] border border-indigo-800">
+                <span className="px-2 py-0.5 bg-gold-950 text-gold-300 rounded font-mono uppercase text-[10px] border border-gold-800">
                   NEP: {challenge.competencyLevel}
                 </span>
                 <span className="text-slate-400 font-mono">
@@ -1858,7 +1858,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
             </div>
             <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1897,7 +1897,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                           ? isSelected
                             ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950'
                             : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                          : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                       }`}
                     >
                       <span className="mr-2 font-mono font-bold text-slate-400">[{String.fromCharCode(65 + i)}]</span>
@@ -1920,7 +1920,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700/80 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold cursor-grab border border-indigo-500/50 shadow"
+                      className="px-3 py-1.5 bg-gold-700/80 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold cursor-grab border border-gold-500/50 shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -1955,7 +1955,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 4}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -1983,7 +1983,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center justify-between"
                     >
-                      <span><strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}</span>
+                      <span><strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}</span>
                       <span className="text-slate-500 text-xs">↕ Drag</span>
                     </motion.div>
                   ))}
@@ -1993,7 +1993,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
                 >
                   Check Sequence →
                 </motion.button>
@@ -2009,7 +2009,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-56"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-56"
                     aria-label="Numeric answer input"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
@@ -2018,7 +2018,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
                   >
                     Submit Answer
                   </motion.button>
@@ -2037,7 +2037,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-700/60 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 text-gold-200 border border-gold-700/60 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2050,7 +2050,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-600 text-white text-xs rounded-md flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-600 text-white text-xs rounded-md flex items-center gap-1.5"
                     >
                       {p}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, j) => j !== idx))} className="text-rose-300 font-bold">×</button>
@@ -2064,7 +2064,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl text-xs sm:text-sm font-bold shadow"
                 >
                   Verify Reform Package
                 </motion.button>
@@ -2076,9 +2076,9 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 bg-indigo-950/40 border border-indigo-700/60 rounded-xl space-y-3"
+                className="mt-5 p-4 bg-gold-950/40 border border-gold-700/60 rounded-xl space-y-3"
               >
-                <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Step-by-Step Concept Breakdown:</p>
+                <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">Step-by-Step Concept Breakdown:</p>
                 {challenge.explanation
                   .split('. ')
                   .filter(s => s.trim().length > 0)
@@ -2090,7 +2090,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs sm:text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400">{sIdx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
+                      <strong className="text-gold-400">{sIdx + 1}.</strong> {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
 
@@ -2100,7 +2100,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(r => r + 1)}
-                      className="px-4 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Next Step In Breakdown →
                     </motion.button>
@@ -2124,7 +2124,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & REVIEW SCHEDULE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-600/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-600/50 text-center space-y-3">
             <h2 className="text-2xl sm:text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-base text-emerald-400 font-bold font-mono">
               Final Macro Score: {Math.max(0, 100 - errors * 5)}% • BKT Mastery: {masteryLevel.toUpperCase()}
@@ -2170,7 +2170,7 @@ export default function C12_EconomicsQuantitativeMethodsCreditSim({
 
           {/* Real World Dossier Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs sm:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>

@@ -814,13 +814,13 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
       {/* ─── TOP HEADER & NAV ─── */}
       <header className="w-full max-w-5xl flex flex-col md:flex-row items-center justify-between gap-4 border-b border-slate-800 pb-4 mb-6">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-black text-xl shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-black text-xl shadow-lg shadow-gold-500/20">
             ⚡
           </div>
           <div>
             <h1 className="text-xl font-bold tracking-tight text-white flex items-center gap-2">
               Electrostatic Potential & Capacitance
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-cyan-950 border border-cyan-500/30 text-cyan-400">
+              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-gold-950 border border-gold-500/30 text-gold-400">
                 CBSE Class 12 Physics
               </span>
             </h1>
@@ -835,7 +835,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
               key={p}
               className={`px-3 py-1.5 rounded-lg capitalize transition-all font-medium ${
                 phase === p
-                  ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -855,8 +855,8 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="w-full bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-10 flex flex-col items-center text-center max-w-3xl shadow-2xl relative overflow-hidden"
           >
-            <div className="absolute -top-24 -right-24 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-            <div className="w-16 h-16 rounded-2xl bg-cyan-950 border border-cyan-500/40 text-cyan-400 flex items-center justify-center text-3xl mb-6 shadow-xl">
+            <div className="absolute -top-24 -right-24 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="w-16 h-16 rounded-2xl bg-gold-950 border border-gold-500/40 text-gold-400 flex items-center justify-center text-3xl mb-6 shadow-xl">
               🛰️
             </div>
 
@@ -869,13 +869,13 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             </p>
 
             <div className="bg-slate-950/70 border border-slate-800 rounded-xl p-4 text-left text-xs md:text-sm text-slate-400 mb-8 w-full">
-              <strong className="text-cyan-400 block mb-1">Mission Context:</strong>
+              <strong className="text-gold-400 block mb-1">Mission Context:</strong>
               {SCENARIO.context}
             </div>
 
             <button
               onClick={handleStartDiscovery}
-              className="px-8 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-base shadow-lg shadow-cyan-500/25 hover:brightness-110 active:scale-95 transition-all"
+              className="px-8 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-base shadow-lg shadow-gold-500/25 hover:brightness-110 active:scale-95 transition-all"
             >
               Initiate Diagnostic Calibration →
             </button>
@@ -889,7 +889,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             className="w-full max-w-3xl bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl"
           >
-            <div className="flex items-center gap-2 text-cyan-400 font-semibold text-xs tracking-wider uppercase mb-3">
+            <div className="flex items-center gap-2 text-gold-400 font-semibold text-xs tracking-wider uppercase mb-3">
               <span>Predict-Before-Learn Hypothesis</span>
             </div>
 
@@ -908,12 +908,12 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                   }}
                   className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start gap-3 ${
                     discoveryAnswer === idx
-                      ? 'border-cyan-500 bg-cyan-950/40 text-cyan-100 font-medium'
+                      ? 'border-gold-500 bg-gold-950/40 text-gold-100 font-medium'
                       : 'border-slate-800 bg-slate-950/40 text-slate-300 hover:border-slate-700'
                   }`}
                 >
                   <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 ${
-                    discoveryAnswer === idx ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-400'
+                    discoveryAnswer === idx ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                   }`}>
                     {String.fromCharCode(65 + idx)}
                   </span>
@@ -928,7 +928,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                 onClick={handleDiscoverySubmit}
                 className={`w-full py-3 rounded-xl font-bold transition-all ${
                   discoveryAnswer !== null
-                    ? 'bg-cyan-600 text-white hover:bg-cyan-500 shadow-lg shadow-cyan-600/30'
+                    ? 'bg-gold-600 text-white hover:bg-gold-500 shadow-lg shadow-gold-600/30'
                     : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                 }`}
               >
@@ -949,7 +949,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
 
                 <button
                   onClick={handleProceedToTeach}
-                  className="w-full py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold hover:brightness-110 shadow-lg"
+                  className="w-full py-3 rounded-xl bg-gradient-to-r from-gold-600 to-gold-500 text-white font-bold hover:brightness-110 shadow-lg"
                 >
                   Begin Interactive Module →
                 </button>
@@ -969,7 +969,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
           >
             <div>
               <div className="flex items-center justify-between text-xs text-slate-400 mb-4">
-                <span className="text-cyan-400 font-semibold uppercase tracking-wider">Concept Slide {currentSlide + 1} of {TEACHING_SLIDES.length}</span>
+                <span className="text-gold-400 font-semibold uppercase tracking-wider">Concept Slide {currentSlide + 1} of {TEACHING_SLIDES.length}</span>
                 <span>CBSE Syllabus Core</span>
               </div>
 
@@ -981,7 +981,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                 <div className="text-slate-300 text-sm md:text-base leading-relaxed space-y-4">
                   <p>{TEACHING_SLIDES[currentSlide].content}</p>
                   
-                  <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-cyan-300 font-mono text-xs md:text-sm">
+                  <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-gold-300 font-mono text-xs md:text-sm">
                     <strong>Formula:</strong> {TEACHING_SLIDES[currentSlide].formula}
                   </div>
                 </div>
@@ -1097,7 +1097,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                   <div
                     key={i}
                     className={`w-2.5 h-2.5 rounded-full ${
-                      i === currentSlide ? 'bg-cyan-500 w-6' : 'bg-slate-700'
+                      i === currentSlide ? 'bg-gold-500 w-6' : 'bg-slate-700'
                     } transition-all`}
                   />
                 ))}
@@ -1105,7 +1105,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
 
               <button
                 onClick={handleNextSlide}
-                className="px-5 py-2 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-sm shadow-md shadow-cyan-600/30 transition-all"
+                className="px-5 py-2 rounded-lg bg-gold-600 hover:bg-gold-500 text-white font-semibold text-sm shadow-md shadow-gold-600/30 transition-all"
               >
                 {currentSlide === TEACHING_SLIDES.length - 1 ? 'Enter Interactive Lab →' : 'Next Concept →'}
               </button>
@@ -1144,7 +1144,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                       activeLabTab === tab.id
-                        ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30'
+                        ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                         : 'bg-slate-800/80 text-slate-400 hover:text-slate-200'
                     }`}
                   >
@@ -1172,7 +1172,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                 </div>
 
                 <div className="bg-slate-950/80 rounded-xl border border-slate-800 p-4 flex flex-col gap-4 text-xs">
-                  <h4 className="font-bold text-cyan-400 text-sm">Charge Controls</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Charge Controls</h4>
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
@@ -1191,7 +1191,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
-                      Charge Q2: <span className="text-blue-400 font-bold">{chargeQ2} nC</span>
+                      Charge Q2: <span className="text-gold-400 font-bold">{chargeQ2} nC</span>
                     </label>
                     <input
                       type="range"
@@ -1200,7 +1200,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       step="1"
                       value={chargeQ2}
                       onChange={(e) => setChargeQ2(Number(e.target.value))}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1209,7 +1209,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     <button
                       onClick={() => setShowEquipotentials(!showEquipotentials)}
                       className={`px-3 py-1 rounded-md font-bold transition-all ${
-                        showEquipotentials ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                        showEquipotentials ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {showEquipotentials ? 'ON' : 'OFF'}
@@ -1255,7 +1255,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       className="transition-all duration-300 flex items-center justify-center relative border-x border-dashed border-slate-800 my-1"
                     >
                       {slabInserted && (
-                        <div className="w-full h-full bg-cyan-500/20 border-2 border-cyan-400/60 rounded flex items-center justify-center text-cyan-300 font-bold text-xs backdrop-blur-sm">
+                        <div className="w-full h-full bg-gold-500/20 border-2 border-gold-400/60 rounded flex items-center justify-center text-gold-300 font-bold text-xs backdrop-blur-sm">
                           Dielectric Medium (K = {dielectricK})
                         </div>
                       )}
@@ -1274,7 +1274,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                   <div className="grid grid-cols-4 gap-2 text-center bg-slate-900 p-3 rounded-xl border border-slate-800 text-xs">
                     <div>
                       <span className="text-slate-400 block">Capacitance</span>
-                      <strong className="text-cyan-400 text-sm">{calcCapacitance.cap_pF} pF</strong>
+                      <strong className="text-gold-400 text-sm">{calcCapacitance.cap_pF} pF</strong>
                     </div>
                     <div>
                       <span className="text-slate-400 block">Charge Q</span>
@@ -1293,7 +1293,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
 
                 {/* CONTROLS */}
                 <div className="bg-slate-950/80 rounded-xl border border-slate-800 p-4 flex flex-col gap-4 text-xs">
-                  <h4 className="font-bold text-cyan-400 text-sm">Capacitor Controls</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Capacitor Controls</h4>
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
@@ -1305,7 +1305,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       max="160"
                       value={plateArea}
                       onChange={(e) => setPlateArea(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1319,13 +1319,13 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       max="8"
                       value={plateDistance}
                       onChange={(e) => setPlateDistance(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
-                      Dielectric Constant (K): <span className="text-cyan-400 font-bold">{dielectricK}</span>
+                      Dielectric Constant (K): <span className="text-gold-400 font-bold">{dielectricK}</span>
                     </label>
                     <input
                       type="range"
@@ -1334,7 +1334,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       step="0.5"
                       value={dielectricK}
                       onChange={(e) => setDielectricK(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1342,7 +1342,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     <button
                       onClick={() => setSlabInserted(!slabInserted)}
                       className={`py-2 rounded-lg font-bold transition-all ${
-                        slabInserted ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'
+                        slabInserted ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                       }`}
                     >
                       {slabInserted ? 'Slab Inserted ✔' : 'Insert Dielectric Slab'}
@@ -1373,7 +1373,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       <button
                         onClick={() => setCircuitMode('series')}
                         className={`px-3 py-1 rounded font-bold ${
-                          circuitMode === 'series' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                          circuitMode === 'series' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Series Circuit
@@ -1381,7 +1381,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       <button
                         onClick={() => setCircuitMode('parallel')}
                         className={`px-3 py-1 rounded font-bold ${
-                          circuitMode === 'parallel' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                          circuitMode === 'parallel' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Parallel Circuit
@@ -1438,7 +1438,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                   <div className="grid grid-cols-3 gap-2 text-center bg-slate-900 p-3 rounded-xl border border-slate-800 text-xs">
                     <div>
                       <span className="text-slate-400 block">Equivalent Ceq</span>
-                      <strong className="text-cyan-400 text-sm">{calcCircuitProps.Ceq} µF</strong>
+                      <strong className="text-gold-400 text-sm">{calcCircuitProps.Ceq} µF</strong>
                     </div>
                     <div>
                       <span className="text-slate-400 block">Total Charge Q</span>
@@ -1453,11 +1453,11 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
 
                 {/* CONTROLS */}
                 <div className="bg-slate-950/80 rounded-xl border border-slate-800 p-4 flex flex-col gap-4 text-xs">
-                  <h4 className="font-bold text-cyan-400 text-sm">Component Values</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Component Values</h4>
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
-                      Capacitor C1: <span className="text-cyan-400 font-bold">{c1Value} µF</span>
+                      Capacitor C1: <span className="text-gold-400 font-bold">{c1Value} µF</span>
                     </label>
                     <input
                       type="range"
@@ -1465,13 +1465,13 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       max="12"
                       value={c1Value}
                       onChange={(e) => setC1Value(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
-                      Capacitor C2: <span className="text-cyan-400 font-bold">{c2Value} µF</span>
+                      Capacitor C2: <span className="text-gold-400 font-bold">{c2Value} µF</span>
                     </label>
                     <input
                       type="range"
@@ -1479,7 +1479,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       max="12"
                       value={c2Value}
                       onChange={(e) => setC2Value(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1519,7 +1519,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                         sparkFired
                           ? 'border-amber-400 bg-amber-500/30 shadow-2xl shadow-amber-500'
                           : vdgCharged
-                          ? 'border-cyan-400 bg-cyan-500/20 shadow-xl shadow-cyan-500/40'
+                          ? 'border-gold-400 bg-gold-500/20 shadow-xl shadow-gold-500/40'
                           : 'border-slate-500 bg-slate-800'
                       } flex items-center justify-center transition-all duration-300 relative`}
                     >
@@ -1543,13 +1543,13 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     </div>
                     <div>
                       <span className="text-slate-400 block">Sphere Capacitance</span>
-                      <strong className="text-cyan-400 text-sm">{calcVDG.C_sphere_pF} pF</strong>
+                      <strong className="text-gold-400 text-sm">{calcVDG.C_sphere_pF} pF</strong>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-slate-950/80 rounded-xl border border-slate-800 p-4 flex flex-col gap-4 text-xs">
-                  <h4 className="font-bold text-cyan-400 text-sm">Generator Controls</h4>
+                  <h4 className="font-bold text-gold-400 text-sm">Generator Controls</h4>
 
                   <div>
                     <label className="block text-slate-300 font-medium mb-1">
@@ -1562,7 +1562,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                       step="0.1"
                       value={vdgRadius}
                       onChange={(e) => setVdgRadius(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1573,7 +1573,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                         setVdgCharged(true);
                         setSparkFired(false);
                       }}
-                      className="py-2.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white font-bold transition-all"
+                      className="py-2.5 rounded-lg bg-gold-600 hover:bg-gold-500 text-white font-bold transition-all"
                     >
                       Transfer Charge via Belt
                     </button>
@@ -1602,7 +1602,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             <div className="flex justify-end pt-4 border-t border-slate-800">
               <button
                 onClick={handleProceedToChallenges}
-                className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm shadow-lg shadow-cyan-500/25 hover:brightness-110 transition-all"
+                className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-500/25 hover:brightness-110 transition-all"
               >
                 Proceed to Exam Challenges (10 Questions) →
               </button>
@@ -1621,7 +1621,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             {/* CHALLENGE HEADER */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div className="flex items-center gap-2">
-                <span className="px-2.5 py-1 rounded-md bg-cyan-950 border border-cyan-500/30 text-cyan-400 font-bold text-xs">
+                <span className="px-2.5 py-1 rounded-md bg-gold-950 border border-gold-500/30 text-gold-400 font-bold text-xs">
                   Challenge {challengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <span className="text-xs text-slate-400 capitalize">
@@ -1650,12 +1650,12 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     }}
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start gap-3 ${
                       selectedOption === idx
-                        ? 'border-cyan-500 bg-cyan-950/40 text-cyan-100 font-medium'
+                        ? 'border-gold-500 bg-gold-950/40 text-gold-100 font-medium'
                         : 'border-slate-800 bg-slate-950/40 text-slate-300 hover:border-slate-700'
                     }`}
                   >
                     <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 ${
-                      selectedOption === idx ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-400'
+                      selectedOption === idx ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                     }`}>
                       {String.fromCharCode(65 + idx)}
                     </span>
@@ -1677,10 +1677,10 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     value={userNumericInput}
                     onChange={(e) => setUserNumericInput(e.target.value)}
                     placeholder="e.g. 24"
-                    className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white text-base focus:border-cyan-500 focus:outline-none"
+                    className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white text-base focus:border-gold-500 focus:outline-none"
                   />
                   {CHALLENGES[challengeIdx].unit && (
-                    <span className="text-sm font-bold text-cyan-400 bg-slate-950 border border-slate-800 px-4 py-3 rounded-xl">
+                    <span className="text-sm font-bold text-gold-400 bg-slate-950 border border-slate-800 px-4 py-3 rounded-xl">
                       {CHALLENGES[challengeIdx].unit}
                     </span>
                   )}
@@ -1698,7 +1698,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                     <select
                       value={dragState[item.targetId] || ''}
                       onChange={(e) => setDragState({ ...dragState, [item.targetId]: e.target.value })}
-                      className="bg-slate-900 border border-slate-700 text-cyan-300 text-xs rounded-lg px-3 py-2 outline-none"
+                      className="bg-slate-900 border border-slate-700 text-gold-300 text-xs rounded-lg px-3 py-2 outline-none"
                     >
                       <option value="">-- Select Property --</option>
                       {CHALLENGES[challengeIdx].dragItems?.map((opt) => (
@@ -1714,7 +1714,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             {challengeFeedback === null ? (
               <button
                 onClick={handleChallengeSubmit}
-                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm shadow-lg shadow-cyan-500/25 hover:brightness-110 transition-all"
+                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-500/25 hover:brightness-110 transition-all"
               >
                 Validate Solution
               </button>
@@ -1733,7 +1733,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
 
                 <button
                   onClick={handleNextChallenge}
-                  className="w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm hover:brightness-110 shadow-lg"
+                  className="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm hover:brightness-110 shadow-lg"
                 >
                   {challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Module Diagnostic 🎉'}
                 </button>
@@ -1765,7 +1765,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Final Score</span>
-                <strong className="text-2xl font-bold text-cyan-400">{score} pts</strong>
+                <strong className="text-2xl font-bold text-gold-400">{score} pts</strong>
               </div>
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Nodes Mastered</span>
@@ -1797,7 +1797,7 @@ const C12_PhysicsElectrostaticPotentialCapacitanceCBSESim: React.FC = () => {
                 audioManager.play('whoosh');
                 setPhase('intro');
               }}
-              className="px-8 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm hover:brightness-110 shadow-lg shadow-cyan-500/25 transition-all"
+              className="px-8 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm hover:brightness-110 shadow-lg shadow-gold-500/25 transition-all"
             >
               Restart Mission Module
             </button>

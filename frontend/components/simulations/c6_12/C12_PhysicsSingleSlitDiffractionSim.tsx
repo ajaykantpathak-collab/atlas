@@ -1381,13 +1381,13 @@ function C12_PhysicsSingleSlitDiffractionSim({
           <motion.div
             whileHover={{ rotate: 180, scale: 1.1 }}
             transition={{ duration: 0.5 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-wider font-semibold text-indigo-400 bg-indigo-950/80 px-2.5 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs uppercase tracking-wider font-semibold text-gold-400 bg-gold-950/80 px-2.5 py-0.5 rounded-full border border-gold-800">
                 ISC Class 12 Physics • Wave & Quantum Optics
               </span>
               <motion.span
@@ -1396,7 +1396,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                 animate={{ scale: 1 }}
                 className={`text-xs px-2.5 py-0.5 rounded-full font-bold uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                  difficulty === 'standard' ? 'bg-sky-950 text-sky-400 border border-sky-800' :
+                  difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                   'bg-rose-950 text-rose-400 border border-rose-800'
                 }`}
               >
@@ -1415,7 +1415,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
               whileHover={{ scale: 1.05 }}
               className={`px-3 py-1.5 rounded-lg capitalize font-medium transition-colors ${
                 phase === pStep
-                  ? 'bg-indigo-600 text-white shadow-lg'
+                  ? 'bg-gold-600 text-white shadow-lg'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1428,10 +1428,10 @@ function C12_PhysicsSingleSlitDiffractionSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 bg-indigo-900/30 p-3 rounded-xl border border-indigo-700/40">
+            <p className="text-xs text-gold-200/80 bg-gold-900/30 p-3 rounded-xl border border-gold-700/40">
               🔭 <strong>Field Context:</strong> {SCENARIO.context}
             </p>
           </motion.div>
@@ -1456,7 +1456,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg'
                       : discoveryAnswered && idx !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1481,7 +1481,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Laboratories"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1503,8 +1503,8 @@ function C12_PhysicsSingleSlitDiffractionSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div className="flex items-center justify-between">
-                <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
-                  <span className="w-7 h-7 rounded-lg bg-indigo-600 text-white text-xs flex items-center justify-center">
+                <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
+                  <span className="w-7 h-7 rounded-lg bg-gold-600 text-white text-xs flex items-center justify-center">
                     {currentSlide + 1}
                   </span>
                   {EXPLORATION_STEPS[currentSlide].title}
@@ -1521,9 +1521,9 @@ function C12_PhysicsSingleSlitDiffractionSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-3"
+                  className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-3"
                 >
-                  <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                  <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                     <span>🔮 Brilliant Predict-Then-Check</span>
                   </div>
                   <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[currentSlide].question}</p>
@@ -1547,7 +1547,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                               ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                               : answered && isChosen
                               ? 'bg-rose-950 border-rose-500 text-rose-200'
-                              : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:border-indigo-400'
+                              : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:border-gold-400'
                           }`}
                         >
                           {String.fromCharCode(65 + oIdx)}. {opt}
@@ -1556,7 +1556,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     })}
                   </div>
                   {predictionAnswered[currentSlide] !== undefined && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-900 rounded-lg text-xs border border-indigo-800">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-900 rounded-lg text-xs border border-gold-800">
                       <p className="text-emerald-300 font-semibold mb-1">🔬 Verify in the interactive sim below:</p>
                       <p className="text-slate-300">{PREDICTION_QUESTIONS[currentSlide].verifyInstruction}</p>
                     </motion.div>
@@ -1595,7 +1595,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={slitWidthMicrons}
                           aria-label="Adjust slit width"
                           onChange={(e) => setSlitWidthMicrons(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1609,12 +1609,12 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={wavelengthNm}
                           aria-label="Adjust light wavelength"
                           onChange={(e) => setWavelengthNm(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
                       <motion.div whileHover={{ scale: 1.02 }} className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 flex flex-col justify-center">
                         <span className="text-slate-400 font-mono">Central Width = 2Dλ / a:</span>
-                        <span className="text-indigo-400 font-bold text-sm font-mono">{centralLinearWidthMm.toFixed(2)} mm</span>
+                        <span className="text-gold-400 font-bold text-sm font-mono">{centralLinearWidthMm.toFixed(2)} mm</span>
                       </motion.div>
                     </div>
                   </div>
@@ -1661,9 +1661,9 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={lightFrequencyPHz}
                           aria-label="Adjust light frequency"
                           onChange={(e) => setLightFrequencyPHz(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
-                        <span className="text-sky-300 font-mono">E = {incidentPhotonEnergyEv.toFixed(2)} eV</span>
+                        <span className="text-gold-300 font-mono">E = {incidentPhotonEnergyEv.toFixed(2)} eV</span>
                       </div>
                       <div>
                         <label className="text-slate-400 block mb-1">Light Intensity: {lightIntensityPct}%</label>
@@ -1708,7 +1708,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           aria-label={`Select particle: ${part.replace('_', ' ')}`}
                           className={`p-4 rounded-xl border text-left transition-all ${
                             selectedParticle === part
-                              ? 'bg-indigo-950 border-indigo-500 text-white'
+                              ? 'bg-gold-950 border-gold-500 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1723,7 +1723,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs">
                         <label className="text-slate-300 font-semibold">Accelerating Voltage (V): {acceleratingVoltageV} Volts</label>
-                        <span className="text-indigo-400 font-mono">p = sqrt(2mqV)</span>
+                        <span className="text-gold-400 font-mono">p = sqrt(2mqV)</span>
                       </div>
                       <input
                         type="range"
@@ -1733,7 +1733,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                         value={acceleratingVoltageV}
                         aria-label="Accelerating voltage in volts"
                         onChange={(e) => setAcceleratingVoltageV(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap justify-between items-center text-xs">
                         <div>
@@ -1807,7 +1807,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleBohrTransitionTrigger(2, 1)}
                             aria-label="Transition n=2 to n=1 Lyman alpha"
-                            className="p-2.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700 rounded-lg text-white font-medium text-left"
+                            className="p-2.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 rounded-lg text-white font-medium text-left"
                           >
                             n=2 → n=1 (Lyman-α, 10.2 eV)
                           </motion.button>
@@ -1816,7 +1816,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleBohrTransitionTrigger(3, 1)}
                             aria-label="Transition n=3 to n=1 Lyman beta"
-                            className="p-2.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700 rounded-lg text-white font-medium text-left"
+                            className="p-2.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 rounded-lg text-white font-medium text-left"
                           >
                             n=3 → n=1 (Lyman-β, 12.09 eV)
                           </motion.button>
@@ -1834,14 +1834,14 @@ function C12_PhysicsSingleSlitDiffractionSim({
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleBohrTransitionTrigger(4, 2)}
                             aria-label="Transition n=4 to n=2 Balmer beta"
-                            className="p-2.5 bg-cyan-900/60 hover:bg-cyan-800 border border-cyan-700 rounded-lg text-white font-medium text-left"
+                            className="p-2.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 rounded-lg text-white font-medium text-left"
                           >
                             n=4 → n=2 (Balmer-β, 2.55 eV)
                           </motion.button>
                         </div>
 
                         {lastEmittedPhoton && (
-                          <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-slate-950 rounded-lg border border-indigo-800/80">
+                          <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-slate-950 rounded-lg border border-gold-800/80">
                             <div className="text-emerald-400 font-bold">✓ Emitted Photon Properties:</div>
                             <div className="text-slate-300 font-mono mt-1">
                               Energy: {lastEmittedPhoton.energyEv.toFixed(2)} eV | λ: {lastEmittedPhoton.wavelengthNm.toFixed(1)} nm ({lastEmittedPhoton.series})
@@ -1928,7 +1928,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
                     aria-label="Next interactive lab"
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
                   >
                     Next Lab ({currentSlide + 2}/{EXPLORATION_STEPS.length}) →
                   </motion.button>
@@ -1980,7 +1980,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                   aria-label={`Switch to ${tab} sandbox`}
                   className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
                     sandboxTab === tab
-                      ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                      ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                       : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
@@ -2014,7 +2014,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={slitWidthMicrons}
                           aria-label="Slit width in microns"
                           onChange={(e) => setSlitWidthMicrons(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -2026,12 +2026,12 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={wavelengthNm}
                           aria-label="Wavelength in nanometres"
                           onChange={(e) => setWavelengthNm(Number(e.target.value))}
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg flex flex-col justify-center">
                         <span className="text-slate-400">Angular Half Width (λ/a):</span>
-                        <span className="text-indigo-400 font-bold">{(centralAngularHalfWidthRad * 1000).toFixed(2)} mrad</span>
+                        <span className="text-gold-400 font-bold">{(centralAngularHalfWidthRad * 1000).toFixed(2)} mrad</span>
                       </motion.div>
                     </div>
                   </div>
@@ -2065,7 +2065,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={lightFrequencyPHz}
                           aria-label="Light frequency in PHz"
                           onChange={(e) => setLightFrequencyPHz(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -2108,7 +2108,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           onClick={() => setSelectedParticle(p)}
                           aria-label={`Select ${p}`}
                           className={`px-4 py-2 rounded-lg text-xs font-bold capitalize ${
-                            selectedParticle === p ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            selectedParticle === p ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           {p.replace('_', ' ')}
@@ -2126,7 +2126,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           value={acceleratingVoltageV}
                           aria-label="Accelerating voltage in sandbox"
                           onChange={(e) => setAcceleratingVoltageV(Number(e.target.value))}
-                          className="w-full accent-indigo-500 mt-2"
+                          className="w-full accent-gold-500 mt-2"
                         />
                       </div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800">
@@ -2191,7 +2191,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                           onClick={() => setBohrLevelN(n)}
                           aria-label={`Set Bohr orbit level n=${n}`}
                           className={`p-3 rounded-xl border text-xs font-bold ${
-                            bohrLevelN === n ? 'bg-indigo-950 border-indigo-500 text-indigo-300' : 'bg-slate-900 border-slate-800 text-slate-400'
+                            bohrLevelN === n ? 'bg-gold-950 border-gold-500 text-gold-300' : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
                           n = {n} ({(-13.6 / (n * n)).toFixed(2)} eV)
@@ -2215,7 +2215,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                 <span className="text-sm font-bold text-white">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <motion.span whileHover={{ scale: 1.05 }} className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-800 capitalize">
+                <motion.span whileHover={{ scale: 1.05 }} className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-400 border border-gold-800 capitalize">
                   Competency: {challenge.competencyLevel}
                 </motion.span>
               </div>
@@ -2227,7 +2227,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2262,7 +2262,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -2288,7 +2288,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     disabled={showExplanation}
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 outline-none"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                   />
                   <span className="text-slate-300 font-semibold text-sm">{challenge.unit}</span>
                   <motion.button
@@ -2297,7 +2297,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     onClick={() => handleAnswer(parseFloat(numericInput))}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit calculated numerical answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg disabled:opacity-40"
                   >
                     Submit Answer
                   </motion.button>
@@ -2326,7 +2326,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     whileTap={{ scale: 0.95 }}
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-sm cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-400 text-xs font-bold flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-lg bg-gold-950 text-gold-400 text-xs font-bold flex items-center justify-center shrink-0">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2338,7 +2338,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                   onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i))}
                   disabled={showExplanation}
                   aria-label="Verify sorted order"
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Verify Order
                 </motion.button>
@@ -2359,7 +2359,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-semibold shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-semibold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2371,9 +2371,9 @@ function C12_PhysicsSingleSlitDiffractionSim({
                     whileHover={{ scale: 1.02 }}
                     onDragOver={(e) => e.preventDefault()}
                     onDrop={() => handleDragDrop('wave_nature')}
-                    className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-sky-800 min-h-[90px] flex flex-col justify-center items-center text-center"
+                    className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-gold-800 min-h-[90px] flex flex-col justify-center items-center text-center"
                   >
-                    <span className="text-sky-400 font-bold text-xs mb-1">Wave Nature Target Area</span>
+                    <span className="text-gold-400 font-bold text-xs mb-1">Wave Nature Target Area</span>
                     <span className="text-slate-300 text-sm">{droppedLabels['wave_nature'] || 'Drop wave phenomena here'}</span>
                   </motion.div>
 
@@ -2394,7 +2394,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
                   aria-label="Confirm classification"
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
                 >
                   Confirm Classification
                 </motion.button>
@@ -2403,15 +2403,15 @@ function C12_PhysicsSingleSlitDiffractionSim({
 
             {/* STEP-BY-STEP EXPLANATION */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-4">
-                <div className="text-indigo-300 font-bold text-sm flex items-center gap-2">
+              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-4">
+                <div className="text-gold-300 font-bold text-sm flex items-center gap-2">
                   <span>📖 Step-by-Step Examiner Solution:</span>
                 </div>
 
                 <div className="space-y-2 text-sm text-slate-300">
                   {challenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((step, idx) => (
                     <motion.div key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="flex items-start gap-2.5">
-                      <span className="w-5 h-5 rounded-full bg-indigo-800 text-indigo-200 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="w-5 h-5 rounded-full bg-gold-800 text-gold-200 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                         {idx + 1}
                       </span>
                       <p className="leading-relaxed">{step}{!step.endsWith('.') && '.'}</p>
@@ -2426,7 +2426,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Reveal next step"
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2451,7 +2451,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
       {/* ─── 5. COMPLETION PHASE WITH PERSONALIZED MOTIVATIONAL FEEDBACK & REAL WORLD ACTIVITY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/80 text-center space-y-4">
+          <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/80 text-center space-y-4">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2465,7 +2465,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
             <motion.div initial={{ scale: 0.9 }} animate={{ scale: 1 }} className="space-y-1">
               <span className={`text-xs uppercase font-extrabold tracking-widest px-3 py-1 rounded-full border ${
                 errors === 0 ? 'bg-emerald-950 text-emerald-400 border-emerald-700' :
-                errors <= 3 ? 'bg-sky-950 text-sky-400 border-sky-700' :
+                errors <= 3 ? 'bg-gold-950 text-gold-400 border-gold-700' :
                 errors <= 7 ? 'bg-amber-950 text-amber-400 border-amber-700' :
                 'bg-rose-950 text-rose-400 border-rose-700'
               }`}>
@@ -2481,7 +2481,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} className="bg-slate-900/80 px-4 py-2.5 rounded-xl border border-slate-800">
                 <span className="text-slate-400">Mastery Level:</span>{' '}
-                <strong className="text-indigo-400 text-base capitalize">{masteryLevel}</strong>
+                <strong className="text-gold-400 text-base capitalize">{masteryLevel}</strong>
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} className="bg-slate-900/80 px-4 py-2.5 rounded-xl border border-slate-800">
                 <span className="text-slate-400">Total Errors:</span>{' '}
@@ -2489,7 +2489,7 @@ function C12_PhysicsSingleSlitDiffractionSim({
               </motion.div>
             </div>
 
-            <p className="text-sm text-indigo-200/90 max-w-xl mx-auto leading-relaxed pt-2">
+            <p className="text-sm text-gold-200/90 max-w-xl mx-auto leading-relaxed pt-2">
               {errors === 0
                 ? 'Flawless physics achievement! You demonstrated impeccable quantum intuition and problem-solving across diffraction, duality, matter waves, and Bohr atomic postulates.'
                 : errors <= 3
@@ -2501,15 +2501,15 @@ function C12_PhysicsSingleSlitDiffractionSim({
           </motion.div>
 
           {/* REAL WORLD ACTIVITY CAPSTONE CARD */}
-          <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-slate-900 rounded-2xl border border-indigo-700/60 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+          <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="p-6 bg-slate-900 rounded-2xl border border-gold-700/60 space-y-4">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
               <span>🚀 Real-World Engineering Capstone: {REAL_WORLD_ACTIVITY.title}</span>
             </div>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <motion.div key={idx} whileHover={{ scale: 1.02 }} className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 font-bold flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 font-bold flex items-center justify-center shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

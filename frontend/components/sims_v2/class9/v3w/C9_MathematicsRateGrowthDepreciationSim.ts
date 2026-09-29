@@ -11,11 +11,11 @@ export const w_c9_mathematicsrategrowthdepreciationsim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Growth and Decay as Linear Relationships',
     chapters: [],
     nodeIds: ['c9_math_ch2_4'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine Rohan saves ₹50 every week from his pocket money. He already has ₹200 in his piggy bank.', goal: 'Master Growth and Decay as Linear Relationships.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'A linear growth or decay relationship occurs.', text: 'A linear growth or decay relationship occurs when a quantity changes by a constant absolute amount for each unit increase in the independent variable (usually time).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A linear growth or decay relationship occurs.', text: 'A linear growth or decay relationship occurs when a quantity changes by a constant absolute amount for each unit increase in the independent variable (usually time).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch2_4', title: 'A linear growth or decay relationship.',

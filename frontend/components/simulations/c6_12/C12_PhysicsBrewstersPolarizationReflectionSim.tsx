@@ -1181,9 +1181,9 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/80 rounded-2xl border border-slate-800 backdrop-blur-md"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 rounded-xl border border-cyan-700/50">🔬</span>
+          <span className="text-3xl p-2 bg-gold-950/60 rounded-xl border border-gold-700/50">🔬</span>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">CISCE ISC Class 12 Physics • Interactive STEM Master Simulation</p>
@@ -1199,7 +1199,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-600'
-                : 'bg-cyan-950/60 text-cyan-300 border-cyan-600'
+                : 'bg-gold-950/60 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1213,14 +1213,14 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
       {/* ─── PHASE 1: DISCOVERY & PREDICTION HOOK (BRILLIANT PATTERN) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-indigo-400 text-lg font-bold">🚀 Mission Briefing</span>
-              <span className="text-xs px-2 py-0.5 bg-indigo-900/80 text-indigo-200 rounded-full font-mono">ISRO GROUND LAB</span>
+              <span className="text-gold-400 text-lg font-bold">🚀 Mission Briefing</span>
+              <span className="text-xs px-2 py-0.5 bg-gold-900/80 text-gold-200 rounded-full font-mono">ISRO GROUND LAB</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-cyan-300/80 mt-2 font-mono">Context: {SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 font-mono">Context: {SCENARIO.context}</p>
           </div>
 
           {/* Prediction Card */}
@@ -1266,10 +1266,10 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         ? 'bg-rose-950/40 border-rose-600 text-rose-300'
                         : submitted
                         ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 border-slate-700 hover:bg-slate-750 text-slate-200 hover:border-cyan-500/50'
+                        : 'bg-slate-800/80 border-slate-700 hover:bg-slate-750 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-mono text-cyan-400 font-bold mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
+                    <span className="font-mono text-gold-400 font-bold mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
                   </motion.button>
                 );
               })}
@@ -1281,7 +1281,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                   {predAnswers[predIndex] === PREDICTION_QUESTIONS[predIndex].correctIndex ? '✓ Excellent hypothesis! ' : '💡 Concept insight: '}
                   {PREDICTION_QUESTIONS[predIndex].explanation}
                 </p>
-                <div className="p-3 bg-cyan-950/40 border border-cyan-700/50 rounded-lg text-xs text-cyan-300 font-mono">
+                <div className="p-3 bg-gold-950/40 border border-gold-700/50 rounded-lg text-xs text-gold-300 font-mono">
                   🔍 <strong>How to verify:</strong> {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                 </div>
                 <div className="flex gap-3 pt-2">
@@ -1301,7 +1301,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                       whileTap={{ scale: 0.96 }}
                       onClick={handleAdvanceToExploration}
                       aria-label="Proceed to interactive exploration"
-                      className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
+                      className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
                     >
                       Enter Interactive Optics Lab to Verify →
                     </motion.button>
@@ -1324,7 +1324,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                 <div
                   key={i}
                   className={`h-1.5 rounded-full transition-all duration-300 ${
-                    i === currentSlide ? 'w-6 bg-cyan-400' : i < currentSlide ? 'w-2 bg-indigo-500' : 'w-2 bg-slate-700'
+                    i === currentSlide ? 'w-6 bg-gold-400' : i < currentSlide ? 'w-2 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1340,8 +1340,8 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
-                <h3 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <span className="text-xs px-2.5 py-1 bg-cyan-950 text-cyan-300 rounded-md border border-cyan-800 font-mono">
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <span className="text-xs px-2.5 py-1 bg-gold-950 text-gold-300 rounded-md border border-gold-800 font-mono">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1426,7 +1426,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Incident Angle (i):</span>
-                        <span className="font-mono text-cyan-300 font-bold">{incidentAngleDeg.toFixed(1)}°</span>
+                        <span className="font-mono text-gold-300 font-bold">{incidentAngleDeg.toFixed(1)}°</span>
                       </label>
                       <input
                         type="range"
@@ -1436,14 +1436,14 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={incidentAngleDeg}
                         onChange={(e) => handleBrewsterAngleChange(parseFloat(e.target.value))}
                         aria-label="Set Incident Angle"
-                        className="w-full accent-cyan-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Refractive Index (n2):</span>
-                        <span className="font-mono text-cyan-300 font-bold">{refractiveIndexMedium.toFixed(2)}</span>
+                        <span className="font-mono text-gold-300 font-bold">{refractiveIndexMedium.toFixed(2)}</span>
                       </label>
                       <input
                         type="range"
@@ -1453,7 +1453,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={refractiveIndexMedium}
                         onChange={(e) => setRefractiveIndexMedium(parseFloat(e.target.value))}
                         aria-label="Set Refractive Index"
-                        className="w-full accent-indigo-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
@@ -1529,7 +1529,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         className={`flex-1 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider ${
                           rcSwitchState === 'charge'
                             ? 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg'
-                            : 'bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg'
+                            : 'bg-gold-600 hover:bg-gold-500 text-white shadow-lg'
                         }`}
                       >
                         Mode: {rcSwitchState.toUpperCase()}
@@ -1548,7 +1548,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Resistance (R):</span>
-                        <span className="font-mono text-cyan-300 font-bold">{rcResistance} Ω</span>
+                        <span className="font-mono text-gold-300 font-bold">{rcResistance} Ω</span>
                       </label>
                       <input
                         type="range"
@@ -1558,14 +1558,14 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={rcResistance}
                         onChange={(e) => setRcResistance(parseFloat(e.target.value))}
                         aria-label="Set Resistance"
-                        className="w-full accent-cyan-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Capacitance (C):</span>
-                        <span className="font-mono text-cyan-300 font-bold">{rcCapacitance} µF</span>
+                        <span className="font-mono text-gold-300 font-bold">{rcCapacitance} µF</span>
                       </label>
                       <input
                         type="range"
@@ -1575,7 +1575,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={rcCapacitance}
                         onChange={(e) => setRcCapacitance(parseFloat(e.target.value))}
                         aria-label="Set Capacitance"
-                        className="w-full accent-indigo-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
@@ -1604,7 +1604,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Inductance L:</span>
-                        <span className="font-mono text-cyan-300 font-bold">{lcInductance} mH</span>
+                        <span className="font-mono text-gold-300 font-bold">{lcInductance} mH</span>
                       </label>
                       <input
                         type="range"
@@ -1614,13 +1614,13 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={lcInductance}
                         onChange={(e) => setLcInductance(parseFloat(e.target.value))}
                         aria-label="Set Inductance"
-                        className="w-full accent-cyan-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Capacitance C:</span>
-                        <span className="font-mono text-indigo-300 font-bold">{lcCapacitance} µF</span>
+                        <span className="font-mono text-gold-300 font-bold">{lcCapacitance} µF</span>
                       </label>
                       <input
                         type="range"
@@ -1630,7 +1630,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={lcCapacitance}
                         onChange={(e) => setLcCapacitance(parseFloat(e.target.value))}
                         aria-label="Set Capacitance"
-                        className="w-full accent-indigo-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
@@ -1641,7 +1641,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Peak Current I_0:</span>
-                        <span className="text-cyan-400 font-bold">{lcMaxCurrentI0.toFixed(2)} A</span>
+                        <span className="text-gold-400 font-bold">{lcMaxCurrentI0.toFixed(2)} A</span>
                       </div>
                     </div>
                   </div>
@@ -1659,7 +1659,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Speed (RPM):</span>
-                        <span className="font-mono text-cyan-300 font-bold">{dynamoRpm} RPM ({dynamoFreqHz.toFixed(0)} Hz)</span>
+                        <span className="font-mono text-gold-300 font-bold">{dynamoRpm} RPM ({dynamoFreqHz.toFixed(0)} Hz)</span>
                       </label>
                       <input
                         type="range"
@@ -1669,13 +1669,13 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={dynamoRpm}
                         onChange={(e) => setDynamoRpm(parseFloat(e.target.value))}
                         aria-label="Set Dynamo RPM"
-                        className="w-full accent-cyan-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Magnetic Field B:</span>
-                        <span className="font-mono text-cyan-300 font-bold">{dynamoFieldB.toFixed(2)} T</span>
+                        <span className="font-mono text-gold-300 font-bold">{dynamoFieldB.toFixed(2)} T</span>
                       </label>
                       <input
                         type="range"
@@ -1685,7 +1685,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={dynamoFieldB}
                         onChange={(e) => setDynamoFieldB(parseFloat(e.target.value))}
                         aria-label="Set Magnetic Field"
-                        className="w-full accent-indigo-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
@@ -1744,7 +1744,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Tube Voltage (kV):</span>
-                        <span className="font-mono text-cyan-300 font-bold">{xrayVoltageKv} kV</span>
+                        <span className="font-mono text-gold-300 font-bold">{xrayVoltageKv} kV</span>
                       </label>
                       <input
                         type="range"
@@ -1754,7 +1754,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={xrayVoltageKv}
                         onChange={(e) => setXrayVoltageKv(parseFloat(e.target.value))}
                         aria-label="Set X-ray Tube Voltage"
-                        className="w-full accent-cyan-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
@@ -1773,7 +1773,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                         value={xrayTargetZ}
                         onChange={(e) => setXrayTargetZ(parseInt(e.target.value, 10))}
                         aria-label="Set Target Atomic Number"
-                        className="w-full accent-indigo-400 mt-1"
+                        className="w-full accent-gold-400 mt-1"
                       />
                     </div>
 
@@ -1812,7 +1812,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
                 aria-label="Next lab slide"
-                className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-xs shadow-md"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1844,7 +1844,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Begin CISCE challenge test"
-              className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+              className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
             >
               Start CISCE Challenges →
             </motion.button>
@@ -1868,7 +1868,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                 aria-label={`Select ${tab.label}`}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                   sandboxActiveTab === tab.id
-                    ? 'bg-cyan-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800 border border-slate-800'
                 }`}
               >
@@ -1885,7 +1885,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Carrier Frequency f_c:</span>
-                      <span className="font-mono text-cyan-300 font-bold">{amCarrierFreqKhz} kHz</span>
+                      <span className="font-mono text-gold-300 font-bold">{amCarrierFreqKhz} kHz</span>
                     </label>
                     <input
                       type="range"
@@ -1895,13 +1895,13 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                       value={amCarrierFreqKhz}
                       onChange={(e) => setAmCarrierFreqKhz(parseFloat(e.target.value))}
                       aria-label="Set Carrier Frequency"
-                      className="w-full accent-cyan-400 mt-1"
+                      className="w-full accent-gold-400 mt-1"
                     />
                   </div>
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Modulating Frequency f_m:</span>
-                      <span className="font-mono text-indigo-300 font-bold">{amModFreqKhz} kHz</span>
+                      <span className="font-mono text-gold-300 font-bold">{amModFreqKhz} kHz</span>
                     </label>
                     <input
                       type="range"
@@ -1911,7 +1911,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                       value={amModFreqKhz}
                       onChange={(e) => setAmModFreqKhz(parseFloat(e.target.value))}
                       aria-label="Set Modulating Frequency"
-                      className="w-full accent-indigo-400 mt-1"
+                      className="w-full accent-gold-400 mt-1"
                     />
                   </div>
                 </div>
@@ -1923,7 +1923,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                   </div>
                   <div>
                     <p className="text-slate-400">Carrier (f_c)</p>
-                    <p className="text-lg font-bold text-cyan-400">{amCarrierFreqKhz} kHz</p>
+                    <p className="text-lg font-bold text-gold-400">{amCarrierFreqKhz} kHz</p>
                   </div>
                   <div>
                     <p className="text-slate-400">Upper Sideband (USB)</p>
@@ -1937,7 +1937,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
               </div>
             ) : (
               <p className="text-xs text-slate-400 text-center py-6">
-                Active real-time sandbox module: <span className="font-bold text-cyan-300 uppercase">{sandboxActiveTab}</span>. Adjust controls above or launch challenge series!
+                Active real-time sandbox module: <span className="font-bold text-gold-300 uppercase">{sandboxActiveTab}</span>. Adjust controls above or launch challenge series!
               </p>
             )}
           </div>
@@ -1953,13 +1953,13 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
               <span className="text-slate-400">
                 CHALLENGE {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
-              <span className="text-cyan-400 font-bold uppercase">
+              <span className="text-gold-400 font-bold uppercase">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2002,10 +2002,10 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all duration-200 ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold shadow-lg'
-                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-cyan-500/50'
+                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-mono text-cyan-400 font-bold mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
+                    <span className="font-mono text-gold-400 font-bold mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -2025,7 +2025,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                       whileTap={{ scale: 0.96 }}
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-2 bg-indigo-900/80 hover:bg-indigo-800 border border-indigo-600 text-white rounded-lg text-xs font-semibold cursor-grab select-none shadow-md"
+                      className="px-3 py-2 bg-gold-900/80 hover:bg-gold-800 border border-gold-600 text-white rounded-lg text-xs font-semibold cursor-grab select-none shadow-md"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2053,7 +2053,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Submit label assignments"
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Diagram Labels →
                 </motion.button>
@@ -2083,7 +2083,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     aria-label={`Sort step ${displayIdx + 1}: ${item}`}
                     className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center justify-between"
                   >
-                    <span><strong className="text-cyan-400 mr-2">{displayIdx + 1}.</strong> {item}</span>
+                    <span><strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}</span>
                     <span className="text-slate-500 font-mono">↕ Drag</span>
                   </motion.div>
                 ))}
@@ -2093,7 +2093,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   aria-label="Submit arranged sequence"
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl shadow-md mt-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md mt-2"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -2111,16 +2111,16 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
                     aria-label="Enter calculated numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500 w-48"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
-                  <span className="text-sm font-mono text-cyan-400 font-bold">{challenge.unit}</span>
+                  <span className="text-sm font-mono text-gold-400 font-bold">{challenge.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
                     aria-label="Submit numeric computation"
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2140,7 +2140,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add component ${part}`}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2149,7 +2149,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-900/80 text-white rounded-md text-xs font-mono flex items-center gap-1.5">
+                    <span key={idx} className="px-3 py-1 bg-gold-900/80 text-white rounded-md text-xs font-mono flex items-center gap-1.5">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2169,7 +2169,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Submit assembled equation"
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Equation Structure →
                 </motion.button>
@@ -2234,7 +2234,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
             <h2 className="text-2xl sm:text-3xl font-black text-white">Class 12 Physics Suite Completed!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
               Your overall proficiency score: <span className="text-emerald-400 font-bold font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span> •
-              Adaptive Mastery Level: <span className="text-cyan-400 font-bold uppercase font-mono">{masteryLevel}</span>
+              Adaptive Mastery Level: <span className="text-gold-400 font-bold uppercase font-mono">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2269,7 +2269,7 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
           )}
 
           {/* Spaced Repetition Schedule (SM-2 Visibility) */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/40 to-indigo-950/40 rounded-2xl border border-amber-600/50 space-y-3">
+          <div className="p-6 bg-gradient-to-r from-amber-950/40 to-gold-950/40 rounded-2xl border border-amber-600/50 space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <h3 className="text-sm font-bold text-amber-300 font-mono uppercase flex items-center gap-2">
                 <span>📅</span> Spaced Repetition Schedule (SM-2 Algorithm)
@@ -2296,16 +2296,16 @@ function C12_PhysicsBrewstersPolarizationReflectionSim({
           </div>
 
           {/* Real-World Activity */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-4">
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-4">
             <div className="flex items-center gap-2">
-              <span className="text-indigo-400 text-lg">🛰️</span>
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <span className="text-gold-400 text-lg">🛰️</span>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             </div>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 font-mono">
-                  <span className="text-cyan-400 font-bold mr-1">0{i + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold mr-1">0{i + 1}.</span> {step}
                 </div>
               ))}
             </div>

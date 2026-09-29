@@ -71,7 +71,7 @@ export function C8_SocialScienceCulturalCurrentsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 8 History - Cultural Currents, 13th to 17th Centuries</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 8 History - Cultural Currents, 13th to 17th Centuries</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Patron Network Builder: Where New Art Forms Come From</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -100,18 +100,18 @@ export function C8_SocialScienceCulturalCurrentsSim() {
             <text x="170" y="242" fontSize="8" fill="#64748b" textAnchor="middle">patron connects traditions -- each green edge is money + workshop</text>
           </svg>
           <label className="text-xs font-semibold text-slate-400 flex justify-between mt-1">
-            <span>Time dial</span><span className="font-mono text-indigo-300">{century} CE</span>
+            <span>Time dial</span><span className="font-mono text-gold-300">{century} CE</span>
           </label>
           <input type="range" min={1250} max={1650} step={10} value={century} aria-label="century"
-            onChange={(e) => setCentury(Number(e.target.value))} className="w-full min-h-11 accent-indigo-500" />
+            onChange={(e) => setCentury(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
         </div>
 
         <div className="md:col-span-2 space-y-4">
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-1">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-1">Patrons (dim = not alive yet)</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-1">Patrons (dim = not alive yet)</p>
             {PATRONS.map((p) => (
               <button key={p.id} onClick={() => choose(p.id)}
-                className={`w-full min-h-11 p-2 text-left rounded-xl border text-xs transition-all ${patron === p.id ? 'border-violet-500 bg-violet-950/50' : active(p) ? 'border-slate-800 bg-slate-950 hover:border-slate-500' : 'border-slate-900 bg-slate-950 opacity-40'}`}>
+                className={`w-full min-h-11 p-2 text-left rounded-xl border text-xs transition-all ${patron === p.id ? 'border-gold-500 bg-gold-950/50' : active(p) ? 'border-slate-800 bg-slate-950 hover:border-slate-500' : 'border-slate-900 bg-slate-950 opacity-40'}`}>
                 <span className="font-bold text-slate-100">{p.name}</span>
                 <span className="text-slate-500"> {p.from}-{p.to}</span>
                 <p className="text-slate-400 leading-snug">{p.desc}</p>
@@ -130,8 +130,8 @@ export function C8_SocialScienceCulturalCurrentsSim() {
             </div>
           </div>
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed space-y-1">
-            <p><span className="font-bold text-indigo-300">Where Urdu comes from:</span> Persian/Turkish army camps + local Hindi speech = Urdu, literally &quot;camp language&quot;. It is a recipe blend like the ones above.</p>
-            <p><span className="font-bold text-violet-300">Kathak&apos;s journey:</span> temple storytellers -- Mughal court -- Awadh courts: one dance form carrying three worlds.</p>
+            <p><span className="font-bold text-gold-300">Where Urdu comes from:</span> Persian/Turkish army camps + local Hindi speech = Urdu, literally &quot;camp language&quot;. It is a recipe blend like the ones above.</p>
+            <p><span className="font-bold text-gold-300">Kathak&apos;s journey:</span> temple storytellers -- Mughal court -- Awadh courts: one dance form carrying three worlds.</p>
           </div>
 
           <div className="p-3 rounded-2xl bg-amber-950/40 border border-amber-800 text-xs text-amber-200 leading-relaxed">
@@ -140,7 +140,7 @@ export function C8_SocialScienceCulturalCurrentsSim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Build all 6 forms. Which single tradition appears in the most blends -- and which patron sits at the centre of the network?</p>
         <p className="mt-1">2. Set the dial to 1300 CE and try to make Mughal miniatures -- explain why it is impossible, then make the two blends that WERE possible.</p>

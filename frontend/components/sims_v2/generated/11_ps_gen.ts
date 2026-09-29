@@ -46,7 +46,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Politics",
+    "title": "Politics Is The Process Of Collective",
     "text": "Politics is the process of collective decision-making and resource allocation through which a society negotiates diverse interests, resolves conflicts, and establishes binding rules via authoritative institutions (like government) and participatory mechanisms",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -281,7 +281,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Normative: (a) \"What *should* be the limits of student speech to balance academic freedom and dignity?",
      "Both show theory as practical: Socrates shows it *debugs* flawed reasoning that leads to unjust actions (mechanism: critical reasoning)"
     ],
-    "hint": "Straight from the 'debate on the relevance of' slide -- match the key terms.",
+    "hint": "Straight from the 'debate on the relevance' slide -- match the key terms.",
     "misconception": "A wrong answer conflating them (\"both teach critical thinking\") misses that Socrates targets *individual* epistemic virtue, while the citizenship argument targets *collective* democratic competence.",
     "id": "gen_c11_ps_ch01_q6",
     "nodeId": "c11_ps_cbse_01_007",
@@ -389,7 +389,7 @@ export const C11_PS_GEN: SimDef[] = [
      "This illustrates the principle that sovereign authority is constrained by deliberative institutions (sabha/samiti) and customary law (dharma), not the ruler's personal will",
      "It is political because diverse preferences clash over scarce funds, requiring a collective choice that will bind all residents"
     ],
-    "hint": "Straight from the 'Politics' slide -- match the key terms.",
+    "hint": "Straight from the 'Politics is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer that suggests \"majority vote without discussion\" or \"committee decides arbitrarily\" reveals the student equates politics with raw power rather than legitimate collective decision-making.",
     "id": "gen_c11_ps_ch01_q10",
     "nodeId": "c11_ps_cbse_01_001",
@@ -404,7 +404,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Belgium's accommodation model (c10_civ_cbse_01_001) recognizes groups institutionally—community governments, proportional representation",
      "Similarities: both involve conflicting preferences, scarce resources (money/time), and a binding collective decision"
     ],
-    "hint": "Straight from the 'Politics' slide -- match the key terms.",
+    "hint": "Straight from the 'Politics is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"family isn't politics because no government\" shows the student restricts politics to state institutions only.",
     "id": "gen_c11_ps_ch01_q11",
     "nodeId": "c11_ps_cbse_01_001",
@@ -419,7 +419,7 @@ export const C11_PS_GEN: SimDef[] = [
      "It is political because diverse preferences clash over scarce funds, requiring a collective choice that will bind all residents",
      "Example: A cricket team (11 players) must choose between batting first or fielding after winning the toss"
     ],
-    "hint": "Straight from the 'Politics' slide -- match the key terms.",
+    "hint": "Straight from the 'Politics is the process of' slide -- match the key terms.",
     "misconception": "A poor answer that depicts a dictatorship (\"coach orders\") without showing negotiation or a mechanism misses the collective, procedural nature of politics.",
     "id": "gen_c11_ps_ch01_q12",
     "nodeId": "c11_ps_cbse_01_001",
@@ -675,8 +675,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define positive liberty in one sentence using the \"freedom to\" formulation.",
     "answer": "Positive liberty is the freedom to act as an autonomous agent, to govern oneself, and to have the real capacity and opportunities to develop one's potential and make meaningful",
     "options": [
-     "The harm principle states that the only justification for interfering with an individual's liberty is to prevent harm to others",
-     "Article 19(1)(a) guarantees the right to freedom of speech and expression. Article 19(2) permits the State to impose reasonable restrictions on this right in the interests of",
+     "Student can distinguish negative and positive liberty using the \"freedom from\" vs \"freedom to\" framework",
+     "Positive liberty is the freedom to be one's own master, involving the capacity and resources to act autonomously and realize one's true potential",
      "Positive liberty is the freedom to act as an autonomous agent, to govern oneself, and to have the real capacity and opportunities to develop one's potential and make meaningful"
     ],
     "hint": "Straight from the 'Positive liberty' slide -- match the key terms.",
@@ -696,8 +696,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define negative liberty and positive liberty in one sentence each, using the phrases \"freedom from\" and \"freedom to\" respectively.",
     "answer": "Negative liberty is \"freedom from\" external interference, defining a minimum area of non-interference where the individual is sovereign",
     "options": [
-     "Article 19(1)(a) guarantees the right to freedom of speech and expression. Article 19(2) permits the State to impose reasonable restrictions on this right in the interests of",
-     "Mill's Harm Principle holds that the only legitimate reason for society or the state to interfere with an individual's liberty is to prevent harm to others",
+     "The student can explain positive liberty as self-mastery and autonomy, distinguish it from negative liberty using the \"freedom to\" vs \"freedom from\" distinction",
+     "Positive liberty is the freedom to be one's own master, involving the capacity and resources to act autonomously and realize one's true potential",
      "Negative liberty is \"freedom from\" external interference, defining a minimum area of non-interference where the individual is sovereign"
     ],
     "hint": "Straight from the 'Negative liberty' slide -- match the key terms.",
@@ -817,16 +817,58 @@ export const C11_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the exact constitutional provision that guarantees freedom of speech and expression in India, and the clause that permits reasonable restrictions.",
-    "answer": "Article 19(1)(a) guarantees the right to freedom of speech and expression. Article 19(2) permits the State to impose reasonable restrictions on this right in the interests of",
-    "options": [
-     "National self-determination is the right of a nation to freely determine its political status and pursue its economic, social, and cultural development",
-     "Economic freedom in the negative liberty sense is the absence of state coercion in economic decisions — what to produce, where to work, what to buy/sell, and at what price",
-     "Article 19(1)(a) guarantees the right to freedom of speech and expression. Article 19(2) permits the State to impose reasonable restrictions on this right in the interests of"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "and distinguish them from arbitrary",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "articulate Mill's four arguments for free",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "list the eight grounds for reasonable",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "apply the proportionality test to evaluate",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Freedom of expression' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., citing Article 21 or Article 19(1)(g)) reveals the student has not memorized the specific article-clause mapping for this fundamental right, which is essential for any board-exam answer on free speech.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) articulate Mill's four arguments for free expression and explain how they support the \"marketplace",
     "id": "gen_c11_ps_ch02_q7",
     "nodeId": "c11_ps_cbse_02_007",
     "difficulty": "advanced",
@@ -957,8 +999,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the 'harm principle' as articulated by J.S. Mill, and what distinction does it draw between self-regarding and other-regarding actions?",
     "answer": "The harm principle states that the only justification for interfering with an individual's liberty is to prevent harm to others",
     "options": [
+     "The student can distinguish between self-regarding and other-regarding actions in a given scenario, explain why Mill limits state interference to the prevention of serious harm",
      "Mill's Harm Principle holds that the only legitimate reason for society or the state to interfere with an individual's liberty is to prevent harm to others",
-     "National self-determination is the right of a nation to freely determine its political status and pursue its economic, social, and cultural development",
      "The harm principle states that the only justification for interfering with an individual's liberty is to prevent harm to others"
     ],
     "hint": "Straight from the 'Balancing freedom with other' slide -- match the key terms.",
@@ -1107,32 +1149,32 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A state passes a law banning all religious symbols in public schools to promote secular equality. Using negative liberty framework, analyze whether this law violates the student's negative liberty. Identify the specific condition under which such a ban might be justifiable per the harm principle.",
-    "answer": "Yes, it violates negative liberty because it imposes an external constraint on self-regarding action (choice of dress/expression) within the minimum area",
+    "question": "What common mix-up does this lesson flag about Freedom, as an ideal?",
+    "answer": "Misconception: \"Freedom means I can do whatever I want, whenever I want, without anyone stopping me.\" (Equating Freedom with License/Total Absence of Constraints)",
     "options": [
-     "No. Negative liberty (removal of the legal ban) is necessary but insufficient. Positive liberty requires enabling conditions—material resources (safe transport)",
-     "Criteria for a good answer: 1. Negative Liberty Clause: \"No student shall be disciplined without a fair hearing\" (protection *from* arbitrary power)",
-     "Yes, it violates negative liberty because it imposes an external constraint on self-regarding action (choice of dress/expression) within the minimum area"
+     "The student can explain why freedom is valued by distinguishing between its negative dimension (freedom *from* interference) and positive dimension (freedom *to* develop",
+     "Negative liberty is \"freedom from\" external interference, defining a minimum area of non-interference where the individual is sovereign",
+     "Misconception: \"Freedom means I can do whatever I want, whenever I want, without anyone stopping me.\" (Equating Freedom with License/Total Absence of Constraints)"
     ],
-    "hint": "Straight from the 'Negative liberty, as articulated' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it's justified because equality is more important\" or \"it's never justified\") reveals either a confusion with positive liberty's egalitarian goals or an absolutist libertarian stance ignoring Mill's 'serious harm' threshold for other-regarding actions.",
+    "hint": "Straight from the 'Freedom, as an ideal' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Misconception: \"Freedom means I can do whatever I want, whenever I want, without anyone stopping me.",
     "id": "gen_c11_ps_ch02_q17",
-    "nodeId": "c11_ps_cbse_02_002",
+    "nodeId": "c11_ps_cbse_02_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare the constraint imposed by a traffic signal (red light) with a state ban on a book. Using negative liberty, explain why the former is typically accepted as a justifiable constraint while the latter is viewed as a violation of the 'minimum area'.",
-    "answer": "The traffic signal regulates other-regarding actions (driving) where non-compliance causes direct, serious physical harm to definite others",
+    "question": "What is Freedom, as an ideal? State the definition given in this lesson.",
+    "answer": "Freedom, as an ideal, is the condition that allows individuals to be in control of their own lives and destinies",
     "options": [
-     "Both redefine freedom as restoration of human dignity and agency, not just political sovereignty. Mandela fights *external* dehumanisation (race-based constraints)",
-     "Similarity: Both see true freedom as requiring transformation of social structures that distort human potential",
-     "The traffic signal regulates other-regarding actions (driving) where non-compliance causes direct, serious physical harm to definite others"
+     "The student can distinguish between self-regarding and other-regarding actions in a given scenario, explain why Mill limits state interference to the prevention of serious harm",
+     "Students equate \"economic freedom\" solely with \"free markets\" or \"deregulation,\" assuming any state intervention (minimum wage, price controls",
+     "Freedom, as an ideal, is the condition that allows individuals to be in control of their own lives and destinies"
     ],
-    "hint": "Straight from the 'Negative liberty, as articulated' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both are state constraints so both violate negative liberty\" or \"both are justified for order\") reveals failure to apply the self-regarding vs other-regarding distinction and the 'serious harm' criterion, treating all constraints as equal.",
+    "hint": "Straight from the 'Freedom, as an ideal' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Freedom, as an ideal, is the condition that allows individuals to be in control of their own lives and destinies,",
     "id": "gen_c11_ps_ch02_q18",
-    "nodeId": "c11_ps_cbse_02_002",
+    "nodeId": "c11_ps_cbse_02_001",
     "difficulty": "standard"
    }
   ],
@@ -1253,8 +1295,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "State the core moral claim that equality makes about human beings in modern political thought, as reflected in the Preamble to the Indian Constitution and Article 14.",
     "answer": "The core moral claim is that all human beings have equal intrinsic worth by virtue of their common humanity, entitling them to equal consideration and respect regardless of race",
     "options": [
-     "Equality of outcomes demands that societal rewards (income, status, health, education) be distributed so that end-results are roughly similar for all",
-     "Equality of opportunity means every individual has a fair chance to compete for social goods like jobs and education without discrimination based on birth circumstances",
+     "The student can explain why equality is a foundational ideal in modern political theory, distinguish between the moral claim of equal worth and the empirical reality of",
+     "Political – universal adult franchise (Article 326); Social – abolition of untouchability (Article 17) / right to education (Article 21A)",
      "The core moral claim is that all human beings have equal intrinsic worth by virtue of their common humanity, entitling them to equal consideration and respect regardless of race"
     ],
     "hint": "Straight from the 'Equality in modern political' slide -- match the key terms.",
@@ -1326,8 +1368,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define \"equality of opportunity\" in one sentence and name the two constitutional articles that most directly guarantee it in the context of public employment and education in India.",
     "answer": "Equality of opportunity means every individual has a fair chance to compete for social goods like jobs and education without discrimination based on birth circumstances",
     "options": [
-     "Equality of outcomes demands that societal rewards (income, status, health, education) be distributed so that end-results are roughly similar for all",
-     "Formal equality means identical treatment by law regardless of circumstances (equality before law)",
+     "Affirmative action refers to state-initiated policies that provide preferential treatment (such as reserved seats in education and public employment) to historically disadvantaged",
+     "The student can distinguish equality of opportunity from both formal equality (identical treatment) and equality of outcomes (identical results)",
      "Equality of opportunity means every individual has a fair chance to compete for social goods like jobs and education without discrimination based on birth circumstances"
     ],
     "hint": "Straight from the 'Equality of opportunity' slide -- match the key terms.",
@@ -1347,8 +1389,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define \"equality of outcomes\" in one precise sentence, distinguishing it from \"equality of opportunity\".",
     "answer": "Equality of outcomes demands that societal rewards (income, status, health, education) be distributed so that end-results are roughly similar for all",
     "options": [
-     "Liberals argue that liberty and equality are compatible only when equality is understood as formal equality (equality before law and equal opportunity)",
-     "Equality of opportunity means every individual has a fair chance to compete for social goods like jobs and education without discrimination based on birth circumstances",
+     "The student can distinguish equality of opportunity from both formal equality (identical treatment) and equality of outcomes (identical results)",
+     "Student can distinguish equality of outcomes from equality of opportunity and formal equality, explain the socialist/Marxist justification for it",
      "Equality of outcomes demands that societal rewards (income, status, health, education) be distributed so that end-results are roughly similar for all"
     ],
     "hint": "Straight from the 'Equality of outcomes' slide -- match the key terms.",
@@ -1680,6 +1722,36 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What is Equality in modern political thought? State the definition given in this lesson.",
+    "answer": "Equality in modern political thought is the moral and political principle that all human beings possess equal intrinsic worth by virtue of their shared humanity",
+    "options": [
+     "Green's distinction between negative and positive freedom, articulate why positive rights are necessary for substantive equality",
+     "The student can explain why equality is a foundational ideal in modern political theory, distinguish between the moral claim of equal worth and the empirical reality of",
+     "Equality in modern political thought is the moral and political principle that all human beings possess equal intrinsic worth by virtue of their shared humanity"
+    ],
+    "hint": "Straight from the 'Equality in modern political' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Equality in modern political thought is the moral and political principle that all human beings possess equal intrinsic",
+    "id": "gen_c11_ps_ch03_q16",
+    "nodeId": "c11_ps_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain why equality is a foundational ideal in modern political theory, distinguish between the moral claim of equal worth and the empirical reality of",
+    "options": [
+     "Equality of outcomes demands that societal rewards (income, status, health, education) be distributed so that end-results are roughly similar for all",
+     "Equality of outcomes is a principle of distributive justice which holds that a just society should ensure roughly similar end-results for all citizens in terms of income, wealth",
+     "The student can explain why equality is a foundational ideal in modern political theory, distinguish between the moral claim of equal worth and the empirical reality of"
+    ],
+    "hint": "Straight from the 'Equality in modern political' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain why equality is a foundational ideal in modern political theory, distinguish between the moral",
+    "id": "gen_c11_ps_ch03_q17",
+    "nodeId": "c11_ps_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the \"natural vs. social inequality\" distinction with the modern \"choice vs. circumstance\" framework mentioned in the NCERT (\"inequality arising from our choices and inequalities operating on account of the family or circumstance in which a person is born\").",
     "answer": "The natural/social binary is ambiguous because (a) \"natural\" traits can be socially amplified (e.g",
     "options": [
@@ -1689,36 +1761,6 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural inequalities refer to' slide -- match the key terms.",
     "misconception": "A wrong answer equating the two frameworks misses that choice/circumstance is a *normative* filter, not just a descriptive one.",
-    "id": "gen_c11_ps_ch03_q16",
-    "nodeId": "c11_ps_cbse_03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a two-column table with three rows. In each row, describe a real Indian situation where an inequality *appears* natural but is actually socially produced. For each, name the social mechanism (e.g., caste endogamy, gendered schooling, colonial land revenue) that produces it.",
-    "answer": "Expected answer (criteria): Three distinct Indian cases where surface \"natural\" difference masks social production",
-    "options": [
-     "The original logic (Art 15(4)/16(4)) targets *social and educational backwardness* arising from historical caste discrimination (structural inequality)",
-     "Formal equality treats everyone identically regardless of their starting position. If inequalities are socially produced (e",
-     "Expected answer (criteria): Three distinct Indian cases where surface \"natural\" difference masks social production"
-    ],
-    "hint": "Straight from the 'Natural inequalities refer to' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Expected answer (criteria): Three distinct Indian cases where surface \"natural\" difference masks social production.",
-    "id": "gen_c11_ps_ch03_q17",
-    "nodeId": "c11_ps_cbse_03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Define \"natural inequality\" and \"socially-produced inequality\" in your own words, giving one original example of each that does NOT appear in the textbook.",
-    "answer": "Natural inequality = differences arising from inborn traits (e.g., one person born with perfect pitch, another tone-deaf)",
-    "options": [
-     "Formal equality means identical treatment by law regardless of circumstances (equality before law)",
-     "The core moral claim is that all human beings have equal intrinsic worth by virtue of their common humanity, entitling them to equal consideration and respect regardless of race",
-     "Natural inequality = differences arising from inborn traits (e.g., one person born with perfect pitch, another tone-deaf)"
-    ],
-    "hint": "Straight from the 'Natural inequalities refer to' slide -- match the key terms.",
-    "misconception": "A wrong answer that cites \"wealth difference\" as natural reveals confusion between outcome and origin; one that calls \"caste discrimination\" natural reveals internalized caste ideology.",
     "id": "gen_c11_ps_ch03_q18",
     "nodeId": "c11_ps_cbse_03_002",
     "difficulty": "advanced"
@@ -1967,7 +2009,7 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "State the two principles of justice Rawls derives from the original position, in their correct lexical order.",
     "answer": "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others",
     "options": [
-     "The original position is a hypothetical choice situation where free and equal persons select principles of justice for the basic structure of society",
+     "John Rawls' \"justice as fairness\" is a contractarian theory of distributive justice which argues that principles of justice for the basic structure of society must be chosen by",
      "Rawls' Veil of Ignorance excludes knowledge of one's class, social position, talents and conception of the good, modelling justice as a fair contract among abstract individuals",
      "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others"
     ],
@@ -2156,7 +2198,7 @@ export const C11_PS_GEN: SimDef[] = [
     "answer": "Distributive justice is the fair allocation of society's benefits and burdens among its members. Retributive justice is the fair and proportionate punishment of wrongdoing based",
     "options": [
      "Rawls' Veil of Ignorance excludes knowledge of one's class, social position, talents and conception of the good, modelling justice as a fair contract among abstract individuals",
-     "The original position is a hypothetical choice situation where free and equal persons select principles of justice for the basic structure of society",
+     "Social justice is the principle that a just society must ensure fair distribution of social goods (resources, opportunities, rights) and burdens (duties, taxes",
      "Distributive justice is the fair allocation of society's benefits and burdens among its members. Retributive justice is the fair and proportionate punishment of wrongdoing based"
     ],
     "hint": "Straight from the 'Distributive justice concerns the' slide -- match the key terms.",
@@ -2291,8 +2333,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional article empowers the President to specify the castes deemed to be Scheduled Castes in a state?",
     "answer": "Article 341(1) authorises the President to notify the list of Scheduled Castes for each state after consulting the Governor",
     "options": [
-     "The analysis runs: (1) Buyer and seller of labour-power meet as formal equals in the market (2) The worker sells labour-power for a wage equal to its reproduction cost (3) In",
-     "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society",
+     "The original position is a hypothetical choice situation where free and equal persons select principles of justice for the basic structure of society",
+     "John Rawls' \"justice as fairness\" is a contractarian theory of distributive justice which argues that principles of justice for the basic structure of society must be chosen by",
      "Article 341(1) authorises the President to notify the list of Scheduled Castes for each state after consulting the Governor"
     ],
     "hint": "Straight from the 'Social justice for marginalised' slide -- match the key terms.",
@@ -2502,8 +2544,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define \"distributive justice\" in one sentence and name the three principles of justice discussed in the chapter that govern distribution.",
     "answer": "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society",
     "options": [
-     "Rawls' Veil of Ignorance excludes knowledge of one's class, social position, talents and conception of the good, modelling justice as a fair contract among abstract individuals",
-     "(1) Each person has an equal right to the most extensive scheme of equal basic liberties compatible with a similar scheme for others",
+     "John Rawls' \"justice as fairness\" is a contractarian theory of distributive justice which argues that principles of justice for the basic structure of society must be chosen by",
+     "The three principles are: (1) Justice in acquisition – how unowned resources become legitimately owned; (2) Justice in transfer – voluntary exchange, gift, or bequest of holdings",
      "Distributive justice concerns the fair allocation of social goods (income, opportunities, rights) and burdens among members of society"
     ],
     "hint": "Straight from the 'Social justice' slide -- match the key terms.",
@@ -2555,14 +2597,14 @@ export const C11_PS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_ps_ch05",
-  "title": "Right",
+  "title": "A Right Is a Justified Claim",
   "subtitle": "Physical Education · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Right",
+  "topic": "A Right Is a Justified Claim",
   "chapters": [
-   "Physical Education Ch5: Right"
+   "Physical Education Ch5: A Right Is a Justified Claim"
   ],
   "nodeIds": [
    "c11_ps_cbse_05_001",
@@ -2584,7 +2626,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Right actually explain?",
+   "question": "In one line -- what does A Right Is a Justified Claim actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -2595,7 +2637,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Right",
+    "title": "A Right Is a Justified Claim",
     "text": "A right is a justified claim or entitlement that is recognised by society as necessary for a life of dignity and self-respect, and which is enforced by the state through legal and constitutional mechanisms; it differs from a mere desire because it represents",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2619,7 +2661,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Universal Declaration Of Human",
+    "title": "The Universal Declaration Of Human Rights",
     "text": "The Universal Declaration of Human Rights (UDHR), adopted by the UN General Assembly on 10 December 1948, is a foundational international document proclaiming the inalienable rights to which every human being is entitled regardless of race, religion, sex,",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2782,8 +2824,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define 'negative right' and 'positive right' in one sentence each, citing the nature of the state obligation in each case.",
     "answer": "A negative right is a claim that obligates the state to refrain from interfering with an individual's liberty or autonomy (duty of non-interference)",
     "options": [
-     "The three categories are: (1) Economic rights (e.g., right to work, fair wages, social security – ICESCR Articles 6-9), (2) Social rights (e",
-     "The primary constitutional basis for political rights in India is Article 326, which guarantees universal adult franchise (right to vote)",
+     "Correlative obligations mean that every right carries a matching duty: the right-holder's claim creates a duty-bearer's obligation to act or refrain",
+     "Economic, social and cultural rights (ESCR) are second-generation human rights that require positive state action and resource allocation to ensure conditions for human dignity",
      "A negative right is a claim that obligates the state to refrain from interfering with an individual's liberty or autonomy (duty of non-interference)"
     ],
     "hint": "Straight from the 'Negative rights' slide -- match the key terms.",
@@ -2824,12 +2866,12 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the exact date of adoption of the Universal Declaration of Human Rights and which UN body adopted it?",
     "answer": "The UDHR was adopted on 10 December 1948 by the UN General Assembly",
     "options": [
+     "Moral rights are justified claims grounded in ethical principles, human dignity, and universal moral reasoning (e",
      "The primary constitutional basis for political rights in India is Article 326, which guarantees universal adult franchise (right to vote)",
-     "The three categories are: (1) Economic rights (e.g., right to work, fair wages, social security – ICESCR Articles 6-9), (2) Social rights (e",
-     "The UDHR was adopted on 10 Dismissing 1948 by the UN General Assembly",
+     "The UDHR was adopted on 10 Rights 1948 by the UN General Assembly",
      "The UDHR was adopted on 10 December 1948 by the UN General Assembly"
     ],
-    "hint": "Straight from the 'The Universal Declaration of Human' slide -- match the key terms.",
+    "hint": "Straight from the 'The Universal Declaration of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1945, UN Security Council, or UNESCO) reveals the student confuses the UDHR with the UN Charter (1945) or does not know the distinction between UN principal organs; this indicates a gap in basic factual recall essential for board exam questions asking for specific dates and bodies.",
     "id": "gen_c11_ps_ch05_q5",
     "nodeId": "c11_ps_cbse_05_005",
@@ -2846,8 +2888,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the primary constitutional basis for political rights in India, and which article guarantees universal adult franchise?",
     "answer": "The primary constitutional basis for political rights in India is Article 326, which guarantees universal adult franchise (right to vote)",
     "options": [
-     "A collective right is held by a group as a corporate entity (e.g., a minority community or tribal group) and protects the group's shared identity, culture, language",
-     "First generation: civil and political rights (negative liberties); second generation: economic, social, and cultural rights (positive entitlements)",
+     "Students believe ESCR are \"not real rights\" because they are in Part IV (Directive Principles) which Article 37 declares \"not enforceable by any court",
+     "The student can distinguish civil rights from political rights by identifying at least three examples of each, explain how they function together in a democracy",
      "The primary constitutional basis for political rights in India is Article 326, which guarantees universal adult franchise (right to vote)"
     ],
     "hint": "Straight from the 'Civil rights' slide -- match the key terms.",
@@ -3056,8 +3098,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the central communitarian concept of the \"unencumbered self,\" and which liberal theorist is most associated with this conception?",
     "answer": "The \"unencumbered self\" is the liberal idea that individuals stand prior to their ends, values, and communal attachments — they can choose and revise their commitments freely",
     "options": [
-     "A right is a claim recognised by society as necessary for a dignified life and enforced by the state through legal obligation",
-     "A negative right is a claim that obligates the state to refrain from interfering with an individual's liberty or autonomy (duty of non-interference)",
+     "Moral rights are justified claims grounded in ethical principles, human dignity, and universal moral reasoning (e",
+     "Students believe that if a right is not written in the Constitution or a law, it is \"not a real right\" — they equate *legal recognition* with *moral validity*",
      "The \"unencumbered self\" is the liberal idea that individuals stand prior to their ends, values, and communal attachments — they can choose and revise their commitments freely"
     ],
     "hint": "Straight from the 'communitarian critique argues' slide -- match the key terms.",
@@ -3076,7 +3118,7 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What are the three generations of rights as classified by Karel Vasak, and which generation does the Right to Development belong to?",
     "answer": "First generation: civil and political rights (negative liberties); second generation: economic, social, and cultural rights (positive entitlements)",
     "options": [
-     "Correlative obligations mean that every right carries a matching duty: the right-holder's claim creates a duty-bearer's obligation to act or refrain",
+     "The student can distinguish moral rights from legal rights by identifying their distinct sources (moral reasoning vs",
      "The three categories are: (1) Economic rights (e.g., right to work, fair wages, social security – ICESCR Articles 6-9), (2) Social rights (e",
      "First generation: civil and political rights (negative liberties); second generation: economic, social, and cultural rights (positive entitlements)"
     ],
@@ -3385,7 +3427,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Article 19(1)(a) is a negative right (state must not censor); Article 21A is a positive right (state must build schools, hire teachers, fund education)",
      "Step 1: Check social recognition — is high-speed internet widely accepted as essential for dignity?"
     ],
-    "hint": "Straight from the 'right' slide -- match the key terms.",
+    "hint": "Straight from the 'A right is a justified claim' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"yes because Digital India exists\" confuses policy schemes with enforceable rights; a wrong answer saying \"no because it's a luxury\" ignores that rights evolve with societal understanding.",
     "id": "gen_c11_ps_ch05_q17",
     "nodeId": "c11_ps_cbse_05_001",
@@ -3400,7 +3442,7 @@ export const C11_PS_GEN: SimDef[] = [
      "The Kerala High Court judgment derives the right from the Constitution (Article 21), making it a legally enforceable right within Indian jurisdiction with judicial remedies",
      "Right to life: universally recognised as essential for dignity; imposes positive obligation on state to protect (laws, police"
     ],
-    "hint": "Straight from the 'right' slide -- match the key terms.",
+    "hint": "Straight from the 'A right is a justified claim' slide -- match the key terms.",
     "misconception": "A wrong answer equating both as \"freedoms\" fails to see that rights create enforceable obligations on the state, while regulated activities do not.",
     "id": "gen_c11_ps_ch05_q18",
     "nodeId": "c11_ps_cbse_05_001",
@@ -3409,24 +3451,24 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about right?",
+    "What surprised you about a right is a justified claim?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Right mastered! 🎯",
+  "successLine": "A Right Is a Justified Claim mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ps_ch06",
-  "title": "Citizenship",
+  "title": "Citizenship Is The Status Of Full",
   "subtitle": "Physical Education · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Citizenship",
+  "topic": "Citizenship Is The Status Of Full",
   "chapters": [
-   "Physical Education Ch6: Citizenship"
+   "Physical Education Ch6: Citizenship Is The Status Of Full"
   ],
   "nodeIds": [
    "c11_ps_cbse_06_001",
@@ -3448,7 +3490,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Citizenship actually explain?",
+   "question": "In one line -- what does Citizenship Is The Status Of Full actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -3459,7 +3501,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Citizenship",
+    "title": "Citizenship Is The Status Of Full",
     "text": "Citizenship is the status of full and equal membership in a political community (the state), which entitles individuals to a set of rights (political, civil, and socio-economic) and imposes corresponding obligations toward the state and fellow citizens, as",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3471,7 +3513,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Liberal View Of Citizenship",
+    "title": "The Liberal View Of Citizenship Conceives",
     "text": "The liberal view of citizenship conceives the citizen as an autonomous rights-bearing individual whose primary relationship with the state is defined by a bundle of legally guaranteed entitlements — civil liberties (life, liberty, property), political rights",
     "emoji": "🏃",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3535,7 +3577,7 @@ export const C11_PS_GEN: SimDef[] = [
      "A good proposal: \"Insert Article 9A: Parliament may by law provide for Overseas Citizenship of India (OCI) for PIOs from notified countries",
      "Yes, the demand violates the principle of full and equal membership. Article 19(1)(d) guarantees the right to move freely and reside/settle in any part of India"
     ],
-    "hint": "Straight from the 'Citizenship' slide -- match the key terms.",
+    "hint": "Straight from the 'Citizenship is the status of full' slide -- match the key terms.",
     "misconception": "A student who argues \"locals have first right because they pay state taxes\" fails to see that citizenship rights are *national*, not sub-national, and that the nurses also pay central taxes and GST.",
     "id": "gen_c11_ps_ch06_q1",
     "nodeId": "c11_ps_cbse_06_001",
@@ -3573,8 +3615,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "State the three categories of rights in T.H. Marshall's liberal citizenship framework and give one concrete example of a right in each category that a citizen in India can claim today.",
     "answer": "Civil rights — e.g., Article 21 right to life and personal liberty (protection from arbitrary arrest); Political rights — e",
     "options": [
-     "The five modes are: (1) Citizenship by Birth (Section 3), (2) Citizenship by Descent (Section 4), (3) Citizenship by Registration (Section 5)",
-     "Under Article 9 of the Constitution and Section 9 of the Citizenship Act, 1955, the person automatically ceases to be an Indian citizen from the date of acquiring foreign",
+     "Citizenship as legal status refers to the formally recognized membership of an individual in a sovereign political community (state)",
+     "The student can explain Marshall's three categories of rights with concrete Indian examples, articulate how they collectively enable a life of dignity",
      "Civil rights — e.g., Article 21 right to life and personal liberty (protection from arbitrary arrest); Political rights — e"
     ],
     "hint": "Straight from the 'The liberal view of citizenship' slide -- match the key terms.",
@@ -3846,8 +3888,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the precise legal consequence under Indian law when an Indian citizen voluntarily acquires citizenship of another country?",
     "answer": "Under Article 9 of the Constitution and Section 9 of the Citizenship Act, 1955, the person automatically ceases to be an Indian citizen from the date of acquiring foreign",
     "options": [
-     "The five modes are: (1) Citizenship by Birth (Section 3), (2) Citizenship by Descent (Section 4), (3) Citizenship by Registration (Section 5)",
-     "Article 5 defines citizenship by domicile. The two main conditions are: (1) the person must have been born in the territory of India, or either parent born in India",
+     "Loss of citizenship refers to the involuntary or voluntary cessation of the legal bond between an individual and the state, occurring through renunciation (voluntary)",
+     "Dual citizenship refers to the legal status where an individual is simultaneously recognized as a citizen of two or more sovereign states, entailing rights and obligations in each",
      "Under Article 9 of the Constitution and Section 9 of the Citizenship Act, 1955, the person automatically ceases to be an Indian citizen from the date of acquiring foreign"
     ],
     "hint": "Straight from the 'Dual citizenship' slide -- match the key terms.",
@@ -3867,8 +3909,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which article of the Constitution defines citizenship by domicile at the commencement of the Constitution, and what are the two main conditions it prescribes?",
     "answer": "Article 5 defines citizenship by domicile. The two main conditions are: (1) the person must have been born in the territory of India, or either parent born in India",
     "options": [
-     "The five modes are: (1) Citizenship by Birth (Section 3), (2) Citizenship by Descent (Section 4), (3) Citizenship by Registration (Section 5)",
-     "Civil rights — e.g., Article 21 right to life and personal liberty (protection from arbitrary arrest); Political rights — e",
+     "Student can distinguish between the five modes of acquiring Indian citizenship, explain the specific conditions for each mode under the Citizenship Act 1955",
+     "Can distinguish between dual citizenship and statelessness as legal categories, explain India's constitutional prohibition on dual citizenship with reference to Article 9 and",
      "Article 5 defines citizenship by domicile. The two main conditions are: (1) the person must have been born in the territory of India, or either parent born in India"
     ],
     "hint": "Straight from the 'Articles 5-11 of the Indian' slide -- match the key terms.",
@@ -3892,7 +3934,7 @@ export const C11_PS_GEN: SimDef[] = [
      "The liberal view sees the individual as prior to society, with identity formed independently",
      "Stateless persons lack *any* political community to claim rights from (total exclusion), while slum dwellers are *legal citizens* but face *effective exclusion* from"
     ],
-    "hint": "Straight from the 'Citizenship' slide -- match the key terms.",
+    "hint": "Straight from the 'Citizenship is the status of full' slide -- match the key terms.",
     "misconception": "A student who says \"both are equally vulnerable\" misses the NCERT's crucial distinction: slum dwellers *can* use courts (Olga Tellis case) and vote (if registered), whereas stateless persons have *no standing* in any legal system.",
     "id": "gen_c11_ps_ch06_q12",
     "nodeId": "c11_ps_cbse_06_001",
@@ -3907,7 +3949,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Under Indian law (Section 3, Citizenship Act 1955 as amended 2003), the child is NOT an Indian citizen by birth because both parents are not Indian citizens and at least one is",
      "A strong charter will: (a) mandate 'One Nation One Ration Card' style portability for PDS, health insurance (Ayushman Bharat), and scholarships across state lines"
     ],
-    "hint": "Straight from the 'Citizenship' slide -- match the key terms.",
+    "hint": "Straight from the 'Citizenship is the status of full' slide -- match the key terms.",
     "misconception": "A weak answer merely lists rights without *institutional mechanisms* (e.g., \"migrants should get respect\"), showing the student cannot translate normative citizenship into actionable policy design.",
     "id": "gen_c11_ps_ch06_q13",
     "nodeId": "c11_ps_cbse_06_001",
@@ -3922,7 +3964,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Cosmopolitanism argues that moral obligations arise from shared humanity, not political contracts",
      "The 'project' advances through *expansive judicial interpretation* (Olga Tellis reading 'right to livelihood' into Article 21) and *social mobilization* (women/Dalits demanding"
     ],
-    "hint": "Straight from the 'Citizenship' slide -- match the key terms.",
+    "hint": "Straight from the 'Citizenship is the status of full' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The 'project' advances through *expansive judicial interpretation* (Olga Tellis reading 'right to livelihood' into",
     "id": "gen_c11_ps_ch06_q14",
     "nodeId": "c11_ps_cbse_06_001",
@@ -3991,24 +4033,24 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about citizenship?",
+    "What surprised you about citizenship is the status of full?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Citizenship mastered! 🎯",
+  "successLine": "Citizenship Is The Status mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ps_ch07",
-  "title": "Nationalism",
+  "title": "Nationalism Is a Political Ideology Asserting",
   "subtitle": "Physical Education · Chapter 7",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Nationalism",
+  "topic": "Nationalism Is a Political Ideology Asserting",
   "chapters": [
-   "Physical Education Ch7: Nationalism"
+   "Physical Education Ch7: Nationalism Is a Political Ideology Asserting"
   ],
   "nodeIds": [
    "c11_ps_cbse_07_002",
@@ -4027,7 +4069,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Nationalism actually explain?",
+   "question": "In one line -- what does Nationalism Is a Political actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -4038,7 +4080,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Nationalism",
+    "title": "Nationalism Is a Political Ideology",
     "text": "Nationalism is a political ideology asserting that the nation—a community bound by shared beliefs, historical memory, territory, and political ideals—ought to constitute the foundation of a sovereign state, such that political boundaries align with national",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4080,7 +4122,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Patriotism",
+    "title": "Patriotism Is a Defensive",
     "text": "Patriotism is a defensive, inclusive attachment to one's political community grounded in shared civic values (constitutional patriotism) and a commitment to the well-being of fellow citizens, whereas nationalism is an assertive, often exclusionary ideology",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4325,7 +4367,7 @@ export const C11_PS_GEN: SimDef[] = [
      "The Basque case illustrates self-determination as secession: a distinct culture with historical autonomy demands a separate sovereign state because the existing state (Spain)",
      "As a patriotic song, 'Vande Mataram' expresses affective attachment to the land and its people — an inclusive, voluntary sentiment"
     ],
-    "hint": "Straight from the 'Patriotism' slide -- match the key terms.",
+    "hint": "Straight from the 'Patriotism is a defensive' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'it's the same thing') shows the student cannot analyse how *context and power* transform a cultural expression into an ideological weapon.",
     "id": "gen_c11_ps_ch07_q8",
     "nodeId": "c11_ps_cbse_07_010",
@@ -4346,7 +4388,7 @@ export const C11_PS_GEN: SimDef[] = [
      "(1) 1929 Lahore Congress Purna Swaraj resolution declaring independence for \"India\" as a whole, not a Hindu nation",
      "A strong answer will: (1) identify Gorkha claims—distinct language (Nepali), history (British recruitment, separate administration), territory (Darjeeling hills)"
     ],
-    "hint": "Straight from the 'Nationalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Nationalism is a political' slide -- match the key terms.",
     "misconception": "A poor answer treats it as purely \"anti-national\" or \"fully justified\" without engaging the NCERT's nuanced redefinition of self-determination.",
     "id": "gen_c11_ps_ch07_q9",
     "nodeId": "c11_ps_cbse_07_002",
@@ -4475,24 +4517,24 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about nationalism?",
+    "What surprised you about nationalism is a political ideology asserting?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Nationalism mastered! 🎯",
+  "successLine": "Nationalism Is a Political mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ps_ch08",
-  "title": "Secularism",
+  "title": "Secularism Is a Normative Political Doctrine",
   "subtitle": "Physical Education · Chapter 8",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Secularism",
+  "topic": "Secularism Is a Normative Political Doctrine",
   "chapters": [
-   "Physical Education Ch8: Secularism"
+   "Physical Education Ch8: Secularism Is a Normative Political Doctrine"
   ],
   "nodeIds": [
    "c11_ps_cbse_08_001",
@@ -4513,7 +4555,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Secularism outside the classroom?",
+   "question": "Quick guess -- where do you meet Secularism Is a Normative outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4524,19 +4566,19 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Secularism",
+    "title": "Secularism Is a Normative Political Doctrine",
     "text": "Secularism is a normative political doctrine that opposes all forms of institutionalised religious domination—both inter-religious domination (where one religious community dominates another) and intra-religious domination (where dominant groups within a",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secular State",
+    "title": "A Secular State Is a Political",
     "text": "A secular state is a political entity that is neither theocratic nor formally allied with any religion, and is committed to principles of peace, religious freedom, and equality (both inter-religious and intra-religious) derived from non-religious sources.",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Western Model Of Secularism",
+    "title": "The Western Model Of Secularism, Best",
     "text": "The Western model of secularism, best exemplified by the United States and France, is a constitutional doctrine mandating mutual exclusion between state and religion: the state neither aids nor inhibits religious institutions, and religion provides no",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4566,7 +4608,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Indian Secularism Guarantees Minority Rights",
+    "title": "Indian Secularism Guarantees Minority",
     "text": "Indian secularism guarantees minority rights through Articles 29 and 30 of the Constitution: Article 29(1) protects the right of any section of citizens with a distinct language, script, or culture to conserve it; Article 30(1) grants religious and linguistic",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4590,11 +4632,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define secularism in one sentence using the precise political theory terminology from the NCERT textbook. What are the two forms of religious domination it opposes?",
     "answer": "Secularism is a normative doctrine that seeks to realise a secular society devoid of both inter-religious domination (domination of one religious community by another) and",
     "options": [
-     "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
-     "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and",
+     "The student can explain the dual opposition of secularism (inter-religious and intra-religious domination), distinguish secularism from mere religious tolerance",
+     "Communalism in the Indian context refers to a political ideology that constructs religious identity as the primary basis for political mobilization",
      "Secularism is a normative doctrine that seeks to realise a secular society devoid of both inter-religious domination (domination of one religious community by another) and"
     ],
-    "hint": "Straight from the 'Secularism' slide -- match the key terms.",
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"separation of religion and state\" or \"equal respect for all religions\" reveals the student has memorised a slogan but not grasped the core *anti-domination* logic.",
     "id": "gen_c11_ps_ch08_q1",
     "nodeId": "c11_ps_cbse_08_001",
@@ -4658,16 +4700,47 @@ export const C11_PS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the core constitutional mechanism that establishes the \"wall of separation\" in the United States, and how does it differ textually from the French *laïcité* framework?",
-    "answer": "The US relies on the First Amendment's twin clauses: \"Congress shall make no law respecting an establishment of religion",
-    "options": [
-     "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
-     "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and",
-     "The US relies on the First Amendment's twin clauses: \"Congress shall make no law respecting an establishment of religion"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the \"wall of separation\" metaphor",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate why this model prioritises",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "contrast the Western model's individualist",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'The Western model of secularism' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both are in their constitutions\" or \"both ban religious symbols\") reveals confusion between negative liberty (US: state stays out) and positive secularism (France: state enforces secular public space).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) explain the \"wall of separation\" metaphor and its distinct constitutional instantiations in the US",
     "id": "gen_c11_ps_ch08_q3",
     "nodeId": "c11_ps_cbse_08_003",
     "difficulty": "advanced",
@@ -4683,8 +4756,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the phrase \"Sarva Dharma Sambhava\" commonly understood to mean in the context of Indian secularism?",
     "answer": "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and",
     "options": [
-     "Secularism is a normative doctrine that seeks to realise a secular society devoid of both inter-religious domination (domination of one religious community by another) and",
-     "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
+     "Principled distance is a normative framework for state-religion relations where the state maintains a context-sensitive",
+     "The student can distinguish the Indian model from the Western model by explaining at least three distinctive features (e",
      "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and"
     ],
     "hint": "Straight from the 'Indian model of secularism' slide -- match the key terms.",
@@ -4704,8 +4777,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define \"principled distance\" in one sentence and name the scholar who developed this concept as an alternative to the Western model of secularism.",
     "answer": "Principled distance is a state-religion framework where engagement or disengagement is determined by context-sensitive application of secular values like equality and liberty",
     "options": [
-     "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
-     "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and",
+     "The student can distinguish the Indian model from the Western model by explaining at least three distinctive features (e",
+     "Principled distance is a normative framework for state-religion relations where the state maintains a context-sensitive",
      "Principled distance is a state-religion framework where engagement or disengagement is determined by context-sensitive application of secular values like equality and liberty"
     ],
     "hint": "Straight from the 'Principled distance' slide -- match the key terms.",
@@ -4746,8 +4819,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the central claim of the communitarian critique of secularism regarding minority communities?",
     "answer": "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
     "options": [
-     "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and",
-     "Principled distance is a state-religion framework where engagement or disengagement is determined by context-sensitive application of secular values like equality and liberty",
+     "The student can explain how Articles 29 and 30 operationalize minority rights, distinguish between protection (negative liberty) and accommodation (positive enablement)",
+     "Student can distinguish communitarian from feminist critiques of secularism, explain how each maps onto specific Indian constitutional debates (personal laws",
      "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective"
     ],
     "hint": "Straight from the 'Communitarian critique argues' slide -- match the key terms.",
@@ -4767,8 +4840,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which two Articles of the Indian Constitution specifically guarantee cultural and educational rights to minorities, and what is the key distinction between them?",
     "answer": "Article 29(1) protects the right of *any section of citizens* (not only minorities) with a distinct language, script, or culture to conserve it",
     "options": [
-     "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
-     "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and",
+     "The student can identify and explain the specific constitutional articles that operationalise secularism in India",
+     "The student can distinguish the Indian model from the Western model by explaining at least three distinctive features (e",
      "Article 29(1) protects the right of *any section of citizens* (not only minorities) with a distinct language, script, or culture to conserve it"
     ],
     "hint": "Straight from the 'Indian secularism guarantees' slide -- match the key terms.",
@@ -4788,8 +4861,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What was the core legal question in the Shah Bano case (1985) regarding the applicability of Section 125 CrPC to Muslim women?",
     "answer": "The core legal question was whether Section 125 CrPC (a secular, religion-neutral law providing maintenance to destitute wives) applies to Muslim women despite Muslim Personal Law",
     "options": [
-     "The three necessary conditions are: (1) The state must not be theocratic (not run by religious heads)",
-     "The US relies on the First Amendment's twin clauses: \"Congress shall make no law respecting an establishment of religion",
+     "Article 29(1) protects the right of *any section of citizens* (not only minorities) with a distinct language, script, or culture to conserve it",
+     "Secularism is a normative doctrine that seeks to realise a secular society devoid of both inter-religious domination (domination of one religious community by another) and",
      "The core legal question was whether Section 125 CrPC (a secular, religion-neutral law providing maintenance to destitute wives) applies to Muslim women despite Muslim Personal Law"
     ],
     "hint": "Straight from the 'Shah Bano case' slide -- match the key terms.",
@@ -4809,8 +4882,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define communalism as a political ideology in the Indian context. How does it differ from merely being a devout follower of a religion?",
     "answer": "Communalism is the belief that people of the same religion share identical political, economic",
     "options": [
-     "Secularism is a normative doctrine that seeks to realise a secular society devoid of both inter-religious domination (domination of one religious community by another) and",
-     "The three necessary conditions are: (1) The state must not be theocratic (not run by religious heads)",
+     "Principled distance is a state-religion framework where engagement or disengagement is determined by context-sensitive application of secular values like equality and liberty",
+     "Indian constitutional secularism is the framework established by the Preamble (as amended in 1976) and Articles 14, 15, 16, 25–28, 29, 30, and 44",
      "Communalism is the belief that people of the same religion share identical political, economic"
     ],
     "hint": "Straight from the 'Communalism in the Indian context' slide -- match the key terms.",
@@ -4833,7 +4906,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Principled distance allows state intervention *only* when it promotes constitutional values (equality",
      "Secularism requires opposition to *inter-religious domination*. By imposing Hindu personal law on minorities"
     ],
-    "hint": "Straight from the 'Secularism' slide -- match the key terms.",
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
     "misconception": "A wrong answer claiming the state is secular because it \"doesn't favour any religion officially\" reveals the student treats separation as a sufficient condition, missing the NCERT's explicit argument that a secular state must pursue substantive equality goals.",
     "id": "gen_c11_ps_ch08_q11",
     "nodeId": "c11_ps_cbse_08_001",
@@ -4848,7 +4921,7 @@ export const C11_PS_GEN: SimDef[] = [
      "The Indian model (principled distance) explains both: the Court intervened (negative engagement) to end intra-religious domination (gender injustice in Muslim law)",
      "Scenario (B) aligns with Indian secularism. The node explicitly states Indian secularism \"equally opposed the oppression of dalits and women within Hinduism\" and permits"
     ],
-    "hint": "Straight from the 'Secularism' slide -- match the key terms.",
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
     "misconception": "A wrong answer choosing (A) reveals the student has imported the Western model as the *only* model of secularism, missing the node's central thesis that Indian secularism is distinct precisely because it addresses intra-religious domination through principled intervention.",
     "id": "gen_c11_ps_ch08_q12",
     "nodeId": "c11_ps_cbse_08_001",
@@ -4863,7 +4936,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Under strict mutual exclusion, the state cannot fund religious activity (Establishment Clause). However, in *Rosenberger v",
      "The statement is false. The NCERT argues religion responds to unavoidable human suffering (mortality, loss, accident)—\"Religion"
     ],
-    "hint": "Straight from the 'Secularism' slide -- match the key terms.",
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement reveals the conflation of *anti-clericalism* or *anti-domination* with *anti-religion*—a Category Error the textbook explicitly warns against.",
     "id": "gen_c11_ps_ch08_q13",
     "nodeId": "c11_ps_cbse_08_001",
@@ -4878,7 +4951,7 @@ export const C11_PS_GEN: SimDef[] = [
      "A good answer will articulate a decision rule based on *constitutional values* (equality, freedom, dignity), not religion per se",
      "Expected criteria: The preamble must explicitly name both inter-religious and intra-religious domination as targets, state that religion-state separation is a means (not the end)"
     ],
-    "hint": "Straight from the 'Secularism' slide -- match the key terms.",
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
     "misconception": "A poor answer that only mentions \"all religions are equal\" or \"state has no religion\" reveals the student cannot synthesize the node's multi-dimensional definition into a coherent normative statement.",
     "id": "gen_c11_ps_ch08_q14",
     "nodeId": "c11_ps_cbse_08_001",
@@ -4893,9 +4966,39 @@ export const C11_PS_GEN: SimDef[] = [
      "A good flowchart: Start → Is the pilgrimage specific to a minority community? (Principle: inter-religious equality) → If yes",
      "Tolerance implies putting up with something one finds objectionable, which preserves hierarchy—the dominant group \"tolerates\" the subordinate"
     ],
-    "hint": "Straight from the 'Secularism' slide -- match the key terms.",
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
     "misconception": "A wrong answer that equates tolerance with secularism reveals the student cannot distinguish between *hierarchical coexistence* and *egalitarian non-domination*—a critical Class 11 analytical distinction.",
     "id": "gen_c11_ps_ch08_q15",
+    "nodeId": "c11_ps_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Secularism? State the definition given in this lesson.",
+    "answer": "Secularism is a normative political doctrine that opposes all forms of institutionalised religious domination—both inter-religious domination (where one religious community",
+    "options": [
+     "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective",
+     "The three necessary conditions are: (1) The state must not be theocratic (not run by religious heads)",
+     "Secularism is a normative political doctrine that opposes all forms of institutionalised religious domination—both inter-religious domination (where one religious community"
+    ],
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Secularism is a normative political doctrine that opposes all forms of institutionalised religious domination—both",
+    "id": "gen_c11_ps_ch08_q16",
+    "nodeId": "c11_ps_cbse_08_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain the dual opposition of secularism (inter-religious and intra-religious domination), distinguish secularism from mere religious tolerance",
+    "options": [
+     "The student can distinguish the Indian model from the Western model by explaining at least three distinctive features (e",
+     "Principled distance is a state-religion framework where engagement or disengagement is determined by context-sensitive application of secular values like equality and liberty",
+     "The student can explain the dual opposition of secularism (inter-religious and intra-religious domination), distinguish secularism from mere religious tolerance"
+    ],
+    "hint": "Straight from the 'Secularism is a normative' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain the dual opposition of secularism (inter-religious and intra-religious domination), distinguish",
+    "id": "gen_c11_ps_ch08_q17",
     "nodeId": "c11_ps_cbse_08_001",
     "difficulty": "standard"
    },
@@ -4908,38 +5011,8 @@ export const C11_PS_GEN: SimDef[] = [
      "The claim confuses non-interference with moral neutrality. The Western model's mutual exclusion *forbids* the state from challenging intra-religious domination (e",
      "This action reflects the *Western* model of mutual exclusion (strict separation), not the Indian model of principled distance"
     ],
-    "hint": "Straight from the 'secular state' slide -- match the key terms.",
+    "hint": "Straight from the 'A secular state is a political' slide -- match the key terms.",
     "misconception": "A wrong answer (supporting the ban as \"secular\") reveals the student equates secularism with state neutrality defined as *absence* of religion in public sphere, ignoring the Indian commitment to protecting minority religious identity.",
-    "id": "gen_c11_ps_ch08_q16",
-    "nodeId": "c11_ps_cbse_08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the \"mutual exclusion\" model of state-religion separation (USA) with the \"principled distance\" model (India) on the following dimensions: (a) State funding for religious minority educational institutions, (b) State intervention to abolish a discriminatory religious practice (e.g., untouchability, triple talaq).",
-    "answer": "(a) USA: No state funding for any religious institution (strict non-interference). India: State *can* fund minority institutions (Article 30) as positive engagement to protect",
-    "options": [
-     "Communitarians defend Article 30 as essential for minority cultural survival but view Article 25(2)(b) as a dangerous loophole for state intrusion into community self-definition",
-     "Convergent: Both prioritise the integrity of the secular public sphere/law over religious accommodation",
-     "(a) USA: No state funding for any religious institution (strict non-interference). India: State *can* fund minority institutions (Article 30) as positive engagement to protect"
-    ],
-    "hint": "Straight from the 'secular state' slide -- match the key terms.",
-    "misconception": "A wrong answer shows inability to distinguish the *logic* of the two models: one prioritizes individual liberty via structural separation; the other prioritizes substantive equality (individual + community) via contextual engagement.",
-    "id": "gen_c11_ps_ch08_q17",
-    "nodeId": "c11_ps_cbse_08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: \"Indian secularism simply means 'equal respect for all religions' (Sarva Dharma Samabhava). Therefore, the state must treat every religious practice with equal dignity and cannot criticize or reform any religion.\"",
-    "answer": "The statement is flawed. The textbook explicitly warns that if \"equal respect\" means toleration/coexistence, it is insufficient (toleration allows hierarchy)",
-    "options": [
-     "Article 26(b) guarantees every religious denomination the right to manage its own affairs in matters of religion, subject to public order, morality, and health",
-     "Expected criteria: The preamble must explicitly name both inter-religious and intra-religious domination as targets, state that religion-state separation is a means (not the end)",
-     "The statement is flawed. The textbook explicitly warns that if \"equal respect\" means toleration/coexistence, it is insufficient (toleration allows hierarchy)"
-    ],
-    "hint": "Straight from the 'secular state' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student holds a sentimental/folk understanding of secularism, missing its critical, reformist edge.",
     "id": "gen_c11_ps_ch08_q18",
     "nodeId": "c11_ps_cbse_08_002",
     "difficulty": "standard"
@@ -4947,24 +5020,24 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about secularism?",
+    "What surprised you about secularism is a normative political doctrine?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Secularism mastered! 🎯",
+  "successLine": "Secularism Is a Normative mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ps_ch09",
-  "title": "Peace",
+  "title": "Peace Is a Multidimensional Concept: Negative",
   "subtitle": "Physical Education · Chapter 9",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Peace",
+  "topic": "Peace Is a Multidimensional Concept: Negative",
   "chapters": [
-   "Physical Education Ch9: Peace"
+   "Physical Education Ch9: Peace Is a Multidimensional Concept: Negative"
   ],
   "nodeIds": [
    "c11_ps_cbse_09_001",
@@ -4986,7 +5059,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Peace outside the classroom?",
+   "question": "Quick guess -- where do you meet Peace Is a Multidimensional outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4997,7 +5070,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Peace",
+    "title": "Peace Is a Multidimensional Concept:",
     "text": "Peace is a multidimensional concept: negative peace refers to the absence of direct, physical violence (war, assault, riots), while positive peace denotes the presence of structural conditions—such as justice, equity, and participatory institutions—that",
     "emoji": "🏃",
     "bgColor": "from-rose-400 to-pink-500"
@@ -5015,7 +5088,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Pacifism",
+    "title": "Pacifism Is The Ethical And Political",
     "text": "Pacifism is the ethical and political doctrine that rejects war, violence, and the use of force as legitimate means to resolve conflicts or achieve political goals, advocating instead for peaceful methods like dialogue, non-violent resistance, and arbitration.",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -5027,7 +5100,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Satyagraha",
+    "title": "Satyagraha Is Gandhi's Method Of Non-violent",
     "text": "Satyagraha is Gandhi's method of non-violent resistance that translates to \"holding onto truth\" (Satya = truth, Agraha = firmness), where the resister refuses to cooperate with injustice while accepting suffering without inflicting harm on the opponent,",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5039,13 +5112,13 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Disarmament",
+    "title": "Disarmament Refers To The Reduction",
     "text": "Disarmament refers to the reduction or elimination of a state's weaponry and military capabilities, ideally leading to general and complete disarmament under international verification.",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Peace-building",
+    "title": "Peace-building Is a Comprehensive",
     "text": "Peace-building is a comprehensive, long-term process of addressing the root causes of violent conflict and transforming relationships, institutions, and structures to create sustainable positive peace, while post-conflict reconciliation specifically refers to",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5065,16 +5138,47 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "Define negative peace and positive peace in one sentence each, using Galtung’s terminology.",
-    "answer": "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic",
-    "options": [
-     "*Jus ad bellum* refers to the justice of resorting to war (the decision to go to war); *Jus in bello* refers to justice in the conduct of war (how war is fought)",
-     "Satyagraha means \"holding onto truth\" (Satya = truth, Agraha = firm insistence). It is a method of non-violent resistance where the practitioner refuses to cooperate with",
-     "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "articulate the difference between negative",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "identify whether a given real-world",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain why a society with only negative",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Peace' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., “positive peace means everyone is happy”) reveals confusion between subjective well-being and structural conditions, or conflation of peace with mere absence of overt war.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) articulate the difference between negative and positive peace using Galtung’s terminology, (2) identify",
     "id": "gen_c11_ps_ch09_q1",
     "nodeId": "c11_ps_cbse_09_001",
     "difficulty": "standard",
@@ -5142,8 +5246,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define structural violence and give one example from contemporary India that does NOT involve direct physical force.",
     "answer": "Structural violence is harm caused by social structures (laws, policies, economic systems, institutional practices) that systematically disadvantage groups by denying them access",
     "options": [
-     "Satyagraha means \"holding onto truth\" (Satya = truth, Agraha = firm insistence). It is a method of non-violent resistance where the practitioner refuses to cooperate with",
-     "MAD is a strategic condition where two nuclear-armed adversaries each possess secure second-strike capabilities sufficient to inflict unacceptable damage on the other even after",
+     "Negative peace refers to the mere absence of direct, organized violence (war, armed conflict, physical coercion)",
+     "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic",
      "Structural violence is harm caused by social structures (laws, policies, economic systems, institutional practices) that systematically disadvantage groups by denying them access"
     ],
     "hint": "Straight from the 'Structural violence' slide -- match the key terms.",
@@ -5163,11 +5267,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define absolute pacifism and give one historical example of a group or individual adhering to it.",
     "answer": "Absolute pacifism holds that violence is *intrinsically* immoral and never permissible, regardless of consequences (e.g., early Christians, Quakers, Jain monks)",
     "options": [
-     "*Jus ad bellum* refers to the justice of resorting to war (the decision to go to war); *Jus in bello* refers to justice in the conduct of war (how war is fought)",
-     "Satyagraha means \"holding onto truth\" (Satya = truth, Agraha = firm insistence). It is a method of non-violent resistance where the practitioner refuses to cooperate with",
+     "Human security is a paradigm that shifts the referent object of security from the state to the individual, encompassing seven dimensions: economic, food, health, environmental",
+     "Pacifism is the ethical and political doctrine that rejects war, violence, and the use of force as legitimate means to resolve conflicts or achieve political goals",
      "Absolute pacifism holds that violence is *intrinsically* immoral and never permissible, regardless of consequences (e.g., early Christians, Quakers, Jain monks)"
     ],
-    "hint": "Straight from the 'Pacifism' slide -- match the key terms.",
+    "hint": "Straight from the 'Pacifism is the ethical and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pacifism means opposing only unjust wars\") reveals confusion with selective pacifism and failure to grasp the deontological (duty-based) core of absolute pacifism.",
     "id": "gen_c11_ps_ch09_q4",
     "nodeId": "c11_ps_cbse_09_004",
@@ -5269,11 +5373,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define Satyagraha and state its literal meaning.",
     "answer": "Satyagraha means \"holding onto truth\" (Satya = truth, Agraha = firm insistence). It is a method of non-violent resistance where the practitioner refuses to cooperate with",
     "options": [
-     "*Jus ad bellum* refers to the justice of resorting to war (the decision to go to war); *Jus in bello* refers to justice in the conduct of war (how war is fought)",
-     "MAD is a strategic condition where two nuclear-armed adversaries each possess secure second-strike capabilities sufficient to inflict unacceptable damage on the other even after",
+     "Student can (1) articulate the difference between negative and positive peace using Galtung’s terminology, (2) identify whether a given real-world situation (e",
+     "Negative peace refers to the mere absence of direct, organized violence (war, armed conflict, physical coercion)",
      "Satyagraha means \"holding onto truth\" (Satya = truth, Agraha = firm insistence). It is a method of non-violent resistance where the practitioner refuses to cooperate with"
     ],
-    "hint": "Straight from the 'Satyagraha' slide -- match the key terms.",
+    "hint": "Straight from the 'Satyagraha is Gandhi's method of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"passive resistance\" or \"peaceful protest\") reveals confusion between Satyagraha as a moral philosophy and tactical non-violence.",
     "id": "gen_c11_ps_ch09_q6",
     "nodeId": "c11_ps_cbse_09_006",
@@ -5345,7 +5449,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Negative peace (absence of direct violence) would target immediate triggers: prevent suicide attempts through helplines",
      "Disarmament aims at the reduction and eventual elimination of specific weapon categories or all weapons, while arms control seeks to regulate, limit"
     ],
-    "hint": "Straight from the 'Disarmament' slide -- match the key terms.",
+    "hint": "Straight from the 'Disarmament refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they mean the same thing\" or \"arms control is just a step towards disarmament\") reveals confusion between the normative goal of abolition and the pragmatic goal of risk reduction, which leads to misreading treaty objectives.",
     "id": "gen_c11_ps_ch09_q8",
     "nodeId": "c11_ps_cbse_09_008",
@@ -5362,11 +5466,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define peace-building and distinguish it from peacekeeping and peacemaking using the UN's Brahimi Report framework.",
     "answer": "Peace-building addresses root causes and builds sustainable peace through long-term structural transformation (institutions, justice, development)",
     "options": [
-     "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic",
-     "Structural violence is harm caused by social structures (laws, policies, economic systems, institutional practices) that systematically disadvantage groups by denying them access",
+     "The student can distinguish between state security and human security, explain the seven dimensions of human security with examples",
+     "Students think \"collective security\" means the UN has its own standing army that fights wars",
      "Peace-building addresses root causes and builds sustainable peace through long-term structural transformation (institutions, justice, development)"
     ],
-    "hint": "Straight from the 'Peace-building' slide -- match the key terms.",
+    "hint": "Straight from the 'Peace-building is a comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates them reveals the student sees all post-conflict activity as identical \"UN work\" and misses the critical temporal and functional distinction: peacekeeping is short-term/military, peacemaking is diplomatic/agreement-focused, peace-building is long-term/societal.",
     "id": "gen_c11_ps_ch09_q9",
     "nodeId": "c11_ps_cbse_09_009",
@@ -5383,8 +5487,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define 'state security' and 'human security' in one sentence each, and name the UN report that popularized the seven dimensions of human security.",
     "answer": "State security refers to the protection of a state's sovereignty, territorial integrity, and political independence primarily from external military threats",
     "options": [
-     "Satyagraha means \"holding onto truth\" (Satya = truth, Agraha = firm insistence). It is a method of non-violent resistance where the practitioner refuses to cooperate with",
-     "MAD is a strategic condition where two nuclear-armed adversaries each possess secure second-strike capabilities sufficient to inflict unacceptable damage on the other even after",
+     "Peace is a multidimensional concept: negative peace refers to the absence of direct, physical violence (war, assault, riots)",
+     "Student can (1) articulate the difference between negative and positive peace using Galtung’s terminology, (2) identify whether a given real-world situation (e",
      "State security refers to the protection of a state's sovereignty, territorial integrity, and political independence primarily from external military threats"
     ],
     "hint": "Straight from the 'Human security' slide -- match the key terms.",
@@ -5460,7 +5564,7 @@ export const C11_PS_GEN: SimDef[] = [
      "\"The State shall guarantee human security to every person within its jurisdiction, encompassing economic, food, health, environmental, personal, community, and political security",
      "This is negative peace only: direct violence has stopped, but structural violence (unequal land, exclusion from power) persists"
     ],
-    "hint": "Straight from the 'Peace' slide -- match the key terms.",
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “it’s positive peace because the war ended”) shows inability to distinguish cessation of hostilities from transformation of conflict-generating structures.",
     "id": "gen_c11_ps_ch09_q12",
     "nodeId": "c11_ps_cbse_09_001",
@@ -5475,9 +5579,24 @@ export const C11_PS_GEN: SimDef[] = [
      "South Africa: national-level, 21,000 victims heard, amnesty-for-truth model, quasi-judicial but extra-legal, symbolic reconciliation but limited material redress",
      "South Africa’s transition better illustrates the shift. Structural changes: (1) Constitutional guarantee of equality and socio-economic rights (positive peace floor)"
     ],
-    "hint": "Straight from the 'Peace' slide -- match the key terms.",
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “both are positive peace because they signed agreements”) conflates diplomatic agreements with structural transformation.",
     "id": "gen_c11_ps_ch09_q13",
+    "nodeId": "c11_ps_cbse_09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Define negative peace and positive peace in one sentence each, using Galtung’s terminology.",
+    "answer": "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic",
+    "options": [
+     "Structural violence is harm caused by social structures (laws, policies, economic systems, institutional practices) that systematically disadvantage groups by denying them access",
+     "Student can (1) articulate the difference between negative and positive peace using Galtung’s terminology, (2) identify whether a given real-world situation (e",
+     "Negative peace is the absence of direct, organised physical violence (war, riots, assault). Positive peace is the presence of social, economic"
+    ],
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., “positive peace means everyone is happy”) reveals confusion between subjective well-being and structural conditions, or conflation of peace with mere absence of overt war.",
+    "id": "gen_c11_ps_ch09_q14",
     "nodeId": "c11_ps_cbse_09_001",
     "difficulty": "standard"
    },
@@ -5490,9 +5609,9 @@ export const C11_PS_GEN: SimDef[] = [
      "Retributive justice (trials) establishes individual accountability and deterrence but may destabilize fragile peace",
      "Column A (Negative Peace): 1) Zero FIRs for assault/riot in past year. 2) No curfew or Section 144 imposition"
     ],
-    "hint": "Straight from the 'Peace' slide -- match the key terms.",
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
     "misconception": "A poor answer lists only law-and-order metrics in both columns, showing failure to operationalise structural justice.",
-    "id": "gen_c11_ps_ch09_q14",
+    "id": "gen_c11_ps_ch09_q15",
     "nodeId": "c11_ps_cbse_09_001",
     "difficulty": "standard"
    },
@@ -5505,9 +5624,9 @@ export const C11_PS_GEN: SimDef[] = [
      "The claim is largely accurate: Punjab saw Operation Blue Star/Black Thunder, then police-led counterinsurgency with disappearances",
      "The claim is false. Positive peace requires just structures, not just low crime. Counter-example: Emergency (1975-77)—low reported street violence (negative peace) but suspension"
     ],
-    "hint": "Straight from the 'Peace' slide -- match the key terms.",
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “yes, because no one is dying”) reveals a reductive, security-centric view of peace.",
-    "id": "gen_c11_ps_ch09_q15",
+    "id": "gen_c11_ps_ch09_q16",
     "nodeId": "c11_ps_cbse_09_001",
     "difficulty": "standard"
    },
@@ -5520,50 +5639,35 @@ export const C11_PS_GEN: SimDef[] = [
      "This is negative peace only: direct violence has stopped, but structural violence (unequal land, exclusion from power) persists",
      "They aim at positive peace. By targeting structural inequalities (caste, class, gender) that generate latent conflict"
     ],
-    "hint": "Straight from the 'Peace' slide -- match the key terms.",
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., “they are about negative peace because they keep order”) misses the proactive, structural-transformative intent of the Directive Principles.",
-    "id": "gen_c11_ps_ch09_q16",
+    "id": "gen_c11_ps_ch09_q17",
     "nodeId": "c11_ps_cbse_09_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A country signs a ceasefire agreement ending a decade-long insurgency. The government claims \"peace has been restored.\" Using Galtung's framework, explain why this claim may be premature. Identify the specific form of violence that a ceasefire alone does not address.",
-    "answer": "A ceasefire ends direct violence (negative peace) but does not automatically address structural violence (unequal resource distribution, discriminatory laws",
+    "question": "What is Peace? State the definition given in this lesson.",
+    "answer": "Peace is a multidimensional concept: negative peace refers to the absence of direct, physical violence (war, assault, riots)",
     "options": [
-     "Column A (Negative Peace): 1) Zero FIRs for assault/riot in past year. 2) No curfew or Section 144 imposition",
-     "They aim at positive peace. By targeting structural inequalities (caste, class, gender) that generate latent conflict",
-     "A ceasefire ends direct violence (negative peace) but does not automatically address structural violence (unequal resource distribution, discriminatory laws"
+     "Student can (1) articulate the difference between negative and positive peace using Galtung’s terminology, (2) identify whether a given real-world situation (e",
+     "Article 39 (determination of threat to peace) and Article 42 (authorization of military enforcement)",
+     "Peace is a multidimensional concept: negative peace refers to the absence of direct, physical violence (war, assault, riots)"
     ],
-    "hint": "Straight from the 'Negative peace' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"trust deficit\" or \"psychological trauma\" misses the structural/cultural dimension and treats peace as merely interpersonal rather than systemic.",
-    "id": "gen_c11_ps_ch09_q17",
-    "nodeId": "c11_ps_cbse_09_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare Galtung's concept of positive peace with the Indian Constitution's Directive Principles of State Policy (Part IV). Identify two specific Directive Principles that operationalize positive peace and explain how they address structural violence.",
-    "answer": "Article 38 (social order promoting welfare) and Article 39 (equitable distribution of resources, equal pay",
-    "options": [
-     "The security dilemma describes how State A's defensive arming makes State B feel less secure, triggering arms racing",
-     "Both go beyond absence of violence (negative peace). Satyagraha actively confronts structural violence (e",
-     "Article 38 (social order promoting welfare) and Article 39 (equitable distribution of resources, equal pay"
-    ],
-    "hint": "Straight from the 'Negative peace' slide -- match the key terms.",
-    "misconception": "A wrong answer citing only Fundamental Rights (Part III) misses that positive peace requires *positive state action* (enabling provisions), not just negative restraints on state power. This confusion reveals a misunderstanding of the distinction between negative and positive obligations.",
+    "hint": "Straight from the 'Peace is a multidimensional' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Peace is a multidimensional concept: negative peace refers to the absence of direct, physical violence (war, assault,",
     "id": "gen_c11_ps_ch09_q18",
-    "nodeId": "c11_ps_cbse_09_002",
-    "difficulty": "advanced"
+    "nodeId": "c11_ps_cbse_09_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about peace?",
+    "What surprised you about peace is a multidimensional concept: negative?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Peace mastered! 🎯",
+  "successLine": "Peace Is a Multidimensional mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5610,7 +5714,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Constituent Assembly Of India Was",
+    "title": "Constituent Assembly Of India",
     "text": "The Constituent Assembly of India was the specially constituted body of 389 members (later 299 after Partition) elected by provincial legislative assemblies through a single transferable vote system of proportional representation, tasked with drafting the",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5671,7 +5775,7 @@ export const C11_PS_GEN: SimDef[] = [
      "A strong answer includes: (1) specialized committees for each major cleavage (ethnic, religious, regional) with proportional representation",
      "A strong answer will reference: (a) the Cabinet Mission Plan as a tripartite agreement (British, Congress, League)"
     ],
-    "hint": "Straight from the 'Constituent Assembly of India was' slide -- match the key terms.",
+    "hint": "Straight from the 'Constituent Assembly of India' slide -- match the key terms.",
     "misconception": "A weak answer that merely lists members or calls it \"perfectly democratic\" reveals an inability to synthesize historical constraints with normative legitimacy.",
     "id": "gen_c11_ps_ch10_q2",
     "nodeId": "c11_ps_cbse_10_005",
@@ -6228,8 +6332,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional significance of Article 12's definition of \"State\" for the enforcement of fundamental rights?",
     "answer": "Article 12 defines \"State\" to include the Government and Parliament of India, Government and Legislature of each State, all local authorities (municipalities, panchayats)",
     "options": [
-     "Article 14: \"The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India",
-     "A fundamental right is constitutionally entrenched (Part III, Articles 12-35), justiciable directly under Article 32 (Supreme Court) and Article 226 (High Courts)",
+     "Article 32 is a Fundamental Right located in Part III (Fundamental Rights), Chapter \"Right to Constitutional Remedies\" (Articles 32-35)",
+     "Students commonly believe that \"all Fundamental Rights are suspended during Emergency\" or that \"Article 359 suspends the rights themselves",
      "Article 12 defines \"State\" to include the Government and Parliament of India, Government and Legislature of each State, all local authorities (municipalities, panchayats)"
     ],
     "hint": "Straight from the 'Fundamental Rights' slide -- match the key terms.",
@@ -6427,8 +6531,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the maximum period for which a person can be detained under a preventive detention law without obtaining the opinion of an Advisory Board, as mandated by Article 22(4) of the Constitution?",
     "answer": "The maximum period is three months. Article 22(4) explicitly states that no law providing for preventive detention shall authorize detention for a longer period than three months",
     "options": [
-     "Article 14: \"The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India",
-     "Article 23(1) prohibits \"traffic in human beings and begar and other similar forms of forced labour\"",
+     "Preventive detention refers to the detention of a person without trial or conviction by a court",
+     "The student can distinguish between punitive and preventive detention, explain each safeguard under Article 22(4)-(7) with constitutional precision",
      "The maximum period is three months. Article 22(4) explicitly states that no law providing for preventive detention shall authorize detention for a longer period than three months"
     ],
     "hint": "Straight from the 'Preventive detention' slide -- match the key terms.",
@@ -6447,8 +6551,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "State the exact constitutional prohibition under Article 23(1) and the single exception provided in Article 23(2).",
     "answer": "Article 23(1) prohibits \"traffic in human beings and begar and other similar forms of forced labour\"",
     "options": [
-     "Article 19(1) guarantees: (a) speech and expression [restricted by 19(2)]; (b) peaceful assembly [19(3)]; (c) associations/unions [19(4)]; (d) movement throughout India [19(5)]",
-     "A fundamental right is constitutionally entrenched (Part III, Articles 12-35), justiciable directly under Article 32 (Supreme Court) and Article 226 (High Courts)",
+     "The student can distinguish between punitive and preventive detention, explain each safeguard under Article 22(4)-(7) with constitutional precision",
+     "Article 32 is a Fundamental Right located in Part III (Fundamental Rights), Chapter \"Right to Constitutional Remedies\" (Articles 32-35)",
      "Article 23(1) prohibits \"traffic in human beings and begar and other similar forms of forced labour\""
     ],
     "hint": "Straight from the 'Right against Exploitation under' slide -- match the key terms.",
@@ -6468,8 +6572,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the precise constitutional distinction between Article 25(1) and Article 25(2) regarding the scope of state regulation over religious practice?",
     "answer": "Article 25(1) guarantees the fundamental right to freely profess, practice, and propagate religion subject to public order, morality, health, and other fundamental rights",
     "options": [
-     "Article 19(1) guarantees: (a) speech and expression [restricted by 19(2)]; (b) peaceful assembly [19(3)]; (c) associations/unions [19(4)]; (d) movement throughout India [19(5)]",
-     "Article 32 is a Fundamental Right located in Part III (Fundamental Rights), Chapter \"Right to Constitutional Remedies\" (Articles 32-35)",
+     "State of Madras v. Champakam Dorairajan (1951)",
+     "The student can distinguish between the scope of Article 23 (forced labour/trafficking) and Article 24 (child labour), explain the constitutional exceptions (e",
      "Article 25(1) guarantees the fundamental right to freely profess, practice, and propagate religion subject to public order, morality, health, and other fundamental rights"
     ],
     "hint": "Straight from the 'Right to Freedom of Religion' slide -- match the key terms.",
@@ -6626,9 +6730,9 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which Supreme Court case first held that in case of conflict between Fundamental Rights and Directive Principles, the Fundamental Rights would prevail?",
     "answer": "State of Madras v. Champakam Dorairajan (1951)",
     "options": [
-     "Article 14: \"The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India",
-     "Article 19(1) guarantees: (a) speech and expression [restricted by 19(2)]; (b) peaceful assembly [19(3)]; (c) associations/unions [19(4)]; (d) movement throughout India [19(5)]",
-     "Society of Madras v. Champakam Dorairajan (1951)",
+     "A fundamental right is constitutionally entrenched (Part III, Articles 12-35), justiciable directly under Article 32 (Supreme Court) and Article 226 (High Courts)",
+     "Students believe \"fundamental rights are absolute and cannot be restricted\" - they confuse the term \"fundamental\" with \"absolute",
+     "The Court of Madras v. Champakam Dorairajan (1951)",
      "State of Madras v. Champakam Dorairajan (1951)"
     ],
     "hint": "Straight from the 'The relationship between' slide -- match the key terms.",
@@ -6935,14 +7039,14 @@ export const C11_PS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_ps_ch12",
-  "title": "Elections",
+  "title": "Elections Are The Institutional Mechanism",
   "subtitle": "Physical Education · Chapter 12",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Elections",
+  "topic": "Elections Are The Institutional Mechanism Through",
   "chapters": [
-   "Physical Education Ch12: Elections"
+   "Physical Education Ch12: Elections Are The Institutional Mechanism Through"
   ],
   "nodeIds": [
    "c11_ps_cbse_12_001",
@@ -6965,7 +7069,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Elections in real working life?",
+   "question": "Who uses Elections Are The Institutional in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -6976,7 +7080,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Elections",
+    "title": "Elections Are The Institutional Mechanism",
     "text": "Elections are the institutional mechanism through which popular sovereignty—the principle that ultimate political authority resides in the people—is operationalized in a representative democracy, and they enforce accountability by subjecting representatives",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7054,11 +7158,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional basis for the claim that \"the people are the ultimate source of political authority\" in India, and which article operationalizes this through elections?",
     "answer": "The Preamble declares India a \"sovereign democratic republic\" and secures \"liberty of thought, expression, belief, faith and worship\" to all citizens",
     "options": [
+     "Student can explain the constitutional basis of the ECI (Article 324), describe its composition (CEC + ECs), appointment process, tenure, and removal safeguards",
      "Article 324 of the Constitution vests \"superintendence, direction, and control of elections\" in the Election Commission",
-     "NOTA was introduced through the Supreme Court's 2013 judgment in People's Union for Civil Liberties v",
      "The Preamble declares India a \"sovereign democratic republic\" and secures \"liberty of thought, expression, belief, faith and worship\" to all citizens"
     ],
-    "hint": "Straight from the 'Elections' slide -- match the key terms.",
+    "hint": "Straight from the 'Elections are the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing Article 74 or Article 356) reveals confusion between the executive's accountability to the legislature and the legislature's accountability to the people.",
     "id": "gen_c11_ps_ch12_q1",
     "nodeId": "c11_ps_cbse_12_001",
@@ -7075,9 +7179,9 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which of the following offices in India are filled through DIRECT election by the people? (Select all that apply) a) President of India b) Member of Lok Sabha c) Member of Rajya Sabha d) Member of State Legislative Assembly e) Vice-President of India",
     "answer": "Correct: (b) Member of Lok Sabha and (d) Member of State Legislative Assembly",
     "options": [
-     "Article 330 provides for reservation of seats for SCs and STs in the Lok Sabha, and Article 332 provides for reservation in State Legislative Assemblies",
-     "NOTA was introduced through the Supreme Court's 2013 judgment in People's Union for Civil Liberties v",
-     "Correct: (b) Member of Lok Sabha and (d) Member of Second",
+     "Article 324 of the Constitution of India",
+     "Article 324 of the Constitution vests \"superintendence, direction, and control of elections\" in the Election Commission",
+     "Correct: (b) Member of Lok Sabha and (d) Member of Descriptive",
      "Correct: (b) Member of Lok Sabha and (d) Member of State Legislative Assembly"
     ],
     "hint": "Straight from the 'Direct election' slide -- match the key terms.",
@@ -7250,9 +7354,9 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional article that vests the superintendence, direction, and control of the preparation of electoral rolls and the conduct of all elections to Parliament and State Legislatures in the Election Commission of India?",
     "answer": "Article 324 of the Constitution of India",
     "options": [
-     "Correct: (b) Member of Lok Sabha and (d) Member of State Legislative Assembly",
-     "The Preamble declares India a \"sovereign democratic republic\" and secures \"liberty of thought, expression, belief, faith and worship\" to all citizens",
-     "Article 324 of the Constitution of They",
+     "Universal Adult Franchise (UAF) is the constitutional principle enshrined in Article 326 of the Constitution of India",
+     "The student can explain the sequential stages of an election from the drafting of electoral rolls to the end of campaigning",
+     "Article 324 of the Constitution of Three",
      "Article 324 of the Constitution of India"
     ],
     "hint": "Straight from the 'conduct of elections in India' slide -- match the key terms.",
@@ -7272,8 +7376,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional source of the Election Commission's authority to issue and enforce the Model Code of Conduct?",
     "answer": "Article 324 of the Constitution vests \"superintendence, direction, and control of elections\" in the Election Commission",
     "options": [
-     "A party must secure at least 6% of valid votes polled in the State in a general election to the Lok Sabha or State Legislative Assembly",
-     "The Preamble declares India a \"sovereign democratic republic\" and secures \"liberty of thought, expression, belief, faith and worship\" to all citizens",
+     "The student can explain the sequential stages of an election from the drafting of electoral rolls to the end of campaigning",
+     "Elections are the institutional mechanism through which popular sovereignty—the principle that ultimate political authority resides in the people—is operationalized in a",
      "Article 324 of the Constitution vests \"superintendence, direction, and control of elections\" in the Election Commission"
     ],
     "hint": "Straight from the 'Model Code of Conduct' slide -- match the key terms.",
@@ -7293,11 +7397,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional basis for the introduction of NOTA in Indian elections, and which Supreme Court case mandated it?",
     "answer": "NOTA was introduced through the Supreme Court's 2013 judgment in People's Union for Civil Liberties v",
     "options": [
-     "Article 324 of the Constitution vests \"superintendence, direction, and control of elections\" in the Election Commission",
-     "The Preamble declares India a \"sovereign democratic republic\" and secures \"liberty of thought, expression, belief, faith and worship\" to all citizens",
+     "Independent candidates are individuals who contest elections without affiliation to any registered political party",
+     "The student can distinguish between direct and indirect elections, identify at least three offices filled by each method",
      "NOTA was introduced through the Supreme Court's 2013 judgment in People's Union for Civil Liberties v"
     ],
-    "hint": "Straight from the 'Electoral reforms in India refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Electoral reforms in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing a constitutional amendment or parliamentary act) reveals confusion between judicial interpretation and legislative reform.",
     "id": "gen_c11_ps_ch12_q11",
     "nodeId": "c11_ps_cbse_12_011",
@@ -7427,7 +7531,7 @@ export const C11_PS_GEN: SimDef[] = [
      "A Lok Sabha MP faces direct electoral accountability every 5 years — voters can remove them. A Rajya Sabha MP is accountable to the State Legislative Assembly that elected them",
      "In India, voters elect the legislature, which then sustains the executive (Council of Ministers) through confidence; accountability runs: voters → Lok Sabha → Council of Ministers"
     ],
-    "hint": "Straight from the 'Elections' slide -- match the key terms.",
+    "hint": "Straight from the 'Elections are the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer that claims \"both are equally accountable\" ignores the structural difference in the accountability chain.",
     "id": "gen_c11_ps_ch12_q14",
     "nodeId": "c11_ps_cbse_12_001",
@@ -7442,7 +7546,7 @@ export const C11_PS_GEN: SimDef[] = [
      "A strong proposal might include: (1) Mandating that parties hold primaries within reserved constituencies where only SC/ST party members vote",
      "A strong proposal might amend Article 83/172 (duration of Houses) to fix election dates and limit premature dissolution"
     ],
-    "hint": "Straight from the 'Elections' slide -- match the key terms.",
+    "hint": "Straight from the 'Elections are the institutional' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong proposal might amend Article 83/172 (duration of Houses) to fix election dates and limit premature",
     "id": "gen_c11_ps_ch12_q15",
     "nodeId": "c11_ps_cbse_12_001",
@@ -7455,10 +7559,9 @@ export const C11_PS_GEN: SimDef[] = [
     "options": [
      "Procedural accountability means elections are held regularly and votes are counted fairly (e.g., the 2024 Lok Sabha election was conducted on schedule)",
      "Standalone EVMs provided no physical proof of the vote cast, making it impossible for voters to verify their vote or for audits to detect hardware/software manipulation",
-     "Rajya Sabha MPs elections can strengthen procedural accountability by increasing the frequency of electoral sanction",
      "Frequent elections can strengthen procedural accountability by increasing the frequency of electoral sanction"
     ],
-    "hint": "Straight from the 'Elections' slide -- match the key terms.",
+    "hint": "Straight from the 'Elections are the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer that uncritically endorses frequent elections misses the structural risks to federalism and governance.",
     "id": "gen_c11_ps_ch12_q16",
     "nodeId": "c11_ps_cbse_12_001",
@@ -7473,7 +7576,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Frequent elections can strengthen procedural accountability by increasing the frequency of electoral sanction",
      "Procedural accountability means elections are held regularly and votes are counted fairly (e.g., the 2024 Lok Sabha election was conducted on schedule)"
     ],
-    "hint": "Straight from the 'Elections' slide -- match the key terms.",
+    "hint": "Straight from the 'Elections are the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer that equates the two misses the core tension: elections are necessary but not sufficient for accountability; they create the *threat* of sanction, but responsiveness depends on party systems, civil society, and institutional checks.",
     "id": "gen_c11_ps_ch12_q17",
     "nodeId": "c11_ps_cbse_12_001",
@@ -7488,7 +7591,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Constitutional: (1) Art. 81 requires territorial constituencies for direct elections—PR would need multi-member constituencies or national lists, requiring amendment; (2) Art",
      "Popular sovereignty authorizes representatives for a fixed term; mass resignations to engineer a government change bypass the voters' mandate"
     ],
-    "hint": "Straight from the 'Elections' slide -- match the key terms.",
+    "hint": "Straight from the 'Elections are the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it's constitutional so it's democratic\" confuses legal validity with democratic legitimacy; a better answer notes that anti-defection law (Tenth Schedule) was designed to prevent such accountability gaps but can be circumvented by resignations.",
     "id": "gen_c11_ps_ch12_q18",
     "nodeId": "c11_ps_cbse_12_001",
@@ -7497,24 +7600,24 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about elections?",
+    "What surprised you about elections are the institutional mechanism through?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Elections mastered! 🎯",
+  "successLine": "Elections Are mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ps_ch13",
-  "title": "Executive",
+  "title": "The Executive Is The Branch",
   "subtitle": "Physical Education · Chapter 13",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Executive",
+  "topic": "The Executive Is The Branch",
   "chapters": [
-   "Physical Education Ch13: Executive"
+   "Physical Education Ch13: The Executive Is The Branch"
   ],
   "nodeIds": [
    "c11_ps_cbse_13_001",
@@ -7537,7 +7640,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Executive in real working life?",
+   "question": "Who uses The Executive Is The Branch in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -7548,7 +7651,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Executive",
+    "title": "The Executive Is The Branch",
     "text": "The executive is the branch of government constitutionally mandated to implement, enforce, and administer laws enacted by the legislature, comprising the political executive (elected heads like Prime Minister and Council of Ministers at Union level, Chief",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -7608,13 +7711,13 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Governor",
+    "title": "Governor of a State: Role and relationship",
     "text": "The Governor is the constitutional head of a state in India, appointed by the President under Article 155, who exercises executive power of the state (Article 154) on the aid and advice of the Council of Ministers headed by the Chief Minister (Article 163),",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Bureaucracy",
+    "title": "Bureaucracy Is The Permanent Executive",
     "text": "Bureaucracy is the permanent executive branch of government comprising civil servants selected through merit-based competitive examinations who implement laws and policies, provide expert advice to the political executive, and ensure administrative continuity",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -7873,8 +7976,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional basis for the statement that the Council of Ministers is collectively responsible to the Lok Sabha, and which article establishes this principle?",
     "answer": "Article 75(3) of the Constitution states: \"The Council of Ministers shall be collectively responsible to the House of the People",
     "options": [
-     "The permanent executive's tenure and service conditions are governed by Articles 308-314 (Services under the Union and States)",
-     "The Council of Ministers is explicitly established under Article 75(1) (\"There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the",
+     "Student can explain the Vice President's dual constitutional role (Rajya Sabha Chairman and President's deputy)",
+     "Student can distinguish the constitutional basis, tenure, accountability mechanisms, and functional relationship between political and permanent executives",
      "Article 75(3) of the Constitution states: \"The Council of Ministers shall be collectively responsible to the House of the People"
     ],
     "hint": "Straight from the 'Prime Minister' slide -- match the key terms.",
@@ -7916,7 +8019,7 @@ export const C11_PS_GEN: SimDef[] = [
     "answer": "Article 75(3) states: \"The Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha)",
     "options": [
      "Article 53(1) vests the executive power of the Union in the President, to be exercised either directly or through officers subordinate to him",
-     "The permanent executive's tenure and service conditions are governed by Articles 308-314 (Services under the Union and States)",
+     "Student can explain the constitutional procedure for PM appointment under Article 75(1), distinguish between single-party majority and coalition scenarios",
      "Article 75(3) states: \"The Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha)"
     ],
     "hint": "Straight from the 'Collective responsibility to the' slide -- match the key terms.",
@@ -7936,8 +8039,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional basis for the Council of Ministers, and how does it differ from the constitutional status of the Cabinet?",
     "answer": "The Council of Ministers is explicitly established under Article 75(1) (\"There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the",
     "options": [
-     "The permanent executive's tenure and service conditions are governed by Articles 308-314 (Services under the Union and States)",
-     "The electoral college consists of elected members of both Houses of Parliament (Lok Sabha and Rajya Sabha) and elected members of the Legislative Assemblies of all States",
+     "Article 75(3) of the Constitution states: \"The Council of Ministers shall be collectively responsible to the House of the People",
+     "Article 75(3) states: \"The Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha)",
      "The Council of Ministers is explicitly established under Article 75(1) (\"There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the"
     ],
     "hint": "Straight from the 'Council of Ministers' slide -- match the key terms.",
@@ -8150,7 +8253,7 @@ export const C11_PS_GEN: SimDef[] = [
      "The Chief Minister (political executive) has policy authority over policing priorities but *not* unfettered transfer power",
      "The Ministry (political executive - Minister + senior bureaucrats) issues the directive; the District Collector (permanent executive - IAS officer) implements it at district level"
     ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
+    "hint": "Straight from the 'The executive is the branch' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying the Collector is political executive or that the directive comes from Parliament) reveals confusion between law-making (legislature) and law-implementation (executive), and between the two tiers of the executive itself.",
     "id": "gen_c11_ps_ch13_q14",
     "nodeId": "c11_ps_cbse_13_001",
@@ -8165,7 +8268,7 @@ export const C11_PS_GEN: SimDef[] = [
      "India: indirectly elected (electoral college), ceremonial powers exercised on ministerial advice (Article 74), not personally accountable to Parliament",
      "Structural similarity: Both levels have a formal head (President/Governor) aided by a Council of Ministers headed by PM/CM"
     ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
+    "hint": "Straight from the 'The executive is the branch' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., claiming identical powers or that Governor has no discretion) reveals failure to grasp the asymmetric federal design where States have a centrally appointed head with limited discretion - a nuance essential for c11_ps_cbse_13_011.",
     "id": "gen_c11_ps_ch13_q15",
     "nodeId": "c11_ps_cbse_13_001",
@@ -8180,7 +8283,7 @@ export const C11_PS_GEN: SimDef[] = [
      "The Secretary invokes financial accountability under GFR and constitutional responsibility under Article 311",
      "A good answer would include: (1) Composition ensuring independence (e.g., appointed by a collegium including CJI, Leader of Opposition, PM)"
     ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
+    "hint": "Straight from the 'The executive is the branch' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., giving it power to overrule ministers or making it subordinate to a ministry) reveals misunderstanding of the separation between *policy direction* (political executive's domain) and *implementation integrity* (permanent executive's duty) - the core tension this node introduces.",
     "id": "gen_c11_ps_ch13_q16",
     "nodeId": "c11_ps_cbse_13_001",
@@ -8195,7 +8298,7 @@ export const C11_PS_GEN: SimDef[] = [
      "In a parliamentary system, the executive survives only while it enjoys the confidence of the lower house (Lok Sabha), expressed through a no-confidence motion (Article 75(3))",
      "Partially accurate but incomplete. The executive (Council of Ministers) is *accountable* to the legislature (Lok Sabha) through collective responsibility (Article 75(3))"
     ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
+    "hint": "Straight from the 'The executive is the branch' slide -- match the key terms.",
     "misconception": "A wrong answer (uncritical agreement) reveals the student confuses accountability with subordination and misses the executive's dominant role in policy initiation - a key insight for c11_ps_cbse_13_008.",
     "id": "gen_c11_ps_ch13_q17",
     "nodeId": "c11_ps_cbse_13_001",
@@ -8203,15 +8306,15 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Which constitutional article vests the executive power of the Union in the President, and what does this imply about the President's role vis-à-vis the Council of Ministers?",
-    "answer": "Article 53(1) vests the executive power of the Union in the President, to be exercised either directly or through officers subordinate to him",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can explain the dual structure of the Indian executive (political and permanent), distinguish its law-implementation role from the legislature's law-making role",
     "options": [
-     "The Council of Ministers is explicitly established under Article 75(1) (\"There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the",
-     "The permanent executive's tenure and service conditions are governed by Articles 308-314 (Services under the Union and States)",
-     "Article 53(1) vests the executive power of the Union in the President, to be exercised either directly or through officers subordinate to him"
+     "The student can identify all four core discretionary situations, explain the constitutional basis for each, distinguish between constitutional text and evolved conventions",
+     "Can distinguish parliamentary and presidential systems across five dimensions (origin, tenure, accountability, separation of powers",
+     "Student can explain the dual structure of the Indian executive (political and permanent), distinguish its law-implementation role from the legislature's law-making role"
     ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., citing Article 75 or saying the President acts independently) reveals the student confuses the formal constitutional head (President) with the real executive (Council of Ministers), a critical distinction in parliamentary democracy.",
+    "hint": "Straight from the 'The executive is the branch' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can explain the dual structure of the Indian executive (political and permanent), distinguish its",
     "id": "gen_c11_ps_ch13_q18",
     "nodeId": "c11_ps_cbse_13_001",
     "difficulty": "standard"
@@ -8219,24 +8322,24 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about executive?",
+    "What surprised you about the executive is the branch?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Executive mastered! 🎯",
+  "successLine": "The Executive Is The Branch mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_ps_ch14",
-  "title": "Legislature",
+  "title": "A Legislature Is The Law-making Organ",
   "subtitle": "Physical Education · Chapter 14",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Legislature",
+  "topic": "A Legislature Is The Law-making Organ",
   "chapters": [
-   "Physical Education Ch14: Legislature"
+   "Physical Education Ch14: A Legislature Is The Law-making Organ"
   ],
   "nodeIds": [
    "c11_ps_cbse_14_001",
@@ -8259,7 +8362,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Legislature more about facts, or about reasoning?",
+   "question": "Is A Legislature Is The Law-making more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -8270,13 +8373,13 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Legislature",
+    "title": "A Legislature Is The Law-making Organ",
     "text": "A legislature is the law-making organ of government that derives its legitimacy from popular representation, tasked with enacting legislation, scrutinizing the executive, authorizing public expenditure, and providing a forum for deliberation on national",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Bicameralism",
+    "title": "Bicameralism Is a Constitutional Design",
     "text": "Bicameralism is a constitutional design where the legislature consists of two separate chambers (houses) — in India, the Lok Sabha (House of the People) and the Rajya Sabha (Council of States) — with distinct composition, tenure, and powers, established under",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -8300,7 +8403,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Bill",
+    "title": "A Bill Is a Draft Legislative",
     "text": "A Bill is a draft legislative proposal that becomes law after passage by both Houses of Parliament and presidential assent. Under the Indian Constitution, bills are classified into four categories based on subject matter and procedural requirements: (1)",
     "emoji": "🏃",
     "bgColor": "from-violet-400 to-purple-500"
@@ -8400,11 +8503,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What are the two houses of Parliament in India called, and which constitutional article establishes Parliament as consisting of the President and two Houses?",
     "answer": "The two houses are Lok Sabha (House of the People) and Rajya Sabha (Council of States). Article 79 establishes Parliament as consisting of the President, Lok Sabha",
     "options": [
+     "Bicameralism is a constitutional design where the legislature consists of two separate chambers (houses)",
      "The constitutional basis derives from Article 105 (powers, privileges, and immunities of Parliament and its members) and Article 118 (each House makes rules for regulating its",
-     "(a) Article 105 for Parliament; (b) Article 194 for State Legislatures. The immunity clause is Article 105(2) [and Article 194(2) for states]: \"No member of Parliament shall be",
      "The two houses are Lok Sabha (House of the People) and Rajya Sabha (Council of States). Article 79 establishes Parliament as consisting of the President, Lok Sabha"
     ],
-    "hint": "Straight from the 'Bicameralism' slide -- match the key terms.",
+    "hint": "Straight from the 'Bicameralism is a constitutional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Vidhan Sabha/Vidhan Parishad, or citing Article 75) reveals confusion between union and state legislatures, or between executive and legislative constitutional provisions.",
     "id": "gen_c11_ps_ch14_q2",
     "nodeId": "c11_ps_cbse_14_002",
@@ -8777,8 +8880,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional basis for the formation of Parliamentary Committees in India, and which two articles are most directly relevant?",
     "answer": "The constitutional basis derives from Article 105 (powers, privileges, and immunities of Parliament and its members) and Article 118 (each House makes rules for regulating its",
     "options": [
-     "Article 110 lists: (1) imposition, abolition, remission, alteration or regulation of any tax; (2) regulation of borrowing by the government",
-     "Article 79 establishes Parliament consisting of the President and two Houses (Lok Sabha and Rajya Sabha)",
+     "Student can explain the constitutional basis for Lok Sabha's composition (Article 81), calculate its term under normal and emergency conditions (Article 83)",
+     "Parliamentary control over the executive refers to the constitutional mechanisms—Questions (Starred, Unstarred, Short Notice), Motions (Adjournment, No-Confidence, Censure",
      "The constitutional basis derives from Article 105 (powers, privileges, and immunities of Parliament and its members) and Article 118 (each House makes rules for regulating its"
     ],
     "hint": "Straight from the 'Parliamentary committees' slide -- match the key terms.",
@@ -8850,11 +8953,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional provision that contains the Anti-defection law, and which Amendment Act inserted it?",
     "answer": "The Anti-defection law is contained in the Tenth Schedule of the Constitution, inserted by the 52nd Amendment Act, 1985",
     "options": [
-     "A Bill is a draft legislative proposal; it becomes an Act only after it has been passed by both Houses of Parliament (or deemed passed in case of Money Bills) and received the",
-     "Article 79 establishes Parliament consisting of the President and two Houses (Lok Sabha and Rajya Sabha)",
+     "Student can explain why a legislature is necessary in a democracy by distinguishing its law-making, representation, and oversight functions",
+     "Student can distinguish between collective privileges (House as a body) and individual privileges (member), explain the constitutional basis (Articles 105 and 194)",
      "The Anti-defection law is contained in the Tenth Schedule of the Constitution, inserted by the 52nd Amendment Act, 1985"
     ],
-    "hint": "Straight from the 'Anti-defection law, enshrined in' slide -- match the key terms.",
+    "hint": "Straight from the 'Anti-defection law, enshrined' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing the Ninth Schedule or 42nd Amendment) reveals confusion between schedules dealing with land reforms and the anti-defection provisions, or mixing up the amendment that added the Tenth Schedule with the one that later modified it (91st Amendment).",
     "id": "gen_c11_ps_ch14_q11",
     "nodeId": "c11_ps_cbse_14_011",
@@ -9074,7 +9177,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Amend Article 171 (Composition of Legislative Councils). Proposed formula for a state with Council strength N: (1) 40% elected by MLAs (PR-STV) - retains link to popular house",
      "The legislative function is law-making within the federal distribution of powers (Seventh Schedule)"
     ],
-    "hint": "Straight from the 'legislature' slide -- match the key terms.",
+    "hint": "Straight from the 'A legislature is the law-making' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the Prime Minister decides\" or \"the Election Commission decides\") shows misunderstanding of separation of powers and the judiciary's role in federal disputes, not the legislature's.",
     "id": "gen_c11_ps_ch14_q15",
     "nodeId": "c11_ps_cbse_14_001",
@@ -9089,7 +9192,7 @@ export const C11_PS_GEN: SimDef[] = [
      "(a) PAC: only Lok Sabha members (15) + Rajya Sabha associate members (7); Estimates Committee: only Lok Sabha members (30)",
      "Lok Sabha embodies \"one person, one vote, one value\" — popular sovereignty. Rajya Sabha embodies federal equality — states as units"
     ],
-    "hint": "Straight from the 'legislature' slide -- match the key terms.",
+    "hint": "Straight from the 'A legislature is the law-making' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both represent people directly\" or \"Rajya Sabha is just a revising chamber\") misses the federal design principle: bicameralism balances demographic and territorial representation.",
     "id": "gen_c11_ps_ch14_q16",
     "nodeId": "c11_ps_cbse_14_001",
@@ -9104,7 +9207,7 @@ export const C11_PS_GEN: SimDef[] = [
      "No, the Bill cannot become law. Article 111 gives the President three options: assent (Bill becomes Act), withhold assent (Bill dies)",
      "A strong answer will argue: (1) Rules made by elected student representatives reflect collective will, not one person's preference"
     ],
-    "hint": "Straight from the 'legislature' slide -- match the key terms.",
+    "hint": "Straight from the 'A legislature is the law-making' slide -- match the key terms.",
     "misconception": "A poor answer focuses only on \"fairness\" without constitutional reasoning or confuses the council's role with advisory-only function.",
     "id": "gen_c11_ps_ch14_q17",
     "nodeId": "c11_ps_cbse_14_001",
@@ -9119,7 +9222,7 @@ export const C11_PS_GEN: SimDef[] = [
      "No-confidence is the sharpest tool, but not the only reason. Structural reinforcements: (1) Money bills originate only in Lok Sabha (Article 109), giving it purse control",
      "While party discipline often limits overt opposition, oversight tools remain potent: Question Hour forces ministers to answer publicly"
     ],
-    "hint": "Straight from the 'legislature' slide -- match the key terms.",
+    "hint": "Straight from the 'A legislature is the law-making' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"oversight is useless because of majority\") ignores institutional design that creates accountability moments even within party systems.",
     "id": "gen_c11_ps_ch14_q18",
     "nodeId": "c11_ps_cbse_14_001",
@@ -9128,11 +9231,11 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about legislature?",
+    "What surprised you about a legislature is the law-making organ?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Legislature mastered! 🎯",
+  "successLine": "A Legislature Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -9203,7 +9306,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Supreme Court Of India",
+    "title": "The Supreme Court Of India Exercises",
     "text": "The Supreme Court of India exercises three distinct types of jurisdiction: Original Jurisdiction (Article 131) where it hears disputes between the Union and States or between States directly as a court of first instance; Appellate Jurisdiction (Articles",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9239,7 +9342,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Relationship Between The Judiciary",
+    "title": "The Relationship Between The Judiciary,",
     "text": "The relationship between the judiciary, legislature, and executive in India is based on the principle of separation of powers with checks and balances, where each organ performs distinct functions (legislature makes laws, executive implements laws, judiciary",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -9309,8 +9412,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional article prescribes the appointment of Supreme Court judges and what is the role of the Chief Justice of India in that process?",
     "answer": "Article 124(2) states that the President appoints Supreme Court judges after consultation with such judges of the Supreme Court and High Courts as the President may deem",
     "options": [
-     "Article 13(2) of the Constitution of India",
-     "The maximum sanctioned strength is 34 (1 CJI + 33 other judges), determined by the Supreme Court (Number of Judges) Act, 1956 as amended in 2019",
+     "Student can explain the composition of the Supreme Court (number of judges, appointment process, qualifications) and distinguish between its original, appellate, advisory",
+     "Judicial independence in India is constitutionally secured through specific appointment procedures (Articles 124 and 217) and tenure safeguards: judges of the Supreme Court and",
      "Article 124(2) states that the President appoints Supreme Court judges after consultation with such judges of the Supreme Court and High Courts as the President may deem"
     ],
     "hint": "Straight from the 'Judicial independence in India' slide -- match the key terms.",
@@ -9489,8 +9592,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional article exclusively governs the Supreme Court's original jurisdiction, and what is the ONE type of dispute it CANNOT hear under this jurisdiction even if it involves the Government of India?",
     "answer": "Article 131 governs original jurisdiction. It cannot hear disputes arising from pre-Constitution treaties, agreements, or similar instruments (Article 131 proviso)",
     "options": [
-     "The maximum sanctioned strength is 34 (1 CJI + 33 other judges), determined by the Supreme Court (Number of Judges) Act, 1956 as amended in 2019",
-     "Article 124(2) for Supreme Court and Article 217(1) for High Courts; the phrase \"after consultation with the Chief Justice of India\" (and other judges) was reinterpreted by the",
+     "Article 32 empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights. Article 226 empowers High Courts to issue writs for the enforcement of Fundamental",
+     "Article 13(2) of the Constitution of India",
      "Article 131 governs original jurisdiction. It cannot hear disputes arising from pre-Constitution treaties, agreements, or similar instruments (Article 131 proviso)"
     ],
     "hint": "Straight from the 'The Supreme Court of India' slide -- match the key terms.",
@@ -9647,8 +9750,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the traditional rule of *locus standi* in Indian law, and how does Public Interest Litigation modify this rule? Cite the relevant constitutional articles.",
     "answer": "The traditional rule of *locus standi* requires that only a person whose own legal right has been violated (an \"aggrieved person\") can approach the court for a remedy",
     "options": [
-     "The Supreme Court is established under Part V (The Union), Articles 124 to 147 of the Constitution",
-     "Article 50 (Directive Principle of State Policy) directs the State to take steps to separate the judiciary from the executive in public services",
+     "Public Interest Litigation (PIL) is a judicial innovation in Indian constitutional law that relaxes the traditional rule of *locus standi*",
+     "The student can explain the three-tier structure of the Indian judiciary, cite the relevant constitutional articles for each tier",
      "The traditional rule of *locus standi* requires that only a person whose own legal right has been violated (an \"aggrieved person\") can approach the court for a remedy"
     ],
     "hint": "Straight from the 'Public Interest Litigation' slide -- match the key terms.",
@@ -9668,8 +9771,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Define judicial activism and judicial restraint in one sentence each, citing the specific constitutional articles that enable judicial activism in India.",
     "answer": "Judicial activism is the court's proactive interpretation of the Constitution to protect rights and fill governance gaps, enabled by Articles 32",
     "options": [
-     "The maximum sanctioned strength is 34 (1 CJI + 33 other judges), determined by the Supreme Court (Number of Judges) Act, 1956 as amended in 2019",
-     "Article 13(2) of the Constitution of India",
+     "Judicial independence in India is constitutionally secured through specific appointment procedures (Articles 124 and 217) and tenure safeguards: judges of the Supreme Court and",
+     "Student can explain the system of checks and balances among the three organs, identify specific constitutional articles that enable each organ to check the others",
      "Judicial activism is the court's proactive interpretation of the Constitution to protect rights and fill governance gaps, enabled by Articles 32"
     ],
     "hint": "Straight from the 'Judicial activism' slide -- match the key terms.",
@@ -9689,8 +9792,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional articles govern the appointment of Supreme Court and High Court judges respectively, and what phrase in these articles became the basis for the Collegium system?",
     "answer": "Article 124(2) for Supreme Court and Article 217(1) for High Courts; the phrase \"after consultation with the Chief Justice of India\" (and other judges) was reinterpreted by the",
     "options": [
-     "Article 124(2) states that the President appoints Supreme Court judges after consultation with such judges of the Supreme Court and High Courts as the President may deem",
-     "The Supreme Court is established under Part V (The Union), Articles 124 to 147 of the Constitution",
+     "Judicial review is the power of the Supreme Court (Article 32, 136, 142) and High Courts (Article 226",
+     "The maximum sanctioned strength is 34 (1 CJI + 33 other judges), determined by the Supreme Court (Number of Judges) Act, 1956 as amended in 2019",
      "Article 124(2) for Supreme Court and Article 217(1) for High Courts; the phrase \"after consultation with the Chief Justice of India\" (and other judges) was reinterpreted by the"
     ],
     "hint": "Straight from the 'Collegium system' slide -- match the key terms.",
@@ -9894,6 +9997,7 @@ export const C11_PS_GEN: SimDef[] = [
     "options": [
      "Difference 1: US review is limited to \"cases and controversies\" (Article III); India's Article 226 allows High Courts to review *any* executive/legislative action affecting",
      "A Supreme Court judge can only be removed by an impeachment motion passed by a special majority in both Houses of Parliament on grounds of proved misbehavior or incapacity",
+     "In a federation, the judiciary resolves disputes between Centre and States (Article 131) and interprets the division of powers (Keshavananda Bharati)",
      "In a federation, the judiciary resolves disputes between Centre and States (Article 131) and interprets the division of powers (Seventh Schedule)"
     ],
     "hint": "Straight from the 'independent judiciary' slide -- match the key terms.",
@@ -9945,14 +10049,14 @@ export const C11_PS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_ps_ch16",
-  "title": "Federalism",
+  "title": "Federalism Is a System Of Government",
   "subtitle": "Physical Education · Chapter 16",
   "classLevel": 11,
   "mode": "senior",
   "subject": "physical education",
-  "topic": "Federalism",
+  "topic": "Federalism Is a System Of Government",
   "chapters": [
-   "Physical Education Ch16: Federalism"
+   "Physical Education Ch16: Federalism Is a System Of Government"
   ],
   "nodeIds": [
    "c11_ps_cbse_16_001",
@@ -9975,7 +10079,7 @@ export const C11_PS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Federalism in real working life?",
+   "question": "Who uses Federalism Is a System Of in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -9986,7 +10090,7 @@ export const C11_PS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Federalism",
+    "title": "Federalism Is a System Of Government",
     "text": "Federalism is a system of government in which constitutional authority is divided between a central (Union) government and regional (State) governments, each operating directly on citizens within its designated sphere of competence, with neither level",
     "emoji": "🏃",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9998,7 +10102,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Federalism",
+    "title": "Federalism Is a System Of Government",
     "text": "Federalism is a system of government where sovereignty is constitutionally divided between a central authority and constituent units (states/provinces), characterized by three essential institutional features: a written constitution that rigidly distributes",
     "emoji": "🏃",
     "bgColor": "from-amber-400 to-orange-500"
@@ -10064,11 +10168,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional article that distributes legislative powers between the Union and the States in India, and what are the three lists it creates?",
     "answer": "Article 246 read with the Seventh Schedule creates three lists: Union List (List I), State List (List II), and Concurrent List (List III)",
     "options": [
-     "Coming together federation: Independent sovereign states voluntarily pool sovereignty to form a federal union",
-     "Article 352 (National Emergency), Article 356 (State Emergency/President's Rule), Article 360 (Financial Emergency)",
+     "Article 256 mandates that the executive power of every State shall be exercised to ensure compliance with Union laws",
+     "Student can explain the constitutional mandate of the Finance Commission under Article 280, distinguish vertical from horizontal devolution",
      "Article 246 read with the Seventh Schedule creates three lists: Union List (List I), State List (List II), and Concurrent List (List III)"
     ],
-    "hint": "Straight from the 'Federalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Federalism is a system of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing Article 1 or Article 356) reveals the student confuses the *distribution* of powers with the *territorial* definition of India or *emergency* provisions, indicating they have not internalised the structural architecture of the Seventh Schedule.",
     "id": "gen_c11_ps_ch16_q1",
     "nodeId": "c11_ps_cbse_16_001",
@@ -10241,9 +10345,9 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which political scientist described the Indian Constitution as \"quasi-federal — a unitary state with subsidiary federal features rather than a federal state with subsidiary unitary features\"?",
     "answer": "K.C. Wheare (in *Federal Government*, 1946)",
     "options": [
-     "Article 352 (National Emergency), Article 356 (State Emergency/President's Rule), Article 360 (Financial Emergency)",
-     "Article 256 mandates that the executive power of every State shall be exercised to ensure compliance with Union laws",
-     "K.C. Spain (in *Federal Government*, 1946)",
+     "Article 131 of the Constitution of India",
+     "Indian federalism is a holding-together federation with a strong unitary bias, formally described by K.C",
+     "K.C. Coming (in *Federal Government*, 1946)",
      "K.C. Wheare (in *Federal Government*, 1946)"
     ],
     "hint": "Straight from the 'Indian federalism' slide -- match the key terms.",
@@ -10791,7 +10895,7 @@ export const C11_PS_GEN: SimDef[] = [
      "A strong proposal might: (1) Expand State List taxation (e.g., allow States to levy taxes on services currently in Union List) via amending Seventh Schedule",
      "The Union law prevails under Article 254(1) because the subject falls in the Concurrent List (Entry 29: \"prevention of the extension from one State to another of infectious or"
     ],
-    "hint": "Straight from the 'Federalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Federalism is a system of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"State law prevails because health is a State subject\") reveals the student cannot identify *overlap* between lists or apply the repugnancy doctrine—they treat lists as watertight compartments.",
     "id": "gen_c11_ps_ch16_q15",
     "nodeId": "c11_ps_cbse_16_001",
@@ -10806,7 +10910,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Article 371F (36th Amendment, 1975) is territorial: it preserves Sikkim's pre-merger laws, provides for a special legislative assembly with representation for monasteries and",
      "India vests residuary powers in the Union (Article 248), signalling a *centripetal* design to preserve unity in a diverse, newly independent territory"
     ],
-    "hint": "Straight from the 'Federalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Federalism is a system of' slide -- match the key terms.",
     "misconception": "A wrong answer that merely states \"India has strong Centre, US has strong States\" without linking to *residuary power allocation* shows the student cannot connect constitutional text to theoretical federal design.",
     "id": "gen_c11_ps_ch16_q16",
     "nodeId": "c11_ps_cbse_16_001",
@@ -10821,7 +10925,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Quasi-federal lens: Sees Article 249 as a centralising override — the Union can invade State List without State consent, proving the Centre's constitutional supremacy",
      "A strong answer places it in the Concurrent List with a justification: AI regulation has *national standards* (data privacy, algorithmic bias"
     ],
-    "hint": "Straight from the 'Federalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Federalism is a system of' slide -- match the key terms.",
     "misconception": "A poor answer places it solely in Union List (\"technology is national\") or State List (\"public services are local\") showing inability to apply the *subsidiarity* principle—deciding the level based on *spillover effects* and *economies of scale*.",
     "id": "gen_c11_ps_ch16_q17",
     "nodeId": "c11_ps_cbse_16_001",
@@ -10836,7 +10940,7 @@ export const C11_PS_GEN: SimDef[] = [
      "Article 352 explicitly suspends the federal distribution of legislative powers (Article 250), allowing Parliament to make laws on State List subjects during the emergency",
      "The argument is partially valid but incomplete. The Concurrent List *enables* cooperative federalism by allowing both levels to legislate on shared concerns (education, forests"
     ],
-    "hint": "Straight from the 'Federalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Federalism is a system of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The argument is partially valid but incomplete. The Concurrent List *enables* cooperative federalism by allowing both",
     "id": "gen_c11_ps_ch16_q18",
     "nodeId": "c11_ps_cbse_16_001",
@@ -10845,11 +10949,11 @@ export const C11_PS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about federalism?",
+    "What surprised you about federalism is a system of government?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Federalism mastered! 🎯",
+  "successLine": "Federalism Is a System mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -11037,11 +11141,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What was the specific innovation introduced by Lord Ripon's Resolution of 1882 regarding the composition of municipal bodies in British India?",
     "answer": "Lord Ripon's 1882 Resolution mandated that municipal bodies should have a majority of elected non-official members (rather than government-appointed officials) and that the",
     "options": [
-     "Article 243B of the Constitution, inserted by the 73rd Amendment Act, 1992, mandates a three-tier structure of Panchayats at village, intermediate",
-     "Article 243(b) defines Gram Sabha as a body consisting of persons registered in the electoral rolls relating to a village comprised within the area of Panchayat at the village",
+     "The student can explain the constitutional basis of Gram Sabha (Article 243(b)), distinguish its composition from the Gram Panchayat, and analyze how its functions (social audit",
+     "The 73rd Constitutional Amendment (1992) added Part IX (Articles 243 to 243O) for Panchayats, and the 74th Amendment added Part IXA (Articles 243P to 243ZG) for Municipalities",
      "Lord Ripon's 1882 Resolution mandated that municipal bodies should have a majority of elected non-official members (rather than government-appointed officials) and that the"
     ],
-    "hint": "Straight from the 'evolution of local government in' slide -- match the key terms.",
+    "hint": "Straight from the 'evolution of local government' slide -- match the key terms.",
     "misconception": "A wrong answer—such as \"it introduced universal adult franchise\" or \"it created village panchayats\"—reveals confusion between Ripon's limited municipal reform and later democratic expansions; Ripon's reform applied only to urban municipalities, retained property-based franchise, and kept district collectors as",
     "id": "gen_c11_ps_ch17_q2",
     "nodeId": "c11_ps_cbse_17_002",
@@ -11342,6 +11446,7 @@ export const C11_PS_GEN: SimDef[] = [
     "options": [
      "Article 243Q mandates: (1) Municipal Corporation (Mahanagar Palika), (2) Municipal Council (Nagar Palika), (3) Nagar Panchayat (Notified Area Council)",
      "No, it is not correct. Most state Panchayat Acts (under Article 243A) mandate a quorum of at least 1/10th or 1/5th of total members (120–240 voters for 1,200)",
+     "SC: 4 wards (22% of 17 = 3.74, rounded to nearest whole number = 4). Three Fs: 1 ward (8% of 17 = 1.36, rounded = 1)",
      "SC: 4 wards (22% of 17 = 3.74, rounded to nearest whole number = 4). ST: 1 ward (8% of 17 = 1.36, rounded = 1)"
     ],
     "hint": "Straight from the 'Reservation in local bodies' slide -- match the key terms.",
@@ -11361,9 +11466,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional articles establish the State Election Commission and State Finance Commission for panchayats?",
     "answer": "The State Election Commission for panchayats is established under Article 243K, and the State Finance Commission for panchayats is established under Article 243I",
     "options": [
-     "The constitutional provision is Article 243M(4)(b), which empowers Parliament to extend Part IX to Scheduled Areas with such exceptions and modifications as may be specified",
-     "Article 243B mandates a three-tier structure (village, intermediate, district) in every state, except states with a population not exceeding 20 lakh",
-     "Scheduled Areas Commission for panchayats is established under Article 243K, and the State Finance Commission for panchayats is established under Article 243I",
+     "The student can explain the constitutional basis, composition, appointment, tenure, and functions of both the State Election Commission and State Finance Commission",
+     "The 73rd Constitutional Amendment (1992) added Part IX (Articles 243 to 243O) for Panchayats, and the 74th Amendment added Part IXA (Articles 243P to 243ZG) for Municipalities",
      "The State Election Commission for panchayats is established under Article 243K, and the State Finance Commission for panchayats is established under Article 243I"
     ],
     "hint": "Straight from the 'State Election Commission' slide -- match the key terms.",
@@ -11434,11 +11538,11 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the constitutional provision that allowed Parliament to extend Part IX to Scheduled Areas with modifications, and under which Schedule are these areas notified?",
     "answer": "The constitutional provision is Article 243M(4)(b), which empowers Parliament to extend Part IX to Scheduled Areas with such exceptions and modifications as may be specified",
     "options": [
-     "Article 243B mandates a three-tier structure (village, intermediate, district) in every state, except states with a population not exceeding 20 lakh",
-     "Article 243B of the Constitution, inserted by the 73rd Amendment Act, 1992, mandates a three-tier structure of Panchayats at village, intermediate",
+     "The student can explain the constitutional basis, composition, appointment, tenure, and functions of both the State Election Commission and State Finance Commission",
+     "Reservation in local bodies is a constitutional mandate under Articles 243D (Panchayats) and 243T (Municipalities) requiring that seats and offices of Chairpersons be reserved for",
      "The constitutional provision is Article 243M(4)(b), which empowers Parliament to extend Part IX to Scheduled Areas with such exceptions and modifications as may be specified"
     ],
-    "hint": "Straight from the 'Panchayats  Act, 1996' slide -- match the key terms.",
+    "hint": "Straight from the 'Panchayats Act, 1996' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing Article 243ZC or Sixth Schedule) reveals confusion between the enabling provision for extension (243M) and the declaration of self-governance (243ZC), or between Fifth Schedule (Scheduled Areas in mainland India) and Sixth Schedule (tribal areas in North-East).",
     "id": "gen_c11_ps_ch17_q11",
     "nodeId": "c11_ps_cbse_17_011",
@@ -11504,6 +11608,52 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Identify the correct ULB type for a given",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Distinguish the three types of ULBs",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Explain why the 74th Amendment mandated",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Distinguish the three types of ULBs by their constitutional designation, typical population",
+    "id": "gen_c11_ps_ch17_q13",
+    "nodeId": "c11_ps_cbse_17_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the effectiveness of State Finance Commissions (SFCs) in ensuring fiscal devolution. Use the criteria of \"predictability,\" \"adequacy,\" and \"autonomy\" in your assessment.",
     "sortItems": [
      {
@@ -11544,8 +11694,54 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"SFCs exist in all States\" confuses formal compliance with substantive fiscal federalism.",
-    "id": "gen_c11_ps_ch17_q13",
+    "id": "gen_c11_ps_ch17_q14",
     "nodeId": "c11_ps_cbse_17_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate a State's devolution report",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "diagnose a given local governance failure",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how the constitutional design",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) diagnose a given local governance failure by identifying which of the Three Fs is the primary",
+    "id": "gen_c11_ps_ch17_q15",
+    "nodeId": "c11_ps_cbse_17_012",
     "difficulty": "advanced"
    },
    {
@@ -11559,7 +11755,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Local government' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the corporation has the power to decide\" ignores the statutory requirement for participatory planning and confuses administrative authority with democratic legitimacy.",
-    "id": "gen_c11_ps_ch17_q14",
+    "id": "gen_c11_ps_ch17_q16",
     "nodeId": "c11_ps_cbse_17_001",
     "difficulty": "standard"
    },
@@ -11574,7 +11770,7 @@ export const C11_PS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Local government' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both as equally accountable because both are elected fails to analyze how constituency size and institutional design (Gram Sabha vs. Parliament) create different responsiveness incentives.",
-    "id": "gen_c11_ps_ch17_q15",
+    "id": "gen_c11_ps_ch17_q17",
     "nodeId": "c11_ps_cbse_17_001",
     "difficulty": "standard"
    },
@@ -11585,40 +11781,11 @@ export const C11_PS_GEN: SimDef[] = [
     "options": [
      "Yes, the corporation violated the principle of responsiveness embedded in the 74th Amendment. Article 243S mandates Ward Committees for citizen participation in municipal",
      "No, it is not correct. Most state Panchayat Acts (under Article 243A) mandate a quorum of at least 1/10th or 1/5th of total members (120–240 voters for 1,200)",
+     "A strong answer would include: (1) mandatory quarterly Zilla Parishad Chairperson meetings with published minutes",
      "A strong answer would include: (1) mandatory quarterly Ward Committee meetings with published minutes"
     ],
     "hint": "Straight from the 'Local government' slide -- match the key terms.",
     "misconception": "A poor answer would only mention elections or vague \"transparency\" without specific institutional mechanisms, showing inability to translate democratic principles into institutional design.",
-    "id": "gen_c11_ps_ch17_q16",
-    "nodeId": "c11_ps_cbse_17_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the argument: \"Local governments are unnecessary because State governments can administer local matters more efficiently due to economies of scale and professional expertise.\" Use democratic theory and Indian constitutional design to justify your position.",
-    "answer": "The argument confuses administrative efficiency with democratic legitimacy. The Constitution (via 73rd/74th Amendments) prioritizes self-governance (Article 40",
-    "options": [
-     "The argument identifies real implementation gaps (elite capture, procedural manipulation) but incorrectly concludes constitutional failure",
-     "The 1919 Act made local self-government a transferred subject to give Indian ministers nominal control over municipalities and district boards",
-     "The argument confuses administrative efficiency with democratic legitimacy. The Constitution (via 73rd/74th Amendments) prioritizes self-governance (Article 40"
-    ],
-    "hint": "Straight from the 'Local government' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the statement reveals a technocratic view of governance, ignoring the constitutional commitment to deepening democracy through decentralization.",
-    "id": "gen_c11_ps_ch17_q17",
-    "nodeId": "c11_ps_cbse_17_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why grassroots democracy is considered distinct from the representative democracy practiced at the Union and State levels. (Focus on participation, proximity, and accountability.)",
-    "answer": "Grassroots democracy involves direct participation of citizens in decision-making through forums like Gram Sabha and Ward Committees",
-    "options": [
-     "Incorrect. Article 243W states the Legislature of a State *may* by law endow municipalities with powers and authority *as may be necessary* to enable them to function as",
-     "The amendments created separate SECs to ensure that local elections are conducted independently of state government influence and to reduce the burden on the Election Commission",
-     "Grassroots democracy involves direct participation of citizens in decision-making through forums like Gram Sabha and Ward Committees"
-    ],
-    "hint": "Straight from the 'Local government' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates grassroots democracy with merely having local elections misses the continuous engagement aspect and the principle of subsidiarity.",
     "id": "gen_c11_ps_ch17_q18",
     "nodeId": "c11_ps_cbse_17_001",
     "difficulty": "standard"
@@ -11688,7 +11855,7 @@ export const C11_PS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Indian Constitution Under Article",
+    "title": "The Indian Constitution Under Article 368",
     "text": "The Indian Constitution under Article 368 provides three distinct amendment pathways: (1) Simple majority – amendments passed by a majority of members present and voting in each House of Parliament, applicable to provisions like admission/creation of states",
     "emoji": "🏃",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -11748,8 +11915,9 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the primary constitutional provision that empowers Parliament to amend the Constitution, and what theoretical concept describes a constitution that adapts through such formal changes and judicial interpretation?",
     "answer": "Article 368 is the amendment provision; \"living constitution\" or \"constitution as a living document\" is the theoretical concept",
     "options": [
-     "The amendment must be passed by a majority of the total membership of that House (i.e., >50% of all members",
-     "The Bench was asked to determine the extent of Parliament's power to amend the Constitution under Article 368",
+     "Public participation and constitutional consciousness refers to the active engagement of citizens in the democratic processes established by the Constitution (such as voting",
+     "Constitution and social change refers to the dynamic process by which the Indian Constitution—through judicial interpretation, legislative amendments",
+     "Part IV 368 is the amendment provision; \"living constitution\" or \"constitution as a living document\" is the theoretical concept",
      "Article 368 is the amendment provision; \"living constitution\" or \"constitution as a living document\" is the theoretical concept"
     ],
     "hint": "Straight from the '\"living constitution\"' slide -- match the key terms.",
@@ -11821,8 +11989,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "What is the exact voting requirement in each House of Parliament for a constitutional amendment that falls under the 'special majority' category of Article 368?",
     "answer": "The amendment must be passed by a majority of the total membership of that House (i.e., >50% of all members",
     "options": [
-     "Article 368 is the amendment provision; \"living constitution\" or \"constitution as a living document\" is the theoretical concept",
-     "The Bench was asked to determine the extent of Parliament's power to amend the Constitution under Article 368",
+     "The student must be able to explain the three categories of constitutional amendments (simple majority, special majority",
+     "Judicial review of amendments is the power of the Supreme Court and High Courts to examine the constitutional validity of constitutional amendment acts passed by Parliament under",
      "The amendment must be passed by a majority of the total membership of that House (i.e., >50% of all members"
     ],
     "hint": "Straight from the 'The Indian Constitution under' slide -- match the key terms.",
@@ -11935,8 +12103,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which year was the 42nd Amendment Act passed, and what is it popularly known as?",
     "answer": "The 42nd Amendment Act was passed in 1976 and is popularly known as the \"Mini-Constitution\"",
     "options": [
-     "Universal adult franchise is guaranteed by Article 326 of the Constitution, which states that elections to the Lok Sabha and State Legislative Assemblies shall be on the basis of",
-     "Article 21 (\"Protection of life and personal liberty\") is the primary gateway; the Court has read into it rights to privacy, health, education, clean environment, shelter",
+     "The student can compare the 42nd and 44th Amendments, explain how each shifted the balance between Fundamental Rights and Directive Principles",
+     "Student can explain how the Constitution functions as a transformative charter by tracing at least three distinct pathways (judicial interpretation, constitutional amendment",
      "The 42nd Amendment Act was passed in 1976 and is popularly known as the \"Mini-Constitution\""
     ],
     "hint": "Straight from the '42nd Amendment Act, 1976' slide -- match the key terms.",
@@ -12060,8 +12228,8 @@ export const C11_PS_GEN: SimDef[] = [
     "question": "Which constitutional provision is most frequently invoked by the Supreme Court to recognize new fundamental rights not explicitly listed in Part III?",
     "answer": "Article 21 (\"Protection of life and personal liberty\") is the primary gateway; the Court has read into it rights to privacy, health, education, clean environment, shelter",
     "options": [
-     "The Bench was asked to determine the extent of Parliament's power to amend the Constitution under Article 368",
-     "The 42nd Amendment Act was passed in 1976 and is popularly known as the \"Mini-Constitution\"",
+     "Article 368 is the amendment provision; \"living constitution\" or \"constitution as a living document\" is the theoretical concept",
+     "Can explain how specific constitutional provisions (e.g., Articles 15(4), 16(4), 17, 38, 39, 46) operate as tools for social transformation",
      "Article 21 (\"Protection of life and personal liberty\") is the primary gateway; the Court has read into it rights to privacy, health, education, clean environment, shelter"
     ],
     "hint": "Straight from the 'Constitution and social change' slide -- match the key terms.",
@@ -12253,17 +12421,17 @@ export const C11_PS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the amendment procedure for (a) admitting a new State into the Union (Article 2) and (b) altering the distribution of legislative powers between Union and States (Seventh Schedule). Identify the specific constitutional basis for the difference in rigidity.",
-    "answer": "(a) Article 2 explicitly states \"by law\", meaning simple majority in Parliament, and Article 4(2) declares such laws not to be amendments under Article 368",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain at least three distinct reasons why constitutions must evolve (social change, technological advancement, rights expansion",
     "options": [
-     "The 42nd Amendment extended the Lok Sabha term from 5 to 6 years (Article 83), while the 44th Amendment reverted it to 5 years",
-     "Shift 1: Golaknath held Parliament has NO power to amend Part III (Fundamental Rights) at all, treating amendment as \"law\" under Article 13(2)",
-     "(a) Article 2 explicitly states \"by law\", meaning simple majority in Parliament, and Article 4(2) declares such laws not to be amendments under Article 368"
+     "The student can correctly classify a given constitutional amendment proposal into one of the three categories",
+     "The Bench was asked to determine the extent of Parliament's power to amend the Constitution under Article 368",
+     "The student can explain at least three distinct reasons why constitutions must evolve (social change, technological advancement, rights expansion"
     ],
-    "hint": "Straight from the 'Article 368 of the Indian' slide -- match the key terms.",
-    "misconception": "A wrong answer conflating both under Article 368 shows failure to read the constitutional text for express exclusions and inclusions.",
+    "hint": "Straight from the '\"living constitution\"' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain at least three distinct reasons why constitutions must evolve (social change, technological",
     "id": "gen_c11_ps_ch18_q18",
-    "nodeId": "c11_ps_cbse_18_002",
+    "nodeId": "c11_ps_cbse_18_001",
     "difficulty": "standard"
    }
   ],

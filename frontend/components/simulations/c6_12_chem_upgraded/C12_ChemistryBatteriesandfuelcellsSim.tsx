@@ -1474,7 +1474,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
       {/* Main Header Container */}
       <header className="w-full max-w-6xl mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
-          <div className="flex items-center gap-2 text-sky-400 font-semibold text-xs tracking-wider uppercase mb-1">
+          <div className="flex items-center gap-2 text-gold-400 font-semibold text-xs tracking-wider uppercase mb-1">
             <span>ISC Class 12 Chemistry</span>
             <span>•</span>
             <span>Electrochemistry Unit</span>
@@ -1518,7 +1518,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
             }}
             className={`flex-1 py-3 rounded-lg font-bold text-sm transition-all duration-200 flex items-center justify-center gap-2 ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
@@ -1537,7 +1537,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
           <div className="space-y-6">
             {/* Scenario Narrative Box */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-sky-400 mb-2 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-2 flex items-center gap-2">
                 <span>🔬</span> {SCENARIO.title}
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">
@@ -1573,7 +1573,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                 </div>
 
                 {discoveryAnswered && (
-                  <div className="mt-4 p-4 bg-sky-950/40 border border-sky-800 rounded-xl text-sm text-sky-200 leading-relaxed">
+                  <div className="mt-4 p-4 bg-gold-950/40 border border-gold-800 rounded-xl text-sm text-gold-200 leading-relaxed">
                     <span className="font-bold">Insight: </span>
                     {DISCOVERY_QUESTION.hintAfter}
                   </div>
@@ -1620,7 +1620,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                       </div>
                     </div>
 
-                    <div className="mt-2 text-xs text-sky-400 bg-sky-950/40 p-2.5 rounded border border-sky-900/50">
+                    <div className="mt-2 text-xs text-gold-400 bg-gold-950/40 p-2.5 rounded border border-gold-900/50">
                       💡 <span className="font-bold">How to Verify:</span> {pred.verifyInstruction}
                     </div>
                   </div>
@@ -1637,7 +1637,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
           <div className="space-y-6">
             {/* Lab Exploration Steps Bar (MANDATORY RENDER VIA MAP) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-sky-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔬</span> Guided Exploration Steps
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
@@ -1650,7 +1650,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                     }}
                     className={`p-3 rounded-xl border text-left transition-all ${
                       currentNodeId === step.nodeId
-                        ? 'bg-sky-600 border-sky-400 text-white shadow-lg'
+                        ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                         : 'bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1678,7 +1678,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                           audioManager.play('tap');
                         }}
                         className={`px-4 py-2 rounded-md text-xs font-bold transition-all ${
-                          selectedPrimaryCell === 'dry' ? 'bg-sky-600 text-white' : 'text-slate-400'
+                          selectedPrimaryCell === 'dry' ? 'bg-gold-600 text-white' : 'text-slate-400'
                         }`}
                       >
                         Leclanché Dry Cell (1.50V)
@@ -1728,7 +1728,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                           max="100"
                           value={leadAcidCharge}
                           onChange={(e) => setLeadAcidCharge(Number(e.target.value))}
-                          className="w-28 accent-sky-500"
+                          className="w-28 accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1755,7 +1755,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                       <span className="text-xs text-slate-400 bg-slate-800 px-3 py-1 rounded">E° = +0.49 V</span>
                     </div>
 
-                    <div className="p-4 bg-sky-950/40 border border-sky-800 rounded-lg text-sm text-sky-200">
+                    <div className="p-4 bg-gold-950/40 border border-gold-800 rounded-lg text-sm text-gold-200">
                       <span className="font-bold">Net Rechargeable Reaction:</span> Cd(s) + 2NiO(OH)(s) + 2H₂O(l) ⇌ Cd(OH)₂(s) + 2Ni(OH)₂(s) [Cell Voltage E = 1.40 V]
                     </div>
                   </div>
@@ -1776,7 +1776,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                           max="500"
                           value={fuelCellTemp}
                           onChange={(e) => setFuelCellTemp(Number(e.target.value))}
-                          className="w-32 accent-sky-500"
+                          className="w-32 accent-gold-500"
                         />
                       </div>
                       <div className="flex flex-col">
@@ -1816,7 +1816,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                               audioManager.play('tap');
                             }}
                             className={`px-3 py-1.5 rounded text-xs font-bold uppercase transition-all ${
-                              sacrificialMetal === metal ? 'bg-sky-600 text-white' : 'bg-slate-900 text-slate-400'
+                              sacrificialMetal === metal ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                             }`}
                           >
                             {metal}
@@ -1895,7 +1895,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
             {/* Challenge Control & Navigation Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
               <div>
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wide">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                   ISC Level Practice Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-1">
@@ -1929,7 +1929,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
                 <button
                   onClick={handleNextChallenge}
                   disabled={currentChallengeIndex === CHALLENGES.length - 1}
-                  className="px-4 py-2 bg-sky-600 hover:bg-sky-500 disabled:opacity-40 text-white rounded-lg font-bold text-sm transition-all"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-lg font-bold text-sm transition-all"
                 >
                   Next →
                 </button>
@@ -2021,7 +2021,7 @@ export default function C12_ChemistryBatteriesandfuelcellsSim() {
               <div className="space-y-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 border border-slate-800 rounded-xl p-4 flex items-start gap-4">
-                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-sky-600 text-white font-bold flex items-center justify-center text-sm">
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-gold-600 text-white font-bold flex items-center justify-center text-sm">
                       {idx + 1}
                     </span>
                     <p className="text-slate-300 text-sm leading-relaxed mt-1">

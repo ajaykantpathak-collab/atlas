@@ -965,7 +965,7 @@ const SectoralShiftCanvas: React.FC<{
 
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 text-white">
-      <h3 className="text-sm font-semibold text-sky-400 mb-2">
+      <h3 className="text-sm font-semibold text-gold-400 mb-2">
         Occupational Structure vs Sectoral GDP Share Dynamics (1950–1990)
       </h3>
       <canvas ref={canvasRef} width={450} height={190} className="w-full h-44 rounded-lg bg-slate-950" />
@@ -1315,7 +1315,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
 
             {/* MANDATORY RENDERING OF PREDICTION QUESTIONS */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4">
-              <h3 className="text-base font-semibold text-sky-400 flex items-center gap-2">
+              <h3 className="text-base font-semibold text-gold-400 flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
@@ -1324,7 +1324,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                   <div key={pIdx} className="bg-slate-950 border border-slate-800 p-4 rounded-xl space-y-3">
-                    <span className="text-xs text-sky-400 font-semibold uppercase">Prediction #{pIdx + 1}</span>
+                    <span className="text-xs text-gold-400 font-semibold uppercase">Prediction #{pIdx + 1}</span>
                     <p className="text-xs text-white leading-snug">{pred.question}</p>
                     <div className="space-y-1.5">
                       {pred.options.map((opt, oIdx) => {
@@ -1339,7 +1339,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                               setPredictionAnswers(next);
                             }}
                             className={`w-full text-left p-2.5 rounded-lg text-xs border transition-all ${
-                              sel ? 'bg-sky-950 border-sky-500 text-sky-200' : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
+                              sel ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                             }`}
                           >
                             {opt}
@@ -1478,7 +1478,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
                       <span className="text-slate-400">Land Ceiling Limit per Family:</span>
-                      <span className="text-sky-400 font-bold">{landCeilingLimit} Acres</span>
+                      <span className="text-gold-400 font-bold">{landCeilingLimit} Acres</span>
                     </div>
                     <input
                       type="range"
@@ -1489,7 +1489,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                         setLandCeilingLimit(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1615,7 +1615,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
                       <span className="text-slate-400">Simulation Timeline Year:</span>
-                      <span className="text-sky-400 font-bold">{simYear}</span>
+                      <span className="text-gold-400 font-bold">{simYear}</span>
                     </div>
                     <input
                       type="range"
@@ -1627,7 +1627,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                         setSimYear(Number(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1704,7 +1704,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                   Challenge {challengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-sm font-bold text-white mt-0.5">
-                  Tier: <span className="capitalize text-sky-400">{CHALLENGES[challengeIndex].difficulty}</span> • Node ID: {CHALLENGES[challengeIndex].nodeId}
+                  Tier: <span className="capitalize text-gold-400">{CHALLENGES[challengeIndex].difficulty}</span> • Node ID: {CHALLENGES[challengeIndex].nodeId}
                 </h3>
               </div>
               <div className="w-full sm:w-48 bg-slate-950 h-2.5 rounded-full overflow-hidden border border-slate-800">
@@ -1807,7 +1807,7 @@ export const C11_EcoIndianEconomyCBSESim: React.FC<{
                 ) : (
                   <button
                     onClick={nextChallenge}
-                    className="px-6 py-2.5 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs rounded-xl shadow-md transition-all"
+                    className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold text-xs rounded-xl shadow-md transition-all"
                   >
                     Next Challenge →
                   </button>

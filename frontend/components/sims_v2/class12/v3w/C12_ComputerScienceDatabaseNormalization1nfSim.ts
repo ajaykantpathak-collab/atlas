@@ -11,7 +11,7 @@ export const w_c12_computersciencedatabasenormalization1nfsim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Introduction to Databases and DBMS',
     chapters: [],
     nodeIds: ['c12_cs_cbse_04_001', 'c12_cs_cbse_04_003', 'c12_cs_cbse_04_004', 'c12_cs_cbse_04_010', 'c12_cs_cbse_04_002', 'c12_cs_cbse_04_005', 'c12_cs_cbse_04_008', 'c12_cs_cbse_04_009', 'c12_cs_cbse_12_003', 'c12_cs_cbse_12_012', 'c12_cs_cbse_13_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small online bookstore. Orders, customer details, book inventory, and payment records are.', goal: 'Master Introduction to Databases and DBMS.' },
     discovery: {
         question: 'What is the fundamental difference between a database and a DBMS? Give a one-sentence definition of each.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencedatabasenormalization1nfsim: SimDef = {
         hook: 'Students often think a DBMS is just "a better way to store files" and equate it with a file manager.',
     },
     teaching: [
-        { title: 'A database is an organized collection of.', text: 'A database is an organized collection of structured data stored electronically in a computer system, typically managed by a Database Management System (DBMS) — software that provides controlled.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A database is an organized collection of.', text: 'A database is an organized collection of structured data stored electronically in a computer system, typically managed by a Database Management System (DBMS) — software that provides controlled.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_04_001', title: 'A database is an organized collection.',

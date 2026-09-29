@@ -54,14 +54,14 @@ const TEACHING_SLIDES = [
         title: 'Counting Back on the Number Line! 🔙',
         text: 'Stand on the larger number and hop BACKWARD to subtract! If you stand on 8 and hop back 3 steps, you land on 5! This is called "counting back".',
         emoji: '🐇',
-        bgColor: 'from-purple-400 to-indigo-500',
+        bgColor: 'from-purple-400 to-gold-500',
         spoken: 'Stand on the larger number and hop backward to subtract! This is called counting back.',
     },
     {
         title: 'Growing Up to 20! 🌟',
         text: 'We do the exact same thing with bigger numbers up to 20! 12 + 3 = 15 by hopping forward, and 15 - 4 = 11 by hopping backward. Always show your working steps!',
         emoji: '⭐',
-        bgColor: 'from-blue-400 to-cyan-500',
+        bgColor: 'from-gold-400 to-gold-500',
         spoken: 'We do the exact same thing with bigger numbers up to 20! Always show your working steps.',
     },
 ];
@@ -276,7 +276,7 @@ function MathSceneBackground({ width, height }: {
       {/* Sky Gradient */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #E0F2FE 0%, #BAE6FD 40%, #7DD3FC 70%, #38BDF8 100%)' }}/>
       {/* Floating Plus & Minus Signs */}
-      <motion.div className="absolute top-10 left-12 text-blue-500 opacity-25 font-bold text-4xl" animate={{ y: [0, -10, 0], rotate: [0, 10, 0] }} transition={{ duration: 5, repeat: Infinity }}>
+      <motion.div className="absolute top-10 left-12 text-gold-500 opacity-25 font-bold text-4xl" animate={{ y: [0, -10, 0], rotate: [0, 10, 0] }} transition={{ duration: 5, repeat: Infinity }}>
         +
       </motion.div>
       <motion.div className="absolute top-16 left-36 text-rose-500 opacity-25 font-bold text-4xl" animate={{ y: [0, 10, 0], rotate: [0, -10, 0] }} transition={{ duration: 6, repeat: Infinity }}>

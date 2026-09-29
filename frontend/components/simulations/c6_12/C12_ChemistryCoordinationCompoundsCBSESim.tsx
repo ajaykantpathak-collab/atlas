@@ -650,11 +650,11 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
       {/* Header Bar */}
       <header className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 bg-slate-800/90 border border-slate-700 p-4 rounded-2xl shadow-xl backdrop-blur-md mb-6">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-indigo-500 to-cyan-400 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-indigo-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-400 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-gold-500/30">
             [M]
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-indigo-300 via-cyan-200 to-white bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-gold-300 via-gold-200 to-white bg-clip-text text-transparent">
               Coordination Compounds Mastery
             </h1>
             <p className="text-xs text-slate-400">
@@ -669,7 +669,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             onClick={() => handleTabSelect('learn')}
             className={`px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
               activeTab === 'learn'
-                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -679,7 +679,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             onClick={() => handleTabSelect('lab')}
             className={`px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
               activeTab === 'lab'
-                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -689,7 +689,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             onClick={() => handleTabSelect('challenge')}
             className={`px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 ${
               activeTab === 'challenge'
-                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -705,7 +705,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Sidebar Navigation for Slides */}
             <div className="lg:col-span-3 bg-slate-800/60 border border-slate-700/80 rounded-2xl p-4 flex flex-col gap-2">
-              <h3 className="text-xs font-semibold uppercase tracking-wider text-indigo-400 mb-2 px-2">
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-gold-400 mb-2 px-2">
                 Core CBSE Modules
               </h3>
               {[
@@ -723,7 +723,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                   }}
                   className={`text-left px-3 py-3 rounded-xl transition-all flex items-center justify-between text-sm ${
                     currentSlideIndex === idx
-                      ? 'bg-indigo-600/20 border border-indigo-500/50 text-indigo-200 font-medium'
+                      ? 'bg-gold-600/20 border border-gold-500/50 text-gold-200 font-medium'
                       : 'hover:bg-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -746,7 +746,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         <span>💧</span> Dissociation Behavior in Aqueous Solution
                       </h2>
                       <p className="text-xs text-slate-400">
-                        Node: <code className="text-indigo-300">c12_chem_cbse_302</code>
+                        Node: <code className="text-gold-300">c12_chem_cbse_302</code>
                       </p>
                     </div>
                     <div className="flex gap-2">
@@ -819,7 +819,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     </div>
 
                     <div className="md:col-span-5 flex flex-col justify-center gap-3 bg-slate-900/50 p-4 rounded-xl border border-slate-700/60 text-xs">
-                      <h4 className="font-bold text-indigo-300 text-sm">Key CBSE Distinction:</h4>
+                      <h4 className="font-bold text-gold-300 text-sm">Key CBSE Distinction:</h4>
                       <ul className="space-y-2 text-slate-300">
                         <li className="flex items-start gap-2">
                           <span className="text-amber-400 font-bold">•</span>
@@ -834,7 +834,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                           </span>
                         </li>
                       </ul>
-                      <div className="p-3 bg-indigo-950/40 border border-indigo-800/50 rounded-lg text-indigo-200">
+                      <div className="p-3 bg-gold-950/40 border border-gold-800/50 rounded-lg text-gold-200">
                         💡 <strong>Werner's Evidence:</strong> Precipitate yield directly measures counter ions existing OUTSIDE square brackets!
                       </div>
                     </div>
@@ -851,14 +851,14 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         <span>💎</span> Coordination Polyhedron & Geometry
                       </h2>
                       <p className="text-xs text-slate-400">
-                        Nodes: <code className="text-indigo-300">c12_chem_cbse_303, c12_chem_cbse_309</code>
+                        Nodes: <code className="text-gold-300">c12_chem_cbse_303, c12_chem_cbse_309</code>
                       </p>
                     </div>
                     <div className="flex gap-2">
                       <button
                         onClick={() => setSelectedGeometry('octahedral')}
                         className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${
-                          selectedGeometry === 'octahedral' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          selectedGeometry === 'octahedral' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         Octahedral (CN=6)
@@ -866,7 +866,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <button
                         onClick={() => setSelectedGeometry('tetrahedral')}
                         className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${
-                          selectedGeometry === 'tetrahedral' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          selectedGeometry === 'tetrahedral' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         Tetrahedral (CN=4)
@@ -874,7 +874,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <button
                         onClick={() => setSelectedGeometry('square_planar')}
                         className={`px-3 py-1.5 rounded-lg text-xs font-semibold ${
-                          selectedGeometry === 'square_planar' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          selectedGeometry === 'square_planar' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         Square Planar (CN=4)
@@ -950,13 +950,13 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
 
                     <div className="md:col-span-5 space-y-3 text-xs text-slate-300">
                       <div className="p-3 bg-slate-900 border border-slate-700 rounded-xl">
-                        <strong className="text-indigo-300 text-sm">Coordination Number Rules:</strong>
+                        <strong className="text-gold-300 text-sm">Coordination Number Rules:</strong>
                         <p className="mt-1">
                           Only <strong>σ (sigma) bonds</strong> formed by donor ligand atoms count toward coordination number. π bonds are ignored!
                         </p>
                       </div>
                       <div className="p-3 bg-slate-900 border border-slate-700 rounded-xl">
-                        <strong className="text-indigo-300 text-sm">Homoleptic vs Heteroleptic:</strong>
+                        <strong className="text-gold-300 text-sm">Homoleptic vs Heteroleptic:</strong>
                         <ul className="mt-1 space-y-1">
                           <li>• <strong>Homoleptic:</strong> All ligands identical, e.g., <code className="text-emerald-400">[Co(NH3)6]3+</code></li>
                           <li>• <strong>Heteroleptic:</strong> Mixed ligand types, e.g., <code className="text-amber-400">[Co(NH3)4Cl2]+</code></li>
@@ -976,14 +976,14 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         <span>🔀</span> Structural Isomerism & Ambidentate Ligands
                       </h2>
                       <p className="text-xs text-slate-400">
-                        Nodes: <code className="text-indigo-300">c12_chem_cbse_307, c12_chem_cbse_308</code>
+                        Nodes: <code className="text-gold-300">c12_chem_cbse_307, c12_chem_cbse_308</code>
                       </p>
                     </div>
                     <div className="flex gap-2">
                       <button
                         onClick={() => setLinkageMode('nitro')}
                         className={`px-3 py-1 rounded text-xs font-semibold ${
-                          linkageMode === 'nitro' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          linkageMode === 'nitro' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         M-NO2 (Nitro - Yellow)
@@ -1044,19 +1044,19 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     {/* Summary of 4 Structural Isomerisms */}
                     <div className="bg-slate-900/60 p-3 rounded-xl border border-slate-700 text-xs space-y-2">
                       <div className="border-b border-slate-800 pb-1">
-                        <strong className="text-indigo-300">1. Linkage Isomerism:</strong>
+                        <strong className="text-gold-300">1. Linkage Isomerism:</strong>
                         <p className="text-slate-400">Ambidentate ligands (NO2-, SCN-) bind through different donor atoms.</p>
                       </div>
                       <div className="border-b border-slate-800 pb-1">
-                        <strong className="text-indigo-300">2. Coordination Isomerism:</strong>
+                        <strong className="text-gold-300">2. Coordination Isomerism:</strong>
                         <p className="text-slate-400">Ligand exchange between cationic & anionic complexes: [Co(NH3)6][Cr(CN)6] vs [Cr(NH3)6][Co(CN)6].</p>
                       </div>
                       <div className="border-b border-slate-800 pb-1">
-                        <strong className="text-indigo-300">3. Ionisation Isomerism:</strong>
+                        <strong className="text-gold-300">3. Ionisation Isomerism:</strong>
                         <p className="text-slate-400">Counter ion exchanges place with a ligand inside sphere: [Co(NH3)5SO4]Br vs [Co(NH3)5Br]SO4.</p>
                       </div>
                       <div>
-                        <strong className="text-indigo-300">4. Solvate / Hydrate Isomerism:</strong>
+                        <strong className="text-gold-300">4. Solvate / Hydrate Isomerism:</strong>
                         <p className="text-slate-400">Water inside sphere vs free crystal lattice: [Cr(H2O)6]Cl3 (violet) vs [Cr(H2O)5Cl]Cl2·H2O (green).</p>
                       </div>
                     </div>
@@ -1073,7 +1073,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         <span>⚡</span> Crystal Field Splitting in Tetrahedral Complexes
                       </h2>
                       <p className="text-xs text-slate-400">
-                        Nodes: <code className="text-indigo-300">c12_chem_cbse_313, c12_chem_cbse_318, c12_chem_cbse_319</code>
+                        Nodes: <code className="text-gold-300">c12_chem_cbse_313, c12_chem_cbse_318, c12_chem_cbse_319</code>
                       </p>
                     </div>
                     <div className="flex gap-2">
@@ -1088,7 +1088,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <button
                         onClick={() => setFieldType('octahedral')}
                         className={`px-3 py-1 rounded text-xs font-semibold ${
-                          fieldType === 'octahedral' ? 'bg-indigo-600 text-white' : 'bg-slate-700 text-slate-300'
+                          fieldType === 'octahedral' ? 'bg-gold-600 text-white' : 'bg-slate-700 text-slate-300'
                         }`}
                       >
                         Octahedral (Standard)
@@ -1181,7 +1181,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       <span>🌍</span> Real-World Applications (Biology, Industry, Medicine)
                     </h2>
                     <p className="text-xs text-slate-400">
-                      Nodes: <code className="text-indigo-300">c12_chem_cbse_320, c12_chem_cbse_321, c12_chem_cbse_322</code>
+                      Nodes: <code className="text-gold-300">c12_chem_cbse_320, c12_chem_cbse_321, c12_chem_cbse_322</code>
                     </p>
                   </div>
 
@@ -1208,8 +1208,8 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                         </div>
                         <ul className="space-y-2 text-slate-300">
                           <li>• <strong>Gold Extraction:</strong> Soluble cyanide complex <code className="text-amber-300">[Au(CN)2]⁻</code> reduced by Zinc.</li>
-                          <li>• <strong>Mond Process:</strong> Impure Ni forms volatile <code className="text-cyan-300">[Ni(CO)4]</code> decomposed to pure Nickel metal.</li>
-                          <li>• <strong>Wilkinson Catalyst:</strong> <code className="text-indigo-300">[(Ph3P)3RhCl]</code> used for alkene hydrogenation.</li>
+                          <li>• <strong>Mond Process:</strong> Impure Ni forms volatile <code className="text-gold-300">[Ni(CO)4]</code> decomposed to pure Nickel metal.</li>
+                          <li>• <strong>Wilkinson Catalyst:</strong> <code className="text-gold-300">[(Ph3P)3RhCl]</code> used for alkene hydrogenation.</li>
                         </ul>
                       </div>
                     </div>
@@ -1248,7 +1248,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     <div
                       key={i}
                       className={`w-2.5 h-2.5 rounded-full transition-all ${
-                        currentSlideIndex === i ? 'bg-indigo-400 w-6' : 'bg-slate-600'
+                        currentSlideIndex === i ? 'bg-gold-400 w-6' : 'bg-slate-600'
                       }`}
                     />
                   ))}
@@ -1259,7 +1259,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                     audioManager.play('swoop');
                     setCurrentSlideIndex((prev) => prev + 1);
                   }}
-                  className="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-xs font-semibold text-white shadow"
+                  className="px-4 py-2 rounded-lg bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-xs font-semibold text-white shadow"
                 >
                   Next Module →
                 </button>
@@ -1285,7 +1285,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
               {/* Controls Form */}
               <div className="md:col-span-6 bg-slate-900/80 p-5 rounded-xl border border-slate-700 space-y-4 text-xs">
-                <h3 className="font-bold text-indigo-300 text-sm">Assemble Coordination Entity</h3>
+                <h3 className="font-bold text-gold-300 text-sm">Assemble Coordination Entity</h3>
 
                 {/* Central Metal */}
                 <div>
@@ -1396,8 +1396,8 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                   </h3>
 
                   {/* Chemical Formula Render */}
-                  <div className="p-4 bg-slate-900 rounded-2xl border border-indigo-500/40 shadow-inner">
-                    <span className="text-2xl md:text-3xl font-mono font-extrabold text-indigo-300">
+                  <div className="p-4 bg-slate-900 rounded-2xl border border-gold-500/40 shadow-inner">
+                    <span className="text-2xl md:text-3xl font-mono font-extrabold text-gold-300">
                       {(labCounterIon === 'K' || labCounterIon === 'Na') && `${labCounterIon}${labCounterCount > 1 ? labCounterCount : ''}`}
                       [{labMetal}({labLigand1}){labCount1 > 1 ? labCount1 : ''}({labLigand2}){labCount2 > 1 ? labCount2 : ''}]
                       {(labCounterIon === 'Cl' || labCounterIon === 'Br') && `${labCounterIon}${labCounterCount > 1 ? labCounterCount : ''}`}
@@ -1421,21 +1421,21 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
 
                     <div className="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
                       <span className="text-xs text-slate-400 block">Complex Type</span>
-                      <span className="text-sm font-bold text-indigo-300">
+                      <span className="text-sm font-bold text-gold-300">
                         {labCount2 > 0 ? 'Heteroleptic' : 'Homoleptic'}
                       </span>
                     </div>
 
                     <div className="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
                       <span className="text-xs text-slate-400 block">Expected Polyhedron</span>
-                      <span className="text-sm font-bold text-cyan-300">
+                      <span className="text-sm font-bold text-gold-300">
                         {labCoordinationNum === 6 ? 'Octahedral' : labCoordinationNum === 4 ? 'Tetrahedral / Sq. Planar' : 'Custom Geometry'}
                       </span>
                     </div>
                   </div>
                 </div>
 
-                <div className="w-full mt-4 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 text-xs text-indigo-200 text-left">
+                <div className="w-full mt-4 p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 text-xs text-gold-200 text-left">
                   💡 <strong>CBSE Formula Tip:</strong> Central metal is written first inside square brackets <code className="text-white">[M...]</code>, followed by ligands arranged in alphabetical order by their ligand names.
                 </div>
               </div>
@@ -1448,14 +1448,14 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
           <div className="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 shadow-2xl relative">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-b border-slate-700 pb-4 gap-2">
               <div>
-                <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-semibold uppercase tracking-wider text-gold-400">
                   Question {challengeIdx + 1} of {CHALLENGES.length} • Difficulty: {CHALLENGES[challengeIdx].difficulty}
                 </span>
                 <h2 className="text-xl font-bold text-white">
                   {CHALLENGES[challengeIdx].title}
                 </h2>
                 <span className="text-xs text-slate-400">
-                  Node: <code className="text-indigo-300">{CHALLENGES[challengeIdx].nodeId}</code>
+                  Node: <code className="text-gold-300">{CHALLENGES[challengeIdx].nodeId}</code>
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -1482,7 +1482,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
               {/* Options */}
               <div className="grid grid-cols-1 gap-3">
                 {CHALLENGES[challengeIdx].options.map((opt, idx) => {
-                  let btnStyle = 'bg-slate-900 border-slate-700 hover:border-indigo-500 text-slate-200';
+                  let btnStyle = 'bg-slate-900 border-slate-700 hover:border-gold-500 text-slate-200';
                   if (isSubmitted) {
                     if (idx === CHALLENGES[challengeIdx].correctIndex) {
                       btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold';
@@ -1490,7 +1490,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                       btnStyle = 'bg-rose-950/80 border-rose-500 text-rose-200';
                     }
                   } else if (selectedOption === idx) {
-                    btnStyle = 'bg-indigo-950/80 border-indigo-500 text-indigo-200';
+                    btnStyle = 'bg-gold-950/80 border-gold-500 text-gold-200';
                   }
 
                   return (
@@ -1513,7 +1513,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
             <div className="flex items-center justify-between border-t border-slate-700 pt-4">
               {isSubmitted && (
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 max-w-xl text-xs text-slate-300">
-                  <strong className="text-indigo-300 block mb-1">CBSE Concept Explanation:</strong>
+                  <strong className="text-gold-300 block mb-1">CBSE Concept Explanation:</strong>
                   {CHALLENGES[challengeIdx].explanation}
                 </div>
               )}
@@ -1523,7 +1523,7 @@ export default function C12_ChemistryCoordinationCompoundsCBSESim() {
                   <button
                     disabled={selectedOption === null}
                     onClick={() => handleAnswerSubmit(selectedOption!)}
-                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-bold text-sm shadow-lg disabled:opacity-40"
+                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm shadow-lg disabled:opacity-40"
                   >
                     Check Answer
                   </button>

@@ -822,7 +822,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
       <div className="bg-slate-900 border border-slate-700 rounded-2xl p-6 shadow-2xl">
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
           <div>
-            <h3 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+            <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
               <span className="text-2xl">⚡</span> Bond & Molecular Polarity Lab
             </h3>
             <p className="text-sm text-slate-400">
@@ -840,7 +840,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                 }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   selectedMoleculeId === m.id
-                    ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30'
+                    ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                     : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
@@ -951,7 +951,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
               </div>
               <div className="flex justify-between items-center mb-2">
                 <span className="text-sm text-slate-400">Molecular Geometry:</span>
-                <span className="text-sm font-semibold text-cyan-300">{currentMolecule.shape}</span>
+                <span className="text-sm font-semibold text-gold-300">{currentMolecule.shape}</span>
               </div>
               <div className="flex justify-between items-center mb-2">
                 <span className="text-sm text-slate-400">Bond ΔEN:</span>
@@ -968,7 +968,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             </div>
 
             <div className="p-4 bg-slate-950/60 rounded-xl border border-slate-800 text-sm text-slate-300">
-              <span className="text-cyan-400 font-semibold">ICSE Key Concept: </span>
+              <span className="text-gold-400 font-semibold">ICSE Key Concept: </span>
               {currentMolecule.description}
             </div>
           </div>
@@ -981,7 +981,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             <div>
               <label className="text-xs text-slate-400 flex justify-between">
                 <span>Atom A EN (e.g., Hydrogen)</span>
-                <span className="text-cyan-400 font-bold">{customEnA}</span>
+                <span className="text-gold-400 font-bold">{customEnA}</span>
               </label>
               <input
                 type="range"
@@ -993,7 +993,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                   setCustomEnA(parseFloat(e.target.value));
                   playSound('tap');
                 }}
-                className="w-full accent-cyan-400 mt-1"
+                className="w-full accent-gold-400 mt-1"
               />
             </div>
 
@@ -1019,7 +1019,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
               <div className="text-xs text-slate-400">Calculated ΔEN</div>
               <div className="text-xl font-extrabold text-yellow-400">{enDiff}</div>
-              <div className="text-xs font-semibold text-cyan-300 mt-0.5">{bondNature}</div>
+              <div className="text-xs font-semibold text-gold-300 mt-0.5">{bondNature}</div>
             </div>
           </div>
         </div>
@@ -1033,7 +1033,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
       <div className="bg-slate-900 border border-slate-700 rounded-2xl p-6 shadow-2xl">
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
           <div>
-            <h3 className="text-xl font-bold text-indigo-400 flex items-center gap-2">
+            <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
               <span className="text-2xl">🤝</span> Coordinate (Dative) Bonding Visualizer
             </h3>
             <p className="text-sm text-slate-400">
@@ -1049,7 +1049,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                 playSound('pop');
               }}
               className={`px-4 py-2 rounded-lg text-xs font-bold ${
-                coordinateType === 'h3o' ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'
+                coordinateType === 'h3o' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
               }`}
             >
               Hydronium Ion (H₃O⁺)
@@ -1061,7 +1061,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                 playSound('pop');
               }}
               className={`px-4 py-2 rounded-lg text-xs font-bold ${
-                coordinateType === 'nh4' ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'
+                coordinateType === 'nh4' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
               }`}
             >
               Ammonium Ion (NH₄⁺)
@@ -1168,7 +1168,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                 playSound('sparkle');
                 speakText(`Coordinate bond formed! ${coordinateType === 'h3o' ? 'Oxygen' : 'Nitrogen'} donates its lone pair.`);
               }}
-              className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold shadow-lg shadow-indigo-600/30"
+              className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold shadow-lg shadow-gold-600/30"
             >
               2. Donate Lone Pair & Bond!
             </button>
@@ -1176,8 +1176,8 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
         </div>
 
         {/* Dynamic Explanation */}
-        <div className="mt-4 p-4 bg-indigo-950/40 border border-indigo-800/50 rounded-xl text-sm text-indigo-200">
-          <span className="font-bold text-indigo-400">Chemical Equation: </span>
+        <div className="mt-4 p-4 bg-gold-950/40 border border-gold-800/50 rounded-xl text-sm text-gold-200">
+          <span className="font-bold text-gold-400">Chemical Equation: </span>
           {coordinateType === 'h3o' ? (
             <span>H₂O + H⁺ → <strong>H₃O⁺ (Hydronium Ion)</strong>. Donor: Oxygen (has 2 lone pairs). Acceptor: H⁺ (empty 1s orbital).</span>
           ) : (
@@ -1276,7 +1276,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             {/* Readout Badge */}
             <div className="mt-2 text-center">
               <span className="text-2xl font-black text-white">pH {phValue.toFixed(1)}</span>
-              <span className="ml-3 text-xs px-2.5 py-1 rounded-full font-bold uppercase bg-slate-800 text-cyan-300">
+              <span className="ml-3 text-xs px-2.5 py-1 rounded-full font-bold uppercase bg-slate-800 text-gold-300">
                 {phValue < 7 ? 'Acidic' : phValue === 7 ? 'Neutral' : 'Basic / Alkaline'}
               </span>
             </div>
@@ -1310,7 +1310,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
               </div>
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Hydroxyl Ion Conc [OH⁻]:</span>
-                <span className="font-mono text-sky-400 font-bold">{ohConc} M</span>
+                <span className="font-mono text-gold-400 font-bold">{ohConc} M</span>
               </div>
               <div className="pt-2 border-t border-slate-800 text-xs text-slate-300">
                 <span className="font-bold text-amber-400">Logarithmic Formula: </span>
@@ -1378,9 +1378,9 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
 
             <span className="text-2xl text-slate-500 font-bold">+</span>
 
-            <div className="bg-slate-900 border border-sky-500/30 p-4 rounded-xl min-w-[120px]">
+            <div className="bg-slate-900 border border-gold-500/30 p-4 rounded-xl min-w-[120px]">
               <div className="text-xs text-slate-400">Base / Alkali</div>
-              <div className="text-xl font-extrabold text-sky-400">{rxn.base}</div>
+              <div className="text-xl font-extrabold text-gold-400">{rxn.base}</div>
             </div>
 
             <span className="text-2xl text-amber-400 font-bold">➔</span>
@@ -1392,9 +1392,9 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
 
             <span className="text-2xl text-slate-500 font-bold">+</span>
 
-            <div className="bg-slate-900 border border-blue-500/30 p-4 rounded-xl min-w-[100px]">
+            <div className="bg-slate-900 border border-gold-500/30 p-4 rounded-xl min-w-[100px]">
               <div className="text-xs text-slate-400">Water</div>
-              <div className="text-lg font-bold text-blue-400">{rxn.waterMoles} H₂O</div>
+              <div className="text-lg font-bold text-gold-400">{rxn.waterMoles} H₂O</div>
             </div>
           </div>
 
@@ -1424,7 +1424,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
           <div className="flex items-center gap-3">
             <span className="text-3xl">⚗️</span>
             <div>
-              <h1 className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+              <h1 className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400">
                 ICSE Class 10 Chemistry Laboratory
               </h1>
               <p className="text-xs text-slate-400 font-medium">
@@ -1457,9 +1457,9 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
           </button>
 
           {/* Mastery Badge */}
-          <div className="bg-slate-950 px-3 py-1.5 rounded-xl border border-cyan-500/30 text-center">
+          <div className="bg-slate-950 px-3 py-1.5 rounded-xl border border-gold-500/30 text-center">
             <span className="text-[10px] text-slate-400 uppercase font-bold block">Mastery Score</span>
-            <span className="text-base font-black text-cyan-400">{overallMastery}%</span>
+            <span className="text-base font-black text-gold-400">{overallMastery}%</span>
           </div>
         </div>
       </header>
@@ -1475,7 +1475,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             }}
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
               viewMode === 'discovery'
-                ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30'
+                ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
             }`}
           >
@@ -1489,7 +1489,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             }}
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
               viewMode === 'walkthrough'
-                ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30'
+                ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
             }`}
           >
@@ -1503,7 +1503,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             }}
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
               viewMode === 'challenge'
-                ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30'
+                ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
             }`}
           >
@@ -1517,7 +1517,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
             }}
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
               viewMode === 'applications'
-                ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30'
+                ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
             }`}
           >
@@ -1540,7 +1540,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl space-y-6">
             <div className="flex justify-between items-center border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">Visual Masterclass</span>
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Visual Masterclass</span>
                 <h2 className="text-2xl font-extrabold text-white mt-1">
                   {TEACHING_SLIDES[currentSlideIndex].title}
                 </h2>
@@ -1566,7 +1566,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                     setCurrentSlideIndex(prev => prev + 1);
                     playSound('whoosh');
                   }}
-                  className="px-3 py-1.5 bg-cyan-500 disabled:opacity-40 hover:bg-cyan-400 text-slate-950 rounded-lg text-xs font-bold"
+                  className="px-3 py-1.5 bg-gold-500 disabled:opacity-40 hover:bg-gold-400 text-slate-950 rounded-lg text-xs font-bold"
                 >
                   Next ▶
                 </button>
@@ -1595,7 +1595,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl space-y-6">
             <div className="flex justify-between items-center border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGE_QUESTIONS.length}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-1">
@@ -1625,7 +1625,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                 let btnStyle = 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-700';
 
                 if (selectedOption === idx) {
-                  btnStyle = 'bg-cyan-500/20 border-cyan-500 text-cyan-200 font-semibold';
+                  btnStyle = 'bg-gold-500/20 border-gold-500 text-gold-200 font-semibold';
                 }
 
                 if (isAnswerSubmitted) {
@@ -1660,7 +1660,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
                 <button
                   disabled={selectedOption === null}
                   onClick={handleSubmitAnswer}
-                  className="ml-auto px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-40 text-slate-950 rounded-xl font-bold text-sm shadow-lg shadow-cyan-500/30"
+                  className="ml-auto px-6 py-2.5 bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 rounded-xl font-bold text-sm shadow-lg shadow-gold-500/30"
                 >
                   Submit Chemical Analysis
                 </button>
@@ -1697,7 +1697,7 @@ export default function C10_ChemistryPolarandnonpolarcovalentcompoundsSim() {
         {/* MODE 4: REAL-WORLD APPLICATIONS */}
         {viewMode === 'applications' && (
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl space-y-6">
-            <h2 className="text-2xl font-extrabold text-cyan-400 flex items-center gap-2">
+            <h2 className="text-2xl font-extrabold text-gold-400 flex items-center gap-2">
               <span>🌍</span> Real-World Applications of Acids, Bases & Salts
             </h2>
 

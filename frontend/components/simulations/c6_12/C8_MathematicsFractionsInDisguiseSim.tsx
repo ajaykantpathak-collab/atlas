@@ -63,11 +63,11 @@ export function C8_MathematicsFractionsInDisguiseSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Fractions in Disguise: The Division Machine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Fractions in Disguise: The Division Machine</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Disguise decoder:</span> divide numerator by
+          <span className="font-bold text-gold-700">Disguise decoder:</span> divide numerator by
           denominator. The decimal TERMINATES exactly when the reduced denominator has no prime
           factors except 2s and 5s (they fit our base-10 place value!). Any other prime leaves a
           remainder that cycles forever - a RECURRING decimal.
@@ -77,8 +77,8 @@ export function C8_MathematicsFractionsInDisguiseSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Numerator</span><span className="font-mono text-indigo-600">{num}</span></label>
-            <input type="range" min={1} max={20} value={num} aria-label="numerator" onChange={(e) => setNum(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Numerator</span><span className="font-mono text-gold-600">{num}</span></label>
+            <input type="range" min={1} max={20} value={num} aria-label="numerator" onChange={(e) => setNum(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Denominator</span><span className="font-mono text-emerald-600">{den}</span></label>
@@ -90,7 +90,7 @@ export function C8_MathematicsFractionsInDisguiseSim() {
           </div>
           <div className="flex flex-wrap gap-2">
             {[['1/2', 1, 2], ['3/8', 3, 8], ['1/3', 1, 3], ['1/7', 1, 7], ['5/12', 5, 12]].map(([label, a, b]) => (
-              <button key={label as string} onClick={() => { setNum(a as number); setDen(b as number); setZoom(0); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+              <button key={label as string} onClick={() => { setNum(a as number); setDen(b as number); setZoom(0); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                 {label as string}
               </button>
             ))}
@@ -108,7 +108,7 @@ export function C8_MathematicsFractionsInDisguiseSim() {
           </div>
         </div>
 
-        <div className="p-4 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-4 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <p className="text-xs font-bold text-slate-500 mb-2">LONG DIVISION - REMAINDER TRACKER</p>
           <svg viewBox="0 0 340 150" className="w-full">
             <text x={10} y={30} fontSize="18" fontFamily="monospace" fill="#1e293b">

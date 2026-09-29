@@ -1227,11 +1227,11 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
       {/* ─── HEADER BAR ─── */}
       <div className="flex flex-wrap items-center justify-between gap-3 mb-6 p-4 bg-slate-900/90 rounded-2xl border border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-500/20 rounded-xl border border-indigo-500/30">
+          <span className="text-3xl p-2 bg-gold-500/20 rounded-xl border border-gold-500/30">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-indigo-400">
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">
               ICSE Class 6 Physics • {subjectConfig.name}
             </span>
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1248,7 +1248,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                 ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-300 border border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1263,8 +1263,8 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
       {/* ─── 1. DISCOVERY PHASE (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🔬</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1297,11 +1297,11 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/60 border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200 hover:border-indigo-500/50'
+                      : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-bold text-indigo-400">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-bold text-gold-400">[{String.fromCharCode(65 + i)}]</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1325,7 +1325,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter interactive physics laboratory"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Visual Labs →
                 </motion.button>
@@ -1340,7 +1340,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
           {/* Slide navigation indicator */}
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
               Visual Laboratory {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1348,7 +1348,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all duration-300 ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1375,8 +1375,8 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                 <div className="space-y-4">
                   {/* Predict-Then-Check */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-900/60">
-                      <p className="text-xs font-bold text-indigo-300 mb-2">PREDICT BEFORE YOU EXPERIMENT:</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-900/60">
+                      <p className="text-xs font-bold text-gold-300 mb-2">PREDICT BEFORE YOU EXPERIMENT:</p>
                       <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1524,7 +1524,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Obstacle Distance from Source</span>
-                        <span className="font-bold text-indigo-400">{obstacleDistance} mm</span>
+                        <span className="font-bold text-gold-400">{obstacleDistance} mm</span>
                       </div>
                       <input
                         type="range"
@@ -1533,7 +1533,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                         value={obstacleDistance}
                         onChange={(e) => setObstacleDistance(Number(e.target.value))}
                         aria-label="Adjust obstacle distance"
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1636,7 +1636,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-center min-w-[160px]">
                       <span className="text-xs text-slate-400 block">Law 1 Verification</span>
-                      <span className="text-sm font-bold text-indigo-300">
+                      <span className="text-sm font-bold text-gold-300">
                         i ({incidentAngle}°) = r ({incidentAngle}°)
                       </span>
                     </div>
@@ -1655,7 +1655,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handleObservation(i)}
                             aria-label={`Observation answer: ${opt}`}
-                            className="p-2.5 bg-slate-800 text-left rounded-lg text-xs text-slate-200 border border-slate-700 hover:border-indigo-500"
+                            className="p-2.5 bg-slate-800 text-left rounded-lg text-xs text-slate-200 border border-slate-700 hover:border-gold-500"
                           >
                             {opt}
                           </motion.button>
@@ -1672,7 +1672,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Canvas Atomic Lattice */}
                     <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
-                      <span className="text-xs font-bold text-indigo-400 block mb-2">
+                      <span className="text-xs font-bold text-gold-400 block mb-2">
                         Microscopic View: Atomic Kinetic Vibration
                       </span>
                       <canvas ref={canvasRef} width={280} height={180} className="w-full rounded-lg bg-slate-900" />
@@ -1681,7 +1681,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     {/* Macroscopic Ball and Ring Activity */}
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
                       <div>
-                        <span className="text-xs font-bold text-indigo-400 block mb-1">
+                        <span className="text-xs font-bold text-gold-400 block mb-1">
                           Macroscopic Demonstration: Ball & Ring
                         </span>
                         <p className="text-xs text-slate-300 leading-relaxed">
@@ -1760,8 +1760,8 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-3 gap-2">
                     {[
-                      { id: 'solid', label: 'Solid Ice (≤ 0°C)', temp: -10, color: 'border-cyan-500 text-cyan-300' },
-                      { id: 'liquid', label: 'Liquid Water (25°C)', temp: 25, color: 'border-blue-500 text-blue-300' },
+                      { id: 'solid', label: 'Solid Ice (≤ 0°C)', temp: -10, color: 'border-gold-500 text-gold-300' },
+                      { id: 'liquid', label: 'Liquid Water (25°C)', temp: 25, color: 'border-gold-500 text-gold-300' },
                       { id: 'gas', label: 'Water Vapour (≥ 100°C)', temp: 105, color: 'border-amber-500 text-amber-300' },
                     ].map(item => (
                       <motion.button
@@ -1789,7 +1789,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                       {thermalTemp <= 0 ? (
                         <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="text-center">
                           <span className="text-5xl block">🧊</span>
-                          <span className="text-xs font-bold text-cyan-300 mt-2 block">
+                          <span className="text-xs font-bold text-gold-300 mt-2 block">
                             Rigid Lattice (Melting Point = 0°C)
                           </span>
                           <span className="text-[11px] text-slate-400">Particles held tightly by bonds.</span>
@@ -1797,7 +1797,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                       ) : thermalTemp < 100 ? (
                         <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="text-center">
                           <span className="text-5xl block">💧</span>
-                          <span className="text-xs font-bold text-blue-300 mt-2 block">
+                          <span className="text-xs font-bold text-gold-300 mt-2 block">
                             Fluid Liquid (Free to slide past each other)
                           </span>
                           <span className="text-[11px] text-slate-400">Heat absorbed: particles loosened.</span>
@@ -1824,7 +1824,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                   {/* Canvas Wave Visualizer */}
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-bold text-indigo-400">
+                      <span className="text-xs font-bold text-gold-400">
                         Acoustic Compression Waves & Bell Jar Simulation
                       </span>
                       <motion.button
@@ -1850,7 +1850,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Vibration Amplitude (Striking Force)</span>
-                        <span className="font-bold text-sky-400">{soundAmplitude} mm</span>
+                        <span className="font-bold text-gold-400">{soundAmplitude} mm</span>
                       </div>
                       <input
                         type="range"
@@ -1859,14 +1859,14 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                         value={soundAmplitude}
                         onChange={(e) => setSoundAmplitude(Number(e.target.value))}
                         aria-label="Set sound vibration amplitude"
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-between">
                       <div>
                         <span className="text-xs text-slate-400 block">Loudness Output</span>
-                        <span className="text-sm font-bold text-sky-300">
+                        <span className="text-sm font-bold text-gold-300">
                           {vacuumLevel > 50
                             ? 'Silent (0 dB in Vacuum)'
                             : soundAmplitude > 45
@@ -1899,7 +1899,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
                     aria-label="Proceed to next lab"
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1935,7 +1935,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Mirror sandbox */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-300 block">1. Optics Angle Adjuster</span>
+              <span className="text-xs font-bold text-gold-300 block">1. Optics Angle Adjuster</span>
               <input
                 type="range"
                 min={5}
@@ -1975,7 +1975,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Start certification challenges"
-              className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white rounded-2xl font-bold text-sm shadow-xl shadow-indigo-600/30"
+              className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-2xl font-bold text-sm shadow-xl shadow-gold-600/30"
             >
               I am Ready for Challenges! 🚀
             </motion.button>
@@ -1989,7 +1989,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
           {/* Progress Header */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-bold text-indigo-400">
+              <span className="font-bold text-gold-400">
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="px-2.5 py-0.5 bg-slate-800 text-slate-300 rounded-md border border-slate-700 uppercase font-semibold">
@@ -2000,7 +2000,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
             {/* Framer motion progress bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2036,11 +2036,11 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950/40'
                           : wrongFlash
                           ? 'bg-rose-900/40 border-rose-600 text-rose-200'
-                          : 'bg-slate-800/80 hover:bg-slate-700/90 border-slate-700 text-slate-200 hover:border-indigo-500/50'
+                          : 'bg-slate-800/80 hover:bg-slate-700/90 border-slate-700 text-slate-200 hover:border-gold-500/50'
                       }`}
                     >
                       <div className="flex items-start gap-2">
-                        <span className="font-bold text-indigo-400">
+                        <span className="font-bold text-gold-400">
                           {showExplanation && i === currentCh.correctIndex ? '✓' : `[${String.fromCharCode(65 + i)}]`}
                         </span>
                         <span>{opt}</span>
@@ -2063,7 +2063,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2142,7 +2142,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Validate diagram labels"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2171,7 +2171,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                       aria-label={`Sort item ${displayIdx + 1}: ${item}`}
                       className="p-3 bg-slate-800 hover:bg-slate-750 rounded-xl text-xs md:text-sm text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-600/40 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                      <span className="w-6 h-6 rounded-full bg-gold-600/40 text-gold-300 font-bold flex items-center justify-center text-xs">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2190,7 +2190,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     handleAnswer(ans);
                   }}
                   aria-label="Check sequence order"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold mt-2"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold mt-2"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2208,7 +2208,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numeric answer"
                     aria-label="Numeric input value"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-semibold focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-semibold focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-xs font-bold text-slate-400">{currentCh.unit}</span>
                   <motion.button
@@ -2216,7 +2216,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     aria-label="Submit numeric response"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Calculate & Check
                   </motion.button>
@@ -2247,7 +2247,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                   {constructParts.map((p, i) => (
                     <span
                       key={i}
-                      className="px-2.5 py-1 bg-indigo-900/60 text-indigo-200 border border-indigo-700 rounded-md text-xs flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900/60 text-gold-200 border border-gold-700 rounded-md text-xs flex items-center gap-1.5"
                     >
                       {p}
                       <button
@@ -2270,7 +2270,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Verify construction"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Verify Construction
                 </motion.button>
@@ -2343,7 +2343,7 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
       {/* ─── 5. COMPLETION PHASE ──��� */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700 text-center space-y-3">
             <span className="text-5xl block animate-bounce">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Complete!</h2>
             <p className="text-sm text-slate-300">You have completed all Light, Heat and Sound physics modules.</p>
@@ -2428,15 +2428,15 @@ export default function C6_PhysicsRectilinearPropagationLightSim({
           </div>
 
           {/* Real-World Activity Project */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🛠️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ol className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

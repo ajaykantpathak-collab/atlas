@@ -1138,7 +1138,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
             animate={{ scale: 1 }}
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-500' :
-              difficulty === 'standard' ? 'bg-sky-900/60 text-sky-300 border border-sky-500' :
+              difficulty === 'standard' ? 'bg-gold-900/60 text-gold-300 border border-gold-500' :
               'bg-purple-900/60 text-purple-300 border border-purple-500'
             }`}
           >
@@ -1154,13 +1154,13 @@ function C6_BiologyModesDiseaseTransmissionSim({
       {/* PHASE 1: DISCOVERY HOOK */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span aria-hidden="true">🚨</span> Narrative Bio-Investigation
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 bg-indigo-950/50 p-3 rounded-xl border border-indigo-900">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300 bg-gold-950/50 p-3 rounded-xl border border-gold-900">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
@@ -1247,8 +1247,8 @@ function C6_BiologyModesDiseaseTransmissionSim({
                 <div className="space-y-4">
                   <div className="flex flex-wrap gap-2">
                     {[
-                      { key: 'air' as const, label: '💨 Airborne (Flu/Cold)', color: 'border-sky-500 bg-sky-950/40 text-sky-300' },
-                      { key: 'water' as const, label: '💧 Waterborne (Cholera/Typhoid)', color: 'border-blue-500 bg-blue-950/40 text-blue-300' },
+                      { key: 'air' as const, label: '💨 Airborne (Flu/Cold)', color: 'border-gold-500 bg-gold-950/40 text-gold-300' },
+                      { key: 'water' as const, label: '💧 Waterborne (Cholera/Typhoid)', color: 'border-gold-500 bg-gold-950/40 text-gold-300' },
                       { key: 'food' as const, label: '🍲 Foodborne (Food Poisoning)', color: 'border-amber-500 bg-amber-950/40 text-amber-300' },
                       { key: 'vector' as const, label: '🦟 Vector-borne (Malaria/Dengue)', color: 'border-rose-500 bg-rose-950/40 text-rose-300' },
                     ].map(tab => (
@@ -1384,12 +1384,12 @@ function C6_BiologyModesDiseaseTransmissionSim({
                       whileHover={{ scale: 1.02 }}
                       onClick={() => handleWasteDrop('blue')}
                       onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') handleWasteDrop('blue'); }}
-                      className="p-4 bg-sky-950/40 border-2 border-dashed border-sky-600 rounded-2xl text-center cursor-pointer hover:bg-sky-950/60 transition-all focus:outline-none focus:ring-2 focus:ring-sky-400"
+                      className="p-4 bg-gold-950/40 border-2 border-dashed border-gold-600 rounded-2xl text-center cursor-pointer hover:bg-gold-950/60 transition-all focus:outline-none focus:ring-2 focus:ring-gold-400"
                     >
                       <div className="text-3xl mb-1">📦 🔵</div>
-                      <h4 className="text-sm font-bold text-sky-300">✓ Blue Bin: Recyclable</h4>
+                      <h4 className="text-sm font-bold text-gold-300">✓ Blue Bin: Recyclable</h4>
                       <p className="text-xs text-slate-400 mt-1">Paper, clean plastic, dry metals</p>
-                      <div className="mt-3 text-xs text-sky-400 bg-sky-950/80 p-2 rounded-lg">
+                      <div className="mt-3 text-xs text-gold-400 bg-gold-950/80 p-2 rounded-lg">
                         Items inside: {wasteBins.blue.length > 0 ? wasteBins.blue.join(', ') : 'Empty'}
                       </div>
                     </motion.div>
@@ -1539,7 +1539,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                           </div>
                           <div className="flex justify-between">
                             <span>Dermal Blood Vessels:</span>
-                            <span className={skinTemp > 37 ? 'text-rose-400 font-bold' : skinTemp < 35 ? 'text-blue-400 font-bold' : 'text-slate-400'}>
+                            <span className={skinTemp > 37 ? 'text-rose-400 font-bold' : skinTemp < 35 ? 'text-gold-400 font-bold' : 'text-slate-400'}>
                               {skinTemp > 37 ? 'Vasodilated (Releasing Heat)' : skinTemp < 35 ? 'Vasoconstricted (Saving Core Heat)' : 'Normal'}
                             </span>
                           </div>
@@ -1565,8 +1565,8 @@ function C6_BiologyModesDiseaseTransmissionSim({
                 <div className="space-y-4">
                   {/* Predict-then-Check */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800 mb-4">
-                      <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Predict-Then-Check Investigation</p>
+                    <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800 mb-4">
+                      <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Predict-Then-Check Investigation</p>
                       <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1599,7 +1599,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                     </div>
                     <div>
                       <label htmlFor="hum-slider" className="text-[11px] text-slate-400 block">Humidity: {humidityVal}%</label>
-                      <input id="hum-slider" type="range" min={10} max={95} value={humidityVal} aria-label="Humidity slider" onChange={e => setHumidityVal(Number(e.target.value))} className="w-full accent-sky-500" />
+                      <input id="hum-slider" type="range" min={10} max={95} value={humidityVal} aria-label="Humidity slider" onChange={e => setHumidityVal(Number(e.target.value))} className="w-full accent-gold-500" />
                     </div>
                     <div>
                       <label htmlFor="wind-slider" className="text-[11px] text-slate-400 block">Wind Velocity: {windVal} m/s</label>
@@ -1614,7 +1614,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                   {/* Real-time Potometer Canvas and Stomata Gauge */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center bg-slate-950 p-4 rounded-2xl border border-slate-800">
                     <div>
-                      <span className="text-xs font-bold text-sky-400 block mb-1">Ganong Potometer Capillary Simulation:</span>
+                      <span className="text-xs font-bold text-gold-400 block mb-1">Ganong Potometer Capillary Simulation:</span>
                       <canvas ref={potometerCanvasRef} width={300} height={75} className="w-full bg-slate-900 rounded-xl" aria-label="Ganong Potometer Capillary Tube Animation" />
                       <span className="text-xs text-slate-400 block mt-2">
                         Calculated Uptake Velocity: <strong className="text-emerald-400">{transpirationRate} mm/min</strong>
@@ -1752,7 +1752,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                       <span>Relative Humidity</span>
                       <span>{humidityVal} %</span>
                     </div>
-                    <input type="range" min={10} max={95} value={humidityVal} aria-label="Sandbox humidity slider" onChange={e => setHumidityVal(Number(e.target.value))} className="w-full accent-sky-500" />
+                    <input type="range" min={10} max={95} value={humidityVal} aria-label="Sandbox humidity slider" onChange={e => setHumidityVal(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <div className="flex justify-between text-xs text-slate-300">
@@ -1769,7 +1769,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                 <div className="text-4xl font-black text-emerald-400 my-2">{transpirationRate} <span className="text-sm font-normal text-slate-400">mm/min</span></div>
                 <div className="w-full bg-slate-800 h-3 rounded-full overflow-hidden mt-2">
                   <motion.div
-                    className="h-full bg-gradient-to-r from-emerald-500 to-sky-400"
+                    className="h-full bg-gradient-to-r from-emerald-500 to-gold-400"
                     animate={{ width: `${Math.min(100, transpirationRate * 12)}%` }}
                   />
                 </div>
@@ -1790,7 +1790,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
             <div className="flex items-center justify-between">
               <div>
                 <span className="text-xs text-slate-400 block font-semibold">Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-                <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   NEP 2020 Competency: {challenge.competencyLevel}
                 </span>
               </div>
@@ -1806,7 +1806,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
 
             <div className="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 via-sky-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1915,7 +1915,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-900 text-[11px] text-center leading-5 text-indigo-300 font-bold">{displayIndex + 1}</span>
+                    <span className="w-5 h-5 rounded-full bg-gold-900 text-[11px] text-center leading-5 text-gold-300 font-bold">{displayIndex + 1}</span>
                     {item}
                   </motion.div>
                 ))}
@@ -2077,7 +2077,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">💡</span> Science Learning Reflection
             </h3>
             <p className="text-xs text-slate-400">Reflect on your scientific investigation to consolidate neural pathways.</p>
@@ -2093,7 +2093,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                   onChange={e => setReflections(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., How sweating cools through latent heat of vaporization..."
                   aria-label="Reflection on the most surprising thing learned"
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2107,7 +2107,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                   onChange={e => setReflections(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g., Pathogens need specific carriers, so stopping mosquitoes and boiling water breaks the chain..."
                   aria-label="Reflection on explaining the concept to a friend"
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2121,7 +2121,7 @@ function C6_BiologyModesDiseaseTransmissionSim({
                   onChange={e => setReflections(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., Keeping surroundings clean after monsoon rains to prevent disease breeding..."
                   aria-label="Reflection on real-life application"
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-xs focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>

@@ -30,7 +30,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Atlas — Every answer verified, never guessed | CBSE",
+  // `default` covers the landing page and any route without its own title;
+  // `template` turns each surface's metadata title into "<Surface> | Atlas"
+  // so every route reports what it actually is (P5 audit: layout-uniform
+  // titles). Child surfaces that need a full custom title use `absolute`.
+  title: {
+    default: "Atlas — Every answer verified, never guessed | CBSE",
+    template: "%s | Atlas",
+  },
   description:
     "Atlas maps your entire syllabus as a living galaxy — interactive simulations, verified step-by-step solutions, per-concept mastery and board-pattern exams for Classes 1–12 across CBSE.",
   manifest: "/manifest.json",

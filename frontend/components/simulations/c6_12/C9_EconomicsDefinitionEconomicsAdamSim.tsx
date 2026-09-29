@@ -1380,7 +1380,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                 ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
-                : 'bg-blue-500/20 text-blue-300 border-blue-500/40'
+                : 'bg-gold-500/20 text-gold-300 border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1394,13 +1394,13 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wide mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wide mb-2">
               <span>🏛️</span> Narrative Scenario Hook
             </div>
             <h2 className="text-2xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 bg-indigo-900/40 p-3 rounded-xl border border-indigo-700/50">
+            <p className="text-xs text-gold-300/80 bg-gold-900/40 p-3 rounded-xl border border-gold-700/50">
               📌 {SCENARIO.context}
             </p>
           </div>
@@ -1424,12 +1424,12 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-900/50 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 border-slate-700 hover:border-indigo-500 hover:bg-slate-750 text-slate-200'
+                      : 'bg-slate-800 border-slate-700 hover:border-gold-500 hover:bg-slate-750 text-slate-200'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1454,7 +1454,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm whitespace-nowrap shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm whitespace-nowrap shadow-lg shadow-gold-600/30"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1481,7 +1481,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                      ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                       : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
@@ -1503,7 +1503,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
               className="p-6 bg-slate-800/90 rounded-2xl border border-slate-700 space-y-4"
             >
               <div>
-                <div className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <div className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Concept Lab {currentSlide + 1}
                 </div>
                 <h3 className="text-xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1528,11 +1528,11 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                           onClick={() => handleEconomistSelect(key)}
                           className={`p-3.5 rounded-xl text-left border transition-all ${
                             isSel
-                              ? 'bg-indigo-900/60 border-indigo-500 shadow-md shadow-indigo-900/40'
+                              ? 'bg-gold-900/60 border-gold-500 shadow-md shadow-gold-900/40'
                               : 'bg-slate-900/80 border-slate-700 hover:border-slate-600'
                           }`}
                         >
-                          <div className="text-xs font-mono text-indigo-400 font-bold">{econ.year}</div>
+                          <div className="text-xs font-mono text-gold-400 font-bold">{econ.year}</div>
                           <div className="text-sm font-black text-white">{econ.name}</div>
                           <div className="text-xs text-slate-400 truncate">{econ.title}</div>
                         </motion.button>
@@ -1547,14 +1547,14 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3"
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2">
-                      <h4 className="text-lg font-bold text-indigo-300">
+                      <h4 className="text-lg font-bold text-gold-300">
                         {economistsData[selectedEconomist].name} — {economistsData[selectedEconomist].title} ({economistsData[selectedEconomist].year})
                       </h4>
                       <span className="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded-md">
                         Book: {economistsData[selectedEconomist].book}
                       </span>
                     </div>
-                    <p className="text-sm text-slate-200 leading-relaxed font-serif italic border-l-2 border-indigo-500 pl-3">
+                    <p className="text-sm text-slate-200 leading-relaxed font-serif italic border-l-2 border-gold-500 pl-3">
                       &quot;{economistsData[selectedEconomist].desc}&quot;
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1 text-xs">
@@ -1581,7 +1581,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       onClick={() => handleLensToggle('micro')}
                       className={`flex-1 p-3 rounded-xl font-bold text-sm border flex items-center justify-center gap-2 ${
                         activeLens === 'micro'
-                          ? 'bg-blue-600/30 border-blue-500 text-blue-300 shadow-md'
+                          ? 'bg-gold-600/30 border-gold-500 text-gold-300 shadow-md'
                           : 'bg-slate-900 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1604,7 +1604,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800">
                     {activeLens === 'micro' ? (
                       <div className="space-y-3">
-                        <div className="flex items-center justify-between text-xs text-blue-400 font-bold">
+                        <div className="flex items-center justify-between text-xs text-gold-400 font-bold">
                           <span>Focus: Price Theory & Partial Equilibrium</span>
                           <span>Unit: Single Consumer / Firm / Mandi</span>
                         </div>
@@ -1720,7 +1720,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                      <div className="flex items-center justify-between text-xs font-bold text-sky-400">
+                      <div className="flex items-center justify-between text-xs font-bold text-gold-400">
                         <span>💧 Water Scarcity (Chennai / Vidarbha):</span>
                         <span className="font-mono">{waterScarcity}%</span>
                       </div>
@@ -1733,12 +1733,12 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                           setWaterScarcity(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Water Scarcity"
                       />
                       <div className="flex justify-between text-xs text-slate-400">
                         <span>Value-in-Use: <strong className="text-emerald-400">100% (Vital)</strong></span>
-                        <span>Value-in-Exchange: <strong className="text-sky-300">₹{(waterScarcity * 20).toFixed(0)}/tanker</strong></span>
+                        <span>Value-in-Exchange: <strong className="text-gold-300">₹{(waterScarcity * 20).toFixed(0)}/tanker</strong></span>
                       </div>
                     </div>
 
@@ -1767,7 +1767,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <strong className="text-indigo-400">Adam Smith’s Insight:</strong> Price is governed by marginal scarcity and production costs (Value-in-Exchange), NOT by total life-supporting usefulness (Value-in-Use).
+                    <strong className="text-gold-400">Adam Smith’s Insight:</strong> Price is governed by marginal scarcity and production costs (Value-in-Exchange), NOT by total life-supporting usefulness (Value-in-Use).
                   </div>
                 </div>
               )}
@@ -1795,7 +1795,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     </div>
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                      <label className="text-xs font-bold text-sky-300">👷 Labour (Workers): {districtWorkers}</label>
+                      <label className="text-xs font-bold text-gold-300">👷 Labour (Workers): {districtWorkers}</label>
                       <input
                         type="range"
                         min={500}
@@ -1803,7 +1803,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                         step={100}
                         value={districtWorkers}
                         onChange={e => setDistrictWorkers(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                         aria-label="Labour allocation slider"
                       />
                       <span className="text-[11px] text-slate-400">Reward: Wages paid to workers</span>
@@ -1869,7 +1869,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Concept Lab →
               </motion.button>
@@ -1903,8 +1903,8 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
 
             {/* PREDICT-THEN-CHECK ACCORDION */}
             {!predictionMade ? (
-              <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">🔬 Predict Before You Simulate:</span>
+              <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">🔬 Predict Before You Simulate:</span>
                 <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1913,7 +1913,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handlePrediction(i)}
-                      className="text-left p-3 rounded-lg text-xs bg-slate-900 border border-slate-700 hover:border-indigo-400 text-slate-200"
+                      className="text-left p-3 rounded-lg text-xs bg-slate-900 border border-slate-700 hover:border-gold-400 text-slate-200"
                     >
                       {opt}
                     </motion.button>
@@ -1921,7 +1921,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                 </div>
               </div>
             ) : (
-              <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800 text-xs text-indigo-300 flex items-center justify-between">
+              <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800 text-xs text-gold-300 flex items-center justify-between">
                 <span>✓ Prediction Recorded! Test with the 10-Year Growth Projection below.</span>
                 <span className="text-amber-400 font-bold">{PREDICTION_QUESTIONS[0].verifyInstruction}</span>
               </div>
@@ -1997,7 +1997,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                 </div>
                 <div className="p-2 bg-slate-900 rounded-xl border border-slate-800">
                   <span className="text-slate-400 block">Savings Rate (%)</span>
-                  <span className="font-mono font-bold text-indigo-400">{calculatedSavingsRate}%</span>
+                  <span className="font-mono font-bold text-gold-400">{calculatedSavingsRate}%</span>
                 </div>
                 <div className="p-2 bg-slate-900 rounded-xl border border-slate-800">
                   <span className="text-slate-400 block">Wealth Addition (10 Yrs)</span>
@@ -2054,13 +2054,13 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="font-mono text-indigo-400 font-semibold uppercase">
+              <span className="font-mono text-gold-400 font-semibold uppercase">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-emerald-500 to-purple-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-emerald-500 to-purple-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2083,7 +2083,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
               <span className={`text-xs px-2 py-0.5 rounded font-bold uppercase ${
                 challenge.difficulty === 'foundation' ? 'text-emerald-400 bg-emerald-950/50'
                 : challenge.difficulty === 'advanced' ? 'text-purple-400 bg-purple-950/50'
-                : 'text-blue-400 bg-blue-950/50'
+                : 'text-gold-400 bg-gold-950/50'
               }`}>
                 {challenge.difficulty}
               </span>
@@ -2106,12 +2106,12 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     className={`w-full text-left p-4 rounded-xl text-sm font-medium transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-900/80 border-slate-700 hover:border-indigo-500 hover:bg-slate-750 text-slate-200'
+                        : 'bg-slate-900/80 border-slate-700 hover:border-gold-500 hover:bg-slate-750 text-slate-200'
                     }`}
                     aria-label={`Option ${i + 1}: ${opt}`}
                   >
                     <div className="flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center text-xs font-bold text-indigo-400 shrink-0 mt-0.5">
+                      <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center text-xs font-bold text-gold-400 shrink-0 mt-0.5">
                         {String.fromCharCode(65 + i)}
                       </span>
                       <span className="leading-relaxed">{opt}</span>
@@ -2133,7 +2133,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                       role="button"
                       aria-label={`Drag item: ${item.label}`}
                     >
@@ -2171,7 +2171,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Verify Factor Rewards →
                 </motion.button>
@@ -2198,9 +2198,9 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       }}
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
-                      className="p-3.5 bg-slate-900 rounded-xl border border-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-3 cursor-grab hover:border-indigo-500"
+                      className="p-3.5 bg-slate-900 rounded-xl border border-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-3 cursor-grab hover:border-gold-500"
                     >
-                      <span className="w-5 h-5 rounded-md bg-indigo-900/60 text-indigo-300 flex items-center justify-center font-bold">
+                      <span className="w-5 h-5 rounded-md bg-gold-900/60 text-gold-300 flex items-center justify-center font-bold">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2216,7 +2216,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -2232,7 +2232,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none w-64"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none w-64"
                     aria-label="Numerical answer input"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
@@ -2241,7 +2241,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30 disabled:opacity-50"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30 disabled:opacity-50"
                   >
                     Submit Calculation →
                   </motion.button>
@@ -2260,7 +2260,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
-                      className="px-3 py-1.5 bg-slate-900 border border-slate-700 hover:border-indigo-400 rounded-xl text-xs text-slate-200 font-bold"
+                      className="px-3 py-1.5 bg-slate-900 border border-slate-700 hover:border-gold-400 rounded-xl text-xs text-slate-200 font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2273,7 +2273,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                       key={idx}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-600 rounded-xl text-xs font-bold text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-600 rounded-xl text-xs font-bold text-gold-200 flex items-center gap-2"
                     >
                       <span>{idx + 1}. {part}</span>
                       <button onClick={() => handleConstructRemove(idx)} className="text-rose-400 hover:text-rose-300 font-black">
@@ -2291,7 +2291,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Validate Chain Structure →
                 </motion.button>
@@ -2303,7 +2303,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-800/80 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-800/80 space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">
@@ -2326,7 +2326,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs md:text-sm text-slate-200 leading-relaxed font-serif"
                       >
-                        <span className="font-bold text-indigo-400 font-sans mr-1">{idx + 1}.</span>
+                        <span className="font-bold text-gold-400 font-sans mr-1">{idx + 1}.</span>
                         {sentence.trim()}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2338,7 +2338,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Insight Step →
                   </motion.button>
@@ -2363,7 +2363,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL FEEDBACK ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4">
             <div className="w-16 h-16 rounded-3xl bg-emerald-500/20 border border-emerald-500/40 text-3xl flex items-center justify-center mx-auto shadow-lg shadow-emerald-500/20">
               🏆
             </div>
@@ -2377,7 +2377,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
                 errors === 0
                   ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500 shadow-emerald-500/20'
                   : errors <= 3
-                  ? 'bg-blue-500/20 text-blue-300 border-blue-500 shadow-blue-500/20'
+                  ? 'bg-gold-500/20 text-gold-300 border-gold-500 shadow-gold-500/20'
                   : errors <= 7
                   ? 'bg-amber-500/20 text-amber-300 border-amber-500 shadow-amber-500/20'
                   : 'bg-purple-500/20 text-purple-300 border-purple-500 shadow-purple-500/20'
@@ -2410,7 +2410,7 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Review Due In</span>
-                <span className="text-xl font-mono font-black text-indigo-400">
+                <span className="text-xl font-mono font-black text-gold-400">
                   {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
                 </span>
               </div>
@@ -2440,14 +2440,14 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
 
           {/* REAL WORLD CAPSTONE */}
           <div className="p-6 bg-slate-800/90 rounded-2xl border border-slate-700 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
               <span>📋</span> Capstone Field Assignment: {REAL_WORLD_ACTIVITY.title}
             </div>
             <p className="text-slate-300 text-xs leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs flex items-start gap-2 text-slate-300">
-                  <span className="font-bold text-indigo-400 font-mono">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400 font-mono">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}
@@ -2455,9 +2455,9 @@ function C9_EconomicsDefinitionEconomicsAdamSim({
           </div>
 
           {/* REFLECTION & REPETITION SCHEDULE */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-xs text-slate-300 space-y-1">
-              <span className="font-bold text-indigo-300 block">Spaced Repetition Schedule (SM-2):</span>
+              <span className="font-bold text-gold-300 block">Spaced Repetition Schedule (SM-2):</span>
               <span>Based on your responses, an adaptive flash review has been scheduled in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to cement long-term memory.</span>
             </div>
             <motion.button

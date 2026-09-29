@@ -1080,7 +1080,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
   // -----------------------------------------------------------------------------
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-cyan-500 selection:text-slate-950">
+    <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-gold-500 selection:text-slate-950">
       {/* Visual Feedback Overlays */}
       <HintBubble show={showHint} text={currentHint} />
       <Confetti show={showConfetti} />
@@ -1091,14 +1091,14 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
       <header className="max-w-7xl mx-auto mb-8 bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-3 mb-1">
-            <span className="px-3 py-1 bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 rounded-full text-xs font-semibold tracking-wider uppercase">
+            <span className="px-3 py-1 bg-gold-500/10 text-gold-400 border border-gold-500/30 rounded-full text-xs font-semibold tracking-wider uppercase">
               Class 12 ISC Physics
             </span>
-            <span className="px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 rounded-full text-xs font-semibold tracking-wider uppercase">
+            <span className="px-3 py-1 bg-gold-500/10 text-gold-400 border border-gold-500/30 rounded-full text-xs font-semibold tracking-wider uppercase">
               Chapter 5: Magnetism & Matter
             </span>
           </div>
-          <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+          <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400">
             {SCENARIO.title}
           </h1>
         </div>
@@ -1107,7 +1107,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
         <div className="flex items-center gap-4 w-full md:w-auto justify-between md:justify-end">
           <div className="bg-slate-950/80 px-4 py-2 rounded-xl border border-slate-800 text-right">
             <div className="text-xs text-slate-400 uppercase tracking-widest font-semibold">Mastery Score</div>
-            <div className="text-xl font-black text-cyan-400">{score} PTS</div>
+            <div className="text-xl font-black text-gold-400">{score} PTS</div>
           </div>
         </div>
       </header>
@@ -1128,7 +1128,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
             }}
             className={`flex items-center gap-2 px-5 py-3 rounded-xl font-bold transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 scale-105'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/20 scale-105'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1147,8 +1147,8 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
           <div className="space-y-8 animate-fadeIn">
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
-              <h2 className="text-xl font-bold text-cyan-400 mb-3 flex items-center gap-2">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+              <h2 className="text-xl font-bold text-gold-400 mb-3 flex items-center gap-2">
                 <span>📋</span> Lab Briefing & Context
               </h2>
               <p className="text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
@@ -1178,7 +1178,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500/50'
+                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500/50'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -1192,7 +1192,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
               </div>
 
               {discoverySubmitted && (
-                <div className="p-4 rounded-xl bg-cyan-950/50 border border-cyan-800 text-cyan-200 text-sm animate-fadeIn">
+                <div className="p-4 rounded-xl bg-gold-950/50 border border-gold-800 text-gold-200 text-sm animate-fadeIn">
                   <span className="font-bold">Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1201,7 +1201,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
 
             {/* Prediction Questions Array Section */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-sky-400 mb-6 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-6 flex items-center gap-2">
                 <span>🔮</span> Theoretical Predictions (MANDATORY PRE-CHECK)
               </h3>
               <div className="space-y-6">
@@ -1218,7 +1218,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                               ? oIdx === pq.correctIndex
                                 ? 'bg-emerald-900/60 border-emerald-500 text-emerald-100'
                                 : 'bg-rose-900/60 border-rose-500 text-rose-100'
-                              : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-sky-500/40'
+                              : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/40'
                           }`}
                         >
                           {opt}
@@ -1226,7 +1226,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                       ))}
                     </div>
                     {predictionAnswers[pIdx] !== undefined && (
-                      <p className="text-xs text-sky-400 italic mt-2">
+                      <p className="text-xs text-gold-400 italic mt-2">
                         🔍 How to verify in Lab: {pq.verifyInstruction}
                       </p>
                     )}
@@ -1253,7 +1253,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                     currentLabStep === idx
-                      ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                      ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                       : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
                   }`}
                 >
@@ -1265,8 +1265,8 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
             {/* Active Lab Module Description */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-lg font-bold text-cyan-400">{EXPLORATION_STEPS[currentLabStep].title}</h3>
-                <span className="text-xs bg-slate-800 text-cyan-300 px-3 py-1 rounded-full border border-slate-700">
+                <h3 className="text-lg font-bold text-gold-400">{EXPLORATION_STEPS[currentLabStep].title}</h3>
+                <span className="text-xs bg-slate-800 text-gold-300 px-3 py-1 rounded-full border border-slate-700">
                   Target Node: {EXPLORATION_STEPS[currentLabStep].nodeId}
                 </span>
               </div>
@@ -1282,7 +1282,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                     <div>
                       <div className="flex justify-between text-xs mb-1 text-slate-400">
                         <span>Dipole Moment (M):</span>
-                        <span className="text-cyan-400 font-bold">{dipoleMoment.toFixed(2)} A·m²</span>
+                        <span className="text-gold-400 font-bold">{dipoleMoment.toFixed(2)} A·m²</span>
                       </div>
                       <input
                         type="range"
@@ -1291,14 +1291,14 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                         step="0.1"
                         value={dipoleMoment}
                         onChange={(e) => setDipoleMoment(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs mb-1 text-slate-400">
                         <span>Distance (r):</span>
-                        <span className="text-cyan-400 font-bold">{distance.toFixed(2)} m</span>
+                        <span className="text-gold-400 font-bold">{distance.toFixed(2)} m</span>
                       </div>
                       <input
                         type="range"
@@ -1307,12 +1307,12 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                         step="0.01"
                         value={distance}
                         onChange={(e) => setDistance(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
-                      <div className="font-bold text-cyan-400 border-b border-slate-800 pb-1">Real-time Calculated Fields</div>
+                      <div className="font-bold text-gold-400 border-b border-slate-800 pb-1">Real-time Calculated Fields</div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">B_axial (2μ₀M / 4π r³):</span>
                         <span className="font-mono text-emerald-400 font-bold">{(bAxial * 1e6).toFixed(2)} μT</span>
@@ -1389,7 +1389,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                     <div>
                       <div className="flex justify-between text-xs mb-1 text-slate-400">
                         <span>External B-Field:</span>
-                        <span className="text-sky-400 font-bold">{bFieldExternal.toFixed(2)} T</span>
+                        <span className="text-gold-400 font-bold">{bFieldExternal.toFixed(2)} T</span>
                       </div>
                       <input
                         type="range"
@@ -1398,19 +1398,19 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                         step="0.05"
                         value={bFieldExternal}
                         onChange={(e) => setBFieldExternal(parseFloat(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
-                      <div className="font-bold text-sky-400 border-b border-slate-800 pb-1">Dynamic Dipole Energetics</div>
+                      <div className="font-bold text-gold-400 border-b border-slate-800 pb-1">Dynamic Dipole Energetics</div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Torque magnitude (τ = MB sinθ):</span>
                         <span className="font-mono text-amber-400 font-bold">{torqueVal.toFixed(3)} N·m</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Potential Energy (U = -MB cosθ):</span>
-                        <span className="font-mono text-cyan-400 font-bold">{potEnergyVal.toFixed(3)} J</span>
+                        <span className="font-mono text-gold-400 font-bold">{potEnergyVal.toFixed(3)} J</span>
                       </div>
                       <div className="flex justify-between border-t border-slate-800 pt-1">
                         <span className="text-slate-400">Equilibrium State:</span>
@@ -1432,7 +1432,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
               {currentLabStep === 2 && (
                 <div className="space-y-6 bg-slate-950 p-6 rounded-xl border border-slate-800">
                   <div className="max-w-3xl mx-auto text-center space-y-4">
-                    <h4 className="text-lg font-bold text-cyan-400">Closed Surface Magnetic Flux Integral (∮ B · dA)</h4>
+                    <h4 className="text-lg font-bold text-gold-400">Closed Surface Magnetic Flux Integral (∮ B · dA)</h4>
                     <p className="text-xs text-slate-300">
                       Drag a closed Gaussian surface over isolated charges vs magnetic dipoles to calculate enclosed net flux.
                     </p>
@@ -1475,7 +1475,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                       </svg>
                     </div>
 
-                    <div className="p-4 bg-cyan-950/40 border border-cyan-800 rounded-xl text-left text-xs text-cyan-200 leading-relaxed">
+                    <div className="p-4 bg-gold-950/40 border border-gold-800 rounded-xl text-left text-xs text-gold-200 leading-relaxed">
                       <strong>Fundamental Difference:</strong> Electric field lines originate and terminate on electric charges (electric monopoles exist). Magnetic field lines form continuous, unbroken closed loops because isolated magnetic monopoles do not exist in nature.
                     </div>
                   </div>
@@ -1500,7 +1500,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                           onClick={() => setMaterialType(mat.id as typeof materialType)}
                           className={`w-full p-3 rounded-xl text-left text-xs font-bold transition-all border ${
                             materialType === mat.id
-                              ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -1512,7 +1512,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                     <div>
                       <div className="flex justify-between text-xs mb-1 text-slate-400">
                         <span>Applied Magnetizing Field (H):</span>
-                        <span className="text-cyan-400 font-bold">{hFieldApplied} A/m</span>
+                        <span className="text-gold-400 font-bold">{hFieldApplied} A/m</span>
                       </div>
                       <input
                         type="range"
@@ -1521,7 +1521,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                         step="20"
                         value={hFieldApplied}
                         onChange={(e) => setHFieldApplied(parseInt(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1538,7 +1538,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                 <div className="space-y-6 bg-slate-950 p-6 rounded-xl border border-slate-800">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-4">
-                      <h4 className="font-bold text-cyan-400 text-sm">Thermal Demagnetization (Curie Transition)</h4>
+                      <h4 className="font-bold text-gold-400 text-sm">Thermal Demagnetization (Curie Transition)</h4>
                       <div>
                         <div className="flex justify-between text-xs mb-1 text-slate-400">
                           <span>Sample Temperature:</span>
@@ -1572,7 +1572,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                     </div>
 
                     <div className="space-y-4">
-                      <h4 className="font-bold text-sky-400 text-sm">Meissner Effect (Quantum Levitation)</h4>
+                      <h4 className="font-bold text-gold-400 text-sm">Meissner Effect (Quantum Levitation)</h4>
                       <button
                         onClick={() => {
                           setIsSuperconducting((prev) => !prev);
@@ -1580,8 +1580,8 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                         }}
                         className={`w-full py-4 rounded-xl font-bold text-xs transition-all border ${
                           isSuperconducting
-                            ? 'bg-gradient-to-r from-cyan-500 to-indigo-600 text-white shadow-lg shadow-cyan-500/30 border-cyan-400'
-                            : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500/50'
+                            ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/30 border-gold-400'
+                            : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/50'
                         }`}
                       >
                         {isSuperconducting ? '❄️ Cryogenic State Active (T < T_c): Perfect Diamagnetism' : '🔥 Warm State (T > T_c): Normal Conductive State'}
@@ -1590,7 +1590,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                       <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Susceptibility (χ):</span>
-                          <span className="font-mono text-cyan-400 font-bold">{isSuperconducting ? '-1.000 (Perfect Repulsion)' : '+0.002'}</span>
+                          <span className="font-mono text-gold-400 font-bold">{isSuperconducting ? '-1.000 (Perfect Repulsion)' : '+0.002'}</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Internal Magnetic Field (B):</span>
@@ -1673,7 +1673,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                     }}
                     className={`w-7 h-7 rounded-lg text-xs font-bold transition-all shrink-0 ${
                       idx === currentChallengeIndex
-                        ? 'bg-cyan-500 text-slate-950 ring-2 ring-cyan-400'
+                        ? 'bg-gold-500 text-slate-950 ring-2 ring-gold-400'
                         : idx < currentChallengeIndex
                         ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                         : 'bg-slate-950 text-slate-600 border border-slate-800'
@@ -1703,8 +1703,8 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                       }}
                       className={`p-4 rounded-xl text-left border transition-all duration-200 ${
                         selectedOption === idx
-                          ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200 shadow-md shadow-cyan-500/10'
-                          : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500/40'
+                          ? 'bg-gold-950/80 border-gold-400 text-gold-200 shadow-md shadow-gold-500/10'
+                          : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500/40'
                       }`}
                     >
                       <div className="flex items-start gap-3">
@@ -1731,7 +1731,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                       value={numericAnswer}
                       onChange={(e) => setNumericAnswer(e.target.value)}
                       placeholder={`e.g. ${currentChallenge.correctAnswer}`}
-                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-lg focus:outline-none focus:border-cyan-500 w-full max-w-xs"
+                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-lg focus:outline-none focus:border-gold-500 w-full max-w-xs"
                     />
                     <span className="self-center text-sm font-bold text-slate-400">{currentChallenge.unit}</span>
                   </div>
@@ -1755,7 +1755,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={currentChallenge.type === 'multiple-choice' ? selectedOption === null : numericAnswer === ''}
-                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-white shadow-lg shadow-cyan-500/20 hover:brightness-110 disabled:opacity-50 transition-all"
+                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-white shadow-lg shadow-gold-500/20 hover:brightness-110 disabled:opacity-50 transition-all"
                   >
                     Submit Physics Answer
                   </button>
@@ -1792,7 +1792,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
           <div className="space-y-8 animate-fadeIn">
             {/* Real World Activity Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-2 flex items-center gap-2">
                 <span>🏭</span> Real-World Engineering Application
               </h2>
               <h3 className="text-md font-semibold text-slate-200 mb-3">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -1801,7 +1801,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 border border-slate-800 p-4 rounded-xl flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 flex items-center justify-center text-xs font-bold shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-500/20 text-gold-400 border border-gold-500/40 flex items-center justify-center text-xs font-bold shrink-0">
                       {idx + 1}
                     </span>
                     <p className="text-xs text-slate-300 leading-relaxed">{step}</p>
@@ -1830,7 +1830,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
 
             {/* Comprehensive Physics Definitions & Formulas Table */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl overflow-x-auto">
-              <h3 className="text-lg font-bold text-sky-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>📖</span> Physical Quantities & Reference Equations
               </h3>
               <table className="w-full text-left border-collapse text-xs">
@@ -1844,7 +1844,7 @@ export default function C12_PhysicsMagnetismandMatterCBSESim({
                 <tbody className="divide-y divide-slate-800/50 text-slate-300">
                   {PHYSICS_DEFINITIONS.map((def, idx) => (
                     <tr key={idx} className="hover:bg-slate-950/50">
-                      <td className="py-3 px-4 font-bold text-cyan-300">{def.term}</td>
+                      <td className="py-3 px-4 font-bold text-gold-300">{def.term}</td>
                       <td className="py-3 px-4 leading-relaxed">{def.def}</td>
                       <td className="py-3 px-4 font-mono text-emerald-400 font-bold">{def.formula}</td>
                     </tr>

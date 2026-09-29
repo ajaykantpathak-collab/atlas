@@ -6,7 +6,7 @@ export const c9_math_ch03_p1: SimDef = {
     id: 'v3_c9_math_ch03_p1',
     title: 'Number Systems',
     subtitle: 'From counting numbers to irrationals — the number line is bigger than it looks.',
-    classLevel: 9, subject: 'mathematics', topic: 'Number Systems · Part 1/2',
+    classLevel: 9, subject: 'mathematics', topic: 'Number Systems',
     chapters: ['c9_math_ch03'],
     nodeIds: ['c9_math_ch3_1', 'c9_math_ch3_10', 'c9_math_ch3_11', 'c9_math_ch3_2', 'c9_math_ch3_3', 'c9_math_ch3_4'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

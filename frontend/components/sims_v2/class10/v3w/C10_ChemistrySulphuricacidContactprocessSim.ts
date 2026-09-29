@@ -11,7 +11,7 @@ export const w_c10_chemistrysulphuricacidcontactprocesssim: SimDef = {
     classLevel: 10, subject: 'chemistry', topic: 'Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties)',
     chapters: [],
     nodeIds: ['c10_chem_cbse_04_011', 'c10_chem_cbse_04_012', 'c10_chem_cbse_02_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe how a few drops of ethanol on your palm evaporate quickly leaving a cooling sensation, while vinegar.', goal: 'Master Important Carbon Compounds: Ethanol and Ethanoic Acid (Properties).' },
     discovery: {
         question: 'A student takes 5 g of castor oil (a triglyceride) and adds 20 mL of 20% NaOH solution. The mixture is heated and then common salt (NaCl) is added.',
@@ -20,7 +20,7 @@ export const w_c10_chemistrysulphuricacidcontactprocesssim: SimDef = {
         hook: 'Students often think that the hydrophobic tail of soap "dissolves" in oil and the hydrophilic head "dissolves" in.',
     },
     teaching: [
-        { title: 'Ethanol (C₂H₅OH) is a two-carbon alcohol.', text: 'Ethanol (C₂H₅OH) is a two-carbon alcohol with a hydroxyl (–OH) functional group, and ethanoic acid (CH₃COOH) is a two-carbon carboxylic acid with a carboxyl (–COOH) functional group; both are.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Ethanol (C₂H₅OH) is a two-carbon alcohol.', text: 'Ethanol (C₂H₅OH) is a two-carbon alcohol with a hydroxyl (–OH) functional group, and ethanoic acid (CH₃COOH) is a two-carbon carboxylic acid with a carboxyl (–COOH) functional group; both are.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_chem_cbse_04_011', title: 'Ethanol (C₂H₅OH) is a two-carbon.',

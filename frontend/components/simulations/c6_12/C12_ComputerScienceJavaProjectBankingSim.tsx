@@ -1153,13 +1153,13 @@ function C12_ComputerScienceJavaProjectBankingSim({
         <div className="flex items-center gap-3">
           <motion.div 
             whileHover={{ rotate: 15 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-800/60">
+              <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase bg-gold-950/60 px-2 py-0.5 rounded border border-gold-800/60">
                 ISC Class 12 Computer Science
               </span>
               <span className="text-xs text-slate-400">Capstone 10-Node Sim</span>
@@ -1184,7 +1184,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
               }}
               className={`px-3 py-1 text-xs font-semibold rounded-lg capitalize transition-all ${
                 phase === p 
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30' 
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' 
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
@@ -1205,12 +1205,12 @@ function C12_ComputerScienceJavaProjectBankingSim({
             className="space-y-6"
           >
             {/* Narrative Scenario Box */}
-            <div className="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 border border-indigo-800/60 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
+            <div className="p-5 rounded-2xl bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 border border-gold-800/60 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
                 <span>🏛️</span> {SCENARIO.title}
               </div>
               <p className="text-sm md:text-base text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-              <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-indigo-900/40 text-xs text-slate-300 font-mono">
+              <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-gold-900/40 text-xs text-slate-300 font-mono">
                 {SCENARIO.context}
               </div>
             </div>
@@ -1255,7 +1255,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                 <motion.div 
                   initial={{ opacity: 0, y: 10 }} 
                   animate={{ opacity: 1, y: 0 }} 
-                  className="mt-5 p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
+                  className="mt-5 p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 flex flex-col sm:flex-row items-center justify-between gap-4"
                 >
                   <p className={`text-xs md:text-sm ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-300'}`}>
                     {discoveryCorrect 
@@ -1267,7 +1267,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="whitespace-nowrap px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs md:text-sm font-bold shadow-lg shadow-indigo-600/30"
+                    className="whitespace-nowrap px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs md:text-sm font-bold shadow-lg shadow-gold-600/30"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1292,7 +1292,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
             <canvas ref={canvasRef} width={800} height={40} className="w-full rounded-xl bg-slate-900 border border-slate-800" />
 
             {/* PREDICTION-BEFORE-ACTION SECTION (Brilliant.org Predict-then-Check Pattern) */}
-            <div className="p-5 bg-gradient-to-r from-amber-950/30 via-slate-900 to-indigo-950/30 rounded-2xl border border-amber-500/30 space-y-4">
+            <div className="p-5 bg-gradient-to-r from-amber-950/30 via-slate-900 to-gold-950/30 rounded-2xl border border-amber-500/30 space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
                   <span>🎯</span> Step Prediction #{predictionIndex + 1} of {PREDICTION_QUESTIONS.length}
@@ -1351,7 +1351,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
             {/* Step Navigation Bar */}
             <div className="flex items-center justify-between bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 bg-indigo-950 px-2.5 py-1 rounded-lg border border-indigo-800">
+                <span className="text-xs font-bold text-gold-400 bg-gold-950 px-2.5 py-1 rounded-lg border border-gold-800">
                   Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-xs text-slate-400 hidden sm:inline">
@@ -1377,7 +1377,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                     if (currentSlide < EXPLORATION_STEPS.length - 1) setCurrentSlide(s => s + 1);
                     else handleAdvanceToSandbox();
                   }}
-                  className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                  className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                 >
                   {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Go to Free Sandbox →' : 'Next Lab →'}
                 </motion.button>
@@ -1390,7 +1390,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                 <h3 className="text-base md:text-lg font-bold text-white flex items-center gap-2">
                   <span>🔬</span> {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
-                <p className="text-xs md:text-sm text-indigo-300 mt-1">
+                <p className="text-xs md:text-sm text-gold-300 mt-1">
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
               </div>
@@ -1400,7 +1400,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                 <div className="space-y-6">
                   {/* TOPIC SVG DIAGRAM 1: ACID Transaction & Rollback Flow */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-xs font-mono text-indigo-400 mb-2 self-start">Architecture Flow: ACID Transaction Boundary</span>
+                    <span className="text-xs font-mono text-gold-400 mb-2 self-start">Architecture Flow: ACID Transaction Boundary</span>
                     <svg viewBox="0 0 700 130" className="w-full max-w-2xl h-auto" role="img" aria-label="JDBC ACID Transaction Lifecycle Diagram">
                       <rect x="10" y="25" width="130" height="80" rx="8" fill="#1e293b" stroke="#6366f1" strokeWidth="2" />
                       <text x="75" y="55" fill="#e2e8f0" fontSize="11" textAnchor="middle" fontWeight="bold">Client App</text>
@@ -1479,7 +1479,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                           aria-label="Toggle autoCommit mode"
                           checked={autoCommitEnabled}
                           onChange={(e) => setAutoCommitEnabled(e.target.checked)}
-                          className="w-4 h-4 rounded text-indigo-600 bg-slate-900 border-slate-700"
+                          className="w-4 h-4 rounded text-gold-600 bg-slate-900 border-slate-700"
                         />
                         <span className={autoCommitEnabled ? 'text-rose-400 font-mono' : 'text-emerald-400 font-mono'}>
                           autoCommit = {autoCommitEnabled ? '✗ TRUE (Dangerous)' : '✓ FALSE (Safe Atomic)'}
@@ -1540,7 +1540,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                 <div className="space-y-4">
                   {/* TOPIC SVG DIAGRAM 2: PreparedStatement Parameter Shield */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-xs font-mono text-indigo-400 mb-2 self-start">Architecture Flow: SQL Injection Shielding</span>
+                    <span className="text-xs font-mono text-gold-400 mb-2 self-start">Architecture Flow: SQL Injection Shielding</span>
                     <svg viewBox="0 0 700 120" className="w-full max-w-2xl h-auto" role="img" aria-label="PreparedStatement vs Raw Statement Execution Diagram">
                       {/* Input */}
                       <rect x="10" y="20" width="140" height="75" rx="8" fill="#1e293b" stroke="#eab308" strokeWidth="2" />
@@ -1581,7 +1581,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                         aria-label="SQL Injection payload input"
                         value={injectionPayload}
                         onChange={(e) => setInjectionPayload(e.target.value)}
-                        className="w-full p-2.5 bg-slate-900 rounded-lg border border-slate-700 text-xs font-mono text-amber-300 focus:outline-none focus:border-indigo-500"
+                        className="w-full p-2.5 bg-slate-900 rounded-lg border border-slate-700 text-xs font-mono text-amber-300 focus:outline-none focus:border-gold-500"
                       />
                       <div className="flex gap-2 mt-3">
                         <button
@@ -1650,7 +1650,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                 <div className="space-y-4">
                   {/* TOPIC SVG DIAGRAM 3: Multithreaded Socket Server Model */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-xs font-mono text-indigo-400 mb-2 self-start">Architecture Flow: Multithreaded Socket Worker Dispatch</span>
+                    <span className="text-xs font-mono text-gold-400 mb-2 self-start">Architecture Flow: Multithreaded Socket Worker Dispatch</span>
                     <svg viewBox="0 0 700 130" className="w-full max-w-2xl h-auto" role="img" aria-label="Multithreaded ServerSocket and Worker Threads Diagram">
                       {/* Port Listening Box */}
                       <rect x="10" y="30" width="160" height="70" rx="8" fill="#1e293b" stroke="#6366f1" strokeWidth="2" />
@@ -1688,7 +1688,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleSpawnClient}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       + Connect New Client
                     </motion.button>
@@ -1700,10 +1700,10 @@ function C12_ComputerScienceJavaProjectBankingSim({
                         key={client.id}
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
-                        className="p-3 bg-slate-950 rounded-xl border border-indigo-900/50 flex flex-col justify-between"
+                        className="p-3 bg-slate-950 rounded-xl border border-gold-900/50 flex flex-col justify-between"
                       >
                         <div className="flex items-center justify-between text-xs">
-                          <span className="font-bold text-indigo-400">Client #{client.id}</span>
+                          <span className="font-bold text-gold-400">Client #{client.id}</span>
                           <span className="text-emerald-400 text-[10px] bg-emerald-950 px-1.5 py-0.5 rounded border border-emerald-800">
                             ✓ {client.status}
                           </span>
@@ -1736,7 +1736,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                           audioManager.play('tap');
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all ${
-                          selectedEmpType === type ? 'bg-indigo-600 text-white' : 'bg-slate-950 text-slate-400 border border-slate-800'
+                          selectedEmpType === type ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400 border border-slate-800'
                         }`}
                       >
                         {type}Employee Instance
@@ -1745,7 +1745,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono space-y-2">
-                    <div className="text-indigo-400 font-bold">// Polymorphic Reference Call:</div>
+                    <div className="text-gold-400 font-bold">// Polymorphic Reference Call:</div>
                     <div className="text-slate-300">
                       Employee emp = new {selectedEmpType.charAt(0).toUpperCase() + selectedEmpType.slice(1)}Employee(...);
                     </div>
@@ -1775,7 +1775,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                         max={100}
                         value={couplingLevel}
                         onChange={(e) => setCouplingLevel(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[11px] text-slate-400">
                         {couplingLevel < 35 ? '✓ Low Coupling: Modules interact cleanly via narrow interfaces.' : '✗ High Coupling: Dangerous interdependencies!'}
@@ -1806,9 +1806,9 @@ function C12_ComputerScienceJavaProjectBankingSim({
             </div>
 
             {/* OBSERVATION QUESTIONS (Brilliant.org 'What do you notice?' Pattern) */}
-            <div className="p-5 bg-gradient-to-r from-indigo-950/40 via-slate-900 to-cyan-950/40 rounded-2xl border border-cyan-500/30 space-y-4">
+            <div className="p-5 bg-gradient-to-r from-gold-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-500/30 space-y-4">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-1.5">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
                   <span>👀</span> Observation Check #{observationIndex + 1} of {OBSERVATION_QUESTIONS.length}
                 </span>
                 <span className="text-xs text-slate-400">Reflect on what you noticed in the simulation</span>
@@ -1840,7 +1840,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
               </div>
               {observationSubmitted && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2">
-                  <div className="text-cyan-300">
+                  <div className="text-gold-300">
                     <strong>Notice:</strong> {OBSERVATION_QUESTIONS[observationIndex].explanation}
                   </div>
                   {observationIndex < OBSERVATION_QUESTIONS.length - 1 && (
@@ -1850,7 +1850,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                         setObservationSelected(null);
                         setObservationSubmitted(false);
                       }}
-                      className="mt-2 px-3 py-1 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg text-xs font-semibold"
+                      className="mt-2 px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold"
                     >
                       Next Observation Question →
                     </button>
@@ -1872,7 +1872,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
             exit={{ opacity: 0, y: -15 }}
             className="space-y-6"
           >
-            <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-800/40 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-800/40 flex flex-col md:flex-row items-center justify-between gap-4">
               <div>
                 <h2 className="text-base md:text-lg font-bold text-white flex items-center gap-2">
                   <span>🛠️</span> Capstone Architectural Sandbox
@@ -1899,7 +1899,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                   <h3 className="text-sm font-bold text-white">Student Grade Distribution Analytics (c12_cs_053)</h3>
                   <p className="text-xs text-slate-400">Live SQL aggregate view: AVG(marks), MAX(marks), MIN(marks)</p>
                 </div>
-                <span className="text-xs font-mono text-indigo-400 bg-indigo-950 px-2 py-1 rounded border border-indigo-800">
+                <span className="text-xs font-mono text-gold-400 bg-gold-950 px-2 py-1 rounded border border-gold-800">
                   JavaFX / Recharts Sync
                 </span>
               </div>
@@ -1940,7 +1940,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
             {/* Challenge Progress Header */}
             <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-900 rounded-2xl border border-slate-800">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-white bg-indigo-600 px-3 py-1 rounded-lg">
+                <span className="text-xs font-bold text-white bg-gold-600 px-3 py-1 rounded-lg">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <motion.span
@@ -1951,7 +1951,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                       : difficulty === 'standard'
-                      ? 'bg-blue-950 text-blue-400 border-blue-800'
+                      ? 'bg-gold-950 text-gold-400 border-gold-800'
                       : 'bg-purple-950 text-purple-400 border-purple-800'
                   }`}
                 >
@@ -1961,14 +1961,14 @@ function C12_ComputerScienceJavaProjectBankingSim({
 
               <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
                 <span>NEP Level:</span>
-                <span className="text-indigo-400 font-semibold uppercase">{challenge.competencyLevel}</span>
+                <span className="text-gold-400 font-semibold uppercase">{challenge.competencyLevel}</span>
               </div>
             </div>
 
             {/* Animated Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1984,7 +1984,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                   : 'bg-slate-900 border-slate-800'
               }`}
             >
-              <div className="text-xs font-mono text-indigo-400 mb-2">
+              <div className="text-xs font-mono text-gold-400 mb-2">
                 Node Focus: {challenge.nodeId}
               </div>
               <h2 className="text-base md:text-lg font-bold text-white mb-5 leading-relaxed">
@@ -2034,7 +2034,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2049,7 +2049,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                         onDrop={() => handleDragDrop(item.targetId)}
                         className={`p-4 rounded-xl border-2 border-dashed flex flex-col justify-between min-h-[90px] transition-colors ${
                           droppedLabels[item.targetId]
-                            ? 'bg-indigo-950/40 border-indigo-500'
+                            ? 'bg-gold-950/40 border-gold-500'
                             : 'bg-slate-950 border-slate-700 hover:border-slate-500'
                         }`}
                       >
@@ -2073,7 +2073,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Validate Architectural Mapping
                   </motion.button>
@@ -2120,7 +2120,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Check Pipeline Order
                   </motion.button>
@@ -2138,7 +2138,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer"
-                      className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                      className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
                     <motion.button
@@ -2147,7 +2147,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-3 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                      className="px-6 py-3 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                     >
                       Submit Calculation
                     </motion.button>
@@ -2176,7 +2176,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((part, i) => (
-                      <span key={i} className="px-2.5 py-1 bg-indigo-900/60 border border-indigo-700 rounded-lg text-xs font-mono text-indigo-200 flex items-center gap-1.5">
+                      <span key={i} className="px-2.5 py-1 bg-gold-900/60 border border-gold-700 rounded-lg text-xs font-mono text-gold-200 flex items-center gap-1.5">
                         {part}
                         <button 
                           aria-label={`Remove part ${part}`}
@@ -2198,7 +2198,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Verify Architecture Pipeline
                   </motion.button>
@@ -2210,7 +2210,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-gradient-to-br from-slate-950 to-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3"
+                  className="mt-6 p-5 bg-gradient-to-br from-slate-950 to-gold-950/40 rounded-xl border border-gold-800/60 space-y-3"
                 >
                   <div className="flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-wider">
                     <span>💡</span> Step-by-Step Examiner Explanation:
@@ -2223,7 +2223,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}{!sentence.endsWith('.') && '.'}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}{!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
 
@@ -2279,7 +2279,7 @@ function C12_ComputerScienceJavaProjectBankingSim({
               <h2 className="text-2xl font-black text-white">ISC Project Capstone Completed!</h2>
               <div className="flex justify-center gap-6 text-sm font-mono">
                 <div>Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span></div>
-                <div>Mastery: <span className="text-indigo-400 font-bold uppercase">{masteryLevel}</span></div>
+                <div>Mastery: <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span></div>
                 <div>Errors: <span className="text-rose-400 font-bold">{errors}</span></div>
               </div>
 
@@ -2322,10 +2322,10 @@ function C12_ComputerScienceJavaProjectBankingSim({
             </div>
 
             {/* REAL WORLD ACTIVITY */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
+            <div className="p-6 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🚀</span>
-                <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+                <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               </div>
               <p className="text-xs md:text-sm text-slate-300">
                 {REAL_WORLD_ACTIVITY.description}

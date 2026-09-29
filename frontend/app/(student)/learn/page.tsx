@@ -46,20 +46,29 @@ interface EnrichmentNode {
   prereq_count: number
 }
 
-const SUBJECTS = [
-  { key: 'physics', name: 'Physics', icon: Atom, color: 'text-brand-300' },
-  { key: 'chem', name: 'Chemistry', icon: FlaskConical, color: 'text-accent-300' },
-  { key: 'bio', name: 'Biology', icon: Leaf, color: 'text-mint-300' },
-  { key: 'maths', name: 'Mathematics', icon: Calculator, color: 'text-gold-300' },
-  { key: 'english', name: 'English', icon: BookOpen, color: 'text-rose-300' },
-  { key: 'hindi', name: 'Hindi', icon: Languages, color: 'text-orange-300' },
-  { key: 'history', name: 'History', icon: Landmark, color: 'text-amber-300' },
-  { key: 'geo', name: 'Geography', icon: Globe, color: 'text-teal-300' },
-  { key: 'civics', name: 'Civics', icon: Scale, color: 'text-sky-300' },
-  { key: 'eco', name: 'Economics', icon: TrendingUp, color: 'text-lime-300' },
-  { key: 'grammar', name: 'Grammar', icon: Type, color: 'text-violet-300' },
-  { key: 'cs', name: 'Computer Science', icon: Monitor, color: 'text-cyan-300' },
+// GRADE-01: NCERT doesn't split senior subjects at middle school — a
+// Class 6 child has no standalone Economics or Computer Science. Showing
+// those slugs surfaced wrong-grade content (c6 "computer" = English
+// paragraphs, c6 "economics" = c10-11 material). Gate subjects per class.
+const SUBJECTS_ALL = [
+  { key: 'physics', name: 'Physics', icon: Atom, color: 'text-brand-300', minClass: 6 },
+  { key: 'chem', name: 'Chemistry', icon: FlaskConical, color: 'text-accent-300', minClass: 6 },
+  { key: 'bio', name: 'Biology', icon: Leaf, color: 'text-mint-300', minClass: 6 },
+  { key: 'maths', name: 'Mathematics', icon: Calculator, color: 'text-gold-300', minClass: 1 },
+  { key: 'english', name: 'English', icon: BookOpen, color: 'text-rose-300', minClass: 1 },
+  { key: 'hindi', name: 'Hindi', icon: Languages, color: 'text-orange-300', minClass: 1 },
+  { key: 'history', name: 'History', icon: Landmark, color: 'text-amber-300', minClass: 6 },
+  { key: 'geo', name: 'Geography', icon: Globe, color: 'text-teal-300', minClass: 6 },
+  { key: 'civics', name: 'Civics', icon: Scale, color: 'text-gold-300', minClass: 6 },
+  { key: 'eco', name: 'Economics', icon: TrendingUp, color: 'text-lime-300', minClass: 9 },
+  { key: 'grammar', name: 'Grammar', icon: Type, color: 'text-gold-300', minClass: 1 },
+  { key: 'cs', name: 'Computer Science', icon: Monitor, color: 'text-gold-300', minClass: 9 },
 ]
+
+/** Subjects offered to this class — no senior strands at middle school. */
+function subjectsFor(classLevel: number) {
+  return SUBJECTS_ALL.filter(s => classLevel >= (s.minClass ?? 1))
+}
 
 // PLUMB (C7 audit [STUDENT-C7][P1 LEARN-NAV]): the /chapter-test picker
 // speaks canonical subject keys (mathematics/chemistry/biology/…), so the
@@ -260,6 +269,16 @@ export default function LearnPage() {
           <p className="text-sm text-surface-600">
             {nodes.length} topics · {doneSet.size} cleared. Pick a card — or use the guide below.
           </p>
+          {/* P5 gap 2 wiring: /lesson (the classic subject-by-subject corpus
+              browser, same live content API) had no inbound link anywhere. */}
+          <Link
+            href="/lesson"
+            data-testid="lesson-browser-link"
+            className="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-gold-300 hover:text-gold-200"
+          >
+            <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
+            Prefer the classic list? Browse lessons subject-by-subject →
+          </Link>
         </motion.div>
 
         {/* ── Your path — ordered by learning value: memory decay first
@@ -304,7 +323,7 @@ export default function LearnPage() {
 
         {/* Subject + Class selectors */}
         <div className="flex flex-wrap items-center gap-3 mb-6">
-          {SUBJECTS.map((s) => {
+          {subjectsFor(classLevel || 10).map((s) => {
             const Icon = s.icon
             return (
               <button
@@ -330,7 +349,7 @@ export default function LearnPage() {
                 className="glass-card px-4 py-2 rounded-xl text-sm text-surface-600 hover:text-white inline-flex items-center gap-2"
                 aria-label="Take a chapter test"
               >
-                <BookOpenCheck className="w-4 h-4 text-sky-300" />
+                <BookOpenCheck className="w-4 h-4 text-gold-300" />
                 Chapter Test
               </Link>
             )}
@@ -406,7 +425,7 @@ export default function LearnPage() {
                   </div>
                   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
                     {chNodes.map((node) => {
-                      const subj = SUBJECTS.find((s) => s.key === node.subject)
+                      const subj = SUBJECTS_ALL.find((s) => s.key === node.subject)
                       const Icon = subj?.icon || BookOpen
                       const done = doneSet.has(node.node_id)
                       return (

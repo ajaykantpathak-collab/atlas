@@ -11,7 +11,7 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
     classLevel: 11, subject: 'accountancy', topic: 'Financial Statements: Meaning and Objectives',
     chapters: [],
     nodeIds: ['c11_acc_cbse_08_001', 'c11_acc_cbse_01_003', 'c11_acc_cbse_01_006', 'c11_acc_cbse_01_007', 'c11_acc_cbse_01_001', 'c11_acc_cbse_08_002', 'c11_acc_cbse_08_004', 'c11_acc_cbse_08_006', 'c11_acc_cbse_02_001', 'c11_acc_cbse_02_005', 'c11_acc_cbse_02_007', 'c11_acc_cbse_02_008', 'c11_acc_cbse_02_011', 'c11_acc_cbse_02_002', 'c11_acc_cbse_09_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small bakery in Delhi. At year-end, your father asks "Did we make money?" your bank manager.', goal: 'Master Financial Statements: Meaning and Objectives.' },
     discovery: {
         question: 'A student says: "Capital expenditure is any large amount spent; revenue expenditure is any small amount spent." Using the NCERT criteria (benefit period,.',
@@ -20,7 +20,7 @@ export const w_c11_accountancyaccountingstandardsmeaningsim: SimDef = {
         hook: 'Students believe "Capital Expenditure = Purchase of Fixed Assets only" and "Revenue Expenditure = All other expenses".',
     },
     teaching: [
-        { title: 'Financial statements are formal, structured.', text: 'Financial statements are formal, structured reports prepared at the end of an accounting period that communicate the financial performance (profit/loss) and financial position.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Financial statements are formal, structured.', text: 'Financial statements are formal, structured reports prepared at the end of an accounting period that communicate the financial performance (profit/loss) and financial position.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_acc_cbse_08_001', title: 'Financial statements are formal,.',

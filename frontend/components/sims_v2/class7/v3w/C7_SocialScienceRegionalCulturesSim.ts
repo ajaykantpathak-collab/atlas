@@ -11,11 +11,11 @@ export const w_c7_socialscienceregionalculturessim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Arab Invasions: Early Medieval Incursions',
     chapters: [],
     nodeIds: ['c7_hist_ch06_005', 'c7_hist_ch06_006', 'c7_hist_ch05_002', 'c7_hist_ch05_003', 'c7_hist_ch05_004', 'c7_hist_ch05_005', 'c7_hist_ch05_006', 'c7_hist_ch05_007', 'c7_hist_ch05_008', 'c7_hist_ch05_009', 'c7_hist_ch05_010', 'c7_hist_ch08_009', 'c7_geo_ch05_003', 'c7_geo_ch05_004', 'c7_geo_ch05_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine walking through the ruins of an old coastal trading port or looking at ancient navigation maps in a.', goal: 'Master Arab Invasions: Early Medieval Incursions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'This node examines the early medieval Arab.', text: 'This node examines the early medieval Arab incursions into the Indian subcontinent, specifically focusing on the 8th-century expedition led by Muhammad bin Qasim into Sindh and its localized.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'This node examines the early medieval Arab.', text: 'This node examines the early medieval Arab incursions into the Indian subcontinent, specifically focusing on the 8th-century expedition led by Muhammad bin Qasim into Sindh and its localized.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_hist_ch06_005', title: 'This node examines the early medieval.',

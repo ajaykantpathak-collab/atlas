@@ -10,7 +10,7 @@ export const c5EngDegrees: SimDef = {
     id: 'c5_eng_degrees', title: 'Big, Bigger, Biggest', subtitle: 'Degrees of comparison!',
     classLevel: 5, subject: 'english', topic: 'Degrees of Comparison',
     chapters: ['Marigold-5: degrees of comparison'],
-    emoji: '📏', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'degrees' },
+    emoji: '📏', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'degrees' },
     scenario: { role: "a comparison-expert", intro: "Big, bigger, biggest — degrees of comparison!", goal: "Compare correctly." },
     discovery: {
         question: "Is 'most big' correct - or do we say 'biggest'?",
@@ -19,7 +19,7 @@ export const c5EngDegrees: SimDef = {
         hook: "Degrees of comparison: big, bigger, biggest! Let's learn.",
     },
     teaching: [
-        { title: 'Three Degrees! 📏', text: 'Positive (tall), Comparative (taller), Superlative (tallest). Comparing one, two, or all!', emoji: '📏', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Three Degrees! 📏', text: 'Positive (tall), Comparative (taller), Superlative (tallest). Comparing one, two, or all!', emoji: '📏', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Add -er and -est ➕', text: 'Most words: tall → taller → tallest. Some change: good → better → best!', emoji: '➕', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'More and Most 🌟', text: 'Long words use more/most: beautiful → more beautiful → most beautiful!', emoji: '🌟', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -46,7 +46,7 @@ export const c5EngVoice: SimDef = {
     id: 'c5_eng_voice', title: 'Who Does It?', subtitle: 'Active and passive!',
     classLevel: 5, subject: 'english', topic: 'Active/Passive Voice',
     chapters: ['Marigold-5: active passive intro'],
-    emoji: '🎭', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'voice' },
+    emoji: '🎭', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'voice' },
     scenario: { role: "a voice-switcher", intro: "Active and passive — who leads the action?", goal: "Switch voice correctly." },
     discovery: {
         question: "'The cat chased the mouse' vs 'the mouse was chased' - same action, different order?",
@@ -55,8 +55,8 @@ export const c5EngVoice: SimDef = {
         hook: "Active puts the doer first, passive the receiver! Let's learn.",
     },
     teaching: [
-        { title: 'Who Does It? 🎭', text: 'Active: "The cat chased the mouse" — the cat DOES the action. Passive: "The mouse was chased" — it RECEIVES it!', emoji: '🎭', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Active = Doer First 1️⃣', text: 'In active voice, the doer comes first: "Riya baked a cake." Riya is doing!', emoji: '1️⃣', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Who Does It? 🎭', text: 'Active: "The cat chased the mouse" — the cat DOES the action. Passive: "The mouse was chased" — it RECEIVES it!', emoji: '🎭', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Active = Doer First 1️⃣', text: 'In active voice, the doer comes first: "Riya baked a cake." Riya is doing!', emoji: '1️⃣', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Passive = Receiver First 2️⃣', text: 'In passive, the receiver comes first: "The cake was baked by Riya." The cake receives!', emoji: '2️⃣', bgColor: 'from-emerald-400 to-teal-500' },
     ],
         explore: { widget: 'match', prompt: 'Match active to passive!', labels: ['Ram eats rice', 'Rice is eaten by Ram', 'Sita sings a song', 'A song is sung by Sita'] },
@@ -89,7 +89,7 @@ export const c5HinKriya: SimDef = {
     },
     teaching: [
         { title: 'क्रिया = काम का शब्द 🏃', text: 'Kriya = action words! दौड़ना (run), खाना (eat), पढ़ना (read) — words that show action!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'क्रिया बदलती है ⏳', text: 'Verbs change with time: खाता है (eats), खाया (ate), खाएगा (will eat) — kaal changes kriya!', emoji: '⏳', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'क्रिया बदलती है ⏳', text: 'Verbs change with time: खाता है (eats), खाया (ate), खाएगा (will eat) — kaal changes kriya!', emoji: '⏳', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'match', prompt: 'क्रिया मिलाओ!', labels: ['दौड़ना', 'run', 'खाना', 'eat', 'गाना', 'sing'] },
 challenges: [
@@ -121,7 +121,7 @@ export const c5HinParyay: SimDef = {
     },
     teaching: [
         { title: 'पर्यायवाची = समान अर्थ 🔀', text: 'Synonyms mean the same: आसमान = अम्बर = गगन (all mean sky)!', emoji: '🔀', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Many Words, One Meaning 🌊', text: 'जल = पानी = नीर (water). सूर्य = रवि = भानु (sun). Same thing, many names!', emoji: '🌊', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Many Words, One Meaning 🌊', text: 'जल = पानी = नीर (water). सूर्य = रवि = भानु (sun). Same thing, many names!', emoji: '🌊', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'match', prompt: 'पर्यायवाची मिलाओ!', labels: ['फूल', 'पुष्प', 'नदी', 'सरिता', 'चाँद', 'चंद्रमा'] },
 challenges: [
@@ -146,7 +146,7 @@ export const c5EngLetter: SimDef = {
     id: 'c5_eng_letter', title: 'Write a Letter', subtitle: 'Dear friend...',
     classLevel: 5, subject: 'english', topic: 'Letter Writing',
     chapters: ['Marigold-5: letter writing'],
-    emoji: '✉️', theme: { bg: 'from-sky-100 to-cyan-200', accent: 'sky', scene: 'letter' },
+    emoji: '✉️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'letter' },
     scenario: { role: "a letter-writer", intro: "A friendly letter connects hearts!", goal: "Write a great letter." },
     discovery: {
         question: "Can a letter make a friend feel loved from far away?",
@@ -155,7 +155,7 @@ export const c5EngLetter: SimDef = {
         hook: "A friendly letter has greeting, body, closing! Let's write one.",
     },
     teaching: [
-        { title: 'A Letter Has Parts! ✉️', text: 'A friendly letter has: greeting (Dear...), body (your message), and closing (Yours lovingly)!', emoji: '✉️', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'A Letter Has Parts! ✉️', text: 'A friendly letter has: greeting (Dear...), body (your message), and closing (Yours lovingly)!', emoji: '✉️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Start with Dear 💌', text: 'Begin with a greeting: "Dear Riya," — then write your news and questions!', emoji: '💌', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'End with Love ❤️', text: 'Close with "Yours lovingly" or "Your friend" and your name!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
     ],

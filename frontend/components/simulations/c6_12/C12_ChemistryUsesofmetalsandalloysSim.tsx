@@ -576,12 +576,12 @@ const AlloyLatticeCanvas: React.FC<{ selectedAlloy: AlloyData }> = ({ selectedAl
   return (
     <div className="flex flex-col items-center bg-slate-900/80 rounded-xl p-4 border border-slate-700/60 shadow-inner">
       <div className="text-xs font-semibold text-slate-300 mb-2 flex items-center gap-2">
-        <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+        <span className="w-2.5 h-2.5 rounded-full bg-gold-400 animate-pulse" />
         Crystal Lattice Slip Plane Simulation ({selectedAlloy.name})
       </div>
       <canvas ref={canvasRef} width={420} height={200} className="rounded-lg bg-slate-950 w-full max-w-[420px]" />
       <div className="mt-2 text-xs text-slate-400 text-center px-2">
-        <span className="text-cyan-300 font-medium">Lattice Strain Level:</span> {(selectedAlloy.latticeDistortion * 100).toFixed(0)}% — {selectedAlloy.keyProperty}
+        <span className="text-gold-300 font-medium">Lattice Strain Level:</span> {(selectedAlloy.latticeDistortion * 100).toFixed(0)}% — {selectedAlloy.keyProperty}
       </div>
     </div>
   );
@@ -596,7 +596,7 @@ const NitrogenPhosphorusCanvas: React.FC = () => {
       <div className="flex justify-center gap-2">
         <button
           onClick={() => setActiveTab('N2')}
-          className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${activeTab === 'N2' ? 'bg-sky-500 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
+          className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${activeTab === 'N2' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
         >
           Dinitrogen (N≡N)
         </button>
@@ -629,7 +629,7 @@ const NitrogenPhosphorusCanvas: React.FC = () => {
               <circle cx="150" cy="45" r="22" fill="#0284c7" stroke="#38bdf8" strokeWidth="2" />
               <text x="150" y="50" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle">N</text>
             </svg>
-            <span className="text-xs text-sky-300 font-medium">Bond Dissociation Enthalpy = 945 kJ/mol (Chemically Inert at 25°C)</span>
+            <span className="text-xs text-gold-300 font-medium">Bond Dissociation Enthalpy = 945 kJ/mol (Chemically Inert at 25°C)</span>
           </div>
         )}
 
@@ -695,7 +695,7 @@ const DBlockColorLab: React.FC = () => {
     <div className="bg-slate-900/90 rounded-xl p-4 border border-slate-700 flex flex-col gap-3">
       <div className="text-xs font-semibold text-slate-200 flex justify-between items-center">
         <span>d-Block Crystal Field & d-d Transition Visualizer</span>
-        <span className="text-xs text-cyan-400 font-mono">ISC Class 12 Core</span>
+        <span className="text-xs text-gold-400 font-mono">ISC Class 12 Core</span>
       </div>
 
       <div className="flex flex-wrap gap-2">
@@ -704,7 +704,7 @@ const DBlockColorLab: React.FC = () => {
             key={item.ion}
             onClick={() => setSelectedIonIndex(idx)}
             className={`px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1.5 ${
-              selectedIonIndex === idx ? 'bg-cyan-500 text-slate-950 shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              selectedIonIndex === idx ? 'bg-gold-500 text-slate-950 shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             <span className="w-2.5 h-2.5 rounded-full border border-white/40" style={{ backgroundColor: item.hex }} />
@@ -736,7 +736,7 @@ const DBlockColorLab: React.FC = () => {
 
         {/* Orbital Energy Splitting Info */}
         <div className="flex flex-col justify-center text-xs text-slate-300 gap-1.5">
-          <div><span className="text-slate-400 font-semibold">Valence d-Config:</span> <span className="font-mono text-cyan-300 font-bold">{ion.config}</span></div>
+          <div><span className="text-slate-400 font-semibold">Valence d-Config:</span> <span className="font-mono text-gold-300 font-bold">{ion.config}</span></div>
           <div><span className="text-slate-400 font-semibold">Paramagnetic:</span> <span className={ion.paramagnetic ? 'text-emerald-400 font-bold' : 'text-slate-400'}>{ion.paramagnetic ? 'Yes (Unpaired d-e⁻)' : 'No (Diamagnetic)'}</span></div>
           <div><span className="text-slate-400 font-semibold">Mechanism:</span> {ion.reason}</div>
         </div>
@@ -930,13 +930,13 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
   return (
     <div className="w-full min-h-screen bg-slate-950 text-slate-100 font-sans p-3 md:p-6 flex flex-col items-center justify-start relative overflow-x-hidden">
       {/* Background Visual Flair */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* TOP HUD BAR */}
       <header className="w-full max-w-5xl bg-slate-900/80 backdrop-blur-md rounded-2xl p-4 border border-slate-800 shadow-xl mb-6 flex flex-wrap items-center justify-between gap-4 z-10">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-black text-xl text-slate-950 shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-black text-xl text-slate-950 shadow-lg">
             ISC
           </div>
           <div>
@@ -951,25 +951,25 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
         <nav className="flex items-center bg-slate-950/80 rounded-xl p-1 border border-slate-800">
           <button
             onClick={() => { setMode('discovery'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'discovery' ? 'bg-cyan-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'discovery' ? 'bg-gold-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
           >
             Predict
           </button>
           <button
             onClick={() => { setMode('learn'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'learn' ? 'bg-cyan-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'learn' ? 'bg-gold-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
           >
             Learn
           </button>
           <button
             onClick={() => { setMode('lab'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'lab' ? 'bg-cyan-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'lab' ? 'bg-gold-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
           >
             Interactive Lab
           </button>
           <button
             onClick={() => { setMode('challenge'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'challenge' ? 'bg-cyan-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${mode === 'challenge' ? 'bg-gold-500 text-slate-950 shadow' : 'text-slate-400 hover:text-slate-200'}`}
           >
             Challenges ({currentChallengeIndex + 1}/{CHALLENGES.length})
           </button>
@@ -979,7 +979,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
         <div className="flex items-center gap-3">
           <div className="flex flex-col items-end">
             <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Mastery</span>
-            <span className="text-sm font-black text-cyan-400 font-mono">{overallMastery}%</span>
+            <span className="text-sm font-black text-gold-400 font-mono">{overallMastery}%</span>
           </div>
           <div className="flex flex-col items-end">
             <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Score</span>
@@ -998,7 +998,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
             className="bg-slate-900/90 rounded-2xl p-6 border border-slate-800 shadow-2xl flex flex-col gap-6"
           >
             <div className="border-b border-slate-800 pb-4">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Discovery Phase</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Discovery Phase</span>
               <h2 className="text-xl font-extrabold text-slate-100 mt-1">{DISCOVERY_QUESTION.title}</h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{DISCOVERY_QUESTION.question}</p>
             </div>
@@ -1011,12 +1011,12 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                   onClick={() => setDiscoveryChoice(idx)}
                   className={`p-4 rounded-xl border text-left text-sm font-medium transition flex items-center justify-between ${
                     discoveryChoice === idx
-                      ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 shadow-lg'
+                      ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-lg'
                       : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:bg-slate-800/60'
                   }`}
                 >
                   <span>{opt}</span>
-                  {discoveryChoice === idx && <span className="w-3 h-3 rounded-full bg-cyan-400 shadow-glow" />}
+                  {discoveryChoice === idx && <span className="w-3 h-3 rounded-full bg-gold-400 shadow-glow" />}
                 </button>
               ))}
             </div>
@@ -1025,7 +1025,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
               <button
                 disabled={discoveryChoice === null}
                 onClick={handleDiscoverySubmit}
-                className="w-full py-3.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 disabled:opacity-40 text-slate-950 font-black rounded-xl shadow-lg transition"
+                className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 disabled:opacity-40 text-slate-950 font-black rounded-xl shadow-lg transition"
               >
                 Submit Prediction
               </button>
@@ -1037,7 +1037,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                 <p className="text-xs text-slate-300 leading-relaxed">{DISCOVERY_QUESTION.explanation}</p>
                 <button
                   onClick={() => { setMode('learn'); audioManager.play('tap'); }}
-                  className="mt-2 py-2.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 text-xs font-bold rounded-lg transition self-end px-6"
+                  className="mt-2 py-2.5 bg-slate-800 hover:bg-slate-700 text-gold-300 text-xs font-bold rounded-lg transition self-end px-6"
                 >
                   Proceed to Visual Lessons →
                 </button>
@@ -1056,7 +1056,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
             {/* Slide Navigation Header */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                   Lesson {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <h2 className="text-xl font-extrabold text-slate-100 mt-0.5">
@@ -1075,7 +1075,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                 <button
                   disabled={currentSlideIndex === TEACHING_SLIDES.length - 1}
                   onClick={() => { setCurrentSlideIndex((s) => s + 1); audioManager.play('tap'); }}
-                  className="px-3 py-1.5 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-30 rounded-lg text-xs font-bold text-slate-950"
+                  className="px-3 py-1.5 bg-gold-500 hover:bg-gold-400 disabled:opacity-30 rounded-lg text-xs font-bold text-slate-950"
                 >
                   Next →
                 </button>
@@ -1092,7 +1092,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                         key={alloy.name}
                         onClick={() => setSelectedAlloyIndex(idx)}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                          selectedAlloyIndex === idx ? 'bg-cyan-500 text-slate-950 shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                          selectedAlloyIndex === idx ? 'bg-gold-500 text-slate-950 shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
                         {alloy.name}
@@ -1113,10 +1113,10 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
 
               {TEACHING_SLIDES[currentSlideIndex].visualType === 'chalcogen-halogen' && (
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col gap-3">
-                  <div className="text-xs font-bold text-cyan-300">Oxoacids Structure & Hybridisation Summary</div>
+                  <div className="text-xs font-bold text-gold-300">Oxoacids Structure & Hybridisation Summary</div>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-center text-xs">
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
-                      <div className="font-bold text-sky-400">HNO₃ (Nitric Acid)</div>
+                      <div className="font-bold text-gold-400">HNO₃ (Nitric Acid)</div>
                       <div className="text-[10px] text-slate-400 mt-1">Planar, Ostwald process</div>
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
@@ -1140,7 +1140,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {TEACHING_SLIDES[currentSlideIndex].contentBlocks.map((block, idx) => (
                 <div key={idx} className="p-4 bg-slate-950/70 rounded-xl border border-slate-800/80">
-                  <h3 className="text-sm font-bold text-cyan-300 mb-1.5">{block.heading}</h3>
+                  <h3 className="text-sm font-bold text-gold-300 mb-1.5">{block.heading}</h3>
                   <p className="text-xs text-slate-300 leading-relaxed whitespace-pre-line">{block.text}</p>
                 </div>
               ))}
@@ -1156,21 +1156,21 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
             className="bg-slate-900/90 rounded-2xl p-6 border border-slate-800 shadow-2xl flex flex-col gap-6"
           >
             <div className="border-b border-slate-800 pb-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Interactive Laboratory</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Interactive Laboratory</span>
               <h2 className="text-xl font-extrabold text-slate-100 mt-0.5">Explore Chemistry Systems Hands-On</h2>
             </div>
 
             <div className="grid grid-cols-1 gap-6">
               {/* Alloy Lattice Playground */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col gap-3">
-                <h3 className="text-sm font-bold text-cyan-300">1. Alloy Lattice Slip Plane Explorer</h3>
+                <h3 className="text-sm font-bold text-gold-300">1. Alloy Lattice Slip Plane Explorer</h3>
                 <div className="flex flex-wrap gap-2">
                   {ALLOYS_DATABASE.map((alloy, idx) => (
                     <button
                       key={alloy.name}
                       onClick={() => setSelectedAlloyIndex(idx)}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                        selectedAlloyIndex === idx ? 'bg-cyan-500 text-slate-950 shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                        selectedAlloyIndex === idx ? 'bg-gold-500 text-slate-950 shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                       }`}
                     >
                       {alloy.name}
@@ -1196,7 +1196,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
             {/* Challenge Header */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-lg font-extrabold text-slate-100 mt-0.5">
@@ -1231,7 +1231,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                     key={idx}
                     disabled={challengeFeedback !== null}
                     onClick={() => handleChallengeAnswer(idx)}
-                    className="p-4 rounded-xl border text-left text-sm font-medium transition bg-slate-950/60 border-slate-800 text-slate-200 hover:bg-slate-800/70 hover:border-cyan-500/50"
+                    className="p-4 rounded-xl border text-left text-sm font-medium transition bg-slate-950/60 border-slate-800 text-slate-200 hover:bg-slate-800/70 hover:border-gold-500/50"
                   >
                     {opt}
                   </button>
@@ -1241,17 +1241,17 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
 
             {CHALLENGES[currentChallengeIndex].type === 'interactive-matching' && (
               <div className="flex flex-col gap-3">
-                <p className="text-xs text-cyan-300 font-semibold">Match each process with its correct conditions:</p>
+                <p className="text-xs text-gold-300 font-semibold">Match each process with its correct conditions:</p>
                 {CHALLENGES[currentChallengeIndex].matchingPairs?.map((pair, idx) => (
                   <div key={idx} className="p-3 bg-slate-950 rounded-lg border border-slate-800 flex flex-col md:flex-row justify-between items-start md:items-center gap-2 text-xs">
-                    <span className="font-bold text-sky-400">{pair.left}</span>
+                    <span className="font-bold text-gold-400">{pair.left}</span>
                     <span className="text-slate-400 font-mono">⟶ {pair.right}</span>
                   </div>
                 ))}
                 <button
                   disabled={challengeFeedback !== null}
                   onClick={() => handleChallengeAnswer('matched')}
-                  className="mt-2 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs transition"
+                  className="mt-2 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-xs transition"
                 >
                   Confirm Matches
                 </button>
@@ -1283,7 +1283,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
             animate={{ opacity: 1, scale: 1 }}
             className="bg-slate-900/90 rounded-2xl p-6 border border-slate-800 shadow-2xl flex flex-col items-center text-center gap-6"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-600 flex items-center justify-center text-2xl text-slate-950 font-black shadow-lg">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-gold-400 to-gold-600 flex items-center justify-center text-2xl text-slate-950 font-black shadow-lg">
               🏆
             </div>
 
@@ -1300,7 +1300,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">Overall Mastery</span>
-                <span className="text-2xl font-black text-cyan-400 mt-1 font-mono">{overallMastery}%</span>
+                <span className="text-2xl font-black text-gold-400 mt-1 font-mono">{overallMastery}%</span>
               </div>
             </div>
 
@@ -1313,7 +1313,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                   return (
                     <div key={nodeId} className="flex justify-between items-center p-2 bg-slate-900 rounded border border-slate-800">
                       <span className="font-mono text-slate-400">{nodeId}</span>
-                      <span className="font-bold text-cyan-300">{mLevel}% Mastery</span>
+                      <span className="font-bold text-gold-300">{mLevel}% Mastery</span>
                     </div>
                   );
                 })}
@@ -1329,7 +1329,7 @@ export const C12_ChemistryUsesofmetalsandalloysSim: React.FC<{
                 setDiscoveryChoice(null);
                 setScore(0);
               }}
-              className="py-3 px-8 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black text-xs rounded-xl shadow-lg transition"
+              className="py-3 px-8 bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-xs rounded-xl shadow-lg transition"
             >
               Restart Simulation 🔄
             </button>

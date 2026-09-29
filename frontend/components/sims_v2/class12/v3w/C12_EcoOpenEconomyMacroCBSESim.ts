@@ -11,7 +11,7 @@ export const w_c12_ecoopeneconomymacrocbsesim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Microeconomics and Macroeconomics: Distinction and Scope',
     chapters: [],
     nodeIds: ['c12_eco_cbse_01_006', 'c12_eco_cbse_09_005', 'c12_eco_cbse_09_007', 'c12_eco_cbse_09_010', 'c12_eco_cbse_01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are reading two headlines: "Onion prices in Delhi mandis hit ₹80/kg due to crop failure" and.', goal: 'Master Microeconomics and Macroeconomics: Distinction and Scope.' },
     discovery: {
         question: 'Explain why the Great Depression of 1929 led to the birth of macroeconomics as a separate branch of economics.',
@@ -20,7 +20,7 @@ export const w_c12_ecoopeneconomymacrocbsesim: SimDef = {
         hook: 'Students often think the distinction between micro and macro is merely about "small vs.',
     },
     teaching: [
-        { title: 'Microeconomics studies the behaviour of.', text: 'Microeconomics studies the behaviour of individual economic agents — households and firms — and the determination of prices and quantities in specific markets, taking aggregate variables as given.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Microeconomics studies the behaviour of.', text: 'Microeconomics studies the behaviour of individual economic agents — households and firms — and the determination of prices and quantities in specific markets, taking aggregate variables as given.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_01_006', title: 'Microeconomics studies the behaviour of.',

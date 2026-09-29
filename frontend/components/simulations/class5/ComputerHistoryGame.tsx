@@ -373,14 +373,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Mechanical & Electromechanical Giants! ⚙️",
     text: "Charles Babbage designed the Difference Engine and the Analytical Engine. The Analytical Engine had input, processing, storage, and output — making Babbage the Father of the Computer! Herman Hollerith built the Tabulating Machine using punched cards.",
     emoji: "⚙️",
-    bgColor: "from-blue-700 to-indigo-800",
+    bgColor: "from-gold-700 to-gold-800",
     spoken: "Charles Babbage designed the Difference and Analytical Engines, earning the title Father of the Computer. Herman Hollerith built the Tabulating Machine with punched cards.",
   },
   {
     title: "Generations of Computers — 1st & 2nd! ⚡",
     text: "First generation computers (1940s-1950s) used glowing vacuum tubes like ENIAC; they were huge and hot! Second generation (1950s-1960s) replaced tubes with tiny, reliable transistors.",
     emoji: "⚡",
-    bgColor: "from-purple-700 to-indigo-900",
+    bgColor: "from-purple-700 to-gold-900",
     spoken: "First generation computers used large vacuum tubes like ENIAC. Second generation replaced tubes with tiny, reliable transistors.",
   },
   {
@@ -394,7 +394,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Characteristics & Limitations! 🌟",
     text: "Computers have amazing characteristics: Speed, Accuracy, Storage, Diligence, and Versatility! However, they have limitations: they have no IQ, no feelings, and depend entirely on human instructions and electricity.",
     emoji: "🌟",
-    bgColor: "from-sky-700 to-blue-900",
+    bgColor: "from-gold-700 to-gold-900",
     spoken: "Computers have speed, accuracy, storage, diligence, and versatility. But they have limitations: no IQ, no feelings, and dependence on human instructions.",
   },
 ];
@@ -712,7 +712,7 @@ export function ComputerHistoryGame({ width = 720, height = 560, onComplete }: C
   };
 
   return (
-    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-slate-900 border-4 border-indigo-500" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-slate-900 border-4 border-gold-500" style={{ width, height }}>
       <MuseumSceneBackground width={width} height={height} />
       <ProfessorPranav mood={mascotMood} speaking={speakingText} />
 
@@ -728,7 +728,7 @@ export function ComputerHistoryGame({ width = 720, height = 560, onComplete }: C
           </div>
           {screen === 'play' && (
             <div className="flex items-center gap-1 bg-slate-800 px-3 py-1 rounded-full border border-slate-600">
-              <span className="text-cyan-400 font-bold text-xs">Q {challengeIdx + 1}/8</span>
+              <span className="text-gold-400 font-bold text-xs">Q {challengeIdx + 1}/8</span>
             </div>
           )}
           <StarRow count={Math.floor(score / 20)} total={5} />

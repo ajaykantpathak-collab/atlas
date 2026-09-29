@@ -11,7 +11,7 @@ export const w_c11_physicsheattransferradiationsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Calorimetry: Principle and Method',
     chapters: [],
     nodeIds: ['c11_phy_cbse_10_008', 'c11_phy_cbse_10_011', 'c11_phy_cbse_10_014', 'c11_phy_cbse_10_015', 'c11_phy_cbse_10_001', 'c11_phy_cbse_10_013', 'c11_phy_cbse_10_012', 'c11_phy_cbse_10_002', 'c11_phy_cbse_07_014', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_011', 'c11_phy_cbse_10_003', 'c11_phy_cbse_10_005', 'c11_phy_cbse_10_006', 'c11_phy_cbse_10_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine placing a hot samosa on a cold plate – the samosa cools while the plate warms until both reach the.', goal: 'Master Calorimetry: Principle and Method.' },
     discovery: {
         question: 'In a calorimetry experiment to find the specific heat of a metal, a student forgets to dry the metal block after removing it from boiling water.',
@@ -20,7 +20,7 @@ export const w_c11_physicsheattransferradiationsim: SimDef = {
         hook: 'Students believe the calorimeter\'s "water equivalent" is a physical mass of water that can be poured in.',
     },
     teaching: [
-        { title: 'Calorimetry is the experimental technique of.', text: 'Calorimetry is the experimental technique of measuring heat transfer between bodies in an isolated system based on the principle of conservation of energy: the total heat lost by hotter bodies equals.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Calorimetry is the experimental technique of.', text: 'Calorimetry is the experimental technique of measuring heat transfer between bodies in an isolated system based on the principle of conservation of energy: the total heat lost by hotter bodies equals.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_10_008', title: 'Calorimetry is the experimental.',

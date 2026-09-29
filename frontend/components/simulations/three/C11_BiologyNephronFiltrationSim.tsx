@@ -141,7 +141,7 @@ export default function C11_BiologyNephronFiltrationSim() {
           <div className="font-display text-xs font-bold text-white">Renal balance — live</div>
           <div className="mt-2 space-y-1 text-[11px] text-surface-300">
             {row('RPF', `${rpf} mL/min`)}
-            {row('GFR', `${gfr} mL/min`, 'text-cyan-300')}
+            {row('GFR', `${gfr} mL/min`, 'text-gold-300')}
             {row('FF = GFR/RPF', `${m.ff.toFixed(1)} % (normal ≈ 19–20)`, 'text-gold-300')}
             {row('plasma glucose', `${glucose} mg/dL`)}
             {row('filtered load = GFR×P/100', `${m.load.toFixed(0)} mg/min`, 'text-gold-300')}

@@ -1080,7 +1080,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
     if (sanctionLevel < 40 && coherenceLevel < 40) {
       return { name: 'Superstition / Irrational Fear', color: 'text-amber-400', desc: 'Fragmented notion without theological grounding or empirical evidence (e.g. eclipse causing deformity).' };
     }
-    return { name: 'Folkway / Secular Social Custom', color: 'text-cyan-400', desc: 'Conventional societal habit with mild informal approval/disapproval.' };
+    return { name: 'Folkway / Secular Social Custom', color: 'text-gold-400', desc: 'Conventional societal habit with mild informal approval/disapproval.' };
   }, [sacredLevel, sanctionLevel, coherenceLevel]);
 
   const swiddenHealth = useMemo(() => {
@@ -1527,7 +1527,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                   <td className="p-2.5">Law of Karma / Monotheism</td>
                 </tr>
                 <tr className="hover:bg-slate-800/40">
-                  <td className="p-2.5 font-bold text-indigo-400">Prescribed Ritual</td>
+                  <td className="p-2.5 font-bold text-gold-400">Prescribed Ritual</td>
                   <td className="p-2.5">Physical enactment of belief</td>
                   <td className="p-2.5">Collective peer participation</td>
                   <td className="p-2.5">Generates Collective Effervescence</td>
@@ -1556,7 +1556,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
           <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
             <p className="text-xs text-slate-300">Representation C: Causal Sociological Control Equation.</p>
             <div className="flex flex-wrap items-center justify-center gap-2 text-xs md:text-sm font-black text-center">
-              <span className="px-3 py-1.5 bg-indigo-950 text-indigo-300 rounded-lg border border-indigo-800">
+              <span className="px-3 py-1.5 bg-gold-950 text-gold-300 rounded-lg border border-gold-800">
                 Cognitive Belief (Cosmology)
               </span>
               <span className="text-purple-400 text-base">+</span>
@@ -1583,15 +1583,15 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Scenario Banner */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-purple-950/50 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-inner">
-            <div className="flex items-center gap-2 text-indigo-300 text-xs font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-purple-950/50 to-slate-900 rounded-2xl border border-gold-700/40 shadow-inner">
+            <div className="flex items-center gap-2 text-gold-300 text-xs font-bold uppercase tracking-wider mb-2">
               <span>📖 Fieldwork Ethnography</span>
               <span>•</span>
               <span>{SCENARIO.title}</span>
             </div>
             <h2 className="text-xl md:text-2xl font-black text-white">{SCENARIO.intro}</h2>
             <p className="text-sm text-slate-300 mt-3 leading-relaxed">{SCENARIO.context}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-200">
               🎯 <span className="font-semibold text-white">Your Sociological Mission:</span> {SCENARIO.goal}
             </div>
           </div>
@@ -1634,7 +1634,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl font-bold text-sm shadow-lg flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Sociology Labs →
                 </motion.button>
@@ -1825,8 +1825,8 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-700/60">
-                      <p className="text-xs text-indigo-300 uppercase font-bold tracking-wider mb-1">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-700/60">
+                      <p className="text-xs text-gold-300 uppercase font-bold tracking-wider mb-1">
                         Predict-Then-Check (Brilliant.org Step)
                       </p>
                       <p className="text-sm text-white font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1901,7 +1901,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                         onClick={() => handleTribeRegionSelect(r.id as 'naga' | 'baiga' | 'khond' | 'bastar' | 'toda' | 'chotanagpur')}
                         className={`p-2 rounded-lg text-xs font-bold border transition-all ${
                           selectedTribeRegion === r.id
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-950 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1945,7 +1945,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                           setMonetisationLevel(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1965,7 +1965,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-center">
                       <span className="text-[11px] text-slate-400 font-bold uppercase">Cash Wage Economy Share</span>
-                      <div className="text-xl font-black text-cyan-400 mt-1">₹ {jajmaniDecayIndex.cashShare * 100}</div>
+                      <div className="text-xl font-black text-gold-400 mt-1">₹ {jajmaniDecayIndex.cashShare * 100}</div>
                       <span className="text-[10px] text-slate-500">Impersonal market payments</span>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-center">
@@ -2178,7 +2178,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
             {sandboxTab === 'tribal' && (
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-sm font-bold text-indigo-300">Tribal Agro-Ecology Simulation</h4>
+                  <h4 className="text-sm font-bold text-gold-300">Tribal Agro-Ecology Simulation</h4>
                   <span className="text-xs font-bold" style={{ color: swiddenHealth.color }}>
                     Status: {swiddenHealth.status}
                   </span>
@@ -2188,11 +2188,11 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                   <input type="range" min={1} max={18} value={fallowYears} onChange={e => setFallowYears(Number(e.target.value))} className="w-full accent-emerald-500" />
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-                  <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-indigo-400 font-bold">Jhum:</span> Naga Hills</div>
+                  <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-gold-400 font-bold">Jhum:</span> Naga Hills</div>
                   <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-emerald-400 font-bold">Bewar:</span> Baiga (MP)</div>
                   <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-amber-400 font-bold">Podu:</span> Khond (Odisha)</div>
                   <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-rose-400 font-bold">Penda:</span> Maria Gond (Bastar)</div>
-                  <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-cyan-400 font-bold">Dahi/Koman:</span> Bhuiya</div>
+                  <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-gold-400 font-bold">Dahi/Koman:</span> Bhuiya</div>
                   <div className="p-2 bg-slate-950 rounded text-xs"><span className="text-purple-400 font-bold">Transhumance:</span> Toda / Bakarwal</div>
                 </div>
               </div>
@@ -2208,11 +2208,11 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                   </div>
                   <div>
                     <span className="text-xs text-slate-400">Urban Wage Monetisation: {monetisationLevel}%</span>
-                    <input type="range" min={0} max={100} value={monetisationLevel} onChange={e => setMonetisationLevel(Number(e.target.value))} className="w-full accent-cyan-500" />
+                    <input type="range" min={0} max={100} value={monetisationLevel} onChange={e => setMonetisationLevel(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                 </div>
                 <div className="p-3 bg-slate-950 rounded text-xs text-slate-300">
-                  Kamin shares: <span className="text-amber-400 font-bold">{jajmaniDecayIndex.kaminShare} bags</span> • Monetised market wages: <span className="text-cyan-400 font-bold">₹ {jajmaniDecayIndex.cashShare * 100}</span> • Traditional Cohesion Index: <span className="text-purple-400 font-bold">{jajmaniDecayIndex.traditionalCohesion}%</span>
+                  Kamin shares: <span className="text-amber-400 font-bold">{jajmaniDecayIndex.kaminShare} bags</span> • Monetised market wages: <span className="text-gold-400 font-bold">₹ {jajmaniDecayIndex.cashShare * 100}</span> • Traditional Cohesion Index: <span className="text-purple-400 font-bold">{jajmaniDecayIndex.traditionalCohesion}%</span>
                 </div>
               </div>
             )}
@@ -2262,7 +2262,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                     ? 'bg-emerald-950/80 text-emerald-400 border border-emerald-800'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 text-rose-400 border border-rose-800'
-                    : 'bg-indigo-950/80 text-indigo-400 border border-indigo-800'
+                    : 'bg-gold-950/80 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty}
@@ -2273,19 +2273,19 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-purple-500 via-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-purple-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
           {/* Scenario Context (if present) */}
           {challenge.scenarioContext && (
-            <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-900/50 text-xs md:text-sm text-indigo-200 leading-relaxed">
+            <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/30 rounded-xl border border-gold-900/50 text-xs md:text-sm text-gold-200 leading-relaxed">
               📌 <span className="font-bold text-white">Case Study Context:</span> {challenge.scenarioContext}
             </motion.div>
           )}
@@ -2329,7 +2329,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
-                    className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
+                    className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
                   >
                     {item.label}
                   </motion.div>
@@ -2449,7 +2449,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
                       setConstructParts(prev => [...prev, part]);
                       audioManager.play('tap');
                     }}
-                    className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-lg text-white text-xs font-bold"
+                    className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-lg text-white text-xs font-bold"
                   >
                     + {part}
                   </motion.button>
@@ -2495,7 +2495,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 to-purple-950/60 border border-purple-800/80 rounded-2xl space-y-4"
+              className="p-5 bg-gradient-to-br from-gold-950/60 to-purple-950/60 border border-purple-800/80 rounded-2xl space-y-4"
             >
               <div className="flex items-center justify-between">
                 <h4 className="text-xs md:text-sm font-black text-purple-300 uppercase tracking-wide">
@@ -2558,7 +2558,7 @@ function C12_SociologyBeliefsRitualsSuperstitionsSim({
       {phase === 'complete' && (
         <motion.section initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Summary Banner */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-purple-950 to-slate-900 rounded-3xl border border-purple-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-purple-950 to-slate-900 rounded-3xl border border-purple-700/60 text-center space-y-3">
             <div className="w-16 h-16 mx-auto rounded-2xl bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center text-3xl">
               🎓
             </div>

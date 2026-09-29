@@ -51,7 +51,7 @@ export function C12_SociologyGlobalisationSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Globalisation: One Town, Three Fortunes</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Globalisation: One Town, Three Fortunes</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -138,9 +138,9 @@ export function C12_SociologyGlobalisationSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Global integration of your town</span>
-            <span className="font-mono font-bold text-sky-300">{integration}%</span>
+            <span className="font-mono font-bold text-gold-300">{integration}%</span>
           </label>
-          <input type="range" aria-label="integration" min={0} max={100} step={5} value={integration} onChange={(e) => setIntegration(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="integration" min={0} max={100} step={5} value={integration} onChange={(e) => setIntegration(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 flex items-end gap-2">
           <div className="flex-1">
@@ -150,7 +150,7 @@ export function C12_SociologyGlobalisationSim() {
                 <button
                   key={w}
                   onClick={() => setWorker(w)}
-                  className={`flex-1 min-h-11 rounded-xl text-[11px] font-semibold capitalize border ${worker === w ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                  className={`flex-1 min-h-11 rounded-xl text-[11px] font-semibold capitalize border ${worker === w ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
                 >
                   {w}
                 </button>
@@ -164,7 +164,7 @@ export function C12_SociologyGlobalisationSim() {
       </div>
 
       <div className="flex flex-wrap gap-2 mt-4">
-        <button onClick={() => setIntegration(90)} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={() => setIntegration(90)} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Throw the town open (1991-style reforms)
         </button>
         <button onClick={reset} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -172,8 +172,8 @@ export function C12_SociologyGlobalisationSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Set integration to 90%. Check all three shoes. Who is the clear winner, who is the clear loser -- and what single number decides it?</li>
           <li>As the unskilled worker at 90% integration, compare the tariff wall UP vs DOWN. Protection helps security -- what does it cost the skilled worker?</li>

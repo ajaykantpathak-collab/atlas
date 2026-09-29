@@ -62,9 +62,9 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700">⚖️</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">⚖️</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 10 Civics -- Power Sharing</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Civics -- Power Sharing</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Majoritarianism vs Consociational Arithmetic</h1>
         </div>
       </div>
@@ -82,8 +82,8 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
                 <span className="text-[10px] text-slate-400 mt-1">Community A (majority)</span>
               </div>
               <div className="flex-1 flex flex-col items-center justify-end h-full">
-                <span className="text-[11px] font-mono text-sky-300 mb-1">{groupB}%</span>
-                <div className="w-full bg-sky-500/80 rounded-t-lg border border-sky-600" style={{ height: `${groupB}%` }} />
+                <span className="text-[11px] font-mono text-gold-300 mb-1">{groupB}%</span>
+                <div className="w-full bg-gold-500/80 rounded-t-lg border border-gold-600" style={{ height: `${groupB}%` }} />
                 <span className="text-[10px] text-slate-400 mt-1">Community B (minority)</span>
               </div>
             </div>
@@ -102,7 +102,7 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
             <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Seats won under the chosen rule (100-seat parliament)</p>
             <div className="h-10 w-full rounded-xl overflow-hidden flex border border-slate-700">
               <div className="bg-amber-500 flex items-center justify-center text-xs font-black text-slate-950" style={{ width: `${seatA}%` }}>{seatA}</div>
-              <div className="bg-sky-500 flex items-center justify-center text-xs font-black text-slate-950" style={{ width: `${seatB}%` }}>{seatB}</div>
+              <div className="bg-gold-500 flex items-center justify-center text-xs font-black text-slate-950" style={{ width: `${seatB}%` }}>{seatB}</div>
             </div>
             <div className="grid grid-cols-3 gap-2 mt-3">
               <button onClick={() => setRule('majoritarian')}
@@ -114,7 +114,7 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
                 Consociational (Belgium style)
               </button>
               <button onClick={() => setRule('federal')}
-                className={`py-2 rounded-xl text-[11px] font-bold ${rule === 'federal' ? 'bg-indigo-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-[11px] font-bold ${rule === 'federal' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Federal equal units
               </button>
             </div>
@@ -131,14 +131,14 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
             )}
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-cyan-800/60 p-4 space-y-2">
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 space-y-2">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Capital-city minority share (Brussels: French-speaking {capitalMinority}%)</span>
-                <span className="font-mono text-cyan-300">{capitalMinority}%</span>
+                <span className="font-mono text-gold-300">{capitalMinority}%</span>
               </div>
               <input type="range" min={50} max={95} value={capitalMinority} aria-label="capital minority share"
-                onChange={(e) => setCapitalMinority(Number(e.target.value))} className="w-full accent-cyan-500" />
+                onChange={(e) => setCapitalMinority(Number(e.target.value))} className="w-full accent-gold-500" />
               <p className="text-[10px] text-slate-500">Brussels puzzle: Dutch-majority country, French-majority capital -- solved by a separate Brussels government with TWO communities as equal partners.</p>
             </div>
             <div className="flex items-center gap-4 bg-slate-950 rounded-xl p-3 border border-slate-800">
@@ -167,11 +167,11 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
               </button>
             </div>
             <div className="text-xs text-slate-300 leading-relaxed">
-              <p className="font-bold text-cyan-300 mb-1">Prudential vs Moral reasons for power sharing</p>
+              <p className="font-bold text-gold-300 mb-1">Prudential vs Moral reasons for power sharing</p>
               <p className="text-slate-400 text-[11px]">PRUDENTIAL: it reduces conflict -- power shared is stability bought (Belgium avoided Sri Lanka's civil war). MORAL: it is the very spirit of democracy -- people are affected by decisions, so they must govern through legitimate institutions.</p>
             </div>
             <div className="text-xs text-slate-300 leading-relaxed">
-              <p className="font-bold text-cyan-300 mb-1">Four forms of power sharing</p>
+              <p className="font-bold text-gold-300 mb-1">Four forms of power sharing</p>
               <ol className="text-slate-400 text-[11px] list-decimal pl-4 space-y-0.5">
                 <li>Horizontal: legislature, executive, judiciary check each other (legal/constitutional)</li>
                 <li>Vertical: levels of government -- union, state, local (people elect each level)</li>
@@ -179,7 +179,7 @@ export function C10_CivicsPowerSharingBelgiumSriLankaSim() {
                 <li>Parties & pressure groups: competition, coalitions, interest sharing</li>
               </ol>
             </div>
-            <div className="p-3 rounded-xl bg-cyan-950/40 border border-cyan-800/60 text-[11px] text-cyan-200 leading-relaxed">
+            <div className="p-3 rounded-xl bg-gold-950/40 border border-gold-800/60 text-[11px] text-gold-200 leading-relaxed">
               <span className="font-bold">Misconception killer:</span> &quot;Power sharing weakens the nation.&quot; The computed tension index shows the opposite -- the MAJORITARIAN route maximises one group's seats while pushing tension toward civil war (Sri Lanka, 1983-2009), while the consociational route costs the majority a few seats and buys decades of peace (Belgium). Prudential arithmetic: ~93 seats + 90 tension, or ~59 seats + ~10 tension.
             </div>
           </div>

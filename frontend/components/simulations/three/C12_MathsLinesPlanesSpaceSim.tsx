@@ -214,8 +214,8 @@ export default function C12_MathsLinesPlanesSpaceSim() {
             ))}
           </div>
         </div>
-        <div className="rounded-xl border border-cyan-400/20 bg-cyan-500/[0.04] p-4">
-          <div className="font-display text-xs font-bold text-cyan-300">PLANE + PROBE POINT Q</div>
+        <div className="rounded-xl border border-gold-400/20 bg-gold-500/[0.04] p-4">
+          <div className="font-display text-xs font-bold text-gold-300">PLANE + PROBE POINT Q</div>
           <div className="mt-2 grid grid-cols-2 gap-x-4">
             {slider('a', pa, -2, 2, setPa)}
             {slider('b', pb, -2, 2, setPb)}

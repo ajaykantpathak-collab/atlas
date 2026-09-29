@@ -11,7 +11,7 @@ export const w_c7_mathematicsunderstandingpercentagefractionsim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Tenth Part: Understanding 1/10 as a Decimal',
     chapters: [],
     nodeIds: ['c7_math_ch03_002', 'c7_math_ch01_001', 'c7_math_ch01_004', 'c7_math_ch01_005', 'c7_math_ch01_010', 'c7_math_ch01_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a stationery shop to buy a pencil, and the shopkeeper tells you it costs one rupee, but you.', goal: 'Master Tenth Part: Understanding 1/10 as a Decimal.' },
     discovery: {
         question: 'What is the place value of the digit 7 in the number $4,73,52,100$ according to the Indian numbering system?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsunderstandingpercentagefractionsim: SimDef = {
         hook: 'Students often write 8-digit numbers by inserting zeros incorrectly when a period is empty.',
     },
     teaching: [
-        { title: 'The tenth part represents one of ten equal.', text: 'The tenth part represents one of ten equal parts of a whole unit, expressed as the fraction $\\frac{1}{10}$ or as the decimal number $0.1$.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The tenth part represents one of ten equal.', text: 'The tenth part represents one of ten equal parts of a whole unit, expressed as the fraction $\\frac{1}{10}$ or as the decimal number $0.1$.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch03_002', title: 'The tenth part represents one of ten.',

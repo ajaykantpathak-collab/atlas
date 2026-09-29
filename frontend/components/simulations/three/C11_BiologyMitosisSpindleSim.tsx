@@ -202,7 +202,7 @@ export default function C11_BiologyMitosisSpindleSim() {
             {row('pole-to-pole D', `${D.toFixed(1)} µm`)}
             {row('kinetochore speed v', `${v.toFixed(2)} µm/min`, 'text-gold-300')}
             {row('anaphase clock t', `${m.t.toFixed(1)} min`)}
-            {row('displacement x = v·t', `${(Math.min(0.6 + v * m.t, D / 2 - 0.4) - 0.6).toFixed(2)} µm`, 'text-cyan-300')}
+            {row('displacement x = v·t', `${(Math.min(0.6 + v * m.t, D / 2 - 0.4) - 0.6).toFixed(2)} µm`, 'text-gold-300')}
             {row('distance to pole', `${m.toPole.toFixed(2)} µm`)}
             {row('ETA = Δx/v', `${m.eta.toFixed(1)} min`, 'text-gold-300')}
             {row('segregation progress', `${m.progress.toFixed(0)}%`)}

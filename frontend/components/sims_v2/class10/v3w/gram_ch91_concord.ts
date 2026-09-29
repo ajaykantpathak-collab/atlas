@@ -29,7 +29,7 @@ export const c10_gram_ch91: SimDef = {
     },
     teaching: [
         { title: 'The head rule', text: 'Agreement is decided by the HEAD of the subject phrase. Everything inside an of-/with-/as-well-as-phrase is camouflage.', emoji: '🎯', bgColor: 'from-emerald-500 to-teal-600' },
-        { title: 'The three traps', text: 'Decoy phrases, indefinite pronouns with fixed number, and collectives that flip by meaning — unit or members?', emoji: '🪤', bgColor: 'from-teal-500 to-cyan-600' },
+        { title: 'The three traps', text: 'Decoy phrases, indefinite pronouns with fixed number, and collectives that flip by meaning — unit or members?', emoji: '🪤', bgColor: 'from-teal-500 to-gold-600' },
     ],
 
     beats: [

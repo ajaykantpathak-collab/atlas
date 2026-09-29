@@ -1149,7 +1149,7 @@ const EquilibriumSimulationCanvas: React.FC<{
       <canvas ref={canvasRef} width={480} height={220} className="w-full h-auto block" />
       <div className="absolute top-2 right-2 bg-slate-900/90 backdrop-blur border border-slate-700 rounded-lg p-2 text-xs text-slate-200">
         <div>Yield SO₃: <span className="font-bold text-amber-400">{calculateYield().toFixed(1)}%</span></div>
-        <div>Temp: <span className="font-bold text-cyan-400">{temperature}°C</span></div>
+        <div>Temp: <span className="font-bold text-gold-400">{temperature}°C</span></div>
         <div>Press: <span className="font-bold text-emerald-400">{pressure} atm</span></div>
       </div>
     </div>
@@ -1509,7 +1509,7 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
 
           {/* PREDICTION QUESTIONS RENDERING */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-            <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-widest">
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-widest">
               Lab Predictions & Hypotheses
             </h3>
             {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1527,7 +1527,7 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
                       }}
                       className={`p-2.5 rounded-lg text-xs text-left border ${
                         predAnswers[pIdx] === oIdx
-                          ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                           : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1547,12 +1547,12 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
                     }
                   }}
                   disabled={predAnswers[pIdx] === null}
-                  className="px-4 py-1.5 rounded-lg bg-cyan-600 text-slate-950 text-xs font-bold hover:bg-cyan-500 disabled:opacity-40"
+                  className="px-4 py-1.5 rounded-lg bg-gold-600 text-slate-950 text-xs font-bold hover:bg-gold-500 disabled:opacity-40"
                 >
                   Confirm Prediction {pIdx + 1}
                 </button>
                 {predSubmitted[pIdx] && (
-                  <p className="text-[11px] text-cyan-300 bg-cyan-950/40 p-2 rounded-lg border border-cyan-800/40">
+                  <p className="text-[11px] text-gold-300 bg-gold-950/40 p-2 rounded-lg border border-gold-800/40">
                     🔍 Verification Method: {pred.verifyInstruction}
                   </p>
                 )}
@@ -1677,17 +1677,17 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
                   <div className="mb-4">
                     <div className="flex justify-between text-xs font-bold mb-1">
                       <span className="text-slate-300">Pressure (atm):</span>
-                      <span className="text-cyan-400">{reactorPress} atm</span>
+                      <span className="text-gold-400">{reactorPress} atm</span>
                     </div>
                     <input
                       type="range" min="0.5" max="10" step="0.5"
                       value={reactorPress}
                       onChange={(e) => { setReactorPress(Number(e.target.value)); playSound('tap'); }}
-                      className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                       <span>0.5 atm</span>
-                      <span className="text-cyan-400 font-bold">1–2 atm Optimum</span>
+                      <span className="text-gold-400 font-bold">1–2 atm Optimum</span>
                       <span>10 atm</span>
                     </div>
                   </div>
@@ -1863,7 +1863,7 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
                     <button
                       onClick={() => { setPrepAcidType('HCl'); playSound('tap'); }}
                       className={`flex-1 py-2 rounded-lg text-xs font-bold border transition-all ${
-                        prepAcidType === 'HCl' ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300' : 'bg-slate-950 border-slate-800 text-slate-400'
+                        prepAcidType === 'HCl' ? 'bg-gold-500/20 border-gold-500 text-gold-300' : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
                       Prepare HCl Gas (from NaCl)
@@ -1964,7 +1964,7 @@ export const C10_ChemistrySulphuricacidContactprocessSim: React.FC<ComponentProp
             <div>
               <span className={`text-xs font-extrabold uppercase px-2 py-1 rounded-md mr-2 ${
                 currentChallenge.difficulty === 'foundation'
-                  ? 'bg-blue-900/60 text-blue-300 border border-blue-700'
+                  ? 'bg-gold-900/60 text-gold-300 border border-gold-700'
                   : currentChallenge.difficulty === 'standard'
                   ? 'bg-amber-900/60 text-amber-300 border border-amber-700'
                   : 'bg-purple-900/60 text-purple-300 border border-purple-700'

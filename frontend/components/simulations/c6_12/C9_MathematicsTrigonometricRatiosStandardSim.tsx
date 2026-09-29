@@ -731,7 +731,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
     } else if (errors <= 3) {
       days = 3;
       label = 'Solid Foundation — Reinforce Soon';
-      colorClass = 'text-sky-400 bg-sky-950/70 border-sky-800';
+      colorClass = 'text-gold-400 bg-gold-950/70 border-gold-800';
       progressPct = 70;
     }
 
@@ -1098,7 +1098,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
         <motion.div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1106,7 +1106,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
             <div className="flex items-center gap-2">
               <motion.span
                 whileHover={{ scale: 1.05 }}
-                className="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2.5 py-0.5 rounded-full border border-indigo-800"
+                className="text-xs font-semibold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2.5 py-0.5 rounded-full border border-gold-800"
               >
                 ICSE Class 9 Mathematics
               </motion.span>
@@ -1124,7 +1124,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
               whileHover={{ scale: 1.05 }}
               className={`text-xs px-3 py-1 rounded-xl font-medium capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30 font-bold'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 font-bold'
                   : 'text-slate-400'
               }`}
             >
@@ -1139,14 +1139,14 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
           <motion.div
             whileHover={{ scale: 1.01 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl"
+            className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl"
           >
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">🚇</span>
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-slate-200 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-900/50">
+            <p className="text-xs text-gold-300/80 mt-2 bg-gold-950/40 p-2.5 rounded-lg border border-gold-900/50">
               💡 {SCENARIO.context}
             </p>
           </motion.div>
@@ -1169,7 +1169,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-900/50 border-emerald-500 text-emerald-200 font-semibold'
                         : 'bg-slate-900/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-900/80 hover:bg-indigo-950/60 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-900/80 hover:bg-gold-950/60 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <span className="font-bold mr-2">
@@ -1193,7 +1193,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1210,7 +1210,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
           {/* Step Header & Progress */}
           <motion.div className="flex items-center justify-between bg-slate-800/60 p-3.5 rounded-2xl border border-slate-700">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <div className="flex gap-1.5">
@@ -1219,7 +1219,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   key={idx}
                   animate={{ scale: idx === currentSlide ? 1.1 : 1 }}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1345,7 +1345,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                         <span className="text-sm font-black text-white font-mono mt-1 block">{trigValues.sinSurd}</span>
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-2.5 bg-slate-950/80 rounded-lg text-center border border-slate-800">
-                        <span className="text-[10px] text-sky-400 uppercase font-bold block">cos {selectedAngle}°</span>
+                        <span className="text-[10px] text-gold-400 uppercase font-bold block">cos {selectedAngle}°</span>
                         <span className="text-sm font-black text-white font-mono mt-1 block">{trigValues.cosSurd}</span>
                       </motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-2.5 bg-slate-950/80 rounded-lg text-center border border-slate-800">
@@ -1361,8 +1361,8 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
               {currentSlide === 1 && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                   {!predictionMade && (
-                    <motion.div initial={{ y: -10 }} animate={{ y: 0 }} className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800">
-                      <h4 className="text-sm font-bold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</h4>
+                    <motion.div initial={{ y: -10 }} animate={{ y: 0 }} className="p-4 bg-gold-950/50 rounded-xl border border-gold-800">
+                      <h4 className="text-sm font-bold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1399,7 +1399,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                       <div>
                         <label className="text-xs text-slate-300 font-bold flex justify-between">
                           <span>Horizontal Base Distance (Adjacent):</span>
-                          <span className="text-sky-400 font-mono">{surveyorDistance} m</span>
+                          <span className="text-gold-400 font-mono">{surveyorDistance} m</span>
                         </label>
                         <input
                           type="range"
@@ -1408,7 +1408,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                           max={30}
                           value={surveyorDistance}
                           onChange={e => setSurveyorDistance(Number(e.target.value))}
-                          className="w-full accent-sky-500 mt-1 cursor-pointer"
+                          className="w-full accent-gold-500 mt-1 cursor-pointer"
                         />
                       </div>
                       <div>
@@ -1438,7 +1438,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                         <p className="font-mono text-emerald-400">
                           tan {surveyorAngle}° = Height / {surveyorDistance}
                         </p>
-                        <p className="font-mono text-indigo-300">
+                        <p className="font-mono text-gold-300">
                           Height = {surveyorDistance} × tan({surveyorAngle}°) = {(surveyorDistance * Math.tan((surveyorAngle * Math.PI) / 180)).toFixed(2)} m
                         </p>
                       </motion.div>
@@ -1457,7 +1457,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setActiveCompView('A')}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
-                        activeCompView === 'A' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'
+                        activeCompView === 'A' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'
                       }`}
                     >
                       View from Angle A ({compAngleA}°)
@@ -1496,7 +1496,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                       <h4 className="text-xs font-bold text-slate-300 uppercase">Live Complementary Identities:</h4>
                       <div className="p-2.5 bg-slate-950 rounded-lg text-xs space-y-1 font-mono">
                         <p className="text-emerald-400">sin {compAngleA}° = BC / AB = cos {90 - compAngleA}°</p>
-                        <p className="text-sky-400">cos {compAngleA}° = AC / AB = sin {90 - compAngleA}°</p>
+                        <p className="text-gold-400">cos {compAngleA}° = AC / AB = sin {90 - compAngleA}°</p>
                         <p className="text-amber-400">tan {compAngleA}° = BC / AC = cot {90 - compAngleA}°</p>
                       </div>
                       <p className="text-xs text-slate-400">
@@ -1546,13 +1546,13 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   </svg>
 
                   <div className="space-y-3">
-                    <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-slate-900 rounded-xl border border-sky-900/50">
-                      <span className="text-xs font-bold text-sky-400 block">Line 1: y = {line1M}x + ({line1C})</span>
+                    <motion.div whileHover={{ scale: 1.01 }} className="p-3 bg-slate-900 rounded-xl border border-gold-900/50">
+                      <span className="text-xs font-bold text-gold-400 block">Line 1: y = {line1M}x + ({line1C})</span>
                       <div className="flex gap-2 items-center text-xs mt-1">
                         <span>Slope m₁:</span>
-                        <input aria-label="Line 1 Slope" type="range" min={-3} max={3} step={1} value={line1M} onChange={e => setLine1M(Number(e.target.value))} className="accent-sky-500 flex-1" />
+                        <input aria-label="Line 1 Slope" type="range" min={-3} max={3} step={1} value={line1M} onChange={e => setLine1M(Number(e.target.value))} className="accent-gold-500 flex-1" />
                         <span>c₁:</span>
-                        <input aria-label="Line 1 Intercept" type="range" min={-4} max={4} step={1} value={line1C} onChange={e => setLine1C(Number(e.target.value))} className="accent-sky-500 flex-1" />
+                        <input aria-label="Line 1 Intercept" type="range" min={-4} max={4} step={1} value={line1C} onChange={e => setLine1C(Number(e.target.value))} className="accent-gold-500 flex-1" />
                       </div>
                     </motion.div>
 
@@ -1668,7 +1668,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1704,7 +1704,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setSandboxTool(tool)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
-                    sandboxTool === tool ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-white'
+                    sandboxTool === tool ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:text-white'
                   }`}
                 >
                   {tool}
@@ -1743,7 +1743,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
               )}
               {sandboxTool === 'graph' && (
                 <div className="w-full text-center space-y-3">
-                  <p className="text-sm font-bold text-sky-400">Line 1: y = {line1M}x + {line1C} | Line 2: y = {line2M}x + {line2C}</p>
+                  <p className="text-sm font-bold text-gold-400">Line 1: y = {line1M}x + {line1C} | Line 2: y = {line2M}x + {line2C}</p>
                   <p className="text-sm text-emerald-400 font-mono font-bold">{lineIntersection.text}</p>
                 </div>
               )}
@@ -1756,7 +1756,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
               {sandboxTool === 'rates' && (
                 <div className="w-full max-w-md space-y-3 text-left">
                   <span className="text-xs text-slate-400 font-bold">Vending Rate Simulator (Data Recharge @ Rs 10 / GB):</span>
-                  <input aria-label="Data recharge slider" type="range" min={1} max={10} value={dataGbInput} onChange={e => setDataGbInput(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input aria-label="Data recharge slider" type="range" min={1} max={10} value={dataGbInput} onChange={e => setDataGbInput(Number(e.target.value))} className="w-full accent-gold-500" />
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 flex justify-between text-xs font-mono">
                     <span className="text-slate-400">Input (Independent X): {dataGbInput} GB</span>
                     <span className="text-emerald-400 font-bold">Cost (Dependent Y): Rs {dataGbInput * 10}</span>
@@ -1792,7 +1792,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
               <div className="flex items-center gap-2 mt-0.5">
                 <motion.span
                   whileHover={{ scale: 1.05 }}
-                  className="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded border border-indigo-900"
+                  className="text-xs font-semibold uppercase tracking-wider text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-900"
                 >
                   {challenge.competencyLevel.toUpperCase()}
                 </motion.span>
@@ -1809,7 +1809,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700'
                   : difficulty === 'standard'
-                  ? 'bg-sky-950/80 text-sky-400 border-sky-700'
+                  ? 'bg-gold-950/80 text-gold-400 border-gold-700'
                   : 'bg-rose-950/80 text-rose-400 border-rose-700'
               }`}
             >
@@ -1820,7 +1820,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
               initial={{ width: 0 }}
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
@@ -1853,10 +1853,10 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                     className={`w-full text-left p-4 rounded-xl text-sm border transition-all flex items-start gap-3 ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200 font-bold shadow-lg shadow-emerald-900/30'
-                        : 'bg-slate-900 hover:bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-900 hover:bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400">
+                    <span className="font-bold text-gold-400">
                       {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                       {String.fromCharCode(65 + i)}.
                     </span>
@@ -1880,7 +1880,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -1916,7 +1916,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl font-bold shadow"
                 >
                   Check Coordinates →
                 </motion.button>
@@ -1956,7 +1956,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl font-bold shadow"
                 >
                   Verify Ascending Order →
                 </motion.button>
@@ -1973,7 +1973,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter exact value"
-                  className="px-4 py-2.5 bg-slate-900 rounded-xl border border-slate-700 text-white font-mono text-sm w-48 focus:border-indigo-500 outline-none"
+                  className="px-4 py-2.5 bg-slate-900 rounded-xl border border-slate-700 text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                 />
                 <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
                 <motion.button
@@ -1982,7 +1982,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold shadow"
                 >
                   Submit Value →
                 </motion.button>
@@ -2001,7 +2001,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-indigo-950 border border-indigo-800 text-indigo-300 rounded-lg text-xs hover:bg-indigo-900"
+                      className="px-3 py-1.5 bg-gold-950 border border-gold-800 text-gold-300 rounded-lg text-xs hover:bg-gold-900"
                     >
                       + {part}
                     </motion.button>
@@ -2010,7 +2010,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
 
                 <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <motion.span key={i} whileHover={{ scale: 1.05 }} className="px-2.5 py-1 bg-indigo-600 text-white text-xs rounded-lg flex items-center gap-1.5">
+                    <motion.span key={i} whileHover={{ scale: 1.05 }} className="px-2.5 py-1 bg-gold-600 text-white text-xs rounded-lg flex items-center gap-1.5">
                       {part}
                       <motion.button
                         aria-label={`Remove part ${part}`}
@@ -2032,7 +2032,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl font-bold"
                 >
                   Check Construction →
                 </motion.button>
@@ -2089,7 +2089,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
           {/* Hero Mastery Banner */}
           <motion.div
             whileHover={{ scale: 1.01 }}
-            className="text-center p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-800 shadow-2xl space-y-3"
+            className="text-center p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-800 shadow-2xl space-y-3"
           >
             <span className="text-4xl">🎉</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Surveying Mission Accomplished!</h2>
@@ -2098,10 +2098,10 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
             <motion.div
               initial={{ y: 10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="p-4 bg-indigo-900/40 rounded-2xl border border-indigo-700/60 max-w-lg mx-auto"
+              className="p-4 bg-gold-900/40 rounded-2xl border border-gold-700/60 max-w-lg mx-auto"
             >
               <h3 className="text-lg font-black text-amber-300">{motivationalMessage.title}</h3>
-              <p className="text-xs text-indigo-200 mt-1">{motivationalMessage.desc}</p>
+              <p className="text-xs text-gold-200 mt-1">{motivationalMessage.desc}</p>
             </motion.div>
 
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2115,7 +2115,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center min-w-[100px]">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">Mastery Level</span>
-                <span className="text-xl font-black text-indigo-400 block capitalize">{masteryLevel}</span>
+                <span className="text-xl font-black text-gold-400 block capitalize">{masteryLevel}</span>
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center min-w-[100px]">
                 <span className="text-[10px] text-slate-400 uppercase font-bold">Mistakes</span>
@@ -2129,16 +2129,16 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.01 }}
-            className="p-6 bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950/90 rounded-3xl border-2 border-indigo-500/50 shadow-2xl space-y-4"
+            className="p-6 bg-gradient-to-r from-gold-950 via-slate-900 to-gold-950/90 rounded-3xl border-2 border-gold-500/50 shadow-2xl space-y-4"
           >
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-2xl shadow-inner">
+                <div className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-400/40 flex items-center justify-center text-2xl shadow-inner">
                   📅
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       SuperMemo-2 Spaced Repetition (SRS)
                     </span>
                     <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold uppercase border ${srsDetails.colorClass}`}>
@@ -2163,7 +2163,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
             <div className="space-y-1.5 pt-2">
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Estimated Geometric Memory Retention:</span>
-                <span className="font-mono font-bold text-indigo-300">{srsDetails.progressPct}%</span>
+                <span className="font-mono font-bold text-gold-300">{srsDetails.progressPct}%</span>
               </div>
               <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700">
                 <motion.div
@@ -2174,7 +2174,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                     srsDetails.days === 7
                       ? 'bg-gradient-to-r from-emerald-500 to-teal-400'
                       : srsDetails.days === 3
-                      ? 'bg-gradient-to-r from-sky-500 to-indigo-500'
+                      ? 'bg-gradient-to-r from-gold-500 to-gold-500'
                       : 'bg-gradient-to-r from-rose-500 to-amber-500'
                   }`}
                 />
@@ -2186,7 +2186,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                 <span className="block text-[11px] uppercase font-bold">0 Mistakes (Flawless)</span>
                 <span>Review in 7 days (Long-term consolidation)</span>
               </div>
-              <div className={`p-3 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-sky-950/40 border-sky-500 text-sky-200 font-bold' : 'bg-slate-900/60 border-slate-800 text-slate-400'}`}>
+              <div className={`p-3 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-gold-950/40 border-gold-500 text-gold-200 font-bold' : 'bg-slate-900/60 border-slate-800 text-slate-400'}`}>
                 <span className="block text-[11px] uppercase font-bold">1–3 Mistakes (Minor Gaps)</span>
                 <span>Review in 3 days (Reinforce weak angles/signs)</span>
               </div>
@@ -2201,9 +2201,9 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-slate-950 rounded-2xl border border-indigo-900/50 space-y-4"
+            className="p-6 bg-slate-950 rounded-2xl border border-gold-900/50 space-y-4"
           >
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🧠</span> Deep Reflection & Synthesis
             </h3>
             <div className="space-y-3 text-xs">
@@ -2217,7 +2217,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g., How sin 30° and cos 60° are completely identical because complementary angles swap opposite and adjacent sides..."
-                  className="w-full p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-200 focus:border-indigo-500 outline-none"
+                  className="w-full p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-200 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2231,7 +2231,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   value={reflectionAnswers.friend}
                   onChange={e => setReflectionAnswers(r => ({ ...r, friend: e.target.value }))}
                   placeholder="e.g., Trigonometry lets you measure huge heights from the ground using just one horizontal distance and a sight angle..."
-                  className="w-full p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-200 focus:border-indigo-500 outline-none"
+                  className="w-full p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-200 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2245,7 +2245,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
                   value={reflectionAnswers.reallife}
                   onChange={e => setReflectionAnswers(r => ({ ...r, reallife: e.target.value }))}
                   placeholder="e.g., In architectural CAD planning, GPS map navigation routing, calculating metro aerial track slopes..."
-                  className="w-full p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-200 focus:border-indigo-500 outline-none"
+                  className="w-full p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-200 focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2281,7 +2281,7 @@ function C9_MathematicsTrigonometricRatiosStandardSim({
             <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <motion.li key={i} whileHover={{ x: 3 }} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{i + 1}.</span> {step}
                 </motion.li>
               ))}
             </ul>

@@ -11,7 +11,7 @@ export const w_c12_geographyindustriesagrobasedsim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Secondary Activities: Definition and Importance',
     chapters: [],
     nodeIds: ['c12_geo_cbse_06_001', 'c12_geo_cbse_06_002', 'c12_geo_cbse_06_005', 'c12_geo_cbse_06_009', 'c12_geo_cbse_14_001', 'c12_geo_cbse_14_003', 'c12_geo_cbse_14_004', 'c12_geo_cbse_11_004', 'c12_geo_cbse_11_008', 'c12_geo_cbse_06_010', 'c12_geo_cbse_06_011', 'c12_geo_cbse_14_005', 'c12_geo_cbse_14_006', 'c12_geo_cbse_14_007', 'c12_geo_cbse_14_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Look around your classroom — the desk, chair, fan, window glass, and even the pen in your hand are all.', goal: 'Master Secondary Activities: Definition and Importance.' },
     discovery: {
         question: 'Define \'value addition\' in manufacturing and give one example each of a weight-losing industry and a weight-gaining industry.',
@@ -20,7 +20,7 @@ export const w_c12_geographyindustriesagrobasedsim: SimDef = {
         hook: 'Students think "manufacturing = factory production" and equate it only with large-scale, machine-driven assembly lines.',
     },
     teaching: [
-        { title: 'Secondary activities involve the processing.', text: 'Secondary activities involve the processing of raw materials obtained from the primary sector (agriculture, mining, forestry, fishing) into finished or semi-finished goods through manufacturing,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Secondary activities involve the processing.', text: 'Secondary activities involve the processing of raw materials obtained from the primary sector (agriculture, mining, forestry, fishing) into finished or semi-finished goods through manufacturing,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_06_001', title: 'Secondary activities involve the.',

@@ -668,7 +668,7 @@ export const C10_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Pipelines",
+    "title": "Pipelines Are a Mode Of Transport",
     "text": "Pipelines are a mode of transport consisting of a system of pipes, pumps, and valves used for the continuous, long-distance movement of crude oil, refined petroleum products (like petrol, diesel, LPG), and natural gas from production fields or ports to",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -680,7 +680,7 @@ export const C10_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Communication",
+    "title": "Communication: Personal and Mass",
     "text": "Communication refers to the process of transmitting information, ideas, and messages between individuals or groups over distance using various media.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -779,7 +779,7 @@ export const C10_GEO_GEN: SimDef[] = [
      "Example for Mysuru district: Day 1 — Chamundi Hills (trekking/sunrise) = adventure tourism; high energy morning, cool climate",
      "Step 1: Panipat lies directly on the Delhi-Sonipat segment of the existing pipeline — tying in requires only a short spur line (low capital cost)"
     ],
-    "hint": "Straight from the 'Pipelines' slide -- match the key terms.",
+    "hint": "Straight from the 'Pipelines are a mode of transport' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting \"rail is faster\" or \"pipeline cannot be tapped\" reveals misunderstanding of pipeline network flexibility and the concept of \"incremental connectivity\" in infrastructure planning.",
     "id": "gen_c10_geo_ch07_q3",
     "nodeId": "c10_geo_cbse_07_004",
@@ -821,7 +821,7 @@ export const C10_GEO_GEN: SimDef[] = [
      "A good answer: (1) Upgrade the existing NH passing through the district to 4-lane with elevated flood-proof sections (NH tier: ensures national corridor resilience)",
      "The statement is false. Evidence 1: Urban teledensity exceeds 130% while rural teledensity is around 60% (TRAI data), showing a persistent digital divide"
     ],
-    "hint": "Straight from the 'Communication' slide -- match the key terms.",
+    "hint": "Straight from the 'Communication refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer that ignores the rural-urban disparity or cites only national average teledensity reveals inability to analyze spatial inequality in infrastructure — a key geographical skill.",
     "id": "gen_c10_geo_ch07_q5",
     "nodeId": "c10_geo_cbse_07_007",
@@ -1005,7 +1005,7 @@ export const C10_GEO_GEN: SimDef[] = [
      "Additional cost = 4,500 tonnes × ₹150/tonne = ₹6,75,000. Additional time = 6 hours transshipment + 2-3 hours for shunting/weighing = ~8-9 hours total delay",
      "Digital India has expanded internet access (BharatNet, Common Service Centres) and promoted digital payments, e-governance, and online education"
     ],
-    "hint": "Straight from the 'Communication' slide -- match the key terms.",
+    "hint": "Straight from the 'Communication refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists benefits without critical evaluation shows lack of balanced geographical judgment.",
     "id": "gen_c10_geo_ch07_q14",
     "nodeId": "c10_geo_cbse_07_007",

@@ -821,7 +821,7 @@ const CHALLENGES: Challenge[] = [
 const AlloyLatticeDiagram: React.FC<{ type: 'pure' | 'substitutional' | 'interstitial'; stressApplied: boolean }> = ({ type, stressApplied }) => {
   return (
     <div className="flex flex-col items-center bg-slate-900/90 p-4 rounded-xl border border-slate-700 w-full">
-      <h4 className="text-xs font-bold text-cyan-400 mb-2 uppercase tracking-wider">
+      <h4 className="text-xs font-bold text-gold-400 mb-2 uppercase tracking-wider">
         {type === 'pure' && 'Pure Metal Lattice (Smooth Dislocation Slip)'}
         {type === 'substitutional' && 'Substitutional Alloy (e.g. Brass: Zn in Cu Matrix)'}
         {type === 'interstitial' && 'Interstitial Alloy (e.g. Steel: Carbon in Fe Matrix)'}
@@ -1439,11 +1439,11 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
       {/* HEADER BAR */}
       <header className="max-w-7xl mx-auto bg-slate-900/80 backdrop-blur-md border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-2xl font-bold shadow-lg shadow-cyan-500/20">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center text-2xl font-bold shadow-lg shadow-gold-500/20">
             ⚙️
           </div>
           <div>
-            <h1 className="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+            <h1 className="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400">
               Uses of Metals & Alloys Interactive Lab
             </h1>
             <p className="text-xs text-slate-400">
@@ -1456,9 +1456,9 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
         <div className="flex items-center gap-4 flex-wrap justify-center">
           <div className="flex items-center gap-2 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 text-xs">
             <span className="text-slate-400">Mastery Level:</span>
-            <span className="font-bold text-cyan-400">{overallMastery}%</span>
+            <span className="font-bold text-gold-400">{overallMastery}%</span>
             <div className="w-16 h-2 bg-slate-700 rounded-full overflow-hidden">
-              <div className="h-full bg-cyan-400 transition-all duration-500" style={{ width: `${overallMastery}%` }} />
+              <div className="h-full bg-gold-400 transition-all duration-500" style={{ width: `${overallMastery}%` }} />
             </div>
           </div>
 
@@ -1469,7 +1469,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
 
           <button
             onClick={() => setSoundEnabled(!soundEnabled)}
-            className={`p-2 rounded-lg border text-xs transition ${soundEnabled ? 'bg-cyan-950/60 border-cyan-700 text-cyan-300' : 'bg-slate-800 border-slate-700 text-slate-500'}`}
+            className={`p-2 rounded-lg border text-xs transition ${soundEnabled ? 'bg-gold-950/60 border-gold-700 text-gold-300' : 'bg-slate-800 border-slate-700 text-slate-500'}`}
             title="Toggle Sound Effects"
           >
             {soundEnabled ? '🔊 Audio ON' : 'Mute Sound'}
@@ -1477,7 +1477,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
 
           <button
             onClick={() => setSpeechEnabled(!speechEnabled)}
-            className={`p-2 rounded-lg border text-xs transition ${speechEnabled ? 'bg-indigo-950/60 border-indigo-700 text-indigo-300' : 'bg-slate-800 border-slate-700 text-slate-500'}`}
+            className={`p-2 rounded-lg border text-xs transition ${speechEnabled ? 'bg-gold-950/60 border-gold-700 text-gold-300' : 'bg-slate-800 border-slate-700 text-slate-500'}`}
             title="Toggle Voice Guidance"
           >
             {speechEnabled ? '🗣️ Voice ON' : 'Mute Voice'}
@@ -1489,25 +1489,25 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
       <nav className="max-w-7xl mx-auto flex gap-2 mb-6 border-b border-slate-800 pb-2 overflow-x-auto">
         <button
           onClick={() => { setActiveTab('discovery'); playSound('tap'); }}
-          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'discovery' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
+          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'discovery' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
         >
           🔍 1. Discovery & Hypotheses
         </button>
         <button
           onClick={() => { setActiveTab('lab'); playSound('tap'); }}
-          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'lab' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
+          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'lab' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
         >
           🧪 2. Metallurgy Interactive Lab
         </button>
         <button
           onClick={() => { setActiveTab('challenges'); playSound('tap'); }}
-          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'challenges' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
+          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'challenges' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
         >
           ⚔️ 3. Challenges & Diagnostics ({CHALLENGES.length})
         </button>
         <button
           onClick={() => { setActiveTab('summary'); playSound('tap'); }}
-          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'summary' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
+          className={`px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center gap-2 ${activeTab === 'summary' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/25' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}
         >
           🎓 4. Real-World Audit & Mastery
         </button>
@@ -1520,7 +1520,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
           <div className="space-y-6">
             {/* Scenario Narrative Box */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <span className="bg-cyan-950 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full border border-cyan-800 uppercase tracking-wide">
+              <span className="bg-gold-950 text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-800 uppercase tracking-wide">
                 Lab Context & Objective
               </span>
               <h2 className="text-2xl font-bold text-slate-100 mt-3 mb-2">{SCENARIO.title}</h2>
@@ -1530,7 +1530,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
 
             {/* Discovery Core Question */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-300 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 mb-4 flex items-center gap-2">
                 <span>🤔</span> Key Discovery Question
               </h3>
               <p className="text-slate-200 text-base mb-6 font-medium">{DISCOVERY_QUESTION.question}</p>
@@ -1540,7 +1540,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                   <button
                     key={idx}
                     onClick={() => { setDiscoverySelected(idx); playSound('tap'); }}
-                    className={`p-4 rounded-xl border text-left text-sm transition flex items-start gap-3 ${discoverySelected === idx ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 ring-2 ring-cyan-500/30' : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-800'}`}
+                    className={`p-4 rounded-xl border text-left text-sm transition flex items-start gap-3 ${discoverySelected === idx ? 'bg-gold-950/80 border-gold-500 text-gold-200 ring-2 ring-gold-500/30' : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-800'}`}
                   >
                     <span className="w-6 h-6 rounded-full bg-slate-700 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                       {String.fromCharCode(65 + idx)}
@@ -1554,13 +1554,13 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoverySelected === null}
-                  className="w-full md:w-auto px-8 py-3 rounded-xl bg-cyan-500 text-slate-950 font-bold hover:bg-cyan-400 transition disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                  className="w-full md:w-auto px-8 py-3 rounded-xl bg-gold-500 text-slate-950 font-bold hover:bg-gold-400 transition disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-gold-500/20"
                 >
                   Verify Initial Hypothesis
                 </button>
               ) : (
                 <div className="bg-slate-950/80 border border-slate-800 p-4 rounded-xl">
-                  <p className="text-sm text-cyan-400 font-bold mb-1">
+                  <p className="text-sm text-gold-400 font-bold mb-1">
                     {discoverySelected === DISCOVERY_QUESTION.correctIndex ? '✅ Correct Hypothesis!' : '💡 Scientific Clarification:'}
                   </p>
                   <p className="text-xs text-slate-300 leading-relaxed">{DISCOVERY_QUESTION.hintAfter}</p>
@@ -1611,9 +1611,9 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                 <button
                   key={idx}
                   onClick={() => { setActiveLabIndex(idx); playSound('tap'); }}
-                  className={`p-3 rounded-xl border text-left text-xs transition flex flex-col justify-between ${activeLabIndex === idx ? 'bg-cyan-950 border-cyan-500 text-cyan-200 ring-1 ring-cyan-500' : 'bg-slate-900/80 border-slate-800 text-slate-400 hover:bg-slate-800'}`}
+                  className={`p-3 rounded-xl border text-left text-xs transition flex flex-col justify-between ${activeLabIndex === idx ? 'bg-gold-950 border-gold-500 text-gold-200 ring-1 ring-gold-500' : 'bg-slate-900/80 border-slate-800 text-slate-400 hover:bg-slate-800'}`}
                 >
-                  <span className="font-bold text-cyan-400 mb-1">Step {idx + 1}</span>
+                  <span className="font-bold text-gold-400 mb-1">Step {idx + 1}</span>
                   <span className="line-clamp-2 font-medium">{step.title}</span>
                 </button>
               ))}
@@ -1623,7 +1623,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 mb-4">
                 <div>
-                  <h3 className="text-xl font-extrabold text-cyan-400">
+                  <h3 className="text-xl font-extrabold text-gold-400">
                     {EXPLORATION_STEPS[activeLabIndex].title}
                   </h3>
                   <p className="text-xs text-slate-300 mt-1">
@@ -1651,7 +1651,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Solute Atom Concentration (Hardening Effect)</span>
-                        <span className="text-cyan-400">{solutePercentage}% Solute</span>
+                        <span className="text-gold-400">{solutePercentage}% Solute</span>
                       </div>
                       <input
                         type="range"
@@ -1659,7 +1659,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                         max="50"
                         value={solutePercentage}
                         onChange={(e) => setSolutePercentage(Number(e.target.value))}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
 
@@ -1690,7 +1690,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Tin (Sn) Percentage in Lead (Pb)</span>
-                        <span className="text-cyan-400">{eutecticSn}% Sn / {100 - eutecticSn}% Pb</span>
+                        <span className="text-gold-400">{eutecticSn}% Sn / {100 - eutecticSn}% Pb</span>
                       </div>
                       <input
                         type="range"
@@ -1698,7 +1698,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                         max="100"
                         value={eutecticSn}
                         onChange={(e) => setEutecticSn(Number(e.target.value))}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
 
@@ -1744,7 +1744,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                           <button
                             key={m.id}
                             onClick={() => { setCorrosionMetal(m.id as typeof corrosionMetal); playSound('tap'); }}
-                            className={`p-2.5 rounded-lg border text-xs text-left transition ${corrosionMetal === m.id ? 'bg-cyan-950 border-cyan-500 text-cyan-200' : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'}`}
+                            className={`p-2.5 rounded-lg border text-xs text-left transition ${corrosionMetal === m.id ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'}`}
                           >
                             {m.label}
                           </button>
@@ -1796,7 +1796,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                       </button>
                       <button
                         onClick={() => { setNitinolPhase('austenite'); playSound('sparkle'); speakText('Austenitic shape recovery activated!'); }}
-                        className={`w-full p-3 rounded-xl border text-xs text-left transition ${nitinolPhase === 'austenite' ? 'bg-blue-950 border-blue-500 text-blue-200' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                        className={`w-full p-3 rounded-xl border text-xs text-left transition ${nitinolPhase === 'austenite' ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                       >
                         🔥 3. Apply Heat Above Transition Temp (Recover Parent Shape)
                       </button>
@@ -1813,10 +1813,10 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                       <button
                         key={alloy.id}
                         onClick={() => { setSelectedAlloyForTest(alloy); playSound('tap'); }}
-                        className={`p-3 rounded-xl border text-left text-xs transition ${selectedAlloyForTest.id === alloy.id ? 'bg-cyan-950 border-cyan-500 text-cyan-200 ring-1 ring-cyan-500' : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:bg-slate-900'}`}
+                        className={`p-3 rounded-xl border text-left text-xs transition ${selectedAlloyForTest.id === alloy.id ? 'bg-gold-950 border-gold-500 text-gold-200 ring-1 ring-gold-500' : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:bg-slate-900'}`}
                       >
                         <p className="font-bold text-slate-200 mb-1">{alloy.name}</p>
-                        <p className="text-[10px] text-cyan-400">{alloy.category}</p>
+                        <p className="text-[10px] text-gold-400">{alloy.category}</p>
                       </button>
                     ))}
                   </div>
@@ -1824,7 +1824,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                   <div className="bg-slate-950/80 p-5 rounded-xl border border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                       <p className="text-slate-400 text-xs">Tensile Strength</p>
-                      <p className="text-lg font-bold text-cyan-400">{selectedAlloyForTest.tensileStrength} MPa</p>
+                      <p className="text-lg font-bold text-gold-400">{selectedAlloyForTest.tensileStrength} MPa</p>
                     </div>
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
                       <p className="text-slate-400 text-xs">Density</p>
@@ -1843,7 +1843,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
 
             {/* Observation Questions Section */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>👁️</span> Guided Observation Check
               </h3>
 
@@ -1858,7 +1858,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                           setObservationAnswers((prev) => ({ ...prev, [idx]: oIdx }));
                           playSound('tap');
                         }}
-                        className={`p-3 rounded-lg border text-xs text-left transition ${observationAnswers[idx] === oIdx ? 'bg-cyan-950 border-cyan-500 text-cyan-200' : 'bg-slate-900/60 border-slate-800 text-slate-400 hover:bg-slate-800'}`}
+                        className={`p-3 rounded-lg border text-xs text-left transition ${observationAnswers[idx] === oIdx ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900/60 border-slate-800 text-slate-400 hover:bg-slate-800'}`}
                       >
                         {opt}
                       </button>
@@ -1876,7 +1876,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
             {/* Challenge Progress Header */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-slate-100">
@@ -1888,7 +1888,7 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
                 {CHALLENGES.map((ch, idx) => (
                   <div
                     key={ch.id}
-                    className={`w-3 h-3 rounded-full transition-all ${idx === currentChallengeIdx ? 'bg-cyan-400 ring-4 ring-cyan-500/30' : idx < currentChallengeIdx ? 'bg-emerald-500' : 'bg-slate-800'}`}
+                    className={`w-3 h-3 rounded-full transition-all ${idx === currentChallengeIdx ? 'bg-gold-400 ring-4 ring-gold-500/30' : idx < currentChallengeIdx ? 'bg-emerald-500' : 'bg-slate-800'}`}
                   />
                 ))}
               </div>
@@ -2011,14 +2011,14 @@ export default function C12_ChemistryUsesofmetalsandalloysSim({
 
             {/* Diagnostic Diagnostic Knowledge Review */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>📋</span> ISC Board Diagnostic Questions Bank
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {DIAGNOSTIC_QUESTIONS.map((dq) => (
                   <div key={dq.id} className="bg-slate-950/60 border border-slate-800 p-4 rounded-xl space-y-2">
-                    <p className="text-xs font-bold text-cyan-400">{dq.question}</p>
+                    <p className="text-xs font-bold text-gold-400">{dq.question}</p>
                     <p className="text-[11px] text-emerald-300 bg-slate-900 p-2 rounded border border-slate-800">
                       Answer: {dq.options[dq.correctIndex]}
                     </p>

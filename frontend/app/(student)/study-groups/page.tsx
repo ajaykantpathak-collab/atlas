@@ -10,6 +10,7 @@ import {
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
 import { useState } from 'react'
+import InternalDemoBadge from "@/components/InternalDemoBadge";
 
 const studyGroups = [
   {
@@ -54,7 +55,7 @@ const studyGroups = [
     rating: 4.9,
     activeMembers: 4,
     nextSession: 'Today, 8:00 PM',
-    color: 'from-cyan-500/30 to-brand-500/30',
+    color: 'from-gold-500/30 to-brand-500/30',
     joined: true,
   },
   {
@@ -136,6 +137,7 @@ export default function StudyGroupsPage() {
 
   return (
     <div className="min-h-screen mesh-bg">
+      <InternalDemoBadge what="fabricated groups, no backend" />
       {/* Header */}
       <div className="sticky top-0 z-40 glass-strong border-b border-surface-300/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">

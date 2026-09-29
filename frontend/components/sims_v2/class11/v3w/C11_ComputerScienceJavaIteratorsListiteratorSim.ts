@@ -11,7 +11,7 @@ export const w_c11_computersciencejavaiteratorslistiteratorsim: SimDef = {
     classLevel: 11, subject: 'computer_science', topic: 'for Loop and the range() Function',
     chapters: [],
     nodeIds: ['c11_cs_cbse_05_009', 'c11_cs_cbse_07_011', 'c11_cs_cbse_05_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you need to print "Happy Birthday" 5 times for a classmate\'s card.', goal: 'Master for Loop and the range() Function.' },
     discovery: {
         question: 'What is the exact output of the following code snippet? ```python for val in range(2, 10, 3): print(val, end=\' \') ```',
@@ -20,7 +20,7 @@ export const w_c11_computersciencejavaiteratorslistiteratorsim: SimDef = {
         hook: '**Misconception:** "`range(n)` creates a list of n integers in memory." **Why it happens:** In Python 2, `range()`.',
     },
     teaching: [
-        { title: 'A `for` loop in Python is a definite.', text: 'A `for` loop in Python is a definite iteration construct that executes a block of code once for each item in a sequence (like `range()`, list, string, tuple).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A `for` loop in Python is a definite.', text: 'A `for` loop in Python is a definite iteration construct that executes a block of code once for each item in a sequence (like `range()`, list, string, tuple).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_cs_cbse_05_009', title: 'A `for` loop in Python is a definite.',

@@ -11,7 +11,7 @@ export const w_c8_physicsboilingevaporationdifferencessim: SimDef = {
     classLevel: 8, subject: 'physics', topic: 'Separation of Solutions: Evaporation and Distillation',
     chapters: [],
     nodeIds: ['c8_physics_ch5_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you have a glass of saltwater from the Arabian Sea and you want to get both the salt and the water.', goal: 'Master Separation of Solutions: Evaporation and Distillation.' },
     discovery: {
         question: 'What is the main difference between evaporation and distillation in terms of what is collected at the end of the process?',
@@ -20,7 +20,7 @@ export const w_c8_physicsboilingevaporationdifferencessim: SimDef = {
         hook: 'Students think distillation separates *any* mixture, e.g., they believe a mixture of sand and water can be distilled to.',
     },
     teaching: [
-        { title: 'Evaporation is a separation technique where.', text: 'Evaporation is a separation technique where a soluble solid is recovered from a solution by heating the solvent until it vaporizes, leaving the solid residue behind.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Evaporation is a separation technique where.', text: 'Evaporation is a separation technique where a soluble solid is recovered from a solution by heating the solvent until it vaporizes, leaving the solid residue behind.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch5_9', title: 'Evaporation is a separation technique.',

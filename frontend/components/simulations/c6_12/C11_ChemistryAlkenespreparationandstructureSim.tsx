@@ -31,7 +31,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Unsaturation: the price of a double bond</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Unsaturation: the price of a double bond</h1>
       <p className="mt-1 text-sm text-slate-400">
         A C=C double bond means the chain holds two fewer hydrogens. Everything the reagent does follows from that
         missing pair.
@@ -40,7 +40,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <button
           onClick={() => setSaturated((v) => !v)}
-          className={`min-h-11 px-4 rounded-xl text-sm font-bold transition-colors ${saturated ? 'bg-slate-800 border border-slate-700 hover:bg-slate-700' : 'bg-violet-600 hover:bg-violet-500'}`}
+          className={`min-h-11 px-4 rounded-xl text-sm font-bold transition-colors ${saturated ? 'bg-slate-800 border border-slate-700 hover:bg-slate-700' : 'bg-gold-600 hover:bg-gold-500'}`}
         >
           {saturated ? 'Undo hydrogenation' : 'Add H2 (hydrogenate)'}
         </button>
@@ -64,7 +64,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
       <div className="mt-3">
         <label className="text-xs font-semibold text-slate-400 flex justify-between">
           <span>Chain length n</span>
-          <span className="font-mono text-indigo-300">n = {n}</span>
+          <span className="font-mono text-gold-300">n = {n}</span>
         </label>
         <input
           type="range"
@@ -77,7 +77,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
             setSaturated(false);
             setAddedH2(0);
           }}
-          className="w-full mt-1 min-h-11 accent-indigo-500"
+          className="w-full mt-1 min-h-11 accent-gold-500"
         />
       </div>
 
@@ -139,7 +139,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
           <div className="grid grid-cols-3 gap-2 mt-2 text-center">
             <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Molar mass</div>
-              <div className="font-mono text-indigo-300 font-bold">{mass.toFixed(1)} g/mol</div>
+              <div className="font-mono text-gold-300 font-bold">{mass.toFixed(1)} g/mol</div>
             </div>
             <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase">Unsaturation</div>
@@ -156,7 +156,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-sm font-mono text-slate-300 space-y-1">
             <div>
               Alkane comparison: C<Sub n={n} />H<Sub n={hSat} /> = {(12.0 * n + hSat).toFixed(1)} g/mol vs current{' '}
-              <span className="text-violet-300 font-bold">{mass.toFixed(1)} g/mol</span>
+              <span className="text-gold-300 font-bold">{mass.toFixed(1)} g/mol</span>
             </div>
             <div>
               H2 needed to saturate: <span className="text-emerald-300 font-bold">{needH2.toFixed(0)} mol H2</span> (added so far: {addedH2})
@@ -169,7 +169,7 @@ export function C11_ChemistryAlkenespreparationandstructureSim() {
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
             <button
               onClick={() => setAddedH2((v) => Math.min(needH2, v + 1))}
-              className="min-h-11 w-full rounded-xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold transition-colors"
+              className="min-h-11 w-full rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold transition-colors"
             >
               Bubble in 1 mol H2 (Ni catalyst, 200 °C)
             </button>

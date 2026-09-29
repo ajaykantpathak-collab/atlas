@@ -50,7 +50,7 @@ export function C7_MathematicsConnectingTheDotsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Connecting the Dots</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Connecting the Dots</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="mt-4 p-4 bg-slate-950 rounded-2xl border border-slate-700 overflow-x-auto">
@@ -72,7 +72,7 @@ export function C7_MathematicsConnectingTheDotsSim() {
                 width={CELL}
                 height={CELL}
                 fill="transparent"
-                className="cursor-pointer hover:fill-indigo-500/20"
+                className="cursor-pointer hover:fill-gold-500/20"
                 onClick={() => toggleDot(c, r)}
               />
             ))
@@ -123,7 +123,7 @@ export function C7_MathematicsConnectingTheDotsSim() {
         </button>
         <button
           onClick={() => setClosed((s) => !s)}
-          className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${closed ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+          className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${closed ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
         >
           {closed ? 'Closed shape (thread returns)' : 'Open path'}
         </button>
@@ -141,8 +141,8 @@ export function C7_MathematicsConnectingTheDotsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Load the rectangle, then move one dot one full grid step diagonally out. Did the thread length change by more than 1 step? Why?</li>
           <li>Click dots to draw a 5-point star (you need exactly 10 clicks counting the return). Can you beat the rectangle&apos;s thread length with a taller shape?</li>

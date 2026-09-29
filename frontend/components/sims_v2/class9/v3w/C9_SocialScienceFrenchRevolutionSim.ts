@@ -11,7 +11,7 @@ export const w_c9_socialsciencefrenchrevolutionsim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Seasons: Rotation, Revolution and the Sun\'s Position',
     chapters: [],
     nodeIds: ['c9_geo_ch2_6', 'c9_geo_ch2_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Observe how the shadow of your school flagpole changes length and direction from June to December — it is.', goal: 'Master Seasons: Rotation, Revolution and the Sun\'s Position.' },
     discovery: {
         question: 'Calculate the approximate day length at 30°N latitude on the June Solstice (June 21), given that the Sun\'s declination is 23.5°N.',
@@ -20,7 +20,7 @@ export const w_c9_socialsciencefrenchrevolutionsim: SimDef = {
         hook: 'Students believe Earth is closer to the Sun in summer and farther in winter, causing seasons.',
     },
     teaching: [
-        { title: 'Seasons are the periodic changes in weather.', text: 'Seasons are the periodic changes in weather patterns caused by Earth\'s revolution around the Sun combined with its fixed axial tilt of 23.5°, which alters the Sun\'s apparent position (declination).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Seasons are the periodic changes in weather.', text: 'Seasons are the periodic changes in weather patterns caused by Earth\'s revolution around the Sun combined with its fixed axial tilt of 23.5°, which alters the Sun\'s apparent position (declination).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch2_6', title: 'Seasons are the periodic changes in.',

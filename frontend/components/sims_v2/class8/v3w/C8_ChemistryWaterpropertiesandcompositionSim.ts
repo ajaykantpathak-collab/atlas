@@ -11,7 +11,7 @@ export const w_c8_chemistrywaterpropertiesandcompositionsim: SimDef = {
     classLevel: 8, subject: 'chemistry', topic: 'Properties of Common Compounds: Water, Carbon Dioxide',
     chapters: [],
     nodeIds: ['c8_chem_ch3_12', 'c8_chem_ch3_2', 'c8_chem_ch3_3', 'c8_chem_ch3_9', 'c8_chem_ch3_4', 'c8_chem_ch2_4', 'c8_chem_ch3_1', 'c8_chem_ch3_10', 'c8_chem_ch3_11', 'c8_chem_ch2_1', 'c8_chem_ch3_5', 'c8_chem_ch3_8', 'c8_chem_ch2_2'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'When you open a cold bottle of a fizzy soft drink in summer, you see bubbles escaping; that gas is carbon.', goal: 'Master Properties of Common Compounds: Water, Carbon Dioxide.' },
     discovery: {
         question: 'What term is used to describe a mixture that has a uniform composition throughout?',
@@ -20,7 +20,7 @@ export const w_c8_chemistrywaterpropertiesandcompositionsim: SimDef = {
         hook: 'Students often think that if a mixture is liquid, it must automatically be homogeneous.',
     },
     teaching: [
-        { title: 'Water ($H_2O$) and carbon dioxide ($CO_2$).', text: 'Water ($H_2O$) and carbon dioxide ($CO_2$) are two of the most common and vital chemical compounds on Earth.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Water ($H_2O$) and carbon dioxide ($CO_2$).', text: 'Water ($H_2O$) and carbon dioxide ($CO_2$) are two of the most common and vital chemical compounds on Earth.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_chem_ch3_12', title: 'Water ($H_2O$) and carbon dioxide.',

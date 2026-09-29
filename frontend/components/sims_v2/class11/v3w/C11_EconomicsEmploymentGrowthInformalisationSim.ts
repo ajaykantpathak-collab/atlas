@@ -11,7 +11,7 @@ export const w_c11_economicsemploymentgrowthinformalisationsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Growth of Employment: Trends Since Independence',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_004', 'c11_eco_cbse_06_005', 'c11_eco_cbse_06_009', 'c11_eco_cbse_06_002', 'c11_eco_cbse_06_001', 'c11_eco_cbse_06_003', 'c11_eco_cbse_06_006', 'c11_eco_cbse_06_007', 'c11_eco_cbse_06_008', 'c11_eco_cbse_06_010', 'c11_eco_cbse_06_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine reading a 2024 newspaper headline: "India\'s GDP grows at 7.2%, but unemployment rate hits 45-year.', goal: 'Master Growth of Employment: Trends Since Independence.' },
     discovery: {
         question: 'Calculate the employment elasticity for the tertiary sector between 1993–94 and 2011–12 using Table 6.3 data. Tertiary share: 20% → 26.8%.',
@@ -20,7 +20,7 @@ export const w_c11_economicsemploymentgrowthinformalisationsim: SimDef = {
         hook: 'Students believe "sectoral shift from primary to tertiary means agriculture jobs disappeared." In reality, Table 6.3.',
     },
     teaching: [
-        { title: 'Growth of employment refers to the rate of.', text: 'Growth of employment refers to the rate of change in the total number of workers engaged in economic activities over a specific period, typically measured as a percentage change per annum.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Growth of employment refers to the rate of.', text: 'Growth of employment refers to the rate of change in the total number of workers engaged in economic activities over a specific period, typically measured as a percentage change per annum.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_06_004', title: 'Growth of employment refers to the rate.',

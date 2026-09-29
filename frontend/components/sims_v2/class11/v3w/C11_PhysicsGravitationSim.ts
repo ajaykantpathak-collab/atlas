@@ -11,7 +11,7 @@ export const w_c11_physicsgravitationsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Kepler\'s Laws of Planetary Motion',
     chapters: [],
     nodeIds: ['c11_phy_cbse_07_001', 'c11_phy_cbse_07_002', 'c11_phy_cbse_07_003', 'c11_phy_cbse_07_004', 'c11_phy_cbse_07_005', 'c11_phy_cbse_07_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe the night sky over several weeks (or use a free planetarium app like.', goal: 'Master Kepler\'s Laws of Planetary Motion.' },
     discovery: {
         question: 'State the exact formula for acceleration due to gravity at a height \\(h\\) above the Earth\'s surface in terms of \\(g\\), \\(R_E\\), and \\(h\\).',
@@ -20,7 +20,7 @@ export const w_c11_physicsgravitationsim: SimDef = {
         hook: 'Students often believe that "zero gravity" exists in orbit because astronauts float.',
     },
     teaching: [
-        { title: 'Kepler\'s laws of planetary motion are three.', text: 'Kepler\'s laws of planetary motion are three empirical principles describing the motion of planets around the Sun: (1) **Law of Orbits** – Every planet moves in an elliptical orbit with the Sun at one.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Kepler\'s laws of planetary motion are three.', text: 'Kepler\'s laws of planetary motion are three empirical principles describing the motion of planets around the Sun: (1) **Law of Orbits** – Every planet moves in an elliptical orbit with the Sun at one.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c11_phy_cbse_07_001', title: 'Kepler\'s laws of planetary motion are.',

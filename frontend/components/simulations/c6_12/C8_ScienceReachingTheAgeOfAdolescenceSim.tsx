@@ -56,7 +56,7 @@ export function C8_ScienceReachingTheAgeOfAdolescenceSim() {
         <button onClick={() => setIsGirl(true)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${isGirl ? 'bg-pink-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Girl timeline
         </button>
-        <button onClick={() => setIsGirl(false)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${!isGirl ? 'bg-sky-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+        <button onClick={() => setIsGirl(false)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${!isGirl ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           Boy timeline
         </button>
       </div>
@@ -68,7 +68,7 @@ export function C8_ScienceReachingTheAgeOfAdolescenceSim() {
             <input type="range" min={8} max={19} value={age} aria-label="age" onChange={(e) => setAge(Number(e.target.value))} className="w-full mt-1 accent-pink-600" />
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div>approx height: <span className="font-bold text-indigo-700">{height} cm</span></div>
+            <div>approx height: <span className="font-bold text-gold-700">{height} cm</span></div>
             <div>growth rate now: <span className="font-bold" style={{ color: growthRate > 6 ? '#e11d48' : '#475569' }}>{growthRate} cm per year {growthRate > 6 ? '- GROWTH SPURT!' : ''}</span></div>
             <div className="text-xs text-slate-500 mt-1 font-sans">
               {age < pubertyStart

@@ -118,11 +118,11 @@ export function C11_BiotechnologyBioreactorGrowthSim() {
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Cells per mL</p>
-          <p className="text-lg font-extrabold text-indigo-300 font-mono">{(odNow * 8e8).toExponential(1)}</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{(odNow * 8e8).toExponential(1)}</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Generations passed</p>
-          <p className="text-lg font-extrabold text-sky-300 font-mono">{doublings.toFixed(1)}</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{doublings.toFixed(1)}</p>
         </div>
       </div>
       <p className="text-xs p-3 rounded-xl bg-slate-900 border border-slate-800 mb-3" style={{ color: phase.color }}>

@@ -11,7 +11,7 @@ export const w_c10_mathematicsconstructiontangentscirclesim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Number of Tangents from a Point Outside the Circle',
     chapters: [],
     nodeIds: ['c10_math_cbse_10_005', 'c10_math_cbse_10_007', 'c10_math_cbse_10_009', 'c10_math_cbse_10_001', 'c10_math_cbse_10_002', 'c10_math_cbse_10_003', 'c10_math_cbse_10_004', 'c10_math_cbse_10_006', 'c10_math_cbse_10_008', 'c10_math_cbse_10_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are standing 10 metres away from a circular fountain of radius 3 metres in your school courtyard.', goal: 'Master Number of Tangents from a Point Outside the Circle.' },
     discovery: {
         question: 'A student claims: "From a point outside a circle, we can draw three tangents if the point is far enough away." Evaluate this claim and explain the error.',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsconstructiontangentscirclesim: SimDef = {
         hook: 'Students often believe that from an external point, the two tangents are drawn "to the ends of the diameter" or that.',
     },
     teaching: [
-        { title: 'From a point outside a circle, exactly two.', text: 'From a point outside a circle, exactly two tangents can be drawn to the circle.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'From a point outside a circle, exactly two.', text: 'From a point outside a circle, exactly two tangents can be drawn to the circle.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_10_005', title: 'From a point outside a circle, exactly.',

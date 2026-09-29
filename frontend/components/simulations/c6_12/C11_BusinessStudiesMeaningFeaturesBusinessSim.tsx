@@ -1177,7 +1177,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2.5 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner" aria-hidden="true">
+          <span className="text-3xl p-2.5 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
@@ -1200,7 +1200,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1220,14 +1220,14 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10 pointer-events-none text-9xl">🏛️</div>
-            <span className="px-2.5 py-1 bg-indigo-600/30 text-indigo-300 text-xs font-bold rounded-md border border-indigo-500/40 uppercase tracking-wide">
+            <span className="px-2.5 py-1 bg-gold-600/30 text-gold-300 text-xs font-bold rounded-md border border-gold-500/40 uppercase tracking-wide">
               Case Narrative
             </span>
             <h2 className="text-2xl font-bold text-white mt-2 mb-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed max-w-3xl mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 font-medium italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 font-medium italic">{SCENARIO.context}</p>
           </div>
 
           {/* Interactive Curiosity Hook */}
@@ -1289,7 +1289,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2 whitespace-nowrap"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1316,7 +1316,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                   onClick={() => { setCurrentSlide(idx); audioManager.play('tap'); }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1338,7 +1338,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 shadow-xl space-y-6"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Interactive Exploration
                 </span>
                 <h3 className="text-xl font-bold text-white mt-1">
@@ -1421,7 +1421,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                       <motion.div
                         initial={{ opacity: 0, y: 5 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="mt-4 p-3 bg-indigo-950/80 rounded-xl border border-indigo-700 text-xs text-indigo-200"
+                        className="mt-4 p-3 bg-gold-950/80 rounded-xl border border-gold-700 text-xs text-gold-200"
                       >
                         <span className="font-bold text-white">✓ Pillar Verified:</span> {activePillarDetail}
                       </motion.div>
@@ -1439,7 +1439,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade ? (
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/60 space-y-3">
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/60 space-y-3">
                       <p className="text-sm font-bold text-white">
                         🔮 {PREDICTION_QUESTIONS[0].question}
                       </p>
@@ -1457,7 +1457,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700 text-xs text-indigo-300 flex items-center justify-between">
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-700 text-xs text-gold-300 flex items-center justify-between">
                       <span>✓ {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                       <span className="font-bold text-amber-400">Prediction Active</span>
                     </div>
@@ -1468,7 +1468,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Annual Net Profit (Avg 3 Yrs):</span>
-                          <span className="text-indigo-400 font-bold">₹{simNetProfit} Crore</span>
+                          <span className="text-gold-400 font-bold">₹{simNetProfit} Crore</span>
                         </div>
                         <input
                           type="range"
@@ -1481,7 +1481,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                             setSimNetProfit(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1511,7 +1511,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Retained for Growth & Innovation:</span>
-                          <span className="text-indigo-300 font-bold">
+                          <span className="text-gold-300 font-bold">
                             ₹{(simNetProfit * 0.55).toFixed(2)} Crore
                           </span>
                         </div>
@@ -1534,7 +1534,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                           </div>
                           <div className="bg-slate-950 rounded-lg p-2 border border-slate-800 text-center">
                             <p className="text-[10px] text-slate-500">Owner dividend share (45%)</p>
-                            <p className="font-mono font-bold text-indigo-300">₹{(simNetProfit * 0.45).toFixed(2)} Crore</p>
+                            <p className="font-mono font-bold text-gold-300">₹{(simNetProfit * 0.45).toFixed(2)} Crore</p>
                           </div>
                         </div>
                         <p className="text-[11px] text-slate-500">
@@ -1576,7 +1576,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               {currentSlide === 2 && (
                 <div className="space-y-6">
                   {!predictionVerified && (
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/60 space-y-3">
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/60 space-y-3">
                       <p className="text-sm font-bold text-white">
                         🔮 {PREDICTION_QUESTIONS[1].question}
                       </p>
@@ -1603,7 +1603,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Investment in Plant & Machinery:</span>
-                          <span className="text-indigo-400 font-bold">₹{simInvestment} Crore</span>
+                          <span className="text-gold-400 font-bold">₹{simInvestment} Crore</span>
                         </div>
                         <input
                           type="range"
@@ -1616,14 +1616,14 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                             setSimInvestment(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Annual Net Turnover:</span>
-                          <span className="text-indigo-400 font-bold">₹{simTurnover} Crore</span>
+                          <span className="text-gold-400 font-bold">₹{simTurnover} Crore</span>
                         </div>
                         <input
                           type="range"
@@ -1636,7 +1636,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                             setSimTurnover(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1646,7 +1646,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                           Inv ≤ ₹1cr<br />Turn ≤ ₹5cr
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-center">
-                          <span className="text-blue-400 font-bold block">✓ Small</span>
+                          <span className="text-gold-400 font-bold block">✓ Small</span>
                           Inv ≤ ₹10cr<br />Turn ≤ ₹50cr
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-center">
@@ -1682,7 +1682,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                 <div className="space-y-6">
                   <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 space-y-4">
                     <p className="text-xs text-slate-300">
-                      Commerce = <strong className="text-indigo-400">Trade (Buying/Selling)</strong> + <strong className="text-emerald-400">Aids to Trade (Support Services)</strong>. Click the barriers below to deploy the corresponding aid:
+                      Commerce = <strong className="text-gold-400">Trade (Buying/Selling)</strong> + <strong className="text-emerald-400">Aids to Trade (Support Services)</strong>. Click the barriers below to deploy the corresponding aid:
                     </p>
 
                     {/* SVG Diagram 2: Commerce Ecosystem Architecture */}
@@ -1740,7 +1740,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                             onClick={() => handleToggleAid(aid.id)}
                             className={`p-3.5 rounded-xl text-left border transition-all ${
                               isActive
-                                ? 'bg-indigo-950/80 border-indigo-500 shadow-md shadow-indigo-600/20'
+                                ? 'bg-gold-950/80 border-gold-500 shadow-md shadow-gold-600/20'
                                 : 'bg-slate-900 border-slate-800 opacity-60'
                             }`}
                           >
@@ -1757,7 +1757,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-center justify-between">
-                      <span>Factory Gate Dividing Line: Inside = <strong className="text-indigo-300">Industry (Manufacturing)</strong> | Outside = <strong className="text-emerald-300">Commerce (Distribution)</strong></span>
+                      <span>Factory Gate Dividing Line: Inside = <strong className="text-gold-300">Industry (Manufacturing)</strong> | Outside = <strong className="text-emerald-300">Commerce (Distribution)</strong></span>
                       <span className="text-amber-400 font-bold">5 Gaps Bridged</span>
                     </div>
                   </div>
@@ -1768,7 +1768,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               {currentSlide === 4 && (
                 <div className="space-y-6">
                   {!observationAnswered && (
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/60 space-y-3">
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/60 space-y-3">
                       <p className="text-sm font-bold text-white">
                         🔍 {OBSERVATION_QUESTIONS[0].question}
                       </p>
@@ -1836,7 +1836,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                           }}
                           className={`py-3 px-2 rounded-xl text-xs font-bold transition-all border ${
                             selectedForm === tab.id
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -1849,7 +1849,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     <div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div className="space-y-3">
                         <div className="flex items-center justify-between">
-                          <h4 className="text-lg font-black text-indigo-300">
+                          <h4 className="text-lg font-black text-gold-300">
                             {orgComparisonMatrix.title}
                           </h4>
                           <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-950/80 text-amber-300 border border-amber-700">
@@ -1877,7 +1877,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                         <div className="space-y-2 text-xs">
                           <div className="p-2.5 bg-slate-900 rounded-lg">
                             <span className="text-slate-400 block font-medium">Decision Making & Agency:</span>
-                            <span className="text-indigo-300 font-bold">{orgComparisonMatrix.governance}</span>
+                            <span className="text-gold-300 font-bold">{orgComparisonMatrix.governance}</span>
                           </div>
                           <div className="p-2.5 bg-slate-900 rounded-lg">
                             <span className="text-slate-400 block font-medium">Governing Statute in India:</span>
@@ -1915,7 +1915,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => { setCurrentSlide(s => s + 1); audioManager.play('tap'); }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1968,7 +1968,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400 uppercase">Profit & CSR Dial</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Profit & CSR Dial</span>
                 <div>
                   <div className="flex justify-between text-[11px] mb-1">
                     <span className="text-slate-400">Profit:</span>
@@ -1981,7 +1981,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     max={1200}
                     value={simNetProfit}
                     onChange={e => setSimNetProfit(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <p className="text-[11px] text-emerald-400 font-semibold">
@@ -1990,7 +1990,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-blue-400 uppercase">2020 MSME Scale</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">2020 MSME Scale</span>
                 <div>
                   <div className="flex justify-between text-[11px] mb-1">
                     <span className="text-slate-400">Turnover:</span>
@@ -2003,7 +2003,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     max={300}
                     value={simTurnover}
                     onChange={e => setSimTurnover(Number(e.target.value))}
-                    className="w-full accent-blue-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <p className="text-[11px] font-bold" style={{ color: msmeClassResult.color }}>
@@ -2053,11 +2053,11 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
           {/* Progress & Competency Metadata */}
           <div className="flex flex-wrap items-center justify-between gap-4 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
-                <span className="px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded text-[10px] font-bold border border-indigo-800 uppercase">
+                <span className="px-2 py-0.5 bg-gold-950 text-gold-300 rounded text-[10px] font-bold border border-gold-800 uppercase">
                   Competency: {challenge.competencyLevel}
                 </span>
                 <span className="px-2 py-0.5 bg-slate-800 text-slate-300 rounded text-[10px] font-bold border border-slate-700">
@@ -2083,7 +2083,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2156,7 +2156,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-white text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-xl text-white text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2194,7 +2194,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 4}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2251,7 +2251,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Confirm Order
                 </motion.button>
@@ -2269,7 +2269,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm max-w-xs focus:border-indigo-500 focus:outline-none"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm max-w-xs focus:border-gold-500 focus:outline-none"
                   />
                   <span className="text-sm font-semibold text-slate-300">{challenge.unit}</span>
 
@@ -2279,7 +2279,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2313,7 +2313,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                   {constructParts.map((p, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 bg-indigo-900/80 text-indigo-200 rounded-lg text-xs font-bold border border-indigo-700 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900/80 text-gold-200 rounded-lg text-xs font-bold border border-gold-700 flex items-center gap-1.5"
                     >
                       {p}
                       <button
@@ -2336,7 +2336,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow disabled:opacity-40"
                 >
                   Verify Construction
                 </motion.button>
@@ -2348,7 +2348,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800/80 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800/80 rounded-2xl space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-amber-400 uppercase tracking-wide">
@@ -2372,7 +2372,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs md:text-sm text-slate-200 leading-relaxed"
                       >
-                        <strong className="text-indigo-400">{i + 1}.</strong> {sentence}
+                        <strong className="text-gold-400">{i + 1}.</strong> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2389,7 +2389,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                         setRevealedSteps(s => s + 1);
                         audioManager.play('tap');
                       }}
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-xl"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2421,7 +2421,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
           className="space-y-6"
         >
           {/* Hero Banner */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-3">
             <span className="text-4xl" aria-hidden="true">🎓</span>
             <h2 className="text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2437,7 +2437,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
               </div>
               <div className="px-5 py-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block font-semibold">BKT Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">
+                <span className="text-2xl font-black text-gold-400 capitalize">
                   {masteryLevel}
                 </span>
               </div>
@@ -2445,7 +2445,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
           </div>
 
           {/* Motivational Feedback Banner */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-700/60 text-xs md:text-sm text-indigo-100 flex items-start gap-3">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-700/60 text-xs md:text-sm text-gold-100 flex items-start gap-3">
             <span className="text-2xl" aria-hidden="true">🎯</span>
             <div>
               <span className="font-bold text-amber-300 block mb-1">Motivational Feedback:</span>
@@ -2454,7 +2454,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
           </div>
 
           {/* Spaced Repetition (SRS) Visibility Banner */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-3xl border border-amber-600/40 shadow-lg space-y-3">
+          <div className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 rounded-3xl border border-amber-600/40 shadow-lg space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-2.5">
                 <span className="text-2xl" aria-hidden="true">📅</span>
@@ -2516,7 +2516,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
 
             <div className="space-y-4">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label htmlFor="ref-surprising" className="text-xs font-bold text-indigo-300 block">
+                <label htmlFor="ref-surprising" className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2524,7 +2524,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
                   value={reflections.surprising}
                   onChange={e => setReflections({ ...reflections, surprising: e.target.value })}
                   placeholder="e.g., That selling a personal car isn't business due to lack of regularity..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2597,7 +2597,7 @@ function C11_BusinessStudiesMeaningFeaturesBusinessSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-200 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-200 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

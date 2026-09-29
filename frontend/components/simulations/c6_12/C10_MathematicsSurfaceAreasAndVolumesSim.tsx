@@ -314,7 +314,7 @@ export function C10_MathematicsSurfaceAreasAndVolumesSim() {
           <div className="grid grid-cols-3 gap-2 mt-2 text-center">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Curved / Lateral SA</p>
-              <p className="font-mono font-bold text-indigo-300">{dims.csa.toFixed(1)}</p>
+              <p className="font-mono font-bold text-gold-300">{dims.csa.toFixed(1)}</p>
               <p className="text-[9px] text-slate-600">{dims.csaF} cm^2</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
@@ -342,10 +342,10 @@ export function C10_MathematicsSurfaceAreasAndVolumesSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Radius r</span><span className="font-mono font-bold text-indigo-400">{r} cm</span>
+                <span>Radius r</span><span className="font-mono font-bold text-gold-400">{r} cm</span>
               </div>
               <input type="range" min={1} max={10} value={r} aria-label="radius"
-                onChange={(e) => setR(Number(e.target.value))} className="w-full accent-indigo-500" />
+                onChange={(e) => setR(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             {shape !== 'sphere' && shape !== 'hemisphere' && (
               <div>

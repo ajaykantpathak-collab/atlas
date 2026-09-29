@@ -15,7 +15,9 @@ export const C12_SOC_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "sociology",
   "topic": "Significance Of a Sociology",
-  "chapters": ["Sociology Ch1: Significance Of a Sociology"],
+  "chapters": [
+   "Sociology Ch1: Significance Of a Sociology"
+  ],
   "nodeIds": [
    "c12_soc_cbse_01_001",
    "c12_soc_cbse_01_002",
@@ -109,7 +111,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The inaccuracy: Ghurye founded the *postgraduate* department (1919), but sociology entered India earlier through (1) Census ethnography (Risley, 1901)",
      "Personal trouble: Riya's individual anxiety about her marks and future. Social issue: The structural mismatch between the number of quality higher-education seats and the aspirant"
     ],
-    "hint": "Straight from the 'significance of a sociology of' slide -- match the key terms.",
+    "hint": "Straight from the 'significance of a sociology' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only 'competition' or 'population' without naming specific Indian structural mechanisms (reservation, coaching economy, regional inequality) shows inability to connect biography to history and social structure.",
     "id": "gen_c12_soc_ch01_q1",
     "nodeId": "c12_soc_cbse_01_001",
@@ -438,7 +440,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Dumont treats purity/pollution as the *universal cognitive structure* generating caste hierarchy — a single principle explaining all of India, comparable to Western individualism",
      "Introspection in psychology examines internal mental states; sociological self-reflexivity examines one's social location (class, caste, gender, religion"
     ],
-    "hint": "Straight from the 'significance of a sociology of' slide -- match the key terms.",
+    "hint": "Straight from the 'significance of a sociology' slide -- match the key terms.",
     "misconception": "A wrong answer that equates self-reflexivity with 'thinking about myself' misses the structural, outward-looking dimension: it is about seeing oneself as a social actor positioned in a web of power relations.",
     "id": "gen_c12_soc_ch01_q11",
     "nodeId": "c12_soc_cbse_01_001",
@@ -552,7 +554,7 @@ export const C12_SOC_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about significance of a sociology of?",
+    "What surprised you about significance of a sociology?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -562,14 +564,14 @@ export const C12_SOC_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_soc_ch02",
-  "title": "Demography",
+  "title": "Demography Is The Systematic",
   "subtitle": "Sociology · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Demography",
+  "topic": "Demography Is The Systematic",
   "chapters": [
-   "Sociology Ch2: Demography"
+   "Sociology Ch2: Demography Is The Systematic"
   ],
   "nodeIds": [
    "c12_soc_cbse_02_001",
@@ -589,7 +591,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Demography directly with your eyes?",
+   "question": "Can you see Demography Is The Systematic directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -600,7 +602,7 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Demography",
+    "title": "Demography Is The Systematic",
     "text": "Demography is the systematic, scientific study of human populations, focusing on their size, structure, distribution, and changes over time through the analysis of births, deaths, migration, and their social, economic, and political determinants and",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -664,7 +666,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Correct prediction: Increased rural-to-urban migration, especially of landless/poor households who previously relied on common resources for fuel, fodder, and supplementary food",
      "Demography is the systematic study of population. *Demos* means \"people\" and *graphein* means \"describe\", so demography literally means \"description of people\""
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the systematic' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"study of population\" without the etymology reveals the student has memorised the definition but not understood the term's origin, which is a common board-exam short-answer requirement.",
     "id": "gen_c12_soc_ch02_q1",
     "nodeId": "c12_soc_cbse_02_001",
@@ -853,7 +855,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The WPR rise without sectoral shift implies employment growth is concentrated in low-productivity primary/secondary activities (e",
      "Example question: \"How does patriarchal kinship structure influence son preference and subsequent sex-selective abortion in Haryana?"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the systematic' slide -- match the key terms.",
     "misconception": "A poor answer that gives a forecasting question (\"What will the sex ratio be in 2030?\") shows the student still conflates the two branches.",
     "id": "gen_c12_soc_ch02_q10",
     "nodeId": "c12_soc_cbse_02_001",
@@ -868,7 +870,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "In Bihar-Punjab circular migration, men leave; women left behind manage farms, negotiate with markets, and often gain decision-making authority (feminisation of agriculture)",
      "Formal demography is primarily quantitative, focusing on measurement and analysis of population change components (birth, death"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the systematic' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Formal demography is primarily quantitative, focusing on measurement and analysis of population change components",
     "id": "gen_c12_soc_ch02_q11",
     "nodeId": "c12_soc_cbse_02_001",
@@ -922,11 +924,11 @@ export const C12_SOC_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about demography?",
+    "What surprised you about demography is the systematic?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Demography mastered! 🎯",
+  "successLine": "Demography Is The Systematic mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1210,7 +1212,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Caste As a System Of mastered! 🎯",
+  "successLine": "Caste As a System mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1262,7 +1264,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Embeddedness",
+    "title": "Embeddedness Is The Sociological Concept",
     "text": "Embeddedness is the sociological concept (central to Karl Polanyi) that economic activities and markets are not autonomous spheres governed solely by their own laws, but are deeply rooted in, shaped by, and dependent on social relations, cultural norms,",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1310,13 +1312,13 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Globalisation",
+    "title": "Globalisation Refers To The Increasing",
     "text": "Globalisation refers to the increasing interconnection and integration of local, regional, national, and international markets through the accelerated movement of commodities, capital, information, technology, and people across borders.",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Market And Social Stratification Refer",
+    "title": "Market And Social Stratification",
     "text": "The market and social stratification refer to the systematic ways in which class (economic position) and caste (hereditary status hierarchy) structure differential access to market resources, opportunities, and networks, reinforcing existing inequalities",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1328,8 +1330,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define 'market as a social institution' in one sentence, contrasting it with the economic definition of a market.",
     "answer": "A market as a social institution is a culturally specific, socially embedded arena where exchange is shaped by social relations, norms, and power",
     "options": [
-     "The Jajmani system is a hereditary, caste-based patron-client relationship where service castes (kamins) provide specialised services to landowning patron castes (jajmans) in",
-     "An indigenous banker is a traditional moneylending/banking operator embedded in caste/kinship networks who uses community-based trust (not state regulation) to mobilise and lend",
+     "The student can (1) distinguish the Jajmani and Balutedar systems from market exchange by explaining how caste obligation, hereditary ties",
+     "The student can explain the mechanism of exploitation in tribal markets using the concepts of 'social embeddedness', 'middlemen', and 'forest economy'",
      "A market as a social institution is a culturally specific, socially embedded arena where exchange is shaped by social relations, norms, and power"
     ],
     "hint": "Straight from the 'market as a social institution' slide -- match the key terms.",
@@ -1345,16 +1347,47 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define 'embeddedness' in the context of Polanyi's critique of market society. Use the exact terminology from the NCERT textbook.",
-    "answer": "Embeddedness means that economies are socially 'embedded' — i.e., economic institutions and processes are situated within and shaped by larger social frameworks such as caste",
-    "options": [
-     "An indigenous banker is a traditional moneylending/banking operator embedded in caste/kinship networks who uses community-based trust (not state regulation) to mobilise and lend",
-     "Liberalisation is the process of reducing government controls over the economy to allow greater role for market forces",
-     "Embeddedness means that economies are socially 'embedded' — i.e., economic institutions and processes are situated within and shaped by larger social frameworks such as caste"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain Polanyi's concept of embeddedness",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "apply the embeddedness framework",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "contrast the sociological perspective",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Embeddedness' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., 'embeddedness means the economy is inside society') reveals a vague, spatial misunderstanding; the student misses the constitutive role of social relations in *creating* market rules, trust, and access.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain Polanyi's concept of embeddedness in their own words with reference to the NCERT examples",
     "id": "gen_c12_soc_ch04_q2",
     "nodeId": "c12_soc_cbse_04_002",
     "difficulty": "standard",
@@ -1370,8 +1403,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define a 'weekly haat' and state two features that distinguish it from a daily urban retail market.",
     "answer": "A weekly haat is a periodic market held on a fixed day in rural/tribal areas where people from surrounding villages gather for trade and social interaction",
     "options": [
-     "Social embeddedness means that markets are not autonomous economic spheres but are constructed, controlled, and organised by specific social groups (castes, classes",
-     "Liberalisation is the process of reducing government controls over the economy to allow greater role for market forces",
+     "The student can (1) explain Polanyi's concept of embeddedness in their own words with reference to the NCERT examples (weekly haat, Nakarattar networks)",
+     "The student must be able to (1) explain how caste and class independently and intersectionally shape market access using at least two distinct mechanisms (e",
      "A weekly haat is a periodic market held on a fixed day in rural/tribal areas where people from surrounding villages gather for trade and social interaction"
     ],
     "hint": "Straight from the 'weekly market' slide -- match the key terms.",
@@ -1391,8 +1424,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define the Jajmani system in one sentence, specifying the nature of the exchange (what is exchanged, between whom, and on what basis).",
     "answer": "The Jajmani system is a hereditary, caste-based patron-client relationship where service castes (kamins) provide specialised services to landowning patron castes (jajmans) in",
     "options": [
-     "Embeddedness means that economies are socially 'embedded' — i.e., economic institutions and processes are situated within and shaped by larger social frameworks such as caste",
-     "A weekly haat is a periodic market held on a fixed day in rural/tribal areas where people from surrounding villages gather for trade and social interaction",
+     "Embeddedness is the sociological concept (central to Karl Polanyi) that economic activities and markets are not autonomous spheres governed solely by their own laws",
+     "The student can (1) distinguish the Jajmani and Balutedar systems from market exchange by explaining how caste obligation, hereditary ties",
      "The Jajmani system is a hereditary, caste-based patron-client relationship where service castes (kamins) provide specialised services to landowning patron castes (jajmans) in"
     ],
     "hint": "Straight from the 'Jajmani system' slide -- match the key terms.",
@@ -1412,8 +1445,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define 'indigenous banker' in the Indian sociological context and name two historical examples from the NCERT text.",
     "answer": "An indigenous banker is a traditional moneylending/banking operator embedded in caste/kinship networks who uses community-based trust (not state regulation) to mobilise and lend",
     "options": [
-     "A weekly haat is a periodic market held on a fixed day in rural/tribal areas where people from surrounding villages gather for trade and social interaction",
-     "The Jajmani system is a hereditary, caste-based patron-client relationship where service castes (kamins) provide specialised services to landowning patron castes (jajmans) in",
+     "The student can explain how land becomes a commodity in India by tracing the historical shift from land as a social resource with layered rights to land as a transferable asset",
+     "The student can explain, with at least two concrete Indian examples (e.g., tribal haat, Nakarattar banking)",
      "An indigenous banker is a traditional moneylending/banking operator embedded in caste/kinship networks who uses community-based trust (not state regulation) to mobilise and lend"
     ],
     "hint": "Straight from the 'market for credit' slide -- match the key terms.",
@@ -1711,6 +1744,52 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyze a real-world case",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Explain how caste",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Distinguish between bonded",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Distinguish between bonded, attached, and informal labour using sociological criteria (coercion,",
+    "id": "gen_c12_soc_ch04_q12",
+    "nodeId": "c12_soc_cbse_04_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "\"Commercialisation of agriculture modernised Indian agriculture by integrating it into global markets.\" Evaluate this statement using evidence from the indigo (Bengal/Bihar) and cotton (Deccan) cases, addressing both productivity and social costs.",
     "sortItems": [
      {
@@ -1751,8 +1830,100 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"railways and ports\" as modernisation misses the *colonial purpose* — infrastructure served extraction, not agricultural productivity.",
-    "id": "gen_c12_soc_ch04_q12",
+    "id": "gen_c12_soc_ch04_q13",
     "nodeId": "c12_soc_cbse_04_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate competing historiographical",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "trace the causal chain from colonial land",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how this transformed social",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) trace the causal chain from colonial land revenue policies to forced commercialisation,",
+    "id": "gen_c12_soc_ch04_q14",
+    "nodeId": "c12_soc_cbse_04_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze the differential impact of these",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate the market-versus-state debate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the mechanisms of globalisation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) explain the mechanisms of globalisation and liberalisation using specific Indian",
+    "id": "gen_c12_soc_ch04_q15",
+    "nodeId": "c12_soc_cbse_04_010",
     "difficulty": "advanced"
    },
    {
@@ -1808,7 +1979,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer that suggests 'survey people about discrimination' without structural variables shows inability to operationalise stratification as a measurable market mechanism.",
-    "id": "gen_c12_soc_ch04_q13",
+    "id": "gen_c12_soc_ch04_q16",
     "nodeId": "c12_soc_cbse_04_011",
     "difficulty": "advanced"
    },
@@ -1854,7 +2025,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that accepts the 'merit vs. reservation' binary reveals failure to see markets as socially constructed arenas where 'merit' is a stratified outcome.",
-    "id": "gen_c12_soc_ch04_q14",
+    "id": "gen_c12_soc_ch04_q17",
     "nodeId": "c12_soc_cbse_04_011",
     "difficulty": "advanced"
    },
@@ -1900,54 +2071,9 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing only 'low prices' or 'exploitation' without naming the structural mechanisms (intermediation, credit control, consumption patterning) shows inability to analyse stratification as a system.",
-    "id": "gen_c12_soc_ch04_q15",
+    "id": "gen_c12_soc_ch04_q18",
     "nodeId": "c12_soc_cbse_04_011",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A new online platform allows people to rent out their spare rooms to tourists (like Airbnb). Using the concept of commodification, explain how this transforms a previously non-market social practice into a market transaction. Identify the new social relations created.",
-    "answer": "Commodification occurs when something previously outside market exchange (hospitality, staying with kin/friends) becomes a paid service",
-    "options": [
-     "The statement assumes markets are purely informational/efficiency problems. Social embeddedness means tribal markets are structured by caste hierarchy",
-     "The demand is sociologically grounded because Jajmani payments are *customary* (fixed by tradition, not market supply-demand) and tied to the kamin's hereditary right (watan)",
-     "Commodification occurs when something previously outside market exchange (hospitality, staying with kin/friends) becomes a paid service"
-    ],
-    "hint": "Straight from the 'market as a social institution' slide -- match the key terms.",
-    "misconception": "A wrong answer that only says 'people earn money from rooms' misses the transformation of social relations and the symbolic shift from hospitality to commercial service.",
-    "id": "gen_c12_soc_ch04_q16",
-    "nodeId": "c12_soc_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the weekly tribal haat in Dhorai (Bastar) with a modern urban supermarket. Analyse how each reflects different forms of social embeddedness and power relations.",
-    "answer": "The Dhorai haat is embedded in caste/kinship, ritual, and face-to-face relations: adivasis sell forest produce to Hindu traders, forest officials pay wages",
-    "options": [
-     "Marwaris possessed dense caste-based social capital (trust networks, community credit, information channels) that allowed them to pivot from trade to industry when licences opened",
-     "Nakarattars: trust based on caste/kinship reputation and shared communal reserves; spatial reach through caste networks across regions",
-     "The Dhorai haat is embedded in caste/kinship, ritual, and face-to-face relations: adivasis sell forest produce to Hindu traders, forest officials pay wages"
-    ],
-    "hint": "Straight from the 'market as a social institution' slide -- match the key terms.",
-    "misconception": "A wrong answer that only lists physical differences (open vs. air-conditioned) fails to analyse the underlying social structures and power asymmetries.",
-    "id": "gen_c12_soc_ch04_q17",
-    "nodeId": "c12_soc_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a new example of commodification in contemporary India that is NOT mentioned in the textbook. Describe the good/service, the social practice it replaces, and the new social relations it creates.",
-    "answer": "Example: Professional 'elderly care companionship' services in urban India. Previously, caring for aging parents was a family duty (filial piety, co-residence)",
-    "options": [
-     "1. Traders from the town will replace local caste-Hindu traders, reducing adivasis' bargaining power (as in colonial Bastar)",
-     "Commodification occurs when something previously outside market exchange (hospitality, staying with kin/friends) becomes a paid service",
-     "Example: Professional 'elderly care companionship' services in urban India. Previously, caring for aging parents was a family duty (filial piety, co-residence)"
-    ],
-    "hint": "Straight from the 'market as a social institution' slide -- match the key terms.",
-    "misconception": "A poor answer would replicate textbook examples (bottled water, marriage bureaus) or describe mere commercialisation without identifying the replaced social practice and new relations.",
-    "id": "gen_c12_soc_ch04_q18",
-    "nodeId": "c12_soc_cbse_04_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -1962,14 +2088,14 @@ export const C12_SOC_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_soc_ch05",
-  "title": "Prejudice",
+  "title": "Prejudice Is a Pre-conceived Opinion",
   "subtitle": "Sociology · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Prejudice",
+  "topic": "Prejudice Is a Pre-conceived Opinion",
   "chapters": [
-   "Sociology Ch5: Prejudice"
+   "Sociology Ch5: Prejudice Is a Pre-conceived Opinion"
   ],
   "nodeIds": [
    "c12_soc_cbse_05_002",
@@ -1988,7 +2114,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Prejudice in real working life?",
+   "question": "Who uses Prejudice Is a Pre-conceived in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1999,7 +2125,7 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Prejudice",
+    "title": "Prejudice Is a Pre-conceived Opinion",
     "text": "Prejudice is a pre-conceived opinion or attitude held by members of one group towards another, formed without evidence or direct experience; stereotype is a fixed, inflexible generalisation that assigns a single trait to an entire group; discrimination is the",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2017,7 +2143,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Adivasis",
+    "title": "Adivasis Are Indigenous",
     "text": "Adivasis (literally 'original inhabitants') are indigenous tribal communities in India constitutionally recognized as Scheduled Tribes, characterized by distinct cultural identities, languages, and a historical symbiotic relationship with forests and land,",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2053,11 +2179,11 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define prejudice, stereotype, and discrimination in one sentence each, using the NCERT distinction between attitude, cognition, and behaviour.",
     "answer": "Prejudice is a pre-judgement or attitude (positive/negative) toward a group without evidence",
     "options": [
-     "The RPwD Act 2016 recognises 21 disability conditions (Section 2(zc) read with the Schedule). Four conditions added beyond the 1995 Act's seven are: autism spectrum disorder",
+     "The student can (1) explain how the RPwD Act 2016 operationalises the social model of disability through specific provisions (reasonable accommodation, universal design",
      "The medical model defines disability as a biological/medical impairment within the individual that needs cure or rehabilitation; the problem is located in the person's body/mind",
      "Prejudice is a pre-judgement or attitude (positive/negative) toward a group without evidence"
     ],
-    "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
+    "hint": "Straight from the 'Prejudice is a pre-conceived' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates them (e.g., \"prejudice is discrimination\") reveals the student cannot separate the cognitive, affective, and behavioural components — a critical error for board questions that ask \"Distinguish between...\" (2-3 marks).",
     "id": "gen_c12_soc_ch05_q1",
     "nodeId": "c12_soc_cbse_05_002",
@@ -2597,7 +2723,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
      "This is primarily a positive stereotype (fixed belief about a group's trait) leading to positive prejudice (favourable pre-judgement) and discriminatory behaviour (unequal"
     ],
-    "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
+    "hint": "Straight from the 'Prejudice is a pre-conceived' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"just a compliment\" shows failure to grasp that stereotypes fix groups into homogenous categories (NCERT: \"They treat an entire community as though it were a single person\").",
     "id": "gen_c12_soc_ch05_q12",
     "nodeId": "c12_soc_cbse_05_002",
@@ -2612,7 +2738,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation",
      "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic"
     ],
-    "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
+    "hint": "Straight from the 'Prejudice is a pre-conceived' slide -- match the key terms.",
     "misconception": "A poor answer shows only one mechanism or reverses the order, indicating the student hasn't internalised the sequence: cognitive shortcut → affective judgement → behavioural exclusion.",
     "id": "gen_c12_soc_ch05_q13",
     "nodeId": "c12_soc_cbse_05_002",
@@ -2627,7 +2753,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Panel 1 (Stereotype): \"Students from Village X are always dirty.\" Panel 2 (Prejudice): Teacher thinks, \"This new student from Village X will probably be unhygienic",
      "The owner holds a stereotype (all bachelors are noisy/destructive), a prejudice (negative pre-judgement applied to the applicant without knowing him)"
     ],
-    "hint": "Straight from the 'Prejudice' slide -- match the key terms.",
+    "hint": "Straight from the 'Prejudice is a pre-conceived' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the owner's justification reveals the student thinks prejudice requires conscious malice, missing that it operates through seemingly \"rational\" stereotypes.",
     "id": "gen_c12_soc_ch05_q14",
     "nodeId": "c12_soc_cbse_05_002",
@@ -2672,7 +2798,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation",
      "A robust framework would include: (1) Land-for-land in the same ecological zone with community title (not individual pattas), ensuring livelihood continuity"
     ],
-    "hint": "Straight from the 'Adivasis' slide -- match the key terms.",
+    "hint": "Straight from the 'Adivasis are indigenous' slide -- match the key terms.",
     "misconception": "A poor answer offering only cash, housing plots, and job promises repeats the failed 'package' approach that treats displacement as a one-time transaction rather than ongoing alienation.",
     "id": "gen_c12_soc_ch05_q17",
     "nodeId": "c12_soc_cbse_05_006",
@@ -2687,7 +2813,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "(1) The displaced — Adivasis formed a large majority among those displaced by Sardar Sarovar and an even larger share by Polavaram, where hill tribes predominated",
      "This argument reflects a majoritarian utilitarian logic that treats Adivasi lives as 'sacrifice zones'"
     ],
-    "hint": "Straight from the 'Adivasis' slide -- match the key terms.",
+    "hint": "Straight from the 'Adivasis are indigenous' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the 'national interest' framing uncritically ignores how 'national development' is socially constructed to serve dominant class/regional interests.",
     "id": "gen_c12_soc_ch05_q18",
     "nodeId": "c12_soc_cbse_05_006",
@@ -2696,11 +2822,11 @@ export const C12_SOC_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about prejudice?",
+    "What surprised you about prejudice is a pre-conceived opinion?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Prejudice mastered! 🎯",
+  "successLine": "Prejudice Is a Pre-conceived mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2758,13 +2884,13 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Nation-state",
+    "title": "The Nation-state Is a Political Entity",
     "text": "The nation-state is a political entity where a nation (a community of communities bound by shared political aspirations) coincides with a state (a set of political-legal institutions claiming monopoly over legitimate force in a territory).",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Communalism",
+    "title": "Communalism Is An Aggressive Political",
     "text": "Communalism is an aggressive political ideology that mobilizes religious identity to define the political community, claiming that the interests of one religious group are fundamentally opposed to those of others, thereby justifying exclusion, discrimination,",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2788,7 +2914,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Linguistic Reorganisation Of States",
+    "title": "Linguistic Reorganisation",
     "text": "The Linguistic Reorganisation of States (1956) refers to the large-scale redrawing of India's internal political boundaries along linguistic lines, implemented on November 1, 1956, based on the recommendations of the States Reorganisation Commission (SRC)",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2864,7 +2990,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Two ascriptive identities operate: (1) Mother tongue (Tamil) — acquired at birth, cannot be changed despite learning Marathi",
      "Ascriptive identities are those assigned at birth without individual choice — e.g., caste, religion, language, region, kinship"
     ],
-    "hint": "Straight from the 'nation-state' slide -- match the key terms.",
+    "hint": "Straight from the 'The nation-state is a political' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Ascriptive identities are those assigned at birth without individual choice — e.",
     "id": "gen_c12_soc_ch06_q3",
     "nodeId": "c12_soc_cbse_06_003",
@@ -2885,7 +3011,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The statement is false. Linguistic states strengthened unity by allowing dual identities (Kannadiga and Indian)",
      "The claim is false. While pre-colonial conflicts existed, the NCERT emphasizes that communal violence is politically orchestrated, not spontaneous"
     ],
-    "hint": "Straight from the 'Communalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Communalism is an aggressive' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the \"ancient hatreds\" narrative ignores the political economy of riot production and the historical evidence of coexistence.",
     "id": "gen_c12_soc_ch06_q4",
     "nodeId": "c12_soc_cbse_06_004",
@@ -2949,7 +3075,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Linguistic states strengthened unity because they allowed cultural identities (language) to find political expression within the federal framework, preventing secessionist demands",
      "The trust's claim fails. Article 30(1) gives the right to establish and administer, but Article 30(2) explicitly states: \"The State shall not"
     ],
-    "hint": "Straight from the 'Articles 29 and 30 of' slide -- match the key terms.",
+    "hint": "Straight from the 'Articles 29 and 30' slide -- match the key terms.",
     "misconception": "A wrong answer claiming absolute autonomy ignores Article 30(2) and the \"principled distance\" model of Indian secularism discussed in the chapter.",
     "id": "gen_c12_soc_ch06_q7",
     "nodeId": "c12_soc_cbse_06_007",
@@ -2970,7 +3096,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The trust's claim fails. Article 30(1) gives the right to establish and administer, but Article 30(2) explicitly states: \"The State shall not",
      "By conceding the Telugu demand through Andhra (1953) and then generalising the principle via SRC (1956)"
     ],
-    "hint": "Straight from the 'Linguistic Reorganisation of' slide -- match the key terms.",
+    "hint": "Straight from the 'Linguistic Reorganisation' slide -- match the key terms.",
     "misconception": "A wrong answer that merely lists the states created without linking to the comparative mechanism (accommodation vs. suppression) fails the application test — it treats history as facts rather than as a sociological process.",
     "id": "gen_c12_soc_ch06_q8",
     "nodeId": "c12_soc_cbse_06_008",
@@ -3145,7 +3271,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Two ascriptive identities operate: (1) Mother tongue (Tamil) — acquired at birth, cannot be changed despite learning Marathi",
      "Linguistic states strengthened unity because they allowed cultural identities (language) to find political expression within the federal framework, preventing secessionist demands"
     ],
-    "hint": "Straight from the 'nation-state' slide -- match the key terms.",
+    "hint": "Straight from the 'The nation-state is a political' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Linguistic states strengthened unity because they allowed cultural identities (language) to find political expression",
     "id": "gen_c12_soc_ch06_q16",
     "nodeId": "c12_soc_cbse_06_003",
@@ -3263,7 +3389,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Conducting Fieldwork In Sociology Involves",
+    "title": "Conducting Fieldwork In Sociology",
     "text": "Conducting fieldwork in sociology involves the systematic immersion of the researcher in a natural social setting to collect qualitative data through participant observation, in-depth interviews, and informal interactions, while actively managing three",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3320,8 +3446,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What is the defining characteristic of the survey method that distinguishes it from the interview method?",
     "answer": "The survey method uses a fixed set of standardized questions administered to a relatively large number of respondents, whereas the interview method involves flexible",
     "options": [
-     "Rapport is a relationship of mutual trust, respect, and understanding established between the researcher and participants that enables open",
-     "The mandatory sections in order are: Title Page, Declaration, Acknowledgements, Table of Contents, Introduction, Literature Review, Methodology, Data Presentation",
+     "Students believe project work means \"collecting data\" — they equate research with distributing questionnaires or counting responses",
+     "The student can articulate why project work is essential in sociology, distinguish between reading about research and doing research",
      "The survey method uses a fixed set of standardized questions administered to a relatively large number of respondents, whereas the interview method involves flexible"
     ],
     "hint": "Straight from the 'sociological project type' slide -- match the key terms.",
@@ -3797,6 +3923,144 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Choose between probability",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Define the study population and sampling",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Calculate the required sample size",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Define the study population and sampling frame for a given research question, (2) Choose between",
+    "id": "gen_c12_soc_ch07_q11",
+    "nodeId": "c12_soc_cbse_07_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "a written",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "an ethics checklist addressing informed",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "a step-by-step rapport-building strategy",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to design a fieldwork protocol for a specific Class 12 project topic that includes: (1) a",
+    "id": "gen_c12_soc_ch07_q12",
+    "nodeId": "c12_soc_cbse_07_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between qualitative",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "demonstrate the step-by-step process",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "integrate findings from both",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish between qualitative and quantitative data types and select the appropriate",
+    "id": "gen_c12_soc_ch07_q13",
+    "nodeId": "c12_soc_cbse_07_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate this bibliography entry for a Class 12 project: \"NCERT. (2023). Indian Society: Textbook for Class XII. New Delhi: NCERT.\" Identify all APA 7th edition errors and provide the corrected version.",
     "sortItems": [
      {
@@ -3859,7 +4123,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Errors: (1) Author should be \"NCERT\" as corporate author — correct.",
-    "id": "gen_c12_soc_ch07_q11",
+    "id": "gen_c12_soc_ch07_q14",
     "nodeId": "c12_soc_cbse_07_008",
     "difficulty": "advanced"
    },
@@ -3874,7 +4138,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Project work in sociology' slide -- match the key terms.",
     "misconception": "A student who thinks surveys are \"always best\" confuses breadth with suitability and ignores the research question as the primary driver of method choice.",
-    "id": "gen_c12_soc_ch07_q12",
+    "id": "gen_c12_soc_ch07_q15",
     "nodeId": "c12_soc_cbse_07_001",
     "difficulty": "standard"
    },
@@ -3889,7 +4153,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Project work in sociology' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Interview captures self-reported feelings and reasons (\"I feel happy because.",
-    "id": "gen_c12_soc_ch07_q13",
+    "id": "gen_c12_soc_ch07_q16",
     "nodeId": "c12_soc_cbse_07_001",
     "difficulty": "standard"
    },
@@ -3904,68 +4168,23 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Project work in sociology' slide -- match the key terms.",
     "misconception": "A student who treats the project as \"mini-research\" aiming for publishable results misunderstands the goal: developing *sociological sensibility* (asking researchable questions, matching method to question, reflexivity).",
-    "id": "gen_c12_soc_ch07_q14",
+    "id": "gen_c12_soc_ch07_q17",
     "nodeId": "c12_soc_cbse_07_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "You want to study \"how students in your school experience the shift from offline to online classes during the pandemic.\" Formulate ONE specific research question from this broad topic, and justify why you would choose EITHER interview OR observation (not both) as your primary method, referencing the NCERT's criteria",
-    "answer": "Specific research question: \"How did the shift to online classes affect the quality of peer interaction and teacher-student rapport for Class 10 students in my school?",
+    "question": "What common mix-up does this lesson flag about Project work in sociology?",
+    "answer": "Students believe project work means \"collecting data\" — they equate research with distributing questionnaires or counting responses",
     "options": [
-     "The plan treats 'caste' as a single broad topic rather than a focused research question, targets an unrealistic sample size (500) for a school project",
-     "The NCERT explicitly states: \"Every research question needs an appropriate or suitable research method",
-     "Specific research question: \"How did the shift to online classes affect the quality of peer interaction and teacher-student rapport for Class 10 students in my school?"
+     "Student can independently construct a questionnaire with 10+ questions (mix of open/closed, Likert, demographic), an interview schedule with probes and sequencing logic",
+     "The student must be able to independently structure a complete sociological project report with all mandatory sections (title page, declaration, acknowledgements, contents",
+     "Students believe project work means \"collecting data\" — they equate research with distributing questionnaires or counting responses"
     ],
     "hint": "Straight from the 'Project work in sociology' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Specific research question: \"How did the shift to online classes affect the quality of peer interaction and",
-    "id": "gen_c12_soc_ch07_q15",
-    "nodeId": "c12_soc_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student wants to study the unwritten rules of seating arrangement in the school canteen during lunch. Explain why observation is more suitable than a survey for this specific question.",
-    "answer": "Observation captures actual behavior (where people sit, who sits with whom) without relying on respondents' memory or awareness of unwritten rules",
-    "options": [
-     "Scenario: A 16-year-old participant reveals suicidal ideation in an anonymous survey. The researcher sees the response but cannot identify the student due to anonymity",
-     "Research question: \"What are the social relations and economic circuits through which a smartphone moves from factory to consumer in India",
-     "Observation captures actual behavior (where people sit, who sits with whom) without relying on respondents' memory or awareness of unwritten rules"
-    ],
-    "hint": "Straight from the 'sociological project type' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"observation is easier\") shows the student is choosing based on convenience rather than the fit between method and the nature of the social phenomenon (implicit norms vs. explicit opinions).",
-    "id": "gen_c12_soc_ch07_q16",
-    "nodeId": "c12_soc_cbse_07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the case study method and the survey method on the dimensions of generalizability and depth of understanding. Which method would you choose to study the impact of a new government scholarship scheme on a single tribal community, and why?",
-    "answer": "Case study provides high depth (rich contextual detail, process tracing) but low generalizability; survey provides high generalizability (if sampled well) but low depth",
-    "options": [
-     "In-depth interviews pose greater confidentiality risks because they collect detailed, identifiable narratives in private settings where the researcher's presence may be noticed by",
-     "Reading about research provides second-hand knowledge of findings and methods; doing research gives first-hand experience of the entire research cycle",
-     "Case study provides high depth (rich contextual detail, process tracing) but low generalizability; survey provides high generalizability (if sampled well) but low depth"
-    ],
-    "hint": "Straight from the 'sociological project type' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing survey for \"scientific rigor\" ignores the trade-off between breadth and depth and the specific research goal.",
-    "id": "gen_c12_soc_ch07_q17",
-    "nodeId": "c12_soc_cbse_07_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the following research design: \"To study classroom participation patterns, I will observe two Class 12 sections for one period each and then give a survey to all students in those sections about their participation habits.\" Identify one major strength and one major limitation of this mixed-method approach.",
-    "answer": "Strength: Triangulation — observation captures actual behavior (including silent participation) while survey captures self-perceived habits and reasons",
-    "options": [
-     "The plan treats 'caste' as a single broad topic rather than a focused research question, targets an unrealistic sample size (500) for a school project",
-     "Specific research question: \"How did the shift to online classes affect the quality of peer interaction and teacher-student rapport for Class 10 students in my school?",
-     "Strength: Triangulation — observation captures actual behavior (including silent participation) while survey captures self-perceived habits and reasons"
-    ],
-    "hint": "Straight from the 'sociological project type' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Strength: Triangulation — observation captures actual behavior (including silent participation) while survey captures",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe project work means \"collecting data\" — they equate research with distributing questionnaires or",
     "id": "gen_c12_soc_ch07_q18",
-    "nodeId": "c12_soc_cbse_07_002",
+    "nodeId": "c12_soc_cbse_07_001",
     "difficulty": "standard"
    }
   ],
@@ -3981,14 +4200,14 @@ export const C12_SOC_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_soc_ch08",
-  "title": "Colonialism",
+  "title": "Colonialism Is a System Of Domination",
   "subtitle": "Sociology · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Colonialism",
+  "topic": "Colonialism Is a System Of Domination",
   "chapters": [
-   "Sociology Ch8: Colonialism"
+   "Sociology Ch8: Colonialism Is a System Of Domination"
   ],
   "nodeIds": [
    "c12_soc_cbse_08_001",
@@ -4010,7 +4229,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Colonialism outside the classroom?",
+   "question": "Quick guess -- where do you meet Colonialism Is a System Of outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4021,7 +4240,7 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Colonialism",
+    "title": "Colonialism Is a System Of Domination",
     "text": "Colonialism is a system of domination where a capitalist country establishes political, economic, and legal control over another territory to extract surplus and restructure the colony's economy for the benefit of the coloniser's capital accumulation,",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4162,16 +4381,47 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What was the fundamental difference between the Zamindari and Ryotwari systems in terms of who was legally responsible for paying land revenue to the colonial state?",
-    "answer": "In the Zamindari system, the zamindar (landlord/intermediary) was legally responsible for paying a fixed revenue to the state, while in the Ryotwari system",
-    "options": [
-     "Pre-colonial migration was largely voluntary (traders, artisans, soldiers) or state-organised (e.g",
-     "Colonial capitalism is the restructuring of a colonised economy by a capitalist metropole to serve its own capital accumulation through direct intervention in production",
-     "In the Zamindari system, the zamindar (landlord/intermediary) was legally responsible for paying a fixed revenue to the state, while in the Ryotwari system"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how each system altered pre-colonial",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish the three systems by their unit",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "analyze the long-term structural",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Zamindari, Ryotwari, and' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both made peasants pay directly\") reveals confusion about the intermediary role — the defining institutional feature that created a landlord class in Zamindari areas but not in Ryotwari areas.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish the three systems by their unit of settlement, revenue fixation method, and role of",
     "id": "gen_c12_soc_ch08_q3",
     "nodeId": "c12_soc_cbse_08_003",
     "difficulty": "advanced",
@@ -4207,8 +4457,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What was the primary legal instrument used to recruit and retain labour for Assam tea plantations in the 1860s–1870s, and what made it \"penal\" in character?",
     "answer": "The Transport of Native Labourers Act (Act III of 1863, amended 1865, 1870, 1873) was the primary instrument",
     "options": [
+     "The student can (1) distinguish the three systems by their unit of settlement, revenue fixation method, and role of intermediaries",
      "The three villages were Kolikata, Gobindapur, and Sutanuti. The defensive structure was Fort William",
-     "The competitive examination was introduced to replace the patronage-based nomination system of the East India Company with a meritocratic recruitment method that would attract",
      "The Transport of Native Labourers Act (Act III of 1863, amended 1865, 1870, 1873) was the primary instrument"
     ],
     "hint": "Straight from the 'Industrialisation in colonial' slide -- match the key terms.",
@@ -4228,9 +4478,9 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Name the three villages leased by Job Charnock in 1690 that became the nucleus of Calcutta, and identify the defensive structure that anchored its early spatial layout.",
     "answer": "The three villages were Kolikata, Gobindapur, and Sutanuti. The defensive structure was Fort William",
     "options": [
+     "The Transport of Native Labourers Act (Act III of 1863, amended 1865, 1870, 1873) was the primary instrument",
      "The competitive examination was introduced to replace the patronage-based nomination system of the East India Company with a meritocratic recruitment method that would attract",
-     "The explicit purpose was to create \"a class of persons, Indian in blood and colour, but English in taste, in opinions",
-     "The three villages were Kolikata, Gobindapur, and Sutanuti. The defensive structure was Mukerjee",
+     "The three villages were Kolikata, Gobindapur, and Sutanuti. The defensive structure was Lutyens' Delhi",
      "The three villages were Kolikata, Gobindapur, and Sutanuti. The defensive structure was Fort William"
     ],
     "hint": "Straight from the 'Urbanisation under colonialism' slide -- match the key terms.",
@@ -4250,8 +4500,9 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What was the primary reason the British introduced a competitive examination for the Indian Civil Service (ICS) in 1855?",
     "answer": "The competitive examination was introduced to replace the patronage-based nomination system of the East India Company with a meritocratic recruitment method that would attract",
     "options": [
-     "The explicit purpose was to create \"a class of persons, Indian in blood and colour, but English in taste, in opinions",
-     "The core argument was that Britain systematically extracted India's economic surplus (through home charges, salaries to British officials, interest on railways, etc",
+     "Colonialism is a system of domination where a capitalist country establishes political, economic",
+     "The student must be able to (1) distinguish colonial rule from pre-capitalist conquests by explaining the role of capitalist profit motive in restructuring land, labour, and law",
+     "The competitive examination was introduced to replace the patronage-based nomination system of the District Superintendent with a meritocratic recruitment method that would attract",
      "The competitive examination was introduced to replace the patronage-based nomination system of the East India Company with a meritocratic recruitment method that would attract"
     ],
     "hint": "Straight from the 'colonial administration' slide -- match the key terms.",
@@ -4271,8 +4522,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What was the explicit purpose of Macaulay's Minute (1835) according to the British colonial state?",
     "answer": "The explicit purpose was to create \"a class of persons, Indian in blood and colour, but English in taste, in opinions",
     "options": [
-     "The competitive examination was introduced to replace the patronage-based nomination system of the East India Company with a meritocratic recruitment method that would attract",
      "The core argument was that Britain systematically extracted India's economic surplus (through home charges, salaries to British officials, interest on railways, etc",
+     "Colonialism is a system of domination where a capitalist country establishes political, economic",
      "The explicit purpose was to create \"a class of persons, Indian in blood and colour, but English in taste, in opinions"
     ],
     "hint": "Straight from the 'English Education System' slide -- match the key terms.",
@@ -4485,7 +4736,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The claim is misleading. Under Mahalwari, the village body (often dominated by dominant castes) was jointly liable for the total revenue demand",
      "The railways were built to serve British capitalism: they linked interior raw-material zones (cotton, jute, coal) to ports (Bombay, Calcutta, Madras) for cheap export to Britain"
     ],
-    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"railways helped travel/trade\" misses the sociological analysis of *unequal exchange* and *dependent development*.",
     "id": "gen_c12_soc_ch08_q12",
     "nodeId": "c12_soc_cbse_08_001",
@@ -4500,7 +4751,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Colonial capitalism is the restructuring of a colonised economy by a capitalist metropole to serve its own capital accumulation through direct intervention in production",
      "Pre-capitalist conquerors extracted tribute from the traditionally produced economic surplus without interfering with the economic base (land relations, crops, manufacturing)"
     ],
-    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both took tribute\") reveals the student misses the core sociological distinction: colonialism as a *structural transformation* driven by capital accumulation, not just political domination.",
     "id": "gen_c12_soc_ch08_q13",
     "nodeId": "c12_soc_cbse_08_001",
@@ -4515,7 +4766,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Similarities: (1) Both rely on long-distance circular migration — tea workers from Bihar/Jharkhand to Assam; Madhopur villagers to Bombay/Calcutta",
      "Pre-colonial migration was largely voluntary (traders, artisans, soldiers) or state-organised (e.g"
     ],
-    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
     "misconception": "A weak answer merely lists migrations without analysing the *capitalist coercion* and *legal framework* (penal laws) behind them.",
     "id": "gen_c12_soc_ch08_q14",
     "nodeId": "c12_soc_cbse_08_001",
@@ -4530,7 +4781,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Example answer: City: Delhi. Indicators: (1) Per capita green cover / road width in Lutyens' Delhi vs Seelampur (measuring 'spacious bungalows, planned streets",
      "Example: The Indian Police Act, 1861 was enacted after the 1857 Revolt to create a police force *subordinate to the executive* (District Magistrate) for colonial control"
     ],
-    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
     "misconception": "A weak answer gives a vague cultural example (e.g., \"we speak English\") without structural analysis.",
     "id": "gen_c12_soc_ch08_q15",
     "nodeId": "c12_soc_cbse_08_001",
@@ -4545,7 +4796,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The Permanent Settlement was introduced in Bengal because the East India Company wanted a fixed, guaranteed revenue stream with minimal administrative cost",
      "The statement is partially true but sociologically incomplete. The British *did* introduce the nation-state form (sovereign territory, citizenship"
     ],
-    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially true but sociologically incomplete. The British *did* introduce the nation-state form",
     "id": "gen_c12_soc_ch08_q16",
     "nodeId": "c12_soc_cbse_08_001",
@@ -4560,7 +4811,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "A strong answer includes: (1) Economic argument: expose the rival's state subsidies as 'modern drain' violating WTO rules, just like British tariffs violated fair play",
      "The British introduced English education to produce a class of intermediaries (clerks, lawyers, lower officials) loyal to colonial rule"
     ],
-    "hint": "Straight from the 'Colonialism' slide -- match the key terms.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"education created nationalists\" without explaining the *contradiction* (colonial practice vs. nationalist principle) shows superficial comprehension.",
     "id": "gen_c12_soc_ch08_q17",
     "nodeId": "c12_soc_cbse_08_001",
@@ -4568,40 +4819,40 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Analyse the tea plantation case (Box 1.5) to show how colonial labour law (Transport of Native Labourers Act) and recruitment practices (fraud, coercion, penal contracts) reveal the *contradiction* between British democratic norms at home and colonial governance in India.",
-    "answer": "The Transport of Native Labourers Act (1863, amended 1865/1870/1873) criminalised labour desertion, binding workers to plantations through penal sanctions",
+    "question": "What is Colonialism? State the definition given in this lesson.",
+    "answer": "Colonialism is a system of domination where a capitalist country establishes political, economic",
     "options": [
-     "Nationalists: cite declining textile exports, rising raw cotton exports, and census data showing artisan-to-agriculturist shift",
-     "Critique: The \"middle class\" emerged from *multiple* structural shifts — land revenue settlements (creating zamindars/ryots)",
-     "The Transport of Native Labourers Act (1863, amended 1865/1870/1873) criminalised labour desertion, binding workers to plantations through penal sanctions"
+     "The student can (1) distinguish the three systems by their unit of settlement, revenue fixation method, and role of intermediaries",
+     "The Transport of Native Labourers Act (Act III of 1863, amended 1865, 1870, 1873) was the primary instrument",
+     "Colonialism is a system of domination where a capitalist country establishes political, economic"
     ],
-    "hint": "Straight from the 'Colonial capitalism' slide -- match the key terms.",
-    "misconception": "A wrong answer saying \"British were hypocritical\" misses the structural point: the *legal architecture* of colonialism *required* differentiated citizenship to sustain profit flows.",
+    "hint": "Straight from the 'Colonialism is a system of' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Colonialism is a system of domination where a capitalist country establishes political, economic, and legal control",
     "id": "gen_c12_soc_ch08_q18",
-    "nodeId": "c12_soc_cbse_08_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_soc_cbse_08_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about colonialism?",
+    "What surprised you about colonialism is a system of domination?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Colonialism mastered! 🎯",
+  "successLine": "Colonialism Is a System mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_soc_ch09",
-  "title": "Modernisation",
+  "title": "Modernisation Is a Sociological Process",
   "subtitle": "Sociology · Chapter 9",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Modernisation",
+  "topic": "Modernisation Is a Sociological Process",
   "chapters": [
-   "Sociology Ch9: Modernisation"
+   "Sociology Ch9: Modernisation Is a Sociological Process"
   ],
   "nodeIds": [
    "c12_soc_cbse_09_001",
@@ -4623,7 +4874,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Modernisation more about facts, or about reasoning?",
+   "question": "Is Modernisation Is a Sociological more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -4634,13 +4885,13 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Modernisation",
+    "title": "Modernisation Is a Sociological Process",
     "text": "Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality, individualism, achievement-based status, and bureaucratic organisation — it involves",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Sanskritisation",
+    "title": "Sanskritisation: M.N. Srinivas's Concept",
     "text": "Sanskritisation is the process by which a lower caste, tribe, or other group adopts the customs, rituals, beliefs, ideology, and lifestyle of a higher — particularly a twice-born (dwija) — caste to improve its position in the local caste hierarchy.",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4664,7 +4915,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secularisation",
+    "title": "Secularisation Is The Sociological Process",
     "text": "Secularisation is the sociological process through which religion loses its social and cultural significance, leading to a decline in religious beliefs, practices, and institutional authority over non-religious spheres such as politics, economy, education,",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4832,8 +5083,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "State the textbook's first critique of Sanskritisation regarding social mobility in one sentence.",
     "answer": "Sanskritisation leads to no structural change but only positional change of some individuals; inequality persists even if a few improve their position within the unequal structure",
     "options": [
-     "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
-     "Srinivas defines westernisation as \"the changes brought about in Indian society and culture as a result of over 150 years of British rule",
+     "Secularisation is the sociological process through which religion loses its social and cultural significance, leading to a decline in religious beliefs, practices",
+     "Students consistently confuse secularisation (a sociological process of religion losing authority over non-religious spheres) with secularism (a political principle of state",
      "Sanskritisation leads to no structural change but only positional change of some individuals; inequality persists even if a few improve their position within the unequal structure"
     ],
     "hint": "Straight from the 'Critiques of Sanskritisation' slide -- match the key terms.",
@@ -4905,8 +5156,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define Sanskritisation and Westernisation in one sentence each, using M.N. Srinivas's exact terminology.",
     "answer": "Sanskritisation: the process by which a 'low' caste or tribe takes over the customs, ritual, beliefs, ideology and style of life of a high, particularly 'twice-born (dwija)' caste",
     "options": [
-     "Westernisation is \"the changes brought about in Indian society and culture as a result of over 150 years of British rule, the term subsuming changes occurring at different levels",
-     "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
+     "The student must be able to explain the mechanism of Sanskritisation with a concrete example, identify its reference model",
+     "The student must be able to distinguish between the two forms of westernisation (sub-cultural vs. general diffusion)",
      "Sanskritisation: the process by which a 'low' caste or tribe takes over the customs, ritual, beliefs, ideology and style of life of a high, particularly 'twice-born (dwija)' caste"
     ],
     "hint": "Straight from the 'relationship between' slide -- match the key terms.",
@@ -4977,8 +5228,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define westernisation according to M.N. Srinivas, and list the three 'new values' the NCERT identifies as its cognitive-normative core.",
     "answer": "Westernisation is \"the changes brought about in Indian society and culture as a result of over 150 years of British rule, the term subsuming changes occurring at different levels",
     "options": [
-     "Sanskritisation: the process by which a 'low' caste or tribe takes over the customs, ritual, beliefs, ideology and style of life of a high, particularly 'twice-born (dwija)' caste",
-     "The two traditions are: (1) Indigenous textual traditions (Hindu shastras, Islamic Quran/Hadith, navya-nyaya logic) — the Orientalist resource",
+     "The student must be able to articulate all five NCERT critiques of Sanskritisation with concrete examples",
+     "The student must be able to: (1) Explain why Srinivas's binary generalisation (lower castes Sanskritise",
      "Westernisation is \"the changes brought about in Indian society and culture as a result of over 150 years of British rule, the term subsuming changes occurring at different levels"
     ],
     "hint": "Straight from the 'Westernisation, as defined by M.' slide -- match the key terms.",
@@ -4998,7 +5249,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Identify the two intellectual traditions that 19th-century Indian social reformers combined to challenge practices like sati and widow remarriage bans, and name one reformer who explicitly used both.",
     "answer": "The two traditions are: (1) Indigenous textual traditions (Hindu shastras, Islamic Quran/Hadith, navya-nyaya logic) — the Orientalist resource",
     "options": [
-     "Srinivas defines westernisation as \"the changes brought about in Indian society and culture as a result of over 150 years of British rule",
+     "The student can explain how specific reformers (e.g., Raja Ram Mohun Roy, Sir Syed Ahmed Khan",
      "Westernisation is \"the changes brought about in Indian society and culture as a result of over 150 years of British rule, the term subsuming changes occurring at different levels",
      "The two traditions are: (1) Indigenous textual traditions (Hindu shastras, Islamic Quran/Hadith, navya-nyaya logic) — the Orientalist resource"
     ],
@@ -5019,8 +5270,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Name the founders of Brahmo Samaj, Arya Samaj, and Satyashodhak Samaj, and the year each was founded.",
     "answer": "Brahmo Samaj: Raja Ram Mohun Roy, 1828 (Calcutta). Arya Samaj: Dayanand Saraswati, 1875 (Bombay, later Lahore). Satyashodhak Samaj: Jotiba Phule, 1873 (Pune)",
     "options": [
-     "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
-     "Sanskritisation is the process by which a low caste or tribe takes over the customs, rituals, beliefs, ideology and style of life of a high",
+     "Students equate modernisation with \"becoming like the West\" — wearing Western clothes, speaking English, eating pizza, celebrating Valentine's Day",
+     "The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features (universalism, rationality, individualism, achievement",
      "Brahmo Samaj: Raja Ram Mohun Roy, 1828 (Calcutta). Arya Samaj: Dayanand Saraswati, 1875 (Bombay, later Lahore). Satyashodhak Samaj: Jotiba Phule, 1873 (Pune)"
     ],
     "hint": "Straight from the 'Social reform movements in 19th' slide -- match the key terms.",
@@ -5040,9 +5291,9 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What is the constitutional basis for the Indian state's intervention in cultural practices like untouchability and child marriage?",
     "answer": "The constitutional basis lies in Fundamental Rights (Articles 17, 21, 23, 24) and Directive Principles (Articles 38, 39, 45, 46)",
     "options": [
-     "Consumerism is a cultural orientation where personal identity, social status, and life satisfaction are increasingly defined through the acquisition and display of market goods",
-     "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
-     "The constitutional basis lies in Fundamental Rights (Articles 17, 21, 23, 24) and Ganesh Chaturthi (Articles 38, 39, 45, 46)",
+     "Secularisation is the sociological process through which religion loses its social and cultural significance, leading to a decline in religious beliefs, practices",
+     "The student must be able to distinguish between the two forms of westernisation (sub-cultural vs. general diffusion)",
+     "The constitutional basis lies in Fundamental Rights (Articles 17, 21, 23, 24) and Thus (Articles 38, 39, 45, 46)",
      "The constitutional basis lies in Fundamental Rights (Articles 17, 21, 23, 24) and Directive Principles (Articles 38, 39, 45, 46)"
     ],
     "hint": "Straight from the 'role of the state in cultural' slide -- match the key terms.",
@@ -5118,7 +5369,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Correct explanation: Female foeticide combines a discriminatory attitude toward women (traditional patriarchal value) with the use of modern medical technology like ultrasound",
      "Technological adoption (tractors, DJ, LED) and institutional change (elected sarpanch) are necessary but not sufficient for modernisation"
     ],
-    "hint": "Straight from the 'Modernisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
     "misconception": "A wrong answer equating gadgets/institutions with modernisation misses the core sociological distinction between structural change and cultural change — a frequent 2-marker error in board exams.",
     "id": "gen_c12_soc_ch09_q12",
     "nodeId": "c12_soc_cbse_09_001",
@@ -5133,7 +5384,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Srinivas calls this de-Sanskritisation. It reveals that the reference model is not universally Brahmins but the *locally dominant* caste",
      "Partial modernisation. Occupationally: achieved identity (UPSC merit), universalistic recruitment, bureaucratic role — all modern"
     ],
-    "hint": "Straight from the 'Modernisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"fully modernised because IAS officer\" or \"not modernised because arranged marriage\" fails to grasp the sectoral nature of modernisation — a key analytical skill for case-based board questions.",
     "id": "gen_c12_soc_ch09_q13",
     "nodeId": "c12_soc_cbse_09_001",
@@ -5148,7 +5399,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The Thiyyas (not upper caste) consciously Westernised by appropriating British culture to critique caste hierarchy and pursue cosmopolitan modernity",
      "The statement reflects classical modernisation theory (Weber, Parsons) but is empirically false in India"
     ],
-    "hint": "Straight from the 'Modernisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement ignores the Indian specificity of \"multiple modernities\" and the co-existence thesis — a conceptual error that loses marks in both board long-answers and CUET assertion-reason questions.",
     "id": "gen_c12_soc_ch09_q14",
     "nodeId": "c12_soc_cbse_09_001",
@@ -5159,11 +5410,11 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define modernisation in sociological terms using any three features from Rudolph and Rudolph's conceptualisation.",
     "answer": "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science",
     "options": [
-     "Sanskritisation leads to no structural change but only positional change of some individuals; inequality persists even if a few improve their position within the unequal structure",
-     "Srinivas defines westernisation as \"the changes brought about in Indian society and culture as a result of over 150 years of British rule",
+     "The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features (universalism, rationality, individualism, achievement",
+     "Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality",
      "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science"
     ],
-    "hint": "Straight from the 'Modernisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"wearing jeans, using smartphones, speaking English\" reveals confusion between modernisation (deep structural/value change) and westernisation (external cultural adoption) — a classic board exam error where students conflate cultural forms with sociological processes.",
     "id": "gen_c12_soc_ch09_q15",
     "nodeId": "c12_soc_cbse_09_001",
@@ -5171,70 +5422,70 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student writes: \"Sanskritisation is when a Dalit community starts speaking Sanskrit and wearing dhotis.\" Explain why this description is incomplete and what two key elements are missing.",
-    "answer": "The description reduces Sanskritisation to superficial symbols (language, dress) and misses (1) the *structural precondition*: an improvement in economic or political position (or",
+    "question": "What common mix-up does this lesson flag about Modernisation?",
+    "answer": "Students equate modernisation with \"becoming like the West\" — wearing Western clothes, speaking English, eating pizza, celebrating Valentine's Day",
     "options": [
-     "The statement reflects classical modernisation theory (Weber, Parsons) but is empirically false in India",
-     "Correct evaluation: The claim is largely valid. The Backward Classes Movement shifted focus to *secular* factors (education, political power, land rights)",
-     "The description reduces Sanskritisation to superficial symbols (language, dress) and misses (1) the *structural precondition*: an improvement in economic or political position (or"
+     "Students commonly equate westernisation with modernisation, assuming that wearing Western clothes, using technology",
+     "The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features (universalism, rationality, individualism, achievement",
+     "Students equate modernisation with \"becoming like the West\" — wearing Western clothes, speaking English, eating pizza, celebrating Valentine's Day"
     ],
-    "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a \"checklist\" understanding rather than a processual one.",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students equate modernisation with \"becoming like the West\" — wearing Western clothes, speaking English, eating pizza,",
     "id": "gen_c12_soc_ch09_q16",
-    "nodeId": "c12_soc_cbse_09_002",
+    "nodeId": "c12_soc_cbse_09_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Compare the mechanisms of Sanskritisation and Westernisation in terms of (a) the reference group, (b) the domain of change, and (c) the structural outcome. Use a table or structured paragraph.",
-    "answer": "(a) Sanskritisation: reference = locally dominant twice-born caste; Westernisation: reference = British/Western colonial culture",
+    "question": "What is Modernisation? State the definition given in this lesson.",
+    "answer": "Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality",
     "options": [
-     "Srinivas suggested lower castes pursue sanskritisation (adopting upper-caste rituals) while upper castes pursue westernisation (adopting British culture)",
-     "Critique 3 says Sanskritisation treats pollution/purity as justifiable. When lower castes internalise this, they devalue their own labour (critique 5) — e",
-     "(a) Sanskritisation: reference = locally dominant twice-born caste; Westernisation: reference = British/Western colonial culture"
+     "Sanskritisation is the process by which a lower caste, tribe, or other group adopts the customs, rituals, beliefs, ideology, and lifestyle of a higher",
+     "The student must be able to explain the mechanism of Sanskritisation with a concrete example, identify its reference model",
+     "Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality"
     ],
-    "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
-    "misconception": "A wrong answer conflates the two or treats Westernisation as \"modernisation\".",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are",
     "id": "gen_c12_soc_ch09_q17",
-    "nodeId": "c12_soc_cbse_09_002",
+    "nodeId": "c12_soc_cbse_09_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Construct a hypothetical case study of a tribal community in Central India that undergoes Sanskritisation. Specify: (1) the reference model, (2) three specific cultural changes they adopt, (3) the economic/political precondition, and (4) one likely gendered consequence for women in that community.",
-    "answer": "Example: The Gond tribe in Madhya Pradesh adopts the lifestyle of the locally dominant Rajput (Kshatriya) caste",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features (universalism, rationality, individualism, achievement",
     "options": [
-     "Correct evaluation: The claim is largely valid. The Backward Classes Movement shifted focus to *secular* factors (education, political power, land rights)",
-     "The description reduces Sanskritisation to superficial symbols (language, dress) and misses (1) the *structural precondition*: an improvement in economic or political position (or",
-     "Example: The Gond tribe in Madhya Pradesh adopts the lifestyle of the locally dominant Rajput (Kshatriya) caste"
+     "The student must be able to: (1) distinguish between westernisation as external cultural imitation versus internalisation of rationalism, humanism",
+     "Sanskritisation is the process by which a low caste or tribe takes over the customs, rituals, beliefs, ideology and style of life of a high",
+     "The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features (universalism, rationality, individualism, achievement"
     ],
-    "hint": "Straight from the 'Sanskritisation' slide -- match the key terms.",
-    "misconception": "A poor answer lists generic changes without linking to a specific reference model or precondition.",
+    "hint": "Straight from the 'Modernisation is a sociological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features",
     "id": "gen_c12_soc_ch09_q18",
-    "nodeId": "c12_soc_cbse_09_002",
+    "nodeId": "c12_soc_cbse_09_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about modernisation?",
+    "What surprised you about modernisation is a sociological process?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Modernisation mastered! 🎯",
+  "successLine": "Modernisation Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_soc_ch10",
-  "title": "Democracy",
+  "title": "Democracy Is a Form Of Government",
   "subtitle": "Sociology · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Democracy",
+  "topic": "Democracy Is a Form Of Government",
   "chapters": [
-   "Sociology Ch10: Democracy"
+   "Sociology Ch10: Democracy Is a Form Of Government"
   ],
   "nodeIds": [
    "c12_soc_cbse_10_001",
@@ -5256,7 +5507,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Democracy in real working life?",
+   "question": "Who uses Democracy Is a Form Of Government in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -5267,7 +5518,7 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Democracy",
+    "title": "Democracy Is a Form Of Government",
     "text": "Democracy is a form of government in which supreme power is vested in the people and exercised by them directly or indirectly through a system of representation usually involving periodically held free and fair elections, where political equality, popular",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5339,11 +5590,11 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define 'popular sovereignty' in the context of democratic theory and identify the specific Constitutional provision in India that operationalises it at the national level.",
     "answer": "Popular sovereignty means the ultimate authority of the state rests with the people, who are the source of all political power",
     "options": [
-     "The Basic Structure Doctrine holds that Parliament's amending power under Article 368 cannot alter the Constitution's core features (e",
-     "The three types are: (1) Municipal Corporation (for large urban areas, typically population > 10 lakh), (2) Municipal Council (for smaller urban areas",
+     "The student can explain how the 73rd Amendment transformed PRIs from directive principles into justiciable constitutional bodies",
+     "The student can (1) explain each keyword of the Preamble with its constitutional significance, (2) list at least five salient features of the Constitution with examples",
      "Popular sovereignty means the ultimate authority of the state rests with the people, who are the source of all political power"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
+    "hint": "Straight from the 'Democracy is a form of government' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing Article 324 — Election Commission — or Article 74 — Council of Ministers) reveals confusion between the *source* of sovereignty (people) and the *institutions* that administer or exercise it.",
     "id": "gen_c12_soc_ch10_q1",
     "nodeId": "c12_soc_cbse_10_001",
@@ -5736,16 +5987,47 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define a political party in one sentence and state the two constitutional means it uses to achieve its goal.",
-    "answer": "A political party is an organised group of citizens sharing a common ideology/programme that seeks to capture state power through constitutional means",
-    "options": [
-     "The 73rd Amendment moved Panchayati Raj from a non-justiciable Directive Principle (Article 40) to a justiciable constitutional mandate under Part IX (Articles 243–243O)",
-     "Civil society is the realm of voluntary associations (NGOs, trade unions, community groups) formed by citizens independently of state coercion and market profit motives",
-     "A political party is an organised group of citizens sharing a common ideology/programme that seeks to capture state power through constitutional means"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish national from regional parties",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how the multi-party system shapes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "analyse why certain social groups",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'political party' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"a group that protests on streets\" or \"any NGO\") reveals confusion between political parties and pressure groups/social movements — parties uniquely aim for *direct* control of government via elections, not just influence from outside.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) distinguish national from regional parties using Election Commission recognition criteria (vote %",
     "id": "gen_c12_soc_ch10_q8",
     "nodeId": "c12_soc_cbse_10_008",
     "difficulty": "standard",
@@ -5782,8 +6064,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define civil society and distinguish it from the state and the market in two sentences.",
     "answer": "Civil society is the realm of voluntary associations (NGOs, trade unions, community groups) formed by citizens independently of state coercion and market profit motives",
     "options": [
-     "A political party is an organised group of citizens sharing a common ideology/programme that seeks to capture state power through constitutional means",
-     "The Basic Structure Doctrine holds that Parliament's amending power under Article 368 cannot alter the Constitution's core features (e",
+     "Civil society refers to the sphere of voluntary associations, organisations, and institutions that exist independently of the state and the market",
+     "The student must be able to: (1) distinguish between the four challenges conceptually and empirically with Indian examples",
      "Civil society is the realm of voluntary associations (NGOs, trade unions, community groups) formed by citizens independently of state coercion and market profit motives"
     ],
     "hint": "Straight from the 'Civil society' slide -- match the key terms.",
@@ -5897,6 +6179,155 @@ export const C12_SOC_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "list at least five salient features",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "articulate the Basic Structure Doctrine",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate whether a hypothetical amendment",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "explain each keyword of the Preamble",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain each keyword of the Preamble with its constitutional significance, (2) list at least five",
+    "id": "gen_c12_soc_ch10_q13",
+    "nodeId": "c12_soc_cbse_10_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between the three types of urban",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "analyse why devolution of funds",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how the 74th Amendment differs",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish between the three types of urban local bodies and their population",
+    "id": "gen_c12_soc_ch10_q14",
+    "nodeId": "c12_soc_cbse_10_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between the four challenges",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "analyse their mutual reinforcement",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how each challenge violates specific",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish between the four challenges conceptually and empirically with Indian",
+    "id": "gen_c12_soc_ch10_q15",
+    "nodeId": "c12_soc_cbse_10_011",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A country holds regular multi-party elections with universal suffrage, but the ruling party controls the media, judiciary, and election commission. Opposition leaders face fabricated cases. Classify this regime using democratic typology and justify with two features it violates.",
     "answer": "This is an 'electoral authoritarian' or 'illiberal democracy' — it has procedural elections but lacks substantive democratic features",
@@ -5905,9 +6336,9 @@ export const C12_SOC_GEN: SimDef[] = [
      "1. Effective Representation Index = % of women/SC/ST MLAs winning *unreserved* seats (Source: Election Commission affidavits)",
      "This is an 'electoral authoritarian' or 'illiberal democracy' — it has procedural elections but lacks substantive democratic features"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
+    "hint": "Straight from the 'Democracy is a form of government' slide -- match the key terms.",
     "misconception": "A wrong classification as 'representative democracy' ignores that representation requires fair competition; calling it 'dictatorship' misses the electoral facade. Students often miss that democracy is a *continuum*, not a binary — a key analytical nuance for board case-study questions.",
-    "id": "gen_c12_soc_ch10_q13",
+    "id": "gen_c12_soc_ch10_q16",
     "nodeId": "c12_soc_cbse_10_001",
     "difficulty": "standard"
    },
@@ -5920,9 +6351,9 @@ export const C12_SOC_GEN: SimDef[] = [
      "Socialist: Article 39(b)-(c) — distribution of resources, prevention of concentration of wealth. Reflects a vision of economic democracy and redistributive justice",
      "| Dimension | Gram Sabha (Direct) | Lok Sabha (Representative) | |---|---|---| | Scale | All eligible voters in a village (~hundreds) | 543 elected MPs representing ~900 million"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
+    "hint": "Straight from the 'Democracy is a form of government' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as identical in principle (both \"people rule\") misses the sociological reality: direct democracy works only in small, homogeneous communities (Rousseau), while large, diverse societies *require* representation (Schumpeter).",
-    "id": "gen_c12_soc_ch10_q14",
+    "id": "gen_c12_soc_ch10_q17",
     "nodeId": "c12_soc_cbse_10_001",
     "difficulty": "standard"
    },
@@ -5935,65 +6366,20 @@ export const C12_SOC_GEN: SimDef[] = [
      "High access: Federation of Indian Chambers of Commerce and Industry (FICCI) — structural reason: represents concentrated capital with direct channels to ministries",
      "1. Effective Representation Index = % of women/SC/ST MLAs winning *unreserved* seats (Source: Election Commission affidavits)"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
+    "hint": "Straight from the 'Democracy is a form of government' slide -- match the key terms.",
     "misconception": "A poor answer lists only voter turnout or seats reserved — procedural metrics. Good answers show ability to *operationalise* abstract concepts (substantive democracy) — a research-methods skill (link to Class 11 node c11_soc_cbse_05_008).",
-    "id": "gen_c12_soc_ch10_q15",
-    "nodeId": "c12_soc_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"India's parliamentary system is superior to a presidential system for managing social diversity.\" Use two arguments from democratic theory and one Indian constitutional feature.",
-    "answer": "Arguments *for*: (1) *Fusion of powers* enables flexible coalition-building — essential in a multi-party system reflecting India's diversity (e",
-    "options": [
-     "The Gram Sabha comprises all registered voters in a village (direct democracy), while the Gram Panchayat is an elected executive body (representative democracy)",
-     "Ambedkar argued that in a village dominated by upper-caste elites, local self-government would institutionalise the exploitation of Dalits and lower castes because the same power",
-     "Arguments *for*: (1) *Fusion of powers* enables flexible coalition-building — essential in a multi-party system reflecting India's diversity (e"
-    ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Arguments *for*: (1) *Fusion of powers* enables flexible coalition-building — essential in a multi-party system",
-    "id": "gen_c12_soc_ch10_q16",
-    "nodeId": "c12_soc_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the distinction between 'procedural democracy' and 'substantive democracy' is sociologically significant, using the example of Panchayati Raj reservations for women (73rd Amendment).",
-    "answer": "Procedural democracy focuses on formal institutions (elections, rules); substantive democracy asks whether outcomes reflect justice and inclusion",
-    "options": [
-     "Ambedkar argued that in a village dominated by upper-caste elites, local self-government would institutionalise the exploitation of Dalits and lower castes because the same power",
-     "The 73rd Amendment strengthened civil society by creating constitutionally mandated spaces (Gram Sabha) for citizen participation and reserving seats for women/SC/ST",
-     "Procedural democracy focuses on formal institutions (elections, rules); substantive democracy asks whether outcomes reflect justice and inclusion"
-    ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates the two or ignores the gap between formal representation and effective participation shows inability to apply sociological imagination (C. Wright Mills) to democratic structures — a core Class 12 skill.",
-    "id": "gen_c12_soc_ch10_q17",
-    "nodeId": "c12_soc_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A hypothetical Constitutional Amendment Bill seeks to replace the parliamentary system with a presidential system. Apply the Basic Structure Doctrine to decide if this amendment would be valid. Justify step-by-step.",
-    "answer": "Step 1: Identify the core feature at stake—parliamentary democracy (executive responsible to legislature)",
-    "options": [
-     "The statement is partially valid but sociologically incomplete. Coalition era (1989–2014): 9 governments in 25 years, frequent collapses (e",
-     "This is *not* judicial overreach but a faithful execution of the constitutional mandate. Article 37 says Directive Principles \"shall not be enforceable by any court\" but \"are",
-     "Step 1: Identify the core feature at stake—parliamentary democracy (executive responsible to legislature)"
-    ],
-    "hint": "Straight from the 'Indian Constitution' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"Parliament can amend anything under Article 368\" ignores the judicial limitation established in 1973.",
     "id": "gen_c12_soc_ch10_q18",
-    "nodeId": "c12_soc_cbse_10_002",
-    "difficulty": "advanced"
+    "nodeId": "c12_soc_cbse_10_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about democracy?",
+    "What surprised you about democracy is a form of government?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Democracy mastered! 🎯",
+  "successLine": "Democracy Is a Form mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6005,7 +6391,9 @@ export const C12_SOC_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "sociology",
   "topic": "The Colonial Agrarian Structure In India",
-  "chapters": ["Sociology Ch11: The Colonial Agrarian Structure In India"],
+  "chapters": [
+   "Sociology Ch11: The Colonial Agrarian Structure In India"
+  ],
   "nodeIds": [
    "c12_soc_cbse_11_001",
    "c12_soc_cbse_11_002",
@@ -6053,7 +6441,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "White Revolution Was",
+    "title": "White Revolution",
     "text": "The White Revolution (Operation Flood) was a national dairy development programme launched in 1970 by the National Dairy Development Board (NDDB) to create a nationwide milk grid, increase milk production through cooperative structures, and ensure fair prices",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6083,7 +6471,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Transformation Of The Rural",
+    "title": "The Transformation Of The Rural Caste",
     "text": "The transformation of the rural caste system from jajmani to wage labour refers to the historical shift in rural India where hereditary, caste-based patron-client relationships (jajmani) — in which service castes provided labour and goods to landowning castes",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
@@ -6371,7 +6759,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Steps: (1) Total produce = 1,200 kg. (2) Rent to zamindar = 60% of 1,200 = 720 kg. (3) Cultivator retains = 1,200 - 720 = 480 kg",
      "Individualisation means the farmer alone decides what to grow, buys inputs from private dealers (who replace state extension), and bears all losses"
     ],
-    "hint": "Straight from the 'Farmers' suicides in India refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Farmers' suicides in India' slide -- match the key terms.",
     "misconception": "A wrong answer blaming \"poor choice of crop\" misses the structural withdrawal: the state stopped advising him, the company agent sold him the package, and no viable alternative existed.",
     "id": "gen_c12_soc_ch11_q8",
     "nodeId": "c12_soc_cbse_11_009",
@@ -6538,7 +6926,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "A strong answer would propose: (1) Green Box-compliant income support: Direct per-hectare payments (decoupled from production) to replace input subsidies",
      "Steps: (1) Total produce = 1,200 kg. (2) Rent to zamindar = 60% of 1,200 = 720 kg. (3) Cultivator retains = 1,200 - 720 = 480 kg"
     ],
-    "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'The colonial agrarian structure' slide -- match the key terms.",
     "misconception": "A wrong answer that calculates state share as 90% of total produce (1,080 kg) shows misunderstanding of the two-stage extraction: the state's claim is on the rent collected by the zamindar, not on the total produce. This error ignores the intermediary role of the zamindar.",
     "id": "gen_c12_soc_ch11_q12",
     "nodeId": "c12_soc_cbse_11_001",
@@ -6553,7 +6941,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "HYV seeds are water-sensitive — their dwarfing genes (e.g., Norin-10 derived) reduce root depth and increase transpiration efficiency only under high moisture",
      "Similarities: (1) Both paid high rents (50-75% of produce) and faced eviction risk. (2) Both were often from lower castes and lacked political power"
     ],
-    "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'The colonial agrarian structure' slide -- match the key terms.",
     "misconception": "A wrong answer that claims raiyatwari tenants were \"owners\" and zamindari tenants were \"slaves\" shows binary thinking — both systems produced exploitation, but through different mechanisms.",
     "id": "gen_c12_soc_ch11_q13",
     "nodeId": "c12_soc_cbse_11_001",
@@ -6568,7 +6956,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "The statement is partially true but incomplete. Ceilings were indeed higher for dry/unproductive land (e",
      "Expected answer: (a) Zamindari: Cultivator → (rent) → Zamindar → (land revenue) → State. Moneylender may lend to cultivator or zamindar"
     ],
-    "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'The colonial agrarian structure' slide -- match the key terms.",
     "misconception": "A poor answer that draws a single line \"Farmer → State\" for both systems shows inability to represent the layered extraction and the emergence of intermediary classes in raiyatwari areas.",
     "id": "gen_c12_soc_ch11_q14",
     "nodeId": "c12_soc_cbse_11_001",
@@ -6583,7 +6971,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "1) Women become primary cultivators and agricultural labourers, performing tasks previously done by men (ploughing, irrigation management, marketing)",
      "Supporting arguments: (1) Direct settlement gave cultivators proprietary rights and incentive to improve land"
     ],
-    "hint": "Straight from the 'The colonial agrarian structure in' slide -- match the key terms.",
+    "hint": "Straight from the 'The colonial agrarian structure' slide -- match the key terms.",
     "misconception": "A wrong answer that simply agrees or disagrees without nuance fails to see that both systems ultimately concentrated land control in the hands of a few (zamindars or rich ryots/moneylenders) and marginalised the actual tillers.",
     "id": "gen_c12_soc_ch11_q15",
     "nodeId": "c12_soc_cbse_11_001",
@@ -6613,7 +7001,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "Expected answer: (a) Zamindari: Cultivator → (rent) → Zamindar → (land revenue) → State. Moneylender may lend to cultivator or zamindar",
      "Upper-caste medium farmers would likely dominate because they have higher milk surplus (more marketable surplus), greater literacy, existing social networks"
     ],
-    "hint": "Straight from the 'White Revolution  was' slide -- match the key terms.",
+    "hint": "Straight from the 'White Revolution' slide -- match the key terms.",
     "misconception": "A wrong answer assuming \"landless families would control it because they are more numerous\" ignores how social capital and resource control translate into cooperative leadership.",
     "id": "gen_c12_soc_ch11_q17",
     "nodeId": "c12_soc_cbse_11_005",
@@ -6628,7 +7016,7 @@ export const C12_SOC_GEN: SimDef[] = [
      "1) Women become primary cultivators and agricultural labourers, performing tasks previously done by men (ploughing, irrigation management, marketing)",
      "Good answer: (1) Membership per animal (not per household) so women goat-keepers join directly. (2) Cluster-based collection: women's self-help groups collect at hamlet level"
     ],
-    "hint": "Straight from the 'White Revolution  was' slide -- match the key terms.",
+    "hint": "Straight from the 'White Revolution' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer: (1) Membership per animal (not per household) so women goat-keepers join directly.",
     "id": "gen_c12_soc_ch11_q18",
     "nodeId": "c12_soc_cbse_11_005",
@@ -6637,7 +7025,7 @@ export const C12_SOC_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the colonial agrarian structure in?",
+    "What surprised you about the colonial agrarian structure in india?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -6723,7 +7111,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Industrial Labour In India Encompasses",
+    "title": "Industrial Labour In India Encompasses Three",
     "text": "Industrial labour in India encompasses three distinct but often overlapping vulnerable categories: migrant labour (workers who move across regions/states for temporary or seasonal employment, often lacking social protection), bonded labour (a coercive",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -7420,20 +7808,20 @@ export const C12_SOC_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Industrialisation As a mastered! 🎯",
+  "successLine": "Industrialisation As mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_soc_ch13",
-  "title": "Globalisation",
+  "title": "Globalisation Refers To The Growing",
   "subtitle": "Sociology · Chapter 13",
   "classLevel": 12,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Globalisation",
+  "topic": "Globalisation Refers To The Growing Interdependence",
   "chapters": [
-   "Sociology Ch13: Globalisation"
+   "Sociology Ch13: Globalisation Refers To The Growing Interdependence"
   ],
   "nodeIds": [
    "c12_soc_cbse_13_001",
@@ -7455,7 +7843,7 @@ export const C12_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Globalisation suddenly stops working?",
+   "question": "What happens if Globalisation Refers To The suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -7466,7 +7854,7 @@ export const C12_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Globalisation",
+    "title": "Globalisation Refers To The Growing",
     "text": "Globalisation refers to the growing interdependence between different people, regions, and countries worldwide as social and economic relationships stretch across the globe, driven primarily by advances in information and communication technologies (ICT)",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -7538,11 +7926,11 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define globalisation as per the NCERT Class 12 textbook. Your answer must include the three key phrases: \"growing interdependence\", \"social and economic relationships\", and \"stretch world-wide\".",
     "answer": "\"Globalisation refers to the growing interdependence between different people, regions and countries in the world as social and economic relationships come to stretch world-wide",
     "options": [
-     "The four phases are: (1) Pre-colonial/early — driver: long-distance trade routes (Silk Road) and cultural exchange",
-     "(1) Liberalisation — abolition of industrial licensing for most sectors (except 18 strategic ones), reduction of import tariffs, dismantling of MRTP Act asset thresholds",
+     "Contract farming under globalisation is a production arrangement where agribusiness corporations or intermediaries contract farmers to produce specific crops under predetermined",
+     "The student can define globalisation using precise NCERT terminology, distinguish its three dimensions (economic, political, cultural) with concrete Indian examples",
      "\"Globalisation refers to the growing interdependence between different people, regions and countries in the world as social and economic relationships come to stretch world-wide"
     ],
-    "hint": "Straight from the 'Globalisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Globalisation refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"countries becoming connected\" or \"increase in international trade\" reveals the student is using a common-sense or purely economic definition, missing the sociological emphasis on *social* relationships stretching globally and the *interdependence* (not just connection) that",
     "id": "gen_c12_soc_ch13_q1",
     "nodeId": "c12_soc_cbse_13_001",
@@ -7995,16 +8383,47 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define homogenisation and glocalisation in the context of cultural globalisation. Give one example of each from the Indian context.",
-    "answer": "Homogenisation is the process by which diverse cultures become increasingly similar due to the global spread of standardised cultural products (e",
-    "options": [
-     "The WTO's DSB adjudicates trade disputes between member states based on agreed rules (e.g., anti-dumping, subsidies)",
-     "The IMF imposed Structural Adjustment Programmes (SAPs) requiring fiscal deficit reduction, trade liberalisation (removing quantitative restrictions)",
-     "Homogenisation is the process by which diverse cultures become increasingly similar due to the global spread of standardised cultural products (e"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how McDonaldisation principles",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between homogenisation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate whether glocalisation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Cultural globalisation' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats both as identical or gives only Western examples reveals the student cannot distinguish the direction of cultural flow — homogenisation is top-down standardisation, glocalisation is bottom-up negotiation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between homogenisation and glocalisation using concrete Indian examples, (2) explain",
     "id": "gen_c12_soc_ch13_q9",
     "nodeId": "c12_soc_cbse_13_009",
     "difficulty": "advanced",
@@ -8020,8 +8439,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define the term 'digital divide' as used in the NCERT Class 12 Sociology textbook, and cite the specific statistical evidence provided for India (2017-18).",
     "answer": "The digital divide is the gap between those who have access to computers and the internet and those who do not, leading to unequal opportunities",
     "options": [
-     "The WTO's DSB adjudicates trade disputes between member states based on agreed rules (e.g., anti-dumping, subsidies)",
-     "Contract farming: a buyer (corporation/processor) contracts a farmer to produce a specific crop under agreed specifications",
+     "The student must be able to: (1) explain the three components of LPG as distinct but interlinked policy shifts with specific examples (e",
+     "The student must be able to: (1) trace the policy trajectory from 1991 liberalisation to FDI inflows in specific sectors (IT, telecom, retail)",
      "The digital divide is the gap between those who have access to computers and the internet and those who do not, leading to unequal opportunities"
     ],
     "hint": "Straight from the 'digital divide' slide -- match the key terms.",
@@ -8261,6 +8680,52 @@ export const C12_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the policy trajectory from 1991",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate the uneven social consequences",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how outsourcing created a 'new",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) trace the policy trajectory from 1991 liberalisation to FDI inflows in specific",
+    "id": "gen_c12_soc_ch13_q15",
+    "nodeId": "c12_soc_cbse_13_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the claim: \"Contract farming solves the agrarian crisis by providing technology, credit, and market access to smallholders.\" Use evidence from at least two Indian case studies (e.g., Punjab tomato/gherkin, Andhra Pradesh oil palm/aquaculture, Maharashtra cotton) to support your judgement.",
     "sortItems": [
      {
@@ -8301,7 +8766,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "WRONG ANSWER REVEALS: If student cites only \"success stories\" from company reports (e.g., \"farmer income doubled\"), they fail to apply *selection bias critique* — companies showcase outliers; systematic studies show adverse incorporation (Barrett et al.",
-    "id": "gen_c12_soc_ch13_q15",
+    "id": "gen_c12_soc_ch13_q16",
     "nodeId": "c12_soc_cbse_13_007",
     "difficulty": "advanced"
    },
@@ -8347,48 +8812,64 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A weak answer lists random slogans without showing the structural commonality: primitive accumulation for global capital.",
-    "id": "gen_c12_soc_ch13_q16",
+    "id": "gen_c12_soc_ch13_q17",
     "nodeId": "c12_soc_cbse_13_011",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "A student says: \"Globalisation is nothing new — India traded on the Silk Route 2000 years ago, so today's globalisation is just more of the same.\" Using the NCERT distinction between *historical global interconnections* and *contemporary globalisation*, explain why this statement is incomplete.",
-    "answer": "While global interconnections existed historically (Silk Route, colonial migration, post-Independence trade)",
-    "options": [
-     "Showroom price = $20,000. Amount to Americans = $7,600. Percentage = (7600/20000) × 100 = 38%. The breakdown reveals that a single \"American\" car is actually a global product: 48%",
-     "Research question: \"How has the implementation of India's Plant Variety Protection and Farmers' Rights Act (2001) — enacted to comply with TRIPS Article 27",
-     "While global interconnections existed historically (Silk Route, colonial migration, post-Independence trade)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyse a specific movement",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the neo-liberal critique using",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish between anti-globalisation",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Globalisation' slide -- match the key terms.",
-    "misconception": "A wrong answer that only lists historical examples (Silk Route, indentured labour) without naming ICT and neo-liberal policy as the *qualitative difference* shows the student cannot distinguish *intensity and structural drivers* from mere *continuity of contact*.",
-    "id": "gen_c12_soc_ch13_q17",
-    "nodeId": "c12_soc_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare homogenisation and glocalisation of culture. Give one Indian example of each from the textbook or your observation. Then explain why glocalisation is *not* simply a spontaneous cultural synthesis but often a *market strategy* of transnational corporations (TNCs).",
-    "answer": "Homogenisation = cultures becoming similar (e.g., global spread of English, jeans, fast food, Hollywood movies threatening local languages, dresses, cuisines)",
-    "options": [
-     "Post-independence: the state *protected* domestic industry through licensing, tariffs, and import substitution, viewing global markets as disadvantageous for a former colony",
-     "Fordism = centralised mass production at a single location (e.g., early automobile plants). Post-Fordism = flexible",
-     "Homogenisation = cultures becoming similar (e.g., global spread of English, jeans, fast food, Hollywood movies threatening local languages, dresses, cuisines)"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
     ],
-    "hint": "Straight from the 'Globalisation' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls glocalisation \"beautiful cultural fusion\" or \"India adopting the best of both worlds\" reveals an uncritical view that ignores corporate agency and commercial intent.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) distinguish between anti-globalisation, alter-globalisation, and local resistance movements with",
     "id": "gen_c12_soc_ch13_q18",
-    "nodeId": "c12_soc_cbse_13_001",
-    "difficulty": "standard"
+    "nodeId": "c12_soc_cbse_13_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about globalisation?",
+    "What surprised you about globalisation refers to the growing interdependence?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Globalisation mastered! 🎯",
+  "successLine": "Globalisation Refers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -8580,8 +9061,9 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Name the first Indian newspaper with a distinct nationalist and democratic approach, its founder, language, and year of publication.",
     "answer": "*Sambad Kaumudi* (Bengali, 1821) and *Mirat-ul-Akbar* (Persian, 1822), founded by Raja Rammohun Roy",
     "options": [
-     "Mass media are institutionally organised communication technologies that disseminate standardised content to large, heterogeneous",
-     "A soap opera has no predetermined ending; it is continuous and open-ended, with individual storylines concluding while the serial itself persists until taken off air",
+     "Students conflate \"Bollywood\" with \"Indian cinema\" and assume regional cinema is a subordinate subset",
+     "Digital convergence is the merging of previously distinct media forms (print, radio, television",
+     "*Sambad Kaumudi* (Bengali, 1821) and *Mirat-ul-Akbar* (Persian, 1822), founded by Linguistic",
      "*Sambad Kaumudi* (Bengali, 1821) and *Mirat-ul-Akbar* (Persian, 1822), founded by Raja Rammohun Roy"
     ],
     "hint": "Straight from the 'Print Revolution in India' slide -- match the key terms.",
@@ -8597,16 +9079,47 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "In which year did the Government of India permit privately owned FM radio stations to operate, and what critical content restriction was imposed on them?",
-    "answer": "Private FM stations were permitted in 2002 under Phase-II licensing; they are not allowed to broadcast any political news or current-affairs bulletins",
-    "options": [
-     "(a) Content: Marathi news channel, entertainment GEC (general entertainment channel) with family soaps, movie channel with Marathi film library",
-     "Digital platforms lower entry barriers for vernacular content creators — no printing press or broadcast licence needed",
-     "Private FM stations were permitted in 2002 under Phase-II licensing; they are not allowed to broadcast any political news or current-affairs bulletins"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the institutional trajectory of radio",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how each phase reflects the shifting",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate the democratic implications",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Radio in India evolved through' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"1990s\" or \"no restriction\") reveals that the student conflates the 1990s satellite TV boom with radio privatization, or misses the crucial regulatory distinction that preserves the state's monopoly over radio news — a distinction central to board questions on \"media regulation\" and \"democratic",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) trace the institutional trajectory of radio from 1920s amateur clubs to the present",
     "id": "gen_c12_soc_ch14_q3",
     "nodeId": "c12_soc_cbse_14_003",
     "difficulty": "advanced",
@@ -8622,8 +9135,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What was the primary objective of the Satellite Instructional Television Experiment (SITE) conducted between August 1975 and July 1976?",
     "answer": "SITE aimed to broadcast instructional programmes directly to community television sets in rural areas across six Indian states for four hours daily",
     "options": [
-     "A soap opera has no predetermined ending; it is continuous and open-ended, with individual storylines concluding while the serial itself persists until taken off air",
-     "Bollywood is the Mumbai-based, Hindi/Urdu-language commercial film industry that explicitly targets a pan-Indian (and diaspora) audience through formulaic narratives (melodrama",
+     "The student must be able to: (1) trace the chronological sequence of Doordarshan's expansion, SITE, colour TV",
+     "Consumer culture is a social system where consumption becomes the primary source of meaning, identity, and social differentiation",
      "SITE aimed to broadcast instructional programmes directly to community television sets in rural areas across six Indian states for four hours daily"
     ],
     "hint": "Straight from the 'Television in India evolved' slide -- match the key terms.",
@@ -8643,8 +9156,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What is the defining structural feature of a soap opera that distinguishes it from a finite TV series or a film?",
     "answer": "A soap opera has no predetermined ending; it is continuous and open-ended, with individual storylines concluding while the serial itself persists until taken off air",
     "options": [
-     "A transnational media corporation owns and controls media production/distribution facilities in two or more countries",
-     "Bollywood is the Mumbai-based, Hindi/Urdu-language commercial film industry that explicitly targets a pan-Indian (and diaspora) audience through formulaic narratives (melodrama",
+     "Mass media are institutionally organised communication technologies that disseminate standardised content to large, heterogeneous",
+     "The student must be able to (1) trace how specific TV genres (soap operas, cricket, ads) restructure family routines, gender expectations",
      "A soap opera has no predetermined ending; it is continuous and open-ended, with individual storylines concluding while the serial itself persists until taken off air"
     ],
     "hint": "Straight from the 'Television's impact on Indian' slide -- match the key terms.",
@@ -8660,16 +9173,47 @@ export const C12_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define \"Bollywood\" sociologically — not as a geographical location but as a structural position within India's media ecosystem. What distinguishes it from \"Hindi cinema\" as a broader category?",
-    "answer": "Bollywood is the Mumbai-based, Hindi/Urdu-language commercial film industry that explicitly targets a pan-Indian (and diaspora) audience through formulaic narratives (melodrama",
-    "options": [
-     "SITE aimed to broadcast instructional programmes directly to community television sets in rural areas across six Indian states for four hours daily",
-     "A transnational media corporation owns and controls media production/distribution facilities in two or more countries",
-     "Bollywood is the Mumbai-based, Hindi/Urdu-language commercial film industry that explicitly targets a pan-Indian (and diaspora) audience through formulaic narratives (melodrama"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish Bollywood from regional cinema",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "apply",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how cinema has historically",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Cinema as mass media in India' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates Bollywood with all Hindi-language films reveals a category error: it misses the industrial-logic distinction between \"mainstream commercial\" and \"parallel/art\" streams, which is central to the national integration debate because Bollywood claims to represent \"India\" while parallel cinema",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish Bollywood from regional cinema in terms of production economics,",
     "id": "gen_c12_soc_ch14_q6",
     "nodeId": "c12_soc_cbse_14_006",
     "difficulty": "advanced",
@@ -9110,6 +9654,52 @@ export const C12_SOC_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the composition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate arguments for and against statutory",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "analyze the tension between state regulation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain the composition, powers, and limitations of the Press Council of India and Prasar Bharati,",
+    "id": "gen_c12_soc_ch14_q14",
+    "nodeId": "c12_soc_cbse_14_011",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "\"Digital divide is simply about who owns a smartphone.\" Evaluate this statement using the NCERT's discussion of differential access to mass media.",
     "answer": "The statement is false. Digital divide includes inequalities in literacy, language of content, electricity, network quality, affordability of data, gendered access norms",
@@ -9120,7 +9710,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mass media' slide -- match the key terms.",
     "misconception": "A wrong answer that equates access with device ownership ignores the structural, cultural, and economic layers of exclusion.",
-    "id": "gen_c12_soc_ch14_q14",
+    "id": "gen_c12_soc_ch14_q15",
     "nodeId": "c12_soc_cbse_14_001",
     "difficulty": "standard"
    },
@@ -9135,7 +9725,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Mass media' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it's not mass media because it's not a big company\" confuses institutional form with the defining characteristic of mass reach.",
-    "id": "gen_c12_soc_ch14_q15",
+    "id": "gen_c12_soc_ch14_q16",
     "nodeId": "c12_soc_cbse_14_001",
     "difficulty": "standard"
    },
@@ -9146,11 +9736,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "options": [
      "In the 1980s, televised cricket served a developmental-nationalist project: Doordarshan's monopoly meant the state framed the match as a collective ritual of a young nation",
      "Print nationalism created a horizontal comradeship through shared, simultaneous content consumption — everyone read the same headlines, enabling a unified 'we'",
+     "Raja Rammohun Roy: both use a shared language (vernacular) to create horizontal comradeship among strangers",
      "Similarities: both use a shared language (vernacular) to create horizontal comradeship among strangers"
     ],
     "hint": "Straight from the 'Mass media' slide -- match the key terms.",
     "misconception": "A weak answer lists only technological differences without linking to the sociological concept of imagined community.",
-    "id": "gen_c12_soc_ch14_q16",
+    "id": "gen_c12_soc_ch14_q17",
     "nodeId": "c12_soc_cbse_14_001",
     "difficulty": "standard"
    },
@@ -9159,27 +9750,12 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define mass media in one sentence using the three essential structural features that distinguish it from interpersonal communication.",
     "answer": "Mass media are institutionally organised communication technologies that disseminate standardised content to large, heterogeneous",
     "options": [
-     "Digital convergence is the merging of previously distinct media forms (print, radio, television",
-     "The three core democratic functions are: (1) Information dissemination — providing citizens with factual, verified news",
+     "Regulation of mass media in India refers to the legal and institutional frameworks — primarily the Press Council of India (a statutory quasi-judicial body for print media) and",
+     "The student must be able to: (1) explain how globalisation restructures media ownership through TNCs and conglomerates using Indian examples (Star TV, Zee, Times Group)",
      "Mass media are institutionally organised communication technologies that disseminate standardised content to large, heterogeneous"
     ],
     "hint": "Straight from the 'Mass media' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists examples (TV, newspaper) or mentions \"large audience\" without institutional organisation reveals the student sees media as devices rather than social structures.",
-    "id": "gen_c12_soc_ch14_q17",
-    "nodeId": "c12_soc_cbse_14_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a 5-minute audio segment for a community FM station that illustrates the dialectical relationship between media and society: show how the programme both reflects local culture and actively shapes listeners' attitudes toward a social issue (e.",
-    "answer": "A strong answer will structure the segment as: (1) opening with a local folk song reflecting culture",
-    "options": [
-     "It qualifies as mass media because it uses technology to reach a large, anonymous audience (thousands of villagers) simultaneously through a one-to-many flow",
-     "The claim is flawed. While *circulation* grew (2006–2016 CAGR 4.87%), *advertising revenue share* shifted to digital",
-     "A strong answer will structure the segment as: (1) opening with a local folk song reflecting culture"
-    ],
-    "hint": "Straight from the 'Mass media' slide -- match the key terms.",
-    "misconception": "A poor answer produces a one-way lecture without showing the two-way influence.",
     "id": "gen_c12_soc_ch14_q18",
     "nodeId": "c12_soc_cbse_14_001",
     "difficulty": "standard"
@@ -9255,7 +9831,7 @@ export const C12_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Peasant Movements In India Refer",
+    "title": "Peasant Movements In India",
     "text": "The peasant movements in India refer to collective agrarian struggles by cultivators against exploitative land tenure systems, revenue demands, and feudal oppression.",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -9351,9 +9927,9 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "Define Relative Deprivation Theory in one sentence and name one sociologist associated with it.",
     "answer": "Relative Deprivation Theory posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities",
     "options": [
-     "The Mandal Commission used 11 indicators grouped into three categories: Social (3 indicators: castes considered low by others, dependence on manual labour, early marriage)",
      "The immediate trigger was the government’s auction of the Reni forest to commercial contractors in 1973",
-     "Redemptive posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities",
+     "The student must be able to (1) explain how Chipko and Narmada Bachao Andolan intertwine economic, ecological, and identity issues",
+     "Kurmis posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities",
      "Relative Deprivation Theory posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities"
     ],
     "hint": "Straight from the 'Theories of social movements' slide -- match the key terms.",
@@ -9499,8 +10075,8 @@ export const C12_SOC_GEN: SimDef[] = [
     "question": "What is the meaning of the term \"Dalit\" as used by neo-Buddhist activists in the early 1970s, and how does it inherently challenge the caste hierarchy?",
     "answer": "\"Dalit\" means \"the poor and oppressed persons\" or \"those who have been broken, ground down by those above them in a deliberate way",
     "options": [
-     "The Mandal Commission used 11 indicators grouped into three categories: Social (3 indicators: castes considered low by others, dependence on manual labour, early marriage)",
      "Relative Deprivation Theory posits that social movements arise when a group feels a discrepancy between their value expectations and value capabilities",
+     "The immediate trigger was the government’s auction of the Reni forest to commercial contractors in 1973",
      "\"Dalit\" means \"the poor and oppressed persons\" or \"those who have been broken, ground down by those above them in a deliberate way"
     ],
     "hint": "Straight from the 'Dalit Movement' slide -- match the key terms.",
@@ -9821,6 +10397,52 @@ export const C12_SOC_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "trace the historical trajectory from",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate competing arguments on merit vs",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the Indra Sawhney judgment's \"creamy",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) trace the historical trajectory from colonial caste enumeration to the Mandal",
+    "id": "gen_c12_soc_ch15_q13",
+    "nodeId": "c12_soc_cbse_15_007",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "EVALUATE: “A social movement cannot be both reformist and revolutionary at the same time.” Critique this statement using the trajectory of the anti‑caste movement (Jotiba Phule → non‑Brahmin movement → Ambedkar → post‑Ambedkar Dalit movements) as evidence.",
     "answer": "The statement is false. The anti‑caste movement *simultaneously* contained reformist (petitioning for school entry, temple entry), redemptive (conversion to Buddhism",
@@ -9831,7 +10453,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social movements' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student agrees, they treat typology as mutually exclusive boxes rather than analytical lenses. The NCERT explicitly states: “most movements have a mix… orientation may shift over time.”",
-    "id": "gen_c12_soc_ch15_q13",
+    "id": "gen_c12_soc_ch15_q14",
     "nodeId": "c12_soc_cbse_15_002",
     "difficulty": "advanced"
    },
@@ -9846,7 +10468,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Theories of social movements' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice)",
-    "id": "gen_c12_soc_ch15_q14",
+    "id": "gen_c12_soc_ch15_q15",
     "nodeId": "c12_soc_cbse_15_003",
     "difficulty": "advanced"
    },
@@ -9859,9 +10481,9 @@ export const C12_SOC_GEN: SimDef[] = [
      "The statement is partially valid. Relative Deprivation explains the grievance (caste oppression → perceived injustice) but not the specific cultural-religious strategy",
      "(1) Tebhaga — Bengal, mid-forties, sharecroppers demanding two-thirds of the produce, led by the Kisan Sabha through mass non-violent mobilisation, (2) Telangana"
     ],
-    "hint": "Straight from the 'peasant movements in India refer' slide -- match the key terms.",
+    "hint": "Straight from the 'peasant movements in India' slide -- match the key terms.",
     "misconception": "A poor answer copies the new-farmers row without the legal-MSP demand and newer repertoires.",
-    "id": "gen_c12_soc_ch15_q15",
+    "id": "gen_c12_soc_ch15_q16",
     "nodeId": "c12_soc_cbse_15_004",
     "difficulty": "advanced"
    },
@@ -9876,7 +10498,7 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tribal Movement in India' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the British left so exploitation ended\" reveals a failure to understand the continuity of class/ethnic exploitation beyond formal colonialism.",
-    "id": "gen_c12_soc_ch15_q16",
+    "id": "gen_c12_soc_ch15_q17",
     "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced"
    },
@@ -9891,21 +10513,6 @@ export const C12_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Tribal Movement in India' slide -- match the key terms.",
     "misconception": "A poor answer lists only dates without showing the *causal chain*: literacy → historical consciousness → organisational capacity → political representation → statehood.",
-    "id": "gen_c12_soc_ch15_q17",
-    "nodeId": "c12_soc_cbse_15_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"The Jharkhand Movement was primarily an ecological movement because it opposed mining and deforestation.\" Use evidence from the NCERT to support or refute.",
-    "answer": "The claim is *partially true but reductionist*. The NCERT lists four issues: (1) land acquisition for irrigation/firing ranges, (2) survey/settlement operations",
-    "options": [
-     "The 27% figure was calculated to stay within the 50% ceiling (22.5% + 27% = 49.5%) while proportionally representing OBCs' estimated 52% population share",
-     "Guha argues that villagers depended on the forest for subsistence (firewood, fodder) — a “red” issue of livelihood inequality against commercial logging for profit",
-     "The claim is *partially true but reductionist*. The NCERT lists four issues: (1) land acquisition for irrigation/firing ranges, (2) survey/settlement operations"
-    ],
-    "hint": "Straight from the 'Tribal Movement in India' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"Yes, it was ecological\" or \"No, it was political\" fails to grasp the *intersectionality* that makes Indian tribal movements distinct from Western \"new social movements.\"",
     "id": "gen_c12_soc_ch15_q18",
     "nodeId": "c12_soc_cbse_15_005",
     "difficulty": "advanced"

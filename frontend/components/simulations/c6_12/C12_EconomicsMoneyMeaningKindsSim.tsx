@@ -1233,14 +1233,14 @@ function C12_EconomicsMoneyMeaningKindsSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 rounded-3xl bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-indigo-400 animate-ping" />
+          <div className="p-6 rounded-3xl bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-gold-400 animate-ping" />
               Operational Briefing & Scenario Hook
             </div>
             <h2 className="text-2xl font-black text-white mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-            <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/60 text-xs text-indigo-200">
+            <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/60 text-xs text-gold-200">
               📌 {SCENARIO.context}
             </div>
           </div>
@@ -1439,8 +1439,8 @@ function C12_EconomicsMoneyMeaningKindsSim({
                 <div className="space-y-6">
                   {/* Predict Then Check Hook */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800 space-y-3">
-                      <span className="text-xs uppercase font-bold text-indigo-400">Predict Before Interacting</span>
+                    <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800 space-y-3">
+                      <span className="text-xs uppercase font-bold text-gold-400">Predict Before Interacting</span>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1450,7 +1450,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-left text-xs text-slate-300 hover:border-indigo-500"
+                            className="p-2.5 rounded-xl bg-slate-900 border border-slate-700 text-left text-xs text-slate-300 hover:border-gold-500"
                           >
                             {opt}
                           </motion.button>
@@ -1503,14 +1503,14 @@ function C12_EconomicsMoneyMeaningKindsSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Demand Deposits (M1):</span>
-                        <span className="font-mono text-blue-400 font-bold">₹{demandDep} L Cr</span>
+                        <span className="font-mono text-gold-400 font-bold">₹{demandDep} L Cr</span>
                       </div>
                       <input 
                         type="range" min={10} max={60} value={demandDep} 
                         aria-label="Demand Deposits slider"
                         aria-valuenow={demandDep}
                         onChange={(e) => setDemandDep(Number(e.target.value))} 
-                        className="w-full accent-blue-500" 
+                        className="w-full accent-gold-500" 
                       />
                     </div>
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
@@ -1535,8 +1535,8 @@ function C12_EconomicsMoneyMeaningKindsSim({
                       <div className="text-xl font-black text-white mt-1">₹{calcM1.toFixed(1)} L Cr</div>
                       <div className="text-[11px] text-slate-400 mt-1">Most Liquid (Cash + Demand)</div>
                     </div>
-                    <div className="p-4 rounded-2xl bg-blue-950/40 border border-blue-800/60">
-                      <div className="text-xs text-blue-400 font-bold">M2 Aggregate</div>
+                    <div className="p-4 rounded-2xl bg-gold-950/40 border border-gold-800/60">
+                      <div className="text-xs text-gold-400 font-bold">M2 Aggregate</div>
                       <div className="text-xl font-black text-white mt-1">₹{calcM2.toFixed(1)} L Cr</div>
                       <div className="text-[11px] text-slate-400 mt-1">M1 + Post Office Savings</div>
                     </div>
@@ -1608,14 +1608,14 @@ function C12_EconomicsMoneyMeaningKindsSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Initial Primary Cash Deposit:</span>
-                        <span className="font-mono text-blue-400 font-bold">₹{simPrimaryDeposit.toLocaleString()}</span>
+                        <span className="font-mono text-gold-400 font-bold">₹{simPrimaryDeposit.toLocaleString()}</span>
                       </div>
                       <input 
                         type="range" min={2000} max={50000} step={1000} value={simPrimaryDeposit} 
                         aria-label="Initial Primary Cash Deposit slider"
                         aria-valuenow={simPrimaryDeposit}
                         onChange={(e) => handleSliderDeposit(Number(e.target.value))} 
-                        className="w-full accent-blue-500" 
+                        className="w-full accent-gold-500" 
                       />
                       <div className="text-[11px] text-slate-400">Total Created Credit: ₹{Math.round(totalCreditCreated).toLocaleString()}</div>
                     </div>
@@ -1728,10 +1728,10 @@ function C12_EconomicsMoneyMeaningKindsSim({
                       </div>
                     </div>
 
-                    <div className={`p-5 rounded-2xl border ${simSupplyCostShift > 20 && simGDPGrowth < 5.0 ? 'bg-amber-950/40 border-amber-800' : 'bg-blue-950/40 border-blue-800'}`}>
+                    <div className={`p-5 rounded-2xl border ${simSupplyCostShift > 20 && simGDPGrowth < 5.0 ? 'bg-amber-950/40 border-amber-800' : 'bg-gold-950/40 border-gold-800'}`}>
                       <div className="flex justify-between items-center">
                         <span className="text-xs font-bold text-slate-300">Projected GDP Growth:</span>
-                        <span className="text-xl font-black text-blue-400">✓ {simGDPGrowth}%</span>
+                        <span className="text-xl font-black text-gold-400">✓ {simGDPGrowth}%</span>
                       </div>
                       <div className="text-[11px] text-slate-400 mt-2">
                         {simSupplyCostShift > 20 && simGDPGrowth < 5.0 
@@ -1764,14 +1764,14 @@ function C12_EconomicsMoneyMeaningKindsSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Reserve Ratio (CRR):</span>
-                        <span className="font-mono text-blue-400 font-bold">{policyCrr}%</span>
+                        <span className="font-mono text-gold-400 font-bold">{policyCrr}%</span>
                       </div>
                       <input 
                         type="range" min={3.0} max={8.0} step={0.25} value={policyCrr} 
                         aria-label="Reserve Ratio CRR slider"
                         aria-valuenow={policyCrr}
                         onChange={(e) => setPolicyCrr(Number(e.target.value))} 
-                        className="w-full accent-blue-500" 
+                        className="w-full accent-gold-500" 
                       />
                     </div>
 
@@ -1866,18 +1866,18 @@ function C12_EconomicsMoneyMeaningKindsSim({
             </div>
 
             <div className="p-5 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-blue-400">2. Liquidity Hierarchy</h3>
+              <h3 className="text-sm font-bold text-gold-400">2. Liquidity Hierarchy</h3>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Time Deposits (FD):</span>
-                  <span className="text-blue-400 font-mono font-bold">₹{timeDep} L Cr</span>
+                  <span className="text-gold-400 font-mono font-bold">₹{timeDep} L Cr</span>
                 </div>
                 <input 
                   type="range" min={100} max={250} value={timeDep} 
                   aria-label="Sandbox Time deposits slider"
                   aria-valuenow={timeDep}
                   onChange={(e) => setTimeDep(Number(e.target.value))} 
-                  className="w-full accent-blue-500" 
+                  className="w-full accent-gold-500" 
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1">
@@ -1925,7 +1925,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
                   animate={{ scale: 1 }}
                   className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border ${
                     difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border-emerald-800' :
-                    difficulty === 'standard' ? 'bg-blue-950 text-blue-400 border-blue-800' :
+                    difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border-gold-800' :
                     'bg-purple-950 text-purple-400 border-purple-800'
                   }`}
                 >
@@ -1945,7 +1945,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
 
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800" role="progressbar" aria-valuenow={((currentChallenge + 1) / filteredChallenges.length) * 100} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-blue-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2122,7 +2122,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setConstructParts(prev => [...prev, part])}
-                    className="px-3 py-1.5 rounded-lg bg-indigo-900/60 border border-indigo-700 text-indigo-200 text-xs font-bold"
+                    className="px-3 py-1.5 rounded-lg bg-gold-900/60 border border-gold-700 text-gold-200 text-xs font-bold"
                   >
                     + {part}
                   </motion.button>
@@ -2223,14 +2223,14 @@ function C12_EconomicsMoneyMeaningKindsSim({
               </div>
               <div className="text-center">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-2xl font-black text-blue-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 rounded-3xl bg-slate-900 border border-indigo-800/60 space-y-5">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+          <div className="p-6 rounded-3xl bg-slate-900 border border-gold-800/60 space-y-5">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
               <span>💭</span>
               <span>Post-Simulation Conceptual Reflection</span>
             </div>
@@ -2249,7 +2249,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
                   value={reflectionResponses.surprising}
                   onChange={(e) => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. How credit creation subtracts the initial deposit, or why M3 Broad Money doesn't change when shifting demand deposits to fixed deposits..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2268,7 +2268,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-blue-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2277,7 +2277,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
                   value={reflectionResponses.realLife}
                   onChange={(e) => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. Understanding when RBI changes repo rates how my home loan EMI changes, or analyzing inflation trends in news headlines..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-blue-500"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2291,7 +2291,7 @@ function C12_EconomicsMoneyMeaningKindsSim({
                   setReflectionSaved(true);
                   audioManager.play('success');
                 }}
-                className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow"
+                className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow"
               >
                 {reflectionSaved ? '✓ Reflection Saved' : 'Submit Reflection'}
               </motion.button>

@@ -11,7 +11,7 @@ export const w_c12_biotechnologytranslationinitiationelongationsim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Primary Culture vs Established Cell Lines',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_08_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are testing a new hepatotoxicity drug. You have two options: (1) primary human hepatocytes.', goal: 'Master Primary Culture vs Established Cell Lines.' },
     discovery: {
         question: 'A researcher isolates cells from a mouse liver using collagenase digestion and cultures them for the first time.',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologytranslationinitiationelongationsim: SimDef = {
         hook: 'Students often believe "primary culture" means a pure population of one cell type (e.g., "primary hepatocytes = 100%.',
     },
     teaching: [
-        { title: 'Primary cell culture is the initial.', text: 'Primary cell culture is the initial heterogeneous population of cells isolated directly from host tissue and grown in vitro, retaining the genetic and phenotypic characteristics of the original.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Primary cell culture is the initial.', text: 'Primary cell culture is the initial heterogeneous population of cells isolated directly from host tissue and grown in vitro, retaining the genetic and phenotypic characteristics of the original.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_08_002', title: 'Primary cell culture is the initial.',

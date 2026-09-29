@@ -1144,7 +1144,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 12 ISC Biology • Comprehensive Unit Lab</p>
@@ -1170,7 +1170,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
                   ? 'bg-green-950/60 border-green-500 text-green-300'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/60 border-rose-500 text-rose-300'
-                  : 'bg-cyan-950/60 border-cyan-500 text-cyan-300'
+                  : 'bg-gold-950/60 border-gold-500 text-gold-300'
               }`}
             >
               {difficulty}
@@ -1193,12 +1193,12 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
       ───────────────────────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/50 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               🔬 {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400 mt-2 font-medium bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-800/30">
+            <p className="text-xs text-gold-400 mt-2 font-medium bg-gold-950/40 p-2.5 rounded-lg border border-gold-800/30">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1302,7 +1302,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-sm font-bold"
+                className="px-5 py-2 bg-gold-600 text-white rounded-xl text-sm font-bold"
               >
                 Free Sandbox →
               </motion.button>
@@ -1391,7 +1391,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
 
                     {!observationAnswered && dopamineInhibition > 60 && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="pt-2 border-t border-slate-800">
-                        <p className="text-xs font-bold text-cyan-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                        <p className="text-xs font-bold text-gold-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
                             key={i}
@@ -1571,8 +1571,8 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
               {currentSlide === 3 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                      <p className="text-sm font-bold text-indigo-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                      <p className="text-sm font-bold text-gold-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1602,7 +1602,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
                           max={600}
                           value={bioreactorRpm}
                           onChange={e => setBioreactorRpm(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1674,7 +1674,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
 
                   <div className="p-4 bg-slate-900 rounded-xl space-y-2 text-xs flex flex-col justify-center">
                     <p className="text-slate-300 font-bold">Logistic Growth Formula:</p>
-                    <p className="font-mono text-cyan-300 bg-slate-950 p-2 rounded-lg border border-slate-800">
+                    <p className="font-mono text-gold-300 bg-slate-950 p-2 rounded-lg border border-slate-800">
                       dN/dt = rN · ((K - N) / K)
                     </p>
                     <p className="text-slate-300 pt-2">
@@ -1701,7 +1701,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h3 className="text-lg font-bold text-cyan-300">Free Biological Sandbox</h3>
+              <h3 className="text-lg font-bold text-gold-300">Free Biological Sandbox</h3>
               <p className="text-xs text-slate-400 mt-1">
                 Explore neurochemistry, bioreactors, and ecological population models freely without graded assessment.
               </p>
@@ -1733,7 +1733,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
             </div>
 
             <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
-              <span className="text-xs font-bold text-cyan-400">⚙️ Stirred Tank Agitation & Aeration</span>
+              <span className="text-xs font-bold text-gold-400">⚙️ Stirred Tank Agitation & Aeration</span>
               <input
                 aria-label="Sandbox Bioreactor RPM Slider"
                 type="range"
@@ -1741,7 +1741,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
                 max={600}
                 value={bioreactorRpm}
                 onChange={e => setBioreactorRpm(Number(e.target.value))}
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
               <p className="text-xs text-slate-300">RPM: {bioreactorRpm} | Dissolved O2: {dissolvedO2}% | Yield: {biomassYield} g/L</p>
             </div>
@@ -1759,14 +1759,14 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
             <span>
               Challenge {currentChallenge + 1} of {filteredChallenges.length}
             </span>
-            <span className="font-semibold text-indigo-300">
+            <span className="font-semibold text-gold-300">
               Competency: {challenge.competencyLevel.toUpperCase()} • Node: {challenge.nodeId}
             </span>
           </div>
 
           <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2009,7 +2009,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <p className="text-xs text-slate-400">Mastery Rating</p>
-                <p className="text-xl font-black text-cyan-400 capitalize">{masteryLevel}</p>
+                <p className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>
@@ -2037,12 +2037,12 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* SPACED REPETITION (SRS) VISIBILITY */}
-          <div className="p-5 bg-slate-900 rounded-2xl border border-cyan-800/50 space-y-2">
+          <div className="p-5 bg-slate-900 rounded-2xl border border-gold-800/50 space-y-2">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 flex items-center gap-1.5">
                 📅 Spaced Repetition (SM-2 SRS) Schedule
               </span>
-              <span className="text-xs font-bold px-3 py-1 bg-cyan-950 text-cyan-300 border border-cyan-700 rounded-full">
+              <span className="text-xs font-bold px-3 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-full">
                 {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
               </span>
             </div>
@@ -2078,7 +2078,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
           {/* REAL WORLD ACTIVITY EXTENSION */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="border-b border-slate-800 pb-3">
-              <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+              <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
                 🌍 {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300 mt-1">{REAL_WORLD_ACTIVITY.description}</p>
@@ -2087,7 +2087,7 @@ function C12_BiologyDrugAlcoholAbuseSim(props: Props = DEFAULT_PROPS) {
               {REAL_WORLD_ACTIVITY.steps.map(s => (
                 <div key={s.step} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
                   <div className="flex items-center gap-2">
-                    <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 text-[11px] font-bold flex items-center justify-center">
+                    <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 text-[11px] font-bold flex items-center justify-center">
                       {s.step}
                     </span>
                     <h4 className="text-xs font-bold text-slate-200">{s.title}</h4>

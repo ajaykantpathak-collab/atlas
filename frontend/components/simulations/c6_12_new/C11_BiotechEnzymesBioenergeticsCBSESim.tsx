@@ -590,8 +590,8 @@ const CHALLENGES: Challenge[] = [
 // Diagram 1: Active Site Models (Lock & Key vs Induced Fit)
 const ActiveSiteDiagram: React.FC<{ mode: 'lock' | 'induced' }> = ({ mode }) => {
   return (
-    <div className="w-full bg-slate-900/80 rounded-xl p-4 border border-cyan-500/30 text-center">
-      <h4 className="text-cyan-300 text-sm font-semibold mb-2">
+    <div className="w-full bg-slate-900/80 rounded-xl p-4 border border-gold-500/30 text-center">
+      <h4 className="text-gold-300 text-sm font-semibold mb-2">
         {mode === 'lock' ? 'Fischer Lock & Key Model (Rigid Complementarity)' : 'Koshland Induced Fit Model (Dynamic Conformational Adaptation)'}
       </h4>
       <svg className="w-full h-44 mx-auto" viewBox="0 0 500 160">
@@ -1076,14 +1076,14 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
       <header className="flex flex-col md:flex-row justify-between items-start md:items-center bg-slate-900/90 border border-slate-800 p-6 rounded-2xl shadow-xl backdrop-blur-md">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 text-xs px-3 py-1 rounded-full font-mono uppercase tracking-wider">
+            <span className="bg-gold-500/10 text-gold-400 border border-gold-500/30 text-xs px-3 py-1 rounded-full font-mono uppercase tracking-wider">
               ISC Class 11 Biotechnology
             </span>
             <span className="bg-purple-500/10 text-purple-400 border border-purple-500/30 text-xs px-3 py-1 rounded-full font-mono">
               Mastery: {overallMasteryScore}%
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-purple-400 mt-2">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-teal-300 to-purple-400 mt-2">
             Enzymes & Bioenergetics Virtual Suite
           </h1>
           <p className="text-slate-400 text-sm mt-1 max-w-2xl">
@@ -1095,25 +1095,25 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
         <div className="flex flex-wrap gap-2 mt-4 md:mt-0 bg-slate-950/80 p-1.5 rounded-xl border border-slate-800">
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'discovery' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'discovery' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'}`}
           >
             1. Discovery Lab
           </button>
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'lab' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'lab' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'}`}
           >
             2. Interactive Workbench
           </button>
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'challenges' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'challenges' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'}`}
           >
             3. Challenges ({currentChallengeIdx + 1}/{CHALLENGES.length})
           </button>
           <button
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'summary' ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${activeTab === 'summary' ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20' : 'text-slate-400 hover:text-slate-200'}`}
           >
             4. Real-World & Review
           </button>
@@ -1125,7 +1125,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-lg flex flex-col gap-6">
             <div className="border-b border-slate-800 pb-4">
-              <h2 className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
                 <span>🔬</span> Research Scenario Context
               </h2>
               <p className="text-slate-300 mt-2 leading-relaxed text-sm">
@@ -1137,8 +1137,8 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
             </div>
 
             {/* DISCOVERY QUESTION CARD */}
-            <div className="bg-slate-950/70 border border-cyan-500/20 rounded-xl p-5">
-              <span className="text-xs font-mono text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded border border-cyan-500/30">
+            <div className="bg-slate-950/70 border border-gold-500/20 rounded-xl p-5">
+              <span className="text-xs font-mono text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded border border-gold-500/30">
                 Core Discovery Challenge
               </span>
               <h3 className="text-slate-100 font-semibold mt-3 text-base">
@@ -1147,7 +1147,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
 
               <div className="flex flex-col gap-2.5 mt-4">
                 {DISCOVERY_QUESTION.options.map((opt, i) => {
-                  let btnStyle = 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500/50';
+                  let btnStyle = 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/50';
                   if (discoverySubmitted) {
                     if (i === DISCOVERY_QUESTION.correctIndex) {
                       btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold';
@@ -1172,8 +1172,8 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
               </div>
 
               {discoverySubmitted && (
-                <div className="mt-4 p-4 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-cyan-200 text-xs leading-relaxed">
-                  <p className="font-semibold text-cyan-300">Biocatalytic Explanation:</p>
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/40 border border-gold-500/30 text-gold-200 text-xs leading-relaxed">
+                  <p className="font-semibold text-gold-300">Biocatalytic Explanation:</p>
                   <p className="mt-1">{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1181,7 +1181,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
 
             {/* PREDICTION QUESTIONS ARRAY MAP */}
             <div className="flex flex-col gap-4">
-              <h3 className="text-lg font-bold text-cyan-400">Pre-Lab Hypothesis Predictions</h3>
+              <h3 className="text-lg font-bold text-gold-400">Pre-Lab Hypothesis Predictions</h3>
               {PREDICTION_QUESTIONS.map((pq, qIdx) => (
                 <div key={qIdx} className="bg-slate-950/50 border border-slate-800 rounded-xl p-4">
                   <p className="text-sm text-slate-200 font-medium">{pq.question}</p>
@@ -1191,7 +1191,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                       const isSub = predictionSubmitted[qIdx];
                       const isCorr = oIdx === pq.correctIndex;
 
-                      let cls = 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500/40';
+                      let cls = 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/40';
                       if (isSub) {
                         if (isCorr) cls = 'bg-emerald-950/80 border-emerald-500 text-emerald-200';
                         else if (isSel) cls = 'bg-rose-950/80 border-rose-500 text-rose-200';
@@ -1229,13 +1229,13 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
               <div className="flex justify-center gap-2 mt-3">
                 <button
                   onClick={() => setActiveSiteModel('lock')}
-                  className={`px-3 py-1.5 rounded text-xs font-semibold ${activeSiteModel === 'lock' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}
+                  className={`px-3 py-1.5 rounded text-xs font-semibold ${activeSiteModel === 'lock' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}
                 >
                   Lock & Key
                 </button>
                 <button
                   onClick={() => setActiveSiteModel('induced')}
-                  className={`px-3 py-1.5 rounded text-xs font-semibold ${activeSiteModel === 'induced' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}
+                  className={`px-3 py-1.5 rounded text-xs font-semibold ${activeSiteModel === 'induced' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}
                 >
                   Induced Fit
                 </button>
@@ -1246,19 +1246,19 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
               <h3 className="text-md font-bold text-amber-300 mb-3">Key Concepts Covered</h3>
               <ul className="text-xs text-slate-400 flex flex-col gap-2">
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400"></span>
                   IUB 6 Classes: Oxidoreductase, Transferase, Hydrolase, Lyase, Isomerase, Ligase.
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400"></span>
                   Holoenzyme = Apoenzyme + Cofactor (Coenzyme / Metal Ion / Prosthetic).
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400"></span>
                   Kinetics: Km (Affinity), Vmax, Lineweaver-Burk, Inhibitors.
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400"></span>
                   Bioenergetics: ΔG = ΔH - TΔS, ATP Hydrolysis (-30.5 kJ/mol).
                 </li>
               </ul>
@@ -1275,7 +1275,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
-                  <h2 className="text-lg font-bold text-cyan-300">Biocatalytic Kinetics & Thermodynamic Controls</h2>
+                  <h2 className="text-lg font-bold text-gold-300">Biocatalytic Kinetics & Thermodynamic Controls</h2>
                   <p className="text-xs text-slate-400">Adjust parameters and observe real-time kinetic curves and turnover rates.</p>
                 </div>
                 <div className="flex items-center gap-2 bg-slate-950 p-2 rounded-xl border border-slate-800">
@@ -1290,7 +1290,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-semibold">Substrate [S]: {substrateConc} mM</span>
-                    <span className="text-cyan-400 font-mono">Km = {effectiveKm.toFixed(1)} mM</span>
+                    <span className="text-gold-400 font-mono">Km = {effectiveKm.toFixed(1)} mM</span>
                   </div>
                   <input
                     type="range"
@@ -1298,7 +1298,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                     max="100"
                     value={substrateConc}
                     onChange={(e) => { setSubstrateConc(Number(e.target.value)); audioManager.play('tap'); }}
-                    className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1343,7 +1343,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                   <select
                     value={inhibitorType}
                     onChange={(e) => { setInhibitorType(e.target.value as unknown as typeof inhibitorType); audioManager.play('tap'); }}
-                    className="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs p-2 rounded-lg focus:border-cyan-500 outline-none"
+                    className="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs p-2 rounded-lg focus:border-gold-500 outline-none"
                   >
                     <option value="none">None (Standard Kinetics)</option>
                     <option value="competitive">Competitive (Raises Km, Vmax unchanged)</option>
@@ -1357,7 +1357,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
               <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-950/40 p-4 rounded-xl border border-slate-800">
                 <button
                   onClick={() => { setEnzymePresent(!enzymePresent); audioManager.play('tap'); }}
-                  className={`px-3 py-2 rounded-lg text-xs font-bold transition-all border ${enzymePresent ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300' : 'bg-slate-800 border-slate-700 text-slate-500'}`}
+                  className={`px-3 py-2 rounded-lg text-xs font-bold transition-all border ${enzymePresent ? 'bg-gold-500/20 border-gold-500 text-gold-300' : 'bg-slate-800 border-slate-700 text-slate-500'}`}
                 >
                   Enzyme Catalyst: {enzymePresent ? 'ACTIVE (Lowers Ea)' : 'ABSENT (High Ea)'}
                 </button>
@@ -1425,7 +1425,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
           {/* EXPLORATION STEPS GUIDED MODULES MAP */}
           <div className="flex flex-col gap-4">
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-5 shadow-xl flex flex-col gap-4">
-              <h3 className="text-md font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-md font-bold text-gold-300 flex items-center gap-2">
                 <span>📋</span> Guided Exploration Laboratories
               </h3>
               <p className="text-xs text-slate-400">Work through each structured module using the lab controls.</p>
@@ -1434,10 +1434,10 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                 {EXPLORATION_STEPS.map((step, idx) => (
                   <div
                     key={idx}
-                    className="bg-slate-950/70 border border-slate-800 hover:border-cyan-500/40 p-4 rounded-xl transition-all"
+                    className="bg-slate-950/70 border border-slate-800 hover:border-gold-500/40 p-4 rounded-xl transition-all"
                   >
                     <div className="flex items-center justify-between mb-1.5">
-                      <span className="text-xs font-bold text-cyan-400 font-mono">{step.title}</span>
+                      <span className="text-xs font-bold text-gold-400 font-mono">{step.title}</span>
                       <span className="text-[10px] bg-slate-900 text-slate-400 px-2 py-0.5 rounded border border-slate-800">
                         {step.nodeId}
                       </span>
@@ -1494,9 +1494,9 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
             {CHALLENGES[currentChallengeIdx].type === 'mcq' && (
               <div className="flex flex-col gap-3">
                 {CHALLENGES[currentChallengeIdx].options?.map((opt, i) => {
-                  let borderCls = 'border-slate-800 bg-slate-950/70 hover:border-cyan-500/50 text-slate-200';
+                  let borderCls = 'border-slate-800 bg-slate-950/70 hover:border-gold-500/50 text-slate-200';
                   if (selectedMcqIndex === i) {
-                    borderCls = 'border-cyan-500 bg-cyan-950/40 text-cyan-200 font-semibold';
+                    borderCls = 'border-gold-500 bg-gold-950/40 text-gold-200 font-semibold';
                   }
                   if (challengeStatus !== 'unanswered') {
                     if (i === CHALLENGES[currentChallengeIdx].correctIndex) {
@@ -1535,7 +1535,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                     value={numericInputValue}
                     onChange={(e) => setNumericInputValue(e.target.value)}
                     placeholder="Enter numerical answer..."
-                    className="flex-1 bg-slate-950 border border-slate-700 text-slate-100 p-3 rounded-xl outline-none focus:border-cyan-500 font-mono text-sm"
+                    className="flex-1 bg-slate-950 border border-slate-700 text-slate-100 p-3 rounded-xl outline-none focus:border-gold-500 font-mono text-sm"
                   />
                   {CHALLENGES[currentChallengeIdx].unit && (
                     <span className="text-sm font-mono text-slate-400 bg-slate-950 p-3 rounded-xl border border-slate-800">
@@ -1559,7 +1559,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                 <button
                   onClick={handleChallengeSubmit}
                   disabled={CHALLENGES[currentChallengeIdx].type === 'mcq' ? selectedMcqIndex === null : numericInputValue.trim() === ''}
-                  className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-50 text-slate-950 rounded-xl font-bold text-sm shadow-lg shadow-cyan-500/20 transition-all"
+                  className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 disabled:opacity-50 text-slate-950 rounded-xl font-bold text-sm shadow-lg shadow-gold-500/20 transition-all"
                 >
                   Submit Answer
                 </button>
@@ -1586,7 +1586,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🏭</span>
                 <div>
-                  <h2 className="text-xl font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h2>
+                  <h2 className="text-xl font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h2>
                   <p className="text-xs text-slate-400">{REAL_WORLD_ACTIVITY.description}</p>
                 </div>
               </div>
@@ -1594,7 +1594,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
               <div className="flex flex-col gap-3 mt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950/60 border border-slate-800 p-4 rounded-xl flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-300 flex items-center justify-center font-mono text-xs font-bold shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-500/20 border border-gold-500/30 text-gold-300 flex items-center justify-center font-mono text-xs font-bold shrink-0">
                       {idx + 1}
                     </span>
                     <p className="text-xs text-slate-300 leading-relaxed">{step}</p>
@@ -1623,7 +1623,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
           {/* MASTERY & SRS PROGRESS SUMMARY */}
           <div className="flex flex-col gap-6">
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-              <h3 className="text-md font-bold text-cyan-300">Biotechnology Node Mastery (BKT)</h3>
+              <h3 className="text-md font-bold text-gold-300">Biotechnology Node Mastery (BKT)</h3>
               <div className="flex flex-col gap-2 max-h-80 overflow-y-auto pr-1">
                 {ALL_NODE_IDS.map((nodeId) => {
                   const prob = masteryProb(bktState[nodeId] || createBKTState(nodeId));
@@ -1634,11 +1634,11 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                       <div className="flex items-center gap-2">
                         <div className="w-20 bg-slate-800 h-2 rounded-full overflow-hidden">
                           <div
-                            className="bg-gradient-to-r from-cyan-500 to-purple-500 h-full transition-all"
+                            className="bg-gradient-to-r from-gold-500 to-purple-500 h-full transition-all"
                             style={{ width: `${pct}%` }}
                           />
                         </div>
-                        <span className="font-mono text-cyan-300 text-[10px] w-8 text-right">{pct}%</span>
+                        <span className="font-mono text-gold-300 text-[10px] w-8 text-right">{pct}%</span>
                       </div>
                     </div>
                   );
@@ -1659,7 +1659,7 @@ const C11_BiotechEnzymesBioenergeticsCBSESim: React.FC<C11_BiotechEnzymesBioener
                   setCurrentChallengeIdx(0);
                   audioManager.play('whoosh');
                 }}
-                className="w-full py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 text-slate-950 font-bold text-xs rounded-xl shadow-lg hover:opacity-90 transition-all"
+                className="w-full py-2.5 bg-gradient-to-r from-gold-500 to-purple-600 text-slate-950 font-bold text-xs rounded-xl shadow-lg hover:opacity-90 transition-all"
               >
                 Restart Challenges Review Loop
               </button>

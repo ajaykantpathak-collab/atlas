@@ -652,7 +652,7 @@ export default function AccountancySandbox() {
           </div>
 
           <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-4">
-            <p className="text-[10px] font-black text-sky-300 uppercase tracking-widest mb-2">
+            <p className="text-[10px] font-black text-gold-300 uppercase tracking-widest mb-2">
               live T-accounts (posted entries flow here)
             </p>
             {ledgerAccounts.length === 0 ? (
@@ -665,7 +665,7 @@ export default function AccountancySandbox() {
                   <div key={acct} className="rounded-lg border border-slate-700 overflow-hidden">
                     <p className="bg-slate-800 px-2 py-1 text-[10px] font-black text-slate-200 text-center">{acct}</p>
                     <div className="grid grid-cols-2 text-[10px] font-mono">
-                      <div className="border-r border-slate-700 px-2 py-1 text-sky-300">
+                      <div className="border-r border-slate-700 px-2 py-1 text-gold-300">
                         {dr > 0 ? fmt(dr) : ''}
                       </div>
                       <div className="px-2 py-1 text-amber-300 text-right">
@@ -676,7 +676,7 @@ export default function AccountancySandbox() {
                 ))}
               </div>
             )}
-            <p className="text-[10px] font-black text-sky-300 uppercase tracking-widest mt-4 mb-2">
+            <p className="text-[10px] font-black text-gold-300 uppercase tracking-widest mt-4 mb-2">
               trial balance
             </p>
             {trialBalance.rows.length === 0 ? (
@@ -695,13 +695,13 @@ export default function AccountancySandbox() {
                     {trialBalance.rows.map(r => (
                       <tr key={r.acct} className="border-t border-slate-800">
                         <td className="py-0.5 font-sans">{r.acct}</td>
-                        <td className="text-right text-sky-300">{r.drBal ? r.drBal.toLocaleString('en-IN') : ''}</td>
+                        <td className="text-right text-gold-300">{r.drBal ? r.drBal.toLocaleString('en-IN') : ''}</td>
                         <td className="text-right text-amber-300">{r.crBal ? r.crBal.toLocaleString('en-IN') : ''}</td>
                       </tr>
                     ))}
                     <tr className="border-t-2 border-slate-600 font-black">
                       <td className="py-1 font-sans">Total</td>
-                      <td className="text-right text-sky-200">{trialBalance.totDr.toLocaleString('en-IN')}</td>
+                      <td className="text-right text-gold-200">{trialBalance.totDr.toLocaleString('en-IN')}</td>
                       <td className="text-right text-amber-200">{trialBalance.totCr.toLocaleString('en-IN')}</td>
                     </tr>
                   </tbody>
@@ -726,7 +726,7 @@ export default function AccountancySandbox() {
                 pulse={pulse} debitUp={debitUp} />
             </div>
             <div className="p-4 space-y-3 border-t md:border-t-0 md:border-l border-slate-700">
-              <p className="text-[10px] font-black text-sky-300 uppercase tracking-widest">
+              <p className="text-[10px] font-black text-gold-300 uppercase tracking-widest">
                 Assets = Liabilities + Capital
               </p>
               {(['assets', 'liabilities', 'capital'] as const).map(k => (
@@ -735,7 +735,7 @@ export default function AccountancySandbox() {
                   <p className="text-[10px] uppercase tracking-wider text-slate-400 font-black">
                     {k}
                   </p>
-                  <p className={`text-lg font-black font-mono ${k === 'assets' ? 'text-sky-300' : k === 'liabilities' ? 'text-amber-300' : 'text-violet-300'}`}>
+                  <p className={`text-lg font-black font-mono ${k === 'assets' ? 'text-gold-300' : k === 'liabilities' ? 'text-amber-300' : 'text-gold-300'}`}>
                     {fmt(equation[k])}
                   </p>
                 </div>
@@ -767,7 +767,7 @@ export default function AccountancySandbox() {
             <div className="flex gap-1.5 mb-3">
               {(['slm', 'wdv'] as const).map(m => (
                 <button key={m} onClick={() => setDepMethod(m)}
-                  className={`px-3 py-1.5 rounded-lg text-[11px] font-black border transition ${depMethod === m ? 'bg-sky-500/15 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-300'}`}>
+                  className={`px-3 py-1.5 rounded-lg text-[11px] font-black border transition ${depMethod === m ? 'bg-gold-500/15 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-300'}`}>
                   {m === 'slm' ? 'Straight Line' : 'Written Down Value'}
                 </button>
               ))}
@@ -858,8 +858,8 @@ export default function AccountancySandbox() {
                 <button key={ln.key} onClick={() => cycleBucket(ln.key)}
                   data-testid={`acc-tb-${ln.key}`}
                   className={`w-full flex items-center justify-between rounded-lg px-3 py-1.5 text-[11px] font-bold border transition ${(buckets[ln.key] ?? '') === '' ? 'bg-slate-800/40 border-slate-700 text-slate-300 hover:border-slate-500'
-                    : buckets[ln.key] === 'trading_dr' || buckets[ln.key] === 'trading_cr' ? 'bg-sky-500/15 border-sky-400/50 text-sky-200'
-                      : buckets[ln.key] === 'pl_dr' || buckets[ln.key] === 'pl_cr' ? 'bg-violet-500/15 border-violet-400/50 text-violet-200'
+                    : buckets[ln.key] === 'trading_dr' || buckets[ln.key] === 'trading_cr' ? 'bg-gold-500/15 border-gold-400/50 text-gold-200'
+                      : buckets[ln.key] === 'pl_dr' || buckets[ln.key] === 'pl_cr' ? 'bg-gold-500/15 border-gold-400/50 text-gold-200'
                         : 'bg-emerald-500/15 border-emerald-400/50 text-emerald-200'}`}>
                   <span>{ln.label}</span>
                   <span className="font-mono">
@@ -871,13 +871,13 @@ export default function AccountancySandbox() {
           </div>
           <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-4">
             <div className="grid grid-cols-2 gap-2 mb-3">
-              <div className="rounded-xl border border-sky-500/40 bg-sky-500/10 px-3 py-2">
-                <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black">your gross profit</p>
-                <p className="text-lg font-black font-mono text-sky-200" data-testid="acc-student-gp">{fmt(studentGP)}</p>
+              <div className="rounded-xl border border-gold-500/40 bg-gold-500/10 px-3 py-2">
+                <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black">your gross profit</p>
+                <p className="text-lg font-black font-mono text-gold-200" data-testid="acc-student-gp">{fmt(studentGP)}</p>
               </div>
-              <div className="rounded-xl border border-violet-500/40 bg-violet-500/10 px-3 py-2">
-                <p className="text-[10px] uppercase tracking-wider text-violet-300 font-black">your net profit</p>
-                <p className="text-lg font-black font-mono text-violet-200" data-testid="acc-student-np">{fmt(studentNP)}</p>
+              <div className="rounded-xl border border-gold-500/40 bg-gold-500/10 px-3 py-2">
+                <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black">your net profit</p>
+                <p className="text-lg font-black font-mono text-gold-200" data-testid="acc-student-np">{fmt(studentNP)}</p>
               </div>
             </div>
             <button onClick={checkAgainstSolver}

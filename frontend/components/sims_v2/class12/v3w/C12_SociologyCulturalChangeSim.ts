@@ -11,7 +11,7 @@ export const w_c12_sociologyculturalchangesim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'Modernisation as a Process of Cultural Change: Definition and Features',
     chapters: [],
     nodeIds: ['c12_soc_cbse_09_001', 'c12_soc_cbse_09_003', 'c12_soc_cbse_09_008', 'c12_soc_cbse_09_010', 'c12_soc_cbse_09_011', 'c12_soc_cbse_10_010', 'c12_soc_cbse_02_004', 'c12_soc_cbse_09_002', 'c12_soc_cbse_03_004', 'c12_soc_cbse_03_007', 'c12_soc_cbse_03_008', 'c12_soc_cbse_03_009', 'c12_soc_cbse_04_009', 'c12_soc_cbse_09_004', 'c12_soc_cbse_09_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a young woman from a traditional weaving family in Varanasi who gets a B.Tech degree, works in a.', goal: 'Master Modernisation as a Process of Cultural Change: Definition and Features.' },
     discovery: {
         question: 'Apply the concept of "achieved vs. ascribed identity" to analyse this situation: A Dalit student clears UPSC, becomes an IAS officer, but his marriage is still.',
@@ -20,7 +20,7 @@ export const w_c12_sociologyculturalchangesim: SimDef = {
         hook: 'Students equate modernisation with "becoming like the West" — wearing Western clothes, speaking English, eating pizza,.',
     },
     teaching: [
-        { title: 'Modernisation is a sociological process of.', text: 'Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality, individualism,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Modernisation is a sociological process of.', text: 'Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality, individualism,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_09_001', title: 'Modernisation is a sociological process.',

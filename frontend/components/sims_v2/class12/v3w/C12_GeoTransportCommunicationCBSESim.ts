@@ -11,7 +11,7 @@ export const w_c12_geotransportcommunicationcbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Transport: Definition and Importance in Economy',
     chapters: [],
     nodeIds: ['c12_geo_cbse_08_001', 'c12_geo_cbse_08_002', 'c12_geo_cbse_08_004', 'c12_geo_cbse_08_006', 'c12_geo_cbse_08_010', 'c12_geo_cbse_08_011', 'c12_geo_cbse_15_011', 'c12_geo_cbse_15_012', 'c12_geo_cbse_07_001', 'c12_geo_cbse_07_002', 'c12_geo_cbse_07_003', 'c12_geo_cbse_07_004', 'c12_geo_cbse_07_005', 'c12_geo_cbse_04_010', 'c12_geo_cbse_08_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine standing at a railway crossing in your town: a goods train loaded with coal from Jharkhand passes,.', goal: 'Master Transport: Definition and Importance in Economy.' },
     discovery: {
         question: 'A farmer in western Uttar Pradesh grows sugarcane. The nearest sugar mill is 40 km away by road, but the road is unpaved and becomes unusable in monsoon.',
@@ -20,7 +20,7 @@ export const w_c12_geotransportcommunicationcbsesim: SimDef = {
         hook: 'Students think "transport importance = connectivity" and write vague statements like "it connects places." The precise.',
     },
     teaching: [
-        { title: 'Transport is the physical movement of.', text: 'Transport is the physical movement of people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) across space.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Transport is the physical movement of.', text: 'Transport is the physical movement of people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) across space.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_08_001', title: 'Transport is the physical movement of.',

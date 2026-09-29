@@ -51,13 +51,13 @@ const TEACHING_SLIDES = [
         title: 'Meet the Computer Mouse! 🖱️',
         text: 'The mouse helps us point and click! Use the left click to select items, the right click for menus, and the scroll wheel to move up and down easily!',
         emoji: '🖱️',
-        bgColor: 'from-blue-500 to-indigo-600',
+        bgColor: 'from-gold-500 to-gold-600',
     },
     {
         title: 'The Magical Keyboard! ⌨️',
         text: 'The keyboard lets us type letters from A to Z and numbers from 0 to 9! Each key has its own special job to help us write stories and do math!',
         emoji: '⌨️',
-        bgColor: 'from-indigo-500 to-purple-600',
+        bgColor: 'from-gold-500 to-purple-600',
     },
     {
         title: 'Special Keys! ␣ ↵ ⌫',
@@ -75,7 +75,7 @@ const TEACHING_SLIDES = [
         title: 'Computer Etiquette & Safety! 🛡️',
         text: 'Always wash your hands before typing! Press keys gently - a keyboard is not a drum! And never bring food or water near the computer!',
         emoji: '🛡️',
-        bgColor: 'from-emerald-500 to-cyan-600',
+        bgColor: 'from-emerald-500 to-gold-600',
     },
 ];
 // ─── Types ────────────────────────────────────────────────────
@@ -284,9 +284,9 @@ function ComputerSceneBackground({ width, height }: {
       {/* Wall gradient */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #1E1B4B 0%, #312E81 40%, #4338CA 70%, #1E1B4B 100%)' }}/>
       {/* Window showing sky outside */}
-      <div className="absolute top-4 left-8 w-36 h-28 rounded-2xl border-4 border-indigo-900 bg-gradient-to-b from-sky-400 to-indigo-300 overflow-hidden opacity-80">
-        <div className="absolute top-2 left-1/2 w-1 h-full bg-indigo-900"/>
-        <div className="absolute top-1/2 left-0 w-full h-1 bg-indigo-900"/>
+      <div className="absolute top-4 left-8 w-36 h-28 rounded-2xl border-4 border-gold-900 bg-gradient-to-b from-gold-400 to-gold-300 overflow-hidden opacity-80">
+        <div className="absolute top-2 left-1/2 w-1 h-full bg-gold-900"/>
+        <div className="absolute top-1/2 left-0 w-full h-1 bg-gold-900"/>
         {/* Sun outside */}
         <div className="absolute top-4 right-4 w-8 h-8 rounded-full bg-yellow-300 opacity-90 shadow-lg"/>
       </div>
@@ -295,7 +295,7 @@ function ComputerSceneBackground({ width, height }: {
       <div className="absolute bottom-32 left-0 right-0 h-3 bg-amber-950 opacity-60"/>
       {/* Floating Key Icons in background */}
       <motion.div className="absolute top-16 right-32 opacity-30" animate={{ y: [0, -10, 0], rotate: [0, 5, 0] }} transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}>
-        <div className="px-3 py-2 bg-indigo-500 rounded-lg text-white font-mono font-bold text-xs shadow-md">ESC</div>
+        <div className="px-3 py-2 bg-gold-500 rounded-lg text-white font-mono font-bold text-xs shadow-md">ESC</div>
       </motion.div>
       <motion.div className="absolute top-28 right-52 opacity-25" animate={{ y: [0, 10, 0], rotate: [0, -5, 0] }} transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}>
         <div className="px-3 py-2 bg-pink-500 rounded-lg text-white font-mono font-bold text-xs shadow-md">ENTER</div>
@@ -431,9 +431,9 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={90}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-indigo-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`}>
         {renderSortIcon(id, 48)}
-        <span className="text-xs font-bold text-indigo-900 mt-1">{label}</span>
+        <span className="text-xs font-bold text-gold-900 mt-1">{label}</span>
       </div>
     </Draggable>);
 }
@@ -494,7 +494,7 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
         </div>
 
         {/* Title */}
-        <h2 className="text-2xl font-black text-indigo-900 text-center mb-2">{current.title}</h2>
+        <h2 className="text-2xl font-black text-gold-900 text-center mb-2">{current.title}</h2>
 
         {/* Text */}
         <p className="text-base font-medium text-gray-700 text-center mb-6 leading-relaxed px-4">{current.text}</p>
@@ -691,7 +691,7 @@ export function ComputerInputGame({width = 720, height = 560, onComplete}: Compu
   };
 
   return (
-    <div className="relative select-none overflow-hidden rounded-3xl shadow-2xl font-sans bg-indigo-950" style={{ width, height }}>
+    <div className="relative select-none overflow-hidden rounded-3xl shadow-2xl font-sans bg-gold-950" style={{ width, height }}>
       {screen === 'teaching' ? (<TeachingScreen width={width} height={height} onStart={() => setScreen('play')}/>) : (<div className="relative flex flex-col items-center justify-between p-6" style={{ width, height }}>
           <ComputerSceneBackground width={width} height={height}/>
           <TechTina mood={tinaMood} speaking={tinaSpeech}/>
@@ -705,8 +705,8 @@ export function ComputerInputGame({width = 720, height = 560, onComplete}: Compu
           </div>
 
           {/* Challenge Question Card */}
-          <div className="relative z-10 my-4 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-indigo-200 max-w-xl text-center">
-            <h2 className="text-lg font-black text-indigo-950">{currentChallenge.question}</h2>
+          <div className="relative z-10 my-4 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-200 max-w-xl text-center">
+            <h2 className="text-lg font-black text-gold-950">{currentChallenge.question}</h2>
           </div>
 
           {/* Game Area / Options / Sort */}
@@ -714,9 +714,9 @@ export function ComputerInputGame({width = 720, height = 560, onComplete}: Compu
             {currentChallenge.answer !== 'sort' ? (
             // Multiple Choice Options
             <div className="grid grid-cols-1 gap-3 w-full max-w-md px-4">
-                {currentChallenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={e => handleAnswerSelect(opt, e)} className="flex items-center justify-between bg-white hover:bg-indigo-50 border-2 border-indigo-200 rounded-2xl p-4 shadow-lg text-indigo-950 font-bold text-base transition-all">
+                {currentChallenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} onClick={e => handleAnswerSelect(opt, e)} className="flex items-center justify-between bg-white hover:bg-gold-50 border-2 border-gold-200 rounded-2xl p-4 shadow-lg text-gold-950 font-bold text-base transition-all">
                     <span>{opt}</span>
-                    <span className="w-8 h-8 rounded-xl bg-indigo-100 flex items-center justify-center text-indigo-600 text-sm font-bold">
+                    <span className="w-8 h-8 rounded-xl bg-gold-100 flex items-center justify-center text-gold-600 text-sm font-bold">
                       {['A', 'B', 'C'][i]}
                     </span>
                   </motion.button>))}

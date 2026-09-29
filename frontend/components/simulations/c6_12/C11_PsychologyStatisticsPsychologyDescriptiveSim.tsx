@@ -1155,12 +1155,12 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-purple-950/60 rounded-2xl border border-indigo-700/40 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-purple-950/60 rounded-2xl border border-gold-700/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️</span> {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-base leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 bg-indigo-950/50 p-2.5 rounded-lg border border-indigo-800/40">
+            <p className="text-xs text-gold-300 bg-gold-950/50 p-2.5 rounded-lg border border-gold-800/40">
               💡 <span className="font-semibold">Lab Mission:</span> {SCENARIO.context}
             </p>
           </div>
@@ -1207,7 +1207,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold rounded-xl shadow-lg shadow-purple-500/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-purple-500/30 flex items-center gap-2"
                   >
                     <span>Enter Interactive Research Labs</span>
                     <span>→</span>
@@ -1268,8 +1268,8 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                 <div className="space-y-4">
                   {/* Predict Check First */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40 mb-4">
-                      <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Predict Before You Measure</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40 mb-4">
+                      <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Predict Before You Measure</p>
                       <p className="text-sm text-slate-200 font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1397,9 +1397,9 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                         <p className="text-base font-black text-emerald-400">{computedStats.median}</p>
                         <span className="text-[9px] text-slate-400">ROBUST RESISTANCE</span>
                       </div>
-                      <div className="p-2.5 bg-blue-950/40 border border-blue-800/40 rounded-xl text-center">
-                        <span className="text-[10px] text-blue-300 font-bold uppercase">Mode (Frequency)</span>
-                        <p className="text-base font-black text-blue-400">{computedStats.mode}</p>
+                      <div className="p-2.5 bg-gold-950/40 border border-gold-800/40 rounded-xl text-center">
+                        <span className="text-[10px] text-gold-300 font-bold uppercase">Mode (Frequency)</span>
+                        <p className="text-base font-black text-gold-400">{computedStats.mode}</p>
                         <span className="text-[9px] text-slate-400">NOMINAL APPLICABLE</span>
                       </div>
                       <div className="p-2.5 bg-purple-950/40 border border-purple-800/40 rounded-xl text-center">
@@ -1450,7 +1450,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                         onClick={() => handleGestaltTab(g)}
                         className={`px-3 py-1.5 text-xs font-bold rounded-xl capitalize transition-all ${
                           activeGestalt === g
-                            ? 'bg-indigo-600 text-white shadow-md'
+                            ? 'bg-gold-600 text-white shadow-md'
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1532,7 +1532,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                     {/* Muller-Lyer Interactive Card */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-xs font-bold text-indigo-300">Muller-Lyer Illusion</span>
+                        <span className="text-xs font-bold text-gold-300">Muller-Lyer Illusion</span>
                         <span className="text-xs text-slate-400">Fin angle: {finAngle}°</span>
                       </div>
                       <input
@@ -1541,7 +1541,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                         max={85}
                         value={finAngle}
                         onChange={(e) => setFinAngle(Number(e.target.value))}
-                        className="w-full accent-indigo-500 mb-3"
+                        className="w-full accent-gold-500 mb-3"
                       />
                       <svg viewBox="0 0 240 130" className="w-full h-32 bg-slate-900 rounded-lg">
                         {/* Top Line: Inward arrowheads */}
@@ -1864,14 +1864,14 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                   max={100}
                   value={hydrationLevel}
                   onChange={(e) => setHydrationLevel(Number(e.target.value))}
-                  className="w-full accent-cyan-400"
+                  className="w-full accent-gold-400"
                 />
               </div>
             </div>
 
             {/* Live Stats Sandbox */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-              <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Live Outlier Stretcher</span>
+              <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">Live Outlier Stretcher</span>
               <div className="mt-3">
                 <input
                   type="range"
@@ -1879,7 +1879,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                   max={150}
                   value={outlierValue}
                   onChange={(e) => handleOutlierSliderChange(Number(e.target.value))}
-                  className="w-full accent-indigo-500 mb-4"
+                  className="w-full accent-gold-500 mb-4"
                 />
                 <div className="grid grid-cols-3 gap-2 text-center">
                   <div className="p-2 bg-slate-900 rounded-lg">
@@ -1904,7 +1904,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-gradient-to-r from-purple-600 via-indigo-600 to-purple-700 text-white font-black text-sm rounded-2xl shadow-xl shadow-purple-600/30"
+              className="px-8 py-3 bg-gradient-to-r from-purple-600 via-gold-600 to-purple-700 text-white font-black text-sm rounded-2xl shadow-xl shadow-purple-600/30"
             >
               Start Clinical Assessment Challenges →
             </motion.button>
@@ -1938,7 +1938,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950/80 border-rose-500 text-rose-300'
-                      : 'bg-indigo-950/80 border-indigo-500 text-indigo-300'
+                      : 'bg-gold-950/80 border-gold-500 text-gold-300'
                   }`}
                 >
                   {difficulty.toUpperCase()} TIER
@@ -1952,7 +1952,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
             {/* Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-purple-500 via-indigo-500 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-purple-500 via-gold-500 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2050,7 +2050,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Validate Labels
                   </motion.button>
@@ -2094,7 +2094,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Check Order
                   </motion.button>
@@ -2170,7 +2170,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                   >
                     Validate Assembly
                   </motion.button>
@@ -2237,7 +2237,7 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           
           {/* Main Success Hero Card */}
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-purple-950 via-slate-900 to-indigo-950 rounded-3xl border border-purple-700/50 text-center shadow-2xl">
+          <div className="p-6 sm:p-8 bg-gradient-to-br from-purple-950 via-slate-900 to-gold-950 rounded-3xl border border-purple-700/50 text-center shadow-2xl">
             <span className="text-5xl mb-2 block">🎓</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-slate-300 text-sm mt-1">ISC Class 11 Psychology Cognitive & Statistics Mastery</p>
@@ -2297,8 +2297,8 @@ function C11_PsychologyStatisticsPsychologyDescriptiveSim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/40">
-            <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-1">SM-2 Spaced Repetition Schedule</h4>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/40">
+            <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-1">SM-2 Spaced Repetition Schedule</h4>
             <p className="text-xs text-slate-300">
               To consolidate memories in the hippocampus and prevent forgetting curves, review this simulation in{' '}
               <span className="font-bold text-amber-300">

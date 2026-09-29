@@ -9,7 +9,7 @@ export const c8_gram_ch80: SimDef = {
     classLevel: 8, subject: 'english-grammar', topic: 'The complete tense grid and sequence of tenses',
     chapters: ['c8_gram_ch80'],
     nodeIds: ['c8_gram_cbse_80_001', 'c8_gram_cbse_80_002'],
-    emoji: '🗂️', theme: { bg: 'from-slate-900 to-indigo-950', accent: 'indigo', scene: 'junior' },
+    emoji: '🗂️', theme: { bg: 'from-slate-900 to-gold-950', accent: 'indigo', scene: 'junior' },
 
     scenario: {
         role: 'a timeline engineer placing every action in its correct cell',
@@ -28,8 +28,8 @@ export const c8_gram_ch80: SimDef = {
         hook: 'Since + starting point demands the perfect family — the marker decides, the verb obeys.',
     },
     teaching: [
-        { title: 'Markers choose the cell', text: 'since/for → perfect family; by the time → past perfect on the earlier event; while → continuous background; already/yet → perfect.', emoji: '🚦', bgColor: 'from-indigo-500 to-violet-600' },
-        { title: 'The time-zone rule', text: 'A past main clause drags subordinate verbs back — "He said he was tired." Still-true facts may stay present — "the earth IS round."', emoji: '🌐', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'Markers choose the cell', text: 'since/for → perfect family; by the time → past perfect on the earlier event; while → continuous background; already/yet → perfect.', emoji: '🚦', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'The time-zone rule', text: 'A past main clause drags subordinate verbs back — "He said he was tired." Still-true facts may stay present — "the earth IS round."', emoji: '🌐', bgColor: 'from-gold-500 to-purple-600' },
     ],
 
     beats: [

@@ -6,7 +6,7 @@ export const c10_chem_ch01_p2: SimDef = {
     id: 'v3_c10_chem_ch01_p2',
     title: 'Chemical Reactions and Equations',
     subtitle: 'Learn to read reactions like sentences — and balance them so no atom goes missing.',
-    classLevel: 10, subject: 'chemistry', topic: 'Chemical Reactions and Equations · Part 2/2',
+    classLevel: 10, subject: 'chemistry', topic: 'Chemical Reactions and Equations',
     chapters: ['c10_chem_ch01'],
     nodeIds: ['c10_chem_cbse_01_007', 'c10_chem_cbse_01_008', 'c10_chem_cbse_01_009', 'c10_chem_cbse_01_010'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

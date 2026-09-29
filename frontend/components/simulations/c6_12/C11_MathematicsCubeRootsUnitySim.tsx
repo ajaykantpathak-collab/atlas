@@ -1039,12 +1039,12 @@ function C11_MathematicsCubeRootsUnitySim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest text-indigo-400 font-bold">ISC Mathematics Class 11</span>
+              <span className="text-xs uppercase tracking-widest text-gold-400 font-bold">ISC Mathematics Class 11</span>
               <span className="px-2 py-0.5 text-[10px] bg-slate-800 text-slate-300 rounded-full border border-slate-700">NEP 2020 Aligned</span>
             </div>
             <h1 className="text-xl md:text-2xl font-extrabold text-white tracking-tight">{title}</h1>
@@ -1055,7 +1055,7 @@ function C11_MathematicsCubeRootsUnitySim({
         <div className="flex items-center gap-4">
           <div className="hidden sm:block text-right">
             <p className="text-xs text-slate-400">Mastery Level</p>
-            <p className="text-sm font-bold text-indigo-400 capitalize">{masteryLevel}</p>
+            <p className="text-sm font-bold text-gold-400 capitalize">{masteryLevel}</p>
           </div>
           <div className="w-20 h-10 relative bg-slate-900 rounded-xl border border-slate-800 overflow-hidden flex items-center justify-center">
             <canvas ref={canvasRef} width={80} height={40} className="w-full h-full" />
@@ -1069,8 +1069,8 @@ function C11_MathematicsCubeRootsUnitySim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Scenario Box */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/40">
-            <div className="flex items-center gap-2 text-indigo-300 font-semibold mb-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/40">
+            <div className="flex items-center gap-2 text-gold-300 font-semibold mb-2">
               <span className="text-lg">🚀</span> {SCENARIO.title}
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
@@ -1098,7 +1098,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-2">
@@ -1128,7 +1128,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter interactive labs"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1146,7 +1146,7 @@ function C11_MathematicsCubeRootsUnitySim({
           {/* Step Navigation Pill Header */}
           <div className="flex flex-wrap items-center justify-between gap-2 p-3 bg-slate-900 rounded-xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-indigo-400 uppercase">Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
               <span className="text-xs font-semibold text-white">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex gap-1.5">
@@ -1155,7 +1155,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   key={idx}
                   onClick={() => setCurrentSlide(idx)}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                   aria-label={`Jump to lab step ${idx + 1}`}
                 />
@@ -1247,7 +1247,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between items-center text-xs">
                         <span className="text-slate-300 font-bold">Cycle Exponent: n = {omegaPower}</span>
-                        <span className="px-2 py-0.5 bg-indigo-950 text-indigo-300 font-mono text-[11px] rounded">
+                        <span className="px-2 py-0.5 bg-gold-950 text-gold-300 font-mono text-[11px] rounded">
                           {omegaPower} mod 3 = {((omegaPower % 3) + 3) % 3}
                         </span>
                       </div>
@@ -1257,7 +1257,7 @@ function C11_MathematicsCubeRootsUnitySim({
                         max={20}
                         value={omegaPower}
                         onChange={(e) => setOmegaPower(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust exponent n for omega^n"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 font-mono">
@@ -1267,9 +1267,9 @@ function C11_MathematicsCubeRootsUnitySim({
                       </div>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-900/50 space-y-2">
-                      <div className="text-xs font-bold text-indigo-200">Cyclic Evaluation:</div>
-                      <div className="font-mono text-sm text-cyan-300">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-900/50 space-y-2">
+                      <div className="text-xs font-bold text-gold-200">Cyclic Evaluation:</div>
+                      <div className="font-mono text-sm text-gold-300">
                         ω^{omegaPower} = (ω³)
                         <span className="text-slate-400">^{Math.floor(omegaPower / 3)}</span> · ω
                         <span className="text-amber-400">^{((omegaPower % 3) + 3) % 3}</span> ={' '}
@@ -1360,7 +1360,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-300">Leading Coefficient a: {quadA}</span>
-                        <span className="text-[10px] text-indigo-400">{quadA > 0 ? 'Opens Up (Min)' : 'Opens Down (Max)'}</span>
+                        <span className="text-[10px] text-gold-400">{quadA > 0 ? 'Opens Up (Min)' : 'Opens Down (Max)'}</span>
                       </div>
                       <input
                         type="range"
@@ -1369,7 +1369,7 @@ function C11_MathematicsCubeRootsUnitySim({
                         step={0.5}
                         value={quadA}
                         onChange={(e) => setQuadA(Number(e.target.value) === 0 ? 0.1 : Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set leading coefficient a"
                       />
                     </div>
@@ -1386,7 +1386,7 @@ function C11_MathematicsCubeRootsUnitySim({
                         step={1}
                         value={quadB}
                         onChange={(e) => setQuadB(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set coefficient b"
                       />
                     </div>
@@ -1403,14 +1403,14 @@ function C11_MathematicsCubeRootsUnitySim({
                         step={1}
                         value={quadC}
                         onChange={(e) => setQuadC(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set constant c"
                       />
                     </div>
 
                     {/* Sign Summary Card */}
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900 text-xs space-y-1">
-                      <div className="font-bold text-indigo-300">Sign of Expression ax² + bx + c:</div>
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900 text-xs space-y-1">
+                      <div className="font-bold text-gold-300">Sign of Expression ax² + bx + c:</div>
                       <p className="text-slate-300 text-[11px]">
                         {quadDisc < 0
                           ? `D < 0: Expression is strictly ${quadA > 0 ? 'POSITIVE (> 0)' : 'NEGATIVE (< 0)'} for ALL real x.`
@@ -1465,7 +1465,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     </svg>
 
                     <div className="text-[11px] text-slate-400 mt-2 text-center">
-                      Blue: <span className="text-cyan-400 font-mono">x² - 5x + {paramK}</span> | Red:{' '}
+                      Blue: <span className="text-gold-400 font-mono">x² - 5x + {paramK}</span> | Red:{' '}
                       <span className="text-rose-400 font-mono">x² - 7x + {2 * paramK}</span>
                     </div>
                   </div>
@@ -1485,13 +1485,13 @@ function C11_MathematicsCubeRootsUnitySim({
                         step={1}
                         value={paramK}
                         onChange={(e) => setParamK(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust parameter k for common roots"
                       />
                     </div>
 
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-900 text-xs space-y-2">
-                      <div className="font-bold text-indigo-200">Cross-Multiplication Condition:</div>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-900 text-xs space-y-2">
+                      <div className="font-bold text-gold-200">Cross-Multiplication Condition:</div>
                       <div className="font-mono text-[11px] text-slate-300">
                         (bc\' - b\'c)(ab\' - a\'b) = (ca\' - c\'a)²
                       </div>
@@ -1593,14 +1593,14 @@ function C11_MathematicsCubeRootsUnitySim({
                 <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                   <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div>
-                      <div className="text-xs font-bold text-indigo-400 uppercase">Degree-4 Disguise:</div>
+                      <div className="text-xs font-bold text-gold-400 uppercase">Degree-4 Disguise:</div>
                       <h4 className="text-lg font-mono font-bold text-white">x⁴ - 13x² + 36 = 0</h4>
                     </div>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setBiquadExpanded(!biquadExpanded)}
-                      className="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                     >
                       {biquadExpanded ? 'Hide Substitution' : 'Apply Substitution y = x²'}
                     </motion.button>
@@ -1610,19 +1610,19 @@ function C11_MathematicsCubeRootsUnitySim({
                     <motion.div
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
-                      className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 space-y-3"
+                      className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 space-y-3"
                     >
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
                         <div className="p-3 bg-slate-900 rounded-lg">
-                          <span className="text-indigo-400 font-bold block mb-1">Step 1: Auxiliary Quadratic</span>
+                          <span className="text-gold-400 font-bold block mb-1">Step 1: Auxiliary Quadratic</span>
                           <span className="font-mono text-slate-200">y² - 13y + 36 = 0</span>
                         </div>
                         <div className="p-3 bg-slate-900 rounded-lg">
-                          <span className="text-indigo-400 font-bold block mb-1">Step 2: Solve for y</span>
+                          <span className="text-gold-400 font-bold block mb-1">Step 2: Solve for y</span>
                           <span className="font-mono text-slate-200">(y - 4)(y - 9) = 0 ⇒ y = 4, 9</span>
                         </div>
                         <div className="p-3 bg-slate-900 rounded-lg">
-                          <span className="text-indigo-400 font-bold block mb-1">Step 3: Back-Substitute</span>
+                          <span className="text-gold-400 font-bold block mb-1">Step 3: Back-Substitute</span>
                           <span className="font-mono text-emerald-400">x² = 4 ⇒ x = ±2<br />x² = 9 ⇒ x = ±3</span>
                         </div>
                       </div>
@@ -1659,7 +1659,7 @@ function C11_MathematicsCubeRootsUnitySim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
                 aria-label="Next interactive lab"
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1705,7 +1705,7 @@ function C11_MathematicsCubeRootsUnitySim({
             {/* Sandbox Module A: Argand Explorer */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
               <div className="flex justify-between items-center">
-                <span className="text-xs font-bold text-indigo-300 uppercase">1. Argand Power Clock</span>
+                <span className="text-xs font-bold text-gold-300 uppercase">1. Argand Power Clock</span>
                 <span className="text-xs font-mono text-emerald-400">ω^{omegaPower}</span>
               </div>
               <input
@@ -1714,7 +1714,7 @@ function C11_MathematicsCubeRootsUnitySim({
                 max={30}
                 value={omegaPower}
                 onChange={(e) => setOmegaPower(Number(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
                 aria-label="Sandbox omega power slider"
               />
               <p className="text-[11px] text-slate-400 font-mono">
@@ -1728,8 +1728,8 @@ function C11_MathematicsCubeRootsUnitySim({
             {/* Sandbox Module B: Parabola Shape Explorer */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-xs font-bold text-indigo-300 uppercase">2. Parabola Sign Scanner</span>
-                <span className="text-xs font-mono text-cyan-400">
+                <span className="text-xs font-bold text-gold-300 uppercase">2. Parabola Sign Scanner</span>
+                <span className="text-xs font-mono text-gold-400">
                   y = {quadA}x² {quadB >= 0 ? `+ ${quadB}` : quadB}x {quadC >= 0 ? `+ ${quadC}` : quadC}
                 </span>
               </div>
@@ -1741,7 +1741,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   step={0.5}
                   value={quadA}
                   onChange={(e) => setQuadA(Number(e.target.value) === 0 ? 0.1 : Number(e.target.value))}
-                  className="w-1/3 accent-indigo-500 cursor-pointer"
+                  className="w-1/3 accent-gold-500 cursor-pointer"
                   aria-label="Sandbox quad A"
                 />
                 <input
@@ -1751,7 +1751,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   step={1}
                   value={quadB}
                   onChange={(e) => setQuadB(Number(e.target.value))}
-                  className="w-1/3 accent-indigo-500 cursor-pointer"
+                  className="w-1/3 accent-gold-500 cursor-pointer"
                   aria-label="Sandbox quad B"
                 />
                 <input
@@ -1761,7 +1761,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   step={1}
                   value={quadC}
                   onChange={(e) => setQuadC(Number(e.target.value))}
-                  className="w-1/3 accent-indigo-500 cursor-pointer"
+                  className="w-1/3 accent-gold-500 cursor-pointer"
                   aria-label="Sandbox quad C"
                 />
               </div>
@@ -1800,7 +1800,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       ? 'bg-emerald-950/80 border-emerald-600 text-emerald-300'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950/80 border-rose-600 text-rose-300'
-                      : 'bg-indigo-950/80 border-indigo-600 text-indigo-300'
+                      : 'bg-gold-950/80 border-gold-600 text-gold-300'
                   }`}
                 >
                   {difficulty}
@@ -1814,7 +1814,7 @@ function C11_MathematicsCubeRootsUnitySim({
             {/* Animated Progress Bar */}
             <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1852,7 +1852,7 @@ function C11_MathematicsCubeRootsUnitySim({
                           ? i === challenge.correctIndex
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
                             : 'bg-slate-900 border-slate-800 text-slate-500 opacity-50'
-                          : 'bg-slate-800/90 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/90 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
                       <div className="flex items-start gap-2.5">
@@ -1878,7 +1878,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-semibold rounded-lg cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-semibold rounded-lg cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1898,7 +1898,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 min-h-[90px] flex flex-col justify-between"
                     >
                       <span className="text-xs text-slate-400 font-bold">{slot.title}</span>
-                      <div className="text-xs font-mono font-bold text-cyan-300 mt-2">
+                      <div className="text-xs font-mono font-bold text-gold-300 mt-2">
                         {droppedLabels[slot.id] || <span className="text-slate-600 italic">Drop label here</span>}
                       </div>
                     </div>
@@ -1910,7 +1910,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
                 >
                   Verify Mapping →
                 </motion.button>
@@ -1938,7 +1938,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-950 text-indigo-300 font-bold flex items-center justify-center shrink-0">
+                      <span className="w-6 h-6 rounded-lg bg-gold-950 text-gold-300 font-bold flex items-center justify-center shrink-0">
                         {displayIdx + 1}
                       </span>
                       <span>{challenge.sortItems![itemIdx]}</span>
@@ -1951,7 +1951,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : [0, 1, 2, 3])}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Logical Sequence →
                 </motion.button>
@@ -1967,7 +1967,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-48 font-mono"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-48 font-mono"
                   />
                   <span className="text-slate-400 text-xs font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -1975,7 +1975,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
                   >
                     Check Value
                   </motion.button>
@@ -1994,7 +1994,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-indigo-700 text-slate-200 text-xs font-mono rounded-lg border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-gold-700 text-slate-200 text-xs font-mono rounded-lg border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2003,7 +2003,7 @@ function C11_MathematicsCubeRootsUnitySim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-950 text-indigo-300 font-mono text-xs rounded border border-indigo-800 flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 text-gold-300 font-mono text-xs rounded border border-gold-800 flex items-center gap-1">
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2023,7 +2023,7 @@ function C11_MathematicsCubeRootsUnitySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
                 >
                   Verify Construction →
                 </motion.button>
@@ -2035,9 +2035,9 @@ function C11_MathematicsCubeRootsUnitySim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-xl border border-indigo-800/50 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-xl border border-gold-800/50 space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>📖</span> Step-by-Step Mathematical Explanation
                 </div>
 
@@ -2052,7 +2052,7 @@ function C11_MathematicsCubeRootsUnitySim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs md:text-sm leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2062,7 +2062,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                    className="px-4 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                   >
                     Show Next Deduction Step →
                   </motion.button>
@@ -2087,12 +2087,12 @@ function C11_MathematicsCubeRootsUnitySim({
          ═══════════════════════════════════════════════════════════════════ */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/50 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-extrabold text-white">Simulation Completed!</h2>
 
             {/* Motivational Feedback Banner */}
-            <div className="p-3 bg-indigo-950/90 rounded-xl border border-indigo-500/40 inline-block px-6">
+            <div className="p-3 bg-gold-950/90 rounded-xl border border-gold-500/40 inline-block px-6">
               <span className="text-lg md:text-xl font-black text-amber-400 tracking-wide uppercase">
                 {getMotivationalFeedback(errors)}
               </span>
@@ -2103,13 +2103,13 @@ function C11_MathematicsCubeRootsUnitySim({
                 Final Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong>
               </span>
               <span className="text-slate-300">
-                Mastery: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+                Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
               </span>
               <span className="text-slate-300">
                 Errors: <strong className={errors === 0 ? 'text-emerald-400' : 'text-amber-400'}>{errors}</strong>
               </span>
             </div>
-            <p className="text-xs text-indigo-300 max-w-lg mx-auto">
+            <p className="text-xs text-gold-300 max-w-lg mx-auto">
               {errors === 0
                 ? 'Flawless accuracy! You have demonstrated master-level fluency across all 10 CISCE quadratic & complex nodes.'
                 : errors <= 3
@@ -2142,7 +2142,7 @@ function C11_MathematicsCubeRootsUnitySim({
 
           {/* Reflection Section */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
               <span>🤔</span> Reflection & Metacognition
             </h3>
             <div className="space-y-4">
@@ -2156,7 +2156,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     setReflectionResponses((prev) => ({ ...prev, surprising: e.target.value }))
                   }
                   placeholder="e.g., How the 3 cube roots of unity balance vectorially to 0..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2169,7 +2169,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     setReflectionResponses((prev) => ({ ...prev, explain: e.target.value }))
                   }
                   placeholder="e.g., Think of roots of unity as symmetric spokes on a 3-way steering wheel..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2182,7 +2182,7 @@ function C11_MathematicsCubeRootsUnitySim({
                     setReflectionResponses((prev) => ({ ...prev, realLife: e.target.value }))
                   }
                   placeholder="e.g., 3-phase AC power systems, satellite thruster pulse cycles, audio DSP..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
                 />
               </div>
             </div>
@@ -2200,12 +2200,12 @@ function C11_MathematicsCubeRootsUnitySim({
 
           {/* Real World Mission Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <div className="text-xs font-bold text-indigo-400 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</div>
+            <div className="text-xs font-bold text-gold-400 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</div>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-lg text-[11px] text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

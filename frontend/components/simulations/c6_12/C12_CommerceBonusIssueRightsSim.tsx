@@ -1192,7 +1192,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
             key={phase}
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
-            className="px-3 py-1 text-xs font-bold rounded-xl border bg-indigo-950/80 text-indigo-300 border-indigo-700 uppercase"
+            className="px-3 py-1 text-xs font-bold rounded-xl border bg-gold-950/80 text-gold-300 border-gold-700 uppercase"
           >
             Mode: {phase}
           </motion.span>
@@ -1218,10 +1218,10 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/80 shadow-xl">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">🚀</span>
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm md:text-base text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-slate-400">
@@ -1254,7 +1254,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-950/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1271,7 +1271,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-xl border bg-slate-950/90 border-indigo-900/80 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-6 p-4 rounded-xl border bg-slate-950/90 border-gold-900/80 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
                 <div className="text-sm">
                   <p className={`font-bold ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -1303,7 +1303,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           {/* Top Stage Indicators */}
           <div className="flex items-center justify-between bg-slate-900/80 p-3 rounded-xl border border-slate-800 text-xs">
-            <span className="font-bold text-indigo-400">
+            <span className="font-bold text-gold-400">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </span>
             <div className="flex gap-1.5">
@@ -1311,7 +1311,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                 <div
                   key={i}
                   className={`w-2 h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-emerald-400 w-6' : i < currentSlide ? 'bg-indigo-500' : 'bg-slate-700'
+                    i === currentSlide ? 'bg-emerald-400 w-6' : i < currentSlide ? 'bg-gold-500' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1341,8 +1341,8 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                 <div className="space-y-6">
                   {/* Predict Then Check Box */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                      <p className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                      <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
                         Predict-Then-Check Exercise
                       </p>
                       <p className="text-sm text-slate-200 font-semibold mb-3">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1390,7 +1390,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                     <div className="space-y-2">
                       <label className="text-xs font-bold text-slate-300 flex justify-between">
                         <span>Rights Issue Shares</span>
-                        <span className="text-cyan-400">{rightsShares} Lakh Shares</span>
+                        <span className="text-gold-400">{rightsShares} Lakh Shares</span>
                       </label>
                       <input
                         type="range"
@@ -1400,7 +1400,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                         value={rightsShares}
                         onChange={e => handleRightsSlider(Number(e.target.value))}
                         aria-label="Set Rights Issue New Shares"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500">
                         <span>0 Lakhs</span>
@@ -1448,15 +1448,15 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                         </div>
                         <div className="flex justify-between items-center p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-300">Reserves & Surplus:</span>
-                          <span className="font-bold text-indigo-400 font-mono">₹{calculatedBalanceSheet.reserves} Lakhs</span>
+                          <span className="font-bold text-gold-400 font-mono">₹{calculatedBalanceSheet.reserves} Lakhs</span>
                         </div>
                         <div className="flex justify-between items-center p-2.5 bg-slate-900 rounded-lg border border-emerald-900/50 bg-emerald-950/20">
                           <span className="text-emerald-300 font-bold">Total Net Worth:</span>
                           <span className="font-black text-emerald-400 font-mono text-sm">₹{calculatedBalanceSheet.netWorth} Lakhs</span>
                         </div>
-                        <div className="flex justify-between items-center p-2.5 bg-slate-900 rounded-lg border border-cyan-900/50 bg-cyan-950/20">
-                          <span className="text-cyan-300 font-semibold">Fresh Cash Raised into Bank:</span>
-                          <span className="font-bold text-cyan-400 font-mono">₹{calculatedBalanceSheet.cashAdded} Lakhs</span>
+                        <div className="flex justify-between items-center p-2.5 bg-slate-900 rounded-lg border border-gold-900/50 bg-gold-950/20">
+                          <span className="text-gold-300 font-semibold">Fresh Cash Raised into Bank:</span>
+                          <span className="font-bold text-gold-400 font-mono">₹{calculatedBalanceSheet.cashAdded} Lakhs</span>
                         </div>
                       </div>
                     </div>
@@ -1682,7 +1682,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                     {selectedFacility === 'bill_discounting' && (
                       <div className="space-y-3 text-xs">
                         <div className="flex justify-between items-center">
-                          <span className="font-bold text-cyan-400">Trade Bill of Exchange (90-Day Credit):</span>
+                          <span className="font-bold text-gold-400">Trade Bill of Exchange (90-Day Credit):</span>
                           <span className="font-mono text-white font-bold">₹{receivablesValue} Lakhs</span>
                         </div>
                         <input
@@ -1692,11 +1692,11 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                           value={receivablesValue}
                           onChange={e => setReceivablesValue(Number(e.target.value))}
                           aria-label="Set Trade Bill Value"
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                         <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-slate-300">
                           📜 <strong>Immediate Bank Cash Advance:</strong>{' '}
-                          <span className="text-cyan-400 font-bold font-mono">₹{Math.round(receivablesValue * 0.97)} Lakhs</span> (after deducting 3% 90-day discounting charge).
+                          <span className="text-gold-400 font-bold font-mono">₹{Math.round(receivablesValue * 0.97)} Lakhs</span> (after deducting 3% 90-day discounting charge).
                           Self-liquidating when drawee pays on maturity.
                         </div>
                       </div>
@@ -1796,7 +1796,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                         whileHover={{ scale: 1.02 }}
                         onClick={() => setSettlementStep(0)}
                         className={`p-3 rounded-lg border cursor-pointer ${
-                          settlementStep === 0 ? 'bg-indigo-950 border-indigo-500 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-400'
+                          settlementStep === 0 ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
                         <div className="font-bold">1. Order Placement (T Day)</div>
@@ -1807,7 +1807,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                         whileHover={{ scale: 1.02 }}
                         onClick={() => setSettlementStep(1)}
                         className={`p-3 rounded-lg border cursor-pointer ${
-                          settlementStep === 1 ? 'bg-indigo-950 border-indigo-500 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-400'
+                          settlementStep === 1 ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
                         <div className="font-bold">2. SEBI & Clearing Corp</div>
@@ -1905,7 +1905,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
 
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-xs font-bold text-slate-400 uppercase">NSE NIFTY 50 (50 Stocks)</span>
-                        <p className="text-2xl font-black text-cyan-400 font-mono mt-1">{calculatedMarketIndex.nifty}</p>
+                        <p className="text-2xl font-black text-gold-400 font-mono mt-1">{calculatedMarketIndex.nifty}</p>
                         <span className="text-[10px] text-slate-500">Base 1995 = 1000</span>
                       </div>
 
@@ -1943,7 +1943,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
                 aria-label="Next Slide"
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-900/40"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/40"
               >
                 Next Lab →
               </motion.button>
@@ -1999,7 +1999,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
 
                 <div className="flex justify-between mt-3">
                   <span>Rights Issue Shares:</span>
-                  <span className="text-cyan-400 font-bold">{rightsShares}L Shares</span>
+                  <span className="text-gold-400 font-bold">{rightsShares}L Shares</span>
                 </div>
                 <input
                   type="range"
@@ -2008,7 +2008,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                   value={rightsShares}
                   onChange={e => handleRightsSlider(Number(e.target.value))}
                   aria-label="Sandbox Rights Shares"
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
 
                 <div className="flex justify-between mt-3">
@@ -2037,7 +2037,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                 </div>
                 <div className="flex justify-between p-2 bg-slate-950 rounded">
                   <span>Reserves & Surplus:</span>
-                  <span className="font-mono font-bold text-indigo-400">₹{calculatedBalanceSheet.reserves} Lakhs</span>
+                  <span className="font-mono font-bold text-gold-400">₹{calculatedBalanceSheet.reserves} Lakhs</span>
                 </div>
                 <div className="flex justify-between p-2 bg-slate-950 rounded">
                   <span>Ex-Issue Share Price:</span>
@@ -2078,7 +2078,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-slate-800 text-indigo-300 font-semibold border border-indigo-900">
+                <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-slate-800 text-gold-300 font-semibold border border-gold-900">
                   NEP Level: {activeChallenge.competencyLevel}
                 </span>
                 <span className="text-[10px] text-slate-400 font-mono">
@@ -2089,7 +2089,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-teal-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-teal-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2124,7 +2124,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                     className={`w-full text-left p-4 rounded-xl border text-xs md:text-sm font-medium transition-all ${
                       showExplanation && i === activeChallenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-950/60 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-950/60 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -2150,7 +2150,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2185,7 +2185,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Submit Drag Labels"
-                  className="mt-4 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Architecture
                 </motion.button>
@@ -2225,7 +2225,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Submit Order Sequence"
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Confirm Sequence
                 </motion.button>
@@ -2242,7 +2242,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Numeric answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm font-mono focus:border-indigo-500 outline-none w-48"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm font-mono focus:border-gold-500 outline-none w-48"
                   />
                   <span className="text-slate-400 text-xs font-bold">{activeChallenge.unit}</span>
                   <motion.button
@@ -2251,7 +2251,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Check numeric answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                   >
                     Calculate
                   </motion.button>
@@ -2271,7 +2271,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2307,7 +2307,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Check constructed definition"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                 >
                   Verify Definition
                 </motion.button>
@@ -2319,7 +2319,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-slate-950 to-indigo-950/40 rounded-xl border border-indigo-900/80 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-slate-950 to-gold-950/40 rounded-xl border border-gold-900/80 space-y-3"
               >
                 <div className="flex items-center gap-2">
                   <span className="text-emerald-400 font-bold text-xs uppercase tracking-wider">
@@ -2339,7 +2339,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                         animate={{ opacity: 1, x: 0 }}
                         className="flex items-start gap-2"
                       >
-                        <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                        <span className="text-gold-400 font-bold">{i + 1}.</span>
                         <span>{sentence}{!sentence.endsWith('.') && '.'}</span>
                       </motion.p>
                     ))}
@@ -2352,7 +2352,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Show next explanation step"
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Show Next Rationale Step →
                     </motion.button>
@@ -2379,14 +2379,14 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-700 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-700 shadow-2xl text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Mastery Assessment Complete!</h2>
             <div className="flex justify-center gap-6 text-sm font-mono">
               <span className="px-4 py-2 bg-slate-900/90 rounded-xl border border-slate-800 text-emerald-400 font-bold">
                 Final Score: {Math.max(0, 100 - errors * 5)}%
               </span>
-              <span className="px-4 py-2 bg-slate-900/90 rounded-xl border border-slate-800 text-indigo-300 font-bold">
+              <span className="px-4 py-2 bg-slate-900/90 rounded-xl border border-slate-800 text-gold-300 font-bold">
                 Mastery Tier: {masteryLevel.toUpperCase()}
               </span>
             </div>
@@ -2399,7 +2399,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* Prominent Spaced Repetition Schedule (SRS) Banner */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-500/40 space-y-2">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-500/40 space-y-2">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <span className="text-sm font-bold text-amber-300 flex items-center gap-2">
                 <span>🔄</span> Spaced Repetition (SRS) Review Schedule
@@ -2446,8 +2446,8 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
           )}
 
           {/* Deep Learning Reflection Section */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🤔</span> Post-Simulation Deep Learning Reflection
             </h3>
             <div className="space-y-4">
@@ -2463,7 +2463,7 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
                     value={reflectionAnswers[i] || ''}
                     onChange={e => handleReflectionChange(i, e.target.value)}
                     placeholder={item.placeholder}
-                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder:text-slate-600 focus:border-indigo-500 outline-none resize-none"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder:text-slate-600 focus:border-gold-500 outline-none resize-none"
                   />
                 </div>
               ))}
@@ -2471,15 +2471,15 @@ function C12_CommerceBonusIssueRightsSim(props: Props = DEFAULT_PROPS) {
           </div>
 
           {/* Real World Activity Arc */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💼</span> Real-World CFO Capstone Project: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="w-4 h-4 rounded-full bg-indigo-950 text-indigo-400 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-gold-950 text-gold-400 flex items-center justify-center text-[10px] font-bold shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{step}</span>

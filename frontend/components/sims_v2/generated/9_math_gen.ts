@@ -107,13 +107,13 @@ export const C9_MATH_GEN: SimDef[] = [
     "katex": "y = (y₁ + y₂)/2"
    },
    {
-    "title": "If a Line Segment Joining Points A And B",
+    "title": "If a Line Segment Joining Points",
     "text": "If a line segment joining points A(x₁, y₁) and B(x₂, y₂) is divided into three equal parts by points P and Q, then P divides AB internally in the ratio 1:2 and Q divides AB internally in the ratio 2:1.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Three Points A, B, And C",
+    "title": "Three Points A , B , And C",
     "text": "Three points A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃) are collinear if and only if the sum of the distances between two pairs of points equals the distance between the remaining pair.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -125,7 +125,7 @@ export const C9_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Area Of a Triangle",
+    "title": "Area of a Triangle Using Coordinates:",
     "text": "The area of a triangle with vertices at coordinates \\(A(x_1, y_1)\\), \\(B(x_2, y_2)\\), and \\(C(x_3, y_3)\\) is given by the absolute value of half the determinant formed by the coordinates: \\(\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) +",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -225,7 +225,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "The student incorrectly added the horizontal and vertical differences (Manhattan distance) instead of using the Pythagorean theorem",
      "PR = horizontal distance = \\(|4-1| = 3\\). RQ = vertical distance = \\(|6-2| = 4\\). By Pythagoras, \\(PQ^2 = 3^2 + 4^2 = 25 \\Rightarrow PQ = 5\\)"
     ],
-    "hint": "Straight from the 'distance between two points \\\\)' slide -- match the key terms.",
+    "hint": "Straight from the 'distance between two points P and' slide -- match the key terms.",
     "misconception": "A student who computes PR = 3, RQ = 4, but then says PQ = 7 (adding legs) does not understand the hypotenuse is the straight-line distance, not the sum of legs.",
     "id": "gen_c9_math_ch01_q5",
     "nodeId": "c9_math_ch1_4",
@@ -263,8 +263,8 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "What is the distance formula between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\)? Write it down and state what each variable represents.",
     "answer": "The distance formula is \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2",
     "options": [
+     "The midpoint formula is M = ((x₁ + x₂)/2, (y₁ + y₂)/2). The section formula for internal division is P = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))",
      "The condition is that the sum of the lengths of any two segments equals the length of the third segment",
-     "The two points of trisection divide the segment in the ratios 1:2 and 2:1",
      "The distance formula is \\(School = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2",
      "The distance formula is \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). Here, \\((x_1, y_1)\\) are the coordinates of point \\(P\\) and \\((x_2"
     ],
@@ -463,11 +463,11 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "State the condition for three points A, B, and C to be collinear using the distance formula. Write the equation that must hold true.",
     "answer": "The condition is that the sum of the lengths of any two segments equals the length of the third segment",
     "options": [
-     "The two points of trisection divide the segment in the ratios 1:2 and 2:1",
      "The midpoint formula is M = ((x₁ + x₂)/2, (y₁ + y₂)/2). The section formula for internal division is P = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))",
+     "The student can derive the midpoint formula from the section formula by setting m = n, apply it to find midpoints and missing endpoints",
      "The condition is that the sum of the lengths of any two segments equals the length of the third segment"
     ],
-    "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
+    "hint": "Straight from the 'Three points A , B , and C' slide -- match the key terms.",
     "misconception": "A wrong answer like \"AB = BC = AC\" reveals the student confuses collinearity with equidistant points or an equilateral triangle. A response \"AB² + BC² = AC²\" shows confusion with the Pythagorean theorem for right triangles.",
     "id": "gen_c9_math_ch01_q11",
     "nodeId": "c9_math_ch1_10",
@@ -589,7 +589,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "Problem: Village A is at coordinates (10, 20) km and Village B is at (30, 40) km on a district map",
      "The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method. While the conclusion is correct (the points are collinear)"
     ],
-    "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
+    "hint": "Straight from the 'Three points A , B , and C' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method.",
     "id": "gen_c9_math_ch01_q16",
     "nodeId": "c9_math_ch1_10",
@@ -600,11 +600,11 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Compare the distance formula method and the area of triangle method for checking collinearity. When would the distance formula method be computationally simpler? When would the area method be simpler? Give one example of coordinates for each case.",
     "answer": "The distance formula method is simpler when coordinates are small integers and the distances work out to perfect squares (e",
     "options": [
-     "The formula is x = (mx₂ + nx₁)/(m + n) and y = (my₂ + ny₁)/(m + n)",
-     "Problem: Village A is at coordinates (10, 20) km and Village B is at (30, 40) km on a district map",
+     "The solution is correct. The coordinates (2,3) and (4,6) are indeed the trisection points. The student correctly applied the section formula with ratios 1:2 and 2:1",
+     "The student can correctly apply the section formula to find the coordinates of a point dividing a line segment internally in a given ratio",
      "The distance formula method is simpler when coordinates are small integers and the distances work out to perfect squares (e"
     ],
-    "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
+    "hint": "Straight from the 'Three points A , B , and C' slide -- match the key terms.",
     "misconception": "A student who says \"distance formula is always easier\" fails to recognize that square roots of non-perfect squares create approximation errors, while the area method gives an exact zero test.",
     "id": "gen_c9_math_ch01_q17",
     "nodeId": "c9_math_ch1_10",
@@ -619,7 +619,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "Example problem: \"A straight pipeline is to be laid from a water tank at (10, 20) to a village at (40, 50) (coordinates in metres)",
      "Problem: A surveyor records three boundary stones at A(100, 200), B(103, 204), C(106, 209) (in metres)"
     ],
-    "hint": "Straight from the 'Three points A, B, and C' slide -- match the key terms.",
+    "hint": "Straight from the 'Three points A , B , and C' slide -- match the key terms.",
     "misconception": "A poor answer gives collinear points or ignores the rounding issue.",
     "id": "gen_c9_math_ch01_q18",
     "nodeId": "c9_math_ch1_10",
@@ -777,7 +777,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "(x² - 9) / (x + 3) = (x+3)(x-3) / (x+3) = x - 3 (for x ≠ -3). The identity factorises the numerator, and the (x+3) terms cancel",
      "The error is omitting the middle term \\(-12pq\\). Correct expansion: \\(4p^2 - 12pq + 9q^2\\). The student likely confused \\((a-b)^2\\) with \\(a^2 - b^2\\) (difference of squares) or"
     ],
-    "hint": "Straight from the 'identities \\^2 = a^2 + 2ab +' slide -- match the key terms.",
+    "hint": "Straight from the 'The identities' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The error is omitting the middle term \\(-12pq\\). Correct expansion: \\(4p^2 - 12pq + 9q^2\\).",
     "id": "gen_c9_math_ch04_q2",
     "nodeId": "c9_math_ch4_1",
@@ -969,14 +969,14 @@ export const C9_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_math_ch05",
-  "title": "Circle",
+  "title": "A Circle Is The Set",
   "subtitle": "Mathematics · Chapter 5",
   "classLevel": 9,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Circle",
+  "topic": "A Circle Is The Set",
   "chapters": [
-   "Mathematics Ch5: Circle"
+   "Mathematics Ch5: A Circle Is The Set"
   ],
   "nodeIds": [
    "c9_math_ch5_1",
@@ -997,7 +997,7 @@ export const C9_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Circle directly with your eyes?",
+   "question": "Can you see A Circle Is The Set directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -1008,13 +1008,13 @@ export const C9_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Circle",
+    "title": "A Circle Is The Set",
     "text": "A circle is the set of all points in a plane that are at a fixed distance (called the radius) from a fixed point (called the centre). The key terms are: centre (the fixed point), radius (the constant distance from centre to any point on the circle), diameter",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "A Circle Possesses Reflection Symmetry",
+    "title": "A Circle Possesses Reflection Symmetry About",
     "text": "A circle possesses reflection symmetry about any line passing through its centre (every diameter is an axis of symmetry), and rotational symmetry of infinite order about its centre (any rotation through an angle θ maps the circle exactly onto itself).",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1063,7 +1063,7 @@ export const C9_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In a Circle, The Perpendicular",
+    "title": "In a Circle, The Perpendicular Drawn",
     "text": "In a circle, the perpendicular drawn from the centre to any chord bisects that chord. If O is the centre, AB is a chord, and OM ⟂ AB with M on AB, then AM = MB.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1159,8 +1159,8 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Define a chord of a circle. How is a diameter different from a chord? Is every diameter a chord? Is every chord a diameter?",
     "answer": "A chord is a line segment with both endpoints on the circle. A diameter is a chord that passes through the centre; it is the longest chord",
     "options": [
-     "The distance of a chord from the centre is the length of the perpendicular segment drawn from the centre to the chord",
-     "The angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle",
+     "The student can precisely define all circle terminology, correctly label parts in any given diagram, distinguish between related terms (e",
+     "Concyclic points are points that lie on the same circle. For four points A, B, C, D to be concyclic",
      "A chord is a line segment with both endpoints on the circle. A diameter is a chord that passes through the centre; it is the longest chord"
     ],
     "hint": "Straight from the 'chord of a circle' slide -- match the key terms.",
@@ -1317,7 +1317,7 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "What is the angle subtended by a chord at the centre of a circle? Define it.",
     "answer": "The angle subtended by a chord AB at the centre O is the angle ∠AOB formed by the radii OA and OB",
     "options": [
-     "A diagram with centre O, chord AB, foot of perpendicular M on AB, and markings AM = MB. The theorem statement is exactly as given",
+     "The distance of a chord from the centre is the length of the perpendicular segment drawn from the centre to the chord",
      "The angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle",
      "The angle subtended by a chord AB at the centre O is the angle ∠AOB formed by the radii OA and OB"
     ],
@@ -1338,8 +1338,8 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "State the theorem relating the angle subtended by an arc at the centre and the angle subtended by the same arc at any point on the remaining part of the circle.",
     "answer": "The angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle",
     "options": [
-     "Concyclic points are points that lie on the same circle. For four points A, B, C, D to be concyclic",
-     "The angle subtended by a chord AB at the centre O is the angle ∠AOB formed by the radii OA and OB",
+     "The student can state and prove the theorem, apply it to find unknown angles in multi-step circle geometry problems",
+     "The student can prove that opposite angles of a cyclic quadrilateral are supplementary using the angle subtended by an arc at the centre theorem",
      "The angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle"
     ],
     "hint": "Straight from the 'angle subtended by an arc at the' slide -- match the key terms.",
@@ -1422,8 +1422,9 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "State the definition of concyclic points and the condition for four points A, B, C, D to be concyclic.",
     "answer": "Concyclic points are points that lie on the same circle. For four points A, B, C, D to be concyclic",
     "options": [
-     "The perpendicular bisector of a chord of a circle passes through the centre of the circle. A correct diagram shows a circle with centre O, chord AB, midpoint M on AB",
-     "The distance of a chord from the centre is the length of the perpendicular segment drawn from the centre to the chord",
+     "The student can state and prove both directions of the theorem (equal chords ⇒ equidistant, and equidistant ⇒ equal chords)",
+     "The student can identify all lines of symmetry of a circle, state the order and angle of rotational symmetry",
+     "Therefore CD points are points that lie on the same circle. For four points A, B, C, D to be concyclic",
      "Concyclic points are points that lie on the same circle. For four points A, B, C, D to be concyclic"
     ],
     "hint": "Straight from the 'Concyclic points' slide -- match the key terms.",
@@ -1443,8 +1444,8 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "State the theorem: \"The perpendicular from the centre of a circle to a chord bisects the chord.\" Draw a labelled diagram showing the centre, chord, perpendicular, and the two equal segments.",
     "answer": "A diagram with centre O, chord AB, foot of perpendicular M on AB, and markings AM = MB. The theorem statement is exactly as given",
     "options": [
+     "The perpendicular bisector of a chord of a circle passes through the centre of the circle. A correct diagram shows a circle with centre O, chord AB, midpoint M on AB",
      "The distance of a chord from the centre is the length of the perpendicular segment drawn from the centre to the chord",
-     "A chord is a line segment with both endpoints on the circle. A diameter is a chord that passes through the centre; it is the longest chord",
      "A diagram with centre O, chord AB, foot of perpendicular M on AB, and markings AM = MB. The theorem statement is exactly as given"
     ],
     "hint": "Straight from the 'In a circle, the perpendicular' slide -- match the key terms.",
@@ -1468,7 +1469,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "The student's answer is incorrect. The perpendicular from the centre to the chord bisects the chord, so √(r² − d²) gives only half the chord length",
      "The statement is incorrect. A radius is a segment from the centre to the circumference (length 10 cm)"
     ],
-    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"it's correct because both are 10 cm\") reveals the student focuses on numerical length instead of geometric definition and endpoint location.",
     "id": "gen_c9_math_ch05_q11",
     "nodeId": "c9_math_ch5_1",
@@ -1479,11 +1480,11 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Compare a sector and a segment of a circle. Draw a labelled diagram for each and explain which radii/chords bound them. If the central angle is 90°, which region has a larger area: the sector or the segment? Justify without calculation.",
     "answer": "A sector is bounded by two radii and an arc; a segment is bounded by a chord and an arc. For a 90° central angle",
     "options": [
-     "A chord is any segment joining two points on the circle. A diameter is a chord that passes through the centre",
-     "A circle has infinitely many lines of symmetry. Every line passing through the centre (i.e., every diameter) is an axis of symmetry",
+     "Triangles OMA and OMB are right-angled at M (OM ⟂ AB). OA = OB (radii), OM is common. By RHS (Right angle-Hypotenuse-Side) congruence, ΔOMA ≅ ΔOMB. Hence AM = MB",
+     "Concyclic points are points that lie on the same circle. For four points A, B, C, D to be concyclic",
      "A sector is bounded by two radii and an arc; a segment is bounded by a chord and an arc. For a 90° central angle"
     ],
-    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"segment is larger because it's the curved part\" or \"they are equal\") shows the student cannot decompose the sector into segment + triangle, a key spatial reasoning skill for later area problems.",
     "id": "gen_c9_math_ch05_q12",
     "nodeId": "c9_math_ch5_1",
@@ -1498,7 +1499,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "Example problem: \"A circular pizza of radius 15 cm has a straight cut (chord) made 9 cm from the centre",
      "Example: \"A circular park has centre O and radius 20 m. A straight path AB goes through O. A curved jogging track follows the boundary from A to C (not passing through B)"
     ],
-    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., missing labels, using diameter as radius, confusing sector/segment) shows the student cannot translate terminology into a coherent spatial scenario.",
     "id": "gen_c9_math_ch05_q13",
     "nodeId": "c9_math_ch5_1",
@@ -1509,11 +1510,11 @@ export const C9_MATH_GEN: SimDef[] = [
     "question": "Define a circle in your own words and state the relationship between its radius and diameter.",
     "answer": "A circle is the set of all points in a plane at a fixed distance (radius) from a fixed point (centre). The diameter is twice the radius (d = 2r) and passes through the centre",
     "options": [
-     "The angle subtended by a chord AB at the centre O is the angle ∠AOB formed by the radii OA and OB",
-     "A chord is a line segment with both endpoints on the circle. A diameter is a chord that passes through the centre; it is the longest chord",
+     "The student can precisely define all circle terminology, correctly label parts in any given diagram, distinguish between related terms (e",
+     "The student can define a chord and distinguish it from a diameter, arc, and radius; calculate the length of a chord using the perpendicular distance from the centre and the radius",
      "A circle is the set of all points in a plane at a fixed distance (radius) from a fixed point (centre). The diameter is twice the radius (d = 2r) and passes through the centre"
     ],
-    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a circle is a round shape\" or \"diameter is half the radius\") reveals the student is relying on visual intuition instead of the formal locus definition, and cannot articulate the precise multiplicative relationship.",
     "id": "gen_c9_math_ch05_q14",
     "nodeId": "c9_math_ch5_1",
@@ -1528,7 +1529,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "Three non-collinear points form a triangle; the perpendicular bisectors of its sides intersect at a unique point (circumcenter) equidistant from all three vertices",
      "A chord is any segment joining two points on the circle. A diameter is a chord that passes through the centre"
     ],
-    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"diameter is longer\" or \"they are the same\") shows the student cannot distinguish between a defining property (passing through centre) and a derived property (being the longest chord).",
     "id": "gen_c9_math_ch05_q15",
     "nodeId": "c9_math_ch5_1",
@@ -1543,9 +1544,24 @@ export const C9_MATH_GEN: SimDef[] = [
      "The longer chord (16 cm) is closer to the centre (distance 3 cm) than the shorter chord (12 cm at distance 5 cm)",
      "(i) AB (passes through O, length 14 cm). (ii) OA or OB or OC (each 7 cm). (iii) AC (joins two points on circle but does not pass through O)"
     ],
-    "hint": "Straight from the 'circle' slide -- match the key terms.",
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming OC as diameter or calling AC a diameter) reveals confusion about the \"passes through centre\" criterion for diameter versus chord.",
     "id": "gen_c9_math_ch05_q16",
+    "nodeId": "c9_math_ch5_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can precisely define all circle terminology, correctly label parts in any given diagram, distinguish between related terms (e",
+    "options": [
+     "The distance of a chord from the centre is the length of the perpendicular segment drawn from the centre to the chord",
+     "The student can identify all lines of symmetry of a circle, state the order and angle of rotational symmetry",
+     "The student can precisely define all circle terminology, correctly label parts in any given diagram, distinguish between related terms (e"
+    ],
+    "hint": "Straight from the 'A circle is the set' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can precisely define all circle terminology, correctly label parts in any given diagram, distinguish",
+    "id": "gen_c9_math_ch05_q17",
     "nodeId": "c9_math_ch5_1",
     "difficulty": "standard"
    },
@@ -1560,21 +1576,6 @@ export const C9_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In a circle, the perpendicular' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., saying the student is correct because it's the same theorem) reveals confusion between a statement and its converse.",
-    "id": "gen_c9_math_ch05_q17",
-    "nodeId": "c9_math_ch5_10",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world problem (Indian context) where this theorem is used to find an unknown length. Provide the problem statement, a diagram description, and the solution steps.",
-    "answer": "Example: A circular garden of radius 15 m has a straight path (chord) across it. The gardener wants to place a sprinkler at the centre that waters exactly up to the path",
-    "options": [
-     "Given: r = 13 m, d = 10 m. Half-chord length = √(r² − d²) = √(169 − 100) = √69 ≈ 8.3066 m. Full chord length = 2 × 8",
-     "∠C = 70° because ∠A + ∠C = 180°. We cannot say ∠B = 70° because the theorem only relates opposite angles; ∠B is opposite ∠D, not ∠A",
-     "Example: A circular garden of radius 15 m has a straight path (chord) across it. The gardener wants to place a sprinkler at the centre that waters exactly up to the path"
-    ],
-    "hint": "Straight from the 'In a circle, the perpendicular' slide -- match the key terms.",
-    "misconception": "A poor answer (e.g., problem not using the theorem, or missing the bisecting step) shows inability to translate the geometric property into a practical scenario.",
     "id": "gen_c9_math_ch05_q18",
     "nodeId": "c9_math_ch5_10",
     "difficulty": "standard"
@@ -1582,11 +1583,11 @@ export const C9_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about circle?",
+    "What surprised you about a circle is the set?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Circle mastered! 🎯",
+  "successLine": "A Circle Is The Set mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1898,7 +1899,7 @@ export const C9_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Probability In Real-life Contexts",
+    "title": "Probability In Real-life Contexts Quantifies",
     "text": "Probability in real-life contexts quantifies the likelihood of uncertain events using empirical data or theoretical models, expressed as a number between 0 and 1, where 0 indicates impossibility and 1 indicates certainty.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2011,19 +2012,19 @@ export const C9_MATH_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Theoretical Probability Of An mastered! 🎯",
+  "successLine": "Theoretical Probability mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c9_math_ch08",
-  "title": "Sequence",
+  "title": "A Sequence Is An Ordered List",
   "subtitle": "Mathematics · Chapter 8",
   "classLevel": 9,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Sequence",
+  "topic": "A Sequence Is An Ordered List",
   "chapters": [
-   "Mathematics Ch8: Sequence"
+   "Mathematics Ch8: A Sequence Is An Ordered List"
   ],
   "nodeIds": [
    "c9_math_ch8_1",
@@ -2037,7 +2038,7 @@ export const C9_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Sequence in real working life?",
+   "question": "Who uses A Sequence Is An Ordered List in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2048,7 +2049,7 @@ export const C9_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Sequence",
+    "title": "A Sequence Is An Ordered List",
     "text": "A sequence is an ordered list of numbers (called terms) that follows a specific rule or pattern, where each term is associated with a unique natural number position (1st, 2nd, 3rd, .",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2076,7 +2077,7 @@ export const C9_MATH_GEN: SimDef[] = [
      "(1) Ferns: Each frond (leaf) of a fern looks like a smaller copy of the whole fern. Zoom in on a frond, and its sub-fronds look like the whole frond",
      "B) {5, 10, 15, 20, ...} A sequence must be an ordered list with a defined rule for generating terms, typically indexed by natural numbers"
     ],
-    "hint": "Straight from the 'sequence' slide -- match the key terms.",
+    "hint": "Straight from the 'A sequence is an ordered list' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student confuses sequences with sets or unordered collections, or thinks any list is a sequence without a position-based rule.",
     "id": "gen_c9_math_ch08_q1",
     "nodeId": "c9_math_ch8_1",
@@ -2224,11 +2225,11 @@ export const C9_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about sequence?",
+    "What surprised you about a sequence is an ordered list?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Sequence mastered! 🎯",
+  "successLine": "A Sequence Is An Ordered List mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  }
 ];

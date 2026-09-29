@@ -1290,7 +1290,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
             <span className="bg-emerald-500/20 text-emerald-400 text-xs font-semibold px-2.5 py-1 rounded-full border border-emerald-500/30">
               Class 12 Geography (ISC/CBSE)
             </span>
-            <span className="bg-sky-500/20 text-sky-400 text-xs font-semibold px-2.5 py-1 rounded-full border border-sky-500/30">
+            <span className="bg-gold-500/20 text-gold-400 text-xs font-semibold px-2.5 py-1 rounded-full border border-gold-500/30">
               Interactive Lab Simulation
             </span>
           </div>
@@ -1402,8 +1402,8 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
               </div>
 
               {showDiscoveryHint && (
-                <div className="mt-4 p-4 rounded-lg bg-sky-950/70 border border-sky-600/50 text-sky-200 text-sm">
-                  <span className="font-bold text-sky-400">Geographical Explanation: </span>
+                <div className="mt-4 p-4 rounded-lg bg-gold-950/70 border border-gold-600/50 text-gold-200 text-sm">
+                  <span className="font-bold text-gold-400">Geographical Explanation: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1468,7 +1468,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {/* Controls */}
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-lg space-y-6">
-                <h4 className="text-base font-bold text-sky-400 border-b border-slate-800 pb-2">
+                <h4 className="text-base font-bold text-gold-400 border-b border-slate-800 pb-2">
                   🎛️ Command Area Controls
                 </h4>
 
@@ -1597,7 +1597,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                 <div>
                   <div className="flex justify-between text-sm text-slate-300 font-medium mb-1">
                     <span>Female Education & Health Allocation:</span>
-                    <span className="text-sky-400 font-bold">{bharmaurEducation}%</span>
+                    <span className="text-gold-400 font-bold">{bharmaurEducation}%</span>
                   </div>
                   <input
                     type="range"
@@ -1605,7 +1605,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                     max="100"
                     value={bharmaurEducation}
                     onChange={(e) => setBharmaurEducation(Number(e.target.value))}
-                    className="w-full accent-sky-500 bg-slate-800 rounded-lg h-2 cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg h-2 cursor-pointer"
                   />
                 </div>
               </div>
@@ -1662,7 +1662,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                 <div className="p-4 bg-slate-950 rounded-lg border border-slate-800 space-y-2">
                   <div className="text-xs font-bold text-slate-400">DPAP Resilience Output:</div>
                   <div className="text-sm text-slate-200">
-                    • Groundwater Recharge Index: <span className="text-sky-400 font-bold">{(dpapCheckDams * 8.5 + dpapAfforestation * 0.4).toFixed(1)} m³/ha</span>
+                    • Groundwater Recharge Index: <span className="text-gold-400 font-bold">{(dpapCheckDams * 8.5 + dpapAfforestation * 0.4).toFixed(1)} m³/ha</span>
                   </div>
                   <div className="text-sm text-slate-200">
                     • Soil Erosion Reduction: <span className="text-emerald-400 font-bold">{(dpapAfforestation * 1.5).toFixed(0)}%</span>
@@ -1680,7 +1680,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                   {Array.from({ length: dpapCheckDams }).map((_, i) => (
                     <div key={i} className="z-10 flex flex-col items-center">
                       <div className="w-6 h-12 bg-slate-600 rounded-t border-t-2 border-slate-400" />
-                      <div className="w-12 h-4 bg-sky-500/60 rounded-full text-[10px] text-white flex items-center justify-center font-bold">
+                      <div className="w-12 h-4 bg-gold-500/60 rounded-full text-[10px] text-white flex items-center justify-center font-bold">
                         Pond
                       </div>
                     </div>
@@ -1696,7 +1696,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
           {currentStepIndex === 3 && (
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-lg space-y-4">
-                <h4 className="text-base font-bold text-indigo-400 border-b border-slate-800 pb-2">
+                <h4 className="text-base font-bold text-gold-400 border-b border-slate-800 pb-2">
                   🏛️ Planning Institutional Model
                 </h4>
                 <div className="space-y-3">
@@ -1742,7 +1742,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-300 font-medium mb-1">
                     <span>Economic Growth Pillar:</span>
-                    <span className="text-blue-400 font-bold">{pillarEco}%</span>
+                    <span className="text-gold-400 font-bold">{pillarEco}%</span>
                   </div>
                   <input
                     type="range"
@@ -1750,7 +1750,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                     max="100"
                     value={pillarEco}
                     onChange={(e) => setPillarEco(Number(e.target.value))}
-                    className="w-full accent-blue-500 bg-slate-800 rounded-lg h-2 cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg h-2 cursor-pointer"
                   />
                 </div>
 
@@ -1828,14 +1828,14 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
                       </button>
                     ))}
                   </div>
-                  <div className="text-[11px] text-sky-400 italic">Verify: {pred.verifyInstruction}</div>
+                  <div className="text-[11px] text-gold-400 italic">Verify: {pred.verifyInstruction}</div>
                 </div>
               ))}
             </div>
 
             {/* Observation Questions Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
-              <h4 className="text-md font-bold text-sky-400 flex items-center gap-2">
+              <h4 className="text-md font-bold text-gold-400 flex items-center gap-2">
                 👁️ Empirical Observations
               </h4>
               {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
@@ -1987,7 +1987,7 @@ export default function C12_GeoPlanningSustainableDevCBSESim({
 
             <div className="mt-6 pt-4 border-t border-slate-800 text-center">
               <span className="text-xs text-slate-400">
-                Spaced Repetition Algorithm: <span className="text-sky-400 font-semibold">SM-2 Active</span>
+                Spaced Repetition Algorithm: <span className="text-gold-400 font-semibold">SM-2 Active</span>
               </span>
             </div>
           </div>

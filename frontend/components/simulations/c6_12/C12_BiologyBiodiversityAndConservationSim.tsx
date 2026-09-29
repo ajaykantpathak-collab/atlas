@@ -86,7 +86,7 @@ export function C12_BiologyBiodiversityAndConservationSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Slope z (sensitivity)</span><span className={`font-mono font-bold ${z < 0.25 ? 'text-sky-300' : z < 0.45 ? 'text-emerald-300' : 'text-rose-300'}`}>{z.toFixed(2)}</span>
+                <span>Slope z (sensitivity)</span><span className={`font-mono font-bold ${z < 0.25 ? 'text-gold-300' : z < 0.45 ? 'text-emerald-300' : 'text-rose-300'}`}>{z.toFixed(2)}</span>
               </div>
               <input type="range" min={0.05} max={0.75} step={0.01} value={z} aria-label="Slope z"
                 onChange={(e) => setZ(Number(e.target.value))} className="w-full accent-emerald-500" />
@@ -105,10 +105,10 @@ export function C12_BiologyBiodiversityAndConservationSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Area A</span><span className="font-mono font-bold text-sky-400">10^{areaExp} km^2</span>
+                <span>Area A</span><span className="font-mono font-bold text-gold-400">10^{areaExp} km^2</span>
               </div>
               <input type="range" min={1} max={6} step={0.1} value={areaExp} aria-label="Area exponent"
-                onChange={(e) => setAreaExp(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setAreaExp(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

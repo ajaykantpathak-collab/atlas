@@ -6,7 +6,7 @@ export const c9_physics_ch03_p2: SimDef = {
     id: 'v3_c9_physics_ch03_p2',
     title: 'Force and Laws of Motion',
     subtitle: 'Inertia, momentum and action-reaction — Newton\'s three laws run every collision from cricket to car crashes.',
-    classLevel: 9, subject: 'physics', topic: 'Force and Laws of Motion · Part 2/2',
+    classLevel: 9, subject: 'physics', topic: 'Force and Laws of Motion',
     chapters: ['c9_physics_ch03'],
     nodeIds: ['c9_physics_ch3_6', 'c9_physics_ch3_7', 'c9_physics_ch3_8', 'c9_physics_ch3_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

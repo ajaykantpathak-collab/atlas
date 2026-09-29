@@ -11,7 +11,7 @@ export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Animal Cell Culture: History and Advantages Over Whole Organisms',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_08_001', 'c12_biotech_cbse_08_004', 'c12_biotech_cbse_08_005', 'c12_biotech_cbse_08_006', 'c12_biotech_cbse_08_007', 'c12_biotech_cbse_08_008', 'c12_biotech_cbse_08_009', 'c12_biotech_cbse_08_010', 'c12_biotech_cbse_08_011', 'c12_biotech_cbse_01_005', 'c12_biotech_cbse_08_002', 'c12_biotech_cbse_08_003', 'c12_biotech_cbse_07_009', 'c12_biotech_cbse_07_003', 'c12_biotech_cbse_07_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a scientist in 1950 trying to produce enough polio vaccine for millions of children.', goal: 'Master Animal Cell Culture: History and Advantages Over Whole Organisms.' },
     discovery: {
         question: 'Compare the “controlled physico-chemical environment” advantage of animal cell culture with the “may not be a holistic representation of in vivo.',
@@ -20,7 +20,7 @@ export const w_c12_biotechanimalcellculturecbsesim: SimDef = {
         hook: 'Students often believe that because animal cell culture uses “the same cells” as in the body, the cells behave.',
     },
     teaching: [
-        { title: 'Animal cell culture is the in vitro.', text: 'Animal cell culture is the in vitro maintenance and proliferation of animal cells under controlled physico-chemical conditions (temperature, pH, osmolality, gas exchange) using a defined nutrient.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Animal cell culture is the in vitro.', text: 'Animal cell culture is the in vitro maintenance and proliferation of animal cells under controlled physico-chemical conditions (temperature, pH, osmolality, gas exchange) using a defined nutrient.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_08_001', title: 'Animal cell culture is the in vitro.',

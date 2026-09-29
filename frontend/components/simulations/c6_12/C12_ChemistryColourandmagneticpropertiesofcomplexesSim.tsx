@@ -158,7 +158,7 @@ const CrystalFieldVisualizer: React.FC<{
     <div className="bg-slate-900 text-slate-100 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-4">
       <div className="flex flex-wrap justify-between items-center border-b border-slate-800 pb-3 gap-2">
         <div>
-          <h4 className="font-bold text-cyan-400 text-base">Crystal Field d-Orbital Splitting</h4>
+          <h4 className="font-bold text-gold-400 text-base">Crystal Field d-Orbital Splitting</h4>
           <p className="text-xs text-slate-400">
             Geometry: <span className="text-white font-semibold">{geometry}</span> | Field: <span className="text-amber-400 font-semibold">{ligandStrength.toUpperCase()}</span>
           </p>
@@ -195,7 +195,7 @@ const CrystalFieldVisualizer: React.FC<{
                 const hasSingle = electronCount > slotIdx;
                 const hasPair = electronCount > slotIdx + upperSlots;
                 return (
-                  <div key={`upper-${slotIdx}`} className="w-12 h-12 border-2 border-cyan-500/50 bg-slate-900/80 rounded-lg flex items-center justify-center relative shadow-inner">
+                  <div key={`upper-${slotIdx}`} className="w-12 h-12 border-2 border-gold-500/50 bg-slate-900/80 rounded-lg flex items-center justify-center relative shadow-inner">
                     <AnimatePresence>
                       {hasSingle && (
                         <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} className="text-emerald-400 text-lg font-bold">
@@ -229,7 +229,7 @@ const CrystalFieldVisualizer: React.FC<{
                 const hasSingle = electronCount > slotIdx;
                 const hasPair = electronCount > slotIdx + lowerSlots;
                 return (
-                  <div key={`lower-${slotIdx}`} className="w-12 h-12 border-2 border-indigo-500/50 bg-slate-900/80 rounded-lg flex items-center justify-center relative shadow-inner">
+                  <div key={`lower-${slotIdx}`} className="w-12 h-12 border-2 border-gold-500/50 bg-slate-900/80 rounded-lg flex items-center justify-center relative shadow-inner">
                     <AnimatePresence>
                       {hasSingle && (
                         <motion.span initial={{ scale: 0 }} animate={{ scale: 1 }} className="text-emerald-400 text-lg font-bold">
@@ -319,7 +319,7 @@ const CarbonylBondingVisualizer: React.FC<{
       <div className="flex justify-center space-x-2">
         <button
           onClick={() => { setActiveTab('sigma'); audioManager.play('tap'); }}
-          className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${activeTab === 'sigma' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-slate-200'}`}
+          className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${activeTab === 'sigma' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-slate-200'}`}
         >
           σ-Donation (C → M)
         </button>
@@ -438,7 +438,7 @@ const SN1SN2Simulator: React.FC<{
         <div>
           <h4 className="font-bold text-emerald-400 text-base">Nucleophilic Substitution Simulator</h4>
           <p className="text-xs text-slate-400">
-            Substrate: <span className="text-white font-semibold">{substrateType.toUpperCase()}</span> | Nu: <span className="text-amber-400">{nucleophileStrength}</span> | Solvent: <span className="text-cyan-400">{solvent}</span>
+            Substrate: <span className="text-white font-semibold">{substrateType.toUpperCase()}</span> | Nu: <span className="text-amber-400">{nucleophileStrength}</span> | Solvent: <span className="text-gold-400">{solvent}</span>
           </p>
         </div>
         <div className="px-3 py-1 rounded-lg bg-emerald-950 border border-emerald-700 text-emerald-300 font-bold text-xs">
@@ -464,9 +464,9 @@ const SN1SN2Simulator: React.FC<{
               )}
               {step === 1 && (
                 <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="w-full text-center space-y-2">
-                  <div className="inline-block bg-indigo-950 border-2 border-dashed border-indigo-500 p-4 rounded-2xl">
-                    <span className="text-xs text-indigo-300 font-mono font-bold">[ Nu ⋯ C(R₂) ⋯ Br ]<sup>‡</sup></span>
-                    <p className="text-[10px] text-indigo-400 mt-1">Trigonal Bipyramidal Transition State (5-coordinate)</p>
+                  <div className="inline-block bg-gold-950 border-2 border-dashed border-gold-500 p-4 rounded-2xl">
+                    <span className="text-xs text-gold-300 font-mono font-bold">[ Nu ⋯ C(R₂) ⋯ Br ]<sup>‡</sup></span>
+                    <p className="text-[10px] text-gold-400 mt-1">Trigonal Bipyramidal Transition State (5-coordinate)</p>
                   </div>
                 </motion.div>
               )}
@@ -493,9 +493,9 @@ const SN1SN2Simulator: React.FC<{
               )}
               {step === 1 && (
                 <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="w-full flex justify-around items-center">
-                  <div className="border-2 border-cyan-500 bg-cyan-950/50 px-4 py-3 rounded-xl text-center">
-                    <span className="font-bold text-cyan-300 text-lg">(CH₃)₃C⁺</span>
-                    <p className="text-[10px] text-cyan-400">Planar Carbocation Intermediate</p>
+                  <div className="border-2 border-gold-500 bg-gold-950/50 px-4 py-3 rounded-xl text-center">
+                    <span className="font-bold text-gold-300 text-lg">(CH₃)₃C⁺</span>
+                    <p className="text-[10px] text-gold-400">Planar Carbocation Intermediate</p>
                   </div>
                   <div className="bg-red-950 border border-red-700 px-2.5 py-1 rounded-full text-xs text-red-300">+ Br⁻</div>
                 </motion.div>
@@ -503,7 +503,7 @@ const SN1SN2Simulator: React.FC<{
               {step === 2 && (
                 <div className="w-full flex justify-around items-center">
                   <div className="bg-amber-600 px-3 py-1.5 rounded-full text-xs font-bold shadow-lg animate-bounce">Nu⁻ Attacks Either Face</div>
-                  <div className="border border-cyan-500 bg-cyan-950/50 px-3 py-2 rounded-xl text-cyan-300 font-bold">(CH₃)₃C⁺</div>
+                  <div className="border border-gold-500 bg-gold-950/50 px-3 py-2 rounded-xl text-gold-300 font-bold">(CH₃)₃C⁺</div>
                 </div>
               )}
               {step === 3 && (
@@ -547,7 +547,7 @@ const SN1SN2Simulator: React.FC<{
         </div>
         <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
           <span className="text-slate-400">Intermediate:</span>
-          <div className="font-bold text-cyan-400">{isSN2 ? 'None (Transition State)' : 'Carbocation'}</div>
+          <div className="font-bold text-gold-400">{isSN2 ? 'None (Transition State)' : 'Carbocation'}</div>
         </div>
         <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
           <span className="text-slate-400">Favoured Solvent:</span>
@@ -684,12 +684,12 @@ const AlcoholLabVisualizer: React.FC<{
     <div className="bg-slate-900 text-slate-100 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-4">
       <div className="flex flex-wrap justify-between items-center border-b border-slate-800 pb-3 gap-2">
         <div>
-          <h4 className="font-bold text-cyan-400 text-base">Alcohol Chemical Reactions Lab</h4>
+          <h4 className="font-bold text-gold-400 text-base">Alcohol Chemical Reactions Lab</h4>
           <p className="text-xs text-slate-400">
             Alcohol: <span className="text-white font-bold">{alcoholClass === '1deg' ? 'Primary (1°)' : alcoholClass === '2deg' ? 'Secondary (2°)' : 'Tertiary (3°)'}</span>
           </p>
         </div>
-        <div className="bg-cyan-950 border border-cyan-700 text-cyan-300 px-3 py-1 rounded-lg text-xs font-mono font-bold">
+        <div className="bg-gold-950 border border-gold-700 text-gold-300 px-3 py-1 rounded-lg text-xs font-mono font-bold">
           Reagent: {reagent.toUpperCase()}
         </div>
       </div>
@@ -702,7 +702,7 @@ const AlcoholLabVisualizer: React.FC<{
             animate={{ height: '70%' }}
             className={`w-full rounded-b-lg transition-colors ${
               reagent === 'lucas' && alcoholClass === '3deg' ? 'bg-slate-300 opacity-90' :
-              reagent === 'kmno4' ? 'bg-purple-600' : 'bg-cyan-500/80'
+              reagent === 'kmno4' ? 'bg-purple-600' : 'bg-gold-500/80'
             }`}
           />
         </div>
@@ -1136,12 +1136,12 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
   const activeChallenge = CHALLENGES[currentChallengeIndex];
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans p-3 sm:p-6 space-y-6 max-w-6xl mx-auto selection:bg-cyan-500 selection:text-slate-950">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans p-3 sm:p-6 space-y-6 max-w-6xl mx-auto selection:bg-gold-500 selection:text-slate-950">
       {/* HEADER BAR */}
       <header className="bg-slate-900 border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-2xl flex flex-wrap justify-between items-center gap-4">
         <div>
           <div className="flex items-center space-x-2">
-            <span className="bg-cyan-500 text-slate-950 font-black text-xs px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+            <span className="bg-gold-500 text-slate-950 font-black text-xs px-2.5 py-0.5 rounded-full uppercase tracking-wider">
               Class 12 ISC
             </span>
             <span className="text-xs text-slate-400 font-medium">Chemistry Unit 6 & 7</span>
@@ -1157,7 +1157,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
             <div className="text-xs text-slate-400">Total Score</div>
             <div className="text-xl font-black text-amber-400 font-mono">{totalScore} / 100</div>
           </div>
-          <div className="w-12 h-12 rounded-full border-4 border-cyan-500/30 flex items-center justify-center bg-slate-950 font-bold text-xs text-cyan-400">
+          <div className="w-12 h-12 rounded-full border-4 border-gold-500/30 flex items-center justify-center bg-slate-950 font-bold text-xs text-gold-400">
             {Math.round((totalScore / 100) * 100)}%
           </div>
         </div>
@@ -1167,25 +1167,25 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
       <nav className="flex flex-wrap gap-2 border-b border-slate-800 pb-2">
         <button
           onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
-          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
         >
           1. Discovery
         </button>
         <button
           onClick={() => { setActiveTab('slides'); audioManager.play('tap'); }}
-          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'slides' ? 'bg-cyan-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'slides' ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
         >
           2. Visual Lessons
         </button>
         <button
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
-          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'lab' ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
         >
           3. Interactive Lab
         </button>
         <button
           onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
-          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-900 text-slate-400 hover:text-slate-200'}`}
         >
           4. Board Challenges
         </button>
@@ -1226,11 +1226,11 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
 
             {discoverySubmitted && (
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs sm:text-sm text-slate-300 space-y-2">
-                <div className="font-bold text-cyan-400">Explanation:</div>
+                <div className="font-bold text-gold-400">Explanation:</div>
                 <p className="leading-relaxed">{DISCOVERY_QUESTION.explanation}</p>
                 <button
                   onClick={() => { setActiveTab('slides'); audioManager.play('swoop'); }}
-                  className="mt-3 px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs transition"
+                  className="mt-3 px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs transition"
                 >
                   Proceed to Visual Lessons →
                 </button>
@@ -1246,7 +1246,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
           <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-5">
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}</span>
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}</span>
                 <h2 className="text-lg font-bold text-slate-100">{activeSlide.title}</h2>
                 <p className="text-xs text-slate-400">{activeSlide.subtitle}</p>
               </div>
@@ -1274,7 +1274,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                       audioManager.play('swoop');
                     }
                   }}
-                  className="px-4 py-1.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg transition"
+                  className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg transition"
                 >
                   {currentSlideIndex === TEACHING_SLIDES.length - 1 ? 'Go to Lab →' : 'Next →'}
                 </button>
@@ -1321,7 +1321,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Lab Module 1: Coordination Complexes */}
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                <h4 className="font-bold text-xs text-cyan-400 uppercase tracking-wider">Module A: CFT & Carbonyls</h4>
+                <h4 className="font-bold text-xs text-gold-400 uppercase tracking-wider">Module A: CFT & Carbonyls</h4>
 
                 <div className="space-y-2 text-xs">
                   <div>
@@ -1332,7 +1332,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                       max="10"
                       value={dElectrons}
                       onChange={(e) => setDElectrons(parseInt(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1345,7 +1345,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                     </button>
                     <button
                       onClick={() => setLigandStrength('strong')}
-                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${ligandStrength === 'strong' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
+                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${ligandStrength === 'strong' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
                     >
                       Strong Field (CN⁻)
                     </button>
@@ -1354,13 +1354,13 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                   <div className="flex space-x-2 pt-1">
                     <button
                       onClick={() => setGeometry('octahedral')}
-                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${geometry === 'octahedral' ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
+                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${geometry === 'octahedral' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
                     >
                       Octahedral (O_h)
                     </button>
                     <button
                       onClick={() => setGeometry('tetrahedral')}
-                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${geometry === 'tetrahedral' ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
+                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${geometry === 'tetrahedral' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
                     >
                       Tetrahedral (T_d)
                     </button>
@@ -1399,13 +1399,13 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                   <div className="flex space-x-2 pt-1">
                     <button
                       onClick={() => setSolventType('aprotic')}
-                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${solventType === 'aprotic' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
+                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${solventType === 'aprotic' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
                     >
                       Aprotic (Acetone)
                     </button>
                     <button
                       onClick={() => setSolventType('protic')}
-                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${solventType === 'protic' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
+                      className={`flex-1 py-1 rounded text-xs font-bold border transition ${solventType === 'protic' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-700 text-slate-400'}`}
                     >
                       Protic (H₂O/EtOH)
                     </button>
@@ -1462,7 +1462,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
 
             {challengeSubmitted[activeChallenge.id] && (
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs sm:text-sm space-y-2">
-                <div className="font-bold text-cyan-400">Official ISC Explanation:</div>
+                <div className="font-bold text-gold-400">Official ISC Explanation:</div>
                 <p className="text-slate-300 leading-relaxed">{activeChallenge.explanation}</p>
 
                 <div className="flex justify-end pt-2">
@@ -1512,9 +1512,9 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                     <div className="text-[10px] text-slate-500 font-mono">Node {idx + 61}</div>
                     <div className="font-mono text-xs font-bold text-slate-200">{nodeId}</div>
                     <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden mt-1">
-                      <div className="bg-cyan-500 h-full rounded-full" style={{ width: `${percent}%` }} />
+                      <div className="bg-gold-500 h-full rounded-full" style={{ width: `${percent}%` }} />
                     </div>
-                    <div className="text-[10px] text-cyan-400 font-bold text-right">{percent}% Mastered</div>
+                    <div className="text-[10px] text-gold-400 font-bold text-right">{percent}% Mastered</div>
                   </div>
                 );
               })}
@@ -1540,7 +1540,7 @@ export default function C12_ChemistryColourandmagneticpropertiesofcomplexesSim()
                 setCurrentChallengeIndex(0);
                 audioManager.play('swoop');
               }}
-              className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs transition shadow-lg"
+              className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs transition shadow-lg"
             >
               Restart Full Simulation
             </button>

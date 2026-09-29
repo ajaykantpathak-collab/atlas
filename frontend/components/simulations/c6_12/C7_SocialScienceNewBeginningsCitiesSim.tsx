@@ -63,7 +63,7 @@ export function C7_SocialScienceNewBeginningsCitiesSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 7 History - New Beginnings: Cities and States</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 History - New Beginnings: Cities and States</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Run a Mahajanapada: Tax, Army, Fort</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -93,11 +93,11 @@ export function C7_SocialScienceNewBeginningsCitiesSim() {
                 className={`flex-1 min-h-11 rounded-xl text-xs font-bold border transition-all ${plough ? 'bg-emerald-600 border-emerald-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-emerald-600'}`}>
                 Iron plough {plough ? 'ON (+45% yield)' : 'OFF'}
               </button>
-              <button onClick={buildFort} className="flex-1 min-h-11 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold transition-all">
+              <button onClick={buildFort} className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">
                 Build fort ring (120 t) [{fort}/3]
               </button>
             </div>
-            <button onClick={nextYear} className="w-full min-h-11 rounded-xl bg-violet-600 hover:bg-violet-500 text-sm font-bold transition-all">
+            <button onClick={nextYear} className="w-full min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold transition-all">
               Next year -- Magadha attacks in {attackIn} year{attackIn === 1 ? '' : 's'} ({attackForce} strong)
             </button>
           </div>
@@ -111,8 +111,8 @@ export function C7_SocialScienceNewBeginningsCitiesSim() {
           <div className="grid grid-cols-2 gap-2">
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Farming families</p><p className="font-mono text-lg text-emerald-300">{pop}</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Grain produced</p><p className="font-mono text-lg text-amber-300">{Math.round(produce)} t</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Raja&apos;s revenue</p><p className="font-mono text-lg text-indigo-300">{Math.round(revenue)} t</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Treasury</p><p className="font-mono text-lg text-violet-300">{Math.round(saved)} t</p></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Raja&apos;s revenue</p><p className="font-mono text-lg text-gold-300">{Math.round(revenue)} t</p></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Treasury</p><p className="font-mono text-lg text-gold-300">{Math.round(saved)} t</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Defence index</p><p className={`font-mono text-lg ${defense >= attackForce ? 'text-emerald-300' : 'text-rose-400'}`}>{defense}</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Farmer mood</p><p className={`font-mono text-lg ${happiness >= 50 ? 'text-emerald-300' : 'text-rose-400'}`}>{happiness}/100</p></div>
           </div>
@@ -122,7 +122,7 @@ export function C7_SocialScienceNewBeginningsCitiesSim() {
           )}
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 max-h-44 overflow-y-auto">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">Chronicle of your janapada</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">Chronicle of your janapada</p>
             {log.length === 0 && <p className="text-xs text-slate-500">Nothing yet -- press Next year.</p>}
             <div className="space-y-1">
               {log.map((e, i) => (
@@ -134,12 +134,12 @@ export function C7_SocialScienceNewBeginningsCitiesSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p><span className="font-bold text-indigo-300">The real chain:</span> iron plough + paddy transplanting made surplus grain -- surplus let rajas collect tax -- tax paid a PERMANENT army -- armies built the thick fort walls archaeologists still dig up at sites like Rajgir.</p>
+            <p><span className="font-bold text-gold-300">The real chain:</span> iron plough + paddy transplanting made surplus grain -- surplus let rajas collect tax -- tax paid a PERMANENT army -- armies built the thick fort walls archaeologists still dig up at sites like Rajgir.</p>
           </div>
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Keep tax exactly at one-sixth and still survive the year-4 attack -- what combination of plough, army share and fort did you need?</p>
         <p className="mt-1">2. Push tax to 33% for three years and watch the mood meter -- explain what happens to your defence when farmers leave, even though tax per family is unchanged.</p>

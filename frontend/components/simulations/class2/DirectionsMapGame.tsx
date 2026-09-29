@@ -40,7 +40,7 @@ const TEACHING_SLIDES = [
     title: 'Directions Around Us! 🧭',
     text: 'Left and right help us find where things are. Near things are close by, and far things are a long walk away! The blackboard is in front, and the door is on the right!',
     emoji: '🧭',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Left and right help us find where things are. Near things are close by, and far things are a long walk away!',
   },
   {
@@ -61,14 +61,14 @@ const TEACHING_SLIDES = [
     title: 'Sources of Water! 💧',
     text: 'Water is precious! Natural sources include rivers, ponds, lakes, and rain. Man-made sources include taps, wells, hand pumps, and water tanks!',
     emoji: '💧',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Water is precious! Natural sources include rivers, ponds, lakes, and rain. Man-made sources include taps, wells, hand pumps, and water tanks!',
   },
   {
     title: 'Land and Water Features! ⛰️',
     text: 'Earth has land features like hills (high land), plains (flat land), and plateaus (flat high land). Water features include rivers, streams, lakes, and oceans!',
     emoji: '⛰️',
-    bgColor: 'from-purple-400 to-indigo-600',
+    bgColor: 'from-purple-400 to-gold-600',
     spoken: 'Earth has land features like hills, plains, and plateaus. Water features include rivers, streams, lakes, and oceans!',
   },
 ];
@@ -600,13 +600,13 @@ function TeachingScreen({ onStartPlay }: { onStartPlay: () => void }) {
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col items-center justify-between p-6 bg-gradient-to-br from-sky-100 via-amber-50 to-emerald-100 overflow-hidden select-none">
+    <div className="relative w-full h-full flex flex-col items-center justify-between p-6 bg-gradient-to-br from-gold-100 via-amber-50 to-emerald-100 overflow-hidden select-none">
       <MapSceneBg width={720} height={560} />
       <GuideGaurav mood="happy" speaking={slide.spoken} />
 
       {/* Header */}
       <div className="z-10 text-center mt-2">
-        <h1 className="text-2xl font-black text-blue-900 drop-shadow-sm">🧭 Guide Gaurav’s Map & Directions Academy 🗺️</h1>
+        <h1 className="text-2xl font-black text-gold-900 drop-shadow-sm">🧭 Guide Gaurav’s Map & Directions Academy 🗺️</h1>
         <p className="text-sm font-semibold text-gray-700">ICSE Class 2 Geography Explorer</p>
       </div>
 
@@ -845,7 +845,7 @@ export function DirectionsMapGame({ width = 720, height = 560, onComplete }: Dir
       {/* Top HUD */}
       <div className="z-10 w-full flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md shadow-sm border-b border-amber-200">
         <div className="flex items-center gap-3">
-          <span className="text-xs font-black uppercase tracking-wider text-blue-900 bg-blue-100 px-3 py-1 rounded-full">
+          <span className="text-xs font-black uppercase tracking-wider text-gold-900 bg-gold-100 px-3 py-1 rounded-full">
             Challenge {challengeIdx + 1} of {CHALLENGES.length}
           </span>
           <StarRow count={score} total={CHALLENGES.length} />

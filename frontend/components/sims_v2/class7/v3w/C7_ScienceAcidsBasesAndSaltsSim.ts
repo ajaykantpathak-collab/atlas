@@ -11,7 +11,7 @@ export const w_c7_scienceacidsbasesandsaltssim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'What Happens When Acidic and Basic Substances Mix',
     chapters: [],
     nodeIds: ['c7_physics_ch07_005', 'c7_physics_ch07_006', 'c7_physics_ch07_001', 'c7_physics_ch07_004', 'c7_physics_ch07_007', 'c7_physics_ch07_008', 'c7_physics_ch07_009', 'c7_physics_ch07_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine washing your hands with soap after accidentally touching lemon juice; you notice a sudden change in.', goal: 'Master What Happens When Acidic and Basic Substances Mix.' },
     discovery: {
         question: 'What are the two standard products always formed in a complete neutralisation reaction between an acid and a base?',
@@ -20,7 +20,7 @@ export const w_c7_scienceacidsbasesandsaltssim: SimDef = {
         hook: 'Students often believe that mixing an acid and a base creates a completely pure substance that is always sodium.',
     },
     teaching: [
-        { title: 'When an acidic substance and a basic.', text: 'When an acidic substance and a basic substance are mixed in the correct proportions, they chemically neutralize each other\'s properties, producing a salt and water along with the release of heat.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'When an acidic substance and a basic.', text: 'When an acidic substance and a basic substance are mixed in the correct proportions, they chemically neutralize each other\'s properties, producing a salt and water along with the release of heat.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch07_005', title: 'When an acidic substance and a basic.',

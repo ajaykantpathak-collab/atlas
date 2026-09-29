@@ -61,9 +61,9 @@ export function C11_ChemistryStructureOfAtomSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700 font-mono">e-</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">e-</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 11 -- Structure of Atom</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Structure of Atom</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Bohr Quantum Jumps and Real Spectral Lines</h1>
         </div>
       </div>
@@ -116,8 +116,8 @@ export function C11_ChemistryStructureOfAtomSim() {
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-2 gap-2">
             <div><span className="text-slate-500">Delta E emitted</span><div className="text-amber-300 font-bold text-sm">{emission ? dE.toFixed(3) + ' eV' : '-- (absorption)'}</div></div>
             <div><span className="text-slate-500">Wavelength</span><div className="font-bold text-sm" style={{ color: emission ? color : '#64748b' }}>{emission ? lambdaNm.toFixed(1) + ' nm' : '--'}</div></div>
-            <div><span className="text-slate-500">Frequency</span><div className="text-sky-300 font-bold text-sm">{emission ? freqTHz.toFixed(0) + ' THz' : '--'}</div></div>
-            <div><span className="text-slate-500">Spectral series</span><div className="text-violet-300 font-bold text-sm">{emission ? `${series.name} (${series.region})` : '--'}</div></div>
+            <div><span className="text-slate-500">Frequency</span><div className="text-gold-300 font-bold text-sm">{emission ? freqTHz.toFixed(0) + ' THz' : '--'}</div></div>
+            <div><span className="text-slate-500">Spectral series</span><div className="text-gold-300 font-bold text-sm">{emission ? `${series.name} (${series.region})` : '--'}</div></div>
           </div>
         </div>
 
@@ -126,7 +126,7 @@ export function C11_ChemistryStructureOfAtomSim() {
             <div className="grid grid-cols-3 gap-2">
               {SPECIES.map((s) => (
                 <button key={s.z} onClick={() => setZ(s.z)}
-                  className={`py-2 rounded-xl text-xs font-bold ${z === s.z ? 'bg-sky-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
+                  className={`py-2 rounded-xl text-xs font-bold ${z === s.z ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
                   {s.label}
                 </button>
               ))}
@@ -150,8 +150,8 @@ export function C11_ChemistryStructureOfAtomSim() {
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-sky-300 font-bold">Energy ladder ({SPECIES.find((s) => s.z === z)?.name})</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Energy ladder ({SPECIES.find((s) => s.z === z)?.name})</div>
             {[1, 2, 3, 4].map((n) => (
               <div key={n} className="flex justify-between text-slate-400">
                 <span>n={n}</span><span className={n === ni ? 'text-pink-400 font-bold' : n === nf ? 'text-emerald-400 font-bold' : ''}>{energy(n).toFixed(2)} eV</span>
@@ -172,8 +172,8 @@ export function C11_ChemistryStructureOfAtomSim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Reproduce the four visible Balmer lines of hydrogen (n_f = 2, n_i = 3,4,5,6) -- the display should show 656, 486, 434, 410 nm.</p>
             <p>2. Choose Li2+ with n_i = 2, n_f = 1: compute the photon energy by hand as 13.6 x 9 x (1 - 1/4) = 91.8 eV and check the wavelength.</p>
           </div>

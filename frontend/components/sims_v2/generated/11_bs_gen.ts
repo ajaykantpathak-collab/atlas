@@ -55,7 +55,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Industry",
+    "title": "Industry Refers To Economic Activities",
     "text": "Industry refers to economic activities connected with the conversion of resources into useful goods, classified into three broad categories: Primary industries (extraction and production of natural resources and reproduction of living organisms), Secondary",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -79,8 +79,8 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "Name any two major export items and two major import items of ancient India as mentioned in the NCERT text.",
     "answer": "Major exports: spices, wheat, sugar, indigo, opium, sesame oil, cotton, parrots, live animals and animal products",
     "options": [
+     "The student must be able to explain the key features of ancient Indian trade including major trade centres, export/import items, the role of the Silk Route and maritime routes",
      "(a) Industry → Primary (Extractive) – extracts natural resources. (b) Industry → Secondary (Manufacturing: Synthetical) – combines ingredients into new product",
-     "(a) Primary - genetic industry (breeding/reproduction of living organisms). (b) Secondary - manufacturing, specifically analytical industry (separates elements from same material)",
      "Major exports: spices, wheat, sugar, indigo, opium, sesame oil, cotton, parrots, live animals and animal products"
     ],
     "hint": "Straight from the 'history of trade and commerce' slide -- match the key terms.",
@@ -125,7 +125,7 @@ export const C11_BS_GEN: SimDef[] = [
      "A strong answer includes: (1) Market standing — % repeat customers; (2) Innovation — R&D spend as % of revenue; (3) Productivity — limbs produced per technician-hour",
      "(a) Primary - genetic industry (breeding/reproduction of living organisms). (b) Secondary - manufacturing, specifically analytical industry (separates elements from same material)"
     ],
-    "hint": "Straight from the 'Industry' slide -- match the key terms.",
+    "hint": "Straight from the 'Industry refers to economic' slide -- match the key terms.",
     "misconception": "A wrong classification of (b) as 'primary because it uses crude oil' reveals the student thinks any use of natural resources is primary, missing the processing aspect.",
     "id": "gen_c11_bs_ch01_q3",
     "nodeId": "c11_bs_cbse_01_005",
@@ -305,8 +305,8 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "Compare the trade balance of ancient India (1 CE – 1500 CE) with that of the colonial period (1750 – 1947). What structural change in the composition of exports and imports explains the shift from a favourable to an unfavourable balance of trade?",
     "answer": "Ancient India enjoyed a favourable balance of trade (exports > imports) exporting manufactured/processed goods (textiles, dyes, steel",
     "options": [
-     "Hundi was developed because travelling long distances by land or sea involved high risk of theft and robbery when carrying metallic money (specie)",
-     "Major exports: spices, wheat, sugar, indigo, opium, sesame oil, cotton, parrots, live animals and animal products",
+     "A strong answer includes: (1) Market standing — % repeat customers; (2) Innovation — R&D spend as % of revenue; (3) Productivity — limbs produced per technician-hour",
+     "The student must be able to explain the key features of ancient Indian trade including major trade centres, export/import items, the role of the Silk Route and maritime routes",
      "Ancient India enjoyed a favourable balance of trade (exports > imports) exporting manufactured/processed goods (textiles, dyes, steel"
     ],
     "hint": "Straight from the 'history of trade and commerce' slide -- match the key terms.",
@@ -336,7 +336,7 @@ export const C11_BS_GEN: SimDef[] = [
     "answer": "Defend: (1) Hundi operated without telegraph/telephone — it used a decentralized network of trust among merchant castes (e",
     "options": [
      "Hundi was developed because travelling long distances by land or sea involved high risk of theft and robbery when carrying metallic money (specie)",
-     "The merchant would use a Jokhmi Muddati Hundi. Reasoning: (1) It is drawn against dispatched goods — payment is linked to the shipment",
+     "The student must be able to explain the key features of ancient Indian trade including major trade centres, export/import items, the role of the Silk Route and maritime routes",
      "Defend: (1) Hundi operated without telegraph/telephone — it used a decentralized network of trust among merchant castes (e"
     ],
     "hint": "Straight from the 'history of trade and commerce' slide -- match the key terms.",
@@ -362,6 +362,21 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to explain the key features of ancient Indian trade including major trade centres, export/import items, the role of the Silk Route and maritime routes",
+    "options": [
+     "Major exports: spices, wheat, sugar, indigo, opium, sesame oil, cotton, parrots, live animals and animal products",
+     "(a) Industry → Primary (Extractive) – extracts natural resources. (b) Industry → Secondary (Manufacturing: Synthetical) – combines ingredients into new product",
+     "The student must be able to explain the key features of ancient Indian trade including major trade centres, export/import items, the role of the Silk Route and maritime routes"
+    ],
+    "hint": "Straight from the 'history of trade and commerce' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain the key features of ancient Indian trade including major trade centres,",
+    "id": "gen_c11_bs_ch01_q11",
+    "nodeId": "c11_bs_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "\"GreenThread\" is a startup making biodegradable packaging from agricultural waste. In its first year, it focused only on maximising output to earn quick profits, skipping quality checks and delaying vendor payments.",
     "answer": "Neglected objectives and consequences: (1) Quality/Productivity – Skipping quality checks led to inconsistent products → client loss",
     "options": [
@@ -371,7 +386,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Objectives of business' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"profit\" or \"customer service\" misses the multi-objective interconnectivity: the student fails to see that economic objectives (productivity, market standing) and social objectives (vendor relations) are mutually reinforcing, not competing.",
-    "id": "gen_c11_bs_ch01_q11",
+    "id": "gen_c11_bs_ch01_q12",
     "nodeId": "c11_bs_cbse_01_009",
     "difficulty": "standard"
    },
@@ -386,7 +401,7 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Profit in business' slide -- match the key terms.",
     "misconception": "A poor answer lists generic KPIs or fails to link profit to specific social outcomes.",
-    "id": "gen_c11_bs_ch01_q12",
+    "id": "gen_c11_bs_ch01_q13",
     "nodeId": "c11_bs_cbse_01_011",
     "difficulty": "advanced"
    }
@@ -1306,14 +1321,14 @@ export const C11_BS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_bs_ch05",
-  "title": "E-business",
+  "title": "E-business Is The Conduct Of Industry",
   "subtitle": "Business Studies · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "business studies",
-  "topic": "E-business",
+  "topic": "E-business Is The Conduct Of Industry",
   "chapters": [
-   "Business Studies Ch5: E-business"
+   "Business Studies Ch5: E-business Is The Conduct Of Industry"
   ],
   "nodeIds": [
    "c11_bs_cbse_05_001",
@@ -1333,7 +1348,7 @@ export const C11_BS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses E-business in real working life?",
+   "question": "Who uses E-business Is The Conduct Of in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1344,13 +1359,13 @@ export const C11_BS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "E-business",
+    "title": "E-business Is The Conduct Of Industry",
     "text": "E-business is the conduct of industry, trade, and commerce using computer networks (primarily the internet for external transactions and intranet for internal processes), encompassing all electronically conducted business functions including production,",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "E-business",
+    "title": "E-business Refers To The Conduct Of Industry",
     "text": "E-business refers to the conduct of industry, trade, and commerce using computer networks (primarily the internet), encompassing not only buying and selling (e-commerce) but also internal functions like production, inventory management, accounting, and HR.",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1368,7 +1383,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Outsourcing",
+    "title": "Outsourcing Is The Strategic Business",
     "text": "Outsourcing is the strategic business practice of contracting out non-core or routine activities to external specialized agencies or third-party service providers, enabling the firm to focus on its core competencies while leveraging external expertise, cost",
     "emoji": "🏢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1380,7 +1395,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Outsourcing",
+    "title": "Outsourcing Is The Strategic Practice",
     "text": "Outsourcing is the strategic practice of contracting out non-core business processes or functions to external specialized service providers, enabling the firm to focus on its core competencies while leveraging the vendor's expertise, technology, and economies",
     "emoji": "🏢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1408,7 +1423,7 @@ export const C11_BS_GEN: SimDef[] = [
      "(a) Parties: B2B — two separate firms (e.g., auto maker ↔ component supplier); Intra-B — departments/employees within ONE firm (e",
      "(i) Traditional: hierarchical (top-down); e-business: non-hierarchical (direct vertical/horizontal/diagonal)"
     ],
-    "hint": "Straight from the 'E-business' slide -- match the key terms.",
+    "hint": "Straight from the 'E-business is the conduct of' slide -- match the key terms.",
     "misconception": "A wrong answer that lists differences without the \"because\" clause shows rote memorisation of Table 5.1 without understanding the causal mechanism: *digitisation of information flow*.",
     "id": "gen_c11_bs_ch05_q1",
     "nodeId": "c11_bs_cbse_05_001",
@@ -1429,7 +1444,7 @@ export const C11_BS_GEN: SimDef[] = [
      "Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core (standardised process) — Yes, Cost",
      "Benefits: (1) Global reach — can sell to customers in Delhi, Mumbai, Bangalore without physical shops there"
     ],
-    "hint": "Straight from the 'E-business' slide -- match the key terms.",
+    "hint": "Straight from the 'E-business refers to the conduct' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"fast delivery solves incongruence\" misses the point: the limitation is structural — information flows at light speed, physical goods cannot. For perishables, this gap is inherent, not fixable by just \"faster courier.\"",
     "id": "gen_c11_bs_ch05_q2",
     "nodeId": "c11_bs_cbse_05_002",
@@ -1629,7 +1644,7 @@ export const C11_BS_GEN: SimDef[] = [
      "This is C2C commerce — both origin and destination are consumers with no established market mechanism for used phones",
      "The CEO is correct: core competency refers to activities that create unique competitive advantage in the market (software development for an IT firm)"
     ],
-    "hint": "Straight from the 'Outsourcing' slide -- match the key terms.",
+    "hint": "Straight from the 'Outsourcing is the strategic' slide -- match the key terms.",
     "misconception": "A wrong answer siding with the CFO reveals misunderstanding that core competency is about market-facing differentiation, not internal importance.",
     "id": "gen_c11_bs_ch05_q7",
     "nodeId": "c11_bs_cbse_05_008",
@@ -1692,7 +1707,7 @@ export const C11_BS_GEN: SimDef[] = [
      "The founder confuses 'core activity' (essential for operations) with 'core competency' (source of competitive advantage)",
      "A good answer will produce a table with 11 rows. Example rows: Benefit | Ease of formation | \"Networked > Networthed\" | Home-based cloud kitchen starts on Swiggy with zero rent"
     ],
-    "hint": "Straight from the 'E-business' slide -- match the key terms.",
+    "hint": "Straight from the 'E-business refers to the conduct' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer will produce a table with 11 rows. Example rows: Benefit | Ease of formation | \"Networked > Networthed\" |",
     "id": "gen_c11_bs_ch05_q10",
     "nodeId": "c11_bs_cbse_05_002",
@@ -1722,7 +1737,7 @@ export const C11_BS_GEN: SimDef[] = [
      "The founder confuses 'core activity' (essential for operations) with 'core competency' (source of competitive advantage)",
      "In outsourcing, the client retains strategic control over *what* is done and *quality standards* while the vendor decides *how* to execute"
     ],
-    "hint": "Straight from the 'Outsourcing' slide -- match the key terms.",
+    "hint": "Straight from the 'Outsourcing is the strategic' slide -- match the key terms.",
     "misconception": "A wrong answer equating the two indicates the student cannot distinguish governance models.",
     "id": "gen_c11_bs_ch05_q12",
     "nodeId": "c11_bs_cbse_05_006",
@@ -1737,7 +1752,7 @@ export const C11_BS_GEN: SimDef[] = [
      "The CEO is correct: core competency refers to activities that create unique competitive advantage in the market (software development for an IT firm)",
      "Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core (standardised process) — Yes, Cost"
     ],
-    "hint": "Straight from the 'Outsourcing' slide -- match the key terms.",
+    "hint": "Straight from the 'Outsourcing is the strategic' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core",
     "id": "gen_c11_bs_ch05_q13",
     "nodeId": "c11_bs_cbse_05_006",
@@ -1805,15 +1820,15 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What is the fundamental distinction between 'horizontal' and 'vertical' BPO services? Give one Indian industry example of each.",
-    "answer": "Horizontal BPO services are generic, industry-agnostic processes (e.g., payroll processing, customer support, HR administration) that are similar across sectors",
+    "question": "What is Business Process Outsourcing (BPO)? State the definition given in this lesson.",
+    "answer": "Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations (such as customer support, payroll, data entry",
     "options": [
-     "Medical transcription is a *vertical* BPO service — it requires specialised domain knowledge (medical terminology, HIPAA compliance",
-     "\"Sweat-shopping\" implies low-skill, repetitive, exploitative labour with no upward mobility — a mischaracterisation of modern BPO",
-     "Horizontal BPO services are generic, industry-agnostic processes (e.g., payroll processing, customer support, HR administration) that are similar across sectors"
+     "Horizontal BPO services are generic, industry-agnostic processes (e.g., payroll processing, customer support, HR administration) that are similar across sectors",
+     "The student must be able to distinguish between horizontal and vertical BPO services with Indian industry examples",
+     "Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations (such as customer support, payroll, data entry"
     ],
     "hint": "Straight from the 'Business Process Outsourcing' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"horizontal means domestic, vertical means international\") reveals confusion with geographic classification rather than process classification.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations",
     "id": "gen_c11_bs_ch05_q18",
     "nodeId": "c11_bs_cbse_05_007",
     "difficulty": "standard"
@@ -1821,11 +1836,11 @@ export const C11_BS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about e-business?",
+    "What surprised you about e-business is the conduct of industry?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "E-business mastered! 🎯",
+  "successLine": "E-business Is The Conduct mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2402,7 +2417,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Debenture",
+    "title": "A Debenture Is a Written Instrument",
     "text": "A debenture is a written instrument acknowledging a debt issued by a company under its common seal, which carries a fixed rate of interest and is repayable after a specified period, making the holder a creditor of the company without any voting rights.",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2444,8 +2459,8 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "State the meaning of business finance as per NCERT and explain why it is referred to as the \"lifeblood of business\" in exactly two sentences.",
     "answer": "Business finance is the requirement of funds by a business to carry out its various activities including purchasing fixed assets and meeting day-to-day expenses",
     "options": [
-     "Residual ownership means equity shareholders receive what remains after all external liabilities (creditors, debenture holders), preference shareholders",
-     "Preference shareholders have (1) a right to receive a fixed rate of dividend before any dividend is paid to equity shareholders",
+     "The student must be able to: (1) Define business finance and explain why it is called the \"lifeblood of business\" with reference to fixed and working capital needs",
+     "Business finance refers to the monetary resources required by a business enterprise to establish, operate, and expand its activities",
      "Business finance is the requirement of funds by a business to carry out its various activities including purchasing fixed assets and meeting day-to-day expenses"
     ],
     "hint": "Straight from the 'Business finance' slide -- match the key terms.",
@@ -2618,11 +2633,11 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "Define a debenture and state the status of a debenture holder in a company.",
     "answer": "A debenture is a written acknowledgment of debt issued by a company under its common seal, carrying a fixed rate of interest and repayable after a specified period",
     "options": [
-     "Business finance is the requirement of funds by a business to carry out its various activities including purchasing fixed assets and meeting day-to-day expenses",
-     "Long-term sources provide funds for a period exceeding 5 years. Examples: issue of equity shares, issue of debentures, long-term loans from financial institutions",
+     "The student can independently classify any given source of finance (e.g., commercial paper, lease financing, equity shares) by both period and ownership basis",
+     "The student must be able to: (1) Define business finance and explain why it is called the \"lifeblood of business\" with reference to fixed and working capital needs",
      "A debenture is a written acknowledgment of debt issued by a company under its common seal, carrying a fixed rate of interest and repayable after a specified period"
     ],
-    "hint": "Straight from the 'debenture' slide -- match the key terms.",
+    "hint": "Straight from the 'A debenture is a written' slide -- match the key terms.",
     "misconception": "A wrong answer that calls the holder an \"owner\" or \"shareholder\" reveals confusion between borrowed funds (debentures) and owners' funds (shares), a fundamental classification error from node c11_bs_cbse_08_003.",
     "id": "gen_c11_bs_ch08_q6",
     "nodeId": "c11_bs_cbse_08_006",
@@ -3181,23 +3196,29 @@ export const C11_BS_GEN: SimDef[] = [
    },
    {
     "type": "order",
-    "question": "\"Interest paid on bank loans is tax-deductible, making bank finance always cheaper than equity finance.\" Evaluate this statement considering the total cost of funds, risk, and flexibility for a company with fluctuating earnings.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Equity has no repayment obligation",
+      "label": "classify retained earnings correctly",
       "emoji": "📌",
       "correctBin": "o2"
      },
      {
       "id": "s1",
-      "label": "Fixed interest burden increases insolvency",
+      "label": "explain why",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "define retained earnings precisely using",
       "emoji": "📌",
       "correctBin": "o0"
      },
      {
-      "id": "s2",
-      "label": "Bank credit",
+      "id": "s3",
+      "label": "list and explain at least three merits",
       "emoji": "📌",
       "correctBin": "o1"
      }
@@ -3217,35 +3238,40 @@ export const C11_BS_GEN: SimDef[] = [
       "id": "o2",
       "label": "3rd",
       "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer ignores risk-adjusted cost and treats tax shield as the sole determinant.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) define retained earnings precisely using terms 'net profit', 'dividend', and",
     "id": "gen_c11_bs_ch08_q17",
-    "nodeId": "c11_bs_cbse_08_009",
-    "difficulty": "advanced"
+    "nodeId": "c11_bs_cbse_08_007",
+    "difficulty": "standard"
    },
    {
     "type": "order",
-    "question": "Create a mini-case (4-5 lines) where a startup should choose hire purchase over lease financing, and explain the deciding factors using textbook terminology.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Long useful life > hire period makes",
+      "label": "Explain the difference",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Evaluate the suitability of each source",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
-      "id": "s1",
-      "label": "Ownership transfer builds collateral",
+      "id": "s2",
+      "label": "Distinguish trade credit and factoring",
       "emoji": "📌",
       "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "No mileage/usage restrictions unlike lease",
-      "emoji": "📌",
-      "correctBin": "o2"
      }
     ],
     "bins": [
@@ -3266,10 +3292,10 @@ export const C11_BS_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer picks hire purchase only because 'they want to own it' without linking to textbook merits/limitations like collateral building or usage restrictions.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Distinguish trade credit and factoring on the basis of mechanism, cost, risk",
     "id": "gen_c11_bs_ch08_q18",
-    "nodeId": "c11_bs_cbse_08_010",
-    "difficulty": "advanced"
+    "nodeId": "c11_bs_cbse_08_008",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -3350,13 +3376,13 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Entrepreneurship",
+    "title": "Entrepreneurship Is The Systematic",
     "text": "Entrepreneurship is the systematic, lawful, and purposeful process of identifying a business opportunity, mobilising factors of production (land, labour, capital, and technology), innovating to create value, and bearing calculated risks to establish and",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Entrepreneur",
+    "title": "An Entrepreneur Is The Owner-creator",
     "text": "An entrepreneur is the owner-creator of an enterprise who bears uncertainty, innovates, and organizes factors of production to pursue opportunities, while a manager is an employee hired to organize, plan, and control resources to achieve the entrepreneur's",
     "emoji": "🏢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3380,13 +3406,13 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Entrepreneur",
+    "title": "Entrepreneur Is An Economic Agent Who",
     "text": "An entrepreneur is an economic agent who identifies opportunities, mobilises factors of production (land, labour, capital), bears uncertainty, and introduces innovations (new products, processes, markets, or organisational forms) to create value, generate",
     "emoji": "🏢",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Supermarket",
+    "title": "A Supermarket Is a Large-scale Retail",
     "text": "A supermarket is a large-scale retail establishment operating on a self-service basis, offering a wide assortment of food, grocery, and non-food consumer goods at relatively low prices through bulk purchasing, low operational costs, and low profit margins,",
     "emoji": "🏢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3600,11 +3626,11 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "Define entrepreneurship in one sentence using the three key terms: entrepreneur, entrepreneurship, and enterprise.",
     "answer": "Entrepreneurship is the process (verb) undertaken by an entrepreneur (subject/person) to create an enterprise (object/business unit)",
     "options": [
-     "The five stages are: (1) Entrepreneurial Awareness/Simulation, (2) Motivation Development, (3) Entrepreneurial Competency Development (EDP training)",
-     "An entrepreneur is the person who conceives a business idea, mobilizes resources, establishes the enterprise, and bears the risk of uncertainty for profit",
+     "The student must be able to (1) list at least five different bases of classification of entrepreneurs with one example for each base",
+     "Entrepreneurship development is the systematic, step-by-step process of enhancing entrepreneurial skills and knowledge through structured training, education",
      "Entrepreneurship is the process (verb) undertaken by an entrepreneur (subject/person) to create an enterprise (object/business unit)"
     ],
-    "hint": "Straight from the 'Entrepreneurship' slide -- match the key terms.",
+    "hint": "Straight from the 'Entrepreneurship is the systematic' slide -- match the key terms.",
     "misconception": "A wrong answer that merely says \"starting a business\" reveals the student has memorised a phrase but not grasped the structural analogy (subject-verb-object) that the NCERT emphasises for precise board-exam definitions.",
     "id": "gen_c11_bs_ch09_q5",
     "nodeId": "c11_bs_cbse_09_005",
@@ -3621,11 +3647,11 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "Define the term 'entrepreneur' as per the CBSE Class 11 Business Studies textbook. How does it differ from the dictionary definition of a business owner?",
     "answer": "An entrepreneur is the person who conceives a business idea, mobilizes resources, establishes the enterprise, and bears the risk of uncertainty for profit",
     "options": [
-     "Entrepreneurs can be classified on the basis of (1) type of business activity (industrial, trading, agricultural, service), (2) motivation (pure, induced, motivated, spontaneous)",
-     "Micro Enterprise: Investment in plant and machinery/equipment ≤ ₹1 crore AND Turnover ≤ ₹5 crore. Both conditions must be satisfied simultaneously",
+     "Entrepreneurship is the systematic, lawful, and purposeful process of identifying a business opportunity, mobilising factors of production (land, labour, capital, and technology)",
+     "The student must be able to sequentially explain the five-stage entrepreneurship development process (simulation, motivation, competency development, business plan preparation",
      "An entrepreneur is the person who conceives a business idea, mobilizes resources, establishes the enterprise, and bears the risk of uncertainty for profit"
     ],
-    "hint": "Straight from the 'entrepreneur' slide -- match the key terms.",
+    "hint": "Straight from the 'An entrepreneur is the' slide -- match the key terms.",
     "misconception": "A wrong answer that equates entrepreneur with any business owner reveals the misconception that ownership alone defines entrepreneurship, ignoring the functional aspects of opportunity recognition and value creation.",
     "id": "gen_c11_bs_ch09_q6",
     "nodeId": "c11_bs_cbse_09_006",
@@ -4266,6 +4292,52 @@ export const C11_BS_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how each incentive addresses",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between tax holidays",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "calculate the monetary benefit of each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between tax holidays, subsidies, and credit facilities with specific scheme names (e.",
+    "id": "gen_c11_bs_ch09_q17",
+    "nodeId": "c11_bs_cbse_09_010",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "\"Village industries and cottage industries are sub-categories of MSMEs.\" Evaluate this statement as True or False with justification based on the NCERT textbook definitions.",
     "answer": "False. Village industries and cottage industries are distinct categories defined separately, not sub-categories of MSMEs",
@@ -4276,21 +4348,6 @@ export const C11_BS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Micro, Small and Medium' slide -- match the key terms.",
     "misconception": "A student who says \"True\" conflates definitional frameworks and ignores that cottage industries explicitly lack capital investment criteria — a key distinction the textbook emphasises.",
-    "id": "gen_c11_bs_ch09_q17",
-    "nodeId": "c11_bs_cbse_09_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A service enterprise has investment in equipment of ₹8 crore and annual turnover of ₹45 crore. Classify it as Micro, Small, or Medium and explain why it cannot be classified as Micro even though its turnover is below ₹50 crore.",
-    "answer": "This is a Small Enterprise. Investment ₹8 crore exceeds Micro limit (₹1 crore) but fits Small limit (≤₹10 crore)",
-    "options": [
-     "Classification: Micro Enterprise (investment ≤ ₹1 crore, turnover ≤ ₹5 crore). It contributes to balanced regional development because micro enterprises can be set up anywhere",
-     "The statement is false. Startup India recognition requires: (1) Entity age ≤ 10 years from incorporation, (2) Turnover ≤ ₹100 crore in any financial year",
-     "This is a Small Enterprise. Investment ₹8 crore exceeds Micro limit (₹1 crore) but fits Small limit (≤₹10 crore)"
-    ],
-    "hint": "Straight from the 'Micro, Small and Medium' slide -- match the key terms.",
-    "misconception": "A student who says \"Micro because turnover is low\" or \"Medium because investment is high\" reveals the misconception that only one criterion matters, or that the higher category applies when criteria conflict.",
     "id": "gen_c11_bs_ch09_q18",
     "nodeId": "c11_bs_cbse_09_001",
     "difficulty": "standard"
@@ -4356,7 +4413,7 @@ export const C11_BS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Licensing",
+    "title": "Licensing Is a Contractual Arrangement Where",
     "text": "Licensing is a contractual arrangement where a firm (licensor) grants a foreign firm (licensee) the right to use its intellectual property — patents, trademarks, technology, or brand name — in exchange for a fee called royalty.",
     "emoji": "🏢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4581,8 +4638,8 @@ export const C11_BS_GEN: SimDef[] = [
     "question": "What are the top three merchandise export commodities from India by value (HS 2-digit level) as per the latest Annual Report of the Department of Commerce?",
     "answer": "The top three are typically Mineral fuels (HS 27), Pearls/precious stones (HS 71), and Electrical machinery (HS 85) — though the order shifts yearly",
     "options": [
-     "A strong brief uses UN Comtrade data: US imports HS 3004 mainly from Ireland, Switzerland, Germany (pharma majors); India's share ~2",
-     "RoDTEP benefit = 2.5% × ₹45 lakh = ₹1.125 lakh. CIF value = ₹45 + 3.5 = ₹48.5 lakh. UAE tariff = 5% × ₹48",
+     "The student must be able to interpret India's export-import data tables to identify top traded commodities and trading partners",
+     "India's involvement in international business refers to the pattern, composition, and direction of India's merchandise and services trade with the rest of the world",
      "The top three are typically Mineral fuels (HS 27), Pearls/precious stones (HS 71), and Electrical machinery (HS 85) — though the order shifts yearly"
     ],
     "hint": "Straight from the 'India's involvement in' slide -- match the key terms.",
@@ -4627,7 +4684,7 @@ export const C11_BS_GEN: SimDef[] = [
      "(a) Complete manufacture — VoltMoto lacks capital for own plant; Indonesian factory can produce entire scooter per specs",
      "The statement is flawed. Three limitations: (1) IP leakage risk — trade secrets/technology can be divulged by the licensee, eroding the firm's global competitive advantage"
     ],
-    "hint": "Straight from the 'Licensing' slide -- match the key terms.",
+    "hint": "Straight from the 'Licensing is a contractual' slide -- match the key terms.",
     "misconception": "A wrong evaluation focusing only on \"financial risk\" ignores strategic risks that can destroy long-term value.",
     "id": "gen_c11_bs_ch11_q8",
     "nodeId": "c11_bs_cbse_11_006",
@@ -4642,7 +4699,7 @@ export const C11_BS_GEN: SimDef[] = [
      "WOS is more suitable. Factor 1 — Technology protection: Proprietary metallurgy is a core competitive advantage; JV risks leakage to local partner (NCERT: \"foreign firms",
      "Licensing is the correct choice. Reason 1: The Brazilian government mandates local production"
     ],
-    "hint": "Straight from the 'Licensing' slide -- match the key terms.",
+    "hint": "Straight from the 'Licensing is a contractual' slide -- match the key terms.",
     "misconception": "A wrong choice of contract manufacturing ignores that the firm lacks marketing infrastructure in Brazil and needs the licensee's local market access.",
     "id": "gen_c11_bs_ch11_q9",
     "nodeId": "c11_bs_cbse_11_006",
@@ -4657,7 +4714,7 @@ export const C11_BS_GEN: SimDef[] = [
      "Services exports (software, business services, travel) are skill-intensive, leveraging India's abundant English-speaking STEM graduates — a comparative advantage",
      "Licensing carries higher risk of creating a future competitor. In licensing, the licensee gains deep technical knowledge (manufacturing process, formulation"
     ],
-    "hint": "Straight from the 'Licensing' slide -- match the key terms.",
+    "hint": "Straight from the 'Licensing is a contractual' slide -- match the key terms.",
     "misconception": "A wrong answer claiming franchising is riskier because of \"more outlets\" confuses market presence with competitive capability.",
     "id": "gen_c11_bs_ch11_q10",
     "nodeId": "c11_bs_cbse_11_006",
@@ -4672,7 +4729,7 @@ export const C11_BS_GEN: SimDef[] = [
      "The statement oversimplifies because it ignores trade-offs: JVs dilute control, risk technology leakage, and create potential for partner conflicts",
      "Non-compete / Restrictive Covenant Clause: \"For a period of 3 years post-termination/expiry, the licensee shall not manufacture, market"
     ],
-    "hint": "Straight from the 'Licensing' slide -- match the key terms.",
+    "hint": "Straight from the 'Licensing is a contractual' slide -- match the key terms.",
     "misconception": "A poor answer omits duration (making it unenforceable), geographic scope (too broad = void, too narrow = ineffective), or defines \"competing product\" vaguely. The clause must balance enforceability (reasonable time/area) with protection.",
     "id": "gen_c11_bs_ch11_q11",
     "nodeId": "c11_bs_cbse_11_006",

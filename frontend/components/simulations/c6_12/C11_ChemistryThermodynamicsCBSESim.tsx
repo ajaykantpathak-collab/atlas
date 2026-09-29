@@ -741,7 +741,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
             ΔH
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-amber-400 via-rose-400 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-amber-400 via-rose-400 to-gold-400 bg-clip-text text-transparent">
               CBSE Class 11 Thermodynamics
             </h1>
             <p className="text-xs text-slate-400">Interactive Simulation & Adaptive Mastery • NCERT Chapter 6</p>
@@ -792,7 +792,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
               <h2 className="text-sm font-bold text-amber-400 uppercase tracking-wider">
                 Live Gas Chamber & Real-Time PV Diagram
               </h2>
-              <span className="text-xs text-cyan-400 font-mono">n = 0.2 mol Ideal Gas</span>
+              <span className="text-xs text-gold-400 font-mono">n = 0.2 mol Ideal Gas</span>
             </div>
 
             <canvas
@@ -806,7 +806,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
             <div className="w-full grid grid-cols-3 gap-2 mt-4 text-center">
               <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 block uppercase font-semibold">Volume (V)</span>
-                <span className="text-lg font-bold text-cyan-300 font-mono">{pistonVolume.toFixed(2)} L</span>
+                <span className="text-lg font-bold text-gold-300 font-mono">{pistonVolume.toFixed(2)} L</span>
               </div>
               <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 block uppercase font-semibold">Ext Pressure (P_ex)</span>
@@ -903,7 +903,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                     }}
                     className={`py-2 text-xs font-bold rounded-lg border transition-all ${
                       heatAction === 'cooling'
-                        ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                        ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                     }`}
                   >
@@ -933,7 +933,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                     setIsReversible(!isReversible);
                   }}
                   className={`py-2 px-3 rounded-xl border text-xs font-bold flex items-center justify-between ${
-                    isReversible ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300' : 'bg-slate-950 border-slate-800 text-slate-400'
+                    isReversible ? 'bg-gold-500/20 border-gold-500 text-gold-300' : 'bg-slate-950 border-slate-800 text-slate-400'
                   }`}
                 >
                   <span>Process Path</span>
@@ -962,7 +962,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                 </div>
                 <div className="flex justify-between p-2 bg-slate-950 rounded-lg border border-slate-800">
                   <span className="text-slate-400">Heat Transfer (q = ΔU - w):</span>
-                  <span className="text-cyan-400 font-bold">
+                  <span className="text-gold-400 font-bold">
                     {isAdiabatic
                       ? '0.0 J (Adiabatic)'
                       : (moles * 12.47 * (pistonTemp - 300) + pistonPressureEx * (pistonVolume - 4.0) * 101.325).toFixed(1) + ' J'}
@@ -1047,7 +1047,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
             {LESSON_SLIDES[currentSlideIndex].nodesCovered.map((nodeId) => (
               <span
                 key={nodeId}
-                className="px-2.5 py-1 bg-slate-950 border border-slate-800 text-cyan-400 text-[11px] font-mono rounded-lg"
+                className="px-2.5 py-1 bg-slate-950 border border-slate-800 text-gold-400 text-[11px] font-mono rounded-lg"
               >
                 {nodeId}: {NODE_METADATA[nodeId].title}
               </span>
@@ -1141,12 +1141,12 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
           {/* Dynamic Sliders to Test Hess's Law */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-cyan-400 uppercase">Adjust Endothermic Energies (kJ/mol)</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">Adjust Endothermic Energies (kJ/mol)</h3>
 
               <div className="flex flex-col gap-1 text-xs">
                 <div className="flex justify-between">
                   <span className="text-slate-300">Na Sublimation (ΔH_sub):</span>
-                  <span className="font-mono text-cyan-300">+{bhSublimation}</span>
+                  <span className="font-mono text-gold-300">+{bhSublimation}</span>
                 </div>
                 <input
                   type="range"
@@ -1157,14 +1157,14 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                     triggerAudio('tap');
                     setBhSublimation(parseFloat(e.target.value));
                   }}
-                  className="accent-cyan-500 cursor-pointer"
+                  className="accent-gold-500 cursor-pointer"
                 />
               </div>
 
               <div className="flex flex-col gap-1 text-xs">
                 <div className="flex justify-between">
                   <span className="text-slate-300">Na Ionization Energy (I.E.):</span>
-                  <span className="font-mono text-cyan-300">+{bhIonization}</span>
+                  <span className="font-mono text-gold-300">+{bhIonization}</span>
                 </div>
                 <input
                   type="range"
@@ -1175,7 +1175,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                     triggerAudio('tap');
                     setBhIonization(parseFloat(e.target.value));
                   }}
-                  className="accent-cyan-500 cursor-pointer"
+                  className="accent-gold-500 cursor-pointer"
                 />
               </div>
             </div>
@@ -1227,7 +1227,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
       {activeTab === 'bond' && (
         <main className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col gap-6">
           <div className="border-b border-slate-800 pb-4">
-            <h2 className="text-xl font-extrabold text-cyan-400">
+            <h2 className="text-xl font-extrabold text-gold-400">
               Methane Combustion Bond Breaking & Formation
             </h2>
             <p className="text-xs text-slate-400">
@@ -1239,7 +1239,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Reactants */}
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-              <span className="text-xs font-bold text-cyan-400 uppercase mb-2">Reactant Bonds (Broken)</span>
+              <span className="text-xs font-bold text-gold-400 uppercase mb-2">Reactant Bonds (Broken)</span>
               <div className="space-y-1 text-xs text-slate-300 text-center font-mono">
                 <p>4 × C-H bonds = 4 × 414 = 1656 kJ</p>
                 <p>2 × O=O bonds = 2 × 498 = 996 kJ</p>
@@ -1303,7 +1303,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                         <line x1="68" y1="50" x2="88" y2="50" stroke="#38bdf8" strokeWidth="3" />
                         <circle cx="88" cy="50" r="10" fill="#38bdf8" />
                       </svg>
-                      <span className="text-xs font-mono text-cyan-400 mt-1">CH4 Molecule</span>
+                      <span className="text-xs font-mono text-gold-400 mt-1">CH4 Molecule</span>
                     </div>
 
                     <span className="text-xl font-bold text-slate-500">+</span>
@@ -1333,7 +1333,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                 >
                   <div className="flex flex-wrap justify-center items-center gap-4 max-w-md p-4 bg-amber-500/10 border border-amber-500/30 rounded-xl">
                     <span className="px-3 py-1 bg-slate-700 text-white font-mono rounded-full text-xs font-bold">1 × C Atom</span>
-                    <span className="px-3 py-1 bg-cyan-600 text-white font-mono rounded-full text-xs font-bold">4 × H Atoms</span>
+                    <span className="px-3 py-1 bg-gold-600 text-white font-mono rounded-full text-xs font-bold">4 × H Atoms</span>
                     <span className="px-3 py-1 bg-rose-600 text-white font-mono rounded-full text-xs font-bold">4 × O Atoms</span>
                   </div>
                   <p className="text-xs text-amber-300 font-semibold">
@@ -1376,7 +1376,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                         <line x1="50" y1="25" x2="75" y2="50" stroke="#38bdf8" strokeWidth="3" />
                         <circle cx="75" cy="50" r="9" fill="#38bdf8" />
                       </svg>
-                      <span className="text-xs font-mono text-cyan-400 mt-1">2 × H2O Molecules</span>
+                      <span className="text-xs font-mono text-gold-400 mt-1">2 × H2O Molecules</span>
                     </div>
                   </div>
                   <p className="text-xs text-rose-300 font-semibold">
@@ -1394,7 +1394,7 @@ export default function C11_ChemistryThermodynamicsCBSESim() {
                   setBondState('intact');
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold border ${
-                  bondState === 'intact' ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300' : 'bg-slate-900 border-slate-800 text-slate-400'
+                  bondState === 'intact' ? 'bg-gold-500/20 border-gold-500 text-gold-300' : 'bg-slate-900 border-slate-800 text-slate-400'
                 }`}
               >
                 1. Initial Reactants

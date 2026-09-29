@@ -11,7 +11,7 @@ export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'Financial Statement Analysis: Meaning, Significance and Objectives',
     chapters: [],
     nodeIds: ['c12_acc_cbse_08_001', 'c12_acc_cbse_08_008', 'c12_acc_cbse_08_002', 'c12_acc_cbse_08_003', 'c12_acc_cbse_08_004', 'c12_acc_cbse_08_005', 'c12_acc_cbse_08_006', 'c12_acc_cbse_08_007', 'c12_acc_cbse_08_009', 'c12_acc_cbse_07_001', 'c12_acc_cbse_07_003', 'c12_acc_cbse_07_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a bank manager deciding whether to sanction a ₹50 lakh loan to a small manufacturing firm.', goal: 'Master Financial Statement Analysis: Meaning, Significance and Objectives.' },
     discovery: {
         question: 'A student says: "Financial statement analysis is only useful for external users like investors and banks; management already knows everything about the.',
@@ -20,7 +20,7 @@ export const w_c12_accountancycomparativestatementsmeaningsim: SimDef = {
         hook: 'Students often believe that "calculating ratios IS financial statement analysis." They memorise formulas (Current Ratio.',
     },
     teaching: [
-        { title: 'Financial Statement Analysis is the.', text: 'Financial Statement Analysis is the systematic process of examining and interpreting a company\'s financial statements (Balance Sheet, Statement of Profit and Loss, Cash Flow Statement) to evaluate.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Financial Statement Analysis is the.', text: 'Financial Statement Analysis is the systematic process of examining and interpreting a company\'s financial statements (Balance Sheet, Statement of Profit and Loss, Cash Flow Statement) to evaluate.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_08_001', title: 'Financial Statement Analysis is the.',

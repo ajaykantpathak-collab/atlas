@@ -165,7 +165,7 @@ export default function PaperLabPage() {
             {paper.sections.map((sec) => (
               <div key={sec.section_id} className="space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-800 pb-1">
-                  <h3 className="font-semibold text-cyan-300">Section {sec.section_id} — {sec.label}</h3>
+                  <h3 className="font-semibold text-gold-300">Section {sec.section_id} — {sec.label}</h3>
                   <span className="text-xs text-slate-500">{sec.marks} marks</span>
                 </div>
                 {sec.questions.map((q) => (

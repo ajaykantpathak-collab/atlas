@@ -11,7 +11,7 @@ export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
     classLevel: 10, subject: 'economics', topic: 'Loan Activities of Banks: Deposits and Lending Mechanism',
     chapters: [],
     nodeIds: ['c10_eco_cbse_03_003', 'c10_eco_cbse_03_002', 'c10_eco_cbse_05_002', 'c10_eco_cbse_05_004', 'c10_eco_cbse_05_006', 'c10_eco_cbse_03_008', 'c10_eco_cbse_02_003', 'c10_eco_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you deposit ₹10,000 from your summer internship earnings into a savings account at a local bank.', goal: 'Master Loan Activities of Banks: Deposits and Lending Mechanism.' },
     discovery: {
         question: 'Riya has ₹50,000 in her savings account. She writes a cheque for ₹12,000 to Rohan. Rohan deposits the cheque in his current account.',
@@ -20,7 +20,7 @@ export const w_c10_economicsdeterminantsdemandnonpricesim: SimDef = {
         hook: 'Students often think **"Money in my bank account is just a record; real money is only cash."** They write in exams:.',
     },
     teaching: [
-        { title: 'Loan activities of banks refer to the.', text: 'Loan activities of banks refer to the process where banks accept deposits from the public (savings, current, fixed deposits) and lend a major portion of these funds as loans to borrowers.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Loan activities of banks refer to the.', text: 'Loan activities of banks refer to the process where banks accept deposits from the public (savings, current, fixed deposits) and lend a major portion of these funds as loans to borrowers.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_eco_cbse_03_003', title: 'Loan activities of banks refer to the.',

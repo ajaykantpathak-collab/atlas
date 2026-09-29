@@ -1219,7 +1219,7 @@ export function C11_BiologyCirculatoryDisordersSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-700/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-700/40 shadow-xl">
             <span className="px-3 py-1 bg-emerald-900/80 text-emerald-300 text-xs font-bold rounded-full border border-emerald-600/40 uppercase tracking-wider">
               Emergency Clinical Vignette
             </span>
@@ -1400,12 +1400,12 @@ export function C11_BiologyCirculatoryDisordersSim({
                 </div>
 
                 {/* Observation Question 1 (Brilliant Pattern) */}
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
                   <div className="flex items-center gap-2">
-                    <span className="px-2.5 py-0.5 bg-indigo-800 text-indigo-200 text-xs font-bold rounded-full">
+                    <span className="px-2.5 py-0.5 bg-gold-800 text-gold-200 text-xs font-bold rounded-full">
                       {OBSERVATION_QUESTIONS[0].prompt}
                     </span>
-                    <span className="text-xs text-indigo-300 font-medium">Guided Visualization Check</span>
+                    <span className="text-xs text-gold-300 font-medium">Guided Visualization Check</span>
                   </div>
                   <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1461,7 +1461,7 @@ export function C11_BiologyCirculatoryDisordersSim({
 
                     <div className="flex justify-between items-center text-xs text-slate-300 font-bold pt-2">
                       <label htmlFor="efferent-slider">Efferent Arteriole Caliber:</label>
-                      <span className="text-blue-400 font-mono text-sm">{efferentDiameter} μm</span>
+                      <span className="text-gold-400 font-mono text-sm">{efferentDiameter} μm</span>
                     </div>
                     <input
                       id="efferent-slider"
@@ -1474,7 +1474,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                         setEfferentDiameter(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1512,7 +1512,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                 <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-bold text-slate-300">Cross-Bridge Phase:</span>
-                    <span className="px-3 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-lg text-xs font-mono font-bold">
+                    <span className="px-3 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-lg text-xs font-mono font-bold">
                       {sarcomereStep === 0 && '1. Resting: Tropomyosin Blocks Actin'}
                       {sarcomereStep === 1 && '2. Ca2+ Binds Troponin: Sites Exposed'}
                       {sarcomereStep === 2 && '3. Power Stroke: 45° Head Pivot'}
@@ -1524,7 +1524,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Advance to the next cross-bridge step"
                     onClick={handleNextSarcomereStep}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Advance Cross-Bridge Step ➔
                   </motion.button>
@@ -1557,12 +1557,12 @@ export function C11_BiologyCirculatoryDisordersSim({
                 </div>
 
                 {/* Observation Question 2 (Brilliant Pattern) */}
-                <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+                <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
                   <div className="flex items-center gap-2">
-                    <span className="px-2.5 py-0.5 bg-indigo-800 text-indigo-200 text-xs font-bold rounded-full">
+                    <span className="px-2.5 py-0.5 bg-gold-800 text-gold-200 text-xs font-bold rounded-full">
                       {OBSERVATION_QUESTIONS[1].prompt}
                     </span>
-                    <span className="text-xs text-indigo-300 font-medium">Guided Visualization Check</span>
+                    <span className="text-xs text-gold-300 font-medium">Guided Visualization Check</span>
                   </div>
                   <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[1].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1680,7 +1680,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <span className="text-xs text-slate-400 font-bold">Axonal Membrane Potential:</span>
-                    <p className={`text-3xl font-black font-mono ${membraneVoltage > 0 ? 'text-amber-400' : 'text-cyan-400'}`}>
+                    <p className={`text-3xl font-black font-mono ${membraneVoltage > 0 ? 'text-amber-400' : 'text-gold-400'}`}>
                       {membraneVoltage} mV
                     </p>
                     <span className="text-xs text-slate-300 font-semibold block">
@@ -1694,7 +1694,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                     aria-label="Inject threshold current to trigger action potential"
                     onClick={triggerActionPotential}
                     disabled={stimulusApplied}
-                    className="w-full py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white rounded-xl font-black text-sm shadow-lg disabled:opacity-50"
+                    className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-black text-sm shadow-lg disabled:opacity-50"
                   >
                     ⚡ Inject Threshold Stimulus (-55 mV)
                   </motion.button>
@@ -1718,7 +1718,7 @@ export function C11_BiologyCirculatoryDisordersSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-6 space-y-6">
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-            <span className="px-3 py-1 bg-blue-900/80 text-blue-300 text-xs font-bold rounded-full border border-blue-700/50 uppercase">
+            <span className="px-3 py-1 bg-gold-900/80 text-gold-300 text-xs font-bold rounded-full border border-gold-700/50 uppercase">
               Free Play Mode
             </span>
             <h2 className="text-xl font-bold text-white">Full Multi-System Physiological Sandbox</h2>
@@ -1769,15 +1769,15 @@ export function C11_BiologyCirculatoryDisordersSim({
             </div>
 
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400">Neural Electrophysiology</span>
-              <p className="text-xs text-slate-300">Membrane: <span className="font-mono text-cyan-400 font-bold">{membraneVoltage} mV</span></p>
+              <span className="text-xs font-bold text-gold-400">Neural Electrophysiology</span>
+              <p className="text-xs text-slate-300">Membrane: <span className="font-mono text-gold-400 font-bold">{membraneVoltage} mV</span></p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 aria-label="Fire sandbox action potential"
                 onClick={triggerActionPotential}
                 disabled={stimulusApplied}
-                className="w-full py-2 bg-cyan-700 hover:bg-cyan-600 text-white rounded-xl text-xs font-bold"
+                className="w-full py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
               >
                 Fire Action Potential
               </motion.button>
@@ -1814,7 +1814,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-700'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-700'
                     : 'bg-rose-950 text-rose-400 border border-rose-700'
                 }`}
               >
@@ -1891,7 +1891,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                       whileTap={{ scale: 0.95 }}
                       animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                       transition={{ duration: 0.4 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2017,7 +2017,7 @@ export function C11_BiologyCirculatoryDisordersSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label={`Add pathway step: ${part}`}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2112,7 +2112,7 @@ export function C11_BiologyCirculatoryDisordersSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-700/60 shadow-2xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-700/60 shadow-2xl space-y-4">
             <span className="px-3 py-1 bg-emerald-900 text-emerald-300 text-xs font-bold rounded-full border border-emerald-600">
               Module Complete
             </span>
@@ -2129,7 +2129,7 @@ export function C11_BiologyCirculatoryDisordersSim({
             </div>
 
             {/* Spaced Repetition Visibility Card */}
-            <div className="p-4 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-amber-600/50 space-y-2">
+            <div className="p-4 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-amber-600/50 space-y-2">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-amber-400 uppercase tracking-widest flex items-center gap-1.5">
                   <span>📅</span> Spaced Repetition Schedule (SRS)
@@ -2155,7 +2155,7 @@ export function C11_BiologyCirculatoryDisordersSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-center">
                 <span className="text-[10px] text-slate-400 font-bold uppercase">BKT Mastery Level</span>
-                <p className="text-2xl font-black text-blue-400 mt-1 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-center">
                 <span className="text-[10px] text-slate-400 font-bold uppercase">Clinical Tier</span>
@@ -2192,15 +2192,15 @@ export function C11_BiologyCirculatoryDisordersSim({
           )}
 
           {/* Real-World Activity Completion Arc */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🩺</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

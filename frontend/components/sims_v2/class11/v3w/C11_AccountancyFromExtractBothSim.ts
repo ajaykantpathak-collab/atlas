@@ -11,7 +11,7 @@ export const w_c11_accountancyfromextractbothsim: SimDef = {
     classLevel: 11, subject: 'accountancy', topic: 'Preparation of Trial Balance: Totals Method and Balances Method',
     chapters: [],
     nodeIds: ['c11_acc_cbse_06_002', 'c11_acc_cbse_08_006', 'c11_acc_cbse_02_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re helping your uncle reconcile his shop\'s books at month-end.', goal: 'Master Preparation of Trial Balance: Totals Method and Balances Method.' },
     discovery: {
         question: 'Two students marshall the same Balance Sheet differently. Student A uses Order of Permanence: Land → Building → Machinery → Furniture → Debtors → Cash.',
@@ -20,7 +20,7 @@ export const w_c11_accountancyfromextractbothsim: SimDef = {
         hook: '**Misconception:** "Closing Stock appears in the Trial Balance, so I just copy it to the Balance Sheet like Furniture.',
     },
     teaching: [
-        { title: 'A Trial Balance is a statement that lists.', text: 'A Trial Balance is a statement that lists all ledger accounts with their respective debit or credit balances (Balances Method) or their debit and credit totals (Totals Method) to verify the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Trial Balance is a statement that lists.', text: 'A Trial Balance is a statement that lists all ledger accounts with their respective debit or credit balances (Balances Method) or their debit and credit totals (Totals Method) to verify the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_acc_cbse_06_002', title: 'A Trial Balance is a statement that.',

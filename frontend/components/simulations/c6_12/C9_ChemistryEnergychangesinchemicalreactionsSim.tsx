@@ -461,12 +461,12 @@ const EnergyDiagramSVG: React.FC<{
         <span className="text-xs font-semibold text-slate-400 mb-1">Surrounding Temp</span>
         <div className="relative w-6 h-32 bg-slate-700 rounded-full overflow-hidden border border-slate-600 flex flex-col justify-end p-0.5">
           <motion.div
-            className={`w-full rounded-full ${isExo ? 'bg-gradient-to-t from-orange-500 to-red-500' : 'bg-gradient-to-t from-blue-600 to-cyan-400'}`}
+            className={`w-full rounded-full ${isExo ? 'bg-gradient-to-t from-orange-500 to-red-500' : 'bg-gradient-to-t from-gold-600 to-gold-400'}`}
             animate={{ height: `${Math.min(100, Math.max(10, ((temperature - 10) / 70) * 100))}%` }}
             transition={{ type: 'spring', damping: 15 }}
           />
         </div>
-        <span className={`mt-2 font-mono text-lg font-bold ${isExo ? 'text-red-400' : 'text-cyan-400'}`}>
+        <span className={`mt-2 font-mono text-lg font-bold ${isExo ? 'text-red-400' : 'text-gold-400'}`}>
           {temperature.toFixed(1)}°C
         </span>
       </div>
@@ -478,7 +478,7 @@ const EnergyDiagramSVG: React.FC<{
 const WaterDipoleSVG: React.FC<{ soluteType: 'salt' | 'oil'; isDissolved: boolean }> = ({ soluteType, isDissolved }) => {
   return (
     <div className="flex flex-col items-center bg-slate-900/80 p-4 rounded-xl border border-slate-700 w-full">
-      <h4 className="text-sm font-bold text-cyan-300 mb-2">
+      <h4 className="text-sm font-bold text-gold-300 mb-2">
         {soluteType === 'salt' ? 'Ionic Hydration: Polar H₂O dipole pulling Na⁺ & Cl⁻' : 'Non-Polar Hydrophobic Isolation (Oil vs Water)'}
       </h4>
       <svg className="w-full max-w-md h-52 bg-slate-950 rounded-lg border border-slate-800" viewBox="0 0 360 200">
@@ -631,8 +631,8 @@ const SolubilityCurveSVG: React.FC<{
   return (
     <div className="flex flex-col items-center bg-slate-900/80 p-4 rounded-xl border border-slate-700 w-full">
       <div className="flex justify-between items-center w-full max-w-md mb-2 text-xs">
-        <span className="font-bold text-slate-300">Salt: <span className="text-cyan-400">{selectedSalt}</span></span>
-        <span className={`px-2 py-0.5 rounded font-bold ${isSupersaturated ? 'bg-purple-500/20 text-purple-300 border border-purple-500' : isSaturated ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500' : 'bg-blue-500/20 text-blue-300 border border-blue-500'}`}>
+        <span className="font-bold text-slate-300">Salt: <span className="text-gold-400">{selectedSalt}</span></span>
+        <span className={`px-2 py-0.5 rounded font-bold ${isSupersaturated ? 'bg-purple-500/20 text-purple-300 border border-purple-500' : isSaturated ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500' : 'bg-gold-500/20 text-gold-300 border border-gold-500'}`}>
           {stateLabel}
         </span>
       </div>
@@ -674,7 +674,7 @@ const SolubilityCurveSVG: React.FC<{
         <text x="12" y="100" fill="#94A3B8" fontSize="9" textAnchor="middle" transform="rotate(-90 12 100)">Solubility (g / 100g H₂O)</text>
       </svg>
       <div className="mt-2 text-xs text-slate-400">
-        Solubility at {targetTemp}°C: <span className="text-emerald-400 font-bold">{currentSolubility.toFixed(1)}g</span> / 100g H₂O | Dissolved: <span className="text-cyan-400 font-bold">{addedMass}g</span>
+        Solubility at {targetTemp}°C: <span className="text-emerald-400 font-bold">{currentSolubility.toFixed(1)}g</span> / 100g H₂O | Dissolved: <span className="text-gold-400 font-bold">{addedMass}g</span>
       </div>
     </div>
   );
@@ -951,7 +951,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
         {/* Header Bar */}
         <header className="bg-slate-950/80 p-4 border-b border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div>
-            <span className="text-xs font-bold tracking-wider text-cyan-400 uppercase">Class 9 ICSE Chemistry</span>
+            <span className="text-xs font-bold tracking-wider text-gold-400 uppercase">Class 9 ICSE Chemistry</span>
             <h1 className="text-lg md:text-xl font-black text-slate-100">{SCENARIO.title}</h1>
           </div>
 
@@ -979,7 +979,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
             <button
               key={tab.id}
               onClick={() => handleTabChange(tab.id as any)}
-              className={`px-5 py-3 text-sm font-bold transition-all border-b-2 whitespace-nowrap ${activeTab === tab.id ? 'border-cyan-400 text-cyan-300 bg-cyan-950/20' : 'border-transparent text-slate-400 hover:text-slate-200'}`}
+              className={`px-5 py-3 text-sm font-bold transition-all border-b-2 whitespace-nowrap ${activeTab === tab.id ? 'border-gold-400 text-gold-300 bg-gold-950/20' : 'border-transparent text-slate-400 hover:text-slate-200'}`}
             >
               {tab.label}
             </button>
@@ -998,8 +998,8 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                 exit={{ opacity: 0, y: -10 }}
                 className="flex flex-col gap-6"
               >
-                <div className="bg-cyan-950/30 border border-cyan-800/40 p-5 rounded-xl">
-                  <h2 className="text-base font-bold text-cyan-300 mb-1">Predict Before Learning</h2>
+                <div className="bg-gold-950/30 border border-gold-800/40 p-5 rounded-xl">
+                  <h2 className="text-base font-bold text-gold-300 mb-1">Predict Before Learning</h2>
                   <p className="text-sm text-slate-300">{SCENARIO.description}</p>
                 </div>
 
@@ -1022,7 +1022,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
 
                   {selectedOption !== null && (
                     <div className="mt-4 p-4 rounded-xl bg-slate-900 border border-slate-700 text-sm text-slate-300">
-                      <p className="font-bold text-cyan-400 mb-1">Exploration Analysis:</p>
+                      <p className="font-bold text-gold-400 mb-1">Exploration Analysis:</p>
                       {DISCOVERY_QUESTION.explanation}
                     </div>
                   )}
@@ -1031,7 +1031,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                 <div className="flex justify-end">
                   <button
                     onClick={() => handleTabChange('learn')}
-                    className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm transition-all"
+                    className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm transition-all"
                   >
                     Proceed to Interactive Concepts →
                   </button>
@@ -1051,7 +1051,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                 {/* Slide Header */}
                 <div className="flex justify-between items-center">
                   <div>
-                    <span className="text-xs font-bold text-cyan-400 uppercase">Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}</span>
                     <h2 className="text-lg font-bold text-slate-100">{TEACHING_SLIDES[currentSlideIndex].title}</h2>
                   </div>
                   <span className="text-xs font-mono bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700">
@@ -1080,7 +1080,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                     <HydrateHeatingSVG isHeating={false} heatProgress={0} />
                   )}
                   {TEACHING_SLIDES[currentSlideIndex].visualType === 'air_exposure' && (
-                    <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 text-center text-sm text-cyan-300">
+                    <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 text-center text-sm text-gold-300">
                       [Air Exposure Simulator: Washing Soda (Na₂CO₃·10H₂O) Effloresces into white powder by losing 9H₂O]
                     </div>
                   )}
@@ -1093,10 +1093,10 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
 
                 {/* Text Explanation Card */}
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-2">
-                  <h3 className="text-sm font-bold text-cyan-300">{TEACHING_SLIDES[currentSlideIndex].subtitle}</h3>
+                  <h3 className="text-sm font-bold text-gold-300">{TEACHING_SLIDES[currentSlideIndex].subtitle}</h3>
                   <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{TEACHING_SLIDES[currentSlideIndex].concept}</p>
                   <p className="text-xs text-slate-400">{TEACHING_SLIDES[currentSlideIndex].description}</p>
-                  <div className="mt-2 p-2.5 bg-cyan-950/40 border border-cyan-800/50 rounded-lg text-xs font-semibold text-cyan-200">
+                  <div className="mt-2 p-2.5 bg-gold-950/40 border border-gold-800/50 rounded-lg text-xs font-semibold text-gold-200">
                     💡 <span className="underline">Key Exam Takeaway</span>: {TEACHING_SLIDES[currentSlideIndex].keyTakeaway}
                   </div>
                 </div>
@@ -1114,14 +1114,14 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                     {TEACHING_SLIDES.map((_, i) => (
                       <div
                         key={i}
-                        className={`w-2 h-2 rounded-full ${i === currentSlideIndex ? 'bg-cyan-400 w-5' : 'bg-slate-700'} transition-all`}
+                        className={`w-2 h-2 rounded-full ${i === currentSlideIndex ? 'bg-gold-400 w-5' : 'bg-slate-700'} transition-all`}
                       />
                     ))}
                   </div>
                   <button
                     onClick={handleNextSlide}
                     disabled={currentSlideIndex === TEACHING_SLIDES.length - 1}
-                    className="px-4 py-2 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-xs transition-all"
+                    className="px-4 py-2 bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-xs transition-all"
                   >
                     Next Slide →
                   </button>
@@ -1140,7 +1140,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
               >
                 <div className="flex justify-between items-center">
                   <h2 className="text-base font-bold text-slate-100">ICSE Interactive Experimentation Workbench</h2>
-                  <span className="text-xs text-cyan-400 font-semibold bg-cyan-950 px-3 py-1 rounded-full border border-cyan-800">
+                  <span className="text-xs text-gold-400 font-semibold bg-gold-950 px-3 py-1 rounded-full border border-gold-800">
                     Hands-On Mode
                   </span>
                 </div>
@@ -1154,7 +1154,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
 
                   {/* Right Column: Lab Controllers */}
                   <div className="flex flex-col gap-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <h3 className="text-sm font-bold text-cyan-300 border-b border-slate-800 pb-2">Control Panel & Variables</h3>
+                    <h3 className="text-sm font-bold text-gold-300 border-b border-slate-800 pb-2">Control Panel & Variables</h3>
 
                     {/* Controller 1: Salt Selection */}
                     <div className="flex flex-col gap-1.5">
@@ -1167,7 +1167,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                               setSelectedSalt(salt);
                               audioManager.play('tap');
                             }}
-                            className={`py-2 text-xs font-bold rounded-lg border transition-all ${selectedSalt === salt ? 'bg-cyan-500 text-slate-950 border-cyan-400' : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'}`}
+                            className={`py-2 text-xs font-bold rounded-lg border transition-all ${selectedSalt === salt ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'}`}
                           >
                             {salt}
                           </button>
@@ -1179,7 +1179,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                     <div className="flex flex-col gap-1">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-300 font-medium">Solution Temperature</span>
-                        <span className="text-cyan-400 font-bold font-mono">{labTemp}°C</span>
+                        <span className="text-gold-400 font-bold font-mono">{labTemp}°C</span>
                       </div>
                       <input
                         type="range"
@@ -1190,7 +1190,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                           setLabTemp(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1198,7 +1198,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                     <div className="flex flex-col gap-1">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-300 font-medium">Added Solute Mass</span>
-                        <span className="text-cyan-400 font-bold font-mono">{labAddedMass}g / 100g H₂O</span>
+                        <span className="text-gold-400 font-bold font-mono">{labAddedMass}g / 100g H₂O</span>
                       </div>
                       <input
                         type="range"
@@ -1209,7 +1209,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                           setLabAddedMass(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1247,7 +1247,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                   <span className="text-xs font-bold text-slate-400">
                     Challenge {challengeIdx + 1} of {CHALLENGES.length}
                   </span>
-                  <span className="text-xs font-mono text-cyan-400 bg-cyan-950 px-3 py-1 rounded-full border border-cyan-800">
+                  <span className="text-xs font-mono text-gold-400 bg-gold-950 px-3 py-1 rounded-full border border-gold-800">
                     Node: {CHALLENGES[challengeIdx].nodeId}
                   </span>
                 </div>
@@ -1266,7 +1266,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                         if (isCorrect) btnStyle = "bg-emerald-950/80 border-emerald-500 text-emerald-200";
                         else if (isSelected) btnStyle = "bg-red-950/80 border-red-500 text-red-200";
                       } else if (isSelected) {
-                        btnStyle = "bg-cyan-950/60 border-cyan-500 text-cyan-200";
+                        btnStyle = "bg-gold-950/60 border-gold-500 text-gold-200";
                       }
 
                       return (
@@ -1285,7 +1285,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                   {/* Explanation & Misconception Box */}
                   {challengeSubmitted && (
                     <div className="mt-2 p-4 rounded-xl bg-slate-900 border border-slate-700 text-xs md:text-sm text-slate-300 flex flex-col gap-2">
-                      <p className="font-bold text-cyan-300">Explanation:</p>
+                      <p className="font-bold text-gold-300">Explanation:</p>
                       <p>{CHALLENGES[challengeIdx].explanation}</p>
 
                       {CHALLENGES[challengeIdx].misconceptionId && MISCONCEPTIONS[CHALLENGES[challengeIdx].misconceptionId!] && (
@@ -1305,7 +1305,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                 <div className="flex justify-between items-center">
                   <button
                     onClick={() => setShowHint(true)}
-                    className="text-xs text-slate-400 hover:text-cyan-400 underline"
+                    className="text-xs text-slate-400 hover:text-gold-400 underline"
                   >
                     Need a Hint?
                   </button>
@@ -1314,7 +1314,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                     <button
                       onClick={handleSubmitChallenge}
                       disabled={selectedOption === null}
-                      className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-xs transition-all"
+                      className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-xs transition-all"
                     >
                       Submit Answer
                     </button>
@@ -1339,7 +1339,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                 exit={{ opacity: 0, scale: 0.95 }}
                 className="flex flex-col gap-5"
               >
-                <div className="bg-gradient-to-r from-cyan-950/60 to-emerald-950/60 p-6 rounded-2xl border border-cyan-800/40 text-center flex flex-col items-center gap-2">
+                <div className="bg-gradient-to-r from-gold-950/60 to-emerald-950/60 p-6 rounded-2xl border border-gold-800/40 text-center flex flex-col items-center gap-2">
                   <h2 className="text-xl font-black text-slate-100">Chemistry Mastery Report</h2>
                   <p className="text-xs text-slate-300 max-w-lg">
                     Congratulations! You have thoroughly investigated all 10 ICSE Class 9 chemistry concepts.
@@ -1357,7 +1357,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                     return (
                       <div key={nodeId} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 flex justify-between items-center">
                         <div className="flex flex-col">
-                          <span className="text-xs font-mono text-cyan-400 font-bold">{nodeId}</span>
+                          <span className="text-xs font-mono text-gold-400 font-bold">{nodeId}</span>
                           <span className="text-xs text-slate-300 font-medium">BKT Probability</span>
                         </div>
                         <div className="flex items-center gap-2">
@@ -1375,7 +1375,7 @@ export default function C9_ChemistryEnergychangesinchemicalreactionsSim() {
                 <div className="flex justify-center mt-2">
                   <button
                     onClick={() => handleTabChange('lab')}
-                    className="px-8 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm transition-all"
+                    className="px-8 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm transition-all"
                   >
                     Return to Virtual Workbench
                   </button>

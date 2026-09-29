@@ -68,7 +68,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Functionalism",
+    "title": "Functionalism Is a School Of Psychology",
     "text": "Functionalism is a school of psychology founded by William James that studies the adaptive functions of consciousness and behaviour—how mental processes help organisms survive and adjust to their environment—viewing consciousness as a continuous, flowing",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -92,7 +92,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Psychoanalysis",
+    "title": "Psychoanalysis Is a Comprehensive Theory",
     "text": "Psychoanalysis is a comprehensive theory of personality and a therapeutic method developed by Sigmund Freud that posits human behavior is largely driven by unconscious conflicts, desires, and memories, particularly those rooted in early childhood experiences,",
     "emoji": "🧠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -567,7 +567,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally)",
      "The stream runs: (1) The lecture voice occupies the focus of consciousness at first (2) Interest shifts and the textbook becomes the new focus (3) The teacher's words recede into"
     ],
-    "hint": "Straight from the 'Functionalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Functionalism is a school of' slide -- match the key terms.",
     "misconception": "A wrong answer that says she blocked out or paused the noise shows the student has missed that consciousness is continuous and attention is selective amplification, not a switch.",
     "id": "gen_c11_psy_ch02_q12",
     "nodeId": "c11_psy_cbse_01_005",
@@ -582,7 +582,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "The correlation coefficient *r* ranges from -1.0 to +1.0. A value of +1.0 indicates a perfect positive linear relationship (as X increases, Y increases proportionally)",
      "The vignette runs: (1) Show the unconscious impulse of hostility toward the newborn sibling (2) Display the conscious behaviour of exaggerated doting and constant hugging (3) Mark"
     ],
-    "hint": "Straight from the 'Psychoanalysis' slide -- match the key terms.",
+    "hint": "Straight from the 'Psychoanalysis is a comprehensive' slide -- match the key terms.",
     "misconception": "A wrong answer that describes simple kindness or open jealousy shows the student has missed that reaction formation is the exaggerated opposite of the repressed impulse.",
     "id": "gen_c11_psy_ch02_q13",
     "nodeId": "c11_psy_cbse_01_008",
@@ -676,14 +676,14 @@ export const C11_PSY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_psy_ch03",
-  "title": "Development",
+  "title": "Development Is The Pattern Of Progressive",
   "subtitle": "Psychology · Chapter 3",
   "classLevel": 11,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "Development",
+  "topic": "Development Is The Pattern Of Progressive",
   "chapters": [
-   "Psychology Ch3: Development"
+   "Psychology Ch3: Development Is The Pattern Of Progressive"
   ],
   "nodeIds": [
    "c11_psy_cbse_03_001",
@@ -701,7 +701,7 @@ export const C11_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Development in real working life?",
+   "question": "Who uses Development Is The Pattern Of in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -712,7 +712,7 @@ export const C11_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Development",
+    "title": "Development Is The Pattern Of Progressive",
     "text": "Development is the pattern of progressive, orderly, and predictable changes that begin at conception and continue throughout the lifespan, involving both gains and losses across biological, cognitive, and socio-emotional domains.",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -742,7 +742,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Adolescence",
+    "title": "Adolescence Is The Transitional",
     "text": "Adolescence is the transitional developmental period between childhood and adulthood, beginning with the onset of puberty (typically 10-12 years) and extending to the early 20s, characterised by rapid biological maturation (growth spurt, primary/secondary",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -764,7 +764,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "Scenario: \"The Super-Principal\" (52, school principal). Behavior: Runs 15 committees, adopts every new policy, mentors 20 teachers but remembers none of their names",
      "Permanent molar eruption = maturation (genetically timed emergence of species-typical dental structure, independent of practice)"
     ],
-    "hint": "Straight from the 'Development' slide -- match the key terms.",
+    "hint": "Straight from the 'Development is the pattern of' slide -- match the key terms.",
     "misconception": "A wrong answer that classifies molar eruption as \"growth\" reveals confusion between quantitative size increase and qualitative structural emergence; classifying conservation as \"growth\" reveals failure to distinguish quantitative vs.",
     "id": "gen_c11_psy_ch03_q1",
     "nodeId": "c11_psy_cbse_03_001",
@@ -909,7 +909,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "Permanent molar eruption = maturation (genetically timed emergence of species-typical dental structure, independent of practice)",
      "Menarche is the onset of menstruation, marking female reproductive maturity, typically occurring at 10-14 years (mean ~12"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Adolescence is the transitional' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"menarche is first period at age 8\" or confusing spermarche with first nocturnal emission) reveals the student cannot distinguish between the biological event and its social awareness, or lacks precision in developmental milestones—critical for board exam definitions.",
     "id": "gen_c11_psy_ch03_q6",
     "nodeId": "c11_psy_cbse_03_010",
@@ -930,7 +930,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "Gender typing is the process by which children actively organise information along gender lines once they have achieved gender constancy",
      "Ramesh is experiencing the transition to late adulthood with role loss (work identity, daily structure) and potential stagnation (Erikson's generativity vs"
     ],
-    "hint": "Straight from the 'Adulthood and old age represent' slide -- match the key terms.",
+    "hint": "Straight from the 'Adulthood and old age' slide -- match the key terms.",
     "misconception": "A wrong answer suggesting \"he should move abroad with children\" ignores cultural preference for ageing in place and the importance of autonomy in successful ageing.",
     "id": "gen_c11_psy_ch03_q7",
     "nodeId": "c11_psy_cbse_03_011",
@@ -1056,7 +1056,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "Gender typing is the process by which children actively organise information along gender lines once they have achieved gender constancy",
      "Priya exhibits \"imaginary audience\"—belief that others are as preoccupied with her appearance as she is, causing extreme self-consciousness"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Adolescence is the transitional' slide -- match the key terms.",
     "misconception": "A wrong answer attributing Priya's behaviour to \"vanity\" or \"insecurity\" misses the cognitive-structural basis—this is not a personality flaw but a normative cognitive distortion of early formal operations.",
     "id": "gen_c11_psy_ch03_q15",
     "nodeId": "c11_psy_cbse_03_010",
@@ -1071,7 +1071,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "The claim is false. Babbling shows language-specific phonetic patterns (e.g., French babies babble with more nasal vowels)",
      "The statement is reductionist and contradicts life-span perspective. Plasticity: skills can improve (e"
     ],
-    "hint": "Straight from the 'Adulthood and old age represent' slide -- match the key terms.",
+    "hint": "Straight from the 'Adulthood and old age' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement reflects ageist stereotyping and ignores NCERT's explicit mention of \"myth of old age as incapacitating... is changing\" and the role of openness/achievement-orientation in adjustment.",
     "id": "gen_c11_psy_ch03_q16",
     "nodeId": "c11_psy_cbse_03_011",
@@ -1080,24 +1080,24 @@ export const C11_PSY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about development?",
+    "What surprised you about development is the pattern of progressive?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Development mastered! 🎯",
+  "successLine": "Development Is The Pattern mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_psy_ch04",
-  "title": "Sensation",
+  "title": "Sensation Is The Initial",
   "subtitle": "Psychology · Chapter 4",
   "classLevel": 11,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "Sensation",
+  "topic": "Sensation Is The Initial",
   "chapters": [
-   "Psychology Ch4: Sensation"
+   "Psychology Ch4: Sensation Is The Initial"
   ],
   "nodeIds": [
    "c11_psy_cbse_04_001",
@@ -1112,7 +1112,7 @@ export const C11_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Sensation outside the classroom?",
+   "question": "Quick guess -- where do you meet Sensation Is The Initial outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -1123,7 +1123,7 @@ export const C11_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Sensation",
+    "title": "Sensation Is The Initial",
     "text": "Sensation is the initial, bottom-up process by which sensory receptors detect and encode raw physical energy (light, sound, pressure) into neural signals, yielding elementary experiences such as \"red,\" \"loud,\" or \"rough.",
     "emoji": "🧠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1141,7 +1141,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Cutaneous Senses (skin), Chemical",
+    "title": "The Cutaneous Senses , Chemical Senses",
     "text": "The cutaneous senses (skin), chemical senses (olfaction and gustation), and kinesthetic/vestibular senses are specialised sensory modalities that detect mechanical, thermal, chemical, and proprioceptive stimuli through distinct receptor types and neural",
     "emoji": "🧠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1157,7 +1157,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "(a) Standard: 1% NaCl solution. (b) Comparisons: 1.1%, 1.2%, 1.3%, 1.4%, 1.5% NaCl. (c) Randomise presentation order of pairs (standard vs",
      "1. Light reflects off object → retinal image (sensation). 2. Low light + familiarity with dogs in park → perceptual hypothesis \"dog\" (perception, top-down: expectancy/set)"
     ],
-    "hint": "Straight from the 'Sensation' slide -- match the key terms.",
+    "hint": "Straight from the 'Sensation is the initial' slide -- match the key terms.",
     "misconception": "Wrong answers skip the hypothesis-generation step or treat correction as new sensation rather than perceptual reinterpretation.",
     "id": "gen_c11_psy_ch04_q1",
     "nodeId": "c11_psy_cbse_04_001",
@@ -1193,8 +1193,8 @@ export const C11_PSY_GEN: SimDef[] = [
     "question": "Name the three smallest bones in the human body located in the middle ear and state their collective function in the hearing process.",
     "answer": "The three auditory ossicles are the malleus (hammer), incus (anvil), and stapes (stirrup). Their collective function is impedance matching: they amplify the force of tympanic",
     "options": [
-     "The four cutaneous modalities are: (1) Pressure/touch — Merkel discs (sustained pressure), Meissner's corpuscles (light touch/texture), Ruffini endings (skin stretch)",
-     "Absolute threshold is the minimum stimulus intensity required to activate a sensory system, operationally defined as the intensity detected on 50% of presentation trials",
+     "Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like a light sensor converting photons to current",
+     "Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into electrochemical neural impulses",
      "The three auditory ossicles are the malleus (hammer), incus (anvil), and stapes (stirrup). Their collective function is impedance matching: they amplify the force of tympanic"
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
@@ -1376,17 +1376,63 @@ export const C11_PSY_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish kinesthetic from vestibular",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify the four cutaneous modalities",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "trace the neural pathway for olfactory",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify the four cutaneous modalities and their specific receptor types with adequate",
+    "id": "gen_c11_psy_ch04_q7",
+    "nodeId": "c11_psy_cbse_04_005",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Define absolute threshold (absolute limen) and state the criterion used to measure it in psychophysics.",
     "answer": "Absolute threshold is the minimum stimulus intensity required to activate a sensory system, operationally defined as the intensity detected on 50% of presentation trials",
     "options": [
-     "The three auditory ossicles are the malleus (hammer), incus (anvil), and stapes (stirrup). Their collective function is impedance matching: they amplify the force of tympanic",
-     "The four cutaneous modalities are: (1) Pressure/touch — Merkel discs (sustained pressure), Meissner's corpuscles (light touch/texture), Ruffini endings (skin stretch)",
+     "Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like a light sensor converting photons to current",
+     "The student must be able to: (1) accurately label the anatomical structures of the outer, middle",
      "Absolute threshold is the minimum stimulus intensity required to activate a sensory system, operationally defined as the intensity detected on 50% of presentation trials"
     ],
     "hint": "Straight from the 'Absolute threshold' slide -- match the key terms.",
     "misconception": "A wrong answer that omits the \"50% of trials\" criterion reveals the student thinks threshold is a fixed, all-or-none point rather than a probabilistic measure; a wrong answer that confuses it with difference threshold reveals confusion between detection and discrimination.",
-    "id": "gen_c11_psy_ch04_q7",
+    "id": "gen_c11_psy_ch04_q8",
     "nodeId": "c11_psy_cbse_04_002",
     "difficulty": "standard"
    },
@@ -1401,7 +1447,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Absolute threshold' slide -- match the key terms.",
     "misconception": "A poor answer that uses ascending order only or omits the 50% interpolation reveals inability to translate psychophysical logic into experimental design.",
-    "id": "gen_c11_psy_ch04_q8",
+    "id": "gen_c11_psy_ch04_q9",
     "nodeId": "c11_psy_cbse_04_002",
     "difficulty": "standard"
    },
@@ -1416,7 +1462,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"high frequencies are at the apex\") reverses the tonotopic map, showing the student memorized terms but not the physical basis of frequency-to-place mapping (stiffness gradient).",
-    "id": "gen_c11_psy_ch04_q9",
+    "id": "gen_c11_psy_ch04_q10",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1431,7 +1477,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"place theory for all pitches\") ignores the physiological limit of neural firing rates and the need for temporal coding at mid-frequencies.",
-    "id": "gen_c11_psy_ch04_q10",
+    "id": "gen_c11_psy_ch04_q11",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1446,7 +1492,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Procedure: Strike a 512 Hz tuning fork. Hold it over a plastic tube partially submerged in water (acting as a",
-    "id": "gen_c11_psy_ch04_q11",
+    "id": "gen_c11_psy_ch04_q12",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1461,7 +1507,7 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"amplitude determines loudness directly\") treats the ear as a linear microphone, ignoring its active, frequency-dependent nonlinear processing.",
-    "id": "gen_c11_psy_ch04_q12",
+    "id": "gen_c11_psy_ch04_q13",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1476,7 +1522,52 @@ export const C11_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"bone conduction also requires the eardrum\") reveals the student does not understand the dual pathways to the cochlea and mistakenly thinks all sound must pass through the tympanic membrane.",
-    "id": "gen_c11_psy_ch04_q13",
+    "id": "gen_c11_psy_ch04_q14",
+    "nodeId": "c11_psy_cbse_04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Auditory sensation?",
+    "answer": "Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like a light sensor converting photons to current",
+    "options": [
+     "The student must be able to: (1) accurately label the anatomical structures of the outer, middle",
+     "Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into electrochemical neural impulses",
+     "Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like a light sensor converting photons to current"
+    ],
+    "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like",
+    "id": "gen_c11_psy_ch04_q15",
+    "nodeId": "c11_psy_cbse_04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Auditory sensation? State the definition given in this lesson.",
+    "answer": "Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into electrochemical neural impulses",
+    "options": [
+     "Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like a light sensor converting photons to current",
+     "The student must be able to: (1) accurately label the anatomical structures of the outer, middle",
+     "Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into electrochemical neural impulses"
+    ],
+    "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the",
+    "id": "gen_c11_psy_ch04_q16",
+    "nodeId": "c11_psy_cbse_04_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to: (1) accurately label the anatomical structures of the outer, middle",
+    "options": [
+     "The three auditory ossicles are the malleus (hammer), incus (anvil), and stapes (stirrup). Their collective function is impedance matching: they amplify the force of tympanic",
+     "Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into electrochemical neural impulses",
+     "The student must be able to: (1) accurately label the anatomical structures of the outer, middle"
+    ],
+    "hint": "Straight from the 'Auditory sensation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) accurately label the anatomical structures of the outer, middle, and inner ear on a",
+    "id": "gen_c11_psy_ch04_q17",
     "nodeId": "c11_psy_cbse_04_004",
     "difficulty": "standard"
    },
@@ -1489,78 +1580,33 @@ export const C11_PSY_GEN: SimDef[] = [
      "(a) Standard: 1% NaCl solution. (b) Comparisons: 1.1%, 1.2%, 1.3%, 1.4%, 1.5% NaCl. (c) Randomise presentation order of pairs (standard vs",
      "Step 1: Mechanical deformation activates A-delta nociceptors (myelinated, 5-30 m/s) and C-fibre nociceptors (unmyelinated, 0"
     ],
-    "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
+    "hint": "Straight from the 'The cutaneous senses , chemical' slide -- match the key terms.",
     "misconception": "Wrong answers confusing fibre types or claiming both pains reach S1 reveal misunderstanding of the dual-pathway architecture for sensory-discriminative vs. affective-motivational pain dimensions.",
-    "id": "gen_c11_psy_ch04_q14",
-    "nodeId": "c11_psy_cbse_04_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Flavour is a taste sensation.\" Use evidence from olfactory-gustatory integration, retronasal olfaction, and the effect of nasal congestion on food perception to support your judgment.",
-    "answer": "The claim is false. Flavour is a multisensory percept combining: (1) gustation (sweet, sour, salty, bitter",
-    "options": [
-     "A perforated eardrum disrupts the *air-conduction pathway*: sound pressure waves cannot effectively vibrate the tympanic membrane, so the ossicular chain receives reduced force",
-     "Olfactory receptor neurons project directly to the olfactory bulb, then via the olfactory tract to primary olfactory cortex (piriform cortex), amygdala, and entorhinal cortex",
-     "The claim is false. Flavour is a multisensory percept combining: (1) gustation (sweet, sour, salty, bitter"
-    ],
-    "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
-    "misconception": "Wrong answers equating flavour with taste alone ignore the 80% contribution of olfaction.",
-    "id": "gen_c11_psy_ch04_q15",
-    "nodeId": "c11_psy_cbse_04_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why olfaction is the only sense that has direct cortical access without first relaying through the thalamus, and describe the functional consequence of this pathway for emotional memory.",
-    "answer": "Olfactory receptor neurons project directly to the olfactory bulb, then via the olfactory tract to primary olfactory cortex (piriform cortex), amygdala, and entorhinal cortex",
-    "options": [
-     "The claim is false. Loudness is a *perceptual* attribute, not a physical one. Two factors disprove \"amplitude alone\": (1) Equal-loudness contours (Fletcher-Munson curves): the ear",
-     "The claim is false. Flavour is a multisensory percept combining: (1) gustation (sweet, sour, salty, bitter",
-     "Olfactory receptor neurons project directly to the olfactory bulb, then via the olfactory tract to primary olfactory cortex (piriform cortex), amygdala, and entorhinal cortex"
-    ],
-    "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
-    "misconception": "A wrong answer stating \"olfaction goes to thalamus first\" reveals confusion with vision/hearing pathways. Saying \"smells are processed in the amygdala\" without mentioning piriform cortex shows incomplete pathway knowledge.",
-    "id": "gen_c11_psy_ch04_q16",
-    "nodeId": "c11_psy_cbse_04_005",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name the four distinct cutaneous modalities and identify the specific receptor type responsible for each modality.",
-    "answer": "The four cutaneous modalities are: (1) Pressure/touch — Merkel discs (sustained pressure), Meissner's corpuscles (light touch/texture), Ruffini endings (skin stretch)",
-    "options": [
-     "Absolute threshold is the minimum stimulus intensity required to activate a sensory system, operationally defined as the intensity detected on 50% of presentation trials",
-     "The three auditory ossicles are the malleus (hammer), incus (anvil), and stapes (stirrup). Their collective function is impedance matching: they amplify the force of tympanic",
-     "The four cutaneous modalities are: (1) Pressure/touch — Merkel discs (sustained pressure), Meissner's corpuscles (light touch/texture), Ruffini endings (skin stretch)"
-    ],
-    "hint": "Straight from the 'The cutaneous senses (skin),' slide -- match the key terms.",
-    "misconception": "A wrong answer listing only \"touch, heat, cold, pain\" without receptor types reveals the student memorised modalities but not the labelled-line coding principle. Confusing Ruffini for both stretch and warmth shows misunderstanding that one receptor type can serve multiple modalities depending on stimulus intensity.",
-    "id": "gen_c11_psy_ch04_q17",
+    "id": "gen_c11_psy_ch04_q18",
     "nodeId": "c11_psy_cbse_04_005",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about sensation?",
+    "What surprised you about sensation is the initial?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Sensation mastered! 🎯",
+  "successLine": "Sensation Is The Initial mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_psy_ch05",
-  "title": "Learning",
+  "title": "Learning Is Any Relatively Permanent Change",
   "subtitle": "Psychology · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "Learning",
+  "topic": "Learning Is Any Relatively Permanent Change",
   "chapters": [
-   "Psychology Ch5: Learning"
+   "Psychology Ch5: Learning Is Any Relatively Permanent Change"
   ],
   "nodeIds": [
    "c11_psy_cbse_05_001",
@@ -1578,7 +1624,7 @@ export const C11_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Learning actually explain?",
+   "question": "In one line -- what does Learning Is Any Relatively actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1589,7 +1635,7 @@ export const C11_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Learning",
+    "title": "Learning Is Any Relatively Permanent Change",
     "text": "Learning is any relatively permanent change in behaviour or behavioural potential that results from experience or practice, excluding temporary changes due to fatigue, habituation, drugs, or maturation.",
     "emoji": "🧠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1892,7 +1938,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "The phenomenon is stimulus generalisation. Fear generalises more to the rabbit because it shares more perceptual features (colour, texture, size",
      "(1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0. (2) Experience: Show each syllable for 2 sec, repeat list 5 times"
     ],
-    "hint": "Straight from the 'Learning' slide -- match the key terms.",
+    "hint": "Straight from the 'Learning is any relatively' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0.",
     "id": "gen_c11_psy_ch05_q8",
     "nodeId": "c11_psy_cbse_05_001",
@@ -1907,7 +1953,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "Week 1 = Cognitive phase (characteristic: conscious memorisation of instructions, high attentional demand, verbal mediation)",
      "Learning is \"any relatively permanent change in behaviour or behavioural potential produced by experience"
     ],
-    "hint": "Straight from the 'Learning' slide -- match the key terms.",
+    "hint": "Straight from the 'Learning is any relatively' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"learning is a change in behaviour\") reveals the student misses the critical qualifiers \"relatively permanent\" and \"produced by experience,\" leading to over-inclusion of temporary states like fatigue.",
     "id": "gen_c11_psy_ch05_q9",
     "nodeId": "c11_psy_cbse_05_001",
@@ -2006,11 +2052,11 @@ export const C11_PSY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about learning?",
+    "What surprised you about learning is any relatively permanent change?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Learning mastered! 🎯",
+  "successLine": "Learning Is Any Relatively mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2054,7 +2100,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Mnemonics",
+    "title": "Mnemonics Are Systematic Memory Enhancement",
     "text": "Mnemonics are systematic memory enhancement strategies that impose meaningful organisation or vivid imagery onto to-be-remembered information, thereby creating effective retrieval cues and facilitating deep semantic encoding.",
     "emoji": "🧠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2139,7 +2185,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "The explanation runs: (1) Both students encode the same fragmentary events of the quarrel (2) Each carries a different schema about which classmate is the angry one (3) At recall",
      "(a) Loci: 1) Front door mat, 2) Living room sofa, 3) Kitchen counter, 4) Bathroom sink, 5) Bedroom pillow"
     ],
-    "hint": "Straight from the 'Mnemonics' slide -- match the key terms.",
+    "hint": "Straight from the 'Mnemonics are systematic memory' slide -- match the key terms.",
     "misconception": "A wrong answer that suggests Chunking reveals confusion between *capacity expansion* (Chunking's purpose) and *order preservation* (Loci's purpose).",
     "id": "gen_c11_psy_ch06_q2",
     "nodeId": "c11_psy_cbse_06_009",
@@ -2500,7 +2546,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Emotion",
+    "title": "Emotion Is a Complex Psychological",
     "text": "Emotion is a complex psychological state involving three distinct components: a subjective experience (cognitive appraisal), a physiological response (arousal), and a behavioral or expressive response.",
     "emoji": "🧠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2518,7 +2564,7 @@ export const C11_PSY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Cultural Bases Of Emotion Refer",
+    "title": "Cultural Bases Of Emotion",
     "text": "Cultural bases of emotion refer to the systematic influence of cultural norms, values, and practices on how emotions are experienced, expressed, labeled, and regulated; universality denotes the pancultural presence of basic emotions (anger, disgust, fear,",
     "emoji": "🧠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2573,7 +2619,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "(a) Belongingness (protecting comrades/community) and Esteem (duty, honour, self-respect) override Safety",
      "Independent variable: Presence vs. absence of food aroma (e.g., baking bread scent diffused in room)"
     ],
-    "hint": "Straight from the 'Biological  motives' slide -- match the key terms.",
+    "hint": "Straight from the 'Biological motives' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Independent variable: Presence vs. absence of food aroma (e.g., baking bread scent diffused in room).",
     "id": "gen_c11_psy_ch08_q2",
     "nodeId": "c11_psy_cbse_08_002",
@@ -2615,7 +2661,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "James-Lange predicts reduced emotional intensity because the brain cannot perceive the physiological arousal that constitutes the emotion",
      "Plutchik proposes eight primary emotions arranged in four opposite pairs (joy-sadness, trust-disgust, fear-anger, surprise-anticipation)"
     ],
-    "hint": "Straight from the 'Emotion' slide -- match the key terms.",
+    "hint": "Straight from the 'Emotion is a complex psychological' slide -- match the key terms.",
     "misconception": "A wrong answer stating Plutchik just has \"more basic emotions\" misses the structural concept of dyadic mixtures forming a circumplex.",
     "id": "gen_c11_psy_ch08_q4",
     "nodeId": "c11_psy_cbse_08_005",
@@ -2949,7 +2995,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "South Asian cultures often use peripheral gaze (averted eyes) to signal deference, while many North Indian/Western contexts interpret direct gaze as attentiveness and honesty",
      "Example: Emotion: Anger (basic). Context: A young employee receives unfair criticism from a senior boss in a traditional Indian workplace"
     ],
-    "hint": "Straight from the 'Emotion' slide -- match the key terms.",
+    "hint": "Straight from the 'Emotion is a complex psychological' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Example: Emotion: Anger (basic). Context: A young employee receives unfair criticism from a senior boss in a",
     "id": "gen_c11_psy_ch08_q13",
     "nodeId": "c11_psy_cbse_08_005",
@@ -2994,7 +3040,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "\"Adequately satisfied\" means *relatively* or *partially* met, not 100% fulfilled. Maslow explicitly noted that needs overlap—e",
      "Step 1: Forced-choice equivalence (85% both) confirms the universal facial configuration for fear is recognized panculturally — supporting Ekman's universality thesis"
     ],
-    "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Cultural bases of emotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Group A feels more fear\" or \"Japanese don't understand fear\") commits the lexical fallacy — equating label granularity with experience intensity or capacity.",
     "id": "gen_c11_psy_ch08_q16",
     "nodeId": "c11_psy_cbse_08_008",
@@ -3009,7 +3055,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "James-Lange predicts reduced emotional intensity because the brain cannot perceive the physiological arousal that constitutes the emotion",
      "Latin American/Southern European norm: Direct eye contact maintained with the interactant's eyes"
     ],
-    "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Cultural bases of emotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Indians avoid eye contact because they are shy\" or \"Latin Americans stare because they are aggressive\") commits the dispositional attribution error — ignoring the cultural logic that makes each norm adaptive in its context.",
     "id": "gen_c11_psy_ch08_q17",
     "nodeId": "c11_psy_cbse_08_008",
@@ -3024,7 +3070,7 @@ export const C11_PSY_GEN: SimDef[] = [
      "The claim is partially false. While specific mudras (hand gestures) are culturally codified, they often amplify universal facial/body prototypes (e",
      "The statement is partially correct but incomplete. Evidence against \"only shapes expression\": (1) Lexicon studies (Tahitian 46 anger terms, Japanese *amae*"
     ],
-    "hint": "Straight from the 'Cultural bases of emotion refer' slide -- match the key terms.",
+    "hint": "Straight from the 'Cultural bases of emotion' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Ekman proved culture doesn't matter\" or \"All emotions are culturally constructed\") fails to integrate the interactionist consensus: biology constrains, culture constructs.",
     "id": "gen_c11_psy_ch08_q18",
     "nodeId": "c11_psy_cbse_08_008",

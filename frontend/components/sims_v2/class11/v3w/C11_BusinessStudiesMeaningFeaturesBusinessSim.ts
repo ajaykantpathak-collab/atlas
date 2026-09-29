@@ -11,7 +11,7 @@ export const w_c11_businessstudiesmeaningfeaturesbusinesssim: SimDef = {
     classLevel: 11, subject: 'business_studies', topic: 'Private Sector and Public Sector: Meaning and Distinction',
     chapters: [],
     nodeIds: ['c11_bs_cbse_03_001', 'c11_bs_cbse_08_001', 'c11_bs_cbse_08_006', 'c11_bs_cbse_10_003', 'c11_bs_cbse_02_003', 'c11_bs_cbse_05_006', 'c11_bs_cbse_05_007', 'c11_bs_cbse_03_007', 'c11_bs_cbse_08_007', 'c11_bs_cbse_10_001', 'c11_bs_cbse_11_001', 'c11_bs_cbse_11_004', 'c11_bs_cbse_11_005', 'c11_bs_cbse_11_006', 'c11_bs_cbse_05_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are reading a news headline: "Government to sell 51% stake in BPCL to private players." You.', goal: 'Master Private Sector and Public Sector: Meaning and Distinction.' },
     discovery: {
         question: 'Compare and contrast "Owner\'s funds" and "Borrowed funds" on the following dimensions: (a) Claim on assets during liquidation, (b) Cost to the business, (c).',
@@ -20,7 +20,7 @@ export const w_c11_businessstudiesmeaningfeaturesbusinesssim: SimDef = {
         hook: 'Students believe "business finance" only means *borrowing money from banks* and that "sources of finance" is just a.',
     },
     teaching: [
-        { title: 'The private sector comprises business.', text: 'The private sector comprises business enterprises owned, controlled, and managed by private individuals or groups (sole proprietorship, partnership, Joint Hindu Family, cooperative, company) with the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The private sector comprises business.', text: 'The private sector comprises business enterprises owned, controlled, and managed by private individuals or groups (sole proprietorship, partnership, Joint Hindu Family, cooperative, company) with the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bs_cbse_03_001', title: 'The private sector comprises business.',

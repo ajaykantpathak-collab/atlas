@@ -1279,7 +1279,7 @@ function C11_AccountancyBasicTermsDrawerSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Scenario Hero */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 border border-emerald-800/40 shadow-xl">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 border border-emerald-800/40 shadow-xl">
             <span className="text-xs font-black uppercase tracking-wider text-emerald-400 bg-emerald-900/50 px-3 py-1 rounded-full border border-emerald-700/50">
               Audit Scenario
             </span>
@@ -1483,8 +1483,8 @@ function C11_AccountancyBasicTermsDrawerSim({
                 <div className="space-y-6">
                   {/* Predict then Check Hook */}
                   {!predMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
-                      <p className="text-sm font-semibold text-indigo-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40">
+                      <p className="text-sm font-semibold text-gold-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1584,7 +1584,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                             value={acceptanceLagDays}
                             aria-label="Acceptance delay in days"
                             onChange={(e) => setAcceptanceLagDays(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                       )}
@@ -1712,7 +1712,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                           value={discountRate}
                           aria-label="Bank Discount Rate"
                           onChange={(e) => setDiscountRate(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1735,7 +1735,7 @@ function C11_AccountancyBasicTermsDrawerSim({
 
                     {/* Live Financial Outcome */}
                     <div className="space-y-3 p-4 bg-slate-900 rounded-xl border border-slate-800 flex flex-col justify-center">
-                      <span className="text-xs font-bold uppercase text-indigo-400">Discounting Journal Rationale</span>
+                      <span className="text-xs font-bold uppercase text-gold-400">Discounting Journal Rationale</span>
                       <div className="space-y-2 text-xs font-mono">
                         <div className="p-2 bg-slate-950 rounded border border-slate-800 flex justify-between text-emerald-300">
                           <span>Dr. Bank A/c (Net Proceeds):</span>
@@ -1863,7 +1863,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                           value={companyProfit}
                           aria-label="Operating Profit in Crore"
                           onChange={(e) => setCompanyProfit(Number(e.target.value))}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -2011,13 +2011,13 @@ function C11_AccountancyBasicTermsDrawerSim({
                   value={billTenureDays}
                   aria-label="Sandbox Tenure in days"
                   onChange={(e) => setBillTenureDays(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
 
             <div className="space-y-3">
-              <span className="text-xs font-bold uppercase text-indigo-400">2. Discount & Holiday</span>
+              <span className="text-xs font-bold uppercase text-gold-400">2. Discount & Holiday</span>
               <div>
                 <label className="text-[11px] text-slate-400">Bank Discount: {discountRate}% p.a.</label>
                 <input
@@ -2028,7 +2028,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                   value={discountRate}
                   aria-label="Sandbox Bank Discount Rate"
                   onChange={(e) => setDiscountRate(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <label className="flex items-center gap-2 text-xs text-amber-300 mt-4 cursor-pointer">
@@ -2085,7 +2085,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                     : difficulty === 'standard'
-                    ? 'bg-blue-500/20 text-blue-400 border border-blue-500/40'
+                    ? 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
                     : 'bg-rose-500/20 text-red-400 border border-rose-500/40'
                 }`}
               >
@@ -2100,7 +2100,7 @@ function C11_AccountancyBasicTermsDrawerSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-indigo-500 to-purple-500 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-purple-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2164,7 +2164,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700/80 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3.5 py-2 bg-gold-700/80 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2288,7 +2288,7 @@ function C11_AccountancyBasicTermsDrawerSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3.5 py-2 bg-indigo-700/70 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white shadow"
+                      className="px-3.5 py-2 bg-gold-700/70 hover:bg-gold-600 rounded-lg text-xs font-bold text-white shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2336,7 +2336,7 @@ function C11_AccountancyBasicTermsDrawerSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-emerald-950/40 via-slate-950 to-indigo-950/40 border border-emerald-700/50 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-emerald-950/40 via-slate-950 to-gold-950/40 border border-emerald-700/50 rounded-2xl space-y-4"
               >
                 <div className="flex items-center gap-2">
                   <span className="text-base">📑</span>
@@ -2399,7 +2399,7 @@ function C11_AccountancyBasicTermsDrawerSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 border border-emerald-700/60 text-center space-y-4">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 border border-emerald-700/60 text-center space-y-4">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2413,7 +2413,7 @@ function C11_AccountancyBasicTermsDrawerSim({
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[140px]">
                 <span className="text-xs text-slate-400 uppercase font-bold">BKT Mastery Level</span>
-                <p className="text-2xl font-black text-indigo-400 mt-1 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>

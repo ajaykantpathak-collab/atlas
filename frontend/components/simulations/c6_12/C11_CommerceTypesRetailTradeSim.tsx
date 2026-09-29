@@ -1171,18 +1171,18 @@ function C11_CommerceTypesRetailTradeSim({
       <motion.header 
         initial={{ opacity: 0, y: -20 }} 
         animate={{ opacity: 1, y: 0 }}
-        className="flex flex-wrap items-center justify-between gap-4 p-4 mb-6 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-2xl border border-indigo-900/50"
+        className="flex flex-wrap items-center justify-between gap-4 p-4 mb-6 bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 rounded-2xl border border-gold-900/50"
       >
         <div className="flex items-center gap-3">
           <motion.div 
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-xl bg-indigo-600/30 flex items-center justify-center text-2xl border border-indigo-500/30"
+            className="w-12 h-12 rounded-xl bg-gold-600/30 flex items-center justify-center text-2xl border border-gold-500/30"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-semibold uppercase px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 11
               </span>
               <span className="text-xs text-slate-400">10 Core Trade Modules</span>
@@ -1199,7 +1199,7 @@ function C11_CommerceTypesRetailTradeSim({
               animate={{ scale: phase === pName ? 1.05 : 1, opacity: phase === pName ? 1 : 0.5 }}
               className={`text-xs px-3 py-1 rounded-full font-semibold capitalize border ${
                 phase === pName
-                  ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-600/30'
                   : 'bg-slate-800 text-slate-400 border-slate-700'
               }`}
             >
@@ -1212,10 +1212,10 @@ function C11_CommerceTypesRetailTradeSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/40">
-            <h2 className="text-xl font-bold text-indigo-300 mb-2">{SCENARIO.title}</h2>
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/40">
+            <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400 font-mono bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/50">
+            <p className="text-xs text-gold-400 font-mono bg-gold-950/60 p-3 rounded-xl border border-gold-800/50">
               🧭 Context: {SCENARIO.context}
             </p>
           </div>
@@ -1266,7 +1266,7 @@ function C11_CommerceTypesRetailTradeSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Trade Labs →
                 </motion.button>
@@ -1315,11 +1315,11 @@ function C11_CommerceTypesRetailTradeSim({
                         onClick={() => handleArchetypeSelect(item.id)}
                         className={`p-3 rounded-xl text-center border transition-all ${
                           selectedRetailArchetype === item.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
-                        <div className="text-xs text-indigo-200 font-mono mb-1">{item.badge}</div>
+                        <div className="text-xs text-gold-200 font-mono mb-1">{item.badge}</div>
                         <div className="text-sm font-bold">{item.label}</div>
                       </motion.button>
                     ))}
@@ -1424,8 +1424,8 @@ function C11_CommerceTypesRetailTradeSim({
                 <div className="space-y-6">
                   {/* Predict Then Check Hook */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800">
-                      <p className="text-sm font-semibold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800">
+                      <p className="text-sm font-semibold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1452,7 +1452,7 @@ function C11_CommerceTypesRetailTradeSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>List Price (Catalogue / MRP):</span>
-                        <span className="font-bold text-indigo-400">₹{simListPrice.toLocaleString()}</span>
+                        <span className="font-bold text-gold-400">₹{simListPrice.toLocaleString()}</span>
                       </div>
                       <input
                         type="range"
@@ -1462,14 +1462,14 @@ function C11_CommerceTypesRetailTradeSim({
                         value={simListPrice}
                         aria-label="List Price"
                         onChange={(e) => setSimListPrice(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Trade Discount % (Shown on Invoice):</span>
-                        <span className="font-bold text-indigo-400">{simTradeDiscountPct}%</span>
+                        <span className="font-bold text-gold-400">{simTradeDiscountPct}%</span>
                       </div>
                       <input
                         type="range"
@@ -1479,14 +1479,14 @@ function C11_CommerceTypesRetailTradeSim({
                         value={simTradeDiscountPct}
                         aria-label="Trade Discount Percentage"
                         onChange={(e) => setSimTradeDiscountPct(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Cash Discount % (Prompt Payment within terms):</span>
-                        <span className="font-bold text-indigo-400">{simCashDiscountPct}%</span>
+                        <span className="font-bold text-gold-400">{simCashDiscountPct}%</span>
                       </div>
                       <input
                         type="range"
@@ -1496,7 +1496,7 @@ function C11_CommerceTypesRetailTradeSim({
                         value={simCashDiscountPct}
                         aria-label="Cash Discount Percentage"
                         onChange={(e) => setSimCashDiscountPct(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1530,7 +1530,7 @@ function C11_CommerceTypesRetailTradeSim({
                         <span>2. Less: Trade Discount ({simTradeDiscountPct}%):</span>
                         <span className="font-mono">− ₹{discountCalculation.tradeDiscountAmt.toLocaleString()}</span>
                       </div>
-                      <div className="flex justify-between py-1.5 bg-indigo-950/60 px-2 rounded font-bold border border-indigo-800 text-indigo-200">
+                      <div className="flex justify-between py-1.5 bg-gold-950/60 px-2 rounded font-bold border border-gold-800 text-gold-200">
                         <span>3. Invoice Price (GST Taxable Base):</span>
                         <span className="font-mono">₹{discountCalculation.invoicePrice.toLocaleString()}</span>
                       </div>
@@ -1658,7 +1658,7 @@ function C11_CommerceTypesRetailTradeSim({
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center text-xs mb-2">
                       <span className="text-slate-400">Step {exportStepProgress} of 12:</span>
-                      <span className="font-bold text-indigo-300">
+                      <span className="font-bold text-gold-300">
                         {[
                           '1. Trade Inquiry',
                           '2. Proforma Quotation',
@@ -1682,13 +1682,13 @@ function C11_CommerceTypesRetailTradeSim({
                       value={exportStepProgress}
                       aria-label="Export Step Progress"
                       onChange={(e) => setExportStepProgress(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   {/* Step Detail Card */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40 text-xs leading-relaxed">
-                    <div className="text-indigo-300 font-bold text-sm mb-1">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40 text-xs leading-relaxed">
+                    <div className="text-gold-300 font-bold text-sm mb-1">
                       {exportStepProgress <= 4 && 'Stage A: Pre-Production & Financial Security'}
                       {exportStepProgress > 4 && exportStepProgress <= 8 && 'Stage B: Manufacturing, Finance & Quality Certification'}
                       {exportStepProgress > 8 && exportStepProgress <= 10 && 'Stage C: Customs Clearance & Maritime Port Loading'}
@@ -1721,11 +1721,11 @@ function C11_CommerceTypesRetailTradeSim({
                         onClick={() => handleDocInspectSelect(doc.id)}
                         className={`p-3 rounded-xl text-left border ${
                           activeDocInspect === doc.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
-                        <div className="text-xs text-indigo-200 font-mono">{doc.issuer}</div>
+                        <div className="text-xs text-gold-200 font-mono">{doc.issuer}</div>
                         <div className="text-sm font-bold">{doc.label}</div>
                       </motion.button>
                     ))}
@@ -1746,8 +1746,8 @@ function C11_CommerceTypesRetailTradeSim({
                     )}
 
                     {activeDocInspect === 'bl' && (
-                      <div className="border border-indigo-500/50 p-4 rounded-xl space-y-2 bg-indigo-950/20">
-                        <div className="flex justify-between text-indigo-300 font-bold text-sm">
+                      <div className="border border-gold-500/50 p-4 rounded-xl space-y-2 bg-gold-950/20">
+                        <div className="flex justify-between text-gold-300 font-bold text-sm">
                           <span>NEGOTIABLE BILL OF LADING (Title Document)</span>
                           <span>B/L No: MAEU-98765432</span>
                         </div>
@@ -1808,7 +1808,7 @@ function C11_CommerceTypesRetailTradeSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -1846,11 +1846,11 @@ function C11_CommerceTypesRetailTradeSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-900 p-6 rounded-2xl border border-slate-800">
             <div className="space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300">Interactive Price & Discount Engine</h3>
+              <h3 className="text-sm font-bold text-gold-300">Interactive Price & Discount Engine</h3>
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>List Price:</span>
-                  <span className="font-mono text-indigo-400 font-bold">₹{simListPrice.toLocaleString()}</span>
+                  <span className="font-mono text-gold-400 font-bold">₹{simListPrice.toLocaleString()}</span>
                 </div>
                 <input
                   type="range"
@@ -1860,14 +1860,14 @@ function C11_CommerceTypesRetailTradeSim({
                   value={simListPrice}
                   aria-label="List Price"
                   onChange={(e) => setSimListPrice(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Trade Discount:</span>
-                  <span className="font-mono text-indigo-400 font-bold">{simTradeDiscountPct}%</span>
+                  <span className="font-mono text-gold-400 font-bold">{simTradeDiscountPct}%</span>
                 </div>
                 <input
                   type="range"
@@ -1877,14 +1877,14 @@ function C11_CommerceTypesRetailTradeSim({
                   value={simTradeDiscountPct}
                   aria-label="Trade Discount Percentage"
                   onChange={(e) => setSimTradeDiscountPct(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Cash Discount:</span>
-                  <span className="font-mono text-indigo-400 font-bold">{simCashDiscountPct}%</span>
+                  <span className="font-mono text-gold-400 font-bold">{simCashDiscountPct}%</span>
                 </div>
                 <input
                   type="range"
@@ -1894,7 +1894,7 @@ function C11_CommerceTypesRetailTradeSim({
                   value={simCashDiscountPct}
                   aria-label="Cash Discount Percentage"
                   onChange={(e) => setSimCashDiscountPct(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
@@ -1944,7 +1944,7 @@ function C11_CommerceTypesRetailTradeSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                     : difficulty === 'standard'
-                    ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30'
+                    ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                     : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
                 }`}
               >
@@ -1971,7 +1971,7 @@ function C11_CommerceTypesRetailTradeSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2032,7 +2032,7 @@ function C11_CommerceTypesRetailTradeSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2057,7 +2057,7 @@ function C11_CommerceTypesRetailTradeSim({
                       }`}
                     >
                       <div className="text-[11px] text-slate-400 mb-2">{target.title}</div>
-                      <div className="p-2 bg-slate-900 rounded-lg text-center font-mono font-bold text-sm text-indigo-300">
+                      <div className="p-2 bg-slate-900 rounded-lg text-center font-mono font-bold text-sm text-gold-300">
                         {droppedLabels[target.id] || '[ Drop Document Here ]'}
                       </div>
                     </div>
@@ -2068,7 +2068,7 @@ function C11_CommerceTypesRetailTradeSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswerSubmit(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl shadow-lg"
                 >
                   Verify Document Matches
                 </motion.button>
@@ -2096,7 +2096,7 @@ function C11_CommerceTypesRetailTradeSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-800 rounded-xl text-slate-200 text-sm border border-slate-700 flex items-center gap-3 cursor-grab"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-600/30 text-indigo-300 flex items-center justify-center text-xs font-bold font-mono">
+                    <span className="w-6 h-6 rounded-full bg-gold-600/30 text-gold-300 flex items-center justify-center text-xs font-bold font-mono">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2108,7 +2108,7 @@ function C11_CommerceTypesRetailTradeSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg mt-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg mt-2"
                 >
                   Verify Chronological Order
                 </motion.button>
@@ -2126,7 +2126,7 @@ function C11_CommerceTypesRetailTradeSim({
                       value={numericInput}
                       onChange={e => setNumericInput(e.target.value)}
                       placeholder="Enter computed value"
-                      className="pl-8 pr-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none"
+                      className="pl-8 pr-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none"
                     />
                   </div>
                   <motion.button
@@ -2134,7 +2134,7 @@ function C11_CommerceTypesRetailTradeSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerSubmit(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40"
                   >
                     Verify Calculation
                   </motion.button>
@@ -2166,7 +2166,7 @@ function C11_CommerceTypesRetailTradeSim({
                       key={cIdx}
                       initial={{ opacity: 0, scale: 0.9 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 rounded-lg text-xs text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 rounded-lg text-xs text-gold-200 flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2187,7 +2187,7 @@ function C11_CommerceTypesRetailTradeSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswerSubmit(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl shadow-lg disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl shadow-lg disabled:opacity-40"
                 >
                   Verify Strategy Formulation
                 </motion.button>
@@ -2199,9 +2199,9 @@ function C11_CommerceTypesRetailTradeSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 border border-indigo-800/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 border border-gold-800/60 rounded-2xl space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 text-sm font-bold">
+                <div className="flex items-center gap-2 text-gold-300 text-sm font-bold">
                   <span>📖 Progressive Commercial Solution:</span>
                 </div>
 
@@ -2216,7 +2216,7 @@ function C11_CommerceTypesRetailTradeSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs text-slate-300 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400 font-mono">{idx + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400 font-mono">{idx + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2226,7 +2226,7 @@ function C11_CommerceTypesRetailTradeSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-3.5 py-1.5 bg-indigo-700/60 hover:bg-indigo-600/80 text-white rounded-lg text-xs font-semibold"
+                    className="px-3.5 py-1.5 bg-gold-700/60 hover:bg-gold-600/80 text-white rounded-lg text-xs font-semibold"
                   >
                     Reveal Next Reasoning Step →
                   </motion.button>
@@ -2251,7 +2251,7 @@ function C11_CommerceTypesRetailTradeSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & MOTIVATIONAL FEEDBACK ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3">
             <h2 className="text-2xl md:text-3xl font-extrabold text-white">Assessment Complete!</h2>
             <div className="flex justify-center items-center gap-6 py-2">
               <div>
@@ -2263,15 +2263,15 @@ function C11_CommerceTypesRetailTradeSim({
               <div className="h-10 w-px bg-slate-700" />
               <div>
                 <div className="text-xs text-slate-400 uppercase font-mono">Adaptive Mastery Tier</div>
-                <div className="text-xl font-bold text-indigo-300 capitalize">{masteryLevel}</div>
+                <div className="text-xl font-bold text-gold-300 capitalize">{masteryLevel}</div>
               </div>
             </div>
 
             {/* Prominent Spaced Repetition (SRS) Badge */}
-            <div className="p-4 bg-indigo-900/40 rounded-2xl border border-indigo-500/50 max-w-md mx-auto my-3 flex items-center justify-center gap-3">
+            <div className="p-4 bg-gold-900/40 rounded-2xl border border-gold-500/50 max-w-md mx-auto my-3 flex items-center justify-center gap-3">
               <span className="text-2xl">🔁</span>
               <div className="text-left">
-                <div className="text-xs uppercase tracking-wider text-indigo-300 font-bold">Recommended Spaced Review</div>
+                <div className="text-xs uppercase tracking-wider text-gold-300 font-bold">Recommended Spaced Review</div>
                 <div className="text-base font-extrabold text-emerald-300">
                   {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
                 </div>
@@ -2279,7 +2279,7 @@ function C11_CommerceTypesRetailTradeSim({
             </div>
 
             {/* Structured Motivational Feedback */}
-            <div className="p-4 bg-slate-900/90 rounded-2xl border border-indigo-700/50 max-w-xl mx-auto mt-2">
+            <div className="p-4 bg-slate-900/90 rounded-2xl border border-gold-700/50 max-w-xl mx-auto mt-2">
               <div className="text-lg font-bold text-amber-300 mb-1">
                 {errors === 0
                   ? 'PERFECT SCORE!'
@@ -2324,11 +2324,11 @@ function C11_CommerceTypesRetailTradeSim({
           )}
 
           {/* Spaced Repetition (SRS) Review Timeline */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-900/50 space-y-2">
-            <h3 className="text-sm font-bold text-indigo-300">📅 Spaced Repetition Schedule (SM-2 Algorithm)</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-900/50 space-y-2">
+            <h3 className="text-sm font-bold text-gold-300">📅 Spaced Repetition Schedule (SM-2 Algorithm)</h3>
             <p className="text-xs text-slate-300">
               Based on your response performance ({errors} error{errors === 1 ? '' : 's'}), these 10 trade nodes are scheduled for automated memory consolidation with interval{' '}
-              <span className="text-indigo-400 font-bold">
+              <span className="text-gold-400 font-bold">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </span>
               . Regular retrieval practice cements commercial law and documentation recall.
@@ -2344,7 +2344,7 @@ function C11_CommerceTypesRetailTradeSim({
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="w-5 h-5 rounded-full bg-indigo-600/30 text-indigo-300 flex items-center justify-center font-bold shrink-0 font-mono">
+                  <span className="w-5 h-5 rounded-full bg-gold-600/30 text-gold-300 flex items-center justify-center font-bold shrink-0 font-mono">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

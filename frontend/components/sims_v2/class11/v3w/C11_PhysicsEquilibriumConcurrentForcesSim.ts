@@ -11,7 +11,7 @@ export const w_c11_physicsequilibriumconcurrentforcessim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Equilibrium of a Particle',
     chapters: [],
     nodeIds: ['c11_phy_cbse_04_007', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_008', 'c11_phy_cbse_04_014', 'c11_phy_cbse_06_004', 'c11_phy_cbse_06_006', 'c11_phy_cbse_06_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a ceiling fan hanging from a hook by a rod — it remains stationary despite gravity pulling it down.', goal: 'Master Equilibrium of a Particle.' },
     discovery: {
         question: 'A student argues: "A book lying on a table is in equilibrium because the weight **mg** and the normal reaction **R** are an action-reaction pair, so they.',
@@ -20,7 +20,7 @@ export const w_c11_physicsequilibriumconcurrentforcessim: SimDef = {
         hook: 'Students often believe that **"equilibrium means no forces act on the particle"** or that **"action-reaction pairs.',
     },
     teaching: [
-        { title: 'Equilibrium of a particle is the state in.', text: 'Equilibrium of a particle is the state in which the vector sum of all external forces acting on the particle is zero (Σ**F** = 0), resulting in zero acceleration.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Equilibrium of a particle is the state in.', text: 'Equilibrium of a particle is the state in which the vector sum of all external forces acting on the particle is zero (Σ**F** = 0), resulting in zero acceleration.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_04_007', title: 'Equilibrium of a particle is the state.',

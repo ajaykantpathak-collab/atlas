@@ -11,7 +11,7 @@ export const w_c12_accountancyworkingcapitalturnoversim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'Partner\'s Salary, Commission and Interest on Partner\'s Loan',
     chapters: [],
     nodeIds: ['c12_acc_cbse_01_008', 'c12_acc_cbse_09_001', 'c12_acc_cbse_09_005', 'c12_acc_cbse_09_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a partnership firm where two partners, A and B, run a retail business.', goal: 'Master Partner\'s Salary, Commission and Interest on Partner\'s Loan.' },
     discovery: {
         question: 'A company purchases machinery worth ₹10,00,000 by issuing equity shares of the same value. How is this transaction treated in the Cash Flow Statement?',
@@ -20,7 +20,7 @@ export const w_c12_accountancyworkingcapitalturnoversim: SimDef = {
         hook: 'Students often think "Cash Flow Statement shows profit" or "Cash Flow Statement is just the cash book." They confuse.',
     },
     teaching: [
-        { title: 'Partner\'s Salary is a fixed periodic payment.', text: 'Partner\'s Salary is a fixed periodic payment to a working partner for active participation in the firm\'s management, treated as an **appropriation of profit** (debited to Profit and Loss.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Partner\'s Salary is a fixed periodic payment.', text: 'Partner\'s Salary is a fixed periodic payment to a working partner for active participation in the firm\'s management, treated as an **appropriation of profit** (debited to Profit and Loss.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_01_008', title: 'Partner\'s Salary is a fixed periodic.',

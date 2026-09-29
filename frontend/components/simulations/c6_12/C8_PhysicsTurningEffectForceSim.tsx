@@ -1283,14 +1283,14 @@ function C8_PhysicsTurningEffectForceSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15, scale: 1.2 }}
-            className="text-3xl p-2 bg-indigo-900/40 border border-indigo-700/50 rounded-2xl"
+            className="text-3xl p-2 bg-gold-900/40 border border-gold-700/50 rounded-2xl"
             role="img"
             aria-label="Physics Logo"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase">
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase">
               ICSE Class 8 Physics
             </span>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
@@ -1309,7 +1309,7 @@ function C8_PhysicsTurningEffectForceSim({
                   ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                  : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                  : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
               }`}
             >
               Tier: {difficulty}
@@ -1330,13 +1330,13 @@ function C8_PhysicsTurningEffectForceSim({
           <motion.div
             initial={{ scale: 0.98, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+            className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
           >
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🔧</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/90 mt-3 font-medium">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400/90 mt-3 font-medium">{SCENARIO.context}</p>
           </motion.div>
 
           <motion.div
@@ -1363,10 +1363,10 @@ function C8_PhysicsTurningEffectForceSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200 hover:bg-slate-800'
+                      : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200 hover:bg-slate-800'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">
+                  <span className="font-bold mr-2 text-gold-400">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : ''}
                     {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex ? '✗ ' : ''}
                     {String.fromCharCode(65 + i)}.
@@ -1380,7 +1380,7 @@ function C8_PhysicsTurningEffectForceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-4 bg-indigo-950/40 border border-indigo-800/50 rounded-xl space-y-3"
+                className="p-4 bg-gold-950/40 border border-gold-800/50 rounded-xl space-y-3"
               >
                 <motion.p
                   initial={{ opacity: 0 }}
@@ -1396,7 +1396,7 @@ function C8_PhysicsTurningEffectForceSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Discovery Labs"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1433,10 +1433,10 @@ function C8_PhysicsTurningEffectForceSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : predictionAnswered && i === predictionSelected
                       ? 'bg-rose-950/70 border-rose-500 text-rose-200'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1446,7 +1446,7 @@ function C8_PhysicsTurningEffectForceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-4 bg-indigo-950/50 border border-indigo-800/60 rounded-xl space-y-3"
+                className="p-4 bg-gold-950/50 border border-gold-800/60 rounded-xl space-y-3"
               >
                 <p className="text-xs text-slate-300">
                   <span className="font-bold text-emerald-400">Concept: </span>
@@ -1460,7 +1460,7 @@ function C8_PhysicsTurningEffectForceSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleNextPrediction}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   {currentPrediction + 1 < PREDICTION_QUESTIONS.length ? 'Next Prediction →' : 'Launch Interactive Labs →'}
                 </motion.button>
@@ -1478,7 +1478,7 @@ function C8_PhysicsTurningEffectForceSim({
             animate={{ y: 0, opacity: 1 }}
             className="flex items-center justify-between"
           >
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1487,7 +1487,7 @@ function C8_PhysicsTurningEffectForceSim({
                   key={idx}
                   layout
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1508,7 +1508,7 @@ function C8_PhysicsTurningEffectForceSim({
                 className="border-b border-slate-800 pb-3"
               >
                 <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <p className="text-sm text-indigo-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+                <p className="text-sm text-gold-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </motion.div>
 
               {/* ─── LAB 1: MOMENTS SEESAW VISUALIZATION ─── */}
@@ -1652,7 +1652,7 @@ function C8_PhysicsTurningEffectForceSim({
                     >
                       <span className="text-xs text-slate-400">Calculated Pressure (P = F / A)</span>
                       <p className="text-2xl font-black text-amber-300">{calculatedPressure.toLocaleString()} Pa (N/m²)</p>
-                      <span className="text-xs text-indigo-400">
+                      <span className="text-xs text-gold-400">
                         Penetration Depth is proportional to Pressure, NOT just Force alone!
                       </span>
                     </motion.div>
@@ -1674,7 +1674,7 @@ function C8_PhysicsTurningEffectForceSim({
                           setContactArea(parseFloat(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full accent-cyan-500 mt-1"
+                        className="w-full accent-gold-500 mt-1"
                       />
                     </div>
                     <div>
@@ -1719,11 +1719,11 @@ function C8_PhysicsTurningEffectForceSim({
                       <div>
                         <div className="flex justify-between text-xs font-bold text-slate-300">
                           <span>Max Potential Energy (mgh):</span>
-                          <span className="text-indigo-400">{calculatedPE} J</span>
+                          <span className="text-gold-400">{calculatedPE} J</span>
                         </div>
                         <div className="h-3 bg-slate-800 rounded-full mt-1 overflow-hidden">
                           <motion.div
-                            className="h-full bg-indigo-500 rounded-full"
+                            className="h-full bg-gold-500 rounded-full"
                             style={{ width: `${Math.min(100, (calculatedPE / 10) * 100)}%` }}
                           />
                         </div>
@@ -1744,7 +1744,7 @@ function C8_PhysicsTurningEffectForceSim({
 
                       <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-3 bg-indigo-950/30 border border-indigo-800/40 rounded-xl text-xs text-indigo-300"
+                        className="p-3 bg-gold-950/30 border border-gold-800/40 rounded-xl text-xs text-gold-300"
                       >
                         <span className="font-bold">Conservation of Mechanical Energy:</span> At highest extreme, KE = 0, PE = max. At lowest mean position, PE = 0, KE = max! Total (PE + KE) remains 100% constant.
                       </motion.div>
@@ -1754,7 +1754,7 @@ function C8_PhysicsTurningEffectForceSim({
                   <div className="bg-slate-950/60 p-4 rounded-xl border border-slate-800">
                     <label className="text-xs font-semibold text-slate-300 flex justify-between">
                       <span>Release Height (h): {pendulumHeight} m</span>
-                      <span className="text-indigo-400">Mass: {pendulumMass} kg</span>
+                      <span className="text-gold-400">Mass: {pendulumMass} kg</span>
                     </label>
                     <input
                       type="range"
@@ -1767,7 +1767,7 @@ function C8_PhysicsTurningEffectForceSim({
                         setPendulumHeight(parseFloat(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full accent-indigo-500 mt-1"
+                      className="w-full accent-gold-500 mt-1"
                     />
                   </div>
                 </motion.div>
@@ -1821,7 +1821,7 @@ function C8_PhysicsTurningEffectForceSim({
                       </motion.div>
                       <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-2 bg-cyan-950/30 border border-cyan-800/40 rounded-lg text-cyan-300"
+                        className="p-2 bg-gold-950/30 border border-gold-800/40 rounded-lg text-gold-300"
                       >
                         Angle of Refraction: <span className="font-bold">{refractedAngle}°</span> (Bends Towards Normal!)
                       </motion.div>
@@ -1862,7 +1862,7 @@ function C8_PhysicsTurningEffectForceSim({
                           setMediumRefractiveIndex(parseFloat(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full accent-cyan-500 mt-1"
+                        className="w-full accent-gold-500 mt-1"
                       />
                     </div>
                   </div>
@@ -1914,7 +1914,7 @@ function C8_PhysicsTurningEffectForceSim({
                     >
                       <div>
                         <span className="text-slate-400">Image Nature:</span>
-                        <p className="font-bold text-cyan-300">{mirrorImageProps.nature}</p>
+                        <p className="font-bold text-gold-300">{mirrorImageProps.nature}</p>
                       </div>
                       <div>
                         <span className="text-slate-400">Orientation:</span>
@@ -1930,7 +1930,7 @@ function C8_PhysicsTurningEffectForceSim({
                   <div className="bg-slate-950/60 p-4 rounded-xl border border-slate-800">
                     <label className="text-xs font-semibold text-slate-300 flex justify-between">
                       <span>Object Distance u (cm): {objectDistance} cm</span>
-                      <span className="text-indigo-400">Focal Length f: {mirrorFocalLength} cm</span>
+                      <span className="text-gold-400">Focal Length f: {mirrorFocalLength} cm</span>
                     </label>
                     <input
                       type="range"
@@ -1968,7 +1968,7 @@ function C8_PhysicsTurningEffectForceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextSlide}
                     aria-label="Go to next lab"
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                   >
                     Next Lab →
                   </motion.button>
@@ -1993,7 +1993,7 @@ function C8_PhysicsTurningEffectForceSim({
       {phase === 'observe' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-6 space-y-6">
           <div className="flex items-center justify-between text-xs font-bold text-slate-400">
-            <span className="text-cyan-400 uppercase tracking-wider">
+            <span className="text-gold-400 uppercase tracking-wider">
               👀 Step 2: What Did You Notice? ({currentObservation + 1} of {OBSERVATION_QUESTIONS.length})
             </span>
           </div>
@@ -2016,10 +2016,10 @@ function C8_PhysicsTurningEffectForceSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : observationAnswered && i === observationSelected
                       ? 'bg-rose-950/70 border-rose-500 text-rose-200'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-cyan-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -2029,17 +2029,17 @@ function C8_PhysicsTurningEffectForceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-4 bg-cyan-950/50 border border-cyan-800/60 rounded-xl space-y-3"
+                className="p-4 bg-gold-950/50 border border-gold-800/60 rounded-xl space-y-3"
               >
                 <p className="text-xs text-slate-300">
-                  <span className="font-bold text-cyan-400">Scientific Law: </span>
+                  <span className="font-bold text-gold-400">Scientific Law: </span>
                   {OBSERVATION_QUESTIONS[currentObservation].explanation}
                 </p>
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleNextObservation}
-                  className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   {currentObservation + 1 < OBSERVATION_QUESTIONS.length ? 'Next Observation →' : 'Enter Sandbox Free Play →'}
                 </motion.button>
@@ -2094,7 +2094,7 @@ function C8_PhysicsTurningEffectForceSim({
                 aria-label={`Open ${tab.label}`}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
                   sandboxTab === tab.id
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-800/60 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -2213,7 +2213,7 @@ function C8_PhysicsTurningEffectForceSim({
                         value={contactArea}
                         aria-label="Adjust contact base area"
                         onChange={(e) => setContactArea(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -2225,10 +2225,10 @@ function C8_PhysicsTurningEffectForceSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
                     <motion.div
                       whileHover={{ scale: 1.02 }}
-                      className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40"
+                      className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40"
                     >
-                      <span className="text-xs text-indigo-300">Gravitational PE (mgh)</span>
-                      <p className="text-2xl font-black text-indigo-400">{calculatedPE} J</p>
+                      <span className="text-xs text-gold-300">Gravitational PE (mgh)</span>
+                      <p className="text-2xl font-black text-gold-400">{calculatedPE} J</p>
                     </motion.div>
                     <motion.div
                       whileHover={{ scale: 1.02 }}
@@ -2248,7 +2248,7 @@ function C8_PhysicsTurningEffectForceSim({
                       value={pendulumHeight}
                       aria-label="Adjust pendulum height in meters"
                       onChange={(e) => setPendulumHeight(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -2261,7 +2261,7 @@ function C8_PhysicsTurningEffectForceSim({
                     className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center"
                   >
                     <span className="text-xs text-slate-400">Snell's Law: sin(i) / sin(r) = n</span>
-                    <p className="text-xl font-bold text-cyan-300">
+                    <p className="text-xl font-bold text-gold-300">
                       Angle i: {incidentAngle}° → Angle r: {refractedAngle}°
                     </p>
                   </motion.div>
@@ -2289,7 +2289,7 @@ function C8_PhysicsTurningEffectForceSim({
                         value={mediumRefractiveIndex}
                         aria-label="Adjust refractive index of the medium"
                         onChange={(e) => setMediumRefractiveIndex(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -2347,14 +2347,14 @@ function C8_PhysicsTurningEffectForceSim({
             <span>
               Challenge {currentChallenge + 1} of {filteredChallenges.length}
             </span>
-            <span className="text-indigo-400">
+            <span className="text-gold-400">
               Competency: {challenge.competencyLevel.toUpperCase()}
             </span>
           </motion.div>
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2393,10 +2393,10 @@ function C8_PhysicsTurningEffectForceSim({
                       className={`text-left p-3.5 rounded-xl border text-sm font-medium transition-all ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 border-slate-700/80 hover:border-indigo-500 text-slate-200 hover:bg-slate-800'
+                          : 'bg-slate-800/80 border-slate-700/80 hover:border-gold-500 text-slate-200 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">
+                      <span className="font-bold mr-2 text-gold-400">
                         {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                         {String.fromCharCode(65 + i)}.
                       </span>{' '}
@@ -2416,7 +2416,7 @@ function C8_PhysicsTurningEffectForceSim({
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
                   aria-label="Enter numeric answer value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-48"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-48"
                 />
                 <span className="text-slate-300 font-bold text-sm">{challenge.unit}</span>
                 <motion.button
@@ -2425,7 +2425,7 @@ function C8_PhysicsTurningEffectForceSim({
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
                   aria-label="Verify numerical answer"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl font-bold text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl font-bold text-sm shadow-md"
                 >
                   Verify Answer
                 </motion.button>
@@ -2447,7 +2447,7 @@ function C8_PhysicsTurningEffectForceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold cursor-grab text-white shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold cursor-grab text-white shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2486,7 +2486,7 @@ function C8_PhysicsTurningEffectForceSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
                   aria-label="Confirm diagram labels"
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Confirm Diagram Labels
                 </motion.button>
@@ -2511,9 +2511,9 @@ function C8_PhysicsTurningEffectForceSim({
                       handleSortMove(from, pos);
                     }}
                     whileHover={{ scale: 1.01 }}
-                    className="p-3 bg-slate-950 border border-slate-800 hover:border-indigo-500 rounded-xl flex items-center gap-3 cursor-grab text-xs font-medium text-slate-200"
+                    className="p-3 bg-slate-950 border border-slate-800 hover:border-gold-500 rounded-xl flex items-center gap-3 cursor-grab text-xs font-medium text-slate-200"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-900/60 text-indigo-300 flex items-center justify-center font-bold text-xs">
+                    <span className="w-6 h-6 rounded-full bg-gold-900/60 text-gold-300 flex items-center justify-center font-bold text-xs">
                       {pos + 1}
                     </span>
                     <span>{challenge.sortItems![itemIdx]}</span>
@@ -2525,7 +2525,7 @@ function C8_PhysicsTurningEffectForceSim({
                   onClick={() => handleAnswer(sortArrangement)}
                   disabled={showExplanation}
                   aria-label="Verify Sequence Order"
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Verify Sequence Order
                 </motion.button>
@@ -2544,7 +2544,7 @@ function C8_PhysicsTurningEffectForceSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add descriptor part: ${part}`}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-indigo-700 border border-slate-700 rounded-lg text-xs font-bold text-white"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-gold-700 border border-slate-700 rounded-lg text-xs font-bold text-white"
                     >
                       + {part}
                     </motion.button>
@@ -2557,7 +2557,7 @@ function C8_PhysicsTurningEffectForceSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 rounded-lg text-xs font-bold text-indigo-200 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 rounded-lg text-xs font-bold text-gold-200 flex items-center gap-1.5"
                     >
                       {part}
                       <motion.button
@@ -2582,7 +2582,7 @@ function C8_PhysicsTurningEffectForceSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Submit Optical Construction"
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
                 >
                   Submit Optical Construction
                 </motion.button>
@@ -2594,7 +2594,7 @@ function C8_PhysicsTurningEffectForceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 border border-indigo-800/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 border border-gold-800/60 rounded-2xl space-y-3"
               >
                 <span className="text-xs font-bold text-amber-300 uppercase tracking-wider">
                   📖 Step-by-Step Physics Breakdown:
@@ -2610,7 +2610,7 @@ function C8_PhysicsTurningEffectForceSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-sm text-slate-200 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span>
+                      <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2623,7 +2623,7 @@ function C8_PhysicsTurningEffectForceSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
                     aria-label="Reveal Next Step"
-                    className="px-4 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                    className="px-4 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                   >
                     Reveal Next Step →
                   </motion.button>
@@ -2660,7 +2660,7 @@ function C8_PhysicsTurningEffectForceSim({
           <motion.div
             initial={{ y: -10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 border border-indigo-700 rounded-3xl text-center space-y-3 shadow-2xl"
+            className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 border border-gold-700 rounded-3xl text-center space-y-3 shadow-2xl"
           >
             <motion.span
               initial={{ scale: 0 }}
@@ -2691,7 +2691,7 @@ function C8_PhysicsTurningEffectForceSim({
                 className="p-3 bg-slate-900 rounded-xl border border-slate-800"
               >
                 <span className="text-xs text-slate-400">Mastery Level</span>
-                <p className="text-2xl font-black text-indigo-400">{masteryLevel.toUpperCase()}</p>
+                <p className="text-2xl font-black text-gold-400">{masteryLevel.toUpperCase()}</p>
               </motion.div>
             </div>
           </motion.div>
@@ -2704,7 +2704,7 @@ function C8_PhysicsTurningEffectForceSim({
               errors === 0
                 ? 'bg-emerald-950/40 border-emerald-800/60'
                 : errors <= 3
-                ? 'bg-indigo-950/40 border-indigo-800/60'
+                ? 'bg-gold-950/40 border-gold-800/60'
                 : errors <= 7
                 ? 'bg-amber-950/40 border-amber-800/60'
                 : 'bg-rose-950/40 border-rose-800/60'
@@ -2717,7 +2717,7 @@ function C8_PhysicsTurningEffectForceSim({
                   errors === 0
                     ? 'text-emerald-300'
                     : errors <= 3
-                    ? 'text-indigo-300'
+                    ? 'text-gold-300'
                     : errors <= 7
                     ? 'text-amber-300'
                     : 'text-rose-300'
@@ -2759,9 +2759,9 @@ function C8_PhysicsTurningEffectForceSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-5 bg-indigo-950/40 border border-indigo-800/50 rounded-2xl space-y-2"
+            className="p-5 bg-gold-950/40 border border-gold-800/50 rounded-2xl space-y-2"
           >
-            <h3 className="text-sm font-bold text-indigo-300">💭 Metacognitive Reflection:</h3>
+            <h3 className="text-sm font-bold text-gold-300">💭 Metacognitive Reflection:</h3>
             <ul className="text-xs text-slate-300 space-y-1.5 list-disc pl-5 leading-relaxed">
               <li>Why does moving your hand to the end of a spanner double the turning moment without extra effort?</li>
               <li>How does the inverse-square area law explain why an elephant on 4 feet exerts less pressure than a stiletto heel?</li>
@@ -2801,7 +2801,7 @@ function C8_PhysicsTurningEffectForceSim({
                   whileHover={{ scale: 1.01 }}
                   className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300"
                 >
-                  <span className="font-bold text-indigo-400 mr-1.5">Step {idx + 1}:</span> {step}
+                  <span className="font-bold text-gold-400 mr-1.5">Step {idx + 1}:</span> {step}
                 </motion.div>
               ))}
             </div>

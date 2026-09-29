@@ -243,14 +243,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: 'Natural & Man-Made Features 🌳',
     text: 'A locality has natural features like rivers, hills, and trees that exist without humans, and man-made features like roads, buildings, and bridges built by people!',
     emoji: '🏞️',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'A locality has natural features like rivers, hills, and trees, and man-made features like roads and buildings built by people!',
   },
   {
     title: 'Positive & Negative Effects ⚖️',
     text: 'Man-made changes like building roads give better transport and shelter, but clearing forests or filling ponds causes animals to lose homes and makes areas hotter!',
     emoji: '🏗️',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Man-made changes bring both positive effects like better transport and negative effects like loss of trees and animal homes.',
   },
   {
@@ -568,7 +568,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} p-2`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} p-2`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 42)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -804,7 +804,7 @@ export function ChangesTransportGame({ width = 720, height = 560, onComplete }: 
       {/* Top Header Bar */}
       <div className="relative z-10 w-full px-6 py-3 flex items-center justify-between bg-black/40 backdrop-blur-md border-b border-white/10">
         <div className="flex items-center gap-3">
-          <div className="bg-indigo-600 text-white font-extrabold px-3 py-1 rounded-full text-xs shadow">
+          <div className="bg-gold-600 text-white font-extrabold px-3 py-1 rounded-full text-xs shadow">
             Class 4 EVS
           </div>
           <span className="text-white font-bold text-sm tracking-wide">
@@ -814,7 +814,7 @@ export function ChangesTransportGame({ width = 720, height = 560, onComplete }: 
         {screen === 'play' && (
           <div className="flex items-center gap-4">
             <StarRow count={Math.min(3, Math.floor(score / 25) + 1)} total={3} />
-            <div className="text-white font-black text-sm bg-indigo-500/80 px-3 py-1 rounded-full shadow">
+            <div className="text-white font-black text-sm bg-gold-500/80 px-3 py-1 rounded-full shadow">
               Score: {score}
             </div>
           </div>
@@ -860,7 +860,7 @@ export function ChangesTransportGame({ width = 720, height = 560, onComplete }: 
                     setScreen('play');
                   }
                 }}
-                className="px-6 py-2 rounded-xl font-extrabold text-sm bg-white text-indigo-700 shadow-lg hover:bg-indigo-50 transition"
+                className="px-6 py-2 rounded-xl font-extrabold text-sm bg-white text-gold-700 shadow-lg hover:bg-gold-50 transition"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next'}
               </button>
@@ -873,7 +873,7 @@ export function ChangesTransportGame({ width = 720, height = 560, onComplete }: 
               key={challengeIdx}
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="w-full bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-indigo-300 flex flex-col items-center text-center mb-6"
+              className="w-full bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-gold-300 flex flex-col items-center text-center mb-6"
             >
               <h3 className="text-lg sm:text-xl font-black text-gray-900 mb-4">{currentChallenge.question}</h3>
 
@@ -883,7 +883,7 @@ export function ChangesTransportGame({ width = 720, height = 560, onComplete }: 
                   {currentChallenge.options.map(opt => {
                     const isSelected = selectedOpt === opt;
                     const isCorrectAns = opt === currentChallenge.answer;
-                    let btnStyle = 'bg-indigo-50 border-indigo-200 text-indigo-900 hover:bg-indigo-100';
+                    let btnStyle = 'bg-gold-50 border-gold-200 text-gold-900 hover:bg-gold-100';
                     if (selectedOpt) {
                       if (isCorrectAns) btnStyle = 'bg-green-500 border-green-600 text-white font-bold shadow-lg scale-105';
                       else if (isSelected) btnStyle = 'bg-red-500 border-red-600 text-white font-bold';

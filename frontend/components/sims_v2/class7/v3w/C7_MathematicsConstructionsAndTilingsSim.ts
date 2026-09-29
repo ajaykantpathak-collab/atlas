@@ -11,7 +11,7 @@ export const w_c7_mathematicsconstructionsandtilingssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Symmetry in Tilings and Patterns',
     chapters: [],
     nodeIds: ['c7_math_ch14_008', 'c7_math_ch14_006', 'c7_math_ch14_007', 'c7_math_ch14_001', 'c7_math_ch14_002', 'c7_math_ch14_003', 'c7_math_ch14_004', 'c7_math_ch14_005', 'c7_math_ch14_009', 'c7_math_ch14_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine walking into a grand palace in Jaipur and looking at the intricate marble floor tiles or the.', goal: 'Master Symmetry in Tilings and Patterns.' },
     discovery: {
         question: 'What type of symmetry is primarily responsible for extending a tiling infinitely across a plane by sliding a unit shape in a fixed direction without turning it?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsconstructionsandtilingssim: SimDef = {
         hook: 'Students often confuse translational symmetry with rotational symmetry in repetitive wallpaper patterns.',
     },
     teaching: [
-        { title: 'Symmetry in tilings and patterns refers to.', text: 'Symmetry in tilings and patterns refers to the presence of translational, rotational, or reflectional balance when a plane is covered repeatedly with geometric shapes without gaps or overlaps.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Symmetry in tilings and patterns refers to.', text: 'Symmetry in tilings and patterns refers to the presence of translational, rotational, or reflectional balance when a plane is covered repeatedly with geometric shapes without gaps or overlaps.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch14_008', title: 'Symmetry in tilings and patterns refers.',

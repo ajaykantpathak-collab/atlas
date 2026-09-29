@@ -11,7 +11,7 @@ export const w_c10_sciencechemicalreactionsandequationssim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Chemical Reactions: Identifying a Chemical Change (Signs)',
     chapters: [],
     nodeIds: ['c10_chem_cbse_01_001', 'c10_chem_cbse_01_002', 'c10_chem_cbse_01_003', 'c10_chem_cbse_01_004', 'c10_chem_cbse_01_005', 'c10_chem_cbse_01_006', 'c10_chem_cbse_01_007', 'c10_chem_cbse_01_008', 'c10_chem_cbse_01_009', 'c10_bio_cbse_01_002', 'c10_bio_cbse_01_003', 'c10_chem_cbse_02_004', 'c10_chem_cbse_02_005', 'c10_chem_cbse_02_006', 'c10_chem_cbse_02_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: a student notices a white deposit on the bathroom tiles (limescale) that.', goal: 'Master Chemical Reactions: Identifying a Chemical Change (Signs).' },
     discovery: {
         question: 'Why is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(aq) classified as a combination reaction, even though one reactant is a compound and the product is a solution?',
@@ -20,7 +20,7 @@ export const w_c10_sciencechemicalreactionsandequationssim: SimDef = {
         hook: '**Exact error:** Students believe combination reactions ONLY occur between two elements.',
     },
     teaching: [
-        { title: 'A chemical change (chemical reaction) is a.', text: 'A chemical change (chemical reaction) is a process in which one or more substances (reactants) undergo a transformation to form one or more new substances (products) with different chemical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A chemical change (chemical reaction) is a.', text: 'A chemical change (chemical reaction) is a process in which one or more substances (reactants) undergo a transformation to form one or more new substances (products) with different chemical.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_chem_cbse_01_001', title: 'A chemical change (chemical reaction).',

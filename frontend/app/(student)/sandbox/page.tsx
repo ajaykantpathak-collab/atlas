@@ -172,10 +172,10 @@ function SandboxInner() {
 
                 {/* physics — 3D scene labs + solver (physics_families chain) */}
                 <button onClick={() => setLab('physics')}
-                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isPhysics ? 'bg-violet-500/15 border-violet-400/60 shadow-[0_0_20px_rgba(167,139,250,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isPhysics ? 'bg-gold-500/15 border-gold-400/60 shadow-[0_0_20px_rgba(167,139,250,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
                     <span className="text-3xl">⚛️</span>
                     <span className="text-left">
-                        <span className="block text-sm font-black text-violet-200">Physics Sandbox</span>
+                        <span className="block text-sm font-black text-gold-200">Physics Sandbox</span>
                         <span className="block text-[11px] text-slate-400 font-semibold">projectile 3D · incline · circuits · optics bench · waves · gravitation · solve &amp; explain — classes 6 to 12</span>
                     </span>
                 </button>
@@ -222,20 +222,20 @@ function SandboxInner() {
 
                 {/* maths — parameter lab + geometry workbench + solver */}
                 <button onClick={() => setLab('maths')}
-                    className={`w-full rounded-2xl p-3.5 mb-6 flex items-center gap-3 border-2 transition ${isMaths ? 'bg-sky-500/15 border-sky-400/60 shadow-[0_0_20px_rgba(56,189,248,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    className={`w-full rounded-2xl p-3.5 mb-6 flex items-center gap-3 border-2 transition ${isMaths ? 'bg-gold-500/15 border-gold-400/60 shadow-[0_0_20px_rgba(56,189,248,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
                     <span className="text-3xl">🧮</span>
                     <span className="text-left">
-                        <span className="block text-sm font-black text-sky-200">Maths Sandbox</span>
+                        <span className="block text-sm font-black text-gold-200">Maths Sandbox</span>
                         <span className="block text-[11px] text-slate-400 font-semibold">grapher · geometry bench · AP/GP dots · 3D solids · solve &amp; explain — classes 6 to 12 + applied</span>
                     </span>
                 </button>
 
                 {/* code runtime — E8: trace tables + error clinic + flowcharts */}
                 <button onClick={() => setLab('code')}
-                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isCode ? 'bg-indigo-500/15 border-indigo-400/60 shadow-[0_0_20px_rgba(129,140,248,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                    className={`w-full rounded-2xl p-3.5 mb-4 flex items-center gap-3 border-2 transition ${isCode ? 'bg-gold-500/15 border-gold-400/60 shadow-[0_0_20px_rgba(129,140,248,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
                     <span className="text-3xl">💻</span>
                     <span className="text-left">
-                        <span className="block text-sm font-black text-indigo-200">Code Runtime Sandbox</span>
+                        <span className="block text-sm font-black text-gold-200">Code Runtime Sandbox</span>
                         <span className="block text-[11px] text-slate-400 font-semibold">write → run → variable trace table · error clinic · flowchart bench — compapp · CS · AI · robotics</span>
                     </span>
                 </button>
@@ -271,11 +271,11 @@ function SandboxInner() {
                 </button>
 
                 {/* flagship 3D labs */}
-                <p className="text-[10px] font-black text-sky-300 uppercase tracking-widest mb-2">⚗️ flagship 3D labs</p>
+                <p className="text-[10px] font-black text-gold-300 uppercase tracking-widest mb-2">⚗️ flagship 3D labs</p>
                 <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 mb-6">
                     {LABS3D.map(l => (
                         <button key={l.key} onClick={() => setLab(l.key)}
-                            className={`rounded-2xl p-3 flex flex-col items-center gap-1 border-2 transition ${lab === l.key ? 'bg-sky-500/15 border-sky-400/60 shadow-[0_0_20px_rgba(56,189,248,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
+                            className={`rounded-2xl p-3 flex flex-col items-center gap-1 border-2 transition ${lab === l.key ? 'bg-gold-500/15 border-gold-400/60 shadow-[0_0_20px_rgba(56,189,248,0.15)]' : 'bg-slate-800/60 border-slate-700 hover:border-slate-500'}`}>
                             <span className="text-2xl">{l.emoji}</span>
                             <span className="text-[9px] font-black text-slate-300 capitalize leading-tight text-center">{l.title}</span>
                         </button>

@@ -1217,7 +1217,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
   return (
     <div className="w-full max-w-6xl mx-auto p-4 md:p-8 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden font-sans">
       {/* Background Glow */}
-      <div className="absolute -top-32 -right-32 w-96 h-96 bg-indigo-600/15 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -top-32 -right-32 w-96 h-96 bg-gold-600/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header Bar */}
@@ -1229,13 +1229,13 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
         <div className="flex items-center gap-3">
           <motion.div 
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-indigo-400 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-400 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
+              <span className="text-xs font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 ISC Class 12 • {subjectConfig.name}
               </span>
               <span className="text-xs text-slate-400">10 Core Nodes</span>
@@ -1250,7 +1250,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
         <div className="flex items-center gap-3">
           {/* Live requestAnimationFrame Canvas Sync Indicator */}
           <div className="flex items-center gap-2 px-3 py-1 bg-slate-900/80 rounded-xl border border-slate-800">
-            <canvas ref={canvasRef} width={80} height={80} className="w-9 h-9 rounded-full bg-slate-950/80 border border-indigo-900/50" />
+            <canvas ref={canvasRef} width={80} height={80} className="w-9 h-9 rounded-full bg-slate-950/80 border border-gold-900/50" />
             <div className="text-[10px] leading-tight">
               <div className="text-slate-400 font-semibold uppercase tracking-wider">Sync Radar</div>
               <div className={`font-bold ${launchCoordinationScore > 80 ? 'text-emerald-400' : 'text-amber-400'}`}>
@@ -1266,7 +1266,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
             className={`px-3 py-1 rounded-xl text-xs font-black uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700/60' :
               difficulty === 'advanced' ? 'bg-rose-950/60 text-rose-400 border-rose-700/60' :
-              'bg-indigo-950/60 text-indigo-400 border-indigo-700/60'
+              'bg-gold-950/60 text-gold-400 border-gold-700/60'
             }`}
           >
             Tier: {difficulty}
@@ -1284,13 +1284,13 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-1 uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-1 uppercase tracking-wider">
               <span>🎯 Scenario Opening</span>
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 mt-2 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-950/80 rounded-xl border border-indigo-900/40 text-xs text-slate-400">
+            <div className="mt-3 p-3 bg-slate-950/80 rounded-xl border border-gold-900/40 text-xs text-slate-400">
               {SCENARIO.context}
             </div>
           </div>
@@ -1346,7 +1346,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Strategy Labs →
                 </motion.button>
@@ -1372,7 +1372,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white border-indigo-500 shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white border-gold-500 shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-850'
                 }`}
               >
@@ -1390,7 +1390,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-extrabold text-indigo-400 uppercase tracking-widest">
+                <span className="text-xs font-extrabold text-gold-400 uppercase tracking-widest">
                   Exploration Module {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-xl font-black text-white mt-1">
@@ -1426,7 +1426,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                         <div key={dept.key} className="space-y-1">
                           <div className="flex justify-between text-xs">
                             <span className="font-semibold text-slate-300">{dept.label}</span>
-                            <span className="font-bold text-indigo-300">{deptAlignment[dept.key]}%</span>
+                            <span className="font-bold text-gold-300">{deptAlignment[dept.key]}%</span>
                           </div>
                           <input
                             type="range"
@@ -1435,12 +1435,12 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                             value={deptAlignment[dept.key]}
                             aria-label={`Alignment for ${dept.label}`}
                             onChange={e => handleDeptAlignmentChange(dept.key, Number(e.target.value))}
-                            className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                            className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                           />
                         </div>
                       ))}
 
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-200">
                         💡 <strong>Essence of Management:</strong> Coordination permeates every single function from Planning to Controlling, preventing costly departmental silos.
                       </div>
                     </div>
@@ -1456,7 +1456,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
 
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     {[
-                      { id: 'I' as const, label: 'Investment', sub: 'Asset Side • Capital Budgeting', color: 'from-blue-600 to-indigo-600' },
+                      { id: 'I' as const, label: 'Investment', sub: 'Asset Side • Capital Budgeting', color: 'from-gold-600 to-gold-600' },
                       { id: 'F' as const, label: 'Financing', sub: 'Liability Side • Debt vs Equity', color: 'from-purple-600 to-pink-600' },
                       { id: 'D' as const, label: 'Dividend', sub: 'Profit Allocation • Sec 123', color: 'from-amber-600 to-orange-600' },
                       { id: 'L' as const, label: 'Liquidity', sub: 'Cash Solvency • Working Capital', color: 'from-emerald-600 to-teal-600' },
@@ -1468,7 +1468,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                         onClick={() => handleQuadrantSelect(q.id)}
                         className={`p-4 rounded-xl text-left border transition-all ${
                           activeQuadrant === q.id
-                            ? 'bg-slate-800 border-indigo-500 ring-2 ring-indigo-500/30'
+                            ? 'bg-slate-800 border-gold-500 ring-2 ring-gold-500/30'
                             : 'bg-slate-950 border-slate-800 hover:border-slate-700'
                         }`}
                       >
@@ -1486,11 +1486,11 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                     <AnimatePresence mode="wait">
                       {activeQuadrant === 'I' && (
                         <motion.div key="I" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
-                          <h4 className="text-sm font-bold text-blue-400">📈 Investment Decision (Capital Budgeting)</h4>
+                          <h4 className="text-sm font-bold text-gold-400">📈 Investment Decision (Capital Budgeting)</h4>
                           <p className="text-xs text-slate-300 leading-relaxed">
                             <strong>Core Question:</strong> "Where do we deploy scarce funds on the asset side to maximize long-term firm value?"
                           </p>
-                          <div className="p-3 bg-blue-950/40 rounded-lg border border-blue-900/50 text-xs text-blue-200">
+                          <div className="p-3 bg-gold-950/40 rounded-lg border border-gold-900/50 text-xs text-gold-200">
                             🏢 <strong>Indian Example:</strong> Tata Motors investing ₹7,500 Cr into dedicated EV manufacturing at Sanand and battery research platforms.
                           </div>
                         </motion.div>
@@ -1537,8 +1537,8 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               {currentSlide === 2 && (
                 <div className="space-y-5">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 space-y-3">
-                      <div className="text-xs font-bold text-indigo-300 uppercase">🎯 Predict Before Testing</div>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 space-y-3">
+                      <div className="text-xs font-bold text-gold-300 uppercase">🎯 Predict Before Testing</div>
                       <p className="text-xs md:text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1561,7 +1561,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-300 font-semibold">Debt Proportion: {simDebtRatio}% (Equity: {100 - simDebtRatio}%)</span>
-                          <span className="text-indigo-400 font-bold">D/E Ratio: {(simDebtRatio / Math.max(1, 100 - simDebtRatio)).toFixed(2)}:1</span>
+                          <span className="text-gold-400 font-bold">D/E Ratio: {(simDebtRatio / Math.max(1, 100 - simDebtRatio)).toFixed(2)}:1</span>
                         </div>
                         <input
                           type="range"
@@ -1573,7 +1573,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                             setSimDebtRatio(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1631,7 +1631,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                           </div>
                         </div>
 
-                        <div className="mt-3 p-3 bg-slate-950 rounded-xl border border-indigo-900/50">
+                        <div className="mt-3 p-3 bg-slate-950 rounded-xl border border-gold-900/50">
                           <div className="text-xs text-slate-400">Return on Equity (ROE) after 25% Tax:</div>
                           <div className={`text-3xl font-black mt-0.5 ${Number(financialLeverageMetrics.roe) > simAssetRoi ? 'text-emerald-400' : 'text-rose-400'}`}>
                             {financialLeverageMetrics.roe}%
@@ -1663,7 +1663,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-300">Debtor Collection Period: {simDebtorDays} days</span>
-                          <span className="text-indigo-400 font-bold">₹{workingCapitalMetrics.debtors.toFixed(0)} Cr Debtors</span>
+                          <span className="text-gold-400 font-bold">₹{workingCapitalMetrics.debtors.toFixed(0)} Cr Debtors</span>
                         </div>
                         <input
                           type="range"
@@ -1675,14 +1675,14 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                             setSimDebtorDays(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-300">Inventory Holding Period: {simInventoryDays} days</span>
-                          <span className="text-indigo-400 font-bold">₹{workingCapitalMetrics.inventory.toFixed(0)} Cr Stock</span>
+                          <span className="text-gold-400 font-bold">₹{workingCapitalMetrics.inventory.toFixed(0)} Cr Stock</span>
                         </div>
                         <input
                           type="range"
@@ -1716,8 +1716,8 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                             <span className="text-slate-400">Less: Current Liabilities:</span>
                             <span className="font-bold text-rose-400">- ₹{workingCapitalMetrics.currentLiabilities.toFixed(1)} Cr</span>
                           </div>
-                          <div className="flex justify-between p-2.5 bg-indigo-950/60 border border-indigo-700/60 rounded-lg text-sm">
-                            <span className="font-bold text-indigo-300">Net Working Capital Needed:</span>
+                          <div className="flex justify-between p-2.5 bg-gold-950/60 border border-gold-700/60 rounded-lg text-sm">
+                            <span className="font-bold text-gold-300">Net Working Capital Needed:</span>
                             <span className="font-black text-emerald-400">₹{workingCapitalMetrics.netWc.toFixed(1)} Cr</span>
                           </div>
                         </div>
@@ -1753,7 +1753,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                         }}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedSecurity === sec.id
-                            ? 'bg-indigo-900/60 border-indigo-400 text-white'
+                            ? 'bg-gold-900/60 border-gold-400 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1813,8 +1813,8 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       {selectedSecurity === 'equity' && (
                         <motion.div key="eq" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-3">
                           <div className="flex justify-between items-center">
-                            <h4 className="text-sm font-bold text-blue-400">👑 Equity Shares (True Ownership Capital)</h4>
-                            <span className="text-xs px-2.5 py-0.5 rounded bg-blue-950 text-blue-300 border border-blue-800">Residual Claimant</span>
+                            <h4 className="text-sm font-bold text-gold-400">👑 Equity Shares (True Ownership Capital)</h4>
+                            <span className="text-xs px-2.5 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">Residual Claimant</span>
                           </div>
                           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
                             <div className="p-2 bg-slate-900 rounded"><strong>Return:</strong> Fluctuating Dividend (Sec 123)</div>
@@ -1852,7 +1852,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Next Lab →
                   </motion.button>
@@ -1887,7 +1887,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-xl shadow-emerald-600/30 whitespace-nowrap"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-xl shadow-emerald-600/30 whitespace-nowrap"
             >
               Ready for Board Challenges! →
             </motion.button>
@@ -1921,7 +1921,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300">Debt Percentage ({simDebtRatio}%)</span>
-                    <span className="text-indigo-400 font-bold">ROE: {financialLeverageMetrics.roe}%</span>
+                    <span className="text-gold-400 font-bold">ROE: {financialLeverageMetrics.roe}%</span>
                   </div>
                   <input
                     type="range"
@@ -1930,7 +1930,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                     value={simDebtRatio}
                     aria-label="Set sandbox debt percentage"
                     onChange={e => setSimDebtRatio(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1960,7 +1960,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-black px-3 py-1 rounded-xl bg-indigo-950 text-indigo-300 border border-indigo-800">
+              <span className="text-xs font-black px-3 py-1 rounded-xl bg-gold-950 text-gold-300 border border-gold-800">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-400 font-semibold uppercase tracking-wider">
@@ -1971,7 +1971,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
             <div className="w-full md:w-64">
               <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2036,7 +2036,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2057,11 +2057,11 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       className={`p-4 rounded-xl border-2 border-dashed transition-all ${
                         droppedLabels[target.id]
                           ? 'bg-emerald-950/60 border-emerald-500'
-                          : 'bg-slate-950 border-slate-700 hover:border-indigo-400'
+                          : 'bg-slate-950 border-slate-700 hover:border-gold-400'
                       }`}
                     >
                       <div className="text-xs text-slate-400 mb-1">{target.desc}</div>
-                      <div className="font-bold text-sm text-indigo-300 min-h-[24px]">
+                      <div className="font-bold text-sm text-gold-300 min-h-[24px]">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : '📥 Drop matching instrument label here'}
                       </div>
                     </div>
@@ -2072,7 +2072,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify All Mappings →
                 </motion.button>
@@ -2107,7 +2107,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                     const ans = sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i);
                     handleAnswer(ans);
                   }}
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -2125,7 +2125,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                     aria-label="Enter numerical answer"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-bold text-sm w-48 focus:border-indigo-500 focus:outline-none"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-bold text-sm w-48 focus:border-gold-500 focus:outline-none"
                   />
                   <span className="text-slate-400 font-bold text-sm">{challenge.unit}</span>
                   <motion.button
@@ -2133,7 +2133,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Submit Calculation →
                   </motion.button>
@@ -2152,7 +2152,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-700 text-indigo-200 text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-700 text-gold-200 text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2165,7 +2165,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-600 text-white text-xs font-bold rounded-lg flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-600 text-white text-xs font-bold rounded-lg flex items-center gap-1.5"
                     >
                       {part}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))} className="text-rose-300 font-bold ml-1">✕</button>
@@ -2181,7 +2181,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Constructed Blueprint →
                 </motion.button>
@@ -2193,10 +2193,10 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/80 to-slate-950 border border-indigo-700/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/80 to-slate-950 border border-gold-700/60 rounded-2xl space-y-3"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-black text-indigo-300 uppercase tracking-wider">
+                  <span className="text-xs font-black text-gold-300 uppercase tracking-wider">
                     📚 Board Examiner's Analytical Solution:
                   </span>
                   <span className="text-xs text-slate-400">Step {revealedSteps + 1} of {challenge.explanation.split('. ').filter(s => s.trim()).length}</span>
@@ -2208,20 +2208,20 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
                       key={idx}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-xs md:text-sm text-indigo-100 leading-relaxed"
+                      className="text-xs md:text-sm text-gold-100 leading-relaxed"
                     >
                       <strong className="text-amber-400">{idx + 1}.</strong> {sentence}{!sentence.endsWith('.') ? '.' : ''}
                     </motion.p>
                   ))}
                 </div>
 
-                <div className="flex items-center justify-between pt-3 border-t border-indigo-900/50">
+                <div className="flex items-center justify-between pt-3 border-t border-gold-900/50">
                   {revealedSteps < challenge.explanation.split('. ').filter(s => s.trim()).length - 1 ? (
                     <motion.button
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-700 text-white text-xs font-bold rounded-xl"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2259,7 +2259,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
             {/* MANDATORY MOTIVATIONAL FEEDBACK BASED ON ERROR COUNT */}
             <div className={`p-4 rounded-2xl border text-center max-w-lg mx-auto ${
               errors === 0 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300' :
-              errors <= 3 ? 'bg-indigo-950/80 border-indigo-500 text-indigo-300' :
+              errors <= 3 ? 'bg-gold-950/80 border-gold-500 text-gold-300' :
               errors <= 7 ? 'bg-amber-950/80 border-amber-500 text-amber-300' :
               'bg-rose-950/80 border-rose-500 text-rose-300'
             }`}>
@@ -2284,7 +2284,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               </div>
               <div className="px-4 py-2 bg-slate-950 rounded-xl border border-slate-800">
                 <div className="text-[11px] text-slate-400">Mastery Level</div>
-                <div className="text-xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
               <div className="px-4 py-2 bg-slate-950 rounded-xl border border-slate-800">
                 <div className="text-[11px] text-slate-400">Recommended SRS Review</div>
@@ -2303,7 +2303,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               </h3>
               <span className={`px-3 py-1 rounded-full text-xs font-black uppercase ${
                 errors === 0 ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-600' :
-                errors <= 3 ? 'bg-indigo-900/60 text-indigo-300 border border-indigo-600' :
+                errors <= 3 ? 'bg-gold-900/60 text-gold-300 border border-gold-600' :
                 'bg-rose-900/60 text-rose-300 border border-rose-600'
               }`}>
                 {errors === 0 ? 'Review in 7 Days' : errors <= 3 ? 'Review in 3 Days' : 'Review in 1 Day'}
@@ -2319,7 +2319,7 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs">
                 <span className="text-slate-400 block font-semibold">1-3 Errors (Consolidating)</span>
-                <span className="text-indigo-400 font-bold text-sm">Review in 3 days</span>
+                <span className="text-gold-400 font-bold text-sm">Review in 3 days</span>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs">
                 <span className="text-slate-400 block font-semibold">4+ Errors (Reinforcing)</span>
@@ -2350,13 +2350,13 @@ export function C12_BusinessStudiesCoordinationMeaningCoordinationSim({
           )}
 
           {/* Real World Activity Arc */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/50 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-900/50 space-y-4">
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2.5">
-                  <span className="w-5 h-5 rounded bg-indigo-900 text-indigo-300 font-bold flex items-center justify-center shrink-0 text-[10px]">
+                  <span className="w-5 h-5 rounded bg-gold-900 text-gold-300 font-bold flex items-center justify-center shrink-0 text-[10px]">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

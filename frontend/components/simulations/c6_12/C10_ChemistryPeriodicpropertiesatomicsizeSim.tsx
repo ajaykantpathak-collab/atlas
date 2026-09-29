@@ -701,7 +701,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
       <header className="w-full max-w-6xl mb-4 flex flex-col md:flex-row items-center justify-between gap-4 border-b border-slate-800 pb-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="text-xs font-semibold uppercase tracking-wider bg-blue-900/60 text-blue-300 px-2.5 py-1 rounded-full border border-blue-700/50">
+            <span className="text-xs font-semibold uppercase tracking-wider bg-gold-900/60 text-gold-300 px-2.5 py-1 rounded-full border border-gold-700/50">
               ICSE Class 10 Chemistry
             </span>
             <span className="text-xs text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-800">
@@ -721,7 +721,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
               setActiveTab('explore');
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'explore' ? 'bg-blue-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'explore' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             🔬 Explore Lab
@@ -743,7 +743,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
               setActiveTab('slides');
             }}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'slides' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'slides' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             📚 Lessons ({SLIDES.length})
@@ -792,7 +792,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                       setActivePropertyTrend('radius');
                     }}
                     className={`px-2 py-1 rounded text-[11px] font-medium transition ${
-                      activePropertyTrend === 'radius' ? 'bg-blue-600 text-white' : 'text-slate-400 hover:text-white'
+                      activePropertyTrend === 'radius' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
                     }`}
                   >
                     Size (pm)
@@ -837,7 +837,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
               <div className="relative w-full bg-slate-950/60 p-2 rounded-xl border border-slate-800 text-xs">
                 <div className="flex items-center justify-between text-slate-400 font-mono text-[11px] mb-1">
                   <span>← Group 1 (Alkali)</span>
-                  <span className="text-blue-400 font-semibold">Across Period: Size Decreases ↓ | IP & EN Increase ↑</span>
+                  <span className="text-gold-400 font-semibold">Across Period: Size Decreases ↓ | IP & EN Increase ↑</span>
                   <span>Group 18 (Noble) →</span>
                 </div>
                 {/* Visual Periodic Table Grid */}
@@ -914,7 +914,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                               }}
                               transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
                               r="4"
-                              className="fill-cyan-400 stroke-cyan-200 stroke-1 shadow-glow"
+                              className="fill-gold-400 stroke-gold-200 stroke-1 shadow-glow"
                             />
                           );
                         })}
@@ -927,7 +927,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                 <div className="grid grid-cols-4 gap-2 w-full text-center text-xs mt-1 bg-slate-900/80 p-2 rounded-lg border border-slate-800 font-mono">
                   <div className="p-1">
                     <span className="text-[10px] text-slate-400 block">Radius</span>
-                    <span className="text-blue-400 font-bold">{activeElement.radius} pm</span>
+                    <span className="text-gold-400 font-bold">{activeElement.radius} pm</span>
                   </div>
                   <div className="p-1">
                     <span className="text-[10px] text-slate-400 block">Ionisation Pot.</span>
@@ -970,7 +970,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                       selectedCompound === comp.id
                         ? comp.type === 'electrovalent'
                           ? 'bg-amber-600/90 text-white border-amber-400 shadow-md'
-                          : 'bg-cyan-600/90 text-white border-cyan-400 shadow-md'
+                          : 'bg-gold-600/90 text-white border-gold-400 shadow-md'
                         : 'bg-slate-950 text-slate-400 border-slate-800 hover:text-white'
                     }`}
                   >
@@ -987,7 +987,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                     className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${
                       activeCompoundObj.type === 'electrovalent'
                         ? 'bg-amber-950 text-amber-300 border border-amber-800'
-                        : 'bg-cyan-950 text-cyan-300 border border-cyan-800'
+                        : 'bg-gold-950 text-gold-300 border border-gold-800'
                     }`}
                   >
                     {activeCompoundObj.type}
@@ -1101,7 +1101,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                   audioManager.play('tap');
                   setActiveTab('slides');
                 }}
-                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-lg transition"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg transition"
               >
                 Proceed to Visual Lessons →
               </button>
@@ -1115,13 +1115,13 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
             {/* Slide Progress bar */}
             <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
               <div
-                className="bg-indigo-500 h-full transition-all duration-300"
+                className="bg-gold-500 h-full transition-all duration-300"
                 style={{ width: `${((currentSlideIndex + 1) / SLIDES.length) * 100}%` }}
               />
             </div>
 
             <div className="flex items-center justify-between">
-              <span className="text-xs font-mono text-indigo-400 font-semibold">
+              <span className="text-xs font-mono text-gold-400 font-semibold">
                 Lesson {currentSlideIndex + 1} of {SLIDES.length} (Node ID: {SLIDES[currentSlideIndex].nodeId})
               </span>
               <span className="text-xs text-slate-400 font-mono">
@@ -1138,7 +1138,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Visual Diagram Representation */}
                 <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex flex-col items-center justify-center min-h-[180px]">
-                  <div className="text-center font-mono text-xs text-indigo-300 mb-2 font-bold">
+                  <div className="text-center font-mono text-xs text-gold-300 mb-2 font-bold">
                     Key Concept Illustration
                   </div>
                   <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 w-full text-center text-xs text-slate-300 font-mono">
@@ -1184,7 +1184,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
               {currentSlideIndex < SLIDES.length - 1 ? (
                 <button
                   onClick={handleNextSlide}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg transition"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg transition"
                 >
                   Next Lesson →
                 </button>
@@ -1374,7 +1374,7 @@ export default function C10_ChemistryPeriodicpropertiesatomicsizeSim({
                   audioManager.play('tap');
                   setActiveTab('explore');
                 }}
-                className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-xl transition shadow-lg"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl transition shadow-lg"
               >
                 🔬 Return to Lab Sandbox
               </button>

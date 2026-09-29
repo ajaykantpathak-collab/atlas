@@ -11,7 +11,7 @@ export const w_c8_mathematicsquadrilateralssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Quadrilaterals: Definition and Basic Properties',
     chapters: [],
     nodeIds: ['c8_math_ch4_1', 'c8_math_ch4_11', 'c8_math_ch4_12', 'c8_math_ch4_2', 'c8_math_ch4_5', 'c8_math_ch4_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Look at your classroom door — it has four edges and four corners. That\'s a quadrilateral!', goal: 'Master Quadrilaterals: Definition and Basic Properties.' },
     discovery: {
         question: 'Explain why the sum of interior angles of ANY quadrilateral is 360°, using a diagram and the triangle angle sum property.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsquadrilateralssim: SimDef = {
         hook: 'Students often think a quadrilateral must look "regular" like a rectangle or square.',
     },
     teaching: [
-        { title: 'A quadrilateral is a closed plane figure.', text: 'A quadrilateral is a closed plane figure bounded by four line segments (sides) that intersect only at their endpoints (vertices), forming four interior angles and two diagonals.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A quadrilateral is a closed plane figure.', text: 'A quadrilateral is a closed plane figure bounded by four line segments (sides) that intersect only at their endpoints (vertices), forming four interior angles and two diagonals.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch4_1', title: 'A quadrilateral is a closed plane.',

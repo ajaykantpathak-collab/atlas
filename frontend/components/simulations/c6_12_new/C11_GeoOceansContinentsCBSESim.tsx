@@ -802,7 +802,7 @@ const PangaeaDriftSvg: React.FC<{ eraMa: number; showFossils: boolean }> = ({ er
 
   return (
     <div className="relative w-full h-72 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 shadow-2xl flex flex-col items-center justify-center p-2">
-      <div className="absolute top-3 left-4 text-xs font-mono bg-slate-900/80 text-cyan-400 px-3 py-1 rounded-full border border-cyan-500/30">
+      <div className="absolute top-3 left-4 text-xs font-mono bg-slate-900/80 text-gold-400 px-3 py-1 rounded-full border border-gold-500/30">
         GEOLOGICAL EPOCH: <span className="text-amber-400 font-bold">{eraMa} Ma</span> {eraMa === 250 ? '(Pangaea)' : eraMa === 150 ? '(Laurasia & Gondwana)' : eraMa === 65 ? '(Late Cretaceous)' : '(Present Day)'}
       </div>
 
@@ -939,7 +939,7 @@ const OceanFloorSeafloorSpreadingSvg: React.FC<{
   
   return (
     <div className="relative w-full h-80 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 shadow-2xl flex flex-col p-2">
-      <div className="flex justify-between items-center px-4 py-1 text-xs font-mono text-cyan-400 bg-slate-900/80 rounded-t-lg">
+      <div className="flex justify-between items-center px-4 py-1 text-xs font-mono text-gold-400 bg-slate-900/80 rounded-t-lg">
         <span className="flex items-center gap-2"><Radio className="w-4 h-4 text-emerald-400 animate-pulse" /> SONAR & PALEOMAGNETIC TRANSECT SCAN</span>
         <span className="text-amber-400">SPREADING VELOCITY: {spreadingRate * 2} cm/yr (Full Rate)</span>
       </div>
@@ -1046,7 +1046,7 @@ const MantleConvectionSvg: React.FC<{ heatFlux: number; viscosity: number }> = (
 
   return (
     <div className="relative w-full h-80 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 shadow-2xl flex flex-col items-center justify-center p-2">
-      <div className="absolute top-3 left-4 text-xs font-mono text-cyan-400 bg-slate-900/90 px-3 py-1 rounded-full border border-slate-700">
+      <div className="absolute top-3 left-4 text-xs font-mono text-gold-400 bg-slate-900/90 px-3 py-1 rounded-full border border-slate-700">
         ARTHUR HOLMES THERMAL CONVECTION CELL ENGINE (1930s)
       </div>
 
@@ -1102,7 +1102,7 @@ const MantleConvectionSvg: React.FC<{ heatFlux: number; viscosity: number }> = (
 const TectonicBoundariesSvg: React.FC<{ boundaryType: 'divergent' | 'convergent' | 'transform' }> = ({ boundaryType }) => {
   return (
     <div className="relative w-full h-80 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 shadow-2xl flex flex-col p-2">
-      <div className="absolute top-3 left-4 text-xs font-mono text-cyan-400 bg-slate-900/90 px-3 py-1 rounded-full border border-slate-700 uppercase">
+      <div className="absolute top-3 left-4 text-xs font-mono text-gold-400 bg-slate-900/90 px-3 py-1 rounded-full border border-slate-700 uppercase">
         PLATE BOUNDARY GEOMETRY: <span className="text-amber-400 font-bold">{boundaryType}</span>
       </div>
 
@@ -1180,7 +1180,7 @@ const TectonicBoundariesSvg: React.FC<{ boundaryType: 'divergent' | 'convergent'
 const IndianPlateJourneySvg: React.FC<{ stageMa: number }> = ({ stageMa }) => {
   return (
     <div className="relative w-full h-80 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 shadow-2xl flex flex-col p-2">
-      <div className="flex justify-between items-center px-4 py-1 text-xs font-mono text-cyan-400 bg-slate-900/80 rounded-t-lg">
+      <div className="flex justify-between items-center px-4 py-1 text-xs font-mono text-gold-400 bg-slate-900/80 rounded-t-lg">
         <span>INDIAN PLATE NORTHWARD DRIFT PATHWAY</span>
         <span className="text-amber-400 font-bold">TIMEFRAME: {stageMa} Ma</span>
       </div>
@@ -1405,7 +1405,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
   }, [bktStates]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans flex flex-col selection:bg-cyan-500 selection:text-slate-950">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans flex flex-col selection:bg-gold-500 selection:text-slate-950">
       {/* Floating Feedback Components */}
       <Confetti show={showConfetti} />
       <SuccessBanner show={showSuccess} text="Challenge Mastered!" />
@@ -1421,11 +1421,11 @@ export default function C11_GeoOceansContinentsCBSESim() {
       {/* TOP HEADER / NAVIGATION BAR */}
       <header className="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 sticky top-0 z-50 px-4 py-3 flex flex-wrap justify-between items-center shadow-lg">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-gradient-to-tr from-cyan-600 to-blue-600 rounded-xl shadow-md">
+          <div className="p-2 bg-gradient-to-tr from-gold-600 to-gold-600 rounded-xl shadow-md">
             <Globe className="w-6 h-6 text-white animate-spin-slow" />
           </div>
           <div>
-            <h1 className="text-lg font-bold bg-gradient-to-r from-cyan-400 via-sky-200 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-lg font-bold bg-gradient-to-r from-gold-400 via-gold-200 to-gold-300 bg-clip-text text-transparent">
               Distribution of Oceans & Continents
             </h1>
             <p className="text-xs text-slate-400 font-mono">CISCE Class 11 Geography • Advanced Simulation</p>
@@ -1468,7 +1468,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
               }}
               className={`flex items-center gap-2 px-4 py-3 text-sm font-medium border-b-2 transition-all whitespace-nowrap ${
                 isActive
-                  ? 'border-cyan-400 text-cyan-400 bg-cyan-950/20'
+                  ? 'border-gold-400 text-gold-400 bg-gold-950/20'
                   : 'border-transparent text-slate-400 hover:text-slate-200 hover:border-slate-700'
               }`}
             >
@@ -1485,8 +1485,8 @@ export default function C11_GeoOceansContinentsCBSESim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* Scenario Header Card */}
-            <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-indigo-950/60 p-6 rounded-2xl border border-slate-800 shadow-xl">
-              <div className="flex items-center gap-3 text-cyan-400 mb-2">
+            <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-gold-950/60 p-6 rounded-2xl border border-slate-800 shadow-xl">
+              <div className="flex items-center gap-3 text-gold-400 mb-2">
                 <BookOpen className="w-5 h-5" />
                 <span className="text-xs font-mono uppercase tracking-wider">Geophysical Briefing</span>
               </div>
@@ -1517,7 +1517,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                       }}
                       className={`p-4 rounded-xl text-left border text-sm transition-all flex justify-between items-start gap-3 ${
                         discoveryAnswer === null
-                          ? 'bg-slate-800/60 border-slate-700 hover:border-cyan-500/50 hover:bg-slate-800'
+                          ? 'bg-slate-800/60 border-slate-700 hover:border-gold-500/50 hover:bg-slate-800'
                           : isSelected
                           ? isCorrect
                             ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
@@ -1535,8 +1535,8 @@ export default function C11_GeoOceansContinentsCBSESim() {
               </div>
 
               {discoveryAnswer !== null && (
-                <div className="bg-slate-950 p-4 rounded-xl border border-cyan-500/30 text-xs text-cyan-300 flex items-start gap-3 mt-4">
-                  <Info className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
+                <div className="bg-slate-950 p-4 rounded-xl border border-gold-500/30 text-xs text-gold-300 flex items-start gap-3 mt-4">
+                  <Info className="w-5 h-5 text-gold-400 shrink-0 mt-0.5" />
                   <div>
                     <span className="font-bold text-white block mb-1">Scientific Verification:</span>
                     {DISCOVERY_QUESTION.hintAfter}
@@ -1548,7 +1548,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
             {/* PREDICTION QUESTIONS RENDERING */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
               <h3 className="text-md font-bold text-slate-200 uppercase tracking-wider font-mono flex items-center gap-2">
-                <Eye className="w-4 h-4 text-cyan-400" /> Guided Hypotheses & Predictions
+                <Eye className="w-4 h-4 text-gold-400" /> Guided Hypotheses & Predictions
               </h3>
 
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1607,7 +1607,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                   }}
                   className={`p-3 rounded-xl border text-xs text-left font-medium transition-all ${
                     labSubTab === idx
-                      ? 'bg-cyan-950/60 border-cyan-400 text-cyan-200 shadow-md'
+                      ? 'bg-gold-950/60 border-gold-400 text-gold-200 shadow-md'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850'
                   }`}
                 >
@@ -1619,9 +1619,9 @@ export default function C11_GeoOceansContinentsCBSESim() {
 
             {/* Instruction Card */}
             <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-800 flex items-start gap-3 text-xs text-slate-300">
-              <Info className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
+              <Info className="w-5 h-5 text-gold-400 shrink-0 mt-0.5" />
               <div>
-                <span className="font-bold text-cyan-400 block mb-0.5">{EXPLORATION_STEPS[labSubTab].title}</span>
+                <span className="font-bold text-gold-400 block mb-0.5">{EXPLORATION_STEPS[labSubTab].title}</span>
                 {EXPLORATION_STEPS[labSubTab].instruction}
               </div>
             </div>
@@ -1635,7 +1635,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                   <div className="w-full md:w-2/3 space-y-2">
                     <div className="flex justify-between text-xs font-mono">
                       <span className="text-slate-400">Pangaea (250 Ma)</span>
-                      <span className="text-cyan-400 font-bold">{palaeoEraMa} Million Years Ago</span>
+                      <span className="text-gold-400 font-bold">{palaeoEraMa} Million Years Ago</span>
                       <span className="text-slate-400">Present (0 Ma)</span>
                     </div>
                     <input
@@ -1648,7 +1648,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                         setPalaeoEraMa(Number(e.target.value));
                         audioManager.play('swoop');
                       }}
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                   </div>
 
@@ -1693,7 +1693,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between text-xs font-mono">
                       <span className="text-slate-300">Asthenosphere Mantle Viscosity</span>
-                      <span className="text-cyan-400 font-bold">{mantleViscosity * 10}²¹ Pa·s</span>
+                      <span className="text-gold-400 font-bold">{mantleViscosity * 10}²¹ Pa·s</span>
                     </div>
                     <input
                       type="range"
@@ -1701,7 +1701,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                       max="100"
                       value={mantleViscosity}
                       onChange={e => setMantleViscosity(Number(e.target.value))}
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1747,7 +1747,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex items-center justify-center">
                     <button
                       onClick={() => setShowMagnetometer(!showMagnetometer)}
-                      className="w-full h-full py-3 bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-lg text-xs font-semibold text-cyan-300"
+                      className="w-full h-full py-3 bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-lg text-xs font-semibold text-gold-300"
                     >
                       {showMagnetometer ? 'Hide Magnetometer Chart' : 'Show Magnetometer Chart'}
                     </button>
@@ -1801,7 +1801,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                       }}
                       className={`px-4 py-2 rounded-lg text-xs font-mono font-bold border transition-all ${
                         indianStageMa === ma
-                          ? 'bg-cyan-950 border-cyan-400 text-cyan-200'
+                          ? 'bg-gold-950 border-gold-400 text-gold-200'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1876,7 +1876,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                   </span>
                 </div>
 
-                <div className="text-xs font-mono text-cyan-400">
+                <div className="text-xs font-mono text-gold-400">
                   Topic: {NODE_DESCRIPTIONS[currentChallenge.nodeId] || currentChallenge.nodeId}
                 </div>
               </div>
@@ -1892,7 +1892,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                   const isSelected = selectedOption === idx;
                   const isCorrect = option.isCorrect;
 
-                  let btnStyle = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500/50 hover:bg-slate-900';
+                  let btnStyle = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500/50 hover:bg-slate-900';
                   if (showExplanation) {
                     if (isCorrect) {
                       btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-medium';
@@ -1902,7 +1902,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                       btnStyle = 'bg-slate-950 border-slate-850 opacity-40 text-slate-500';
                     }
                   } else if (isSelected) {
-                    btnStyle = 'bg-cyan-950/60 border-cyan-400 text-cyan-200 font-medium';
+                    btnStyle = 'bg-gold-950/60 border-gold-400 text-gold-200 font-medium';
                   }
 
                   return (
@@ -1947,7 +1947,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
                     disabled={selectedOption === null}
                     className={`px-6 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${
                       selectedOption !== null
-                        ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 shadow-lg hover:shadow-cyan-500/20'
+                        ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 shadow-lg hover:shadow-gold-500/20'
                         : 'bg-slate-800 text-slate-500 border border-slate-700 cursor-not-allowed'
                     }`}
                   >
@@ -1967,7 +1967,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
               {/* Explanation Text */}
               {showExplanation && (
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2 mt-4">
-                  <div className="flex items-center gap-2 text-xs font-mono font-bold text-cyan-400">
+                  <div className="flex items-center gap-2 text-xs font-mono font-bold text-gold-400">
                     <Info className="w-4 h-4" /> EXPLANATION & GEOPHYSICAL REASONING:
                   </div>
                   <p className="text-xs text-slate-300 leading-relaxed">
@@ -2016,7 +2016,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
           <div className="space-y-6">
             {/* Real World Task Card */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <div className="flex items-center gap-3 text-cyan-400">
+              <div className="flex items-center gap-3 text-gold-400">
                 <Globe className="w-6 h-6" />
                 <h2 className="text-xl font-bold text-slate-100">{REAL_WORLD_ACTIVITY.title}</h2>
               </div>
@@ -2025,7 +2025,7 @@ export default function C11_GeoOceansContinentsCBSESim() {
               <div className="space-y-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 flex items-center justify-center font-mono font-bold shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 border border-gold-800 flex items-center justify-center font-mono font-bold shrink-0">
                       {sIdx + 1}
                     </span>
                     <span className="mt-0.5 leading-relaxed">{step}</span>

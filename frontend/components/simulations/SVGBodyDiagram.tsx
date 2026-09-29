@@ -234,7 +234,7 @@ export function SVGBodyDiagram({ answer, showCorrect, onSelect }: SVGBodyDiagram
       </svg>
       {/* Selected part label */}
       {selected && !showCorrect && (
-        <div className="text-xs font-bold text-indigo-600 mt-1">
+        <div className="text-xs font-bold text-gold-600 mt-1">
           You selected: {parts.find(p => p.id === selected)?.label}
         </div>
       )}

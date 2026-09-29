@@ -1159,9 +1159,9 @@ function C10_MathematicsGeometricProgressionFirstSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800 mb-6"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300">
+            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 10 Mathematics • Coordinate Geometry & GP Matrix</p>
@@ -1176,7 +1176,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
               whileHover={{ scale: 1.05 }}
               className={`text-xs px-3 py-1 rounded-full capitalize font-semibold transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                   : 'bg-slate-900 text-slate-500 border border-slate-800'
               }`}
             >
@@ -1189,7 +1189,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
       {/* ─── CANVAS TELEMETRY DISPLAY ─── */}
       <div className="mb-6 rounded-2xl overflow-hidden border border-slate-800/80 bg-slate-900/50 p-2 relative">
         <canvas ref={canvasRef} width={800} height={40} className="w-full rounded-xl" />
-        <div className="absolute top-3 left-4 flex items-center gap-2 text-xs text-indigo-400 font-mono">
+        <div className="absolute top-3 left-4 flex items-center gap-2 text-xs text-gold-400 font-mono">
           <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
           <span>ISRO-ANTARIKSH GUIDANCE TELEMETRY: ACTIVE</span>
         </div>
@@ -1198,8 +1198,8 @@ function C10_MathematicsGeometricProgressionFirstSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 shadow-xl">
-            <h2 className="text-xl font-black text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 shadow-xl">
+            <h2 className="text-xl font-black text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1209,7 +1209,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800">
-            <span className="text-xs font-bold tracking-wider text-indigo-400 uppercase">Curiosity Discovery Hook</span>
+            <span className="text-xs font-bold tracking-wider text-gold-400 uppercase">Curiosity Discovery Hook</span>
             <h3 className="text-lg font-bold text-white mt-1 mb-4">{DISCOVERY_QUESTION.question}</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -1230,7 +1230,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   }`}
                 >
                   <div>
-                    <span className="font-mono text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
+                    <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
                   </div>
                   {discoveryAnswered && (
                     <span className="font-bold ml-2">
@@ -1252,7 +1252,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     <span>Launch Guided Exploration</span>
                     <span>→</span>
@@ -1269,7 +1269,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1294,7 +1294,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>First Term (a):</span>
-                        <span className="text-indigo-400 font-mono font-bold">{gpA}</span>
+                        <span className="text-gold-400 font-mono font-bold">{gpA}</span>
                       </label>
                       <input
                         type="range"
@@ -1306,7 +1306,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setGpA(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
@@ -1331,7 +1331,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Number of Terms (n):</span>
-                        <span className="text-sky-400 font-mono font-bold">{gpN}</span>
+                        <span className="text-gold-400 font-mono font-bold">{gpN}</span>
                       </label>
                       <input
                         type="range"
@@ -1343,7 +1343,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setGpN(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-sky-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1381,10 +1381,10 @@ function C10_MathematicsGeometricProgressionFirstSim({
                       })}
                     </svg>
 
-                    <div className="mt-2 flex flex-wrap items-center justify-between p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
+                    <div className="mt-2 flex flex-wrap items-center justify-between p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
                       <div className="text-sm font-mono">
                         <span className="text-slate-400">Sum Equation: </span>
-                        <span className="text-indigo-300 font-bold">
+                        <span className="text-gold-300 font-bold">
                           Sn = {gpA}({gpR}^{gpN} - 1)/({gpR} - 1) =
                         </span>
                         <span className="text-emerald-400 font-extrabold ml-2">{gpSum}</span>
@@ -1396,8 +1396,8 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   </div>
 
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-800">
-                      <p className="text-sm font-bold text-indigo-300 mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-800">
+                      <p className="text-sm font-bold text-gold-300 mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1442,7 +1442,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                             }}
                             className={`px-2 py-1.5 text-xs rounded-lg font-semibold transition-all ${
                               mirrorType === m.id
-                                ? 'bg-indigo-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                             }`}
                           >
@@ -1455,7 +1455,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Coordinate X:</span>
-                        <span className="text-sky-400 font-mono font-bold">{ptX}</span>
+                        <span className="text-gold-400 font-mono font-bold">{ptX}</span>
                       </label>
                       <input
                         type="range"
@@ -1467,11 +1467,11 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setPtX(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-sky-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                       <label className="text-xs text-slate-400 flex justify-between mt-3">
                         <span>Coordinate Y:</span>
-                        <span className="text-indigo-400 font-mono font-bold">{ptY}</span>
+                        <span className="text-gold-400 font-mono font-bold">{ptY}</span>
                       </label>
                       <input
                         type="range"
@@ -1483,7 +1483,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setPtY(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
 
@@ -1509,7 +1509,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                         {isPtInvariant ? (
                           <span className="text-emerald-400 font-bold">✓ INVARIANT (Lies on mirror)</span>
                         ) : (
-                          <span className="text-sky-300">Reflecting across mirror</span>
+                          <span className="text-gold-300">Reflecting across mirror</span>
                         )}
                       </div>
                     </div>
@@ -1564,7 +1564,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Ratio m (Weight toward B):</span>
-                        <span className="text-indigo-400 font-mono font-bold">{ratioM}</span>
+                        <span className="text-gold-400 font-mono font-bold">{ratioM}</span>
                       </label>
                       <input
                         type="range"
@@ -1576,12 +1576,12 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setRatioM(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
 
                       <label className="text-xs text-slate-400 flex justify-between mt-3">
                         <span>Ratio n (Weight toward A):</span>
-                        <span className="text-sky-400 font-mono font-bold">{ratioN}</span>
+                        <span className="text-gold-400 font-mono font-bold">{ratioN}</span>
                       </label>
                       <input
                         type="range"
@@ -1593,7 +1593,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setRatioN(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-sky-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
 
@@ -1657,7 +1657,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                 <div className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800">
-                      <span className="text-xs text-sky-400 font-bold">Vertex A({triA.x}, {triA.y})</span>
+                      <span className="text-xs text-gold-400 font-bold">Vertex A({triA.x}, {triA.y})</span>
                       <input
                         type="range"
                         aria-label="Vertex A X"
@@ -1665,11 +1665,11 @@ function C10_MathematicsGeometricProgressionFirstSim({
                         max={9}
                         value={triA.x}
                         onChange={(e) => setTriA((prev) => ({ ...prev, x: Number(e.target.value) }))}
-                        className="w-full mt-2 accent-sky-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800">
-                      <span className="text-xs text-indigo-400 font-bold">Vertex B({triB.x}, {triB.y})</span>
+                      <span className="text-xs text-gold-400 font-bold">Vertex B({triB.x}, {triB.y})</span>
                       <input
                         type="range"
                         aria-label="Vertex B X"
@@ -1677,7 +1677,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                         max={9}
                         value={triB.x}
                         onChange={(e) => setTriB((prev) => ({ ...prev, x: Number(e.target.value) }))}
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800">
@@ -1758,7 +1758,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <label className="text-xs text-slate-400 flex justify-between">
                         <span>Slope (m = tan θ):</span>
-                        <span className="text-indigo-400 font-mono font-bold">{lineM}</span>
+                        <span className="text-gold-400 font-mono font-bold">{lineM}</span>
                       </label>
                       <input
                         type="range"
@@ -1771,12 +1771,12 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setLineM(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
 
                       <label className="text-xs text-slate-400 flex justify-between mt-3">
                         <span>Y-Intercept (c):</span>
-                        <span className="text-sky-400 font-mono font-bold">{lineC}</span>
+                        <span className="text-gold-400 font-mono font-bold">{lineC}</span>
                       </label>
                       <input
                         type="range"
@@ -1788,13 +1788,13 @@ function C10_MathematicsGeometricProgressionFirstSim({
                           setLineC(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-sky-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col justify-center">
                       <span className="text-xs text-slate-400 uppercase font-bold">Line Equation Model</span>
-                      <div className="text-lg font-mono font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-emerald-300 mt-2">
+                      <div className="text-lg font-mono font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-300 to-emerald-300 mt-2">
                         y = {lineM}x {lineC >= 0 ? `+ ${lineC}` : `- ${Math.abs(lineC)}`}
                       </div>
                       <p className="text-xs text-slate-400 mt-2">
@@ -1856,7 +1856,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1913,14 +1913,14 @@ function C10_MathematicsGeometricProgressionFirstSim({
                 <div className="flex gap-4">
                   <div className="flex-1">
                     <label className="text-xs text-slate-400">First Term a = {gpA}</label>
-                    <input type="range" aria-label="First term slider" min={1} max={8} value={gpA} onChange={(e) => setGpA(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" aria-label="First term slider" min={1} max={8} value={gpA} onChange={(e) => setGpA(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="flex-1">
                     <label className="text-xs text-slate-400">Ratio r = {gpR}</label>
                     <input type="range" aria-label="Ratio r slider" min={1} max={3} step={0.5} value={gpR} onChange={(e) => setGpR(Number(e.target.value))} className="w-full accent-emerald-500" />
                   </div>
                 </div>
-                <div className="p-4 bg-slate-950 rounded-2xl text-center font-mono text-indigo-300">
+                <div className="p-4 bg-slate-950 rounded-2xl text-center font-mono text-gold-300">
                   Calculated GP Sum Sn = {gpSum} (Terms: {gpTerms.join(', ')})
                 </div>
               </div>
@@ -1931,7 +1931,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                 <div className="flex gap-4">
                   <div className="flex-1">
                     <label className="text-xs text-slate-400">X = {ptX}</label>
-                    <input type="range" aria-label="Point X slider" min={-5} max={5} value={ptX} onChange={(e) => setPtX(Number(e.target.value))} className="w-full accent-sky-500" />
+                    <input type="range" aria-label="Point X slider" min={-5} max={5} value={ptX} onChange={(e) => setPtX(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div className="flex-1">
                     <label className="text-xs text-slate-400">Y = {ptY}</label>
@@ -1945,7 +1945,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
             )}
 
             {sandboxTab === 'section' && (
-              <div className="p-4 bg-slate-950 rounded-2xl text-center font-mono text-sky-300">
+              <div className="p-4 bg-slate-950 rounded-2xl text-center font-mono text-gold-300">
                 Segment A(1,2) to B(7,8) divided in {ratioM}:{ratioN} =&gt; P = ({sectionPoint.x}, {sectionPoint.y})
               </div>
             )}
@@ -1969,7 +1969,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-emerald-600 text-white font-black rounded-2xl shadow-xl flex items-center gap-2"
+              className="px-8 py-3 bg-gradient-to-r from-gold-600 to-emerald-600 text-white font-black rounded-2xl shadow-xl flex items-center gap-2"
             >
               <span>Ready for Challenge Mode</span>
               <span>🚀</span>
@@ -1996,7 +1996,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                       : difficulty === 'standard'
-                      ? 'bg-sky-950 text-sky-400 border border-sky-700'
+                      ? 'bg-gold-950 text-gold-400 border border-gold-700'
                       : 'bg-rose-950 text-rose-400 border border-rose-700'
                   }`}
                 >
@@ -2015,7 +2015,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
 
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2051,7 +2051,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                       }`}
                     >
                       <div className="flex items-start gap-3">
-                        <span className="font-mono text-xs px-2 py-1 rounded-lg bg-slate-900 text-indigo-400 border border-slate-700">
+                        <span className="font-mono text-xs px-2 py-1 rounded-lg bg-slate-900 text-gold-400 border border-slate-700">
                           {String.fromCharCode(65 + i)}
                         </span>
                         <span className="flex-1">{opt}</span>
@@ -2075,7 +2075,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
-                    className="flex-1 p-3.5 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="flex-1 p-3.5 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   {challenge.unit && <span className="text-sm text-slate-400 font-mono">{challenge.unit}</span>}
                   <motion.button
@@ -2084,7 +2084,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3.5 bg-indigo-600 text-white font-bold rounded-2xl disabled:opacity-40"
+                    className="px-6 py-3.5 bg-gold-600 text-white font-bold rounded-2xl disabled:opacity-40"
                   >
                     Check
                   </motion.button>
@@ -2104,7 +2104,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
-                      className="px-3.5 py-2 bg-indigo-600/80 hover:bg-indigo-500 text-white font-mono text-xs rounded-xl cursor-grab active:cursor-grabbing border border-indigo-400/30"
+                      className="px-3.5 py-2 bg-gold-600/80 hover:bg-gold-500 text-white font-mono text-xs rounded-xl cursor-grab active:cursor-grabbing border border-gold-400/30"
                     >
                       {item.label}
                     </motion.div>
@@ -2137,7 +2137,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="w-full py-3 bg-indigo-600 text-white font-bold rounded-2xl"
+                  className="w-full py-3 bg-gold-600 text-white font-bold rounded-2xl"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2165,7 +2165,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-4 bg-slate-800 rounded-2xl border border-slate-700 text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 font-bold text-xs flex items-center justify-center">
+                    <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 font-bold text-xs flex items-center justify-center">
                       {i + 1}
                     </span>
                     <span>{item}</span>
@@ -2178,7 +2178,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="w-full py-3 bg-indigo-600 text-white font-bold rounded-2xl"
+                  className="w-full py-3 bg-gold-600 text-white font-bold rounded-2xl"
                 >
                   Check Sequence
                 </motion.button>
@@ -2196,7 +2196,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 font-mono text-xs rounded-xl border border-indigo-700"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 text-gold-200 font-mono text-xs rounded-xl border border-gold-700"
                     >
                       + {part}
                     </motion.button>
@@ -2211,7 +2211,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                       tabIndex={0}
                       aria-label={`Remove part ${part}`}
                       onClick={() => handleConstructRemove(i)}
-                      className="px-3 py-1 bg-indigo-600 text-white font-mono text-sm rounded-xl cursor-pointer hover:bg-rose-600 transition-all flex items-center gap-1"
+                      className="px-3 py-1 bg-gold-600 text-white font-mono text-sm rounded-xl cursor-pointer hover:bg-rose-600 transition-all flex items-center gap-1"
                     >
                       {part} <span className="text-[10px]">✕</span>
                     </span>
@@ -2227,7 +2227,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="w-full py-3 bg-indigo-600 text-white font-bold rounded-2xl"
+                  className="w-full py-3 bg-gold-600 text-white font-bold rounded-2xl"
                 >
                   Validate Assembly
                 </motion.button>
@@ -2239,9 +2239,9 @@ function C10_MathematicsGeometricProgressionFirstSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700 space-y-3"
               >
-                <h4 className="text-sm font-bold text-indigo-300">Detailed Step-by-Step Resolution:</h4>
+                <h4 className="text-sm font-bold text-gold-300">Detailed Step-by-Step Resolution:</h4>
                 {challenge.explanation
                   .split('. ')
                   .filter((s) => s.trim().length > 0)
@@ -2253,7 +2253,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs text-slate-200 leading-relaxed font-sans"
                     >
-                      <span className="font-mono text-indigo-400 font-bold mr-2">[{i + 1}]</span>
+                      <span className="font-mono text-gold-400 font-bold mr-2">[{i + 1}]</span>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2266,7 +2266,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-800 text-white text-xs font-bold rounded-xl"
+                    className="px-4 py-2 bg-gold-800 text-white text-xs font-bold rounded-xl"
                   >
                     Reveal Next Step →
                   </motion.button>
@@ -2295,13 +2295,13 @@ function C10_MathematicsGeometricProgressionFirstSim({
       {/* ─── PHASE 5: COMPLETE & MASTERY REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">ICSE Mathematics Telemetry Certified!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="py-2 px-4 rounded-2xl bg-indigo-900/60 border border-indigo-400 max-w-md mx-auto">
-              <p className="text-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-sky-200 to-amber-300">
+            <div className="py-2 px-4 rounded-2xl bg-gold-900/60 border border-gold-400 max-w-md mx-auto">
+              <p className="text-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-gold-200 to-amber-300">
                 {getMotivationalMessage(errors)}
               </p>
               <p className="text-xs text-slate-300 mt-1">
@@ -2320,7 +2320,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[140px]">
                 <span className="text-xs text-slate-400 block uppercase">BKT Mastery</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2329,16 +2329,16 @@ function C10_MathematicsGeometricProgressionFirstSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-r from-indigo-950/90 via-slate-900 to-indigo-900/50 rounded-3xl border-2 border-indigo-500/80 shadow-xl space-y-3"
+            className="p-6 bg-gradient-to-r from-gold-950/90 via-slate-900 to-gold-900/50 rounded-3xl border-2 border-gold-500/80 shadow-xl space-y-3"
           >
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
-                <span className="text-2xl p-2 bg-indigo-800/60 rounded-xl">📅</span>
+                <span className="text-2xl p-2 bg-gold-800/60 rounded-xl">📅</span>
                 <div>
                   <h3 className="text-base font-black text-white tracking-wide">
                     Spaced Repetition System (SRS) Review Schedule
                   </h3>
-                  <p className="text-xs text-indigo-300">SuperMemo SM-2 Optimal Cognitive Interval</p>
+                  <p className="text-xs text-gold-300">SuperMemo SM-2 Optimal Cognitive Interval</p>
                 </div>
               </div>
 
@@ -2349,7 +2349,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                     errors === 0
                       ? 'bg-emerald-500 text-slate-950 shadow-emerald-500/30'
                       : errors <= 3
-                      ? 'bg-sky-400 text-slate-950 shadow-sky-400/30'
+                      ? 'bg-gold-400 text-slate-950 shadow-gold-400/30'
                       : 'bg-amber-400 text-slate-950 shadow-amber-400/30'
                   }`}
                 >
@@ -2366,7 +2366,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
                   ? '👍 Great performance! Strengthening weak nodes in 3 days guarantees long-term retention.'
                   : '💪 Active review recommended! Practicing the reflection & GP formulas in 1 day will solidify understanding.'}
               </span>
-              <span className="text-indigo-400 font-mono font-bold whitespace-nowrap">
+              <span className="text-gold-400 font-mono font-bold whitespace-nowrap">
                 Next Review: {errors === 0 ? 'Day +7' : errors <= 3 ? 'Day +3' : 'Day +1'}
               </span>
             </div>
@@ -2390,12 +2390,12 @@ function C10_MathematicsGeometricProgressionFirstSim({
           )}
 
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">🛰️ {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">🛰️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}
@@ -2408,7 +2408,7 @@ function C10_MathematicsGeometricProgressionFirstSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleReset}
-              className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl shadow-xl shadow-indigo-600/30"
+              className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl shadow-xl shadow-gold-600/30"
             >
               Restart Simulation Session ↺
             </motion.button>

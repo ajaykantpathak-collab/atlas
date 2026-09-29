@@ -131,10 +131,10 @@ export function C11_BiologyLocomotionAndMovementSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Biceps insertion from elbow</span><span className="font-mono font-bold text-sky-400">{insertCm} cm</span>
+                <span>Biceps insertion from elbow</span><span className="font-mono font-bold text-gold-400">{insertCm} cm</span>
               </div>
               <input type="range" min={2} max={10} step={1} value={insertCm} aria-label="Insertion distance"
-                onChange={(e) => setInsertCm(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setInsertCm(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div className="text-xs font-mono text-slate-300 space-y-1 pt-1">
               <div>Mechanical advantage = {effortArm}/{handCm} = <b className="text-amber-300">{MA.toFixed(2)}</b> (always &lt; 1)</div>

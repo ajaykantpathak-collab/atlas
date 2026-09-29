@@ -11,11 +11,11 @@ export const w_c7_mathematicsnumberplaysim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Parity Arguments in Problem Solving',
     chapters: [],
     nodeIds: ['c7_math_ch06_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are playing a game with 15 coins placed on a table, all showing heads up.', goal: 'Master Parity Arguments in Problem Solving.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'A parity argument is a problem-solving.', text: 'A parity argument is a problem-solving strategy that uses the properties of even and odd numbers to prove whether certain configurations, games, or tasks are possible or impossible.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A parity argument is a problem-solving.', text: 'A parity argument is a problem-solving strategy that uses the properties of even and odd numbers to prove whether certain configurations, games, or tasks are possible or impossible.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch06_007', title: 'A parity argument is a problem-solving.',

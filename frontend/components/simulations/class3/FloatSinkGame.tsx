@@ -52,28 +52,28 @@ const TEACHING_SLIDES = [
     title: 'Float or Sink? 🌊',
     text: 'When we place an object in water, it either FLOATS on top or SINKS to the bottom! A leaf floats like a boat, but a stone sinks like an anchor!',
     emoji: '🪵',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'When we place an object in water, it either floats on top or sinks to the bottom! A leaf floats like a boat, but a stone sinks like an anchor!',
   },
   {
     title: 'Why Do Things Float? 🍃',
     text: 'Objects like wooden blocks, corks, and plastic balls float because they are light for their size or trap air inside them!',
     emoji: '🎈',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Objects like wooden blocks, corks, and plastic balls float because they are light for their size or trap air inside them!',
   },
   {
     title: 'Why Do Things Sink? 🪨',
     text: 'Objects like stones, metal coins, and iron keys sink because they are heavy and solid, packed with material with no air inside!',
     emoji: '🪙',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'Objects like stones, metal coins, and iron keys sink because they are heavy and solid, packed with material with no air inside!',
   },
   {
     title: 'The Great Iron Ship! 🚢',
     text: 'A tiny iron nail sinks at once! Yet a huge iron ship floats across the ocean! Why? Because the ship is hollow and full of air inside, making it light for its size!',
     emoji: '��',
-    bgColor: 'from-indigo-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'A tiny iron nail sinks at once! Yet a huge iron ship floats across the ocean! Why? Because the ship is hollow and full of air inside, making it light for its size!',
   },
   {
@@ -230,7 +230,7 @@ function SailorSandeep({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thin
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-400"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-400"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -788,8 +788,8 @@ export function FloatSinkGame({ width = 720, height = 560, onComplete }: FloatSi
       <SailorSandeep mood={mascotMood} speaking={mascotSpeech} />
 
       {/* Header bar */}
-      <div className="absolute top-4 left-4 z-20 flex items-center gap-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-lg border-2 border-cyan-200">
-        <span className="text-sm font-black text-cyan-800">🌊 Float & Sink</span>
+      <div className="absolute top-4 left-4 z-20 flex items-center gap-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-lg border-2 border-gold-200">
+        <span className="text-sm font-black text-gold-800">🌊 Float & Sink</span>
         <StarRow count={stars} total={CHALLENGES.length} />
       </div>
 
@@ -847,8 +847,8 @@ export function FloatSinkGame({ width = 720, height = 560, onComplete }: FloatSi
       {screen === 'play' && (
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-between p-6 pt-20">
           {/* Challenge Card Header */}
-          <div className="w-full max-w-2xl bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-cyan-300 flex flex-col items-center text-center">
-            <span className="text-xs font-black uppercase tracking-wider text-cyan-600 mb-1">
+          <div className="w-full max-w-2xl bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-300 flex flex-col items-center text-center">
+            <span className="text-xs font-black uppercase tracking-wider text-gold-600 mb-1">
               Challenge {challengeIdx + 1} of {CHALLENGES.length}
             </span>
             <h3 className="text-lg font-black text-gray-800">{currentChallenge.question}</h3>
@@ -863,10 +863,10 @@ export function FloatSinkGame({ width = 720, height = 560, onComplete }: FloatSi
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleOptionSelect(option)}
-                  className="w-full py-4 px-6 rounded-2xl bg-white/90 hover:bg-cyan-50 font-bold text-gray-800 text-base shadow-lg border-2 border-cyan-200 transition text-left flex items-center justify-between"
+                  className="w-full py-4 px-6 rounded-2xl bg-white/90 hover:bg-gold-50 font-bold text-gray-800 text-base shadow-lg border-2 border-gold-200 transition text-left flex items-center justify-between"
                 >
                   <span>{option}</span>
-                  <div className="w-6 h-6 rounded-full border-2 border-cyan-400 flex items-center justify-center text-cyan-600 font-bold text-xs">
+                  <div className="w-6 h-6 rounded-full border-2 border-gold-400 flex items-center justify-center text-gold-600 font-bold text-xs">
                     {['A', 'B', 'C'][idx]}
                   </div>
                 </motion.button>
@@ -919,8 +919,8 @@ export function FloatSinkGame({ width = 720, height = 560, onComplete }: FloatSi
           )}
 
           {/* Score tracker footer */}
-          <div className="w-full max-w-2xl flex justify-between items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-2xl shadow border border-cyan-200">
-            <span className="text-sm font-bold text-gray-700">Score: <strong className="text-cyan-700">{score}</strong></span>
+          <div className="w-full max-w-2xl flex justify-between items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-2xl shadow border border-gold-200">
+            <span className="text-sm font-bold text-gray-700">Score: <strong className="text-gold-700">{score}</strong></span>
             <button
               onClick={() => {
                 audioManager.play('hint');

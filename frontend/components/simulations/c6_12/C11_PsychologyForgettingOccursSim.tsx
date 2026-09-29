@@ -198,8 +198,8 @@ function DualCodingArchitectureSVG({ dualCodingActive }: { dualCodingActive: boo
   return (
     <div className="w-full bg-slate-950/90 p-3 rounded-2xl border border-slate-800 shadow-inner">
       <div className="flex items-center justify-between mb-2 text-xs">
-        <span className="font-bold text-indigo-300 flex items-center gap-1.5">
-          <svg className="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <span className="font-bold text-gold-300 flex items-center gap-1.5">
+          <svg className="w-4 h-4 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
           </svg>
           Representation B: Paivio Dual Coding Cognitive Architecture
@@ -1519,7 +1519,7 @@ export function C11_PsychologyForgettingOccursSim({
       {/* ─── HEADER SECTION ─── */}
       <motion.header initial={{ opacity: 0, y: -15 }} animate={{ opacity: 1, y: 0 }} className="mb-6 flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4">
         <div className="flex items-center gap-3">
-          <motion.div whileHover={{ rotate: 15, scale: 1.1 }} className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-2xl shadow-lg shadow-purple-900/40">
+          <motion.div whileHover={{ rotate: 15, scale: 1.1 }} className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-600 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-purple-900/40">
             {subjectConfig.emoji}
           </motion.div>
           <div>
@@ -1531,7 +1531,7 @@ export function C11_PsychologyForgettingOccursSim({
           <span className="text-slate-400">Phase:</span>
           <span className="font-bold uppercase text-purple-300">{phase}</span>
           <span className="text-slate-600">|</span>
-          <motion.span key={difficulty} initial={{ scale: 0.8 }} animate={{ scale: 1 }} className={`font-bold px-2 py-0.5 rounded-md ${difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' : difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-800' : 'bg-indigo-950 text-indigo-400 border border-indigo-800'}`}>
+          <motion.span key={difficulty} initial={{ scale: 0.8 }} animate={{ scale: 1 }} className={`font-bold px-2 py-0.5 rounded-md ${difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' : difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-800' : 'bg-gold-950 text-gold-400 border border-gold-800'}`}>
             {difficulty.toUpperCase()}
           </motion.span>
         </div>
@@ -1576,7 +1576,7 @@ export function C11_PsychologyForgettingOccursSim({
             {discoveryAnswered && (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 rounded-xl bg-purple-950/40 border border-purple-800/60 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className="text-xs sm:text-sm text-purple-200">{discoveryCorrect ? '🎯 Spot on! New learning can disrupt older memories via retroactive interference.' : DISCOVERY_QUESTION.hintAfter}</p>
-                <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleAdvanceToExploration} className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-purple-900/50 whitespace-nowrap">
+                <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleAdvanceToExploration} className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-purple-900/50 whitespace-nowrap">
                   Explore The Cognitive Architecture →
                 </motion.button>
               </motion.div>
@@ -1617,7 +1617,7 @@ export function C11_PsychologyForgettingOccursSim({
               </button>
               <button
                 onClick={() => setRepresentationMode('architecture')}
-                className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${representationMode === 'architecture' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
+                className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${representationMode === 'architecture' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'}`}
               >
                 2. Dual-Coding Schema
               </button>
@@ -1789,7 +1789,7 @@ export function C11_PsychologyForgettingOccursSim({
                     <input type="range" min={10} max={90} value={utilityProbability} onChange={(e) => setUtilityProbability(Number(e.target.value))} className="w-full accent-emerald-500" />
 
                     <label className="text-xs font-semibold text-slate-300">Gain Utility (u1): +{utilityGain} pts</label>
-                    <input type="range" min={10} max={100} value={utilityGain} onChange={(e) => setUtilityGain(Number(e.target.value))} className="w-full accent-indigo-500" />
+                    <input type="range" min={10} max={100} value={utilityGain} onChange={(e) => setUtilityGain(Number(e.target.value))} className="w-full accent-gold-500" />
 
                     <label className="text-xs font-semibold text-slate-300">Loss Penalty (u2): -{utilityLoss} pts</label>
                     <input type="range" min={0} max={100} value={utilityLoss} onChange={(e) => setUtilityLoss(Number(e.target.value))} className="w-full accent-rose-500" />
@@ -1804,7 +1804,7 @@ export function C11_PsychologyForgettingOccursSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <span className="text-xs text-slate-400 uppercase font-semibold">Means-End Analysis (Newell & Simon)</span>
-                    <p className="text-xs text-indigo-300 font-medium">Goal: Score 95% in ISC Psychology</p>
+                    <p className="text-xs text-gold-300 font-medium">Goal: Score 95% in ISC Psychology</p>
                     <div className="space-y-1 text-[11px] text-slate-300">
                       {meansEndSubgoals.map((sub, i) => (
                         <div key={i} className="bg-slate-900 p-1.5 rounded border border-slate-800">
@@ -1854,7 +1854,7 @@ export function C11_PsychologyForgettingOccursSim({
                     ))}
                   </div>
                   <div className="mt-4 flex gap-2">
-                    <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => setDivergentItemCount((p) => Math.min(p + 1, 4))} className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-semibold">
+                    <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => setDivergentItemCount((p) => Math.min(p + 1, 4))} className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs font-semibold">
                       + Generate Divergent Association
                     </motion.button>
                   </div>
@@ -1892,7 +1892,7 @@ export function C11_PsychologyForgettingOccursSim({
               </h2>
               <p className="text-xs text-slate-400 mt-1">Manipulate cognitive parameters freely. Test any hypothesis without grading pressure.</p>
             </div>
-            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleAdvanceToChallenge} className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-purple-900/50">
+            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={handleAdvanceToChallenge} className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-purple-900/50">
               Ready for Board Challenges! →
             </motion.button>
           </div>
@@ -1924,7 +1924,7 @@ export function C11_PsychologyForgettingOccursSim({
 
             {/* Interference Sandbox Controls */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Memory Dynamics</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Memory Dynamics</span>
               <div className="space-y-3">
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Time Disuse: {timeDaysElapsed} Days</span>
@@ -1981,7 +1981,7 @@ export function C11_PsychologyForgettingOccursSim({
 
           {/* PROGRESS BAR */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
-            <motion.div className="h-full bg-gradient-to-r from-purple-500 to-indigo-500" animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }} />
+            <motion.div className="h-full bg-gradient-to-r from-purple-500 to-gold-500" animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }} />
           </div>
 
           {/* MAIN CHALLENGE CARD CONTAINER */}

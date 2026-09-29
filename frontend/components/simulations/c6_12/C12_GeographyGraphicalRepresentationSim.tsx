@@ -128,7 +128,7 @@ export function C12_GeographyGraphicalRepresentationSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Share of total</p>
-              <p className="font-mono font-bold text-sky-300">{share}%</p>
+              <p className="font-mono font-bold text-gold-300">{share}%</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Rise Feb to Apr</p>

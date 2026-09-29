@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C12_HS_GEN: SimDef[] = [
  {
   "id": "gen_c12_hs_ch01",
-  "title": "Work",
+  "title": "Work Is Any Purposeful Human Activity — Paid",
   "subtitle": "Home Science · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "home science",
-  "topic": "Work",
+  "topic": "Work Is Any Purposeful Human Activity — Paid Or Unpa",
   "chapters": [
-   "Home Science Ch1: Work"
+   "Home Science Ch1: Work Is Any Purposeful Human Activity — Paid Or Unpa"
   ],
   "nodeIds": [
    "c12_hs_cbse_01_001",
@@ -39,7 +39,7 @@ export const C12_HS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Work suddenly stops working?",
+   "question": "What happens if Work Is Any Purposeful Human suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -50,31 +50,31 @@ export const C12_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Work",
+    "title": "Work Is Any Purposeful Human Activity —",
     "text": "Work is any purposeful human activity — paid or unpaid, formal or informal — that creates value for self, family, organisation, or society by applying physical, mental, or creative effort, and through which individuals develop identity, dignity, and a sense",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Work Can Be Classified Into",
+    "title": "Work Can Be Classified Into Four",
     "text": "Work can be classified into four interrelated categories based on remuneration and regulatory status: Paid work involves a contractual exchange of labour for monetary compensation (wages/salary); Unpaid work consists of productive activities (e.",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Livelihood",
+    "title": "Livelihood Refers To The Capabilities",
     "text": "Livelihood refers to the capabilities, assets (including both material and social resources), and activities required for a means of living that enables individuals or households to meet their basic needs, sustain their lifestyle, and cope with shocks and",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Career",
+    "title": "Career Is a Dynamic",
     "text": "Career is a dynamic, lifelong sequence of progressive professional roles and achievements driven by an individual's deep desire to excel, grow, and actualize their potential within a chosen field, distinct from a job (work performed primarily for income) or",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Aptitude",
+    "title": "Aptitude Refers To An Individual's Innate",
     "text": "Aptitude refers to an individual's innate or acquired potential to acquire specific skills and perform certain tasks effectively; interest denotes a sustained curiosity, enjoyment, and motivation toward particular activities or subjects; personality",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -104,7 +104,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Entrepreneurship",
+    "title": "Entrepreneurship Is The Process Of Creating",
     "text": "Entrepreneurship is the process of creating, launching, and managing a new and innovative enterprise, product, or service by assembling resources and taking calculated risks to generate value, which may be economic (profit) or social (community impact).",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -132,7 +132,7 @@ export const C12_HS_GEN: SimDef[] = [
      "The statement is incorrect. NCERT defines meaningful work as \"useful to society... enjoyable to the worker",
      "C. The work provides high financial compensation. Meaningful work is defined by its social utility, responsible execution, enjoyability, and opportunity for skill/creativity use"
     ],
-    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "hint": "Straight from the 'Work is any purposeful human' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: C. The work provides high financial compensation. Meaningful work is defined by its social utility, responsible",
     "id": "gen_c12_hs_ch01_q1",
     "nodeId": "c12_hs_cbse_01_001",
@@ -149,11 +149,11 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "State the defining feature that distinguishes formal work from informal work in the Indian context. Answer in one sentence.",
     "answer": "Formal work is characterised by a legally recognised employer-employee relationship that entitles the worker to statutory social security benefits (provident fund, ESI, gratuity)",
     "options": [
-     "Aptitude is a measurable potential for skill acquisition (e.g., mechanical reasoning, verbal ability) assessed via standardised tests; it is relatively stable after adolescence",
-     "Exploration → Establishment → Maintenance → Disengagement",
+     "Dignity of labour means taking pride in whatever work one does, regardless of its nature or status",
+     "Misconception: \"Entrepreneurship is only about starting a business to make money; social work/NGOs are separate",
      "Formal work is characterised by a legally recognised employer-employee relationship that entitles the worker to statutory social security benefits (provident fund, ESI, gratuity)"
     ],
-    "hint": "Straight from the 'Work can be classified into' slide -- match the key terms.",
+    "hint": "Straight from the 'Work can be classified into four' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Formal work pays more\" or \"Informal work is illegal\") reveals the misconception that the distinction is about income level or legality rather than institutional registration and legal protection.",
     "id": "gen_c12_hs_ch01_q2",
     "nodeId": "c12_hs_cbse_01_002",
@@ -166,16 +166,58 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define livelihood in one sentence and state how it differs from a 'job'.",
-    "answer": "Livelihood is the overall means by which a person or household secures the necessities of life, including capabilities, assets, and activities",
-    "options": [
-     "Dignity of labour means taking pride in whatever work one does, regardless of its nature or status",
-     "Formal work is characterised by a legally recognised employer-employee relationship that entitles the worker to statutory social security benefits (provident fund, ESI, gratuity)",
-     "Livelihood is the overall means by which a person or household secures the necessities of life, including capabilities, assets, and activities"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe how vulnerability context",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "list and explain the five capital assets",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "define livelihood in their own words",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "apply the framework to a real-life",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Livelihood' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates livelihood with job or salary reveals the misconception that livelihood is only about cash income, ignoring unpaid work, asset base, and resilience to shocks.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) define livelihood in their own words distinguishing it from job and career, (2) list",
     "id": "gen_c12_hs_ch01_q3",
     "nodeId": "c12_hs_cbse_01_003",
     "difficulty": "standard",
@@ -195,7 +237,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Strong critique: The statement confuses technical implementation with domain authority. In 'Digital Therapeutics Content Designer' (e",
      "No. The textbook states: \"A career is more than just a job. One may distinguish between a job and a career by saying 'job is an involvement in work for the sake of it' whereas 'a"
     ],
-    "hint": "Straight from the 'Career' slide -- match the key terms.",
+    "hint": "Straight from the 'Career is a dynamic' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates income-earning with career-building, missing the core motivational and developmental distinction.",
     "id": "gen_c12_hs_ch01_q4",
     "nodeId": "c12_hs_cbse_01_004",
@@ -327,8 +369,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define SWOT Analysis in the context of career planning and name its four components.",
     "answer": "SWOT Analysis is a self-assessment tool where an individual evaluates internal Strengths and Weaknesses and external Opportunities and Threats to make informed career choices",
     "options": [
-     "Sex refers to biological characteristics (chromosomes, reproductive anatomy) categorising people as male/female/intersex",
-     "The five sub-fields are: (1) Food & Nutrition, (2) Human Development, (3) Fabric & Apparel Science, (4) Resource Management, and (5) Communication & Extension",
+     "Misconception: \"Career stages are rigid age boxes — if you're 30, you *must* be in Establishment; if 60, you *must* disengage",
+     "Students treat SWOT as a one-time “list-making” exercise rather than a dynamic decision tool",
      "SWOT Analysis is a self-assessment tool where an individual evaluates internal Strengths and Weaknesses and external Opportunities and Threats to make informed career choices"
     ],
     "hint": "Straight from the 'SWOT Analysis for career planning' slide -- match the key terms.",
@@ -638,6 +680,52 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how the stages connect",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "describe the key developmental tasks",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "name the four career stages in correct",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) name the four career stages in correct sequence with approximate age ranges, (2)",
+    "id": "gen_c12_hs_ch01_q13",
+    "nodeId": "c12_hs_cbse_01_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the statement: \"The Lijjat Papad model proves that women's economic empowerment is best achieved through cooperative entrepreneurship rather than formal sector employment.\" Consider scalability, social protection, and transformative potential.",
     "sortItems": [
      {
@@ -678,7 +766,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Lijjat's strengths: 45,000 women, dignified income, collective ownership, flexible hours accommodating care work.",
-    "id": "gen_c12_hs_ch01_q13",
+    "id": "gen_c12_hs_ch01_q14",
     "nodeId": "c12_hs_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -735,7 +823,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that skips the traditional craft link or ignores policy/market channels shows inability to synthesize chapter concepts (traditional occupations + entrepreneurship + government initiatives).",
-    "id": "gen_c12_hs_ch01_q14",
+    "id": "gen_c12_hs_ch01_q15",
     "nodeId": "c12_hs_cbse_01_009",
     "difficulty": "advanced"
    },
@@ -792,7 +880,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who says social entrepreneurship lacks innovation because the product is traditional misses that the innovation often lies in the business model and delivery.",
-    "id": "gen_c12_hs_ch01_q15",
+    "id": "gen_c12_hs_ch01_q16",
     "nodeId": "c12_hs_cbse_01_010",
     "difficulty": "standard"
    },
@@ -849,7 +937,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: (1) Verdict — false according to the textbook, which treats the characteristics as competencies that can be acquired",
-    "id": "gen_c12_hs_ch01_q16",
+    "id": "gen_c12_hs_ch01_q17",
     "nodeId": "c12_hs_cbse_01_010",
     "difficulty": "standard"
    },
@@ -917,86 +1005,18 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer names a vague target group, copies an existing daycare, or reports only profit metrics.",
-    "id": "gen_c12_hs_ch01_q17",
-    "nodeId": "c12_hs_cbse_01_010",
-    "difficulty": "standard"
-   },
-   {
-    "type": "order",
-    "question": "Design a 5-point 'Ethical Workplace Charter' for a small home-based catering business employing 3 women from a low-income neighbourhood. Base each point on one of the six core values from the textbook, and explain how it protects both the employer's and employees' dignity.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Dignity and worth of persons",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Social justice",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s2",
-      "label": "Integrity",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "Human relationships",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s4",
-      "label": "Service",
-      "emoji": "📌",
-      "correctBin": "o2"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer (e.g., generic rules like \"be on time\") shows the student cannot translate abstract values into contextualised ethical practices — a key board exam skill.",
     "id": "gen_c12_hs_ch01_q18",
-    "nodeId": "c12_hs_cbse_01_011",
+    "nodeId": "c12_hs_cbse_01_010",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about work?",
+    "What surprised you about work is any purposeful human activity — paid or unpa?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Work mastered! 🎯",
+  "successLine": "Work Is Any Purposeful Human mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1053,7 +1073,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Lipids",
+    "title": "Lipids Are a Heterogeneous Group",
     "text": "Lipids are a heterogeneous group of organic compounds insoluble in water but soluble in non-polar solvents, primarily composed of carbon, hydrogen, and oxygen, classified into simple lipids (triglycerides, waxes), compound lipids (phospholipids, glycolipids),",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1077,7 +1097,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Water",
+    "title": "Water Is An Essential Nutrient Constituting",
     "text": "Water is an essential nutrient constituting 60-70% of body weight, serving as the universal solvent for metabolic reactions, transport medium for nutrients and wastes, thermoregulator via sweat evaporation, and structural component of cells; dietary fibre is",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1133,7 +1153,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
      "*Dal-chawal* daily: primarily physiological (energy, protein) with secondary psychological (comfort of routine)"
     ],
-    "hint": "Straight from the 'Food functions refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Food functions refer to the three' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"both are physiological because both give energy\" fails to analyse context — a critical error in case-based board questions where the *occasion* determines the dominant function.",
     "id": "gen_c12_hs_ch02_q2",
     "nodeId": "c12_hs_cbse_02_002",
@@ -1280,7 +1300,7 @@ export const C12_HS_GEN: SimDef[] = [
      "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L"
     ],
-    "hint": "Straight from the 'Water' slide -- match the key terms.",
+    "hint": "Straight from the 'Water is an essential nutrient' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.",
     "id": "gen_c12_hs_ch02_q7",
     "nodeId": "c12_hs_cbse_02_009",
@@ -1404,7 +1424,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Difference 1: Additives use NOAEL from chronic animal studies (lifetime exposure) with 100× safety factor (10× interspecies × 10× intraspecies)",
      "Similarities: (1) Both use food to build/maintain social bonds — langar fosters equality and community; business lunch builds professional rapport"
     ],
-    "hint": "Straight from the 'Food functions refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Food functions refer to the three' slide -- match the key terms.",
     "misconception": "A weak answer listing only \"both involve eating together\" misses the sociological depth required for 4-mark \"analyse\" questions.",
     "id": "gen_c12_hs_ch02_q11",
     "nodeId": "c12_hs_cbse_02_002",
@@ -1419,7 +1439,7 @@ export const C12_HS_GEN: SimDef[] = [
      "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation",
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations"
     ],
-    "hint": "Straight from the 'Food functions refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Food functions refer to the three' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific",
     "id": "gen_c12_hs_ch02_q12",
     "nodeId": "c12_hs_cbse_02_002",
@@ -1434,7 +1454,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations",
      "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation"
     ],
-    "hint": "Straight from the 'Lipids' slide -- match the key terms.",
+    "hint": "Straight from the 'Lipids are a heterogeneous group' slide -- match the key terms.",
     "misconception": "A poor answer prescribes generic low-fat eating without quantitative oil allocation, omega-3 specification or cooking method.",
     "id": "gen_c12_hs_ch02_q13",
     "nodeId": "c12_hs_cbse_02_005",
@@ -1528,7 +1548,7 @@ export const C12_HS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hs_ch03",
-  "title": "Human Development",
+  "title": "Human Development and Family Studies",
   "subtitle": "Home Science · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
@@ -1592,7 +1612,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Family",
+    "title": "A Family Is a Socially Recognized",
     "text": "A family is a socially recognized group of individuals united by bonds of marriage, blood, or adoption, constituting a single household and interacting in socially approved roles (e.",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1604,7 +1624,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Parenthood",
+    "title": "Parenthood: Roles, Responsibilities",
     "text": "Parenthood refers to the state of being a parent, encompassing the roles, responsibilities, and practices involved in raising and nurturing a child from infancy to adulthood, while parenting styles are the characteristic patterns of parental responsiveness",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1616,7 +1636,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Adolescence",
+    "title": "Adolescence Is The Transitional",
     "text": "Adolescence is the transitional developmental stage between childhood and adulthood (approximately 10–19 years) characterized by rapid physical growth, sexual maturation, cognitive restructuring, and psychosocial reorganization, during which individuals",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1730,16 +1750,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A REMEMBER level question: List Erikson's eight psychosocial stages in correct sequential order with their corresponding age ranges (approximate) and the virtue gained from successful resolution of each crisis.",
-    "answer": "Correct sequence: 1) Trust vs. Mistrust (0-1 yr) → Hope; 2) Autonomy vs. Shame/Doubt (1-3 yrs) → Will; 3) Initiative vs",
-    "options": [
-     "| Concept | Nature | Primary Driver | Reversibility | Adolescent Example | |---------|--------|----------------|---------------|-------------------| | Growth | Quantitative",
-     "The child is in Stage 3: Initiative vs. Guilt (ages 3-6). The crisis is between taking initiative in planning/doing activities vs",
-     "Correct sequence: 1) Trust vs. Mistrust (0-1 yr) → Hope; 2) Autonomy vs. Shame/Doubt (1-3 yrs) → Will; 3) Initiative vs"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze a given case study to identify",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "correctly sequence all eight stages",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "contrast Erikson's psychosocial focus",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Erikson's Psychosocial' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., swapping Industry and Initiative, or omitting age ranges) reveals the student has memorized stage names without understanding the developmental logic: each stage builds on the previous one's virtue (e.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) correctly sequence all eight stages with their corresponding age ranges, crises, and",
     "id": "gen_c12_hs_ch03_q4",
     "nodeId": "c12_hs_cbse_03_004",
     "difficulty": "advanced",
@@ -1832,7 +1883,7 @@ export const C12_HS_GEN: SimDef[] = [
      "| Concept | Nature | Primary Driver | Reversibility | Adolescent Example | |---------|--------|----------------|---------------|-------------------| | Growth | Quantitative",
      "Style: authoritarian (high demandingness, low responsiveness). Probable profile at 16: (1) higher anxiety and lower self‑esteem due to conditional acceptance"
     ],
-    "hint": "Straight from the 'Parenthood' slide -- match the key terms.",
+    "hint": "Straight from the 'Parenthood refers to the state of' slide -- match the key terms.",
     "misconception": "A wrong answer that predicts “high achievement and obedience” ignores the well‑documented trade‑off: authoritarian parenting often yields short‑term compliance but long‑term internalizing/externalizing problems.",
     "id": "gen_c12_hs_ch03_q7",
     "nodeId": "c12_hs_cbse_03_007",
@@ -1874,7 +1925,7 @@ export const C12_HS_GEN: SimDef[] = [
      "The proximodistal principle — development proceeds from the centre of the body outward (trunk → shoulder → elbow → wrist → fingers)",
      "Session 1: \"My Brain on Risk\" — uses neurodevelopmental evidence (prefrontal cortex immaturity vs. heightened limbic sensitivity) to explain perceived invulnerability (Elkind's"
     ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
+    "hint": "Straight from the 'Adolescence is the transitional' slide -- match the key terms.",
     "misconception": "A poor answer would list generic topics without theoretical justification or developmental appropriateness.",
     "id": "gen_c12_hs_ch03_q9",
     "nodeId": "c12_hs_cbse_03_009",
@@ -2075,7 +2126,7 @@ export const C12_HS_GEN: SimDef[] = [
      "The child is in Stage 3: Initiative vs. Guilt (ages 3-6). The crisis is between taking initiative in planning/doing activities vs",
      "Stage: Adolescence (11–18 years). Mapping: (1) Sudden growth spurt → Physical domain (pubertal changes: height/weight surge, secondary sexual characteristics)"
     ],
-    "hint": "Straight from the 'Human development stages refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Human development stages' slide -- match the key terms.",
     "misconception": "A wrong mapping (e.g., assigning abstract reasoning to socio-emotional) shows the student cannot distinguish domain-specific manifestations of the same stage.",
     "id": "gen_c12_hs_ch03_q15",
     "nodeId": "c12_hs_cbse_03_002",
@@ -2090,7 +2141,7 @@ export const C12_HS_GEN: SimDef[] = [
      "The statement is false — it confuses *structural change* with *institutional decline*. Evidence: (1) Marriage age rising (women: 22",
      "The statement is incomplete and misleading. Life-span perspective shows: (1) Multidirectionality: Late adulthood involves *gains* (crystallized intelligence, emotional regulation"
     ],
-    "hint": "Straight from the 'Human development stages refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Human development stages' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement ignores the multidimensional, plastic nature of development — a common board exam trap where \"ageing = decline\" is oversimplified.",
     "id": "gen_c12_hs_ch03_q16",
     "nodeId": "c12_hs_cbse_03_002",
@@ -2192,13 +2243,13 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Wool",
+    "title": "Wool Is a Natural Protein Fibre",
     "text": "Wool is a natural protein fibre obtained from the fleece of sheep (primarily) and other animals like goat (cashmere, mohair), rabbit (angora), and camel, composed mainly of keratin with a complex hierarchical structure of cuticle scales, cortical cells, and",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Silk",
+    "title": "Silk Is a Natural Protein Filament",
     "text": "Silk is a natural protein filament fibre produced by the larvae of silk moths (primarily *Bombyx mori*) during cocoon formation; sericulture is the scientific cultivation of silkworms on host plants (mulberry for mulberry silk; Terminalia, Shorea, etc.",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2494,16 +2545,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define \"twist multiplier\" and state its unit in the indirect system. Why is it preferred over \"turns per inch\" for comparing yarns of different counts?",
-    "answer": "Twist multiplier (TM) = Twist per inch (TPI) × √Count (Ne). Its unit is \"turns per inch × √Ne\" (often written as TPI/√Ne)",
-    "options": [
-     "A course is a horizontal row of loops; a wale is a vertical column of loops. In weft knitting, a single yarn forms successive courses across the width",
-     "Elements: Line (e.g., vertical seams on a shirt), Shape/Form (e.g., A-line skirt), Space (e.g., negative space in a cut-out back), Texture (e",
-     "Twist multiplier (TM) = Twist per inch (TPI) × √Count (Ne). Its unit is \"turns per inch × √Ne\" (often written as TPI/√Ne)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "convert yarn count between direct",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "identify twist direction and calculate twist",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "classify a yarn sample into its structural",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Yarn construction' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"TM is just TPI\") reveals the student does not understand that twist level must be scaled with yarn thickness to be meaningful across counts.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify twist direction and calculate twist multiplier for a given yarn, (2) convert",
     "id": "gen_c12_hs_ch04_q6",
     "nodeId": "c12_hs_cbse_04_006",
     "difficulty": "standard",
@@ -2571,8 +2653,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define “course” and “wale” in knitted fabrics and state which knitting type (warp or weft) primarily forms courses and which forms wales.",
     "answer": "A course is a horizontal row of loops; a wale is a vertical column of loops. In weft knitting, a single yarn forms successive courses across the width",
     "options": [
-     "A textile fibre is a fine, hair-like strand that can be spun into yarn and made into fabric. The two primary categories are natural fibres (e",
-     "Correct: (1) Mulberry — *Morus alba* (mulberry); (2) Tasar — *Terminalia tomentosa* (asan) / *Shorea robusta* (sal)",
+     "The student can (1) differentiate warp and weft knitting by loop formation direction, machine type, and fabric properties, and (2) identify basic weft (plain, rib, interlock",
+     "Warp yarns run parallel to the selvedge (lengthwise/grain line); weft yarns run perpendicular to the selvedge (crosswise)",
      "A course is a horizontal row of loops; a wale is a vertical column of loops. In weft knitting, a single yarn forms successive courses across the width"
     ],
     "hint": "Straight from the 'Knitted fabrics' slide -- match the key terms.",
@@ -2665,8 +2747,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "List five famous handloom weaves of India along with their state of origin and primary raw material (e.g., silk, cotton, wool).",
     "answer": "1) Banarasi brocade – Uttar Pradesh – silk; 2) Kanjeevaram silk – Tamil Nadu – silk; 3) Chanderi – Madhya Pradesh – silk/cotton blend",
     "options": [
-     "Correct: (1) Mulberry — *Morus alba* (mulberry); (2) Tasar — *Terminalia tomentosa* (asan) / *Shorea robusta* (sal)",
-     "The two main categories are regenerated fibres (e.g., viscose rayon) and synthetic fibres (e.g., polyester)",
+     "Silk is a natural protein filament fibre produced by the larvae of silk moths (primarily *Bombyx mori*) during cocoon formation",
+     "Textile fibres are the fundamental units of fabric, classified by origin into natural (cellulosic, protein, mineral) and manufactured (regenerated, synthetic",
      "1) Banarasi brocade – Uttar Pradesh – silk; 2) Kanjeevaram silk – Tamil Nadu – silk; 3) Chanderi – Madhya Pradesh – silk/cotton blend"
     ],
     "hint": "Straight from the 'Indian Traditional Textiles' slide -- match the key terms.",
@@ -2749,6 +2831,52 @@ export const C12_HS_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how weave structure influences",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify and label the main parts",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "draw the draft",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify and label the main parts of a handloom and power loom from a diagram, (2)",
+    "id": "gen_c12_hs_ch04_q14",
+    "nodeId": "c12_hs_cbse_04_007",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student says: \"All natural fibres are biodegradable and all synthetic fibres are non-biodegradable, so natural fibres are always better for the environment.\" Explain why this statement is an oversimplification. Use the concepts of regenerated fibres and fibre blends in your answer.",
     "answer": "The statement is an oversimplification because: (1) Regenerated fibres (e.g., rayon, lyocell) are manufactured from natural polymers (cellulose) but involve chemical processing",
@@ -2759,7 +2887,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"natural fibres decompose faster\" misses the nuance of regenerated fibres and blended fabrics, showing the student relies on a binary heuristic rather than systems thinking.",
-    "id": "gen_c12_hs_ch04_q14",
+    "id": "gen_c12_hs_ch04_q15",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2774,7 +2902,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong match (e.g., assigning rayon to Fibre A) shows the student doesn't know rayon's wet weakness or cotton's wet strength — a classic board exam trap.",
-    "id": "gen_c12_hs_ch04_q15",
+    "id": "gen_c12_hs_ch04_q16",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2783,13 +2911,13 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define \"textile fibre\" and state the two primary classification categories based on origin. Give one example of each category.",
     "answer": "A textile fibre is a fine, hair-like strand that can be spun into yarn and made into fabric. The two primary categories are natural fibres (e",
     "options": [
-     "Elements: Line (e.g., vertical seams on a shirt), Shape/Form (e.g., A-line skirt), Space (e.g., negative space in a cut-out back), Texture (e",
-     "The two main categories are regenerated fibres (e.g., viscose rayon) and synthetic fibres (e.g., polyester)",
+     "Woven fabric is a textile structure formed by interlacing two sets of yarns — warp (lengthwise) and weft (crosswise)",
+     "Textile fibres are the fundamental units of fabric, classified by origin into natural (cellulosic, protein, mineral) and manufactured (regenerated, synthetic",
      "A textile fibre is a fine, hair-like strand that can be spun into yarn and made into fabric. The two primary categories are natural fibres (e"
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"cotton and wool\" as the two categories reveals the student confuses sub-categories with primary categories, or thinks classification is based on chemical composition (cellulosic vs protein) rather than origin.",
-    "id": "gen_c12_hs_ch04_q16",
+    "id": "gen_c12_hs_ch04_q17",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2804,21 +2932,6 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
     "misconception": "A wrong answer that blindly prefers the blend \"because it's modern and easy care\" ignores the physiological comfort criterion critical in tropical climates — a common error in case-based board questions.",
-    "id": "gen_c12_hs_ch04_q17",
-    "nodeId": "c12_hs_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You are selecting a fibre for a mountaineering base layer that must: (a) wick moisture away from skin, (b) retain warmth when wet, (c) resist odour from bacterial growth, and (d) be lightweight. Compare wool (natural protein) and polyester (synthetic) on these four criteria and recommend one with justification.",
-    "answer": "Wool: (a) Excellent moisture wicking due to hygroscopic scales; (b) Retains ~80% insulation when wet due to crimp trapping air; (c) Natural antimicrobial lanolin reduces odour",
-    "options": [
-     "| Property | Minimum Value | Justification | |---|---|---| | Hydrostatic head | ≥ 10,000 mm (ISO 811) | Withstands heavy rain + backpack strap pressure",
-     "(a) Base: 2/20 Ne cotton core (ply for strength) + 10 Ne polyester effect (for bulk) + 30 Ne nylon binder (for abrasion resistance)",
-     "Wool: (a) Excellent moisture wicking due to hygroscopic scales; (b) Retains ~80% insulation when wet due to crimp trapping air; (c) Natural antimicrobial lanolin reduces odour"
-    ],
-    "hint": "Straight from the 'Textile fibres' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing polyester because \"it dries fast\" ignores that drying speed ≠ moisture management for thermoregulation, and overlooks odour and wet-warmth — a common trap in competitive exams testing application over recall.",
     "id": "gen_c12_hs_ch04_q18",
     "nodeId": "c12_hs_cbse_04_001",
     "difficulty": "standard"
@@ -2883,7 +2996,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Resources",
+    "title": "Resources Are Assets Or Capabilities",
     "text": "Resources are assets or capabilities that individuals and families use to achieve goals and meet needs; human resources are internal, personal attributes (knowledge, skills, motivation, time, energy) while non-human resources are external, tangible or",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2901,7 +3014,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Decision-making",
+    "title": "Decision-making Is The Cognitive Process",
     "text": "Decision-making is the cognitive process of selecting a course of action from multiple alternatives to achieve a desired goal, involving systematic steps: identifying the problem, gathering information, generating alternatives, evaluating consequences,",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2931,7 +3044,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Communication",
+    "title": "Communication Is The Dynamic",
     "text": "Communication is the dynamic, two-way process of exchanging information, ideas, feelings, and meanings between a source and a receiver through a channel, using verbal (spoken/written words) and non-verbal (body language, gestures, facial expressions, tone,",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3250,8 +3363,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define “time management” in one sentence and name the two categories of tasks in the Eisenhower matrix.",
     "answer": "Time management is the deliberate planning and control of time allocated to activities to achieve goals efficiently",
     "options": [
-     "A crisis in family resource management is a disruption that exceeds the family's usual coping resources and requires immediate reorganization of resources and roles",
-     "Work simplification is the conscious effort to reduce the energy, time, and effort required to complete a task without compromising output quality",
+     "Energy management is the systematic process of planning, organizing, and controlling human energy expenditure to accomplish tasks efficiently while minimizing fatigue",
+     "Money management is the systematic process of planning, organizing, controlling, and evaluating family financial resources",
      "Time management is the deliberate planning and control of time allocated to activities to achieve goals efficiently"
     ],
     "hint": "Straight from the 'Time management' slide -- match the key terms.",
@@ -3397,8 +3510,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define 'zoning' in the context of space planning for a home. Give one example of a public zone and one private zone.",
     "answer": "Zoning is the division of a home into functional areas based on the type and privacy level of activities. Example: Living room is a public zone; bedroom is a private zone",
     "options": [
-     "Utility is the want-satisfying power of a resource — its ability to meet a need or goal. Example: A pressure cooker has high utility (cooks food fast)",
-     "Human resources — student volunteers' time, organising committee's leadership skills, teacher's guidance, DJ's musical talent, decorating team's creativity",
+     "Money management is the systematic process of planning, organizing, controlling, and evaluating family financial resources",
+     "Utility, accessibility, and interchangeability are the three defining characteristics that determine whether an asset qualifies as a resource in home management: Utility is the",
      "Zoning is the division of a home into functional areas based on the type and privacy level of activities. Example: Living room is a public zone; bedroom is a private zone"
     ],
     "hint": "Straight from the 'Space management' slide -- match the key terms.",
@@ -3414,16 +3527,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define communication according to the SMCRE model. List its five components in order.",
-    "answer": "Communication is the process where a Source encodes a Message, sends it through a Channel to a Receiver who decodes it, and Feedback returns to the Source to complete the loop",
-    "options": [
-     "Work simplification is the conscious effort to reduce the energy, time, and effort required to complete a task without compromising output quality",
-     "Zoning is the division of a home into functional areas based on the type and privacy level of activities. Example: Living room is a public zone; bedroom is a private zone",
-     "Communication is the process where a Source encodes a Message, sends it through a Channel to a Receiver who decodes it, and Feedback returns to the Source to complete the loop"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "differentiate verbal and non-verbal cues",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "label all five elements of the SMCRE model",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain why feedback transforms one-way",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Communication' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., listing only \"sender, message, receiver\" or omitting Feedback) reveals the student views communication as linear one-way transmission rather than a circular two-way process — a critical error for understanding family decision-making.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) label all five elements of the SMCRE model in a given family interaction scenario, (2)",
     "id": "gen_c12_hs_ch05_q10",
     "nodeId": "c12_hs_cbse_05_010",
     "difficulty": "standard",
@@ -3460,8 +3604,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define 'crisis' in the context of family resource management and give one example each of a developmental crisis and a situational crisis.",
     "answer": "A crisis in family resource management is a disruption that exceeds the family's usual coping resources and requires immediate reorganization of resources and roles",
     "options": [
-     "Utility is the want-satisfying power of a resource — its ability to meet a need or goal. Example: A pressure cooker has high utility (cooks food fast)",
-     "Time management is the deliberate planning and control of time allocated to activities to achieve goals efficiently",
+     "The student can analyze a given family crisis scenario, identify the type of crisis and stress responses, select appropriate management steps and coping strategies",
+     "Money management is the systematic process of planning, organizing, controlling, and evaluating family financial resources",
      "A crisis in family resource management is a disruption that exceeds the family's usual coping resources and requires immediate reorganization of resources and roles"
     ],
     "hint": "Straight from the 'Crisis and stress management in' slide -- match the key terms.",
@@ -3546,7 +3690,7 @@ export const C12_HS_GEN: SimDef[] = [
      "The teacher's blunt \"Be specific\" violated the student's need for respect and privacy, triggering a psychological barrier (defensiveness/ego threat)",
      "Good answer example: Human — (1) Cognitive ability: developable → management: daily practice tests"
     ],
-    "hint": "Straight from the 'Resources' slide -- match the key terms.",
+    "hint": "Straight from the 'Resources are assets or' slide -- match the key terms.",
     "misconception": "A poor answer that lists only tangible items (books, phone, desk) reveals the student still thinks resources are only physical objects — the core misconception this node targets.",
     "id": "gen_c12_hs_ch05_q15",
     "nodeId": "c12_hs_cbse_05_002",
@@ -3561,7 +3705,7 @@ export const C12_HS_GEN: SimDef[] = [
      "The statement is largely true because non-verbal cues (micro-expressions, posture, tone) are often involuntary and harder to consciously control than chosen words",
      "Critique. Money (non-human) can buy *some* non-human resources (goods, services, space) and *access* to human resources (hiring a tutor, paying a doctor)"
     ],
-    "hint": "Straight from the 'Resources' slide -- match the key terms.",
+    "hint": "Straight from the 'Resources are assets or' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees without qualification reveals the student equates \"access\" with \"ownership\" and misses that human resources require *personal investment* (time, effort) that money cannot substitute.",
     "id": "gen_c12_hs_ch05_q16",
     "nodeId": "c12_hs_cbse_05_002",
@@ -3576,7 +3720,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Critique. Money (non-human) can buy *some* non-human resources (goods, services, space) and *access* to human resources (hiring a tutor, paying a doctor)",
      "The community library is a physical facility (building, books, seating) — an external, tangible asset that exists independently of any person"
     ],
-    "hint": "Straight from the 'Resources' slide -- match the key terms.",
+    "hint": "Straight from the 'Resources are assets or' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both are non-human because they are facilities\") reveals the student thinks any shared or public resource is automatically non-human, missing the distinction between *where* the resource resides (inside a person vs outside).",
     "id": "gen_c12_hs_ch05_q17",
     "nodeId": "c12_hs_cbse_05_002",
@@ -3587,11 +3731,11 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "List five resources you would use to organise a school farewell party. Classify each as human or non-human.",
     "answer": "Human resources — student volunteers' time, organising committee's leadership skills, teacher's guidance, DJ's musical talent, decorating team's creativity",
     "options": [
-     "A crisis in family resource management is a disruption that exceeds the family's usual coping resources and requires immediate reorganization of resources and roles",
-     "Utility is the want-satisfying power of a resource — its ability to meet a need or goal. Example: A pressure cooker has high utility (cooks food fast)",
+     "The student must be able to: (1) classify any given household asset as a resource or non-resource by evaluating its utility, accessibility, and interchangeability",
+     "Money management is the systematic process of planning, organizing, controlling, and evaluating family financial resources",
      "Human resources — student volunteers' time, organising committee's leadership skills, teacher's guidance, DJ's musical talent, decorating team's creativity"
     ],
-    "hint": "Straight from the 'Resources' slide -- match the key terms.",
+    "hint": "Straight from the 'Resources are assets or' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., classifying \"student volunteers' time\" as non-human) reveals the student confuses the *person* (human) with the *time they give* (human resource) or thinks anything \"used\" is non-human. Time and energy are human resources because they are inseparable from the person.",
     "id": "gen_c12_hs_ch05_q18",
     "nodeId": "c12_hs_cbse_05_002",
@@ -3610,7 +3754,7 @@ export const C12_HS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hs_ch06",
-  "title": "Extension Education",
+  "title": "Communication and Extension",
   "subtitle": "Home Science · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
@@ -3680,7 +3824,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Community",
+    "title": "A Community Is a Group",
     "text": "A community is a group of people living in a defined geographical area who share common interests, values, norms, and social interactions, and who develop a sense of belonging and collective identity.",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3698,7 +3842,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Monitoring",
+    "title": "Monitoring Is The Systematic",
     "text": "Monitoring is the systematic, ongoing collection and analysis of information during programme implementation to track progress against planned activities and outputs, while evaluation is the periodic, retrospective assessment of a programme's design,",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3924,7 +4068,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Example sequence: (1) Resource map (spatial) — men and women draw separately to show gendered water access",
      "Violated principle: \"Start from where the people are\" / \"Respect existing social organization.\" Communities have pre-existing structures (kinship, caste"
     ],
-    "hint": "Straight from the 'community' slide -- match the key terms.",
+    "hint": "Straight from the 'A community is a group' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"SHGs always empower women\") reveals ignorance of the principle that community development must work WITH, not against, indigenous social organization.",
     "id": "gen_c12_hs_ch06_q6",
     "nodeId": "c12_hs_cbse_06_007",
@@ -4365,7 +4509,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Infancy",
+    "title": "Infancy Is The Period",
     "text": "Infancy (0-12 months) is the period of most rapid physical growth and neurological maturation in the human lifespan, characterized by cephalocaudal and proximodistal progression of motor skills, refinement of sensory systems from basic detection to",
     "emoji": "🏠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4383,13 +4527,13 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Adolescence",
+    "title": "Adolescence Is The Transitional",
     "text": "Adolescence (ages 10–19) is the transitional developmental period between childhood and adulthood characterized by the onset of puberty, rapid physical growth, cognitive restructuring toward abstract reasoning, psychosocial identity exploration (Erikson's",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Adulthood",
+    "title": "Adulthood Is The Life Stage Beginning",
     "text": "Adulthood is the life stage beginning approximately at age 20–21, characterised by the psychosocial task of forming intimate relationships (Erikson's intimacy vs.",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4465,8 +4609,9 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "State the two directionality principles of human development and give one observable example of each in infancy.",
     "answer": "The two directionality principles are: (1) Cephalocaudal — development proceeds from head to tail",
     "options": [
-     "(1) Germinal stage: fertilisation to end of week 2; (2) Embryonic stage: week 3 to week 8; (3) Fetal stage: week 9 to birth",
-     "A typical 3-year-old has a vocabulary of about 900–1,000 words. The rapid increase is called the \"vocabulary spurt\" or \"naming explosion,\" occurring around 18–24 months",
+     "Human development is the lifelong, multidimensional process of quantitative and qualitative changes across physical, cognitive",
+     "Death and dying in human development refers to the final stage of the lifespan where individuals confront mortality",
+     "The two directionality principles are: (1) Cost-effectiveness — development proceeds from head to tail",
      "The two directionality principles are: (1) Cephalocaudal — development proceeds from head to tail"
     ],
     "hint": "Straight from the 'principles of directionality and' slide -- match the key terms.",
@@ -4586,16 +4731,58 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "REMEMBER: Write the full expansion of the acronym APGAR and the maximum possible total score.",
-    "answer": "A = Appearance (skin color), P = Pulse (heart rate), G = Grimace (reflex irritability), A = Activity (muscle tone), R = Respiration (breathing effort)",
-    "options": [
-     "The statement reflects a deficit model, not the life-span perspective. Two contradicting principles: (1) Multidirectionality",
-     "Correct mapping: Physical — high fitness but joint vulnerability (gain + loss); Cognitive — advanced tactical thinking, quick decision-making (gain)",
-     "A = Appearance (skin color), P = Pulse (heart rate), G = Grimace (reflex irritability), A = Activity (muscle tone), R = Respiration (breathing effort)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "describe the three stages of labor with key",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "calculate the total Apgar score",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "list the five Apgar criteria and the exact",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "interpret the score to decide whether",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'birth process' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student writes “Attitude” for A or “Gestation” for G, they are confusing the mnemonic with other obstetric terms. If they say the maximum is 5, they think each criterion is only 0/1. This shows they have not memorised the exact scoring rubric.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) describe the three stages of labor with key physiological events, (2) list the five",
     "id": "gen_c12_hs_ch07_q5",
     "nodeId": "c12_hs_cbse_07_005",
     "difficulty": "advanced",
@@ -4733,16 +4920,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define “school readiness” in the context of middle childhood as per the NCERT framework.",
-    "answer": "School readiness is a multidimensional construct encompassing physical well‑being and motor development, cognitive and language skills",
-    "options": [
-     "The two directionality principles are: (1) Cephalocaudal — development proceeds from head to tail",
-     "Reaction range is the span of possible phenotypic expressions of a given genotype across all conceivable environments",
-     "School readiness is a multidimensional construct encompassing physical well‑being and motor development, cognitive and language skills"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze a case vignette to identify whether",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how peer relationships evolve",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "list the three core domains of school",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Middle childhood' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only academic skills (e.g., “knowing ABCs and 123s”) reveals the common misconception that readiness is purely cognitive, ignoring the physical stamina and emotional regulation required for a full school day.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list the three core domains of school readiness (physical, cognitive, social‑emotional) with",
     "id": "gen_c12_hs_ch07_q8",
     "nodeId": "c12_hs_cbse_07_008",
     "difficulty": "standard",
@@ -4814,7 +5032,7 @@ export const C12_HS_GEN: SimDef[] = [
      "She is in early adolescence (ages 10–14). Symptoms are normative because: (1) HPG axis activation drives gonadarche (estradiol surge) causing breast development (Tanner 3) and",
      "The core crisis is intimacy vs. isolation; successful resolution yields the virtue of love — the capacity for mutual, committed relationships without fear of ego loss"
     ],
-    "hint": "Straight from the 'Adulthood' slide -- match the key terms.",
+    "hint": "Straight from the 'Adulthood is the life stage' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"identity vs. role confusion\" or \"generativity vs. stagnation\") reveals confusion between developmental stages: the student has not distinguished adolescence's task (identity) from early adulthood's task (intimacy), indicating they are still mapping stages by age numbers rather than psychosocial",
     "id": "gen_c12_hs_ch07_q10",
     "nodeId": "c12_hs_cbse_07_010",
@@ -4831,8 +5049,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define \"disengagement theory\" of ageing and state its core proposition about the older person–society relationship.",
     "answer": "Disengagement theory (Cumming & Henry, 1961) proposes that mutual withdrawal between older adults and society is inevitable, universal, and functional",
     "options": [
-     "A typical 3-year-old has a vocabulary of about 900–1,000 words. The rapid increase is called the \"vocabulary spurt\" or \"naming explosion,\" occurring around 18–24 months",
-     "School readiness is a multidimensional construct encompassing physical well‑being and motor development, cognitive and language skills",
+     "The student can (1) list the three core domains of school readiness (physical, cognitive, social‑emotional) with age‑appropriate indicators",
+     "Human development is the lifelong, multidimensional process of quantitative and qualitative changes across physical, cognitive",
      "Disengagement theory (Cumming & Henry, 1961) proposes that mutual withdrawal between older adults and society is inevitable, universal, and functional"
     ],
     "hint": "Straight from the 'Late adulthood' slide -- match the key terms.",
@@ -4992,6 +5210,98 @@ export const C12_HS_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "name the three prenatal stages",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain why the embryonic stage",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "identify at least two hallmark events per",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) name the three prenatal stages with their exact week ranges, (2) identify at least two",
+    "id": "gen_c12_hs_ch07_q15",
+    "nodeId": "c12_hs_cbse_07_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "differentiate early/middle/late adolescence",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "design",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the neurobiological dual-systems",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) differentiate early/middle/late adolescence by pubertal timing, cognitive milestones, and identity",
+    "id": "gen_c12_hs_ch07_q16",
+    "nodeId": "c12_hs_cbse_07_009",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A Class 12 student says: \"My grandfather is 82 and has arthritis, so he is no longer developing — he's just declining.\" Using the life-span perspective, explain why this statement is incomplete. Identify at least two Baltes' principles that contradict it.",
     "answer": "The statement reflects a deficit model, not the life-span perspective. Two contradicting principles: (1) Multidirectionality",
@@ -5002,7 +5312,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human development' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"old age is only decline\" or citing only physical domain) reveals a unidirectional, childhood-centric view of development and ignorance of plasticity/multidirectionality.",
-    "id": "gen_c12_hs_ch07_q15",
+    "id": "gen_c12_hs_ch07_q17",
     "nodeId": "c12_hs_cbse_07_001",
     "difficulty": "standard"
    },
@@ -5017,36 +5327,6 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Human development' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"physical domain is only positive because she's fit\" or \"injuries mean development stopped\") misses the core idea that development is not unilinear improvement.",
-    "id": "gen_c12_hs_ch07_q16",
-    "nodeId": "c12_hs_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the 'traditional view' of development (childhood-focused, unidirectional) with the 'life-span perspective' (Baltes) on three dimensions: (a) age range, (b) direction of change, (c) role of context. Give one Indian policy example that reflects the life-span perspective.",
-    "answer": "Correct comparison: (a) Traditional: birth to adolescence; Life-span: conception to death. (b) Traditional: unidirectional improvement",
-    "options": [
-     "Hearing is functional at birth (fetus hears in utero); auditory localization (turning to sound) emerges ~2-3 months",
-     "Integrity requires life review yielding acceptance and wisdom; despair arises from regret and bitterness",
-     "Correct comparison: (a) Traditional: birth to adolescence; Life-span: conception to death. (b) Traditional: unidirectional improvement"
-    ],
-    "hint": "Straight from the 'Human development' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., listing only \"old age included\" without multidirectionality/context) shows superficial understanding of the paradigm shift.",
-    "id": "gen_c12_hs_ch07_q17",
-    "nodeId": "c12_hs_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this statement: \"Since development is lifelong, early childhood interventions are overrated — we can always fix deficits later.\" Use the concepts of critical/sensitive periods, plasticity, and cumulative risk to justify your position.",
-    "answer": "Correct critique: The statement misuses plasticity. While plasticity exists lifelong, it is not unlimited",
-    "options": [
-     "The statement is partially true but increasingly outdated. Data: median age at first marriage for urban women rose from 20",
-     "(A) Day 10 = germinal stage (pre-implantation or early implantation). Teratogens at this stage typically have an \"all-or-N/A\" effect: either the embryo is severely damaged and",
-     "Correct critique: The statement misuses plasticity. While plasticity exists lifelong, it is not unlimited"
-    ],
-    "hint": "Straight from the 'Human development' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"plasticity means we can fix anything anytime\" or \"early childhood is the only thing that matters\") shows either overestimation of plasticity or ignorance of cumulative processes.",
     "id": "gen_c12_hs_ch07_q18",
     "nodeId": "c12_hs_cbse_07_001",
     "difficulty": "standard"
@@ -5153,7 +5433,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Fashion",
+    "title": "Fashion Is a Style Of Clothing",
     "text": "Fashion is a style of clothing, accessories, or behaviour that is widely accepted and adopted by a significant group of people at a specific time and place, characterized by its cyclical nature of change driven by collective taste, social influence, and",
     "emoji": "🏠",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5183,8 +5463,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define 'apparel design' as per NCERT Class 12 Human Ecology and Family Sciences, and state the two main aspects in which design is studied.",
     "answer": "Apparel design is the human power to conceive, plan, and realise products that serve human beings in the accomplishment of any individual or collective purpose",
     "options": [
-     "The five standard figure types are: (1) Hourglass — shoulders and hips nearly equal with a significantly smaller waist (difference ≥ 25 cm)",
-     "Wardrobe planning is the systematic process of evaluating clothing needs and managing apparel resources",
+     "Formal balance (also called symmetrical balance) occurs when design elements are arranged identically on either side of a central vertical axis, creating a mirror image",
+     "The student can accurately define apparel design using NCERT terminology, distinguish between structural and applied design with examples",
      "Apparel design is the human power to conceive, plan, and realise products that serve human beings in the accomplishment of any individual or collective purpose"
     ],
     "hint": "Straight from the 'Apparel design' slide -- match the key terms.",
@@ -5278,8 +5558,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define 'Formal Balance' in apparel design and give one example of a garment feature that typically exhibits it.",
     "answer": "Formal balance (also called symmetrical balance) occurs when design elements are arranged identically on either side of a central vertical axis, creating a mirror image",
     "options": [
-     "The five standard figure types are: (1) Hourglass — shoulders and hips nearly equal with a significantly smaller waist (difference ≥ 25 cm)",
-     "Apparel design is the human power to conceive, plan, and realise products that serve human beings in the accomplishment of any individual or collective purpose",
+     "The student can analyse a given occasion scenario (casual, formal, occupational), identify the dress code requirements",
+     "The student can accurately define apparel design using NCERT terminology, distinguish between structural and applied design with examples",
      "Formal balance (also called symmetrical balance) occurs when design elements are arranged identically on either side of a central vertical axis, creating a mirror image"
     ],
     "hint": "Straight from the 'Principles of Design' slide -- match the key terms.",
@@ -5299,8 +5579,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define the three dimensions of colour (hue, value, intensity) and give one fabric example for each dimension where changing only that dimension alters the design effect.",
     "answer": "Hue is the colour name (e.g., red, blue-green) determined by wavelength; value is lightness/darkness (tint = hue + white, shade = hue + black)",
     "options": [
-     "Formal balance (also called symmetrical balance) occurs when design elements are arranged identically on either side of a central vertical axis, creating a mirror image",
-     "Texture is the sensory impression of sight and touch referring to the tactile and visual qualities of a material (e",
+     "Colour theory is the systematic study of how colours interact, combine, and affect human perception",
+     "The student can identify each element in a given garment or fabric swatch, explain how that element influences visual perception (e",
      "Hue is the colour name (e.g., red, blue-green) determined by wavelength; value is lightness/darkness (tint = hue + white, shade = hue + black)"
     ],
     "hint": "Straight from the 'Colour theory' slide -- match the key terms.",
@@ -5394,8 +5674,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define \"wardrobe planning\" and list the five sequential steps in the process as per CBSE Class 12 Home Science curriculum.",
     "answer": "Wardrobe planning is the systematic process of evaluating clothing needs and managing apparel resources",
     "options": [
-     "Formal balance (also called symmetrical balance) occurs when design elements are arranged identically on either side of a central vertical axis, creating a mirror image",
-     "Hue is the colour name (e.g., red, blue-green) determined by wavelength; value is lightness/darkness (tint = hue + white, shade = hue + black)",
+     "The student must be able to: (1) Conduct a complete wardrobe audit for a given case study, categorizing items by condition, fit, and frequency of use",
+     "Fashion forecasting is the systematic process of predicting upcoming trends in colours, fabrics, textures, silhouettes, and styles by analysing socio-cultural, economic",
      "Wardrobe planning is the systematic process of evaluating clothing needs and managing apparel resources"
     ],
     "hint": "Straight from the 'Wardrobe planning' slide -- match the key terms.",
@@ -5478,8 +5758,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Name three traditional Indian costumes from three different states and state the primary fabric used for each.",
     "answer": "e.g., Kasavu saree (Kerala) – cotton; Phiran (Jammu & Kashmir) – wool; Mekhela chador (Assam) – silk (Muga/Paat)",
     "options": [
-     "Apparel design is the human power to conceive, plan, and realise products that serve human beings in the accomplishment of any individual or collective purpose",
-     "Texture is the sensory impression of sight and touch referring to the tactile and visual qualities of a material (e",
+     "Apparel construction is the systematic process of transforming flat pattern pieces into a three-dimensional garment through cutting fabric accurately",
+     "The student can identify each element in a given garment or fabric swatch, explain how that element influences visual perception (e",
      "e.g., Kasavu saree (Kerala) – cotton; Phiran (Jammu & Kashmir) – wool; Mekhela chador (Assam) – silk (Muga/Paat)"
     ],
     "hint": "Straight from the 'Traditional Indian costumes' slide -- match the key terms.",
@@ -5495,16 +5775,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define fashion in one sentence using the four components: style, change, acceptance, and taste.",
-    "answer": "Fashion is a currently accepted style characterized by continuous change, adopted by a majority group due to shared taste",
-    "options": [
-     "Formal balance (also called symmetrical balance) occurs when design elements are arranged identically on either side of a central vertical axis, creating a mirror image",
-     "Hue is the colour name (e.g., red, blue-green) determined by wavelength; value is lightness/darkness (tint = hue + white, shade = hue + black)",
-     "Fashion is a currently accepted style characterized by continuous change, adopted by a majority group due to shared taste"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "draw and label the five stages of the",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between fashion",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "define fashion using the four components",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Fashion' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student writes \"Fashion is what is popular\" or \"Fashion is clothing trends,\" they are confusing fashion with mere popularity or clothing in general.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) define fashion using the four components (style, change, acceptance, taste) with examples, (2) draw",
     "id": "gen_c12_hs_ch08_q9",
     "nodeId": "c12_hs_cbse_08_009",
     "difficulty": "standard",
@@ -5592,8 +5903,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "What is the primary reason for aligning pattern pieces with the fabric grain line before cutting?",
     "answer": "To ensure the garment hangs correctly and maintains its shape during wear and washing, because the grain line follows the warp (lengthwise) threads which have minimal stretch",
     "options": [
-     "The five standard figure types are: (1) Hourglass — shoulders and hips nearly equal with a significantly smaller waist (difference ≥ 25 cm)",
-     "The two primary methods are flat pattern drafting and draping. Flat pattern drafting begins with body measurements and applies geometric formulas on paper to create a basic block",
+     "The student can accurately define apparel design using NCERT terminology, distinguish between structural and applied design with examples",
+     "Apparel construction is the systematic process of transforming flat pattern pieces into a three-dimensional garment through cutting fabric accurately",
      "To ensure the garment hangs correctly and maintains its shape during wear and washing, because the grain line follows the warp (lengthwise) threads which have minimal stretch"
     ],
     "hint": "Straight from the 'Apparel construction' slide -- match the key terms.",
@@ -5716,15 +6027,15 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "You are designing a kurta for a summer music festival. The wearer wants to express \"youthful energy\" and \"cultural rootedness.\" Choose ONE element of design (colour, texture, line, or shape) and describe a specific design decision (e.",
-    "answer": "Element: Line. Decision: Use long, flowing curved lines in the kurta's hemline and sleeve edges (e",
+    "question": "What is Apparel design? State the definition given in this lesson.",
+    "answer": "Apparel design is the creative and systematic process of conceiving, planning, and realising garments that integrate aesthetic appeal (through elements and principles of design)",
     "options": [
-     "Cultural: costumes carry intangible heritage, rituals, and identity; Economic: handloom/handicraft sectors employ millions and sustain rural economies",
-     "No, harmony by shape is broken because the kameez uses curved shapes throughout while the dupatta introduces a contrasting geometric square border, interrupting visual continuity",
-     "Element: Line. Decision: Use long, flowing curved lines in the kurta's hemline and sleeve edges (e"
+     "The student can independently draft a basic bodice front block using given body measurements and standard ease allowances",
+     "Principles of Design are the guiding rules that govern how the Elements of Design (line, shape, texture, colour) are organized to create a unified, aesthetically pleasing",
+     "Apparel design is the creative and systematic process of conceiving, planning, and realising garments that integrate aesthetic appeal (through elements and principles of design)"
     ],
     "hint": "Straight from the 'Apparel design' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing \"bright red colour\" without linking line/shape properties shows inability to match element characteristics to expressive intent.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Apparel design is the creative and systematic process of conceiving, planning, and realising garments that integrate",
     "id": "gen_c12_hs_ch08_q18",
     "nodeId": "c12_hs_cbse_08_001",
     "difficulty": "standard"
@@ -6337,8 +6648,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define \"therapeutic diet\" in the context of cardiovascular disease and state the primary nutrient modifications recommended by ICMR/NIN for an Indian adult with hypertension and hypercholesterolemia.",
     "answer": "A therapeutic diet for CVD is a scientifically planned meal pattern that modifies specific nutrients to manage or prevent cardiovascular pathology",
     "options": [
-     "Correct: Additional energy = 350 kcal/day; additional protein = 9.5 g/day (total protein 78 g/day)",
-     "Glycemic index ranks carbohydrate foods on a scale 0-100 based on their blood glucose response relative to glucose (GI=100)",
+     "The student must be able to (1) state the ICMR RDA increments for energy, protein, and key micronutrients for a lactating woman (0–6 months and 6–12 months postpartum) relative to",
+     "The student must be able to: (1) interpret ICMR RDA tables to determine energy, protein, fat, vitamin, and mineral requirements for adult men and women across sedentary, moderate",
      "A therapeutic diet for CVD is a scientifically planned meal pattern that modifies specific nutrients to manage or prevent cardiovascular pathology"
     ],
     "hint": "Straight from the 'Therapeutic diets for' slide -- match the key terms.",
@@ -6466,6 +6777,52 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "interpret ICMR RDA tables to identify",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "list and explain at least five factors",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "define nutritional requirements",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) define nutritional requirements and distinguish them from dietary intake, (2) list and explain at",
+    "id": "gen_c12_hs_ch09_q15",
+    "nodeId": "c12_hs_cbse_09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Critique the statement: “A pregnant woman should double her food intake because she is eating for two.” Use three distinct physiological or nutritional arguments.",
     "sortItems": [
      {
@@ -6506,7 +6863,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A student who agrees shows confusion between colloquial phrase and evidence‑based RDA — a frequent board essay error.",
-    "id": "gen_c12_hs_ch09_q15",
+    "id": "gen_c12_hs_ch09_q16",
     "nodeId": "c12_hs_cbse_09_002",
     "difficulty": "standard"
    },
@@ -6552,7 +6909,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer only lists gaps without practical, culturally appropriate solutions — board exams award marks for actionable recommendations.",
-    "id": "gen_c12_hs_ch09_q16",
+    "id": "gen_c12_hs_ch09_q17",
     "nodeId": "c12_hs_cbse_09_005",
     "difficulty": "advanced"
    },
@@ -6609,54 +6966,8 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer claiming it \"looks balanced\" reveals reliance on visual variety over quantitative adequacy.",
-    "id": "gen_c12_hs_ch09_q17",
-    "nodeId": "c12_hs_cbse_09_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Critique this meal plan for a sedentary adult woman (1660 kcal RDA): Breakfast — 2 aloo parathas with butter (450 kcal), Lunch — white rice 200g, rajma 100g, curd 100g (550 kcal), Evening — samosa + chai with sugar (350 kcal), Dinner — 3 rotis, paneer butter masala 150g, salad (600 kcal).",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Calcium ~400 mg",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Vitamin C ~20 mg",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Dietary fibre ~15 g",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer focusing only on \"excess calories\" misses that *micronutrient density* is independent of energy adjustment — a key board exam concept.",
     "id": "gen_c12_hs_ch09_q18",
-    "nodeId": "c12_hs_cbse_09_008",
+    "nodeId": "c12_hs_cbse_09_006",
     "difficulty": "advanced"
    }
   ],
@@ -6924,16 +7235,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the five ICMR food groups and give one staple Indian example for each.",
-    "answer": "1) Cereals & Millets — wheat/rice; 2) Pulses & Legumes — toor dal/chana; 3) Milk & Meat Products — milk/egg; 4) Fruits & Vegetables — spinach/mango",
-    "options": [
-     "The seven ICMR exchange lists are: Cereal (primarily carbohydrate), Pulse (protein + carbohydrate), Vegetable (vitamins/minerals/fiber, minimal macros), Fruit (carbohydrate)",
-     "The three primary factors are age, activity level, and economic status",
-     "1) Cereals & Millets — wheat/rice; 2) Pulses & Legumes — toor dal/chana; 3) Milk & Meat Products — milk/egg; 4) Fruits & Vegetables — spinach/mango"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "state the primary and secondary nutrients",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "list the five ICMR food groups",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how the grouping guides balanced",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'ICMR (Indian Council of Medical' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., listing \"proteins\" as a group) reveals the student confuses nutrient classes with food groups — a fundamental category error that makes meal planning impossible.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list the five ICMR food groups with at least three examples per group, (2) state the primary and",
     "id": "gen_c12_hs_ch10_q3",
     "nodeId": "c12_hs_cbse_10_003",
     "difficulty": "standard",
@@ -7123,11 +7465,11 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "State the ICMR 2020 RDA for calcium for an elderly woman (60+ years) and explain why it is higher than that for an adult woman (18-59 years).",
     "answer": "The ICMR 2020 RDA for calcium for an elderly woman (60+ years) is 1000 mg/day, while for an adult woman (18-59 years) it is 800 mg/day",
     "options": [
-     "Meal planning is the process of selecting and combining foods from different food groups in appropriate quantities to meet the Recommended Dietary Allowances (RDA) for all",
      "The seven ICMR exchange lists are: Cereal (primarily carbohydrate), Pulse (protein + carbohydrate), Vegetable (vitamins/minerals/fiber, minimal macros), Fruit (carbohydrate)",
+     "The student must be able to: (1) Calculate the number of servings from each ICMR food group required to meet the RDA for energy, protein, fat, calcium, iron",
      "The ICMR 2020 RDA for calcium for an elderly woman (60+ years) is 1000 mg/day, while for an adult woman (18-59 years) it is 800 mg/day"
     ],
-    "hint": "Straight from the 'Meal planning for adults and the' slide -- match the key terms.",
+    "hint": "Straight from the 'Meal planning for adults' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., stating the same value or lower) reveals the student does not know the specific RDA revision for elderly or misunderstands the physiological basis for increased calcium needs.",
     "id": "gen_c12_hs_ch10_q9",
     "nodeId": "c12_hs_cbse_10_009",
@@ -7391,6 +7733,52 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify any given Indian food item",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "calculate the number of exchanges from each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "construct a one-day menu for a specific",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) classify any given Indian food item into the correct exchange list (cereal, pulse, vegetable, fruit,",
+    "id": "gen_c12_hs_ch10_q16",
+    "nodeId": "c12_hs_cbse_10_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Critique this 2nd trimester meal plan for a 60 kg sedentary woman: Breakfast — 2 aloo paratha + 100 ml tea with sugar; Mid-morning — 1 banana; Lunch — 150 g rice + 30 g dal + 50 g potato bhaji + 100 g curd; Evening — 2 biscuits + tea; Dinner — 3 roti + 50 g paneer matar + salad.",
     "sortItems": [
      {
@@ -7442,7 +7830,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Correct critique: (1) Iron gap: ~15 mg provided (dal, paneer, potato) vs 35 mg RDA — no heme iron, no vitamin C",
-    "id": "gen_c12_hs_ch10_q16",
+    "id": "gen_c12_hs_ch10_q17",
     "nodeId": "c12_hs_cbse_10_006",
     "difficulty": "advanced"
    },
@@ -7521,52 +7909,6 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected answer criteria: (1) Energy: ~2580 kcal (2130 + 600 + 150 for moderate activity).",
-    "id": "gen_c12_hs_ch10_q17",
-    "nodeId": "c12_hs_cbse_10_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Explain why ICMR recommends an additional 35 mg/day of iron during the 2nd and 3rd trimesters of pregnancy, but only 30 mg/day during lactation (0-6 months), despite lactation having higher energy demand.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "expansion of maternal red cell mass",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "obligatory losses",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "fetal and placental accumulation",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer citing \"baby takes iron from mother\" shows misunderstanding of active placental transport vs. passive milk secretion. A wrong answer citing \"menstruation stops in pregnancy too\" ignores that pregnancy has additional fetal/placental demands.",
     "id": "gen_c12_hs_ch10_q18",
     "nodeId": "c12_hs_cbse_10_006",
     "difficulty": "advanced"
@@ -7703,8 +8045,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define \"Family Resource Management\" in your own words and list the two broad categories of resources it deals with.",
     "answer": "Family Resource Management is the systematic process of planning, organizing, implementing, controlling, and evaluating the use of human resources (knowledge, skills, time",
     "options": [
-     "Time use pattern is the distribution of a person's 24 hours across different types of activities. The four standard categories are: (1) Obligatory (work, school)",
-     "The three types are: (1) Money Income — actual cash inflow like salary, wages, pension; (2) Real Income — goods and services available to the family without direct cash payment, e",
+     "Hospitality Management is the professional practice of overseeing the operational departments of lodging and food service establishments (hotels, resorts",
+     "The student can (1) distinguish between savings and investment with examples, (2) list at least five investment avenues available in India with their risk-return-liquidity",
      "Family Resource Management is the systematic process of planning, organizing, implementing, controlling, and evaluating the use of human resources (knowledge, skills, time"
     ],
     "hint": "Straight from the 'Family Resource Management' slide -- match the key terms.",
@@ -7724,8 +8066,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "List the four stages of the guest cycle in correct sequence and state one key activity performed by the front office in each stage.",
     "answer": "Correct sequence: 1) Pre-arrival — quoting rates and reserving rooms via central reservation system; 2) Arrival — guest registration/check-in and room allocation",
     "options": [
-     "Work simplification is the deliberate reduction of effort, time, and motions needed to complete a task",
-     "Correct sequence: 1) Pre-arrival, 2) Arrival, 3) Occupancy, 4) Departure",
+     "The student must be able to classify a given family situation into the correct decision type (routine, strategic, crisis, or technical)",
+     "The student can (1) distinguish between savings and investment with examples, (2) list at least five investment avenues available in India with their risk-return-liquidity",
      "Correct sequence: 1) Pre-arrival — quoting rates and reserving rooms via central reservation system; 2) Arrival — guest registration/check-in and room allocation"
     ],
     "hint": "Straight from the 'Hospitality management' slide -- match the key terms.",
@@ -7741,16 +8083,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "List the five steps of the management process in the correct sequential order as per NCERT Class 12 Home Science.",
-    "answer": "Correct sequence: Planning → Organising → Implementing → Controlling → Evaluating",
-    "options": [
-     "Family Resource Management is the systematic process of planning, organizing, implementing, controlling, and evaluating the use of human resources (knowledge, skills, time",
-     "Correct sequence: 1) Pre-arrival, 2) Arrival, 3) Occupancy, 4) Departure",
-     "Correct sequence: Planning → Organising → Implementing → Controlling → Evaluating"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how the output of Evaluating feeds",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "map a real-life family scenario",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "correctly sequence the five steps",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'management process in family' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., putting Controlling before Implementing, or omitting Evaluating) reveals that the student memorises isolated terms but does not grasp the logical flow: you cannot control what hasn't been implemented, and without evaluation the cycle cannot improve the next plan.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) correctly sequence the five steps with precise NCERT terminology, (2) map a real-life family",
     "id": "gen_c12_hs_ch11_q3",
     "nodeId": "c12_hs_cbse_11_003",
     "difficulty": "advanced",
@@ -7886,16 +8259,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the fundamental difference between savings and investment in terms of risk and purpose?",
-    "answer": "Savings are low-risk funds set aside for short-term needs or emergencies, typically kept in highly liquid instruments like savings accounts",
-    "options": [
-     "Interchangeability means one resource can substitute for another to achieve the same goal (e.g., money can buy time by hiring help; time can save money by DIY repairs)",
-     "Marble lobby: pH-neutral stone cleaner (not acid/alkali), soft microfiber mop, precaution — avoid vinegar/ammonia which etch calcium carbonate",
-     "Savings are low-risk funds set aside for short-term needs or emergencies, typically kept in highly liquid instruments like savings accounts"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between savings and investment",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "list at least five investment avenues",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain the five core principles of sound",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Savings refer to the portion of' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates the two or says savings are for growth reveals confusion between preservation and wealth creation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between savings and investment with examples, (2) list at least five investment avenues",
     "id": "gen_c12_hs_ch11_q7",
     "nodeId": "c12_hs_cbse_11_007",
     "difficulty": "standard",
@@ -8026,8 +8430,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "List four essential criteria for selecting a sofa for a family with young children and a pet dog.",
     "answer": "1) Durable, stain-resistant fabric (e.g., microfiber, leatherette) that withstands spills and claws",
     "options": [
-     "Correct sequence: 1) Pre-arrival — quoting rates and reserving rooms via central reservation system; 2) Arrival — guest registration/check-in and room allocation",
-     "Correct sequence: Planning → Organising → Implementing → Controlling → Evaluating",
+     "The student can (1) distinguish between savings and investment with examples, (2) list at least five investment avenues available in India with their risk-return-liquidity",
+     "Family Resource Management is the systematic process of planning, organizing, implementing, controlling, and evaluating the use of human resources (knowledge, skills, time",
      "1) Durable, stain-resistant fabric (e.g., microfiber, leatherette) that withstands spills and claws"
     ],
     "hint": "Straight from the 'Furniture and furnishings' slide -- match the key terms.",
@@ -8284,6 +8688,52 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "design a balanced weekly time plan",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "calculate the percentage of time spent",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "construct a 24-hour time-use diary",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) construct a 24-hour time-use diary for a family member, categorize activities into",
+    "id": "gen_c12_hs_ch11_q15",
+    "nodeId": "c12_hs_cbse_11_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "A family has a monthly money income of ₹60,000. Their fixed expenses are ₹25,000 (rent ₹15,000, EMI ₹10,000), variable expenses average ₹20,000 (groceries ₹12,000, utilities ₹5,000, transport ₹3,000), and they want to save at least ₹10,000.",
     "sortItems": [
      {
@@ -8346,7 +8796,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that forgets to subtract savings first or adds incorrectly shows inability to prioritize savings as a non-negotiable outflow, a common error in budget construction.",
-    "id": "gen_c12_hs_ch11_q15",
+    "id": "gen_c12_hs_ch11_q16",
     "nodeId": "c12_hs_cbse_11_006",
     "difficulty": "advanced"
    },
@@ -8403,7 +8853,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that only suggests \"sit down\" misses the critical work-height adjustment; suggesting a standard dining chair (45 cm) without foot support causes popliteal pressure and posterior pelvic tilt.",
-    "id": "gen_c12_hs_ch11_q16",
+    "id": "gen_c12_hs_ch11_q17",
     "nodeId": "c12_hs_cbse_11_008",
     "difficulty": "standard"
    },
@@ -8449,66 +8899,9 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that uncritically agrees reveals \"technological determinism\" misconception; ignoring the \"human energy vs monetary cost\" trade-off shows lack of systems thinking.",
-    "id": "gen_c12_hs_ch11_q17",
+    "id": "gen_c12_hs_ch11_q18",
     "nodeId": "c12_hs_cbse_11_008",
     "difficulty": "standard"
-   },
-   {
-    "type": "order",
-    "question": "Design a \"Household Responsibility Charter\" template for a three-generation family (grandparents, parents, two adolescents) that operationalises shared responsibility. Include: task categories, negotiation principles, review mechanism, and a method to value invisible cognitive labour (planning, worrying, remembering).",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Valuing cognitive labour",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
-      "label": "Categories",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "Review",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "Negotiation",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer lists chores only, omitting cognitive/emotional labour and review mechanism — missing the management-process lens (planning, controlling) central to this chapter.",
-    "id": "gen_c12_hs_ch11_q18",
-    "nodeId": "c12_hs_cbse_11_012",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -8523,7 +8916,7 @@ export const C12_HS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hs_ch12",
-  "title": "Extension Education",
+  "title": "Communication and Extension · Ch 12",
   "subtitle": "Home Science · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
@@ -8987,9 +9380,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "List the three tiers of the Panchayati Raj system in their correct hierarchical order from village to district level, and name the constitutional amendment that institutionalised this structure.",
     "answer": "Gram Panchayat (village) → Panchayat Samiti (block) → Zila Parishad (district); 73rd Constitutional Amendment Act, 1992",
     "options": [
-     "Community development is a participatory process where community members collectively identify needs, plan, and implement solutions for their well-being",
-     "The first step is Situation Analysis (or \"Understanding the Situation\")",
-     "Gram Panchayat (village) → Panchayat Samiti (block) → Home Science (district); 73rd Constitutional Amendment Act, 1992",
+     "The Principle of Cultural Sensitivity requires extension workers to respect and work within the community's existing values, beliefs, customs",
+     "Panchayati Raj Institutions (PRIs) are the constitutionally mandated three-tier system of rural local self-government in India (Gram Panchayat at village level",
      "Gram Panchayat (village) → Panchayat Samiti (block) → Zila Parishad (district); 73rd Constitutional Amendment Act, 1992"
     ],
     "hint": "Straight from the 'Panchayati Raj Institutions' slide -- match the key terms.",
@@ -9030,9 +9422,9 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "What is the FIRST step in the programme planning process according to the NCERT Class 12 Home Science textbook?",
     "answer": "The first step is Situation Analysis (or \"Understanding the Situation\")",
     "options": [
-     "The three categories are: (1) Audio aids – e.g., radio, audio recordings; (2) Visual aids – e.g., charts, posters, models, flashcards; (3) Audio-visual aids – e",
-     "Gram Panchayat (village) → Panchayat Samiti (block) → Zila Parishad (district); 73rd Constitutional Amendment Act, 1992",
-     "The first step is Urban (or \"Understanding the Situation\")",
+     "Student can: (1) Explain the three-tier structure of PRIs and the specific functions devolved to each tier under the Eleventh Schedule that intersect with Home Science domains",
+     "Programme evaluation is the systematic assessment of a programme's design, implementation, and outcomes to determine its merit, worth, or significance",
+     "The first step is District Consumer Commission (or \"Understanding the Situation\")",
      "The first step is Situation Analysis (or \"Understanding the Situation\")"
     ],
     "hint": "Straight from the 'Programme planning in extension' slide -- match the key terms.",
@@ -9052,8 +9444,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define \"programme evaluation\" in the context of extension education. How does it differ from \"monitoring\"?",
     "answer": "Programme evaluation is the systematic assessment of a programme's design, implementation, and outcomes to determine its merit, worth, or significance",
     "options": [
-     "The first step is Situation Analysis (or \"Understanding the Situation\")",
-     "Extension Education is an applied behavioural science that brings desirable changes in human behaviour through educational strategies",
+     "The student can (1) list and explain at least 7 core principles of extension education with context-specific examples",
+     "Programme planning in extension education is a systematic, participatory process of identifying community needs, setting achievable objectives",
      "Programme evaluation is the systematic assessment of a programme's design, implementation, and outcomes to determine its merit, worth, or significance"
     ],
     "hint": "Straight from the 'Programme evaluation in extension' slide -- match the key terms.",
@@ -9073,8 +9465,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "List any four personal qualities an extension worker must possess to gain trust in a conservative rural community, and explain why each matters in that specific context.",
     "answer": "Empathy (to understand unspoken constraints like gender norms), patience (behaviour change is slow, e",
     "options": [
-     "A consumer is the final buyer of goods/services for personal/family use, not for resale or commercial purposes",
-     "Extension Education is an applied behavioural science that brings desirable changes in human behaviour through educational strategies",
+     "Student can: (1) Explain the three-tier structure of PRIs and the specific functions devolved to each tier under the Eleventh Schedule that intersect with Home Science domains",
+     "The student can select and justify appropriate PRA techniques (e.g., social mapping, transect walk, seasonal calendar) for a given community context",
      "Empathy (to understand unspoken constraints like gender norms), patience (behaviour change is slow, e"
     ],
     "hint": "Straight from the 'extension worker' slide -- match the key terms.",
@@ -9314,6 +9706,52 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "differentiate extension teaching from formal",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "list and explain at least 7 core principles",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "select appropriate principles for a given",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list and explain at least 7 core principles of extension education with context-specific examples,",
+    "id": "gen_c12_hs_ch12_q16",
+    "nodeId": "c12_hs_cbse_12_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "An APPLY level question: You are an extension worker introducing kitchen gardening to 200 women across 5 villages. Design a teaching strategy using all three method categories, specifying which method you would use at the awareness, interest, and adoption stages, and justify each choice.",
     "sortItems": [
      {
@@ -9365,7 +9803,7 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer using only one method throughout (e.g., only home visits) reveals failure to match method to adoption stage and audience scale.",
-    "id": "gen_c12_hs_ch12_q16",
+    "id": "gen_c12_hs_ch12_q17",
     "nodeId": "c12_hs_cbse_12_004",
     "difficulty": "standard"
    },
@@ -9411,52 +9849,6 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing with the statement shows equating technology with impact — a trap in both board and competitive exams.",
-    "id": "gen_c12_hs_ch12_q17",
-    "nodeId": "c12_hs_cbse_12_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "List the three broad categories of audio-visual aids used in extension work and give one example of each.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Audio aids",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Audio-visual aids",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Visual aids",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer that lists \"projector\" as a category instead of an example reveals confusion between hardware (equipment) and software (aid type), a common error in board exams where students classify devices instead of communication formats.",
     "id": "gen_c12_hs_ch12_q18",
     "nodeId": "c12_hs_cbse_12_005",
     "difficulty": "advanced"
@@ -9474,14 +9866,14 @@ export const C12_HS_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_hs_ch13",
-  "title": "Consumer",
+  "title": "A Consumer Is Any Person Who",
   "subtitle": "Home Science · Chapter 13",
   "classLevel": 12,
   "mode": "senior",
   "subject": "home science",
-  "topic": "Consumer",
+  "topic": "A Consumer Is Any Person Who",
   "chapters": [
-   "Home Science Ch13: Consumer"
+   "Home Science Ch13: A Consumer Is Any Person Who"
   ],
   "nodeIds": [
    "c12_hs_cbse_13_001",
@@ -9504,7 +9896,7 @@ export const C12_HS_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Consumer more about facts, or about reasoning?",
+   "question": "Is A Consumer Is Any Person Who more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -9515,7 +9907,7 @@ export const C12_HS_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Consumer",
+    "title": "A Consumer Is Any Person Who",
     "text": "A consumer is any person who buys goods or avails services for personal use, household consumption, or self-employment purposes, in exchange for consideration (money, promise of payment, or deferred payment).",
     "emoji": "🏠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -9551,7 +9943,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Standardisation",
+    "title": "Standardisation and Quality Marks: ISI,",
     "text": "Standardisation is the process of establishing and applying technical standards to ensure products, processes, and services meet specified quality, safety, and performance criteria; quality marks (ISI/BIS, AGMARK, FPO) are government-mandated or voluntary",
     "emoji": "🏠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -9782,8 +10174,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Define consumer responsibility and give one example that is NOT simply “complaining when cheated.”",
     "answer": "Consumer responsibility is a proactive duty a buyer must fulfil to protect themselves and the market, e.g., checking the ISI mark on an electrical appliance before purchase",
     "options": [
-     "The Legal Metrology Act, 2009 is the primary legislation; it mandates the International System of Units (SI/metric system) for all trade and commerce in India",
-     "The District Forum can entertain complaints where the value of goods/services and compensation claimed does not exceed ₹20 lakh",
+     "(1) Consumer Unity & Trust Society (CUTS) – conducts policy research and advocacy for competition law reforms",
+     "The student must be able to (1) classify the functions of consumer NGOs into at least four distinct categories with Indian examples",
      "Consumer responsibility is a proactive duty a buyer must fulfil to protect themselves and the market, e.g., checking the ISI mark on an electrical appliance before purchase"
     ],
     "hint": "Straight from the 'Consumer responsibilities' slide -- match the key terms.",
@@ -9944,7 +10336,7 @@ export const C12_HS_GEN: SimDef[] = [
      "Yes, it is correct. The National Commission has original jurisdiction for complaints above ₹10 crore",
      "No, she is not correct. The ISI mark (now BIS) certifies *manufactured/industrial products* against Indian Standards under the BIS Act"
     ],
-    "hint": "Straight from the 'Standardisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Standardisation is the process of' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates \"quality mark\" as a generic label without distinguishing the *domain of application* (industrial vs agricultural) and the *legal framework* behind each.",
     "id": "gen_c12_hs_ch13_q7",
     "nodeId": "c12_hs_cbse_13_007",
@@ -10013,8 +10405,9 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "What is the maximum pecuniary jurisdiction of the District Consumer Disputes Redressal Forum under the Consumer Protection Act 1986?",
     "answer": "The District Forum can entertain complaints where the value of goods/services and compensation claimed does not exceed ₹20 lakh",
     "options": [
-     "Consumer needs are the basic requirements (physiological, safety, social, esteem, self-actualization) that motivate a person to acquire goods or services",
-     "Consumer responsibility is a proactive duty a buyer must fulfil to protect themselves and the market, e.g., checking the ISI mark on an electrical appliance before purchase",
+     "The maximum pecuniary jurisdiction of the District Commission is ₹1 crore",
+     "Consumer rights are the fundamental entitlements guaranteed to every consumer under the Consumer Protection Act, 2019 (and previously the 1986 Act) to ensure fair trade practices",
+     "Chief Justice can entertain complaints where the value of goods/services and compensation claimed does not exceed ₹20 lakh",
      "The District Forum can entertain complaints where the value of goods/services and compensation claimed does not exceed ₹20 lakh"
     ],
     "hint": "Straight from the 'Consumer Protection Act 1986' slide -- match the key terms.",
@@ -10049,16 +10442,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name any two national-level consumer NGOs in India and state one specific function each performs that is NOT directly filing a case in a consumer commission.",
-    "answer": "(1) Consumer Unity & Trust Society (CUTS) – conducts policy research and advocacy for competition law reforms",
-    "options": [
-     "The Legal Metrology Act, 2009 is the primary legislation; it mandates the International System of Units (SI/metric system) for all trade and commerce in India",
-     "Consumer needs are the basic requirements (physiological, safety, social, esteem, self-actualization) that motivate a person to acquire goods or services",
-     "(1) Consumer Unity & Trust Society (CUTS) – conducts policy research and advocacy for competition law reforms"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify the functions of consumer NGOs",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how NGOs complement the statutory",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate the effectiveness of a given NGO",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Consumer organisations and NGOs' slide -- match the key terms.",
-    "misconception": "A wrong answer that only mentions \"filing cases\" or \"helping consumers\" reveals the misconception that NGOs are merely legal-aid clinics; it misses their distinct roles in research, testing, and advocacy that prevent disputes before they reach courts.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) classify the functions of consumer NGOs into at least four distinct categories with",
     "id": "gen_c12_hs_ch13_q11",
     "nodeId": "c12_hs_cbse_13_011",
     "difficulty": "advanced",
@@ -10182,6 +10606,63 @@ export const C12_HS_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "trace the appeal pathway from District",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the composition and appointment",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "correctly identify which commission",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) correctly identify which commission has jurisdiction for a given complaint value and",
+    "id": "gen_c12_hs_ch13_q15",
+    "nodeId": "c12_hs_cbse_13_010",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A farmer buys a tractor for ploughing his own fields. A contractor buys an identical tractor to rent out to farmers. Classify both buyers and justify using the \"purpose test\".",
     "answer": "Farmer → Individual Consumer (self-employment in agriculture). Contractor → Reseller/Intermediary (providing rental service is a commercial activity",
@@ -10190,9 +10671,9 @@ export const C12_HS_GEN: SimDef[] = [
      "The statement is incorrect. Conc. HCl alone does not produce a magenta colour with metanil yellow. The correct test uses concentrated HCl + a few drops of water (or simply dilute",
      "Farmer → Individual Consumer (self-employment in agriculture). Contractor → Reseller/Intermediary (providing rental service is a commercial activity"
     ],
-    "hint": "Straight from the 'consumer' slide -- match the key terms.",
+    "hint": "Straight from the 'A consumer is any person who' slide -- match the key terms.",
     "misconception": "A wrong answer classifying the contractor as a consumer misses that *renting out* is a commercial service — the tractor is not for the contractor's own consumption.",
-    "id": "gen_c12_hs_ch13_q15",
+    "id": "gen_c12_hs_ch13_q16",
     "nodeId": "c12_hs_cbse_13_001",
     "difficulty": "standard"
    },
@@ -10205,9 +10686,9 @@ export const C12_HS_GEN: SimDef[] = [
      "Cultural factors are broad, shared values, beliefs, and customs transmitted across generations (e.g",
      "The buyer is an Individual Consumer (self-employment category). The Act explicitly includes goods bought for \"self-employment\" to earn a livelihood as consumer purchases"
     ],
-    "hint": "Straight from the 'consumer' slide -- match the key terms.",
+    "hint": "Straight from the 'A consumer is any person who' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"commercial buyer\" or \"reseller\") reveals the misconception that any income-generating use makes the purchase commercial — the law distinguishes self-employment (livelihood) from resale (profit from trading).",
-    "id": "gen_c12_hs_ch13_q16",
+    "id": "gen_c12_hs_ch13_q17",
     "nodeId": "c12_hs_cbse_13_001",
     "difficulty": "standard"
    },
@@ -10220,23 +10701,8 @@ export const C12_HS_GEN: SimDef[] = [
      "Luxury Car: Economic – high price, need for loan/credit, income elasticity >1; Psychological",
      "(a) Government Consumer — ingredients are consumed in service delivery (feeding children). (b) Not a consumer"
     ],
-    "hint": "Straight from the 'consumer' slide -- match the key terms.",
+    "hint": "Straight from the 'A consumer is any person who' slide -- match the key terms.",
     "misconception": "A wrong answer labelling both as government consumers fails to apply the \"end-use in service\" criterion.",
-    "id": "gen_c12_hs_ch13_q17",
-    "nodeId": "c12_hs_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this statement: \"Any buyer who pays money for a product is a consumer and deserves protection under the Consumer Protection Act.\" Use the classification framework to defend your position.",
-    "answer": "The statement is false. The Act protects only those purchasing for *personal, household, or self-employment use*",
-    "options": [
-     "For ISI/BIS: (1) Check the BIS logo + licence number (CM/L-xxxxxx) on the product/label; (2) Verify the licence number on the BIS website or BIS Care app",
-     "The buyer is an Individual Consumer (self-employment category). The Act explicitly includes goods bought for \"self-employment\" to earn a livelihood as consumer purchases",
-     "The statement is false. The Act protects only those purchasing for *personal, household, or self-employment use*"
-    ],
-    "hint": "Straight from the 'consumer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is false. The Act protects only those purchasing for *personal, household, or self-employment use* —",
     "id": "gen_c12_hs_ch13_q18",
     "nodeId": "c12_hs_cbse_13_001",
     "difficulty": "standard"
@@ -10244,11 +10710,11 @@ export const C12_HS_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about consumer?",
+    "What surprised you about a consumer is any person who?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Consumer mastered! 🎯",
+  "successLine": "A Consumer Is Any Person Who mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -10301,7 +10767,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Stain",
+    "title": "A Stain Is a Localized Discoloration",
     "text": "A stain is a localized discoloration on a fabric caused by the deposition of foreign substances that adhere to fibres through physical, chemical, or combined mechanisms.",
     "emoji": "🏠",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -10325,7 +10791,7 @@ export const C12_HS_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Soaps",
+    "title": "Soaps Are Sodium Or Potassium Salts",
     "text": "Soaps are sodium or potassium salts of long-chain fatty acids produced by the saponification of triglycerides (fats/oils) with alkali; detergents are synthetic surfactants, typically alkylbenzene sulfonates or alcohol ethoxylates, designed to mimic soap's",
     "emoji": "🏠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -10599,16 +11065,47 @@ export const C12_HS_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the chemical composition of temporary hardness in water, and why does boiling remove it?",
-    "answer": "Temporary hardness is caused by dissolved calcium and magnesium bicarbonates, Ca(HCO₃)₂ and Mg(HCO₃)₂",
-    "options": [
-     "The three categories are: (1) Friction washing — e.g., cotton kurta; (2) Machine washing — e.g., polyester blend shirt; (3) Special techniques — e.g., woolen sweater",
-     "Correct: Flush immediately with cold water, then apply a neutral-pH enzymatic detergent. Hot water coagulates the protein (haemoglobin), setting the stain permanently",
-     "Temporary hardness is caused by dissolved calcium and magnesium bicarbonates, Ca(HCO₃)₂ and Mg(HCO₃)₂"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between temporary and permanent",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "select the most appropriate softening method",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "write balanced chemical equations",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Water hardness' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"boiling removes all hardness\" or \"temporary hardness is due to sulfates\") reveals confusion between temporary and permanent hardness and ignorance of the thermal decomposition reaction.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) distinguish between temporary and permanent hardness based on chemical composition and",
     "id": "gen_c12_hs_ch14_q5",
     "nodeId": "c12_hs_cbse_14_005",
     "difficulty": "standard",
@@ -10687,8 +11184,8 @@ export const C12_HS_GEN: SimDef[] = [
     "question": "Name the chemical category of laundry aid that functions by sequestering calcium and magnesium ions in hard water, and give one common example used in Indian households.",
     "answer": "Builder; sodium carbonate (washing soda) or sodium tripolyphosphate (STP)",
     "options": [
-     "Tripalmitin (C₅₁H₉₈O₆) + 3 NaOH → 3 Sodium palmitate (C₁₅H₃₁COONa) + Glycerol (C₃H₈O₃)",
-     "The three categories are: (1) Friction washing — e.g., cotton kurta; (2) Machine washing — e.g., polyester blend shirt; (3) Special techniques — e.g., woolen sweater",
+     "The student must be able to (1) classify at least five distinct soiling agents by source and chemical nature, (2) explain how three fibre properties (e",
+     "Correct: Flush immediately with cold water, then apply a neutral-pH enzymatic detergent. Hot water coagulates the protein (haemoglobin), setting the stain permanently",
      "Builder; sodium carbonate (washing soda) or sodium tripolyphosphate (STP)"
     ],
     "hint": "Straight from the 'Laundry aids' slide -- match the key terms.",
@@ -11028,6 +11525,52 @@ export const C12_HS_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how three fibre properties",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "predict the dominant deterioration mechanism",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "classify at least five distinct soiling",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) classify at least five distinct soiling agents by source and chemical nature, (2)",
+    "id": "gen_c12_hs_ch14_q15",
+    "nodeId": "c12_hs_cbse_14_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the claim: \"Enzyme pre-soak works equally well for all protein stains (blood, egg, milk, perspiration) on all fabrics.\" Defend or refute with three specific exceptions.",
     "sortItems": [
      {
@@ -11068,83 +11611,37 @@ export const C12_HS_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong evaluation shows over-generalisation without considering fibre chemistry or stain age.",
-    "id": "gen_c12_hs_ch14_q15",
+    "id": "gen_c12_hs_ch14_q16",
     "nodeId": "c12_hs_cbse_14_003",
     "difficulty": "advanced"
    },
    {
     "type": "order",
-    "question": "Evaluate this statement: \"Since synthetic fibres like nylon and polyester are strong and durable, they can be washed and dried at the highest machine settings without damage.\" Provide three specific counter-arguments based on fibre physics/chemistry.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Oleophilia",
+      "label": "draw the general structure of a soap",
       "emoji": "📌",
-      "correctBin": "o1"
+      "correctBin": "o0"
      },
      {
       "id": "s1",
-      "label": "Static & pilling",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Thermoplasticity",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer that agrees reveals ignorance of glass transition/melting behaviour and oleophilic soil retention.",
-    "id": "gen_c12_hs_ch14_q16",
-    "nodeId": "c12_hs_cbse_14_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "A family stores winter woolens in a steel trunk with paradichlorobenzene (PDB) crystals sprinkled directly on garments. The trunk is kept in an unventilated attic where summer temperatures reach 40°C. Predict the condition of the woolens after 6 months and justify each prediction with a mechanism.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Steel trunk conducts heat → interior exceeds",
+      "label": "select the appropriate cleansing agent",
       "emoji": "📌",
       "correctBin": "o3"
      },
      {
-      "id": "s1",
-      "label": "PDB sublimation rate doubles every 10°C rise",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
       "id": "s2",
-      "label": "Attic heat + no ventilation → condensation",
+      "label": "explain micelle formation and emulsification",
       "emoji": "📌",
-      "correctBin": "o2"
+      "correctBin": "o1"
      },
      {
       "id": "s3",
-      "label": "Direct contact causes PDB dissolution",
+      "label": "compare the behaviour of soaps and",
       "emoji": "📌",
-      "correctBin": "o1"
+      "correctBin": "o2"
      }
     ],
     "bins": [
@@ -11170,32 +11667,32 @@ export const C12_HS_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Wrong answers focus only on \"PDB evaporates\" missing the direct-contact chemical damage and thermal degradation — reveals students treat repellents as \"magic powder\" without understanding dose-temperature-fibre interactions.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) draw the general structure of a soap and a detergent molecule labeling hydrophobic tail and",
     "id": "gen_c12_hs_ch14_q17",
-    "nodeId": "c12_hs_cbse_14_012",
-    "difficulty": "advanced"
+    "nodeId": "c12_hs_cbse_14_006",
+    "difficulty": "standard"
    },
    {
     "type": "order",
-    "question": "Evaluate this statement for a CBSE 5-mark answer: \"Natural pest repellents like neem leaves, lavender, and cedar are safer and equally effective as chemical repellents (naphthalene, PDB) for long-term fabric storage.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Non-uniform diffusion",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "No ovicidal action",
+      "label": "demonstrate the steps of a special technique",
       "emoji": "📌",
       "correctBin": "o2"
      },
      {
-      "id": "s2",
-      "label": "Volatility",
+      "id": "s1",
+      "label": "classify a given fabric into the correct",
       "emoji": "📌",
       "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the working principle of at least",
+      "emoji": "📌",
+      "correctBin": "o1"
      }
     ],
     "bins": [
@@ -11216,10 +11713,10 @@ export const C12_HS_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Wrong answers say \"natural is better because chemical-free\" — reveals greenwashing bias without efficacy data.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) classify a given fabric into the correct washing method category with justification,",
     "id": "gen_c12_hs_ch14_q18",
-    "nodeId": "c12_hs_cbse_14_012",
-    "difficulty": "advanced"
+    "nodeId": "c12_hs_cbse_14_008",
+    "difficulty": "standard"
    }
   ],
   "reflect": {

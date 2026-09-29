@@ -11,7 +11,7 @@ export const w_c10_historycivicsnoncooperationprogrammechaurisim: SimDef = {
     classLevel: 10, subject: 'history', topic: 'Non-Cooperation Movement: In Towns and Countryside',
     chapters: [],
     nodeIds: ['c10_hist_cbse_02_004', 'c10_hist_cbse_02_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you\'re visiting your grandmother\'s village in Uttar Pradesh and she shows you an old land record from.', goal: 'Master Non-Cooperation Movement: In Towns and Countryside.' },
     discovery: {
         question: 'A student reads that "tribal peasants in the Gudem Hills of Andhra Pradesh attacked police stations and attempted to kill British officials during the.',
@@ -20,7 +20,7 @@ export const w_c10_historycivicsnoncooperationprogrammechaurisim: SimDef = {
         hook: 'Students believe the Non-Cooperation Movement was "uniformly non-violent" and "led entirely by Gandhi" everywhere.',
     },
     teaching: [
-        { title: 'The Non-Cooperation Movement (1920-1922) was.', text: 'The Non-Cooperation Movement (1920-1922) was Gandhi\'s first nationwide mass movement against British rule, launched at the Calcutta Session of Congress (September 1920) and ratified at Nagpur.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Non-Cooperation Movement (1920-1922) was.', text: 'The Non-Cooperation Movement (1920-1922) was Gandhi\'s first nationwide mass movement against British rule, launched at the Calcutta Session of Congress (September 1920) and ratified at Nagpur.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_hist_cbse_02_004', title: 'The Non-Cooperation Movement.',

@@ -11,7 +11,7 @@ export const w_c11_biologyneuralcontrolandcoordinationsim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Animal Tissues: Neural Tissue',
     chapters: [],
     nodeIds: ['c11_bio_cbse_07_004', 'c11_bio_cbse_07_007', 'c11_bio_cbse_07_003', 'c11_bio_cbse_07_001', 'c11_bio_cbse_07_002', 'c11_bio_cbse_07_005', 'c11_bio_cbse_14_006', 'c11_bio_cbse_17_002', 'c11_bio_cbse_16_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'When you touch a hot pan, your hand pulls back before you feel pain — that speed comes from neural tissue.', goal: 'Master Animal Tissues: Neural Tissue.' },
     discovery: {
         question: 'Compare the structural design of frog lungs (paired, thin-walled, poorly septated sacs) with mammalian lungs (highly branched bronchial tree ending in.',
@@ -20,7 +20,7 @@ export const w_c11_biologyneuralcontrolandcoordinationsim: SimDef = {
         hook: 'Students believe frogs "breathe through their skin" as a simple alternative to lungs, imagining cutaneous respiration.',
     },
     teaching: [
-        { title: 'Neural tissue is a specialised animal tissue.', text: 'Neural tissue is a specialised animal tissue composed of neurons (excitable cells that generate and conduct electrical impulses) and neuroglia (supporting cells that protect, nourish, and insulate.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Neural tissue is a specialised animal tissue.', text: 'Neural tissue is a specialised animal tissue composed of neurons (excitable cells that generate and conduct electrical impulses) and neuroglia (supporting cells that protect, nourish, and insulate.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_07_004', title: 'Neural tissue is a specialised animal.',

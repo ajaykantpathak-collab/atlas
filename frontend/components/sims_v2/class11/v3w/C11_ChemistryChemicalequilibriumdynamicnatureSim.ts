@@ -11,7 +11,7 @@ export const w_c11_chemistrychemicalequilibriumdynamicnaturesim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Equilibrium in Chemical Processes: Dynamic Equilibrium',
     chapters: [],
     nodeIds: ['c11_chem_cbse_07_002', 'c11_chem_cbse_07_001', 'c11_chem_cbse_05_012', 'c11_chem_cbse_07_003', 'c11_chem_cbse_07_004', 'c11_chem_cbse_07_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a saturated sugar solution in a glass with undissolved crystals at the bottom — the amount of.', goal: 'Master Equilibrium in Chemical Processes: Dynamic Equilibrium.' },
     discovery: {
         question: 'In the reversible reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium in a closed container, which statement is correct? (a) The forward reaction has stopped.',
@@ -20,7 +20,7 @@ export const w_c11_chemistrychemicalequilibriumdynamicnaturesim: SimDef = {
         hook: 'Students believe "equilibrium means 50% reactants, 50% products" because they equate "equal rates" with "equal.',
     },
     teaching: [
-        { title: 'Dynamic equilibrium in a chemical process is.', text: 'Dynamic equilibrium in a chemical process is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Dynamic equilibrium in a chemical process is.', text: 'Dynamic equilibrium in a chemical process is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_07_002', title: 'Dynamic equilibrium in a chemical.',

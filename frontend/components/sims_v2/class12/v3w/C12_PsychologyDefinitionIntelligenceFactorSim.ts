@@ -11,7 +11,7 @@ export const w_c12_psychologydefinitionintelligencefactorsim: SimDef = {
     classLevel: 12, subject: 'psychology', topic: 'Gardner\'s Theory of Multiple Intelligences: Eight Independent Types',
     chapters: [],
     nodeIds: ['c12_psy_cbse_01_005', 'c12_psy_cbse_01_002', 'c12_psy_cbse_01_003', 'c12_psy_cbse_01_011', 'c12_psy_cbse_01_012', 'c12_psy_cbse_01_001', 'c12_psy_cbse_01_004', 'c12_psy_cbse_01_007', 'c12_psy_cbse_01_008', 'c12_psy_cbse_06_008', 'c12_psy_cbse_06_005', 'c12_psy_cbse_01_006', 'c12_psy_cbse_01_010', 'c12_psy_cbse_07_001', 'c12_psy_cbse_01_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Arjun, who struggles with textbook mathematics but can effortlessly compose.', goal: 'Master Gardner\'s Theory of Multiple Intelligences: Eight Independent Types.' },
     discovery: {
         question: 'A student writes: "Gardner\'s theory says there are 8 types of intelligence, and everyone has all 8 in equal amounts." Identify the error in this statement and.',
@@ -20,7 +20,7 @@ export const w_c12_psychologydefinitionintelligencefactorsim: SimDef = {
         hook: 'Students often believe Gardner\'s theory means "everyone is smart in their own way" — a feel-good platitude that.',
     },
     teaching: [
-        { title: 'Gardner\'s Theory of Multiple Intelligences.', text: 'Gardner\'s Theory of Multiple Intelligences proposes that intelligence is not a single general ability (g-factor) but rather eight distinct, relatively independent intelligences: Linguistic,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Gardner\'s Theory of Multiple Intelligences.', text: 'Gardner\'s Theory of Multiple Intelligences proposes that intelligence is not a single general ability (g-factor) but rather eight distinct, relatively independent intelligences: Linguistic,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_psy_cbse_01_005', title: 'Gardner\'s Theory of Multiple.',

@@ -11,7 +11,7 @@ export const w_c9_mathematicsareatheoremsparallelogramssim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Area of Rectangle and Parallelogram: Formulas',
     chapters: [],
     nodeIds: ['c9_math_ch6_4', 'c9_math_ch1_6', 'c9_math_ch6_6', 'c9_math_ch1_5', 'c9_math_ch1_8', 'c9_math_ch5_1', 'c9_math_ch5_3', 'c9_math_ch5_8', 'c9_math_ch6_1', 'c9_math_ch6_10', 'c9_math_ch6_11', 'c9_math_ch6_2', 'c9_math_ch6_5', 'c9_math_ch6_7', 'c9_math_ch6_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are designing a rectangular garden bed of length 12 m and breadth 8 m, and a parallelogram-shaped.', goal: 'Master Area of Rectangle and Parallelogram: Formulas.' },
     discovery: {
         question: 'Explain why every diameter of a circle is a chord, but not every chord is a diameter. Use the definitions of chord and diameter in your reasoning.',
@@ -20,7 +20,7 @@ export const w_c9_mathematicsareatheoremsparallelogramssim: SimDef = {
         hook: 'Students treat "chord" and "diameter" as interchangeable, or think any line inside the circle is a radius.',
     },
     teaching: [
-        { title: 'The area of a rectangle is the product of.', text: 'The area of a rectangle is the product of its length and breadth (A = l × b), where length and breadth are perpendicular adjacent sides.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The area of a rectangle is the product of.', text: 'The area of a rectangle is the product of its length and breadth (A = l × b), where length and breadth are perpendicular adjacent sides.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch6_4', title: 'The area of a rectangle is the product.',

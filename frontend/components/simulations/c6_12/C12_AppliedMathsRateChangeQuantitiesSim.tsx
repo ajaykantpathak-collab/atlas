@@ -1153,7 +1153,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
         <motion.div initial={{ x: -20 }} animate={{ x: 0 }} className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 10 }}
-            className="text-3xl p-2 bg-cyan-950/70 border border-cyan-700/50 rounded-2xl shadow-inner cursor-pointer"
+            className="text-3xl p-2 bg-gold-950/70 border border-gold-700/50 rounded-2xl shadow-inner cursor-pointer"
           >
             {subjectConfig.emoji}
           </motion.span>
@@ -1163,7 +1163,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
               <motion.span
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
-                className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-cyan-900/60 border border-cyan-500/30 text-cyan-300"
+                className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-gold-900/60 border border-gold-500/30 text-gold-300"
               >
                 ISC Class 12
               </motion.span>
@@ -1185,7 +1185,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-cyan-600 text-white shadow-md shadow-cyan-900/40'
+                  ? 'bg-gold-600 text-white shadow-md shadow-gold-900/40'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
             >
@@ -1211,9 +1211,9 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-lg"
+              className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-lg"
             >
-              <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm tracking-wide uppercase">
+              <div className="flex items-center gap-2 text-gold-300 font-bold text-sm tracking-wide uppercase">
                 <span>⚡ Narrative Mission</span>
               </div>
               <h2 className="text-lg font-extrabold text-white mt-1">{SCENARIO.title}</h2>
@@ -1222,7 +1222,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="text-xs text-indigo-300/80 mt-2 font-medium bg-indigo-950/40 p-2.5 rounded-xl border border-indigo-800/30"
+                className="text-xs text-gold-300/80 mt-2 font-medium bg-gold-950/40 p-2.5 rounded-xl border border-gold-800/30"
               >
                 💡 {SCENARIO.context}
               </motion.p>
@@ -1281,10 +1281,10 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900 border-slate-800 text-slate-400 opacity-60'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-cyan-500/50'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1308,7 +1308,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-cyan-900/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-900/30 flex items-center gap-2"
                   >
                     Start Interactive Lab Visualizer →
                   </motion.button>
@@ -1335,7 +1335,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
               className="flex items-center justify-between bg-slate-900/80 p-3.5 rounded-2xl border border-slate-800"
             >
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                   Interactive Exploration {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-base font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1355,7 +1355,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextSlide}
                   disabled={currentSlide === EXPLORATION_STEPS.length - 1}
-                  className="px-3 py-1.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-xs font-bold rounded-lg text-white"
+                  className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-xs font-bold rounded-lg text-white"
                 >
                   Next →
                 </motion.button>
@@ -1401,7 +1401,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         <div>
                           <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                             <span>Current Radius (r):</span>
-                            <span className="text-cyan-400 font-mono">{tankRadius.toFixed(1)} m</span>
+                            <span className="text-gold-400 font-mono">{tankRadius.toFixed(1)} m</span>
                           </div>
                           <input
                             type="range"
@@ -1411,14 +1411,14 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                             value={tankRadius}
                             onChange={e => handleTankRadiusChange(parseFloat(e.target.value))}
                             aria-label="Adjust Tank Radius"
-                            className="w-full accent-cyan-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
 
                         <div>
                           <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                             <span>Inflow Rate (dV/dt):</span>
-                            <span className="text-cyan-400 font-mono">{tankInflow} L/s</span>
+                            <span className="text-gold-400 font-mono">{tankInflow} L/s</span>
                           </div>
                           <input
                             type="range"
@@ -1428,7 +1428,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                             value={tankInflow}
                             onChange={e => setTankInflow(parseInt(e.target.value))}
                             aria-label="Adjust Inflow Rate"
-                            className="w-full accent-cyan-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                       </div>
@@ -1521,7 +1521,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <span>Position (x):</span>
-                          <span className="text-cyan-400 font-mono">{curveX.toFixed(2)}</span>
+                          <span className="text-gold-400 font-mono">{curveX.toFixed(2)}</span>
                         </div>
                         <input
                           type="range"
@@ -1531,7 +1531,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                           value={curveX}
                           onChange={e => handleCurveXChange(parseFloat(e.target.value))}
                           aria-label="Adjust Curve X coordinate"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1552,7 +1552,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         </div>
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">2nd Derivative f&apos;&apos;(x) = 6x:</span>
-                          <span className="text-indigo-300 font-mono font-bold">{curveConcavity.toFixed(3)}</span>
+                          <span className="text-gold-300 font-mono font-bold">{curveConcavity.toFixed(3)}</span>
                         </div>
                         <div className="pt-1 border-t border-slate-800">
                           <span className="text-xs font-bold text-amber-300">{curveMonotonicity}</span>
@@ -1589,9 +1589,9 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     <motion.div
                       initial={{ scale: 0.98 }}
                       animate={{ scale: 1 }}
-                      className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-2"
+                      className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-2"
                     >
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Predict-Then-Check:</p>
+                      <p className="text-xs font-bold text-gold-300 uppercase">Predict-Then-Check:</p>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1628,7 +1628,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         onClick={() => setActiveCommerceTab(tab)}
                         className={`px-3 py-1 text-xs font-bold rounded-lg capitalize transition-all ${
                           activeCommerceTab === tab
-                            ? 'bg-indigo-600 text-white'
+                            ? 'bg-gold-600 text-white'
                             : 'text-slate-400 hover:text-slate-200 bg-slate-800'
                         }`}
                       >
@@ -1709,7 +1709,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <span>Production Output (x):</span>
-                          <span className="text-cyan-400 font-mono font-bold">{commUnits} units</span>
+                          <span className="text-gold-400 font-mono font-bold">{commUnits} units</span>
                         </div>
                         <input
                           type="range"
@@ -1719,7 +1719,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                           value={commUnits}
                           onChange={e => handleCommUnitsChange(parseInt(e.target.value))}
                           aria-label="Adjust Production Output"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1744,7 +1744,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         </div>
                         <div className="flex justify-between pt-1 border-t border-slate-800">
                           <span className="text-slate-400">Marginal Revenue (MR):</span>
-                          <span className="text-cyan-400 font-mono">₹{commMR.toFixed(2)}/unit</span>
+                          <span className="text-gold-400 font-mono">₹{commMR.toFixed(2)}/unit</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Marginal Cost (MC):</span>
@@ -1756,7 +1756,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={() => handleCommUnitsChange(114)}
-                        className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                        className="w-full py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                       >
                         Jump to Optimal Profit (MR = MC at x ≈ 114)
                       </motion.button>
@@ -1807,7 +1807,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <span>Upper Limit (b):</span>
-                          <span className="text-cyan-400 font-mono font-bold">
+                          <span className="text-gold-400 font-mono font-bold">
                             {intUpperLimit.toFixed(2)} rad ({(intUpperLimit / Math.PI).toFixed(2)}π)
                           </span>
                         </div>
@@ -1819,7 +1819,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                           value={intUpperLimit}
                           onChange={e => handleIntUpperLimitChange(parseFloat(e.target.value))}
                           aria-label="Adjust Integral Upper Limit"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1834,7 +1834,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400 font-bold">Net Signed Area:</span>
-                          <span className="text-cyan-400 font-mono font-bold">{netIntegralValue.toFixed(4)}</span>
+                          <span className="text-gold-400 font-mono font-bold">{netIntegralValue.toFixed(4)}</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400 font-bold">Total Geometric Area:</span>
@@ -1873,7 +1873,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center">
-                      <h3 className="text-sm font-bold text-cyan-300">
+                      <h3 className="text-sm font-bold text-gold-300">
                         King&apos;s Rule: ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx
                       </h3>
                       <motion.button
@@ -1896,7 +1896,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <p className="text-xs font-bold text-slate-400 mb-1">Original Integral I:</p>
-                        <p className="text-sm font-mono text-cyan-300">
+                        <p className="text-sm font-mono text-gold-300">
                           I = ∫₀^(π/2) (sin¹⁰ x) / (sin¹⁰ x + cos¹⁰ x) dx
                         </p>
                       </motion.div>
@@ -1911,9 +1911,9 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-2"
+                      className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-2"
                     >
-                      <p className="text-xs font-bold text-indigo-300">The 2I Algebraic Magic:</p>
+                      <p className="text-xs font-bold text-gold-300">The 2I Algebraic Magic:</p>
                       <p className="text-xs text-slate-200 font-mono leading-relaxed">
                         2I = ∫₀^(π/2) [(sin¹⁰ x + cos¹⁰ x) / (sin¹⁰ x + cos¹⁰ x)] dx = ∫₀^(π/2) 1 dx = π/2
                       </p>
@@ -1965,7 +1965,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToChallenge}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg"
                 >
                   Ready for ISC Exam Challenges! →
                 </motion.button>
@@ -1987,9 +1987,9 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     step={0.5}
                     value={tankRadius}
                     onChange={e => handleTankRadiusChange(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500 mt-2"
+                    className="w-full accent-gold-500 mt-2"
                   />
-                  <span className="text-[11px] text-cyan-400 font-mono mt-1 block">dr/dt = {rateDrDt.toFixed(3)} cm/s</span>
+                  <span className="text-[11px] text-gold-400 font-mono mt-1 block">dr/dt = {rateDrDt.toFixed(3)} cm/s</span>
                 </motion.div>
 
                 <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -2001,7 +2001,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     step={0.1}
                     value={curveX}
                     onChange={e => handleCurveXChange(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500 mt-2"
+                    className="w-full accent-gold-500 mt-2"
                   />
                   <span className="text-[11px] text-amber-400 font-mono mt-1 block">Slope f&apos;(x) = {curveSlope.toFixed(2)}</span>
                 </motion.div>
@@ -2015,7 +2015,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     step={2}
                     value={commUnits}
                     onChange={e => handleCommUnitsChange(parseInt(e.target.value))}
-                    className="w-full accent-cyan-500 mt-2"
+                    className="w-full accent-gold-500 mt-2"
                   />
                   <span className="text-[11px] text-emerald-400 font-mono mt-1 block">Profit = ₹{commProfit.toFixed(0)}</span>
                 </motion.div>
@@ -2053,7 +2053,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                       difficulty === 'foundation'
                         ? 'bg-emerald-950 border border-emerald-500/40 text-emerald-400'
                         : difficulty === 'standard'
-                        ? 'bg-blue-950 border border-blue-500/40 text-blue-400'
+                        ? 'bg-gold-950 border border-gold-500/40 text-gold-400'
                         : 'bg-rose-950 border border-rose-500/40 text-rose-400'
                     }`}
                   >
@@ -2077,7 +2077,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
               className="h-2 bg-slate-800 rounded-full overflow-hidden"
             >
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -2109,10 +2109,10 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                           ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                           : showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950/50'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-cyan-500/40'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500/40'
                       }`}
                     >
-                      <span className="font-bold text-cyan-400 mr-2.5">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2.5">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2133,7 +2133,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         whileTap={{ scale: 0.95 }}
                         role="button"
                         aria-label={`Draggable ${item.label}`}
-                        className="px-4 py-2 bg-indigo-700/80 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow border border-indigo-500/40"
+                        className="px-4 py-2 bg-gold-700/80 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow border border-gold-500/40"
                       >
                         {item.label}
                       </motion.div>
@@ -2180,7 +2180,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                   >
                     Verify Mappings
                   </motion.button>
@@ -2211,7 +2211,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         aria-label={`Sort step ${displayIdx + 1}`}
                         className="p-3.5 bg-slate-800/90 rounded-xl text-slate-200 text-xs font-semibold cursor-grab border border-slate-700 flex items-center gap-3"
                       >
-                        <span className="w-5 h-5 rounded-full bg-cyan-950 border border-cyan-500 text-cyan-400 flex items-center justify-center text-[10px]">
+                        <span className="w-5 h-5 rounded-full bg-gold-950 border border-gold-500 text-gold-400 flex items-center justify-center text-[10px]">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2227,7 +2227,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                         sortArrangement.length > 0 ? sortArrangement : challenge.sortItems?.map((_, i) => i) || [];
                       handleAnswer(ans);
                     }}
-                    className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                   >
                     Check Sequence
                   </motion.button>
@@ -2245,7 +2245,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                       onChange={e => setNumericInput(e.target.value)}
                       placeholder="Enter value"
                       aria-label="Enter numeric answer"
-                      className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                      className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   </div>
@@ -2254,7 +2254,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                   >
                     Submit Calculated Value
                   </motion.button>
@@ -2338,11 +2338,11 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
             <motion.div
               initial={{ y: -10 }}
               animate={{ y: 0 }}
-              className="p-6 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-emerald-600/50 text-center space-y-2"
+              className="p-6 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-emerald-600/50 text-center space-y-2"
             >
               <h2 className="text-2xl sm:text-3xl font-black text-white">Laboratory Certification Complete!</h2>
               <p className="text-sm text-slate-300">
-                Final Calculated Score: <span className="text-emerald-400 font-bold font-mono">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-cyan-300 font-bold capitalize">{masteryLevel}</span>
+                Final Calculated Score: <span className="text-emerald-400 font-bold font-mono">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-gold-300 font-bold capitalize">{masteryLevel}</span>
               </p>
             </motion.div>
 
@@ -2354,9 +2354,9 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
                 errors === 0
                   ? 'bg-emerald-950/70 border-emerald-500/80'
                   : errors <= 3
-                  ? 'bg-cyan-950/70 border-cyan-500/80'
+                  ? 'bg-gold-950/70 border-gold-500/80'
                   : errors <= 7
-                  ? 'bg-blue-950/70 border-blue-500/80'
+                  ? 'bg-gold-950/70 border-gold-500/80'
                   : 'bg-amber-950/70 border-amber-500/80'
               } space-y-2 text-center`}
             >
@@ -2417,13 +2417,13 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-4 bg-cyan-950/40 rounded-2xl border border-cyan-800/50 flex items-center justify-between"
+              className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/50 flex items-center justify-between"
             >
               <div>
-                <h3 className="text-xs font-bold text-cyan-300 uppercase tracking-wider">Spaced Review Schedule (SM-2):</h3>
+                <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Spaced Review Schedule (SM-2):</h3>
                 <p className="text-xs text-slate-300 mt-0.5">
                   Next automated review scheduled in{' '}
-                  <span className="text-cyan-300 font-bold font-mono">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span>.
+                  <span className="text-gold-300 font-bold font-mono">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span>.
                 </p>
               </div>
               <motion.span whileHover={{ rotate: 20 }} className="text-2xl cursor-pointer">
@@ -2437,7 +2437,7 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-2"
             >
-              <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Metacognitive Reflection:</h3>
+              <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Metacognitive Reflection:</h3>
               <ul className="space-y-1.5 text-xs text-slate-400">
                 <li>1. Why is setting MR = MC the profit peak, whereas R = C is breakeven?</li>
                 <li>2. How does the chain rule link the geometric expansion of a 3D tank to 1D radial growth?</li>
@@ -2449,14 +2449,14 @@ function C12_AppliedMathsRateChangeQuantitiesSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-700/50 space-y-3"
+              className="p-5 bg-gold-950/50 rounded-2xl border border-gold-700/50 space-y-3"
             >
-              <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-300">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <motion.li key={i} whileHover={{ x: 3 }} className="flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                    <span className="text-gold-400 font-bold">{i + 1}.</span>
                     <span>{st}</span>
                   </motion.li>
                 ))}

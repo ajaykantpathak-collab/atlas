@@ -11,11 +11,11 @@ export const w_c11_geographyriverregimesim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Multipurpose River Projects: Bhakra-Nangal Project',
     chapters: [],
     nodeIds: ['c11_geo_cbse_13_003', 'c11_geo_cbse_09_009', 'c11_geo_cbse_12_009', 'c11_geo_cbse_13_001', 'c11_geo_cbse_13_002', 'c11_geo_cbse_13_004', 'c11_geo_cbse_13_007', 'c11_geo_cbse_13_008', 'c11_geo_cbse_09_002', 'c11_geo_cbse_09_003', 'c11_geo_cbse_09_004', 'c11_geo_cbse_09_005', 'c11_geo_cbse_09_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine standing at the Bhakra Dam viewpoint in November: the Gobind Sagar stretches 90 km upstream, its.', goal: 'Master Multipurpose River Projects: Bhakra-Nangal Project.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The Bhakra-Nangal Project is a multipurpose.', text: 'The Bhakra-Nangal Project is a multipurpose river valley project on the Sutlej River (a tributary of the Indus) comprising the Bhakra Dam (226 m high gravity dam at Bhakra village, Bilaspur district,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Bhakra-Nangal Project is a multipurpose.', text: 'The Bhakra-Nangal Project is a multipurpose river valley project on the Sutlej River (a tributary of the Indus) comprising the Bhakra Dam (226 m high gravity dam at Bhakra village, Bilaspur district,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_13_003', title: 'The Bhakra-Nangal Project is a.',

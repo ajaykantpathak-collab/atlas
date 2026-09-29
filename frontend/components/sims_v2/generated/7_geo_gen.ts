@@ -61,7 +61,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Physical Divisions Of India Refer",
+    "title": "Physical Divisions Of India",
     "text": "The physical divisions of India refer to the broad structural landform units—namely the Northern Mountains, the Northern Plains, the Peninsular Plateau, the Indian Desert, the Coastal Plains, and the Islands—that shape the country's diverse relief and",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -123,7 +123,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "options": [
      "Criteria should include: 1. A distinct continental plate association or large land area. 2. Severe natural physical barriers on at least one side (like high mountain ranges)",
      "Accurate — fold-mountain uplift from plate collision (an endogenic force) formed the Himalayas",
-     "India lies entirely in the Northern and Divide hemispheres",
+     "India lies entirely in the Northern and Barren Island hemispheres",
      "India lies entirely in the Northern and Eastern hemispheres"
     ],
     "hint": "Straight from the 'India's location, latitude,' slide -- match the key terms.",
@@ -143,9 +143,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which major physical mountain barrier separates the Indian Subcontinent from the rest of the Asian continent to the north?",
     "answer": "The Himalayan mountain range",
     "options": [
-     "The Lakshadweep Islands are located in the Arabian Sea and are formed of coral deposits (coral atolls)",
-     "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India",
-     "Konkan mountain range",
+     "Can analyze how a specific physical landform or climate type in India directly influences local human lifestyle, architecture, and livelihood",
+     "Can define the physical and geopolitical boundaries that distinguish the Indian Subcontinent from the rest of Asia, list all of its surrounding neighbouring countries",
+     "Nepal mountain range",
      "The Himalayan mountain range"
     ],
     "hint": "Straight from the 'Indian Subcontinent' slide -- match the key terms.",
@@ -165,11 +165,11 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which of the following is NOT one of the major physical divisions of India? A) The Northern Mountains B) The Great Rift Valley C) The Peninsular Plateau D) The Coastal Plains",
     "answer": "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India",
     "options": [
-     "The Narmada River valley",
-     "The correct answer is B. Himalayan rivers are fed by melting glaciers and monsoon rains, whereas Peninsular rivers are mainly fed by seasonal monsoon rainfall",
+     "Can locate India's extreme latitude and longitude points on a world map, calculate the approximate longitudinal and latitudinal extent",
+     "Students can correctly identify, locate, and differentiate the major physical divisions of India on a physical map, explaining the primary geomorphic process (tectonic uplift",
      "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India"
     ],
-    "hint": "Straight from the 'physical divisions of India refer' slide -- match the key terms.",
+    "hint": "Straight from the 'physical divisions of India' slide -- match the key terms.",
     "misconception": "A student who chooses A, C, or D is confusing correct physical divisions with incorrect ones, showing a lack of basic recall regarding India's main structural units.",
     "id": "gen_c7_geo_ch01_q3",
     "nodeId": "c7_geo_ch01_003",
@@ -205,9 +205,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which three major river systems are primarily responsible for the formation and nourishment of the Northern Plains of India?",
     "answer": "The Indus, Ganga, and Brahmaputra river systems",
     "options": [
-     "The Lakshadweep Islands are located in the Arabian Sea and are formed of coral deposits (coral atolls)",
-     "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India",
-     "The Indus, Ganga, and Kochi river systems",
+     "The Narmada River valley",
+     "Can distinguish between volcanic/tectonic island formation (Andaman and Nicobar) and coral-reef island formation (Lakshadweep)",
+     "The Indus, Ganga, and Eastern Coastal Plain river systems",
      "The Indus, Ganga, and Brahmaputra river systems"
     ],
     "hint": "Straight from the 'Northern Plains of India' slide -- match the key terms.",
@@ -227,9 +227,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which river valley acts as the major dividing boundary separating the Central Highlands from the Deccan Plateau in the Peninsular Plateau region?",
     "answer": "The Narmada River valley",
     "options": [
-     "The Himalayan mountain range",
-     "The Himalayas were formed by the collision of the Indian tectonic plate with the Eurasian tectonic plate, which folded and lifted up sedimentary rock from the ancient Tethys Sea",
-     "Physical valley",
+     "The correct answer is B. Himalayan rivers are fed by melting glaciers and monsoon rains, whereas Peninsular rivers are mainly fed by seasonal monsoon rainfall",
+     "Students can correctly identify, locate, and differentiate the major physical divisions of India on a physical map, explaining the primary geomorphic process (tectonic uplift",
+     "Indo-Gangetic valley",
      "The Narmada River valley"
     ],
     "hint": "Straight from the 'Peninsular Plateau' slide -- match the key terms.",
@@ -249,9 +249,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which regional subdivision of the Western Coastal Plain lies along the coast of Karnataka and northern Kerala?",
     "answer": "The Kanara coast (or Canara coast)",
     "options": [
-     "The Narmada River valley",
-     "The Lakshadweep Islands are located in the Arabian Sea and are formed of coral deposits (coral atolls)",
-     "Apply coast (or Canara coast)",
+     "The Himalayan mountain range",
+     "Can define the physical and geopolitical boundaries that distinguish the Indian Subcontinent from the rest of Asia, list all of its surrounding neighbouring countries",
+     "Earth coast (or Canara coast)",
      "The Kanara coast (or Canara coast)"
     ],
     "hint": "Straight from the 'coastal plains of India' slide -- match the key terms.",
@@ -271,9 +271,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which ocean body contains the Lakshadweep Islands, and what is their primary geological origin?",
     "answer": "The Lakshadweep Islands are located in the Arabian Sea and are formed of coral deposits (coral atolls)",
     "options": [
-     "The Himalayas were formed by the collision of the Indian tectonic plate with the Eurasian tectonic plate, which folded and lifted up sedimentary rock from the ancient Tethys Sea",
-     "The Indus, Ganga, and Brahmaputra river systems",
-     "The Lakshadweep Islands are located in the Identify Kanyakumari's and are formed of coral deposits (coral atolls)",
+     "Students can correctly identify, locate, and differentiate the major physical divisions of India on a physical map, explaining the primary geomorphic process (tectonic uplift",
+     "Can locate India's extreme latitude and longitude points on a world map, calculate the approximate longitudinal and latitudinal extent",
+     "The Lakshadweep Islands are located in the Brahmaputra and are formed of coral deposits (coral atolls)",
      "The Lakshadweep Islands are located in the Arabian Sea and are formed of coral deposits (coral atolls)"
     ],
     "hint": "Straight from the 'Islands of India comprise two' slide -- match the key terms.",
@@ -293,8 +293,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which of the following best describes the primary source of water for Himalayan river systems compared to Peninsular river systems? A) Both are fed exclusively by monsoon rainfall.",
     "answer": "The correct answer is B. Himalayan rivers are fed by melting glaciers and monsoon rains, whereas Peninsular rivers are mainly fed by seasonal monsoon rainfall",
     "options": [
-     "The Himalayan mountain range",
-     "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India",
+     "The Indus, Ganga, and Brahmaputra river systems",
+     "Students can trace the courses of major Indian river systems (Indus, Ganga, Brahmaputra, Godavari, Krishna, Mahanadi, Cauvery, Narmada, Tapi)",
      "The correct answer is B. Himalayan rivers are fed by melting glaciers and monsoon rains, whereas Peninsular rivers are mainly fed by seasonal monsoon rainfall"
     ],
     "hint": "Straight from the 'major river systems of India' slide -- match the key terms.",
@@ -333,9 +333,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What term describes how human societies adapt their clothing, food, and housing to match their surrounding landforms and climate?",
     "answer": "Environmental adaptation or geographical influence on culture",
     "options": [
-     "The Himalayas were formed by the collision of the Indian tectonic plate with the Eurasian tectonic plate, which folded and lifted up sedimentary rock from the ancient Tethys Sea",
-     "The Indus, Ganga, and Brahmaputra river systems",
-     "Calculate adaptation or geographical influence on culture",
+     "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India",
+     "Students can correctly identify, locate, and differentiate the major physical divisions of India on a physical map, explaining the primary geomorphic process (tectonic uplift",
+     "Indus adaptation or geographical influence on culture",
      "Environmental adaptation or geographical influence on culture"
     ],
     "hint": "Straight from the 'way natural landforms, climate' slide -- match the key terms.",
@@ -412,6 +412,21 @@ export const C7_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can locate India's extreme latitude and longitude points on a world map, calculate the approximate longitudinal and latitudinal extent",
+    "options": [
+     "The correct answer is B. The Great Rift Valley is a major geographical feature located in East Africa, not in India",
+     "Students can correctly identify, locate, and differentiate the major physical divisions of India on a physical map, explaining the primary geomorphic process (tectonic uplift",
+     "Can locate India's extreme latitude and longitude points on a world map, calculate the approximate longitudinal and latitudinal extent"
+    ],
+    "hint": "Straight from the 'India's location, latitude,' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can locate India's extreme latitude and longitude points on a world map, calculate the approximate longitudinal and",
+    "id": "gen_c7_geo_ch01_q16",
+    "nodeId": "c7_geo_ch01_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why is the longitudinal extent of India approximately 30 degrees, yet the local time difference between Gujarat in the west and Arunachal Pradesh in the east is about two hours?",
     "answer": "Earth rotates 360 degrees in 24 hours, meaning it takes about 4 minutes to rotate 1 degree of longitude; multiplying roughly 30 degrees by 4 minutes gives 120 minutes or 2 hours",
     "options": [
@@ -421,7 +436,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's location, latitude,' slide -- match the key terms.",
     "misconception": "A student who says the time difference is due to latitude misunderstands that longitudes govern time zones while latitudes govern climate and day-length.",
-    "id": "gen_c7_geo_ch01_q16",
+    "id": "gen_c7_geo_ch01_q17",
     "nodeId": "c7_geo_ch01_001",
     "difficulty": "advanced"
    },
@@ -436,21 +451,6 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian Subcontinent' slide -- match the key terms.",
     "misconception": "A wrong answer indicates confusion between physical land borders and overseas proximity.",
-    "id": "gen_c7_geo_ch01_q17",
-    "nodeId": "c7_geo_ch01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a geographical boundary profile for a newly discovered subcontinent-sized landmass, listing three natural criteria it must possess to qualify as a distinct subcontinent.",
-    "answer": "Criteria should include: 1. A distinct continental plate association or large land area. 2. Severe natural physical barriers on at least one side (like high mountain ranges)",
-    "options": [
-     "Steps: 1. Identify Kanyakumari's latitude as 8°N and Srinagar's latitude as 34°N. 2. Subtract the lower latitude from the higher latitude (34 - 8 = 26 degrees)",
-     "A good response proposes dividing the 40-degree span by 15 degrees per time zone (since 15 degrees equals one hour of Earth's rotation)",
-     "Criteria should include: 1. A distinct continental plate association or large land area. 2. Severe natural physical barriers on at least one side (like high mountain ranges)"
-    ],
-    "hint": "Straight from the 'Indian Subcontinent' slide -- match the key terms.",
-    "misconception": "A poor answer lists political features (like having a unified government or common language) instead of physical geographical criteria.",
     "id": "gen_c7_geo_ch01_q18",
     "nodeId": "c7_geo_ch01_002",
     "difficulty": "standard"
@@ -468,14 +468,14 @@ export const C7_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_geo_ch02",
-  "title": "Weather",
+  "title": "Weather Is The Day-to-day",
   "subtitle": "Geography · Chapter 2",
   "classLevel": 7,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Weather",
+  "topic": "Weather Is The Day-to-day",
   "chapters": [
-   "Geography Ch2: Weather"
+   "Geography Ch2: Weather Is The Day-to-day"
   ],
   "nodeIds": [
    "c7_geo_ch02_001",
@@ -496,7 +496,7 @@ export const C7_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Weather in real working life?",
+   "question": "Who uses Weather Is The Day-to-day in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -507,37 +507,37 @@ export const C7_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Weather",
+    "title": "Weather Is The Day-to-day",
     "text": "Weather is the day-to-day state of the atmosphere at a specific place and time, characterized by changes in elements such as temperature, humidity, wind, and precipitation.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Atmosphere",
+    "title": "Atmosphere Is a Vast Blanket Of Gases",
     "text": "The atmosphere is a vast blanket of gases surrounding the Earth, held in place by gravitational pull, extending hundreds of kilometers above the surface and divided into distinct vertical layers based on temperature variations.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Temperature",
+    "title": "Temperature Is The Degree Of Hotness",
     "text": "Temperature is the degree of hotness or coldness of the atmosphere, measured in degrees Celsius (°C) or Fahrenheit (°F), driven primarily by the amount of solar radiation received and modified by local geographical factors.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Humidity",
+    "title": "Humidity Is The Amount Of Invisible",
     "text": "Humidity is the amount of invisible water vapour present in the air at any given time and place. It plays a critical role in shaping local weather conditions, influencing how hot or sticky we feel, and determining whether clouds, fog, or rainfall will form.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Wind",
+    "title": "Wind Is The Horizontal Movement",
     "text": "Wind is the horizontal movement of air from areas of high atmospheric pressure to areas of low atmospheric pressure, driven by uneven heating of the Earth's surface.",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Rainfall",
+    "title": "Rainfall Is The Primary Form",
     "text": "Rainfall is the primary form of precipitation where condensed water droplets in clouds become too heavy to remain suspended in the atmosphere and fall to the Earth's surface as liquid water.",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -555,7 +555,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Weather",
+    "title": "Weather Is The Day-to-day Atmospheric",
     "text": "Weather is the day-to-day atmospheric condition of a specific place in terms of temperature, humidity, and rainfall, whereas climate refers to the average weather pattern observed over a long period, usually 30 years or more.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -573,11 +573,11 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What is the primary difference between weather and climate when observing an Indian state over different time frames?",
     "answer": "Weather refers to short-term, day-to-day atmospheric conditions, whereas climate represents long-term weather patterns observed over 30 years or more",
     "options": [
-     "A good plan includes placing identical rain gauges in both locations, recording daily measurements at the same time for two weeks",
-     "Steps: 1. Identify the time frame (35 years of repeated observation). 2. Recognize that data averaged over decades defines regional patterns",
+     "Students can successfully distinguish between short-term atmospheric changes (weather) and long-term regional patterns (climate) by analyzing meteorological data sets from Indian",
+     "Students can define weather using its core atmospheric elements and differentiate between momentary atmospheric conditions and seasonal trends in a specific Indian geographic",
      "Weather refers to short-term, day-to-day atmospheric conditions, whereas climate represents long-term weather patterns observed over 30 years or more"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer usually shows that the student is confusing a single rainy day in Mumbai with the city's overall tropical monsoon climate zone.",
     "id": "gen_c7_geo_ch02_q1",
     "nodeId": "c7_geo_ch02_001",
@@ -594,11 +594,12 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which gas makes up the largest percentage of the Earth's atmosphere by volume?",
     "answer": "Nitrogen, which makes up approximately 78% of the atmosphere",
     "options": [
-     "Humidity is the amount of water vapour present in the air",
-     "Air moves horizontally because of differences in atmospheric pressure between two regions, flowing from high pressure to low pressure",
+     "Students can explain how altitude, latitude, distance from the sea, and ocean currents affect local temperature variations across different regions of India",
+     "Rainfall is the primary form of precipitation where condensed water droplets in clouds become too heavy to remain suspended in the atmosphere and fall to the Earth's surface as",
+     "Thermosphere, which makes up approximately 78% of the atmosphere",
      "Nitrogen, which makes up approximately 78% of the atmosphere"
     ],
-    "hint": "Straight from the 'atmosphere' slide -- match the key terms.",
+    "hint": "Straight from the 'atmosphere is a vast blanket of' slide -- match the key terms.",
     "misconception": "A student who answers \"Oxygen\" has confused the most abundant gas with the gas most essential for human respiration, a very common mixing of chemical presence versus biological importance.",
     "id": "gen_c7_geo_ch02_q2",
     "nodeId": "c7_geo_ch02_002",
@@ -678,12 +679,12 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What is humidity?",
     "answer": "Humidity is the amount of water vapour present in the air",
     "options": [
-     "The primary purpose is to provide farmers with advance notice of weather events such as unseasonal rain, heatwaves, or frost so they can protect crops, plan irrigation",
+     "Students can define weather using its core atmospheric elements and differentiate between momentary atmospheric conditions and seasonal trends in a specific Indian geographic",
      "Nitrogen, which makes up approximately 78% of the atmosphere",
-     "Interpret is the amount of water vapour present in the air",
+     "Rainfall is the amount of water vapour present in the air",
      "Humidity is the amount of water vapour present in the air"
     ],
-    "hint": "Straight from the 'Humidity' slide -- match the key terms.",
+    "hint": "Straight from the 'Humidity is the amount of' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses humidity with precipitation or temperature, showing a failure to recognize water vapour as an invisible gas mixed in the atmosphere.",
     "id": "gen_c7_geo_ch02_q4",
     "nodeId": "c7_geo_ch02_004",
@@ -700,11 +701,11 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What fundamental atmospheric condition causes air to move horizontally across the Earth's surface as wind?",
     "answer": "Air moves horizontally because of differences in atmospheric pressure between two regions, flowing from high pressure to low pressure",
     "options": [
-     "Nitrogen, which makes up approximately 78% of the atmosphere",
-     "The standard instrument is a maximum-minimum thermometer, marked in Celsius (°C) and Fahrenheit (°F) scales",
+     "Humidity is the amount of invisible water vapour present in the air at any given time and place",
+     "The barometer measures atmospheric pressure, commonly expressed in millibars (mb) or hectopascals (hPa)",
      "Air moves horizontally because of differences in atmospheric pressure between two regions, flowing from high pressure to low pressure"
     ],
-    "hint": "Straight from the 'Wind' slide -- match the key terms.",
+    "hint": "Straight from the 'Wind is the horizontal movement' slide -- match the key terms.",
     "misconception": "A wrong answer like \"earthquakes\" or \"ocean currents\" reveals a confusion between tectonic or hydrological processes and atmospheric dynamics.",
     "id": "gen_c7_geo_ch02_q5",
     "nodeId": "c7_geo_ch02_005",
@@ -721,11 +722,11 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What physical instrument is standardly used to measure the amount of rainfall in a specific location?",
     "answer": "A rain gauge is used to measure rainfall",
     "options": [
-     "The standard instrument is a maximum-minimum thermometer, marked in Celsius (°C) and Fahrenheit (°F) scales",
-     "Nitrogen, which makes up approximately 78% of the atmosphere",
+     "Weather is the day-to-day atmospheric condition of a specific place in terms of temperature, humidity, and rainfall",
+     "The student can identify the three main types of rainfall from a given geographic scenario, explain the physical process of cloud condensation and precipitation",
      "A rain gauge is used to measure rainfall"
     ],
-    "hint": "Straight from the 'Rainfall' slide -- match the key terms.",
+    "hint": "Straight from the 'Rainfall is the primary form' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses it with a barometer (which measures air pressure) or a thermometer (which measures temperature), showing a lack of familiarity with basic weather instruments.",
     "id": "gen_c7_geo_ch02_q6",
     "nodeId": "c7_geo_ch02_006",
@@ -742,8 +743,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which weather instrument is specifically designed to measure atmospheric pressure, and what unit is commonly used for its readings?",
     "answer": "The barometer measures atmospheric pressure, commonly expressed in millibars (mb) or hectopascals (hPa)",
     "options": [
-     "Air moves horizontally because of differences in atmospheric pressure between two regions, flowing from high pressure to low pressure",
-     "The standard instrument is a maximum-minimum thermometer, marked in Celsius (°C) and Fahrenheit (°F) scales",
+     "A rain gauge is used to measure rainfall",
+     "Can identify the correct instrument for measuring a specific weather element (temperature, pressure, or rainfall), explain its basic operational mechanism",
      "The barometer measures atmospheric pressure, commonly expressed in millibars (mb) or hectopascals (hPa)"
     ],
     "hint": "Straight from the 'Weather instruments' slide -- match the key terms.",
@@ -763,8 +764,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What is the primary purpose of weather forecasting in agricultural regions like the Punjab plains?",
     "answer": "The primary purpose is to provide farmers with advance notice of weather events such as unseasonal rain, heatwaves, or frost so they can protect crops, plan irrigation",
     "options": [
-     "Humidity is the amount of water vapour present in the air",
-     "A rain gauge is used to measure rainfall",
+     "Weather forecasting is the scientific process of predicting atmospheric conditions—such as temperature, humidity, wind",
+     "The student can identify the atmospheric causes of extreme weather events like heat waves, storms, and droughts",
      "The primary purpose is to provide farmers with advance notice of weather events such as unseasonal rain, heatwaves, or frost so they can protect crops, plan irrigation"
     ],
     "hint": "Straight from the 'Weather forecasting' slide -- match the key terms.",
@@ -788,7 +789,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "The chart must list daily tracking variables (today's temperature, wind direction, daily rainfall) in the weather column, and multi-year averages (monsoon onset month",
      "This is an example of weather because it is a short-term, temporary atmospheric condition happening on a specific day"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer shows that the student confuses a single rainy day with long-term seasonal trends.",
     "id": "gen_c7_geo_ch02_q9",
     "nodeId": "c7_geo_ch02_009",
@@ -805,8 +806,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What meteorological condition characterizes a heat wave in the plains of India according to standard meteorological criteria?",
     "answer": "A heat wave is declared in the plains when the maximum temperature reaches at least 40°C or more, and is at least 4.5°C to 6.4°C above normal",
     "options": [
-     "Humidity is the amount of water vapour present in the air",
-     "Air moves horizontally because of differences in atmospheric pressure between two regions, flowing from high pressure to low pressure",
+     "The standard instrument is a maximum-minimum thermometer, marked in Celsius (°C) and Fahrenheit (°F) scales",
+     "Weather is the day-to-day atmospheric condition of a specific place in terms of temperature, humidity, and rainfall",
      "A heat wave is declared in the plains when the maximum temperature reaches at least 40°C or more, and is at least 4.5°C to 6.4°C above normal"
     ],
     "hint": "Straight from the 'Extreme weather events' slide -- match the key terms.",
@@ -830,7 +831,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "On a dry day, the air has space to absorb more water vapour, speeding up evaporation",
      "Clouds act as a blanket that blocks incoming solar radiation during the day, causing a sudden drop in surface temperature, and traps outgoing terrestrial radiation at night"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student does not understand how individual weather elements interactively influence each other in real time.",
     "id": "gen_c7_geo_ch02_q11",
     "nodeId": "c7_geo_ch02_001",
@@ -845,7 +846,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "A strong plan places thermometers at identical heights in different micro-environments: one on exposed concrete asphalt, one under deep tree shade",
      "A successful chart should include columns for date/time, temperature (using a thermometer), wind direction (using a wind vane), humidity feel, and precipitation type/amount"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A poor answer fails to list the core elements of weather or lacks a systematic tracking method.",
     "id": "gen_c7_geo_ch02_q12",
     "nodeId": "c7_geo_ch02_001",
@@ -860,7 +861,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "The statement is inaccurate. The leeward side receives very little rainfall (rain shadow area) because the descending air has already lost its moisture on the windward side and",
      "The statement is false because while weather changes daily, monitoring its elements (like rainfall and temperature) helps farmers make critical short-term decisions regarding"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a failure to connect daily atmospheric observations to practical human geography and agriculture.",
     "id": "gen_c7_geo_ch02_q13",
     "nodeId": "c7_geo_ch02_001",
@@ -875,9 +876,39 @@ export const C7_GEO_GEN: SimDef[] = [
      "This is an example of weather because it is a short-term, temporary atmospheric condition happening on a specific day",
      "Steps: 1. Identify the recorded variables: temperature drop, wind speed increase, heavy precipitation"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student thinks weather is a static condition that only changes across seasons.",
     "id": "gen_c7_geo_ch02_q14",
+    "nodeId": "c7_geo_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Weather? State the definition given in this lesson.",
+    "answer": "Weather is the day-to-day state of the atmosphere at a specific place and time, characterized by changes in elements such as temperature, humidity, wind, and precipitation",
+    "options": [
+     "Students can explain how meteorological data from instruments and satellites is used to predict short-term weather changes",
+     "The student can identify the atmospheric causes of extreme weather events like heat waves, storms, and droughts",
+     "Weather is the day-to-day state of the atmosphere at a specific place and time, characterized by changes in elements such as temperature, humidity, wind, and precipitation"
+    ],
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Weather is the day-to-day state of the atmosphere at a specific place and time, characterized by changes in elements",
+    "id": "gen_c7_geo_ch02_q15",
+    "nodeId": "c7_geo_ch02_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can define weather using its core atmospheric elements and differentiate between momentary atmospheric conditions and seasonal trends in a specific Indian geographic",
+    "options": [
+     "Humidity is the amount of invisible water vapour present in the air at any given time and place",
+     "Students can explain how temperature affects the air's capacity to hold water vapour, differentiate between absolute and relative humidity",
+     "Students can define weather using its core atmospheric elements and differentiate between momentary atmospheric conditions and seasonal trends in a specific Indian geographic"
+    ],
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can define weather using its core atmospheric elements and differentiate between momentary atmospheric",
+    "id": "gen_c7_geo_ch02_q16",
     "nodeId": "c7_geo_ch02_001",
     "difficulty": "standard"
    },
@@ -890,9 +921,9 @@ export const C7_GEO_GEN: SimDef[] = [
      "Climate is calculated based on average atmospheric conditions over a very long period (30 years or more), whereas a single cold week is just temporary weather fluctuation",
      "Because weather elements like local wind direction, cloud cover, and localized precipitation can vary dramatically over short horizontal distances due to local topography and"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather is the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that weather conditions must be uniform across an entire state or region.",
-    "id": "gen_c7_geo_ch02_q15",
+    "id": "gen_c7_geo_ch02_q17",
     "nodeId": "c7_geo_ch02_001",
     "difficulty": "standard"
    },
@@ -905,38 +936,8 @@ export const C7_GEO_GEN: SimDef[] = [
      "On a dry day, the air has space to absorb more water vapour, speeding up evaporation",
      "Carbon dioxide is essential because plants require it for photosynthesis to produce food, and it acts as a greenhouse gas that traps heat radiated from the Earth"
     ],
-    "hint": "Straight from the 'atmosphere' slide -- match the key terms.",
+    "hint": "Straight from the 'atmosphere is a vast blanket of' slide -- match the key terms.",
     "misconception": "A student who thinks trace gases have no impact overlooks how delicate the thermal balance of the atmosphere is.",
-    "id": "gen_c7_geo_ch02_q16",
-    "nodeId": "c7_geo_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a vertical cross-section diagram of the atmosphere for a school geography exhibition, labeling all five layers in order from the surface up to 500 km, and indicate beside each layer one major feature or phenomenon that occurs there.",
-    "answer": "A complete design should feature: 1) Troposphere (0-12 km, weather occurs); 2) Stratosphere (12-50 km, ozone layer / jets fly); 3) Mesosphere (50-80 km, meteors burn up)",
-    "options": [
-     "The statement is misleading. While high humidity is necessary for rain, rain only occurs when saturated air cools down sufficiently for condensation to form droplets heavy enough",
-     "Criteria for a good answer: Cut the top off a plastic bottle, invert it as a funnel, tape it securely, attach a vertical ruler with zero aligned at the flat bottom inside",
-     "A complete design should feature: 1) Troposphere (0-12 km, weather occurs); 2) Stratosphere (12-50 km, ozone layer / jets fly); 3) Mesosphere (50-80 km, meteors burn up)"
-    ],
-    "hint": "Straight from the 'atmosphere' slide -- match the key terms.",
-    "misconception": "A poor answer would mix up the order of layers or place weather phenomena like clouds in the stratosphere or thermosphere.",
-    "id": "gen_c7_geo_ch02_q17",
-    "nodeId": "c7_geo_ch02_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Without the mesosphere, life on Earth would be just as warm, but Earth's surface would be heavily cratered by space debris.\" Is this evaluation accurate?",
-    "answer": "This evaluation is partially inaccurate. While the mesosphere is indeed the layer where most meteors burn up due to friction with its dense-enough gas molecules (protecting the",
-    "options": [
-     "Clouds act as a blanket that blocks incoming solar radiation during the day, causing a sudden drop in surface temperature, and traps outgoing terrestrial radiation at night",
-     "The troposphere gets its heat primarily from the Earth's surface, which absorbs solar energy and warms the air from below, causing temperature to drop with altitude",
-     "This evaluation is partially inaccurate. While the mesosphere is indeed the layer where most meteors burn up due to friction with its dense-enough gas molecules (protecting the"
-    ],
-    "hint": "Straight from the 'atmosphere' slide -- match the key terms.",
-    "misconception": "A student who agrees entirely misses the thermal characteristics of the mesosphere.",
     "id": "gen_c7_geo_ch02_q18",
     "nodeId": "c7_geo_ch02_002",
     "difficulty": "standard"
@@ -944,24 +945,24 @@ export const C7_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about weather?",
+    "What surprised you about weather is the day-to-day?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Weather mastered! 🎯",
+  "successLine": "Weather Is The Day-to-day mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_geo_ch03",
-  "title": "Weather",
+  "title": "Weather Refers To The Day-to-day Atmospheric",
   "subtitle": "Geography · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Weather",
+  "topic": "Weather Refers To The Day-to-day Atmospheric",
   "chapters": [
-   "Geography Ch3: Weather"
+   "Geography Ch3: Weather Refers To The Day-to-day Atmospheric"
   ],
   "nodeIds": [
    "c7_geo_ch03_001",
@@ -983,7 +984,7 @@ export const C7_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Weather more about facts, or about reasoning?",
+   "question": "Is Weather Refers To The Day-to-day more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -994,7 +995,7 @@ export const C7_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Weather",
+    "title": "Weather Refers To The Day-to-day Atmospheric",
     "text": "Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period, typically 30 years or more.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1006,7 +1007,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Monsoon",
+    "title": "The Monsoon Is a Large-scale Seasonal",
     "text": "The monsoon is a large-scale seasonal reversal of wind direction that brings heavy rainfall to the Indian subcontinent, driven by differential heating of land and sea and the shifting of pressure belts.",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1140,8 +1141,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which Indian season is generally associated with the months of March to May, characterized by very high temperatures and low pressure over the northern plains?",
     "answer": "The correct answer is Summer (or Pre-Monsoon / Hot Weather Season)",
     "options": [
-     "Sloping roofs are designed to allow rainwater to run off quickly and prevent water accumulation and structural damage",
-     "The primary cause is the differential heating and cooling of the Asian landmass and the surrounding Indian Ocean, which creates seasonal pressure differences",
+     "Can identify the characteristic months, temperature conditions, and wind directions for each of India's five major seasons (spring, summer, monsoon, autumn",
+     "Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period",
      "The correct answer is Summer (or Pre-Monsoon / Hot Weather Season)"
     ],
     "hint": "Straight from the 'cycle of seasons in' slide -- match the key terms.",
@@ -1162,10 +1163,10 @@ export const C7_GEO_GEN: SimDef[] = [
     "answer": "The primary cause is the differential heating and cooling of the Asian landmass and the surrounding Indian Ocean, which creates seasonal pressure differences",
     "options": [
      "The Southwest Monsoon typically arrives at the southern tip of Kerala around the 1st of June",
-     "The correct answer is the regional climate, specifically temperature and annual rainfall availability",
+     "Students can trace the two main branches of the Southwest Monsoon (Arabian Sea and Bay of Bengal) on a map",
      "The primary cause is the differential heating and cooling of the Asian landmass and the surrounding Indian Ocean, which creates seasonal pressure differences"
     ],
-    "hint": "Straight from the 'monsoon' slide -- match the key terms.",
+    "hint": "Straight from the 'The monsoon is a large-scale' slide -- match the key terms.",
     "misconception": "A wrong answer usually suggests that ocean tides or moon phases drive the winds, indicating a confusion between astronomical forces and atmospheric thermodynamics.",
     "id": "gen_c7_geo_ch03_q3",
     "nodeId": "c7_geo_ch03_003",
@@ -1389,8 +1390,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What term describes houses built with sloping roofs in regions experiencing heavy seasonal rainfall, such as the Western Ghats or Northeast India?",
     "answer": "Sloping roofs are designed to allow rainwater to run off quickly and prevent water accumulation and structural damage",
     "options": [
-     "The correct answer is Summer (or Pre-Monsoon / Hot Weather Season)",
-     "The Southwest Monsoon typically arrives at the southern tip of Kerala around the 1st of June",
+     "Students can accurately distinguish between temporary atmospheric phenomena (weather) and long-term regional patterns (climate)",
+     "Students can analyze how regional climates in India dictate specific cultural practices, architectural designs, and lifestyle adaptations",
      "Sloping roofs are designed to allow rainwater to run off quickly and prevent water accumulation and structural damage"
     ],
     "hint": "Straight from the 'way climate shapes culture and' slide -- match the key terms.",
@@ -1456,7 +1457,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "A good answer will separate daily logs (Column 1: Today's temperature, wind direction, humidity",
      "No, it does not. Step 1: Identify the timeframe of the data (one week). Step 2: Recall that climate requires atmospheric data collected over a long period (typically 30 years)"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer indicates that the student thinks short-term weather anomalies can instantly change a region's permanent climate zone.",
     "id": "gen_c7_geo_ch03_q12",
     "nodeId": "c7_geo_ch03_001",
@@ -1471,7 +1472,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "The claim is invalid because a single year of anomalous weather does not constitute a permanent climatic shift",
      "The statement is inaccurate because an afternoon rain shower is an instance of daily weather, whereas global warming is a long-term shift in global climate patterns"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer shows a failure to separate micro-scale daily occurrences from macro-scale atmospheric trends.",
     "id": "gen_c7_geo_ch03_q13",
     "nodeId": "c7_geo_ch03_001",
@@ -1486,7 +1487,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "A correct design must show a high-pressure zone over the Indian Ocean/Arabian Sea, a low-pressure zone over the heated Northern Plains/Thar Desert",
      "A good answer will separate daily logs (Column 1: Today's temperature, wind direction, humidity"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
     "misconception": "A poor answer lists random geographical facts without distinguishing between daily observations and long-term data collection methods.",
     "id": "gen_c7_geo_ch03_q14",
     "nodeId": "c7_geo_ch03_001",
@@ -1501,7 +1502,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "Disagree. While modern materials allow construction almost anywhere, ignoring local climate leads to massive energy consumption (e",
      "The claim is invalid because a single year of anomalous weather does not constitute a permanent climatic shift"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a lack of critical judgment regarding statistical sample sizes and the definition of long-term climatic norms.",
     "id": "gen_c7_geo_ch03_q15",
     "nodeId": "c7_geo_ch03_001",
@@ -1516,7 +1517,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "Steps: 1. Identify that high temperature over the Thar Desert creates an intense low-pressure zone",
      "This represents weather because it describes the atmospheric condition at a specific place and time"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
     "misconception": "A wrong answer—such as climate—reveals that the student confuses a single daily measurement with long-term regional trends, failing to recognize that weather changes hourly while climate requires decades of observation.",
     "id": "gen_c7_geo_ch03_q16",
     "nodeId": "c7_geo_ch03_001",
@@ -1524,42 +1525,42 @@ export const C7_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why can a city in northern India experience freezing cold temperatures in January while its overall climate is classified as subtropical?",
-    "answer": "A single month of cold weather is just a temporary condition within the yearly weather cycle",
+    "question": "What is Weather? State the definition given in this lesson.",
+    "answer": "Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period",
     "options": [
-     "Southern India is closer to the Equator (lower latitude), where the sun's rays fall more vertically throughout the year, concentrating solar energy",
-     "The statement is inaccurate because the retreating monsoon is only wet in a very specific region—southeastern peninsular India (Tamil Nadu, parts of Andhra Pradesh and Kerala)",
-     "A single month of cold weather is just a temporary condition within the yearly weather cycle"
+     "Students can accurately distinguish between temporary atmospheric phenomena (weather) and long-term regional patterns (climate)",
+     "Students can analyze how a specific geographic factor—such as high altitude or inland location—modifies temperature and rainfall for any given Indian city",
+     "Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period"
     ],
-    "hint": "Straight from the 'Weather' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the misconception that a single season defines the entire long-term climate of a region without looking at multi-year data.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average",
     "id": "gen_c7_geo_ch03_q17",
     "nodeId": "c7_geo_ch03_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A farmer in central India is planning to harvest rabi crops and prepare fields while experiencing pleasant, moderately warm days and cooling nights in February/March. Which transition season does this describe?",
-    "answer": "Steps: 1. Identify the months (February to March). 2. Note the weather conditions (pleasant, moderately warm days, cooling nights, blooming flowers)",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can accurately distinguish between temporary atmospheric phenomena (weather) and long-term regional patterns (climate)",
     "options": [
-     "This statement is incorrect. While northern India experiences cold winters with frost and snowfall in the mountains (like Himachal Pradesh), southern India experiences mild",
-     "No, it does not. Step 1: Identify the timeframe of the data (one week). Step 2: Recall that climate requires atmospheric data collected over a long period (typically 30 years)",
-     "Steps: 1. Identify the months (February to March). 2. Note the weather conditions (pleasant, moderately warm days, cooling nights, blooming flowers)"
+     "The Southwest Monsoon typically arrives at the southern tip of Kerala around the 1st of June",
+     "Students can trace the two main branches of the Southwest Monsoon (Arabian Sea and Bay of Bengal) on a map",
+     "Students can accurately distinguish between temporary atmospheric phenomena (weather) and long-term regional patterns (climate)"
     ],
-    "hint": "Straight from the 'cycle of seasons in' slide -- match the key terms.",
-    "misconception": "A student who selects \"Autumn\" confuses the two transition seasons (spring versus post-monsoon/autumn), ignoring the preceding winter cold and the approaching summer heat.",
+    "hint": "Straight from the 'Weather refers to the day-to-day' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can accurately distinguish between temporary atmospheric phenomena (weather) and long-term regional patterns",
     "id": "gen_c7_geo_ch03_q18",
-    "nodeId": "c7_geo_ch03_002",
-    "difficulty": "advanced"
+    "nodeId": "c7_geo_ch03_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about weather?",
+    "What surprised you about weather refers to the day-to-day atmospheric?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Weather mastered! 🎯",
+  "successLine": "Weather Refers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1641,7 +1642,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Traditional Farming Practices In India Refer",
+    "title": "Traditional Farming Practices In India",
     "text": "Traditional farming practices in India refer to indigenous agricultural methods passed down through generations that rely on local ecological knowledge, manual labor, animal power, organic manures, and rain-fed or indigenous irrigation systems rather than",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1659,7 +1660,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Challenges Faced By Indian Farmers Refer",
+    "title": "Challenges Faced By Indian Farmers",
     "text": "Challenges faced by Indian farmers refer to the severe economic, environmental, and structural obstacles—such as erratic monsoon rainfall, fragmented landholdings, high debt burdens, and inadequate market access—that hinder agricultural productivity and",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1696,7 +1697,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which of the following is a primary characteristic of traditional farming in India? A) Heavy reliance on chemical fertilizers and pesticides B) Use of High-Yielding Variety (HYV) seeds and tractors C) Dependence on natural rainfall and family labour D) Production primarily for international export markets",
     "answer": "The correct answer is C. Traditional farming relies heavily on natural weather patterns like the monsoon and uses manual or animal labour with traditional tools rather than",
     "options": [
-     "Black soil (also known as Regur soil) is the most ideal for cotton cultivation because it retains moisture well and is rich in lime, iron, magnesium, and alumina",
+     "Students can differentiate how modern inputs (tractors, controlled irrigation, hybrid seeds) alter crop yield compared to traditional methods",
      "Rice is a Kharif crop grown during the monsoon season because it requires high humidity, heavy rainfall, and flooded fields to suppress weeds and ensure grain development",
      "The correct answer is C. Traditional farming relies heavily on natural weather patterns like the monsoon and uses manual or animal labour with traditional tools rather than"
     ],
@@ -1738,8 +1739,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which cropping season does rice belong to, and why does it require standing water during its early growth stage?",
     "answer": "Rice is a Kharif crop grown during the monsoon season because it requires high humidity, heavy rainfall, and flooded fields to suppress weeds and ensure grain development",
     "options": [
-     "The correct answer is to maintain long-term soil health, conserve water, and ensure food security without depleting natural resources",
-     "Agriculture belongs to the primary sector and engages over half of India's population",
+     "Students can evaluate an agricultural scenario, identify which traditional and contemporary methods complement each other to solve a specific resource challenge (such as water",
+     "Can identify the specific soil, temperature, and water requirements of rice, wheat, and sugarcane",
      "Rice is a Kharif crop grown during the monsoon season because it requires high humidity, heavy rainfall, and flooded fields to suppress weeds and ensure grain development"
     ],
     "hint": "Straight from the 'This topic explores the' slide -- match the key terms.",
@@ -1759,8 +1760,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which soil type is most ideal for growing cotton in the Peninsular Plateau region of India?",
     "answer": "Black soil (also known as Regur soil) is the most ideal for cotton cultivation because it retains moisture well and is rich in lime, iron, magnesium, and alumina",
     "options": [
-     "The steep, mountainous terrain prevents large-scale flat plowing, requiring steps cut into slopes to hold soil and water",
-     "The correct answer is to maintain long-term soil health, conserve water, and ensure food security without depleting natural resources",
+     "Rabi and Kharif are the two primary cropping seasons in India, determined by the monsoon cycle and temperature variations across the year",
+     "Can analyze a specific Indian agricultural region by evaluating its local climate, soil type",
      "Black soil (also known as Regur soil) is the most ideal for cotton cultivation because it retains moisture well and is rich in lime, iron, magnesium, and alumina"
     ],
     "hint": "Straight from the 'Cash crops' slide -- match the key terms.",
@@ -1780,7 +1781,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What are the four primary environmental pillars that determine agricultural patterns in any region of India?",
     "answer": "The four pillars are climate, soil, water, and farming",
     "options": [
-     "Hybrid seeds provide significantly higher yields per hectare, improved resistance to specific pests and diseases, and often faster maturation rates",
+     "Students can identify key traditional agricultural techniques (such as mixed cropping, crop rotation, and bullock-driven plowing)",
      "Agriculture belongs to the primary sector and engages over half of India's population",
      "The four pillars are climate, soil, water, and farming"
     ],
@@ -2100,30 +2101,30 @@ export const C7_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "What primary economic sector does agriculture belong to in India, and what percentage of the population does it traditionally engage?",
-    "answer": "Agriculture belongs to the primary sector and engages over half of India's population",
+    "question": "What is Agriculture in India? State the definition given in this lesson.",
+    "answer": "Agriculture in India is the cultivation of crops, raising of livestock, and management of natural resources that forms the primary economic backbone of the country",
     "options": [
+     "Students can classify a given Indian agricultural scenario as traditional or modern, explain the socio-economic and environmental factors driving each method",
      "The correct answer is C. Traditional farming relies heavily on natural weather patterns like the monsoon and uses manual or animal labour with traditional tools rather than",
-     "Rice is a Kharif crop grown during the monsoon season because it requires high humidity, heavy rainfall, and flooded fields to suppress weeds and ensure grain development",
-     "Agriculture belongs to the primary sector and engages over half of India's population"
+     "Agriculture in India is the cultivation of crops, raising of livestock, and management of natural resources that forms the primary economic backbone of the country"
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
-    "misconception": "A wrong answer usually confuses primary activities with manufacturing (secondary) or services (tertiary), showing a weak grasp of basic economic geography.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Agriculture in India is the cultivation of crops, raising of livestock, and management of natural resources that forms",
     "id": "gen_c7_geo_ch04_q17",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Why is Indian agriculture often described as a \"gamble with the monsoon\" rather than a fully predictable industrial process?",
-    "answer": "Indian farming relies heavily on seasonal monsoon rainfall, which can vary greatly in timing and volume from year to year, unlike controlled factory processes",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can explain why agriculture is vital to India's economy and population, and can identify the physical and human characteristics that shape Indian farming systems across",
     "options": [
-     "Rabi crops grow during the winter season (October to March) when the southwest monsoon has retreated, relying instead on winter cyclonic rains (western disturbances), dew",
-     "The correct answer is B. Geography dictates water availability; the Northern Plains benefit from perennial Himalayan rivers and thick alluvial soil",
-     "Indian farming relies heavily on seasonal monsoon rainfall, which can vary greatly in timing and volume from year to year, unlike controlled factory processes"
+     "Can identify the specific soil, temperature, and water requirements of rice, wheat, and sugarcane",
+     "Black soil (also known as Regur soil) is the most ideal for cotton cultivation because it retains moisture well and is rich in lime, iron, magnesium, and alumina",
+     "Students can explain why agriculture is vital to India's economy and population, and can identify the physical and human characteristics that shape Indian farming systems across"
     ],
     "hint": "Straight from the 'Agriculture in India' slide -- match the key terms.",
-    "misconception": "A wrong answer assumes that all Indian farms have advanced artificial irrigation systems, ignoring that many regions still depend entirely on seasonal rainfall.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can explain why agriculture is vital to India's economy and population, and can identify the physical and",
     "id": "gen_c7_geo_ch04_q18",
     "nodeId": "c7_geo_ch04_001",
     "difficulty": "standard"
@@ -2141,14 +2142,14 @@ export const C7_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_geo_ch05",
-  "title": "Defining a Neighbour In Geography Involves",
+  "title": "Defining a Neighbour In Geography",
   "subtitle": "Geography · Chapter 5",
   "classLevel": 7,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Defining a Neighbour In Geography Involves",
+  "topic": "Defining a Neighbour In Geography",
   "chapters": [
-   "Geography Ch5: Defining a Neighbour In Geography Involves"
+   "Geography Ch5: Defining a Neighbour In Geography"
   ],
   "nodeIds": [
    "c7_geo_ch05_001",
@@ -2181,7 +2182,7 @@ export const C7_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Defining a Neighbour In Geography Involves",
+    "title": "Defining a Neighbour In Geography",
     "text": "Defining a neighbour in geography involves understanding both immediate land borders and broader regional proximity that connects countries through shared physical geography, history, and culture.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2229,7 +2230,7 @@ export const C7_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Bhutan",
+    "title": "Bhutan Is a Landlocked Mountain Kingdom",
     "text": "Bhutan is a landlocked mountain kingdom situated in the Eastern Himalayas, bordered by India to the south, east, and west, and China to the north.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2253,8 +2254,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What is the primary physical feature that separates India from its northern land neighbours like China?",
     "answer": "The correct answer is the Himalayan mountain range",
     "options": [
-     "The Indian states sharing a land border with Myanmar are Arunachal Pradesh, Nagaland, Manipur, and Mizoram",
-     "The correct answer is the Palk Strait",
+     "Students can trace the India-China Himalayan boundary on a map, identify key geographic sectors (Western, Middle, Eastern)",
+     "India and Myanmar: Eastern Neighbour explores the shared land and maritime boundaries, rugged mountain terrain, river systems",
      "The correct answer is the Himalayan mountain range"
     ],
     "hint": "Straight from the 'Defining a neighbour in geography' slide -- match the key terms.",
@@ -2274,8 +2275,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What is the approximate total length of India's land boundary?",
     "answer": "The approximate total length of India's land boundary is 15,106 kilometres",
     "options": [
-     "The correct answer is the Indus River system",
-     "The correct answer is the Himalayan mountain range",
+     "Students can measure, trace, and categorize India's land boundary segments by length, neighbouring country, and predominant physical terrain (mountainous, plain, or desert)",
+     "The Himalayan mountain system forms the primary land boundary",
      "The approximate total length of India's land boundary is 15,106 kilometres"
     ],
     "hint": "Straight from the 'India's land boundary' slide -- match the key terms.",
@@ -2295,9 +2296,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What is the name of the narrow strip of shallow water that separates India from Sri Lanka?",
     "answer": "The correct answer is the Palk Strait",
     "options": [
-     "The Himalayan mountain system forms the primary land boundary",
-     "The correct answer is the Himalayan mountain range",
-     "The correct answer is the Ladakh",
+     "Sri Lanka and the Maldives are India's two key maritime neighbours, separated from the Indian mainland by the waters of the Indian Ocean, the Palk Strait, and the Gulf of Mannar",
+     "India's land boundary refers to the continuous international frontier of approximately 15,106 kilometres that separates the Indian mainland from its seven immediate land",
+     "The correct answer is the Ganga",
      "The correct answer is the Palk Strait"
     ],
     "hint": "Straight from the 'Sri Lanka and the Maldives' slide -- match the key terms.",
@@ -2317,12 +2318,12 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which major river system, along with its extensive tributaries, flows through both India and Pakistan, creating a shared agricultural plain?",
     "answer": "The correct answer is the Indus River system",
     "options": [
-     "The approximate total length of India's land boundary is 15,106 kilometres",
-     "The Himalayan mountain system forms the primary land boundary",
-     "The correct answer is the Kerala system",
+     "Can trace the path of trans-boundary rivers flowing from India into Bangladesh, explain how shared water resources impact agriculture and livelihoods in the delta region",
+     "Can explain how the physical barrier of the Himalayas transitions into open plains along the Indo-Nepal border, and can describe key cultural exchanges like shared festivals",
+     "The correct answer is the Note system",
      "The correct answer is the Indus River system"
     ],
-    "hint": "Straight from the 'shared history and geography of' slide -- match the key terms.",
+    "hint": "Straight from the 'shared history and geography' slide -- match the key terms.",
     "misconception": "A student who answers the Ganga or Brahmaputra system is confusing India's eastern and northern river basins with the western river system that dominates the geography of Pakistan and northwestern India.",
     "id": "gen_c7_geo_ch05_q4",
     "nodeId": "c7_geo_ch05_004",
@@ -2339,8 +2340,9 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which major mountain system forms the primary land boundary between India and China?",
     "answer": "The Himalayan mountain system forms the primary land boundary",
     "options": [
-     "The correct answer is the Palk Strait",
-     "The approximate total length of India's land boundary is 15,106 kilometres",
+     "India's land boundary refers to the continuous international frontier of approximately 15,106 kilometres that separates the Indian mainland from its seven immediate land",
+     "India and Myanmar: Eastern Neighbour explores the shared land and maritime boundaries, rugged mountain terrain, river systems",
+     "Indus River mountain system forms the primary land boundary",
      "The Himalayan mountain system forms the primary land boundary"
     ],
     "hint": "Straight from the 'Himalayan boundary between India' slide -- match the key terms.",
@@ -2497,8 +2499,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "Which Indian states share a land border with Myanmar? Name at least three.",
     "answer": "The Indian states sharing a land border with Myanmar are Arunachal Pradesh, Nagaland, Manipur, and Mizoram",
     "options": [
-     "The correct answer is the Himalayan mountain range",
-     "The approximate total length of India's land boundary is 15,106 kilometres",
+     "Students can differentiate between land-based and maritime neighbours of India, explain how physical features like mountains and oceans shape these boundaries",
+     "Students can identify Myanmar's geographical position relative to India, explain how the Patkai and Chin hills create both barriers and pathways for exchange",
      "The Indian states sharing a land border with Myanmar are Arunachal Pradesh, Nagaland, Manipur, and Mizoram"
     ],
     "hint": "Straight from the 'India and Myanmar' slide -- match the key terms.",
@@ -2522,7 +2524,7 @@ export const C7_GEO_GEN: SimDef[] = [
      "Because Bangladesh is located at the lowest part of the Ganga-Brahmaputra-Meghna basin right near the sea level",
      "Bhutan is completely surrounded by land on all sides (India and China) with no coastline, meaning all its international maritime trade must pass through transit routes via"
     ],
-    "hint": "Straight from the 'Bhutan' slide -- match the key terms.",
+    "hint": "Straight from the 'Bhutan is a landlocked mountain' slide -- match the key terms.",
     "misconception": "A student who thinks Bhutan has its own ports confuses landlocked countries with peninsular or coastal regions.",
     "id": "gen_c7_geo_ch05_q9",
     "nodeId": "c7_geo_ch05_009",
@@ -2559,8 +2561,8 @@ export const C7_GEO_GEN: SimDef[] = [
     "question": "What term describes the modern sharing of electricity, digital networks, and transport corridors between India and neighbouring countries like Bangladesh, Nepal, and Bhutan?",
     "answer": "The correct answer is regional connectivity or economic and infrastructural interconnectedness",
     "options": [
-     "The main stream of the Ganga after entering Bangladesh is called the Padma",
-     "The Indian states sharing a land border with Myanmar are Arunachal Pradesh, Nagaland, Manipur, and Mizoram",
+     "Regional cooperation refers to the collaborative efforts of neighbouring countries within a specific geographical zone—such as South Asia through the South Asian Association for",
+     "Students can measure, trace, and categorize India's land boundary segments by length, neighbouring country, and predominant physical terrain (mountainous, plain, or desert)",
      "The correct answer is regional connectivity or economic and infrastructural interconnectedness"
     ],
     "hint": "Straight from the 'multi-dimensional economic,' slide -- match the key terms.",
@@ -2637,6 +2639,21 @@ export const C7_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can differentiate between land-based and maritime neighbours of India, explain how physical features like mountains and oceans shape these boundaries",
+    "options": [
+     "Can identify trans-boundary river systems and shared landform regions between India and Pakistan on a physical map",
+     "The approximate total length of India's land boundary is 15,106 kilometres",
+     "Students can differentiate between land-based and maritime neighbours of India, explain how physical features like mountains and oceans shape these boundaries"
+    ],
+    "hint": "Straight from the 'Defining a neighbour in geography' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can differentiate between land-based and maritime neighbours of India, explain how physical features like",
+    "id": "gen_c7_geo_ch05_q16",
+    "nodeId": "c7_geo_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why is a country separated by an ocean, like Sri Lanka, still considered a geographical neighbour to India?",
     "answer": "Sri Lanka is considered a neighbour because of close regional proximity across a narrow stretch of water (the Palk Strait) and shared maritime and climatic zones in the Indian",
     "options": [
@@ -2646,7 +2663,7 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Defining a neighbour in geography' slide -- match the key terms.",
     "misconception": "A wrong answer—stating that only countries sharing land walls are neighbours—shows a misunderstanding that geographic proximity includes maritime spaces, not just land borders.",
-    "id": "gen_c7_geo_ch05_q16",
+    "id": "gen_c7_geo_ch05_q17",
     "nodeId": "c7_geo_ch05_001",
     "difficulty": "standard"
    },
@@ -2661,21 +2678,6 @@ export const C7_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'India's land boundary' slide -- match the key terms.",
     "misconception": "A wrong answer shows failure to analyze how dense vegetation and rugged relief act as natural barriers compared to open desert or plain terrain.",
-    "id": "gen_c7_geo_ch05_q17",
-    "nodeId": "c7_geo_ch05_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a rough regional profile for a border outpost stationed along India's northernmost land boundary with China, describing the physical challenges soldiers face due to the land's extent and altitude.",
-    "answer": "A strong response will describe an outpost located in a high-altitude cold desert (such as Ladakh), mentioning extreme sub-zero temperatures",
-    "options": [
-     "A successful design must start in Aizawl (Mizoram), cross the parallel north-south river valleys (such as the Kaladan or Tyao river valleys)",
-     "A good answer proposes two categories: 'Land-Bordered Neighbours' (sharing continuous terrestrial boundaries across mountains, plains",
-     "A strong response will describe an outpost located in a high-altitude cold desert (such as Ladakh), mentioning extreme sub-zero temperatures"
-    ],
-    "hint": "Straight from the 'India's land boundary' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong response will describe an outpost located in a high-altitude cold desert (such as Ladakh), mentioning extreme",
     "id": "gen_c7_geo_ch05_q18",
     "nodeId": "c7_geo_ch05_002",
     "difficulty": "advanced"
@@ -2683,11 +2685,11 @@ export const C7_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about defining a neighbour in geography involves?",
+    "What surprised you about defining a neighbour in geography?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Defining a Neighbour In mastered! 🎯",
+  "successLine": "Defining a Neighbour mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

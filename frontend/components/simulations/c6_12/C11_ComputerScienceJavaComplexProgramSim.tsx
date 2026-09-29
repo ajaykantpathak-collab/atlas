@@ -1161,13 +1161,13 @@ function C11_ComputerScienceJavaComplexProgramSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-indigo-900/60 text-indigo-300 border border-indigo-700">
+              <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700">
                 ISC Class 11
               </span>
               <span className="text-xs text-slate-400 font-mono">10 Topic Matrix</span>
@@ -1191,7 +1191,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               }}
               className={`px-3 py-1.5 rounded-xl font-medium transition-colors capitalize ${
                 phase === pName
-                  ? 'bg-indigo-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1204,12 +1204,12 @@ function C11_ComputerScienceJavaComplexProgramSim({
       {/* ─── PHASE 1: DISCOVERY HOOK & GUIDED PREDICTION ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/40 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/40 relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/40 relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10 text-9xl">🏛️</div>
-            <span className="text-xs font-mono uppercase tracking-widest text-indigo-400">Architect Narrative</span>
+            <span className="text-xs font-mono uppercase tracking-widest text-gold-400">Architect Narrative</span>
             <h2 className="text-2xl font-bold text-white mt-1 mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed max-w-3xl">{SCENARIO.intro}</p>
-            <p className="text-indigo-300/80 text-xs mt-3 font-mono">📍 {SCENARIO.context}</p>
+            <p className="text-gold-300/80 text-xs mt-3 font-mono">📍 {SCENARIO.context}</p>
           </div>
 
           {/* Discovery Probe */}
@@ -1236,7 +1236,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/70 border-slate-700/80 text-slate-200 hover:bg-slate-800 hover:border-indigo-500/50'
+                      : 'bg-slate-800/70 border-slate-700/80 text-slate-200 hover:bg-slate-800 hover:border-gold-500/50'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1271,9 +1271,9 @@ function C11_ComputerScienceJavaComplexProgramSim({
           </div>
 
           {/* Guided Inquiry: Prediction Questions (Predict-Then-Check) */}
-          <div className="p-6 bg-slate-900/90 rounded-3xl border border-indigo-900/50 space-y-4">
+          <div className="p-6 bg-slate-900/90 rounded-3xl border border-gold-900/50 space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs uppercase font-mono tracking-wider text-cyan-400 font-bold">
+              <span className="text-xs uppercase font-mono tracking-wider text-gold-400 font-bold">
                 Hypothesis & Prediction Lab ({currentPredictionIdx + 1}/{PREDICTION_QUESTIONS.length})
               </span>
               <span className="text-xs text-slate-400">Predict before interacting</span>
@@ -1292,7 +1292,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   }}
                   className={`p-3.5 rounded-xl text-left text-xs font-mono border transition-all ${
                     selectedPrediction === oIdx
-                      ? 'bg-indigo-600/80 border-indigo-400 text-white'
+                      ? 'bg-gold-600/80 border-gold-400 text-white'
                       : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-800'
                   }`}
                 >
@@ -1307,7 +1307,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   setPredictionSubmitted(true);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 font-bold text-xs rounded-xl text-white shadow"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 font-bold text-xs rounded-xl text-white shadow"
               >
                 Lock In Prediction
               </button>
@@ -1315,7 +1315,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
 
             {predictionSubmitted && (
               <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <p className="text-xs font-mono text-cyan-300">
+                <p className="text-xs font-mono text-gold-300">
                   🔍 Verification Plan: {PREDICTION_QUESTIONS[currentPredictionIdx].verifyInstruction}
                 </p>
                 <p className="text-xs text-slate-400">{PREDICTION_QUESTIONS[currentPredictionIdx].explanation}</p>
@@ -1333,7 +1333,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                 ) : (
                   <button
                     onClick={handleAdvanceToExploration}
-                    className="mt-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Enter Interactive Laboratories →
                   </button>
@@ -1361,7 +1361,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                 }}
                 className={`px-4 py-2 rounded-2xl text-xs font-semibold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1380,7 +1380,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
             >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                 <div>
-                  <span className="text-xs font-mono uppercase text-indigo-400 tracking-wider">
+                  <span className="text-xs font-mono uppercase text-gold-400 tracking-wider">
                     Interactive Engineering Lab {currentSlide + 1} of 5
                   </span>
                   <h3 className="text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1398,7 +1398,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               {currentSlide === 0 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-indigo-300 font-mono uppercase">1. Code & Parameter Control</h4>
+                    <h4 className="text-sm font-bold text-gold-300 font-mono uppercase">1. Code & Parameter Control</h4>
                     <div className="space-y-3">
                       <div>
                         <label className="text-xs text-slate-400 font-mono" htmlFor="person-name-input">Person Name (Superclass Field):</label>
@@ -1441,7 +1441,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleStepConstructorChaining}
-                        className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 font-bold text-xs rounded-xl text-white shadow-md flex items-center justify-center gap-2"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 font-bold text-xs rounded-xl text-white shadow-md flex items-center justify-center gap-2"
                       >
                         ⚡ Step Constructor Execution: [{heapState.toUpperCase()}]
                       </motion.button>
@@ -1500,7 +1500,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               {currentSlide === 1 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-indigo-300 font-mono uppercase">2. Reference vs Actual Object</h4>
+                    <h4 className="text-sm font-bold text-gold-300 font-mono uppercase">2. Reference vs Actual Object</h4>
                     <div className="flex gap-3">
                       <motion.button
                         aria-label="Set reference and instance to Employee"
@@ -1512,7 +1512,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                         }}
                         className={`flex-1 py-3 rounded-xl font-bold text-xs border transition-all ${
                           polymorphicType === 'Employee'
-                            ? 'bg-blue-600 border-blue-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1572,8 +1572,8 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       )}
                     </div>
 
-                    <div className="p-4 bg-slate-900 rounded-xl border border-indigo-900/60 mt-2">
-                      <span className="text-xs text-indigo-400 font-mono">Runtime Dispatched Total:</span>
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-900/60 mt-2">
+                      <span className="text-xs text-gold-400 font-mono">Runtime Dispatched Total:</span>
                       <div className="text-2xl font-bold text-white mt-1">
                         ₹{calculatedPolymorphicSalary.toLocaleString()}
                       </div>
@@ -1645,20 +1645,20 @@ function C11_ComputerScienceJavaComplexProgramSim({
               {currentSlide === 2 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-indigo-300 font-mono uppercase">3. Dot Product: C[i][j] = Σ (A[i][k] * B[k][j])</h4>
+                    <h4 className="text-sm font-bold text-gold-300 font-mono uppercase">3. Dot Product: C[i][j] = Σ (A[i][k] * B[k][j])</h4>
                     <p className="text-xs text-slate-400">Click a cell in Result Matrix C to trace its dot-product calculation:</p>
 
                     <div className="flex gap-6 items-center justify-center">
                       <div className="text-center">
-                        <span className="text-xs font-mono text-blue-400 font-bold">Matrix A (2x2)</span>
-                        <div className="grid grid-cols-2 gap-1.5 p-2 bg-slate-900 rounded-xl border border-blue-900/40 mt-1">
+                        <span className="text-xs font-mono text-gold-400 font-bold">Matrix A (2x2)</span>
+                        <div className="grid grid-cols-2 gap-1.5 p-2 bg-slate-900 rounded-xl border border-gold-900/40 mt-1">
                           {matrixA.map((row, rIdx) =>
                             row.map((val, cIdx) => (
                               <div
                                 key={`a-${rIdx}-${cIdx}`}
                                 className={`w-10 h-10 rounded-lg flex items-center justify-center font-mono text-sm font-bold transition-all ${
                                   selectedCell.r === rIdx
-                                    ? 'bg-blue-600 text-white shadow-md'
+                                    ? 'bg-gold-600 text-white shadow-md'
                                     : 'bg-slate-800 text-slate-300'
                                 }`}
                               >
@@ -1723,11 +1723,11 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   </div>
 
                   <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 flex flex-col justify-center space-y-3">
-                    <span className="text-xs text-indigo-400 font-mono">
+                    <span className="text-xs text-gold-400 font-mono">
                       Step-by-step Dot Product for Cell C[{selectedCell.r}][{selectedCell.c}]:
                     </span>
                     <div className="p-4 bg-slate-950 rounded-xl font-mono text-xs text-slate-200 border border-slate-800 space-y-2">
-                      <p className="text-blue-300">
+                      <p className="text-gold-300">
                         Row {selectedCell.r} of A: [{matrixA[selectedCell.r].join(', ')}]
                       </p>
                       <p className="text-emerald-300">
@@ -1738,7 +1738,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       </div>
                     </div>
                     <p className="text-xs text-slate-400">
-                      Triple nested loop: <code className="text-indigo-300">for(i) for(j) for(k)</code> accumulates sum into C[i][j].
+                      Triple nested loop: <code className="text-gold-300">for(i) for(j) for(k)</code> accumulates sum into C[i][j].
                     </p>
                   </div>
                 </div>
@@ -1748,7 +1748,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               {currentSlide === 3 && (
                 <div className="space-y-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="flex flex-wrap items-center justify-between gap-3">
-                    <h4 className="text-sm font-bold text-indigo-300 font-mono uppercase">
+                    <h4 className="text-sm font-bold text-gold-300 font-mono uppercase">
                       4. LayoutManager Dynamic Behavior
                     </h4>
                     <div className="flex gap-2">
@@ -1764,7 +1764,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                           }}
                           className={`px-3 py-1.5 rounded-xl font-mono text-xs border transition-all ${
                             selectedLayout === lName
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1780,7 +1780,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                         <div className="col-span-3 bg-red-950/60 border border-red-700 rounded-lg flex items-center justify-center text-xs font-mono text-red-200">
                           NORTH (Title / Display)
                         </div>
-                        <div className="bg-blue-950/60 border border-blue-700 rounded-lg flex items-center justify-center text-xs font-mono text-blue-200">
+                        <div className="bg-gold-950/60 border border-gold-700 rounded-lg flex items-center justify-center text-xs font-mono text-gold-200">
                           WEST
                         </div>
                         <div className="bg-emerald-950/60 border border-emerald-700 rounded-lg flex items-center justify-center text-xs font-mono text-emerald-200 font-bold">
@@ -1802,7 +1802,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                             key={i}
                             aria-label={`FlowLayout JButton item ${i + 1}`}
                             whileHover={{ scale: 1.05 }}
-                            className="px-4 py-2 bg-indigo-700/70 border border-indigo-500 rounded-xl text-xs font-mono text-white shadow"
+                            className="px-4 py-2 bg-gold-700/70 border border-gold-500 rounded-xl text-xs font-mono text-white shadow"
                           >
                             JButton "{i + 1}"
                           </motion.button>
@@ -1830,7 +1830,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               {currentSlide === 4 && (
                 <div className="space-y-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="flex flex-wrap items-center justify-between gap-3">
-                    <h4 className="text-sm font-bold text-indigo-300 font-mono uppercase">
+                    <h4 className="text-sm font-bold text-gold-300 font-mono uppercase">
                       5. OSI & TCP/IP Packet Encapsulation
                     </h4>
                     <div className="flex gap-2">
@@ -1846,7 +1846,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                           }}
                           className={`px-3 py-1.5 rounded-xl font-mono text-xs border transition-all ${
                             activeProtocol === pName
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1918,7 +1918,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={handleLaunchPacket}
                       disabled={isPacketTransmitting}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-md flex items-center gap-2 font-mono"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow-md flex items-center gap-2 font-mono"
                     >
                       🚀 Send Packet Down Stack
                     </motion.button>
@@ -1927,7 +1927,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               )}
 
               {/* Guided Inquiry: Observation Questions */}
-              <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/40 space-y-3">
+              <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/40 space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="text-xs uppercase font-mono tracking-wider text-amber-400 font-bold">
                     Observation Probe ({currentObsIdx + 1}/{OBSERVATION_QUESTIONS.length})
@@ -1947,7 +1947,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       }}
                       className={`w-full text-left p-2.5 rounded-xl text-xs font-mono border transition-all ${
                         selectedObs === oIdx
-                          ? 'bg-indigo-600/80 border-indigo-400 text-white'
+                          ? 'bg-gold-600/80 border-gold-400 text-white'
                           : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
@@ -1962,7 +1962,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       setObsSubmitted(true);
                       audioManager.play('tap');
                     }}
-                    className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 font-bold text-xs rounded-xl text-white shadow"
+                    className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 font-bold text-xs rounded-xl text-white shadow"
                   >
                     Confirm Observation
                   </button>
@@ -2016,7 +2016,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Next Lab →
                   </motion.button>
@@ -2062,7 +2062,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Sandbox Card 1: Matrix Multiplier */}
             <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-mono text-indigo-400 font-bold">Matrix Compute Playground</span>
+              <span className="text-xs font-mono text-gold-400 font-bold">Matrix Compute Playground</span>
               <div className="flex gap-4 items-center justify-center py-2">
                 <div className="grid grid-cols-2 gap-1 p-1 bg-slate-950 rounded-lg">
                   {matrixA.map((r, i) =>
@@ -2084,10 +2084,10 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   )}
                 </div>
                 <span className="font-bold text-slate-500">=</span>
-                <div className="grid grid-cols-2 gap-1 p-1 bg-indigo-950/60 rounded-lg border border-indigo-700">
+                <div className="grid grid-cols-2 gap-1 p-1 bg-gold-950/60 rounded-lg border border-gold-700">
                   {[0, 1].map(i =>
                     [0, 1].map(j => (
-                      <div key={`sc-${i}-${j}`} className="w-8 h-8 rounded bg-indigo-900/80 flex items-center justify-center text-xs font-mono font-bold text-indigo-200">
+                      <div key={`sc-${i}-${j}`} className="w-8 h-8 rounded bg-gold-900/80 flex items-center justify-center text-xs font-mono font-bold text-gold-200">
                         {matrixA[i][0] * matrixB[0][j] + matrixA[i][1] * matrixB[1][j]}
                       </div>
                     ))
@@ -2105,7 +2105,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   aria-label="Toggle Sandbox to Employee"
                   onClick={() => setPolymorphicType('Employee')}
                   className={`flex-1 py-1.5 rounded-lg text-xs font-mono font-bold ${
-                    polymorphicType === 'Employee' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                    polymorphicType === 'Employee' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   Employee
@@ -2148,12 +2148,12 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950/60 border-rose-500 text-rose-300'
-                      : 'bg-blue-950/60 border-blue-500 text-blue-300'
+                      : 'bg-gold-950/60 border-gold-500 text-gold-300'
                   }`}
                 >
                   {difficulty}
                 </motion.span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-indigo-300 font-mono">
+                <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-gold-300 font-mono">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2163,11 +2163,11 @@ function C11_ComputerScienceJavaComplexProgramSim({
             <div className="flex items-center gap-4">
               <div className="text-right">
                 <span className="text-xs text-slate-500 font-mono">BKT Mastery Level</span>
-                <div className="text-sm font-bold text-indigo-300 capitalize font-mono">{masteryLevel}</div>
+                <div className="text-sm font-bold text-gold-300 capitalize font-mono">{masteryLevel}</div>
               </div>
               <div className="w-32 h-3 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2208,7 +2208,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : showExplanation && i !== challenge.correctIndex
                           ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                          : 'bg-slate-800/70 border-slate-700/80 text-slate-200 hover:bg-slate-800 hover:border-indigo-500/60'
+                          : 'bg-slate-800/70 border-slate-700/80 text-slate-200 hover:bg-slate-800 hover:border-gold-500/60'
                       }`}
                     >
                       <div className="flex items-start gap-3">
@@ -2237,7 +2237,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-600 text-white text-xs font-mono rounded-xl cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-1.5 bg-gold-600 text-white text-xs font-mono rounded-xl cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2273,7 +2273,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2304,7 +2304,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-sm text-slate-200 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-900/60 text-indigo-300 font-mono text-xs flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-lg bg-gold-900/60 text-gold-300 font-mono text-xs flex items-center justify-center font-bold">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2325,7 +2325,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                         : (challenge.sortItems || []).map((_, i) => i);
                     handleAnswer(ans);
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Check Step Order
                 </motion.button>
@@ -2352,7 +2352,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                     animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl font-mono shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl font-mono shadow"
                   >
                     Submit
                   </motion.button>
@@ -2372,7 +2372,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-mono text-indigo-300 rounded-xl border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-mono text-gold-300 rounded-xl border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2385,7 +2385,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       key={idx}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 text-xs font-mono rounded-xl flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-950 border border-gold-700 text-gold-200 text-xs font-mono rounded-xl flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2410,7 +2410,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Code Structure
                 </motion.button>
@@ -2422,10 +2422,10 @@ function C11_ComputerScienceJavaComplexProgramSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-indigo-950/50 to-slate-900 rounded-2xl border border-indigo-700/60 space-y-3"
+                className="p-5 bg-gradient-to-br from-gold-950/50 to-slate-900 rounded-2xl border border-gold-700/60 space-y-3"
               >
                 <div className="flex items-center gap-2">
-                  <span className="text-xs uppercase font-mono tracking-wider text-indigo-400 font-bold">
+                  <span className="text-xs uppercase font-mono tracking-wider text-gold-400 font-bold">
                     ISC Examiner Technical Analysis
                   </span>
                 </div>
@@ -2442,7 +2442,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans"
                       >
-                        <span className="font-mono font-bold text-indigo-300 mr-1.5">[{sIdx + 1}]</span>
+                        <span className="font-mono font-bold text-gold-300 mr-1.5">[{sIdx + 1}]</span>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2457,7 +2457,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-mono rounded-xl font-bold"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white text-xs font-mono rounded-xl font-bold"
                     >
                       Show Next Explanation Step →
                     </motion.button>
@@ -2482,7 +2482,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3">
             <div className="w-16 h-16 rounded-full bg-emerald-500/20 border border-emerald-400 mx-auto flex items-center justify-center text-3xl shadow-lg">
               🏆
             </div>
@@ -2507,7 +2507,7 @@ function C11_ComputerScienceJavaComplexProgramSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-500">Mastery Level</span>
-                <div className="text-2xl font-bold text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</div>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-500">Total Errors</span>
@@ -2536,14 +2536,14 @@ function C11_ComputerScienceJavaComplexProgramSim({
           )}
 
           {/* Real World Challenge Card */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-900/50 space-y-3">
-            <span className="text-xs font-mono uppercase text-indigo-400 font-bold">Capstone Real-World Project</span>
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-900/50 space-y-3">
+            <span className="text-xs font-mono uppercase text-gold-400 font-bold">Capstone Real-World Project</span>
             <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="text-xs text-slate-400 font-mono flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </li>
               ))}

@@ -1247,11 +1247,11 @@ function C12_PhysicsEnergyBandsSolidsSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-bold tracking-widest text-indigo-400 uppercase">
+            <span className="text-xs font-bold tracking-widest text-gold-400 uppercase">
               ISC Class 12 Physics • Electronics
             </span>
             <h1 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">{title}</h1>
@@ -1269,7 +1269,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             {difficulty} TIER
@@ -1284,13 +1284,13 @@ function C12_PhysicsEnergyBandsSolidsSim({
       {/* ─── 1. DISCOVERY PHASE (CURIOSITY HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <span className="text-xs font-bold px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-md uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <span className="text-xs font-bold px-2.5 py-1 bg-gold-500/20 text-gold-300 rounded-md uppercase tracking-wider">
               Spacecraft Mission Scenario
             </span>
             <h2 className="text-xl font-bold text-white mt-3">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-indigo-300">
+            <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-gold-300">
               💡 <strong>Context:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1330,9 +1330,9 @@ function C12_PhysicsEnergyBandsSolidsSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-4 p-4 bg-gold-950/40 rounded-xl border border-gold-800 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
-                <p className="text-xs sm:text-sm text-indigo-200 leading-relaxed">
+                <p className="text-xs sm:text-sm text-gold-200 leading-relaxed">
                   {discoveryCorrect
                     ? '✓ Spot on! Copper is a metal with overlapping bands (PTC); Silicon is a semiconductor where heat generates electron-hole pairs (NTC).'
                     : `💡 ${DISCOVERY_QUESTION.hintAfter}`}
@@ -1342,7 +1342,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1357,7 +1357,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1389,7 +1389,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                         }}
                         className={`flex-1 py-2 px-3 rounded-xl text-xs font-bold capitalize transition-all ${
                           materialType === m
-                            ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40'
+                            ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40'
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1401,7 +1401,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   <div>
                     <label className="text-xs text-slate-400 flex justify-between mb-1">
                       <span>Interatomic Lattice Spacing (a)</span>
-                      <span className="text-indigo-400 font-mono">{atomicSpacing} Å</span>
+                      <span className="text-gold-400 font-mono">{atomicSpacing} Å</span>
                     </label>
                     <input
                       type="range"
@@ -1413,7 +1413,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                         setAtomicSpacing(parseFloat(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1516,7 +1516,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   <div className="grid grid-cols-2 gap-3 text-xs">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <span className="text-slate-400 block">Electron Density (ne):</span>
-                      <span className="text-sky-400 font-mono font-bold text-sm">
+                      <span className="text-gold-400 font-mono font-bold text-sm">
                         {carrierDensityNi.toExponential(2)} m⁻³
                       </span>
                     </div>
@@ -1528,14 +1528,14 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     </div>
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-xs text-indigo-300">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 text-xs text-gold-300">
                     🔬 <strong>Rule:</strong> In pure intrinsic silicon, thermal excitation creates electron-hole pairs in exact equality: <code className="text-amber-300 font-mono">ne = nh = ni</code>. Resistivity drops with rising temperature (NTC)!
                   </div>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs text-slate-400">
-                    <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-sky-400 inline-block"></span> Electrons in CB</span>
+                    <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-gold-400 inline-block"></span> Electrons in CB</span>
                     <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span> Holes in VB</span>
                   </div>
                   <canvas ref={canvasRef} width={300} height={180} className="w-full h-48 bg-slate-950 rounded-xl border border-slate-800" />
@@ -1559,7 +1559,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                         }}
                         className={`flex-1 py-2 px-3 rounded-xl text-xs font-bold uppercase transition-all ${
                           dopingType === d
-                            ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40'
+                            ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40'
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1583,7 +1583,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Immobile Lattice Ion:</span>
-                      <span className="font-bold text-sky-400">
+                      <span className="font-bold text-gold-400">
                         {dopingType === 'n-type' ? 'Fixed Donor Ion (P⁺)' : dopingType === 'p-type' ? 'Fixed Acceptor Ion (B⁻)' : 'None (Neutral Si)'}
                       </span>
                     </div>
@@ -1637,7 +1637,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
             {currentSlide === 3 && (
               <div className="space-y-6">
                 {!predictionMade ? (
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-800/80 space-y-3">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/80 space-y-3">
                     <span className="text-xs font-bold text-amber-400 uppercase">Predict-Then-Check</span>
                     <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1655,11 +1655,11 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     </div>
                   </div>
                 ) : (
-                  <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-700 text-xs text-indigo-300 flex justify-between items-center">
+                  <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-700 text-xs text-gold-300 flex justify-between items-center">
                     <span>💡 <strong>Prediction Logged:</strong> {PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                     <button
                       onClick={() => setPredictionMade(false)}
-                      className="px-2 py-1 bg-indigo-800 rounded text-white text-xs hover:bg-indigo-700"
+                      className="px-2 py-1 bg-gold-800 rounded text-white text-xs hover:bg-gold-700"
                     >
                       Reset
                     </button>
@@ -1685,7 +1685,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                           setBiasVoltage(parseFloat(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1696,7 +1696,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                       </div>
                       <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                         <span className="text-slate-500 block">Depletion Width</span>
-                        <span className="font-bold text-sky-400 font-mono">{depletionData.widthMicrons.toFixed(2)} µm</span>
+                        <span className="font-bold text-gold-400 font-mono">{depletionData.widthMicrons.toFixed(2)} µm</span>
                       </div>
                       <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                         <span className="text-slate-500 block">Current (I)</span>
@@ -1760,7 +1760,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                       }}
                       className={`flex-1 py-2 px-3 rounded-xl text-xs font-bold uppercase transition-all ${
                         optoDevice === op
-                          ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40'
+                          ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40'
                           : 'bg-slate-800 text-slate-400 hover:text-white'
                       }`}
                     >
@@ -1782,7 +1782,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                               audioManager.play('pop');
                             }}
                             className={`flex-1 py-2 rounded-lg text-xs font-bold ${
-                              ledMaterial === mat ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              ledMaterial === mat ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {mat === 'GaAs_IR' ? 'GaAs (IR)' : mat === 'GaAsP_Red' ? 'GaAsP (Red)' : 'GaN (Blue)'}
@@ -1797,7 +1797,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Band Gap (Eg):</span>
-                          <span className="font-bold text-sky-400 font-mono">{ledData.eg} eV</span>
+                          <span className="font-bold text-gold-400 font-mono">{ledData.eg} eV</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Cut-in Turn-on Voltage:</span>
@@ -1858,7 +1858,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2">
-                      <span className="font-bold text-indigo-300 block">📡 Optical Fibre & Smoke Detector Principle:</span>
+                      <span className="font-bold text-gold-300 block">📡 Optical Fibre & Smoke Detector Principle:</span>
                       <p className="text-slate-400 leading-relaxed">
                         Incoming light generates electron-hole pairs inside the reverse-biased depletion region. The strong electric field immediately sweeps carriers to opposite terminals, producing a linear current response with nanosecond speed!
                       </p>
@@ -1891,7 +1891,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="text-slate-500 block">Short Circuit Isc</span>
-                          <span className="font-bold text-sky-400 font-mono">{solarData.isc.toFixed(1)} mA</span>
+                          <span className="font-bold text-gold-400 font-mono">{solarData.isc.toFixed(1)} mA</span>
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="text-slate-500 block">Generated Power</span>
@@ -1931,7 +1931,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1979,7 +1979,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     audioManager.play('tap');
                   }}
                   className={`flex-1 py-2.5 rounded-xl text-xs font-bold transition-all ${
-                    rectifierMode === 'half-wave' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                    rectifierMode === 'half-wave' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   Half-Wave (1 Diode, f_ripple = f_in)
@@ -1990,7 +1990,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     audioManager.play('tap');
                   }}
                   className={`flex-1 py-2.5 rounded-xl text-xs font-bold transition-all ${
-                    rectifierMode === 'full-wave' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                    rectifierMode === 'full-wave' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   Full-Wave (2 Diodes, f_ripple = 2 f_in)
@@ -2007,7 +2007,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
 
             <div className="space-y-2">
               <div className="flex justify-between text-xs text-slate-400">
-                <span className="text-cyan-400 flex items-center gap-1.5"><span className="w-2.5 h-0.5 bg-cyan-400 inline-block"></span> Channel 1: Input AC Sine Wave</span>
+                <span className="text-gold-400 flex items-center gap-1.5"><span className="w-2.5 h-0.5 bg-gold-400 inline-block"></span> Channel 1: Input AC Sine Wave</span>
                 <span className="text-amber-400 flex items-center gap-1.5"><span className="w-2.5 h-0.5 bg-amber-400 inline-block"></span> Channel 2: Rectified Pulsating DC Output</span>
               </div>
               <canvas ref={waveformCanvasRef} width={600} height={180} className="w-full h-48 bg-slate-950 rounded-xl border border-slate-800 shadow-inner" />
@@ -2021,7 +2021,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <h2 className="text-lg font-bold text-white flex items-center gap-2">
@@ -2035,7 +2035,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
 
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2092,7 +2092,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                       whileTap={{ scale: 0.95 }}
                       role="button"
                       tabIndex={0}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs text-white font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs text-white font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2122,7 +2122,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Verify Drag Mapping ✓
                 </motion.button>
@@ -2149,7 +2149,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-xl text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs flex-shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-600 text-white flex items-center justify-center font-bold text-xs flex-shrink-0">
                       {displayIndex + 1}
                     </span>
                     <span>{item}</span>
@@ -2161,7 +2161,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Verify Sequence ✓
                 </motion.button>
@@ -2177,7 +2177,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm text-slate-400 font-bold">{challenge.unit}</span>
                 </div>
@@ -2186,7 +2186,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Submit Calculation ✓
                 </motion.button>
@@ -2206,7 +2206,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                         setConstructParts(prev => [...prev, part]);
                         audioManager.play('tap');
                       }}
-                      className="px-3 py-1.5 bg-indigo-700/80 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold shadow"
+                      className="px-3 py-1.5 bg-gold-700/80 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2219,7 +2219,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-medium flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-700 text-gold-200 rounded-lg text-xs font-medium flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2240,7 +2240,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                 >
                   Verify Construction ✓
                 </motion.button>
@@ -2318,7 +2318,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="text-center p-8 bg-gradient-to-b from-slate-900 to-indigo-950/60 rounded-3xl border border-indigo-800/80 shadow-2xl space-y-4">
+          <div className="text-center p-8 bg-gradient-to-b from-slate-900 to-gold-950/60 rounded-3xl border border-gold-800/80 shadow-2xl space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Semiconductor Mission Accomplished!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
@@ -2378,7 +2378,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
             <div className="space-y-4">
               {REFLECTION_QUESTIONS.map((q, idx) => (
                 <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800/80 space-y-2">
-                  <label className="text-xs font-semibold text-indigo-300 block">
+                  <label className="text-xs font-semibold text-gold-300 block">
                     {idx + 1}. {q}
                   </label>
                   <textarea
@@ -2386,7 +2386,7 @@ function C12_PhysicsEnergyBandsSolidsSim({
                     value={reflectionAnswers[idx] || ''}
                     onChange={e => setReflectionAnswers(prev => ({ ...prev, [idx]: e.target.value }))}
                     placeholder="Type your reflection here..."
-                    className="w-full bg-slate-900 border border-slate-700/80 rounded-lg p-2.5 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-slate-900 border border-slate-700/80 rounded-lg p-2.5 text-xs text-slate-200 placeholder-slate-600 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               ))}
@@ -2396,17 +2396,17 @@ function C12_PhysicsEnergyBandsSolidsSim({
           {/* Spaced Repetition Notification */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between text-xs text-slate-400">
             <span>📅 Spaced Repetition (SM-2): Review due in <strong>{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong></span>
-            <span className="text-indigo-400 font-mono">Algorithm Active</span>
+            <span className="text-gold-400 font-mono">Algorithm Active</span>
           </div>
 
           {/* Real World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </li>
               ))}

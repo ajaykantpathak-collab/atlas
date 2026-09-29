@@ -11,7 +11,7 @@ export const w_c12_economicscircularflowincomesim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Macroeconomics: Emergence and Scope',
     chapters: [],
     nodeIds: ['c12_eco_cbse_07_001', 'c12_eco_cbse_07_003', 'c12_eco_cbse_07_004', 'c12_eco_cbse_07_005', 'c12_eco_cbse_07_006', 'c12_eco_cbse_07_007', 'c12_eco_cbse_07_008', 'c12_eco_cbse_08_004', 'c12_eco_cbse_01_002', 'c12_eco_cbse_01_008', 'c12_eco_cbse_01_009', 'c12_eco_cbse_01_010', 'c12_eco_cbse_01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine reading a 2021 newspaper headline: "India\'s GDP contracts 7.3% in 2020-21, unemployment hits 9.1%,.', goal: 'Master Macroeconomics: Emergence and Scope.' },
     discovery: {
         question: 'Define macroeconomics and list three key aggregate variables it studies. How does it differ from microeconomics in its unit of analysis?',
@@ -20,7 +20,7 @@ export const w_c12_economicscircularflowincomesim: SimDef = {
         hook: 'Students believe macroeconomics is merely "microeconomics added up" — e.g., "aggregate demand is just the sum of.',
     },
     teaching: [
-        { title: 'Macroeconomics is the branch of economics.', text: 'Macroeconomics is the branch of economics that studies the behaviour and performance of an economy as a whole by focusing on aggregate measures such as total output (GDP), employment, aggregate price.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Macroeconomics is the branch of economics.', text: 'Macroeconomics is the branch of economics that studies the behaviour and performance of an economy as a whole by focusing on aggregate measures such as total output (GDP), employment, aggregate price.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_07_001', title: 'Macroeconomics is the branch of.',

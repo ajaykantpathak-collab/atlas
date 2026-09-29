@@ -1459,7 +1459,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                     <div>
                       <label className="text-xs text-slate-400 flex justify-between" htmlFor="long-slider">
                         <span>Longitude Probe: <strong>{longPosition.toFixed(1)}° E</strong></span>
-                        <span className="text-sky-400 font-mono">
+                        <span className="text-gold-400 font-mono">
                           Local Time Diff: {(((longPosition - 68.1) * 4) / 60).toFixed(1)} hrs from Gujarat
                         </span>
                       </label>
@@ -1475,7 +1475,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                           setLongPosition(parseFloat(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full mt-2 accent-sky-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1645,7 +1645,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                     )}
                     {activePhysioPart === 'plateau' && (
                       <div className="space-y-2">
-                        <h4 className="text-sm font-bold text-sky-300">Peninsular Plateau (Ancient Archaean-Dharwar Shield)</h4>
+                        <h4 className="text-sm font-bold text-gold-300">Peninsular Plateau (Ancient Archaean-Dharwar Shield)</h4>
                         <p className="text-xs text-slate-300">
                           Earth's oldest stable block. Divided into: <strong>Malwa Plateau</strong> (Central Highlands), <strong>Chotanagpur Plateau</strong> (mineral treasure of Damodar rift, Ranchi & Hazaribagh), and <strong>Deccan Lava Plateau</strong> (thick Cretaceous basalt sheets weathered into moisture-retentive black regur cotton soil).
                         </p>
@@ -1684,7 +1684,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                             audioManager.play('tap');
                           }}
                           className={`px-3 py-1 text-xs font-bold rounded-lg capitalize ${
-                            activeDrainageGroup === g ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeDrainageGroup === g ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           {g} Drainage
@@ -1713,7 +1713,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                           onClick={() => handleRiverSelect(r.key)}
                           className={`p-3 text-left rounded-xl border text-xs ${
                             selectedRiver === r.key
-                              ? 'bg-sky-950 border-sky-500 text-sky-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-900'
                           }`}
                         >
@@ -1727,7 +1727,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                   </div>
 
                   {selectedRiver && (
-                    <div className="p-3 bg-slate-950 rounded-xl border border-sky-800/60 text-xs text-sky-300">
+                    <div className="p-3 bg-slate-950 rounded-xl border border-gold-800/60 text-xs text-gold-300">
                       🌊 <strong>Source & Character:</strong>{' '}
                       {selectedRiver === 'ganga' && 'Perennial snowmelt river rising from Gangotri; builds massive dendritic alluvial plain and Sundarbans delta.'}
                       {selectedRiver === 'indus' && 'Rises near Mansarovar; feeds the 5 doabs of the Punjab plains (Jhelum, Chenab, Ravi, Beas, Sutlej).'}
@@ -1788,7 +1788,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                             : 'October (Retreating Monsoon / Tamil Nadu Peak)'}
                         </strong>
                       </span>
-                      <span className="text-sky-400 font-mono">Month: {seasonMonthVal}</span>
+                      <span className="text-gold-400 font-mono">Month: {seasonMonthVal}</span>
                     </label>
                     <input
                       id="season-slider"
@@ -1801,7 +1801,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                         setSeasonMonthVal(parseInt(e.target.value));
                         audioManager.play('tap');
                       }}
-                      className="w-full mt-2 accent-sky-500"
+                      className="w-full mt-2 accent-gold-500"
                     />
                   </div>
 
@@ -1967,7 +1967,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
               </div>
 
               <div className="pt-2 border-t border-slate-800 space-y-3">
-                <h3 className="text-xs font-bold text-sky-400 uppercase tracking-wider">Atmospheric Lapse Rate Lab</h3>
+                <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Atmospheric Lapse Rate Lab</h3>
                 <div>
                   <label className="text-xs text-slate-400 flex justify-between" htmlFor="altitude-slider">
                     <span>Altitude: <strong>{altitudeMeters} m</strong></span>
@@ -1982,7 +1982,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                     step="50"
                     value={altitudeMeters}
                     onChange={e => setAltitudeMeters(parseInt(e.target.value))}
-                    className="w-full mt-1 accent-sky-500"
+                    className="w-full mt-1 accent-gold-500"
                   />
                   <p className="text-[10px] text-slate-500 mt-1">
                     Normal Lapse Rate: Temperature drops ~1°C for every 165 metres of elevation gain.
@@ -2109,7 +2109,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                     ? 'bg-green-950 text-green-400 border border-green-800'
                     : difficulty === 'advanced'
                     ? 'bg-red-950 text-red-400 border border-red-800'
-                    : 'bg-blue-950 text-blue-400 border border-blue-800'
+                    : 'bg-gold-950 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty} Tier
@@ -2123,7 +2123,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
           {/* Progress bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800" role="progressbar" aria-valuenow={Math.round(((currentChallenge + 1) / filteredChallenges.length) * 100)} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-sky-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2416,7 +2416,7 @@ export function C12_GeographyIndiaLocationalSettingSim({
                 Final Accuracy: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong>
               </span>
               <span>
-                Mastery Achieved: <strong className="text-sky-400 capitalize">{masteryLevel}</strong>
+                Mastery Achieved: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
               </span>
             </div>
 

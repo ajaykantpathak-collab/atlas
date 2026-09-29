@@ -445,7 +445,7 @@ data-a11y-skip-link,
   left: 1rem;
   z-index: 99999;
   padding: 0.75rem 1.25rem;
-  background: #312e81;        /* indigo-900 */
+  background: #312e81;        /* gold-900 */
   color: #ffffff;
   font-weight: 700;
   font-size: 1rem;

@@ -11,7 +11,7 @@ export const w_c12_geographyselectedissuessim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Dams: Benefits and Environmental and Social Concerns',
     chapters: [],
     nodeIds: ['c12_geo_cbse_12_011', 'c12_geo_cbse_09_008', 'c12_geo_cbse_14_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine standing near the Bhakra-Nangal Dam on the Sutlej River: you see a massive concrete wall holding back.', goal: 'Master Dams: Benefits and Environmental and Social Concerns.' },
     discovery: {
         question: 'Evaluate the statement: "India\'s urbanization is \'exclusionary\' because census towns grow without municipal governance, denying residents basic services." Use.',
@@ -20,7 +20,7 @@ export const w_c12_geographyselectedissuessim: SimDef = {
         hook: 'Students think "urbanization" means only migration to big cities (Mumbai, Delhi).',
     },
     teaching: [
-        { title: 'Dams are large barriers constructed across.', text: 'Dams are large barriers constructed across rivers to store water in reservoirs, serving multipurpose objectives such as irrigation, hydroelectric power generation, flood control, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Dams are large barriers constructed across.', text: 'Dams are large barriers constructed across rivers to store water in reservoirs, serving multipurpose objectives such as irrigation, hydroelectric power generation, flood control, and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_12_011', title: 'Dams are large barriers constructed.',

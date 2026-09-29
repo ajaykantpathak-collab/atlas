@@ -11,11 +11,11 @@ export const w_c7_scienceearthmoonandthesunsim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Eclipses: Conditions for Occurrence',
     chapters: [],
     nodeIds: ['c7_physics_ch06_006', 'c7_physics_ch06_007', 'c7_physics_ch06_008', 'c7_physics_ch06_009', 'c7_physics_ch06_001', 'c7_physics_ch06_002', 'c7_physics_ch06_003', 'c7_physics_ch06_004', 'c7_physics_ch06_005', 'c7_physics_ch06_010', 'c7_physics_ch03_006', 'c7_physics_ch03_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you hold a small ball between a table lamp and a wall, you can easily make a shadow on the wall, but.', goal: 'Master Eclipses: Conditions for Occurrence.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'An eclipse occurs when one celestial body.', text: 'An eclipse occurs when one celestial body moves into the shadow of another, which requires a precise alignment of the Sun, Earth, and Moon in a nearly straight line.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An eclipse occurs when one celestial body.', text: 'An eclipse occurs when one celestial body moves into the shadow of another, which requires a precise alignment of the Sun, Earth, and Moon in a nearly straight line.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch06_006', title: 'An eclipse occurs when one celestial.',

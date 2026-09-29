@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C7_MATH_GEN: SimDef[] = [
  {
   "id": "gen_c7_math_ch01",
-  "title": "Lakh",
+  "title": "The Lakh Is a Unit",
   "subtitle": "Mathematics · Chapter 1",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Lakh",
+  "topic": "The Lakh Is a Unit",
   "chapters": [
-   "Mathematics Ch1: Lakh"
+   "Mathematics Ch1: The Lakh Is a Unit"
   ],
   "nodeIds": [
    "c7_math_ch01_001",
@@ -38,7 +38,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Lakh outside the classroom?",
+   "question": "Quick guess -- where do you meet The Lakh Is a Unit outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -49,7 +49,7 @@ export const C7_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Lakh",
+    "title": "The Lakh Is a Unit",
     "text": "The lakh is a unit in the Indian numbering system equal to one hundred thousand ($1,00,000$ or $10^5$), representing the threshold where 5-digit numbers transition to 6-digit numbers.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -67,7 +67,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Crore",
+    "title": "A Crore Is An 8-digit Number",
     "text": "A crore is an 8-digit number in the Indian numbering system equal to 100 lakhs or ten million, representing the place value immediately following the ten-lakhs place.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -144,7 +144,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The statement is incorrect. While 9 is greater than 1, we must compare from the highest place value first (Crores place): 2,00,00,000 has a '2' in the crore place",
      "The first '5' is in the Lakhs place, meaning it represents $5 \\times 1,00,000 = 5,00,000$, while the second '5' is in the Tens place, representing $5 \\times 10 = 50$"
     ],
-    "hint": "Straight from the 'place value system extends to' slide -- match the key terms.",
+    "hint": "Straight from the 'place value system extends' slide -- match the key terms.",
     "misconception": "A student who thinks the two 5s have the same value confuses \"face value\" with \"place value,\" ignoring the positional weight of digits in our base-10 number system.",
     "id": "gen_c7_math_ch01_q2",
     "nodeId": "c7_math_ch01_002",
@@ -186,7 +186,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Sample problem: $5,00,00,005 - 3,99,99,998$. Every column needs a borrow, and the borrow cascades from the ones place all the way up to the crores digit",
      "An 8-digit number cannot have a digit in the \"ten-crores\" place because a ten-crores number has 9 digits, not 8"
     ],
-    "hint": "Straight from the 'crore' slide -- match the key terms.",
+    "hint": "Straight from the 'A crore is an 8-digit number' slide -- match the key terms.",
     "misconception": "A poor answer confuses total digit count with periods or fails to isolate the specific place values requested.",
     "id": "gen_c7_math_ch01_q4",
     "nodeId": "c7_math_ch01_004",
@@ -203,8 +203,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Which place value should you examine first when comparing two 8-digit numbers such as 5,43,21,098 and 5,43,29,102?",
     "answer": "The correct place to begin is the highest place value, which is the Crore place (and then move right if they match)",
     "options": [
-     "The correct answer is that numbers must be aligned to the right (right-justified), regardless of their place values, so that the digits in the multiplier correspond to units",
-     "Look at the tens digit. If it is 0, 1, 2, 3, or 4, round down by keeping the hundreds digit the same and changing the tens and units to zero",
+     "Can extract numerical data from real-world reports, set up correct arithmetic or estimation operations with 7-to-8 digit numbers",
+     "The correct approach is to align the digits strictly by their place value columns (ones under ones, tens under tens, up to crores under crores) starting from the right",
      "The correct place to begin is the highest place value, which is the Crore place (and then move right if they match)"
     ],
     "hint": "Straight from the 'Comparing and ordering large' slide -- match the key terms.",
@@ -276,8 +276,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the rule for deciding whether to round up or round down when rounding a number to the nearest 100?",
     "answer": "Look at the tens digit. If it is 0, 1, 2, 3, or 4, round down by keeping the hundreds digit the same and changing the tens and units to zero",
     "options": [
-     "The correct answer is to simplify complex calculations and make large quantities easy to understand quickly",
-     "The correct answer is $12321$",
+     "Can round any 6-, 7-, or 8-digit number to a specified place value (nearest thousand, ten-thousand, lakh, or crore) and estimate the results of arithmetic operations (addition",
+     "The correct place to begin is the highest place value, which is the Crore place (and then move right if they match)",
      "Look at the tens digit. If it is 0, 1, 2, 3, or 4, round down by keeping the hundreds digit the same and changing the tens and units to zero"
     ],
     "hint": "Straight from the 'Rounding a number to the nearest' slide -- match the key terms.",
@@ -432,7 +432,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An 8-digit number cannot have a digit in the \"ten-crores\" place because a ten-crores number has 9 digits, not 8",
      "Steps: 1. Identify the position of the digit 2 in the number $2,35,460$. 2. Counting from the right (ones, tens, hundreds, thousands, ten-thousands)"
     ],
-    "hint": "Straight from the 'lakh' slide -- match the key terms.",
+    "hint": "Straight from the 'The lakh is a unit' slide -- match the key terms.",
     "misconception": "A student who answers $20,000$ has miscounted the place value columns from the right.",
     "id": "gen_c7_math_ch01_q12",
     "nodeId": "c7_math_ch01_001",
@@ -447,7 +447,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An acceptable student response will provide three distinct 8-digit numbers (e.g., 8,76,54,109; 7,86,54,109",
      "The statement is incorrect. While $1,00,000$ does contain five zeros, the presence of five zeros after the leading 1 makes it a 6-digit number"
     ],
-    "hint": "Straight from the 'lakh' slide -- match the key terms.",
+    "hint": "Straight from the 'The lakh is a unit' slide -- match the key terms.",
     "misconception": "A student who judges the statement as true does not understand that digit count dictates place value periods in the Indian system.",
     "id": "gen_c7_math_ch01_q13",
     "nodeId": "c7_math_ch01_001",
@@ -462,7 +462,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The student's final answer will be too high. When borrowing, if you add $10$ to a digit but fail to decrease the neighboring digit you borrowed from by $1$",
      "One lakh is equal to 100 thousands because $1,00,000 \\div 1,000 = 100$, represented algebraically as $1,000 \\times x = 1,00,000$, where $x = 100$"
     ],
-    "hint": "Straight from the 'lakh' slide -- match the key terms.",
+    "hint": "Straight from the 'The lakh is a unit' slide -- match the key terms.",
     "misconception": "A student who states that 1,000 thousands make a lakh is confusing the number of zeros between a thousand ($1,000$) and a lakh ($1,00,000$), failing to account for the two extra zeros.",
     "id": "gen_c7_math_ch01_q14",
     "nodeId": "c7_math_ch01_001",
@@ -477,7 +477,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The correct representation is $4,25,12,030$",
      "The claim is incorrect; while the \"face value\" of zero is zero and it adds nothing to the sum, zero acts as a critical placeholder in the place value system"
     ],
-    "hint": "Straight from the 'place value system extends to' slide -- match the key terms.",
+    "hint": "Straight from the 'place value system extends' slide -- match the key terms.",
     "misconception": "A student who agrees with the claim does not understand place-holding zeros.",
     "id": "gen_c7_math_ch01_q15",
     "nodeId": "c7_math_ch01_002",
@@ -490,10 +490,10 @@ export const C7_MATH_GEN: SimDef[] = [
     "options": [
      "To find the total, we add the two numbers: $3,45,67,890 + 1,23,45,600 = 4,69,13,490$. Working: Line up the columns from right to left: $0+0=0$, $9+0=9$, $8+6=14$ (write $4$",
      "The correct answer is $99980001$. Working steps: 1. Write the expression as $9999 \\times (10000 - 1)$",
-     "Step 1: Problem each part: $6 \\times 1,00,000 = 6,00,000$; $4 \\times 10,000 = 40,000$; $0 \\times 1,000 = 0$; $8 \\times 100 = 800$; $5 \\times 10 = 50$; $2 \\times 1 = 2$",
+     "Step 1: Total each part: $6 \\times 1,00,000 = 6,00,000$; $4 \\times 10,000 = 40,000$; $0 \\times 1,000 = 0$; $8 \\times 100 = 800$; $5 \\times 10 = 50$; $2 \\times 1 = 2$",
      "Step 1: Compute each part: $6 \\times 1,00,000 = 6,00,000$; $4 \\times 10,000 = 40,000$; $0 \\times 1,000 = 0$; $8 \\times 100 = 800$; $5 \\times 10 = 50$; $2 \\times 1 = 2$"
     ],
-    "hint": "Straight from the 'place value system extends to' slide -- match the key terms.",
+    "hint": "Straight from the 'place value system extends' slide -- match the key terms.",
     "misconception": "A student who writes 6,48,52 or misses the zero placeholder for the thousands place likely drops missing positional units when converting from expanded form to standard form.",
     "id": "gen_c7_math_ch01_q16",
     "nodeId": "c7_math_ch01_002",
@@ -532,11 +532,11 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about lakh?",
+    "What surprised you about the lakh is a unit?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Lakh mastered! 🎯",
+  "successLine": "The Lakh Is a Unit mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -668,8 +668,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What does the letter 'D' stand for in the BODMAS rule used for evaluating arithmetic expressions?",
     "answer": "The letter 'D' stands for Division",
     "options": [
-     "The innermost parentheses ( ) must be evaluated first",
-     "The correct answer is B. Choice B correctly multiplies the outside factor ($12$) by both terms inside the parentheses ($10$ and $3$) and adds the results",
+     "Can identify, generate, and verify equivalent arithmetic expressions by applying properties of operations (such as commutativity, associativity",
+     "Can apply commutative and associative properties of addition and multiplication to simplify complex arithmetic expressions mentally or in writing",
      "The letter 'D' stands for Division"
     ],
     "hint": "Straight from the 'Evaluating an arithmetic' slide -- match the key terms.",
@@ -689,8 +689,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What symbol (<, >, or =) is used to show that two expressions evaluate to the exact same numerical value?",
     "answer": "The equals sign (=) is used when two expressions have the same value",
     "options": [
-     "The innermost parentheses ( ) must be evaluated first",
-     "The correct answer is B. Choice B correctly multiplies the outside factor ($12$) by both terms inside the parentheses ($10$ and $3$) and adds the results",
+     "Can compare two complex arithmetic expressions and determine which is larger (or if they are equal) without performing full arithmetic calculations",
+     "Can identify, generate, and verify equivalent arithmetic expressions by applying properties of operations (such as commutativity, associativity",
      "The equals sign (=) is used when two expressions have the same value"
     ],
     "hint": "Straight from the 'Comparing arithmetic expressions' slide -- match the key terms.",
@@ -822,8 +822,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Which arithmetic expression correctly represents the statement: \"Subtract the product of 7 and 4 from the sum of 15 and 9\"? A) $(15 + 9) - (7 \\times 4)$ B) $15 + 9 - 7 \\times 4$ C) $(7 \\times 4) - (15 + 9)$ D) $15 + (9 - 7) \\times 4$",
     "answer": "The correct answer is A: $(15 + 9) - (7 \\times 4)$",
     "options": [
-     "The correct answer is B. Choice B correctly multiplies the outside factor ($12$) by both terms inside the parentheses ($10$ and $3$) and adds the results",
-     "The letter 'D' stands for Division",
+     "The correct answer is A. Statement A shows that changing the grouping of factors using parentheses does not change the product",
+     "Equivalent expressions are arithmetic or algebraic expressions that yield the exact same numerical value for any given replacement of their components",
      "The correct answer is A: $(15 + 9) - (7 \\times 4)$"
     ],
     "hint": "Straight from the 'Writing expressions from word' slide -- match the key terms.",
@@ -843,9 +843,9 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What does the letter 'B' stand for in the BODMAS rule used for simplifying arithmetic expressions?",
     "answer": "The correct answer is Brackets",
     "options": [
-     "The correct answer is B. Choice B correctly multiplies the outside factor ($12$) by both terms inside the parentheses ($10$ and $3$) and adds the results",
+     "Can apply the distributive property to simplify complex arithmetic expressions, mentally calculate products involving large numbers",
      "The equals sign (=) is used when two expressions have the same value",
-     "The correct answer is Add",
+     "The correct answer is While",
      "The correct answer is Brackets"
     ],
     "hint": "Straight from the 'Simplifying arithmetic' slide -- match the key terms.",
@@ -1031,14 +1031,14 @@ export const C7_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_math_ch03",
-  "title": "The Need For Smaller Units",
+  "title": "The Need For Smaller Units Arises",
   "subtitle": "Mathematics · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "The Need For Smaller Units",
+  "topic": "The Need For Smaller Units Arises",
   "chapters": [
-   "Mathematics Ch3: The Need For Smaller Units"
+   "Mathematics Ch3: The Need For Smaller Units Arises"
   ],
   "nodeIds": [
    "c7_math_ch03_001",
@@ -1060,7 +1060,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does The Need For Smaller Units actually explain?",
+   "question": "In one line -- what does The Need For Smaller Units Arises actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1071,7 +1071,7 @@ export const C7_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "The Need For Smaller Units",
+    "title": "The Need For Smaller Units Arises",
     "text": "The need for smaller units arises when whole numbers and standard large measurement units are insufficient to express fractional amounts or precise quantities between two consecutive whole units, requiring the division of a whole into equal smaller parts such",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1089,7 +1089,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Decimal Place Value Extends Our",
+    "title": "Decimal Place Value Extends Our Base-ten",
     "text": "Decimal place value extends our base-ten number system to the right of the decimal point, representing fractional parts of powers of ten: tenths ($\\frac{1}{10}$), hundredths ($\\frac{1}{100}$), and thousandths ($\\frac{1}{1000}$).",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1131,7 +1131,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Decimal System And Place",
+    "title": "The Decimal System And Place Value",
     "text": "The decimal system and place value relationships describe how each position in a decimal number is ten times greater than the position immediately to its right and one-tenth of the position immediately to its left, extending the base-10 structure of whole",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1147,7 +1147,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Expected response criteria: Instructions must state first to locate the integers $3$ and $4$, then zoom into the tenth interval between $3",
      "Whole numbers only represent complete, discrete units (7, 8, etc.) and cannot account for the fractional part lying strictly between two consecutive integers"
     ],
-    "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
     "misconception": "A student who answers that \"whole numbers can be rounded to fit\" misses the conceptual point that measurement often requires continuous subdivision rather than approximation.",
     "id": "gen_c7_math_ch03_q1",
     "nodeId": "c7_math_ch03_001",
@@ -1168,7 +1168,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Steps: 1. Identify the whole strips completed: 3 whole units. 2. Identify the smaller parts division: 1 whole strip is divided into 10 equal parts",
      "The correct answer is $0.7$ metres. Steps: 1. Identify total equal parts: 10 parts make 1 whole metre"
     ],
-    "hint": "Straight from the 'tenth part represents one of' slide -- match the key terms.",
+    "hint": "Straight from the 'The tenth part represents one' slide -- match the key terms.",
     "misconception": "A student who answers $7.0$ or $0.07$ has misplaced the decimal point or confused tenths with units or hundredths.",
     "id": "gen_c7_math_ch03_q2",
     "nodeId": "c7_math_ch03_002",
@@ -1186,7 +1186,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "answer": "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$",
     "options": [
      "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4)",
-     "The correct answer is 0.45",
+     "Can explain why whole numbers fail to measure quantities that fall strictly between two consecutive integers and can demonstrate how a single whole unit must be divided into 10 or",
      "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$"
     ],
     "hint": "Straight from the 'hundredth part' slide -- match the key terms.",
@@ -1351,7 +1351,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the first essential step when setting up the subtraction problem $15.4 - 3.25$ on paper?",
     "answer": "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$",
     "options": [
-     "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$",
+     "Can convert mixed metric units (e.g., centimetres to metres, grams to kilograms) into single decimal notation",
      "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4)",
      "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$"
     ],
@@ -1372,9 +1372,9 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the decimal representation of the fraction $\\frac{45}{100}$?",
     "answer": "The correct answer is 0.45",
     "options": [
-     "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4)",
-     "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$",
-     "Verify correct answer is 0.45",
+     "Can convert mixed metric units (e.g., centimetres to metres, grams to kilograms) into single decimal notation",
+     "The correct answer is to align the decimal points vertically and pad the shorter decimal with a placeholder zero to make it $15.40 - 3.25$",
+     "Container correct answer is 0.45",
      "The correct answer is 0.45"
     ],
     "hint": "Straight from the 'Representing decimals as' slide -- match the key terms.",
@@ -1418,7 +1418,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The correct answer is $0.7$ metres. Steps: 1. Identify total equal parts: 10 parts make 1 whole metre",
      "Steps: 1. Identify the whole strips completed: 3 whole units. 2. Identify the smaller parts division: 1 whole strip is divided into 10 equal parts"
     ],
-    "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
     "misconception": "A student who answers $\\frac{4}{10}$ has ignored the 3 whole units, while a student who answers 7 has incorrectly added parts and wholes together as if they were identical units.",
     "id": "gen_c7_math_ch03_q12",
     "nodeId": "c7_math_ch03_001",
@@ -1433,7 +1433,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The student's solution is incorrect; the correct answer is $5.75$. The error occurred in the tenths and ones columns during borrowing: the student likely failed to borrow properly",
      "The statement is incorrect. While 4 represents 4 whole one-rupee coins, the .2 or $\\frac{2}{10}$ represents two-tenths of a single rupee (which is 20 paisa), not 2 whole rupees"
     ],
-    "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is incorrect. While 4 represents 4 whole one-rupee coins, the .",
     "id": "gen_c7_math_ch03_q13",
     "nodeId": "c7_math_ch03_001",
@@ -1448,7 +1448,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "$₹4.5$ represents $4\\text{ rupees and } 50\\text{ paise}$ because the first digit after the decimal point stands for tenths ($\\frac{10}{100}$ or 10 paise coins)",
      "When a fixed whole (1 meter) is divided into more equal parts (from 10 to 100), each individual part must be smaller so that more of them fit into the whole"
     ],
-    "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
     "misconception": "A student who thinks $\\frac{1}{100}$ is larger because 100 is bigger than 10 confuses whole number magnitude with fraction size.",
     "id": "gen_c7_math_ch03_q14",
     "nodeId": "c7_math_ch03_001",
@@ -1463,7 +1463,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The reasoning is incorrect. $1.5$ metres means 1 whole metre and $5$ tenths of a metre ($\\frac{5}{10}$ of a metre), which is equal to $50$ centimetres, not $5$ centimetres",
      "An expected good answer describes measuring medicine dosage in liters or milligrams for a child"
     ],
-    "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
     "misconception": "A poor answer gives a scenario where whole numbers are already sufficient (like counting students in a class), failing to demonstrate the need for smaller measurement units.",
     "id": "gen_c7_math_ch03_q15",
     "nodeId": "c7_math_ch03_001",
@@ -1478,9 +1478,24 @@ export const C7_MATH_GEN: SimDef[] = [
      "Whole numbers only represent complete, discrete units (7, 8, etc.) and cannot account for the fractional part lying strictly between two consecutive integers",
      "Rahul's reasoning assumes that mass only exists in whole number jumps. In reality, mass is continuous, meaning an object can weigh an amount greater than 5 kg but less than 6 kg"
     ],
-    "hint": "Straight from the 'The need for smaller units' slide -- match the key terms.",
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
     "misconception": "A student who agrees with Rahul does not understand that whole numbers leave gaps in continuous real-world measurements.",
     "id": "gen_c7_math_ch03_q16",
+    "nodeId": "c7_math_ch03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can explain why whole numbers fail to measure quantities that fall strictly between two consecutive integers and can demonstrate how a single whole unit must be divided into 10 or",
+    "options": [
+     "Can convert mixed metric units (e.g., centimetres to metres, grams to kilograms) into single decimal notation",
+     "The interval must be divided into $10$ equal subdivisions because the first decimal place represents tenths ($\\frac{1}{10}$)",
+     "Can explain why whole numbers fail to measure quantities that fall strictly between two consecutive integers and can demonstrate how a single whole unit must be divided into 10 or"
+    ],
+    "hint": "Straight from the 'The need for smaller units arises' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can explain why whole numbers fail to measure quantities that fall strictly between two consecutive integers and can",
+    "id": "gen_c7_math_ch03_q17",
     "nodeId": "c7_math_ch03_001",
     "difficulty": "standard"
    },
@@ -1493,23 +1508,8 @@ export const C7_MATH_GEN: SimDef[] = [
      "The student's solution is incorrect; the correct answer is $5.75$. The error occurred in the tenths and ones columns during borrowing: the student likely failed to borrow properly",
      "The reasoning is incorrect. $1.5$ metres means 1 whole metre and $5$ tenths of a metre ($\\frac{5}{10}$ of a metre), which is equal to $50$ centimetres, not $5$ centimetres"
     ],
-    "hint": "Straight from the 'tenth part represents one of' slide -- match the key terms.",
+    "hint": "Straight from the 'The tenth part represents one' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement is confusing the tenths place ($0.1$ or $\\frac{1}{10}$) with the hundredths place or direct unit conversion units like centimetres ($\\frac{1}{100}$ of a metre).",
-    "id": "gen_c7_math_ch03_q17",
-    "nodeId": "c7_math_ch03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-life scenario using Indian currency (Rupees and 10-paisa coins) to explain why the number $0.6$ represents six parts out of ten.",
-    "answer": "A good answer should state that 1 Rupee can be thought of as divided into 10 equal 10-paisa coins. Taking 6 of those 10-paisa coins represents $\\frac{6}{10}$ of a Rupee",
-    "options": [
-     "The statement is incorrect. While 4 represents 4 whole one-rupee coins, the .2 or $\\frac{2}{10}$ represents two-tenths of a single rupee (which is 20 paisa), not 2 whole rupees",
-     "The student's error is writing $\\frac{5}{100}$ as $0.5$, which actually represents $\\frac{5}{10}$ or 5 tenths",
-     "A good answer should state that 1 Rupee can be thought of as divided into 10 equal 10-paisa coins. Taking 6 of those 10-paisa coins represents $\\frac{6}{10}$ of a Rupee"
-    ],
-    "hint": "Straight from the 'tenth part represents one of' slide -- match the key terms.",
-    "misconception": "A poor answer fails to connect the denominator of 10 to a physical grouping of 10 equal items in real life.",
     "id": "gen_c7_math_ch03_q18",
     "nodeId": "c7_math_ch03_002",
     "difficulty": "standard"
@@ -1517,7 +1517,7 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the need for smaller units?",
+    "What surprised you about the need for smaller units arises?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1527,15 +1527,15 @@ export const C7_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_math_ch04",
-  "title": "Variable",
+  "title": "A Variable Is a Letter",
   "subtitle": "Mathematics · Chapter 4",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Variable",
+  "topic": "A Variable Is a Letter",
   "chapters": [
-   "Mathematics Ch4: Variable",
-   "Mathematics Ch5: Variable"
+   "Mathematics Ch4: A Variable Is a Letter",
+   "Mathematics Ch5: A Variable Is a Letter"
   ],
   "nodeIds": [
    "c7_math_ch04_001",
@@ -1558,7 +1558,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Variable in real working life?",
+   "question": "Who uses A Variable Is a Letter in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1569,7 +1569,7 @@ export const C7_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Variable",
+    "title": "A Variable Is a Letter",
     "text": "A variable is a letter or symbol used in algebra to represent an unknown or changing quantity that can take various numerical values. It allows us to express general rules, formulas, and relationships in mathematics concisely.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1611,7 +1611,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Transversal",
+    "title": "A Transversal Is a Line",
     "text": "A transversal is a line that intersects two or more lines at distinct, separate points. When this third line crosses the others, it creates a rich geometric framework of eight distinct angles that allow us to study the relationship between lines.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1651,7 +1651,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15",
      "Rahul is correct. The letter $y$ is a variable, meaning Rahul can buy 1 samosa, 2 samosas, 5 samosas, or any number of samosas; $y$ is not locked to a single fixed value"
     ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
+    "hint": "Straight from the 'A variable is a letter' slide -- match the key terms.",
     "misconception": "A wrong answer supporting Priya reveals the common misconception that variables have a single hidden correct answer like in arithmetic puzzles, rather than representing a range of possible values.",
     "id": "gen_c7_math_ch04_q1",
     "nodeId": "c7_math_ch04_001",
@@ -1668,8 +1668,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the definition of a \"term\" in an algebraic expression? Give a brief description.",
     "answer": "A term is a single mathematical expression or a part of an algebraic expression separated by plus (+) or minus (-) signs",
     "options": [
-     "The correct answer is $-3$",
-     "The correct answer is C) $-5ab$ and $12ba$. Like terms must have the exact same variables, and the order of multiplied variables does not matter because multiplication is",
+     "Substitution means replacing the variable $x$ with the given number $4$ so that the expression becomes $5(4) - 3$, which evaluates to $17$",
+     "The answer $5x$ is incorrect because the student incorrectly added the constant term $3$ to the variable term $2x$ instead of only combining the like terms $4x$ and $-2x$",
      "A term is a single mathematical expression or a part of an algebraic expression separated by plus (+) or minus (-) signs"
     ],
     "hint": "Straight from the 'algebraic expression' slide -- match the key terms.",
@@ -1754,7 +1754,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "options": [
      "To find the number of dots in Step 15, substitute $n = 15$ into the expression $\\frac{n(n + 1)}{2}$",
      "The correct expression is $12k + 50$. Steps: 1. Identify the variable: Let $k$ be the number of kilometres",
-     "Compare correct expression is $x + 5$",
+     "Like correct expression is $x + 5$",
      "The correct expression is $x + 5$"
     ],
     "hint": "Straight from the 'Writing algebraic expressions' slide -- match the key terms.",
@@ -1905,7 +1905,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre",
      "The expected answer describes a straight pipe crossing 3 fencing wires, resulting in 3 distinct points of intersection and $3 \\times 4 = 12$ total angles formed"
     ],
-    "hint": "Straight from the 'transversal' slide -- match the key terms.",
+    "hint": "Straight from the 'A transversal is a line' slide -- match the key terms.",
     "misconception": "A poor answer fails to connect the physical scenario to the geometric definitions of intersection points and angle counts per vertex.",
     "id": "gen_c7_math_ch04_q8",
     "nodeId": "c7_math_ch05_006",
@@ -1922,8 +1922,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Which of the following pairs of terms are considered \"like terms\"? A) $5x$ and $5y$ B) $3x^2$ and $4x$ C) $-7xy$ and $2yx$ D) $8a$ and $8ab$",
     "answer": "The correct answer is C) $-7xy$ and $2yx$. Like terms must have the exact same variables with the exact same exponents",
     "options": [
-     "A term is a single mathematical expression or a part of an algebraic expression separated by plus (+) or minus (-) signs",
-     "The correct answer is $-3$",
+     "Can identify like and unlike terms within an algebraic expression containing multiple variables and powers, group them together",
+     "Combining like terms is the algebraic process of simplifying expressions by adding or subtracting terms that contain the exact same variables raised to the exact same powers",
      "The correct answer is C) $-7xy$ and $2yx$. Like terms must have the exact same variables with the exact same exponents"
     ],
     "hint": "Straight from the 'Combining like terms' slide -- match the key terms.",
@@ -1947,7 +1947,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15",
      "The correct answer is that $3n$ gives 3, 6, 9, 12 for $n = 1, 2, 3, 4$, which misses every term by exactly 1; the complete rule must be $3n + 1$"
     ],
-    "hint": "Straight from the 'process of observing numerical or' slide -- match the key terms.",
+    "hint": "Straight from the 'process of observing numerical' slide -- match the key terms.",
     "misconception": "A wrong answer claiming $3n$ is completely correct reveals that the student forgot to test their rule against the initial term in the sequence.",
     "id": "gen_c7_math_ch04_q10",
     "nodeId": "c7_math_ch04_008",
@@ -1965,7 +1965,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "answer": "Substitution means replacing the variable $x$ with the given number $4$ so that the expression becomes $5(4) - 3$, which evaluates to $17$",
     "options": [
      "A term is a single mathematical expression or a part of an algebraic expression separated by plus (+) or minus (-) signs",
-     "The answer $5x$ is incorrect because the student incorrectly added the constant term $3$ to the variable term $2x$ instead of only combining the like terms $4x$ and $-2x$",
+     "Can identify like and unlike terms within an algebraic expression containing multiple variables and powers, group them together",
      "Substitution means replacing the variable $x$ with the given number $4$ so that the expression becomes $5(4) - 3$, which evaluates to $17$"
     ],
     "hint": "Straight from the 'Substituting values into an' slide -- match the key terms.",
@@ -2008,7 +2008,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An acceptable response is any expression that expands out or rearranges to $5x - 2y + 6$, such as $3x - y + 2x - y + 6$",
      "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre"
     ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
+    "hint": "Straight from the 'A variable is a letter' slide -- match the key terms.",
     "misconception": "A poor answer fails to define what $k$ represents or creates a purely arithmetic sentence with no variable (e.g., \"I bought 3 apples for ₹30\").",
     "id": "gen_c7_math_ch04_q13",
     "nodeId": "c7_math_ch04_001",
@@ -2023,7 +2023,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An example acceptable answer is the expression $2p - 3q$ with $p = 3$ and $q = 7$. Substituting gives $2(3) - 3(7) = 6 - 21 = -15$",
      "Steps: 1. Identify the initial quantity of stamps as $p$. 2. Identify the operation for giving away stamps as subtraction ($-\\;12$)"
     ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
+    "hint": "Straight from the 'A variable is a letter' slide -- match the key terms.",
     "misconception": "A wrong answer like $12 - p$ or $45 + 12$ reveals that the student either reverses the direction of subtraction or confuses addition with subtraction when dealing with quantities being removed.",
     "id": "gen_c7_math_ch04_q14",
     "nodeId": "c7_math_ch04_001",
@@ -2038,7 +2038,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "To find the number of dots in Step 15, substitute $n = 15$ into the expression $\\frac{n(n + 1)}{2}$",
      "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15"
     ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
+    "hint": "Straight from the 'A variable is a letter' slide -- match the key terms.",
     "misconception": "A wrong answer siding with Student B shows the student struggles with translating verbal statements into correct mathematical equations and misinterprets the word \"is\" as an operation instruction rather than an equals sign.",
     "id": "gen_c7_math_ch04_q15",
     "nodeId": "c7_math_ch04_001",
@@ -2092,23 +2092,26 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about variable?",
+    "What surprised you about a variable is a letter?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Variable mastered! 🎯",
+  "successLine": "A Variable Is a Letter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_math_ch06",
-  "title": "Numbers Tell Us Things: Interpreting Number",
+  "title": "Interpreting Number Sequences Involves Analyzing",
   "subtitle": "Mathematics · Chapter 6",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Numbers Tell Us Things: Interpreting Number",
-  "chapters": ["Mathematics Ch6: Numbers Tell Us Things: Interpreting Number", "Mathematics Ch7: Numbers Tell Us Things: Interpreting Number"],
+  "topic": "Interpreting Number Sequences Involves Analyzing",
+  "chapters": [
+   "Mathematics Ch6: Interpreting Number Sequences Involves Analyzing",
+   "Mathematics Ch7: Interpreting Number Sequences Involves Analyzing"
+  ],
   "nodeIds": [
    "c7_math_ch06_001",
    "c7_math_ch06_002",
@@ -2129,7 +2132,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Numbers Tell Us Things: in real working life?",
+   "question": "Who uses Interpreting Number Sequences in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2170,7 +2173,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Explorations In Grids And Arrays Involves",
+    "title": "Explorations In Grids And Arrays",
     "text": "Explorations in grids and arrays involves discovering numerical patterns and algebraic relationships by arranging numbers, dots, or objects in rows and columns. This grid structure helps express visual growth through expressions involving variables.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2480,9 +2483,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What are the first five terms of the Virahanka-Fibonacci sequence if we start with $1$ and $1$?",
     "answer": "The correct sequence is $1, 1, 2, 3, 5$",
     "options": [
-     "The correct term is an invariant",
-     "A number sequence is an ordered set of numbers arranged according to a specific rule",
-     "We correct sequence is $1, 1, 2, 3, 5$",
+     "An even number is any integer that can be written in the form $2k$, where $k$ is an integer. This algebraic representation helps us determine sums because we can substitute $2k$",
+     "$-45$ is the correct answer",
      "The correct sequence is $1, 1, 2, 3, 5$"
     ],
     "hint": "Straight from the 'Virahanka-Fibonacci sequence' slide -- match the key terms.",
@@ -2776,8 +2778,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is a number sequence?",
     "answer": "A number sequence is an ordered set of numbers arranged according to a specific rule",
     "options": [
-     "The correct sequence is $1, 1, 2, 3, 5$",
      "An even number is any integer that can be written in the form $2k$, where $k$ is an integer. This algebraic representation helps us determine sums because we can substitute $2k$",
+     "Can construct number patterns from 2D arrays, write algebraic expressions for the total number of items based on row and column dimensions",
      "A number sequence is an ordered set of numbers arranged according to a specific rule"
     ],
     "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
@@ -2788,41 +2790,41 @@ export const C7_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student claims that \"the sum of three consecutive integers is always divisible by $6$.\" Evaluate this claim using parity properties.",
-    "answer": "The claim is false. Let the three consecutive integers be $n, n+1, n+2$. Their sum is $3n + 3 = 3(n+1)$",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can observe a given numerical sequence, determine the underlying rule (whether arithmetic, geometric, or based on differences), calculate missing terms",
     "options": [
-     "The center number in a standard $3 \\times 3$ magic square with sum 15 is always 5, regardless of the top-left corner $x$",
-     "An example is $2x^2 + 4x + 7$. Explanation: $2x^2 + 4x = 2(x^2 + 2x)$, which is always even because it is a multiple of $2$",
-     "The claim is false. Let the three consecutive integers be $n, n+1, n+2$. Their sum is $3n + 3 = 3(n+1)$"
+     "Can generate the Virahanka-Fibonacci sequence given any two starting terms, identify missing terms in a sequence using the recursive addition rule",
+     "$-45$ is the correct answer",
+     "Can observe a given numerical sequence, determine the underlying rule (whether arithmetic, geometric, or based on differences), calculate missing terms"
     ],
-    "hint": "Straight from the 'Even numbers' slide -- match the key terms.",
-    "misconception": "A student who judges the claim as true likely checked only one example and confused divisibility by $3$ with divisibility by $6$.",
+    "hint": "Straight from the 'Interpreting number sequences' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can observe a given numerical sequence, determine the underlying rule (whether arithmetic, geometric, or based on",
     "id": "gen_c7_math_ch06_q18",
-    "nodeId": "c7_math_ch06_002",
+    "nodeId": "c7_math_ch06_001",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about numbers tell us things: interpreting number?",
+    "What surprised you about interpreting number sequences involves analyzing?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Numbers Tell Us Things: mastered! 🎯",
+  "successLine": "Interpreting Number Sequences mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_math_ch11",
-  "title": "Integers",
+  "title": "Integers Are a Set Of Numbers",
   "subtitle": "Mathematics · Chapter 11",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Integers",
+  "topic": "Integers Are a Set Of Numbers",
   "chapters": [
-   "Mathematics Ch10: Integers",
-   "Mathematics Ch11: Integers"
+   "Mathematics Ch10: Integers Are a Set Of Numbers",
+   "Mathematics Ch11: Integers Are a Set Of Numbers"
   ],
   "nodeIds": [
    "c7_math_ch10_001",
@@ -2845,7 +2847,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Integers in real working life?",
+   "question": "Who uses Integers Are a Set Of Numbers in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2856,7 +2858,7 @@ export const C7_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Integers",
+    "title": "Integers Are a Set Of Numbers",
     "text": "Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\\{..., -3, -2, -1, 0, 1, 2, 3, ..",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2910,7 +2912,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Product Of The Highest",
+    "title": "The Product Of The Highest Common",
     "text": "The product of the Highest Common Factor (HCF) and the Least Common Multiple (LCM) of any two positive integers is always equal to the product of the two numbers themselves ($HCF \\times LCM = Product\\text{ of the two numbers}$).",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3022,7 +3024,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Rahul is incorrect. While 24 is *a* common multiple of 4 and 6, it is not the *least* common multiple",
      "Rahul is incorrect. The HCF (Highest Common Factor) can never be greater than the numbers themselves because a factor must divide the number completely"
     ],
-    "hint": "Straight from the 'Highest Common Factor  of two or' slide -- match the key terms.",
+    "hint": "Straight from the 'Highest Common Factor of two or' slide -- match the key terms.",
     "misconception": "A student who says yes is confusing HCF with LCM (Least Common Multiple), which is always greater than or equal to the given numbers.",
     "id": "gen_c7_math_ch11_q3",
     "nodeId": "c7_math_ch11_002",
@@ -3039,8 +3041,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "When listing factors of 18, a student writes: $1, 2, 3, 6, 9, 18$. Are all these numbers factors, and how do we know we haven't missed any?",
     "answer": "Yes, these are all the correct factors because they divide 18 evenly, and they are found in pairs ($1 \\times 18 = 18, 2 \\times 9 = 18, 3 \\times 6 = 18$)",
     "options": [
-     "The correct answer is the \"remainder\"",
-     "The correct answer is $2^2 \\times 3^2$",
+     "A common factor is a number that divides both given numbers completely without leaving a remainder",
+     "Can apply the division lemma method to find the HCF of large numbers through repeated division and interpret why the process stops when the remainder becomes zero",
      "Yes, these are all the correct factors because they divide 18 evenly, and they are found in pairs ($1 \\times 18 = 18, 2 \\times 9 = 18, 3 \\times 6 = 18$)"
     ],
     "hint": "Straight from the 'Finding the Highest Common Factor' slide -- match the key terms.",
@@ -3060,7 +3062,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the prime factorisation of the number 72 expressed in exponential form?",
     "answer": "The correct answer is $2^3 \\times 3^2$",
     "options": [
-     "The correct answer is the \"remainder\"",
+     "Can read a word problem, identify whether it requires HCF (finding divisors/partitioning) or LCM (finding multiples/synchronizing events)",
      "A common multiple of 3 and 4 is a number that can be divided evenly by both 3 and 4 (or is found in the multiplication tables of both 3 and 4)",
      "The correct answer is $2^3 \\times 3^2$"
     ],
@@ -3146,9 +3148,10 @@ export const C7_MATH_GEN: SimDef[] = [
     "options": [
      "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF",
      "To find when they ring together, we calculate the LCM of 10, 15, and 20. Step 1: Prime factorisation of 10 = 2 × 5",
+     "Step is incorrect. While 24 is *a* common multiple of 4 and 6, it is not the *least* common multiple",
      "Rahul is incorrect. While 24 is *a* common multiple of 4 and 6, it is not the *least* common multiple"
     ],
-    "hint": "Straight from the 'Least Common Multiple  of two or' slide -- match the key terms.",
+    "hint": "Straight from the 'Least Common Multiple of two or' slide -- match the key terms.",
     "misconception": "A student who agrees with Rahul is demonstrating the misconception that the LCM is always found by simply multiplying the two numbers together.",
     "id": "gen_c7_math_ch11_q7",
     "nodeId": "c7_math_ch11_006",
@@ -3228,8 +3231,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the prime factorisation of 36 expressed in exponential form?",
     "answer": "The correct answer is $2^2 \\times 3^2$",
     "options": [
-     "A common multiple of 3 and 4 is a number that can be divided evenly by both 3 and 4 (or is found in the multiplication tables of both 3 and 4)",
-     "A common factor is a number that divides both given numbers completely without leaving a remainder",
+     "Yes, these are all the correct factors because they divide 18 evenly, and they are found in pairs ($1 \\times 18 = 18, 2 \\times 9 = 18, 3 \\times 6 = 18$)",
+     "The correct answer is the \"remainder\"",
      "The correct answer is $2^2 \\times 3^2$"
     ],
     "hint": "Straight from the 'Finding the Least Common Multiple' slide -- match the key terms.",
@@ -3253,7 +3256,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An acceptable response provides two numbers, such as 210 and 150. Construction: Work backwards by choosing a target HCF like 30, multiplying it to form a divisor and quotient",
      "The student's conclusion is incorrect. The student correctly calculated both examples ($2 \\times 12 = 24$ and $4 \\times 6 = 24$)"
     ],
-    "hint": "Straight from the 'The product of the Highest' slide -- match the key terms.",
+    "hint": "Straight from the 'The product of the Highest Common' slide -- match the key terms.",
     "misconception": "A wrong judgment here shows a misunderstanding of universal mathematical properties versus specific test cases.",
     "id": "gen_c7_math_ch11_q10",
     "nodeId": "c7_math_ch11_009",
@@ -3355,8 +3358,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the definition of a common multiple of two numbers, say 3 and 4?",
     "answer": "A common multiple of 3 and 4 is a number that can be divided evenly by both 3 and 4 (or is found in the multiplication tables of both 3 and 4)",
     "options": [
-     "Yes, these are all the correct factors because they divide 18 evenly, and they are found in pairs ($1 \\times 18 = 18, 2 \\times 9 = 18, 3 \\times 6 = 18$)",
-     "The correct answer is $2^3 \\times 3^2$",
+     "The correct answer is $2^2 \\times 3^2$",
+     "A common factor is a number that divides both given numbers completely without leaving a remainder",
      "A common multiple of 3 and 4 is a number that can be divided evenly by both 3 and 4 (or is found in the multiplication tables of both 3 and 4)"
     ],
     "hint": "Straight from the 'Common multiples' slide -- match the key terms.",
@@ -3380,7 +3383,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "$C$ must be less than or equal to both $A$ and $B$ (except when $A$ or $B$ is negative, but in whole numbers, $C \\le A$ and $C \\le B$)",
      "The number-line reasoning runs: (1) Locate both readings on the number line (2) Observe that -7 lies to the left of -4 (3) Recall that values decrease as you move left (4)"
     ],
-    "hint": "Straight from the 'Integers' slide -- match the key terms.",
+    "hint": "Straight from the 'Integers are a set of numbers' slide -- match the key terms.",
     "misconception": "A wrong answer that picks Shimla because 4 is less than 7 shows the student is comparing the digits while ignoring the negative signs, which reverse the order of magnitude on the number line.",
     "id": "gen_c7_math_ch11_q13",
     "nodeId": "c7_math_ch10_001",
@@ -3455,7 +3458,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "The student's solution is incorrect because 240 is actually the *LCM* (Lowest Common Multiple), not the HCF",
      "Priya's working is completely correct. She accurately listed all factors for both numbers, correctly identified the intersection of those lists (common factors)"
     ],
-    "hint": "Straight from the 'Highest Common Factor  of two or' slide -- match the key terms.",
+    "hint": "Straight from the 'Highest Common Factor of two or' slide -- match the key terms.",
     "misconception": "A student who disagrees likely made a counting or division error when listing the factors.",
     "id": "gen_c7_math_ch11_q18",
     "nodeId": "c7_math_ch11_002",
@@ -3464,11 +3467,11 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about integers?",
+    "What surprised you about integers are a set of numbers?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Integers mastered! 🎯",
+  "successLine": "Integers Are a Set Of Numbers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3678,7 +3681,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Median",
+    "title": "The Median Is The Middle Value",
     "text": "The median is the middle value of a data set when all the data points are arranged in ascending or descending order. If the number of data points is odd, the median is the exact middle number; if the number of data points is even, the median is the arithmetic",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3708,7 +3711,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Choosing An Appropriate Representative",
+    "title": "Choosing An Appropriate Representative Value",
     "text": "Choosing an appropriate representative value involves analyzing the distribution, spread, and presence of extreme values (outliers) in a data set to decide whether the arithmetic mean, median, or mode best reflects the central tendency.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3720,8 +3723,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Which of the following questions is a statistical question? A) What is the capital of India? B) How tall is the tallest teacher in your school? C) How many hours do students in Grade 7 spend watching television each week? D) In which year did India win its first Cricket World Cup?",
     "answer": "The correct answer is C. Question C expects a variety of different answers from different students, reflecting variability",
     "options": [
+     "Can correctly compute the arithmetic mean from a raw data set, interpret what the mean signifies in a real-world context",
      "The key or legend shows the exact numerical value that each picture symbol represents (e.g., 1 smiley face = 4 students)",
-     "The correct answer is that the first 5 strokes should be grouped together with the fifth stroke crossing the previous four diagonally (HI)",
      "The correct answer is C. Question C expects a variety of different answers from different students, reflecting variability"
     ],
     "hint": "Straight from the 'statistical question' slide -- match the key terms.",
@@ -3741,8 +3744,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the primary purpose of using tally marks in a frequency table when organizing a large dataset?",
     "answer": "The correct answer is to keep an accurate, organized count of each individual data value as you scan through a messy list without missing or double-counting items",
     "options": [
-     "The key or legend shows the exact numerical value that each picture symbol represents (e.g., 1 smiley face = 4 students)",
-     "The correct answer is a representative value or measure of central tendency (such as the mean, median, or mode)",
+     "Can examine a given research question or survey prompt, determine whether it will yield a variety of differing responses or a single fixed value",
+     "The correct answer is addition (finding the sum of all the observations)",
      "The correct answer is to keep an accurate, organized count of each individual data value as you scan through a messy list without missing or double-counting items"
     ],
     "hint": "Straight from the 'Collecting and organising raw' slide -- match the key terms.",
@@ -3994,8 +3997,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the primary purpose of a key or legend in a pictograph?",
     "answer": "The key or legend shows the exact numerical value that each picture symbol represents (e.g., 1 smiley face = 4 students)",
     "options": [
-     "The mode is 10 rupees because it appears 3 times, which is more frequently than any other number in the set",
-     "The correct answer is a representative value or measure of central tendency (such as the mean, median, or mode)",
+     "The correct answer is that the first 5 strokes should be grouped together with the fifth stroke crossing the previous four diagonally (HI)",
+     "Can construct a complete frequency table from an unstructured list of 20+ data values, accurately tally occurrences, compute numerical frequencies",
      "The key or legend shows the exact numerical value that each picture symbol represents (e.g., 1 smiley face = 4 students)"
     ],
     "hint": "Straight from the 'Visualising data through bar' slide -- match the key terms.",
@@ -4122,8 +4125,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "Compare the two questions: Question X: \"How many pens does Priya have in her pencil box?\" and Question Y: \"How many pens do students in Class 7 have in their pencil boxes?\" Explain how changing the scope turns a non-statistical question into a statistical one.",
     "answer": "The correct answer is that Question X asks about a single person, yielding one fixed number (non-statistical)",
     "options": [
-     "A good answer will choose a scale factor that divides all numbers cleanly, such as choosing 1 star symbol to represent 60 students",
-     "Equal widths and spaces ensure that the visual comparison is fair and unbiased; if one bar is wider, it might visually exaggerate its quantity even if its height is the same",
+     "The key or legend shows the exact numerical value that each picture symbol represents (e.g., 1 smiley face = 4 students)",
+     "The mean is heavily pulled upward by the extreme outlier (98), making the average score much higher than what 4 out of the 5 students actually scored",
      "The correct answer is that Question X asks about a single person, yielding one fixed number (non-statistical)"
     ],
     "hint": "Straight from the 'statistical question' slide -- match the key terms.",
@@ -4179,6 +4182,21 @@ export const C7_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can examine a given research question or survey prompt, determine whether it will yield a variety of differing responses or a single fixed value",
+    "options": [
+     "Can construct a complete frequency table from an unstructured list of 20+ data values, accurately tally occurrences, compute numerical frequencies",
+     "The correct answer is addition (finding the sum of all the observations)",
+     "Can examine a given research question or survey prompt, determine whether it will yield a variety of differing responses or a single fixed value"
+    ],
+    "hint": "Straight from the 'statistical question' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can examine a given research question or survey prompt, determine whether it will yield a variety of differing",
+    "id": "gen_c7_math_ch13_q16",
+    "nodeId": "c7_math_ch13_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A student records the shoe sizes of 15 classmates as: 5, 6, 5, 7, 6, 6, 5, 8, 7, 6, 5, 6, 7, 5, 6. Construct the frequency for shoe size 6. What is the frequency?",
     "answer": "The correct answer is a frequency of 6. Working steps: 1) Scan the dataset specifically for the number 6",
     "options": [
@@ -4188,7 +4206,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Collecting and organising raw' slide -- match the key terms.",
     "misconception": "A student who writes 5 likely miscounted or skipped one of the sixes due to messy scanning of the raw list.",
-    "id": "gen_c7_math_ch13_q16",
+    "id": "gen_c7_math_ch13_q17",
     "nodeId": "c7_math_ch13_002",
     "difficulty": "advanced"
    },
@@ -4203,21 +4221,6 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Collecting and organising raw' slide -- match the key terms.",
     "misconception": "A poor answer would provide a dataset whose numbers do not match the frequencies or whose total frequency does not equal 12, showing a lack of structural understanding of frequency distribution.",
-    "id": "gen_c7_math_ch13_q17",
-    "nodeId": "c7_math_ch13_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "If a dataset contains 25 total entries, what mathematical check must you always perform on the sum of the frequency column in your frequency table to ensure your work is correct?",
-    "answer": "The correct answer is that the sum of all individual frequencies must equal the total number of data entries (25 in this case)",
-    "options": [
-     "The point tells us that in the month of March, the student's total savings amounted to ₹250",
-     "The correct answer is NO, the table is inconsistent because the sum of the frequencies is $8 + 6 + 3 = 17$, whereas the total number of students surveyed is 20",
-     "The correct answer is that the sum of all individual frequencies must equal the total number of data entries (25 in this case)"
-    ],
-    "hint": "Straight from the 'Collecting and organising raw' slide -- match the key terms.",
-    "misconception": "A student who checks whether the frequency numbers are in ascending order demonstrates a misunderstanding, because frequencies do not need to be ordered sequentially.",
     "id": "gen_c7_math_ch13_q18",
     "nodeId": "c7_math_ch13_002",
     "difficulty": "advanced"
@@ -4240,9 +4243,9 @@ export const C7_MATH_GEN: SimDef[] = [
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Geometric Constructions Involve Drawing Precise",
+  "topic": "Geometric Constructions Involve Drawing Precise Figu",
   "chapters": [
-   "Mathematics Ch14: Geometric Constructions Involve Drawing Precise"
+   "Mathematics Ch14: Geometric Constructions Involve Drawing Precise Figu"
   ],
   "nodeIds": [
    "c7_math_ch14_001",
@@ -4303,7 +4306,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Tiling",
+    "title": "Tiling Is The Process",
     "text": "Tiling (or tessellation) is the process of covering a flat plane completely with geometric shapes (tiles) without any gaps or overlapping regions.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4333,8 +4336,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What are the only two permitted tools allowed in classical geometric constructions according to Euclidean rules?",
     "answer": "A ruler (straightedge) and a pair of compasses",
     "options": [
-     "A 90-degree angle represents a right angle, which is half of a straight line (180 degrees). Constructing a perpendicular ensures that the adjacent angles formed on the line sum to",
-     "The property of equal corresponding angles or equal alternate interior angles formed by a transversal",
+     "Can construct the exact angle bisector of any given angle (acute, obtuse, or straight) using a compass and ruler, and can verify that the two resulting angles are equal in measure",
+     "The radius must exceed half the length so that the arcs drawn from both endpoints intersect each other both above and below the line segment",
      "A ruler (straightedge) and a pair of compasses"
     ],
     "hint": "Straight from the 'Geometric constructions involve' slide -- match the key terms.",
@@ -4354,8 +4357,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the primary geometric definition of a perpendicular bisector of a line segment?",
     "answer": "It is a line that divides the segment into two equal parts and forms a $90^\\circ$ angle with it",
     "options": [
-     "A ruler (straightedge) and a pair of compasses",
-     "The correct answer is a compass",
+     "Can construct basic geometric elements (line segments, perpendiculars, angle bisectors, and angles) using a ruler and compass with accuracy",
+     "A 90-degree angle represents a right angle, which is half of a straight line (180 degrees). Constructing a perpendicular ensures that the adjacent angles formed on the line sum to",
      "It is a line that divides the segment into two equal parts and forms a $90^\\circ$ angle with it"
     ],
     "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
@@ -4438,8 +4441,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "When constructing a 90-degree angle on a given line segment using a compass, why do we first construct a perpendicular bisector or a perpendicular from a point? Explain the geometrical reason.",
     "answer": "A 90-degree angle represents a right angle, which is half of a straight line (180 degrees). Constructing a perpendicular ensures that the adjacent angles formed on the line sum to",
     "options": [
-     "The correct answer is that keeping the compass width the same ensures that the points are equidistant from the two arm intersections",
      "It is a line that divides the segment into two equal parts and forms a $90^\\circ$ angle with it",
+     "Can construct a line parallel to a given line through a given point not on the line using only a ruler and compass",
      "A 90-degree angle represents a right angle, which is half of a straight line (180 degrees). Constructing a perpendicular ensures that the adjacent angles formed on the line sum to"
     ],
     "hint": "Straight from the 'Constructing angles of given' slide -- match the key terms.",
@@ -4459,8 +4462,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What geometric property is primarily used when constructing a parallel line to a given line using a compass to copy an angle at a transversal?",
     "answer": "The property of equal corresponding angles or equal alternate interior angles formed by a transversal",
     "options": [
-     "It is a line that divides the segment into two equal parts and forms a $90^\\circ$ angle with it",
-     "The correct answer is a compass",
+     "Can construct basic geometric elements (line segments, perpendiculars, angle bisectors, and angles) using a ruler and compass with accuracy",
+     "Can construct the exact angle bisector of any given angle (acute, obtuse, or straight) using a compass and ruler, and can verify that the two resulting angles are equal in measure",
      "The property of equal corresponding angles or equal alternate interior angles formed by a transversal"
     ],
     "hint": "Straight from the 'Constructing parallel lines using' slide -- match the key terms.",
@@ -4484,7 +4487,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "No, it is not a valid perpendicular bisector because the angle must be exactly $90^\\circ$, whereas $85^\\circ$ is acute and not perpendicular",
      "The expected answer is that the interior angle of a regular $n$-polygon, given by $\\frac{(n-2) \\times 180^\\circ}{n}$, must be an exact divisor of $360^\\circ$"
     ],
-    "hint": "Straight from the 'Tiling' slide -- match the key terms.",
+    "hint": "Straight from the 'Tiling is the process' slide -- match the key terms.",
     "misconception": "A poor answer merely lists numbers without providing the mathematical proof or algebraic condition based on vertex angles.",
     "id": "gen_c7_math_ch14_q6",
     "nodeId": "c7_math_ch14_006",
@@ -4715,7 +4718,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "answer": "An ungraduated straightedge is used solely to connect two points with a straight line, preventing reliance on numerical measurement errors",
     "options": [
      "The compass and ruler method is a strict geometric construction because it relies on pure deductive properties of circles and equidistant points (like constructing an equilateral",
-     "No, this is not a valid construction method. While the resulting line is 6.2 cm, classical geometric construction requires using the compass to transfer the length directly from",
+     "It is a line that divides the segment into two equal parts and forms a $90^\\circ$ angle with it",
      "An ungraduated straightedge is used solely to connect two points with a straight line, preventing reliance on numerical measurement errors"
     ],
     "hint": "Straight from the 'Geometric constructions involve' slide -- match the key terms.",
@@ -4771,6 +4774,21 @@ export const C7_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can construct basic geometric elements (line segments, perpendiculars, angle bisectors, and angles) using a ruler and compass with accuracy",
+    "options": [
+     "The correct answer is a compass",
+     "The correct answer is that keeping the compass width the same ensures that the points are equidistant from the two arm intersections",
+     "Can construct basic geometric elements (line segments, perpendiculars, angle bisectors, and angles) using a ruler and compass with accuracy"
+    ],
+    "hint": "Straight from the 'Geometric constructions involve' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can construct basic geometric elements (line segments, perpendiculars, angle bisectors, and angles) using a ruler and",
+    "id": "gen_c7_math_ch14_q15",
+    "nodeId": "c7_math_ch14_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why must you never change the compass width once it has been set to measure a specific radius during an arc-drawing sequence?",
     "answer": "Keeping the compass width fixed guarantees that all points drawn along the arc maintain an equal, exact distance from the center",
     "options": [
@@ -4780,7 +4798,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Geometric constructions involve' slide -- match the key terms.",
     "misconception": "A wrong answer shows that the student views the compass merely as a drawing aid rather than a precision tool for maintaining invariant distance.",
-    "id": "gen_c7_math_ch14_q15",
+    "id": "gen_c7_math_ch14_q16",
     "nodeId": "c7_math_ch14_001",
     "difficulty": "advanced"
    },
@@ -4795,7 +4813,7 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
     "misconception": "A student who says yes ignores the strict perpendicular requirement in favor of only checking the bisecting property.",
-    "id": "gen_c7_math_ch14_q16",
+    "id": "gen_c7_math_ch14_q17",
     "nodeId": "c7_math_ch14_002",
     "difficulty": "advanced"
    },
@@ -4810,21 +4828,6 @@ export const C7_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
     "misconception": "A poor answer suggests guessing or folding the wood, which fails the geometric construction requirement.",
-    "id": "gen_c7_math_ch14_q17",
-    "nodeId": "c7_math_ch14_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "How does changing the compass radius (while keeping it greater than half the segment length) affect the position of the final perpendicular bisector line?",
-    "answer": "It does not change the position of the final line at all; it only changes where the intersection arcs are drawn higher or lower on the page",
-    "options": [
-     "The expected response involves a multi-step construction: First, construct the perpendicular bisector or use a straight line to establish the $180^\\circ$ angle",
-     "The radius must remain unchanged to ensure that the chord length and opening of the copied angle are identical, preserving angle equality",
-     "It does not change the position of the final line at all; it only changes where the intersection arcs are drawn higher or lower on the page"
-    ],
-    "hint": "Straight from the 'perpendicular bisector of a line' slide -- match the key terms.",
-    "misconception": "A student who believes a larger radius shifts the bisector off-center does not understand that two points determine a unique straight line, and any valid pair of intersection points yields the exact same perpendicular line.",
     "id": "gen_c7_math_ch14_q18",
     "nodeId": "c7_math_ch14_002",
     "difficulty": "advanced"
@@ -4832,7 +4835,7 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about geometric constructions involve drawing precise?",
+    "What surprised you about geometric constructions involve drawing precise figu?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -4842,14 +4845,14 @@ export const C7_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_math_ch15",
-  "title": "Equation",
+  "title": "An Equation Is a Mathematical Statement",
   "subtitle": "Mathematics · Chapter 15",
   "classLevel": 7,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Equation",
+  "topic": "An Equation Is a Mathematical Statement",
   "chapters": [
-   "Mathematics Ch15: Equation"
+   "Mathematics Ch15: An Equation Is a Mathematical Statement"
   ],
   "nodeIds": [
    "c7_math_ch15_001",
@@ -4870,7 +4873,7 @@ export const C7_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Equation more about facts, or about reasoning?",
+   "question": "Is An Equation Is a Mathematical more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -4881,7 +4884,7 @@ export const C7_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Equation",
+    "title": "An Equation Is a Mathematical Statement",
     "text": "An equation is a mathematical statement that shows two algebraic expressions are equal, connected by an equals sign ($=$), where at least one expression contains an unknown variable.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4951,7 +4954,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Rahul's expression is incorrect. While the common difference between terms is 5 (8 - 3 = 5, and 13 - 8 = 5), testing $n = 1$ gives $5(1) - 2 = 3$",
      "The equals sign indicates that when the correct value for $x$ is substituted, the numerical value computed for the left-hand expression ($5x + 3$) is exactly equal in value to the"
     ],
-    "hint": "Straight from the 'equation' slide -- match the key terms.",
+    "hint": "Straight from the 'An equation is a mathematical' slide -- match the key terms.",
     "misconception": "A wrong answer often states that the equals sign just means \"write the answer here\" or \"do the calculation,\" showing a lack of understanding that an equation represents a permanent balance or equivalence between two quantities.",
     "id": "gen_c7_math_ch15_q1",
     "nodeId": "c7_math_ch15_001",
@@ -4989,8 +4992,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What is the primary goal when using the systematic method to solve a linear equation like $3x - 5 = 10$?",
     "answer": "The goal is to isolate the variable ($x$) on one side of the equation",
     "options": [
+     "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)",
      "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x",
-     "The term must become a positive term ($+5x$)",
      "The goal is to isolate the variable ($x$) on one side of the equation"
     ],
     "hint": "Straight from the 'Solving a linear equation using' slide -- match the key terms.",
@@ -5031,8 +5034,8 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "What does it mean for an equation to have \"variables on both sides\"? Give an example of such an equation.",
     "answer": "An equation with variables on both sides has the unknown letter (like $x$) appearing in expressions on both the left-hand side and the right-hand side of the equals sign",
     "options": [
+     "Can read a multi-step word problem, define a variable for the unknown quantity, write a correct linear equation representing the given conditions",
      "The term must become a positive term ($+5x$)",
-     "The student misunderstood the definition of an equality and the substitution process",
      "An equation with variables on both sides has the unknown letter (like $x$) appearing in expressions on both the left-hand side and the right-hand side of the equals sign"
     ],
     "hint": "Straight from the 'Equations with variables on both' slide -- match the key terms.",
@@ -5073,7 +5076,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "options": [
      "Arjun's equation ($x + (x+1) + (x+2) = 48$) is correct. Priya's equation ($3x = 48$) represents three identical numbers added together, not *consecutive* integers",
      "An acceptable answer should propose an equation like $2x + 1 = 11$. The verification shows LHS = $2(5) + 1 = 11$ and RHS = $11$, proving LHS = RHS",
-     "RHS correct answer is C) $x + 12 = 45$",
+     "Therefore correct answer is C) $x + 12 = 45$",
      "The correct answer is C) $x + 12 = 45$"
     ],
     "hint": "Straight from the 'Setting up equations from word' slide -- match the key terms.",
@@ -5094,7 +5097,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "answer": "The student misunderstood the definition of an equality and the substitution process",
     "options": [
      "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)",
-     "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x",
+     "Can identify an error in a given algebraic solution, explain why the step is mathematically invalid",
      "The student misunderstood the definition of an equality and the substitution process"
     ],
     "hint": "Straight from the 'Verifying solutions of equations' slide -- match the key terms.",
@@ -5259,7 +5262,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "Correct — $-x = 7$ means $(-1) \\times x = 7$, so $x = -7$; writing $x = 7$ shows the student treated isolating $-x$ as if it were isolating $+x$",
      "The student's claim is incorrect. Let us substitute $x = 6$ into the LHS: $2(6 - 3) = 2(3) = 6$. The RHS is $12$"
     ],
-    "hint": "Straight from the 'equation' slide -- match the key terms.",
+    "hint": "Straight from the 'An equation is a mathematical' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the student's claim indicates a failure to properly evaluate brackets using order of operations (BODMAS).",
     "id": "gen_c7_math_ch15_q12",
     "nodeId": "c7_math_ch15_001",
@@ -5274,7 +5277,7 @@ export const C7_MATH_GEN: SimDef[] = [
      "An acceptable answer should propose an equation like $2x + 1 = 11$. The verification shows LHS = $2(5) + 1 = 11$ and RHS = $11$, proving LHS = RHS",
      "A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed delivery charge of ₹50"
     ],
-    "hint": "Straight from the 'equation' slide -- match the key terms.",
+    "hint": "Straight from the 'An equation is a mathematical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed",
     "id": "gen_c7_math_ch15_q13",
     "nodeId": "c7_math_ch15_001",
@@ -5345,7 +5348,7 @@ export const C7_MATH_GEN: SimDef[] = [
     "question": "When solving the equation $7x = 3x + 16$, why is our first strategic goal usually to subtract $3x$ from both sides rather than adding $16$ to both sides?",
     "answer": "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)",
     "options": [
-     "The student misunderstood the definition of an equality and the substitution process",
+     "The term must become a positive term ($+5x$)",
      "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x",
      "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$)"
     ],
@@ -5358,11 +5361,11 @@ export const C7_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about equation?",
+    "What surprised you about an equation is a mathematical statement?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Equation mastered! 🎯",
+  "successLine": "An Equation Is a Mathematical mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

@@ -11,7 +11,7 @@ export const w_c7_physicsohmssim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Electric Switch: Opening and Closing a Circuit',
     chapters: [],
     nodeIds: ['c7_physics_ch02_007', 'c7_physics_ch02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you walk into your classroom and press the wall switch to turn on the ceiling fan, you hear a click and.', goal: 'Master Electric Switch: Opening and Closing a Circuit.' },
     discovery: {
         question: 'A circuit contains a 3V battery, an open switch, and a small electric lamp connected in series.',
@@ -20,7 +20,7 @@ export const w_c7_physicsohmssim: SimDef = {
         hook: 'Students often believe that a switch "stores" or "consumes" electricity when turned off, or they think that electricity.',
     },
     teaching: [
-        { title: 'An electric switch is a simple mechanical or.', text: 'An electric switch is a simple mechanical or electronic device used to open or close an electric circuit safely, thereby controlling the flow of electric current without needing to disconnect wires.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An electric switch is a simple mechanical or.', text: 'An electric switch is a simple mechanical or electronic device used to open or close an electric circuit safely, thereby controlling the flow of electric current without needing to disconnect wires.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch02_007', title: 'An electric switch is a simple.',

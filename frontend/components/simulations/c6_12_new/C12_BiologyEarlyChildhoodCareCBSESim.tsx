@@ -772,15 +772,15 @@ const MilestonesDiagram: React.FC<{ ageMonths: number }> = ({ ageMonths }) => {
   };
 
   return (
-    <div className="bg-slate-900 p-4 rounded-xl border border-cyan-500/30 text-white my-4 shadow-xl">
+    <div className="bg-slate-900 p-4 rounded-xl border border-gold-500/30 text-white my-4 shadow-xl">
       <div className="flex justify-between items-center mb-2 border-b border-slate-700 pb-2">
-        <h4 className="text-cyan-400 font-bold text-lg flex items-center gap-2">
-          <svg className="w-5 h-5 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <h4 className="text-gold-400 font-bold text-lg flex items-center gap-2">
+          <svg className="w-5 h-5 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8v8m-4-5v5m-4-2v2m-2-4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2z" />
           </svg>
           Developmental Milestone Dynamic Visualizer
         </h4>
-        <span className="bg-cyan-950 text-cyan-300 px-3 py-1 rounded-full text-xs font-semibold border border-cyan-700">
+        <span className="bg-gold-950 text-gold-300 px-3 py-1 rounded-full text-xs font-semibold border border-gold-700">
           Age: {ageMonths} Months ({ (ageMonths/12).toFixed(1) } yrs)
         </span>
       </div>
@@ -834,7 +834,7 @@ const MilestonesDiagram: React.FC<{ ageMonths: number }> = ({ ageMonths }) => {
         {/* Dynamic Text Information Cards */}
         <div className="space-y-3">
           <div className="bg-slate-800/80 p-3 rounded-lg border border-slate-700">
-            <span className="text-xs uppercase tracking-wider text-cyan-400 font-bold block mb-1">
+            <span className="text-xs uppercase tracking-wider text-gold-400 font-bold block mb-1">
               Current Stage: {getStageTitle(ageMonths)}
             </span>
             <div className="text-sm text-slate-200">
@@ -864,7 +864,7 @@ const PiagetVygotskyDiagram: React.FC<{ scaffoldingLevel: number; taskDifficulty
 
   const getZPDStatus = () => {
     if (isTooEasy) return { label: 'Zone of Actual Development (Too Easy)', color: 'text-emerald-400' };
-    if (isZPD && scaffoldingLevel >= 40) return { label: 'Optimal ZPD Scaffolding! Child achieves mastery.', color: 'text-cyan-400' };
+    if (isZPD && scaffoldingLevel >= 40) return { label: 'Optimal ZPD Scaffolding! Child achieves mastery.', color: 'text-gold-400' };
     if (isZPD && scaffoldingLevel < 40) return { label: 'In ZPD but needs higher teacher scaffolding!', color: 'text-amber-400' };
     return { label: 'Zone of Frustration (Beyond current capacity)', color: 'text-rose-400' };
   };
@@ -872,10 +872,10 @@ const PiagetVygotskyDiagram: React.FC<{ scaffoldingLevel: number; taskDifficulty
   const status = getZPDStatus();
 
   return (
-    <div className="bg-slate-900 p-4 rounded-xl border border-indigo-500/30 text-white my-4 shadow-xl">
+    <div className="bg-slate-900 p-4 rounded-xl border border-gold-500/30 text-white my-4 shadow-xl">
       <div className="flex justify-between items-center mb-2 border-b border-slate-700 pb-2">
-        <h4 className="text-indigo-400 font-bold text-lg flex items-center gap-2">
-          <svg className="w-5 h-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <h4 className="text-gold-400 font-bold text-lg flex items-center gap-2">
+          <svg className="w-5 h-5 text-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
           </svg>
           Vygotsky’s Zone of Proximal Development (ZPD) & Scaffolding
@@ -918,11 +918,11 @@ const PiagetVygotskyDiagram: React.FC<{ scaffoldingLevel: number; taskDifficulty
           <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 space-y-1 text-xs text-slate-300">
             <div className="flex justify-between">
               <span>Task Difficulty Level:</span>
-              <span className="font-bold text-cyan-300">{taskDifficulty}%</span>
+              <span className="font-bold text-gold-300">{taskDifficulty}%</span>
             </div>
             <div className="flex justify-between">
               <span>Caregiver Scaffolding:</span>
-              <span className="font-bold text-indigo-300">{scaffoldingLevel}%</span>
+              <span className="font-bold text-gold-300">{scaffoldingLevel}%</span>
             </div>
             <p className="pt-2 text-slate-400 text-[11px] leading-relaxed">
               *Scaffolding provides hints, verbal prompts, and physical demonstrations tailored to the child’s active ZPD.
@@ -977,13 +977,13 @@ const AnganwadiICDSDiagram: React.FC<{ nutrition: number; health: number; ecce: 
         </div>
 
         {/* Service 3: ECCE Preschool */}
-        <div className="bg-slate-800/90 p-3 rounded-lg border border-cyan-500/40">
+        <div className="bg-slate-800/90 p-3 rounded-lg border border-gold-500/40">
           <div className="flex items-center justify-between mb-1">
-            <span className="text-xs font-bold text-cyan-400">3. Non-Formal ECCE</span>
-            <span className="text-xs font-mono text-cyan-300">{ecce}%</span>
+            <span className="text-xs font-bold text-gold-400">3. Non-Formal ECCE</span>
+            <span className="text-xs font-mono text-gold-300">{ecce}%</span>
           </div>
           <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden">
-            <div className="bg-cyan-400 h-full transition-all duration-300" style={{ width: `${ecce}%` }}></div>
+            <div className="bg-gold-400 h-full transition-all duration-300" style={{ width: `${ecce}%` }}></div>
           </div>
           <p className="text-[11px] text-slate-300 mt-2">Play-way learning, storytelling, sensory corners for children 3-6 years.</p>
         </div>
@@ -1218,7 +1218,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
       {/* SIMULATION HEADER */}
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <div className="flex items-center gap-2 text-cyan-400 font-semibold text-xs tracking-widest uppercase mb-1">
+          <div className="flex items-center gap-2 text-gold-400 font-semibold text-xs tracking-widest uppercase mb-1">
             <span>ISC Class 12 Biology</span>
             <span>•</span>
             <span>Human Development & ECCE</span>
@@ -1235,7 +1235,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
         <div className="flex items-center gap-4 bg-slate-950 px-4 py-3 rounded-xl border border-slate-800 self-stretch md:self-auto justify-between">
           <div className="text-center">
             <span className="text-[10px] uppercase tracking-wider text-slate-400 block">Overall Mastery</span>
-            <span className="text-lg font-bold text-cyan-400">{overallMastery}%</span>
+            <span className="text-lg font-bold text-gold-400">{overallMastery}%</span>
           </div>
           <div className="h-8 w-px bg-slate-800"></div>
           <div className="text-center">
@@ -1267,7 +1267,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
             }}
             className={`px-4 py-2.5 rounded-xl font-medium text-xs md:text-sm transition-all duration-200 flex items-center gap-2 ${
               activeTab === tab.id
-                ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg shadow-cyan-500/20'
+                ? 'bg-gold-500 text-slate-950 font-bold shadow-lg shadow-gold-500/20'
                 : 'bg-slate-900 text-slate-400 hover:text-white hover:bg-slate-800 border border-slate-800'
             }`}
           >
@@ -1283,7 +1283,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
           <div className="space-y-6">
             {/* SCENARIO CARD */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-3 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-3 flex items-center gap-2">
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                 </svg>
@@ -1331,8 +1331,8 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-cyan-950/60 border border-cyan-700 p-4 rounded-xl text-cyan-200 text-xs leading-relaxed animate-fadeIn">
-                  <strong className="block text-cyan-300 font-bold mb-1">Scientific Insight:</strong>
+                <div className="bg-gold-950/60 border border-gold-700 p-4 rounded-xl text-gold-200 text-xs leading-relaxed animate-fadeIn">
+                  <strong className="block text-gold-300 font-bold mb-1">Scientific Insight:</strong>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1340,7 +1340,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
 
             {/* PREDICTION QUESTIONS ARRAY MAP */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-indigo-400 uppercase tracking-wider">
+              <h3 className="text-md font-bold text-gold-400 uppercase tracking-wider">
                 Guided Prediction Experiments
               </h3>
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
@@ -1360,7 +1360,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
           <div className="space-y-6">
             {/* RENDER MANDATORY EXPLORATION STEPS MAP */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                 </svg>
@@ -1369,7 +1369,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
               <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
                 {EXPLORATION_STEPS.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs space-y-2">
-                    <span className="bg-cyan-950 text-cyan-300 font-bold px-2 py-0.5 rounded text-[10px]">
+                    <span className="bg-gold-950 text-gold-300 font-bold px-2 py-0.5 rounded text-[10px]">
                       Step {idx + 1}
                     </span>
                     <h4 className="font-bold text-slate-200 text-xs leading-tight">{step.title}</h4>
@@ -1381,7 +1381,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
 
             {/* LAB INTERACTION AREA 1: MILESTONE AGE SIMULATION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-400 flex items-center justify-between">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center justify-between">
                 <span>Lab Module 1 & 2: Milestone & Attachment Explorer</span>
                 <span className="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full font-normal">
                   Node: c12_bio_cbse_105
@@ -1392,7 +1392,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
                 <div className="flex justify-between items-center text-xs font-semibold">
                   <label className="text-slate-300">Child Age (0 to 72 Months):</label>
-                  <span className="text-cyan-400 text-sm font-bold font-mono">{labAgeMonths} Months</span>
+                  <span className="text-gold-400 text-sm font-bold font-mono">{labAgeMonths} Months</span>
                 </div>
                 <input
                   type="range"
@@ -1403,7 +1403,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                     setLabAgeMonths(Number(e.target.value));
                     audioManager.play('pop');
                   }}
-                  className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                  className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                 />
               </div>
 
@@ -1413,7 +1413,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
 
             {/* LAB INTERACTION AREA 2: ZPD & SCAFFOLDING SIMULATOR */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-indigo-400 flex items-center justify-between">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center justify-between">
                 <span>Lab Module 3: Vygotskian ZPD & Scaffolding Controls</span>
                 <span className="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full font-normal">
                   Node: c12_bio_cbse_112
@@ -1442,7 +1442,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
                   <div className="flex justify-between items-center text-xs font-semibold">
                     <label className="text-slate-300">Teacher / MKO Scaffolding Support:</label>
-                    <span className="text-indigo-400 font-mono">{scaffoldingVal}%</span>
+                    <span className="text-gold-400 font-mono">{scaffoldingVal}%</span>
                   </div>
                   <input
                     type="range"
@@ -1453,7 +1453,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                       setScaffoldingVal(Number(e.target.value));
                       audioManager.play('pop');
                     }}
-                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-400"
+                    className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                   />
                 </div>
               </div>
@@ -1495,14 +1495,14 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                   />
                 </div>
                 <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-2">
-                  <label className="text-xs font-semibold text-cyan-300 block">ECCE Preschool Kits</label>
+                  <label className="text-xs font-semibold text-gold-300 block">ECCE Preschool Kits</label>
                   <input
                     type="range"
                     min="20"
                     max="100"
                     value={angECCE}
                     onChange={(e) => setAngECCE(Number(e.target.value))}
-                    className="w-full h-2 bg-slate-800 appearance-none cursor-pointer accent-cyan-400"
+                    className="w-full h-2 bg-slate-800 appearance-none cursor-pointer accent-gold-400"
                   />
                 </div>
               </div>
@@ -1547,7 +1547,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                 {/* CHALLENGE TOP HEADER */}
                 <div className="flex flex-wrap justify-between items-center border-b border-slate-800 pb-4 gap-2">
                   <div className="flex items-center gap-3">
-                    <span className="bg-cyan-500 text-slate-950 px-3 py-1 rounded-full text-xs font-bold">
+                    <span className="bg-gold-500 text-slate-950 px-3 py-1 rounded-full text-xs font-bold">
                       Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                     </span>
                     <span
@@ -1580,7 +1580,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                     {currentChallenge.options.map((opt, idx) => {
                       let style = 'bg-slate-950 hover:bg-slate-800 text-slate-200 border-slate-800';
                       if (selectedOption === idx) {
-                        style = 'bg-cyan-950 border-cyan-500 text-cyan-200 font-semibold';
+                        style = 'bg-gold-950 border-gold-500 text-gold-200 font-semibold';
                       }
                       if (isAnswerSubmitted) {
                         if (idx === currentChallenge.correctIndex) {
@@ -1615,7 +1615,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                       setCurrentHintIndex((prev) => (prev + 1) % currentChallenge.hints.length);
                       audioManager.play('hint');
                     }}
-                    className="text-xs text-cyan-400 hover:text-cyan-300 flex items-center gap-1 font-semibold"
+                    className="text-xs text-gold-400 hover:text-gold-300 flex items-center gap-1 font-semibold"
                   >
                     💡 Hint ({currentHintIndex + 1}/{currentChallenge.hints.length})
                   </button>
@@ -1626,7 +1626,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                       onClick={handleChallengeSubmit}
                       className={`px-6 py-2.5 rounded-xl font-bold text-sm transition-all duration-200 ${
                         selectedOption !== null
-                          ? 'bg-cyan-500 text-slate-950 hover:bg-cyan-400 shadow-lg shadow-cyan-500/20'
+                          ? 'bg-gold-500 text-slate-950 hover:bg-gold-400 shadow-lg shadow-gold-500/20'
                           : 'bg-slate-800 text-slate-500 cursor-not-allowed'
                       }`}
                     >
@@ -1665,7 +1665,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                 <p className="text-slate-400 text-sm max-w-md mx-auto">
                   You have successfully navigated all 22 progressive developmental and ECCE challenges.
                 </p>
-                <div className="text-xl font-extrabold text-cyan-400">Final Score: {score}</div>
+                <div className="text-xl font-extrabold text-gold-400">Final Score: {score}</div>
                 <button
                   onClick={() => {
                     setCurrentChallengeIndex(0);
@@ -1673,7 +1673,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                     setScore(0);
                     setStreak(0);
                   }}
-                  className="px-6 py-3 rounded-xl bg-cyan-500 text-slate-950 font-bold hover:bg-cyan-400 transition-all"
+                  className="px-6 py-3 rounded-xl bg-gold-500 text-slate-950 font-bold hover:bg-gold-400 transition-all"
                 >
                   Restart Challenge Track
                 </button>
@@ -1727,13 +1727,13 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                 {diagnosticSelected !== null && (
                   <div className="space-y-4 pt-2">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300">
-                      <strong className="text-cyan-400 block mb-1">Explanation:</strong>
+                      <strong className="text-gold-400 block mb-1">Explanation:</strong>
                       {DIAGNOSTIC_QUESTIONS[diagnosticIndex].explanation}
                     </div>
 
                     <button
                       onClick={handleDiagnosticNext}
-                      className="px-6 py-2.5 rounded-xl font-bold text-sm bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition-all"
+                      className="px-6 py-2.5 rounded-xl font-bold text-sm bg-gold-500 text-slate-950 hover:bg-gold-400 transition-all"
                     >
                       {diagnosticIndex < DIAGNOSTIC_QUESTIONS.length - 1 ? 'Next Question →' : 'View Diagnostic Result'}
                     </button>
@@ -1743,7 +1743,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
             ) : (
               <div className="text-center py-8 space-y-4">
                 <h3 className="text-xl font-bold text-white">Diagnostic Evaluation Complete</h3>
-                <div className="text-3xl font-extrabold text-cyan-400">
+                <div className="text-3xl font-extrabold text-gold-400">
                   {diagnosticScore} / {DIAGNOSTIC_QUESTIONS.length} Correct
                 </div>
                 <p className="text-xs text-slate-400 max-w-md mx-auto">
@@ -1769,7 +1769,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
           <div className="space-y-6">
             {/* MANDATORY REAL WORLD ACTIVITY RENDER */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
@@ -1780,7 +1780,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs space-y-1">
-                    <span className="text-cyan-400 font-bold uppercase block text-[10px]">Step {sIdx + 1}</span>
+                    <span className="text-gold-400 font-bold uppercase block text-[10px]">Step {sIdx + 1}</span>
                     <p className="text-slate-200">{step}</p>
                   </div>
                 ))}
@@ -1821,7 +1821,7 @@ export const C12_BiologyEarlyChildhoodCareCBSESim: React.FC<ECCESimProps> = ({
                   return (
                     <div key={id} className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-[11px] flex justify-between items-center">
                       <span className="text-slate-400 font-mono truncate mr-2">{id}</span>
-                      <span className="text-cyan-400 font-bold">{mLevel}%</span>
+                      <span className="text-gold-400 font-bold">{mLevel}%</span>
                     </div>
                   );
                 })}

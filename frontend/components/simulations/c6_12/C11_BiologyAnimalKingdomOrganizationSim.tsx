@@ -1219,7 +1219,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ISC Class 11 Biology • Units I & II Systems Simulation</p>
@@ -1251,7 +1251,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-cyan-950/30 rounded-2xl border border-emerald-800/40">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/30 rounded-2xl border border-emerald-800/40">
             <h2 className="text-lg font-bold text-emerald-300 flex items-center gap-2">
               <span>🌿</span> {SCENARIO.title}
             </h2>
@@ -1262,7 +1262,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-base font-semibold text-cyan-300 mb-3 flex items-center gap-2">
+            <h3 className="text-base font-semibold text-gold-300 mb-3 flex items-center gap-2">
               <span>🔍</span> Discovery Challenge: Taxonomist Initial Test
             </h3>
             <p className="text-white text-sm mb-4 font-medium">{DISCOVERY_QUESTION.question}</p>
@@ -1284,7 +1284,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                       : 'bg-slate-800 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                   {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                   {opt}
@@ -1411,7 +1411,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                         </p>
                       </div>
                       <div className="flex gap-2">
-                        <span className="px-2 py-1 bg-cyan-950 text-cyan-300 rounded border border-cyan-800">Ectoderm (Blue)</span>
+                        <span className="px-2 py-1 bg-gold-950 text-gold-300 rounded border border-gold-800">Ectoderm (Blue)</span>
                         <span className="px-2 py-1 bg-rose-950 text-rose-300 rounded border border-rose-800">Mesoderm (Red)</span>
                         <span className="px-2 py-1 bg-amber-950 text-amber-300 rounded border border-amber-800">Endoderm (Yellow)</span>
                       </div>
@@ -1563,7 +1563,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                         aria-label={`Select ${p} placentation`}
                         onClick={() => handlePlacentationSelect(p)}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase ${
-                          selectedPlacentation === p ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'
+                          selectedPlacentation === p ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         {p} Placentation
@@ -1621,7 +1621,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                     </svg>
 
                     <div className="text-xs text-slate-300 max-w-xs space-y-1">
-                      <p><strong className="text-cyan-400">Placentation Definition:</strong> The specific spatial distribution of ovule-bearing placenta tissues within the plant ovary chamber.</p>
+                      <p><strong className="text-gold-400">Placentation Definition:</strong> The specific spatial distribution of ovule-bearing placenta tissues within the plant ovary chamber.</p>
                       <p className="text-slate-400">Essential for identifying families like Fabaceae (Marginal), Malvaceae (Axile), Brassicaceae (Parietal), and Asteraceae (Basal).</p>
                     </div>
                   </div>
@@ -1633,8 +1633,8 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                 <div className="space-y-4">
                   {/* Predict Then Check Box */}
                   {!predictionMade && (
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/40">
-                      <p className="text-xs text-indigo-300 font-bold uppercase mb-1">Predict-Then-Check</p>
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/40">
+                      <p className="text-xs text-gold-300 font-bold uppercase mb-1">Predict-Then-Check</p>
                       <p className="text-sm text-white font-medium mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1658,7 +1658,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                           aria-label="Switch to cutaneous respiration mode"
                           onClick={() => handleFrogRespirationToggle('cutaneous')}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                            frogRespirationMode === 'cutaneous' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'
+                            frogRespirationMode === 'cutaneous' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                           }`}
                         >
                           Cutaneous Mode (Underwater Skin)
@@ -1704,7 +1704,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="temp-slider" className="text-xs text-slate-300 font-semibold block mb-1">
-                        Membrane Temperature: <span className="text-cyan-400 font-mono">{membraneTemp}°C</span> (Fluidity Level)
+                        Membrane Temperature: <span className="text-gold-400 font-mono">{membraneTemp}°C</span> (Fluidity Level)
                       </label>
                       <input
                         id="temp-slider"
@@ -1714,7 +1714,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                         max={50}
                         value={membraneTemp}
                         onChange={(e) => setMembraneTemp(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -1744,7 +1744,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                       <p className="text-slate-300">
                         Pump Hydrolysis Cycles: <strong className="text-emerald-400">{atpPumpCycles} ATP</strong>
                       </p>
-                      <p className="text-cyan-400">3 Na+ Pumped OUT: <strong>{naExtracted}</strong></p>
+                      <p className="text-gold-400">3 Na+ Pumped OUT: <strong>{naExtracted}</strong></p>
                       <p className="text-purple-400">2 K+ Pumped IN: <strong>{kImported}</strong></p>
                     </div>
 
@@ -1753,7 +1753,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handlePumpATP}
-                      className="px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-bold text-xs rounded-xl shadow-lg shadow-cyan-950/50"
+                      className="px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg shadow-gold-950/50"
                     >
                       ⚡ Hydrolyze 1 ATP Molecule
                     </motion.button>
@@ -1865,7 +1865,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white font-black text-sm rounded-2xl shadow-xl shadow-emerald-950/40"
+            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-black text-sm rounded-2xl shadow-xl shadow-emerald-950/40"
           >
             Ready for Challenges! Start Assessment →
           </motion.button>
@@ -1880,7 +1880,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
             <h2 className="text-base md:text-lg font-bold text-white flex items-center gap-2">
               <span>🎯</span> Challenge {currentChallenge + 1} of {filteredChallenges.length}
             </h2>
-            <span className="text-xs px-3 py-1 bg-slate-800 text-cyan-300 font-mono rounded-full border border-slate-700">
+            <span className="text-xs px-3 py-1 bg-slate-800 text-gold-300 font-mono rounded-full border border-slate-700">
               Competency: {challenge.competencyLevel}
             </span>
           </div>
@@ -1888,7 +1888,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
           {/* Animated Progress Bar */}
           <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-400 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-400 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1926,7 +1926,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
                         : 'bg-slate-950 hover:bg-slate-800/80 text-slate-200 border-slate-800'
                     }`}
                   >
-                    <span className="font-black text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-black text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {showExplanation && i === challenge.correctIndex && <span className="text-emerald-400 font-bold mr-1">✓ </span>}
                     {showExplanation && i !== challenge.correctIndex && <span className="text-rose-400 font-bold mr-1">✗ </span>}
                     {opt}
@@ -2076,7 +2076,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[80px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-slate-800 text-cyan-300 text-xs rounded-lg flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-slate-800 text-gold-300 text-xs rounded-lg flex items-center gap-2">
                       {part}
                       <button
                         aria-label={`Remove part: ${part}`}
@@ -2186,7 +2186,7 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
             </p>
             <p className="text-xs text-slate-400">
               Assessed Competency Mastery Tier:{' '}
-              <span className="text-cyan-300 uppercase font-bold">{masteryLevel}</span>
+              <span className="text-gold-300 uppercase font-bold">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2220,11 +2220,11 @@ export function C11_BiologyAnimalKingdomOrganizationSim({
           )}
 
           {/* Spaced Repetition SRS Notification */}
-          <div className="p-5 bg-cyan-950/30 rounded-2xl border border-cyan-900/40">
-            <h4 className="text-xs font-bold uppercase text-cyan-300 mb-1">SM-2 Spaced Repetition Review Schedule</h4>
+          <div className="p-5 bg-gold-950/30 rounded-2xl border border-gold-900/40">
+            <h4 className="text-xs font-bold uppercase text-gold-300 mb-1">SM-2 Spaced Repetition Review Schedule</h4>
             <p className="text-xs text-slate-300">
               Based on your response latency and accuracy, these 10 ISC Biology nodes are scheduled for re-testing in{' '}
-              <strong className="text-cyan-400 font-bold">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to solidify synaptic memory traces.
+              <strong className="text-gold-400 font-bold">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to solidify synaptic memory traces.
             </p>
           </div>
 

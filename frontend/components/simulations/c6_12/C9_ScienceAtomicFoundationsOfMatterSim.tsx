@@ -91,10 +91,10 @@ export function C9_ScienceAtomicFoundationsOfMatterSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Atoms and Molecules</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Atoms and Molecules</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Atomic Foundations of Matter: Build an Atom</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 font-mono">
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-mono">
           {el ? `${el.sym} nucleus` : 'unknown'}
         </span>
       </header>
@@ -103,7 +103,7 @@ export function C9_ScienceAtomicFoundationsOfMatterSim() {
       <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
         <Stepper label="Protons (p+)" value={protons} color="text-rose-300" onSet={(v) => { setProtons(v); setQuizResult('idle'); }} />
         <Stepper label="Neutrons (n0)" value={neutrons} color="text-slate-200" onSet={(v) => { setNeutrons(v); setQuizResult('idle'); }} />
-        <Stepper label="Electrons (e-)" value={electrons} color="text-sky-300" onSet={(v) => { setElectrons(v); setQuizResult('idle'); }} />
+        <Stepper label="Electrons (e-)" value={electrons} color="text-gold-300" onSet={(v) => { setElectrons(v); setQuizResult('idle'); }} />
         <button onClick={() => makeNeutral(protons)} className="p-3 rounded-2xl text-xs font-bold bg-emerald-700 hover:bg-emerald-600 text-white">
           Make neutral atom of this element
         </button>
@@ -144,21 +144,21 @@ export function C9_ScienceAtomicFoundationsOfMatterSim() {
             </text>
           </svg>
           <p className="text-center font-mono text-xs text-slate-400 mt-1">
-            Shell configuration: <span className="text-sky-300 font-bold">{shells.join(', ') || 'none'}</span> (K, L, M, N)
+            Shell configuration: <span className="text-gold-300 font-bold">{shells.join(', ') || 'none'}</span> (K, L, M, N)
           </p>
         </div>
 
         {/* READOUTS */}
         <div className="md:col-span-2 space-y-3">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-1.5 text-sm">
-            <p className="text-xs uppercase font-bold text-indigo-400 tracking-wider">Atom report</p>
+            <p className="text-xs uppercase font-bold text-gold-400 tracking-wider">Atom report</p>
             <p className="text-slate-300">Element: <span className="font-bold text-white">{el ? `${el.name} (${el.sym})` : 'beyond Z = 20'}</span></p>
             <p className="text-slate-300">Mass number A = p + n = <span className="font-mono text-amber-300 font-bold">{massNumber}</span></p>
             <p className="text-slate-300">
               Charge = p - e = <span className={`font-mono font-bold ${charge === 0 ? 'text-emerald-300' : 'text-rose-300'}`}>{charge > 0 ? `+${charge}` : charge}</span>
               {charge > 0 ? ' (cation)' : charge < 0 ? ' (anion)' : ' (neutral)'}
             </p>
-            <p className="text-slate-300">Valence electrons: <span className="font-bold text-sky-300">{valence}</span></p>
+            <p className="text-slate-300">Valence electrons: <span className="font-bold text-gold-300">{valence}</span></p>
           </div>
           {quizTarget && quizResult !== 'idle' && (
             <div className={`p-3 rounded-2xl text-sm font-bold ${quizResult === 'correct' ? 'bg-emerald-950/60 border border-emerald-600 text-emerald-300' : 'bg-rose-950/60 border border-rose-700 text-rose-300'}`}>
@@ -179,14 +179,14 @@ export function C9_ScienceAtomicFoundationsOfMatterSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> the proton count (atomic number Z) decides which element an atom is;
+          <span className="font-bold text-gold-300">Big idea:</span> the proton count (atomic number Z) decides which element an atom is;
           electrons decide its charge and chemistry; neutrons only change the mass, giving isotopes. Bohr shells fill as 2, 8, 8, 2 for the
           first twenty elements, and the outermost shell electrons drive all bonding.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Build a neutral sodium atom (Z = 11, A = 23), then strip one electron to make the Na+ ion and read the charge report.</p>
         <p className="mt-1">2. Use Quiz mode until you have built three atoms correctly, predicting the neutron count from A - Z first.</p>

@@ -11,7 +11,7 @@ export const w_c9_chemistrycovalentbondingsim: SimDef = {
     classLevel: 9, subject: 'chemistry', topic: 'Formula Unit Mass: Calculation for Ionic Compounds',
     chapters: [],
     nodeIds: ['c9_chem_ch3_10', 'c9_chem_ch3_4', 'c9_chem_ch3_5', 'c9_chem_ch3_8', 'c9_chem_ch3_6', 'c9_chem_ch3_7', 'c9_chem_ch3_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you have a pinch of common salt (NaCl) from your kitchen.', goal: 'Master Formula Unit Mass: Calculation for Ionic Compounds.' },
     discovery: {
         question: 'Compare the electron transfer process in NaCl formation vs MgO formation.',
@@ -20,7 +20,7 @@ export const w_c9_chemistrycovalentbondingsim: SimDef = {
         hook: 'Students write the criss-cross method for formula writing but forget to reduce subscripts to simplest ratio.',
     },
     teaching: [
-        { title: 'Formula unit mass is the sum of the atomic.', text: 'Formula unit mass is the sum of the atomic masses of all atoms present in a formula unit of an ionic compound, expressed in atomic mass units (u).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Formula unit mass is the sum of the atomic.', text: 'Formula unit mass is the sum of the atomic masses of all atoms present in a formula unit of an ionic compound, expressed in atomic mass units (u).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_chem_ch3_10', title: 'Formula unit mass is the sum of the.',

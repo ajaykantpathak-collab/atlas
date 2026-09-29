@@ -59,7 +59,7 @@ export function C11_SociologySocialProcessesSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Social Process Mixer</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Social Process Mixer</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -112,10 +112,10 @@ export function C11_SociologySocialProcessesSim() {
           </div>
           <div className="flex justify-between text-xs text-slate-400">
             <span>Durability of ties</span>
-            <span className="font-mono text-sky-300">{out.dur}%</span>
+            <span className="font-mono text-gold-300">{out.dur}%</span>
           </div>
           <div className="h-2.5 bg-slate-800 rounded">
-            <div className="h-2.5 bg-sky-500 rounded" style={{ width: `${out.dur}%`, transition: 'width 0.35s' }} />
+            <div className="h-2.5 bg-gold-500 rounded" style={{ width: `${out.dur}%`, transition: 'width 0.35s' }} />
           </div>
           {nextInChain && (
             <div className="text-amber-300 text-xs pt-1">
@@ -136,7 +136,7 @@ export function C11_SociologySocialProcessesSim() {
           <div className="grid grid-cols-3 gap-2 mt-2">
             {ORDER.map((p) => (
               <button key={p} onClick={() => setProcess(p)}
-                className={`min-h-11 rounded-xl text-[10px] font-semibold border capitalize ${process === p ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-[10px] font-semibold border capitalize ${process === p ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}>
                 {p}
               </button>
             ))}
@@ -146,10 +146,10 @@ export function C11_SociologySocialProcessesSim() {
           <div>
             <label className="text-xs text-slate-300 flex justify-between">
               <span>Process intensity</span>
-              <span className="font-mono font-bold text-sky-300">{intensity}%</span>
+              <span className="font-mono font-bold text-gold-300">{intensity}%</span>
             </label>
             <input type="range" aria-label="process intensity" min={5} max={100} value={intensity}
-              onChange={(e) => setIntensity(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+              onChange={(e) => setIntensity(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
           </div>
           <select value={scenarioIdx} onChange={(e) => setScenarioIdx(Number(e.target.value))}
             aria-label="scenario" className="mt-3 min-h-11 w-full rounded-xl bg-slate-900 border border-slate-600 text-xs text-slate-200 px-2">
@@ -161,7 +161,7 @@ export function C11_SociologySocialProcessesSim() {
       </div>
 
       <div className="flex flex-wrap gap-2 mt-4">
-        <button onClick={() => { setProcess('conflict'); setIntensity(80); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={() => { setProcess('conflict'); setIntensity(80); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Stage a conflict, then walk the chain
         </button>
         <button onClick={reset} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -169,8 +169,8 @@ export function C11_SociologySocialProcessesSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Set intensity 80% for competition, then for conflict. Which of the two keeps durability higher, and why do the rules of competition protect ties?</li>
           <li>Start at conflict 80%, switch to accommodation, then to assimilation. Record the three durability readings -- is the chain one-way?</li>

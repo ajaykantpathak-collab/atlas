@@ -963,7 +963,7 @@ export default function MathInput({
       (key.wide ? 'flex-[2.2] ' : 'flex-1 ') +
       (key.danger
         ? 'bg-red-500/20 text-red-300 border border-red-500/30 hover:bg-red-500/30'
-        : 'bg-slate-700/60 text-slate-200 border border-slate-600/60 hover:bg-indigo-500/30 hover:text-white hover:border-indigo-400/60 active:bg-indigo-500/50');
+        : 'bg-slate-700/60 text-slate-200 border border-slate-600/60 hover:bg-gold-500/30 hover:text-white hover:border-gold-400/60 active:bg-gold-500/50');
 
     const icon = key.icon && <span aria-hidden="true">{key.icon}</span>;
     const label = key.label;

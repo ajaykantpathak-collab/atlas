@@ -11,7 +11,7 @@ export const w_c11_physicsthermodynamicssim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Thermodynamic System and Surroundings',
     chapters: [],
     nodeIds: ['c11_phy_cbse_11_001', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_003', 'c11_phy_cbse_11_004', 'c11_phy_cbse_11_007', 'c11_phy_cbse_11_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a pressure cooker on a stove: the water and steam inside constitute the **system**, the metal pot is.', goal: 'Master Thermodynamic System and Surroundings.' },
     discovery: {
         question: 'A student claims: "The human body is an isolated system because it maintains a constant temperature of 37°C." Evaluate this statement.',
@@ -20,7 +20,7 @@ export const w_c11_physicsthermodynamicssim: SimDef = {
         hook: 'Students often think a "closed system" means no energy transfer at all (confusing it with isolated system).',
     },
     teaching: [
-        { title: 'A thermodynamic system is a specific portion.', text: 'A thermodynamic system is a specific portion of the universe (a definite quantity of matter or a region in space) chosen for thermodynamic analysis, separated from the rest of the universe by a real.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A thermodynamic system is a specific portion.', text: 'A thermodynamic system is a specific portion of the universe (a definite quantity of matter or a region in space) chosen for thermodynamic analysis, separated from the rest of the universe by a real.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_11_001', title: 'A thermodynamic system is a specific.',

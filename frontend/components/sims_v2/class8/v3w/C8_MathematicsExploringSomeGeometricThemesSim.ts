@@ -11,7 +11,7 @@ export const w_c8_mathematicsexploringsomegeometricthemessim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Placing Plus and Minus Signs Between Four Consecutive Numbers',
     chapters: [],
     nodeIds: ['c8_math_ch5_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you have four consecutive locker numbers: 12, 13, 14, 15.', goal: 'Master Placing Plus and Minus Signs Between Four Consecutive Numbers.' },
     discovery: {
         question: 'For the four consecutive numbers 5, 6, 7, 8, how many different expressions can be formed by placing + or - signs in the three gaps between them?',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsexploringsomegeometricthemessim: SimDef = {
         hook: 'Students treat the first number as having a sign choice (e.g., writing \\(\\pm n \\pm (n+1) \\pm (n+2) \\pm (n+3)\\)) leading.',
     },
     teaching: [
-        { title: 'Given four consecutive integers \\(n, n+1,.', text: 'Given four consecutive integers \\(n, n+1, n+2, n+3\\), placing plus or minus signs between them creates an expression of the form \\(n \\pm (n+1) \\pm (n+2) \\pm (n+3)\\) where each \\(\\pm\\) is.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Given four consecutive integers \\(n, n+1,.', text: 'Given four consecutive integers \\(n, n+1, n+2, n+3\\), placing plus or minus signs between them creates an expression of the form \\(n \\pm (n+1) \\pm (n+2) \\pm (n+3)\\) where each \\(\\pm\\) is.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch5_6', title: 'Given four consecutive integers \\(n,.',

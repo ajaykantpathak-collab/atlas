@@ -369,6 +369,19 @@ export default function SettingsPage() {
                     <p className="text-[10px] text-surface-600">
                       Preferences are saved on this device. Atlas targets WCAG 2.1 AA compliance.
                     </p>
+                    {/* Full a11y center — vision/hearing/motor/cognitive presets
+                        live on their own page; without this link it is
+                        unreachable from the settings hub. */}
+                    <Link
+                      href="/settings/accessibility"
+                      className="flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 text-sm text-surface-700 transition-colors hover:border-white/20 hover:text-white"
+                    >
+                      <span className="flex items-center gap-2">
+                        <Accessibility className="w-4 h-4" />
+                        Open the full accessibility center
+                      </span>
+                      <span aria-hidden="true">→</span>
+                    </Link>
                   </div>
                 )}
 

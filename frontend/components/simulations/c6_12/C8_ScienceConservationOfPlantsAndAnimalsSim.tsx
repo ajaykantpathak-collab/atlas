@@ -76,8 +76,8 @@ export function C8_ScienceConservationOfPlantsAndAnimalsSim() {
             <input type="range" min={0} max={150} value={plant} aria-label="trees planted per year" onChange={(e) => { setPlant(Number(e.target.value)); setRan(null); }} className="w-full mt-1 accent-emerald-600" />
           </div>
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Run for (years)</span><span className="font-mono text-indigo-600">{years}</span></label>
-            <input type="range" min={5} max={30} value={years} aria-label="years to simulate" onChange={(e) => { setYears(Number(e.target.value)); setRan(null); }} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Run for (years)</span><span className="font-mono text-gold-600">{years}</span></label>
+            <input type="range" min={5} max={30} value={years} aria-label="years to simulate" onChange={(e) => { setYears(Number(e.target.value)); setRan(null); }} className="w-full mt-1 accent-gold-600" />
           </div>
           <div className="flex flex-wrap gap-2">
             <button onClick={() => setRan(simulate(1000, cut, plant, years))} className="px-4 py-2 rounded-xl text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-500 transition-all">
@@ -88,7 +88,7 @@ export function C8_ScienceConservationOfPlantsAndAnimalsSim() {
               ['Timber rush', 140, 20],
               ['Reserve (no felling)', 0, 40],
             ].map(([label, c, p]) => (
-              <button key={label as string} onClick={() => { setCut(c as number); setPlant(p as number); setRan(null); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+              <button key={label as string} onClick={() => { setCut(c as number); setPlant(p as number); setRan(null); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                 {label as string}
               </button>
             ))}
@@ -99,7 +99,7 @@ export function C8_ScienceConservationOfPlantsAndAnimalsSim() {
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 340 200" className="w-full">
             <line x1={30} y1={170} x2={330} y2={170} stroke="#94a3b8" />
             <line x1={30} y1={170} x2={30} y2={15} stroke="#94a3b8" />

@@ -379,14 +379,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Rivers of India — Himalayan vs Peninsular 🌊",
     text: "India's rivers belong to two great families! Himalayan rivers like the Ganga start from glaciers and are PERENNIAL — they flow all year! Peninsular rivers like the Godavari start from rain-fed springs and are SEASONAL — they shrink in summer!",
     emoji: "🏔️",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "India's rivers belong to two great families! Himalayan rivers start from glaciers and flow all year. Peninsular rivers depend on rain and shrink in summer!"
   },
   {
     title: "Climate of India — The Great Monsoon 🌧️",
     text: "India has a tropical monsoon climate! The mighty Himalayas block cold polar winds from Central Asia. Monsoon winds reverse direction — blowing from sea to land in summer to bring heavy rainfall across the country!",
     emoji: "🌦️",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "India has a tropical monsoon climate! The mighty Himalayas block cold polar winds, and monsoon winds bring heavy rainfall in summer."
   },
   {
@@ -738,7 +738,7 @@ export function IndiaClimateGame({ width = 720, height = 560, onComplete }: Indi
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl shadow-2xl font-sans select-none bg-sky-100 flex flex-col justify-between" style={{ width, height }}>
+    <div className="relative overflow-hidden rounded-3xl shadow-2xl font-sans select-none bg-gold-100 flex flex-col justify-between" style={{ width, height }}>
       {/* Background */}
       <IndiaSceneBackground width={width} height={height} />
 

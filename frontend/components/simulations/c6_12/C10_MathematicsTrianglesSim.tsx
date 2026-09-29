@@ -793,10 +793,10 @@ export function C10_MathematicsTrianglesSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Leg b</span>
-                  <span className="font-mono font-bold text-sky-400">{legB.toFixed(1)} cm</span>
+                  <span className="font-mono font-bold text-gold-400">{legB.toFixed(1)} cm</span>
                 </div>
                 <input type="range" min={1} max={9} step={0.1} value={legB} aria-label="leg b"
-                  onChange={(e) => setLegB(Number(e.target.value))} className="w-full accent-sky-500" />
+                  onChange={(e) => setLegB(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
               <button onClick={() => setShowSquares((s) => !s)} className="w-full min-h-9 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold">
                 {showSquares ? 'Hide' : 'Show'} the squares on each side

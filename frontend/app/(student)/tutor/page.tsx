@@ -11,8 +11,6 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import katex from 'katex';
-// Same omission as practice/page.tsx: KaTeX markup without its stylesheet.
-import 'katex/dist/katex.min.css';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useStudentStore } from '@/stores/studentStore';
 import { useAuthStore } from '@/stores/authStore';
@@ -330,15 +328,11 @@ const SUGGESTION_KEYS: Record<string, string[]> = {
   quickActions: ['s_exampleNav', 's_practiceNav', 's_progressNav'],
 };
 
-import { getClassBand } from '@/lib/classBands'
-
 // CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 7): the opening chip is picked
 // from the child's OWN class band and subject. Band 0 = class unknown
-// (generic, claims nothing); 1 = junior 1-5; 2 = middle 6-10; 3 = senior 11-12.
-// This used `classLevel <= 8 ? 1 : ...`, so classes 6-8 were handed the
-// `s_*_junior` chips — a babyish tutor voice for 13-14 year olds.
+// (generic, claims nothing); 1 = Classes 1-8; 2 = 9-10; 3 = 11-12.
 function initialChipKeys(subject: string, classLevel: number | null | undefined): string[] {
-  const band = getClassBand(classLevel);
+  const band = classLevel == null ? 0 : classLevel <= 8 ? 1 : classLevel <= 10 ? 2 : 3;
   const s = (subject || '').toLowerCase();
   const rest = ['s_hint', 's_example'];
   if (s.includes('math')) {

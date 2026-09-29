@@ -714,14 +714,14 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
       {/* ========================================== */}
       <header className="w-full bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex flex-wrap items-center justify-between sticky top-0 z-50">
         <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-lg text-white shadow-lg shadow-cyan-500/30">
+          <div className="w-9 h-9 rounded-lg bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-lg text-white shadow-lg shadow-gold-500/30">
             🧪
           </div>
           <div>
             <h1 className="text-base font-bold text-slate-100 leading-tight">
               ICSE Class 9 Chemistry: Water, Atoms & Bonding
             </h1>
-            <p className="text-xs text-cyan-400 font-medium">
+            <p className="text-xs text-gold-400 font-medium">
               Interactive Simulation Engine • 10 Core Curriculum Nodes
             </p>
           </div>
@@ -738,7 +738,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition-all duration-200 ${
                 activeTab === tab
-                  ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                  ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -752,11 +752,11 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
           <span className="text-xs text-slate-400 font-medium">Mastery:</span>
           <div className="w-20 bg-slate-800 rounded-full h-2 overflow-hidden">
             <div
-              className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-500"
+              className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-500"
               style={{ width: `${overallMasteryPercent}%` }}
             />
           </div>
-          <span className="text-xs font-bold text-cyan-400">{overallMasteryPercent}%</span>
+          <span className="text-xs font-bold text-gold-400">{overallMasteryPercent}%</span>
         </div>
       </header>
 
@@ -778,8 +778,8 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
             className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full py-6"
           >
             <div className="w-full bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
-              <div className="absolute -right-10 -top-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl" />
-              <div className="inline-block px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-3">
+              <div className="absolute -right-10 -top-10 w-40 h-40 bg-gold-500/10 rounded-full blur-3xl" />
+              <div className="inline-block px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold mb-3">
                 Phase 1: Discovery Prediction
               </div>
               <h2 className="text-xl md:text-2xl font-bold text-slate-100 mb-3">
@@ -831,9 +831,9 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="bg-slate-950/80 p-4 rounded-xl border border-cyan-500/30 text-xs text-slate-300 space-y-2"
+                  className="bg-slate-950/80 p-4 rounded-xl border border-gold-500/30 text-xs text-slate-300 space-y-2"
                 >
-                  <p className="font-semibold text-cyan-400">
+                  <p className="font-semibold text-gold-400">
                     💡 Visual Chemistry Insight:
                   </p>
                   <p>
@@ -844,7 +844,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                       audioManager.play('swoop');
                       setActiveTab('teach');
                     }}
-                    className="mt-3 px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold rounded-lg text-xs hover:brightness-110 shadow-lg shadow-cyan-500/20"
+                    className="mt-3 px-4 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-bold rounded-lg text-xs hover:brightness-110 shadow-lg shadow-gold-500/20"
                   >
                     Start Concept Masterclass →
                   </button>
@@ -863,7 +863,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
           >
             {/* Slide Header */}
             <div className="flex items-center justify-between bg-slate-900 px-4 py-3 rounded-xl border border-slate-800">
-              <span className="text-xs font-bold text-cyan-400">
+              <span className="text-xs font-bold text-gold-400">
                 Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
               </span>
               <div className="flex space-x-1">
@@ -872,7 +872,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                     key={idx}
                     onClick={() => setCurrentSlideIndex(idx)}
                     className={`w-3 h-3 rounded-full cursor-pointer transition-all ${
-                      idx === currentSlideIndex ? 'bg-cyan-400 w-6' : 'bg-slate-800'
+                      idx === currentSlideIndex ? 'bg-gold-400 w-6' : 'bg-slate-800'
                     }`}
                   />
                 ))}
@@ -891,13 +891,13 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         Node ID: {slide.nodeId}
                       </span>
                       <h3 className="text-xl font-bold text-slate-100 mb-1">{slide.title}</h3>
-                      <h4 className="text-xs font-medium text-cyan-400 mb-4">{slide.subtitle}</h4>
+                      <h4 className="text-xs font-medium text-gold-400 mb-4">{slide.subtitle}</h4>
                       <p className="text-sm text-slate-300 leading-relaxed mb-4">
                         {slide.conceptText}
                       </p>
                     </div>
 
-                    <div className="bg-cyan-950/40 border-l-4 border-cyan-500 p-3 rounded-r-lg text-xs text-cyan-200">
+                    <div className="bg-gold-950/40 border-l-4 border-gold-500 p-3 rounded-r-lg text-xs text-gold-200">
                       <span className="font-bold">Key ICSE Exam Takeaway: </span>
                       {slide.keyTakeaway}
                     </div>
@@ -908,13 +908,13 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                     {slide.visualType === 'water-test' && (
                       <div className="flex justify-around w-full">
                         <div className="flex flex-col items-center">
-                          <div className="w-16 h-28 bg-cyan-950/40 border border-cyan-500/30 rounded-b-xl relative overflow-hidden flex flex-col justify-end">
-                            <div className="w-full h-16 bg-cyan-500/20" />
+                          <div className="w-16 h-28 bg-gold-950/40 border border-gold-500/30 rounded-b-xl relative overflow-hidden flex flex-col justify-end">
+                            <div className="w-full h-16 bg-gold-500/20" />
                             <div className="absolute top-2 left-1 right-1 h-6 bg-slate-300/80 rounded-full flex items-center justify-center text-[10px] font-bold text-slate-900 shadow">
                               LATHER 🧼
                             </div>
                           </div>
-                          <span className="text-[10px] font-bold text-cyan-400 mt-2">Soft Water</span>
+                          <span className="text-[10px] font-bold text-gold-400 mt-2">Soft Water</span>
                         </div>
                         <div className="flex flex-col items-center">
                           <div className="w-16 h-28 bg-slate-900 border border-rose-500/30 rounded-b-xl relative overflow-hidden flex flex-col justify-end">
@@ -945,10 +945,10 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
 
                     {slide.visualType === 'softening-chem' && (
                       <div className="w-full text-center space-y-2 text-xs">
-                        <div className="p-2 bg-cyan-950/50 rounded-lg border border-cyan-500/30 font-mono text-[10px] text-cyan-300">
+                        <div className="p-2 bg-gold-950/50 rounded-lg border border-gold-500/30 font-mono text-[10px] text-gold-300">
                           Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂↑
                         </div>
-                        <div className="p-2 bg-indigo-950/50 rounded-lg border border-indigo-500/30 font-mono text-[10px] text-indigo-300">
+                        <div className="p-2 bg-gold-950/50 rounded-lg border border-gold-500/30 font-mono text-[10px] text-gold-300">
                           CaSO₄ + Na₂CO₃ → CaCO₃↓ + Na₂SO₄
                         </div>
                         <p className="text-[10px] text-slate-400">Soluble Ca²⁺ ions turn into insoluble CaCO₃ precipitate.</p>
@@ -985,7 +985,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         <div className="w-12 h-12 rounded-full bg-amber-500/20 border border-amber-500 flex items-center justify-center font-bold text-amber-300">
                           Na⁺
                         </div>
-                        <span className="text-cyan-400 text-lg font-bold">e⁻ ➔</span>
+                        <span className="text-gold-400 text-lg font-bold">e⁻ ➔</span>
                         <div className="w-12 h-12 rounded-full bg-emerald-500/20 border border-emerald-500 flex items-center justify-center font-bold text-emerald-300">
                           Cl⁻
                         </div>
@@ -1015,7 +1015,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                     audioManager.play('tap');
                     setCurrentSlideIndex((prev) => prev + 1);
                   }}
-                  className="px-4 py-2 bg-cyan-500 text-slate-950 rounded-lg text-xs font-bold hover:brightness-110 shadow-lg shadow-cyan-500/20"
+                  className="px-4 py-2 bg-gold-500 text-slate-950 rounded-lg text-xs font-bold hover:brightness-110 shadow-lg shadow-gold-500/20"
                 >
                   Next Concept →
                 </button>
@@ -1058,7 +1058,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                     labSubTab === sub.id
-                      ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                      ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                       : 'bg-slate-950 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1093,7 +1093,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                           }}
                           className={`w-full p-2.5 rounded-xl text-xs font-medium text-left border ${
                             waterType === opt.id
-                              ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                               : 'bg-slate-950 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1109,7 +1109,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         audioManager.play('pop');
                         setSoapAdded(true);
                       }}
-                      className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold shadow"
+                      className="w-full py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold shadow"
                     >
                       🧼 Add Soap & Shake
                     </button>
@@ -1151,7 +1151,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                     )}
 
                     {/* Water Fluid */}
-                    <div className="w-full h-40 bg-cyan-500/20 relative">
+                    <div className="w-full h-40 bg-gold-500/20 relative">
                       {/* Precipitate Scale at bottom */}
                       {(isBoiled && waterType === 'temp_hard') || (sodaAdded && waterType !== 'soft') ? (
                         <div className="absolute bottom-0 inset-x-0 h-4 bg-slate-200 text-[8px] font-bold text-slate-900 flex items-center justify-center">
@@ -1178,7 +1178,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
 
                   {/* Chemical Explanation Banner */}
                   <div className="w-full bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs text-slate-300">
-                    <span className="font-bold text-cyan-400">Current Status: </span>
+                    <span className="font-bold text-gold-400">Current Status: </span>
                     {waterType === 'soft' && "Soft water. Lathers immediately."}
                     {waterType === 'temp_hard' && (
                       isBoiled
@@ -1215,7 +1215,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         }}
                         className={`p-2 rounded-lg text-xs font-bold border ${
                           modelType === 'rutherford'
-                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                            ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1240,7 +1240,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
                       <span className="text-slate-400">Impact Parameter (b):</span>
-                      <span className="text-cyan-400">{impactParam} px</span>
+                      <span className="text-gold-400">{impactParam} px</span>
                     </div>
                     <input
                       type="range"
@@ -1248,7 +1248,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                       max="35"
                       value={impactParam}
                       onChange={(e) => setImpactParam(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <span className="text-[10px] text-slate-500">Low = Head-on collision (Rebound)</span>
                   </div>
@@ -1256,7 +1256,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
                       <span className="text-slate-400">Alpha Velocity / Energy:</span>
-                      <span className="text-cyan-400">{alphaEnergy} MeV</span>
+                      <span className="text-gold-400">{alphaEnergy} MeV</span>
                     </div>
                     <input
                       type="range"
@@ -1264,13 +1264,13 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                       max="10"
                       value={alphaEnergy}
                       onChange={(e) => setAlphaEnergy(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <button
                     onClick={fireAlphaParticle}
-                    className="w-full py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-xl font-bold text-xs shadow-lg shadow-cyan-500/20 flex items-center justify-center space-x-2"
+                    className="w-full py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 rounded-xl font-bold text-xs shadow-lg shadow-gold-500/20 flex items-center justify-center space-x-2"
                   >
                     <span>🚀 Fire Alpha Particle (He²⁺)</span>
                   </button>
@@ -1306,7 +1306,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         }}
                         className={`p-2 rounded-lg text-xs font-bold border ${
                           selectedElementKey === sym
-                            ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-md'
+                            ? 'bg-gold-500 text-slate-950 border-gold-400 shadow-md'
                             : 'bg-slate-950 text-slate-300 border-slate-800 hover:border-slate-700'
                         }`}
                       >
@@ -1321,7 +1321,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                       <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-2 text-xs">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Atomic Number (Z):</span>
-                          <span className="font-bold text-cyan-400">{el.z}</span>
+                          <span className="font-bold text-gold-400">{el.z}</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-slate-400">Mass Number (A):</span>
@@ -1401,7 +1401,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         }}
                         className={`w-full p-3 rounded-xl text-xs font-bold text-left border ${
                           selectedIsotopeGroup === opt.id
-                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                            ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1421,7 +1421,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         max="100"
                         value={cl35Abundance}
                         onChange={(e) => setCl35Abundance(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="flex justify-between text-xs text-slate-300 mt-1 font-mono">
                         <span>³⁵Cl: {cl35Abundance}%</span>
@@ -1440,7 +1440,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         { symbol: '³H (T)', name: 'Tritium', p: 1, n: 2, a: 3 }
                       ].map((iso, i) => (
                         <div key={i} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
-                          <span className="text-2xl font-bold text-cyan-400">{iso.symbol}</span>
+                          <span className="text-2xl font-bold text-gold-400">{iso.symbol}</span>
                           <h5 className="text-xs font-bold text-slate-200">{iso.name}</h5>
                           <div className="text-[11px] text-slate-400 space-y-1">
                             <p>Protons (Z): <span className="text-emerald-400 font-bold">{iso.p}</span></p>
@@ -1455,7 +1455,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                   {selectedIsotopeGroup === 'Cl' && (
                     <div className="flex flex-col items-center justify-center space-y-4 my-auto">
                       <h4 className="text-sm font-bold text-slate-200">Weighted Average Atomic Mass Formula</h4>
-                      <div className="bg-slate-950 p-4 rounded-xl border border-cyan-500/30 text-center font-mono text-sm text-cyan-300">
+                      <div className="bg-slate-950 p-4 rounded-xl border border-gold-500/30 text-center font-mono text-sm text-gold-300">
                         Average Mass = (35 × {cl35Abundance}%) + (37 × {100 - cl35Abundance}%) = <span className="text-amber-400 font-bold text-lg">{calculatedClMass} u</span>
                       </div>
                       <p className="text-xs text-slate-400 text-center max-w-md">
@@ -1476,7 +1476,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                           <div className="text-[11px] text-slate-400 space-y-1">
                             <p>Protons: {iso.p}</p>
                             <p>Neutrons: {iso.n}</p>
-                            <p className="text-[10px] text-cyan-400 font-semibold">{iso.use}</p>
+                            <p className="text-[10px] text-gold-400 font-semibold">{iso.use}</p>
                           </div>
                         </div>
                       ))}
@@ -1506,7 +1506,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         }}
                         className={`w-full p-3 rounded-xl text-xs font-bold text-left border ${
                           ionicPair === pair.id
-                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                            ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1520,7 +1520,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                       audioManager.play('sparkle');
                       setTransferStep((prev) => (prev + 1) % 3);
                     }}
-                    className="w-full py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-slate-950 rounded-xl text-xs shadow-lg shadow-cyan-500/20"
+                    className="w-full py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-slate-950 rounded-xl text-xs shadow-lg shadow-gold-500/20"
                   >
                     {transferStep === 0 && "Step 1: Transfer Valence Electron(s) →"}
                     {transferStep === 1 && "Step 2: Form Oppositely Charged Ions →"}
@@ -1543,12 +1543,12 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
 
                       {/* Transfer Arrow */}
                       <div className="flex flex-col items-center">
-                        <span className="text-cyan-400 font-bold text-xs mb-1">
+                        <span className="text-gold-400 font-bold text-xs mb-1">
                           {transferStep === 1 ? '1 e⁻ transferred' : ''}
                         </span>
                         <div className="w-16 h-1 bg-gradient-to-r from-amber-500 to-emerald-500 relative">
                           {transferStep === 1 && (
-                            <div className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-cyan-400 rounded-full animate-ping" />
+                            <div className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-gold-400 rounded-full animate-ping" />
                           )}
                         </div>
                       </div>
@@ -1569,7 +1569,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                     <motion.div
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="mt-6 p-3 bg-cyan-950/40 border border-cyan-500/30 rounded-xl text-xs text-cyan-200 text-center"
+                      className="mt-6 p-3 bg-gold-950/40 border border-gold-500/30 rounded-xl text-xs text-gold-200 text-center"
                     >
                       ⚡ Electrostatic attraction holds Na⁺ and Cl⁻ together in a stable ionic crystal lattice!
                     </motion.div>
@@ -1594,7 +1594,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
               </span>
               <div className="flex items-center space-x-3">
                 <span className="text-xs text-slate-400">Score:</span>
-                <span className="text-sm font-bold text-cyan-400">{challengeScore} pts</span>
+                <span className="text-sm font-bold text-gold-400">{challengeScore} pts</span>
               </div>
             </div>
 
@@ -1603,7 +1603,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
               const q = CHALLENGES_DATA[challengeIndex];
               return (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-4">
-                  <span className="text-[10px] font-bold text-cyan-400 bg-cyan-950/60 px-2.5 py-1 rounded-full border border-cyan-500/30">
+                  <span className="text-[10px] font-bold text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded-full border border-gold-500/30">
                     Topic: {q.title} ({q.nodeId})
                   </span>
 
@@ -1615,7 +1615,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                     {q.options.map((opt, oIdx) => {
                       let btnStyle = "bg-slate-950/80 border-slate-800 text-slate-300 hover:border-slate-700";
                       if (selectedOption === oIdx) {
-                        btnStyle = "bg-cyan-500/20 border-cyan-500 text-cyan-200 font-semibold";
+                        btnStyle = "bg-gold-500/20 border-gold-500 text-gold-200 font-semibold";
                       }
                       if (isAnswerSubmitted) {
                         if (oIdx === q.correctIndex) {
@@ -1664,7 +1664,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                         setCurrentHintText(q.hint);
                         setShowHint((prev) => !prev);
                       }}
-                      className="text-xs text-cyan-400 hover:underline font-semibold"
+                      className="text-xs text-gold-400 hover:underline font-semibold"
                     >
                       💡 Need a Hint?
                     </button>
@@ -1673,7 +1673,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                       <button
                         disabled={selectedOption === null}
                         onClick={handleAnswerSubmit}
-                        className="px-5 py-2.5 bg-cyan-500 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-xs hover:brightness-110 shadow-lg shadow-cyan-500/20"
+                        className="px-5 py-2.5 bg-gold-500 disabled:opacity-40 text-slate-950 font-bold rounded-xl text-xs hover:brightness-110 shadow-lg shadow-gold-500/20"
                       >
                         Submit Answer
                       </button>
@@ -1705,7 +1705,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
               <p className="text-xs text-slate-400">
                 You have completed the interactive learning module for Soft/Hard Water, Rutherford/Bohr Atomic Models, and Electrovalent Bonding.
               </p>
-              <div className="inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-xl font-bold text-cyan-400 text-sm">
+              <div className="inline-block px-4 py-2 bg-gold-500/10 border border-gold-500/30 rounded-xl font-bold text-gold-400 text-sm">
                 Overall Syllabus BKT Mastery: {overallMasteryPercent}%
               </div>
             </div>
@@ -1722,7 +1722,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                   return (
                     <div key={nodeId} className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex items-center justify-between">
                       <div>
-                        <span className="text-xs font-mono text-cyan-400 block">{nodeId}</span>
+                        <span className="text-xs font-mono text-gold-400 block">{nodeId}</span>
                         <span className="text-[11px] font-medium text-slate-300 capitalize">{level} Mastery</span>
                       </div>
                       <span className="text-xs font-bold text-emerald-400">{Math.round(pVal * 100)}%</span>
@@ -1749,7 +1749,7 @@ export default function C9_ChemistrySoftwaterandhardwaterSim({
                   setChallengeScore(0);
                   setActiveTab('challenge');
                 }}
-                className="px-5 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs shadow-lg shadow-cyan-500/20"
+                className="px-5 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-xs shadow-lg shadow-gold-500/20"
               >
                 Retake Adaptive Exam
               </button>

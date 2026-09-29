@@ -11,7 +11,7 @@ export const w_c9_econapplicationsinterdependencesectorsprimarysim: SimDef = {
     classLevel: 9, subject: 'economics', topic: 'Factors of Production: Land, Labour, Capital, Entrepreneurship',
     chapters: [],
     nodeIds: ['c9_eco_ch1_7', 'c9_eco_ch1_11', 'c9_eco_ch1_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are visiting a **small garment factory in Tirupur, Tamil Nadu**, that exports cotton T-shirts.', goal: 'Master n Applications Interdependence Sectors Primary.' },
     discovery: {
         question: 'Compare the pre-1991 FDI policy (maximum 40% equity cap, case-by-case approval via FIPB/FERA) with the post-1991 automatic approval route for 51% equity in 34.',
@@ -20,7 +20,7 @@ export const w_c9_econapplicationsinterdependencesectorsprimarysim: SimDef = {
         hook: 'Students often believe "liberalisation meant the government stopped all regulation" — confusing liberalisation.',
     },
     teaching: [
-        { title: 'Factors of production are the scarce.', text: 'Factors of production are the scarce economic resources used to create goods and services, classified into four categories: **Land** (all natural resources, reward: rent), **Labour** (human physical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Factors of production are the scarce.', text: 'Factors of production are the scarce economic resources used to create goods and services, classified into four categories: **Land** (all natural resources, reward: rent), **Labour** (human physical.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_eco_ch1_7', title: 'Factors of production are the scarce.',

@@ -50,7 +50,7 @@ export const C6_GRAM_GEN: SimDef[] = [
     "title": "Sentences Do Four Jobs And Each Job Has",
     "text": "Sentences do four jobs and each job has a name: declarative (states), interrogative (asks), imperative (commands/requests), exclamatory (exclaims). The punctuation is the costume — the job is the meaning: 'Close the door.' commands; 'What a shot!' exclaims.",
     "emoji": "🎓",
-    "bgColor": "from-violet-400 to-purple-500"
+    "bgColor": "from-gold-400 to-purple-500"
    },
    {
     "title": "Word Order",
@@ -317,7 +317,7 @@ export const C6_GRAM_GEN: SimDef[] = [
   ],
   "emoji": "🎓",
   "theme": {
-   "bg": "from-sky-100 to-cyan-200",
+   "bg": "from-gold-100 to-gold-200",
    "accent": "sky",
    "scene": "lesson"
   },
@@ -336,13 +336,13 @@ export const C6_GRAM_GEN: SimDef[] = [
     "title": "Nouns Sort Into Families By What They Name",
     "text": "Nouns sort into families by what they name: common (boy, city), proper (Ravi, Delhi — always capitalised), collective (team, flock — one word for a group), abstract (honesty, fear — things you cannot touch). The family decides the grammar that follows.",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Pronoun Replaces a Noun So We Do Not Repeat",
     "text": "A pronoun replaces a noun so we do not repeat ourselves: he, she, it, they, this, who, mine. But the replacement must match the original in number and gender — 'Ravi lost HIS book', and it must point clearly to ONE noun, not two.",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Numbers",
@@ -625,7 +625,7 @@ export const C6_GRAM_GEN: SimDef[] = [
     "title": "Verb",
     "text": "A verb is the engine word — it names an action (run, eat, think) or a state (is, seem, have). Every complete sentence needs at least one, and its form changes with time: 'She walks', 'She walked', 'She will walk' — same engine, three gears.",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Present Tense Has Two Gears Students Must",
@@ -637,7 +637,7 @@ export const C6_GRAM_GEN: SimDef[] = [
     "title": "Past And Future Have Matching Pairs",
     "text": "Past and future have matching pairs: simple past for finished actions ('She danced yesterday'), past continuous for ongoing past ('She was dancing when I arrived'); simple future = will + base ('She will dance'), and 'going to' for planned future ('She is",
     "emoji": "🎓",
-    "bgColor": "from-sky-400 to-cyan-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [
@@ -913,7 +913,7 @@ export const C6_GRAM_GEN: SimDef[] = [
     "title": "Prepositions",
     "text": "Prepositions are position words — they place things in space (in, on, under, behind, between), in time (at, on, in, since, for), and in direction (to, into, towards). 'The cat is ON the mat' — change the preposition and the whole picture changes.",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    },
    {
     "title": "Informal Letter",
@@ -925,7 +925,7 @@ export const C6_GRAM_GEN: SimDef[] = [
     "title": "Conjunctions",
     "text": "Conjunctions are joining words — and/but/or join equals, because/so joins reason and result. 'I was tired, SO I slept' — 'so' carries the result. Wrong joiner = wrong logic: 'I was tired BUT I slept' makes the reader ask 'but?'.",
     "emoji": "🎓",
-    "bgColor": "from-indigo-400 to-blue-500"
+    "bgColor": "from-gold-400 to-gold-500"
    }
   ],
   "challenges": [

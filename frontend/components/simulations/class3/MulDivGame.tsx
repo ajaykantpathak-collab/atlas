@@ -57,14 +57,14 @@ const TEACHING_SLIDES = [
     title: 'Division: Sharing Equally! 🧺',
     text: 'Division splits a total into equal parts! If 18 apples are shared equally among 3 children, each child gets 6 apples. We write 18 ÷ 3 = 6!',
     emoji: '🧺',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Division splits a total quantity into equal groups or shares. 18 apples divided among 3 children gives 6 apples to each child!',
   },
   {
     title: 'Division Facts & Tables! 📊',
     text: 'Multiplication tables are the key to division! To solve 20 ÷ 5, ask: 5 times what gives 20? Since 5 × 4 = 20, 20 ÷ 5 = 4 instantly!',
     emoji: '📊',
-    bgColor: 'from-purple-400 to-violet-500',
+    bgColor: 'from-purple-400 to-gold-500',
     spoken: 'Multiplication tables unlock division! Since 5 times 4 is 20, 20 divided by 5 equals 4!',
   },
   {
@@ -716,7 +716,7 @@ export function MulDivGame({ width = 720, height = 560, onComplete }: MulDivGame
 
   return (
     <div
-      className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gradient-to-b from-sky-300 to-emerald-300 flex flex-col items-center justify-between"
+      className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gradient-to-b from-gold-300 to-emerald-300 flex flex-col items-center justify-between"
       style={{ width, height }}
     >
       {/* Garden Scene Background */}

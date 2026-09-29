@@ -11,7 +11,7 @@ export const w_c11_physicskinetictheorygasescbsesim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Kinetic Theory of Gases: Assumptions',
     chapters: [],
     nodeIds: ['c11_phy_cbse_12_001', 'c11_phy_cbse_12_004', 'c11_phy_cbse_12_008', 'c11_phy_cbse_12_002', 'c11_phy_cbse_12_003', 'c11_phy_cbse_09_012', 'c11_phy_cbse_10_013', 'c11_phy_cbse_10_011', 'c11_phy_cbse_12_005', 'c11_phy_cbse_12_006', 'c11_phy_cbse_12_007', 'c11_phy_cbse_12_009', 'c11_phy_cbse_04_008', 'c11_phy_cbse_09_011', 'c11_phy_cbse_11_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you inflate a balloon and squeeze it — you feel a uniform resistance from all sides.', goal: 'Master Kinetic Theory of Gases: Assumptions.' },
     discovery: {
         question: 'A gas is confined in a cylinder at 300 K and 1 atm. The gas is compressed isothermally to 100 atm.',
@@ -20,7 +20,7 @@ export const w_c11_physicskinetictheorygasescbsesim: SimDef = {
         hook: 'Students often believe that "random motion" means molecules move in completely chaotic, unpredictable paths like a.',
     },
     teaching: [
-        { title: 'The kinetic theory of gases is a theoretical.', text: 'The kinetic theory of gases is a theoretical model based on seven fundamental postulates (assumptions) that describe an ideal gas as a large collection of point-like molecules in continuous, random.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The kinetic theory of gases is a theoretical.', text: 'The kinetic theory of gases is a theoretical model based on seven fundamental postulates (assumptions) that describe an ideal gas as a large collection of point-like molecules in continuous, random.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_12_001', title: 'The kinetic theory of gases is a.',

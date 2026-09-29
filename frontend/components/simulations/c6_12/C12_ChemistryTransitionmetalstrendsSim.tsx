@@ -306,12 +306,12 @@ const DBlockTrendsVisualizer: React.FC<{
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 sm:p-6 text-white shadow-2xl space-y-4">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-800 pb-3 gap-2">
         <div>
-          <h3 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
             <span>⚛️</span> 3d Series Transition Element Explorer
           </h3>
           <p className="text-xs text-slate-400">Click any element tile to inspect configuration, oxidation states, radius & magnetic moment</p>
         </div>
-        <div className="bg-slate-800 px-3 py-1 rounded-full text-xs font-mono text-cyan-300">
+        <div className="bg-slate-800 px-3 py-1 rounded-full text-xs font-mono text-gold-300">
           Z = {selectedElem.z} | {selectedElem.name}
         </div>
       </div>
@@ -329,7 +329,7 @@ const DBlockTrendsVisualizer: React.FC<{
               }}
               className={`flex flex-col items-center justify-center p-2 rounded-lg border transition-all ${
                 isSelected
-                  ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300 shadow-lg shadow-cyan-500/20 scale-105'
+                  ? 'bg-gold-500/20 border-gold-400 text-gold-300 shadow-lg shadow-gold-500/20 scale-105'
                   : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-700 hover:border-slate-500'
               }`}
             >
@@ -356,7 +356,7 @@ const DBlockTrendsVisualizer: React.FC<{
           )}
           <div className="text-xs text-slate-400 pt-1">
             Common Oxidation States:{' '}
-            <span className="text-cyan-300 font-bold">
+            <span className="text-gold-300 font-bold">
               {selectedElem.oxStates.map(o => `+${o}`).join(', ')}
             </span>
           </div>
@@ -385,15 +385,15 @@ const DBlockTrendsVisualizer: React.FC<{
               const hasDown = count >= boxIdx + 5;
 
               return (
-                <div key={boxIdx} className="w-10 h-12 bg-slate-800 border-2 border-cyan-500/50 rounded flex items-center justify-center text-sm font-bold text-cyan-300 gap-0.5">
+                <div key={boxIdx} className="w-10 h-12 bg-slate-800 border-2 border-gold-500/50 rounded flex items-center justify-center text-sm font-bold text-gold-300 gap-0.5">
                   {hasUp && <span className="text-amber-400">↑</span>}
-                  {hasDown && <span className="text-cyan-400">↓</span>}
+                  {hasDown && <span className="text-gold-400">↓</span>}
                 </div>
               );
             })}
           </div>
           <div className="text-xs text-center text-slate-400">
-            Magnetic Moment μ = <span className="text-cyan-300 font-mono font-bold">{magneticMoment} BM</span>
+            Magnetic Moment μ = <span className="text-gold-300 font-mono font-bold">{magneticMoment} BM</span>
           </div>
         </div>
 
@@ -507,7 +507,7 @@ const DichromatePermanganateLab: React.FC = () => {
                 <span className="text-emerald-400">Green Manganate MnO₄²⁻ (Alkaline)</span>
               )}
             </div>
-            <div className="text-xs text-slate-400 mt-1">Current pH: <span className="text-cyan-300 font-bold">{ph}</span></div>
+            <div className="text-xs text-slate-400 mt-1">Current pH: <span className="text-gold-300 font-bold">{ph}</span></div>
           </div>
         </div>
 
@@ -516,7 +516,7 @@ const DichromatePermanganateLab: React.FC = () => {
           <div className="bg-slate-900 p-4 rounded-lg border border-slate-800 space-y-3">
             <label className="text-xs font-semibold text-slate-300 flex justify-between">
               <span>Solution pH Controller:</span>
-              <span className="text-cyan-400 font-mono font-bold">pH {ph}</span>
+              <span className="text-gold-400 font-mono font-bold">pH {ph}</span>
             </label>
             <input
               type="range"
@@ -527,7 +527,7 @@ const DichromatePermanganateLab: React.FC = () => {
                 setPh(parseInt(e.target.value));
                 audioManager.play('pop');
               }}
-              className="w-full accent-cyan-400 cursor-pointer"
+              className="w-full accent-gold-400 cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-slate-400">
               <span>pH 1 (Strong Acid)</span>
@@ -548,7 +548,7 @@ const DichromatePermanganateLab: React.FC = () => {
                 </button>
                 <button
                   onClick={() => { setReducingAgent('Fe2+'); audioManager.play('chime'); }}
-                  className={`flex-1 py-1.5 text-xs rounded border ${reducingAgent === 'Fe2+' ? 'bg-cyan-900/60 border-cyan-500 text-cyan-200' : 'bg-slate-800 border-slate-700 text-slate-400'}`}
+                  className={`flex-1 py-1.5 text-xs rounded border ${reducingAgent === 'Fe2+' ? 'bg-gold-900/60 border-gold-500 text-gold-200' : 'bg-slate-800 border-slate-700 text-slate-400'}`}
                 >
                   + Fe²⁺ Ion
                 </button>
@@ -601,7 +601,7 @@ const FBlockContractionVisualizer: React.FC = () => {
           </button>
           <button
             onClick={() => { setActiveTab('actinoid'); audioManager.play('tap'); }}
-            className={`px-3 py-1 text-xs font-bold rounded ${activeTab === 'actinoid' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1 text-xs font-bold rounded ${activeTab === 'actinoid' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'}`}
           >
             5f Actinoids
           </button>
@@ -651,7 +651,7 @@ const FBlockContractionVisualizer: React.FC = () => {
 
         {/* Consequences & Indian Context Box */}
         <div className="space-y-3 bg-slate-950/80 p-4 rounded-xl border border-slate-800 text-xs">
-          <div className="font-bold text-sm text-cyan-300">
+          <div className="font-bold text-sm text-gold-300">
             {activeTab === 'lanthanoid' ? 'Consequences of Lanthanoid Contraction' : 'Key Actinoid Properties & Applications'}
           </div>
           {activeTab === 'lanthanoid' ? (
@@ -697,7 +697,7 @@ const CoordinationSphereVisualizer: React.FC = () => {
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 sm:p-6 text-white space-y-4">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-800 pb-3 gap-2">
         <div>
-          <h3 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
             <span>🧬</span> Coordination Sphere & IUPAC Workbench
           </h3>
           <p className="text-xs text-slate-400">Assemble coordination entities to inspect Werner primary/secondary valencies & systematic nomenclature</p>
@@ -731,7 +731,7 @@ const CoordinationSphereVisualizer: React.FC = () => {
             </svg>
           </div>
           <div className="text-xs text-slate-400 mt-2">
-            Coordination Sphere (Secondary Valence): <span className="text-cyan-300 font-bold">{formulaInfo.cn}</span>
+            Coordination Sphere (Secondary Valence): <span className="text-gold-300 font-bold">{formulaInfo.cn}</span>
           </div>
         </div>
 
@@ -744,7 +744,7 @@ const CoordinationSphereVisualizer: React.FC = () => {
                 <button
                   key={m}
                   onClick={() => { setMetal(m); audioManager.play('tap'); }}
-                  className={`flex-1 py-1.5 text-xs font-bold rounded border ${metal === m ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-800 border-slate-700 text-slate-400'}`}
+                  className={`flex-1 py-1.5 text-xs font-bold rounded border ${metal === m ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 border-slate-700 text-slate-400'}`}
                 >
                   {m}
                 </button>
@@ -759,7 +759,7 @@ const CoordinationSphereVisualizer: React.FC = () => {
                 <button
                   key={l}
                   onClick={() => { setLigandType(l); audioManager.play('tap'); }}
-                  className={`flex-1 py-1.5 text-xs font-bold rounded border ${ligandType === l ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 border-slate-700 text-slate-400'}`}
+                  className={`flex-1 py-1.5 text-xs font-bold rounded border ${ligandType === l ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 border-slate-700 text-slate-400'}`}
                 >
                   {l}
                 </button>
@@ -771,7 +771,7 @@ const CoordinationSphereVisualizer: React.FC = () => {
             <div className="text-xs text-slate-400">Formula:</div>
             <div className="text-base font-mono font-bold text-amber-400">{formulaInfo.formula}</div>
             <div className="text-xs text-slate-400 pt-1">IUPAC Name:</div>
-            <div className="text-sm font-semibold text-cyan-300">{formulaInfo.name}</div>
+            <div className="text-sm font-semibold text-gold-300">{formulaInfo.name}</div>
           </div>
         </div>
       </div>
@@ -790,7 +790,7 @@ const VBTCFTSplitter: React.FC = () => {
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 sm:p-6 text-white space-y-4">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-800 pb-3 gap-2">
         <div>
-          <h3 className="text-xl font-bold text-indigo-400 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
             <span>🔮</span> Crystal Field Theory (CFT) Energy Diagram
           </h3>
           <p className="text-xs text-slate-400">Observe d-orbital splitting into t₂g & e_g in Octahedral vs Tetrahedral ligand fields</p>
@@ -798,7 +798,7 @@ const VBTCFTSplitter: React.FC = () => {
         <div className="flex gap-2">
           <button
             onClick={() => { setGeometry(g => g === 'octahedral' ? 'tetrahedral' : 'octahedral'); audioManager.play('swoop'); }}
-            className="px-3 py-1 bg-slate-800 border border-slate-700 rounded text-xs text-cyan-300 font-bold hover:bg-slate-700"
+            className="px-3 py-1 bg-slate-800 border border-slate-700 rounded text-xs text-gold-300 font-bold hover:bg-slate-700"
           >
             Geometry: {geometry.toUpperCase()}
           </button>
@@ -876,7 +876,7 @@ const VBTCFTSplitter: React.FC = () => {
               ? 'Strong field ligands force electrons to pair in lower energy orbitals before occupying higher levels, resulting in Low Spin / Diamagnetic complexes.'
               : 'Weak field ligands produce smaller splitting gaps (Δₒ), so electrons spread according to Hund’s rule before pairing, resulting in High Spin / Paramagnetic complexes.'}
           </p>
-          <div className="p-2 bg-slate-900 rounded border border-slate-800 font-mono text-[11px] text-cyan-300">
+          <div className="p-2 bg-slate-900 rounded border border-slate-800 font-mono text-[11px] text-gold-300">
             Δₜ ≈ (4/9) Δₒ — Tetrahedral splitting is always smaller than Octahedral!
           </div>
         </div>
@@ -1034,7 +1034,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
       <header className="w-full max-w-5xl bg-slate-900 border border-slate-800 rounded-2xl p-4 sm:p-5 mb-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-2.5 py-1 rounded-full border border-cyan-500/30">ISC Class 12 Chemistry</span>
+            <span className="bg-gold-500/20 text-gold-400 text-xs font-bold px-2.5 py-1 rounded-full border border-gold-500/30">ISC Class 12 Chemistry</span>
             <span className="text-xs text-slate-400">c12_chem_051 - c12_chem_060</span>
           </div>
           <h1 className="text-xl sm:text-2xl font-extrabold text-white mt-1">{SCENARIO.title}</h1>
@@ -1055,7 +1055,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
               onClick={() => { setTabMode(t.id as any); audioManager.play('tap'); }}
               className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-all whitespace-nowrap ${
                 tabMode === t.id
-                  ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20'
+                  ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                   : 'text-slate-400 hover:text-white hover:bg-slate-900'
               }`}
             >
@@ -1070,8 +1070,8 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
         {/* ================= MODE 1: DISCOVERY ================= */}
         {tabMode === 'discovery' && (
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
-            <div className="bg-cyan-950/40 border border-cyan-800/50 rounded-xl p-4 text-cyan-200 text-sm">
-              <span className="font-bold text-cyan-300">Predict Before You Learn:</span> {SCENARIO.description}
+            <div className="bg-gold-950/40 border border-gold-800/50 rounded-xl p-4 text-gold-200 text-sm">
+              <span className="font-bold text-gold-300">Predict Before You Learn:</span> {SCENARIO.description}
             </div>
 
             <div className="space-y-4">
@@ -1081,9 +1081,9 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                   <button
                     key={idx}
                     onClick={() => handleDiscoverySubmit(idx)}
-                    className="text-left p-4 rounded-xl border border-slate-800 bg-slate-950 hover:bg-slate-800 hover:border-cyan-500/50 transition-all text-sm text-slate-200 flex items-center gap-3"
+                    className="text-left p-4 rounded-xl border border-slate-800 bg-slate-950 hover:bg-slate-800 hover:border-gold-500/50 transition-all text-sm text-slate-200 flex items-center gap-3"
                   >
-                    <span className="w-7 h-7 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-xs text-cyan-400">
+                    <span className="w-7 h-7 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-xs text-gold-400">
                       {String.fromCharCode(65 + idx)}
                     </span>
                     <span>{opt}</span>
@@ -1100,7 +1100,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
             {/* Slide Navigation Header */}
             <div className="flex justify-between items-center bg-slate-900 p-3 rounded-xl border border-slate-800">
               <span className="text-xs font-bold text-slate-400">
-                Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}: <span className="text-cyan-400">{currentSlide.title}</span>
+                Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}: <span className="text-gold-400">{currentSlide.title}</span>
               </span>
               <div className="flex gap-2">
                 <button
@@ -1113,7 +1113,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                 <button
                   disabled={currentSlideIndex === TEACHING_SLIDES.length - 1}
                   onClick={() => { setCurrentSlideIndex(i => i + 1); audioManager.play('pop'); }}
-                  className="px-3 py-1 text-xs font-bold rounded bg-cyan-600 text-white disabled:opacity-40"
+                  className="px-3 py-1 text-xs font-bold rounded bg-gold-600 text-white disabled:opacity-40"
                 >
                   Next Slide
                 </button>
@@ -1130,7 +1130,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
             {/* Concept Explanation Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-3">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-mono font-bold bg-slate-800 text-cyan-300 px-2 py-0.5 rounded border border-slate-700">{currentSlide.nodeId}</span>
+                <span className="text-xs font-mono font-bold bg-slate-800 text-gold-300 px-2 py-0.5 rounded border border-slate-700">{currentSlide.nodeId}</span>
                 <h3 className="text-lg font-bold text-white">{currentSlide.subtitle}</h3>
               </div>
               <p className="text-sm text-slate-300 leading-relaxed">{currentSlide.content}</p>
@@ -1156,7 +1156,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                 <button
                   key={sub.id}
                   onClick={() => { setLabTab(sub.id as any); audioManager.play('tap'); }}
-                  className={`px-3 py-1.5 text-xs font-bold rounded-lg ${labTab === sub.id ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'}`}
+                  className={`px-3 py-1.5 text-xs font-bold rounded-lg ${labTab === sub.id ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'}`}
                 >
                   {sub.label}
                 </button>
@@ -1178,7 +1178,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
             {/* Challenge Progress Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-mono text-cyan-400 bg-slate-800 px-2 py-0.5 rounded border border-slate-700">{currentChallenge.nodeId}</span>
+                <span className="text-xs font-mono text-gold-400 bg-slate-800 px-2 py-0.5 rounded border border-slate-700">{currentChallenge.nodeId}</span>
                 <h3 className="text-lg font-bold text-white mt-1">{currentChallenge.title}</h3>
               </div>
               <div className="text-xs font-mono text-slate-400">
@@ -1206,7 +1206,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                     className={`text-left p-4 rounded-xl border transition-all text-sm flex items-center justify-between ${btnStyle}`}
                   >
                     <div className="flex items-center gap-3">
-                      <span className="w-7 h-7 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-xs text-cyan-400">
+                      <span className="w-7 h-7 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-xs text-gold-400">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{opt}</span>
@@ -1230,7 +1230,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
               <div className="flex justify-end">
                 <button
                   onClick={handleNextChallenge}
-                  className="px-6 py-2.5 bg-cyan-500 text-slate-950 font-extrabold rounded-xl shadow-lg shadow-cyan-500/20 hover:bg-cyan-400"
+                  className="px-6 py-2.5 bg-gold-500 text-slate-950 font-extrabold rounded-xl shadow-lg shadow-gold-500/20 hover:bg-gold-400"
                 >
                   {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'View Final Mastery →'}
                 </button>
@@ -1242,7 +1242,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
         {/* ================= MODE 5: MASTERY SUMMARY ================= */}
         {tabMode === 'summary' && (
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6 text-center">
-            <div className="inline-block p-4 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-4xl mb-2">🏆</div>
+            <div className="inline-block p-4 rounded-full bg-gold-500/10 border border-gold-500/30 text-4xl mb-2">🏆</div>
             <h2 className="text-2xl font-extrabold text-white">Transition & Coordination Chemistry Mastered!</h2>
             <p className="text-sm text-slate-400 max-w-lg mx-auto">
               You have successfully completed all ISC Class 12 concepts, ranging from 3d trends and dichromate/permanganate redox reactions to f-block contractions, IUPAC nomenclature, VBT hybridisation, and CFT splitting.
@@ -1254,7 +1254,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
                 const mastery = getMasteryLevel(bState);
                 return (
                   <div key={nId} className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs">
-                    <div className="font-mono text-cyan-400 font-bold">{nId}</div>
+                    <div className="font-mono text-gold-400 font-bold">{nId}</div>
                     <div className="text-slate-300 mt-1 capitalize">{mastery} Mastery</div>
                   </div>
                 );
@@ -1263,7 +1263,7 @@ export default function C12_ChemistryTransitionmetalstrendsSim() {
 
             <button
               onClick={() => { setTabMode('discovery'); setCurrentChallengeIndex(0); setScore(0); audioManager.play('chime'); }}
-              className="px-6 py-3 bg-cyan-500 text-slate-950 font-extrabold rounded-xl shadow-lg shadow-cyan-500/20 hover:bg-cyan-400"
+              className="px-6 py-3 bg-gold-500 text-slate-950 font-extrabold rounded-xl shadow-lg shadow-gold-500/20 hover:bg-gold-400"
             >
               Restart Laboratory Simulation 🔄
             </button>

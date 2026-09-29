@@ -33,11 +33,11 @@ export function C8_MathematicsLinearEquationsInOneVariableSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Linear Equations: Weigh and Solve</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Linear Equations: Weigh and Solve</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Strategy:</span> slide the four sliders to
+          <span className="font-bold text-gold-700">Strategy:</span> slide the four sliders to
           build an equation. Test guesses on the see-saw to feel where the balance point hides, then
           transpose: move every x to the left, every number to the right, flip signs as they cross
           the equals sign, and divide by the coefficient of x.
@@ -50,7 +50,7 @@ export function C8_MathematicsLinearEquationsInOneVariableSim() {
         </span>
       </div>
 
-      <div className="mt-4 p-4 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+      <div className="mt-4 p-4 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
         <svg viewBox="0 0 560 170" className="w-full">
           <polygon points="280,140 262,165 298,165" fill="#78350f" />
           <g transform={`rotate(${-tilt} 280 130)`} style={{ transition: 'transform 400ms ease' }}>
@@ -77,9 +77,9 @@ export function C8_MathematicsLinearEquationsInOneVariableSim() {
             <div key={label}>
               <label className="text-xs font-semibold text-slate-500 flex justify-between">
                 <span>{label}</span>
-                <span className="font-mono text-indigo-600">{val}</span>
+                <span className="font-mono text-gold-600">{val}</span>
               </label>
-              <input type="range" min={lo} max={hi} value={val} aria-label={label} onChange={(e) => setter(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+              <input type="range" min={lo} max={hi} value={val} aria-label={label} onChange={(e) => setter(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
             </div>
           ))}
           <div>
@@ -92,17 +92,17 @@ export function C8_MathematicsLinearEquationsInOneVariableSim() {
         </div>
 
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200">
-          <button onClick={() => setShowSteps((s) => !s)} className="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 text-white hover:bg-indigo-500 transition-all">
+          <button onClick={() => setShowSteps((s) => !s)} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-600 text-white hover:bg-gold-500 transition-all">
             {showSteps ? 'Hide solution steps' : 'Show solution steps'}
           </button>
           {showSteps && (
             <div className="mt-3 font-mono text-sm space-y-1.5 text-slate-700">
               <div>1. Bring x-terms left, numbers right:</div>
-              <div className="pl-4 text-indigo-700">{fmt(a - c2, 0)} = {d - b}</div>
+              <div className="pl-4 text-gold-700">{fmt(a - c2, 0)} = {d - b}</div>
               {denom !== 0 && (
                 <>
                   <div>2. Divide both sides by {denom}:</div>
-                  <div className="pl-4 text-indigo-700">x = ({d - b}) / ({denom}) = {Math.round(((d - b) / denom) * 1000) / 1000}</div>
+                  <div className="pl-4 text-gold-700">x = ({d - b}) / ({denom}) = {Math.round(((d - b) / denom) * 1000) / 1000}</div>
                 </>
               )}
               {denom === 0 && (

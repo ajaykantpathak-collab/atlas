@@ -27,7 +27,7 @@ const TEACHING_SLIDES = [
     title: 'Maps & Directions! 🗺️',
     text: 'A map is a simple drawing showing places and things around us. It is not to scale! We use landmarks like temples, trees, and post boxes to find our way.',
     emoji: '🗺️',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'A map is a simple drawing showing places and things around us. We use landmarks like temples and trees to find our way!',
   },
   {
@@ -48,7 +48,7 @@ const TEACHING_SLIDES = [
     title: 'Measuring with CM and M! 📐',
     text: 'Use centimeters (cm) for small things like pencils and books. Use metres (m) for long things like tables, doors, and rooms. Always start your measurement from 0 on the scale!',
     emoji: '📐',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Use centimeters for small things like pencils, and metres for long things like rooms. Always start your measurement from zero!',
   },
   {
@@ -652,7 +652,7 @@ export function MapsLengthGame({ width = 720, height = 560, onComplete }: MapsLe
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-sky-400 to-blue-600 select-none flex flex-col items-center justify-between font-sans" style={{ width, height }}>
+    <div className="relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-gold-400 to-gold-600 select-none flex flex-col items-center justify-between font-sans" style={{ width, height }}>
       {/* Background Scene */}
       <SurveyScene width={width} height={height} />
 
@@ -736,7 +736,7 @@ export function MapsLengthGame({ width = 720, height = 560, onComplete }: MapsLe
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswerClick(option)}
-                    className="w-full py-4 px-6 rounded-2xl font-bold text-base bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-md hover:from-blue-600 hover:to-cyan-600 transition-all flex items-center justify-between"
+                    className="w-full py-4 px-6 rounded-2xl font-bold text-base bg-gradient-to-r from-gold-500 to-gold-500 text-white shadow-md hover:from-gold-600 hover:to-gold-600 transition-all flex items-center justify-between"
                   >
                     <span>{option}</span>
                     <span className="text-xl">👉</span>

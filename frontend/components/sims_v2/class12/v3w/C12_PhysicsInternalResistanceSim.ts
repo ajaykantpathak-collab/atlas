@@ -11,7 +11,7 @@ export const w_c12_physicsinternalresistancesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Potentiometer: Principle and Applications',
     chapters: [],
     nodeIds: ['c12_phy_cbse_03_008', 'c12_phy_cbse_03_010', 'c12_phy_cbse_03_002', 'c12_phy_cbse_03_004', 'c12_phy_cbse_03_006', 'c12_phy_cbse_03_007', 'c12_phy_cbse_03_009', 'c12_phy_cbse_03_011', 'c12_phy_cbse_09_003', 'c12_phy_cbse_09_004', 'c12_phy_cbse_09_008', 'c12_phy_cbse_10_002', 'c12_phy_cbse_01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a typical school lab potentiometer: a 1-meter uniform manganin wire stretched on a wooden board with.', goal: 'Master Potentiometer: Principle and Applications.' },
     discovery: {
         question: 'In a potentiometer experiment to compare emfs of two cells E₁ and E₂, the balance lengths are ℓ₁ = 40.0 cm and ℓ₂ = 60.0 cm.',
@@ -20,7 +20,7 @@ export const w_c12_physicsinternalresistancesim: SimDef = {
         hook: '**Misconception:** "The potentiometer wire must have very high resistance to be sensitive." **Why it\'s wrong:**.',
     },
     teaching: [
-        { title: 'A potentiometer is an instrument that.', text: 'A potentiometer is an instrument that measures an unknown potential difference (or emf) by balancing it against a known potential drop along a uniform resistance wire carrying a constant current,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A potentiometer is an instrument that.', text: 'A potentiometer is an instrument that measures an unknown potential difference (or emf) by balancing it against a known potential drop along a uniform resistance wire carrying a constant current,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_03_008', title: 'A potentiometer is an instrument that.',

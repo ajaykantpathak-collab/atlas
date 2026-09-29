@@ -57,7 +57,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Sociology",
+    "title": "Sociology Is The Systematic And Scientific",
     "text": "Sociology is the systematic and scientific study of human society, social relationships, and social institutions that employs empirical investigation and theoretical analysis to discover patterned regularities in social life, following scientific canons of",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -75,7 +75,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Capitalism",
+    "title": "Capitalism Is An Economic System Based",
     "text": "Capitalism is an economic system based on private ownership of the means of production, market exchange, and the pursuit of profit through commodification of labour, goods, and services; colonialism is the political-economic domination of one society by",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -317,7 +317,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "(a) \"How does algorithmic management in platform work reproduce or challenge the gendered division of labour for women delivery partners and home-service providers in Jaipur?",
      "The statement is partially correct but incomplete. Marx did view British rule as a \"unconscious tool of history\" that would destroy the \"idiocy of rural life\" and lay the material"
     ],
-    "hint": "Straight from the 'Capitalism' slide -- match the key terms.",
+    "hint": "Straight from the 'Capitalism is an economic system' slide -- match the key terms.",
     "misconception": "A wrong answer (either \"Marx was totally wrong\" or \"Marx was totally right\") reveals an inability to hold dialectical tension: Marx's stagism was Eurocentric, but his political economy of colonialism was analytically sharp and empirically grounded.",
     "id": "gen_c11_soc_ch01_q6",
     "nodeId": "c11_soc_cbse_01_006",
@@ -457,7 +457,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "The statement conflates *social reform* with *sociological theory*. Reformers challenged specific practices (sati, widow remarriage",
      "The explanation runs: (1) Note the platform's algorithm sets a ten minute delivery guarantee (2) Treat the guarantee as a piece-rate structure where each minute of delay costs the"
     ],
-    "hint": "Straight from the 'Sociology' slide -- match the key terms.",
+    "hint": "Straight from the 'Sociology is the systematic and' slide -- match the key terms.",
     "misconception": "A wrong answer that stops at rider carelessness shows the student has missed that sociological explanation uncovers structural connections behind individual acts.",
     "id": "gen_c11_soc_ch01_q11",
     "nodeId": "c11_soc_cbse_01_003",
@@ -472,7 +472,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "The scheme addresses a *symptom* (houselessness) but not necessarily the *structural causes* Mills highlights: rural-urban migration driven by agrarian distress",
      "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3)"
     ],
-    "hint": "Straight from the 'Enlightenment (late 17th–18th' slide -- match the key terms.",
+    "hint": "Straight from the 'The Enlightenment' slide -- match the key terms.",
     "misconception": "A wrong answer that sees only oppression or only liberation shows the student has missed the dialectical claim Marx made about factory life.",
     "id": "gen_c11_soc_ch01_q12",
     "nodeId": "c11_soc_cbse_01_005",
@@ -600,7 +600,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Role",
+    "title": "Role Is The Dynamic",
     "text": "A role is the dynamic, behavioural aspect of a status, consisting of the expected rights, duties, and patterns of behaviour associated with a specific social position; it is what an individual *does* while occupying a status, as opposed to the status itself",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -612,7 +612,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Deviance",
+    "title": "Deviance Is The Sociological Concept",
     "text": "Deviance is the sociological concept referring to behaviours, actions, or conditions that violate socially established norms and elicit negative sanctions from a group or society; it is not an inherent property of an act but a social judgement that varies",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -624,7 +624,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Identity",
+    "title": "Identity Refers To The Distinctive",
     "text": "Identity refers to the distinctive characteristics of a person or group that define who they are and what is meaningful to them, formed through the interplay of ascribed sources (gender, ethnicity, nationality, caste) and achieved sources (education,",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
@@ -688,7 +688,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "(a) Folkway / informal norm (unwritten dress code), (b) Negative informal sanction (disapproving looks, social exclusion), (c) Informal social control mechanism (peer pressure",
      "Status set: gig worker, college student, eldest son, migrant family member. Role conflict 1: Delivery algorithm demands speed (worker role) vs"
     ],
-    "hint": "Straight from the 'role' slide -- match the key terms.",
+    "hint": "Straight from the 'role is the dynamic' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Status set: gig worker, college student, eldest son, migrant family member.",
     "id": "gen_c11_soc_ch02_q3",
     "nodeId": "c11_soc_cbse_02_005",
@@ -730,7 +730,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "Scenario: A female software engineer wears jeans to her conservative MNC office. Negative formal: HR issues written warning citing dress code policy (codified rule)",
      "(a) Folkway / informal norm (unwritten dress code), (b) Negative informal sanction (disapproving looks, social exclusion), (c) Informal social control mechanism (peer pressure"
     ],
-    "hint": "Straight from the 'Deviance' slide -- match the key terms.",
+    "hint": "Straight from the 'Deviance is the sociological' slide -- match the key terms.",
     "misconception": "A wrong answer labeling this 'formal control' or 'legal sanction' reveals the student cannot distinguish codified/systematic mechanisms (law, state) from interpersonal/uncodified ones — a core Class 11 distinction.",
     "id": "gen_c11_soc_ch02_q5",
     "nodeId": "c11_soc_cbse_02_007",
@@ -772,7 +772,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "Supporting: (1) The same act (consensual same-sex relations) shifted from 'criminal/deviant' (under Section 377) to 'constitutionally protected/non-deviant' solely through a",
      "Reference group: Ambedkarite Buddhist collectives (online/offline) whose lifestyle and ideology are emulated"
     ],
-    "hint": "Straight from the 'Identity' slide -- match the key terms.",
+    "hint": "Straight from the 'Identity refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer that misses the structural constraint treats identity choice as purely voluntary, ignoring how stratification compels identity work.",
     "id": "gen_c11_soc_ch02_q7",
     "nodeId": "c11_soc_cbse_02_009",
@@ -844,7 +844,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "Honour killing is informal because it operates through uncodified, unofficial mechanisms (family pressure, community ostracism",
      "Supporting: (1) The same act (consensual same-sex relations) shifted from 'criminal/deviant' (under Section 377) to 'constitutionally protected/non-deviant' solely through a"
     ],
-    "hint": "Straight from the 'Deviance' slide -- match the key terms.",
+    "hint": "Straight from the 'Deviance is the sociological' slide -- match the key terms.",
     "misconception": "A wrong answer that says 'this proves deviance is not real' reveals the student confuses social construction with 'not real' — sociologists argue deviance is *real in its consequences* (Thomas theorem) even if socially constructed.",
     "id": "gen_c11_soc_ch02_q11",
     "nodeId": "c11_soc_cbse_02_007",
@@ -874,7 +874,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "Scenario: A female software engineer wears jeans to her conservative MNC office. Negative formal: HR issues written warning citing dress code policy (codified rule)",
      "Panel 1 (Age 3, Family): Grandmother gifts a kitchen set to girl, cricket bat to boy; girl asks for bat, told \"girls don't play cricket"
     ],
-    "hint": "Straight from the 'Identity' slide -- match the key terms.",
+    "hint": "Straight from the 'Identity refers to the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Panel 1 (Age 3, Family): Grandmother gifts a kitchen set to girl, cricket bat to boy; girl asks for bat, told \"girls",
     "id": "gen_c11_soc_ch02_q13",
     "nodeId": "c11_soc_cbse_02_009",
@@ -938,19 +938,19 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Family",
+    "title": "Family Is a Social Institution Comprising",
     "text": "Family is a social institution comprising a group of persons directly linked by kin connections (consanguineous or affinal ties) where adult members assume responsibility for the care and socialization of children, and which operates through culturally",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Kinship",
+    "title": "Kinship Is The Culturally Defined System",
     "text": "Kinship is the culturally defined system of social relationships based on blood ties (consanguineous) and marriage ties (affinal) that determines rights, obligations, and roles among individuals.",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Marriage",
+    "title": "Marriage Is a Socially Acknowledged",
     "text": "Marriage is a socially acknowledged and approved sexual union between two adult individuals that creates kinship ties and establishes rights and obligations between the spouses, their children, and their respective families; its forms are classified by the",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -968,13 +968,13 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Work",
+    "title": "Work Is The Carrying Out",
     "text": "Work is the carrying out of tasks requiring mental or physical effort to produce goods and services that satisfy human needs, encompassing both paid employment and unpaid labour.",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Power",
+    "title": "Power Is The Ability Of Individuals",
     "text": "Power is the ability of individuals or groups to enforce their will despite resistance, while authority is power accepted as legitimate and just.",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -986,7 +986,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "The Interrelationship Among Family, Marriage",
+    "title": "The Interrelationship Among Family,",
     "text": "The interrelationship among family, marriage, kinship, economy, polity, and religion refers to the reciprocal and structural linkages where each social institution shapes and is shaped by the others, such that changes in one institution (e.",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1050,11 +1050,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define 'family of orientation' and 'family of procreation' and give one example of how a person belongs to both simultaneously.",
     "answer": "Family of orientation is the family into which a person is born and raised (parents, siblings); family of procreation is the family formed through marriage (spouse, children)",
     "options": [
-     "A social institution is an established pattern of rules (legal or customary) that operates continuously, constraining individual choices while providing structured opportunities",
-     "Consanguineous kin are relatives related by blood/descent (e.g., parents, siblings, children). Affinal kin are relatives related through marriage (e.g., spouse, in-laws)",
+     "Endogamy: marriage within a culturally defined group (e.g., caste endogamy in India). Exogamy: marriage outside a specified group (e.g., village exogamy in North India)",
+     "The student must be able to: (1) Distinguish between family of orientation and family of procreation using a three-generation kinship diagram",
      "Family of orientation is the family into which a person is born and raised (parents, siblings); family of procreation is the family formed through marriage (spouse, children)"
     ],
-    "hint": "Straight from the 'Family' slide -- match the key terms.",
+    "hint": "Straight from the 'Family is a social institution' slide -- match the key terms.",
     "misconception": "A wrong answer that defines both as \"the family you live with\" reveals confusion between residence and kinship ties — the student fails to distinguish structural position from household composition.",
     "id": "gen_c11_soc_ch03_q2",
     "nodeId": "c11_soc_cbse_03_002",
@@ -1071,11 +1071,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define consanguineous kin and affinal kin as per the sociological understanding in the NCERT textbook.",
     "answer": "Consanguineous kin are relatives related by blood/descent (e.g., parents, siblings, children). Affinal kin are relatives related through marriage (e.g., spouse, in-laws)",
     "options": [
+     "The student can independently contrast the functionalist and conflict explanations for any given social institution (e",
      "Family of orientation is the family into which a person is born and raised (parents, siblings); family of procreation is the family formed through marriage (spouse, children)",
-     "Endogamy: marriage within a culturally defined group (e.g., caste endogamy in India). Exogamy: marriage outside a specified group (e.g., village exogamy in North India)",
      "Consanguineous kin are relatives related by blood/descent (e.g., parents, siblings, children). Affinal kin are relatives related through marriage (e.g., spouse, in-laws)"
     ],
-    "hint": "Straight from the 'Kinship' slide -- match the key terms.",
+    "hint": "Straight from the 'Kinship is the culturally defined' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses the two (e.g., calling a brother-in-law consanguineous) reveals the student has not grasped the fundamental distinction between descent-based and marriage-based ties.",
     "id": "gen_c11_soc_ch03_q3",
     "nodeId": "c11_soc_cbse_03_003",
@@ -1088,16 +1088,47 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define endogamy and exogamy in one sentence each, and give one Indian example of each from the textbook.",
-    "answer": "Endogamy: marriage within a culturally defined group (e.g., caste endogamy in India). Exogamy: marriage outside a specified group (e.g., village exogamy in North India)",
-    "options": [
-     "Institutional interrelationship means social institutions are mutually constitutive — change in one triggers adjustments in others",
-     "A social institution is an established pattern of rules (legal or customary) that operates continuously, constraining individual choices while providing structured opportunities",
-     "Endogamy: marriage within a culturally defined group (e.g., caste endogamy in India). Exogamy: marriage outside a specified group (e.g., village exogamy in North India)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between monogamy",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "analyze a given matrimonial advertisement",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how endogamy and exogamy operate",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Marriage' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps the definitions or gives only generic definitions without Indian examples reveals confusion between the two rules and inability to ground them in the textbook's empirical illustrations.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between monogamy, serial monogamy, polygyny, and polyandry with correct terminology;",
     "id": "gen_c11_soc_ch03_q4",
     "nodeId": "c11_soc_cbse_03_004",
     "difficulty": "advanced",
@@ -1228,11 +1259,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define 'informal economy' as described in the NCERT textbook and give one example of a worker in this sector.",
     "answer": "The informal economy refers to transactions outside the sphere of regular employment, sometimes involving cash for services but often direct exchange of goods/services",
     "options": [
-     "Institutional interrelationship means social institutions are mutually constitutive — change in one triggers adjustments in others",
-     "A social institution is an established pattern of rules (legal or customary) that operates continuously, constraining individual choices while providing structured opportunities",
+     "Family of orientation is the family into which a person is born and raised (parents, siblings); family of procreation is the family formed through marriage (spouse, children)",
+     "Family is a social institution comprising a group of persons directly linked by kin connections (consanguineous or affinal ties) where adult members assume responsibility for the",
      "The informal economy refers to transactions outside the sphere of regular employment, sometimes involving cash for services but often direct exchange of goods/services"
     ],
-    "hint": "Straight from the 'Work' slide -- match the key terms.",
+    "hint": "Straight from the 'Work is the carrying out' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'unorganised sector is just small factories') reveals confusion between 'informal' (legal/regulatory status) and 'unorganised' (enterprise size), a common conflation in Indian policy discourse.",
     "id": "gen_c11_soc_ch03_q7",
     "nodeId": "c11_soc_cbse_03_007",
@@ -1601,8 +1632,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "State the textbook definition of a social institution in your own words, ensuring you include the three elements: (a) rules acknowledged by law or custom, (b) regular and continuous operation, and (c) constraints and opportunities for individuals.",
     "answer": "A social institution is an established pattern of rules (legal or customary) that operates continuously, constraining individual choices while providing structured opportunities",
     "options": [
-     "Institutional interrelationship means social institutions are mutually constitutive — change in one triggers adjustments in others",
-     "Civil rights are individual legal protections (e.g., free speech, property, equality before law). Political rights are participatory powers (e",
+     "Religion as a social institution is a structured system of beliefs, symbols, and rituals centered on the distinction between the *sacred* (that which is set apart, revered",
+     "Marriage is a socially acknowledged and approved sexual union between two adult individuals that creates kinship ties and establishes rights and obligations between the spouses",
      "A social institution is an established pattern of rules (legal or customary) that operates continuously, constraining individual choices while providing structured opportunities"
     ],
     "hint": "Straight from the 'social institution' slide -- match the key terms.",
@@ -1613,17 +1644,17 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A student claims: \"The functionalist view says nuclear families are better for industrial society because women are naturally nurturing and men are naturally breadwinners.\" Identify two errors in this statement using sociological terminology.",
-    "answer": "Error 1: The functionalist argument (Parsons/Giddens) is about role specialization (instrumental vs affective) as a structural requirement of industrial economy",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently contrast the functionalist and conflict explanations for any given social institution (e",
     "options": [
-     "A good narrative will show a specific conflict (e.g., a woman expected to observe a festival at her parental home but her in-laws insist she stay)",
-     "The statement is partially true but overstated. While nuclear families and migration increase reliance on spouses and in-laws for daily support",
-     "Error 1: The functionalist argument (Parsons/Giddens) is about role specialization (instrumental vs affective) as a structural requirement of industrial economy"
+     "Kinship is the culturally defined system of social relationships based on blood ties (consanguineous) and marriage ties (affinal) that determines rights, obligations",
+     "The student can correctly distinguish between consanguineous and affinal kin in a given Indian family scenario",
+     "The student can independently contrast the functionalist and conflict explanations for any given social institution (e"
     ],
-    "hint": "Straight from the 'Family' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"gender unjust\" misses the empirical falsification; a wrong answer citing \"modern families are different\" misses the structural argument about role specialization.",
+    "hint": "Straight from the 'social institution' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently contrast the functionalist and conflict explanations for any given social institution (e.",
     "id": "gen_c11_soc_ch03_q18",
-    "nodeId": "c11_soc_cbse_03_002",
+    "nodeId": "c11_soc_cbse_03_001",
     "difficulty": "advanced"
    }
   ],
@@ -1701,13 +1732,13 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Ethnocentrism",
+    "title": "Ethnocentrism Is The Tendency To Evaluate",
     "text": "Ethnocentrism is the tendency to evaluate other cultures using one's own cultural standards as the universal benchmark, resulting in a claim of inherent superiority of one's own cultural values, beliefs, and practices over those of other groups.",
     "emoji": "👥",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Cosmopolitanism",
+    "title": "Cosmopolitanism Is a Cultural Outlook",
     "text": "Cosmopolitanism is a cultural outlook that values other cultures for their differences, actively celebrates and accommodates diverse cultural propensities, and promotes cultural exchange and borrowing to enrich one's own culture without erasing its distinct",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1719,7 +1750,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Sub-culture",
+    "title": "Sub-culture Refers To a Distinct Cultural",
     "text": "Sub-culture refers to a distinct cultural pattern shared by a group within a larger society that systematically borrows, distorts, exaggerates, or inverts the symbols, values, and beliefs of the dominant culture to create a separate group identity.",
     "emoji": "👥",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1959,7 +1990,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "*Example scenario:* An NGO introduces \"modern\" birth plans in a rural community where traditional birth attendants (dais) use vertical birthing positions and herbal pain",
      "No, because cosmopolitanism involves active cultural exchange and borrowing that enriches one's own culture, not just passive display"
     ],
-    "hint": "Straight from the 'Cosmopolitanism' slide -- match the key terms.",
+    "hint": "Straight from the 'Cosmopolitanism is a cultural' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Yes, because it shows many cultures\") reveals the student equates multicultural events with cosmopolitanism, missing the essential component of active, transformative exchange highlighted in the textbook.",
     "id": "gen_c11_soc_ch04_q6",
     "nodeId": "c11_soc_cbse_04_007",
@@ -1997,11 +2028,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define \"sub-culture\" as per the NCERT glossary and give one concrete example from an Indian urban context that illustrates the definition's key verbs (borrow, distort, exaggerate, invert).",
     "answer": "A sub-culture is a group within a larger culture that borrows from and often distorts, exaggerates, or inverts the symbols, values",
     "options": [
-     "Tylor: \"Culture or civilisation taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law",
-     "In technology-driven evolutionary change, material culture (tools, machines, infrastructure) advances continuously while cognitive/normative systems adapt piecemeal",
+     "Sub-culture refers to a distinct cultural pattern shared by a group within a larger society that systematically borrows, distorts, exaggerates, or inverts the symbols, values",
+     "Students conflate 'culture' with 'high culture' (classical music, fine art) or 'tradition' (unchanging customs)",
      "A sub-culture is a group within a larger culture that borrows from and often distorts, exaggerates, or inverts the symbols, values"
     ],
-    "hint": "Straight from the 'Sub-culture' slide -- match the key terms.",
+    "hint": "Straight from the 'Sub-culture refers to a distinct' slide -- match the key terms.",
     "misconception": "A wrong answer that merely lists \"a group with different clothes\" reveals the student misses the *systematic symbolic reworking* central to the definition.",
     "id": "gen_c11_soc_ch04_q8",
     "nodeId": "c11_soc_cbse_04_009",
@@ -2077,6 +2108,52 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain how Malinowski's inclusion",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Apply Geertz's interpretive approach",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Distinguish the sociological definition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Distinguish the sociological definition of culture from everyday usage (e.",
+    "id": "gen_c11_soc_ch04_q10",
+    "nodeId": "c11_soc_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Apply Geertz's \"webs of significance\" concept to the Bangalore auto-driver interaction (NCERT p.64). Identify the specific 'web' (shared meaning system) that allows the commuter to understand the driver's eyebrow arch as a question and the head jerk as 'yes' — without a single word spoken.",
     "answer": "The 'web' is the *Bangalore auto-rickshaw hiring ritual*: a shared, tacit code where (1) destination-name + eyebrow arch = \"Will you go to X?",
@@ -2087,7 +2164,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer describing it as 'body language' or 'gesture' misses Geertz's point: the meaning is not in the gesture itself but in the *culturally constructed interpretation* shared by the group — an outsider (e.g., a tourist) would not decode it.",
-    "id": "gen_c11_soc_ch04_q10",
+    "id": "gen_c11_soc_ch04_q11",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2102,7 +2179,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer saying both are 'normative' fails to see that Malinowski's 'values' are embedded in survival practices, not abstract rules.",
-    "id": "gen_c11_soc_ch04_q11",
+    "id": "gen_c11_soc_ch04_q12",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2117,7 +2194,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A poor answer merely concatenates the three definitions without synthesis.",
-    "id": "gen_c11_soc_ch04_q12",
+    "id": "gen_c11_soc_ch04_q13",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2132,7 +2209,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is false. Geertz *complements* rather than replaces: Tylor inventories the *contents* of culture (knowledge,",
-    "id": "gen_c11_soc_ch04_q13",
+    "id": "gen_c11_soc_ch04_q14",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2147,7 +2224,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on 'adding artifacts' misses the functional interdependence: for Malinowski, a canoe is not just an object but a technical process embedded with knowledge and social values.",
-    "id": "gen_c11_soc_ch04_q14",
+    "id": "gen_c11_soc_ch04_q15",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
@@ -2156,59 +2233,44 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "State Tylor's 1871 definition of culture verbatim as given in the NCERT text, and identify which two elements in his list are explicitly non-material.",
     "answer": "Tylor: \"Culture or civilisation taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law",
     "options": [
-     "A sub-culture is a group within a larger culture that borrows from and often distorts, exaggerates, or inverts the symbols, values",
-     "Definition (h) prioritises the *normative* dimension (rules, sanctions); Malinowski prioritises the *material-functional* dimension (artifacts, technical processes meeting needs)",
+     "The student must be able to: (1) deconstruct a given sub-cultural group's style, language, and practices to identify which dominant cultural symbols are borrowed, exaggerated",
+     "Culture in sociology is the shared, learned system of meanings, symbols, values, norms, and material artifacts that members of a society use to interpret their world and guide",
      "Tylor: \"Culture or civilisation taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law"
     ],
     "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
     "misconception": "A wrong answer that includes 'art' as non-material reveals confusion between tangible artifacts (paintings) and the abstract aesthetic system; Tylor treats art as a capability/habit, not the physical object.",
-    "id": "gen_c11_soc_ch04_q15",
+    "id": "gen_c11_soc_ch04_q16",
     "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A village community traditionally uses a solar calendar for agricultural rituals. The government introduces a digital weather-forecast app that predicts rainfall more accurately. Using the three dimensions, analyse what happens when younger farmers start relying on the app instead of the calendar.",
-    "answer": "Step 1: Identify the material change — smartphone and app replace the physical calendar. Step 2: Cognitive shift",
+    "question": "What common mix-up does this lesson flag about Culture in sociology?",
+    "answer": "Students conflate 'culture' with 'high culture' (classical music, fine art) or 'tradition' (unchanging customs)",
     "options": [
-     "The hidden curriculum transmits the norm that domestic/cleaning work is \"women's work\" and heavy/physical tasks are \"men's work\" — reinforcing the sexual division of labour",
-     "1) Gender segregation → reinforces normative separation of sexes in public space. 2) Boys in front → reinforces male precedence/hierarchy",
-     "Step 1: Identify the material change — smartphone and app replace the physical calendar. Step 2: Cognitive shift"
+     "A sub-culture is a group within a larger culture that borrows from and often distorts, exaggerates, or inverts the symbols, values",
+     "Tylor: \"Culture or civilisation taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law",
+     "Students conflate 'culture' with 'high culture' (classical music, fine art) or 'tradition' (unchanging customs)"
     ],
-    "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
-    "misconception": "A wrong answer that only mentions “technology replaces tradition” fails to break down the three dimensions and their interplay.",
-    "id": "gen_c11_soc_ch04_q16",
-    "nodeId": "c11_soc_cbse_04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare how the cognitive, normative, and material dimensions of “greeting” differ between a corporate office in Mumbai and a tribal village in the Andaman Islands.",
-    "answer": "Corporate office: Cognitive — handshake signals professional equality; Normative — HR policy may mandate gender-neutral greetings",
-    "options": [
-     "Similarities: (1) Both dismantled estate-based stratification (French estates / Japanese feudal domains) and replaced with legal equality",
-     "Ethnocentrism (e.g., local elders) evaluates the crew by traditional norms: \"vulgar English,\" \"disrespectful body movements,\" \"Western corruption\"",
-     "Corporate office: Cognitive — handshake signals professional equality; Normative — HR policy may mandate gender-neutral greetings"
-    ],
-    "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
-    "misconception": "A weak answer lists only surface behaviours (“they shake hands vs bow”) without linking each to its dimension. The analytical requirement is to show how each dimension operates differently in the two settings.",
+    "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students conflate 'culture' with 'high culture' (classical music, fine art) or 'tradition' (unchanging customs).",
     "id": "gen_c11_soc_ch04_q17",
-    "nodeId": "c11_soc_cbse_04_002",
+    "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Create a new cultural practice for a futuristic Mars colony that integrates all three dimensions. Describe the practice and explicitly label its cognitive, normative, and material elements.",
-    "answer": "Practice: “Oxygen Toast” — before each communal meal, colonists share a breath from a portable oxygen canister while stating one personal goal",
+    "question": "What is Culture in sociology? State the definition given in this lesson.",
+    "answer": "Culture in sociology is the shared, learned system of meanings, symbols, values, norms, and material artifacts that members of a society use to interpret their world and guide",
     "options": [
-     "No, because cosmopolitanism involves active cultural exchange and borrowing that enriches one's own culture, not just passive display",
-     "1) Gender segregation → reinforces normative separation of sexes in public space. 2) Boys in front → reinforces male precedence/hierarchy",
-     "Practice: “Oxygen Toast” — before each communal meal, colonists share a breath from a portable oxygen canister while stating one personal goal"
+     "Tylor: \"Culture or civilisation taken in its wide ethnographic sense, is that complex whole which includes knowledge, belief, art, morals, law",
+     "Sub-culture refers to a distinct cultural pattern shared by a group within a larger society that systematically borrows, distorts, exaggerates, or inverts the symbols, values",
+     "Culture in sociology is the shared, learned system of meanings, symbols, values, norms, and material artifacts that members of a society use to interpret their world and guide"
     ],
-    "hint": "Straight from the 'Culture consists of three' slide -- match the key terms.",
-    "misconception": "A poor answer invents a practice but fails to label each dimension or shows elements that don’t cohere (e.g., a norm without a material basis). The task tests synthesis across dimensions.",
+    "hint": "Straight from the 'Culture in sociology' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Culture in sociology is the shared, learned system of meanings, symbols, values, norms, and material artifacts that",
     "id": "gen_c11_soc_ch04_q18",
-    "nodeId": "c11_soc_cbse_04_002",
+    "nodeId": "c11_soc_cbse_04_001",
     "difficulty": "standard"
    }
   ],
@@ -2424,7 +2486,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "(a) Quantitative indicator: Average number of order rejections per worker per week before account deactivation warning (measurable, countable)",
      "Malinowski was a Polish national visiting British-controlled Australia when WWI began; Poland had been annexed by Germany"
     ],
-    "hint": "Straight from the 'Bronislaw Malinowski  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Bronislaw Malinowski was a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 'he chose the Trobriands for their cultural uniqueness') reveals the student confuses methodological intention with historical contingency — missing how structural constraints (colonial law, war) shaped anthropology's canonical field site.",
     "id": "gen_c11_soc_ch05_q5",
     "nodeId": "c11_soc_cbse_05_007",
@@ -2475,7 +2537,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "This claim commits the relativist fallacy. The impossibility of perfect objectivity does not entail the impossibility of better or worse research",
      "Alignments: (1) vernacular language use without interpreters; (2) residential immersion and daily field notes"
     ],
-    "hint": "Straight from the 'Bronislaw Malinowski  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Bronislaw Malinowski was a' slide -- match the key terms.",
     "misconception": "A wrong answer treating duration as merely 'more time = better' misses Malinowski's specific theoretical rationale: only long-term presence reveals the *systemic interconnections* between kinship, economy, and ritual that short visits fragment.",
     "id": "gen_c11_soc_ch05_q8",
     "nodeId": "c11_soc_cbse_05_007",
@@ -2490,7 +2552,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "(a) Quantitative indicator: Average number of order rejections per worker per week before account deactivation warning (measurable, countable)",
      "Malinowski argued that only direct, unmediated interaction in the vernacular allows the anthropologist to access 'implicit knowledge'"
     ],
-    "hint": "Straight from the 'Bronislaw Malinowski  was a' slide -- match the key terms.",
+    "hint": "Straight from the 'Bronislaw Malinowski was a' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on 'accuracy' or 'respect' misses the epistemological claim: language fluency enables the shift from *etic* (outsider) categories to *emic* (insider) meanings, which Malinowski treated as the sine qua non of scientific anthropology.",
     "id": "gen_c11_soc_ch05_q9",
     "nodeId": "c11_soc_cbse_05_007",
@@ -2561,7 +2623,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Life Chances Refer To Material",
+    "title": "Life Chances Refer To Material Advantages",
     "text": "Life chances refer to material advantages (wealth, income, health, job security, recreation) that improve quality of life; social status refers to prestige or high standing in the eyes of others; political influence refers to the ability of a group to",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2597,7 +2659,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Conflict",
+    "title": "Conflict Is a Social Process",
     "text": "Conflict is a social process in which individuals or groups consciously oppose one another to secure scarce resources, power, or status, and its bases (class, caste, gender, ethnicity, religion) and forms (overt, covert, institutionalised,",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2684,8 +2746,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define social stratification in your own words, and explain why the statement \"inequality exists because some people work harder than others\" is sociologically inadequate as an explanation for structured inequality.",
     "answer": "Social stratification refers to a system where society ranks categories of people in a hierarchy based on unequal access to resources, power, and prestige",
     "options": [
-     "Life chances are all material advantages improving quality of life, including health access, job security, recreation, nutrition, and education quality",
-     "\"Men make their own history, but they do not make it as they please; they do not make it under self-selected circumstances, but under circumstances existing already",
+     "The student must be able to: (1) distinguish mechanical from organic solidarity with concrete societal examples, (2) explain how each social process (cooperation, competition",
+     "The student can distinguish between voluntary and enforced cooperation in a given social scenario",
      "Social stratification refers to a system where society ranks categories of people in a hierarchy based on unequal access to resources, power, and prestige"
     ],
     "hint": "Straight from the 'Social stratification' slide -- match the key terms.",
@@ -2705,8 +2767,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define 'life chances' as used in sociology, and give two examples beyond wealth and income.",
     "answer": "Life chances are all material advantages improving quality of life, including health access, job security, recreation, nutrition, and education quality",
     "options": [
-     "Conflict is a conscious struggle between individuals or groups for scarce resources, power, or status. Two bases are class and caste (also gender, tribe, ethnicity, religion)",
      "Social structure refers to the enduring, patterned arrangements of statuses, roles, institutions",
+     "Social structure is the patterned, relatively stable arrangement of social institutions, statuses, roles",
      "Life chances are all material advantages improving quality of life, including health access, job security, recreation, nutrition, and education quality"
     ],
     "hint": "Straight from the 'Life chances refer to material' slide -- match the key terms.",
@@ -2726,8 +2788,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "State Marx's famous formulation about the relationship between human agency and historical conditions in a single sentence.",
     "answer": "\"Men make their own history, but they do not make it as they please; they do not make it under self-selected circumstances, but under circumstances existing already",
     "options": [
-     "Social structure refers to the enduring, patterned arrangements of statuses, roles, institutions",
-     "Social stratification refers to a system where society ranks categories of people in a hierarchy based on unequal access to resources, power, and prestige",
+     "Students conflate social structure with \"social rules\" or \"customs\" — treating it as a list of dos and don'ts rather than a relational framework of positions",
+     "The student can distinguish social structure from random interaction by identifying at least three structural properties (patterning, externality, constraint",
      "\"Men make their own history, but they do not make it as they please; they do not make it under self-selected circumstances, but under circumstances existing already"
     ],
     "hint": "Straight from the 'In Marx's dialectical framework,' slide -- match the key terms.",
@@ -2743,16 +2805,47 @@ export const C11_SOC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define mechanical solidarity and organic solidarity in one sentence each, using Durkheim's terminology.",
-    "answer": "Mechanical solidarity: social cohesion based on similarity of beliefs, values, and routines in societies with low division of labour",
-    "options": [
-     "Correct: The conflict perspective assumes social order is maintained by dominant groups imposing their will on subordinates through power and ideology",
-     "Enforced cooperation occurs when individuals or groups participate in joint activity not by free choice but because structural constraints (e",
-     "Mechanical solidarity: social cohesion based on similarity of beliefs, values, and routines in societies with low division of labour"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish mechanical from organic",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how each social process",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "critique the perspective's tendency",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'functionalist perspective views' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"mechanical solidarity means people work like machines\") reveals confusion between the *metaphor* and the *actual mechanism* — students often literalize \"mechanical\" as \"machine-like\" rather than \"based on sameness.\"",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish mechanical from organic solidarity with concrete societal examples, (2)",
     "id": "gen_c11_soc_ch06_q5",
     "nodeId": "c11_soc_cbse_06_005",
     "difficulty": "advanced",
@@ -3158,6 +3251,52 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify at least three distinct bases",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "classify the form of conflict as",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain how cooperation and competition",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify at least three distinct bases of conflict from a given Indian case study, (2)",
+    "id": "gen_c11_soc_ch06_q13",
+    "nodeId": "c11_soc_cbse_06_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Apply Marx's concept to analyze this scenario: A software engineer at a Bengaluru startup \"owns\" their code on GitHub, chooses their stack, works flexible hours, and gets equity.",
     "sortItems": [
      {
@@ -3209,7 +3348,99 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer claiming \"no alienation because of autonomy/equity\" reveals the Formal Autonomy Fallacy: mistaking surface-level discretion for substantive control over the labour process and its purpose.",
-    "id": "gen_c11_soc_ch06_q13",
+    "id": "gen_c11_soc_ch06_q14",
+    "nodeId": "c11_soc_cbse_06_011",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What is Marx's concept of alienation? State the definition given in this lesson.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "their species-being",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "the product of their labour",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "the labour process itself",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Marx's concept of alienation refers to the systematic separation of workers under capitalism from four dimensions: (1)",
+    "id": "gen_c11_soc_ch06_q15",
+    "nodeId": "c11_soc_cbse_06_011",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how alienation differs from mere job",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish all four dimensions of",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "connect alienation to the capitalist mode",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish all four dimensions of alienation with concrete examples from contemporary",
+    "id": "gen_c11_soc_ch06_q16",
     "nodeId": "c11_soc_cbse_06_011",
     "difficulty": "advanced"
    },
@@ -3224,7 +3455,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social structure' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the student's claim confuses voluntariness with structural neutrality. One that says \"structure determines everything\" falls into determinism. The correct analysis shows how structure shapes the probability distribution of outcomes without eliminating agency.",
-    "id": "gen_c11_soc_ch06_q14",
+    "id": "gen_c11_soc_ch06_q17",
     "nodeId": "c11_soc_cbse_06_001",
     "difficulty": "advanced"
    },
@@ -3239,51 +3470,6 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social structure' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as evolutionary stages misses Durkheim's point that both are structural types, not temporal phases. One that ignores anomie fails to grasp the normative vacuum during structural transition.",
-    "id": "gen_c11_soc_ch06_q15",
-    "nodeId": "c11_soc_cbse_06_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Define social structure in your own words, distinguishing it from (a) a physical building, (b) a single social interaction, and (c) culture.",
-    "answer": "Social structure refers to the enduring, patterned arrangements of statuses, roles, institutions",
-    "options": [
-     "Life chances are all material advantages improving quality of life, including health access, job security, recreation, nutrition, and education quality",
-     "\"Men make their own history, but they do not make it as they please; they do not make it under self-selected circumstances, but under circumstances existing already",
-     "Social structure refers to the enduring, patterned arrangements of statuses, roles, institutions"
-    ],
-    "hint": "Straight from the 'Social structure' slide -- match the key terms.",
-    "misconception": "A wrong answer that equates structure with buildings reveals the \"architectural metaphor\" trap warned against in the textbook. Confusing it with culture misses the structural constraint on action. Treating it as a single interaction fails to grasp its temporal endurance and spatial reach.",
-    "id": "gen_c11_soc_ch06_q16",
-    "nodeId": "c11_soc_cbse_06_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a mini-ethnographic observation (30 minutes) in your school cafeteria that would reveal social structure in action. Specify: (a) what structural elements you would observe, (b) how you would distinguish structure from individual behaviour, and (c) what pattern would confirm structure's constraining and enabling",
-    "answer": "(a) Observe: seating patterns by class/caste/gender; queue behaviour; food-sharing norms; waste disposal; teacher-student interaction zones",
-    "options": [
-     "The 'wasted seats' framing assumes merit is pre-existing and measurable by a single exam. Sociologically, social status (prestige, networks",
-     "The student confuses absence of coercion with absence of structure. Structured choice means options exist but are unequally distributed by position in the stratification system",
-     "(a) Observe: seating patterns by class/caste/gender; queue behaviour; food-sharing norms; waste disposal; teacher-student interaction zones"
-    ],
-    "hint": "Straight from the 'Social structure' slide -- match the key terms.",
-    "misconception": "A poor answer lists behaviours without identifying structural properties (repetition, externality, constraint). A good answer shows how the same seating norm both limits choice and makes \"sitting with friends\" meaningful.",
-    "id": "gen_c11_soc_ch06_q17",
-    "nodeId": "c11_soc_cbse_06_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Competition is a natural human instinct; socialism failed because it went against human nature.\" Use sociological evidence from the textbook to critique this naturalistic fallacy.",
-    "answer": "The claim commits the naturalistic fallacy sociology explicitly rejects. Textbook evidence: (1) African children in the anecdote rejected competitive games as distressing",
-    "options": [
-     "Correct: The claim is largely justified because: (1) Conflict perspective exposes how \"cooperative\" gender norms (e",
-     "Competition ensures efficient role allocation (best students get best jobs), motivates innovation, and channels conflict into regulated channels (exams",
-     "The claim commits the naturalistic fallacy sociology explicitly rejects. Textbook evidence: (1) African children in the anecdote rejected competitive games as distressing"
-    ],
-    "hint": "Straight from the 'Social structure' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the claim accepts common sense over sociological analysis. One that simply says \"it's not natural\" without historical evidence fails the evaluation standard. The critique must show competition as a historically specific social process, not a biological given.",
     "id": "gen_c11_soc_ch06_q18",
     "nodeId": "c11_soc_cbse_06_001",
     "difficulty": "advanced"
@@ -3365,19 +3551,19 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Socialisation",
+    "title": "Socialisation Is The Lifelong Process",
     "text": "Socialisation is the lifelong process through which individuals internalise society's norms, values, and beliefs, generating spontaneous consent to social order; social stratification is the institutionalised system of unequal ranking of social groups (by",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Domination",
+    "title": "Domination Is a Stable",
     "text": "Domination is a stable, settled power relationship where a social entity (individual, group, institution) habitually exercises decisive influence over others; authority is legitimate power — power accepted as justified and proper by those subject to it,",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Contestation",
+    "title": "Contestation Refers To Broad Forms",
     "text": "Contestation refers to broad forms of insistent disagreement with established norms, ranging from cultural dissent (counter-cultures) to political competition (elections) and protest against laws; crime is strictly defined as any act violating an existing law",
     "emoji": "👥",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3401,7 +3587,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Urbanisation",
+    "title": "Urbanisation Is The Demographic And Social",
     "text": "Urbanisation is the demographic and social process through which an increasing proportion of a population concentrates in urban settlements, characterised by high population density, non-agricultural economic activities, and complex spatial organisation,",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3496,8 +3682,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "List the five sources of social change identified in the NCERT textbook and give one original example (not from the text) for each.",
     "answer": "The five sources are: Environmental (e.g., the 2018 Kerala floods altering housing patterns and migration), Technological (e",
     "options": [
-     "A change must be (1) intensive—altering the underlying structure of society (institutions, norms, stratification) and (2) extensive—affecting a large section of the population",
-     "Evolutionary change: Slow, gradual, cumulative transformation over long periods (e.g., transition from feudal agrarian society to modern industrial society in India over 150+",
+     "Social order is the tendency within established social systems to resist and regulate change by actively maintaining and reproducing particular patterns of social relations",
+     "Students equate 'social change' with any visible alteration in daily life—new gadgets, fashion, slang, or a single law—because these are salient and recent",
      "The five sources are: Environmental (e.g., the 2018 Kerala floods altering housing patterns and migration), Technological (e"
     ],
     "hint": "Straight from the 'five sources of social change' slide -- match the key terms.",
@@ -3569,11 +3755,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define socialisation and social stratification as mechanisms of social order in one sentence each, using the precise sociological terminology from the NCERT text.",
     "answer": "Socialisation is the process of internalising norms and values through which individuals spontaneously consent to social order",
     "options": [
-     "Evolutionary change: Slow, gradual, cumulative transformation over long periods (e.g., transition from feudal agrarian society to modern industrial society in India over 150+",
-     "The five sources are: Environmental (e.g., the 2018 Kerala floods altering housing patterns and migration), Technological (e",
+     "Socialisation is the lifelong process through which individuals internalise society's norms, values, and beliefs, generating spontaneous consent to social order",
+     "Students conflate \"socialisation\" with \"socialising\" (hanging out with friends) and \"stratification\" with \"inequality\" (just a description of differences)",
      "Socialisation is the process of internalising norms and values through which individuals spontaneously consent to social order"
     ],
-    "hint": "Straight from the 'Socialisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Socialisation is the lifelong' slide -- match the key terms.",
     "misconception": "A wrong answer that defines socialisation as \"learning manners\" or stratification as \"rich vs poor\" reveals confusion between everyday language and sociological concepts — the student misses the *mechanism* aspect (how each produces order) and the structural dimension (internalisation vs institutionalised inequality).",
     "id": "gen_c11_soc_ch07_q5",
     "nodeId": "c11_soc_cbse_07_005",
@@ -3590,11 +3776,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define 'authority' in Weber's sense and give one example of a person who holds authority *only* because of their official position, not personal charisma or tradition.",
     "answer": "Authority is legitimate power — power considered justified and proper by those subject to it",
     "options": [
-     "The five sources are: Environmental (e.g., the 2018 Kerala floods altering housing patterns and migration), Technological (e",
-     "Social order is the tendency within established social systems to resist and regulate change by actively maintaining and reproducing particular patterns of social relations",
+     "Students equate 'social change' with any visible alteration in daily life—new gadgets, fashion, slang, or a single law—because these are salient and recent",
+     "Evolutionary change: Slow, gradual, cumulative transformation over long periods (e.g., transition from feudal agrarian society to modern industrial society in India over 150+",
      "Authority is legitimate power — power considered justified and proper by those subject to it"
     ],
-    "hint": "Straight from the 'Domination' slide -- match the key terms.",
+    "hint": "Straight from the 'Domination is a stable' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"authority is just power\" or \"a king has authority because his father was king\") reveals confusion between power/domination and authority, or between traditional and legal-rational authority.",
     "id": "gen_c11_soc_ch07_q6",
     "nodeId": "c11_soc_cbse_07_006",
@@ -3715,8 +3901,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "State the core legal entitlement that MGNREGA provides to a rural household, and name the level of government primarily responsible for its implementation.",
     "answer": "MGNREGA guarantees 100 days of wage employment per financial year to every rural household willing to do unskilled manual work",
     "options": [
-     "A change must be (1) intensive—altering the underlying structure of society (institutions, norms, stratification) and (2) extensive—affecting a large section of the population",
-     "Evolutionary change: Slow, gradual, cumulative transformation over long periods (e.g., transition from feudal agrarian society to modern industrial society in India over 150+",
+     "Students equate 'social change' with any visible alteration in daily life—new gadgets, fashion, slang, or a single law—because these are salient and recent",
+     "The student must be able to: (1) Define social change using the dual criteria of intensity (structural transformation) and extensiveness (large-scale impact) with a precise",
      "MGNREGA guarantees 100 days of wage employment per financial year to every rural household willing to do unskilled manual work"
     ],
     "hint": "Straight from the 'MGNREGA' slide -- match the key terms.",
@@ -3905,6 +4091,52 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "correctly classify a given real-world",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how a single historical event",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) correctly classify a given real-world example of social change as",
+    "id": "gen_c11_soc_ch07_q13",
+    "nodeId": "c11_soc_cbse_07_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Design a sociological research question to study how 'digital contestation' (e.g., hashtag activism, online petitions) differs from traditional street protest in challenging social order. Specify the concepts you would operationalize.",
     "sortItems": [
      {
@@ -3956,7 +4188,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Research question: \"How does the spatial-temporal compression of digital platforms alter the legitimation strategies of",
-    "id": "gen_c11_soc_ch07_q13",
+    "id": "gen_c11_soc_ch07_q14",
     "nodeId": "c11_soc_cbse_07_007",
     "difficulty": "advanced"
    },
@@ -4002,7 +4234,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer suggesting \"give free flats to slum dwellers\" ignores how without perpetual affordability clauses, these flats enter the market within a generation, completing the gentrification cycle.",
-    "id": "gen_c11_soc_ch07_q14",
+    "id": "gen_c11_soc_ch07_q15",
     "nodeId": "c11_soc_cbse_07_010",
     "difficulty": "advanced"
    },
@@ -4017,7 +4249,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social change' slide -- match the key terms.",
     "misconception": "A wrong answer that equates widespread adoption with social change reveals the misconception that scale alone suffices; the student has not grasped the intensity criterion (structural reconfiguration of institutions/norms).",
-    "id": "gen_c11_soc_ch07_q15",
+    "id": "gen_c11_soc_ch07_q16",
     "nodeId": "c11_soc_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4032,7 +4264,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social change' slide -- match the key terms.",
     "misconception": "A wrong answer listing 'more inventions in modern times' misses the rate comparison; a wrong answer claiming 'change was always fast' reveals the textbook's core misconception target.",
-    "id": "gen_c11_soc_ch07_q16",
+    "id": "gen_c11_soc_ch07_q17",
     "nodeId": "c11_soc_cbse_07_001",
     "difficulty": "standard"
    },
@@ -4047,21 +4279,6 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Social change' slide -- match the key terms.",
     "misconception": "A poor answer that makes a linear timeline with equal spacing reveals failure to grasp proportional time; an answer listing only technologies (fire, wheel, phone) without structural consequences reveals confusion between invention and social change.",
-    "id": "gen_c11_soc_ch07_q17",
-    "nodeId": "c11_soc_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Sociology emerged in Europe because European society changed faster than Indian society in the 18th–19th centuries.\" Use the textbook's historical scope (global human history, not just Europe) to justify your position.",
-    "answer": "The claim is partially true but sociologically incomplete. The textbook states sociology emerged to make sense of 'rapid changes that Western European society experienced between",
-    "options": [
-     "The claim is partially valid but sociologically incomplete. Valid: the *physical proximity* in general compartments forces momentary co-presence across classes",
-     "The claim is partially correct but incomplete. Pace: Revolutionary — HYV seeds, fertilizers, irrigation spread across Punjab/Haryana/Western UP in <10 years (1966-1975)",
-     "The claim is partially true but sociologically incomplete. The textbook states sociology emerged to make sense of 'rapid changes that Western European society experienced between"
-    ],
-    "hint": "Straight from the 'Social change' slide -- match the key terms.",
-    "misconception": "A wrong answer agreeing fully reveals Eurocentrism; a wrong answer denying any European specificity ignores the historical context of the discipline's birth.",
     "id": "gen_c11_soc_ch07_q18",
     "nodeId": "c11_soc_cbse_07_001",
     "difficulty": "standard"
@@ -4079,14 +4296,14 @@ export const C11_SOC_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_soc_ch08",
-  "title": "Ecology",
+  "title": "Ecology Is The Web Of Physical",
   "subtitle": "Sociology · Chapter 8",
   "classLevel": 11,
   "mode": "senior",
   "subject": "sociology",
-  "topic": "Ecology",
+  "topic": "Ecology Is The Web Of Physical",
   "chapters": [
-   "Sociology Ch8: Ecology"
+   "Sociology Ch8: Ecology Is The Web Of Physical"
   ],
   "nodeIds": [
    "c11_soc_cbse_08_001",
@@ -4108,7 +4325,7 @@ export const C11_SOC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Ecology actually explain?",
+   "question": "In one line -- what does Ecology Is The Web Of Physical actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -4119,7 +4336,7 @@ export const C11_SOC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Ecology",
+    "title": "Ecology Is The Web Of Physical",
     "text": "Ecology is the web of physical and biological systems and processes — including mountains, rivers, plains, oceans, flora, and fauna — of which humans are one element, shaped by the interaction between geography and hydrology, and modified over time by human",
     "emoji": "👥",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4179,7 +4396,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "The Bhopal Gas Tragedy (1984)",
+    "title": "The Bhopal Gas Tragedy Exemplifies",
     "text": "The Bhopal Gas Tragedy (1984) exemplifies Ulrich Beck's \"risk society\" thesis: a catastrophic industrial disaster where methyl isocyanate (MIC) leaked from Union Carbide's pesticide plant, killing ~4,000 immediately and permanently disabling 200,000+,",
     "emoji": "👥",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4380,8 +4597,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define \"differential access to environmental resources\" in the context of social stratification. Provide one concrete example from the NCERT text.",
     "answer": "Differential access to environmental resources means that different social groups have systematically unequal abilities to obtain, control",
     "options": [
-     "Bookchin argues that nearly all present ecological problems arise from deep-seated social problems",
-     "Ecology is the web of physical and biological systems and processes — mountains, rivers, plains, oceans, flora, fauna — of which humans are one element",
+     "Gendered division of labour in environmental resource access refers to the systematic assignment of tasks like fetching water, collecting fuelwood, fodder",
+     "Property relations are the socially constructed rules and power structures governing who can access, use, control, and benefit from natural resources, including state ownership",
      "Differential access to environmental resources means that different social groups have systematically unequal abilities to obtain, control"
     ],
     "hint": "Straight from the 'Social stratification and' slide -- match the key terms.",
@@ -4527,8 +4744,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define 'gendered division of labour' in the specific context of environmental resource access, as discussed in the NCERT chapter.",
     "answer": "Gendered division of labour in environmental resource access refers to the systematic assignment of tasks like fetching water, collecting fuelwood, fodder",
     "options": [
-     "The five categories are: (A) Resource Depletion, (B) Pollution, (C) Global Warming, (D) Genetically Modified Organisms (GMOs), and (E) Natural and Man-made Environmental Disasters",
-     "Property relations are the socially constructed rules and power structures governing who can access, use, control, and benefit from natural resources, including state ownership",
+     "Gendered division of labour refers to the socially constructed allocation of tasks, responsibilities, and resource-use rights between men and women",
+     "Environmental vulnerability in sociology refers to the socially structured susceptibility of specific groups to environmental harm",
      "Gendered division of labour in environmental resource access refers to the systematic assignment of tasks like fetching water, collecting fuelwood, fodder"
     ],
     "hint": "Straight from the 'Gendered division of labour' slide -- match the key terms.",
@@ -4812,6 +5029,52 @@ export const C11_SOC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "give a distinct Indian example for each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain in 3-4 sentences why each category",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "name and define all five categories",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) name and define all five categories with textbook-accurate terminology, (2) give a",
+    "id": "gen_c11_soc_ch08_q14",
+    "nodeId": "c11_soc_cbse_08_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Design a \"Social Ecology Analysis Template\" — a 4-column table — that a student could use to analyse ANY local environmental conflict (e.g., a proposed mine, a polluting factory, a wetland conversion) through Bookchin's lens. Specify the column headers and what each column must capture.",
     "sortItems": [
      {
@@ -4863,7 +5126,53 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong template would have columns: (1) Social Relation (Property regime / Production organisation / Power hierarchy)",
-    "id": "gen_c11_soc_ch08_q14",
+    "id": "gen_c11_soc_ch08_q15",
+    "nodeId": "c11_soc_cbse_08_009",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "demonstrate how",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify the property relations governing",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "analyse how the organisation of production",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently trace a concrete environmental problem (e.",
+    "id": "gen_c11_soc_ch08_q16",
     "nodeId": "c11_soc_cbse_08_009",
     "difficulty": "advanced"
    },
@@ -4909,7 +5218,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer supporting cash compensation as \"efficient\" reveals a neoclassical economic bias that ignores the sociological reality that displacement is not just loss of assets but destruction of a way of life — a point central to the textbook's argument that environmental problems are social problems rooted in",
-    "id": "gen_c11_soc_ch08_q15",
+    "id": "gen_c11_soc_ch08_q17",
     "nodeId": "c11_soc_cbse_08_010",
     "difficulty": "advanced"
    },
@@ -4966,90 +5275,18 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answers treating vulnerability as \"bad luck\" or \"proximity alone\" miss how property relations, labour markets, and state neglect structurally produce differential risk exposure.",
-    "id": "gen_c11_soc_ch08_q16",
-    "nodeId": "c11_soc_cbse_08_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Apply Beck's concept of \"organised irresponsibility\" to explain why Union Carbide's US plants had computerised early warning systems but the Bhopal plant did not, despite the company knowing the risks.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Union Carbide designed Bhopal plant without",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Political-bureaucratic ties",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Indian regulators",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "When disaster struck",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Wrong answers focusing only on \"corporate greed\" or \"government corruption\" miss the structural distribution of accountability that defines organised irresponsibility.",
-    "id": "gen_c11_soc_ch08_q17",
-    "nodeId": "c11_soc_cbse_08_011",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare how the Indo-Gangetic floodplain's fertile soil and the Rajasthan desert's aridity each shape distinct forms of human social organisation (settlement density, livelihood, surplus generation, social hierarchy). Then analyse why this \"ecology shaping society\" is only half the story.",
-    "answer": "The floodplain's reliable water and nutrient renewal enable intensive agriculture → high yields → dense settlements → surplus → non-farming specialists (crafts, administration",
-    "options": [
-     "The Forest Department views the forest as a revenue-generating asset — prioritizing high-volume bamboo extraction for paper industry contracts, leading to monoculture plantations",
-     "Industrial emissions: driven by capitalist production for profit, regulated (or not) by state policies influenced by industrial lobbies",
-     "The floodplain's reliable water and nutrient renewal enable intensive agriculture → high yields → dense settlements → surplus → non-farming specialists (crafts, administration"
-    ],
-    "hint": "Straight from the 'Ecology' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The floodplain's reliable water and nutrient renewal enable intensive agriculture → high yields → dense settlements →",
     "id": "gen_c11_soc_ch08_q18",
-    "nodeId": "c11_soc_cbse_08_001",
-    "difficulty": "standard"
+    "nodeId": "c11_soc_cbse_08_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about ecology?",
+    "What surprised you about ecology is the web of physical?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Ecology mastered! 🎯",
+  "successLine": "Ecology Is The Web Of Physical mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -5227,7 +5464,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "The procedure runs: (1) The clerk with fixed jurisdiction accepts only the specified documents (2) The file moves up the graded hierarchy from superintendent to the collector's",
      "Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913"
     ],
-    "hint": "Straight from the 'Emile Durkheim  was a French' slide -- match the key terms.",
+    "hint": "Straight from the 'Emile Durkheim was a French' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., giving 1893 for the Chair or confusing the journal with *Archives for Social Science*) reveals the student has memorised isolated dates without linking them to the institutionalisation timeline — they cannot sequence the steps by which sociology gained academic legitimacy.",
     "id": "gen_c11_soc_ch09_q3",
     "nodeId": "c11_soc_cbse_09_005",
@@ -5513,7 +5750,7 @@ export const C11_SOC_GEN: SimDef[] = [
      "This is value-rational action (wertrational). Step 1: Identify the subjective meaning — the woman acts from a conscious belief in a religious duty",
      "Agreement: Both see the division of labour as increasing interdependence and complexity in modern society"
     ],
-    "hint": "Straight from the 'Emile Durkheim  was a French' slide -- match the key terms.",
+    "hint": "Straight from the 'Emile Durkheim was a French' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists \"Durkheim = solidarity, Marx = conflict\" without linking to their institutional positions shows the student cannot contextualise theory production — a key senior-secondary skill.",
     "id": "gen_c11_soc_ch09_q9",
     "nodeId": "c11_soc_cbse_09_005",
@@ -5686,7 +5923,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Sanskritisation",
+    "title": "Sanskritisation Is The Process",
     "text": "Sanskritisation is the process by which a lower caste or tribe adopts the customs, rituals, beliefs, and lifestyle of a higher (usually 'twice-born') caste to claim higher status in the local caste hierarchy.",
     "emoji": "👥",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5966,8 +6203,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "What was Verrier Elwin's central argument as a Protectionist regarding tribal communities in colonial India, and what specific policy measure did he advocate for?",
     "answer": "Verrier Elwin argued that tribal communities were culturally distinct \"primitive\" peoples with unique cultures far removed from mainstream Hinduism",
     "options": [
-     "In 1902, the Dewan of Cochin state asked Iyer to assist with an ethnographic survey of the state",
-     "The six features in order: (i) Segmental division — caste divided into closed, mutually exclusive compartments determined by birth",
+     "Accidental Pioneers refers to scholars like L.K",
+     "The student must be able to explain how Iyer and Roy's non-academic entry points (clerical service",
      "Verrier Elwin argued that tribal communities were culturally distinct \"primitive\" peoples with unique cultures far removed from mainstream Hinduism"
     ],
     "hint": "Straight from the 'Tribal Protectionist vs' slide -- match the key terms.",
@@ -5987,8 +6224,8 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Define 'living tradition' in D.P. Mukerji's framework and name the three principles of change he identified in Indian tradition.",
     "answer": "Living tradition is a tradition that retains links with the past (through shruti and smriti) while incorporating new elements through collective experience (anubhava)",
     "options": [
-     "The six features in order: (i) Segmental division — caste divided into closed, mutually exclusive compartments determined by birth",
-     "Verrier Elwin argued that tribal communities were culturally distinct \"primitive\" peoples with unique cultures far removed from mainstream Hinduism",
+     "The student can explain the three foundational questions that the colonial context posed for Indian sociology (role of sociology in a colony",
+     "The student must be able to: (1) explain Ghurye's three institutional contributions (Bombay department, Indian Sociological Society",
      "Living tradition is a tradition that retains links with the past (through shruti and smriti) while incorporating new elements through collective experience (anubhava)"
     ],
     "hint": "Straight from the 'D.P. Mukerji's concept of 'living' slide -- match the key terms.",
@@ -6060,11 +6297,11 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "What were the two doctoral degrees earned by M.N. Srinivas, and from which institutions?",
     "answer": "M.N. Srinivas earned a Ph.D. from Bombay University (1944) under G.S. Ghurye, and a D.Phil. in Social Anthropology from Oxford University (1947) under Radcliffe-Brown and",
     "options": [
-     "The six features in order: (i) Segmental division — caste divided into closed, mutually exclusive compartments determined by birth",
-     "Verrier Elwin argued that tribal communities were culturally distinct \"primitive\" peoples with unique cultures far removed from mainstream Hinduism",
+     "In 1902, the Dewan of Cochin state asked Iyer to assist with an ethnographic survey of the state",
+     "Accidental Pioneers refers to scholars like L.K",
      "M.N. Srinivas earned a Ph.D. from Bombay University (1944) under G.S. Ghurye, and a D.Phil. in Social Anthropology from Oxford University (1947) under Radcliffe-Brown and"
     ],
-    "hint": "Straight from the 'M.N. Srinivas  was a pioneering' slide -- match the key terms.",
+    "hint": "Straight from the 'M.N. Srinivas was a pioneering' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying both degrees were from Bombay, or naming the wrong supervisors) reveals the student has not grasped the dual intellectual lineage — Indian institutional sociology under Ghurye and British structural-functionalism at Oxford — that shaped Srinivas's entire career.",
     "id": "gen_c11_soc_ch10_q9",
     "nodeId": "c11_soc_cbse_10_009",
@@ -6133,7 +6370,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "question": "Name the four sociologists compared in this node and state the one-word label (e.g., 'indological', 'Marxist', 'structural-functionalist', 'dialectical') that best captures each one's core theoretical orientation.",
     "answer": "Ghurye — indological/structuralist; Mukerji — dialectical/tradition-centred; Desai — Marxist/historical materialist; Srinivas — structural-functionalist",
     "options": [
-     "Living tradition is a tradition that retains links with the past (through shruti and smriti) while incorporating new elements through collective experience (anubhava)",
+     "The student must be able to construct a comparative table mapping each sociologist's core theoretical lens, primary research focus, view on tradition/modernity",
      "In 1902, the Dewan of Cochin state asked Iyer to assist with an ethnographic survey of the state",
      "Ghurye — indological/structuralist; Mukerji — dialectical/tradition-centred; Desai — Marxist/historical materialist; Srinivas — structural-functionalist"
     ],
@@ -6217,6 +6454,98 @@ export const C11_SOC_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "articulate his diffusionist perspective",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain Ghurye's three institutional",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "summarise",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) explain Ghurye's three institutional contributions (Bombay department, Indian",
+    "id": "gen_c11_soc_ch10_q13",
+    "nodeId": "c11_soc_cbse_10_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain why Desai concludes the welfare",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "State Desai's three defining features",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Contrast Desai's Marxist critique",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) State Desai's three defining features of the welfare state (positive state, democratic",
+    "id": "gen_c11_soc_ch10_q14",
+    "nodeId": "c11_soc_cbse_10_008",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Compare the institutional strategies of G.S. Ghurye (Bombay) and M.N. Srinivas (Delhi School of Economics, 1959) for building sociology in India. Identify TWO similarities and TWO differences in how each leveraged university structures, funding, and intellectual networks.",
     "answer": "Similarities: (1) Both headed departments for decades (Ghurye 35 years, Srinivas ~12 years at DSE) and used the Head position to control appointments, syllabi, and PhD supervision",
@@ -6227,7 +6556,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'institutional history of' slide -- match the key terms.",
     "misconception": "A wrong answer listing only personal traits misses the structural-institutional lens: how each used the *university* as a tool for disciplinary consolidation.",
-    "id": "gen_c11_soc_ch10_q13",
+    "id": "gen_c11_soc_ch10_q15",
     "nodeId": "c11_soc_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6242,7 +6571,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'institutional history of' slide -- match the key terms.",
     "misconception": "A wrong answer treating the merger as purely intellectual ignores the material history: colonial universities allocated chairs by subject codes; creating a new \"Sociology\" code required separate funding that did not exist. The merger was a survival strategy, not a theoretical breakthrough.",
-    "id": "gen_c11_soc_ch10_q14",
+    "id": "gen_c11_soc_ch10_q16",
     "nodeId": "c11_soc_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6257,7 +6586,7 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'institutional history of' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as equivalent reveals failure to grasp the disciplinary boundary colonial administrators drew: anthropology for \"tribal/native\" study, sociology for \"modern/civilised\" society — a distinction Indian scholars later deliberately blurred.",
-    "id": "gen_c11_soc_ch10_q15",
+    "id": "gen_c11_soc_ch10_q17",
     "nodeId": "c11_soc_cbse_10_001",
     "difficulty": "standard"
    },
@@ -6272,38 +6601,8 @@ export const C11_SOC_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'institutional history of' slide -- match the key terms.",
     "misconception": "A wrong answer listing only classical Western theory (Durkheim, Weber) misses the Lucknow school's deliberate rooting in Indian empirical reality and its synthesis of economics, anthropology, and civilisational analysis — precisely the \"combined department\" logic the prompt asks you to apply.",
-    "id": "gen_c11_soc_ch10_q16",
-    "nodeId": "c11_soc_cbse_10_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Apply the concept of 'colonial specificity' to analyse the following statement: \"G.S. Ghurye's classification of tribes as 'backward Hindus' was a nationalist response to British anthropological categories.\" Identify two ways this statement reflects the colonial context shaping Indian sociology.",
-    "answer": "Step 1: Recognise that British administrator-anthropologists (like Elwin) categorised tribes as distinct, isolated 'primitive' groups needing protection from Hindu assimilation",
-    "options": [
-     "Ghurye meant that tribes were not isolated primitive communities but had participated in continuous, long-term interaction with Hindu society — sharing deities (e",
-     "The label is partially accurate but obscures two structural factors: (1) The colonial state's systematic demand for ethnographic data across princely states and tribal areas",
-     "Step 1: Recognise that British administrator-anthropologists (like Elwin) categorised tribes as distinct, isolated 'primitive' groups needing protection from Hindu assimilation"
-    ],
-    "hint": "Straight from the 'colonial context of Indian' slide -- match the key terms.",
-    "misconception": "A wrong answer that only describes Ghurye's view without linking it to the colonial structure of knowledge/power misses the 'specificity' — it treats his view as mere opinion rather than a structurally positioned intervention.",
-    "id": "gen_c11_soc_ch10_q17",
-    "nodeId": "c11_soc_cbse_10_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare D.P. Mukerji's concept of 'living tradition' with the Western sociological view of tradition vs. modernity as a binary. What does this comparison reveal about the specificity of Indian social change?",
-    "answer": "Western sociology (e.g., Parsons, Weber) typically treats tradition and modernity as opposing types: tradition = static, collective, ascriptive",
-    "options": [
-     "Risley: Caste originated in race — distinct racial types (Aryan vs. non-Aryan) mapped onto caste hierarchy; endogamy preserved this racial purity for centuries",
-     "Mukerji argued that in India, caste traditions mediate and suppress class formation — e.g., economic exploitation of lower castes is legitimized by purity/pollution ideology",
-     "Western sociology (e.g., Parsons, Weber) typically treats tradition and modernity as opposing types: tradition = static, collective, ascriptive"
-    ],
-    "hint": "Straight from the 'colonial context of Indian' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"Mukerji liked tradition\" misses the theoretical sophistication: he is offering an *alternative theory of social change* rooted in Indian specificity, not a preference.",
     "id": "gen_c11_soc_ch10_q18",
-    "nodeId": "c11_soc_cbse_10_002",
+    "nodeId": "c11_soc_cbse_10_001",
     "difficulty": "standard"
    }
   ],
@@ -6313,7 +6612,7 @@ export const C11_SOC_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Institutional History Of mastered! 🎯",
+  "successLine": "Institutional History mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

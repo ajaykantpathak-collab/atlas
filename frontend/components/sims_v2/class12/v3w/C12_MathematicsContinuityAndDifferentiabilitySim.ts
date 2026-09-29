@@ -11,7 +11,7 @@ export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Continuity of a Function: Definition',
     chapters: [],
     nodeIds: ['c12_math_cbse_05_001', 'c12_math_cbse_05_002', 'c12_math_cbse_05_003', 'c12_math_cbse_05_004', 'c12_math_cbse_05_005', 'c12_math_cbse_07_009', 'c12_math_cbse_05_006', 'c12_math_cbse_05_007', 'c12_math_cbse_05_008', 'c12_math_cbse_05_009', 'c12_math_cbse_05_010', 'c12_math_cbse_05_011', 'c12_math_cbse_05_012', 'c12_math_cbse_05_013', 'c12_math_cbse_07_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a prepaid metro card: you tap in, the balance decreases smoothly as you travel, but if the machine.', goal: 'Master Continuity of a Function: Definition.' },
     discovery: {
         question: 'Compare the continuity of \\(f(x) = |x|\\) and \\(g(x) = \\frac{1}{|x|}\\) at \\(x=0\\). Why does the algebra of continuous functions give different conclusions?',
@@ -20,7 +20,7 @@ export const w_c12_mathematicscontinuityanddifferentiabilitysim: SimDef = {
         hook: 'Students often believe that if \\(f\\) and \\(g\\) are continuous, then \\(\\frac{f}{g}\\) is continuous **everywhere** \\(f\\).',
     },
     teaching: [
-        { title: 'A real-valued function \\(f\\) is **continuous.', text: 'A real-valued function \\(f\\) is **continuous at a point** \\(c\\) in its domain if \\(\\lim_{x \\to c} f(x) = f(c)\\).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A real-valued function \\(f\\) is **continuous.', text: 'A real-valued function \\(f\\) is **continuous at a point** \\(c\\) in its domain if \\(\\lim_{x \\to c} f(x) = f(c)\\).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_05_001', title: 'A real-valued function \\(f\\) is.',

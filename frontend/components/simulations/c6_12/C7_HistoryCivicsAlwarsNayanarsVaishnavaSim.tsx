@@ -1142,7 +1142,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.8 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-600 to-indigo-600 flex items-center justify-center text-2xl shadow-lg shadow-amber-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-600 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-amber-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1177,13 +1177,13 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
       {/* ─── 1. DISCOVERY PHASE (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-inner">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wide mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40 shadow-inner">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wide mb-2">
               <span>🏛️</span> National Museum Curator Scenario
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 bg-indigo-950/80 p-3 rounded-xl border border-indigo-800/50">
+            <p className="text-xs text-gold-300/80 bg-gold-950/80 p-3 rounded-xl border border-gold-800/50">
               💡 <strong>The Historical Link:</strong> {SCENARIO.context}
             </p>
           </div>
@@ -1233,7 +1233,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-amber-600 text-white font-bold rounded-xl shadow-lg shadow-indigo-500/20 flex items-center gap-2"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-amber-600 text-white font-bold rounded-xl shadow-lg shadow-gold-500/20 flex items-center gap-2"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1257,14 +1257,14 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => setCurrentSlide(idx)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
-                    currentSlide === idx ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+                    currentSlide === idx ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
                   }`}
                 >
                   Step {idx + 1}
                 </motion.button>
               ))}
             </div>
-            <span className="text-xs font-semibold text-indigo-400 mr-2">
+            <span className="text-xs font-semibold text-gold-400 mr-2">
               {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
           </div>
@@ -1465,7 +1465,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                         audioManager.play('tap');
                       }}
                       className={`flex-1 py-2 rounded-lg text-xs font-bold transition-all ${
-                        nirgunaFigure === 'nanak' ? 'bg-indigo-600 text-white' : 'text-slate-400'
+                        nirgunaFigure === 'nanak' ? 'bg-gold-600 text-white' : 'text-slate-400'
                       }`}
                     >
                       Guru Nanak (1469-1539 CE, Talwandi)
@@ -1537,17 +1537,17 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                       </>
                     ) : (
                       <>
-                        <div className="p-4 bg-slate-950 rounded-xl border border-indigo-500/30 space-y-2">
-                          <div className="text-xs font-bold text-indigo-400 uppercase">3 Pillars of Sikhism</div>
+                        <div className="p-4 bg-slate-950 rounded-xl border border-gold-500/30 space-y-2">
+                          <div className="text-xs font-bold text-gold-400 uppercase">3 Pillars of Sikhism</div>
                           <ul className="text-xs space-y-2 text-slate-300">
                             <li>
-                              <strong className="text-indigo-300">Kirat Karo:</strong> Earn your living through honest, hardworking labour (Nanak worked at Sultanpur Lodhi storehouse).
+                              <strong className="text-gold-300">Kirat Karo:</strong> Earn your living through honest, hardworking labour (Nanak worked at Sultanpur Lodhi storehouse).
                             </li>
                             <li>
-                              <strong className="text-indigo-300">Wand Chhako:</strong> Share meals and wealth (instituted via the egalitarian Langar).
+                              <strong className="text-gold-300">Wand Chhako:</strong> Share meals and wealth (instituted via the egalitarian Langar).
                             </li>
                             <li>
-                              <strong className="text-indigo-300">Naam Japna:</strong> Constant remembrance of Ek Onkar (one supreme reality).
+                              <strong className="text-gold-300">Naam Japna:</strong> Constant remembrance of Ek Onkar (one supreme reality).
                             </li>
                           </ul>
                         </div>
@@ -1588,7 +1588,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-500/40 text-xs text-indigo-300">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-500/40 text-xs text-gold-300">
                       ✓ {PREDICTION_QUESTIONS[0].verifyInstruction}
                     </div>
                   )}
@@ -1598,7 +1598,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Vernacular Outreach (Jayasi, Farid, Khusrau)</span>
-                        <span className="font-bold text-indigo-400">{vernacularOutreach}%</span>
+                        <span className="font-bold text-gold-400">{vernacularOutreach}%</span>
                       </div>
                       <input
                         type="range"
@@ -1610,7 +1610,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                           setVernacularOutreach(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1657,8 +1657,8 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
 
                   {/* Observation hook */}
                   {vernacularOutreach > 60 && !observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-2">
-                      <div className="text-xs font-bold text-indigo-300">Observation Check: What do you notice?</div>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-2">
+                      <div className="text-xs font-bold text-gold-300">Observation Check: What do you notice?</div>
                       <p className="text-xs text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1701,7 +1701,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     key={assemblyMonthIndex}
                     initial={{ opacity: 0, scale: 0.98 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="p-4 bg-gradient-to-r from-slate-950 to-indigo-950/60 rounded-xl border border-indigo-500/40 flex items-center justify-between"
+                    className="p-4 bg-gradient-to-r from-slate-950 to-gold-950/60 rounded-xl border border-gold-500/40 flex items-center justify-between"
                   >
                     <div>
                       <span className="text-xs font-bold text-amber-400 px-2 py-0.5 rounded bg-amber-500/20 border border-amber-500/30">
@@ -1894,7 +1894,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1927,7 +1927,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
               <div>
                 <div className="flex justify-between text-xs text-slate-300 mb-1">
                   <span>Sovereign External Independence</span>
-                  <span className="font-bold text-indigo-400">{sandboxSovereignPower}%</span>
+                  <span className="font-bold text-gold-400">{sandboxSovereignPower}%</span>
                 </div>
                 <input
                   type="range"
@@ -1936,7 +1936,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   value={sandboxSovereignPower}
                   aria-label="Sovereign Power Slider"
                   onChange={e => setSandboxSovereignPower(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1982,7 +1982,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     }}
                     className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
                       sandboxHeadType === 'elected_president'
-                        ? 'bg-indigo-600 border-indigo-400 text-white'
+                        ? 'bg-gold-600 border-gold-400 text-white'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -2031,7 +2031,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     <span>Religious Peace Index: {sandboxSecularRespect > 70 ? 'High Harmony' : 'Moderate'}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-indigo-400" />
+                    <span className="w-2 h-2 rounded-full bg-gold-400" />
                     <span>Poverty Gap Reduction: {sandboxSocialWelfare > 60 ? 'Active Welfare' : 'Minimal'}</span>
                   </div>
                 </div>
@@ -2041,7 +2041,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={handleAdvanceToChallenge}
-                className="w-full py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-900/30 text-xs mt-4"
+                className="w-full py-3 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-900/30 text-xs mt-4"
               >
                 I Am Ready For Graded Challenges! →
               </motion.button>
@@ -2060,7 +2060,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                 Challenge <strong>{currentChallenge + 1}</strong> of {filteredChallenges.length}
               </div>
               <div className="flex items-center gap-2 mt-1">
-                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-gold-500/20 text-gold-300 border border-gold-500/30">
                   NEP 2020: {challenge.competencyLevel.toUpperCase()}
                 </span>
                 <span className="text-xs text-slate-400">Node: {challenge.nodeId}</span>
@@ -2084,7 +2084,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
               </motion.span>
               <div className="w-24 sm:w-36 h-2.5 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-amber-500 via-indigo-500 to-emerald-500"
+                  className="h-full bg-gradient-to-r from-amber-500 via-gold-500 to-emerald-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2138,7 +2138,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2156,10 +2156,10 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                       key={target.id}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(target.id)}
-                      className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-indigo-500 text-center text-xs min-h-[60px] flex flex-col justify-center items-center"
+                      className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-gold-500 text-center text-xs min-h-[60px] flex flex-col justify-center items-center"
                     >
                       <div className="text-[10px] text-slate-500 uppercase">{target.title}</div>
-                      <div className="font-bold text-indigo-300 mt-1">
+                      <div className="font-bold text-gold-300 mt-1">
                         {droppedLabels[target.id] || 'Drop matching saint label here'}
                       </div>
                     </div>
@@ -2170,7 +2170,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify All Targets
                 </motion.button>
@@ -2212,7 +2212,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
-                  className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Check Sequence
                 </motion.button>
@@ -2227,14 +2227,14 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter exact count..."
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 outline-none"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none"
                 />
                 <span className="text-xs text-slate-400">{challenge.unit}</span>
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Submit
                 </motion.button>
@@ -2263,7 +2263,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                   ))}
                 </div>
 
-                <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-indigo-300 min-h-[44px] flex items-center">
+                <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-gold-300 min-h-[44px] flex items-center">
                   Assembled: <strong className="ml-2 text-white">{constructParts.join(' ') || '(Select words in order)'}</strong>
                 </div>
 
@@ -2272,7 +2272,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
-                    className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Check Assembly
                   </motion.button>
@@ -2330,7 +2330,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleNextChallenge}
-                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold rounded-xl text-xs shadow-lg shadow-emerald-900/30 ml-auto"
+                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-xl text-xs shadow-lg shadow-emerald-900/30 ml-auto"
                   >
                     {currentChallenge + 1 >= filteredChallenges.length ? 'View Final Results 🎉' : 'Next Challenge →'}
                   </motion.button>
@@ -2344,7 +2344,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
       {/* ─── 5. COMPLETION PHASE (Personalized Mastery & Reflection) ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl border border-indigo-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-3xl border border-gold-700/50 text-center space-y-3">
             <div className="text-4xl">🏛️ 🎉</div>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Constitutional Sim Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2357,7 +2357,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
               </div>
               <div className="border-l border-slate-800 pl-4">
                 <span className="text-slate-400">Mastery Level:</span>{' '}
-                <strong className="text-indigo-400 text-sm font-black uppercase">{masteryLevel}</strong>
+                <strong className="text-gold-400 text-sm font-black uppercase">{masteryLevel}</strong>
               </div>
             </div>
           </div>
@@ -2367,7 +2367,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
             errors === 0
               ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
               : errors <= 3
-              ? 'bg-cyan-950/60 border-cyan-500 text-cyan-200'
+              ? 'bg-gold-950/60 border-gold-500 text-gold-200'
               : errors <= 7
               ? 'bg-amber-950/60 border-amber-500 text-amber-200'
               : 'bg-rose-950/60 border-rose-500 text-rose-200'
@@ -2418,7 +2418,7 @@ function C7_HistoryCivicsAlwarsNayanarsVaishnavaSim({
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </li>
               ))}

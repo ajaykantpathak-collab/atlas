@@ -11,7 +11,7 @@ export const w_c9_physicsweightmasscomparisonsim: SimDef = {
     classLevel: 9, subject: 'physics', topic: 'Distance-Time Graphs and Their Interpretation',
     chapters: [],
     nodeIds: ['c9_physics_ch2_6', 'c9_physics_ch5_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are standing at a railway crossing in Delhi and watch a train pass by.', goal: 'Master Distance-Time Graphs and Their Interpretation.' },
     discovery: {
         question: 'What physical quantity does the slope of a distance-time graph represent, and what are its SI units?',
@@ -20,7 +20,7 @@ export const w_c9_physicsweightmasscomparisonsim: SimDef = {
         hook: 'Students believe a distance-time graph can have a negative slope (line going downwards) when an object "returns" or.',
     },
     teaching: [
-        { title: 'A distance-time graph is a graphical.', text: 'A distance-time graph is a graphical representation plotting distance travelled (on the y-axis) against time elapsed (on the x-axis) for an object moving along a straight line.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A distance-time graph is a graphical.', text: 'A distance-time graph is a graphical representation plotting distance travelled (on the y-axis) against time elapsed (on the x-axis) for an object moving along a straight line.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch2_6', title: 'A distance-time graph is a graphical.',

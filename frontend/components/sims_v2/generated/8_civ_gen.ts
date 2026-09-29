@@ -136,8 +136,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What does the term 'Universal Adult Franchise' mean in the context of Indian democracy?",
     "answer": "Universal Adult Franchise means that every adult citizen of India, meeting the age requirement, has the right to vote in elections without any discrimination based on religion",
     "options": [
+     "Can explain how Article 326 of the Indian Constitution establishes universal adult suffrage, identify the specific conditions and age requirement under this article",
      "The principle is universal adult suffrage (or political equality)",
-     "Article 326 of the Indian Constitution",
      "Universal Adult Franchise means that every adult citizen of India, meeting the age requirement, has the right to vote in elections without any discrimination based on religion"
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
@@ -157,8 +157,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What fundamental democratic principle ensures that every adult citizen has one vote, and that every vote carries equal weight during an election?",
     "answer": "The principle is universal adult suffrage (or political equality)",
     "options": [
-     "Article 326 of the Indian Constitution",
-     "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
+     "Universal Adult Franchise means that every adult citizen of India, meeting the age requirement, has the right to vote in elections without any discrimination based on religion",
+     "Students can explain the administrative and constitutional challenges of managing universal adult suffrage for a population nearing one billion voters",
      "The principle is universal adult suffrage (or political equality)"
     ],
     "hint": "Straight from the 'right to vote' slide -- match the key terms.",
@@ -199,9 +199,9 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What specific article of the Indian Constitution guarantees universal adult suffrage for elections to the Lok Sabha and State Legislative Assemblies?",
     "answer": "Article 326 of the Indian Constitution",
     "options": [
-     "The Election Commission of India (ECI) is the primary independent constitutional body responsible for conducting and overseeing free and fair elections",
-     "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
-     "The Right 326 of the Indian Constitution",
+     "Universal Adult Franchise means that every adult citizen of India, meeting the age requirement, has the right to vote in elections without any discrimination based on religion",
+     "Can explain how Article 326 of the Indian Constitution establishes universal adult suffrage, identify the specific conditions and age requirement under this article",
+     "Extension 326 of the Indian Constitution",
      "Article 326 of the Indian Constitution"
     ],
     "hint": "Straight from the 'Article 326 of the Indian' slide -- match the key terms.",
@@ -221,8 +221,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which constitutional amendment act lowered the minimum voting age in India from 21 to 18 years?",
     "answer": "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
     "options": [
-     "Article 326 of the Indian Constitution",
-     "The winner is determined by the First-Past-The-Post (FPTP) system, where the candidate who secures the highest number of votes in a particular constituency wins",
+     "Can explain how Article 326 of the Indian Constitution establishes universal adult suffrage, identify the specific conditions and age requirement under this article",
+     "Students can explain the significance of the 61st Constitutional Amendment Act of 1988, identify the specific article affected (Article 326)",
      "The 61st Constitutional Amendment Act of 1988 lowered the voting age"
     ],
     "hint": "Straight from the 'lowering of the minimum voting' slide -- match the key terms.",
@@ -242,8 +242,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary method used to determine the winner in Lok Sabha and State Legislative Assembly elections in India?",
     "answer": "The winner is determined by the First-Past-The-Post (FPTP) system, where the candidate who secures the highest number of votes in a particular constituency wins",
     "options": [
-     "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
-     "The correct answer is the Lok Sabha election",
+     "Universal Adult Franchise means that every adult citizen of India, meeting the age requirement, has the right to vote in elections without any discrimination based on religion",
+     "Can explain the constitutional role and independent status of the Election Commission of India",
      "The winner is determined by the First-Past-The-Post (FPTP) system, where the candidate who secures the highest number of votes in a particular constituency wins"
     ],
     "hint": "Straight from the 'electoral system' slide -- match the key terms.",
@@ -263,8 +263,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which type of election is held to choose representatives who will sit in the national Parliament at New Delhi to make laws for the entire country?",
     "answer": "The correct answer is the Lok Sabha election",
     "options": [
-     "Article 326 of the Indian Constitution",
-     "The 61st Constitutional Amendment Act of 1988 lowered the voting age",
+     "Can explain the purpose of the electoral roll, describe the registration process managed by the Election Commission of India",
+     "The Election Commission of India (ECI) is the primary independent constitutional body responsible for conducting and overseeing free and fair elections",
      "The correct answer is the Lok Sabha election"
     ],
     "hint": "Straight from the 'Indian electoral system operates' slide -- match the key terms.",
@@ -284,9 +284,9 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which article of the Indian Constitution provides for the establishment of an independent Election Commission to superintend, direct, and control elections?",
     "answer": "Article 324 of the Indian Constitution establishes the Election Commission",
     "options": [
-     "The Election Commission of India (ECI) is the primary independent constitutional body responsible for conducting and overseeing free and fair elections",
      "The correct answer is the Lok Sabha election",
-     "Denying 324 of the Indian Constitution establishes the Election Commission",
+     "Article 326 of the Indian Constitution",
+     "Mumbai 324 of the Indian Constitution establishes the Election Commission",
      "Article 324 of the Indian Constitution establishes the Election Commission"
     ],
     "hint": "Straight from the 'Election Commission of India' slide -- match the key terms.",
@@ -358,8 +358,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the official first major step a prospective candidate must take to participate in an election?",
     "answer": "The correct answer is filing a nomination paper, which includes details about the candidate's assets, liabilities, and criminal records if any",
     "options": [
-     "Article 324 of the Indian Constitution establishes the Election Commission",
      "The Election Commission of India (ECI) is the primary independent constitutional body responsible for conducting and overseeing free and fair elections",
+     "Universal Adult Franchise means that every adult citizen of India, meeting the age requirement, has the right to vote in elections without any discrimination based on religion",
      "The correct answer is filing a nomination paper, which includes details about the candidate's assets, liabilities, and criminal records if any"
     ],
     "hint": "Straight from the 'election process in India' slide -- match the key terms.",
@@ -486,9 +486,9 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Compare the concept of Universal Adult Franchise with the voting systems used in colonial India or early Western democracies where women and property-less men could not vote. What is the fundamental difference in how political legitimacy is established?",
     "answer": "Universal Adult Franchise establishes political legitimacy through the consent of all citizens equally",
     "options": [
-     "No, the citizen cannot vote in Chennai unless their name is registered in the electoral roll of their new local constituency in Chennai",
-     "A good answer will propose a mechanism where political posts are blocked by platforms automatically during the silence period",
-     "State Assembly establishes political legitimacy through the consent of all citizens equally",
+     "They each have one vote because democracy is built on the premise of political equality, where wealth or social status does not grant extra political power or additional votes",
+     "Equal vote value ensures political equality, meaning no single individual or group holds more political power simply due to wealth, social status, or educational background",
+     "Chennai establishes political legitimacy through the consent of all citizens equally",
      "Universal Adult Franchise establishes political legitimacy through the consent of all citizens equally"
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
@@ -504,6 +504,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "options": [
      "The Right to Equality (Article 14-18) prohibits discrimination based on religion, race, caste, sex, or place of birth",
      "The correct answer is that periodic revisions ensure new citizens who turned 18 are added, deceased individuals are removed",
+     "Requiring educational qualifications contradicts MLA because democracy requires protecting the interests of all citizens",
      "Requiring educational qualifications contradicts Universal Adult Franchise because democracy requires protecting the interests of all citizens"
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
@@ -529,15 +530,16 @@ export const C8_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is it significant that every adult citizen's vote has equal value in a democracy?",
-    "answer": "Equal vote value ensures political equality, meaning no single individual or group holds more political power simply due to wealth, social status, or educational background",
+    "question": "What is Universal Adult Franchise? State the definition given in this lesson.",
+    "answer": "Universal Adult Franchise is the foundational democratic principle that every adult citizen—regardless of caste, religion, gender, education",
     "options": [
-     "An outdated roll creates opportunities for electoral malpractice, such as proxy voting or impersonation, where someone might vote in place of a person who is absent or deceased",
-     "Article 326 operationalizes political equality by ensuring that every adult citizen holds equal voting power (\"one person, one vote\")",
-     "Equal vote value ensures political equality, meaning no single individual or group holds more political power simply due to wealth, social status, or educational background"
+     "Students can explain the administrative and constitutional challenges of managing universal adult suffrage for a population nearing one billion voters",
+     "Students must be able to distinguish between Lok Sabha, State Assembly, and Local Body elections based on the level of government they serve, the geographical constituency size",
+     "While Lok Sabha is the foundational democratic principle that every adult citizen—regardless of caste, religion, gender, education",
+     "Universal Adult Franchise is the foundational democratic principle that every adult citizen—regardless of caste, religion, gender, education"
     ],
     "hint": "Straight from the 'Universal Adult Franchise' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates a misunderstanding of democratic principles, often assuming that wealthier or more educated citizens should have a greater say in government decisions.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Universal Adult Franchise is the foundational democratic principle that every adult citizen—regardless of caste,",
     "id": "gen_c8_civ_ch01_q18",
     "nodeId": "c8_civ_ch1_1",
     "difficulty": "standard"
@@ -555,14 +557,14 @@ export const C8_CIV_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_civ_ch03",
-  "title": "Justice",
+  "title": "Justice Is The Fundamental Moral",
   "subtitle": "Civics · Chapter 3",
   "classLevel": 8,
   "mode": "senior",
   "subject": "civics",
-  "topic": "Justice",
+  "topic": "Justice Is The Fundamental Moral",
   "chapters": [
-   "Civics Ch3: Justice"
+   "Civics Ch3: Justice Is The Fundamental Moral"
   ],
   "nodeIds": [
    "c8_civ_ch3_1",
@@ -584,7 +586,7 @@ export const C8_CIV_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Justice directly with your eyes?",
+   "question": "Can you see Justice Is The Fundamental Moral directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -595,7 +597,7 @@ export const C8_CIV_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Justice",
+    "title": "Justice Is The Fundamental Moral",
     "text": "Justice is the fundamental moral and legal principle that ensures fairness, equality, and the protection of individual rights within a society, serving as the core objective of the Indian Constitution as outlined in its Preamble.",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -607,7 +609,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Judiciary",
+    "title": "The Judiciary Is The Third Pillar",
     "text": "The judiciary is the third pillar of government responsible for interpreting laws, resolving disputes, and upholding the Constitution of India to ensure justice for all citizens.",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -667,12 +669,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary place where the ideals of social, economic, and political justice are formally promised to all Indian citizens?",
     "answer": "The correct answer is the Preamble to the Indian Constitution",
     "options": [
-     "The primary judicial officer for civil cases at the district level is called the District Judge. When criminal cases are tried at the same level",
-     "The primary function is to act as an impartial forum to settle legal conflicts between individuals, groups, or governments through adjudication",
-     "The correct answer is the Preamble to the Civil Judge's",
+     "Can explain how a specific law reflects or fails to reflect the principles of justice, and can distinguish between legal compliance and true justice using constitutional standards",
+     "Colonial laws were designed to maintain imperial control, suppress dissent, and extract revenue rather than protect citizens' democratic rights",
+     "The correct answer is the Preamble to the Alternative Dispute Resolution",
      "The correct answer is the Preamble to the Indian Constitution"
     ],
-    "hint": "Straight from the 'Justice' slide -- match the key terms.",
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
     "misconception": "A wrong answer usually points to ordinary laws or police manuals, which reveals a misunderstanding that justice is merely a set of local rules rather than a foundational constitutional promise that guides the entire nation.",
     "id": "gen_c8_civ_ch03_q1",
     "nodeId": "c8_civ_ch3_1",
@@ -689,8 +691,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary distinction between a law and justice?",
     "answer": "A law is a written, enforceable rule created by the government, whereas justice is the broader ideal of fairness, equality, and moral correctness that laws ought to achieve",
     "options": [
-     "The three organs are the legislature, the executive, and the judiciary, with the judiciary being the third pillar",
-     "The Supreme Court is the highest or apex court in India's single, integrated judicial system",
+     "Students can define justice in both social and legal terms, explain why it is essential for a peaceful society, and distinguish between different dimensions of justice (social",
+     "The primary function is to act as an impartial forum to settle legal conflicts between individuals, groups, or governments through adjudication",
      "A law is a written, enforceable rule created by the government, whereas justice is the broader ideal of fairness, equality, and moral correctness that laws ought to achieve"
     ],
     "hint": "Straight from the 'Law and justice' slide -- match the key terms.",
@@ -710,11 +712,11 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What are the three organs of government, and which one is known as the third pillar?",
     "answer": "The three organs are the legislature, the executive, and the judiciary, with the judiciary being the third pillar",
     "options": [
-     "The Supreme Court is the highest or apex court in India's single, integrated judicial system",
-     "The primary judicial officer for civil cases at the district level is called the District Judge. When criminal cases are tried at the same level",
+     "Law and justice are deeply interconnected pillars of a democratic society; laws are the formal rules established by the legislature",
+     "Students can identify the judiciary as the third arm of government alongside the legislature and executive",
      "The three organs are the legislature, the executive, and the judiciary, with the judiciary being the third pillar"
     ],
-    "hint": "Straight from the 'judiciary' slide -- match the key terms.",
+    "hint": "Straight from the 'The judiciary is the third pillar' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion between political branches, often mixing up law-making bodies with law-enforcing or law-interpreting ones.",
     "id": "gen_c8_civ_ch03_q3",
     "nodeId": "c8_civ_ch3_3",
@@ -731,8 +733,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What does the term \"independence of the judiciary\" mean in the context of the Indian government?",
     "answer": "The independence of the judiciary means that courts and judges can make impartial decisions based strictly on the Constitution and the law without fear or favor",
     "options": [
-     "The Supreme Court is the highest or apex court in India's single, integrated judicial system",
-     "The primary judicial officer for civil cases at the district level is called the District Judge. When criminal cases are tried at the same level",
+     "Students can explain why colonial laws needed removal after independence, distinguish between laws that served imperial control versus those serving citizen welfare",
+     "Repealing colonial laws refers to the post-independence legislative and judicial process of formally revoking or replacing outdated statutes enacted by the British colonial",
      "The independence of the judiciary means that courts and judges can make impartial decisions based strictly on the Constitution and the law without fear or favor"
     ],
     "hint": "Straight from the 'independence of the judiciary' slide -- match the key terms.",
@@ -752,8 +754,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary structural position of the Supreme Court within the Indian legal framework?",
     "answer": "The Supreme Court is the highest or apex court in India's single, integrated judicial system",
     "options": [
-     "The primary function is to act as an impartial forum to settle legal conflicts between individuals, groups, or governments through adjudication",
-     "The correct answer is the Preamble to the Indian Constitution",
+     "The Supreme Court and the High Courts",
+     "Can analyze the jurisdiction and role of a High Court within a state, distinguish its powers from the Supreme Court and subordinate courts",
      "The Supreme Court is the highest or apex court in India's single, integrated judicial system"
     ],
     "hint": "Straight from the 'Supreme Court' slide -- match the key terms.",
@@ -775,7 +777,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "options": [
      "A correct response places the Supreme Court at the top (apex), State High Courts in the middle, and District/Subordinate courts at the base",
      "The citizen should approach the High Court of Karnataka under Article 226, which grants High Courts the power to issue writs for the enforcement of fundamental rights",
-     "Article 214 of the Indian Constitution mandates that there shall be a Criteria for each state",
+     "Article 214 of the Indian Constitution mandates that there shall be a True for each state",
      "Article 214 of the Indian Constitution mandates that there shall be a High Court for each state"
     ],
     "hint": "Straight from the 'High Court' slide -- match the key terms.",
@@ -869,8 +871,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary function of the judiciary regarding dispute resolution?",
     "answer": "The primary function is to act as an impartial forum to settle legal conflicts between individuals, groups, or governments through adjudication",
     "options": [
-     "The Supreme Court is the highest or apex court in India's single, integrated judicial system",
-     "The three organs are the legislature, the executive, and the judiciary, with the judiciary being the third pillar",
+     "Students can explain why an independent judiciary is vital in a democracy, identify how the Constitution prevents the other branches of government from interfering in judicial",
+     "The independence of the judiciary means that courts and judges can make impartial decisions based strictly on the Constitution and the law without fear or favor",
      "The primary function is to act as an impartial forum to settle legal conflicts between individuals, groups, or governments through adjudication"
     ],
     "hint": "Straight from the 'judiciary functions as the third' slide -- match the key terms.",
@@ -890,9 +892,9 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which organs of the Indian judiciary possess the power of judicial review under the Indian Constitution?",
     "answer": "The Supreme Court and the High Courts",
     "options": [
-     "A law is a written, enforceable rule created by the government, whereas justice is the broader ideal of fairness, equality, and moral correctness that laws ought to achieve",
-     "The correct answer is the Preamble to the Indian Constitution",
-     "Filing and the High Courts",
+     "Can explain how judicial review acts as a check and balance on the legislature and executive, identify whether a given law violates constitutional principles",
+     "Students can identify the judiciary as the third arm of government alongside the legislature and executive",
+     "This and the High Courts",
      "The Supreme Court and the High Courts"
     ],
     "hint": "Straight from the 'Judicial review' slide -- match the key terms.",
@@ -912,8 +914,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary reason why independent India needed to repeal or modify many British-era colonial laws?",
     "answer": "Colonial laws were designed to maintain imperial control, suppress dissent, and extract revenue rather than protect citizens' democratic rights",
     "options": [
-     "A law is a written, enforceable rule created by the government, whereas justice is the broader ideal of fairness, equality, and moral correctness that laws ought to achieve",
-     "The correct answer is the Preamble to the Indian Constitution",
+     "Law and justice are deeply interconnected pillars of a democratic society; laws are the formal rules established by the legislature",
+     "Students can explain why an independent judiciary is vital in a democracy, identify how the Constitution prevents the other branches of government from interfering in judicial",
      "Colonial laws were designed to maintain imperial control, suppress dissent, and extract revenue rather than protect citizens' democratic rights"
     ],
     "hint": "Straight from the 'Repealing colonial laws' slide -- match the key terms.",
@@ -989,7 +991,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "A good answer should propose: 1) The policy must not violate any Fundamental Rights guaranteed by the Constitution",
      "Justice requires that private agreements cannot override fundamental human dignity and fair labor standards; the law must step in to protect vulnerable workers from exploitation"
     ],
-    "hint": "Straight from the 'Justice' slide -- match the key terms.",
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
     "misconception": "A wrong answer suggests that free market contracts are always just, revealing a confusion between pure commercial freedom and constitutional justice.",
     "id": "gen_c8_civ_ch03_q12",
     "nodeId": "c8_civ_ch3_1",
@@ -1004,7 +1006,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "Economic justice ensures that wealth and resources are not concentrated in the hands of a few, giving every citizen a fair opportunity to earn a livelihood and meet basic needs",
      "No, because rights on paper (like the Right to Equality or Freedom) become meaningless if structural injustices prevent marginalized individuals from accessing courts, education"
     ],
-    "hint": "Straight from the 'Justice' slide -- match the key terms.",
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
     "misconception": "A wrong answer assumes that simply having written laws guarantees freedom, ignoring the real-world barriers of discrimination.",
     "id": "gen_c8_civ_ch03_q13",
     "nodeId": "c8_civ_ch3_1",
@@ -1019,7 +1021,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "The shopkeeper should approach the local civil court (subordinate court or civil judge junior/senior division) within that district",
      "A strong proposal identifies the affected group, establishes a transparent distribution method based on need rather than influence, and creates a feedback mechanism for complaints"
     ],
-    "hint": "Straight from the 'Justice' slide -- match the key terms.",
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong proposal identifies the affected group, establishes a transparent distribution method based on need rather",
     "id": "gen_c8_civ_ch03_q14",
     "nodeId": "c8_civ_ch3_1",
@@ -1034,9 +1036,39 @@ export const C8_CIV_GEN: SimDef[] = [
      "This statement is false. Following laws ensures order, but laws can be outdated, discriminatory, or oppressive (such as historic colonial laws or caste-based restrictions)",
      "This is incomplete; while retributive justice punishes wrongdoers, modern democratic justice also encompasses restorative justice, social welfare"
     ],
-    "hint": "Straight from the 'Justice' slide -- match the key terms.",
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
     "misconception": "A wrong answer views justice purely as punishment, missing its broader preventive and developmental role.",
     "id": "gen_c8_civ_ch03_q15",
+    "nodeId": "c8_civ_ch3_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Justice? State the definition given in this lesson.",
+    "answer": "Justice is the fundamental moral and legal principle that ensures fairness, equality, and the protection of individual rights within a society",
+    "options": [
+     "Can explain how the judiciary resolves disputes between citizens, between citizens and the government, and between state governments through the process of adjudication",
+     "Law and justice are deeply interconnected pillars of a democratic society; laws are the formal rules established by the legislature",
+     "Justice is the fundamental moral and legal principle that ensures fairness, equality, and the protection of individual rights within a society"
+    ],
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Justice is the fundamental moral and legal principle that ensures fairness, equality, and the protection of individual",
+    "id": "gen_c8_civ_ch03_q16",
+    "nodeId": "c8_civ_ch3_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can define justice in both social and legal terms, explain why it is essential for a peaceful society, and distinguish between different dimensions of justice (social",
+    "options": [
+     "The Supreme Court is the highest or apex court in India's single, integrated judicial system",
+     "A law is a written, enforceable rule created by the government, whereas justice is the broader ideal of fairness, equality, and moral correctness that laws ought to achieve",
+     "Students can define justice in both social and legal terms, explain why it is essential for a peaceful society, and distinguish between different dimensions of justice (social"
+    ],
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can define justice in both social and legal terms, explain why it is essential for a peaceful society, and",
+    "id": "gen_c8_civ_ch03_q17",
     "nodeId": "c8_civ_ch3_1",
     "difficulty": "standard"
    },
@@ -1049,63 +1081,33 @@ export const C8_CIV_GEN: SimDef[] = [
      "No, because rights on paper (like the Right to Equality or Freedom) become meaningless if structural injustices prevent marginalized individuals from accessing courts, education",
      "Economic justice ensures that wealth and resources are not concentrated in the hands of a few, giving every citizen a fair opportunity to earn a livelihood and meet basic needs"
     ],
-    "hint": "Straight from the 'Justice' slide -- match the key terms.",
+    "hint": "Straight from the 'Justice is the fundamental moral' slide -- match the key terms.",
     "misconception": "A wrong answer might claim that economic matters have nothing to do with politics or rights, showing a failure to connect poverty and inequality with a person's actual ability to participate in a democracy.",
-    "id": "gen_c8_civ_ch03_q16",
+    "id": "gen_c8_civ_ch03_q18",
     "nodeId": "c8_civ_ch3_1",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze how the doctrine of 'continuity of laws' under Article 373/372 of the Constitution interacted with the need for post-independence legal reform.",
-    "answer": "Article 372 allowed pre-independence laws to continue temporarily so the newly independent nation wouldn't face a legal vacuum",
-    "options": [
-     "The statement is completely inaccurate; the Supreme Court is an independent organ of government. Under the doctrine of separation of powers and judicial independence",
-     "The legislature creates and passes new laws representing the public will, whereas the judiciary interprets existing laws, settles legal conflicts",
-     "Article 372 allowed pre-independence laws to continue temporarily so the newly independent nation wouldn't face a legal vacuum"
-    ],
-    "hint": "Straight from the 'Repealing colonial laws' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a belief that either all colonial laws became instantly void in 1950 or that they were permanently approved without changes.",
-    "id": "gen_c8_civ_ch03_q17",
-    "nodeId": "c8_civ_ch3_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the argument that keeping certain colonial administrative frameworks ensures state stability, even if some of their original clauses restricted civil liberties.",
-    "answer": "While administrative continuity prevents institutional collapse, maintaining restrictive clauses without reform undermines democratic legitimacy and citizen trust",
-    "options": [
-     "Economic justice ensures that wealth and resources are not concentrated in the hands of a few, giving every citizen a fair opportunity to earn a livelihood and meet basic needs",
-     "The statement is incorrect because while the High Court is the highest court *within* the state, its judgements in civil, criminal",
-     "While administrative continuity prevents institutional collapse, maintaining restrictive clauses without reform undermines democratic legitimacy and citizen trust"
-    ],
-    "hint": "Straight from the 'Repealing colonial laws' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a black-and-white view that either completely destroys state machinery or blindly accepts authoritarian colonial structures.",
-    "id": "gen_c8_civ_ch03_q18",
-    "nodeId": "c8_civ_ch3_10",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about justice?",
+    "What surprised you about justice is the fundamental moral?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Justice mastered! 🎯",
+  "successLine": "Justice Is The Fundamental mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_civ_ch04",
-  "title": "Citizen",
+  "title": "A Citizen Is a Legal Member",
   "subtitle": "Civics · Chapter 4",
   "classLevel": 8,
   "mode": "senior",
   "subject": "civics",
-  "topic": "Citizen",
+  "topic": "A Citizen Is a Legal Member",
   "chapters": [
-   "Civics Ch4: Citizen"
+   "Civics Ch4: A Citizen Is a Legal Member"
   ],
   "nodeIds": [
    "c8_civ_ch4_1",
@@ -1128,7 +1130,7 @@ export const C8_CIV_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Citizen suddenly stops working?",
+   "question": "What happens if A Citizen Is a Legal Member suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1139,7 +1141,7 @@ export const C8_CIV_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Citizen",
+    "title": "A Citizen Is a Legal Member",
     "text": "A citizen is a legal member of a sovereign country who enjoys full civil and political rights and owes allegiance to the state. In India, citizenship is regulated by Articles 5 to 11 of the Constitution of India, which establish who is recognized as a citizen",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1157,7 +1159,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Rights",
+    "title": "Rights Are Legal",
     "text": "Rights are legal, social, and moral freedoms guaranteed to individuals by the Constitution of India, specifically under Part III (Articles 12-35), protecting citizens from state overreach and ensuring a dignified life.",
     "emoji": "⚖️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1169,7 +1171,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Right To Equality, Guaranteed",
+    "title": "The Right To Equality, Guaranteed Under",
     "text": "The Right to Equality, guaranteed under Articles 14 to 18 of the Indian Constitution, ensures that all citizens are treated equally before the law, prohibits discrimination on grounds of religion, race, caste, sex, or place of birth, and guarantees equality",
     "emoji": "⚖️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1181,7 +1183,7 @@ export const C8_CIV_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Duties",
+    "title": "Duties Are Moral And Legal Responsibilities",
     "text": "Duties are moral and legal responsibilities that citizens owe to their nation and society to ensure social order, protect public property, and foster a healthy democracy.",
     "emoji": "⚖️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1193,13 +1195,13 @@ export const C8_CIV_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Discrimination",
+    "title": "Discrimination Is The Unfair Or Prejudicial",
     "text": "Discrimination is the unfair or prejudicial treatment of individuals or groups based on characteristics such as caste, religion, gender, race, language, or economic status, violating the guarantee of equality under Article 14 of the Indian Constitution.",
     "emoji": "⚖️",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Inclusion",
+    "title": "Inclusion Is The Democratic Principle",
     "text": "Inclusion is the democratic principle and practice of ensuring that every member of society—regardless of their caste, religion, gender, language, or physical ability—has equal access to opportunities, resources, and decision-making spaces.",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1269,8 +1271,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What are the five statutory ways to acquire citizenship under the Citizenship Act of 1955?",
     "answer": "The five ways are Birth, Descent, Registration, Naturalization, and Incorporation of Territory",
     "options": [
-     "The correct answer is B. Active citizenship goes far beyond merely casting a vote; it involves ongoing engagement in community life, public debates",
-     "An Indian citizen enjoys full political and civil rights, including the right to vote in elections and hold constitutional offices",
+     "Students can explain the specific legal provisions of the CAA 2019, identify the eligible religious communities and source countries",
+     "The CAA 2019 modified the Citizenship Act of 1955",
      "The five ways are Birth, Descent, Registration, Naturalization, and Incorporation of Territory"
     ],
     "hint": "Straight from the 'Citizenship Act of 1955' slide -- match the key terms.",
@@ -1290,12 +1292,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which specific year's original citizenship law did the Citizenship (Amendment) Act of 2019 modify?",
     "answer": "The CAA 2019 modified the Citizenship Act of 1955",
     "options": [
-     "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
-     "Article 14 guarantees equality before the law and equal protection of the laws",
+     "Students can explain the specific legal provisions of the CAA 2019, identify the eligible religious communities and source countries",
+     "Students can define citizenship as a legal bond between an individual and a state, distinguish citizens from non-citizens (such as tourists or foreign nationals)",
      "State 2019 modified the Citizenship Act of 1955",
      "The CAA 2019 modified the Citizenship Act of 1955"
     ],
-    "hint": "Straight from the 'Citizenship  Act  of 2019' slide -- match the key terms.",
+    "hint": "Straight from the 'Citizenship Act of 2019' slide -- match the key terms.",
     "misconception": "A wrong answer shows a misunderstanding of Indian legislative history, often confusing constitutional adoption dates (1950) with specific statutory frameworks governing citizenship procedures established later.",
     "id": "gen_c8_civ_ch04_q3",
     "nodeId": "c8_civ_ch4_3",
@@ -1312,12 +1314,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What part of the Indian Constitution contains the Fundamental Rights guaranteed to citizens?",
     "answer": "Part III (Articles 12 to 35)",
     "options": [
-     "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
-     "An Indian citizen enjoys full political and civil rights, including the right to vote in elections and hold constitutional offices",
-     "Part III (Banning 12 to 35)",
+     "Rights are legal, social, and moral freedoms guaranteed to individuals by the Constitution of India, specifically under Part III (Articles 12-35)",
+     "Fundamental Duties are moral and civic obligations outlined in Article 51A of the Indian Constitution that apply to all citizens to promote patriotism, unity",
+     "Part III (Freedom 12 to 35)",
      "Part III (Articles 12 to 35)"
     ],
-    "hint": "Straight from the 'Rights' slide -- match the key terms.",
+    "hint": "Straight from the 'Rights are legal' slide -- match the key terms.",
     "misconception": "A wrong answer indicates confusion with other parts of the Constitution, such as Directive Principles (Part IV) or Fundamental Duties (Part IV-A), showing a need to review the structural layout of the Indian Constitution.",
     "id": "gen_c8_civ_ch04_q4",
     "nodeId": "c8_civ_ch4_4",
@@ -1334,8 +1336,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which article of the Indian Constitution guarantees equality before the law and equal protection of the laws within the territory of India?",
     "answer": "Article 14 guarantees equality before the law and equal protection of the laws to all persons within India",
     "options": [
-     "Article 19(1)(a) guarantees the Right to Freedom of Speech and Expression",
-     "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth",
+     "The Fundamental Duties are contained in Part IV-A of the Indian Constitution, specifically under Article 51A",
+     "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
      "Article 14 guarantees equality before the law and equal protection of the laws to all persons within India"
     ],
     "hint": "Straight from the 'Fundamental Rights in the Indian' slide -- match the key terms.",
@@ -1354,8 +1356,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which Article of the Indian Constitution guarantees equality before the law and equal protection of the laws to any person within the territory of India?",
     "answer": "Article 14 guarantees equality before the law and equal protection of the laws",
     "options": [
-     "The Fundamental Duties are contained in Part IV-A of the Indian Constitution, specifically under Article 51A",
-     "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
+     "Article 19(1)(a) guarantees the Right to Freedom of Speech and Expression",
+     "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth",
      "Article 14 guarantees equality before the law and equal protection of the laws"
     ],
     "hint": "Straight from the 'The Right to Equality, guaranteed' slide -- match the key terms.",
@@ -1376,8 +1378,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "answer": "Article 19(1)(a) guarantees the Right to Freedom of Speech and Expression",
     "options": [
      "The Fundamental Duties are contained in Part IV-A of the Indian Constitution, specifically under Article 51A",
-     "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
-     "Article 19(1)(a) guarantees the Right to Freedom of Registration and Expression",
+     "Fundamental Duties are moral and civic obligations outlined in Article 51A of the Indian Constitution that apply to all citizens to promote patriotism, unity",
+     "Article 19(1)(a) guarantees the Right to Freedom of Territory and Expression",
      "Article 19(1)(a) guarantees the Right to Freedom of Speech and Expression"
     ],
     "hint": "Straight from the 'Right to Freedom of Speech and' slide -- match the key terms.",
@@ -1397,12 +1399,12 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What part of the Indian Constitution contains the Fundamental Duties of citizens, and under which article are they listed?",
     "answer": "The Fundamental Duties are contained in Part IV-A of the Indian Constitution, specifically under Article 51A",
     "options": [
-     "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
      "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth",
-     "The Fundamental Duties are contained in Part IV-A of the Sir, specifically under Article 51A",
+     "Rights are legal, social, and moral freedoms guaranteed to individuals by the Constitution of India, specifically under Part III (Articles 12-35)",
+     "The Fundamental Duties are contained in Part IV-A of the Set, specifically under Article 51A",
      "The Fundamental Duties are contained in Part IV-A of the Indian Constitution, specifically under Article 51A"
     ],
-    "hint": "Straight from the 'Duties' slide -- match the key terms.",
+    "hint": "Straight from the 'Duties are moral and legal' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a confusion between Fundamental Rights (Part III) and Fundamental Duties (Part IV-A), showing that the student has not yet memorized the basic constitutional layout taught in earlier grades.",
     "id": "gen_c8_civ_ch04_q8",
     "nodeId": "c8_civ_ch4_8",
@@ -1418,8 +1420,8 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "Which article of the Indian Constitution contains the Fundamental Duties of citizens, and through which constitutional amendment were they added?",
     "answer": "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
     "options": [
-     "The Fundamental Duties are contained in Part IV-A of the Indian Constitution, specifically under Article 51A",
      "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth",
+     "Can explain the nature of constitutional rights, distinguish between ordinary laws and fundamental rights",
      "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976"
     ],
     "hint": "Straight from the 'Fundamental Duties' slide -- match the key terms.",
@@ -1440,10 +1442,10 @@ export const C8_CIV_GEN: SimDef[] = [
     "answer": "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth",
     "options": [
      "Fundamental Duties are enshrined in Article 51A of the Indian Constitution and were added by the 42nd Constitutional Amendment Act of 1976",
-     "An Indian citizen enjoys full political and civil rights, including the right to vote in elections and hold constitutional offices",
+     "Discrimination is the unfair or prejudicial treatment of individuals or groups based on characteristics such as caste, religion, gender, race, language, or economic status",
      "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth"
     ],
-    "hint": "Straight from the 'Discrimination' slide -- match the key terms.",
+    "hint": "Straight from the 'Discrimination is the unfair or' slide -- match the key terms.",
     "misconception": "A wrong answer shows confusion with other fundamental rights, such as Article 14 (Equality before law) or Article 17 (Abolition of Untouchability), indicating the student needs to review the specific categories of fundamental rights.",
     "id": "gen_c8_civ_ch04_q10",
     "nodeId": "c8_civ_ch4_10",
@@ -1461,10 +1463,10 @@ export const C8_CIV_GEN: SimDef[] = [
     "answer": "Formal equality means treating everyone the exact same way under the law, whereas inclusion involves actively identifying and removing social, physical",
     "options": [
      "Citizenship by Descent applies to individuals born *outside* India who have at least one parent who is an Indian citizen at the time of their birth",
-     "The CAA 2019 modified the Citizenship Act of 1955",
+     "Discrimination undermines the foundational democratic value of equality and denies human dignity",
      "Formal equality means treating everyone the exact same way under the law, whereas inclusion involves actively identifying and removing social, physical"
     ],
-    "hint": "Straight from the 'Inclusion' slide -- match the key terms.",
+    "hint": "Straight from the 'Inclusion is the democratic' slide -- match the key terms.",
     "misconception": "A wrong answer often reveals the misconception that treating everyone identically is always fair, ignoring the fact that pre-existing disadvantages make identical treatment deeply unfair to those facing discrimination.",
     "id": "gen_c8_civ_ch04_q11",
     "nodeId": "c8_civ_ch4_11",
@@ -1548,7 +1550,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "This violates Cultural and Educational Rights (specifically Article 30), which grants all minorities, whether based on religion or language",
      "Three ways a person can acquire Indian citizenship: (1) By birth - born in India to Indian parents"
     ],
-    "hint": "Straight from the 'citizen' slide -- match the key terms.",
+    "hint": "Straight from the 'A citizen is a legal member' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists \"by birth\" reveals the student does not know the full range of citizenship acquisition methods.",
     "id": "gen_c8_civ_ch04_q13",
     "nodeId": "c8_civ_ch4_1",
@@ -1563,7 +1565,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "A good response will establish that students can debate any policy or political idea freely, provided they do not use hate speech, personal insults",
      "The claim is incorrect because diplomatic immunity and special status exempt foreign diplomats and their children from automatic local citizenship rules in most constitutional"
     ],
-    "hint": "Straight from the 'citizen' slide -- match the key terms.",
+    "hint": "Straight from the 'A citizen is a legal member' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misconception that any person physically born within national boundaries automatically acquires citizenship without legal exceptions.",
     "id": "gen_c8_civ_ch04_q14",
     "nodeId": "c8_civ_ch4_1",
@@ -1578,7 +1580,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "They act as constitutional boundaries; any law passed by the legislature or executive action that violates Part III of the Constitution can be declared null and void by the",
      "Articles 5 to 11 determined who was a citizen of India at the commencement of the Constitution in 1950 based on domicile, birth, or migration from Pakistan"
     ],
-    "hint": "Straight from the 'citizen' slide -- match the key terms.",
+    "hint": "Straight from the 'A citizen is a legal member' slide -- match the key terms.",
     "misconception": "A wrong answer suggests students confuse transitional constitutional provisions with permanent everyday administrative rules.",
     "id": "gen_c8_civ_ch04_q15",
     "nodeId": "c8_civ_ch4_1",
@@ -1593,7 +1595,7 @@ export const C8_CIV_GEN: SimDef[] = [
      "The reasoning is incorrect because freedom of speech is not absolute and is subject to \"reasonable restrictions\" under Article 19(2) for public order, decency, and morality",
      "A citizen is a person legally recognised as a member of a country with specific rights (voting, passport, protection) and duties (taxes, obeying laws)"
     ],
-    "hint": "Straight from the 'citizen' slide -- match the key terms.",
+    "hint": "Straight from the 'A citizen is a legal member' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"citizens and residents are the same\" reveals the student does not understand the legal distinction between living in a place and having legal membership in a country.",
     "id": "gen_c8_civ_ch04_q16",
     "nodeId": "c8_civ_ch4_1",
@@ -1604,11 +1606,11 @@ export const C8_CIV_GEN: SimDef[] = [
     "question": "What is the primary legal distinction between an Indian citizen and a foreign tourist visiting India?",
     "answer": "An Indian citizen enjoys full political and civil rights, including the right to vote in elections and hold constitutional offices",
     "options": [
-     "The CAA 2019 modified the Citizenship Act of 1955",
-     "Article 15 of the Indian Constitution explicitly prohibits discrimination by the state against any citizen on grounds only of religion, race, caste, sex, place of birth",
+     "Fundamental Duties are moral and civic obligations outlined in Article 51A of the Indian Constitution that apply to all citizens to promote patriotism, unity",
+     "Rights are legal, social, and moral freedoms guaranteed to individuals by the Constitution of India, specifically under Part III (Articles 12-35)",
      "An Indian citizen enjoys full political and civil rights, including the right to vote in elections and hold constitutional offices"
     ],
-    "hint": "Straight from the 'citizen' slide -- match the key terms.",
+    "hint": "Straight from the 'A citizen is a legal member' slide -- match the key terms.",
     "misconception": "A wrong answer often shows confusion between physical presence in a country and formal legal membership.",
     "id": "gen_c8_civ_ch04_q17",
     "nodeId": "c8_civ_ch4_1",
@@ -1616,15 +1618,15 @@ export const C8_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is citizenship considered a 'legal membership' rather than just living in a particular geographical territory?",
-    "answer": "Citizenship is a legal membership because it is defined by a mutual bond of rights and duties recognized by the state's laws",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can define citizenship as a legal bond between an individual and a state, distinguish citizens from non-citizens (such as tourists or foreign nationals)",
     "options": [
-     "The correct answer is B. Active citizenship brings constitutional ideals and Fundamental Duties to life through everyday actions",
-     "I disagree. First, legal enforcement is not the only measure of importance; moral and constitutional duties guide civic culture and national unity",
-     "Citizenship is a legal membership because it is defined by a mutual bond of rights and duties recognized by the state's laws"
+     "Students can analyze hypothetical residency, parentage, or immigration scenarios and correctly determine which specific provision of the Citizenship Act of 1955 applies to grant",
+     "The CAA 2019 modified the Citizenship Act of 1955",
+     "Students can define citizenship as a legal bond between an individual and a state, distinguish citizens from non-citizens (such as tourists or foreign nationals)"
     ],
-    "hint": "Straight from the 'citizen' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student thinks residency and citizenship are legally identical terms.",
+    "hint": "Straight from the 'A citizen is a legal member' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can define citizenship as a legal bond between an individual and a state, distinguish citizens from",
     "id": "gen_c8_civ_ch04_q18",
     "nodeId": "c8_civ_ch4_1",
     "difficulty": "standard"
@@ -1632,11 +1634,11 @@ export const C8_CIV_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about citizen?",
+    "What surprised you about a citizen is a legal member?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Citizen mastered! 🎯",
+  "successLine": "A Citizen Is a Legal Member mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

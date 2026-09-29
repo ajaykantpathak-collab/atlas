@@ -1214,7 +1214,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-800/60 shadow-inner inline-block"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-800/60 shadow-inner inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
@@ -1224,7 +1224,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
               <motion.span
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
-                className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-medium"
+                className="text-xs px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30 font-medium"
               >
                 ISC Class 11
               </motion.span>
@@ -1280,14 +1280,14 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl"
+              className="p-5 md:p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl"
             >
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider mb-2">
                 <span>🎯</span> Narrative Case Study
               </div>
               <h2 className="text-xl md:text-2xl font-black text-white">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-300/90 mt-3 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40">
+              <p className="text-xs text-gold-300/90 mt-3 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40">
                 💡 <strong>Applied Context:</strong> {SCENARIO.context}
               </p>
             </motion.div>
@@ -1321,10 +1321,10 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-md'
                           : 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500/50'
+                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 shrink-0">
+                    <span className="font-bold text-gold-400 shrink-0">
                       {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : ''}
                       {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex ? '✗ ' : ''}
                       {String.fromCharCode(65 + i)}.
@@ -1356,7 +1356,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Interactive Labs"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1383,10 +1383,10 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
               <motion.div
                 initial={{ opacity: 0, y: -5 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="flex items-center justify-between px-4 py-2.5 bg-indigo-950/40 rounded-xl border border-indigo-900/50 text-xs text-indigo-300"
+                className="flex items-center justify-between px-4 py-2.5 bg-gold-950/40 rounded-xl border border-gold-900/50 text-xs text-gold-300"
               >
                 <span>📚 ISC Applied Maths Diagnostic Check: {diagnosticQuestions.length} Competency Benchmarks Active</span>
-                <span className="font-mono bg-indigo-900/50 px-2 py-0.5 rounded">Labs 1 to 5</span>
+                <span className="font-mono bg-gold-900/50 px-2 py-0.5 rounded">Labs 1 to 5</span>
               </motion.div>
             )}
 
@@ -1401,7 +1401,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                    <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
                     </span>
                     <h3 className="text-lg md:text-xl font-black text-white mt-0.5">
@@ -1443,7 +1443,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <label htmlFor="scatter-corr-slider" className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <span>Bivariate Linear Correlation (r):</span>
-                          <span className="text-indigo-400 font-mono font-bold text-sm">
+                          <span className="text-gold-400 font-mono font-bold text-sm">
                             {scatterCorrelation > 0 ? '+' : ''}{scatterCorrelation.toFixed(2)}
                           </span>
                         </label>
@@ -1456,7 +1456,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                           value={scatterCorrelation}
                           aria-label="Karl Pearson correlation coefficient slider"
                           onChange={(e) => handleScatterSliderChange(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                         <div className="flex justify-between text-[10px] text-slate-500 mt-1 font-mono">
                           <span>−1.0 (Inverse)</span>
@@ -1468,7 +1468,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <label htmlFor="scatter-noise-slider" className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                           <span>Residual Dispersion (Scatter Noise):</span>
-                          <span className="text-indigo-400 font-mono font-bold text-sm">{scatterNoise}</span>
+                          <span className="text-gold-400 font-mono font-bold text-sm">{scatterNoise}</span>
                         </label>
                         <input
                           id="scatter-noise-slider"
@@ -1479,11 +1479,11 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                           value={scatterNoise}
                           aria-label="Scatter noise residual dispersion slider"
                           onChange={(e) => handleNoiseSliderChange(parseInt(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/60 text-xs space-y-1">
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/60 text-xs space-y-1">
                         <div className="flex justify-between">
                           <span className="text-slate-400">Coefficient of Determination r²:</span>
                           <span className="font-mono text-emerald-400 font-bold">
@@ -1582,7 +1582,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         <p className="text-xs text-slate-400">
                           Used to predict dependent <strong>y</strong> (e.g. Sales) when independent <strong>x</strong> (e.g. Ad Spend) is specified.
                         </p>
-                        <div className="text-xs text-indigo-300 font-mono bg-indigo-950/40 p-2 rounded">
+                        <div className="text-xs text-gold-300 font-mono bg-gold-950/40 p-2 rounded">
                           Slope byx = Cov(X,Y)/Var(X) = r · (σy / σx)
                         </div>
                       </div>
@@ -1595,7 +1595,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         <p className="text-xs text-slate-400">
                           Used to predict <strong>x</strong> from known <strong>y</strong>. Note: bxy is NOT 1/byx!
                         </p>
-                        <div className="text-xs text-indigo-300 font-mono bg-indigo-950/40 p-2 rounded">
+                        <div className="text-xs text-gold-300 font-mono bg-gold-950/40 p-2 rounded">
                           Slope bxy = Cov(X,Y)/Var(Y) = r · (σx / σy)
                         </div>
                       </div>
@@ -1681,7 +1681,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                         <label htmlFor="prob-a-slider" className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                           <span>P(A) [Event A]:</span>
-                          <span className="font-mono text-blue-400 font-bold">{probA.toFixed(2)}</span>
+                          <span className="font-mono text-gold-400 font-bold">{probA.toFixed(2)}</span>
                         </label>
                         <input
                           id="prob-a-slider"
@@ -1692,7 +1692,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                           value={probA}
                           aria-label="Probability of Event A slider"
                           onChange={(e) => handleProbASliderChange(parseFloat(e.target.value))}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1732,14 +1732,14 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         />
                       </div>
 
-                      <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-800 text-xs space-y-1 font-mono">
+                      <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-800 text-xs space-y-1 font-mono">
                         <div className="text-slate-300 font-bold">Addition Theorem Formula:</div>
                         <div className="text-emerald-400 font-bold">
                           P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
                         </div>
                         <div className="text-slate-200">
                           = {probA.toFixed(2)} + {probB.toFixed(2)} − {probOverlap.toFixed(2)} ={' '}
-                          <span className="text-white font-bold bg-indigo-900 px-1.5 py-0.5 rounded">
+                          <span className="text-white font-bold bg-gold-900 px-1.5 py-0.5 rounded">
                             {(probA + probB - probOverlap).toFixed(2)}
                           </span>
                         </div>
@@ -1823,7 +1823,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                             <th className="p-2.5">q</th>
                             <th className="p-2.5">~p</th>
                             <th className="p-2.5">~q</th>
-                            <th className="p-2.5 text-indigo-400 font-bold">p → q (Implication)</th>
+                            <th className="p-2.5 text-gold-400 font-bold">p → q (Implication)</th>
                             <th className="p-2.5 text-emerald-400 font-bold">~q → ~p (Contrapositive)</th>
                             <th className="p-2.5 text-amber-400 font-bold">q → p (Converse)</th>
                           </tr>
@@ -1843,7 +1843,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                             return (
                               <tr
                                 key={idx}
-                                className={isSelected ? 'bg-indigo-950/80 font-bold text-white border-l-4 border-l-indigo-500' : 'text-slate-300'}
+                                className={isSelected ? 'bg-gold-950/80 font-bold text-white border-l-4 border-l-gold-500' : 'text-slate-300'}
                               >
                                 <td className="p-2.5">{row.pVal ? 'T' : 'F'}</td>
                                 <td className="p-2.5">{row.qVal ? 'T' : 'F'}</td>
@@ -1918,9 +1918,9 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                           value={nominalRate}
                           aria-label="Nominal interest rate slider"
                           onChange={(e) => setNominalRate(parseFloat(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
-                        <div className="text-right font-mono text-indigo-400 text-xs font-bold mt-1">
+                        <div className="text-right font-mono text-gold-400 text-xs font-bold mt-1">
                           {nominalRate.toFixed(1)}% p.a.
                         </div>
                       </div>
@@ -1942,7 +1942,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                               aria-label={`Set compounding frequency to ${opt.label}`}
                               className={`py-1 text-[11px] font-bold rounded ${
                                 compoundFreq === opt.m
-                                  ? 'bg-indigo-600 text-white'
+                                  ? 'bg-gold-600 text-white'
                                   : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                               }`}
                             >
@@ -1986,7 +1986,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         <div className="text-xs text-slate-400">Real Yield (Purchasing Power):</div>
                         <div
                           className={`text-xl font-black font-mono mt-1 ${
-                            calculatedFinances.realRate >= 0 ? 'text-blue-400' : 'text-rose-400'
+                            calculatedFinances.realRate >= 0 ? 'text-gold-400' : 'text-rose-400'
                           }`}
                         >
                           {calculatedFinances.realRate.toFixed(2)}%
@@ -2034,7 +2034,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
                   aria-label="Next lab"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -2068,7 +2068,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/70 rounded-2xl border border-indigo-800/40 flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
+              className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/70 rounded-2xl border border-gold-800/40 flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
             >
               <div>
                 <h3 className="text-lg font-black text-white">🧪 Quantitative Sandbox & Free Modeling Lab</h3>
@@ -2090,7 +2090,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
               {/* Left Sandbox: Interactive Scatter & Regression Simulator */}
               <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-                <h4 className="text-sm font-bold text-indigo-400">Bivariate Linear & Regression Live Visualizer</h4>
+                <h4 className="text-sm font-bold text-gold-400">Bivariate Linear & Regression Live Visualizer</h4>
                 <canvas
                   ref={canvasRef}
                   width={400}
@@ -2112,7 +2112,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       value={scatterCorrelation}
                       aria-label="Sandbox correlation coefficient slider"
                       onChange={(e) => handleScatterSliderChange(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -2128,7 +2128,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       value={scatterNoise}
                       aria-label="Sandbox noise dispersion slider"
                       onChange={(e) => handleNoiseSliderChange(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -2136,7 +2136,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
 
               {/* Right Sandbox: Interactive Compounding & Logic Tester */}
               <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-                <h4 className="text-sm font-bold text-indigo-400">Financial AER & Logic Quick Matrix</h4>
+                <h4 className="text-sm font-bold text-gold-400">Financial AER & Logic Quick Matrix</h4>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2 text-xs">
                   <div className="flex justify-between">
                     <span className="text-slate-400">Nominal Rate ({nominalRate}%):</span>
@@ -2148,7 +2148,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Real Rate (less {inflationRate}% inflation):</span>
-                    <span className="font-mono text-blue-400 font-bold">{calculatedFinances.realRate.toFixed(2)}%</span>
+                    <span className="font-mono text-gold-400 font-bold">{calculatedFinances.realRate.toFixed(2)}%</span>
                   </div>
                 </div>
 
@@ -2166,7 +2166,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     >
                       p: {logicP ? 'T' : 'F'}
                     </motion.button>
-                    <span className="text-indigo-400 font-bold">→</span>
+                    <span className="text-gold-400 font-bold">→</span>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
@@ -2211,14 +2211,14 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                 <span className="text-white">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-indigo-300 font-mono">
+                <span className="text-gold-300 font-mono">
                   Mastery: {masteryLevel.toUpperCase()} • Accuracy: {scoreBreakdown.total > 0 ? Math.round((scoreBreakdown.correct / scoreBreakdown.total) * 100) : 100}%
                 </span>
               </div>
 
               <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.4 }}
                 />
@@ -2235,7 +2235,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
               }`}
             >
               <div className="flex items-center justify-between gap-2 mb-3">
-                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-slate-800 text-indigo-300 border border-slate-700 font-mono">
+                <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-slate-800 text-gold-300 border border-slate-700 font-mono">
                   {challenge.nodeId}
                 </span>
                 <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-purple-950/60 text-purple-300 border border-purple-800 uppercase font-semibold">
@@ -2269,10 +2269,10 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                           : wrongOptionIndex === i
                           ? 'bg-rose-950/50 border-rose-600 text-rose-200'
-                          : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500/50'
+                          : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/50'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 shrink-0">
+                      <span className="font-bold text-gold-400 shrink-0">
                         {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                         {wrongOptionIndex === i ? '✗ ' : ''}
                         {String.fromCharCode(65 + i)}.
@@ -2298,7 +2298,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab shadow-sm"
+                        className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab shadow-sm"
                       >
                         {item.label}
                       </motion.div>
@@ -2318,7 +2318,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         aria-label={`Drop target for ${target.title}`}
                         onDragOver={(e) => e.preventDefault()}
                         onDrop={() => handleDragDrop(target.id)}
-                        className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-indigo-500 min-h-[75px] flex flex-col justify-center items-center text-center"
+                        className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-gold-500 min-h-[75px] flex flex-col justify-center items-center text-center"
                       >
                         <span className="text-[10px] text-slate-500">{target.title}</span>
                         <span className="text-xs font-bold text-emerald-400 mt-1">
@@ -2333,7 +2333,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     aria-label="Verify all mappings"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Verify All Mappings →
                   </motion.button>
@@ -2364,7 +2364,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         whileTap={{ scale: 0.98 }}
                         className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="font-bold text-indigo-400 px-2 py-0.5 bg-slate-900 rounded font-mono">
+                        <span className="font-bold text-gold-400 px-2 py-0.5 bg-slate-900 rounded font-mono">
                           {displayIndex + 1}
                         </span>
                         {item}
@@ -2377,7 +2377,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     aria-label="Check sequence order"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Check Sequence Order →
                   </motion.button>
@@ -2395,7 +2395,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter calculated value"
                       aria-label={`Enter numerical value in ${challenge.unit || 'units'}`}
-                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                     <motion.button
@@ -2403,7 +2403,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       aria-label="Submit numeric answer"
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                     >
                       Submit Answer →
                     </motion.button>
@@ -2423,7 +2423,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
                         aria-label={`Add token ${part}`}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-mono font-bold"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-mono font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2453,7 +2453,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
                     aria-label="Validate logical construction"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                   >
                     Validate Logical Construction →
                   </motion.button>
@@ -2465,9 +2465,9 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 md:p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80 space-y-3"
+                  className="mt-6 p-4 md:p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 space-y-3"
                 >
-                  <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                  <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                     📖 Step-by-Step Mathematical Explanation:
                   </h4>
 
@@ -2482,7 +2482,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs md:text-sm text-slate-200 leading-relaxed"
                       >
-                        <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                        <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2494,7 +2494,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setRevealedSteps(s => s + 1)}
                         aria-label="Show next derivation step"
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                       >
                         Show Next Derivation Step →
                       </motion.button>
@@ -2536,7 +2536,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                 errors === 0
                   ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                   : errors <= 3
-                  ? 'bg-indigo-950/80 border-indigo-500 text-indigo-200'
+                  ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                   : errors <= 7
                   ? 'bg-amber-950/80 border-amber-500 text-amber-200'
                   : 'bg-rose-950/80 border-rose-500 text-rose-200'
@@ -2551,7 +2551,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 md:p-8 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-3xl border border-emerald-800/60 shadow-2xl text-center space-y-3"
+              className="p-6 md:p-8 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-3xl border border-emerald-800/60 shadow-2xl text-center space-y-3"
             >
               <span className="text-4xl">🏆</span>
               <h2 className="text-2xl md:text-3xl font-black text-white">Quantitative Analytics Mastery Achieved!</h2>
@@ -2574,7 +2574,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                   className="px-5 py-3 bg-slate-900/90 rounded-2xl border border-slate-800"
                 >
                   <div className="text-xs text-slate-400">BKT Mastery Status</div>
-                  <div className="text-2xl font-black text-indigo-400 font-mono">
+                  <div className="text-2xl font-black text-gold-400 font-mono">
                     {masteryLevel.toUpperCase()}
                   </div>
                 </motion.div>
@@ -2585,7 +2585,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-500/40 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-lg"
+              className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-500/40 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-lg"
             >
               <div className="space-y-1">
                 <div className="flex items-center gap-2">
@@ -2640,7 +2640,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q1: e.target.value }))}
                     placeholder="E.g., How contrapositive maintains identical truth rows to the implication, or how AER grows with quarterly compounding..."
                     aria-label="Reflection on the most surprising thing learned"
-                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2655,7 +2655,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q2: e.target.value }))}
                     placeholder="E.g., Explain Pearson correlation vs regression slopes using real-life examples like height and shoe size..."
                     aria-label="Reflection on explaining the concept to a friend"
-                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2670,7 +2670,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
                     onChange={(e) => setReflectionAnswers(prev => ({ ...prev, q3: e.target.value }))}
                     placeholder="E.g., Calculating real bond returns after inflation on Dalal Street or predicting crop yield from rainfall..."
                     aria-label="Reflection on real-life applications"
-                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               </div>
@@ -2709,7 +2709,7 @@ function C11_AppliedMathsCorrelationCovarianceKarlSim(props: Props = DEFAULT_PRO
               animate={{ opacity: 1, y: 0 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
                 <span>💼</span> Capstone Applied Math Project
               </div>
               <h3 className="text-base md:text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>

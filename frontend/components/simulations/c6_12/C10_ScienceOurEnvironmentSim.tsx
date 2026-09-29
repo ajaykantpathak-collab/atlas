@@ -676,7 +676,7 @@ export function C10_ScienceOurEnvironmentSim() {
               <div className="grid grid-cols-3 gap-2 mt-3">
                 {([
                   ['biodegradable', '\ud83c\udf31 compost', 'bg-green-700 hover:bg-green-600'],
-                  ['recyclable', '\u267b recycle', 'bg-sky-700 hover:bg-sky-600'],
+                  ['recyclable', '\u267b recycle', 'bg-gold-700 hover:bg-gold-600'],
                   ['hazardous', '\u26a0\ufe0f special', 'bg-rose-700 hover:bg-rose-600'],
                 ] as const).map(([cat, label, cls]) => (
                   <button
@@ -711,7 +711,7 @@ export function C10_ScienceOurEnvironmentSim() {
                         ? w.cat === 'biodegradable'
                           ? 'bg-green-950 border-green-700'
                           : w.cat === 'recyclable'
-                          ? 'bg-sky-950 border-sky-700'
+                          ? 'bg-gold-950 border-gold-700'
                           : 'bg-rose-950 border-rose-700'
                         : 'bg-slate-950 border-slate-800 opacity-40'
                     }`}
@@ -726,8 +726,8 @@ export function C10_ScienceOurEnvironmentSim() {
 
           <div className="space-y-4">
             {/* ozone panel */}
-            <div className="bg-slate-900/80 rounded-2xl border border-violet-900/50 p-4">
-              <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">
+            <div className="bg-slate-900/80 rounded-2xl border border-gold-900/50 p-4">
+              <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
                 The ozone story: a shield 25-35 km up
               </p>
               <svg viewBox="0 0 420 190" className="w-full" role="img" aria-label="ozone layer diagram">

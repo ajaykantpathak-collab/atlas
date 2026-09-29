@@ -37,7 +37,7 @@ export function C9_ScienceReproductionHowLifeContinuesSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Reproduction</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Reproduction</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Reproduction: How Life Continues</h1>
         </div>
         <div className="flex gap-2">
@@ -80,9 +80,9 @@ export function C9_ScienceReproductionHowLifeContinuesSim() {
                 onChange={(e) => setGen(Number(e.target.value))} className="w-full mt-2 accent-emerald-500" />
               <label className="text-xs text-slate-400 flex justify-between mt-3">
                 <span>Doubling time</span>
-                <span className="text-sky-300 font-mono font-bold">{20} min</span>
+                <span className="text-gold-300 font-mono font-bold">{20} min</span>
               </label>
-              <input type="range" min={10} max={60} step={5} value={20} aria-label="doubling time" readOnly className="w-full mt-2 accent-sky-500" />
+              <input type="range" min={10} max={60} step={5} value={20} aria-label="doubling time" readOnly className="w-full mt-2 accent-gold-500" />
               <p className="text-[10px] text-slate-500 mt-1">Real bacteria can double every ~20 minutes: {gen} x 20 = {gen * 20} minutes to reach {population} cells.</p>
             </div>
             <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-400 leading-relaxed">
@@ -163,14 +163,14 @@ export function C9_ScienceReproductionHowLifeContinuesSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> reproduction passes genetic information to the next generation.
+          <span className="font-bold text-gold-300">Big idea:</span> reproduction passes genetic information to the next generation.
           Asexual reproduction copies one parent (fast, exponential, little variation); sexual reproduction combines two parents through
           pollination, pollen-tube growth and fertilisation, producing seeds and the variation that helps a species survive change.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set 10 generations at 20 minutes per doubling and compute how many bacteria appear in just over 3 hours - check the bar chart.</p>
         <p className="mt-1">2. Step through all four flower stages and name the part that becomes the seed and the part that becomes the fruit.</p>

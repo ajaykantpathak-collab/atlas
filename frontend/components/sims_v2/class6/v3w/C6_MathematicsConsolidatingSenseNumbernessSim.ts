@@ -11,11 +11,11 @@ export const w_c6_mathematicsconsolidatingsensenumbernesssim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Problem Solving with Fractions',
     chapters: [],
     nodeIds: ['c6_math_ch03_038'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you have a 12-litre bucket of water, and you use 2/3 of it to water your garden.', goal: 'Master Problem Solving with Fractions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Problem solving with fractions is the.', text: 'Problem solving with fractions is the application of fraction operations—like identifying parts of a whole, comparing sizes, or calculating quantities—to find solutions for real-world situations.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Problem solving with fractions is the.', text: 'Problem solving with fractions is the application of fraction operations—like identifying parts of a whole, comparing sizes, or calculating quantities—to find solutions for real-world situations.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch03_038', title: 'Problem solving with fractions is the.',

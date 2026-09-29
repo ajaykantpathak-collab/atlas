@@ -67,13 +67,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "The Money Measurement Concept States",
+    "title": "The Money Measurement Concept",
     "text": "The Money Measurement Concept states that only those transactions and events which can be expressed in monetary terms (rupees and paise) are recorded in the books of accounts; all non-monetary facts such as employee competence, brand reputation, or management",
     "emoji": "🧾",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Going Concern Concept Assumes That",
+    "title": "Going Concern Concept Assumes",
     "text": "The Going Concern Concept assumes that a business entity will continue its operations indefinitely for the foreseeable future and has no intention or necessity to liquidate or significantly curtail its operations.",
     "emoji": "🧾",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -85,13 +85,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Full Disclosure Concept Requires That",
+    "title": "Full Disclosure Concept",
     "text": "The Full Disclosure Concept requires that all material and relevant financial information must be completely and transparently disclosed in the financial statements and accompanying notes so that users can make informed decisions.",
     "emoji": "🧾",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "The Conservatism (Prudence) Concept Requires",
+    "title": "The Conservatism Concept",
     "text": "The Conservatism (Prudence) Concept requires that anticipated losses be recognised immediately while anticipated gains are ignored until realised, ensuring profits are never overstated.",
     "emoji": "🧾",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -261,7 +261,7 @@ export const C11_ACC_GEN: SimDef[] = [
      "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
      "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date)"
     ],
-    "hint": "Straight from the 'Going Concern Concept assumes that' slide -- match the key terms.",
+    "hint": "Straight from the 'Going Concern Concept assumes' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that profitability determines going concern status rather than operational continuity intent and ability.",
     "id": "gen_c11_acc_ch02_q5",
     "nodeId": "c11_acc_cbse_02_004",
@@ -345,7 +345,7 @@ export const C11_ACC_GEN: SimDef[] = [
      "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still",
      "Since the liability is \"possible but not probable,\" it does not meet the recognition criteria for a provision (which requires \"probable\" outflow)"
     ],
-    "hint": "Straight from the 'Full Disclosure Concept requires' slide -- match the key terms.",
+    "hint": "Straight from the 'Full Disclosure Concept' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: If the student says \"record as a provision\" or \"ignore it,\" they fail to distinguish between recognition (balance sheet) and disclosure (notes).",
     "id": "gen_c11_acc_ch02_q7",
     "nodeId": "c11_acc_cbse_02_008",
@@ -366,7 +366,7 @@ export const C11_ACC_GEN: SimDef[] = [
      "1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000). 2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total",
      "Refute. Conservatism prevents *overstatement* of profits/assets, but deliberate understatement (creating secret reserves) also violates the concept and misleads creditors by"
     ],
-    "hint": "Straight from the 'The Conservatism (Prudence)' slide -- match the key terms.",
+    "hint": "Straight from the 'The Conservatism Concept' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"agree, worst-case is safest\") reveals the student equates conservatism with systematic undervaluation, missing the NCERT warning against \"deliberate attempt to underestimate\".",
     "id": "gen_c11_acc_ch02_q8",
     "nodeId": "c11_acc_cbse_02_009",
@@ -630,7 +630,7 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Voucher",
+    "title": "A Voucher Is a Written Document",
     "text": "A voucher is a written document that serves as the primary evidence of a business transaction, containing essential details such as date, amount, accounts debited and credited, narration, and authorized signatures, which forms the basis for recording entries",
     "emoji": "🧾",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -666,7 +666,7 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Journal",
+    "title": "A Journal Is The Primary Book",
     "text": "A Journal is the primary book of original entry where business transactions are recorded for the first time in chronological order, following the double-entry system, with each entry showing the accounts to be debited and credited, their respective amounts,",
     "emoji": "🧾",
     "bgColor": "from-amber-400 to-orange-500"
@@ -684,13 +684,13 @@ export const C11_ACC_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Ledger",
+    "title": "The Ledger Is The Principal Book",
     "text": "The ledger is the principal book of accounts in which all transactions from the journal are systematically posted to individual accounts, allowing the net effect of all transactions on a specific account (e.",
     "emoji": "🧾",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Posting",
+    "title": "Posting Is The Systematic Process",
     "text": "Posting is the systematic process of transferring journal entries to their respective ledger accounts, ensuring each transaction's dual effect is recorded in the appropriate debit and credit sides of the affected accounts to maintain the accounting equation's",
     "emoji": "🧾",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -861,11 +861,11 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "State the accounting equation and name its three components with their standard symbols.",
     "answer": "The accounting equation is A = L + C, where A = Assets (resources owned), L = Liabilities (outsiders' claims), C = Capital (owner's claim)",
     "options": [
-     "A compound journal entry affects a minimum of three accounts (e.g., two debits and one credit, or one debit and two credits)",
-     "A valid voucher must have: (1) Name of the firm printed on top, (2) Serial number in chronological order, (3) Signatures of both preparer and authorized person",
+     "Students believe the Particulars column in a ledger account should repeat the account's own name (e.g., writing \"Furniture\" in Furniture Account)",
+     "The student can independently analyze a business transaction with three or more accounts, correctly identify each account's classification",
      "The accounting equation is A = L + C, where A = Assets (resources owned), L = Liabilities (outsiders' claims), C = Capital (owner's claim)"
     ],
-    "hint": "Straight from the 'accounting equation (A = L' slide -- match the key terms.",
+    "hint": "Straight from the 'accounting equation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"A = L - C\" or missing Capital) reveals the student has memorised the formula without understanding that Capital is a separate claim distinct from Liabilities, or confuses the equity side structure.",
     "id": "gen_c11_acc_ch03_q4",
     "nodeId": "c11_acc_cbse_03_003",
@@ -1060,8 +1060,8 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "State the three categories of accounts in the traditional classification and the golden rule for each.",
     "answer": "The three categories are Personal, Real, and Nominal. Personal: Debit the receiver, Credit the giver",
     "options": [
-     "Expenses: Increase → Debit, Decrease → Credit. Revenues: Increase → Credit, Decrease → Debit",
      "A compound journal entry affects a minimum of three accounts (e.g., two debits and one credit, or one debit and two credits)",
+     "The student must independently post a compound journal entry involving at least three accounts to the correct ledger accounts, including proper date",
      "The three categories are Personal, Real, and Nominal. Personal: Debit the receiver, Credit the giver"
     ],
     "hint": "Straight from the 'traditional classification' slide -- match the key terms.",
@@ -1081,11 +1081,11 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "What are the five columns of a standard journal format, and in which column is the page number of the ledger account recorded?",
     "answer": "The five columns are: Date, Particulars, L.F. (Ledger Folio), Debit Amount, Credit Amount. The L.F. column records the page number of the ledger account where the entry is posted",
     "options": [
-     "A valid voucher must have: (1) Name of the firm printed on top, (2) Serial number in chronological order, (3) Signatures of both preparer and authorized person",
-     "(a) Pay-in-slip (bank deposit slip) — evidences cash deposited into bank. (b) Purchase invoice (received from supplier) — evidences credit purchase",
+     "The student can explain why the ledger is necessary after journalising, identify the format of a ledger account (T-account with Dr",
+     "Students believe the Particulars column in a ledger account should repeat the account's own name (e.g., writing \"Furniture\" in Furniture Account)",
      "The five columns are: Date, Particulars, L.F. (Ledger Folio), Debit Amount, Credit Amount. The L.F. column records the page number of the ledger account where the entry is posted"
     ],
-    "hint": "Straight from the 'Journal' slide -- match the key terms.",
+    "hint": "Straight from the 'A Journal is the primary book' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying narration is a column, or that L.F. is filled at entry time) reveals the student confuses journal format with ledger format or doesn't understand the posting sequence.",
     "id": "gen_c11_acc_ch03_q9",
     "nodeId": "c11_acc_cbse_03_007",
@@ -1239,11 +1239,11 @@ export const C11_ACC_GEN: SimDef[] = [
     "question": "What is the primary utility of a ledger that distinguishes it from a journal?",
     "answer": "The ledger provides the net balance of a specific account on a given date by grouping all its debits and credits in one place",
     "options": [
-     "(a) Pay-in-slip (bank deposit slip) — evidences cash deposited into bank. (b) Purchase invoice (received from supplier) — evidences credit purchase",
-     "A valid voucher must have: (1) Name of the firm printed on top, (2) Serial number in chronological order, (3) Signatures of both preparer and authorized person",
+     "Balancing of a ledger account is the process of determining the net difference between the total of the debit side and the total of the credit side of that account at the end of",
+     "A compound journal entry affects a minimum of three accounts (e.g., two debits and one credit, or one debit and two credits)",
      "The ledger provides the net balance of a specific account on a given date by grouping all its debits and credits in one place"
     ],
-    "hint": "Straight from the 'ledger' slide -- match the key terms.",
+    "hint": "Straight from the 'The ledger is the principal book' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ledger records transactions first\") reveals the student confuses the sequence of recording (journal first, ledger second) and misses the analytical purpose of the ledger.",
     "id": "gen_c11_acc_ch03_q12",
     "nodeId": "c11_acc_cbse_03_009",
@@ -1264,7 +1264,7 @@ export const C11_ACC_GEN: SimDef[] = [
      "Accounts: Cash (Asset) — Debit ₹3,00,000; Building (Asset) — Debit ₹5,00,000; Capital (Capital) — Credit ₹8,00,000",
      "\"Sales\". The Particulars column always records the name of the *other* account involved in the transaction (the counterpart), not the account being posted to"
     ],
-    "hint": "Straight from the 'Posting' slide -- match the key terms.",
+    "hint": "Straight from the 'Posting is the systematic process' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Cash\" or \"Capital\" reveals the student misunderstands that ledger accounts track inflows/outflows by naming the source/destination account.",
     "id": "gen_c11_acc_ch03_q13",
     "nodeId": "c11_acc_cbse_03_010",

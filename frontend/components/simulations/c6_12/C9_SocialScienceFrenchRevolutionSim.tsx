@@ -245,7 +245,7 @@ export function C9_SocialScienceFrenchRevolutionSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 9 History - The French Revolution</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 9 History - The French Revolution</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Revolution Pressure Gauge: France, 1789</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -273,10 +273,10 @@ export function C9_SocialScienceFrenchRevolutionSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Direct taxes paid by the Third Estate</span>
-                <span className="font-mono text-indigo-300">{taxShare}% of the total</span>
+                <span className="font-mono text-gold-300">{taxShare}% of the total</span>
               </label>
               <input type="range" min={50} max={100} step={5} value={taxShare} aria-label="tax share"
-                onChange={(e) => setTaxShare(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setTaxShare(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <button onClick={() => setByHead((b) => !b)}
               className={`w-full min-h-11 rounded-xl text-xs font-bold border transition-all ${byHead ? 'bg-emerald-600 border-emerald-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300 hover:border-emerald-600'}`}>
@@ -285,10 +285,10 @@ export function C9_SocialScienceFrenchRevolutionSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">France in three estates</p>
+            <p className="font-bold text-gold-300 mb-1">France in three estates</p>
             <div className="flex items-end gap-2 h-16 mt-1">
-              <div className="flex-1 bg-violet-800 rounded-t-lg relative" style={{ height: '18%' }}><span className="absolute -top-4 left-1 text-[9px]">Clergy ~1%</span></div>
-              <div className="flex-1 bg-indigo-800 rounded-t-lg relative" style={{ height: '26%' }}><span className="absolute -top-4 left-1 text-[9px]">Nobles ~2%</span></div>
+              <div className="flex-1 bg-gold-800 rounded-t-lg relative" style={{ height: '18%' }}><span className="absolute -top-4 left-1 text-[9px]">Clergy ~1%</span></div>
+              <div className="flex-1 bg-gold-800 rounded-t-lg relative" style={{ height: '26%' }}><span className="absolute -top-4 left-1 text-[9px]">Nobles ~2%</span></div>
               <div className="flex-1 bg-emerald-700 rounded-t-lg relative" style={{ height: '100%' }}><span className="absolute -top-4 left-1 text-[9px]">Third Estate ~97% -- pays {taxShare}% of direct taxes</span></div>
             </div>
             <p className="text-[11px] text-slate-500 mt-4">The first two estates owned much land and paid almost no direct tax -- yet by the by-ORDER rule each held one vote, so 3% outvoted 97%.</p>
@@ -297,7 +297,7 @@ export function C9_SocialScienceFrenchRevolutionSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-1">Where the pressure comes from</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-1">Where the pressure comes from</p>
             <p className="text-xs font-mono text-slate-200">bread {Math.round(0.45 * breadPct)} + debt {Math.round(debt * 6)} + taxes {Math.round(taxShare * 0.2)} + voting {byHead ? -4 : 8} = <span className={zone}>{pressure}</span></p>
             <p className="text-[11px] text-slate-500 mt-1">Each dial feeds the gauge -- cut any one and see which events drop back below their thresholds.</p>
             <p className="text-[11px] text-slate-500 mt-1">The nobles&apos; tax exemption was the spark: every reform plan died because two estates refused to pay.</p>
@@ -327,7 +327,7 @@ export function C9_SocialScienceFrenchRevolutionSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-2">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400">Event timeline (lights up when pressure crosses it)</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Event timeline (lights up when pressure crosses it)</p>
             {EVENTS.map((e) => {
               const on = pressure >= e.at;
               return (
@@ -350,7 +350,7 @@ export function C9_SocialScienceFrenchRevolutionSim() {
         ))}
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. With the 1789 defaults (14.5 sous, 4 bn, 100%), switch voting by ORDER to by HEAD -- how much does pressure drop, and why did nobles refuse exactly this?</p>
         <p className="mt-1">2. Try to reach the Bastille (65) using bread price alone -- then explain which TWO dials together carry the most pressure.</p>

@@ -86,14 +86,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Sound as a Warning Signal 🚨",
     text: "A warning signal is a special sound that carries an urgent message and tells people to act quickly for safety! Examples include fire alarms telling people to evacuate, ambulance sirens asking drivers to give way, and school bells marking period changes.",
     emoji: "🚨",
-    bgColor: "from-blue-400 to-cyan-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "A warning signal is a special sound that carries an urgent message and tells people to act quickly for safety! Examples include fire alarms, ambulance sirens, and school bells."
   },
   {
     title: "Noise Pollution & Health 🏙️",
     text: "Noise pollution is the presence of unwanted, harmful loud sounds in our surroundings. Causes include heavy traffic, loudspeakers, and construction. It causes hearing loss, headaches, sleep disturbance, and difficulty concentrating!",
     emoji: "🏙️",
-    bgColor: "from-indigo-400 to-purple-500",
+    bgColor: "from-gold-400 to-purple-500",
     spoken: "Noise pollution is the presence of unwanted, harmful loud sounds in our surroundings. It causes hearing loss, headaches, sleep disturbance, and difficulty concentrating!"
   },
   {
@@ -704,7 +704,7 @@ export function SoundNoiseGame({ width = 720, height = 560, onComplete }: SoundN
         <div className="flex items-center gap-3">
           <span className="text-xl font-extrabold text-amber-400">Sound & Noise Lab</span>
           {screen === 'play' && (
-            <span className="text-xs bg-indigo-600/80 px-2 py-1 rounded-lg font-semibold">
+            <span className="text-xs bg-gold-600/80 px-2 py-1 rounded-lg font-semibold">
               Challenge {challengeIdx + 1} / {CHALLENGES.length}
             </span>
           )}

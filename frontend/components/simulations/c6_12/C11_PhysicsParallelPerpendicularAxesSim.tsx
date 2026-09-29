@@ -776,7 +776,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
     } else if (errors <= 3) {
       days = 3;
       retentionStage = 'Reinforcing (Standard Review)';
-      badgeColor = 'bg-indigo-950 text-indigo-300 border-indigo-700';
+      badgeColor = 'bg-gold-950 text-gold-300 border-gold-700';
     }
 
     const reviewDate = new Date();
@@ -1239,14 +1239,14 @@ function C11_PhysicsParallelPerpendicularAxesSim({
           <motion.span
             whileHover={{ rotate: 360, scale: 1.1 }}
             transition={{ duration: 0.8 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 select-none"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 select-none"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2.5 py-0.5 rounded-full border border-gold-800">
                 ISC Class 11 Physics
               </span>
               <span className="text-xs text-slate-400">c11_phy_041 – 050</span>
@@ -1271,7 +1271,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-colors ${
                 phase === pTab
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
@@ -1294,9 +1294,9 @@ function C11_PhysicsParallelPerpendicularAxesSim({
             <motion.div
               initial={{ scale: 0.98, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl"
+              className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl"
             >
-              <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
                 <span>🚀 Scenario Briefing</span>
               </div>
               <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
@@ -1305,7 +1305,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="mt-3 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40 text-xs text-indigo-200"
+                className="mt-3 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40 text-xs text-gold-200"
               >
                 💡 <span className="font-semibold">Core Concept:</span> {SCENARIO.context}
               </motion.div>
@@ -1335,10 +1335,10 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-800/60 border-slate-700 text-slate-400'
-                        : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-750'
+                        : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-750'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     <span className="flex-1">{opt}</span>
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && (
                       <span className="text-emerald-400 font-bold" aria-hidden="true">✓</span>
@@ -1368,7 +1368,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                       setPhase('predict');
                       audioManager.play('whoosh');
                     }}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 text-sm flex items-center gap-2"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 text-sm flex items-center gap-2"
                   >
                     <span>Proceed to Prediction Phase (Predict-Then-Check) →</span>
                   </motion.button>
@@ -1490,7 +1490,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                           setPhase('explore');
                           audioManager.play('whoosh');
                         }}
-                        className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                        className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                       >
                         Test Predictions in Labs →
                       </button>
@@ -1520,7 +1520,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
               className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800"
             >
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1531,7 +1531,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     key={sIdx}
                     animate={{ width: sIdx === currentSlide ? 32 : 10 }}
                     className={`h-2 rounded-full transition-all ${
-                      sIdx === currentSlide ? 'bg-indigo-500' : 'bg-slate-700'
+                      sIdx === currentSlide ? 'bg-gold-500' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -1541,7 +1541,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
             <motion.div
               initial={{ scale: 0.99, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="p-3.5 bg-indigo-950/40 border border-indigo-800/40 rounded-xl text-xs text-indigo-200"
+              className="p-3.5 bg-gold-950/40 border border-gold-800/40 rounded-xl text-xs text-gold-200"
             >
               👉 <span className="font-semibold">{EXPLORATION_STEPS[currentSlide].instruction}</span>
             </motion.div>
@@ -1606,7 +1606,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label={`Select shape ${shape}`}
                             onClick={() => setBodyShape(shape)}
                             className={`px-3 py-1 rounded-lg text-xs font-bold uppercase ${
-                              bodyShape === shape ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              bodyShape === shape ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {shape}
@@ -1627,7 +1627,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label="Adjust mass M"
                             value={massM}
                             onChange={e => setMassM(parseFloat(e.target.value))}
-                            className="w-32 accent-indigo-500"
+                            className="w-32 accent-gold-500"
                           />
                         </div>
                         <div className="flex justify-between items-center text-slate-300">
@@ -1640,7 +1640,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label="Adjust radius or length R"
                             value={radiusR}
                             onChange={e => setRadiusR(parseFloat(e.target.value))}
-                            className="w-32 accent-indigo-500"
+                            className="w-32 accent-gold-500"
                           />
                         </div>
                         <div className="flex justify-between items-center text-slate-300">
@@ -1660,14 +1660,14 @@ function C11_PhysicsParallelPerpendicularAxesSim({
 
                       <motion.div
                         whileHover={{ scale: 1.01 }}
-                        className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-2"
+                        className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-2"
                       >
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">Theorem Breakdown</span>
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-300">Theorem Breakdown</span>
                         <div className="font-mono text-xs text-slate-200 space-y-1">
                           <div>I_cm = <span className="text-emerald-400 font-bold">{moiCalculations.Icm.toFixed(3)} kg·m²</span></div>
                           <div>M·d² shift = <span className="text-rose-400 font-bold">{(massM * axisShiftD * axisShiftD).toFixed(3)} kg·m²</span></div>
                           <div className="pt-1.5 border-t border-slate-800 text-sm font-bold text-white">
-                            I_total = I_cm + Md² = <span className="text-indigo-400">{moiCalculations.I_shifted.toFixed(3)} kg·m²</span>
+                            I_total = I_cm + Md² = <span className="text-gold-400">{moiCalculations.I_shifted.toFixed(3)} kg·m²</span>
                           </div>
                         </div>
                       </motion.div>
@@ -1736,7 +1736,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label="Adjust flywheel mass"
                             value={flywheelMass}
                             onChange={e => setFlywheelMass(parseFloat(e.target.value))}
-                            className="w-32 accent-indigo-500"
+                            className="w-32 accent-gold-500"
                           />
                         </div>
                         <div className="flex justify-between items-center text-slate-300">
@@ -1749,13 +1749,13 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label="Adjust flywheel radius"
                             value={flywheelRadius}
                             onChange={e => setFlywheelRadius(parseFloat(e.target.value))}
-                            className="w-32 accent-indigo-500"
+                            className="w-32 accent-gold-500"
                           />
                         </div>
                       </div>
 
-                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 font-mono space-y-1">
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 block mb-1">Rotational 2nd Law</span>
+                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 font-mono space-y-1">
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-300 block mb-1">Rotational 2nd Law</span>
                         <div>I = ½ M R² = <span className="text-emerald-400">{flywheelCalculations.I_fly.toFixed(3)} kg·m²</span></div>
                         <div>α = τ / I = <span className="text-amber-400">{flywheelCalculations.alpha.toFixed(2)} rad/s²</span></div>
                         <div className="text-slate-400 text-[11px] mt-2">
@@ -1839,13 +1839,13 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label="Adjust semi major axis"
                             value={semiMajorAxis}
                             onChange={e => setSemiMajorAxis(parseFloat(e.target.value))}
-                            className="w-32 accent-indigo-500"
+                            className="w-32 accent-gold-500"
                           />
                         </div>
                       </div>
 
-                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-2 font-mono">
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">Kepler’s 3rd Law Calculator</span>
+                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-2 font-mono">
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-300">Kepler’s 3rd Law Calculator</span>
                         <div>Period T = a^(3/2) = <strong className="text-amber-400">{Math.pow(semiMajorAxis, 1.5).toFixed(2)} Earth Years</strong></div>
                         <div>T² = <span className="text-emerald-400">{Math.pow(semiMajorAxis, 3).toFixed(2)}</span> = a³ (<span className="text-emerald-400">{Math.pow(semiMajorAxis, 3).toFixed(2)}</span>)</div>
                         <div className="text-[11px] text-slate-400 pt-1 border-t border-slate-800">
@@ -1874,7 +1874,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             aria-label={`Select celestial body ${p}`}
                             onClick={() => handlePlanetSelect(p)}
                             className={`px-2.5 py-1 rounded-lg text-xs font-bold uppercase ${
-                              selectedPlanet === p ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              selectedPlanet === p ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {p}
@@ -1900,10 +1900,10 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         </div>
                       </div>
 
-                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 font-mono space-y-1.5">
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 block mb-1">Field & Potential Values</span>
+                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 font-mono space-y-1.5">
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-300 block mb-1">Field & Potential Values</span>
                         <div>g(local) = <strong className="text-amber-400">{gravityCalculations.g_local.toFixed(2)} m/s²</strong></div>
-                        <div>Field Intensity I = <strong className="text-sky-400">{gravityCalculations.field_I.toFixed(2)} N/kg</strong></div>
+                        <div>Field Intensity I = <strong className="text-gold-400">{gravityCalculations.field_I.toFixed(2)} N/kg</strong></div>
                         <div>Grav. Potential V = <strong className="text-rose-400">{(gravityCalculations.potential_V / 1e6).toFixed(2)} MJ/kg</strong></div>
                         <div className="pt-2 border-t border-slate-800 text-[11px] text-slate-400">
                           {probeRadialDistance <= 1.0
@@ -1952,7 +1952,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label="Simulate rocket ignition"
                         onClick={handleSimulateLaunch}
-                        className="mt-2 px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-1.5"
+                        className="mt-2 px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-1.5"
                       >
                         🚀 Simulate Ignition
                       </motion.button>
@@ -1975,8 +1975,8 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         </div>
                       </div>
 
-                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 font-mono space-y-2">
-                        <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">Critical Cosmic Speeds</span>
+                      <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 font-mono space-y-2">
+                        <span className="text-xs font-bold uppercase tracking-wider text-gold-300">Critical Cosmic Speeds</span>
                         <div>v₀ (Orbital speed) = √(gR) ≈ <span className="text-emerald-400">7.9 km/s</span></div>
                         <div>v_esc (Escape speed) = √(2gR) ≈ <span className="text-purple-400">11.2 km/s</span></div>
                         <div className="pt-2 border-t border-slate-800 text-[11px] text-slate-400">
@@ -2014,7 +2014,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     setCurrentSlide(s => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -2049,7 +2049,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
           >
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-sky-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Brilliant.org Pattern: What Do You Notice?
                 </span>
                 <h2 className="text-lg font-bold text-white">Observation {obsIndex + 1} of {OBSERVATION_QUESTIONS.length}</h2>
@@ -2060,7 +2060,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     key={oIdx}
                     onClick={() => setObsIndex(oIdx)}
                     className={`w-7 h-7 rounded-full text-xs font-bold ${
-                      obsIndex === oIdx ? 'bg-sky-500 text-slate-950 font-black' : 'bg-slate-800 text-slate-400'
+                      obsIndex === oIdx ? 'bg-gold-500 text-slate-950 font-black' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {oIdx + 1}
@@ -2070,7 +2070,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
             </div>
 
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-sky-300 uppercase tracking-widest block">
+              <span className="text-xs font-bold text-gold-300 uppercase tracking-widest block">
                 Reflect on the visual dynamics and field structures
               </span>
               <p className="text-base md:text-lg font-semibold text-white leading-relaxed">
@@ -2097,10 +2097,10 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                             : isSelected
                             ? 'bg-rose-950/60 border-rose-500 text-rose-200'
                             : 'bg-slate-800/60 border-slate-700 text-slate-400'
-                          : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-sky-500 hover:bg-slate-750'
+                          : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-750'
                       }`}
                     >
-                      <span className="font-bold text-sky-400">{String.fromCharCode(65 + optIdx)}.</span>
+                      <span className="font-bold text-gold-400">{String.fromCharCode(65 + optIdx)}.</span>
                       <span className="flex-1">{opt}</span>
                       {isAnswered && isCorrect && <span className="text-emerald-400 font-bold">✓</span>}
                       {isAnswered && isSelected && !isCorrect && <span className="text-rose-400 font-bold">✗</span>}
@@ -2113,10 +2113,10 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-4 p-4 rounded-xl bg-slate-950 border border-sky-800/50 space-y-3"
+                  className="mt-4 p-4 rounded-xl bg-slate-950 border border-gold-800/50 space-y-3"
                 >
                   <p className="text-xs text-slate-300 leading-relaxed font-mono">
-                    💡 <span className="font-semibold text-sky-300">Observation Analysis:</span> {OBSERVATION_QUESTIONS[obsIndex].explanation}
+                    💡 <span className="font-semibold text-gold-300">Observation Analysis:</span> {OBSERVATION_QUESTIONS[obsIndex].explanation}
                   </p>
 
                   <div className="flex justify-between pt-2">
@@ -2132,7 +2132,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     {obsIndex < OBSERVATION_QUESTIONS.length - 1 ? (
                       <button
                         onClick={() => setObsIndex(o => o + 1)}
-                        className="px-5 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-bold"
+                        className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                       >
                         Next Observation →
                       </button>
@@ -2142,7 +2142,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                           setPhase('sandbox');
                           audioManager.play('whoosh');
                         }}
-                        className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                        className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                       >
                         Enter Free Sandbox →
                       </button>
@@ -2183,7 +2183,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     aria-label={`Switch sandbox tab to ${tab}`}
                     onClick={() => setSandboxTab(tab)}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize ${
-                      sandboxTab === tab ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-slate-200'
+                      sandboxTab === tab ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                     }`}
                   >
                     {tab}
@@ -2279,7 +2279,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                 >
                   {difficulty}
                 </motion.span>
-                <span className="text-[10px] uppercase font-bold text-indigo-300 bg-indigo-950 px-2 py-0.5 rounded border border-indigo-800">
+                <span className="text-[10px] uppercase font-bold text-gold-300 bg-gold-950 px-2 py-0.5 rounded border border-gold-800">
                   NEP 2020: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2291,14 +2291,14 @@ function C11_PhysicsParallelPerpendicularAxesSim({
             {/* Progress Bar with Motion */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
             </div>
 
-            <div className="text-xs text-indigo-300 mt-1">
+            <div className="text-xs text-gold-300 mt-1">
               📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
             </div>
 
@@ -2328,10 +2328,10 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                           ? 'bg-rose-900/60 border-rose-500 text-rose-200'
                           : showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-900/70 border-emerald-500 text-emerald-200 font-bold'
-                          : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-750'
+                          : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-750'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       <span className="flex-1">{opt}</span>
                       {showExplanation && i === challenge.correctIndex && (
                         <span className="text-emerald-400 font-bold" aria-hidden="true">✓</span>
@@ -2355,7 +2355,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-1.5 bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                        className="px-3.5 py-1.5 bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2384,7 +2384,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Verify formula mappings"
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Verify Mappings
                   </motion.button>
@@ -2411,7 +2411,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                       whileTap={{ scale: 0.98 }}
                       className="p-3.5 bg-slate-800 rounded-xl text-xs font-medium text-slate-200 border border-slate-700 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                      <span className="w-6 h-6 rounded-full bg-gold-900 text-gold-300 font-bold flex items-center justify-center text-xs">
                         {pos + 1}
                       </span>
                       {challenge.sortItems![itemIdx]}
@@ -2422,7 +2422,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Verify sequence order"
                     onClick={handleSortSubmit}
-                    className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Verify Sequence
                   </motion.button>
@@ -2439,7 +2439,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     aria-label="Numeric answer input"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numeric value..."
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-indigo-500 focus:outline-none w-48 font-mono"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 focus:outline-none w-48 font-mono"
                   />
                   <span className="text-slate-400 text-sm font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2447,7 +2447,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Submit numeric value"
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Value
                   </motion.button>
@@ -2465,7 +2465,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Add part ${part}`}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg shadow"
+                        className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2477,7 +2477,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         key={pIdx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-900 border border-indigo-700 text-indigo-200 text-xs rounded-lg flex items-center gap-2"
+                        className="px-3 py-1 bg-gold-900 border border-gold-700 text-gold-200 text-xs rounded-lg flex items-center gap-2"
                       >
                         <span>{part}</span>
                         <motion.button
@@ -2501,7 +2501,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                       whileTap={{ scale: 0.95 }}
                       aria-label="Validate formula structure"
                       onClick={() => handleAnswer(constructParts.join(' '))}
-                      className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Validate Formula Structure
                     </motion.button>
@@ -2523,9 +2523,9 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                 <motion.div
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-indigo-950/50 rounded-2xl border border-indigo-700/60 space-y-3"
+                  className="mt-6 p-5 bg-gold-950/50 rounded-2xl border border-gold-700/60 space-y-3"
                 >
-                  <div className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+                  <div className="text-xs font-bold uppercase tracking-wider text-gold-300">
                     Step-by-Step Physics Derivation:
                   </div>
                   {challenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((stepText, stIdx) => (
@@ -2533,7 +2533,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                       key={stIdx}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-sm text-indigo-100 leading-relaxed"
+                      className="text-sm text-gold-100 leading-relaxed"
                     >
                       <span className="font-bold text-amber-400 mr-1.5">{stIdx + 1}.</span>
                       {stepText}{!stepText.endsWith('.') && '.'}
@@ -2547,7 +2547,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label="Show next derivation step"
                         onClick={() => setRevealedSteps(s => s + 1)}
-                        className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                        className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                       >
                         Show Next Step →
                       </motion.button>
@@ -2610,7 +2610,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="px-4 py-2 bg-slate-900 rounded-xl border border-slate-800">
                   <div className="text-xs text-slate-400">BKT Mastery</div>
-                  <div className="text-xl font-black text-indigo-400 uppercase">{masteryLevel}</div>
+                  <div className="text-xl font-black text-gold-400 uppercase">{masteryLevel}</div>
                 </motion.div>
               </div>
             </motion.div>
@@ -2619,7 +2619,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
             <motion.div
               initial={{ y: 15, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="p-6 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-700/60 shadow-xl space-y-4"
+              className="p-6 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-700/60 shadow-xl space-y-4"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
                 <div className="flex items-center gap-2">
@@ -2644,7 +2644,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="text-xs text-slate-400 uppercase tracking-wider mb-1">Target Date</div>
-                  <div className="text-xl font-black text-sky-400">{srsSchedule.dateFormatted}</div>
+                  <div className="text-xl font-black text-gold-400">{srsSchedule.dateFormatted}</div>
                   <div className="text-[11px] text-slate-500 mt-1">Optimal memory consolidation point</div>
                 </div>
 
@@ -2680,7 +2680,7 @@ function C11_PhysicsParallelPerpendicularAxesSim({
                   whileHover={{ scale: 1.02 }}
                   className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2"
                 >
-                  <span className="font-bold text-sky-400 block">Peer Explanation:</span>
+                  <span className="font-bold text-gold-400 block">Peer Explanation:</span>
                   <p className="text-slate-300">How would you explain the difference between orbital velocity and escape velocity to a friend?</p>
                 </motion.div>
                 <motion.div

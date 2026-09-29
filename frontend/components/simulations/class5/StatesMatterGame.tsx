@@ -158,9 +158,9 @@ function ScientistSana({ mood, speaking }: { mood: MascotMood; speaking: string 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-cyan-200"
+            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-gold-200"
           >
-            <p className="text-sm font-bold text-cyan-900">{speaking}</p>
+            <p className="text-sm font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -311,14 +311,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Three States of Matter 🧊",
     text: "Matter exists in three main states: Solid (fixed shape and volume), Liquid (fixed volume, takes container shape), and Gas (no fixed shape or volume)!",
     emoji: "🧊",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Matter exists in three main states: Solid with fixed shape and volume, Liquid with fixed volume, and Gas with no fixed shape or volume!",
   },
   {
     title: "Interconversion of States 🔄",
     text: "Matter can change from one state to another when we heat or cool it! Ice melts into water, and water boils into steam. This is called interconversion.",
     emoji: "🔄",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Matter can change from one state to another when we heat or cool it! Ice melts into water, and water boils into steam. This is interconversion.",
   },
   {
@@ -339,7 +339,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Sublimation (Skipping Liquid!) 🌬️",
     text: "Sublimation is when a solid turns DIRECTLY into a gas without becoming a liquid first! Camphor, naphthalene balls, and dry ice are wonderful examples.",
     emoji: "🌬️",
-    bgColor: "from-purple-500 to-indigo-700",
+    bgColor: "from-purple-500 to-gold-700",
     spoken: "Sublimation is when a solid turns directly into a gas without becoming a liquid first! Camphor and naphthalene balls are wonderful examples.",
   },
 ];
@@ -668,7 +668,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
   };
 
   return (
-    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl border-4 border-cyan-300 bg-cyan-900" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl border-4 border-gold-300 bg-gold-900" style={{ width, height }}>
       <LabSceneBg width={width} height={height} />
       <ScientistSana mood={mascotMood} speaking={speakingText} />
 
@@ -683,11 +683,11 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3 bg-white/90 backdrop-blur px-4 py-2 rounded-2xl shadow-lg">
               <span className="text-2xl">{TEACHING_SLIDES[slideIdx].emoji}</span>
-              <h2 className="text-xl font-extrabold text-cyan-900">{TEACHING_SLIDES[slideIdx].title}</h2>
+              <h2 className="text-xl font-extrabold text-gold-900">{TEACHING_SLIDES[slideIdx].title}</h2>
             </div>
             <div className="flex gap-1.5">
               {TEACHING_SLIDES.map((_, i) => (
-                <div key={i} className={`h-3 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-cyan-400' : 'w-3 bg-white/50'}`} />
+                <div key={i} className={`h-3 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-400' : 'w-3 bg-white/50'}`} />
               ))}
             </div>
           </div>
@@ -697,7 +697,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.4 }}
-            className="my-auto bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-2 border-cyan-200 max-w-xl mx-auto text-center"
+            className="my-auto bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-2 border-gold-200 max-w-xl mx-auto text-center"
           >
             <p className="text-xl font-medium text-gray-800 leading-relaxed">{TEACHING_SLIDES[slideIdx].text}</p>
           </motion.div>
@@ -710,7 +710,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
               }}
               disabled={slideIdx === 0}
               className={`px-6 py-3 rounded-2xl font-bold shadow-lg transition-all ${
-                slideIdx === 0 ? 'opacity-40 cursor-not-allowed bg-gray-300 text-gray-500' : 'bg-white text-cyan-900 hover:bg-cyan-50'
+                slideIdx === 0 ? 'opacity-40 cursor-not-allowed bg-gray-300 text-gray-500' : 'bg-white text-gold-900 hover:bg-gold-50'
               }`}
             >
               Previous
@@ -726,7 +726,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
                   audioManager.play('celebration');
                 }
               }}
-              className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-extrabold text-lg rounded-2xl shadow-xl transform hover:scale-105 transition-all"
+              className="px-8 py-4 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-extrabold text-lg rounded-2xl shadow-xl transform hover:scale-105 transition-all"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Lab Challenges! 🚀' : 'Next ➡️'}
             </button>
@@ -740,7 +740,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
           {/* Top Bar */}
           <div className="flex items-center justify-between bg-white/90 backdrop-blur px-4 py-2.5 rounded-2xl shadow-lg z-10">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-black uppercase tracking-wider text-cyan-700 bg-cyan-100 px-3 py-1 rounded-full">
+              <span className="text-xs font-black uppercase tracking-wider text-gold-700 bg-gold-100 px-3 py-1 rounded-full">
                 Challenge {challengeIdx + 1} of {CHALLENGES.length}
               </span>
               <StarRow count={Math.floor(score / 15)} total={5} />
@@ -752,14 +752,14 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
               >
                 💡 Hint
               </button>
-              <div className="bg-cyan-100 text-cyan-900 px-4 py-1 rounded-full font-black text-sm shadow">
+              <div className="bg-gold-100 text-gold-900 px-4 py-1 rounded-full font-black text-sm shadow">
                 Score: {score}
               </div>
             </div>
           </div>
 
           {/* Question Box */}
-          <div className="my-2 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-cyan-200 max-w-2xl mx-auto text-center">
+          <div className="my-2 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-200 max-w-2xl mx-auto text-center">
             <h3 className="text-lg font-bold text-gray-900">{currentChallenge.question}</h3>
           </div>
 
@@ -770,7 +770,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
                 {currentChallenge.options.map((opt, idx) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnBg = 'bg-white/90 hover:bg-white text-gray-800 border-cyan-200';
+                  let btnBg = 'bg-white/90 hover:bg-white text-gray-800 border-gold-200';
                   if (selectedOpt) {
                     if (isCorrectAnswer) btnBg = 'bg-green-500 text-white border-green-600';
                     else if (isSelected && !isCorrectAnswer) btnBg = 'bg-red-500 text-white border-red-600';
@@ -837,7 +837,7 @@ export function StatesMatterGame({ width = 720, height = 560, onComplete }: Stat
                       >
                         <div
                           className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 transition-all ${
-                            placed ? 'bg-green-100 border-green-500 opacity-60' : 'bg-white border-cyan-300 hover:scale-105'
+                            placed ? 'bg-green-100 border-green-500 opacity-60' : 'bg-white border-gold-300 hover:scale-105'
                           }`}
                           style={{ width: 115, height: 95 }}
                         >

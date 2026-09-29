@@ -11,7 +11,7 @@ export const w_c7_mathematicsalgebraicexpressionssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Introduction to Arithmetic Expressions: Terms and Values',
     chapters: [],
     nodeIds: ['c7_math_ch02_001', 'c7_math_ch02_002', 'c7_math_ch02_003', 'c7_math_ch02_004', 'c7_math_ch02_005', 'c7_math_ch02_006', 'c7_math_ch02_007', 'c7_math_ch02_008', 'c7_math_ch02_009', 'c7_math_ch02_010', 'c7_math_ch04_002', 'c7_math_ch04_003', 'c7_math_ch04_004', 'c7_math_ch04_005', 'c7_math_ch04_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you go to a stationery shop in your neighborhood and buy 3 notebooks for ₹25 each and 2 pens for ₹10.', goal: 'Master Introduction to Arithmetic Expressions: Terms and Values.' },
     discovery: {
         question: 'What does the letter \'D\' stand for in the BODMAS rule used for evaluating arithmetic expressions?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsalgebraicexpressionssim: SimDef = {
         hook: 'Students often evaluate expressions strictly from left to right across all operation types, ignoring the priority of.',
     },
     teaching: [
-        { title: 'An arithmetic expression is a combination of.', text: 'An arithmetic expression is a combination of numbers and operational symbols (+, -, ×, ÷) that represents a single numerical value, where individual parts separated by addition or subtraction signs.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'An arithmetic expression is a combination of.', text: 'An arithmetic expression is a combination of numbers and operational symbols (+, -, ×, ÷) that represents a single numerical value, where individual parts separated by addition or subtraction signs.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch02_001', title: 'An arithmetic expression is a.',

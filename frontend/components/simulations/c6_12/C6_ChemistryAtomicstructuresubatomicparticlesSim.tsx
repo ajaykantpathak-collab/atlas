@@ -468,8 +468,8 @@ const AtomVisualizer: React.FC<{ element: ElementData }> = ({ element }) => {
         <span className="flex items-center gap-1 text-slate-300 font-medium">
           <span className="w-2.5 h-2.5 rounded-full bg-slate-400 inline-block"></span> Neutrons: {element.neutrons}
         </span>
-        <span className="flex items-center gap-1 text-sky-400 font-medium">
-          <span className="w-2.5 h-2.5 rounded-full bg-sky-400 inline-block"></span> Electrons: {element.electrons}
+        <span className="flex items-center gap-1 text-gold-400 font-medium">
+          <span className="w-2.5 h-2.5 rounded-full bg-gold-400 inline-block"></span> Electrons: {element.electrons}
         </span>
       </div>
     </div>
@@ -509,7 +509,7 @@ const MaterialTesterVisualizer: React.FC<{ category: 'metal' | 'non-metal' | 'me
     <div className="flex flex-col items-center bg-slate-900 p-4 rounded-2xl border border-slate-700 text-white w-full">
       <div className="flex justify-between items-center w-full mb-3">
         <span className="text-xs uppercase tracking-widest text-amber-400 font-bold">Virtual Material Testing Bench</span>
-        <span className="px-2.5 py-1 rounded-full text-xs font-bold uppercase bg-slate-800 text-cyan-300 border border-slate-700">
+        <span className="px-2.5 py-1 rounded-full text-xs font-bold uppercase bg-slate-800 text-gold-300 border border-slate-700">
           Sample: {category.toUpperCase()}
         </span>
       </div>
@@ -565,7 +565,7 @@ const MaterialTesterVisualizer: React.FC<{ category: 'metal' | 'non-metal' | 'me
                   ? animating
                     ? 'w-16 bg-stone-600 text-stone-300 border-2 border-dashed border-red-500'
                     : 'w-24 bg-stone-700 text-stone-300'
-                  : 'w-24 bg-cyan-700 text-cyan-100'
+                  : 'w-24 bg-gold-700 text-gold-100'
               }`}
             >
               {category === 'metal' ? 'Iron / Copper' : category === 'non-metal' ? 'Coal / Sulphur' : 'Silicon / Germanium'}
@@ -588,7 +588,7 @@ const MaterialTesterVisualizer: React.FC<{ category: 'metal' | 'non-metal' | 'me
                   ? 'bg-amber-500 text-slate-950'
                   : category === 'non-metal'
                   ? 'bg-stone-700 text-stone-300'
-                  : 'bg-cyan-700 text-cyan-100'
+                  : 'bg-gold-700 text-gold-100'
               }`}
             >
               Sample
@@ -612,7 +612,7 @@ const MaterialTesterVisualizer: React.FC<{ category: 'metal' | 'non-metal' | 'me
 
         {testMode === 'rust' && (
           <div className="flex flex-col items-center">
-            <div className="flex gap-3 mb-2 text-xs text-sky-300 font-mono">
+            <div className="flex gap-3 mb-2 text-xs text-gold-300 font-mono">
               <motion.span animate={{ y: [0, 5, 0] }} transition={{ repeat: Infinity, duration: 1 }}>
                 💧 H₂O Moisture
               </motion.span>
@@ -691,7 +691,7 @@ const AirCompositionVisualizer: React.FC = () => {
         </svg>
 
         <div className="flex gap-2 text-[10px] mt-2 font-bold">
-          <span className="text-blue-400">■ N₂ (78%)</span>
+          <span className="text-gold-400">■ N₂ (78%)</span>
           <span className="text-emerald-400">■ O₂ (21%)</span>
           <span className="text-amber-400">■ Minor (1%)</span>
         </div>
@@ -702,7 +702,7 @@ const AirCompositionVisualizer: React.FC = () => {
         <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 min-h-[110px]">
           {activeGas ? (
             <div>
-              <h4 className="text-sm font-bold text-cyan-400">{activeGas}</h4>
+              <h4 className="text-sm font-bold text-gold-400">{activeGas}</h4>
               <p className="text-xs text-slate-300 mt-1">{gasInfo[activeGas].desc}</p>
               <p className="text-[11px] text-amber-300 font-semibold mt-2">🧪 Test: {gasInfo[activeGas].test}</p>
             </div>
@@ -717,7 +717,7 @@ const AirCompositionVisualizer: React.FC = () => {
         <div className="mt-3 bg-slate-800 p-2.5 rounded-xl border border-slate-700">
           <div className="flex justify-between text-xs mb-1">
             <span className="text-slate-300 font-semibold">Simulate Humidity (Water Vapour):</span>
-            <span className="text-cyan-400 font-bold">{humidity}% (Variable Component)</span>
+            <span className="text-gold-400 font-bold">{humidity}% (Variable Component)</span>
           </div>
           <input
             type="range"
@@ -726,7 +726,7 @@ const AirCompositionVisualizer: React.FC = () => {
             step="1"
             value={humidity}
             onChange={(e) => setHumidity(Number(e.target.value))}
-            className="w-full accent-cyan-400 cursor-pointer"
+            className="w-full accent-gold-400 cursor-pointer"
           />
           <p className="text-[10px] text-slate-400 mt-1">
             Note: Variable components like water vapour prove air is a <strong>Physical Mixture</strong>, not a compound!

@@ -62,7 +62,7 @@ export function C9_MathematicsPredictingWhatComesNextExploringSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Mathematics - Number Patterns</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Mathematics - Number Patterns</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Predicting What Comes Next: Sequences and Progressions</h1>
         </div>
         <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-950 border border-emerald-700 text-emerald-300">
@@ -88,10 +88,10 @@ export function C9_MathematicsPredictingWhatComesNextExploringSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>First term a</span>
-            <span className="text-indigo-300 font-mono font-bold">{a}</span>
+            <span className="text-gold-300 font-mono font-bold">{a}</span>
           </label>
           <input type="range" min={1} max={10} value={a} aria-label="first term"
-            onChange={(e) => { setA(Number(e.target.value)); reseed(); }} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => { setA(Number(e.target.value)); reseed(); }} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -109,10 +109,10 @@ export function C9_MathematicsPredictingWhatComesNextExploringSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Terms shown</span>
-            <span className="text-sky-300 font-mono font-bold">{n}</span>
+            <span className="text-gold-300 font-mono font-bold">{n}</span>
           </label>
           <input type="range" min={5} max={12} value={n} aria-label="number of terms"
-            onChange={(e) => { setN(Number(e.target.value)); reseed(); }} className="w-full mt-2 accent-sky-500" />
+            onChange={(e) => { setN(Number(e.target.value)); reseed(); }} className="w-full mt-2 accent-gold-500" />
         </div>
       </div>
 
@@ -154,7 +154,7 @@ export function C9_MathematicsPredictingWhatComesNextExploringSim() {
               placeholder="Your prediction"
               className="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm font-mono text-slate-100"
             />
-            <button onClick={checkGuess} className="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold">
+            <button onClick={checkGuess} className="px-4 py-2 rounded-lg bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold">
               Check
             </button>
           </div>
@@ -165,7 +165,7 @@ export function C9_MathematicsPredictingWhatComesNextExploringSim() {
           )}
         </div>
         <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-400 leading-relaxed">
-          <p><span className="font-bold text-indigo-300">How to think:</span> first check whether consecutive terms differ by a constant amount
+          <p><span className="font-bold text-gold-300">How to think:</span> first check whether consecutive terms differ by a constant amount
           (add d each step) or grow by a constant factor (multiply by r). Squares grow by successive odd numbers, triangular numbers by
           1, 2, 3, ..., and each Fibonacci term is the sum of the two before it.</p>
         </div>
@@ -174,14 +174,14 @@ export function C9_MathematicsPredictingWhatComesNextExploringSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> a sequence is predictable when its terms follow a fixed rule. In an AP a
+          <span className="font-bold text-gold-300">Big idea:</span> a sequence is predictable when its terms follow a fixed rule. In an AP a
           constant is added (linear growth); in a GP a constant is multiplied (exponential growth). Spotting which of the two is happening is
           the fastest way to predict any future term.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Build the AP 5, 9, 13, ... and predict T12 without opening the bar; verify with the Check button.</p>
         <p className="mt-1">2. Set the GP with a = 1 and r = 2, then explain in one line why its sum overtakes the AP with a = 1, d = 10 by T10.</p>

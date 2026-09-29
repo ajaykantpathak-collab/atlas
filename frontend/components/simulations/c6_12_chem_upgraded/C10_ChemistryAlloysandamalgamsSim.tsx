@@ -1506,7 +1506,7 @@ export default function C10_ChemistryAlloysandamalgamsSim({
                         setLatticeShear(!latticeShear);
                         playFx(latticeShear ? 'whoosh' : 'pop');
                       }}
-                      className="w-full py-3 bg-gradient-to-r from-sky-500 to-blue-600 font-bold text-slate-950 rounded-xl shadow-lg hover:from-sky-400 hover:to-blue-500 transition-all text-xs"
+                      className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-slate-950 rounded-xl shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all text-xs"
                     >
                       {latticeShear ? 'RELEASE SHEAR STRESS' : 'APPLY MECHANICAL LOAD'}
                     </button>
@@ -1665,7 +1665,7 @@ export default function C10_ChemistryAlloysandamalgamsSim({
                       value={mercuryPct}
                       onChange={e => setMercuryPct(Number(e.target.value))}
                       disabled={isTriturated}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1674,7 +1674,7 @@ export default function C10_ChemistryAlloysandamalgamsSim({
                       setIsTriturated(!isTriturated);
                       playFx('chime');
                     }}
-                    className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-slate-950 rounded-xl text-xs shadow-lg"
+                    className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-slate-950 rounded-xl text-xs shadow-lg"
                   >
                     {isTriturated ? 'RESET POWDER MIXTURE' : 'TRITURATE (HIGH SPEED MIXING)'}
                   </button>

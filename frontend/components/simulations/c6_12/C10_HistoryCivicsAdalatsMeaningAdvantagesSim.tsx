@@ -1326,8 +1326,8 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                     </div>
 
                     {/* Military Valve */}
-                    <div className="p-3.5 bg-slate-900 rounded-xl border border-blue-900/40">
-                      <div className="flex justify-between items-center text-xs font-bold text-blue-400">
+                    <div className="p-3.5 bg-slate-900 rounded-xl border border-gold-900/40">
+                      <div className="flex justify-between items-center text-xs font-bold text-gold-400">
                         <span>Military Valve</span>
                         <span>{milPressure}%</span>
                       </div>
@@ -1341,7 +1341,7 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                           setMilPressure(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-blue-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                       <p className="text-[10px] text-slate-400 mt-1">General Service Act & Pay Disparity</p>
                     </div>
@@ -1431,7 +1431,7 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                         {[
                           { name: 'Political', v: polPressure, c: 'text-rose-300' },
                           { name: 'Economic', v: ecoPressure, c: 'text-amber-300' },
-                          { name: 'Military', v: milPressure, c: 'text-sky-300' },
+                          { name: 'Military', v: milPressure, c: 'text-gold-300' },
                           { name: 'Socio-religious', v: socPressure, c: 'text-purple-300' },
                         ].map((g) => (
                           <div key={g.name} className="flex items-center gap-2 text-[10px]">
@@ -1598,7 +1598,7 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold ${
                         movementDial === 'moderate'
-                          ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/40'
+                          ? 'bg-gold-600 text-white shadow-lg shadow-gold-900/40'
                           : 'bg-slate-800 text-slate-400'
                       }`}
                     >
@@ -1659,7 +1659,7 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs leading-relaxed">
                     {movementDial === 'moderate' ? (
                       <div className="space-y-1">
-                        <span className="font-bold text-blue-400 uppercase">Early Nationalist Strategy:</span>
+                        <span className="font-bold text-gold-400 uppercase">Early Nationalist Strategy:</span>
                         <p className="text-slate-300">Goal was self-government within the British Empire through constitutional reforms. Methods were prayers, petitions, public meetings, press articles, and deputations to London.</p>
                       </div>
                     ) : (
@@ -1998,7 +1998,7 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                       <span>Military (General Service Act)</span>
                       <span>{milPressure}%</span>
                     </div>
-                    <input type="range" min={0} max={100} value={milPressure} aria-label="Military pressure slider" onChange={e => setMilPressure(Number(e.target.value))} className="w-full accent-blue-500" />
+                    <input type="range" min={0} max={100} value={milPressure} aria-label="Military pressure slider" onChange={e => setMilPressure(Number(e.target.value))} className="w-full accent-gold-500" />
                   </div>
                   <div>
                     <div className="flex justify-between text-xs text-slate-300">
@@ -2118,7 +2118,7 @@ function C10_HistoryCivicsAdalatsMeaningAdvantagesSim({
                         className={`px-3 py-2 rounded-lg text-xs font-bold cursor-grab transition-all ${
                           draggedItem === item.label
                             ? 'bg-amber-500 text-slate-950 shadow-md'
-                            : 'bg-indigo-900/60 text-indigo-200 border border-indigo-700'
+                            : 'bg-gold-900/60 text-gold-200 border border-gold-700'
                         }`}
                       >
                         {item.label}

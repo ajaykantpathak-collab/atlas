@@ -63,11 +63,11 @@ export function C8_ScienceKeepingTimeWithTheSkiesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Keeping Time with the Skies</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Keeping Time with the Skies</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Three sky clocks:</span> (1) SPIN - Earth
+          <span className="font-bold text-gold-700">Three sky clocks:</span> (1) SPIN - Earth
           turns once in 24 h, giving day and night. (2) ORBIT - the tilted axis leans Earth 23.5
           degrees toward or away from the Sun through the year: seasons. (3) MOON - one loop of the
           Moon around us, about 29.5 days, gives the phases our calendars called a month.
@@ -76,7 +76,7 @@ export function C8_ScienceKeepingTimeWithTheSkiesSim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {([['orbit', 'Earth orbit and seasons'], ['moon', 'Moon phase clock']] as ['orbit' | 'moon', string][]).map(([v, label]) => (
-          <button key={v} onClick={() => setView(v)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${view === v ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button key={v} onClick={() => setView(v)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${view === v ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {label}
           </button>
         ))}
@@ -86,8 +86,8 @@ export function C8_ScienceKeepingTimeWithTheSkiesSim() {
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
             <div>
-              <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Day of year ({dateLabel(day)})</span><span className="font-mono text-indigo-600">{day}</span></label>
-              <input type="range" min={1} max={365} value={day} aria-label="day of year" onChange={(e) => setDay(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+              <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Day of year ({dateLabel(day)})</span><span className="font-mono text-gold-600">{day}</span></label>
+              <input type="range" min={1} max={365} value={day} aria-label="day of year" onChange={(e) => setDay(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Your latitude (north)</span><span className="font-mono text-emerald-600">{lat} deg</span></label>
@@ -95,18 +95,18 @@ export function C8_ScienceKeepingTimeWithTheSkiesSim() {
             </div>
             <div className="flex flex-wrap gap-2">
               {[['Equinox', 81], ['Solstice', 172], ['Another equinox', 264], ['Midwinter', 355]].map(([label, d]) => (
-                <button key={label as string} onClick={() => setDay(d as number)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+                <button key={label as string} onClick={() => setDay(d as number)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                   {label as string}
                 </button>
               ))}
             </div>
             <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-              <div>Sun&apos;s noon angle over equator: <span className="text-indigo-700 font-bold">{dec} deg</span></div>
+              <div>Sun&apos;s noon angle over equator: <span className="text-gold-700 font-bold">{dec} deg</span></div>
               <div>daylight at {lat} deg: <span className="text-emerald-700 font-bold">{daylight} h</span></div>
               <div className="text-xs text-slate-500 mt-1 font-sans">{season}</div>
             </div>
           </div>
-          <div className="p-2 bg-gradient-to-br from-sky-50 to-slate-900 rounded-2xl border border-slate-200">
+          <div className="p-2 bg-gradient-to-br from-gold-50 to-slate-900 rounded-2xl border border-slate-200">
             <svg viewBox="0 0 340 220" className="w-full">
               <circle cx={170} cy={110} r={26} fill="#fbbf24" />
               <text x={170} y={150} textAnchor="middle" fontSize="10" fill="#fde68a">Sun</text>
@@ -121,7 +121,7 @@ export function C8_ScienceKeepingTimeWithTheSkiesSim() {
             </svg>
             <div className="px-2 pb-1">
               <div className="h-4 rounded-full bg-slate-700 overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-indigo-400 to-amber-300" style={{ width: `${(daylight / 24) * 100}%`, transition: 'width 250ms' }} />
+                <div className="h-full bg-gradient-to-r from-gold-400 to-amber-300" style={{ width: `${(daylight / 24) * 100}%`, transition: 'width 250ms' }} />
               </div>
               <div className="text-[10px] text-slate-400 mt-1 font-mono">{daylight} h daylight / 24 h at {lat} deg</div>
             </div>
@@ -131,19 +131,19 @@ export function C8_ScienceKeepingTimeWithTheSkiesSim() {
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
             <div>
-              <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Moon day of the month (29.5 day loop)</span><span className="font-mono text-violet-600">{moonDay}</span></label>
-              <input type="range" min={1} max={29} value={moonDay} aria-label="moon day" onChange={(e) => setMoonDay(Number(e.target.value))} className="w-full mt-1 accent-violet-600" />
+              <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Moon day of the month (29.5 day loop)</span><span className="font-mono text-gold-600">{moonDay}</span></label>
+              <input type="range" min={1} max={29} value={moonDay} aria-label="moon day" onChange={(e) => setMoonDay(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
             </div>
             <div className="flex flex-wrap gap-2">
               {[['New moon', 1], ['First quarter', 8], ['Full moon', 15], ['Last quarter', 22]].map(([label, d]) => (
-                <button key={label as string} onClick={() => setMoonDay(d as number)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-violet-100 text-violet-700 hover:bg-violet-200 transition-all">
+                <button key={label as string} onClick={() => setMoonDay(d as number)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                   {label as string}
                 </button>
               ))}
             </div>
             <div className="p-3 bg-white rounded-xl border border-slate-200 text-sm font-mono">
-              <div>phase: <span className="text-violet-700 font-bold">{moonPhaseName(moonDay)}</span></div>
-              <div>lit fraction seen from Earth: <span className="text-violet-700 font-bold">{illum}%</span></div>
+              <div>phase: <span className="text-gold-700 font-bold">{moonPhaseName(moonDay)}</span></div>
+              <div>lit fraction seen from Earth: <span className="text-gold-700 font-bold">{illum}%</span></div>
               <div className="text-xs text-slate-500 mt-1 font-sans">one full cycle = 29.5 days = one month on many Indian calendars (Amavasya to Purnima and back)</div>
             </div>
           </div>

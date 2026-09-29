@@ -11,7 +11,7 @@ export const w_c11_physicsbernoullistheoremsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Bernoulli\'s Principle: Statement and Derivation',
     chapters: [],
     nodeIds: ['c11_phy_cbse_09_007', 'c11_phy_cbse_09_002', 'c11_phy_cbse_09_003', 'c11_phy_cbse_09_005', 'c11_phy_cbse_09_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe water flowing from a garden hose: when you partially cover the opening with your thumb, the water.', goal: 'Master Bernoulli\'s Principle: Statement and Derivation.' },
     discovery: {
         question: 'Water flows through a horizontal pipe that narrows from cross-sectional area A₁ to A₂ (A₂ < A₁).',
@@ -20,7 +20,7 @@ export const w_c11_physicsbernoullistheoremsim: SimDef = {
         hook: 'Students believe Bernoulli\'s principle means "faster flow always means lower pressure" in all situations.',
     },
     teaching: [
-        { title: 'Bernoulli\'s principle states that for a.', text: 'Bernoulli\'s principle states that for a steady, incompressible, non-viscous fluid flow along a streamline, the sum of pressure energy per unit volume (P), kinetic energy per unit volume (½ρv²), and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Bernoulli\'s principle states that for a.', text: 'Bernoulli\'s principle states that for a steady, incompressible, non-viscous fluid flow along a streamline, the sum of pressure energy per unit volume (P), kinetic energy per unit volume (½ρv²), and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_09_007', title: 'Bernoulli\'s principle states that for a.',

@@ -42,7 +42,7 @@ export function C7_ScienceRespirationInOrganismsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Respiration in Organisms: Breathing in Action</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Respiration in Organisms: Breathing in Action</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Activity + organism pickers */}
@@ -51,7 +51,7 @@ export function C7_ScienceRespirationInOrganismsSim() {
           <button
             key={a.id}
             onClick={() => { setAct(a.id); setCount(0); }}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${act === a.id ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${act === a.id ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {a.emoji} {a.name}
           </button>
@@ -123,7 +123,7 @@ export function C7_ScienceRespirationInOrganismsSim() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         <div className="p-4 bg-slate-800 rounded-2xl border border-slate-600 text-center">
           <div className="text-xs uppercase text-slate-400">{organism === 'human' ? 'Breathing rate' : 'Gill flow rate'}</div>
-          <div className="text-3xl font-black font-mono text-sky-400">{Math.round(rate)}/min</div>
+          <div className="text-3xl font-black font-mono text-gold-400">{Math.round(rate)}/min</div>
           <div className="text-xs text-slate-400 mt-1">{ACTIVITIES.find((a) => a.id === act)!.name} pace</div>
         </div>
         <div className="p-4 bg-slate-800 rounded-2xl border border-slate-600 text-center">
@@ -139,8 +139,8 @@ export function C7_ScienceRespirationInOrganismsSim() {
         </div>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Move from Sleeping to Running: how many times faster is the rate? Now guess: why can you talk while walking but not while sprinting?</li>
           <li>Switch to the fish while Running and count 10 breaths with the stopwatch. Does the gill rhythm feel like your own breathing after PE class?</li>

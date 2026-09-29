@@ -1209,13 +1209,13 @@ function C9_PhysicsOhmsResistanceSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-blue-400 font-medium">CISCE Class 9 Physics • ICSE 2026 Focus</p>
+            <p className="text-xs text-gold-400 font-medium">CISCE Class 9 Physics • ICSE 2026 Focus</p>
           </div>
         </div>
 
@@ -1226,7 +1226,7 @@ function C9_PhysicsOhmsResistanceSim({
               key={p}
               whileHover={{ scale: 1.05 }}
               className={`px-3 py-1 rounded-xl text-xs font-bold uppercase transition-colors ${
-                phase === p ? 'bg-blue-600 text-white shadow' : 'text-slate-400'
+                phase === p ? 'bg-gold-600 text-white shadow' : 'text-slate-400'
               }`}
             >
               {p}
@@ -1241,12 +1241,12 @@ function C9_PhysicsOhmsResistanceSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-5 bg-gradient-to-br from-blue-950/60 to-slate-900/80 rounded-2xl border border-blue-800/40"
+            className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900/80 rounded-2xl border border-gold-800/40"
           >
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-500/20 text-blue-300 border border-blue-400/30 uppercase tracking-wider">
+            <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-gold-500/20 text-gold-300 border border-gold-400/30 uppercase tracking-wider">
               Diagnostic Scenario
             </span>
-            <h2 className="text-xl font-bold text-blue-200 mt-2">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-200 mt-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-1 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 italic">{SCENARIO.context}</p>
           </motion.div>
@@ -1286,7 +1286,7 @@ function C9_PhysicsOhmsResistanceSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-blue-500/25 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-500/25 flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1300,7 +1300,7 @@ function C9_PhysicsOhmsResistanceSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Lab Station {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1308,7 +1308,7 @@ function C9_PhysicsOhmsResistanceSim({
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-blue-500' : 'w-2 bg-slate-700'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1324,7 +1324,7 @@ function C9_PhysicsOhmsResistanceSim({
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
               <div>
-                <h3 className="text-lg md:text-xl font-bold text-blue-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg md:text-xl font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-400 text-xs md:text-sm mt-1 font-medium">
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1338,9 +1338,9 @@ function C9_PhysicsOhmsResistanceSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-2"
+                      className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-2"
                     >
-                      <p className="text-sm font-semibold text-indigo-200">
+                      <p className="text-sm font-semibold text-gold-200">
                         ⚡ Quick Prediction: {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1377,7 +1377,7 @@ function C9_PhysicsOhmsResistanceSim({
 
                       <div className="absolute top-4 right-4 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-700 text-xs">
                         <span className="text-slate-400">Current (I): </span>
-                        <span className="font-mono text-sky-400 font-bold">{simCurrent} A</span>
+                        <span className="font-mono text-gold-400 font-bold">{simCurrent} A</span>
                       </div>
 
                       <div className="absolute bottom-4 bg-slate-900/90 px-4 py-1.5 rounded-lg border border-slate-700 text-xs text-center">
@@ -1422,7 +1422,7 @@ function C9_PhysicsOhmsResistanceSim({
                         />
                       </div>
 
-                      <div className="p-2.5 bg-blue-950/30 rounded-lg border border-blue-800/40 text-xs text-blue-200">
+                      <div className="p-2.5 bg-gold-950/30 rounded-lg border border-gold-800/40 text-xs text-gold-200">
                         <p className="font-semibold">Ohm\'s Law Formula:</p>
                         <p className="font-mono mt-0.5">I = V / R = {simVoltage} / {simResistance} = {simCurrent} A</p>
                       </div>
@@ -1576,7 +1576,7 @@ function C9_PhysicsOhmsResistanceSim({
                     <div className="w-full max-w-sm mt-3">
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Magnet Proximity:</span>
-                        <span className="font-bold text-blue-400">{magnetDistance} cm</span>
+                        <span className="font-bold text-gold-400">{magnetDistance} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1587,7 +1587,7 @@ function C9_PhysicsOhmsResistanceSim({
                           setMagnetDistance(Number(e.target.value));
                           audioManager.play('pop');
                         }}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Magnet Proximity"
                       />
                     </div>
@@ -1705,7 +1705,7 @@ function C9_PhysicsOhmsResistanceSim({
                           step={0.1}
                           value={capillaryRadius}
                           onChange={e => setCapillaryRadius(Number(e.target.value))}
-                          className="w-full accent-sky-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
                       <div className="flex items-center justify-between p-2 bg-slate-900 rounded-lg border border-slate-800">
@@ -1754,7 +1754,7 @@ function C9_PhysicsOhmsResistanceSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-blue-500/20"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-500/20"
               >
                 Next Lab Station →
               </motion.button>
@@ -1787,7 +1787,7 @@ function C9_PhysicsOhmsResistanceSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-blue-300">⚡ Dynamic Ohm\'s Law Simulator</h4>
+              <h4 className="text-sm font-bold text-gold-300">⚡ Dynamic Ohm\'s Law Simulator</h4>
               <div className="flex justify-between text-xs text-slate-300">
                 <span>Voltage: {simVoltage} V</span>
                 <span>Current: {simCurrent} A</span>
@@ -1798,7 +1798,7 @@ function C9_PhysicsOhmsResistanceSim({
                 max={48}
                 value={simVoltage}
                 onChange={e => handleVoltageChange(Number(e.target.value))}
-                className="w-full accent-blue-500"
+                className="w-full accent-gold-500"
               />
               <div className="flex justify-between text-xs text-slate-300">
                 <span>Resistance: {simResistance} Ω</span>
@@ -1837,7 +1837,7 @@ function C9_PhysicsOhmsResistanceSim({
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-xl font-black text-sm shadow-xl shadow-blue-500/25 flex items-center justify-center gap-2"
+            className="w-full py-3.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-black text-sm shadow-xl shadow-gold-500/25 flex items-center justify-center gap-2"
           >
             Ready for Challenges (NEP 2020 Competency Assessment) →
           </motion.button>
@@ -1861,32 +1861,32 @@ function C9_PhysicsOhmsResistanceSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                     : difficulty === 'standard'
-                    ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                    ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                     : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
                 }`}
               >
                 {difficulty}
               </motion.span>
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 uppercase">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-gold-500/20 text-gold-300 border border-gold-500/30 uppercase">
                 {challenge.competencyLevel}
               </span>
             </div>
 
             <span className="text-xs text-slate-400">
-              Mastery: <strong className="text-blue-400 uppercase">{masteryLevel}</strong>
+              Mastery: <strong className="text-gold-400 uppercase">{masteryLevel}</strong>
             </span>
           </div>
 
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -1944,7 +1944,7 @@ function C9_PhysicsOhmsResistanceSim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-3.5 py-2 bg-blue-600/30 hover:bg-blue-600/50 border border-blue-500/50 text-blue-200 rounded-xl text-xs font-bold cursor-grab shadow"
+                    className="px-3.5 py-2 bg-gold-600/30 hover:bg-gold-600/50 border border-gold-500/50 text-gold-200 rounded-xl text-xs font-bold cursor-grab shadow"
                     role="button"
                     aria-label={`Draggable ${item.label}`}
                   >
@@ -1960,7 +1960,7 @@ function C9_PhysicsOhmsResistanceSim({
                     key={targetId}
                     onDragOver={e => e.preventDefault()}
                     onDrop={() => handleDragDrop(targetId)}
-                    className="p-4 bg-slate-900 rounded-xl border-2 border-dashed border-slate-700 min-h-[90px] flex flex-col justify-center items-center text-center transition-colors hover:border-blue-500"
+                    className="p-4 bg-slate-900 rounded-xl border-2 border-dashed border-slate-700 min-h-[90px] flex flex-col justify-center items-center text-center transition-colors hover:border-gold-500"
                   >
                     <span className="text-xs text-slate-400 font-semibold uppercase tracking-wider mb-1">
                       {targetId.replace('_', ' ')}
@@ -1976,7 +1976,7 @@ function C9_PhysicsOhmsResistanceSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={() => handleAnswer(droppedLabels)}
-                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Verify Component Wiring
               </motion.button>
@@ -2006,7 +2006,7 @@ function C9_PhysicsOhmsResistanceSim({
                     role="button"
                     aria-label={`Sort item ${displayIdx + 1}`}
                   >
-                    <span className="w-6 h-6 rounded-lg bg-blue-600/30 text-blue-300 flex items-center justify-center font-bold text-xs shrink-0">
+                    <span className="w-6 h-6 rounded-lg bg-gold-600/30 text-gold-300 flex items-center justify-center font-bold text-xs shrink-0">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2024,7 +2024,7 @@ function C9_PhysicsOhmsResistanceSim({
                       : challenge.sortItems?.map((_, i) => i) || [];
                   handleAnswer(ans);
                 }}
-                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Submit Sorted Sequence
               </motion.button>
@@ -2047,7 +2047,7 @@ function C9_PhysicsOhmsResistanceSim({
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value"
-                  className={`px-4 py-3 bg-slate-900 border rounded-xl text-white font-mono text-base focus:outline-none focus:border-blue-500 w-48 ${
+                  className={`px-4 py-3 bg-slate-900 border rounded-xl text-white font-mono text-base focus:outline-none focus:border-gold-500 w-48 ${
                     wrongFlash ? 'border-rose-500' : 'border-slate-700'
                   }`}
                   aria-label="Numeric answer input"
@@ -2060,7 +2060,7 @@ function C9_PhysicsOhmsResistanceSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={!numericInput || showExplanation}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold text-sm disabled:opacity-40"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm disabled:opacity-40"
                 >
                   Verify Answer
                 </motion.button>
@@ -2084,7 +2084,7 @@ function C9_PhysicsOhmsResistanceSim({
                       setConstructParts(prev => [...prev, part]);
                       audioManager.play('tap');
                     }}
-                    className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono"
+                    className="px-3 py-1.5 bg-gold-950 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono"
                   >
                     + {part}
                   </motion.button>
@@ -2101,7 +2101,7 @@ function C9_PhysicsOhmsResistanceSim({
                 {constructParts.map((p, idx) => (
                   <span
                     key={idx}
-                    className="px-2.5 py-1 bg-blue-900/60 border border-blue-600 rounded-lg text-xs text-blue-200 font-mono flex items-center gap-1.5"
+                    className="px-2.5 py-1 bg-gold-900/60 border border-gold-600 rounded-lg text-xs text-gold-200 font-mono flex items-center gap-1.5"
                   >
                     {p}
                     <button
@@ -2122,7 +2122,7 @@ function C9_PhysicsOhmsResistanceSim({
                 whileTap={{ scale: 0.96 }}
                 onClick={() => handleAnswer(constructParts.join(' '))}
                 disabled={constructParts.length === 0 || showExplanation}
-                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Validate Construction
               </motion.button>
@@ -2190,7 +2190,7 @@ function C9_PhysicsOhmsResistanceSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD LAB REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-blue-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-blue-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-gold-700/50 text-center space-y-3">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2203,7 +2203,7 @@ function C9_PhysicsOhmsResistanceSim({
             <p className="text-sm text-slate-300 max-w-lg mx-auto">
               Your overall diagnostic score: <strong className="text-emerald-400 font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</strong>
             </p>
-            <p className="text-xs text-blue-300 font-medium">Adaptive Mastery Tier: {masteryLevel.toUpperCase()}</p>
+            <p className="text-xs text-gold-300 font-medium">Adaptive Mastery Tier: {masteryLevel.toUpperCase()}</p>
           </div>
 
           {/* Personalized Motivational Feedback */}
@@ -2249,7 +2249,7 @@ function C9_PhysicsOhmsResistanceSim({
 
           {/* Reflection Section */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🤔</span> Reflection & Conceptual Synthesis
             </h3>
             <div className="space-y-3">
@@ -2262,7 +2262,7 @@ function C9_PhysicsOhmsResistanceSim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g., Why steel is scientifically more elastic than rubber..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div>
@@ -2274,7 +2274,7 @@ function C9_PhysicsOhmsResistanceSim({
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g., Voltage is electrical pressure pushing electrons through resistance..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div>
@@ -2286,7 +2286,7 @@ function C9_PhysicsOhmsResistanceSim({
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g., Sizing heating elements or balancing levers in mechanical tools..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2306,12 +2306,12 @@ function C9_PhysicsOhmsResistanceSim({
 
           {/* Real World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-blue-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-2 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="w-5 h-5 rounded-full bg-blue-600/20 text-blue-300 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
+                  <span className="w-5 h-5 rounded-full bg-gold-600/20 text-gold-300 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

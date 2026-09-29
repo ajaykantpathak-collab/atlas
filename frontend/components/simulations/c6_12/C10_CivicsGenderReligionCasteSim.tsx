@@ -80,18 +80,18 @@ export function C10_CivicsGenderReligionCasteSim() {
               onChange={(e) => setWomenReservation(Number(e.target.value))} className="w-full accent-emerald-500" />
             <div className="flex justify-between text-[11px] text-slate-400"><span>Sex ratio of literacy (female vs male literacy gap)</span><span className="font-mono">{literacyGap} pts</span></div>
             <input type="range" min={5} max={30} value={literacyGap} aria-label="literacy gap"
-              onChange={(e) => setLiteracyGap(Number(e.target.value))} className="w-full accent-sky-500" />
+              onChange={(e) => setLiteracyGap(Number(e.target.value))} className="w-full accent-gold-500" />
             <p className="text-[10px] text-slate-500 mt-1">Reality check (2001 census era): male literacy 76%, female 59% -- a {literacyGap}-point gap; sex ratio about 927-933 women per 1000 men; women&apos;s workforce share about one-third, most unpaid on family land. Kerala vs Nainital-style contrast: where girls&apos; education rose, maternal and infant mortality fell.</p>
           </div>
 
           {/* RELIGION */}
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-3">Lab 2: Religion and communalism (census shares, %)</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-3">Lab 2: Religion and communalism (census shares, %)</p>
             <div className="grid grid-cols-5 gap-2">
               {[
                 { label: 'Hindus', v: hindu, set: setHindu, c: 'bg-orange-500' },
                 { label: 'Muslims', v: muslim, set: setMuslim, c: 'bg-emerald-500' },
-                { label: 'Christians', v: christian, set: setChristian, c: 'bg-sky-500' },
+                { label: 'Christians', v: christian, set: setChristian, c: 'bg-gold-500' },
                 { label: 'Sikhs', v: sikh, set: setSikh, c: 'bg-amber-400' },
                 { label: 'Others', v: otherR, set: setOtherR, c: 'bg-slate-500' },
               ].map((r) => (
@@ -104,7 +104,7 @@ export function C10_CivicsGenderReligionCasteSim() {
             </div>
             <div className="grid grid-cols-2 gap-2 mt-3">
               <button onClick={() => setCommunalPolicy('secular')}
-                className={`py-2 rounded-xl text-[11px] font-bold ${communalPolicy === 'secular' ? 'bg-indigo-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-[11px] font-bold ${communalPolicy === 'secular' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Secular design (no state religion)
               </button>
               <button onClick={() => setCommunalPolicy('majoritarian')}
@@ -140,7 +140,7 @@ export function C10_CivicsGenderReligionCasteSim() {
               <p className="text-slate-400 text-[11px]">Equal political rights, more education and career opportunities, legal reform (equal wages, protection against harassment and dowry). Sexual division of labour: housework invisible, unpaid, taken for granted -- &quot;public/private&quot; divide.</p>
             </div>
             <div>
-              <p className="font-bold text-violet-300 mb-1">Indian secularism (constitutional)</p>
+              <p className="font-bold text-gold-300 mb-1">Indian secularism (constitutional)</p>
               <p className="text-slate-400 text-[11px]">No official religion (unlike Sri Lanka&apos;s Buddhism or Pakistan&apos;s Islam); freedom to profess, practise and propagate; state may INTERVENE to ensure equality (banning untouchability, regulating personal laws to protect rights). Indian secularism = principled distance, not US-style strict wall.</p>
             </div>
             <div>

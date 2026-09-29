@@ -39,11 +39,11 @@ export function C8_MathematicsWeDistributeYetThingsMultiplySim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">We Distribute, Yet Things Multiply</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">We Distribute, Yet Things Multiply</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">One picture, two ideas:</span> the rectangle
+          <span className="font-bold text-gold-700">One picture, two ideas:</span> the rectangle
           model proves the distributive law for letters AND numbers. Every part of (a + b) shakes
           hands with every part of (c + d), and the four handshake areas add to the whole. Mental
           maths like 23 x 47 works the same way: split, multiply, add.
@@ -60,7 +60,7 @@ export function C8_MathematicsWeDistributeYetThingsMultiplySim() {
       </div>
 
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 240 240" className="w-full">
             {/* side labels */}
             <text x={px(a / 2)} y={22} textAnchor="middle" fontSize="11" fill="#4338ca" fontWeight="bold">a={a}</text>
@@ -88,13 +88,13 @@ export function C8_MathematicsWeDistributeYetThingsMultiplySim() {
             <div key={label}>
               <label className="text-xs font-semibold text-slate-500 flex justify-between">
                 <span>{label}</span>
-                <span className="font-mono text-indigo-600">{val}</span>
+                <span className="font-mono text-gold-600">{val}</span>
               </label>
-              <input type="range" min={1} max={6} value={val} aria-label={label} onChange={(e) => setter(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+              <input type="range" min={1} max={6} value={val} aria-label={label} onChange={(e) => setter(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
             </div>
           ))}
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div className="text-indigo-700 font-bold">({a}+{b}) x ({c}+{d}) = {a + b} x {c + d} = {total}</div>
+            <div className="text-gold-700 font-bold">({a}+{b}) x ({c}+{d}) = {a + b} x {c + d} = {total}</div>
             <div>= {ac} + {ad} + {bc} + {bd} = <span className="text-emerald-700 font-bold">{sum}</span></div>
             <div className={`mt-1 text-xs ${total === sum ? 'text-emerald-600' : 'text-rose-600'}`}>
               {total === sum ? 'both routes agree - identity verified' : 'mismatch?! (should never happen)'}
@@ -108,7 +108,7 @@ export function C8_MathematicsWeDistributeYetThingsMultiplySim() {
           <p className="text-xs font-bold text-slate-500 mb-2">SAME TRICK WITH NUMBERS: split and multiply</p>
           <label className="text-xs font-semibold text-slate-500 flex justify-between">
             <span>Number to split x (second stays {y1} + {y2} = {c * 10 + d})</span>
-            <span className="font-mono text-indigo-600">{splitX}</span>
+            <span className="font-mono text-gold-600">{splitX}</span>
           </label>
           <input type="range" min={11} max={49} value={splitX} aria-label="number to split" onChange={(e) => setSplitX(Number(e.target.value))} className="w-full mt-1 accent-amber-600" />
           <div className="mt-2 font-mono text-sm text-slate-700">

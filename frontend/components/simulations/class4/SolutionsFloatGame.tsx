@@ -192,9 +192,9 @@ function ProfessorPooja({ mood, speaking }: { mood: MascotMood; speaking: string
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-indigo-200"
+            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[260px] border-2 border-gold-200"
           >
-            <p className="text-sm font-bold text-indigo-900">{speaking}</p>
+            <p className="text-sm font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -347,7 +347,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: 'Solutions in Water 💧',
     text: 'When a solid like sugar dissolves in water, it spreads evenly to form a clear solution! The sugar is the solute, and the water is the solvent.',
     emoji: '🧂',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'When a solid like sugar dissolves in water, it spreads evenly to form a clear solution! Sugar is the solute and water is the solvent.',
   },
   {
@@ -748,7 +748,7 @@ export function SolutionsFloatGame({ width = 720, height = 560, onComplete }: So
                   audioManager.play('whoosh');
                 }
               }}
-              className="px-8 py-3 rounded-2xl bg-yellow-400 font-black text-indigo-900 shadow-lg hover:bg-yellow-300 transform active:scale-95"
+              className="px-8 py-3 rounded-2xl bg-yellow-400 font-black text-gold-900 shadow-lg hover:bg-yellow-300 transform active:scale-95"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Experiment! 🚀' : 'Next ➡️'}
             </button>
@@ -761,7 +761,7 @@ export function SolutionsFloatGame({ width = 720, height = 560, onComplete }: So
         <div className="absolute inset-0 flex flex-col justify-between p-6 z-10">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-3">
-              <span className="bg-indigo-600 text-white font-black px-4 py-1.5 rounded-full shadow text-sm">
+              <span className="bg-gold-600 text-white font-black px-4 py-1.5 rounded-full shadow text-sm">
                 Challenge {challengeIdx + 1} / {CHALLENGES.length}
               </span>
               <span className="bg-amber-500 text-white font-black px-4 py-1.5 rounded-full shadow text-sm">
@@ -770,7 +770,7 @@ export function SolutionsFloatGame({ width = 720, height = 560, onComplete }: So
             </div>
             <button
               onClick={handleShowHint}
-              className="bg-white/90 hover:bg-white text-indigo-700 font-bold px-4 py-1.5 rounded-full shadow flex items-center gap-1.5 text-sm"
+              className="bg-white/90 hover:bg-white text-gold-700 font-bold px-4 py-1.5 rounded-full shadow flex items-center gap-1.5 text-sm"
             >
               💡 Hint
             </button>
@@ -781,9 +781,9 @@ export function SolutionsFloatGame({ width = 720, height = 560, onComplete }: So
               key={challengeIdx}
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              className="bg-white/95 backdrop-blur rounded-3xl p-6 shadow-2xl max-w-xl w-full text-center border-4 border-indigo-100 mb-6"
+              className="bg-white/95 backdrop-blur rounded-3xl p-6 shadow-2xl max-w-xl w-full text-center border-4 border-gold-100 mb-6"
             >
-              <h3 className="text-xl font-black text-indigo-900 mb-4">{currentChallenge.question}</h3>
+              <h3 className="text-xl font-black text-gold-900 mb-4">{currentChallenge.question}</h3>
 
               {currentChallenge.type === 'identify' && (
                 <div className="grid grid-cols-1 gap-3">
@@ -802,7 +802,7 @@ export function SolutionsFloatGame({ width = 720, height = 560, onComplete }: So
                             ? isCorrect
                               ? 'bg-green-500 text-white ring-4 ring-green-300'
                               : 'bg-red-500 text-white ring-4 ring-red-300'
-                            : 'bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border-2 border-indigo-200'
+                            : 'bg-gold-50 hover:bg-gold-100 text-gold-900 border-2 border-gold-200'
                         }`}
                       >
                         {opt}
@@ -925,8 +925,8 @@ function SortCard({
       height={95}
     >
       <div
-        className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-indigo-200 ${
-          placed ? 'opacity-40 bg-gray-100' : 'bg-white hover:border-indigo-400'
+        className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-200 ${
+          placed ? 'opacity-40 bg-gray-100' : 'bg-white hover:border-gold-400'
         } p-2`}
         style={{ width: 115, height: 95 }}
       >

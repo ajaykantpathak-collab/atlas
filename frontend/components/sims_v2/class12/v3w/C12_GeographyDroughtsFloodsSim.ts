@@ -11,7 +11,7 @@ export const w_c12_geographydroughtsfloodssim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Variability of Rainfall and Water Scarcity in India',
     chapters: [],
     nodeIds: ['c12_geo_cbse_12_003', 'c12_geo_cbse_17_007', 'c12_geo_cbse_19_008', 'c12_geo_cbse_12_004', 'c12_geo_cbse_12_005', 'c12_geo_cbse_12_006', 'c12_geo_cbse_12_011', 'c12_geo_cbse_17_006', 'c12_geo_cbse_17_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Start with a real-world observation: "Check the IMD rainfall map for your district — you\'ll see some years.', goal: 'Master Variability of Rainfall and Water Scarcity in India.' },
     discovery: {
         question: 'Name the four seismic zones of India (Zone II to V) in order of increasing hazard and state the primary tectonic feature responsible for Zone V.',
@@ -20,7 +20,7 @@ export const w_c12_geographydroughtsfloodssim: SimDef = {
         hook: 'Students think "drought = no rain" and "flood = too much rain", ignoring that drought is a slow-onset deficit relative.',
     },
     teaching: [
-        { title: 'Variability of rainfall refers to the.', text: 'Variability of rainfall refers to the spatial and temporal fluctuations in precipitation across India, where the majority of annual rainfall occurs during the Southwest Monsoon (June-September) with.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Variability of rainfall refers to the.', text: 'Variability of rainfall refers to the spatial and temporal fluctuations in precipitation across India, where the majority of annual rainfall occurs during the Southwest Monsoon (June-September) with.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_12_003', title: 'Variability of rainfall refers to the.',

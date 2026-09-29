@@ -11,7 +11,7 @@ export const w_c8_mathematicscomparingquantitiessim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Ratios with More Than Two Terms: Multi-Term Ratios',
     chapters: [],
     nodeIds: ['c8_math_ch10_4', 'c8_math_ch8_10', 'c8_math_ch8_11', 'c8_math_ch8_7', 'c8_math_ch10_3', 'c8_math_ch7_10', 'c8_math_ch8_1', 'c8_math_ch8_2', 'c8_math_ch8_3', 'c8_math_ch8_4', 'c8_math_ch8_5', 'c8_math_ch8_6', 'c8_math_ch10_10', 'c8_math_ch10_5', 'c8_math_ch10_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine three friends — Anil, Bina, and Chirag — invest ₹12,000, ₹18,000, and ₹30,000 respectively in a small.', goal: 'Master Ratios with More Than Two Terms: Multi-Term Ratios.' },
     discovery: {
         question: 'What is the formula to calculate the discount amount when the marked price and discount percentage are given?',
@@ -20,7 +20,7 @@ export const w_c8_mathematicscomparingquantitiessim: SimDef = {
         hook: 'Students calculate discount percentage on the selling price instead of the marked price.',
     },
     teaching: [
-        { title: 'A multi-term ratio compares three or more.', text: 'A multi-term ratio compares three or more quantities of the same kind, written as \\(a:b:c:\\dots\\) where each term represents a relative part.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A multi-term ratio compares three or more.', text: 'A multi-term ratio compares three or more quantities of the same kind, written as \\(a:b:c:\\dots\\) where each term represents a relative part.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch10_4', title: 'A multi-term ratio compares three or.',

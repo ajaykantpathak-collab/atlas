@@ -11,7 +11,7 @@ export const w_c12_historybhaktisufitraditionssim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins',
     chapters: [],
     nodeIds: ['c12_hist_cbse_06_002', 'c12_hist_cbse_06_004', 'c12_hist_cbse_06_006', 'c12_hist_cbse_06_001', 'c12_hist_cbse_06_005', 'c12_hist_cbse_06_007', 'c12_hist_cbse_06_008', 'c12_hist_cbse_06_012', 'c12_hist_cbse_06_010', 'c12_hist_cbse_06_011', 'c12_hist_cbse_06_003', 'c12_hist_cbse_03_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you visit the Brihadisvara Temple at Thanjavur and see bronze images of three saints — Appar,.', goal: 'Master The Nayanars and Alvars: Tamil Devotional Movements and Bhakti Origins.' },
     discovery: {
         question: 'Who compiled the *Nalayira Divyaprabandham* and approximately when?',
@@ -20,7 +20,7 @@ export const w_c12_historybhaktisufitraditionssim: SimDef = {
         hook: 'Students often think: (1) All Alvars were male Brahmins — in fact, they included a woman (Andal), a tribal hunter.',
     },
     teaching: [
-        { title: 'The Nayanars (63 poet-saints devoted to.', text: 'The Nayanars (63 poet-saints devoted to Shiva) and Alvars (12 poet-saints devoted to Vishnu) were Tamil devotional movements (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Nayanars (63 poet-saints devoted to.', text: 'The Nayanars (63 poet-saints devoted to Shiva) and Alvars (12 poet-saints devoted to Vishnu) were Tamil devotional movements (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_06_002', title: 'The Nayanars (63 poet-saints devoted to.',

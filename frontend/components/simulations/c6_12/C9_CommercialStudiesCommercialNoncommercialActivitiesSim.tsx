@@ -1167,12 +1167,12 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
       {/* ─── HEADER BAR ─── */}
       <motion.div initial={{ y: -10 }} animate={{ y: 0 }} className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <motion.div whileHover={{ rotate: 10, scale: 1.1 }} className="p-3 bg-indigo-900/40 rounded-2xl border border-indigo-500/30 text-2xl">
+          <motion.div whileHover={{ rotate: 10, scale: 1.1 }} className="p-3 bg-gold-900/40 rounded-2xl border border-gold-500/30 text-2xl">
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded-md border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded-md border border-gold-800">
                 ICSE Class 9 Commercial Studies
               </span>
               <motion.span
@@ -1183,7 +1183,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950/80 text-blue-300 border-blue-700'
+                    ? 'bg-gold-950/80 text-gold-300 border-gold-700'
                     : 'bg-rose-950/80 text-rose-300 border-rose-700'
                 }`}
               >
@@ -1202,7 +1202,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                 whileHover={{ scale: 1.05 }}
                 className={`text-xs font-bold uppercase px-2 py-1 rounded-lg transition-all ${
                   phase === p
-                    ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                    ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                     : 'text-slate-500 hover:text-slate-300'
                 }`}
               >
@@ -1217,12 +1217,12 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
       {/* ─── PHASE 1: DISCOVERY (CURIOSITY HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <motion.div whileHover={{ scale: 1.005 }} className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-inner">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <motion.div whileHover={{ scale: 1.005 }} className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40 shadow-inner">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 mt-2 bg-indigo-900/30 p-2.5 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-200/80 mt-2 bg-gold-900/30 p-2.5 rounded-xl border border-gold-800/40">
               💡 <strong>Consultant Brief:</strong> {SCENARIO.context}
             </p>
           </motion.div>
@@ -1248,11 +1248,11 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                         : i === discoverySelected
                         ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1268,7 +1268,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="mt-4 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1291,7 +1291,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                 onClick={() => setCurrentSlide(idx)}
                 className={`py-2 px-1 text-center rounded-xl text-xs font-bold transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-850'
                 }`}
               >
@@ -1333,12 +1333,12 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                         onClick={() => handleActivitySelect(act.id)}
                         className={`p-3 rounded-xl text-left border text-xs font-medium transition-all ${
                           selectedActivityId === act.id
-                            ? 'bg-indigo-900/60 border-indigo-400 text-white ring-2 ring-indigo-500/40'
+                            ? 'bg-gold-900/60 border-gold-400 text-white ring-2 ring-gold-500/40'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                         }`}
                       >
                         <div className="font-bold text-sm text-white">{act.label}</div>
-                        <div className="text-indigo-300 mt-0.5">{act.sub}</div>
+                        <div className="text-gold-300 mt-0.5">{act.sub}</div>
                       </motion.button>
                     ))}
                   </div>
@@ -1411,7 +1411,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                         onClick={() => handleOccupationSelect(occ)}
                         className={`flex-1 py-2.5 rounded-xl font-bold text-sm uppercase transition-all border ${
                           activeOccupation === occ
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1437,7 +1437,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
 
                     <motion.div whileHover={{ y: -2 }} className="space-y-3 p-3 bg-slate-900 rounded-lg border border-slate-800">
                       <div className="text-xs font-bold text-slate-400 uppercase">2. Statutory Regulation</div>
-                      <div className="text-base font-black text-indigo-400">
+                      <div className="text-base font-black text-gold-400">
                         {activeOccupation === 'business' && 'Shops & Estab. / Trade Lic.'}
                         {activeOccupation === 'profession' && 'ICAI / Bar Council / NMC'}
                         {activeOccupation === 'employment' && 'Contract of Service'}
@@ -1476,8 +1476,8 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
               {currentSlide === 2 && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                   {!obsAnswered && (
-                    <motion.div initial={{ scale: 0.98 }} animate={{ scale: 1 }} className="p-3 bg-indigo-950/70 border border-indigo-700/60 rounded-xl">
-                      <p className="text-xs font-bold text-indigo-300">Observation Checkpoint:</p>
+                    <motion.div initial={{ scale: 0.98 }} animate={{ scale: 1 }} className="p-3 bg-gold-950/70 border border-gold-700/60 rounded-xl">
+                      <p className="text-xs font-bold text-gold-300">Observation Checkpoint:</p>
                       <p className="text-sm text-slate-200 mt-1">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1580,11 +1580,11 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                         onClick={() => handlePipelineStep(step.idx)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           pipelineStage === step.idx
-                            ? 'bg-indigo-900 border-indigo-400 text-white ring-2 ring-indigo-500/50'
+                            ? 'bg-gold-900 border-gold-400 text-white ring-2 ring-gold-500/50'
                             : 'bg-slate-800/80 border-slate-700 text-slate-400'
                         }`}
                       >
-                        <div className="text-xs font-bold uppercase text-indigo-400">{step.title}</div>
+                        <div className="text-xs font-bold uppercase text-gold-400">{step.title}</div>
                         <div className="text-sm font-bold text-white mt-1">{step.comp}</div>
                         <div className="text-xs text-emerald-400 mt-0.5">{step.util}</div>
                       </motion.button>
@@ -1629,7 +1629,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                         onClick={() => handleCargoChange(c.id)}
                         className={`p-3 rounded-xl border text-left text-xs font-bold transition-all ${
                           selectedCargo === c.id
-                            ? 'bg-indigo-900 border-indigo-400 text-white'
+                            ? 'bg-gold-900 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1648,7 +1648,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                         step={50}
                         value={transitDistance}
                         onChange={e => setTransitDistance(Number(e.target.value))}
-                        className="w-full accent-indigo-500 mt-2"
+                        className="w-full accent-gold-500 mt-2"
                         aria-label="Set transit distance"
                       />
                     </div>
@@ -1667,8 +1667,8 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                     </div>
                   </div>
 
-                  <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700">
-                    <div className="text-xs font-bold uppercase text-indigo-300">Optimal Mode Selected:</div>
+                  <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-gold-950/60 rounded-xl border border-gold-700">
+                    <div className="text-xs font-bold uppercase text-gold-300">Optimal Mode Selected:</div>
                     <div className="text-lg font-black text-emerald-400 mt-0.5">{transportRecommendation.mode}</div>
                     <div className="text-xs text-slate-300 mt-1">{transportRecommendation.reason}</div>
                   </motion.div>
@@ -1696,7 +1696,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-md shadow-indigo-600/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1720,7 +1720,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-lg font-black text-indigo-300">Interactive Commercial Sandbox</h3>
+                <h3 className="text-lg font-black text-gold-300">Interactive Commercial Sandbox</h3>
                 <p className="text-xs text-slate-400 mt-1">
                   Adjust cargo, distance, and switches freely. The 2D canvas corridor runs real-time simulations below.
                 </p>
@@ -1747,7 +1747,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleCargoChange(c)}
                   className={`p-3 rounded-xl border text-xs font-bold uppercase transition-all ${
-                    selectedCargo === c ? 'bg-indigo-900 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400'
+                    selectedCargo === c ? 'bg-gold-900 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-400'
                   }`}
                 >
                   {c}
@@ -1774,7 +1774,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
               <motion.span whileHover={{ scale: 1.05 }} className="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-950/70 px-2 py-0.5 rounded border border-amber-700">
                 Competency: {challenge.competencyLevel}
               </motion.span>
-              <motion.span whileHover={{ scale: 1.05 }} className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/70 px-2 py-0.5 rounded border border-indigo-700">
+              <motion.span whileHover={{ scale: 1.05 }} className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/70 px-2 py-0.5 rounded border border-gold-700">
                 Tier: {challenge.difficulty}
               </motion.span>
             </div>
@@ -1782,7 +1782,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1797,7 +1797,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                 : 'bg-slate-900 border-slate-800'
             }`}
           >
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">{challenge.nodeId}</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">{challenge.nodeId}</span>
             <p className="text-base md:text-lg font-bold text-white mt-1 leading-relaxed">{challenge.question}</p>
 
             {/* MCQ TYPE (classify / distinguish / match) */}
@@ -1815,11 +1815,11 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                     className={`p-4 text-left rounded-xl text-sm font-medium border transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                     aria-label={`Option ${i + 1}: ${opt}`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1836,7 +1836,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                       role="button"
                       aria-label={`Drag item: ${item.label}`}
                     >
@@ -1869,7 +1869,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 3}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Mappings
                 </motion.button>
@@ -1899,7 +1899,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                     aria-label={`Sort item ${displayIdx + 1}: ${item}`}
                   >
                     <span>
-                      <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                      <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                     </span>
                     <span className="text-xs text-slate-500 font-bold">⇅ Drag</span>
                   </motion.div>
@@ -1910,7 +1910,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Check Sequence
                 </motion.button>
@@ -1926,7 +1926,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculation"
-                    className="px-4 py-2.5 bg-slate-850 border border-slate-700 rounded-xl text-white font-bold text-sm w-48 focus:border-indigo-500 outline-none"
+                    className="px-4 py-2.5 bg-slate-850 border border-slate-700 rounded-xl text-white font-bold text-sm w-48 focus:border-gold-500 outline-none"
                     aria-label="Enter numeric calculation"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
@@ -1935,7 +1935,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Verify Answer
                   </motion.button>
@@ -1954,7 +1954,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 border border-indigo-700 rounded-lg text-xs font-bold text-indigo-200"
+                      className="px-3 py-1.5 bg-gold-900/80 border border-gold-700 rounded-lg text-xs font-bold text-gold-200"
                     >
                       + {part}
                     </motion.button>
@@ -1963,7 +1963,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
 
                 <div className="min-h-[70px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <motion.span initial={{ scale: 0.8 }} animate={{ scale: 1 }} key={i} className="px-3 py-1 bg-indigo-700 text-white rounded-lg text-xs font-bold flex items-center gap-2">
+                    <motion.span initial={{ scale: 0.8 }} animate={{ scale: 1 }} key={i} className="px-3 py-1 bg-gold-700 text-white rounded-lg text-xs font-bold flex items-center gap-2">
                       {part}
                       <motion.button
                         whileHover={{ scale: 1.2 }}
@@ -1985,7 +1985,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Validate Equation
                 </motion.button>
@@ -2039,12 +2039,12 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
       {/* ─── PHASE 5: COMPLETION & CAPSTONE PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-2">
+          <motion.div whileHover={{ scale: 1.01 }} className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-2">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Commercial Studies Mastery Unlocked!</h2>
             <p className="text-sm text-slate-300">
               Final Composite Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong> • Adaptive Tier:{' '}
-              <strong className="text-indigo-400 uppercase">{difficulty}</strong>
+              <strong className="text-gold-400 uppercase">{difficulty}</strong>
             </p>
           </motion.div>
 
@@ -2084,13 +2084,13 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
           </motion.div>
 
           {/* Capstone Activity */}
-          <motion.div whileHover={{ scale: 1.005 }} className="p-5 bg-indigo-950/60 border border-indigo-800 rounded-2xl space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">🏛️ Capstone: {REAL_WORLD_ACTIVITY.title}</h3>
+          <motion.div whileHover={{ scale: 1.005 }} className="p-5 bg-gold-950/60 border border-gold-800 rounded-2xl space-y-3">
+            <h3 className="text-base font-bold text-gold-300">🏛️ Capstone: {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <motion.div whileHover={{ x: 2 }} key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </motion.div>
               ))}
@@ -2109,7 +2109,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
 
             <div className="space-y-4">
               <motion.div whileHover={{ scale: 1.005 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2117,12 +2117,12 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   value={reflectionResponses.surprising}
                   onChange={e => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. Learning that Akshaya Patra can generate surplus donations, but the statutory non-distribution rule keeps it charitable..."
-                  className="w-full bg-slate-900 border border-slate-750 rounded-lg p-2.5 text-xs text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-750 rounded-lg p-2.5 text-xs text-slate-200 outline-none focus:border-gold-500"
                 />
               </motion.div>
 
               <motion.div whileHover={{ scale: 1.005 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2130,12 +2130,12 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   value={reflectionResponses.explanation}
                   onChange={e => setReflectionResponses(prev => ({ ...prev, explanation: e.target.value }))}
                   placeholder="e.g. Industry creates Form utility by transforming goods, whereas Commerce bridges distance and time via trade + aids to trade..."
-                  className="w-full bg-slate-900 border border-slate-750 rounded-lg p-2.5 text-xs text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-750 rounded-lg p-2.5 text-xs text-slate-200 outline-none focus:border-gold-500"
                 />
               </motion.div>
 
               <motion.div whileHover={{ scale: 1.005 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2143,7 +2143,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   value={reflectionResponses.application}
                   onChange={e => setReflectionResponses(prev => ({ ...prev, application: e.target.value }))}
                   placeholder="e.g. Choosing between rail and air freight when running an export startup or structuring a non-profit trust..."
-                  className="w-full bg-slate-900 border border-slate-750 rounded-lg p-2.5 text-xs text-slate-200 outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-750 rounded-lg p-2.5 text-xs text-slate-200 outline-none focus:border-gold-500"
                 />
               </motion.div>
             </div>
@@ -2157,7 +2157,7 @@ function C9_CommercialStudiesCommercialNoncommercialActivitiesSim({
                   audioManager.play('drop-correct');
                   speechManager.speak('Reflection recorded successfully.');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 {reflectionSubmitted ? '✓ Reflection Saved' : 'Save Reflection Responses'}
               </motion.button>

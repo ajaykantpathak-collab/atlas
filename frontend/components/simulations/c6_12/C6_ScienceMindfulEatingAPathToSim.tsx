@@ -95,7 +95,7 @@ function C6_ScienceMindfulEatingAPathToSim() {
       <h2 className="text-xl md:text-2xl font-black text-green-700">Mindful eating -- build a balanced plate</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         No ONE food keeps you healthy. Tap foods to add a serving to your plate and watch the wedges move:
-        <b className="text-amber-600"> energy</b>, <b className="text-indigo-600">body-building</b>,
+        <b className="text-amber-600"> energy</b>, <b className="text-gold-600">body-building</b>,
         <b className="text-green-600"> protective</b> and <b className="text-rose-500">once-in-a-while</b>.
       </p>
 
@@ -168,9 +168,9 @@ function C6_ScienceMindfulEatingAPathToSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Build a 100/100 plate using at least SIX different foods -- then read the coach card with zero warnings.</li>
           <li>Make the plate missing ONLY body-building food and read the warning. Now which of your favourite dishes fixes it?</li>
         </ol>

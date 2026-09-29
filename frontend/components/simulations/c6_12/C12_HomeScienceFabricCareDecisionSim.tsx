@@ -67,16 +67,16 @@ export function C12_HomeScienceFabricCareDecisionSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-violet-400">CBSE Class 12 Home Science - Care and Maintenance of Fabrics in Institutions</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Home Science - Care and Maintenance of Fabrics in Institutions</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Fabric Care Decision Tree</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-violet-950 border border-violet-700 text-violet-300">Laundry Lab</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Laundry Lab</span>
       </header>
 
       {/* FABRIC PICK */}
       <div className="flex flex-wrap gap-2 mb-4">
         {FABRICS.map((f) => (
-          <button key={f.id} onClick={() => setFabricId(f.id)} className={`min-h-11 px-4 rounded-xl text-sm font-bold border ${fabricId === f.id ? 'bg-violet-600 text-white border-violet-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
+          <button key={f.id} onClick={() => setFabricId(f.id)} className={`min-h-11 px-4 rounded-xl text-sm font-bold border ${fabricId === f.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
             {f.label}
           </button>
         ))}
@@ -125,7 +125,7 @@ export function C12_HomeScienceFabricCareDecisionSim() {
       {/* FIBRE DOSSIER + MISCONCEPTION */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
         <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-          <p className="text-[10px] uppercase tracking-wider text-violet-300 mb-1">Institutional recommendation for {fabric.label}</p>
+          <p className="text-[10px] uppercase tracking-wider text-gold-300 mb-1">Institutional recommendation for {fabric.label}</p>
           <p>
             {fabric.id === 'cotton' || fabric.id === 'linen'
               ? 'Wash hot with alkali detergents, sun-dry, iron damp on high heat -- ideal for hospital linen that needs sterilising washes.'
@@ -143,7 +143,7 @@ export function C12_HomeScienceFabricCareDecisionSim() {
         </div>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-violet-950/60 to-slate-900 border border-violet-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set Wool with 90 deg C water and hard wringting. Read each damage cause -- explain in one line why the wool felted.</p>
         <p className="mt-1">2. A hospital needs bleach-safe bedsheets. Test all five fabrics with bleach plus 90 deg C and list which two survive.</p>

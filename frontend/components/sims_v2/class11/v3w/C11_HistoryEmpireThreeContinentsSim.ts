@@ -11,7 +11,7 @@ export const w_c11_historyempirethreecontinentssim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'The Mediterranean Sea and Roman Expansion',
     chapters: [],
     nodeIds: ['c11_hist_cbse_02_002', 'c11_hist_cbse_02_008', 'c11_hist_cbse_02_001', 'c11_hist_cbse_02_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at Marina Beach in Chennai watching ships wait for the monsoon winds to change.', goal: 'Master The Mediterranean Sea and Roman Expansion.' },
     discovery: {
         question: 'Name the three continents spanned by the Roman Empire at its peak and the two major rivers that formed its northern frontier.',
@@ -20,7 +20,7 @@ export const w_c11_historyempirethreecontinentssim: SimDef = {
         hook: 'Students often think the Roman Empire expanded "in all directions equally" like a spreading ink blot.',
     },
     teaching: [
-        { title: 'The Mediterranean Sea served as the central.', text: 'The Mediterranean Sea served as the central geographical and economic artery of the Roman Empire (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Mediterranean Sea served as the central.', text: 'The Mediterranean Sea served as the central geographical and economic artery of the Roman Empire (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_02_002', title: 'The Mediterranean Sea served as the.',

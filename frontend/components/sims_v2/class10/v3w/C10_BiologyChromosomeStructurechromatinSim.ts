@@ -11,7 +11,7 @@ export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
     classLevel: 10, subject: 'biology', topic: 'Accumulation of Variation During Reproduction: Basis of Heredity',
     chapters: [],
     nodeIds: ['c10_bio_cbse_04_001', 'c10_bio_cbse_04_003', 'c10_bio_cbse_04_004', 'c10_bio_cbse_04_005', 'c10_bio_cbse_04_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Observe a litter of puppies or a batch of seedlings from the same parent plant — despite having the same.', goal: 'Master Accumulation of Variation During Reproduction: Basis of Heredity.' },
     discovery: {
         question: 'A farmer grows a crop using vegetative propagation (cuttings) for 10 years. Another farmer grows the same crop from seeds each year.',
@@ -20,7 +20,7 @@ export const w_c10_biologychromosomestructurechromatinsim: SimDef = {
         hook: 'Students often think variation in sexual reproduction comes *only* from mutations (like in asexual reproduction), and.',
     },
     teaching: [
-        { title: 'Accumulation of variation during.', text: 'Accumulation of variation during reproduction refers to the generation of genetic differences among offspring through mechanisms such as DNA replication errors (mutations), crossing over during.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Accumulation of variation during.', text: 'Accumulation of variation during reproduction refers to the generation of genetic differences among offspring through mechanisms such as DNA replication errors (mutations), crossing over during.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_bio_cbse_04_001', title: 'Accumulation of variation during.',

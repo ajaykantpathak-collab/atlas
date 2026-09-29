@@ -11,7 +11,7 @@ export const w_c11_appliedmathsgraphquadraticfunctionsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Polynomial Functions: Linear and Quadratic',
     chapters: [],
     nodeIds: ['c11_math_cbse_02_007', 'c11_math_cbse_02_008', 'c11_math_cbse_06_004', 'c11_math_cbse_06_005', 'c11_math_cbse_03_004', 'c11_math_cbse_03_006', 'c11_math_cbse_03_014', 'c11_math_cbse_06_006', 'c11_math_cbse_02_004', 'c11_math_cbse_02_005', 'c11_math_cbse_02_006', 'c11_math_cbse_02_009', 'c11_math_cbse_02_011', 'c11_math_cbse_02_012', 'c11_math_cbse_06_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are tracking the height of a ball thrown upward from a building in Mumbai.', goal: 'Master Polynomial Functions: Linear and Quadratic.' },
     discovery: {
         question: 'Compare the graphical representations of 2x + 1 < 5 and 2x + 1 ≤ 5. What is the only difference between the two graphs? Why does this difference matter?',
@@ -20,7 +20,7 @@ export const w_c11_appliedmathsgraphquadraticfunctionsim: SimDef = {
         hook: 'Students consistently forget to reverse the inequality sign when multiplying or dividing by a negative number during.',
     },
     teaching: [
-        { title: 'A polynomial function is a real-valued.', text: 'A polynomial function is a real-valued function \\( f: \\mathbb{R} \\to \\mathbb{R} \\) defined by \\( f(x) = a_0 + a_1x + a_2x^2 + \\dots + a_nx^n \\) for all \\( x \\in \\mathbb{R} \\), where \\( n \\) is a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A polynomial function is a real-valued.', text: 'A polynomial function is a real-valued function \\( f: \\mathbb{R} \\to \\mathbb{R} \\) defined by \\( f(x) = a_0 + a_1x + a_2x^2 + \\dots + a_nx^n \\) for all \\( x \\in \\mathbb{R} \\), where \\( n \\) is a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_02_007', title: 'A polynomial function is a real-valued.',

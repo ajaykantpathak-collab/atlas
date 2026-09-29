@@ -122,9 +122,9 @@ const ElectrolysisVisualizer: React.FC<{
 
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 text-white flex flex-col items-center">
-      <div className="text-sm font-semibold text-cyan-400 mb-2 flex items-center justify-between w-full">
+      <div className="text-sm font-semibold text-gold-400 mb-2 flex items-center justify-between w-full">
         <span>Electrolysis of Water (Acidulated H₂O)</span>
-        <span className="text-xs bg-cyan-950 text-cyan-300 px-2 py-1 rounded border border-cyan-800">
+        <span className="text-xs bg-gold-950 text-gold-300 px-2 py-1 rounded border border-gold-800">
           Ratio H₂:O₂ = 2:1
         </span>
       </div>
@@ -192,9 +192,9 @@ const ElectrolysisVisualizer: React.FC<{
               onVoltageChange(val);
               if (val > 0) audioManager.play('pop');
             }}
-            className="w-24 accent-cyan-500 cursor-pointer"
+            className="w-24 accent-gold-500 cursor-pointer"
           />
-          <span className="text-xs font-mono text-cyan-400 w-6">{currentVoltage}V</span>
+          <span className="text-xs font-mono text-gold-400 w-6">{currentVoltage}V</span>
         </div>
         <button
           onClick={resetSim}
@@ -1062,7 +1062,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
       {/* HEADER BAR */}
       <header className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-xl p-4 mb-4 flex flex-col md:flex-row items-center justify-between shadow-xl">
         <div className="flex items-center space-x-3 mb-2 md:mb-0">
-          <div className="w-10 h-10 rounded-lg bg-cyan-600 flex items-center justify-center font-bold text-white text-lg shadow-md">
+          <div className="w-10 h-10 rounded-lg bg-gold-600 flex items-center justify-center font-bold text-white text-lg shadow-md">
             H₂O
           </div>
           <div>
@@ -1077,14 +1077,14 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
 
         {/* Navigation Mode Buttons & Score */}
         <div className="flex items-center space-x-2">
-          <div className="bg-slate-950 border border-slate-800 px-3 py-1 rounded-lg text-xs font-mono text-cyan-400 mr-2">
+          <div className="bg-slate-950 border border-slate-800 px-3 py-1 rounded-lg text-xs font-mono text-gold-400 mr-2">
             Score: <span className="text-white font-bold">{score}</span>
           </div>
 
           <button
             onClick={() => { setViewMode('discovery'); playSound('tap'); }}
             className={`text-xs px-2.5 py-1.5 rounded-lg transition font-medium ${
-              viewMode === 'discovery' ? 'bg-cyan-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              viewMode === 'discovery' ? 'bg-gold-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             Predict
@@ -1092,7 +1092,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
           <button
             onClick={() => { setViewMode('learn'); playSound('tap'); }}
             className={`text-xs px-2.5 py-1.5 rounded-lg transition font-medium ${
-              viewMode === 'learn' ? 'bg-cyan-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              viewMode === 'learn' ? 'bg-gold-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             Teach Slides
@@ -1100,7 +1100,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
           <button
             onClick={() => { setViewMode('lab'); playSound('tap'); }}
             className={`text-xs px-2.5 py-1.5 rounded-lg transition font-medium ${
-              viewMode === 'lab' ? 'bg-cyan-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              viewMode === 'lab' ? 'bg-gold-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             Virtual Lab
@@ -1108,7 +1108,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
           <button
             onClick={() => { setViewMode('challenge'); playSound('tap'); }}
             className={`text-xs px-2.5 py-1.5 rounded-lg transition font-medium ${
-              viewMode === 'challenge' ? 'bg-cyan-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+              viewMode === 'challenge' ? 'bg-gold-600 text-white font-bold' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
             Challenges
@@ -1126,7 +1126,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
           return (
             <div key={id} className="bg-slate-900 border border-slate-800 rounded-lg p-2.5 flex flex-col justify-between">
               <div className="flex justify-between items-start mb-1">
-                <span className="text-[10px] font-mono text-cyan-400">{meta.code}</span>
+                <span className="text-[10px] font-mono text-gold-400">{meta.code}</span>
                 <span className="text-[10px] bg-slate-800 text-slate-300 px-1.5 py-0.5 rounded font-mono">
                   {masteryPct}%
                 </span>
@@ -1134,7 +1134,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
               <div className="text-xs font-semibold text-slate-200 truncate mb-1.5">{meta.title}</div>
               <div className="w-full bg-slate-950 rounded-full h-1.5 overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-500"
+                  className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-500"
                   style={{ width: `${masteryPct}%` }}
                 />
               </div>
@@ -1155,7 +1155,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
               exit={{ opacity: 0, y: -15 }}
               className="bg-slate-900 border border-slate-800 rounded-xl p-5 md:p-6 shadow-2xl"
             >
-              <div className="flex items-center space-x-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-2">
+              <div className="flex items-center space-x-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
                 <span>Discovery Hypothesis</span>
                 <span>•</span>
                 <span>Predict Before You Learn</span>
@@ -1176,7 +1176,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                         ? opt.isCorrect
                           ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950 border-rose-500 text-rose-200'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500'
+                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500'
                     }`}
                   >
                     <span>{opt.text}</span>
@@ -1189,7 +1189,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
 
               {discoverySubmitted && (
                 <div className="bg-slate-950 border border-slate-800 p-4 rounded-xl text-xs text-slate-300 leading-relaxed mb-4">
-                  <strong className="text-cyan-400 block mb-1">Scientific Explanation:</strong>
+                  <strong className="text-gold-400 block mb-1">Scientific Explanation:</strong>
                   {DISCOVERY_DATA.options.find((o) => o.id === discoverySelected)?.explanation}
                 </div>
               )}
@@ -1200,7 +1200,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                     setViewMode('learn');
                     playSound('whoosh');
                   }}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-sm shadow-lg transition"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg transition"
                 >
                   Proceed to Teaching Concepts →
                 </button>
@@ -1220,7 +1220,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
               {/* Slide Navigation Header */}
               <div className="flex justify-between items-center mb-4 pb-3 border-b border-slate-800">
                 <div>
-                  <span className="text-xs font-mono text-cyan-400 uppercase">
+                  <span className="text-xs font-mono text-gold-400 uppercase">
                     Slide {currentSlideIdx + 1} of {SLIDES_DATA.length} • {NODE_METADATA[currentSlide.nodeId].title}
                   </span>
                   <h2 className="text-lg md:text-xl font-bold text-white leading-tight">
@@ -1250,7 +1250,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                         playSound('whoosh');
                       }
                     }}
-                    className="px-3 py-1 bg-cyan-600 hover:bg-cyan-500 text-xs font-bold rounded text-white"
+                    className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-xs font-bold rounded text-white"
                   >
                     {currentSlideIdx < SLIDES_DATA.length - 1 ? 'Next →' : 'Go to Lab →'}
                   </button>
@@ -1266,7 +1266,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                   )}
                   {currentSlide.visualType === 'solvent' && (
                     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 text-white flex flex-col items-center">
-                      <span className="text-xs font-bold text-cyan-400 mb-2">Dissolution: NaCl in Water</span>
+                      <span className="text-xs font-bold text-gold-400 mb-2">Dissolution: NaCl in Water</span>
                       <svg width="260" height="150" viewBox="0 0 260 150" className="bg-slate-950 rounded border border-slate-800">
                         <rect x="30" y="30" width="200" height="100" fill="#0284c7" fillOpacity="0.3" rx="4" />
                         <circle cx="70" cy="70" r="8" fill="#ef4444" />
@@ -1288,11 +1288,11 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                 {/* Explanation text */}
                 <div className="flex flex-col justify-between">
                   <div className="space-y-2 mb-3">
-                    <h3 className="text-sm font-semibold text-cyan-300">{currentSlide.subtitle}</h3>
+                    <h3 className="text-sm font-semibold text-gold-300">{currentSlide.subtitle}</h3>
                     <ul className="space-y-2 text-xs text-slate-300 leading-relaxed">
                       {currentSlide.content.map((bullet, idx) => (
                         <li key={idx} className="flex items-start">
-                          <span className="text-cyan-400 mr-2 font-bold">•</span>
+                          <span className="text-gold-400 mr-2 font-bold">•</span>
                           <span>{bullet}</span>
                         </li>
                       ))}
@@ -1310,7 +1310,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
               </div>
 
               {/* Takeaway footer */}
-              <div className="bg-cyan-950/60 border border-cyan-800/60 p-2.5 rounded-lg flex items-center justify-between text-xs text-cyan-200">
+              <div className="bg-gold-950/60 border border-gold-800/60 p-2.5 rounded-lg flex items-center justify-between text-xs text-gold-200">
                 <span><strong>Key Takeaway:</strong> {currentSlide.keyTakeaway}</span>
               </div>
             </motion.div>
@@ -1327,7 +1327,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
             >
               <div className="flex justify-between items-center mb-4">
                 <div>
-                  <span className="text-xs font-bold text-cyan-400 uppercase">Interactive Chemistry Lab</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase">Interactive Chemistry Lab</span>
                   <h2 className="text-lg font-bold text-white">Hands-On Chemistry Workbench</h2>
                 </div>
                 <button
@@ -1367,7 +1367,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
               <div className="flex justify-between items-center mb-4 pb-3 border-b border-slate-800">
                 <div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-xs font-mono text-cyan-400">
+                    <span className="text-xs font-mono text-gold-400">
                       Challenge {currentChallengeIdx + 1} of {CHALLENGES_DATA.length}
                     </span>
                     <span className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700">
@@ -1409,7 +1409,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                         optionStyle = 'bg-rose-950 border-rose-500 text-rose-200';
                       }
                     } else if (isSelected) {
-                      optionStyle = 'bg-cyan-950 border-cyan-500 text-cyan-200 font-semibold ring-1 ring-cyan-500';
+                      optionStyle = 'bg-gold-950 border-gold-500 text-gold-200 font-semibold ring-1 ring-gold-500';
                     }
 
                     return (
@@ -1463,7 +1463,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={selectedAnswer === null}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white rounded-xl font-bold text-sm shadow-lg transition"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-sm shadow-lg transition"
                   >
                     Submit Answer
                   </button>
@@ -1500,7 +1500,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
               <div className="bg-slate-950 border border-slate-800 p-4 rounded-xl w-full max-w-md mb-6 grid grid-cols-2 gap-4">
                 <div className="text-center">
                   <span className="text-xs text-slate-400 block">Final Score</span>
-                  <span className="text-2xl font-bold text-cyan-400">{score + 100} pts</span>
+                  <span className="text-2xl font-bold text-gold-400">{score + 100} pts</span>
                 </div>
                 <div className="text-center">
                   <span className="text-xs text-slate-400 block">Nodes Mastered</span>
@@ -1527,7 +1527,7 @@ export default function C8_ChemistryWaterpropertiesandcompositionSim({
                     setCurrentSlideIdx(0);
                     playSound('tap');
                   }}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold transition"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold transition"
                 >
                   Review Slide Concepts
                 </button>

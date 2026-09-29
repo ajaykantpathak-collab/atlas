@@ -39,7 +39,7 @@ export function C7_ScienceAdolescenceAStageOfGrowthSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Adolescence: A Stage of Growth and Change</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Adolescence: A Stage of Growth and Change</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="flex gap-2 mt-4">
@@ -47,7 +47,7 @@ export function C7_ScienceAdolescenceAStageOfGrowthSim() {
           <button
             key={g}
             onClick={() => setSex(g)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border capitalize transition-colors ${sex === g ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border capitalize transition-colors ${sex === g ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {g} curve
           </button>
@@ -121,7 +121,7 @@ export function C7_ScienceAdolescenceAStageOfGrowthSim() {
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 text-center">
           <div className="text-xs uppercase text-slate-400">Grew this year</div>
-          <div className="text-2xl font-black font-mono text-sky-400">{Math.round(growthThisYear * 10) / 10} cm</div>
+          <div className="text-2xl font-black font-mono text-gold-400">{Math.round(growthThisYear * 10) / 10} cm</div>
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 text-center">
           <div className="text-xs uppercase text-slate-400">Stage</div>
@@ -138,8 +138,8 @@ export function C7_ScienceAdolescenceAStageOfGrowthSim() {
         <input type="range" aria-label="age" min={8} max={18} value={age} onChange={(e) => setAge(Number(e.target.value))} className="w-full mt-2 accent-emerald-400" />
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Slide the age slowly from 8 to 18 for girls, then for boys. At which age does each curve climb steepest, and who starts first?</li>
           <li>Switch the diet button to poor at age 11 and ride up to 18. The 3 cm gap looks small -- why do doctors still worry about it?</li>

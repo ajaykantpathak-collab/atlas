@@ -11,7 +11,7 @@ export const w_c11_physicsgeostationarysatellitessim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Orbital Velocity and Period of Satellite',
     chapters: [],
     nodeIds: ['c11_phy_cbse_07_011', 'c11_phy_cbse_07_012', 'c11_phy_cbse_07_001', 'c11_phy_cbse_07_013', 'c11_phy_cbse_07_014'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Watch a video of the International Space Station passing overhead — it moves at about 7.7 km/s at 400 km.', goal: 'Master Orbital Velocity and Period of Satellite.' },
     discovery: {
         question: 'What is the orbital velocity of a satellite in a circular orbit just above Earth\'s surface (h ≈ 0)?',
@@ -20,7 +20,7 @@ export const w_c11_physicsgeostationarysatellitessim: SimDef = {
         hook: 'Students believe orbital velocity is constant for all satellites regardless of altitude because "space has no gravity".',
     },
     teaching: [
-        { title: 'Orbital velocity is the minimum horizontal.', text: 'Orbital velocity is the minimum horizontal velocity required for a satellite to maintain a stable circular orbit around Earth at a given altitude, where the gravitational force provides exactly the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Orbital velocity is the minimum horizontal.', text: 'Orbital velocity is the minimum horizontal velocity required for a satellite to maintain a stable circular orbit around Earth at a given altitude, where the gravitational force provides exactly the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_07_011', title: 'Orbital velocity is the minimum.',

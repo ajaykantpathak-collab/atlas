@@ -84,7 +84,7 @@ export function C11_GeographyMapScaleSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">1 cm on paper</p>
-              <p className="font-mono font-bold text-sky-300">{kmPerCm.toFixed(kmPerCm < 1 ? 2 : 1)} km</p>
+              <p className="font-mono font-bold text-gold-300">{kmPerCm.toFixed(kmPerCm < 1 ? 2 : 1)} km</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Detail level</p>
@@ -107,10 +107,10 @@ export function C11_GeographyMapScaleSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Distance measured on map</span><span className="font-mono font-bold text-sky-400">{mapCm.toFixed(1)} cm</span>
+                <span>Distance measured on map</span><span className="font-mono font-bold text-gold-400">{mapCm.toFixed(1)} cm</span>
               </div>
               <input type="range" min={0.5} max={12} step={0.5} value={mapCm} aria-label="map distance"
-                onChange={(e) => setMapCm(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setMapCm(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div className="grid grid-cols-3 gap-2">
               {(['rf', 'verbal', 'graphic'] as Mode[]).map((m) => (

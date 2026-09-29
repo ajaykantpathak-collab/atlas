@@ -14,7 +14,7 @@ export const c1Air: SimDef = {
     id: 'c1_air', title: 'Air Around Us', subtitle: 'Can you feel it?',
     classLevel: 1, subject: 'evs', topic: 'Air',
     chapters: ['World Around Us: Air'],
-    emoji: '🌬️', theme: { bg: 'from-sky-100 to-cyan-200', accent: 'sky', scene: 'wind' },
+    emoji: '🌬️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'wind' },
     scenario: { role: "an air explorer", intro: "Air is invisible — but it moves things! Investigate what air does.", goal: "Discover what air can do." },
     discovery: {
         question: "You cannot see air - so how do we know it is there?",
@@ -24,7 +24,7 @@ export const c1Air: SimDef = {
     },
     observe: { prompt: "When you played with air, what did you feel?", options: ["It pushes things", "Nothing", "It is heavy"], answer: "It pushes things" },
     teaching: [
-        { title: 'Air is Everywhere! 🌬️', text: 'Air is all around us — inside rooms, outside, even inside an empty-looking bottle! We cannot see air, but we can feel it!', emoji: '🌬️', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Air is Everywhere! 🌬️', text: 'Air is all around us — inside rooms, outside, even inside an empty-looking bottle! We cannot see air, but we can feel it!', emoji: '🌬️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Feeling the Wind 🍃', text: 'Moving air is called wind. It makes leaves dance, kites fly, and pinwheels spin!', emoji: '🍃', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Air Fills Space 🎈', text: 'Blow into a balloon and it grows — air fills up space inside it. Air has no shape of its own!', emoji: '🎈', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'We Need Air to Live ❤️', text: 'People, animals, and plants all need air to breathe. Clean air keeps us healthy!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
@@ -65,7 +65,7 @@ export const c1Water: SimDef = {
     id: 'c1_water', title: 'Water, Water Everywhere', subtitle: 'Save every drop!',
     classLevel: 1, subject: 'evs', topic: 'Water',
     chapters: ['World Around Us: Water'],
-    emoji: '💧', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'water' },
+    emoji: '💧', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'water' },
     scenario: { role: "a water-scientist", intro: "Follow a drop of water on its journey from cloud to tap.", goal: "Trace the water journey." },
     discovery: {
         question: "Where does the water in your tap come from?",
@@ -75,11 +75,11 @@ export const c1Water: SimDef = {
     },
     observe: { prompt: "What happens to water when it rains?", options: ["It flows and collects", "It disappears", "It becomes air only"], answer: "It flows and collects" },
     teaching: [
-        { title: 'Water is a Helper! 💧', text: 'We drink water, cook with it, bathe in it, and wash with it. Life needs water every day!', emoji: '💧', bgColor: 'from-blue-400 to-indigo-500' },
-        { title: 'Where Water Comes From 🏞️', text: 'Water comes from rain, rivers, lakes, ponds, and wells. At home it comes through taps!', emoji: '🏞️', bgColor: 'from-cyan-400 to-sky-500' },
+        { title: 'Water is a Helper! 💧', text: 'We drink water, cook with it, bathe in it, and wash with it. Life needs water every day!', emoji: '💧', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Where Water Comes From 🏞️', text: 'Water comes from rain, rivers, lakes, ponds, and wells. At home it comes through taps!', emoji: '🏞️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Rain is Water from the Sky 🌧️', text: 'Rain falls from clouds. Rain fills rivers and ponds and helps plants grow!', emoji: '🌧️', bgColor: 'from-slate-400 to-gray-500' },
         { title: 'Do Not Waste Water! 🚰', text: 'Close the tap while brushing. Use a mug, not a shower of running water. Every drop counts!', emoji: '🚰', bgColor: 'from-teal-400 to-emerald-500' },
-        { title: 'Reuse Water 🔄', text: 'Water used for washing vegetables can water plants. Smart families reuse water!', emoji: '🔄', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Reuse Water 🔄', text: 'Water used for washing vegetables can water plants. Smart families reuse water!', emoji: '🔄', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { lab: "cycle", prompt: "Try the lab — what do you discover?" },
     challenges: [
@@ -129,7 +129,7 @@ export const c1Food: SimDef = {
     teaching: [
         { title: 'Food is Our Fuel! 🍛', text: 'Food gives us energy to run, play, learn, and grow — just like petrol makes a car go!', emoji: '🍛', bgColor: 'from-orange-400 to-amber-500' },
         { title: 'Energy Foods 🌾', text: 'Rice, roti, bread, and potatoes give us energy to work and play all day!', emoji: '🌾', bgColor: 'from-yellow-400 to-amber-500' },
-        { title: 'Body-Building Foods 🥛', text: 'Milk, dal, eggs, and paneer help our muscles and bones grow strong!', emoji: '🥛', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Body-Building Foods 🥛', text: 'Milk, dal, eggs, and paneer help our muscles and bones grow strong!', emoji: '🥛', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Protective Foods 🍎', text: 'Fruits and vegetables keep us from falling sick — they protect our body!', emoji: '🍎', bgColor: 'from-rose-400 to-red-500' },
         { title: 'Healthy vs Junk 🍫', text: 'Fruits, nuts, and home food keep us strong. Too many chips, candies, and cold drinks make us weak!', emoji: '🍫', bgColor: 'from-emerald-400 to-teal-500' },
     ],
@@ -231,7 +231,7 @@ export const c1Animals: SimDef = {
     },
     teaching: [
         { title: 'Animals Everywhere! 🐾', text: 'Animals live in homes (pets), on farms (domestic), and in forests (wild). Each has its own home!', emoji: '🐾', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Pet Animals 🐕', text: 'Dogs, cats, and parrots live with us at home. We feed them and care for them — they are family!', emoji: '🐕', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Pet Animals 🐕', text: 'Dogs, cats, and parrots live with us at home. We feed them and care for them — they are family!', emoji: '🐕', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Farm Animals 🐄', text: 'Cows give milk, hens give eggs, goats give milk too. Farm animals help us and we care for them!', emoji: '🐄', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Wild Animals 🦁', text: 'Lions, tigers, and elephants live free in forests. They are not pets — they belong in the wild!', emoji: '🦁', bgColor: 'from-orange-400 to-red-500' },
         { title: 'Be Kind to Animals ❤️', text: 'Never hurt animals. Give street animals water and be gentle — they feel pain just like us!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
@@ -280,8 +280,8 @@ export const c1Body: SimDef = {
     },
     teaching: [
         { title: 'My Amazing Body! 👤', text: 'Your body has a head, arms, legs, fingers, and toes — each part has its own job!', emoji: '👤', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Eyes See 👀', text: 'Eyes help us see colours, faces, books, and the whole beautiful world!', emoji: '👀', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Ears Hear 👂', text: 'Ears hear music, voices, bells, and birds singing. Two ears help us know where sounds come from!', emoji: '👂', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Eyes See 👀', text: 'Eyes help us see colours, faces, books, and the whole beautiful world!', emoji: '👀', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Ears Hear 👂', text: 'Ears hear music, voices, bells, and birds singing. Two ears help us know where sounds come from!', emoji: '👂', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Nose Smells, Tongue Tastes 👃👅', text: 'The nose smells flowers and food. The tongue tastes sweet, salty, sour, and bitter!', emoji: '👃', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Skin Feels ✋', text: 'Skin is our biggest sense organ — it feels hot, cold, soft, hard, rough, and smooth!', emoji: '✋', bgColor: 'from-emerald-400 to-teal-500' },
     ],
@@ -317,7 +317,7 @@ export const c1Cleanliness: SimDef = {
     id: 'c1_clean', title: 'Stay Clean, Stay Healthy', subtitle: 'Hygiene heroes!',
     classLevel: 1, subject: 'evs', topic: 'Cleanliness',
     chapters: ['World Around Us: Cleanliness'],
-    emoji: '🧼', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'clean' },
+    emoji: '🧼', theme: { bg: 'from-teal-100 to-gold-200', accent: 'teal', scene: 'clean' },
     scenario: { role: "a clean-champion", intro: "Germs are hiding everywhere! Learn to keep them away.", goal: "Spot every germ and stay clean." },
     discovery: {
         question: "Why do we wash hands before eating - the dirt we cannot see matters?",
@@ -326,10 +326,10 @@ export const c1Cleanliness: SimDef = {
         hook: "Tiny germs make us sick - washing keeps them away!",
     },
     teaching: [
-        { title: 'Clean Body, Happy You! 🧼', text: 'Keeping clean keeps germs away. Germs are tiny things that make us sick — we cannot see them!', emoji: '🧼', bgColor: 'from-teal-400 to-cyan-500' },
-        { title: 'Wash Those Hands! 💧', text: 'Wash hands with soap before eating, after playing, and after the toilet. Scrub for 20 seconds!', emoji: '💧', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Brush Twice a Day! 🦷', text: 'Brush teeth in the morning and before bed. Clean teeth do not get cavities!', emoji: '🦷', bgColor: 'from-indigo-400 to-blue-500' },
-        { title: 'Bathe and Wear Clean Clothes 🚿', text: 'Bathing every day removes dirt and germs. Clean clothes keep skin healthy!', emoji: '🚿', bgColor: 'from-cyan-400 to-teal-500' },
+        { title: 'Clean Body, Happy You! 🧼', text: 'Keeping clean keeps germs away. Germs are tiny things that make us sick — we cannot see them!', emoji: '🧼', bgColor: 'from-teal-400 to-gold-500' },
+        { title: 'Wash Those Hands! 💧', text: 'Wash hands with soap before eating, after playing, and after the toilet. Scrub for 20 seconds!', emoji: '💧', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Brush Twice a Day! 🦷', text: 'Brush teeth in the morning and before bed. Clean teeth do not get cavities!', emoji: '🦷', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Bathe and Wear Clean Clothes 🚿', text: 'Bathing every day removes dirt and germs. Clean clothes keep skin healthy!', emoji: '🚿', bgColor: 'from-gold-400 to-teal-500' },
         { title: 'Keep Surroundings Clean 🗑️', text: 'Put garbage in the dustbin. A clean home and clean school keep everyone healthy!', emoji: '🗑️', bgColor: 'from-emerald-400 to-green-500' },
     ],
         explore: { widget: 'order', prompt: 'Put the clean routine in order!', labels: ['Wake up', 'Brush teeth', 'Take a bath', 'Put on clean clothes'] },
@@ -377,7 +377,7 @@ export const c1Safety: SimDef = {
         { title: 'Sharp and Hot = Danger 🔪🔥', text: 'Knives, scissors, fire, and hot pans can hurt us. Only adults should use them!', emoji: '🔥', bgColor: 'from-orange-400 to-red-500' },
         { title: 'Electricity Careful! ⚡', text: 'Never touch plugs with wet hands or put fingers in sockets. Electricity can give a dangerous shock!', emoji: '⚡', bgColor: 'from-yellow-400 to-amber-500' },
         { title: 'Road Safety 🚦', text: 'Cross roads at the zebra crossing, hold an adult\'s hand, and look both ways. Red means stop, green means go!', emoji: '🚦', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'When You Get Hurt 🩹', text: 'Tell an adult immediately. Small cuts need cleaning and a bandage — never hide an injury!', emoji: '🩹', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'When You Get Hurt 🩹', text: 'Tell an adult immediately. Small cuts need cleaning and a bandage — never hide an injury!', emoji: '🩹', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'order', prompt: 'Order: crossing the road safely!', labels: ['Stop at the edge', 'Look right', 'Look left', 'Cross when clear'] },
 challenges: [
@@ -411,7 +411,7 @@ export const c1Transport: SimDef = {
     id: 'c1_transport', title: 'How We Travel', subtitle: 'Land, water, air!',
     classLevel: 1, subject: 'evs', topic: 'Transport',
     chapters: ['World Around Us: Transport'],
-    emoji: '🚗', theme: { bg: 'from-blue-100 to-indigo-200', accent: 'blue', scene: 'transport' },
+    emoji: '🚗', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'transport' },
     scenario: { role: "a travel-planner", intro: "People travel by land, water, and air — plan the best way!", goal: "Match journeys to transport." },
     discovery: {
         question: "How would you cross a river with no bridge?",
@@ -420,10 +420,10 @@ export const c1Transport: SimDef = {
         hook: "People travel by land, water, and air! Let's explore.",
     },
     teaching: [
-        { title: 'Three Ways to Travel! 🚗', text: 'Vehicles move on LAND (cars, buses), on WATER (boats, ships), and in the AIR (aeroplanes, helicopters)!', emoji: '🚗', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Three Ways to Travel! 🚗', text: 'Vehicles move on LAND (cars, buses), on WATER (boats, ships), and in the AIR (aeroplanes, helicopters)!', emoji: '🚗', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Land Transport 🚌', text: 'Cars, buses, trains, bicycles, and auto-rickshaws move on roads and tracks. Most common!', emoji: '🚌', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Water Transport ⛵', text: 'Boats, ships, and ferries float on water. They carry people and goods across rivers and seas!', emoji: '⛵', bgColor: 'from-cyan-400 to-sky-500' },
-        { title: 'Air Transport ✈️', text: 'Aeroplanes and helicopters fly through the sky — the fastest way to go far!', emoji: '✈️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Water Transport ⛵', text: 'Boats, ships, and ferries float on water. They carry people and goods across rivers and seas!', emoji: '⛵', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Air Transport ✈️', text: 'Aeroplanes and helicopters fly through the sky — the fastest way to go far!', emoji: '✈️', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Special Vehicles 🚑', text: 'Ambulances take sick people to hospital, fire trucks fight fires, police cars keep us safe!', emoji: '🚑', bgColor: 'from-rose-400 to-pink-500' },
     ],
         explore: { widget: 'match', prompt: 'Match transport to where it goes!', labels: ['bus', 'road', 'boat', 'water', 'aeroplane', 'sky'] },
@@ -470,8 +470,8 @@ export const c1Neighbourhood: SimDef = {
     },
     teaching: [
         { title: 'Welcome to the Neighbourhood! 🏡', text: 'A neighbourhood is all the houses, shops, and places near your home. It is our little world!', emoji: '🏡', bgColor: 'from-lime-400 to-green-500' },
-        { title: 'Places That Help Us 🏫', text: 'Schools teach us, hospitals heal us, markets sell us food, and post offices send our letters!', emoji: '🏫', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'People Who Help Us 👮', text: 'Teachers, doctors, police officers, and shopkeepers all help our neighbourhood work!', emoji: '👮', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Places That Help Us 🏫', text: 'Schools teach us, hospitals heal us, markets sell us food, and post offices send our letters!', emoji: '🏫', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'People Who Help Us 👮', text: 'Teachers, doctors, police officers, and shopkeepers all help our neighbourhood work!', emoji: '👮', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Markets and Shops 🛒', text: 'We buy vegetables at the market, medicines at the chemist, and toys at the toy shop!', emoji: '🛒', bgColor: 'from-amber-400 to-orange-500' },
     ],
         explore: { widget: 'match', prompt: 'Match the helper to the place!', labels: ['doctor', 'hospital', 'teacher', 'school', 'postman', 'post office'] },
@@ -517,10 +517,10 @@ export const c1Sky: SimDef = {
     observe: { prompt: "What made day turn into night?", options: ["Earth turning", "Sun sleeping", "Clouds"], answer: "Earth turning" },
     teaching: [
         { title: 'The Sun Gives Light & Heat! ☀️', text: 'The sun is a big star that lights and warms our days. Without the sun there would be no daytime!', emoji: '☀️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Day and Night 🌞🌙', text: 'When the sun is up it is day. When it sets, the moon and stars come out — that is night!', emoji: '🌙', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Day and Night 🌞🌙', text: 'When the sun is up it is day. When it sets, the moon and stars come out — that is night!', emoji: '🌙', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'The Moon Glows 🌕', text: 'The moon shines at night — but it does not make its own light. It reflects the sun\'s light like a mirror!', emoji: '🌕', bgColor: 'from-slate-400 to-gray-500' },
-        { title: 'What is Weather? 🌦️', text: 'Weather is what the sky is doing — sunny, rainy, cloudy, windy. It changes every day!', emoji: '🌦️', bgColor: 'from-cyan-400 to-sky-500' },
-        { title: 'Dress for the Weather! 🧢☔', text: 'Sunny day? Hat and water. Rainy day? Umbrella and raincoat. Cold day? Warm sweater!', emoji: '☔', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'What is Weather? 🌦️', text: 'Weather is what the sky is doing — sunny, rainy, cloudy, windy. It changes every day!', emoji: '🌦️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Dress for the Weather! 🧢☔', text: 'Sunny day? Hat and water. Rainy day? Umbrella and raincoat. Cold day? Warm sweater!', emoji: '☔', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'match', prompt: 'Match to day or night!', labels: ['sun', 'day', 'moon', 'night', 'stars', 'night'] },
 challenges: [

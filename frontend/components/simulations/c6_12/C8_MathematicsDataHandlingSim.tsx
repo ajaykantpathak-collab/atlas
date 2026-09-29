@@ -53,11 +53,11 @@ export function C8_MathematicsDataHandlingSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Data Handling - Pie Charts and Probability</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Data Handling - Pie Charts and Probability</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Two data superpowers:</span> a pie chart turns
+          <span className="font-bold text-gold-700">Two data superpowers:</span> a pie chart turns
           shares into angles (share of 1 whole x 360 degrees of turn), and a dice frequency
           experiment shows the law of large numbers - with few rolls the bars look lopsided, but as
           rolls pile up every bar drifts toward the fair share of 1/6.
@@ -66,7 +66,7 @@ export function C8_MathematicsDataHandlingSim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {([['pie', 'Pie chart builder'], ['dice', 'Dice probability lab']] as [Mode, string][]).map(([m, label]) => (
-          <button key={m} onClick={() => setMode(m)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === m ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button key={m} onClick={() => setMode(m)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${mode === m ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {label}
           </button>
         ))}
@@ -88,10 +88,10 @@ export function C8_MathematicsDataHandlingSim() {
                   </span>
                 </div>
               ))}
-              <div className="mt-2 text-sm font-bold text-indigo-700">Total votes: {counts.reduce((s, c) => s + c, 0)}</div>
+              <div className="mt-2 text-sm font-bold text-gold-700">Total votes: {counts.reduce((s, c) => s + c, 0)}</div>
               <button onClick={() => setCounts([8, 5, 4, 3])} className="mt-2 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-200 hover:bg-slate-300 transition-all">Reset data</button>
             </div>
-            <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+            <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
               <svg viewBox="0 0 300 220" className="w-full">
                 {sectors.map((s) => (
                   <path key={s.i} d={s.d} fill={FRUIT_COLORS[s.i]} stroke="#fff" strokeWidth={2} opacity={0.9} style={{ transition: 'all 300ms' }} />
@@ -114,7 +114,7 @@ export function C8_MathematicsDataHandlingSim() {
               <p className="text-xs font-bold text-slate-500 mb-2">ROLL A FAIR DICE</p>
               <div className="flex flex-wrap gap-2">
                 {[1, 10, 100, 500].map((k) => (
-                  <button key={k} onClick={() => rollDice(k)} className="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 text-white hover:bg-indigo-500 transition-all">
+                  <button key={k} onClick={() => rollDice(k)} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-600 text-white hover:bg-gold-500 transition-all">
                     Roll {k}x
                   </button>
                 ))}
@@ -129,7 +129,7 @@ export function C8_MathematicsDataHandlingSim() {
                 the total grows.
               </div>
             </div>
-            <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+            <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
               <svg viewBox="0 0 320 230" className="w-full">
                 <line x1={30} y1={200} x2={310} y2={200} stroke="#94a3b8" />
                 {rolls.map((r, i) => {

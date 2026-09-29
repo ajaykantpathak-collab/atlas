@@ -1005,18 +1005,18 @@ const HumanVsPhysicalCapitalDiagram: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
         {/* Physical Capital Box */}
         <div className="bg-slate-800 p-3 rounded-lg border border-slate-700">
-          <div className="flex items-center gap-2 mb-2 text-cyan-400 font-bold border-b border-slate-700 pb-1">
+          <div className="flex items-center gap-2 mb-2 text-gold-400 font-bold border-b border-slate-700 pb-1">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
             <span>PHYSICAL CAPITAL (Machinery, Factories)</span>
           </div>
           <ul className="space-y-1.5 text-slate-300">
-            <li><span className="text-cyan-300 font-semibold">• Nature:</span> Tangible (visible, physical presence)</li>
-            <li><span className="text-cyan-300 font-semibold">• Separability:</span> Separable from owner (can be sold separately)</li>
-            <li><span className="text-cyan-300 font-semibold">• Mobility:</span> Highly mobile across national borders</li>
-            <li><span className="text-cyan-300 font-semibold">• Depreciation:</span> Continuous wear & tear, constant technology replacement</li>
-            <li><span className="text-cyan-300 font-semibold">• Benefits:</span> Creates direct PRIVATE market benefits to owner</li>
+            <li><span className="text-gold-300 font-semibold">• Nature:</span> Tangible (visible, physical presence)</li>
+            <li><span className="text-gold-300 font-semibold">• Separability:</span> Separable from owner (can be sold separately)</li>
+            <li><span className="text-gold-300 font-semibold">• Mobility:</span> Highly mobile across national borders</li>
+            <li><span className="text-gold-300 font-semibold">• Depreciation:</span> Continuous wear & tear, constant technology replacement</li>
+            <li><span className="text-gold-300 font-semibold">• Benefits:</span> Creates direct PRIVATE market benefits to owner</li>
           </ul>
         </div>
 
@@ -1061,7 +1061,7 @@ const EducationPyramidDiagram: React.FC<{ retentionRate: number }> = ({ retentio
           THE INDIAN EDUCATION PYRAMID & RETENTION WATERFALL
         </h4>
         <span className="text-xs text-slate-400 bg-slate-800 px-2 py-1 rounded border border-slate-700">
-          Policy Support Index: <strong className="text-cyan-400">{retentionRate}%</strong>
+          Policy Support Index: <strong className="text-gold-400">{retentionRate}%</strong>
         </span>
       </div>
 
@@ -1098,7 +1098,7 @@ const EducationPyramidDiagram: React.FC<{ retentionRate: number }> = ({ retentio
           <span className="w-32 font-medium text-slate-300 text-right pr-2">Secondary (9-10):</span>
           <div className="flex-1 bg-slate-800 h-6 rounded overflow-hidden relative border border-slate-700">
             <div
-              className="bg-cyan-500 h-full transition-all duration-500 flex items-center justify-end pr-2 text-slate-950 font-bold"
+              className="bg-gold-500 h-full transition-all duration-500 flex items-center justify-end pr-2 text-slate-950 font-bold"
               style={{ width: `${p3}%` }}
             >
               {p3}%
@@ -1112,7 +1112,7 @@ const EducationPyramidDiagram: React.FC<{ retentionRate: number }> = ({ retentio
           <span className="w-32 font-medium text-slate-300 text-right pr-2">Sr. Secondary (11-12):</span>
           <div className="flex-1 bg-slate-800 h-6 rounded overflow-hidden relative border border-slate-700">
             <div
-              className="bg-blue-500 h-full transition-all duration-500 flex items-center justify-end pr-2 text-slate-950 font-bold"
+              className="bg-gold-500 h-full transition-all duration-500 flex items-center justify-end pr-2 text-slate-950 font-bold"
               style={{ width: `${p4}%` }}
             >
               {p4}%
@@ -1126,7 +1126,7 @@ const EducationPyramidDiagram: React.FC<{ retentionRate: number }> = ({ retentio
           <span className="w-32 font-medium text-slate-300 text-right pr-2">Tertiary Higher Ed:</span>
           <div className="flex-1 bg-slate-800 h-6 rounded overflow-hidden relative border border-slate-700">
             <div
-              className="bg-indigo-500 h-full transition-all duration-500 flex items-center justify-end pr-2 text-white font-bold"
+              className="bg-gold-500 h-full transition-all duration-500 flex items-center justify-end pr-2 text-white font-bold"
               style={{ width: `${p5}%` }}
             >
               {p5}% GER
@@ -1138,7 +1138,7 @@ const EducationPyramidDiagram: React.FC<{ retentionRate: number }> = ({ retentio
 
       <div className="text-[11px] text-slate-400 bg-slate-950 p-2 rounded border border-slate-800 flex justify-between items-center">
         <span>⚠️ Major Dropout Causes: Poverty, distance to secondary schools, early child labor, lack of toilets for girls.</span>
-        <span className="text-cyan-400 font-semibold">NEP 2020 Target GER: 50% by 2035</span>
+        <span className="text-gold-400 font-semibold">NEP 2020 Target GER: 50% by 2035</span>
       </div>
     </div>
   );
@@ -1162,13 +1162,13 @@ const MacroGrowthCycleDiagram: React.FC<{ eduGdp: number; healthGdp: number }> =
             <span className="text-emerald-400 font-bold block mb-1">1. FISCAL INPUT</span>
             <p className="text-slate-300 text-[11px]">Edu ({eduGdp}% GDP) + Health ({healthGdp}% GDP)</p>
           </div>
-          <div className="bg-slate-800 p-2 rounded border border-cyan-500/40">
-            <span className="text-cyan-400 font-bold block mb-1">2. CAPITAL FORMATION</span>
+          <div className="bg-slate-800 p-2 rounded border border-gold-500/40">
+            <span className="text-gold-400 font-bold block mb-1">2. CAPITAL FORMATION</span>
             <p className="text-slate-300 text-[11px]">HCI Score: <strong className="text-amber-300">{hciScore}/100</strong></p>
           </div>
-          <div className="bg-slate-800 p-2 rounded border border-indigo-500/40">
-            <span className="text-indigo-400 font-bold block mb-1">3. TFP & INNOVATION</span>
-            <p className="text-slate-300 text-[11px]">Labor Productivity Multiplier: <strong className="text-cyan-300">{gdpMultiplier}x</strong></p>
+          <div className="bg-slate-800 p-2 rounded border border-gold-500/40">
+            <span className="text-gold-400 font-bold block mb-1">3. TFP & INNOVATION</span>
+            <p className="text-slate-300 text-[11px]">Labor Productivity Multiplier: <strong className="text-gold-300">{gdpMultiplier}x</strong></p>
           </div>
           <div className="bg-slate-800 p-2 rounded border border-purple-500/40">
             <span className="text-purple-400 font-bold block mb-1">4. MACRO REVENUE</span>
@@ -1177,7 +1177,7 @@ const MacroGrowthCycleDiagram: React.FC<{ eduGdp: number; healthGdp: number }> =
         </div>
 
         {/* Visual Flow Arrow Banner */}
-        <div className="w-full bg-gradient-to-r from-emerald-600 via-cyan-600 to-indigo-600 h-1.5 rounded-full" />
+        <div className="w-full bg-gradient-to-r from-emerald-600 via-gold-600 to-gold-600 h-1.5 rounded-full" />
 
         <div className="text-[11px] text-slate-300 text-center">
           🔁 <strong>Virtuous Cycle:</strong> High Human Capital ➔ Technological Breakthroughs ➔ High Per Capita Income ➔ Greater Public Tax Revenue ➔ Re-investment in Education/Health.
@@ -1228,7 +1228,7 @@ const InteractiveMacroLabWidget: React.FC<{
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-3">
         <div>
           <span className="text-xs uppercase tracking-wider text-amber-400 font-semibold">Live Interactive Macro Simulator</span>
-          <h3 className="text-lg md:text-xl font-bold text-cyan-300">
+          <h3 className="text-lg md:text-xl font-bold text-gold-300">
             {labStep === 0 && 'Lab 1: Sources of Human Capital Matrix'}
             {labStep === 1 && 'Lab 2: Structural Capital Comparative Analysis'}
             {labStep === 2 && 'Lab 3: Education Pyramid & Retention Simulator'}
@@ -1252,14 +1252,14 @@ const InteractiveMacroLabWidget: React.FC<{
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
             <div className="bg-slate-800/80 p-3 rounded-lg border border-slate-700 space-y-2">
               <div className="flex justify-between">
-                <label className="text-cyan-300 font-semibold">1. Education Expenditure (% GDP)</label>
+                <label className="text-gold-300 font-semibold">1. Education Expenditure (% GDP)</label>
                 <span className="font-bold text-amber-300">{simState.educationGdpPct}%</span>
               </div>
               <input
                 type="range" min="1.5" max="6.0" step="0.1"
                 value={simState.educationGdpPct}
                 onChange={e => handleChange('educationGdpPct', parseFloat(e.target.value))}
-                className="w-full accent-cyan-400 cursor-pointer"
+                className="w-full accent-gold-400 cursor-pointer"
               />
               <p className="text-[11px] text-slate-400">Target: 6.0% (Kothari Commission / NEP 2020)</p>
             </div>
@@ -1280,14 +1280,14 @@ const InteractiveMacroLabWidget: React.FC<{
 
             <div className="bg-slate-800/80 p-3 rounded-lg border border-slate-700 space-y-2">
               <div className="flex justify-between">
-                <label className="text-indigo-300 font-semibold">3. On-the-Job Training (OJT) Incentives</label>
+                <label className="text-gold-300 font-semibold">3. On-the-Job Training (OJT) Incentives</label>
                 <span className="font-bold text-amber-300">{simState.ojtIncentive}%</span>
               </div>
               <input
                 type="range" min="0" max="100" step="5"
                 value={simState.ojtIncentive}
                 onChange={e => handleChange('ojtIncentive', parseInt(e.target.value))}
-                className="w-full accent-indigo-400 cursor-pointer"
+                className="w-full accent-gold-400 cursor-pointer"
               />
               <p className="text-[11px] text-slate-400">Tax rebates for firm-provided practical apprenticeships</p>
             </div>
@@ -1313,7 +1313,7 @@ const InteractiveMacroLabWidget: React.FC<{
         <div className="space-y-4">
           <HumanVsPhysicalCapitalDiagram />
           <div className="p-3 bg-slate-800 rounded-lg text-xs space-y-2 border border-slate-700">
-            <h5 className="font-bold text-cyan-300">Macroeconomic Policy Implications:</h5>
+            <h5 className="font-bold text-gold-300">Macroeconomic Policy Implications:</h5>
             <p className="text-slate-300">
               Governments can import physical machinery from abroad in a matter of weeks. However, building human capital requires decades of sustained public investment in schools, hospitals, and research institutions.
             </p>
@@ -1325,12 +1325,12 @@ const InteractiveMacroLabWidget: React.FC<{
         <div className="space-y-4">
           <div className="flex flex-col md:flex-row gap-4 items-center bg-slate-800 p-3 rounded-lg border border-slate-700 text-xs">
             <div className="flex-1 space-y-2">
-              <label className="font-semibold text-cyan-300 block">RTE Act 2009 Enforcement Strictness:</label>
+              <label className="font-semibold text-gold-300 block">RTE Act 2009 Enforcement Strictness:</label>
               <input
                 type="range" min="10" max="100" step="5"
                 value={simState.rteStrictness}
                 onChange={e => handleChange('rteStrictness', parseInt(e.target.value))}
-                className="w-full accent-cyan-400 cursor-pointer"
+                className="w-full accent-gold-400 cursor-pointer"
               />
             </div>
             <div className="bg-slate-900 px-4 py-2 rounded border border-slate-700 text-center">
@@ -1351,7 +1351,7 @@ const InteractiveMacroLabWidget: React.FC<{
             <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 space-y-2">
               <div className="flex justify-between">
                 <label className="text-amber-300 font-semibold">Education Cess Rate (%)</label>
-                <span className="font-bold text-cyan-300">{simState.cessRate}%</span>
+                <span className="font-bold text-gold-300">{simState.cessRate}%</span>
               </div>
               <input
                 type="range" min="0" max="5.0" step="0.5"
@@ -1382,14 +1382,14 @@ const InteractiveMacroLabWidget: React.FC<{
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
             <div className="bg-slate-800 p-3 rounded-lg border border-slate-700 space-y-2">
               <div className="flex justify-between">
-                <label className="text-cyan-300 font-semibold">NEP 2020 Vocational Integration Level</label>
+                <label className="text-gold-300 font-semibold">NEP 2020 Vocational Integration Level</label>
                 <span className="font-bold text-amber-300">{simState.nepImplementation}%</span>
               </div>
               <input
                 type="range" min="0" max="100" step="5"
                 value={simState.nepImplementation}
                 onChange={e => handleChange('nepImplementation', parseInt(e.target.value))}
-                className="w-full accent-cyan-400 cursor-pointer"
+                className="w-full accent-gold-400 cursor-pointer"
               />
               <p className="text-[11px] text-slate-400">Multidisciplinary credit choices, practical internships, STEM labs</p>
             </div>
@@ -1403,7 +1403,7 @@ const InteractiveMacroLabWidget: React.FC<{
               </div>
               <div className="flex justify-between border-b border-slate-700 pb-1">
                 <span className="text-slate-400">Knowledge Economy Readiness Index:</span>
-                <span className="font-bold text-cyan-300">
+                <span className="font-bold text-gold-300">
                   {Math.min(100, Math.round(simState.nepImplementation * 0.75 + simState.educationGdpPct * 5))}/100
                 </span>
               </div>
@@ -1428,7 +1428,7 @@ const InteractiveMacroLabWidget: React.FC<{
         </div>
         <div>
           <span className="text-slate-400 block text-[10px]">Adult Literacy Rate:</span>
-          <span className="text-cyan-400 font-bold">{adultLiteracyEstimate}%</span>
+          <span className="text-gold-400 font-bold">{adultLiteracyEstimate}%</span>
         </div>
         <div>
           <span className="text-slate-400 block text-[10px]">Graduate Unemp.:</span>
@@ -1702,7 +1702,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
           <div className="w-px h-6 bg-slate-800" />
           <div className="text-center">
             <span className="text-slate-400 block text-[10px]">Streak</span>
-            <span className="font-bold text-cyan-400 text-sm">{streak} 🔥</span>
+            <span className="font-bold text-gold-400 text-sm">{streak} 🔥</span>
           </div>
         </div>
       </header>
@@ -1822,7 +1822,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
 
             {/* MANDATORY PREDICTION QUESTIONS SECTION */}
             <div className="space-y-4">
-              <h3 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>🔮 Policy Hypotheses & Predictions</span>
                 <span className="text-xs text-slate-400 font-normal">(Formulate before running simulations)</span>
               </h3>
@@ -1830,7 +1830,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
                 {PREDICTION_QUESTIONS.map((pred, qIdx) => (
                   <div key={qIdx} className="bg-slate-950 border border-slate-800 p-4 rounded-xl space-y-3 flex flex-col justify-between">
                     <div>
-                      <span className="text-[10px] uppercase font-bold text-cyan-400 bg-cyan-950 px-2 py-0.5 rounded border border-cyan-800">
+                      <span className="text-[10px] uppercase font-bold text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-800">
                         Prediction #{qIdx + 1}
                       </span>
                       <p className="text-xs font-semibold text-slate-200 mt-2">{pred.question}</p>
@@ -1842,7 +1842,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
                           onClick={() => handlePredictionSelect(qIdx, oIdx)}
                           className={`w-full text-left p-2 rounded text-[11px] border transition-all ${
                             userPredictions[qIdx] === oIdx
-                              ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300 font-bold'
+                              ? 'bg-gold-500/20 border-gold-500 text-gold-300 font-bold'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1876,7 +1876,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
                   }}
                   className={`flex-1 min-w-[140px] py-2 px-3 rounded-lg text-xs font-bold transition-all ${
                     labStepIndex === idx
-                      ? 'bg-cyan-500 text-slate-950 shadow-md'
+                      ? 'bg-gold-500 text-slate-950 shadow-md'
                       : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
                   }`}
                 >
@@ -1950,7 +1950,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
                 <div className="flex items-center gap-2">
                   <span className={`text-[10px] uppercase tracking-wider font-extrabold px-2 py-0.5 rounded border ${
                     currentChal.difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border-emerald-800' :
-                    currentChal.difficulty === 'standard' ? 'bg-cyan-950 text-cyan-400 border-cyan-800' :
+                    currentChal.difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border-gold-800' :
                     'bg-purple-950 text-purple-400 border-purple-800'
                   }`}>
                     {currentChal.difficulty} Tier
@@ -2058,7 +2058,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
 
                   <button
                     onClick={handleNextChallenge}
-                    className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm transition-all shadow-lg"
+                    className="px-6 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm transition-all shadow-lg"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge ➔' : 'Complete Challenge Module 🎓'}
                   </button>
@@ -2170,7 +2170,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
 
             {/* TOPIC NODE KNOWLEDGE MAP */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-4 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-300">Curriculum Node Glossary ({ALL_NODE_IDS.length} Nodes Covered)</h3>
+              <h3 className="text-lg font-bold text-gold-300">Curriculum Node Glossary ({ALL_NODE_IDS.length} Nodes Covered)</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
                 {ALL_NODE_IDS.map(id => {
                   const node = NODE_DETAILS[id];
@@ -2181,7 +2181,7 @@ export const C11_EcoHumanCapitalCBSESim: React.FC<C11_EcoHumanCapitalCBSESimProp
                     <div key={id} className="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-1">
                       <div className="flex justify-between items-center">
                         <span className="font-bold text-amber-400 text-[11px]">{node.title}</span>
-                        <span className="text-[10px] font-semibold text-cyan-400 bg-cyan-950 px-1.5 py-0.5 rounded border border-cyan-800">
+                        <span className="text-[10px] font-semibold text-gold-400 bg-gold-950 px-1.5 py-0.5 rounded border border-gold-800">
                           {mastery}%
                         </span>
                       </div>

@@ -1166,13 +1166,13 @@ function C11_EconomicsHumanWantsClassificationSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 10, scale: 1.1 }}
-            className="p-3 bg-indigo-950/80 rounded-2xl text-2xl border border-indigo-700/50 shadow-inner inline-block"
+            className="p-3 bg-gold-950/80 rounded-2xl text-2xl border border-gold-700/50 shadow-inner inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-wider font-bold text-indigo-400 bg-indigo-950/60 px-2 py-0.5 rounded-md border border-indigo-800/40">
+              <span className="text-xs uppercase tracking-wider font-bold text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800/40">
                 ISC Class 11 Commerce
               </span>
               <span className="text-xs text-slate-400 font-mono">Economics Core</span>
@@ -1200,7 +1200,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-700/50'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-700/50'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-700/50'
+                : 'bg-gold-950/60 text-gold-300 border-gold-700/50'
             }`}
           >
             {difficulty} Tier
@@ -1221,10 +1221,10 @@ function C11_EconomicsHumanWantsClassificationSim({
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-lg"
             >
               <div className="flex items-center gap-2 mb-2">
-                <span className="px-2.5 py-0.5 text-xs font-bold bg-indigo-500/20 text-indigo-300 rounded-full border border-indigo-500/30">
+                <span className="px-2.5 py-0.5 text-xs font-bold bg-gold-500/20 text-gold-300 rounded-full border border-gold-500/30">
                   Narrative Scenario
                 </span>
                 <span className="text-xs text-slate-400 font-mono">District of Bharatpur</span>
@@ -1235,7 +1235,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="text-xs text-indigo-200/80 mt-3 p-3 bg-indigo-900/30 rounded-xl border border-indigo-800/40"
+                className="text-xs text-gold-200/80 mt-3 p-3 bg-gold-900/30 rounded-xl border border-gold-800/40"
               >
                 💡 {SCENARIO.context}
               </motion.p>
@@ -1293,7 +1293,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Interactive Economic Labs"
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold rounded-xl shadow-lg shadow-indigo-500/20 text-sm flex items-center gap-2"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold rounded-xl shadow-lg shadow-gold-500/20 text-sm flex items-center gap-2"
                   >
                     Enter Interactive Economic Labs →
                   </motion.button>
@@ -1325,7 +1325,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                   key={currentSlide}
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
-                  className="w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center text-xs font-bold"
+                  className="w-6 h-6 rounded-full bg-gold-600 text-white flex items-center justify-center text-xs font-bold"
                 >
                   {currentSlide + 1}
                 </motion.span>
@@ -1337,7 +1337,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     key={idx}
                     animate={{ width: idx === currentSlide ? 32 : 8 }}
                     className={`h-2 rounded-full transition-all duration-300 ${
-                      idx === currentSlide ? 'bg-indigo-500' : idx < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
+                      idx === currentSlide ? 'bg-gold-500' : idx < currentSlide ? 'bg-emerald-500' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -1365,7 +1365,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       <label htmlFor="income-range" className="text-xs font-bold text-slate-300">
                         Monthly Family Income: ₹{incomeLevel.toLocaleString('en-IN')}
                       </label>
-                      <span className="text-xs font-mono text-indigo-400">
+                      <span className="text-xs font-mono text-gold-400">
                         {incomeLevel <= 25000 ? 'Low Income (Subsistence)' : incomeLevel <= 80000 ? 'Middle Class' : 'High Income (Affluent)'}
                       </span>
                     </div>
@@ -1381,7 +1381,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                         setIncomeLevel(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 h-2 bg-slate-700 rounded-lg cursor-pointer"
                     />
                   </div>
 
@@ -1396,10 +1396,10 @@ function C11_EconomicsHumanWantsClassificationSim({
                       <p className="text-xs text-slate-400 mt-1">Rice, Dal under NFSA, basic shelter & life-saving drugs.</p>
                     </motion.div>
 
-                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-blue-950/40 rounded-xl border border-blue-800/60">
+                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60">
                       <div className="flex justify-between items-center">
-                        <span className="text-xs font-bold text-blue-400">2. Comforts</span>
-                        <span className="text-xs font-bold text-blue-300">{wantsBreakdown.comfortPct}%</span>
+                        <span className="text-xs font-bold text-gold-400">2. Comforts</span>
+                        <span className="text-xs font-bold text-gold-300">{wantsBreakdown.comfortPct}%</span>
                       </div>
                       <p className="text-lg font-black text-white mt-1">₹{wantsBreakdown.comfortVal.toLocaleString('en-IN')}</p>
                       <p className="text-xs text-slate-400 mt-1">Ceiling fans, smartphones, gas stove & bus passes.</p>
@@ -1423,7 +1423,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     />
                     <motion.div
                       animate={{ width: `${wantsBreakdown.comfortPct}%` }}
-                      className="bg-blue-500 h-full transition-all duration-300"
+                      className="bg-gold-500 h-full transition-all duration-300"
                     />
                     <motion.div
                       animate={{ width: `${wantsBreakdown.luxuryPct}%` }}
@@ -1452,7 +1452,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                           <span className="text-lg">{f.icon}</span>
                           <div>
                             <p className="text-xs font-bold text-white">{f.name}</p>
-                            <p className="text-[10px] font-bold text-indigo-300">Reward: {f.reward}</p>
+                            <p className="text-[10px] font-bold text-gold-300">Reward: {f.reward}</p>
                           </div>
                         </div>
                         <p className="text-[11px] text-slate-400 leading-tight mt-1">{f.desc}</p>
@@ -1465,17 +1465,17 @@ function C11_EconomicsHumanWantsClassificationSim({
                     animate={{ scale: 1 }}
                     className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center"
                   >
-                    <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">National Income Identity</p>
+                    <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">National Income Identity</p>
                     <div className="flex flex-wrap justify-center items-center gap-2 text-sm md:text-base font-black text-slate-200">
                       <span className="px-2.5 py-1 bg-emerald-950 border border-emerald-700 text-emerald-300 rounded-lg">Rent</span>
                       <span>+</span>
-                      <span className="px-2.5 py-1 bg-blue-950 border border-blue-700 text-blue-300 rounded-lg">Wages</span>
+                      <span className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-300 rounded-lg">Wages</span>
                       <span>+</span>
                       <span className="px-2.5 py-1 bg-amber-950 border border-amber-700 text-amber-300 rounded-lg">Interest</span>
                       <span>+</span>
                       <span className="px-2.5 py-1 bg-purple-950 border border-purple-700 text-purple-300 rounded-lg">Profit</span>
                       <span>=</span>
-                      <span className="px-3 py-1 bg-indigo-900 border border-indigo-500 text-white rounded-lg">Total Factor Output (GNP)</span>
+                      <span className="px-3 py-1 bg-gold-900 border border-gold-500 text-white rounded-lg">Total Factor Output (GNP)</span>
                     </div>
                   </motion.div>
                 </motion.div>
@@ -1486,7 +1486,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                   {/* Predict-then-check container */}
                   {!pred1Made ? (
-                    <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700">
+                    <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} className="p-4 bg-gold-950/60 rounded-xl border border-gold-700">
                       <span className="text-xs font-bold text-amber-300 uppercase">Predict First</span>
                       <p className="text-sm font-semibold text-white mt-1 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1519,7 +1519,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                           className="w-full md:w-1/3 p-4 bg-slate-900 rounded-xl border border-slate-700 flex flex-col justify-between"
                         >
                           <div>
-                            <span className="text-xs font-bold text-indigo-400 uppercase">Glasses Consumed</span>
+                            <span className="text-xs font-bold text-gold-400 uppercase">Glasses Consumed</span>
                             <div className="text-3xl font-black text-white mt-1 mb-2">{waterGlasses} of 7</div>
                             <div className="flex gap-1 mb-4">
                               {Array.from({ length: 7 }).map((_, idx) => (
@@ -1544,7 +1544,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                               onClick={handleDrinkWater}
                               disabled={waterGlasses >= 7}
                               aria-label="Drink one more glass of water"
-                              className="flex-1 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-lg text-xs shadow-md"
+                              className="flex-1 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-lg text-xs shadow-md"
                             >
                               Drink Glass +1
                             </motion.button>
@@ -1583,7 +1583,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       </div>
 
                       {/* Observation Question 1 */}
-                      <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/60 space-y-2.5">
+                      <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/60 space-y-2.5">
                         <span className="text-xs font-bold text-amber-300 uppercase tracking-wider">
                           🔍 Brilliant Observation: What do you notice?
                         </span>
@@ -1642,7 +1642,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                           <span className="font-mono text-white font-bold">{currentPpcPoint.foodProduced} MT</span>
                         </div>
                         <div className="flex justify-between text-xs">
-                          <span className="text-blue-400 font-bold">⚙️ Heavy Machinery:</span>
+                          <span className="text-gold-400 font-bold">⚙️ Heavy Machinery:</span>
                           <span className="font-mono text-white font-bold">{currentPpcPoint.steelProduced} Units</span>
                         </div>
                         <div className="flex justify-between text-xs pt-1 border-t border-slate-800">
@@ -1696,7 +1696,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-700 space-y-3">
-                      <span className="text-xs font-bold text-indigo-400 uppercase">Technological Interventions</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase">Technological Interventions</span>
                       <div className="space-y-2">
                         <motion.button
                           whileHover={{ scale: 1.05 }}
@@ -1723,7 +1723,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                             audioManager.play('tap');
                           }}
                           className={`w-full p-2.5 rounded-lg text-xs font-bold text-left border flex justify-between items-center ${
-                            indTechLevel > 1 ? 'bg-blue-950/70 border-blue-500 text-blue-300' : 'bg-slate-800 border-slate-700 text-slate-300'
+                            indTechLevel > 1 ? 'bg-gold-950/70 border-gold-500 text-gold-300' : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
                           <span>⚙️ Upgrade Industrial Tech (Robotics)</span>
@@ -1768,7 +1768,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                   </div>
 
                   {/* Observation Question 2 */}
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/60 space-y-2.5">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/60 space-y-2.5">
                     <span className="text-xs font-bold text-amber-300 uppercase tracking-wider">
                       🔍 Brilliant Observation: What do you notice?
                     </span>
@@ -1818,7 +1818,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleNextSlide}
                 aria-label="Go to next exploration step"
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/20 flex items-center gap-1.5"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/20 flex items-center gap-1.5"
               >
                 {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Enter Free Sandbox →' : 'Next Interactive Lab →'}
               </motion.button>
@@ -1856,7 +1856,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       }}
                       className={`px-3 py-1.5 text-xs font-bold rounded-lg uppercase tracking-wider border transition-all ${
                         sandboxTab === tab
-                          ? 'bg-indigo-600 border-indigo-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-white'
                       }`}
                     >
@@ -1909,7 +1909,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                           aria-label="Toggle Sandbox Industrial Tech"
                           onClick={() => setSandboxTechInd(t => (t === 1 ? 1.4 : 1))}
                           className={`flex-1 p-2 rounded-lg text-xs font-bold border ${
-                            sandboxTechInd > 1 ? 'bg-blue-950 border-blue-500 text-blue-300' : 'bg-slate-900 border-slate-800 text-slate-400'
+                            sandboxTechInd > 1 ? 'bg-gold-950 border-gold-500 text-gold-300' : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
                           Ind Tech ({sandboxTechInd}x)
@@ -1917,7 +1917,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1">
                         <div className="flex justify-between"><span className="text-slate-400">Foodgrains:</span><span className="font-mono text-emerald-400">{Math.round(sandboxPpcRatio * sandboxTechAgri)} MT</span></div>
-                        <div className="flex justify-between"><span className="text-slate-400">Steel / Machinery:</span><span className="font-mono text-blue-400">{Math.round(80 * sandboxTechInd * Math.sqrt(Math.max(0, 1 - Math.pow(sandboxPpcRatio / 100, 2))))} Units</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Steel / Machinery:</span><span className="font-mono text-gold-400">{Math.round(80 * sandboxTechInd * Math.sqrt(Math.max(0, 1 - Math.pow(sandboxPpcRatio / 100, 2))))} Units</span></div>
                       </div>
                     </div>
                     <div className="flex items-center justify-center p-2 bg-slate-900/40 rounded-xl border border-slate-800">
@@ -1962,7 +1962,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       </div>
                       <div>
                         <p className="text-xs text-slate-400">Total Utility (TU)</p>
-                        <p className="text-xl font-black text-indigo-300">
+                        <p className="text-xl font-black text-gold-300">
                           {sandboxUnitsConsumed === 1 ? '16' : sandboxUnitsConsumed === 2 ? '28' : sandboxUnitsConsumed === 3 ? '36' : sandboxUnitsConsumed === 4 ? '40' : sandboxUnitsConsumed === 5 ? '40 (Peak)' : sandboxUnitsConsumed === 6 ? '36' : '28'} utils
                         </p>
                       </div>
@@ -1975,7 +1975,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     <p className="text-xs text-slate-400">Simulate factor reward distribution across a ₹10,00,000 industrial turnover in Bharatpur:</p>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800"><span className="text-emerald-400 font-bold">Land Rent:</span> ₹1,20,000 (12%)</motion.div>
-                      <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800"><span className="text-blue-400 font-bold">Labour Wages:</span> ₹5,20,000 (52%)</motion.div>
+                      <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800"><span className="text-gold-400 font-bold">Labour Wages:</span> ₹5,20,000 (52%)</motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800"><span className="text-amber-400 font-bold">Capital Interest:</span> ₹1,60,000 (16%)</motion.div>
                       <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-lg border border-slate-800"><span className="text-purple-400 font-bold">Residual Profit:</span> ₹2,00,000 (20%)</motion.div>
                     </div>
@@ -2013,7 +2013,7 @@ function C11_EconomicsHumanWantsClassificationSim({
             {/* Progress Bar */}
             <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2022,7 +2022,7 @@ function C11_EconomicsHumanWantsClassificationSim({
               <span className="font-semibold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="font-mono bg-slate-800 px-2 py-0.5 rounded text-indigo-400 uppercase text-[10px] tracking-wider">
+              <span className="font-mono bg-slate-800 px-2 py-0.5 rounded text-gold-400 uppercase text-[10px] tracking-wider">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
@@ -2081,7 +2081,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2100,7 +2100,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                         onDrop={() => handleDragDrop(dropzone.targetId)}
                         className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[110px] flex flex-col justify-center items-center"
                       >
-                        <p className="text-xs font-bold text-indigo-300">{dropzone.title}</p>
+                        <p className="text-xs font-bold text-gold-300">{dropzone.title}</p>
                         <p className="text-[11px] text-slate-500 mb-2">{dropzone.desc}</p>
                         <span className="px-3 py-1 bg-slate-800 rounded-md text-xs font-mono text-amber-300 font-bold border border-slate-700">
                           {droppedLabels[dropzone.targetId] || 'Drop Label Here'}
@@ -2115,7 +2115,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
                     aria-label="Verify Drag Placement"
-                    className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Verify Drag Placement
                   </motion.button>
@@ -2147,7 +2147,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                         whileTap={{ scale: 0.99 }}
                         className="p-3 bg-slate-900 hover:bg-slate-850 rounded-xl border border-slate-700 text-xs font-semibold text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="w-5 h-5 rounded-full bg-indigo-950 text-indigo-400 flex items-center justify-center font-bold text-[10px] border border-indigo-700">
+                        <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 flex items-center justify-center font-bold text-[10px] border border-gold-700">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2164,7 +2164,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     }}
                     disabled={showExplanation}
                     aria-label="Confirm Order Sequence"
-                    className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Confirm Order Sequence
                   </motion.button>
@@ -2182,7 +2182,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer"
                       aria-label="Numerical answer input"
-                      className="flex-1 px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                      className="flex-1 px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-xs font-bold text-slate-400">{activeChallenge.unit}</span>
                     <motion.button
@@ -2191,7 +2191,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
                       aria-label="Check numeric answer"
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                     >
                       Check
                     </motion.button>
@@ -2211,7 +2211,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                         whileTap={{ scale: 0.95 }}
                         aria-label={`Add part ${part}`}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-lg text-xs font-mono border border-slate-700"
+                        className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-mono border border-slate-700"
                       >
                         + {part}
                       </motion.button>
@@ -2225,7 +2225,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
-                        className="px-2.5 py-1 bg-indigo-950 text-indigo-200 rounded-md text-xs font-mono border border-indigo-700 cursor-pointer hover:bg-rose-950 hover:text-rose-300"
+                        className="px-2.5 py-1 bg-gold-950 text-gold-200 rounded-md text-xs font-mono border border-gold-700 cursor-pointer hover:bg-rose-950 hover:text-rose-300"
                       >
                         {p} ✕
                       </motion.span>
@@ -2239,7 +2239,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
                     aria-label="Validate Assembled Formula"
-                    className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Validate Assembled Formula
                   </motion.button>
@@ -2313,7 +2313,7 @@ function C11_EconomicsHumanWantsClassificationSim({
             <motion.div
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-emerald-500/50 text-center space-y-3"
+              className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-emerald-500/50 text-center space-y-3"
             >
               <motion.span
                 animate={{ rotate: [0, 10, -10, 0], scale: [1, 1.2, 1] }}
@@ -2334,7 +2334,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                 <div className="h-8 w-px bg-slate-700" />
                 <div>
                   <p className="text-[10px] text-slate-400 uppercase font-bold">BKT Mastery</p>
-                  <p className="text-2xl font-black text-indigo-300 uppercase">{masteryLevel}</p>
+                  <p className="text-2xl font-black text-gold-300 uppercase">{masteryLevel}</p>
                 </div>
               </div>
             </motion.div>
@@ -2359,7 +2359,7 @@ function C11_EconomicsHumanWantsClassificationSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border-2 border-amber-500/60 text-xs space-y-3 shadow-lg"
+              className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border-2 border-amber-500/60 text-xs space-y-3 shadow-lg"
             >
               <div className="flex items-center justify-between border-b border-amber-700/40 pb-2.5">
                 <div className="flex items-center gap-2">
@@ -2405,7 +2405,7 @@ function C11_EconomicsHumanWantsClassificationSim({
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="p-5 bg-slate-800/80 rounded-2xl border border-indigo-700/50 space-y-4"
+              className="p-5 bg-slate-800/80 rounded-2xl border border-gold-700/50 space-y-4"
             >
               <div className="flex items-center gap-2">
                 <span className="text-lg">🤔</span>
@@ -2415,7 +2415,7 @@ function C11_EconomicsHumanWantsClassificationSim({
               <div className="space-y-3">
                 {REFLECTION_PROMPTS.map((prompt) => (
                   <div key={prompt.id} className="p-3 bg-slate-900 rounded-xl border border-slate-700/80 space-y-2">
-                    <label htmlFor={`refl-input-${prompt.id}`} className="text-xs font-bold text-indigo-200 flex items-center gap-1.5">
+                    <label htmlFor={`refl-input-${prompt.id}`} className="text-xs font-bold text-gold-200 flex items-center gap-1.5">
                       <span>{prompt.icon}</span> {prompt.question}
                     </label>
                     <textarea
@@ -2425,7 +2425,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                       onChange={(e) => setReflections({ ...reflections, [prompt.id]: e.target.value })}
                       placeholder={prompt.placeholder}
                       aria-label={prompt.question}
-                      className="w-full p-2 bg-slate-950 text-xs text-slate-200 rounded-lg border border-slate-800 focus:outline-none focus:border-indigo-500 resize-none font-sans"
+                      className="w-full p-2 bg-slate-950 text-xs text-slate-200 rounded-lg border border-slate-800 focus:outline-none focus:border-gold-500 resize-none font-sans"
                     />
                   </div>
                 ))}
@@ -2439,7 +2439,7 @@ function C11_EconomicsHumanWantsClassificationSim({
                   audioManager.play('success');
                   speechManager.speak('Great reflections! Thinking about economics in real life cements your knowledge.');
                 }}
-                className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-md"
+                className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-md"
               >
                 {reflectionSubmitted ? '✓ Reflections Recorded for Revision' : 'Save Reflection Journal'}
               </motion.button>
@@ -2477,12 +2477,12 @@ function C11_EconomicsHumanWantsClassificationSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-5 bg-slate-800/70 rounded-2xl border border-slate-700 space-y-3"
             >
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 text-xs text-slate-400">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <motion.li key={i} whileHover={{ x: 3 }} className="flex gap-2 items-start">
-                    <span className="font-bold text-indigo-400">{i + 1}.</span>
+                    <span className="font-bold text-gold-400">{i + 1}.</span>
                     <span>{step}</span>
                   </motion.li>
                 ))}

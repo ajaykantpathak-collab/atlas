@@ -11,11 +11,11 @@ export const w_c11_biologycellwallplasmodesmatasim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Cell Wall: Structure and Function',
     chapters: [],
     nodeIds: ['c11_bio_cbse_08_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a raw mango slice and a ripe mango slice: the raw one is hard and crunchy, the ripe one is soft and.', goal: 'Master Cell Wall: Structure and Function.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The cell wall is a non-living, rigid,.', text: 'The cell wall is a non-living, rigid, extracellular matrix that surrounds the plasma membrane of plant cells, fungi, algae, and most prokaryotes, composed primarily of cellulose microfibrils embedded.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The cell wall is a non-living, rigid,.', text: 'The cell wall is a non-living, rigid, extracellular matrix that surrounds the plasma membrane of plant cells, fungi, algae, and most prokaryotes, composed primarily of cellulose microfibrils embedded.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_08_004', title: 'The cell wall is a non-living, rigid,.',

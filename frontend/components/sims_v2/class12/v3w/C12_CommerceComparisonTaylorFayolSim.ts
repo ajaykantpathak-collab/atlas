@@ -11,7 +11,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship',
     chapters: [],
     nodeIds: ['c12_bs_cbse_02_003', 'c12_bs_cbse_02_005', 'c12_bs_cbse_02_007', 'c12_bs_cbse_02_001', 'c12_bs_cbse_02_008', 'c12_bs_cbse_02_009', 'c12_bs_cbse_02_002', 'c12_bs_cbse_02_004', 'c12_bs_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are the production manager of a bicycle factory in Ludhiana where workers assemble 50 frames per.', goal: 'Master Taylor\'s Techniques: Time Study, Motion Study and Functional Foremanship.' },
     discovery: {
         question: 'A company has two divisions — one manufacturing electric scooters and another manufacturing electric bicycles.',
@@ -20,7 +20,7 @@ export const w_c12_commercecomparisontaylorfayolsim: SimDef = {
         hook: 'Students often confuse Unity of Direction with Unity of Command, writing "Unity of Direction means each employee should.',
     },
     teaching: [
-        { title: 'Taylor\'s Techniques of Scientific Management.', text: 'Taylor\'s Techniques of Scientific Management are specific, standardized procedures — Time Study, Motion Study, Fatigue Study, Method Study, Functional Foremanship, Standardisation & Simplification,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Taylor\'s Techniques of Scientific Management.', text: 'Taylor\'s Techniques of Scientific Management are specific, standardized procedures — Time Study, Motion Study, Fatigue Study, Method Study, Functional Foremanship, Standardisation & Simplification,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_02_003', title: 'Taylor\'s Techniques of Scientific.',

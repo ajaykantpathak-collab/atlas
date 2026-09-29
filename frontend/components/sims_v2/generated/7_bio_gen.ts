@@ -8,685 +8,6 @@ import type { SimDef } from '../engine/types';
 
 export const C7_BIO_GEN: SimDef[] = [
  {
-  "id": "gen_c7_bio_ch01",
-  "title": "Life Stages Of Humans Refer",
-  "subtitle": "Biology · Chapter 1",
-  "classLevel": 7,
-  "mode": "senior",
-  "subject": "biology",
-  "topic": "Life Stages Of Humans Refer",
-  "chapters": [
-   "Biology Ch1: Life Stages Of Humans Refer"
-  ],
-  "nodeIds": [
-   "c7_bio_ch01_001",
-   "c7_bio_ch01_002",
-   "c7_bio_ch01_003",
-   "c7_bio_ch01_004",
-   "c7_bio_ch01_005",
-   "c7_bio_ch01_006",
-   "c7_bio_ch01_007",
-   "c7_bio_ch01_008",
-   "c7_bio_ch01_009",
-   "c7_bio_ch01_010",
-   "c7_bio_ch01_011",
-   "c7_bio_ch01_012"
-  ],
-  "emoji": "🌿",
-  "theme": {
-   "bg": "from-lime-100 to-green-200",
-   "accent": "green",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "What happens if Life Stages Of Humans Refer suddenly stops working?",
-   "options": [
-    "Things around us change in noticeable ways",
-    "Absolutely nothing changes",
-    "Only textbooks would change"
-   ],
-   "answer": "Things around us change in noticeable ways",
-   "hook": "The life stages of humans refer to the continuous, progressive biological phases of growth, development, maturation, and aging that an individual"
-  },
-  "teaching": [
-   {
-    "title": "Life Stages Of Humans Refer",
-    "text": "The life stages of humans refer to the continuous, progressive biological phases of growth, development, maturation, and aging that an individual passes through from birth to death—specifically including infancy, childhood, adolescence, adulthood, and old age.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Adolescence",
-    "text": "Adolescence is the transitional period of physical, psychological, and social development between childhood and adulthood, specifically spanning the age range of 10 to 19 years.",
-    "emoji": "🌿",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Rapid And Marked Increase",
-    "text": "The rapid and marked increase in height and weight during adolescence, driven by the elongation of long bones and a surge in overall body mass regulated by hormones.",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Changes Indicating Reproductive Maturity",
-    "text": "Changes indicating reproductive maturity refer to the biological developments in adolescents—such as the production of gametes (sperm in males and ova in females) and the maturation of primary sex organs—marking the body's ability to engage in sexual",
-    "emoji": "🌿",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Secondary Sexual Characteristics",
-    "text": "Secondary sexual characteristics are the distinct physical features that develop during adolescence—separate from the primary sex organs—which help differentiate males from females and signal the onset of reproductive maturity.",
-    "emoji": "🌿",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Psychological And Physiological Shift During",
-    "text": "The psychological and physiological shift during puberty characterized by mood swings, heightened self-consciousness, and a strong desire for independence, driven by hormonal fluctuations acting on the developing brain.",
-    "emoji": "🌿",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Balanced Diet During Adolescence",
-    "text": "A balanced diet during adolescence is a daily food intake containing appropriate proportions of carbohydrates, proteins, fats, vitamins, minerals, and water to support the rapid skeletal growth, muscular development, hormonal changes, and sudden height and",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Personal Hygiene During Adolescence",
-    "text": "Personal hygiene during adolescence involves daily cleanliness practices required to manage increased activity of sweat and oil glands triggered by hormonal surges, preventing body odor and skin infections.",
-    "emoji": "🌿",
-    "bgColor": "from-emerald-400 to-teal-500"
-   },
-   {
-    "title": "Physical Activities And Regular Exercise",
-    "text": "Physical activities and regular exercise during adolescence refer to planned, structured body movements that contract skeletal muscles, requiring energy expenditure and promoting optimal bone density, cardiovascular endurance, and muscular strength during the",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Balanced Social Life And Mental",
-    "text": "A balanced social life and mental well-being refer to a state of emotional stability, positive interpersonal relationships, and healthy stress management that allow an adolescent to cope with the rapid psychological and hormonal shifts of teenage years.",
-    "emoji": "🌿",
-    "bgColor": "from-sky-400 to-cyan-500"
-   },
-   {
-    "title": "Hormones",
-    "text": "Hormones are chemical messengers secreted directly into the bloodstream by endocrine glands to regulate and coordinate various physiological processes, including the physical and emotional changes during adolescence.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   },
-   {
-    "title": "Reproductive Health During Adolescence",
-    "text": "Reproductive health during adolescence refers to the complete physical, mental, and social well-being in all matters relating to the reproductive system, requiring personal responsibility, hygiene, and informed decision-making.",
-    "emoji": "🌿",
-    "bgColor": "from-rose-400 to-pink-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Which of the following biological stages immediately follows infancy and precedes adolescence in the human life span? A) Old age B) Childhood C) Adulthood D) Prenatal stage",
-    "answer": "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the",
-    "options": [
-     "Hormonal fluctuations acting on the developing brain, particularly the limbic system, cause emotional intensity",
-     "Regular physical activity provides the mechanical stress and energy demand necessary to stimulate proper bone density increase, muscle tissue growth",
-     "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the"
-    ],
-    "hint": "Straight from the 'life stages of humans refer' slide -- match the key terms.",
-    "misconception": "A student who chooses A (Old age) or C (Adulthood) confuses the chronological sequence of the human life span, failing to recognize that humans grow progressively through distinct age brackets rather than jumping from infancy to maturity.",
-    "id": "gen_c7_bio_ch01_q1",
-    "nodeId": "c7_bio_ch01_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Look at a family photo album: you see a tiny newborn baby, a toddler taking first steps, a school-going child, a tall teenager, an adult parent, and",
-     "Every human being journeys through these predictable biological chapters, driven by our genetic blueprint and regulated by chemical messengers called",
-     "Just as a seed grows into a seedling, a sapling, a mature tree, and eventually older wood, human bodies undergo physical, functional, and emotional",
-     "Today, we map out this magnificent journey of life, looking at how our organs develop, mature, and eventually slow down as time passes."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Aman is 9 years old and Rahul is 15 years old. Based on the definition of adolescence, which boy falls into the adolescent age bracket, and what biological transition is he entering or experiencing?",
-    "answer": "Rahul (15 years old) falls into the adolescent age bracket (10-19 years), while Aman (9 years old) is still in late childhood",
-    "options": [
-     "The correct biological consequence is skin irritation, fungal growth, or bacterial infection. Steps: 1",
-     "Steps: 1) Identify that the adolescent brain experiences heightened sensitivity in areas responsible for self-evaluation and social perception",
-     "Rahul (15 years old) falls into the adolescent age bracket (10-19 years), while Aman (9 years old) is still in late childhood"
-    ],
-    "hint": "Straight from the 'Adolescence' slide -- match the key terms.",
-    "misconception": "A student who includes Aman fails to recognize the lower age limit of 10 years for adolescence.",
-    "id": "gen_c7_bio_ch01_q2",
-    "nodeId": "c7_bio_ch01_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "When you look at your older cousins or students in higher classes, you might notice they are suddenly growing taller, their voices are changing, or",
-     "To understand why this happens, we must first look at where this life stage sits in the human timeline, building directly on our knowledge of human",
-     "We begin by examining chronological age boundaries, specifically the 10-to-19-year window designated by health organizations worldwide.",
-     "By observing changes in friends and family members across different age groups, we can identify when childhood ends and this transitional phase"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary biological reason behind the sudden increase in height during early adolescence?",
-    "answer": "The correct answer is the rapid elongation of long bones in the arms and legs, stimulated by growth hormones",
-    "options": [
-     "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the",
-     "The correct answer is B. During adolescence, sweat glands and oil glands become more active, creating moist environments where bacteria and fungi can multiply",
-     "The correct answer is the rapid elongation of long bones in the arms and legs, stimulated by growth hormones"
-    ],
-    "hint": "Straight from the 'rapid and marked increase in' slide -- match the key terms.",
-    "misconception": "A wrong answer often reveals the misconception that muscles stretch the bones, confusing muscle tissue growth with skeletal structural expansion.",
-    "id": "gen_c7_bio_ch01_q3",
-    "nodeId": "c7_bio_ch01_003",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Imagine standing next to a younger sibling or looking at an old photograph where your uniform trousers suddenly look too short around the ankles.",
-     "This noticeable spurt in height is one of the most visible milestones when entering teenage years.",
-     "Building on the basic life stages learned earlier, we now examine the mechanics of how bones lengthen at their growth plates and how muscle and fat",
-     "To understand this, observe how an adolescent's hands and feet often seem to grow larger first before the torso catches up."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What biological substance acts as the chemical messenger that triggers the changes indicating reproductive maturity in adolescents?",
-    "answer": "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity",
-    "options": [
-     "Regular physical activity provides the mechanical stress and energy demand necessary to stimulate proper bone density increase, muscle tissue growth",
-     "The correct answer is hormones",
-     "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity"
-    ],
-    "hint": "Straight from the 'Changes indicating reproductive' slide -- match the key terms.",
-    "misconception": "A student who answers \"blood\" or \"vitamins\" is confusing the transport medium or nutrients with the actual regulatory molecules that command the body to change.",
-    "id": "gen_c7_bio_ch01_q4",
-    "nodeId": "c7_bio_ch01_004",
-    "difficulty": "standard",
-    "workedExample": [
-     "When teenagers look in the mirror, they notice changes beyond just growing taller or gaining weight, such as deeper voices or changes in body shape.",
-     "But underneath these visible traits, deep inside the body, a much more important biological shift is happening: the reproductive organs are waking up",
-     "To understand this, think back to how plants form flowers and seeds only when they reach a certain stage of maturity; human bodies similarly undergo",
-     "We will begin by looking at what organs are involved and how hormones signal them to start producing gametes."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What are secondary sexual characteristics?",
-    "answer": "Secondary sexual characteristics are physical traits that develop during adolescence, helping to distinguish males from females without being the reproductive organs themselves",
-    "options": [
-     "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity",
-     "Hormonal fluctuations acting on the developing brain, particularly the limbic system, cause emotional intensity",
-     "Secondary sexual characteristics are physical traits that develop during adolescence, helping to distinguish males from females without being the reproductive organs themselves"
-    ],
-    "hint": "Straight from the 'Secondary sexual characteristics' slide -- match the key terms.",
-    "misconception": "A student who thinks they are present at birth is confusing them with primary sex organs.",
-    "id": "gen_c7_bio_ch01_q5",
-    "nodeId": "c7_bio_ch01_005",
-    "difficulty": "standard",
-    "workedExample": [
-     "When looking at older cousins or teenagers around us, we notice sudden changes in their appearance, such as boys developing facial hair or a deeper",
-     "To understand why this happens, we begin by observing that human bodies undergo a second major transformation after infancy during the teenage years.",
-     "Connecting back to Class 6, where we learned about general height and weight increases, we now examine the specific features that make male and",
-     "The key biological principle is that chemical messengers called hormones, released by endocrine glands, trigger these visible body changes to prepare"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary biological driver behind the emotional and behavioural changes observed during adolescence?",
-    "answer": "Hormonal fluctuations acting on the developing brain, particularly the limbic system, cause emotional intensity",
-    "options": [
-     "Hormones are the chemical messengers secreted by endocrine glands that travel through the blood to target organs, triggering reproductive maturity",
-     "Regular physical activity provides the mechanical stress and energy demand necessary to stimulate proper bone density increase, muscle tissue growth",
-     "Hormonal fluctuations acting on the developing brain, particularly the limbic system, cause emotional intensity"
-    ],
-    "hint": "Straight from the 'psychological and physiological' slide -- match the key terms.",
-    "misconception": "A wrong answer often attributes these changes solely to \"bad behavior\" or lack of discipline, failing to recognize the biological and neurological basis of adolescent development.",
-    "id": "gen_c7_bio_ch01_q6",
-    "nodeId": "c7_bio_ch01_006",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Observe how a teenager in your family might feel thrilled one minute about a new hobby and overwhelmed the next by a minor comment from a teacher.",
-     "Think back to how your body and thoughts started shifting when you entered middle school.",
-     "Just as your height shot up due to hormones, your brain's emotional center (the limbic system) undergoes rapid development and sensitivity.",
-     "Today, we will explore why these intense feelings happen and how they form a normal, healthy part of growing up."
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why do adolescents need a larger quantity of proteins in their balanced diet compared to younger children?",
-    "answer": "Adolescents need more protein because they undergo a rapid growth spurt involving the formation of new tissues, muscles, and organs driven by hormonal changes",
-    "options": [
-     "The correct answer is that endocrine glands are ductless glands, meaning they do not have tubes or ducts to transport their secretions",
-     "Adolescents navigate a transitional identity phase where brain maturation triggers a desire for autonomy while peer approval activates reward pathways",
-     "Adolescents need more protein because they undergo a rapid growth spurt involving the formation of new tissues, muscles, and organs driven by hormonal changes"
-    ],
-    "hint": "Straight from the 'balanced diet during adolescence' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the misconception that protein is only needed for adults who go to the gym, missing its crucial role in structural growth and cell multiplication during puberty.",
-    "id": "gen_c7_bio_ch01_q7",
-    "nodeId": "c7_bio_ch01_007",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Think about how rapidly you grow out of your school uniform or shoes during certain years, which requires your body to build new bones, muscles, and",
-     "To understand how this happens, observe what happens when a builder constructs a large building—they need a steady supply of bricks, cement, iron",
-     "Connect this to what you learned in Class 6 about basic nutrition and the components of food.",
-     "Today, we will explore why growing teenagers have higher nutritional demands than adults or younger children, and how combining different food groups"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Why do adolescents experience increased skin oiliness and body odor compared to when they were in primary school?",
-    "answer": "Adolescents experience increased oiliness and body odor because hormones stimulate sweat glands (sudoriferous glands) and oil glands (sebaceous glands) to become much more active",
-    "options": [
-     "Adolescents have a rapidly growing body mass and high metabolic rate, requiring their cells to extract more energy through cellular respiration",
-     "Adolescents need more protein because they undergo a rapid growth spurt involving the formation of new tissues, muscles, and organs driven by hormonal changes",
-     "Adolescents experience increased oiliness and body odor because hormones stimulate sweat glands (sudoriferous glands) and oil glands (sebaceous glands) to become much more active"
-    ],
-    "hint": "Straight from the 'Personal hygiene during' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student thinks body odor comes from dirt alone rather than the interaction between sweat, skin secretions, and normal skin bacteria breaking them down.",
-    "id": "gen_c7_bio_ch01_q8",
-    "nodeId": "c7_bio_ch01_008",
-    "difficulty": "advanced",
-    "workedExample": [
-     "During sports practice on a warm afternoon in school, you might notice a stronger body odor than you did a few years ago.",
-     "This happens because your body is growing, and specific glands under your arms and on your face start producing more secretions.",
-     "To understand how to handle this, think back to how your body systems change during puberty when hormones activate new glands.",
-     "We begin by observing how sweat and oil interact with the skin's natural bacteria."
-    ]
-   },
-   {
-    "type": "order",
-    "question": "Rohan, a 13-year-old, spends four hours daily playing video games indoors and complains of feeling sluggish and weak during school sports periods, despite eating a normal diet. Using your knowledge of how body systems respond to disuse, explain what is happening biologically to his muscles and stamina.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Recall that muscle fibers and cardiovascular",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "Apply this to Rohan—without exercise",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Conclude that his low stamina",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "Identify Rohan's lifestyle pattern",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who believes diet alone can maintain strength without exercise fails to recognize the mechanical stimulus required for muscle and bone development.",
-    "id": "gen_c7_bio_ch01_q9",
-    "nodeId": "c7_bio_ch01_009",
-    "difficulty": "advanced",
-    "workedExample": [
-     "When you play a game of kabaddi or football in the school playground, you quickly notice your heart beating faster, your breathing deepening, and",
-     "To understand why this happens, we must connect it to what you learned last year about how cellular respiration provides energy to your muscles.",
-     "When adolescents undergo rapid height and weight spurts, bones lengthen and muscles expand rapidly, demanding increased oxygen and nutrient delivery.",
-     "We begin by observing how our bodies respond to different types of movement, noting how regular exercise strengthens our heart and lungs."
-    ]
-   },
-   {
-    "type": "order",
-    "question": "Rohan, a 13-year-old student, has been spending all his free time isolated in his room playing video games, stopped playing cricket with his friends, and snaps angrily at his parents whenever they ask about his day.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Conclusion—Rohan",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s1",
-      "label": "Rohan",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s2",
-      "label": "Analyze consequences—prolonged isolation",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "Identify the behavior—isolation from peer",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s4",
-      "label": "Relate to developmental stage—adolescents",
-      "emoji": "📌",
-      "correctBin": "o2"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer would assume this is normal teenage behavior that requires no attention, ignoring the danger of complete social isolation.",
-    "id": "gen_c7_bio_ch01_q10",
-    "nodeId": "c7_bio_ch01_010",
-    "difficulty": "advanced",
-    "workedExample": [
-     "Think about how you feel after sharing a worry with a close friend or family member—often, a heavy burden suddenly feels lighter.",
-     "During adolescence, rapid physical and hormonal changes inside the body can trigger sudden mood swings, feelings of self-doubt, or intense peer",
-     "To navigate these changes successfully, teenagers need to build on what they learned about emotional shifts in earlier years by actively fostering",
-     "Mental well-being is not the absence of stress, but the ability to maintain emotional balance, build positive social connections, and seek help when"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "What is the general term for chemical substances secreted by endocrine glands that act as messengers in the human body?",
-    "answer": "The correct answer is hormones",
-    "options": [
-     "B) Childhood. Childhood is the developmental phase spanning roughly from age 2 to age 10, sitting squarely between infancy (the first year or two of life) and adolescence (the",
-     "The correct answer is the rapid elongation of long bones in the arms and legs, stimulated by growth hormones",
-     "The correct answer is hormones"
-    ],
-    "hint": "Straight from the 'Hormones' slide -- match the key terms.",
-    "misconception": "A student who answers \"enzymes\" or \"nutrients\" is confusing metabolic catalysts or food components with chemical signaling molecules that travel through the bloodstream.",
-    "id": "gen_c7_bio_ch01_q11",
-    "nodeId": "c7_bio_ch01_011",
-    "difficulty": "advanced",
-    "workedExample": [
-     "When a Class 7 student notices a sudden spurt in height, deepening of the voice, or the appearance of acne, they are observing visible physical",
-     "To understand why these transformations happen all at once, we must look inside the body for invisible chemical signals.",
-     "Building on the basic idea of teenage physical transformations from Class 6, we now examine the microscopic messengers called hormones.",
-     "We begin by observing how endocrine glands release these substances into the bloodstream, which acts like a highway carrying messages to specific"
-    ]
-   },
-   {
-    "type": "order",
-    "question": "A 13-year-old student notices increased sweating and body odor after playing football in the school ground in a humid climate. Based on reproductive health principles, what is the best immediate action?",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Recognize that perfumes only mask odor",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "Identify that sweat and oil accumulation",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "The correct answer",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s3",
-      "label": "Conclude that thorough washing",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
-      "id": "s4",
-      "label": "Determine that washing with soap and water",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Choosing A or D shows a misunderstanding that masking odor is the same as cleaning, which invites infections.",
-    "id": "gen_c7_bio_ch01_q12",
-    "nodeId": "c7_bio_ch01_012",
-    "difficulty": "advanced",
-    "workedExample": [
-     "When you experience sudden body changes like increased sweating and oily skin during adolescence, your daily routine must adapt to keep your body",
-     "Just as you learned to wash your hands before eating to keep germs away, taking care of your changing body requires special daily habits to prevent",
-     "Think about how maintaining personal hygiene protects not just your skin, but your entire body from harmful bacteria.",
-     "Now, let us build upon your knowledge of hormonal changes and emotional growth to understand how personal responsibility safeguards our reproductive"
-    ]
-   },
-   {
-    "type": "order",
-    "question": "An adolescent claims that skipping warm-up exercises before playing an intensive game of football has no biological consequence because the body warms up naturally during play. Evaluate this claim using biological reasoning.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Rapid muscle contraction without a warm-up",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Skipping warm-ups increases the likelihood",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Warm-up exercises gradually dilate blood",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who agrees with the claim does not understand how gradual circulatory adjustment protects muscle tissue from sudden strain.",
-    "id": "gen_c7_bio_ch01_q13",
-    "nodeId": "c7_bio_ch01_009",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Design a weekly wellness plan for a 14-year-old student who feels overwhelmed by academic pressure and peer expectations. Your plan must include at least three distinct activities addressing physical, social, and emotional well-being.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "An emotional/mindfulness practice like",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "A social activity like joining a school club",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "A physical activity like cycling or playing",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer would focus only on studying harder or isolating oneself with entertainment devices, missing the holistic nature of mental well-being.",
-    "id": "gen_c7_bio_ch01_q14",
-    "nodeId": "c7_bio_ch01_010",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A health researcher is plotting a graph of human bone density versus age, spanning from birth to 90 years. Based on human biology, at which life stage would the researcher expect bone density to reach its absolute peak, and why?",
-    "answer": "C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density before age-related decline begins",
-    "options": [
-     "Rahul (15 years old) falls into the adolescent age bracket (10-19 years), while Aman (9 years old) is still in late childhood",
-     "This statement is partially incorrect because while adolescence generally begins around age 10 (marking the lower bound)",
-     "C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density before age-related decline begins"
-    ],
-    "hint": "Straight from the 'life stages of humans refer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: C) Early adulthood, because skeletal maturation is fully complete and bones have achieved maximum mineral density",
-    "id": "gen_c7_bio_ch01_q15",
-    "nodeId": "c7_bio_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the physiological status of organ systems (like the circulatory and skeletal systems) during early adulthood versus old age. Which statement best describes the shift between these two life stages?",
-    "answer": "B) Organ systems reach their peak functional efficiency in early adulthood, followed by a gradual, natural decline in elasticity, tissue repair speed",
-    "options": [
-     "Both teenagers need all food groups for growth, but the athlete requires a higher total calorie intake with more carbohydrates for sustained energy and extra proteins for muscle",
-     "Physical growth spurts follow a relatively predictable skeletal pattern based on genetics and nutrition",
-     "B) Organ systems reach their peak functional efficiency in early adulthood, followed by a gradual, natural decline in elasticity, tissue repair speed"
-    ],
-    "hint": "Straight from the 'life stages of humans refer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: B) Organ systems reach their peak functional efficiency in early adulthood, followed by a gradual, natural decline in",
-    "id": "gen_c7_bio_ch01_q16",
-    "nodeId": "c7_bio_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple timeline or conceptual model for a school science project that demonstrates how hormonal signals orchestrate the transition across three consecutive human life stages (childhood, adolescence, and adulthood). Describe what triggers each transition.",
-    "answer": "A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release from the pituitary gland",
-    "options": [
-     "The correct answer is no, because height is influenced by a combination of genetic potential from the entire family tree and environmental factors like nutrition and health",
-     "A good answer proposes measuring non-invasive metrics like height milestones, shoe size changes",
-     "A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release from the pituitary gland"
-    ],
-    "hint": "Straight from the 'life stages of humans refer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A complete response should describe: 1) Childhood as a stable growth phase governed by steady growth hormone release",
-    "id": "gen_c7_bio_ch01_q17",
-    "nodeId": "c7_bio_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a child's pituitary gland fails to secrete sufficient growth hormone during their childhood years, how would this primarily impact their progression into subsequent life stages?",
-    "answer": "Steps to solve: 1) Identify that the pituitary gland secretes growth hormone responsible for lengthening long bones during childhood and adolescence",
-    "options": [
-     "The claim is false because fats are essential during adolescence for hormone production, brain development, and the absorption of fat-soluble vitamins (A, D, E, K)",
-     "A good model should feature two parallel tracks: Track 1 (Physical Growth) showing height spurts and weight gain from ages 10-14",
-     "Steps to solve: 1) Identify that the pituitary gland secretes growth hormone responsible for lengthening long bones during childhood and adolescence"
-    ],
-    "hint": "Straight from the 'life stages of humans refer' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Steps to solve: 1) Identify that the pituitary gland secretes growth hormone responsible for lengthening long bones",
-    "id": "gen_c7_bio_ch01_q18",
-    "nodeId": "c7_bio_ch01_001",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about life stages of humans refer?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Life Stages Of Humans Refer mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
   "id": "gen_c7_bio_ch02",
   "title": "Life Processes",
   "subtitle": "Biology · Chapter 2",
@@ -753,7 +74,7 @@ export const C7_BIO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Stomach",
+    "title": "Stomach Is a Muscular",
     "text": "The stomach is a muscular, J-shaped bag located in the upper abdomen that receives chewed food from the oesophagus and secretes gastric juices containing hydrochloric acid and digestive enzymes to chemically break down proteins.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -807,8 +128,8 @@ export const C7_BIO_GEN: SimDef[] = [
     "question": "What is the primary purpose of nutrition as a life process in animals?",
     "answer": "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair",
     "options": [
-     "Oxygen is the primary gas required for aerobic respiration",
-     "The primary function is to ingest food, digest it into smaller absorbable molecules, absorb nutrients into the bloodstream, and eliminate undigested waste",
+     "Can list and define the three primary life processes (nutrition, respiration, excretion) and explain how they depend on one another to keep an animal alive",
+     "Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport",
      "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair"
     ],
     "hint": "Straight from the 'Life processes' slide -- match the key terms.",
@@ -832,7 +153,7 @@ export const C7_BIO_GEN: SimDef[] = [
      "The stomach lining secretes a protective layer of mucus that coats the inner walls and shields them from the corrosive acid and digestive enzymes",
      "Cows eat plant matter (cellulose) which is hard to digest and requires extensive mechanical breakdown by flat molars and microbial fermentation"
     ],
-    "hint": "Straight from the 'classification of animals based on' slide -- match the key terms.",
+    "hint": "Straight from the 'classification of animals based' slide -- match the key terms.",
     "misconception": "A wrong answer shows a lack of understanding of the structural differences between plant and animal matter digestion.",
     "id": "gen_c7_bio_ch02_q2",
     "nodeId": "c7_bio_ch02_002",
@@ -849,7 +170,7 @@ export const C7_BIO_GEN: SimDef[] = [
     "question": "What is the primary function of the alimentary canal in humans?",
     "answer": "The primary function is to ingest food, digest it into smaller absorbable molecules, absorb nutrients into the bloodstream, and eliminate undigested waste",
     "options": [
-     "The correct answer is the diaphragm",
+     "Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport",
      "Oxygen is the primary gas required for aerobic respiration",
      "The primary function is to ingest food, digest it into smaller absorbable molecules, absorb nutrients into the bloodstream, and eliminate undigested waste"
     ],
@@ -874,7 +195,7 @@ export const C7_BIO_GEN: SimDef[] = [
      "A good model uses a folded, sponge-like structure (representing gill filaments) submerged in water to show how many folds create a much larger surface area for water flow than a",
      "The salivary glands secrete saliva, which is thoroughly mixed with the bread by the muscular movements of the tongue"
     ],
-    "hint": "Straight from the 'process of digestion in the' slide -- match the key terms.",
+    "hint": "Straight from the 'process of digestion' slide -- match the key terms.",
     "misconception": "If a student thinks the teeth alone soften the bread, they overlook the fluid contribution of the salivary glands.",
     "id": "gen_c7_bio_ch02_q4",
     "nodeId": "c7_bio_ch02_004",
@@ -891,11 +212,11 @@ export const C7_BIO_GEN: SimDef[] = [
     "question": "What is the primary shape of the human stomach inside the abdominal cavity?",
     "answer": "The human stomach is shaped like the letter \"J\"",
     "options": [
-     "The correct answer is the diaphragm",
+     "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair",
      "Oxygen is the primary gas required for aerobic respiration",
      "The human stomach is shaped like the letter \"J\""
     ],
-    "hint": "Straight from the 'stomach' slide -- match the key terms.",
+    "hint": "Straight from the 'stomach is a muscular' slide -- match the key terms.",
     "misconception": "A wrong answer usually indicates confusion with other internal organs like the small intestine or the large intestine, showing the student needs to review basic anatomical diagrams of the digestive tract.",
     "id": "gen_c7_bio_ch02_q5",
     "nodeId": "c7_bio_ch02_005",
@@ -996,8 +317,8 @@ export const C7_BIO_GEN: SimDef[] = [
     "question": "What is the primary reason why herbivores like cows have a much longer small intestine and alimentary canal compared to carnivores like lions?",
     "answer": "Herbivores have longer alimentary canals because plant matter contains tough cellulose that requires more time and space for microbial fermentation and nutrient absorption",
     "options": [
-     "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair",
-     "The lungs contain the alveoli where gas exchange occurs",
+     "The primary function is to ingest food, digest it into smaller absorbable molecules, absorb nutrients into the bloodstream, and eliminate undigested waste",
+     "Can list and define the three primary life processes (nutrition, respiration, excretion) and explain how they depend on one another to keep an animal alive",
      "Herbivores have longer alimentary canals because plant matter contains tough cellulose that requires more time and space for microbial fermentation and nutrient absorption"
     ],
     "hint": "Straight from the 'Variations in digestion across' slide -- match the key terms.",
@@ -1017,8 +338,9 @@ export const C7_BIO_GEN: SimDef[] = [
     "question": "What is the primary gas required for aerobic respiration to take place in animal cells?",
     "answer": "Oxygen is the primary gas required for aerobic respiration",
     "options": [
-     "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair",
-     "The human stomach is shaped like the letter \"J\"",
+     "Aerobic respiration is the process of cellular energy release that occurs in the presence of oxygen, completely breaking down food molecules into carbon dioxide and water",
+     "The lungs contain the alveoli where gas exchange occurs",
+     "Anaerobic is the primary gas required for aerobic respiration",
      "Oxygen is the primary gas required for aerobic respiration"
     ],
     "hint": "Straight from the 'Aerobic respiration' slide -- match the key terms.",
@@ -1101,8 +423,8 @@ export const C7_BIO_GEN: SimDef[] = [
     "question": "What muscle lies at the floor of the chest cavity and plays the primary role in changing chest volume during breathing?",
     "answer": "The correct answer is the diaphragm",
     "options": [
-     "The primary function is to ingest food, digest it into smaller absorbable molecules, absorb nutrients into the bloodstream, and eliminate undigested waste",
-     "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair",
+     "Oxygen is the primary gas required for aerobic respiration",
+     "Breathing mechanism is the physical process of inhaling oxygen-rich air into the lungs and exhaling carbon dioxide-rich air out of the body",
      "The correct answer is the diaphragm"
     ],
     "hint": "Straight from the 'Breathing mechanism' slide -- match the key terms.",
@@ -1367,13 +689,15 @@ export const C7_BIO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_bio_ch03",
-  "title": "Role of Air (CO2) in Food Preparation by Plants",
+  "title": "Carbon Dioxide",
   "subtitle": "Biology · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "biology",
-  "topic": "Role of Air (CO2) in Food Preparation by Plants",
-  "chapters": ["Biology Ch3: Role of Air (CO2) in Food Preparation by Plants"],
+  "topic": "Carbon Dioxide",
+  "chapters": [
+   "Biology Ch3: Carbon Dioxide"
+  ],
   "nodeIds": [
    "c7_bio_ch03_006",
    "c7_bio_ch03_007",
@@ -1387,7 +711,7 @@ export const C7_BIO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Role of Air (CO2) in Food outside the classroom?",
+   "question": "Quick guess -- where do you meet Carbon Dioxide outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -1404,13 +728,13 @@ export const C7_BIO_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Gas Exchange In Plants Occurs",
+    "title": "Gas Exchange In Plants Occurs Primarily",
     "text": "Gas exchange in plants occurs primarily through microscopic pores called stomata (singular: stoma) found mostly on the epidermis of leaves, allowing carbon dioxide to enter for photosynthesis and oxygen to exit as a byproduct.",
     "emoji": "🌿",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Phloem",
+    "title": "Phloem Is a Specialized Plant Vascular",
     "text": "Phloem is a specialized plant vascular tissue responsible for transporting dissolved sugars and organic food synthesized during photosynthesis from the leaves to all other parts of the plant, including roots, stems, and growing buds.",
     "emoji": "🌿",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1432,7 +756,7 @@ export const C7_BIO_GEN: SimDef[] = [
      "The correct answer is no, it is not a fair test because she has changed two independent variables at the same time: both fertilizer presence and sunlight exposure",
      "The leaf will NOT turn blue-black because potassium hydroxide removed all $\\text{CO}_2$ from the air inside the jar"
     ],
-    "hint": "Straight from the 'Carbon dioxide _2$)' slide -- match the key terms.",
+    "hint": "Straight from the 'Carbon dioxide' slide -- match the key terms.",
     "misconception": "A student who says it will turn blue-black incorrectly assumes sunlight and water alone are enough to make food without carbon dioxide.",
     "id": "gen_c7_bio_ch03_q1",
     "nodeId": "c7_bio_ch03_006",
@@ -1474,7 +798,7 @@ export const C7_BIO_GEN: SimDef[] = [
      "The correct answer is A. Applying petroleum jelly blocks stomata, preventing transpiration",
      "Steps: 1. Identify that removing the bark removes the phloem tissue while xylem remains untouched. 2"
     ],
-    "hint": "Straight from the 'Phloem' slide -- match the key terms.",
+    "hint": "Straight from the 'Phloem is a specialized plant' slide -- match the key terms.",
     "misconception": "If a student thinks the branch swelled because of trapped water, they are ignoring the function of phloem in food transport.",
     "id": "gen_c7_bio_ch03_q3",
     "nodeId": "c7_bio_ch03_009",
@@ -1516,7 +840,7 @@ export const C7_BIO_GEN: SimDef[] = [
      "The correct answer is A. Applying petroleum jelly blocks stomata, preventing transpiration",
      "Xylem transports water and minerals almost exclusively in one direction (upwards from roots to leaves), driven by transpiration pull"
     ],
-    "hint": "Straight from the 'Phloem' slide -- match the key terms.",
+    "hint": "Straight from the 'Phloem is a specialized plant' slide -- match the key terms.",
     "misconception": "A wrong answer claiming both tissues transport substances in the same direction ignores the distinct physiological needs of different plant organs.",
     "id": "gen_c7_bio_ch03_q5",
     "nodeId": "c7_bio_ch03_009",
@@ -1525,11 +849,875 @@ export const C7_BIO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about role of air (co2) in food preparation by plants?",
+    "What surprised you about carbon dioxide?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Role of Air (CO2) in Food mastered! 🎯",
+  "successLine": "Carbon Dioxide mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
+ },
+ {
+  "id": "gen_c7_bio_ch09",
+  "title": "Digestive System",
+  "subtitle": "Biology · Chapter 9",
+  "classLevel": 7,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Digestive System",
+  "chapters": [
+   "Biology Ch9: Digestive System"
+  ],
+  "nodeIds": [
+   "c6_biology_ch09_001",
+   "c6_biology_ch09_002",
+   "c6_biology_ch09_003",
+   "c6_biology_ch09_004",
+   "c6_biology_ch09_005",
+   "c6_biology_ch09_006",
+   "c6_biology_ch09_007",
+   "c6_biology_ch09_008"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is Digestive System more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "The digestive system is a biological network of organs, including a long muscular tube (the alimentary canal) and accessory organs like the liver and"
+  },
+  "teaching": [
+   {
+    "title": "Digestive System",
+    "text": "The digestive system is a biological network of organs, including a long muscular tube (the alimentary canal) and accessory organs like the liver and pancreas, which work together to break down complex food into simpler substances that the body can absorb for",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Animals Are Classified Into Three Main",
+    "text": "Animals are classified into three main groups based on their dietary habits: herbivores (plant-eaters), carnivores (flesh-eaters), and omnivores (eaters of both plants and animals).",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "The Digestion Process: From Mouth",
+    "text": "Digestion is the biological process of breaking down large, complex food molecules into smaller, simpler units that the body can absorb and use for energy, growth, and repair.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Breathing Is The Mechanical Action",
+    "text": "Breathing is the mechanical action of moving air into and out of the lungs to exchange oxygen and carbon dioxide. It is driven by the movement of the diaphragm and rib cage muscles, which changes the size of the chest cavity to allow airflow.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Cellular Respiration",
+    "text": "Cellular respiration is the process where cells break down digested food (like simple sugars) using oxygen to release the energy needed for all body activities.",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Food Chain",
+    "text": "A food chain is a linear sequence showing how energy flows from one organism to another, starting from plants that capture sunlight and passing through consumers that eat them.",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Balanced Diet",
+    "text": "A balanced diet is a daily food pattern that provides the body with the right proportions of energy-giving carbohydrates and fats, body-building proteins, and protective vitamins and minerals, along with necessary dietary fibre and water.",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Circulatory System Acts As",
+    "text": "The circulatory system acts as the body's transport highway, using the heart as a pump to move blood through vessels to deliver oxygen from the lungs to every individual cell.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "What is the primary function of the digestive system?",
+    "answer": "The primary function is to break down large, complex food into simpler substances that the body can absorb",
+    "options": [
+     "The tube is called the oesophagus",
+     "The student must be able to name the major organs of the digestive system in the correct sequence and describe the specific function of each part (mouth, oesophagus",
+     "The primary function is to break down large, complex food into simpler substances that the body can absorb"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "A wrong answer here suggests the student confuses digestion with simply \"chewing\" or \"eating,\" missing the chemical breakdown aspect.",
+    "id": "gen_c7_bio_ch09_q1",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you just ate your favourite snack—how does that bite of bread actually become the energy you use to run or study?",
+     "Think of your body as having a long \"food factory\" tube inside it, starting at your mouth and ending at the anus, which acts like an assembly line.",
+     "As the food moves through this tube, accessory organs like the liver and pancreas act like \"chemists,\" adding special fluids to break the food down",
+     "Without this \"factory,\" your body couldn't use the raw materials from your food to build muscle or fuel your brain."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A deer only eats grass, and a lion only eats deer. If we removed all the grass from the forest, what would happen to the deer and the lion?",
+    "answer": "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well",
+    "options": [
+     "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body",
+     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
+     "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well"
+    ],
+    "hint": "Straight from the 'Animals are classified into three' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student does not understand that these dietary habits create a chain of dependency.",
+    "id": "gen_c7_bio_ch09_q2",
+    "nodeId": "c6_biology_ch09_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered why a cow spends all day chewing grass while a tiger only hunts for meat?",
+     "Start by looking at the food source: if an animal eats only plants (like grains, leaves, or fruits), it is a herbivore.",
+     "If it hunts or scavenges to eat other animals, it is a carnivore.",
+     "If it enjoys a \"mixed diet\" of both plants and animal products, it is an omnivore."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the name of the tube that carries food from the mouth to the stomach?",
+    "answer": "The tube is called the oesophagus",
+    "options": [
+     "The student must be able to name the major organs of the digestive system in the correct sequence and describe the specific function of each part (mouth, oesophagus",
+     "The student must be able to trace the path of food from the mouth to the exit point and explain the dual role of the digestive tract and accessory organs in transforming food into",
+     "The tube is called the oesophagus"
+    ],
+    "hint": "Straight from the 'Digestion is the biological' slide -- match the key terms.",
+    "misconception": "A student who says \"windpipe\" or \"throat\" confuses the digestive pathway with the respiratory system.",
+    "id": "gen_c7_bio_ch09_q3",
+    "nodeId": "c6_biology_ch09_003",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered how a crunchy apple you eat for a snack becomes the energy that helps you run during games?",
+     "It doesn't just disappear; your body acts like a factory.",
+     "First, the \"machinery\" in your mouth grinds the food to increase the surface area for digestion, while saliva begins the chemical breakdown.",
+     "Then, the food is shaped into a soft ball called a bolus and travels down a tube called the oesophagus using rhythmic muscle movements."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary function of the diaphragm during breathing?",
+    "answer": "The diaphragm moves downward to enlarge the chest cavity, allowing air to be drawn into the lungs",
+    "options": [
+     "The primary function is to break down large, complex food into simpler substances that the body can absorb",
+     "Breathing is the mechanical action of moving air into and out of the lungs to exchange oxygen and carbon dioxide",
+     "The diaphragm moves downward to enlarge the chest cavity, allowing air to be drawn into the lungs"
+    ],
+    "hint": "Straight from the 'Breathing is the mechanical action' slide -- match the key terms.",
+    "misconception": "A student who says \"it filters the air\" confuses the diaphragm with the nose or trachea, showing they do not understand the mechanical function of the muscle.",
+    "id": "gen_c7_bio_ch09_q4",
+    "nodeId": "c6_biology_ch09_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever noticed how your chest moves when you take a deep breath after running?",
+     "To understand this, start by placing your hands gently on your ribs and taking a slow, deep breath.",
+     "You will feel your chest expand as air enters, and contract as you breathe out.",
+     "Imagine your lungs sitting inside your chest like two balloons; they don't move on their own, but are pulled by the sheet of muscle below them called"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A marathon runner drinks glucose water for \"instant energy.\" How does the cell use this glucose?",
+    "answer": "The cell takes the glucose and oxygen to perform cellular respiration, releasing the energy stored in the sugar",
+    "options": [
+     "No, in this context, oxygen is required to break down the sugars effectively to release the energy the cell needs",
+     "While rice provides energy (carbohydrates), it lacks sufficient protein for repair and protective vitamins/minerals",
+     "The cell takes the glucose and oxygen to perform cellular respiration, releasing the energy stored in the sugar"
+    ],
+    "hint": "Straight from the 'Cellular respiration' slide -- match the key terms.",
+    "misconception": "If a student answers \"it just goes to the muscles,\" they are missing the step of the chemical reaction that converts the sugar into usable energy.",
+    "id": "gen_c7_bio_ch09_q5",
+    "nodeId": "c6_biology_ch09_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Think about why you feel tired after a long game of tag—it's because your \"fuel tank\" is running low.",
+     "You eat a sandwich to get energy, but that food doesn't turn into movement just by sitting in your stomach.",
+     "Your cells have to work like tiny power plants, using oxygen to \"burn\" that food into usable energy.",
+     "Even when you are sleeping or sitting still, your cells are performing this process to keep your heart beating and your body repairing itself."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What do we call the first organism in any food chain that makes its own food using sunlight?",
+    "answer": "They are called producers",
+    "options": [
+     "The student must be able to trace the path of food from the mouth to the exit point and explain the dual role of the digestive tract and accessory organs in transforming food into",
+     "Digestion is the biological process of breaking down large, complex food molecules into smaller, simpler units that the body can absorb and use for energy, growth, and repair",
+     "Cells are called producers",
+     "They are called producers"
+    ],
+    "hint": "Straight from the 'food chain' slide -- match the key terms.",
+    "misconception": "A wrong answer (like \"consumer\") reveals the student does not understand that only plants (producers) start the energy flow by capturing sunlight.",
+    "id": "gen_c7_bio_ch09_q6",
+    "nodeId": "c6_biology_ch09_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered why you feel energized after eating a lunch of rice and dal?",
+     "That energy actually started in the sun, which the plants captured to make food.",
+     "To begin understanding this, imagine a simple path: the Sun feeds the plant, the plant feeds a grasshopper, and the grasshopper feeds a frog.",
+     "Think of each organism as a \"link\" in a chain where energy is passed along like a relay race baton."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What are the three main roles that nutrients play in our body?",
+    "answer": "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases",
+    "options": [
+     "Digestion is the biological process of breaking down large, complex food molecules into smaller, simpler units that the body can absorb and use for energy, growth, and repair",
+     "The heart acts as a muscular pump that contracts to move blood through the body. A student saying it \"makes air\" or \"stores oxygen\" confuses the heart's function with the lungs'",
+     "Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases"
+    ],
+    "hint": "Straight from the 'balanced diet' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Nutrients provide energy, support body-building (growth/repair), and protect the body from diseases.",
+    "id": "gen_c7_bio_ch09_q7",
+    "nodeId": "c6_biology_ch09_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Think about how you feel after eating a heavy meal of just sweets versus a meal with dal, roti, and vegetables.",
+     "If you only eat one type of food, your body misses out on the different tools it needs to grow, repair muscles, and fight off sickness.",
+     "Start by identifying the \"roles\" of food: energy (carbohydrates/fats), building (proteins), and protecting (vitamins/minerals).",
+     "To build a balanced diet, you don't need a perfect single meal, but rather a pattern over days that includes variety from these groups."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "A red blood cell is currently in the lung. Describe its journey to a muscle cell in your leg.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The cell picks up oxygen in the lungs",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "The heart pumps it through arteries",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "It travels to the heart",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "It reaches the leg muscle cell to deliver",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "If the student skips the \"pump\" step, they don't understand the circulatory mechanism.",
+    "id": "gen_c7_bio_ch09_q8",
+    "nodeId": "c6_biology_ch09_008",
+    "difficulty": "standard",
+    "workedExample": [
+     "Imagine you are waiting for a delivery of a parcel at your home.",
+     "Your body is like a massive city, and every single cell is like a house that needs oxygen to stay alive.",
+     "You breathe in, and oxygen enters your lungs, but how does it get to your toes?",
+     "The circulatory system is the delivery service!"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple model or analogy to explain why we need \"accessory\" organs.",
+    "answer": "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs",
+    "options": [
+     "No, because breathing relies on changing the volume of the chest cavity to create pressure differences that move air in and out",
+     "The model would represent the chest cavity (bottle) and the diaphragm (rubber sheet); if the sheet tears, the \"vacuum\" would be broken, and the balloon would not inflate",
+     "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "A poor answer fails to distinguish between the path of the food and the agents that assist in its breakdown.",
+    "id": "gen_c7_bio_ch09_q9",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "How is the digestive system different from just a simple pipe?",
+    "answer": "A pipe just moves things, but the digestive system is a biological assembly line that modifies the food chemically and physically to extract nutrients",
+    "options": [
+     "This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical size reduction",
+     "\"Burning\" would release all energy as heat instantly, which would hurt the cell; \"controlled\" means the cell releases energy in small, usable amounts",
+     "A pipe just moves things, but the digestive system is a biological assembly line that modifies the food chemically and physically to extract nutrients"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "A wrong answer implies the student sees digestion as a passive transport rather than an active, transformative process.",
+    "id": "gen_c7_bio_ch09_q10",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were to trace a piece of food, what is the sequence of the main \"tube\" it travels through?",
+    "answer": "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body",
+    "options": [
+     "The \"bricks\" are the food/nutrients (like carbohydrates) used to build/repair, and the \"electricity\" is the energy released by cellular respiration that powers the construction",
+     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
+     "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a lack of understanding of the sequential nature of the digestive tract.",
+    "id": "gen_c7_bio_ch09_q11",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it more efficient for the body to have one long tube or many separate, disconnected parts for digestion?",
+    "answer": "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
+    "options": [
+     "The heart is needed to provide the force to circulate the blood throughout the entire body to reach distant cells",
+     "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well",
+     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests a failure to understand the interconnected nature of biological systems.",
+    "id": "gen_c7_bio_ch09_q12",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to trace the path of food from the mouth to the exit point and explain the dual role of the digestive tract and accessory organs in transforming food into",
+    "options": [
+     "The student must be able to name the major organs of the digestive system in the correct sequence and describe the specific function of each part (mouth, oesophagus",
+     "The student must be able to categorize food items by their primary nutrient role and justify why a meal choice contributes to or fails a balanced diet based on variety and",
+     "The student must be able to trace the path of food from the mouth to the exit point and explain the dual role of the digestive tract and accessory organs in transforming food into"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to trace the path of food from the mouth to the exit point and explain the dual role of the",
+    "id": "gen_c7_bio_ch09_q13",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why does the body need accessory organs like the liver and pancreas if we already have a long muscular tube?",
+    "answer": "The tube holds the food, but the accessory organs provide essential juices that chemically break the food down",
+    "options": [
+     "\"Burning\" would release all energy as heat instantly, which would hurt the cell; \"controlled\" means the cell releases energy in small, usable amounts",
+     "A carnivore cannot be the first link because it cannot create its own energy from the sun and requires other animals to provide the energy it needs",
+     "The tube holds the food, but the accessory organs provide essential juices that chemically break the food down"
+    ],
+    "hint": "Straight from the 'digestive system' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks the tube alone handles digestion, ignoring the chemical help needed for absorption.",
+    "id": "gen_c7_bio_ch09_q14",
+    "nodeId": "c6_biology_ch09_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple \"Food Sort\" experiment: How would you determine if a local lizard is an omnivore or a carnivore?",
+    "answer": "Observe the lizard for several days, noting if it eats plant matter (like flower petals or fruit) alongside insects",
+    "options": [
+     "It travels from the mouth through the esophagus to the stomach, then into the small and large intestines, and finally exits the body",
+     "The body uses rhythmic muscular contractions (peristalsis) to push food and liquid down the oesophagus",
+     "Observe the lizard for several days, noting if it eats plant matter (like flower petals or fruit) alongside insects"
+    ],
+    "hint": "Straight from the 'Animals are classified into three' slide -- match the key terms.",
+    "misconception": "A poor answer would suggest guessing without observation.",
+    "id": "gen_c7_bio_ch09_q15",
+    "nodeId": "c6_biology_ch09_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is a human being who eats both vegetables and eggs an omnivore? Explain your reasoning.",
+    "answer": "Yes, because they consume both plant-based foods (vegetables) and animal-derived foods (eggs)",
+    "options": [
+     "One connected tube is more efficient because it allows for a continuous, step-by-step processing of food, where one stage prepares the food for the next",
+     "An analogy could be a kitchen where the conveyor belt is the tube, but the chefs adding spices and heat are the accessory organs",
+     "Yes, because they consume both plant-based foods (vegetables) and animal-derived foods (eggs)"
+    ],
+    "hint": "Straight from the 'Animals are classified into three' slide -- match the key terms.",
+    "misconception": "If a student says \"no,\" they likely define omnivores too narrowly, perhaps only thinking of wild animals like bears.",
+    "id": "gen_c7_bio_ch09_q16",
+    "nodeId": "c6_biology_ch09_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the role of the mouth and the stomach in digestion. How are their functions different?",
+    "answer": "The mouth performs mechanical grinding and starts sugar breakdown, while the stomach acts as a mixing chamber where food is churned with acid",
+    "options": [
+     "Vessels are like roads that connect the source (lungs) to the destination (cells)",
+     "The chest moves faster and deeper after a race because the body needs more oxygen to produce energy quickly",
+     "The mouth performs mechanical grinding and starts sugar breakdown, while the stomach acts as a mixing chamber where food is churned with acid"
+    ],
+    "hint": "Straight from the 'Digestion is the biological' slide -- match the key terms.",
+    "misconception": "A student who says they both do the same thing fails to recognize the progression of the process.",
+    "id": "gen_c7_bio_ch09_q17",
+    "nodeId": "c6_biology_ch09_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the statement: \"Digestion is only about making food small enough to swallow.\" Why is this incomplete?",
+    "answer": "This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical size reduction",
+    "options": [
+     "A carnivore cannot be the first link because it cannot create its own energy from the sun and requires other animals to provide the energy it needs",
+     "Yes, because as energy moves from plants to consumers, much of it is used for life processes or lost as heat, leaving less for the next level",
+     "This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical size reduction"
+    ],
+    "hint": "Straight from the 'Digestion is the biological' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: This is incomplete because digestion also involves chemical transformation into absorbable units, not just physical",
+    "id": "gen_c7_bio_ch09_q18",
+    "nodeId": "c6_biology_ch09_003",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about digestive system?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Digestive System mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c7_bio_ch10",
+  "title": "Plant Growth",
+  "subtitle": "Biology · Chapter 10",
+  "classLevel": 7,
+  "mode": "senior",
+  "subject": "biology",
+  "topic": "Plant Growth",
+  "chapters": [
+   "Biology Ch10: Plant Growth"
+  ],
+  "nodeIds": [
+   "c6_biology_ch10_001",
+   "c6_biology_ch10_002",
+   "c6_biology_ch10_003",
+   "c6_biology_ch10_004",
+   "c6_biology_ch10_005",
+   "c6_biology_ch10_006",
+   "c6_biology_ch10_007"
+  ],
+  "emoji": "🌿",
+  "theme": {
+   "bg": "from-yellow-100 to-amber-200",
+   "accent": "amber",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "Is Plant Growth more about facts, or about reasoning?",
+   "options": [
+    "Mostly reasoning from a few core ideas",
+    "Pure memorisation of facts",
+    "Random guessing"
+   ],
+   "answer": "Mostly reasoning from a few core ideas",
+   "hook": "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a"
+  },
+  "teaching": [
+   {
+    "title": "Plant Growth",
+    "text": "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light.",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Photosynthesis Is The Process By Which",
+    "text": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce sugar (food) and oxygen. It occurs primarily in the leaves, where a green pigment called chlorophyll captures the energy from sunlight.",
+    "emoji": "🌿",
+    "bgColor": "from-rose-400 to-pink-500"
+   },
+   {
+    "title": "Transport In Plants",
+    "text": "Transport in plants is the process by which water and minerals are moved from roots to leaves, and food (sugars) is moved from leaves to all other plant parts through specialized conducting tissues.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Plant Respiration",
+    "text": "Plant respiration is the process by which all living plant cells take in oxygen and release carbon dioxide to break down food and release energy required for survival.",
+    "emoji": "🌿",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Plant Sexual Reproduction",
+    "text": "Plant sexual reproduction is the process in flowering plants where male and female parts of a flower interact to produce seeds, which then grow into new plants.",
+    "emoji": "🌿",
+    "bgColor": "from-violet-400 to-purple-500"
+   },
+   {
+    "title": "Seed Germination",
+    "text": "Seed germination is the process by which a dormant seed absorbs water, softens its outer coat, and activates its internal stored food to begin growing into a seedling.",
+    "emoji": "🌿",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Plant Response",
+    "text": "Plant response is the process by which a plant adjusts its growth direction or physical state in reaction to environmental stimuli like light, gravity, or touch to improve its chances of survival.",
+    "emoji": "🌿",
+    "bgColor": "from-sky-400 to-cyan-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "mcq",
+    "question": "What are the three main things a seed needs to begin the process of growing into a plant?",
+    "answer": "A seed needs moisture, warmth, and air",
+    "options": [
+     "Plant response is the process by which a plant adjusts its growth direction or physical state in reaction to environmental stimuli like light, gravity",
+     "Plant respiration is the process by which all living plant cells take in oxygen and release carbon dioxide to break down food and release energy required for survival",
+     "A seed needs moisture, warmth, and air"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "Answering only \"water\" reveals the student ignores the importance of temperature and oxygen, which are critical for the seed to \"breathe\" and activate its growth enzymes.",
+    "id": "gen_c7_bio_ch10_q1",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered how a tiny, dry chickpea in your kitchen cupboard can turn into a leafy green plant if left in a wet cloth?",
+     "It begins when a seed \"wakes up\" because it senses moisture, warmth, and air.",
+     "First, the seed absorbs water and swells up like a sponge, causing its hard outer shell to crack open.",
+     "Then, the tiny root pushes down into the soil to find water, while a shoot grows upward toward the light."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What are the three main things a plant needs to carry out the process of photosynthesis?",
+    "answer": "A plant needs sunlight, water, and carbon dioxide",
+    "options": [
+     "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light",
+     "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce sugar (food) and oxygen",
+     "A plant needs sunlight, water, and carbon dioxide"
+    ],
+    "hint": "Straight from the 'Photosynthesis is the process by' slide -- match the key terms.",
+    "misconception": "A wrong answer (like \"soil\" or \"fertilizer\") reveals a misunderstanding that plants \"eat\" nutrients like humans, rather than synthesizing their own food from environmental elements.",
+    "id": "gen_c7_bio_ch10_q2",
+    "nodeId": "c6_biology_ch10_002",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered why you need to eat lunch to have energy to play, but the tree in your garden just stands there without ever eating a meal?",
+     "Plants are like tiny food factories that don't need to hunt for food; they build it themselves!",
+     "To start, imagine a leaf as a solar panel—it catches sunlight using a green pigment called chlorophyll.",
+     "Next, the plant pulls water up from the soil through its roots and takes in carbon dioxide from the air through tiny pores."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the main function of the specialized conducting tissues found in a plant's stem?",
+    "answer": "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant",
+    "options": [
+     "A plant needs sunlight, water, and carbon dioxide",
+     "The student must be able to describe how shoots and roots react to light and gravity and explain why these movements are beneficial for a plant's survival",
+     "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant"
+    ],
+    "hint": "Straight from the 'Transport in plants' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks these tissues only provide physical support, ignoring their essential role in moving nutrients.",
+    "id": "gen_c7_bio_ch10_q3",
+    "nodeId": "c6_biology_ch10_003",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered how a tall tree gets water to its highest leaves, even though it doesn't have a pump like a house?",
+     "Start by thinking of a plant as a living building; the roots are the foundation, and the leaves are the kitchen.",
+     "To begin learning, visualize the stem not just as a stick, but as a bundle of tiny straws or pipelines running from bottom to top.",
+     "One set of \"straws\" carries water and minerals up from the soil, while another set carries the sugar \"meals\" made in the leaves down to the roots and"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Do plants only respire when there is sunlight available?",
+    "answer": "No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that respiration is part of photosynthesis",
+    "options": [
+     "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process",
+     "It shows that plants are sensitive to gravity and can adjust their growth direction to ensure the roots move into the soil",
+     "No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that respiration is part of photosynthesis"
+    ],
+    "hint": "Straight from the 'Plant respiration' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that",
+    "id": "gen_c7_bio_ch10_q4",
+    "nodeId": "c6_biology_ch10_004",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered if a tree \"breathes\" while you are sleeping at night?",
+     "It is easy to think plants only care about sunlight, but just like you, every tiny cell in a plant needs energy to stay alive, which they get through",
+     "To start, imagine the plant as a collection of thousands of tiny living rooms; each room (cell) needs to \"breathe\" in oxygen to release energy from",
+     "Since plants don't have a nose or lungs, they use tiny doors called pores on their leaves, small gaps in their stems, and the surface of their roots"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Why do you think flowers have brightly coloured petals if their main job is to produce seeds?",
+    "answer": "Bright petals attract pollinators like butterflies and bees, which help carry pollen between flowers",
+    "options": [
+     "A seed needs moisture, warmth, and air",
+     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
+     "Bright petals attract pollinators like butterflies and bees, which help carry pollen between flowers"
+    ],
+    "hint": "Straight from the 'Plant sexual reproduction' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks petals are just for decoration, failing to see the link between the plant's appearance and its survival strategy.",
+    "id": "gen_c7_bio_ch10_q5",
+    "nodeId": "c6_biology_ch10_005",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered why a bright, colourful flower eventually disappears and a small fruit or seed pod appears in its place?",
+     "To understand this, imagine the flower as a factory: the petals are the outer walls that attract visitors (pollinators like bees), while the hidden",
+     "Start by looking at a simple flower like a Hibiscus; notice the fine, dust-like powder on the tips of the stalks—this is the \"male\" part.",
+     "Deep inside, protected by these male parts, lies the \"female\" part which acts as the cradle for future seeds."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What are the three essential environmental conditions required for a seed to begin the process of germination?",
+    "answer": "The three conditions are water, oxygen, and a suitable temperature",
+    "options": [
+     "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light",
+     "The student must be able to identify the three essential triggers for germination and explain why a seed remains dormant before these conditions are met",
+     "The three conditions are water, oxygen, and a suitable temperature"
+    ],
+    "hint": "Straight from the 'Seed germination' slide -- match the key terms.",
+    "misconception": "A wrong answer (like suggesting \"soil\" or \"fertilizer\") indicates the student is confusing germination with later plant growth requirements rather than the specific triggers for the initial start of growth.",
+    "id": "gen_c7_bio_ch10_q6",
+    "nodeId": "c6_biology_ch10_006",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever wondered why a dry bean from your kitchen cupboard doesn't grow into a plant, even though it looks perfectly fine?",
+     "To start the \"magic\" of life, a seed needs a wake-up call.",
+     "First, it needs water to act as a trigger—think of it like a sponge that swells up, breaking its hard shell.",
+     "Once the coat is softened and oxygen enters, the tiny plant inside can finally use its stored food to push out a sprout."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the general direction in which a plant shoot grows compared to the direction of a light source?",
+    "answer": "The shoot grows toward the light source",
+    "options": [
+     "Plant response is the process by which a plant adjusts its growth direction or physical state in reaction to environmental stimuli like light, gravity",
+     "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light",
+     "The shoot grows toward the light source"
+    ],
+    "hint": "Straight from the 'Plant response' slide -- match the key terms.",
+    "misconception": "A wrong answer here suggests the student confuses the root's behavior (growing away from light or into the soil) with the shoot's behavior.",
+    "id": "gen_c7_bio_ch10_q7",
+    "nodeId": "c6_biology_ch10_007",
+    "difficulty": "standard",
+    "workedExample": [
+     "Have you ever noticed a houseplant sitting on a windowsill leaning toward the glass?",
+     "It’s not just reaching for the view; the plant is actually \"sensing\" the light to maximize its food-making process.",
+     "To understand this, imagine you are a plant: if you were buried in the dark, you would grow upward to find the sun for energy (light response), while",
+     "Think of these movements as the plant’s way of \"navigating\" its world without moving its feet."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "A seed is planted in a dark, dry, and cold room. Why will it fail to grow?",
+    "answer": "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
+    "options": [
+     "No, it will not germinate because the temperature is too low. Germination requires a suitable (warm) temperature to activate the growth process",
+     "The flower will likely fail to produce seeds because the male \"dust\" (pollen) is required for the female part to create a seed",
+     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "If a student says \"because it is dark,\" they are missing the point that germination happens underground in the dark; the absence of light stops the *later* stage of leaf development, but water and warmth are needed for the initial sprout.",
+    "id": "gen_c7_bio_ch10_q8",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare the job of the root and the shoot during the early days of a seedling's life.",
+    "answer": "The root acts as an anchor and a water-seeker, while the shoot acts as a light-seeker",
+    "options": [
+     "Water and minerals move in one direction (upward from roots), while sugars move to all parts of the plant, including downward to the roots",
+     "Leaves exchange gases primarily through specialized pores (stomata), while roots exchange gases through their surface skin via air pockets in the soil",
+     "The root acts as an anchor and a water-seeker, while the shoot acts as a light-seeker"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "If a student confuses these, they have not internalized the basic structural function of plant survival.",
+    "id": "gen_c7_bio_ch10_q9",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design an experiment to prove that a seed needs water to grow. What would you do?",
+    "answer": "Place two sets of seeds in identical containers with soil and warmth. Provide water to the first set and none to the second",
+    "options": [
+     "Take two identical sets of dry seeds: keep one set dry and spray the other set with water daily, keeping both in the same room temperature",
+     "No, because it is missing the essential trigger of water, which is required to swell the seed and soften the coat",
+     "Place two sets of seeds in identical containers with soil and warmth. Provide water to the first set and none to the second"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "If the student fails to keep the other conditions (warmth/light) the same, they do not understand the concept of a \"controlled experiment.\"",
+    "id": "gen_c7_bio_ch10_q10",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you plant a seed upside down, in which direction will the root grow? Why?",
+    "answer": "The root will still grow downward. This shows the student understands that plants have a natural \"direction\" for growth (geotropism)",
+    "options": [
+     "The student should suggest placing one plant in the sun and one in a dark cupboard for a week, then comparing their health",
+     "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process",
+     "The root will still grow downward. This shows the student understands that plants have a natural \"direction\" for growth (geotropism)"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests they think the root just follows the seed's orientation.",
+    "id": "gen_c7_bio_ch10_q11",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is a seed \"alive\" while it is sitting in a bag of grains? Justify your answer.",
+    "answer": "Yes, it is \"dormant\" or alive but inactive. It contains a miniature plant and stored food, waiting for the right conditions to start the metabolic process of growth",
+    "options": [
+     "Criteria: Place a germinating seed horizontally in a container with moist cotton. Observe it for 3-4 days",
+     "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth)",
+     "Yes, it is \"dormant\" or alive but inactive. It contains a miniature plant and stored food, waiting for the right conditions to start the metabolic process of growth"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks growth is the only sign of life.",
+    "id": "gen_c7_bio_ch10_q12",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Plant growth? State the definition given in this lesson.",
+    "answer": "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light",
+    "options": [
+     "These tissues act as a pipeline system to transport water and minerals upward and food (sugars) to all parts of the plant",
+     "The student must be able to describe how shoots and roots react to light and gravity and explain why these movements are beneficial for a plant's survival",
+     "Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by pushing roots downward and a shoot upward to reach light"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Plant growth is the biological process where a seed absorbs water, splits its coat, and develops into a mature plant by",
+    "id": "gen_c7_bio_ch10_q13",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to describe the sequence of events from a dormant seed to a germinating seedling and identify the essential requirements for this growth",
+    "options": [
+     "The student must be able to describe that plants respire 24/7 to release energy, correctly identifying that gas exchange occurs through leaves (stomata), stems, and roots",
+     "The student must be able to describe the two-way movement of substances and identify that plants use specialized tissues (like pipelines) to move water and nutrients to different",
+     "The student must be able to describe the sequence of events from a dormant seed to a germinating seedling and identify the essential requirements for this growth"
+    ],
+    "hint": "Straight from the 'Plant growth' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe the sequence of events from a dormant seed to a germinating seedling and identify",
+    "id": "gen_c7_bio_ch10_q14",
+    "nodeId": "c6_biology_ch10_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A gardener wants to help a plant grow faster. If they provide extra water and plenty of carbon dioxide but keep the plant in a dark shed, will the plant make more food? Why or why not?",
+    "answer": "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process",
+    "options": [
+     "Place two sets of seeds in identical containers with soil and warmth. Provide water to the first set and none to the second",
+     "No, it is inaccurate because even though a plant is stationary, there is constant internal movement of water, minerals, and sugars through its specialized tissues",
+     "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process"
+    ],
+    "hint": "Straight from the 'Photosynthesis is the process by' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process.",
+    "id": "gen_c7_bio_ch10_q15",
+    "nodeId": "c6_biology_ch10_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare a plant to a human in terms of how they obtain energy.",
+    "answer": "Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to manufacture their own energy-rich sugar",
+    "options": [
+     "Both are directed growth responses (tropisms) that place the plant parts in the best position for survival—shoots get light for energy, and roots get water/anchorage from the soil",
+     "Water and minerals move in one direction (upward from roots), while sugars move to all parts of the plant, including downward to the roots",
+     "Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to manufacture their own energy-rich sugar"
+    ],
+    "hint": "Straight from the 'Photosynthesis is the process by' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to",
+    "id": "gen_c7_bio_ch10_q16",
+    "nodeId": "c6_biology_ch10_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple experiment using a potted plant to show that light is necessary for plant survival.",
+    "answer": "The student should suggest placing one plant in the sun and one in a dark cupboard for a week, then comparing their health",
+    "options": [
+     "Steps: 1. Identify the light source as the stimulus. 2. Recognize that the plant needs light for photosynthesis",
+     "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process",
+     "The student should suggest placing one plant in the sun and one in a dark cupboard for a week, then comparing their health"
+    ],
+    "hint": "Straight from the 'Photosynthesis is the process by' slide -- match the key terms.",
+    "misconception": "A poor answer focuses on things irrelevant to photosynthesis, like the pot's color or the plant's height, rather than the input of light.",
+    "id": "gen_c7_bio_ch10_q17",
+    "nodeId": "c6_biology_ch10_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a plant is kept in a completely dark room for a long time, why does it struggle to survive?",
+    "answer": "The plant cannot perform photosynthesis because it lacks the sunlight needed to provide the energy for the chemical reaction",
+    "options": [
+     "No, it is inaccurate because even though a plant is stationary, there is constant internal movement of water, minerals, and sugars through its specialized tissues",
+     "Yes, the plant will release carbon dioxide. Even without light, the plant's cells must continue to break down food to release energy for survival",
+     "The plant cannot perform photosynthesis because it lacks the sunlight needed to provide the energy for the chemical reaction"
+    ],
+    "hint": "Straight from the 'Photosynthesis is the process by' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks the plant is merely \"thirsty\" or \"needs space,\" missing the essential role of light energy.",
+    "id": "gen_c7_bio_ch10_q18",
+    "nodeId": "c6_biology_ch10_002",
+    "difficulty": "standard"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about plant growth?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Plant Growth mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
  }
 ];

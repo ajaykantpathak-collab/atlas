@@ -1222,7 +1222,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
               difficulty === 'foundation'
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'standard'
-                ? 'bg-sky-500/20 text-sky-400 border border-sky-500/40'
+                ? 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
                 : 'bg-purple-500/20 text-purple-400 border border-purple-500/40'
             }`}
           >
@@ -1479,7 +1479,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                       <motion.div className="mt-4 p-3.5 bg-slate-900 rounded-xl border border-slate-800 text-sm text-slate-300 leading-relaxed">
                         {selectedOrganelle === 'nucleus' && (
                           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                            <p className="font-semibold text-indigo-300">Control Center of the Cell</p>
+                            <p className="font-semibold text-gold-300">Control Center of the Cell</p>
                             <p className="mt-1 text-xs">Bounded by double nuclear envelope with pores. Houses chromatin fibers (DNA) and nucleolus (rRNA assembly).</p>
                           </motion.div>
                         )}
@@ -1497,7 +1497,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                         )}
                         {selectedOrganelle === 'vacuole' && (
                           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                            <p className="font-semibold text-sky-300">Sap Reservoir & Turgor Support</p>
+                            <p className="font-semibold text-gold-300">Sap Reservoir & Turgor Support</p>
                             <p className="mt-1 text-xs">Surrounded by selectively permeable tonoplast. Generates turgor pressure against cell wall so plants stand erect.</p>
                           </motion.div>
                         )}
@@ -1556,7 +1556,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                           aria-label="Switch to Animal Cell Model"
                           onClick={() => handleCellTypeToggle('animal')}
                           className={`px-4 py-1.5 rounded-lg text-xs font-black transition-all ${
-                            cellType === 'animal' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+                            cellType === 'animal' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
                           }`}
                         >
                           Animal Cell (Flexible)
@@ -1644,7 +1644,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                       </motion.div>
                       <motion.div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex justify-between items-center">
                         <span className="font-bold text-slate-300">Centrosome with Centrioles</span>
-                        <span className={cellType === 'animal' ? 'text-indigo-400 font-bold' : 'text-slate-500'}>
+                        <span className={cellType === 'animal' ? 'text-gold-400 font-bold' : 'text-slate-500'}>
                           {cellType === 'animal' ? '✓ Present (Spindle organizer)' : '✗ Absent in higher plants'}
                         </span>
                       </motion.div>
@@ -1725,13 +1725,13 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                         </p>
                       </motion.div>
 
-                      <motion.div className={`p-4 rounded-2xl border transition-all ${fertilizationComplete ? 'bg-sky-950/80 border-sky-500 shadow-lg' : 'bg-slate-950 border-slate-800'}`}>
+                      <motion.div className={`p-4 rounded-2xl border transition-all ${fertilizationComplete ? 'bg-gold-950/80 border-gold-500 shadow-lg' : 'bg-slate-950 border-slate-800'}`}>
                         <h4 className="text-sm font-bold text-white flex items-center gap-2">
                           <span>2. Triple Fusion</span>
-                          {fertilizationComplete && <span className="text-xs px-2 py-0.5 bg-sky-700 text-white rounded-full">✓ Complete</span>}
+                          {fertilizationComplete && <span className="text-xs px-2 py-0.5 bg-gold-700 text-white rounded-full">✓ Complete</span>}
                         </h4>
                         <p className="text-xs text-slate-300 mt-1">
-                          2nd Male Gamete (n) + 2 Polar Nuclei (2n) → <span className="text-sky-400 font-bold">Triploid Primary Endosperm Nucleus (3n)</span> → Nutritive Endosperm.
+                          2nd Male Gamete (n) + 2 Polar Nuclei (2n) → <span className="text-gold-400 font-bold">Triploid Primary Endosperm Nucleus (3n)</span> → Nutritive Endosperm.
                         </p>
                       </motion.div>
 
@@ -1764,7 +1764,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                           whileTap={{ scale: 0.95 }}
                           aria-label="Hypogeal Germination Mode"
                           onClick={() => { setGerminationType('hypogeal'); audioManager.play('tap'); }}
-                          className={`px-3 py-1.5 rounded-lg text-xs font-bold ${germinationType === 'hypogeal' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                          className={`px-3 py-1.5 rounded-lg text-xs font-bold ${germinationType === 'hypogeal' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                         >
                           Hypogeal (Maize/Pea)
                         </motion.button>
@@ -1785,7 +1785,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                           aria-valuemax={100}
                           aria-valuenow={germinationMoisture}
                           onChange={(e) => setGerminationMoisture(Number(e.target.value))}
-                          className="w-24 accent-sky-500 cursor-pointer"
+                          className="w-24 accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <div className="flex items-center gap-2">
@@ -1857,7 +1857,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                         </p>
                       ) : (
                         <p>
-                          In <span className="text-sky-400 font-bold">Hypogeal germination</span> (pea, gram, maize), the <span className="text-indigo-300 font-bold">epicotyl</span> elongates rapidly, leaving the cotyledons buried underground to safely supply stored starch.
+                          In <span className="text-gold-400 font-bold">Hypogeal germination</span> (pea, gram, maize), the <span className="text-gold-300 font-bold">epicotyl</span> elongates rapidly, leaving the cotyledons buried underground to safely supply stored starch.
                         </p>
                       )}
                       <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-slate-400">
@@ -1999,7 +1999,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
           >
             <motion.div className="p-5 sm:p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-black uppercase tracking-widest text-sky-400">
+                <span className="text-xs font-black uppercase tracking-widest text-gold-400">
                   🧐 Observation Reflection {obsIndex + 1} of {OBSERVATION_QUESTIONS.length}
                 </span>
                 <span className="text-xs text-slate-400 font-mono">What Did You Notice?</span>
@@ -2039,16 +2039,16 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="p-4 bg-sky-950/40 border border-sky-600 rounded-2xl space-y-3"
+                  className="p-4 bg-gold-950/40 border border-gold-600 rounded-2xl space-y-3"
                 >
-                  <p className="text-xs text-sky-200 leading-relaxed">
+                  <p className="text-xs text-gold-200 leading-relaxed">
                     💡 <span className="font-bold">Mechanism:</span> {OBSERVATION_QUESTIONS[obsIndex].explanation}
                   </p>
                   <motion.button
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={handleNextObservation}
-                    className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-sm shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-md"
                   >
                     {obsIndex + 1 < OBSERVATION_QUESTIONS.length ? 'Next Observation →' : 'Enter Free Play Sandbox →'}
                   </motion.button>
@@ -2124,7 +2124,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.95 }}
                       aria-label="Set cell to Animal"
                       onClick={() => handleCellTypeToggle('animal')}
-                      className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${cellType === 'animal' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                      className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${cellType === 'animal' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                     >
                       Animal Cell
                     </motion.button>
@@ -2185,7 +2185,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                   <motion.span
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}
-                    className="px-2 py-0.5 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-md uppercase font-mono text-[10px]"
+                    className="px-2 py-0.5 bg-gold-950 text-gold-300 border border-gold-700 rounded-md uppercase font-mono text-[10px]"
                   >
                     NEP Level: {challenge.competencyLevel}
                   </motion.span>
@@ -2398,7 +2398,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                         whileTap={{ scale: 0.96 }}
                         aria-label={`Add part ${part}`}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-lg text-xs font-bold text-white shadow"
+                        className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-lg text-xs font-bold text-white shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2411,7 +2411,7 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-900 border border-indigo-700 rounded-md text-xs font-mono text-indigo-200 flex items-center gap-1.5"
+                        className="px-2.5 py-1 bg-gold-900 border border-gold-700 rounded-md text-xs font-mono text-gold-200 flex items-center gap-1.5"
                       >
                         {part}
                         <motion.button
@@ -2558,12 +2558,12 @@ function C9_BiologyCellTheoryCellSim(props: Props = DEFAULT_PROPS) {
 
             {/* Real-World Activity Card */}
             <motion.div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <motion.h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</motion.h3>
+              <motion.h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</motion.h3>
               <motion.p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</motion.p>
               <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <motion.li key={i} className="flex gap-2">
-                    <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                    <span className="text-gold-400 font-bold">{i + 1}.</span>
                     <span>{st}</span>
                   </motion.li>
                 ))}

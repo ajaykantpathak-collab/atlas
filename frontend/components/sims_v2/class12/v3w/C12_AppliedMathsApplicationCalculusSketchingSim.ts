@@ -11,11 +11,11 @@ export const w_c12_appliedmathsapplicationcalculussketchingsim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Word Problems: Area Applications',
     chapters: [],
     nodeIds: ['c12_math_cbse_08_006', 'c12_math_cbse_06_008', 'c12_math_cbse_07_008', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_06_007', 'c12_math_cbse_08_003', 'c12_math_cbse_08_005', 'c12_math_cbse_02_007', 'c12_math_cbse_02_008', 'c12_math_cbse_10_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a farmer in Punjab owns a field whose boundary is a river shaped like the parabola \\( y = x^2 \\) and.', goal: 'Master Word Problems: Area Applications.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Word problems on area applications involve.', text: 'Word problems on area applications involve translating real-world scenarios (such as land area, cross‑sectional area, or region bounded by curves and lines) into a definite integral setup, evaluating.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Word problems on area applications involve.', text: 'Word problems on area applications involve translating real-world scenarios (such as land area, cross‑sectional area, or region bounded by curves and lines) into a definite integral setup, evaluating.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_08_006', title: 'Word problems on area applications.',

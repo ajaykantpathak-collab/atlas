@@ -11,7 +11,7 @@ export const w_c9_geographyearthplanetsim: SimDef = {
     classLevel: 9, subject: 'geography', topic: 'Atmosphere: Composition of Gases',
     chapters: [],
     nodeIds: ['c9_geo_ch2_1', 'c9_geo_ch2_11', 'c9_geo_ch2_2', 'c9_geo_ch2_3', 'c9_geo_ch2_4', 'c9_geo_ch2_6', 'c9_geo_ch2_9', 'c9_geo_ch1_1'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Observe the air around you on a humid monsoon afternoon in Mumbai — it feels heavy and sticky, while a winter.', goal: 'Master Atmosphere: Composition of Gases.' },
     discovery: {
         question: 'State the approximate percentage by volume of nitrogen, oxygen, and argon in dry air, and name the most abundant variable gas.',
@@ -20,7 +20,7 @@ export const w_c9_geographyearthplanetsim: SimDef = {
         hook: 'Students believe "the atmosphere is mostly oxygen because we breathe it" and consequently think nitrogen is.',
     },
     teaching: [
-        { title: 'The Earth\'s atmosphere is a mixture of gases.', text: 'The Earth\'s atmosphere is a mixture of gases held by gravity, consisting primarily of nitrogen (78.08% by volume), oxygen (20.95%), argon (0.93%), and carbon dioxide (0.04%), with trace amounts of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Earth\'s atmosphere is a mixture of gases.', text: 'The Earth\'s atmosphere is a mixture of gases held by gravity, consisting primarily of nitrogen (78.08% by volume), oxygen (20.95%), argon (0.93%), and carbon dioxide (0.04%), with trace amounts of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch2_1', title: 'The Earth\'s atmosphere is a mixture of.',

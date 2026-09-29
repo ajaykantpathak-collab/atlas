@@ -11,7 +11,7 @@ export const w_c11_physicsthermalpropertiesofmattersim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Temperature and Heat: Distinction',
     chapters: [],
     nodeIds: ['c11_phy_cbse_10_001', 'c11_phy_cbse_10_012', 'c11_phy_cbse_10_009', 'c11_phy_cbse_11_002', 'c11_phy_cbse_10_003', 'c11_phy_cbse_10_004', 'c11_phy_cbse_10_005', 'c11_phy_cbse_10_011', 'c11_phy_cbse_10_013', 'c11_phy_cbse_04_002', 'c11_phy_cbse_14_002', 'c11_phy_cbse_10_002', 'c11_phy_cbse_10_006', 'c11_phy_cbse_10_014', 'c11_phy_cbse_11_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Place a steel spoon and a wooden spoon in a mug of hot tea. After 30 seconds, touch both handles — the steel.', goal: 'Master Temperature and Heat: Distinction.' },
     discovery: {
         question: 'Define temperature and heat. State their SI units. Is heat a property of a system? Justify your answer in one sentence.',
@@ -20,7 +20,7 @@ export const w_c11_physicsthermalpropertiesofmattersim: SimDef = {
         hook: 'Students believe "heat is a form of energy stored in a body" and use phrases like "heat content" or "body contains 500.',
     },
     teaching: [
-        { title: 'Temperature is an intensive thermodynamic.', text: 'Temperature is an intensive thermodynamic quantity that quantifies the degree of hotness of a body on a numerical scale; it determines the direction of heat flow when two systems are in thermal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Temperature is an intensive thermodynamic.', text: 'Temperature is an intensive thermodynamic quantity that quantifies the degree of hotness of a body on a numerical scale; it determines the direction of heat flow when two systems are in thermal.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_10_001', title: 'Temperature is an intensive.',

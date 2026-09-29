@@ -792,11 +792,11 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
       {/* Top Banner Header */}
       <header className="bg-slate-900 border-b border-slate-800 p-4 sticky top-0 z-50 flex items-center justify-between shadow-lg">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-tr from-cyan-500 to-purple-600 flex items-center justify-center font-bold text-white text-xl shadow-md">
+          <div className="w-10 h-10 rounded-lg bg-gradient-to-tr from-gold-500 to-purple-600 flex items-center justify-center font-bold text-white text-xl shadow-md">
             1D
           </div>
           <div>
-            <h1 className="text-lg font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-lg font-bold bg-gradient-to-r from-gold-400 to-purple-400 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">Class 11 CBSE Physics • Chapter 3: Motion in a Straight Line</p>
@@ -822,7 +822,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-200 ${
                 activeTab === tab.id
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-sm'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-sm'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-700/50'
               }`}
             >
@@ -841,13 +841,13 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
             animate={{ opacity: 1, y: 0 }}
             className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6"
           >
-            <div className="bg-gradient-to-r from-cyan-950/60 to-purple-950/60 border border-cyan-800/40 p-4 rounded-xl">
-              <h2 className="text-xl font-bold text-cyan-300 mb-2">{SCENARIO.title}</h2>
+            <div className="bg-gradient-to-r from-gold-950/60 to-purple-950/60 border border-gold-800/40 p-4 rounded-xl">
+              <h2 className="text-xl font-bold text-gold-300 mb-2">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             </div>
 
             <div className="bg-slate-800/50 border border-slate-700 p-5 rounded-xl flex flex-col gap-4">
-              <span className="text-xs font-semibold uppercase tracking-wider text-cyan-400">
+              <span className="text-xs font-semibold uppercase tracking-wider text-gold-400">
                 Predict & Discover
               </span>
               <h3 className="text-lg font-medium text-slate-100">{DISCOVERY_QUESTION.question}</h3>
@@ -863,7 +863,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                     disabled={discoverySubmitted}
                     className={`p-4 rounded-xl text-left text-sm font-medium transition-all duration-200 border ${
                       discoverySelected === idx
-                        ? 'border-cyan-500 bg-cyan-950/50 text-cyan-200 shadow-md'
+                        ? 'border-gold-500 bg-gold-950/50 text-gold-200 shadow-md'
                         : 'border-slate-700 bg-slate-800/80 text-slate-300 hover:border-slate-500'
                     }`}
                   >
@@ -881,7 +881,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoverySelected === null}
-                  className="mt-4 px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-white shadow-lg hover:from-cyan-400 hover:to-blue-500 disabled:opacity-40 disabled:cursor-not-allowed transition-all text-sm self-end"
+                  className="mt-4 px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 disabled:opacity-40 disabled:cursor-not-allowed transition-all text-sm self-end"
                 >
                   Confirm Prediction
                 </button>
@@ -906,7 +906,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                       audioManager.play('whoosh');
                       setActiveTab('learn');
                     }}
-                    className="mt-2 px-5 py-2 rounded-lg bg-cyan-600 text-white font-semibold text-xs self-end hover:bg-cyan-500"
+                    className="mt-2 px-5 py-2 rounded-lg bg-gold-600 text-white font-semibold text-xs self-end hover:bg-gold-500"
                   >
                     Proceed to Concept Exploration →
                   </button>
@@ -935,7 +935,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                     }}
                     className={`w-8 h-8 rounded-lg text-xs font-bold transition-all ${
                       currentSlideIndex === i
-                        ? 'bg-cyan-500 text-white shadow-md scale-105'
+                        ? 'bg-gold-500 text-white shadow-md scale-105'
                         : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                     }`}
                   >
@@ -956,7 +956,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                   {/* Left Column: Theory & Key Points */}
                   <div className="lg:col-span-5 flex flex-col gap-4">
                     <div>
-                      <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+                      <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">
                         {slide.subtitle}
                       </span>
                       <h2 className="text-xl font-bold text-slate-100">{slide.title}</h2>
@@ -965,7 +965,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                     <p className="text-sm text-slate-300 leading-relaxed">{slide.content}</p>
 
                     {slide.formula && (
-                      <div className="bg-slate-950 border border-cyan-800/40 p-3 rounded-xl font-mono text-xs text-cyan-300 text-center shadow-inner">
+                      <div className="bg-slate-950 border border-gold-800/40 p-3 rounded-xl font-mono text-xs text-gold-300 text-center shadow-inner">
                         {slide.formula}
                       </div>
                     )}
@@ -975,7 +975,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                       <ul className="space-y-2 text-xs text-slate-300">
                         {slide.keyPoints.map((pt, idx) => (
                           <li key={idx} className="flex items-start space-x-2">
-                            <span className="text-cyan-400 font-bold">•</span>
+                            <span className="text-gold-400 font-bold">•</span>
                             <span>{pt}</span>
                           </li>
                         ))}
@@ -1031,7 +1031,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                               max="200"
                               value={slideOriginX}
                               onChange={(e) => setSlideOriginX(Number(e.target.value))}
-                              className="w-full accent-cyan-500 cursor-pointer"
+                              className="w-full accent-gold-500 cursor-pointer"
                             />
                           </div>
                           <div>
@@ -1136,7 +1136,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                             step="0.5"
                             value={vtSlopeTime}
                             onChange={(e) => setVtSlopeTime(Number(e.target.value))}
-                            className="w-full accent-cyan-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                       </div>
@@ -1178,7 +1178,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                               onClick={() => setRelObserverFrame(frame)}
                               className={`px-3 py-1 rounded text-xs font-semibold ${
                                 relObserverFrame === frame
-                                  ? 'bg-cyan-500 text-white'
+                                  ? 'bg-gold-500 text-white'
                                   : 'bg-slate-800 text-slate-400'
                               }`}
                             >
@@ -1227,7 +1227,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                               max="50"
                               value={relVelA}
                               onChange={(e) => setRelVelA(Number(e.target.value))}
-                              className="w-full accent-cyan-500 cursor-pointer"
+                              className="w-full accent-gold-500 cursor-pointer"
                             />
                           </div>
                           <div>
@@ -1271,7 +1271,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                     setActiveTab('lab');
                   }
                 }}
-                className="px-5 py-2 rounded-lg bg-cyan-600 text-white text-xs font-bold hover:bg-cyan-500 shadow-md"
+                className="px-5 py-2 rounded-lg bg-gold-600 text-white text-xs font-bold hover:bg-gold-500 shadow-md"
               >
                 {currentSlideIndex === TEACHING_SLIDES.length - 1 ? 'Enter Kinematics Lab →' : 'Next Slide →'}
               </button>
@@ -1288,7 +1288,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h2 className="text-xl font-bold text-cyan-300">Hyperloop Kinematic Motion Lab</h2>
+                <h2 className="text-xl font-bold text-gold-300">Hyperloop Kinematic Motion Lab</h2>
                 <p className="text-xs text-slate-400">
                   Manipulate initial velocity (u) and acceleration (a) to observe real-time particle trajectory and graphs.
                 </p>
@@ -1330,7 +1330,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                 <div className="flex items-center justify-between text-xs font-mono text-slate-400 px-1">
                   <span>Track Readout (0m to 100m)</span>
                   <span>
-                    Time t = <strong className="text-cyan-400">{simTime.toFixed(2)}s</strong> | Position x ={' '}
+                    Time t = <strong className="text-gold-400">{simTime.toFixed(2)}s</strong> | Position x ={' '}
                     <strong className="text-purple-400">{currentPos.toFixed(2)}m</strong> | Velocity v ={' '}
                     <strong className="text-emerald-400">{currentVel.toFixed(2)}m/s</strong>
                   </span>
@@ -1356,7 +1356,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
 
               {/* Slider Controls Panel */}
               <div className="lg:col-span-4 bg-slate-800/40 border border-slate-700/60 p-5 rounded-xl flex flex-col justify-between gap-4">
-                <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Control Parameters
                 </h3>
 
@@ -1364,7 +1364,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Initial Velocity (u)</span>
-                      <span className="font-mono text-cyan-400">{uVal} m/s</span>
+                      <span className="font-mono text-gold-400">{uVal} m/s</span>
                     </div>
                     <input
                       type="range"
@@ -1373,7 +1373,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                       step="1"
                       value={uVal}
                       onChange={(e) => setUVal(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1397,7 +1397,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                 {/* Calculated Live Formula Box */}
                 <div className="bg-slate-950 border border-slate-800 p-3 rounded-lg flex flex-col gap-1 text-xs font-mono">
                   <div className="text-slate-400 text-[10px] uppercase">Kinematic Live State</div>
-                  <div className="text-cyan-300">
+                  <div className="text-gold-300">
                     x(t) = ({uVal})({simTime.toFixed(1)}) + ½({aVal})({simTime.toFixed(1)})² = {currentPos.toFixed(1)} m
                   </div>
                   <div className="text-emerald-300">
@@ -1419,12 +1419,12 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
             {/* Challenge Progress Bar */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">
                   Diagnostic Module {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-slate-100">
                   Difficulty:{' '}
-                  <span className="capitalize text-cyan-300">
+                  <span className="capitalize text-gold-300">
                     {CHALLENGES[currentChallengeIndex].difficulty}
                   </span>
                 </h3>
@@ -1438,7 +1438,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                       i < currentChallengeIndex
                         ? 'bg-emerald-500'
                         : i === currentChallengeIndex
-                        ? 'bg-cyan-400 ring-2 ring-cyan-500/50 scale-110'
+                        ? 'bg-gold-400 ring-2 ring-gold-500/50 scale-110'
                         : 'bg-slate-800'
                     }`}
                   />
@@ -1469,7 +1469,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                           onChange={(e) => setUserNumericInput(e.target.value)}
                           disabled={challengeSubmitted}
                           placeholder={`Value in ${ch.unit}`}
-                          className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-base focus:border-cyan-500 focus:outline-none"
+                          className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-base focus:border-gold-500 focus:outline-none"
                         />
                         <span className="self-center text-slate-400 font-bold">{ch.unit}</span>
                       </div>
@@ -1488,7 +1488,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                           disabled={challengeSubmitted}
                           className={`p-4 rounded-xl text-left text-xs font-medium transition-all duration-200 border ${
                             userChoiceIndex === idx
-                              ? 'border-cyan-500 bg-cyan-950/50 text-cyan-200 shadow-md'
+                              ? 'border-gold-500 bg-gold-950/50 text-gold-200 shadow-md'
                               : 'border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-600'
                           }`}
                         >
@@ -1512,7 +1512,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                         {ch.dragItems.map((item, idx) => (
                           <div
                             key={idx}
-                            className="p-3 bg-slate-950 border border-cyan-800/40 rounded-xl text-xs font-medium text-cyan-200 flex justify-between items-center"
+                            className="p-3 bg-slate-950 border border-gold-800/40 rounded-xl text-xs font-medium text-gold-200 flex justify-between items-center"
                           >
                             <span>{item.label}</span>
                           </div>
@@ -1536,7 +1536,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                                 }));
                               }}
                               disabled={challengeSubmitted}
-                              className="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:border-cyan-500 focus:outline-none"
+                              className="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 focus:border-gold-500 focus:outline-none"
                             >
                               <option value="">-- Select Matching Label --</option>
                               {ch.dragItems?.map((d, dIdx) => (
@@ -1559,7 +1559,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
                         (ch.type === 'numeric' && !userNumericInput) ||
                         ((ch.type === 'classify' || ch.type === 'distinguish') && userChoiceIndex === null)
                       }
-                      className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-white shadow-lg hover:from-cyan-400 hover:to-blue-500 disabled:opacity-40 disabled:cursor-not-allowed transition-all text-sm self-end"
+                      className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 disabled:opacity-40 disabled:cursor-not-allowed transition-all text-sm self-end"
                     >
                       Verify Diagnostic Solution
                     </button>
@@ -1582,7 +1582,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
 
                       <button
                         onClick={handleNextChallenge}
-                        className="px-6 py-3 rounded-xl bg-cyan-600 text-white font-bold hover:bg-cyan-500 shadow-md text-sm self-end"
+                        className="px-6 py-3 rounded-xl bg-gold-600 text-white font-bold hover:bg-gold-500 shadow-md text-sm self-end"
                       >
                         {currentChallengeIndex < CHALLENGES.length - 1
                           ? 'Next Diagnostic Challenge →'
@@ -1604,7 +1604,7 @@ export default function C11_PhysicsMotionStraightLineCBSESim() {
             className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6"
           >
             <div>
-              <h2 className="text-xl font-bold text-cyan-300">Kinematics Misconception Audit</h2>
+              <h2 className="text-xl font-bold text-gold-300">Kinematics Misconception Audit</h2>
               <p className="text-xs text-slate-400">
                 Common conceptual traps identified in Class 11 CBSE Board & Competitive Physics examinations.
               </p>

@@ -867,10 +867,10 @@ export function C10_ScienceHowDoOrganismsReproduceSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Starting individuals</span>
-                  <span className="font-mono font-bold text-sky-400">{startCount}</span>
+                  <span className="font-mono font-bold text-gold-400">{startCount}</span>
                 </div>
                 <input type="range" min={1} max={10} value={startCount} aria-label="start count"
-                  onChange={(e) => setStartCount(Number(e.target.value))} className="w-full accent-sky-500" />
+                  onChange={(e) => setStartCount(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
               <div className="bg-slate-950 rounded-xl px-3 py-2 border border-slate-800 flex justify-between text-xs">
                 <span className="text-slate-400">Variation per offspring</span>
@@ -882,7 +882,7 @@ export function C10_ScienceHowDoOrganismsReproduceSim() {
             <div className="grid grid-cols-2 gap-2">
               <div className="bg-slate-950 rounded-xl px-3 py-2 border border-slate-800">
                 <p className="text-[10px] uppercase tracking-wider text-slate-500">Growth per hour</p>
-                <p className="font-mono font-bold text-lg text-cyan-300">
+                <p className="font-mono font-bold text-lg text-gold-300">
                   {info.intervalMin > 0 ? `\u00d7${perHour.toFixed(1)}` : '--'}
                 </p>
               </div>
@@ -959,10 +959,10 @@ export function C10_ScienceHowDoOrganismsReproduceSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Offspring per family</span>
-                  <span className="font-mono font-bold text-sky-400">{offspringCount}</span>
+                  <span className="font-mono font-bold text-gold-400">{offspringCount}</span>
                 </div>
                 <input type="range" min={4} max={24} value={offspringCount} aria-label="offspring count"
-                  onChange={(e) => setOffspringCount(Number(e.target.value))} className="w-full accent-sky-500" />
+                  onChange={(e) => setOffspringCount(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
               <button
                 onClick={() => setReshuffleSeed((s) => s + 1)}

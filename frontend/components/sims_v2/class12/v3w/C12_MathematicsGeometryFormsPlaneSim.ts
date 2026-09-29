@@ -11,11 +11,11 @@ export const w_c12_mathematicsgeometryformsplanesim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Shortest Distance Between Two Skew Lines',
     chapters: [],
     nodeIds: ['c12_math_cbse_11_004', 'c12_math_cbse_10_005', 'c12_math_cbse_10_007', 'c12_math_cbse_11_003', 'c12_math_cbse_11_006', 'c12_math_cbse_11_007', 'c12_math_cbse_11_008', 'c12_math_cbse_11_009', 'c12_math_cbse_11_010', 'c12_math_cbse_10_008', 'c12_math_cbse_04_004', 'c12_math_cbse_11_001', 'c12_math_cbse_10_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are an architect designing a modern building in Mumbai.', goal: 'Master Shortest Distance Between Two Skew Lines.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The shortest distance between two skew lines.', text: 'The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The shortest distance between two skew lines.', text: 'The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is perpendicular to both lines.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_11_004', title: 'The shortest distance between two skew.',

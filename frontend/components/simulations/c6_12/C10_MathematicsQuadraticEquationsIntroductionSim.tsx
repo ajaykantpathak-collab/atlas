@@ -1273,12 +1273,12 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-900/40 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">
+            <p className="text-xs text-gold-400 font-medium">
               ICSE Class 10 Mathematics • Pure & Applied Algebra Core
             </p>
           </div>
@@ -1289,7 +1289,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           <button
             onClick={() => setPhase('discovery')}
             className={`px-3 py-1 rounded-xl transition-colors ${
-              phase === 'discovery' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+              phase === 'discovery' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
             }`}
           >
             1. Discovery
@@ -1297,7 +1297,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           <button
             onClick={() => setPhase('explore')}
             className={`px-3 py-1 rounded-xl transition-colors ${
-              phase === 'explore' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+              phase === 'explore' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
             }`}
           >
             2. Explore Labs
@@ -1305,7 +1305,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           <button
             onClick={() => setPhase('sandbox')}
             className={`px-3 py-1 rounded-xl transition-colors ${
-              phase === 'sandbox' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+              phase === 'sandbox' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
             }`}
           >
             3. Free Sandbox
@@ -1313,7 +1313,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           <button
             onClick={() => setPhase('challenge')}
             className={`px-3 py-1 rounded-xl transition-colors ${
-              phase === 'challenge' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+              phase === 'challenge' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
             }`}
           >
             4. Challenges
@@ -1330,8 +1330,8 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-inner">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/40 shadow-inner">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚀</span> {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-base leading-relaxed">{SCENARIO.intro}</p>
@@ -1371,7 +1371,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 rounded-xl bg-slate-950 border border-indigo-900/50 space-y-3"
+                className="mt-4 p-4 rounded-xl bg-slate-950 border border-gold-900/50 space-y-3"
               >
                 <p className={discoveryCorrect ? 'text-emerald-400 text-sm' : 'text-amber-400 text-sm'}>
                   {discoveryCorrect
@@ -1382,7 +1382,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-cyan-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-500/20 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-500/20 flex items-center gap-2"
                 >
                   Enter Interactive Exploration Labs →
                 </motion.button>
@@ -1411,7 +1411,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1428,7 +1428,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
               </div>
-              <span className="text-xs font-mono bg-slate-800 px-3 py-1 rounded-full text-indigo-300">
+              <span className="text-xs font-mono bg-slate-800 px-3 py-1 rounded-full text-gold-300">
                 Node: {EXPLORATION_STEPS[currentSlide].nodeId}
               </span>
             </div>
@@ -1439,8 +1439,8 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                 {/* Live SVG Parabola Visualizer (SVG #1) */}
                 <div className="lg:col-span-7 bg-slate-950 p-4 rounded-2xl border border-slate-800 relative space-y-3">
                   <div className="flex justify-between items-center text-xs font-mono text-slate-400">
-                    <span className="font-bold text-indigo-300">SVG #1: TRAJECTORY & DISCRIMINANT GEOMETRY</span>
-                    <span className="text-cyan-400 font-mono">D = {discriminant}</span>
+                    <span className="font-bold text-gold-300">SVG #1: TRAJECTORY & DISCRIMINANT GEOMETRY</span>
+                    <span className="text-gold-400 font-mono">D = {discriminant}</span>
                   </div>
 
                   {/* SVG Parabola Visualizer */}
@@ -1531,7 +1531,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   </div>
 
                   <div className="flex flex-wrap gap-2 text-xs font-mono">
-                    <span className="p-1.5 bg-indigo-950/80 rounded-lg text-indigo-300 border border-indigo-800">
+                    <span className="p-1.5 bg-gold-950/80 rounded-lg text-gold-300 border border-gold-800">
                       Eq: {sliderA}x² {sliderB >= 0 ? `+ ${sliderB}` : `- ${Math.abs(sliderB)}`}x{' '}
                       {sliderC >= 0 ? `+ ${sliderC}` : `- ${Math.abs(sliderC)}`} = 0
                     </span>
@@ -1557,7 +1557,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   <div>
                     <div className="flex justify-between text-xs font-medium mb-1">
                       <span className="text-slate-300">Leading Coefficient (a ≠ 0):</span>
-                      <span className="text-cyan-400 font-bold">{sliderA}</span>
+                      <span className="text-gold-400 font-bold">{sliderA}</span>
                     </div>
                     <input
                       type="range"
@@ -1569,7 +1569,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                         const val = Number(e.target.value);
                         setSliderA(val === 0 ? 1 : val);
                       }}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Coefficient a"
                     />
                   </div>
@@ -1578,7 +1578,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   <div>
                     <div className="flex justify-between text-xs font-medium mb-1">
                       <span className="text-slate-300">Middle Coefficient (b):</span>
-                      <span className="text-indigo-400 font-bold">{sliderB}</span>
+                      <span className="text-gold-400 font-bold">{sliderB}</span>
                     </div>
                     <input
                       type="range"
@@ -1587,7 +1587,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       step={1}
                       value={sliderB}
                       onChange={(e) => setSliderB(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Coefficient b"
                     />
                   </div>
@@ -1633,7 +1633,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   {/* Predict Check for Slide 1 */}
                   {currentSlide === 1 && !predictionMade && (
                     <div className="pt-2 border-t border-slate-800 space-y-2">
-                      <p className="text-xs text-indigo-300 font-bold">{PREDICTION_QUESTIONS[0].question}</p>
+                      <p className="text-xs text-gold-300 font-bold">{PREDICTION_QUESTIONS[0].question}</p>
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                         <motion.button
                           key={i}
@@ -1654,7 +1654,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
             {currentSlide === 2 && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                 <div className="space-y-4">
-                  <h4 className="text-sm font-bold text-indigo-300">Three Quantities in Continued Proportion (a : b = b : c)</h4>
+                  <h4 className="text-sm font-bold text-gold-300">Three Quantities in Continued Proportion (a : b = b : c)</h4>
                   <p className="text-xs text-slate-400">
                     By cross-multiplication, b × b = a × c ⇒ <strong className="text-amber-300">b² = ac</strong>, meaning middle quantity{' '}
                     <strong>b = √(ac)</strong> is the Geometric Mean.
@@ -1662,7 +1662,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between">
-                      <span>Extreme a:</span> <span className="font-bold text-cyan-400">{propA}</span>
+                      <span>Extreme a:</span> <span className="font-bold text-gold-400">{propA}</span>
                     </label>
                     <input
                       type="range"
@@ -1670,7 +1670,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       max={25}
                       value={propA}
                       onChange={(e) => setPropA(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1698,7 +1698,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
 
                 {/* SVG Visualizer #2: Geometric Mean & Aspect Ratio Rectangles */}
                 <div className="flex flex-col items-center justify-center p-4 bg-slate-900/50 rounded-2xl border border-slate-800 space-y-2">
-                  <span className="text-xs font-mono text-indigo-300 font-bold">SVG #2: GEOMETRIC MEAN PROPORTION RATIOS</span>
+                  <span className="text-xs font-mono text-gold-300 font-bold">SVG #2: GEOMETRIC MEAN PROPORTION RATIOS</span>
                   <svg viewBox="0 0 340 200" className="w-full max-w-sm">
                     <rect width="340" height="200" fill="#0b1120" rx="10" stroke="#334155" />
 
@@ -1753,7 +1753,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
             {/* ── LAB 4: COMPONENDO & DIVIDENDO (SVG DIAGRAM #3 INCLUDED) ── */}
             {currentSlide === 3 && (
               <div className="space-y-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
-                <h4 className="text-base font-bold text-indigo-300">
+                <h4 className="text-base font-bold text-gold-300">
                   The Four Named Proportion Operations for a/b = c/d
                 </h4>
 
@@ -1778,7 +1778,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                         max={12}
                         value={compA}
                         onChange={(e) => setCompA(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="flex-1">
@@ -1791,7 +1791,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                         max={Math.max(1, compA - 1)}
                         value={compB}
                         onChange={(e) => setCompB(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1823,12 +1823,12 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                    <p className="text-xs font-bold text-cyan-400">1. Invertendo</p>
+                    <p className="text-xs font-bold text-gold-400">1. Invertendo</p>
                     <p className="text-sm font-mono text-white mt-1">b/a = d/c</p>
                     <p className="text-xs text-slate-400 mt-1">Take reciprocal on both sides.</p>
                   </div>
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                    <p className="text-xs font-bold text-indigo-400">2. Alternendo</p>
+                    <p className="text-xs font-bold text-gold-400">2. Alternendo</p>
                     <p className="text-sm font-mono text-white mt-1">a/c = b/d</p>
                     <p className="text-xs text-slate-400 mt-1">Swap the middle means.</p>
                   </div>
@@ -1844,8 +1844,8 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   </div>
                 </div>
 
-                <div className="p-4 bg-gradient-to-r from-indigo-950 to-slate-900 rounded-xl border border-indigo-700/50">
-                  <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Combined Powerhouse:</p>
+                <div className="p-4 bg-gradient-to-r from-gold-950 to-slate-900 rounded-xl border border-gold-700/50">
+                  <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">Combined Powerhouse:</p>
                   <p className="text-lg font-black text-amber-300 font-mono mt-1">
                     (a + b) / (a - b) = (c + d) / (c - d)
                   </p>
@@ -1860,10 +1860,10 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
             {currentSlide === 4 && (
               <div className="space-y-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                 <div className="flex justify-between items-center">
-                  <h4 className="text-base font-bold text-indigo-300">
+                  <h4 className="text-base font-bold text-gold-300">
                     Polynomial f(x) = {polyA}x³ + ({polyB})x² + ({polyC})x + ({polyD})
                   </h4>
-                  <span className="text-xs font-mono bg-slate-800 px-3 py-1 rounded-full text-cyan-300">
+                  <span className="text-xs font-mono bg-slate-800 px-3 py-1 rounded-full text-gold-300">
                     Target Divisor: (x - a)
                   </span>
                 </div>
@@ -1938,7 +1938,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                     setCurrentSlide((s) => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Next Lab →
                 </motion.button>
@@ -1988,7 +1988,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               <button
                 onClick={() => setActiveTab('parabola')}
                 className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                  activeTab === 'parabola' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  activeTab === 'parabola' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 Quadratic & Parabola
@@ -1996,7 +1996,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               <button
                 onClick={() => setActiveTab('proportion')}
                 className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                  activeTab === 'proportion' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  activeTab === 'proportion' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 Continued Proportion
@@ -2004,7 +2004,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               <button
                 onClick={() => setActiveTab('remainder')}
                 className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                  activeTab === 'remainder' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  activeTab === 'remainder' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                 }`}
               >
                 Polynomial Roots
@@ -2027,7 +2027,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                         const val = Number(e.target.value);
                         setSliderA(val === 0 ? 1 : val);
                       }}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <div>
@@ -2038,7 +2038,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       max={6}
                       value={sliderB}
                       onChange={(e) => setSliderB(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <div>
@@ -2055,7 +2055,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                 </div>
 
                 <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs space-y-2">
-                  <p className="text-indigo-300 font-bold">Real-time Computed Properties:</p>
+                  <p className="text-gold-300 font-bold">Real-time Computed Properties:</p>
                   <p className="text-slate-200">
                     Standard Form: {sliderA}x² {sliderB >= 0 ? `+ ${sliderB}` : `- ${Math.abs(sliderB)}`}x{' '}
                     {sliderC >= 0 ? `+ ${sliderC}` : `- ${Math.abs(sliderC)}`} = 0
@@ -2079,7 +2079,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       max={50}
                       value={propA}
                       onChange={(e) => setPropA(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                   <div>
@@ -2127,7 +2127,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleAdvanceToChallenge}
-              className="w-full py-4 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white rounded-2xl font-black text-sm tracking-wide shadow-xl flex items-center justify-center gap-2"
+              className="w-full py-4 bg-gradient-to-r from-gold-600 via-purple-600 to-pink-600 text-white rounded-2xl font-black text-sm tracking-wide shadow-xl flex items-center justify-center gap-2"
             >
               Ready to Take the Competency Challenges! 🎯
             </motion.button>
@@ -2164,7 +2164,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-800'
                     : 'bg-purple-950 text-purple-400 border border-purple-800'
                 }`}
               >
@@ -2179,7 +2179,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-cyan-400 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2197,12 +2197,12 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
             }`}
           >
             <div className="flex items-start gap-3">
-              <span className="text-lg p-2 bg-indigo-950 rounded-xl border border-indigo-800 text-indigo-400 font-mono">
+              <span className="text-lg p-2 bg-gold-950 rounded-xl border border-gold-800 text-gold-400 font-mono">
                 Q{currentChallenge + 1}
               </span>
               <div>
                 <p className="text-base md:text-lg font-semibold text-slate-100 leading-snug">{challenge.question}</p>
-                <span className="text-xs text-indigo-400 font-mono mt-1 block">Topic Node: {challenge.nodeId}</span>
+                <span className="text-xs text-gold-400 font-mono mt-1 block">Topic Node: {challenge.nodeId}</span>
               </div>
             </div>
 
@@ -2226,7 +2226,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                           : 'bg-slate-950/80 hover:bg-slate-800 border border-slate-800 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -2244,7 +2244,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700/80 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow-md border border-indigo-500/40"
+                      className="px-3 py-2 bg-gold-700/80 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow-md border border-gold-500/40"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2265,7 +2265,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                         onDrop={() => handleDragDrop(targetId)}
                         className={`p-4 rounded-2xl border-2 border-dashed text-center min-h-[110px] flex flex-col items-center justify-center transition-colors ${
                           droppedLabels[targetId]
-                            ? 'bg-indigo-950/50 border-emerald-500 text-emerald-300'
+                            ? 'bg-gold-950/50 border-emerald-500 text-emerald-300'
                             : 'bg-slate-950/60 border-slate-700 text-slate-500'
                         }`}
                       >
@@ -2282,7 +2282,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Verify Target Placements
                 </motion.button>
@@ -2310,7 +2310,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 hover:bg-slate-800 rounded-xl border border-slate-800 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                     >
-                      <span className="p-1 bg-indigo-950 rounded text-indigo-400 font-bold">{displayIndex + 1}</span>
+                      <span className="p-1 bg-gold-950 rounded text-gold-400 font-bold">{displayIndex + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2321,7 +2321,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Confirm Process Order
                 </motion.button>
@@ -2339,7 +2339,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
                     aria-label="Numerical answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-64"
                   />
                   {challenge.unit && <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>}
                   <motion.button
@@ -2347,7 +2347,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                   >
                     Submit Answer
                   </motion.button>
@@ -2358,7 +2358,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
             {/* 5. CONSTRUCT FORMULA */}
             {challenge.type === 'construct' && challenge.availableParts && (
               <div className="space-y-4 pt-2">
-                <p className="text-xs text-indigo-400 font-mono">{challenge.validationHint}</p>
+                <p className="text-xs text-gold-400 font-mono">{challenge.validationHint}</p>
                 <div className="flex flex-wrap gap-2 p-3 bg-slate-950 rounded-2xl border border-slate-800">
                   {challenge.availableParts.map((part, i) => (
                     <motion.button
@@ -2366,7 +2366,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700/50 rounded-lg text-xs font-mono text-indigo-200"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700/50 rounded-lg text-xs font-mono text-gold-200"
                     >
                       + {part}
                     </motion.button>
@@ -2377,7 +2377,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2398,7 +2398,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Verify Constructed Identity
                 </motion.button>
@@ -2410,7 +2410,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 border border-indigo-800/80 rounded-2xl space-y-3 shadow-inner"
+                className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 border border-gold-800/80 rounded-2xl space-y-3 shadow-inner"
               >
                 <div className="flex items-center gap-2 text-amber-300 font-bold text-xs uppercase tracking-wider">
                   <span>📘</span> Step-by-Step Rigorous Mathematical Breakdown:
@@ -2427,7 +2427,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-xs md:text-sm font-medium leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-mono mr-1">{idx + 1}.</strong>
+                      <strong className="text-gold-400 font-mono mr-1">{idx + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2440,7 +2440,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={handleRevealNextStep}
-                      className="px-4 py-2 bg-indigo-700/60 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white"
+                      className="px-4 py-2 bg-gold-700/60 hover:bg-gold-600 rounded-xl text-xs font-bold text-white"
                     >
                       Show Next Derivation Step →
                     </motion.button>
@@ -2486,7 +2486,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <p className="text-xs text-slate-400">Mastery Level</p>
-                <p className="text-2xl font-black text-cyan-400 font-mono uppercase">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 font-mono uppercase">{masteryLevel}</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <p className="text-xs text-slate-400">Total Errors</p>
@@ -2501,7 +2501,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500/80 text-emerald-200'
                 : errors <= 3
-                ? 'bg-blue-950/60 border-blue-500/80 text-blue-200'
+                ? 'bg-gold-950/60 border-gold-500/80 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500/80 text-amber-200'
                 : 'bg-rose-950/60 border-rose-500/80 text-rose-200'
@@ -2528,7 +2528,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           </div>
 
           {/* SPACED REPETITION SCHEDULE & VISIBILITY BANNER */}
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/50 rounded-3xl border border-amber-500/40 shadow-xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/50 rounded-3xl border border-amber-500/40 shadow-xl space-y-4">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-3">
                 <span className="text-2xl p-2 bg-amber-900/50 rounded-xl border border-amber-700/60 text-amber-300">
@@ -2567,15 +2567,15 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
               <div
                 className={`p-4 rounded-2xl border transition-all ${
                   errors >= 1 && errors <= 3
-                    ? 'bg-cyan-950/70 border-cyan-500 text-cyan-200 ring-2 ring-cyan-500/50'
+                    ? 'bg-gold-950/70 border-gold-500 text-gold-200 ring-2 ring-gold-500/50'
                     : 'bg-slate-950/60 border-slate-800 text-slate-400 opacity-60'
                 }`}
               >
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-xs font-bold uppercase">1–3 Errors (Solid)</span>
-                  {errors >= 1 && errors <= 3 && <span className="text-xs font-bold text-cyan-400">● CURRENT</span>}
+                  {errors >= 1 && errors <= 3 && <span className="text-xs font-bold text-gold-400">● CURRENT</span>}
                 </div>
-                <p className="text-xl font-black text-cyan-300 font-mono">Review in 3 days</p>
+                <p className="text-xl font-black text-gold-300 font-mono">Review in 3 days</p>
                 <p className="text-[11px] mt-1 text-slate-300">Medium interval: Reinforce slight algebraic ambiguities soon.</p>
               </div>
 
@@ -2608,8 +2608,8 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           </div>
 
           {/* REFLECTION SECTION (3 Required Prompts) */}
-          <div className="p-6 bg-slate-900/90 rounded-3xl border border-indigo-800/60 space-y-5 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wider">
+          <div className="p-6 bg-slate-900/90 rounded-3xl border border-gold-800/60 space-y-5 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider">
               <span>💭</span> Structured Metacognitive Reflection
             </div>
 
@@ -2623,7 +2623,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections((prev) => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. How the discriminant instantly reveals if a trajectory cuts or misses the ground..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-20"
                 />
               </div>
 
@@ -2636,7 +2636,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   value={reflections.explain}
                   onChange={(e) => setReflections((prev) => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Componendo and Dividendo combines addition and subtraction of fractions to eliminate unknown terms in one step..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-20"
                 />
               </div>
 
@@ -2649,7 +2649,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections((prev) => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. Calculating peak height for sports projectile arcs or fuel ratios in aerospace engineering..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-20"
                 />
               </div>
             </div>
@@ -2675,15 +2675,15 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
           )}
 
           {/* Real World Capstone Project */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-3xl border border-indigo-700/40 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-3xl border border-gold-700/40 space-y-3">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🛰️</span> Capstone: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono text-indigo-400 font-bold">{i + 1}.</span> {st}
+                  <span className="font-mono text-gold-400 font-bold">{i + 1}.</span> {st}
                 </li>
               ))}
             </ul>
@@ -2705,7 +2705,7 @@ function C10_MathematicsQuadraticEquationsIntroductionSim({
                 setReflections({ surprising: '', explain: '', realLife: '' });
                 audioManager.play('whoosh');
               }}
-              className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+              className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-lg shadow-gold-600/30"
             >
               Restart Simulation Module ↺
             </motion.button>

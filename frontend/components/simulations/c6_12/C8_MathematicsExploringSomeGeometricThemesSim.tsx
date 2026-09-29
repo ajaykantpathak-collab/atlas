@@ -40,11 +40,11 @@ export function C8_MathematicsExploringSomeGeometricThemesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Exploring Geometric Themes: The 360 Degree Walk</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Exploring Geometric Themes: The 360 Degree Walk</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Theme 1 - angle sums:</span> imagine driving
+          <span className="font-bold text-gold-700">Theme 1 - angle sums:</span> imagine driving
           along the edges of a polygon. At every corner you turn by the exterior angle. After a full
           lap you face the same direction, so all turns add to 360 degrees. Each interior angle is
           its flat partner: 180 - exterior.
@@ -61,13 +61,13 @@ export function C8_MathematicsExploringSomeGeometricThemesSim() {
         <button onClick={() => setShowExterior((s) => !s)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${showExterior ? 'bg-amber-500 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
           {showExterior ? 'Exterior angles: ON' : 'Exterior angles: OFF'}
         </button>
-        <button onClick={() => setWalkStep((s) => (s + 1) % (n + 1))} className="px-4 py-2 rounded-xl text-sm font-bold bg-indigo-600 text-white hover:bg-indigo-500 transition-all">
+        <button onClick={() => setWalkStep((s) => (s + 1) % (n + 1))} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-600 text-white hover:bg-gold-500 transition-all">
           Walk the perimeter ({walkStep}/{n})
         </button>
       </div>
 
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 310 300" className="w-full">
             <polygon points={poly.map((p) => `${p.x},${p.y}`).join(' ')} fill="#c7d2fe" stroke="#4338ca" strokeWidth={2.5} style={{ transition: 'all 300ms' }} />
             {showExterior &&
@@ -105,7 +105,7 @@ export function C8_MathematicsExploringSomeGeometricThemesSim() {
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-3">
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             <div>
-              Interior angle sum = (n - 2) x 180 = ({n} - 2) x 180 = <span className="text-indigo-700 font-bold">{interiorSum} deg</span>
+              Interior angle sum = (n - 2) x 180 = ({n} - 2) x 180 = <span className="text-gold-700 font-bold">{interiorSum} deg</span>
             </div>
             <div className="mt-1">each interior = {eachInterior} deg, each exterior = {eachExterior} deg</div>
             <div className="mt-1 text-slate-500">check: {eachInterior} + {eachExterior} = {Math.round((eachInterior + eachExterior) * 10) / 10} deg (a straight line)</div>

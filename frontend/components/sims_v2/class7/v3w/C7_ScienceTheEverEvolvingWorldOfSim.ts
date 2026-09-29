@@ -11,7 +11,7 @@ export const w_c7_sciencetheeverevolvingworldofsim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Science as an Ongoing Process of Discovery',
     chapters: [],
     nodeIds: ['c7_physics_ch01_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Observe how a simple household ceiling fan running at high speed creates a blur, making individual blades.', goal: 'Master Science as an Ongoing Process of Discovery.' },
     discovery: {
         question: 'What term best describes the scientific habit of questioning established ideas and testing them against new evidence rather than accepting them blindly?',
@@ -20,7 +20,7 @@ export const w_c7_sciencetheeverevolvingworldofsim: SimDef = {
         hook: 'Students often think science is a static collection of absolute "facts" memorized from a textbook, rather than an.',
     },
     teaching: [
-        { title: 'Science is an ongoing, evolving process of.', text: 'Science is an ongoing, evolving process of discovery where observations, experiments, and reasoning continuously refine our understanding of the natural world, measured through the accumulation of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Science is an ongoing, evolving process of.', text: 'Science is an ongoing, evolving process of discovery where observations, experiments, and reasoning continuously refine our understanding of the natural world, measured through the accumulation of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch01_010', title: 'Science is an ongoing, evolving process.',

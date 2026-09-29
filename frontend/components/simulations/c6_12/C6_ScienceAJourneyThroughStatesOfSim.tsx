@@ -54,7 +54,7 @@ function C6_ScienceAJourneyThroughStatesOfSim() {
   const waterLevel = st === 'steam' ? 120 : st === 'ice' ? 76 : 82;
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-sky-200 shadow-xl font-sans text-slate-800">
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
       <style>
         {
           '@keyframes jigg { 0%,100% { transform: translate(0,0); } 25% { transform: translate(1.6px,-1.6px); } 50% { transform: translate(-1.6px,1px); } 75% { transform: translate(1px,1.6px); } }' +
@@ -62,7 +62,7 @@ function C6_ScienceAJourneyThroughStatesOfSim() {
           '@keyframes rise { 0% { transform: translateY(0); opacity: 0.9; } 100% { transform: translateY(-95px); opacity: 0.1; } }'
         }
       </style>
-      <h2 className="text-xl md:text-2xl font-black text-sky-700">A Journey through States of Water</h2>
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">A Journey through States of Water</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         Water is the same substance in three forms: <b>ice</b> (solid, below 0 C), <b>water</b> (liquid, 0-100 C)
         and <b>steam</b> (gas, 100 C and above). Heat gives particles energy to move faster and break apart; cooling
@@ -70,7 +70,7 @@ function C6_ScienceAJourneyThroughStatesOfSim() {
       </p>
 
       <div className="grid md:grid-cols-[1fr_220px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-sky-100 bg-sky-50/40 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/40 overflow-hidden">
           <svg viewBox="0 0 420 260" className="w-full">
             <rect width="420" height="260" fill="#f0f9ff" />
             <text x="210" y="18" textAnchor="middle" fontSize="15" fontWeight="900" fill={st === 'ice' ? '#0284c7' : st === 'water' ? '#0369a1' : '#b45309'}>
@@ -103,20 +103,20 @@ function C6_ScienceAJourneyThroughStatesOfSim() {
         </div>
 
         <div className="space-y-3">
-          <div className="p-3 rounded-2xl bg-sky-600 text-white text-center">
+          <div className="p-3 rounded-2xl bg-gold-600 text-white text-center">
             <div className="text-xs uppercase tracking-widest opacity-80">Temperature</div>
             <div className="text-4xl font-black">{temp}&deg;C</div>
             <div className="text-xs font-bold uppercase">{st}</div>
           </div>
           <label className="block text-xs font-semibold text-slate-500">
             Move the temperature slider
-            <input type="range" min={-20} max={120} value={temp} onChange={(e) => { setMode('off'); setTemp(Number(e.target.value)); }} className="w-full accent-sky-600" />
+            <input type="range" min={-20} max={120} value={temp} onChange={(e) => { setMode('off'); setTemp(Number(e.target.value)); }} className="w-full accent-gold-600" />
           </label>
           <div className="flex gap-2">
             <button onClick={() => setMode(mode === 'heat' ? 'off' : 'heat')} className={'flex-1 px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (mode === 'heat' ? 'bg-red-500 text-white' : 'bg-red-100 text-red-700 hover:bg-red-200')}>
               Heat it
             </button>
-            <button onClick={() => setMode(mode === 'cool' ? 'off' : 'cool')} className={'flex-1 px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (mode === 'cool' ? 'bg-blue-500 text-white' : 'bg-blue-100 text-blue-700 hover:bg-blue-200')}>
+            <button onClick={() => setMode(mode === 'cool' ? 'off' : 'cool')} className={'flex-1 px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (mode === 'cool' ? 'bg-gold-500 text-white' : 'bg-gold-100 text-gold-700 hover:bg-gold-200')}>
               Cool it
             </button>
           </div>
@@ -130,7 +130,7 @@ function C6_ScienceAJourneyThroughStatesOfSim() {
       </div>
 
       {view === 'world' && (
-        <div className="mt-3 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200 text-xs text-sky-800 font-semibold transition-all">
+        <div className="mt-3 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200 text-xs text-gold-800 font-semibold transition-all">
           In the big world: at {temp}&deg;C water looks like <b>{st === 'ice' ? 'ice cubes and snow' : st === 'water' ? 'rivers, rain and your water bottle' : 'invisible vapour and clouds high in the sky'}</b>. Same substance, different particle dance!
         </div>
       )}

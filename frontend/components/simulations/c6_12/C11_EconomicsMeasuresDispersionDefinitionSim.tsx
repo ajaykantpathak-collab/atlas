@@ -1455,7 +1455,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Variance (σ²)</p>
-                      <p className="text-lg font-black text-indigo-400 font-mono">{sdCalculated.variance.toFixed(1)}</p>
+                      <p className="text-lg font-black text-gold-400 font-mono">{sdCalculated.variance.toFixed(1)}</p>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Standard Deviation (σ)</p>
@@ -1494,8 +1494,8 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
               {currentSlide === 2 && (
                 <div className="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
-                      <p className="text-sm font-bold text-indigo-300 mb-3">{PREDICTION_QUESTIONS[1].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60">
+                      <p className="text-sm font-bold text-gold-300 mb-3">{PREDICTION_QUESTIONS[1].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
                           <motion.button
@@ -1504,7 +1504,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
                             aria-label={`Prediction option ${i + 1}: ${opt}`}
-                            className="p-2.5 text-left bg-slate-900 border border-slate-800 hover:border-indigo-500 rounded-xl text-xs text-slate-200"
+                            className="p-2.5 text-left bg-slate-900 border border-slate-800 hover:border-gold-500 rounded-xl text-xs text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1657,7 +1657,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Paasche (q1 weights)</p>
-                      <p className="text-lg font-black text-indigo-400 font-mono">{indexNumbersCalc.paasche.toFixed(1)}</p>
+                      <p className="text-lg font-black text-gold-400 font-mono">{indexNumbersCalc.paasche.toFixed(1)}</p>
                       <p className="text-[10px] text-slate-500">Current basket (downward bias)</p>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1685,7 +1685,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                      <p className="font-bold text-indigo-300">Wheat: Base p0=₹{wheatBaseP}, q0={wheatBaseQ}kg</p>
+                      <p className="font-bold text-gold-300">Wheat: Base p0=₹{wheatBaseP}, q0={wheatBaseQ}kg</p>
                       <label className="text-[11px] text-slate-400 flex justify-between">
                         <span>Current Price p1: ₹{wheatCurrP}</span>
                         <input
@@ -1695,7 +1695,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                           value={wheatCurrP}
                           onChange={(e) => setWheatCurrP(Number(e.target.value))}
                           aria-label="Set Wheat Current Price"
-                          className="w-24 accent-indigo-500"
+                          className="w-24 accent-gold-500"
                         />
                       </label>
                     </div>
@@ -1748,9 +1748,9 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
          ══════════════════════════════════════════════════════════════════ */}
       {phase === 'sandbox' && (
         <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-3xl border border-indigo-800/40 flex flex-wrap items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-3xl border border-gold-800/40 flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h2 className="text-xl font-black text-indigo-300">Macroeconomic Statistics Sandbox</h2>
+              <h2 className="text-xl font-black text-gold-300">Macroeconomic Statistics Sandbox</h2>
               <p className="text-xs text-slate-400 mt-1">Free play: manipulate macro parameters, verify dispersion formulas, and check linear trends.</p>
             </div>
             <motion.button
@@ -1836,7 +1836,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                     ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
-                    : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
+                    : 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                 }`}
               >
                 {difficulty}
@@ -2035,7 +2035,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add formula part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2044,7 +2044,7 @@ export default function C11_EconomicsMeasuresDispersionDefinitionSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex items-center gap-2 flex-wrap font-mono">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900/80 text-white text-xs rounded-lg flex items-center gap-1">
+                    <span key={i} className="px-3 py-1 bg-gold-900/80 text-white text-xs rounded-lg flex items-center gap-1">
                       {part}
                       <button
                         onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))}

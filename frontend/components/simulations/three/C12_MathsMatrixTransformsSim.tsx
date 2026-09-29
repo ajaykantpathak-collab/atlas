@@ -198,8 +198,8 @@ export default function C12_MathsMatrixTransformsSim() {
             {slider('k', k, -1.5, 1.5, 0.05, setK)}
           </div>
         </div>
-        <div className="rounded-xl border border-blue-400/20 bg-blue-500/[0.04] p-4">
-          <div className="font-display text-xs font-bold text-blue-300">SCALE sx, sy, sz</div>
+        <div className="rounded-xl border border-gold-400/20 bg-gold-500/[0.04] p-4">
+          <div className="font-display text-xs font-bold text-gold-300">SCALE sx, sy, sz</div>
           <div className="mt-2 space-y-1">
             {slider('sx', sx, -2, 2, 0.05, setSx)}
             {slider('sy', sy, -2, 2, 0.05, setSy)}

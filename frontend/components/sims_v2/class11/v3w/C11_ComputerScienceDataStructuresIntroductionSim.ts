@@ -11,7 +11,7 @@ export const w_c11_computersciencedatastructuresintroductionsim: SimDef = {
     classLevel: 11, subject: 'computer_science', topic: 'Introduction to Data Structures',
     chapters: [],
     nodeIds: ['c11_cs_cbse_10_001', 'c11_cs_cbse_10_002', 'c11_cs_cbse_10_003', 'c11_cs_cbse_10_004', 'c11_cs_cbse_10_009', 'c11_cs_cbse_10_012', 'c11_cs_cbse_10_013', 'c11_cs_cbse_10_014', 'c11_cs_cbse_01_002', 'c11_cs_cbse_01_005', 'c11_cs_cbse_03_001', 'c11_cs_cbse_03_004', 'c11_cs_cbse_11_003', 'c11_cs_cbse_11_009', 'c11_cs_cbse_09_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a music playlist app: you need to add songs, play the most recently added song first.', goal: 'Master Introduction to Data Structures.' },
     discovery: {
         question: 'A school wants to maintain a record of students waiting to see the principal. Students join the line at the end and are called from the front.',
@@ -20,7 +20,7 @@ export const w_c11_computersciencedatastructuresintroductionsim: SimDef = {
         hook: 'Students often believe "data structure" and "data type" are synonyms, and that Python\'s list is a "universal" structure.',
     },
     teaching: [
-        { title: 'A data structure is a specialized format for.', text: 'A data structure is a specialized format for organizing, processing, retrieving, and storing data in computer memory so that it can be accessed and modified efficiently; it defines the logical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A data structure is a specialized format for.', text: 'A data structure is a specialized format for organizing, processing, retrieving, and storing data in computer memory so that it can be accessed and modified efficiently; it defines the logical.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_cs_cbse_10_001', title: 'A data structure is a specialized.',

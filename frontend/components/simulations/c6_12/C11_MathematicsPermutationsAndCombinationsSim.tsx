@@ -50,7 +50,7 @@ export function C11_MathematicsPermutationsAndCombinationsSim() {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-5">
         <div className="lg:col-span-3 bg-slate-900/80 rounded-2xl border border-slate-800 p-4">
           <p className="text-xs text-slate-400 mb-2">
-            Select <b className="text-fuchsia-300">{rClamped}</b> of <b className="text-sky-300">{n}</b> letters -- green = chosen (a combination), and each green set can be ordered in <b className="text-amber-300">{pr.toLocaleString()}</b> ways.
+            Select <b className="text-fuchsia-300">{rClamped}</b> of <b className="text-gold-300">{n}</b> letters -- green = chosen (a combination), and each green set can be ordered in <b className="text-amber-300">{pr.toLocaleString()}</b> ways.
           </p>
           <div className="flex flex-wrap gap-2 mb-4">
             {letters.split('').map((ch, i) => (
@@ -92,11 +92,11 @@ export function C11_MathematicsPermutationsAndCombinationsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Total items n</span><span className="font-mono font-bold text-sky-400">{n}</span>
+                <span>Total items n</span><span className="font-mono font-bold text-gold-400">{n}</span>
               </div>
               <input type="range" min={2} max={10} step={1} value={n} aria-label="Total items n"
                 onChange={(e) => { const v = Number(e.target.value); setN(v); if (rClamped > v) setR(v); }}
-                className="w-full accent-sky-500" />
+                className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

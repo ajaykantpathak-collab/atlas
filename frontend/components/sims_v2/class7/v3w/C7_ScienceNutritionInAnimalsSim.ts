@@ -11,7 +11,7 @@ export const w_c7_sciencenutritioninanimalssim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     chapters: [],
     nodeIds: ['c7_bio_ch02_001', 'c7_bio_ch03_002', 'c7_bio_ch03_009', 'c7_bio_ch02_002', 'c7_bio_ch02_005', 'c7_bio_ch02_008', 'c7_bio_ch02_009', 'c7_bio_ch02_012', 'c7_bio_ch03_006', 'c7_bio_ch03_010', 'c7_bio_ch01_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Life Processes: Nutrition, Respiration, Excretion Overview.' },
     discovery: {
         question: 'What term describes animals that feed exclusively on other animals\' flesh?',
@@ -20,7 +20,7 @@ export const w_c7_sciencenutritioninanimalssim: SimDef = {
         hook: 'Students often think that "feeding habit" refers only to what an animal eats (e.g., grass or meat) and ignore *how* it.',
     },
     teaching: [
-        { title: 'Life processes are the essential biological.', text: 'Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport, and excretion—that work together to maintain life, repair damaged.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Life processes are the essential biological.', text: 'Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport, and excretion—that work together to maintain life, repair damaged.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_bio_ch02_001', title: 'Life processes are the essential.',

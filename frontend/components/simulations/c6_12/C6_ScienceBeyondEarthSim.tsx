@@ -53,20 +53,20 @@ function C6_ScienceBeyondEarthSim() {
   }, [running, speed]);
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-indigo-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-indigo-700">Beyond Earth -- our Solar System</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">Beyond Earth -- our Solar System</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         Eight planets travel around the Sun on almost-circular paths called <b>orbits</b>. Planets near the Sun
         race around quickly; faraway planets crawl -- Neptune needs 165 Earth years for ONE trip! The Sun's
         gravity keeps every planet on its track.
       </p>
 
-      <div className="flex flex-wrap items-center gap-3 mt-3 p-3 rounded-2xl bg-indigo-50 border-2 border-indigo-100">
+      <div className="flex flex-wrap items-center gap-3 mt-3 p-3 rounded-2xl bg-gold-50 border-2 border-gold-100">
         <label className="text-xs font-semibold text-slate-500">
-          Time speed: <span className="text-indigo-700 font-black">{speed} yr/s</span>
-          <input type="range" min={1} max={10} value={speed} onChange={(e) => setSpeed(Number(e.target.value))} className="w-36 accent-indigo-600 ml-2" />
+          Time speed: <span className="text-gold-700 font-black">{speed} yr/s</span>
+          <input type="range" min={1} max={10} value={speed} onChange={(e) => setSpeed(Number(e.target.value))} className="w-36 accent-gold-600 ml-2" />
         </label>
-        <button onClick={() => setRunning(!running)} className="px-4 py-1.5 rounded-full text-xs font-black bg-indigo-600 text-white hover:bg-indigo-700 transition-colors">
+        <button onClick={() => setRunning(!running)} className="px-4 py-1.5 rounded-full text-xs font-black bg-gold-600 text-white hover:bg-gold-700 transition-colors">
           {running ? 'Pause time' : 'Start time'}
         </button>
         <button onClick={() => setTrueScale(!trueScale)} className={'px-4 py-1.5 rounded-full text-xs font-black transition-colors ' + (trueScale ? 'bg-amber-400 text-amber-900' : 'bg-slate-200 text-slate-600 hover:bg-slate-300')}>
@@ -76,7 +76,7 @@ function C6_ScienceBeyondEarthSim() {
       </div>
 
       <div className="grid md:grid-cols-[1fr_230px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-indigo-100 bg-indigo-950 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-950 overflow-hidden">
           <svg viewBox="0 0 660 280" className="w-full">
             {trueScale && <circle cx={CX} cy={CY} r="130" fill="none" stroke="#334155" strokeWidth="1" strokeDasharray="2 4" />}
             {PLANETS.map((p) => {
@@ -103,15 +103,15 @@ function C6_ScienceBeyondEarthSim() {
         <div className="space-y-2">
           <div className="grid grid-cols-2 gap-1.5">
             {PLANETS.map((p) => (
-              <button key={p.name} onClick={() => setSelected(p)} className={'px-2 py-1.5 rounded-lg text-[11px] font-bold transition-all ' + (selected.name === p.name ? 'bg-indigo-600 text-white' : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200')}>
+              <button key={p.name} onClick={() => setSelected(p)} className={'px-2 py-1.5 rounded-lg text-[11px] font-bold transition-all ' + (selected.name === p.name ? 'bg-gold-600 text-white' : 'bg-gold-100 text-gold-700 hover:bg-gold-200')}>
                 {p.name}
               </button>
             ))}
           </div>
           <div className="p-3 rounded-2xl border-2" style={{ borderColor: selected.color, background: '#eef2ff' }}>
-            <div className="text-sm font-black text-indigo-900">{selected.name}</div>
+            <div className="text-sm font-black text-gold-900">{selected.name}</div>
             <div className="text-[11px] text-slate-600 mt-1 leading-snug">{selected.fact}</div>
-            <div className="text-[11px] font-mono text-indigo-700 mt-2 space-y-0.5">
+            <div className="text-[11px] font-mono text-gold-700 mt-2 space-y-0.5">
               <div>distance: {selected.au} AU from Sun</div>
               <div>one year: {selected.period} Earth years</div>
               <div>size: {selected.sizeEarth}x Earth across</div>
@@ -120,9 +120,9 @@ function C6_ScienceBeyondEarthSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Start time and count how many laps Earth finishes before Mars finishes ONE. Then check Jupiter -- why do we say a Jupiter year is "not over yet"?</li>
           <li>Switch to TRUE distances and click Neptune. Why do you think no human has ever travelled there?</li>
         </ol>

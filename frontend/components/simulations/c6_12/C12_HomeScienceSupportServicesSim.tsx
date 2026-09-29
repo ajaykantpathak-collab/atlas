@@ -48,7 +48,7 @@ export function C12_HomeScienceSupportServicesSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-violet-400">CBSE Class 12 Home Science - Management of Support Services, Institutions and Programmes</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Home Science - Management of Support Services, Institutions and Programmes</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Institution Budget Allocator</h1>
         </div>
         <span className={`px-3 py-1 text-xs font-bold rounded-full border ${unallocated >= 0 ? 'bg-emerald-950 border-emerald-700 text-emerald-300' : 'bg-rose-950 border-rose-700 text-rose-300'}`}>
@@ -72,10 +72,10 @@ export function C12_HomeScienceSupportServicesSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Monthly budget</span>
-            <span className="text-indigo-300 font-mono font-bold">Rs {budget.toLocaleString('en-IN')}</span>
+            <span className="text-gold-300 font-mono font-bold">Rs {budget.toLocaleString('en-IN')}</span>
           </label>
           <input type="range" min={50000} max={500000} step={10000} value={budget} aria-label="monthly budget in rupees"
-            onChange={(e) => setBudget(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setBudget(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -128,7 +128,7 @@ export function C12_HomeScienceSupportServicesSim() {
         </div>
         <p className="text-xs text-slate-400 mt-2">
           Biggest slice: <span className="font-bold" style={{ color: biggest.color }}>{biggest.label}</span> at {alloc[biggest.id]}%.
-          Cost per resident right now: <span className="font-mono font-bold text-indigo-300">Rs {Math.round((budget * totalPct) / 100 / residents).toLocaleString('en-IN')}</span> per month.
+          Cost per resident right now: <span className="font-mono font-bold text-gold-300">Rs {Math.round((budget * totalPct) / 100 / residents).toLocaleString('en-IN')}</span> per month.
         </p>
       </div>
 
@@ -141,13 +141,13 @@ export function C12_HomeScienceSupportServicesSim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p>
-          <span className="font-bold text-violet-300">Management principle:</span> a support-services manager plans money, people and materials
+          <span className="font-bold text-gold-300">Management principle:</span> a support-services manager plans money, people and materials
           so every beneficiary gets a fair share WITHIN the budget. Watch the per-person amounts as you admit more residents --
           <span className="font-bold text-amber-300"> the misconception that a bigger institution is automatically cheaper per head only holds if the budget grows with it.</span>
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-violet-950/60 to-slate-900 border border-violet-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Keep budget at Rs 200000 and raise residents from 80 to 160. What happens to the per-person meal spending, and how would a real manager respond?</p>
         <p className="mt-1">2. Try to give every service at least 20% -- what does the feasibility banner say, and which service would you cut first to fix it?</p>

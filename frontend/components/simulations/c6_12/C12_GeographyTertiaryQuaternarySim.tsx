@@ -39,9 +39,9 @@ export function C12_GeographyTertiaryQuaternarySim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">💼</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">💼</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 12 -- Tertiary and Quaternary Activities</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Tertiary and Quaternary Activities</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Field to Fax to PhD: the Work Shift Machine</h1>
         </div>
       </div>
@@ -121,17 +121,17 @@ export function C12_GeographyTertiaryQuaternarySim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Global outsourcing pull</span><span className="font-mono font-bold text-sky-400">{outsourcing}</span>
+                <span>Global outsourcing pull</span><span className="font-mono font-bold text-gold-400">{outsourcing}</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={outsourcing} aria-label="outsourcing"
-                onChange={(e) => setOutsourcing(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setOutsourcing(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Education and skills spend</span><span className="font-mono font-bold text-violet-400">{education}</span>
+                <span>Education and skills spend</span><span className="font-mono font-bold text-gold-400">{education}</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={education} aria-label="education"
-                onChange={(e) => setEducation(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setEducation(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setView(view === 'jobs' ? 'gdp' : 'jobs')}
@@ -158,8 +158,8 @@ export function C12_GeographyTertiaryQuaternarySim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Slide development 0 to 100 and log primary employment. Near what level does tertiary overtake it?</p>
             <p>2. Max outsourcing but keep education at 10. Why does quaternary stay stunted? Fix it with the third slider.</p>
           </div>

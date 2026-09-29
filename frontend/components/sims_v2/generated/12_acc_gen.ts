@@ -129,8 +129,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "State whether the following is dissolution of partnership or dissolution of partnership firm: \"A partner retires and the remaining partners continue the business with a new profit-sharing ratio.\"",
     "answer": "This is dissolution of partnership because the firm continues to exist with a reconstituted partnership agreement",
     "options": [
-     "The Realisation Account is credited with the agreed value (gain on realisation), and the Partner's Capital Account is debited with the same amount",
-     "Correct order: (1) Pay debts to third parties (outside creditors), (2) Repay partner loans/advances, (3) Return partner capitals",
+     "The essential requirement is that all partners must consent to the dissolution, either expressly through a written agreement or impliedly by their conduct",
+     "Treatment of Realisation Expenses refers to the accounting procedure for recording costs incurred during the winding up of a partnership firm (e",
      "This is dissolution of partnership because the firm continues to exist with a reconstituted partnership agreement"
     ],
     "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
@@ -150,8 +150,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "What is the essential legal requirement for a partnership firm to be dissolved by mutual agreement of all partners?",
     "answer": "The essential requirement is that all partners must consent to the dissolution, either expressly through a written agreement or impliedly by their conduct",
     "options": [
-     "Correct order: (1) External creditors, (2) Partner's loan to the firm, (3) Partner's capital accounts",
-     "The Garner v Murray rule states that on dissolution of a partnership, if a partner is insolvent and cannot pay their capital deficiency",
+     "Dissolution of partnership refers to a change in the partnership agreement (such as admission, retirement, death",
+     "The student must be able to correctly classify any given scenario as either dissolution of partnership or dissolution of partnership firm",
      "The essential requirement is that all partners must consent to the dissolution, either expressly through a written agreement or impliedly by their conduct"
     ],
     "hint": "Straight from the 'Modes of dissolution of a' slide -- match the key terms.",
@@ -219,16 +219,47 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary purpose of preparing a Realisation Account in the dissolution of a partnership firm?",
-    "answer": "The primary purpose is to ascertain the profit or loss on the realization of assets and payment of liabilities by comparing their book values with the actual amounts realized/paid",
-    "options": [
-     "Correct entry: Realisation A/c Dr. ₹10,000 To Bank A/c ₹10,000",
-     "Correct entry: Realisation A/c Dr. → To Sundry Assets A/c (individually)",
-     "The primary purpose is to ascertain the profit or loss on the realization of assets and payment of liabilities by comparing their book values with the actual amounts realized/paid"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "prepare a Realisation Account from given",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the purpose of a Realisation Account",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "draw the correct format with all relevant",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Realisation Account' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"to distribute cash among partners\") reveals the student confuses Realisation Account with the final cash distribution or partners' capital accounts.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) explain the purpose of a Realisation Account in dissolution, (2) draw the correct",
     "id": "gen_c12_acc_ch04_q4",
     "nodeId": "c12_acc_cbse_04_003",
     "difficulty": "standard",
@@ -366,16 +397,58 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define unrecorded assets and unrecorded liabilities in the context of dissolution of a partnership firm. Give one example of each.",
-    "answer": "Unrecorded assets are assets not shown in the Balance Sheet (e.g., goodwill written off, patents, fully depreciated machinery still in use)",
-    "options": [
-     "The Realisation Account is prepared to ascertain the profit or loss on realisation of assets and settlement of liabilities",
-     "The Garner v Murray rule states that on dissolution of a partnership, if a partner is insolvent and cannot pay their capital deficiency",
-     "Unrecorded assets are assets not shown in the Balance Sheet (e.g., goodwill written off, patents, fully depreciated machinery still in use)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "unrecorded liability paid in cash",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "unrecorded liability taken over by a partner",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "unrecorded asset sold for cash",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "unrecorded asset taken over by a partner",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Unrecorded assets' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"assets not yet sold\") reveals the student confuses unrecorded with unrealised; unrecorded means absent from books, not unsold.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must correctly pass journal entries for at least three distinct scenarios: (1) unrecorded asset sold for",
     "id": "gen_c12_acc_ch04_q7",
     "nodeId": "c12_acc_cbse_04_005",
     "difficulty": "advanced",
@@ -514,8 +587,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "What is the primary purpose of the Realisation Account in dissolution of a partnership firm?",
     "answer": "The Realisation Account is prepared to ascertain the profit or loss on realisation of assets and settlement of liabilities",
     "options": [
-     "The primary purpose is to ascertain the profit or loss on the realization of assets and payment of liabilities by comparing their book values with the actual amounts realized/paid",
-     "Correct entry: Realisation A/c Dr. ₹10,000 To Bank A/c ₹10,000",
+     "The Realisation Account is credited with the agreed value (gain on realisation), and the Partner's Capital Account is debited with the same amount",
+     "This is dissolution of partnership because the firm continues to exist with a reconstituted partnership agreement",
      "The Realisation Account is prepared to ascertain the profit or loss on realisation of assets and settlement of liabilities"
     ],
     "hint": "Straight from the 'Preparation of Realisation' slide -- match the key terms.",
@@ -597,6 +670,52 @@ export const C12_ACC_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "partner bears and firm pays",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "firm bears and pays",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "partner pays on behalf of the firm",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must correctly pass journal entries for realisation expenses under three distinct scenarios: (1) firm bears",
+    "id": "gen_c12_acc_ch04_q14",
+    "nodeId": "c12_acc_cbse_04_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "After realisation, a firm has cash ₹1,20,000. External creditors ₹40,000, Partner A's loan ₹30,000, Capitals: A ₹80,000, B ₹60,000. Show the cash distribution.",
     "sortItems": [
      {
@@ -637,7 +756,7 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer paying capitals before loan, or ignoring the loan, shows the student hasn't internalised the statutory payment hierarchy.",
-    "id": "gen_c12_acc_ch04_q14",
+    "id": "gen_c12_acc_ch04_q15",
     "nodeId": "c12_acc_cbse_04_006",
     "difficulty": "advanced"
    },
@@ -683,54 +802,145 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that distributes ₹40,000 equally or before loans reveals failure to apply the waterfall and profit-sharing ratio simultaneously.",
-    "id": "gen_c12_acc_ch04_q15",
+    "id": "gen_c12_acc_ch04_q16",
     "nodeId": "c12_acc_cbse_04_007",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "\"Every dissolution of partnership firm involves dissolution of partnership, but the reverse is not true.\" Evaluate this statement with reasons.",
-    "answer": "True. When a firm is dissolved, the partnership agreement automatically ends (so partnership is dissolved)",
-    "options": [
-     "(1) Method chosen — private placement of shares to at most 200 select investors in a financial year, (2) The fit",
-     "Assets are debited and external liabilities are credited at their book values",
-     "True. When a firm is dissolved, the partnership agreement automatically ends (so partnership is dissolved)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "discharge all external liabilities",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "settle partner capital accounts",
+      "emoji": "📌",
+      "correctBin": "o4"
+     },
+     {
+      "id": "s2",
+      "label": "realise assets and record profit/loss",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "close the Cash/Bank Account to zero",
+      "emoji": "📌",
+      "correctBin": "o5"
+     },
+     {
+      "id": "s4",
+      "label": "pay realisation expenses",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s5",
+      "label": "repay partner loans",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
-    "misconception": "A wrong evaluation (saying both are same or reverse is true) reveals the student misses the hierarchical relationship: firm dissolution ⊃ partnership dissolution.",
-    "id": "gen_c12_acc_ch04_q16",
-    "nodeId": "c12_acc_cbse_04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A firm has three partners. They mutually agree to close the business, sell all assets, pay liabilities, and distribute the surplus. Identify the type of dissolution and state whether a Realisation Account will be prepared.",
-    "answer": "This is dissolution of partnership firm because the business is being closed entirely. Yes",
-    "options": [
-     "Scenario: Partners X and Y run a manufacturing firm. Y is found to have secretly diverted firm's funds to a competing business he started, causing loss of trust",
-     "Assets are debited and external liabilities are credited at their book values",
-     "This is dissolution of partnership firm because the business is being closed entirely. Yes"
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     },
+     {
+      "id": "o5",
+      "label": "6th",
+      "color": "#ec4899"
+     }
     ],
-    "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
-    "misconception": "A wrong answer (dissolution of partnership or no Realisation Account) indicates the student does not link firm closure with the mandatory preparation of Realisation Account.",
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can independently prepare a complete dissolution settlement sequence: (1) realise assets and record profit/loss",
     "id": "gen_c12_acc_ch04_q17",
-    "nodeId": "c12_acc_cbse_04_001",
-    "difficulty": "standard"
+    "nodeId": "c12_acc_cbse_04_007",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Compare the accounting treatment of assets and liabilities in dissolution of partnership versus dissolution of partnership firm. Why is a Realisation Account opened only in the latter?",
-    "answer": "In dissolution of partnership, assets and liabilities are revalued (via Revaluation Account) and the firm continues with revised values",
-    "options": [
-     "A partner's loan is an external liability to the firm and must be paid before any capital repayment (Section 48 of Partnership Act)",
-     "For Loan: Partner's Loan A/c Dr. → To Realisation A/c (asset given). For Capital: Partner's Capital A/c Dr",
-     "In dissolution of partnership, assets and liabilities are revalued (via Revaluation Account) and the firm continues with revised values"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Pass correct journal",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Calculate the insolvent partner's deficiency",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Allocate the deficiency among solvent",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Identify when Garner v Murray rule applies",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Dissolution of partnership' slide -- match the key terms.",
-    "misconception": "A wrong answer (saying Realisation Account is used in both) shows the student does not distinguish between revaluation (continuing firm) and realization (closing firm).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Identify when Garner v Murray rule applies (dissolution + partner insolvency + capital",
     "id": "gen_c12_acc_ch04_q18",
-    "nodeId": "c12_acc_cbse_04_001",
-    "difficulty": "standard"
+    "nodeId": "c12_acc_cbse_04_008",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -745,14 +955,14 @@ export const C12_ACC_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_acc_ch06",
-  "title": "Debenture",
+  "title": "A Debenture Is a Written Instrument",
   "subtitle": "Accountancy · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "accountancy",
-  "topic": "Debenture",
+  "topic": "A Debenture Is a Written Instrument",
   "chapters": [
-   "Accountancy Ch6: Debenture"
+   "Accountancy Ch6: A Debenture Is a Written Instrument"
   ],
   "nodeIds": [
    "c12_acc_cbse_06_001",
@@ -773,7 +983,7 @@ export const C12_ACC_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Debenture suddenly stops working?",
+   "question": "What happens if A Debenture Is a Written suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -784,7 +994,7 @@ export const C12_ACC_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Debenture",
+    "title": "A Debenture Is a Written Instrument",
     "text": "A debenture is a written instrument acknowledging a debt under the common seal of a company, containing a contract for repayment of principal after a specified period or at intervals, and payment of interest at a fixed rate payable usually half-yearly or",
     "emoji": "🧾",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -898,16 +1108,47 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the correct journal entry when a company issues 1,000, 10% debentures of ₹100 each at a premium of 10%, payable ₹30 on application, ₹50 on allotment (including premium), and the balance on call?",
-    "answer": "Correct entry: Bank A/c Dr. 30,000 To Debenture Application A/c 30,000 (Application money received) Debenture Application A/c Dr",
-    "options": [
-     "Correct entry: Debit Debentures A/c (face value), Credit Own Debentures A/c (purchase price), Credit Profit on Cancellation of Debentures A/c (difference)",
-     "25% of the face value of outstanding debentures",
-     "Correct entry: Bank A/c Dr. 30,000 To Debenture Application A/c 30,000 (Application money received) Debenture Application A/c Dr"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Calculate the amount of premium/discount",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Distinguish between premium on issue",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Pass correct journal entries for issue",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Correct entry: Bank A/c Dr. 30,000 To Debenture Application A/c 30,000 (Application money received) Debenture",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Pass correct journal entries for issue of debentures at par, premium, and discount",
     "id": "gen_c12_acc_ch06_q2",
     "nodeId": "c12_acc_cbse_06_002",
     "difficulty": "advanced",
@@ -919,16 +1160,47 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A company issues 10,000, 9% debentures of ₹100 each at a premium of 10% to a vendor for purchasing machinery worth ₹11,00,000. What is the correct journal entry for this transaction?",
-    "answer": "Correct Entry: Machinery A/c Dr. 11,00,000 To 9% Debentures A/c 10,00,000 To Securities Premium A/c 1,00,000 Why wrong answers reveal misunderstanding: If a student debits",
-    "options": [
-     "Journal Entry: Debenture Suspense A/c Dr. 25,00,000 To 8% Debentures A/c 25,00,000 (Being 25,000 8% debentures of ₹100 each issued as collateral security) Notes to Accounts",
-     "No, it is not correct. \"Discount on Issue of Debentures\" and \"Loss on Issue of Debentures\" are different",
-     "Correct Entry: Machinery A/c Dr. 11,00,000 To 9% Debentures A/c 10,00,000 To Securities Premium A/c 1,00,000 Why wrong answers reveal misunderstanding: If a student debits"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Calculate the number of debentures",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Pass correct journal entries for issue",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Prepare",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Issue of Debentures for' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Correct Entry: Machinery A/c Dr. 11,00,000 To 9% Debentures A/c 10,00,000 To Securities Premium A/c 1,00,000 Why wrong",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Pass correct journal entries for issue of debentures for non-cash consideration at",
     "id": "gen_c12_acc_ch06_q3",
     "nodeId": "c12_acc_cbse_06_003",
     "difficulty": "advanced",
@@ -940,16 +1212,58 @@ export const C12_ACC_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the fundamental difference between debentures issued as collateral security and debentures issued for cash subscription?",
-    "answer": "Debentures issued for cash create a new liability and bring in funds; debentures issued as collateral security do not create a new liability (unless default occurs) and do not",
-    "options": [
-     "Correct analysis: The two pairs classify on DIFFERENT bases — Security (charge on assets) vs Priority (order of repayment among debentures)",
-     "At par: Debit Debentures A/c, Credit Share Capital A/c. At premium: Debit Debentures A/c, Credit Share Capital A/c (face value), Credit Securities Premium A/c (premium amount)",
-     "Debentures issued for cash create a new liability and bring in funds; debentures issued as collateral security do not create a new liability (unless default occurs) and do not"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Prepare the Notes to Accounts and Balance",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Record journal entries for both accounting",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Distinguish between primary security",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "Explain",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Issue of debentures as collateral' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both bring cash\" or \"both are recorded the same way\") reveals the student confuses collateral security with a fresh issue for fundraising, missing the core concept that collateral debentures are contingent liabilities, not actual borrowings.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Distinguish between primary security and collateral security in debenture issuance;",
     "id": "gen_c12_acc_ch06_q4",
     "nodeId": "c12_acc_cbse_06_004",
     "difficulty": "advanced",
@@ -1038,7 +1352,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "options": [
      "Journal Entry: Debenture Suspense A/c Dr. 25,00,000 To 8% Debentures A/c 25,00,000 (Being 25,000 8% debentures of ₹100 each issued as collateral security) Notes to Accounts",
      "The entry is wrong because it credits the full gross interest to Debenture Interest A/c, but the company only pays the net amount after TDS",
-     "8% First Debentures is debited",
+     "8% Redeemable is debited",
      "8% Debentures Account is debited"
     ],
     "hint": "Straight from the 'Redemption of debentures' slide -- match the key terms.",
@@ -1058,8 +1372,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "What is the journal entry when a company purchases its own debentures from the open market at a price lower than the face value for immediate cancellation?",
     "answer": "Correct entry: Debit Debentures A/c (face value), Credit Own Debentures A/c (purchase price), Credit Profit on Cancellation of Debentures A/c (difference)",
     "options": [
-     "Discount on issue of debentures is a capital loss. Until written off, it is shown as a deferred charge under \"Other Non-Current Assets\" (or \"Current Assets\" if the amount to be",
-     "10% if PAN is furnished, 20% if PAN is not furnished (as per Section 193 of Income Tax Act)",
+     "Interest on debentures is a fixed financial charge payable by the company to debenture holders at a predetermined rate on the nominal (face) value of debentures",
+     "Redemption of debentures refers to the discharge of the company's obligation to repay the principal amount to debentureholders",
      "Correct entry: Debit Debentures A/c (face value), Credit Own Debentures A/c (purchase price), Credit Profit on Cancellation of Debentures A/c (difference)"
     ],
     "hint": "Straight from the 'Redemption by purchase from open' slide -- match the key terms.",
@@ -1098,8 +1412,8 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "State the journal entry for issuing 5,000, 9% debentures of ₹100 each at a premium of 10%, redeemable at par. (Assume full amount received on application.)",
     "answer": "Correct Entry: Bank A/c Dr. 5,50,000 To 9% Debenture Application & Allotment A/c 5,50,000 9% Debenture Application & Allotment A/c Dr",
     "options": [
-     "Correct entry: Debit Debentures A/c (face value), Credit Own Debentures A/c (purchase price), Credit Profit on Cancellation of Debentures A/c (difference)",
-     "Discount on issue of debentures is a capital loss. Until written off, it is shown as a deferred charge under \"Other Non-Current Assets\" (or \"Current Assets\" if the amount to be",
+     "Redemption of debentures refers to the discharge of the company's obligation to repay the principal amount to debentureholders",
+     "Issue of debentures refers to the process by which a company raises borrowed capital by issuing debt instruments (debentures) to investors",
      "Correct Entry: Bank A/c Dr. 5,50,000 To 9% Debenture Application & Allotment A/c 5,50,000 9% Debenture Application & Allotment A/c Dr"
     ],
     "hint": "Straight from the 'Journal entries for issue and' slide -- match the key terms.",
@@ -1113,6 +1427,52 @@ export const C12_ACC_GEN: SimDef[] = [
      "Where do you start?",
      "First, identify the issue terms: at par? premium? discount? for land? as collateral?"
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "classify any",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "define debenture using precise NCERT",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish debentures from shares",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) define debenture using precise NCERT terminology including the three critical elements",
+    "id": "gen_c12_acc_ch06_q11",
+    "nodeId": "c12_acc_cbse_06_001",
+    "difficulty": "standard"
    },
    {
     "type": "order",
@@ -1167,8 +1527,100 @@ export const C12_ACC_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer omits the transfer entry or calculates interest on issue price (₹95,000) instead of face value — revealing the misconception that interest is paid on issue proceeds.",
-    "id": "gen_c12_acc_ch06_q11",
+    "id": "gen_c12_acc_ch06_q12",
     "nodeId": "c12_acc_cbse_06_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "pass correct journal entries for interest",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "calculate gross interest",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "show the correct presentation of outstanding",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) calculate gross interest, TDS, and net interest payable for any given debenture issue,",
+    "id": "gen_c12_acc_ch06_q13",
+    "nodeId": "c12_acc_cbse_06_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "show the correct presentation in the Balance",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "pass correct journal entries for issue",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "calculate the annual amount of discount/loss",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) calculate the annual amount of discount/loss to be written off under both equal",
+    "id": "gen_c12_acc_ch06_q14",
+    "nodeId": "c12_acc_cbse_06_006",
     "difficulty": "advanced"
    },
    {
@@ -1180,9 +1632,9 @@ export const C12_ACC_GEN: SimDef[] = [
      "Correct analysis: - Lump sum: DRR must be built up to 25% of debenture value (₹2.5 cr) *before* redemption (typically over the 5 years)",
      "(a) Return: Debenture holders receive *fixed interest* as a contractual obligation — it is a charge against profit, payable even in losses"
     ],
-    "hint": "Straight from the 'debenture' slide -- match the key terms.",
+    "hint": "Straight from the 'A debenture is a written' slide -- match the key terms.",
     "misconception": "A wrong answer shows the student memorises differences without understanding the *creditor vs owner* legal relationship — this causes errors in case-based questions where they must predict behaviour in liquidation scenarios.",
-    "id": "gen_c12_acc_ch06_q12",
+    "id": "gen_c12_acc_ch06_q15",
     "nodeId": "c12_acc_cbse_06_001",
     "difficulty": "standard"
    },
@@ -1195,9 +1647,9 @@ export const C12_ACC_GEN: SimDef[] = [
      "Analysis: | Aspect | First Method (Note Only) | Second Method (Entry Passed) | |--------|--------------------------|------------------------------| | Journal Entry | No entry",
      "Correct analysis: The two pairs classify on DIFFERENT bases — Security (charge on assets) vs Priority (order of repayment among debentures)"
     ],
-    "hint": "Straight from the 'debenture' slide -- match the key terms.",
+    "hint": "Straight from the 'A debenture is a written' slide -- match the key terms.",
     "misconception": "A wrong answer treats \"secured\" and \"first\" as synonyms — this is the #1 misconception in board exams. Students must understand: Security = existence of charge; Priority = ranking among charges.",
-    "id": "gen_c12_acc_ch06_q13",
+    "id": "gen_c12_acc_ch06_q16",
     "nodeId": "c12_acc_cbse_06_001",
     "difficulty": "standard"
    },
@@ -1206,13 +1658,13 @@ export const C12_ACC_GEN: SimDef[] = [
     "question": "State the three mandatory legal elements that must be present for a document to qualify as a debenture under the Companies Act 2013, as per NCERT terminology.",
     "answer": "(1) Written instrument acknowledging a debt, (2) Issued under the common seal of the company",
     "options": [
+     "10% if PAN is furnished, 20% if PAN is not furnished (as per Section 193 of Income Tax Act)",
      "Correct Entry: Bank A/c Dr. 5,50,000 To 9% Debenture Application & Allotment A/c 5,50,000 9% Debenture Application & Allotment A/c Dr",
-     "Correct entry: Bank A/c Dr. 30,000 To Debenture Application A/c 30,000 (Application money received) Debenture Application A/c Dr",
      "(1) Written instrument acknowledging a debt, (2) Issued under the common seal of the company"
     ],
-    "hint": "Straight from the 'debenture' slide -- match the key terms.",
+    "hint": "Straight from the 'A debenture is a written' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student is confusing the *definition* with *features* (like \"fixed interest\" or \"secured\") or with *types* (like \"redeemable\"). Many students omit \"common seal\" which is a specific legal requirement under the Companies Act — missing this loses 1 mark in board exams where definitions are",
-    "id": "gen_c12_acc_ch06_q14",
+    "id": "gen_c12_acc_ch06_q17",
     "nodeId": "c12_acc_cbse_06_001",
     "difficulty": "standard"
    },
@@ -1225,65 +1677,20 @@ export const C12_ACC_GEN: SimDef[] = [
      "Correct Entry: Machinery A/c Dr. 11,00,000 To 9% Debentures A/c 10,00,000 To Securities Premium A/c 1,00,000 Why wrong answers reveal misunderstanding: If a student debits",
      "Correct classification with justifications: 1. Security: Secured — floating charge on current assets creates a charge on assets"
     ],
-    "hint": "Straight from the 'debenture' slide -- match the key terms.",
+    "hint": "Straight from the 'A debenture is a written' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student cannot map a single real-world instrument to multiple classification dimensions simultaneously — a critical skill for board case studies and CUET assertion-reason questions where one debenture must be analysed across all bases.",
-    "id": "gen_c12_acc_ch06_q15",
+    "id": "gen_c12_acc_ch06_q18",
     "nodeId": "c12_acc_cbse_06_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A company issues 10,000, 8% debentures of ₹100 each at a premium of 5%, redeemable at a premium of 10% after 5 years. The accountant records the redemption premium at the time of issue by debiting \"Loss on Issue of Debentures\" and crediting \"Premium on Redemption of Debentures\". Evaluate this treatment.",
-    "answer": "The treatment is correct. At issue, the company knows it must pay a redemption premium later. As per prudence (conservatism)",
-    "options": [
-     "Correct entry: 10% Debentures A/c Dr. 2,00,000 Premium on Redemption of Debentures A/c Dr. 10,000 To Debentureholders A/c 2,10,000 Debentureholders A/c Dr",
-     "Cash redemption at par would require ₹2,00,000 cash outflow. Conversion issues 20,000 shares (2,000 × 10) at ₹12 each (₹10 face + ₹2 premium) = ₹2,40,000 nominal value",
-     "The treatment is correct. At issue, the company knows it must pay a redemption premium later. As per prudence (conservatism)"
-    ],
-    "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
-    "misconception": "If the student only records premium on issue and ignores redemption premium, they understate liabilities and overstate profit.",
-    "id": "gen_c12_acc_ch06_q16",
-    "nodeId": "c12_acc_cbse_06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A company issues debentures at a discount of 5%. The accountant debits \"Loss on Issue of Debentures A/c\" instead of \"Discount on Issue of Debentures A/c\". Is this correct? Explain why or why not.",
-    "answer": "No, it is not correct. \"Discount on Issue of Debentures\" and \"Loss on Issue of Debentures\" are different",
-    "options": [
-     "Scenario: 1,000 debentures of ₹100 each purchased at ₹105. Entries: Debit 10% Debentures A/c ₹1,00,000; Debit Loss on Cancellation A/c ₹5,000; Credit Own Debentures A/c ₹1,05,000",
-     "The entry incorrectly debits Bank A/c — no cash is received when debentures are issued as collateral security",
-     "No, it is not correct. \"Discount on Issue of Debentures\" and \"Loss on Issue of Debentures\" are different"
-    ],
-    "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it is not correct. \"Discount on Issue of Debentures\" and \"Loss on Issue of Debentures\" are different.",
-    "id": "gen_c12_acc_ch06_q17",
-    "nodeId": "c12_acc_cbse_06_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the Balance Sheet presentation (as per Schedule III) of: (a) Premium on issue of debentures, (b) Discount on issue of debentures, (c) Premium on redemption of debentures. Explain why they appear under different heads.",
-    "answer": "(a) Premium on issue → Credited to Securities Premium Reserve → Shown under Shareholders' Funds → Reserves and Surplus (liability side)",
-    "options": [
-     "Correct analysis: The two pairs classify on DIFFERENT bases — Security (charge on assets) vs Priority (order of repayment among debentures)",
-     "Debentures issued for cash create a new liability and bring in funds; debentures issued as collateral security do not create a new liability (unless default occurs) and do not",
-     "(a) Premium on issue → Credited to Securities Premium Reserve → Shown under Shareholders' Funds → Reserves and Surplus (liability side)"
-    ],
-    "hint": "Straight from the 'Issue of debentures' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (a) Premium on issue → Credited to Securities Premium Reserve → Shown under Shareholders' Funds → Reserves and Surplus",
-    "id": "gen_c12_acc_ch06_q18",
-    "nodeId": "c12_acc_cbse_06_002",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about debenture?",
+    "What surprised you about a debenture is a written instrument?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Debenture mastered! 🎯",
+  "successLine": "A Debenture Is a Written mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1414,7 +1821,7 @@ export const C12_ACC_GEN: SimDef[] = [
      "(1) Flawed premise — the base year is not normal, because the one-time gain on selling a factory makes that year's net profit abnormally high, (2) Misread trend",
      "Compliant but potentially misleading. Schedule III *requires* reclassification when a long-term borrowing's maturity falls within 12 months"
     ],
-    "hint": "Straight from the 'The Balance Sheet of a' slide -- match the key terms.",
+    "hint": "Straight from the 'The Balance Sheet of a Company' slide -- match the key terms.",
     "misconception": "A wrong answer reveals misunderstanding of: (a) mandatory reclassification rules, (b) Current Ratio mechanics, (c) ethical implications of classification timing.",
     "id": "gen_c12_acc_ch07_q2",
     "nodeId": "c12_acc_cbse_07_002",
@@ -1729,7 +2136,7 @@ export const C12_ACC_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Financial Statements Of a mastered! 🎯",
+  "successLine": "Financial Statements mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

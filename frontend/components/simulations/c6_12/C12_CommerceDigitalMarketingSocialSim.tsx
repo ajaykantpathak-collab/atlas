@@ -1272,13 +1272,13 @@ function C12_CommerceDigitalMarketingSocialSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-purple-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">
+              <span className="text-xs font-bold tracking-wider px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-400 border border-gold-500/30">
                 ISC CLASS 12 COMMERCE
               </span>
               <span className="text-xs text-slate-400 font-mono">NEP 2020 / CISCE 2026</span>
@@ -1301,7 +1301,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
-                : 'bg-indigo-500/10 text-indigo-400 border-indigo-500/30'
+                : 'bg-gold-500/10 text-gold-400 border-gold-500/30'
             }`}
           >
             {difficulty} TIER
@@ -1316,9 +1316,9 @@ function C12_CommerceDigitalMarketingSocialSim({
         {/* ========================================================= */}
         {phase === 'discovery' && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 border border-indigo-800/60 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
-                <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 border border-gold-800/60 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
+                <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
                 D2C MARKET SCENARIO
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
@@ -1368,9 +1368,9 @@ function C12_CommerceDigitalMarketingSocialSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-4 p-4 rounded-xl bg-indigo-950/40 border border-indigo-700/50 flex flex-col sm:flex-row items-center justify-between gap-4"
+                  className="mt-4 p-4 rounded-xl bg-gold-950/40 border border-gold-700/50 flex flex-col sm:flex-row items-center justify-between gap-4"
                 >
-                  <p className="text-xs sm:text-sm text-indigo-200">
+                  <p className="text-xs sm:text-sm text-gold-200">
                     {discoveryCorrect
                       ? '🎯 Perfect Intuition! Discover how parasocial trust contrasts with celebrity endorsements in Lab 1.'
                       : `💡 Key Insight: ${DISCOVERY_QUESTION.hintAfter}`}
@@ -1379,7 +1379,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 text-sm whitespace-nowrap"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 text-sm whitespace-nowrap"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1407,7 +1407,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg shadow-indigo-600/30'
+                      ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-600/30'
                       : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                   }`}
                 >
@@ -1427,7 +1427,7 @@ function C12_CommerceDigitalMarketingSocialSim({
               >
                 <div>
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-extrabold text-indigo-400 tracking-wider uppercase">
+                    <span className="text-xs font-extrabold text-gold-400 tracking-wider uppercase">
                       Interactive Simulation Lab {currentSlide + 1} of 5
                     </span>
                     <span className="text-xs text-slate-400 font-mono">ISC NODE: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
@@ -1493,13 +1493,13 @@ function C12_CommerceDigitalMarketingSocialSim({
                         onClick={() => handleToggleEndorser('celebrity')}
                         className={`flex-1 p-4 rounded-2xl border text-left transition-all ${
                           selectedEndorserType === 'celebrity'
-                            ? 'bg-indigo-950/80 border-indigo-500 shadow-lg shadow-indigo-950'
+                            ? 'bg-gold-950/80 border-gold-500 shadow-lg shadow-gold-950'
                             : 'bg-slate-950 border-slate-800 opacity-60'
                         }`}
                       >
                         <div className="text-lg">🎬 Film Star / Cricketer</div>
                         <div className="text-xs text-slate-400 mt-1 font-mono">Shah Rukh Khan for Lux • ₹5–₹10 Crore/yr</div>
-                        <div className="text-xs text-indigo-300 mt-2 font-semibold">Broad Reach • Shallow Parasocial Trust</div>
+                        <div className="text-xs text-gold-300 mt-2 font-semibold">Broad Reach • Shallow Parasocial Trust</div>
                       </motion.button>
 
                       <motion.button
@@ -1523,7 +1523,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       <div className="space-y-2">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">Parasocial Trust Level</span>
-                          <span className="text-indigo-300 font-bold">
+                          <span className="text-gold-300 font-bold">
                             {selectedEndorserType === 'influencer' ? '92% (High / Peer)' : '28% (Commercial)'}
                           </span>
                         </div>
@@ -1531,7 +1531,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                           <motion.div
                             animate={{ width: selectedEndorserType === 'influencer' ? '92%' : '28%' }}
                             className={`h-full rounded-full ${
-                              selectedEndorserType === 'influencer' ? 'bg-purple-500' : 'bg-indigo-500'
+                              selectedEndorserType === 'influencer' ? 'bg-purple-500' : 'bg-gold-500'
                             }`}
                           />
                         </div>
@@ -1631,7 +1631,7 @@ function C12_CommerceDigitalMarketingSocialSim({
 
                     {/* Predict-Then-Check Container */}
                     {!predictionMade && (
-                      <div className="p-4 rounded-2xl bg-indigo-950/50 border border-indigo-700/60 space-y-3">
+                      <div className="p-4 rounded-2xl bg-gold-950/50 border border-gold-700/60 space-y-3">
                         <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">
                           🔬 Predict Before Simulating:
                         </span>
@@ -1663,7 +1663,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       <div className="flex flex-wrap items-center justify-between gap-2">
                         <div className="flex items-center gap-4">
                           <span className="text-xs text-slate-400 font-mono">
-                            Stage: <strong className="text-indigo-400 text-sm">{currentPlcStage.name}</strong>
+                            Stage: <strong className="text-gold-400 text-sm">{currentPlcStage.name}</strong>
                           </span>
                           <span className="text-xs text-slate-400 font-mono">
                             Buyers: <strong className="text-emerald-400">{currentPlcStage.buyers}</strong>
@@ -1736,7 +1736,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                           value={plcTimeIndex}
                           onChange={(e) => setPlcTimeIndex(Number(e.target.value))}
                           aria-label="PLC Time Slider"
-                          className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                          className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                         />
                       </div>
                     </div>
@@ -1799,7 +1799,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                             key={idx}
                             className={`p-4 rounded-xl border transition-all ${
                               selectedGatekeeperCase === idx
-                                ? 'bg-indigo-950/60 border-indigo-500'
+                                ? 'bg-gold-950/60 border-gold-500'
                                 : 'bg-slate-900 border-slate-800'
                             }`}
                           >
@@ -1832,7 +1832,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                         <motion.div
                           initial={{ opacity: 0, y: 5 }}
                           animate={{ opacity: 1, y: 0 }}
-                          className="p-3 rounded-xl bg-slate-900 border border-indigo-500/40 text-xs sm:text-sm text-indigo-200"
+                          className="p-3 rounded-xl bg-slate-900 border border-gold-500/40 text-xs sm:text-sm text-gold-200"
                         >
                           {gatekeeperFeedback}
                         </motion.div>
@@ -1873,7 +1873,7 @@ function C12_CommerceDigitalMarketingSocialSim({
 
                     {/* Predict-Then-Check Container */}
                     {!predictionMade && (
-                      <div className="p-4 rounded-2xl bg-indigo-950/50 border border-indigo-700/60 space-y-3">
+                      <div className="p-4 rounded-2xl bg-gold-950/50 border border-gold-700/60 space-y-3">
                         <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">
                           🔬 Predict Before Simulating:
                         </span>
@@ -1907,7 +1907,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                         <div className="text-right">
                           <span className="text-xs font-mono text-slate-400">CPA 2019 / Rule 21 Thresholds</span>
                           <div className="text-xs font-semibold text-emerald-400">District: Up to ₹1 Cr</div>
-                          <div className="text-xs font-semibold text-indigo-400">State: ₹1 Cr – ₹10 Cr</div>
+                          <div className="text-xs font-semibold text-gold-400">State: ₹1 Cr – ₹10 Cr</div>
                           <div className="text-xs font-semibold text-rose-400">National: Above ₹10 Cr</div>
                         </div>
                       </div>
@@ -1921,7 +1921,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                         value={claimAmountInLakhs}
                         onChange={(e) => setClaimAmountInLakhs(Number(e.target.value))}
                         aria-label="Claim Amount Slider in Lakhs"
-                        className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                        className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                       />
 
                       {/* Animated Forum Card */}
@@ -1931,7 +1931,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                           activeJurisdiction.color === 'emerald'
                             ? 'from-emerald-950/60 to-slate-900 border-emerald-500/50'
                             : activeJurisdiction.color === 'indigo'
-                            ? 'from-indigo-950/60 to-slate-900 border-indigo-500/50'
+                            ? 'from-gold-950/60 to-slate-900 border-gold-500/50'
                             : 'from-rose-950/60 to-slate-900 border-rose-500/50'
                         } space-y-3`}
                       >
@@ -2081,7 +2081,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     setCurrentSlide((s) => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-lg shadow-indigo-600/30"
+                  className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-lg shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -2123,7 +2123,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       audioManager.play('tap');
                     }}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                      sandboxMode === 'plc' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      sandboxMode === 'plc' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     PLC Curve
@@ -2136,7 +2136,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       audioManager.play('tap');
                     }}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                      sandboxMode === 'jurisdiction' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      sandboxMode === 'jurisdiction' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Jurisdiction
@@ -2150,7 +2150,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                   <div className="space-y-4">
                     <div className="flex justify-between text-xs">
                       <span className="text-slate-400">Product Journey Stage:</span>
-                      <span className="text-indigo-300 font-bold">{currentPlcStage.name}</span>
+                      <span className="text-gold-300 font-bold">{currentPlcStage.name}</span>
                     </div>
                     <input
                       type="range"
@@ -2159,7 +2159,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       value={plcTimeIndex}
                       onChange={(e) => setPlcTimeIndex(Number(e.target.value))}
                       aria-label="PLC Sandbox Time Slider"
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                     />
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs pt-2">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -2176,7 +2176,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-500">Primary Buyers</span>
-                        <div className="text-indigo-300 font-bold text-sm mt-1">{currentPlcStage.buyers}</div>
+                        <div className="text-gold-300 font-bold text-sm mt-1">{currentPlcStage.buyers}</div>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-500">Competition</span>
@@ -2202,7 +2202,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       value={claimAmountInLakhs}
                       onChange={(e) => setClaimAmountInLakhs(Number(e.target.value))}
                       aria-label="Jurisdiction Sandbox Claim Slider"
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                     />
                     <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 flex justify-between items-center">
                       <div>
@@ -2223,7 +2223,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToChallenge}
-                  className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-extrabold rounded-2xl shadow-xl shadow-indigo-600/30 text-sm"
+                  className="px-8 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-extrabold rounded-2xl shadow-xl shadow-gold-600/30 text-sm"
                 >
                   Start Board Challenges ({filteredChallenges.length} Total) →
                 </motion.button>
@@ -2245,13 +2245,13 @@ function C12_CommerceDigitalMarketingSocialSim({
                   <strong className="text-white">{filteredChallenges.length}</strong>
                 </span>
                 <span className="text-xs font-mono px-2 py-0.5 rounded-md bg-slate-800 text-slate-300 border border-slate-700">
-                  NEP Competency: <strong className="text-indigo-400 uppercase">{challenge.competencyLevel}</strong>
+                  NEP Competency: <strong className="text-gold-400 uppercase">{challenge.competencyLevel}</strong>
                 </span>
                 <span className="text-slate-400 font-mono">Errors: {errors}</span>
               </div>
               <div className="h-2.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
                 />
@@ -2325,7 +2325,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                         whileTap={{ scale: 0.95 }}
                         role="button"
                         aria-label={`Draggable label ${item.label}`}
-                        className="px-3 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                        className="px-3 py-1.5 rounded-xl bg-gold-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                       >
                         {item.label}
                       </motion.div>
@@ -2359,7 +2359,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
-                    className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-indigo-600/30"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-gold-600/30"
                   >
                     Check Label Placements
                   </motion.button>
@@ -2412,7 +2412,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       handleAnswer(answer);
                     }}
                     disabled={showExplanation}
-                    className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-indigo-600/30"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-gold-600/30"
                   >
                     Check Sequential Order
                   </motion.button>
@@ -2429,7 +2429,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter value"
                       aria-label="Numeric answer input"
-                      className="flex-1 p-3.5 bg-slate-950 border border-slate-800 rounded-2xl text-white font-bold text-base focus:border-indigo-500 focus:outline-none"
+                      className="flex-1 p-3.5 bg-slate-950 border border-slate-800 rounded-2xl text-white font-bold text-base focus:border-gold-500 focus:outline-none"
                     />
                     <span className="self-center text-xs text-slate-400 font-mono">{challenge.unit}</span>
                     <motion.button
@@ -2439,7 +2439,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                       transition={{ duration: 0.4 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                      className="px-6 py-3.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-gold-600/30 whitespace-nowrap"
                     >
                       Submit Answer
                     </motion.button>
@@ -2473,12 +2473,12 @@ function C12_CommerceDigitalMarketingSocialSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 rounded-xl bg-indigo-900/60 border border-indigo-500 text-indigo-200 text-xs font-bold flex items-center gap-2"
+                        className="px-3 py-1 rounded-xl bg-gold-900/60 border border-gold-500 text-gold-200 text-xs font-bold flex items-center gap-2"
                       >
                         <span>{part}</span>
                         <button
                           onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
-                          className="text-indigo-400 hover:text-white"
+                          className="text-gold-400 hover:text-white"
                         >
                           ✕
                         </button>
@@ -2496,7 +2496,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(constructParts.join(' + '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-indigo-600/30"
+                    className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-2xl text-xs shadow-lg shadow-gold-600/30"
                   >
                     Validate Statutory Construction
                   </motion.button>
@@ -2593,7 +2593,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                 <div className="w-px h-10 bg-slate-800 self-center" />
                 <div>
                   <div className="text-slate-400 text-xs font-mono">BKT MASTERY LEVEL</div>
-                  <div className="text-3xl font-black text-indigo-400 uppercase">{masteryLevel}</div>
+                  <div className="text-3xl font-black text-gold-400 uppercase">{masteryLevel}</div>
                 </div>
               </div>
 
@@ -2623,7 +2623,7 @@ function C12_CommerceDigitalMarketingSocialSim({
             </div>
 
             {/* SPACED REPETITION (SRS) SCHEDULE CARD */}
-            <div className="p-6 rounded-3xl bg-indigo-950/50 border border-indigo-500/40 space-y-3">
+            <div className="p-6 rounded-3xl bg-gold-950/50 border border-gold-500/40 space-y-3">
               <div className="flex items-center justify-between flex-wrap gap-2">
                 <h3 className="text-sm font-bold text-amber-400 uppercase tracking-wider flex items-center gap-2">
                   <span>📅</span> Spaced Repetition Schedule (SM-2 SRS)
@@ -2643,7 +2643,7 @@ function C12_CommerceDigitalMarketingSocialSim({
 
             {/* REFLECTION SECTION */}
             <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 space-y-4 shadow-xl">
-              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
                 <span>💭</span> Post-Simulation Deep Reflection
               </h3>
               
@@ -2657,7 +2657,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     onChange={(e) => setReflections({ ...reflections, surprising: e.target.value })}
                     placeholder="e.g., How parasocial trust in micro-influencers works, or the ₹1 Crore District limit..."
                     rows={2}
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2670,7 +2670,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     onChange={(e) => setReflections({ ...reflections, explain: e.target.value })}
                     placeholder="e.g., Explain why #ad tags are legally required or how products go through life stages..."
                     rows={2}
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
 
@@ -2683,7 +2683,7 @@ function C12_CommerceDigitalMarketingSocialSim({
                     onChange={(e) => setReflections({ ...reflections, realLife: e.target.value })}
                     placeholder="e.g., Filing a dispute on e-Daakhil, creating a marketing plan, spotting surrogate ads..."
                     rows={2}
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   />
                 </div>
               </div>
@@ -2711,15 +2711,15 @@ function C12_CommerceDigitalMarketingSocialSim({
             )}
 
             {/* Real World Boardroom Activity */}
-            <div className="p-6 rounded-3xl bg-indigo-950/40 border border-indigo-800/60 space-y-3">
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+            <div className="p-6 rounded-3xl bg-gold-950/40 border border-gold-800/60 space-y-3">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                 💼 Real-World Application: {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                    <strong className="text-indigo-400">{i + 1}.</strong> {step}
+                    <strong className="text-gold-400">{i + 1}.</strong> {step}
                   </div>
                 ))}
               </div>

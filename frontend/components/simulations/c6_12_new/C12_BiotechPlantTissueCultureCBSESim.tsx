@@ -903,8 +903,8 @@ const AuxinCytokininLab: React.FC<{
         {/* Cytokinin Controls */}
         <div className="space-y-3">
           <div className="flex justify-between items-center">
-            <label className="text-sm font-semibold text-cyan-300">Cytokinin Concentration (BAP / Kinetin):</label>
-            <span className="text-lg font-bold text-cyan-400 font-mono">{cytokinin.toFixed(2)} mg/L</span>
+            <label className="text-sm font-semibold text-gold-300">Cytokinin Concentration (BAP / Kinetin):</label>
+            <span className="text-lg font-bold text-gold-400 font-mono">{cytokinin.toFixed(2)} mg/L</span>
           </div>
           <input
             type="range"
@@ -916,7 +916,7 @@ const AuxinCytokininLab: React.FC<{
               setCytokinin(parseFloat(e.target.value));
               audioManager.play('pop');
             }}
-            className="w-full accent-cyan-500 bg-slate-700 rounded-lg cursor-pointer h-2"
+            className="w-full accent-gold-500 bg-slate-700 rounded-lg cursor-pointer h-2"
           />
           <div className="flex justify-between text-xs text-slate-400 font-mono">
             <span>0.00 mg/L (None)</span>
@@ -944,7 +944,7 @@ const AuxinCytokininLab: React.FC<{
             setCytokinin(2.5);
             audioManager.play('chime');
           }}
-          className="px-4 py-2 bg-cyan-900/60 hover:bg-cyan-800 text-cyan-200 border border-cyan-600/40 rounded-xl text-xs font-semibold transition"
+          className="px-4 py-2 bg-gold-900/60 hover:bg-gold-800 text-gold-200 border border-gold-600/40 rounded-xl text-xs font-semibold transition"
         >
           Preset: Caulogenesis (Shooting: Cytokinin High)
         </button>
@@ -996,10 +996,10 @@ const AsepticSterilizationLab: React.FC = () => {
     <div className="bg-slate-800/90 rounded-2xl p-6 border border-slate-700 shadow-2xl space-y-6">
       <div className="flex justify-between items-center border-b border-slate-700 pb-4">
         <div>
-          <h3 className="text-xl font-bold text-cyan-400 font-mono">LAB 2: Aseptic Surface Sterilization Protocol</h3>
+          <h3 className="text-xl font-bold text-gold-400 font-mono">LAB 2: Aseptic Surface Sterilization Protocol</h3>
           <p className="text-sm text-slate-300">Sterilize explants without damaging plant tissue viability.</p>
         </div>
-        <span className="px-3 py-1 bg-cyan-950 border border-cyan-600/50 rounded-full text-xs text-cyan-300 font-semibold">
+        <span className="px-3 py-1 bg-gold-950 border border-gold-600/50 rounded-full text-xs text-gold-300 font-semibold">
           Node: c12_bt_cbse_451
         </span>
       </div>
@@ -1015,7 +1015,7 @@ const AsepticSterilizationLab: React.FC = () => {
             }}
             className={`p-3 rounded-xl border text-left transition ${
               stepIndex === idx
-                ? 'bg-cyan-900/80 border-cyan-400 text-white shadow-lg'
+                ? 'bg-gold-900/80 border-gold-400 text-white shadow-lg'
                 : 'bg-slate-900/60 border-slate-700 text-slate-400 hover:border-slate-500'
             }`}
           >
@@ -1033,7 +1033,7 @@ const AsepticSterilizationLab: React.FC = () => {
           <div className="space-y-2 pt-2 border-t border-slate-800">
             <div className="flex justify-between text-sm text-slate-300">
               <span>Sterilant Exposure Time (NaOCl):</span>
-              <span className="font-bold text-cyan-400 font-mono">{bleachTime} min</span>
+              <span className="font-bold text-gold-400 font-mono">{bleachTime} min</span>
             </div>
             <input
               type="range"
@@ -1041,7 +1041,7 @@ const AsepticSterilizationLab: React.FC = () => {
               max="25"
               value={bleachTime}
               onChange={(e) => setBleachTime(parseInt(e.target.value))}
-              className="w-full accent-cyan-400 bg-slate-700 h-2 rounded-lg"
+              className="w-full accent-gold-400 bg-slate-700 h-2 rounded-lg"
             />
             <p className="text-xs text-slate-400">
               Optimal exposure is 10–12 mins. Under-exposure leads to bacterial contamination; over-exposure leads to chemical bleaching/tissue necrosis.
@@ -1135,7 +1135,7 @@ const ProtoplastFusionLab: React.FC = () => {
             className={`px-5 py-2.5 rounded-xl text-xs font-bold transition shadow-lg ${
               stage >= 4
                 ? 'bg-slate-700 text-slate-500 cursor-not-allowed'
-                : 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white'
+                : 'bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white'
             }`}
           >
             {stage === 1 ? 'Step 1: Add Cellulase/Pectinase' : stage === 2 ? 'Step 2: Add 40% PEG Fusogen' : stage === 3 ? 'Step 3: Induce Nuclear Fusion' : 'Hybrid Complete!'}
@@ -1171,10 +1171,10 @@ const SyntheticSeedMeristemLab: React.FC = () => {
     <div className="bg-slate-800/90 rounded-2xl p-6 border border-slate-700 shadow-2xl space-y-6">
       <div className="flex justify-between items-center border-b border-slate-700 pb-4">
         <div>
-          <h3 className="text-xl font-bold text-sky-400 font-mono">LAB 4: Virus Elimination & Synseed Microencapsulation</h3>
+          <h3 className="text-xl font-bold text-gold-400 font-mono">LAB 4: Virus Elimination & Synseed Microencapsulation</h3>
           <p className="text-sm text-slate-300">Isolate virus-free meristem domes and encapsulate somatic embryos in calcium alginate.</p>
         </div>
-        <span className="px-3 py-1 bg-sky-950 border border-sky-600/50 rounded-full text-xs text-sky-300 font-semibold">
+        <span className="px-3 py-1 bg-gold-950 border border-gold-600/50 rounded-full text-xs text-gold-300 font-semibold">
           Node: c12_bt_cbse_452 & 456
         </span>
       </div>
@@ -1184,11 +1184,11 @@ const SyntheticSeedMeristemLab: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Meristem Section */}
         <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 space-y-3">
-          <h4 className="text-sm font-bold text-sky-300">Part A: Meristem Tip Isolation</h4>
+          <h4 className="text-sm font-bold text-gold-300">Part A: Meristem Tip Isolation</h4>
           <div className="space-y-1">
             <div className="flex justify-between text-xs text-slate-300">
               <span>Excised Meristem Dome Size:</span>
-              <span className="font-mono font-bold text-sky-400">{meristemSize.toFixed(2)} mm</span>
+              <span className="font-mono font-bold text-gold-400">{meristemSize.toFixed(2)} mm</span>
             </div>
             <input
               type="range"
@@ -1197,7 +1197,7 @@ const SyntheticSeedMeristemLab: React.FC = () => {
               step="0.1"
               value={meristemSize}
               onChange={(e) => setMeristemSize(parseFloat(e.target.value))}
-              className="w-full accent-sky-400 bg-slate-700 h-2 rounded-lg"
+              className="w-full accent-gold-400 bg-slate-700 h-2 rounded-lg"
             />
           </div>
           <div className="p-3 bg-slate-800/80 rounded-lg text-xs flex justify-between items-center border border-slate-700">
@@ -1211,7 +1211,7 @@ const SyntheticSeedMeristemLab: React.FC = () => {
         {/* Encapsulation Section */}
         <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 space-y-3 flex flex-col justify-between">
           <div>
-            <h4 className="text-sm font-bold text-sky-300">Part B: Artificial Synthetic Seed Production</h4>
+            <h4 className="text-sm font-bold text-gold-300">Part B: Artificial Synthetic Seed Production</h4>
             <p className="text-xs text-slate-400 mt-1">
               Dispense somatic embryos suspended in 3% Na-Alginate dropwise into 100 mM CaCl2 solution.
             </p>
@@ -1219,13 +1219,13 @@ const SyntheticSeedMeristemLab: React.FC = () => {
           <div className="flex items-center justify-between">
             <button
               onClick={handleEncapsulate}
-              className="px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-bold transition shadow-lg"
+              className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold transition shadow-lg"
             >
               + Drop Encapsulated Synseed
             </button>
             <div className="text-right">
               <span className="text-xs text-slate-400">Total Synseeds Batch:</span>
-              <div className="text-2xl font-bold font-mono text-sky-400">{encapsulatedCount}</div>
+              <div className="text-2xl font-bold font-mono text-gold-400">{encapsulatedCount}</div>
             </div>
           </div>
         </div>
@@ -1561,7 +1561,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
           </div>
           <div className="text-right">
             <div className="text-xs text-slate-400 font-medium">Sim Score</div>
-            <div className="text-lg font-mono font-bold text-cyan-400">{score} pts</div>
+            <div className="text-lg font-mono font-bold text-gold-400">{score} pts</div>
           </div>
           <div className="flex gap-2">
             <button
@@ -1576,7 +1576,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
             <button
               onClick={() => setSpeechEnabled(!speechEnabled)}
               className={`p-2 rounded-xl border transition text-xs ${
-                speechEnabled ? 'bg-slate-800 text-cyan-400 border-cyan-600/40' : 'bg-slate-900 text-slate-500 border-slate-800'
+                speechEnabled ? 'bg-slate-800 text-gold-400 border-gold-600/40' : 'bg-slate-900 text-slate-500 border-slate-800'
               }`}
               title="Toggle Voice Explanations"
             >
@@ -1653,7 +1653,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
         {activeTab === 'discovery' && (
           <div className="space-y-8 animate-fadeIn">
             {/* Context & Narrative Banner */}
-            <div className="bg-gradient-to-r from-emerald-950 via-slate-900 to-cyan-950 p-6 rounded-3xl border border-emerald-600/30 shadow-2xl">
+            <div className="bg-gradient-to-r from-emerald-950 via-slate-900 to-gold-950 p-6 rounded-3xl border border-emerald-600/30 shadow-2xl">
               <h2 className="text-xl font-bold text-emerald-400 font-mono mb-2">Scenario & Objectives</h2>
               <p className="text-slate-200 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-xs leading-relaxed">{SCENARIO.context}</p>
@@ -1701,11 +1701,11 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
 
             {/* Render Prediction Questions section as requested */}
             <div className="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-6">
-              <h3 className="text-lg font-bold text-cyan-400 font-mono">Prediction Hypotheses & Lab Verification</h3>
+              <h3 className="text-lg font-bold text-gold-400 font-mono">Prediction Hypotheses & Lab Verification</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {PREDICTION_QUESTIONS.map((pq, idx) => (
                   <div key={idx} className="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-3">
-                    <span className="px-2.5 py-0.5 bg-sky-950 border border-sky-600/40 rounded-full text-xs text-sky-400 font-mono">
+                    <span className="px-2.5 py-0.5 bg-gold-950 border border-gold-600/40 rounded-full text-xs text-gold-400 font-mono">
                       Prediction #{idx + 1}
                     </span>
                     <h4 className="text-sm font-semibold text-slate-200">{pq.question}</h4>
@@ -1723,7 +1723,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
                         </div>
                       ))}
                     </div>
-                    <p className="text-xs text-sky-300 font-mono bg-sky-950/30 p-2.5 rounded-xl border border-sky-800/40">
+                    <p className="text-xs text-gold-300 font-mono bg-gold-950/30 p-2.5 rounded-xl border border-gold-800/40">
                       🔍 Lab Verification: {pq.verifyInstruction}
                     </p>
                   </div>
@@ -1822,7 +1822,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
                       currentChal.difficulty === 'foundation'
                         ? 'bg-emerald-950 text-emerald-400 border border-emerald-600'
                         : currentChal.difficulty === 'standard'
-                        ? 'bg-cyan-950 text-cyan-400 border border-cyan-600'
+                        ? 'bg-gold-950 text-gold-400 border border-gold-600'
                         : 'bg-purple-950 text-purple-400 border border-purple-600'
                     }`}
                   >
@@ -1910,7 +1910,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
                 ) : (
                   <button
                     onClick={handleNextChallenge}
-                    className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-2xl text-sm font-bold shadow-lg shadow-cyan-900/40 transition"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl text-sm font-bold shadow-lg shadow-gold-900/40 transition"
                   >
                     Next Challenge →
                   </button>
@@ -1982,7 +1982,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
                 ) : (
                   <button
                     onClick={handleNextDiagnostic}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold transition shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold transition shadow-lg"
                   >
                     Continue Quiz →
                   </button>
@@ -2046,7 +2046,7 @@ export const C12_BiotechPlantTissueCultureCBSESim: React.FC<C12_BiotechPlantTiss
 
             {/* 32 Node Graph Mastery Breakdown */}
             <div className="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
-              <h3 className="text-lg font-bold text-cyan-400 font-mono">Curriculum Node Graph BKT Tracker</h3>
+              <h3 className="text-lg font-bold text-gold-400 font-mono">Curriculum Node Graph BKT Tracker</h3>
               <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2 text-center">
                 {ALL_NODE_IDS.map((nodeId, idx) => {
                   const pMastery = masteryProb(bktMap[nodeId]);

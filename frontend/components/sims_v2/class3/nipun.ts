@@ -9,7 +9,7 @@ export const c3Riddles: SimDef = {
     id: 'c3_riddles', title: 'Riddle Castle', subtitle: 'Every clue unlocks a number!',
     classLevel: 3, subject: 'maths', topic: 'Riddles & Logical Reasoning',
     chapters: ['NIPUN Lakshya 3NE6: riddles with numbers, shapes, patterns'],
-    emoji: '🏰', theme: { bg: 'from-indigo-100 to-violet-200', accent: 'indigo', scene: 'riddles' },
+    emoji: '🏰', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'riddles' },
     scenario: { role: "a castle detective", intro: "The castle gates open only when every riddle is solved!", goal: "Solve all the gate riddles." },
     discovery: {
         question: "I am 3 more than 7 and 2 less than 12. Who am I?",
@@ -18,11 +18,11 @@ export const c3Riddles: SimDef = {
         hook: "7+3=10 AND 12−2=10 — both clues agree on 10!",
     },
     teaching: [
-        { title: 'Multi-Clue Riddles 🏰', text: 'Big riddles have 2 or 3 clues. A number must pass EVERY clue to win!', emoji: '🏰', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Multi-Clue Riddles 🏰', text: 'Big riddles have 2 or 3 clues. A number must pass EVERY clue to win!', emoji: '🏰', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Times-Table Clues ✖️', text: '"I am in the 4 times table" means 4, 8, 12, 16... Know your tables to catch these!', emoji: '✖️', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Digit Clues 🔢', text: '"My tens digit is 4, ones digit is 7" — build it: 4 tens + 7 ones = 47!', emoji: '🔢', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Shape Riddles 🔺', text: '"I have 4 sides, only opposite sides equal" — rectangle! Listen for corners, sides, edges!', emoji: '🔺', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Cross-Check ✔️', text: 'Found a candidate? Test it against EVERY clue before you shout the answer!', emoji: '✔️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Cross-Check ✔️', text: 'Found a candidate? Test it against EVERY clue before you shout the answer!', emoji: '✔️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: 'jump', prompt: 'Hop along the number line to test your riddle answers!' },
         generate: { kind: 'add,sub', count: 3, level: 3 },
@@ -71,8 +71,8 @@ export const c3Fractions: SimDef = {
         { title: 'Equal Parts Only! 🍕', text: 'Fractions only count when parts are EQUAL. Half = 1 of 2 equal parts. Two big + two small is NOT halves!', emoji: '🍕', bgColor: 'from-red-400 to-orange-500' },
         { title: '½ — One Half 🟰', text: '½ means 1 part out of 2 equal parts. One banana of two? That is ½!', emoji: '🟰', bgColor: 'from-amber-400 to-yellow-500' },
         { title: '¼ — One Quarter 🍀', text: '¼ means 1 part out of 4 equal parts. Fold a roti twice — each piece is ¼!', emoji: '🍀', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: '⅓ — One Third 🥧', text: '⅓ means 1 part out of 3 equal parts. A pizza cut into 3 equal slices gives ⅓ each!', emoji: '🥧', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Bottom Counts Parts 🔢', text: 'The bottom number tells HOW MANY equal parts: ½=2 parts, ⅓=3, ¼=4!', emoji: '🔢', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: '⅓ — One Third 🥧', text: '⅓ means 1 part out of 3 equal parts. A pizza cut into 3 equal slices gives ⅓ each!', emoji: '🥧', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Bottom Counts Parts 🔢', text: 'The bottom number tells HOW MANY equal parts: ½=2 parts, ⅓=3, ¼=4!', emoji: '🔢', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: 'fraction', prompt: 'Cut and shade the fraction lab — make ½, ¼, ⅓!' },
     predict: {
@@ -127,8 +127,8 @@ export const c3EngNouns: SimDef = {
     teaching: [
         { title: 'Naming Words 🔎', text: 'A noun NAMES a person, place, animal, or thing. Dog, school, mother, pencil — all nouns!', emoji: '🔎', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Four Families 👨‍👩‍👧', text: 'Person (teacher), Place (park), Animal (cow), Thing (ball). Every noun joins one family!', emoji: '👨‍👩‍👧', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Special Names Get Capitals 🎩', text: 'Ram, Delhi, Monday are SPECIAL names — proper nouns — they always get capital letters!', emoji: '🎩', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Common vs Proper ⚖️', text: '"boy" is common (any boy); "Ravi" is proper (one special boy). Common = small letter, proper = capital!', emoji: '⚖️', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Special Names Get Capitals 🎩', text: 'Ram, Delhi, Monday are SPECIAL names — proper nouns — they always get capital letters!', emoji: '🎩', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Common vs Proper ⚖️', text: '"boy" is common (any boy); "Ravi" is proper (one special boy). Common = small letter, proper = capital!', emoji: '⚖️', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'match', prompt: 'Match each noun to its family!', labels: ['teacher', 'person', 'park', 'place', 'cow', 'animal', 'ball', 'thing'] },
     challenges: [

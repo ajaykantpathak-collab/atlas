@@ -118,11 +118,11 @@ export function C11_GeographyStructurePhysiographySim() {
             ))}
             <div className="grid grid-cols-2 gap-2 pt-1">
               <button onClick={() => setDrainage(drainage === 'perennial' ? 'seasonal' : 'perennial')}
-                className="min-h-11 rounded-xl text-xs font-bold bg-sky-700 hover:bg-sky-600">
+                className="min-h-11 rounded-xl text-xs font-bold bg-gold-700 hover:bg-gold-600">
                 River: {drainage === 'perennial' ? 'glacier-fed' : 'monsoon-fed'}
               </button>
               <button onClick={() => setCrossOn(!crossOn)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${crossOn ? 'bg-indigo-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${crossOn ? 'bg-gold-600 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Cross-section
               </button>
             </div>

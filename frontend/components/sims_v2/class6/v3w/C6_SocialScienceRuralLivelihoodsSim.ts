@@ -11,7 +11,7 @@ export const w_c6_socialsciencerurallivelihoodssim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'What is Grassroots Democracy?',
     chapters: [],
     nodeIds: ['c6_civics_ch12_015', 'c6_civics_ch12_020', 'c6_civics_ch12_018', 'c6_civics_ch12_019', 'c6_history_ch09_038'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine your school playground has a broken fence that makes it unsafe for students to play.', goal: 'Master What is Grassroots Democracy?.' },
     discovery: {
         question: 'Why is it better for a village to decide on fixing a local road rather than waiting for the national government?',
@@ -20,7 +20,7 @@ export const w_c6_socialsciencerurallivelihoodssim: SimDef = {
         hook: 'Students often think that "Grassroots Democracy" is just about voting for leaders once every five years.',
     },
     teaching: [
-        { title: 'Grassroots democracy is a system where.', text: 'Grassroots democracy is a system where governance happens at the local level, allowing ordinary citizens to directly participate in making decisions about their own daily needs like water, roads, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Grassroots democracy is a system where.', text: 'Grassroots democracy is a system where governance happens at the local level, allowing ordinary citizens to directly participate in making decisions about their own daily needs like water, roads, and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_civics_ch12_015', title: 'Grassroots democracy is a system where.',

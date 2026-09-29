@@ -37,11 +37,11 @@ export function C8_MathematicsQuadrilateralsSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Quadrilaterals: The Shear Machine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Quadrilaterals: The Shear Machine</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Family portrait:</span> slide the shear
+          <span className="font-bold text-gold-700">Family portrait:</span> slide the shear
           control to push the top edge sideways. Opposite sides stay parallel and equal (that is
           what makes it a parallelogram), the slanted side grows, but area = base x height refuses
           to change - shear preserves area because the base and the height never move.
@@ -51,8 +51,8 @@ export function C8_MathematicsQuadrilateralsSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Base (units of 10 px)</span><span className="font-mono text-indigo-600">{base / 10}</span></label>
-            <input type="range" min={60} max={240} step={10} value={base} aria-label="base" onChange={(e) => setBase(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Base (units of 10 px)</span><span className="font-mono text-gold-600">{base / 10}</span></label>
+            <input type="range" min={60} max={240} step={10} value={base} aria-label="base" onChange={(e) => setBase(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Height</span><span className="font-mono text-emerald-600">{height / 10}</span></label>
@@ -63,7 +63,7 @@ export function C8_MathematicsQuadrilateralsSim() {
             <input type="range" min={0} max={150} step={5} value={shear} aria-label="shear" onChange={(e) => setShear(Number(e.target.value))} className="w-full mt-1 accent-amber-600" />
           </div>
           <div className="flex gap-2">
-            <button onClick={() => setShear(0)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+            <button onClick={() => setShear(0)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
               Snap to rectangle
             </button>
             <button
@@ -74,14 +74,14 @@ export function C8_MathematicsQuadrilateralsSim() {
             </button>
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div>slanted side = sqrt({shearClamped / 10}^2 + {height / 10}^2) = <span className="text-indigo-700 font-bold">{side}</span></div>
+            <div>slanted side = sqrt({shearClamped / 10}^2 + {height / 10}^2) = <span className="text-gold-700 font-bold">{side}</span></div>
             <div>area = base x height = {(base / 10) * (height / 10)} square units</div>
             <div>perimeter = 2 x ({base / 10} + {side}) = {perimeter}</div>
             <div className="mt-1 text-xs text-slate-500">acute corner angle = {angleDeg} deg</div>
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 340 260" className="w-full">
             {/* height line */}
             <line x1={x0 + shearClamped + 1} y1={yBase - height} x2={x0 + shearClamped + 1} y2={yBase} stroke="#10b981" strokeDasharray="4 3" />

@@ -11,7 +11,7 @@ export const w_c10_physicsturningeffectforcesim: SimDef = {
     classLevel: 10, subject: 'physics', topic: 'Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule)',
     chapters: [],
     nodeIds: ['c10_phy_cbse_02_003', 'c10_phy_cbse_02_008', 'c10_phy_cbse_02_009', 'c10_phy_cbse_02_004', 'c10_phy_cbse_02_001', 'c10_phy_cbse_02_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: take a circular copper wire loop (like a bangle) connected to a battery.', goal: 'Master Magnetic Field Due to a Circular Loop (Right-Hand Thumb Rule).' },
     discovery: {
         question: 'A circular coil of 50 turns and area 0.02 m² is placed perpendicular to a uniform magnetic field of 0.5 T. The field is reduced to zero uniformly in 0.1 s.',
@@ -20,7 +20,7 @@ export const w_c10_physicsturningeffectforcesim: SimDef = {
         hook: 'Students think that a static magnetic field can induce a current in a stationary coil.',
     },
     teaching: [
-        { title: 'The magnetic field at the centre of a.', text: 'The magnetic field at the centre of a current-carrying circular loop is a vector quantity directed perpendicular to the plane of the loop, with magnitude given by \\( B = \\frac{\\mu_0 I}{2R} \\) for a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The magnetic field at the centre of a.', text: 'The magnetic field at the centre of a current-carrying circular loop is a vector quantity directed perpendicular to the plane of the loop, with magnitude given by \\( B = \\frac{\\mu_0 I}{2R} \\) for a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_phy_cbse_02_003', title: 'The magnetic field at the centre of a.',

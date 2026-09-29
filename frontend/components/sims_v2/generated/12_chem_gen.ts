@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C12_CHEM_GEN: SimDef[] = [
  {
   "id": "gen_c12_chem_ch01",
-  "title": "Solution",
+  "title": "A Solution Is a Homogeneous Mixture",
   "subtitle": "Chemistry · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Solution",
+  "topic": "A Solution Is a Homogeneous Mixture",
   "chapters": [
-   "Chemistry Ch1: Solution"
+   "Chemistry Ch1: A Solution Is a Homogeneous Mixture"
   ],
   "nodeIds": [
    "c12_chem_cbse_01_001",
@@ -30,7 +30,7 @@ export const C12_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Solution more about facts, or about reasoning?",
+   "question": "Is A Solution Is a Homogeneous more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -41,13 +41,13 @@ export const C12_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Solution",
+    "title": "A Solution Is a Homogeneous Mixture",
     "text": "A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits. Based on the physical states of solute and solvent, binary solutions are classified into nine types: gaseous solutions",
     "emoji": "🧪",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Solubility",
+    "title": "Solubility Is The Maximum Amount",
     "text": "Solubility is the maximum amount of solute (in grams or moles) that can dissolve in a specified amount of solvent (typically 100 g or 1 kg) at a given temperature and pressure to form a saturated solution under dynamic equilibrium between dissolution and",
     "emoji": "🧪",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -258,7 +258,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic",
      "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room"
     ],
-    "hint": "Straight from the 'solution' slide -- match the key terms.",
+    "hint": "Straight from the 'A solution is a homogeneous' slide -- match the key terms.",
     "misconception": "A poor answer such as mixing two gases in a jar lacks a practical demonstration of homogeneity and does not use observable diffusion.",
     "id": "gen_c12_chem_ch01_q4",
     "nodeId": "c12_chem_cbse_01_001",
@@ -273,7 +273,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room",
      "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic"
     ],
-    "hint": "Straight from the 'Solubility' slide -- match the key terms.",
+    "hint": "Straight from the 'Solubility is the maximum amount' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is",
     "id": "gen_c12_chem_ch01_q5",
     "nodeId": "c12_chem_cbse_01_002",
@@ -297,11 +297,11 @@ export const C12_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about solution?",
+    "What surprised you about a solution is a homogeneous mixture?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Solution mastered! 🎯",
+  "successLine": "A Solution Is a Homogeneous mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -706,7 +706,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Differential rate law: –d[R]/dt = k (or Rate = k). Integrated rate equation: [R] = [R]₀ – kt. Units of k: mol L⁻¹ s⁻¹ (concentration/time)",
      "The two criteria are: (1) the colliding molecules must have a relative kinetic energy equal to or greater than the activation energy (Ea) of the reaction"
     ],
-    "hint": "Straight from the 'Collision theory states that for a' slide -- match the key terms.",
+    "hint": "Straight from the 'Collision theory' slide -- match the key terms.",
     "misconception": "A wrong answer that mentions only energy or only orientation reveals that the student has missed the dual requirement central to collision theory.",
     "id": "gen_c12_chem_ch03_q10",
     "nodeId": "c12_chem_cbse_03_010",
@@ -1031,7 +1031,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third",
      "The statement is partially incorrect. While Group 11 elements (Cu, Ag, Au) are historically coinage metals, modern Indian coins do not use Ag/Au for circulation"
     ],
-    "hint": "Straight from the 'Transition elements  and inner' slide -- match the key terms.",
+    "hint": "Straight from the 'Transition elements and inner' slide -- match the key terms.",
     "misconception": "A student who says \"True, because they are coinage metals\" ignores the economic/practical shift to base metal alloys, showing lack of awareness of real-world currency composition.",
     "id": "gen_c12_chem_ch04_q4",
     "nodeId": "c12_chem_cbse_04_007",
@@ -1126,7 +1126,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high",
      "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third"
     ],
-    "hint": "Straight from the 'Transition elements  and inner' slide -- match the key terms.",
+    "hint": "Straight from the 'Transition elements and inner' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to",
     "id": "gen_c12_chem_ch04_q6",
     "nodeId": "c12_chem_cbse_04_007",
@@ -1170,7 +1170,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "IUPAC Nomenclature Of mastered! 🎯",
+  "successLine": "IUPAC Nomenclature mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -1180,9 +1180,9 @@ export const C12_CHEM_GEN: SimDef[] = [
   "classLevel": 12,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Preparation Of Haloalkanes From Alcohols Involves",
+  "topic": "Preparation Of Haloalkanes From Alcohols",
   "chapters": [
-   "Chemistry Ch6: Preparation Of Haloalkanes From Alcohols Involves"
+   "Chemistry Ch6: Preparation Of Haloalkanes From Alcohols"
   ],
   "nodeIds": [
    "c12_chem_cbse_06_003",
@@ -1220,7 +1220,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Haloarenes",
+    "title": "Haloarenes Are Prepared",
     "text": "Haloarenes (aryl halides) are prepared by electrophilic aromatic substitution where a hydrogen atom on the benzene ring is replaced by a halogen (Cl, Br) using halogen (Cl₂, Br₂) in the presence of a Lewis acid catalyst (FeCl₃, AlCl₃, FeBr₃) or via the",
     "emoji": "🧪",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1284,7 +1284,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "The equation is stoichiometrically balanced but incorrect for laboratory preparation because it omits the catalyst ZnCl₂ (Lucas reagent) required for primary alcohols like ethanol",
      "(a) Toluene has -CH₃ (activating, ortho/para-directing). Major: o-bromotoluene + p-bromotoluene (para often predominates due to sterics)"
     ],
-    "hint": "Straight from the 'Haloarenes' slide -- match the key terms.",
+    "hint": "Straight from the 'Haloarenes are prepared' slide -- match the key terms.",
     "misconception": "A wrong answer giving ortho/para for nitrobenzene or meta for toluene shows failure to apply activating/deactivating group directing effects from Class 11 hydrocarbons.",
     "id": "gen_c12_chem_ch06_q3",
     "nodeId": "c12_chem_cbse_06_005",
@@ -1371,7 +1371,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Cl-Cl → 2 Cl• (UV light). The single-headed arrows (fishhooks) show homolytic fission: one electron goes to each chlorine atom",
      "Iodination is reversible: C₆H₆ + I₂ ⇌ C₆H₅I + HI. HI reduces I₂ to I⁻, shifting equilibrium left. An oxidising agent (HNO₃, HIO₄) is needed to remove HI as I₂ + H₂O"
     ],
-    "hint": "Straight from the 'Haloarenes' slide -- match the key terms.",
+    "hint": "Straight from the 'Haloarenes are prepared' slide -- match the key terms.",
     "misconception": "A student who says \"use FeCl₃ like chlorination\" doesn't understand the thermodynamic limitation unique to iodine.",
     "id": "gen_c12_chem_ch06_q8",
     "nodeId": "c12_chem_cbse_06_005",
@@ -1380,7 +1380,7 @@ export const C12_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about preparation of haloalkanes from alcohols involves?",
+    "What surprised you about preparation of haloalkanes from alcohols?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1435,7 +1435,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Phenols",
+    "title": "Phenols Are Aromatic Compounds Where",
     "text": "Phenols are aromatic compounds where a hydroxyl (–OH) group is directly attached to an sp²-hybridised carbon of a benzene ring; they are prepared from diazonium salts via hydrolysis of arenediazonium chloride (ArN₂⁺Cl⁻) with warm water or dilute acid, and",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1505,7 +1505,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Step 1: Hydroboration-oxidation of styrene with (BH3)2 then H2O2/NaOH gives 2-phenylethanol directly (anti-Markovnikov, no carbocation)",
      "Arenediazonium salts are stable only at low temperatures (0–5°C). Above 283 K, the diazonium cation decomposes via SN1 pathway: C₆H₅N₂⁺ → C₆H₅⁺ + N₂"
     ],
-    "hint": "Straight from the 'Phenols' slide -- match the key terms.",
+    "hint": "Straight from the 'Phenols are aromatic compounds' slide -- match the key terms.",
     "misconception": "Students who say \"reaction becomes fast\" miss the decomposition and side-product formation.",
     "id": "gen_c12_chem_ch07_q3",
     "nodeId": "c12_chem_cbse_07_004",
@@ -1581,20 +1581,20 @@ export const C12_CHEM_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Alcohols Can Be Prepared From mastered! 🎯",
+  "successLine": "Alcohols Can Be Prepared mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
   "id": "gen_c12_chem_ch08",
-  "title": "Aldehydes",
+  "title": "Aldehydes Are Prepared By Controlled Oxidation",
   "subtitle": "Chemistry · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "chemistry",
-  "topic": "Aldehydes",
+  "topic": "Aldehydes Are Prepared By Controlled Oxidation",
   "chapters": [
-   "Chemistry Ch8: Aldehydes",
-   "Chemistry Ch9: Aldehydes"
+   "Chemistry Ch8: Aldehydes Are Prepared By Controlled Oxidation",
+   "Chemistry Ch9: Aldehydes Are Prepared By Controlled Oxidation"
   ],
   "nodeIds": [
    "c12_chem_cbse_08_001",
@@ -1613,7 +1613,7 @@ export const C12_CHEM_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Aldehydes in real working life?",
+   "question": "Who uses Aldehydes Are Prepared By in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -1624,7 +1624,7 @@ export const C12_CHEM_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Aldehydes",
+    "title": "Aldehydes Are Prepared By Controlled",
     "text": "Aldehydes are prepared by controlled oxidation or dehydrogenation of primary alcohols, while ketones are prepared by oxidation or dehydrogenation of secondary alcohols; tertiary alcohols do not yield carbonyl compounds under these conditions because they lack",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1636,7 +1636,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Ketones",
+    "title": "Ketones Are Prepared From Acyl Chlorides",
     "text": "Ketones are prepared from acyl chlorides by reaction with dialkylcadmium (R₂Cd) to avoid over-addition, and from nitriles by nucleophilic addition of a Grignard reagent (RMgX) followed by acidic hydrolysis of the resulting imine intermediate.",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1666,7 +1666,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Esterification",
+    "title": "Esterification Is The Nucleophilic Acyl",
     "text": "Esterification is the nucleophilic acyl substitution reaction where a carboxylic acid reacts with an alcohol in the presence of a strong acid catalyst (conc.",
     "emoji": "🧪",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1682,7 +1682,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1",
      "PCC (pyridinium chlorochromate) in anhydrous CH₂Cl₂ at room temperature"
     ],
-    "hint": "Straight from the 'Aldehydes' slide -- match the key terms.",
+    "hint": "Straight from the 'Aldehydes are prepared by' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: If a student writes KMnO₄ or K₂Cr₂O₇/H₂SO₄, they confuse strong oxidants (which over-oxidise primary alcohols to carboxylic acids) with selective oxidants.",
     "id": "gen_c12_chem_ch08_q1",
     "nodeId": "c12_chem_cbse_08_001",
@@ -1724,7 +1724,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis",
      "Step 1: CH₃CH₂CH₂CN + PhMgBr → CH₃CH₂CH₂C(=NMgBr)Ph (imine salt). Step 2: Hydrolysis: CH₃CH₂CH₂C(=NMgBr)Ph + H₂O/H⁺ → CH₃CH₂CH₂COPh (1-phenylpentan-1-one) + NH₄⁺ + MgBr(OH)"
     ],
-    "hint": "Straight from the 'Ketones' slide -- match the key terms.",
+    "hint": "Straight from the 'Ketones are prepared from acyl' slide -- match the key terms.",
     "misconception": "A wrong product (e.g., forgetting the phenyl group, or writing an alcohol) indicates failure to track the R group from the Grignard reagent and/or misunderstanding that hydrolysis of an imine gives a carbonyl, not an alcohol.",
     "id": "gen_c12_chem_ch08_q3",
     "nodeId": "c12_chem_cbse_08_003",
@@ -1934,7 +1934,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis",
      "Step 1: Oxidation of secondary alcohol to ketone. Reagent: K₂Cr₂O₇/H₂SO₄ (heat) or Cu/573 K (dehydrogenation)"
     ],
-    "hint": "Straight from the 'Aldehydes' slide -- match the key terms.",
+    "hint": "Straight from the 'Aldehydes are prepared by' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Oxidation of secondary alcohol to ketone. Reagent: K₂Cr₂O₇/H₂SO₄ (heat) or Cu/573 K (dehydrogenation).",
     "id": "gen_c12_chem_ch08_q9",
     "nodeId": "c12_chem_cbse_08_001",
@@ -1949,7 +1949,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "CH₃CH₂CH₂CH₃ (butane, alkane, only van der Waals) < (CH₃)₃N (trimethylamine, 3° amine, no N–H, only dipole-dipole + vdW) < (CH₃)₂NH (dimethylamine, 2° amine, one N–H",
      "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1"
     ],
-    "hint": "Straight from the 'Aldehydes' slide -- match the key terms.",
+    "hint": "Straight from the 'Aldehydes are prepared by' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: Students often forget to balance the redox half-reactions, writing only the organic transformation.",
     "id": "gen_c12_chem_ch08_q10",
     "nodeId": "c12_chem_cbse_08_001",
@@ -1964,7 +1964,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1",
      "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis"
     ],
-    "hint": "Straight from the 'Ketones' slide -- match the key terms.",
+    "hint": "Straight from the 'Ketones are prepared from acyl' slide -- match the key terms.",
     "misconception": "A student who says \"it will work\" or suggests using only 1 equivalent of Grignard shows they do not grasp that ketone intermediates are more reactive than acyl chlorides toward Grignard reagents, making stoichiometric control impossible.",
     "id": "gen_c12_chem_ch08_q11",
     "nodeId": "c12_chem_cbse_08_003",
@@ -2039,7 +2039,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "CH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O Full ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O Oxidation state of α-carbon: in alcohol = –1",
      "Product: methyl benzoate (C₆H₅COOCH₃). Reflux allows prolonged heating at constant temperature (boiling point of mixture) without loss of volatile methanol"
     ],
-    "hint": "Straight from the 'Esterification' slide -- match the key terms.",
+    "hint": "Straight from the 'Esterification is the' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"reflux to evaporate water\" or \"distil immediately\") reveals misunderstanding of equilibrium control vs product isolation — a classic board exam trap.",
     "id": "gen_c12_chem_ch08_q16",
     "nodeId": "c12_chem_cbse_08_010",
@@ -2054,7 +2054,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis",
      "Step 1: Reduction of phenylacetic acid to 2-phenylethanol using LiAlH₄ in dry ether, then H₃O⁺ workup"
     ],
-    "hint": "Straight from the 'Esterification' slide -- match the key terms.",
+    "hint": "Straight from the 'Esterification is the' slide -- match the key terms.",
     "misconception": "A poor answer proposes irrelevant steps (e.g., esterification then reduction) showing inability to identify the most direct transformation.",
     "id": "gen_c12_chem_ch08_q17",
     "nodeId": "c12_chem_cbse_08_010",
@@ -2069,7 +2069,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Persistent purple means no oxidation occurred. Primary alcohols decolourise KMnO₄ rapidly. If the alcohol were tertiary, it would also not react (no α-H)",
      "Not always correct. Le Chatelier: excess alcohol shifts equilibrium forward, increasing yield. BUT practical limits: (i) if alcohol is expensive/toxic, excess is wasteful"
     ],
-    "hint": "Straight from the 'Esterification' slide -- match the key terms.",
+    "hint": "Straight from the 'Esterification is the' slide -- match the key terms.",
     "misconception": "A wrong answer ignoring side reactions or separation costs shows rote application without critical evaluation.",
     "id": "gen_c12_chem_ch08_q18",
     "nodeId": "c12_chem_cbse_08_010",
@@ -2078,11 +2078,11 @@ export const C12_CHEM_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about aldehydes?",
+    "What surprised you about aldehydes are prepared by controlled oxidation?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Aldehydes mastered! 🎯",
+  "successLine": "Aldehydes Are Prepared mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2130,7 +2130,7 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Proteins",
+    "title": "Proteins Are Biological Polymers Formed",
     "text": "Proteins are biological polymers formed by condensation polymerization of α-amino acids, where the carboxyl group (–COOH) of one amino acid reacts with the amino group (–NH₂) of another to form a peptide bond (–CO–NH–) with elimination of water.",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2154,13 +2154,13 @@ export const C12_CHEM_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vitamins",
+    "title": "Vitamins Are Organic Compounds Required",
     "text": "Vitamins are organic compounds required in the diet in small amounts (micronutrients) to perform specific biological functions for normal growth, maintenance, and health; they cannot be synthesized by the human body in sufficient quantities (except vitamin D",
     "emoji": "🧪",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Hormones",
+    "title": "Hormones Are Low-molecular-weight Chemical",
     "text": "Hormones are low-molecular-weight chemical messengers secreted by endocrine (ductless) glands directly into the bloodstream, which transports them to target cells or organs where they bind to specific receptors and regulate physiological processes such as",
     "emoji": "🧪",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2275,11 +2275,11 @@ export const C12_CHEM_GEN: SimDef[] = [
     "question": "List the four fat-soluble vitamins and the nine water-soluble vitamins by their letter designations (e.g., Vitamin A, Vitamin B1, etc.) as per NCERT classification.",
     "answer": "Fat-soluble: Vitamin A, Vitamin D, Vitamin E, Vitamin K. Water-soluble: Vitamin B1 (Thiamine), Vitamin B2 (Riboflavin), Vitamin B6 (Pyridoxine), Vitamin B12 (Cobalamin)",
     "options": [
+     "Vitamins are organic compounds required in the diet in small amounts (micronutrients) to perform specific biological functions for normal growth, maintenance, and health",
      "(a) Insulin — polypeptide/protein hormone (51 amino acids, two chains linked by disulfide bonds). (b) Cortisol",
-     "Vitamin C (Ascorbic acid) deficiency → Scurvy. Rich Indian sources: Amla (Indian gooseberry)",
      "Fat-soluble: Vitamin A, Vitamin D, Vitamin E, Vitamin K. Water-soluble: Vitamin B1 (Thiamine), Vitamin B2 (Riboflavin), Vitamin B6 (Pyridoxine), Vitamin B12 (Cobalamin)"
     ],
-    "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
+    "hint": "Straight from the 'Vitamins are organic compounds' slide -- match the key terms.",
     "misconception": "A wrong answer that omits any of the four fat-soluble vitamins or misclassifies Vitamin C as fat-soluble reveals confusion about the solubility basis of classification — the student likely memorized a list without understanding the chemical property (polarity/hydrophobicity) that drives it.",
     "id": "gen_c12_chem_ch10_q6",
     "nodeId": "c12_chem_cbse_10_009",
@@ -2385,7 +2385,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Take two samples of egg white. Heat one in a water bath at 80°C for 5 min — it coagulates irreversibly",
      "The claim is false. Essential amino acids (cannot be synthesized by humans, must come from diet): Valine (V), Leucine (L), Lysine (K), Phenylalanine (F), etc"
     ],
-    "hint": "Straight from the 'Proteins' slide -- match the key terms.",
+    "hint": "Straight from the 'Proteins are biological polymers' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"all are essential\" or misclassifying Lysine as non-essential) reveals confusion between dietary requirement and protein composition.",
     "id": "gen_c12_chem_ch10_q8",
     "nodeId": "c12_chem_cbse_10_005",
@@ -2400,7 +2400,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "| Feature | Epinephrine (β-AR) | Insulin (RTK) | |---|---|---| | Receptor Type | GPCR (7TM) | Receptor Tyrosine Kinase (RTK) | | G-protein | Gₛ (stimulatory) | N/A (direct",
      "Both are amide bonds, but the peptide bond has resonance delocalization of the nitrogen lone pair into the carbonyl π* orbital, giving it ~40% double-bond character"
     ],
-    "hint": "Straight from the 'Proteins' slide -- match the key terms.",
+    "hint": "Straight from the 'Proteins are biological polymers' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"free rotation around C–N\" or \"no resonance\") shows lack of connection between bond character and macromolecular folding.",
     "id": "gen_c12_chem_ch10_q9",
     "nodeId": "c12_chem_cbse_10_005",
@@ -2415,7 +2415,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "In an α-helix, the carbonyl oxygen of residue *i* H-bonds to the amide hydrogen of residue *i+4*. For Thr at position 5, *i+4* = 5 → *i* = 1",
      "C₃H₇NO₂ (Ala) + C₂H₅NO₂ (Gly) → C₅H₁₀N₂O₃ (Ala-Gly) + H₂O. N-terminal = alanine (free –NH₂), C-terminal = glycine (free –COOH)"
     ],
-    "hint": "Straight from the 'Proteins' slide -- match the key terms.",
+    "hint": "Straight from the 'Proteins are biological polymers' slide -- match the key terms.",
     "misconception": "A wrong formula (e.g., forgetting water loss, wrong atom count) indicates failure to apply condensation stoichiometry.",
     "id": "gen_c12_chem_ch10_q10",
     "nodeId": "c12_chem_cbse_10_005",
@@ -2475,7 +2475,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "The statement is partially incorrect. NCERT states: \"Water soluble vitamins must be supplied regularly in diet because they are readily excreted in urine and cannot be stored",
      "The assertion is flawed. By strict definition, a vitamin is an organic compound required in the diet because it cannot be synthesized in adequate amounts by the organism"
     ],
-    "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
+    "hint": "Straight from the 'Vitamins are organic compounds' slide -- match the key terms.",
     "misconception": "A student who agrees with the assertion confuses \"can be synthesized sometimes\" with \"can be synthesized in adequate amounts under all conditions\" — a nuance tested in competitive exams to check depth of understanding definitions.",
     "id": "gen_c12_chem_ch10_q14",
     "nodeId": "c12_chem_cbse_10_009",
@@ -2490,7 +2490,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Procedure: 1) Add 2 drops of iodine solution to 2 mL of each solution. 2) Observe color: starch gives blue-black; cellulose gives no color (brown iodine remains)",
      "Vitamin C (Ascorbic acid) deficiency → Scurvy. Rich Indian sources: Amla (Indian gooseberry)"
     ],
-    "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
+    "hint": "Straight from the 'Vitamins are organic compounds' slide -- match the key terms.",
     "misconception": "A wrong answer naming Vitamin K (bleeding due to clotting defect) confuses the mechanism: Vitamin K deficiency causes prolonged clotting time (coagulation factor synthesis impaired), not spontaneous capillary fragility and gum bleeding.",
     "id": "gen_c12_chem_ch10_q15",
     "nodeId": "c12_chem_cbse_10_009",
@@ -2505,7 +2505,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Take two samples of egg white. Heat one in a water bath at 80°C for 5 min — it coagulates irreversibly",
      "The statement is partially incorrect. NCERT states: \"Water soluble vitamins must be supplied regularly in diet because they are readily excreted in urine and cannot be stored"
     ],
-    "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
+    "hint": "Straight from the 'Vitamins are organic compounds' slide -- match the key terms.",
     "misconception": "A student who says \"no storage at all\" has missed the explicit exception in the textbook; this reveals a pattern of overlooking qualifying phrases (\"except...\") in scientific statements, a common error in board exams where precise wording matters.",
     "id": "gen_c12_chem_ch10_q16",
     "nodeId": "c12_chem_cbse_10_009",
@@ -2520,7 +2520,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "At pH 2.0, carboxyl groups (Asp, Glu) are protonated (neutral) and amino groups (Lys, Arg) are fully protonated (+1)",
      "Vitamin A (retinol) accumulates in liver stellate cells because it is absorbed via chylomicrons, transported in lymph, and stored in adipose/liver"
     ],
-    "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
+    "hint": "Straight from the 'Vitamins are organic compounds' slide -- match the key terms.",
     "misconception": "A student who says \"both are equally toxic\" or \"water-soluble vitamins are never toxic\" fails to apply the solubility-storage-excretion principle; this is a classic NEET trap question testing conceptual application beyond rote memorization.",
     "id": "gen_c12_chem_ch10_q17",
     "nodeId": "c12_chem_cbse_10_009",
@@ -2535,7 +2535,7 @@ export const C12_CHEM_GEN: SimDef[] = [
      "Vitamin C (Ascorbic acid) deficiency → Scurvy. Rich Indian sources: Amla (Indian gooseberry)",
      "Experiment: Add 2-3 drops of brown iodine solution (I₂ in KI) to 5 mL water → brown color persists"
     ],
-    "hint": "Straight from the 'Vitamins' slide -- match the key terms.",
+    "hint": "Straight from the 'Vitamins are organic compounds' slide -- match the key terms.",
     "misconception": "A poor answer that writes no equation or says \"iodine reacts with acid\" misses the redox nature — Vitamin C acts as electron donor (reducing agent), a key biochemical function (antioxidant). This tests ability to connect chemical property (reducing power) to biological role.",
     "id": "gen_c12_chem_ch10_q18",
     "nodeId": "c12_chem_cbse_10_009",

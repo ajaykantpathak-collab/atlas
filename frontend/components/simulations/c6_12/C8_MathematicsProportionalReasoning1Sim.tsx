@@ -51,11 +51,11 @@ export function C8_MathematicsProportionalReasoning1Sim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Proportional Reasoning 1: The Recipe Scaler</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Proportional Reasoning 1: The Recipe Scaler</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Scaling rule:</span> every ingredient obeys the
+          <span className="font-bold text-gold-700">Scaling rule:</span> every ingredient obeys the
           SAME multiplication factor = new servings / base servings. Find each ingredient's unit rate
           (amount for one serving) and you can scale to any crowd - a birthday of 15 or an army of
           100 - without ever re-measuring the recipe card.
@@ -64,7 +64,7 @@ export function C8_MathematicsProportionalReasoning1Sim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {RECIPES.map((r, i) => (
-          <button key={r.name} onClick={() => setWhich(i)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${which === i ? 'bg-indigo-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
+          <button key={r.name} onClick={() => setWhich(i)} className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${which === i ? 'bg-gold-600 text-white shadow' : 'bg-slate-100 hover:bg-slate-200'}`}>
             {r.name}
           </button>
         ))}
@@ -77,12 +77,12 @@ export function C8_MathematicsProportionalReasoning1Sim() {
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200">
           <label className="text-xs font-semibold text-slate-500 flex justify-between">
             <span>Servings wanted (base: {recipe.baseServings})</span>
-            <span className="font-mono text-indigo-600">{servings}</span>
+            <span className="font-mono text-gold-600">{servings}</span>
           </label>
-          <input type="range" min={1} max={40} value={servings} aria-label="servings" onChange={(e) => setServings(Number(e.target.value))} className="w-full mt-2 accent-indigo-600" />
+          <input type="range" min={1} max={40} value={servings} aria-label="servings" onChange={(e) => setServings(Number(e.target.value))} className="w-full mt-2 accent-gold-600" />
           <div className="mt-3 p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             <div>
-              factor = {servings} / {recipe.baseServings} = <span className="text-indigo-700 font-bold">{Math.round(factor * 1000) / 1000}</span>
+              factor = {servings} / {recipe.baseServings} = <span className="text-gold-700 font-bold">{Math.round(factor * 1000) / 1000}</span>
             </div>
             <div className="text-xs text-slate-500 mt-1">
               {servings === recipe.baseServings
@@ -94,7 +94,7 @@ export function C8_MathematicsProportionalReasoning1Sim() {
           </div>
           <div className="mt-3 flex gap-2">
             {[1, 2, 10, 25].map((s) => (
-              <button key={s} onClick={() => setServings(s)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+              <button key={s} onClick={() => setServings(s)} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
                 {s} serving{s > 1 ? 's' : ''}
               </button>
             ))}
@@ -110,12 +110,12 @@ export function C8_MathematicsProportionalReasoning1Sim() {
               <div key={item.name} className="mb-2">
                 <div className="flex justify-between text-sm">
                   <span className="font-semibold">{item.name}</span>
-                  <span className="font-mono text-indigo-700">
+                  <span className="font-mono text-gold-700">
                     {scaled} {item.unit}
                   </span>
                 </div>
                 <div className="h-3 rounded bg-slate-200 overflow-hidden">
-                  <div className="h-full bg-indigo-500" style={{ width: `${(scaled / maxQty) * 100}%`, transition: 'width 250ms' }} />
+                  <div className="h-full bg-gold-500" style={{ width: `${(scaled / maxQty) * 100}%`, transition: 'width 250ms' }} />
                 </div>
                 {showUnit && (
                   <div className="text-[11px] text-amber-700 font-mono">

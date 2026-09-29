@@ -11,7 +11,7 @@ export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Acids and Bases: Introduction, Properties and Examples',
     chapters: [],
     nodeIds: ['c10_chem_cbse_02_001', 'c10_chem_cbse_02_005', 'c10_chem_cbse_02_006', 'c10_chem_cbse_02_007', 'c10_chem_cbse_02_010', 'c10_chem_cbse_02_011', 'c10_chem_cbse_02_002', 'c10_chem_cbse_02_003', 'c10_chem_cbse_02_008', 'c10_chem_cbse_02_004', 'c10_chem_cbse_02_009', 'c10_chem_cbse_02_012', 'c10_chem_cbse_04_012', 'c10_chem_cbse_03_006', 'c10_chem_cbse_03_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Start with a real-world observation: When you squeeze lemon juice on a cut, it stings; when you use baking.', goal: 'Master Acids and Bases: Introduction, Properties and Examples.' },
     discovery: {
         question: 'A student adds dilute HCl to a white solid X. A colourless gas Y evolves which turns lime water milky.',
@@ -20,7 +20,7 @@ export const w_c10_scienceacidsbasesandsaltssim: SimDef = {
         hook: 'Students write the carbonate reaction as Na₂CO₃ + 2HCl → 2NaCl + CO₂ (omitting H₂O) because they think CO₃²⁻ directly.',
     },
     teaching: [
-        { title: 'Acids are substances that release hydrogen.', text: 'Acids are substances that release hydrogen ions (H⁺) in aqueous solution, while bases are substances that release hydroxide ions (OH⁻) in aqueous solution.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Acids are substances that release hydrogen.', text: 'Acids are substances that release hydrogen ions (H⁺) in aqueous solution, while bases are substances that release hydroxide ions (OH⁻) in aqueous solution.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_chem_cbse_02_001', title: 'Acids are substances that release.',

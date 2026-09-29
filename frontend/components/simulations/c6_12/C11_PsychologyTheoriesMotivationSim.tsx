@@ -1271,13 +1271,13 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 11 Humanities / Science
               </span>
               <motion.span
@@ -1288,7 +1288,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   difficulty === 'foundation'
                     ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
                     : difficulty === 'standard'
-                    ? 'bg-blue-500/20 text-blue-400 border-blue-500/30'
+                    ? 'bg-gold-500/20 text-gold-400 border-gold-500/30'
                     : 'bg-purple-500/20 text-purple-400 border-purple-500/30'
                 }`}
               >
@@ -1310,7 +1310,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
               }}
               className={`px-3 py-1.5 rounded-lg capitalize font-medium transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -1323,20 +1323,20 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/40 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🔬 Clinical Case Inquiry</span>
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-indigo-900/20 rounded-xl border border-indigo-700/30 text-xs text-indigo-200">
+            <div className="mt-4 p-3.5 bg-gold-900/20 rounded-xl border border-gold-700/30 text-xs text-gold-200">
               💡 <strong>Case Challenge:</strong> {SCENARIO.context}
             </div>
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <h3 className="text-base font-bold text-slate-100 flex items-center gap-2">
-              <span className="w-6 h-6 rounded-full bg-indigo-500/20 text-indigo-400 inline-flex items-center justify-center text-xs">?</span>
+              <span className="w-6 h-6 rounded-full bg-gold-500/20 text-gold-400 inline-flex items-center justify-center text-xs">?</span>
               {DISCOVERY_QUESTION.question}
             </h3>
 
@@ -1355,10 +1355,10 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                       ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold shadow-lg'
                       : discoveryAnswered && idx !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-950/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-indigo-500/50 hover:bg-slate-900'
+                      : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-gold-500/50 hover:bg-slate-900'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {optionText}
                 </motion.button>
               ))}
@@ -1373,7 +1373,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1388,7 +1388,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 uppercase font-extrabold tracking-widest">
+              <span className="text-xs text-gold-400 uppercase font-extrabold tracking-widest">
                 Interactive Discovery Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-xl font-black text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1398,7 +1398,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-2.5 bg-slate-800'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-2.5 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1407,9 +1407,9 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
 
           {/* PREDICT-THEN-CHECK CARD (BRILLIANT PATTERN) */}
           {currentSlide === 0 && (
-            <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-3">
+            <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-1.5">
+                <span className="text-xs font-bold text-gold-300 uppercase tracking-wider flex items-center gap-1.5">
                   <span>🔮</span> Predict First: {PREDICTION_QUESTIONS[currentPredictionIdx].question}
                 </span>
                 <span className="text-[10px] text-slate-400">Prediction {currentPredictionIdx + 1} of {PREDICTION_QUESTIONS.length}</span>
@@ -1432,7 +1432,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold'
                         : predictionSubmitted && oIdx === predictionSelected
                         ? 'bg-rose-950/60 border-rose-500 text-rose-200'
-                        : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-indigo-500'
+                        : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500'
                     }`}
                   >
                     <span className="font-bold mr-1.5">{String.fromCharCode(65 + oIdx)}.</span> {opt}
@@ -1440,9 +1440,9 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                 ))}
               </div>
               {predictionSubmitted && (
-                <div className="p-2.5 bg-slate-900 rounded-lg text-xs text-slate-300 border border-indigo-800/40 flex items-center justify-between">
+                <div className="p-2.5 bg-slate-900 rounded-lg text-xs text-slate-300 border border-gold-800/40 flex items-center justify-between">
                   <div>
-                    <span className="font-bold text-indigo-300">🔍 Now Verify:</span>{' '}
+                    <span className="font-bold text-gold-300">🔍 Now Verify:</span>{' '}
                     {PREDICTION_QUESTIONS[currentPredictionIdx].verifyInstruction}
                   </div>
                   {currentPredictionIdx < PREDICTION_QUESTIONS.length - 1 && (
@@ -1452,7 +1452,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         setPredictionSelected(null);
                         setPredictionSubmitted(false);
                       }}
-                      className="ml-2 px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded text-[10px] font-bold shrink-0"
+                      className="ml-2 px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white rounded text-[10px] font-bold shrink-0"
                     >
                       Next Prediction →
                     </button>
@@ -1462,7 +1462,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
             </div>
           )}
 
-          <div className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-800/30 text-sm text-indigo-200 flex items-center gap-2">
+          <div className="p-4 bg-gold-950/30 rounded-xl border border-gold-800/30 text-sm text-gold-200 flex items-center gap-2">
             <span>👉</span>
             <span>{EXPLORATION_STEPS[currentSlide].instruction}</span>
           </div>
@@ -1480,7 +1480,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         <button
                           onClick={() => setTaskComplexity('simple')}
                           className={`px-3 py-1 rounded-lg text-xs font-semibold ${
-                            taskComplexity === 'simple' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-300'
+                            taskComplexity === 'simple' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                           }`}
                         >
                           Simple Task (Sprint / Repetition)
@@ -1499,7 +1499,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Physiological Arousal (Adrenaline / RAS Activation):</span>
-                        <span className="font-bold text-indigo-400">{arousalLevel}%</span>
+                        <span className="font-bold text-gold-400">{arousalLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1507,7 +1507,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         max={100}
                         value={arousalLevel}
                         onChange={e => setArousalLevel(Number(e.target.value))}
-                        className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         aria-label="Adjust physiological arousal level"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 mt-1 font-mono">
@@ -1589,7 +1589,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
 
                 {/* MULTI-REPRESENTATION: VROOM'S EXPECTANCY EQUATION */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                  <div className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2 flex items-center justify-between">
+                  <div className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2 flex items-center justify-between">
                     <span>🧮 Multi-Representation: Vroom's Cognitive Expectancy Model ($M = E \times I \times V$)</span>
                     <span className="text-emerald-400 font-mono text-sm font-black">Net Motivation: {calculatedVroomMotivation}%</span>
                   </div>
@@ -1597,7 +1597,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 space-y-1.5">
                       <div className="flex justify-between">
                         <span className="text-slate-300 font-semibold">1. Expectancy (Effort → Performance):</span>
-                        <span className="text-indigo-400 font-mono font-bold">{expectancyVal.toFixed(2)}</span>
+                        <span className="text-gold-400 font-mono font-bold">{expectancyVal.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1606,7 +1606,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         step={0.05}
                         value={expectancyVal}
                         onChange={e => setExpectancyVal(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500 h-1.5 bg-slate-800 rounded"
+                        className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded"
                         aria-label="Adjust Expectancy value"
                       />
                       <p className="text-[10px] text-slate-500">"If I study 6 hours, can I master this topic?"</p>
@@ -1615,7 +1615,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 space-y-1.5">
                       <div className="flex justify-between">
                         <span className="text-slate-300 font-semibold">2. Instrumentality (Performance → Reward):</span>
-                        <span className="text-sky-400 font-mono font-bold">{instrumentalityVal.toFixed(2)}</span>
+                        <span className="text-gold-400 font-mono font-bold">{instrumentalityVal.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1624,7 +1624,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         step={0.05}
                         value={instrumentalityVal}
                         onChange={e => setInstrumentalityVal(parseFloat(e.target.value))}
-                        className="w-full accent-sky-500 h-1.5 bg-slate-800 rounded"
+                        className="w-full accent-gold-500 h-1.5 bg-slate-800 rounded"
                         aria-label="Adjust Instrumentality value"
                       />
                       <p className="text-[10px] text-slate-500">"If I score high, will I receive the admission?"</p>
@@ -1712,7 +1712,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                 </div>
 
                 <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                  <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                     Tier Analysis: {['Physiological', 'Safety', 'Belongingness & Love', 'Esteem', 'Self-Actualisation'][selectedPyramidTier]}
                   </h4>
                   <p className="text-xs text-slate-300 leading-relaxed">
@@ -1722,7 +1722,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                     {selectedPyramidTier === 3 && 'Competence & Recognition: Academic awards, IIT/NEET rank honours, and social prestige satisfying ego-esteem.'}
                     {selectedPyramidTier === 4 && 'Apex Growth Motive: Achieving peak personal creative, intellectual, or spiritual purpose (e.g., folk artists in West Bengal or ISRO scientists pursuing national discovery).'}
                   </p>
-                  <div className="p-2.5 bg-indigo-950/50 rounded-lg text-[11px] text-indigo-300 border border-indigo-800/40">
+                  <div className="p-2.5 bg-gold-950/50 rounded-lg text-[11px] text-gold-300 border border-gold-800/40">
                     💡 <strong>Deficiency vs Growth:</strong> Lower 4 tiers are D-needs (Deficiency); Self-Actualisation is a B-need (Being/Growth).
                   </div>
                 </div>
@@ -1763,7 +1763,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={triggerPairingTrial}
-                        className="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs shadow-lg flex items-center justify-center gap-1.5"
+                        className="flex-1 py-3 bg-gold-600 text-white rounded-xl font-bold text-xs shadow-lg flex items-center justify-center gap-1.5"
                       >
                         <span>🔔 + 🥩</span> Pair Bell + Food (Acquisition)
                       </motion.button>
@@ -1789,11 +1789,11 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Conditioned Association Strength:</span>
-                        <span className="font-bold text-indigo-400">{conditionedStrength}%</span>
+                        <span className="font-bold text-gold-400">{conditionedStrength}%</span>
                       </div>
                       <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                          className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                           animate={{ width: `${conditionedStrength}%` }}
                         />
                       </div>
@@ -1902,7 +1902,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                             animate={{ height: `${item.score}%` }}
                             className={`w-full rounded-t-md ${
                               idx < 3
-                                ? 'bg-indigo-500'
+                                ? 'bg-gold-500'
                                 : idx > 7
                                 ? memoryDistractorOn
                                   ? 'bg-rose-500/40'
@@ -1915,7 +1915,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                       ))}
                     </div>
                     <div className="flex justify-between text-[11px] text-slate-400 mt-3 pt-2 border-t border-slate-800 font-mono">
-                      <span className="text-indigo-400">◄ Primacy Effect (LTM Rehearsal)</span>
+                      <span className="text-gold-400">◄ Primacy Effect (LTM Rehearsal)</span>
                       <span className="text-slate-500">Middle Slump</span>
                       <span className={memoryDistractorOn ? 'text-rose-400' : 'text-emerald-400'}>
                         {memoryDistractorOn ? 'Recency Destroyed by Distractor ✖' : 'Recency Effect (Active in STM) ►'}
@@ -1949,7 +1949,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         }}
                         className={`p-2.5 rounded-xl text-xs font-bold capitalize border transition-all ${
                           selectedSLD === dis
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                             : 'bg-slate-950 text-slate-300 border-slate-800'
                         }`}
                       >
@@ -1959,7 +1959,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2">
-                    <div className="font-bold text-indigo-300 uppercase">
+                    <div className="font-bold text-gold-300 uppercase">
                       Diagnostic Profile: {selectedSLD}
                     </div>
                     <p className="leading-relaxed">
@@ -2064,7 +2064,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -2105,14 +2105,14 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400">Arousal Engine Sandbox</span>
+                <span className="text-xs font-bold text-gold-400">Arousal Engine Sandbox</span>
                 <input
                   type="range"
                   min={0}
                   max={100}
                   value={arousalLevel}
                   onChange={e => setArousalLevel(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="text-xs text-slate-300">
                   Arousal: {arousalLevel}% | Performance: <span className="font-bold text-emerald-400">{calculatedPerformance}%</span>
@@ -2120,9 +2120,9 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400">Canine Reflex Strength</span>
+                <span className="text-xs font-bold text-gold-400">Canine Reflex Strength</span>
                 <div className="flex gap-2">
-                  <button onClick={triggerPairingTrial} className="px-3 py-1.5 bg-indigo-600 rounded-lg text-xs font-bold text-white">
+                  <button onClick={triggerPairingTrial} className="px-3 py-1.5 bg-gold-600 rounded-lg text-xs font-bold text-white">
                     + Reinforce
                   </button>
                   <button onClick={triggerExtinctionTrial} className="px-3 py-1.5 bg-rose-900 rounded-lg text-xs font-bold text-white">
@@ -2133,7 +2133,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400">Memory Curve Distractor</span>
+                <span className="text-xs font-bold text-gold-400">Memory Curve Distractor</span>
                 <button
                   onClick={() => setMemoryDistractorOn(prev => !prev)}
                   className="w-full py-2 bg-slate-800 rounded-lg text-xs font-bold text-slate-200 border border-slate-700"
@@ -2154,7 +2154,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-3">
-              <span className="text-xs font-mono font-bold px-3 py-1 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-mono font-bold px-3 py-1 rounded-lg bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-xs text-slate-400 uppercase font-bold tracking-wider">
@@ -2169,7 +2169,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
 
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2201,11 +2201,11 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                       className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-center justify-between ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-semibold shadow-lg'
-                          : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-indigo-500/50 hover:bg-slate-900'
+                          : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-gold-500/50 hover:bg-slate-900'
                       }`}
                     >
                       <span className="flex items-center gap-3">
-                        <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 inline-flex items-center justify-center font-mono text-xs font-bold text-indigo-400">
+                        <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 inline-flex items-center justify-center font-mono text-xs font-bold text-gold-400">
                           {String.fromCharCode(65 + i)}
                         </span>
                         {opt}
@@ -2226,7 +2226,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700/80 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing border border-indigo-500/40 shadow"
+                      className="px-3 py-1.5 bg-gold-700/80 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing border border-gold-500/40 shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2244,7 +2244,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                       <span className="text-[10px] text-slate-500 uppercase font-mono mb-1">
                         Target Slot: {targetKey.replace('_', ' ')}
                       </span>
-                      <span className="text-xs font-bold text-indigo-300">
+                      <span className="text-xs font-bold text-gold-300">
                         {droppedLabels[targetKey] || 'Drop Label Here'}
                       </span>
                     </div>
@@ -2257,7 +2257,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : {}}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Architecture Slots
                 </motion.button>
@@ -2283,7 +2283,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center justify-between"
                   >
                     <span>
-                      <strong className="text-indigo-400 font-mono mr-2">{dIdx + 1}.</strong>
+                      <strong className="text-gold-400 font-mono mr-2">{dIdx + 1}.</strong>
                       {item}
                     </span>
                     <span className="text-slate-500 text-xs">↕ drag</span>
@@ -2302,7 +2302,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                         : activeChallenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(ans);
                   }}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Process Sequence
                 </motion.button>
@@ -2316,7 +2316,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   value={numericInput}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numerical value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-xs text-slate-400 font-mono">{activeChallenge.unit}</span>
                 <motion.button
@@ -2325,7 +2325,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : {}}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Check Value
                 </motion.button>
@@ -2341,7 +2341,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 rounded-lg text-xs font-semibold border border-indigo-700/40"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 text-gold-200 rounded-lg text-xs font-semibold border border-gold-700/40"
                     >
                       + {part}
                     </motion.button>
@@ -2350,7 +2350,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[90px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, idx) => (
-                    <div key={idx} className="px-3 py-1 bg-indigo-700 text-white rounded-lg text-xs font-bold flex items-center gap-2 shadow">
+                    <div key={idx} className="px-3 py-1 bg-gold-700 text-white rounded-lg text-xs font-bold flex items-center gap-2 shadow">
                       <span>{p}</span>
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -2369,7 +2369,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : {}}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Constructed Sequence
                 </motion.button>
@@ -2426,7 +2426,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
       {/* ─── PHASE 5: COMPLETION & CAPSTONE PROFILE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/40 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/40 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Clinical Assessment Complete!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2439,7 +2439,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 w-36">
                 <div className="text-xs text-slate-400 font-mono">BKT Mastery</div>
-                <div className="text-2xl font-black text-indigo-400 mt-1 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2467,7 +2467,7 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div>
-              <h4 className="text-sm font-bold text-indigo-300">Spaced Repetition Review (SM-2 Interval)</h4>
+              <h4 className="text-sm font-bold text-gold-300">Spaced Repetition Review (SM-2 Interval)</h4>
               <p className="text-xs text-slate-400 mt-1">
                 Based on your error rate ({errors} errors), your next consolidation session is due in{' '}
                 <strong className="text-amber-300">{errors === 0 ? '7 days' : errors <= 2 ? '3 days' : '1 day'}</strong>.
@@ -2476,13 +2476,13 @@ function C11_PsychologyTheoriesMotivationSim(props: Props = DEFAULT_PROPS) {
             <span className="text-2xl">📅</span>
           </div>
 
-          <div className="p-6 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/30 space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/30 space-y-3">
             <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="text-indigo-400 font-bold block mb-0.5">{st.split(':')[0]}</span>
+                  <span className="text-gold-400 font-bold block mb-0.5">{st.split(':')[0]}</span>
                   {st.split(':')[1]}
                 </div>
               ))}

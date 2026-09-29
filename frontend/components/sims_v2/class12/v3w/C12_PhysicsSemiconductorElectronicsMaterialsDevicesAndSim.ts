@@ -11,7 +11,7 @@ export const w_c12_physicssemiconductorelectronicsmaterialsdevicesandsim: SimDef
     classLevel: 12, subject: 'physics', topic: 'p-n Junction Diode: Forward and Reverse Bias',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_004', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_008', 'c12_phy_cbse_14_001', 'c12_phy_cbse_14_003', 'c12_phy_cbse_03_004', 'c12_phy_cbse_03_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a simple LED torch: when you flip the switch, the LED lights up instantly; if you accidentally insert.', goal: 'Master p-n Junction Diode: Forward and Reverse Bias.' },
     discovery: {
         question: 'A student claims: "In reverse bias, the diode current is zero because the barrier becomes infinite." Evaluate this statement and correct it.',
@@ -20,7 +20,7 @@ export const w_c12_physicssemiconductorelectronicsmaterialsdevicesandsim: SimDef
         hook: 'Students often think the "knee voltage" (0.7 V for Si) is a fixed internal voltage drop that appears across the diode.',
     },
     teaching: [
-        { title: 'A p-n junction diode is a two-terminal.', text: 'A p-n junction diode is a two-terminal semiconductor device formed by joining p-type and n-type materials with metallic contacts; under forward bias (p-side connected to positive terminal, n-side to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A p-n junction diode is a two-terminal.', text: 'A p-n junction diode is a two-terminal semiconductor device formed by joining p-type and n-type materials with metallic contacts; under forward bias (p-side connected to positive terminal, n-side to.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_14_004', title: 'A p-n junction diode is a two-terminal.',

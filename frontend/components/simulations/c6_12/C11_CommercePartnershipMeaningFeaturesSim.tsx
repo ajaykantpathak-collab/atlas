@@ -876,7 +876,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
       return {
         title: 'Great work!',
         subtitle: 'You demonstrated solid legal analysis and commercial acumen.',
-        badgeCol: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/40',
+        badgeCol: 'bg-gold-500/20 text-gold-400 border-gold-500/40',
         icon: '⭐',
       };
     }
@@ -1240,12 +1240,12 @@ function C11_CommercePartnershipMeaningFeaturesSim({
       {/* ── Header Bar ── */}
       <header className="mb-6 flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">
+            <p className="text-xs text-gold-400 font-medium">
               ISC Class 11 Commerce • Indian Partnership Act 1932 & Companies Act 2013
             </p>
           </div>
@@ -1262,7 +1262,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1281,13 +1281,13 @@ function C11_CommercePartnershipMeaningFeaturesSim({
       {/* ── PHASE 1: DISCOVERY HOOK ── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60">
-            <span className="text-xs uppercase font-bold text-indigo-400 tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60">
+            <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">
               Real-World Narrative
             </span>
             <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-slate-400 mt-2 bg-indigo-950/40 p-3 rounded-lg border border-indigo-900/40">
+            <p className="text-xs text-slate-400 mt-2 bg-gold-950/40 p-3 rounded-lg border border-gold-900/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1317,7 +1317,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                       : 'bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">
+                  <span className="font-bold mr-2 text-gold-400">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : ''}
                     {String.fromCharCode(65 + i)}.
                   </span>
@@ -1342,7 +1342,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Launch Interactive Law Labs →
                 </motion.button>
@@ -1366,7 +1366,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
               {/* Slide Heading */}
               <div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs uppercase font-extrabold text-indigo-400">
+                  <span className="text-xs uppercase font-extrabold text-gold-400">
                     Interactive Discovery Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                   </span>
                   <span className="text-xs text-slate-500 font-mono">
@@ -1453,14 +1453,14 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                         value={partnershipDebt}
                         aria-label="Adjust partnership debt amount"
                         onChange={(e) => setPartnershipDebt(Number(e.target.value))}
-                        className="w-full accent-indigo-500 mt-1 cursor-pointer"
+                        className="w-full accent-gold-500 mt-1 cursor-pointer"
                       />
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                       <div>
                         <span className="text-xs uppercase font-bold text-slate-500">Selected Partner Profile</span>
-                        <h4 className="text-lg font-black text-indigo-300 capitalize">{selectedPartner} Partner</h4>
+                        <h4 className="text-lg font-black text-gold-300 capitalize">{selectedPartner} Partner</h4>
 
                         <div className="mt-4 space-y-2.5 text-xs">
                           <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
@@ -1490,7 +1490,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                         </div>
                       </div>
 
-                      <p className="text-[11px] text-slate-400 mt-4 italic bg-indigo-950/30 p-2.5 rounded-lg border border-indigo-900/40">
+                      <p className="text-[11px] text-slate-400 mt-4 italic bg-gold-950/30 p-2.5 rounded-lg border border-gold-900/40">
                         💡 Even dormant & nominal partners risk personal assets for the full ₹{partnershipDebt} Lakh under Section 25 & 28!
                       </p>
                     </div>
@@ -1519,7 +1519,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                               : 'bg-slate-900 hover:bg-slate-800 text-slate-300 border-slate-800'
                           }`}
                         >
-                          <span className="font-bold mr-1.5 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                          <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                           {opt}
                         </motion.button>
                       ))}
@@ -1571,8 +1571,8 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   </div>
 
                   {/* Prediction Question 2 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40 space-y-3">
-                    <span className="text-xs uppercase font-extrabold text-indigo-400">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40 space-y-3">
+                    <span className="text-xs uppercase font-extrabold text-gold-400">
                       Predict Before You Test: {PREDICTION_QUESTIONS[1].verifyInstruction}
                     </span>
                     <p className="text-sm font-semibold text-slate-200">{PREDICTION_QUESTIONS[1].question}</p>
@@ -1592,7 +1592,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                               : 'bg-slate-900 hover:bg-slate-800 text-slate-300 border-slate-800'
                           }`}
                         >
-                          <span className="font-bold mr-1 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                          <span className="font-bold mr-1 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                         </motion.button>
                       ))}
                     </div>
@@ -1631,7 +1631,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handleSimulateCourt('firm_sues_vendor')}
-                        className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                       >
                         File Recovery Suit Against Buyer →
                       </motion.button>
@@ -1699,7 +1699,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <h4 className="text-sm font-bold text-indigo-300">Company vs Promoter Balance Sheet</h4>
+                      <h4 className="text-sm font-bold text-gold-300">Company vs Promoter Balance Sheet</h4>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300">
@@ -1792,7 +1792,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                               : 'bg-slate-900 hover:bg-slate-800 text-slate-300 border-slate-800'
                           }`}
                         >
-                          <span className="font-bold mr-1.5 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                          <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                           {opt}
                         </motion.button>
                       ))}
@@ -1827,8 +1827,8 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                     </svg>
                   </div>
 
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60">
-                    <span className="text-xs text-indigo-400 font-bold uppercase">Charter Document Inspector</span>
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60">
+                    <span className="text-xs text-gold-400 font-bold uppercase">Charter Document Inspector</span>
                     <h4 className="text-sm font-bold text-white mt-0.5">
                       TechCraft Solutions Ltd — MOA Object Clause (Clause III)
                     </h4>
@@ -1889,12 +1889,12 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <h4 className="text-sm font-bold text-indigo-300">Profit & Arrears Controls</h4>
+                      <h4 className="text-sm font-bold text-gold-300">Profit & Arrears Controls</h4>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Current Year Distributable Profit:</span>
-                          <strong className="text-indigo-400">₹{annualProfit} Lakh</strong>
+                          <strong className="text-gold-400">₹{annualProfit} Lakh</strong>
                         </div>
                         <input
                           type="range"
@@ -1903,7 +1903,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                           value={annualProfit}
                           aria-label="Adjust current year distributable profit"
                           onChange={(e) => setAnnualProfit(Number(e.target.value))}
-                          className="w-full accent-indigo-500 mt-1 cursor-pointer"
+                          className="w-full accent-gold-500 mt-1 cursor-pointer"
                         />
                       </div>
 
@@ -1935,7 +1935,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                                 audioManager.play('tap');
                               }}
                               className={`px-3 py-1 rounded-lg text-xs font-bold capitalize ${
-                                prefType === t ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800'
+                                prefType === t ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800'
                               }`}
                             >
                               {t}
@@ -1988,8 +1988,8 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   </div>
 
                   {/* Prediction 1 Interactive Card */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40 space-y-3">
-                    <span className="text-xs uppercase font-extrabold text-indigo-400">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40 space-y-3">
+                    <span className="text-xs uppercase font-extrabold text-gold-400">
                       Predict & Verify: {PREDICTION_QUESTIONS[0].verifyInstruction}
                     </span>
                     <p className="text-sm font-semibold text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
@@ -2009,7 +2009,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                               : 'bg-slate-900 hover:bg-slate-800 text-slate-300 border-slate-800'
                           }`}
                         >
-                          <span className="font-bold mr-1 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                          <span className="font-bold mr-1 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                         </motion.button>
                       ))}
                     </div>
@@ -2040,7 +2040,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2071,7 +2071,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-indigo-400">1. Firm Status</h4>
+              <h4 className="text-sm font-bold text-gold-400">1. Firm Status</h4>
               <button
                 aria-label="Toggle sandbox firm registration"
                 onClick={() => setIsRegistered((r) => !r)}
@@ -2087,12 +2087,12 @@ function C11_CommercePartnershipMeaningFeaturesSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-indigo-400">2. Corporate Entity</h4>
+              <h4 className="text-sm font-bold text-gold-400">2. Corporate Entity</h4>
               <button
                 aria-label="Toggle sandbox fraud corporate veil state"
                 onClick={() => setFraudCommitted((f) => !f)}
                 className={`w-full py-2 rounded-xl text-xs font-bold ${
-                  fraudCommitted ? 'bg-rose-700 text-white' : 'bg-indigo-700 text-white'
+                  fraudCommitted ? 'bg-rose-700 text-white' : 'bg-gold-700 text-white'
                 }`}
               >
                 {fraudCommitted ? '⚠️ Veil Lifted (Fraud Detected)' : '🛡️ Salomon Veil Intact'}
@@ -2103,7 +2103,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-indigo-400">3. Distributable Profit</h4>
+              <h4 className="text-sm font-bold text-gold-400">3. Distributable Profit</h4>
               <input
                 type="range"
                 min={0}
@@ -2123,7 +2123,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white rounded-xl font-black text-sm shadow-xl shadow-emerald-600/20"
+              className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-xl font-black text-sm shadow-xl shadow-emerald-600/20"
             >
               I Am Ready for Challenges! 🚀 →
             </motion.button>
@@ -2141,13 +2141,13 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                 Challenge <strong className="text-white">{currentChallenge + 1}</strong> of{' '}
                 <strong className="text-white">{filteredChallenges.length}</strong>
               </span>
-              <span className="capitalize text-indigo-400 font-bold font-mono">
+              <span className="capitalize text-gold-400 font-bold font-mono">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2157,7 +2157,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
           {/* Challenge Card */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center justify-between gap-2">
-              <span className="text-xs uppercase font-extrabold text-indigo-400">
+              <span className="text-xs uppercase font-extrabold text-gold-400">
                 Question #{currentChallenge + 1} • {challenge.type.toUpperCase()}
               </span>
               <span className="text-xs text-slate-500 font-mono">Node: {challenge.nodeId}</span>
@@ -2188,7 +2188,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                           : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">
+                      <span className="font-bold text-gold-400 mr-2">
                         {showExplanation && idx === challenge.correctIndex ? '✓ ' : ''}
                         {String.fromCharCode(65 + idx)}.
                       </span>
@@ -2213,7 +2213,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2251,7 +2251,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Clause Placements →
                 </motion.button>
@@ -2283,7 +2283,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3.5 bg-slate-950 hover:bg-slate-800 rounded-xl border border-slate-800 text-xs md:text-sm font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-1 bg-indigo-950 text-indigo-400 rounded-lg font-mono font-bold text-xs">
+                      <span className="px-2 py-1 bg-gold-950 text-gold-400 rounded-lg font-mono font-bold text-xs">
                         #{displayIdx + 1}
                       </span>
                       {item}
@@ -2297,7 +2297,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Check Sequence Order →
                 </motion.button>
@@ -2314,7 +2314,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                     aria-label="Numeric calculation answer input"
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2323,7 +2323,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Submit Calculation →
                   </motion.button>
@@ -2343,7 +2343,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800/80 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-800/80 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2354,7 +2354,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-lg text-xs font-medium flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900 text-gold-200 rounded-lg text-xs font-medium flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2377,7 +2377,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Validate Legal Construct →
                 </motion.button>
@@ -2389,7 +2389,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 border border-indigo-700/60 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 border border-gold-700/60 rounded-2xl space-y-4"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs uppercase font-extrabold text-amber-400">
@@ -2456,7 +2456,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Motivational Feedback Banner */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/90 via-slate-900 to-emerald-950/90 rounded-3xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/90 via-slate-900 to-emerald-950/90 rounded-3xl border border-gold-700/60 text-center space-y-3">
             <span className="text-5xl">{motivationalMessage.icon}</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">{motivationalMessage.title}</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">{motivationalMessage.subtitle}</p>
@@ -2471,7 +2471,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
               <span className="text-xs text-slate-400">Final Mastery Tier</span>
-              <h4 className="text-xl font-bold text-indigo-400 capitalize">✓ {masteryLevel}</h4>
+              <h4 className="text-xl font-bold text-gold-400 capitalize">✓ {masteryLevel}</h4>
             </div>
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
               <span className="text-xs text-slate-400">Challenges Solved</span>
@@ -2492,7 +2492,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
 
           {/* Reflection Section */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-lg font-bold text-indigo-400 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
               <span>🤔</span> Reflection & Conceptual Consolidation
             </h3>
             <div className="space-y-3">
@@ -2505,7 +2505,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., Even nominal or dormant partners face unlimited joint & several liability under Section 25 & 28..."
-                  className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2518,7 +2518,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g., A company is a separate artificial person born via Certificate of Incorporation that protects personal assets..."
-                  className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2531,7 +2531,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., Deciding whether to register an LLP vs Private Limited company before leasing an office..."
-                  className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2561,7 +2561,7 @@ function C11_CommercePartnershipMeaningFeaturesSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <span className="text-xs text-indigo-400 font-extrabold uppercase tracking-wider">
+            <span className="text-xs text-gold-400 font-extrabold uppercase tracking-wider">
               Capstone Commercial Project
             </span>
             <h3 className="text-lg font-black text-white">{REAL_WORLD_ACTIVITY.title}</h3>

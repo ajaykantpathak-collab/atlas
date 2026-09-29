@@ -85,7 +85,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Daily Life Operations! 🛒",
     text: "We use addition, subtraction, multiplication, and division for daily life problems! Buying rice at Rs 45 per kg is multiplication. Finding water left in a tank is subtraction.",
     emoji: "💰",
-    bgColor: "from-blue-400 to-indigo-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "We use the four basic operations for daily life measurement problems involving length, weight, time, money, and volume!"
   },
   {

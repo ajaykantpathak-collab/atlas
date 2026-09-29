@@ -591,14 +591,14 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
       <header className="w-full max-w-6xl bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-4 backdrop-blur-md shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-400 text-xs font-semibold rounded-full border border-indigo-500/30">
+            <span className="px-2.5 py-1 bg-gold-500/20 text-gold-400 text-xs font-semibold rounded-full border border-gold-500/30">
               ISC Class 12 Chemistry
             </span>
             <span className="px-2.5 py-1 bg-emerald-500/20 text-emerald-400 text-xs font-semibold rounded-full border border-emerald-500/30">
               {ALL_NODE_IDS.length} Curriculum Nodes
             </span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-indigo-300 to-pink-400 bg-clip-text text-transparent mt-1">
+          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-pink-400 bg-clip-text text-transparent mt-1">
             {SCENARIO.title}
           </h1>
           <p className="text-xs text-slate-400">{SCENARIO.subtitle}</p>
@@ -608,11 +608,11 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
         <div className="flex items-center gap-6">
           <div className="text-right">
             <div className="text-xs text-slate-400 font-medium">Class Mastery</div>
-            <div className="text-xl font-extrabold text-cyan-400">{overallMastery}%</div>
+            <div className="text-xl font-extrabold text-gold-400">{overallMastery}%</div>
           </div>
           <div className="w-24 h-3 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
             <div
-              className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 transition-all duration-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500 transition-all duration-500"
               style={{ width: `${overallMastery}%` }}
             />
           </div>
@@ -631,7 +631,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
             triggerSound('tap');
           }}
           className={`flex-1 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
-            activeTab === 'discovery' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           1. Discovery Lab
@@ -642,7 +642,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
             triggerSound('tap');
           }}
           className={`flex-1 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
-            activeTab === 'lab' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'lab' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           2. Interactive Suites
@@ -653,7 +653,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
             triggerSound('tap');
           }}
           className={`flex-1 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
-            activeTab === 'challenges' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           3. Board Challenges ({CHALLENGES.length})
@@ -664,7 +664,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
             triggerSound('tap');
           }}
           className={`flex-1 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all ${
-            activeTab === 'summary' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'summary' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           4. Mastery Summary
@@ -761,7 +761,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                     setActiveTab('lab');
                     triggerSound('tap');
                   }}
-                  className="mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-lg text-xs"
+                  className="mt-4 px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-lg text-xs"
                 >
                   Proceed to Virtual Chemistry Laboratories →
                 </button>
@@ -785,11 +785,11 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                 }}
                 className={`p-3 rounded-xl border text-left transition-all ${
                   activeWorkstation === ws.id
-                    ? 'bg-indigo-950/80 border-indigo-500 text-white shadow-lg ring-1 ring-indigo-500'
+                    ? 'bg-gold-950/80 border-gold-500 text-white shadow-lg ring-1 ring-gold-500'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                 }`}
               >
-                <div className="font-bold text-xs sm:text-sm text-indigo-300">{ws.name}</div>
+                <div className="font-bold text-xs sm:text-sm text-gold-300">{ws.name}</div>
                 <div className="text-[10px] text-slate-500 mt-1 line-clamp-2">{ws.description}</div>
               </button>
             ))}
@@ -800,10 +800,10 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div className="flex justify-between items-center border-b border-slate-800 pb-3">
                 <div>
-                  <h3 className="text-base font-bold text-cyan-300">Diazonium Salt Reaction Simulator (Ar-N₂⁺ X⁻)</h3>
+                  <h3 className="text-base font-bold text-gold-300">Diazonium Salt Reaction Simulator (Ar-N₂⁺ X⁻)</h3>
                   <p className="text-xs text-slate-400">Node c12_chem_081: Temperature control & Substitution reactions</p>
                 </div>
-                <span className="px-2.5 py-1 bg-cyan-950 text-cyan-400 border border-cyan-800 rounded-full text-xs font-mono">
+                <span className="px-2.5 py-1 bg-gold-950 text-gold-400 border border-gold-800 rounded-full text-xs font-mono">
                   c12_chem_081
                 </span>
               </div>
@@ -824,7 +824,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       max="30"
                       value={diazTemp}
                       onChange={(e) => setDiazTemp(Number(e.target.value))}
-                      className="w-full accent-indigo-500 mt-2"
+                      className="w-full accent-gold-500 mt-2"
                     />
                   </div>
 
@@ -834,7 +834,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       <button
                         onClick={() => setDiazReagent('CuCl')}
                         className={`p-2.5 rounded-lg text-xs font-mono text-left border ${
-                          diazReagent === 'CuCl' ? 'bg-indigo-900/60 border-indigo-400 text-indigo-200' : 'bg-slate-800/40 border-slate-700'
+                          diazReagent === 'CuCl' ? 'bg-gold-900/60 border-gold-400 text-gold-200' : 'bg-slate-800/40 border-slate-700'
                         }`}
                       >
                         CuCl / HCl — Sandmeyer Reaction → Chlorobenzene
@@ -842,7 +842,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       <button
                         onClick={() => setDiazReagent('HBF4')}
                         className={`p-2.5 rounded-lg text-xs font-mono text-left border ${
-                          diazReagent === 'HBF4' ? 'bg-indigo-900/60 border-indigo-400 text-indigo-200' : 'bg-slate-800/40 border-slate-700'
+                          diazReagent === 'HBF4' ? 'bg-gold-900/60 border-gold-400 text-gold-200' : 'bg-slate-800/40 border-slate-700'
                         }`}
                       >
                         HBF4 + Heat — Balz-Schiemann Reaction → Fluorobenzene
@@ -850,7 +850,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       <button
                         onClick={() => setDiazReagent('H3PO2')}
                         className={`p-2.5 rounded-lg text-xs font-mono text-left border ${
-                          diazReagent === 'H3PO2' ? 'bg-indigo-900/60 border-indigo-400 text-indigo-200' : 'bg-slate-800/40 border-slate-700'
+                          diazReagent === 'H3PO2' ? 'bg-gold-900/60 border-gold-400 text-gold-200' : 'bg-slate-800/40 border-slate-700'
                         }`}
                       >
                         H3PO2 + H2O — Reduction → Benzene
@@ -858,7 +858,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       <button
                         onClick={() => setDiazReagent('H2O_warm')}
                         className={`p-2.5 rounded-lg text-xs font-mono text-left border ${
-                          diazReagent === 'H2O_warm' ? 'bg-indigo-900/60 border-indigo-400 text-indigo-200' : 'bg-slate-800/40 border-slate-700'
+                          diazReagent === 'H2O_warm' ? 'bg-gold-900/60 border-gold-400 text-gold-200' : 'bg-slate-800/40 border-slate-700'
                         }`}
                       >
                         Warm H2O — Hydrolysis → Phenol
@@ -866,7 +866,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       <button
                         onClick={() => setDiazReagent('Phenol_alk')}
                         className={`p-2.5 rounded-lg text-xs font-mono text-left border ${
-                          diazReagent === 'Phenol_alk' ? 'bg-indigo-900/60 border-indigo-400 text-indigo-200' : 'bg-slate-800/40 border-slate-700'
+                          diazReagent === 'Phenol_alk' ? 'bg-gold-900/60 border-gold-400 text-gold-200' : 'bg-slate-800/40 border-slate-700'
                         }`}
                       >
                         Phenol + NaOH (Alkaline) — Coupling → Orange Azo Dye
@@ -954,7 +954,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Carbohydrate Test Simulator */}
                 <div className="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
-                  <h4 className="text-xs font-bold text-cyan-300 uppercase tracking-wider">1. Carbohydrate Qualitative Reagent Test</h4>
+                  <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">1. Carbohydrate Qualitative Reagent Test</h4>
                   <div className="grid grid-cols-2 gap-2">
                     <div>
                       <label className="text-[10px] text-slate-400 block mb-1">Select Sugar Sample:</label>
@@ -983,7 +983,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                       </select>
                     </div>
                   </div>
-                  <div className="bg-slate-900 border border-slate-800 p-3 rounded text-xs font-mono text-cyan-200">{testResult}</div>
+                  <div className="bg-slate-900 border border-slate-800 p-3 rounded text-xs font-mono text-gold-200">{testResult}</div>
                 </div>
 
                 {/* Protein Zwitterion & Denaturation */}
@@ -1179,7 +1179,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                 </div>
 
                 <div className="bg-slate-950 border border-slate-800 p-4 rounded-xl space-y-2">
-                  <div className="font-bold text-xs text-cyan-400">Antacids & Antihistamines</div>
+                  <div className="font-bold text-xs text-gold-400">Antacids & Antihistamines</div>
                   <p className="text-[11px] text-slate-300">
                     <span className="font-bold text-white">Antacids:</span> Metal hydroxides (Mg(OH)₂, Al(OH)₃) neutralise HCl directly.
                     Ranitidine blocks H₂ receptors.
@@ -1215,7 +1215,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
           <div className="flex justify-between items-center bg-slate-900 border border-slate-800 rounded-xl p-4">
             <div>
               <span className="text-xs text-slate-400">Challenge Progress</span>
-              <div className="text-base font-bold text-indigo-300">
+              <div className="text-base font-bold text-gold-300">
                 Question {currentChallengeIdx + 1} of {CHALLENGES.length}
               </div>
             </div>
@@ -1251,7 +1251,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                         ? idx === currentChallenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                        : 'bg-indigo-950/80 border-indigo-500 text-white'
+                        : 'bg-gold-950/80 border-gold-500 text-white'
                       : showFeedback && idx === currentChallenge.correctIndex
                       ? 'bg-emerald-950/40 border-emerald-500/50 text-emerald-300'
                       : 'bg-slate-800/40 border-slate-700/80 hover:border-slate-600 text-slate-300'
@@ -1267,7 +1267,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
               <button
                 onClick={handleCheckAnswer}
                 disabled={selectedOption === null}
-                className="w-full py-3 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 disabled:opacity-40 font-bold rounded-xl text-sm shadow-lg transition-all"
+                className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 disabled:opacity-40 font-bold rounded-xl text-sm shadow-lg transition-all"
               >
                 Validate Chemical Solution
               </button>
@@ -1297,7 +1297,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
       {activeTab === 'summary' && (
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-4xl space-y-6">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6 text-center">
-            <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-300 to-amber-300">
+            <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-amber-300">
               Curriculum Mastery & BKT Evaluation
             </h2>
 
@@ -1311,7 +1311,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                     <div className="text-sm font-bold text-slate-200">{nodeId.replace('c12_chem_', 'Topic ').toUpperCase()}</div>
                     <div className="flex justify-between items-center">
                       <span className="text-xs text-slate-500">BKT Mastery:</span>
-                      <span className="text-xs font-bold text-cyan-400">{masteryVal}%</span>
+                      <span className="text-xs font-bold text-gold-400">{masteryVal}%</span>
                     </div>
                   </div>
                 );
@@ -1342,7 +1342,7 @@ export default function C12_ChemistryDiazoniumsaltsSim() {
                 setScore(0);
                 triggerSound('tap');
               }}
-              className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm shadow-lg"
+              className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-lg"
             >
               Restart Full Laboratory Simulation
             </button>

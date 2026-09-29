@@ -375,12 +375,12 @@ const REAL_WORLD_ACTIVITY = {
 // ==========================================
 const Readout: React.FC<{ label: string; value: string; tone?: 'indigo' | 'emerald' | 'amber' | 'rose' | 'sky' | 'violet' }> = ({ label, value, tone = 'indigo' }) => {
   const tones: Record<string, string> = {
-    indigo: 'text-indigo-300',
+    indigo: 'text-gold-300',
     emerald: 'text-emerald-400',
     amber: 'text-amber-400',
     rose: 'text-rose-400',
-    sky: 'text-sky-300',
-    violet: 'text-violet-300',
+    sky: 'text-gold-300',
+    violet: 'text-gold-300',
   };
   return (
     <div className="bg-slate-900 rounded-lg border border-slate-800 px-3 py-2">
@@ -822,7 +822,7 @@ export default function C12_InformaticsPracticesPandasSeries1Sim({
             <Braces className="w-8 h-8 text-slate-950" />
           </div>
           <div>
-            <h1 className="text-2xl font-extrabold bg-gradient-to-r from-emerald-400 via-teal-300 to-sky-400 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-extrabold bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               Data Handling Using Pandas — I
             </h1>
             <p className="text-xs text-slate-400">Class 12 IP • Series • Alignment • DataFrame • loc/iloc • NaN clinic</p>
@@ -1012,7 +1012,7 @@ export default function C12_InformaticsPracticesPandasSeries1Sim({
                           <tr key={i} className={i % 2 === 0 ? 'bg-slate-950/60' : 'bg-slate-900/60'}>
                             <td className="px-2 py-1.5">
                               <input value={p[0]} onChange={e => setLabel(i, e.target.value)}
-                                className="w-28 min-h-8 bg-slate-900 border border-slate-700 rounded-lg px-2 text-xs text-sky-300 font-mono focus:border-emerald-500 outline-none" />
+                                className="w-28 min-h-8 bg-slate-900 border border-slate-700 rounded-lg px-2 text-xs text-gold-300 font-mono focus:border-emerald-500 outline-none" />
                             </td>
                             <td className="px-2 py-1.5 text-right">
                               <input value={p[1] === null ? '' : String(p[1])} onChange={e => setValue(i, e.target.value)}
@@ -1153,7 +1153,7 @@ export default function C12_InformaticsPracticesPandasSeries1Sim({
                       <Trash2 className="w-3.5 h-3.5" /> del
                     </button>
                   </div>
-                  <button onClick={() => { setCsRenamed(!csRenamed); playFx('tap'); }} className="w-full py-2 bg-slate-800 hover:bg-slate-700 text-sky-300 border border-slate-700 rounded-xl text-[11px] font-bold">
+                  <button onClick={() => { setCsRenamed(!csRenamed); playFx('tap'); }} className="w-full py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 border border-slate-700 rounded-xl text-[11px] font-bold">
                     {csRenamed ? `df.rename(columns={"CS":"CS"}) — undo` : `df.rename(columns={"CS":"CompSci"})`}
                   </button>
                   <div className="grid grid-cols-2 gap-2">
@@ -1221,7 +1221,7 @@ export default function C12_InformaticsPracticesPandasSeries1Sim({
                     <div className="bg-slate-950 border border-emerald-500/40 rounded-xl p-4 font-mono text-xs text-slate-200 space-y-1">
                       {selectionResult.map(r => (
                         <p key={r.label}>
-                          <span className="text-sky-300">{r.label}</span> → CS {r.CS === null ? 'NaN' : r.CS}, IP {r.IP === null ? 'NaN' : r.IP}, Math {r.Math === null ? 'NaN' : r.Math}
+                          <span className="text-gold-300">{r.label}</span> → CS {r.CS === null ? 'NaN' : r.CS}, IP {r.IP === null ? 'NaN' : r.IP}, Math {r.Math === null ? 'NaN' : r.Math}
                           {r.Total !== undefined && <span>, Total {r.Total === null ? 'NaN' : r.Total}</span>}
                         </p>
                       ))}
@@ -1350,7 +1350,7 @@ export default function C12_InformaticsPracticesPandasSeries1Sim({
                       if (idx === currentChallenge.correctIndex) style = 'bg-emerald-950/80 border-emerald-500 text-emerald-200';
                       else if (selectedOption === idx) style = 'bg-rose-950/80 border-rose-500 text-rose-200';
                     } else if (selectedOption === idx) {
-                      style = 'bg-indigo-950/80 border-indigo-500 text-indigo-100';
+                      style = 'bg-gold-950/80 border-gold-500 text-gold-100';
                     }
                     return (
                       <button key={idx} onClick={() => { if (!challengeFeedback?.submitted) { setSelectedOption(idx); playFx('tap'); } }}

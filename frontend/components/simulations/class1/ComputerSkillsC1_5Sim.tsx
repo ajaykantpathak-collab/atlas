@@ -29,9 +29,9 @@ import { speechManager } from '../../../lib/sim-engine/speech';
 import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine/feedback';
 // ─── Teaching slides (from enrichment DEFINITION + TEXT_WALKTHROUGH) ──
 const TEACHING_SLIDES = [
-    { title: 'What is a Computer? 💻', text: 'A computer is an electronic device that processes data and performs tasks! It can do calculations, play music, draw pictures, and connect us to the whole world. Computers follow instructions called programs!', emoji: '💻', bgColor: 'from-sky-400 to-blue-500' },
-    { title: 'Parts of a Computer 🖥️', text: 'Every computer has main parts: the Monitor (screen that shows pictures), CPU (the brain), Keyboard (for typing letters), and Mouse (for clicking). Speakers play sound and the printer makes paper copies!', emoji: '🖥️', bgColor: 'from-cyan-400 to-teal-500' },
-    { title: 'Input and Output Devices ⌨️', text: 'Input devices send data INTO the computer (keyboard, mouse, microphone). Output devices give information OUT of the computer (monitor, printer, speakers). Some devices like touchscreens do both!', emoji: '⌨️', bgColor: 'from-violet-400 to-purple-500' },
+    { title: 'What is a Computer? 💻', text: 'A computer is an electronic device that processes data and performs tasks! It can do calculations, play music, draw pictures, and connect us to the whole world. Computers follow instructions called programs!', emoji: '💻', bgColor: 'from-gold-400 to-gold-500' },
+    { title: 'Parts of a Computer 🖥️', text: 'Every computer has main parts: the Monitor (screen that shows pictures), CPU (the brain), Keyboard (for typing letters), and Mouse (for clicking). Speakers play sound and the printer makes paper copies!', emoji: '🖥️', bgColor: 'from-gold-400 to-teal-500' },
+    { title: 'Input and Output Devices ⌨️', text: 'Input devices send data INTO the computer (keyboard, mouse, microphone). Output devices give information OUT of the computer (monitor, printer, speakers). Some devices like touchscreens do both!', emoji: '⌨️', bgColor: 'from-gold-400 to-purple-500' },
     { title: 'Files and Folders 📁', text: 'Computers store information in files - just like papers in folders! A file is one piece of data (document, picture, video). A folder holds many files. File extensions show the type: .txt, .jpg, .mp3!', emoji: '📁', bgColor: 'from-amber-400 to-orange-500' },
     { title: 'Internet Safety 🛡️', text: 'The internet is wonderful for learning, but stay safe! Never share your name, address, or phone number with strangers online. Use strong passwords. Always ask a trusted adult if something feels wrong!', emoji: '🛡️', bgColor: 'from-rose-400 to-pink-500' },
 ];
@@ -153,7 +153,7 @@ function TechieTara({ mood, speaking }: {
 }) {
     return (<div className="absolute top-16 right-3 z-20 flex flex-col items-center pointer-events-none">
       <AnimatePresence>
-        {speaking && (<motion.div initial={{ scale: 0, opacity: 0, y: 10 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 15 }} className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-sky-300">
+        {speaking && (<motion.div initial={{ scale: 0, opacity: 0, y: 10 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 15 }} className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300">
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>)}
       </AnimatePresence>
@@ -499,7 +499,7 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-sky-200`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-gold-200`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(id, 48)}
         <span className="text-xs font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>
@@ -551,7 +551,7 @@ function TeachingScreen({ onStart, width, height }: {
 
       {/* Header */}
       <div className="z-10 flex flex-col items-center mt-2">
-        <h1 className="text-2xl font-black text-sky-600 drop-shadow">Techie Tara's Computer Lab</h1>
+        <h1 className="text-2xl font-black text-gold-600 drop-shadow">Techie Tara's Computer Lab</h1>
         <p className="text-sm font-bold text-gray-600">Computer Skills - CISCE Discovery</p>
       </div>
 
@@ -570,16 +570,16 @@ function TeachingScreen({ onStart, width, height }: {
 
       {/* Navigation Footer */}
       <div className="z-10 w-full max-w-lg flex items-center justify-between pb-2">
-        <button onClick={handlePrev} disabled={slide === 0} className={`px-4 py-2 rounded-xl font-bold shadow ${slide === 0 ? 'bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-white text-sky-600 hover:bg-sky-50'}`}>
+        <button onClick={handlePrev} disabled={slide === 0} className={`px-4 py-2 rounded-xl font-bold shadow ${slide === 0 ? 'bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-white text-gold-600 hover:bg-gold-50'}`}>
           ⬅️ Back
         </button>
 
         {/* Dots */}
         <div className="flex gap-2">
-          {Array.from({ length: total }).map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slide ? 'bg-sky-600 w-6' : 'bg-white/60'}`}/>))}
+          {Array.from({ length: total }).map((_, i) => (<div key={i} className={`w-3 h-3 rounded-full transition-all ${i === slide ? 'bg-gold-600 w-6' : 'bg-white/60'}`}/>))}
         </div>
 
-        <button onClick={handleNext} className="px-6 py-2 rounded-xl font-bold bg-sky-600 text-white shadow-lg hover:bg-sky-700 flex items-center gap-1">
+        <button onClick={handleNext} className="px-6 py-2 rounded-xl font-bold bg-gold-600 text-white shadow-lg hover:bg-gold-700 flex items-center gap-1">
           {slide === total - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
         </button>
       </div>
@@ -755,7 +755,7 @@ export function ComputerSkillsC1_5Sim({ width = 720, height = 560, onComplete }:
                 onComplete(finalS);
         }
     };
-    return (<div className="relative flex flex-col select-none overflow-hidden bg-sky-100 rounded-3xl shadow-2xl" style={{ width, height }}>
+    return (<div className="relative flex flex-col select-none overflow-hidden bg-gold-100 rounded-3xl shadow-2xl" style={{ width, height }}>
       <ComputerLabBackground width={width} height={height}/>
       <TechieTara mood={mascotMood} speaking={mascotSpeech}/>
 
@@ -765,7 +765,7 @@ export function ComputerSkillsC1_5Sim({ width = 720, height = 560, onComplete }:
           <Confetti onComplete={() => { }}/>
           <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="flex flex-col items-center text-center">
             <span className="text-7xl mb-3">🏆</span>
-            <h1 className="text-3xl font-black text-sky-600 mb-2">Computer Explorer Badge Earned!</h1>
+            <h1 className="text-3xl font-black text-gold-600 mb-2">Computer Explorer Badge Earned!</h1>
             <p className="text-lg font-bold text-gray-700 mb-4">You successfully completed Techie Tara's computer challenges!</p>
             <div className="flex gap-2 mb-6">
               <StarRow count={stars} total={CHALLENGES.length}/>
@@ -777,7 +777,7 @@ export function ComputerSkillsC1_5Sim({ width = 720, height = 560, onComplete }:
                 setStars(0);
                 setErrors(0);
                 setGameOver(false);
-            }} className="px-6 py-3 bg-sky-600 text-white font-black rounded-2xl shadow-xl hover:bg-sky-700">
+            }} className="px-6 py-3 bg-gold-600 text-white font-black rounded-2xl shadow-xl hover:bg-gold-700">
               Play Again 🔄
             </button>
           </motion.div>
@@ -787,7 +787,7 @@ export function ComputerSkillsC1_5Sim({ width = 720, height = 560, onComplete }:
           {/* Top Bar */}
           <div className="flex items-center justify-between px-2">
             <div className="flex items-center gap-2">
-              <span className="text-sm font-extrabold text-sky-600 bg-sky-100 px-3 py-1 rounded-xl shadow">
+              <span className="text-sm font-extrabold text-gold-600 bg-gold-100 px-3 py-1 rounded-xl shadow">
                 Challenge {currentIdx + 1} of {CHALLENGES.length}
               </span>
             </div>
@@ -795,7 +795,7 @@ export function ComputerSkillsC1_5Sim({ width = 720, height = 560, onComplete }:
           </div>
 
           {/* Question Box */}
-          <div className="my-2 bg-white/90 backdrop-blur rounded-2xl p-4 shadow-lg border-2 border-sky-200 text-center max-w-xl mx-auto w-full">
+          <div className="my-2 bg-white/90 backdrop-blur rounded-2xl p-4 shadow-lg border-2 border-gold-200 text-center max-w-xl mx-auto w-full">
             <h3 className="text-lg font-black text-gray-800">{challenge.question}</h3>
           </div>
 
@@ -822,7 +822,7 @@ export function ComputerSkillsC1_5Sim({ width = 720, height = 560, onComplete }:
               </div>) : (
             /* Multiple Choice View */
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-xl">
-                {challenge.options.map((option) => (<motion.button key={option} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => handleAnswer(option)} className="flex flex-col items-center justify-center p-5 bg-white rounded-2xl shadow-xl border-3 border-sky-300 hover:border-sky-500 font-extrabold text-gray-800 text-base">
+                {challenge.options.map((option) => (<motion.button key={option} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={() => handleAnswer(option)} className="flex flex-col items-center justify-center p-5 bg-white rounded-2xl shadow-xl border-3 border-gold-300 hover:border-gold-500 font-extrabold text-gray-800 text-base">
                     {option === 'Monitor' ? <MonitorIcon size={45}/> :
                         option === 'Keyboard' ? <KeyboardIcon size={45}/> :
                             option === 'Mouse' ? <MouseIcon size={45}/> :

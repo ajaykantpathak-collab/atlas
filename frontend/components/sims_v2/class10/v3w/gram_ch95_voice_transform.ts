@@ -28,8 +28,8 @@ export const c10_gram_ch95: SimDef = {
         hook: 'One missing word — "other" — turns a perfect sentence into a logical impossibility. Frames carry set-logic.',
     },
     teaching: [
-        { title: 'Voice surgery', text: 'Object → subject, verb → be+V3 (be carries the tense), doer → by-agent or deleted.', emoji: '🔁', bgColor: 'from-purple-500 to-violet-600' },
-        { title: 'The containers', text: 'One finite verb = simple. Two equals + and/but = compound. Main + subordinate (because/although) = complex.', emoji: '📦', bgColor: 'from-violet-500 to-fuchsia-600' },
+        { title: 'Voice surgery', text: 'Object → subject, verb → be+V3 (be carries the tense), doer → by-agent or deleted.', emoji: '🔁', bgColor: 'from-purple-500 to-gold-600' },
+        { title: 'The containers', text: 'One finite verb = simple. Two equals + and/but = compound. Main + subordinate (because/although) = complex.', emoji: '📦', bgColor: 'from-gold-500 to-fuchsia-600' },
     ],
 
     beats: [

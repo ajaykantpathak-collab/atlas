@@ -28,7 +28,7 @@ const TEACHING_SLIDES = [
     title: 'Day and Night 🌞🌙',
     text: 'Earth is a round ball spinning in space! The sun shines all the time. When our side faces the sun, it is DAY. When our side turns away, it is NIGHT!',
     emoji: '🌍',
-    bgColor: 'from-amber-400 to-indigo-600',
+    bgColor: 'from-amber-400 to-gold-600',
   },
   {
     title: 'Our Solar Family 🪐',
@@ -40,7 +40,7 @@ const TEACHING_SLIDES = [
     title: 'Ladder of Time ⏳',
     text: 'Time climbs from a single day, to 7 days in a week (Monday to Sunday), about 4 weeks in a month, and 12 months in a full year!',
     emoji: '📅',
-    bgColor: 'from-blue-400 to-cyan-500',
+    bgColor: 'from-gold-400 to-gold-500',
   },
   {
     title: 'Relative Directions 📍',
@@ -52,7 +52,7 @@ const TEACHING_SLIDES = [
     title: 'Four Main Directions 🧭',
     text: 'The sun always rises in the EAST and sets in the WEST. If you face the rising sun, North is to your left and South is to your right!',
     emoji: '🧭',
-    bgColor: 'from-purple-400 to-indigo-600',
+    bgColor: 'from-purple-400 to-gold-600',
   },
 ];
 
@@ -185,9 +185,9 @@ function AstronautAakash({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'th
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-200"
           >
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -463,7 +463,7 @@ function SortCard({
       height={95}
     >
       <div
-        className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-200 ${
+        className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${
           placed ? 'opacity-40 bg-gray-100' : 'bg-white'
         } px-2 py-1`}
         style={{ width: 110, height: 95 }}
@@ -547,7 +547,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
   };
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-white bg-gradient-to-br from-indigo-950 via-purple-950 to-blue-950">
+    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-white bg-gradient-to-br from-gold-950 via-purple-950 to-gold-950">
       <SpaceScene width={720} height={560} />
       <div className="relative z-10 max-w-lg w-full bg-white/10 backdrop-blur-md rounded-3xl p-6 border border-white/20 shadow-2xl flex flex-col items-center text-center">
         {/* Slide header */}
@@ -555,7 +555,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
           {slide.emoji}
         </div>
         <h2 className="text-2xl font-black text-white mb-2">{slide.title}</h2>
-        <p className="text-sm font-medium text-indigo-100 leading-relaxed mb-6 min-h-[70px]">
+        <p className="text-sm font-medium text-gold-100 leading-relaxed mb-6 min-h-[70px]">
           {slide.text}
         </p>
 
@@ -583,7 +583,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
           )}
           <button
             onClick={handleNext}
-            className="flex-1 py-3 px-6 rounded-2xl bg-gradient-to-r from-yellow-400 to-amber-500 hover:from-yellow-300 hover:to-amber-400 text-indigo-950 font-black text-lg transition-all shadow-lg active:scale-95"
+            className="flex-1 py-3 px-6 rounded-2xl bg-gradient-to-r from-yellow-400 to-amber-500 hover:from-yellow-300 hover:to-amber-400 text-gold-950 font-black text-lg transition-all shadow-lg active:scale-95"
           >
             {currentSlide === TEACHING_SLIDES.length - 1 ? '🚀 Start Game!' : 'Next ➡️'}
           </button>
@@ -806,12 +806,12 @@ export function SolarSystemGame({ width = 720, height = 560, onComplete }: Solar
       {/* Header bar */}
       <div className="relative z-10 w-full flex items-center justify-between px-6 py-3 bg-white/10 backdrop-blur-md border-b border-white/10">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-r from-yellow-400 to-amber-500 flex items-center justify-center text-lg font-black text-indigo-950 shadow">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-r from-yellow-400 to-amber-500 flex items-center justify-center text-lg font-black text-gold-950 shadow">
             🚀
           </div>
           <div>
             <h1 className="text-sm font-black text-white leading-tight">Solar System Explorer</h1>
-            <p className="text-[10px] font-bold text-indigo-200">
+            <p className="text-[10px] font-bold text-gold-200">
               Challenge {Math.min(currentChallengeIndex + 1, CHALLENGES.length)} of {CHALLENGES.length}
             </p>
           </div>
@@ -830,9 +830,9 @@ export function SolarSystemGame({ width = 720, height = 560, onComplete }: Solar
       {/* Main Game Area */}
       <div className="relative z-10 flex-1 w-full flex flex-col items-center justify-center p-6">
         {!isCompleteScreen && (
-          <div className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-2 border-indigo-200 flex flex-col items-center text-center">
+          <div className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-2 border-gold-200 flex flex-col items-center text-center">
             {/* Question */}
-            <h2 className="text-lg font-black text-indigo-950 mb-6 leading-snug">
+            <h2 className="text-lg font-black text-gold-950 mb-6 leading-snug">
               {challenge.question}
             </h2>
 
@@ -845,9 +845,9 @@ export function SolarSystemGame({ width = 720, height = 560, onComplete }: Solar
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={e => handleOptionClick(option, e)}
-                    className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-indigo-50 to-blue-50 hover:from-indigo-100 hover:to-blue-100 border-2 border-indigo-200 text-indigo-950 font-bold text-sm shadow-sm transition-all flex items-center justify-center gap-3"
+                    className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-gold-50 to-gold-50 hover:from-gold-100 hover:to-gold-100 border-2 border-gold-200 text-gold-950 font-bold text-sm shadow-sm transition-all flex items-center justify-center gap-3"
                   >
-                    <span className="w-7 h-7 rounded-full bg-indigo-600 text-white flex items-center justify-center text-xs font-black">
+                    <span className="w-7 h-7 rounded-full bg-gold-600 text-white flex items-center justify-center text-xs font-black">
                       {idx + 1}
                     </span>
                     <span>{option}</span>

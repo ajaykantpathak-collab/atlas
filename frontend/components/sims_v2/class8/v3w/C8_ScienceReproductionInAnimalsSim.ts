@@ -11,7 +11,7 @@ export const w_c8_sciencereproductioninanimalssim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Habitat: Definition and Components (Living and Non-Living)',
     chapters: [],
     nodeIds: ['c8_physics_ch8_1', 'c8_physics_ch8_11', 'c8_physics_ch8_2', 'c8_physics_ch8_8'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Start by asking students to observe a nearby tree or pond: "What do you see living on and around it?" List.', goal: 'Master Habitat: Definition and Components (Living and Non-Living).' },
     discovery: {
         question: 'A region experiences a 30% reduction in annual rainfall over five years. The soil moisture drops from 25% to 15% (by volume).',
@@ -20,7 +20,7 @@ export const w_c8_sciencereproductioninanimalssim: SimDef = {
         hook: 'Students often think that environmental changes affect all organisms in the same way and at the same time.',
     },
     teaching: [
-        { title: 'A habitat is the natural environment where.', text: 'A habitat is the natural environment where an organism lives, providing all necessary biotic (living) and abiotic (non-living) components for its survival, growth, and reproduction.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A habitat is the natural environment where.', text: 'A habitat is the natural environment where an organism lives, providing all necessary biotic (living) and abiotic (non-living) components for its survival, growth, and reproduction.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch8_1', title: 'A habitat is the natural environment.',

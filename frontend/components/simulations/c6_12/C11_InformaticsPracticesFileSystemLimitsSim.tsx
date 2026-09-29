@@ -63,7 +63,7 @@ export function C11_InformaticsPracticesFileSystemLimitsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">CBSE Class 11 IP - Database Concepts</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 11 IP - Database Concepts</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Three Flat Files vs One Database</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -77,8 +77,8 @@ export function C11_InformaticsPracticesFileSystemLimitsSim() {
           <button onClick={() => { setMode('db'); setCopies((c) => [c[2], c[2], c[2]]); say('DBMS: the fact now lives ONCE. All stale copies collapsed into one shared truth.'); }}
             className={`min-h-11 px-4 text-xs font-bold transition-all ${mode === 'db' ? 'bg-emerald-600 text-white' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'}`}>DBMS</button>
         </div>
-        <button onClick={move} className="min-h-11 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold transition-all">Diya moves house</button>
-        <button onClick={admit} disabled={kabir} className="min-h-11 px-4 rounded-xl bg-violet-600 hover:bg-violet-500 text-xs font-bold disabled:opacity-40 transition-all">New admission: Kabir</button>
+        <button onClick={move} className="min-h-11 px-4 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">Diya moves house</button>
+        <button onClick={admit} disabled={kabir} className="min-h-11 px-4 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold disabled:opacity-40 transition-all">New admission: Kabir</button>
         <button onClick={query} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold transition-all">Office query: Diya&apos;s address?</button>
         <button onClick={() => { setRenamed((r) => !r); say(mode === 'file' ? 'exam.dat column renamed addr -> address. The other two programs were never told...' : 'ALTER TABLE STUDENT RENAME addr TO address. Metadata lives in the DBMS; every view keeps working.'); }}
           className={`min-h-11 px-4 rounded-xl text-xs font-bold border transition-all ${renamed ? 'bg-amber-700 border-amber-500 text-white' : 'bg-slate-800 hover:bg-slate-700 border-slate-700'}`}>
@@ -118,9 +118,9 @@ export function C11_InformaticsPracticesFileSystemLimitsSim() {
 
         <div className="space-y-3">
           <div className="grid grid-cols-2 gap-2">
-            <div className="p-2 rounded-xl bg-slate-900 border border-indigo-800 text-center">
+            <div className="p-2 rounded-xl bg-slate-900 border border-gold-800 text-center">
               <p className="text-[10px] uppercase tracking-wider text-slate-400">Copies of the fact</p>
-              <p className="text-lg font-extrabold font-mono text-indigo-300">{factCopies}</p>
+              <p className="text-lg font-extrabold font-mono text-gold-300">{factCopies}</p>
             </div>
             <div className={`p-2 rounded-xl border text-center ${mismatches > 0 ? 'bg-rose-950/60 border-rose-700' : 'bg-slate-900 border-slate-800'}`}>
               <p className="text-[10px] uppercase tracking-wider text-slate-400">Inconsistent copies</p>
@@ -132,7 +132,7 @@ export function C11_InformaticsPracticesFileSystemLimitsSim() {
             </div>
             <div className="p-2 rounded-xl bg-slate-900 border border-slate-800 text-center">
               <p className="text-[10px] uppercase tracking-wider text-slate-400">Storage / query time</p>
-              <p className="text-lg font-extrabold font-mono text-sky-300">{storageKB.toFixed(2)} KB / {queryMs >= 1000 ? (queryMs / 1000).toFixed(1) + ' s' : queryMs + ' ms'}</p>
+              <p className="text-lg font-extrabold font-mono text-gold-300">{storageKB.toFixed(2)} KB / {queryMs >= 1000 ? (queryMs / 1000).toFixed(1) + ' s' : queryMs + ' ms'}</p>
             </div>
           </div>
           <div className="p-3 rounded-2xl bg-slate-900 border border-slate-800 text-[11px] font-mono leading-relaxed min-h-24">
@@ -152,7 +152,7 @@ export function C11_InformaticsPracticesFileSystemLimitsSim() {
         <span className="font-bold text-emerald-300">Misconception killer:</span> flat files do not fail because they cannot store data -- they fail because the SAME fact lives in many places and quietly goes stale (redundancy breeding inconsistency). A DBMS stores each fact once in a shared schema, so one UPDATE is instantly true for every program.
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-sky-950/60 to-slate-900 border border-sky-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. In file mode move Diya twice, then run the office query. Count the stale copies and explain which file lies about her address.</p>
         <p className="mt-1">2. Admit Kabir in each mode and compare &quot;writes per change&quot; and storage -- why does the DBMS row grow by 1 while the files grow by 3?</p>

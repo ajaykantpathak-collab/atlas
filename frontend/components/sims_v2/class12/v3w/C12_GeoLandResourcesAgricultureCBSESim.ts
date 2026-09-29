@@ -11,7 +11,7 @@ export const w_c12_geolandresourcesagriculturecbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Land Resources in India: Utilisation Pattern and Categories',
     chapters: [],
     nodeIds: ['c12_geo_cbse_11_001', 'c12_geo_cbse_09_011', 'c12_geo_cbse_12_002', 'c12_geo_cbse_11_003', 'c12_geo_cbse_12_001', 'c12_geo_cbse_12_009', 'c12_geo_cbse_11_002', 'c12_geo_cbse_11_004', 'c12_geo_cbse_11_005', 'c12_geo_cbse_11_011', 'c12_geo_cbse_05_001', 'c12_geo_cbse_05_004', 'c12_geo_cbse_05_005', 'c12_geo_cbse_05_007', 'c12_geo_cbse_05_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe your local village/tehsil revenue map — you will see columns for "forest", "culturable waste",.', goal: 'Master Land Resources in India: Utilisation Pattern and Categories.' },
     discovery: {
         question: 'Define "reporting area" and explain how it differs from "geographical area" in the context of Indian land use statistics.',
@@ -20,7 +20,7 @@ export const w_c12_geolandresourcesagriculturecbsesim: SimDef = {
         hook: 'Students think "current fallow" and "fallow other than current fallow" are just "fallow land" — they miss the critical.',
     },
     teaching: [
-        { title: 'Land use categories are the nine-fold.', text: 'Land use categories are the nine-fold classification of India\'s reporting area maintained in land revenue records, including forests, barren and wastelands, non-agricultural uses, permanent pastures,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Land use categories are the nine-fold.', text: 'Land use categories are the nine-fold classification of India\'s reporting area maintained in land revenue records, including forests, barren and wastelands, non-agricultural uses, permanent pastures,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_11_001', title: 'Land use categories are the nine-fold.',

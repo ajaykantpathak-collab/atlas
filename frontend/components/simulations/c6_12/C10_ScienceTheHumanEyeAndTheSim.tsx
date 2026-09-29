@@ -298,7 +298,7 @@ function Chip({ children, tone = 'slate' }: { children: React.ReactNode; tone?: 
     green: 'bg-emerald-950 text-emerald-300 border-emerald-800',
     red: 'bg-rose-950 text-rose-300 border-rose-800',
     amber: 'bg-amber-950 text-amber-300 border-amber-800',
-    sky: 'bg-sky-950 text-sky-300 border-sky-800',
+    sky: 'bg-gold-950 text-gold-300 border-gold-800',
   };
   return (
     <span className={`px-2 py-0.5 rounded-lg text-[10px] font-bold border ${tones[tone] ?? tones.slate}`}>
@@ -327,7 +327,7 @@ function PowerWindow({
     <div className="bg-slate-950 rounded-xl border border-slate-800 p-3">
       <div className="relative h-7 rounded-full bg-slate-900 border border-slate-800 overflow-hidden">
         <div
-          className="absolute inset-y-0 bg-gradient-to-r from-sky-700 to-sky-500 opacity-60"
+          className="absolute inset-y-0 bg-gradient-to-r from-gold-700 to-gold-500 opacity-60"
           style={{ left: `${x(pMin)}%`, width: `${Math.max(2, x(pMax) - x(pMin))}%` }}
           title="usable power window"
         />
@@ -342,7 +342,7 @@ function PowerWindow({
       </div>
       <div className="flex justify-between text-[9px] text-slate-600 mt-1">
         <span>{LO} D</span>
-        <span className="text-sky-400">window [{pMin.toFixed(1)}, {pMax.toFixed(1)}]</span>
+        <span className="text-gold-400">window [{pMin.toFixed(1)}, {pMax.toFixed(1)}]</span>
         <span>{HI} D</span>
       </div>
     </div>
@@ -459,9 +459,9 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">\ud83d\udc41</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">\ud83d\udc41</span>
         <div className="flex-1 min-w-[220px]">
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
             Class 10 -- The Human Eye and the Colourful World
           </span>
           <h1 className="text-xl md:text-2xl font-extrabold">Accommodation Engine and Correcting Defects</h1>
@@ -477,7 +477,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-sky-600 border-sky-500 text-white shadow-lg shadow-sky-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -492,8 +492,8 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
       {/* ============================================================ */}
       {tab === 'discover' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-sky-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-sky-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               A myopic eye\u2019s far point is 66.7 cm. You give it a \u22121.50 D spectacle lens. Where
               is the far point NOW -- measured from the lens?
@@ -507,7 +507,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 1;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-sky-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -553,7 +553,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-sky-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -632,12 +632,12 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Object distance</span>
-                  <span className="font-mono font-bold text-sky-400">{distanceCm} cm</span>
+                  <span className="font-mono font-bold text-gold-400">{distanceCm} cm</span>
                 </div>
                 <input
                   type="range" min={15} max={400} value={distanceCm} aria-label="object distance"
                   onChange={(e) => setDistanceCm(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="grid grid-cols-3 gap-1.5">
@@ -645,7 +645,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
                   <button
                     key={d}
                     onClick={() => { setDefect(d); setCorrection(0); }}
-                    className={`py-1.5 rounded-lg text-[10px] font-bold capitalize ${defect === d ? 'bg-sky-600' : 'bg-slate-800 hover:bg-slate-700'}`}
+                    className={`py-1.5 rounded-lg text-[10px] font-bold capitalize ${defect === d ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}
                   >
                     {d}
                   </button>
@@ -654,7 +654,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Spectacle lens power</span>
-                  <span className={`font-mono font-bold ${correction < 0 ? 'text-cyan-300' : correction > 0 ? 'text-amber-300' : 'text-slate-400'}`}>
+                  <span className={`font-mono font-bold ${correction < 0 ? 'text-gold-300' : correction > 0 ? 'text-amber-300' : 'text-slate-400'}`}>
                     {correction > 0 ? '+' : ''}{correction.toFixed(2)} D
                   </span>
                 </div>
@@ -673,8 +673,8 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
             </div>
 
             {/* readouts (original panel preserved + extended) */}
-            <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4 text-xs font-mono space-y-1">
-              <p className="text-slate-300">Power needed: 40 + 100/{distanceCm} = <span className="text-sky-300 font-bold">{reqPower.toFixed(2)} D</span></p>
+            <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+              <p className="text-slate-300">Power needed: 40 + 100/{distanceCm} = <span className="text-gold-300 font-bold">{reqPower.toFixed(2)} D</span></p>
               <p className="text-slate-500">
                 Eye window: [{pMin.toFixed(1)}, {pMax.toFixed(1)}] D
                 {defect !== 'normal' && <span className="text-rose-400"> (shifted by {defectShift} D)</span>}
@@ -687,7 +687,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
                 Spectacle adds {correction.toFixed(2)} D in front -- net demand on the eye: {needed.toFixed(2)} D
               </p>
               {defect === 'myopia' && farPoint < Infinity && (
-                <p className="text-cyan-300">
+                <p className="text-gold-300">
                   Correct infinity Rx = 1/(\u2212{(farPoint / 100).toFixed(2)} m) = {(-100 / farPoint).toFixed(2)} D
                 </p>
               )}
@@ -703,8 +703,8 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               </p>
             </div>
 
-            <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-              <p className="font-bold text-sky-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Give the myopic eye exactly \u22121.50 D and slide the object to 300 cm. Predict sharp before checking.</p>
               <p className="mt-1">2. With the normal eye at 25 cm, why does the near point equal exactly 25? Verify with P = 44 D.</p>
               <p className="mt-1">3. Over-correct on purpose (+1 D too much). Which direction does the blur go, and what does that feel like in real life?</p>
@@ -725,7 +725,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
                   <button
                     key={pt.name}
                     onClick={() => { setPatientIdx(i); setPatientRx(0); }}
-                    className={`flex-1 py-2 rounded-xl text-[11px] font-bold ${patientIdx === i ? 'bg-sky-600' : 'bg-slate-800 hover:bg-slate-700'}`}
+                    className={`flex-1 py-2 rounded-xl text-[11px] font-bold ${patientIdx === i ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}
                   >
                     Patient {i + 1}
                   </button>
@@ -738,7 +738,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Your prescription</span>
-                  <span className={`font-mono font-bold ${patientRx < 0 ? 'text-cyan-300' : patientRx > 0 ? 'text-amber-300' : 'text-slate-500'}`}>
+                  <span className={`font-mono font-bold ${patientRx < 0 ? 'text-gold-300' : patientRx > 0 ? 'text-amber-300' : 'text-slate-500'}`}>
                     {patientRx > 0 ? '+' : ''}{patientRx.toFixed(2)} D
                   </span>
                 </div>
@@ -750,7 +750,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               </div>
               <button
                 onClick={() => setTab('focus')}
-                className="w-full min-h-9 rounded-xl bg-sky-600 hover:bg-sky-500 text-xs font-bold"
+                className="w-full min-h-9 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold"
               >
                 Test this Rx in the Focus Lab \u2192
               </button>
@@ -825,8 +825,8 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               </p>
             </div>
 
-            <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-              <p className="font-bold text-sky-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Patient 1: derive the Rx from 66.7 cm yourself BEFORE checking -- P = 1/(\u22120.667 m).</p>
               <p className="mt-1">2. Give Kiran (patient 3) a \u22121.00 D by mistake. What happens to his near point, and why does he now complain twice as much?</p>
             </div>
@@ -842,7 +842,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
           <div className="space-y-4">
             {/* prism dispersion */}
             <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4">
-              <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">
+              <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
                 Dispersion: the prism sorts what white light already contains
               </p>
               <svg viewBox="0 0 440 200" className="w-full" role="img" aria-label="prism dispersion">
@@ -909,7 +909,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
           <div className="space-y-4">
             {/* sky simulator */}
             <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4">
-              <p className="text-xs font-bold uppercase tracking-wider text-sky-400 mb-2">
+              <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
                 Sky colour vs Sun elevation
               </p>
               <div
@@ -949,8 +949,8 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
               </p>
             </div>
 
-            <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs">
-              <p className="font-bold text-violet-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>1. Drag the Sun from 90\u00b0 to 0\u00b0 and narrate the colour change with the 1/\u03bb\u2074 rule.</p>
               <p className="mt-1">2. Why does a "red sunset" prove the atmosphere, not the Sun, is doing the colouring? What would the sky look like from the Moon (no air)?</p>
             </div>
@@ -975,7 +975,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
                   key={t}
                   onClick={() => setTierFilter(t)}
                   className={`min-h-9 px-3 rounded-lg text-[11px] font-bold capitalize transition-all ${
-                    tierFilter === t ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                    tierFilter === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
                   {t}
@@ -1007,7 +1007,7 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
                 <p className="text-sm text-slate-200 leading-relaxed mb-2.5">{ch.question}</p>
                 <div className="space-y-1.5">
                   {ch.options.map((opt, i) => {
-                    let cls = 'border-slate-700 bg-slate-950 hover:border-sky-600';
+                    let cls = 'border-slate-700 bg-slate-950 hover:border-gold-600';
                     if (isRevealed && i === ch.correctIndex) cls = 'border-emerald-600 bg-emerald-950/60';
                     else if (isRevealed && i === chosen) cls = 'border-rose-600 bg-rose-950/60';
                     return (
@@ -1080,14 +1080,14 @@ export function C10_ScienceTheHumanEyeAndTheSim() {
           </div>
 
           <div className="p-5 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-sky-400 mb-2">If you remember three lines</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">If you remember three lines</p>
             <ol className="space-y-2 text-sm text-slate-300 leading-relaxed list-decimal ml-5">
               <li>The eye focuses by CHANGING its lens shape -- power window [40, 44] D for a young normal eye.</li>
               <li>Myopia = window too strong (far point pulled in, minus lens fixes); hypermetropia = too weak up close (plus lens).</li>
               <li>Blue skies, red sunsets, twinkling stars and rainbows are all one story: refraction + 1/\u03bb\u2074 scattering.</li>
             </ol>
             <div className="mt-3 flex gap-2">
-              <button onClick={() => setTab('focus')} className="min-h-11 px-5 rounded-xl bg-sky-600 hover:bg-sky-500 text-sm font-bold">
+              <button onClick={() => setTab('focus')} className="min-h-11 px-5 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold">
                 Back to the Focus Lab
               </button>
               <button

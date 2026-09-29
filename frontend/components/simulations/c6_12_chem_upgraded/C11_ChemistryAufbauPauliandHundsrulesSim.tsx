@@ -1670,12 +1670,12 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
       {/* HEADER BAR */}
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-blue-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-gold-500/30">
             e⁻
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider bg-blue-500/20 text-blue-400 px-2.5 py-0.5 rounded-full border border-blue-500/30">
+              <span className="text-xs font-semibold uppercase tracking-wider bg-gold-500/20 text-gold-400 px-2.5 py-0.5 rounded-full border border-gold-500/30">
                 ISC Class 11 Chemistry
               </span>
               <span className="text-xs font-semibold uppercase tracking-wider bg-purple-500/20 text-purple-400 px-2.5 py-0.5 rounded-full border border-purple-500/30">
@@ -1709,7 +1709,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                 onClick={() => handleTabChange(tab)}
                 className={`px-4 py-2 rounded-lg text-xs font-bold capitalize transition-all duration-200 ${
                   activeTab === tab
-                    ? 'bg-blue-600 text-white shadow-md shadow-blue-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'text-slate-400 hover:text-white hover:bg-slate-900'
                 }`}
               >
@@ -1728,8 +1728,8 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
         {activeTab === 'discovery' && (
           <div className="space-y-6 animate-fadeIn">
             {/* SCENARIO CARD */}
-            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 rounded-2xl p-6 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
                 <span>🔬 Laboratory Context</span>
               </div>
               <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
@@ -1803,7 +1803,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-xs text-blue-400 font-bold uppercase tracking-wider">
+                    <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                       Prediction #{pIdx + 1}
                     </span>
                     <span className="text-xs text-slate-500">Node: {pq.nodeId}</span>
@@ -1862,7 +1862,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                     }}
                     className={`p-3 rounded-xl border text-left transition-all ${
                       activeLabStep === idx
-                        ? 'bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-600/30 font-bold'
+                        ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30 font-bold'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white hover:bg-slate-900'
                     }`}
                   >
@@ -1873,12 +1873,12 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
               </div>
 
               {/* ACTIVE STEP INSTRUCTION */}
-              <div className="mt-4 bg-slate-950 p-4 rounded-xl border border-blue-500/30 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+              <div className="mt-4 bg-slate-950 p-4 rounded-xl border border-gold-500/30 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                 <div>
                   <h3 className="text-sm font-bold text-white">{EXPLORATION_STEPS[activeLabStep].title}</h3>
                   <p className="text-xs text-slate-300 mt-1">{EXPLORATION_STEPS[activeLabStep].instruction}</p>
                 </div>
-                <span className="text-[10px] font-mono bg-blue-500/20 text-blue-300 px-2.5 py-1 rounded border border-blue-500/30 whitespace-nowrap">
+                <span className="text-[10px] font-mono bg-gold-500/20 text-gold-300 px-2.5 py-1 rounded border border-gold-500/30 whitespace-nowrap">
                   Node: {EXPLORATION_STEPS[activeLabStep].nodeId}
                 </span>
               </div>
@@ -1901,7 +1901,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                           onClick={() => setSelectedCanvasOrbital(orb)}
                           className={`py-2 rounded-lg text-xs font-bold uppercase border transition-all ${
                             selectedCanvasOrbital === orb
-                              ? 'bg-blue-600 border-blue-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                           }`}
                         >
@@ -1915,7 +1915,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs space-y-2">
                     <div className="flex justify-between border-b border-slate-800 pb-1">
                       <span className="text-slate-400">Principal Quantum Number (n):</span>
-                      <span className="font-bold text-blue-400">
+                      <span className="font-bold text-gold-400">
                         {selectedCanvasOrbital === '1s' ? 1 : selectedCanvasOrbital.startsWith('2') ? 2 : 3}
                       </span>
                     </div>
@@ -1984,7 +1984,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                     <select
                       value={selectedZ}
                       onChange={(e) => setSelectedZ(Number(e.target.value))}
-                      className="bg-slate-950 border border-slate-700 text-white rounded-lg px-3 py-1.5 text-xs font-bold focus:outline-none focus:border-blue-500"
+                      className="bg-slate-950 border border-slate-700 text-white rounded-lg px-3 py-1.5 text-xs font-bold focus:outline-none focus:border-gold-500"
                     >
                       {ELEMENTS_DATA.map((elem) => (
                         <option key={elem.z} value={elem.z}>
@@ -1997,7 +1997,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => fillOrbitalsForZ(selectedZ)}
-                      className="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold transition-all"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold transition-all"
                     >
                       Auto-Fill Ground State
                     </button>
@@ -2027,7 +2027,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                         {currentElement.name} ({currentElement.symbol}) — Z = {currentElement.z}
                       </h3>
                       <p className="text-xs text-slate-400 mt-0.5">
-                        Standard Config: <span className="font-mono text-blue-400">{currentElement.configString}</span>
+                        Standard Config: <span className="font-mono text-gold-400">{currentElement.configString}</span>
                       </p>
                     </div>
 
@@ -2075,7 +2075,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                       { sub: '3d', slots: ['3d_0', '3d_1', '3d_2', '3d_3', '3d_4'] }
                     ].map((group) => (
                       <div key={group.sub} className="flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-slate-950 p-3 rounded-xl border border-slate-800">
-                        <div className="w-16 font-bold text-sm text-blue-400">{group.sub} subshell</div>
+                        <div className="w-16 font-bold text-sm text-gold-400">{group.sub} subshell</div>
                         <div className="flex flex-wrap gap-2">
                           {group.slots.map((slotKey, sIdx) => {
                             const electrons = userOrbitals[slotKey] || [];
@@ -2083,7 +2083,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                               <button
                                 key={slotKey}
                                 onClick={() => handleOrbitalBoxClick(slotKey)}
-                                className="w-14 h-14 bg-slate-900 border-2 border-slate-700 hover:border-blue-500 rounded-lg flex items-center justify-center gap-1 transition-all shadow-inner relative"
+                                className="w-14 h-14 bg-slate-900 border-2 border-slate-700 hover:border-gold-500 rounded-lg flex items-center justify-center gap-1 transition-all shadow-inner relative"
                               >
                                 <span className="absolute top-1 left-1 text.x-small font-mono text-slate-500 text-[9px]">
                                   {group.sub.includes('p')
@@ -2096,7 +2096,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                                   <span
                                     key={idx}
                                     className={`text-xl font-extrabold ${
-                                      sp === 'up' ? 'text-blue-400' : 'text-rose-400'
+                                      sp === 'up' ? 'text-gold-400' : 'text-rose-400'
                                     }`}
                                   >
                                     {sp === 'up' ? '↑' : '↓'}
@@ -2263,7 +2263,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
                       challengeTierFilter === tier
-                        ? 'bg-blue-600 text-white'
+                        ? 'bg-gold-600 text-white'
                         : 'bg-slate-950 text-slate-400 border border-slate-800 hover:text-white'
                     }`}
                   >
@@ -2301,7 +2301,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                     <span
                       className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full border ${
                         currentChallenge.difficulty === 'foundation'
-                          ? 'bg-blue-500/20 text-blue-400 border-blue-500/30'
+                          ? 'bg-gold-500/20 text-gold-400 border-gold-500/30'
                           : currentChallenge.difficulty === 'standard'
                           ? 'bg-amber-500/20 text-amber-400 border-amber-500/30'
                           : 'bg-rose-500/20 text-rose-400 border-rose-500/30'
@@ -2365,7 +2365,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                         type="number"
                         id={`numeric_input_${currentChallenge.id}`}
                         placeholder="e.g. 10"
-                        className="flex-1 bg-slate-950 border border-slate-700 text-white rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-blue-500 font-mono"
+                        className="flex-1 bg-slate-950 border border-slate-700 text-white rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-gold-500 font-mono"
                       />
                       <button
                         onClick={() => {
@@ -2374,7 +2374,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                             handleNumericSubmit(Number(input.value));
                           }
                         }}
-                        className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-xl transition-all"
+                        className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl transition-all"
                       >
                         Submit
                       </button>
@@ -2391,7 +2391,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                     <div className="grid grid-cols-1 sm:grid-cols-4 gap-2">
                       {dragSortedItems.map((item, idx) => (
                         <div key={idx} className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex flex-col justify-between gap-2">
-                          <span className="text-xs font-mono text-blue-400">{item}</span>
+                          <span className="text-xs font-mono text-gold-400">{item}</span>
                           <div className="flex gap-1 justify-end">
                             {idx > 0 && (
                               <button
@@ -2463,7 +2463,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
             {/* REAL-WORLD ACTIVITY BOARD */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <div className="flex justify-between items-center">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider bg-gold-500/10 px-3 py-1 rounded-full border border-gold-500/20">
                   🌐 Real-World Industry Application
                 </span>
                 <span className="text-xs text-slate-400">ISC Class 11 Practical Link</span>
@@ -2474,7 +2474,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((st, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">
                       {idx + 1}
                     </span>
                     <span>{st}</span>
@@ -2504,7 +2504,7 @@ export default function C11_ChemistryAufbauPauliandHundsrulesSim({
                           level === 'mastered'
                             ? 'bg-emerald-950 text-emerald-400 border-emerald-500/30'
                             : level === 'proficient'
-                            ? 'bg-blue-950 text-blue-400 border-blue-500/30'
+                            ? 'bg-gold-950 text-gold-400 border-gold-500/30'
                             : 'bg-amber-950 text-amber-400 border-amber-500/30'
                         }`}
                       >

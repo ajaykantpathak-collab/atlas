@@ -39,14 +39,14 @@ const TEACHING_SLIDES = [
         title: 'Day and Night 🌞🌙',
         text: 'During the day, the Sun is in the sky, making everything bright! At night, the Sun is gone, the sky is dark, and the moon and stars shine!',
         emoji: '🌙',
-        bgColor: 'from-blue-500 to-indigo-700',
+        bgColor: 'from-gold-500 to-gold-700',
         spoken: 'During the day, the Sun is in the sky making everything bright. At night, the sky is dark and the moon and stars shine!',
     },
     {
         title: 'Where Are the Stars in the Day? ⭐',
         text: 'The moon and stars are in the sky during the day too! But the Sun is so bright that we cannot see their faint light until night comes!',
         emoji: '⭐',
-        bgColor: 'from-sky-400 to-blue-600',
+        bgColor: 'from-gold-400 to-gold-600',
         spoken: 'The moon and stars are in the sky during the day too, but the Sun is so bright that we cannot see them until night!',
     },
     {
@@ -60,7 +60,7 @@ const TEACHING_SLIDES = [
         title: 'Rainy Days and Clouds 🌧️',
         text: 'On a rainy day, thick clouds cover the Sun like a blanket over a lamp! They block the sunlight, so the day becomes cooler and darker!',
         emoji: '🌧️',
-        bgColor: 'from-cyan-500 to-blue-600',
+        bgColor: 'from-gold-500 to-gold-600',
         spoken: 'On a rainy day, thick clouds cover the Sun like a blanket over a lamp, making the day cooler and darker!',
     },
 ];
@@ -487,11 +487,11 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
 
         <button onClick={() => {
             audioManager.play('tap');
-        }} className="px-3 py-2 rounded-xl font-bold text-sm text-white shadow-lg bg-indigo-500 hover:bg-indigo-600 active:scale-95 flex items-center gap-1">
+        }} className="px-3 py-2 rounded-xl font-bold text-sm text-white shadow-lg bg-gold-500 hover:bg-gold-600 active:scale-95 flex items-center gap-1">
           🔊 Listen
         </button>
 
-        <button onClick={handleNext} className="px-5 py-2 rounded-xl font-extrabold text-white text-sm shadow-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 active:scale-95 flex items-center gap-1">
+        <button onClick={handleNext} className="px-5 py-2 rounded-xl font-extrabold text-white text-sm shadow-xl bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-700 hover:to-gold-700 active:scale-95 flex items-center gap-1">
           {slide === total - 1 ? 'Start Game! 🚀' : 'Next ➔'}
         </button>
       </div>
@@ -712,7 +712,7 @@ export function SunMoonGame({width = 720, height = 560, onComplete}: SunMoonGame
               {challenge.options.map((opt, idx) => {
                 const isSelected = selectedOption === opt;
                 const isTheAnswer = opt === challenge.answer;
-                let btnStyle = 'bg-gradient-to-r from-purple-50 to-indigo-50 border-purple-200 text-purple-900 hover:bg-purple-100';
+                let btnStyle = 'bg-gradient-to-r from-purple-50 to-gold-50 border-purple-200 text-purple-900 hover:bg-purple-100';
                 if (showFeedback) {
                     if (isTheAnswer)
                         btnStyle = 'bg-green-500 border-green-600 text-white shadow-lg scale-105';

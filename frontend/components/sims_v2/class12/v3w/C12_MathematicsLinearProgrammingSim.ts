@@ -11,7 +11,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Linear Programming Problem: Definition and Formulation',
     chapters: [],
     nodeIds: ['c12_math_cbse_12_001', 'c12_math_cbse_12_002', 'c12_math_cbse_12_003', 'c12_math_cbse_12_004', 'c12_math_cbse_12_005', 'c12_math_cbse_12_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a small bakery owner in Delhi who makes two types of cakes: Chocolate (profit ₹120 per cake) and.', goal: 'Master Linear Programming Problem: Definition and Formulation.' },
     discovery: {
         question: 'A student formulates the following LPP for a factory producing two products A and B: Maximise \\(Z = 50x + 40y\\) Subject to: \\(2x + 3y \\ge 100\\) (machine hours).',
@@ -20,7 +20,7 @@ export const w_c12_mathematicslinearprogrammingsim: SimDef = {
         hook: '**Misconception:** "In a maximisation problem, all constraints must be ≤ type; in a minimisation problem, all.',
     },
     teaching: [
-        { title: 'A Linear Programming Problem (LPP) is the.', text: 'A Linear Programming Problem (LPP) is the mathematical formulation of an optimisation problem where we seek to find the maximum or minimum value of a linear objective function \\(Z = ax + by\\) (with.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Linear Programming Problem (LPP) is the.', text: 'A Linear Programming Problem (LPP) is the mathematical formulation of an optimisation problem where we seek to find the maximum or minimum value of a linear objective function \\(Z = ax + by\\) (with.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_12_001', title: 'A Linear Programming Problem (LPP) is.',

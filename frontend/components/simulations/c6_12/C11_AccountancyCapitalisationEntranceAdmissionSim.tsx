@@ -1202,7 +1202,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
       {/* ─── PHASE 1: DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-800/60">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-800/60">
             <div className="flex items-center gap-2 mb-2">
               <span className="px-2.5 py-0.5 bg-amber-500/20 text-amber-300 border border-amber-500/40 rounded-full text-xs font-bold uppercase">Auditor Scenario</span>
               <h2 className="text-xl font-bold text-emerald-300">{SCENARIO.title}</h2>
@@ -1384,7 +1384,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                         <div className="text-[10px] text-slate-400">{item.amount}</div>
                       </div>
                       <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                        item.type === 'Capital' ? 'bg-indigo-900/60 text-indigo-300 border border-indigo-700' :
+                        item.type === 'Capital' ? 'bg-gold-900/60 text-gold-300 border border-gold-700' :
                         item.type === 'Specific' ? 'bg-purple-900/60 text-purple-300 border border-purple-700' :
                         'bg-emerald-900/60 text-emerald-300 border border-emerald-700'
                       }`}>
@@ -1402,10 +1402,10 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                       {/* Balance Sheet Target */}
                       <div className={`p-4 rounded-xl border transition-all ${
                         classifiedTarget === 'capital_fund' || classifiedTarget === 'specific_fund'
-                          ? 'bg-indigo-950/70 border-indigo-500 shadow-xl'
+                          ? 'bg-gold-950/70 border-gold-500 shadow-xl'
                           : 'bg-slate-950/50 border-slate-800 opacity-40'
                       }`}>
-                        <div className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1">Balance Sheet (Liabilities)</div>
+                        <div className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-1">Balance Sheet (Liabilities)</div>
                         <div className="text-sm font-extrabold text-white">
                           {classifiedTarget === 'capital_fund' ? 'General Capital Fund' : classifiedTarget === 'specific_fund' ? 'Dedicated Specific Fund' : 'Capital Section'}
                         </div>
@@ -1454,7 +1454,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Opening Capital Fund</span>
-                      <span className="font-mono text-indigo-400 font-bold">₹{openingCapital.toLocaleString()}</span>
+                      <span className="font-mono text-gold-400 font-bold">₹{openingCapital.toLocaleString()}</span>
                     </div>
                     <input
                       type="range"
@@ -1464,14 +1464,14 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                       value={openingCapital}
                       onChange={e => setOpeningCapital(Number(e.target.value))}
                       aria-label="Opening Capital Fund Slider"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Entrance Fees Capitalised</span>
-                      <span className="font-mono text-blue-400 font-bold">₹{entranceFeesCollected.toLocaleString()}</span>
+                      <span className="font-mono text-gold-400 font-bold">₹{entranceFeesCollected.toLocaleString()}</span>
                     </div>
                     <input
                       type="range"
@@ -1481,7 +1481,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                       value={entranceFeesCollected}
                       onChange={e => setEntranceFeesCollected(Number(e.target.value))}
                       aria-label="Entrance Fees Capitalised Slider"
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1665,7 +1665,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="text-slate-400 font-bold mb-1">Sales / Purchases Ledger</div>
-                      <div className="text-blue-400 font-bold">Cr ₹{casVoucherCalculation.taxable.toLocaleString()}</div>
+                      <div className="text-gold-400 font-bold">Cr ₹{casVoucherCalculation.taxable.toLocaleString()}</div>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="text-slate-400 font-bold mb-1">Output CGST Ledger</div>
@@ -1720,7 +1720,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setSelectedSoftware(st)}
                           className={`p-2 rounded-lg text-xs font-bold uppercase transition-all ${
-                            selectedSoftware === st ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            selectedSoftware === st ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           {st === 'none' ? 'Manual' : st === 'tally' ? 'Tally Prime' : 'SAP ERP'}
@@ -1878,11 +1878,11 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
           {/* ─── BRILLIANT-STYLE INTERACTIVE PREDICTION & OBSERVATION PANELS ─── */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-4 border-t border-slate-800">
             {/* PREDICTION PANEL */}
-            <div className="p-5 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4">
+            <div className="p-5 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-indigo-400 animate-pulse" />
-                  <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+                  <span className="w-2.5 h-2.5 rounded-full bg-gold-400 animate-pulse" />
+                  <span className="text-xs font-bold uppercase tracking-wider text-gold-300">
                     Predict & Verify ({activePredictionIdx + 1}/{PREDICTION_QUESTIONS.length})
                   </span>
                 </div>
@@ -1892,7 +1892,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                     setPredictionSelected(null);
                     setPredictionSubmitted(false);
                   }}
-                  className="text-[11px] font-bold text-indigo-400 hover:text-indigo-300 underline"
+                  className="text-[11px] font-bold text-gold-400 hover:text-gold-300 underline"
                 >
                   Next Prediction →
                 </button>
@@ -1910,11 +1910,11 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                     disabled={predictionSubmitted}
                     className={`w-full text-left p-2.5 rounded-xl text-xs border transition-all ${
                       predictionSelected === i
-                        ? 'bg-indigo-950/80 border-indigo-500 text-white font-semibold'
+                        ? 'bg-gold-950/80 border-gold-500 text-white font-semibold'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </button>
                 ))}
@@ -1929,17 +1929,17 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                     }
                   }}
                   disabled={predictionSelected === null}
-                  className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
+                  className="w-full py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Confirm Prediction
                 </button>
               ) : (
-                <div className="p-3 bg-slate-950 rounded-xl border border-indigo-800/60 text-xs space-y-1.5">
+                <div className="p-3 bg-slate-950 rounded-xl border border-gold-800/60 text-xs space-y-1.5">
                   <div className={predictionSelected === PREDICTION_QUESTIONS[activePredictionIdx].correctIndex ? 'text-emerald-400 font-bold' : 'text-amber-400 font-bold'}>
                     {predictionSelected === PREDICTION_QUESTIONS[activePredictionIdx].correctIndex ? '✓ Correct Prediction!' : '⚠️ Analysis Check:'}
                   </div>
                   <p className="text-slate-300 text-[11px]">{PREDICTION_QUESTIONS[activePredictionIdx].explanation}</p>
-                  <p className="text-indigo-300 text-[11px] font-semibold bg-indigo-950/60 p-2 rounded-lg border border-indigo-900">
+                  <p className="text-gold-300 text-[11px] font-semibold bg-gold-950/60 p-2 rounded-lg border border-gold-900">
                     🔬 <span className="underline">Verify in Lab:</span> {PREDICTION_QUESTIONS[activePredictionIdx].verifyInstruction}
                   </p>
                 </div>
@@ -2114,7 +2114,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                   <span>₹23,600</span>
                   <span>-</span>
                 </div>
-                <div className="flex justify-between py-1.5 text-blue-400">
+                <div className="flex justify-between py-1.5 text-gold-400">
                   <span>Sales Revenue A/c</span>
                   <span>-</span>
                   <span>₹20,000</span>
@@ -2144,7 +2144,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
               <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider">AIS 5-Element Matrix (PPDSH)</h3>
               <div className="grid grid-cols-1 sm:grid-cols-5 gap-3 text-xs">
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                  <div className="font-bold text-indigo-400">People</div>
+                  <div className="font-bold text-gold-400">People</div>
                   <div className="text-slate-400 text-[11px] mt-1">Accountants, Auditors, Approvers, Management</div>
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -2152,7 +2152,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                   <div className="text-slate-400 text-[11px] mt-1">Internal controls, approval rules, backup policies</div>
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                  <div className="font-bold text-blue-400">Data</div>
+                  <div className="font-bold text-gold-400">Data</div>
                   <div className="text-slate-400 text-[11px] mt-1">Invoices, GSTINs, masters, voucher entries</div>
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -2208,7 +2208,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                 className={`text-xs font-bold px-3 py-1 rounded-full uppercase border ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-300 border-emerald-700' :
                   difficulty === 'advanced' ? 'bg-rose-950 text-rose-300 border-rose-700' :
-                  'bg-blue-950 text-blue-300 border-blue-700'
+                  'bg-gold-950 text-gold-300 border-gold-700'
                 }`}
               >
                 {difficulty} Tier
@@ -2222,7 +2222,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
           {/* Progress bar */}
           <div className="h-1.5 w-full bg-slate-900 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2285,7 +2285,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2407,7 +2407,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 text-xs rounded-lg"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-700 text-xs rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2492,7 +2492,7 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-800 text-center space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Systems & NPO Audit Completed!</h2>
             <div className="text-4xl font-black text-emerald-400 font-mono">
               {Math.max(0, 100 - errors * 5)}%
@@ -2549,12 +2549,12 @@ export function C11_AccountancyCapitalisationEntranceAdmissionSim({
 
           {/* Real World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 text-[10px] flex items-center justify-center font-bold shrink-0">{idx + 1}</span>
+                  <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 text-[10px] flex items-center justify-center font-bold shrink-0">{idx + 1}</span>
                   <span>{step}</span>
                 </div>
               ))}

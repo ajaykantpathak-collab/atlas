@@ -1340,7 +1340,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                     ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-700'
                     : difficulty === 'advanced'
                     ? 'bg-rose-900/60 text-rose-300 border border-rose-700'
-                    : 'bg-indigo-900/60 text-indigo-300 border border-indigo-700'
+                    : 'bg-gold-900/60 text-gold-300 border border-gold-700'
                 }`}
               >
                 {difficulty.toUpperCase()} TIER
@@ -1382,7 +1382,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
             exit={{ opacity: 0, y: -15 }}
             className="py-6 space-y-6"
           >
-            <div className="p-5 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-800/60 shadow-xl">
+            <div className="p-5 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-800/60 shadow-xl">
               <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">Case Audit Briefing</span>
               <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1559,7 +1559,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                             max={6}
                             value={oldShareC}
                             onChange={(e) => setOldShareC(Number(e.target.value))}
-                            className="accent-cyan-500 w-full"
+                            className="accent-gold-500 w-full"
                             aria-label="Old Share C"
                           />
                         </div>
@@ -1586,7 +1586,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                             max={6}
                             value={newShareC}
                             onChange={(e) => setNewShareC(Number(e.target.value))}
-                            className="accent-cyan-500 w-full"
+                            className="accent-gold-500 w-full"
                             aria-label="New Share C"
                           />
                         </div>
@@ -1630,10 +1630,10 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         </div>
                         <div className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800 text-center col-span-2 sm:col-span-1">
                           <span className="text-[10px] uppercase text-slate-400">C&apos;s Gain</span>
-                          <p className="text-lg font-mono font-bold text-cyan-400 mt-1">
+                          <p className="text-lg font-mono font-bold text-gold-400 mt-1">
                             {(gainC).toFixed(3)} ({(gainPropC * 100).toFixed(0)}%)
                           </p>
-                          <p className="text-[10px] text-cyan-500">Debit: ₹{Math.round(debitC_Goodwill).toLocaleString('en-IN')}</p>
+                          <p className="text-[10px] text-gold-500">Debit: ₹{Math.round(debitC_Goodwill).toLocaleString('en-IN')}</p>
                         </div>
                       </div>
 
@@ -1647,7 +1647,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                           <span>A&apos;s Capital A/c .......................... Dr.</span>
                           <span>{Math.round(debitA_Goodwill).toLocaleString('en-IN')}</span>
                         </div>
-                        <div className="flex justify-between text-cyan-300">
+                        <div className="flex justify-between text-gold-300">
                           <span>C&apos;s Capital A/c .......................... Dr.</span>
                           <span>{Math.round(debitC_Goodwill).toLocaleString('en-IN')}</span>
                         </div>
@@ -1714,8 +1714,8 @@ function C12_AccountancyRetirementPartnerGainingSim({
 
                   {/* Predict Then Check */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800 space-y-3">
-                      <span className="text-xs font-bold uppercase text-indigo-400">Prediction Stage</span>
+                    <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800 space-y-3">
+                      <span className="text-xs font-bold uppercase text-gold-400">Prediction Stage</span>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1919,7 +1919,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                       <div className="space-y-1 text-slate-300 pl-4">
                         <div className="flex justify-between">
                           <span>By Sundry Liabs (Book Value)</span>
-                          <span className="text-cyan-400">{bookLiabilities.toLocaleString('en-IN')}</span>
+                          <span className="text-gold-400">{bookLiabilities.toLocaleString('en-IN')}</span>
                         </div>
                         <div className="flex justify-between">
                           <span>By Bank (Assets Realised)</span>
@@ -1971,7 +1971,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                     <div>
                       <div className="flex justify-between mb-1">
                         <span>Application Money / Share:</span>
-                        <span className="font-mono text-cyan-400">₹{appMoneyPerShare}</span>
+                        <span className="font-mono text-gold-400">₹{appMoneyPerShare}</span>
                       </div>
                       <input
                         type="range"
@@ -1979,14 +1979,14 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         max={6}
                         value={appMoneyPerShare}
                         onChange={(e) => setAppMoneyPerShare(Number(e.target.value))}
-                        className="accent-cyan-500 w-full"
+                        className="accent-gold-500 w-full"
                         aria-label="Application Money Per Share Slider"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between mb-1">
                         <span>Allotment Money / Share:</span>
-                        <span className="font-mono text-indigo-400">₹{allotMoneyPerShare}</span>
+                        <span className="font-mono text-gold-400">₹{allotMoneyPerShare}</span>
                       </div>
                       <input
                         type="range"
@@ -1994,7 +1994,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         max={6}
                         value={allotMoneyPerShare}
                         onChange={(e) => setAllotMoneyPerShare(Number(e.target.value))}
-                        className="accent-indigo-500 w-full"
+                        className="accent-gold-500 w-full"
                         aria-label="Allotment Money Per Share Slider"
                       />
                     </div>
@@ -2014,7 +2014,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[10px] text-slate-400">Allotment Due (Gross)</span>
-                        <p className="font-mono font-bold text-indigo-400 mt-1">₹{totalAllotmentDue.toLocaleString('en-IN')}</p>
+                        <p className="font-mono font-bold text-gold-400 mt-1">₹{totalAllotmentDue.toLocaleString('en-IN')}</p>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[10px] text-slate-400">Excess App Money</span>
@@ -2028,7 +2028,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         <span>1. Transferred to Share Capital (Application):</span>
                         <span>₹{totalAppMoneyRequired.toLocaleString('en-IN')}</span>
                       </div>
-                      <div className="flex justify-between text-indigo-300">
+                      <div className="flex justify-between text-gold-300">
                         <span>2. Adjusted against Allotment Due (Share Capital first):</span>
                         <span>₹{excessAdjustedAllotment.toLocaleString('en-IN')}</span>
                       </div>
@@ -2050,7 +2050,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                 <div className="space-y-4">
                   {/* SVG DIAGRAM 3: SHARE FORFEITURE & CAPITAL RESERVE PIPELINE */}
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                    <div className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2 flex items-center gap-2">
+                    <div className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2 flex items-center gap-2">
                       <span>Share Forfeiture & Reissue Capital Reserve Accounting Lifecycle</span>
                     </div>
                     <svg viewBox="0 0 760 145" className="w-full h-auto rounded-xl bg-slate-900/90 p-2" xmlns="http://www.w3.org/2000/svg">
@@ -2126,7 +2126,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                       <div>
                         <div className="flex justify-between mb-1">
                           <span>Reissue Price / Share (FV ₹10):</span>
-                          <span className={`font-mono font-bold ${isValidReissue ? 'text-cyan-400' : 'text-rose-400'}`}>
+                          <span className={`font-mono font-bold ${isValidReissue ? 'text-gold-400' : 'text-rose-400'}`}>
                             ₹{reissuePrice} {reissuePrice < 10 ? `(Discount: ₹${10 - reissuePrice})` : '(At/Above Par)'}
                           </span>
                         </div>
@@ -2136,7 +2136,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                           max={13}
                           value={reissuePrice}
                           onChange={(e) => setReissuePrice(Number(e.target.value))}
-                          className={`w-full ${isValidReissue ? 'accent-cyan-500' : 'accent-rose-500'}`}
+                          className={`w-full ${isValidReissue ? 'accent-gold-500' : 'accent-rose-500'}`}
                           aria-label="Reissue Price Slider"
                         />
                       </div>
@@ -2175,7 +2175,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                           <span className="text-[10px] text-slate-400">Retained in Forfeited Shares A/c</span>
-                          <p className="font-mono text-lg font-bold text-cyan-400 mt-1">₹{retainedInForfeitedShares.toLocaleString('en-IN')}</p>
+                          <p className="font-mono text-lg font-bold text-gold-400 mt-1">₹{retainedInForfeitedShares.toLocaleString('en-IN')}</p>
                           <p className="text-[10px] text-slate-500">{forfeitedSharesCount - reissueCount} un-reissued shares</p>
                         </div>
                       </div>
@@ -2223,7 +2223,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-950"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-950"
                   >
                     Free Sandbox Mode →
                   </motion.button>
@@ -2302,7 +2302,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                     <p>1. Equity Share Capital A/c ({reissueCount} × ₹10) ........... Dr. ₹{(reissueCount * 10).toLocaleString('en-IN')}</p>
                     <p className="pl-4">To Forfeited Shares A/c ..................................... ₹{(reissueCount * forfeitedPerShare).toLocaleString('en-IN')}</p>
                     <p className="pl-4">To Calls in Arrears A/c ...................................... ₹{(reissueCount * (10 - forfeitedPerShare)).toLocaleString('en-IN')}</p>
-                    <p className="text-cyan-400 pt-2">2. Bank A/c ({reissueCount} × ₹{reissuePrice}) ............................. Dr. ₹{(reissueCount * reissuePrice).toLocaleString('en-IN')}</p>
+                    <p className="text-gold-400 pt-2">2. Bank A/c ({reissueCount} × ₹{reissuePrice}) ............................. Dr. ₹{(reissueCount * reissuePrice).toLocaleString('en-IN')}</p>
                     {actualDiscountPerShare > 0 && (
                       <p className="text-rose-400">   Forfeited Shares A/c (Discount) ......................... Dr. ₹{(reissueCount * actualDiscountPerShare).toLocaleString('en-IN')}</p>
                     )}
@@ -2318,12 +2318,12 @@ function C12_AccountancyRetirementPartnerGainingSim({
                       <p className="text-center font-bold text-emerald-400 pb-1 border-b border-slate-800">FORFEITED SHARES A/C</p>
                       <div className="flex justify-between mt-2"><span>To Discount</span><span>₹{(reissueCount * actualDiscountPerShare).toLocaleString('en-IN')}</span></div>
                       <div className="flex justify-between"><span>To Capital Reserve</span><span>₹{totalCapitalReserve.toLocaleString('en-IN')}</span></div>
-                      <div className="flex justify-between text-cyan-400 font-bold pt-1 border-t border-slate-800">
+                      <div className="flex justify-between text-gold-400 font-bold pt-1 border-t border-slate-800">
                         <span>By Forfeiture (Cr)</span><span>���{(reissueCount * forfeitedPerShare).toLocaleString('en-IN')}</span>
                       </div>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                      <p className="text-center font-bold text-indigo-400 pb-1 border-b border-slate-800">CAPITAL RESERVE A/C</p>
+                      <p className="text-center font-bold text-gold-400 pb-1 border-b border-slate-800">CAPITAL RESERVE A/C</p>
                       <div className="flex justify-between text-emerald-400 mt-2">
                         <span>By Forfeited Shares</span><span>₹{totalCapitalReserve.toLocaleString('en-IN')}</span>
                       </div>
@@ -2349,7 +2349,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <span className="text-[10px] text-slate-400">Capital Reserve Yield</span>
-                      <p className="text-base font-bold text-cyan-400 mt-1">₹{totalCapitalReserve.toLocaleString('en-IN')}</p>
+                      <p className="text-base font-bold text-gold-400 mt-1">₹{totalCapitalReserve.toLocaleString('en-IN')}</p>
                     </div>
                   </div>
                 )}
@@ -2395,7 +2395,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-700'
                         : difficulty === 'advanced'
                         ? 'bg-rose-900/60 text-rose-300 border border-rose-700'
-                        : 'bg-indigo-900/60 text-indigo-300 border border-indigo-700'
+                        : 'bg-gold-900/60 text-gold-300 border border-gold-700'
                     }`}
                   >
                     {difficulty.toUpperCase()}
@@ -2492,7 +2492,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white font-mono text-xs font-bold shadow"
+                        className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white font-mono text-xs font-bold shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2582,7 +2582,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-mono font-bold"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-mono font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2685,7 +2685,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
             className="py-6 space-y-6"
           >
             {/* Scorecard Hero */}
-            <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-700 shadow-2xl space-y-4 text-center sm:text-left">
+            <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-700 shadow-2xl space-y-4 text-center sm:text-left">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
                   <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">Board Simulation Complete</span>
@@ -2709,7 +2709,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
             </div>
 
             {/* SPACED REPETITION SRS VISIBILITY CARD */}
-            <div className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-3xl border-2 border-amber-500/60 shadow-xl space-y-4">
+            <div className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 rounded-3xl border-2 border-amber-500/60 shadow-xl space-y-4">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                 <div className="flex items-center gap-2.5">
                   <span className="text-2xl p-2 bg-amber-950 rounded-xl border border-amber-600">📅</span>
@@ -2752,7 +2752,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
             </div>
 
             {/* REFLECTION SECTION */}
-            <div className="p-6 bg-slate-900/90 rounded-3xl border border-indigo-800/60 space-y-4">
+            <div className="p-6 bg-slate-900/90 rounded-3xl border border-gold-800/60 space-y-4">
               <div className="flex items-center gap-2">
                 <span className="text-xl">💡</span>
                 <h3 className="text-base font-bold text-white uppercase tracking-wider">Post-Audit Conceptual Reflection</h3>
@@ -2763,7 +2763,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
 
               <div className="space-y-4 pt-1">
                 <div className="space-y-1.5">
-                  <label htmlFor="reflection-surprising" className="text-xs font-semibold text-indigo-300">
+                  <label htmlFor="reflection-surprising" className="text-xs font-semibold text-gold-300">
                     1. What was the most surprising thing you learned?
                   </label>
                   <textarea
@@ -2771,7 +2771,7 @@ function C12_AccountancyRetirementPartnerGainingSim({
                     value={reflectionSurprise}
                     onChange={(e) => setReflectionSurprise(e.target.value)}
                     placeholder="e.g., That Section 48 prioritizes partner loans over partner capitals, or that AS-26 completely prohibits raising goodwill accounts..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-indigo-500 outline-none resize-none h-20"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none h-20"
                   />
                 </div>
 
@@ -2829,13 +2829,13 @@ function C12_AccountancyRetirementPartnerGainingSim({
 
             {/* Real World Practical Activity */}
             <div className="p-5 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Real-World Case Study Extension</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Real-World Case Study Extension</span>
               <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-850 text-xs text-slate-400 flex items-start gap-2">
-                    <span className="font-mono font-bold text-indigo-400">{i + 1}.</span>
+                    <span className="font-mono font-bold text-gold-400">{i + 1}.</span>
                     <span>{step}</span>
                   </div>
                 ))}

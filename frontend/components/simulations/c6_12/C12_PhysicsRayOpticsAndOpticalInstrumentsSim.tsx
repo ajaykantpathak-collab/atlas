@@ -111,7 +111,7 @@ export function C12_PhysicsRayOpticsAndOpticalInstrumentsSim() {
 
           <div className="mt-2 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono grid grid-cols-3 gap-2">
             <div><span className="text-slate-500">v (Cartesian)</span><div className="text-pink-300 font-bold text-sm">{atInfinity ? 'infinity' : v.toFixed(1) + ' cm'}</div></div>
-            <div><span className="text-slate-500">m = v/u</span><div className="text-sky-300 font-bold text-sm">{atInfinity ? '--' : m.toFixed(2)}</div></div>
+            <div><span className="text-slate-500">m = v/u</span><div className="text-gold-300 font-bold text-sm">{atInfinity ? '--' : m.toFixed(2)}</div></div>
             <div><span className="text-slate-500">Nature</span><div className="text-emerald-300 font-bold text-sm">{atInfinity ? 'at infinity' : `${realImage ? 'real' : 'virtual'}, ${inverted ? 'inverted' : 'erect'}`}</div></div>
           </div>
         </div>
@@ -120,10 +120,10 @@ export function C12_PhysicsRayOpticsAndOpticalInstrumentsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Focal length f (minus = concave)</span><span className="font-mono font-bold text-sky-400">{fCm} cm</span>
+                <span>Focal length f (minus = concave)</span><span className="font-mono font-bold text-gold-400">{fCm} cm</span>
               </div>
               <input type="range" min={-40} max={40} step={1} value={fCm} aria-label="Focal length"
-                onChange={(e) => setFCm(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setFCm(Number(e.target.value))} className="w-full accent-gold-500" />
               <div className="text-[10px] text-slate-500 mt-1">Power P = 100/f = <b className={power > 0 ? 'text-emerald-300' : 'text-rose-300'}>{fCm === 0 ? '--' : power.toFixed(2) + ' D'}</b></div>
             </div>
             <div>

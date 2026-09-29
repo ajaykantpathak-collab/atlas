@@ -11,11 +11,11 @@ export const w_c7_mathematicsextendcongruencesimplesim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Exterior Angle Property of a Triangle',
     chapters: [],
     nodeIds: ['c7_math_ch07_008', 'c7_math_ch07_001', 'c7_math_ch07_002', 'c7_math_ch07_004', 'c7_math_ch07_010', 'c7_math_ch15_004', 'c7_math_ch15_009', 'c7_math_ch05_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine standing at the corner of a triangular park in your neighborhood, walking along one side, and then.', goal: 'Master Exterior Angle Property of a Triangle.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The exterior angle property of a triangle.', text: 'The exterior angle property of a triangle states that if any side of a triangle is produced (extended), the exterior angle so formed is equal to the sum of the two interior opposite angles.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The exterior angle property of a triangle.', text: 'The exterior angle property of a triangle states that if any side of a triangle is produced (extended), the exterior angle so formed is equal to the sum of the two interior opposite angles.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch07_008', title: 'The exterior angle property of a.',

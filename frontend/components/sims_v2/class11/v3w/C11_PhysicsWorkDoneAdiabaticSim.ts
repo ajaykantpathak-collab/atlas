@@ -11,7 +11,7 @@ export const w_c11_physicsworkdoneadiabaticsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'First Law of Thermodynamics: Internal Energy',
     chapters: [],
     nodeIds: ['c11_phy_cbse_11_003', 'c11_phy_cbse_11_004', 'c11_phy_cbse_11_005', 'c11_phy_cbse_11_008', 'c11_phy_cbse_11_001', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_006', 'c11_phy_cbse_11_011', 'c11_phy_cbse_05_001', 'c11_phy_cbse_05_002', 'c11_phy_cbse_05_003', 'c11_phy_cbse_05_004', 'c11_phy_cbse_05_005', 'c11_phy_cbse_05_006', 'c11_phy_cbse_05_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a pressure cooker on a stove: the flame supplies heat (ΔQ), the steam inside pushes the weighted lid.', goal: 'Master First Law of Thermodynamics: Internal Energy.' },
     discovery: {
         question: 'A gas in a cylinder is compressed adiabatically from volume V₁ to V₂. The work done on the gas is 500 J. What is the change in internal energy?',
@@ -20,7 +20,7 @@ export const w_c11_physicsworkdoneadiabaticsim: SimDef = {
         hook: 'Students often think "heat is a form of energy stored in a body" and write statements like "the gas has 500 J of heat.".',
     },
     teaching: [
-        { title: 'The First Law of Thermodynamics states that.', text: 'The First Law of Thermodynamics states that the heat energy (ΔQ) supplied to a thermodynamic system equals the sum of the increase in its internal energy (ΔU) and the work done by the system on its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The First Law of Thermodynamics states that.', text: 'The First Law of Thermodynamics states that the heat energy (ΔQ) supplied to a thermodynamic system equals the sum of the increase in its internal energy (ΔU) and the work done by the system on its.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_11_003', title: 'The First Law of Thermodynamics states.',

@@ -1156,11 +1156,11 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
         className="flex flex-wrap items-center justify-between pb-4 mb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400">Class 11 ISC Commerce</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-900/50 text-indigo-300 border border-indigo-700">NEP 2020 Aligned</span>
+              <span className="text-xs font-semibold uppercase tracking-wider text-gold-400">Class 11 ISC Commerce</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-gold-900/50 text-gold-300 border border-gold-700">NEP 2020 Aligned</span>
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
           </div>
@@ -1186,7 +1186,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-700')
+                : 'bg-gold-950/60 text-gold-400 border-gold-700')
             }
           >
             Tier: {difficulty}
@@ -1202,8 +1202,8 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/80 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️ Real-World Case Scenario</span>
             </div>
             <h2 className="text-2xl font-extrabold text-white mb-2">{SCENARIO.title}</h2>
@@ -1250,7 +1250,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to Interactive Exploration"
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Exploration Labs →
                 </motion.button>
@@ -1270,7 +1270,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                 onClick={() => setExploreTab('sim')}
                 className={`px-4 py-1.5 rounded-xl text-xs font-bold border transition-all ${
                   exploreTab === 'sim'
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                     : 'bg-slate-800 text-slate-400 border-slate-700 hover:text-slate-200'
                 }`}
               >
@@ -1307,12 +1307,12 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
             <>
               <div className="flex items-center justify-between">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Interactive Discovery Lab</span>
+                  <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Interactive Discovery Lab</span>
                   <h2 className="text-xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
                 </div>
               </div>
 
-              <div className="p-3 bg-indigo-950/40 border border-indigo-800/60 rounded-xl text-sm text-indigo-200 flex items-center gap-2">
+              <div className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-xl text-sm text-gold-200 flex items-center gap-2">
                 <span>👉</span>
                 <span>{EXPLORATION_STEPS[currentSlide].instruction}</span>
               </div>
@@ -1340,7 +1340,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                           aria-label={`Select ${acc.label}`}
                           className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                             selectedAccountDemo === acc.id
-                              ? 'bg-indigo-600 text-white border-indigo-400 shadow-md shadow-indigo-600/40'
+                              ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-600/40'
                               : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                           }`}
                         >
@@ -1449,7 +1449,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   <div className="space-y-4">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                        <label className="text-xs font-bold text-blue-400 block mb-1">Total Assets: ₹{(simAssets / 100000).toFixed(1)} Lakhs</label>
+                        <label className="text-xs font-bold text-gold-400 block mb-1">Total Assets: ₹{(simAssets / 100000).toFixed(1)} Lakhs</label>
                         <input
                           type="range"
                           min={500000}
@@ -1458,7 +1458,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                           value={simAssets}
                           onChange={(e) => setSimAssets(Number(e.target.value))}
                           aria-label="Adjust Total Assets"
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1561,7 +1561,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                         }}
                         aria-label="Switch to Accrual Basis"
                         className={`px-5 py-2 rounded-xl text-xs font-bold border ${
-                          simBasis === 'accrual' ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          simBasis === 'accrual' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         📈 Accrual Basis (Sec 128(1) Mandate)
@@ -1581,7 +1581,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                             value={simCreditSales}
                             onChange={(e) => setSimCreditSales(Number(e.target.value))}
                             aria-label="Credit Sales Slider"
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div>
@@ -1675,7 +1675,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                     </svg>
 
                     <div className="p-5 bg-slate-950 rounded-xl border border-slate-800">
-                      <div className="text-xs font-bold uppercase text-indigo-400 mb-1">
+                      <div className="text-xs font-bold uppercase text-gold-400 mb-1">
                         Stage {activePipelineStep + 1}: {
                           [
                             'Transaction Occurrence',
@@ -1730,7 +1730,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                           aria-label={`Select stakeholder ${s.label}`}
                           className={`px-4 py-2 rounded-xl text-xs font-bold border ${
                             selectedStakeholder === s.id
-                              ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg'
+                              ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                               : 'bg-slate-800 text-slate-300 border-slate-700'
                           }`}
                         >
@@ -1778,7 +1778,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                     <div
                       key={i}
                       className={`w-2.5 h-2.5 rounded-full transition-all ${
-                        i === currentSlide ? 'bg-indigo-500 w-6' : 'bg-slate-700'
+                        i === currentSlide ? 'bg-gold-500 w-6' : 'bg-slate-700'
                       }`}
                     />
                   ))}
@@ -1789,7 +1789,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide((s) => s + 1)}
                     aria-label="Next Lab"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Next Lab →
                   </motion.button>
@@ -2000,7 +2000,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   value={sandboxAssetVal}
                   onChange={(e) => setSandboxAssetVal(Number(e.target.value))}
                   aria-label="Sandbox Machine Cost"
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
@@ -2081,7 +2081,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
           {/* Header & Progress Bar */}
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 Competency: {challenge.competencyLevel.toUpperCase()}
               </span>
               <h2 className="text-lg font-black text-white">
@@ -2095,7 +2095,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
 
           <div className="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
             <motion.div
-              className="bg-gradient-to-r from-indigo-500 to-emerald-500 h-full rounded-full"
+              className="bg-gradient-to-r from-gold-500 to-emerald-500 h-full rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2149,7 +2149,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Drag item ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing border border-indigo-500"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing border border-gold-500"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2183,7 +2183,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Check Drag-Label Mapping"
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl"
                 >
                   Verify Classification →
                 </motion.button>
@@ -2211,7 +2211,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-sm text-slate-200 cursor-grab flex items-center justify-between"
                   >
                     <span>
-                      <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                      <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                     </span>
                     <span className="text-slate-500 text-xs">↕ Drag to re-order</span>
                   </motion.div>
@@ -2229,7 +2229,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   }}
                   disabled={showExplanation}
                   aria-label="Submit Sorted Order"
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl mt-2"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl mt-2"
                 >
                   Check Sequence →
                 </motion.button>
@@ -2247,7 +2247,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
                     aria-label="Numeric answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2256,7 +2256,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit Numeric Answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2276,7 +2276,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-bold rounded-lg border border-indigo-600"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-lg border border-gold-600"
                     >
                       + {part}
                     </motion.button>
@@ -2289,7 +2289,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1.5 bg-slate-800 text-indigo-300 font-mono text-xs rounded-lg border border-slate-600 flex items-center gap-2"
+                      className="px-3 py-1.5 bg-slate-800 text-gold-300 font-mono text-xs rounded-lg border border-slate-600 flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2312,7 +2312,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Constructed Entry"
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl"
                 >
                   Verify Entry →
                 </motion.button>
@@ -2383,13 +2383,13 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD RETROSPECTIVE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-black text-white">Audit Simulation Complete!</h2>
             <div className="text-lg text-slate-300">
               Final Competency Score:{' '}
               <span className="text-emerald-400 font-extrabold">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier:{' '}
-              <span className="text-indigo-300 font-bold uppercase">{masteryLevel}</span>
+              <span className="text-gold-300 font-bold uppercase">{masteryLevel}</span>
             </div>
 
             {/* Motivational Feedback Banner based on error thresholds */}
@@ -2398,7 +2398,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                 errors === 0
                   ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                   : errors <= 3
-                  ? 'bg-blue-950/60 border-blue-500 text-blue-200'
+                  ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                   : errors <= 7
                   ? 'bg-amber-950/60 border-amber-500 text-amber-200'
                   : 'bg-rose-950/60 border-rose-500 text-rose-200'
@@ -2412,8 +2412,8 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/60 space-y-4">
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/60 space-y-4">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Key Concept Reflections
             </h3>
             <p className="text-xs text-slate-400">
@@ -2422,7 +2422,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
 
             <div className="space-y-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2430,12 +2430,12 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   value={reflectionResponses.surprising}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, surprising: e.target.value })}
                   placeholder="e.g., That Trial Balance can still tally even with an Error of Principle, or that Capital is an Internal Liability..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2443,12 +2443,12 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   value={reflectionResponses.explain}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, explain: e.target.value })}
                   placeholder="e.g., Real is things owned, Personal is people/firms dealt with, Nominal is expenses & gains..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -2456,7 +2456,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
                   value={reflectionResponses.realLife}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, realLife: e.target.value })}
                   placeholder="e.g., Reading the balance sheet of Tata Motors or Apple before investing, managing personal income and taxes..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2503,7 +2503,7 @@ function C11_AccountancyBackgroundHistoryTypesSim(props: Props = DEFAULT_PROPS) 
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-2.5 bg-slate-950 rounded-xl text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

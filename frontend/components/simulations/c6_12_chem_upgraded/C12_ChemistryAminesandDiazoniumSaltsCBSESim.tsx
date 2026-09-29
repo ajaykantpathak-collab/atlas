@@ -984,7 +984,7 @@ const BasicStrengthChartSVG: React.FC<{
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-inner">
       <div className="flex justify-between items-center mb-2 text-xs font-semibold text-slate-300">
         <span>Basicity Trend Visualizer</span>
-        <span className="text-cyan-400">
+        <span className="text-gold-400">
           {phase === 'gas' ? 'Gas Phase (Inductive +I Dominant)' : `Aqueous Phase (${series.toUpperCase()} Series: Inductive + Solvation + Steric)`}
         </span>
       </div>
@@ -1039,7 +1039,7 @@ const DiazoniumReactionMapSVG: React.FC<{
 }> = ({ activeReagent }) => {
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-inner">
-      <div className="text-center text-sm font-bold text-sky-400 mb-2">
+      <div className="text-center text-sm font-bold text-gold-400 mb-2">
         Synthetic Hub: Benzenediazonium Chloride Pathways
       </div>
       <svg viewBox="0 0 600 320" className="w-full h-72">
@@ -1508,11 +1508,11 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
       {/* HEADER BAR */}
       <header className="w-full max-w-6xl bg-slate-900/90 backdrop-blur border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-sky-500 to-blue-700 flex items-center justify-center font-black text-2xl text-white shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-700 flex items-center justify-center font-black text-2xl text-white shadow-lg">
             N
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-sky-400 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               Amines & Diazonium Salts Sim
             </h1>
             <p className="text-xs text-slate-400">Class 12 ISC Chemistry | 28 Learning Nodes | Multi-Lab Suite</p>
@@ -1527,7 +1527,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
           </div>
           <div className="bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700 flex flex-col items-center">
             <span className="text-slate-400">Score</span>
-            <span className="text-sky-400 font-bold text-sm">{score} pts</span>
+            <span className="text-gold-400 font-bold text-sm">{score} pts</span>
           </div>
           <div className="bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700 flex flex-col items-center">
             <span className="text-slate-400">Challenges</span>
@@ -1561,7 +1561,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             }}
             className={`px-4 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all duration-200 border ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white border-sky-400 shadow-lg shadow-sky-600/30'
+                ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-600/30'
                 : 'bg-slate-900/80 text-slate-400 border-slate-800 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1577,13 +1577,13 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* Scenario Header */}
-            <div className="bg-gradient-to-r from-slate-900 to-sky-950 p-6 rounded-2xl border border-sky-800/40">
-              <span className="px-3 py-1 rounded-full text-[10px] font-extrabold uppercase bg-sky-500/20 text-sky-400 border border-sky-500/30 mb-2 inline-block">
+            <div className="bg-gradient-to-r from-slate-900 to-gold-950 p-6 rounded-2xl border border-gold-800/40">
+              <span className="px-3 py-1 rounded-full text-[10px] font-extrabold uppercase bg-gold-500/20 text-gold-400 border border-gold-500/30 mb-2 inline-block">
                 Lab Context Scenario
               </span>
               <h2 className="text-2xl font-bold text-slate-100 mb-2">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 mb-3">{SCENARIO.intro}</p>
-              <p className="text-xs text-sky-300 italic">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-300 italic">{SCENARIO.context}</p>
             </div>
 
             {/* Discovery Question Card */}
@@ -1613,8 +1613,8 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
               </div>
 
               {discoverySubmitted && (
-                <div className="p-4 rounded-xl bg-slate-950 border border-sky-800 text-xs text-slate-300 space-y-2">
-                  <p className="font-bold text-sky-400">Analysis & Scientific Explanation:</p>
+                <div className="p-4 rounded-xl bg-slate-950 border border-gold-800 text-xs text-slate-300 space-y-2">
+                  <p className="font-bold text-gold-400">Analysis & Scientific Explanation:</p>
                   <p>{DISCOVERY_QUESTION.hintAfter}</p>
                   <p className="text-slate-400">
                     In triethylamine, nitrogen is crowded by three bulky ethyl groups. When it accepts a proton to form (C2H5)3NH+, water molecules cannot efficiently cluster around and stabilize the positive charge via hydrogen bonding!
@@ -1625,7 +1625,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
             {/* Prediction Questions Grid (Mandatory Render) */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-lg font-bold text-sky-400 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                 <span>🔮</span> Chemical Reaction Predictions
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1646,7 +1646,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                         </div>
                       ))}
                     </div>
-                    <div className="p-2 rounded bg-slate-900 border border-sky-900 text-[11px] text-sky-300">
+                    <div className="p-2 rounded bg-slate-900 border border-gold-900 text-[11px] text-gold-300">
                       <span className="font-bold">Mechanism note:</span> {pq.verifyInstruction}
                     </div>
                   </div>
@@ -1672,9 +1672,9 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     else setActiveLabMode('azo');
                     playSound('tap');
                   }}
-                  className="p-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-sky-500 text-left transition-all"
+                  className="p-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-gold-500 text-left transition-all"
                 >
-                  <div className="text-[10px] font-extrabold text-sky-400 uppercase">Lab {idx + 1}</div>
+                  <div className="text-[10px] font-extrabold text-gold-400 uppercase">Lab {idx + 1}</div>
                   <div className="text-xs font-bold text-slate-200 truncate">{step.title}</div>
                   <div className="text-[10px] text-slate-400 line-clamp-2 mt-1">{step.instruction}</div>
                 </button>
@@ -1699,7 +1699,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                   }}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                     activeLabMode === m.id
-                      ? 'bg-sky-500 text-white shadow'
+                      ? 'bg-gold-500 text-white shadow'
                       : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -1712,7 +1712,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
               {/* Left Control Column */}
               <div className="lg:col-span-5 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-5">
-                <h3 className="text-sm font-bold text-sky-400 uppercase tracking-wider">
+                <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                   Reaction Setup Controls
                 </h3>
 
@@ -1736,7 +1736,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                         }}
                         className={`p-2 rounded-lg text-xs font-semibold text-center border transition-all ${
                           selectedAmineType === type.id
-                            ? 'bg-sky-600 border-sky-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1761,7 +1761,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                       max="35"
                       value={tempCelsius}
                       onChange={e => setTempCelsius(Number(e.target.value))}
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                 )}
@@ -1789,7 +1789,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 {/* Action Trigger Button */}
                 <button
                   onClick={handleRunLabReaction}
-                  className="w-full py-3 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-bold rounded-xl shadow-lg transition-all transform active:scale-95 text-xs uppercase tracking-wider"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg transition-all transform active:scale-95 text-xs uppercase tracking-wider"
                 >
                   ⚡ Execute Chemical Reaction
                 </button>
@@ -1809,7 +1809,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
                 {/* Chemical Result Readout Box */}
                 <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
-                  <div className="text-xs font-bold text-sky-400 uppercase tracking-wider">
+                  <div className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Experimental Observation
                   </div>
                   <div className="text-xs text-slate-200 font-mono leading-relaxed">
@@ -1829,7 +1829,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             <div className="flex justify-center gap-4 bg-slate-900 p-3 rounded-xl border border-slate-800">
               <button
                 onClick={() => setBasicityPhase(basicityPhase === 'gas' ? 'aqueous' : 'gas')}
-                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs font-bold text-sky-400 border border-slate-700"
+                className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs font-bold text-gold-400 border border-slate-700"
               >
                 Toggle Phase: Current = <span className="text-white uppercase">{basicityPhase}</span>
               </button>
@@ -1877,13 +1877,13 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
             {/* Header Challenge Progress */}
             <div className="flex justify-between items-center bg-slate-900 p-4 rounded-2xl border border-slate-800">
               <div>
-                <span className="text-xs font-extrabold uppercase text-sky-400 tracking-wider">
+                <span className="text-xs font-extrabold uppercase text-gold-400 tracking-wider">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-2 mt-1">
                   <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold ${
                     currentChallenge.difficulty === 'Foundation' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
-                    currentChallenge.difficulty === 'Standard' ? 'bg-sky-500/20 text-sky-400 border border-sky-500/30' :
+                    currentChallenge.difficulty === 'Standard' ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30' :
                     'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                   }`}>
                     {currentChallenge.difficulty}
@@ -1894,7 +1894,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
 
               <div className="text-right">
                 <div className="text-xs text-slate-400">Target Concept Node</div>
-                <div className="text-xs font-mono text-sky-300 font-bold">{currentChallenge.nodeId}</div>
+                <div className="text-xs font-mono text-gold-300 font-bold">{currentChallenge.nodeId}</div>
               </div>
             </div>
 
@@ -1919,11 +1919,11 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                       disabled={challengeStatus !== 'unanswered'}
                       className={`p-4 rounded-xl text-xs md:text-sm font-semibold text-left transition-all border ${
                         selectedOption === idx
-                          ? 'bg-sky-600 border-sky-400 text-white shadow-lg'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800 hover:border-slate-700'
                       }`}
                     >
-                      <span className="font-bold mr-3 text-sky-400">{String.fromCharCode(65 + idx)}.</span> {opt}
+                      <span className="font-bold mr-3 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {opt}
                     </button>
                   ))}
                 </div>
@@ -1937,7 +1937,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     onChange={e => setNumericAnswer(e.target.value)}
                     disabled={challengeStatus !== 'unanswered'}
                     placeholder="Type number here..."
-                    className="w-full max-w-xs p-3 rounded-xl bg-slate-950 border border-slate-700 text-white font-mono text-base focus:border-sky-500 outline-none"
+                    className="w-full max-w-xs p-3 rounded-xl bg-slate-950 border border-slate-700 text-white font-mono text-base focus:border-gold-500 outline-none"
                   />
                 </div>
               )}
@@ -1965,7 +1965,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 ) : (
                   <button
                     onClick={handleNextChallenge}
-                    className="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-xs uppercase tracking-wider transition-all shadow-lg"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs uppercase tracking-wider transition-all shadow-lg"
                   >
                     Next Challenge →
                   </button>
@@ -1998,7 +1998,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
         {/* TAB 4: DIAZONIUM REACTION ROADMAP */}
         {activeTab === 'roadmap' && (
           <div className="space-y-6">
-            <h2 className="text-xl font-bold text-sky-400">
+            <h2 className="text-xl font-bold text-gold-400">
               Complete Synthetic Roadmap for Amines & Diazonium Intermediates
             </h2>
             <DiazoniumReactionMapSVG activeReagent={diazoniumReagent} />
@@ -2025,7 +2025,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
                 <div className="flex justify-between items-center text-xs font-bold text-slate-400">
                   <span>Diagnostic Question {quizIdx + 1} of {DIAGNOSTIC_QUESTIONS.length}</span>
-                  <span className="text-sky-400">Score: {quizScore}</span>
+                  <span className="text-gold-400">Score: {quizScore}</span>
                 </div>
 
                 <h3 className="text-base font-bold text-slate-100">
@@ -2054,11 +2054,11 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                 {quizSelected !== null && (
                   <div className="space-y-4 pt-2">
                     <div className="p-3 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-300">
-                      <span className="font-bold text-sky-400">Explanation:</span> {DIAGNOSTIC_QUESTIONS[quizIdx].explanation}
+                      <span className="font-bold text-gold-400">Explanation:</span> {DIAGNOSTIC_QUESTIONS[quizIdx].explanation}
                     </div>
                     <button
                       onClick={handleNextQuiz}
-                      className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-xs uppercase"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs uppercase"
                     >
                       {quizIdx < DIAGNOSTIC_QUESTIONS.length - 1 ? 'Next Question' : 'Finish Quiz'}
                     </button>
@@ -2079,7 +2079,7 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
                     setQuizSelected(null);
                     setQuizFinished(false);
                   }}
-                  className="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-xs uppercase"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs uppercase"
                 >
                   Retake Diagnostic Quiz
                 </button>
@@ -2092,15 +2092,15 @@ export default function C12_ChemistryAminesandDiazoniumSaltsCBSESim() {
         {activeTab === 'summary' && (
           <div className="space-y-6">
             {/* Real World Activity Card (Mandatory Render) */}
-            <div className="bg-gradient-to-r from-slate-900 to-indigo-950 p-6 rounded-2xl border border-indigo-800/40 space-y-4">
-              <span className="px-3 py-1 rounded-full text-[10px] font-extrabold uppercase bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 inline-block">
+            <div className="bg-gradient-to-r from-slate-900 to-gold-950 p-6 rounded-2xl border border-gold-800/40 space-y-4">
+              <span className="px-3 py-1 rounded-full text-[10px] font-extrabold uppercase bg-gold-500/20 text-gold-300 border border-gold-500/30 inline-block">
                 Industrial Real-World Application
               </span>
               <h3 className="text-xl font-bold text-slate-100">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="space-y-2 pt-2">
-                <h4 className="text-xs font-bold text-sky-400 uppercase">Standard Operating Procedure Steps:</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">Standard Operating Procedure Steps:</h4>
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <div key={i} className="p-3 rounded-lg bg-slate-900/80 border border-slate-800 text-xs text-slate-200 font-mono">
                     {st}

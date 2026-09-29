@@ -1238,10 +1238,10 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
         className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-6 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-900/40 rounded-2xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-semibold tracking-wide uppercase">ISC Class 12 • 10 Core Syllabus Nodes Synthesis</p>
+            <p className="text-xs text-gold-400 font-semibold tracking-wide uppercase">ISC Class 12 • 10 Core Syllabus Nodes Synthesis</p>
           </div>
         </div>
 
@@ -1254,7 +1254,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
             className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40' :
               difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' :
-              'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40'
+              'bg-gold-500/20 text-gold-300 border border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
@@ -1279,13 +1279,13 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
           className="space-y-6"
         >
           {/* Mission Scenario Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-black text-sm uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-black text-sm uppercase tracking-wider mb-2">
               <span>🚨</span> Real-World Enterprise Scenario
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-slate-900/80 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+            <div className="p-3 bg-slate-900/80 rounded-xl border border-gold-900/40 text-xs text-gold-200">
               <strong>Architecture Mandate:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1312,10 +1312,10 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       ? 'bg-emerald-950/70 border-2 border-emerald-500 text-emerald-200 shadow-lg'
                       : discoveryAnswered
                       ? 'bg-slate-800/50 border border-slate-700 text-slate-400'
-                      : 'bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                  <span className="inline-block w-6 font-bold text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="ml-2 text-emerald-400 font-bold">✓ Correct</span>}
                 </motion.button>
               ))}
@@ -1335,7 +1335,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Engineering Labs →
                 </motion.button>
@@ -1366,11 +1366,11 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                 }}
                 className={`p-2 md:p-3 rounded-xl text-left border transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600/30 border-indigo-500 text-white font-bold'
+                    ? 'bg-gold-600/30 border-gold-500 text-white font-bold'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
-                <div className="text-[10px] uppercase font-black tracking-wider text-indigo-400">Lab {idx + 1}</div>
+                <div className="text-[10px] uppercase font-black tracking-wider text-gold-400">Lab {idx + 1}</div>
                 <div className="text-xs truncate">{step.title.split(':')[1] || step.title}</div>
               </motion.button>
             ))}
@@ -1390,7 +1390,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-amber-400 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
-                <span className="text-xs px-3 py-1 rounded-md bg-slate-800 text-indigo-300 font-mono">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
+                <span className="text-xs px-3 py-1 rounded-md bg-slate-800 text-gold-300 font-mono">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
               </div>
 
               {/* ─── LAB 1 VISUAL: TDD RED-GREEN-REFACTOR WITH TOPIC SVG #1 ─── */}
@@ -1432,8 +1432,8 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       onClick={() => handleTddStep('REFACTOR')}
                       className={`px-4 py-2 rounded-xl text-xs font-black uppercase transition-all ${
                         tddPhase === 'REFACTOR'
-                          ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40 ring-2 ring-indigo-400'
-                          : 'bg-indigo-950/60 text-indigo-300 border border-indigo-800 hover:bg-indigo-900'
+                          ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40 ring-2 ring-gold-400'
+                          : 'bg-gold-950/60 text-gold-300 border border-gold-800 hover:bg-gold-900'
                       }`}
                     >
                       3. 🔄 Refactor Clean Code
@@ -1487,7 +1487,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                           setActiveBranch('main');
                           audioManager.play('tap');
                         }}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${activeBranch === 'main' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${activeBranch === 'main' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                       >
                         Branch: main
                       </button>
@@ -1564,7 +1564,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleTriggerPipeline}
-                      className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                     >
                       <span>⚡</span> Trigger Git Webhook Build
                     </motion.button>
@@ -1611,7 +1611,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                 <div className="space-y-4">
                   {/* Predict then Check Box */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800/80 mb-3 space-y-2">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800/80 mb-3 space-y-2">
                       <div className="text-xs font-bold text-amber-300 uppercase">Predict First:</div>
                       <p className="text-xs text-slate-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-2 gap-2 mt-2">
@@ -1637,7 +1637,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                           setGraphicsAlgorithm('Bresenham');
                           audioManager.play('tap');
                         }}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${graphicsAlgorithm === 'Bresenham' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${graphicsAlgorithm === 'Bresenham' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                       >
                         Bresenham (Integer Pk)
                       </button>
@@ -1647,7 +1647,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                           setGraphicsAlgorithm('DDA');
                           audioManager.play('tap');
                         }}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${graphicsAlgorithm === 'DDA' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${graphicsAlgorithm === 'DDA' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                       >
                         DDA (Floating-Point)
                       </button>
@@ -1663,7 +1663,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                         max={10}
                         value={lineSlopeX2}
                         onChange={(e) => setLineSlopeX2(Number(e.target.value))}
-                        className="w-24 accent-indigo-500"
+                        className="w-24 accent-gold-500"
                       />
                       <label htmlFor="line-slope-y2" className="text-slate-400">Y2: {lineSlopeY2}</label>
                       <input
@@ -1674,7 +1674,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                         max={8}
                         value={lineSlopeY2}
                         onChange={(e) => setLineSlopeY2(Number(e.target.value))}
-                        className="w-24 accent-indigo-500"
+                        className="w-24 accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1691,7 +1691,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                             key={idx}
                             className={`w-5 h-5 rounded-sm flex items-center justify-center text-[8px] font-mono transition-colors ${
                               isIlluminated
-                                ? 'bg-indigo-500 text-white shadow-sm font-bold ring-1 ring-indigo-300'
+                                ? 'bg-gold-500 text-white shadow-sm font-bold ring-1 ring-gold-300'
                                 : 'bg-slate-950 text-slate-800'
                             }`}
                           >
@@ -1702,7 +1702,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                     </div>
 
                     <div className="text-xs text-slate-300 space-y-2 flex-1">
-                      <div className="font-bold text-indigo-400">Raster Engine Computation:</div>
+                      <div className="font-bold text-gold-400">Raster Engine Computation:</div>
                       <p>Active Mode: <span className="font-mono text-amber-300">{graphicsAlgorithm}</span></p>
                       <p>Start Point: (1, 1) ➔ Target: ({lineSlopeX2}, {lineSlopeY2})</p>
                       <p>Total Illuminated Pixels: <span className="font-bold text-emerald-400">{rasterGrid.length}</span></p>
@@ -1720,13 +1720,13 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
               {currentSlide === 4 && (
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
-                    <div className="text-xs font-bold text-slate-300">Statement: <span className="font-mono text-indigo-300 font-black">int total = 45 + score;</span></div>
+                    <div className="text-xs font-bold text-slate-300">Statement: <span className="font-mono text-gold-300 font-black">int total = 45 + score;</span></div>
                     <motion.button
                       aria-label="Advance to next compiler phase"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextCompilerPhase}
-                      className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                      className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                     >
                       Step Compiler Phase ({compilerPhaseIndex + 1}/6) ➔
                     </motion.button>
@@ -1746,7 +1746,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                         key={i}
                         className={`p-2 rounded-lg text-center text-[10px] font-bold border transition-all ${
                           compilerPhaseIndex === i
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-md ring-1 ring-indigo-300'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-md ring-1 ring-gold-300'
                             : i < compilerPhaseIndex
                             ? 'bg-slate-900 border-slate-700 text-emerald-400'
                             : 'bg-slate-950 border-slate-900 text-slate-600'
@@ -1764,7 +1764,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                         <div className="text-amber-400 font-bold mb-1">Tokens Generated by Lexical Scanner:</div>
                         <div className="flex flex-wrap gap-2">
                           {tokenizedItems.map((tok, i) => (
-                            <span key={i} className="px-2.5 py-1 bg-slate-800 rounded border border-slate-700 text-indigo-300">
+                            <span key={i} className="px-2.5 py-1 bg-slate-800 rounded border border-slate-700 text-gold-300">
                               Token({tok})
                             </span>
                           ))}
@@ -1830,7 +1830,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1877,7 +1877,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 border-t border-slate-800">
               {/* Code Quality Smell Selector */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="code-smell-select" className="text-xs font-bold text-indigo-300">Code Smell Simulation:</label>
+                <label htmlFor="code-smell-select" className="text-xs font-bold text-gold-300">Code Smell Simulation:</label>
                 <select
                   id="code-smell-select"
                   aria-label="Select code smell pattern"
@@ -1900,7 +1900,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
 
               {/* Git & CI Automation Switch */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300">Jenkins CI Automated Trigger:</label>
+                <label className="text-xs font-bold text-gold-300">Jenkins CI Automated Trigger:</label>
                 <div className="flex items-center justify-between p-2 bg-slate-900 rounded-lg border border-slate-700">
                   <span className="text-xs text-slate-300">Auto Build on Git Push:</span>
                   <input
@@ -1908,7 +1908,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                     type="checkbox"
                     checked={sandboxCiAutoBuild}
                     onChange={(e) => setSandboxCiAutoBuild(e.target.checked)}
-                    className="accent-indigo-500 w-4 h-4 cursor-pointer"
+                    className="accent-gold-500 w-4 h-4 cursor-pointer"
                   />
                 </div>
                 <div className="text-[11px] text-slate-400">
@@ -1918,7 +1918,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
 
               {/* Graphics Circle Radius */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="circle-radius-slider" className="text-xs font-bold text-indigo-300">Midpoint Circle Radius: {sandboxCircleRadius}px</label>
+                <label htmlFor="circle-radius-slider" className="text-xs font-bold text-gold-300">Midpoint Circle Radius: {sandboxCircleRadius}px</label>
                 <input
                   id="circle-radius-slider"
                   aria-label="Adjust midpoint circle radius slider"
@@ -1927,7 +1927,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   max={8}
                   value={sandboxCircleRadius}
                   onChange={(e) => setSandboxCircleRadius(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="text-[11px] text-slate-400">
                   Calculated octant pixels × 8 symmetry points = {sandboxCircleRadius * 8} perimeter pixels.
@@ -1948,7 +1948,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
           {/* Progress & Difficulty Header */}
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-3 border-b border-slate-800">
             <div>
-              <div className="text-xs font-black uppercase text-indigo-400 tracking-wider">
+              <div className="text-xs font-black uppercase text-gold-400 tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length} • Competency: {activeChallenge.competencyLevel}
               </div>
               <div className="text-xs text-slate-400 font-mono mt-0.5">Node: {activeChallenge.nodeId}</div>
@@ -1962,7 +1962,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -1999,10 +1999,10 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                         ? 'bg-emerald-950/80 border-2 border-emerald-500 text-emerald-200 font-bold shadow-lg'
                         : showExplanation
                         ? 'bg-slate-950 border border-slate-800 text-slate-500 opacity-60'
-                        : 'bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800 hover:bg-slate-750 border border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
-                    <span className="inline-block w-6 font-bold text-indigo-400">({String.fromCharCode(65 + i)})</span> {opt}
+                    <span className="inline-block w-6 font-bold text-gold-400">({String.fromCharCode(65 + i)})</span> {opt}
                     {showExplanation && i === activeChallenge.correctIndex && <span className="ml-2 text-emerald-400 font-bold">✓ Correct</span>}
                   </motion.button>
                 ))}
@@ -2022,7 +2022,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2037,7 +2037,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       onDrop={() => handleDragDrop(targetId)}
                       className="p-4 rounded-xl bg-slate-950 border-2 border-dashed border-slate-700 flex flex-col md:flex-row items-center justify-between gap-3"
                     >
-                      <span className="text-xs font-bold text-indigo-300 capitalize">{targetId.replace('role_', 'Scrum Role: ')}</span>
+                      <span className="text-xs font-bold text-gold-300 capitalize">{targetId.replace('role_', 'Scrum Role: ')}</span>
                       <div className="px-4 py-2 bg-slate-900 rounded-lg text-xs font-mono text-emerald-300 border border-slate-800 min-w-[200px] text-center">
                         {droppedLabels[targetId] || 'Drop description here ⬇'}
                       </div>
@@ -2050,7 +2050,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Mappings ✓
                 </motion.button>
@@ -2069,7 +2069,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                     key={displayIdx}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between gap-3 text-xs"
                   >
-                    <span className="font-bold text-indigo-400 w-6">{displayIdx + 1}.</span>
+                    <span className="font-bold text-gold-400 w-6">{displayIdx + 1}.</span>
                     <span className="flex-1 text-slate-200">{item}</span>
                     <div className="flex gap-1">
                       <button
@@ -2098,7 +2098,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={showExplanation}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Submit Order ✓
                 </motion.button>
@@ -2124,7 +2124,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                     whileTap={{ scale: 0.95 }}
                     disabled={showExplanation || !numericInput}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                   >
                     Check Calculation
                   </motion.button>
@@ -2144,7 +2144,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-lg text-xs font-mono text-white"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-lg text-xs font-mono text-white"
                     >
                       + {part}
                     </motion.button>
@@ -2153,7 +2153,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-900 border border-indigo-700 rounded-md text-xs font-mono text-emerald-300 flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-900 border border-gold-700 rounded-md text-xs font-mono text-emerald-300 flex items-center gap-2">
                       {part}
                       <button
                         aria-label={`Remove token ${part}`}
@@ -2173,7 +2173,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                   whileTap={{ scale: 0.97 }}
                   disabled={showExplanation || constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Javadoc Structure ✓
                 </motion.button>
@@ -2185,7 +2185,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-xl border border-indigo-800 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-xl border border-gold-800 space-y-3"
               >
                 <div className="flex items-center gap-2 text-amber-400 text-xs font-black uppercase tracking-wider">
                   <span>💡</span> Step-by-Step Architectural Solution
@@ -2199,7 +2199,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="flex items-start gap-2"
                     >
-                      <span className="font-bold text-indigo-400 shrink-0">{i + 1}.</span>
+                      <span className="font-bold text-gold-400 shrink-0">{i + 1}.</span>
                       <span>{sentence}{!sentence.endsWith('.') && '.'}</span>
                     </motion.div>
                   ))}
@@ -2211,7 +2211,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="mt-2 px-4 py-2 bg-indigo-800/80 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                    className="mt-2 px-4 py-2 bg-gold-800/80 hover:bg-gold-700 text-white rounded-lg text-xs font-bold"
                   >
                     Reveal Next Reasoning Step →
                   </motion.button>
@@ -2240,7 +2240,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
           className="space-y-6"
         >
           {/* Performance Hero Banner */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 shadow-2xl text-center space-y-4">
             <div className="text-4xl">🏆</div>
             <h2 className="text-2xl md:text-3xl font-black text-white">ISC Software Engineering Synthesis Complete!</h2>
             <div className="flex justify-center items-center gap-6 py-2">
@@ -2250,13 +2250,13 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
               </div>
               <div className="h-10 w-px bg-slate-800" />
               <div>
-                <div className="text-3xl font-black text-indigo-400 uppercase">{masteryLevel}</div>
+                <div className="text-3xl font-black text-gold-400 uppercase">{masteryLevel}</div>
                 <div className="text-xs text-slate-400 uppercase font-bold">BKT Mastery Tier</div>
               </div>
             </div>
 
             {/* PERSONALIZED MOTIVATIONAL FEEDBACK BASED ON ERROR COUNT */}
-            <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 text-sm font-bold text-indigo-200 max-w-xl mx-auto leading-relaxed">
+            <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 text-sm font-bold text-gold-200 max-w-xl mx-auto leading-relaxed">
               {errors === 0 && '🌟 PERFECT SCORE! You demonstrated flawless understanding across all 10 ISC Class 12 Computer Science nodes.'}
               {errors >= 1 && errors <= 3 && '👏 Great work! You have a solid grasp of TDD, Git workflows, CI/CD pipelines, and Compiler phases.'}
               {errors >= 4 && errors <= 7 && '👍 Good effort! Review the missed concepts below to strengthen your architecture foundations.'}
@@ -2271,15 +2271,15 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h4 className="font-bold text-indigo-300">1. Key Insight</h4>
+                <h4 className="font-bold text-gold-300">1. Key Insight</h4>
                 <p className="text-slate-300">What was the most surprising thing you learned across the 10 engineering domains?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h4 className="font-bold text-indigo-300">2. Synthesis</h4>
+                <h4 className="font-bold text-gold-300">2. Synthesis</h4>
                 <p className="text-slate-300">How would you explain the value of TDD and automated CI/CD to a friend?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h4 className="font-bold text-indigo-300">3. Practical Application</h4>
+                <h4 className="font-bold text-gold-300">3. Practical Application</h4>
                 <p className="text-slate-300">Where in real life or in open source projects might you apply this knowledge?</p>
               </div>
             </div>
@@ -2318,7 +2318,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
 
           {/* Real World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-black text-xs uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 font-black text-xs uppercase tracking-wider">
               <span>🚀</span> Capstone Portfolio Challenge
             </div>
             <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2326,7 +2326,7 @@ function C12_ComputerScienceSoftwareTestingUnitSim({
             <div className="space-y-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

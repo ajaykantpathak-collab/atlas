@@ -53,9 +53,9 @@ export function C11_PoliticalScienceRightsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">⚖️</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">⚖️</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 11 -- Rights</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Rights</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Rights Court: Can the Majority Outvote a Right?</h1>
         </div>
       </div>
@@ -100,11 +100,11 @@ export function C11_PoliticalScienceRightsSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Shield</p>
-              <p className="font-mono font-bold text-indigo-300">{rightsShield}</p>
+              <p className="font-mono font-bold text-gold-300">{rightsShield}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Upheld so far</p>
-              <p className="font-mono font-bold text-sky-300">{score.correct}</p>
+              <p className="font-mono font-bold text-gold-300">{score.correct}</p>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export function C11_PoliticalScienceRightsSim() {
               <div className="grid grid-cols-2 gap-2">
                 {RIGHTS.map((r) => (
                   <button key={r.id} onClick={() => setActive(r.id)}
-                    className={`min-h-11 rounded-xl text-[9px] font-bold ${active === r.id ? 'bg-indigo-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                    className={`min-h-11 rounded-xl text-[9px] font-bold ${active === r.id ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                     {r.label}
                   </button>
                 ))}
@@ -155,8 +155,8 @@ export function C11_PoliticalScienceRightsSim() {
             </p>
           </div>
 
-          <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-            <p className="font-bold text-indigo-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Push majority support to 95 on the book ban. It still falls -- why does size alone never justify a rights violation?</p>
             <p>2. Judge all four cases, then check yourself: which case shows a right being justifiably RESTRICTED, and by what test?</p>
           </div>

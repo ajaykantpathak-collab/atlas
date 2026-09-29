@@ -252,9 +252,9 @@ export function C10_ScienceMagneticEffectsOfElectricCurrentSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">🧭</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🧭</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 10 -- Magnetic Effects of Electric Current</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 -- Magnetic Effects of Electric Current</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Oersted&apos;s Compass and the Electromagnet</h1>
         </div>
       </div>
@@ -332,7 +332,7 @@ export function C10_ScienceMagneticEffectsOfElectricCurrentSim() {
           <div className="grid grid-cols-3 gap-2 text-center text-xs mt-1">
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Field B</p>
-              <p className="font-mono font-bold text-indigo-300">{bField < 1000 ? bField.toFixed(1) : (bField / 1000).toFixed(1) + 'k'} uT</p>
+              <p className="font-mono font-bold text-gold-300">{bField < 1000 ? bField.toFixed(1) : (bField / 1000).toFixed(1) + 'k'} uT</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">vs Earth (50 uT)</p>
@@ -349,11 +349,11 @@ export function C10_ScienceMagneticEffectsOfElectricCurrentSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setMode('wire')}
-                className={`py-2 rounded-xl text-xs font-bold ${mode === 'wire' ? 'bg-indigo-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-xs font-bold ${mode === 'wire' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Straight wire
               </button>
               <button onClick={() => setMode('solenoid')}
-                className={`py-2 rounded-xl text-xs font-bold ${mode === 'solenoid' ? 'bg-indigo-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`py-2 rounded-xl text-xs font-bold ${mode === 'solenoid' ? 'bg-gold-600' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 Solenoid
               </button>
             </div>
@@ -369,38 +369,38 @@ export function C10_ScienceMagneticEffectsOfElectricCurrentSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Compass distance from wire</span>
-                  <span className="font-mono font-bold text-sky-400">{distanceCm} cm</span>
+                  <span className="font-mono font-bold text-gold-400">{distanceCm} cm</span>
                 </div>
                 <input type="range" min={1} max={20} value={distanceCm} aria-label="distance"
-                  onChange={(e) => setDistanceCm(Number(e.target.value))} className="w-full accent-sky-500" />
+                  onChange={(e) => setDistanceCm(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
             ) : (
               <div className="space-y-2">
                 <div>
                   <div className="flex justify-between text-[11px] text-slate-400">
                     <span>Turns n</span>
-                    <span className="font-mono font-bold text-sky-400">{turns}</span>
+                    <span className="font-mono font-bold text-gold-400">{turns}</span>
                   </div>
                   <input type="range" min={5} max={200} value={turns} aria-label="turns"
-                    onChange={(e) => setTurns(Number(e.target.value))} className="w-full accent-sky-500" />
+                    onChange={(e) => setTurns(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <div className="flex justify-between text-[11px] text-slate-400">
                     <span>Coil length</span>
-                    <span className="font-mono font-bold text-cyan-300">{lengthCm} cm (n = {nTurnsPerM.toFixed(0)} /m)</span>
+                    <span className="font-mono font-bold text-gold-300">{lengthCm} cm (n = {nTurnsPerM.toFixed(0)} /m)</span>
                   </div>
                   <input type="range" min={5} max={40} value={lengthCm} aria-label="coil length"
-                    onChange={(e) => setLengthCm(Number(e.target.value))} className="w-full accent-cyan-500" />
+                    onChange={(e) => setLengthCm(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
               </div>
             )}
             <button onClick={() => setPolarity((p) => (p === 'A-to-B' ? 'B-to-A' : 'A-to-B'))}
-              className="w-full py-2 rounded-xl text-xs font-bold bg-slate-800 hover:bg-indigo-800 transition">
+              className="w-full py-2 rounded-xl text-xs font-bold bg-slate-800 hover:bg-gold-800 transition">
               Reverse current direction (poles flip!)
             </button>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-indigo-800/60 p-4 text-xs font-mono space-y-1">
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
             <p className="text-slate-300">
               {mode === 'wire'
                 ? `B = mu0*I/(2*pi*r) = ${bWireuT.toFixed(1)} uT at ${distanceCm} cm`
@@ -420,8 +420,8 @@ export function C10_ScienceMagneticEffectsOfElectricCurrentSim() {
             </p>
           </div>
 
-          <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-            <p className="font-bold text-indigo-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Find the current that deflects the compass exactly 45 deg -- then verify tan(45) = B/50 means B = 50 uT.</p>
             <p>2. Halve the coil length keeping n fixed. Why does B rise even though turn count is unchanged?</p>
           </div>

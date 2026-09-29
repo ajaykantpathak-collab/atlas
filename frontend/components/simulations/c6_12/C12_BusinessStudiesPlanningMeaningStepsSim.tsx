@@ -1307,7 +1307,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                   ? 'bg-emerald-950 text-emerald-300 border-emerald-600'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950 text-rose-300 border-rose-600'
-                  : 'bg-indigo-950 text-indigo-300 border-indigo-600'
+                  : 'bg-gold-950 text-gold-300 border-gold-600'
               }`}
             >
               {difficulty} Tier
@@ -1452,7 +1452,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                           {Math.round(evBudget * 40)} fast-charging stations across 100 Indian highways by 2026.
                         </li>
                         <li>
-                          <strong className="text-indigo-400">Strategy:</strong> Build dedicated EV skateboard
+                          <strong className="text-gold-400">Strategy:</strong> Build dedicated EV skateboard
                           platforms with localized battery cells.
                         </li>
                         <li>
@@ -1516,7 +1516,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                       onClick={() => handleOrgToggle('divisional')}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                         selectedOrgStructure === 'divisional'
-                          ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                          ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                           : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
@@ -1771,7 +1771,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
           </AnimatePresence>
 
           {/* ─── BRILLIANT.ORG STYLE "WHAT DO YOU NOTICE?" OBSERVATION BLOCK ─── */}
-          <div className="p-5 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-500/30 space-y-4">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-500/30 space-y-4">
             <div className="flex items-center justify-between">
               <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold tracking-wide flex items-center gap-1.5">
                 <span>🔍</span> WHAT DO YOU NOTICE? (Observation {currentObsIndex + 1} of {OBSERVATION_QUESTIONS.length})
@@ -1891,10 +1891,10 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
       {/* ─── 3. FREE SANDBOX / PREDICT-THEN-CHECK PHASE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/40 rounded-2xl border border-slate-800">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-2xl border border-slate-800">
             <div className="flex justify-between items-start">
               <div>
-                <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold">
+                <span className="px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs font-bold">
                   PREDICT-THEN-CHECK SANDBOX
                 </span>
                 <h3 className="text-lg font-bold text-white mt-2">Executive Simulation Playground</h3>
@@ -1984,7 +1984,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                   <button
                     onClick={() => handleOrgToggle('divisional')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                      selectedOrgStructure === 'divisional' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      selectedOrgStructure === 'divisional' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Divisional
@@ -2094,7 +2094,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable: ${item.label}`}
-                      className="px-3.5 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2346,7 +2346,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
               </div>
               <div className="px-4 py-2 rounded-xl bg-slate-950 border border-slate-800">
                 <span className="text-slate-400 text-xs block">BKT Mastery Status</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="px-4 py-2 rounded-xl bg-slate-950 border border-slate-800">
                 <span className="text-slate-400 text-xs block">Errors Recorded</span>
@@ -2367,7 +2367,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
           </div>
 
           {/* ─── EXPLICIT SPACED REPETITION SCHEDULE CARD ─── */}
-          <div className="p-6 bg-gradient-to-br from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border-2 border-amber-500/50 shadow-xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-amber-950/50 via-slate-900 to-gold-950/50 rounded-2xl border-2 border-amber-500/50 shadow-xl space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2 border-b border-amber-800/40 pb-3">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">📅</span>
@@ -2400,7 +2400,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
 
               <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800 text-center">
                 <span className="text-xs text-slate-400 block mb-1">Retention Goal</span>
-                <span className="text-xl font-black text-indigo-400">95%+ Recall</span>
+                <span className="text-xl font-black text-gold-400">95%+ Recall</span>
                 <span className="text-[11px] text-slate-400 block mt-1">ISC Class 12 Boards</span>
               </div>
             </div>
@@ -2432,13 +2432,13 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
           )}
 
           {/* Reflection Section */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/40 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/40 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🧠</span> Deep Learning Reflection
             </h3>
             <div className="space-y-3">
               <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800">
-                <span className="text-xs font-semibold text-indigo-400 block mb-1">
+                <span className="text-xs font-semibold text-gold-400 block mb-1">
                   1. What was the most surprising thing you learned?
                 </span>
                 <p className="text-xs text-slate-300 leading-relaxed">
@@ -2446,7 +2446,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                 </p>
               </div>
               <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800">
-                <span className="text-xs font-semibold text-indigo-400 block mb-1">
+                <span className="text-xs font-semibold text-gold-400 block mb-1">
                   2. How would you explain this to a friend?
                 </span>
                 <p className="text-xs text-slate-300 leading-relaxed">
@@ -2454,7 +2454,7 @@ function C12_BusinessStudiesPlanningMeaningStepsSim({
                 </p>
               </div>
               <div className="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800">
-                <span className="text-xs font-semibold text-indigo-400 block mb-1">
+                <span className="text-xs font-semibold text-gold-400 block mb-1">
                   3. Where in real life might you use this?
                 </span>
                 <p className="text-xs text-slate-300 leading-relaxed">

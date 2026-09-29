@@ -719,10 +719,10 @@ const MarketEquilibriumDiagram: React.FC<{
   }
 
   return (
-    <div className="bg-slate-900/80 p-4 rounded-xl border border-indigo-500/30 shadow-xl text-white">
+    <div className="bg-slate-900/80 p-4 rounded-xl border border-gold-500/30 shadow-xl text-white">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="font-semibold text-indigo-300 text-sm">Market Equilibrium (D & S Curves)</h4>
-        <span className="text-xs font-mono bg-indigo-950 px-2 py-1 rounded text-indigo-200 border border-indigo-700">
+        <h4 className="font-semibold text-gold-300 text-sm">Market Equilibrium (D & S Curves)</h4>
+        <span className="text-xs font-mono bg-gold-950 px-2 py-1 rounded text-gold-200 border border-gold-700">
           P* = ₹{pStar.toFixed(1)} | Q* = {qStar.toFixed(1)} units
         </span>
       </div>
@@ -891,7 +891,7 @@ const FreeEntryExitDiagram: React.FC<{
 
         {/* Market Level View */}
         <div className="bg-slate-950 p-3 rounded-lg border border-slate-800">
-          <p className="text-xs font-bold text-center text-cyan-400 mb-1">Market Level (LR Supply)</p>
+          <p className="text-xs font-bold text-center text-gold-400 mb-1">Market Level (LR Supply)</p>
           <svg width="200" height="180" className="mx-auto overflow-visible">
             <line x1="30" y1="150" x2="190" y2="150" stroke="#94a3b8" />
             <line x1="30" y1="20" x2="30" y2="150" stroke="#94a3b8" />
@@ -1245,13 +1245,13 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
       {/* HEADER BAR */}
       <header className="flex flex-col md:flex-row justify-between items-start md:items-center bg-slate-900 border border-slate-800 p-4 rounded-2xl shadow-lg gap-4">
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl shadow-md">
+          <div className="p-3 bg-gradient-to-br from-gold-500 to-purple-600 rounded-xl shadow-md">
             <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
             </svg>
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">Class 12 Economics (ISC/CBSE) — Dynamic Market Equilibrium & Policy Interventions</p>
@@ -1270,7 +1270,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
           </div>
           <div className="bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800 flex flex-col items-center">
             <span className="text-slate-400">Challenges</span>
-            <span className="text-indigo-400 font-bold text-sm">{currentChallengeIdx + 1}/{CHALLENGES.length}</span>
+            <span className="text-gold-400 font-bold text-sm">{currentChallengeIdx + 1}/{CHALLENGES.length}</span>
           </div>
         </div>
       </header>
@@ -1280,7 +1280,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
         <button
           onClick={() => { setActiveTab('discovery'); playSound('tap'); }}
           className={`flex-1 py-2.5 rounded-lg font-medium text-sm transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'discovery' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'discovery' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <span>💡</span> 1. Discovery & Concept
@@ -1288,7 +1288,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
         <button
           onClick={() => { setActiveTab('lab'); playSound('tap'); }}
           className={`flex-1 py-2.5 rounded-lg font-medium text-sm transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'lab' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'lab' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <span>🧪</span> 2. Interactive Simulation Lab
@@ -1296,7 +1296,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
         <button
           onClick={() => { setActiveTab('challenges'); playSound('tap'); }}
           className={`flex-1 py-2.5 rounded-lg font-medium text-sm transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'challenges' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'challenges' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <span>🎯</span> 3. Mastery Challenges ({CHALLENGES.length})
@@ -1304,7 +1304,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
         <button
           onClick={() => { setActiveTab('summary'); playSound('tap'); }}
           className={`flex-1 py-2.5 rounded-lg font-medium text-sm transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'summary' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            activeTab === 'summary' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
           <span>📚</span> 4. Review & Real-World Application
@@ -1318,14 +1318,14 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
           <div className="space-y-6">
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-3">
-              <h2 className="text-lg font-bold text-indigo-300">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-300">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-sm text-slate-400 leading-relaxed">{SCENARIO.context}</p>
             </div>
 
             {/* Discovery Core Question */}
-            <div className="bg-slate-900 border border-indigo-500/30 p-6 rounded-2xl shadow-xl space-y-4">
-              <div className="flex items-center gap-2 text-indigo-400 font-semibold text-sm">
+            <div className="bg-slate-900 border border-gold-500/30 p-6 rounded-2xl shadow-xl space-y-4">
+              <div className="flex items-center gap-2 text-gold-400 font-semibold text-sm">
                 <span>🧐</span> Initial Intuition Check (Discovery)
               </div>
               <h3 className="text-md font-medium text-slate-100">{DISCOVERY_QUESTION.question}</h3>
@@ -1350,8 +1350,8 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
               </div>
 
               {discoverySubmitted && (
-                <div className="p-4 rounded-xl bg-slate-950 border border-indigo-500/40 text-xs text-indigo-200 leading-relaxed">
-                  <span className="font-bold text-indigo-400">Economic Insight: </span>
+                <div className="p-4 rounded-xl bg-slate-950 border border-gold-500/40 text-xs text-gold-200 leading-relaxed">
+                  <span className="font-bold text-gold-400">Economic Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1359,7 +1359,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
 
             {/* Predictions List */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-indigo-300">Hypothesis & Predictions</h3>
+              <h3 className="text-md font-bold text-gold-300">Hypothesis & Predictions</h3>
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <p className="text-sm font-medium text-slate-200">{pred.question}</p>
@@ -1401,7 +1401,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                       onClick={() => { setLabMode(modeKey as typeof labMode); playSound('tap'); }}
                       className={`px-4 py-2.5 rounded-xl text-xs font-semibold transition-all border ${
                         labMode === modeKey
-                          ? 'bg-gradient-to-r from-indigo-600 to-purple-600 border-indigo-400 text-white shadow'
+                          ? 'bg-gradient-to-r from-gold-600 to-purple-600 border-gold-400 text-white shadow'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                       }`}
                     >
@@ -1411,7 +1411,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                 })}
               </div>
               <p className="text-xs text-slate-400 mt-3 px-1">
-                <span className="font-bold text-indigo-400">Current Task: </span>
+                <span className="font-bold text-gold-400">Current Task: </span>
                 {EXPLORATION_STEPS.find((_, i) => (i === 0 && labMode === 'fixed') || (i === 1 && labMode === 'shifts') || (i === 2 && labMode === 'free_entry') || (i === 3 && labMode === 'labour') || (i === 4 && labMode === 'controls'))?.instruction}
               </p>
             </div>
@@ -1420,7 +1420,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
               {/* Controls Column (5 cols) */}
               <div className="lg:col-span-5 bg-slate-900 border border-slate-800 p-5 rounded-2xl shadow-xl space-y-5">
-                <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">Simulation Controls</h3>
+                <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Simulation Controls</h3>
 
                 {/* MODE 1 & 2: FIXED & SHIFTS CONTROLS */}
                 {(labMode === 'fixed' || labMode === 'shifts') && (
@@ -1435,7 +1435,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                         max="350"
                         value={demandIntercept}
                         onChange={(e) => { setDemandIntercept(Number(e.target.value)); playSound('count'); }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1463,7 +1463,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                         max="10"
                         value={demandSlope}
                         onChange={(e) => { setDemandSlope(Number(e.target.value)); playSound('count'); }}
-                        className="w-full accent-indigo-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1486,7 +1486,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                         <p className="font-bold text-purple-300">Simultaneous Shifts</p>
                         <div>
                           <div className="flex justify-between mb-1">
-                            <span className="text-cyan-300">Demand Curve Shift ($\Delta D$): {demandShift}</span>
+                            <span className="text-gold-300">Demand Curve Shift ($\Delta D$): {demandShift}</span>
                           </div>
                           <input
                             type="range"
@@ -1494,7 +1494,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                             max="50"
                             value={demandShift}
                             onChange={(e) => { setDemandShift(Number(e.target.value)); playSound('whoosh'); }}
-                            className="w-full accent-cyan-400"
+                            className="w-full accent-gold-400"
                           />
                         </div>
 
@@ -1543,7 +1543,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                         max="10"
                         value={firmOptQ}
                         onChange={(e) => { setFirmOptQ(Number(e.target.value)); playSound('count'); }}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1557,7 +1557,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                         max="500"
                         value={freeDemandIntercept}
                         onChange={(e) => { setFreeDemandIntercept(Number(e.target.value)); playSound('count'); }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1682,7 +1682,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
 
             {/* Observation Questions Section */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-indigo-300">Lab Observations & Analysis</h3>
+              <h3 className="text-md font-bold text-gold-300">Lab Observations & Analysis</h3>
               {OBSERVATION_QUESTIONS.map((obs, oIdx) => (
                 <div key={oIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <p className="text-sm font-medium text-slate-200">{obs.question}</p>
@@ -1718,7 +1718,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                 <div>
                   <span className={`text-xs px-2.5 py-1 rounded-full font-bold uppercase tracking-wide ${
                     CHALLENGES[currentChallengeIdx].difficulty === 'foundation'
-                      ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                      ? 'bg-gold-950 text-gold-400 border border-gold-800'
                       : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
                       ? 'bg-amber-950 text-amber-400 border border-amber-800'
                       : 'bg-purple-950 text-purple-400 border border-purple-800'
@@ -1747,7 +1747,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                       onClick={() => { setUserMcqAnswer(oIdx); playSound('tap'); }}
                       className={`p-4 rounded-xl text-left text-sm transition-all border ${
                         userMcqAnswer === oIdx
-                          ? 'bg-indigo-950 border-indigo-500 text-indigo-200 font-medium'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200 font-medium'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1767,7 +1767,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                     value={userNumAnswer}
                     onChange={(e) => setUserNumAnswer(e.target.value)}
                     placeholder="Type number here..."
-                    className="w-full bg-slate-950 border border-slate-800 rounded-xl p-4 text-base text-white focus:outline-none focus:border-indigo-500"
+                    className="w-full bg-slate-950 border border-slate-800 rounded-xl p-4 text-base text-white focus:outline-none focus:border-gold-500"
                   />
                 </div>
               )}
@@ -1812,7 +1812,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
                   <button
                     disabled={userMcqAnswer === null && userNumAnswer.trim() === ''}
                     onClick={handleChallengeSubmit}
-                    className="px-6 py-2.5 rounded-xl text-sm font-bold bg-gradient-to-r from-indigo-600 to-purple-600 text-white disabled:opacity-50 hover:shadow-lg transition-all"
+                    className="px-6 py-2.5 rounded-xl text-sm font-bold bg-gradient-to-r from-gold-600 to-purple-600 text-white disabled:opacity-50 hover:shadow-lg transition-all"
                   >
                     Submit Answer
                   </button>
@@ -1854,7 +1854,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
 
             {/* Misconceptions Matrix */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-4">
-              <h3 className="text-md font-bold text-indigo-300">Common Misconceptions & Corrections</h3>
+              <h3 className="text-md font-bold text-gold-300">Common Misconceptions & Corrections</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {MISCONCEPTIONS.map((m) => (
                   <div key={m.id} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
@@ -1870,7 +1870,7 @@ const C12_EcoMarketEquilibriumCBSESim: React.FC<SimProps> = ({ onComplete }) => 
 
             {/* Key Concepts Chapter Review */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-4 text-xs">
-              <h3 className="text-md font-bold text-indigo-300">Chapter Key Concepts Review (ISC/CBSE)</h3>
+              <h3 className="text-md font-bold text-gold-300">Chapter Key Concepts Review (ISC/CBSE)</h3>
               <ul className="list-disc list-inside space-y-2 text-slate-300 leading-relaxed">
                 <li><strong className="text-white">Market Equilibrium:</strong> Price where total quantity demanded equals total quantity supplied ($q^d = q^s$).</li>
                 <li><strong className="text-white">Invisible Hand Mechanism:</strong> Excess demand drives price UP; excess supply drives price DOWN towards equilibrium.</li>

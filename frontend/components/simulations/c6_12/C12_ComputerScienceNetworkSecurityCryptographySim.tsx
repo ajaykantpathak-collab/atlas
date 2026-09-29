@@ -1230,12 +1230,12 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-cyan-950/80 border border-cyan-500/40 flex items-center justify-center text-2xl shadow-inner">
+          <div className="w-12 h-12 rounded-2xl bg-gold-950/80 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-800">
+              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-400 border border-gold-800">
                 ISC Class 12 CS
               </span>
               <span className="text-xs text-slate-400">c12_cs_041 – c12_cs_050</span>
@@ -1255,13 +1255,13 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-800'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-800'
-                : 'bg-cyan-950/60 text-cyan-400 border-cyan-800'
+                : 'bg-gold-950/60 text-gold-400 border-gold-800'
             }`}
           >
             Level: {difficulty}
           </motion.span>
           <span className="text-xs px-3 py-1 rounded-full font-medium bg-slate-900 border border-slate-800 text-slate-300">
-            Phase: <strong className="text-cyan-400 capitalize">{phase}</strong>
+            Phase: <strong className="text-gold-400 capitalize">{phase}</strong>
           </span>
         </div>
       </motion.div>
@@ -1269,8 +1269,8 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
       {/* ─── 1. DISCOVERY PHASE (HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 via-slate-900/90 to-cyan-950/40 border border-cyan-800/40 shadow-lg">
-            <div className="flex items-center gap-2 text-cyan-400 font-bold text-sm mb-2">
+          <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 via-slate-900/90 to-gold-950/40 border border-gold-800/40 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
               <span>🛡️</span> {SCENARIO.title}
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
@@ -1303,7 +1303,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-950/60 border-slate-800 text-slate-500'
-                      : 'bg-slate-950/80 border-slate-800 hover:border-cyan-500 text-slate-200 hover:bg-slate-900'
+                      : 'bg-slate-950/80 border-slate-800 hover:border-gold-500 text-slate-200 hover:bg-slate-900'
                   }`}
                 >
                   <span className="inline-block w-6 font-bold text-slate-400">{String.fromCharCode(65 + idx)}.</span>
@@ -1324,7 +1324,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold text-sm shadow-lg shadow-cyan-950 flex items-center gap-2"
+                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm shadow-lg shadow-gold-950 flex items-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1351,7 +1351,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                 }}
                 className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all border ${
                   currentSlide === idx
-                    ? 'bg-cyan-950 border-cyan-500 text-cyan-300 shadow-md shadow-cyan-950/50'
+                    ? 'bg-gold-950 border-gold-500 text-gold-300 shadow-md shadow-gold-950/50'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1369,7 +1369,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
               className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-5"
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
-                <h3 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <span className="text-xs px-2.5 py-1 rounded bg-slate-950 text-slate-400 border border-slate-800 font-mono">
                   Target: {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
@@ -1392,7 +1392,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          cipherMode === 'symmetric' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300'
+                          cipherMode === 'symmetric' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         Symmetric (AES Caesar Demo)
@@ -1406,7 +1406,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          cipherMode === 'asymmetric' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'
+                          cipherMode === 'asymmetric' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         Asymmetric (RSA Public/Private)
@@ -1414,7 +1414,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                     </div>
 
                     <div className="text-xs text-slate-400">
-                      Algorithm: <strong className="text-cyan-400">{cipherMode === 'symmetric' ? 'AES-256 Symmetric' : 'RSA-2048 Bit'}</strong>
+                      Algorithm: <strong className="text-gold-400">{cipherMode === 'symmetric' ? 'AES-256 Symmetric' : 'RSA-2048 Bit'}</strong>
                     </div>
                   </div>
 
@@ -1463,7 +1463,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         max={25}
                         value={keyShift}
                         onChange={e => handleKeyShiftChange(Number(e.target.value))}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                   ) : (
@@ -1484,7 +1484,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                               audioManager.play('tap');
                             }}
                             className={`px-3 py-1 rounded text-xs font-mono font-bold ${
-                              rsaKeyBits === bits ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                              rsaKeyBits === bits ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {bits}-bit
@@ -1503,7 +1503,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         type="text"
                         value={rawMessage}
                         onChange={e => setRawMessage(e.target.value.toUpperCase().replace(/[^A-Z0-9_]/g, ''))}
-                        className="w-full p-2 bg-slate-950 border border-slate-700 rounded text-cyan-300 font-mono text-sm tracking-widest font-bold"
+                        className="w-full p-2 bg-slate-950 border border-slate-700 rounded text-gold-300 font-mono text-sm tracking-widest font-bold"
                       />
                     </div>
                     <div className="p-3.5 bg-slate-900 rounded-lg border border-slate-800">
@@ -1515,9 +1515,9 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   </div>
 
                   {/* Brilliant.org Observation Question 1 */}
-                  <div className="p-4 bg-slate-900 rounded-xl border border-cyan-800/40 space-y-3">
+                  <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800">
+                      <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                         🔍 What do you notice? (Observation Lab 1)
                       </span>
                     </div>
@@ -1539,7 +1539,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                                 : observationAnswers[0] === oIdx
                                 ? 'bg-rose-950/60 border-rose-600 text-rose-300'
                                 : 'bg-slate-950/40 border-slate-800 text-slate-500'
-                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500'
+                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           {opt}
@@ -1547,7 +1547,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       ))}
                     </div>
                     {observationSubmitted[0] && (
-                      <p className="text-xs text-cyan-300 font-medium pt-1">
+                      <p className="text-xs text-gold-300 font-medium pt-1">
                         💡 {OBSERVATION_QUESTIONS[0].explanation}
                       </p>
                     )}
@@ -1574,7 +1574,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                           onClick={() => handleFirewallChange(item.level)}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
                             firewallStrictness === item.level
-                              ? 'bg-cyan-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-800 text-slate-400'
                           }`}
                         >
@@ -1599,7 +1599,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                       <div className="text-xs text-slate-400 font-bold mb-1">IDS Anomaly Engine</div>
-                      <span className="text-xs px-2 py-0.5 rounded bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono">
+                      <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-400 border border-gold-800 font-mono">
                         {firewallStrictness === 3 ? '✓ HEURISTIC SCAN' : '✓ SIGNATURE ONLY'}
                       </span>
                     </div>
@@ -1631,7 +1631,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       setVmCount(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-cyan-400"
+                    className="w-full accent-gold-400"
                   />
 
                   {/* Architecture Comparison Diagram */}
@@ -1674,7 +1674,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         ))}
                         {containerCount > 4 && <div className="text-slate-500 text-center font-mono text-xs">+ {containerCount - 4} more containers...</div>}
                       </div>
-                      <div className="p-2 bg-cyan-950 border border-cyan-800 text-center text-xs text-cyan-300 font-mono">
+                      <div className="p-2 bg-gold-950 border border-gold-800 text-center text-xs text-gold-300 font-mono">
                         Shared Host Linux OS Kernel
                       </div>
                       <div className="p-2 bg-slate-800 text-center text-xs text-white font-bold rounded">
@@ -1684,14 +1684,14 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   </div>
 
                   {/* Prediction Question 2 */}
-                  <div className="p-4 bg-slate-900 rounded-xl border border-indigo-800/40 space-y-3">
+                  <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
+                      <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                         🔮 Prediction Question 2
                       </span>
                     </div>
                     <p className="text-xs md:text-sm text-slate-200 font-medium">{PREDICTION_QUESTIONS[1].question}</p>
-                    <p className="text-xs text-indigo-300">Verify Instruction: {PREDICTION_QUESTIONS[1].verifyInstruction}</p>
+                    <p className="text-xs text-gold-300">Verify Instruction: {PREDICTION_QUESTIONS[1].verifyInstruction}</p>
                     <div className="grid md:grid-cols-2 gap-2 pt-1">
                       {PREDICTION_QUESTIONS[1].options.map((opt, idx) => (
                         <motion.button
@@ -1707,7 +1707,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                                 : predictionAnswers[1] === idx
                                 ? 'bg-rose-950/60 border-rose-600 text-rose-300'
                                 : 'bg-slate-950/40 border-slate-800 text-slate-500'
-                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-indigo-500'
+                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           {opt}
@@ -1732,7 +1732,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         step={0.1}
                         value={nnWeight1}
                         onChange={e => setNnWeight1(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                     <div>
@@ -1745,7 +1745,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         step={0.1}
                         value={nnWeight2}
                         onChange={e => setNnWeight2(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                     <div>
@@ -1758,7 +1758,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         step={0.1}
                         value={nnBias}
                         onChange={e => setNnBias(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                   </div>
@@ -1794,9 +1794,9 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   </svg>
 
                   {/* Brilliant.org Observation Question 2 */}
-                  <div className="p-4 bg-slate-900 rounded-xl border border-cyan-800/40 space-y-3">
+                  <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800">
+                      <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                         ��� What do you notice? (Observation Lab 4)
                       </span>
                     </div>
@@ -1818,7 +1818,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                                 : observationAnswers[1] === oIdx
                                 ? 'bg-rose-950/60 border-rose-600 text-rose-300'
                                 : 'bg-slate-950/40 border-slate-800 text-slate-500'
-                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500'
+                              : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           {opt}
@@ -1826,7 +1826,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       ))}
                     </div>
                     {observationSubmitted[1] && (
-                      <p className="text-xs text-cyan-300 font-medium pt-1">
+                      <p className="text-xs text-gold-300 font-medium pt-1">
                         💡 {OBSERVATION_QUESTIONS[1].explanation}
                       </p>
                     )}
@@ -1918,7 +1918,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
 
                   {/* Prediction Question 1 */}
                   <div className="pt-3 border-t border-slate-800 space-y-2">
-                    <p className="text-xs font-bold text-cyan-300">🔮 Prediction 1: {PREDICTION_QUESTIONS[0].question}</p>
+                    <p className="text-xs font-bold text-gold-300">🔮 Prediction 1: {PREDICTION_QUESTIONS[0].question}</p>
                     <p className="text-xs text-slate-400">Verify Instruction: {PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                     <div className="grid md:grid-cols-2 gap-2 pt-1">
                       {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
@@ -1935,7 +1935,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                                 : predictionAnswers[0] === idx
                                 ? 'bg-rose-950/60 border-rose-600 text-rose-300'
                                 : 'bg-slate-950/40 border-slate-800 text-slate-500'
-                              : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500'
+                              : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500'
                           }`}
                         >
                           {opt}
@@ -1977,7 +1977,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -2001,7 +2001,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-6 space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-900 rounded-2xl border border-slate-800">
             <div>
-              <h3 className="text-base font-bold text-cyan-300">Architectural Free Sandbox</h3>
+              <h3 className="text-base font-bold text-gold-300">Architectural Free Sandbox</h3>
               <p className="text-xs text-slate-400">Simulate IoT controllers, IoT relays, Big Data pipelines, and AI neural weights with zero grading pressure.</p>
             </div>
             <motion.button
@@ -2009,7 +2009,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-950 flex items-center gap-2"
+              className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-950 flex items-center gap-2"
             >
               Ready for Challenges! 🚀
             </motion.button>
@@ -2035,7 +2035,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                 }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                   sandboxTab === tab.id
-                    ? 'bg-cyan-950 text-cyan-300 border border-cyan-700'
+                    ? 'bg-gold-950 text-gold-300 border border-gold-700'
                     : 'bg-slate-900 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -2084,7 +2084,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
 
               {/* Big Data MapReduce */}
               <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
-                <div className="text-sm font-bold text-cyan-400">Big Data MapReduce Flow (c12_cs_047)</div>
+                <div className="text-sm font-bold text-gold-400">Big Data MapReduce Flow (c12_cs_047)</div>
                 <div className="flex gap-2">
                   {(['raw', 'map', 'shuffle', 'reduce'] as const).map(stage => (
                     <motion.button
@@ -2097,7 +2097,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         audioManager.play('tap');
                       }}
                       className={`px-2.5 py-1 rounded text-xs font-bold uppercase ${
-                        mapReduceStage === stage ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                        mapReduceStage === stage ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {stage}
@@ -2123,7 +2123,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                 type="text"
                 value={rawMessage}
                 onChange={e => setRawMessage(e.target.value.toUpperCase())}
-                className="w-full p-2 bg-slate-950 border border-slate-700 rounded font-mono text-sm text-cyan-300 font-bold"
+                className="w-full p-2 bg-slate-950 border border-slate-700 rounded font-mono text-sm text-gold-300 font-bold"
               />
               <div className="p-3 bg-slate-950 rounded font-mono text-xs text-amber-400 break-all">
                 Ciphertext Output: {calculatedCiphertext}
@@ -2133,7 +2133,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
           {sandboxTab === 'firewall' && (
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
               <p className="text-xs text-slate-300 mb-2">Live traffic packet inspection active in canvas engine.</p>
-              <div className="text-xs text-cyan-400 font-mono">Current Policy: Strict Level {firewallStrictness}</div>
+              <div className="text-xs text-gold-400 font-mono">Current Policy: Strict Level {firewallStrictness}</div>
             </div>
           )}
           {sandboxTab === 'cloud' && (
@@ -2156,7 +2156,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
           <div className="space-y-2">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold px-2.5 py-1 rounded bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono">
+                <span className="text-xs font-bold px-2.5 py-1 rounded bg-gold-950 text-gold-400 border border-gold-800 font-mono">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-xs px-2 py-0.5 rounded bg-slate-900 text-slate-400 border border-slate-800 uppercase">
@@ -2171,7 +2171,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
             {/* Progress Bar */}
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2201,7 +2201,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         ? 'bg-rose-950/60 border-rose-600 text-rose-200'
                         : showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950'
-                        : 'bg-slate-950/80 border-slate-800 hover:border-cyan-500 text-slate-200 hover:bg-slate-900'
+                        : 'bg-slate-950/80 border-slate-800 hover:border-gold-500 text-slate-200 hover:bg-slate-900'
                     }`}
                   >
                     <span className="inline-block w-6 font-bold text-slate-400">{String.fromCharCode(65 + i)}.</span>
@@ -2229,7 +2229,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-800 hover:bg-cyan-700 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2248,11 +2248,11 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       className={`p-3 rounded-xl border-2 border-dashed transition-all flex items-center justify-between ${
                         droppedLabels[item.targetId]
                           ? 'border-emerald-500 bg-emerald-950/30'
-                          : 'border-slate-700 bg-slate-900/50 hover:border-cyan-500'
+                          : 'border-slate-700 bg-slate-900/50 hover:border-gold-500'
                       }`}
                     >
                       <span className="text-xs text-slate-400 font-mono">Target: {item.targetId}</span>
-                      <span className="text-xs font-bold text-cyan-300">
+                      <span className="text-xs font-bold text-gold-300">
                         {droppedLabels[item.targetId] ? `✓ ${droppedLabels[item.targetId]}` : '[Drop Label Here]'}
                       </span>
                     </div>
@@ -2265,7 +2265,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-950"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                 >
                   Verify Architecture Labels
                 </motion.button>
@@ -2294,9 +2294,9 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                         handleSortMove(fromIdx, displayIndex);
                       }}
                       whileHover={{ scale: 1.01 }}
-                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3 hover:border-cyan-500"
+                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3 hover:border-gold-500"
                     >
-                      <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 border border-gold-800 flex items-center justify-center font-bold">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2310,7 +2310,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-950"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                 >
                   Submit Execution Order
                 </motion.button>
@@ -2327,7 +2327,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated integer"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-cyan-500 outline-none"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
                   <motion.button
@@ -2336,7 +2336,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-950"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                   >
                     Check Calculation
                   </motion.button>
@@ -2356,7 +2356,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-lg text-xs font-medium border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-medium border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2369,7 +2369,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-cyan-950 text-cyan-300 border border-cyan-700 rounded-lg text-xs font-mono flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-lg text-xs font-mono flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2390,7 +2390,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-950"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
                 >
                   Verify Pipeline Construction
                 </motion.button>
@@ -2463,7 +2463,7 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
             <div className="inline-flex gap-4 p-3 bg-slate-950 rounded-2xl border border-slate-800 mt-2">
               <div>
                 <div className="text-xs text-slate-400">Final Score</div>
-                <div className="text-xl font-bold text-cyan-400">{Math.max(0, 100 - errors * 5)}%</div>
+                <div className="text-xl font-bold text-gold-400">{Math.max(0, 100 - errors * 5)}%</div>
               </div>
               <div className="border-l border-slate-800 pl-4">
                 <div className="text-xs text-slate-400">Mastery Level</div>
@@ -2506,29 +2506,29 @@ export function C12_ComputerScienceNetworkSecurityCryptographySim({
           )}
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-700/70 text-indigo-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-700/70 text-gold-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div className="space-y-1">
-              <div className="flex items-center gap-2 font-bold text-base text-indigo-100">
+              <div className="flex items-center gap-2 font-bold text-base text-gold-100">
                 <span>🧠</span> Spaced Repetition Schedule (SRS / SM-2)
               </div>
-              <p className="text-xs text-indigo-300">
+              <p className="text-xs text-gold-300">
                 Based on your performance ({errors} error{errors === 1 ? '' : 's'}), your next review is scheduled in:
               </p>
-              <div className="text-sm font-semibold text-cyan-300">
+              <div className="text-sm font-semibold text-gold-300">
                 📅 Review recommended in:{' '}
                 <span className="underline font-bold text-yellow-300">
                   {errors === 0 ? '7 days (Mastery Retention)' : errors <= 3 ? '3 days (Consolidation)' : '1 day (Immediate Reinforcement)'}
                 </span>
               </div>
             </div>
-            <div className="px-4 py-2 bg-indigo-900/80 border border-indigo-600 rounded-xl font-mono text-xs font-bold text-white text-center">
+            <div className="px-4 py-2 bg-gold-900/80 border border-gold-600 rounded-xl font-mono text-xs font-bold text-white text-center">
               Next Review: {errors === 0 ? '+7 Days' : errors <= 3 ? '+3 Days' : '+1 Day'}
             </div>
           </div>
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ol className="space-y-1.5 text-xs text-slate-400 list-decimal pl-4">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

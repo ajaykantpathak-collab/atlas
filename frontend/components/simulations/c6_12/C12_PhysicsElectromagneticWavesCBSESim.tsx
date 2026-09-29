@@ -886,7 +886,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
       {/* Header Banner */}
       <header className="w-full bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-4 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center font-bold text-white text-xl shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-white text-xl shadow-lg shadow-gold-500/20">
             EM
           </div>
           <div>
@@ -899,7 +899,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
             <span className="text-xs text-slate-400">Score</span>
-            <span className="text-base font-bold text-cyan-400">{score}</span>
+            <span className="text-base font-bold text-gold-400">{score}</span>
           </div>
           <div className="flex items-center gap-2 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
             <span className="text-xs text-slate-400">Streak</span>
@@ -926,7 +926,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
             }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
               activeTab === tab.id
-                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/50 shadow-sm'
+                ? 'bg-gold-500/20 text-gold-300 border border-gold-500/50 shadow-sm'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -941,10 +941,10 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
         {activeTab === 'explore' && (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-col gap-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-              <h2 className="text-2xl font-bold text-cyan-400 mb-3">{SCENARIO.title}</h2>
+              <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+              <h2 className="text-2xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-4 bg-slate-950/80 rounded-xl border border-cyan-900/40 text-sm text-cyan-200/90 leading-relaxed">
+              <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/40 text-sm text-gold-200/90 leading-relaxed">
                 {SCENARIO.context}
               </div>
             </div>
@@ -968,7 +968,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                           ? idx === DISCOVERY_QUESTION.correctIndex
                             ? 'bg-emerald-500/20 border-emerald-500 text-emerald-200'
                             : 'bg-rose-500/20 border-rose-500 text-rose-200'
-                          : 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                          : 'bg-gold-500/20 border-gold-500 text-gold-200'
                         : 'bg-slate-800/60 border-slate-700/80 text-slate-300 hover:border-slate-500'
                     }`}
                   >
@@ -979,13 +979,13 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
 
               {discoverySubmitted && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-800/80 rounded-xl border border-slate-700 text-sm">
-                  <p className="font-semibold text-cyan-300 mb-1">
+                  <p className="font-semibold text-gold-300 mb-1">
                     {discoverySelected === DISCOVERY_QUESTION.correctIndex ? '🎯 Correct Discovery!' : '💡 Conceptual Insight'}
                   </p>
                   <p className="text-slate-300">{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => setActiveTab('slides')}
-                    className="mt-4 px-5 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white rounded-lg text-sm font-semibold shadow-md hover:brightness-110"
+                    className="mt-4 px-5 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-lg text-sm font-semibold shadow-md hover:brightness-110"
                   >
                     Proceed to Interactive Theory →
                   </button>
@@ -1001,7 +1001,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6">
               {/* Slide Navigation */}
               <div className="flex items-center justify-between border-b border-slate-800 pb-4">
-                <span className="text-sm font-semibold text-cyan-400">
+                <span className="text-sm font-semibold text-gold-400">
                   Concept Slide {slideIndex + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <div className="flex gap-2">
@@ -1021,7 +1021,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                       setSlideIndex((s) => Math.min(TEACHING_SLIDES.length - 1, s + 1));
                       playSound('tap');
                     }}
-                    className="px-3 py-1.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg text-xs font-medium disabled:opacity-40"
+                    className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-medium disabled:opacity-40"
                   >
                     Next Slide →
                   </button>
@@ -1048,7 +1048,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
             {/* Lab Simulation 1: Capacitor Displacement Current */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl flex flex-col gap-4">
               <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-                <h3 className="text-base font-bold text-cyan-400">1. Charging Capacitor & Displacement Current Lab</h3>
+                <h3 className="text-base font-bold text-gold-400">1. Charging Capacitor & Displacement Current Lab</h3>
                 <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">Ampere Paradox</span>
               </div>
 
@@ -1082,7 +1082,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                     max={100}
                     value={capFrequency}
                     onChange={(e) => setCapFrequency(Number(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -1091,7 +1091,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
             {/* Lab Simulation 2: Transverse EM Wave Generator */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl flex flex-col gap-4">
               <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-                <h3 className="text-base font-bold text-cyan-400">2. Transverse EM Wave Propagation Lab</h3>
+                <h3 className="text-base font-bold text-gold-400">2. Transverse EM Wave Propagation Lab</h3>
                 <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">3D Vector Wave</span>
               </div>
 
@@ -1108,7 +1108,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                     step={0.1}
                     value={waveFreq}
                     onChange={(e) => setWaveFreq(Number(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1120,7 +1120,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                     max={200}
                     value={waveE0}
                     onChange={(e) => setWaveE0(Number(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1133,7 +1133,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                     step={0.5}
                     value={waveRelPerm}
                     onChange={(e) => setWaveRelPerm(Number(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -1145,7 +1145,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
         {activeTab === 'spectrum' && (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-col gap-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-xl font-bold text-cyan-400 mb-2">Interactive EM Spectrum Calibration Dial</h3>
+              <h3 className="text-xl font-bold text-gold-400 mb-2">Interactive EM Spectrum Calibration Dial</h3>
               <p className="text-sm text-slate-400 mb-6">Select or click along the electromagnetic spectrum band to inspect radiation characteristics, source mechanisms, and CBSE syllabus applications.</p>
 
               {/* Spectrum Selector Bar */}
@@ -1159,12 +1159,12 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                     }}
                     className={`p-3 rounded-xl border text-center transition-all duration-200 flex flex-col items-center justify-between h-24 ${
                       selectedSpectrumIndex === idx
-                        ? 'bg-gradient-to-b from-cyan-500/20 to-indigo-600/30 border-cyan-400 text-white shadow-lg'
+                        ? 'bg-gradient-to-b from-gold-500/20 to-gold-600/30 border-gold-400 text-white shadow-lg'
                         : 'bg-slate-800/50 border-slate-700/80 text-slate-400 hover:text-slate-200 hover:border-slate-600'
                     }`}
                   >
                     <span className="text-xs font-bold">{region.name}</span>
-                    <span className="text-[10px] text-cyan-300 font-mono">{region.freq}</span>
+                    <span className="text-[10px] text-gold-300 font-mono">{region.freq}</span>
                   </button>
                 ))}
               </div>
@@ -1179,7 +1179,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                   className="bg-slate-950 p-6 rounded-2xl border border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6"
                 >
                   <div className="flex flex-col gap-3">
-                    <h4 className="text-lg font-bold text-cyan-300">{spectrumData[selectedSpectrumIndex].name}</h4>
+                    <h4 className="text-lg font-bold text-gold-300">{spectrumData[selectedSpectrumIndex].name}</h4>
                     <div className="text-xs space-y-2 text-slate-300 font-mono bg-slate-900/80 p-4 rounded-xl border border-slate-800">
                       <div><span className="text-slate-500">Wavelength (λ):</span> {spectrumData[selectedSpectrumIndex].lambda}</div>
                       <div><span className="text-slate-500">Frequency (ν):</span> {spectrumData[selectedSpectrumIndex].freq}</div>
@@ -1211,7 +1211,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
               {/* Challenge Header */}
               <div className="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
                 <div>
-                  <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                     Challenge {challengeIndex + 1} of {CHALLENGES.length}
                   </span>
                   <h3 className="text-lg font-bold text-white mt-1">{CHALLENGES[challengeIndex].question}</h3>
@@ -1237,7 +1237,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                       onClick={() => setSelectedOption(idx)}
                       className={`p-4 rounded-xl text-left border text-sm transition-all duration-200 ${
                         selectedOption === idx
-                          ? 'bg-cyan-500/20 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-500/20 border-gold-500 text-gold-200'
                           : 'bg-slate-800/60 border-slate-700/80 text-slate-300 hover:border-slate-500'
                       }`}
                     >
@@ -1257,7 +1257,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="e.g. 0.278"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-cyan-500 outline-none"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none"
                   />
                 </div>
               )}
@@ -1268,7 +1268,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                     {CHALLENGES[challengeIndex].dragItems?.map((item) => (
                       <div key={item.targetId} className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
-                        <span className="text-xs font-mono text-cyan-400 block mb-2">{item.targetId.toUpperCase()}</span>
+                        <span className="text-xs font-mono text-gold-400 block mb-2">{item.targetId.toUpperCase()}</span>
                         <select
                           disabled={challengeSubmitted}
                           value={dragMapping[item.targetId] || ''}
@@ -1298,7 +1298,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                 {!challengeSubmitted ? (
                   <button
                     onClick={handleChallengeSubmit}
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-semibold rounded-xl text-sm shadow-md hover:brightness-110"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold rounded-xl text-sm shadow-md hover:brightness-110"
                   >
                     Submit Answer
                   </button>
@@ -1332,7 +1332,7 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
         {activeTab === 'summary' && (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-col gap-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-2xl font-bold text-cyan-400 mb-2">🏆 Mission Completed & Mastery Report</h2>
+              <h2 className="text-2xl font-bold text-gold-400 mb-2">🏆 Mission Completed & Mastery Report</h2>
               <p className="text-slate-300 text-sm mb-6">Congratulations, Chief Instrumentation Specialist! You have successfully resolved Maxwell\'s displacement current paradox and restored the satellite telemetry link.</p>
 
               {/* Concept Mastery Grid */}
@@ -1345,9 +1345,9 @@ export default function C12_PhysicsElectromagneticWavesCBSESim() {
                       <span className="text-xs font-mono text-slate-300">{nodeId}</span>
                       <div className="flex items-center gap-3">
                         <div className="w-24 h-2 bg-slate-800 rounded-full overflow-hidden">
-                          <div className="h-full bg-cyan-400" style={{ width: `${masteryPct}%` }} />
+                          <div className="h-full bg-gold-400" style={{ width: `${masteryPct}%` }} />
                         </div>
-                        <span className="text-xs font-bold text-cyan-300">{masteryPct}%</span>
+                        <span className="text-xs font-bold text-gold-300">{masteryPct}%</span>
                       </div>
                     </div>
                   );

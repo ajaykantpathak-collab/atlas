@@ -23,7 +23,7 @@ export const c8_hin_ch06_p2: SimDef = {
         labels: ['एक टोकरी भर मट्टिी'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'build', nodeId: 'c8_hin_cbse_06_008', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['पंक्ति — किसी श्रीमान ज़मींदार के महल के पास एक गरीब, अनाथ.', 'भाव पर असर।', 'उसमें छिपा दृश्य।'], answer: 'पंक्ति — किसी श्रीमान ज़मींदार के महल के पास एक गरीब, अनाथ. उसमें छिपा दृश्य। भाव पर असर।' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['उसमें छिपा दृश्य।', 'भाव पर असर।', 'पंक्ति — किसी श्रीमान ज़मींदार के महल के पास एक गरीब, अनाथ.'], answer: 'पंक्ति — किसी श्रीमान ज़मींदार के महल के पास एक गरीब, अनाथ. उसमें छिपा दृश्य। भाव पर असर।' } },
         { type: 'case', nodeId: 'c8_hin_cbse_06_012', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through एक टोकरी भर मट्टिी like a real scientist — observed, predicted, tested, retried.',
             decisions: [{ prompt: 'What comes next? एक टोकरी भर मट्टिी · Part 3/3 picks up right here.', options: [

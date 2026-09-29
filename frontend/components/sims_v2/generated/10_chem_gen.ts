@@ -357,7 +357,7 @@ export const C10_CHEM_GEN: SimDef[] = [
     "answer": "(1) Reaction two needs the diatomic element balanced first — 4 goes before PCl3 and then 6 goes before Cl2 so the 12 chlorine atoms match, (2) Reaction one is direct",
     "options": [
      "(A) and (B) are combination reactions. (C) is a decomposition reaction. Analysis: - (A) Two reactants (H₂, O₂) → one product (H₂O)",
-     "Activity: Burning a magnesium ribbon in air. Materials: Magnesium ribbon (2 cm), tongs, Bunsen burner, watch glass",
+     "The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation for a given combination reaction (including correct physical",
      "(1) Reaction two needs the diatomic element balanced first — 4 goes before PCl3 and then 6 goes before Cl2 so the 12 chlorine atoms match, (2) Reaction one is direct"
     ],
     "hint": "Straight from the 'chemical equation' slide -- match the key terms.",
@@ -383,6 +383,21 @@ export const C10_CHEM_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently convert a word equation into a correct skeleton equation with proper chemical formulas and physical states",
+    "options": [
+     "A combination reaction is a reaction where two or more substances combine to form a single product. General form: A + B → AB. Example: 2Mg(s) + O₂(g) → 2MgO(s)",
+     "The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation for a given combination reaction (including correct physical",
+     "The student can independently convert a word equation into a correct skeleton equation with proper chemical formulas and physical states"
+    ],
+    "hint": "Straight from the 'chemical equation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently convert a word equation into a correct skeleton equation with proper chemical formulas",
+    "id": "gen_c10_chem_ch01_q11",
+    "nodeId": "c10_chem_cbse_01_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A student writes the equation for the reaction of ammonia with hydrogen chloride as: NH₃ + HCl → NH₄Cl and states: \"This is not a combination reaction because no element is involved.\" Evaluate this statement and correct the error.",
     "answer": "The statement is incorrect. The reaction NH₃(g) + HCl(g) → NH₄Cl(s) is a combination reaction. The definition requires two or more reactants forming a single product",
     "options": [
@@ -392,7 +407,7 @@ export const C10_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
     "misconception": "Wrong answer insight: This is the most common Class 10 board exam misconception.",
-    "id": "gen_c10_chem_ch01_q11",
+    "id": "gen_c10_chem_ch01_q12",
     "nodeId": "c10_chem_cbse_01_003",
     "difficulty": "standard"
    },
@@ -407,7 +422,7 @@ export const C10_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
     "misconception": "Wrong answer insight: If a student writes Fe + S → FeS₂ (wrong formula) or calculates 56+32=88 g without checking limiting reagent, they miss the law of conservation of mass application.",
-    "id": "gen_c10_chem_ch01_q12",
+    "id": "gen_c10_chem_ch01_q13",
     "nodeId": "c10_chem_cbse_01_003",
     "difficulty": "standard"
    },
@@ -422,7 +437,7 @@ export const C10_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
     "misconception": "Wrong answer insight: If a student includes (C) because \"it has oxygen\", they confuse reactants with products.",
-    "id": "gen_c10_chem_ch01_q13",
+    "id": "gen_c10_chem_ch01_q14",
     "nodeId": "c10_chem_cbse_01_003",
     "difficulty": "standard"
    },
@@ -431,13 +446,13 @@ export const C10_CHEM_GEN: SimDef[] = [
     "question": "Define a combination reaction and give the general symbolic representation. Provide one example with a balanced chemical equation including physical states.",
     "answer": "A combination reaction is a reaction where two or more substances combine to form a single product. General form: A + B → AB. Example: 2Mg(s) + O₂(g) → 2MgO(s)",
     "options": [
-     "(A) and (B) are combination reactions. (C) is a decomposition reaction. Analysis: - (A) Two reactants (H₂, O₂) → one product (H₂O)",
-     "It is a combination reaction because two distinct reactants (calcium oxide and water) combine to form only ONE product (calcium hydroxide)",
+     "The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation for a given combination reaction (including correct physical",
+     "The student can independently convert a word equation into a correct skeleton equation with proper chemical formulas and physical states",
      "A combination reaction is a reaction where two or more substances combine to form a single product. General form: A + B → AB. Example: 2Mg(s) + O₂(g) → 2MgO(s)"
     ],
     "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
     "misconception": "Wrong answer insight: If a student writes \"A + B → C + D\" or gives an example like 2H₂O → 2H₂ + O₂, they confuse combination with decomposition.",
-    "id": "gen_c10_chem_ch01_q14",
+    "id": "gen_c10_chem_ch01_q15",
     "nodeId": "c10_chem_cbse_01_003",
     "difficulty": "standard"
    },
@@ -452,7 +467,22 @@ export const C10_CHEM_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Activity: Burning a magnesium ribbon in air. Materials: Magnesium ribbon (2 cm), tongs, Bunsen burner, watch glass.",
-    "id": "gen_c10_chem_ch01_q15",
+    "id": "gen_c10_chem_ch01_q16",
+    "nodeId": "c10_chem_cbse_01_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation for a given combination reaction (including correct physical",
+    "options": [
+     "The student can independently convert a word equation into a correct skeleton equation with proper chemical formulas and physical states",
+     "A combination reaction is a reaction where two or more substances combine to form a single product. General form: A + B → AB. Example: 2Mg(s) + O₂(g) → 2MgO(s)",
+     "The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation for a given combination reaction (including correct physical"
+    ],
+    "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation",
+    "id": "gen_c10_chem_ch01_q17",
     "nodeId": "c10_chem_cbse_01_003",
     "difficulty": "standard"
    },
@@ -461,13 +491,13 @@ export const C10_CHEM_GEN: SimDef[] = [
     "question": "Why is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(aq) classified as a combination reaction, even though one reactant is a compound and the product is a solution? Explain the criterion that defines the reaction type.",
     "answer": "It is a combination reaction because two distinct reactants (calcium oxide and water) combine to form only ONE product (calcium hydroxide)",
     "options": [
-     "Good answer: Step 1: Weigh a clean iron nail (mass m₁). Step 2: Immerse in 50 mL of 0.1 M CuSO₄ solution until reaction stops (blue colour fades, reddish Cu deposits)",
+     "(1) Reaction two needs the diatomic element balanced first — 4 goes before PCl3 and then 6 goes before Cl2 so the 12 chlorine atoms match, (2) Reaction one is direct",
      "(A) and (B) are combination reactions. (C) is a decomposition reaction. Analysis: - (A) Two reactants (H₂, O₂) → one product (H₂O)",
      "It is a combination reaction because two distinct reactants (calcium oxide and water) combine to form only ONE product (calcium hydroxide)"
     ],
     "hint": "Straight from the 'combination reaction' slide -- match the key terms.",
     "misconception": "Wrong answer insight: If a student says \"because it produces heat\" or \"because CaO is a solid and water is liquid\", they focus on energy or states instead of the stoichiometric pattern.",
-    "id": "gen_c10_chem_ch01_q16",
+    "id": "gen_c10_chem_ch01_q18",
     "nodeId": "c10_chem_cbse_01_003",
     "difficulty": "standard"
    }

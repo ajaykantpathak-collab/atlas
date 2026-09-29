@@ -1279,13 +1279,13 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
           className="space-y-6 max-w-3xl mx-auto"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wider mb-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider mb-2">
               <span>🎯 Scenario Briefing</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/50 text-xs text-indigo-200">
+            <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900/50 text-xs text-gold-200">
               📌 <span className="font-semibold">Context:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1578,7 +1578,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                     </div>
                     <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                       <span className="text-slate-400">Net Profit Margin:</span>
-                      <p className="font-bold text-blue-400 text-sm">{derivedNetProfitRatio}%</p>
+                      <p className="font-bold text-gold-400 text-sm">{derivedNetProfitRatio}%</p>
                     </div>
                   </div>
                 </div>
@@ -1612,8 +1612,8 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
             {currentSlide === 2 && (
               <div className="lg:col-span-12 space-y-6">
                 {!predictionMade && (
-                  <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 space-y-3">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                  <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 space-y-3">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       Predict-Then-Check
                     </span>
                     <h4 className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</h4>
@@ -1759,7 +1759,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>NSE Market Price per Share</span>
-                      <span className="font-bold text-indigo-400">₹{simMarketPrice}</span>
+                      <span className="font-bold text-gold-400">₹{simMarketPrice}</span>
                     </div>
                     <input
                       type="range"
@@ -1768,7 +1768,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                       step={50}
                       value={simMarketPrice}
                       onChange={e => setSimMarketPrice(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Set Market Price"
                     />
                   </div>
@@ -1845,7 +1845,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
 
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                     <span className="text-xs text-slate-400">Price Earning (P/E) Multiple</span>
-                    <div className="text-2xl font-black text-indigo-400">
+                    <div className="text-2xl font-black text-gold-400">
                       {derivedPERatio} <span className="text-xs text-slate-400 font-normal">times</span>
                     </div>
                     <p className="text-[11px] text-slate-500 mt-0.5">
@@ -1928,7 +1928,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                         <td className="p-2 border border-slate-700">Total (=SUM)</td>
                         <td className="p-2 border border-slate-700">₹{sheetTotalCap.toLocaleString()}</td>
                         <td className="p-2 border border-slate-700 text-amber-300">₹{sheetTotalInterest.toLocaleString()}</td>
-                        <td className="p-2 border border-slate-700 text-blue-300">₹{sheetTotalProfitApprop.toLocaleString()}</td>
+                        <td className="p-2 border border-slate-700 text-gold-300">₹{sheetTotalProfitApprop.toLocaleString()}</td>
                         <td className="p-2 border border-slate-700 text-emerald-400 font-black">
                           ₹{sheetGrandTotal.toLocaleString()}
                         </td>
@@ -2072,7 +2072,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <span className="text-xs text-slate-400">Net Profit Ratio</span>
-                  <div className="text-2xl font-black text-blue-400">{derivedNetProfitRatio}%</div>
+                  <div className="text-2xl font-black text-gold-400">{derivedNetProfitRatio}%</div>
                   <p className="text-[11px] text-slate-500 mt-1">NPAT: ₹{derivedNPAT.toFixed(1)} Cr</p>
                 </div>
               </div>
@@ -2088,7 +2088,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                     max={2500}
                     value={simMarketPrice}
                     onChange={e => setSimMarketPrice(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                   <label className="text-xs text-slate-400 font-semibold">
                     Equity Capital Base: {simEquitySharesCount} Cr shares
@@ -2109,7 +2109,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-center text-center">
                     <span className="text-xs text-slate-400">P/E Multiple</span>
-                    <div className="text-xl font-bold text-indigo-400">{derivedPERatio}x</div>
+                    <div className="text-xl font-bold text-gold-400">{derivedPERatio}x</div>
                   </div>
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-center text-center">
                     <span className="text-xs text-slate-400">ROI (ROCE)</span>
@@ -2164,7 +2164,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                 <span className="text-xs font-bold text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800 font-semibold">
+                <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800 font-semibold">
                   {challenge.competencyLevel}
                 </span>
               </div>
@@ -2180,7 +2180,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border-blue-700'
+                    ? 'bg-gold-950 text-gold-400 border-gold-700'
                     : 'bg-purple-950 text-purple-400 border-purple-700'
                 }`}
               >
@@ -2257,7 +2257,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg cursor-grab text-xs font-semibold shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg cursor-grab text-xs font-semibold shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2388,7 +2388,7 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2564,14 +2564,14 @@ export function C12_AccountancyWorkingCapitalTurnoverSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+            <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
               {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

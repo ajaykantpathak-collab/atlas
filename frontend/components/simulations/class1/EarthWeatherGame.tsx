@@ -46,13 +46,13 @@ const TEACHING_SLIDES = [
         title: 'Earth is Our Home! 🌍',
         text: 'Earth is the big round planet where we live! It has solid ground called land where we walk, run, and build houses, and great big water in rivers, ponds, and seas!',
         emoji: '🌍',
-        bgColor: 'from-blue-400 to-green-500',
+        bgColor: 'from-gold-400 to-green-500',
     },
     {
         title: 'What is Weather? ☀️🌧️',
         text: 'Weather is what the sky and air are like today! It can be bright and sunny, grey and cloudy, wet and rainy, or breezy and windy!',
         emoji: '⛅',
-        bgColor: 'from-amber-400 to-sky-500',
+        bgColor: 'from-amber-400 to-gold-500',
     },
     {
         title: 'Sunny Day Fun! 🧢',
@@ -64,7 +64,7 @@ const TEACHING_SLIDES = [
         title: 'Rainy Day Safety! ☔',
         text: 'On a rainy day, water falls from clouds and the ground gets wet! We wear a raincoat, carry an umbrella, and play fun indoor games inside the house!',
         emoji: '🌧️',
-        bgColor: 'from-sky-400 to-blue-600',
+        bgColor: 'from-gold-400 to-gold-600',
     },
     {
         title: 'Taking Care of Earth! 🌱',
@@ -199,7 +199,7 @@ function WeatherWizMira({ mood, speaking }: {
 }) {
     return (<div className="absolute top-16 right-3 z-20 flex flex-col items-center pointer-events-none">
       <AnimatePresence>
-        {speaking && (<motion.div initial={{ scale: 0, opacity: 0, y: 10 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 15 }} className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] pointer-events-auto border-2 border-sky-300">
+        {speaking && (<motion.div initial={{ scale: 0, opacity: 0, y: 10 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: 0, opacity: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 15 }} className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] pointer-events-auto border-2 border-gold-300">
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>)}
       </AnimatePresence>
@@ -442,7 +442,7 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-sky-200`}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-gold-200`}>
         <div className="text-3xl">{emoji}</div>
         <div className="text-xs font-bold text-gray-700 mt-1">{label}</div>
       </div>
@@ -484,19 +484,19 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
       <div className="relative z-10 w-full flex justify-between items-center bg-white/80 backdrop-blur-md px-5 py-3 rounded-2xl shadow-sm">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🌍</span>
-          <span className="font-extrabold text-sky-900 text-base">Earth & Weather Explorer</span>
+          <span className="font-extrabold text-gold-900 text-base">Earth & Weather Explorer</span>
         </div>
         <div className="flex gap-1.5">
-          {Array.from({ length: total }).map((_, i) => (<div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slide ? 'w-8 bg-sky-600' : 'w-2.5 bg-sky-200'}`}/>))}
+          {Array.from({ length: total }).map((_, i) => (<div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slide ? 'w-8 bg-gold-600' : 'w-2.5 bg-gold-200'}`}/>))}
         </div>
       </div>
 
       {/* Main card */}
-      <motion.div key={slide} initial={{ opacity: 0, scale: 0.95, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 0.95, y: -20 }} transition={{ duration: 0.3 }} className="relative z-10 flex flex-col items-center text-center bg-white/95 backdrop-blur-md p-8 rounded-3xl shadow-xl max-w-xl border-4 border-sky-300 my-auto">
+      <motion.div key={slide} initial={{ opacity: 0, scale: 0.95, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 0.95, y: -20 }} transition={{ duration: 0.3 }} className="relative z-10 flex flex-col items-center text-center bg-white/95 backdrop-blur-md p-8 rounded-3xl shadow-xl max-w-xl border-4 border-gold-300 my-auto">
         <motion.div animate={{ scale: [1, 1.1, 1] }} transition={{ duration: 2, repeat: Infinity }} className="text-6xl mb-3">
           {current.emoji}
         </motion.div>
-        <h2 className="text-2xl font-black text-sky-900 mb-3">{current.title}</h2>
+        <h2 className="text-2xl font-black text-gold-900 mb-3">{current.title}</h2>
         <p className="text-gray-700 text-base font-semibold leading-relaxed max-w-md">{current.text}</p>
       </motion.div>
 
@@ -506,18 +506,18 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
             audioManager.play('tap');
             if (slide > 0)
                 setSlide(slide - 1);
-        }} disabled={slide === 0} className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all ${slide === 0 ? 'opacity-30 bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-sky-500 text-white hover:bg-sky-600 shadow-md'}`}>
+        }} disabled={slide === 0} className={`px-5 py-2.5 rounded-xl font-bold text-sm transition-all ${slide === 0 ? 'opacity-30 bg-gray-200 text-gray-400 cursor-not-allowed' : 'bg-gold-500 text-white hover:bg-gold-600 shadow-md'}`}>
           ⬅️ Back
         </button>
 
-        <span className="text-xs font-bold text-sky-800">
+        <span className="text-xs font-bold text-gold-800">
           Slide {slide + 1} of {total}
         </span>
 
         {slide < total - 1 ? (<button onClick={() => {
                 audioManager.play('tap');
                 setSlide(slide + 1);
-            }} className="px-6 py-2.5 rounded-xl font-bold text-sm bg-sky-500 text-white hover:bg-sky-600 shadow-md transition-all">
+            }} className="px-6 py-2.5 rounded-xl font-bold text-sm bg-gold-500 text-white hover:bg-gold-600 shadow-md transition-all">
             Next ➡️
           </button>) : (<button onClick={() => {
                 audioManager.play('celebration');
@@ -711,22 +711,22 @@ export function EarthWeatherGame({width = 720, height = 560, onComplete}: EarthW
       <DrPipaWrapper mood={mascotMood} speaking={mascotSpeech}/>
 
       {/* Top Navigation / Status Bar */}
-      <div className="relative z-10 w-full flex justify-between items-center bg-white/85 backdrop-blur-md px-5 py-3 rounded-2xl shadow-sm border border-sky-100">
+      <div className="relative z-10 w-full flex justify-between items-center bg-white/85 backdrop-blur-md px-5 py-3 rounded-2xl shadow-sm border border-gold-100">
         <div className="flex items-center gap-3">
-          <span className="text-xl font-black text-sky-900">Level {challengeIdx + 1} / {CHALLENGES.length}</span>
+          <span className="text-xl font-black text-gold-900">Level {challengeIdx + 1} / {CHALLENGES.length}</span>
           <StarRow count={stars} total={CHALLENGES.length}/>
         </div>
         <button onClick={() => {
             audioManager.play('tap');
             setScreen('teaching');
-        }} className="px-3 py-1 rounded-lg bg-sky-100 text-sky-800 font-bold text-xs hover:bg-sky-200 transition-all">
+        }} className="px-3 py-1 rounded-lg bg-gold-100 text-gold-800 font-bold text-xs hover:bg-gold-200 transition-all">
           📖 Review Lesson
         </button>
       </div>
 
       {/* Challenge Question Card */}
-      <motion.div key={challengeIdx} initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }} className="relative z-10 w-full max-w-xl bg-white/90 backdrop-blur-md px-6 py-4 rounded-2xl shadow-md border-2 border-sky-200 text-center my-2">
-        <h2 className="text-lg font-extrabold text-sky-900">{currentChallenge.question}</h2>
+      <motion.div key={challengeIdx} initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }} className="relative z-10 w-full max-w-xl bg-white/90 backdrop-blur-md px-6 py-4 rounded-2xl shadow-md border-2 border-gold-200 text-center my-2">
+        <h2 className="text-lg font-extrabold text-gold-900">{currentChallenge.question}</h2>
       </motion.div>
 
       {/* Challenge Interactive Area */}
@@ -734,7 +734,7 @@ export function EarthWeatherGame({width = 720, height = 560, onComplete}: EarthW
         {currentChallenge.answer !== 'sort' ? (
         /* Multiple Choice Grid */
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-xl px-4">
-            {currentChallenge.options.map(option => (<motion.button key={option} whileHover={{ scale: 1.03, y: -2 }} whileTap={{ scale: 0.97 }} onClick={e => handleOptionClick(option, e)} className="flex flex-col items-center justify-center p-4 bg-white rounded-2xl shadow-md border-2 border-sky-200 hover:border-sky-400 hover:bg-sky-50 transition-all cursor-pointer font-bold text-gray-800 text-sm text-center min-h-[90px]">
+            {currentChallenge.options.map(option => (<motion.button key={option} whileHover={{ scale: 1.03, y: -2 }} whileTap={{ scale: 0.97 }} onClick={e => handleOptionClick(option, e)} className="flex flex-col items-center justify-center p-4 bg-white rounded-2xl shadow-md border-2 border-gold-200 hover:border-gold-400 hover:bg-gold-50 transition-all cursor-pointer font-bold text-gray-800 text-sm text-center min-h-[90px]">
                 {/* Optional icon representation */}
                 <span className="text-2xl mb-1">
                   {option.includes('Land') ? '🌍' : option.includes('sky') ? '⛅' : option.includes('Cotton') ? '👕' : option.includes('Raincoat') ? '🧥' : option.includes('Clouds') ? '☁️' : '✨'}

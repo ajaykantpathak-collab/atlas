@@ -1296,10 +1296,10 @@ function C11_PhysicsHeatTransferRadiationSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-blue-950/60 rounded-2xl border border-blue-800/80">🛰️</span>
+          <span className="text-3xl p-2 bg-gold-950/60 rounded-2xl border border-gold-800/80">🛰️</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-900/60 text-blue-300 border border-blue-700">
+              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 border border-gold-700">
                 ISC Class 11 Physics
               </span>
               <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono">
@@ -1321,7 +1321,7 @@ function C11_PhysicsHeatTransferRadiationSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-blue-950 text-blue-400 border-blue-700'
+                ? 'bg-gold-950 text-gold-400 border-gold-700'
                 : 'bg-purple-950 text-purple-400 border-purple-700'
             }`}
           >
@@ -1333,8 +1333,8 @@ function C11_PhysicsHeatTransferRadiationSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-blue-950/70 via-indigo-950/40 to-slate-900 rounded-2xl border border-blue-800/60">
-            <div className="flex items-center gap-2 text-blue-400 font-bold text-sm mb-1">
+          <div className="p-5 bg-gradient-to-r from-gold-950/70 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/60">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-1">
               <span>🚀 MISSION SCENARIO</span>
             </div>
             <h2 className="text-xl font-bold text-white">{SCENARIO.title}</h2>
@@ -1380,7 +1380,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-blue-500/20"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-500/20"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1406,7 +1406,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                 }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                   currentSlide === idx
-                    ? 'bg-blue-600 text-white shadow-md shadow-blue-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                 }`}
               >
@@ -1416,7 +1416,7 @@ function C11_PhysicsHeatTransferRadiationSim({
           </div>
 
           {/* Predict-Then-Check Interactive Box */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/50 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 space-y-3">
+          <div className="p-5 bg-gradient-to-r from-gold-950/50 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <span className="text-xs font-bold text-amber-400 font-mono uppercase tracking-wider flex items-center gap-1.5">
                 <span>🔮</span> Prediction & Verification (Question {predictionIndex + 1} of {PREDICTION_QUESTIONS.length})
@@ -1474,7 +1474,7 @@ function C11_PhysicsHeatTransferRadiationSim({
             </div>
 
             {predictionSubmitted[predictionIndex] && (
-              <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-blue-950/40 rounded-xl border border-blue-800/60 space-y-1">
+              <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-1">
                 <div className="text-xs font-bold text-amber-300 flex items-center gap-1.5">
                   <span>🔬 Verification Task:</span>
                 </div>
@@ -1497,7 +1497,7 @@ function C11_PhysicsHeatTransferRadiationSim({
               className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-mono font-bold text-blue-400 uppercase tracking-widest">
+                <span className="text-xs font-mono font-bold text-gold-400 uppercase tracking-widest">
                   LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-xl font-black text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1511,7 +1511,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                     <div>
                       <div className="flex justify-between text-xs font-mono text-slate-300 mb-1">
                         <span>Radiator Temp (T):</span>
-                        <span className="text-blue-400 font-bold">{simTemp} K ({simTemp - 273} °C)</span>
+                        <span className="text-gold-400 font-bold">{simTemp} K ({simTemp - 273} °C)</span>
                       </div>
                       <input
                         type="range"
@@ -1521,7 +1521,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                         value={simTemp}
                         aria-label="Radiator Temperature"
                         onChange={(e) => setSimTemp(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1610,7 +1610,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                   <div className="flex flex-wrap items-center justify-between gap-4">
                     <div>
                       <div className="text-xs font-mono text-slate-400">Radiator Temperature (T):</div>
-                      <div className="text-lg font-bold text-blue-400 font-mono">{simTemp} K</div>
+                      <div className="text-lg font-bold text-gold-400 font-mono">{simTemp} K</div>
                     </div>
                     <div>
                       <div className="text-xs font-mono text-slate-400">Peak Wavelength (λmax = b/T):</div>
@@ -1654,7 +1654,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                             onClick={() => handleMaterialSelect(m)}
                             className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
                               simMaterial === m
-                                ? 'bg-blue-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1667,7 +1667,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                     <div>
                       <div className="flex justify-between text-xs font-mono text-slate-400 mb-1">
                         <span>Rod Length (d):</span>
-                        <span className="text-blue-400 font-bold">{simBarLength} m</span>
+                        <span className="text-gold-400 font-bold">{simBarLength} m</span>
                       </div>
                       <input
                         type="range"
@@ -1677,7 +1677,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                         value={simBarLength}
                         aria-label="Rod Length"
                         onChange={(e) => setSimBarLength(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1740,7 +1740,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                       </div>
                       <div>
                         <span className="text-xs font-mono text-slate-400">Ambient Ts:</span>
-                        <div className="text-base font-bold text-blue-400 font-mono">{coolingTs} °C</div>
+                        <div className="text-base font-bold text-gold-400 font-mono">{coolingTs} °C</div>
                       </div>
                       <div>
                         <span className="text-xs font-mono text-slate-400">Current Temp:</span>
@@ -1773,7 +1773,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                         onClick={() => handlePistonModeToggle('isothermal')}
                         className={`flex-1 py-2 rounded-xl text-xs font-bold transition-all ${
                           pistonMode === 'isothermal'
-                            ? 'bg-blue-600 text-white border border-blue-400 shadow-md shadow-blue-600/30'
+                            ? 'bg-gold-600 text-white border border-gold-400 shadow-md shadow-gold-600/30'
                             : 'bg-slate-900 text-slate-400 border border-slate-800'
                         }`}
                       >
@@ -1818,7 +1818,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                       </div>
                       <div>
                         <div className="text-slate-400">Temperature:</div>
-                        <div className={`text-base font-bold ${pistonMode === 'isothermal' ? 'text-blue-400' : 'text-purple-400'}`}>
+                        <div className={`text-base font-bold ${pistonMode === 'isothermal' ? 'text-gold-400' : 'text-purple-400'}`}>
                           {simPistonState.T_K.toFixed(1)} K
                         </div>
                       </div>
@@ -1886,7 +1886,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold shadow-md shadow-blue-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1927,7 +1927,7 @@ function C11_PhysicsHeatTransferRadiationSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Quick Stefan Sandbox */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-blue-400 font-mono">STEFAN RADIATION LAB</span>
+              <span className="text-xs font-bold text-gold-400 font-mono">STEFAN RADIATION LAB</span>
               <input
                 type="range"
                 min={200}
@@ -1936,7 +1936,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                 value={simTemp}
                 aria-label="Sandbox Temp"
                 onChange={(e) => setSimTemp(Number(e.target.value))}
-                className="w-full accent-blue-500"
+                className="w-full accent-gold-500"
               />
               <div className="flex justify-between text-xs font-mono text-slate-300">
                 <span>Temp: {simTemp} K</span>
@@ -1975,7 +1975,7 @@ function C11_PhysicsHeatTransferRadiationSim({
               <span className="text-slate-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-blue-400 font-bold uppercase">
+              <span className="text-gold-400 font-bold uppercase">
                 NEP Competency: {challenge.competencyLevel}
               </span>
             </div>
@@ -1983,7 +1983,7 @@ function C11_PhysicsHeatTransferRadiationSim({
             {/* Framer-Motion Animated Progress Bar */}
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5">
               <motion.div
-                className="h-full bg-gradient-to-r from-blue-500 via-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2003,7 +2003,7 @@ function C11_PhysicsHeatTransferRadiationSim({
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-mono">
                 {challenge.nodeId}
               </span>
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700 font-mono uppercase">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-700 font-mono uppercase">
                 {challenge.type}
               </span>
             </div>
@@ -2050,7 +2050,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-blue-700 hover:bg-blue-600 rounded-lg text-white text-xs font-bold cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow-sm"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2089,7 +2089,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 4}
-                  className="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-50"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-50"
                 >
                   Verify Apparatus Mapping
                 </motion.button>
@@ -2129,7 +2129,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-md"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md"
                 >
                   Verify Derivation Sequence
                 </motion.button>
@@ -2147,7 +2147,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                     aria-label="Numeric calculation answer"
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="flex-1 p-3.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-blue-500"
+                    className="flex-1 p-3.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm font-mono text-slate-400 px-3 py-3 bg-slate-800 rounded-xl border border-slate-700">
                     {challenge.unit}
@@ -2159,7 +2159,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-50"
+                    className="px-6 py-3.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-md disabled:opacity-50"
                   >
                     Submit Answer
                   </motion.button>
@@ -2178,7 +2178,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                       whileHover={{ scale: 1.08 }}
                       whileTap={{ scale: 0.92 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white font-mono text-sm font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white font-mono text-sm font-bold shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2191,7 +2191,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900 border border-indigo-600 rounded-lg text-amber-300 font-mono font-bold text-sm flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900 border border-gold-600 rounded-lg text-amber-300 font-mono font-bold text-sm flex items-center gap-2"
                     >
                       {token}
                       <button
@@ -2226,7 +2226,7 @@ function C11_PhysicsHeatTransferRadiationSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/80 space-y-4"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/80 space-y-4"
               >
                 <div className="flex items-center gap-2 text-amber-400 font-bold text-xs uppercase tracking-wider font-mono">
                   <span>📖 Step-by-Step ISC Physics Solution</span>
@@ -2254,7 +2254,7 @@ function C11_PhysicsHeatTransferRadiationSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2278,7 +2278,7 @@ function C11_PhysicsHeatTransferRadiationSim({
       {/* ─── PHASE 5: MISSION COMPLETION & CAPSTONE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-3xl border border-emerald-700/80 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-3xl border border-emerald-700/80 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">
               Thermal Simulation Certification Complete!
@@ -2287,7 +2287,7 @@ function C11_PhysicsHeatTransferRadiationSim({
               <span className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-emerald-400 font-bold">
                 Final Score: {Math.max(0, 100 - errors * 5)}%
               </span>
-              <span className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-blue-400 font-bold uppercase">
+              <span className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-gold-400 font-bold uppercase">
                 Mastery Level: {masteryLevel}
               </span>
             </div>
@@ -2320,9 +2320,9 @@ function C11_PhysicsHeatTransferRadiationSim({
           )}
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800 flex items-center justify-between gap-4">
+          <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800 flex items-center justify-between gap-4">
             <div>
-              <div className="text-xs font-bold text-indigo-300 font-mono uppercase">Spaced Repetition (SM-2 Algorithm)</div>
+              <div className="text-xs font-bold text-gold-300 font-mono uppercase">Spaced Repetition (SM-2 Algorithm)</div>
               <p className="text-xs text-slate-300 mt-1">
                 Based on your response latency and score, your next review session is scheduled in{' '}
                 <span className="text-amber-300 font-bold font-mono">
@@ -2335,7 +2335,7 @@ function C11_PhysicsHeatTransferRadiationSim({
 
           {/* Real-World Capstone Box */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-blue-300 font-mono uppercase tracking-wide">
+            <h3 className="text-base font-bold text-gold-300 font-mono uppercase tracking-wide">
               {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
@@ -2344,7 +2344,7 @@ function C11_PhysicsHeatTransferRadiationSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-blue-400 font-mono">[{idx + 1}]</span>
+                  <span className="font-bold text-gold-400 font-mono">[{idx + 1}]</span>
                   <span>{step}</span>
                 </div>
               ))}

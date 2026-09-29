@@ -80,7 +80,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Entrepreneurship",
+    "title": "Entrepreneurship Is The Fourth Factor",
     "text": "Entrepreneurship is the fourth factor of production—the human force that combines land, labour, and capital in a specific proportion to run a business, introduce new ideas, and take on financial risks to produce goods and services.",
     "emoji": "📈",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -104,7 +104,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Goods",
+    "title": "Goods Are Physical",
     "text": "Goods are physical, tangible objects (like steel, rice, or laptops) that can be touched, stored, and transported, while services are intangible activities or benefits (like teaching, banking, or transport) performed to satisfy human wants.",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -221,8 +221,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What do economists mean by the term \"land\" when discussing the factors of production?",
     "answer": "In economics, land means all natural resources provided by nature, including soil, minerals, water, and forests, not just the physical dirt",
     "options": [
-     "Sustainable production aims to balance current economic manufacturing needs with the preservation of natural resources and environmental health for future generations",
-     "The two primary components are inputs and outputs",
+     "Land as a factor of production refers to all natural resources—including soil, water, minerals, forests",
+     "The entrepreneur organizes land, labour, and capital, makes business decisions, and bears the financial risk of production",
      "In economics, land means all natural resources provided by nature, including soil, minerals, water, and forests, not just the physical dirt"
     ],
     "hint": "Straight from the 'Land as a factor of production' slide -- match the key terms.",
@@ -242,8 +242,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What is the economic definition of 'labour' as a factor of production?",
     "answer": "Labour is defined as any physical or mental human effort exerted with the objective of earning an economic reward like wages or salaries to produce goods and services",
     "options": [
-     "The entrepreneur organizes land, labour, and capital, makes business decisions, and bears the financial risk of production",
      "The primary function of a business enterprise is to organize, coordinate, and manage the other three factors of production (land, labour",
+     "Technology in production refers to the application of scientific knowledge, tools, techniques, and systems to combine factors of production (land, labour",
      "Labour is defined as any physical or mental human effort exerted with the objective of earning an economic reward like wages or salaries to produce goods and services"
     ],
     "hint": "Straight from the 'Labour as a factor of production' slide -- match the key terms.",
@@ -263,8 +263,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "Which of the following best defines capital as a factor of production in an Indian textile factory? A) The open plot of land on which the factory is constructed B) The textile workers weaving cloth on the machines C) The power looms, sewing machines, and cash used to buy raw cotton D) The natural rainwater used in the",
     "answer": "The correct answer is C. Power looms, sewing machines, and cash are man-made goods and funds used to produce other items, which is the exact economic definition of capital",
     "options": [
-     "The primary function of a business enterprise is to organize, coordinate, and manage the other three factors of production (land, labour",
-     "In economics, land means all natural resources provided by nature, including soil, minerals, water, and forests, not just the physical dirt",
+     "The four primary factors of production are land, labour, capital, and entrepreneurship",
+     "The entrepreneur organizes land, labour, and capital, makes business decisions, and bears the financial risk of production",
      "The correct answer is C. Power looms, sewing machines, and cash are man-made goods and funds used to produce other items, which is the exact economic definition of capital"
     ],
     "hint": "Straight from the 'Capital as a factor of production' slide -- match the key terms.",
@@ -285,10 +285,10 @@ export const C8_ECO_GEN: SimDef[] = [
     "answer": "The entrepreneur organizes land, labour, and capital, makes business decisions, and bears the financial risk of production",
     "options": [
      "The two primary components are inputs and outputs",
-     "Sustainable production aims to balance current economic manufacturing needs with the preservation of natural resources and environmental health for future generations",
+     "Land as a factor of production refers to all natural resources—including soil, water, minerals, forests",
      "The entrepreneur organizes land, labour, and capital, makes business decisions, and bears the financial risk of production"
     ],
-    "hint": "Straight from the 'Entrepreneurship' slide -- match the key terms.",
+    "hint": "Straight from the 'Entrepreneurship is the fourth' slide -- match the key terms.",
     "misconception": "A student who answers that the entrepreneur only provides physical labour confuses the fourth factor with the second factor (labour).",
     "id": "gen_c8_eco_ch01_q6",
     "nodeId": "c8_eco_ch1_6",
@@ -305,8 +305,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "Define human capital in your own words and list its three primary components.",
     "answer": "Human capital is the stock of skills, knowledge, and health embodied in people that makes them economically productive",
     "options": [
-     "The four primary factors are land, labour, capital, and entrepreneurship",
      "The primary function of a business enterprise is to organize, coordinate, and manage the other three factors of production (land, labour",
+     "The student can distinguish between raw physical labor (quantity of hours/workers) and human capital (quality of skills/health)",
      "Human capital is the stock of skills, knowledge, and health embodied in people that makes them economically productive"
     ],
     "hint": "Straight from the 'Human capital' slide -- match the key terms.",
@@ -326,8 +326,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What are the four primary factors of production that must interconnect to create any good or service in an economy?",
     "answer": "The four primary factors are land, labour, capital, and entrepreneurship",
     "options": [
-     "The two primary components are inputs and outputs",
-     "The entrepreneur organizes land, labour, and capital, makes business decisions, and bears the financial risk of production",
+     "Technology in production refers to the application of scientific knowledge, tools, techniques, and systems to combine factors of production (land, labour",
+     "Can analyze how a change in the availability or quality of one factor of production (e.g., capital or technology) directly impacts the productivity and reward of other factors (e",
      "The four primary factors are land, labour, capital, and entrepreneurship"
     ],
     "hint": "Straight from the 'interconnection between factors' slide -- match the key terms.",
@@ -661,8 +661,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What are the two primary components that make up any basic economic production process?",
     "answer": "The two primary components are inputs and outputs",
     "options": [
-     "The four primary factors of production are land, labour, capital, and entrepreneurship",
-     "The primary function of a business enterprise is to organize, coordinate, and manage the other three factors of production (land, labour",
+     "Land as a factor of production refers to all natural resources—including soil, water, minerals, forests",
+     "The student can identify how an enterprise combines physical and human inputs to create a coordinated production system",
      "The two primary components are inputs and outputs"
     ],
     "hint": "Straight from the 'production process' slide -- match the key terms.",
@@ -684,14 +684,14 @@ export const C8_ECO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_eco_ch02",
-  "title": "Demography",
+  "title": "Demography Is The Scientific And Statistical",
   "subtitle": "Economics · Chapter 2",
   "classLevel": 8,
   "mode": "senior",
   "subject": "economics",
-  "topic": "Demography",
+  "topic": "Demography Is The Scientific And Statistical",
   "chapters": [
-   "Economics Ch2: Demography"
+   "Economics Ch2: Demography Is The Scientific And Statistical"
   ],
   "nodeIds": [
    "c8_eco_ch2_1",
@@ -714,7 +714,7 @@ export const C8_ECO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Demography suddenly stops working?",
+   "question": "What happens if Demography Is The Scientific And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -725,7 +725,7 @@ export const C8_ECO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Demography",
+    "title": "Demography Is The Scientific And Statistical",
     "text": "Demography is the scientific and statistical study of human populations, analyzing their size, structure, distribution, and how they change over time through births, deaths, and migration.",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
@@ -761,7 +761,7 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Migration",
+    "title": "Migration Is The Movement Of People",
     "text": "Migration is the movement of people across administrative or geographic boundaries to establish a new permanent or semi-permanent place of residence.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -803,11 +803,12 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What is demography, and what are the three primary dynamic processes that cause a population to change over time?",
     "answer": "Demography is the scientific study of human populations, focusing on their size, structure, and distribution",
     "options": [
-     "The Age Dependency Ratio (ADR) is the ratio of dependents (people who are generally not in the labor force, aged 0-14 and 65+) to the working-age population (aged 15-64)",
+     "Population growth refers to the change in the total number of human inhabitants in a defined geographical area over a specific period",
      "A Population Census is the official, systematic head-counting and recording of information about all individuals residing in a defined territory at a specific point in time",
+     "Crude Birth Rate is the scientific study of human populations, focusing on their size, structure, and distribution",
      "Demography is the scientific study of human populations, focusing on their size, structure, and distribution"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the scientific and' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: If a student only mentions \"counting people\" or \"the census,\" they are viewing population as a static count. They fail to recognize that demography is about the *dynamic forces* (births, deaths, migration) that continuously change that count over time.",
     "id": "gen_c8_eco_ch02_q1",
     "nodeId": "c8_eco_ch2_1",
@@ -917,9 +918,9 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What are the four primary dimensions that define a population's socio-economic structure?",
     "answer": "Age, gender, education, and occupation",
     "options": [
-     "The correct answer is population structure",
      "Per Capita Income (PCI) = Total National Income / Total Population",
-     "Together, gender, education, and occupation",
+     "The correct answer is population structure",
+     "Budgets, gender, education, and occupation",
      "Age, gender, education, and occupation"
     ],
     "hint": "Straight from the 'Population structure' slide -- match the key terms.",
@@ -939,8 +940,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "State the mathematical formula used to calculate population density and the standard unit of measurement.",
     "answer": "The formula is: $$\\text{Population Density} = \\frac{\\text{Total Population}}{\\text{Total Land Area}}$$ The standard unit of measurement is people per square kilometre",
     "options": [
-     "Per Capita Income (PCI) = Total National Income / Total Population",
-     "The working-age population cohort is defined as individuals aged 15 to 64 years. *If a student answers 0–18 or 18–60",
+     "Population ageing is an economic and demographic phenomenon characterized by an increasing median age in a population",
+     "The student can calculate population density using population and land area figures, interpret what density values indicate about resource pressure",
      "The formula is: $$\\text{Population Density} = \\frac{\\text{Total Population}}{\\text{Total Land Area}}$$ The standard unit of measurement is people per square kilometre"
     ],
     "hint": "Straight from the 'Population density' slide -- match the key terms.",
@@ -1099,8 +1100,9 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What is the formula used to calculate Per Capita Income (PCI) of a country?",
     "answer": "Per Capita Income (PCI) = Total National Income / Total Population",
     "options": [
-     "The formula is: $$\\text{Population Density} = \\frac{\\text{Total Population}}{\\text{Total Land Area}}$$ The standard unit of measurement is people per square kilometre",
-     "Demography is the scientific study of human populations, focusing on their size, structure, and distribution",
+     "Demography is the scientific and statistical study of human populations, analyzing their size, structure, distribution, and how they change over time through births, deaths",
+     "The student can define demography, identify its three primary dynamic drivers (births, deaths, and migration)",
+     "Per Capita Income (PCI) = Total Dependency Ratio / Total Population",
      "Per Capita Income (PCI) = Total National Income / Total Population"
     ],
     "hint": "Straight from the 'Population trends and economic' slide -- match the key terms.",
@@ -1222,7 +1224,7 @@ export const C8_ECO_GEN: SimDef[] = [
      "Given: Baseline Population ($P_0$) = 50,000 Births ($B$) = 1,200 Deaths ($D$) = 450 In-migrants ($I$) = 300 Out-migrants ($E$) = 150 Balancing Equation: $P_t = P_0 + (B - D) + (I",
      "This statement is incorrect and oversimplified. While a population increase means higher consumption demand"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the scientific and' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: A student who fully agrees with the statement shows a Malthusian bias that views humans solely as consumers (mouths to feed) rather than producers (hands to work), missing the vital economic concept of labor as a factor of production.",
     "id": "gen_c8_eco_ch02_q14",
     "nodeId": "c8_eco_ch2_1",
@@ -1237,7 +1239,7 @@ export const C8_ECO_GEN: SimDef[] = [
      "The expected answer should include: 1. Size: Total head count of migrant workers and families. 2. Structure: Age distribution (focusing heavily on working-age 15-64) and gender",
      "The out-migration of working-age adults reduces the local labor supply, which can drive up local wages for remaining workers but may cause local labor shortages"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the scientific and' slide -- match the key terms.",
     "misconception": "a wrong answer reveals*: A student who assumes that losing 30% of the population simply ruins the economy and reduces bank deposits because \"fewer people means less money\" is ignoring the concept of remittances and the shifting dynamics of labor market supply and demand.",
     "id": "gen_c8_eco_ch02_q15",
     "nodeId": "c8_eco_ch2_1",
@@ -1250,9 +1252,10 @@ export const C8_ECO_GEN: SimDef[] = [
     "options": [
      "This statement is incorrect and oversimplified. While a population increase means higher consumption demand",
      "This is an excellent, economically sound proposal. An ageing population is caused by falling birth rates",
+     "A strong 3-point checklist would include: 1. Old-Age Dependency Ratio Rates: To estimate the inflow of new residents and plan immediate physical utilities like water pipelines",
      "A strong 3-point checklist would include: 1. Tracking Net Migration Rates: To estimate the inflow of new residents and plan immediate physical utilities like water pipelines"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
+    "hint": "Straight from the 'Demography is the scientific and' slide -- match the key terms.",
     "misconception": "a poor answer reveals*: A checklist that only tracks \"total population count\" or \"tax revenue\" fails to show how specific demographic attributes (such as age, location, and migration status) map directly to infrastructure planning.",
     "id": "gen_c8_eco_ch02_q16",
     "nodeId": "c8_eco_ch2_1",
@@ -1260,42 +1263,42 @@ export const C8_ECO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why would an economist be interested in studying the age structure of a country's population rather than just looking at the total population count?",
-    "answer": "An economist studies age structure because it determines the ratio between the active workforce (producers and earners aged 15-64) and dependents (children and the elderly who",
+    "question": "What is Demography? State the definition given in this lesson.",
+    "answer": "Demography is the scientific and statistical study of human populations, analyzing their size, structure, distribution, and how they change over time through births, deaths",
     "options": [
-     "Population size is a stock variable because it represents the total count of people accumulated in a region at a single, fixed point in time (e",
-     "An influx of working-age migrants increases the urban population density rapidly. Since these individuals are entering the local workforce",
-     "An economist studies age structure because it determines the ratio between the active workforce (producers and earners aged 15-64) and dependents (children and the elderly who"
+     "The student can define demography, identify its three primary dynamic drivers (births, deaths, and migration)",
+     "Population size refers to the total absolute count of individuals residing within a specified geographical region at a given point in time",
+     "Demography is the scientific and statistical study of human populations, analyzing their size, structure, distribution, and how they change over time through births, deaths"
     ],
-    "hint": "Straight from the 'Demography' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals*: A wrong answer focusing only on \"more people means more demand\" shows that the student assumes all individuals in a population contribute equally to economic production and consumption, ignoring the critical concept of the dependency ratio.",
+    "hint": "Straight from the 'Demography is the scientific and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Demography is the scientific and statistical study of human populations, analyzing their size, structure, distribution,",
     "id": "gen_c8_eco_ch02_q17",
     "nodeId": "c8_eco_ch2_1",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A local council suggests converting three vacant primary school buildings into senior citizen community health centers. Evaluate this proposal using demographic and economic reasoning.",
-    "answer": "This is an excellent, economically sound proposal. An ageing population is caused by falling birth rates",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can define demography, identify its three primary dynamic drivers (births, deaths, and migration)",
     "options": [
-     "A high-quality response should propose policy measures such as: 1. Establishing safe, subsidized childcare centers near industrial and commercial zones",
-     "Low agricultural earnings act as a 'push factor' because unfavorable economic conditions at the origin drive people away to seek livelihood security",
-     "This is an excellent, economically sound proposal. An ageing population is caused by falling birth rates"
+     "Population density is an economic and demographic measure of the intensity of land use, calculated as the average number of people living within a square kilometre of land",
+     "Students must be able to calculate Per Capita Income (PCI) from Total National Income and Population data, explain how demographic changes affect resource allocation",
+     "The student can define demography, identify its three primary dynamic drivers (births, deaths, and migration)"
     ],
-    "hint": "Straight from the 'Population ageing' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* A weak answer might oppose the plan simply because \"schools are important,\" failing to connect the decline in child population with the rise in senior population. This shows an inability to evaluate infrastructure re-allocation based on demographic shifts.",
+    "hint": "Straight from the 'Demography is the scientific and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can define demography, identify its three primary dynamic drivers (births, deaths, and migration), and",
     "id": "gen_c8_eco_ch02_q18",
-    "nodeId": "c8_eco_ch2_10",
-    "difficulty": "advanced"
+    "nodeId": "c8_eco_ch2_1",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about demography?",
+    "What surprised you about demography is the scientific and statistical?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Demography mastered! 🎯",
+  "successLine": "Demography Is The Scientific mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1360,13 +1363,13 @@ export const C8_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Urbanisation",
+    "title": "Urbanisation Is The Process",
     "text": "Urbanisation is the process by which an increasing percentage of a country's total population comes to live in areas classified as urban. It represents a spatial and structural transition of an economy as people shift from agriculture-based rural livelihoods",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Cities",
+    "title": "Cities Are Non-agricultural Economic Hubs",
     "text": "Cities are non-agricultural economic hubs where diverse secondary (manufacturing and construction) and tertiary (services, commerce, and finance) activities concentrate in high density, generating employment and income through specialization and agglomeration",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1472,8 +1475,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What economic condition is absolutely necessary for an ancient rural settlement to transition into a specialized urban city?",
     "answer": "An agricultural surplus is necessary so that a portion of the population can survive without farming, allowing them to specialize in crafts, trade, administration, and services",
     "options": [
-     "Urban utilities are essential public services provided to city residents and businesses, including electricity supply, piped water, sewage disposal, and solid waste management",
-     "An informal settlement is primarily characterized by housing built without legal land tenure or formal building approvals",
+     "The student can distinguish between urban and rural settlements in India by applying the three quantitative Census criteria (population size, population density",
+     "The student can analyze how the quality and capacity of urban transport, communication, and utilities directly influence economic productivity, trade efficiency",
      "An agricultural surplus is necessary so that a portion of the population can survive without farming, allowing them to specialize in crafts, trade, administration, and services"
     ],
     "hint": "Straight from the 'Urban legacy' slide -- match the key terms.",
@@ -1516,7 +1519,7 @@ export const C8_ECO_GEN: SimDef[] = [
      "A push factor is an adverse condition in a rural area that forces people to leave their villages (e",
      "Urban growth refers to the absolute increase in the number of people living in urban areas"
     ],
-    "hint": "Straight from the 'Urbanisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Urbanisation is the process' slide -- match the key terms.",
     "misconception": "If a student says they are the same, it reveals that they confuse absolute numbers with relative proportions.",
     "id": "gen_c8_eco_ch03_q4",
     "nodeId": "c8_eco_ch3_4",
@@ -1596,8 +1599,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What are urban utilities, and what are two primary economic functions they perform in a city?",
     "answer": "Urban utilities are essential public services provided to city residents and businesses, including electricity supply, piped water, sewage disposal, and solid waste management",
     "options": [
-     "Population Density is calculated as total population divided by total land area ($\\text{Density} = \\frac{\\text{Total Population}}{\\text{Total Land Area in sq km}}$)",
-     "The primary economic objective is to optimize resource allocation and reduce operational costs (OpEx) of public utilities (like water and electricity) through real-time data",
+     "Urbanisation is the process by which an increasing percentage of a country's total population comes to live in areas classified as urban",
+     "The student can analyze how the quality and capacity of urban transport, communication, and utilities directly influence economic productivity, trade efficiency",
      "Urban utilities are essential public services provided to city residents and businesses, including electricity supply, piped water, sewage disposal, and solid waste management"
     ],
     "hint": "Straight from the 'Urban infrastructure' slide -- match the key terms.",
@@ -1617,8 +1620,8 @@ export const C8_ECO_GEN: SimDef[] = [
     "question": "What is the primary objective of land-use zoning in urban planning? 1. To increase the purchase price of all vacant land uniformly 2. To separate incompatible activities, prevent negative externalities, and organize city space systematically 3.",
     "answer": "Option 2 is correct. Zoning separates conflicting activities (such as heavily polluting industries from residential neighborhoods) to prevent negative externalities and create",
     "options": [
-     "The three categories of ULBs are Nagar Panchayats (for areas transitioning from rural to urban), Municipal Councils (for small urban areas)",
-     "An informal settlement is primarily characterized by housing built without legal land tenure or formal building approvals",
+     "Urbanisation is the process by which an increasing percentage of a country's total population comes to live in areas classified as urban",
+     "Urban planning is the spatial and economic process of designing land use, transportation networks, and public utilities in an urban area to ensure efficient resource allocation",
      "Option 2 is correct. Zoning separates conflicting activities (such as heavily polluting industries from residential neighborhoods) to prevent negative externalities and create"
     ],
     "hint": "Straight from the 'Urban planning' slide -- match the key terms.",

@@ -68,7 +68,7 @@ export function C7_SocialScienceKingsKingdomsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 7 History - Kings and Kingdoms</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 History - Kings and Kingdoms</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Empire Builder: Conquer, Then Decide Who Holds the Land</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -81,9 +81,9 @@ export function C7_SocialScienceKingsKingdomsSim() {
               const p = provs[i];
               const style = p === null ? 'bg-slate-950 border-slate-700 text-slate-400'
                 : p === 'new' ? 'bg-rose-950 border-rose-600 text-rose-200'
-                : p === 'officer' ? 'bg-indigo-950 border-indigo-600 text-indigo-200'
+                : p === 'officer' ? 'bg-gold-950 border-gold-600 text-gold-200'
                 : p === 'samanta' ? 'bg-amber-950 border-amber-600 text-amber-200'
-                : 'bg-violet-950 border-violet-600 text-violet-200';
+                : 'bg-gold-950 border-gold-600 text-gold-200';
               return (
                 <button key={nm} onClick={() => cycle(i)}
                   className={`min-h-20 p-2 rounded-xl border text-left transition-all hover:scale-[1.02] ${style}`}>
@@ -104,17 +104,17 @@ export function C7_SocialScienceKingsKingdomsSim() {
           <div className="grid grid-cols-2 gap-2">
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">King&apos;s revenue</p><p className="font-mono text-lg text-emerald-300">{Math.round(sent)} t paddy/yr</p><p className="text-[10px] text-slate-500">of {gross} t produced ({kingShare}%)</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Standing army</p><p className="font-mono text-lg text-rose-300">{army + soldiers} soldiers</p><p className="text-[10px] text-slate-500">{army} veterans + {soldiers} funded now</p></div>
-            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Legitimacy</p><p className="font-mono text-lg text-violet-300">{legit + temples * 2}</p><p className="text-[10px] text-slate-500">temples +{temples * 2}, victories +{legit - 1}</p></div>
+            <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Legitimacy</p><p className="font-mono text-lg text-gold-300">{legit + temples * 2}</p><p className="text-[10px] text-slate-500">temples +{temples * 2}, victories +{legit - 1}</p></div>
             <div className="p-3 rounded-2xl bg-slate-900/70 border border-slate-800"><p className="text-[11px] text-slate-400">Year</p><p className="font-mono text-lg text-amber-300">{year} CE</p><p className="text-[10px] text-slate-500">samantas: {samantas}/3 danger</p></div>
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-3">
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
-                <span>Revenue sent to the army</span><span className="font-mono text-indigo-300">{funding}% ({soldiers} soldiers)</span>
+                <span>Revenue sent to the army</span><span className="font-mono text-gold-300">{funding}% ({soldiers} soldiers)</span>
               </label>
               <input type="range" min={0} max={100} step={5} value={funding} aria-label="army funding"
-                onChange={(e) => setFunding(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setFunding(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div className="flex gap-2">
               <button onClick={campaign} className="flex-1 min-h-11 rounded-xl bg-rose-600 hover:bg-rose-500 text-xs font-bold transition-all">Campaign (costs 300 soldiers)</button>
@@ -124,7 +124,7 @@ export function C7_SocialScienceKingsKingdomsSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-violet-300 mb-1">What the court poet writes now</p>
+            <p className="font-bold text-gold-300 mb-1">What the court poet writes now</p>
             <p className="italic text-slate-200">&quot;{owned >= 6
               ? 'Conqueror of the whole southern land, lord of kings, whose fame crosses the seas, whose gifts make temples shine with gold.'
               : owned >= 3
@@ -139,7 +139,7 @@ export function C7_SocialScienceKingsKingdomsSim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Hold all 8 provinces with officers only for 5 years -- what is the king&apos;s revenue share, and could you afford the next campaign?</p>
         <p className="mt-1">2. Conquer 3 provinces, hand them all to samantas, then press Next year repeatedly -- how many years before a rebellion, and what does that teach about the samanta system?</p>

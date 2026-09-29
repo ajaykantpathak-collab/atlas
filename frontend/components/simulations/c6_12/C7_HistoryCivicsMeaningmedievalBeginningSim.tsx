@@ -1106,7 +1106,7 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-sky-950/60 text-sky-400 border-sky-700'
+                ? 'bg-gold-950/60 text-gold-400 border-gold-700'
                 : 'bg-rose-950/60 text-rose-400 border-rose-700'
             }`}
           >
@@ -1832,7 +1832,7 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
                 </div>
 
                 <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
-                  <span className="text-sky-400 font-bold block mb-1">Arabia & India (Year {sandboxYear} CE):</span>
+                  <span className="text-gold-400 font-bold block mb-1">Arabia & India (Year {sandboxYear} CE):</span>
                   <p className="text-slate-300 leading-relaxed">
                     {sandboxYear < 570
                       ? 'Pre-Islamic Jahiliyyah tribal era in Arabia; Gupta Empire golden age in India.'
@@ -1877,7 +1877,7 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
                 </span>
                 <span className={`px-2 py-0.5 rounded font-mono uppercase text-[11px] font-bold ${
                   challenge.difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400' :
-                  challenge.difficulty === 'standard' ? 'bg-sky-950 text-sky-400' : 'bg-rose-950 text-rose-400'
+                  challenge.difficulty === 'standard' ? 'bg-gold-950 text-gold-400' : 'bg-rose-950 text-rose-400'
                 }`}>
                   {challenge.difficulty}
                 </span>
@@ -1956,9 +1956,9 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
                   <div
                     onDragOver={(e) => e.preventDefault()}
                     onDrop={() => handleDragDrop('arch_box')}
-                    className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-sky-600/50 min-h-[100px]"
+                    className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-gold-600/50 min-h-[100px]"
                   >
-                    <span className="text-xs font-bold text-sky-400 uppercase block mb-2">🏺 Archaeological Evidence Target</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase block mb-2">🏺 Archaeological Evidence Target</span>
                     <div className="text-xs text-slate-300 font-mono">
                       {droppedLabels.arch_box || '< Drop Material / Coins / Ruins Here >'}
                     </div>
@@ -2185,7 +2185,7 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                 : errors <= 3
-                ? 'bg-sky-950/60 border-sky-500 text-sky-200'
+                ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500 text-amber-200'
                 : 'bg-rose-950/60 border-rose-500 text-rose-200'
@@ -2198,7 +2198,7 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
           </div>
 
           {/* ─── SPACED REPETITION (SRS) SCHEDULE CARD ─── */}
-          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border-2 border-amber-500/40 shadow-xl space-y-3">
+          <div className="p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 rounded-3xl border-2 border-amber-500/40 shadow-xl space-y-3">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-3xl">📅</span>
@@ -2231,7 +2231,7 @@ export default function C7_HistoryCivicsMeaningmedievalBeginningSim({
               </div>
               <div className={`p-2.5 rounded-xl border transition-all ${
                 errors >= 1 && errors <= 3
-                  ? 'bg-sky-950/80 border-sky-500 text-sky-200 font-bold shadow-lg'
+                  ? 'bg-gold-950/80 border-gold-500 text-gold-200 font-bold shadow-lg'
                   : 'bg-slate-950/60 border-slate-800 text-slate-400'
               }`}>
                 <span className="block text-[10px] uppercase font-mono mb-0.5">1–3 Errors</span>

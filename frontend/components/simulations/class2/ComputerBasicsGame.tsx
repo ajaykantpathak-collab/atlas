@@ -50,28 +50,28 @@ const TEACHING_SLIDES = [
     title: 'Computer as an Electronic Device 💻',
     text: 'A computer is an electronic machine that works only when plugged into electricity or running on battery! It is fast, accurate, never gets tired, and stores lots of information.',
     emoji: '⚡',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'A computer is an electronic machine that works only when plugged into electricity!',
   },
   {
     title: 'Input Devices ⌨️',
     text: 'Input devices send data TO the computer! The keyboard lets us type letters and numbers. The mouse helps us point and click. Scanners copy pictures, microphones record sound, and webcams capture video!',
     emoji: '🖱️',
-    bgColor: 'from-cyan-500 to-blue-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Input devices send data to the computer like the keyboard, mouse, and microphone!',
   },
   {
     title: 'Output Devices 🖥️',
     text: 'Output devices show results FROM the computer! The monitor displays pictures and videos. The printer puts text on paper. Speakers play sound, and projectors show big images on a wall!',
     emoji: '🖨️',
-    bgColor: 'from-teal-500 to-cyan-600',
+    bgColor: 'from-teal-500 to-gold-600',
     spoken: 'Output devices show results from the computer like monitors, printers, and speakers!',
   },
   {
     title: 'Keyboard Special Keys 🔤',
     text: 'The keyboard has special keys! Hold Shift to type capital letters and symbols like @ and ₹. Caps Lock makes all letters capital. Enter starts a new line, and Backspace deletes characters!',
     emoji: '⌨️',
-    bgColor: 'from-indigo-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'The keyboard has special keys like Shift for capitals, Enter for new lines, and Backspace to delete!',
   },
   {
@@ -224,7 +224,7 @@ function TechieTara({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thinkin
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-300"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -322,7 +322,7 @@ function ComputerLabScene({ width, height }: { width: number; height: number }) 
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #E0F2FE 0%, #BAE6FD 40%, #7DD3FC 70%, #38BDF8 100%)' }} />
 
       {/* Classroom Window */}
-      <div className="absolute top-6 left-12 w-36 h-28 border-4 border-white bg-blue-100 rounded-lg opacity-60 flex flex-col justify-between p-2 shadow-inner">
+      <div className="absolute top-6 left-12 w-36 h-28 border-4 border-white bg-gold-100 rounded-lg opacity-60 flex flex-col justify-between p-2 shadow-inner">
         <div className="flex justify-between h-full">
           <div className="w-16 h-full border-r-2 border-white" />
           <div className="w-16 h-full" />
@@ -331,7 +331,7 @@ function ComputerLabScene({ width, height }: { width: number; height: number }) 
 
       {/* Whiteboard on wall */}
       <div className="absolute top-8 left-56 right-36 h-20 bg-white border-4 border-gray-300 rounded-lg shadow-md flex items-center justify-center">
-        <span className="text-blue-600 font-bold text-sm tracking-wider opacity-60">COMPUTER LAB: INPUT & OUTPUT</span>
+        <span className="text-gold-600 font-bold text-sm tracking-wider opacity-60">COMPUTER LAB: INPUT & OUTPUT</span>
       </div>
 
       {/* Computer Desks at bottom */}
@@ -446,7 +446,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-blue-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[11px] font-bold text-gray-700 text-center mt-1 truncate max-w-[105px]">{label}</span>
       </div>
@@ -724,7 +724,7 @@ export function ComputerBasicsGame({ width = 720, height = 560, onComplete }: Co
       <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 py-3 bg-slate-900/80 backdrop-blur-md border-b border-white/10">
         <div className="flex items-center gap-3">
           <span className="text-lg font-black text-white tracking-wide">💻 Computer Basics</span>
-          <span className="text-xs bg-blue-500/30 text-blue-300 px-2 py-0.5 rounded-full font-bold">Class 2 ICSE</span>
+          <span className="text-xs bg-gold-500/30 text-gold-300 px-2 py-0.5 rounded-full font-bold">Class 2 ICSE</span>
         </div>
         {screen === 'play' && !isComplete && (
           <div className="flex items-center gap-4">
@@ -792,7 +792,7 @@ export function ComputerBasicsGame({ width = 720, height = 560, onComplete }: Co
             key={currentChallengeIndex}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="w-full max-w-xl bg-slate-800/90 backdrop-blur-md rounded-2xl p-4 border border-blue-400/30 shadow-xl mb-4 text-center"
+            className="w-full max-w-xl bg-slate-800/90 backdrop-blur-md rounded-2xl p-4 border border-gold-400/30 shadow-xl mb-4 text-center"
           >
             <h3 className="text-lg font-black text-white">{challenge.question}</h3>
           </motion.div>
@@ -806,7 +806,7 @@ export function ComputerBasicsGame({ width = 720, height = 560, onComplete }: Co
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswerSelect(opt)}
-                  className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-sm shadow-lg border border-blue-400/40 transition-all text-left flex items-center justify-between"
+                  className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm shadow-lg border border-gold-400/40 transition-all text-left flex items-center justify-between"
                 >
                   <span>{opt}</span>
                   <span className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-xs">👉</span>

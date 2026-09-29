@@ -9,6 +9,7 @@ import {
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
 import { useState } from 'react'
+import InternalDemoBadge from "@/components/InternalDemoBadge";
 
 interface WellnessMetric {
   name: string
@@ -78,6 +79,7 @@ export default function HolisticPage() {
 
   return (
     <div className="min-h-screen mesh-bg">
+      <InternalDemoBadge what="hardcoded wellness mock" />
       {/* Top bar */}
       <div className="sticky top-0 z-40 glass-strong border-b border-surface-300/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">

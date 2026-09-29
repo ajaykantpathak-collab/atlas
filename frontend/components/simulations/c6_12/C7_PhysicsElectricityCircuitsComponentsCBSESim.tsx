@@ -864,7 +864,7 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
             ⚡
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-amber-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-amber-400 via-gold-300 to-emerald-400 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs md:text-sm text-slate-400 font-medium">
@@ -935,7 +935,7 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 space-y-6">
-              <div className="flex items-center gap-2 text-sky-400 font-bold text-sm tracking-wide uppercase">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wide uppercase">
                 <span>Predict Before You Learn</span>
               </div>
               <h3 className="text-xl font-bold text-slate-100 leading-snug">
@@ -969,8 +969,8 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
               </div>
 
               {discoverySubmitted && (
-                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 rounded-xl bg-sky-950/40 border border-sky-500/30 text-sky-200 space-y-2">
-                  <h4 className="font-bold flex items-center gap-2 text-sky-400">
+                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 rounded-xl bg-gold-950/40 border border-gold-500/30 text-gold-200 space-y-2">
+                  <h4 className="font-bold flex items-center gap-2 text-gold-400">
                     <span>💡</span> Scientific Insight
                   </h4>
                   <p className="text-sm leading-relaxed text-slate-300">
@@ -1147,7 +1147,7 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
                       setActiveTab('sandbox');
                       audioManager.play('whoosh');
                     }}
-                    className="px-6 py-2.5 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold rounded-xl transition"
+                    className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition"
                   >
                     Open Virtual Workbench Lab 🔬
                   </button>
@@ -1194,7 +1194,7 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
                 <div className="w-full grid grid-cols-3 gap-2 mt-4 text-center">
                   <div className="bg-slate-950 border border-slate-800 p-2 rounded-xl">
                     <span className="text-[10px] text-slate-400 uppercase block font-semibold">Voltage (V)</span>
-                    <span className="text-lg font-bold text-sky-400">{calculatedPhysics.voltage.toFixed(1)} V</span>
+                    <span className="text-lg font-bold text-gold-400">{calculatedPhysics.voltage.toFixed(1)} V</span>
                   </div>
                   <div className="bg-slate-950 border border-slate-800 p-2 rounded-xl">
                     <span className="text-[10px] text-slate-400 uppercase block font-semibold">Current (I)</span>
@@ -1332,7 +1332,7 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
             {/* Challenge Progress Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-semibold text-sky-400 uppercase tracking-widest">
+                <span className="text-xs font-semibold text-gold-400 uppercase tracking-widest">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <h2 className="text-xl font-bold text-slate-100 mt-1">
@@ -1426,7 +1426,7 @@ const C7_PhysicsElectricityCircuitsComponentsCBSESim: React.FC = () => {
 
                     <button
                       onClick={nextChallenge}
-                      className="px-8 py-3 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold rounded-xl transition flex items-center gap-2"
+                      className="px-8 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition flex items-center gap-2"
                     >
                       <span>Next Challenge</span>
                       <span>→</span>

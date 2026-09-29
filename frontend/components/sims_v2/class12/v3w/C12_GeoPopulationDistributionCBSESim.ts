@@ -11,7 +11,7 @@ export const w_c12_geopopulationdistributioncbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'World Population Distribution: Patterns and Factors',
     chapters: [],
     nodeIds: ['c12_geo_cbse_02_001', 'c12_geo_cbse_02_002', 'c12_geo_cbse_02_003', 'c12_geo_cbse_02_004', 'c12_geo_cbse_02_007', 'c12_geo_cbse_02_009', 'c12_geo_cbse_02_010', 'c12_geo_cbse_09_001', 'c12_geo_cbse_09_002', 'c12_geo_cbse_09_003', 'c12_geo_cbse_09_006', 'c12_geo_cbse_09_007', 'c12_geo_cbse_09_008', 'c12_geo_cbse_09_011', 'c12_geo_cbse_05_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin by asking students to observe a night-time satellite image of Earth — bright clusters reveal where.', goal: 'Master World Population Distribution: Patterns and Factors.' },
     discovery: {
         question: 'Define crude population density and give its formula with units.',
@@ -20,7 +20,7 @@ export const w_c12_geopopulationdistributioncbsesim: SimDef = {
         hook: 'Students often think "high crude density = high population pressure everywhere." They forget that crude density.',
     },
     teaching: [
-        { title: 'World population distribution refers to the.', text: 'World population distribution refers to the spatial arrangement of human populations across Earth\'s surface, characterized by extreme unevenness where approximately 90% of the global population.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'World population distribution refers to the.', text: 'World population distribution refers to the spatial arrangement of human populations across Earth\'s surface, characterized by extreme unevenness where approximately 90% of the global population.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_02_001', title: 'World population distribution refers to.',

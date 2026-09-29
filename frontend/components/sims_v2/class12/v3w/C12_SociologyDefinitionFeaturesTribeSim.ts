@@ -11,7 +11,7 @@ export const w_c12_sociologydefinitionfeaturestribesim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'The Distinctive Features of Indian Society: Plurality, Diversity and Stratification',
     chapters: [],
     nodeIds: ['c12_soc_cbse_01_008', 'c12_soc_cbse_01_001', 'c12_soc_cbse_09_001', 'c12_soc_cbse_03_002', 'c12_soc_cbse_03_005', 'c12_soc_cbse_03_006', 'c12_soc_cbse_03_001', 'c12_soc_cbse_05_001', 'c12_soc_cbse_10_001', 'c12_soc_cbse_10_002', 'c12_soc_cbse_13_002', 'c12_soc_cbse_09_002', 'c12_soc_cbse_15_001', 'c12_soc_cbse_15_011', 'c12_soc_cbse_01_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing in a bustling railway station in Mumbai: you hear Marathi, Hindi, Gujarati, Tamil,.', goal: 'Master The Distinctive Features of Indian Society: Plurality, Diversity and Stratification.' },
     discovery: {
         question: 'Apply the concept of "achieved vs. ascribed identity" to analyse this situation: A Dalit student clears UPSC, becomes an IAS officer, but his marriage is still.',
@@ -20,7 +20,7 @@ export const w_c12_sociologydefinitionfeaturestribesim: SimDef = {
         hook: 'Students equate modernisation with "becoming like the West" — wearing Western clothes, speaking English, eating pizza,.',
     },
     teaching: [
-        { title: 'The distinctive features of Indian society.', text: 'The distinctive features of Indian society refer to its **plurality** (coexistence of multiple cultural, religious, linguistic, and ethnic groups), **diversity** (the vast range of variations in.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The distinctive features of Indian society.', text: 'The distinctive features of Indian society refer to its **plurality** (coexistence of multiple cultural, religious, linguistic, and ethnic groups), **diversity** (the vast range of variations in.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_01_008', title: 'The distinctive features of Indian.',

@@ -11,7 +11,7 @@ export const w_c7_historycivicsobjectivesjusticelibertysim: SimDef = {
     classLevel: 7, subject: 'history', topic: 'Preamble to the Constitution: Values and Ideals',
     chapters: [],
     nodeIds: ['c7_civ_ch02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are reading the opening page of a thick, important book of rules for a school club, and the very.', goal: 'Master Preamble to the Constitution: Values and Ideals.' },
     discovery: {
         question: 'What are the five key descriptive terms used in the Preamble to define the nature of the Indian State?',
@@ -20,7 +20,7 @@ export const w_c7_historycivicsobjectivesjusticelibertysim: SimDef = {
         hook: 'Students often think the Preamble is a legally enforceable set of commands like Fundamental Rights, believing they can.',
     },
     teaching: [
-        { title: 'The Preamble to the Indian Constitution is.', text: 'The Preamble to the Indian Constitution is an introductory statement that outlines the guiding values, ideals, and objectives of the nation, such as justice, liberty, equality, and fraternity,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Preamble to the Indian Constitution is.', text: 'The Preamble to the Indian Constitution is an introductory statement that outlines the guiding values, ideals, and objectives of the nation, such as justice, liberty, equality, and fraternity,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_civ_ch02_010', title: 'The Preamble to the Indian Constitution.',

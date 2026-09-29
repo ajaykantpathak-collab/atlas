@@ -52,7 +52,7 @@ export function C7_ScienceEarthMoonAndTheSunSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Earth, Moon, and the Sun: Moon Phases</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Earth, Moon, and the Sun: Moon Phases</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="mt-4 p-4 bg-slate-950 rounded-2xl border border-slate-700 overflow-x-auto">
@@ -120,7 +120,7 @@ export function C7_ScienceEarthMoonAndTheSunSim() {
           <button
             key={p.name}
             onClick={() => { setPlaying(false); setT(p.at); }}
-            className={`px-3 py-2 rounded-xl text-xs font-semibold border transition-colors ${Math.abs(t - p.at) < 0.02 ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-3 py-2 rounded-xl text-xs font-semibold border transition-colors ${Math.abs(t - p.at) < 0.02 ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {p.name}
           </button>
@@ -138,8 +138,8 @@ export function C7_ScienceEarthMoonAndTheSunSim() {
         {t < 0.25 ? 'a thin growing sliver' : t < 0.45 ? 'more than half, growing' : t < 0.56 ? 'a bright full disc' : t < 0.75 ? 'more than half, shrinking' : 'a thin shrinking sliver'}.
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Press Play and watch the dark shadow sweep across the view-from-Earth disc. Which direction does the lit part grow -- from which side?</li>
           <li>Stop at day 7 and day 21. Both show a HALF-lit moon from Earth. So why are they given different names?</li>

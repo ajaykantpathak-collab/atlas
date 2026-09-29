@@ -885,14 +885,14 @@ function MultiRepresentationPanel({ rawVal, base, exp }: { rawVal: number; base:
     <div className="p-5 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Multi-Representation Inspector</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Multi-Representation Inspector</span>
           <h4 className="text-sm font-bold text-white">Same Concept via 3 Independent Formats</h4>
         </div>
         <div className="flex gap-1 bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs">
           <button
             onClick={() => setActiveRepTab('diagram')}
             className={`px-3 py-1 rounded-lg font-bold transition-all ${
-              activeRepTab === 'diagram' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-white'
+              activeRepTab === 'diagram' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
             }`}
           >
             📊 Visual SVG
@@ -900,7 +900,7 @@ function MultiRepresentationPanel({ rawVal, base, exp }: { rawVal: number; base:
           <button
             onClick={() => setActiveRepTab('equation')}
             className={`px-3 py-1 rounded-lg font-bold transition-all ${
-              activeRepTab === 'equation' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+              activeRepTab === 'equation' ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
             }`}
           >
             📐 Equation Model
@@ -930,13 +930,13 @@ function MultiRepresentationPanel({ rawVal, base, exp }: { rawVal: number; base:
           <div className="text-slate-400 font-sans text-xs font-bold mb-1">
             Representation 2 (Mathematical Inequality Transformation):
           </div>
-          <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-cyan-300">
+          <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-gold-300">
             <div>1. Standard Raw Range: 0.0 &le; r &lt; 1.0</div>
             <div>2. Multiplied by 6.0: 0.0 &le; 6r &lt; 6.0</div>
             <div>3. Integer Truncation: &lfloor;6r&rfloor; &isin; &#123;0, 1, 2, 3, 4, 5&#125;</div>
             <div className="text-emerald-400 font-bold">4. Die Shift (+1): &lfloor;6r&rfloor; + 1 &isin; &#123;1, 2, 3, 4, 5, 6&#125;</div>
           </div>
-          <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-indigo-300 space-y-1">
+          <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-gold-300 space-y-1">
             <div>Math.pow({base}, {exp}) Equation: {base}^{exp} = {Math.pow(base, exp).toFixed(1)}</div>
             <div>Math.sqrt({base}) Equation: &radic;{base} = {Math.sqrt(base).toFixed(4)}</div>
           </div>
@@ -959,37 +959,37 @@ function MultiRepresentationPanel({ rawVal, base, exp }: { rawVal: number; base:
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-800 text-slate-300">
-                <tr className={rawVal >= 0 && rawVal < 1/6 ? "bg-cyan-950/40 text-cyan-300 font-bold" : ""}>
+                <tr className={rawVal >= 0 && rawVal < 1/6 ? "bg-gold-950/40 text-gold-300 font-bold" : ""}>
                   <td className="p-2">[0.000, 0.166)</td>
                   <td className="p-2">[0.00, 1.00)</td>
                   <td className="p-2">0</td>
                   <td className="p-2 text-emerald-400 font-bold">1</td>
                 </tr>
-                <tr className={rawVal >= 1/6 && rawVal < 2/6 ? "bg-cyan-950/40 text-cyan-300 font-bold" : ""}>
+                <tr className={rawVal >= 1/6 && rawVal < 2/6 ? "bg-gold-950/40 text-gold-300 font-bold" : ""}>
                   <td className="p-2">[0.166, 0.333)</td>
                   <td className="p-2">[1.00, 2.00)</td>
                   <td className="p-2">1</td>
                   <td className="p-2 text-emerald-400 font-bold">2</td>
                 </tr>
-                <tr className={rawVal >= 2/6 && rawVal < 3/6 ? "bg-cyan-950/40 text-cyan-300 font-bold" : ""}>
+                <tr className={rawVal >= 2/6 && rawVal < 3/6 ? "bg-gold-950/40 text-gold-300 font-bold" : ""}>
                   <td className="p-2">[0.333, 0.500)</td>
                   <td className="p-2">[2.00, 3.00)</td>
                   <td className="p-2">2</td>
                   <td className="p-2 text-emerald-400 font-bold">3</td>
                 </tr>
-                <tr className={rawVal >= 3/6 && rawVal < 4/6 ? "bg-cyan-950/40 text-cyan-300 font-bold" : ""}>
+                <tr className={rawVal >= 3/6 && rawVal < 4/6 ? "bg-gold-950/40 text-gold-300 font-bold" : ""}>
                   <td className="p-2">[0.500, 0.666)</td>
                   <td className="p-2">[3.00, 4.00)</td>
                   <td className="p-2">3</td>
                   <td className="p-2 text-emerald-400 font-bold">4</td>
                 </tr>
-                <tr className={rawVal >= 4/6 && rawVal < 5/6 ? "bg-cyan-950/40 text-cyan-300 font-bold" : ""}>
+                <tr className={rawVal >= 4/6 && rawVal < 5/6 ? "bg-gold-950/40 text-gold-300 font-bold" : ""}>
                   <td className="p-2">[0.666, 0.833)</td>
                   <td className="p-2">[4.00, 5.00)</td>
                   <td className="p-2">4</td>
                   <td className="p-2 text-emerald-400 font-bold">5</td>
                 </tr>
-                <tr className={rawVal >= 5/6 && rawVal < 1.0 ? "bg-cyan-950/40 text-cyan-300 font-bold" : ""}>
+                <tr className={rawVal >= 5/6 && rawVal < 1.0 ? "bg-gold-950/40 text-gold-300 font-bold" : ""}>
                   <td className="p-2">[0.833, 1.000)</td>
                   <td className="p-2">[5.00, 6.00)</td>
                   <td className="p-2">5</td>
@@ -1481,12 +1481,12 @@ export function C10_ComputerScienceJavaMathClassSim({
         className="flex flex-wrap items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-cyan-950/80 border border-cyan-500/30 rounded-2xl text-2xl shadow-inner">
+          <div className="p-3 bg-gold-950/80 border border-gold-500/30 rounded-2xl text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-cyan-900/60 text-cyan-300 border border-cyan-700/50">
+              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 ICSE Class 10
               </span>
               <span className="text-xs font-mono text-slate-400">c10_cs_021 - c10_cs_030</span>
@@ -1508,7 +1508,7 @@ export function C10_ComputerScienceJavaMathClassSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                 phase === p 
-                  ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30' 
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' 
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
@@ -1526,14 +1526,14 @@ export function C10_ComputerScienceJavaMathClassSim({
           className="space-y-6"
         >
           {/* Narrative Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/40 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="text-xs font-bold tracking-wider uppercase text-cyan-400 mb-2 block">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/40 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="text-xs font-bold tracking-wider uppercase text-gold-400 mb-2 block">
               Mission Briefing
             </span>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 font-medium bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300 font-medium bg-gold-950/60 p-3 rounded-xl border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1561,13 +1561,13 @@ export function C10_ComputerScienceJavaMathClassSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 font-mono text-xs space-y-2">
                 <span className="text-slate-400">Code: Math.random()</span>
-                <div className="text-cyan-400 font-bold text-base">{rawRandomVal.toFixed(6)}</div>
+                <div className="text-gold-400 font-bold text-base">{rawRandomVal.toFixed(6)}</div>
                 <div className="text-slate-500 text-[11px]">[0.0, 1.0) exclusive</div>
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 font-mono text-xs space-y-2">
                 <span className="text-slate-400">Scaled: * 6</span>
-                <div className="text-indigo-400 font-bold text-base">{(rawRandomVal * 6).toFixed(6)}</div>
+                <div className="text-gold-400 font-bold text-base">{(rawRandomVal * 6).toFixed(6)}</div>
                 <div className="text-slate-500 text-[11px]">[0.0, 6.0) double</div>
               </div>
 
@@ -1612,11 +1612,11 @@ export function C10_ComputerScienceJavaMathClassSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-950/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-cyan-500/50 hover:bg-slate-900'
+                      : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-gold-500/50 hover:bg-slate-900'
                   }`}
                 >
                   <div className="flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-cyan-400 flex-shrink-0 mt-0.5">
+                    <span className="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-gold-400 flex-shrink-0 mt-0.5">
                       {String.fromCharCode(65 + i)}
                     </span>
                     <span>{opt}</span>
@@ -1638,7 +1638,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-cyan-500/25 flex-shrink-0"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-500/25 flex-shrink-0"
                 >
                   Start Interactive Labs →
                 </motion.button>
@@ -1654,7 +1654,7 @@ export function C10_ComputerScienceJavaMathClassSim({
           {/* Exploration Step Header & Step Indicators */}
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <span className="text-xs font-bold tracking-wider uppercase text-cyan-400">Interactive Lab Studio</span>
+              <span className="text-xs font-bold tracking-wider uppercase text-gold-400">Interactive Lab Studio</span>
               <h2 className="text-xl md:text-2xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <div className="flex items-center gap-1.5">
@@ -1666,7 +1666,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     audioManager.play('tap');
                   }}
                   className={`h-2.5 rounded-full transition-all ${
-                    currentSlide === i ? 'w-8 bg-cyan-500' : 'w-2.5 bg-slate-800 hover:bg-slate-700'
+                    currentSlide === i ? 'w-8 bg-gold-500' : 'w-2.5 bg-slate-800 hover:bg-slate-700'
                   }`}
                   aria-label={`Go to slide ${i + 1}`}
                 />
@@ -1674,7 +1674,7 @@ export function C10_ComputerScienceJavaMathClassSim({
             </div>
           </div>
 
-          <p className="text-sm text-cyan-200 bg-cyan-950/40 p-3 rounded-2xl border border-cyan-800/40 flex items-center gap-2">
+          <p className="text-sm text-gold-200 bg-gold-950/40 p-3 rounded-2xl border border-gold-800/40 flex items-center gap-2">
             <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
           </p>
 
@@ -1694,7 +1694,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Base Value (n):</span>
-                      <span className="font-mono text-cyan-400 font-bold">{mathBase}</span>
+                      <span className="font-mono text-gold-400 font-bold">{mathBase}</span>
                     </div>
                     <input
                       type="range"
@@ -1705,7 +1705,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                         setMathBase(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                       aria-label="Set math base"
                     />
                   </div>
@@ -1713,7 +1713,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Exponent (p):</span>
-                      <span className="font-mono text-indigo-400 font-bold">{mathExp}</span>
+                      <span className="font-mono text-gold-400 font-bold">{mathExp}</span>
                     </div>
                     <input
                       type="range"
@@ -1724,7 +1724,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                         setMathExp(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                       aria-label="Set math exponent"
                     />
                   </div>
@@ -1741,7 +1741,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(idx)}
-                            className="w-full text-left p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 hover:border-cyan-500/50"
+                            className="w-full text-left p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 hover:border-gold-500/50"
                           >
                             {opt}
                           </motion.button>
@@ -1749,7 +1749,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       </div>
                     </div>
                   ) : (
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-indigo-200">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-200">
                       ✓ Prediction logged: {PREDICTION_QUESTIONS[0].options[predictionIndex]}
                     </div>
                   )}
@@ -1764,12 +1764,12 @@ export function C10_ComputerScienceJavaMathClassSim({
                     </div>
 
                     <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 flex justify-between items-center">
-                      <span className="text-cyan-300">Math.pow({mathBase}, {mathExp})</span>
+                      <span className="text-gold-300">Math.pow({mathBase}, {mathExp})</span>
                       <span className="text-emerald-400 font-bold text-sm">{calculatedMathPow.toFixed(1)} (double)</span>
                     </div>
 
                     <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 flex justify-between items-center">
-                      <span className="text-indigo-300">Math.sqrt({mathBase})</span>
+                      <span className="text-gold-300">Math.sqrt({mathBase})</span>
                       <span className="text-emerald-400 font-bold text-sm">{calculatedMathSqrt.toFixed(4)} (double)</span>
                     </div>
 
@@ -1784,8 +1784,8 @@ export function C10_ComputerScienceJavaMathClassSim({
                     </div>
                   </div>
 
-                  <div className="mt-4 p-3 bg-cyan-950/30 rounded-xl border border-cyan-800/30 text-[11px] text-slate-400">
-                    ⚠️ Note: Math.pow and Math.sqrt always return <span className="text-cyan-300 font-bold">double</span>, preventing data loss.
+                  <div className="mt-4 p-3 bg-gold-950/30 rounded-xl border border-gold-800/30 text-[11px] text-slate-400">
+                    ⚠️ Note: Math.pow and Math.sqrt always return <span className="text-gold-300 font-bold">double</span>, preventing data loss.
                   </div>
                 </div>
               </div>
@@ -1807,7 +1807,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       audioManager.play('tap');
                     }}
                     className={`flex-1 py-2 rounded-xl text-xs font-bold transition-all ${
-                      parseMode === 'int' ? 'bg-cyan-600 text-white' : 'bg-slate-950 text-slate-400'
+                      parseMode === 'int' ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400'
                     }`}
                   >
                     Integer.parseInt()
@@ -1818,7 +1818,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       audioManager.play('tap');
                     }}
                     className={`flex-1 py-2 rounded-xl text-xs font-bold transition-all ${
-                      parseMode === 'double' ? 'bg-indigo-600 text-white' : 'bg-slate-950 text-slate-400'
+                      parseMode === 'double' ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400'
                     }`}
                   >
                     Double.parseDouble()
@@ -1831,7 +1831,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     type="text"
                     value={parseInputStr}
                     onChange={(e) => setParseInputStr(e.target.value)}
-                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl font-mono text-sm text-cyan-300 focus:outline-none focus:border-cyan-500"
+                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl font-mono text-sm text-gold-300 focus:outline-none focus:border-gold-500"
                     placeholder="Try '123', '45.8', 'abc'"
                   />
                 </div>
@@ -1860,7 +1860,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     <div className="text-xs font-mono text-slate-400">
                       String s = "{parseInputStr}";
                     </div>
-                    <div className="text-xs font-mono text-cyan-300">
+                    <div className="text-xs font-mono text-gold-300">
                       {parseMode === 'int' ? 'int res = Integer.parseInt(s);' : 'double res = Double.parseDouble(s);'}
                     </div>
 
@@ -1879,7 +1879,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                 </div>
 
                 <div className="text-[11px] text-slate-400 p-3 bg-slate-900/50 rounded-xl">
-                  💡 Wrapper classes also provide <span className="text-indigo-300 font-mono">toString(num)</span> to convert numbers back to text for display!
+                  💡 Wrapper classes also provide <span className="text-gold-300 font-mono">toString(num)</span> to convert numbers back to text for display!
                 </div>
               </div>
             </div>
@@ -1903,7 +1903,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                         audioManager.play('tap');
                       }}
                       className={`flex-1 py-2 rounded-xl text-xs font-bold ${
-                        scannerDelimiter === 'space' ? 'bg-cyan-600 text-white' : 'bg-slate-950 text-slate-400'
+                        scannerDelimiter === 'space' ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400'
                       }`}
                     >
                       Default: Whitespace \s+
@@ -1915,7 +1915,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                         audioManager.play('tap');
                       }}
                       className={`flex-1 py-2 rounded-xl text-xs font-bold ${
-                        scannerDelimiter === 'comma' ? 'bg-indigo-600 text-white' : 'bg-slate-950 text-slate-400'
+                        scannerDelimiter === 'comma' ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400'
                       }`}
                     >
                       sc.useDelimiter(",")
@@ -1929,7 +1929,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     type="text"
                     value={scannerSampleInput}
                     onChange={(e) => setScannerSampleInput(e.target.value)}
-                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl font-mono text-sm text-cyan-300"
+                    className="w-full px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl font-mono text-sm text-gold-300"
                   />
                 </div>
               </div>
@@ -1945,7 +1945,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       className="p-3 bg-slate-900 rounded-xl border border-slate-800 flex items-center justify-between font-mono text-xs"
                     >
                       <span className="text-slate-400">Token #{idx + 1}:</span>
-                      <span className="text-cyan-300 font-bold bg-slate-950 px-2.5 py-1 rounded border border-slate-800">
+                      <span className="text-gold-300 font-bold bg-slate-950 px-2.5 py-1 rounded border border-slate-800">
                         "{tok}"
                       </span>
                       <span className="text-emerald-400 text-[11px]">
@@ -1969,7 +1969,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Field Width:</span>
-                    <span className="font-mono text-cyan-400 font-bold">{printfWidth} cols</span>
+                    <span className="font-mono text-gold-400 font-bold">{printfWidth} cols</span>
                   </div>
                   <input
                     type="range"
@@ -1977,7 +1977,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     max={15}
                     value={printfWidth}
                     onChange={(e) => setPrintfWidth(Number(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                     aria-label="Set field width"
                   />
                 </div>
@@ -1985,7 +1985,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Decimal Precision (.N):</span>
-                    <span className="font-mono text-indigo-400 font-bold">{printfPrecision} decimals</span>
+                    <span className="font-mono text-gold-400 font-bold">{printfPrecision} decimals</span>
                   </div>
                   <input
                     type="range"
@@ -1993,7 +1993,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     max={4}
                     value={printfPrecision}
                     onChange={(e) => setPrintfPrecision(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Set precision"
                   />
                 </div>
@@ -2006,7 +2006,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       audioManager.play('tap');
                     }}
                     className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                      printfAlignLeft ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                      printfAlignLeft ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {printfAlignLeft ? 'Active (-)' : 'Right-align'}
@@ -2017,7 +2017,7 @@ export function C10_ComputerScienceJavaMathClassSim({
               <div className="p-6 bg-slate-950 rounded-3xl border border-slate-800 flex flex-col justify-between font-mono text-xs">
                 <div>
                   <span className="text-slate-400 uppercase tracking-wider text-[11px] block mb-2">Java Statement</span>
-                  <div className="p-3 bg-slate-900 rounded-xl text-cyan-300 border border-slate-800">
+                  <div className="p-3 bg-slate-900 rounded-xl text-gold-300 border border-slate-800">
                     System.out.printf("{printfAlignLeft ? '-' : ''}{printfWidth}.{printfPrecision}f%n", 85.346);
                   </div>
 
@@ -2030,7 +2030,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                 </div>
 
                 <div className="text-[11px] text-slate-400 pt-2">
-                  Notice how <span className="text-cyan-300">%n</span> generates platform-neutral newlines on Windows, Mac & Linux!
+                  Notice how <span className="text-gold-300">%n</span> generates platform-neutral newlines on Windows, Mac & Linux!
                 </div>
               </div>
             </div>
@@ -2070,7 +2070,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       }}
                       className={`p-3 rounded-2xl border text-xs font-bold transition-all ${
                         encryptionActive
-                          ? 'bg-cyan-950/60 border-cyan-500 text-cyan-300'
+                          ? 'bg-gold-950/60 border-gold-500 text-gold-300'
                           : 'bg-amber-950/60 border-amber-500 text-amber-300'
                       }`}
                     >
@@ -2152,7 +2152,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-cyan-600 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -2185,7 +2185,7 @@ export function C10_ComputerScienceJavaMathClassSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold text-sm rounded-xl shadow-lg"
+              className="px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg"
             >
               Ready for Challenges! →
             </motion.button>
@@ -2225,7 +2225,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Font Size:</span>
-                    <span className="font-mono text-cyan-400">{cssFontSize}px</span>
+                    <span className="font-mono text-gold-400">{cssFontSize}px</span>
                   </div>
                   <input
                     type="range"
@@ -2233,7 +2233,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     max={22}
                     value={cssFontSize}
                     onChange={(e) => setCssFontSize(Number(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                     aria-label="Set CSS font size"
                   />
                 </div>
@@ -2241,7 +2241,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Card Padding:</span>
-                    <span className="font-mono text-indigo-400">{cssPadding}px</span>
+                    <span className="font-mono text-gold-400">{cssPadding}px</span>
                   </div>
                   <input
                     type="range"
@@ -2249,7 +2249,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     max={24}
                     value={cssPadding}
                     onChange={(e) => setCssPadding(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Set CSS padding"
                   />
                 </div>
@@ -2320,25 +2320,25 @@ export function C10_ComputerScienceJavaMathClassSim({
                     ? 'bg-emerald-950 text-emerald-300 border border-emerald-700'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-300 border border-rose-700'
-                    : 'bg-cyan-950 text-cyan-300 border border-cyan-700'
+                    : 'bg-gold-950 text-gold-300 border border-gold-700'
                 }`}
               >
                 {difficulty}
               </motion.span>
-              <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
+              <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                 NEP 2020: {challenge.competencyLevel}
               </span>
             </div>
 
             <div className="text-xs font-mono text-slate-400">
-              Mastery: <span className="text-cyan-400 font-bold capitalize">{masteryLevel}</span>
+              Mastery: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
             </div>
           </div>
 
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2372,11 +2372,11 @@ export function C10_ComputerScienceJavaMathClassSim({
                     className={`w-full text-left p-4 rounded-2xl border text-sm transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-cyan-500/50 hover:bg-slate-900'
+                        : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-gold-500/50 hover:bg-slate-900'
                     }`}
                   >
                     <div className="flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-cyan-400 flex-shrink-0 mt-0.5">
+                      <span className="w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-gold-400 flex-shrink-0 mt-0.5">
                         {String.fromCharCode(65 + i)}
                       </span>
                       <span>{opt}</span>
@@ -2398,7 +2398,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2424,7 +2424,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     >
                       <div className="flex justify-between items-center mb-1">
                         <span className="text-xs font-bold text-white">{target.title}</span>
-                        <span className="text-xs font-bold text-cyan-400">{droppedLabels[target.id] || '[Drop Here]'}</span>
+                        <span className="text-xs font-bold text-gold-400">{droppedLabels[target.id] || '[Drop Here]'}</span>
                       </div>
                       <p className="text-[11px] text-slate-400">{target.desc}</p>
                     </div>
@@ -2435,7 +2435,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
                 >
                   Verify Threat Mapping
                 </motion.button>
@@ -2463,7 +2463,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 flex items-center gap-3 cursor-grab text-xs font-medium text-slate-200"
                     >
-                      <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center font-bold text-cyan-400 text-[11px]">
+                      <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center font-bold text-gold-400 text-[11px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2475,7 +2475,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2490,7 +2490,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     type="number"
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-cyan-500 focus:outline-none"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 focus:outline-none"
                     placeholder="Enter calculated value"
                   />
                   <span className="text-xs text-slate-400">{challenge.unit}</span>
@@ -2498,7 +2498,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Answer
                   </motion.button>
@@ -2517,7 +2517,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl text-xs font-mono text-cyan-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -2528,7 +2528,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   {constructParts.map((part, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1 bg-cyan-950 border border-cyan-700 rounded-lg text-xs font-mono text-cyan-200 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-950 border border-gold-700 rounded-lg text-xs font-mono text-gold-200 flex items-center gap-1.5"
                     >
                       <span>{part}</span>
                       <button
@@ -2549,7 +2549,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Assembled Code
                 </motion.button>
@@ -2561,10 +2561,10 @@ export function C10_ComputerScienceJavaMathClassSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/50 border border-indigo-700/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gold-950/50 border border-gold-700/60 rounded-2xl space-y-3"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                  <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                     Step-by-Step Technical Breakdown
                   </span>
                   <span className="text-xs text-slate-400 font-mono">
@@ -2582,9 +2582,9 @@ export function C10_ComputerScienceJavaMathClassSim({
                         key={sIdx}
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
-                        className="text-xs md:text-sm text-indigo-200 leading-relaxed flex items-start gap-2"
+                        className="text-xs md:text-sm text-gold-200 leading-relaxed flex items-start gap-2"
                       >
-                        <span className="w-5 h-5 rounded-full bg-indigo-900 border border-indigo-700 flex items-center justify-center font-bold text-[11px] text-cyan-300 flex-shrink-0 mt-0.5">
+                        <span className="w-5 h-5 rounded-full bg-gold-900 border border-gold-700 flex items-center justify-center font-bold text-[11px] text-gold-300 flex-shrink-0 mt-0.5">
                           {sIdx + 1}
                         </span>
                         <span>{sentence}{!sentence.endsWith('.') && '.'}</span>
@@ -2592,13 +2592,13 @@ export function C10_ComputerScienceJavaMathClassSim({
                     ))}
                 </div>
 
-                <div className="pt-3 flex justify-between items-center border-t border-indigo-800/50">
+                <div className="pt-3 flex justify-between items-center border-t border-gold-800/50">
                   {revealedSteps < challenge.explanation.split('. ').filter(Boolean).length - 1 ? (
                     <motion.button
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-1.5 bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 text-white rounded-xl text-xs font-bold"
                     >
                       Next Step Breakdown →
                     </motion.button>
@@ -2624,7 +2624,7 @@ export function C10_ComputerScienceJavaMathClassSim({
       {/* ─── PHASE 5: COMPLETE (Mastery Analytics, Reflection Section & Real World Project) ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/50 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/50 text-center space-y-4 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
             <div className="flex justify-center gap-6 font-mono text-sm">
@@ -2634,11 +2634,11 @@ export function C10_ComputerScienceJavaMathClassSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
                 <span className="text-slate-400 text-xs block">BKT Mastery Level</span>
-                <span className="text-cyan-400 font-bold text-xl capitalize">{masteryLevel}</span>
+                <span className="text-gold-400 font-bold text-xl capitalize">{masteryLevel}</span>
               </div>
             </div>
 
-            <p className="text-sm text-indigo-200 max-w-xl mx-auto">
+            <p className="text-sm text-gold-200 max-w-xl mx-auto">
               {errors === 0
                 ? '🌟 Flawless Mastery! You possess complete proficiency in Java Math, Wrappers, Cyber Ethics, and Web Architectures.'
                 : errors <= 3
@@ -2652,7 +2652,7 @@ export function C10_ComputerScienceJavaMathClassSim({
             <div className="flex items-center gap-2">
               <span className="text-xl">🤔</span>
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Metacognition & Synthesis</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Metacognition & Synthesis</span>
                 <h3 className="text-lg font-bold text-white">Post-Simulation Reflection</h3>
               </div>
             </div>
@@ -2660,40 +2660,40 @@ export function C10_ComputerScienceJavaMathClassSim({
             <div className="space-y-4">
               {/* Question 1 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-sm font-bold text-indigo-300 block">
+                <label className="text-sm font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g., How Math.random() strictly excludes 1.0, or why parseInt throws an exception on decimal strings..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-cyan-500 h-20 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 h-20 resize-none"
                 />
               </div>
 
               {/* Question 2 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-sm font-bold text-indigo-300 block">
+                <label className="text-sm font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="e.g., Explain public key encryption as an open padlock anyone can snap shut, but only the owner has the secret key to open..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-cyan-500 h-20 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 h-20 resize-none"
                 />
               </div>
 
               {/* Question 3 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-sm font-bold text-indigo-300 block">
+                <label className="text-sm font-bold text-gold-300 block">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="e.g., Engineering secure online payment gateways (like UPI/HTTPS) or designing school exhibition web portals..."
-                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-cyan-500 h-20 resize-none"
+                  className="w-full p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 h-20 resize-none"
                 />
               </div>
 
@@ -2708,7 +2708,7 @@ export function C10_ComputerScienceJavaMathClassSim({
                     speechManager.speak('Reflections recorded! Excellent conceptual synthesis.');
                   }}
                   className={`px-5 py-2 rounded-xl text-xs font-bold transition-all ${
-                    reflectionsSaved ? 'bg-emerald-600 text-white' : 'bg-cyan-600 text-white shadow-lg'
+                    reflectionsSaved ? 'bg-emerald-600 text-white' : 'bg-gold-600 text-white shadow-lg'
                   }`}
                 >
                   {reflectionsSaved ? '✓ Reflections Saved' : 'Save Reflections'}
@@ -2739,23 +2739,23 @@ export function C10_ComputerScienceJavaMathClassSim({
           )}
 
           {/* ─── SPACED REPETITION VISIBILITY CARD (SM-2 VISIBLE TO STUDENT) ─── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-500/30 flex flex-wrap items-center justify-between gap-4 bg-gradient-to-r from-indigo-950/40 to-slate-900 shadow-xl">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-500/30 flex flex-wrap items-center justify-between gap-4 bg-gradient-to-r from-gold-950/40 to-slate-900 shadow-xl">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Spaced Repetition Schedule (SM-2)</span>
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Spaced Repetition Schedule (SM-2)</span>
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800">
                   SRS Memory Optimization
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                <span>📅</span> Recommended Review Schedule: <span className="text-cyan-400 font-extrabold">{errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}</span>
+                <span>📅</span> Recommended Review Schedule: <span className="text-gold-400 font-extrabold">{errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}</span>
               </h3>
               <p className="text-xs text-slate-400">
                 Performance: <span className="text-slate-200 font-semibold">{errors} error{errors === 1 ? '' : 's'} recorded</span>. Spaced repetition maintains long-term ICSE exam readiness.
               </p>
             </div>
             <div className="flex flex-col items-end gap-1">
-              <span className="text-xs font-mono px-3.5 py-1.5 bg-cyan-950 text-cyan-300 rounded-xl border border-cyan-700 font-bold shadow">
+              <span className="text-xs font-mono px-3.5 py-1.5 bg-gold-950 text-gold-300 rounded-xl border border-gold-700 font-bold shadow">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </span>
               <span className="text-[10px] text-slate-500 font-medium">SM-2 Algorithm Synchronized</span>
@@ -2764,13 +2764,13 @@ export function C10_ComputerScienceJavaMathClassSim({
 
           {/* Real-World Culminating Activity */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">Culminating Project</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Culminating Project</span>
             <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="w-5 h-5 rounded-full bg-cyan-950 text-cyan-400 flex items-center justify-center text-[10px] font-bold flex-shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-gold-950 text-gold-400 flex items-center justify-center text-[10px] font-bold flex-shrink-0">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

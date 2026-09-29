@@ -1199,17 +1199,17 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800 mb-6"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner" aria-label="Math icon">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner" aria-label="Math icon">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest font-bold px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-300 border border-indigo-700/40">
+              <span className="text-xs uppercase tracking-widest font-bold px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 border border-gold-700/40">
                 ISC Class 12
               </span>
               <span className="text-xs text-slate-400">10 Syllabus Nodes</span>
             </div>
-            <h1 className="text-xl sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-sky-300 to-emerald-300">
+            <h1 className="text-xl sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-200 via-gold-300 to-emerald-300">
               {title}
             </h1>
           </div>
@@ -1222,7 +1222,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
               key={p}
               className={`text-xs px-3 py-1 rounded-xl font-semibold capitalize transition-colors ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400'
               }`}
             >
@@ -1236,9 +1236,9 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/60 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="text-xs font-black uppercase tracking-widest text-indigo-400 mb-1 block">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/60 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="text-xs font-black uppercase tracking-widest text-gold-400 mb-1 block">
               Mission Case Scenario
             </span>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
@@ -1269,11 +1269,11 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/60 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/70 hover:bg-slate-800 border-slate-700/60 text-slate-200 hover:border-indigo-500/50'
+                      : 'bg-slate-800/70 hover:bg-slate-800 border-slate-700/60 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
                   <div className="flex items-start">
-                    <span className="inline-block w-6 h-6 rounded-full bg-slate-950 text-center leading-6 text-xs mr-2 font-bold text-indigo-300">
+                    <span className="inline-block w-6 h-6 rounded-full bg-slate-950 text-center leading-6 text-xs mr-2 font-bold text-gold-300">
                       {String.fromCharCode(65 + i)}
                     </span>
                     <span>{opt}</span>
@@ -1303,7 +1303,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white rounded-2xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-2xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1329,7 +1329,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                 onClick={() => setCurrentSlide(idx)}
                 className={`px-3.5 py-2 rounded-2xl text-xs font-bold border transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1347,7 +1347,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 shadow-xl space-y-6"
             >
               <div>
-                <span className="text-xs uppercase tracking-widest font-black text-indigo-400">
+                <span className="text-xs uppercase tracking-widest font-black text-gold-400">
                   Laboratory 0{currentSlide + 1}
                 </span>
                 <h3 className="text-xl font-black text-white mt-1">
@@ -1419,7 +1419,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                         max={70}
                         value={shareM1}
                         onChange={(e) => handleShareM1Change(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1443,7 +1443,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
 
                     {/* Formula breakdown */}
                     <div className="p-3 bg-slate-950 rounded-lg text-xs font-mono text-slate-300 space-y-1">
-                      <p className="text-indigo-400 font-bold">P(A) = ∑ P(Bi)·P(A|Bi)</p>
+                      <p className="text-gold-400 font-bold">P(A) = ∑ P(Bi)·P(A|Bi)</p>
                       <p>M1: {(shareM1/100).toFixed(2)} × {(rateM1/100).toFixed(3)} = {(shareM1 * rateM1 / 10000).toFixed(4)}</p>
                       <p>M2: {(shareM2/100).toFixed(2)} × {(rateM2/100).toFixed(3)} = {(shareM2 * rateM2 / 10000).toFixed(4)}</p>
                       <p>M3: {(shareM3/100).toFixed(2)} × {(rateM3/100).toFixed(3)} = {(shareM3 * rateM3 / 10000).toFixed(4)}</p>
@@ -1502,8 +1502,8 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
 
                   {/* Predict then check */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-3">
-                      <h4 className="text-sm font-bold text-indigo-300">{PREDICTION_QUESTIONS[0].question}</h4>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-3">
+                      <h4 className="text-sm font-bold text-gold-300">{PREDICTION_QUESTIONS[0].question}</h4>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1512,7 +1512,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 text-left rounded-xl bg-slate-900 hover:bg-slate-800 text-xs text-slate-200 border border-slate-800 hover:border-indigo-500"
+                            className="p-3 text-left rounded-xl bg-slate-900 hover:bg-slate-800 text-xs text-slate-200 border border-slate-800 hover:border-gold-500"
                           >
                             {opt}
                           </motion.button>
@@ -1527,28 +1527,28 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
 
                   {/* Posterior Breakdown Gauges */}
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <div className="p-4 bg-slate-900 rounded-2xl border border-indigo-700/40 text-center space-y-2">
-                      <span className="text-xs font-bold text-indigo-300 uppercase">P(M1 | Defective)</span>
-                      <div className="text-2xl font-black text-indigo-400">
+                    <div className="p-4 bg-slate-900 rounded-2xl border border-gold-700/40 text-center space-y-2">
+                      <span className="text-xs font-bold text-gold-300 uppercase">P(M1 | Defective)</span>
+                      <div className="text-2xl font-black text-gold-400">
                         {bayesPosteriors.postM1.toFixed(1)}%
                       </div>
                       <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-indigo-500 rounded-full"
+                          className="h-full bg-gold-500 rounded-full"
                           animate={{ width: `${bayesPosteriors.postM1}%` }}
                         />
                       </div>
                       <span className="text-[11px] text-slate-400 block">Prior: {shareM1}%</span>
                     </div>
 
-                    <div className="p-4 bg-slate-900 rounded-2xl border border-sky-700/40 text-center space-y-2">
-                      <span className="text-xs font-bold text-sky-300 uppercase">P(M2 | Defective)</span>
-                      <div className="text-2xl font-black text-sky-400">
+                    <div className="p-4 bg-slate-900 rounded-2xl border border-gold-700/40 text-center space-y-2">
+                      <span className="text-xs font-bold text-gold-300 uppercase">P(M2 | Defective)</span>
+                      <div className="text-2xl font-black text-gold-400">
                         {bayesPosteriors.postM2.toFixed(1)}%
                       </div>
                       <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-sky-500 rounded-full"
+                          className="h-full bg-gold-500 rounded-full"
                           animate={{ width: `${bayesPosteriors.postM2}%` }}
                         />
                       </div>
@@ -1622,7 +1622,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                           className="absolute -top-10 left-[10%] -translate-x-1/2 flex flex-col items-center"
                         >
                           <div
-                            className="bg-indigo-500 rounded-xl flex items-center justify-center font-bold text-xs text-white shadow-lg transition-all"
+                            className="bg-gold-500 rounded-xl flex items-center justify-center font-bold text-xs text-white shadow-lg transition-all"
                             style={{ width: `${Math.max(24, probX0 * 80)}px`, height: `${Math.max(24, probX0 * 80)}px` }}
                           >
                             X=0
@@ -1635,7 +1635,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                           className="absolute -top-10 left-[50%] -translate-x-1/2 flex flex-col items-center"
                         >
                           <div
-                            className="bg-sky-500 rounded-xl flex items-center justify-center font-bold text-xs text-white shadow-lg transition-all"
+                            className="bg-gold-500 rounded-xl flex items-center justify-center font-bold text-xs text-white shadow-lg transition-all"
                             style={{ width: `${Math.max(24, probX1 * 80)}px`, height: `${Math.max(24, probX1 * 80)}px` }}
                           >
                             X=1
@@ -1676,7 +1676,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                         step={0.05}
                         value={probX0}
                         onChange={(e) => setProbX0(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1690,7 +1690,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                         step={0.05}
                         value={probX1}
                         onChange={(e) => setProbX1(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1781,7 +1781,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                         <div className="text-xs font-mono text-slate-400 space-y-1">
                           <p>Point c: <span className="text-white font-bold">{mvtC.toFixed(2)}</span></p>
                           <p>Secant Chord Slope: <span className="text-amber-400 font-bold">{mvtSecantSlope.toFixed(2)}</span></p>
-                          <p>Tangent Slope f'(c): <span className="text-indigo-400 font-bold">{mvtTangentSlope.toFixed(2)}</span></p>
+                          <p>Tangent Slope f'(c): <span className="text-gold-400 font-bold">{mvtTangentSlope.toFixed(2)}</span></p>
                         </div>
                       </div>
 
@@ -1814,13 +1814,13 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                     </div>
 
                     <div className="lg:col-span-6 space-y-4">
-                      <div className="p-4 bg-slate-900 rounded-2xl border border-indigo-700/50 space-y-2">
-                        <span className="text-xs font-black uppercase text-indigo-300">The BAC-CAB Identity</span>
-                        <div className="p-3 bg-slate-950 rounded-xl font-mono text-sm text-sky-300 font-bold border border-slate-800">
+                      <div className="p-4 bg-slate-900 rounded-2xl border border-gold-700/50 space-y-2">
+                        <span className="text-xs font-black uppercase text-gold-300">The BAC-CAB Identity</span>
+                        <div className="p-3 bg-slate-950 rounded-xl font-mono text-sm text-gold-300 font-bold border border-slate-800">
                           a × (b × c) = b(a · c) - c(a · b)
                         </div>
                         <p className="text-xs text-slate-400 leading-relaxed">
-                          Notice that the right side contains ONLY vectors <span className="text-emerald-300 font-bold">b</span> and <span className="text-sky-300 font-bold">c</span> scaled by scalar dot products. Thus, the resulting double cross product is strictly trapped in the plane spanned by b and c!
+                          Notice that the right side contains ONLY vectors <span className="text-emerald-300 font-bold">b</span> and <span className="text-gold-300 font-bold">c</span> scaled by scalar dot products. Thus, the resulting double cross product is strictly trapped in the plane spanned by b and c!
                         </p>
                       </div>
 
@@ -1856,7 +1856,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1893,7 +1893,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-2xl text-xs font-black shadow-lg shadow-emerald-600/30"
+                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-2xl text-xs font-black shadow-lg shadow-emerald-600/30"
               >
                 Ready for Verification Challenges! →
               </motion.button>
@@ -1904,7 +1904,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="sandbox-m1-share" className="text-xs font-bold text-indigo-300 block">Machine 1 Settings</label>
+                <label htmlFor="sandbox-m1-share" className="text-xs font-bold text-gold-300 block">Machine 1 Settings</label>
                 <input
                   id="sandbox-m1-share"
                   type="range"
@@ -1913,12 +1913,12 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   max={60}
                   value={shareM1}
                   onChange={(e) => handleShareM1Change(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <span className="text-xs text-slate-400 block">Share: {shareM1}% | Defect: {rateM1}%</span>
               </div>
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="sandbox-m2-rate" className="text-xs font-bold text-sky-300 block">Machine 2 Settings</label>
+                <label htmlFor="sandbox-m2-rate" className="text-xs font-bold text-gold-300 block">Machine 2 Settings</label>
                 <input
                   id="sandbox-m2-rate"
                   type="range"
@@ -1928,7 +1928,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   step={0.5}
                   value={rateM2}
                   onChange={(e) => setRateM2(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
                 <span className="text-xs text-slate-400 block">Share: {shareM2}% | Defect: {rateM2}%</span>
               </div>
@@ -1956,11 +1956,11 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
               </div>
               <div>
                 <span className="text-xs text-slate-500">Bayes P(M1 | Defect)</span>
-                <p className="text-lg font-black text-indigo-400">{bayesPosteriors.postM1.toFixed(1)}%</p>
+                <p className="text-lg font-black text-gold-400">{bayesPosteriors.postM1.toFixed(1)}%</p>
               </div>
               <div>
                 <span className="text-xs text-slate-500">Bayes P(M2 | Defect)</span>
-                <p className="text-lg font-black text-sky-400">{bayesPosteriors.postM2.toFixed(1)}%</p>
+                <p className="text-lg font-black text-gold-400">{bayesPosteriors.postM2.toFixed(1)}%</p>
               </div>
               <div>
                 <span className="text-xs text-slate-500">Bayes P(M3 | Defect)</span>
@@ -1990,12 +1990,12 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                       ? 'bg-emerald-950 text-emerald-300 border border-emerald-700/50'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-300 border border-rose-700/50'
-                      : 'bg-sky-950 text-sky-300 border border-sky-700/50'
+                      : 'bg-gold-950 text-gold-300 border border-gold-700/50'
                   }`}
                 >
                   {difficulty} tier
                 </motion.span>
-                <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-slate-800 text-indigo-300 border border-slate-700">
+                <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-slate-800 text-gold-300 border border-slate-700">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2005,7 +2005,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
             {/* Live Progress Ring / Percentage */}
             <div className="w-32 bg-slate-800 h-2 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2035,11 +2035,11 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/50'
                         : showExplanation && !isThisCorrect
                         ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-50'
-                        : 'bg-slate-900 hover:bg-slate-800 border-slate-800 text-slate-200 hover:border-indigo-500/60 shadow'
+                        : 'bg-slate-900 hover:bg-slate-800 border-slate-800 text-slate-200 hover:border-gold-500/60 shadow'
                     }`}
                   >
                     <div className="flex items-start">
-                      <span className="inline-block w-6 h-6 rounded-full bg-slate-950 text-center leading-6 text-xs mr-2 font-bold text-indigo-300">
+                      <span className="inline-block w-6 h-6 rounded-full bg-slate-950 text-center leading-6 text-xs mr-2 font-bold text-gold-300">
                         {String.fromCharCode(65 + i)}
                       </span>
                       <span>{opt}</span>
@@ -2070,7 +2070,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-white text-xs font-bold cursor-grab shadow"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-white text-xs font-bold cursor-grab shadow"
                   >
                     {item.label}
                   </motion.div>
@@ -2084,7 +2084,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                     key={targetId}
                     onDragOver={(e) => e.preventDefault()}
                     onDrop={() => handleDragDrop(targetId)}
-                    className="p-6 bg-slate-950 rounded-2xl border-2 border-dashed border-slate-700 hover:border-indigo-500 text-center flex flex-col justify-center items-center min-h-[100px]"
+                    className="p-6 bg-slate-950 rounded-2xl border-2 border-dashed border-slate-700 hover:border-gold-500 text-center flex flex-col justify-center items-center min-h-[100px]"
                     aria-label={`Drop target for X = ${idx} Heads`}
                   >
                     <span className="text-xs font-mono text-slate-500 mb-1">Slot for X = {idx} Heads</span>
@@ -2101,7 +2101,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleAnswer(droppedLabels)}
                 disabled={Object.keys(droppedLabels).length < 3 || showExplanation}
-                className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
               >
                 Validate Labels
               </motion.button>
@@ -2132,7 +2132,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-950 rounded-xl text-xs text-slate-200 border border-slate-800 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-900/80 text-indigo-300 font-bold text-center leading-5 text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-gold-900/80 text-gold-300 font-bold text-center leading-5 text-[10px]">
                       {displayIdx + 1}
                     </span>
                     {item}
@@ -2149,7 +2149,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   handleAnswer(ans);
                 }}
                 disabled={showExplanation}
-                className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
               >
                 Verify Sequence
               </motion.button>
@@ -2167,7 +2167,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter computed value"
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-64"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-64"
                 />
                 <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                 <motion.button
@@ -2176,7 +2176,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={!numericInput || showExplanation}
-                  className="px-6 py-3 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-6 py-3 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Submit Value
                 </motion.button>
@@ -2196,7 +2196,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setConstructParts(prev => [...prev, part])}
-                    className="px-3 py-1.5 bg-indigo-900/70 hover:bg-indigo-800 border border-indigo-700/50 rounded-xl text-xs text-indigo-200"
+                    className="px-3 py-1.5 bg-gold-900/70 hover:bg-gold-800 border border-gold-700/50 rounded-xl text-xs text-gold-200"
                   >
                     + {part}
                   </motion.button>
@@ -2208,7 +2208,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                 {constructParts.map((part, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700/60 rounded-lg text-xs font-mono flex items-center gap-1.5"
+                    className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-700/60 rounded-lg text-xs font-mono flex items-center gap-1.5"
                   >
                     {part}
                     <button
@@ -2231,7 +2231,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleAnswer(constructParts.join(' '))}
                 disabled={constructParts.length === 0 || showExplanation}
-                className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
               >
                 Verify Construction
               </motion.button>
@@ -2285,7 +2285,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextChallenge}
-                  className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-2xl text-xs font-black shadow-lg shadow-emerald-600/30"
+                  className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-2xl text-xs font-black shadow-lg shadow-emerald-600/30"
                 >
                   {currentChallenge + 1 >= filteredChallenges.length ? 'Finalize Mission Score →' : 'Next Challenge →'}
                 </motion.button>
@@ -2299,22 +2299,22 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Hero Score Badge */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/60 text-center space-y-3 relative overflow-hidden shadow-2xl">
-            <span className="text-xs uppercase tracking-widest font-black text-indigo-400">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/60 text-center space-y-3 relative overflow-hidden shadow-2xl">
+            <span className="text-xs uppercase tracking-widest font-black text-gold-400">
               Assessment Completed
             </span>
             <h2 className="text-3xl sm:text-4xl font-black text-white">ISC Flight Dynamics Mastery Certified</h2>
-            <div className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-sky-400">
+            <div className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-gold-400">
               {Math.max(0, 100 - errors * 5)}%
             </div>
             <p className="text-xs text-slate-400 font-mono">
-              Bayesian Knowledge Tracing Level: <span className="text-indigo-300 font-bold uppercase">{masteryLevel}</span>
+              Bayesian Knowledge Tracing Level: <span className="text-gold-300 font-bold uppercase">{masteryLevel}</span>
             </p>
           </div>
 
           {/* MOTIVATIONAL FEEDBACK SECTION */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-indigo-500/50 text-center space-y-2">
-            <span className="text-xs font-bold uppercase tracking-widest text-indigo-400">Performance Evaluation</span>
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-gold-500/50 text-center space-y-2">
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-400">Performance Evaluation</span>
             <h3 className="text-2xl font-black text-white flex items-center justify-center gap-2">
               <span>{errors === 0 ? '🏆' : errors <= 3 ? '🌟' : errors <= 7 ? '👍' : '💪'}</span>
               <span>{motivationalFeedback}</span>
@@ -2331,9 +2331,9 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
           </div>
 
           {/* SPACED REPETITION (SM-2) SCHEDULE VISIBILITY */}
-          <div className="p-6 bg-indigo-950/40 rounded-3xl border border-indigo-800/50 space-y-3">
+          <div className="p-6 bg-gold-950/40 rounded-3xl border border-gold-800/50 space-y-3">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                 <span>📅</span> Spaced Repetition (SRS) Review Schedule
               </h3>
               <span className="px-3 py-1 bg-amber-500/20 text-amber-300 border border-amber-500/40 rounded-xl text-xs font-bold font-mono">
@@ -2358,7 +2358,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
             <div className="space-y-4 pt-1">
               {/* Question 1 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label htmlFor="reflect-surprising" className="text-xs font-bold text-indigo-300 block">
+                <label htmlFor="reflect-surprising" className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2368,13 +2368,13 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections({ ...reflections, surprising: e.target.value })}
                   placeholder="e.g., How a low-volume machine can dominate the total defect pool under Bayes' theorem..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               {/* Question 2 */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label htmlFor="reflect-explain" className="text-xs font-bold text-sky-300 block">
+                <label htmlFor="reflect-explain" className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2384,7 +2384,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
                   value={reflections.explain}
                   onChange={(e) => setReflections({ ...reflections, explain: e.target.value })}
                   placeholder="e.g., LMVT is like average car speed: at some instant your speedometer must match the average speed..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-sky-500"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2437,7 +2437,7 @@ export function C12_MathematicsTheoremTotalProbabilitySim({
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   {step}
                 </div>
               ))}

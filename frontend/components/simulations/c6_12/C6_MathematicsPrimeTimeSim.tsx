@@ -49,15 +49,15 @@ function C6_MathematicsPrimeTimeSim() {
   const pairs = factorPairs(selected);
 
   const cellStyle = (n: number): string => {
-    if (n === selected) return 'bg-indigo-600 text-white scale-110 shadow-lg ring-2 ring-indigo-300';
+    if (n === selected) return 'bg-gold-600 text-white scale-110 shadow-lg ring-2 ring-gold-300';
     if (showPrimes && isPrime(n)) return 'bg-amber-300 text-amber-900 font-black';
-    if (showMultiples && n % selected === 0 && n >= selected) return 'bg-sky-300 text-sky-900 font-bold';
+    if (showMultiples && n % selected === 0 && n >= selected) return 'bg-gold-300 text-gold-900 font-bold';
     return 'bg-white text-slate-600 hover:bg-slate-100';
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-indigo-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-indigo-700">Prime Time -- the Number Detective Board</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">Prime Time -- the Number Detective Board</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         A <b>prime number</b> can be made by multiplying only 1 and itself -- like 2, 3, 5, 7, 11.
         A <b>composite number</b> has more factors, and every one of them secretly hides a chain of
@@ -65,7 +65,7 @@ function C6_MathematicsPrimeTimeSim() {
       </p>
 
       <div className="grid md:grid-cols-[1fr_260px] gap-4 mt-4">
-        <div className="grid grid-cols-10 gap-1 p-2 rounded-2xl bg-indigo-50 border-2 border-indigo-100">
+        <div className="grid grid-cols-10 gap-1 p-2 rounded-2xl bg-gold-50 border-2 border-gold-100">
           {Array.from({ length: 100 }, (_, i) => i + 1).map((n) => (
             <button
               key={n}
@@ -80,7 +80,7 @@ function C6_MathematicsPrimeTimeSim() {
         </div>
 
         <div className="space-y-3">
-          <div className="p-3 rounded-2xl bg-indigo-600 text-white text-center">
+          <div className="p-3 rounded-2xl bg-gold-600 text-white text-center">
             <div className="text-xs uppercase tracking-widest opacity-80">Selected number</div>
             <div className="text-4xl font-black">{selected}</div>
             <div className="text-xs mt-1">
@@ -89,10 +89,10 @@ function C6_MathematicsPrimeTimeSim() {
           </div>
 
           <div className="flex items-center justify-center gap-2">
-            <button onClick={() => setSelected(Math.max(1, selected - 1))} className="px-3 py-1.5 rounded-xl bg-indigo-100 text-indigo-700 font-black hover:bg-indigo-200 transition-colors">
+            <button onClick={() => setSelected(Math.max(1, selected - 1))} className="px-3 py-1.5 rounded-xl bg-gold-100 text-gold-700 font-black hover:bg-gold-200 transition-colors">
               &lt; prev
             </button>
-            <button onClick={() => setSelected(Math.min(100, selected + 1))} className="px-3 py-1.5 rounded-xl bg-indigo-100 text-indigo-700 font-black hover:bg-indigo-200 transition-colors">
+            <button onClick={() => setSelected(Math.min(100, selected + 1))} className="px-3 py-1.5 rounded-xl bg-gold-100 text-gold-700 font-black hover:bg-gold-200 transition-colors">
               next &gt;
             </button>
           </div>
@@ -126,10 +126,10 @@ function C6_MathematicsPrimeTimeSim() {
           {primes.length > 0 && <div className="text-xs text-emerald-600">Every number has ONE unique prime chain -- this is why primes are the "atoms" of numbers.</div>}
         </div>
         {showPairs && (
-          <div className="p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-            <div className="text-xs font-bold text-sky-700 uppercase tracking-wide">Factor pairs</div>
-            <div className="text-sm font-bold text-sky-800">{pairs.map((p) => p[0] + ' x ' + p[1]).join(',  ')}</div>
-            <div className="text-xs text-sky-600">{pairs.length} pairs -- an odd count means a square number!</div>
+          <div className="p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+            <div className="text-xs font-bold text-gold-700 uppercase tracking-wide">Factor pairs</div>
+            <div className="text-sm font-bold text-gold-800">{pairs.map((p) => p[0] + ' x ' + p[1]).join(',  ')}</div>
+            <div className="text-xs text-gold-600">{pairs.length} pairs -- an odd count means a square number!</div>
           </div>
         )}
       </div>

@@ -11,7 +11,7 @@ export const w_c9_socialscienceforestsocietysim: SimDef = {
     classLevel: 9, subject: 'science', topic: 'Scarcity: The Fundamental Economic Problem',
     chapters: [],
     nodeIds: ['c9_eco_ch1_1', 'c9_eco_ch1_2', 'c9_hist_ch3_1', 'c9_hist_ch1_1', 'c9_hist_ch1_10', 'c9_hist_ch1_2', 'c9_hist_ch1_3', 'c9_hist_ch1_5'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 student named Rohan who has ₹500 pocket money for the week but wants to buy a new cricket.', goal: 'Master Scarcity: The Fundamental Economic Problem.' },
     discovery: {
         question: 'A farmer in Punjab has 10 hectares of land. He can grow either wheat (yield 5 tonnes/hectare, price ₹2200/tonne) or rice (yield 4 tonnes/hectare, price.',
@@ -20,7 +20,7 @@ export const w_c9_socialscienceforestsocietysim: SimDef = {
         hook: 'Students believe scarcity is the same as "shortage" or "poverty".',
     },
     teaching: [
-        { title: 'Scarcity is the fundamental economic problem.', text: 'Scarcity is the fundamental economic problem arising because human wants are unlimited while the resources (land, labour, capital, entrepreneurship) available to satisfy them are limited in supply.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Scarcity is the fundamental economic problem.', text: 'Scarcity is the fundamental economic problem arising because human wants are unlimited while the resources (land, labour, capital, entrepreneurship) available to satisfy them are limited in supply.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_eco_ch1_1', title: 'Scarcity is the fundamental economic.',

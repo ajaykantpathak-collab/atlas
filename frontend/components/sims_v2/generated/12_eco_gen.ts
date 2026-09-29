@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C12_ECO_GEN: SimDef[] = [
  {
   "id": "gen_c12_eco_ch01",
-  "title": "Scarcity",
+  "title": "Scarcity Is The Fundamental Economic Condition",
   "subtitle": "Economics · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "economics",
-  "topic": "Scarcity",
+  "topic": "Scarcity Is The Fundamental Economic Condition",
   "chapters": [
-   "Economics Ch1: Scarcity"
+   "Economics Ch1: Scarcity Is The Fundamental Economic Condition"
   ],
   "nodeIds": [
    "c12_eco_cbse_01_001",
@@ -37,7 +37,7 @@ export const C12_ECO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Scarcity directly with your eyes?",
+   "question": "Can you see Scarcity Is The Fundamental directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -48,7 +48,7 @@ export const C12_ECO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Scarcity",
+    "title": "Scarcity Is The Fundamental Economic",
     "text": "Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals, firms, government) to make choices involving trade-offs; each choice incurs an",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
@@ -114,11 +114,11 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Define scarcity in economics. How does it differ from a shortage?",
     "answer": "Scarcity is a permanent, universal condition where resources are insufficient to satisfy all human wants",
     "options": [
-     "An economic agent is any individual or institution that takes economic decisions (what to produce, how much to consume, how much to tax/spend)",
-     "The three central problems are: (1) What to produce — concerns allocation of land and capital among alternative goods; (2) How to produce — concerns choice of technique, i",
+     "The student can define opportunity cost in their own words, calculate it from a PPF schedule (table) or graph using the ratio of change in output of the good given up to change in",
+     "Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals",
      "Scarcity is a permanent, universal condition where resources are insufficient to satisfy all human wants"
     ],
-    "hint": "Straight from the 'Scarcity' slide -- match the key terms.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"scarcity means shortage\") reveals confusion between a fundamental economic problem and a market disequilibrium — the student has not grasped that scarcity exists even in well-supplied markets.",
     "id": "gen_c12_eco_ch01_q1",
     "nodeId": "c12_eco_cbse_01_001",
@@ -280,8 +280,8 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Define Marginal Rate of Transformation (MRT) and state its geometric interpretation on the PPF.",
     "answer": "MRT is the quantity of one good that must be given up to produce one more unit of another good, holding resources and technology constant",
     "options": [
+     "Opportunity cost is the value of the next best alternative forgone when a choice is made; on a Production Possibility Frontier (PPF)",
      "A point on the PPF represents a combination of two goods that is productively efficient — the economy is using all its available resources fully and with the best available",
-     "Opportunity cost on a PPF is the amount of the good on the vertical axis that must be given up to produce one more unit of the good on the horizontal axis (or vice versa)",
      "MRT is the quantity of one good that must be given up to produce one more unit of another good, holding resources and technology constant"
     ],
     "hint": "Straight from the 'Marginal Rate of Transformation' slide -- match the key terms.",
@@ -301,7 +301,7 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Define microeconomics and macroeconomics in one sentence each, as per the NCERT textbook.",
     "answer": "Microeconomics is the study of individual economic agents (consumers, producers) and their interactions in specific markets, focusing on price and quantity determination",
     "options": [
-     "An economic agent is any individual or institution that takes economic decisions (what to produce, how much to consume, how much to tax/spend)",
+     "Students believe scarcity only applies to \"poor\" people or countries — \"rich people don't face scarcity",
      "MRT is the quantity of one good that must be given up to produce one more unit of another good, holding resources and technology constant",
      "Microeconomics is the study of individual economic agents (consumers, producers) and their interactions in specific markets, focusing on price and quantity determination"
     ],
@@ -318,16 +318,47 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Classify the following statement as positive or normative: \"India's fiscal deficit for 2023-24 was 5.8% of GDP.\"",
-    "answer": "Positive. It states a measurable fact about a past macroeconomic variable that can be verified from the Union Budget documents or CGA data",
-    "options": [
-     "The statement is false. While macroeconomics has microfoundations, NCERT highlights two reasons for a separate discipline: (1) Aggregation simplification",
-     "The statement is generally true in a static efficiency sense: points inside indicate productive inefficiency — resources are either unemployed or misallocated",
-     "Positive. It states a measurable fact about a past macroeconomic variable that can be verified from the Union Budget documents or CGA data"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why a statement like \"India's",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "classify any given economic statement",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "identify when a policy debate mixes both",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Positive economics deals with' slide -- match the key terms.",
-    "misconception": "Wrong answer reveals: If a student says \"normative\" because they think deficits are \"bad,\" they confuse a factual magnitude with a value judgment.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) classify any given economic statement as positive or normative with justification, (2) explain why",
     "id": "gen_c12_eco_ch01_q7",
     "nodeId": "c12_eco_cbse_01_007",
     "difficulty": "advanced",
@@ -343,8 +374,8 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Define 'economic agent' in the macroeconomic sense and name the three primary domestic agents identified in the NCERT framework.",
     "answer": "An economic agent is any individual or institution that takes economic decisions (what to produce, how much to consume, how much to tax/spend)",
     "options": [
-     "The three central problems are: (1) What to produce — concerns allocation of land and capital among alternative goods; (2) How to produce — concerns choice of technique, i",
-     "Scarcity is a permanent, universal condition where resources are insufficient to satisfy all human wants",
+     "Microeconomics is the study of individual economic agents (consumers, producers) and their interactions in specific markets, focusing on price and quantity determination",
+     "The student can clearly distinguish between microeconomic and macroeconomic questions, correctly classify any given economic variable or news item as micro or macro",
      "An economic agent is any individual or institution that takes economic decisions (what to produce, how much to consume, how much to tax/spend)"
     ],
     "hint": "Straight from the 'Economic agents' slide -- match the key terms.",
@@ -497,6 +528,52 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the four factor payments and match",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain why real flow and money flow",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "draw and label a two-sector circular flow",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) draw and label a two-sector circular flow diagram showing both real and money flows",
+    "id": "gen_c12_eco_ch01_q11",
+    "nodeId": "c12_eco_cbse_01_009",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "\"Opportunity cost is the money you spend on a choice.\" Explain why this statement is incorrect using the concept of implicit costs.",
     "answer": "Opportunity cost includes both explicit (monetary) and implicit (non-monetary) costs — e.g",
@@ -505,9 +582,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "False. Opportunity cost exists whenever a choice involves a trade-off. Inside the PPF, resources are unemployed",
      "Opportunity cost includes both explicit (monetary) and implicit (non-monetary) costs — e.g"
     ],
-    "hint": "Straight from the 'Scarcity' slide -- match the key terms.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student equates cost only with out-of-pocket expenditure, ignoring the value of the next best alternative — a critical error for PPF and comparative advantage problems.",
-    "id": "gen_c12_eco_ch01_q11",
+    "id": "gen_c12_eco_ch01_q12",
     "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    },
@@ -520,9 +597,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "The statement is false. While macroeconomics has microfoundations, NCERT highlights two reasons for a separate discipline: (1) Aggregation simplification",
      "Current usage: A=20 → 40 machine-hrs, 20 labour-hrs; B=10 → 10 machine-hrs, 20 labour-hrs. Total used: 50 machine-hrs, 40 labour-hrs"
     ],
-    "hint": "Straight from the 'Scarcity' slide -- match the key terms.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"5 units of B\" without checking slack) reveals failure to verify binding constraints — a common error in linear programming and PPF questions.",
-    "id": "gen_c12_eco_ch01_q12",
+    "id": "gen_c12_eco_ch01_q13",
     "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    },
@@ -535,9 +612,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "Microeconomic decision-makers are households (maximising utility) and firms (maximising profit). Macroeconomic decision-makers are the State (Government) and statutory bodies",
      "A household faces a hard budget constraint: spending ≤ income + borrowing; choices are private (consumption vs saving)"
     ],
-    "hint": "Straight from the 'Scarcity' slide -- match the key terms.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"government has no scarcity because it prints money\") ignores that printing money doesn't create real resources — it redistributes purchasing power, causing inflation. This confusion undermines understanding of fiscal policy limits (c12_eco_cbse_01_008, c12_eco_cbse_01_009).",
-    "id": "gen_c12_eco_ch01_q13",
+    "id": "gen_c12_eco_ch01_q14",
     "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    },
@@ -550,80 +627,65 @@ export const C12_ECO_GEN: SimDef[] = [
      "Correct evaluation: The statement is incorrect. Real flows and money flows are equally important and interdependent — they represent the two sides of every transaction",
      "False. The discovery alleviates *one* resource constraint (energy) but scarcity persists: (a) oil is still finite and extraction has opportunity cost (land, labour, capital"
     ],
-    "hint": "Straight from the 'Scarcity' slide -- match the key terms.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
     "misconception": "A wrong answer (\"yes, scarcity solved\") reveals a misunderstanding that scarcity is about *all* resources relative to *all* wants, not a single commodity — and ignores dynamic wants expansion.",
-    "id": "gen_c12_eco_ch01_q14",
+    "id": "gen_c12_eco_ch01_q15",
     "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A village panchayat has 100 hectares of irrigated land. It can allocate the land to either wheat (yield 4 tonnes/hectare, requires 2 labourers/hectare) or cotton (yield 2 tonnes/hectare, requires 5 labourers/hectare).",
-    "answer": "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of cotton. Constraints: \\(x + y = 100\\) (land), \\(2x + 5y \\le 300\\) (labour)",
+    "question": "What common mix-up does this lesson flag about Scarcity?",
+    "answer": "Students believe scarcity only applies to \"poor\" people or countries — \"rich people don't face scarcity",
     "options": [
-     "The statement is generally true in a static efficiency sense: points inside indicate productive inefficiency — resources are either unemployed or misallocated",
-     "Opportunity cost includes both explicit (monetary) and implicit (non-monetary) costs — e.g",
-     "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of cotton. Constraints: \\(x + y = 100\\) (land), \\(2x + 5y \\le 300\\) (labour)"
+     "The student can explain why scarcity is the root cause of all economic problems, distinguish between wants and needs in a resource-constrained context",
+     "Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals",
+     "Students believe scarcity only applies to \"poor\" people or countries — \"rich people don't face scarcity"
     ],
-    "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of cotton. Constraints: \\(x + y = 100\\) (land), \\(2x + 5y \\le 300\\)",
-    "id": "gen_c12_eco_ch01_q15",
-    "nodeId": "c12_eco_cbse_01_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare how a pure market economy, a pure planned economy, and India's mixed economy resolve the \"How to produce\" problem. Give one real Indian example for each.",
-    "answer": "Market economy: Firms choose the cost-minimising technique based on relative factor prices (wage/rental rate)",
-    "options": [
-     "Two flows added in the three-sector model: (1) Taxes flow from households and firms to government — a leakage from the circular flow",
-     "Real flow of factor services goes from households → firms; real flow of goods/services goes from firms → households",
-     "Market economy: Firms choose the cost-minimising technique based on relative factor prices (wage/rental rate)"
-    ],
-    "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
-    "misconception": "A student who says \"India is market so only prices decide\" ignores the role of MGNREGA (labour-intensive by design) or PLI schemes (capital-intensive by incentive).",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe scarcity only applies to \"poor\" people or countries — \"rich people don't face scarcity.",
     "id": "gen_c12_eco_ch01_q16",
-    "nodeId": "c12_eco_cbse_01_002",
+    "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Define the three central problems of an economy and state which scarce resource each problem primarily concerns.",
-    "answer": "The three central problems are: (1) What to produce — concerns allocation of land and capital among alternative goods; (2) How to produce — concerns choice of technique, i",
+    "question": "What is Scarcity? State the definition given in this lesson.",
+    "answer": "Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals",
     "options": [
-     "Microeconomics is the study of individual economic agents (consumers, producers) and their interactions in specific markets, focusing on price and quantity determination",
-     "The four core assumptions are: (1) The economy consists of only two sectors — households and firms",
-     "The three central problems are: (1) What to produce — concerns allocation of land and capital among alternative goods; (2) How to produce — concerns choice of technique, i"
+     "The student can calculate MRT from a given PPF schedule or graph, explain why the PPF is concave to the origin using the concept of increasing opportunity cost",
+     "The student can (1) classify any given economic statement as positive or normative with justification",
+     "Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals"
     ],
-    "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
-    "misconception": "A wrong answer that lists only \"money\" or \"resources\" without linking each problem to specific factors reveals the student has memorised the names but not the underlying factor-income connection.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to",
     "id": "gen_c12_eco_ch01_q17",
-    "nodeId": "c12_eco_cbse_01_002",
+    "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Design a simple production plan for a school canteen that must decide: (a) What snacks to offer (samosas, sandwiches, fruit), (b) How to prepare them (in-house cooking vs outsourcing), (c) For whom (students, staff, or both). List the scarce resources, the decision criteria for each problem, and one trade-off for each.",
-    "answer": "Scarce resources: Kitchen space, cooking staff time, budget (capital), raw materials, serving time",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain why scarcity is the root cause of all economic problems, distinguish between wants and needs in a resource-constrained context",
     "options": [
-     "Steps: (1) Label axes: X = Robots (0-6), Y = Corn (0-100). (2) Plot points A(0,100), B(1,95), C(2,85), D(3,70), E(4,50), F(5,25), G(6,0)",
-     "False. Opportunity cost exists whenever a choice involves a trade-off. Inside the PPF, resources are unemployed",
-     "Scarce resources: Kitchen space, cooking staff time, budget (capital), raw materials, serving time"
+     "Student can explain each of the three central problems with Indian examples, distinguish how a market economy vs a planned economy resolves them",
+     "A point on the PPF represents a combination of two goods that is productively efficient — the economy is using all its available resources fully and with the best available",
+     "The student can explain why scarcity is the root cause of all economic problems, distinguish between wants and needs in a resource-constrained context"
     ],
-    "hint": "Straight from the 'The central problems of an' slide -- match the key terms.",
-    "misconception": "A poor answer lists only \"money\" as resource or ignores trade-offs. Good answer shows each problem involves a distinct choice with opportunity cost.",
+    "hint": "Straight from the 'Scarcity is the fundamental' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain why scarcity is the root cause of all economic problems, distinguish between wants and needs in",
     "id": "gen_c12_eco_ch01_q18",
-    "nodeId": "c12_eco_cbse_01_002",
+    "nodeId": "c12_eco_cbse_01_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about scarcity?",
+    "What surprised you about scarcity is the fundamental economic condition?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Scarcity mastered! 🎯",
+  "successLine": "Scarcity Is The Fundamental mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -769,16 +831,58 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What are the three stages of production according to the Law of Variable Proportions, and what happens to Marginal Product (MP) in each stage?",
-    "answer": "Stage I: MP increases (increasing returns), Stage II: MP decreases but remains positive (diminishing returns), Stage III: MP becomes negative (negative returns)",
-    "options": [
-     "The LRAC curve is the lower envelope of the family of SAC curves — it touches each SAC at exactly one point (the tangency point) and lies on or below every SAC at all output",
-     "Marginal Product (MP) = ΔTP/ΔL, the change in total product from a one-unit change in labour. Average Product (AP) = TP/L, total product divided by units of labour",
-     "Stage I: MP increases (increasing returns), Stage II: MP decreases but remains positive (diminishing returns), Stage III: MP becomes negative (negative returns)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the three stages of production",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "calculate the ranges of variable input",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "explain the economic rationale behind each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "determine the optimal stage of production",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'The Law of Variable Proportions' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., saying MP increases in all stages) reveals confusion between total product and marginal product, or misunderstanding that diminishing returns set in after a point.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify the three stages of production from given TP, MP, and AP data or curves; (2)",
     "id": "gen_c12_eco_ch03_q3",
     "nodeId": "c12_eco_cbse_03_003",
     "difficulty": "advanced",
@@ -1122,6 +1226,361 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why the production function",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between short run and long run",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "identify whether a given real-world scenario",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish between short run and long run in production using the fixity of inputs, (2) explain",
+    "id": "gen_c12_eco_ch03_q11",
+    "nodeId": "c12_eco_cbse_03_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the three stages of production",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "explain why MP crosses AP at its peak using",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "sketch the three curves showing correct",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "compute MP and AP from a given TP schedule",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) compute MP and AP from a given TP schedule, (2) sketch the three curves showing correct",
+    "id": "gen_c12_eco_ch03_q12",
+    "nodeId": "c12_eco_cbse_03_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "derive the long-run",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain the economic intuition behind each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "classify a given production function",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) classify a given production function (including Cobb-Douglas, CES, and polynomial forms) as",
+    "id": "gen_c12_eco_ch03_q13",
+    "nodeId": "c12_eco_cbse_03_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "compute TFC",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain why TFC",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "derive MC from TC and recognize that MC",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) compute TFC, TVC, TC, AFC, AVC, ATC, and MC from a given cost schedule or production function with",
+    "id": "gen_c12_eco_ch03_q14",
+    "nodeId": "c12_eco_cbse_03_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "predict the direction of AC given MC's",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain why MC must cross AC at its minimum",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "draw correctly shaped AC and MC curves",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) draw correctly shaped AC and MC curves showing the intersection at AC's minimum, (2) explain why MC",
+    "id": "gen_c12_eco_ch03_q15",
+    "nodeId": "c12_eco_cbse_03_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "draw and label the LRAC as the envelope",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain why the LRAC",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "identify the output range where each SAC",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "calculate the long-run average cost",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) draw and label the LRAC as the envelope of at least three SAC curves, (2) identify the output range",
+    "id": "gen_c12_eco_ch03_q16",
+    "nodeId": "c12_eco_cbse_03_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why producing where MR > MC or MR <",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "calculate maximum profit using TR and TC",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "verify the second-order condition",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "identify the profit-maximizing output",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) identify the profit-maximizing output from given MR and MC schedules or curves, (2) verify the",
+    "id": "gen_c12_eco_ch03_q17",
+    "nodeId": "c12_eco_cbse_03_010",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A farmer in Punjab uses a tractor (fixed) and hires seasonal labour (variable) to cultivate wheat. In December, he decides to buy a second tractor for the next Rabi season. Explain whether each decision (hiring labour, buying tractor) is a short-run or long-run decision and why.",
     "answer": "Hiring seasonal labour is a short-run decision because labour is a variable input and the tractor (capital) remains fixed",
@@ -1132,114 +1591,8 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
     "misconception": "If a student says both are short run because they happen within a year, they misunderstand that the long run is defined by the ability to vary all inputs, not by a time period.",
-    "id": "gen_c12_eco_ch03_q11",
-    "nodeId": "c12_eco_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A firm's production function is Q = 10L^0.5 K^0.5. In the short run, capital is fixed at K = 16. Calculate the maximum output when the firm employs 25 units of labour. Show the steps.",
-    "answer": "Step 1: Substitute fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0",
-    "options": [
-     "Marginal Cost is the additional cost incurred to produce one more unit of output. Formula: MC = ΔTC/ΔQ (or MC = TCₙ - TCₙ₋₁ for discrete output)",
-     "Sum of exponents = 0.6 + 0.3 = 0.9 < 1, so DRS. The sum of exponents (α+β) in a Cobb-Douglas function Q = AL^α K^β directly indicates returns to scale: α+β > 1 → IRS, = 1 → CRS",
-     "Step 1: In Stage III fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0",
-     "Step 1: Substitute fixed K = 16 into the production function: Q = 10 L^0.5 (16)^0.5. Step 2: (16)^0"
-    ],
-    "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
-    "misconception": "A wrong answer that uses L=25, K=25 (ignoring fixity) shows the student does not grasp the short-run constraint.",
-    "id": "gen_c12_eco_ch03_q12",
-    "nodeId": "c12_eco_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the following two statements and identify which correctly describes the long-run production function. (A) Q = f(L) with K constant. (B) Q = f(L, K) with both L and K variable. Justify your choice using the concept of factor fixity.",
-    "answer": "Statement (B) is correct. The long-run production function has all inputs variable, so output depends on both labour and capital: Q = f(L, K)",
-    "options": [
-     "Law of Variable Proportions: at least one fixed input, variable proportions, short run, three stages",
-     "The production function is a technological relationship showing the maximum output obtainable from given input combinations",
-     "Statement (B) is correct. The long-run production function has all inputs variable, so output depends on both labour and capital: Q = f(L, K)"
-    ],
-    "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Statement (B) is correct. The long-run production function has all inputs variable, so output depends on both labour",
-    "id": "gen_c12_eco_ch03_q13",
-    "nodeId": "c12_eco_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world example of a firm in the Indian context that illustrates the transition from short run to long run. Specify the fixed factor(s) in the short run and how they become variable in the long run.",
-    "answer": "Example: A cloud kitchen in Bengaluru starts with 2 ovens (fixed capital) and 5 chefs (variable labour)",
-    "options": [
-     "TFC is constant because fixed inputs (e.g., factory shed, machinery, insurance premium) are contracted for a period and cannot be varied in the short run",
-     "The firm is mistaken. Stage I is defined by increasing MP, not just increasing TP. Here MP of 6th worker = 6, MP of 7th worker = 3",
-     "Example: A cloud kitchen in Bengaluru starts with 2 ovens (fixed capital) and 5 chefs (variable labour)"
-    ],
-    "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Example: A cloud kitchen in Bengaluru starts with 2 ovens (fixed capital) and 5 chefs (variable labour).",
-    "id": "gen_c12_eco_ch03_q14",
-    "nodeId": "c12_eco_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Define the production function and state the fundamental difference between short run and long run in production theory.",
-    "answer": "The production function is a technological relationship showing the maximum output obtainable from given input combinations",
-    "options": [
-     "IRS causes: (1) Specialization and division of labour become feasible at larger scale (Adam Smith's pin factory); (2) Indivisible inputs (e",
-     "Scenario A is typical: AC falls initially (spreading fixed costs), reaches minimum, then rises (diminishing returns)",
-     "The production function is a technological relationship showing the maximum output obtainable from given input combinations"
-    ],
-    "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"short run is less than one year\" reveals confusion between calendar time and economic time — the distinction is about factor fixity, not a specific duration.",
-    "id": "gen_c12_eco_ch03_q15",
-    "nodeId": "c12_eco_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this claim: \"A startup operating from a co-working space with monthly rental has no fixed factors, so it operates in the long run from day one.\" Is this economically sound? Explain.",
-    "answer": "The claim is flawed. Even with flexible space rental, the startup likely has fixed factors in the short run: specialized equipment, software licenses",
-    "options": [
-     "When MP > AP, the marginal unit adds more than the current average, pulling the average up. When MP < AP, the marginal unit adds less than the current average",
-     "Firm A: TVC = 10(10)+100 = 200 → TC = 400 → ATC = 40. MC = d(TVC)/dQ = 10+2Q = 30. Firm B: TVC = 20(10)+0",
-     "The claim is flawed. Even with flexible space rental, the startup likely has fixed factors in the short run: specialized equipment, software licenses"
-    ],
-    "hint": "Straight from the 'production function shows the' slide -- match the key terms.",
-    "misconception": "A student who agrees overlooks that factor fixity is about all inputs, not just physical space.",
-    "id": "gen_c12_eco_ch03_q16",
-    "nodeId": "c12_eco_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A firm’s TP curve is given by TP = 20L + 6L² - 0.5L³. Derive the MP and AP functions. At what labour level does AP reach its maximum? Verify that MP = AP at that point.",
-    "answer": "MP = d(TP)/dL = 20 + 12L - 1.5L². AP = TP/L = 20 + 6L - 0.5L². Set derivative of AP w.r.t L to zero: d(AP)/dL = 6 - L = 0 → L = 6",
-    "options": [
-     "The statement is false. The firm chooses output where MR = MC (profit maximization), not necessarily at minimum LRAC",
-     "Sum of exponents = 0.6 + 0.3 = 0.9 < 1, so DRS. The sum of exponents (α+β) in a Cobb-Douglas function Q = AL^α K^β directly indicates returns to scale: α+β > 1 → IRS, = 1 → CRS",
-     "MP = d(TP)/dL = 20 + 12L - 1.5L². AP = TP/L = 20 + 6L - 0.5L². Set derivative of AP w.r.t L to zero: d(AP)/dL = 6 - L = 0 → L = 6"
-    ],
-    "hint": "Straight from the 'Total Product' slide -- match the key terms.",
-    "misconception": "A student who sets MP=0 instead of d(AP)/dL=0 finds TP maximum, not AP maximum — a common confusion between maximizing total vs average.",
-    "id": "gen_c12_eco_ch03_q17",
-    "nodeId": "c12_eco_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a hypothetical TP schedule for 5 units of labour that exhibits: (a) increasing MP for first two units, (b) diminishing but positive MP for next two, (c) zero MP at fifth unit. Compute MP and AP, and sketch the three curves qualitatively.",
-    "answer": "Example: L=0 TP=0; L=1 TP=5 (MP=5, AP=5); L=2 TP=14 (MP=9, AP=7); L=3 TP=21 (MP=7, AP=7); L=4 TP=26 (MP=5, AP=6",
-    "options": [
-     "Expected answer criteria: - Correct per-unit variable cost = 0.1×30 + 5 + 0.01×200 = 3+5+2 = ₹10/candle (constant)",
-     "LRAC slopes downward up to 500 (increasing returns), is flat from 500–1000 (constant returns), slopes upward beyond 1000 (decreasing returns)",
-     "Example: L=0 TP=0; L=1 TP=5 (MP=5, AP=5); L=2 TP=14 (MP=9, AP=7); L=3 TP=21 (MP=7, AP=7); L=4 TP=26 (MP=5, AP=6"
-    ],
-    "hint": "Straight from the 'Total Product' slide -- match the key terms.",
-    "misconception": "A poor answer shows MP never crossing AP or TP not flattening when MP=0, indicating misunderstanding of the graphical relationships.",
     "id": "gen_c12_eco_ch03_q18",
-    "nodeId": "c12_eco_cbse_03_002",
+    "nodeId": "c12_eco_cbse_03_001",
     "difficulty": "standard"
    }
   ],
@@ -1249,7 +1602,7 @@ export const C12_ECO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Production Function Shows The mastered! 🎯",
+  "successLine": "Production Function Shows mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1483,14 +1836,14 @@ export const C12_ECO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_eco_ch06",
-  "title": "Monopoly",
+  "title": "Monopoly Is a Market Structure Characterized",
   "subtitle": "Economics · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "economics",
-  "topic": "Monopoly",
+  "topic": "Monopoly Is a Market Structure Characterized",
   "chapters": [
-   "Economics Ch6: Monopoly"
+   "Economics Ch6: Monopoly Is a Market Structure Characterized"
   ],
   "nodeIds": [
    "c12_eco_cbse_06_001",
@@ -1510,7 +1863,7 @@ export const C12_ECO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Monopoly actually explain?",
+   "question": "In one line -- what does Monopoly Is a Market Structure actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1521,7 +1874,7 @@ export const C12_ECO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Monopoly",
+    "title": "Monopoly Is a Market Structure Characterized",
     "text": "Monopoly is a market structure characterized by a single seller (firm) producing a unique product with no close substitutes, where significant barriers to entry prevent other firms from entering the market, giving the monopolist the power to be a price maker",
     "emoji": "📈",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1563,7 +1916,7 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Oligopoly",
+    "title": "Oligopoly Is a Market Structure",
     "text": "Oligopoly is a market structure characterized by a small number of large firms selling either homogeneous or differentiated products, where each firm's decisions on price and output strategically affect rivals, creating mutual interdependence.",
     "emoji": "📈",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1640,16 +1993,47 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define Average Revenue and Marginal Revenue for a monopoly firm. How does the AR curve relate to the market demand curve?",
-    "answer": "Average Revenue (AR) = Total Revenue / Quantity = Price. For a monopoly, the AR curve is identical to the market demand curve because the firm is the sole seller",
-    "options": [
-     "Oligopoly is a market structure with a few large firms, interdependent decision-making, barriers to entry, and homogeneous or differentiated products",
-     "The four key features are: (1) Single seller (firm = industry), (2) No close substitutes for the product, (3) High barriers to entry for new firms",
-     "Average Revenue (AR) = Total Revenue / Quantity = Price. For a monopoly, the AR curve is identical to the market demand curve because the firm is the sole seller"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Derive the MR curve from a given linear AR",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Calculate MR at any quantity using",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Explain why MR < AR for a monopoly using",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'For a monopoly firm, Average' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"AR is not the demand curve\" or \"MR = AR for monopoly\") reveals the student confuses monopoly with perfect competition where AR = MR = P, or does not understand that the firm's average revenue per unit is exactly the price buyers pay.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Derive the MR curve from a given linear AR (demand) function algebraically and graphically,",
     "id": "gen_c12_eco_ch06_q2",
     "nodeId": "c12_eco_cbse_06_002",
     "difficulty": "standard",
@@ -1811,16 +2195,58 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define oligopoly and state the condition that gives rise to the kink in the demand curve under the Sweezy model.",
-    "answer": "Oligopoly is a market structure with a few large firms, interdependent decision-making, barriers to entry, and homogeneous or differentiated products",
-    "options": [
-     "The firm maximizes profit where MR = MC. Because the demand curve is downward sloping, MR < P, so at the MR = MC output, P > MC",
-     "Average Revenue (AR) = Total Revenue / Quantity = Price. For a monopoly, the AR curve is identical to the market demand curve because the firm is the sole seller",
-     "Oligopoly is a market structure with a few large firms, interdependent decision-making, barriers to entry, and homogeneous or differentiated products"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "mathematically derive the MR discontinuity",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "list and explain the four key features",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "draw and label the kinked demand curve",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "explain why price remains rigid when MC",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Oligopoly' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"kink occurs because of government regulation\" or \"rivals match both increases and decreases\") reveals confusion about the behavioral assumption driving the model — the asymmetry in expected reactions is the core of the kinked demand hypothesis.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) list and explain the four key features of oligopoly with Indian examples, (2) draw and label the",
     "id": "gen_c12_eco_ch06_q8",
     "nodeId": "c12_eco_cbse_06_008",
     "difficulty": "advanced",
@@ -1849,6 +2275,109 @@ export const C12_ECO_GEN: SimDef[] = [
      "Then observe how the number of sellers and product similarity affect your bargaining power and the price you pay.",
      "Connect this to the demand curve each firm faces: perfectly elastic (horizontal) for wheat, downward-sloping and steep for the drug, downward-sloping"
     ]
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why the monopolist's demand curve",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify barriers to entry into natural",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "list and explain all four key features",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) list and explain all four key features of monopoly with real-world Indian examples, (2) classify",
+    "id": "gen_c12_eco_ch06_q10",
+    "nodeId": "c12_eco_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "compute profit/loss using TR-TC",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify the profit-maximizing output",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "determine the corresponding price",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "state the shutdown condition",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) identify the profit-maximizing output from given MR and MC schedules or equations, (2) determine",
+    "id": "gen_c12_eco_ch06_q11",
+    "nodeId": "c12_eco_cbse_06_003",
+    "difficulty": "advanced"
    },
    {
     "type": "order",
@@ -1892,7 +2421,53 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that omits any condition — e.g., saying only “market power” — reveals the student does not understand that segmentation and no-arbitrage are equally essential; without them, the price differences would collapse.",
-    "id": "gen_c12_eco_ch06_q10",
+    "id": "gen_c12_eco_ch06_q12",
+    "nodeId": "c12_eco_cbse_06_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish among first",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "state the three necessary conditions",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "solve for profit-maximizing prices",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) distinguish among first-, second-, and third-degree price discrimination with real-world examples,",
+    "id": "gen_c12_eco_ch06_q13",
     "nodeId": "c12_eco_cbse_06_005",
     "difficulty": "advanced"
    },
@@ -1938,9 +2513,66 @@ export const C12_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that calculates only the price effect or ignores the advertising coefficient reveals misunderstanding of selling costs as a demand shifter.",
-    "id": "gen_c12_eco_ch06_q11",
+    "id": "gen_c12_eco_ch06_q14",
     "nodeId": "c12_eco_cbse_06_006",
     "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "determine whether the firm earns supernormal",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain the long-run adjustment process",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "demonstrate graphically",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "derive the short-run equilibrium output",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) derive the short-run equilibrium output and price for a monopolistically competitive firm given",
+    "id": "gen_c12_eco_ch06_q15",
+    "nodeId": "c12_eco_cbse_06_007",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -1951,9 +2583,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "While monopolies create allocative inefficiency (deadweight loss), breaking them up may not always improve welfare",
      "The patent is a legal barrier to entry (government-granted exclusive right). Compulsory licensing after 10 years converts the absolute legal barrier into a time-limited one"
     ],
-    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
+    "hint": "Straight from the 'Monopoly is a market structure' slide -- match the key terms.",
     "misconception": "A wrong answer calling patent a \"natural barrier\" shows misunderstanding that patents are state-created legal monopolies, not arising from technology or scale.",
-    "id": "gen_c12_eco_ch06_q12",
+    "id": "gen_c12_eco_ch06_q16",
     "nodeId": "c12_eco_cbse_06_001",
     "difficulty": "standard"
    },
@@ -1966,9 +2598,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "(i) Oligopoly: few firms (2-10); Monopolistic competition: many firms. (ii) Oligopoly: homogeneous or differentiated; Monopolistic competition: differentiated",
      "The monopolist faces the downward-sloping market demand curve (no close substitutes, so consumers must buy from them or go without)"
     ],
-    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
+    "hint": "Straight from the 'Monopoly is a market structure' slide -- match the key terms.",
     "misconception": "A wrong answer saying both face downward-sloping curves reveals failure to distinguish firm-level vs market-level demand.",
-    "id": "gen_c12_eco_ch06_q13",
+    "id": "gen_c12_eco_ch06_q17",
     "nodeId": "c12_eco_cbse_06_001",
     "difficulty": "standard"
    },
@@ -1981,95 +2613,35 @@ export const C12_ECO_GEN: SimDef[] = [
      "False. Supernormal profit requires P > AC at the MR=MC output. If the monopoly's AC curve lies everywhere above the demand curve (e",
      "Example: Electricity distribution in a city (e.g., BSES in Delhi). High fixed costs (grid infrastructure) and declining LRAC over the entire market demand range make it a natural"
     ],
-    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
+    "hint": "Straight from the 'Monopoly is a market structure' slide -- match the key terms.",
     "misconception": "A poor answer that gives \"Google search\" as an example confuses network effects (strategic barrier) with natural economies of scale.",
-    "id": "gen_c12_eco_ch06_q14",
-    "nodeId": "c12_eco_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Indian Railways is a monopoly because it is the only provider of rail transport in India.\" Consider the presence of substitutes (airlines, buses, trucks) and the concept of \"relevant market\" in your evaluation.",
-    "answer": "The statement is partially correct but economically imprecise. Indian Railways is a monopoly in the \"rail transport\" market (no close substitute *within* rail)",
-    "options": [
-     "The statement is partially correct but incomplete. Price discrimination does transfer consumer surplus to producer surplus, which is a distributional concern",
-     "The monopolist maximizes total profit by allocating output across markets so that the last unit sold in each market adds the same marginal revenue",
-     "The statement is partially correct but economically imprecise. Indian Railways is a monopoly in the \"rail transport\" market (no close substitute *within* rail)"
-    ],
-    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
-    "misconception": "A wrong answer calling it a \"pure monopoly without qualification\" ignores the competitive constraint from other transport modes — a common error in board answers.",
-    "id": "gen_c12_eco_ch06_q15",
-    "nodeId": "c12_eco_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why \"control over essential raw materials\" acts as a barrier to entry in monopoly, using the example of De Beers in the diamond market. Why is this considered a natural barrier?",
-    "answer": "Control over essential raw materials (like De Beers controlling most diamond mines) prevents potential entrants from accessing the key input needed for production",
-    "options": [
-     "True. MR = P(1 - 1/|e|). When demand is inelastic (|e| < 1), 1/|e| > 1, so (1 - 1/|e|) < 0, making MR negative",
-     "The statement is partially correct but economically imprecise. Indian Railways is a monopoly in the \"rail transport\" market (no close substitute *within* rail)",
-     "Control over essential raw materials (like De Beers controlling most diamond mines) prevents potential entrants from accessing the key input needed for production"
-    ],
-    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls it a \"legal barrier\" reveals confusion between natural resource control and government-granted patents/licenses.",
-    "id": "gen_c12_eco_ch06_q16",
-    "nodeId": "c12_eco_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "State the four key features of a monopoly market structure as per NCERT Class 12 Microeconomics.",
-    "answer": "The four key features are: (1) Single seller (firm = industry), (2) No close substitutes for the product, (3) High barriers to entry for new firms",
-    "options": [
-     "Average Revenue (AR) = Total Revenue / Quantity = Price. For a monopoly, the AR curve is identical to the market demand curve because the firm is the sole seller",
-     "Monopolistic competition is a market structure with many firms selling differentiated products that are close substitutes, free entry and exit, and some degree of price control",
-     "The four key features are: (1) Single seller (firm = industry), (2) No close substitutes for the product, (3) High barriers to entry for new firms"
-    ],
-    "hint": "Straight from the 'Monopoly' slide -- match the key terms.",
-    "misconception": "A wrong answer that misses \"no close substitutes\" or \"barriers to entry\" reveals the student confuses monopoly with mere single-seller situations (like a local vegetable vendor who still faces competition from substitutes).",
-    "id": "gen_c12_eco_ch06_q17",
-    "nodeId": "c12_eco_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A monopoly faces the demand curve: P = 100 - 2Q. Calculate the MR function. At what output level does MR become zero? What is the price elasticity of demand at that output?",
-    "answer": "TR = P×Q = (100 - 2Q)Q = 100Q - 2Q². MR = d(TR)/dQ = 100 - 4Q. Set MR = 0 → 100 - 4Q = 0 → Q = 25. At Q = 25, P = 100 - 2(25) = 50",
-    "options": [
-     "False. Supernormal profit requires P > AC at the MR=MC output. If the monopoly's AC curve lies everywhere above the demand curve (e",
-     "Steps: 1. Monopoly: MR = 100 - 2Q. Set MR = MC => 100 - 2Q = 20 => Q_m = 40. Price P_m = 100 - 40 = 60",
-     "TR = P×Q = (100 - 2Q)Q = 100Q - 2Q². MR = d(TR)/dQ = 100 - 4Q. Set MR = 0 → 100 - 4Q = 0 → Q = 25. At Q = 25, P = 100 - 2(25) = 50"
-    ],
-    "hint": "Straight from the 'For a monopoly firm, Average' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., MR = 100 - 2Q, or Q = 50 for MR=0, or elasticity = 0) reveals the student either differentiates incorrectly, confuses AR and MR slopes, or does not know the relationship MR = P(1 - 1/|e|) and that MR = 0 when |e| = 1.",
     "id": "gen_c12_eco_ch06_q18",
-    "nodeId": "c12_eco_cbse_06_002",
+    "nodeId": "c12_eco_cbse_06_001",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about monopoly?",
+    "What surprised you about monopoly is a market structure characterized?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Monopoly mastered! 🎯",
+  "successLine": "Monopoly Is a Market mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eco_ch07",
-  "title": "Macroeconomics",
+  "title": "Macroeconomics Is The Branch Of Economics",
   "subtitle": "Economics · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "economics",
-  "topic": "Macroeconomics",
+  "topic": "Macroeconomics Is The Branch Of Economics",
   "chapters": [
-   "Economics Ch7: Macroeconomics",
-   "Economics Ch10: Macroeconomics",
-   "Economics Ch11: Macroeconomics"
+   "Economics Ch7: Macroeconomics Is The Branch Of Economics",
+   "Economics Ch10: Macroeconomics Is The Branch Of Economics",
+   "Economics Ch11: Macroeconomics Is The Branch Of Economics"
   ],
   "nodeIds": [
    "c12_eco_cbse_07_001",
@@ -2091,7 +2663,7 @@ export const C12_ECO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Macroeconomics suddenly stops working?",
+   "question": "What happens if Macroeconomics Is The Branch Of suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -2102,7 +2674,7 @@ export const C12_ECO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Macroeconomics",
+    "title": "Macroeconomics Is The Branch Of Economics",
     "text": "Macroeconomics is the branch of economics that studies the behaviour and performance of an economy as a whole by focusing on aggregate measures such as total output (GDP), employment, aggregate price level, and economic growth, rather than individual markets",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2138,7 +2710,7 @@ export const C12_ECO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Leakages",
+    "title": "Leakages Are Withdrawals From The Circular",
     "text": "Leakages are withdrawals from the circular flow of income — specifically savings (S), taxes (T), and imports (M) — that reduce the volume of income circulating between households and firms.",
     "emoji": "📈",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2174,11 +2746,11 @@ export const C12_ECO_GEN: SimDef[] = [
     "question": "Define macroeconomics and list three key aggregate variables it studies. How does it differ from microeconomics in its unit of analysis?",
     "answer": "Macroeconomics studies the economy as a whole using aggregates like real GDP, unemployment rate, and inflation rate",
     "options": [
-     "The four core assumptions are: (1) Only two sectors — households and firms — exist; (2) Households spend their entire income on consumption (no savings)",
-     "Microeconomics studies the behaviour of individual economic agents (households, firms) in specific markets to determine prices and quantities",
+     "The student can (1) classify a given economic issue as microeconomic or macroeconomic with justification",
+     "Student can explain the historical emergence of macroeconomics as a distinct field following the Great Depression, identify the core aggregate variables it studies (real GDP",
      "Macroeconomics studies the economy as a whole using aggregates like real GDP, unemployment rate, and inflation rate"
     ],
-    "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Macroeconomics is the branch of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"macroeconomics studies large firms\") reveals confusion between \"aggregate\" and \"large-scale\" — macroeconomics is about *system-wide* outcomes, not firm size.",
     "id": "gen_c12_eco_ch07_q1",
     "nodeId": "c12_eco_cbse_07_001",
@@ -2253,16 +2825,47 @@ export const C12_ECO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define microeconomics and macroeconomics in one sentence each, using the terms \"individual economic agents\" and \"aggregate measures\".",
-    "answer": "Microeconomics studies the behaviour of individual economic agents (households, firms) in specific markets to determine prices and quantities",
-    "options": [
-     "The three phases are: (1) Production phase, (2) Income generation phase, (3) Expenditure phase",
-     "The four core assumptions are: (1) Only two sectors — households and firms — exist; (2) Households spend their entire income on consumption (no savings)",
-     "Microeconomics studies the behaviour of individual economic agents (households, firms) in specific markets to determine prices and quantities"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "list the key macroeconomic aggregates",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain why aggregate outcomes may differ",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "classify a given economic issue",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Microeconomics studies the' slide -- match the key terms.",
-    "misconception": "A wrong answer that swaps the definitions or omits \"individual\" vs \"aggregate\" reveals the student has memorised labels without grasping the unit of analysis.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) classify a given economic issue as microeconomic or macroeconomic with justification, (2) explain",
     "id": "gen_c12_eco_ch07_q3",
     "nodeId": "c12_eco_cbse_07_002",
     "difficulty": "standard",
@@ -2819,6 +3422,52 @@ export const C12_ECO_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "list all standard assumptions",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "identify at least five distinct limitations",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate how relaxing a specific assumption",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) list all standard assumptions for the two-sector, three-sector, and four-sector models and explain why",
+    "id": "gen_c12_eco_ch07_q15",
+    "nodeId": "c12_eco_cbse_07_008",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "\"Paradox of Thrift: If every household tries to save more by cutting consumption, national saving will not rise; it may fall.\" Evaluate this statement using the income-expenditure identity Y = C + I + G + NX and the saving-investment identity S = I + (G − T) + (X − M). Assume a closed economy with no government.",
     "answer": "In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I. If households *plan* to save more (lower C)",
@@ -2827,9 +3476,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand",
      "In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I. If households *plan* to save more (lower C)"
     ],
-    "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Macroeconomics is the branch of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I.",
-    "id": "gen_c12_eco_ch07_q15",
+    "id": "gen_c12_eco_ch07_q16",
     "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2842,9 +3491,9 @@ export const C12_ECO_GEN: SimDef[] = [
      "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower",
      "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand"
     ],
-    "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Macroeconomics is the branch of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A fall in textile exports reduces injections (X↓) into the circular flow.",
-    "id": "gen_c12_eco_ch07_q16",
+    "id": "gen_c12_eco_ch07_q17",
     "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2857,23 +3506,8 @@ export const C12_ECO_GEN: SimDef[] = [
      "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand",
      "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower"
     ],
-    "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
+    "hint": "Straight from the 'Macroeconomics is the branch of' slide -- match the key terms.",
     "misconception": "A student who only describes the car market misses the *general equilibrium* nature of macroeconomics.",
-    "id": "gen_c12_eco_ch07_q17",
-    "nodeId": "c12_eco_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Given India's 2019–21 data: Real GDP (₹ lakh crore): 2019–20: 145.7, 2020–21: 135.1; Unemployment rate (%): 2019–20: 4.8, 2020–21: 9.1; CPI inflation (%): 2019–20: 4.8, 2020–21: 6.",
-    "answer": "(a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and inflation rate are stocks (measured at a point in time)",
-    "options": [
-     "(1) The crude oil import — current account and a debit, because trade in goods records real resources, (2) The NRI deposit in an NRE account",
-     "A good answer will show: Production phase – farms produce crops using land, labour, capital; real flow: crops to market",
-     "(a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and inflation rate are stocks (measured at a point in time)"
-    ],
-    "hint": "Straight from the 'Macroeconomics' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and",
     "id": "gen_c12_eco_ch07_q18",
     "nodeId": "c12_eco_cbse_07_001",
     "difficulty": "standard"
@@ -2881,11 +3515,11 @@ export const C12_ECO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about macroeconomics?",
+    "What surprised you about macroeconomics is the branch of economics?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Macroeconomics mastered! 🎯",
+  "successLine": "Macroeconomics Is The Branch mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

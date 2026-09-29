@@ -1107,7 +1107,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 10 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 shadow-inner"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.span>
@@ -1116,7 +1116,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
               <motion.span
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-800"
+                className="text-xs font-semibold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2.5 py-0.5 rounded-full border border-gold-800"
               >
                 ICSE Class 9 Mathematics
               </motion.span>
@@ -1148,9 +1148,9 @@ function C9_MathematicsSidesTriangleGreaterSim({
           <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/60 shadow-xl"
+            className="p-5 md:p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/60 shadow-xl"
           >
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <motion.span animate={{ rotate: [0, 10, -10, 0] }} transition={{ repeat: Infinity, duration: 4 }}>🌉</motion.span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1158,7 +1158,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-indigo-900/60 text-xs text-indigo-200"
+              className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-gold-900/60 text-xs text-gold-200"
             >
               <strong>Scenario Context:</strong> {SCENARIO.context}
             </motion.div>
@@ -1193,7 +1193,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   }`}
                   aria-label={`Discovery option ${idx + 1}: ${option}`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span> {option}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {option}
                 </motion.button>
               ))}
             </div>
@@ -1218,9 +1218,9 @@ function C9_MathematicsSidesTriangleGreaterSim({
           </motion.div>
 
           {/* ─── BRILLIANT.ORG PREDICT-THEN-CHECK CARDS ─── */}
-          <div className="p-5 bg-indigo-950/30 rounded-2xl border border-indigo-800/50 space-y-4">
+          <div className="p-5 bg-gold-950/30 rounded-2xl border border-gold-800/50 space-y-4">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                 <span>🔮</span> Brilliant.org Prediction Challenge ({predIndex + 1} of {PREDICTION_QUESTIONS.length})
               </h3>
               <span className="text-xs text-slate-400">Predict before testing in labs!</span>
@@ -1245,13 +1245,13 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       : 'bg-slate-900/90 hover:bg-slate-800 border-slate-800 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
 
             {predAnswers[predIndex] !== undefined && (
-              <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-slate-950 rounded-xl border border-indigo-900 text-xs space-y-2">
+              <motion.div initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} className="p-3 bg-slate-950 rounded-xl border border-gold-900 text-xs space-y-2">
                 <div className="text-slate-300">
                   <strong className="text-amber-400">🔬 How to Verify:</strong> {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                 </div>
@@ -1262,7 +1262,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         setPredIndex((p) => p + 1);
                         setShowPredFeedback(false);
                       }}
-                      className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold"
+                      className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold"
                     >
                       Next Prediction Question →
                     </button>
@@ -1279,7 +1279,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToExploration}
-              className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl shadow-lg flex items-center gap-2"
+              className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-semibold rounded-xl shadow-lg flex items-center gap-2"
             >
               Enter Interactive Geometric Labs →
             </motion.button>
@@ -1303,7 +1303,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                 }}
                 className={`px-3.5 py-2 text-xs font-semibold rounded-xl border transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1321,7 +1321,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
               className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <span className="text-xs font-mono text-slate-400 bg-slate-950 px-2.5 py-1 rounded-md border border-slate-800">
                   Node: {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
@@ -1385,7 +1385,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         max={12}
                         value={sideA}
                         onChange={(e) => setSideA(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Side a"
                       />
                     </div>
@@ -1401,7 +1401,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         max={15}
                         value={sideC}
                         onChange={(e) => setSideC(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Base Side c"
                       />
                     </div>
@@ -1416,7 +1416,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         max={170}
                         value={triangleAngle}
                         onChange={(e) => setTriangleAngle(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust vertex angle"
                       />
                     </div>
@@ -1513,7 +1513,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       animate={{ scale: 1 }}
                       className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2"
                     >
-                      <div className="font-semibold text-indigo-300">Pythagorean Metric:</div>
+                      <div className="font-semibold text-gold-300">Pythagorean Metric:</div>
                       <div className="text-slate-300">
                         PX² = PM² + MX² = {perpPM}² + {distMX}² = {perpPM * perpPM + distMX * distMX}
                       </div>
@@ -1582,7 +1582,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         max={330}
                         value={vertexAx}
                         onChange={(e) => setVertexAx(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Apex X"
                       />
                     </div>
@@ -1597,7 +1597,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         max={140}
                         value={vertexAy}
                         onChange={(e) => setVertexAy(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Adjust Apex Height Y"
                       />
                     </div>
@@ -1640,7 +1640,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                         }}
                         className={`px-3 py-1.5 rounded-lg text-xs font-semibold border ${
                           selectedQuadType === item.id
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1786,7 +1786,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       animate={{ scale: 1 }}
                       className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1"
                     >
-                      <div className="font-bold text-indigo-300">Compass Rule:</div>
+                      <div className="font-bold text-gold-300">Compass Rule:</div>
                       <p className="text-slate-300">
                         Side length = Circumradius <em>r</em>. Stepping the fixed compass 6 times yields six 60° central angles (6 × 60° = 360°), forming a regular hexagon.
                       </p>
@@ -1823,7 +1823,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       : 'bg-slate-950 hover:bg-slate-800 border-slate-800 text-slate-300'
                   }`}
                 >
-                  <span className="font-bold mr-1.5 text-indigo-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
+                  <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
                 </button>
               ))}
             </div>
@@ -1837,7 +1837,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       setObsIndex((i) => i + 1);
                       setShowObsFeedback(false);
                     }}
-                    className="ml-2 px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded text-xs font-semibold whitespace-nowrap"
+                    className="ml-2 px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white rounded text-xs font-semibold whitespace-nowrap"
                   >
                     Next Observation →
                   </button>
@@ -1871,7 +1871,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-semibold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold"
               >
                 Next Lab →
               </motion.button>
@@ -1897,7 +1897,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-5 bg-slate-900 rounded-2xl border border-slate-800"
           >
-            <h3 className="text-lg font-bold text-indigo-300">Free Exploration Sandbox (Zero Grading Pressure)</h3>
+            <h3 className="text-lg font-bold text-gold-300">Free Exploration Sandbox (Zero Grading Pressure)</h3>
             <p className="text-xs text-slate-400 mt-1">
               Freely manipulate the Pythagoras visual tile area proof and live angle linkages before starting board challenges.
             </p>
@@ -1954,7 +1954,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   max={14}
                   value={pythagB}
                   onChange={(e) => setPythagB(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                   aria-label="Adjust Leg b"
                 />
               </div>
@@ -2001,7 +2001,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
               </div>
               <div className="text-sm font-bold text-white flex items-center gap-2 mt-0.5">
                 <span>Node: {challenge.nodeId}</span>
-                <span className="text-xs px-2 py-0.5 rounded-md bg-indigo-950 text-indigo-300 border border-indigo-800">
+                <span className="text-xs px-2 py-0.5 rounded-md bg-gold-950 text-gold-300 border border-gold-800">
                   {challenge.competencyLevel.toUpperCase()}
                 </span>
               </div>
@@ -2016,7 +2016,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950/70 border-emerald-600 text-emerald-300'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950/70 border-blue-600 text-blue-300'
+                    ? 'bg-gold-950/70 border-gold-600 text-gold-300'
                     : 'bg-rose-950/70 border-rose-600 text-rose-300'
                 }`}
               >
@@ -2031,7 +2031,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2071,7 +2071,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       }`}
                       aria-label={`Option ${String.fromCharCode(65 + i)}: ${opt}`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -2087,7 +2087,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   onChange={(e) => setNumericInput(e.target.value)}
                   disabled={showExplanation}
                   placeholder="Enter numeric value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-indigo-500 text-sm"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-gold-500 text-sm"
                   aria-label="Numeric answer input"
                 />
                 <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
@@ -2096,7 +2096,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || numericInput === ''}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow"
                 >
                   Verify
                 </motion.button>
@@ -2114,7 +2114,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg text-xs font-semibold text-white cursor-grab shadow"
+                      className="px-3.5 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-xs font-semibold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2139,7 +2139,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       }`}
                     >
                       <span className="text-xs font-bold text-slate-300">{target.label}:</span>
-                      <span className="text-xs text-indigo-300 font-semibold mt-1">
+                      <span className="text-xs text-gold-300 font-semibold mt-1">
                         {droppedLabels[target.id] || 'Drop Property Here'}
                       </span>
                     </motion.div>
@@ -2151,7 +2151,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Check Properties
                 </motion.button>
@@ -2178,7 +2178,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       whileHover={{ scale: 1.02 }}
                       className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-[11px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-[11px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2197,7 +2197,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Check Logical Sequence
                 </motion.button>
@@ -2215,7 +2215,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 text-xs rounded-lg"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 text-xs rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2228,14 +2228,14 @@ function C9_MathematicsSidesTriangleGreaterSim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-600 text-white text-xs rounded-md flex items-center gap-1.5 shadow"
+                      className="px-2.5 py-1 bg-gold-600 text-white text-xs rounded-md flex items-center gap-1.5 shadow"
                     >
                       {part}
                       <motion.button
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
-                        className="text-indigo-200 hover:text-white font-bold"
+                        className="text-gold-200 hover:text-white font-bold"
                       >
                         ✕
                       </motion.button>
@@ -2251,7 +2251,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Proof Chain
                 </motion.button>
@@ -2321,7 +2321,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-3"
+            className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-3"
           >
             <h2 className="text-2xl md:text-3xl font-extrabold text-white">🎉 Geometry Mastery Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2330,17 +2330,17 @@ function C9_MathematicsSidesTriangleGreaterSim({
             <div className="flex justify-center gap-6 pt-2">
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="p-3 bg-slate-950/80 rounded-xl border border-indigo-900 min-w-[120px]"
+                className="p-3 bg-slate-950/80 rounded-xl border border-gold-900 min-w-[120px]"
               >
                 <div className="text-xs text-slate-400">Final Score</div>
                 <div className="text-2xl font-black text-emerald-400">{Math.max(0, 100 - errors * 5)}%</div>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="p-3 bg-slate-950/80 rounded-xl border border-indigo-900 min-w-[120px]"
+                className="p-3 bg-slate-950/80 rounded-xl border border-gold-900 min-w-[120px]"
               >
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-xl font-bold text-indigo-300 capitalize">{masteryLevel}</div>
+                <div className="text-xl font-bold text-gold-300 capitalize">{masteryLevel}</div>
               </motion.div>
             </div>
           </motion.div>
@@ -2349,7 +2349,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-5 bg-gradient-to-r from-amber-950/70 to-indigo-950/70 rounded-2xl border-2 border-amber-600/80 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4"
+            className="p-5 bg-gradient-to-r from-amber-950/70 to-gold-950/70 rounded-2xl border-2 border-amber-600/80 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4"
           >
             <div className="flex items-center gap-3">
               <span className="text-3xl">🗓️</span>
@@ -2422,7 +2422,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
             animate={{ opacity: 1, y: 0 }}
             className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
           >
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Structured Metacognitive Reflection
             </h3>
             <p className="text-xs text-slate-400">
@@ -2438,7 +2438,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections({ ...reflections, surprising: e.target.value })}
                   placeholder="e.g., That equal sum a + b = c collapses a triangle completely into a line segment..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2451,7 +2451,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   value={reflections.explain}
                   onChange={(e) => setReflections({ ...reflections, explain: e.target.value })}
                   placeholder="e.g., Connecting the halfway points of any two sides gives a parallel mini-bridge that is exactly half the length of the base..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2464,7 +2464,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections({ ...reflections, realLife: e.target.value })}
                   placeholder="e.g., Calculating shortest perpendicular routes for electrical wiring or designing rigid triangular bridge trusses..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-200 text-xs focus:outline-none focus:border-gold-500"
                   rows={2}
                 />
               </div>
@@ -2477,7 +2477,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
             animate={{ opacity: 1 }}
             className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
           >
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🏗️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
@@ -2488,7 +2488,7 @@ function C9_MathematicsSidesTriangleGreaterSim({
                   whileHover={{ scale: 1.02 }}
                   className="p-2.5 bg-slate-950 rounded-lg text-[11px] text-slate-400 border border-slate-800"
                 >
-                  <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {st}
                 </motion.div>
               ))}
             </div>

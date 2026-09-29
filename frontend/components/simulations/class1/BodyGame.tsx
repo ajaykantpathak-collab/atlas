@@ -29,9 +29,9 @@ import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/
 // ─── Teaching slides (from enrichment DEFINITION + TEXT_WALKTHROUGH) ──
 const TEACHING_SLIDES = [
     { title: 'Who Am I? 🌟', text: 'Every person has a unique identity! You have a full name (first name and surname), a parent\'s name, home address, phone number, and a special birthday date!', emoji: '🏷️', bgColor: 'from-pink-400 to-rose-500' },
-    { title: 'External Body Parts 👤', text: 'External body parts are the parts we can see on the outside! We have a head, face, neck, chest, shoulders, arms, elbows, hands, fingers, legs, knees, and feet!', emoji: '👐', bgColor: 'from-blue-400 to-indigo-500' },
-    { title: 'Parts of the Face & Hand 👁️✋', text: 'Your face has eyes, nose, ears, mouth, and cheeks. Your hand has a palm, four fingers, a thumb, and a wrist that joins your hand to your arm!', emoji: '✋', bgColor: 'from-teal-400 to-cyan-500' },
-    { title: 'Five Special Sense Organs 👀👂', text: 'We have five special sense organs that help us know the world! Eyes see, ears hear, nose smells, tongue tastes, and skin feels touch!', emoji: '🧠', bgColor: 'from-purple-400 to-indigo-500' },
+    { title: 'External Body Parts 👤', text: 'External body parts are the parts we can see on the outside! We have a head, face, neck, chest, shoulders, arms, elbows, hands, fingers, legs, knees, and feet!', emoji: '👐', bgColor: 'from-gold-400 to-gold-500' },
+    { title: 'Parts of the Face & Hand 👁️✋', text: 'Your face has eyes, nose, ears, mouth, and cheeks. Your hand has a palm, four fingers, a thumb, and a wrist that joins your hand to your arm!', emoji: '✋', bgColor: 'from-teal-400 to-gold-500' },
+    { title: 'Five Special Sense Organs 👀👂', text: 'We have five special sense organs that help us know the world! Eyes see, ears hear, nose smells, tongue tastes, and skin feels touch!', emoji: '🧠', bgColor: 'from-purple-400 to-gold-500' },
     { title: 'Each Organ Has Its Own Job! 🛑', text: 'Each sense organ does only its own work! Eyes do not smell, nose does not taste, and ears do not see. Never confuse your body parts!', emoji: '⭐', bgColor: 'from-amber-400 to-orange-500' },
 ];
 // ─── Types ────────────────────────────────────────────────────
@@ -569,7 +569,7 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-sky-200`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg ${placed ? 'opacity-40' : 'bg-white'} px-3 py-2 border-2 border-gold-200`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(id, 48)}
         <span className="text-xs font-bold text-gray-700 text-center mt-1">{label}</span>
       </div>
@@ -824,7 +824,7 @@ export function BodyGame({ width = 720, height = 560, onComplete }: BodyGameProp
                 onComplete(finalS);
         }
     };
-    return (<div className="relative flex flex-col select-none overflow-hidden bg-sky-100 rounded-3xl shadow-2xl" style={{ width, height }}>
+    return (<div className="relative flex flex-col select-none overflow-hidden bg-gold-100 rounded-3xl shadow-2xl" style={{ width, height }}>
       <BodySceneBackground width={width} height={height}/>
       <DoctorDisha mood={mascotMood} speaking={mascotSpeech}/>
 

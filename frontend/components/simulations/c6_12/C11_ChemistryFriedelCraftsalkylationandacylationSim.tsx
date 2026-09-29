@@ -443,7 +443,7 @@ const FCReactionCanvas: React.FC<{
       <div className="absolute inset-0 bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:16px_16px] opacity-30"></div>
 
       {/* Header Info Banner */}
-      <div className="z-10 bg-slate-800/80 backdrop-blur px-4 py-1.5 rounded-full border border-slate-700 text-xs font-mono text-cyan-400 mb-4 shadow">
+      <div className="z-10 bg-slate-800/80 backdrop-blur px-4 py-1.5 rounded-full border border-slate-700 text-xs font-mono text-gold-400 mb-4 shadow">
         {step === 0 && 'Stage 0: Reactants & Catalyst Selected'}
         {step === 1 && 'Stage 1: Electrophile Generation by AlCl₃ (Lewis Acid)'}
         {step === 2 && 'Stage 2: Electrophilic Attack & Arenium Ion (Sigma Complex)'}
@@ -693,7 +693,7 @@ const BondEnthalpyVisualizer: React.FC<{
       {/* Title & Equation Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-800 pb-3 gap-2">
         <div>
-          <span className="text-xs uppercase tracking-wider text-cyan-400 font-semibold">Bond Energy Calculator</span>
+          <span className="text-xs uppercase tracking-wider text-gold-400 font-semibold">Bond Energy Calculator</span>
           <h3 className="text-lg font-bold text-slate-100">{rxn.title}</h3>
         </div>
         <div className="bg-slate-800 px-3 py-1 rounded-md text-emerald-400 font-mono text-sm font-semibold border border-slate-700">
@@ -1011,7 +1011,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
       {/* Top Header & Navigation Bar */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-3">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-emerald-500 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-emerald-500 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg">
             ⚗️
           </div>
           <div>
@@ -1019,7 +1019,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               Organic Reactions & Bond Thermodynamics
             </h1>
             <div className="flex items-center gap-2 text-xs text-slate-400">
-              <span className="text-cyan-400 font-mono font-semibold">ISC Class 11 Chemistry</span>
+              <span className="text-gold-400 font-mono font-semibold">ISC Class 11 Chemistry</span>
               <span>•</span>
               <span className="font-mono">{NODE_FC}</span>
               <span>•</span>
@@ -1036,7 +1036,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               playSound('tap');
             }}
             className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'discovery' ? 'bg-gold-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             1. Predict
@@ -1047,7 +1047,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               playSound('tap');
             }}
             className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeTab === 'learn' ? 'bg-cyan-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'learn' ? 'bg-gold-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             2. Concepts
@@ -1058,7 +1058,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               playSound('tap');
             }}
             className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'lab' ? 'bg-gold-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             3. Lab Workbench
@@ -1069,7 +1069,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               playSound('tap');
             }}
             className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeTab === 'challenge' ? 'bg-cyan-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
+              activeTab === 'challenge' ? 'bg-gold-500 text-slate-950 font-bold shadow' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             4. Challenges ({currentChallengeIndex + 1}/{CHALLENGES.length})
@@ -1119,7 +1119,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
 
               {discoverySubmitted && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs leading-relaxed text-slate-300">
-                  <h4 className="font-bold text-cyan-400 mb-1">Scientific Explanation:</h4>
+                  <h4 className="font-bold text-gold-400 mb-1">Scientific Explanation:</h4>
                   {DISCOVERY_QUESTION.explanation}
                 </motion.div>
               )}
@@ -1131,7 +1131,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                   setActiveTab('learn');
                   playSound('whoosh');
                 }}
-                className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl transition-all shadow-lg flex items-center gap-2 text-sm"
+                className="px-6 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition-all shadow-lg flex items-center gap-2 text-sm"
               >
                 <span>Continue to Concept Exploration</span>
                 <span>→</span>
@@ -1145,7 +1145,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
           <div className="max-w-4xl mx-auto w-full flex flex-col justify-between space-y-6 my-auto">
             {/* Slide Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
-              <span className="text-xs font-mono text-cyan-400 uppercase tracking-wider font-semibold">
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-wider font-semibold">
                 Interactive Module Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
               </span>
               <div className="flex gap-1.5">
@@ -1153,7 +1153,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                   <div
                     key={idx}
                     className={`h-2 rounded-full transition-all ${
-                      idx === currentSlideIndex ? 'w-8 bg-cyan-400' : 'w-2 bg-slate-800'
+                      idx === currentSlideIndex ? 'w-8 bg-gold-400' : 'w-2 bg-slate-800'
                     }`}
                   />
                 ))}
@@ -1189,10 +1189,10 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               </div>
 
               {/* Key Takeaway Box */}
-              <div className="bg-cyan-950/40 border border-cyan-800/60 p-3.5 rounded-xl text-xs text-cyan-200 flex items-start gap-2">
+              <div className="bg-gold-950/40 border border-gold-800/60 p-3.5 rounded-xl text-xs text-gold-200 flex items-start gap-2">
                 <span className="text-base">💡</span>
                 <div>
-                  <strong className="text-cyan-400 font-semibold block mb-0.5">Key Exam Takeaway:</strong>
+                  <strong className="text-gold-400 font-semibold block mb-0.5">Key Exam Takeaway:</strong>
                   {TEACHING_SLIDES[currentSlideIndex].takeaway}
                 </div>
               </div>
@@ -1221,7 +1221,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                     setCurrentSlideIndex((prev) => prev + 1);
                     playSound('pop');
                   }}
-                  className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm shadow-md transition-all flex items-center gap-1.5"
+                  className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm shadow-md transition-all flex items-center gap-1.5"
                 >
                   <span>Next Concept</span>
                   <span>→</span>
@@ -1255,7 +1255,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
             {/* Workbench Section 1: Friedel-Crafts Reaction Simulator */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
               <div className="flex justify-between items-center border-b border-slate-800 pb-2">
-                <span className="text-xs font-mono text-cyan-400 font-bold uppercase tracking-wider">
+                <span className="text-xs font-mono text-gold-400 font-bold uppercase tracking-wider">
                   1. Friedel-Crafts Reaction Lab (Node: {NODE_FC})
                 </span>
                 <div className="flex items-center gap-2 text-xs">
@@ -1269,7 +1269,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                           playSound('tap');
                         }}
                         className={`w-6 h-6 rounded-full text-xs font-bold transition-all ${
-                          fcStep === s ? 'bg-cyan-400 text-slate-950' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
+                          fcStep === s ? 'bg-gold-400 text-slate-950' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
                         {s}
@@ -1298,7 +1298,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                       setFcStep(0);
                       playSound('pop');
                     }}
-                    className="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-xl p-2.5 focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-xl p-2.5 focus:outline-none focus:border-gold-500"
                   >
                     <option value="benzene">Benzene (C6H6)</option>
                     <option value="aniline">Aniline (C6H5NH2) - Lewis Base!</option>
@@ -1315,7 +1315,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                       setFcStep(0);
                       playSound('pop');
                     }}
-                    className="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-xl p-2.5 focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-xl p-2.5 focus:outline-none focus:border-gold-500"
                   >
                     <option value="ch3cl">CH3Cl (Chloromethane - Alkylation)</option>
                     <option value="ch3ch2ch2cl">CH3CH2CH2Cl (1-Chloropropane - Rearrangement!)</option>
@@ -1333,7 +1333,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                       setFcStep(0);
                       playSound('pop');
                     }}
-                    className="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-xl p-2.5 focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-950 border border-slate-700 text-slate-200 text-xs rounded-xl p-2.5 focus:outline-none focus:border-gold-500"
                   >
                     <option value="alcl3">Anhydrous AlCl3 (Strong Lewis Acid)</option>
                   </select>
@@ -1349,7 +1349,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                     setFcStep((prev) => (prev < 3 ? prev + 1 : 0));
                     playSound('whoosh');
                   }}
-                  className="px-5 py-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-xs shadow transition-all"
+                  className="px-5 py-2 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-xs shadow transition-all"
                 >
                   {fcStep < 3 ? 'Advance Reaction Step →' : 'Reset Simulation 🔄'}
                 </button>
@@ -1359,7 +1359,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
             {/* Workbench Section 2: Bond Enthalpy Visualizer & Calculator */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
               <div className="flex justify-between items-center border-b border-slate-800 pb-2">
-                <span className="text-xs font-mono text-cyan-400 font-bold uppercase tracking-wider">
+                <span className="text-xs font-mono text-gold-400 font-bold uppercase tracking-wider">
                   2. Bond Enthalpy & ΔH Calculator (Node: {NODE_BOND})
                 </span>
                 <select
@@ -1402,7 +1402,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
             {/* Challenge Progress Header */}
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-mono text-cyan-400 font-semibold uppercase">
+                <span className="text-xs font-mono text-gold-400 font-semibold uppercase">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-slate-100">
@@ -1436,7 +1436,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                       }}
                       className={`w-full text-left p-4 rounded-xl text-sm font-medium border transition-all flex items-center justify-between ${
                         selectedOption === idx
-                          ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 shadow-md'
+                          ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-md'
                           : 'bg-slate-950/60 border-slate-800 hover:border-slate-600 text-slate-300'
                       }`}
                     >
@@ -1452,7 +1452,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               {/* Challenge Type 2: FC Reaction Builder Embed */}
               {CHALLENGES[currentChallengeIndex].type === 'fc_builder' && (
                 <div className="space-y-4">
-                  <p className="text-xs text-cyan-400">
+                  <p className="text-xs text-gold-400">
                     Use the selectors below to build the exact single-step reaction to target Toluene:
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -1538,7 +1538,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
               ) : (
                 <button
                   onClick={handleChallengeSubmit}
-                  className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm shadow-md transition-all"
+                  className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm shadow-md transition-all"
                 >
                   Submit Answer
                 </button>
@@ -1551,7 +1551,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
         {activeTab === 'summary' && (
           <div className="max-w-2xl mx-auto w-full text-center space-y-6 my-auto">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-2xl space-y-6">
-              <div className="w-16 h-16 bg-gradient-to-tr from-emerald-400 to-cyan-500 rounded-full mx-auto flex items-center justify-center text-3xl shadow-lg">
+              <div className="w-16 h-16 bg-gradient-to-tr from-emerald-400 to-gold-500 rounded-full mx-auto flex items-center justify-center text-3xl shadow-lg">
                 🏆
               </div>
 
@@ -1575,7 +1575,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <span className="text-xs text-slate-400 font-mono block">Bond Enthalpy Node</span>
                   <span className="text-xs text-slate-500 font-mono">{NODE_BOND}</span>
-                  <div className="mt-2 text-sm font-bold text-cyan-400">
+                  <div className="mt-2 text-sm font-bold text-gold-400">
                     Mastery: {masteryBondLevel.toUpperCase()}
                   </div>
                 </div>
@@ -1592,7 +1592,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
                   setScore(0);
                   playSound('tap');
                 }}
-                className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl transition-all shadow-lg text-sm"
+                className="w-full py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition-all shadow-lg text-sm"
               >
                 Restart Learning Simulation 🔄
               </button>
@@ -1605,7 +1605,7 @@ export default function C11_ChemistryFriedelCraftsalkylationandacylationSim({
       <footer className="bg-slate-900 border-t border-slate-800 px-6 py-2.5 flex justify-between items-center text-xs text-slate-400 font-mono">
         <div>
           <span>Nodes Covered: </span>
-          <span className="text-cyan-400 font-semibold">{NODE_FC}</span>
+          <span className="text-gold-400 font-semibold">{NODE_FC}</span>
           <span>, </span>
           <span className="text-emerald-400 font-semibold">{NODE_BOND}</span>
         </div>

@@ -11,7 +11,7 @@ export const w_c12_historypeasantszamindarsstatesim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility',
     chapters: [],
     nodeIds: ['c12_hist_cbse_08_003', 'c12_hist_cbse_08_005', 'c12_hist_cbse_08_006', 'c12_hist_cbse_08_007', 'c12_hist_cbse_08_009', 'c12_hist_cbse_08_011', 'c12_hist_cbse_08_012', 'c12_hist_cbse_09_002', 'c12_hist_cbse_08_001', 'c12_hist_cbse_08_004', 'c12_hist_cbse_08_010', 'c12_hist_cbse_08_002', 'c12_hist_cbse_09_004', 'c12_hist_cbse_09_007', 'c12_hist_cbse_10_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are visiting a present-day gram panchayat office in rural India and see the sarpanch and.', goal: 'Master The Village Community: Headman (Muqaddam), Patwari and Collective Responsibility.' },
     discovery: {
         question: 'A village panchayat in 1650 Punjab receives a petition from lower-caste cultivators complaining that the zamindar\'s officials are demanding begar (unpaid.',
@@ -20,7 +20,7 @@ export const w_c12_historypeasantszamindarsstatesim: SimDef = {
         hook: 'Students often conflate the muqaddam (village headman) with the zamindar, thinking both are "landlords" who own village.',
     },
     teaching: [
-        { title: 'The village community in Mughal India (c..', text: 'The village community in Mughal India (c. 1550–1700) was a collective social unit comprising cultivators, a village panchayat (assembly of elders), and a headman (muqaddam/mandal) assisted by a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The village community in Mughal India (c..', text: 'The village community in Mughal India (c. 1550–1700) was a collective social unit comprising cultivators, a village panchayat (assembly of elders), and a headman (muqaddam/mandal) assisted by a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_08_003', title: 'The village community in Mughal India.',

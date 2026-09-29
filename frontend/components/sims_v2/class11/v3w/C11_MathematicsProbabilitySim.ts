@@ -11,7 +11,7 @@ export const w_c11_mathematicsprobabilitysim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Venn Diagrams: Representation of Sets',
     chapters: [],
     nodeIds: ['c11_math_cbse_01_008', 'c11_math_cbse_01_010', 'c11_math_cbse_01_014'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are the class representative organizing the annual fest.', goal: 'Master Venn Diagrams: Representation of Sets.' },
     discovery: {
         question: 'Three sets A, B, C are represented in a Venn diagram. The region representing A ∩ (B ∪ C) is shaded.',
@@ -20,7 +20,7 @@ export const w_c11_mathematicsprobabilitysim: SimDef = {
         hook: 'Students treat Venn diagram circles as mere labels and place elements in circles based on set membership without.',
     },
     teaching: [
-        { title: 'A Venn diagram is a graphical representation.', text: 'A Venn diagram is a graphical representation of sets using closed curves (usually circles) within a rectangle, where the rectangle represents the universal set U and each closed curve represents a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Venn diagram is a graphical representation.', text: 'A Venn diagram is a graphical representation of sets using closed curves (usually circles) within a rectangle, where the rectangle represents the universal set U and each closed curve represents a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_01_008', title: 'A Venn diagram is a graphical.',

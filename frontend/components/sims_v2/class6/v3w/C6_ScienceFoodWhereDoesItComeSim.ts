@@ -11,7 +11,7 @@ export const w_c6_sciencefoodwheredoesitcomesim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Combustion: Burning and Its Characteristics',
     chapters: [],
     nodeIds: ['c6_chemistry_ch05_004', 'c6_biology_ch10_001', 'c6_biology_ch10_002', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_biology_ch09_007', 'c6_chemistry_ch05_002', 'c6_chemistry_ch05_001', 'c6_chemistry_ch05_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a candle flame glows or why a wood fire keeps us warm on a winter night?', goal: 'Master Combustion: Burning and Its Characteristics.' },
     discovery: {
         question: 'Is it possible to have combustion if you have plenty of fuel and oxygen, but no way to provide initial heat? Justify your answer.',
@@ -20,7 +20,7 @@ export const w_c6_sciencefoodwheredoesitcomesim: SimDef = {
         hook: 'Students often believe that combustion is merely "fire," rather than a chemical reaction involving oxygen.',
     },
     teaching: [
-        { title: 'Combustion is a chemical change where a.', text: 'Combustion is a chemical change where a substance reacts rapidly with oxygen, releasing energy in the form of heat and light.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Combustion is a chemical change where a.', text: 'Combustion is a chemical change where a substance reacts rapidly with oxygen, releasing energy in the form of heat and light.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_chemistry_ch05_004', title: 'Combustion is a chemical change where a.',

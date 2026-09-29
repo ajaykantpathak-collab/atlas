@@ -23,7 +23,7 @@ export const c8_hin_ch10_p2: SimDef = {
         labels: ['तरुण के स्वप्न —'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'build', nodeId: 'c8_hin_cbse_10_008', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['पंक्ति — नेताजी सुभाषचंद्र बोस ऐसे स्वाधीन संपन्न समाज और.', 'उसमें छिपा दृश्य।', 'भाव पर असर।'], answer: 'पंक्ति — नेताजी सुभाषचंद्र बोस ऐसे स्वाधीन संपन्न समाज और. उसमें छिपा दृश्य। भाव पर असर।' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['भाव पर असर।', 'उसमें छिपा दृश्य।', 'पंक्ति — नेताजी सुभाषचंद्र बोस ऐसे स्वाधीन संपन्न समाज और.'], answer: 'पंक्ति — नेताजी सुभाषचंद्र बोस ऐसे स्वाधीन संपन्न समाज और. उसमें छिपा दृश्य। भाव पर असर।' } },
         { type: 'case', nodeId: 'c8_hin_cbse_10_012', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through तरुण के स्वप्न like a real scientist — observed, predicted, tested, retried.',
             decisions: [{ prompt: 'What comes next? तरुण के स्वप्न · Part 3/3 picks up right here.', options: [

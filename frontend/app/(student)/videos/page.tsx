@@ -8,6 +8,7 @@ import {
 import Link from 'next/link'
 import { PrismLogo } from '@/components/prism/PrismLogo'
 import { useState } from 'react'
+import InternalDemoBadge from "@/components/InternalDemoBadge";
 
 const videos = [
   { id: 'v1', title: 'Understanding Quadratic Equations', subject: 'Mathematics', duration: '12:34', views: 15420, rating: 4.8, thumbnail: 'from-brand-500/30 to-accent-500/30', isNew: true, classLevel: 10 },
@@ -15,7 +16,7 @@ const videos = [
   { id: 'v3', title: 'French Revolution: Complete Overview', subject: 'Social Studies', duration: '15:20', views: 8730, rating: 4.6, thumbnail: 'from-orange-500/30 to-red-500/30', isNew: false, classLevel: 9 },
   { id: 'v4', title: 'Active and Passive Voice', subject: 'English', duration: '06:12', views: 18500, rating: 4.7, thumbnail: 'from-accent-500/30 to-purple-500/30', isNew: true, classLevel: 7 },
   { id: 'v5', title: 'Introduction to Python Programming', subject: 'Computer Science', duration: '20:30', views: 12300, rating: 4.5, thumbnail: 'from-purple-500/30 to-brand-500/30', isNew: false, classLevel: 11 },
-  { id: 'v6', title: 'Trigonometry Made Easy', subject: 'Mathematics', duration: '14:55', views: 31000, rating: 4.9, thumbnail: 'from-brand-500/30 to-cyan-500/30', isNew: false, classLevel: 10 },
+  { id: 'v6', title: 'Trigonometry Made Easy', subject: 'Mathematics', duration: '14:55', views: 31000, rating: 4.9, thumbnail: 'from-brand-500/30 to-gold-500/30', isNew: false, classLevel: 10 },
   { id: 'v7', title: 'Cell Structure and Function', subject: 'Science', duration: '11:08', views: 14200, rating: 4.7, thumbnail: 'from-mint-500/30 to-accent-500/30', isNew: true, classLevel: 9 },
   { id: 'v8', title: 'Mughal Empire: Rise and Fall', subject: 'Social Studies', duration: '18:42', views: 9600, rating: 4.4, thumbnail: 'from-gold-500/30 to-orange-500/30', isNew: false, classLevel: 7 },
 ]
@@ -34,6 +35,7 @@ export default function VideosPage() {
 
   return (
     <div className="min-h-screen mesh-bg">
+      <InternalDemoBadge what="hardcoded video list, no backend" />
       <div className="sticky top-0 z-40 glass-strong border-b border-surface-300/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">

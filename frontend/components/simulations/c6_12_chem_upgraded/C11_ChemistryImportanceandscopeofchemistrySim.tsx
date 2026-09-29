@@ -830,7 +830,7 @@ const BranchesDiagramSVG: React.FC<{ activeBranch: string; onSelectBranch: (b: s
         })}
       </svg>
       <div className="mt-3 p-3 bg-slate-800/80 rounded-lg border border-slate-700 w-full text-xs text-slate-200">
-        <span className="font-bold text-cyan-400">Selected Focus: </span>
+        <span className="font-bold text-gold-400">Selected Focus: </span>
         {branches.find((b) => b.id === activeBranch)?.desc || 'Click any branch to investigate its interdisciplinary scope.'}
       </div>
     </div>
@@ -855,7 +855,7 @@ const NanoscaleCanvasSVG: React.FC<{ sizeNm: number; onSizeChange: (v: number) =
     <div className="w-full flex flex-col items-center bg-slate-900 p-4 rounded-xl border border-slate-800">
       <div className="flex justify-between items-center w-full mb-2">
         <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wide">Nanoscale Quantum Effects Simulator</h3>
-        <span className="text-xs px-2 py-1 bg-cyan-950 text-cyan-300 rounded font-mono border border-cyan-800">
+        <span className="text-xs px-2 py-1 bg-gold-950 text-gold-300 rounded font-mono border border-gold-800">
           $d = {sizeNm * 2}$ nm
         </span>
       </div>
@@ -897,12 +897,12 @@ const NanoscaleCanvasSVG: React.FC<{ sizeNm: number; onSizeChange: (v: number) =
           step="1"
           value={sizeNm}
           onChange={(e) => onSizeChange(parseFloat(e.target.value))}
-          className="w-full accent-cyan-500 cursor-pointer"
+          className="w-full accent-gold-500 cursor-pointer"
         />
         <div className="grid grid-cols-2 gap-2 mt-2">
           <div className="bg-slate-800 p-2 rounded border border-slate-700 text-center">
             <div className="text-[10px] text-slate-400">Specific Surface Area ($S/V$)</div>
-            <div className="text-sm font-bold text-cyan-400 font-mono">{specificArea} {"$\\text{nm}^{-1}$"}</div>
+            <div className="text-sm font-bold text-gold-400 font-mono">{specificArea} {"$\\text{nm}^{-1}$"}</div>
           </div>
           <div className="bg-slate-800 p-2 rounded border border-slate-700 text-center">
             <div className="text-[10px] text-slate-400">Surface Atom Ratio</div>
@@ -1192,7 +1192,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2.5 py-0.5 rounded text-[11px] font-bold bg-cyan-950 text-cyan-400 border border-cyan-800">
+            <span className="px-2.5 py-0.5 rounded text-[11px] font-bold bg-gold-950 text-gold-400 border border-gold-800">
               ISC CLASS 11 CHEMISTRY
             </span>
             <span className="text-xs text-slate-400">c11_chem_001 - c11_chem_010</span>
@@ -1205,10 +1205,10 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
           <div className="flex items-center gap-3 bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
             <div>
               <div className="text-[10px] text-slate-400 font-semibold uppercase">Overall Mastery</div>
-              <div className="text-sm font-bold text-cyan-400 font-mono">{overallMastery}%</div>
+              <div className="text-sm font-bold text-gold-400 font-mono">{overallMastery}%</div>
             </div>
             <div className="w-12 bg-slate-800 h-2 rounded-full overflow-hidden">
-              <div className="bg-cyan-500 h-full transition-all duration-500" style={{ width: `${overallMastery}%` }} />
+              <div className="bg-gold-500 h-full transition-all duration-500" style={{ width: `${overallMastery}%` }} />
             </div>
           </div>
 
@@ -1227,7 +1227,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
-            activeTab === 'scenario' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+            activeTab === 'scenario' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
           }`}
         >
           1. Context & Scenario
@@ -1238,7 +1238,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
-            activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+            activeTab === 'discovery' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
           }`}
         >
           2. Discovery Question
@@ -1249,7 +1249,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
-            activeTab === 'lab' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+            activeTab === 'lab' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
           }`}
         >
           3. Interactive Exploration Labs
@@ -1260,7 +1260,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
-            activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+            activeTab === 'challenges' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
           }`}
         >
           4. Progressive Challenges ({activeChallengeIdx + 1}/{CHALLENGES.length})
@@ -1271,7 +1271,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
-            activeTab === 'diagnostic' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+            activeTab === 'diagnostic' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
           }`}
         >
           5. Diagnostic Assessment
@@ -1282,7 +1282,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             audioManager.play('tap');
           }}
           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
-            activeTab === 'summary' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+            activeTab === 'summary' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
           }`}
         >
           6. Real-World Audit & Misconceptions
@@ -1294,8 +1294,8 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
         {/* TAB 1: SCENARIO */}
         {activeTab === 'scenario' && (
           <div className="max-w-4xl mx-auto space-y-6">
-            <div className="bg-gradient-to-r from-slate-900 to-cyan-950 p-8 rounded-2xl border border-cyan-800/50 shadow-xl">
-              <div className="inline-block px-3 py-1 bg-cyan-900/60 text-cyan-300 rounded-full text-xs font-semibold mb-3 border border-cyan-700">
+            <div className="bg-gradient-to-r from-slate-900 to-gold-950 p-8 rounded-2xl border border-gold-800/50 shadow-xl">
+              <div className="inline-block px-3 py-1 bg-gold-900/60 text-gold-300 rounded-full text-xs font-semibold mb-3 border border-gold-700">
                 SCENARIO BRIEFING
               </div>
               <h2 className="text-2xl font-bold text-white mb-4">{SCENARIO.title}</h2>
@@ -1307,7 +1307,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                   setActiveTab('discovery');
                   audioManager.play('swoop');
                 }}
-                className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl shadow-lg transition-all flex items-center gap-2"
+                className="px-6 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl shadow-lg transition-all flex items-center gap-2"
               >
                 Begin Discovery Question &rarr;
               </button>
@@ -1321,7 +1321,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                 return (
                   <div key={id} className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex justify-between items-center">
                     <div>
-                      <div className="text-[10px] text-cyan-400 font-mono">{id}</div>
+                      <div className="text-[10px] text-gold-400 font-mono">{id}</div>
                       <div className="text-sm font-semibold text-slate-200">{NODE_NAMES[id]}</div>
                     </div>
                     <div className="text-right">
@@ -1338,7 +1338,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
         {activeTab === 'discovery' && (
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-lg">
-              <div className="text-xs font-bold text-cyan-400 uppercase tracking-wide mb-2">Initial Discovery Challenge</div>
+              <div className="text-xs font-bold text-gold-400 uppercase tracking-wide mb-2">Initial Discovery Challenge</div>
               <h3 className="text-lg font-bold text-slate-100 mb-4">{DISCOVERY_QUESTION.question}</h3>
 
               <div className="space-y-3 mb-6">
@@ -1348,7 +1348,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                     onClick={() => setDiscoverySelected(idx)}
                     className={`w-full p-4 rounded-xl text-left text-sm transition-all border ${
                       discoverySelected === idx
-                        ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200'
+                        ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1370,7 +1370,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                       audioManager.play('error');
                     }
                   }}
-                  className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 disabled:opacity-50 text-slate-950 font-bold rounded-xl transition-all"
+                  className="w-full py-3 bg-gold-500 hover:bg-gold-400 disabled:opacity-50 text-slate-950 font-bold rounded-xl transition-all"
                 >
                   Confirm Answer
                 </button>
@@ -1406,7 +1406,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                         onClick={() => setPredAnswers((prev) => ({ ...prev, [pIdx]: oIdx }))}
                         className={`p-3 rounded-lg text-xs text-left transition-all border ${
                           predAnswers[pIdx] === oIdx
-                            ? 'bg-cyan-900/60 border-cyan-500 text-cyan-200'
+                            ? 'bg-gold-900/60 border-gold-500 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1423,13 +1423,13 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                         const isCorrect = predAnswers[pIdx] === pred.correctIndex;
                         handleAnswerSubmit(pred.nodeId, isCorrect);
                       }}
-                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-400 rounded-lg border border-slate-700"
+                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-bold text-gold-400 rounded-lg border border-slate-700"
                     >
                       Lock Prediction
                     </button>
                   ) : (
                     <div className="p-3 bg-slate-900 rounded-lg text-xs border border-slate-800">
-                      <span className="font-bold text-cyan-400">Lab Verification Instruction: </span>
+                      <span className="font-bold text-gold-400">Lab Verification Instruction: </span>
                       <span className="text-slate-300">{pred.verifyInstruction}</span>
                     </div>
                   )}
@@ -1453,7 +1453,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                   }}
                   className={`p-3 rounded-xl text-xs font-bold text-center border transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-950 border-cyan-500 text-cyan-300 shadow'
+                      ? 'bg-gold-950 border-gold-500 text-gold-300 shadow'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                   }`}
                 >
@@ -1466,7 +1466,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             {/* ACTIVE LAB CARD */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-6">
               <div>
-                <span className="text-[10px] px-2 py-0.5 bg-cyan-950 text-cyan-400 font-mono rounded border border-cyan-800">
+                <span className="text-[10px] px-2 py-0.5 bg-gold-950 text-gold-400 font-mono rounded border border-gold-800">
                   {EXPLORATION_STEPS[activeLabIndex].nodeId}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-1">{EXPLORATION_STEPS[activeLabIndex].title}</h2>
@@ -1493,12 +1493,12 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                     step="0.1"
                     value={soilpH}
                     onChange={(e) => setSoilpH(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <div className="grid grid-cols-3 gap-3 text-center">
                     <div className="p-3 bg-slate-900 rounded border border-slate-800">
                       <div className="text-[10px] text-slate-400">Nitrate ($NO_3^-$)</div>
-                      <div className="text-xs font-bold text-cyan-300 font-mono">
+                      <div className="text-xs font-bold text-gold-300 font-mono">
                         {soilpH >= 5.5 && soilpH <= 8.5 ? '100% Bio-Available' : '30% Leached/Depleted'}
                       </div>
                     </div>
@@ -1526,7 +1526,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
                   <div className="flex justify-between items-center">
                     <h3 className="text-sm font-bold text-slate-200">Pharmaceutical Lipophilicity & Bio-availability (Log P)</h3>
-                    <span className="text-xs font-mono font-bold text-cyan-400 bg-slate-900 px-3 py-1 rounded border border-slate-800">
+                    <span className="text-xs font-mono font-bold text-gold-400 bg-slate-900 px-3 py-1 rounded border border-slate-800">
                       Log P: {drugLogP.toFixed(1)}
                     </span>
                   </div>
@@ -1537,7 +1537,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                     step="0.1"
                     value={drugLogP}
                     onChange={(e) => setDrugLogP(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                   <div className="p-4 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-300">
                     {drugLogP < 0 && 'Hydrophilic: High water solubility but struggles to cross lipid cell membranes.'}
@@ -1573,7 +1573,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                           onClick={() => setObsAnswers((prev) => ({ ...prev, [oIdx]: optIdx }))}
                           className={`p-3 rounded-lg text-xs text-left transition-all border ${
                             obsAnswers[oIdx] === optIdx
-                              ? 'bg-cyan-900/60 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-900/60 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                           }`}
                         >
@@ -1620,9 +1620,9 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
             {/* STEP TRACKER */}
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-xl border border-slate-800">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-cyan-400 uppercase">Challenge {activeChallengeIdx + 1} of {CHALLENGES.length}</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Challenge {activeChallengeIdx + 1} of {CHALLENGES.length}</span>
                 <span className={`text-[10px] px-2 py-0.5 rounded font-bold uppercase ${
-                  currentChallenge.difficulty === 'foundation' ? 'bg-blue-950 text-blue-400 border border-blue-800' :
+                  currentChallenge.difficulty === 'foundation' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                   currentChallenge.difficulty === 'standard' ? 'bg-amber-950 text-amber-400 border border-amber-800' :
                   'bg-rose-950 text-rose-400 border border-rose-800'
                 }`}>
@@ -1672,13 +1672,13 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                       step="any"
                       placeholder="Enter numerical answer"
                       onChange={(e) => setChallengeAnswers((prev) => ({ ...prev, [currentChallenge.id]: e.target.value }))}
-                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-sm font-mono text-cyan-300 focus:outline-none focus:border-cyan-500 flex-1"
+                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-sm font-mono text-gold-300 focus:outline-none focus:border-gold-500 flex-1"
                     />
                     <span className="text-sm font-bold text-slate-400">{currentChallenge.unit}</span>
                   </div>
                   <button
                     onClick={() => handleChallengeAnswer(challengeAnswers[currentChallenge.id])}
-                    className="px-6 py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl transition-all"
+                    className="px-6 py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition-all"
                   >
                     Submit Answer
                   </button>
@@ -1703,7 +1703,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                               }}
                               className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-all ${
                                 currentMap[item.id] === cat
-                                  ? 'bg-cyan-600 text-white border-cyan-500'
+                                  ? 'bg-gold-600 text-white border-gold-500'
                                   : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                               }`}
                             >
@@ -1716,7 +1716,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                   })}
                   <button
                     onClick={() => handleChallengeAnswer(challengeAnswers[currentChallenge.id])}
-                    className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl transition-all"
+                    className="w-full py-3 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl transition-all"
                   >
                     Verify Classification
                   </button>
@@ -1757,7 +1757,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                       setActiveChallengeIdx((i) => i + 1);
                       audioManager.play('swoop');
                     }}
-                    className="px-6 py-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-xs font-bold rounded-xl shadow"
+                    className="px-6 py-2 bg-gold-500 hover:bg-gold-400 text-slate-950 text-xs font-bold rounded-xl shadow"
                   >
                     Next Challenge &rarr;
                   </button>
@@ -1789,7 +1789,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                 {DIAGNOSTIC_QUESTIONS.map((diag, dIdx) => (
                   <div key={diag.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-start">
-                      <span className="text-[10px] font-mono text-cyan-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
+                      <span className="text-[10px] font-mono text-gold-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
                         {diag.nodeId}
                       </span>
                       <span className="text-xs text-slate-500 font-mono">Q{dIdx + 1}</span>
@@ -1803,7 +1803,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
                           onClick={() => setDiagAnswers((prev) => ({ ...prev, [diag.id]: oIdx }))}
                           className={`p-3 rounded-lg text-xs text-left transition-all border ${
                             diagAnswers[diag.id] === oIdx
-                              ? 'bg-cyan-900/60 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-900/60 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                           }`}
                         >
@@ -1860,7 +1860,7 @@ export const C11_ChemistryImportanceandscopeofchemistrySim: React.FC<SimProps> =
               <div className="space-y-2 mt-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 flex gap-3 items-start">
-                    <span className="font-mono text-cyan-400 font-bold">{idx + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{idx + 1}.</span>
                     <span>{step}</span>
                   </div>
                 ))}

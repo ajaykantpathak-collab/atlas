@@ -11,7 +11,7 @@ export const w_c11_chemistrystructureofatomsim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Covalent Bond: Lewis Structures',
     chapters: [],
     nodeIds: ['c11_chem_cbse_04_003', 'c11_chem_cbse_04_004', 'c11_chem_cbse_04_005', 'c11_chem_cbse_04_010', 'c11_chem_cbse_04_011', 'c11_chem_cbse_04_012', 'c11_chem_cbse_02_003', 'c11_chem_cbse_02_009', 'c11_chem_cbse_06_006', 'c11_chem_cbse_04_001', 'c11_chem_cbse_03_001', 'c11_chem_cbse_03_002', 'c11_chem_cbse_03_003', 'c11_chem_cbse_03_013', 'c11_chem_cbse_04_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a glass of water (H2O) – it’s a liquid at room temperature, yet its molecule is tiny.', goal: 'Master Covalent Bond: Lewis Structures.' },
     discovery: {
         question: 'Explain why the bond angle in NH₃ (107°) is smaller than the ideal tetrahedral angle (109.5°) but larger than the H–O–H angle in H₂O (104.5°).',
@@ -20,7 +20,7 @@ export const w_c11_chemistrystructureofatomsim: SimDef = {
         hook: 'Students treat double/triple bonds as multiple electron domains for VSEPR (e.g., counting CO₂ as 4 domains instead of.',
     },
     teaching: [
-        { title: 'A Lewis structure is a diagrammatic.', text: 'A Lewis structure is a diagrammatic representation of a molecule or polyatomic ion that shows the arrangement of valence electrons as bonding pairs (shared between atoms) and lone pairs (localized on.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Lewis structure is a diagrammatic.', text: 'A Lewis structure is a diagrammatic representation of a molecule or polyatomic ion that shows the arrangement of valence electrons as bonding pairs (shared between atoms) and lone pairs (localized on.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_04_003', title: 'A Lewis structure is a diagrammatic.',

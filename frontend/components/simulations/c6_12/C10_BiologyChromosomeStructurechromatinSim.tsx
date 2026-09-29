@@ -1336,7 +1336,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-600'
-                : 'bg-sky-950 text-sky-400 border border-sky-600'
+                : 'bg-gold-950 text-gold-400 border border-gold-600'
             }`}
           >
             {difficulty} Tier
@@ -1365,7 +1365,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <h3 className="text-base sm:text-lg font-bold text-slate-100 flex items-center gap-2">
-              <span className="p-1.5 bg-indigo-900 rounded-lg text-indigo-300 text-xs font-mono">PRE-LAB HOOK</span>
+              <span className="p-1.5 bg-gold-900 rounded-lg text-gold-300 text-xs font-mono">PRE-LAB HOOK</span>
               {DISCOVERY_QUESTION.question}
             </h3>
 
@@ -1424,7 +1424,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToPredict}
-                    className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-emerald-600 hover:from-indigo-500 hover:to-emerald-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2 text-sm sm:text-base"
+                    className="px-6 py-3 bg-gradient-to-r from-gold-600 to-emerald-600 hover:from-gold-500 hover:to-emerald-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2 text-sm sm:text-base"
                   >
                     <span>Proceed to Predict-Then-Check</span>
                     <span>→</span>
@@ -1441,14 +1441,14 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-mono text-indigo-400 font-bold">
+              <span className="text-xs font-mono text-gold-400 font-bold">
                 PREDICTION STAGE {activePredictionIdx + 1} OF {PREDICTION_QUESTIONS.length}
               </span>
               <h2 className="text-lg sm:text-xl font-bold text-white">
                 {PREDICTION_QUESTIONS[activePredictionIdx].title}
               </h2>
             </div>
-            <span className="px-3 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-full text-xs font-bold">
+            <span className="px-3 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-full text-xs font-bold">
               Hypothesis Test
             </span>
           </div>
@@ -1478,7 +1478,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                           : isSelected
                           ? 'bg-rose-950/80 border-2 border-rose-500 text-rose-200'
                           : 'bg-slate-800/60 border border-slate-700 text-slate-400 opacity-60'
-                        : 'bg-slate-800 border border-slate-700 hover:bg-slate-750 hover:border-indigo-500/50 text-slate-200'
+                        : 'bg-slate-800 border border-slate-700 hover:bg-slate-750 hover:border-gold-500/50 text-slate-200'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -1498,12 +1498,12 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                 animate={{ opacity: 1, height: 'auto' }}
                 className="pt-4 space-y-4"
               >
-                <div className="p-4 bg-indigo-950/50 border border-indigo-700/80 rounded-xl text-indigo-200 text-sm space-y-2">
+                <div className="p-4 bg-gold-950/50 border border-gold-700/80 rounded-xl text-gold-200 text-sm space-y-2">
                   <p className="font-bold">🔬 Science Verification Mechanism:</p>
                   <p className="text-xs sm:text-sm text-slate-300">
                     {PREDICTION_QUESTIONS[activePredictionIdx].explanation}
                   </p>
-                  <div className="p-2.5 bg-slate-950 rounded-lg border border-indigo-900 text-xs text-amber-300 font-mono">
+                  <div className="p-2.5 bg-slate-950 rounded-lg border border-gold-900 text-xs text-amber-300 font-mono">
                     👉 Verification Guide: {PREDICTION_QUESTIONS[activePredictionIdx].verifyInstruction}
                   </div>
                 </div>
@@ -1517,7 +1517,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setActivePredictionIdx(i => i + 1)}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                     >
                       Next Prediction →
                     </motion.button>
@@ -1740,7 +1740,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                         {cellCyclePhaseIndex === 2 && 'G2 (Second Growth Phase): Spindle protein synthesis and final quality check.'}
                         {cellCyclePhaseIndex === 3 && 'M (Mitotic Phase): Prophase, Metaphase, Anaphase, Telophase & Cytokinesis.'}
                       </h4>
-                      <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 text-xs text-sky-300">
+                      <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800 text-xs text-gold-300">
                         ��� Current Nuclear DNA Content: <span className="font-bold text-white">{currentDNAContent}</span>
                       </div>
                     </div>
@@ -1780,7 +1780,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                       step={0.1}
                       value={externalSoluteConc}
                       onChange={e => handleTonicitySliderChange(Number(e.target.value))}
-                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-sky-400"
+                      className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                       aria-label="External Solute Concentration Slider"
                     />
 
@@ -1874,7 +1874,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                         max={100}
                         value={windSpeed}
                         onChange={e => setWindSpeed(Number(e.target.value))}
-                        className="w-full h-1.5 bg-slate-800 rounded-lg accent-sky-400"
+                        className="w-full h-1.5 bg-slate-800 rounded-lg accent-gold-400"
                         aria-label="Wind Speed Slider"
                       />
                     </div>
@@ -1886,7 +1886,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                         max={100}
                         value={humidityLevel}
                         onChange={e => setHumidityLevel(Number(e.target.value))}
-                        className="w-full h-1.5 bg-slate-800 rounded-lg accent-indigo-400"
+                        className="w-full h-1.5 bg-slate-800 rounded-lg accent-gold-400"
                         aria-label="Humidity Level Slider"
                       />
                     </div>
@@ -2112,7 +2112,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={handleAdvanceToSandbox}
-                      className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-xl text-sm shadow-lg"
+                      className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-xl text-sm shadow-lg"
                     >
                       Continue to Free Sandbox →
                     </motion.button>
@@ -2137,7 +2137,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg text-sm flex items-center gap-2"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg text-sm flex items-center gap-2"
             >
               <span>Ready for ICSE Challenges!</span>
               <span>→</span>
@@ -2207,7 +2207,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                   step={0.1}
                   value={externalSoluteConc}
                   onChange={e => handleTonicitySliderChange(Number(e.target.value))}
-                  className="w-full h-2 bg-slate-800 rounded-lg accent-sky-400"
+                  className="w-full h-2 bg-slate-800 rounded-lg accent-gold-400"
                 />
               </div>
             )}
@@ -2234,7 +2234,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                       max={100}
                       value={humidityLevel}
                       onChange={e => setHumidityLevel(Number(e.target.value))}
-                      className="w-full h-1.5 bg-slate-800 rounded-lg accent-indigo-400"
+                      className="w-full h-1.5 bg-slate-800 rounded-lg accent-gold-400"
                     />
                   </div>
                 </div>
@@ -2245,7 +2245,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
               <div className="space-y-4">
                 <div className="flex justify-between text-xs text-slate-400">
                   <span>Sea Level (0m)</span>
-                  <span className="font-bold text-sky-400">
+                  <span className="font-bold text-gold-400">
                     Altitude: {altitudeMeters}m | Alveolar pO2: {alveolarPO2} mmHg
                   </span>
                   <span>Khardung La Pass (6,000m)</span>
@@ -2260,7 +2260,7 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
                     setAltitudeMeters(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full h-2 bg-slate-800 rounded-lg accent-sky-400"
+                  className="w-full h-2 bg-slate-800 rounded-lg accent-gold-400"
                 />
               </div>
             )}
@@ -2674,21 +2674,21 @@ function C10_BiologyChromosomeStructurechromatinSim(props: Props = DEFAULT_PROPS
           )}
 
           {/* Spaced Repetition Visibility Schedule */}
-          <div className="p-5 bg-indigo-950/50 border-2 border-indigo-500 rounded-2xl space-y-3 shadow-xl">
+          <div className="p-5 bg-gold-950/50 border-2 border-gold-500 rounded-2xl space-y-3 shadow-xl">
             <div className="flex items-center justify-between">
-              <h3 className="text-indigo-300 text-sm font-bold flex items-center gap-2">
+              <h3 className="text-gold-300 text-sm font-bold flex items-center gap-2">
                 <span>📅</span>
                 <span>Spaced Repetition (SM-2) Memory Consolidation Schedule</span>
               </h3>
-              <span className="px-2.5 py-1 bg-indigo-900 text-indigo-200 text-xs font-mono font-bold rounded-lg border border-indigo-700">
+              <span className="px-2.5 py-1 bg-gold-900 text-gold-200 text-xs font-mono font-bold rounded-lg border border-gold-700">
                 SRS Active
               </span>
             </div>
             
-            <div className="p-4 bg-slate-950/80 rounded-xl border border-indigo-900 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div>
                 <span className="text-xs text-slate-400 block">Next Recommended Review Window:</span>
-                <span className="text-base sm:text-lg font-black text-indigo-300">
+                <span className="text-base sm:text-lg font-black text-gold-300">
                   {errors === 0
                     ? 'Review in 7 days (Optimal retention interval)'
                     : errors <= 3

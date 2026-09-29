@@ -283,7 +283,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "What is Work in Science? 🏋️",
     text: "In science, work is done ONLY when a force is applied AND the object actually moves! Pushing a wall that does not budge is WORK NOT DONE, even if you feel tired!",
     emoji: "🏋️",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "In science, work is done only when a force is applied and the object actually moves. Pushing a wall that does not move is work not done!",
   },
   {
@@ -304,7 +304,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Renewable Energy Sources ☀️",
     text: "Renewable sources never run out because nature replaces them quickly! Solar energy from sunlight and wind energy from moving air can be used again and again.",
     emoji: "☀️",
-    bgColor: "from-purple-500 to-indigo-600",
+    bgColor: "from-purple-500 to-gold-600",
     spoken: "Renewable sources never run out because nature replaces them quickly, like solar energy from sunlight and wind energy from moving air!",
   },
   {
@@ -762,7 +762,7 @@ export function WorkEnergyGame({ width = 720, height = 560, onComplete }: WorkEn
                 if (slideIdx > 0) setSlideIdx(prev => prev - 1);
               }}
               disabled={slideIdx === 0}
-              className={`px-5 py-2 rounded-xl font-bold text-white shadow ${slideIdx === 0 ? 'bg-gray-600 opacity-40 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-500'}`}
+              className={`px-5 py-2 rounded-xl font-bold text-white shadow ${slideIdx === 0 ? 'bg-gray-600 opacity-40 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500'}`}
             >
               ⬅️ Previous
             </button>

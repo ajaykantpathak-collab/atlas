@@ -745,7 +745,7 @@ const CathodeRayTubeSVG: React.FC<{ voltage: number; electricField: number }> = 
   const beamPath = `M 80 120 Q 240 120, 360 ${120 - deflectionY}`;
 
   return (
-    <svg viewBox="0 0 440 240" className="w-full h-auto bg-slate-950 rounded-xl border border-cyan-500/30 shadow-2xl">
+    <svg viewBox="0 0 440 240" className="w-full h-auto bg-slate-950 rounded-xl border border-gold-500/30 shadow-2xl">
       <defs>
         <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0%" stopColor="#38bdf8" stopOpacity="0.1" />
@@ -894,7 +894,7 @@ const BohrAtomModelSVG: React.FC<{ element: ElementInfo }> = ({ element }) => {
   const shellColors = ['#38bdf8', '#a855f7', '#f59e0b', '#10b981'];
 
   return (
-    <svg viewBox="0 0 340 340" className="w-full h-auto bg-slate-900 rounded-xl border border-cyan-500/40 shadow-2xl">
+    <svg viewBox="0 0 340 340" className="w-full h-auto bg-slate-900 rounded-xl border border-gold-500/40 shadow-2xl">
       <defs>
         <radialGradient id="nucleusGlow" cx="50%" cy="50%" r="50%">
           <stop offset="0%" stopColor="#ef4444" stopOpacity="1" />
@@ -1226,14 +1226,14 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
       <header className="max-w-7xl mx-auto bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl backdrop-blur-md">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-3">
-            <div className="p-3 bg-cyan-500/20 border border-cyan-400/40 rounded-xl text-cyan-400">
+            <div className="p-3 bg-gold-500/20 border border-gold-400/40 rounded-xl text-gold-400">
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L5.6 15.12a2 2 0 00-1.022.547l-1.4 1.402a2 2 0 001.414 3.414h18.816a2 2 0 001.414-3.414l-1.4-1.402z" />
                 <circle cx="12" cy="9" r="4" strokeWidth="2" />
               </svg>
             </div>
             <div>
-              <h1 className="text-xl sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+              <h1 className="text-xl sm:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400">
                 ICSE Atomic Structure & Subatomic Particles
               </h1>
               <p className="text-xs text-slate-400">Class 6 Chemistry • Dalton, Thomson, Rutherford & Bohr Models</p>
@@ -1251,7 +1251,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                 }}
                 className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
                   activeTab === tab
-                    ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25 scale-105'
+                    ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/25 scale-105'
                     : 'bg-slate-800/80 text-slate-300 hover:bg-slate-700/80 hover:text-white'
                 }`}
               >
@@ -1275,11 +1275,11 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                 <div className="text-[10px] text-slate-400 font-mono truncate">{nodeId}</div>
                 <div className="w-full bg-slate-800 h-1.5 rounded-full mt-1 overflow-hidden">
                   <div
-                    className="bg-gradient-to-r from-cyan-400 to-emerald-400 h-full transition-all duration-500"
+                    className="bg-gradient-to-r from-gold-400 to-emerald-400 h-full transition-all duration-500"
                     style={{ width: `${pct}%` }}
                   />
                 </div>
-                <div className="text-[10px] font-bold text-cyan-400 mt-0.5">{pct}%</div>
+                <div className="text-[10px] font-bold text-gold-400 mt-0.5">{pct}%</div>
               </div>
             );
           })}
@@ -1292,7 +1292,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
       {activeTab === 'discovery' && (
         <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           <section className="lg:col-span-7 bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-xl font-bold text-cyan-400 mb-3">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mb-4 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-sm text-slate-400 mb-6 leading-relaxed bg-slate-950 p-4 rounded-xl border border-slate-800">
               {SCENARIO.context}
@@ -1305,8 +1305,8 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
             </div>
 
             {/* Discovery Counterintuitive Question */}
-            <div className="bg-slate-950/90 border border-cyan-500/30 rounded-xl p-5">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Discovery Quest</span>
+            <div className="bg-slate-950/90 border border-gold-500/30 rounded-xl p-5">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Discovery Quest</span>
               <h3 className="text-base font-semibold text-white mt-1 mb-4">{DISCOVERY_QUESTION.question}</h3>
 
               <div className="space-y-3">
@@ -1319,7 +1319,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-500/20 border-emerald-500 text-emerald-200'
                           : 'bg-rose-500/20 border-rose-500 text-rose-200'
-                        : 'bg-slate-900 border-slate-800 hover:border-cyan-500/50 text-slate-300'
+                        : 'bg-slate-900 border-slate-800 hover:border-gold-500/50 text-slate-300'
                     }`}
                   >
                     {option}
@@ -1328,7 +1328,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
               </div>
 
               {discoveryAnswered && (
-                <div className="mt-4 p-4 bg-cyan-950/40 border border-cyan-500/40 rounded-xl text-xs text-cyan-200">
+                <div className="mt-4 p-4 bg-gold-950/40 border border-gold-500/40 rounded-xl text-xs text-gold-200">
                   <span className="font-bold">Key Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1339,7 +1339,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
           {/* Prediction Questions Column */}
           <section className="lg:col-span-5 space-y-6">
             <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-base font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-base font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
@@ -1371,7 +1371,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                       ))}
                     </div>
                     {predictionAnswers[qIdx] !== undefined && (
-                      <p className="mt-3 text-[11px] text-cyan-400 bg-cyan-950/30 p-2.5 rounded-lg border border-cyan-800/40">
+                      <p className="mt-3 text-[11px] text-gold-400 bg-gold-950/30 p-2.5 rounded-lg border border-gold-800/40">
                         🔍 <strong>Verification Method:</strong> {pq.verifyInstruction}
                       </p>
                     )}
@@ -1397,11 +1397,11 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                 }}
                 className={`p-3 rounded-xl border text-left transition-all ${
                   selectedLabIndex === idx
-                    ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300 shadow-lg shadow-cyan-500/10'
+                    ? 'bg-gold-500/20 border-gold-400 text-gold-300 shadow-lg shadow-gold-500/10'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200'
                 }`}
               >
-                <div className="text-[10px] font-bold text-cyan-500 uppercase tracking-wider">{step.nodeId}</div>
+                <div className="text-[10px] font-bold text-gold-500 uppercase tracking-wider">{step.nodeId}</div>
                 <div className="text-xs font-bold mt-1 line-clamp-1">{step.title}</div>
               </button>
             ))}
@@ -1421,12 +1421,12 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   <CathodeRayTubeSVG voltage={crtVoltage} electricField={electricField} />
                 </div>
                 <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-6">
-                  <h3 className="text-sm font-bold text-cyan-400">Discharge Tube Controls</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Discharge Tube Controls</h3>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between font-semibold mb-2">
                       <span>High Discharge Voltage:</span>
-                      <span className="text-cyan-400">{crtVoltage} V</span>
+                      <span className="text-gold-400">{crtVoltage} V</span>
                     </label>
                     <input
                       type="range"
@@ -1435,14 +1435,14 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                       step="500"
                       value={crtVoltage}
                       onChange={(e) => setCrtVoltage(Number(e.target.value))}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 flex justify-between font-semibold mb-2">
                       <span>Electric Deflection Field:</span>
-                      <span className="text-cyan-400">{electricField > 0 ? `+${electricField}` : electricField}</span>
+                      <span className="text-gold-400">{electricField > 0 ? `+${electricField}` : electricField}</span>
                     </label>
                     <input
                       type="range"
@@ -1451,7 +1451,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                       step="2"
                       value={electricField}
                       onChange={(e) => setElectricField(Number(e.target.value))}
-                      className="w-full accent-cyan-400"
+                      className="w-full accent-gold-400"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                       <span>Attract Down (-)</span>
@@ -1461,7 +1461,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   </div>
 
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <strong className="text-cyan-400">ICSE Observation:</strong> When voltage exceeds 5000V, green glowing rays travel from Cathode to Anode. Turning on the upper (+) plate bends the beam upward, proving electrons carry negative charge!
+                    <strong className="text-gold-400">ICSE Observation:</strong> When voltage exceeds 5000V, green glowing rays travel from Cathode to Anode. Turning on the upper (+) plate bends the beam upward, proving electrons carry negative charge!
                   </div>
                 </div>
               </div>
@@ -1477,7 +1477,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   <h3 className="text-sm font-bold text-amber-400">Rutherford Scattering Analysis</h3>
                   <div className="space-y-3 text-xs text-slate-300">
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                      <span className="font-bold text-sky-400">1. Most Particles (&gt;99.9%):</span> Pass straight without any deflection.
+                      <span className="font-bold text-gold-400">1. Most Particles (&gt;99.9%):</span> Pass straight without any deflection.
                       <p className="text-[11px] text-slate-400 mt-1">Conclusion: Atom is composed almost entirely of empty space.</p>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
@@ -1500,7 +1500,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   <BohrAtomModelSVG element={currentElement} />
                 </div>
                 <div className="lg:col-span-6 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-cyan-400">Subatomic Nucleon Counter & Mass Calculator</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Subatomic Nucleon Counter & Mass Calculator</h3>
 
                   <div className="grid grid-cols-2 gap-3">
                     <div className="p-3 bg-slate-900 rounded-xl border border-red-500/30">
@@ -1522,14 +1522,14 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                     </div>
                   </div>
 
-                  <div className="bg-cyan-950/40 border border-cyan-500/30 p-4 rounded-xl space-y-2">
+                  <div className="bg-gold-950/40 border border-gold-500/30 p-4 rounded-xl space-y-2">
                     <div className="flex justify-between text-xs">
                       <span className="text-slate-300">Atomic Number Z (Protons):</span>
-                      <span className="font-bold text-cyan-400">{protons}</span>
+                      <span className="font-bold text-gold-400">{protons}</span>
                     </div>
                     <div className="flex justify-between text-xs">
                       <span className="text-slate-300">Mass Number A (Protons + Neutrons):</span>
-                      <span className="font-bold text-cyan-400">{protons + neutrons} amu</span>
+                      <span className="font-bold text-gold-400">{protons + neutrons} amu</span>
                     </div>
                     <div className="flex justify-between text-xs">
                       <span className="text-slate-300">Net Electrical Charge:</span>
@@ -1551,12 +1551,12 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   <p className="text-xs text-slate-400">Formula: Maximum electron capacity = 2n²</p>
 
                   <div className="space-y-3">
-                    <div className="p-3 bg-slate-900 rounded-lg flex justify-between items-center border border-cyan-500/30">
+                    <div className="p-3 bg-slate-900 rounded-lg flex justify-between items-center border border-gold-500/30">
                       <div>
-                        <span className="text-xs font-bold text-cyan-400">K Shell (n=1)</span>
+                        <span className="text-xs font-bold text-gold-400">K Shell (n=1)</span>
                         <div className="text-[10px] text-slate-500">Max capacity: 2e⁻</div>
                       </div>
-                      <span className="text-base font-black text-cyan-300">{currentElement.shells[0]}</span>
+                      <span className="text-base font-black text-gold-300">{currentElement.shells[0]}</span>
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg flex justify-between items-center border border-purple-500/30">
@@ -1585,7 +1585,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   </div>
 
                   <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300">
-                    <span className="font-bold text-cyan-400">Config: </span>
+                    <span className="font-bold text-gold-400">Config: </span>
                     {currentElement.shells.filter(s => s > 0).join(', ')}
                   </div>
                 </div>
@@ -1607,8 +1607,8 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                       }}
                       className={`p-2 rounded-lg border text-center transition-all ${
                         protons === elem.z
-                          ? 'bg-cyan-500 border-cyan-300 text-slate-950 font-extrabold scale-110 shadow-lg'
-                          : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500/50'
+                          ? 'bg-gold-500 border-gold-300 text-slate-950 font-extrabold scale-110 shadow-lg'
+                          : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/50'
                       }`}
                     >
                       <div className="text-[9px] opacity-70">{elem.z}</div>
@@ -1620,14 +1620,14 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-950 p-6 rounded-xl border border-slate-800">
                   <BohrAtomModelSVG element={currentElement} />
                   <div className="space-y-4 text-xs">
-                    <h3 className="text-base font-bold text-cyan-400">{currentElement.name} ({currentElement.symbol})</h3>
+                    <h3 className="text-base font-bold text-gold-400">{currentElement.name} ({currentElement.symbol})</h3>
                     <div className="p-3 bg-slate-900 rounded-lg space-y-1 text-slate-300">
                       <div><strong>Category:</strong> {currentElement.category}</div>
                       <div><strong>Atomic Number (Z):</strong> {currentElement.z}</div>
                       <div><strong>Mass Number (A):</strong> {currentElement.a}</div>
                       <div><strong>Electronic Config:</strong> {currentElement.shells.filter(s=>s>0).join(', ')}</div>
                     </div>
-                    <div className="p-3 bg-cyan-950/40 border border-cyan-500/30 rounded-lg text-cyan-200">
+                    <div className="p-3 bg-gold-950/40 border border-gold-500/30 rounded-lg text-gold-200">
                       💡 <strong>ICSE Syllabus Note:</strong> {currentElement.icseFact}
                     </div>
                   </div>
@@ -1638,7 +1638,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
 
           {/* OBSERVATION QUESTIONS SECTION */}
           <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-            <h3 className="text-base font-bold text-cyan-400 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-400 flex items-center gap-2">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -1682,10 +1682,10 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
         <main className="max-w-7xl mx-auto bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-2xl">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
             <div>
-              <h2 className="text-xl font-bold text-cyan-400">Subatomic Particle Builder Workbench</h2>
+              <h2 className="text-xl font-bold text-gold-400">Subatomic Particle Builder Workbench</h2>
               <p className="text-xs text-slate-400">Synthesize customized atoms by manipulating Protons, Neutrons, and Electrons.</p>
             </div>
-            <div className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs font-bold text-cyan-400">
+            <div className="px-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs font-bold text-gold-400">
               Element: {currentElement.name} ({currentElement.symbol})
             </div>
           </div>
@@ -1733,14 +1733,14 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
               </div>
 
               {/* Summary Calculations Card */}
-              <div className="p-4 bg-slate-900 rounded-xl border border-cyan-500/30 space-y-2 text-xs">
+              <div className="p-4 bg-slate-900 rounded-xl border border-gold-500/30 space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-slate-400">Atomic Number (Z):</span>
-                  <span className="font-mono font-bold text-cyan-400">{protons}</span>
+                  <span className="font-mono font-bold text-gold-400">{protons}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Mass Number (A = Z + N):</span>
-                  <span className="font-mono font-bold text-cyan-400">{protons + neutrons} amu</span>
+                  <span className="font-mono font-bold text-gold-400">{protons + neutrons} amu</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-400">Bohr Electronic Shells:</span>
@@ -1758,7 +1758,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
           {/* Header */}
           <div className="flex items-center justify-between pb-4 mb-6 border-b border-slate-800">
             <div>
-              <span className="text-[10px] uppercase tracking-widest font-extrabold text-cyan-400">
+              <span className="text-[10px] uppercase tracking-widest font-extrabold text-gold-400">
                 Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
               </span>
               <h2 className="text-lg font-bold text-white mt-1">
@@ -1793,7 +1793,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                 placeholder="Enter numerical answer..."
                 value={numericAnswer}
                 onChange={(e) => setNumericAnswer(e.target.value)}
-                className="w-full p-4 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-base focus:border-cyan-500 outline-none"
+                className="w-full p-4 bg-slate-950 border border-slate-800 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none"
               />
             </div>
           ) : (
@@ -1807,7 +1807,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                   }}
                   className={`w-full text-left p-4 rounded-xl text-xs sm:text-sm border transition-all ${
                     selectedOption === oIdx
-                      ? 'bg-cyan-500/20 border-cyan-400 text-cyan-200 font-bold shadow-md'
+                      ? 'bg-gold-500/20 border-gold-400 text-gold-200 font-bold shadow-md'
                       : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                   }`}
                 >
@@ -1835,7 +1835,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
               <button
                 onClick={handleChallengeSubmit}
                 disabled={selectedOption === null && numericAnswer.trim() === ''}
-                className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl text-xs sm:text-sm font-bold shadow-lg shadow-cyan-500/20 disabled:opacity-40"
+                className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl text-xs sm:text-sm font-bold shadow-lg shadow-gold-500/20 disabled:opacity-40"
               >
                 Submit Answer
               </button>
@@ -1868,13 +1868,13 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
         <main className="max-w-7xl mx-auto space-y-6">
           {/* Real World Activity Container */}
           <section className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-xl font-bold text-cyan-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h2>
+            <h2 className="text-xl font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h2>
             <p className="text-sm text-slate-300 mb-6">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                 <div key={sIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <div className="text-cyan-400 font-bold mb-1">Step {sIdx + 1}</div>
+                  <div className="text-gold-400 font-bold mb-1">Step {sIdx + 1}</div>
                   {step}
                 </div>
               ))}
@@ -1883,7 +1883,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
 
           {/* Misconceptions Clarification */}
           <section className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-base font-bold text-cyan-400 mb-4">ICSE Chemistry Common Misconceptions</h3>
+            <h3 className="text-base font-bold text-gold-400 mb-4">ICSE Chemistry Common Misconceptions</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {MISCONCEPTIONS.map((misc) => (
@@ -1897,7 +1897,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
 
           {/* Node Mastery Breakdown Summary Table */}
           <section className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-base font-bold text-cyan-400 mb-4">Syllabus Node Mastery Summary</h3>
+            <h3 className="text-base font-bold text-gold-400 mb-4">Syllabus Node Mastery Summary</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {ALL_NODE_IDS.map((nodeId) => {
                 const info = NODE_DETAILS[nodeId];
@@ -1907,7 +1907,7 @@ export const C6_ChemistryAtomicstructuresubatomicparticlesSim: React.FC<
                 return (
                   <div key={nodeId} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs space-y-2">
                     <div className="flex justify-between items-center">
-                      <span className="font-mono text-cyan-400 font-bold">{nodeId}</span>
+                      <span className="font-mono text-gold-400 font-bold">{nodeId}</span>
                       <span className="font-bold text-emerald-400">{pct}% Mastery</span>
                     </div>
                     <div className="font-semibold text-slate-200">{info.title}</div>

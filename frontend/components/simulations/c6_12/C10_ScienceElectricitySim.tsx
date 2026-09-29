@@ -104,7 +104,7 @@ export function C10_ScienceElectricitySim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">I = V/R</p>
-              <p className="font-mono font-bold text-cyan-300">{(current * 1000).toFixed(0)} mA</p>
+              <p className="font-mono font-bold text-gold-300">{(current * 1000).toFixed(0)} mA</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">P = V x I</p>
@@ -134,10 +134,10 @@ export function C10_ScienceElectricitySim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Resistor R1</span><span className="font-mono font-bold text-sky-400">{r1} ohm</span>
+                <span>Resistor R1</span><span className="font-mono font-bold text-gold-400">{r1} ohm</span>
               </div>
               <input type="range" min={1} max={50} value={r1} aria-label="resistance one"
-                onChange={(e) => setR1(Number(e.target.value))} className="w-full accent-sky-500" />
+                onChange={(e) => setR1(Number(e.target.value))} className="w-full accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

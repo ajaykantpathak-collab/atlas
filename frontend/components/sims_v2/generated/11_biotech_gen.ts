@@ -50,7 +50,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Biotechnology In Medicine Encompasses",
+    "title": "Biotechnology In Medicine",
     "text": "Biotechnology in medicine (Red Biotechnology) encompasses the application of recombinant DNA technology, molecular biology, and cell culture techniques to develop diagnostic tools, therapeutic proteins (e.",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -68,7 +68,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Biosafety",
+    "title": "Biosafety Refers To The Principles",
     "text": "Biosafety refers to the principles, practices, and containment measures applied to prevent unintentional exposure to biological agents (pathogens, genetically modified organisms, recombinant DNA) and their accidental release into the environment, thereby",
     "emoji": "🧬",
     "bgColor": "from-violet-400 to-purple-500"
@@ -258,7 +258,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA)",
      "The Precautionary Principle (Cartagena Protocol, Article 10.6) allows a country to restrict/ban a GMO import *even without full scientific certainty* of harm if there is a"
     ],
-    "hint": "Straight from the 'Biosafety' slide -- match the key terms.",
+    "hint": "Straight from the 'Biosafety refers to the principles' slide -- match the key terms.",
     "misconception": "A wrong answer conflating them as \"both require absolute proof of safety\" misses the fundamental policy difference: one is a risk-management trigger for trade/environment, the other a scientific comparator for food safety.",
     "id": "gen_c11_biotech_ch01_q5",
     "nodeId": "c11_biotech_cbse_01_010",
@@ -456,7 +456,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature",
      "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to"
     ],
-    "hint": "Straight from the 'Genetically Modified  crops' slide -- match the key terms.",
+    "hint": "Straight from the 'Genetically Modified crops' slide -- match the key terms.",
     "misconception": "A wrong answer that either dismisses Golden Rice as a mere technological fix or calls it a complete solution shows the student has missed that both molecular evidence and public health context must enter the verdict.",
     "id": "gen_c11_biotech_ch01_q9",
     "nodeId": "c11_biotech_cbse_01_005",
@@ -471,7 +471,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly",
      "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In"
     ],
-    "hint": "Straight from the 'Genetically Modified  crops' slide -- match the key terms.",
+    "hint": "Straight from the 'Genetically Modified crops' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both as protein-mediated shows the student has missed that papaya resistance acts at the protein level while Flavr Savr acts at the RNA level by base pairing.",
     "id": "gen_c11_biotech_ch01_q10",
     "nodeId": "c11_biotech_cbse_01_005",
@@ -561,7 +561,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to",
      "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature"
     ],
-    "hint": "Straight from the 'Intellectual Property Rights  in' slide -- match the key terms.",
+    "hint": "Straight from the 'Intellectual Property Rights in' slide -- match the key terms.",
     "misconception": "A wrong answer that drafts claims before searching shows the student has missed that the roadmap runs from identifying the invention through patentability checks to filing.",
     "id": "gen_c11_biotech_ch01_q16",
     "nodeId": "c11_biotech_cbse_01_011",
@@ -643,37 +643,37 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Lysosomes",
+    "title": "Lysosomes Are Single-membrane-bound",
     "text": "Lysosomes are single-membrane-bound spherical organelles (0.2–0.5 µm in diameter) formed from the Golgi apparatus or endoplasmic reticulum, containing a battery of hydrolytic enzymes (acid hydrolases) that function optimally at an acidic pH (~4.",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Chloroplast",
+    "title": "A Chloroplast Is a Double-membrane-bound",
     "text": "A chloroplast is a double-membrane-bound plastid containing chlorophyll pigments organized into thylakoid stacks (grana) where light-dependent reactions occur, and a stroma matrix housing Calvin cycle enzymes, 70S ribosomes, and circular DNA for",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Nucleus",
+    "title": "The Nucleus Is a Double-membrane-bound",
     "text": "The nucleus is a double-membrane-bound organelle that houses the eukaryotic genome as chromatin (DNA-histone complexes), regulates gene expression through controlled nucleocytoplasmic transport via nuclear pore complexes, and contains the nucleolus where",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Ribosomes",
+    "title": "Ribosomes Are Non-membranous",
     "text": "Ribosomes are non-membranous ribonucleoprotein complexes composed of ribosomal RNA (rRNA) and proteins that function as the universal site of protein synthesis in all living cells, existing either freely in the cytoplasm or bound to the endoplasmic reticulum,",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Cytoskeleton",
+    "title": "Cytoskeleton Is a Dynamic",
     "text": "The cytoskeleton is a dynamic, three-dimensional network of fibrous proteins in the cytoplasm of eukaryotic cells that maintains cell shape, enables intracellular transport, facilitates cell division, and drives cell motility.",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vacuoles",
+    "title": "Vacuoles and Peroxisomes",
     "text": "Vacuoles are membrane-bound organelles (tonoplast) in plant, fungal, and some animal cells that function in storage, turgor maintenance, and degradation; peroxisomes are ER-derived, single-membrane microbodies containing oxidative enzymes (catalase, oxidases)",
     "emoji": "🧬",
     "bgColor": "from-violet-400 to-purple-500"
@@ -827,7 +827,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "In Gram-positive bacteria, lysozyme directly accesses the thick peptidoglycan layer. In Gram-negative bacteria, the outer membrane blocks lysozyme",
      "1. Phagosome forms by plasma membrane invagination around bacterium. 2. Early endosome/phagosome fuses with transport vesicles from trans‑Golgi carrying M6P‑tagged acid hydrolases"
     ],
-    "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Lysosomes are single-membrane-boun' slide -- match the key terms.",
     "misconception": "A wrong sequence (e.g., enzymes added after acidification, or no mention of M6P targeting) shows the student cannot integrate membrane trafficking, pH regulation, and enzyme activation into a coherent pathway.",
     "id": "gen_c11_biotech_ch02_q5",
     "nodeId": "c11_biotech_cbse_02_006",
@@ -867,7 +867,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Use a 10-30% sucrose gradient, ultracentrifuge at 100,000 × g for 16 hours at 4°C. Fractionate from top to bottom; monitor absorbance at 260 nm (rRNA)",
      "Use immunofluorescence with antibodies against: (a) Nucleoporin p62 (NPC marker), (b) Lamin B1 (lamina marker), (c) Fibrillarin (nucleolus marker)"
     ],
-    "hint": "Straight from the 'nucleus' slide -- match the key terms.",
+    "hint": "Straight from the 'The nucleus is a double-membrane-b' slide -- match the key terms.",
     "misconception": "A poor answer omits appropriate markers or misinterprets co-localization patterns (e.g., confusing nucleolar foci with nuclear speckles).",
     "id": "gen_c11_biotech_ch02_q7",
     "nodeId": "c11_biotech_cbse_02_009",
@@ -888,7 +888,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Neurons have high membrane turnover and synthesize large amounts of gangliosides for synaptic function",
      "Puromycin releases nascent chains from ribosomes, causing bound ribosomes to detach from the ER membrane"
     ],
-    "hint": "Straight from the 'Ribosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Ribosomes are non-membranous' slide -- match the key terms.",
     "misconception": "A wrong answer (no change) reveals the student does not understand that ribosome binding to ER is mediated by the nascent polypeptide translocon interaction, not a permanent ribosome-membrane attachment.",
     "id": "gen_c11_biotech_ch02_q8",
     "nodeId": "c11_biotech_cbse_02_010",
@@ -909,7 +909,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Label Protein X with GFP. Bleach a small membrane region with laser. Monitor fluorescence recovery over time",
      "Microtubules: 25 nm, α/β-tubulin heterodimers; Actin filaments (microfilaments): 6 nm, globular actin (G-actin) polymers"
     ],
-    "hint": "Straight from the 'cytoskeleton' slide -- match the key terms.",
+    "hint": "Straight from the 'cytoskeleton is a dynamic' slide -- match the key terms.",
     "misconception": "A wrong answer typically swaps diameters (e.g., assigning 10 nm to microtubules) or confuses actin with tubulin, revealing that the student memorized names without linking structural parameters to protein identity. This error propagates into misunderstanding motor protein specificity and inhibitor effects.",
     "id": "gen_c11_biotech_ch02_q9",
     "nodeId": "c11_biotech_cbse_02_011",
@@ -930,7 +930,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "In Gram-positive bacteria, lysozyme directly accesses the thick peptidoglycan layer. In Gram-negative bacteria, the outer membrane blocks lysozyme",
      "Glyoxysomes: fatty acids → acetyl-CoA → glyoxylate cycle → succinate. Succinate moves to mitochondria → TCA cycle → malate"
     ],
-    "hint": "Straight from the 'Vacuoles' slide -- match the key terms.",
+    "hint": "Straight from the 'Vacuoles are membrane-bound' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., direct glucose production in glyoxysomes, or missing mitochondrial step) reveals failure to understand compartmentalization and the essential cooperation because glyoxysomes lack full TCA cycle and gluconeogenic enzymes.",
     "id": "gen_c11_biotech_ch02_q10",
     "nodeId": "c11_biotech_cbse_02_012",
@@ -1049,7 +1049,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "In Gram-positive bacteria, lysozyme directly accesses the thick peptidoglycan layer. In Gram-negative bacteria, the outer membrane blocks lysozyme",
      "(a) Heterophagy digests extracellular material (e.g., phagocytosed bacteria); autophagy digests intracellular components (e"
     ],
-    "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Lysosomes are single-membrane-boun' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (a) Heterophagy digests extracellular material (e.g., phagocytosed bacteria); autophagy digests intracellular",
     "id": "gen_c11_biotech_ch02_q14",
     "nodeId": "c11_biotech_cbse_02_006",
@@ -1064,7 +1064,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "In Gram-positive bacteria, lysozyme directly accesses the thick peptidoglycan layer. In Gram-negative bacteria, the outer membrane blocks lysozyme",
      "Pulse cells with fluorescent dextran (fluid‑phase marker) and a pH‑sensitive dye (e.g., LysoSensor)"
     ],
-    "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Lysosomes are single-membrane-boun' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Pulse cells with fluorescent dextran (fluid‑phase marker) and a pH‑sensitive dye (e.",
     "id": "gen_c11_biotech_ch02_q15",
     "nodeId": "c11_biotech_cbse_02_006",
@@ -1079,7 +1079,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Key steps: (1) Mutagenize yeast; (2) Screen for temperature-sensitive mutants that fail to bind a fluorescent lectin (e",
      "Neurons have high membrane turnover and synthesize large amounts of gangliosides for synaptic function"
     ],
-    "hint": "Straight from the 'Lysosomes' slide -- match the key terms.",
+    "hint": "Straight from the 'Lysosomes are single-membrane-boun' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Neurons have high membrane turnover and synthesize large amounts of gangliosides for synaptic function; they lack",
     "id": "gen_c11_biotech_ch02_q16",
     "nodeId": "c11_biotech_cbse_02_006",
@@ -1094,7 +1094,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Label Protein X with GFP. Bleach a small membrane region with laser. Monitor fluorescence recovery over time",
      "Grana thylakoids are enriched in Photosystem II (PSII) and light-harvesting complex II (LHCII), while stroma lamellae (frets) are enriched in Photosystem I (PSI) and ATP synthase"
     ],
-    "hint": "Straight from the 'chloroplast' slide -- match the key terms.",
+    "hint": "Straight from the 'A chloroplast is a' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Grana thylakoids are enriched in Photosystem II (PSII) and light-harvesting complex II (LHCII), while stroma lamellae",
     "id": "gen_c11_biotech_ch02_q17",
     "nodeId": "c11_biotech_cbse_02_008",
@@ -1109,7 +1109,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Glyoxysomes: fatty acids → acetyl-CoA → glyoxylate cycle → succinate. Succinate moves to mitochondria → TCA cycle → malate",
      "Refute. The claim contains a factual error: mammalian mitochondrial ribosomes are 55S, but plant mitochondrial ribosomes are 78S-80S"
     ],
-    "hint": "Straight from the 'chloroplast' slide -- match the key terms.",
+    "hint": "Straight from the 'A chloroplast is a' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Refute. The claim contains a factual error: mammalian mitochondrial ribosomes are 55S, but plant mitochondrial",
     "id": "gen_c11_biotech_ch02_q18",
     "nodeId": "c11_biotech_cbse_02_008",
@@ -1185,19 +1185,19 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Lipids",
+    "title": "Lipids Are a Diverse Group",
     "text": "Lipids are a diverse group of hydrophobic or amphipathic biomolecules primarily composed of hydrocarbon chains, classified into simple lipids (fats/oils as triacylglycerols, waxes) and compound lipids (phospholipids, glycolipids, steroids).",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Steroids",
+    "title": "Steroids Are Lipids Characterized",
     "text": "Steroids are lipids characterized by a fused four-ring carbon skeleton (three cyclohexane rings and one cyclopentane ring) that are hydrophobic and function as membrane components (e.",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "RNA",
+    "title": "RNA Is a Single-stranded",
     "text": "RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of ribonucleotides containing D-ribose sugar, phosphate groups, and nitrogenous bases (adenine, guanine, cytosine, uracil) that performs diverse functional roles in gene expression",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1209,13 +1209,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Water",
+    "title": "Water Is a Polar Molecule",
     "text": "Water is a polar molecule with a bent geometry (104.5° bond angle) that exhibits extensive hydrogen bonding, giving it unique properties—high dielectric constant (ε ≈ 78.",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Minerals",
+    "title": "Minerals Are Inorganic Elements Required",
     "text": "Minerals are inorganic elements required by living organisms in trace to moderate amounts for structural roles (e.g., calcium in bones), osmotic balance, nerve impulse transmission, and as essential cofactors for enzymatic reactions.",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1367,7 +1367,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Both cholesterol and phytosterols modulate membrane fluidity by inserting between phospholipid fatty acyl chains",
      "Glycerophospholipid: glycerol backbone; fatty acids at sn-1 and sn-2 via ester bonds; phosphate at sn-3"
     ],
-    "hint": "Straight from the 'Lipids' slide -- match the key terms.",
+    "hint": "Straight from the 'Lipids are a diverse group' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Glycerophospholipid: glycerol backbone; fatty acids at sn-1 and sn-2 via ester bonds; phosphate at sn-3.",
     "id": "gen_c11_biotech_ch03_q4",
     "nodeId": "c11_biotech_cbse_03_004",
@@ -1384,11 +1384,11 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Name the four fused rings that constitute the steroid nucleus and state the total number of carbon atoms in the parent hydrocarbon skeleton (cyclopentanoperhydrophenanthrene).",
     "answer": "The steroid nucleus consists of three cyclohexane rings (A, B, C) and one cyclopentane ring (D) fused together",
     "options": [
-     "Macro-minerals: Calcium (structural component of hydroxyapatite in bones/teeth, also second messenger in cell signaling) and Potassium (maintains resting membrane potential",
+     "The student must be able to classify at least five major minerals and five vitamins (specifying fat-soluble vs water-soluble), explain their specific biochemical roles (e",
      "The assessment runs: (1) Note the inhibitor carries an aromatic side chain like the enzyme's preferred residues (2) The hydrophobic pocket accepts a correct shape regardless of a",
      "The steroid nucleus consists of three cyclohexane rings (A, B, C) and one cyclopentane ring (D) fused together"
     ],
-    "hint": "Straight from the 'Steroids' slide -- match the key terms.",
+    "hint": "Straight from the 'Steroids are lipids characterized' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"three rings\" or \"20 carbons\") reveals that the student has not memorized the systematic ring nomenclature and carbon count that is standard for naming steroid derivatives in board exams.",
     "id": "gen_c11_biotech_ch03_q5",
     "nodeId": "c11_biotech_cbse_03_005",
@@ -1409,7 +1409,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble",
      "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation"
     ],
-    "hint": "Straight from the 'RNA' slide -- match the key terms.",
+    "hint": "Straight from the 'RNA is a single-stranded' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 5'-AGC-3' or 5'-CGA-3') reveals failure to apply antiparallel base-pairing rules or confusion between codon/anticodon directionality conventions.",
     "id": "gen_c11_biotech_ch03_q6",
     "nodeId": "c11_biotech_cbse_03_007",
@@ -1632,7 +1632,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Prokaryotic: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5",
      "Both cholesterol and phytosterols modulate membrane fluidity by inserting between phospholipid fatty acyl chains"
     ],
-    "hint": "Straight from the 'Steroids' slide -- match the key terms.",
+    "hint": "Straight from the 'Steroids are lipids characterized' slide -- match the key terms.",
     "misconception": "A wrong answer stating \"phytosterols make membranes more fluid\" without explaining the steric effect shows the student cannot analyze how a single carbon substitution changes biophysical properties.",
     "id": "gen_c11_biotech_ch03_q13",
     "nodeId": "c11_biotech_cbse_03_005",
@@ -1645,10 +1645,10 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "options": [
      "Vitamin A is fat-soluble, stored in hepatic stellate cells; chronic excess causes hypervitaminosis A (hepatotoxicity, teratogenicity",
      "Glycerophospholipid: glycerol backbone; fatty acids at sn-1 and sn-2 via ester bonds; phosphate at sn-3",
-     "Modify: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5",
+     "Sphingophospholipid: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5",
      "Prokaryotic: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5"
     ],
-    "hint": "Straight from the 'RNA' slide -- match the key terms.",
+    "hint": "Straight from the 'RNA is a single-stranded' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"30+50=80\") reveals treating S as molecular weight rather than hydrodynamic property.",
     "id": "gen_c11_biotech_ch03_q14",
     "nodeId": "c11_biotech_cbse_03_007",
@@ -1663,7 +1663,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "The reasoning runs: (1) The cleft offers six subsites shaped for the sugar chain (2) A three-unit substrate can occupy a subset of these subsites (3) Fewer occupied subsites mean",
      "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble"
     ],
-    "hint": "Straight from the 'RNA' slide -- match the key terms.",
+    "hint": "Straight from the 'RNA is a single-stranded' slide -- match the key terms.",
     "misconception": "A poor answer proposes chemically implausible modifications or ignores the evolutionary trade-off between versatility and fidelity.",
     "id": "gen_c11_biotech_ch03_q15",
     "nodeId": "c11_biotech_cbse_03_007",
@@ -1678,7 +1678,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Thiamine pyrophosphate (TPP) is the coenzyme for pyruvate dehydrogenase complex (PDH) and α-ketoglutarate dehydrogenase in the TCA cycle",
      "Refute. 5' cap (m⁷GpppN) binds eIF4E for ribosome recruitment and protects from 5'→3' exonucleases"
     ],
-    "hint": "Straight from the 'RNA' slide -- match the key terms.",
+    "hint": "Straight from the 'RNA is a single-stranded' slide -- match the key terms.",
     "misconception": "A wrong answer reveals treating modifications as generic \"stability tags\" rather than distinct functional modules.",
     "id": "gen_c11_biotech_ch03_q16",
     "nodeId": "c11_biotech_cbse_03_007",
@@ -1693,7 +1693,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Thiamine pyrophosphate (TPP) is the coenzyme for pyruvate dehydrogenase complex (PDH) and α-ketoglutarate dehydrogenase in the TCA cycle",
      "In ice, each water molecule forms four stable H-bonds in a tetrahedral arrangement, creating an open hexagonal lattice with large empty spaces → lower density (0"
     ],
-    "hint": "Straight from the 'Water' slide -- match the key terms.",
+    "hint": "Straight from the 'Water is a polar molecule' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"ice is heavier so it sinks\" or \"hydrogen bonds are shorter in ice\") reveals misunderstanding of H-bond geometry and its volumetric consequence.",
     "id": "gen_c11_biotech_ch03_q17",
     "nodeId": "c11_biotech_cbse_03_009",
@@ -1706,10 +1706,10 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "options": [
      "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface",
      "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation",
-     "Step 1: OH of water = 100 mL × 1.00 g·mL⁻¹ = 100 g. Step 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4",
+     "Step 1: Distinct of water = 100 mL × 1.00 g·mL⁻¹ = 100 g. Step 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4",
      "Step 1: Mass of water = 100 mL × 1.00 g·mL⁻¹ = 100 g. Step 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4"
     ],
-    "hint": "Straight from the 'Water' slide -- match the key terms.",
+    "hint": "Straight from the 'Water is a polar molecule' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., forgetting to convert mass to moles for vaporization, or using ΔHvap in J·g⁻¹) reveals the student cannot distinguish between specific heat (per gram) and molar enthalpy (per mole) or misses unit conversions.",
     "id": "gen_c11_biotech_ch03_q18",
     "nodeId": "c11_biotech_cbse_03_009",
@@ -1728,14 +1728,14 @@ export const C11_BIOTECH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_biotech_ch05",
-  "title": "Mitosis",
+  "title": "Apoptosis Is a Genetically Programmed",
   "subtitle": "Biotechnology · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biotechnology",
-  "topic": "Mitosis",
+  "topic": "Apoptosis Is a Genetically Programmed",
   "chapters": [
-   "Biotechnology Ch5: Mitosis"
+   "Biotechnology Ch5: Apoptosis Is a Genetically Programmed"
   ],
   "nodeIds": [
    "c11_biotech_cbse_05_002",
@@ -1755,7 +1755,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Mitosis suddenly stops working?",
+   "question": "What happens if Apoptosis Is a Genetically suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1766,19 +1766,19 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Interphase",
+    "title": "Interphase Is The Preparatory Phase",
     "text": "Interphase is the preparatory phase of the cell cycle between two successive mitotic divisions, comprising three sequential sub-phases—G1 (Gap 1), S (Synthesis), and G2 (Gap 2)—during which the cell grows, replicates its DNA precisely once, and synthesizes",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Mitosis",
+    "title": "Mitosis Is An Equational Cell Division",
     "text": "Mitosis is an equational cell division process where a single diploid parent cell divides to produce two genetically identical diploid daughter cells, maintaining the same chromosome number (2n) through precisely ordered stages: prophase (chromatin",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Mitosis",
+    "title": "Mitosis Is The Equational Division",
     "text": "Mitosis is the equational division of a eukaryotic somatic cell that produces two genetically identical daughter cells, each with the same chromosome number (2n) and DNA content (2C) as the parent cell, enabling organismal growth through cell number increase",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1796,25 +1796,25 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Meiosis",
+    "title": "Meiosis Is a Specialized Reductional",
     "text": "Meiosis is a specialized reductional division in germ cells that produces four genetically unique haploid gametes from a single diploid cell, ensuring species-specific chromosome number stability across generations while generating genetic diversity through",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Apoptosis",
+    "title": "Apoptosis Is a Genetically Programmed",
     "text": "Apoptosis is a genetically programmed, energy-dependent (ATP-requiring) process of controlled cell death characterized by distinct morphological changes including cell shrinkage, chromatin condensation, DNA fragmentation into nucleosomal units, membrane",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Apoptosis",
+    "title": "Apoptosis Is a Genetically Programmed",
     "text": "Apoptosis is a genetically programmed, energy-dependent, and tightly regulated form of cell death characterized by cell shrinkage, chromatin condensation, DNA fragmentation, membrane blebbing, and formation of membrane-bound apoptotic bodies that are",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Cyclins",
+    "title": "Cyclins Are Regulatory Proteins Whose",
     "text": "Cyclins are regulatory proteins whose concentrations oscillate cyclically during the cell cycle, while Cyclin-Dependent Kinases (CDKs) are serine/threonine kinases that remain constitutively expressed but require binding to specific cyclin partners for",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1830,7 +1830,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Refute. While chromosome number reduction is essential for sexual reproduction, the mechanisms generating variation are not passive by-products but active",
      "Inaccurate. Terminally differentiated neurons exit the cell cycle at the G1 restriction point and enter G0 (quiescent stage)"
     ],
-    "hint": "Straight from the 'Interphase' slide -- match the key terms.",
+    "hint": "Straight from the 'Interphase is the preparatory' slide -- match the key terms.",
     "misconception": "A wrong evaluation conflates reversible cell-cycle arrest (G1) with terminal differentiation (G0).",
     "id": "gen_c11_biotech_ch05_q1",
     "nodeId": "c11_biotech_cbse_05_002",
@@ -1851,7 +1851,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "SCF (specifically SCF^Skp2^) targets cyclin E (and cyclin D in some contexts) for degradation in late G1/early S phase",
      "During prophase, cohesin on chromosome arms is removed by Wapl-Pds5 (prophase pathway), allowing chromosome individualization"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is an equational cell' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"all cohesin is removed in prophase\" or \"cohesin is only at centromeres\") reveals ignorance of the two-step cohesin removal mechanism and its role in preventing premature separation.",
     "id": "gen_c11_biotech_ch05_q2",
     "nodeId": "c11_biotech_cbse_05_003",
@@ -2060,7 +2060,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Refute. Three differences: (1) Interkinesis lacks a G1/S checkpoint — the cell is committed to Meiosis II regardless of size/nutrient signals",
      "Intrinsic: (i) Internal stress (DNA damage, ER stress, oxidative stress), (ii) Apoptosome (cytochrome c + Apaf-1 + procaspase-9), (iii) Caspase-9"
     ],
-    "hint": "Straight from the 'Apoptosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Apoptosis is a genetically' slide -- match the key terms.",
     "misconception": "A wrong answer shows inability to distinguish upstream initiators, adaptors, and the point of convergence.",
     "id": "gen_c11_biotech_ch05_q7",
     "nodeId": "c11_biotech_cbse_05_008",
@@ -2081,7 +2081,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Design: Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units apart), C/c on chromosome 2, D/d on chromosome 3",
      "Annexin V-FITC (binds phosphatidylserine) on x-axis, PI (membrane-impermeant) on y-axis: Live = Annexin-/PI-; Early apoptotic = Annexin+/PI"
     ],
-    "hint": "Straight from the 'Apoptosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Apoptosis is a genetically' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Annexin V-FITC (binds phosphatidylserine) on x-axis, PI (membrane-impermeant) on y-axis: Live = Annexin-/PI-; Early",
     "id": "gen_c11_biotech_ch05_q8",
     "nodeId": "c11_biotech_cbse_05_009",
@@ -2102,7 +2102,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Expected answer: 1) Isolate a ts-cdc2 (CDK1) mutant that is functional at 25°C but inactive at 36°C",
      "Cyclin D-CDK4/6 complex phosphorylates Rb in mid-to-late G1, leading to partial inactivation of Rb and release of E2F transcription factors"
     ],
-    "hint": "Straight from the 'Cyclins' slide -- match the key terms.",
+    "hint": "Straight from the 'Cyclins are regulatory proteins' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming cyclin B-CDK1 or stating that Rb phosphorylation activates Rb) reveals the student confuses the G1/S regulatory axis with the G2/M axis or misunderstands that Rb is a transcriptional repressor that must be inactivated to permit S phase progression.",
     "id": "gen_c11_biotech_ch05_q9",
     "nodeId": "c11_biotech_cbse_05_010",
@@ -2123,7 +2123,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Use: (1) Anti-tubulin antibody (labels spindle microtubules) and (2) Anti-phospho-histone H3 (Ser10) antibody (labels condensed chromatin)",
      "These cells cannot complete mitosis normally. Ndc80 is the primary microtubule-binding interface of the kinetochore"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is an equational cell' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"cells will divide but with errors\") underestimates the stringency of SAC — it does not permit anaphase onset with defective attachments; it enforces arrest.",
     "id": "gen_c11_biotech_ch05_q10",
     "nodeId": "c11_biotech_cbse_05_003",
@@ -2138,7 +2138,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Annexin V-FITC (binds phosphatidylserine) on x-axis, PI (membrane-impermeant) on y-axis: Live = Annexin-/PI-; Early apoptotic = Annexin+/PI",
      "Use: (1) Anti-tubulin antibody (labels spindle microtubules) and (2) Anti-phospho-histone H3 (Ser10) antibody (labels condensed chromatin)"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is an equational cell' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., using only DNA stain) fails to capture the dynamic spindle-chromosome interaction that defines the transition.",
     "id": "gen_c11_biotech_ch05_q11",
     "nodeId": "c11_biotech_cbse_05_003",
@@ -2153,7 +2153,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "(a) Label centromeres with a red fluorophore and chromosome arms with a green fluorophore that marks crossover regions (e",
      "Autograft: yes (identical genome). Identical twin graft: yes (mitosis produces genetically identical cells, so twin's cells match patient's)"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is the equational division' slide -- match the key terms.",
     "misconception": "A wrong answer claiming twin graft fails reveals misunderstanding that mitosis preserves genetic identity across all somatic cells of an individual — the twin's cells are mitotically derived from the same zygote, so they share the same alleles.",
     "id": "gen_c11_biotech_ch05_q12",
     "nodeId": "c11_biotech_cbse_05_004",
@@ -2168,7 +2168,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Refute. Three differences: (1) Interkinesis lacks a G1/S checkpoint — the cell is committed to Meiosis II regardless of size/nutrient signals",
      "Similarity: both rely on mitosis of somatic cells to restore tissue mass. Difference: planarians use pluripotent neoblasts (stem cells) that migrate and differentiate"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is the equational division' slide -- match the key terms.",
     "misconception": "A wrong answer stating both use stem cells ignores that human liver regeneration is primarily via dedifferentiation/proliferation of existing hepatocytes, not a distinct stem cell pool.",
     "id": "gen_c11_biotech_ch05_q13",
     "nodeId": "c11_biotech_cbse_05_004",
@@ -2183,7 +2183,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Inaccurate. Terminally differentiated neurons exit the cell cycle at the G1 restriction point and enter G0 (quiescent stage)",
      "False. Mitosis provides new cells, but healing also requires: (1) migration of keratinocytes/fibroblasts across the wound (c11_biotech_cbse_05_006)"
     ],
-    "hint": "Straight from the 'Mitosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Mitosis is the equational division' slide -- match the key terms.",
     "misconception": "A student who agrees overlooks that uncontrolled mitosis without migration/differentiation/apoptosis leads to hyperplasia or keloids, not organized repair.",
     "id": "gen_c11_biotech_ch05_q14",
     "nodeId": "c11_biotech_cbse_05_004",
@@ -2243,7 +2243,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Expected answer: 1) Isolate a ts-cdc2 (CDK1) mutant that is functional at 25°C but inactive at 36°C",
      "Design: Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units apart), C/c on chromosome 2, D/d on chromosome 3"
     ],
-    "hint": "Straight from the 'Meiosis' slide -- match the key terms.",
+    "hint": "Straight from the 'Meiosis is a specialized' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Design: Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units",
     "id": "gen_c11_biotech_ch05_q18",
     "nodeId": "c11_biotech_cbse_05_007",
@@ -2252,11 +2252,11 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mitosis?",
+    "What surprised you about apoptosis is a genetically programmed?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mitosis mastered! 🎯",
+  "successLine": "Apoptosis Is a Genetically mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2322,7 +2322,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Creighton-McClintock used cytological markers (heterochromatic knob and translocation on chromosome 9) alongside genetic markers (C/c and Wx/wx)",
      "(1) Natural pollination in a mixed field would allow uncontrolled crosses (tall × tall, tall × dwarf, dwarf × dwarf, plus insect-mediated crosses)"
     ],
-    "hint": "Straight from the 'Mendel selected garden pea  as' slide -- match the key terms.",
+    "hint": "Straight from the 'Mendel selected garden pea as his' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"natural pollination is random\" without specifying self-contamination and multiple cross types shows incomplete understanding of the specific biological constraints Mendel overcame.",
     "id": "gen_c11_biotech_ch06_q1",
     "nodeId": "c11_biotech_cbse_06_001",
@@ -2448,7 +2448,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Transcription",
+    "title": "Transcription Is The Enzyme-catalysed",
     "text": "Transcription is the enzyme-catalysed synthesis of a complementary RNA strand using a DNA template strand, proceeding in the 5'→3' direction through three sequential stages: initiation (promoter recognition and open complex formation), elongation (processive",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2478,13 +2478,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Translation",
+    "title": "Translation Is The Process",
     "text": "Translation is the process by which the genetic information encoded in the nucleotide sequence of a mature mRNA molecule is decoded into the specific amino acid sequence of a polypeptide chain on ribosomes, involving four sequential stages: charging of tRNA",
     "emoji": "🧬",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "TRNA",
+    "title": "TRNA Is a Small",
     "text": "tRNA (transfer RNA) is a small, cloverleaf-shaped adaptor molecule that carries a specific amino acid to the ribosome, where its anticodon loop base-pairs with the complementary mRNA codon during translation.",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2504,16 +2504,47 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "State the Central Dogma of Molecular Biology as proposed by Francis Crick, including the one major exception discovered later.",
-    "answer": "The Central Dogma states that genetic information flows from DNA → RNA → Protein. The major exception is reverse transcription (RNA → DNA) found in retroviruses like HIV",
-    "options": [
-     "The 5' cap is 7-methylguanosine linked to the first transcribed nucleotide via a 5'-5' triphosphate bridge (m⁷GpppN)",
-     "A codon is a sequence of three consecutive nucleotides in mRNA that specifies an amino acid or a stop signal; there are 64 codons in total (4³ = 64)",
-     "The Central Dogma states that genetic information flows from DNA → RNA → Protein. The major exception is reverse transcription (RNA → DNA) found in retroviruses like HIV"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why mRNA",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "predict the effect of a given mutation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "accurately draw and label the complete",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Central Dogma of Molecular Biology' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"DNA → Protein directly\" or \"Protein → DNA\") reveals the student believes proteins can carry genetic information or that transcription/translation are coupled without an RNA intermediate, ignoring the historical evidence from Avery-MacLeod-McCarty and Hershey-Chase that DNA is the genetic",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) accurately draw and label the complete information flow pathway including replication,",
     "id": "gen_c11_biotech_ch07_q1",
     "nodeId": "c11_biotech_cbse_07_001",
     "difficulty": "standard",
@@ -2666,8 +2697,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "What is the chemical nature of the 5' cap structure added to eukaryotic pre-mRNA?",
     "answer": "The 5' cap is 7-methylguanosine linked to the first transcribed nucleotide via a 5'-5' triphosphate bridge (m⁷GpppN)",
     "options": [
-     "RNA Polymerase I transcribes 28S, 18S, and 5.8S rRNA; RNA Polymerase II transcribes hnRNA (precursor of mRNA); RNA Polymerase III transcribes tRNA and 5S rRNA",
-     "A codon is a sequence of three consecutive nucleotides in mRNA that specifies an amino acid or a stop signal; there are 64 codons in total (4³ = 64)",
+     "Student can explain the chemical structure of the 5' cap and poly(A) tail, describe the enzymatic steps for each modification",
+     "Post-transcriptional modifications are enzymatic processing events that convert the primary eukaryotic transcript (hnRNA/pre-mRNA) into mature mRNA",
      "The 5' cap is 7-methylguanosine linked to the first transcribed nucleotide via a 5'-5' triphosphate bridge (m⁷GpppN)"
     ],
     "hint": "Straight from the 'Post-transcriptional modifications' slide -- match the key terms.",
@@ -2913,16 +2944,47 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define post-translational modification and distinguish it from co-translational modification with one specific example of each.",
-    "answer": "Post-translational modification (PTM) is a covalent enzymatic alteration of a polypeptide after ribosomal release",
-    "options": [
-     "The 5' cap is 7-methylguanosine linked to the first transcribed nucleotide via a 5'-5' triphosphate bridge (m⁷GpppN)",
-     "A codon is a sequence of three consecutive nucleotides in mRNA that specifies an amino acid or a stop signal; there are 64 codons in total (4³ = 64)",
-     "Post-translational modification (PTM) is a covalent enzymatic alteration of a polypeptide after ribosomal release"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain the PTM cascade in insulin",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Predict how a given PTM alters protein fate",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Classify 8 major PTM types with specific",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Post-translational modifications' slide -- match the key terms.",
-    "misconception": "A wrong answer confusing the two reveals misunderstanding of subcellular compartmentalization — students often think all modifications happen after full synthesis, ignoring that ER-targeted proteins are modified vectorially during translocation.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Classify 8 major PTM types with specific enzyme names, target residues, and functional consequences;",
     "id": "gen_c11_biotech_ch07_q9",
     "nodeId": "c11_biotech_cbse_07_009",
     "difficulty": "advanced",
@@ -3101,6 +3163,98 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish template vs coding strand",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain the mechanistic differences",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "compare",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish template vs coding strand and predict the exact mRNA sequence from a given",
+    "id": "gen_c11_biotech_ch07_q13",
+    "nodeId": "c11_biotech_cbse_07_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why RNA polymerase",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish the subunit composition",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "predict the class of RNA affected",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish the subunit composition and promoter recognition mechanism of prokaryotic",
+    "id": "gen_c11_biotech_ch07_q14",
+    "nodeId": "c11_biotech_cbse_07_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Design a minigene splicing reporter assay to test whether a synonymous mutation (does not change amino acid) in exon 3 of the CFTR gene creates a cryptic 5' splice site. Specify: vector backbone, insert design, cell line, readout, and critical controls.",
     "sortItems": [
      {
@@ -3152,7 +3306,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer omits flanking intronic context, uses wrong cell type (e.g., bacteria), or lacks quantification strategy.",
-    "id": "gen_c11_biotech_ch07_q13",
+    "id": "gen_c11_biotech_ch07_q15",
     "nodeId": "c11_biotech_cbse_07_005",
     "difficulty": "advanced"
    },
@@ -3167,7 +3321,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Central Dogma of Molecular Biology' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: In human cells: DNA (with introns) → Transcription → pre-mRNA (with introns) → Splicing → mature mRNA (exons only) →",
-    "id": "gen_c11_biotech_ch07_q14",
+    "id": "gen_c11_biotech_ch07_q16",
     "nodeId": "c11_biotech_cbse_07_001",
     "difficulty": "standard"
    },
@@ -3182,7 +3336,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Central Dogma of Molecular Biology' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: DNA lacks the 2'-OH group on its ribose, making it chemically stable (resistant to alkaline hydrolysis) and suitable",
-    "id": "gen_c11_biotech_ch07_q15",
+    "id": "gen_c11_biotech_ch07_q17",
     "nodeId": "c11_biotech_cbse_07_001",
     "difficulty": "standard"
    },
@@ -3197,36 +3351,6 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Central Dogma of Molecular Biology' slide -- match the key terms.",
     "misconception": "A poor answer uses ³²P for protein or forgets the blending step, confusing surface attachment with genome entry.",
-    "id": "gen_c11_biotech_ch07_q16",
-    "nodeId": "c11_biotech_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate this claim: \"The Central Dogma is violated by prions (infectious proteins like in Mad Cow Disease) because proteins replicate themselves without nucleic acids.\" Defend or refute using the precise definition of the Central Dogma.",
-    "answer": "The claim is false. The Central Dogma concerns the *flow of sequence information* (nucleotide order → amino acid order)",
-    "options": [
-     "RNA polymerase uses ribonucleoside triphosphates (rNTPs) as substrates; the first rNTP provides its own 3'-OH group for the incoming second rNTP to attack",
-     "Supported. Evidence: (1) U2 and U6 snRNAs form a catalytic triplex structure that positions the branch A and 5' splice site for inline attack—mutations in U6 ACAGAGA box abolish",
-     "The claim is false. The Central Dogma concerns the *flow of sequence information* (nucleotide order → amino acid order)"
-    ],
-    "hint": "Straight from the 'Central Dogma of Molecular Biology' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The claim is false. The Central Dogma concerns the *flow of sequence information* (nucleotide order → amino acid order).",
-    "id": "gen_c11_biotech_ch07_q17",
-    "nodeId": "c11_biotech_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why eukaryotic cells absolutely require mRNA as an intermediate between DNA and protein, whereas prokaryotic cells can theoretically translate DNA directly (but don't). Use the terms \"nucleus\", \"ribosome\", and \"compartmentalization\" in your answer.",
-    "answer": "In eukaryotes, DNA is confined inside the membrane-bound nucleus while ribosomes (protein factories) are in the cytoplasm",
-    "options": [
-     "Refute. While the core catalytic mechanism (Mg²⁺-dependent nucleophilic attack of 3'-OH on α-phosphate of incoming rNTP",
-     "Supported. Evidence: (1) U2 and U6 snRNAs form a catalytic triplex structure that positions the branch A and 5' splice site for inline attack—mutations in U6 ACAGAGA box abolish",
-     "In eukaryotes, DNA is confined inside the membrane-bound nucleus while ribosomes (protein factories) are in the cytoplasm"
-    ],
-    "hint": "Straight from the 'Central Dogma of Molecular Biology' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"eukaryotes have introns\" misses the fundamental spatial separation concept; a student saying \"prokaryotes don't need mRNA\" reveals confusion – they do use mRNA, but it can be translated while being transcribed.",
     "id": "gen_c11_biotech_ch07_q18",
     "nodeId": "c11_biotech_cbse_07_001",
     "difficulty": "standard"
@@ -3244,14 +3368,14 @@ export const C11_BIOTECH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_biotech_ch08",
-  "title": "Chromosome",
+  "title": "Chromosome Is a Condensed",
   "subtitle": "Biotechnology · Chapter 8",
   "classLevel": 11,
   "mode": "senior",
   "subject": "biotechnology",
-  "topic": "Chromosome",
+  "topic": "Chromosome Is a Condensed",
   "chapters": [
-   "Biotechnology Ch8: Chromosome"
+   "Biotechnology Ch8: Chromosome Is a Condensed"
   ],
   "nodeIds": [
    "c11_biotech_cbse_08_001",
@@ -3266,7 +3390,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Chromosome more about facts, or about reasoning?",
+   "question": "Is Chromosome Is a Condensed more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -3277,13 +3401,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Chromosome",
+    "title": "Chromosome Is a Condensed",
     "text": "A chromosome is a condensed, thread-like structure of DNA and histone proteins that becomes visible during cell division; its functional architecture comprises a constricted centromere (primary constriction where sister chromatids attach and spindle fibres",
     "emoji": "🧬",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Karyotyping",
+    "title": "Karyotyping Is The Standardized Laboratory",
     "text": "Karyotyping is the standardized laboratory process of arresting dividing cells at metaphase, staining chromosomes to reveal characteristic banding patterns (e.",
     "emoji": "🧬",
     "bgColor": "from-rose-400 to-pink-500"
@@ -3295,7 +3419,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Translocation",
+    "title": "Translocation Is a Structural Chromosomal",
     "text": "Translocation is a structural chromosomal abnormality where a segment of one chromosome breaks off and attaches to a non-homologous chromosome; reciprocal translocation involves mutual exchange of segments between two non-homologous chromosomes, while",
     "emoji": "🧬",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3311,7 +3435,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Centromere: nucleates kinetochore → microtubule attachment → segregation. Telomere: forms T-loop/shelterin complex → hides DNA end from NHEJ repair machinery → prevents fusion",
      "DNA polymerase cannot fully replicate the 5′ end of the lagging strand (end-replication problem), causing progressive telomere shortening in somatic cells"
     ],
-    "hint": "Straight from the 'chromosome' slide -- match the key terms.",
+    "hint": "Straight from the 'chromosome is a condensed' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"DNA ligase\" or \"helicase\" reveals the student confuses replication machinery with the specialised telomere-maintenance enzyme.",
     "id": "gen_c11_biotech_ch08_q1",
     "nodeId": "c11_biotech_cbse_08_001",
@@ -3332,7 +3456,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "The claim is partially correct but incomplete. While polyploidy maintains relative gene dosage (balance), autopolyploids (e",
      "Colchicine depolymerizes microtubules, preventing spindle formation and arresting cells at metaphase (when chromosomes are maximally condensed)"
     ],
-    "hint": "Straight from the 'Karyotyping' slide -- match the key terms.",
+    "hint": "Straight from the 'Karyotyping is the standardized' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"colchicine stimulates division\" or \"longer time gives more cells\") reveals misunderstanding of microtubule dynamics and the trade-off between cell yield and band resolution.",
     "id": "gen_c11_biotech_ch08_q2",
     "nodeId": "c11_biotech_cbse_08_002",
@@ -3405,7 +3529,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Centromere: nucleates kinetochore → microtubule attachment → segregation. Telomere: forms T-loop/shelterin complex → hides DNA end from NHEJ repair machinery → prevents fusion",
      "t(8;14) places MYC oncogene (8q24) under control of immunoglobulin heavy chain enhancer (14q32) → constitutive MYC overexpression → uncontrolled B-cell proliferation (cancer)"
     ],
-    "hint": "Straight from the 'Translocation' slide -- match the key terms.",
+    "hint": "Straight from the 'Translocation is a structural' slide -- match the key terms.",
     "misconception": "A wrong answer equating both as \"gene dosage effects\" misses the critical distinction: position effect (regulatory hijacking) vs dosage effect (copy number change).",
     "id": "gen_c11_biotech_ch08_q4",
     "nodeId": "c11_biotech_cbse_08_005",
@@ -3426,7 +3550,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "t(8;14) places MYC oncogene (8q24) under control of immunoglobulin heavy chain enhancer (14q32) → constitutive MYC overexpression → uncontrolled B-cell proliferation (cancer)",
      "Centromere: nucleates kinetochore → microtubule attachment → segregation. Telomere: forms T-loop/shelterin complex → hides DNA end from NHEJ repair machinery → prevents fusion"
     ],
-    "hint": "Straight from the 'chromosome' slide -- match the key terms.",
+    "hint": "Straight from the 'chromosome is a condensed' slide -- match the key terms.",
     "misconception": "A wrong answer swapping the roles reveals the student memorised definitions but not mechanistic consequences.",
     "id": "gen_c11_biotech_ch08_q5",
     "nodeId": "c11_biotech_cbse_08_001",
@@ -3486,7 +3610,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "The claim is partially correct but incomplete. While polyploidy maintains relative gene dosage (balance), autopolyploids (e",
      "Use dual-color break-apart probe for MYC (8q24): one probe flanking 5' end (green), one flanking 3' end (red)"
     ],
-    "hint": "Straight from the 'Translocation' slide -- match the key terms.",
+    "hint": "Straight from the 'Translocation is a structural' slide -- match the key terms.",
     "misconception": "A poor answer using only whole-chromosome paints misses breakpoint resolution — FISH must target the specific gene region.",
     "id": "gen_c11_biotech_ch08_q9",
     "nodeId": "c11_biotech_cbse_08_005",
@@ -3495,11 +3619,11 @@ export const C11_BIOTECH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about chromosome?",
+    "What surprised you about chromosome is a condensed?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Chromosome mastered! 🎯",
+  "successLine": "Chromosome Is a Condensed mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4004,8 +4128,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "State the three secondary structure states predicted by both Chou-Fasman and GOR methods and the single-letter codes conventionally used to represent them in output files.",
     "answer": "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
     "options": [
+     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
      "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the",
-     "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known",
      "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)"
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
@@ -4025,7 +4149,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Define the φ (phi) and ψ (psi) torsion angles in a polypeptide backbone, specifying the four atoms that define each angle and the bond about which rotation occurs.",
     "answer": "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
     "options": [
-     "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
+     "Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone",
      "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the",
      "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond"
     ],
@@ -4232,8 +4356,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Explain why the Chou-Fasman method requires a separate \"nucleation\" step before \"extension,\" whereas GOR evaluates every window position independently.",
     "answer": "Chou-Fasman treats helix/sheet formation as a cooperative process: a short cluster of high-propensity residues must first nucleate the structure",
     "options": [
+     "A strong Chou-Fasman helix requires ≥ 4/6 residues with Pα > 1.00 and no breakers (Pro, Gly). Example: Ala-Glu-Leu-Ala-Met-Glu-Lys-Ala-Leu-Glu-Met-Ala (all Pα > 1",
      "First, Q3 accuracy on a single protein is statistically unreliable; benchmarking requires large, non-redundant datasets (e",
-     "Residues 1–6 all have Pα > 1.00 (Ala 1.42, Glu 1.51, Leu 1.21, Lys 1.16, Met 1.45, Phe 1.13). Therefore the entire hexapeptide forms a single helix nucleation site spanning",
      "Chou-Fasman treats helix/sheet formation as a cooperative process: a short cluster of high-propensity residues must first nucleate the structure"
     ],
     "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
@@ -4259,6 +4383,36 @@ export const C11_BIOTECH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What is Secondary structure prediction? State the definition given in this lesson.",
+    "answer": "Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone",
+    "options": [
+     "Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR directional information values",
+     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
+     "Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone"
+    ],
+    "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and",
+    "id": "gen_c11_biotech_ch10_q11",
+    "nodeId": "c11_biotech_cbse_10_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR directional information values",
+    "options": [
+     "Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone",
+     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
+     "Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR directional information values"
+    ],
+    "hint": "Straight from the 'Secondary structure prediction' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR",
+    "id": "gen_c11_biotech_ch10_q12",
+    "nodeId": "c11_biotech_cbse_10_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the Ramachandran plot signatures of an α-helix, a parallel β-sheet, and a left-handed α-helix (α_L). Why is the α_L region sparsely populated in native proteins despite being sterically allowed?",
     "answer": "α-helix: φ≈-60°, ψ≈-45° (lower-left quadrant); parallel β-sheet: φ≈-120°, ψ≈+120° (upper-left quadrant); α_L-helix: φ≈+60°, ψ≈+40° (upper-right quadrant)",
     "options": [
@@ -4268,7 +4422,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Ramachandran Plot' slide -- match the key terms.",
     "misconception": "A student who confuses quadrant locations or claims α_L is \"disallowed\" confuses steric allowance with thermodynamic preference.",
-    "id": "gen_c11_biotech_ch10_q11",
+    "id": "gen_c11_biotech_ch10_q13",
     "nodeId": "c11_biotech_cbse_10_006",
     "difficulty": "advanced"
    },
@@ -4283,7 +4437,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular visualisation tools' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: PyMOL is far more suitable. Its Python-embedded scripting allows loops, conditionals, and functions (e.",
-    "id": "gen_c11_biotech_ch10_q12",
+    "id": "gen_c11_biotech_ch10_q14",
     "nodeId": "c11_biotech_cbse_10_007",
     "difficulty": "advanced"
    },
@@ -4298,7 +4452,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Molecular visualisation tools' slide -- match the key terms.",
     "misconception": "A poor answer hardcodes the filename, uses select all instead of byres, or omits cmd.util.cbag (standard element colouring). This reveals inability to translate a multi-step visualisation workflow into reproducible code — a core competency for structural bioinformatics.",
-    "id": "gen_c11_biotech_ch10_q13",
+    "id": "gen_c11_biotech_ch10_q15",
     "nodeId": "c11_biotech_cbse_10_007",
     "difficulty": "advanced"
    },
@@ -4307,13 +4461,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Give the correct order of stages in a domain-based prediction of partners for a new protein with annotated domains.",
     "answer": "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the",
     "options": [
-     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
-     "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known",
+     "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
+     "Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR directional information values",
      "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the"
     ],
     "hint": "Straight from the 'Protein-protein interaction' slide -- match the key terms.",
     "misconception": "A wrong answer that treats any domain sharing as a genuine interaction shows the student has missed that domain-based prediction infers binding from established interacting pairs, not from co-occurrence alone.",
-    "id": "gen_c11_biotech_ch10_q14",
+    "id": "gen_c11_biotech_ch10_q16",
     "nodeId": "c11_biotech_cbse_10_008",
     "difficulty": "advanced"
    },
@@ -4322,13 +4476,13 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "Give the correct order of evidence types in a hybrid pipeline that predicts host targets of a pathogen effector with no homologs.",
     "answer": "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known",
     "options": [
-     "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C)",
-     "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond",
+     "Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone",
+     "Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR directional information values",
      "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known"
     ],
     "hint": "Straight from the 'Protein-protein interaction' slide -- match the key terms.",
     "misconception": "A wrong answer that trusts a single evidence type shows the student has missed that prediction strength comes from combining motif, domain and network signals.",
-    "id": "gen_c11_biotech_ch10_q15",
+    "id": "gen_c11_biotech_ch10_q17",
     "nodeId": "c11_biotech_cbse_10_008",
     "difficulty": "advanced"
    }
@@ -4389,7 +4543,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Biopython",
+    "title": "Biopython Is An Open-source Python Library",
     "text": "Biopython is an open-source Python library that provides specialized modules for computational biology and bioinformatics, enabling parsing of biological file formats (FASTA, GenBank, PDB), sequence manipulation (transcription, translation, reverse",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4401,7 +4555,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "R Is a Free, Open-source",
+    "title": "R Is a Free",
     "text": "R is a free, open-source programming language and environment specifically designed for statistical computing and graphics, widely used in biology for high-throughput data analysis, visualization, and simulation of genomic, transcriptomic, and biomolecular",
     "emoji": "🧬",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -4603,7 +4757,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
      "Indentation forces consistent visual structure, making code readable and reducing \"brace mismatch\" errors",
      "R was built by statisticians for statistics; its syntax, built-in functions, and vast CRAN/Bioconductor packages are tailored for data analysis, visualization"
     ],
-    "hint": "Straight from the 'R is a free, open-source' slide -- match the key terms.",
+    "hint": "Straight from the 'R is a free' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"R is free\" or \"R has more packages\" without explaining the statistical design philosophy shows superficial understanding.",
     "id": "gen_c11_biotech_ch11_q4",
     "nodeId": "c11_biotech_cbse_11_005",
@@ -4641,8 +4795,8 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "question": "What is the mRNA sequence produced when the DNA coding strand \"ATGGCCTAA\" is transcribed using Biopython's transcribe() method?",
     "answer": "The mRNA sequence is \"AUGGCCUAA\". The transcribe() method replaces all 'T' bases with 'U' while keeping other bases unchanged",
     "options": [
+     "The pattern /A[TC]G/ matches any 3-base sequence starting with A, ending with G, and having either T or C in the middle. It can match exactly 2 sequences: ATG and ACG",
      "A RESTful API allows programs to query remote biological databases (like NCBI or UniProt) using standard HTTP methods (GET, POST) and receive structured data (XML, JSON",
-     "The NCERT highlights three reasons: (i) clear meaning of terms and statement structure, (ii) expressivity and alignment with object-oriented programming",
      "The mRNA sequence is \"AUGGCCUAA\". The transcribe() method replaces all 'T' bases with 'U' while keeping other bases unchanged"
     ],
     "hint": "Straight from the 'Sequence manipulation in' slide -- match the key terms.",
@@ -4932,6 +5086,52 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the difference between a web service",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "write a short Python script using",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "parse the returned XML/JSON to extract",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) explain the difference between a web service (REST/SOAP) and a local library function,",
+    "id": "gen_c11_biotech_ch11_q13",
+    "nodeId": "c11_biotech_cbse_11_010",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A colleague claims: \"Since Biopython's Seq object behaves like a string, we can always replace Seq with plain str in our scripts to avoid the import overhead.\" Evaluate this claim with a concrete counterexample.",
     "answer": "The claim is false. Seq objects provide biological methods like .transcribe(), .translate(), .reverse_complement(), and alphabet-aware operations that plain strings lack",
@@ -4942,7 +5142,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "A student who agrees overlooks the domain-specific functionality that justifies using Biopython in the first place.",
-    "id": "gen_c11_biotech_ch11_q13",
+    "id": "gen_c11_biotech_ch11_q14",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4957,7 +5157,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "If a student chooses list because \"it's simpler,\" they ignore the performance implications for datasets with thousands of genes.",
-    "id": "gen_c11_biotech_ch11_q14",
+    "id": "gen_c11_biotech_ch11_q15",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4972,7 +5172,7 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "A poor answer might omit newline=\"\" (causing blank rows on Windows), use manual string splitting instead of csv.writer, or forget to handle file closing—indicating gaps in practical file I/O robustness.",
-    "id": "gen_c11_biotech_ch11_q15",
+    "id": "gen_c11_biotech_ch11_q16",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
@@ -4987,36 +5187,21 @@ export const C11_BIOTECH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
     "misconception": "If a student says \"indentation is just a style choice,\" they miss the pedagogical point that Python's design intentionally lowers cognitive load for non-programmers.",
-    "id": "gen_c11_biotech_ch11_q16",
-    "nodeId": "c11_biotech_cbse_11_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary reason Python is preferred over Perl for modern bioinformatics workflows, according to the NCERT textbook?",
-    "answer": "The NCERT highlights three reasons: (i) clear meaning of terms and statement structure, (ii) expressivity and alignment with object-oriented programming",
-    "options": [
-     "A RESTful API allows programs to query remote biological databases (like NCBI or UniProt) using standard HTTP methods (GET, POST) and receive structured data (XML, JSON",
-     "The pattern /A[TC]G/ matches any 3-base sequence starting with A, ending with G, and having either T or C in the middle. It can match exactly 2 sequences: ATG and ACG",
-     "The NCERT highlights three reasons: (i) clear meaning of terms and statement structure, (ii) expressivity and alignment with object-oriented programming"
-    ],
-    "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Python is faster than Perl\") reveals the student is relying on general programming hearsay instead of the textbook's specific justification for biologists.",
     "id": "gen_c11_biotech_ch11_q17",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Write a Python function gc_content(seq: str) -> float that returns the GC percentage of a DNA sequence string (e.g., \"ATGCGC\"). Assume the sequence contains only A, T, G, C.",
-    "answer": "def gc_content(seq: str) -> float: seq = seq.upper() gc = seq.count('G') + seq.count('C') return round(gc / len(seq) * 100, 2) Steps: 1) normalize case, 2) count G and C",
+    "question": "What is Python for Bioinformatics? State the definition given in this lesson.",
+    "answer": "Python for Bioinformatics refers to the application of the Python programming language—specifically its core syntax, data structures, control flow, and key libraries (e",
     "options": [
-     "from Bio.Seq import Seq dna = Seq(\"ATGAAATAG\") for frame in range(3): protein = dna[frame:].translate(table=1) print(f\"Frame {frame+1}: {protein}\") Output: Frame 1: MK*",
-     "SeqIO.parse() returns a generator (iterator), not a list; if the student iterates over it once (e.g",
-     "def gc_content(seq: str) -> float: seq = seq.upper() gc = seq.count('G') + seq.count('C') return round(gc / len(seq) * 100, 2) Steps: 1) normalize case, 2) count G and C"
+     "The mRNA sequence is \"AUGGCCUAA\". The transcribe() method replaces all 'T' bases with 'U' while keeping other bases unchanged",
+     "The student must be able to write a Python script that reads a DNA sequence from a FASTA file, computes its GC content and melting temperature using Biopython",
+     "Python for Bioinformatics refers to the application of the Python programming language—specifically its core syntax, data structures, control flow, and key libraries (e"
     ],
     "hint": "Straight from the 'Python for Bioinformatics' slide -- match the key terms.",
-    "misconception": "A wrong answer that uses a manual loop (for base in seq:) shows the student hasn't internalized Python's built-in string methods (count), which are faster and more idiomatic for bioinformatics.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Python for Bioinformatics refers to the application of the Python programming language—specifically its core syntax,",
     "id": "gen_c11_biotech_ch11_q18",
     "nodeId": "c11_biotech_cbse_11_002",
     "difficulty": "standard"

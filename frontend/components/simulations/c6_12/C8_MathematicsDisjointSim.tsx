@@ -1128,7 +1128,7 @@ function C8_MathematicsDisjointSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
             aria-hidden="true"
           >
             {subjectConfig.emoji}
@@ -1136,7 +1136,7 @@ function C8_MathematicsDisjointSim({
           <div>
             <h1 className="text-xl font-extrabold text-white tracking-tight flex items-center gap-2">
               {title}
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-400 border border-indigo-800 font-mono">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-400 border border-gold-800 font-mono">
                 ICSE Class 8
               </span>
             </h1>
@@ -1155,7 +1155,7 @@ function C8_MathematicsDisjointSim({
                 ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border-gold-700'
             }`}
           >
             {difficulty} Tier
@@ -1170,11 +1170,11 @@ function C8_MathematicsDisjointSim({
           animate={{ opacity: 1, scale: 1 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <span className="text-xs uppercase font-bold tracking-widest text-indigo-400">Mission Briefing</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <span className="text-xs uppercase font-bold tracking-widest text-gold-400">Mission Briefing</span>
             <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-indigo-300 flex items-center gap-2">
+            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-gold-300 flex items-center gap-2">
               <span className="text-base" aria-hidden="true">📍</span> {SCENARIO.context}
             </div>
           </div>
@@ -1200,10 +1200,10 @@ function C8_MathematicsDisjointSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-950/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                      : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1213,7 +1213,7 @@ function C8_MathematicsDisjointSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-4 rounded-xl bg-slate-950 border border-indigo-900/60 flex flex-col md:flex-row items-center justify-between gap-4"
+                className="mt-6 p-4 rounded-xl bg-slate-950 border border-gold-900/60 flex flex-col md:flex-row items-center justify-between gap-4"
               >
                 <div className="text-sm">
                   <p className={discoveryCorrect ? 'text-emerald-400 font-bold' : 'text-amber-400 font-semibold'}>
@@ -1226,7 +1226,7 @@ function C8_MathematicsDisjointSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Launch interactive labs"
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1241,7 +1241,7 @@ function C8_MathematicsDisjointSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs text-indigo-400 font-mono tracking-widest uppercase">
+              <span className="text-xs text-gold-400 font-mono tracking-widest uppercase">
                 Interactive Concept Lab ({currentSlide + 1} of {EXPLORATION_STEPS.length})
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1251,7 +1251,7 @@ function C8_MathematicsDisjointSim({
                 <div
                   key={i}
                   className={`h-1.5 rounded-full transition-all ${
-                    i === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-800'
+                    i === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1275,7 +1275,7 @@ function C8_MathematicsDisjointSim({
                 <div className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                      <h4 className="text-xs font-bold uppercase text-indigo-400 mb-2">Set A Elements (Click to Toggle)</h4>
+                      <h4 className="text-xs font-bold uppercase text-gold-400 mb-2">Set A Elements (Click to Toggle)</h4>
                       <div className="flex flex-wrap gap-2">
                         {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
                           <motion.button
@@ -1286,7 +1286,7 @@ function C8_MathematicsDisjointSim({
                             aria-label={`Toggle number ${num} in Set A`}
                             className={`w-9 h-9 rounded-lg font-mono font-bold text-xs ${
                               setAItems.includes(num)
-                                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/40'
+                                ? 'bg-gold-600 text-white shadow-md shadow-gold-600/40'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1393,7 +1393,7 @@ function C8_MathematicsDisjointSim({
                         value={purchasePrice}
                         onChange={e => setPurchasePrice(Number(e.target.value))}
                         aria-label="Purchase Price Slider"
-                        className="w-full accent-indigo-500 mt-2"
+                        className="w-full accent-gold-500 mt-2"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1407,7 +1407,7 @@ function C8_MathematicsDisjointSim({
                         value={overheadCost}
                         onChange={e => setOverheadCost(Number(e.target.value))}
                         aria-label="Overhead Costs Slider"
-                        className="w-full accent-indigo-500 mt-2"
+                        className="w-full accent-gold-500 mt-2"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1445,7 +1445,7 @@ function C8_MathematicsDisjointSim({
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-[11px] text-slate-400 block font-bold">1. Effective Cost Price</span>
-                        <span className="text-sm font-black text-indigo-400 font-mono">₹{effectiveCP.toLocaleString()}</span>
+                        <span className="text-sm font-black text-gold-400 font-mono">₹{effectiveCP.toLocaleString()}</span>
                         <span className="text-[10px] text-slate-500 block">Purchase + Overheads</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1460,7 +1460,7 @@ function C8_MathematicsDisjointSim({
                       </div>
                     </div>
 
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-900 flex justify-between items-center text-xs">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-900 flex justify-between items-center text-xs">
                       <span className="text-slate-300 font-medium">Dealer Return on Investment:</span>
                       <span className={`font-mono font-bold ${netProfit >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
                         {netProfit >= 0 ? '✓ +' : '✗ '}₹{netProfit.toLocaleString()} ({profitPercentage.toFixed(2)}%)
@@ -1475,7 +1475,7 @@ function C8_MathematicsDisjointSim({
                 <div className="space-y-6">
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 mb-4">
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 mb-4">
                       <p className="text-xs text-amber-300 font-bold uppercase tracking-wider mb-2">⚡ Predict before Interacting</p>
                       <p className="text-sm text-slate-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1486,7 +1486,7 @@ function C8_MathematicsDisjointSim({
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction(i)}
                             aria-label={`Prediction option ${i + 1}: ${opt}`}
-                            className="p-2.5 text-xs text-left bg-slate-900 border border-slate-700 rounded-lg text-slate-300 hover:border-indigo-400"
+                            className="p-2.5 text-xs text-left bg-slate-900 border border-slate-700 rounded-lg text-slate-300 hover:border-gold-400"
                           >
                             {opt}
                           </motion.button>
@@ -1507,7 +1507,7 @@ function C8_MathematicsDisjointSim({
                         value={principalVal}
                         onChange={e => setPrincipalVal(Number(e.target.value))}
                         aria-label="Principal Amount Slider"
-                        className="w-full accent-indigo-500 mt-2"
+                        className="w-full accent-gold-500 mt-2"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1546,11 +1546,11 @@ function C8_MathematicsDisjointSim({
                       <div>
                         <div className="flex justify-between text-xs font-mono mb-1">
                           <span className="text-slate-400">Simple Interest Total Amount:</span>
-                          <span className="text-indigo-400 font-bold">₹{siAmount.toFixed(0)}</span>
+                          <span className="text-gold-400 font-bold">₹{siAmount.toFixed(0)}</span>
                         </div>
                         <div className="h-4 bg-slate-900 rounded-full overflow-hidden p-0.5 border border-slate-800">
                           <motion.div
-                            className="h-full bg-indigo-500 rounded-full"
+                            className="h-full bg-gold-500 rounded-full"
                             animate={{ width: `${Math.min(100, (siAmount / (principalVal * 2)) * 100)}%` }}
                           />
                         </div>
@@ -1586,7 +1586,7 @@ function C8_MathematicsDisjointSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-2">
                       <label htmlFor="w-count">Deployment Size: {workerCount} Workers</label>
-                      <span className="font-mono text-indigo-400">Total Fixed Work: {totalManDaysFixed} Man-Days</span>
+                      <span className="font-mono text-gold-400">Total Fixed Work: {totalManDaysFixed} Man-Days</span>
                     </div>
                     <input
                       id="w-count"
@@ -1597,7 +1597,7 @@ function C8_MathematicsDisjointSim({
                       value={workerCount}
                       onChange={e => setWorkerCount(Number(e.target.value))}
                       aria-label="Worker Count Slider"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1630,7 +1630,7 @@ function C8_MathematicsDisjointSim({
 
                     <div className="mt-4 p-3 bg-slate-900 rounded-xl border border-slate-800 text-center font-mono text-xs">
                       <span className="text-slate-400">Equation: </span>
-                      <span className="text-indigo-400 font-bold">{workerCount} workers</span> ×{' '}
+                      <span className="text-gold-400 font-bold">{workerCount} workers</span> ×{' '}
                       <span className="text-teal-400 font-bold">{completionDays} days</span> ={' '}
                       <span className="text-amber-400 font-bold">72 Man-Days (Constant)</span>
                     </div>
@@ -1652,7 +1652,7 @@ function C8_MathematicsDisjointSim({
                         value={dimA}
                         onChange={e => setDimA(Number(e.target.value))}
                         aria-label="Dimension a Slider"
-                        className="w-full accent-indigo-500 mt-2"
+                        className="w-full accent-gold-500 mt-2"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1736,7 +1736,7 @@ function C8_MathematicsDisjointSim({
 
                     <div className="mt-4 p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs text-center">
                       <span className="text-white font-bold">({dimA} + {dimB})²</span> ={' '}
-                      <span className="text-indigo-400">{areaA2} (a²)</span> +{' '}
+                      <span className="text-gold-400">{areaA2} (a²)</span> +{' '}
                       <span className="text-teal-400">{area2AB} (2ab)</span> +{' '}
                       <span className="text-amber-400">{areaB2} (b²)</span> ={' '}
                       <span className="text-emerald-400 font-black">{areaTotal}</span>
@@ -1770,7 +1770,7 @@ function C8_MathematicsDisjointSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
                 aria-label="Next interactive lab"
-                className="px-5 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 rounded-xl bg-gold-600 text-white text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1801,7 +1801,7 @@ function C8_MathematicsDisjointSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Inequality Visualizer Widget */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-indigo-400 uppercase">Interactive Inequality Solver</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase">Interactive Inequality Solver</h4>
               <div className="flex items-center gap-2 text-sm font-mono">
                 <span>{inequalityA}x</span>
                 <select
@@ -1826,7 +1826,7 @@ function C8_MathematicsDisjointSim({
                 value={inequalityA}
                 onChange={e => setInequalityA(Number(e.target.value))}
                 aria-label="Inequality coefficient A slider"
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
               <div className="p-3 bg-slate-900 rounded-xl text-xs font-mono">
                 Result:{' '}
@@ -1879,13 +1879,13 @@ function C8_MathematicsDisjointSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono capitalize">
+              <span className="text-gold-400 font-mono capitalize">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800" aria-label={`Progress: challenge ${currentChallenge + 1} of ${filteredChallenges.length}`}>
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-teal-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-teal-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1922,10 +1922,10 @@ function C8_MathematicsDisjointSim({
                       className={`text-left p-4 rounded-xl text-sm transition-all border ${
                         showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-bold'
-                          : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-indigo-500 hover:bg-slate-800/80'
+                          : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500 hover:bg-slate-800/80'
                       }`}
                     >
-                      <span className="font-mono text-indigo-400 font-bold mr-2">
+                      <span className="font-mono text-gold-400 font-bold mr-2">
                         {String.fromCharCode(65 + i)}.
                       </span>
                       {opt}
@@ -1951,7 +1951,7 @@ function C8_MathematicsDisjointSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       aria-label={`Draggable label: ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1981,7 +1981,7 @@ function C8_MathematicsDisjointSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify Diagram Labels"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Diagram Labels
                 </motion.button>
@@ -2011,7 +2011,7 @@ function C8_MathematicsDisjointSim({
                     aria-label={`Sort step ${idx + 1}: ${item}`}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-indigo-400">
+                    <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-gold-400">
                       {idx + 1}
                     </span>
                     {item}
@@ -2023,7 +2023,7 @@ function C8_MathematicsDisjointSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
                   aria-label="Verify step order"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold mt-2"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold mt-2"
                 >
                   Verify Order
                 </motion.button>
@@ -2039,7 +2039,7 @@ function C8_MathematicsDisjointSim({
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
                   aria-label="Numeric answer input"
-                  className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none"
+                  className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none"
                 />
                 <span className="text-xs text-slate-400 font-mono">{activeChallenge.unit}</span>
                 <motion.button
@@ -2047,7 +2047,7 @@ function C8_MathematicsDisjointSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   aria-label="Submit numeric answer"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Submit
                 </motion.button>
@@ -2066,7 +2066,7 @@ function C8_MathematicsDisjointSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add formula part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800/60 border border-indigo-700 rounded-lg text-xs text-white"
+                      className="px-3 py-1.5 bg-gold-800/60 border border-gold-700 rounded-lg text-xs text-white"
                     >
                       + {part}
                     </motion.button>
@@ -2075,7 +2075,7 @@ function C8_MathematicsDisjointSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex flex-wrap items-center gap-2 font-mono text-xs">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900 text-indigo-200 rounded-lg flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900 text-gold-200 rounded-lg flex items-center gap-1">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
@@ -2095,7 +2095,7 @@ function C8_MathematicsDisjointSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
                   aria-label="Validate Expression"
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Expression
                 </motion.button>
@@ -2162,7 +2162,7 @@ function C8_MathematicsDisjointSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD REPORT ───────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-2xl border border-indigo-800/80 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 rounded-2xl border border-gold-800/80 text-center space-y-3">
             <span className="text-4xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl font-black text-white">ICSE Mathematics Simulation Completed!</h2>
             <div className="flex justify-center gap-6 text-sm font-mono pt-2">
@@ -2170,7 +2170,7 @@ function C8_MathematicsDisjointSim({
                 Final Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong>
               </span>
               <span className="p-2 rounded-xl bg-slate-950 border border-slate-800">
-                Mastery: <strong className="text-indigo-400 capitalize">{masteryLevel}</strong>
+                Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong>
               </span>
             </div>
           </div>
@@ -2180,7 +2180,7 @@ function C8_MathematicsDisjointSim({
             errors === 0
               ? 'bg-emerald-950/60 border-emerald-500 text-emerald-300'
               : errors <= 3
-              ? 'bg-indigo-950/60 border-indigo-500 text-indigo-300'
+              ? 'bg-gold-950/60 border-gold-500 text-gold-300'
               : errors <= 7
               ? 'bg-amber-950/60 border-amber-500 text-amber-300'
               : 'bg-rose-950/60 border-rose-500 text-rose-300'
@@ -2211,8 +2211,8 @@ function C8_MathematicsDisjointSim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 flex items-center justify-between text-xs">
-            <span className="text-indigo-300">Spaced Repetition Schedule (SM-2):</span>
+          <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 flex items-center justify-between text-xs">
+            <span className="text-gold-300">Spaced Repetition Schedule (SM-2):</span>
             <span className="font-bold text-amber-300">
               Next Review in {errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}
             </span>
@@ -2220,12 +2220,12 @@ function C8_MathematicsDisjointSim({
 
           {/* Real-World Mission Culmination */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h4 className="text-xs font-bold uppercase text-indigo-400">{REAL_WORLD_ACTIVITY.title}</h4>
+            <h4 className="text-xs font-bold uppercase text-gold-400">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-[11px] text-slate-400">
-                  <span className="font-bold text-indigo-400 mr-2">{idx + 1}.</span> {step}
+                  <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span> {step}
                 </div>
               ))}
             </div>

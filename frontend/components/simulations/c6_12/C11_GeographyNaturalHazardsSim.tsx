@@ -110,10 +110,10 @@ export function C11_GeographyNaturalHazardsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Hazard magnitude</span><span className="font-mono font-bold text-indigo-300">{magnitude}/10</span>
+                <span>Hazard magnitude</span><span className="font-mono font-bold text-gold-300">{magnitude}/10</span>
               </div>
               <input type="range" min={1} max={10} step={1} value={magnitude} aria-label="magnitude"
-                onChange={(e) => setMagnitude(Number(e.target.value))} className="w-full min-h-11 accent-indigo-500" />
+                onChange={(e) => setMagnitude(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
@@ -132,11 +132,11 @@ export function C11_GeographyNaturalHazardsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Building quality</span><span className="font-mono font-bold text-sky-300">{buildQuality}%</span>
+                <span>Building quality</span><span className="font-mono font-bold text-gold-300">{buildQuality}%</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={buildQuality} aria-label="building quality"
-                onChange={(e) => setBuildQuality(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
-              {bar(buildQuality, 100, 'bg-sky-500')}
+                onChange={(e) => setBuildQuality(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
+              {bar(buildQuality, 100, 'bg-gold-500')}
             </div>
             <button onClick={() => { setHazard('cyclone'); setMagnitude(6); setPopulation(40); setPreparedness(30); setBuildQuality(40); }}
               className="min-h-11 w-full rounded-xl text-xs font-bold bg-slate-700 hover:bg-slate-600">Reset</button>

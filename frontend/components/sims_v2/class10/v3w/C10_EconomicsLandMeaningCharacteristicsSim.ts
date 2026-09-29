@@ -11,7 +11,7 @@ export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
     classLevel: 10, subject: 'economics', topic: 'Production Across Countries: MNCs and Global Production Chains',
     chapters: [],
     nodeIds: ['c10_eco_cbse_04_001', 'c10_eco_cbse_04_004', 'c10_eco_cbse_04_006', 'c10_eco_cbse_02_005', 'c10_eco_cbse_03_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you hold a smartphone assembled in India. Its processor was designed in the USA, the memory chips.', goal: 'Master Production Across Countries: MNCs and Global Production Chains.' },
     discovery: {
         question: 'Define a Multinational Corporation (MNC) and give one example of an Indian MNC.',
@@ -20,7 +20,7 @@ export const w_c10_economicslandmeaningcharacteristicssim: SimDef = {
         hook: 'Students often think "global production chain" means the final product is simply imported from one foreign country.',
     },
     teaching: [
-        { title: 'A Multinational Corporation (MNC) is a.', text: 'A Multinational Corporation (MNC) is a company that owns or controls production of goods or services in at least one country other than its home country.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Multinational Corporation (MNC) is a.', text: 'A Multinational Corporation (MNC) is a company that owns or controls production of goods or services in at least one country other than its home country.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_eco_cbse_04_001', title: 'A Multinational Corporation (MNC) is a.',

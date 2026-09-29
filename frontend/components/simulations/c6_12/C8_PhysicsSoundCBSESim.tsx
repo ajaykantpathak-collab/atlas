@@ -720,7 +720,7 @@ const BellJarSVG: React.FC<BellJarProps> = ({ airPressure, onTogglePump, isPumpi
         <div className="flex-1 w-full">
           <label className="text-xs font-semibold text-slate-300 flex justify-between mb-1">
             <span>Air Pressure inside Jar:</span>
-            <span className="font-mono text-cyan-400">{airPressure}%</span>
+            <span className="font-mono text-gold-400">{airPressure}%</span>
           </label>
           <input
             type="range"
@@ -732,13 +732,13 @@ const BellJarSVG: React.FC<BellJarProps> = ({ airPressure, onTogglePump, isPumpi
               // Handled by parent
             }}
             disabled
-            className="w-full accent-cyan-400 cursor-pointer"
+            className="w-full accent-gold-400 cursor-pointer"
           />
         </div>
         <button
           onClick={onTogglePump}
           className={`px-4 py-2 text-xs font-bold rounded-lg transition-all shadow-md flex items-center gap-2 ${
-            isPumping ? 'bg-amber-600 hover:bg-amber-500 text-white animate-pulse' : 'bg-cyan-600 hover:bg-cyan-500 text-white'
+            isPumping ? 'bg-amber-600 hover:bg-amber-500 text-white animate-pulse' : 'bg-gold-600 hover:bg-gold-500 text-white'
           }`}
         >
           {isPumping ? 'STOP PUMP' : airPressure === 0 ? 'RE-FILL AIR' : 'EVACUATE AIR (PUMP)'}
@@ -1031,11 +1031,11 @@ export default function C8_PhysicsSoundCBSESim() {
       {/* ─── HEADER & ISRO ACOUSTIC LAB MASTERY BAR ─── */}
       <header className="max-w-6xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 to-amber-500 flex items-center justify-center shadow-lg text-slate-950 font-bold text-2xl">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-amber-500 flex items-center justify-center shadow-lg text-slate-950 font-bold text-2xl">
             🔊
           </div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-amber-300 to-emerald-400">
+            <h1 className="text-xl sm:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-amber-300 to-emerald-400">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">Class 8 CBSE Physics • Chapter: Sound (Acoustic Mechanics)</p>
@@ -1048,7 +1048,7 @@ export default function C8_PhysicsSoundCBSESim() {
             <div className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Concept Mastery</div>
             <div className="flex items-center gap-2">
               <div className="w-24 bg-slate-800 rounded-full h-2.5 overflow-hidden">
-                <div className="bg-gradient-to-r from-cyan-500 to-emerald-400 h-full transition-all duration-500" style={{ width: `${averageMastery}%` }} />
+                <div className="bg-gradient-to-r from-gold-500 to-emerald-400 h-full transition-all duration-500" style={{ width: `${averageMastery}%` }} />
               </div>
               <span className="font-mono text-sm font-bold text-emerald-400">{averageMastery}%</span>
             </div>
@@ -1069,7 +1069,7 @@ export default function C8_PhysicsSoundCBSESim() {
             setActiveTab('predict');
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'predict' ? 'bg-cyan-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            activeTab === 'predict' ? 'bg-gold-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           <span>1. Predict (Discovery)</span>
@@ -1080,7 +1080,7 @@ export default function C8_PhysicsSoundCBSESim() {
             setActiveTab('explore');
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'explore' ? 'bg-cyan-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            activeTab === 'explore' ? 'bg-gold-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           <span>2. Visual Interactive Lab</span>
@@ -1091,7 +1091,7 @@ export default function C8_PhysicsSoundCBSESim() {
             setActiveTab('challenges');
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'challenges' ? 'bg-cyan-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            activeTab === 'challenges' ? 'bg-gold-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           <span>3. Mastery Challenges ({completedChallenges.size}/{CHALLENGES.length})</span>
@@ -1102,7 +1102,7 @@ export default function C8_PhysicsSoundCBSESim() {
             setActiveTab('studio');
           }}
           className={`flex-1 py-2.5 px-4 rounded-lg text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2 ${
-            activeTab === 'studio' ? 'bg-cyan-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
+            activeTab === 'studio' ? 'bg-gold-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-white hover:bg-slate-800'
           }`}
         >
           <span>4. Acoustic Studio & Misconceptions</span>
@@ -1115,8 +1115,8 @@ export default function C8_PhysicsSoundCBSESim() {
         {activeTab === 'predict' && (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <div className="flex items-center gap-2 text-cyan-400 font-bold text-xs uppercase tracking-wider mb-2">
-                <span className="w-2 h-2 rounded-full bg-cyan-400"></span> Intuition Check • Predict Before Learning
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider mb-2">
+                <span className="w-2 h-2 rounded-full bg-gold-400"></span> Intuition Check • Predict Before Learning
               </div>
               <h2 className="text-xl font-bold text-white mb-3">{DISCOVERY_QUESTION.question}</h2>
 
@@ -1147,12 +1147,12 @@ export default function C8_PhysicsSoundCBSESim() {
               </div>
 
               {discoverySubmitted && (
-                <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="p-4 rounded-xl bg-slate-950 border border-cyan-500/30 text-slate-300 text-sm">
-                  <div className="font-bold text-cyan-400 mb-1">Scientific Context & Key Takeaway:</div>
+                <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="p-4 rounded-xl bg-slate-950 border border-gold-500/30 text-slate-300 text-sm">
+                  <div className="font-bold text-gold-400 mb-1">Scientific Context & Key Takeaway:</div>
                   <p>{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => setActiveTab('explore')}
-                    className="mt-4 px-5 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-lg text-xs uppercase tracking-wide transition-all shadow-lg"
+                    className="mt-4 px-5 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-lg text-xs uppercase tracking-wide transition-all shadow-lg"
                   >
                     Proceed to Interactive Laboratory &rarr;
                   </button>
@@ -1161,10 +1161,10 @@ export default function C8_PhysicsSoundCBSESim() {
             </div>
 
             {/* Narrative Mission Intro Card */}
-            <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 to-indigo-950 border border-indigo-900/50 flex flex-col sm:flex-row items-center gap-4">
+            <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 to-gold-950 border border-gold-900/50 flex flex-col sm:flex-row items-center gap-4">
               <div className="text-4xl">🚀</div>
               <div>
-                <h3 className="text-md font-bold text-indigo-300 mb-1">Mission Context: {SCENARIO.title}</h3>
+                <h3 className="text-md font-bold text-gold-300 mb-1">Mission Context: {SCENARIO.title}</h3>
                 <p className="text-xs text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
               </div>
             </div>
@@ -1177,7 +1177,7 @@ export default function C8_PhysicsSoundCBSESim() {
             {/* Interactive Slide Navigator */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl">
               <div className="flex justify-between items-center mb-4">
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <div className="flex gap-2">
@@ -1212,7 +1212,7 @@ export default function C8_PhysicsSoundCBSESim() {
                     <h2 className="text-xl font-bold text-white mb-1">{slide.title}</h2>
                     <p className="text-xs text-amber-400 font-mono mb-3">{slide.keyFormula}</p>
                     <p className="text-sm text-slate-300 mb-4">{slide.explanation}</p>
-                    <div className="p-3 bg-cyan-950/40 border border-cyan-500/30 rounded-lg text-xs text-cyan-300 font-medium">
+                    <div className="p-3 bg-gold-950/40 border border-gold-500/30 rounded-lg text-xs text-gold-300 font-medium">
                       💡 <strong>Interactive Task:</strong> {slide.interactiveInstruction}
                     </div>
                   </div>
@@ -1242,7 +1242,7 @@ export default function C8_PhysicsSoundCBSESim() {
                           else if (jarAir === 0) setJarAir(100);
                         }}
                         className={`py-2 text-xs font-bold rounded-lg capitalize border transition-all ${
-                          simMedium === m ? 'bg-cyan-500 text-slate-950 border-cyan-400 font-black' : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
+                          simMedium === m ? 'bg-gold-500 text-slate-950 border-gold-400 font-black' : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                         }`}
                       >
                         {m === 'air' && '💨 Air (~343m/s)'}
@@ -1258,7 +1258,7 @@ export default function C8_PhysicsSoundCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs font-semibold mb-1">
                     <span className="text-slate-300">Frequency (f):</span>
-                    <span className="text-cyan-400 font-mono font-bold">{simFreq} Hz</span>
+                    <span className="text-gold-400 font-mono font-bold">{simFreq} Hz</span>
                   </div>
                   <input
                     type="range"
@@ -1269,7 +1269,7 @@ export default function C8_PhysicsSoundCBSESim() {
                     onChange={(e) => {
                       setSimFreq(Number(e.target.value));
                     }}
-                    className="w-full accent-cyan-400 cursor-pointer"
+                    className="w-full accent-gold-400 cursor-pointer"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                     <span>10 Hz (Infra)</span>
@@ -1329,7 +1329,7 @@ export default function C8_PhysicsSoundCBSESim() {
                     <h4 className="text-xs font-bold text-slate-300 uppercase tracking-wide">
                       Longitudinal Molecule Oscillations (Compressions & Rarefactions)
                     </h4>
-                    <span className="text-xs text-cyan-400 font-mono">v = f × λ</span>
+                    <span className="text-xs text-gold-400 font-mono">v = f × λ</span>
                   </div>
                   <LongitudinalWaveCanvas frequency={simFreq} amplitude={simAmp} medium={simMedium} isPlaying={true} />
                 </div>
@@ -1365,7 +1365,7 @@ export default function C8_PhysicsSoundCBSESim() {
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col sm:flex-row justify-between items-center gap-4">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
                 </span>
                 <h3 className="text-lg font-bold text-white">
@@ -1373,7 +1373,7 @@ export default function C8_PhysicsSoundCBSESim() {
                 </h3>
               </div>
               <div className="flex items-center gap-2">
-                <span className="px-3 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-full text-xs font-bold uppercase">
+                <span className="px-3 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-full text-xs font-bold uppercase">
                   {currentChallenge.difficulty}
                 </span>
                 <span className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs font-bold uppercase">
@@ -1398,7 +1398,7 @@ export default function C8_PhysicsSoundCBSESim() {
                       }}
                       className={`p-4 rounded-xl border text-left text-sm transition-all flex items-start gap-3 ${
                         userOptionsSelected === idx
-                          ? 'bg-cyan-950 border-cyan-400 text-cyan-200 font-semibold'
+                          ? 'bg-gold-950 border-gold-400 text-gold-200 font-semibold'
                           : 'bg-slate-800 hover:bg-slate-700 border-slate-700 text-slate-200'
                       }`}
                     >
@@ -1421,7 +1421,7 @@ export default function C8_PhysicsSoundCBSESim() {
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter number..."
-                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-lg font-mono text-cyan-300 focus:outline-none focus:border-cyan-400 w-48"
+                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-lg font-mono text-gold-300 focus:outline-none focus:border-gold-400 w-48"
                     />
                     <span className="font-bold text-slate-400 text-sm">{currentChallenge.unit}</span>
                   </div>
@@ -1435,14 +1435,14 @@ export default function C8_PhysicsSoundCBSESim() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {currentChallenge.dragItems.map((item, idx) => (
                       <div key={idx} className="p-3 bg-slate-950 border border-slate-800 rounded-xl">
-                        <div className="text-xs font-bold text-cyan-400 mb-2">Target Block: {item.targetId.toUpperCase()}</div>
+                        <div className="text-xs font-bold text-gold-400 mb-2">Target Block: {item.targetId.toUpperCase()}</div>
                         <select
                           value={dragState[item.targetId] || ''}
                           onChange={(e) => {
                             audioManager.play('tap');
                             setDragState((prev) => ({ ...prev, [item.targetId]: e.target.value }));
                           }}
-                          className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-slate-200 font-semibold focus:outline-none focus:border-cyan-400"
+                          className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-slate-200 font-semibold focus:outline-none focus:border-gold-400"
                         >
                           <option value="">-- Select Label --</option>
                           {currentChallenge.dragItems?.map((d, dIdx) => (
@@ -1474,7 +1474,7 @@ export default function C8_PhysicsSoundCBSESim() {
                   {!challengeFeedback?.isCorrect ? (
                     <button
                       onClick={handleVerifyChallenge}
-                      className="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold rounded-xl text-sm transition-all shadow-lg"
+                      className="px-6 py-2.5 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold rounded-xl text-sm transition-all shadow-lg"
                     >
                       Verify Answer
                     </button>
@@ -1533,7 +1533,7 @@ export default function C8_PhysicsSoundCBSESim() {
 
             {/* SRS Review Summary Table */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wide mb-3">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wide mb-3">
                 Spaced Repetition System (SM-2) Memory Tracking
               </h3>
               <div className="overflow-x-auto">

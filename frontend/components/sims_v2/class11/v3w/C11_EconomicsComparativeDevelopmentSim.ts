@@ -11,7 +11,7 @@ export const w_c11_economicscomparativedevelopmentsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Comparative Analysis: India, Pakistan and China Background',
     chapters: [],
     nodeIds: ['c11_eco_cbse_08_001', 'c11_eco_cbse_08_007', 'c11_eco_cbse_08_011', 'c11_eco_cbse_01_009', 'c11_eco_cbse_08_003', 'c11_eco_cbse_08_004', 'c11_eco_cbse_08_005', 'c11_eco_cbse_08_006', 'c11_eco_cbse_08_008', 'c11_eco_cbse_08_010', 'c11_eco_cbse_06_009', 'c11_eco_cbse_01_001', 'c11_eco_cbse_01_002', 'c11_eco_cbse_01_005', 'c11_eco_cbse_01_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re at a family dinner where three cousins — born the same year — share their life stories: one.', goal: 'Master Comparative Analysis: India, Pakistan and China Background.' },
     discovery: {
         question: 'Using Table 8.1 data, explain why China\'s population density (150 persons/sq.km) is lower than India\'s (473 persons/sq.km) even though their total populations.',
@@ -20,7 +20,7 @@ export const w_c11_economicscomparativedevelopmentsim: SimDef = {
         hook: 'Students often treat "population growth rate" and "fertility rate" as interchangeable, thinking a fertility rate of 2.0.',
     },
     teaching: [
-        { title: 'Comparative development analysis is the.', text: 'Comparative development analysis is the systematic examination of economic and human development trajectories across countries using standardized indicators (GDP growth, sectoral composition,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Comparative development analysis is the.', text: 'Comparative development analysis is the systematic examination of economic and human development trajectories across countries using standardized indicators (GDP growth, sectoral composition,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_08_001', title: 'Comparative development analysis is the.',

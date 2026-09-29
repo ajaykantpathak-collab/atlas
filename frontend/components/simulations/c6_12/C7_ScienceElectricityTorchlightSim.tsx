@@ -69,10 +69,10 @@ export function C7_ScienceElectricityTorchlightSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Bulb tightness in holder</span>
-            <span className="text-indigo-300 font-mono font-bold">{contact} %</span>
+            <span className="text-gold-300 font-mono font-bold">{contact} %</span>
           </label>
           <input type="range" min={40} max={100} step={1} value={contact} aria-label="bulb contact tightness"
-            onChange={(e) => setContact(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setContact(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
       </div>
 
@@ -135,7 +135,7 @@ export function C7_ScienceElectricityTorchlightSim() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Cell push (voltage)</p>
-          <p className={`text-lg font-extrabold font-mono ${voltage <= 0 ? 'text-rose-300' : 'text-sky-300'}`}>{voltage.toFixed(1)} V</p>
+          <p className={`text-lg font-extrabold font-mono ${voltage <= 0 ? 'text-rose-300' : 'text-gold-300'}`}>{voltage.toFixed(1)} V</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Current in loop</p>

@@ -1402,7 +1402,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                       onClick={() => setValleyType('river')}
                       aria-label="Select fluvial stage V-shaped river valley"
                       className={`px-5 py-2 rounded-xl text-xs font-bold border transition-all ${
-                        valleyType === 'river' ? 'bg-blue-600 text-white border-blue-400 shadow-lg' : 'bg-slate-800 text-slate-400 border-slate-700'
+                        valleyType === 'river' ? 'bg-gold-600 text-white border-gold-400 shadow-lg' : 'bg-slate-800 text-slate-400 border-slate-700'
                       }`}
                     >
                       🏞️ Fluvial Stage (V-Shaped River Valley)
@@ -1413,7 +1413,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                       onClick={() => setValleyType('glacier')}
                       aria-label="Select glacial stage U-shaped trough"
                       className={`px-5 py-2 rounded-xl text-xs font-bold border transition-all ${
-                        valleyType === 'glacier' ? 'bg-cyan-600 text-white border-cyan-400 shadow-lg' : 'bg-slate-800 text-slate-400 border-slate-700'
+                        valleyType === 'glacier' ? 'bg-gold-600 text-white border-gold-400 shadow-lg' : 'bg-slate-800 text-slate-400 border-slate-700'
                       }`}
                     >
                       🏔️ Glacial Stage (U-Shaped Trough + Hanging Valleys)
@@ -1477,7 +1477,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                     <div>
                       <div className="flex justify-between text-xs font-semibold text-slate-300 mb-1">
                         <label htmlFor="slider-seepage">💧 Water Infiltration & Seepage: {waterSeepageRate}%</label>
-                        <span className="text-cyan-400">Permeable Joints</span>
+                        <span className="text-gold-400">Permeable Joints</span>
                       </div>
                       <input
                         id="slider-seepage"
@@ -1487,7 +1487,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                         value={waterSeepageRate}
                         aria-label={`Water infiltration and seepage rate slider, currently ${waterSeepageRate} percent`}
                         onChange={(e) => setWaterSeepageRate(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1628,7 +1628,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                         value={oceanDepthProbe}
                         aria-label={`Sonar submarine depth probe slider, currently ${oceanDepthProbe} metres`}
                         onChange={(e) => setOceanDepthProbe(Number(e.target.value))}
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                       <div className="text-[11px] text-slate-300 bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                         {oceanDepthProbe <= 200 && '📌 Continental Shelf (0–200m): High sunlight penetration, prime fishing banks, offshore oil (Mumbai High).'}
@@ -1742,7 +1742,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                 )}
                 {activeGeomorphicAgent === 'ice' && (
                   <div className="p-4 bg-slate-900 rounded-xl text-xs space-y-2 text-slate-300">
-                    <p className="font-bold text-cyan-300">Glacial Bulldozer Dynamics</p>
+                    <p className="font-bold text-gold-300">Glacial Bulldozer Dynamics</p>
                     <p>• Plucking wrenches bedrock blocks from mountain cirques.</p>
                     <p>• Abrasion uses embedded boulders like sandpaper to carve U-troughs.</p>
                     <p>• Moraines deposit unsorted till along lateral margins and terminal snouts.</p>
@@ -1757,7 +1757,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                 )}
                 {activeGeomorphicAgent === 'wave' && (
                   <div className="p-4 bg-slate-900 rounded-xl text-xs space-y-2 text-slate-300">
-                    <p className="font-bold text-sky-300">Marine Gradational Chain</p>
+                    <p className="font-bold text-gold-300">Marine Gradational Chain</p>
                     <p>• Wave Hydraulic Action → Basal Notch → Sea Cave → Sea Arch → Sea Stack → Sea Stump.</p>
                     <p>• Longshore drift builds depositional Spits, Bars, and Tombolos.</p>
                   </div>
@@ -1839,7 +1839,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
 
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={Math.round(((currentChallenge + 1) / filteredChallenges.length) * 100)} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1942,7 +1942,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                    <span className="text-xs font-bold text-cyan-400">Wind DEPOSITION Landforms</span>
+                    <span className="text-xs font-bold text-gold-400">Wind DEPOSITION Landforms</span>
                     <div
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop('t_dep1')}
@@ -2066,7 +2066,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add layer: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2219,7 +2219,7 @@ function C11_GeographyAeolianProcessesLandformsSim(props: Props = DEFAULT_PROPS)
           )}
 
           {/* Spaced Repetition Schedule (SM-2) */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border border-amber-500/40 shadow-lg space-y-3">
+          <div className="p-5 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 rounded-2xl border border-amber-500/40 shadow-lg space-y-3">
             <div className="flex items-center gap-2 text-amber-400">
               <span className="text-lg">📅</span>
               <h3 className="text-sm font-bold uppercase tracking-wider">Spaced Repetition Schedule (SM-2 Active Recall)</h3>

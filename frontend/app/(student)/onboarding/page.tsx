@@ -80,21 +80,21 @@ const t = (key: string, lang: Language): string => translations[key]?.[lang] || 
 
 // ─── Subject Metadata ─────────────────────────────────────────────────────────
 const SUBJECT_META: Record<Subject, { icon: string; color: string; gradient: string }> = {
-  maths: { icon: "📐", color: "bg-blue-100 text-blue-700 border-blue-200", gradient: "from-blue-400 to-indigo-500" },
-  physics: { icon: "⚛️", color: "bg-purple-100 text-purple-700 border-purple-200", gradient: "from-purple-400 to-violet-500" },
+  maths: { icon: "📐", color: "bg-gold-100 text-gold-700 border-gold-200", gradient: "from-gold-400 to-gold-500" },
+  physics: { icon: "⚛️", color: "bg-purple-100 text-purple-700 border-purple-200", gradient: "from-purple-400 to-gold-500" },
   chemistry: { icon: "🧪", color: "bg-emerald-100 text-emerald-700 border-emerald-200", gradient: "from-emerald-400 to-teal-500" },
   biology: { icon: "🧬", color: "bg-pink-100 text-pink-700 border-pink-200", gradient: "from-pink-400 to-rose-500" },
   english: { icon: "📖", color: "bg-amber-100 text-amber-700 border-amber-200", gradient: "from-amber-400 to-orange-500" },
   history: { icon: "🏛️", color: "bg-orange-100 text-orange-700 border-orange-200", gradient: "from-orange-400 to-red-500" },
-  geography: { icon: "🌍", color: "bg-teal-100 text-teal-700 border-teal-200", gradient: "from-teal-400 to-cyan-500" },
-  political_science: { icon: "🏛️", color: "bg-indigo-100 text-indigo-700 border-indigo-200", gradient: "from-indigo-400 to-blue-500" },
+  geography: { icon: "🌍", color: "bg-teal-100 text-teal-700 border-teal-200", gradient: "from-teal-400 to-gold-500" },
+  political_science: { icon: "🏛️", color: "bg-gold-100 text-gold-700 border-gold-200", gradient: "from-gold-400 to-gold-500" },
   economics: { icon: "📊", color: "bg-green-100 text-green-700 border-green-200", gradient: "from-green-400 to-emerald-500" },
   informatics: { icon: "💻", color: "bg-slate-100 text-slate-700 border-slate-200", gradient: "from-slate-400 to-gray-500" },
 };
 
 const GOALS: { id: GoalType; icon: string; color: string; border: string; bg: string }[] = [
   { id: "boards_top", icon: "🏆", color: "text-amber-600", border: "border-amber-300", bg: "bg-amber-50" },
-  { id: "boards_good", icon: "⭐", color: "text-indigo-600", border: "border-indigo-300", bg: "bg-indigo-50" },
+  { id: "boards_good", icon: "⭐", color: "text-gold-600", border: "border-gold-300", bg: "bg-gold-50" },
   { id: "foundation", icon: "📚", color: "text-emerald-600", border: "border-emerald-300", bg: "bg-emerald-50" },
   { id: "competitive", icon: "🚀", color: "text-rose-600", border: "border-rose-300", bg: "bg-rose-50" },
 ];
@@ -129,15 +129,15 @@ function ProgressIndicator({ currentStep }: { currentStep: StepId }) {
   return (
     <div className="w-full px-6 py-4" role="navigation" aria-label="Onboarding progress">
       <div className="flex items-center justify-between mb-3">
-        <span className="text-xs font-semibold text-indigo-400 tracking-wide uppercase">
+        <span className="text-xs font-semibold text-gold-400 tracking-wide uppercase">
           {t("step", "en")} {Math.min(currentIdx + 1, TOTAL_STEPS)} {t("of", "en")} {TOTAL_STEPS}
         </span>
-        <span className="text-xs font-medium text-indigo-300">{labels[currentIdx] || ""}</span>
+        <span className="text-xs font-medium text-gold-300">{labels[currentIdx] || ""}</span>
       </div>
       {/* Bar track */}
       <div className="relative h-2 bg-white/20 rounded-full overflow-hidden backdrop-blur-sm">
         <motion.div
-          className="absolute inset-y-0 left-0 bg-gradient-to-r from-indigo-400 via-pink-400 to-indigo-400 rounded-full"
+          className="absolute inset-y-0 left-0 bg-gradient-to-r from-gold-400 via-pink-400 to-gold-400 rounded-full"
           initial={{ width: 0 }}
           animate={{ width: `${progress}%` }}
           transition={{ type: "spring", stiffness: 100, damping: 15 }}
@@ -153,9 +153,9 @@ function ProgressIndicator({ currentStep }: { currentStep: StepId }) {
               <motion.div
                 className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold transition-colors duration-300 ${
                   isComplete
-                    ? "bg-indigo-400 text-white"
+                    ? "bg-gold-400 text-white"
                     : isActive
-                    ? "bg-white text-indigo-600 shadow-lg shadow-indigo-200"
+                    ? "bg-white text-gold-600 shadow-lg shadow-gold-200"
                     : "bg-white/30 text-white/60"
                 }`}
                 animate={isActive ? { scale: [1, 1.15, 1] } : {}}
@@ -194,7 +194,7 @@ function WelcomeStep({ onNext, onSkip, lang }: { onNext: () => void; onSkip: () 
         animate={{ scale: 1, rotate: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 15, delay: 0.2 }}
       >
-        <div className="w-28 h-28 rounded-3xl bg-gradient-to-br from-indigo-400 via-pink-400 to-indigo-600 flex items-center justify-center shadow-2xl shadow-indigo-300/50 relative">
+        <div className="w-28 h-28 rounded-3xl bg-gradient-to-br from-gold-400 via-pink-400 to-gold-600 flex items-center justify-center shadow-2xl shadow-gold-300/50 relative">
           <BookOpen size={52} className="text-white" strokeWidth={1.5} />
           {/* Floating sparkles */}
           <motion.div
@@ -234,7 +234,7 @@ function WelcomeStep({ onNext, onSkip, lang }: { onNext: () => void; onSkip: () 
       <motion.div className="w-full max-w-xs space-y-3" variants={staggerItem}>
         <motion.button
           onClick={onNext}
-          className="w-full py-4 px-6 rounded-2xl bg-white text-indigo-600 font-bold text-base
+          className="w-full py-4 px-6 rounded-2xl bg-white text-gold-600 font-bold text-base
                      shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30
                      active:scale-95 transition-all duration-200 flex items-center justify-center gap-2"
           whileTap={{ scale: 0.97 }}
@@ -288,7 +288,7 @@ function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
             onClick={() => useOnboardingStore.getState().setClassLevel(level)}
             className={`relative p-4 rounded-2xl border-2 text-center transition-all duration-300 ${
               classLevel === level
-                ? "bg-white/15 border-indigo-300 shadow-lg shadow-indigo-500/20"
+                ? "bg-white/15 border-gold-300 shadow-lg shadow-gold-500/20"
                 : "bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20"
             }`}
             whileTap={{ scale: 0.97 }}
@@ -296,14 +296,14 @@ function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
           >
             <GraduationCap
               size={26}
-              className={`mx-auto mb-2 ${classLevel === level ? "text-indigo-200" : "text-white/40"}`}
+              className={`mx-auto mb-2 ${classLevel === level ? "text-gold-200" : "text-white/40"}`}
             />
             <span className={`text-sm font-bold block ${classLevel === level ? "text-white" : "text-white/60"}`}>
               {classLabel(level)}
             </span>
             {classLevel === level && (
               <motion.div
-                className="absolute top-2 right-2 w-6 h-6 bg-indigo-400 rounded-full flex items-center justify-center"
+                className="absolute top-2 right-2 w-6 h-6 bg-gold-400 rounded-full flex items-center justify-center"
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ type: "spring", stiffness: 400 }}
@@ -325,7 +325,7 @@ function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
               onClick={() => useOnboardingStore.getState().setBoard(b)}
               className={`px-5 py-2.5 rounded-xl text-sm font-semibold border-2 transition-all duration-200 ${
                 board === b
-                  ? "bg-indigo-400/20 border-indigo-300 text-white"
+                  ? "bg-gold-400/20 border-gold-300 text-white"
                   : "bg-white/5 border-white/10 text-white/50 hover:text-white/70"
               }`}
               whileTap={{ scale: 0.95 }}
@@ -342,7 +342,7 @@ function ClassStep({ onNext, lang }: { onNext: () => void; lang: Language }) {
           disabled={!canProceed}
           className={`w-full py-4 rounded-2xl font-bold text-base flex items-center justify-center gap-2 transition-all duration-300 ${
             canProceed
-              ? "bg-white text-indigo-600 shadow-lg shadow-black/20 active:scale-95"
+              ? "bg-white text-gold-600 shadow-lg shadow-black/20 active:scale-95"
               : "bg-white/10 text-white/30 cursor-not-allowed"
           }`}
           whileTap={canProceed ? { scale: 0.97 } : {}}
@@ -424,7 +424,7 @@ function SubjectsStep({ onNext, onBack, lang }: { onNext: () => void; onBack: ()
                   animate={{ scale: 1 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
-                  <Check size={12} className="text-indigo-600" strokeWidth={3} />
+                  <Check size={12} className="text-gold-600" strokeWidth={3} />
                 </motion.div>
               )}
             </motion.button>
@@ -452,7 +452,7 @@ function SubjectsStep({ onNext, onBack, lang }: { onNext: () => void; onBack: ()
         </motion.button>
         <motion.button
           onClick={handleNext}
-          className="flex-[2] py-4 rounded-2xl bg-white text-indigo-600 font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all"
+          className="flex-[2] py-4 rounded-2xl bg-white text-gold-600 font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all"
           whileTap={{ scale: 0.97 }}
         >
           {dt("subjects_next")} <ChevronRight size={18} />
@@ -494,7 +494,7 @@ function LanguageStep({ onNext, onBack, lang }: { onNext: () => void; onBack: ()
             onClick={() => setLanguage(opt.value)}
             className={`w-full p-5 rounded-2xl border-2 text-left transition-all duration-300 flex items-center gap-4 ${
               language === opt.value
-                ? "bg-white/15 border-indigo-300 shadow-lg shadow-indigo-500/20"
+                ? "bg-white/15 border-gold-300 shadow-lg shadow-gold-500/20"
                 : "bg-white/5 border-white/10 hover:bg-white/10"
             }`}
             variants={staggerItem}
@@ -509,13 +509,13 @@ function LanguageStep({ onNext, onBack, lang }: { onNext: () => void; onBack: ()
             </div>
             <motion.div
               className={`w-6 h-6 rounded-full border-2 flex items-center justify-center ${
-                language === opt.value ? "border-indigo-300" : "border-white/20"
+                language === opt.value ? "border-gold-300" : "border-white/20"
               }`}
               animate={language === opt.value ? { scale: [1, 1.2, 1] } : {}}
             >
               {language === opt.value && (
                 <motion.div
-                  className="w-3.5 h-3.5 bg-indigo-400 rounded-full"
+                  className="w-3.5 h-3.5 bg-gold-400 rounded-full"
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ type: "spring", stiffness: 500 }}
@@ -536,7 +536,7 @@ function LanguageStep({ onNext, onBack, lang }: { onNext: () => void; onBack: ()
         </motion.button>
         <motion.button
           onClick={onNext}
-          className="flex-[2] py-4 rounded-2xl bg-white text-indigo-600 font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all"
+          className="flex-[2] py-4 rounded-2xl bg-white text-gold-600 font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all"
           whileTap={{ scale: 0.97 }}
         >
           {dt("language_next")} <ChevronRight size={18} />
@@ -612,7 +612,7 @@ function GoalStep({ onNext, onBack, lang }: { onNext: () => void; onBack: () => 
         </motion.button>
         <motion.button
           onClick={onNext}
-          className="flex-[2] py-4 rounded-2xl bg-gradient-to-r from-indigo-400 to-pink-400 text-white font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all"
+          className="flex-[2] py-4 rounded-2xl bg-gradient-to-r from-gold-400 to-pink-400 text-white font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all"
           whileTap={{ scale: 0.97 }}
           whileHover={{ y: -2 }}
         >
@@ -745,7 +745,7 @@ function ReadyStep({ lang }: { lang: Language }) {
         animate={{ scale: 1, rotate: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 12, delay: 0.3 }}
       >
-        <div className="w-32 h-32 rounded-full bg-gradient-to-br from-indigo-400 via-pink-400 to-amber-400 flex items-center justify-center shadow-2xl shadow-indigo-400/40 relative">
+        <div className="w-32 h-32 rounded-full bg-gradient-to-br from-gold-400 via-pink-400 to-amber-400 flex items-center justify-center shadow-2xl shadow-gold-400/40 relative">
           <Trophy size={56} className="text-white" />
           {/* Confetti */}
           {["🎉", "🎊", "✨", "🌟", "💫"].map((emoji, i) => (
@@ -800,7 +800,7 @@ function ReadyStep({ lang }: { lang: Language }) {
         <motion.button
           onClick={startFirstLesson}
           disabled={lessonLoading}
-          className="w-full py-4 px-6 rounded-2xl bg-white text-indigo-600 font-bold text-base
+          className="w-full py-4 px-6 rounded-2xl bg-white text-gold-600 font-bold text-base
                      shadow-lg shadow-black/20 flex items-center justify-center gap-2 disabled:opacity-70"
           whileTap={{ scale: 0.97 }}
           whileHover={{ y: -2 }}
@@ -929,7 +929,7 @@ export default function OnboardingPage() {
   const bgContent = (
     <div className="fixed inset-0 -z-10">
       {/* Base gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 via-indigo-800 to-purple-900" />
+      <div className="absolute inset-0 bg-gradient-to-br from-gold-900 via-gold-800 to-purple-900" />
 
       {/* Mesh / noise overlay */}
       <div
@@ -984,7 +984,7 @@ export default function OnboardingPage() {
         <header className="flex items-center justify-between px-5 pt-5 pb-0">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-400 to-pink-400 flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-gold-400 to-pink-400 flex items-center justify-center">
               <BookOpen size={16} className="text-white" />
             </div>
             <span className="text-sm font-bold text-white/80">Atlas</span>
@@ -997,7 +997,7 @@ export default function OnboardingPage() {
                 key={l}
                 onClick={() => setLang(l)}
                 className={`px-2.5 py-1.5 rounded-lg text-[10px] font-bold transition-all duration-200 ${
-                  lang === l ? "bg-white text-indigo-600 shadow-sm" : "text-white/50 hover:text-white/70"
+                  lang === l ? "bg-white text-gold-600 shadow-sm" : "text-white/50 hover:text-white/70"
                 }`}
                 aria-label={`Switch to ${l}`}
                 aria-pressed={lang === l}

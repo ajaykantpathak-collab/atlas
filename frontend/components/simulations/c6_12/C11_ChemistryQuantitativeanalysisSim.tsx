@@ -608,7 +608,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
               type="range" min="0.1" max="2.0" step="0.04"
               value={simState.co2Mass}
               onChange={(e) => setSimState({ ...simState, co2Mass: parseFloat(e.target.value) })}
-              className="w-full accent-cyan-500"
+              className="w-full accent-gold-500"
             />
           </div>
           <div>
@@ -617,7 +617,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
               type="range" min="0.05" max="1.0" step="0.02"
               value={simState.h2oMass}
               onChange={(e) => setSimState({ ...simState, h2oMass: parseFloat(e.target.value) })}
-              className="w-full accent-blue-500"
+              className="w-full accent-gold-500"
             />
           </div>
         </div>
@@ -666,14 +666,14 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
 
         {/* Real-time Percentage Calculation Panel */}
         <div className="mt-4 grid grid-cols-2 gap-4 text-center">
-          <div className="bg-cyan-950/60 border border-cyan-800 p-3 rounded-lg">
-            <span className="text-xs text-cyan-300 block">Carbon Percentage (%C)</span>
-            <span className="text-2xl font-black text-cyan-400">{pctC}%</span>
+          <div className="bg-gold-950/60 border border-gold-800 p-3 rounded-lg">
+            <span className="text-xs text-gold-300 block">Carbon Percentage (%C)</span>
+            <span className="text-2xl font-black text-gold-400">{pctC}%</span>
             <span className="text-[10px] text-slate-400 block mt-1">(12/44) × ({simState.co2Mass}g / {simState.organicMass}g) × 100</span>
           </div>
-          <div className="bg-blue-950/60 border border-blue-800 p-3 rounded-lg">
-            <span className="text-xs text-blue-300 block">Hydrogen Percentage (%H)</span>
-            <span className="text-2xl font-black text-blue-400">{pctH}%</span>
+          <div className="bg-gold-950/60 border border-gold-800 p-3 rounded-lg">
+            <span className="text-xs text-gold-300 block">Hydrogen Percentage (%H)</span>
+            <span className="text-2xl font-black text-gold-400">{pctH}%</span>
             <span className="text-[10px] text-slate-400 block mt-1">(2/18) × ({simState.h2oMass}g / {simState.organicMass}g) × 100</span>
           </div>
         </div>
@@ -710,7 +710,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
               key={deg}
               onClick={() => setSimState({ ...simState, degree: deg })}
               className={`px-3 py-1 rounded-md font-bold capitalize transition-all ${
-                simState.degree === deg ? 'bg-cyan-500 text-slate-950 shadow-md' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
+                simState.degree === deg ? 'bg-gold-500 text-slate-950 shadow-md' : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
               }`}
             >
               {deg}
@@ -770,7 +770,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
             </div>
             <div className="flex justify-between border-b border-slate-700 pb-1">
               <span className="text-slate-400">Geometry:</span>
-              <span className="font-bold text-cyan-300">{simState.intermediateType === 'carbanion' ? 'Pyramidal (107°)' : 'Trigonal Planar (120°)'}</span>
+              <span className="font-bold text-gold-300">{simState.intermediateType === 'carbanion' ? 'Pyramidal (107°)' : 'Trigonal Planar (120°)'}</span>
             </div>
             <div className="flex justify-between border-b border-slate-700 pb-1">
               <span className="text-slate-400">Valence Electrons around C:</span>
@@ -835,7 +835,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
             <select
               value={simState.solvent}
               onChange={(e) => setSimState({ ...simState, solvent: e.target.value as any })}
-              className="bg-slate-900 border border-slate-700 rounded px-2 py-1 text-cyan-300 font-bold w-full mt-1"
+              className="bg-slate-900 border border-slate-700 rounded px-2 py-1 text-gold-300 font-bold w-full mt-1"
             >
               <option value="protic">Polar Protic (H₂O, EtOH)</option>
               <option value="aprotic">Polar Aprotic (Acetone, DMSO)</option>
@@ -868,7 +868,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
           <div className="flex justify-between text-xs mb-2">
             <span className="font-bold text-amber-400">Energy Profile Diagram</span>
             <span className="text-slate-400">
-              Rate Law: <code className="text-cyan-300 font-mono">
+              Rate Law: <code className="text-gold-300 font-mono">
                 {simState.mechType === 'SN1' || simState.mechType === 'E1' ? 'Rate = k[Substrate]' : 'Rate = k[Substrate][Attacker]'}
               </code>
             </span>
@@ -916,7 +916,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
           </div>
           <div>
             <span className="text-slate-400 block font-semibold">Favored Conditions:</span>
-            <span className="font-bold text-cyan-300">
+            <span className="font-bold text-gold-300">
               {simState.mechType === 'SN1' ? '3° Substrate, Weak Nucleophile, Polar Protic' :
                simState.mechType === 'SN2' ? '1° Substrate, Strong Nucleophile, Polar Aprotic' :
                simState.mechType === 'E1' ? '3° Substrate, High Temp, Weak Base' :
@@ -1055,7 +1055,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
           {simState.chlorinationStep === 'initiation' && (
             <div className="space-y-3">
               <span className="inline-block bg-amber-500/20 text-amber-300 text-xs px-3 py-1 rounded-full font-bold">Step 1: Initiation (Homolytic Cleavage by UV light)</span>
-              <div className="text-2xl font-mono text-cyan-300 py-4 font-bold flex items-center justify-center gap-4">
+              <div className="text-2xl font-mono text-gold-300 py-4 font-bold flex items-center justify-center gap-4">
                 <span>Cl—Cl</span>
                 <span className="text-amber-400 text-sm">hν (UV) →</span>
                 <span>2 Cl•</span>
@@ -1066,8 +1066,8 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
 
           {simState.chlorinationStep === 'propagation1' && (
             <div className="space-y-3">
-              <span className="inline-block bg-cyan-500/20 text-cyan-300 text-xs px-3 py-1 rounded-full font-bold">Step 2: Propagation Part 1 (Hydrogen Abstraction)</span>
-              <div className="text-2xl font-mono text-cyan-300 py-4 font-bold flex items-center justify-center gap-4">
+              <span className="inline-block bg-gold-500/20 text-gold-300 text-xs px-3 py-1 rounded-full font-bold">Step 2: Propagation Part 1 (Hydrogen Abstraction)</span>
+              <div className="text-2xl font-mono text-gold-300 py-4 font-bold flex items-center justify-center gap-4">
                 <span>Cl• + CH₄</span>
                 <span className="text-amber-400 text-sm">→</span>
                 <span>HCl + •CH₃</span>
@@ -1078,8 +1078,8 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
 
           {simState.chlorinationStep === 'propagation2' && (
             <div className="space-y-3">
-              <span className="inline-block bg-blue-500/20 text-blue-300 text-xs px-3 py-1 rounded-full font-bold">Step 3: Propagation Part 2 (Radical Regeneration)</span>
-              <div className="text-2xl font-mono text-cyan-300 py-4 font-bold flex items-center justify-center gap-4">
+              <span className="inline-block bg-gold-500/20 text-gold-300 text-xs px-3 py-1 rounded-full font-bold">Step 3: Propagation Part 2 (Radical Regeneration)</span>
+              <div className="text-2xl font-mono text-gold-300 py-4 font-bold flex items-center justify-center gap-4">
                 <span>•CH₃ + Cl₂</span>
                 <span className="text-amber-400 text-sm">→</span>
                 <span>CH₃Cl + Cl•</span>
@@ -1134,11 +1134,11 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
       {/* HEADER BAR */}
       <header className="max-w-6xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 to-cyan-500 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 to-gold-500 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg">
             C11
           </div>
           <div>
-            <h1 className="text-xl font-black bg-gradient-to-r from-amber-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-black bg-gradient-to-r from-amber-400 via-gold-400 to-gold-400 bg-clip-text text-transparent">
               Organic Quantitative Analysis & Mechanisms
             </h1>
             <p className="text-xs text-slate-400">Class 11 (ISC) Chemistry Interactive Virtual Lab</p>
@@ -1149,7 +1149,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
         <div className="flex items-center gap-6 text-xs">
           <div className="text-center">
             <span className="text-slate-400 block">Overall Mastery</span>
-            <span className="text-lg font-black text-cyan-400">{overallMasteryScore}%</span>
+            <span className="text-lg font-black text-gold-400">{overallMasteryScore}%</span>
           </div>
           <div className="text-center">
             <span className="text-slate-400 block">Lab Score</span>
@@ -1157,7 +1157,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
           </div>
           <div className="w-28 bg-slate-800 h-3 rounded-full overflow-hidden border border-slate-700">
             <div
-              className="bg-gradient-to-r from-amber-500 to-cyan-500 h-full transition-all duration-500"
+              className="bg-gradient-to-r from-amber-500 to-gold-500 h-full transition-all duration-500"
               style={{ width: `${overallMasteryScore}%` }}
             />
           </div>
@@ -1224,7 +1224,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
             onClick={() => {audioManager.play('tap');  setActiveTab(tab.id as any); playFx('tap'); audioManager.play('whoosh'); }}
             className={`flex-1 py-2.5 rounded-lg transition-all ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-amber-500 to-cyan-500 text-slate-950 shadow-md font-black'
+                ? 'bg-gradient-to-r from-amber-500 to-gold-500 text-slate-950 shadow-md font-black'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1239,7 +1239,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
           <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between shadow-xl">
             <div>
               <div className="flex justify-between items-center mb-2">
-                <span className="text-[10px] font-mono text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800">
+                <span className="text-[10px] font-mono text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800">
                   {currentSlide.nodeId}
                 </span>
                 <span className="text-xs text-slate-400 font-bold">
@@ -1322,7 +1322,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
         <main className="max-w-3xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl relative">
           <div className="flex justify-between items-center mb-4 pb-3 border-b border-slate-800">
             <div>
-              <span className="text-[10px] font-mono text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800">
+              <span className="text-[10px] font-mono text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded border border-gold-800">
                 Node: {currentChallenge.nodeId}
               </span>
               <h3 className="text-lg font-bold text-amber-400 mt-1">{currentChallenge.title}</h3>
@@ -1347,7 +1347,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
                     value={userCalcC}
                     onChange={(e) => setUserCalcC(e.target.value)}
                     disabled={quizSubmitted}
-                    className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-cyan-300 font-bold"
+                    className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-gold-300 font-bold"
                   />
                 </div>
                 <div>
@@ -1358,7 +1358,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
                     value={userCalcH}
                     onChange={(e) => setUserCalcH(e.target.value)}
                     disabled={quizSubmitted}
-                    className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-blue-300 font-bold"
+                    className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-gold-300 font-bold"
                   />
                 </div>
               </div>
@@ -1419,7 +1419,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
             {quizSubmitted && (
               <button
                 onClick={handleNextChallenge}
-                className="px-6 py-2.5 bg-gradient-to-r from-amber-500 to-cyan-500 text-slate-950 font-black rounded-xl text-xs hover:opacity-90"
+                className="px-6 py-2.5 bg-gradient-to-r from-amber-500 to-gold-500 text-slate-950 font-black rounded-xl text-xs hover:opacity-90"
               >
                 {currentChallengeIndex === CHALLENGES.length - 1 ? 'Finish Lab & View Mastery →' : 'Next Challenge →'}
               </button>
@@ -1446,7 +1446,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
                 return (
                   <div key={id} className="bg-slate-950 border border-slate-800 rounded-xl p-4 flex items-center justify-between">
                     <div>
-                      <span className="text-[10px] font-mono text-cyan-400 block">{id}</span>
+                      <span className="text-[10px] font-mono text-gold-400 block">{id}</span>
                       <h4 className="text-xs font-bold text-slate-200 mt-0.5">{slide?.title || id}</h4>
                       <span className="text-[10px] text-slate-500 block mt-1">P(Mastery): {(pMastery * 100).toFixed(1)}%</span>
                     </div>
@@ -1461,7 +1461,7 @@ export default function C11_ChemistryQuantitativeanalysisSim() {
                       </span>
                       <div className="w-20 bg-slate-800 h-2 rounded-full overflow-hidden mt-1">
                         <div
-                          className="bg-cyan-500 h-full transition-all duration-300"
+                          className="bg-gold-500 h-full transition-all duration-300"
                           style={{ width: `${pMastery * 100}%` }}
                         />
                       </div>

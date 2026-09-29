@@ -11,7 +11,7 @@ export const w_c11_accountancybasictermsdrawersim: SimDef = {
     classLevel: 11, subject: 'accountancy', topic: 'Balance Sheet: Meaning and Objectives',
     chapters: [],
     nodeIds: ['c11_acc_cbse_08_006', 'c11_acc_cbse_09_008', 'c11_acc_cbse_09_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re the owner of a small kirana store in Delhi. It\'s March 31st, year-end.', goal: 'Master Balance Sheet: Meaning and Objectives.' },
     discovery: {
         question: 'Two students marshall the same Balance Sheet differently. Student A uses Order of Permanence: Land → Building → Machinery → Furniture → Debtors → Cash.',
@@ -20,7 +20,7 @@ export const w_c11_accountancybasictermsdrawersim: SimDef = {
         hook: '**Misconception:** "Closing Stock appears in the Trial Balance, so I just copy it to the Balance Sheet like Furniture.',
     },
     teaching: [
-        { title: 'A Balance Sheet is a positional statement.', text: 'A Balance Sheet is a positional statement prepared at a specific date (typically the end of an accounting period) that presents the financial position of a business enterprise by summarising its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Balance Sheet is a positional statement.', text: 'A Balance Sheet is a positional statement prepared at a specific date (typically the end of an accounting period) that presents the financial position of a business enterprise by summarising its.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_acc_cbse_08_006', title: 'A Balance Sheet is a positional.',

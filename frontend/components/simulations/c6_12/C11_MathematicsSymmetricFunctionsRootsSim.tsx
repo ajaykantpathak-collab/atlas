@@ -1114,12 +1114,12 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 inline-block"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400">
+            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ISC Class 11 Mathematics • JEE Advanced Trajectory & Complex Conics</p>
@@ -1135,7 +1135,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 border-emerald-600 text-emerald-400'
                 : difficulty === 'standard'
-                ? 'bg-sky-950/60 border-sky-600 text-sky-400'
+                ? 'bg-gold-950/60 border-gold-600 text-gold-400'
                 : 'bg-rose-950/60 border-rose-600 text-rose-400'
             }`}
           >
@@ -1164,13 +1164,13 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/60"
+              className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/60"
             >
-              <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>🚀</span> {SCENARIO.title}
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-400 mt-2 bg-indigo-950/50 p-2.5 rounded-xl border border-indigo-800/40">
+              <p className="text-xs text-gold-400 mt-2 bg-gold-950/50 p-2.5 rounded-xl border border-gold-800/40">
                 ⚡ Challenge Context: {SCENARIO.context}
               </p>
             </motion.div>
@@ -1202,7 +1202,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     }`}
                     aria-label={`Option ${i + 1}`}
                   >
-                    <span className="font-mono text-indigo-400 mr-2">[{i + 1}]</span> {opt}
+                    <span className="font-mono text-gold-400 mr-2">[{i + 1}]</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1220,7 +1220,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                   >
                     Enter Interactive Exploration Labs →
                   </motion.button>
@@ -1241,7 +1241,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
           >
             <div className="flex items-center justify-between">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Interactive Visual Discovery</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Interactive Visual Discovery</span>
                 <h2 className="text-xl font-black text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
               </div>
               <motion.span
@@ -1275,7 +1275,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     <div className="lg:col-span-6 space-y-4">
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                         <p className="text-xs text-slate-400 font-mono mb-2">QUADRATIC EQUATION:</p>
-                        <p className="text-lg font-mono font-bold text-sky-400">
+                        <p className="text-lg font-mono font-bold text-gold-400">
                           {coeffA}x² {coeffB >= 0 ? `+ ${coeffB}` : `- ${Math.abs(coeffB)}`}x {coeffC >= 0 ? `+ ${coeffC}` : `- ${Math.abs(coeffC)}`} = 0
                         </p>
                       </div>
@@ -1292,7 +1292,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                             step={1}
                             value={coeffA}
                             onChange={(e) => setCoeffA(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                             aria-label="Coefficient a"
                           />
                         </div>
@@ -1307,7 +1307,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                             step={1}
                             value={coeffB}
                             onChange={(e) => setCoeffB(Number(e.target.value))}
-                            className="w-full accent-sky-500"
+                            className="w-full accent-gold-500"
                             aria-label="Coefficient b"
                           />
                         </div>
@@ -1335,11 +1335,11 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.05 }} className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="text-slate-400">Product αβ</span>
-                          <p className="text-sky-400 font-bold font-mono text-sm">{vietaProd.toFixed(2)}</p>
+                          <p className="text-gold-400 font-bold font-mono text-sm">{vietaProd.toFixed(2)}</p>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.05 }} className="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="text-slate-400">Sum α² + β²</span>
-                          <p className="text-indigo-400 font-bold font-mono text-sm">{vietaSumSq.toFixed(2)}</p>
+                          <p className="text-gold-400 font-bold font-mono text-sm">{vietaSumSq.toFixed(2)}</p>
                         </motion.div>
                       </div>
                     </div>
@@ -1432,7 +1432,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     <div className="lg:col-span-6 space-y-4">
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                        <p className="text-xs text-indigo-400 font-mono">ROTATION THEOREM FORMULA:</p>
+                        <p className="text-xs text-gold-400 font-mono">ROTATION THEOREM FORMULA:</p>
                         <p className="text-base font-mono font-bold text-white mt-1">
                           z₃ = z₁ + (z₂ - z₁) · e^(iθ)
                         </p>
@@ -1453,7 +1453,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                             step={5}
                             value={rotAngleDeg}
                             onChange={(e) => setRotAngleDeg(Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                             aria-label="Rotation angle"
                           />
                         </div>
@@ -1469,7 +1469,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                             step={0.5}
                             value={vectorLen}
                             onChange={(e) => setVectorLen(Number(e.target.value))}
-                            className="w-full accent-sky-500"
+                            className="w-full accent-gold-500"
                             aria-label="Vector length"
                           />
                         </div>
@@ -1535,7 +1535,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                           }}
                           className={`flex-1 py-2 text-xs font-bold uppercase rounded-xl border transition-all ${
                             activeLocusType === type
-                              ? 'bg-indigo-600 border-indigo-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1548,7 +1548,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                       <div className="w-full md:w-1/2 space-y-3">
                         {activeLocusType === 'circle' && (
                           <>
-                            <p className="text-sm font-mono font-bold text-sky-400">|z - c| = r</p>
+                            <p className="text-sm font-mono font-bold text-gold-400">|z - c| = r</p>
                             <p className="text-xs text-slate-300">Set of all points with constant distance r from center c.</p>
                             <div>
                               <div className="flex justify-between text-xs text-slate-400">Radius r: {locusParamR}</div>
@@ -1558,7 +1558,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                                 max={5}
                                 value={locusParamR}
                                 onChange={(e) => setLocusParamR(Number(e.target.value))}
-                                className="w-full accent-sky-500"
+                                className="w-full accent-gold-500"
                               />
                             </div>
                           </>
@@ -1618,7 +1618,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     <div className="lg:col-span-6 space-y-4">
                       <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                        <p className="text-xs text-indigo-400 font-mono">PARABOLA y² = 4ax (a = {parabolaA})</p>
+                        <p className="text-xs text-gold-400 font-mono">PARABOLA y² = 4ax (a = {parabolaA})</p>
                         <p className="text-sm font-mono font-bold text-white mt-1">
                           Tangent: y = mx + a/m &nbsp;|&nbsp; c = {(parabolaA / tangentM).toFixed(2)}
                         </p>
@@ -1638,7 +1638,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                           step={0.1}
                           value={tangentM}
                           onChange={(e) => setTangentM(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Tangent slope"
                         />
                       </div>
@@ -1672,7 +1672,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-4">
                       <div>
-                        <p className="text-xs text-indigo-400 font-mono">GENERAL SOLUTION FORMULA:</p>
+                        <p className="text-xs text-gold-400 font-mono">GENERAL SOLUTION FORMULA:</p>
                         <p className="text-base font-mono font-bold text-white">
                           sin x = sin α ⇒ x = nπ + (-1)ⁿ α, n ∈ ℤ
                         </p>
@@ -1699,7 +1699,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                           step={5}
                           value={trigAlphaDeg}
                           onChange={(e) => setTrigAlphaDeg(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1711,7 +1711,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                           step={1}
                           value={trigN}
                           onChange={(e) => setTrigN(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1742,7 +1742,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextSlide}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -1794,7 +1794,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
               animate={{ opacity: 1 }}
               className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
             >
-              <span className="text-xs font-mono text-indigo-400">LIVE TELEMETRY RADAR WAVEFORM:</span>
+              <span className="text-xs font-mono text-gold-400">LIVE TELEMETRY RADAR WAVEFORM:</span>
               <canvas ref={canvasRef} width={800} height={120} className="w-full bg-slate-950 rounded-xl border border-slate-800" />
             </motion.div>
 
@@ -1802,7 +1802,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleAdvanceToChallenge}
-              className="w-full py-4 bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-black text-base rounded-2xl shadow-xl shadow-emerald-600/30"
+              className="w-full py-4 bg-gradient-to-r from-emerald-600 via-teal-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-black text-base rounded-2xl shadow-xl shadow-emerald-600/30"
             >
               Ready for Challenges! Launch Exam Tiers →
             </motion.button>
@@ -1828,14 +1828,14 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                   key={challenge.competencyLevel}
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
-                  className="text-indigo-400 uppercase tracking-wider font-mono"
+                  className="text-gold-400 uppercase tracking-wider font-mono"
                 >
                   Competency: {challenge.competencyLevel}
                 </motion.span>
               </div>
               <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
                   initial={{ width: 0 }}
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.3 }}
@@ -1871,7 +1871,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                           : 'bg-slate-950/80 hover:bg-slate-800/80 border-slate-800 text-slate-200'
                       }`}
                     >
-                      <span className="font-mono text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
+                      <span className="font-mono text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -1888,7 +1888,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -1905,7 +1905,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                         className="p-4 bg-slate-950 rounded-xl border border-dashed border-slate-700 flex items-center justify-between min-h-[56px]"
                       >
                         <span className="text-xs text-slate-400 font-mono">{item.targetId.replace('target_', '').toUpperCase()}</span>
-                        <span className="text-xs font-bold text-sky-400">
+                        <span className="text-xs font-bold text-gold-400">
                           {droppedLabels[item.targetId] || 'Drop Label Here'}
                         </span>
                       </motion.div>
@@ -1916,7 +1916,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Verify Mapping
                   </motion.button>
@@ -1943,7 +1943,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                       whileTap={{ scale: 0.98 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="font-mono text-indigo-400 font-bold">Step {displayIdx + 1}</span>
+                      <span className="font-mono text-gold-400 font-bold">Step {displayIdx + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -1952,7 +1952,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i))}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Sequence
                   </motion.button>
@@ -1977,7 +1977,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Submit Numeric Value
                   </motion.button>
@@ -2011,7 +2011,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
                         onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))}
-                        className="px-2.5 py-1 bg-indigo-900/80 text-sky-300 font-mono text-xs rounded-lg border border-indigo-700 cursor-pointer"
+                        className="px-2.5 py-1 bg-gold-900/80 text-gold-300 font-mono text-xs rounded-lg border border-gold-700 cursor-pointer"
                       >
                         {part} ✕
                       </motion.span>
@@ -2025,7 +2025,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Verify Construction
                   </motion.button>
@@ -2116,7 +2116,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                 errors === 0
                   ? 'bg-emerald-950/40 border-emerald-500/60'
                   : errors <= 3
-                  ? 'bg-sky-950/40 border-sky-500/60'
+                  ? 'bg-gold-950/40 border-gold-500/60'
                   : errors <= 7
                   ? 'bg-amber-950/40 border-amber-500/60'
                   : 'bg-rose-950/40 border-rose-500/60'
@@ -2175,7 +2175,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
               className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex items-center justify-between text-xs"
             >
               <span className="text-slate-400">Next Spaced Repetition Review:</span>
-              <span className="font-mono font-bold text-sky-400">
+              <span className="font-mono font-bold text-gold-400">
                 In {errors === 0 ? REVIEW_INTERVAL_DAYS[2] : REVIEW_INTERVAL_DAYS[0]} Days (SM-2 Tracked)
               </span>
             </motion.div>
@@ -2185,9 +2185,9 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-950 rounded-2xl border border-indigo-700/60 space-y-3"
+              className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-950 rounded-2xl border border-gold-700/60 space-y-3"
             >
-              <h3 className="text-sm font-bold text-indigo-300">🛰️ {REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300">🛰️ {REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
@@ -2196,7 +2196,7 @@ function C11_MathematicsSymmetricFunctionsRootsSim({
                     whileHover={{ scale: 1.02 }}
                     className="p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-400"
                   >
-                    <span className="text-indigo-400 font-bold mr-1">{i + 1}.</span> {step}
+                    <span className="text-gold-400 font-bold mr-1">{i + 1}.</span> {step}
                   </motion.div>
                 ))}
               </div>

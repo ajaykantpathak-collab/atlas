@@ -11,7 +11,7 @@ export const w_c10_scienceourenvironmentsim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum)',
     chapters: [],
     nodeIds: ['c10_phy_cbse_03_001', 'c10_phy_cbse_03_002', 'c10_phy_cbse_03_005', 'c10_phy_cbse_03_006', 'c10_phy_cbse_03_008', 'c10_phy_cbse_03_009', 'c10_phy_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Begin with a real-world observation: when you see a coal-fired stove in a roadside tea stall or a petrol pump.', goal: 'Master Conventional Sources of Energy: Fossil Fuels (Coal, Petroleum).' },
     discovery: {
         question: 'Compare the environmental impact of burning coal versus petroleum in terms of (a) CO₂ emissions per unit energy, (b) sulphur dioxide emissions, and (c) solid.',
@@ -20,7 +20,7 @@ export const w_c10_scienceourenvironmentsim: SimDef = {
         hook: 'Students often think "fossil fuels are just old plants/animals that turned into fuel" without understanding the.',
     },
     teaching: [
-        { title: 'Fossil fuels are non-renewable energy.', text: 'Fossil fuels are non-renewable energy sources formed from the decomposed remains of ancient plants and animals buried under sediment over millions of years, primarily coal and petroleum, which store.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Fossil fuels are non-renewable energy.', text: 'Fossil fuels are non-renewable energy sources formed from the decomposed remains of ancient plants and animals buried under sediment over millions of years, primarily coal and petroleum, which store.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_phy_cbse_03_001', title: 'Fossil fuels are non-renewable energy.',

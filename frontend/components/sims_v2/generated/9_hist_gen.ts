@@ -430,7 +430,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Archaeology",
+    "title": "Archaeology Is The Scientific Study",
     "text": "Archaeology is the scientific study of human prehistory and history through the excavation, analysis, and interpretation of material remains—such as artifacts, architecture, biofacts, and landscapes—using systematic methods like stratigraphic excavation,",
     "emoji": "🏛️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -454,7 +454,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Mehrgarh",
+    "title": "Mehrgarh Is a Neolithic Archaeological Site",
     "text": "Mehrgarh is a Neolithic archaeological site located in the Kachi Plain of Balochistan, Pakistan, dating from approximately 7000 BCE to 2500 BCE.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -478,7 +478,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Egyptian Civilisation Was",
+    "title": "Egyptian Civilisation",
     "text": "Egyptian Civilisation (c. 3100–30 BCE) was a Bronze Age civilisation centred along the Nile River in Northeast Africa, characterised by divine kingship (pharaoh), monumental pyramid construction during the Old Kingdom (c.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -496,7 +496,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "question": "What is the approximate time range for the emergence of *Homo sapiens* in Africa according to current archaeological and genetic evidence?",
     "answer": "*Homo sapiens* emerged in Africa approximately 300,000 years ago, based on fossils from Jebel Irhoud (Morocco) and genetic studies",
     "options": [
-     "Lower Palaeolithic (handaxes/cleavers), Middle Palaeolithic (scrapers/points on flakes), Upper Palaeolithic (blades/burins)",
+     "The student can classify Lower, Middle, and Upper Palaeolithic tool types from images or descriptions, explain how tool technology reflects changing subsistence strategies",
      "Oracle bones (ox scapulae and turtle plastrons) were used for pyromantic divination — heating them to produce cracks interpreted as ancestral answers",
      "*Homo sapiens* emerged in Africa approximately 300,000 years ago, based on fossils from Jebel Irhoud (Morocco) and genetic studies"
     ],
@@ -521,7 +521,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "A good answer aligns Mehrgarh Period I (aceramic Neolithic) with Pre-Pottery Neolithic B in the Fertile Crescent, notes parallel domestication of wheat/barley",
      "The co-occurrence suggests either a mixed/disturbed layer (e.g., bioturbation, later pit digging) or a transitional Mesolithic-Neolithic phase"
     ],
-    "hint": "Straight from the 'Archaeology' slide -- match the key terms.",
+    "hint": "Straight from the 'Archaeology is the scientific' slide -- match the key terms.",
     "misconception": "A wrong answer that jumps to \"this proves Mesolithic people made pottery\" ignores site formation processes and the need for chronological control.",
     "id": "gen_c9_hist_ch02_q2",
     "nodeId": "c9_hist_ch2_2",
@@ -538,8 +538,8 @@ export const C9_HIST_GEN: SimDef[] = [
     "question": "Name the three sub-phases of the Palaeolithic Period in chronological order and give one characteristic tool type for each phase found in the Indian subcontinent.",
     "answer": "Lower Palaeolithic (handaxes/cleavers), Middle Palaeolithic (scrapers/points on flakes), Upper Palaeolithic (blades/burins)",
     "options": [
+     "The student can classify Lower, Middle, and Upper Palaeolithic tool types from images or descriptions, explain how tool technology reflects changing subsistence strategies",
      "*Homo sapiens* emerged in Africa approximately 300,000 years ago, based on fossils from Jebel Irhoud (Morocco) and genetic studies",
-     "Oracle bones (ox scapulae and turtle plastrons) were used for pyromantic divination — heating them to produce cracks interpreted as ancestral answers",
      "Lower Palaeolithic (handaxes/cleavers), Middle Palaeolithic (scrapers/points on flakes), Upper Palaeolithic (blades/burins)"
     ],
     "hint": "Straight from the 'Palaeolithic Period' slide -- match the key terms.",
@@ -584,7 +584,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "A good answer aligns Mehrgarh Period I (aceramic Neolithic) with Pre-Pottery Neolithic B in the Fertile Crescent, notes parallel domestication of wheat/barley",
      "Early farming required more labor, yielded less reliable nutrition, increased disease (sedentism, proximity to animals)"
     ],
-    "hint": "Straight from the 'Neolithic Period (c. 7000–3000 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'Neolithic Period' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the claim reveals a teleological fallacy: judging past choices by modern outcomes, ignoring the lived costs of the transition.",
     "id": "gen_c9_hist_ch02_q5",
     "nodeId": "c9_hist_ch2_5",
@@ -605,7 +605,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "Correct: No—correlation is not causation. The monsoon shift is a *necessary background condition*, but the civilisation survived earlier arid phases",
      "A good answer aligns Mehrgarh Period I (aceramic Neolithic) with Pre-Pottery Neolithic B in the Fertile Crescent, notes parallel domestication of wheat/barley"
     ],
-    "hint": "Straight from the 'Mehrgarh' slide -- match the key terms.",
+    "hint": "Straight from the 'Mehrgarh is a Neolithic' slide -- match the key terms.",
     "misconception": "A poor answer merely lists dates without comparative analysis, showing inability to synthesise cross-regional patterns.",
     "id": "gen_c9_hist_ch02_q6",
     "nodeId": "c9_hist_ch2_6",
@@ -626,7 +626,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "The Zhou, as conquerors, needed a universal moral principle to justify overthrowing the Shang",
      "Cardinal orientation optimized wind circulation for ventilation, aligned drainage gradients for gravity flow, and may have reflected cosmological/astronomical knowledge"
     ],
-    "hint": "Straight from the 'Harappan  Civilisation's urban' slide -- match the key terms.",
+    "hint": "Straight from the 'Harappan Civilisation's urban' slide -- match the key terms.",
     "misconception": "A wrong answer like \"it was easier to build\" or \"they copied Mesopotamia\" shows the student treats planning as arbitrary convenience rather than a deliberate multi-functional system integrating climate, sanitation, and possibly ritual — missing the analytical depth required for \"analyze\" level.",
     "id": "gen_c9_hist_ch02_q7",
     "nodeId": "c9_hist_ch2_7",
@@ -668,7 +668,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "The claim is incorrect. Excavations at Deir el-Medina and the Giza plateau reveal workers' tombs, bakeries, breweries, and medical facilities indicating a state-supported",
      "Bureaucratic standardization is better supported: the earliest \"proto-cuneiform\" tablets (Uruk IV-III) show *consistent sign-lists* across multiple sites"
     ],
-    "hint": "Straight from the 'Mesopotamian Civilisation  emerged' slide -- match the key terms.",
+    "hint": "Straight from the 'Mesopotamian Civilisation emerged' slide -- match the key terms.",
     "misconception": "A wrong answer choosing \"efficiency\" without citing the *archaeological pattern of uniform sign-lists* misses how state institutions shape writing systems.",
     "id": "gen_c9_hist_ch02_q9",
     "nodeId": "c9_hist_ch2_9",
@@ -738,7 +738,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "answer": "Oracle bones (ox scapulae and turtle plastrons) were used for pyromantic divination — heating them to produce cracks interpreted as ancestral answers",
     "options": [
      "Lower Palaeolithic (handaxes/cleavers), Middle Palaeolithic (scrapers/points on flakes), Upper Palaeolithic (blades/burins)",
-     "*Homo sapiens* emerged in Africa approximately 300,000 years ago, based on fossils from Jebel Irhoud (Morocco) and genetic studies",
+     "The student can classify Lower, Middle, and Upper Palaeolithic tool types from images or descriptions, explain how tool technology reflects changing subsistence strategies",
      "Oracle bones (ox scapulae and turtle plastrons) were used for pyromantic divination — heating them to produce cracks interpreted as ancestral answers"
     ],
     "hint": "Straight from the 'Early Chinese Civilisation' slide -- match the key terms.",
@@ -792,7 +792,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "A good table shows: Lower – quartzite, handaxe/cleaver, large-mammal butchery, Attirampakkam; Middle – chert/quartzite, Levallois flakes/scrapers, hide/wood working, Hunsgi",
      "The claim is incorrect. Excavations at Deir el-Medina and the Giza plateau reveal workers' tombs, bakeries, breweries, and medical facilities indicating a state-supported"
     ],
-    "hint": "Straight from the 'Egyptian Civilisation  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Egyptian Civilisation' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the slave narrative reveals reliance on pop-culture myths over archaeological evidence — a common board-level error where students confuse later biblical narratives with Bronze Age reality.",
     "id": "gen_c9_hist_ch02_q14",
     "nodeId": "c9_hist_ch2_10",
@@ -807,7 +807,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "Middle Palaeolithic; the absence of handaxes suggests a specialized activity site (e.g., butchery or tool maintenance) rather than a base camp where large cores were reduced",
      "Defend: (1) Pyramid complexes included workshops, bakeries, and administrative buildings — they were economic hubs"
     ],
-    "hint": "Straight from the 'Egyptian Civilisation  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Egyptian Civilisation' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Defend: (1) Pyramid complexes included workshops, bakeries, and administrative buildings — they were economic hubs.",
     "id": "gen_c9_hist_ch02_q15",
     "nodeId": "c9_hist_ch2_10",
@@ -911,7 +911,7 @@ export const C9_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Sabha, Samiti, And Vidatha Were",
+    "title": "Sabha, Samiti, And Vidatha",
     "text": "The Sabha, Samiti, and Vidatha were the three principal political assemblies of the Rigvedic (Early Vedic, c. 1500–1000 BCE) and Later Vedic (c.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -966,7 +966,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "A janapada (jana = people, pada = foothold) was an early territorial settlement of a tribe, the basic political unit",
      "Similarities: both involve collective deliberation beyond a single ruler; both combine religious and political acts"
     ],
-    "hint": "Straight from the 'Sabha, Samiti, and Vidatha were' slide -- match the key terms.",
+    "hint": "Straight from the 'Sabha, Samiti, and Vidatha' slide -- match the key terms.",
     "misconception": "A wrong answer equating them directly ignores 500 years of social stratification and urbanisation.",
     "id": "gen_c9_hist_ch03_q2",
     "nodeId": "c9_hist_ch3_2",
@@ -1065,7 +1065,7 @@ export const C9_HIST_GEN: SimDef[] = [
      "Similarities: Both emphasized oral memorization, textual recitation, and dialectical debate (shastrartha)",
      "A strong answer places: c.1500–1000 BCE (Rigveda) — all three active, Samiti elects rajan; c.1000–800 BCE (Atharvaveda) — Vidatha fades, Sabha gains judicial weight; c"
     ],
-    "hint": "Straight from the 'Sabha, Samiti, and Vidatha were' slide -- match the key terms.",
+    "hint": "Straight from the 'Sabha, Samiti, and Vidatha' slide -- match the key terms.",
     "misconception": "A poor answer lists dates without textual anchors or treats the timeline as a smooth decline rather than a structural replacement.",
     "id": "gen_c9_hist_ch03_q7",
     "nodeId": "c9_hist_ch3_2",

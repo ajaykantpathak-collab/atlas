@@ -11,7 +11,7 @@ export const w_c12_businessstudiesloansfromfinancialsim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Financing Decision: Debt vs Equity and Capital Structure',
     chapters: [],
     nodeIds: ['c12_bs_cbse_09_004', 'c12_bs_cbse_09_008', 'c12_bs_cbse_10_002', 'c12_bs_cbse_09_001', 'c12_bs_cbse_09_002', 'c12_bs_cbse_09_003', 'c12_bs_cbse_09_005', 'c12_bs_cbse_09_006', 'c12_bs_cbse_09_007', 'c12_bs_cbse_09_009', 'c12_bs_cbse_09_010', 'c12_bs_cbse_10_001', 'c12_bs_cbse_10_003', 'c12_bs_cbse_10_005', 'c12_bs_cbse_10_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are the CFO of a growing Indian manufacturing company planning a ₹500 crore expansion.', goal: 'Master Financing Decision: Debt vs Equity and Capital Structure.' },
     discovery: {
         question: 'A company has ₹20 crore equity share capital and ₹10 crore 12% debentures. What is its debt-equity ratio and debt-to-total-capital ratio?',
@@ -20,7 +20,7 @@ export const w_c12_businessstudiesloansfromfinancialsim: SimDef = {
         hook: 'Students believe "Trading on Equity" simply means "using debt to increase EPS" and therefore always recommend maximum.',
     },
     teaching: [
-        { title: 'Financing decision refers to the process of.', text: 'Financing decision refers to the process of determining the optimal mix of long-term funds to be raised from owners\' funds (equity share capital, preference share capital, retained earnings) and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Financing decision refers to the process of.', text: 'Financing decision refers to the process of determining the optimal mix of long-term funds to be raised from owners\' funds (equity share capital, preference share capital, retained earnings) and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_09_004', title: 'Financing decision refers to the.',

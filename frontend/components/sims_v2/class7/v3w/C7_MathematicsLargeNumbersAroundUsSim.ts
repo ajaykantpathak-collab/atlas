@@ -11,7 +11,7 @@ export const w_c7_mathematicslargenumbersaroundussim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Place Value System: Extending to 6 and 7 Digits',
     chapters: [],
     nodeIds: ['c7_math_ch01_002', 'c7_math_ch01_003', 'c7_math_ch01_004', 'c7_math_ch01_005', 'c7_math_ch01_006', 'c7_math_ch01_008', 'c7_math_ch01_009', 'c7_math_ch01_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine the ticket collector at a busy railway station in Mumbai announces that 4,52,389 passengers traveled.', goal: 'Master Place Value System: Extending to 6 and 7 Digits.' },
     discovery: {
         question: 'Explain why the digit \'5\' has a different value in the number 5,23,456 depending on which position it occupies.',
@@ -20,7 +20,7 @@ export const w_c7_mathematicslargenumbersaroundussim: SimDef = {
         hook: 'Students frequently misplace commas or misread 6 and 7-digit numbers by treating them like the International system.',
     },
     teaching: [
-        { title: 'The place value system extends to 6-digit.', text: 'The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs) numbers in the Indian numbering system, where each digit\'s position to the left represents a value ten times greater than the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The place value system extends to 6-digit.', text: 'The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs) numbers in the Indian numbering system, where each digit\'s position to the left represents a value ten times greater than the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch01_002', title: 'The place value system extends to.',

@@ -20,9 +20,9 @@ export const c1HinMatra: SimDef = {
     teaching: [
         { title: 'मात्रा क्या है? 🪔', text: 'Vyanjan + matra = new sound! क alone says "k". Add a matra and it sings — का, की, कु!', emoji: '🪔', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'ा = आ की आवाज़ 🟢', text: 'ा after a letter says "aa". क+ा=का (kamal), म+ा=मा (maa), न+ा=ना!', emoji: '🟢', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'ी = ई की आवाज़ 🔵', text: 'ी after a letter says "ee". र+ी=री, क+ी=की (kee), च+ी=ची!', emoji: '🔵', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'ी = ई की आवाज़ 🔵', text: 'ी after a letter says "ee". र+ी=री, क+ी=की (kee), च+ी=ची!', emoji: '🔵', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'ु = उ की आवाज़ 🟡', text: 'ु sits UNDER the letter and says "u". म+ु=मु, स+ु=सु!', emoji: '🟡', bgColor: 'from-yellow-400 to-amber-500' },
-        { title: 'मात्रा से शब्द 📖', text: 'क+ा=का, म+ा=मा — ka-maa = काम (kaam)! Matras build real words!', emoji: '📖', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'मात्रा से शब्द 📖', text: 'क+ा=का, म+ा=मा — ka-maa = काम (kaam)! Matras build real words!', emoji: '📖', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'match', prompt: 'Match each letter-matra to its word!', labels: ['का', 'कमल', 'की', 'कीट', 'कु', 'कुटिया'] },
     challenges: [
@@ -58,7 +58,7 @@ export const c1EngSentences: SimDef = {
     id: 'c1_eng_sentences', title: 'Sentence Builders', subtitle: 'Who + Doing = Sentence!',
     classLevel: 1, subject: 'english', topic: 'Sentence Construction',
     chapters: ['Marigold-1: sentence reading'],
-    emoji: '🏗️', theme: { bg: 'from-sky-100 to-blue-200', accent: 'sky', scene: 'letters' },
+    emoji: '🏗️', theme: { bg: 'from-gold-100 to-gold-200', accent: 'sky', scene: 'letters' },
     scenario: { role: "a sentence-builder", intro: "A sentence needs a WHO and a DOING. Build them right!", goal: "Build perfect sentences." },
     discovery: {
         question: "'The cat sleeps.' — Who is doing something here?",
@@ -67,10 +67,10 @@ export const c1EngSentences: SimDef = {
         hook: "The cat is the WHO — the one doing the action!",
     },
     teaching: [
-        { title: 'Two Parts! 🏗️', text: 'Every sentence has WHO (a naming part) and DOING (an action). "The dog runs." — Dog = who, runs = doing!', emoji: '🏗️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Two Parts! 🏗️', text: 'Every sentence has WHO (a naming part) and DOING (an action). "The dog runs." — Dog = who, runs = doing!', emoji: '🏗️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Capital + Full Stop! 🔤', text: 'Sentences wear a capital letter hat at the start and a full stop at the end: "Birds fly."', emoji: '🔤', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Order Matters! 🔀', text: '"Cat the sleeps" is scrambled! Right order: "The cat sleeps."', emoji: '🔀', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Naming Words First 📛', text: 'Sentences usually start with the naming word — the person, animal, or thing!', emoji: '📛', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Naming Words First 📛', text: 'Sentences usually start with the naming word — the person, animal, or thing!', emoji: '📛', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'order', prompt: 'Tap the words in order to build a sentence!', labels: ['The', 'bird', 'sings', 'in', 'the', 'tree'] },
     challenges: [

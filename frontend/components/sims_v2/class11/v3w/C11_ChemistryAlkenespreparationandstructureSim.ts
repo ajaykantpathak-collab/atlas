@@ -11,7 +11,7 @@ export const w_c11_chemistryalkenespreparationandstructuresim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Hydrides: Ionic, Covalent and Metallic',
     chapters: [],
     nodeIds: ['c11_chem_cbse_09_006', 'c11_chem_cbse_09_010', 'c11_chem_cbse_09_011', 'c11_chem_cbse_09_001', 'c11_chem_cbse_09_003', 'c11_chem_cbse_09_005', 'c11_chem_cbse_01_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe how sodium reacts violently with hydrogen gas at 673 K to form a white crystalline solid (NaH), while.', goal: 'Master Hydrides: Ionic, Covalent and Metallic.' },
     discovery: {
         question: 'Explain why beryllium hydride (BeH₂) is covalent while magnesium hydride (MgH₂) is ionic, even though both are Group 2 elements.',
@@ -20,7 +20,7 @@ export const w_c11_chemistryalkenespreparationandstructuresim: SimDef = {
         hook: 'Students often think "metallic hydrides are alloys" and write reactions like Ti + H₂ → TiH₂ (as a fixed compound).',
     },
     teaching: [
-        { title: 'Hydrides are binary compounds of hydrogen.', text: 'Hydrides are binary compounds of hydrogen with other elements (except noble gases), classified into three types based on bonding nature: ionic hydrides formed with highly electropositive s-block.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Hydrides are binary compounds of hydrogen.', text: 'Hydrides are binary compounds of hydrogen with other elements (except noble gases), classified into three types based on bonding nature: ionic hydrides formed with highly electropositive s-block.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_09_006', title: 'Hydrides are binary compounds of.',

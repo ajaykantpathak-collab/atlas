@@ -1143,7 +1143,7 @@ function C12_EconomicsExanteplannedDemandSim({
                 animate={{ scale: 1 }}
                 className={`text-xs font-bold uppercase px-2 py-0.5 rounded-full border ${
                   difficulty === 'foundation'
-                    ? 'bg-blue-500/20 text-blue-400 border-blue-500/30'
+                    ? 'bg-gold-500/20 text-gold-400 border-gold-500/30'
                     : difficulty === 'advanced'
                     ? 'bg-purple-500/20 text-purple-400 border-purple-500/30'
                     : 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
@@ -1192,12 +1192,12 @@ function C12_EconomicsExanteplannedDemandSim({
       {/* ── 1. DISCOVERY HOOK PHASE ── */}
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900/80 rounded-2xl border border-indigo-800/40 shadow-inner">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900/80 rounded-2xl border border-gold-800/40 shadow-inner">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-900/80 rounded-xl border border-slate-700/50 text-xs text-indigo-200">
+            <div className="mt-3 p-3 bg-slate-900/80 rounded-xl border border-slate-700/50 text-xs text-gold-200">
               ⚡ <span className="font-semibold">Core Mandate:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1246,7 +1246,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                   >
                     <span>Launch Interactive Labs</span>
                     <span>→</span>
@@ -1320,7 +1320,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Actual Realized Sales (Ex-post Demand):</span>
-                        <span className="font-mono text-blue-400 font-bold">{expostDemand.toLocaleString()} metres</span>
+                        <span className="font-mono text-gold-400 font-bold">{expostDemand.toLocaleString()} metres</span>
                       </div>
                       <input
                         type="range"
@@ -1329,7 +1329,7 @@ function C12_EconomicsExanteplannedDemandSim({
                         step={500}
                         value={expostDemand}
                         onChange={(e) => handleSliderChange(setExpostDemand, +e.target.value)}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                         aria-label="Actual Sales"
                       />
                     </div>
@@ -1412,7 +1412,7 @@ function C12_EconomicsExanteplannedDemandSim({
                         step={0.05}
                         value={mpcValue}
                         onChange={(e) => handleSliderChange(setMpcValue, +e.target.value)}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="MPC"
                       />
                       <div className="text-[11px] text-slate-500">Implied MPS (1 − b) = {mpsValue}</div>
@@ -1425,7 +1425,7 @@ function C12_EconomicsExanteplannedDemandSim({
                       </div>
                       <div className="flex justify-between text-xs">
                         <span>APS = S / Y:</span>
-                        <span className="font-mono text-blue-400 font-bold">{currentAPS}</span>
+                        <span className="font-mono text-gold-400 font-bold">{currentAPS}</span>
                       </div>
                       <div className="text-[11px] font-mono text-slate-400 border-t border-slate-800 pt-1 flex justify-between">
                         <span>APC + APS:</span>
@@ -1470,8 +1470,8 @@ function C12_EconomicsExanteplannedDemandSim({
                   </div>
 
                   {!observationAnswered && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800/60 space-y-2">
-                      <p className="text-xs text-indigo-200 font-semibold">{OBSERVATION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800/60 space-y-2">
+                      <p className="text-xs text-gold-200 font-semibold">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1516,7 +1516,7 @@ function C12_EconomicsExanteplannedDemandSim({
                         step={50}
                         value={govSpending}
                         onChange={(e) => handleSliderChange(setGovSpending, +e.target.value)}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                         aria-label="Government Spending"
                       />
                     </div>
@@ -1657,7 +1657,7 @@ function C12_EconomicsExanteplannedDemandSim({
                         </div>
                         <div className="flex justify-between text-xs border-t border-slate-800 pt-1">
                           <span>Gap Status:</span>
-                          <span className={`font-mono font-bold ${gapValue > 50 ? 'text-rose-400' : gapValue < -50 ? 'text-blue-400' : 'text-emerald-400'}`}>
+                          <span className={`font-mono font-bold ${gapValue > 50 ? 'text-rose-400' : gapValue < -50 ? 'text-gold-400' : 'text-emerald-400'}`}>
                             {gapValue > 50
                               ? `Inflationary Gap (+₹${gapValue} Cr)`
                               : gapValue < -50
@@ -1673,7 +1673,7 @@ function C12_EconomicsExanteplannedDemandSim({
                             🔥 <strong>Excess Demand:</strong> Factories are straining beyond capacity. CPI inflation is rising. Apply contractionary fiscal policy (cut G) and hike the RBI repo rate.
                           </span>
                         ) : gapValue < -50 ? (
-                          <span className="text-blue-300">
+                          <span className="text-gold-300">
                             ❄️ <strong>Deficient Demand:</strong> Involuntary unemployment is rising. Apply expansionary fiscal stimulus (boost G/capex) and lower the RBI repo rate.
                           </span>
                         ) : (
@@ -1719,7 +1719,7 @@ function C12_EconomicsExanteplannedDemandSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1781,7 +1781,7 @@ function C12_EconomicsExanteplannedDemandSim({
                 step={25}
                 value={autoInvestment}
                 onChange={(e) => handleSliderChange(setAutoInvestment, +e.target.value)}
-                className="w-full accent-blue-500"
+                className="w-full accent-gold-500"
                 aria-label="Investment"
               />
             </div>
@@ -1897,7 +1897,7 @@ function C12_EconomicsExanteplannedDemandSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1963,7 +1963,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Check Diagram Labels
                   </motion.button>
@@ -2007,7 +2007,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Check Process Sequence
                   </motion.button>
@@ -2024,7 +2024,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 outline-none"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs font-mono text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2032,7 +2032,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Submit Answer
                   </motion.button>
@@ -2064,7 +2064,7 @@ function C12_EconomicsExanteplannedDemandSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900/80 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-900/80 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2086,7 +2086,7 @@ function C12_EconomicsExanteplannedDemandSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Verify Equation
                   </motion.button>
@@ -2168,7 +2168,7 @@ function C12_EconomicsExanteplannedDemandSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <div className="text-slate-400 text-xs">Mastery Level</div>
-                <div className="text-2xl font-bold text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
 
@@ -2187,7 +2187,7 @@ function C12_EconomicsExanteplannedDemandSim({
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-gradient-to-br from-amber-950/50 via-slate-900 to-indigo-950/40 rounded-3xl border border-amber-500/40 shadow-xl space-y-4"
+            className="p-6 bg-gradient-to-br from-amber-950/50 via-slate-900 to-gold-950/40 rounded-3xl border border-amber-500/40 shadow-xl space-y-4"
           >
             <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800">
               <div className="flex items-center gap-2">
@@ -2224,7 +2224,7 @@ function C12_EconomicsExanteplannedDemandSim({
               </div>
 
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800/80 space-y-1">
-                <div className="text-[11px] font-semibold text-indigo-400 uppercase tracking-wider">Retention Protocol</div>
+                <div className="text-[11px] font-semibold text-gold-400 uppercase tracking-wider">Retention Protocol</div>
                 <div className="text-xs text-slate-300 font-medium">
                   {errors === 0
                     ? 'Long interval (7 days) scheduled to strengthen permanent neural synaptic pathways.'
@@ -2256,7 +2256,7 @@ function C12_EconomicsExanteplannedDemandSim({
                 <p className="text-xs text-slate-300">What was the most surprising thing you learned about how initial spending multiplies across the economy?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <div className="text-xs font-bold text-blue-400">2. Peer Explanation</div>
+                <div className="text-xs font-bold text-gold-400">2. Peer Explanation</div>
                 <p className="text-xs text-slate-300">How would you explain the difference between an inflationary gap and a deflationary gap to a friend?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2286,15 +2286,15 @@ function C12_EconomicsExanteplannedDemandSim({
           )}
 
           {/* Capstone Activity */}
-          <div className="p-6 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-mono font-bold text-indigo-400">{idx + 1}.</span>
+                  <span className="font-mono font-bold text-gold-400">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

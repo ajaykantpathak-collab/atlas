@@ -24,7 +24,7 @@ export const c9_gram_ch82: SimDef = {
             { id: 's3', label: 'Measured quantities take singular verbs', prompt: 'Which idea is this? — Measured quantities take singular verbs when the amount is treated as one unit — \'Ten.', answer: 'Measured quantities take singular verbs', options: ['Measured quantities take singular verbs', 'Class 9 concord adds the', 'Class 9 concord extends the'] }
           ] } },
         { type: 'build', nodeId: 'c9_gram_cbse_82_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Neither-nor → nearer subject wins.', 'Some/all/most → agree with the noun after \'of\'.', 'Find the true subject, strip of-phrases and comma-inserts.'], answer: 'Find the true subject, strip of-phrases and comma-inserts. Some/all/most → agree with the noun after \'of\'. Neither-nor → nearer subject wins.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Find the true subject, strip of-phrases and comma-inserts.', 'Some/all/most → agree with the noun after \'of\'.', 'Neither-nor → nearer subject wins.'], answer: 'Find the true subject, strip of-phrases and comma-inserts. Some/all/most → agree with the noun after \'of\'. Neither-nor → nearer subject wins.' } },
         { type: 'case', nodeId: 'c9_gram_ch82_003', title: 'You made it',
           caseStudy: { intro: 'You finished Class 9 concord adds the indefinite pronouns. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

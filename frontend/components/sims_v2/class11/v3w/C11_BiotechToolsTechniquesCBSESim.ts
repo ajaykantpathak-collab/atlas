@@ -11,7 +11,7 @@ export const w_c11_biotechtoolstechniquescbsesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Branches of Biotechnology: Blue, Green, Red and White',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_01_004', 'c11_biotech_cbse_01_006', 'c11_biotech_cbse_10_001', 'c11_biotech_cbse_10_004', 'c11_biotech_cbse_10_005', 'c11_biotech_cbse_10_006', 'c11_biotech_cbse_10_007', 'c11_biotech_cbse_10_009', 'c11_biotech_cbse_01_008', 'c11_biotech_cbse_10_008', 'c11_biotech_cbse_01_003', 'c11_biotech_cbse_01_005', 'c11_biotech_cbse_09_009', 'c11_biotech_cbse_11_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into a supermarket and see four products: a packet of Bt cotton seeds, a vial of recombinant.', goal: 'Master Branches of Biotechnology: Blue, Green, Red and White.' },
     discovery: {
         question: 'Classify the following into the correct branch and justify in one sentence each: (a) Production of human growth hormone in E.',
@@ -20,7 +20,7 @@ export const w_c11_biotechtoolstechniquescbsesim: SimDef = {
         hook: 'Students often believe the colour code indicates the *technique* used (e.g., "Red uses rDNA, White uses fermentation").',
     },
     teaching: [
-        { title: 'Biotechnology is categorized into four major.', text: 'Biotechnology is categorized into four major branches based on the application domain: Blue Biotechnology applies biological processes to marine and freshwater organisms for seafood enhancement,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Biotechnology is categorized into four major.', text: 'Biotechnology is categorized into four major branches based on the application domain: Blue Biotechnology applies biological processes to marine and freshwater organisms for seafood enhancement,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_01_004', title: 'Biotechnology is categorized into four.',

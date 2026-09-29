@@ -1179,12 +1179,12 @@ function C12_AppliedMathsMatricesConceptNotationSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-indigo-900/60 border border-indigo-700 flex items-center justify-center text-2xl shadow-inner">
+          <div className="w-12 h-12 rounded-2xl bg-gold-900/60 border border-gold-700 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">
+              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gold-500/20 text-gold-400 border border-gold-500/30">
                 ISC Class 12
               </span>
               <span className="text-xs font-semibold text-slate-400">Applied Mathematics</span>
@@ -1204,7 +1204,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-700/60'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-700/60'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-700/60'
+                : 'bg-gold-950/60 text-gold-300 border-gold-700/60'
             }`}
           >
             Tier: {difficulty}
@@ -1219,9 +1219,9 @@ function C12_AppliedMathsMatricesConceptNotationSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
           {/* Scenario Card */}
-          <div className="p-5 md:p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-2">
+          <div className="p-5 md:p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-widest mb-2">
               <span>✈️ Mission Briefing</span>
             </div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
@@ -1278,7 +1278,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToPrediction}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2 text-sm"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                 >
                   Step 1: Make Your Hypotheses (Predict-Then-Check) →
                 </motion.button>
@@ -1296,7 +1296,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
             <span className="text-slate-500">Form a hypothesis before interacting</span>
           </div>
 
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/50 space-y-4">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/50 space-y-4">
             <div className="inline-block px-3 py-1 bg-amber-500/20 text-amber-300 text-xs font-bold rounded-lg border border-amber-500/40">
               Prediction Hypothesis #{predIndex + 1}
             </div>
@@ -1334,16 +1334,16 @@ function C12_AppliedMathsMatricesConceptNotationSim({
             {predSubmitted && (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                 <p className="text-xs text-slate-300">
-                  <strong className="text-indigo-400">Mathematical Theory:</strong> {PREDICTION_QUESTIONS[predIndex].explanation}
+                  <strong className="text-gold-400">Mathematical Theory:</strong> {PREDICTION_QUESTIONS[predIndex].explanation}
                 </p>
-                <div className="p-3 bg-indigo-950/50 rounded-lg border border-indigo-700/60 text-xs text-indigo-300 font-mono">
+                <div className="p-3 bg-gold-950/50 rounded-lg border border-gold-700/60 text-xs text-gold-300 font-mono">
                   🔍 <strong>How to Verify in Lab:</strong> {PREDICTION_QUESTIONS[predIndex].verifyInstruction}
                 </div>
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleNextPredictionOrLab}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   {predIndex + 1 < PREDICTION_QUESTIONS.length ? 'Next Prediction Question →' : 'Enter Interactive Lab to Verify →'}
                 </motion.button>
@@ -1359,11 +1359,11 @@ function C12_AppliedMathsMatricesConceptNotationSim({
           {/* Progress Tracker */}
           <div className="flex items-center justify-between text-xs text-slate-400">
             <span>Concept Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
-            <span className="font-semibold text-indigo-400">{EXPLORATION_STEPS[currentSlide].title}</span>
+            <span className="font-semibold text-gold-400">{EXPLORATION_STEPS[currentSlide].title}</span>
           </div>
           <div className="h-1.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
               animate={{ width: `${((currentSlide + 1) / EXPLORATION_STEPS.length) * 100}%` }}
             />
           </div>
@@ -1388,7 +1388,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                     <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
                       IndiGo Passenger Traffic Matrix M (Order: 2×2)
                     </p>
-                    <div className="inline-block p-4 bg-slate-900 rounded-2xl border-2 border-indigo-600/40 relative">
+                    <div className="inline-block p-4 bg-slate-900 rounded-2xl border-2 border-gold-600/40 relative">
                       <div className="absolute left-1 top-2 bottom-2 w-2 border-l-4 border-t-4 border-b-4 border-slate-400 rounded-l" />
                       <div className="absolute right-1 top-2 bottom-2 w-2 border-r-4 border-t-4 border-b-4 border-slate-400 rounded-r" />
 
@@ -1409,7 +1409,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                               onClick={() => handleCellClick(cell.r, cell.c)}
                               className={`w-28 h-20 rounded-xl flex flex-col items-center justify-center p-2 transition-all ${
                                 isSel
-                                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/40 ring-2 ring-indigo-400'
+                                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/40 ring-2 ring-gold-400'
                                   : 'bg-slate-800/90 text-slate-200 hover:bg-slate-700 border border-slate-700'
                               }`}
                             >
@@ -1424,14 +1424,14 @@ function C12_AppliedMathsMatricesConceptNotationSim({
 
                   {/* Inspector Panel */}
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-                    <div className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                    <div className="text-xs font-bold uppercase tracking-wider text-gold-400">
                       Element Inspector Address
                     </div>
                     {selectedCell ? (
                       <div className="space-y-2">
                         <div className="text-2xl font-black text-white font-mono">
                           a_{`{${selectedCell.r + 1}${selectedCell.c + 1}}`} ={' '}
-                          <span className="text-indigo-400">
+                          <span className="text-gold-400">
                             {selectedCell.r === 0 && selectedCell.c === 0 ? 120 :
                              selectedCell.r === 0 && selectedCell.c === 1 ? 85 :
                              selectedCell.r === 1 && selectedCell.c === 0 ? 210 : 140}
@@ -1457,7 +1457,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                 <div className="space-y-4 bg-slate-950 p-4 md:p-6 rounded-2xl border border-slate-800">
                   {/* SVG DIAGRAM 1: Row-by-Column Vector Multiplication Flow */}
                   <div className="bg-slate-900 p-3 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-[11px] font-bold uppercase text-indigo-400 mb-1">
+                    <span className="text-[11px] font-bold uppercase text-gold-400 mb-1">
                       SVG Diagram 1: Matrix Multiplication Flow (Row Vector × Column Vector)
                     </span>
                     <svg viewBox="0 0 460 120" className="w-full max-w-[460px] h-auto" aria-label="Matrix multiplication row by column dot product diagram">
@@ -1488,7 +1488,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Controls */}
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-                      <div className="text-xs font-bold uppercase text-indigo-400">
+                      <div className="text-xs font-bold uppercase text-gold-400">
                         Row 1 of A: [{sliderA1}, {sliderA2}]
                       </div>
                       <div className="space-y-1">
@@ -1504,7 +1504,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                           max={9}
                           value={sliderA1}
                           onChange={e => setSliderA1(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div className="space-y-1">
@@ -1520,7 +1520,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                           max={9}
                           value={sliderA2}
                           onChange={e => setSliderA2(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1572,7 +1572,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                       <span className="text-emerald-400 font-bold">{sliderA1 * sliderB1} + {sliderA2 * sliderB2} = {dotProductResult}</span>
                     </div>
                     <p className="text-xs text-slate-400">
-                      Product entry <code className="text-indigo-300">c₁₁</code> in (AB) receives the accumulated total <strong className="text-white">{dotProductResult}</strong>.
+                      Product entry <code className="text-gold-300">c₁₁</code> in (AB) receives the accumulated total <strong className="text-white">{dotProductResult}</strong>.
                     </p>
                   </div>
                 </div>
@@ -1617,7 +1617,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleToggleTranspose}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow"
                     >
                       🔄 Flip Transpose (Swap Rows &amp; Cols)
                     </motion.button>
@@ -1636,7 +1636,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                         className={`h-20 rounded-xl flex flex-col items-center justify-center font-mono ${
                           cell.diag
                             ? 'bg-amber-950/60 border-2 border-amber-500/60 text-amber-200'
-                            : 'bg-indigo-950/60 border border-indigo-700/60 text-indigo-200'
+                            : 'bg-gold-950/60 border border-gold-700/60 text-gold-200'
                         }`}
                       >
                         <span className="text-xl font-bold">{cell.val}</span>
@@ -1678,7 +1678,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                                     ? 'bg-amber-500 text-black shadow-lg ring-2 ring-amber-300'
                                     : isDeleted
                                     ? 'bg-slate-800/40 text-slate-600 line-through border border-dashed border-slate-700'
-                                    : 'bg-indigo-900/60 text-white border border-indigo-600'
+                                    : 'bg-gold-900/60 text-white border border-gold-600'
                                 }`}
                               >
                                 {val}
@@ -1690,7 +1690,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
-                      <div className="font-bold text-indigo-400 uppercase">
+                      <div className="font-bold text-gold-400 uppercase">
                         Minor &amp; Cofactor for a_{`{${selectedMinorCell.r + 1}${selectedMinorCell.c + 1}}`}
                       </div>
                       <p className="text-slate-300">
@@ -1719,7 +1719,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                     {/* SVG DIAGRAM 3: Interactive Radar Plane Coordinates & Area */}
                     <div className="relative bg-slate-900 p-2 rounded-2xl border border-slate-800 flex flex-col items-center justify-center">
-                      <span className="text-[10px] font-bold uppercase text-indigo-400 mb-1">
+                      <span className="text-[10px] font-bold uppercase text-gold-400 mb-1">
                         SVG Diagram 3: Radar Coordinates Flight Triangle Sector
                       </span>
                       <svg viewBox="0 0 240 240" className="w-full max-w-[240px] aspect-square" aria-label="Interactive radar triangular flight sector SVG diagram">
@@ -1823,7 +1823,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1846,12 +1846,12 @@ function C12_AppliedMathsMatricesConceptNotationSim({
       {phase === 'observation' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
           <div className="flex items-center justify-between text-xs text-slate-400">
-            <span className="font-bold text-indigo-400">👀 Active Observation Check ({obsIndex + 1} of {OBSERVATION_QUESTIONS.length})</span>
+            <span className="font-bold text-gold-400">👀 Active Observation Check ({obsIndex + 1} of {OBSERVATION_QUESTIONS.length})</span>
             <span className="text-slate-500">Analyze the visual phenomena you witnessed</span>
           </div>
 
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/50 space-y-4">
-            <div className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-bold rounded-lg border border-indigo-500/40">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/50 space-y-4">
+            <div className="inline-block px-3 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-lg border border-gold-500/40">
               Observation #{obsIndex + 1}
             </div>
 
@@ -1894,7 +1894,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleNextObservationOrSandbox}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   {obsIndex + 1 < OBSERVATION_QUESTIONS.length ? 'Next Observation →' : 'Enter Free Sandbox Workbench →'}
                 </motion.button>
@@ -1929,7 +1929,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Live 2x2 Matrix Invertibility Tester */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+              <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 1. 2×2 Invertibility &amp; Determinant Live Test
               </h4>
               <div className="grid grid-cols-2 gap-3">
@@ -1943,7 +1943,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                     max={10}
                     value={sliderA1}
                     onChange={e => setSliderA1(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div className="space-y-1">
@@ -1956,7 +1956,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                     max={10}
                     value={sliderA2}
                     onChange={e => setSliderA2(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div className="space-y-1">
@@ -2029,7 +2029,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
           {/* Challenge Header & Badges */}
           <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <h2 className="text-base md:text-lg font-bold text-white mt-0.5">
@@ -2045,7 +2045,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700/60'
                   : challenge.difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-700/60'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-700/60'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-700/60'
               }`}>
                 {challenge.difficulty}
               </span>
@@ -2055,7 +2055,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
           {/* Progress bar */}
           <div className="h-1.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2112,7 +2112,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2137,7 +2137,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                         className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col justify-between min-h-[90px]"
                       >
                         <span className="text-xs text-slate-400">{descriptions[targetId] || targetId}</span>
-                        <div className="mt-2 text-sm font-bold text-indigo-300 font-mono">
+                        <div className="mt-2 text-sm font-bold text-gold-300 font-mono">
                           {droppedLabels[targetId] ? `✓ ${droppedLabels[targetId]}` : '👉 Drop Matching Category Here'}
                         </div>
                       </div>
@@ -2151,7 +2151,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Matrix Placements
                 </motion.button>
@@ -2182,7 +2182,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800/90 hover:bg-slate-800 rounded-xl text-slate-200 text-xs md:text-sm font-medium border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-900/60 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                      <span className="w-6 h-6 rounded-full bg-gold-900/60 text-gold-300 font-bold flex items-center justify-center text-xs">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2196,7 +2196,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Check Sequence
                 </motion.button>
@@ -2213,7 +2213,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:outline-none focus:border-gold-500 w-48"
                   />
                   {challenge.unit && <span className="text-sm text-slate-400">{challenge.unit}</span>}
                   <motion.button
@@ -2222,7 +2222,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
                   >
                     Submit Answer
                   </motion.button>
@@ -2242,7 +2242,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 rounded-lg text-xs font-bold border border-indigo-700"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 rounded-lg text-xs font-bold border border-gold-700"
                     >
                       + {part}
                     </motion.button>
@@ -2253,7 +2253,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   {constructParts.map((part, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-bold flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-bold flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2276,7 +2276,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow disabled:opacity-40"
                 >
                   Verify Definition
                 </motion.button>
@@ -2352,7 +2352,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
           {/* Hero Banner */}
-          <div className="p-6 md:p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 md:p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-3">
             <div className="text-4xl">🎉</div>
             <h2 className="text-2xl md:text-3xl font-black text-white">Curriculum Mastery Achieved!</h2>
             <p className="text-sm md:text-base text-slate-300 max-w-xl mx-auto">
@@ -2365,7 +2365,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
               </div>
               <div className="px-4 py-2 bg-slate-900 rounded-xl border border-slate-800">
                 <div className="text-xs text-slate-400">Mastery Level</div>
-                <div className="text-xl font-black text-indigo-400 uppercase">{masteryLevel}</div>
+                <div className="text-xl font-black text-gold-400 uppercase">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2387,7 +2387,7 @@ function C12_AppliedMathsMatricesConceptNotationSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD ─── */}
-          <div className="p-5 md:p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border-2 border-amber-600/60 shadow-xl space-y-3">
+          <div className="p-5 md:p-6 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 rounded-2xl border-2 border-amber-600/60 shadow-xl space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 text-amber-300 font-bold text-sm uppercase tracking-wider">
                 <span>🧠 Spaced Repetition System (SM-2)</span>
@@ -2445,12 +2445,12 @@ function C12_AppliedMathsMatricesConceptNotationSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

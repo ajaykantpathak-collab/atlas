@@ -11,7 +11,7 @@ export const w_c11_geogeomorphicprocessescbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Geomorphic Processes: Endogenic and Exogenic Classification',
     chapters: [],
     nodeIds: ['c11_geo_cbse_06_001', 'c11_geo_cbse_06_004', 'c11_geo_cbse_06_007', 'c11_geo_cbse_06_008', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_09_006', 'c11_geo_cbse_09_007', 'c11_geo_cbse_01_009', 'c11_geo_cbse_07_009', 'c11_geo_cbse_06_002', 'c11_geo_cbse_06_005', 'c11_geo_cbse_06_006', 'c11_geo_cbse_06_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe the Aravalli hills near your city - they are ancient, rounded, and low compared to the sharp,.', goal: 'Master Geomorphic Processes: Endogenic and Exogenic Classification.' },
     discovery: {
         question: 'A student states: "Earthquakes are exogenic processes because they happen on the Earth\'s surface and destroy buildings." Is this classification correct?',
@@ -20,7 +20,7 @@ export const w_c11_geogeomorphicprocessescbsesim: SimDef = {
         hook: 'Students believe "endogenic = constructive, exogenic = destructive" as an absolute rule.',
     },
     teaching: [
-        { title: 'Geomorphic processes are the physical and.', text: 'Geomorphic processes are the physical and chemical actions that modify Earth\'s surface, classified by their energy source: endogenic processes derive energy from Earth\'s interior (radioactive decay,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Geomorphic processes are the physical and.', text: 'Geomorphic processes are the physical and chemical actions that modify Earth\'s surface, classified by their energy source: endogenic processes derive energy from Earth\'s interior (radioactive decay,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_06_001', title: 'Geomorphic processes are the physical.',

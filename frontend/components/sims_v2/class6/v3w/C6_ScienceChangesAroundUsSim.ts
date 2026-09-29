@@ -11,7 +11,7 @@ export const w_c6_sciencechangesaroundussim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Rotation of the Earth: Day and Night',
     chapters: [],
     nodeIds: ['c6_physics_ch12_045', 'c6_physics_ch12_046', 'c6_physics_ch12_047', 'c6_physics_ch11_036', 'c6_physics_ch11_035', 'c6_physics_ch12_051', 'c6_physics_ch01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why you go to bed when it’s dark and wake up when it’s bright?', goal: 'Master Rotation of the Earth: Day and Night.' },
     discovery: {
         question: 'What is the name of the imaginary line that runs through the Earth from the North Pole to the South Pole around which the Earth spins?',
@@ -20,7 +20,7 @@ export const w_c6_sciencechangesaroundussim: SimDef = {
         hook: 'Students often believe the Sun moves around the Earth because of the common phrase "the sun rises and sets." They.',
     },
     teaching: [
-        { title: 'The Earth’s rotation is the spinning motion.', text: 'The Earth’s rotation is the spinning motion of our planet around an imaginary central line called its axis, which connects the North Pole to the South Pole.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Earth’s rotation is the spinning motion.', text: 'The Earth’s rotation is the spinning motion of our planet around an imaginary central line called its axis, which connects the North Pole to the South Pole.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_physics_ch12_045', title: 'The Earth’s rotation is the spinning.',

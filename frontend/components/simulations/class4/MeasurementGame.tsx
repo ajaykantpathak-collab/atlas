@@ -77,21 +77,21 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: 'Why Do We Measure? 📏',
     text: 'Measurement is the process of finding out the size, amount, or degree of something using a standard unit! Without measurement, buying cloth, cooking, or checking a fever would be impossible guesswork!',
     emoji: '📏',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Measurement is the process of finding out the size, amount, or degree of something using a standard unit! Without measurement, buying cloth, cooking, or checking a fever would be guesswork!',
   },
   {
     title: 'Numbers and Units! 🔢',
     text: "Every measurement needs TWO things — a number and a unit! Saying 'I want 2 of cloth' is meaningless. Saying 'I want 2 metres of cloth' tells the shopkeeper exactly how much to cut!",
     emoji: '✂️',
-    bgColor: 'from-cyan-500 to-blue-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: "Every measurement needs two things — a number and a unit! Saying 'I want 2 of cloth' is meaningless. Saying 'I want 2 metres of cloth' tells the shopkeeper exactly how much to cut!",
   },
   {
     title: 'Four Physical Quantities! ⚖️',
     text: 'At Class 4, we learn four common physical quantities: Length (metres/centimetres), Mass (kilograms/grams), Time (hours/minutes), and Temperature (degrees Celsius)! Each has a special instrument!',
     emoji: '🌡️',
-    bgColor: 'from-teal-500 to-cyan-600',
+    bgColor: 'from-teal-500 to-gold-600',
     spoken: 'At Class 4, we learn four common physical quantities: Length, Mass, Time, and Temperature! Each has a special instrument!',
   },
   {
@@ -278,7 +278,7 @@ function TailorTanvi({ mood, speaking }: { mood: MascotMood; speaking: string | 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[240px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-2xl px-3 py-2 shadow-xl max-w-[240px] border-2 border-gold-200"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -791,19 +791,19 @@ export function MeasurementGame({ width = 720, height = 560, onComplete }: Measu
 
   return (
     <div
-      className="relative select-none overflow-hidden rounded-3xl shadow-2xl font-sans bg-sky-100 flex flex-col justify-between"
+      className="relative select-none overflow-hidden rounded-3xl shadow-2xl font-sans bg-gold-100 flex flex-col justify-between"
       style={{ width, height }}
     >
       {/* Background Scene */}
       <TailorShopScene width={width} height={height} />
 
       {/* Header Bar */}
-      <div className="relative z-10 flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md border-b border-indigo-100 shadow-sm">
+      <div className="relative z-10 flex items-center justify-between px-6 py-3 bg-white/80 backdrop-blur-md border-b border-gold-100 shadow-sm">
         <div className="flex items-center gap-3">
           <span className="text-2xl">✂️</span>
           <div>
-            <h1 className="text-base font-black text-indigo-900 leading-tight">Tailor Tanvi s Measurement Workshop</h1>
-            <p className="text-xs font-semibold text-indigo-600">CISCE Class 4 Physics • Measurement</p>
+            <h1 className="text-base font-black text-gold-900 leading-tight">Tailor Tanvi s Measurement Workshop</h1>
+            <p className="text-xs font-semibold text-gold-600">CISCE Class 4 Physics • Measurement</p>
           </div>
         </div>
 
@@ -833,9 +833,9 @@ export function MeasurementGame({ width = 720, height = 560, onComplete }: Measu
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center p-6">
         {screen === 'teaching' ? (
           /* ─── TEACHING SCREEN ────────────────────────────── */
-          <div className="flex flex-col items-center max-w-xl w-full bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-4 border-indigo-200">
+          <div className="flex flex-col items-center max-w-xl w-full bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-4 border-gold-200">
             <div className="text-6xl mb-4 animate-bounce">{TEACHING_SLIDES[slideIdx].emoji}</div>
-            <h2 className="text-2xl font-black text-indigo-900 mb-3 text-center">
+            <h2 className="text-2xl font-black text-gold-900 mb-3 text-center">
               {TEACHING_SLIDES[slideIdx].title}
             </h2>
             <p className="text-base font-medium text-gray-700 text-center leading-relaxed mb-6">
@@ -847,7 +847,7 @@ export function MeasurementGame({ width = 720, height = 560, onComplete }: Measu
               {TEACHING_SLIDES.map((_, i) => (
                 <div
                   key={i}
-                  className={`h-3 rounded-full transition-all ${i === slideIdx ? 'w-8 bg-indigo-600' : 'w-3 bg-gray-300'}`}
+                  className={`h-3 rounded-full transition-all ${i === slideIdx ? 'w-8 bg-gold-600' : 'w-3 bg-gray-300'}`}
                 />
               ))}
             </div>
@@ -864,7 +864,7 @@ export function MeasurementGame({ width = 720, height = 560, onComplete }: Measu
               </button>
               <button
                 onClick={handleNextSlide}
-                className="px-8 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-black text-sm rounded-2xl shadow-lg transition-transform active:scale-95 flex items-center gap-2"
+                className="px-8 py-2.5 bg-gold-600 hover:bg-gold-700 text-white font-black text-sm rounded-2xl shadow-lg transition-transform active:scale-95 flex items-center gap-2"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
               </button>
@@ -874,8 +874,8 @@ export function MeasurementGame({ width = 720, height = 560, onComplete }: Measu
           /* ─── PLAY SCREEN ────────────────────────────────── */
           <div className="flex flex-col items-center max-w-2xl w-full">
             {/* Question Card */}
-            <div className="bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-xl border-2 border-indigo-100 mb-6 w-full text-center">
-              <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-black uppercase tracking-wider mb-2">
+            <div className="bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-xl border-2 border-gold-100 mb-6 w-full text-center">
+              <span className="inline-block px-3 py-1 bg-gold-100 text-gold-700 rounded-full text-xs font-black uppercase tracking-wider mb-2">
                 Challenge {challengeIdx + 1}
               </span>
               <h2 className="text-xl font-black text-gray-900">{currentChallenge.question}</h2>
@@ -887,7 +887,7 @@ export function MeasurementGame({ width = 720, height = 560, onComplete }: Measu
                 {currentChallenge.options.map(opt => {
                   const isSelected = selectedOpt === opt;
                   const isCorrect = opt === currentChallenge.answer;
-                  let btnStyle = 'bg-white hover:bg-indigo-50 border-indigo-200 text-gray-800';
+                  let btnStyle = 'bg-white hover:bg-gold-50 border-gold-200 text-gray-800';
                   if (selectedOpt) {
                     if (isCorrect) btnStyle = 'bg-emerald-500 border-emerald-600 text-white shadow-lg scale-102';
                     else if (isSelected) btnStyle = 'bg-rose-500 border-rose-600 text-white animate-shake';

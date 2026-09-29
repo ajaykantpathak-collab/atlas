@@ -11,7 +11,7 @@ export const w_c10_historycivicspresidentexecutivelegislativesim: SimDef = {
     classLevel: 10, subject: 'history', topic: 'Role of Opposition Parties in a Democracy',
     chapters: [],
     nodeIds: ['c10_civ_cbse_04_008', 'c10_civ_cbse_02_007', 'c10_civ_cbse_02_009', 'c10_civ_cbse_02_004', 'c10_civ_cbse_01_004', 'c10_civ_cbse_01_005', 'c10_civ_cbse_01_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you are watching a televised Lok Sabha session where the ruling party has 300+ seats and the main.', goal: 'Master Role of Opposition Parties in a Democracy.' },
     discovery: {
         question: 'A State government refuses to implement a Central law on "Prevention of Cruelty to Animals" (a Concurrent List subject), claiming it violates State autonomy.',
@@ -20,7 +20,7 @@ export const w_c10_historycivicspresidentexecutivelegislativesim: SimDef = {
         hook: 'Students often believe that "Centre-State relations" means the Centre controls everything and States are mere agents.',
     },
     teaching: [
-        { title: 'The Opposition in a democracy refers to the.', text: 'The Opposition in a democracy refers to the political party or coalition of parties that secures the second-largest number of seats in the legislature and does not form the government; its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Opposition in a democracy refers to the.', text: 'The Opposition in a democracy refers to the political party or coalition of parties that secures the second-largest number of seats in the legislature and does not form the government; its.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_civ_cbse_04_008', title: 'The Opposition in a democracy refers to.',

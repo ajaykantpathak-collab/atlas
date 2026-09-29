@@ -104,7 +104,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "The PowerPoint Window 🧰",
     text: "The window has three main parts: The Ribbon (tool belt at top with tabs like Home & Insert), the Slide Pane (central canvas where you edit slides), and the Notes Area (private reminders for the speaker).",
     emoji: "📋",
-    bgColor: "from-blue-400 to-indigo-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "The window has three main parts: The Ribbon, the Slide Pane, and the Notes Area. The notes are private reminders for the speaker and do not show on the slide!"
   },
   {
@@ -118,7 +118,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Saving Your Presentation 💾",
     text: "Always save your work! Saving stores your presentation on the computer with a file name and .pptx. Remember: saving stores the file, while closing just removes it from the screen. Always save before closing!",
     emoji: "💾",
-    bgColor: "from-purple-400 to-indigo-500",
+    bgColor: "from-purple-400 to-gold-500",
     spoken: "Always save your work! Saving stores your presentation on the computer with a file name and dot p p t x. Always save before closing so you do not lose your work!"
   },
   {
@@ -802,7 +802,7 @@ export function PowerPointGame({ width = 720, height = 560, onComplete }: PowerP
           {screen === 'teaching' ? (
             <span className="text-xs font-bold text-amber-300">Slide {slideIdx + 1} of {TEACHING_SLIDES.length}</span>
           ) : (
-            <span className="text-xs font-bold text-cyan-300">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
+            <span className="text-xs font-bold text-gold-300">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
           )}
           <button
             onClick={() => {

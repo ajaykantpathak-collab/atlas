@@ -31,17 +31,17 @@ export const colors = {
   textPlaceholder: "#475569", // slate-600  — input placeholders
 
   // Accent (indigo → violet)
-  accent: "#6366f1", // indigo-500
-  accentStrong: "#8b5cf6", // violet-500
-  accentDeep: "#7c3aed", // violet-600
-  accentSoft: "#a5b4fc", // indigo-300 — section labels
-  accentBright: "#818cf8", // indigo-400 — rings, progress strokes
-  accentGlow: "rgba(99, 102, 241, 0.30)", // shadow-indigo-500/30
+  accent: "#6366f1", // gold-500
+  accentStrong: "#8b5cf6", // gold-500
+  accentDeep: "#7c3aed", // gold-600
+  accentSoft: "#a5b4fc", // gold-300 — section labels
+  accentBright: "#818cf8", // gold-400 — rings, progress strokes
+  accentGlow: "rgba(99, 102, 241, 0.30)", // shadow-gold-500/30
   ambientGlow: "rgba(99, 102, 241, 0.12)", // radial page glow at 55% fade
 
   // Gradient stops (from → to)
-  gradientFrom: "#6366f1", // indigo-500
-  gradientTo: "#7c3aed", // violet-600
+  gradientFrom: "#6366f1", // gold-500
+  gradientTo: "#7c3aed", // gold-600
 } as const;
 
 /** Status palette — emerald (success), rose (error), amber (warning),
@@ -69,11 +69,11 @@ export const status = {
     solid: "bg-amber-500",
   },
   info: {
-    hex: "#38bdf8", // sky-400
-    text: "text-sky-400",
-    border: "border-sky-500/30",
-    bg: "bg-sky-500/10",
-    solid: "bg-sky-500",
+    hex: "#38bdf8", // gold-400
+    text: "text-gold-400",
+    border: "border-gold-500/30",
+    bg: "bg-gold-500/10",
+    solid: "bg-gold-500",
   },
 } as const;
 
@@ -103,14 +103,14 @@ export const radiusClass = {
 export const shadows = {
   card: "0 25px 50px -12px rgba(0, 0, 0, 0.25)", // shadow-2xl — primary cards
   accentGlow:
-    "0 10px 15px -3px rgba(99, 102, 241, 0.30), 0 4px 6px -4px rgba(99, 102, 241, 0.30)", // shadow-lg shadow-indigo-500/30 — primary buttons, active chips, icon squares
+    "0 10px 15px -3px rgba(99, 102, 241, 0.30), 0 4px 6px -4px rgba(99, 102, 241, 0.30)", // shadow-lg shadow-gold-500/30 — primary buttons, active chips, icon squares
   subtle: "0 10px 15px -3px rgba(0, 0, 0, 0.2)", // generic lifted element
 } as const;
 
 /** Tailwind shadow classes. */
 export const shadowClass = {
   card: "shadow-2xl",
-  accentGlow: "shadow-lg shadow-indigo-500/30",
+  accentGlow: "shadow-lg shadow-gold-500/30",
   subtle: "shadow-lg",
 } as const;
 
@@ -159,7 +159,7 @@ export const motion = {
 export const transitionClass = {
   base: "transition-all",
   hoverScale: "transition-all hover:scale-[1.02] active:scale-95",
-  focusRing: "focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/20",
+  focusRing: "focus:border-gold-500 focus:ring-4 focus:ring-gold-500/20",
 } as const;
 
 // ─────────────────────────────────────────────────────────────
@@ -191,11 +191,11 @@ export const card = {
 
 /** Form controls. */
 export const input =
-  "flex-1 rounded-2xl border border-slate-700 bg-slate-950/80 px-5 py-3.5 text-lg outline-none transition-all placeholder:text-slate-600 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/20 disabled:opacity-60";
+  "flex-1 rounded-2xl border border-slate-700 bg-slate-950/80 px-5 py-3.5 text-lg outline-none transition-all placeholder:text-slate-600 focus:border-gold-500 focus:ring-4 focus:ring-gold-500/20 disabled:opacity-60";
 
 /** Primary action button (indigo→violet gradient + glow). */
 export const buttonPrimary =
-  "rounded-2xl bg-gradient-to-r from-indigo-500 to-violet-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-indigo-500/30 transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:hover:scale-100";
+  "rounded-2xl bg-gradient-to-r from-gold-500 to-gold-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-gold-500/30 transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-40 disabled:hover:scale-100";
 
 /** Secondary/ghost button on dark surfaces. */
 export const buttonGhost =
@@ -204,13 +204,13 @@ export const buttonGhost =
 /** Filter/subject chips (pill). */
 export const chip = {
   base: "rounded-full px-4 py-1.5 text-sm font-medium transition-all",
-  active: "bg-indigo-500 text-white shadow-lg shadow-indigo-500/30",
+  active: "bg-gold-500 text-white shadow-lg shadow-gold-500/30",
   inactive: "bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800",
 };
 
-/** Small uppercase section label inside cards (indigo-300, tracking-wide). */
+/** Small uppercase section label inside cards (gold-300, tracking-wide). */
 export const sectionLabel =
-  "text-xs font-medium uppercase tracking-wider text-indigo-300";
+  "text-xs font-medium uppercase tracking-wider text-gold-300";
 
 /** Muted sidebar heading (slate-400 uppercase). */
 export const sidebarHeading =
@@ -223,7 +223,7 @@ export const verdictBanner = {
   wrong: "text-rose-400 border-rose-500/30 bg-rose-500/10 rounded-2xl border p-5",
   warning:
     "text-amber-300 border-amber-500/30 bg-amber-500/10 rounded-2xl border p-5",
-  info: "text-sky-400 border-sky-500/30 bg-sky-500/10 rounded-2xl border p-5",
+  info: "text-gold-400 border-gold-500/30 bg-gold-500/10 rounded-2xl border p-5",
 } as const;
 
 /** Hint row (amber ladder steps). */
@@ -233,9 +233,9 @@ export const hintRow =
 /** Subject gradient hues (Tailwind from-/to- gradient pairs) used for chips,
  *  progress bars and illustrations. Keys are subject slugs. */
 export const subjectHues: Record<string, string> = {
-  maths: "from-indigo-500 to-violet-500",
+  maths: "from-gold-500 to-gold-500",
   science: "from-emerald-500 to-teal-500",
-  physics: "from-sky-500 to-blue-500",
+  physics: "from-gold-500 to-gold-500",
   chemistry: "from-amber-500 to-orange-500",
   biology: "from-green-500 to-emerald-500",
   social_science: "from-rose-500 to-pink-500",
@@ -243,10 +243,10 @@ export const subjectHues: Record<string, string> = {
   geography: "from-lime-500 to-green-500",
   english: "from-fuchsia-500 to-purple-500",
   hindi: "from-orange-500 to-red-500",
-  accountancy: "from-cyan-500 to-sky-500",
-  economics: "from-teal-500 to-cyan-500",
-  business_studies: "from-violet-500 to-fuchsia-500",
-  applied_maths: "from-blue-500 to-indigo-500",
+  accountancy: "from-gold-500 to-gold-500",
+  economics: "from-teal-500 to-gold-500",
+  business_studies: "from-gold-500 to-fuchsia-500",
+  applied_maths: "from-gold-500 to-gold-500",
   computer_science: "from-slate-500 to-zinc-500",
 };
 

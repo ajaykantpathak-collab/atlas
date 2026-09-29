@@ -11,7 +11,7 @@ export const w_c12_chemistrydiazoniumsaltssim: SimDef = {
     classLevel: 12, subject: 'chemistry', topic: 'Diazonium Salts: Preparation and Reactions',
     chapters: [],
     nodeIds: ['c12_chem_cbse_09_009', 'c12_chem_cbse_09_010', 'c12_chem_cbse_07_004', 'c12_chem_cbse_07_009', 'c12_chem_cbse_06_005', 'c12_chem_cbse_09_006', 'c12_chem_cbse_09_002', 'c12_chem_cbse_09_004', 'c12_chem_cbse_09_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a bottle of aniline in the laboratory — it is a colourless liquid that turns brown on exposure to air.', goal: 'Master Diazonium Salts: Preparation and Reactions.' },
     discovery: {
         question: 'Compare the Sandmeyer reaction and the Gattermann reaction for introducing chlorine or bromine into an aromatic ring via diazonium salts.',
@@ -20,7 +20,7 @@ export const w_c12_chemistrydiazoniumsaltssim: SimDef = {
         hook: 'Students often think that the diazonium group (–N₂⁺) can be directly replaced by –NO₂ by simply adding NaNO₂/Cu (like.',
     },
     teaching: [
-        { title: 'Diazonium salts are a class of organic.', text: 'Diazonium salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where Ar is an aryl group and X⁻ is an anion such as Cl⁻, Br⁻, HSO₄⁻, BF₄⁻).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Diazonium salts are a class of organic.', text: 'Diazonium salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where Ar is an aryl group and X⁻ is an anion such as Cl⁻, Br⁻, HSO₄⁻, BF₄⁻).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_chem_cbse_09_009', title: 'Diazonium salts are a class of organic.',

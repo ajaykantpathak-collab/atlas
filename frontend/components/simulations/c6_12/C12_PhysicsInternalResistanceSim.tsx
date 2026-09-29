@@ -1284,13 +1284,13 @@ function C12_PhysicsInternalResistanceSim({
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.8 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-2xl shadow-lg shadow-blue-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-900/60 text-blue-300 border border-blue-700/50">
+              <span className="text-xs font-semibold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 ISC Class 12 Science
               </span>
               <motion.span
@@ -1301,7 +1301,7 @@ function C12_PhysicsInternalResistanceSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950 text-blue-400 border border-blue-700'
+                    ? 'bg-gold-950 text-gold-400 border border-gold-700'
                     : 'bg-rose-950 text-rose-400 border border-rose-700'
                 }`}
               >
@@ -1316,7 +1316,7 @@ function C12_PhysicsInternalResistanceSim({
         <div className="flex flex-wrap items-center gap-2">
           <motion.div whileHover={{ scale: 1.05 }} className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
             <span className="text-slate-400">Emf / Lost V: </span>
-            <span className="text-indigo-300 font-mono font-bold">
+            <span className="text-gold-300 font-mono font-bold">
               {cellTotalEmf.toFixed(1)}V / {cellLostVolts.toFixed(2)}V
             </span>
           </motion.div>
@@ -1344,7 +1344,7 @@ function C12_PhysicsInternalResistanceSim({
             aria-label={`Navigate to ${p} phase`}
             className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
               phase === p
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
             }`}
           >
@@ -1367,13 +1367,13 @@ function C12_PhysicsInternalResistanceSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6"
           >
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-800/60 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2">
+            <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-800/60 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
                 <span>🚨</span>
                 <span>{SCENARIO.title}</span>
               </div>
               <p className="text-base text-slate-200 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-indigo-900/50">{SCENARIO.context}</p>
+              <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-gold-900/50">{SCENARIO.context}</p>
             </div>
 
             {/* Interactive Discovery Question */}
@@ -1418,7 +1418,7 @@ function C12_PhysicsInternalResistanceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExplore}
                     aria-label="Enter Visual Super-Labs"
-                    className="mt-4 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm shadow-lg shadow-blue-500/25 flex items-center gap-2"
+                    className="mt-4 px-6 py-3 rounded-xl bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-500/25 flex items-center gap-2"
                   >
                     <span>Enter Visual Super-Labs</span>
                     <span>→</span>
@@ -1443,7 +1443,7 @@ function C12_PhysicsInternalResistanceSim({
             {/* Step navigation Header */}
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
               <div className="flex items-center gap-3">
-                <span className="px-3 py-1 rounded-lg bg-blue-950 text-blue-400 border border-blue-800 font-mono text-xs font-bold">
+                <span className="px-3 py-1 rounded-lg bg-gold-950 text-gold-400 border border-gold-800 font-mono text-xs font-bold">
                   Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h2 className="text-base font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1465,7 +1465,7 @@ function C12_PhysicsInternalResistanceSim({
                   onClick={handleNextSlide}
                   disabled={currentSlide === EXPLORATION_STEPS.length - 1}
                   aria-label="Next Lab"
-                  className="px-3 py-1.5 rounded-lg bg-blue-600 text-white text-xs font-bold disabled:opacity-30"
+                  className="px-3 py-1.5 rounded-lg bg-gold-600 text-white text-xs font-bold disabled:opacity-30"
                 >
                   Next Lab →
                 </motion.button>
@@ -1527,7 +1527,7 @@ function C12_PhysicsInternalResistanceSim({
                     <div className="grid grid-cols-3 gap-2 w-full mt-4 text-center">
                       <div className="p-2.5 rounded-xl bg-slate-950 border border-slate-800">
                         <span className="text-[10px] text-slate-400 block uppercase">Total Emf ε</span>
-                        <span className="text-base font-mono font-black text-indigo-400">{cellTotalEmf.toFixed(2)} V</span>
+                        <span className="text-base font-mono font-black text-gold-400">{cellTotalEmf.toFixed(2)} V</span>
                       </div>
                       <div className="p-2.5 rounded-xl bg-slate-950 border border-slate-800">
                         <span className="text-[10px] text-slate-400 block uppercase">Terminal Voltage V</span>
@@ -1547,7 +1547,7 @@ function C12_PhysicsInternalResistanceSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Cell Emf (ε):</span>
-                        <span className="font-mono text-indigo-400 font-bold">{cellEmf.toFixed(1)} V</span>
+                        <span className="font-mono text-gold-400 font-bold">{cellEmf.toFixed(1)} V</span>
                       </div>
                       <input
                         type="range"
@@ -1557,7 +1557,7 @@ function C12_PhysicsInternalResistanceSim({
                         value={cellEmf}
                         onChange={(e) => setCellEmf(parseFloat(e.target.value))}
                         aria-label="Cell Emf in Volts"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1601,7 +1601,7 @@ function C12_PhysicsInternalResistanceSim({
                     </div>
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-slate-400">Cell Electrical Efficiency:</span>
-                      <span className="font-mono text-cyan-400 font-bold">{cellEfficiencyPct.toFixed(1)} %</span>
+                      <span className="font-mono text-gold-400 font-bold">{cellEfficiencyPct.toFixed(1)} %</span>
                     </div>
                   </div>
                 </div>
@@ -1614,7 +1614,7 @@ function C12_PhysicsInternalResistanceSim({
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div className="flex justify-between text-xs text-slate-400 mb-2">
                     <span>Kirchhoff 2-Mesh Schematic (ΣI = 0 at Junction, ΣΔV = 0 in Loop)</span>
-                    <span className="font-mono text-cyan-400 font-bold">Junction Balance: I1 + I2 = I3</span>
+                    <span className="font-mono text-gold-400 font-bold">Junction Balance: I1 + I2 = I3</span>
                   </div>
 
                   <svg viewBox="0 0 500 160" className="w-full bg-slate-900 rounded-lg p-2" aria-label="Kirchhoff Two-Loop Mesh Circuit Diagram">
@@ -1662,7 +1662,7 @@ function C12_PhysicsInternalResistanceSim({
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-3">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase">Left Loop (E1, R1)</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase">Left Loop (E1, R1)</h4>
                     <div className="flex justify-between text-xs">
                       <span>Source E1:</span>
                       <span className="font-mono text-white font-bold">{kE1} V</span>
@@ -1674,7 +1674,7 @@ function C12_PhysicsInternalResistanceSim({
                       value={kE1}
                       onChange={(e) => setKE1(parseFloat(e.target.value))}
                       aria-label="Kirchhoff Source E1 in Volts"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                     <div className="flex justify-between text-xs">
                       <span>Resistor R1:</span>
@@ -1687,7 +1687,7 @@ function C12_PhysicsInternalResistanceSim({
                       value={kR1}
                       onChange={(e) => setKR1(parseFloat(e.target.value))}
                       aria-label="Kirchhoff Resistor R1 in Ohms"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1746,7 +1746,7 @@ function C12_PhysicsInternalResistanceSim({
                 <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 flex flex-wrap items-center justify-around gap-4 text-xs font-mono">
                   <div>
                     <span className="text-slate-400">Branch I1: </span>
-                    <span className="text-indigo-400 font-bold">{kI1.toFixed(2)} A</span>
+                    <span className="text-gold-400 font-bold">{kI1.toFixed(2)} A</span>
                   </div>
                   <div>
                     <span className="text-slate-400">Branch I2: </span>
@@ -1821,7 +1821,7 @@ function C12_PhysicsInternalResistanceSim({
                         value={jockeyPositionCm}
                         onChange={(e) => setJockeyPositionCm(parseFloat(e.target.value))}
                         aria-label="Metre Bridge Jockey Position in Centimetres"
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1859,7 +1859,7 @@ function C12_PhysicsInternalResistanceSim({
               <div className="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-4">
-                    <h3 className="text-xs font-bold text-indigo-400 uppercase">Driver Primary Circuit</h3>
+                    <h3 className="text-xs font-bold text-gold-400 uppercase">Driver Primary Circuit</h3>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-400">Driver Accumulator (ε_driver):</span>
@@ -1873,7 +1873,7 @@ function C12_PhysicsInternalResistanceSim({
                         value={potDriverEmf}
                         onChange={(e) => setPotDriverEmf(parseFloat(e.target.value))}
                         aria-label="Potentiometer Driver Emf in Volts"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1889,13 +1889,13 @@ function C12_PhysicsInternalResistanceSim({
                         value={potRheostatR}
                         onChange={(e) => setPotRheostatR(parseFloat(e.target.value))}
                         aria-label="Potentiometer Driver Rheostat Resistance in Ohms"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs">
                       <div className="flex justify-between">
                         <span className="text-slate-400">Potential Gradient K:</span>
-                        <span className="font-mono text-cyan-400 font-bold">{(potGradientK * 1000).toFixed(2)} mV/cm</span>
+                        <span className="font-mono text-gold-400 font-bold">{(potGradientK * 1000).toFixed(2)} mV/cm</span>
                       </div>
                     </div>
                   </div>
@@ -1962,7 +1962,7 @@ function C12_PhysicsInternalResistanceSim({
                     onClick={() => setActiveMagTab('loop')}
                     aria-label="Select Circular Current Loop"
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                      activeMagTab === 'loop' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                      activeMagTab === 'loop' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Circular Current Loop
@@ -1973,7 +1973,7 @@ function C12_PhysicsInternalResistanceSim({
                     onClick={() => setActiveMagTab('solenoid')}
                     aria-label="Select Helical Solenoid"
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                      activeMagTab === 'solenoid' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                      activeMagTab === 'solenoid' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     Helical Solenoid
@@ -2008,7 +2008,7 @@ function C12_PhysicsInternalResistanceSim({
                         <div>
                           <div className="flex justify-between mb-1">
                             <span className="text-slate-400">Coil Radius R:</span>
-                            <span className="font-mono text-cyan-400 font-bold">{(magCoilRadiusR * 100).toFixed(1)} cm</span>
+                            <span className="font-mono text-gold-400 font-bold">{(magCoilRadiusR * 100).toFixed(1)} cm</span>
                           </div>
                           <input
                             type="range"
@@ -2018,7 +2018,7 @@ function C12_PhysicsInternalResistanceSim({
                             value={magCoilRadiusR}
                             onChange={(e) => setMagCoilRadiusR(parseFloat(e.target.value))}
                             aria-label="Coil Radius in Metres"
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div className="p-3 rounded-xl bg-slate-950 border border-slate-800 space-y-1 font-mono">
@@ -2037,7 +2037,7 @@ function C12_PhysicsInternalResistanceSim({
                         <div>
                           <div className="flex justify-between mb-1">
                             <span className="text-slate-400">Turn Density n (turns/m):</span>
-                            <span className="font-mono text-cyan-400 font-bold">{solenoidTurnsPerM} m⁻¹</span>
+                            <span className="font-mono text-gold-400 font-bold">{solenoidTurnsPerM} m⁻¹</span>
                           </div>
                           <input
                             type="range"
@@ -2047,7 +2047,7 @@ function C12_PhysicsInternalResistanceSim({
                             value={solenoidTurnsPerM}
                             onChange={(e) => setSolenoidTurnsPerM(parseInt(e.target.value))}
                             aria-label="Solenoid Turn Density in turns per metre"
-                            className="w-full accent-cyan-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
                         <div className="p-3 rounded-xl bg-slate-950 border border-slate-800 space-y-1 font-mono">
@@ -2068,9 +2068,9 @@ function C12_PhysicsInternalResistanceSim({
             )}
 
             {/* ─── BRILLIANT.ORG INTERACTIVE PREDICT-THEN-CHECK CARD ─── */}
-            <div className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-800/60 space-y-3">
+            <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800/60 space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   🔮 Brilliant Predict-Then-Check Experiment ({predIdx + 1} of {PREDICTION_QUESTIONS.length})
                 </span>
                 {PREDICTION_QUESTIONS.length > 1 && (
@@ -2081,7 +2081,7 @@ function C12_PhysicsInternalResistanceSim({
                       setPredSelected(null);
                       setPredVerified(false);
                     }}
-                    className="text-xs text-indigo-300 underline"
+                    className="text-xs text-gold-300 underline"
                   >
                     Next Prediction →
                   </button>
@@ -2106,7 +2106,7 @@ function C12_PhysicsInternalResistanceSim({
                 ))}
               </div>
               {predAnswered && (
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-2 p-3 bg-slate-950 rounded-xl border border-indigo-900/60 text-xs text-slate-300 space-y-1.5">
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-2 p-3 bg-slate-950 rounded-xl border border-gold-900/60 text-xs text-slate-300 space-y-1.5">
                   <p className="font-semibold text-amber-300">🔍 How to verify in the lab:</p>
                   <p>{PREDICTION_QUESTIONS[predIdx].verifyInstruction}</p>
                   <p className="text-slate-400 pt-1 border-t border-slate-800">{PREDICTION_QUESTIONS[predIdx].explanation}</p>
@@ -2115,9 +2115,9 @@ function C12_PhysicsInternalResistanceSim({
             </div>
 
             {/* ─── BRILLIANT.ORG OBSERVATION CARD ('What Do You Notice?') ─── */}
-            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-800/60 space-y-3">
+            <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800/60 space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   👁️ Visual Observation Challenge ({obsIdx + 1} of {OBSERVATION_QUESTIONS.length})
                 </span>
                 {OBSERVATION_QUESTIONS.length > 1 && (
@@ -2127,7 +2127,7 @@ function C12_PhysicsInternalResistanceSim({
                       setObsAnswered(false);
                       setObsSelected(null);
                     }}
-                    className="text-xs text-cyan-300 underline"
+                    className="text-xs text-gold-300 underline"
                   >
                     Next Observation →
                   </button>
@@ -2152,7 +2152,7 @@ function C12_PhysicsInternalResistanceSim({
                 ))}
               </div>
               {obsAnswered && (
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-2 p-3 bg-slate-950 rounded-xl border border-cyan-900/60 text-xs text-slate-300">
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-2 p-3 bg-slate-950 rounded-xl border border-gold-900/60 text-xs text-slate-300">
                   <p className="font-semibold text-emerald-400">✓ Physical Analysis:</p>
                   <p>{OBSERVATION_QUESTIONS[obsIdx].explanation}</p>
                 </motion.div>
@@ -2193,7 +2193,7 @@ function C12_PhysicsInternalResistanceSim({
             {/* Sandbox Console */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400 uppercase">1. Power Source (Emf & r)</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">1. Power Source (Emf & r)</span>
                 <div>
                   <div className="flex justify-between text-xs">
                     <span>Emf ε:</span>
@@ -2206,7 +2206,7 @@ function C12_PhysicsInternalResistanceSim({
                     value={cellEmf}
                     onChange={(e) => setCellEmf(parseFloat(e.target.value))}
                     aria-label="Sandbox Emf"
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div>
@@ -2247,7 +2247,7 @@ function C12_PhysicsInternalResistanceSim({
                     className="w-full accent-amber-500"
                   />
                 </div>
-                <div className="text-xs font-mono text-cyan-400 pt-2 border-t border-slate-800">
+                <div className="text-xs font-mono text-gold-400 pt-2 border-t border-slate-800">
                   Galvo Ig: {galvanometerCurrentUg.toFixed(1)} μA
                 </div>
               </div>
@@ -2294,7 +2294,7 @@ function C12_PhysicsInternalResistanceSim({
                 <span className="text-xs font-mono text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="ml-3 px-2 py-0.5 rounded text-[10px] uppercase font-bold bg-indigo-950 text-indigo-300 border border-indigo-800">
+                <span className="ml-3 px-2 py-0.5 rounded text-[10px] uppercase font-bold bg-gold-950 text-gold-300 border border-gold-800">
                   NEP Competency: {currentCh.competencyLevel}
                 </span>
               </div>
@@ -2306,7 +2306,7 @@ function C12_PhysicsInternalResistanceSim({
             {/* Progress bar */}
             <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-blue-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2363,7 +2363,7 @@ function C12_PhysicsInternalResistanceSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 rounded-lg bg-blue-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3 py-1.5 rounded-lg bg-gold-600 text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         ⠿ {item.label}
                       </motion.div>
@@ -2394,7 +2394,7 @@ function C12_PhysicsInternalResistanceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerSubmit(droppedLabels)}
                     aria-label="Validate Labels"
-                    className="mt-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs"
+                    className="mt-2 px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs"
                   >
                     Validate Labels
                   </motion.button>
@@ -2438,7 +2438,7 @@ function C12_PhysicsInternalResistanceSim({
                       )
                     }
                     aria-label="Submit Ordered Steps"
-                    className="mt-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs"
+                    className="mt-2 px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs"
                   >
                     Submit Ordered Steps
                   </motion.button>
@@ -2455,7 +2455,7 @@ function C12_PhysicsInternalResistanceSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value..."
                     aria-label="Numerical Answer Input"
-                    className="px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white font-mono text-sm focus:outline-none focus:border-blue-500"
+                    className="px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm font-mono text-slate-400 font-bold">{currentCh.unit}</span>
                   <motion.button
@@ -2464,7 +2464,7 @@ function C12_PhysicsInternalResistanceSim({
                     onClick={() => handleAnswerSubmit(numericInput)}
                     disabled={showExplanation}
                     aria-label="Check Numeric Answer"
-                    className="px-6 py-3 rounded-xl bg-blue-600 text-white font-bold text-xs uppercase tracking-wider"
+                    className="px-6 py-3 rounded-xl bg-gold-600 text-white font-bold text-xs uppercase tracking-wider"
                   >
                     Check Answer
                   </motion.button>
@@ -2483,7 +2483,7 @@ function C12_PhysicsInternalResistanceSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts((prev) => [...prev, part])}
                         aria-label={`Add part ${part}`}
-                        className="px-3 py-1.5 rounded-lg bg-slate-800 text-indigo-300 font-mono text-xs font-bold border border-slate-700"
+                        className="px-3 py-1.5 rounded-lg bg-slate-800 text-gold-300 font-mono text-xs font-bold border border-slate-700"
                       >
                         + {part}
                       </motion.button>
@@ -2492,7 +2492,7 @@ function C12_PhysicsInternalResistanceSim({
 
                   <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 min-h-[50px] flex flex-wrap gap-2 items-center">
                     {constructParts.map((p, idx) => (
-                      <span key={idx} className="px-2.5 py-1 rounded bg-indigo-950 text-indigo-200 font-mono text-xs flex items-center gap-1.5">
+                      <span key={idx} className="px-2.5 py-1 rounded bg-gold-950 text-gold-200 font-mono text-xs flex items-center gap-1.5">
                         {p}
                         <button onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))} aria-label={`Remove part ${p}`} className="text-rose-400">
                           ✕
@@ -2506,7 +2506,7 @@ function C12_PhysicsInternalResistanceSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerSubmit(constructParts.join(' '))}
                     aria-label="Verify Formula Construction"
-                    className="px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs"
+                    className="px-5 py-2.5 rounded-xl bg-gold-600 text-white font-bold text-xs"
                   >
                     Verify Formula
                   </motion.button>
@@ -2576,7 +2576,7 @@ function C12_PhysicsInternalResistanceSim({
             exit={{ opacity: 0 }}
             className="space-y-6"
           >
-            <div className="p-8 rounded-3xl bg-gradient-to-br from-slate-900 to-indigo-950 border border-indigo-800 text-center space-y-4 shadow-2xl">
+            <div className="p-8 rounded-3xl bg-gradient-to-br from-slate-900 to-gold-950 border border-gold-800 text-center space-y-4 shadow-2xl">
               <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="text-5xl">
                 🏆
               </motion.div>
@@ -2588,12 +2588,12 @@ function C12_PhysicsInternalResistanceSim({
                 </div>
                 <div>
                   <span className="text-slate-400 block text-xs">BKT Mastery Tier</span>
-                  <span className="text-2xl font-black text-cyan-400 uppercase">{masteryLevel}</span>
+                  <span className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</span>
                 </div>
               </div>
 
               {/* Feedback Banner */}
-              <div className="p-4 rounded-xl bg-slate-950 border border-indigo-900/60 text-xs text-indigo-200">
+              <div className="p-4 rounded-xl bg-slate-950 border border-gold-900/60 text-xs text-gold-200">
                 {errors === 0
                   ? '✓ PERFECT SCORE! You have mastered all derivations and problem-solving techniques for ISC Class 12!'
                   : errors <= 3
@@ -2622,11 +2622,11 @@ function C12_PhysicsInternalResistanceSim({
             )}
 
             {/* ─── PROMINENT SPACED REPETITION (SRS) SCHEDULE VISIBILITY ─── */}
-            <div className="p-6 rounded-2xl bg-gradient-to-r from-blue-950/70 to-indigo-950/70 border border-blue-700/60 shadow-xl space-y-4">
+            <div className="p-6 rounded-2xl bg-gradient-to-r from-gold-950/70 to-gold-950/70 border border-gold-700/60 shadow-xl space-y-4">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div className="flex items-center gap-2">
                   <span className="text-xl">📅</span>
-                  <h3 className="text-sm font-bold uppercase tracking-wider text-blue-300">
+                  <h3 className="text-sm font-bold uppercase tracking-wider text-gold-300">
                     Spaced Repetition Schedule (SuperMemo SM-2)
                   </h3>
                 </div>
@@ -2634,7 +2634,7 @@ function C12_PhysicsInternalResistanceSim({
                   errors === 0
                     ? 'bg-emerald-950 text-emerald-300 border-emerald-600'
                     : errors <= 3
-                    ? 'bg-blue-950 text-blue-300 border-blue-600'
+                    ? 'bg-gold-950 text-gold-300 border-gold-600'
                     : 'bg-rose-950 text-rose-300 border-rose-600'
                 }`}>
                   Next Review: {errors === 0 ? 'in 7 days' : errors <= 3 ? 'in 3 days' : 'in 1 day'}
@@ -2648,8 +2648,8 @@ function C12_PhysicsInternalResistanceSim({
                   <div className="text-[10px] text-slate-400 mt-1">Long-term memory consolidation interval.</div>
                 </div>
 
-                <div className={`p-3 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-blue-950/50 border-blue-500 font-bold text-blue-200 ring-2 ring-blue-500/30' : 'bg-slate-900/60 border-slate-800 text-slate-400'}`}>
-                  <div className="text-[10px] uppercase text-blue-400 font-bold mb-1">1–3 Errors (Moderate)</div>
+                <div className={`p-3 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-gold-950/50 border-gold-500 font-bold text-gold-200 ring-2 ring-gold-500/30' : 'bg-slate-900/60 border-slate-800 text-slate-400'}`}>
+                  <div className="text-[10px] uppercase text-gold-400 font-bold mb-1">1–3 Errors (Moderate)</div>
                   <div>Review in <span className="text-white font-bold">3 days</span></div>
                   <div className="text-[10px] text-slate-400 mt-1">Medium retention reinforcement loop.</div>
                 </div>
@@ -2673,7 +2673,7 @@ function C12_PhysicsInternalResistanceSim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-400">
-                    <span className="font-bold text-blue-400">Phase {idx + 1}:</span> {step}
+                    <span className="font-bold text-gold-400">Phase {idx + 1}:</span> {step}
                   </div>
                 ))}
               </div>

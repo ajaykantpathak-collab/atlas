@@ -11,7 +11,7 @@ export const w_c6_sciencecomponentsoffoodsim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'What is a Balanced Diet?',
     chapters: [],
     nodeIds: ['c6_biology_ch09_007', 'c6_biology_ch09_001', 'c6_biology_ch09_003', 'c6_biology_ch09_005', 'c6_biology_ch09_006', 'c6_chemistry_ch05_004', 'c6_chemistry_ch05_007', 'c6_chemistry_ch05_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Think about how you feel after eating a heavy meal of just sweets versus a meal with dal, roti, and.', goal: 'Master What is a Balanced Diet?.' },
     discovery: {
         question: 'Why is it important to eat fruits and vegetables in their raw or lightly cooked state when possible?',
@@ -20,7 +20,7 @@ export const w_c6_sciencecomponentsoffoodsim: SimDef = {
         hook: 'Students often think "balanced" means eating the same amount (equal grams) of every food type.',
     },
     teaching: [
-        { title: 'A balanced diet is a daily food pattern that.', text: 'A balanced diet is a daily food pattern that provides the body with the right proportions of energy-giving carbohydrates and fats, body-building proteins, and protective vitamins and minerals, along.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A balanced diet is a daily food pattern that.', text: 'A balanced diet is a daily food pattern that provides the body with the right proportions of energy-giving carbohydrates and fats, body-building proteins, and protective vitamins and minerals, along.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_biology_ch09_007', title: 'A balanced diet is a daily food pattern.',

@@ -250,7 +250,7 @@ const HydrogenLabPrepSim: React.FC = () => {
         <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex items-center justify-between">
           <div>
             <span className="text-xs text-slate-400 block font-semibold">CHARACTERISTIC TEST</span>
-            <span className="text-xs text-sky-300">Burning Splint Test</span>
+            <span className="text-xs text-gold-300">Burning Splint Test</span>
           </div>
           <button
             onClick={handlePopTest}
@@ -324,9 +324,9 @@ const BoschProcessSim: React.FC = () => {
   };
 
   return (
-    <div className="bg-slate-900/90 border border-sky-500/30 rounded-2xl p-6 text-white shadow-xl my-4">
+    <div className="bg-slate-900/90 border border-gold-500/30 rounded-2xl p-6 text-white shadow-xl my-4">
       <div className="mb-4">
-        <h3 className="text-xl font-bold text-sky-400 flex items-center gap-2">
+        <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
           <span>🏭</span> Bosch Process: Large Scale Industrial Hydrogen Production
         </h3>
         <p className="text-sm text-slate-300">
@@ -342,11 +342,11 @@ const BoschProcessSim: React.FC = () => {
             onClick={() => handleStepClick(s.step as 1 | 2 | 3 | 4)}
             className={`p-3 rounded-xl border text-left transition-all relative overflow-hidden ${
               activeStep === s.step
-                ? 'bg-sky-950 border-sky-400 text-white shadow-lg shadow-sky-500/20'
+                ? 'bg-gold-950 border-gold-400 text-white shadow-lg shadow-gold-500/20'
                 : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
             }`}
           >
-            <div className="text-xs font-bold text-sky-400 uppercase tracking-wider mb-1">STAGE {s.step}</div>
+            <div className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-1">STAGE {s.step}</div>
             <div className="text-xs font-semibold truncate">{s.title.split(':')[1]}</div>
           </button>
         ))}
@@ -355,7 +355,7 @@ const BoschProcessSim: React.FC = () => {
       {/* Detailed Stage Visualizer */}
       <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2 space-y-4">
-          <div className="inline-block px-3 py-1 bg-sky-500/10 border border-sky-500/30 rounded-full text-xs text-sky-300 font-bold">
+          <div className="inline-block px-3 py-1 bg-gold-500/10 border border-gold-500/30 rounded-full text-xs text-gold-300 font-bold">
             {current.title}
           </div>
           
@@ -372,7 +372,7 @@ const BoschProcessSim: React.FC = () => {
             </div>
             <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
               <span className="text-[10px] text-slate-400 block">PRESSURE</span>
-              <span className="text-xs font-bold text-sky-400">{current.pressure}</span>
+              <span className="text-xs font-bold text-gold-400">{current.pressure}</span>
             </div>
             <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
               <span className="text-[10px] text-slate-400 block">CATALYST / REAGENT</span>
@@ -383,14 +383,14 @@ const BoschProcessSim: React.FC = () => {
 
         {/* Dynamic Schematic Diagram */}
         <div className="bg-slate-900 rounded-xl p-4 border border-slate-800 flex flex-col items-center justify-center text-center">
-          <div className="w-20 h-20 rounded-full bg-sky-500/20 border-2 border-sky-400 flex items-center justify-center text-2xl mb-3 shadow-lg shadow-sky-500/20">
+          <div className="w-20 h-20 rounded-full bg-gold-500/20 border-2 border-gold-400 flex items-center justify-center text-2xl mb-3 shadow-lg shadow-gold-500/20">
             {activeStep === 1 && '🔥'}
             {activeStep === 2 && '⚡'}
             {activeStep === 3 && '🫧'}
             {activeStep === 4 && '✨'}
           </div>
           <span className="text-xs text-slate-400 font-semibold mb-1">KEY INDUSTRIAL TAKEAWAY</span>
-          <span className="text-xs text-sky-200">
+          <span className="text-xs text-gold-200">
             {activeStep === 1 && "Water Gas (CO + H₂) is an intermediate mixture."}
             {activeStep === 2 && "Iron Chromite catalyst speeds up conversion at 450°C and 25 atm."}
             {activeStep === 3 && "CO₂ dissolves in water under pressure, leaving H₂ gas."}
@@ -517,9 +517,9 @@ const RedoxVisualizer: React.FC = () => {
 
           {/* Animated Electron Stream */}
           <div className="flex-1 max-w-xs relative flex items-center justify-center">
-            <div className="w-full h-1 bg-gradient-to-r from-amber-400 via-purple-400 to-sky-400 rounded-full" />
+            <div className="w-full h-1 bg-gradient-to-r from-amber-400 via-purple-400 to-gold-400 rounded-full" />
             <motion.div
-              className="absolute w-6 h-6 rounded-full bg-cyan-400 flex items-center justify-center text-[10px] font-bold text-slate-950 shadow-lg shadow-cyan-400/50"
+              className="absolute w-6 h-6 rounded-full bg-gold-400 flex items-center justify-center text-[10px] font-bold text-slate-950 shadow-lg shadow-gold-400/50"
               animate={{ x: [-80, 80] }}
               transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
             >
@@ -529,10 +529,10 @@ const RedoxVisualizer: React.FC = () => {
 
           {/* Acceptor */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 rounded-2xl bg-sky-500/20 border-2 border-sky-400 flex items-center justify-center font-bold text-sky-300 text-lg shadow-lg">
+            <div className="w-16 h-16 rounded-2xl bg-gold-500/20 border-2 border-gold-400 flex items-center justify-center font-bold text-gold-300 text-lg shadow-lg">
               {rxn.acceptor}
             </div>
-            <span className="text-xs font-bold text-sky-400 mt-2">ELECTRON ACCEPTOR</span>
+            <span className="text-xs font-bold text-gold-400 mt-2">ELECTRON ACCEPTOR</span>
             <span className="text-[10px] text-slate-400">Gets Reduced (Oxidising Agent)</span>
           </div>
         </div>
@@ -547,11 +547,11 @@ const RedoxVisualizer: React.FC = () => {
             </div>
           </div>
 
-          <div className="p-3.5 bg-slate-900 rounded-xl border border-sky-500/20">
-            <div className="text-xs font-bold text-sky-400 uppercase mb-1">REDUCTION HALF-REACTION</div>
-            <div className="font-mono text-sm text-sky-200 mb-2">{rxn.redHalf}</div>
+          <div className="p-3.5 bg-slate-900 rounded-xl border border-gold-500/20">
+            <div className="text-xs font-bold text-gold-400 uppercase mb-1">REDUCTION HALF-REACTION</div>
+            <div className="font-mono text-sm text-gold-200 mb-2">{rxn.redHalf}</div>
             <div className="text-xs text-slate-300">
-              <span className="font-bold text-sky-300">Oxidising Agent:</span> {rxn.oxAgent}
+              <span className="font-bold text-gold-300">Oxidising Agent:</span> {rxn.oxAgent}
             </div>
           </div>
         </div>
@@ -722,7 +722,7 @@ const GasLawPistonSim: React.FC = () => {
             </div>
             <div className="bg-slate-900 p-2 rounded-lg border border-slate-800">
               <span className="text-[10px] text-slate-400 block">VOLUME (V)</span>
-              <span className="text-sm font-bold text-sky-400">{volumeL} L</span>
+              <span className="text-sm font-bold text-gold-400">{volumeL} L</span>
             </div>
             <div className="bg-slate-900 p-2 rounded-lg border border-slate-800">
               <span className="text-[10px] text-slate-400 block">TEMP (T)</span>
@@ -744,7 +744,7 @@ const GasLawPistonSim: React.FC = () => {
               <div>
                 <label className="text-xs text-slate-300 font-bold justify-between flex mb-1">
                   <span>Adjust Volume (V):</span>
-                  <span className="text-sky-400">{volumeL} Liters</span>
+                  <span className="text-gold-400">{volumeL} Liters</span>
                 </label>
                 <input
                   type="range"
@@ -753,7 +753,7 @@ const GasLawPistonSim: React.FC = () => {
                   step="0.1"
                   value={volumeL}
                   onChange={e => setVolumeL(parseFloat(e.target.value))}
-                  className="w-full accent-sky-400 cursor-pointer"
+                  className="w-full accent-gold-400 cursor-pointer"
                 />
               </div>
             </div>
@@ -810,7 +810,7 @@ const GasLawPistonSim: React.FC = () => {
               <div>
                 <label className="text-xs text-slate-300 font-bold justify-between flex mb-1">
                   <span>Adjust Volume (V):</span>
-                  <span className="text-sky-400">{volumeL} L</span>
+                  <span className="text-gold-400">{volumeL} L</span>
                 </label>
                 <input
                   type="range"
@@ -819,7 +819,7 @@ const GasLawPistonSim: React.FC = () => {
                   step="0.1"
                   value={volumeL}
                   onChange={e => setVolumeL(parseFloat(e.target.value))}
-                  className="w-full accent-sky-400 cursor-pointer"
+                  className="w-full accent-gold-400 cursor-pointer"
                 />
               </div>
             </div>
@@ -827,8 +827,8 @@ const GasLawPistonSim: React.FC = () => {
 
           {activeLaw === 'tempScale' && (
             <div className="space-y-3">
-              <div className="p-3 bg-slate-900 rounded-lg border border-sky-500/20 text-xs text-slate-300">
-                <span className="font-bold text-sky-400 block mb-1">KELVIN & CELSIUS SCALE CONVERSION</span>
+              <div className="p-3 bg-slate-900 rounded-lg border border-gold-500/20 text-xs text-slate-300">
+                <span className="font-bold text-gold-400 block mb-1">KELVIN & CELSIUS SCALE CONVERSION</span>
                 Formula: <span className="font-mono text-amber-300 font-bold">K = °C + 273</span> | Absolute Zero: <span className="font-mono text-amber-300 font-bold">0 K = -273.15 °C</span>
               </div>
 
@@ -859,7 +859,7 @@ const GasLawPistonSim: React.FC = () => {
                 </div>
                 <div className="flex justify-between text-slate-300">
                   <span>Room Temperature:</span>
-                  <span className="font-mono text-sky-300">298 K = 25 °C</span>
+                  <span className="font-mono text-gold-300">298 K = 25 °C</span>
                 </div>
                 <div className="flex justify-between text-slate-300">
                   <span>Boiling Point of Water:</span>
@@ -1380,7 +1380,7 @@ export default function C9_ChemistryLaboratorypreparationofhydrogenSim() {
             </span>
             <span className="text-xs text-slate-400 font-mono">10 Curriculum Nodes Covered</span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-sky-400 to-purple-400">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-gold-400 to-purple-400">
             Laboratory Preparation of Hydrogen & Gas Laws
           </h1>
         </div>
@@ -1509,7 +1509,7 @@ export default function C9_ChemistryLaboratorypreparationofhydrogenSim() {
                 onClick={() => { setActiveSimTab(sub.id as any); audioManager.play('tap'); }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                   activeSimTab === sub.id
-                    ? 'bg-sky-500 text-slate-950 shadow-md'
+                    ? 'bg-gold-500 text-slate-950 shadow-md'
                     : 'text-slate-400 hover:text-white'
                 }`}
               >
@@ -1628,7 +1628,7 @@ export default function C9_ChemistryLaboratorypreparationofhydrogenSim() {
                         ? idx === currentChallenge.correctIndex
                           ? 'bg-emerald-950 border-emerald-400 text-emerald-200'
                           : 'bg-rose-950 border-rose-400 text-rose-200'
-                        : 'bg-sky-950 border-sky-400 text-sky-200 shadow-md'
+                        : 'bg-gold-950 border-gold-400 text-gold-200 shadow-md'
                       : isAnswerSubmitted && idx === currentChallenge.correctIndex
                       ? 'bg-emerald-950/60 border-emerald-500/50 text-emerald-300'
                       : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-850'
@@ -1705,7 +1705,7 @@ export default function C9_ChemistryLaboratorypreparationofhydrogenSim() {
             </div>
             <div className="col-span-2 md:col-span-1">
               <span className="text-xs text-slate-400 block font-semibold">AVERAGE BKT</span>
-              <span className="text-2xl font-bold text-sky-400 font-mono">
+              <span className="text-2xl font-bold text-gold-400 font-mono">
                 {Math.round((Object.values(bktStates).reduce((a, b) => a + b.pKnown, 0) / ALL_NODE_IDS.length) * 100)}%
               </span>
             </div>

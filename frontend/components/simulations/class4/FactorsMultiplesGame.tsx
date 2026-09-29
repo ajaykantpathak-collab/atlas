@@ -393,7 +393,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "What are Factors? 🔍",
     text: "A factor is a whole number that divides another number exactly with NO remainder! Every multiplication fact gives a factor pair, like 3 x 4 = 12.",
     emoji: "🔍",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "A factor is a whole number that divides another number exactly with no remainder! Every multiplication fact gives a factor pair.",
   },
   {
@@ -407,14 +407,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Prime & Composite Numbers ⭐",
     text: "A prime number has EXACTLY two factors: 1 and itself (like 2, 3, 5, 7). A composite number has MORE than two factors (like 4, 6, 8, 9, 12). Note: 1 is neither!",
     emoji: "⭐",
-    bgColor: "from-purple-500 to-indigo-700",
+    bgColor: "from-purple-500 to-gold-700",
     spoken: "A prime number has exactly two factors, 1 and itself. A composite number has more than two factors. Number 1 is neither!",
   },
   {
     title: "Divisibility Rules ⚡",
     text: "Quick shortcuts! Divisible by 2 if last digit is even. By 3 or 9 if sum of digits divides by 3 or 9. By 5 if last digit is 0 or 5. By 10 if last digit is 0!",
     emoji: "⚡",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "Quick shortcuts! Divisible by 2 if last digit is even. By 3 or 9 if sum of digits divides by 3 or 9. By 5 if last digit is 0 or 5.",
   },
   {

@@ -11,7 +11,7 @@ export const w_c12_geographywaterresourcesirrigationsim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Multipurpose River Projects: Concept and Objectives',
     chapters: [],
     nodeIds: ['c12_geo_cbse_12_004', 'c12_geo_cbse_12_008', 'c12_geo_cbse_12_010', 'c12_geo_cbse_12_005', 'c12_geo_cbse_12_006', 'c12_geo_cbse_12_007', 'c12_geo_cbse_12_011', 'c12_geo_cbse_12_001', 'c12_geo_cbse_12_002', 'c12_geo_cbse_12_009', 'c12_geo_cbse_11_008', 'c12_geo_cbse_09_001', 'c12_geo_cbse_12_003', 'c12_geo_cbse_09_011', 'c12_geo_cbse_01_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe how your city/town gets electricity and water during summer — often from a distant dam like Bhakra or.', goal: 'Master Multipurpose River Projects: Concept and Objectives.' },
     discovery: {
         question: 'The Bhakra-Nangal project on the Sutlej river provides irrigation to 1.5 million hectares and generates 1,325 MW of power.',
@@ -20,7 +20,7 @@ export const w_c12_geographywaterresourcesirrigationsim: SimDef = {
         hook: 'Students often think "multipurpose project" is just a synonym for "big dam" and that all such projects have identical.',
     },
     teaching: [
-        { title: 'A multipurpose river project is a.', text: 'A multipurpose river project is a large-scale hydraulic engineering scheme that integrates a dam, reservoir, and associated infrastructure to simultaneously serve multiple objectives — primarily.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A multipurpose river project is a.', text: 'A multipurpose river project is a large-scale hydraulic engineering scheme that integrates a dam, reservoir, and associated infrastructure to simultaneously serve multiple objectives — primarily.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_12_004', title: 'A multipurpose river project is a.',

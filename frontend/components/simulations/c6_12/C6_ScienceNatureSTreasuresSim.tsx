@@ -117,14 +117,14 @@ function C6_ScienceNatureSTreasuresSim() {
           <div>
             <div className="text-xs font-bold text-slate-500 uppercase tracking-wide mb-1">Village energy</div>
             <div className="grid grid-cols-2 gap-1.5">
-              <button onClick={() => setEnergy('sun')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (energy === 'sun' ? 'bg-sky-500 text-white' : 'bg-slate-100 text-slate-500')}>Sun + wind</button>
+              <button onClick={() => setEnergy('sun')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (energy === 'sun' ? 'bg-gold-500 text-white' : 'bg-slate-100 text-slate-500')}>Sun + wind</button>
               <button onClick={() => setEnergy('coal')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (energy === 'coal' ? 'bg-stone-600 text-white' : 'bg-slate-100 text-slate-500')}>Coal plant</button>
             </div>
           </div>
           <div>
             <div className="text-xs font-bold text-slate-500 uppercase tracking-wide mb-1">Water habit</div>
             <div className="grid grid-cols-2 gap-1.5">
-              <button onClick={() => setWater('drip')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (water === 'drip' ? 'bg-cyan-500 text-white' : 'bg-slate-100 text-slate-500')}>Fix drips</button>
+              <button onClick={() => setWater('drip')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (water === 'drip' ? 'bg-gold-500 text-white' : 'bg-slate-100 text-slate-500')}>Fix drips</button>
               <button onClick={() => setWater('open')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (water === 'open' ? 'bg-orange-400 text-white' : 'bg-slate-100 text-slate-500')}>Open taps</button>
             </div>
           </div>
@@ -135,7 +135,7 @@ function C6_ScienceNatureSTreasuresSim() {
               <button onClick={() => setTrees('cut')} className={'px-2 py-2 rounded-xl text-xs font-black transition-colors ' + (trees === 'cut' ? 'bg-amber-700 text-white' : 'bg-slate-100 text-slate-500')}>Cut freely</button>
             </div>
           </div>
-          <button onClick={advance} className="w-full min-h-11 px-3 py-2 rounded-xl text-xs font-black bg-violet-600 text-white hover:bg-violet-700 transition-colors">
+          <button onClick={advance} className="w-full min-h-11 px-3 py-2 rounded-xl text-xs font-black bg-gold-600 text-white hover:bg-gold-700 transition-colors">
             Advance 10 years &gt;
           </button>
           <div className={'p-2 rounded-xl text-[11px] font-bold border-2 ' + (fuel <= 0 ? 'bg-rose-50 border-rose-300 text-rose-700' : fuel < 30 ? 'bg-amber-50 border-amber-300 text-amber-800' : 'bg-slate-100 border-slate-200 text-slate-600')}>
@@ -159,9 +159,9 @@ function C6_ScienceNatureSTreasuresSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Run 50 years with coal + open taps + cutting. Write down what happened to every gauge.</li>
           <li>Now keep sun-and-wind, fixed drips and tree-planting for 50 years. Which treasures GREW instead of shrinking?</li>
         </ol>

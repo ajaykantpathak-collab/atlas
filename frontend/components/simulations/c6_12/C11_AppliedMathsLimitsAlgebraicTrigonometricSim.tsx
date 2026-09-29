@@ -1164,19 +1164,19 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
           <motion.div
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
             whileHover={{ scale: 1.1, rotate: 5 }}
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-medium">Class 11 ISC Applied Mathematics • Calculus & Statistics</p>
+            <p className="text-xs text-gold-400 font-medium">Class 11 ISC Applied Mathematics • Calculus & Statistics</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-xs font-semibold px-3 py-1 bg-slate-800 text-slate-300 rounded-full border border-slate-700">
-            Phase: <span className="text-indigo-400 capitalize">{phase}</span>
+            Phase: <span className="text-gold-400 capitalize">{phase}</span>
           </span>
           <motion.span
             key={difficulty}
@@ -1187,7 +1187,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             {difficulty}
@@ -1198,12 +1198,12 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
       {/* ─── DISCOVERY PHASE ───────────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg md:text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg md:text-xl font-bold text-gold-300 flex items-center gap-2">
               🚇 {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs text-gold-200">
               💡 <strong>Quant Analyst Challenge:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1229,7 +1229,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
-                  <span className="font-mono text-indigo-400 mr-2">[{i + 1}]</span> {opt}
+                  <span className="font-mono text-gold-400 mr-2">[{i + 1}]</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1243,7 +1243,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Launch Interactive Discovery Lab →
                 </motion.button>
@@ -1265,7 +1265,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex justify-between items-center">
-                <h3 className="text-lg font-bold text-indigo-300">
+                <h3 className="text-lg font-bold text-gold-300">
                   Step {currentSlide + 1}: {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs bg-slate-800 text-slate-400 px-3 py-1 rounded-full">
@@ -1288,7 +1288,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-400">Moving Point Q (2+h, (2+h)²)</span>
-                        <p className="text-sm font-mono font-bold text-indigo-400">
+                        <p className="text-sm font-mono font-bold text-gold-400">
                           ({(2 + secantH).toFixed(3)}, {((2 + secantH) ** 2).toFixed(3)})
                         </p>
                       </div>
@@ -1334,7 +1334,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                         step={0.01}
                         value={secantH}
                         onChange={(e) => handleSecantChange(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set secant step increment h"
                       />
                     </div>
@@ -1347,7 +1347,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                     <div className="flex justify-between items-center p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div>
                         <span className="text-xs text-slate-400">Position x</span>
-                        <p className="text-sm font-mono font-bold text-indigo-400">{tangentX.toFixed(2)}</p>
+                        <p className="text-sm font-mono font-bold text-gold-400">{tangentX.toFixed(2)}</p>
                       </div>
                       <div>
                         <span className="text-xs text-slate-400">f(x) = x²</span>
@@ -1394,7 +1394,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handleProductToggle('product')}
                         className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                          productRuleMode === 'product' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'
+                          productRuleMode === 'product' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         Product Rule: u·v\' + v·u\'
@@ -1404,7 +1404,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handleProductToggle('quotient')}
                         className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                          productRuleMode === 'quotient' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-300'
+                          productRuleMode === 'quotient' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'
                         }`}
                       >
                         Quotient Rule: (v·u\' - u·v\') / v²
@@ -1429,7 +1429,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={handleOutlierToggle}
                         className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                          hasOutlier ? 'bg-rose-600 text-white' : 'bg-indigo-600 text-white'
+                          hasOutlier ? 'bg-rose-600 text-white' : 'bg-gold-600 text-white'
                         }`}
                       >
                         {hasOutlier ? 'Remove Outlier' : 'Inject Severe Outlier'}
@@ -1461,7 +1461,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       <span className={Math.abs(distributionSkew) <= 0.2 ? 'text-emerald-400 font-bold' : 'text-slate-400'}>
                         Symmetric (Mean ≈ Mode)
                       </span>
-                      <span className={distributionSkew > 0.2 ? 'text-indigo-400 font-bold' : 'text-slate-400'}>
+                      <span className={distributionSkew > 0.2 ? 'text-gold-400 font-bold' : 'text-slate-400'}>
                         Positive Skew (Mean &gt; Mode)
                       </span>
                     </div>
@@ -1487,7 +1487,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       step={0.05}
                       value={distributionSkew}
                       onChange={(e) => handleSkewChange(parseFloat(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Set distribution skewness"
                     />
                   </div>
@@ -1498,8 +1498,8 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
 
           {/* PREDICT-THEN-CHECK & OBSERVATION HOOKS */}
           {currentSlide === 0 && !predictionMade && (
-            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-900 rounded-xl border border-indigo-800/50 space-y-3">
-              <h4 className="text-sm font-bold text-indigo-300">🎯 {PREDICTION_QUESTIONS[0].question}</h4>
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-900 rounded-xl border border-gold-800/50 space-y-3">
+              <h4 className="text-sm font-bold text-gold-300">🎯 {PREDICTION_QUESTIONS[0].question}</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                   <motion.button
@@ -1554,7 +1554,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 text-white text-xs rounded-xl font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 text-white text-xs rounded-xl font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1578,7 +1578,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">Free Quantitative Modeling Sandbox</h3>
+                <h3 className="text-lg font-bold text-gold-300">Free Quantitative Modeling Sandbox</h3>
                 <p className="text-xs text-slate-400">Manipulate both the Calculus Engine and Statistical Merger with no grading.</p>
               </div>
               <motion.button
@@ -1594,7 +1594,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               {/* Sandbox Panel 1: Polynomial Calculus */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <h4 className="text-sm font-bold text-indigo-400">Calculus Power Engine: f(x) = a · xⁿ</h4>
+                <h4 className="text-sm font-bold text-gold-400">Calculus Power Engine: f(x) = a · xⁿ</h4>
                 <div className="flex gap-4">
                   <div className="flex-1">
                     <label className="text-[10px] text-slate-400">Coefficient a: {sandboxPolyA}</label>
@@ -1604,7 +1604,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       max={10}
                       value={sandboxPolyA}
                       onChange={(e) => setSandboxPolyA(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="flex-1">
@@ -1615,7 +1615,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       max={5}
                       value={sandboxPolyPower}
                       onChange={(e) => setSandboxPolyPower(parseInt(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1673,11 +1673,11 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
               <span className="font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono">Competency: {challenge.competencyLevel.toUpperCase()}</span>
+              <span className="text-gold-400 font-mono">Competency: {challenge.competencyLevel.toUpperCase()}</span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1721,7 +1721,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       }`}
                       aria-label={`Option: ${opt}`}
                     >
-                      <span className="font-mono text-indigo-400 mr-2">({String.fromCharCode(65 + i)})</span> {opt}
+                      <span className="font-mono text-gold-400 mr-2">({String.fromCharCode(65 + i)})</span> {opt}
                     </motion.button>
                   ))}
                 </div>
@@ -1739,7 +1739,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1773,7 +1773,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -1796,7 +1796,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl text-xs flex items-center gap-3 cursor-grab border border-slate-700"
                   >
-                    <span className="w-6 h-6 rounded-full bg-indigo-600/30 text-indigo-300 font-mono flex items-center justify-center font-bold">
+                    <span className="w-6 h-6 rounded-full bg-gold-600/30 text-gold-300 font-mono flex items-center justify-center font-bold">
                       {displayPos + 1}
                     </span>
                     <span className="text-slate-200">{challenge.sortItems![itemIdx]}</span>
@@ -1807,7 +1807,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Check Step Sequence →
                 </motion.button>
@@ -1823,7 +1823,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter exact numerical value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-sm font-mono text-white focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-xs text-slate-400 font-mono">{challenge.unit}</span>
                 <motion.button
@@ -1831,7 +1831,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                 >
                   Submit Metric →
                 </motion.button>
@@ -1848,7 +1848,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 text-indigo-300 text-xs rounded-lg border border-slate-700 hover:bg-slate-700 font-mono"
+                      className="px-3 py-1.5 bg-slate-800 text-gold-300 text-xs rounded-lg border border-slate-700 hover:bg-slate-700 font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -1857,7 +1857,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex items-center gap-2 flex-wrap">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900/60 text-indigo-200 text-xs rounded-md font-mono border border-indigo-700">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900/60 text-gold-200 text-xs rounded-md font-mono border border-gold-700">
                       {part}
                     </span>
                   ))}
@@ -1870,7 +1870,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0 || showExplanation}
-                    className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Validate Expression →
                   </motion.button>
@@ -1931,11 +1931,11 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
       {/* ─── COMPLETION PHASE ──────────────────────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700 shadow-xl space-y-4 text-center">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700 shadow-xl space-y-4 text-center">
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="p-3 bg-indigo-900/40 rounded-xl border border-indigo-500/40 max-w-md mx-auto">
+            <div className="p-3 bg-gold-900/40 rounded-xl border border-gold-500/40 max-w-md mx-auto">
               <span className="text-sm md:text-base font-black text-amber-300">
                 {getMotivationalFeedback(errors)}
               </span>
@@ -1948,7 +1948,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
               </div>
               <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400">Mastery Level</span>
-                <p className="text-2xl font-mono font-bold text-indigo-400 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-mono font-bold text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -1961,8 +1961,8 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-800/50 space-y-4">
-            <h3 className="text-base md:text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-800/50 space-y-4">
+            <h3 className="text-base md:text-lg font-bold text-gold-300 flex items-center gap-2">
               🤔 Post-Simulation Reflection
             </h3>
             <div className="space-y-4">
@@ -1975,7 +1975,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. How 0/0 is an indeterminate signal revealing hidden tangent slopes..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div className="space-y-1.5">
@@ -1987,7 +1987,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Calculus zooms in on velocity while statistics captures consistency and skew..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
               <div className="space-y-1.5">
@@ -1999,7 +1999,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers((prev) => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. Metro passenger delay monitoring and algorithmic stock volatility profiling..."
-                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2028,7 +2028,7 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
           <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs flex justify-between items-center">
             <div>
               <span className="text-slate-400 block">SM-2 Spaced Repetition Schedule:</span>
-              <span className="text-indigo-300 font-semibold">
+              <span className="text-gold-300 font-semibold">
                 Scheduled review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
               </span>
             </div>
@@ -2037,12 +2037,12 @@ function C11_AppliedMathsLimitsAlgebraicTrigonometricSim({
 
           {/* Real World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300">📊 {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">📊 {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-2.5 bg-slate-950 rounded-lg text-xs text-slate-300 border border-slate-800/80">
-                  <span className="text-indigo-400 font-mono mr-2">0{i + 1}.</span> {step}
+                  <span className="text-gold-400 font-mono mr-2">0{i + 1}.</span> {step}
                 </div>
               ))}
             </div>

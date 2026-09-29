@@ -381,8 +381,8 @@ function CellTab() {
           <p className="text-xs text-slate-500">Click any organelle in the 3D cell.</p>
         )}
         {nodeData?.eli5 && (
-          <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 px-3 py-2">
-            <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black mb-1">
+          <div className="rounded-xl border border-gold-500/25 bg-gold-500/5 px-3 py-2">
+            <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black mb-1">
               from the book · {nodeData.title}
             </p>
             <p className="text-[11px] text-slate-300 leading-relaxed line-clamp-6">{nodeData.eli5}</p>
@@ -509,7 +509,7 @@ function PunnettTab() {
                   const z = cells[i * g2.length + j]
                   return (
                     <td key={b + j}
-                      className={`p-1.5 text-xs font-mono text-center border ${isHet(z) ? 'text-sky-300' : /[A-Z]/.test(z[0]) ? 'text-emerald-300' : 'text-rose-300'} border-slate-700 bg-slate-800/40`}>
+                      className={`p-1.5 text-xs font-mono text-center border ${isHet(z) ? 'text-gold-300' : /[A-Z]/.test(z[0]) ? 'text-emerald-300' : 'text-rose-300'} border-slate-700 bg-slate-800/40`}>
                       {z}
                     </td>
                   )
@@ -540,12 +540,12 @@ function PunnettTab() {
           Solver: heterozygous probability
         </button>
         <button onClick={() => runSolver('what is the probability of a recessive offspring?')}
-          className="w-full px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs">
+          className="w-full px-3 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-xs">
           Solver: recessive probability
         </button>
         <div className="rounded-xl bg-slate-800/60 border border-slate-700 px-3 py-2 text-xs">
           <p className="text-slate-400 font-semibold mb-1">live read-out</p>
-          <p className="text-slate-200">heterozygous: <span className="font-mono text-sky-300">{hetCount}/{cells.length}</span></p>
+          <p className="text-slate-200">heterozygous: <span className="font-mono text-gold-300">{hetCount}/{cells.length}</span></p>
           <p className="text-slate-200">dominant phenotype: <span className="font-mono text-emerald-300">{fmt(frac)}</span></p>
         </div>
         {trap && (
@@ -864,7 +864,7 @@ function GeneticsTab() {
             <button onClick={() => run(`In a cross ${mono.p1} x ${mono.p2}, what is the probability of a heterozygous offspring?`)}
               className="w-full px-3 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs">heterozygous probability</button>
             <button onClick={() => run(`In a cross ${mono.p1} x ${mono.p2}, what is the probability of a recessive offspring?`)}
-              className="w-full px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs">recessive probability</button>
+              className="w-full px-3 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-xs">recessive probability</button>
             <button onClick={() => run(`In a cross ${mono.p1} x ${mono.p2}, give the phenotype ratio.`)}
               className="w-full px-3 py-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-black text-xs">phenotype ratio</button>
           </>
@@ -874,7 +874,7 @@ function GeneticsTab() {
             <button onClick={() => run(`In a dihybrid cross ${di.p1} x ${di.p2}, what is the probability of offspring showing both dominant traits?`)}
               className="w-full px-3 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs">both dominant probability</button>
             <button onClick={() => run(`In a cross ${di.p1} x ${di.p2}, give the genotype ratio.`)}
-              className="w-full px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs">genotype ratio</button>
+              className="w-full px-3 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-xs">genotype ratio</button>
           </>
         )}
         {mode === 'sexlinked' && (
@@ -882,7 +882,7 @@ function GeneticsTab() {
             <button onClick={() => run(`A ${sl.m === 'XCXc' ? 'carrier' : sl.m === 'XcXc' ? 'colour blind' : 'normal'} mother (${sl.m}) and a ${sl.f === 'XcY' ? 'colour blind' : 'normal'} father (${sl.f}). What fraction of their sons will be colour blind?`)}
               className="w-full px-3 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs">affected sons</button>
             <button onClick={() => run(`A ${sl.m === 'XCXc' ? 'carrier' : sl.m === 'XcXc' ? 'colour blind' : 'normal'} mother (${sl.m}) and a ${sl.f === 'XcY' ? 'colour blind' : 'normal'} father (${sl.f}). What is the probability that their child will be colour blind?`)}
-              className="w-full px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs">affected child (overall)</button>
+              className="w-full px-3 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-xs">affected child (overall)</button>
           </>
         )}
         {mode === 'blood' && (

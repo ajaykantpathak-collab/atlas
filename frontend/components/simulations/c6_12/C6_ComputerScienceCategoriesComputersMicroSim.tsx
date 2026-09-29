@@ -1155,10 +1155,10 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
         className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/90 rounded-2xl border border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 border border-cyan-700/50 rounded-xl">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/60 border border-gold-700/50 rounded-xl">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-cyan-400">ICSE Class 6 Computer Science</span>
+              <span className="text-xs font-semibold uppercase tracking-wider text-gold-400">ICSE Class 6 Computer Science</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">NEP 2020 Aligned</span>
             </div>
             <h1 className="text-xl md:text-2xl font-bold text-white">{title}</h1>
@@ -1173,14 +1173,14 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
             animate={{ scale: 1 }}
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300' :
-              difficulty === 'standard' ? 'bg-sky-950/70 border-sky-500 text-sky-300' :
+              difficulty === 'standard' ? 'bg-gold-950/70 border-gold-500 text-gold-300' :
               'bg-purple-950/70 border-purple-500 text-purple-300'
             }`}
           >
             Tier: {difficulty}
           </motion.div>
           <div className="px-3 py-1 bg-slate-800 rounded-full text-xs font-medium text-slate-300">
-            Mastery: <span className="text-cyan-400 font-bold capitalize">{masteryLevel}</span>
+            Mastery: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1188,8 +1188,8 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-cyan-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border border-cyan-800/40">
-            <span className="text-xs font-bold uppercase tracking-widest text-cyan-400">Scenario Mission</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 via-slate-900 to-gold-950/50 rounded-2xl border border-gold-800/40">
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-400">Scenario Mission</span>
             <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm md:text-base text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 italic">{SCENARIO.context}</p>
@@ -1215,11 +1215,11 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400 opacity-60'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 hover:border-cyan-500 text-slate-200'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
-                  <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-xs text-center leading-6 mr-2 font-bold text-cyan-300">
+                  <span className="inline-block w-6 h-6 rounded-full bg-slate-700 text-xs text-center leading-6 mr-2 font-bold text-gold-300">
                     {String.fromCharCode(65 + i)}
                   </span>
                   {opt}
@@ -1236,7 +1236,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-900/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-900/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1251,7 +1251,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           {/* Step Indicator */}
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1259,7 +1259,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-8 bg-cyan-400' : idx < currentSlide ? 'w-4 bg-emerald-500' : 'w-3 bg-slate-700'
+                    idx === currentSlide ? 'w-8 bg-gold-400' : idx < currentSlide ? 'w-4 bg-emerald-500' : 'w-3 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1277,18 +1277,18 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
             >
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-2">
                 <h3 className="text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <span className="text-xs px-3 py-1 bg-cyan-950 border border-cyan-800 text-cyan-300 rounded-full">
+                <span className="text-xs px-3 py-1 bg-gold-950 border border-gold-800 text-gold-300 rounded-full">
                   Node: {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
-              <p className="text-sm text-cyan-300 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
+              <p className="text-sm text-gold-300 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
 
               {/* SLIDE 0: COMPUTER TIERS HIERARCHY */}
               {currentSlide === 0 && (
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <label className="text-xs text-slate-300 font-semibold">
-                      Scale Tier: <span className="text-cyan-400 font-bold">{computerTiers[computerTierIndex].name}</span>
+                      Scale Tier: <span className="text-gold-400 font-bold">{computerTiers[computerTierIndex].name}</span>
                     </label>
                     <span className="text-xs text-slate-400">Move slider to scale computing capacity</span>
                   </div>
@@ -1302,7 +1302,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       setComputerTierIndex(Number(e.target.value));
                       audioManager.play('tap');
                     }}
-                    className="w-full accent-cyan-400 cursor-pointer"
+                    className="w-full accent-gold-400 cursor-pointer"
                     aria-label="Computer Tier Scale Slider"
                   />
 
@@ -1426,7 +1426,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                         }}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedLanguageLevel === lang.id
-                            ? 'bg-cyan-950/70 border-cyan-400 text-cyan-200'
+                            ? 'bg-gold-950/70 border-gold-400 text-gold-200'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1450,7 +1450,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                             }}
                             className={`px-2.5 py-1 text-xs rounded-lg font-semibold uppercase tracking-wider ${
                               selectedTranslator === trans
-                                ? 'bg-cyan-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                             }`}
                           >
@@ -1474,21 +1474,21 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                     <div className="p-3 bg-black rounded-lg font-mono text-xs space-y-1.5 text-slate-300 border border-slate-800">
                       {selectedTranslator === 'compiler' && (
                         <>
-                          <div className={translatorStep >= 1 ? 'text-cyan-400 font-bold' : ''}>[Step 1] Source: #include &lt;iostream&gt; int main() &#123; total = price + tax; &#125;</div>
+                          <div className={translatorStep >= 1 ? 'text-gold-400 font-bold' : ''}>[Step 1] Source: #include &lt;iostream&gt; int main() &#123; total = price + tax; &#125;</div>
                           <div className={translatorStep >= 2 ? 'text-amber-300 font-bold' : 'text-slate-600'}>[Step 2] Compiler checks whole file at once → produces 'app.exe' binary</div>
                           <div className={translatorStep >= 3 ? 'text-emerald-400 font-bold' : 'text-slate-600'}>[Step 3] CPU executes 'app.exe' at full native hardware speed!</div>
                         </>
                       )}
                       {selectedTranslator === 'interpreter' && (
                         <>
-                          <div className={translatorStep >= 1 ? 'text-cyan-400 font-bold' : ''}>[Line 1] print("Hello, Bengaluru!") → Translated & executed immediately</div>
+                          <div className={translatorStep >= 1 ? 'text-gold-400 font-bold' : ''}>[Line 1] print("Hello, Bengaluru!") → Translated & executed immediately</div>
                           <div className={translatorStep >= 2 ? 'text-amber-300 font-bold' : 'text-slate-600'}>[Line 2] count = 10 → Translated & executed in memory</div>
                           <div className={translatorStep >= 3 ? 'text-emerald-400 font-bold' : 'text-slate-600'}>[Line 3] print("Total:", count) → Live output rendered!</div>
                         </>
                       )}
                       {selectedTranslator === 'assembler' && (
                         <>
-                          <div className={translatorStep >= 1 ? 'text-cyan-400 font-bold' : ''}>[Mnemonic 1] MOV AX, 5</div>
+                          <div className={translatorStep >= 1 ? 'text-gold-400 font-bold' : ''}>[Mnemonic 1] MOV AX, 5</div>
                           <div className={translatorStep >= 2 ? 'text-amber-300 font-bold' : 'text-slate-600'}>[Mnemonic 2] ADD AX, BX → Assembler converts to 10001011 11000011</div>
                           <div className={translatorStep >= 3 ? 'text-emerald-400 font-bold' : 'text-slate-600'}>[CPU Bus] Binary 0s & 1s pulse directly across ALU registers</div>
                         </>
@@ -1503,7 +1503,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                     {[
-                      { id: 'keyboard', name: 'Keyboard / Mouse', cat: 'Input', emoji: '⌨️', color: 'border-sky-500 text-sky-300' },
+                      { id: 'keyboard', name: 'Keyboard / Mouse', cat: 'Input', emoji: '⌨️', color: 'border-gold-500 text-gold-300' },
                       { id: 'monitor', name: 'Monitor / Printer', cat: 'Output', emoji: '🖥️', color: 'border-amber-500 text-amber-300' },
                       { id: 'harddisk', name: 'Hard Disk / Pen Drive', cat: 'Storage', emoji: '💾', color: 'border-purple-500 text-purple-300' },
                       { id: 'cpu', name: 'CPU (ALU & CU)', cat: 'Processing', emoji: '⚙️', color: 'border-emerald-500 text-emerald-300' },
@@ -1522,7 +1522,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       >
                         <span className="text-xl">{hw.emoji}</span>
                         <p className="text-xs font-bold mt-1 text-white">{hw.name}</p>
-                        <span className="text-[10px] uppercase tracking-wider text-cyan-400">{hw.cat} Device</span>
+                        <span className="text-[10px] uppercase tracking-wider text-gold-400">{hw.cat} Device</span>
                       </motion.button>
                     ))}
                   </div>
@@ -1540,8 +1540,8 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   {/* Predict then check */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800 space-y-2">
-                      <p className="text-xs font-bold uppercase tracking-wider text-indigo-300">Predict-Then-Check Curiosity Hook</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800 space-y-2">
+                      <p className="text-xs font-bold uppercase tracking-wider text-gold-300">Predict-Then-Check Curiosity Hook</p>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5 pt-1">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1601,7 +1601,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                                 setFileReadOnly(e.target.checked);
                                 audioManager.play('pop');
                               }}
-                              className="accent-cyan-500 rounded"
+                              className="accent-gold-500 rounded"
                             />
                             <span className="text-slate-300">Read-only (Prevents edit)</span>
                           </label>
@@ -1614,7 +1614,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                                 setFileHidden(e.target.checked);
                                 audioManager.play('pop');
                               }}
-                              className="accent-cyan-500 rounded"
+                              className="accent-gold-500 rounded"
                             />
                             <span className="text-slate-300">Hidden (Conceals icon)</span>
                           </label>
@@ -1636,7 +1636,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                     {/* Mail Merge Simulator */}
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Word Mail Merge</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Word Mail Merge</span>
                         <div className="flex gap-1">
                           {sampleRecipients.map((_, i) => (
                             <button
@@ -1646,7 +1646,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                                 audioManager.play('tap');
                               }}
                               className={`px-2 py-0.5 text-[10px] font-bold rounded ${
-                                mergeRecipientIndex === i ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                                mergeRecipientIndex === i ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                               }`}
                             >
                               Row {i + 1}
@@ -1657,7 +1657,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
 
                       <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs text-slate-200 space-y-1.5 font-sans">
                         <p className="text-slate-400">To: <span className="text-amber-400 font-bold">{sampleRecipients[mergeRecipientIndex].name}</span></p>
-                        <p className="text-slate-400">City: <span className="text-cyan-400 font-bold">{sampleRecipients[mergeRecipientIndex].city}</span></p>
+                        <p className="text-slate-400">City: <span className="text-gold-400 font-bold">{sampleRecipients[mergeRecipientIndex].city}</span></p>
                         <p className="pt-1 text-slate-300">
                           Dear <span className="text-amber-400 font-bold">{sampleRecipients[mergeRecipientIndex].name}</span>, you are warmly invited to the Annual Day of Class <span className="text-emerald-400 font-bold">{sampleRecipients[mergeRecipientIndex].class}</span>!
                         </p>
@@ -1667,7 +1667,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                     {/* PowerPoint Visual Effects Simulator */}
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">PowerPoint Effects</span>
+                        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">PowerPoint Effects</span>
                         <select
                           value={pptTransitionType}
                           onChange={(e) => {
@@ -1683,7 +1683,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                         </select>
                       </div>
 
-                      <div className="h-28 bg-gradient-to-r from-slate-950 to-indigo-950/80 rounded-lg border border-slate-800 flex flex-col items-center justify-center p-3 text-center overflow-hidden relative">
+                      <div className="h-28 bg-gradient-to-r from-slate-950 to-gold-950/80 rounded-lg border border-slate-800 flex flex-col items-center justify-center p-3 text-center overflow-hidden relative">
                         <motion.h4
                           key={pptTransitionType + mergeRecipientIndex}
                           initial={{ opacity: 0, y: 15 }}
@@ -1697,7 +1697,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                           initial={{ opacity: 0, scale: 0.9 }}
                           animate={{ opacity: 1, scale: 1 }}
                           transition={{ delay: 0.3 }}
-                          className="text-[11px] text-cyan-300 mt-1"
+                          className="text-[11px] text-gold-300 mt-1"
                         >
                           Entrance Animation: Fly In with Previous
                         </motion.p>
@@ -1737,7 +1737,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-cyan-900/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-900/30"
               >
                 Next Lab →
               </motion.button>
@@ -1790,7 +1790,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all ${
                   activeTabExplorer === tab.id
-                    ? 'bg-cyan-950 border border-cyan-500 text-cyan-200'
+                    ? 'bg-gold-950 border border-gold-500 text-gold-200'
                     : 'bg-slate-900 text-slate-400 hover:text-white border border-transparent'
                 }`}
               >
@@ -1814,7 +1814,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       whileTap={{ scale: 0.92 }}
                       onClick={() => handleBitToggle(idx)}
                       className={`w-12 h-14 rounded-xl flex flex-col items-center justify-center font-mono font-bold text-base border ${
-                        bit === 1 ? 'bg-cyan-600 border-cyan-300 text-white shadow-md shadow-cyan-900/50' : 'bg-slate-950 border-slate-800 text-slate-500'
+                        bit === 1 ? 'bg-gold-600 border-gold-300 text-white shadow-md shadow-gold-900/50' : 'bg-slate-950 border-slate-800 text-slate-500'
                       }`}
                       aria-label={`Bit ${idx}: ${bit}`}
                     >
@@ -1824,7 +1824,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                   ))}
                 </div>
                 <div className="p-3 bg-slate-950 rounded-lg text-xs text-slate-300 font-mono">
-                  Decimal Value: <span className="text-cyan-400 font-bold">{bitArray.reduce((acc, bit, i) => acc + bit * Math.pow(2, 7 - i), 0)}</span> | Hexadecimal: 0x{bitArray.reduce((acc, bit, i) => acc + bit * Math.pow(2, 7 - i), 0).toString(16).toUpperCase()}
+                  Decimal Value: <span className="text-gold-400 font-bold">{bitArray.reduce((acc, bit, i) => acc + bit * Math.pow(2, 7 - i), 0)}</span> | Hexadecimal: 0x{bitArray.reduce((acc, bit, i) => acc + bit * Math.pow(2, 7 - i), 0).toString(16).toUpperCase()}
                 </div>
               </div>
             )}
@@ -1834,7 +1834,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <h4 className="text-sm font-bold text-white">Translators Comparison Matrix</h4>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2 text-xs">
-                    <span className="font-bold text-cyan-400">Compiler (e.g. GCC, javac)</span>
+                    <span className="font-bold text-gold-400">Compiler (e.g. GCC, javac)</span>
                     <p className="text-slate-300">Scans <strong>entire high-level program</strong> at once.</p>
                     <p className="text-emerald-400 font-semibold">✓ Produces .exe / .class output</p>
                     <p className="text-slate-400">Reports all syntax errors together.</p>
@@ -1860,13 +1860,13 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <h4 className="text-sm font-bold text-white">Word Table Grid Builder</h4>
                 <div className="flex flex-wrap items-center gap-4 text-xs">
                   <label className="text-slate-300">Rows: {tableRows}
-                    <input type="range" min={2} max={5} value={tableRows} onChange={(e) => setTableRows(Number(e.target.value))} className="ml-2 accent-cyan-400" />
+                    <input type="range" min={2} max={5} value={tableRows} onChange={(e) => setTableRows(Number(e.target.value))} className="ml-2 accent-gold-400" />
                   </label>
                   <label className="text-slate-300">Columns: {tableCols}
-                    <input type="range" min={2} max={4} value={tableCols} onChange={(e) => setTableCols(Number(e.target.value))} className="ml-2 accent-cyan-400" />
+                    <input type="range" min={2} max={4} value={tableCols} onChange={(e) => setTableCols(Number(e.target.value))} className="ml-2 accent-gold-400" />
                   </label>
                   <label className="flex items-center gap-1.5 text-slate-300 cursor-pointer">
-                    <input type="checkbox" checked={tableShadedHeader} onChange={(e) => setTableShadedHeader(e.target.checked)} className="accent-cyan-400" />
+                    <input type="checkbox" checked={tableShadedHeader} onChange={(e) => setTableShadedHeader(e.target.checked)} className="accent-gold-400" />
                     Shade Header Row
                   </label>
                 </div>
@@ -1875,7 +1875,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse border border-slate-700 text-xs">
                     <thead>
-                      <tr className={tableShadedHeader ? 'bg-cyan-950 text-cyan-200' : 'bg-slate-800 text-slate-200'}>
+                      <tr className={tableShadedHeader ? 'bg-gold-950 text-gold-200' : 'bg-slate-800 text-slate-200'}>
                         {Array.from({ length: tableCols }).map((_, c) => (
                           <th key={c} className="border border-slate-700 p-2 font-bold text-left">
                             Col {c + 1} Heading
@@ -1906,8 +1906,8 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                 <div className="space-y-2">
                   {[
                     { order: 1, name: 'Title Text Box: Fly In (Entrance)', trigger: 'On Click', color: 'bg-emerald-950/70 border-emerald-500 text-emerald-300' },
-                    { order: 2, name: 'National Park Photo: Wipe In (Entrance)', trigger: 'After Previous (0.5s delay)', color: 'bg-cyan-950/70 border-cyan-500 text-cyan-300' },
-                    { order: 3, name: 'Background Audio: Sitar Raga (Multimedia)', trigger: 'Automatically across slides', color: 'bg-indigo-950/70 border-indigo-500 text-indigo-300' },
+                    { order: 2, name: 'National Park Photo: Wipe In (Entrance)', trigger: 'After Previous (0.5s delay)', color: 'bg-gold-950/70 border-gold-500 text-gold-300' },
+                    { order: 3, name: 'Background Audio: Sitar Raga (Multimedia)', trigger: 'Automatically across slides', color: 'bg-gold-950/70 border-gold-500 text-gold-300' },
                     { order: 4, name: 'Subtitle: Fade Out (Exit)', trigger: 'With Previous', color: 'bg-amber-950/70 border-amber-500 text-amber-300' },
                   ].map((anim) => (
                     <div key={anim.order} className={`p-2.5 rounded-lg border flex items-center justify-between text-xs ${anim.color}`}>
@@ -1932,7 +1932,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300">
@@ -1947,7 +1947,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
             {/* Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 via-blue-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1965,7 +1965,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
             }`}
           >
             <div className="flex items-center justify-between gap-2">
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-cyan-950 text-cyan-300 font-mono text-[11px] border border-cyan-800">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 font-mono text-[11px] border border-gold-800">
                 {challenge.nodeId}
               </span>
               <span className="text-xs text-slate-400 capitalize">{challenge.type} Challenge</span>
@@ -1986,11 +1986,11 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                     className={`w-full text-left p-3.5 rounded-xl text-xs md:text-sm font-medium border transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-cyan-500'
+                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                     aria-label={`Option ${i + 1}: ${opt}`}
                   >
-                    <span className="inline-block w-5 h-5 rounded-full bg-slate-700 text-[11px] text-center leading-5 mr-2 font-bold text-cyan-300">
+                    <span className="inline-block w-5 h-5 rounded-full bg-slate-700 text-[11px] text-center leading-5 mr-2 font-bold text-gold-300">
                       {String.fromCharCode(65 + i)}
                     </span>
                     {opt}
@@ -2011,7 +2011,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow"
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
                     >
@@ -2100,7 +2100,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow"
                 >
                   Verify Hardware Labels
                 </motion.button>
@@ -2130,7 +2130,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <div className="flex items-center gap-2">
-                        <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-300 font-bold text-center leading-6 text-xs">
+                        <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-300 font-bold text-center leading-6 text-xs">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2145,7 +2145,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow"
                 >
                   Confirm Sequence Order
                 </motion.button>
@@ -2161,7 +2161,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-cyan-500"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500"
                     aria-label="Numeric answer input"
                   />
                   <span className="text-sm text-slate-400 font-semibold">{challenge.unit}</span>
@@ -2170,7 +2170,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl shadow"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow"
                   >
                     Check Calculation
                   </motion.button>
@@ -2192,7 +2192,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                         setConstructParts(prev => [...prev, part]);
                         audioManager.play('pop');
                       }}
-                      className="px-3 py-1.5 bg-cyan-950 border border-cyan-700 hover:bg-cyan-900 text-cyan-200 text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-950 border border-gold-700 hover:bg-gold-900 text-gold-200 text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2206,7 +2206,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-cyan-700 text-white rounded-lg text-xs font-semibold flex items-center gap-2 shadow"
+                      className="px-3 py-1 bg-gold-700 text-white rounded-lg text-xs font-semibold flex items-center gap-2 shadow"
                     >
                       <span>{part}</span>
                       <button
@@ -2230,7 +2230,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg shadow"
                 >
                   Validate Constructed Pipeline
                 </motion.button>
@@ -2300,7 +2300,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD CAPSTONE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-slate-900 via-cyan-950/40 to-slate-900 rounded-3xl border border-cyan-800 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-4">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Mission Complete: Certified Systems Architect!</h2>
             <p className="text-slate-300 max-w-xl mx-auto text-sm md:text-base">
@@ -2314,7 +2314,7 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400">BKT Mastery</span>
-                <p className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400">Errors Tracked</span>
@@ -2351,15 +2351,15 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
             </div>
             <div className="space-y-3">
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="text-xs font-semibold text-cyan-400">1. What was the most surprising thing you learned?</p>
+                <p className="text-xs font-semibold text-gold-400">1. What was the most surprising thing you learned?</p>
                 <p className="text-xs text-slate-400 mt-1">Consider how computer sizes vary from microchips to supercomputers, or how compilers differ from interpreters.</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="text-xs font-semibold text-cyan-400">2. How would you explain this to a friend?</p>
+                <p className="text-xs font-semibold text-gold-400">2. How would you explain this to a friend?</p>
                 <p className="text-xs text-slate-400 mt-1">Think about explaining how mail merge automates hundreds of letters or how file extensions tell the OS what app to open.</p>
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                <p className="text-xs font-semibold text-cyan-400">3. Where in real life might you use this?</p>
+                <p className="text-xs font-semibold text-gold-400">3. Where in real life might you use this?</p>
                 <p className="text-xs text-slate-400 mt-1">From organizing school project folders and zipping files to formatting report cards and delivering animated presentations.</p>
               </div>
             </div>
@@ -2387,14 +2387,14 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
           {/* Real-World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex items-center gap-2">
-              <span className="text-cyan-400 text-lg">🌐</span>
+              <span className="text-gold-400 text-lg">🌐</span>
               <h3 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             </div>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1">
-                  <span className="text-cyan-400 font-bold">Phase {i + 1}:</span>
+                  <span className="text-gold-400 font-bold">Phase {i + 1}:</span>
                   <p>{step}</p>
                 </div>
               ))}
@@ -2402,10 +2402,10 @@ function C6_ComputerScienceCategoriesComputersMicroSim({
           </div>
 
           {/* Spaced Repetition SRS Notice */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-3">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <span className="font-bold text-indigo-300">Spaced Repetition Schedule (SM-2): </span>
-              Next review scheduled in <strong className="text-cyan-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to ensure long-term retention for your ICSE examinations.
+              <span className="font-bold text-gold-300">Spaced Repetition Schedule (SM-2): </span>
+              Next review scheduled in <strong className="text-gold-400">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</strong> to ensure long-term retention for your ICSE examinations.
             </div>
             <motion.button
               whileHover={{ scale: 1.05 }}

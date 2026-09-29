@@ -1080,7 +1080,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
       {/* HEADER SECTION */}
       <header className="w-full max-w-6xl mb-6 flex flex-col md:flex-row justify-between items-center bg-slate-900 border border-slate-800 rounded-xl p-4 md:p-6 shadow-2xl">
         <div>
-          <span className="text-xs font-semibold uppercase tracking-widest text-sky-400 bg-sky-950 px-3 py-1 rounded-full border border-sky-800">
+          <span className="text-xs font-semibold uppercase tracking-widest text-gold-400 bg-gold-950 px-3 py-1 rounded-full border border-gold-800">
             ISC / CBSE Class 11 Chemistry
           </span>
           <h1 className="text-2xl md:text-3xl font-extrabold text-white mt-2">
@@ -1098,7 +1098,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-right">
             <div className="text-xs text-slate-400">Active Concept</div>
-            <div className="text-xs font-mono text-sky-400">{currentNodeId}</div>
+            <div className="text-xs font-mono text-gold-400">{currentNodeId}</div>
           </div>
         </div>
       </header>
@@ -1117,7 +1117,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
             onClick={() => handleTabChange(tab.id as any)}
             className={`flex-1 min-w-[120px] py-2.5 px-4 rounded-lg font-medium text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1131,15 +1131,15 @@ export default function C11_ChemistryThermodynamicsCBSESim({
         {/* TAB 1: SCENARIO */}
         {activeTab === 'scenario' && (
           <div className="space-y-6">
-            <div className="bg-gradient-to-r from-sky-950/60 to-slate-900 p-6 rounded-xl border border-sky-800/40">
-              <h2 className="text-2xl font-bold text-sky-300 mb-3">{SCENARIO.title}</h2>
+            <div className="bg-gradient-to-r from-gold-950/60 to-slate-900 p-6 rounded-xl border border-gold-800/40">
+              <h2 className="text-2xl font-bold text-gold-300 mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 leading-relaxed text-base mb-4">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-sm leading-relaxed">{SCENARIO.context}</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                <h3 className="font-bold text-sky-400 text-sm mb-2">First Law of Thermodynamics</h3>
+                <h3 className="font-bold text-gold-400 text-sm mb-2">First Law of Thermodynamics</h3>
                 <p className="text-xs text-slate-400">Energy conservation: ΔU = q + w. System internal energy changes via heat and expansion work.</p>
               </div>
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -1155,7 +1155,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
             <div className="flex justify-end mt-4">
               <button
                 onClick={() => handleTabChange('discovery')}
-                className="bg-sky-600 hover:bg-sky-500 text-white font-semibold px-6 py-2.5 rounded-lg transition-all shadow-md"
+                className="bg-gold-600 hover:bg-gold-500 text-white font-semibold px-6 py-2.5 rounded-lg transition-all shadow-md"
               >
                 Proceed to Discovery Question &rarr;
               </button>
@@ -1180,7 +1180,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                     }}
                     className={`w-full text-left p-4 rounded-lg border transition-all text-sm ${
                       selectedDiscoveryOpt === idx
-                        ? 'bg-sky-950/80 border-sky-500 text-sky-200'
+                        ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                         : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -1199,7 +1199,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                 </button>
               ) : (
                 <div className="mt-6 p-4 rounded-lg bg-slate-900 border border-slate-700">
-                  <p className="text-sm text-sky-300 font-semibold mb-1">Thermodynamic Analysis:</p>
+                  <p className="text-sm text-gold-300 font-semibold mb-1">Thermodynamic Analysis:</p>
                   <p className="text-xs text-slate-300">{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1211,7 +1211,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pq, idx) => (
                   <div key={idx} className="bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <p className="text-sm font-semibold text-sky-400 mb-3">{pq.question}</p>
+                    <p className="text-sm font-semibold text-gold-400 mb-3">{pq.question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-3">
                       {pq.options.map((opt, oIdx) => (
                         <button
@@ -1219,7 +1219,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                           onClick={() => handlePredictionSubmit(idx, oIdx)}
                           className={`text-left p-3 rounded-lg text-xs border transition-all ${
                             predictionAnswers[idx] === oIdx
-                              ? 'bg-sky-950 border-sky-500 text-white'
+                              ? 'bg-gold-950 border-gold-500 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1255,7 +1255,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                   }}
                   className={`py-2 px-4 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-sky-600 text-white'
+                      ? 'bg-gold-600 text-white'
                       : 'bg-slate-950 text-slate-400 hover:text-white'
                   }`}
                 >
@@ -1266,7 +1266,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
 
             {/* LAB INSTRUCTION HEADER */}
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-              <p className="text-xs font-mono text-sky-400 mb-1">Step {activeLabIndex + 1} Protocol:</p>
+              <p className="text-xs font-mono text-gold-400 mb-1">Step {activeLabIndex + 1} Protocol:</p>
               <p className="text-sm text-slate-200">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
             </div>
 
@@ -1275,7 +1275,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <PVDiagramSVG volume={pistonVol} mode={pistonMode} />
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-sky-400">Piston Expansion Controls</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Piston Expansion Controls</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Volume Expansion V (L): {pistonVol.toFixed(1)} L</label>
                     <input
@@ -1288,7 +1288,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                         setPistonVol(parseFloat(e.target.value));
                         audioManager.play('pop');
                       }}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1296,13 +1296,13 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                     <div className="flex space-x-2">
                       <button
                         onClick={() => setPistonMode('reversible')}
-                        className={`flex-1 py-1.5 text-xs rounded border ${pistonMode === 'reversible' ? 'bg-sky-900 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                        className={`flex-1 py-1.5 text-xs rounded border ${pistonMode === 'reversible' ? 'bg-gold-900 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                       >
                         Reversible
                       </button>
                       <button
                         onClick={() => setPistonMode('irreversible')}
-                        className={`flex-1 py-1.5 text-xs rounded border ${pistonMode === 'irreversible' ? 'bg-sky-900 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                        className={`flex-1 py-1.5 text-xs rounded border ${pistonMode === 'irreversible' ? 'bg-gold-900 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                       >
                         Irreversible
                       </button>
@@ -1321,7 +1321,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <CalorimeterSVG tTemp={calorimeterTemp} />
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-sky-400">Calorimeter Ignition Rig</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Calorimeter Ignition Rig</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Fuel Sample</label>
                     <select
@@ -1365,7 +1365,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <HessCycleSVG step1={hessStep1} step2={hessStep2} total={hessStep1 + hessStep2} />
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-sky-400">Thermochemical Steps Matrix</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Thermochemical Steps Matrix</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">{'Step 1 Enthalpy (C → CO): '}{hessStep1} kJ</label>
                     <input
@@ -1391,7 +1391,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                     />
                   </div>
                   <div className="p-3 bg-slate-900 rounded border border-slate-800 text-xs font-mono">
-                    <p className="text-sky-300">Total Enthalpy Δr H° = ΔH1 + ΔH2 = {(hessStep1 + hessStep2).toFixed(1)} kJ</p>
+                    <p className="text-gold-300">Total Enthalpy Δr H° = ΔH1 + ΔH2 = {(hessStep1 + hessStep2).toFixed(1)} kJ</p>
                   </div>
                 </div>
               </div>
@@ -1400,25 +1400,25 @@ export default function C11_ChemistryThermodynamicsCBSESim({
             {/* LAB 4: BOND ENTHALPY */}
             {activeLabIndex === 3 && (
               <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-4">
-                <h3 className="text-sm font-bold text-sky-400">Molecular Bond Dissociation Estimator</h3>
+                <h3 className="text-sm font-bold text-gold-400">Molecular Bond Dissociation Estimator</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <button
                     onClick={() => setBondReactant('H2 + Cl2')}
-                    className={`p-4 rounded-lg border text-xs font-bold text-left ${bondReactant === 'H2 + Cl2' ? 'bg-sky-950 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                    className={`p-4 rounded-lg border text-xs font-bold text-left ${bondReactant === 'H2 + Cl2' ? 'bg-gold-950 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                   >
                     H2(g) + Cl2(g) -&gt; 2 HCl(g)
                     <div className="text-slate-500 font-normal mt-1">ΔH = [436 + 242] - [2*431] = -184 kJ</div>
                   </button>
                   <button
                     onClick={() => setBondReactant('CH4 + 2O2')}
-                    className={`p-4 rounded-lg border text-xs font-bold text-left ${bondReactant === 'CH4 + 2O2' ? 'bg-sky-950 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                    className={`p-4 rounded-lg border text-xs font-bold text-left ${bondReactant === 'CH4 + 2O2' ? 'bg-gold-950 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                   >
                     CH4(g) + 2 O2(g) -&gt; CO2(g) + 2 H2O(g)
                     <div className="text-slate-500 font-normal mt-1">ΔH = [4*414 + 2*498] - [2*803 + 4*464] = -808 kJ</div>
                   </button>
                   <button
                     onClick={() => setBondReactant('N2 + 3H2')}
-                    className={`p-4 rounded-lg border text-xs font-bold text-left ${bondReactant === 'N2 + 3H2' ? 'bg-sky-950 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                    className={`p-4 rounded-lg border text-xs font-bold text-left ${bondReactant === 'N2 + 3H2' ? 'bg-gold-950 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                   >
                     N2(g) + 3 H2(g) -&gt; 2 NH3(g)
                     <div className="text-slate-500 font-normal mt-1">ΔH = [946 + 3*436] - [6*391] = -92 kJ</div>
@@ -1432,7 +1432,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <GibbsSpontaneitySVG dH={gibbsDH} dS={gibbsDS} temp={gibbsTemp} dG={computedDG} />
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h3 className="text-sm font-bold text-sky-400">Thermodynamic State Variables</h3>
+                  <h3 className="text-sm font-bold text-gold-400">Thermodynamic State Variables</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Enthalpy ΔH (kJ/mol): {gibbsDH} kJ/mol</label>
                     <input
@@ -1442,7 +1442,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                       step="10"
                       value={gibbsDH}
                       onChange={(e) => setGibbsDH(parseFloat(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1483,7 +1483,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
               <div className="space-y-6">
                 {OBSERVATION_QUESTIONS.map((oq, idx) => (
                   <div key={idx} className="bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <p className="text-sm font-semibold text-sky-400 mb-3">{oq.question}</p>
+                    <p className="text-sm font-semibold text-gold-400 mb-3">{oq.question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-3">
                       {oq.observableOptions.map((opt, oIdx) => (
                         <button
@@ -1491,7 +1491,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                           onClick={() => handleObservationSubmit(idx, oIdx)}
                           className={`text-left p-3 rounded-lg text-xs border transition-all ${
                             observationAnswers[idx] === oIdx
-                              ? 'bg-sky-950 border-sky-500 text-white'
+                              ? 'bg-gold-950 border-gold-500 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1516,7 +1516,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
           <div className="space-y-6">
             <div className="flex justify-between items-center bg-slate-950 p-4 rounded-xl border border-slate-800">
               <div>
-                <span className="text-xs font-mono text-sky-400">Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}</span>
+                <span className="text-xs font-mono text-gold-400">Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}</span>
                 <h3 className="text-sm font-bold text-white capitalize">Tier: {currentChallenge.difficulty} | {currentChallenge.competencyLevel}</h3>
               </div>
               <span className="text-xs font-mono text-slate-400 bg-slate-900 px-3 py-1 rounded border border-slate-800">{currentChallenge.nodeId}</span>
@@ -1537,7 +1537,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                       }}
                       className={`w-full text-left p-4 rounded-lg border text-sm transition-all ${
                         selectedAnswer === idx
-                          ? 'bg-sky-950 border-sky-500 text-white'
+                          ? 'bg-gold-950 border-gold-500 text-white'
                           : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
@@ -1557,7 +1557,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                       value={numericAnswer}
                       onChange={(e) => setNumericAnswer(e.target.value)}
                       placeholder="Enter numerical answer..."
-                      className="bg-slate-900 border border-slate-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-sky-500 flex-1"
+                      className="bg-slate-900 border border-slate-700 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-gold-500 flex-1"
                     />
                     <span className="text-sm text-slate-400 font-mono">{currentChallenge.unit}</span>
                   </div>
@@ -1584,7 +1584,7 @@ export default function C11_ChemistryThermodynamicsCBSESim({
                 ) : (
                   <button
                     onClick={nextChallenge}
-                    className="bg-sky-600 hover:bg-sky-500 text-white font-bold px-6 py-2.5 rounded-lg transition-all"
+                    className="bg-gold-600 hover:bg-gold-500 text-white font-bold px-6 py-2.5 rounded-lg transition-all"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge &rarr;' : 'Finish Lab Evaluation'}
                   </button>
@@ -1608,13 +1608,13 @@ export default function C11_ChemistryThermodynamicsCBSESim({
         {activeTab === 'summary' && (
           <div className="space-y-6">
             <div className="bg-slate-950 p-6 rounded-xl border border-slate-800">
-              <h2 className="text-xl font-bold text-sky-400 mb-3">{REAL_WORLD_ACTIVITY.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-3">{REAL_WORLD_ACTIVITY.title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed mb-6">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="flex items-start space-x-3 bg-slate-900 p-4 rounded-lg border border-slate-800">
-                    <span className="bg-sky-950 text-sky-400 border border-sky-800 rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                    <span className="bg-gold-950 text-gold-400 border border-gold-800 rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                       {idx + 1}
                     </span>
                     <p className="text-xs text-slate-300 leading-relaxed">{step}</p>

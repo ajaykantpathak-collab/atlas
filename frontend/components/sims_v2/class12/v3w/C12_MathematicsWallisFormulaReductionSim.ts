@@ -11,11 +11,11 @@ export const w_c12_mathematicswallisformulareductionsim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Integration by Parts: Rule and Formula',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_004', 'c12_math_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a civil engineering intern in Bengaluru calculating the bending moment in a simply supported.', goal: 'Master Integration by Parts: Rule and Formula.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Integration by parts is a technique derived.', text: 'Integration by parts is a technique derived from the product rule of differentiation that transforms the integral of a product of two functions into a simpler integral.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Integration by parts is a technique derived.', text: 'Integration by parts is a technique derived from the product rule of differentiation that transforms the integral of a product of two functions into a simpler integral.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_07_004', title: 'Integration by parts is a technique.',

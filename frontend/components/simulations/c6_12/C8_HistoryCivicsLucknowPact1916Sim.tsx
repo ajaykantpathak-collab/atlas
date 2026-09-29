@@ -1117,7 +1117,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                 animate={{ scale: 1 }}
                 className={`text-xs px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-950/80 text-emerald-400 border border-emerald-800' :
-                  difficulty === 'standard' ? 'bg-blue-950/80 text-blue-400 border border-blue-800' :
+                  difficulty === 'standard' ? 'bg-gold-950/80 text-gold-400 border border-gold-800' :
                   'bg-rose-950/80 text-rose-400 border border-rose-800'
                 }`}
               >
@@ -1140,7 +1140,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                 if (p === 'challenge') handleAdvanceToChallenge();
               }}
               className={`px-3 py-1 rounded-xl text-xs font-bold capitalize transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1164,10 +1164,10 @@ function C8_HistoryCivicsLucknowPact1916Sim({
             exit={{ opacity: 0, y: -15 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 border border-indigo-700/40 rounded-2xl shadow-xl">
+            <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 border border-gold-700/40 rounded-2xl shadow-xl">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xl">🏛️</span>
-                <h2 className="text-lg font-extrabold text-indigo-300">{SCENARIO.title}</h2>
+                <h2 className="text-lg font-extrabold text-gold-300">{SCENARIO.title}</h2>
               </div>
               <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
               <div className="mt-4 p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-400">
@@ -1195,10 +1195,10 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         ? 'bg-emerald-950/90 border-2 border-emerald-500 text-emerald-200'
                         : discoveryAnswered && !discoveryCorrect && i !== DISCOVERY_QUESTION.correctIndex
                         ? 'bg-slate-900/50 border border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 border border-slate-700/70 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                        : 'bg-slate-800/80 border border-slate-700/70 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1208,9 +1208,9 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4"
+                  className="mt-6 p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4"
                 >
-                  <p className="text-xs md:text-sm text-indigo-200">
+                  <p className="text-xs md:text-sm text-gold-200">
                     {discoveryCorrect
                       ? '✨ Brilliant insight! Tilak and Jinnah forged a mutual constitutional concession at Lucknow in 1916.'
                       : `💡 ${DISCOVERY_QUESTION.hintAfter}`}
@@ -1219,7 +1219,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-black text-xs md:text-sm rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-500 text-white font-black text-xs md:text-sm rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1251,11 +1251,11 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                   }}
                   className={`p-2.5 rounded-xl text-left border transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-950/90 border-indigo-500 text-white shadow-md shadow-indigo-500/20'
+                      ? 'bg-gold-950/90 border-gold-500 text-white shadow-md shadow-gold-500/20'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  <div className="text-[10px] uppercase font-bold text-indigo-400">Step {idx + 1}</div>
+                  <div className="text-[10px] uppercase font-bold text-gold-400">Step {idx + 1}</div>
                   <div className="text-xs font-bold truncate">{s.title.split(':')[0]}</div>
                 </motion.button>
               ))}
@@ -1285,7 +1285,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         onClick={() => handleFactionSelect(f)}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                           activeFaction === f
-                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                            ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                             : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                         }`}
                       >
@@ -1360,7 +1360,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                       setMovementYear(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-indigo-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                     aria-label="Timeline Year Slider"
                   />
 
@@ -1445,10 +1445,10 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     key={movementYear}
                     initial={{ opacity: 0, y: 5 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="p-4 bg-slate-900 rounded-xl border border-indigo-900/50 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between"
+                    className="p-4 bg-slate-900 rounded-xl border border-gold-900/50 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between"
                   >
                     <div>
-                      <span className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+                      <span className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                         {movementYear <= 1918 ? 'Early Satyagraha Phase' :
                          movementYear <= 1922 ? 'Non-Cooperation & Khilafat' :
                          movementYear <= 1934 ? 'Civil Disobedience (Salt March)' :
@@ -1472,7 +1472,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         {movementYear > 1947 && 'Drafting the Sovereign Constitution of India for 26 January 1950.'}
                       </h4>
                     </div>
-                    <div className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 rounded-lg text-xs font-mono text-indigo-300">
+                    <div className="px-3 py-1.5 bg-gold-950 border border-gold-700 rounded-lg text-xs font-mono text-gold-300">
                       Year: {movementYear}
                     </div>
                   </motion.div>
@@ -1569,7 +1569,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-                      <div className="text-xs font-black text-indigo-400 uppercase tracking-wider">Key Qualifications & Presiding Officer</div>
+                      <div className="text-xs font-black text-gold-400 uppercase tracking-wider">Key Qualifications & Presiding Officer</div>
                       <ul className="text-xs text-slate-300 space-y-1">
                         <li>• Minimum Age: <strong className="text-white">{selectedChamber === 'loksabha' ? '25 Years (Art 84)' : '30 Years (Art 84)'}</strong></li>
                         <li>• Presiding Officer: <strong className="text-white">{selectedChamber === 'loksabha' ? 'The Speaker (elected from MPs)' : 'Vice-President of India (Ex-Officio Chairman)'}</strong></li>
@@ -1590,7 +1590,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleBillTypeToggle('ordinary')}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                          billType === 'ordinary' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                          billType === 'ordinary' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Ordinary Bill (Art 107)
@@ -1619,7 +1619,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         onClick={() => handleBillStageStep(i + 1)}
                         className={`p-2 rounded-xl text-center text-xs font-bold transition-all ${
                           billStage === i + 1
-                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                            ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                             : 'bg-slate-900 border border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1725,7 +1725,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     setCurrentSlide(s => s + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -1770,7 +1770,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
 
               {/* Predict-Then-Check In Sandbox */}
               {!predictionMade ? (
-                <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40 mb-4">
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40 mb-4">
                   <div className="text-xs font-black text-amber-400 uppercase tracking-wider mb-2">🤔 Historical Prediction Puzzle</div>
                   <p className="text-xs md:text-sm font-bold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1780,7 +1780,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         whileHover={{ scale: 1.01 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handlePrediction(i)}
-                        className="p-3 bg-slate-900 border border-slate-800 text-left rounded-xl text-xs text-slate-300 hover:border-indigo-500"
+                        className="p-3 bg-slate-900 border border-slate-800 text-left rounded-xl text-xs text-slate-300 hover:border-gold-500"
                       >
                         {opt}
                       </motion.button>
@@ -1795,8 +1795,8 @@ function C8_HistoryCivicsLucknowPact1916Sim({
 
               {/* Observation Question */}
               {!observationAnswered ? (
-                <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/40">
-                  <div className="text-xs font-black text-indigo-400 uppercase tracking-wider mb-2">👁️ Constitutional Observation</div>
+                <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/40">
+                  <div className="text-xs font-black text-gold-400 uppercase tracking-wider mb-2">👁️ Constitutional Observation</div>
                   <p className="text-xs md:text-sm font-bold text-white mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1805,7 +1805,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         whileHover={{ scale: 1.01 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handleObservation(i)}
-                        className="p-3 bg-slate-900 border border-slate-800 text-left rounded-xl text-xs text-slate-300 hover:border-indigo-500"
+                        className="p-3 bg-slate-900 border border-slate-800 text-left rounded-xl text-xs text-slate-300 hover:border-gold-500"
                       >
                         {opt}
                       </motion.button>
@@ -1813,7 +1813,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                   </div>
                 </div>
               ) : (
-                <div className="p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-xl text-xs text-indigo-200">
+                <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl text-xs text-gold-200">
                   ✓ Observation Verified: Lok Sabha is subject to early dissolution; Rajya Sabha is permanent.
                 </div>
               )}
@@ -1833,7 +1833,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
             {/* Header & Progress */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2">
               <div>
-                <div className="text-xs font-black uppercase tracking-wider text-indigo-400">
+                <div className="text-xs font-black uppercase tracking-wider text-gold-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length} • Competency: {activeChallenge.competencyLevel.toUpperCase()}
                 </div>
                 <h2 className="text-lg font-black text-white mt-0.5">{activeChallenge.question}</h2>
@@ -1848,7 +1848,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
             {/* Progress Bar */}
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1877,10 +1877,10 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                           ? 'bg-emerald-950/90 border-2 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-500/20'
                           : showExplanation
                           ? 'bg-slate-900/50 border border-slate-800 text-slate-500'
-                          : 'bg-slate-800/80 border border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                          : 'bg-slate-800/80 border border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -1900,7 +1900,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                        className="px-3 py-1.5 bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                       >
                         {item.label}
                       </motion.div>
@@ -1920,7 +1920,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                             : 'border-slate-700 bg-slate-950/60 text-slate-400 text-xs'
                         }`}
                       >
-                        <div className="text-[10px] uppercase font-bold text-indigo-400 mb-1">
+                        <div className="text-[10px] uppercase font-bold text-gold-400 mb-1">
                           {targetId === 'tinkathia' ? 'Indigo 3/20th System' :
                            targetId === 'revenue_remission' ? 'Famine Revenue Relief' : 'Textile Plague Bonus'}
                         </div>
@@ -1936,7 +1936,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length < 3}
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                    className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                   >
                     Check Mapping ✓
                   </motion.button>
@@ -1966,7 +1966,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 cursor-grab active:cursor-grabbing flex items-center justify-between"
                       >
                         <span>
-                          <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                          <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                         </span>
                         <span className="text-slate-500 text-xs">↕ Drag</span>
                       </motion.div>
@@ -1983,7 +1983,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                       handleAnswer(ans);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Verify Chronology ✓
                   </motion.button>
@@ -1999,7 +1999,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter exact integer..."
-                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 focus:outline-none"
+                      className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 focus:outline-none"
                     />
                     <span className="text-xs font-bold text-slate-400">{activeChallenge.unit}</span>
                     <motion.button
@@ -2009,7 +2009,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                       transition={{ duration: 0.4 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                      className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                     >
                       Check Answer
                     </motion.button>
@@ -2028,7 +2028,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-slate-800 border border-slate-700 text-indigo-300 rounded-lg text-xs font-bold"
+                        className="px-3 py-1.5 bg-slate-800 border border-slate-700 text-gold-300 rounded-lg text-xs font-bold"
                       >
                         + {part}
                       </motion.button>
@@ -2041,7 +2041,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                         key={i}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1 bg-indigo-900/90 text-indigo-200 rounded-lg text-xs font-bold flex items-center gap-2"
+                        className="px-3 py-1 bg-gold-900/90 text-gold-200 rounded-lg text-xs font-bold flex items-center gap-2"
                       >
                         {part}
                         <button
@@ -2064,7 +2064,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Validate Synthesis ✓
                   </motion.button>
@@ -2077,7 +2077,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/60 rounded-2xl space-y-3"
+                className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/60 rounded-2xl space-y-3"
               >
                 <div className="text-xs font-black uppercase tracking-wider text-amber-400">Step-by-Step Historical Breakdown:</div>
                 {activeChallenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, i) => (
@@ -2087,7 +2087,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-xs md:text-sm text-slate-200 leading-relaxed"
                   >
-                    <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span>
+                    <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span>
                     {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2098,7 +2098,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold"
                     >
                       Show Next Detail →
                     </motion.button>
@@ -2150,7 +2150,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
                 </div>
                 <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
                   <div className="text-[10px] uppercase font-bold text-slate-400">Mastery Level</div>
-                  <div className="text-xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                  <div className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</div>
                 </div>
                 <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
                   <div className="text-[10px] uppercase font-bold text-slate-400">Total Errors</div>
@@ -2169,7 +2169,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-purple-950/70 via-slate-900 to-indigo-950/70 border-2 border-purple-500/50 rounded-2xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-4"
+              className="p-5 bg-gradient-to-r from-purple-950/70 via-slate-900 to-gold-950/70 border-2 border-purple-500/50 rounded-2xl shadow-xl flex flex-col md:flex-row items-center justify-between gap-4"
             >
               <div className="flex items-center gap-4">
                 <div className="p-3 bg-purple-900/60 border border-purple-400/40 rounded-2xl text-3xl shrink-0">
@@ -2231,7 +2231,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
 
             {/* Reflection Questions */}
             <div className="p-5 bg-slate-900/90 border border-slate-800 rounded-2xl space-y-3">
-              <h3 className="text-sm font-black text-indigo-300 uppercase tracking-wider">💭 Constitutional Reflection</h3>
+              <h3 className="text-sm font-black text-gold-300 uppercase tracking-wider">💭 Constitutional Reflection</h3>
               <ul className="text-xs text-slate-300 space-y-2">
                 <li>1. Why did the founding fathers choose a bicameral Parliament rather than a single house?</li>
                 <li>2. How did Gandhi's local campaigns in 1917–1918 prepare India for nationwide mass movements?</li>
@@ -2240,7 +2240,7 @@ function C8_HistoryCivicsLucknowPact1916Sim({
             </div>
 
             {/* Real World Activity Card */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/50 rounded-2xl space-y-3">
+            <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/50 rounded-2xl space-y-3">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📜</span>
                 <h3 className="text-base font-extrabold text-white">{REAL_WORLD_ACTIVITY.title}</h3>

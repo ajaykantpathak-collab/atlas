@@ -9,7 +9,7 @@ export const c10_gram_ch90: SimDef = {
     classLevel: 10, subject: 'english-grammar', topic: 'Tenses — the 12-form grid',
     chapters: ['c10_gram_ch90'],
     nodeIds: ['c10_gram_cbse_90_001', 'c10_gram_cbse_90_002', 'c10_gram_cbse_90_003'],
-    emoji: '⏳', theme: { bg: 'from-slate-900 to-indigo-950', accent: 'indigo', scene: 'senior' },
+    emoji: '⏳', theme: { bg: 'from-slate-900 to-gold-950', accent: 'indigo', scene: 'senior' },
 
     scenario: {
         role: 'a translator rebuilding a timeline after the verbs were scrambled',
@@ -28,8 +28,8 @@ export const c10_gram_ch90: SimDef = {
         hook: 'The tense lives in the HELPER, not the main verb — "has" is present, "had" is past, "finished" just sits there.',
     },
     teaching: [
-        { title: 'The Grid', text: 'Rows = time (present/past/future). Columns = aspect — how the action is viewed: simple, continuous, perfect, perfect-continuous.', emoji: '🗂️', bgColor: 'from-indigo-500 to-violet-600' },
-        { title: 'Aspect is not time', text: 'Perfect means "completed but connected to a reference point" — has finished connects to NOW, had finished to a PAST point.', emoji: '🔗', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'The Grid', text: 'Rows = time (present/past/future). Columns = aspect — how the action is viewed: simple, continuous, perfect, perfect-continuous.', emoji: '🗂️', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Aspect is not time', text: 'Perfect means "completed but connected to a reference point" — has finished connects to NOW, had finished to a PAST point.', emoji: '🔗', bgColor: 'from-gold-500 to-purple-600' },
     ],
 
     beats: [

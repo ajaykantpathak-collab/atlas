@@ -98,15 +98,15 @@ function EnergyLab({ onExplored }: { onExplored: (k: string) => void }) {
           {ENERGY_PIE.map(s => (
             <button key={s.label} onMouseEnter={() => setActive(s.label)} onMouseLeave={() => setActive(null)}
               onClick={() => { setActive(s.label); onExplored('sv_enp_' + s.label) }}
-              className={`px-2 py-0.5 rounded-md text-[11px] border ${active === s.label ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2 py-0.5 rounded-md text-[11px] border ${active === s.label ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {s.renewable ? '♻' : '⛏'} {s.label}
             </button>
           ))}
         </div>
       </div>
       <div className="space-y-3">
-        <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 px-3 py-2.5">
-          <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black mb-1">renewable or not?</p>
+        <div className="rounded-xl border border-gold-500/25 bg-gold-500/5 px-3 py-2.5">
+          <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black mb-1">renewable or not?</p>
           <p className="text-sm font-bold text-white mb-2">{item.item}</p>
           <div className="flex gap-1.5">
             <button onClick={() => answer(true)}

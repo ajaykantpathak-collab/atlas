@@ -11,7 +11,7 @@ export const w_c8_mathematicslinearequationsinonevariablesim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Word Problems Translating to Linear Equations',
     chapters: [],
     nodeIds: ['c8_math_ch13_10', 'c8_math_ch13_11', 'c8_math_ch13_8', 'c8_math_ch13_9', 'c8_math_ch10_10', 'c8_math_ch13_2', 'c8_math_ch7_7', 'c8_math_ch13_4', 'c8_math_ch13_1', 'c8_math_ch13_5', 'c8_math_ch13_6', 'c8_math_ch10_9', 'c8_math_ch7_5', 'c8_math_ch10_1', 'c8_math_ch13_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you and your friend are saving money for a cricket bat costing ₹1,200.', goal: 'Master Word Problems Translating to Linear Equations.' },
     discovery: {
         question: 'In a rectangle, the length is 5 cm more than the breadth. The perimeter is 50 cm. A student writes: 2(x + 5) + 2x = 50.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicslinearequationsinonevariablesim: SimDef = {
         hook: 'Students incorrectly define the variable for "consecutive even/odd numbers" as x, x+1, x+2 instead of x, x+2, x+4.',
     },
     teaching: [
-        { title: 'Translating word problems into linear.', text: 'Translating word problems into linear equations is the process of identifying unknown quantities, representing them with variables, and converting the verbal relationships and constraints described.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Translating word problems into linear.', text: 'Translating word problems into linear equations is the process of identifying unknown quantities, representing them with variables, and converting the verbal relationships and constraints described.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c8_math_ch13_10', title: 'Translating word problems into linear.',

@@ -49,7 +49,7 @@ const TEACHING_SLIDES = [
     title: 'Water & Soil — Our Life Givers! 💧',
     text: 'Water in rivers and groundwater is used for drinking and farming. Alluvial soil in the Northern Plains is rich and fertile, growing wheat, rice, and sugarcane!',
     emoji: '💧',
-    bgColor: 'from-blue-400 to-cyan-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'Water is used for drinking and farming. Fertile soil helps plants and crops grow wheat, rice, and sugarcane!',
   },
   {
@@ -70,7 +70,7 @@ const TEACHING_SLIDES = [
     title: 'Local Geography — My Region! 🗺️',
     text: 'Local geography studies our own region — nearby rivers, landforms, climate, crops, and resources that shape our daily clothes, food, and work!',
     emoji: '🗺️',
-    bgColor: 'from-teal-400 to-blue-600',
+    bgColor: 'from-teal-400 to-gold-600',
     spoken: 'Local geography studies our own region, nearby rivers, landforms, climate, and crops that shape our daily food and work!',
   },
 ];

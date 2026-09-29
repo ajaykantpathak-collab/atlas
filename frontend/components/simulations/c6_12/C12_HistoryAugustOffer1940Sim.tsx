@@ -1207,7 +1207,7 @@ function C12_HistoryAugustOffer1940Sim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1221,7 +1221,7 @@ function C12_HistoryAugustOffer1940Sim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-600/30">
+          <div className="p-6 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-600/30">
             <h2 className="text-xl font-black text-amber-300 mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mb-3 leading-relaxed">{SCENARIO.intro}</p>
             <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-amber-200">
@@ -1230,7 +1230,7 @@ function C12_HistoryAugustOffer1940Sim({
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Discovery Question</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Discovery Question</span>
             <p className="text-base font-semibold text-white mt-2 mb-4 leading-relaxed">
               {DISCOVERY_QUESTION.question}
             </p>
@@ -1423,11 +1423,11 @@ function C12_HistoryAugustOffer1940Sim({
                     <div
                       className={`p-4 rounded-xl border transition-all ${
                         warPressureLevel >= 35 && warPressureLevel < 70
-                          ? 'bg-indigo-950/60 border-indigo-500 text-indigo-200 scale-105 shadow-lg'
+                          ? 'bg-gold-950/60 border-gold-500 text-gold-200 scale-105 shadow-lg'
                           : 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
                       }`}
                     >
-                      <span className="text-xs font-black uppercase text-indigo-400">Cripps Mission (1942)</span>
+                      <span className="text-xs font-black uppercase text-gold-400">Cripps Mission (1942)</span>
                       <p className="text-xs font-bold mt-1 text-white">Sir Stafford Cripps</p>
                       <ul className="text-xs mt-2 space-y-1 text-slate-300">
                         <li>• Dominion Status + Constituent Assembly</li>
@@ -1547,8 +1547,8 @@ function C12_HistoryAugustOffer1940Sim({
               {currentSlide === 2 && (
                 <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-700/40">
-                      <span className="text-xs font-bold text-indigo-400">🔮 PREDICT BEFORE SIMULATING</span>
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-700/40">
+                      <span className="text-xs font-bold text-gold-400">🔮 PREDICT BEFORE SIMULATING</span>
                       <p className="text-xs font-semibold text-white mt-1 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1557,7 +1557,7 @@ function C12_HistoryAugustOffer1940Sim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="text-left p-2.5 bg-slate-900 rounded-lg text-xs text-slate-200 hover:bg-indigo-900/60 border border-slate-800"
+                            className="text-left p-2.5 bg-slate-900 rounded-lg text-xs text-slate-200 hover:bg-gold-900/60 border border-slate-800"
                           >
                             {opt}
                           </motion.button>
@@ -1585,7 +1585,7 @@ function C12_HistoryAugustOffer1940Sim({
                       value={troopLoyaltyLevel}
                       onChange={(e) => setTroopLoyaltyLevel(Number(e.target.value))}
                       aria-label="Troop Loyalty Slider"
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                     />
 
                     {/* Canvas Dynamic Coercion Wave */}
@@ -1787,7 +1787,7 @@ function C12_HistoryAugustOffer1940Sim({
                     {[
                       { id: 'junagarh', name: 'Junagarh (Gujarat)', method: 'Plebiscite (95%+)', color: 'border-amber-500' },
                       { id: 'hyderabad', name: 'Hyderabad (Deccan)', method: 'Op Polo (108 hrs)', color: 'border-rose-500' },
-                      { id: 'kashmir', name: 'J&K (Himalayas)', method: 'Accession & Art 370', color: 'border-indigo-500' },
+                      { id: 'kashmir', name: 'J&K (Himalayas)', method: 'Accession & Art 370', color: 'border-gold-500' },
                       { id: 'travancore', name: 'Travancore (Kerala)', method: 'Patel Persuasion', color: 'border-emerald-500' },
                     ].map((st) => (
                       <motion.button
@@ -1926,13 +1926,13 @@ function C12_HistoryAugustOffer1940Sim({
                   max={100}
                   value={troopLoyaltyLevel}
                   onChange={(e) => setTroopLoyaltyLevel(Number(e.target.value))}
-                  className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                  className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                 />
               </div>
             </div>
 
             <div className="p-5 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-extrabold text-indigo-400 uppercase">Interactive State Selector</span>
+              <span className="text-xs font-extrabold text-gold-400 uppercase">Interactive State Selector</span>
               <div className="grid grid-cols-2 gap-2">
                 {(['junagarh', 'hyderabad', 'kashmir', 'travancore'] as const).map((st) => (
                   <button
@@ -1940,7 +1940,7 @@ function C12_HistoryAugustOffer1940Sim({
                     onClick={() => handleStateClick(st)}
                     className={`p-2.5 rounded-xl text-xs font-bold text-left border ${
                       selectedStateId === st
-                        ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200'
                         : 'bg-slate-950 border-slate-800 text-slate-400'
                     }`}
                   >
@@ -1971,7 +1971,7 @@ function C12_HistoryAugustOffer1940Sim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-amber-500 via-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-amber-500 via-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2030,7 +2030,7 @@ function C12_HistoryAugustOffer1940Sim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-indigo-700 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-4 py-2 bg-gold-700 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -2057,7 +2057,7 @@ function C12_HistoryAugustOffer1940Sim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                 >
                   Verify Portfolios
                 </motion.button>
@@ -2122,7 +2122,7 @@ function C12_HistoryAugustOffer1940Sim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation}
-                  className="px-6 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Value
                 </motion.button>
@@ -2139,7 +2139,7 @@ function C12_HistoryAugustOffer1940Sim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700 rounded-xl text-xs text-indigo-200"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 rounded-xl text-xs text-gold-200"
                     >
                       + {part}
                     </motion.button>
@@ -2173,7 +2173,7 @@ function C12_HistoryAugustOffer1940Sim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0 || showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Architecture
                 </motion.button>
@@ -2325,7 +2325,7 @@ function C12_HistoryAugustOffer1940Sim({
 
           {/* Real World Activity Arc */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <span className="text-xs font-black text-indigo-400 uppercase">{REAL_WORLD_ACTIVITY.title}</span>
+            <span className="text-xs font-black text-gold-400 uppercase">{REAL_WORLD_ACTIVITY.title}</span>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ol className="list-decimal list-inside text-xs text-slate-400 space-y-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (

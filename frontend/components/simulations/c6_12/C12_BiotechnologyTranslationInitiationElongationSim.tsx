@@ -1463,7 +1463,7 @@ function C12_BiotechnologyTranslationInitiationElongationSim({
                     <button
                       onClick={() => setOperonType('trp')}
                       className={`px-4 py-1.5 rounded-lg text-xs font-bold ${
-                        operonType === 'trp' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                        operonType === 'trp' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Trp Operon (Anabolic / Repressible)
@@ -1555,7 +1555,7 @@ function C12_BiotechnologyTranslationInitiationElongationSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Tryptophan (Corepressor) Level:</span>
-                          <span className="text-indigo-400 font-mono font-bold">{tryptophanLevel} µM</span>
+                          <span className="text-gold-400 font-mono font-bold">{tryptophanLevel} µM</span>
                         </div>
                         <input
                           type="range"
@@ -1563,7 +1563,7 @@ function C12_BiotechnologyTranslationInitiationElongationSim({
                           max="100"
                           value={tryptophanLevel}
                           onChange={e => setTryptophanLevel(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                         <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                           <span>Starvation (TrpR Inactive = ON)</span>
@@ -1574,7 +1574,7 @@ function C12_BiotechnologyTranslationInitiationElongationSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 flex items-center justify-between">
                         <div>
                           <div className="text-xs text-slate-400">TrpR Apo-repressor State:</div>
-                          <div className="text-sm font-bold text-indigo-300">
+                          <div className="text-sm font-bold text-gold-300">
                             {tryptophanLevel >= 35 ? 'Complexed with Tryptophan (Active Corepressor)' : 'Unbound Apo-repressor (Inactive)'}
                           </div>
                         </div>
@@ -1741,7 +1741,7 @@ function C12_BiotechnologyTranslationInitiationElongationSim({
                   <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 flex items-center justify-around">
                     <div className="w-24 h-48 rounded-b-3xl border-2 border-slate-600 bg-slate-950 overflow-hidden relative shadow-inner">
                       {/* Top Aqueous Phase: DNA */}
-                      <div className="w-full h-1/2 bg-cyan-500/40 border-b border-cyan-400 flex items-center justify-center text-[9px] font-bold text-cyan-200 text-center p-1">
+                      <div className="w-full h-1/2 bg-gold-500/40 border-b border-gold-400 flex items-center justify-center text-[9px] font-bold text-gold-200 text-center p-1">
                         Aqueous Phase (Pure Genomic DNA)
                       </div>
                       {/* Interphase: Denatured Proteins */}
@@ -1834,7 +1834,7 @@ function C12_BiotechnologyTranslationInitiationElongationSim({
                       className={`p-3 rounded-xl border text-xs leading-relaxed ${
                         colonySelection === 'recombinant'
                           ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
-                          : 'bg-sky-950/60 border-sky-500 text-sky-200'
+                          : 'bg-gold-950/60 border-gold-500 text-gold-200'
                       }`}
                     >
                       {colonySelection === 'recombinant' ? (

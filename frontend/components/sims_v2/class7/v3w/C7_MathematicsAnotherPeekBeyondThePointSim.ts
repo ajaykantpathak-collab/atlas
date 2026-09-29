@@ -11,11 +11,11 @@ export const w_c7_mathematicsanotherpeekbeyondthepointsim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Locating Decimals on the Number Line',
     chapters: [],
     nodeIds: ['c7_math_ch03_006', 'c7_math_ch03_008', 'c7_math_ch12_005', 'c7_math_ch03_001', 'c7_math_ch03_002', 'c7_math_ch03_003', 'c7_math_ch03_004', 'c7_math_ch03_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are measuring a piece of ribbon for your craft project, and it measures 3.4 cm long.', goal: 'Master Locating Decimals on the Number Line.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Locating decimals on the number line.', text: 'Locating decimals on the number line involves identifying the precise position of a decimal number between two integers by dividing the unit distance into ten equal tenths segments and further into.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Locating decimals on the number line.', text: 'Locating decimals on the number line involves identifying the precise position of a decimal number between two integers by dividing the unit distance into ten equal tenths segments and further into.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch03_006', title: 'Locating decimals on the number line.',

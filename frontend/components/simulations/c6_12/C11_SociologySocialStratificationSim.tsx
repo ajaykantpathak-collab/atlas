@@ -49,7 +49,7 @@ export function C11_SociologySocialStratificationSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Stratification: How Closed Is the Ladder?</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Stratification: How Closed Is the Ladder?</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -95,7 +95,7 @@ export function C11_SociologySocialStratificationSim() {
             = <span className="text-emerald-300 font-bold">{childStatus}</span>
           </div>
           <div className="text-slate-300">
-            Society type: <span className="font-bold text-sky-300">{openness < 25 ? 'Closed (ascription rules)' : openness < 65 ? 'Semi-open' : 'Open (achievement rules)'}</span>
+            Society type: <span className="font-bold text-gold-300">{openness < 25 ? 'Closed (ascription rules)' : openness < 65 ? 'Semi-open' : 'Open (achievement rules)'}</span>
           </div>
           <div className="text-slate-300">
             Child lands in: <span className="font-bold text-pink-300">{LAYERS[childLayer].name}</span>
@@ -117,9 +117,9 @@ export function C11_SociologySocialStratificationSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Ladder openness (ascription vs achievement)</span>
-            <span className="font-mono font-bold text-sky-300">{openness}%</span>
+            <span className="font-mono font-bold text-gold-300">{openness}%</span>
           </label>
-          <input type="range" aria-label="openness" min={0} max={100} step={5} value={openness} onChange={(e) => setOpenness(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="openness" min={0} max={100} step={5} value={openness} onChange={(e) => setOpenness(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -138,7 +138,7 @@ export function C11_SociologySocialStratificationSim() {
       </div>
 
       <div className="flex flex-wrap gap-2 mt-4">
-        <button onClick={launchChild} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={launchChild} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Launch this child
         </button>
         <button
@@ -152,8 +152,8 @@ export function C11_SociologySocialStratificationSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Press &quot;Born at the bottom, closed ladder&quot;. Set effort to 100 and launch five children (vary openness 0, 25, 50, 75, 100). At which openness does effort finally pay?</li>
           <li>Keep openness at 80. Launch one child at effort 20 and one at 100 from rich parents. Does openness guarantee the harder-working child wins?</li>

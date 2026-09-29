@@ -185,14 +185,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Latitudes: Parallels of Earth 🌍",
     text: "Latitudes are imaginary lines running east to west, parallel to the Equator. The Equator is 0° latitude and splits the Earth into the Northern and Southern Hemispheres!",
     emoji: "🌍",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Latitudes are imaginary lines running east to west, parallel to the Equator. The Equator is zero degrees latitude and splits the Earth into Northern and Southern Hemispheres!"
   },
   {
     title: "Key Latitudes & Tropics 🌡️",
     text: "Key latitudes include the Tropic of Cancer at 23.5°N, the Tropic of Capricorn at 23.5°S, the Arctic Circle at 66.5°N, and the Antarctic Circle at 66.5°S!",
     emoji: "🌡️",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "Key latitudes include the Tropic of Cancer at 23.5 degrees North, the Tropic of Capricorn at 23.5 degrees South, and the Arctic and Antarctic Circles at 66.5 degrees!"
   },
   {
@@ -206,7 +206,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "The Geographic Grid 🌐",
     text: "The geographic grid is the network formed by criss-crossing latitudes and longitudes. Every place on Earth has a unique coordinate pair — latitude first, then longitude!",
     emoji: "🌐",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "The geographic grid is formed by criss-crossing latitudes and longitudes. Every place on Earth has a unique coordinate pair, with latitude first and longitude second!"
   },
   {

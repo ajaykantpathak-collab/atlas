@@ -80,7 +80,7 @@ function TeacherDashboardContent() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white flex items-center gap-3">
-            <GraduationCap className="w-8 h-8 text-indigo-400" />
+            <GraduationCap className="w-8 h-8 text-gold-400" />
             Teacher Dashboard
           </h1>
           <p className="text-slate-400 mt-1">Class overview and student intervention</p>
@@ -88,7 +88,7 @@ function TeacherDashboardContent() {
 
         {/* Class stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <StatCard icon={<Users className="w-5 h-5" />} label="Students tracked" value={String(tracked)} color="text-blue-400" />
+          <StatCard icon={<Users className="w-5 h-5" />} label="Students tracked" value={String(tracked)} color="text-gold-400" />
           <StatCard icon={<BookOpen className="w-5 h-5" />} label="Active learners" value={String(active)} color="text-green-400" />
           <StatCard icon={<AlertTriangle className="w-5 h-5" />} label="Below 40% mastery" value={String(needsSupport.length)} color="text-red-400" />
           <StatCard icon={<TrendingUp className="w-5 h-5" />} label="Cohort avg mastery" value={avgMastery === null || avgMastery === undefined ? '—' : `${Math.round(avgMastery * 100)}%`} color="text-purple-400" />
@@ -97,7 +97,7 @@ function TeacherDashboardContent() {
         {/* Class mastery overview */}
         <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6 mb-6">
           <h2 className="text-lg font-semibold text-white flex items-center gap-2 mb-4">
-            <Brain className="w-5 h-5 text-indigo-400" />
+            <Brain className="w-5 h-5 text-gold-400" />
             Class Mastery by Subject
           </h2>
           {mastery && mastery.length > 0 ? (
@@ -193,7 +193,7 @@ function TeacherDashboardContent() {
         {/* Question difficulty */}
         <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6 mb-6">
           <h2 className="text-lg font-semibold text-white flex items-center gap-2 mb-4">
-            <ClipboardList className="w-5 h-5 text-indigo-400" />
+            <ClipboardList className="w-5 h-5 text-gold-400" />
             Question Difficulty by Subject
           </h2>
           {difficulty && difficulty.length > 0 ? (

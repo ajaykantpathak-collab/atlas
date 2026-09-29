@@ -11,7 +11,7 @@ export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Vectors: Definition and Types',
     chapters: [],
     nodeIds: ['c12_math_cbse_10_001', 'c12_math_cbse_03_001', 'c12_math_cbse_03_002', 'c12_math_cbse_10_002', 'c12_math_cbse_10_003', 'c12_math_cbse_10_004', 'c12_math_cbse_10_005', 'c12_math_cbse_10_006', 'c12_math_cbse_10_007', 'c12_math_cbse_10_008', 'c12_math_cbse_05_012', 'c12_math_cbse_04_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a cricket bowler running up to deliver the ball. The scoreboard shows his speed: 140 km/h — that\'s a.', goal: 'Master Vectors: Definition and Types.' },
     discovery: {
         question: 'Two vectors **a** and **b** are drawn in a plane. **a** starts at (1,2) and ends at (4,6). **b** starts at (-2,-1) and ends at (1,3).',
@@ -20,7 +20,7 @@ export const w_c12_mathematicstypesvectorsequalsim: SimDef = {
         hook: 'Students often think: "If two vectors have the same magnitude, they are equal." This is wrong — equality requires BOTH.',
     },
     teaching: [
-        { title: 'A vector is a quantity that possesses both.', text: 'A vector is a quantity that possesses both magnitude (a non-negative real number representing length or size) and direction (orientation in space).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A vector is a quantity that possesses both.', text: 'A vector is a quantity that possesses both magnitude (a non-negative real number representing length or size) and direction (orientation in space).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_10_001', title: 'A vector is a quantity that possesses.',

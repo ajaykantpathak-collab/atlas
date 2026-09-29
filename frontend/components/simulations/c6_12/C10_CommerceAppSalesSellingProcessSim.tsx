@@ -1181,7 +1181,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
       return {
         headline: 'Great work!',
         subtext: 'Outstanding Competency! You tackled both foundation and advanced analytical scenarios with high proficiency.',
-        badgeColor: 'text-blue-400 border-blue-500/40 bg-blue-950/40',
+        badgeColor: 'text-gold-400 border-gold-500/40 bg-gold-950/40',
         srsDays: '3 days',
       };
     }
@@ -1206,12 +1206,12 @@ export function C10_CommerceAppSalesSellingProcessSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-blue-400">ICSE Class 10 Commercial Applications</span>
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">ICSE Class 10 Commercial Applications</span>
             <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1226,7 +1226,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
               aria-label={`Phase: ${p}`}
               className={`px-3 py-1 rounded-xl text-xs font-medium capitalize transition-all ${
                 phase === p
-                  ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1239,8 +1239,8 @@ export function C10_CommerceAppSalesSellingProcessSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-blue-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-blue-800/40 shadow-xl">
-            <div className="flex items-center gap-2 text-blue-400 text-sm font-semibold mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-gold-800/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
               <span>🎯</span>
               <span>SCENARIO HOOK</span>
             </div>
@@ -1273,7 +1273,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700/80 hover:bg-slate-800 hover:border-blue-500 text-slate-200'
+                      : 'bg-slate-800/80 border-slate-700/80 hover:bg-slate-800 hover:border-gold-500 text-slate-200'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1311,7 +1311,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Advance to Interactive Exploration Lab"
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-2xl font-bold text-sm shadow-lg shadow-blue-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Enter Interactive Lab</span>
                   <span>→</span>
@@ -1329,7 +1329,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs text-blue-400 font-semibold uppercase tracking-wider">Interactive Discovery Lab</span>
+                <span className="text-xs text-gold-400 font-semibold uppercase tracking-wider">Interactive Discovery Lab</span>
                 <h2 className="text-xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
               </div>
               <span className="text-xs font-mono bg-slate-800 px-3 py-1.5 rounded-xl text-slate-300 border border-slate-700">
@@ -1360,7 +1360,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                         }}
                         className={`p-2.5 rounded-xl text-left border transition-all ${
                           selectedSalesStep === idx
-                            ? 'bg-blue-600 border-blue-400 text-white shadow-lg shadow-blue-600/30'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-900 border-slate-800 hover:border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1374,13 +1374,13 @@ export function C10_CommerceAppSalesSellingProcessSim({
                     key={selectedSalesStep}
                     initial={{ opacity: 0, scale: 0.98 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="p-5 bg-slate-900/90 rounded-2xl border border-blue-900/50 flex flex-col md:flex-row items-center gap-6"
+                    className="p-5 bg-slate-900/90 rounded-2xl border border-gold-900/50 flex flex-col md:flex-row items-center gap-6"
                   >
-                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-3xl font-bold text-white shadow-xl">
+                    <div className="w-20 h-20 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-500 flex items-center justify-center text-3xl font-bold text-white shadow-xl">
                       {selectedSalesStep + 1}
                     </div>
                     <div className="space-y-1 flex-1">
-                      <span className="text-xs font-bold uppercase text-blue-400 tracking-wider">
+                      <span className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                         Personal Selling Execution Stage
                       </span>
                       <h3 className="text-lg font-bold text-white">{sellingStepsData[selectedSalesStep].title}</h3>
@@ -1444,7 +1444,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                         step={100}
                         value={exploreUnits}
                         onChange={e => setExploreUnits(Number(e.target.value))}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1458,7 +1458,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                         step={500}
                         value={exploreSalesPrice}
                         onChange={e => setExploreSalesPrice(Number(e.target.value))}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1472,7 +1472,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                         step={100000}
                         value={exploreFixedCost}
                         onChange={e => setExploreFixedCost(Number(e.target.value))}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1521,7 +1521,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-1">
-                      <span className="font-bold text-cyan-400 uppercase">Profit & Loss A/c</span>
+                      <span className="font-bold text-gold-400 uppercase">Profit & Loss A/c</span>
                       <div className="flex justify-between text-slate-300"><span>Gross Profit b/d:</span><span>₹{financialTotals.grossProfit.toLocaleString()}</span></div>
                       <div className="flex justify-between text-slate-400"><span>Indirect Overheads:</span><span>-₹{financialTotals.totalIndirect.toLocaleString()}</span></div>
                       <div className="flex justify-between font-bold text-emerald-400 pt-1 border-t border-slate-800">
@@ -1546,7 +1546,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                 <div className="space-y-4">
                   {/* Predict-Then-Check Section */}
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-2">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-2">
                       <span className="text-xs font-bold text-amber-400 uppercase">Scientific Prediction</span>
                       <p className="text-sm text-white font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
@@ -1555,7 +1555,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                             key={i}
                             aria-label={`Prediction Option ${i + 1}: ${opt}`}
                             onClick={() => handlePrediction(i)}
-                            className="p-2.5 text-left text-xs bg-slate-900 rounded-xl border border-slate-700 hover:border-blue-400 text-slate-200"
+                            className="p-2.5 text-left text-xs bg-slate-900 rounded-xl border border-slate-700 hover:border-gold-400 text-slate-200"
                           >
                             {opt}
                           </button>
@@ -1565,7 +1565,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   )}
 
                   {predictionMade && !predictionVerified && (
-                    <div className="p-2.5 bg-blue-950/40 border border-blue-800 rounded-xl text-xs text-blue-300 flex items-center justify-between">
+                    <div className="p-2.5 bg-gold-950/40 border border-gold-800 rounded-xl text-xs text-gold-300 flex items-center justify-between">
                       <span>{PREDICTION_QUESTIONS[0].verifyInstruction}</span>
                       <button
                         aria-label="Verify hypothesis with simulation data"
@@ -1573,7 +1573,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                           setPredictionVerified(true);
                           audioManager.play('chime');
                         }}
-                        className="px-3 py-1 bg-blue-600 text-white rounded-lg font-bold"
+                        className="px-3 py-1 bg-gold-600 text-white rounded-lg font-bold"
                       >
                         ✓ Verified!
                       </button>
@@ -1670,12 +1670,12 @@ export function C10_CommerceAppSalesSellingProcessSim({
                         }}
                         className={`p-3 rounded-2xl border text-left transition-all ${
                           selectedCostCategory === cost.id
-                            ? 'bg-blue-600 border-blue-400 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                         }`}
                       >
                         <span className="text-xs font-bold block">{cost.title}</span>
-                        <span className="text-[10px] text-blue-300 block mt-0.5">{cost.type}</span>
+                        <span className="text-[10px] text-gold-300 block mt-0.5">{cost.type}</span>
                         <span className="text-[9px] text-slate-400 block mt-1">{cost.place}</span>
                       </motion.button>
                     ))}
@@ -1729,7 +1729,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                         recruitmentSourceTab === 'internal'
-                          ? 'bg-blue-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-900 text-slate-400 border border-slate-800'
                       }`}
                     >
@@ -1743,7 +1743,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                         recruitmentSourceTab === 'external'
-                          ? 'bg-blue-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-900 text-slate-400 border border-slate-800'
                       }`}
                     >
@@ -1815,7 +1815,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                     aria-selected={currentSlide === i}
                     aria-label={`Slide ${i + 1}`}
                     className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      currentSlide === i ? 'bg-blue-500 scale-125' : 'bg-slate-800'
+                      currentSlide === i ? 'bg-gold-500 scale-125' : 'bg-slate-800'
                     }`}
                   />
                 ))}
@@ -1826,7 +1826,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextSlide}
-                  className="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                 >
                   Next Step →
                 </motion.button>
@@ -1882,7 +1882,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   step={100}
                   value={exploreUnits}
                   onChange={e => setExploreUnits(Number(e.target.value))}
-                  className="w-full accent-blue-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="space-y-1">
@@ -1896,7 +1896,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   step={200}
                   value={exploreSalesPrice}
                   onChange={e => setExploreSalesPrice(Number(e.target.value))}
-                  className="w-full accent-blue-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="space-y-1">
@@ -1910,7 +1910,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   step={100}
                   value={exploreVarCost}
                   onChange={e => setExploreVarCost(Number(e.target.value))}
-                  className="w-full accent-blue-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="space-y-1">
@@ -1924,7 +1924,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   step={100000}
                   value={exploreFixedCost}
                   onChange={e => setExploreFixedCost(Number(e.target.value))}
-                  className="w-full accent-blue-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
             </div>
@@ -1947,7 +1947,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 uppercase">Fixed Cost / Unit</span>
-                <p className="text-sm md:text-base font-bold text-cyan-400">
+                <p className="text-sm md:text-base font-bold text-gold-400">
                   ₹{Math.round(exploreFixedCost / exploreUnits).toLocaleString()}
                 </p>
               </div>
@@ -1974,13 +1974,13 @@ export function C10_CommerceAppSalesSellingProcessSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
                       : difficulty === 'standard'
-                      ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                      ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                       : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
                   }`}
                 >
                   {difficulty}
                 </motion.span>
-                <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 uppercase">
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-gold-500/20 text-gold-300 border border-gold-500/30 uppercase">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -1995,7 +1995,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-blue-500 to-cyan-400"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2036,7 +2036,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       className={`w-full text-left p-3.5 rounded-2xl text-xs md:text-sm font-medium transition-all border ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 border-slate-700/80 hover:bg-slate-800 hover:border-blue-500 text-slate-200'
+                          : 'bg-slate-800/80 border-slate-700/80 hover:bg-slate-800 hover:border-gold-500 text-slate-200'
                       }`}
                     >
                       <div className="flex items-start gap-3">
@@ -2067,7 +2067,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-blue-600 text-white rounded-xl text-xs font-semibold cursor-grab shadow-md active:cursor-grabbing focus:outline-none focus:ring-2 focus:ring-blue-400"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-xl text-xs font-semibold cursor-grab shadow-md active:cursor-grabbing focus:outline-none focus:ring-2 focus:ring-gold-400"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2089,7 +2089,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       className="p-4 bg-slate-950 rounded-2xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[90px] text-center"
                     >
                       <span className="text-[10px] text-slate-400 uppercase font-bold">{target.label}</span>
-                      <span className="text-xs font-semibold text-blue-300 mt-2">
+                      <span className="text-xs font-semibold text-gold-300 mt-2">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop Here'}
                       </span>
                     </div>
@@ -2101,7 +2101,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-blue-600 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2128,7 +2128,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       handleSortMove(from, idx);
                     }}
                     whileHover={{ scale: 1.01 }}
-                    className="p-3 bg-slate-800 rounded-2xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="p-3 bg-slate-800 rounded-2xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-gold-400"
                   >
                     <span>{idx + 1}. {item}</span>
                     <span className="text-slate-400 text-xs flex items-center gap-1">↕ Reorder</span>
@@ -2140,7 +2140,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-blue-600 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Confirm Order
                 </motion.button>
@@ -2157,7 +2157,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-blue-500 outline-none w-48"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-500 outline-none w-48"
                   />
                   <span className="text-slate-400 text-sm font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2166,7 +2166,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2 bg-blue-600 text-white rounded-xl font-bold text-xs"
+                    className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                   >
                     Check Answer
                   </motion.button>
@@ -2186,7 +2186,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAddPart(part)}
-                      className="px-3 py-1.5 bg-slate-800 border border-slate-700 hover:border-blue-500 rounded-xl text-xs text-slate-200"
+                      className="px-3 py-1.5 bg-slate-800 border border-slate-700 hover:border-gold-500 rounded-xl text-xs text-slate-200"
                     >
                       + {part}
                     </motion.button>
@@ -2195,7 +2195,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[70px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-3 py-1 bg-blue-900/60 border border-blue-600 rounded-lg text-xs text-blue-200 flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-900/60 border border-gold-600 rounded-lg text-xs text-gold-200 flex items-center gap-2">
                       {part}
                       <button aria-label={`Remove part: ${part}`} onClick={() => handleRemovePart(i)} className="text-rose-400 hover:text-rose-300">✕</button>
                     </span>
@@ -2209,7 +2209,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-blue-600 text-white rounded-xl font-bold text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Submit Structure
                 </motion.button>
@@ -2276,7 +2276,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-blue-950/50 via-slate-900 to-emerald-950/50 rounded-3xl border border-blue-700/50 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 via-slate-900 to-emerald-950/50 rounded-3xl border border-gold-700/50 text-center space-y-3">
             <span className="text-4xl" role="img" aria-label="Trophy">🏆</span>
             <h2 className="text-2xl md:text-3xl font-bold text-white">Mastery Simulation Completed!</h2>
             <div className="flex justify-center gap-6 pt-2">
@@ -2286,7 +2286,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 w-32">
                 <span className="text-[10px] uppercase text-slate-400 block">Mastery Tier</span>
-                <span className="text-xl font-bold text-blue-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2305,13 +2305,13 @@ export function C10_CommerceAppSalesSellingProcessSim({
           </div>
 
           {/* SPACED REPETITION SRS VISIBILITY CARD */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/40 via-slate-900 to-blue-950/40 rounded-3xl border border-indigo-700/50 shadow-xl space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-gold-700/50 shadow-xl space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📅</span>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">SM-2 Spaced Repetition Schedule</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">SM-2 Spaced Repetition Schedule</span>
               </div>
-              <span className="px-3 py-1 rounded-xl text-xs font-bold bg-indigo-600/30 border border-indigo-400/40 text-indigo-200">
+              <span className="px-3 py-1 rounded-xl text-xs font-bold bg-gold-600/30 border border-gold-400/40 text-gold-200">
                 Next Review: {motivational.srsDays}
               </span>
             </div>
@@ -2324,7 +2324,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                 <div>0 Errors</div>
                 <div className="text-[10px] mt-0.5 opacity-80">Review in 7 days</div>
               </div>
-              <div className={`p-2.5 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-blue-950/60 border-blue-500 font-bold text-blue-300' : 'bg-slate-950/60 border-slate-800 text-slate-400'}`}>
+              <div className={`p-2.5 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-gold-950/60 border-gold-500 font-bold text-gold-300' : 'bg-slate-950/60 border-slate-800 text-slate-400'}`}>
                 <div>1–3 Errors</div>
                 <div className="text-[10px] mt-0.5 opacity-80">Review in 3 days</div>
               </div>
@@ -2337,7 +2337,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
 
           {/* REFLECTION SECTION (Metacognition & Real-World Application) */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase">
               <span>🤔</span>
               <span>Metacognitive Reflection &amp; Real-Life Transfer</span>
             </div>
@@ -2353,12 +2353,12 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. How fixed cost per unit declines dramatically as production volume scales (the spreading effect)..."
-                  className="w-full h-24 p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-blue-500 resize-none"
+                  className="w-full h-24 p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-xs font-semibold text-cyan-400 block" htmlFor="ref-explain">
+                <label className="text-xs font-semibold text-gold-400 block" htmlFor="ref-explain">
                   How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2367,7 +2367,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Marketing creates the overall brand demand, but Personal Selling is the 7-step handshake that closes the deal..."
-                  className="w-full h-24 p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-blue-500 resize-none"
+                  className="w-full h-24 p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2381,7 +2381,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. When auditing a small business balance sheet or pricing products for a campus startup..."
-                  className="w-full h-24 p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-blue-500 resize-none"
+                  className="w-full h-24 p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-slate-200 outline-none focus:border-gold-500 resize-none"
                 />
               </div>
             </div>
@@ -2408,7 +2408,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
 
           {/* Capstone Real-World Project */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <div className="flex items-center gap-2 text-blue-400 text-xs font-bold uppercase">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase">
               <span>💼</span>
               <span>{REAL_WORLD_ACTIVITY.title}</span>
             </div>
@@ -2416,7 +2416,7 @@ export function C10_CommerceAppSalesSellingProcessSim({
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-blue-500 font-bold">{i + 1}.</span>
+                  <span className="text-gold-500 font-bold">{i + 1}.</span>
                   <span>{st}</span>
                 </li>
               ))}

@@ -26,11 +26,11 @@ export function C8_ScienceTheAmazingWorldOfSolutesSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-cyan-700">The Amazing World of Solutes, Solvents and Solutions</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">The Amazing World of Solutes, Solvents and Solutions</h1>
 
-      <div className="mt-3 p-4 bg-cyan-50 border border-cyan-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-cyan-700">Dissolving rules:</span> the solvent (water)
+          <span className="font-bold text-gold-700">Dissolving rules:</span> the solvent (water)
           pulls solute (sugar) particles apart and hides them between its own molecules. Each
           temperature has a maximum that fits - cross it and the extra stays visible at the bottom
           no matter how long you stir. Heating widens the limit; dilution lowers the concentration
@@ -41,19 +41,19 @@ export function C8_ScienceTheAmazingWorldOfSolutesSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Solute added (spoons of sugar)</span><span className="font-mono text-cyan-600">{solute}</span></label>
-            <input type="range" min={0} max={30} value={solute} aria-label="solute" onChange={(e) => { setSolute(Number(e.target.value)); setStirred(false); }} className="w-full mt-1 accent-cyan-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Solute added (spoons of sugar)</span><span className="font-mono text-gold-600">{solute}</span></label>
+            <input type="range" min={0} max={30} value={solute} aria-label="solute" onChange={(e) => { setSolute(Number(e.target.value)); setStirred(false); }} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Water (mL)</span><span className="font-mono text-sky-600">{water}</span></label>
-            <input type="range" min={50} max={500} step={25} value={water} aria-label="water" onChange={(e) => setWater(Number(e.target.value))} className="w-full mt-1 accent-sky-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Water (mL)</span><span className="font-mono text-gold-600">{water}</span></label>
+            <input type="range" min={50} max={500} step={25} value={water} aria-label="water" onChange={(e) => setWater(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Temperature (deg C)</span><span className="font-mono text-rose-600">{temp}</span></label>
             <input type="range" min={5} max={80} value={temp} aria-label="temperature" onChange={(e) => setTemp(Number(e.target.value))} className="w-full mt-1 accent-rose-600" />
           </div>
           <div className="flex gap-2">
-            <button onClick={() => setStirred(true)} className="px-4 py-2 rounded-xl text-sm font-bold bg-cyan-600 text-white hover:bg-cyan-500 transition-all">
+            <button onClick={() => setStirred(true)} className="px-4 py-2 rounded-xl text-sm font-bold bg-gold-600 text-white hover:bg-gold-500 transition-all">
               Stir!
             </button>
             <button onClick={() => { setSolute(12); setWater(200); setTemp(25); setStirred(false); }} className="px-4 py-2 rounded-xl text-sm font-bold bg-slate-200 hover:bg-slate-300 transition-all">
@@ -61,14 +61,14 @@ export function C8_ScienceTheAmazingWorldOfSolutesSim() {
             </button>
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div>can dissolve up to: <span className="font-bold text-cyan-700">{maxDissolved} spoons</span> at this temperature</div>
+            <div>can dissolve up to: <span className="font-bold text-gold-700">{maxDissolved} spoons</span> at this temperature</div>
             <div>dissolved now: <span className="font-bold text-emerald-700">{Math.round(dissolved * 10) / 10}</span> / undissolved: <span className="font-bold text-amber-700">{Math.round(undissolved * 10) / 10}</span></div>
-            <div>concentration: <span className="font-bold text-indigo-700">{concentration} spoons per 100 mL</span></div>
+            <div>concentration: <span className="font-bold text-gold-700">{concentration} spoons per 100 mL</span></div>
             <div className="text-xs font-sans mt-1" style={{ color: undissolved > 0.01 ? '#b45309' : '#059669' }}>{status}</div>
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 260 300" className="w-full">
             {/* beaker */}
             <path d="M 70 40 L 70 250 Q 70 262 82 262 L 178 262 Q 190 262 190 250 L 190 40" fill="none" stroke="#475569" strokeWidth={4} />
@@ -104,10 +104,10 @@ export function C8_ScienceTheAmazingWorldOfSolutesSim() {
         <p className="text-xs font-bold text-slate-500 mb-2">SPEAK LIKE A CHEMIST</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-slate-600">
           <div className="p-2 bg-white rounded-xl border border-slate-200">
-            <span className="font-bold text-cyan-700">Solute + solvent = solution.</span> Sugar is the solute, water the solvent, sherbet the solution.
+            <span className="font-bold text-gold-700">Solute + solvent = solution.</span> Sugar is the solute, water the solvent, sherbet the solution.
           </div>
           <div className="p-2 bg-white rounded-xl border border-slate-200">
-            <span className="font-bold text-indigo-700">Dilute vs concentrated.</span> Same beaker, fewer spoons per 100 mL = dilute; more = concentrated.
+            <span className="font-bold text-gold-700">Dilute vs concentrated.</span> Same beaker, fewer spoons per 100 mL = dilute; more = concentrated.
           </div>
           <div className="p-2 bg-white rounded-xl border border-slate-200">
             <span className="font-bold text-amber-700">Saturated.</span> The moment extra solute refuses to dissolve, the solution is full for that temperature.

@@ -11,7 +11,7 @@ export const w_c11_historylongtermcausesalliancesim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'The Decline of the Mongol Empire and Its Legacy',
     chapters: [],
     nodeIds: ['c11_hist_cbse_05_011', 'c11_hist_cbse_03_008', 'c11_hist_cbse_04_010', 'c11_hist_cbse_06_011', 'c11_hist_cbse_05_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re standing at the Qutub Minar complex in Delhi, looking at the Iron Pillar that has resisted.', goal: 'Master The Decline of the Mongol Empire and Its Legacy.' },
     discovery: {
         question: 'Evaluate the claim: "The 1054 Schism was primarily a diplomatic incident, not a theological rupture." Support your judgment with evidence.',
@@ -20,7 +20,7 @@ export const w_c11_historylongtermcausesalliancesim: SimDef = {
         hook: 'Students often believe the 1054 Schism was a sudden, total break where all Christians instantly chose sides.',
     },
     teaching: [
-        { title: 'The decline of the Mongol Empire refers to.', text: 'The decline of the Mongol Empire refers to the political fragmentation and gradual collapse of the unified Mongol imperium after 1260 CE into four independent khanates (Yuan, Il-Khanate, Golden.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The decline of the Mongol Empire refers to.', text: 'The decline of the Mongol Empire refers to the political fragmentation and gradual collapse of the unified Mongol imperium after 1260 CE into four independent khanates (Yuan, Il-Khanate, Golden.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_05_011', title: 'The decline of the Mongol Empire refers.',

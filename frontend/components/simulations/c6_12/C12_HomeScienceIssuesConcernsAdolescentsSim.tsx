@@ -1234,7 +1234,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ scale: 1.1, rotate: 10 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-rose-500 to-indigo-600 flex items-center justify-center text-2xl shadow-lg"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-rose-500 to-gold-600 flex items-center justify-center text-2xl shadow-lg"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1256,7 +1256,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
             className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase border ${
               difficulty === 'foundation' ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700' :
               difficulty === 'advanced' ? 'bg-rose-950/60 text-rose-400 border-rose-700' :
-              'bg-indigo-950/60 text-indigo-400 border-indigo-700'
+              'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1267,8 +1267,8 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 mb-2 text-indigo-400 font-bold text-sm tracking-wide">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 font-bold text-sm tracking-wide">
               <span>🌟</span> PROLOGUE: THE LIFE-SPAN & COMMUNITY RESOURCE LAB
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-white">{SCENARIO.title}</h2>
@@ -1296,10 +1296,10 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-900/30'
                       : discoveryAnswered && idx !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-indigo-400">
+                  <span className="inline-block w-6 font-bold text-gold-400">
                     {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex ? '✓ ' : ''}
                     {String.fromCharCode(65 + idx)}.
                   </span>
@@ -1309,7 +1309,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 rounded-xl bg-indigo-950/50 border border-indigo-700/60 mt-4 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 rounded-xl bg-gold-950/50 border border-gold-700/60 mt-4 space-y-3">
                 <p className={`text-sm font-semibold ${discoveryCorrect ? 'text-emerald-400' : 'text-amber-400'}`}>
                   {discoveryCorrect ? '✓ Spot on! Peer pressure functions as both a positive asset and negative risk factor.' : `💡 ${DISCOVERY_QUESTION.hintAfter}`}
                 </p>
@@ -1319,7 +1319,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-rose-600 hover:from-indigo-500 hover:to-rose-500 text-white rounded-xl font-bold shadow-lg text-sm flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-rose-600 hover:from-gold-500 hover:to-rose-500 text-white rounded-xl font-bold shadow-lg text-sm flex items-center gap-2"
                   >
                     Enter Interactive Research Labs →
                   </motion.button>
@@ -1347,7 +1347,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                 }}
                 className={`px-3 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-gradient-to-r from-rose-600 to-indigo-600 text-white shadow-md'
+                    ? 'bg-gradient-to-r from-rose-600 to-gold-600 text-white shadow-md'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1382,7 +1382,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Recreational Screen-Time (Social Media / Reels)</span>
-                          <span className={`${screenTimeHours > 3 ? 'text-rose-400 font-bold' : 'text-indigo-400'}`}>{screenTimeHours} hrs/day</span>
+                          <span className={`${screenTimeHours > 3 ? 'text-rose-400 font-bold' : 'text-gold-400'}`}>{screenTimeHours} hrs/day</span>
                         </div>
                         <input
                           type="range"
@@ -1401,7 +1401,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Peer Pressure Vector (Destructive ↔ Positive)</span>
-                          <span className="text-indigo-400">{peerPressureLevel < 40 ? 'Negative (Substance Risk)' : peerPressureLevel > 60 ? 'Positive (Sports/Study)' : 'Neutral'} ({peerPressureLevel}%)</span>
+                          <span className="text-gold-400">{peerPressureLevel < 40 ? 'Negative (Substance Risk)' : peerPressureLevel > 60 ? 'Positive (Sports/Study)' : 'Neutral'} ({peerPressureLevel}%)</span>
                         </div>
                         <input
                           type="range"
@@ -1410,7 +1410,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                           aria-label="Peer pressure vector level"
                           value={peerPressureLevel}
                           onChange={(e) => setPeerPressureLevel(Number(e.target.value))}
-                          className="w-full accent-indigo-500 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                         />
                       </div>
 
@@ -1437,7 +1437,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       <div>
                         <div className="flex justify-between items-center mb-1">
                           <h4 className="text-xs font-bold text-slate-200">Representation A: Live Autonomic Wave</h4>
-                          <span className="text-[10px] text-indigo-400 font-mono">Dynamic Frequency: {(100 - sleepQuality)} Hz</span>
+                          <span className="text-[10px] text-gold-400 font-mono">Dynamic Frequency: {(100 - sleepQuality)} Hz</span>
                         </div>
                         <canvas ref={canvasRef} width={380} height={80} className="w-full bg-slate-900 rounded-xl border border-slate-800" />
                       </div>
@@ -1489,8 +1489,8 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                   </div>
 
                   {/* PREDICT-THEN-CHECK CARD */}
-                  <div className="p-4 bg-slate-950/70 rounded-2xl border border-indigo-900/50 space-y-3">
-                    <span className="text-xs font-bold uppercase text-indigo-400 flex items-center gap-1.5">
+                  <div className="p-4 bg-slate-950/70 rounded-2xl border border-gold-900/50 space-y-3">
+                    <span className="text-xs font-bold uppercase text-gold-400 flex items-center gap-1.5">
                       <span>🔮</span> Predict-Then-Check Investigation
                     </span>
                     <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1506,7 +1506,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                             onClick={() => handlePrediction(i)}
                             className="p-3 bg-slate-900 hover:bg-slate-800 border border-slate-700 rounded-xl text-left text-xs text-slate-200"
                           >
-                            <span className="font-bold text-indigo-400 mr-1">{String.fromCharCode(65 + i)}.</span> {opt}
+                            <span className="font-bold text-gold-400 mr-1">{String.fromCharCode(65 + i)}.</span> {opt}
                           </motion.button>
                         ))}
                       </div>
@@ -1630,7 +1630,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                           adulthoodStage === st.key
-                            ? 'bg-indigo-600 text-white border-indigo-500 shadow-lg'
+                            ? 'bg-gold-600 text-white border-gold-500 shadow-lg'
                             : 'bg-slate-950 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1650,7 +1650,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                      <span className="text-xs font-bold text-indigo-400">2. Cognitive Dimension</span>
+                      <span className="text-xs font-bold text-gold-400">2. Cognitive Dimension</span>
                       <p className="text-xs text-slate-300 leading-relaxed">
                         {adulthoodStage === 'early' && 'Transition from knowledge acquisition to practical career problem-solving and expertise.'}
                         {adulthoodStage === 'middle' && 'Peak Crystallized Intelligence: deep practical wisdom, strategic leadership, managerial mastery.'}
@@ -1796,7 +1796,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
               {currentSlide === 4 && (
                 <div className="space-y-6">
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Village Anganwadi Focal Center (0-6 Years & Mothers)</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Village Anganwadi Focal Center (0-6 Years & Mothers)</span>
                     <h4 className="text-base font-bold text-white mt-1 mb-4">The 6 Landmark Integrated Services</h4>
 
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -1819,7 +1819,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                           }}
                           className={`p-3 rounded-xl border text-left transition-all ${
                             activeIcdsService === srv.id
-                              ? 'bg-indigo-950 border-indigo-500 shadow-md shadow-indigo-950/50'
+                              ? 'bg-gold-950 border-gold-500 shadow-md shadow-gold-950/50'
                               : 'bg-slate-900 border-slate-800 hover:bg-slate-850'
                           }`}
                         >
@@ -1859,7 +1859,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('whoosh');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-xs font-bold text-white"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 rounded-xl text-xs font-bold text-white"
                   >
                     Next Lab →
                   </motion.button>
@@ -1869,7 +1869,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
-                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Enter Open Sandbox →
                   </motion.button>
@@ -1894,7 +1894,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-rose-600 to-indigo-600 hover:from-rose-500 hover:to-indigo-500 text-white rounded-xl text-sm font-bold shadow-xl flex items-center gap-2"
+              className="px-6 py-3 bg-gradient-to-r from-rose-600 to-gold-600 hover:from-rose-500 hover:to-gold-500 text-white rounded-xl text-sm font-bold shadow-xl flex items-center gap-2"
             >
               Start Board Mastery Challenges →
             </motion.button>
@@ -1902,7 +1902,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
-              <h4 className="text-xs font-bold uppercase text-indigo-400">Psychosocial Sandbox Matrix</h4>
+              <h4 className="text-xs font-bold uppercase text-gold-400">Psychosocial Sandbox Matrix</h4>
               <div>
                 <div className="flex justify-between text-xs font-semibold mb-1">
                   <span>Recreational Screen-Time</span>
@@ -1992,7 +1992,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
           <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-black px-2.5 py-1 rounded-lg bg-indigo-900/80 text-indigo-300 border border-indigo-700">
+                <span className="text-xs font-black px-2.5 py-1 rounded-lg bg-gold-900/80 text-gold-300 border border-gold-700">
                   Question {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-slate-800 text-slate-300 uppercase tracking-wider">
@@ -2006,7 +2006,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-rose-500 via-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-rose-500 via-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2043,10 +2043,10 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : wrongFlash
                         ? 'bg-rose-900/40 border-rose-600 text-rose-200'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">
+                    <span className="font-bold text-gold-400 mr-2">
                       {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                       {String.fromCharCode(65 + i)}.
                     </span>
@@ -2071,7 +2071,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2106,7 +2106,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                 >
                   Verify Classification Mapping
                 </motion.button>
@@ -2138,7 +2138,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                       className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-xs text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <div className="flex items-center gap-2">
-                        <span className="w-5 h-5 rounded-full bg-slate-700 flex items-center justify-center font-bold text-indigo-400 text-[10px]">
+                        <span className="w-5 h-5 rounded-full bg-slate-700 flex items-center justify-center font-bold text-gold-400 text-[10px]">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2157,7 +2157,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                 >
                   Check Step Order
                 </motion.button>
@@ -2174,7 +2174,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2183,7 +2183,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Submit Value
                   </motion.button>
@@ -2218,7 +2218,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                         key={cIdx}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1.5 bg-indigo-950 border border-indigo-700 rounded-lg text-xs text-indigo-200 flex items-center gap-2"
+                        className="px-3 py-1.5 bg-gold-950 border border-gold-700 rounded-lg text-xs text-gold-200 flex items-center gap-2"
                       >
                         <span>{cIdx + 1}. {cPart}</span>
                         <button
@@ -2240,7 +2240,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                 >
                   Verify Constructed Sequence
                 </motion.button>
@@ -2308,12 +2308,12 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL FEEDBACK SUITE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-emerald-700/60 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-emerald-700/60 shadow-2xl text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Board Mastery Achievement Complete!</h2>
             
             {/* MOTIVATIONAL FEEDBACK TIERS */}
-            <div className="p-3 bg-slate-950/80 rounded-xl border border-indigo-700 max-w-lg mx-auto">
+            <div className="p-3 bg-slate-950/80 rounded-xl border border-gold-700 max-w-lg mx-auto">
               <span className="text-base font-extrabold text-amber-300">
                 {errors === 0 && 'PERFECT SCORE!'}
                 {errors >= 1 && errors <= 3 && 'Great work!'}
@@ -2323,8 +2323,8 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
             </div>
 
             {/* SPACED REPETITION VISIBILITY CARD */}
-            <div className="p-4 bg-indigo-950/70 rounded-xl border border-indigo-600/80 max-w-lg mx-auto text-center space-y-1">
-              <span className="text-xs font-extrabold uppercase tracking-wider text-indigo-300">
+            <div className="p-4 bg-gold-950/70 rounded-xl border border-gold-600/80 max-w-lg mx-auto text-center space-y-1">
+              <span className="text-xs font-extrabold uppercase tracking-wider text-gold-300">
                 📅 Spaced Repetition Schedule (SRS)
               </span>
               <div className="text-lg font-black text-white">
@@ -2354,7 +2354,7 @@ function C12_HomeScienceIssuesConcernsAdolescentsSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 text-center min-w-[110px]">
                 <span className="text-[10px] uppercase font-bold text-slate-400">Mastery Level</span>
-                <div className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
             </div>
           </div>

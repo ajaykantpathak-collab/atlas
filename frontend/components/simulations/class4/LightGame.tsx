@@ -104,14 +104,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Transparent, Translucent & Opaque 🔍",
     text: "Transparent materials let light pass through clearly like clear glass. Translucent materials let some light pass through like oiled paper. Opaque materials block light completely like wooden doors and walls!",
     emoji: "🔍",
-    bgColor: "from-blue-400 to-cyan-500",
+    bgColor: "from-gold-400 to-gold-500",
     spoken: "Transparent materials let light pass through clearly like clear glass. Translucent materials let some light pass through like oiled paper. Opaque materials block light completely like wooden doors and walls!"
   },
   {
     title: "Formation of Shadows 👥",
     text: "A shadow is a dark shape formed when an opaque object blocks the path of light! Three things are needed: a light source, an opaque object, and a surface. Light travels in straight lines and cannot bend around objects!",
     emoji: "👥",
-    bgColor: "from-indigo-400 to-purple-500",
+    bgColor: "from-gold-400 to-purple-500",
     spoken: "A shadow is a dark shape formed when an opaque object blocks the path of light! Three things are needed: a light source, an opaque object, and a surface."
   },
   {
@@ -764,7 +764,7 @@ export function LightGame({ width = 720, height = 560, onComplete }: LightGamePr
       {screen === 'teaching' && (
         <div className="absolute inset-0 flex flex-col items-center justify-between p-6 z-10">
           <div className="flex items-center justify-between w-full max-w-xl mt-2">
-            <div className="flex items-center gap-2 bg-indigo-950/80 px-4 py-1.5 rounded-full border border-indigo-500/30">
+            <div className="flex items-center gap-2 bg-gold-950/80 px-4 py-1.5 rounded-full border border-gold-500/30">
               <span className="text-xl">🔬</span>
               <span className="text-white font-extrabold text-sm">Lab Lesson {slideIdx + 1} of 5</span>
             </div>
@@ -826,7 +826,7 @@ export function LightGame({ width = 720, height = 560, onComplete }: LightGamePr
         <div className="absolute inset-0 flex flex-col justify-between p-5 z-10">
           {/* Top header */}
           <div className="flex items-center justify-between w-full max-w-2xl mx-auto">
-            <div className="flex items-center gap-3 bg-indigo-950/80 px-4 py-2 rounded-2xl border border-indigo-500/40 shadow-md">
+            <div className="flex items-center gap-3 bg-gold-950/80 px-4 py-2 rounded-2xl border border-gold-500/40 shadow-md">
               <span className="text-amber-400 font-extrabold text-sm">Challenge {challengeIdx + 1}/8</span>
               <StarRow count={Math.floor(score / 15)} total={5} />
             </div>
@@ -839,7 +839,7 @@ export function LightGame({ width = 720, height = 560, onComplete }: LightGamePr
           </div>
 
           {/* Question Box */}
-          <div className="w-full max-w-2xl mx-auto bg-slate-900/80 border-2 border-indigo-500/50 rounded-2xl p-4 shadow-xl text-center backdrop-blur-sm">
+          <div className="w-full max-w-2xl mx-auto bg-slate-900/80 border-2 border-gold-500/50 rounded-2xl p-4 shadow-xl text-center backdrop-blur-sm">
             <h2 className="text-white font-black text-lg drop-shadow">{currentChallenge.question}</h2>
           </div>
 
@@ -850,7 +850,7 @@ export function LightGame({ width = 720, height = 560, onComplete }: LightGamePr
                 {currentChallenge.options.map((opt, i) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectOpt = opt === currentChallenge.answer;
-                  let btnColor = 'bg-white/90 hover:bg-white text-gray-800 border-indigo-200';
+                  let btnColor = 'bg-white/90 hover:bg-white text-gray-800 border-gold-200';
                   if (selectedOpt) {
                     if (isCorrectOpt) btnColor = 'bg-emerald-500 text-white border-emerald-600';
                     else if (isSelected) btnColor = 'bg-rose-500 text-white border-rose-600';

@@ -11,7 +11,7 @@ export const w_c12_psychologymeaningstressnaturesim: SimDef = {
     classLevel: 12, subject: 'psychology', topic: 'Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention',
     chapters: [],
     nodeIds: ['c12_psy_cbse_04_008', 'c12_psy_cbse_03_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a Class 12 student, Rohan, who has stopped attending tuition, sleeps 14 hours daily, says "nothing.', goal: 'Master Depressive and Bipolar Disorders: Symptoms, Risk Factors and Suicide Prevention.' },
     discovery: {
         question: 'Critique the school\'s proposed suicide prevention policy: "We will hold an assembly showing a graphic film about suicide consequences to scare students away.',
@@ -20,7 +20,7 @@ export const w_c12_psychologymeaningstressnaturesim: SimDef = {
         hook: '**"Bipolar disorder is just frequent mood swings throughout the day."** Students conflate **emotional lability** (rapid.',
     },
     teaching: [
-        { title: 'Depressive Disorders are characterized by.', text: 'Depressive Disorders are characterized by persistent depressed mood or loss of interest/pleasure (anhedonia) accompanied by cognitive, somatic, and behavioral symptoms (e.g., weight/sleep changes,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Depressive Disorders are characterized by.', text: 'Depressive Disorders are characterized by persistent depressed mood or loss of interest/pleasure (anhedonia) accompanied by cognitive, somatic, and behavioral symptoms (e.g., weight/sleep changes,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_psy_cbse_04_008', title: 'Depressive Disorders are characterized.',

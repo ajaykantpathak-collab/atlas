@@ -11,7 +11,7 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Bioinformatics: Definition and Scope',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_09_001', 'c11_biotech_cbse_09_002', 'c11_biotech_cbse_11_001', 'c11_biotech_cbse_11_002', 'c11_biotech_cbse_11_003', 'c11_biotech_cbse_11_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a doctor trying to diagnose a rare genetic disorder in a patient from a small village in.', goal: 'Master Bioinformatics: Definition and Scope.' },
     discovery: {
         question: 'Critique the following statement: "Since AI tools like AlphaFold can now predict protein structures with near-experimental accuracy, experimental structure.',
@@ -20,7 +20,7 @@ export const w_c11_biotechbioinformaticscbsesim: SimDef = {
         hook: 'Students believe bioinformatics is synonymous with "using BLAST" or "searching databases." They think the field begins.',
     },
     teaching: [
-        { title: 'Bioinformatics is an interdisciplinary field.', text: 'Bioinformatics is an interdisciplinary field that integrates computational, mathematical, statistical, and engineering approaches to store, retrieve, analyse, and interpret biological.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Bioinformatics is an interdisciplinary field.', text: 'Bioinformatics is an interdisciplinary field that integrates computational, mathematical, statistical, and engineering approaches to store, retrieve, analyse, and interpret biological.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_09_001', title: 'Bioinformatics is an interdisciplinary.',

@@ -57,7 +57,7 @@ const TEACHING_SLIDES = [
     title: 'Carrying Over in Addition ➕',
     text: 'When digits in a column add up to 10 or more, we write the ones digit and carry over 1 to the next column! For example, 6 + 7 = 13 (write 3, carry 1)!',
     emoji: '📈',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'When digits in a column add up to 10 or more, we write the ones digit and carry over 1 to the next column! For example, 6 plus 7 is 13, write 3 carry 1!',
   },
   {

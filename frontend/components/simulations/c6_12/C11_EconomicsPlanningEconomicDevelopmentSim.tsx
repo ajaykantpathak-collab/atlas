@@ -1139,7 +1139,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
       return {
         badge: '⭐ Great work!',
         text: 'Strong economic intuition and solid quantitative reasoning! You conquered the core planning and data mechanisms.',
-        color: 'text-sky-400 border-sky-500 bg-sky-950/60'
+        color: 'text-gold-400 border-gold-500 bg-gold-950/60'
       };
     } else if (errors <= 7) {
       return {
@@ -1168,9 +1168,9 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700" aria-hidden="true">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700" aria-hidden="true">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 11 ISC Economics • Planning, NITI Aayog & Statistical Organisation</p>
@@ -1180,7 +1180,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
         {/* Phase Badges & Difficulty Level */}
         <div className="flex items-center gap-2">
           <span className="px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">
-            Phase: <strong className="text-indigo-400 uppercase">{phase}</strong>
+            Phase: <strong className="text-gold-400 uppercase">{phase}</strong>
           </span>
           <motion.span
             key={difficulty}
@@ -1189,7 +1189,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
             className={`px-3 py-1 rounded-full text-xs font-bold border ${
               difficulty === 'foundation' ? 'bg-emerald-950/70 text-emerald-400 border-emerald-700' :
               difficulty === 'advanced' ? 'bg-rose-950/70 text-rose-400 border-rose-700' :
-              'bg-sky-950/70 text-sky-400 border-sky-700'
+              'bg-gold-950/70 text-gold-400 border-gold-700'
             }`}
           >
             {difficulty.toUpperCase()}
@@ -1200,12 +1200,12 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-inner">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 shadow-inner">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm md:text-base text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/90 mt-3 font-medium">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400/90 mt-3 font-medium">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
@@ -1250,7 +1250,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="mt-4 px-6 py-3 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-950 flex items-center gap-2"
+                  className="mt-4 px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-950 flex items-center gap-2"
                 >
                   <span>Enter Interactive Lab</span>
                   <span aria-hidden="true">→</span>
@@ -1266,11 +1266,11 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-6 space-y-6">
           <div className="flex items-center justify-between text-xs text-slate-400">
             <span>Step {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}</span>
-            <span className="text-indigo-400">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
+            <span className="text-gold-400">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
           </div>
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={(currentSlide + 1) * 20} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
               animate={{ width: `${((currentSlide + 1) / EXPLORATION_STEPS.length) * 100}%` }}
             />
           </div>
@@ -1284,7 +1284,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-sm text-amber-300 mt-1 flex items-center gap-1.5">
                   <span aria-hidden="true">👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1311,7 +1311,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => handlePlanningModeToggle('planned')}
                       className={`flex-1 p-3 rounded-xl border text-xs md:text-sm font-bold ${
-                        planningMode === 'planned' ? 'bg-indigo-950/80 border-indigo-500 text-indigo-200' : 'bg-slate-800 border-slate-700 text-slate-400'
+                        planningMode === 'planned' ? 'bg-gold-950/80 border-gold-500 text-gold-200' : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
                       Planned Allocation (Heavy Industry & Irrigation)
@@ -1384,7 +1384,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between items-center text-xs text-slate-400">
                       <span>Select Plan for In-depth Focus:</span>
-                      <span className="text-indigo-400 font-bold">{FIVE_YEAR_PLANS_DATA[selectedPlanIdx].plan}</span>
+                      <span className="text-gold-400 font-bold">{FIVE_YEAR_PLANS_DATA[selectedPlanIdx].plan}</span>
                     </div>
                     <input
                       type="range"
@@ -1393,12 +1393,12 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       value={selectedPlanIdx}
                       aria-label="Five Year Plan selection slider"
                       onChange={(e) => handlePlanSliderChange(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2 pt-2 text-xs">
                       <div className="p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-500 block">Target</span>
-                        <span className="text-indigo-300 font-bold text-sm">{FIVE_YEAR_PLANS_DATA[selectedPlanIdx].target}%</span>
+                        <span className="text-gold-300 font-bold text-sm">{FIVE_YEAR_PLANS_DATA[selectedPlanIdx].target}%</span>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-500 block">Actual</span>
@@ -1444,7 +1444,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => setSelectedNitiPillar(p.id)}
                         className={`p-3 rounded-xl border text-xs font-bold flex flex-col items-center gap-1.5 ${
-                          selectedNitiPillar === p.id ? 'bg-indigo-950 border-indigo-400 text-indigo-200' : 'bg-slate-800 border-slate-700 text-slate-400'
+                          selectedNitiPillar === p.id ? 'bg-gold-950 border-gold-400 text-gold-200' : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
                         <span className="text-xl" aria-hidden="true">{p.icon}</span>
@@ -1456,26 +1456,26 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[120px] flex items-center">
                     {selectedNitiPillar === 'federalism' && (
                       <div className="space-y-1.5 text-xs text-slate-300">
-                        <h4 className="text-indigo-400 font-bold text-sm">Governing Council Architecture</h4>
+                        <h4 className="text-gold-400 font-bold text-sm">Governing Council Architecture</h4>
                         <p>All 28 State Chief Ministers & UT Lt. Governors sit with the Prime Minister as equal partners in policy design.</p>
                         <p className="text-slate-400">Unlike the Planning Commission (which gave top-down plan allocations), NITI Aayog has <strong>zero fund allocation power</strong> — funds flow via the Finance Commission (Art. 280).</p>
                       </div>
                     )}
                     {selectedNitiPillar === 'thinktank' && (
                       <div className="space-y-1.5 text-xs text-slate-300">
-                        <h4 className="text-indigo-400 font-bold text-sm">Strategic & Technical Advice</h4>
+                        <h4 className="text-gold-400 font-bold text-sm">Strategic & Technical Advice</h4>
                         <p>Staffed by domain specialists across energy, healthcare, agriculture, and AI, providing research-backed strategic roadmaps.</p>
                       </div>
                     )}
                     {selectedNitiPillar === 'sdg' && (
                       <div className="space-y-1.5 text-xs text-slate-300">
-                        <h4 className="text-indigo-400 font-bold text-sm">SDG India Index & Aspirational Districts</h4>
+                        <h4 className="text-gold-400 font-bold text-sm">SDG India Index & Aspirational Districts</h4>
                         <p>Monitors 117 backward districts and ranks all states across 16 UN Sustainable Development Goals, driving competitive federalism.</p>
                       </div>
                     )}
                     {selectedNitiPillar === 'aim' && (
                       <div className="space-y-1.5 text-xs text-slate-300">
-                        <h4 className="text-indigo-400 font-bold text-sm">Atal Tinkering Labs (ATL)</h4>
+                        <h4 className="text-gold-400 font-bold text-sm">Atal Tinkering Labs (ATL)</h4>
                         <p>Over 10,000 innovation labs funded in Indian high schools, empowering 1M+ students with 3D printers, IoT, and robotics.</p>
                       </div>
                     )}
@@ -1502,7 +1502,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setSelectedDataSource('secondary')}
                       className={`flex-1 p-3 rounded-xl border text-xs font-bold ${
-                        selectedDataSource === 'secondary' ? 'bg-sky-950/80 border-sky-500 text-sky-200' : 'bg-slate-800 border-slate-700 text-slate-400'
+                        selectedDataSource === 'secondary' ? 'bg-gold-950/80 border-gold-500 text-gold-200' : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
                       Secondary Data (Published Registries)
@@ -1524,11 +1524,11 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                     ) : (
                       <>
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                          <span className="text-sky-400 font-bold block mb-1">RBI Handbook of Statistics</span>
+                          <span className="text-gold-400 font-bold block mb-1">RBI Handbook of Statistics</span>
                           <p className="text-slate-400">Freely downloadable time-series data on M3 money supply, foreign exchange reserves, and bank credit from 1950 onwards.</p>
                         </div>
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                          <span className="text-sky-400 font-bold block mb-1">Economic Survey (Ministry of Finance)</span>
+                          <span className="text-gold-400 font-bold block mb-1">Economic Survey (Ministry of Finance)</span>
                           <p className="text-slate-400">Annual macroeconomic report presented before the Union Budget detailing GDP growth, fiscal deficit, and sectoral trends.</p>
                         </div>
                       </>
@@ -1565,7 +1565,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center text-xs">
                       <span className="text-slate-400">Sample Size (N respondents):</span>
-                      <span className="text-indigo-400 font-bold">{sturgesSampleSize} Workers</span>
+                      <span className="text-gold-400 font-bold">{sturgesSampleSize} Workers</span>
                     </div>
                     <input
                       type="range"
@@ -1574,13 +1574,13 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       value={sturgesSampleSize}
                       aria-label="Sturges sample size slider"
                       onChange={(e) => handleSturgesChange(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     <div className="p-3 bg-slate-900 rounded-lg flex items-center justify-between text-xs">
                       <div>
                         <span className="text-slate-400 block">Sturges’ Formula:</span>
-                        <code className="text-indigo-300 font-mono">k = 1 + 3.322 × log₁₀(N)</code>
+                        <code className="text-gold-300 font-mono">k = 1 + 3.322 × log₁₀(N)</code>
                       </div>
                       <div className="text-right">
                         <span className="text-slate-400 block">Recommended Classes (k):</span>
@@ -1633,7 +1633,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs md:text-sm font-bold shadow-md shadow-indigo-950"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs md:text-sm font-bold shadow-md shadow-gold-950"
               >
                 Next Step →
               </motion.button>
@@ -1656,7 +1656,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-6 space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-lg font-bold text-indigo-300">Free Economic Simulation Sandbox</h3>
+            <h3 className="text-lg font-bold text-gold-300">Free Economic Simulation Sandbox</h3>
             <p className="text-xs text-slate-400 mt-1">
               Explore how sample size, class intervals, and Five-Year Plan targets interact dynamically without test grading.
             </p>
@@ -1714,7 +1714,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-950"
+            className="w-full py-3 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-950"
           >
             Ready for CISCE Competency Challenges →
           </motion.button>
@@ -1728,14 +1728,14 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
             <span className="text-slate-400 font-medium">
               Challenge {currentChallenge + 1} of {filteredChallenges.length}
             </span>
-            <span className="px-2.5 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-full font-mono">
+            <span className="px-2.5 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-full font-mono">
               Competency: {challenge.competencyLevel.toUpperCase()}
             </span>
           </div>
 
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={(currentChallenge + 1) * (100 / filteredChallenges.length)} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1778,7 +1778,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                         : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span><span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}</span>
+                    <span><span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}</span>
                     {showExplanation && i === challenge.correctIndex && (
                       <span className="text-emerald-400 font-bold ml-2">✓ Correct</span>
                     )}
@@ -1801,7 +1801,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs text-white font-medium cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs text-white font-medium cursor-grab active:cursor-grabbing shadow"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -1834,7 +1834,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Mappings
                 </motion.button>
@@ -1865,7 +1865,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       className="p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="font-bold text-indigo-400">{displayIndex + 1}.</span>
+                        <span className="font-bold text-gold-400">{displayIndex + 1}.</span>
                         <span>{item}</span>
                       </div>
                       <span className="text-slate-500">⠿</span>
@@ -1879,7 +1879,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Submit Sequence
                 </motion.button>
@@ -1906,7 +1906,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Check Calculation
                   </motion.button>
@@ -1926,7 +1926,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-indigo-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -1935,7 +1935,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-md text-xs flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900 border border-gold-700 text-gold-200 rounded-md text-xs flex items-center gap-1.5">
                       {part}
                       <button aria-label={`Remove component ${part}`} onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))} className="text-rose-400">✕</button>
                     </span>
@@ -1949,7 +1949,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Construction
                 </motion.button>
@@ -1998,7 +1998,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
       {/* ─── 5. COMPLETION & MASTERY PROFILE PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-emerald-700/80 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-emerald-700/80 text-center space-y-3">
             <h2 className="text-2xl md:text-3xl font-bold text-emerald-300">🎉 Simulation Complete!</h2>
             <p className="text-sm text-slate-300">You evaluated India’s economic planning models and applied statistical data organization.</p>
 
@@ -2015,14 +2015,14 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Mastery Tier</span>
-                <span className="text-xl font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">💭</span> Deep Reflection & Conceptual Consolidation
             </h3>
             <div className="space-y-4 text-xs md:text-sm">
@@ -2035,7 +2035,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections(r => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g., I was surprised that NITI Aayog has zero power to allocate central funds to states..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 text-xs focus:border-indigo-500 focus:outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 text-xs focus:border-gold-500 focus:outline-none"
                   rows={2}
                 />
               </div>
@@ -2049,7 +2049,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   value={reflections.explainFriend}
                   onChange={(e) => setReflections(r => ({ ...r, explainFriend: e.target.value }))}
                   placeholder="e.g., The upper limit is like a strict ceiling — exact values at the boundary get bumped up into the next room..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 text-xs focus:border-indigo-500 focus:outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 text-xs focus:border-gold-500 focus:outline-none"
                   rows={2}
                 />
               </div>
@@ -2063,7 +2063,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections(r => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g., When calculating customer spending patterns or student study hours for a school project..."
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 text-xs focus:border-indigo-500 focus:outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 text-xs focus:border-gold-500 focus:outline-none"
                   rows={2}
                 />
               </div>
@@ -2099,7 +2099,7 @@ function C11_EconomicsPlanningEconomicDevelopmentSim({
 
           {/* Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">🏛️ Real-World Activity: {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">🏛️ Real-World Activity: {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

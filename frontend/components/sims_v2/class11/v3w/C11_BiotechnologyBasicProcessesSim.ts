@@ -11,7 +11,7 @@ export const w_c11_biotechnologybasicprocessessim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'RNA: Types and Structure',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_03_007', 'c11_biotech_cbse_03_002', 'c11_biotech_cbse_03_003', 'c11_biotech_cbse_11_007', 'c11_biotech_cbse_01_003', 'c11_biotech_cbse_01_004', 'c11_biotech_cbse_01_007', 'c11_biotech_cbse_11_003', 'c11_biotech_cbse_11_004', 'c11_biotech_cbse_11_005', 'c11_biotech_cbse_11_009', 'c11_biotech_cbse_01_005', 'c11_biotech_cbse_01_006', 'c11_biotech_cbse_02_004', 'c11_biotech_cbse_02_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re a chef in a busy restaurant kitchen. DNA is the master recipe book locked in the head chef\'s.', goal: 'Master RNA: Types and Structure.' },
     discovery: {
         question: 'Name the three major types of RNA and state one primary function for each in a eukaryotic cell.',
@@ -20,7 +20,7 @@ export const w_c11_biotechnologybasicprocessessim: SimDef = {
         hook: 'Students believe "RNA is just single-stranded DNA with uracil instead of thymine." They treat RNA as a passive.',
     },
     teaching: [
-        { title: 'RNA (Ribonucleic Acid) is a single-stranded.', text: 'RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of ribonucleotides containing D-ribose sugar, phosphate groups, and nitrogenous bases (adenine, guanine, cytosine, uracil).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'RNA (Ribonucleic Acid) is a single-stranded.', text: 'RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of ribonucleotides containing D-ribose sugar, phosphate groups, and nitrogenous bases (adenine, guanine, cytosine, uracil).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_03_007', title: 'RNA (Ribonucleic Acid) is a.',

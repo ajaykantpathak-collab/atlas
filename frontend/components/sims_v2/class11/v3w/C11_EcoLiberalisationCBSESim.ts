@@ -11,7 +11,7 @@ export const w_c11_ecoliberalisationcbsesim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'New Economic Policy: LPG Framework and Rationale',
     chapters: [],
     nodeIds: ['c11_eco_cbse_03_002', 'c11_eco_cbse_03_003', 'c11_eco_cbse_03_004', 'c11_eco_cbse_03_005', 'c11_eco_cbse_03_006', 'c11_eco_cbse_03_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you run a small manufacturing unit in 1990: you need a government license to produce, cannot import.', goal: 'Master New Economic Policy: LPG Framework and Rationale.' },
     discovery: {
         question: 'Explain why the Narasimham Committee (1991) recommended reducing SLR and CRR *gradually* rather than abolishing them immediately, linking your answer to.',
@@ -20,7 +20,7 @@ export const w_c11_ecoliberalisationcbsesim: SimDef = {
         hook: '**Misconception:** "Financial liberalisation means the RBI stopped regulating banks and let them do whatever they want.',
     },
     teaching: [
-        { title: 'The New Economic Policy (NEP) of 1991 is a.', text: 'The New Economic Policy (NEP) of 1991 is a comprehensive set of economic reforms structured around three pillars — Liberalisation (removing government controls on private enterprise), Privatisation.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The New Economic Policy (NEP) of 1991 is a.', text: 'The New Economic Policy (NEP) of 1991 is a comprehensive set of economic reforms structured around three pillars — Liberalisation (removing government controls on private enterprise), Privatisation.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_03_002', title: 'The New Economic Policy (NEP) of 1991.',

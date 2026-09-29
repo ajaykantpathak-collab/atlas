@@ -1082,13 +1082,13 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 mb-6 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-indigo-600/20 rounded-2xl border border-indigo-500/30 text-2xl" aria-hidden="true">
+          <div className="p-3 bg-gold-600/20 rounded-2xl border border-gold-500/30 text-2xl" aria-hidden="true">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-widest text-indigo-400">ICSE Class 10 Commercial Studies</span>
-              <span className="px-2 py-0.5 text-[10px] font-semibold bg-indigo-500/10 text-indigo-300 rounded-full border border-indigo-500/20">CISCE 2026 Aligned</span>
+              <span className="text-xs uppercase font-bold tracking-widest text-gold-400">ICSE Class 10 Commercial Studies</span>
+              <span className="px-2 py-0.5 text-[10px] font-semibold bg-gold-500/10 text-gold-300 rounded-full border border-gold-500/20">CISCE 2026 Aligned</span>
             </div>
             <h1 className="text-lg sm:text-xl font-black text-white tracking-tight">{title}</h1>
           </div>
@@ -1103,7 +1103,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
             className={`px-3 py-1 rounded-full text-xs font-bold border ${
               difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' :
               difficulty === 'advanced' ? 'bg-purple-500/20 text-purple-400 border-purple-500/30' :
-              'bg-blue-500/20 text-blue-400 border-blue-500/30'
+              'bg-gold-500/20 text-gold-400 border-gold-500/30'
             }`}
           >
             {difficulty.toUpperCase()} TIER
@@ -1126,15 +1126,15 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-purple-950/40 rounded-3xl border border-indigo-800/50 relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-purple-950/40 rounded-3xl border border-gold-800/50 relative overflow-hidden">
             <div className="relative z-10">
-              <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-bold rounded-full border border-indigo-500/30">
+              <span className="px-3 py-1 bg-gold-500/20 text-gold-300 text-xs font-bold rounded-full border border-gold-500/30">
                 Discovery Scenario
               </span>
               <h2 className="text-2xl font-black text-white mt-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
               <p className="text-slate-400 text-xs mt-3 bg-slate-900/80 p-3 rounded-xl border border-slate-800">
-                💡 <strong className="text-indigo-300">Context:</strong> {SCENARIO.context}
+                💡 <strong className="text-gold-300">Context:</strong> {SCENARIO.context}
               </p>
             </div>
           </div>
@@ -1163,7 +1163,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   }`}
                 >
                   <div className="flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-bold text-xs text-indigo-300 border border-slate-700 shrink-0">
+                    <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-bold text-xs text-gold-300 border border-slate-700 shrink-0">
                       {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓' : String.fromCharCode(65 + i)}
                     </span>
                     <span>{opt}</span>
@@ -1186,7 +1186,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-2xl shadow-lg shadow-indigo-500/20 text-sm whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-2xl shadow-lg shadow-gold-500/20 text-sm whitespace-nowrap"
                 >
                   Launch Interactive Discovery →
                 </motion.button>
@@ -1200,7 +1200,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs uppercase font-bold tracking-wider text-indigo-400">
+            <span className="text-xs uppercase font-bold tracking-wider text-gold-400">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5" aria-hidden="true">
@@ -1208,7 +1208,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                 <div
                   key={idx}
                   className={`h-1.5 rounded-full transition-all duration-300 ${
-                    idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2.5 bg-slate-700'
+                    idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2.5 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1249,11 +1249,11 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                         onClick={() => setSelectedAgencyDept(dept.key as 'brief' | 'research' | 'creative' | 'media' | 'eval')}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedAgencyDept === dept.key
-                            ? 'bg-indigo-600/30 border-indigo-500 text-white'
+                            ? 'bg-gold-600/30 border-gold-500 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
-                        <p className="text-xs font-bold text-indigo-300">{dept.title}</p>
+                        <p className="text-xs font-bold text-gold-300">{dept.title}</p>
                         <p className="text-[10px] text-slate-400 mt-1 line-clamp-2">{dept.desc}</p>
                       </motion.button>
                     ))}
@@ -1295,7 +1295,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                         </g>
                       ))}
                     </svg>
-                    <p className="text-center text-xs text-indigo-300 mt-2">
+                    <p className="text-center text-xs text-gold-300 mt-2">
                       Active Department Action:{' '}
                       <strong className="text-white">
                         {selectedAgencyDept === 'brief' && 'Account Management synchronizing client objectives.'}
@@ -1365,7 +1365,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-2">
-                      <p className="text-indigo-300 font-bold">Key ICSE Distinctions:</p>
+                      <p className="text-gold-300 font-bold">Key ICSE Distinctions:</p>
                       <p className="text-slate-300">
                         <strong>Sponsor:</strong> {causeMarketingType === 'pure_social' ? 'Ministry of Health / BOC' : 'Tata Consumer Products (Corporate)'}
                       </p>
@@ -1397,7 +1397,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                         max={60}
                         value={promoDiscountPct}
                         onChange={e => setPromoDiscountPct(Number(e.target.value))}
-                        className="w-full mt-1.5 accent-indigo-500"
+                        className="w-full mt-1.5 accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1504,7 +1504,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                         {activeViolation === 'no_refund' && 'Right Violated: Right to Seek Redressal (District Commission Jurisdiction)'}
                       </p>
                       <p className="text-slate-400">
-                        Central Regulator: <strong className="text-indigo-300">Central Consumer Protection Authority (CCPA)</strong> established under Section 10 of CPA 2019.
+                        Central Regulator: <strong className="text-gold-300">Central Consumer Protection Authority (CCPA)</strong> established under Section 10 of CPA 2019.
                       </p>
                     </div>
                   </div>
@@ -1570,8 +1570,8 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                         className="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs text-white"
                       />
                     </div>
-                    <div className="p-2 bg-indigo-950/60 rounded-xl border border-indigo-700 flex flex-col justify-center">
-                      <span className="text-[10px] text-indigo-300 font-bold uppercase">Computed Gross Profit</span>
+                    <div className="p-2 bg-gold-950/60 rounded-xl border border-gold-700 flex flex-col justify-center">
+                      <span className="text-[10px] text-gold-300 font-bold uppercase">Computed Gross Profit</span>
                       <span className="text-base font-black text-emerald-400">₹{simGrossProfit.toLocaleString('en-IN')}</span>
                     </div>
                   </div>
@@ -1580,7 +1580,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                     <span className="text-slate-400">
                       Cost of Goods Sold (COGS) = <strong className="text-white">₹{simCOGS.toLocaleString('en-IN')}</strong>
                     </span>
-                    <span className="text-indigo-300">
+                    <span className="text-gold-300">
                       Formula: Opening + Purchases + Wages − Closing Stock
                     </span>
                   </div>
@@ -1610,7 +1610,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm"
               >
                 Next Lab →
               </motion.button>
@@ -1645,7 +1645,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Promotion & Media Sandbox */}
             <div className="p-5 bg-slate-950 rounded-3xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-indigo-300">1. Promotional Strategy Controls</h3>
+              <h3 className="text-sm font-bold text-gold-300">1. Promotional Strategy Controls</h3>
               <div>
                 <label htmlFor="sandboxPromoDiscount" className="text-xs text-slate-400">Discount Promotion: {promoDiscountPct}%</label>
                 <input
@@ -1656,7 +1656,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   max={50}
                   value={promoDiscountPct}
                   onChange={e => setPromoDiscountPct(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1">
@@ -1711,13 +1711,13 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono font-bold">
+              <span className="text-gold-400 font-mono font-bold">
                 NEP 2020: {challenge.competencyLevel.toUpperCase()}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1736,7 +1736,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
             }`}
           >
             <div className="flex items-start gap-3">
-              <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-lg text-xs font-bold border border-indigo-500/30">
+              <span className="px-2.5 py-1 bg-gold-500/20 text-gold-300 rounded-lg text-xs font-bold border border-gold-500/30">
                 Q{currentChallenge + 1}
               </span>
               <h2 className="text-base sm:text-lg font-bold text-white leading-snug">
@@ -1764,7 +1764,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                     }`}
                   >
                     <div className="flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-bold text-xs text-indigo-400 border border-slate-700 shrink-0">
+                      <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-bold text-xs text-gold-400 border border-slate-700 shrink-0">
                         {showExplanation && i === challenge.correctIndex ? '✓' : String.fromCharCode(65 + i)}
                       </span>
                       <span className="leading-relaxed">{opt}</span>
@@ -1789,7 +1789,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
+                      className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -1816,7 +1816,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                       }`}
                     >
                       <p className="text-[11px] text-slate-400">{target.scenario}</p>
-                      <p className="text-sm font-black text-indigo-300 mt-2">
+                      <p className="text-sm font-black text-gold-300 mt-2">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop Corresponding Right Here'}
                       </p>
                     </div>
@@ -1828,7 +1828,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Rights Mapping
                 </motion.button>
@@ -1858,7 +1858,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-900 border border-slate-700 rounded-2xl text-xs sm:text-sm font-semibold flex items-center gap-3 cursor-grab"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-indigo-600/30 text-indigo-300 flex items-center justify-center font-bold text-xs">
+                    <span className="w-6 h-6 rounded-lg bg-gold-600/30 text-gold-300 flex items-center justify-center font-bold text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1869,7 +1869,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={handleSortSubmit}
-                  className="mt-2 px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Confirm Workflow Order
                 </motion.button>
@@ -1886,7 +1886,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -1894,7 +1894,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 text-white rounded-2xl font-bold text-sm"
+                    className="px-6 py-3 bg-gold-600 text-white rounded-2xl font-bold text-sm"
                   >
                     Submit Calculation
                   </motion.button>
@@ -1914,7 +1914,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3.5 py-2 bg-indigo-700/60 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold border border-indigo-500/30"
+                      className="px-3.5 py-2 bg-gold-700/60 hover:bg-gold-600 text-white rounded-xl text-xs font-bold border border-gold-500/30"
                     >
                       + {part}
                     </motion.button>
@@ -1925,7 +1925,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-lg text-xs font-semibold flex items-center gap-2 border border-indigo-700"
+                      className="px-3 py-1 bg-gold-900 text-gold-200 rounded-lg text-xs font-semibold flex items-center gap-2 border border-gold-700"
                     >
                       {part}
                       <button
@@ -1948,7 +1948,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs disabled:opacity-40"
                 >
                   Verify Trading Structure
                 </motion.button>
@@ -1960,9 +1960,9 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 border border-indigo-800/60 rounded-2xl space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 border border-gold-800/60 rounded-2xl space-y-3"
               >
-                <p className="text-xs font-bold uppercase tracking-wider text-indigo-300">Detailed Board Examination Solution:</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-gold-300">Detailed Board Examination Solution:</p>
                 {challenge.explanation
                   .split('. ')
                   .filter(s => s.trim().length > 0)
@@ -1986,7 +1986,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700/80 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700/80 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2011,7 +2011,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL REFLECTION ─────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-purple-950/70 rounded-3xl border border-indigo-700 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-purple-950/70 rounded-3xl border border-gold-700 text-center space-y-3">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Commercial Studies Mastery Unlocked!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2024,7 +2024,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
               </div>
               <div className="p-3 bg-slate-800/80 rounded-2xl border border-slate-700">
                 <p className="text-[10px] uppercase text-slate-400 font-bold">Mastery Level</p>
-                <p className="text-xl font-black text-indigo-300 capitalize">{masteryLevel}</p>
+                <p className="text-xl font-black text-gold-300 capitalize">{masteryLevel}</p>
               </div>
             </div>
           </div>
@@ -2032,7 +2032,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
           {/* Personalized Motivational Feedback */}
           <div className="p-5 bg-slate-800/80 rounded-3xl border border-slate-700 space-y-2">
             <h3 className="text-sm font-bold text-emerald-400">Personalized Evaluation:</h3>
-            <p className="text-sm font-black text-indigo-300">
+            <p className="text-sm font-black text-gold-300">
               {errors === 0 && 'PERFECT SCORE!'}
               {errors >= 1 && errors <= 3 && 'Great work!'}
               {errors >= 4 && errors <= 7 && 'Good effort!'}
@@ -2086,7 +2086,7 @@ function C10_CommercialStudiesAdvertisingMeaningImportanceSim({
             <div className="flex items-center gap-3">
               <span className="text-2xl" aria-hidden="true">📋</span>
               <div>
-                <h3 className="text-sm sm:text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+                <h3 className="text-sm sm:text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
                 <p className="text-xs text-slate-400 mt-0.5">{REAL_WORLD_ACTIVITY.description}</p>
               </div>
             </div>

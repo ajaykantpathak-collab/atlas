@@ -11,7 +11,7 @@ export const w_c6_physicselectricitycircuitscbsesim: SimDef = {
     classLevel: 6, subject: 'physics', topic: 'A Torchlight and Its Parts',
     chapters: [],
     nodeIds: ['c6_physics_ch03_011', 'c6_physics_ch03_012', 'c6_physics_ch03_013', 'c6_physics_ch03_014', 'c6_physics_ch03_015', 'c6_physics_ch03_017', 'c6_physics_ch03_016'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why your torchlight doesn\'t stay on all the time, even when the battery is inside?', goal: 'Master A Torchlight and Its Parts.' },
     discovery: {
         question: 'Name the three basic components found inside a standard torchlight that allow it to function.',
@@ -20,7 +20,7 @@ export const w_c6_physicselectricitycircuitscbsesim: SimDef = {
         hook: 'Students often think electricity is "used up" by the bulb and vanishes.',
     },
     teaching: [
-        { title: 'A torchlight is a portable electrical system.', text: 'A torchlight is a portable electrical system that generates light by creating a complete path—called a circuit—for electricity to flow from a battery to a bulb.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A torchlight is a portable electrical system.', text: 'A torchlight is a portable electrical system that generates light by creating a complete path—called a circuit—for electricity to flow from a battery to a bulb.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_physics_ch03_011', title: 'A torchlight is a portable electrical.',

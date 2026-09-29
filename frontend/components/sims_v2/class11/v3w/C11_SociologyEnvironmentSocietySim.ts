@@ -11,7 +11,7 @@ export const w_c11_sociologyenvironmentsocietysim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Ecology: Definition and the Interconnected Web of Natural Systems',
     chapters: [],
     nodeIds: ['c11_soc_cbse_08_001', 'c11_soc_cbse_08_002', 'c11_soc_cbse_08_003', 'c11_soc_cbse_08_004', 'c11_soc_cbse_08_009', 'c11_soc_cbse_07_001', 'c11_soc_cbse_07_002', 'c11_soc_cbse_07_003', 'c11_soc_cbse_08_005', 'c11_soc_cbse_08_006', 'c11_soc_cbse_08_007', 'c11_soc_cbse_08_008', 'c11_soc_cbse_08_010', 'c11_soc_cbse_04_005', 'c11_soc_cbse_04_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Look at the chair you are sitting on right now. Trace it backward: the wood came from a tree, the tree grew.', goal: 'Master Ecology: Definition and the Interconnected Web of Natural Systems.' },
     discovery: {
         question: 'Define "ecology" as used in the sociological study of environment and society, and explain why humans are considered an element within it rather than external.',
@@ -20,7 +20,7 @@ export const w_c11_sociologyenvironmentsocietysim: SimDef = {
         hook: 'Students treat "ecology" and "environment" as synonyms for "nature untouched by humans." They imagine a pristine.',
     },
     teaching: [
-        { title: 'Ecology is the web of physical and.', text: 'Ecology is the web of physical and biological systems and processes — including mountains, rivers, plains, oceans, flora, and fauna — of which humans are one element, shaped by the interaction.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Ecology is the web of physical and.', text: 'Ecology is the web of physical and biological systems and processes — including mountains, rivers, plains, oceans, flora, and fauna — of which humans are one element, shaped by the interaction.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_08_001', title: 'Ecology is the web of physical and.',

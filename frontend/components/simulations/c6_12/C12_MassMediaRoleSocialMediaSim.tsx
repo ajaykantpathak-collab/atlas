@@ -1220,13 +1220,13 @@ function C12_MassMediaRoleSocialMediaSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="w-12 h-12 rounded-2xl bg-sky-500/20 border border-sky-500/40 flex items-center justify-center text-2xl shadow-inner shadow-sky-500/30"
+            className="w-12 h-12 rounded-2xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner shadow-gold-500/30"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-sky-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 ISC Class 12 Mass Media
               </span>
               <span className="px-2 py-0.5 rounded-full text-[10px] bg-slate-800 text-slate-300 font-medium">
@@ -1251,7 +1251,7 @@ function C12_MassMediaRoleSocialMediaSim({
               }}
               className={`px-3 py-1 text-xs font-semibold rounded-lg capitalize transition-colors ${
                 phase === p
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/30'
+                  ? 'bg-gold-500 text-white shadow-md shadow-gold-500/30'
                   : 'text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
             >
@@ -1272,10 +1272,10 @@ function C12_MassMediaRoleSocialMediaSim({
           {/* Narrative Scenario Card */}
           <motion.div
             whileHover={{ scale: 1.005 }}
-            className="p-5 sm:p-6 bg-gradient-to-br from-sky-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-sky-800/40 shadow-xl relative overflow-hidden"
+            className="p-5 sm:p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/40 shadow-xl relative overflow-hidden"
           >
-            <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-sky-500/10 rounded-full blur-2xl pointer-events-none" />
-            <div className="flex items-center gap-2 text-sky-400 font-bold text-sm mb-2">
+            <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-gold-500/10 rounded-full blur-2xl pointer-events-none" />
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
               <span>📰 Live Newsroom Simulation</span>
               <span>•</span>
               <span className="text-slate-400 text-xs">Case Study Arc</span>
@@ -1283,7 +1283,7 @@ function C12_MassMediaRoleSocialMediaSim({
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-3 p-3 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-slate-400">
-              <strong className="text-sky-300">Your Editorial Mission: </strong>
+              <strong className="text-gold-300">Your Editorial Mission: </strong>
               {SCENARIO.context}
             </div>
           </motion.div>
@@ -1348,7 +1348,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-sky-500 to-indigo-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-sky-500/20 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-500/20 whitespace-nowrap"
                 >
                   Step into Interactive Labs →
                 </motion.button>
@@ -1366,13 +1366,13 @@ function C12_MassMediaRoleSocialMediaSim({
             <span>
               Exploration Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
-            <span className="text-sky-400 font-semibold">{EXPLORATION_STEPS[currentSlide].title}</span>
+            <span className="text-gold-400 font-semibold">{EXPLORATION_STEPS[currentSlide].title}</span>
           </div>
 
           {/* Stepper Bar */}
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-sky-500 rounded-full"
+              className="h-full bg-gold-500 rounded-full"
               animate={{ width: `${((currentSlide + 1) / EXPLORATION_STEPS.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1389,7 +1389,7 @@ function C12_MassMediaRoleSocialMediaSim({
             >
               <div>
                 <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                  <span className="text-sky-400">🧪</span>
+                  <span className="text-gold-400">🧪</span>
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-sm text-amber-300 mt-1 flex items-center gap-1.5 font-medium">
@@ -1402,8 +1402,8 @@ function C12_MassMediaRoleSocialMediaSim({
                 <div className="space-y-4">
                   {/* PREDICTION 2: Misinformation Spike */}
                   {predictionAnswers[1] === undefined && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
-                      <p className="text-xs font-semibold text-indigo-200">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
+                      <p className="text-xs font-semibold text-gold-200">
                         🔮 Prediction Challenge: {PREDICTION_QUESTIONS[1].question}
                       </p>
                       <div className="space-y-1.5">
@@ -1427,7 +1427,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800">
                     <div className="text-xs font-semibold text-slate-400 mb-2 flex items-center justify-between">
                       <span>Diagram 1: The Verification Gatekeeper Pipeline</span>
-                      <span className="text-[10px] text-sky-400 bg-sky-950/70 px-2 py-0.5 rounded border border-sky-800">
+                      <span className="text-[10px] text-gold-400 bg-gold-950/70 px-2 py-0.5 rounded border border-gold-800">
                         Interactive Model
                       </span>
                     </div>
@@ -1500,9 +1500,9 @@ function C12_MassMediaRoleSocialMediaSim({
                   </div>
 
                   {/* OBSERVATION QUESTION 1 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-sky-800/40 space-y-2.5">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/40 space-y-2.5">
                     <div className="flex items-center gap-2">
-                      <span className="px-2 py-0.5 rounded bg-sky-500/20 text-sky-400 text-[10px] font-bold">
+                      <span className="px-2 py-0.5 rounded bg-gold-500/20 text-gold-400 text-[10px] font-bold">
                         👁️ Observation Check
                       </span>
                     </div>
@@ -1527,14 +1527,14 @@ function C12_MassMediaRoleSocialMediaSim({
                       ))}
                     </div>
                     {obsAnswers[0] !== undefined && (
-                      <p className="text-[11px] text-sky-300 mt-1">{OBSERVATION_QUESTIONS[0].explanation}</p>
+                      <p className="text-[11px] text-gold-300 mt-1">{OBSERVATION_QUESTIONS[0].explanation}</p>
                     )}
                   </div>
 
                   {/* Canvas Animation Stream */}
                   <div className="relative bg-slate-950 rounded-xl p-3 border border-slate-800 overflow-hidden">
                     <canvas ref={canvasRef} width={460} height={85} className="w-full rounded-lg" />
-                    <div className="absolute top-2 left-2 text-[10px] font-mono text-sky-400/80 bg-slate-900/80 px-2 py-0.5 rounded">
+                    <div className="absolute top-2 left-2 text-[10px] font-mono text-gold-400/80 bg-slate-900/80 px-2 py-0.5 rounded">
                       LIVE_DIFFUSION_PARTICLES
                     </div>
                   </div>
@@ -1544,7 +1544,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Information Sharing Velocity</span>
-                        <span className="font-bold text-sky-400">{shareRate}%</span>
+                        <span className="font-bold text-gold-400">{shareRate}%</span>
                       </div>
                       <input
                         type="range"
@@ -1559,13 +1559,13 @@ function C12_MassMediaRoleSocialMediaSim({
                             setPredictionVerified((prev) => ({ ...prev, [1]: true }));
                           }
                         }}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Framing Quality (Policy Demand Focus)</span>
-                        <span className="font-bold text-indigo-400">{framingQuality}%</span>
+                        <span className="font-bold text-gold-400">{framingQuality}%</span>
                       </div>
                       <input
                         type="range"
@@ -1577,7 +1577,7 @@ function C12_MassMediaRoleSocialMediaSim({
                           setFramingQuality(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                   </div>
@@ -1641,7 +1641,7 @@ function C12_MassMediaRoleSocialMediaSim({
                         }}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedThreat === item.id
-                            ? 'bg-sky-500/20 border-sky-400 text-white shadow-md'
+                            ? 'bg-gold-500/20 border-gold-400 text-white shadow-md'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1661,7 +1661,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   >
                     {selectedThreat === 'bullying' && (
                       <div>
-                        <h4 className="font-bold text-sky-300 text-sm">Online Bullying (Cyberbullying)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Online Bullying (Cyberbullying)</h4>
                         <p className="text-slate-300 mt-1 leading-relaxed">
                           Repeated, intentional harassment targeted at a known peer (e.g. school confession pages). Distinct from offline bullying by <strong>persistence (24/7)</strong>, <strong>virality</strong>, and <strong>anonymity</strong>.
                         </p>
@@ -1672,7 +1672,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {selectedThreat === 'stalking' && (
                       <div>
-                        <h4 className="font-bold text-sky-300 text-sm">Cyber Stalking (IPC 354D)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Cyber Stalking (IPC 354D)</h4>
                         <p className="text-slate-300 mt-1 leading-relaxed">
                           Persistent unwanted electronic surveillance, monitoring GPS/Snapchat maps, and unsolicited repeated messaging without consent.
                         </p>
@@ -1683,7 +1683,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {selectedThreat === 'trolling' && (
                       <div>
-                        <h4 className="font-bold text-sky-300 text-sm">Provocative Trolling</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Provocative Trolling</h4>
                         <p className="text-slate-300 mt-1 leading-relaxed">
                           Deliberately posting inflammatory, abusive messages to provoke outrage or silence public figures/journalists. Governed by 36-hour takedown notices under IT Rules 2021.
                         </p>
@@ -1694,7 +1694,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {selectedThreat === 'fraud' && (
                       <div>
-                        <h4 className="font-bold text-sky-300 text-sm">Online Frauds & UPI Scams (IT Act 66D)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Online Frauds & UPI Scams (IT Act 66D)</h4>
                         <p className="text-slate-300 mt-1 leading-relaxed">
                           Phishing, fake &quot;KBC WhatsApp lotteries&quot; OTP theft, and QR code scams. Constitutes ~60% of all registered cyber crimes according to NCRB.
                         </p>
@@ -1712,7 +1712,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     </div>
                     <table className="w-full text-left text-[11px] border-collapse">
                       <thead>
-                        <tr className="border-b border-slate-800 text-sky-400">
+                        <tr className="border-b border-slate-800 text-gold-400">
                           <th className="p-1.5">Offence</th>
                           <th className="p-1.5">Target</th>
                           <th className="p-1.5">Applicable Indian Law</th>
@@ -1733,7 +1733,7 @@ function C12_MassMediaRoleSocialMediaSim({
                           <td className="p-1.5">State Police Cyber FIR</td>
                         </tr>
                         <tr>
-                          <td className="p-1.5 font-semibold text-sky-300">Trolling</td>
+                          <td className="p-1.5 font-semibold text-gold-300">Trolling</td>
                           <td className="p-1.5">Public Figures / Communities</td>
                           <td className="p-1.5">IT Rules 2021 Grievance Officer</td>
                           <td className="p-1.5">36-hour content removal notice</td>
@@ -1814,8 +1814,8 @@ function C12_MassMediaRoleSocialMediaSim({
                 <div className="space-y-4">
                   {/* PREDICTION 1: Jio 2016 Impact */}
                   {predictionAnswers[0] === undefined && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/60 space-y-3">
-                      <p className="text-xs font-semibold text-indigo-200">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/60 space-y-3">
+                      <p className="text-xs font-semibold text-gold-200">
                         🔮 Prediction Challenge: {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="space-y-1.5">
@@ -1889,9 +1889,9 @@ function C12_MassMediaRoleSocialMediaSim({
                   </div>
 
                   {/* OBSERVATION QUESTION 2 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-sky-800/40 space-y-2.5">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/40 space-y-2.5">
                     <div className="flex items-center gap-2">
-                      <span className="px-2 py-0.5 rounded bg-sky-500/20 text-sky-400 text-[10px] font-bold">
+                      <span className="px-2 py-0.5 rounded bg-gold-500/20 text-gold-400 text-[10px] font-bold">
                         👁️ Observation Check
                       </span>
                     </div>
@@ -1916,7 +1916,7 @@ function C12_MassMediaRoleSocialMediaSim({
                       ))}
                     </div>
                     {obsAnswers[1] !== undefined && (
-                      <p className="text-[11px] text-sky-300 mt-1">{OBSERVATION_QUESTIONS[1].explanation}</p>
+                      <p className="text-[11px] text-gold-300 mt-1">{OBSERVATION_QUESTIONS[1].explanation}</p>
                     )}
                   </div>
 
@@ -1924,7 +1924,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs flex flex-wrap items-center justify-between gap-3">
                     <div>
                       <span className="text-slate-400">Formula Representation: </span>
-                      <code className="bg-slate-950 px-2 py-0.5 rounded text-sky-300 font-mono text-[11px]">
+                      <code className="bg-slate-950 px-2 py-0.5 rounded text-gold-300 font-mono text-[11px]">
                         Cost Drop % = ((₹250 - ₹{dataCost}) / ₹250) × 100 = {Math.round(((250 - dataCost) / 250) * 100)}%
                       </code>
                     </div>
@@ -1937,7 +1937,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center text-xs">
                       <span className="text-slate-300">Mobile 4G Data Tariff:</span>
-                      <span className="font-bold text-sky-400 text-sm">₹{dataCost} per GB</span>
+                      <span className="font-bold text-gold-400 text-sm">₹{dataCost} per GB</span>
                     </div>
                     <input
                       type="range"
@@ -1953,7 +1953,7 @@ function C12_MassMediaRoleSocialMediaSim({
                           setPredictionVerified((prev) => ({ ...prev, [0]: true }));
                         }
                       }}
-                      className="w-full accent-sky-400"
+                      className="w-full accent-gold-400"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500">
                       <span>Post-Jio Revolution (~₹10/GB)</span>
@@ -1970,7 +1970,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800">
                     <div className="text-xs font-semibold text-slate-400 mb-2 flex items-center justify-between">
                       <span>Diagram 3: The 5 Dimensions of Media Convergence Interlock</span>
-                      <span className="text-[10px] text-indigo-400 bg-indigo-950/70 px-2 py-0.5 rounded border border-indigo-800">
+                      <span className="text-[10px] text-gold-400 bg-gold-950/70 px-2 py-0.5 rounded border border-gold-800">
                         Jenkins Model
                       </span>
                     </div>
@@ -2033,7 +2033,7 @@ function C12_MassMediaRoleSocialMediaSim({
                         }}
                         className={`p-2.5 rounded-xl text-left border transition-all ${
                           activeDimension === dim.id
-                            ? 'bg-sky-500/20 border-sky-400 text-white'
+                            ? 'bg-gold-500/20 border-gold-400 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -2052,7 +2052,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   >
                     {activeDimension === 'technological' && (
                       <div>
-                        <strong className="text-sky-300">✓ Hardware & Network Merging:</strong>
+                        <strong className="text-gold-300">✓ Hardware & Network Merging:</strong>
                         <p className="text-slate-300 mt-1">
                           The smartphone bundles an HD camera, FM radio, TV receiver, audio recorder, and newspaper press into a single handheld device connected via 4G/5G.
                         </p>
@@ -2061,7 +2061,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {activeDimension === 'textual' && (
                       <div>
-                        <strong className="text-sky-300">✓ Transmedia Content Flow:</strong>
+                        <strong className="text-gold-300">✓ Transmedia Content Flow:</strong>
                         <p className="text-slate-300 mt-1">
                           One core narrative remixing across text articles, vertical reels, podcasts, comic novels, and OTT series without format boundaries.
                         </p>
@@ -2070,7 +2070,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {activeDimension === 'social' && (
                       <div>
-                        <strong className="text-sky-300">✓ Audience Transformation (Prosumers):</strong>
+                        <strong className="text-gold-300">✓ Audience Transformation (Prosumers):</strong>
                         <p className="text-slate-300 mt-1">
                           Audiences no longer passively consume scheduled broadcasts; they co-create, shoot eyewitness video, comment, and distribute.
                         </p>
@@ -2079,7 +2079,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {activeDimension === 'economic' && (
                       <div>
-                        <strong className="text-sky-300">✓ Corporate Media Consolidation:</strong>
+                        <strong className="text-gold-300">✓ Corporate Media Consolidation:</strong>
                         <p className="text-slate-300 mt-1">
                           Mergers across broadcast TV, OTT streaming, film production, and sports rights to create integrated media conglomerates.
                         </p>
@@ -2088,7 +2088,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     )}
                     {activeDimension === 'political' && (
                       <div>
-                        <strong className="text-sky-300">✓ Governance & Multi-Jurisdiction Regulation:</strong>
+                        <strong className="text-gold-300">✓ Governance & Multi-Jurisdiction Regulation:</strong>
                         <p className="text-slate-300 mt-1">
                           Regulatory convergence balancing MIB, TRAI, Press Council of India, and IT Rules 2021 over digital and OTT content.
                         </p>
@@ -2126,7 +2126,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-sky-500 hover:bg-sky-400 text-white rounded-xl text-xs font-bold shadow-md shadow-sky-500/20"
+                className="px-5 py-2 bg-gold-500 hover:bg-gold-400 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-500/20"
               >
                 Next Lab →
               </motion.button>
@@ -2163,7 +2163,7 @@ function C12_MassMediaRoleSocialMediaSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-5 py-2.5 bg-gradient-to-r from-sky-500 to-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-sky-500/20"
+                className="px-5 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-500/20"
               >
                 Ready for Challenges! →
               </motion.button>
@@ -2175,7 +2175,7 @@ function C12_MassMediaRoleSocialMediaSim({
             <div className="space-y-2">
               <div className="flex justify-between text-xs text-slate-300">
                 <span>Audience Prosumer Share:</span>
-                <strong className="text-sky-400">{audienceProsumerScore}%</strong>
+                <strong className="text-gold-400">{audienceProsumerScore}%</strong>
               </div>
               <input
                 type="range"
@@ -2184,7 +2184,7 @@ function C12_MassMediaRoleSocialMediaSim({
                 max={100}
                 value={audienceProsumerScore}
                 onChange={(e) => setAudienceProsumerScore(Number(e.target.value))}
-                className="w-full accent-sky-400"
+                className="w-full accent-gold-400"
               />
               <p className="text-[10px] text-slate-500">High share = Active user-generated citizen news</p>
             </div>
@@ -2229,7 +2229,7 @@ function C12_MassMediaRoleSocialMediaSim({
           <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
             <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase tracking-wider">Democratic Voice</div>
-              <div className="text-base font-extrabold text-sky-400 mt-1">
+              <div className="text-base font-extrabold text-gold-400 mt-1">
                 ✓ {Math.round((audienceProsumerScore * 0.6 + (250 - dataCost) * 0.2))} pts
               </div>
             </div>
@@ -2245,7 +2245,7 @@ function C12_MassMediaRoleSocialMediaSim({
             </div>
             <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
               <div className="text-[10px] text-slate-400 uppercase tracking-wider">Convergence Index</div>
-              <div className="text-base font-extrabold text-indigo-400 mt-1">✓ 94.2 / 100</div>
+              <div className="text-base font-extrabold text-gold-400 mt-1">✓ 94.2 / 100</div>
             </div>
           </div>
         </motion.div>
@@ -2275,12 +2275,12 @@ function C12_MassMediaRoleSocialMediaSim({
                     ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                    : 'bg-sky-500/20 text-sky-400 border border-sky-500/40'
+                    : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
                 }`}
               >
                 {difficulty.toUpperCase()}
               </motion.span>
-              <span className="px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 text-[10px] font-mono">
+              <span className="px-2 py-0.5 rounded bg-gold-950 text-gold-300 text-[10px] font-mono">
                 NEP: {challenge.competencyLevel}
               </span>
             </div>
@@ -2289,7 +2289,7 @@ function C12_MassMediaRoleSocialMediaSim({
           {/* Progress Bar */}
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2357,7 +2357,7 @@ function C12_MassMediaRoleSocialMediaSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2376,10 +2376,10 @@ function C12_MassMediaRoleSocialMediaSim({
                       aria-label={`Drop target for ${target.desc}`}
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop(target.id)}
-                      className="p-3 bg-slate-950 rounded-xl border border-dashed border-slate-700 hover:border-sky-400 transition-colors min-h-[80px] flex flex-col justify-between"
+                      className="p-3 bg-slate-950 rounded-xl border border-dashed border-slate-700 hover:border-gold-400 transition-colors min-h-[80px] flex flex-col justify-between"
                     >
                       <div className="text-[11px] text-slate-400">{target.desc}</div>
-                      <div className="mt-2 font-bold text-xs text-sky-300">
+                      <div className="mt-2 font-bold text-xs text-gold-300">
                         {droppedLabels[target.id] ? `✓ ${droppedLabels[target.id]}` : 'Drop here...'}
                       </div>
                     </div>
@@ -2392,7 +2392,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-sky-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Labels →
                 </motion.button>
@@ -2423,7 +2423,7 @@ function C12_MassMediaRoleSocialMediaSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-sky-500/20 text-sky-300 flex items-center justify-center font-bold text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-500/20 text-gold-300 flex items-center justify-center font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2436,7 +2436,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleSortSubmit()}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-sky-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Check Sequence →
                 </motion.button>
@@ -2453,7 +2453,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-sky-400"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-400"
                   />
                   <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2462,7 +2462,7 @@ function C12_MassMediaRoleSocialMediaSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation}
-                    className="px-5 py-2 bg-sky-500 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-5 py-2 bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Submit →
                   </motion.button>
@@ -2482,7 +2482,7 @@ function C12_MassMediaRoleSocialMediaSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs rounded-lg font-medium"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs rounded-lg font-medium"
                     >
                       + {part}
                     </motion.button>
@@ -2495,7 +2495,7 @@ function C12_MassMediaRoleSocialMediaSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-2.5 py-1 bg-sky-950 text-sky-200 border border-sky-800 text-xs rounded-lg flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-950 text-gold-200 border border-gold-800 text-xs rounded-lg flex items-center gap-1.5"
                     >
                       <span>✓ {part}</span>
                       <button
@@ -2518,7 +2518,7 @@ function C12_MassMediaRoleSocialMediaSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-sky-500 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-5 py-2 bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Workflow →
                 </motion.button>
@@ -2596,7 +2596,7 @@ function C12_MassMediaRoleSocialMediaSim({
       {/* ─── PHASE 5: COMPLETION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-slate-900 via-sky-950/40 to-slate-900 rounded-2xl border border-sky-800/40 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/40 text-center space-y-3">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">🎉 Simulation Complete!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
               You navigated the digital public sphere, solved cyber crime scenarios, upheld netiquettes, and applied multi-dimensional media convergence.
@@ -2605,7 +2605,7 @@ function C12_MassMediaRoleSocialMediaSim({
             <div className="flex justify-center gap-6 pt-3">
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 min-w-[120px]">
                 <div className="text-[10px] text-slate-400 uppercase">Board Score</div>
-                <div className="text-2xl font-black text-sky-400">{Math.max(0, 100 - errors * 5)}%</div>
+                <div className="text-2xl font-black text-gold-400">{Math.max(0, 100 - errors * 5)}%</div>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 min-w-[120px]">
                 <div className="text-[10px] text-slate-400 uppercase">Mastery Tier</div>
@@ -2661,14 +2661,14 @@ function C12_MassMediaRoleSocialMediaSim({
 
           {/* Real-World Activity Card */}
           <div className="p-5 sm:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-sky-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🎯</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-sky-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

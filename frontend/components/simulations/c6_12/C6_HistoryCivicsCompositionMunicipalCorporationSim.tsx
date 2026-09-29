@@ -1298,7 +1298,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
               <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
                 ICSE Class 6 Civics
               </span>
-              <span className="text-xs px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded-full border border-indigo-700">
+              <span className="text-xs px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded-full border border-gold-700">
                 74th Amendment
               </span>
             </div>
@@ -1316,7 +1316,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                 ? 'bg-emerald-950/70 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 text-rose-400 border-rose-700'
-                : 'bg-blue-950/70 text-blue-400 border-blue-700'
+                : 'bg-gold-950/70 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1341,9 +1341,9 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
           >
             <motion.div
               whileHover={{ scale: 1.005 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-amber-950/30 border border-indigo-700/50 rounded-2xl shadow-lg"
+              className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-amber-950/30 border border-gold-700/50 rounded-2xl shadow-lg"
             >
-              <div className="flex items-center gap-2 mb-2 text-indigo-400 font-bold text-sm">
+              <div className="flex items-center gap-2 mb-2 text-gold-400 font-bold text-sm">
                 <span>🌧️</span>
                 <span>CIVIC CRISIS SCENARIO</span>
               </div>
@@ -1400,7 +1400,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-indigo-600 hover:from-amber-500 hover:to-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg"
+                    className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-gold-600 hover:from-amber-500 hover:to-gold-500 text-white font-bold text-sm rounded-xl shadow-lg"
                   >
                     Enter Interactive Civic Labs →
                   </motion.button>
@@ -1621,9 +1621,9 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
 
                       {selectedRole === 'councillor' && (
                         <motion.div key="councillor-info" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-3">
-                          <div className="p-3 bg-sky-500/10 border border-sky-500/30 rounded-xl">
+                          <div className="p-3 bg-gold-500/10 border border-gold-500/30 rounded-xl">
                             <span className="text-2xl">🗳️</span>
-                            <h4 className="font-bold text-sky-300 text-lg">Ward Councillor</h4>
+                            <h4 className="font-bold text-gold-300 text-lg">Ward Councillor</h4>
                             <p className="text-xs text-slate-300 mt-1">Direct Grassroots Representative</p>
                           </div>
                           <ul className="text-xs space-y-2 text-slate-300">
@@ -1737,7 +1737,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                         <span className="text-4xl">{SEVEN_FUNCTIONS[activeFunctionIndex].icon}</span>
                         <div>
                           <h3 className="text-xl font-black text-amber-300">{SEVEN_FUNCTIONS[activeFunctionIndex].name}</h3>
-                          <p className="text-xs text-indigo-400 font-semibold">{SEVEN_FUNCTIONS[activeFunctionIndex].department}</p>
+                          <p className="text-xs text-gold-400 font-semibold">{SEVEN_FUNCTIONS[activeFunctionIndex].department}</p>
                         </div>
                       </div>
                       <p className="text-slate-300 text-sm leading-relaxed mb-4">{SEVEN_FUNCTIONS[activeFunctionIndex].desc}</p>
@@ -1765,7 +1765,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
             {currentSlide === 2 && (
               <div className="space-y-6">
                 {!predictionMade ? (
-                  <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950 border border-indigo-800/50 rounded-2xl">
+                  <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950 border border-gold-800/50 rounded-2xl">
                     <span className="text-xs font-bold text-amber-400 uppercase tracking-wider">Predict Before Testing:</span>
                     <h3 className="text-base font-bold text-white mt-1 mb-3">{PREDICTION_QUESTIONS[0].question}</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1811,8 +1811,8 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                   />
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-                    <div className="p-3 bg-indigo-950/40 border border-indigo-800 rounded-xl">
-                      <h4 className="text-xs font-bold text-indigo-300 mb-1">Deliberative Wing Response:</h4>
+                    <div className="p-3 bg-gold-950/40 border border-gold-800 rounded-xl">
+                      <h4 className="text-xs font-bold text-gold-300 mb-1">Deliberative Wing Response:</h4>
                       <p className="text-xs text-slate-300">
                         {emergencySeverity > 70
                           ? 'Mayor calls Emergency Council session; Councillors sanction emergency disaster fund of ₹50 Crores.'
@@ -1869,7 +1869,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                       className={`text-xs px-3 py-1 font-bold rounded-lg border ${
                         townPopulation >= 1000000
                           ? 'bg-amber-950/80 text-amber-300 border-amber-600'
-                          : 'bg-sky-950/80 text-sky-300 border-sky-600'
+                          : 'bg-gold-950/80 text-gold-300 border-gold-600'
                       }`}
                     >
                       {townPopulation >= 1000000 ? 'Mahanagar Palika (Corporation)' : 'Nagar Palika (Municipality)'}
@@ -1969,7 +1969,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                     whileTap={{ scale: 0.95 }}
                     onClick={handleStartGrievanceSim}
                     disabled={isGrievanceTracking && grievanceStep < 3}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     {isGrievanceTracking && grievanceStep < 3 ? 'Tracking in Progress...' : '▶ File Mock Complaint'}
                   </motion.button>
@@ -1998,7 +1998,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                   ))}
                 </div>
 
-                <div className="p-3 bg-indigo-950/30 border border-indigo-800/40 rounded-xl text-xs text-slate-300">
+                <div className="p-3 bg-gold-950/30 border border-gold-800/40 rounded-xl text-xs text-slate-300">
                   💡 <strong>Active Citizenship Principle:</strong> Municipalities cannot place an inspector on every street. Citizen complaints form the vital sensory network that keeps urban governance accountable and effective.
                 </div>
               </div>
@@ -2025,7 +2025,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide((s) => s + 1)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Next Lab →
                 </motion.button>
@@ -2088,7 +2088,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
 
               <div>
                 <div className="flex justify-between text-xs font-bold mb-1">
-                  <span className="text-sky-300">🚰 Water Supply & Drainage: ₹{waterAllocation} Cr</span>
+                  <span className="text-gold-300">🚰 Water Supply & Drainage: ₹{waterAllocation} Cr</span>
                 </div>
                 <input
                   type="range"
@@ -2097,7 +2097,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                   value={waterAllocation}
                   onChange={(e) => setWaterAllocation(Number(e.target.value))}
                   aria-label="Water Budget"
-                  className="w-full accent-sky-500 h-2 bg-slate-700 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-700 rounded-lg cursor-pointer"
                 />
               </div>
 
@@ -2140,7 +2140,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-indigo-600 hover:from-amber-500 hover:to-indigo-500 text-white font-black text-sm rounded-xl shadow-lg"
+                className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-gold-600 hover:from-amber-500 hover:to-gold-500 text-white font-black text-sm rounded-xl shadow-lg"
               >
                 I am Ready for the Challenges! →
               </motion.button>
@@ -2178,7 +2178,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
 
               <div className="w-full sm:w-48 bg-slate-800 h-2 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-amber-500 to-indigo-500"
+                  className="h-full bg-gradient-to-r from-amber-500 to-gold-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2224,7 +2224,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2244,7 +2244,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                       onDrop={() => handleDragDrop(target.id)}
                       className={`p-4 rounded-xl border-2 border-dashed flex flex-col justify-between min-h-[90px] ${
                         droppedLabels[target.id]
-                          ? 'bg-indigo-950/40 border-indigo-500'
+                          ? 'bg-gold-950/40 border-gold-500'
                           : 'bg-slate-900/60 border-slate-700'
                       }`}
                     >
@@ -2302,7 +2302,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Submit Order
                 </motion.button>
@@ -2356,7 +2356,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                       key={idx}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2389,7 +2389,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/60 border border-indigo-800/80 rounded-2xl space-y-4"
+                className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/60 border border-gold-800/80 rounded-2xl space-y-4"
               >
                 <div className="flex items-center gap-2 text-amber-400 font-bold text-sm">
                   <span>📖</span>
@@ -2419,7 +2419,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                   >
                     Reveal Next Analytical Step →
                   </motion.button>
@@ -2454,7 +2454,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
             className="space-y-6"
           >
             {/* Scorecard Header */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-amber-950/50 border border-amber-500/40 rounded-3xl text-center space-y-3">
+            <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-amber-950/50 border border-amber-500/40 rounded-3xl text-center space-y-3">
               <span className="text-5xl block">🏛️</span>
               <h2 className="text-2xl sm:text-3xl font-black text-white">Civics Mastery Complete!</h2>
               <p className="text-slate-300 text-sm">
@@ -2484,7 +2484,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
             </div>
 
             {/* ─── SPACED REPETITION SCHEDULE VISIBILITY ─── */}
-            <div className="p-5 bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/60 border border-amber-500/50 rounded-2xl shadow-lg">
+            <div className="p-5 bg-gradient-to-r from-amber-950/60 via-slate-900 to-gold-950/60 border border-amber-500/50 rounded-2xl shadow-lg">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xl">📅</span>
                 <span className="font-bold text-amber-300 text-sm tracking-wide uppercase">
@@ -2611,7 +2611,7 @@ function C6_HistoryCivicsCompositionMunicipalCorporationSim(
 
             {/* Real-World Activity */}
             <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-3">
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
                 <span>📋</span>
                 <span>{REAL_WORLD_ACTIVITY.title}</span>
               </div>

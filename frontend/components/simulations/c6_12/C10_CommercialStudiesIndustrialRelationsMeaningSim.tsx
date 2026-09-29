@@ -1325,13 +1325,13 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded-md border border-indigo-800">
+              <span className="text-xs font-semibold uppercase tracking-wider text-gold-400 bg-gold-950/80 px-2 py-0.5 rounded-md border border-gold-800">
                 ICSE Class 10 Commercial Studies
               </span>
               <span className="text-xs text-slate-400">Nodes 031–040</span>
@@ -1351,7 +1351,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-700'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-700'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-700'
               }`}
             >
               TIER: {difficulty.toUpperCase()}
@@ -1363,7 +1363,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               <span
                 key={p}
                 className={`text-[10px] font-semibold uppercase px-2 py-1 rounded-lg transition-colors ${
-                  phase === p ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-400'
+                  phase === p ? 'bg-gold-600 text-white shadow-sm' : 'text-slate-400'
                 }`}
               >
                 {p}
@@ -1376,13 +1376,13 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 sm:p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
+          <div className="p-5 sm:p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">🏭</span>
-              <h2 className="text-lg font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-200">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2 font-medium">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 font-medium">{SCENARIO.context}</p>
           </div>
 
           <div className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 shadow-md">
@@ -1408,7 +1408,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/60 border-slate-800 text-slate-400'
-                      : 'bg-slate-900/90 hover:bg-indigo-950/50 border-slate-700 text-slate-200'
+                      : 'bg-slate-900/90 hover:bg-gold-950/50 border-slate-700 text-slate-200'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1440,7 +1440,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Operations Labs →
                 </motion.button>
@@ -1469,7 +1469,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               className="p-5 sm:p-6 bg-slate-800/90 rounded-2xl border border-slate-700 shadow-xl space-y-4"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Interactive Lab #{currentSlide + 1}
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-white mt-1">
@@ -1487,7 +1487,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     <div className="space-y-4 bg-slate-950/70 p-4 rounded-xl border border-slate-800">
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
-                          <span className="text-indigo-300">Wage & Benefit Concession Level</span>
+                          <span className="text-gold-300">Wage & Benefit Concession Level</span>
                           <span className="text-white">{wageOffer}%</span>
                         </div>
                         <input
@@ -1500,7 +1500,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set wage and benefit concession level"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                         <div className="flex justify-between text-[10px] text-slate-500 mt-0.5">
                           <span>Low (Owner Profit Focus)</span>
@@ -1532,7 +1532,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-300 space-y-1">
-                        <p className="font-bold text-indigo-300">Legal Framework: Industrial Relations Code 2020</p>
+                        <p className="font-bold text-gold-300">Legal Framework: Industrial Relations Code 2020</p>
                         <p>Amalgamates Industrial Disputes Act 1947, Trade Unions Act 1926, and Standing Orders Act 1946.</p>
                         <p className="text-amber-400">
                           Status: <span className="font-semibold">{irBalanceMetrics.strikeRisk}</span>
@@ -1548,13 +1548,13 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
 
                       <div className="space-y-3">
                         <div>
-                          <div className="flex justify-between text-xs font-semibold text-blue-300 mb-1">
+                          <div className="flex justify-between text-xs font-semibold text-gold-300 mb-1">
                             <span>🏢 Employer (Profit & Productivity)</span>
                             <span>{Math.round(irBalanceMetrics.employerProfitability)}%</span>
                           </div>
                           <div className="h-3 bg-slate-800 rounded-full overflow-hidden">
                             <motion.div
-                              className="h-full bg-blue-500 rounded-full"
+                              className="h-full bg-gold-500 rounded-full"
                               animate={{ width: `${irBalanceMetrics.employerProfitability}%` }}
                             />
                           </div>
@@ -1596,7 +1596,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
 
                   {/* SVG DIAGRAM 1: TOPIC-SPECIFIC TRIPARTITE INDUSTRIAL RELATIONS ARCHITECTURE */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Topic Diagram 1: Tripartite Framework Architecture (IR Code 2020)
                     </span>
                     <svg viewBox="0 0 700 220" className="w-full h-44 bg-slate-900/90 rounded-lg p-2">
@@ -1660,7 +1660,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                 <div className="space-y-4 pt-2">
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                     {[
-                      { id: 'economic', label: '1. Economic', icon: '💰', color: 'border-blue-500' },
+                      { id: 'economic', label: '1. Economic', icon: '💰', color: 'border-gold-500' },
                       { id: 'protective', label: '2. Protective', icon: '🛡️', color: 'border-emerald-500' },
                       { id: 'social', label: '3. Social', icon: '🏥', color: 'border-amber-500' },
                       { id: 'fraternal', label: '4. Fraternal', icon: '🤝', color: 'border-purple-500' },
@@ -1672,7 +1672,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                         onClick={() => handleUnionPillarClick(p.id)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           selectedUnionPillar === p.id
-                            ? `bg-indigo-950/80 ${p.color} text-white shadow-lg`
+                            ? `bg-gold-950/80 ${p.color} text-white shadow-lg`
                             : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
@@ -1685,7 +1685,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   <div className="p-4 bg-slate-950/70 rounded-xl border border-slate-800 text-sm">
                     {selectedUnionPillar === 'economic' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-1">
-                        <p className="font-bold text-blue-300">Economic Function: Collective Bargaining</p>
+                        <p className="font-bold text-gold-300">Economic Function: Collective Bargaining</p>
                         <p className="text-slate-300 text-xs">
                           Negotiating biennial wage revisions, overtime remuneration, and Dearness Allowance.
                           (e.g., Datta Samant’s Mumbai Port Union securing ₹1,000/mo hikes).
@@ -1721,7 +1721,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     )}
                   </div>
 
-                  <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40 text-xs text-indigo-300 flex flex-wrap justify-between gap-2">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-300 flex flex-wrap justify-between gap-2">
                     <span>Central Federations: INTUC (Congress), BMS (RSS - 1.7 Cr Members), AITUC (CPI - Oldest)</span>
                     <span className="font-bold text-amber-400">Distinction: Trade Union (Workers) vs FICCI/CII (Employers)</span>
                   </div>
@@ -1736,7 +1736,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Monthly Basic Salary + DA</span>
-                          <span className="text-indigo-300 font-bold">₹{calcSalary.toLocaleString('en-IN')}</span>
+                          <span className="text-gold-300 font-bold">₹{calcSalary.toLocaleString('en-IN')}</span>
                         </div>
                         <input
                           type="range"
@@ -1749,7 +1749,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set monthly basic salary"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1782,7 +1782,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                               whileHover={{ scale: 1.01 }}
                               whileTap={{ scale: 0.99 }}
                               onClick={() => handleObservation(i)}
-                              className="w-full text-left p-2 rounded-lg bg-slate-800 hover:bg-indigo-950 border border-slate-700 text-[11px] text-slate-300 block"
+                              className="w-full text-left p-2 rounded-lg bg-slate-800 hover:bg-gold-950 border border-slate-700 text-[11px] text-slate-300 block"
                             >
                               {opt}
                             </motion.button>
@@ -1792,7 +1792,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     </div>
 
                     <div className="bg-slate-950/70 p-4 rounded-xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                      <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400">
                         Statutory Calculations (EPF & Gratuity Act 1972)
                       </h4>
 
@@ -1810,17 +1810,17 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                           <span>₹{Math.round(socialSecurityCalc.employerEPS).toLocaleString('en-IN')}</span>
                         </div>
                         <div className="p-2 bg-slate-900/80 rounded-lg border border-slate-800 text-[11px]">
-                          <span className="text-blue-400 font-semibold block">→ EPF Share (3.67%):</span>
+                          <span className="text-gold-400 font-semibold block">→ EPF Share (3.67%):</span>
                           <span>₹{Math.round(socialSecurityCalc.employerEPF).toLocaleString('en-IN')}</span>
                         </div>
                       </div>
 
-                      <div className="p-3 bg-gradient-to-r from-indigo-950 to-slate-900 rounded-xl border border-indigo-700">
+                      <div className="p-3 bg-gradient-to-r from-gold-950 to-slate-900 rounded-xl border border-gold-700">
                         <div className="flex justify-between items-center">
                           <span className="text-xs font-bold text-amber-300">
                             Statutory Gratuity Pay
                           </span>
-                          <span className="text-xs font-bold text-white bg-indigo-600 px-2 py-0.5 rounded">
+                          <span className="text-xs font-bold text-white bg-gold-600 px-2 py-0.5 rounded">
                             Cap: ₹20 Lakh
                           </span>
                         </div>
@@ -1835,9 +1835,9 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   </div>
 
                   {/* ─── MULTI-REPRESENTATION PANEL: EQUATION VS VISUAL BREAKDOWN VS MATRIX TABLE ─── */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 space-y-3">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 space-y-3">
                     <div className="flex items-center justify-between flex-wrap gap-2">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                         Multi-Representation Mode: Statutory Gratuity Formula Dual View
                       </span>
                       <div className="flex gap-1 bg-slate-900 p-1 rounded-lg border border-slate-800">
@@ -1846,7 +1846,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                             key={mode}
                             onClick={() => setGratuityViewMode(mode)}
                             className={`text-[10px] uppercase font-bold px-2 py-1 rounded transition-colors ${
-                              gratuityViewMode === mode ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-slate-200'
+                              gratuityViewMode === mode ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-slate-200'
                             }`}
                           >
                             {mode} View
@@ -1859,7 +1859,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       <div className="p-4 bg-slate-900/90 rounded-xl border border-slate-800 text-center space-y-2">
                         <p className="text-xs text-slate-400 uppercase font-semibold">Representation A: Statutory Algebraic Equation</p>
                         <div className="text-sm sm:text-base font-mono text-emerald-300 font-bold">
-                          Gratuity = <span className="text-indigo-300">(Monthly Wages ÷ 26)</span> × <span className="text-amber-300">15 Days</span> × <span className="text-purple-300">Completed Years</span>
+                          Gratuity = <span className="text-gold-300">(Monthly Wages ÷ 26)</span> × <span className="text-amber-300">15 Days</span> × <span className="text-purple-300">Completed Years</span>
                         </div>
                         <div className="text-xs font-mono text-slate-300 pt-1">
                           = (₹{calcSalary.toLocaleString('en-IN')} ÷ 26) × 15 × {calcYears} = ₹{socialSecurityCalc.dailyWageRate.toLocaleString('en-IN')} × 15 × {calcYears} = <span className="text-amber-300 font-bold">₹{socialSecurityCalc.cappedGratuity.toLocaleString('en-IN')}</span>
@@ -1871,7 +1871,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       <div className="grid grid-cols-3 gap-2 text-center text-xs">
                         <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">1. Daily Wage Rate</span>
-                          <span className="text-indigo-300 font-bold font-mono">₹{calcSalary} ÷ 26 = ₹{socialSecurityCalc.dailyWageRate}</span>
+                          <span className="text-gold-300 font-bold font-mono">₹{calcSalary} ÷ 26 = ₹{socialSecurityCalc.dailyWageRate}</span>
                         </div>
                         <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">2. Annual Unit (15 Days)</span>
@@ -1904,7 +1904,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                             </tr>
                             <tr className="border-b border-slate-800/60">
                               <td className="p-2 font-medium">Employee EPF</td>
-                              <td className="p-2 text-indigo-300 font-bold">12% Basic + DA</td>
+                              <td className="p-2 text-gold-300 font-bold">12% Basic + DA</td>
                               <td className="p-2 font-mono">₹{socialSecurityCalc.employeeEPF} / mo</td>
                               <td className="p-2 text-slate-400">EPF & MP Act 1952</td>
                             </tr>
@@ -1957,7 +1957,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               {currentSlide === 3 && (
                 <div className="space-y-4 pt-2">
                   {!predictionStates[0]?.selected && (
-                    <div className="p-4 bg-indigo-950/70 rounded-xl border border-indigo-800 text-xs space-y-2">
+                    <div className="p-4 bg-gold-950/70 rounded-xl border border-gold-800 text-xs space-y-2">
                       <span className="px-2 py-0.5 text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 rounded">
                         PREDICT-THEN-CHECK #1
                       </span>
@@ -2006,13 +2006,13 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                         onClick={() => handleModeChange(m.id as any)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           selectedMode === m.id
-                            ? 'bg-indigo-950 border-indigo-500 text-white shadow-lg'
+                            ? 'bg-gold-950 border-gold-500 text-white shadow-lg'
                             : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:text-slate-200'
                         }`}
                       >
                         <span className="text-2xl block mb-1">{m.icon}</span>
                         <span className="text-xs font-bold block">{m.name}</span>
-                        <span className="text-[10px] text-indigo-400 font-semibold">{m.rate}</span>
+                        <span className="text-[10px] text-gold-400 font-semibold">{m.rate}</span>
                       </motion.button>
                     ))}
                   </div>
@@ -2026,7 +2026,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     </div>
                     <div>
                       <span className="text-slate-400 block">Estimated Transit Duration:</span>
-                      <span className="text-lg font-bold text-indigo-300">
+                      <span className="text-lg font-bold text-gold-300">
                         {transportMetrics.transitHours} Hours
                       </span>
                     </div>
@@ -2045,7 +2045,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                 <div className="space-y-4 pt-2">
                   {/* PREDICTION QUESTION #2 */}
                   {predictionStates[1]?.selected === undefined && (
-                    <div className="p-4 bg-indigo-950/70 rounded-xl border border-indigo-800 text-xs space-y-2">
+                    <div className="p-4 bg-gold-950/70 rounded-xl border border-gold-800 text-xs space-y-2">
                       <span className="px-2 py-0.5 text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 rounded">
                         PREDICT-THEN-CHECK #2
                       </span>
@@ -2084,7 +2084,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     <div className="space-y-4 bg-slate-950/70 p-4 rounded-xl border border-slate-800">
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
-                          <span className="text-indigo-300">RBI Repo Rate (MPC Benchmark)</span>
+                          <span className="text-gold-300">RBI Repo Rate (MPC Benchmark)</span>
                           <span className="text-white font-bold">{repoRate}%</span>
                         </div>
                         <input
@@ -2098,7 +2098,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                             audioManager.play('count');
                           }}
                           aria-label="Set RBI repo rate"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -2123,7 +2123,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs space-y-1">
-                        <p className="font-bold text-indigo-300">Policy Stance: {rbiMetrics.policyStance}</p>
+                        <p className="font-bold text-gold-300">Policy Stance: {rbiMetrics.policyStance}</p>
                         <p className="text-slate-400">
                           Credit Creation Multiplier (1 ÷ CRR): <span className="font-bold text-white">{rbiMetrics.creditMultiplier}x</span>
                         </p>
@@ -2146,8 +2146,8 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                         </div>
                       </div>
 
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800 text-[11px] text-slate-300 space-y-1">
-                        <p className="font-bold text-indigo-300">Statutory Apex Role vs Commercial:</p>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800 text-[11px] text-slate-300 space-y-1">
+                        <p className="font-bold text-gold-300">Statutory Apex Role vs Commercial:</p>
                         <p>
                           RBI issues all notes ₹2 and above; One-rupee notes & coins issued by Ministry of Finance.
                           RBI deals ONLY with Govt & Commercial Banks.
@@ -2158,7 +2158,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
 
                   {/* SVG DIAGRAM 3: TOPIC-SPECIFIC MONETARY POLICY TRANSMISSION */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block mb-2">
+                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-2">
                       Topic Diagram 3: RBI Monetary Policy Transmission Mechanism
                     </span>
                     <svg viewBox="0 0 700 140" className="w-full h-32 bg-slate-900/90 rounded-lg p-2">
@@ -2216,7 +2216,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2239,7 +2239,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
           <div className="p-4 bg-slate-800/90 rounded-2xl border border-slate-700 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h3 className="text-base font-bold text-indigo-300">Commercial Operations Free Sandbox</h3>
+              <h3 className="text-base font-bold text-gold-300">Commercial Operations Free Sandbox</h3>
               <p className="text-xs text-slate-400">
                 Explore all sliders, calculate gratuity, simulate logistics cost trade-offs, and test RBI repo effects without grading.
               </p>
@@ -2256,7 +2256,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase">Interactive Gratuity Simulator</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Interactive Gratuity Simulator</span>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Monthly Basic: ₹{calcSalary.toLocaleString('en-IN')}</span>
@@ -2270,7 +2270,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   value={calcSalary}
                   onChange={(e) => setCalcSalary(Number(e.target.value))}
                   aria-label="Sandbox monthly salary"
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <input
                   type="range"
@@ -2308,7 +2308,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
                 <span>Total Freight Cost ({cargoTonnage}T / {cargoDistance}km):</span>
-                <span className="text-base font-bold text-indigo-300">₹{transportMetrics.totalCost.toLocaleString('en-IN')}</span>
+                <span className="text-base font-bold text-gold-300">₹{transportMetrics.totalCost.toLocaleString('en-IN')}</span>
               </div>
             </div>
           </div>
@@ -2333,14 +2333,14 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
             </div>
 
             <div className="text-xs text-slate-400">
-              Mastery: <span className="font-bold text-indigo-400 capitalize">{masteryLevel}</span> (
+              Mastery: <span className="font-bold text-gold-400 capitalize">{masteryLevel}</span> (
               {scoreBreakdown.correct}/{scoreBreakdown.total} Correct)
             </div>
           </div>
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2409,7 +2409,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable label ${item.label}`}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2444,7 +2444,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Drop Assignments
                 </motion.button>
@@ -2475,7 +2475,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       aria-label={`Sort item ${idx + 1}`}
                       className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-800 text-indigo-400 font-bold flex items-center justify-center text-xs shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-slate-800 text-gold-400 font-bold flex items-center justify-center text-xs shrink-0">
                         {idx + 1}
                       </span>
                       <span>{item}</span>
@@ -2489,7 +2489,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Order
                 </motion.button>
@@ -2505,7 +2505,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
                     aria-label="Numerical answer input"
-                    className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-48"
+                    className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-48"
                   />
                   <span className="text-sm font-semibold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2514,7 +2514,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                     animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2535,7 +2535,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                         setConstructParts((prev) => [...prev, part]);
                         audioManager.play('tap');
                       }}
-                      className="px-3 py-1.5 bg-slate-900 hover:bg-slate-700 border border-slate-700 text-indigo-300 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-slate-900 hover:bg-slate-700 border border-slate-700 text-gold-300 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2546,7 +2546,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-2.5 py-1 bg-indigo-900/80 border border-indigo-700 text-white rounded-md text-xs font-medium flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-900/80 border border-gold-700 text-white rounded-md text-xs font-medium flex items-center gap-1"
                     >
                       {part}
                       <button
@@ -2569,7 +2569,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Principle Sequence
                 </motion.button>
@@ -2581,7 +2581,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 sm:p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-xl border border-indigo-700/80 space-y-3"
+                className="mt-5 p-4 sm:p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-xl border border-gold-700/80 space-y-3"
               >
                 <span className="text-xs font-bold text-amber-300 uppercase tracking-wider block">
                   Step-by-Step Educational Solution:
@@ -2598,7 +2598,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs sm:text-sm text-slate-200 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400">{i + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{i + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2637,7 +2637,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
       {/* ─── PHASE 5: COMPLETION & MOTIVATIONAL FEEDBACK ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-3">
             <span className="text-4xl block">🎓</span>
             <h2 className="text-2xl font-extrabold text-white">Module Mastery Achieved!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2651,7 +2651,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               </div>
               <div className="text-center">
                 <span className="text-xs text-slate-400 block uppercase">Mastery Tier</span>
-                <span className="text-2xl font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2679,7 +2679,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY (PROMINENT SRS SCHEDULE DISPLAY) ─── */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border-2 border-indigo-500/60 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border-2 border-gold-500/60 shadow-xl space-y-3">
             <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-3">
                 <span className="text-3xl">🧠</span>
@@ -2687,7 +2687,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   <h4 className="text-sm font-bold text-white uppercase tracking-wider">
                     Spaced Repetition System (SRS) Schedule
                   </h4>
-                  <p className="text-xs text-indigo-300">
+                  <p className="text-xs text-gold-300">
                     Optimised retention intervals calculated based on your performance
                   </p>
                 </div>
@@ -2697,7 +2697,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
                   errors === 0
                     ? 'bg-emerald-950 text-emerald-300 border-emerald-500'
                     : errors <= 3
-                    ? 'bg-indigo-950 text-indigo-300 border-indigo-500'
+                    ? 'bg-gold-950 text-gold-300 border-gold-500'
                     : 'bg-amber-950 text-amber-300 border-amber-500'
                 }`}
               >
@@ -2709,7 +2709,7 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
               </span>
             </div>
 
-            <div className="p-4 bg-slate-950/80 rounded-xl border border-indigo-900/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+            <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/60 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
               <div className="space-y-0.5">
                 <span className="text-slate-400 block">Recommended Review Cadence:</span>
                 <span className="text-emerald-400 font-bold text-sm">
@@ -2746,8 +2746,8 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
             </div>
           )}
 
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-2 text-xs text-slate-300">
-            <h3 className="text-sm font-bold text-indigo-300">💡 Reflective Operations Analysis</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-2 text-xs text-slate-300">
+            <h3 className="text-sm font-bold text-gold-300">💡 Reflective Operations Analysis</h3>
             <ul className="space-y-1.5 list-disc list-inside text-slate-400">
               <li>Why is the statutory gratuity divisor 26 rather than 30 calendar days?</li>
               <li>How does the Dedicated Freight Corridor (DFC) lower India’s national logistics cost?</li>
@@ -2756,12 +2756,12 @@ export function C10_CommercialStudiesIndustrialRelationsMeaningSim({
           </div>
 
           <div className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">💼 {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">💼 {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

@@ -21,10 +21,10 @@ export const c11_app_ch10_p1: SimDef = {
         hook: 'Same average, totally different story — dispersion is what separates "consistent" from "lucky".',
     },
     teaching: [
-        { title: 'Central Tendency Is Only Half the Picture', text: 'Mean, median and mode locate the centre of data — but two datasets can share a mean while being wildly different in spread. Descriptive statistics adds dispersion measures to see the full shape.', emoji: '🎯', bgColor: 'from-teal-400 to-cyan-500' },
-        { title: 'Dispersion: Range, MD, Variance, SD', text: 'Range is max minus min. Mean deviation averages |x − centre|. Variance squares deviations before averaging; standard deviation is its square root — back in original units.', emoji: '📏', bgColor: 'from-cyan-400 to-sky-500' },
-        { title: 'SD Punishes Outliers More Than MD', text: 'Squaring deviations before averaging gives large deviations disproportionate weight — SD is not just "MD with squares", it is a different philosophy: big misses cost much more.', emoji: '⚖️', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Coefficient of Variation', text: 'CV = (σ / x̄) × 100 — a unit-free percentage that lets you compare variability across datasets with different units or very different means, like comparing exam marks to salaries.', emoji: '📐', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'Central Tendency Is Only Half the Picture', text: 'Mean, median and mode locate the centre of data — but two datasets can share a mean while being wildly different in spread. Descriptive statistics adds dispersion measures to see the full shape.', emoji: '🎯', bgColor: 'from-teal-400 to-gold-500' },
+        { title: 'Dispersion: Range, MD, Variance, SD', text: 'Range is max minus min. Mean deviation averages |x − centre|. Variance squares deviations before averaging; standard deviation is its square root — back in original units.', emoji: '📏', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'SD Punishes Outliers More Than MD', text: 'Squaring deviations before averaging gives large deviations disproportionate weight — SD is not just "MD with squares", it is a different philosophy: big misses cost much more.', emoji: '⚖️', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Coefficient of Variation', text: 'CV = (σ / x̄) × 100 — a unit-free percentage that lets you compare variability across datasets with different units or very different means, like comparing exam marks to salaries.', emoji: '📐', bgColor: 'from-gold-400 to-gold-500' },
     ],
     predict: { question: 'After 500 coin flips, the heads proportion settles closest to...', options: ['50%', '25%', '90%', 'it stays random'], answer: '50%', verifyWidget: 'sampler', verifyPrompt: 'Now try it - was your prediction right?' },
     beats: [

@@ -174,15 +174,15 @@ export const HydrogenBondVisualizer: React.FC<{
   }, [mode, temperature]);
 
   return (
-    <div className="w-full bg-slate-950 p-4 rounded-xl border border-cyan-800/40 text-cyan-100 flex flex-col items-center">
+    <div className="w-full bg-slate-950 p-4 rounded-xl border border-gold-800/40 text-gold-100 flex flex-col items-center">
       <div className="flex justify-between items-center w-full mb-3 px-2">
-        <h4 className="font-semibold text-lg text-cyan-300">
+        <h4 className="font-semibold text-lg text-gold-300">
           {mode === 'water' && 'Liquid Water Dynamic H-Bond Network'}
           {mode === 'ice' && 'Ice Hexagonal Lattice Structure (Open Space)'}
           {mode === 'nitrophenol' && 'Ortho vs Para-Nitrophenol Hydrogen Bonding'}
           {mode === 'hf' && 'Hydrogen Fluoride Zig-Zag Chains'}
         </h4>
-        <span className="text-xs bg-cyan-950 border border-cyan-700/50 px-2 py-1 rounded text-cyan-300 font-mono">
+        <span className="text-xs bg-gold-950 border border-gold-700/50 px-2 py-1 rounded text-gold-300 font-mono">
           Temp: {temperature}°C
         </span>
       </div>
@@ -332,9 +332,9 @@ export const HydrogenBondVisualizer: React.FC<{
         </svg>
       </div>
 
-      <div className="mt-3 text-xs text-slate-300 bg-slate-900 p-2.5 rounded-lg border border-cyan-900/40 w-full flex justify-between items-center">
+      <div className="mt-3 text-xs text-slate-300 bg-slate-900 p-2.5 rounded-lg border border-gold-900/40 w-full flex justify-between items-center">
         <span><strong>Key Rule:</strong> Must involve H attached to <strong>N, O, or F</strong> & lone pair on another N, O, F.</span>
-        <span className="text-cyan-400 font-mono">Distance ≤ 200 pm</span>
+        <span className="text-gold-400 font-mono">Distance ≤ 200 pm</span>
       </div>
     </div>
   );
@@ -408,10 +408,10 @@ export const PistonWorkSimulator: React.FC<{
   }, [calculatedData, onStateChange]);
 
   return (
-    <div className="w-full bg-slate-950 p-4 rounded-xl border border-indigo-800/40 text-slate-100">
+    <div className="w-full bg-slate-950 p-4 rounded-xl border border-gold-800/40 text-slate-100">
       <div className="flex justify-between items-center mb-3">
         <div>
-          <h4 className="font-bold text-indigo-300 text-base">
+          <h4 className="font-bold text-gold-300 text-base">
             First Law Piston Chamber (ΔU = q + w)
           </h4>
           <p className="text-xs text-slate-400">
@@ -420,7 +420,7 @@ export const PistonWorkSimulator: React.FC<{
           </p>
         </div>
         <div className="text-right text-xs font-mono">
-          <span className="bg-indigo-950 border border-indigo-700/50 px-2.5 py-1 rounded text-indigo-300">
+          <span className="bg-gold-950 border border-gold-700/50 px-2.5 py-1 rounded text-gold-300">
             P_ext: {externalPressure} bar
           </span>
         </div>
@@ -438,12 +438,12 @@ export const PistonWorkSimulator: React.FC<{
             </div>
           )}
           {systemType === 'closed' && (
-            <div className="absolute inset-0 border-4 stroke-dashed border-cyan-500/50 rounded-lg pointer-events-none" />
+            <div className="absolute inset-0 border-4 stroke-dashed border-gold-500/50 rounded-lg pointer-events-none" />
           )}
 
           {/* Gas Chamber */}
           <div
-            className="w-48 bg-indigo-950/60 border-x-4 border-b-4 border-slate-600 rounded-b-lg relative transition-all duration-300 flex flex-col justify-end"
+            className="w-48 bg-gold-950/60 border-x-4 border-b-4 border-slate-600 rounded-b-lg relative transition-all duration-300 flex flex-col justify-end"
             style={{ height: `${Math.min(180, volume * 40)}px` }}
           >
             {/* Movable Piston */}
@@ -457,7 +457,7 @@ export const PistonWorkSimulator: React.FC<{
               {[...Array(12)].map((_, i) => (
                 <motion.div
                   key={i}
-                  className="w-2.5 h-2.5 bg-cyan-400 rounded-full absolute shadow-sm shadow-cyan-400"
+                  className="w-2.5 h-2.5 bg-gold-400 rounded-full absolute shadow-sm shadow-gold-400"
                   animate={{
                     x: [(i * 15) % 150, (i * 25 + 30) % 150, (i * 15) % 150],
                     y: [(i * 10) % 100, (i * 20 + 20) % 100, (i * 10) % 100]
@@ -487,9 +487,9 @@ export const PistonWorkSimulator: React.FC<{
                   setVolume(parseFloat(e.target.value));
                   audioManager.play('tap');
                 }}
-                className="w-24 accent-indigo-500"
+                className="w-24 accent-gold-500"
               />
-              <span className="font-mono text-indigo-300">{volume.toFixed(1)} dm³</span>
+              <span className="font-mono text-gold-300">{volume.toFixed(1)} dm³</span>
             </label>
           </div>
         </div>
@@ -509,9 +509,9 @@ export const PistonWorkSimulator: React.FC<{
                 {calculatedData.w > 0 ? `+${calculatedData.w}` : calculatedData.w} J
               </span>
             </div>
-            <div className="flex justify-between items-center border-b border-slate-800 pb-1.5 bg-slate-950 p-2 rounded border border-indigo-900/50">
-              <span className="text-indigo-300 font-bold">Internal Energy (ΔU = q + w):</span>
-              <span className="text-indigo-300 font-bold text-sm">
+            <div className="flex justify-between items-center border-b border-slate-800 pb-1.5 bg-slate-950 p-2 rounded border border-gold-900/50">
+              <span className="text-gold-300 font-bold">Internal Energy (ΔU = q + w):</span>
+              <span className="text-gold-300 font-bold text-sm">
                 {calculatedData.deltaU > 0 ? `+${calculatedData.deltaU}` : calculatedData.deltaU} J
               </span>
             </div>
@@ -695,9 +695,9 @@ export const GibbsSpontaneityVisualizer: React.FC<{
   const kEq = Math.exp(-deltaG / (R * temp));
 
   return (
-    <div className="w-full bg-slate-950 p-4 rounded-xl border border-violet-800/40 text-violet-100">
+    <div className="w-full bg-slate-950 p-4 rounded-xl border border-gold-800/40 text-gold-100">
       <div className="flex justify-between items-center mb-3">
-        <h4 className="font-bold text-violet-300 text-base">
+        <h4 className="font-bold text-gold-300 text-base">
           Gibbs Free Energy & Spontaneity (ΔG = ΔH - TΔS)
         </h4>
         <span
@@ -736,7 +736,7 @@ export const GibbsSpontaneityVisualizer: React.FC<{
           <div>
             <div className="flex justify-between text-xs mb-1">
               <span>Entropy (ΔS):</span>
-              <span className="font-mono text-cyan-300">{deltaS} J/mol·K</span>
+              <span className="font-mono text-gold-300">{deltaS} J/mol·K</span>
             </div>
             <input
               type="range"
@@ -748,14 +748,14 @@ export const GibbsSpontaneityVisualizer: React.FC<{
                 setDeltaS(parseFloat(e.target.value));
                 audioManager.play('tap');
               }}
-              className="w-full accent-cyan-500"
+              className="w-full accent-gold-500"
             />
           </div>
 
           <div>
             <div className="flex justify-between text-xs mb-1">
               <span>Temperature (T):</span>
-              <span className="font-mono text-violet-300">{temp} K ({temp - 273}°C)</span>
+              <span className="font-mono text-gold-300">{temp} K ({temp - 273}°C)</span>
             </div>
             <input
               type="range"
@@ -767,7 +767,7 @@ export const GibbsSpontaneityVisualizer: React.FC<{
                 setTemp(parseFloat(e.target.value));
                 audioManager.play('tap');
               }}
-              className="w-full accent-violet-500"
+              className="w-full accent-gold-500"
             />
           </div>
         </div>
@@ -781,10 +781,10 @@ export const GibbsSpontaneityVisualizer: React.FC<{
             </div>
             <div className="flex justify-between pb-1 border-b border-slate-800">
               <span className="text-slate-400">-TΔS Term:</span>
-              <span className="text-cyan-300">{(-temp * deltaSInKj).toFixed(1)} kJ/mol</span>
+              <span className="text-gold-300">{(-temp * deltaSInKj).toFixed(1)} kJ/mol</span>
             </div>
-            <div className="flex justify-between p-2 bg-slate-950 rounded border border-violet-900/60 text-sm font-bold">
-              <span className="text-violet-300">Net ΔG:</span>
+            <div className="flex justify-between p-2 bg-slate-950 rounded border border-gold-900/60 text-sm font-bold">
+              <span className="text-gold-300">Net ΔG:</span>
               <span className={isSpontaneous ? 'text-emerald-400' : 'text-rose-400'}>
                 {deltaG > 0 ? `+${deltaG.toFixed(1)}` : deltaG.toFixed(1)} kJ/mol
               </span>
@@ -1220,7 +1220,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 sticky top-0 z-50">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-cyan-950 text-cyan-300 border border-cyan-800">
+            <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-gold-950 text-gold-300 border border-gold-800">
               ISC Class 11 Chemistry
             </span>
             <span className="text-xs text-slate-400">Nodes c11_chem_041 – 050</span>
@@ -1244,7 +1244,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
               }}
               className={`px-3 py-1.5 rounded-md transition-all ${
                 activeTab === tab.id
-                  ? 'bg-cyan-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -1310,7 +1310,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
               </div>
 
               {showPredictionFeedback && (
-                <div className="p-3 bg-slate-950 rounded-lg border border-cyan-800/50 text-xs text-cyan-200 font-sans">
+                <div className="p-3 bg-slate-950 rounded-lg border border-gold-800/50 text-xs text-gold-200 font-sans">
                   <strong>Insight:</strong> {DISCOVERY_PREDICTIONS[0].explanation}
                 </div>
               )}
@@ -1320,7 +1320,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl flex flex-col gap-5">
               <div className="flex justify-between items-center border-b border-slate-800 pb-3">
                 <div>
-                  <span className="text-xs text-cyan-400 font-mono font-semibold uppercase">
+                  <span className="text-xs text-gold-400 font-mono font-semibold uppercase">
                     Module {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                   </span>
                   <h2 className="text-lg font-bold text-white">
@@ -1344,7 +1344,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
                       audioManager.play('whoosh');
                       setCurrentSlideIndex((prev) => Math.min(TEACHING_SLIDES.length - 1, prev + 1));
                     }}
-                    className="px-3 py-1.5 bg-cyan-600 text-xs text-white rounded font-bold shadow hover:bg-cyan-500 disabled:opacity-40"
+                    className="px-3 py-1.5 bg-gold-600 text-xs text-white rounded font-bold shadow hover:bg-gold-500 disabled:opacity-40"
                   >
                     Next Concept
                   </button>
@@ -1416,11 +1416,11 @@ export default function C11_ChemistryHydrogenbondingSim() {
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="text-xs font-bold uppercase text-cyan-400 mb-2">1. Hydrogen Bonding & Lattice Simulator</h4>
+                  <h4 className="text-xs font-bold uppercase text-gold-400 mb-2">1. Hydrogen Bonding & Lattice Simulator</h4>
                   <HydrogenBondVisualizer mode="water" temperature={40} />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase text-indigo-400 mb-2">2. Piston Work & Energy Conservation</h4>
+                  <h4 className="text-xs font-bold uppercase text-gold-400 mb-2">2. Piston Work & Energy Conservation</h4>
                   <PistonWorkSimulator
                     systemType="closed"
                     processType="isobaric"
@@ -1431,7 +1431,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
               </div>
 
               <div className="mt-6">
-                <h4 className="text-xs font-bold uppercase text-violet-400 mb-2">3. Gibbs Free Energy & Equilibrium Crossover</h4>
+                <h4 className="text-xs font-bold uppercase text-gold-400 mb-2">3. Gibbs Free Energy & Equilibrium Crossover</h4>
                 <GibbsSpontaneityVisualizer initialDeltaH={-92.4} initialDeltaS={-198.7} />
               </div>
             </div>
@@ -1484,8 +1484,8 @@ export default function C11_ChemistryHydrogenbondingSim() {
 
               {/* Explanation feedback */}
               {isAnswerSubmitted && (
-                <div className="p-4 bg-slate-950 rounded-lg border border-cyan-800/60 text-xs space-y-2 mb-4">
-                  <div className="font-bold text-cyan-300">Explanatory Feedback:</div>
+                <div className="p-4 bg-slate-950 rounded-lg border border-gold-800/60 text-xs space-y-2 mb-4">
+                  <div className="font-bold text-gold-300">Explanatory Feedback:</div>
                   <p className="text-slate-300 leading-relaxed">{currentChallenge.explanation}</p>
                 </div>
               )}
@@ -1535,11 +1535,11 @@ export default function C11_ChemistryHydrogenbondingSim() {
                 </div>
                 <div className="bg-slate-950 p-3 rounded-lg border border-slate-800">
                   <span className="text-[10px] text-slate-400 block">Challenges Done</span>
-                  <span className="text-lg font-bold text-cyan-400">{CHALLENGES.length}</span>
+                  <span className="text-lg font-bold text-gold-400">{CHALLENGES.length}</span>
                 </div>
                 <div className="bg-slate-950 p-3 rounded-lg border border-slate-800">
                   <span className="text-[10px] text-slate-400 block">SRS Retention</span>
-                  <span className="text-lg font-bold text-violet-400">Optimal</span>
+                  <span className="text-lg font-bold text-gold-400">Optimal</span>
                 </div>
               </div>
 
@@ -1580,7 +1580,7 @@ export default function C11_ChemistryHydrogenbondingSim() {
                   setCurrentSlideIndex(0);
                   setCurrentChallengeIndex(0);
                 }}
-                className="px-6 py-2.5 bg-cyan-600 text-white font-bold text-xs rounded-lg shadow hover:bg-cyan-500 transition-colors"
+                className="px-6 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-lg shadow hover:bg-gold-500 transition-colors"
               >
                 Restart Simulation Session
               </button>

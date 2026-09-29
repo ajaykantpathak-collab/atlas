@@ -58,10 +58,10 @@ export function C12_AppliedMathsIntegrationApplicationsSim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 12 Applied Maths - Integration and Its Application</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Applied Maths - Integration and Its Application</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Area Under the Curve: Riemann Strip Factory</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300">Integral Lab</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Integral Lab</span>
       </header>
 
       {/* CONTROLS */}
@@ -69,10 +69,10 @@ export function C12_AppliedMathsIntegrationApplicationsSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Strips n</span>
-            <span className="text-indigo-300 font-mono font-bold">{n} strips</span>
+            <span className="text-gold-300 font-mono font-bold">{n} strips</span>
           </label>
           <input type="range" min={2} max={48} step={1} value={n} aria-label="number of strips"
-            onChange={(e) => setN(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setN(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -91,7 +91,7 @@ export function C12_AppliedMathsIntegrationApplicationsSim() {
       </div>
       <div className="flex flex-wrap gap-2 mb-4">
         {FNS.map((v) => (
-          <button key={v.id} onClick={() => setFnId(v.id)} className={`min-h-11 px-4 rounded-xl text-xs font-mono font-bold border ${fnId === v.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+          <button key={v.id} onClick={() => setFnId(v.id)} className={`min-h-11 px-4 rounded-xl text-xs font-mono font-bold border ${fnId === v.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
             {v.label}
           </button>
         ))}
@@ -118,9 +118,9 @@ export function C12_AppliedMathsIntegrationApplicationsSim() {
 
       {/* LIVE NUMBERS */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
-        <div className="p-3 bg-slate-900 rounded-2xl border border-indigo-800 text-center">
+        <div className="p-3 bg-slate-900 rounded-2xl border border-gold-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Riemann sum (your estimate)</p>
-          <p className="text-lg font-extrabold text-indigo-300 font-mono">{sum.toFixed(4)} sq units</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{sum.toFixed(4)} sq units</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-emerald-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Exact integral</p>
@@ -134,14 +134,14 @@ export function C12_AppliedMathsIntegrationApplicationsSim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> a definite integral is the limit of strip sums as n grows and dx shrinks.
+          <span className="font-bold text-gold-300">Big idea:</span> a definite integral is the limit of strip sums as n grows and dx shrinks.
           Integration reverses differentiation, so the exact area comes from the antiderivative.
           <span className="font-bold text-amber-300"> Misconception killer:</span> with few strips the left rule always misses low
           (increasing) or high (decreasing) parts of the curve -- the midpoint rule cancels that bias.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. With x^2, a = 4, set n = 2 and read the error. Keep doubling n (2, 4, 8, 16, 32) -- by what factor does the error shrink each time?</p>
         <p className="mt-1">2. Switch to sin(x) with a = pi (about 3.14) at n = 8. Toggle Left rule vs Midpoint rule -- which lands closer to the exact area of 2 sq units?</p>

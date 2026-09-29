@@ -1265,7 +1265,7 @@ function C9_GeographyDenudationWindWorkSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-600/40'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-600/40'
+                : 'bg-gold-950/60 text-gold-400 border-gold-600/40'
             }`}
           >
             Tier: {difficulty}
@@ -1549,12 +1549,12 @@ function C9_GeographyDenudationWindWorkSim({
               {currentSlide === 1 && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">Gravitational Tide Simulator</h4>
+                    <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Gravitational Tide Simulator</h4>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Moon Orbital Position:</span>
-                        <span className="font-mono text-cyan-400 font-bold">{moonAngle}°</span>
+                        <span className="font-mono text-gold-400 font-bold">{moonAngle}°</span>
                       </div>
                       <input
                         type="range"
@@ -1564,7 +1564,7 @@ function C9_GeographyDenudationWindWorkSim({
                         step={15}
                         value={moonAngle}
                         onChange={e => handleMoonAngleChange(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                       <div className="flex justify-between text-[10px] text-slate-400 mt-1">
                         <span>0° (New Moon)</span>
@@ -1604,7 +1604,7 @@ function C9_GeographyDenudationWindWorkSim({
                             onClick={() => setSelectedTidePort(port.id)}
                             className={`p-2 rounded text-[10px] font-semibold border ${
                               selectedTidePort === port.id
-                                ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                                ? 'bg-gold-950 border-gold-500 text-gold-200'
                                 : 'bg-slate-800 border-slate-700 text-slate-400'
                             }`}
                           >
@@ -1671,7 +1671,7 @@ function C9_GeographyDenudationWindWorkSim({
               {currentSlide === 2 && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">Planetary Winds & Coriolis</h4>
+                    <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Planetary Winds & Coriolis</h4>
 
                     <div>
                       <span className="text-xs text-slate-300">Select Hemisphere:</span>
@@ -1681,7 +1681,7 @@ function C9_GeographyDenudationWindWorkSim({
                           onClick={() => setSelectedHemisphere('north')}
                           className={`p-2 rounded text-xs font-semibold border ${
                             selectedHemisphere === 'north'
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-800 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1692,7 +1692,7 @@ function C9_GeographyDenudationWindWorkSim({
                           onClick={() => setSelectedHemisphere('south')}
                           className={`p-2 rounded text-xs font-semibold border ${
                             selectedHemisphere === 'south'
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-800 border-slate-700 text-slate-400'
                           }`}
                         >
@@ -1774,12 +1774,12 @@ function C9_GeographyDenudationWindWorkSim({
               {currentSlide === 3 && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   <div className="space-y-4">
-                    <h4 className="text-sm font-bold text-blue-400 uppercase tracking-wider">Orographic Rainfall Lab</h4>
+                    <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider">Orographic Rainfall Lab</h4>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Mountain Barrier Relief:</span>
-                        <span className="font-mono text-blue-400 font-bold">{mountainHeight} m</span>
+                        <span className="font-mono text-gold-400 font-bold">{mountainHeight} m</span>
                       </div>
                       <input
                         type="range"
@@ -1789,14 +1789,14 @@ function C9_GeographyDenudationWindWorkSim({
                         step={100}
                         value={mountainHeight}
                         onChange={e => setMountainHeight(Number(e.target.value))}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Oceanic Vapour Humidity:</span>
-                        <span className="font-mono text-blue-400 font-bold">{coastalHumidity}%</span>
+                        <span className="font-mono text-gold-400 font-bold">{coastalHumidity}%</span>
                       </div>
                       <input
                         type="range"
@@ -1805,16 +1805,16 @@ function C9_GeographyDenudationWindWorkSim({
                         max={100}
                         value={coastalHumidity}
                         onChange={e => setCoastalHumidity(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <span className="text-xs font-semibold text-emerald-400">Calculated Rainfall Yield:</span>
                       <div className="grid grid-cols-2 gap-2 text-xs">
-                        <div className="p-2 bg-slate-900 rounded border border-blue-900/60">
+                        <div className="p-2 bg-slate-900 rounded border border-gold-900/60">
                           <span className="text-slate-400">Windward (Mumbai):</span>
-                          <p className="text-sm font-bold text-blue-400">{orographicRainfallMM} cm</p>
+                          <p className="text-sm font-bold text-gold-400">{orographicRainfallMM} cm</p>
                         </div>
                         <div className="p-2 bg-slate-900 rounded border border-amber-900/60">
                           <span className="text-slate-400">Leeward (Pune):</span>
@@ -1970,7 +1970,7 @@ function C9_GeographyDenudationWindWorkSim({
 
                           <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                             <span className="text-slate-400 block mb-1">Precipitation Pattern:</span>
-                            <span className="font-bold text-blue-400">
+                            <span className="font-bold text-gold-400">
                               {selectedBiomeLat === 5 && 'Heavy Daily 4 o\'Clock Convection (>200cm)'}
                               {selectedBiomeLat === 15 && 'Distinct Summer Wet / Winter Dry'}
                               {selectedBiomeLat === 25 && 'Hyper-Arid (<25 cm)'}
@@ -2070,11 +2070,11 @@ function C9_GeographyDenudationWindWorkSim({
 
             {/* Box 2: Tides & Moon Quadrature */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase">2. Lunar Syzygy / Quadrature</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">2. Lunar Syzygy / Quadrature</span>
               <div>
                 <label className="text-[11px] text-slate-300 flex justify-between">
                   <span>Moon Angle:</span>
-                  <span className="font-mono text-cyan-400">{moonAngle}°</span>
+                  <span className="font-mono text-gold-400">{moonAngle}°</span>
                 </label>
                 <input
                   type="range"
@@ -2084,22 +2084,22 @@ function C9_GeographyDenudationWindWorkSim({
                   step={15}
                   value={moonAngle}
                   onChange={e => setMoonAngle(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-2.5 bg-slate-950 rounded text-[11px] text-slate-400">
                 Tidal Amplitude: <span className="text-white font-bold">{Math.round(tidalBulgeHeight * 0.4)} m</span> | Status:{' '}
-                <span className="text-cyan-400 font-bold">{moonAngle % 180 === 0 ? 'Spring Tide' : 'Neap Tide'}</span>
+                <span className="text-gold-400 font-bold">{moonAngle % 180 === 0 ? 'Spring Tide' : 'Neap Tide'}</span>
               </div>
             </div>
 
             {/* Box 3: Relief Precipitation */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-blue-400 uppercase">3. Mountain Orographic Barrier</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">3. Mountain Orographic Barrier</span>
               <div>
                 <label className="text-[11px] text-slate-300 flex justify-between">
                   <span>Relief Height:</span>
-                  <span className="font-mono text-blue-400">{mountainHeight} m</span>
+                  <span className="font-mono text-gold-400">{mountainHeight} m</span>
                 </label>
                 <input
                   type="range"
@@ -2109,11 +2109,11 @@ function C9_GeographyDenudationWindWorkSim({
                   step={100}
                   value={mountainHeight}
                   onChange={e => setMountainHeight(Number(e.target.value))}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-2.5 bg-slate-950 rounded text-[11px] text-slate-400">
-                Windward Rain: <span className="text-blue-400 font-bold">{orographicRainfallMM} cm</span> | Rain Shadow:{' '}
+                Windward Rain: <span className="text-gold-400 font-bold">{orographicRainfallMM} cm</span> | Rain Shadow:{' '}
                 <span className="text-amber-400 font-bold">{leewardRainfallMM} cm</span>
               </div>
             </div>
@@ -2150,7 +2150,7 @@ function C9_GeographyDenudationWindWorkSim({
                   ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600/40'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/60 text-rose-400 border-rose-600/40'
-                  : 'bg-indigo-950/60 text-indigo-400 border-indigo-600/40'
+                  : 'bg-gold-950/60 text-gold-400 border-gold-600/40'
               }`}
             >
               Tier: {difficulty}
@@ -2160,7 +2160,7 @@ function C9_GeographyDenudationWindWorkSim({
           {/* Progress Bar */}
           <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2520,7 +2520,7 @@ function C9_GeographyDenudationWindWorkSim({
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block mb-1">Mastery Status</span>
-                <span className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>

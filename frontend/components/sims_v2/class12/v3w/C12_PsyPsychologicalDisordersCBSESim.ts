@@ -11,7 +11,7 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Concepts of Abnormality: The Four Ds and Approaches to Defining Abnormal Behaviour',
     chapters: [],
     nodeIds: ['c12_psy_cbse_04_001', 'c12_psy_cbse_04_002', 'c12_psy_cbse_04_003', 'c12_psy_cbse_04_004', 'c12_psy_cbse_04_005', 'c12_psy_cbse_04_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine two students before the board exams: **Riya** feels “butterflies in the stomach,” studies intensely.', goal: 'Master Concepts of Abnormality: The Four Ds and Approaches to Defining Abnormal Behaviour.' },
     discovery: {
         question: '**REMEMBER**: State the Four Ds of abnormality and give a one-sentence description of each.',
@@ -20,7 +20,7 @@ export const w_c12_psypsychologicaldisorderscbsesim: SimDef = {
         hook: '**“Any behaviour that is statistically rare or socially unusual is abnormal.”** Students frequently equate *deviance*.',
     },
     teaching: [
-        { title: 'Abnormal behaviour is characterised by the.', text: 'Abnormal behaviour is characterised by the **Four Ds** — **deviance** (behaviour that violates societal norms), **distress** (unpleasant emotional experience for the individual or others),.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Abnormal behaviour is characterised by the.', text: 'Abnormal behaviour is characterised by the **Four Ds** — **deviance** (behaviour that violates societal norms), **distress** (unpleasant emotional experience for the individual or others),.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c12_psy_cbse_04_001', title: 'Abnormal behaviour is characterised by.',

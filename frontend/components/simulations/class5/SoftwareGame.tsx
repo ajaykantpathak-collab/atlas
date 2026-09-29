@@ -219,7 +219,7 @@ function TechieTara({ mood, speakingText }: MascotProps) {
             initial={{ opacity: 0, y: 10, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
-            className="bg-white text-slate-800 px-4 py-2.5 rounded-2xl shadow-xl border-2 border-sky-300 max-w-xs text-sm font-medium relative mb-4"
+            className="bg-white text-slate-800 px-4 py-2.5 rounded-2xl shadow-xl border-2 border-gold-300 max-w-xs text-sm font-medium relative mb-4"
           >
             <div className="absolute -left-2.5 bottom-3 w-0 h-0 border-t-8 border-t-transparent border-r-10 border-r-white border-b-8 border-b-transparent" />
             {speakingText}
@@ -348,35 +348,35 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Welcome to Software World!",
     text: "Techie Tara is here! Software is a set of instructions that tells the computer hardware what to do. There are two main families: System Software and Application Software.",
     emoji: "💻",
-    bgColor: "from-blue-900 to-indigo-900",
+    bgColor: "from-gold-900 to-gold-900",
     spoken: "Welcome to Software World! Techie Tara is here to show you how software makes computers work."
   },
   {
     title: "System Software: The Boss",
     text: "System software manages the computer hardware. The Operating System (like Windows or Linux) starts the computer, manages memory, and lets other programs run!",
     emoji: "⚙️",
-    bgColor: "from-indigo-900 to-slate-900",
+    bgColor: "from-gold-900 to-slate-900",
     spoken: "System software is the boss! The operating system starts the machine and manages all hardware resources."
   },
   {
     title: "Utility Programs & Drivers",
     text: "Utilities like Antivirus and Disk Cleanup keep the computer healthy. Device drivers act as translators between the operating system and hardware like printers and keyboards.",
     emoji: "🛠️",
-    bgColor: "from-slate-900 to-sky-900",
+    bgColor: "from-slate-900 to-gold-900",
     spoken: "Utility programs keep the system healthy, while device drivers help the operating system talk to printers and keyboards."
   },
   {
     title: "Application Software",
     text: "Application software helps users perform specific tasks. General purpose software (like Word, Excel, Paint) is used by anyone for many jobs. Customised software (like school attendance systems) is built for one specific organisation.",
     emoji: "📝",
-    bgColor: "from-sky-900 to-emerald-900",
+    bgColor: "from-gold-900 to-emerald-900",
     spoken: "Application software helps you do real jobs. General purpose tools are like multi-tools, while customised software is tailor-made for one organisation."
   },
   {
     title: "OSS, Defrag & Backup",
     text: "Open Source Software (OSS) has freely available source code (like Linux and Firefox). Defragmentation rearranges scattered file fragments for faster access, and Backup creates safe copies of data!",
     emoji: "🔒",
-    bgColor: "from-emerald-900 to-blue-900",
+    bgColor: "from-emerald-900 to-gold-900",
     spoken: "Open source software is free to share and modify. Defragmentation speeds up your hard disk, and backup keeps your data safe from loss!"
   }
 ];
@@ -406,7 +406,7 @@ const CHALLENGES: Challenge[] = [
       { id: 's4', label: 'School Attendance', icon: 'custom', correctBin: 'app' }
     ],
     bins: [
-      { id: 'system', label: 'System Software', color: 'bg-indigo-600 border-indigo-400' },
+      { id: 'system', label: 'System Software', color: 'bg-gold-600 border-gold-400' },
       { id: 'app', label: 'Application Software', color: 'bg-emerald-600 border-emerald-400' }
     ]
   },
@@ -435,7 +435,7 @@ const CHALLENGES: Challenge[] = [
     ],
     bins: [
       { id: 'util', label: 'Utility Programs', color: 'bg-amber-600 border-amber-400' },
-      { id: 'driver', label: 'Device Drivers', color: 'bg-violet-600 border-violet-400' }
+      { id: 'driver', label: 'Device Drivers', color: 'bg-gold-600 border-gold-400' }
     ]
   },
   // Challenge 5
@@ -490,7 +490,7 @@ const CHALLENGES: Challenge[] = [
       { id: 'op4', label: 'Cloud Copy', icon: 'backup', correctBin: 'backupBin' }
     ],
     bins: [
-      { id: 'defragBin', label: 'Speed & Cleanup', color: 'bg-blue-600 border-blue-400' },
+      { id: 'defragBin', label: 'Speed & Cleanup', color: 'bg-gold-600 border-gold-400' },
       { id: 'backupBin', label: 'Safety & Backup', color: 'bg-purple-600 border-purple-400' }
     ]
   }
@@ -693,12 +693,12 @@ export function SoftwareGame({ width = 720, height = 560, onComplete }: Software
           <span className="text-2xl">💻</span>
           <div>
             <h1 className="text-white font-extrabold text-sm tracking-wide">Software World</h1>
-            <p className="text-sky-400 text-[10px] font-semibold">Class 5 ICSE Computer Science</p>
+            <p className="text-gold-400 text-[10px] font-semibold">Class 5 ICSE Computer Science</p>
           </div>
         </div>
         <div className="flex items-center gap-4">
           {screen === 'play' && (
-            <span className="text-xs font-bold bg-slate-700 px-3 py-1 rounded-full text-sky-300">
+            <span className="text-xs font-bold bg-slate-700 px-3 py-1 rounded-full text-gold-300">
               Challenge {challengeIdx + 1} of {CHALLENGES.length}
             </span>
           )}
@@ -709,7 +709,7 @@ export function SoftwareGame({ width = 720, height = 560, onComplete }: Software
       {/* SCREEN CONTENT */}
       <div className="flex-1 flex flex-col justify-center items-center my-2 relative z-10">
         {screen === 'teaching' ? (
-          <div className="w-full max-w-xl bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-3xl border-2 border-sky-500/40 shadow-2xl flex flex-col items-center text-center">
+          <div className="w-full max-w-xl bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-3xl border-2 border-gold-500/40 shadow-2xl flex flex-col items-center text-center">
             <div className="text-6xl mb-3 animate-bounce">{TEACHING_SLIDES[slideIdx].emoji}</div>
             <h2 className="text-xl font-black text-white mb-2">{TEACHING_SLIDES[slideIdx].title}</h2>
             <p className="text-slate-200 text-sm leading-relaxed mb-6 px-4">{TEACHING_SLIDES[slideIdx].text}</p>
@@ -717,7 +717,7 @@ export function SoftwareGame({ width = 720, height = 560, onComplete }: Software
             <div className="flex justify-between items-center w-full px-4">
               <div className="flex gap-1.5">
                 {TEACHING_SLIDES.map((_, idx) => (
-                  <div key={idx} className={`h-2 rounded-full transition-all duration-300 ${idx === slideIdx ? 'w-6 bg-sky-400' : 'w-2 bg-slate-600'}`} />
+                  <div key={idx} className={`h-2 rounded-full transition-all duration-300 ${idx === slideIdx ? 'w-6 bg-gold-400' : 'w-2 bg-slate-600'}`} />
                 ))}
               </div>
               <div className="flex gap-2">
@@ -741,7 +741,7 @@ export function SoftwareGame({ width = 720, height = 560, onComplete }: Software
                       setScreen('play');
                     }
                   }}
-                  className="px-6 py-2 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white text-xs font-bold rounded-xl shadow-lg transition transform active:scale-95"
+                  className="px-6 py-2 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white text-xs font-bold rounded-xl shadow-lg transition transform active:scale-95"
                 >
                   {slideIdx === TEACHING_SLIDES.length - 1 ? "Start Game! 🚀" : "Next ➔"}
                 </button>
@@ -751,7 +751,7 @@ export function SoftwareGame({ width = 720, height = 560, onComplete }: Software
         ) : (
           <div className="w-full h-full flex flex-col justify-between items-center">
             {/* QUESTION BOX */}
-            <div className="bg-slate-800/95 border-2 border-sky-500/50 px-6 py-3 rounded-2xl shadow-xl max-w-xl text-center">
+            <div className="bg-slate-800/95 border-2 border-gold-500/50 px-6 py-3 rounded-2xl shadow-xl max-w-xl text-center">
               <p className="text-white font-bold text-sm md:text-base leading-snug">{currentChallenge.question}</p>
             </div>
 

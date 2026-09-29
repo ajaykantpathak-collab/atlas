@@ -11,7 +11,7 @@ export const w_c11_biologyelectrontransportsystemsim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Respiratory Balance Sheet: ATP Yield',
     chapters: [],
     nodeIds: ['c11_bio_cbse_12_007', 'c11_bio_cbse_08_006', 'c11_bio_cbse_12_001', 'c11_bio_cbse_12_005', 'c11_bio_cbse_12_006', 'c11_bio_cbse_11_001', 'c11_bio_cbse_11_002', 'c11_bio_cbse_11_003', 'c11_bio_cbse_11_008', 'c11_bio_cbse_08_005', 'c11_bio_cbse_09_007', 'c11_bio_cbse_14_001', 'c11_bio_cbse_15_008', 'c11_bio_cbse_16_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a marathon runner crossing the finish line — their muscles have consumed massive amounts of glucose.', goal: 'Master Respiratory Balance Sheet: ATP Yield.' },
     discovery: {
         question: 'A student claims: "Since fermentation yields only 2 ATP per glucose and aerobic respiration yields 38 ATP, aerobic respiration is 19 times more efficient.".',
@@ -20,7 +20,7 @@ export const w_c11_biologyelectrontransportsystemsim: SimDef = {
         hook: 'Students often believe the 38 ATP value is a fixed, universal constant for all eukaryotic cells.',
     },
     teaching: [
-        { title: 'The respiratory balance sheet is a.', text: 'The respiratory balance sheet is a theoretical calculation of the net ATP yield from the complete aerobic oxidation of one molecule of glucose, accounting for ATP generated via substrate-level.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The respiratory balance sheet is a.', text: 'The respiratory balance sheet is a theoretical calculation of the net ATP yield from the complete aerobic oxidation of one molecule of glucose, accounting for ATP generated via substrate-level.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_12_007', title: 'The respiratory balance sheet is a.',

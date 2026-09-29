@@ -1175,10 +1175,10 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
         className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 pb-4 mb-5 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2 py-0.5 rounded-md border border-indigo-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800">
                 CISCE Class 10
               </span>
               <span className="text-xs font-semibold text-slate-400">Commerce Applications</span>
@@ -1197,14 +1197,14 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-500 text-rose-300'
-                : 'bg-blue-950/70 border-blue-500 text-blue-300'
+                : 'bg-gold-950/70 border-gold-500 text-gold-300'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="text-right">
             <p className="text-xs text-slate-400">Mastery</p>
-            <p className="text-xs font-bold text-indigo-300 capitalize">{masteryLevel}</p>
+            <p className="text-xs font-bold text-gold-300 capitalize">{masteryLevel}</p>
           </div>
         </div>
       </motion.div>
@@ -1218,10 +1218,10 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-5">
           {/* Scenario Overview */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl">🏢</span>
-              <h3 className="text-base md:text-lg font-bold text-indigo-200">{SCENARIO.title}</h3>
+              <h3 className="text-base md:text-lg font-bold text-gold-200">{SCENARIO.title}</h3>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-3 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-slate-400">
@@ -1232,7 +1232,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
 
           {/* Discovery Question Card */}
           <div className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700">
-            <div className="flex items-center gap-2 text-xs font-bold text-indigo-400 mb-2 uppercase tracking-wide">
+            <div className="flex items-center gap-2 text-xs font-bold text-gold-400 mb-2 uppercase tracking-wide">
               <span>🎯 Pre-Exploration Curiosity Hook</span>
             </div>
             <p className="text-white font-semibold text-base mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1253,14 +1253,14 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                       : 'bg-slate-900 hover:bg-slate-750 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                  <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                   {opt}
                 </motion.button>
               ))}
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-slate-950 rounded-xl border border-indigo-900/60">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-slate-950 rounded-xl border border-gold-900/60">
                 <p className={`text-sm ${discoveryCorrect ? 'text-emerald-400 font-semibold' : 'text-amber-400 font-medium'}`}>
                   {discoveryCorrect ? '✓ Spot on! Selection is a negative filtering funnel.' : `👉 ${DISCOVERY_QUESTION.hintAfter}`}
                 </p>
@@ -1269,7 +1269,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-900/40"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-900/40"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1297,7 +1297,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                 }}
                 className={`px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                     : 'bg-slate-800/80 border-slate-700 text-slate-400 hover:bg-slate-750'
                 }`}
               >
@@ -1315,7 +1315,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
               className="p-5 bg-slate-800/90 rounded-2xl border border-slate-700 space-y-4"
             >
               <div>
-                <span className="text-xs font-mono uppercase tracking-wider text-indigo-400">Interactive Lab {currentSlide + 1} of 5</span>
+                <span className="text-xs font-mono uppercase tracking-wider text-gold-400">Interactive Lab {currentSlide + 1} of 5</span>
                 <h3 className="text-base md:text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs text-amber-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
@@ -1325,38 +1325,38 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs">
                     <div>
-                      <label className="text-slate-400 block mb-1">1. Screening Pass Rate: <span className="text-indigo-300 font-bold">{screeningPassRate}%</span></label>
+                      <label className="text-slate-400 block mb-1">1. Screening Pass Rate: <span className="text-gold-300 font-bold">{screeningPassRate}%</span></label>
                       <input
                         type="range"
                         min={10}
                         max={90}
                         value={screeningPassRate}
                         onChange={e => setScreeningPassRate(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Screening Pass Rate"
                       />
                     </div>
                     <div>
-                      <label className="text-slate-400 block mb-1">2. Aptitude Cut-Off: <span className="text-indigo-300 font-bold">{testCutoffScore}%</span></label>
+                      <label className="text-slate-400 block mb-1">2. Aptitude Cut-Off: <span className="text-gold-300 font-bold">{testCutoffScore}%</span></label>
                       <input
                         type="range"
                         min={30}
                         max={90}
                         value={testCutoffScore}
                         onChange={e => setTestCutoffScore(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Aptitude Test Cut-off"
                       />
                     </div>
                     <div>
-                      <label className="text-slate-400 block mb-1">3. Interview Shortlist: <span className="text-indigo-300 font-bold">{interviewPassRate}%</span></label>
+                      <label className="text-slate-400 block mb-1">3. Interview Shortlist: <span className="text-gold-300 font-bold">{interviewPassRate}%</span></label>
                       <input
                         type="range"
                         min={10}
                         max={60}
                         value={interviewPassRate}
                         onChange={e => setInterviewPassRate(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Interview Pass Rate"
                       />
                     </div>
@@ -1400,7 +1400,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                   {/* Observation hook */}
                   {!observationAnswered && (
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-700">
-                      <p className="text-xs text-indigo-300 font-semibold mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                      <p className="text-xs text-gold-300 font-semibold mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1423,7 +1423,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                 <div className="space-y-4">
                   {/* Predict Hook */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/70 rounded-xl border border-indigo-800">
+                    <div className="p-4 bg-gold-950/70 rounded-xl border border-gold-800">
                       <p className="text-xs font-bold text-amber-300 mb-1">🔮 Prediction Checkpoint</p>
                       <p className="text-xs md:text-sm text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
@@ -1453,7 +1453,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                         }}
                         className={`p-3 rounded-xl text-xs font-bold capitalize transition-all border ${
                           trainingMode === mode
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                         }`}
                       >
@@ -1466,14 +1466,14 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="space-y-3">
                       <div>
-                        <label className="text-xs text-slate-400 block mb-1">Trainee Batch Size: <span className="text-indigo-300 font-bold">{traineeCount}</span></label>
+                        <label className="text-xs text-slate-400 block mb-1">Trainee Batch Size: <span className="text-gold-300 font-bold">{traineeCount}</span></label>
                         <input
                           type="range"
                           min={10}
                           max={100}
                           value={traineeCount}
                           onChange={e => setTraineeCount(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Trainee Batch Size"
                         />
                       </div>
@@ -1501,7 +1501,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                         <span className="font-mono text-rose-400 font-bold">₹{trainingCostAnalysis.indirectCost.toLocaleString('en-IN')}</span>
                       </div>
                       <div className="flex justify-between pt-1 border-t border-slate-800 font-bold">
-                        <span className="text-indigo-300">Total Operational Cost:</span>
+                        <span className="text-gold-300">Total Operational Cost:</span>
                         <span className="font-mono text-white">₹{trainingCostAnalysis.totalCost.toLocaleString('en-IN')}</span>
                       </div>
                       <div className="pt-2 flex justify-between text-[11px]">
@@ -1533,7 +1533,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                           }}
                           className={`p-2 rounded-lg text-xs font-semibold text-left border ${
                             selectedPRScenario === sc.id
-                              ? 'bg-indigo-950 border-indigo-400 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-400 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1556,7 +1556,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                         onClick={() => handlePRStrategySelect(elem.id as typeof selectedPRElement)}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedPRElement === elem.id
-                            ? 'bg-indigo-600 border-indigo-300 text-white shadow-lg'
+                            ? 'bg-gold-600 border-gold-300 text-white shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-900'
                         }`}
                       >
@@ -1641,7 +1641,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     </div>
                     <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-center">
                       <p className="text-[11px] text-slate-400">Coal Reserve Horizon</p>
-                      <p className="text-xl font-bold font-mono text-indigo-300 mt-1">{environmentalMetrics.coalDepletionYears} Years</p>
+                      <p className="text-xl font-bold font-mono text-gold-300 mt-1">{environmentalMetrics.coalDepletionYears} Years</p>
                       <span className="text-[10px] text-slate-500">Stock exhaustion at rate</span>
                     </div>
                   </div>
@@ -1756,7 +1756,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1779,7 +1779,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
       ═════════════════════════════════════════════════════════════════════════ */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
-          <div className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/40 rounded-2xl border border-slate-700">
+          <div className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/40 rounded-2xl border border-slate-700">
             <div className="flex items-center gap-2 mb-1">
               <span className="text-xl">🕹️</span>
               <h3 className="text-base md:text-lg font-bold text-white">Free Sandbox Simulation Hub</h3>
@@ -1792,12 +1792,12 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Quick Levers */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase">Operational Levers</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Operational Levers</span>
               <div className="space-y-2 text-xs">
                 <div>
                   <label className="text-slate-400 flex justify-between">
                     <span>Aptitude Filter Cutoff:</span>
-                    <span className="text-indigo-300 font-bold">{testCutoffScore}%</span>
+                    <span className="text-gold-300 font-bold">{testCutoffScore}%</span>
                   </label>
                   <input
                     type="range"
@@ -1805,7 +1805,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     max={90}
                     value={testCutoffScore}
                     onChange={e => setTestCutoffScore(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Aptitude Filter Cutoff"
                   />
                 </div>
@@ -1847,7 +1847,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
               <span className="text-xs font-bold text-emerald-400 uppercase">Composite Output Status</span>
               <div className="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
                 <span className="text-slate-400">Final Placed Engineers:</span>
-                <span className="font-mono font-bold text-indigo-300">{funnelStages.finalOffers} hires</span>
+                <span className="font-mono font-bold text-gold-300">{funnelStages.finalOffers} hires</span>
               </div>
               <div className="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
                 <span className="text-slate-400">Total Training Expense (Direct + Scrap):</span>
@@ -1865,7 +1865,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToChallenge}
-              className="px-7 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-900/50"
+              className="px-7 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-900/50"
             >
               Begin Board Competency Challenges →
             </motion.button>
@@ -1885,15 +1885,15 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="font-mono text-indigo-400 uppercase tracking-wide">Competency: {challenge.competencyLevel}</span>
-                <span className="px-2 py-0.5 rounded bg-indigo-950 border border-indigo-800 text-indigo-300 font-bold uppercase text-[10px]">
+                <span className="font-mono text-gold-400 uppercase tracking-wide">Competency: {challenge.competencyLevel}</span>
+                <span className="px-2 py-0.5 rounded bg-gold-950 border border-gold-800 text-gold-300 font-bold uppercase text-[10px]">
                   {challenge.difficulty}
                 </span>
               </div>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-blue-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1932,7 +1932,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                         : 'bg-slate-900 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-mono text-xs text-indigo-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
+                    <span className="font-mono text-xs text-gold-400 mr-2">[{String.fromCharCode(65 + i)}]</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1951,7 +1951,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-semibold cursor-grab active:cursor-grabbing border border-indigo-500"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-semibold cursor-grab active:cursor-grabbing border border-gold-500"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -1972,7 +1972,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                       className="p-3.5 bg-slate-950 rounded-xl border border-dashed border-slate-700 flex flex-col justify-between min-h-[75px]"
                     >
                       <span className="text-[11px] text-slate-400">{target.label}</span>
-                      <div className="mt-2 p-2 bg-slate-900 rounded-lg text-xs font-bold text-indigo-300 border border-slate-800 text-center">
+                      <div className="mt-2 p-2 bg-slate-900 rounded-lg text-xs font-bold text-gold-300 border border-slate-800 text-center">
                         {droppedLabels[target.targetId] ? `✓ ${droppedLabels[target.targetId]}` : 'Drop matching label here'}
                       </div>
                     </div>
@@ -1984,7 +1984,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                   >
                     Validate Label Placements
                   </motion.button>
@@ -2014,7 +2014,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                       className="p-3 bg-slate-950 hover:bg-slate-900 rounded-xl border border-slate-800 text-xs md:text-sm text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <span className="font-mono text-indigo-400 font-bold mr-2">{idx + 1}.</span>
+                        <span className="font-mono text-gold-400 font-bold mr-2">{idx + 1}.</span>
                         {item}
                       </span>
                       <span className="text-slate-600">☰</span>
@@ -2027,7 +2027,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Check Step Sequence
                   </motion.button>
@@ -2052,7 +2052,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl disabled:opacity-50"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl disabled:opacity-50"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2070,7 +2070,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                       key={i}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-700 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2081,11 +2081,11 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                   <span className="text-[10px] text-slate-500 block uppercase font-bold">Constructed Blueprint:</span>
                   <div className="flex flex-wrap gap-2">
                     {constructParts.map((part, i) => (
-                      <span key={i} className="px-2.5 py-1 bg-indigo-700 text-white rounded-md text-xs font-medium flex items-center gap-1.5">
+                      <span key={i} className="px-2.5 py-1 bg-gold-700 text-white rounded-md text-xs font-medium flex items-center gap-1.5">
                         {part}
                         <button
                           onClick={() => setConstructParts(cp => cp.filter((_, idx) => idx !== i))}
-                          className="text-indigo-300 hover:text-white font-bold"
+                          className="text-gold-300 hover:text-white font-bold"
                         >
                           ✕
                         </button>
@@ -2100,7 +2100,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-50"
                   >
                     Validate Constructed Model
                   </motion.button>
@@ -2110,7 +2110,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
 
             {/* ─── PROGRESSIVE STEP-BY-STEP EXPLANATION ─── */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-indigo-900/70 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-gold-900/70 space-y-3">
                 <span className="text-xs font-bold text-amber-300 uppercase tracking-wide block">Step-by-Step Educational Breakdown:</span>
                 {challenge.explanation
                   .split('. ')
@@ -2118,7 +2118,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
                   .slice(0, revealedSteps + 1)
                   .map((sentence, idx) => (
                     <motion.p key={idx} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-slate-300 leading-relaxed">
-                      <span className="font-bold text-indigo-400 mr-1">{idx + 1}.</span>
+                      <span className="font-bold text-gold-400 mr-1">{idx + 1}.</span>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2158,7 +2158,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-5">
           {/* Summary Score Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-bold text-white">Module Mastery Attained!</h2>
             <div className="flex justify-center gap-6 text-sm">
@@ -2168,14 +2168,14 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
               </div>
               <div>
                 <p className="text-slate-400">BKT Mastery</p>
-                <p className="text-2xl font-bold font-mono text-indigo-300 capitalize">{masteryLevel}</p>
+                <p className="text-2xl font-bold font-mono text-gold-300 capitalize">{masteryLevel}</p>
               </div>
               <div>
                 <p className="text-slate-400">Errors</p>
                 <p className="text-2xl font-bold font-mono text-rose-400">{errors}</p>
               </div>
             </div>
-            <p className="text-xs text-indigo-200 max-w-xl mx-auto leading-relaxed pt-2">
+            <p className="text-xs text-gold-200 max-w-xl mx-auto leading-relaxed pt-2">
               {errors === 0
                 ? 'Flawless performance! You have mastered the entire spectrum from HR selection funnels to Chipko restoration policy.'
                 : errors <= 3
@@ -2204,7 +2204,7 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
           {/* Spaced Repetition (SRS) Status */}
           <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-between text-xs">
             <div>
-              <span className="font-bold text-indigo-300">Spaced Review Recommendation (SM-2):</span>
+              <span className="font-bold text-gold-300">Spaced Review Recommendation (SM-2):</span>
               <p className="text-slate-400 mt-0.5">
                 Next memory consolidation session due in{' '}
                 <span className="text-amber-300 font-bold">
@@ -2218,13 +2218,13 @@ export default function C10_CommerceAppSelectionMeaningMethodsSim({
 
           {/* Real-World Capstone Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">📋 Capstone Real-World Project</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">📋 Capstone Real-World Project</span>
             <h4 className="text-sm font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-2.5 bg-slate-950 rounded-xl border border-slate-850 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400 mr-2">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span>
                   {step}
                 </div>
               ))}

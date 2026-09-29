@@ -52,9 +52,9 @@ export function C11_ChemistryClassificationOfElementsAndPeriodicitySim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700 font-mono">Z</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">Z</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 11 -- Periodicity in Properties</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Periodicity in Properties</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Ride a Period: Radius, Ionization, Electronegativity</h1>
         </div>
       </div>
@@ -114,7 +114,7 @@ export function C11_ChemistryClassificationOfElementsAndPeriodicitySim() {
             <div className="grid grid-cols-2 gap-2">
               {([2, 3] as const).map((p) => (
                 <button key={p} onClick={() => { setPeriod(p); setSelIdx(0); }}
-                  className={`py-2 rounded-xl text-xs font-bold ${period === p ? 'bg-violet-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                  className={`py-2 rounded-xl text-xs font-bold ${period === p ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                   Period {p} ({p === 2 ? 'Li-Ne' : 'Na-Ar'})
                 </button>
               ))}
@@ -133,15 +133,15 @@ export function C11_ChemistryClassificationOfElementsAndPeriodicitySim() {
             <div className="grid grid-cols-4 gap-1">
               {els.map((el, i) => (
                 <button key={el.sym} onClick={() => setSelIdx(i)}
-                  className={`py-1 rounded-lg text-[11px] font-mono font-bold ${i === selIdx ? 'bg-violet-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
+                  className={`py-1 rounded-lg text-[11px] font-mono font-bold ${i === selIdx ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
                   {el.sym}
                 </button>
               ))}
             </div>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-violet-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-violet-300 font-bold">Why the anomalies matter (board favourite)</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Why the anomalies matter (board favourite)</div>
             <div className="text-slate-400">IE dips at <b>B</b> (2p^1 vs 2s^2) and <b>O</b> (2p^4 pairing) -- period 3 repeats both at <b>Al</b> and <b>S</b>.</div>
             <div className="text-slate-400">Radius shrink period 2: {(152 - 69).toFixed(0)} pm total; period 3: {186 - 94} pm. Same effective-nuclear-charge logic.</div>
             <div className="text-slate-400">Noble gases have no Pauling EN -- they refuse to bond.</div>
@@ -157,8 +157,8 @@ export function C11_ChemistryClassificationOfElementsAndPeriodicitySim() {
             </p>
           </div>
 
-          <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs">
-            <p className="font-bold text-violet-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Plot ionization enthalpy and find BOTH dips in period 3; click Al and S to confirm the sub-shell explanation.</p>
             <p>2. Which element breaks the &quot;non-metal = small&quot; rule between N and O, and what single word (pairing) explains it?</p>
           </div>

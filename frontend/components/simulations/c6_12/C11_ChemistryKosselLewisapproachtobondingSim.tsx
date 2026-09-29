@@ -457,7 +457,7 @@ const LewisBuilderVisualizer: React.FC<{
 const OrbitalOverlapVisualizer: React.FC<{ type: 'sigma' | 'pi'; rotation: number }> = ({ type, rotation }) => {
   return (
     <div className="flex flex-col items-center bg-slate-900/80 p-4 rounded-xl border border-slate-700 w-full max-w-md my-2">
-      <div className="text-xs text-sky-300 font-semibold mb-2">
+      <div className="text-xs text-gold-300 font-semibold mb-2">
         {type === 'sigma' ? 'Head-On (Axial) Overlap → Sigma (σ) Bond' : 'Sideways (Lateral) Overlap → Pi (π) Bond'}
       </div>
       <svg width="320" height="130" className="bg-slate-950 rounded-lg border border-slate-800">
@@ -594,7 +594,7 @@ const MoDiagramVisualizer: React.FC<{
   return (
     <div className="flex flex-col items-center bg-slate-900/80 p-4 rounded-xl border border-slate-700 w-full max-w-md my-2">
       <div className="flex justify-between w-full px-2 mb-1 text-xs">
-        <span className="font-bold text-sky-300">MO Diagram: {species.replace('_plus', '⁺')}</span>
+        <span className="font-bold text-gold-300">MO Diagram: {species.replace('_plus', '⁺')}</span>
         <span className="font-mono text-emerald-400 font-bold">
           BO = {species === 'N2' ? '3.0' : species === 'O2' ? '2.0' : '2.5'}
         </span>
@@ -647,7 +647,7 @@ const MoDiagramVisualizer: React.FC<{
       <div className="flex items-center gap-3 mt-2">
         <button
           onClick={onTestMagnet}
-          className="px-3 py-1 bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-xs font-bold rounded-md hover:brightness-110 shadow"
+          className="px-3 py-1 bg-gradient-to-r from-purple-600 to-gold-600 text-white text-xs font-bold rounded-md hover:brightness-110 shadow"
         >
           {isMagnetActive ? 'Remove Magnetic Field 🧲' : 'Apply External Magnetic Field 🧲'}
         </button>
@@ -892,12 +892,12 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
       <header className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center bg-slate-900/90 p-4 rounded-2xl border border-slate-800 backdrop-blur shadow-xl mb-6 gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-gradient-to-r from-sky-500 to-indigo-500 text-white uppercase tracking-wider">
+            <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-gradient-to-r from-gold-500 to-gold-500 text-white uppercase tracking-wider">
               Class 11 ISC Chemistry
             </span>
             <span className="text-xs text-slate-400 font-mono">Nodes c11_chem_031–040</span>
           </div>
-          <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-indigo-300 to-purple-400 mt-1">
+          <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400 mt-1">
             {SCENARIO.title}
           </h1>
           <p className="text-xs text-slate-400 mt-0.5">{SCENARIO.subtitle}</p>
@@ -930,7 +930,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
             onClick={() => setActiveTab(tab.id as any)}
             className={`px-4 py-2 rounded-lg text-xs font-bold transition ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-sky-500 to-indigo-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -979,9 +979,9 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="p-4 bg-sky-950/40 border border-sky-800/50 rounded-xl text-xs text-sky-200 mb-4"
+                  className="p-4 bg-gold-950/40 border border-gold-800/50 rounded-xl text-xs text-gold-200 mb-4"
                 >
-                  <p className="font-bold text-sky-300 mb-1">Scientific Insight:</p>
+                  <p className="font-bold text-gold-300 mb-1">Scientific Insight:</p>
                   <p>{DISCOVERY_QUESTION.explanation}</p>
                 </motion.div>
               )}
@@ -989,7 +989,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
               <div className="flex justify-end">
                 <button
                   onClick={() => setActiveTab('learn')}
-                  className="px-5 py-2.5 bg-gradient-to-r from-sky-500 to-indigo-600 text-white text-xs font-bold rounded-xl hover:brightness-110 shadow-lg flex items-center gap-2"
+                  className="px-5 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white text-xs font-bold rounded-xl hover:brightness-110 shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Laboratory →
                 </button>
@@ -1010,7 +1010,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
               <div className="lg:col-span-6 bg-slate-900/80 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs font-mono text-sky-400 font-bold uppercase">
+                    <span className="text-xs font-mono text-gold-400 font-bold uppercase">
                       Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                     </span>
                     <span className="text-[10px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md font-mono">
@@ -1021,9 +1021,9 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                   <h2 className="text-lg font-extrabold text-slate-100 mb-3">{slide.title}</h2>
                   <p className="text-xs text-slate-300 leading-relaxed mb-4">{slide.description}</p>
 
-                  <div className="p-3 bg-indigo-950/40 border border-indigo-800/50 rounded-xl mb-4">
-                    <div className="text-[11px] font-bold text-indigo-300 mb-1">Key Examiner Principle:</div>
-                    <div className="text-xs text-indigo-200">{slide.keyTakeaway}</div>
+                  <div className="p-3 bg-gold-950/40 border border-gold-800/50 rounded-xl mb-4">
+                    <div className="text-[11px] font-bold text-gold-300 mb-1">Key Examiner Principle:</div>
+                    <div className="text-xs text-gold-200">{slide.keyTakeaway}</div>
                   </div>
                 </div>
 
@@ -1041,7 +1041,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                       <div
                         key={i}
                         className={`h-2 rounded-full transition-all ${
-                          i === currentSlideIndex ? 'w-6 bg-sky-400' : 'w-2 bg-slate-800'
+                          i === currentSlideIndex ? 'w-6 bg-gold-400' : 'w-2 bg-slate-800'
                         }`}
                       />
                     ))}
@@ -1054,7 +1054,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                         setActiveTab('challenge');
                       }
                     }}
-                    className="px-4 py-1.5 bg-sky-500 text-white rounded-lg text-xs font-bold hover:brightness-110"
+                    className="px-4 py-1.5 bg-gold-500 text-white rounded-lg text-xs font-bold hover:brightness-110"
                   >
                     {currentSlideIndex === TEACHING_SLIDES.length - 1 ? 'Start Challenges →' : 'Next →'}
                   </button>
@@ -1110,7 +1110,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                       <button
                         onClick={() => setOrbitalOverlapType('sigma')}
                         className={`px-3 py-1 rounded-md text-xs font-bold ${
-                          orbitalOverlapType === 'sigma' ? 'bg-sky-500 text-white' : 'bg-slate-800 text-slate-400'
+                          orbitalOverlapType === 'sigma' ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Sigma (σ) Overlap
@@ -1195,7 +1195,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                           key={sp}
                           onClick={() => setMoSpecies(sp)}
                           className={`px-3 py-1 rounded-md text-xs font-bold ${
-                            moSpecies === sp ? 'bg-sky-500 text-white' : 'bg-slate-800 text-slate-400'
+                            moSpecies === sp ? 'bg-gold-500 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           {sp.replace('_plus', '⁺')}
@@ -1231,7 +1231,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                   <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300">
                     Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                   </span>
-                  <span className="ml-2 text-xs text-sky-400 font-mono">{challenge.nodeId}</span>
+                  <span className="ml-2 text-xs text-gold-400 font-mono">{challenge.nodeId}</span>
                 </div>
                 <button
                   onClick={() => setShowHint(!showHint)}
@@ -1258,7 +1258,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                           ? opt.correct
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                             : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                          : 'bg-sky-950/80 border-sky-500 text-sky-200'
+                          : 'bg-gold-950/80 border-gold-500 text-gold-200'
                         : challengeSubmitted && opt.correct
                         ? 'bg-emerald-950/40 border-emerald-600/50 text-emerald-300'
                         : 'bg-slate-950/60 border-slate-800 hover:border-slate-700 text-slate-300'
@@ -1291,7 +1291,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={!selectedOption}
-                    className="w-full py-3 bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-bold rounded-xl text-xs disabled:opacity-40 hover:brightness-110 shadow-lg"
+                    className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl text-xs disabled:opacity-40 hover:brightness-110 shadow-lg"
                   >
                     Submit Answer
                   </button>
@@ -1333,7 +1333,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                           <div className="text-[10px] text-slate-500 font-mono">{nodeId}</div>
                         </div>
                         <div className="text-right">
-                          <div className="text-xs font-bold text-sky-400 font-mono">{Math.round((bkt?.p_mastery || 0) * 100)}%</div>
+                          <div className="text-xs font-bold text-gold-400 font-mono">{Math.round((bkt?.p_mastery || 0) * 100)}%</div>
                           <div className="text-[9px] uppercase font-extrabold text-slate-400">{level}</div>
                         </div>
                       </div>
@@ -1372,7 +1372,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim() {
                     setCurrentChallengeIndex(0);
                     setScore(0);
                   }}
-                  className="px-6 py-3 bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-bold rounded-xl text-xs hover:brightness-110 shadow-lg"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl text-xs hover:brightness-110 shadow-lg"
                 >
                   Restart Simulation Suite
                 </button>

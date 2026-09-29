@@ -1135,11 +1135,11 @@ function C6_MathematicsLineLineSegmentSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 mb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-900/40 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-indigo-300 via-purple-200 to-pink-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-300 via-purple-200 to-pink-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">
@@ -1158,7 +1158,7 @@ function C6_MathematicsLineLineSegmentSim({
               className="rounded-lg bg-slate-950 border border-slate-800"
               aria-label="Real-time animated geometric radar scanner"
             />
-            <span className="text-[10px] text-indigo-300 font-mono hidden sm:inline">RADAR ACTIVE</span>
+            <span className="text-[10px] text-gold-300 font-mono hidden sm:inline">RADAR ACTIVE</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-slate-900/90 p-1.5 rounded-2xl border border-slate-800 text-xs">
@@ -1174,7 +1174,7 @@ function C6_MathematicsLineLineSegmentSim({
                 }}
                 className={`px-3 py-1.5 rounded-xl font-bold transition-all capitalize ${
                   phase === p
-                    ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md'
+                    ? 'bg-gradient-to-r from-gold-600 to-purple-600 text-white shadow-md'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
                 }`}
               >
@@ -1189,13 +1189,13 @@ function C6_MathematicsLineLineSegmentSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-purple-950/40 rounded-3xl border border-indigo-800/50 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-purple-950/40 rounded-3xl border border-gold-800/50 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 mt-2 italic bg-indigo-900/30 p-2.5 rounded-xl border border-indigo-700/30">
+            <p className="text-xs text-gold-200/80 mt-2 italic bg-gold-900/30 p-2.5 rounded-xl border border-gold-700/30">
               {SCENARIO.context}
             </p>
           </div>
@@ -1221,7 +1221,7 @@ function C6_MathematicsLineLineSegmentSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-bold'
                         : 'bg-slate-900 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700/70 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                      : 'bg-slate-800/80 border-slate-700/70 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                   }`}
                 >
                   <div className="flex items-center gap-3">
@@ -1241,7 +1241,7 @@ function C6_MathematicsLineLineSegmentSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800 flex flex-wrap items-center justify-between gap-4">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-2xl bg-gold-950/40 border border-gold-800 flex flex-wrap items-center justify-between gap-4">
                 <p className={`text-sm ${discoveryCorrect ? 'text-emerald-300 font-semibold' : 'text-amber-300'}`}>
                   {discoveryCorrect
                     ? '✓ Brilliant deduction! A Ray has 1 fixed endpoint and shoots infinitely.'
@@ -1252,7 +1252,7 @@ function C6_MathematicsLineLineSegmentSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Enter Interactive Laboratories"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-xl shadow-lg hover:shadow-indigo-500/25 text-sm"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-xl shadow-lg hover:shadow-gold-500/25 text-sm"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1280,7 +1280,7 @@ function C6_MathematicsLineLineSegmentSim({
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
@@ -1288,7 +1288,7 @@ function C6_MathematicsLineLineSegmentSim({
                 </motion.button>
               ))}
             </div>
-            <span className="text-xs text-indigo-300 font-semibold">
+            <span className="text-xs text-gold-300 font-semibold">
               Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
           </div>
@@ -1304,7 +1304,7 @@ function C6_MathematicsLineLineSegmentSim({
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                  <span className="text-indigo-400">⚡</span> {EXPLORATION_STEPS[currentSlide].title}
+                  <span className="text-gold-400">⚡</span> {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs px-2.5 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
                   Node: {EXPLORATION_STEPS[currentSlide].nodeId}
@@ -1330,7 +1330,7 @@ function C6_MathematicsLineLineSegmentSim({
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold uppercase transition-all ${
                           lineEntityType === t
-                            ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30'
+                            ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                             : 'bg-slate-800 text-slate-400'
                         }`}
                       >
@@ -1383,7 +1383,7 @@ function C6_MathematicsLineLineSegmentSim({
                         max={180}
                         value={ptAX}
                         onChange={e => setPtAX(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1402,7 +1402,7 @@ function C6_MathematicsLineLineSegmentSim({
                   </div>
 
                   <div className="p-3 bg-slate-800/80 rounded-xl text-xs text-slate-300">
-                    <span className="font-bold text-indigo-300">Notation Rule: </span>
+                    <span className="font-bold text-gold-300">Notation Rule: </span>
                     {lineEntityType === 'segment' && 'Segment AB is written as AB (no arrow). Definite measurable length = ' + ((ptBX - ptAX) / 25).toFixed(1) + ' cm.'}
                     {lineEntityType === 'ray' && 'Ray AB is written as AB with a single arrow pointing from endpoint A through B.'}
                     {lineEntityType === 'line' && 'Line AB is written as AB with a double-headed arrow. Endpoints = 0.'}
@@ -1608,7 +1608,7 @@ function C6_MathematicsLineLineSegmentSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="sliderChordOffset" className="text-xs text-slate-400 block mb-1">Chord Distance from Centre: {chordOffset}px</label>
-                      <input id="sliderChordOffset" aria-label="Slider for chord offset distance" type="range" min={0} max={65} value={chordOffset} onChange={e => setChordOffset(Number(e.target.value))} className="w-full accent-indigo-500" />
+                      <input id="sliderChordOffset" aria-label="Slider for chord offset distance" type="range" min={0} max={65} value={chordOffset} onChange={e => setChordOffset(Number(e.target.value))} className="w-full accent-gold-500" />
                     </div>
                     <div>
                       <label htmlFor="sliderSectorAngle" className="text-xs text-slate-400 block mb-1">Sector Angle Opening: {sectorAngle}°</label>
@@ -1673,7 +1673,7 @@ function C6_MathematicsLineLineSegmentSim({
                       max={180}
                       value={protractorAngle}
                       onChange={e => setProtractorAngle(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1744,7 +1744,7 @@ function C6_MathematicsLineLineSegmentSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Go to next lab"
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1788,7 +1788,7 @@ function C6_MathematicsLineLineSegmentSim({
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase transition-all ${
                     activeInteractiveTool === tool
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400'
                   }`}
                 >
@@ -1831,7 +1831,7 @@ function C6_MathematicsLineLineSegmentSim({
                   max={90}
                   value={circleRadius}
                   onChange={e => setCircleRadius(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             )}
@@ -1865,7 +1865,7 @@ function C6_MathematicsLineLineSegmentSim({
               whileTap={{ scale: 0.95 }}
               aria-label="Start Competency Challenges"
               onClick={handleAdvanceToChallenge}
-              className="px-8 py-3 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white font-extrabold rounded-2xl shadow-xl shadow-indigo-500/25 text-sm"
+              className="px-8 py-3 bg-gradient-to-r from-gold-600 via-purple-600 to-pink-600 text-white font-extrabold rounded-2xl shadow-xl shadow-gold-500/25 text-sm"
             >
               Start Competency Challenges →
             </motion.button>
@@ -1882,7 +1882,7 @@ function C6_MathematicsLineLineSegmentSim({
                 <span className="text-xs font-bold text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-indigo-300">
+                <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-gold-300">
                   Node: {challenge.nodeId}
                 </span>
               </div>
@@ -1895,7 +1895,7 @@ function C6_MathematicsLineLineSegmentSim({
                     ? 'bg-emerald-950/80 text-emerald-400 border border-emerald-800'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 text-rose-400 border border-rose-800'
-                    : 'bg-indigo-950/80 text-indigo-300 border border-indigo-800'
+                    : 'bg-gold-950/80 text-gold-300 border border-gold-800'
                 }`}
               >
                 {difficulty} • {challenge.competencyLevel}
@@ -1904,7 +1904,7 @@ function C6_MathematicsLineLineSegmentSim({
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1938,7 +1938,7 @@ function C6_MathematicsLineLineSegmentSim({
                     className={`w-full text-left p-4 rounded-2xl border text-sm font-medium transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold'
-                        : 'bg-slate-800/80 border-slate-700/70 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                        : 'bg-slate-800/80 border-slate-700/70 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                     }`}
                   >
                     <div className="flex items-center gap-3">
@@ -1970,7 +1970,7 @@ function C6_MathematicsLineLineSegmentSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab active:cursor-grabbing shadow-md select-none"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab active:cursor-grabbing shadow-md select-none"
                     >
                       {item.label}
                     </motion.div>
@@ -2058,7 +2058,7 @@ function C6_MathematicsLineLineSegmentSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Verify Dragged Labels"
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Verify Dragged Labels
                 </motion.button>
@@ -2089,7 +2089,7 @@ function C6_MathematicsLineLineSegmentSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900/80 text-indigo-300 font-bold flex items-center justify-center text-xs">
+                      <span className="w-5 h-5 rounded-full bg-gold-900/80 text-gold-300 font-bold flex items-center justify-center text-xs">
                         {idx + 1}
                       </span>
                       <span>{item}</span>
@@ -2102,7 +2102,7 @@ function C6_MathematicsLineLineSegmentSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Verify Step Sequence"
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                 >
                   Verify Step Sequence
                 </motion.button>
@@ -2120,7 +2120,7 @@ function C6_MathematicsLineLineSegmentSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-sm text-white focus:border-indigo-500 focus:outline-none w-48 font-mono"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-sm text-white focus:border-gold-500 focus:outline-none w-48 font-mono"
                   />
                   <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2128,7 +2128,7 @@ function C6_MathematicsLineLineSegmentSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label="Submit calculated measure"
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md"
                   >
                     Submit Measure
                   </motion.button>
@@ -2159,7 +2159,7 @@ function C6_MathematicsLineLineSegmentSim({
                   ))}
                 </div>
 
-                <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 text-xs text-indigo-300 font-mono min-h-[44px] flex items-center">
+                <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 text-xs text-gold-300 font-mono min-h-[44px] flex items-center">
                   {constructParts.length > 0 ? constructParts.join(' ') : 'Click parts above to assemble geometric definition...'}
                 </div>
 
@@ -2169,7 +2169,7 @@ function C6_MathematicsLineLineSegmentSim({
                   disabled={constructParts.length === 0}
                   aria-label="Verify Assembled Construction"
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-xs shadow-md disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-xs shadow-md disabled:opacity-40"
                 >
                   Verify Assembled Construction
                 </motion.button>
@@ -2181,10 +2181,10 @@ function C6_MathematicsLineLineSegmentSim({
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-indigo-950/40 border border-indigo-800/80 rounded-2xl space-y-4"
+                className="mt-6 p-5 bg-gold-950/40 border border-gold-800/80 rounded-2xl space-y-4"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                     ✓ Geometrical Proof & Step-by-Step Walkthrough
                   </span>
                   <span className="text-xs text-slate-400">
@@ -2202,9 +2202,9 @@ function C6_MathematicsLineLineSegmentSim({
                         key={idx}
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
-                        className="text-xs md:text-sm text-indigo-100/90 leading-relaxed"
+                        className="text-xs md:text-sm text-gold-100/90 leading-relaxed"
                       >
-                        <span className="font-bold text-indigo-400 mr-2">{idx + 1}.</span>
+                        <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span>
                         {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
@@ -2218,7 +2218,7 @@ function C6_MathematicsLineLineSegmentSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label="Show next step of proof"
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 text-white rounded-xl text-xs font-bold shadow-md"
+                      className="px-4 py-2 bg-gold-700 text-white rounded-xl text-xs font-bold shadow-md"
                     >
                       Show Next Proof Step →
                     </motion.button>
@@ -2243,7 +2243,7 @@ function C6_MathematicsLineLineSegmentSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950/60 rounded-3xl border border-indigo-800 text-center space-y-4 relative overflow-hidden">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950/60 rounded-3xl border border-gold-800 text-center space-y-4 relative overflow-hidden">
             <h2 className="text-2xl md:text-3xl font-black text-white">
               🏛️ Restoration Master: Certified Geometrician
             </h2>
@@ -2258,7 +2258,7 @@ function C6_MathematicsLineLineSegmentSim({
               </div>
               <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 min-w-[130px]">
                 <span className="text-xs text-slate-400 font-semibold block">BKT Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-300 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-300 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2268,7 +2268,7 @@ function C6_MathematicsLineLineSegmentSim({
             errors === 0
               ? 'bg-emerald-950/50 border-emerald-500/80 text-emerald-200'
               : errors <= 3
-              ? 'bg-blue-950/50 border-blue-500/80 text-blue-200'
+              ? 'bg-gold-950/50 border-gold-500/80 text-gold-200'
               : errors <= 7
               ? 'bg-amber-950/50 border-amber-500/80 text-amber-200'
               : 'bg-rose-950/50 border-rose-500/80 text-rose-200'
@@ -2286,7 +2286,7 @@ function C6_MathematicsLineLineSegmentSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Post-Simulation Deep Reflection
             </h3>
             <p className="text-xs text-slate-400">
@@ -2305,7 +2305,7 @@ function C6_MathematicsLineLineSegmentSim({
                   value={reflectionAnswers.surprising}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g. How a ray has only one endpoint, or how altitude and median diverge..."
-                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2320,7 +2320,7 @@ function C6_MathematicsLineLineSegmentSim({
                   value={reflectionAnswers.explain}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g. Angle size is about rotation, not how long the lines are drawn..."
-                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2335,7 +2335,7 @@ function C6_MathematicsLineLineSegmentSim({
                   value={reflectionAnswers.realLife}
                   onChange={e => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g. Architectural blueprints, carpentry, astronomy, map coordinates..."
-                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2363,7 +2363,7 @@ function C6_MathematicsLineLineSegmentSim({
           )}
 
           {/* Spaced Repetition SRS Schedule Visible Card */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-indigo-950/40 to-purple-950/40 rounded-2xl border border-amber-500/50 space-y-3">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-gold-950/40 to-purple-950/40 rounded-2xl border border-amber-500/50 space-y-3">
             <div className="flex items-center justify-between">
               <h3 className="text-sm font-bold text-amber-300 flex items-center gap-2">
                 <span>📅</span> Spaced Repetition Schedule (SM-2 Algorithm)
@@ -2381,10 +2381,10 @@ function C6_MathematicsLineLineSegmentSim({
                 <div className="text-[10px] mt-0.5">0 Errors (Mastery Lock)</div>
                 {errors === 0 && <span className="text-xs text-emerald-400 block mt-1">★ Your Target</span>}
               </div>
-              <div className={`p-3 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-blue-900/60 border-blue-400 font-bold text-blue-200' : 'bg-slate-900/60 border-slate-800 text-slate-500'}`}>
+              <div className={`p-3 rounded-xl border ${errors >= 1 && errors <= 3 ? 'bg-gold-900/60 border-gold-400 font-bold text-gold-200' : 'bg-slate-900/60 border-slate-800 text-slate-500'}`}>
                 <div className="text-sm">Review in 3 days</div>
                 <div className="text-[10px] mt-0.5">1-3 Errors (Consolidation)</div>
-                {errors >= 1 && errors <= 3 && <span className="text-xs text-blue-400 block mt-1">★ Your Target</span>}
+                {errors >= 1 && errors <= 3 && <span className="text-xs text-gold-400 block mt-1">★ Your Target</span>}
               </div>
               <div className={`p-3 rounded-xl border ${errors >= 4 ? 'bg-amber-900/60 border-amber-400 font-bold text-amber-200' : 'bg-slate-900/60 border-slate-800 text-slate-500'}`}>
                 <div className="text-sm">Review in 1 day</div>
@@ -2396,14 +2396,14 @@ function C6_MathematicsLineLineSegmentSim({
 
           {/* Real-World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📐</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </li>
               ))}

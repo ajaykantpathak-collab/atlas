@@ -50,10 +50,10 @@ import { audioManager } from '../../../lib/sim-engine/audio';
 import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine/feedback';
 // ─── Teaching slides (from enrichment DEFINITION + TEXT_WALKTHROUGH) ──
 const TEACHING_SLIDES = [
-    { title: 'Three Modes of Transport! 🚗', text: 'Transport means how we travel from one place to another. There are THREE modes: land, water, and air! A car runs on a road. A boat floats on water. An aeroplane flies in the sky!', emoji: '🚗', bgColor: 'from-blue-400 to-indigo-500', spoken: 'Transport means how we travel. There are three modes: land, water, and air! A car runs on a road. A boat floats on water. An aeroplane flies in the sky!' },
+    { title: 'Three Modes of Transport! 🚗', text: 'Transport means how we travel from one place to another. There are THREE modes: land, water, and air! A car runs on a road. A boat floats on water. An aeroplane flies in the sky!', emoji: '🚗', bgColor: 'from-gold-400 to-gold-500', spoken: 'Transport means how we travel. There are three modes: land, water, and air! A car runs on a road. A boat floats on water. An aeroplane flies in the sky!' },
     { title: 'Land Transport 🚗🚌🚲', text: 'Land transport moves on the ground - on roads, railway tracks, or paths! Cars, buses, trains, bicycles, motorcycles, and bullock carts are all land transport. They stay on a solid surface!', emoji: '🚗', bgColor: 'from-amber-400 to-orange-500', spoken: 'Land transport moves on the ground on roads or tracks! Cars, buses, trains, and bicycles are all land transport. They stay on a solid surface!' },
-    { title: 'Water Transport ⛵🚢', text: 'Water transport floats on water - rivers, lakes, ponds, and seas! Boats, ships, ferries, and rafts are water transport. A boat floats on water like a leaf floating on a puddle!', emoji: '⛵', bgColor: 'from-cyan-400 to-blue-500', spoken: 'Water transport floats on water! Boats, ships, ferries, and rafts are water transport. A boat floats on water like a leaf floating on a puddle!' },
-    { title: 'Air Transport ✈️🚁', text: 'Air transport flies through the sky! Aeroplanes, helicopters, gliders, and hot-air balloons are air transport. An aeroplane flies in the sky like a bird soaring through the air!', emoji: '✈️', bgColor: 'from-sky-400 to-indigo-500', spoken: 'Air transport flies through the sky! Aeroplanes, helicopters, gliders, and hot-air balloons are air transport. An aeroplane flies like a bird soaring!' },
+    { title: 'Water Transport ⛵🚢', text: 'Water transport floats on water - rivers, lakes, ponds, and seas! Boats, ships, ferries, and rafts are water transport. A boat floats on water like a leaf floating on a puddle!', emoji: '⛵', bgColor: 'from-gold-400 to-gold-500', spoken: 'Water transport floats on water! Boats, ships, ferries, and rafts are water transport. A boat floats on water like a leaf floating on a puddle!' },
+    { title: 'Air Transport ✈️🚁', text: 'Air transport flies through the sky! Aeroplanes, helicopters, gliders, and hot-air balloons are air transport. An aeroplane flies in the sky like a bird soaring through the air!', emoji: '✈️', bgColor: 'from-gold-400 to-gold-500', spoken: 'Air transport flies through the sky! Aeroplanes, helicopters, gliders, and hot-air balloons are air transport. An aeroplane flies like a bird soaring!' },
     { title: 'How They Move! 🛞🚣🪽', text: 'Land vehicles ROLL on wheels! Water vehicles FLOAT on water! Air vehicles FLY with wings! Remember: roll for land, float for water, fly for air! Three actions for three modes!', emoji: '🛞', bgColor: 'from-emerald-400 to-teal-500', spoken: 'Land vehicles roll on wheels! Water vehicles float on water! Air vehicles fly with wings! Remember: roll for land, float for water, fly for air!' },
 ];
 // ─── Types ────────────────────────────────────────────────────
@@ -596,7 +596,7 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center items-center gap-4">
         {slide > 0 && <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={prev} className="bg-white/20 hover:bg-white/30 text-white font-bold rounded-xl px-6 py-3 text-base">← Back</motion.button>}
-        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={next} className="bg-white text-indigo-600 font-bold rounded-xl px-8 py-3 text-base shadow-lg">
+        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={next} className="bg-white text-gold-600 font-bold rounded-xl px-8 py-3 text-base shadow-lg">
           {slide < total - 1 ? 'Next →' : "Let’s Play! 🎮"}
 
 
@@ -872,7 +872,7 @@ export function TransportGame({ onComplete, width = 720, height = 560 }: Transpo
 
       {/* Progress bar */}
       <div className="absolute top-[60px] left-4 right-4 z-20 h-2 bg-white/10 rounded-full overflow-hidden">
-        <motion.div className="h-full bg-gradient-to-r from-amber-400 to-blue-500" animate={{ width: `${progress}%` }} transition={{ duration: 0.5 }}/>
+        <motion.div className="h-full bg-gradient-to-r from-amber-400 to-gold-500" animate={{ width: `${progress}%` }} transition={{ duration: 0.5 }}/>
       </div>
 
       {/* Conductor Chiku mascot */}

@@ -1284,9 +1284,9 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
         className="flex flex-wrap items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 rounded-2xl border border-cyan-700/50" aria-hidden="true">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/60 rounded-2xl border border-gold-700/50" aria-hidden="true">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+            <h1 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ISC Class 12 Physics &bull; Unit 8: Atoms & Nuclei</p>
@@ -1302,13 +1302,13 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             {difficulty} TIER
           </motion.span>
           <span className="text-xs px-3 py-1 bg-slate-800 text-slate-300 rounded-full border border-slate-700">
-            Mastery: <strong className="text-cyan-300 capitalize">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-300 capitalize">{masteryLevel}</strong>
           </span>
         </div>
       </motion.div>
@@ -1316,8 +1316,8 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
       {/* ─── 1. DISCOVERY PHASE HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/50 shadow-inner">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/50 shadow-inner">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1327,7 +1327,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
           </div>
 
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-base font-semibold text-cyan-300 mb-3 flex items-center gap-2">
+            <h3 className="text-base font-semibold text-gold-300 mb-3 flex items-center gap-2">
               <span aria-hidden="true">⚡</span> Curiosity Hook &bull; Rapid Prediction
             </h3>
             <p className="text-sm text-slate-200 mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1348,7 +1348,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                         : lastSelectedOption === i
                         ? 'bg-rose-900/60 border-2 border-rose-500 text-rose-200'
                         : 'bg-slate-800/60 text-slate-500 border border-slate-800'
-                      : 'bg-slate-800/90 text-slate-200 hover:bg-slate-700 hover:border-cyan-500 border border-slate-700'
+                      : 'bg-slate-800/90 text-slate-200 hover:bg-slate-700 hover:border-gold-500 border border-slate-700'
                   }`}
                 >
                   <div>
@@ -1374,7 +1374,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-900/40"
+                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-900/40"
                 >
                   Enter Interactive Labs &rarr;
                 </motion.button>
@@ -1389,7 +1389,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
           <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs uppercase font-bold text-cyan-400 tracking-wider">
+              <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">
                 Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1398,7 +1398,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
               {EXPLORATION_STEPS.map((_, idx) => (
                 <div
                   key={idx}
-                  className={`h-2 rounded-full transition-all ${idx === currentSlide ? 'w-6 bg-cyan-400' : 'w-2 bg-slate-700'}`}
+                  className={`h-2 rounded-full transition-all ${idx === currentSlide ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'}`}
                 />
               ))}
             </div>
@@ -1434,7 +1434,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                         setQuantumN(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                     <div className="flex justify-between text-xs text-slate-500 font-mono mt-1">
                       <span>n=1 (Ground)</span>
@@ -1448,12 +1448,12 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   <div className="grid grid-cols-3 gap-2 text-center">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <p className="text-[10px] text-slate-400 uppercase font-bold">Total Energy (En)</p>
-                      <p className="text-base font-mono font-black text-cyan-400">{currentLevelEnergy} eV</p>
+                      <p className="text-base font-mono font-black text-gold-400">{currentLevelEnergy} eV</p>
                       <span className="text-[9px] text-slate-500">-13.6/n^2</span>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <p className="text-[10px] text-slate-400 uppercase font-bold">Radius (rn)</p>
-                      <p className="text-base font-mono font-black text-indigo-400">{currentLevelRadius} &Aring;</p>
+                      <p className="text-base font-mono font-black text-gold-400">{currentLevelRadius} &Aring;</p>
                       <span className="text-[9px] text-slate-500">0.529 n^2</span>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1463,7 +1463,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                     </div>
                   </div>
 
-                  <div className="p-3 bg-cyan-950/40 rounded-xl border border-cyan-800/40 text-xs text-cyan-200">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40 text-xs text-gold-200">
                     💡 <strong>Physical Insight:</strong> As n grows, orbit radius swells as <em>n^2</em>, while speed drops as <em>1/n</em>. Potential energy (-27.2/n^2 eV) is double the kinetic energy (+13.6/n^2 eV) in magnitude, ensuring the electron remains bound!
                   </div>
                 </div>
@@ -1516,7 +1516,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleQuantumTransition(nInitial, nFinal)}
                       aria-label="Trigger Quantum Jump and Emit Photon"
-                      className="w-full py-2.5 bg-gradient-to-r from-sky-600 to-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                      className="w-full py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                     >
                       ⚡ Trigger Quantum Jump &amp; Emit Photon
                     </motion.button>
@@ -1553,7 +1553,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-center items-center text-center">
                     <p className="text-xs text-slate-400 uppercase font-bold mb-1">Rydberg Transition Result</p>
-                    <div className="text-2xl font-black font-mono text-cyan-300">
+                    <div className="text-2xl font-black font-mono text-gold-300">
                       &Delta;E = {photonEnergyEV} eV
                     </div>
                     <div className="text-sm text-slate-300 font-mono mt-1">
@@ -1583,8 +1583,8 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                 </div>
 
                 {!predictionMade && (
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-800/40">
-                    <p className="text-xs font-bold text-indigo-300 uppercase mb-2">Predict Before Triggering:</p>
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-800/40">
+                    <p className="text-xs font-bold text-gold-300 uppercase mb-2">Predict Before Triggering:</p>
                     <p className="text-sm text-slate-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1594,7 +1594,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                           whileTap={{ scale: 0.99 }}
                           onClick={() => handlePrediction(i)}
                           aria-label={`Predict option ${i + 1}: ${opt}`}
-                          className="text-left p-2 bg-slate-900 rounded-lg text-xs text-slate-300 hover:border-cyan-500 border border-slate-800"
+                          className="text-left p-2 bg-slate-900 rounded-lg text-xs text-slate-300 hover:border-gold-500 border border-slate-800"
                         >
                           {opt}
                         </motion.button>
@@ -1621,7 +1621,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       aria-label={`Select nucleus ${key}`}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                         selectedNucleusKey === key
-                          ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/50 border border-cyan-400'
+                          ? 'bg-gold-600 text-white shadow-lg shadow-gold-900/50 border border-gold-400'
                           : 'bg-slate-950 text-slate-400 border border-slate-800 hover:bg-slate-800'
                       }`}
                     >
@@ -1637,11 +1637,11 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                     <div className="text-xs space-y-1.5 font-mono text-slate-300">
                       <div className="flex justify-between border-b border-slate-800 pb-1">
                         <span>Protons (Z = {nucleusData.Z}) &times; 1.00728 u:</span>
-                        <span className="text-cyan-300">{(nucleusData.Z * 1.007276).toFixed(5)} u</span>
+                        <span className="text-gold-300">{(nucleusData.Z * 1.007276).toFixed(5)} u</span>
                       </div>
                       <div className="flex justify-between border-b border-slate-800 pb-1">
                         <span>Neutrons (N = {nucleusData.N}) &times; 1.00867 u:</span>
-                        <span className="text-indigo-300">{(nucleusData.N * 1.008665).toFixed(5)} u</span>
+                        <span className="text-gold-300">{(nucleusData.N * 1.008665).toFixed(5)} u</span>
                       </div>
                       <div className="flex justify-between font-bold text-amber-300 pt-1">
                         <span>Sum of Free Nucleons:</span>
@@ -1662,7 +1662,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between items-center text-center">
                     <div className="w-full">
                       <p className="text-xs text-slate-400 uppercase font-bold">Einstein Equivalence (1 u = 931.5 MeV)</p>
-                      <div className="text-2xl font-black font-mono text-cyan-300 mt-1">
+                      <div className="text-2xl font-black font-mono text-gold-300 mt-1">
                         BE = {nucleusData.totalBE} MeV
                       </div>
                       <div className="mt-2 p-2 bg-slate-900 rounded-xl border border-slate-800">
@@ -1701,7 +1701,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="flex justify-between items-center mb-2">
                     <label htmlFor="mass-a-slider" className="text-xs font-bold text-slate-400 uppercase">
-                      Select Mass Number (A): <strong className="text-cyan-400 font-mono text-base">{sliderMassA}</strong>
+                      Select Mass Number (A): <strong className="text-gold-400 font-mono text-base">{sliderMassA}</strong>
                     </label>
                     <span className="text-xs font-mono font-bold text-emerald-400">
                       BE/A = {currentSliderBEA} MeV/nucleon
@@ -1719,7 +1719,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       setSliderMassA(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-cyan-400 cursor-pointer"
+                    className="w-full accent-gold-400 cursor-pointer"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1">
                     <span>A=1 (H)</span>
@@ -1784,7 +1784,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
                   <canvas ref={reactorCanvasRef} width={300} height={180} className="w-full h-44 rounded-lg bg-slate-900/60" aria-label="Nuclear Reactor Core Chain Reaction Canvas" />
                   <div className="flex items-center gap-4 mt-3 text-xs font-mono">
-                    <span className="text-slate-400">Power: <strong className="text-cyan-300">{reactorPowerMW} MW</strong></span>
+                    <span className="text-slate-400">Power: <strong className="text-gold-300">{reactorPowerMW} MW</strong></span>
                     <span className="text-slate-400">k: <strong className={multiplicationK === 1 ? 'text-emerald-400' : multiplicationK > 1 ? 'text-rose-400' : 'text-amber-400'}>{multiplicationK}</strong></span>
                   </div>
                 </div>
@@ -1805,7 +1805,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                         setControlRodDepth(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 font-mono mt-1">
                       <span>0% (Supercritical)</span>
@@ -1828,7 +1828,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                           }}
                           aria-label={`Select moderator ${m}`}
                           className={`flex-1 py-1.5 text-xs font-bold rounded-lg ${
-                            moderatorType === m ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800'
+                            moderatorType === m ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800'
                           }`}
                         >
                           {m === 'D2O' ? 'Heavy Water (D2O)' : m}
@@ -1866,7 +1866,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   audioManager.play('whoosh');
                 }}
                 aria-label="Next Lab Step"
-                className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-cyan-900/40"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-900/40"
               >
                 Next Lab &rarr;
               </motion.button>
@@ -1890,7 +1890,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex justify-between items-center">
             <div>
-              <h2 className="text-lg font-bold text-cyan-300">Physics Sandbox &bull; Free Play Mode</h2>
+              <h2 className="text-lg font-bold text-gold-300">Physics Sandbox &bull; Free Play Mode</h2>
               <p className="text-xs text-slate-400">Freely manipulate quantum jumps and nuclear binding parameters without test pressure.</p>
             </div>
             <motion.button
@@ -1898,7 +1898,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
               aria-label="Start Graded Challenges"
-              className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white text-sm font-bold rounded-xl shadow-lg"
+              className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white text-sm font-bold rounded-xl shadow-lg"
             >
               Start Graded Challenges &rarr;
             </motion.button>
@@ -1906,7 +1906,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold uppercase text-cyan-400">Atomic Energy Ladder</h3>
+              <h3 className="text-xs font-bold uppercase text-gold-400">Atomic Energy Ladder</h3>
               <div className="flex gap-2">
                 {[1, 2, 3, 4, 5].map((n) => (
                   <button
@@ -1914,7 +1914,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                     onClick={() => setQuantumN(n)}
                     aria-label={`Select energy level n = ${n}`}
                     className={`flex-1 py-2 rounded-lg font-mono text-xs font-bold ${
-                      quantumN === n ? 'bg-cyan-600 text-white' : 'bg-slate-950 text-slate-400 border border-slate-800'
+                      quantumN === n ? 'bg-gold-600 text-white' : 'bg-slate-950 text-slate-400 border border-slate-800'
                     }`}
                   >
                     n={n}
@@ -1955,7 +1955,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <span className="text-xs font-mono text-slate-400">Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-cyan-300 uppercase font-bold border border-slate-700">
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-gold-300 uppercase font-bold border border-slate-700">
                 {challenge.competencyLevel}
               </span>
             </div>
@@ -1964,7 +1964,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               className={`text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase ${
-                difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300' : difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300' : 'bg-cyan-500/20 text-cyan-300'
+                difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300' : difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300' : 'bg-gold-500/20 text-gold-300'
               }`}
             >
               {difficulty}
@@ -1973,7 +1973,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
 
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden" aria-hidden="true">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2004,11 +2004,11 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                         ? 'bg-emerald-900/70 border-2 border-emerald-500 text-emerald-100 font-bold'
                         : showExplanation && lastSelectedOption === i && i !== challenge.correctIndex
                         ? 'bg-rose-900/60 border-2 border-rose-500 text-rose-200'
-                        : 'bg-slate-950 text-slate-200 hover:bg-slate-800 hover:border-cyan-500 border border-slate-800'
+                        : 'bg-slate-950 text-slate-200 hover:bg-slate-800 hover:border-gold-500 border border-slate-800'
                     }`}
                   >
                     <div>
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                     </div>
                     {showExplanation && i === challenge.correctIndex && (
                       <span className="text-emerald-400 font-bold ml-2">✓ Correct</span>
@@ -2035,7 +2035,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2052,7 +2052,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[70px] flex flex-col justify-center"
                     >
                       <span className="text-[10px] text-slate-400 block font-mono">Quantum Level n={idx + 1}</span>
-                      <span className="text-xs font-bold text-cyan-300 mt-1">
+                      <span className="text-xs font-bold text-gold-300 mt-1">
                         {droppedLabels[tid] ? `✓ ${droppedLabels[tid]}` : 'Drop Series Here'}
                       </span>
                     </div>
@@ -2064,7 +2064,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify Mappings"
-                  className="px-6 py-2 bg-cyan-600 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Mappings &rarr;
                 </motion.button>
@@ -2093,7 +2093,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-950 rounded-xl text-xs font-medium text-slate-200 border border-slate-800 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-800 text-cyan-400 flex items-center justify-center font-bold text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-slate-800 text-gold-400 flex items-center justify-center font-bold text-[10px]">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2106,7 +2106,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check Sequence"
-                  className="mt-2 px-6 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm"
+                  className="mt-2 px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-sm"
                 >
                   Check Sequence &rarr;
                 </motion.button>
@@ -2123,7 +2123,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   aria-label="Enter numeric calculated value"
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-cyan-400 outline-none w-48"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-400 outline-none w-48"
                 />
                 <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                 <motion.button
@@ -2132,7 +2132,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
                   aria-label="Submit numeric answer"
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-sm"
                 >
                   Submit &rarr;
                 </motion.button>
@@ -2151,7 +2151,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((p) => [...p, part])}
                       aria-label={`Add component ${part}`}
-                      className="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800 border border-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2164,7 +2164,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-cyan-900/60 border border-cyan-600 rounded-lg text-xs font-mono text-cyan-200 flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-600 rounded-lg text-xs font-mono text-gold-200 flex items-center gap-1.5"
                     >
                       {part}
                       <button
@@ -2187,7 +2187,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify Constructed Reaction"
-                  className="px-6 py-2 bg-cyan-600 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2 bg-gold-600 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Reaction &rarr;
                 </motion.button>
@@ -2196,15 +2196,15 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
 
             {/* Step-by-Step Progressive Disclosure Explanation */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-cyan-800/50 space-y-3">
-                <h4 className="text-xs font-bold uppercase text-cyan-300">Detailed Physical Solution</h4>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-gold-800/50 space-y-3">
+                <h4 className="text-xs font-bold uppercase text-gold-300">Detailed Physical Solution</h4>
                 {challenge.explanation
                   .split('. ')
                   .filter((s) => s.trim().length > 0)
                   .slice(0, revealedSteps + 1)
                   .map((sentence, idx) => (
                     <motion.p key={idx} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs text-slate-300 leading-relaxed">
-                      <strong className="text-cyan-400 font-mono">{idx + 1}.</strong> {sentence}
+                      <strong className="text-gold-400 font-mono">{idx + 1}.</strong> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2216,7 +2216,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps((s) => s + 1)}
                       aria-label="Reveal Next Step"
-                      className="px-4 py-1.5 bg-slate-800 text-cyan-300 text-xs font-bold rounded-lg border border-slate-700"
+                      className="px-4 py-1.5 bg-slate-800 text-gold-300 text-xs font-bold rounded-lg border border-slate-700"
                     >
                       Reveal Next Step &rarr;
                     </motion.button>
@@ -2226,7 +2226,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextChallenge}
                       aria-label="Proceed to next challenge or finalize"
-                      className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-bold rounded-xl text-xs shadow-lg"
+                      className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-xl text-xs shadow-lg"
                     >
                       {currentChallenge + 1 >= filteredChallenges.length ? 'Finalize Mastery &rarr;' : 'Next Challenge &rarr;'}
                     </motion.button>
@@ -2241,7 +2241,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-3">
             <span className="text-4xl" aria-hidden="true">🎓</span>
 
             {/* Motivational Feedback Banner based on error count */}
@@ -2250,7 +2250,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                 errors === 0
                   ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/50'
                   : errors <= 3
-                  ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/50'
+                  ? 'bg-gold-500/20 text-gold-300 border-gold-500/50'
                   : errors <= 7
                   ? 'bg-amber-500/20 text-amber-300 border-amber-500/50'
                   : 'bg-rose-500/20 text-rose-300 border-rose-500/50'
@@ -2265,19 +2265,19 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
               </span>
             </div>
 
-            <h2 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-emerald-400">
+            <h2 className="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-emerald-400">
               Simulation Completed with High Honors!
             </h2>
             <div className="flex justify-center gap-6 text-sm font-mono mt-2">
               <span className="text-slate-300">Final Score: <strong className="text-emerald-400 text-lg">{Math.max(0, 100 - errors * 5)}%</strong></span>
               <span className="text-slate-300">Errors Recorded: <strong className="text-rose-400 text-lg">{errors}</strong></span>
-              <span className="text-slate-300">Mastery Level: <strong className="text-cyan-300 text-lg capitalize">{masteryLevel}</strong></span>
+              <span className="text-slate-300">Mastery Level: <strong className="text-gold-300 text-lg capitalize">{masteryLevel}</strong></span>
             </div>
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-sm font-bold text-cyan-300 uppercase tracking-wider flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Post-Simulation Deep Reflection
             </h3>
             <div className="space-y-3">
@@ -2291,7 +2291,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   placeholder="e.g., How Iron-56 is the cosmic tipping point between fission and fusion..."
                   aria-label="Reflection: What was the most surprising thing you learned?"
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-cyan-400 outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-400 outline-none resize-none"
                 />
               </div>
 
@@ -2305,7 +2305,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   placeholder="e.g., Quantum jumps are like hopping down ladder rungs where lower gaps release more punch..."
                   aria-label="Reflection: How would you explain this to a friend?"
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-cyan-400 outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-400 outline-none resize-none"
                 />
               </div>
 
@@ -2319,7 +2319,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
                   placeholder="e.g., In nuclear power engineering at Kakrapar or analyzing solar observatory spectra..."
                   aria-label="Reflection: Where in real life might you use this?"
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-cyan-400 outline-none resize-none"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-400 outline-none resize-none"
                 />
               </div>
             </div>
@@ -2358,7 +2358,7 @@ function C12_PhysicsEnergyLevelsHydrogenSim({
 
           {/* Real World Activity Arc */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🔭</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

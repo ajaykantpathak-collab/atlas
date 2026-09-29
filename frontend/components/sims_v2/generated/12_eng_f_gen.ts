@@ -9,13 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C12_ENG_F_GEN: SimDef[] = [
  {
   "id": "gen_c12_eng_f_ch01",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Last Lesson' — The Context And Background",
   "subtitle": "English · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch1: Before You Read: Context and Background"],
+  "topic": "'The Last Lesson' — The Context And Background To Th",
+  "chapters": [
+   "English Ch1: 'The Last Lesson' — The Context And Background To Th"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_01_001",
    "c12_eng_f_cbse_01_002",
@@ -40,103 +42,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Before You Read: Context and actually explain?",
+   "question": "In one line -- what does 'The Last Lesson' — The Context actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
     "Only how to score marks"
    ],
    "answer": "Why things around us behave the way they do",
-   "hook": "\"Before You Read: Context and Background\" provides the essential historical, biographical, and cultural framework required to comprehend Alphonse"
+   "hook": "'The Last Lesson' (Flamingo, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" provides the essential historical, biographical, and cultural framework required to comprehend Alphonse Daudet's \"The Last Lesson.",
+    "text": "'The Last Lesson' (Flamingo, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refer to the organized sequence of events in a story and the techniques used to present them, including exposition, rising action, climax, falling action, resolution, point of view, and temporal arrangement.",
+    "title": "Plot/narrative Arc Of 'The Last",
+    "text": "The plot/narrative arc of 'The Last Lesson' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a story unfolds, including historical period, geographical location, weather, and cultural context.",
+    "title": "Setting Of 'The Last Lesson'",
+    "text": "The setting of 'The Last Lesson' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's personality traits, motivations, development arc, narrative function, and how their perspective shapes the reader's understanding of the story's themes.",
+    "title": "Character Analysis In 'The Last Lesson'",
+    "text": "Character analysis in 'The Last Lesson' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining their traits, roles, relationships, and contributions to the theme and plot, using textual evidence to understand how they illuminate the protagonist and the story's central message.",
+    "title": "Supporting Characters In 'The Last Lesson'",
+    "text": "Supporting characters in 'The Last Lesson' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of \"The Last Lesson\"",
-    "text": "The primary theme of \"The Last Lesson\" is the profound pain and cultural erasure inflicted on a conquered people when their right to learn and speak their mother tongue is stripped away, establishing language as the essential key to identity, unity, and",
+    "title": "Primary Theme Of 'The Last",
+    "text": "The primary theme of 'The Last Lesson' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting thematic threads in a literary work that complement, deepen, or contrast with the primary theme. In \"The Last Lesson,\" while the primary theme is language as the key to cultural identity and freedom under oppression, the",
+    "title": "Secondary Themes In 'The Last Lesson'",
+    "text": "Secondary themes in 'The Last Lesson' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke physical sensations.",
+    "title": "Imagery In 'The Last Lesson'",
+    "text": "Imagery in 'The Last Lesson' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'The Last Lesson' —",
+    "text": "Irony and paradox in 'The Last Lesson' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context refers to the skill of determining the meaning of words and phrases by analyzing how they are used in the surrounding text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'The Last Lesson'",
+    "text": "Key vocabulary of 'The Last Lesson' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the specific grammatical structures — particularly past perfect tense, reported speech, passive voice, and complex sentence patterns — employed in \"The Last Lesson\" to establish precise time relationships, convey",
+    "title": "Language And Style In 'The Last",
+    "text": "Language and style in 'The Last Lesson' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving explicitly stated information from the text (who, what, when, where). Inferential comprehension questions require drawing conclusions, making connections, and interpreting implied meanings by combining",
+    "title": "Literal Comprehension Of 'The Last Lesson'",
+    "text": "Literal comprehension of 'The Last Lesson' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves moving beyond literal comprehension to examine HOW a text constructs meaning through authorial choices — narrative perspective, irony, symbolism, structure, and language — and then synthesizing these elements to",
+    "title": "Critical Thinking On 'The Last Lesson'",
+    "text": "Critical thinking on 'The Last Lesson' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On a Literary",
-    "text": "Writing skills based on a literary chapter involve crafting structured, evidence-based responses in specific formats (notice, argumentative paragraph, personal narrative) that demonstrate comprehension, analysis, and personal engagement with the text's",
+    "title": "Writing Skills From 'The Last Lesson'",
+    "text": "Writing skills from 'The Last Lesson' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students articulate interpretations, debate thematic issues, and practice active listening through guided discussions on the chapter's core ideas —",
+    "title": "Discussion Points On 'The Last Lesson'",
+    "text": "Discussion points on 'The Last Lesson' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -147,20 +149,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What was the immediate administrative order from Berlin that forms the historical backdrop of \"The Last Lesson\"?",
     "answer": "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
     "options": [
-     "Supporting characters include: M. Hamel (dedicated, patriotic, transformative), old Hauser (regretful, eager to learn), former mayor and postmaster (respectful, sorrowful)",
-     "\"The pain that is inflicted on the people of a territory by its conquerors by taking away the right to study or speak their own language",
+     "The student can independently identify at least 5 key expressions from \"The Last Lesson\", explain their contextual meanings with textual evidence",
+     "Student can independently analyze an unseen passage from \"The Last Lesson\" by: (1) identifying at least two literary devices operating simultaneously",
      "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Last Lesson' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the order closed all schools\" or \"the order expelled French teachers\") reveals the student has not distinguished between military occupation and cultural erasure — the specific mechanism of linguistic imperialism that drives the story's emotional core.",
     "id": "gen_c12_eng_f_ch01_q1",
     "nodeId": "c12_eng_f_cbse_01_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine your school principal announces tomorrow that Hindi/English will be replaced by a language you've never studied — how would you feel during",
-     "That visceral reaction is exactly what Daudet captures.",
-     "Begin by reading the \"About the author\" box and the italicised introductory paragraph in your NCERT textbook.",
-     "Locate Alsace and Lorraine on the sketch map (page 3)."
+     "Start with the author of 'The Last Lesson', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -168,20 +167,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the narrative point of view in \"The Last Lesson,\" and who is the narrator?",
     "answer": "The story uses first-person retrospective narration with Franz as the narrator — he recounts events from his childhood perspective while the adult narrator occasionally interjects",
     "options": [
-     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
-     "The three time markers are: (1) the Franco-Prussian War period (1870-1871) establishing historical context",
+     "The student can identify at least three secondary themes in \"The Last Lesson,\" trace each theme through specific textual evidence across the beginning, middle",
+     "The student can independently lead or contribute meaningfully to a 5-minute group discussion on any theme from \"The Last Lesson,\" citing at least two specific textual references",
      "The story uses first-person retrospective narration with Franz as the narrator — he recounts events from his childhood perspective while the adult narrator occasionally interjects"
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Last' slide -- match the key terms.",
     "misconception": "A wrong answer like \"third-person omniscient\" reveals the student cannot distinguish between the experiencing self (child Franz) and the narrating self (adult Franz), missing how the dual perspective creates dramatic irony when Franz misunderstands Wachter's kindness.",
     "id": "gen_c12_eng_f_ch01_q2",
     "nodeId": "c12_eng_f_cbse_01_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Franz walking into that silent classroom — the story begins with your dread of a scolding, but the real conflict isn't about",
-     "To analyze plot structure, first identify the exposition: Franz's late arrival and the unusual stillness.",
-     "Then trace the rising action through the bulletin-board crowd, Wachter's cryptic remark, the villagers on back benches, and M.",
-     "Hamel's announcement."
+     "Trace 'The Last Lesson' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -230,10 +226,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_01_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into your classroom on the last day of school before it closes forever — the desks are the same, but the air feels different, heavy",
-     "That's exactly what Franz experiences.",
-     "Start by listing every concrete setting detail the text gives: the village school, the sawmill, the woods, the town hall bulletin board, the church",
-     "Then track the atmosphere shift: normal bustle → eerie stillness → solemn gathering → intense focus → final silence broken by trumpets."
+     "Identify where and when 'The Last Lesson' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -241,20 +234,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the narrative point of view in \"The Last Lesson,\" and how does it limit or expand our understanding of Franz's character?",
     "answer": "The story uses first-person narration from Franz's perspective. This limits us to his thoughts, observations, and misunderstandings (e",
     "options": [
-     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
-     "(1) \"birds were chirping at the edge of the woods\" — establishes peaceful, warm morning contrasting with Franz's dread",
+     "Student can independently analyze an unseen passage from \"The Last Lesson\" by: (1) identifying at least two literary devices operating simultaneously",
+     "\"Before You Read: Context and Background\" provides the essential historical, biographical, and cultural framework required to comprehend Alphonse Daudet's \"The Last Lesson",
      "The story uses first-person narration from Franz's perspective. This limits us to his thoughts, observations, and misunderstandings (e"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The Last' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"third person omniscient\") reveals the student cannot identify narrative voice, leading to analysis that treats Franz as an observed object rather than the experiencing subject, missing how his ignorance mirrors Alsace's collective complacency.",
     "id": "gen_c12_eng_f_ch01_q4",
     "nodeId": "c12_eng_f_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Franz sitting in that silent classroom, suddenly realizing your language is being taken away — what would you notice first?",
-     "Start by identifying the three distinct phases of Franz's day: the morning dread of participles, the shock of the announcement, and the",
-     "In each phase, ask: What does Franz DO?",
-     "What does he THINK?"
+     "Pick the central figure in 'The Last Lesson' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -262,20 +252,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "List the supporting characters in \"The Last Lesson\" and give one defining trait for each, based on the text.",
     "answer": "Supporting characters include: M. Hamel (dedicated, patriotic, transformative), old Hauser (regretful, eager to learn), former mayor and postmaster (respectful, sorrowful)",
     "options": [
-     "Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding implied meanings by combining textual clues with prior",
-     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
+     "The student can identify at least three secondary themes in \"The Last Lesson,\" trace each theme through specific textual evidence across the beginning, middle",
+     "The student can independently lead or contribute meaningfully to a 5-minute group discussion on any theme from \"The Last Lesson,\" citing at least two specific textual references",
      "Supporting characters include: M. Hamel (dedicated, patriotic, transformative), old Hauser (regretful, eager to learn), former mayor and postmaster (respectful, sorrowful)"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists names without traits shows the student cannot move from identification to analysis. A trait like \"M. Hamel is strict\" without noting his change reveals a surface-level reading.",
     "id": "gen_c12_eng_f_ch01_q5",
     "nodeId": "c12_eng_f_cbse_01_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main actor is silent; the supporting cast carries the emotional weight.",
-     "In \"The Last Lesson\", Franz is our lens, but M.",
-     "Hamel and the villagers embody the story's soul.",
-     "Let's learn how to dissect their roles by hunting for clues in their actions, words, and how others react to them."
+     "Spot the secondary figures in 'The Last Lesson' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -283,20 +270,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the exact phrasing of the primary theme as given in the \"About the Unit\" section of the NCERT textbook for \"The Last Lesson\"?",
     "answer": "\"The pain that is inflicted on the people of a territory by its conquerors by taking away the right to study or speak their own language",
     "options": [
-     "The three time markers are: (1) the Franco-Prussian War period (1870-1871) establishing historical context",
-     "The story uses first-person narration from Franz's perspective. This limits us to his thoughts, observations, and misunderstandings (e",
+     "The student can write a structured 150-word board exam answer analyzing Franz's character development across three key stages (pre-announcement, during the lesson",
+     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
      "\"The pain that is inflicted on the people of a territory by its conquerors by taking away the right to study or speak their own language"
     ],
-    "hint": "Straight from the 'primary theme of \"The Last Lesson\"' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Last' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It's about a boy who regrets not studying\" or \"It's about the Franco-Prussian War\") reveals the student has confused the primary theme with the sub-theme (student/teacher attitudes) or the historical backdrop.",
     "id": "gen_c12_eng_f_ch01_q6",
     "nodeId": "c12_eng_f_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine waking up to a government order announcing that from tomorrow your mother tongue will be banned in schools and replaced by the conqueror's",
-     "How would you feel?",
-     "That is the exact shock Franz experiences.",
-     "Begin by locating the exact sentence in the \"About the Unit\" box that defines the theme."
+     "Ask what 'The Last Lesson' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -345,10 +329,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Franz sitting in that silent classroom, suddenly realizing that the French lessons you dreaded were actually a birthright being stolen.",
-     "The primary theme — language equals freedom — hits hard.",
-     "But look closer: why did Franz skip lessons?",
-     "Why are old villagers sitting at the back?"
+     "Look beneath the main theme of 'The Last Lesson' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -397,10 +378,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Franz walking into that strangely silent classroom — what do you *see* (the green coat, the old primer), *hear* (the scratching pens,",
-     "That sensory immersion is imagery.",
-     "Now notice how Daudet doesn't just say \"the news was shocking\" but writes \"What a thunderclap these words were to me!",
-     "In this walkthrough, we will first hunt for every sensory detail in the text, categorize them, then isolate the three major metaphors (thunderclap,"
+     "Find the lines in 'The Last Lesson' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -408,20 +386,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define irony and symbolism in your own words, giving one generic example for each (not from the text).",
     "answer": "Irony: A contrast between expectation and reality (e.g., a fire station burning down). Symbolism: An object representing an abstract idea (e.g., a dove representing peace)",
     "options": [
-     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
-     "The story uses first-person retrospective narration with Franz as the narrator — he recounts events from his childhood perspective while the adult narrator occasionally interjects",
+     "Students frequently treat the Franco-Prussian War as mere \"background information\" — a date to memorise — rather than the *active engine* of every character's behaviour",
+     "Vocabulary in context refers to the skill of determining the meaning of words and phrases by analyzing how they are used in the surrounding text",
      "Irony: A contrast between expectation and reality (e.g., a fire station burning down). Symbolism: An object representing an abstract idea (e.g., a dove representing peace)"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The Last' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses irony with mere coincidence (e.g., \"rain on your wedding day\") reveals the student cannot distinguish *structural* contrast from *chance*. A wrong answer that treats symbols as mere decorations shows they miss the representational function.",
     "id": "gen_c12_eng_f_ch01_q9",
     "nodeId": "c12_eng_f_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are Franz walking into that unusually silent classroom, noticing the village elders on the back benches and M.",
-     "Hamel in his Sunday best — you sense something profound is happening but cannot yet name it.",
-     "Begin by listing every moment where what *should* happen contradicts what *does* happen (e.",
-     "Then identify objects that carry extra weight: the new copies (\"France, Alsace\"), the pigeons, the blackboard inscription."
+     "Look in 'The Last Lesson' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -429,20 +404,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What does the expression \"in great dread of\" mean as used in the opening sentence of \"The Last Lesson\"?",
     "answer": "It means \"feeling intense fear or anxiety about something that might happen.\" A wrong answer like \"great respect for\" reveals the student is confusing \"dread\" (fear) with \"awe\" or",
     "options": [
-     "(1) \"birds were chirping at the edge of the woods\" — establishes peaceful, warm morning contrasting with Franz's dread",
-     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
+     "Vocabulary in context refers to the skill of determining the meaning of words and phrases by analyzing how they are used in the surrounding text",
+     "The student can write a structured 150-word board exam answer analyzing Franz's character development across three key stages (pre-announcement, during the lesson",
      "It means \"feeling intense fear or anxiety about something that might happen.\" A wrong answer like \"great respect for\" reveals the student is confusing \"dread\" (fear) with \"awe\" or"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The Last' slide -- match the key terms.",
     "misconception": "A wrong answer like \"great respect for\" reveals the student is confusing \"dread\" (fear) with \"awe\" or misreading the preposition \"of\" as indicating reverence rather than apprehension. The context – Franz fears a scolding – confirms the meaning is negative anticipation.",
     "id": "gen_c12_eng_f_ch01_q10",
     "nodeId": "c12_eng_f_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"The Last Lesson\" and encounter \"thumbed at the edges\" describing Hauser's primer.",
-     "You might think it means \"dirty\" or \"worn out\", but how do you prove it from the text?",
-     "Start by locating the phrase in the story.",
-     "Notice the surrounding details: Hauser is old, the primer is old, he holds it open with spectacles across the pages."
+     "Note the difficult or loaded words in 'The Last Lesson' — their meaning carries the text's precision."
     ]
    },
    {
@@ -450,20 +422,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define the past perfect tense and state its primary function in a narrative already told in the simple past tense.",
     "answer": "Past perfect tense is formed with \"had + past participle\" (e.g., \"had come\", \"had said\"). In a narrative written in simple past",
     "options": [
-     "The story uses first-person narration from Franz's perspective. This limits us to his thoughts, observations, and misunderstandings (e",
-     "Supporting characters include: M. Hamel (dedicated, patriotic, transformative), old Hauser (regretful, eager to learn), former mayor and postmaster (respectful, sorrowful)",
+     "Misconception: \"Past perfect is just a more formal/polite version of simple past, used in stories to sound literary",
+     "Grammar: Language Usage in the Text refers to the specific grammatical structures — particularly past perfect tense, reported speech, passive voice",
      "Past perfect tense is formed with \"had + past participle\" (e.g., \"had come\", \"had said\"). In a narrative written in simple past"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The Last' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student says \"it shows an action that happened a long time ago\" or \"it is just the past of past\", they confuse *time distance* with *time sequence*. The key is relative order, not absolute distance. This error leads to misidentifying simple past verbs as past perfect in the text.",
     "id": "gen_c12_eng_f_ch01_q11",
     "nodeId": "c12_eng_f_cbse_01_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are telling a friend about a shocking announcement made at your school assembly *yesterday* — but the announcement was about a decision",
-     "How do you show which past event happened first?",
-     "In \"The Last Lesson\", Franz narrates in past tense (\"I started\", \"I passed\"), but M.",
-     "Hamel's announcement (\"The order had come from Berlin\") uses past perfect to show it happened before Franz arrived."
+     "Read 'The Last Lesson' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -471,20 +440,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define literal comprehension and inferential comprehension in your own words.",
     "answer": "Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding implied meanings by combining textual clues with prior",
     "options": [
-     "\"The pain that is inflicted on the people of a territory by its conquerors by taking away the right to study or speak their own language",
-     "The order mandated that only German be taught in the schools of Alsace and Lorraine, effectively banning French instruction",
+     "Students treat setting as a static list of \"where and when\" facts (Alsace, 1870, schoolroom) rather than a dynamic force that changes across the narrative",
+     "The student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers",
      "Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding implied meanings by combining textual clues with prior"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The' slide -- match the key terms.",
     "misconception": "a wrong answer reveals misunderstanding: If a student swaps the definitions (e.g., \"literal means reading between the lines\"), they confuse explicit retrieval with implicit reasoning — a fundamental error that leads to answering \"Franz hated school\" as a literal fact when the text only says he \"thought of running away.",
     "id": "gen_c12_eng_f_ch01_q12",
     "nodeId": "c12_eng_f_cbse_01_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you receive a WhatsApp forward about a new school rule: \"No phones in class.",
-     "Similarly, in \"The Last Lesson,\" start by reading the opening paragraph and asking: \"What is directly stated?",
-     "Then ask: \"What is implied?\" (Franz is unprepared, values play over study, the Prussian soldiers' drilling is a normal sight).",
-     "Practice this two-step scan on every paragraph: first highlight literal facts, then write one inference per paragraph backed by a quote."
+     "Answer 'The Last Lesson' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -544,10 +510,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_01_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're facing a CUET question: \"How does Daudet use the child narrator's limited understanding to critique linguistic imperialism?",
-     "Start by asking: WHO is telling this?",
-     "Franz — a child who initially resents school.",
-     "Now trace: his ignorance creates DRAMATIC IRONY (we know French will be banned; he doesn't)."
+     "Analyse 'The Last Lesson' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -629,10 +593,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_01_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open your board exam paper and see: \"Write a notice for your school bulletin board announcing a French language week\" — you freeze",
-     "Start by identifying the FORMAT: notice needs a header, date, issuing authority, subject, body (what, when, where, who), and signature.",
-     "Next, identify the CONTENT from the chapter: M.",
-     "Hamel's last lesson, the village elders' regret, the \"Vive La France\" moment."
+     "For written answers on 'The Last Lesson', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -681,10 +642,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_01_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a CUET interview panel and asked: \"What does 'The Last Lesson' teach us about language and identity today?",
-     "Start by identifying the discussion prompt type: thematic (language pride), character-based (Franz's transformation), or contemporary connection (NEP",
-     "Next, locate your \"anchor evidence\" — two precise textual moments (e.g., M.",
-     "Hamel's \"key to prison\" line; Hauser spelling with trembling voice)."
+     "Talk through 'The Last Lesson' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -735,25 +693,25 @@ export const C12_ENG_F_GEN: SimDef[] = [
    },
    {
     "type": "order",
-    "question": "Evaluate this student's narrative opening: \"I used to hate my grandmother's strictness. But one day she fell ill and I realized she loves me. Now I respect her.\" Does it meet the \"changed opinion\" task requirements? Justify.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "No sensory details or scene-setting",
+      "label": "identify and classify specific images",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how a metaphor works by naming",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
-      "id": "s1",
-      "label": "No reflection on WHY the opinion changed",
+      "id": "s2",
+      "label": "analyze how imagery and metaphor together",
       "emoji": "📌",
       "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "No narrative arc",
-      "emoji": "📌",
-      "correctBin": "o0"
      }
     ],
     "bins": [
@@ -774,46 +732,90 @@ export const C12_ENG_F_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Students who write summaries score 2/5 for expression; they miss the \"narrate\" command word entirely.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) identify and classify specific images in the text as visual, auditory, tactile,",
     "id": "gen_c12_eng_f_ch01_q17",
-    "nodeId": "c12_eng_f_cbse_01_014",
+    "nodeId": "c12_eng_f_cbse_01_008",
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Compare the bulletin-board's role in the story's opening with its function in the villagers' lives over the past two years. What does this shift reveal about the community's relationship to authority?",
-    "answer": "Previously, the board broadcast Prussian victories, conscription orders, and commander's decrees — the voice of the conqueror",
-    "options": [
-     "This is situational irony: Franz's indifference turns into desperate valuation *only when the opportunity is removed*",
-     "The shift reveals the theme's core psychological mechanism: language is invisible until threatened",
-     "Previously, the board broadcast Prussian victories, conscription orders, and commander's decrees — the voice of the conqueror"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explaining how they interact to shape",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "constructing a coherent PEEL-structured",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "connecting this to the story's central",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "identifying at least two literary devices",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"the board had news\" misses the evolution from external imposition to internalised loss.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can independently analyze an unseen passage from \"The Last Lesson\" by: (1) identifying at least two literary",
     "id": "gen_c12_eng_f_ch01_q18",
-    "nodeId": "c12_eng_f_cbse_01_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_f_cbse_01_013",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the last lesson' — the context and background to th?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Last Lesson' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch02",
-  "title": "Before You Read: Context and Background",
+  "title": "'Lost Spring' — The Context And Background",
   "subtitle": "English · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch2: Before You Read: Context and Background"],
+  "topic": "'Lost Spring' — The Context And Background To This T",
+  "chapters": [
+   "English Ch2: 'Lost Spring' — The Context And Background To This T"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_02_001",
    "c12_eng_f_cbse_02_002",
@@ -838,103 +840,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Before You Read: Context and actually explain?",
+   "question": "In one line -- what does 'Lost Spring' — The Context And actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
     "Only how to score marks"
    ],
    "answer": "Why things around us behave the way they do",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, economic, and authorial"
+   "hook": "'Lost Spring' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, economic, and authorial information necessary to access a text's deeper meanings.",
+    "title": "'Lost Spring' — The Context And Background",
+    "text": "'Lost Spring' (Flamingo, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Text: Plot and Narrative Structure",
-    "text": "Plot and Narrative Structure in \"Lost Spring\" refers to the author Anees Jung's deliberate organization of two parallel real-life narratives — Saheb the ragpicker in Seemapuri and Mukesh the bangle-maker's son in Firozabad — into a cohesive non-fiction",
+    "title": "Plot/narrative Arc Of 'Lost Spring'",
+    "text": "The plot/narrative arc of 'Lost Spring' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a narrative occurs, including physical geography, historical period, and cultural conditions.",
+    "title": "Setting Of 'Lost Spring'",
+    "text": "The setting of 'Lost Spring' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist examines the central character's traits, motivations, conflicts, and development across the narrative, using textual evidence to reveal how the author constructs the character to embody the story's core themes.",
+    "title": "Character Analysis In 'Lost Spring'",
+    "text": "Character analysis in 'Lost Spring' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters In \"Lost Spring\"",
-    "text": "Supporting characters in \"Lost Spring\" are the secondary figures who surround the protagonists (Saheb and Mukesh) and function as narrative mirrors, thematic foils, or representatives of systemic forces (poverty, caste, exploitation, apathy) that entrap the",
+    "title": "Supporting Characters In 'Lost Spring'",
+    "text": "Supporting characters in 'Lost Spring' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of \"Lost Spring\"",
-    "text": "The primary theme of \"Lost Spring\" is the systemic theft of childhood — how grinding poverty, caste-bound traditional labour, and institutional apathy force children like Saheb and Mukesh into exploitative work, denying them education, dreams, and agency.",
+    "title": "Primary Theme Of 'Lost Spring'",
+    "text": "The primary theme of 'Lost Spring' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas that run alongside the primary theme, adding depth and complexity to a text by exploring related social, psychological, or moral dimensions.",
+    "title": "Secondary Themes In 'Lost Spring'",
+    "text": "Secondary themes in 'Lost Spring' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create concrete mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Lost Spring'",
+    "text": "Imagery in 'Lost Spring' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, revealing a contradiction between appearance and reality.",
+    "title": "Irony And Paradox In 'Lost Spring' — Where",
+    "text": "Irony and paradox in 'Lost Spring' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context refers to the skill of determining the meaning of unfamiliar words or expressions by analyzing the surrounding text, including clues like synonyms, antonyms, examples, tone, and the overall situation described in the passage.",
+    "title": "Key Vocabulary Of 'Lost Spring'",
+    "text": "Key vocabulary of 'Lost Spring' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the study of how grammatical structures (sentence types, tenses, voice, speech, clauses, phrases) are employed in \"Lost Spring\" to convey meaning, create tone, and reflect the author's perspective on child labour",
+    "title": "Language And Style In 'Lost Spring'",
+    "text": "Language and style in 'Lost Spring' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated facts, details, or sequences directly from the text. Inferential comprehension questions demand that students read between the lines, combining textual evidence with logical",
+    "title": "Literal Comprehension Of 'Lost Spring'",
+    "text": "Literal comprehension of 'Lost Spring' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the ability to examine a text deeply by questioning underlying assumptions, evaluating evidence, synthesizing multiple perspectives, and drawing reasoned conclusions about the author's intent, societal",
+    "title": "Critical Thinking On 'Lost Spring'",
+    "text": "Critical thinking on 'Lost Spring' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On \"Lost Spring\"",
-    "text": "Writing Skills based on \"Lost Spring\" refers to the ability to compose structured, purpose-driven texts (articles, speeches, reports, formal letters, analytical paragraphs) that use the chapter's content — child labour, poverty, lost childhood, systemic",
+    "title": "Writing Skills From 'Lost Spring'",
+    "text": "Writing skills from 'Lost Spring' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skill where students collaboratively explore the themes, characters, and socio-economic realities of \"Lost Spring\" by expressing evidence-based opinions, actively listening",
+    "title": "Discussion Points On 'Lost Spring'",
+    "text": "Discussion points on 'Lost Spring' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -945,20 +947,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the author of *Lost Spring*, and what is her professional background that shapes this text?",
     "answer": "Anees Jung, born in Rourkela (1944), raised in Hyderabad, educated in India and the USA; she is a journalist, editor, and columnist for major Indian and international newspapers",
     "options": [
-     "Critical interpretation involves analyzing the author's choices (selection of details, narrative voice, structure) to uncover implicit arguments about society, power",
-     "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
+     "The student can independently identify specific images and metaphors in the text, explain the sensory details and the comparative logic of each",
+     "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, social, economic",
      "Anees Jung, born in Rourkela (1944), raised in Hyderabad, educated in India and the USA; she is a journalist, editor, and columnist for major Indian and international newspapers"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Lost Spring' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a novelist\" or \"a social worker\") reveals the student misses the genre: this is witnessed reality, not invented narrative, which changes how we evaluate its truth claims.",
     "id": "gen_c12_eng_f_ch02_q1",
     "nodeId": "c12_eng_f_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you see a young boy serving tea at a roadside stall near your school — he should be in Class 6, but he's wiping tables.",
-     "To answer this, we first \"read the world before reading the word.\" Step 1: Investigate the author — Anees Jung, a journalist born in Rourkela, writes",
-     "Step 2: Map the two worlds — Seemapuri (Delhi's periphery, settled by 1971 Bangladeshi migrants, ragpicking economy) and Firozabad (glass-blowing",
-     "Step 3: Identify the legal framework — Article 24 prohibits child labour in hazardous industries; the Child Labour (Prohibition and Regulation) Act"
+     "Start with the author of 'Lost Spring', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -1007,10 +1006,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_02_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a documentary that follows two children in different cities but cuts between them to show how their stories mirror each other.",
-     "That's exactly what Jung does.",
-     "Start by asking: \"If I had to draw a timeline of Saheb's story and Mukesh's story side by side, where would they overlap and where would they diverge?",
-     "Then notice how the author inserts herself as the observer-narrator who bridges them."
+     "Trace 'Lost Spring' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -1018,20 +1014,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What are the two primary physical settings described in \"Lost Spring,\" and what major industry or activity defines each?",
     "answer": "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
     "options": [
+     "The student can (1) state the primary theme in one precise sentence using textual evidence from both Saheb's and Mukesh's narratives",
      "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
-     "Anees Jung, born in Rourkela (1944), raised in Hyderabad, educated in India and the USA; she is a journalist, editor, and columnist for major Indian and international newspapers",
      "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Lost Spring'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming only one setting or misidentifying the industry) reveals the student has not grasped the dual-narrative structure of the chapter, which is essential for comparative analysis of atmosphere.",
     "id": "gen_c12_eng_f_ch02_q3",
     "nodeId": "c12_eng_f_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist visiting Seemapuri and Firozabad today — what would you see, smell, hear, and feel?",
-     "That visceral experience is exactly what \"setting and atmosphere\" capture in literature.",
-     "Begin by listing every concrete sensory detail the author gives for each location: the \"mud structures with roofs of tin and tarpaulin\" in Seemapuri",
-     "Next, ask: what emotional effect do these details create?"
+     "Identify where and when 'Lost Spring' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -1039,20 +1032,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What are the two protagonists' names in \"Lost Spring,\" and which story does each belong to?",
     "answer": "The two protagonists are Saheb (from \"Sometimes I find a Rupee in the garbage\") and Mukesh (from \"I want to drive a car\")",
     "options": [
-     "Seemapuri: the barefoot boy who says \"My mother did not bring them down from the shelf\", the boy with mismatched shoes, the boy who says \"I want shoes\"",
-     "\"The plight of street children forced into labour early in life and denied the opportunity of schooling",
+     "The student can identify and compare the two distinct settings (Seemapuri and Firozabad) in \"Lost Spring,\" explain how specific sensory details create contrasting atmospheres",
+     "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
      "The two protagonists are Saheb (from \"Sometimes I find a Rupee in the garbage\") and Mukesh (from \"I want to drive a car\")"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Lost' slide -- match the key terms.",
     "misconception": "A wrong answer — such as naming only one protagonist or confusing their stories — reveals the student has not grasped the dual-narrative structure of the chapter, which is essential because CBSE questions often ask for comparative analysis across both stories.",
     "id": "gen_c12_eng_f_ch02_q4",
     "nodeId": "c12_eng_f_cbse_02_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a journalist interviewing Saheb at the tea stall and Mukesh in the dark hutment — what would their answers reveal about their inner",
-     "Start by listing every direct quote and action the text gives for each boy.",
-     "Next, group these into patterns: what does Saheb's \"carefree look\" vs. the \"heavier steel canister\" show about lost agency?",
-     "What does Mukesh's \"looking straight into my eyes\" vs. his silence about flying planes show about constrained dreaming?"
+     "Pick the central figure in 'Lost Spring' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -1060,20 +1050,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Name three supporting characters from the Seemapuri section and three from the Firozabad section of \"Lost Spring\".",
     "answer": "Seemapuri: the barefoot boy who says \"My mother did not bring them down from the shelf\", the boy with mismatched shoes, the boy who says \"I want shoes\"",
     "options": [
-     "Correct sequence: Sender's Address → Date → Receiver's Address (The Editor, Newspaper Name",
-     "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
+     "The student can independently identify 5+ unfamiliar words from \"Lost Spring\", explain the specific context clues (definition, contrast, example",
+     "The student can independently deconstruct a passage from \"Lost Spring\" to identify implicit biases, socio-economic critiques, and narrative techniques",
      "Seemapuri: the barefoot boy who says \"My mother did not bring them down from the shelf\", the boy with mismatched shoes, the boy who says \"I want shoes\""
     ],
-    "hint": "Straight from the 'Supporting characters in \"Lost' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Lost' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming only protagonists or characters from other chapters) reveals the student cannot distinguish supporting cast from main characters or cannot locate characters in the correct narrative setting.",
     "id": "gen_c12_eng_f_ch02_q5",
     "nodeId": "c12_eng_f_cbse_02_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist interviewing people in Seemapuri and Firozabad.",
-     "You notice that every person you meet — the barefoot boy who says \"I want shoes,\" the bahu veiling her face before her father-in-law, the old",
-     "Start by listing every named or described secondary figure in the text.",
-     "Next, group them by location (Seemapuri vs Firozabad) and by role (victim, enforcer, witness)."
+     "Spot the secondary figures in 'Lost Spring' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -1081,20 +1068,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the ONE sentence in the NCERT \"About the Unit\" box that explicitly states the primary theme of \"Lost Spring\"?",
     "answer": "\"The plight of street children forced into labour early in life and denied the opportunity of schooling",
     "options": [
-     "A metaphor is an implicit comparison where one thing is described *as* another to transfer qualities (e",
      "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
+     "Grammar: Language Usage in the Text refers to the study of how grammatical structures (sentence types, tenses, voice, speech, clauses",
      "\"The plight of street children forced into labour early in life and denied the opportunity of schooling"
     ],
-    "hint": "Straight from the 'primary theme of \"Lost Spring\"' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Lost Spring'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"poverty in India\" or \"child labour is bad\") reveals the student cannot distinguish between a TOPIC (poverty, child labour) and a THEME (a specific, arguable statement about that topic made by the text).",
     "id": "gen_c12_eng_f_ch02_q6",
     "nodeId": "c12_eng_f_cbse_02_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you see a child your age picking through a garbage heap at 7 AM while you wait for your school bus.",
-     "You ask, \"Why don't you go to school?\" and he says, \"There is no school in my neighbourhood.\" Now ask: Is this child's situation his fault?",
-     "His parents' fault?",
-     "Or is it a failure of the system that promises education but builds no schools where he lives?"
+     "Ask what 'Lost Spring' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -1176,10 +1160,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in the board exam: \"The story 'Lost Spring' is not just about child labour.",
-     "It explores several interconnected social evils.",
-     "Discuss.\" Where do you begin?",
-     "Start by listing every social issue you notice while reading — barefoot tradition, caste, migration, middlemen, broken promises, lost dreams."
+     "Look beneath the main theme of 'Lost Spring' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -1187,20 +1168,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define metaphor and give ONE example from *Lost Spring* that is NOT \"Garbage to them is gold\".",
     "answer": "A metaphor is an implicit comparison where one thing is described *as* another to transfer qualities (e",
     "options": [
-     "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
-     "The two protagonists are Saheb (from \"Sometimes I find a Rupee in the garbage\") and Mukesh (from \"I want to drive a car\")",
+     "The student can identify at least four distinct secondary themes in \"Lost Spring,\" trace each across both narratives (Saheb and Mukesh) with specific textual evidence",
+     "Writing Skills based on \"Lost Spring\" refers to the ability to compose structured, purpose-driven texts (articles, speeches, reports, formal letters",
      "A metaphor is an implicit comparison where one thing is described *as* another to transfer qualities (e"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Lost Spring'' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: If a student gives a simile (\"hands move mechanically *like* the tongs of a machine\"), they confuse explicit comparison (simile) with implicit identity (metaphor).",
     "id": "gen_c12_eng_f_ch02_q8",
     "nodeId": "c12_eng_f_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a government report on child labour: it gives statistics — \"20,000 children work in glass furnaces.",
-     "That difference is imagery and metaphor.",
-     "To begin, do not hunt for definitions.",
-     "Instead, re-read the two moments that haunted you: Saheb at the tennis fence, and Mukesh in the \"dark hutment\" beside flickering lamps."
+     "Find the lines in 'Lost Spring' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -1208,20 +1186,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the literal meaning of the name \"Saheb-e-Alam,\" and what is the ironic contrast between this meaning and Saheb's actual life in the chapter?",
     "answer": "The literal meaning is \"lord of the universe.\" The irony is that Saheb is a barefoot ragpicker who scrounges in garbage dumps, owns nothing, and has no control over his life",
     "options": [
-     "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
-     "Anees Jung, born in Rourkela (1944), raised in Hyderabad, educated in India and the USA; she is a journalist, editor, and columnist for major Indian and international newspapers",
+     "\"The plight of street children forced into labour early in life and denied the opportunity of schooling",
+     "The two protagonists are Saheb (from \"Sometimes I find a Rupee in the garbage\") and Mukesh (from \"I want to drive a car\")",
      "The literal meaning is \"lord of the universe.\" The irony is that Saheb is a barefoot ragpicker who scrounges in garbage dumps, owns nothing, and has no control over his life"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Lost' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"his name means he is rich\") reveals the student misses that irony requires a contradiction between label and reality, not just a mismatch.",
     "id": "gen_c12_eng_f_ch02_q9",
     "nodeId": "c12_eng_f_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a child named Saheb wearing discarded tennis shoes with a hole, standing outside a fenced tennis court where rich boys play.",
-     "The shoes — a dream come true for a barefoot ragpicker — are also a cruel reminder of what he can never have.",
-     "This moment captures the essence of irony and symbolism in \"Lost Spring.\" Begin by asking: \"What does the author show us that the characters",
-     "The key insight is that Anees Jung uses these devices not as decoration but as evidence: they expose the gap between what is promised to children and"
+     "Look in 'Lost Spring' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -1229,20 +1204,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What does the expression \"perpetual state of poverty\" mean in the context of the ragpickers in Seemapuri, and which word in the phrase signals that this poverty is not temporary?",
     "answer": "\"Perpetual state of poverty\" means poverty that is endless, continuing indefinitely across generations",
     "options": [
-     "The phrase literally means that the ragpickers find valuable items (like rupee coins or ten-rupee notes) in the garbage dumps, which they sell or use for survival",
-     "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
+     "The student can independently write a structured 150-word character analysis for either Saheb or Mukesh using the PEEL method (Point, Evidence, Explanation, Link)",
+     "Vocabulary in context refers to the skill of determining the meaning of unfamiliar words or expressions by analyzing the surrounding text, including clues like synonyms, antonyms",
      "\"Perpetual state of poverty\" means poverty that is endless, continuing indefinitely across generations"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Lost Spring'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"very poor right now\") reveals the student missed the temporal dimension and the systemic critique: the author uses \"perpetual\" to show poverty is structurally imposed, not accidental.",
     "id": "gen_c12_eng_f_ch02_q10",
     "nodeId": "c12_eng_f_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"Lost Spring\" and hit the phrase \"slog their daylight hours\" — you don't know \"slog\", but you see children working in",
-     "That context screams \"hard, exhausting labor\".",
-     "Start by circling every unfamiliar word.",
-     "Then hunt for clues: Does the author define it nearby (\"Garbage to them is gold\")?"
+     "Note the difficult or loaded words in 'Lost Spring' — their meaning carries the text's precision."
     ]
    },
    {
@@ -1250,20 +1222,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the tense and voice of the verb phrase \"have come to recognise\" in the sentence: \"Over the months, I have come to recognise each of them.\"",
     "answer": "Present perfect active. The auxiliary \"have\" + past participle \"come\" forms present perfect; \"to recognise\" is an infinitive complement",
     "options": [
-     "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
-     "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
+     "The student can independently identify specific images and metaphors in the text, explain the sensory details and the comparative logic of each",
+     "Seemapuri: the barefoot boy who says \"My mother did not bring them down from the shelf\", the boy with mismatched shoes, the boy who says \"I want shoes\"",
      "Present perfect active. The auxiliary \"have\" + past participle \"come\" forms present perfect; \"to recognise\" is an infinitive complement"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Lost' slide -- match the key terms.",
     "misconception": "A wrong answer like \"past tense\" reveals the student cannot distinguish perfect aspect from simple past, missing how the author emphasizes an ongoing process of recognition that continues into the present.",
     "id": "gen_c12_eng_f_ch02_q11",
     "nodeId": "c12_eng_f_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading Saheb's dialogue: \"I have nothing else to do,\" he mutters.",
-     "Why does Anees Jung use present perfect (\"have nothing\") instead of simple present?",
-     "Start by noticing recurring patterns: the text mixes past narration with present-tense dialogue, uses conditionals for unfulfilled promises (\"If I",
-     "First, scan the text for verb forms — highlight all finite verbs."
+     "Read 'Lost Spring' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -1312,10 +1281,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you sit in the exam hall and see a 3-mark question: *\"Why does Anees Jung say that promises made to poor children are rarely kept?",
-     "Start by scanning the text for the keyword \"promise\" — you'll find the author's half-joking offer to start a school and Saheb's eager response.",
-     "Next, identify the contrast: the author feels embarrassed, but notes \"promises like mine abound in every corner of his bleak world.",
-     "Finally, structure your answer: Point (promises are rarely kept), Evidence (author's unfulfilled school promise + \"abound in every corner\"),"
+     "Answer 'Lost Spring' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -1323,20 +1289,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define 'critical interpretation' in the context of studying a non-fiction narrative like \"Lost Spring\". How does it differ from literal comprehension?",
     "answer": "Critical interpretation involves analyzing the author's choices (selection of details, narrative voice, structure) to uncover implicit arguments about society, power",
     "options": [
-     "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
-     "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
+     "Critical Thinking: Analysis and Interpretation is the ability to examine a text deeply by questioning underlying assumptions, evaluating evidence",
+     "The student must be able to identify at least three distinct instances of irony and three symbols in \"Lost Spring,\" explain how each operates in the text",
      "Critical interpretation involves analyzing the author's choices (selection of details, narrative voice, structure) to uncover implicit arguments about society, power"
     ],
-    "hint": "Straight from the 'Critical Thinking' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Lost Spring'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists plot points reveals the student is still operating at recall level, not analysis.",
     "id": "gen_c12_eng_f_ch02_q13",
     "nodeId": "c12_eng_f_cbse_02_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist visiting Seemapuri or Firozabad today — what would you ask the children that Anees Jung didn't?",
-     "Start by re-reading the two key encounters: the author's promise to start a school for Saheb, and Mukesh's dream of becoming a motor mechanic.",
-     "Notice how the author positions herself — sometimes as an observer, sometimes as an unwitting participant in false hope.",
-     "Ask: Whose voice is centered?"
+     "Analyse 'Lost Spring' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -1345,19 +1309,16 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "answer": "Correct sequence: Sender's Address → Date → Receiver's Address (The Editor, Newspaper Name",
     "options": [
      "The two threads are Saheb's story (a ragpicker in Seemapuri, Delhi) and Mukesh's story (a bangle-maker's son in Firozabad, Uttar Pradesh)",
-     "The two primary settings are Seemapuri (a slum on Delhi's periphery) defined by rag-picking",
+     "The student can (1) map the dual narrative arcs of Saheb and Mukesh, identifying how each progresses from introduction to conflict to unresolved tension",
      "Correct sequence: Sender's Address → Date → Receiver's Address (The Editor, Newspaper Name"
     ],
-    "hint": "Straight from the 'Writing Skills based on \"Lost' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Lost Spring'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., putting Subject before Date, or omitting Receiver's Address) reveals the student has memorised components but not the fixed top-to-bottom layout that examiners check for format marks (1 mark).",
     "id": "gen_c12_eng_f_ch02_q14",
     "nodeId": "c12_eng_f_cbse_02_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you just read about Saheb holding a steel canister at the tea stall, his carefree look gone, and Mukesh dreaming of cars while planes never",
-     "You want to write a Letter to the Editor demanding enforcement of child labour laws.",
-     "Where do you begin?",
-     "First, identify the format: formal letter requires sender's address, date, receiver's address, subject, salutation, body (3 paragraphs: issue,"
+     "For written answers on 'Lost Spring', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -1406,10 +1367,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_02_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a university admission interview and the panel asks: \"You've read about children in Firozabad's glass furnaces.",
-     "If you were District Magistrate for a day, what would you actually DO — not just say?",
-     "Start by re-reading the three NCERT \"Talking about the text\" questions.",
-     "For each, list: (a) textual evidence (quotes/paraphrases), (b) root causes (caste, middlemen, apathy, law enforcement failure), (c) stakeholder"
+     "Talk through 'Lost Spring' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -1459,55 +1417,119 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Analyse the metaphor \"Seemapuri, a place on the periphery of Delhi yet miles away from it, metaphorically.\" What two distances does it measure?",
-    "answer": "Physical distance: Seemapuri is geographically on Delhi's outskirts. Metaphorical distance: it is excluded from Delhi's citizenship rights (no sewage, drainage, water",
-    "options": [
-     "The metaphor compares the steel canister (object of wage labour) to the plastic bag (tool of rag-picking autonomy)",
-     "The pairing shows two distinct traps: Saheb represents the migrant, stateless child trapped in informal waste economy with no identity",
-     "Physical distance: Seemapuri is geographically on Delhi's outskirts. Metaphorical distance: it is excluded from Delhi's citizenship rights (no sewage, drainage, water"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "constructing logical inferences supported",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "locating exact textual evidence for literal",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "writing responses in the CBSE 3-mark/6-mark",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on geography misses the structural exclusion critique — the \"metaphorically\" signals the author's analytical frame.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently answer a mixed set of literal and inferential questions on \"Lost Spring\" by: (1) locating",
     "id": "gen_c12_eng_f_ch02_q17",
-    "nodeId": "c12_eng_f_cbse_02_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_f_cbse_02_012",
+    "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Apply the concept of \"hazardous industry\" under the Child Labour (Prohibition and Regulation) Act to Mukesh's work in Firozabad's glass furnaces. Is it illegal? Why does it persist?",
-    "answer": "Yes, it is illegal. The Act prohibits children under 14 in hazardous occupations; glass furnaces (high temperature, glass dust, poor ventilation) are notified hazardous processes",
-    "options": [
-     "It reveals how CASTE TRADITION is weaponized to normalize child labour. By calling it \"karam\" (destiny) and \"god-given lineage,\" the grandmother internalizes the oppression",
-     "The steel canister symbolizes the loss of autonomy and the burden of child labor. Unlike the plastic bag (symbol of freedom, self-directed work)",
-     "Yes, it is illegal. The Act prohibits children under 14 in hazardous occupations; glass furnaces (high temperature, glass dust, poor ventilation) are notified hazardous processes"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "responding to at least two peers' points",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "synthesizing a new insight that connects",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "opening with a clear thesis linked to",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it's legal because parents allow it\") reveals confusion between social acceptance and legal prohibition.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can initiate and sustain a 5-minute group discussion on any \"Lost Spring\" discussion prompt by: (1) opening",
     "id": "gen_c12_eng_f_ch02_q18",
-    "nodeId": "c12_eng_f_cbse_02_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_f_cbse_02_015",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'lost spring' — the context and background to this t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Lost Spring' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch03",
-  "title": "Before You Read: Context and Background",
+  "title": "'Deep Water' — The Context And Background",
   "subtitle": "English · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch3: Before You Read: Context and Background"],
+  "topic": "'Deep Water' — The Context And Background To This Te",
+  "chapters": [
+   "English Ch3: 'Deep Water' — The Context And Background To This Te"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_03_001",
    "c12_eng_f_cbse_03_002",
@@ -1532,103 +1554,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'Deep Water' — The Context And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "The \"Before You Read: Context and Background\" section provides essential preliminary information about the author (William O."
+   "hook": "'Deep Water' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "The \"Before You Read: Context and Background\" section provides essential preliminary information about the author (William O. Douglas), the autobiographical source (Of Men and Mountains), the geographical setting (Yakima, Washington), and the central",
+    "title": "'Deep Water' — The Context And Background",
+    "text": "'Deep Water' (Flamingo, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure In \"Deep Water\"",
-    "text": "Plot and narrative structure in \"Deep Water\" refers to the organization of events in William Douglas's autobiographical account, including the chronological sequence (exposition, rising action, climax, falling action, resolution) and the narrative techniques",
+    "title": "Plot/narrative Arc Of 'Deep Water'",
+    "text": "The plot/narrative arc of 'Deep Water' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment in which a narrative occurs, while atmosphere is the emotional mood or feeling created by the setting's sensory details, narrative pace, and the protagonist's internal response to that environment.",
+    "title": "Setting Of 'Deep Water'",
+    "text": "The setting of 'Deep Water' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist examines the central figure's personality traits, motivations, psychological development, and narrative function through their actions, thoughts, speech, and relationships, revealing how they embody the text's core themes.",
+    "title": "Character Analysis In 'Deep Water'",
+    "text": "Character analysis in 'Deep Water' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters examines how secondary figures in a narrative influence the protagonist's journey, reveal thematic concerns, and contribute to the text's emotional and psychological depth through their actions, dialogue, and",
+    "title": "Supporting Characters In 'Deep Water'",
+    "text": "Supporting characters in 'Deep Water' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Primary Theme Of \"Deep Water\"",
-    "text": "The primary theme of \"Deep Water\" is the conquest of fear through deliberate, systematic effort and the realization that fear itself — not the object feared — is the true obstacle.",
+    "title": "Primary Theme Of 'Deep Water'",
+    "text": "The primary theme of 'Deep Water' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying thematic threads that support, complicate, or extend the primary theme of a text. In \"Deep Water,\" while the primary theme is conquering fear of water, secondary themes include the lasting psychological impact of childhood",
+    "title": "Secondary Themes In 'Deep Water'",
+    "text": "Secondary themes in 'Deep Water' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Deep Water'",
+    "text": "Imagery in 'Deep Water' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'Deep Water' — Where",
+    "text": "Irony and paradox in 'Deep Water' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the analytical skill of determining precise word meanings by examining surrounding textual evidence — including sentence structure, contrast signals, illustrative examples, morphological cues, and narrative positioning — rather than",
+    "title": "Key Vocabulary Of 'Deep Water'",
+    "text": "Key vocabulary of 'Deep Water' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the study of how the author employs grammatical structures — such as verb tenses, voice, sentence types, narration mode, and syntactic patterns — to shape meaning, control pace, convey psychological states, and",
+    "title": "Language And Style In 'Deep Water'",
+    "text": "Language and style in 'Deep Water' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving information directly stated in the text. Inferential comprehension questions require drawing conclusions, making interpretations, or understanding implications not explicitly stated, using evidence from the",
+    "title": "Literal Comprehension Of 'Deep Water'",
+    "text": "Literal comprehension of 'Deep Water' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining an author's narrative choices — perspective, structure, language, and symbolism — to interpret deeper meanings, evaluate the text's effectiveness, and formulate independent, evidence-based judgments",
+    "title": "Critical Thinking On 'Deep Water'",
+    "text": "Critical thinking on 'Deep Water' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On \"Deep Water\"",
-    "text": "Writing Skills based on \"Deep Water\" involves crafting structured, first-person narrative responses (essays, letters, perspective shifts) that demonstrate the ability to recount personal experiences of overcoming fear, using textual evidence from the chapter,",
+    "title": "Writing Skills From 'Deep Water'",
+    "text": "Writing skills from 'Deep Water' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skill where students articulate, defend, and refine interpretations of a text through collaborative dialogue, using textual evidence, personal connections, and critical",
+    "title": "Discussion Points On 'Deep Water'",
+    "text": "Discussion points on 'Deep Water' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -1640,19 +1662,16 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "answer": "William O. Douglas (1898–1980) was an American jurist who served as an Associate Justice of the United States Supreme Court for 36 years (1939–1975)",
     "options": [
      "Situational irony: outcome contradicts expectation (e.g., the big boy says \"I was only fooling\" after nearly killing Douglas)",
-     "1. California beach (childhood, age 3-4) 2. Yakima River (warned about, never entered) 3. YMCA pool, Yakima (misadventure at age 10-11) 4",
+     "Student can independently analyze a passage from \"Deep Water\" to explain how Douglas uses specific narrative techniques (e",
      "William O. Douglas (1898–1980) was an American jurist who served as an Associate Justice of the United States Supreme Court for 36 years (1939–1975)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Deep Water' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he was a swimming instructor\" or \"he wrote fiction novels\") reveals the student has not grasped the author's real-world stature, which is crucial because his adult reflection on childhood fear carries the weight of a constitutional scholar who understood fear in the context of civil liberties (e.",
     "id": "gen_c12_eng_f_ch03_q1",
     "nodeId": "c12_eng_f_cbse_03_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a movie based on a true story — you'd want to know who the real person is, where it happened, and why it matters.",
-     "Start by asking: \"What makes a childhood memory powerful enough to shape a Supreme Court Justice's philosophy?",
-     "Show the sketch map of Yakima River from the textbook to ground the setting.",
-     "Highlight the two key fears: the early beach trauma (age 3-4) and the YMCA pool incident (age 10-11)."
+     "Start with the author of 'Deep Water', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -1701,10 +1720,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie that starts with the hero drowning, then flashes back to show how he got there, then jumps forward to his training",
-     "Begin by asking: \"If I had to tell this story in exactly 5 sentences — one for each major turning point — what would they be?",
-     "Then examine HOW Douglas tells it: he's an adult looking back, so he controls time — compressing years of avoidance into a paragraph, stretching the",
-     "Notice the flashback to the California beach (childhood trauma) inserted right before the YMCA incident — that's structural foreshadowing."
+     "Trace 'Deep Water' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -1753,10 +1769,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at the edge of a swimming pool for the first time — the smell of chlorine, the sound of splashing, the cold water on your",
-     "Now imagine that same pool after a near-drowning: the silence becomes threatening, the tiles look like a grave.",
-     "That's the power of setting to create atmosphere.",
-     "In \"Deep Water,\" Douglas uses six distinct water-settings to map his psychological journey."
+     "Identify where and when 'Deep Water' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -1805,10 +1818,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are writing a college application essay about overcoming your greatest fear — you would not just say \"I was scared then I wasn't.",
-     "That is exactly what Douglas does in \"Deep Water.\" Start by identifying the three distinct phases of his life presented in the text: the ten-year-old",
-     "For each phase, ask: What does he DO?",
-     "What does he THINK?"
+     "Pick the central figure in 'Deep Water' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -1868,10 +1878,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where the hero nearly drowns — but the camera keeps cutting to the lifeguard who freezes, the bully who laughs, the",
-     "In \"Deep Water,\" Douglas is the hero, but the people around him *create* the conditions for his terror and his triumph.",
-     "Start by listing every person Douglas mentions besides himself.",
-     "For each, ask: What do they *do*?"
+     "Spot the secondary figures in 'Deep Water' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -1931,10 +1938,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at the edge of a pool, heart pounding, remembering a time you almost drowned — that visceral memory is exactly where Douglas",
-     "To find the primary theme, don't just list \"what happens\"; ask: what psychological journey does the narrator map from the moment he's thrown into the",
-     "Notice how the essay divides into three acts: the traumatic origin (childhood beach + YMCA incident), the systematic dismantling (instructor's rope,",
-     "The theme isn't \"learning to swim\" — it's \"learning to master fear itself.\" The message crystallizes in the final paragraph: the peace of near-death"
+     "Ask what 'Deep Water' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -1946,16 +1950,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "A literal comprehension response recounts *what happened* (e.g., \"Douglas was thrown in, sank, tried to jump, failed, nearly drowned\")",
      "A primary theme is the central, dominant message or idea that structures the entire text (in \"Deep Water,\" conquering fear of water)"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Deep Water'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only plot events or character traits reveals confusion between theme and plot/character analysis.",
     "id": "gen_c12_eng_f_ch03_q7",
     "nodeId": "c12_eng_f_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Think of a time you learned something difficult — maybe driving, swimming, or public speaking.",
-     "The main story is \"I learned it.\" But underneath are other stories: the fear that held you back, the teacher who broke it into steps, the times you",
-     "That's what secondary themes do — they're the hidden layers that make the main story richer.",
-     "In \"Deep Water,\" Douglas's main story is learning to swim."
+     "Look beneath the main theme of 'Deep Water' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -1963,20 +1964,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"imagery\" and \"metaphor\" in your own words, giving one example of each from *Deep Water*.",
     "answer": "Imagery: Language appealing to the senses (e.g., \"water that had a dirty yellow tinge to it\" — visual)",
     "options": [
-     "William O. Douglas (1898–1980) was an American jurist who served as an Associate Justice of the United States Supreme Court for 36 years (1939–1975)",
-     "The primary narrative tense is simple past (e.g., \"happened\", \"decided\", \"was\", \"offered\"). A past perfect example from the opening is \"had happened\" or \"had decided\"",
+     "The student can independently initiate and sustain a 3-minute discussion on a theme from \"Deep Water\" by: (1) stating a clear interpretive claim grounded in specific textual",
+     "Student can identify at least three secondary themes in \"Deep Water,\" trace each theme across specific textual evidence from beginning to end of the essay",
      "Imagery: Language appealing to the senses (e.g., \"water that had a dirty yellow tinge to it\" — visual)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Deep Water'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"imagery is just description\" or \"metaphor uses like/as\") reveals confusion between imagery and mere adjectives, or between metaphor and simile.",
     "id": "gen_c12_eng_f_ch03_q8",
     "nodeId": "c12_eng_f_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing a nightmare to a friend: you don't just say \"I was scared\"; you say \"The walls were closing in, the air turned to syrup,",
-     "In this chapter, Douglas does exactly that to make the reader *feel* his drowning.",
-     "Start by scanning the text for sense words — \"yellow tinge,\" \"pounding in my head,\" \"tender arms like Mother's.",
-     "The \"curtain of life,\" the \"mass of yellow water,\" the \"handicap\" of fear."
+     "Find the lines in 'Deep Water' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -2047,10 +2045,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Think of a time you said \"Great job!\" to a friend who just spilled coffee on themselves — that's verbal irony: words meaning the opposite.",
-     "Now recall the boy in \"Deep Water\" who tosses Douglas into the deep end saying \"How'd you like to be ducked?",
-     "As readers, we feel Douglas's terror while the big boy remains oblivious — that's dramatic irony.",
-     "For symbolism, notice how \"water\" isn't just H₂O; it represents paralyzing fear, then later, the conquered self."
+     "Look in 'Deep Water' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -2058,20 +2053,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "List the five main types of context clues used to infer word meaning, giving a one-phrase example of each from everyday reading.",
     "answer": "The five main types: 1) Definition/Restatement (e.g., \"treacherous, meaning dangerous\"), 2) Synonym (e",
     "options": [
-     "William O. Douglas (1898–1980) was an American jurist who served as an Associate Justice of the United States Supreme Court for 36 years (1939–1975)",
-     "1. At age 3–4: knocked down by waves at a California beach while holding his father's hand — buried in water, breath gone, terror despite father's laughter",
+     "Vocabulary in Context is the analytical skill of determining precise word meanings by examining surrounding textual evidence",
+     "Students treat setting as a static \"where\" and atmosphere as a list of mood adjectives (scary, peaceful)",
      "The five main types: 1) Definition/Restatement (e.g., \"treacherous, meaning dangerous\"), 2) Synonym (e"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Deep Water'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"prefix/suffix\" as a clue type) reveals the student confuses morphological analysis with context-clue analysis — a critical distinction because board exams require textual evidence citation, not just word-part knowledge.",
     "id": "gen_c12_eng_f_ch03_q10",
     "nodeId": "c12_eng_f_cbse_03_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a medical thriller and encounter: \"The patient's treacherous aneurysm.",
-     "You can't ask a doctor mid-exam.",
-     "In \"Deep Water,\" Douglas writes: \"The Yakima River was treacherous.",
-     "Mother continually warned against it, and kept fresh in my mind the details of each drowning."
+     "Note the difficult or loaded words in 'Deep Water' — their meaning carries the text's precision."
     ]
    },
    {
@@ -2079,20 +2071,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the primary narrative tense used in \"Deep Water\" and give one example of a past perfect verb phrase from the first two paragraphs of the text.",
     "answer": "The primary narrative tense is simple past (e.g., \"happened\", \"decided\", \"was\", \"offered\"). A past perfect example from the opening is \"had happened\" or \"had decided\"",
     "options": [
-     "The four most significant supporting characters are: (1) The big bruiser boy — tosses Douglas into the deep end, triggering the near-drowning",
-     "The primary theme is that fear itself — not the dangerous situation — is the true enemy, and conquering fear through systematic effort liberates the will to live",
+     "The student can independently initiate and sustain a 3-minute discussion on a theme from \"Deep Water\" by: (1) stating a clear interpretive claim grounded in specific textual",
+     "Imagery: Language appealing to the senses (e.g., \"water that had a dirty yellow tinge to it\" — visual)",
      "The primary narrative tense is simple past (e.g., \"happened\", \"decided\", \"was\", \"offered\"). A past perfect example from the opening is \"had happened\" or \"had decided\""
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Deep Water'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., identifying present tense or claiming the whole text is in past perfect) reveals confusion about the difference between the main narrative timeline and the backstory timeline — a critical distinction for understanding autobiographical narrative structure.",
     "id": "gen_c12_eng_f_ch03_q11",
     "nodeId": "c12_eng_f_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to a friend recount a terrifying childhood incident.",
-     "You notice they switch between \"I decided\" and \"I had decided,\" use short, gasping sentences during the climax, and longer, reflective sentences when",
-     "That is exactly what William Douglas does in \"Deep Water.\" To analyze this, first read a paragraph and underline every verb phrase.",
-     "Identify the tense of each."
+     "Read 'Deep Water' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -2100,20 +2089,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define literal comprehension and inferential comprehension in your own words.",
     "answer": "Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding meaning that is implied but not directly stated",
     "options": [
-     "William O. Douglas (1898–1980) was an American jurist who served as an Associate Justice of the United States Supreme Court for 36 years (1939–1975)",
      "1. At age 3–4: knocked down by waves at a California beach while holding his father's hand — buried in water, breath gone, terror despite father's laughter",
+     "Douglas was, describe the real-life incident that forms the core of the chapter, and articulate the central theme of fear and its overcoming",
      "Literal comprehension is understanding information directly stated in the text. Inferential comprehension is understanding meaning that is implied but not directly stated"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Deep' slide -- match the key terms.",
     "misconception": "A wrong answer that equates inferential with \"guessing\" or \"personal opinion\" reveals the student doesn't grasp that inferential answers must be grounded in the text.",
     "id": "gen_c12_eng_f_ch03_q12",
     "nodeId": "c12_eng_f_cbse_03_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and see a question: \"Why did Douglas feel 'stark terror'?",
-     "Start by asking: \"Is this answer written word-for-word in the chapter, or do I need to connect clues?\" Literal questions (Who?",
-     "When?) have answers you can point to with a finger.",
-     "Inferential questions (Why?"
+     "Answer 'Deep Water' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -2162,10 +2148,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're writing a literary review of \"Deep Water\" for a school magazine.",
-     "You need to explain *why* this essay moves readers — not just *what* happens.",
-     "Where do you begin?",
-     "Start by isolating a moment of intense fear (e.g., the \"yellow water\" paragraph)."
+     "Analyse 'Deep Water' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -2214,31 +2198,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_03_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and the question asks: \"Write an essay about a time you overcame fear, beginning with 'At last I felt",
-     "Where do you start?",
-     "First, recall the chapter's emotional arc: terror → struggle → systematic practice → incremental victory → final triumph.",
-     "That arc IS your essay structure."
+     "For written answers on 'Deep Water', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary purpose of a \"text-based discussion\" in Class 12 English, as distinct from a casual conversation about the story?",
-    "answer": "A text-based discussion requires every claim to be supported by specific textual evidence (quotes, details",
-    "options": [
-     "1. At age 3–4: knocked down by waves at a California beach while holding his father's hand — buried in water, breath gone, terror despite father's laughter",
-     "The inciting incident is the big boy throwing Douglas into the deep end of the YMCA pool (\"He yelled, 'Hi, Skinny!",
-     "A text-based discussion requires every claim to be supported by specific textual evidence (quotes, details"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "actively listening to a peer's contrasting",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "stating a clear interpretive claim grounded",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "responding with a rebuttal or extension",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"sharing what you liked\") reveals the student conflates discussion with book-club chat, missing the CBSE competency of \"evidence-based reasoning.\"",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently initiate and sustain a 3-minute discussion on a theme from \"Deep Water\" by: (1) stating a",
     "id": "gen_c12_eng_f_ch03_q15",
     "nodeId": "c12_eng_f_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a CBSE ASL exam room: the examiner gives you a prompt — \"Fear is a prison; courage is the key\" — and asks you to discuss it with a",
-     "Most students freeze because they treat discussion as chatting.",
-     "Instead, begin by anchoring every point in the text: \"On page 27, Douglas writes 'the curtain of life fell' — this metaphor shows.",
-     "This walkthrough teaches you to treat discussion as a collaborative close-reading exercise, not an opinion swap."
+     "Talk through 'Deep Water' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -2311,6 +2320,52 @@ export const C12_ENG_F_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "write a structured board-style answer",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how specific sensory details",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify all distinct settings in the text",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify all distinct settings in the text and trace how each shifts the atmosphere from safety to",
+    "id": "gen_c12_eng_f_ch03_q17",
+    "nodeId": "c12_eng_f_cbse_03_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate whether Douglas's final test at Warm Lake (\"I shouted with joy, and Gilbert Peak returned the echo\") is a convincing narrative climax. Consider both textual evidence and literary craft.",
     "sortItems": [
      {
@@ -2351,45 +2406,32 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that dismisses it as \"too easy\" ignores the text's emphasis: \"Only once did the terror return... It fled and I swam on\" — showing conquest is not absence of fear but mastery over it.",
-    "id": "gen_c12_eng_f_ch03_q17",
+    "id": "gen_c12_eng_f_ch03_q18",
     "nodeId": "c12_eng_f_cbse_03_004",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"The 'Before You Read' section suggests Douglas's fear of water was irrational and therefore easy to overcome with logic.\" Is this true or false? Justify using the text.",
-    "answer": "False. The text explicitly states: \"I used every way I knew to overcome this fear, but it held me firmly in its grip",
-    "options": [
-     "The beach incident establishes that Douglas's fear of water is pre-existing and deep-rooted, not caused by the YMCA bully",
-     "Tenor: the lingering fear of water. Vehicle: a physical disability/handicap. The metaphor frames fear as a crippling injury that limits movement, choice",
-     "False. The text explicitly states: \"I used every way I knew to overcome this fear, but it held me firmly in its grip"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "This misconception leads to underestimating the instructor's systematic method (belt, pulley, breathing drills) in later nodes.",
-    "id": "gen_c12_eng_f_ch03_q18",
-    "nodeId": "c12_eng_f_cbse_03_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'deep water' — the context and background to this te?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Deep Water' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch04",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Rattrap' — The Context And Background",
   "subtitle": "English · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch4: Before You Read: Context and Background"],
+  "topic": "'The Rattrap' — The Context And Background To This T",
+  "chapters": [
+   "English Ch4: 'The Rattrap' — The Context And Background To This T"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_04_001",
    "c12_eng_f_cbse_04_002",
@@ -2414,103 +2456,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'The Rattrap' — The Context And more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to activate prior knowledge, situate a text in its"
+   "hook": "'The Rattrap' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory literary skill that equips students to activate prior knowledge, situate a text in its historical-cultural-authorial framework, and anticipate thematic concerns before engaging with the narrative,",
+    "title": "'The Rattrap' — The Context And Background",
+    "text": "'The Rattrap' (Flamingo, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the organized sequence of events in a story (exposition, rising action, climax, falling action, resolution) and the techniques used to arrange them — such as chronological order, flashback, parallel plots, or circular",
+    "title": "Plot/narrative Arc Of 'The Rattrap'",
+    "text": "The plot/narrative arc of 'The Rattrap' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a story unfolds, while atmosphere is the emotional mood or feeling created by the setting through sensory details, weather, lighting, and spatial descriptions.",
+    "title": "Setting Of 'The Rattrap'",
+    "text": "The setting of 'The Rattrap' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's traits, motivations, conflicts, and transformation throughout the narrative by synthesizing textual evidence — actions, dialogue, thoughts, and others' reactions — to construct a",
+    "title": "Character Analysis In 'The Rattrap'",
+    "text": "Character analysis in 'The Rattrap' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters examines how secondary figures in a narrative reveal the protagonist's traits, advance the plot, and embody thematic ideas through their distinct personalities, motivations, and interactions with the main character.",
+    "title": "Supporting Characters In 'The Rattrap'",
+    "text": "Supporting characters in 'The Rattrap' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea — the universal truth about human experience that the narrative explores through plot, character, and symbolism.",
+    "title": "Primary Theme Of 'The Rattrap'",
+    "text": "The primary theme of 'The Rattrap' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas in a literary work that support, contrast, or enrich the primary theme. In \"The Rattrap,\" while the primary theme is the world as a rattrap trapping people through material temptations, secondary themes include human",
+    "title": "Secondary Themes In 'The Rattrap'",
+    "text": "Secondary themes in 'The Rattrap' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke atmosphere; metaphor is a direct comparison between two unlike things without using \"like\" or \"as,\" where one",
+    "title": "Imagery In 'The Rattrap'",
+    "text": "Imagery in 'The Rattrap' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'The Rattrap' — Where",
+    "text": "Irony and paradox in 'The Rattrap' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and grammatical function of a word or phrase by analyzing the surrounding textual evidence — including syntax, tone, imagery, character perspective, and thematic resonance —",
+    "title": "Key Vocabulary Of 'The Rattrap'",
+    "text": "Key vocabulary of 'The Rattrap' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "This Node Focuses On Analyzing Grammatical",
-    "text": "This node focuses on analyzing grammatical structures and language usage in \"The Rattrap,\" specifically the dual functions of reflexive pronouns (emphatic vs.",
+    "title": "Language And Style In 'The Rattrap'",
+    "text": "Language and style in 'The Rattrap' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions demand logical deductions based on textual evidence, character motivations, and thematic implications.",
+    "title": "Literal Comprehension Of 'The Rattrap'",
+    "text": "Literal comprehension of 'The Rattrap' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the ability to move beyond literal comprehension of a text to examine underlying assumptions, evaluate authorial choices, synthesize multiple textual elements (character, theme, symbol, structure), and",
+    "title": "Critical Thinking On 'The Rattrap'",
+    "text": "Critical thinking on 'The Rattrap' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter refer to the ability to compose structured, evidence-based responses to questions on \"The Rattrap\" for CBSE Class 12 board exams, using the PEEL (Point, Evidence, Explanation, Link) method and appropriate literary",
+    "title": "Writing Skills From 'The Rattrap'",
+    "text": "Writing skills from 'The Rattrap' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skill where students collaboratively explore, analyze, and present interpretations of a literary text through guided group discussions, using textual evidence to support",
+    "title": "Discussion Points On 'The Rattrap'",
+    "text": "Discussion points on 'The Rattrap' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -2521,20 +2563,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the significance of Selma Lagerlöf being the first woman to win the Nobel Prize in Literature (1909) for understanding her story \"The Rattrap\"?",
     "answer": "Lagerlöf's Nobel recognition confirms her status as a major literary voice whose work carries universal humanistic themes",
     "options": [
-     "The primary theme is that the world is a giant rattrap that lures people with material baits, trapping them in suffering",
-     "Situational irony occurs when actions have an effect opposite to what was intended. In the story, the peddler steals the crofter's 30 kronor to escape poverty",
+     "The student can (1) articulate the primary theme in their own words using the rattrap metaphor",
+     "Students treat \"plot\" as a mere list of events (\"first this happened, then that\") and \"structure\" as invisible",
      "Lagerlöf's Nobel recognition confirms her status as a major literary voice whose work carries universal humanistic themes"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Rattrap' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer that treats this as trivial biographical trivia reveals the student misses how authorial reputation shapes thematic expectations and reading stance.",
     "id": "gen_c12_eng_f_ch04_q1",
     "nodeId": "c12_eng_f_cbse_04_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're handed a sealed letter — you wouldn't just tear it open; you'd check the stamp, the handwriting, the postmark to guess who sent it and",
-     "That's exactly what \"Before You Read\" does for a story.",
-     "Start by reading the \"About the Author\" box: note Selma Lagerlöf's nationality (Swedish), her Nobel Prize (first woman), and her signature belief in",
-     "Next, locate the setting: \"mines of Sweden, rich in iron ore\" — this signals an industrial, working-class landscape where poverty and isolation shape"
+     "Start with the author of 'The Rattrap', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -2542,20 +2581,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the narrative point of view used in \"The Rattrap\" and name the specific fairy-tale convention the opening line \"Once upon a time there was a man...\" invokes.",
     "answer": "The story uses third-person omniscient narration (the narrator knows the peddler's thoughts, the crofter's loneliness, Edla's compassion, and the ironmaster's assumptions)",
     "options": [
-     "Lagerlöf's Nobel recognition confirms her status as a major literary voice whose work carries universal humanistic themes",
-     "(1) Open road/forest where he plods and philosophizes, (2) Crofter's cottage by the roadside, (3) Ramsjö Ironworks forge, (4) Ironmaster's manor house",
+     "Plot and narrative structure refers to the organized sequence of events in a story (exposition, rising action, climax, falling action",
+     "The student can identify at least four distinct settings in the story, explain how each setting's sensory details (light, sound, temperature",
      "The story uses third-person omniscient narration (the narrator knows the peddler's thoughts, the crofter's loneliness, Edla's compassion, and the ironmaster's assumptions)"
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"first-person\" or \"limited third-person\") reveals the student cannot distinguish narrative voices — a critical error for board questions asking \"How does the narrator's perspective shape our sympathy for the peddler?\"",
     "id": "gen_c12_eng_f_ch04_q2",
     "nodeId": "c12_eng_f_cbse_04_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a movie where the opening scene shows a man stealing money, but by the end he returns it with a letter signed \"Captain von",
-     "That's exactly what plot structure does — it answers \"what happens\" and \"how it's arranged.",
-     "Then ask: \"Why does the story begin with 'Once upon a time' and end with a letter?\" That reveals the circular frame.",
-     "Finally, trace the peddler's physical journey (road → cottage → forest → forge → manor) alongside his psychological journey (cynicism → theft →"
+     "Trace 'The Rattrap' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -2626,10 +2662,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're the peddler trudging through a Swedish forest in late December — cold, dark, hungry, with no shelter in sight.",
-     "What do you notice first?",
-     "The \"impenetrable prison\" of tree trunks closing in?",
-     "The \"hard regular thumping\" of the ironworks hammer that offers a lifeline?"
+     "Identify where and when 'The Rattrap' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -2637,20 +2670,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the peddler's central philosophical metaphor, and what specific life experience led him to formulate it?",
     "answer": "The peddler conceives the world as a giant rattrap that offers baits (riches, joys, shelter, food) to ensnare people, just as his rattraps offer cheese and pork to catch rats",
     "options": [
-     "The five supporting characters are: (1) The Crofter — lonely host who trusts the peddler with food, shelter, and his money pouch",
-     "The four topics are: (1) Why was Edla happy to see the gift left by the peddler? (2) Why did the peddler sign himself as Captain von Stahle?",
+     "The student can independently trace the peddler's psychological journey from cynical vagabond to redeemed \"Captain von Stahle\" using at least four distinct textual evidences",
+     "The student can (1) articulate the primary theme in their own words using the rattrap metaphor",
      "The peddler conceives the world as a giant rattrap that offers baits (riches, joys, shelter, food) to ensnare people, just as his rattraps offer cheese and pork to catch rats"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer would treat the metaphor as a casual observation rather than a survival mechanism born of systemic rejection — revealing the student misses how the philosophy protects his dignity by reframing his victimhood as universal human condition.",
     "id": "gen_c12_eng_f_ch04_q4",
     "nodeId": "c12_eng_f_cbse_04_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you meet a stranger on a train who says, \"The whole world is a mousetrap — it offers free WiFi, cheap flights, and discounts just to trap you.",
-     "That's exactly where we start with the peddler.",
-     "First, list every direct description of him (rags, sunken cheeks, hunger gleaming).",
-     "Second, track his \"rattrap philosophy\" — when does he voice it, to whom, and how does it change?"
+     "Pick the central figure in 'The Rattrap' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -2721,31 +2751,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're explaining to a friend why the peddler changes — you'd naturally talk about the people he meets.",
-     "Start by listing every named character besides the peddler.",
-     "For each, note: (1) their social position, (2) how they treat the peddler, (3) what they say or do that matters, and (4) what the peddler learns from",
-     "Then group them: the Crofter offers trust but gets betrayed; the Ironmaster offers status but withdraws it; Edla offers unconditional kindness and"
+     "Spot the secondary figures in 'The Rattrap' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the primary theme of \"The Rattrap\" in one sentence using the central metaphor of the story.",
-    "answer": "The primary theme is that the world is a giant rattrap that lures people with material baits, trapping them in suffering",
-    "options": [
-     "The peddler conceives the world as a giant rattrap that offers baits (riches, joys, shelter, food) to ensnare people, just as his rattraps offer cheese and pork to catch rats",
-     "Lagerlöf's Nobel recognition confirms her status as a major literary voice whose work carries universal humanistic themes",
-     "The primary theme is that the world is a giant rattrap that lures people with material baits, trapping them in suffering"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how the resolution",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "articulate the primary theme in their own",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "trace its development across at least three",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If a student writes \"The theme is that stealing is wrong\" or \"Kindness is important,\" they have confused theme with moral lesson or a secondary idea. They haven't grasped the *structuring metaphor* (world = rattrap) that organizes the entire narrative.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) articulate the primary theme in their own words using the rattrap metaphor, (2) trace its",
     "id": "gen_c12_eng_f_ch04_q6",
     "nodeId": "c12_eng_f_cbse_04_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're offered a \"too good to be true\" shortcut — a cheat sheet in an exam, a bribe for a license, a lie that gets you a promotion.",
-     "That's the rattrap's bait.",
-     "Start by asking: *What bait trapped the peddler?* (30 kronor).",
-     "Then trace: *How did the forest become a physical rattrap?* (disorientation, imprisonment)."
+     "Ask what 'The Rattrap' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -2805,10 +2860,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're telling a friend why \"The Rattrap\" isn't just a story about a thief — it's about why we all feel alone sometimes and how one act of",
-     "Start by listing moments where characters feel isolated: the peddler plodding roads, the crofter with no family, Edla with no mother and brothers",
-     "Then find where kindness breaks that isolation: the crofter's porridge, Edla's fur coat and invitation.",
-     "Notice how the peddler's redemption isn't dramatic but quiet — he returns the money, signs as \"Captain von Stahle."
+     "Look beneath the main theme of 'The Rattrap' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -2857,10 +2909,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are walking through a dark Swedish forest in late December — the air bites your cheeks, pine needles crunch underfoot, and the trees seem",
-     "That visceral feeling is *imagery* at work.",
-     "Now ask: why does the peddler *think* the forest is a prison?",
-     "Because he has already accepted the *metaphor* that the world is a rattrap."
+     "Find the lines in 'The Rattrap' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -2868,20 +2917,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"The Rattrap\" where the peddler's own philosophy about the world as a rattrap becomes true for him personally.",
     "answer": "Situational irony occurs when the outcome of a situation is the opposite of what was expected or intended",
     "options": [
-     "This is an inferential comprehension question. The text states the peddler said \"No, I couldn't think of it!",
-     "The five supporting characters are: (1) The Crofter — lonely host who trusts the peddler with food, shelter, and his money pouch",
+     "Student can write a 100-150 word answer for a 6-mark long-answer question on \"The Rattrap\" using PEEL structure",
+     "The student can independently analyze a passage from \"The Rattrap\" by identifying the author's narrative strategies, interpreting symbolic patterns (e",
      "Situational irony occurs when the outcome of a situation is the opposite of what was expected or intended"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer would confuse situational irony with mere bad luck or coincidence, missing the structural parallel between the peddler's theory and his experience.",
     "id": "gen_c12_eng_f_ch04_q9",
     "nodeId": "c12_eng_f_cbse_04_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where a character who spends the whole film warning others about traps falls into one himself — that's irony.",
-     "Now imagine the trap itself keeps reappearing as a gift, a warning, and finally a symbol of freedom — that's symbolism.",
-     "In \"The Rattrap,\" start by listing every time the rattrap appears or is mentioned.",
-     "Then ask: what does it mean *literally* in that moment, and what does it *represent*?"
+     "Look in 'The Rattrap' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -2963,31 +3009,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"The Rattrap\" and encounter \"hunger gleamed in his eyes\" — you don't have a dictionary during the exam.",
-     "How do you unlock the meaning?",
-     "First, locate the phrase in its sentence and paragraph.",
-     "Second, hunt for context clues: synonyms (sunken cheeks, rags), antonyms (generous porridge later), tone (bleak, desperate), and imagery (gleam ="
+     "Note the difficult or loaded words in 'The Rattrap' — their meaning carries the text's precision."
     ]
    },
    {
-    "type": "mcq",
-    "question": "REMEMBER: Define a reflexive pronoun and give one example from \"The Rattrap\" where it is used reflexively (action reflects back on the subject).",
-    "answer": "A reflexive pronoun (myself, yourself, himself, etc.) is used when the subject and object of a verb are the same entity",
-    "options": [
-     "*Example:* \"The pouch hangs empty on its nail. / My cards lie untouched on the table. / The fire's gone cold",
-     "\"Once upon a time\" signals allegory, universality, and moral fable — the peddler becomes an Everyman figure, the rattrap a universal symbol",
-     "A reflexive pronoun (myself, yourself, himself, etc.) is used when the subject and object of a verb are the same entity"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "locate reflexive pronouns in the text",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "identify at least five ironworks-specific",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "apply this analysis to write a short",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'This node focuses on analyzing' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A reflexive pronoun (myself, yourself, himself, etc.) is used when the subject and object of a verb are the same entity.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) locate reflexive pronouns in the text, classify each as emphatic or reflexive, and explain the",
     "id": "gen_c12_eng_f_ch04_q11",
     "nodeId": "c12_eng_f_cbse_04_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a mystery novel and notice the detective says, \"I myself saw the clue\" versus \"I saw the clue myself.",
-     "That tiny shift changes the entire focus.",
-     "In \"The Rattrap,\" Selma Lagerlöf uses reflexive pronouns in exactly these two ways.",
-     "Start by scanning the four \"Noticing form\" sentences in the textbook."
+     "Read 'The Rattrap' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -3036,10 +3107,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam hall, staring at a question: \"Why did the peddler sign himself as Captain von Stahle?",
-     "This node teaches you to pause, classify the question type, and attack it systematically.",
-     "First, you'll learn to spot literal questions (keywords: who, what, where, when, directly stated) and answer with exact textual references.",
-     "Then, you'll master inferential questions (keywords: why, how, suggest, imply) by combining textual clues with logical reasoning."
+     "Answer 'The Rattrap' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -3047,20 +3115,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"situational irony\" and give one example from \"The Rattrap\" where the outcome contradicts the character's expectations.",
     "answer": "Situational irony occurs when actions have an effect opposite to what was intended. In the story, the peddler steals the crofter's 30 kronor to escape poverty",
     "options": [
-     "The story uses third-person omniscient narration (the narrator knows the peddler's thoughts, the crofter's loneliness, Edla's compassion, and the ironmaster's assumptions)",
-     "(1) Open road/forest where he plods and philosophizes, (2) Crofter's cottage by the roadside, (3) Ramsjö Ironworks forge, (4) Ironmaster's manor house",
+     "The student can independently prepare for a group discussion on \"The Rattrap\" by selecting relevant textual evidence, articulate a coherent viewpoint within 2 minutes",
+     "Students treat the rattrap metaphor as a static symbol (\"it means the world is dangerous\") rather than a dynamic narrative engine that *structures* the plot",
      "Situational irony occurs when actions have an effect opposite to what was intended. In the story, the peddler steals the crofter's 30 kronor to escape poverty"
     ],
-    "hint": "Straight from the 'Critical Thinking' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The Rattrap'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the peddler is ironic because he lies\") confuses verbal irony with situational irony and misses the structural role of irony in advancing the theme.",
     "id": "gen_c12_eng_f_ch04_q13",
     "nodeId": "c12_eng_f_cbse_04_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a detective who has already gathered all the clues (plot, characters, setting) — now you must solve the case: *why did Selma Lagerlöf",
-     "33-34) and the ironmaster/Edla scenes (pp.",
-     "35-41) side-by-side.",
-     "Notice how the rattrap metaphor appears first as the peddler's cynical philosophy, then becomes a physical trap (the forest), then a social trap (the"
+     "Analyse 'The Rattrap' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -3120,10 +3186,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you have 3 minutes to answer a 6-mark question in your board exam: \"How does the metaphor of the rattrap highlight the human predicament?",
-     "Instead, start by identifying the key terms in the question (metaphor, rattrap, human predicament).",
-     "Then recall the PEEL structure: make a Point, give Evidence from the text, Explain how the evidence supports your point, and Link back to the theme.",
-     "Practice selecting the sharpest evidence — the peddler's philosophy (\"the whole world."
+     "For written answers on 'The Rattrap', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -3183,10 +3246,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_04_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a board exam viva or CUET interview where the examiner asks: \"Discuss how a single act of kindness can transform a person — use",
-     "Start by re-reading the four NCERT group discussion topics (Edla's happiness, peddler's signature, sympathy justification, loneliness theme).",
-     "For each, jot down 2-3 specific textual moments (e.g., Edla's \"I should like to have him enjoy a day of peace\" — Chapter 4, para 12).",
-     "Practice aloud: state your point, quote the line, explain the link."
+     "Talk through 'The Rattrap' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -3352,23 +3412,25 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the rattrap' — the context and background to this t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Rattrap' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch05",
-  "title": "Before You Read: Context and Background",
+  "title": "'Indigo' — The Context And Background To This",
   "subtitle": "English · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch5: Before You Read: Context and Background"],
+  "topic": "'Indigo' — The Context And Background To This Text",
+  "chapters": [
+   "English Ch5: 'Indigo' — The Context And Background To This Text"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_05_001",
    "c12_eng_f_cbse_05_002",
@@ -3393,103 +3455,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Before You Read: Context and actually explain?",
+   "question": "In one line -- what does 'Indigo' — The Context And actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
     "Only how to score marks"
    ],
    "answer": "Why things around us behave the way they do",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, biographical, and conceptual framework"
+   "hook": "'Indigo' (Flamingo, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that equips students with the historical, biographical, and conceptual framework necessary to comprehend the chapter \"Indigo\" by Louis Fischer.",
+    "text": "'Indigo' (Flamingo, ch. 5) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the sequence of events in a story (plot) and the framework the author uses to organize and present those events (narrative structure), including chronology, point of view, pacing, and techniques like flashback,",
+    "title": "Plot/narrative Arc Of 'Indigo'",
+    "text": "The plot/narrative arc of 'Indigo' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment in which a narrative unfolds, while atmosphere is the emotional mood or tone created by the writer through descriptive details, sensory imagery, and narrative perspective.",
+    "title": "Setting Of 'Indigo'",
+    "text": "The setting of 'Indigo' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's traits, motivations, decisions, and development through their actions, speech, thoughts, relationships, and the author's narration, to understand their role in advancing the",
+    "title": "Character Analysis In 'Indigo'",
+    "text": "Character analysis in 'Indigo' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining how secondary figures in a narrative — through their actions, dialogue, relationships, and brief appearances — advance the plot, illuminate the protagonist's qualities, embody thematic ideas, and",
+    "title": "Supporting Characters In 'Indigo'",
+    "text": "Supporting characters in 'Indigo' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea — the core message the author conveys through plot, character, and conflict.",
+    "title": "Primary Theme Of 'Indigo'",
+    "text": "The primary theme of 'Indigo' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas, motifs, or messages that run parallel to the primary theme in a literary work, enriching the text by adding layers of meaning, revealing character complexity, and connecting the narrative to broader social, moral, or",
+    "title": "Secondary Themes In 'Indigo'",
+    "text": "Secondary themes in 'Indigo' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Indigo' — The Vivid",
+    "text": "Imagery in 'Indigo' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality — what appears to be true differs from what is actually true. Symbolism is the use of an object, person, situation, or action to represent a deeper, often abstract meaning beyond its literal",
+    "title": "Irony And Paradox In 'Indigo' — Where",
+    "text": "Irony and paradox in 'Indigo' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning of words and phrases as they are used in a specific text by analyzing surrounding clues such as synonyms, antonyms, examples, explanations, tone, and the author's purpose, rather than",
+    "title": "Key Vocabulary Of 'Indigo'",
+    "text": "Key vocabulary of 'Indigo' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Language Usage Analysis Examines How",
-    "text": "Language usage analysis examines how an author's grammatical choices — sentence structure, verb forms, punctuation, direct vs. reported speech, and register — shape meaning, tone, and narrative effect in a literary text.",
+    "title": "Language And Style In 'Indigo'",
+    "text": "Language and style in 'Indigo' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated facts, details, or sequences from the text. Inferential comprehension questions require students to draw logical conclusions, interpret implied meanings, analyze character",
+    "title": "Literal Comprehension Of 'Indigo' —",
+    "text": "Literal comprehension of 'Indigo' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking: Analysis",
-    "text": "Critical thinking analysis and interpretation in literature is the systematic process of examining a text's deeper layers — themes, character motivations, narrative strategies, historical context, and authorial choices — to construct evidence-based arguments",
+    "title": "Critical Thinking On 'Indigo' — Analysing",
+    "text": "Critical thinking on 'Indigo' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter \"Indigo\" involve composing structured, purpose-driven texts (articles, speeches, formal letters, reports, diary entries, character sketches) that draw specific evidence, themes, and insights from Louis Fischer's narrative",
+    "title": "Writing Skills From 'Indigo' — Using",
+    "text": "Writing skills from 'Indigo' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication activities where students articulate evidence-based arguments on the chapter's themes (e.",
+    "title": "Discussion Points On 'Indigo' — Speaking",
+    "text": "Discussion points on 'Indigo' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -3500,20 +3562,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who was Louis Fischer, and why is his authorship significant for the credibility of the chapter \"Indigo\"?",
     "answer": "Louis Fischer (1896–1970) was an American journalist who wrote for *The New York Times* and *The Saturday Review*, served on the faculty at Princeton University",
     "options": [
-     "(1) Rajkumar Shukla — follows Gandhi to Lucknow, Cawnpore, Ahmedabad, Calcutta, and finally brings him to Champaran",
-     "The primary theme is that true justice for the oppressed comes through moral courage and non-violent resistance (satyagraha) that liberates people from fear and fosters",
+     "The student can independently identify at least 5 key words from the chapter \"Indigo\", explain their contextual meanings with textual evidence",
+     "The student can independently map the complete plot arc of \"Indigo\" across its five major phases, explain how Fischer's narrative choices (flashback framing, direct speech",
      "Louis Fischer (1896–1970) was an American journalist who wrote for *The New York Times* and *The Saturday Review*, served on the faculty at Princeton University"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Indigo' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"He was Gandhi's secretary\" or \"He was an Indian freedom fighter\") reveals the student hasn't distinguished between the subject (Gandhi) and the biographer (Fischer), a common confusion that undermines source evaluation skills needed for CUET/board source-based questions.",
     "id": "gen_c12_eng_f_ch05_q1",
     "nodeId": "c12_eng_f_cbse_05_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are visiting a museum exhibit on India's freedom struggle and see a display titled \"Champaran 1917: The First Satyagraha.",
-     "Similarly, before reading \"Indigo,\" start by asking: \"What was the indigo system, and why did a peasant named Rajkumar Shukla travel all the way to",
-     "Next, infer the meaning of the four highlighted expressions from their context clues (e.",
-     "Finally, connect this to what you already know about Gandhi's methods from Class 10 (Nelson Mandela chapter) and Class 11 (Gandhian phase in history)."
+     "Start with the author of 'Indigo', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -3521,20 +3580,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the narrative frame that opens \"Indigo,\" and in which year does the main narrative (the flashback) begin?",
     "answer": "The narrative opens with Fischer visiting Gandhi in 1942 at Sevagram, where Gandhi says he will tell how he decided to urge British departure — \"It was in 1917",
     "options": [
-     "The primary theme is that true justice for the oppressed comes through moral courage and non-violent resistance (satyagraha) that liberates people from fear and fosters",
-     "A secondary theme is a supporting idea or motif that runs parallel to the primary theme, adding depth and complexity without being the central message",
+     "The student can independently identify at least 5 key words from the chapter \"Indigo\", explain their contextual meanings with textual evidence",
+     "The student can (1) identify specific images and metaphors in \"Indigo,\" (2) explain how each device appeals to particular senses or transfers meaning between domains",
      "The narrative opens with Fischer visiting Gandhi in 1942 at Sevagram, where Gandhi says he will tell how he decided to urge British departure — \"It was in 1917"
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Indigo'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying the story starts in 1916 or 1942 without the frame) reveals the student hasn't grasped the two-time-layer structure: the telling (1942) and the told (1917 onward), which is essential for answering \"how does the author begin the narrative?\" questions in boards.",
     "id": "gen_c12_eng_f_ch05_q2",
     "nodeId": "c12_eng_f_cbse_05_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're describing a movie to a friend who missed it — you wouldn't just list random scenes; you'd give the setup, the conflict, the turning",
-     "Now imagine the movie starts with a character in 1942 saying \"Let me tell you how it happened in 1917\" — that's narrative structure.",
-     "In \"Indigo,\" Fischer uses Gandhi's 1942 recollection as a frame, then takes us chronologically through 1917.",
-     "We'll first identify the five plot phases, then see how the flashback frame and direct speech create authenticity and momentum."
+     "Trace 'Indigo' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -3616,10 +3672,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist arriving in Champaran in 1917 — what would you see, hear, smell, and feel?",
-     "Start by mapping Gandhi's physical journey on a rough sketch of Bihar.",
-     "Then, for each major location, ask: \"What sensory details does Fischer use?",
-     "What emotion dominates?\" Notice how the atmosphere changes when peasants gather at the courthouse — that shift is the heartbeat of the chapter."
+     "Identify where and when 'Indigo' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -3627,20 +3680,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the specific action Gandhi takes immediately after being served the official notice to quit Champaran, and state what this action reveals about his attitude toward British authority.",
     "answer": "Gandhi signs the receipt for the notice but writes on it that he will disobey the order. This reveals he respects legal procedure (signing) but refuses to legitimize unjust",
     "options": [
-     "The narrative opens with Fischer visiting Gandhi in 1942 at Sevagram, where Gandhi says he will tell how he decided to urge British departure — \"It was in 1917",
-     "Louis Fischer (1896–1970) was an American journalist who wrote for *The New York Times* and *The Saturday Review*, served on the faculty at Princeton University",
+     "(1) Rajkumar Shukla — follows Gandhi to Lucknow, Cawnpore, Ahmedabad, Calcutta, and finally brings him to Champaran",
+     "The student can explain the historical significance of the Champaran episode in Gandhi's life, describe the exploitative indigo sharecropping system",
      "Gandhi signs the receipt for the notice but writes on it that he will disobey the order. This reveals he respects legal procedure (signing) but refuses to legitimize unjust"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Indigo'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he tore up the notice\" or \"he left immediately\") shows the student confuses Gandhi's civil disobedience with either rebellion or submission, missing the precise calibrated resistance that defines satyagraha.",
     "id": "gen_c12_eng_f_ch05_q4",
     "nodeId": "c12_eng_f_cbse_05_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a lawyer preparing a case: your \"client\" is Gandhi, and the \"evidence\" is the text of \"Indigo.",
-     "Start by asking: \"What does Gandhi DO when faced with an unjust order to leave Champaran?\" (He signs the receipt but writes he will disobey).",
-     "That single action reveals courage, respect for procedure, and moral conviction simultaneously.",
-     "Then trace how this pattern — fact-finding, refusing to cooperate with injustice, mobilizing ordinary people, negotiating from moral strength —"
+     "Pick the central figure in 'Indigo' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -3700,31 +3750,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a cricket match: the captain (Gandhi) gets the spotlight, but the match turns because a tail-ender blocks an over, a fielder",
-     "Supporting characters in \"Indigo\" are those crucial players.",
-     "Begin by listing every named person who interacts with Gandhi in the text — don't filter yet.",
-     "Next, group them: who brings Gandhi to Champaran?"
+     "Spot the secondary figures in 'Indigo' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary theme of \"Indigo\" as reflected in Gandhi's actions and the chapter's concluding message?",
-    "answer": "The primary theme is that true justice for the oppressed comes through moral courage and non-violent resistance (satyagraha) that liberates people from fear and fosters",
-    "options": [
-     "Louis Fischer (1896–1970) was an American journalist who wrote for *The New York Times* and *The Saturday Review*, served on the faculty at Princeton University",
-     "A secondary theme is a supporting idea or motif that runs parallel to the primary theme, adding depth and complexity without being the central message",
-     "The primary theme is that true justice for the oppressed comes through moral courage and non-violent resistance (satyagraha) that liberates people from fear and fosters"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "state the primary theme in their own words",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "articulate why \"freedom from fear\"",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how Gandhi's method of satyagraha",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"Gandhi helped peasants get money back from British landlords\" reveals the student confuses plot outcome (the 25% refund) with the deeper thematic message (freedom from fear, self-reliance, moral authority over legal technicality).",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the primary theme in their own words with textual evidence from at least three distinct",
     "id": "gen_c12_eng_f_ch05_q6",
     "nodeId": "c12_eng_f_cbse_05_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in a board exam: \"How does the Champaran episode reveal Gandhi's idea of true freedom?\" Don't start by summarising the plot.",
-     "Instead, ask yourself: What changed for the peasants — was it the 25% refund, or something deeper?",
-     "Trace three moments: (1) peasants trembling before British officials, (2) thousands surrounding the courthouse spontaneously, (3) Gandhi refusing",
-     "The key insight: the chapter argues that political freedom is meaningless without psychological liberation from fear — this is the message you must"
+     "Ask what 'Indigo' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -3773,10 +3848,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a documentary about a famous leader, but the filmmaker keeps cutting to ordinary people — a farmer walking miles to complain,",
-     "That's exactly what Louis Fischer does in \"Indigo.\" He uses Gandhi's Champaran campaign as a window to reveal deeper currents: how an illiterate",
-     "To begin, re-read the text marking every moment where the focus shifts FROM Gandhi TO someone else, or where a principle is demonstrated rather than",
-     "Ask: \"What idea is being illustrated here that isn't the main plot?\" That's your entry point to secondary themes."
+     "Look beneath the main theme of 'Indigo' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -3825,10 +3897,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading the moment Gandhi arrives at Motihari station and \"a vast multitude greeted Gandhi\" — the station isn't just crowded; Fischer",
-     "That's imagery doing heavy lifting: it turns a historical fact into a lived experience.",
-     "Now notice how Gandhi describes his defiance as a \"conflict of duties\" — not a dilemma, not a problem, but a *conflict*, a clash of two equal forces.",
-     "That metaphor frames his moral choice as a battlefield."
+     "Find the lines in 'Indigo' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -3877,10 +3946,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a courtroom scene where the \"lawbreaker\" is actually the only one following a higher moral law, while the \"authorities\" are",
-     "Start by rereading the courtroom scene (Motihari trial) and the settlement negotiation: underline every moment where what is said contradicts what is",
-     "Then, list concrete objects (indigo, the notice to quit, the 25% refund, the peasants' demonstration) and ask: \"What does this represent beyond",
-     "The key insight: in \"Indigo,\" irony and symbolism are not decorative — they are the machinery of Gandhi's moral strategy, turning colonial law"
+     "Look in 'Indigo' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -3940,10 +4006,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the line \"He decided to urge the departure of the British\" and wonder why Gandhi didn't simply \"ask\" or \"demand\".",
-     "Start by asking: *What does the context of Gandhi's lifelong strategy tell you about the force of 'urge'?",
-     "Then demonstrate the 4-step context-clue method: (1) Locate the word and identify its part of speech, (2) Examine the immediate sentence and",
-     "Connect this to CBSE board questions that explicitly ask \"Infer the meaning of ..."
+     "Note the difficult or loaded words in 'Indigo' — their meaning carries the text's precision."
     ]
    },
    {
@@ -3951,20 +4014,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the grammatical term for the underlined structure in this sentence from *Indigo*: \"When I first visited Gandhi in 1942 at his ashram in Sevagram, he told me what happened in Champaran.\" (Underlined: \"When I first visited Gandhi in 1942 at his ashram in Sevagram\")",
     "answer": "The underlined structure is a fronted adverbial subordinate clause of time (also called a dependent clause)",
     "options": [
-     "Irony: a contrast between appearance and reality (e.g., the British commissioner bullies Gandhi to leave, but Gandhi's refusal makes the British look lawless)",
-     "The five major locations are: (1) Lucknow (Congress session), (2) Cawnpore (appointment), (3) Ahmedabad (ashram), (4) Calcutta (meeting point with Shukla)",
+     "The student can independently identify at least four supporting characters from \"Indigo,\" categorize their narrative functions (catalyst, foil, ally, antagonist",
+     "Gandhi signs the receipt for the notice but writes on it that he will disobey the order. This reveals he respects legal procedure (signing) but refuses to legitimize unjust",
      "The underlined structure is a fronted adverbial subordinate clause of time (also called a dependent clause)"
     ],
-    "hint": "Straight from the 'Language usage analysis examines' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Indigo'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"phrase\" or \"main clause\" reveals the student cannot distinguish clauses (subject + verb) from phrases, or cannot identify subordination — a prerequisite for the comma rule tested in the textbook's \"Thinking about language\" section.",
     "id": "gen_c12_eng_f_ch05_q11",
     "nodeId": "c12_eng_f_cbse_05_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective examining a crime scene — the \"crime\" is how the author makes you *feel* Gandhi's presence in 1917 Champaran without ever",
-     "Your clues are the grammar: why does Fischer write \"Gandhi answered that he was no outsider\" (reported) but \"The commissioner proceeded to bully me",
-     "Why does the comma appear in \"When the court reconvened, the judge said...\" but not in \"He had not proceeded far when the police superintendent's",
-     "Start by hunting for these patterns in the text."
+     "Read 'Indigo' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -3972,20 +4032,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify whether the following question is literal or inferential: \"What was the sharecropping arrangement in Champaran regarding indigo cultivation?\"",
     "answer": "This is a literal question because the answer is explicitly stated in the text: \"The landlords compelled all tenants to plant three twentieths or 15 per cent of their holdings",
     "options": [
-     "The narrative opens with Fischer visiting Gandhi in 1942 at Sevagram, where Gandhi says he will tell how he decided to urge British departure — \"It was in 1917",
-     "The climax is the spontaneous peasant demonstration at Motihari courthouse (\"Morning found the town of Motihari black with peasants\") because it marks the moment fear breaks and",
+     "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers",
+     "The student can explain the historical significance of the Champaran episode in Gandhi's life, describe the exploitative indigo sharecropping system",
      "This is a literal question because the answer is explicitly stated in the text: \"The landlords compelled all tenants to plant three twentieths or 15 per cent of their holdings"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'Indigo'' slide -- match the key terms.",
     "misconception": "A wrong answer (labeling it inferential) reveals the student cannot distinguish between directly stated facts and implied meanings, leading to over-complicated answers for simple recall questions.",
     "id": "gen_c12_eng_f_ch05_q12",
     "nodeId": "c12_eng_f_cbse_05_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in the exam hall and see a question: \"Why did Gandhi refuse bail when the magistrate asked for it?",
-     "Instead, pause and ask: Is this literal (directly stated) or inferential (requires reasoning)?",
-     "The text says Gandhi refused bail and the judge released him without bail — that's literal.",
-     "But *why* he refused requires inference about his strategy of civil disobedience."
+     "Answer 'Indigo' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -3997,16 +4054,14 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Shukla's entry: simple sentences, present tense, sensory details (\"waited on haunches,\" \"smell of indigo\"), emotional raw language (\"begged,\" \"heart heavy\"), no meta-reflection",
      "Literal comprehension retrieves facts (who, what, where, when); critical analysis interrogates significance (why, how, so what?"
     ],
-    "hint": "Straight from the 'Critical thinking analysis and' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Indigo' —' slide -- match the key terms.",
     "misconception": "A wrong answer that lists plot events reveals the student conflates summary with analysis — they haven't grasped that analysis requires an argument supported by evidence, not a retelling.",
     "id": "gen_c12_eng_f_ch05_q13",
     "nodeId": "c12_eng_f_cbse_05_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a journalist in 1917 Champaran watching Gandhi refuse bail and tell the court he's obeying a \"higher law of our being.",
-     "Start by isolating that single paragraph (page 49-50).",
-     "Ask: What specific words create moral authority?",
-     "How does Gandhi turn a legal defeat into a strategic victory?"
+     "Analyse 'Indigo' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -4055,10 +4110,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and the question reads: \"Write an article on 'Freedom from fear is more important than legal justice for the poor'",
-     "Instead, start by asking: \"What specific moments in the chapter show peasants overcoming fear?",
-     "Jot down 3-4 such incidents with page references.",
-     "Next, structure your article: headline → byline → introduction (hook + thesis) → body paragraphs (each using Point-Evidence-Explanation-Link with a"
+     "For written answers on 'Indigo', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -4118,10 +4170,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_05_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a Model UN simulation where delegates must debate: \"Is freedom from fear more critical than legal justice for marginalized",
-     "Start by re-reading the two \"Talking about the text\" prompts.",
-     "For each, list 3 textual anchor points (e.g., \"peasants' spontaneous demonstration at Motihari courthouse\" for freedom from fear).",
-     "Practice the \"PEEL\" speaking frame: Point → Evidence (text quote) → Explanation (link to prompt) → Link (broader implication)."
+     "Talk through 'Indigo' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -4168,6 +4217,52 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "misconception": "A wrong answer that only paraphrases the quote without linking to specific secondary themes demonstrates inability to synthesize thematic layers.",
     "id": "gen_c12_eng_f_ch05_q16",
     "nodeId": "c12_eng_f_cbse_05_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "articulate how these devices reinforce",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify specific images and metaphors",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how each device appeals to",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify specific images and metaphors in \"Indigo,\" (2) explain how each device appeals to",
+    "id": "gen_c12_eng_f_ch05_q17",
+    "nodeId": "c12_eng_f_cbse_05_008",
     "difficulty": "advanced"
    },
    {
@@ -4223,76 +4318,32 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer uses simile (\"like fists\"), stays literal (\"they stopped being afraid\"), or imports unrelated imagery (\"eagles soaring\").",
-    "id": "gen_c12_eng_f_ch05_q17",
-    "nodeId": "c12_eng_f_cbse_05_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "In the sentence \"It was an extraordinary thing in those days for a government professor to harbour a man like me\", explain why 'harbour' does not mean 'a place for ships' and what it means in this context. Identify the part of speech and two context clues.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "'government professor'",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "'a man like me'",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "'extraordinary thing in those days'",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer giving the noun meaning shows the student ignores part of speech and surrounding context, a common error in board exams where words with multiple meanings are tested.",
     "id": "gen_c12_eng_f_ch05_q18",
-    "nodeId": "c12_eng_f_cbse_05_010",
+    "nodeId": "c12_eng_f_cbse_05_008",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'indigo' — the context and background to this text?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Indigo' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch06",
-  "title": "Before You Read: Context and Background",
+  "title": "'Poets And Pancakes' — The Context",
   "subtitle": "English · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch6: Before You Read: Context and Background"],
+  "topic": "'Poets And Pancakes' — The Context And Background To",
+  "chapters": [
+   "English Ch6: 'Poets And Pancakes' — The Context And Background To"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_06_001",
    "c12_eng_f_cbse_06_002",
@@ -4317,103 +4368,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'Poets And Pancakes' — The more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading activity that provides historical, cultural, and authorial context to help students"
+   "hook": "'Poets and Pancakes' (Flamingo, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading activity that provides historical, cultural, and authorial context to help students understand the setting, themes, and significance of the prose piece \"Poets and Pancakes\" before engaging with the",
+    "text": "'Poets and Pancakes' (Flamingo, ch. 6) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Text: Plot and Narrative Structure",
-    "text": "Plot and narrative structure in \"Poets and Pancakes\" refers to the author Asokamitran's deliberate use of a rambling, associative first-person narrative that mimics the workings of memory — where one anecdote triggers another through thematic links rather",
+    "title": "Plot/narrative Arc Of 'Poets",
+    "text": "The plot/narrative arc of 'Poets and Pancakes' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment where a narrative unfolds; atmosphere is the emotional mood or feeling evoked in the reader through the author's choice of sensory details, diction, and pacing.",
+    "title": "Setting Of 'Poets And Pancakes'",
+    "text": "The setting of 'Poets and Pancakes' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the narrator's personality traits, motivations, perspective, and development through his first-person observations, actions, speech, and internal reflections in the text.",
+    "title": "Character Analysis In 'Poets And Pancakes'",
+    "text": "Character analysis in 'Poets and Pancakes' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the traits, motivations, relationships, and narrative functions of secondary figures in a text to understand how they illuminate the protagonist, advance themes, and reflect the author's",
+    "title": "Character Analysis: Supporting Characters",
+    "text": "Supporting characters in 'Poets and Pancakes' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about life and human experience that the author conveys through the narrative.",
+    "title": "Primary Theme Of 'Poets",
+    "text": "The primary theme of 'Poets and Pancakes' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Theme",
-    "text": "A secondary theme is a recurring idea or message in a text that supports, contrasts with, or adds layers to the primary theme. In \"Poets and Pancakes,\" secondary themes include national integration in the workplace, the hierarchy of labour versus talent, the",
+    "title": "Secondary Themes In 'Poets And Pancakes'",
+    "text": "Secondary themes in 'Poets and Pancakes' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid and descriptive language that appeals to the senses (visual, auditory, tactile, olfactory, gustatory, kinesthetic, organic) to create mental pictures or sensory experiences for the reader.",
+    "title": "Imagery In 'Poets And Pancakes'",
+    "text": "Imagery in 'Poets and Pancakes' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'Poets",
+    "text": "Irony and paradox in 'Poets and Pancakes' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context is the skill of determining the meaning of unfamiliar words or phrases by analyzing the surrounding text — including sentence structure, tone, neighbouring words, and the broader situation — rather than relying solely on dictionary",
+    "title": "Key Vocabulary Of 'Poets And Pancakes'",
+    "text": "Key vocabulary of 'Poets and Pancakes' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of syntactic structures, tense patterns, voice, sentence types, and cohesive devices employed by the author in \"Poets and Pancakes\" to create a conversational, humorous, and satirical",
+    "title": "Language And Style In 'Poets",
+    "text": "Language and style in 'Poets and Pancakes' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated facts, details, or sequences from the text. Inferential comprehension questions require students to derive implied meanings, interpret character motives, identify underlying",
+    "title": "Comprehension: Literal and Inferential",
+    "text": "Literal comprehension of 'Poets and Pancakes' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves moving beyond literal comprehension to interpret underlying themes, evaluate the author's narrative strategies (such as irony, satire, structure, and tone), and synthesize textual evidence to form independent,",
+    "title": "Critical Thinking On 'Poets And Pancakes'",
+    "text": "Critical thinking on 'Poets and Pancakes' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing skills based on \"Poets and Pancakes\" involve crafting a humorous, rambling character sketch or narrative that adopts Asokamitran's chatty style: gentle irony, digressive transitions, exaggerated idiosyncrasies, and a conversational tone that masks",
+    "title": "Writing Skills From 'Poets And Pancakes'",
+    "text": "Writing skills from 'Poets and Pancakes' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral activity where students engage in group discussions on thematic, stylistic, and contextual aspects of the chapter \"Poets and Pancakes,\" demonstrating comprehension, critical analysis, and",
+    "title": "Discussion Points On 'Poets And Pancakes'",
+    "text": "Discussion points on 'Poets and Pancakes' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -4476,10 +4527,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a behind-the-scenes documentary about a famous old film studio.",
-     "Before the film starts, you'd want to know: who ran it, what era it was, what language films they made, and what the studio culture was like.",
-     "Similarly, before reading \"Poets and Pancakes,\" we need to set the stage.",
-     "Start by locating Chennai (then Madras) on a map and recalling that Gemini Studios was a major Tamil film studio founded in 1940 by S.S."
+     "Start with the author of 'Poets and Pancakes', then the period, then the literary context — background turns a text from a puzzle into a story you"
     ]
    },
    {
@@ -4528,10 +4576,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're flipping through an old photo album where each picture sparks a story that leads to another — that's exactly how Asokamitran",
-     "Begin by asking: \"If this chapter had a conventional plot with a clear beginning-middle-end, what would be lost?",
-     "First, identify the seven distinct episodes (make-up department, office boy, Subbu, legal adviser, Story Department/MRA, Stephen Spender, The God",
-     "Next, trace the associative links — how the office boy's frustration leads to Subbu, how Subbu leads to the Story Department, how the lawyer's"
+     "Trace 'Poets and Pancakes' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -4539,21 +4584,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Name the building that housed the make-up department of Gemini Studios and the historical figure associated with it in local legend.",
     "answer": "The make-up department was located upstairs in a building believed to have been Robert Clive's stables",
     "options": [
-     "Instance 1: The make-up room turns \"any decent-looking person into a hideous crimson hued monster\"",
-     "The text uses a first-person retrospective narrative (\"I worked in a cubicle,\" \"I was praying for crowd-shooting\")",
-     "The make-up department was located upstairs in a building believed to have been Cold War stables",
+     "Asokamitran (1931–2017) was a Tamil writer who worked at Gemini Studios in the 1950s; his duty was to cut out newspaper clippings on various subjects and store them in files",
+     "The three topics are: (1) Film-production today has come a long way from the early days of the Gemini Studios. (2) Poetry and films. (3) Humour and criticism",
      "The make-up department was located upstairs in a building believed to have been Robert Clive's stables"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Poets and Pancakes'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the main studio building\" or \"a modern office\") shows the student hasn't grasped the colonial-layered setting that Asokamitran uses to underscore the studio's makeshift, history-haunted atmosphere.",
     "id": "gen_c12_eng_f_ch06_q3",
     "nodeId": "c12_eng_f_cbse_06_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking onto a film set where the lights are so hot they melt the make-up off your face, yet everyone around you is sipping coffee and",
-     "That's the world Asokamitran invites you into.",
-     "Begin by listing every physical location the narrator mentions: the make-up room (upstairs in Robert Clive's supposed stables), the narrator's",
-     "Next, ask: what sensory details does he attach to each?"
+     "Identify where and when 'Poets and Pancakes' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -4561,20 +4602,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the protagonist's official job at Gemini Studios, and where does he perform it?",
     "answer": "The protagonist works in a cubicle tearing up newspapers and filing clippings",
     "options": [
-     "The make-up department was located upstairs in a building believed to have been Robert Clive's stables",
-     "A secondary theme is a subordinate but recurring idea that enriches the primary theme by exploring related social, cultural, or psychological dimensions",
+     "The student can (1) identify at least three distinct physical settings in the chapter and cite textual evidence for each, and (2) explain how Asokamitran uses sensory imagery",
+     "The student can identify at least four supporting characters in \"Poets and Pancakes,\" describe each one's distinct personality and role using textual evidence",
      "The protagonist works in a cubicle tearing up newspapers and filing clippings"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Poets and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he works in the make-up department\" or \"he is a poet\") reveals the student cannot distinguish the narrator's actual low-status clerical role from the more glamorous roles he describes, indicating a failure to track first-person textual evidence.",
     "id": "gen_c12_eng_f_ch06_q4",
     "nodeId": "c12_eng_f_cbse_06_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever felt like an invisible observer in a room full of people who seem to belong?",
-     "That is exactly where the protagonist of \"Poets and Pancakes\" places himself.",
-     "Begin by asking: \"What does the narrator directly tell us about himself in the first three paragraphs?",
-     "Then trace how he responds to the office boy's lectures, his observations of Subbu, and his reaction to the Stephen Spender visit."
+     "Pick the central figure in 'Poets and Pancakes' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -4586,38 +4624,73 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The irony deepens the political critique. The Boss's lofty words (\"freedom\", \"democracy\") are hollow because he neither knows nor cares about Spender's poetry",
      "The make-up department was headed by a Bengali, succeeded by a Maharashtrian assisted by a Dharwar Kannadiga, an Andhra, a Madras Indian Christian, an Anglo-Burmese"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'Poets' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"They all wore khadi\" or \"They were all poets\") reveals the student confuses the make-up department with the Story Department poets and misses the author's satirical point: real integration happened quietly in a lowly department, not through state propaganda.",
     "id": "gen_c12_eng_f_ch06_q5",
     "nodeId": "c12_eng_f_cbse_06_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at a chaotic Indian wedding where every relative has a distinct personality — the interfering aunt, the philosophical uncle, the",
-     "\"Poets and Pancakes\" is exactly that: a studio full of vivid supporting characters.",
-     "To begin, don't just list them.",
-     "Ask: \"What does this character REVEAL about the studio world?\" Start with the Office Boy — his frustration and misplaced poetic ambition."
+     "Spot the secondary figures in 'Poets and Pancakes' — how do they help, block or reveal the main character?"
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the difference between a \"subject\" and a \"theme\" in literature? Give an example from \"Poets and Pancakes.\"",
-    "answer": "A subject is the topic (e.g., \"Gemini Studios\" or \"make-up department\"), while a theme is the author's insight about that subject (e",
-    "options": [
-     "The Legal Adviser's Western formal wear (\"coat of mail\") marks him as an outsider — a man of \"cold logic\" in a \"crowd of dreamers,\" a \"neutral man in an assembly of Gandhiites and",
-     "Blew over (para 2, about the actress): \"An extremely talented actress... once blew over on the sets",
-     "A subject is the topic (e.g., \"You\" or \"make-up department\"), while a theme is the author's insight about that subject (e",
-     "A subject is the topic (e.g., \"Gemini Studios\" or \"make-up department\"), while a theme is the author's insight about that subject (e"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "cite at least three distinct textual",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "state the primary theme in a precise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "connect the theme to the historical context",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "explain how the author's rambling",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
-    "misconception": "A wrong answer that states \"The theme is the make-up department\" reveals the student confuses subject with theme and cannot abstract a universal idea from concrete details.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) state the primary theme in a precise thematic statement, (2) cite at least three distinct textual",
     "id": "gen_c12_eng_f_ch06_q6",
     "nodeId": "c12_eng_f_cbse_06_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a behind-the-scenes documentary of a 1950s film studio: you see glamorous stars, but also a make-up boy slathering pancake",
-     "Ask yourself: \"What is the author really saying about this world?\" Begin by listing the major incongruities — poets in a commercial studio, a lawyer",
-     "Then trace how the narrator's deadpan humour frames these not as tragedies but as absurdities.",
-     "The key insight: the theme emerges from the *pattern* of mismatches, not from any single event."
+     "Ask what 'Poets and Pancakes' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -4625,20 +4698,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"secondary theme\" in the context of a prose narrative like \"Poets and Pancakes.\" How does it differ from the primary theme?",
     "answer": "A secondary theme is a subordinate but recurring idea that enriches the primary theme by exploring related social, cultural, or psychological dimensions",
     "options": [
-     "Asokamitran (1931–2017) was a Tamil writer who worked at Gemini Studios in the 1950s; his duty was to cut out newspaper clippings on various subjects and store them in files",
-     "The make-up department was located upstairs in a building believed to have been Robert Clive's stables",
+     "Students believe \"inferring from context\" means guessing a synonym that *could* fit, rather than the *specific* meaning the author intends in *that* sentence",
+     "The student can identify at least three distinct secondary themes in the chapter, cite specific textual evidence (incidents, dialogues, descriptions) for each",
      "A secondary theme is a subordinate but recurring idea that enriches the primary theme by exploring related social, cultural, or psychological dimensions"
     ],
-    "hint": "Straight from the 'secondary theme' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Poets and' slide -- match the key terms.",
     "misconception": "A wrong answer that lists plot events (e.g., \"the MRA visit\") instead of the underlying idea (e.g., \"the manipulation of art for political ends\") reveals the student confuses *incidents* with *themes*.",
     "id": "gen_c12_eng_f_ch06_q7",
     "nodeId": "c12_eng_f_cbse_06_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a behind-the-scenes documentary about a chaotic 1940s film studio.",
-     "The main story is \"how movies got made,\" but you notice side stories: the make-up room where a Bengali, Maharashtrian, Kannadiga, Andhra,",
-     "The office boy who lectures the author about wasted talent while slapping pancake on crowd players — that's a story about hierarchy and resentment.",
-     "The English poet who baffles everyone with his accent — that's a story about cultural disconnect."
+     "Look beneath the main theme of 'Poets and Pancakes' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -4687,31 +4757,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film scene where the director shouts \"Cut!\" and the glamorous actor instantly wipes off thick make-up to eat a vada pav —",
-     "Asokamitran does exactly this with words.",
-     "Start by asking: \"Which passages made me *see*, *feel*, or *smell* the studio?\" Mark those lines.",
-     "Then ask: \"Where does the narrator say X *is* Y when they are literally different?\" That is your metaphor hunt."
+     "Find the lines in 'Poets and Pancakes' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define 'situational irony' in your own words and give ONE example from \"Poets and Pancakes\" where the outcome is the opposite of what a character reasonably expects.",
-    "answer": "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended",
-    "options": [
-     "Asokamitran (1931–2017) was a Tamil writer who worked at Gemini Studios in the 1950s; his duty was to cut out newspaper clippings on various subjects and store them in files",
-     "The text uses a first-person retrospective narrative (\"I worked in a cubicle,\" \"I was praying for crowd-shooting\")",
-     "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify at least two symbols and articulate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain how each instance reveals a gap",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identify at least three distinct instances",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., defining it as \"funny coincidence\" or giving the legal adviser's coat as an example) reveals the student confuses irony with mere coincidence or symbolism, and cannot distinguish expectation from outcome.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify at least three distinct instances of irony (verbal, situational, dramatic) in",
     "id": "gen_c12_eng_f_ch06_q9",
     "nodeId": "c12_eng_f_cbse_06_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a Tamil film from the 1950s where the heroine looks terrifyingly made up under harsh studio lights, yet the director calls",
-     "Now think of the \"Pancake\" make-up itself: it's not just greasepaint; it stands for the entire artificial construct of the studio system.",
-     "In this walkthrough, we'll first train your eye to spot the *gap* (irony) by asking: \"What does the character expect?",
-     "What actually happens?"
+     "Look in 'Poets and Pancakes' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -4782,10 +4877,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through an old family WhatsApp group and your uncle writes: \"The plan to visit the temple *blew over* because of the rain.",
-     "Do you stop and open a dictionary?",
-     "No — you look at the words around it: \"plan,\" \"visit,\" \"rain.\" You infer it means \"cancelled\" or \"didn't happen.",
-     "We'll start by locating each expression in the text, marking the clue words around it, reasoning step-by-step to the meaning, and then verifying with"
+     "Note the difficult or loaded words in 'Poets and Pancakes' — their meaning carries the text's precision."
     ]
    },
    {
@@ -4834,10 +4926,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a friend's WhatsApp voice note transcribed into text — it jumps topics, adds side comments in brackets, uses dramatic pauses,",
-     "That's exactly what Asokamitran does in \"Poets and Pancakes.\" Start by reading aloud the first two pages (make-up department description) and notice:",
-     "Where does he use \"I suppose\" or \"You saw\"?",
-     "These are grammatical markers of *spoken narrative*."
+     "Read 'Poets and Pancakes' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -4897,10 +4986,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and see a 3-mark question: \"Why did the office boy direct his anger at Subbu?",
-     "Start by scanning the text for keywords: \"office boy\", \"anger\", \"Subbu\".",
-     "You'll find the office boy's monologue about wasted talent and his conviction that Subbu caused his woes.",
-     "Step 1: Identify the question type (inferential)."
+     "Answer 'Poets and Pancakes' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -4908,20 +4994,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the narrative style of \"Poets and Pancakes\" as explicitly described in the NCERT textbook's \"Noticing transitions\" section?",
     "answer": "The narrative style is described as \"a chatty, rambling style. One thought leads to another which is then dwelt upon at length",
     "options": [
-     "A secondary theme is a subordinate but recurring idea that enriches the primary theme by exploring related social, cultural, or psychological dimensions",
-     "The text uses a first-person retrospective narrative (\"I worked in a cubicle,\" \"I was praying for crowd-shooting\")",
+     "The student can explain the historical context of Gemini Studios, identify the author Asokamitran and his role",
+     "The student can independently analyze a passage from \"Poets and Pancakes\" to identify the author's use of humor, irony",
      "The narrative style is described as \"a chatty, rambling style. One thought leads to another which is then dwelt upon at length"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Poets and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"formal and structured\" or \"strictly chronological\") reveals the student has missed the author's deliberate technique of using a conversational, associative structure to mimic the workings of memory and the chaotic ecosystem of the studio.",
     "id": "gen_c12_eng_f_ch06_q13",
     "nodeId": "c12_eng_f_cbse_06_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a film critic reading a behind-the-scenes memoir of a legendary studio.",
-     "The author chats about make-up brands, office gossip, and a baffling English poet — but you sense a sharper intelligence at work.",
-     "How do you separate the entertaining anecdotes from the critical commentary?",
-     "Begin by mapping the chapter's \"rambling\" transitions: each digression is a deliberate associative link."
+     "Analyse 'Poets and Pancakes' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -4981,10 +5065,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're describing that eccentric uncle at a family wedding who insists on explaining the \"physics\" of gulab jamun syrup absorption while",
-     "You start with his syrup theory, drift to his 1992 scooter accident, somehow land on his opinion about GST, and circle back to the gulab jamun — all",
-     "That's the Asokamitran mode.",
-     "Begin by identifying a character's *one* defining absurdity (office boy's poetry, Subbu's Brahmin privilege, legal adviser's coat of mail)."
+     "For written answers on 'Poets and Pancakes', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -5033,10 +5114,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_06_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a group discussion for your ASL assessment and the examiner announces the topic: \"Film-production today has come a long way from",
-     "Begin by recalling one concrete detail from the text — the description of incandescent lights, truck-loads of pancake make-up, and indoor shooting.",
-     "Then connect that detail to a modern contrast: today's digital make-up, outdoor locations, CGI.",
-     "Next, invite others by asking, \"What did you notice about the hierarchy in the make-up department?\" This moves the discussion from memory to analysis."
+     "Talk through 'Poets and Pancakes' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -5213,23 +5291,25 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'poets and pancakes' — the context and background to?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Poets And Pancakes' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch07",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Interview' — The Context And Background",
   "subtitle": "English · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch7: Before You Read: Context and Background"],
+  "topic": "'The Interview' — The Context And Background To This",
+  "chapters": [
+   "English Ch7: 'The Interview' — The Context And Background To This"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_07_001",
    "c12_eng_f_cbse_07_002",
@@ -5254,103 +5334,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'The Interview' — The Context And in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "The \"Before You Read: Context and Background\" section for \"The Interview\" provides the historical, cultural, and literary framework necessary to"
+   "hook": "'The Interview' (Flamingo, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "The \"Before You Read: Context and Background\" section for \"The Interview\" provides the historical, cultural, and literary framework necessary to understand Christopher Silvester's introduction to *The Penguin Book of Interviews* and the subsequent interview",
+    "text": "'The Interview' (Flamingo, ch. 7) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Narrative Structure In Non-fiction",
-    "text": "Narrative structure in non-fiction refers to the organizational framework that arranges ideas, arguments, and voices into a coherent sequence. In \"The Interview,\" the structure comprises two distinct parts: Part I (an expository essay tracing the history and",
+    "title": "Plot/narrative Arc Of 'The Interview'",
+    "text": "The plot/narrative arc of 'The Interview' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "In Non-fiction Texts Like \"The Interview,\"",
-    "text": "In non-fiction texts like \"The Interview,\" setting refers to the contextual framework — historical period, cultural milieu, physical/virtual space, and rhetorical situation — in which the discourse occurs.",
+    "title": "Setting Of 'The Interview'",
+    "text": "The setting of 'The Interview' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the personality traits, motivations, values, and development of the central figure in a text through their words, actions, and interactions.",
+    "title": "Character Analysis In 'The Interview'",
+    "text": "Character analysis in 'The Interview' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters In a Non-fiction",
-    "text": "Supporting characters in a non-fiction interview text are the secondary voices — other writers, celebrities, the interviewer, and referenced figures — whose perspectives, statements, or roles illuminate the central subject (the interview genre) and the",
+    "title": "Supporting Characters In 'The Interview'",
+    "text": "Supporting characters in 'The Interview' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of a Text",
-    "text": "The primary theme of a text is its central, unifying idea or message that the author communicates through the narrative, characters, and structure; in \"The Interview,\" the primary theme is the interview as a powerful yet controversial communication genre that",
+    "title": "Primary Theme Of 'The Interview'",
+    "text": "The primary theme of 'The Interview' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying, complementary ideas that run alongside the primary theme in a text, enriching its meaning by exploring related but distinct dimensions of human experience, society, or art.",
+    "title": "Secondary Themes In 'The Interview'",
+    "text": "Secondary themes in 'The Interview' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'The Interview'",
+    "text": "Imagery in 'The Interview' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events contrasts sharply with their literal or expected meaning, often revealing a deeper truth or contradiction.",
+    "title": "Irony And Paradox In 'The Interview' —",
+    "text": "Irony and paradox in 'The Interview' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the meaning of unfamiliar words or phrases by analyzing the surrounding text — including synonyms, antonyms, examples, explanations, tone, and grammatical structure — rather than relying solely on a dictionary.",
+    "title": "Key Vocabulary Of 'The Interview'",
+    "text": "Key vocabulary of 'The Interview' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Discourse Linkers",
-    "text": "Discourse linkers are cohesive devices (reference pronouns like 'this/that/which', repetition of key words, or synonyms) that connect utterances in a conversation, while signallers are explicit phrases (e.",
+    "title": "Language And Style In 'The Interview'",
+    "text": "Language and style in 'The Interview' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated information from the text, while inferential comprehension questions demand logical deduction of implied meaning using textual evidence, context, and reasoning.",
+    "title": "Literal Comprehension Of 'The Interview'",
+    "text": "Literal comprehension of 'The Interview' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the systematic process of examining a text's explicit and implicit meanings, evaluating the author's perspectives and techniques, and synthesizing evidence to form reasoned interpretations — moving beyond what the",
+    "title": "Critical Thinking On 'The Interview'",
+    "text": "Critical thinking on 'The Interview' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Interview Report Writing",
-    "text": "Interview report writing is the skill of condensing a verbatim interview into a concise, structured summary that captures the salient points, key insights, and the interviewee's perspective while maintaining the logical flow of ideas through discourse linkers",
+    "title": "Writing Skills From 'The Interview'",
+    "text": "Writing skills from 'The Interview' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students engage in collaborative dialogue about the chapter's themes — interviews as a communication genre, media ethics, privacy versus public interest, and discourse",
+    "title": "Discussion Points On 'The Interview'",
+    "text": "Discussion points on 'The Interview' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -5361,20 +5441,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the approximate historical period since the interview was invented, according to Christopher Silvester?",
     "answer": "The interview was invented a little over 130 years ago (from the time of writing, roughly late 19th century)",
     "options": [
-     "V.S. Naipaul: negative (feels wounded, loses part of self); Lewis Carroll: negative (horror of interviewer, refuses)",
-     "A secondary theme is a complementary idea that runs parallel to the primary theme, exploring related but distinct dimensions of the text's subject matter",
+     "The student can independently analyze a passage from \"The Interview\" by identifying the author's stance, evaluating contrasting viewpoints with textual evidence",
+     "Student can independently convert a verbatim interview transcript into a well-organized report (150-200 words) that selects key information",
      "The interview was invented a little over 130 years ago (from the time of writing, roughly late 19th century)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Interview' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"50 years\" or \"ancient times\") reveals the student has not grasped the historical framing Silvester establishes, which is essential for understanding why he calls it a \"commonplace of journalism\" today.",
     "id": "gen_c12_eng_f_ch07_q1",
     "nodeId": "c12_eng_f_cbse_07_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are watching a press conference with Virat Kohli after a cricket match — the journalist asks, he answers, millions watch.",
-     "Now ask: *Who holds the power here?",
-     "Is Kohli revealing his soul or performing a role?* This real-world scenario mirrors the core tension in Silvester's essay.",
-     "Begin by reading the \"About the Author\" blurb for Silvester and Eco."
+     "Start with the author of 'The Interview', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -5423,10 +5500,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_07_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open a magazine and see two pieces side by side: a long article about the history of interviews, and right next to it, an actual",
-     "You notice the first piece moves smoothly from one idea to the next using words like \"however,\" \"similarly,\" and \"for instance,\" while the second",
-     "First, we will separate the two parts and label their internal stages (introduction, development, conclusion for Part I; opening, probing,",
-     "Then we will hunt for the \"glue words\" — linkers that tie sentences together and signallers that announce topic shifts."
+     "Trace 'The Interview' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -5434,20 +5508,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary setting of Part I of \"The Interview\" — the introduction by Christopher Silvester?",
     "answer": "The primary setting of Part I is the historical and cultural landscape of journalism over ~130 years (since the interview's invention)",
     "options": [
-     "The metaphor compares the experience of being interviewed to thumbprints pressing on a windpipe. The tenor (subject) is the interview process",
-     "A secondary theme is a complementary idea that runs parallel to the primary theme, exploring related but distinct dimensions of the text's subject matter",
+     "The interview was invented a little over 130 years ago (from the time of writing, roughly late 19th century)",
+     "The two parts are: Part I — an expository essay that surveys the history, definitions, and conflicting opinions about interviews",
      "The primary setting of Part I is the historical and cultural landscape of journalism over ~130 years (since the interview's invention)"
     ],
-    "hint": "Straight from the 'In non-fiction texts like \"The' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Interview'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a newspaper office\" or \"Silvester's study\") reveals the student confuses physical location with discursive setting — the conceptual space where ideas about interviews are debated across time.",
     "id": "gen_c12_eng_f_ch07_q3",
     "nodeId": "c12_eng_f_cbse_07_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a talk show: the studio lights, the host's desk, the guest's chair — that's the physical setting.",
-     "But the *real* setting includes the show's format, the audience expectations, the cultural moment.",
-     "Now read Part I: the setting isn't a room but 130 years of journalism history, the celebrity culture ecosystem, the power dynamic between interviewer",
-     "A measured, slightly cynical literary historian weighing opinions from Naipaul, Carroll, Kipling, Wells, Bellow."
+     "Identify where and when 'The Interview' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -5459,16 +5530,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "You have prioritized an anecdotal illustration (interstices) over a central thematic concern (Eco's self-identity as professor vs",
      "\"I am a professor who writes novels on Sundays.\" Why wrong answers reveal misunderstanding: Students often quote \"novelist\" or \"semiotician\" because those are his famous labels"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: \"I am a professor who writes novels on Sundays.\" Why wrong answers reveal misunderstanding: Students often quote",
     "id": "gen_c12_eng_f_ch07_q4",
     "nodeId": "c12_eng_f_cbse_07_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a podcast with your favorite author — you listen not just for *what* they say, but *how* they say it: their humility, humor,",
-     "Start by asking: \"What does Eco reveal about himself when he's not trying to impress?",
-     "Next, group these into clusters (e.g., identity, time management, writing philosophy, attitude toward fame).",
-     "Then, look for contradictions or surprises (e.g., a superstar novelist calling himself a \"professor who writes on Sundays\")."
+     "Pick the central figure in 'The Interview' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -5476,20 +5544,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "List the six celebrity writers quoted in Part I of \"The Interview\" and state each one's attitude toward being interviewed (positive, negative, or ambivalent) in one phrase per person.",
     "answer": "V.S. Naipaul: negative (feels wounded, loses part of self); Lewis Carroll: negative (horror of interviewer, refuses)",
     "options": [
-     "The primary setting of Part I is the historical and cultural landscape of journalism over ~130 years (since the interview's invention)",
-     "Lexical repetition (exact repetition of the noun phrase \"Over 40\")",
+     "Student can identify the distinct settings (historical-literary context of Part I; interview scenario of Part II) and atmospheres (critical-reflective in Part I",
+     "The student can identify at least three secondary themes in \"The Interview,\" trace each across both Part I (Silvester's introduction) and Part II (Eco's interview) with specific",
      "V.S. Naipaul: negative (feels wounded, loses part of self); Lewis Carroll: negative (horror of interviewer, refuses)"
     ],
-    "hint": "Straight from the 'Supporting characters in a' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., missing names, misattributing views) reveals the student has not distinguished the polyphonic structure of Part I — the text deliberately assembles a chorus of conflicting opinions to establish the interview as a contested genre before Eco enters.",
     "id": "gen_c12_eng_f_ch07_q5",
     "nodeId": "c12_eng_f_cbse_07_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a panel discussion where the main speaker is Umberto Eco, but before he speaks, six other famous writers share their",
-     "Then the host (Mukund) asks Eco questions that reveal his personality.",
-     "Your job: map each supporting voice — what they say, why the author included them, and how they frame Eco's eventual appearance.",
-     "Start by listing every named person in Part I and their one-sentence view on interviews."
+     "Spot the secondary figures in 'The Interview' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -5497,20 +5562,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary theme of the chapter \"The Interview\" as presented in the NCERT textbook?",
     "answer": "The primary theme is the interview as a communication genre — its history, its contradictory reception (as both art and assault)",
     "options": [
-     "The primary setting of Part I is the historical and cultural landscape of journalism over ~130 years (since the interview's invention)",
+     "The student can participate in a 5-minute group discussion on any chapter theme, using at least three discourse linkers (e",
      "A secondary theme is a complementary idea that runs parallel to the primary theme, exploring related but distinct dimensions of the text's subject matter",
      "The primary theme is the interview as a communication genre — its history, its contradictory reception (as both art and assault)"
     ],
-    "hint": "Straight from the 'primary theme of a text' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Interview'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Umberto Eco's writing habits\" or \"How to conduct an interview\" reveals the student is confusing a specific example (Part II) or a procedural detail with the overarching theme that unifies both parts of the text.",
     "id": "gen_c12_eng_f_ch07_q6",
     "nodeId": "c12_eng_f_cbse_07_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a viral celebrity interview where the star looks uncomfortable answering personal questions — you wonder: is this journalism",
-     "That tension is exactly what \"The Interview\" explores.",
-     "Begin by noting the two-part structure: Part I gives historical context and famous writers' hatred of interviews (Naipaul, Carroll, Kipling), while",
-     "The theme emerges from this contrast — the text doesn't just say \"interviews are good/bad\"; it shows how they simultaneously steal a piece of the"
+     "Ask what 'The Interview' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -5518,20 +5580,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the definition of a secondary theme in a literary text, and how does it differ from the primary theme?",
     "answer": "A secondary theme is a complementary idea that runs parallel to the primary theme, exploring related but distinct dimensions of the text's subject matter",
     "options": [
-     "The interview was invented a little over 130 years ago (from the time of writing, roughly late 19th century)",
-     "The two parts are: Part I — an expository essay that surveys the history, definitions, and conflicting opinions about interviews",
+     "The student can identify each supporting voice in both parts of the text, explain their specific stance on interviews",
+     "The primary setting of Part I is the historical and cultural landscape of journalism over ~130 years (since the interview's invention)",
      "A secondary theme is a complementary idea that runs parallel to the primary theme, exploring related but distinct dimensions of the text's subject matter"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"secondary theme means a less important theme\" or confusing it with a subplot) reveals the student cannot distinguish thematic hierarchy from mere importance ranking, and misses that secondary themes are analytically distinct concepts that illuminate the primary theme from different angles.",
     "id": "gen_c12_eng_f_ch07_q7",
     "nodeId": "c12_eng_f_cbse_07_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a celebrity interview on YouTube — the host asks about their new movie, but the star keeps steering the conversation toward",
-     "That \"detour\" reveals a secondary theme: the person behind the persona.",
-     "In \"The Interview,\" Christopher Silvester introduces the genre's power, but Umberto Eco's conversation reveals deeper layers — his identity as a",
-     "To begin, re-read both parts asking: \"What ideas keep surfacing beside the main discussion of interviews?"
+     "Look beneath the main theme of 'The Interview' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -5539,20 +5598,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the metaphor in the phrase \"thumbprints on his windpipe\" (used by Saul Bellow) and state the two things being compared.",
     "answer": "The metaphor compares the experience of being interviewed to thumbprints pressing on a windpipe. The tenor (subject) is the interview process",
     "options": [
-     "V.S. Naipaul: negative (feels wounded, loses part of self); Lewis Carroll: negative (horror of interviewer, refuses)",
-     "The primary theme is the interview as a communication genre — its history, its contradictory reception (as both art and assault)",
+     "The student must be able to (1) identify specific instances of verbal, situational, and dramatic irony in \"The Interview\" and explain how each creates a contrast between",
+     "Student can identify the distinct settings (historical-literary context of Part I; interview scenario of Part II) and atmospheres (critical-reflective in Part I",
      "The metaphor compares the experience of being interviewed to thumbprints pressing on a windpipe. The tenor (subject) is the interview process"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Interview'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it means interviews are annoying\") reveals the student confuses *meaning* with *mechanism* — they explain the effect but cannot name the two distinct domains being fused, which is the core of metaphor analysis in board exams.",
     "id": "gen_c12_eng_f_ch07_q8",
     "nodeId": "c12_eng_f_cbse_07_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a celebrity interview on TV — the star leans back, sighs, and says, \"This process feels like thumbprints on my windpipe.",
-     "That's the power of metaphor and imagery: they bypass abstract explanation and hit the nervous system.",
-     "In this chapter, Silvester and Eco use these devices not as decoration but as argument.",
-     "We'll start by hunting for the \"thumbprints\" — the visceral images — then trace the \"interstices\" — the extended metaphor that structures Eco's"
+     "Find the lines in 'The Interview' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -5560,20 +5616,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define verbal irony and give one example from Part I of \"The Interview\" where a celebrity's words contradict their actions.",
     "answer": "Verbal irony occurs when a speaker says the opposite of what they mean or believe, often to highlight a contradiction",
     "options": [
-     "The two parts are: Part I — an expository essay that surveys the history, definitions, and conflicting opinions about interviews",
-     "V.S. Naipaul: negative (feels wounded, loses part of self); Lewis Carroll: negative (horror of interviewer, refuses)",
+     "Irony is a literary device where the intended meaning of words or events contrasts sharply with their literal or expected meaning, often revealing a deeper truth or contradiction",
+     "Students treat the writing task as \"summarize the interview\" by deleting sentences from the transcript",
      "Verbal irony occurs when a speaker says the opposite of what they mean or believe, often to highlight a contradiction"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., citing only Kipling's words without the contrasting action) shows the student cannot detect the gap between statement and behavior — the core of verbal irony.",
     "id": "gen_c12_eng_f_ch07_q9",
     "nodeId": "c12_eng_f_cbse_07_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a celebrity on a talk show who says, \"I hate interviews, they steal my soul,\" while simultaneously promoting their new movie",
-     "That jarring contradiction is irony — and \"The Interview\" is built on such moments.",
-     "Begin by re-reading Part I and listing every celebrity's stated opinion vs. their actual behavior (e.",
-     "Next, in Part II, track Eco's self-description (\"professor who writes novels on Sundays\") against how the world sees him (\"novelist\")."
+     "Look in 'The Interview' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -5622,10 +5675,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_07_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading the Eco interview and hit the sentence: \"I work in empty spaces.",
-     "I call them interstices.\" You don't know *interstices*.",
-     "Instead of skipping or guessing wildly, you notice: (1) the preceding sentence defines it metaphorically (\"empty spaces in our lives\"), (2) the",
-     "That's context-clue hunting."
+     "Note the difficult or loaded words in 'The Interview' — their meaning carries the text's precision."
     ]
    },
    {
@@ -5674,10 +5724,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_07_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to a podcast interview with your favourite scientist.",
-     "The host asks about their childhood, then suddenly says, \"That brings me to your Nobel Prize work...\" — you instantly know the topic shifted.",
-     "That phrase is a signaller.",
-     "Now notice how the scientist replies: \"That prize was unexpected...\" — the word \"That\" links back to the host's mention."
+     "Read 'The Interview' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -5689,16 +5736,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Part I establishes the theme's historical and philosophical breadth through authoritative voices (Naipaul, Kipling, Brian)",
      "A literal question asks for information directly stated in the text (e.g., \"How many novels has Eco written?"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer that defines both as \"questions about the text\" reveals inability to distinguish explicit vs. implicit meaning — a critical error in board exams where question typology determines answer strategy.",
     "id": "gen_c12_eng_f_ch07_q12",
     "nodeId": "c12_eng_f_cbse_07_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a press conference where a celebrity gives vague answers — you must separate what they actually said from what they hinted at.",
-     "Start by reading the question stem: does it ask \"What does the text say?\" (literal) or \"What does the text suggest?\" (inferential)?",
-     "For literal questions, scan the text for keywords and quote directly.",
-     "For inferential questions, identify 2-3 textual clues, explain the logical bridge, and state the implied meaning."
+     "Answer 'The Interview' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -5710,16 +5754,14 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "\"Depersonalised\" means *written in an impersonal, objective style without the author's individual voice, feelings, or narrative presence*",
      "The phrase \"in its highest form\" suggests a conditional or idealized view — interviews *can* be a source of truth and art, but this is not universally true"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"The author believes all interviews are truthful\") reveals the student misses the qualifying language and reads the statement as an absolute endorsement, failing to recognize nuance in the author's balanced presentation of opposing views.",
     "id": "gen_c12_eng_f_ch07_q13",
     "nodeId": "c12_eng_f_cbse_07_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a talk show where a celebrity suddenly gets defensive when asked a personal question — why do some people see interviews as",
-     "That tension is exactly what Silvester sets up in Part I.",
-     "Start by listing every viewpoint mentioned (Naipaul, Carroll, Kipling, Wells, Bellow, Brian) and the specific words each uses.",
-     "Then move to Part II: Eco calls his writing \"interstices\" — what does that metaphor reveal about his mindset?"
+     "Analyse 'The Interview' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -5731,16 +5773,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Part I uses longer, complex sentences with subordinate clauses (e.g., \"Since its invention a little over 130 years ago",
      "A verbatim transcript reproduces every word spoken by both interviewer and interviewee in exact sequence"
     ],
-    "hint": "Straight from the 'Interview report writing' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"report is just shorter\") reveals the student thinks deletion alone suffices, missing the structural reorganization and shift to reported speech required.",
     "id": "gen_c12_eng_f_ch07_q14",
     "nodeId": "c12_eng_f_cbse_07_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist who just interviewed your favorite author, but your editor says: \"We only have 200 words — give me a report, not the",
-     "Start by reading the interview twice: first for gist, second to underline 5-6 key ideas (e.",
-     "Group related ideas, draft a headline and byline, then write paragraphs using reporting verbs (said, explained, revealed) and linkers (furthermore,",
-     "The key insight: a report is not a shortened transcript — it is a *reconstructed narrative* tailored for readers who lack the original context."
+     "For written answers on 'The Interview', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -5811,10 +5850,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_07_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a televised interview where the celebrity suddenly walks out — was the interviewer too intrusive, or is that the price of",
-     "This real-world tension mirrors the core debate in \"The Interview\": privacy versus public interest.",
-     "Begin by revisiting the \"Talking about the text\" prompts (television vs print media, celebrity privacy).",
-     "Next, practice identifying linkers and signallers in the Eco interview transcript — notice how Mukund uses \"Which brings me to\" to shift topics."
+     "Talk through 'The Interview' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -5826,7 +5862,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Placing Part II after Part I is effective because: (1) Part I equips the reader with the critical vocabulary (e",
      "Kipling denounced interviews as \"immoral\" and \"a crime\" yet had himself interviewed Mark Twain. This reveals the *hypocrisy* and *power asymmetry*: celebrities condemn the"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Interview' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer that calls it \"just irony\" misses the structural critique: the interviewer holds \"unprecedented power and influence\" (Denis Brian), which even critics like Kipling exploit.",
     "id": "gen_c12_eng_f_ch07_q16",
     "nodeId": "c12_eng_f_cbse_07_001",
@@ -5841,7 +5877,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Expected answer (sample): I: \"What's your favourite book?\" E: \"That [reference pronoun linker] would be *The Alchemist*",
      "Example: (1) Waiting for the school bus (15 mins) → revise 5 vocabulary words. (2) Gap between tuition and dinner (30 mins) → solve 2 physics numericals"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Interview' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer listing \"sleeping\" or \"scrolling phone\" shows the student treats interstices as leisure, missing Eco's point that they are *work* spaces for those who utilize them — a key concept for the \"Time Management\" discussion in Talking About the Text.",
     "id": "gen_c12_eng_f_ch07_q17",
     "nodeId": "c12_eng_f_cbse_07_001",
@@ -5856,7 +5892,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "It explicitly marks a topic shift from Eco's writing habits to the reception of *The Name of the Rose*",
      "Example: 1. \"Starting with your early years, what sparked your interest in...?\" 2. \"Which brings me to your current project — how did you"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''The Interview' — the context and' slide -- match the key terms.",
     "misconception": "A poor answer lists questions without signallers (\"What did you do? What are you doing? What will you do?\"), showing the student has not internalized the discourse analysis section on linkers/signallers, which is a specific CBSE competency.",
     "id": "gen_c12_eng_f_ch07_q18",
     "nodeId": "c12_eng_f_cbse_07_001",
@@ -5865,24 +5901,24 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the interview' — the context and background to this?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Interview' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch08",
-  "title": "Context And Background Provide The Essential",
+  "title": "'Going Places' — The Context And Background",
   "subtitle": "English · Chapter 8",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Context And Background Provide The Essential",
+  "topic": "'Going Places' — The Context And Background To This",
   "chapters": [
-   "English Ch8: Context And Background Provide The Essential"
+   "English Ch8: 'Going Places' — The Context And Background To This"
   ],
   "nodeIds": [
    "c12_eng_f_cbse_08_001",
@@ -5908,103 +5944,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Context And Background Provide outside the classroom?",
+   "question": "Quick guess -- where do you meet 'Going Places' — The Context And outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "Context and background provide the essential framework — author's identity, historical period, socio-economic setting, and central thematic concerns"
+   "hook": "'Going Places' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "Context And Background Provide The Essential",
-    "text": "Context and background provide the essential framework — author's identity, historical period, socio-economic setting, and central thematic concerns — that a reader must grasp before engaging with a literary text to make meaningful inferences during reading.",
+    "title": "'Going Places' — The Context And Background",
+    "text": "'Going Places' (Flamingo, ch. 8) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot is the structured sequence of events in a narrative, organized through cause-and-effect relationships, while narrative structure refers to the framework the author uses to arrange those events — including exposition, rising action, climax, falling",
+    "title": "Plot/narrative Arc Of 'Going Places'",
+    "text": "The plot/narrative arc of 'Going Places' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a story occurs, while atmosphere is the emotional mood or feeling evoked in the reader through descriptive details, sensory imagery, and narrative tone.",
+    "title": "Setting Of 'Going Places'",
+    "text": "The setting of 'Going Places' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's personality traits, motivations, internal conflicts, relationships, and development throughout the narrative to understand how they embody the story's themes and drive the plot",
+    "title": "Character Analysis In 'Going Places'",
+    "text": "Character analysis in 'Going Places' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the traits, motivations, relationships, and narrative functions of characters other than the protagonist to understand how they shape the protagonist's journey, highlight central themes, and",
+    "title": "Supporting Characters In 'Going Places'",
+    "text": "Supporting characters in 'Going Places' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of \"Going Places\"",
-    "text": "The primary theme of \"Going Places\" is the adolescent tendency to escape into heroic fantasies as a coping mechanism for the harshness of socio-economic reality, and the inevitable disillusionment when fantasy collides with the real world.",
+    "title": "Primary Theme Of 'Going Places'",
+    "text": "The primary theme of 'Going Places' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that run parallel to the primary theme, enriching the narrative by exploring related social, psychological, or emotional dimensions.",
+    "title": "Secondary Themes In 'Going Places'",
+    "text": "Secondary themes in 'Going Places' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke atmosphere; metaphor is a figure of speech that makes an implicit comparison between two unrelated things by",
+    "title": "Imagery In 'Going Places'",
+    "text": "Imagery in 'Going Places' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or surface meaning, creating a contrast between expectation and reality.",
+    "title": "Irony And Paradox In 'Going Places' — Where",
+    "text": "Irony and paradox in 'Going Places' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of inferring the meaning of unfamiliar words or phrases by analyzing the surrounding text — including definitions, synonyms, antonyms, examples, and the overall situation — without relying solely on a dictionary.",
+    "title": "Key Vocabulary Of 'Going Places'",
+    "text": "Key vocabulary of 'Going Places' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Present Participles Used Without",
-    "text": "Present participles (verb+ing forms) used without auxiliary verbs to indicate that two actions occur simultaneously, where the participle phrase describes an action happening at the same time as the main verb action.",
+    "title": "Language And Style In 'Going Places'",
+    "text": "Language and style in 'Going Places' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text (who, what, where, when), while inferential comprehension questions require readers to draw conclusions using textual evidence and reasoning (why, how, what might happen next).",
+    "title": "Literal Comprehension Of 'Going Places'",
+    "text": "Literal comprehension of 'Going Places' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the ability to move beyond surface-level comprehension of a literary text to examine underlying assumptions, evaluate narrative choices, synthesize thematic patterns, and construct evidence-based arguments",
+    "title": "Critical Thinking On 'Going Places'",
+    "text": "Critical thinking on 'Going Places' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter \"Going Places\" involve composing structured responses—such as interview scripts, character sketches, diary entries, articles, or speeches—that demonstrate understanding of the text's themes (adolescent hero-worship, fantasy",
+    "title": "Writing Skills From 'Going Places'",
+    "text": "Writing skills from 'Going Places' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skill where students engage in meaningful dialogue about a text's themes, characters, and issues, demonstrating the ability to articulate ideas clearly, listen actively to",
+    "title": "Discussion Points On 'Going Places'",
+    "text": "Discussion points on 'Going Places' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    }
@@ -6015,21 +6051,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the author of \"Going Places\" and where does she currently live?",
     "answer": "The author is A.R. Barton, a modern writer who lives in Zurich",
     "options": [
-     "The five settings are: (1) Sophie's home (kitchen/living area), (2) The street/arcade (Royce's window), (3) Geoff's bedroom, (4) The football stadium (United's match)",
-     "The five major supporting characters are: (1) Jansie — practical/realistic (\"Takes money, Soaf... They wouldn't make you manager straight off\"), (2) Geoff",
-     "The author is A.R. TV, a modern writer who lives in Zurich",
+     "The student can identify at least three secondary themes in \"Going Places,\" provide textual evidence for each",
+     "Student can independently classify any question from \"Going Places\" as literal or inferential, locate exact textual evidence for literal answers",
+     "The author is A.R. Jesus, a modern writer who lives in Zurich",
      "The author is A.R. Barton, a modern writer who lives in Zurich"
     ],
-    "hint": "Straight from the 'Context and background provide' slide -- match the key terms.",
+    "hint": "Straight from the ''Going Places' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming a different author or location) reveals that the student has not read the \"About the Author\" note, which is the first step in establishing textual authority and context.",
     "id": "gen_c12_eng_f_ch08_q1",
     "nodeId": "c12_eng_f_cbse_08_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a film about a teenager who dreams of owning a luxury boutique while her family struggles to make ends meet in a small",
-     "Before the opening scene, you would want to know: who made this film, where and when it is set, what social forces shape the characters' lives.",
-     "That is exactly what this node does for \"Going Places\".",
-     "We start by identifying the author — a modern writer living in Zurich — and noticing that the story's world is a gritty, working-class English city"
+     "Start with the author of 'Going Places', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -6089,10 +6122,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_08_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where the main character keeps daydreaming, and you can't always tell what's real — that's exactly what A.R.",
-     "Barton does in \"Going Places.\" Start by asking: \"What actually happens in this story, and what only happens in Sophie's mind?",
-     "Then, go back and mark every scene where Sophie is physically present with others (family, Jansie, Geoff) versus scenes where she is alone imagining.",
-     "Notice how the narrative shifts from external dialogue to internal monologue without clear boundaries — that's the key structural device."
+     "Trace 'Going Places' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -6163,10 +6193,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_08_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Sophie standing in your steamy kitchen, staring at the \"delicate bow\" on your mother's apron while your father eats noisily — the",
-     "Now contrast that with the \"amber glow\" of Geoff's room where posters of Danny Casey promise a glittering world.",
-     "Start by listing every location Sophie physically visits or vividly imagines.",
-     "For each, highlight three sensory details (smell of shepherd's pie, sound of the \"unceasing drone\" at the canal, sight of \"shining black leathers\")."
+     "Identify where and when 'Going Places' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -6174,20 +6201,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is Sophie's most frequently stated dream in the opening conversation with Jansie?",
     "answer": "Sophie says, \"When I leave, I'm going to have a boutique.\" A wrong answer like \"she wants to be an actress\" shows the student recalls a later",
     "options": [
-     "The five settings are: (1) Sophie's home (kitchen/living area), (2) The street/arcade (Royce's window), (3) Geoff's bedroom, (4) The football stadium (United's match)",
-     "The five major supporting characters are: (1) Jansie — practical/realistic (\"Takes money, Soaf... They wouldn't make you manager straight off\"), (2) Geoff",
+     "The present participle phrase is \"linking arms with her along the street\". The two simultaneous actions are: (1) Jansie linking arms with Sophie, and (2) Jansie looking doubtful",
+     "The two prompts are: (1) \"Sophie's dreams and disappointments are all in her mind\" and (2) \"It is natural for teenagers to have unrealistic dreams",
      "Sophie says, \"When I leave, I'm going to have a boutique.\" A wrong answer like \"she wants to be an actress\" shows the student recalls a later"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Going' slide -- match the key terms.",
     "misconception": "A wrong answer like \"she wants to be an actress\" shows the student recalls a later, secondary fantasy but misses the primary, repeated dream that establishes her character's starting point.",
     "id": "gen_c12_eng_f_ch08_q4",
     "nodeId": "c12_eng_f_cbse_08_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in the board exam: \"Sketch the character of Sophie in 'Going Places'.\" Where do you begin?",
-     "Start by listing what you directly observe: her spoken dreams (boutique, actress, fashion designer), her silent observations (watching mother's bowed",
-     "Then ask: what do these reveal about her inner world?",
-     "Notice the gap between her words and her reality — that gap IS her character."
+     "Pick the central figure in 'Going Places' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -6258,10 +6282,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_08_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where the main character has big dreams — who are the people around her that either pop her balloon or inflate it",
-     "In \"Going Places,\" Sophie's world is defined by the people she interacts with: the friend who brings her back to earth (Jansie), the brother who",
-     "To analyze them, start by listing every interaction Sophie has with each character.",
-     "Then ask: What does this character *represent*?"
+     "Spot the secondary figures in 'Going Places' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -6269,20 +6290,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the central message A.R. Barton conveys through Sophie's imagined encounter with Danny Casey?",
     "answer": "The central message is that adolescent hero-worship creates a fragile sanctuary from a limiting reality, but when the fantasy is mistaken for truth",
     "options": [
-     "Scene 1: Sophie's detailed description of meeting Danny at Royce's window (green eyes, accent, autograph request)",
-     "The author is A.R. Barton, a modern writer who lives in Zurich",
+     "The two prompts are: (1) \"Sophie's dreams and disappointments are all in her mind\" and (2) \"It is natural for teenagers to have unrealistic dreams",
+     "Barton is, describe the working-class English setting of the story, articulate the theme of adolescent fantasising and hero worship",
      "The central message is that adolescent hero-worship creates a fragile sanctuary from a limiting reality, but when the fantasy is mistaken for truth"
     ],
-    "hint": "Straight from the 'primary theme of \"Going Places\"' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Going Places'' slide -- match the key terms.",
     "misconception": "A wrong answer that merely summarises the plot (\"Sophie lies about meeting a footballer\") reveals the student confuses plot summary with thematic interpretation — they have not moved from *what happens* to *what it means*.",
     "id": "gen_c12_eng_f_ch08_q6",
     "nodeId": "c12_eng_f_cbse_08_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are scrolling through social media and see a classmate post about \"meeting\" a famous cricketer at a mall — but you know they were",
-     "That gap between a glittery online persona and a mundane reality is exactly what \"Going Places\" explores.",
-     "To begin analysing the theme, first list every fantasy Sophie constructs (boutique, actress, fashion designer, Danny Casey).",
-     "Next, identify the reality checks Jansie, her father, and Geoff provide."
+     "Ask what 'Going Places' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -6294,37 +6312,62 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "A TV interview script is public, structured, and designed to engage an audience; questions are prepared, tone is professional yet conversational",
      "A primary theme is the central, dominating idea of the work (e.g., adolescent fantasising in \"Going Places\"), while secondary themes are supporting ideas that run parallel"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'Going Places'' slide -- match the key terms.",
     "misconception": "A wrong answer would treat all themes as equal or confuse a plot detail (like the biscuit factory) with a theme (class limitations). This reveals the student cannot distinguish hierarchical thematic structure.",
     "id": "gen_c12_eng_f_ch08_q7",
     "nodeId": "c12_eng_f_cbse_08_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where the main character dreams of becoming a superstar, but every scene shows their cramped apartment, tired",
-     "Start by listing every \"real world\" detail that contradicts Sophie's dreams: the biscuit factory, her father's grimy vest, Jansie's practicality,",
-     "Then ask: what bigger idea does each detail represent?",
-     "That's how you find secondary themes — they're the truth the story tells while the character tells herself a different story."
+     "Look beneath the main theme of 'Going Places' for the recurring secondary ideas that give it layers."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define imagery and metaphor in your own words, and give one example of each from \"Going Places\" (quote the exact phrase).",
-    "answer": "Imagery: Language appealing to senses to create mental pictures. Example: \"the glare of the lamps from the wharf across the water\" (visual) or \"the unceasing drone of the city was",
-    "options": [
-     "The author is A.R. Barton, a modern writer who lives in Zurich",
-     "The five stages are exposition, rising action, climax, falling action, and resolution. The climax is Sophie waiting by the canal for Danny Casey and realizing he will not come",
-     "Imagery: Language appealing to senses to create mental pictures. Example: \"the glare of the lamps from the wharf across the water\" (visual) or \"the unceasing drone of the city was"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how each device contributes",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "identify specific images and metaphors",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "write a structured analytical paragraph",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
-    "misconception": "A wrong answer that gives a simile (\"like a ghost\") or personification (\"the city slept\") reveals the student cannot distinguish metaphor from other comparative devices — a frequent Board exam error where students label *any* figurative language as \"metaphor.\"",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify specific images and metaphors in \"Going Places\" with textual evidence, (2)",
     "id": "gen_c12_eng_f_ch08_q8",
     "nodeId": "c12_eng_f_cbse_08_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and the question reads: \"How does Barton use imagery and metaphor to contrast Sophie's inner world with her",
-     "Start by asking yourself: \"Which scenes stay with me visually?\" The canal at night, the amber glow in Geoff's room, the \"ghost past defenders\" on the",
-     "Next, ask: \"What is being compared without 'like' or 'as'?\" The boutique = escape; Danny Casey = glamour/possibility; the pilgrimage = ritualistic",
-     "Then, for each, trace the *effect*: how does the sensory detail make the fantasy feel tangible, and how does the metaphor reveal the gap between"
+     "Find the lines in 'Going Places' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -6373,10 +6416,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_08_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are scrolling through social media and see a friend post a photo of a luxury vacation with the caption \"Living my best life #blessed,\"",
-     "That gap between the curated image and the hidden reality is irony — and the vacation photo itself becomes a symbol of the life they *wish* they had.",
-     "In \"Going Places,\" Sophie does exactly this: she constructs a fantasy life around Danny Casey and a boutique, while her actual world is a cramped,",
-     "To analyze this, first locate the moments where what Sophie says clashes with what the reader knows is true (irony)."
+     "Look in 'Going Places' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -6384,20 +6424,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What does the word *incongruity* mean in the sentence: \"Sophie wondered at the incongruity of the delicate bow which fastened her apron strings\"? Choose the option that best matches the contextual meaning.",
     "answer": "B) A lack of harmony or suitability between two things. The context contrasts the mother's \"crooked back\" (from years of hard labor) with the \"delicate-seeming bow\"",
     "options": [
-     "(1) Definition — verbal irony occurs when a speaker says something but means the opposite, the literal meaning contradicting the intended one, (2) Example from the story",
-     "The five stages are exposition, rising action, climax, falling action, and resolution. The climax is Sophie waiting by the canal for Danny Casey and realizing he will not come",
+     "Students believe \"vocabulary in context\" means *guessing* the meaning from a vague feeling",
+     "Students frequently interpret Sophie's Danny Casey story as a deliberate lie to impress others",
      "B) A lack of harmony or suitability between two things. The context contrasts the mother's \"crooked back\" (from years of hard labor) with the \"delicate-seeming bow\""
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Going Places'' slide -- match the key terms.",
     "misconception": "Choosing C ignores context entirely. Choosing D mistakes the *result* of noticing for the *definition*.",
     "id": "gen_c12_eng_f_ch08_q10",
     "nodeId": "c12_eng_f_cbse_08_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a novel on the metro and your phone dies — no dictionary app.",
-     "You hit the word *incongruity* in the line: \"Sophie watched her back stooped over the sink and wondered at the incongruity of the delicate bow which",
-     "First, locate the word in its sentence.",
-     "Next, read the sentences before and after: the mother's \"crooked back\" from hard work contrasts with the \"delicate-seeming bow."
+     "Note the difficult or loaded words in 'Going Places' — their meaning carries the text's precision."
     ]
    },
    {
@@ -6405,20 +6442,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the present participle phrase showing simultaneity in this sentence from the text: \"Jansie, linking arms with her along the street, looked doubtful.\" State the two simultaneous actions.",
     "answer": "The present participle phrase is \"linking arms with her along the street\". The two simultaneous actions are: (1) Jansie linking arms with Sophie, and (2) Jansie looking doubtful",
     "options": [
-     "B) A lack of harmony or suitability between two things. The context contrasts the mother's \"crooked back\" (from years of hard labor) with the \"delicate-seeming bow\"",
-     "The five settings are: (1) Sophie's home (kitchen/living area), (2) The street/arcade (Royce's window), (3) Geoff's bedroom, (4) The football stadium (United's match)",
+     "Speaking and Listening: Discussion Points refers to the structured oral communication skill where students engage in meaningful dialogue about a text's themes, characters",
+     "The student can independently identify all five stages of Freytag's pyramid in \"Going Places,\" explain how the third-person limited perspective restricts knowledge to Sophie's",
      "The present participle phrase is \"linking arms with her along the street\". The two simultaneous actions are: (1) Jansie linking arms with Sophie, and (2) Jansie looking doubtful"
     ],
-    "hint": "Straight from the 'Present participles  used without' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Going' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., identifying \"looked\" as the participle or missing the simultaneity) reveals confusion between main verb and participle, or failure to recognize that the participle phrase modifies the subject of the main clause.",
     "id": "gen_c12_eng_f_ch08_q11",
     "nodeId": "c12_eng_f_cbse_08_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're telling a friend about your morning: \"I burnt the toast, rushing to catch the bus.",
-     "In \"Going Places\", Barton uses this exact technique to pack Sophie's frantic mental world into tight sentences.",
-     "Start by hunting for -ing words in the text that aren't part of \"is/am/are/was/were + -ing\" continuous tenses.",
-     "Ask: \"What is the MAIN action?"
+     "Read 'Going Places' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -6467,10 +6501,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_08_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE exam hall and see a question: \"Why did Sophie wriggle when Geoff told her father about meeting Danny Casey?",
-     "Start by asking: \"Can I point to one sentence that gives the answer?\" If yes → literal.",
-     "If no → inferential.",
-     "For inferential, hunt for 2-3 textual clues (Sophie's fear of father's reaction, Geoff's protective secrecy, father's disdain for fantasies) and"
+     "Answer 'Going Places' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -6519,10 +6550,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_08_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through social media and see a classmate post about \"manifesting\" a luxury lifestyle while living in a cramped apartment —",
-     "That's exactly what A.R.",
-     "Barton explores in \"Going Places.\" Begin by identifying every moment the narrative shifts between Sophie's internal fantasies (the boutique, the",
-     "Track how Barton uses free indirect discourse to blur this boundary — notice when Sophie's thoughts bleed into the narration without quotation marks."
+     "Analyse 'Going Places' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -6530,41 +6559,66 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the specific writing task suggested in the NCERT textbook at the end of \"Going Places\"?",
     "answer": "The NCERT writing task asks: \"Think of a person who you would like to have as your role-model. Write down the points to be discussed or questions to be asked",
     "options": [
-     "The five settings are: (1) Sophie's home (kitchen/living area), (2) The street/arcade (Royce's window), (3) Geoff's bedroom, (4) The football stadium (United's match)",
-     "The five major supporting characters are: (1) Jansie — practical/realistic (\"Takes money, Soaf... They wouldn't make you manager straight off\"), (2) Geoff",
+     "Barton is, describe the working-class English setting of the story, articulate the theme of adolescent fantasising and hero worship",
+     "The five stages are exposition, rising action, climax, falling action, and resolution. The climax is Sophie waiting by the canal for Danny Casey and realizing he will not come",
      "The NCERT writing task asks: \"Think of a person who you would like to have as your role-model. Write down the points to be discussed or questions to be asked"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Going Places'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"write a letter to Danny Casey\") reveals the student has not read the end-of-chapter exercises or confuses the writing task with other chapters' tasks.",
     "id": "gen_c12_eng_f_ch08_q14",
     "nodeId": "c12_eng_f_cbse_08_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Start by asking the student: \"If you could interview your hero—say, Virat Kohli or APJ Abdul Kalam—what would you ask?",
-     "Then, guide them to analyze the NCERT writing task: it requires preparing interview points/questions for a role model on a TV show.",
-     "Show how to structure questions: open-ended, thematic, progressing from personal to professional.",
-     "Next, demonstrate how to write a character sketch of Sophie using PEEL (Point, Evidence, Explanation, Link)."
+     "For written answers on 'Going Places', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What are the two specific discussion prompts given in the NCERT \"Talking about the text\" section for \"Going Places\"?",
-    "answer": "The two prompts are: (1) \"Sophie's dreams and disappointments are all in her mind\" and (2) \"It is natural for teenagers to have unrealistic dreams",
-    "options": [
-     "Sophie says, \"When I leave, I'm going to have a boutique.\" A wrong answer like \"she wants to be an actress\" shows the student recalls a later",
-     "B) A lack of harmony or suitability between two things. The context contrasts the mother's \"crooked back\" (from years of hard labor) with the \"delicate-seeming bow\"",
-     "The two prompts are: (1) \"Sophie's dreams and disappointments are all in her mind\" and (2) \"It is natural for teenagers to have unrealistic dreams"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "responding to a peer's point by agreeing",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "summarizing the group's key conclusions",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "stating a clear position on Sophie's",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Discuss Sophie's character\" or \"Talk about the story's theme\") reveals the student has not located the actual discussion tasks in the textbook and will likely go off-topic during the assessment.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can participate in a 5-minute structured discussion on \"Going Places\" by: (1) stating a clear position on",
     "id": "gen_c12_eng_f_ch08_q15",
     "nodeId": "c12_eng_f_cbse_08_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a college admissions interview and the panel asks: \"Tell us about a time you had a dream that seemed impossible — how did you",
-     "(2) What are the benefits and disadvantages of teenage fantasising?",
-     "Next, gather 2-3 textual anchors per prompt — e.g., the boutique fantasy vs. biscuit factory reality, the Danny Casey encounter vs. the canal wait.",
-     "Then practice the \"Agree-Build-Challenge\" framework: acknowledge a peer's point (\"I agree that Sophie's isolation fuels her dreams."
+     "Talk through 'Going Places' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -6610,6 +6664,52 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer listing details without linking to Sophie's psychology (e.g., \"it's dark and quiet\") treats atmosphere as decoration, not character revelation — a JEE/NEET-style trap where surface observation replaces analysis.",
     "id": "gen_c12_eng_f_ch08_q16",
+    "nodeId": "c12_eng_f_cbse_08_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Write a structured board-exam answer linking",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Explain how the atmosphere shifts across",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Identify at least four distinct settings",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Identify at least four distinct settings in the story and quote specific sensory",
+    "id": "gen_c12_eng_f_ch08_q17",
     "nodeId": "c12_eng_f_cbse_08_003",
     "difficulty": "advanced"
    },
@@ -6666,87 +6766,32 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong entry will: (1) Use colloquial language (\"Soaf\", \"chuffed\", \"nosey\"), (2) Show Jansie's practicality (\"Factory",
-    "id": "gen_c12_eng_f_ch08_q17",
-    "nodeId": "c12_eng_f_cbse_08_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Analyze how the boutique functions as a symbol that evolves across the story. Trace its mentions from Sophie's opening declaration to her father's reaction (\"This another of your wild stories?\") to the final canal scene.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Middle",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s1",
-      "label": "The arc",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s2",
-      "label": "End",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "Opening",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (1) Opening — the boutique is a vehicle for self-invention, the space where Sophie imagines controlling aesthetics,",
     "id": "gen_c12_eng_f_ch08_q18",
-    "nodeId": "c12_eng_f_cbse_08_009",
+    "nodeId": "c12_eng_f_cbse_08_005",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about context and background provide the essential?",
+    "What surprised you about 'going places' — the context and background to this?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Context And Background mastered! 🎯",
+  "successLine": "'Going Places' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch09",
-  "title": "Before You Read: Context and Background",
+  "title": "'My Mother At Sixty-six'",
   "subtitle": "English · Chapter 9",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch9: Before You Read: Context and Background"],
+  "topic": "'My Mother At Sixty-six'",
+  "chapters": [
+   "English Ch9: 'My Mother At Sixty-six'"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_09_001",
    "c12_eng_f_cbse_09_002",
@@ -6771,103 +6816,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'My Mother At Sixty-six' in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that prepares students to engage with a poem by providing essential information"
+   "hook": "'My Mother at Sixty-six' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that prepares students to engage with a poem by providing essential information about the poet's life, the historical/social context of the work, and the central thematic concern — in this",
+    "title": "'My Mother At Sixty-six'",
+    "text": "'My Mother at Sixty-six' (Flamingo, ch. 9) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure In Poetry",
-    "text": "Plot and narrative structure in poetry refers to the sequence of events and the organizational framework that shapes the poem's story-like progression, including temporal movement, shifts in perspective, and structural devices (such as a single-sentence flow)",
+    "title": "Plot/narrative Arc Of 'My Mother",
+    "text": "The plot/narrative arc of 'My Mother at Sixty-six' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and physical environment where the poem occurs; atmosphere is the emotional mood or feeling evoked in the reader through the poet's choice of sensory details, imagery, and contrast.",
+    "title": "Setting Of 'My Mother",
+    "text": "The setting of 'My Mother at Sixty-six' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a poem involves examining the speaker's personality, emotions, internal conflicts, and development through their observations, thoughts, and actions as revealed in the text.",
+    "title": "Character Analysis In 'My Mother",
+    "text": "Character analysis in 'My Mother at Sixty-six' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Supporting Characters In Poetry",
-    "text": "Supporting characters in poetry are secondary figures or personified elements that appear briefly to contrast with, highlight, or deepen the portrayal of the protagonist; they serve as foils, symbols, or thematic mirrors rather than having independent",
+    "title": "Supporting Characters In 'My Mother",
+    "text": "Supporting characters in 'My Mother at Sixty-six' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is the central, unifying idea or insight about life and human experience that the poet communicates through the interplay of imagery, tone, and structure; in \"My Mother at Sixty-six,\" the primary theme is the poignant realization",
+    "title": "Primary Theme Of 'My Mother",
+    "text": "The primary theme of 'My Mother at Sixty-six' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying, complementary ideas in a literary work that support and enrich the primary theme, often revealing deeper layers of human experience such as the passage of time, intergenerational bonds, unspoken emotions, and the contrast",
+    "title": "Secondary Themes In 'My Mother",
+    "text": "Secondary themes in 'My Mother at Sixty-six' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'My Mother At Sixty-six'",
+    "text": "Imagery in 'My Mother at Sixty-six' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality, where the intended meaning differs from the literal meaning; symbolism is the use of an object, image, or action to represent a deeper, abstract idea.",
+    "title": "Irony And Paradox In 'My Mother",
+    "text": "Irony and paradox in 'My Mother at Sixty-six' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context refers to the skill of determining the precise meaning, connotation, and emotional weight of a word as it functions within a specific literary text, rather than relying solely on its dictionary definition.",
+    "title": "Key Vocabulary Of 'My Mother",
+    "text": "Key vocabulary of 'My Mother at Sixty-six' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to analyzing how the poet's grammatical choices—sentence structure, tense, voice, punctuation, and syntactic patterns—shape meaning, create rhythm, and convey emotion in the poem.",
+    "title": "Language And Style In 'My Mother",
+    "text": "Language and style in 'My Mother at Sixty-six' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving information explicitly stated in the text, while inferential comprehension questions demand deducing implicit meaning by synthesizing textual evidence, contextual clues, and logical reasoning.",
+    "title": "Literal Comprehension Of 'My Mother",
+    "text": "Literal comprehension of 'My Mother at Sixty-six' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate the author's choices, interpret the significance of literary devices, and synthesize how form and content work together to convey the central theme.",
+    "title": "Critical Thinking On 'My Mother",
+    "text": "Critical thinking on 'My Mother at Sixty-six' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter \"My Mother at Sixty-six\" refer to the ability to compose structured, evidence-based analytical responses (short answers, long answers, diary entries, letters, articles) that demonstrate understanding of the poem's themes,",
+    "title": "Writing Skills From 'My Mother",
+    "text": "Writing skills from 'My Mother at Sixty-six' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points for \"My Mother at Sixty-six\" refers to structured oral activities where students articulate personal responses to the poem's themes of aging, filial love, and mortality, actively listen to peers' interpretations, and",
+    "title": "Discussion Points On 'My Mother",
+    "text": "Discussion points on 'My Mother at Sixty-six' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -6878,20 +6923,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is Kamala Das, and why is her bilingual identity (writing as Madhavikutty in Malayalam and Kamala Das in English) significant for understanding her poetry?",
     "answer": "Kamala Das (1934–2009) was a pioneering Indian confessional poet from Malabar, Kerala, who wrote raw, intimate poetry in English and Malayalam (under the pen name Madhavikutty)",
     "options": [
-     "The two supporting images are the \"Young Trees sprinting\" and the \"merry children spilling out of their homes",
-     "Correct: The poem explores the universal pain of witnessing a parent's aging and the inevitable separation of death",
+     "Plot and narrative structure in poetry refers to the sequence of events and the organizational framework that shapes the poem's story-like progression",
+     "Supporting characters in poetry are secondary figures or personified elements that appear briefly to contrast with, highlight, or deepen the portrayal of the protagonist",
      "Kamala Das (1934–2009) was a pioneering Indian confessional poet from Malabar, Kerala, who wrote raw, intimate poetry in English and Malayalam (under the pen name Madhavikutty)"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''My Mother at Sixty-six'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"she just translated her work\") reveals a misunderstanding of how language shapes poetic voice — she didn't translate; she created distinct oeuvres in each language, and the mother-daughter dynamic in this poem carries specific Kerala cultural weight.",
     "id": "gen_c12_eng_f_ch09_q1",
     "nodeId": "c12_eng_f_cbse_09_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're at an airport, watching an elderly parent walk toward security — their steps slower, their face paler than you remember.",
-     "That knot in your throat?",
-     "That's the exact moment Kamala Das captures.",
-     "Begin by asking yourself: \"What do my aging parents truly need from me — not money or care, but emotionally?"
+     "Start with the author of 'My Mother at Sixty-six', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -6951,31 +6993,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_09_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving to the airport with an elderly parent — you glance over and suddenly see their fragility, then look out the window to distract",
-     "That's exactly the narrative journey Kamala Das captures.",
-     "Begin by reading the poem aloud to hear how the single sentence carries you without pause from observation to memory to parting.",
-     "Notice the timeline: Friday morning drive → airport security check → final goodbye."
+     "Trace 'My Mother at Sixty-six' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary physical setting of the poem \"My Mother at Sixty-six\"?",
-    "answer": "The primary physical setting is a car journey from the poet's parental home to Cochin airport on a Friday morning",
-    "options": [
-     "The \"late winter's moon\" is a symbol; it represents the mother's old age, pallor, and the approaching end of life (winter = final season)",
-     "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
-     "The primary physical setting is a car journey from the poet's parental home to Cochin airport on a Friday morning"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the dual physical settings",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how the poet uses contrast between",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "describe the atmosphere at each stage",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Setting in poetry' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"the airport\" or \"the home\") reveals the student has not distinguished the journey itself as the central setting where the poem's observations and emotions unfold.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify the dual physical settings (inside the car, outside the window) and the temporal setting",
     "id": "gen_c12_eng_f_ch09_q3",
     "nodeId": "c12_eng_f_cbse_09_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a car next to your aging parent, watching the world blur past the window — you feel a sudden, sharp pang of fear that this",
-     "That moment is exactly where this poem begins.",
-     "Start by reading the poem aloud and noticing the single long sentence: it mimics the continuous flow of the car journey and the speaker's unbroken",
-     "First, mark the two distinct physical spaces — the car interior (mother dozing, \"ashen like a corpse\") and the world outside (\"Young Trees"
+     "Identify where and when 'My Mother at Sixty-six' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -6983,20 +7050,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the protagonist of \"My Mother at Sixty-six,\" and what is their narrative perspective?",
     "answer": "The protagonist is the first-person narrator, the poet Kamala Das herself, speaking as an adult daughter driving her mother to the airport",
     "options": [
-     "Kamala Das (1934–2009) was a pioneering Indian confessional poet from Malabar, Kerala, who wrote raw, intimate poetry in English and Malayalam (under the pen name Madhavikutty)",
      "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
+     "Student can identify the linear temporal progression in the poem, explain how the single-sentence structure creates a continuous thought flow",
      "The protagonist is the first-person narrator, the poet Kamala Das herself, speaking as an adult daughter driving her mother to the airport"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'My Mother' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., identifying the mother as protagonist) reveals confusion between the poem's *subject* (the mother) and its *speaking consciousness* (the daughter). The protagonist is the \"I\" who observes, feels, and acts.",
     "id": "gen_c12_eng_f_ch09_q4",
     "nodeId": "c12_eng_f_cbse_09_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at an airport dropping off your ageing parent — you see their frailty, feel a sudden sharp fear of loss, but you smile and wave",
-     "That exact emotional tension is the protagonist's experience in this poem.",
-     "Begin by reading the poem aloud to hear the single-sentence flow that mimics a continuous stream of consciousness.",
-     "Next, mark every first-person verb (\"saw,\" \"realised,\" \"put that thought away,\" \"looked,\" \"felt,\" \"said,\" \"did\") to map the protagonist's actions."
+     "Pick the central figure in 'My Mother at Sixty-six' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -7004,20 +7068,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the two supporting images/figures that appear in the poem besides the mother and the narrator.",
     "answer": "The two supporting images are the \"Young Trees sprinting\" and the \"merry children spilling out of their homes",
     "options": [
-     "The poem is written as a single sentence punctuated only by commas and ending with an ellipsis (...)",
-     "Denotation is the literal dictionary meaning; connotation is the associated feeling or idea. In the poem",
+     "The student can independently identify at least three distinct images and two metaphors in the poem, explain the sensory appeal of each image",
+     "The student can independently identify at least two instances of irony and two symbols in the poem, quote the relevant lines",
      "The two supporting images are the \"Young Trees sprinting\" and the \"merry children spilling out of their homes"
     ],
-    "hint": "Straight from the 'Supporting characters in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'My' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the airport security guard\" or \"the driver\") reveals the student is importing external narrative details not present in the poem, showing they haven't distinguished between the poem's internal imagery and their own assumptions about a car journey.",
     "id": "gen_c12_eng_f_ch09_q5",
     "nodeId": "c12_eng_f_cbse_09_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a car watching your elderly parent doze off; you glance outside and see a playground full of laughing children and trees",
-     "That sudden contrast — vibrant life outside, fading life inside — is exactly what Kamala Das captures.",
-     "To analyze the supporting characters, first locate every figure other than the mother and narrator.",
-     "Then ask: what is each one doing?"
+     "Spot the secondary figures in 'My Mother at Sixty-six' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -7025,20 +7086,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "State the primary theme of \"My Mother at Sixty-six\" in one sentence using the formula: \"The poem explores [universal human experience] through [specific situation].\"",
     "answer": "Correct: The poem explores the universal pain of witnessing a parent's aging and the inevitable separation of death",
     "options": [
-     "The poem is written as a single sentence punctuated by commas. The NCERT notes this indicates \"a single thread of thought interspersed with observations of the real world around",
-     "Denotation is the literal dictionary meaning; connotation is the associated feeling or idea. In the poem",
+     "The poem is written as a single sentence punctuated only by commas and ending with an ellipsis (...)",
+     "The student can independently analyze the poem's single-sentence structure, contrasting imagery",
      "Correct: The poem explores the universal pain of witnessing a parent's aging and the inevitable separation of death"
     ],
-    "hint": "Straight from the 'primary theme of a poem' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'My Mother' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"aging\" or \"mother-daughter love\" misses the *tension* between internal ache and external performance — the core of Kamala Das's message.",
     "id": "gen_c12_eng_f_ch09_q6",
     "nodeId": "c12_eng_f_cbse_09_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at an airport security check, watching your own parent walk away — what do you *feel* versus what do you *show*?",
-     "That gap between internal terror and external smile is exactly where this poem lives.",
-     "Begin by reading the poem aloud once, noting the single-sentence flow: the commas act like breaths held back.",
-     "Next, mark every image of youth/movement (sprinting trees, spilling children) and every image of age/stillness (ashen face, corpse, winter moon)."
+     "Ask what 'My Mother at Sixty-six' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -7109,10 +7167,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_09_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting beside an elderly parent at a railway station, watching the world rush by while time seems to slow down for them — this poem",
-     "Begin by re-reading the poem silently, then aloud, noticing how the single-sentence structure mimics a continuous stream of consciousness.",
-     "Mark every contrast you see: youth vs. age, movement vs. stillness, external world vs. internal fear.",
-     "Ask yourself: \"What is the poet NOT saying directly but showing through these contrasts?\" Each answer reveals a secondary theme."
+     "Look beneath the main theme of 'My Mother at Sixty-six' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -7120,20 +7175,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"imagery\" and \"metaphor\" in your own words, giving one example of each from everyday language (not from the poem).",
     "answer": "Imagery: Language appealing to senses (e.g., \"The kitchen smelled of frying cumin and onions\" — olfactory)",
     "options": [
-     "Correct: The poem explores the universal pain of witnessing a parent's aging and the inevitable separation of death",
-     "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
+     "Setting in poetry refers to the time, place, and physical environment where the poem occurs",
+     "Denotation is the literal dictionary meaning; connotation is the associated feeling or idea. In the poem",
      "Imagery: Language appealing to senses (e.g., \"The kitchen smelled of frying cumin and onions\" — olfactory)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'My Mother at' slide -- match the key terms.",
     "misconception": "A wrong answer that gives a simile (\"her face *looked like* a corpse\") for metaphor reveals confusion between direct and indirect comparison. A wrong answer that lists only visual details for imagery reveals the misconception that imagery = only visual description.",
     "id": "gen_c12_eng_f_ch09_q8",
     "nodeId": "c12_eng_f_cbse_09_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a car watching your grandmother doze off beside you — her skin paper-thin, colour drained, mouth slightly open.",
-     "That sudden punch in your chest: *she is old, really old*.",
-     "Now, how would you put that exact physical sensation and emotional jolt into words without saying \"I felt sad\"?",
-     "Kamala Das does it by forcing you to *see* the \"ashen\" face, *feel* the \"wan\" pallor, *watch* the trees \"sprinting\" past — images that hit your"
+     "Find the lines in 'My Mother at Sixty-six' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -7193,10 +7245,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_09_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at a railway station saying goodbye to a grandparent; you smile and wave, but inside you fear it might be the last time.",
-     "That gap between your outer calm and inner storm is irony.",
-     "Now, think of a withered leaf you pocket as a keepsake — it stands for the whole season of life.",
-     "In the poem, we will first read the single-sentence structure aloud, then mark every contrast between what is said and what is felt (irony) and every"
+     "Look in 'My Mother at Sixty-six' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -7204,20 +7253,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"connotation\" and \"denotation\" and give one example from the poem where a word's connotation is drastically different from its denotation.",
     "answer": "Denotation is the literal dictionary meaning; connotation is the associated feeling or idea. In the poem",
     "options": [
-     "The poem is written as a single sentence punctuated only by commas and ending with an ellipsis (...)",
-     "Correct: The poem explores the universal pain of witnessing a parent's aging and the inevitable separation of death",
+     "The student can initiate and sustain a focused group discussion on the poem by making at least three textually grounded contributions",
+     "Plot and narrative structure in poetry refers to the sequence of events and the organizational framework that shapes the poem's story-like progression",
      "Denotation is the literal dictionary meaning; connotation is the associated feeling or idea. In the poem"
     ],
-    "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'My Mother' slide -- match the key terms.",
     "misconception": "A student who only gives the dictionary meaning (\"running fast\") misses the poetic function: the trees are not literally sprinting; the car's motion makes them *appear* to sprint, mirroring the speaker's desperate wish to escape the painful realization.",
     "id": "gen_c12_eng_f_ch09_q10",
     "nodeId": "c12_eng_f_cbse_09_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem for the first time and the word \"ashen\" stops you — you know it means \"pale,\" but why does the poet choose *that*",
-     "Begin by reading the poem aloud twice: first for flow, second to circle every word that carries emotional weight or creates a vivid image.",
-     "For each circled word, ask: \"What is the literal meaning?",
-     "What feeling or picture does it add *here*?"
+     "Note the difficult or loaded words in 'My Mother at Sixty-six' — their meaning carries the text's precision."
     ]
    },
    {
@@ -7225,20 +7271,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the overall sentence structure of \"My Mother at Sixty-six,\" and how is it punctuated?",
     "answer": "The poem is written as a single sentence punctuated only by commas and ending with an ellipsis (...)",
     "options": [
+     "Student can identify the linear temporal progression in the poem, explain how the single-sentence structure creates a continuous thought flow",
      "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
-     "The poem is written as a single sentence punctuated by commas. The NCERT notes this indicates \"a single thread of thought interspersed with observations of the real world around",
      "The poem is written as a single sentence punctuated only by commas and ending with an ellipsis (...)"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'My Mother' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"multiple sentences\" or \"uses full stops\") reveals the student hasn't noticed the grammatical form that mirrors the continuous flow of the poet's consciousness.",
     "id": "gen_c12_eng_f_ch09_q11",
     "nodeId": "c12_eng_f_cbse_09_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Start by asking the student to read the poem aloud and notice how the entire poem flows as one long sentence.",
-     "Ask: \"Why would a poet choose to write a whole poem as a single sentence?\" Guide them to observe the commas creating pauses, the -ing words showing",
-     "Connect this to how we speak when overwhelmed—thoughts tumbling without full stops.",
-     "The key insight: grammar here isn't just rules; it's the heartbeat of the poem's emotional rhythm."
+     "Read 'My Mother at Sixty-six' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -7246,20 +7289,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the defining characteristic of a literal comprehension question?",
     "answer": "A literal comprehension question asks for information that is explicitly stated in the text and can be answered by directly quoting or paraphrasing a specific line",
     "options": [
-     "Kamala Das (1934–2009) was a pioneering Indian confessional poet from Malabar, Kerala, who wrote raw, intimate poetry in English and Malayalam (under the pen name Madhavikutty)",
      "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
+     "Plot and narrative structure in poetry refers to the sequence of events and the organizational framework that shapes the poem's story-like progression",
      "A literal comprehension question asks for information that is explicitly stated in the text and can be answered by directly quoting or paraphrasing a specific line"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'My' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It asks for the main idea\") reveals the student confuses literal retrieval with global understanding or inference.",
     "id": "gen_c12_eng_f_ch09_q12",
     "nodeId": "c12_eng_f_cbse_09_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and see the question: \"Why does the poet 'smile and smile and smile'?",
-     "Start by asking: *Is the answer directly in the poem, or must I read between the lines?",
-     "For inferential questions, follow the Clue-Claim-Connect routine: (1) underline key images (wan face, winter moon, sprinting trees), (2) ask what",
-     "The key insight: every inferential answer is a mini-argument — claim + textual warrant + explanation."
+     "Answer 'My Mother at Sixty-six' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -7267,42 +7307,78 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the sentence structure of the poem \"My Mother at Sixty-six,\" and what does the NCERT textbook note about its significance?",
     "answer": "The poem is written as a single sentence punctuated by commas. The NCERT notes this indicates \"a single thread of thought interspersed with observations of the real world around",
     "options": [
-     "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
+     "Setting in poetry refers to the time, place, and physical environment where the poem occurs",
      "Denotation is the literal dictionary meaning; connotation is the associated feeling or idea. In the poem",
      "The poem is written as a single sentence punctuated by commas. The NCERT notes this indicates \"a single thread of thought interspersed with observations of the real world around"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'My Mother' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"It has four sentences\" or \"It is a sonnet\") reveals the student has missed the most distinctive structural feature that mirrors the continuous flow of time and consciousness.",
     "id": "gen_c12_eng_f_ch09_q13",
     "nodeId": "c12_eng_f_cbse_09_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at an airport saying goodbye to a parent you suddenly realize has become frail.",
-     "You feel a sharp pang of fear but force a smile and say \"See you soon\" because you don't want them to see your pain.",
-     "Now, re-read the poem with that scenario in mind.",
-     "Notice first that the entire poem is one long sentence — why would the poet choose that?"
+     "Analyse 'My Mother at Sixty-six' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What does PEEL stand for in the context of writing literature answers for CBSE Class 12?",
-    "answer": "PEEL stands for Point, Evidence, Explanation, Link",
-    "options": [
-     "Kamala Das (1934–2009) was a pioneering Indian confessional poet from Malabar, Kerala, who wrote raw, intimate poetry in English and Malayalam (under the pen name Madhavikutty)",
-     "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during",
-     "PEEL stands for Point, Das's, Explanation, Link",
-     "PEEL stands for Point, Evidence, Explanation, Link"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "links back",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "embeds at least two precise textual",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explains the effect of literary devices used",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "states a clear point linked to the question",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Line\" or \"Point, Example, Evaluation, Link\") reveals the student does not know the standard answer-writing framework taught in CBSE schools, leading to disorganised responses that miss marking scheme points for \"coherence\" and \"textual support\".",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently write a 120-150 word analytical paragraph or a 150-200 word creative piece (diary",
     "id": "gen_c12_eng_f_ch09_q14",
     "nodeId": "c12_eng_f_cbse_09_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open your CBSE English paper and see: \"The poet's smile at the end is a mask.",
-     "Support your answer with reference to the poem.\" A struggling student might write a summary of the poem or simply say \"Yes, she is sad.",
-     "To begin, ask yourself: *What is the exact question asking?* It wants an opinion (\"Do you agree?\") backed by *textual proof*.",
-     "First, identify the key lines: the \"old familiar ache,\" \"childhood's fear,\" and the repetition \"smile and smile and smile."
+     "For written answers on 'My Mother at Sixty-six', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -7362,10 +7438,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_09_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at a family gathering and notice your grandmother struggling to read a menu; the moment mirrors the poet's sudden realization of her",
-     "Begin by asking students to recall a similar personal moment — this grounds the abstract theme in lived experience.",
-     "Next, guide them to re-read the poem silently, marking two images that struck them most (e.g., \"ashen like a corpse,\" \"late winter's moon\").",
-     "In small groups, each student shares one marked image and explains its emotional impact, while listeners note one follow-up question."
+     "Talk through 'My Mother at Sixty-six' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -7520,24 +7593,24 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'my mother at sixty-six'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'My Mother At Sixty-six' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch10",
-  "title": "This Node Provides The Historical, Social",
+  "title": "'An Elementary School Classroom",
   "subtitle": "English · Chapter 10",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "This Node Provides The Historical, Social",
+  "topic": "'An Elementary School Classroom",
   "chapters": [
-   "English Ch10: This Node Provides The Historical, Social"
+   "English Ch10: 'An Elementary School Classroom"
   ],
   "nodeIds": [
    "c12_eng_f_cbse_10_001",
@@ -7563,103 +7636,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses This Node Provides The in real working life?",
+   "question": "Who uses 'An Elementary School Classroom in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "This node provides the historical, social, and biographical context necessary to understand Stephen Spender's poem \"An Elementary School Classroom in"
+   "hook": "'An Elementary School Classroom in a Slum' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "This Node Provides The Historical, Social",
-    "text": "This node provides the historical, social, and biographical context necessary to understand Stephen Spender's poem \"An Elementary School Classroom in a Slum,\" including the poet's background, the post-war era, and the theme of social inequality.",
+    "title": "'An Elementary School Classroom",
+    "text": "'An Elementary School Classroom in a Slum' (Flamingo, ch. 10) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "For a Poem, Plot And Narrative Structure",
-    "text": "For a poem, plot and narrative structure refers to the organization of ideas, images, and arguments across stanzas, showing how the poet develops a central theme through a logical or emotional progression rather than a conventional storyline.",
+    "title": "Plot/narrative Arc Of 'An Elementary",
+    "text": "The plot/narrative arc of 'An Elementary School Classroom in a Slum' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and physical environment where the poem's action or imagery unfolds; atmosphere is the emotional mood or feeling evoked by the poet's choice of descriptive details, imagery, and language.",
+    "title": "Setting Of 'An Elementary School",
+    "text": "The setting of 'An Elementary School Classroom in a Slum' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, The \"protagonist\"",
-    "text": "In poetry, the \"protagonist\" refers to the central figure or collective voice that embodies the poem's core experience; in Spender's \"An Elementary School Classroom in a Slum,\" the protagonist is not a single named character but the collective group of slum",
+    "title": "Character Analysis In 'An Elementary School",
+    "text": "Character analysis in 'An Elementary School Classroom in a Slum' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, Supporting Characters",
-    "text": "In poetry, supporting characters are the distinct individuals or figures described by the poet who, while not the central focus, embody specific aspects of the poem's theme through their physical details, actions, or symbolic roles.",
+    "title": "Supporting Characters In 'An Elementary",
+    "text": "Supporting characters in 'An Elementary School Classroom in a Slum' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea — the profound insight about human experience that the poet communicates through imagery, structure, and language.",
+    "title": "Primary Theme Of 'An Elementary",
+    "text": "The primary theme of 'An Elementary School Classroom in a Slum' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying, complementary ideas in a literary work that support, complicate, or extend the primary theme; in \"An Elementary School Classroom in a Slum,\" they include the contrast between imagination and harsh reality, the symbolic",
+    "title": "Secondary Themes In 'An Elementary School",
+    "text": "Secondary themes in 'An Elementary School Classroom in a Slum' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and physical sensations.",
+    "title": "Imagery In 'An Elementary School Classroom",
+    "text": "Imagery in 'An Elementary School Classroom in a Slum' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Irony In Poetry",
-    "text": "Irony in poetry is a contrast between expectation and reality, where the intended meaning differs from the literal words. Symbolism uses concrete images (objects, characters, settings) to represent abstract ideas, themes, or emotions beyond their literal",
+    "title": "Irony And Paradox In 'An Elementary",
+    "text": "Irony and paradox in 'An Elementary School Classroom in a Slum' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the meaning of words as they are used in a specific literary text, considering their denotations, connotations, imagery, and thematic significance rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'An Elementary School",
+    "text": "Key vocabulary of 'An Elementary School Classroom in a Slum' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the deliberate grammatical and syntactic choices a poet makes — such as mood, tense, sentence structure, negation, parallelism, and pronoun selection — to shape meaning, tone, and rhetorical effect in a poem.",
+    "title": "Language And Style In 'An Elementary",
+    "text": "Language and style in 'An Elementary School Classroom in a Slum' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Comprehension: Literal and Inferential",
-    "text": "Literal comprehension questions ask for information directly stated in the text, while inferential comprehension questions require the reader to draw conclusions, make connections, or interpret implied meaning using textual evidence and reasoning.",
+    "title": "Literal Comprehension Of 'An Elementary",
+    "text": "Literal comprehension of 'An Elementary School Classroom in a Slum' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate its themes, structure, literary devices, and underlying philosophy, forming an independent, evidence-based interpretation of the poet's intent and the",
+    "title": "Critical Thinking On 'An Elementary School",
+    "text": "Critical thinking on 'An Elementary School Classroom in a Slum' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter \"An Elementary School Classroom in a Slum\" involves crafting structured, purposeful texts (articles, letters, speeches, analytical paragraphs) that draw on the poem's themes of social inequality, the transformative power of",
+    "title": "Writing Skills From 'An Elementary School",
+    "text": "Writing skills from 'An Elementary School Classroom in a Slum' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured practice of articulating literary interpretations, responding to peers' ideas with textual evidence, and collaboratively building a deeper understanding of a poem through guided oral exchange.",
+    "title": "Discussion Points On 'An Elementary School",
+    "text": "Discussion points on 'An Elementary School Classroom in a Slum' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -7722,10 +7795,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you walk into a classroom where the walls are peeling, the maps are torn, and the children's eyes hold a dream far bigger than their reality.",
-     "Before reading Spender's poem, ask yourself: What does a classroom in a slum look like?",
-     "Who is Stephen Spender, and why did he write about inequality?",
-     "Begin by researching the poet's life — his involvement in the Spanish Civil War, his socialist beliefs, and his focus on the marginalized."
+     "Start with the author of 'An Elementary School Classroom in a Slum', then the period, then the literary context — background turns a text from a"
     ]
    },
    {
@@ -7741,10 +7811,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Start by asking the student to read the poem aloud and notice how the line lengths change from stanza to stanza.",
-     "Then guide them to number the stanzas and summarize the main idea of each.",
-     "Connect this to the familiar experience of pausing during a busy day to reflect.",
-     "The key insight is that the poem's structure mirrors its message: a deliberate slowing down and shifting of focus from external action to inner"
+     "Trace 'An Elementary School Classroom in a Slum' from opening to close: how it starts, how events/images build, where it lands — the sequence carries"
     ]
    },
    {
@@ -7804,10 +7871,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into a government school classroom in a densely populated urban slum: peeling paint, broken desks, a world map that shows countries",
-     "That visceral experience is exactly what Stephen Spender constructs in the first stanza.",
-     "To analyze setting and atmosphere, start by listing every concrete noun and adjective in stanza one (e.",
-     "Then ask: what emotion does each detail evoke?"
+     "Identify where and when 'An Elementary School Classroom in a Slum' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -7815,20 +7879,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the protagonist of \"An Elementary School Classroom in a Slum\"? Give a one-sentence answer.",
     "answer": "The protagonist is the collective group of slum children, represented through three individual portraits in the first stanza (the tall girl with weighed-down head",
     "options": [
-     "Situational irony occurs when the outcome is opposite to what is expected. In the poem, the classroom walls display a world map and Shakespeare's portrait",
      "The poet is Stephen Spender, a 20th-century English poet. His political views were heavily influenced by the Spanish Civil War (1936–1939)",
+     "The student can explain how the poet's socialist leanings and the post-World War II context shape the poem's critique of social injustice",
      "The protagonist is the collective group of slum children, represented through three individual portraits in the first stanza (the tall girl with weighed-down head"
     ],
-    "hint": "Straight from the 'In poetry, the \"protagonist\"' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'An' slide -- match the key terms.",
     "misconception": "A wrong answer naming a single child (e.g., \"the tall girl\") reveals the student is applying prose character-analysis habits to a poem where the protagonist is composite and symbolic.",
     "id": "gen_c12_eng_f_ch10_q4",
     "nodeId": "c12_eng_f_cbse_10_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into a classroom where the desks are broken, the walls smell of sour milk, and the children's eyes hold a hunger no midday meal can",
-     "Not one child, but all of them together.",
-     "Start by reading the poem aloud and noticing how Spender zooms in on three specific children in the first stanza: each portrait is a brushstroke",
-     "Ask: what does each detail (weighed-down head, rat's eyes, twisted bones) reveal about their shared reality?"
+     "Pick the central figure in 'An Elementary School Classroom in a Slum' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -7888,10 +7949,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a social worker visiting a real classroom in a Delhi slum — you wouldn't just see \"poor children\"; you'd notice the girl who never",
-     "The poem works exactly like that observational gaze.",
-     "Start by reading the poem aloud and physically underlining every line that describes a *specific* child differently from the others.",
-     "Ask: \"What does this specific detail (weighed down head, rat's eyes, twisted bones, squirrel's game) reveal that the general description 'rootless"
+     "Spot the secondary figures in 'An Elementary School Classroom in a Slum' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -7940,10 +7998,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in a Class 12 exam and the question reads: \"What is the central theme of 'An Elementary School Classroom in a Slum'?",
-     "Support your answer with evidence from the poem.\" Most students freeze because they confuse theme with topic.",
-     "Topic is \"slum children\"; theme is what the poet *says* about that topic.",
-     "Start by re-reading the poem silently, noting the journey from description (stanza 1) to contrast (stanza 2) to indictment (stanza 3) to"
+     "Ask what 'An Elementary School Classroom in a Slum' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -7951,20 +8006,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the definition of a secondary theme in literature, and how does it differ from the primary theme?",
     "answer": "A secondary theme is a complementary idea that supports, extends, or complicates the primary theme",
     "options": [
-     "The first stanza describes an elementary school classroom in a slum with details such as: \"slag heap\" (waste dump)",
+     "The student can identify specific textual details that construct the physical setting, explain how those details generate the emotional atmosphere",
      "The protagonist is the collective group of slum children, represented through three individual portraits in the first stanza (the tall girl with weighed-down head",
      "A secondary theme is a complementary idea that supports, extends, or complicates the primary theme"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'An' slide -- match the key terms.",
     "misconception": "A wrong answer that equates secondary themes with \"minor themes\" or \"subplots\" reveals a misunderstanding that secondary themes are lesser in importance — in fact, they are essential for the primary theme's full realization, as Spender's poem shows: without the secondary themes of the map's irony or Shakespeare's",
     "id": "gen_c12_eng_f_ch10_q7",
     "nodeId": "c12_eng_f_cbse_10_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a social worker visiting a government school in a Delhi slum — you see children with \"rootless weeds\" for hair, a map of the world",
-     "That visceral reaction is your entry point: secondary themes are the specific lenses through which the poet makes you feel that injustice.",
-     "Begin by re-reading the poem stanza by stanza, asking \"What specific injustice or idea is this stanza highlighting beyond the main message of",
-     "The key insight: secondary themes are not just \"more themes\"; they are the architectural supports that make the primary theme structurally sound and"
+     "Look beneath the main theme of 'An Elementary School Classroom in a Slum' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -7976,16 +8028,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Literally, a map is a diagrammatic representation of an area. Contextually, \"A map slum\" reduces the children's lived reality to a mere notation",
      "An image is a sensory description (e.g., \"rootless weeds\" — visual/tactile image of the children's hair and uprooted existence)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'An Elementary School' slide -- match the key terms.",
     "misconception": "A wrong answer that calls \"rootless weeds\" a metaphor reveals confusion between sensory evocation and comparative transfer; a wrong answer that calls the catacomb line a mere image misses the structural equation that turns windows into tombs.",
     "id": "gen_c12_eng_f_ch10_q8",
     "nodeId": "c12_eng_f_cbse_10_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing at the doorway of a municipal school in a Delhi slum: the smell of damp walls, the sound of traffic beyond broken windows,",
-     "Now open the poem.",
-     "Read it aloud once, letting the sounds hit you.",
-     "On the second read, put a pencil mark beside every phrase that makes you *see*, *feel*, *hear*, or *smell* something concrete — those are your images."
+     "Find the lines in 'An Elementary School Classroom in a Slum' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -7993,20 +8042,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from the poem where the classroom's decorations contrast with the children's reality.",
     "answer": "Situational irony occurs when the outcome is opposite to what is expected. In the poem, the classroom walls display a world map and Shakespeare's portrait",
     "options": [
-     "The poet is Stephen Spender, a 20th-century English poet. His political views were heavily influenced by the Spanish Civil War (1936–1939)",
-     "The four supporting characters are: (1) the tall girl — \"head weighed down\"; (2) the paper-seeming boy — \"rat's eyes\"; (3) the stunted heir — \"twisted bones\"",
+     "The poem asserts that systemic social inequality condemns slum children to a stunted existence, and only a radical restructuring of society",
+     "Students treat the three children in stanza 1 as separate supporting characters and pick one as \"the protagonist\" (usually the tall girl because she's first)",
      "Situational irony occurs when the outcome is opposite to what is expected. In the poem, the classroom walls display a world map and Shakespeare's portrait"
     ],
-    "hint": "Straight from the 'Irony in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'An' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it a metaphor) shows the student confuses irony with comparison and cannot distinguish between a device of contrast and a device of resemblance.",
     "id": "gen_c12_eng_f_ch10_q9",
     "nodeId": "c12_eng_f_cbse_10_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into a classroom where the walls are decorated with a world map and a portrait of Shakespeare, but the children sit on broken",
-     "Ask yourself: why would the poet place these grand symbols in a slum?",
-     "That jarring mismatch is irony.",
-     "Now notice the \"slag heap\" and \"catacombs\" — they aren't just background; they symbolize the buried future of these children."
+     "Look in 'An Elementary School Classroom in a Slum' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -8014,20 +8060,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "List five key words from the poem that directly relate to the theme of poverty and neglect, and give their literal meanings.",
     "answer": "s include: slag heap (waste mound from mining), catacombs (underground burial chambers), lead sky (sky coloured like heavy grey metal), shut (closed tightly)",
     "options": [
-     "A secondary theme is a complementary idea that supports, extends, or complicates the primary theme",
-     "The poem asserts that systemic social inequality condemns slum children to a stunted existence, and only a radical restructuring of society",
+     "The student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers",
+     "The student can independently identify each supporting child in the poem, quote the specific imagery used to describe them",
      "s include: slag heap (waste mound from mining), catacombs (underground burial chambers), lead sky (sky coloured like heavy grey metal), shut (closed tightly)"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'An Elementary' slide -- match the key terms.",
     "misconception": "A wrong answer that lists words like \"map,\" \"azure,\" or \"governor\" without linking them to poverty reveals the student is picking prominent words rather than those carrying the thematic weight of deprivation.",
     "id": "gen_c12_eng_f_ch10_q10",
     "nodeId": "c12_eng_f_cbse_10_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading the poem and stumble on \"slag heap\" and \"catacombs\" — words that feel heavy and unfamiliar.",
-     "Instead of reaching for a dictionary, ask: *What images surround these words?",
-     "What is the poet showing us about the children's world?* First, locate the word in its stanza.",
-     "Next, note the nouns and verbs nearby (e.g., \"slag heap\" appears with \"foggy\" and \"slum\")."
+     "Note the difficult or loaded words in 'An Elementary School Classroom in a Slum' — their meaning carries the text's precision."
     ]
    },
    {
@@ -8035,20 +8078,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the grammatical mood of the verbs in the opening stanza (\"let's not speak,\" \"let's stop,\" \"not move\") and state its primary function in this context.",
     "answer": "The verbs are in the imperative mood (specifically, first-person plural imperative \"let's\" + bare infinitive)",
     "options": [
-     "The first stanza describes an elementary school classroom in a slum with details such as: \"slag heap\" (waste dump)",
-     "The protagonist is the collective group of slum children, represented through three individual portraits in the first stanza (the tall girl with weighed-down head",
+     "The student can identify specific textual details that construct the physical setting, explain how those details generate the emotional atmosphere",
+     "The student can identify the collective protagonist, cite at least three specific textual portraits with line references",
      "The verbs are in the imperative mood (specifically, first-person plural imperative \"let's\" + bare infinitive)"
     ],
-    "hint": "Straight from the 'Language Usage in the Text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'An' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., labeling them \"subjunctive\" or \"indicative\") reveals confusion about mood identification; answering \"command\" or \"order\" misses the collaborative \"let's\" and misreads the poem's tone as authoritarian rather than communal.",
     "id": "gen_c12_eng_f_ch10_q11",
     "nodeId": "c12_eng_f_cbse_10_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're editing a friend's speech: they say \"Don't move\" versus \"Let's not move\" versus \"If we didn't move, something might change.",
-     "Now open \"Keeping Quiet\" and read the first stanza aloud.",
-     "Notice how \"let's not speak\" and \"let's stop\" invite you *into* the action rather than ordering you.",
-     "That's the imperative mood doing inclusive work."
+     "Read 'An Elementary School Classroom in a Slum' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -8097,10 +8137,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and the first question reads: \"What does the poet mean by 'count to twelve'?",
-     "Start by reading the poem aloud once — notice the rhythm and the pauses.",
-     "Then, for any question, ask yourself: \"Is the answer written word-for-word in the poem (literal) or do I need to combine clues from different stanzas",
-     "For inferential questions, gather 2-3 pieces of evidence (images, contrasts, repeated words) and explain how they lead to your conclusion."
+     "Answer 'An Elementary School Classroom in a Slum' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -8108,20 +8145,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the literal meaning of the phrase \"to have no truck with\" as used in the poem, and which line contains it?",
     "answer": "The phrase \"to have no truck with\" means to refuse to associate with, tolerate, or have dealings with something",
     "options": [
-     "The first stanza describes an elementary school classroom in a slum with details such as: \"slag heap\" (waste dump)",
-     "The protagonist is the collective group of slum children, represented through three individual portraits in the first stanza (the tall girl with weighed-down head",
+     "The student can explain the contextual meaning of at least 10 key words from \"An Elementary School Classroom in a Slum,\" including their connotations",
+     "The student can identify at least three distinct secondary themes in the poem, trace each across specific stanzas with textual evidence",
      "The phrase \"to have no truck with\" means to refuse to associate with, tolerate, or have dealings with something"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'An' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to have no vehicle\" or \"to avoid travel\") reveals the student is guessing from the modern meaning of \"truck\" instead of recognizing the idiomatic, archaic usage — a common error in board exams where glossary words are tested.",
     "id": "gen_c12_eng_f_ch10_q13",
     "nodeId": "c12_eng_f_cbse_10_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a noisy classroom during a free period — everyone talking, phones buzzing, chairs scraping.",
-     "Suddenly, the teacher says, \"Everyone, close your eyes and don't move or speak for just one minute.",
-     "Start by reading the poem aloud twice: first for the rhythm and sound, second to mark every shift in focus (from counting, to fishermen, to",
-     "Ask: \"Why twelve?"
+     "Analyse 'An Elementary School Classroom in a Slum' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -8129,20 +8164,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary purpose of using textual evidence from the poem in a writing task based on the chapter?",
     "answer": "The primary purpose is to substantiate the writer's argument or analysis with concrete proof from the text",
     "options": [
-     "The primary purpose is to collaboratively analyze the text by sharing interpretations grounded in textual evidence, listening actively to build on or challenge peers' ideas",
-     "A secondary theme is a complementary idea that supports, extends, or complicates the primary theme",
+     "The student can identify at least three distinct secondary themes in the poem, trace each across specific stanzas with textual evidence",
+     "The student can participate in a 5-minute group discussion on the poem, making at least two evidence-based analytical points, responding directly to a peer's comment by agreeing",
      "The primary purpose is to substantiate the writer's argument or analysis with concrete proof from the text"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'An' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to show the examiner I read the poem\" or \"to fill the word count\") reveals a misconception that evidence is decorative rather than functional; it indicates the student does not understand that evidence must be analyzed to support a specific point.",
     "id": "gen_c12_eng_f_ch10_q14",
     "nodeId": "c12_eng_f_cbse_10_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are given a CBSE board question: \"Write an article in 120-150 words on 'Education: The Only Hope for Slum Children' based on the poem 'An",
-     "Start by asking: \"What is the ONE central argument I want to make?\" (e.g., Education breaks the cycle of poverty).",
-     "Next, hunt the poem for two concrete images that prove this argument — the \"map awarding the world its world\" versus the children's \"slag heap\"",
-     "Then, structure your response: a catchy headline, an introduction that hooks the reader with the poem's central contrast, two PEEL body paragraphs"
+     "For written answers on 'An Elementary School Classroom in a Slum', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -8191,10 +8223,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_10_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle where everyone has read the poem but interpretations differ: one student sees hope in the \"map\" while another",
-     "How do you move beyond \"I liked it\" to a rigorous exchange?",
-     "Begin by reading the poem aloud twice — first for rhythm, then marking three images that disturb you.",
-     "Identify the central tension (the world on the wall vs. the world of the slum)."
+     "Talk through 'An Elementary School Classroom in a Slum' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -8206,7 +8235,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The poem has five stanzas of varying line lengths: the first stanza has 6 lines, the second has 6 lines, the third has 7 lines, the fourth has 9 lines, and the fifth has 5 lines",
      "The phrase suggests that those who control language (the \"sun\" — light, knowledge, power) control history"
     ],
-    "hint": "Straight from the 'This node provides the' slide -- match the key terms.",
+    "hint": "Straight from the ''An Elementary School Classroom' slide -- match the key terms.",
     "misconception": "A wrong answer that interprets \"sun\" only literally misses the metaphorical link between language, power, and historical agency.",
     "id": "gen_c12_eng_f_ch10_q16",
     "nodeId": "c12_eng_f_cbse_10_001",
@@ -8221,7 +8250,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "A good response uses words like \"slag heap,\" \"lead sky,\" \"shut,\" \"rootless,\" or \"catacombs\" in a way that preserves their connotations of oppression and wasted potential",
      "Step 1: Identify the image of the children — \"rootless weeds,\" \"torn map,\" \"slag heap.\" Step 2: Identify the image of the privileged world"
     ],
-    "hint": "Straight from the 'This node provides the' slide -- match the key terms.",
+    "hint": "Straight from the ''An Elementary School Classroom' slide -- match the key terms.",
     "misconception": "A wrong answer that lists images without explaining the contrast fails to apply the literary concept.",
     "id": "gen_c12_eng_f_ch10_q17",
     "nodeId": "c12_eng_f_cbse_10_001",
@@ -8236,7 +8265,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "A strong thesis: \"Stephen Spender lays bare the cruel irony of adorning slum classroom walls with donor-portraits and world maps that tantalize with a 'civilized dome riding all",
      "A strong response will show two clear stanzas, each with a central metaphor (e.g., \"cracked pitcher\" for the marginalized, \"crystal goblet\" for the privileged)"
     ],
-    "hint": "Straight from the 'This node provides the' slide -- match the key terms.",
+    "hint": "Straight from the ''An Elementary School Classroom' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response will show two clear stanzas, each with a central metaphor (e.",
     "id": "gen_c12_eng_f_ch10_q18",
     "nodeId": "c12_eng_f_cbse_10_001",
@@ -8245,23 +8274,25 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about this node provides the historical, social?",
+    "What surprised you about 'an elementary school classroom?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "This Node Provides The mastered! 🎯",
+  "successLine": "'An Elementary School mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch11",
-  "title": "Before You Read: Context and Background",
+  "title": "'Keeping Quiet' — The Context And Background",
   "subtitle": "English · Chapter 11",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch11: Before You Read: Context and Background"],
+  "topic": "'Keeping Quiet' — The Context And Background To This",
+  "chapters": [
+   "English Ch11: 'Keeping Quiet' — The Context And Background To This"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_11_001",
    "c12_eng_f_cbse_11_002",
@@ -8286,103 +8317,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'Keeping Quiet' — The Context And more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" provides the essential biographical, historical, and literary framework needed to approach a poem."
+   "hook": "'Keeping Quiet' (Flamingo, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" provides the essential biographical, historical, and literary framework needed to approach a poem. For \"A Thing of Beauty,\" this includes understanding John Keats as a Romantic poet, the Greek myth of Endymion and",
+    "text": "'Keeping Quiet' (Flamingo, ch. 11) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot And Narrative Structure In a Poem",
-    "text": "Plot and Narrative Structure in a poem refers to the organization of ideas, images, and emotions through stanzas, line breaks, and progression of thought — how the poet arranges the \"story\" or argument of the poem to build meaning.",
+    "title": "Plot/narrative Arc Of 'Keeping Quiet'",
+    "text": "The plot/narrative arc of 'Keeping Quiet' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "In Poetry, Setting",
-    "text": "In poetry, setting refers to the time, place, and social context in which the poem's action or reflection occurs, while atmosphere (or mood) is the emotional tone or feeling evoked in the reader through the poet's choice of imagery, diction, rhythm, and sound",
+    "title": "Setting Of 'Keeping Quiet'",
+    "text": "The setting of 'Keeping Quiet' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "In The Poem \"Keeping Quiet,\" The Protagonist",
-    "text": "In the poem \"Keeping Quiet,\" the protagonist is the poetic persona — the first-person speaker (the poet Pablo Neruda himself) who directly addresses humanity (\"we,\" \"us\") to advocate for a moment of collective silence, stillness, and introspection as a path",
+    "title": "Character Analysis In 'Keeping Quiet'",
+    "text": "Character analysis in 'Keeping Quiet' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, \"supporting Characters\"",
-    "text": "In poetry, \"supporting characters\" refer to the collective voices, groups, or symbolic entities (e.g., humanity, nature, specific professions) that the poet references to advance the central idea.",
+    "title": "Supporting Characters In 'Keeping Quiet'",
+    "text": "Supporting characters in 'Keeping Quiet' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea — the profound insight about life, humanity, or the world that the poet communicates through imagery, structure, and language.",
+    "title": "Primary Theme Of 'Keeping Quiet'",
+    "text": "The primary theme of 'Keeping Quiet' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas that enrich the primary theme of a poem by exploring specific facets of the central message. In \"A Thing of Beauty,\" while the primary theme is the eternal joy and immortality of beauty, the secondary themes examine",
+    "title": "Secondary Themes In 'Keeping Quiet'",
+    "text": "Secondary themes in 'Keeping Quiet' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery refers to the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures.",
+    "title": "Imagery In 'Keeping Quiet'",
+    "text": "Imagery in 'Keeping Quiet' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony In \"Keeping Quiet\"",
-    "text": "Irony in \"Keeping Quiet\" is the contrast between the poet's verbal urging for silence and the act of speaking itself, while symbolism uses concrete images (like fishermen, salt gatherers, green wars) to represent abstract ideas such as exploitation,",
+    "title": "Irony And Paradox In 'Keeping Quiet' —",
+    "text": "Irony and paradox in 'Keeping Quiet' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context For \"Keeping Quiet\"",
-    "text": "Vocabulary in Context for \"Keeping Quiet\" involves identifying, defining, and analyzing key words from Pablo Neruda's poem that carry thematic weight, understanding their denotative and connotative meanings, and explaining how specific diction shapes the",
+    "title": "Key Vocabulary Of 'Keeping Quiet'",
+    "text": "Key vocabulary of 'Keeping Quiet' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Language Usage In Poetry",
-    "text": "Language usage in poetry refers to the deliberate grammatical, syntactic, and lexical choices a poet makes — such as inversion, archaism, parallelism, and figurative constructions — to shape meaning, rhythm, and tone beyond ordinary prose conventions.",
+    "title": "Language And Style In 'Keeping Quiet'",
+    "text": "Language and style in 'Keeping Quiet' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text, while inferential comprehension questions demand interpretation of implicit meaning, drawing conclusions by connecting textual evidence with context and",
+    "title": "Literal Comprehension Of 'Keeping Quiet'",
+    "text": "Literal comprehension of 'Keeping Quiet' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Poetry Analysis",
-    "text": "Critical thinking in poetry analysis involves systematically examining a poem's structural elements, literary devices, and thematic layers to construct an evidence-based interpretation of its meaning, rather than merely summarizing its content.",
+    "title": "Critical Thinking On 'Keeping Quiet'",
+    "text": "Critical thinking on 'Keeping Quiet' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter \"Keeping Quiet\" refers to the ability to produce structured, evidence-based written responses — such as analytical paragraphs, critical appreciations, and thematic essays — that demonstrate understanding of the poem's",
+    "title": "Writing Skills From 'Keeping Quiet'",
+    "text": "Writing skills from 'Keeping Quiet' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points for \"A Thing of Beauty\" refers to the structured oral activity where students prepare, articulate, and exchange interpretations of the poem's themes, imagery, and philosophical stance in a group setting, using textual",
+    "title": "Discussion Points On 'Keeping Quiet'",
+    "text": "Discussion points on 'Keeping Quiet' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -8393,20 +8424,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who was John Keats, and what are two key facts about his life that are essential for understanding his poetry?",
     "answer": "John Keats (1795–1821) was a British Romantic poet who died of tuberculosis at 25. Two essential facts: (1) He was trained as a surgeon but abandoned medicine for poetry",
     "options": [
-     "The five groups are: (1) the collective \"we\"/humanity, (2) fishermen in the cold sea, (3) the man gathering salt, (4) those preparing wars (green wars, wars with gas",
-     "Visual: \"fishermen not harming whales\" / \"man gathering salt looks at his hurt hands\" — appeals to sight",
+     "The primary purpose is to organize textual evidence (specific lines/images) around key themes so that contributions are grounded in the poem rather than vague personal opinion",
+     "The poem is divided into five stanzas of varying lengths",
      "John Keats (1795–1821) was a British Romantic poet who died of tuberculosis at 25. Two essential facts: (1) He was trained as a surgeon but abandoned medicine for poetry"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Keeping Quiet' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"He was a Victorian novelist\") reveals the student lacks basic literary history, making it impossible to situate the poem's themes of mortality and beauty.",
     "id": "gen_c12_eng_f_ch11_q1",
     "nodeId": "c12_eng_f_cbse_11_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're scrolling through Instagram and see a breathtaking sunset photo — for a moment, your exam stress vanishes.",
-     "That fleeting relief is exactly what Keats argues is actually eternal.",
-     "Start by asking: \"What makes something beautiful to me?\" Then read the \"Before You Read\" questions in your textbook (page 93) — they're not homework,",
-     "Next, research Keats: he died at 25, trained as a surgeon, wrote this at 22."
+     "Start with the author of 'Keeping Quiet', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -8422,10 +8450,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to a friend tell an important story — they don't just blurt everything out at once; they pause, change tone, circle back,",
-     "A poem does the same through its structure.",
-     "Start by reading \"Keeping Quiet\" aloud twice: first for the sound and rhythm, second to mark the stanzas.",
-     "Notice how the poem opens with a direct command (\"Now we will count to twelve\"), then expands to describe the moment of silence, then broadens to"
+     "Trace 'Keeping Quiet' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -8474,10 +8499,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a noisy classroom during a free period — chatter, movement, phones buzzing.",
-     "Suddenly, a teacher says, \"Everyone, stop.",
-     "Just be still for one minute.\" The noise doesn't vanish instantly; it thins out, and you start hearing your own breath, the fan, a distant bird.",
-     "That shift — from chaotic noise to a charged, expectant quiet — is exactly the atmosphere Pablo Neruda builds in \"Keeping Quiet."
+     "Identify where and when 'Keeping Quiet' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -8526,10 +8548,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in a noisy classroom and someone suddenly says, \"Let's all stop talking for twelve seconds and just breathe.",
-     "Notice the pronouns: \"we,\" \"us,\" \"our\" — the protagonist never stands above humanity; he includes himself in the fault and the cure.",
-     "Track three shifts: (1) command → invitation, (2) external action → internal stillness, (3) despair → hope.",
-     "The key insight: the protagonist IS the poem's method — his voice performs the silence he preaches."
+     "Pick the central figure in 'Keeping Quiet' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -8600,10 +8619,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're at a noisy family gathering where everyone argues at once — then someone suggests a minute of silence.",
-     "Suddenly you notice the grandmother knitting, the toddler sleeping, the uncle checking his phone.",
-     "That's what Neruda does: he pauses the \"noise\" of history to reveal who's actually present.",
-     "Start by reading the poem aloud, circling every distinct group mentioned (e.g., \"fishermen,\" \"man gathering salt\")."
+     "Spot the secondary figures in 'Keeping Quiet' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -8663,10 +8679,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a noisy classroom where everyone is shouting — then suddenly, a teacher asks for \"two minutes of absolute silence.",
-     "That shift from external chaos to internal awareness is exactly what Neruda asks of humanity.",
-     "Begin by reading the poem aloud *twice*: first for the rhythm of the lines, second to mark every verb that implies stopping (count, stop, not move,",
-     "Notice how the poem moves from a personal request (\"count to twelve\") to a global vision (\"fishermen... whales... man gathering salt\")."
+     "Ask what 'Keeping Quiet' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -8726,10 +8739,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are writing a board exam answer on \"How does Keats show that beauty is not just a momentary pleasure but a lifelong sustenance?",
-     "Now, to score full marks, you need to unpack the *layers* — the secondary themes — that prove this.",
-     "Start by re-reading the poem and highlighting every image that shows beauty *acting* on humans: the \"bower quiet,\" the \"sleep full of sweet dreams,\"",
-     "\"sun,\" \"moon,\" \"daffodils,\" \"musk-rose blooms.\" Ask: What is each contrast *doing* thematically?"
+     "Look beneath the main theme of 'Keeping Quiet' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -8741,16 +8751,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The fishermen image evokes a quiet, cold, elemental atmosphere — human labor in harmony with nature's harshness, where silence would save whales",
      "Imagery uses sensory language to create a concrete mental picture (e.g., \"his hands hurt from the salt\")"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Keeping Quiet'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both are comparisons\" reveals confusion: imagery *evokes* sensation, metaphor *transfers* meaning. If a student cannot distinguish them, they will mislabel every sensory line as a metaphor in board answers.",
     "id": "gen_c12_eng_f_ch11_q8",
     "nodeId": "c12_eng_f_cbse_11_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a noisy classroom before an exam — everyone chatting, pens tapping, feet shuffling.",
-     "Suddenly the teacher says, \"Everyone, stop.",
-     "Close your eyes.",
-     "Count to twelve."
+     "Find the lines in 'Keeping Quiet' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -8758,21 +8765,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the basic definition of irony as a literary device?",
     "answer": "Irony is a contrast between expectation and reality, or between what is said and what is meant",
     "options": [
-     "The protagonist is the poetic speaker (Neruda's persona) who acts as a guide urging humanity toward collective silence and introspection",
-     "The five groups are: (1) the collective \"we\"/humanity, (2) fishermen in the cold sea, (3) the man gathering salt, (4) those preparing wars (green wars, wars with gas",
-     "Spite is a contrast between expectation and reality, or between what is said and what is meant",
+     "The student can explain who John Keats was and why he matters in Romantic literature, summarize the Endymion myth and its relevance to the poem's theme",
+     "The poem is divided into five stanzas of varying lengths",
+     "Neruda's is a contrast between expectation and reality, or between what is said and what is meant",
      "Irony is a contrast between expectation and reality, or between what is said and what is meant"
     ],
-    "hint": "Straight from the 'Irony in \"Keeping Quiet\"' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Keeping' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is a funny coincidence\") shows the student confuses irony with mere coincidence or humor, missing the essential element of contradiction.",
     "id": "gen_c12_eng_f_ch11_q9",
     "nodeId": "c12_eng_f_cbse_11_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you tell a noisy classroom \"Everyone stop talking!\" — your words create the very noise you want to end.",
-     "Now think of a white flag: a piece of cloth that means surrender.",
-     "That's symbolism.",
-     "In \"Keeping Quiet\", Neruda uses both: he speaks to ask for silence (irony) and uses fishermen, salt, and wars as symbols of human harm."
+     "Look in 'Keeping Quiet' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -8780,20 +8784,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"denotation\" and \"connotation\" and give one example from \"Keeping Quiet\" where a word's connotation matters more than its denotation for understanding the poem's message.",
     "answer": "Denotation is the literal dictionary meaning of a word; connotation is the emotional, cultural, or associative meaning it carries",
     "options": [
-     "The poem is divided into five stanzas of varying lengths",
-     "\"The poem asserts that a deliberate, collective pause from speech and action allows humanity to confront its self-destructive patterns and rediscover unity with each other and the",
+     "Secondary themes are the supporting ideas that enrich the primary theme of a poem by exploring specific facets of the central message",
+     "The student can explain who John Keats was and why he matters in Romantic literature, summarize the Endymion myth and its relevance to the poem's theme",
      "Denotation is the literal dictionary meaning of a word; connotation is the emotional, cultural, or associative meaning it carries"
     ],
-    "hint": "Straight from the 'Vocabulary in Context for' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Keeping Quiet'' slide -- match the key terms.",
     "misconception": "A wrong answer that only gives dictionary definitions reveals the student cannot distinguish literal from figurative significance — a critical gap for Board exam questions asking \"How does the poet's word choice convey...?\"",
     "id": "gen_c12_eng_f_ch11_q10",
     "nodeId": "c12_eng_f_cbse_11_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading \"Keeping Quiet\" and the word \"exotic\" in line 2 makes you pause — you know it means \"foreign\" or \"unusual,\" but why does",
-     "Start by reading the poem aloud twice: first for flow, second to circle every word that feels charged or surprising.",
-     "For each circled word, ask: \"What does this literally mean?",
-     "What does it suggest here?"
+     "Note the difficult or loaded words in 'Keeping Quiet' — their meaning carries the text's precision."
     ]
    },
    {
@@ -8801,20 +8802,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the archaic or poetic word forms used in the poem \"A Thing of Beauty\" and give one example with its modern equivalent.",
     "answer": "The poem uses \"morrow\" (modern: morning/tomorrow), \"o'er-darkened\" (modern: over-darkened), and \"brake\" (meaning thicket/fern mass, not the verb \"break\")",
     "options": [
-     "Denotation is the literal dictionary meaning of a word; connotation is the emotional, cultural, or associative meaning it carries",
-     "The protagonist is the poetic speaker (Neruda's persona) who acts as a guide urging humanity toward collective silence and introspection",
+     "The student can identify and explain at least three distinct grammatical or syntactic features in \"A Thing of Beauty\" (e",
+     "The student can independently identify specific images and metaphors in the poem, explain their sensory appeal",
      "The poem uses \"morrow\" (modern: morning/tomorrow), \"o'er-darkened\" (modern: over-darkened), and \"brake\" (meaning thicket/fern mass, not the verb \"break\")"
     ],
-    "hint": "Straight from the 'Language usage in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Keeping' slide -- match the key terms.",
     "misconception": "A wrong answer like \"beauty, joy, forever\" shows the student confuses vocabulary with grammatical archaism — they are picking content words, not outdated forms.",
     "id": "gen_c12_eng_f_ch11_q11",
     "nodeId": "c12_eng_f_cbse_11_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a poem aloud and suddenly stumble because the word order feels \"backwards\" — \"Therefore, on every morrow, are we wreathing\"",
-     "In this walkthrough, we first read the poem aloud to hear where the syntax resists normal speech.",
-     "Next, we mark every sentence that does not follow Subject-Verb-Object order.",
-     "Then we label archaic forms like \"o'er-darkened\" and \"morrow.\" After that, we map the long balanced sentences — notice how Keats uses semi-colons to"
+     "Read 'Keeping Quiet' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -8863,10 +8861,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the Board exam and see a question: \"What does the phrase 'endless fountain of immortal drink' suggest about beauty's nature?",
-     "Instead, start by reading the question stem carefully — circle the command word (List, Explain, Suggest, Why).",
-     "For literal questions, scan the poem for keywords from the question.",
-     "For inferential questions, use the \"Evidence → Inference → Significance\" routine: find two relevant lines, state what they imply, then connect to the"
+     "Answer 'Keeping Quiet' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -8882,10 +8877,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"Why does Keats call beauty 'an endless fountain of immortal drink' instead of just saying 'beauty lasts forever'?",
-     "Next, circle the rhyming pairs and notice how the couplets create a sense of completion that mirrors the poem's argument about beauty's permanence.",
-     "Then, isolate the central contrast: the \"pall\" of suffering versus the \"flowery band\" of beauty.",
-     "Ask: which specific images fight which specific sorrows?"
+     "Analyse 'Keeping Quiet' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -8934,10 +8927,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_11_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and the question reads: *\"How does Neruda use the image of 'counting up to twelve' to convey the poem's central",
-     "Start by reading the question twice — underline keywords: 'image', 'counting up to twelve', 'central message'.",
-     "Next, recall the specific lines (stanza 1) and the device (symbolism of stillness).",
-     "Then, draft a point: *The act of counting to twelve symbolizes a deliberate pause for introspection."
+     "For written answers on 'Keeping Quiet', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -8945,20 +8935,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary purpose of preparing discussion points before a group discussion on a poem like \"A Thing of Beauty\"?",
     "answer": "The primary purpose is to organize textual evidence (specific lines/images) around key themes so that contributions are grounded in the poem rather than vague personal opinion",
     "options": [
-     "A secondary theme is a supporting idea that explores a specific dimension of the primary theme, providing evidence, contrast, or extension",
-     "The primary setting is a universal, timeless moment of collective pause imagined by the poet, not a specific geographical location or historical period",
+     "The student can independently prepare 3-4 discussion points anchored in specific lines of the poem",
+     "Students think \"discussion points\" means writing a summary of the poem to read aloud",
      "The primary purpose is to organize textual evidence (specific lines/images) around key themes so that contributions are grounded in the poem rather than vague personal opinion"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Keeping' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to memorize the poem\" reveals the student confuses preparation with rote learning; the goal is analytical readiness, not recall.",
     "id": "gen_c12_eng_f_ch11_q15",
     "nodeId": "c12_eng_f_cbse_11_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a college admission interview or a CUET group discussion where the panel asks: \"Keats says beauty never passes into nothingness —",
-     "Give examples from the poem and your life.\" You have 2 minutes to think and then speak.",
-     "Where do you begin?",
-     "First, re-read the poem silently and mark three concrete images (sun, moon, daffodils, rills, musk-rose, tales of the mighty dead)."
+     "Talk through 'Keeping Quiet' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -9020,6 +9007,52 @@ export const C12_ENG_F_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why the poem’s final image",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "articulate the primary theme in a precise",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "trace how at least three distinct stanzas",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) articulate the primary theme in a precise thematic statement (not a topic), (2) trace how at least",
+    "id": "gen_c12_eng_f_ch11_q17",
+    "nodeId": "c12_eng_f_cbse_11_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the claim: \"Keats's poem offers escapism — it tells us to ignore suffering by focusing on pretty things.\" Defend your judgment using at least three specific textual references.",
     "sortItems": [
      {
@@ -9060,45 +9093,32 @@ export const C12_ENG_F_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing with the claim reveals the student equates \"beauty\" with \"prettiness\" and misses the poem's tragic realism — a confusion rooted in not distinguishing Romantic \"beauty\" (which includes the sublime and terrible) from superficial decoration.",
-    "id": "gen_c12_eng_f_ch11_q17",
+    "id": "gen_c12_eng_f_ch11_q18",
     "nodeId": "c12_eng_f_cbse_11_013",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the Romantic view of nature (as seen in Keats) with the Class 10 textbook's treatment of nature in \"A Baker from Goa\" (Coorg/Tea from Assam). What fundamental difference in purpose do you see?",
-    "answer": "In Keats, nature (sun, moon, trees, daffodils, rills, musk-rose) is a living, spiritual presence that actively heals the human spirit",
-    "options": [
-     "The active voice (\"Some shape of beauty moves...\") assigns agency to beauty itself, making beauty the doer — it acts upon the human spirit",
-     "(B) is better because it uses a precise, embedded textual reference (paraphrased quote) that captures the rhythm and imperative tone of the original",
-     "In Keats, nature (sun, moon, trees, daffodils, rills, musk-rose) is a living, spiritual presence that actively heals the human spirit"
-    ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Both describe nature beautifully\") conflates decorative description with philosophical engagement, missing why Keats calls nature \"an endless fountain of immortal drink.\"",
-    "id": "gen_c12_eng_f_ch11_q18",
-    "nodeId": "c12_eng_f_cbse_11_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'keeping quiet' — the context and background to this?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Keeping Quiet' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch12",
-  "title": "Before You Read: Context and Background",
+  "title": "'A Roadside Stand' — The Context And Background",
   "subtitle": "English · Chapter 12",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch12: Before You Read: Context and Background"],
+  "topic": "'A Roadside Stand' — The Context And Background To T",
+  "chapters": [
+   "English Ch12: 'A Roadside Stand' — The Context And Background To T"
+  ],
   "nodeIds": [
    "c12_eng_f_cbse_12_001",
    "c12_eng_f_cbse_12_002",
@@ -9123,103 +9143,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Before You Read: Context and directly with your eyes?",
+   "question": "Can you see 'A Roadside Stand' — The Context directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
     "It is invisible by definition"
    ],
    "answer": "Often only through its effects",
-   "hook": "\"Before You Read: Context and Background\" is a preparatory literary skill where students examine the poet's life, historical period, socio-economic"
+   "hook": "'A Roadside Stand' (Flamingo, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a preparatory literary skill where students examine the poet's life, historical period, socio-economic setting, and key thematic concerns before engaging with the poem, enabling them to activate prior knowledge and",
+    "text": "'A Roadside Stand' (Flamingo, ch. 12) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure In a Poem",
-    "text": "Plot and Narrative Structure in a poem refers to the organization of events, images, and ideas that create a story-like progression. It includes the exposition (setting the scene), rising action (development of conflict), climax (turning point), and",
+    "title": "Plot/narrative Arc Of 'A Roadside",
+    "text": "The plot/narrative arc of 'A Roadside Stand' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting In Poetry",
-    "text": "Setting in poetry refers to the time, place, and social environment where the poem's action occurs, including physical details and historical context.",
+    "title": "Setting Of 'A Roadside Stand'",
+    "text": "The setting of 'A Roadside Stand' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "In Poetry, The Protagonist",
-    "text": "In poetry, the protagonist is the central figure or collective persona whose experiences, struggles, and perspective drive the poem's emotional core and thematic development; unlike prose, a poetic protagonist may be a group (e.",
+    "title": "Character Analysis In 'A Roadside Stand'",
+    "text": "Character analysis in 'A Roadside Stand' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Supporting Characters In a Poem",
-    "text": "Supporting characters in a poem are figures who are not the central focus but whose actions, attitudes, or presence illuminate the protagonist's situation, advance the thematic argument, or provide a contrasting perspective.",
+    "title": "Supporting Characters In 'A Roadside Stand'",
+    "text": "Supporting characters in 'A Roadside Stand' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Primary Theme Of \"A Roadside Stand\"",
-    "text": "The primary theme of \"A Roadside Stand\" is the stark economic and emotional divide between the rural poor and the urban wealthy, exposing how systemic indifference and misguided government policies deepen rural suffering rather than alleviate it.",
+    "title": "Primary Theme Of 'A Roadside",
+    "text": "The primary theme of 'A Roadside Stand' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying, supporting ideas in a literary work that complement and enrich the primary theme, often revealing nuanced perspectives on social, psychological, or philosophical issues through specific images, conflicts, and character",
+    "title": "Secondary Themes In 'A Roadside Stand'",
+    "text": "Secondary themes in 'A Roadside Stand' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create concrete mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'A Roadside Stand'",
+    "text": "Imagery in 'A Roadside Stand' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony In Poetry",
-    "text": "Irony in poetry is a contrast between expectation and reality — where the intended meaning is opposite to the literal words (verbal irony), the outcome contradicts what was anticipated (situational irony), or the audience knows more than the characters",
+    "title": "Irony And Paradox In 'A Roadside Stand' —",
+    "text": "Irony and paradox in 'A Roadside Stand' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and tonal effect of specific words and phrases as they are used within a particular literary text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'A Roadside Stand'",
+    "text": "Key vocabulary of 'A Roadside Stand' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the study of how syntactic choices, sentence structures, verb forms, modifiers, and word order in a literary work create meaning, tone, and poetic effect.",
+    "title": "Language And Style In 'A Roadside",
+    "text": "Language and style in 'A Roadside Stand' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving information directly stated in the poem (who, what, where, when), while inferential comprehension requires reading between the lines to deduce implied meanings, emotions, or authorial intent using textual evidence and",
+    "title": "Literal Comprehension Of 'A Roadside Stand'",
+    "text": "Literal comprehension of 'A Roadside Stand' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of examining a text's components—structure, language, imagery, tone, and context—to form an evidence-based interpretation of its deeper meaning, the author's intent, and its socio-cultural",
+    "title": "Critical Thinking On 'A Roadside Stand'",
+    "text": "Critical thinking on 'A Roadside Stand' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter refers to the ability to compose structured, evidence-based analytical responses to questions on the poem \"A Roadside Stand,\" using the PEEL (Point, Evidence, Explanation, Link) method, embedding precise textual evidence,",
+    "title": "Writing Skills From 'A Roadside Stand'",
+    "text": "Writing skills from 'A Roadside Stand' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speaking And Listening Discussion Points",
-    "text": "Speaking and Listening Discussion Points are structured conversation prompts designed to deepen textual understanding through collaborative dialogue, requiring participants to articulate interpretations, cite textual evidence, listen actively, and build upon",
+    "title": "Discussion Points On 'A Roadside Stand'",
+    "text": "Discussion points on 'A Roadside Stand' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -9230,20 +9250,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the poet of \"A Roadside Stand\" and what is he best known for in American literature?",
     "answer": "Robert Frost (1874–1963), a four-time Pulitzer Prize winner, known for poems like \"Stopping by Woods on a Snowy Evening,\" \"Birches,\" and \"Mending Wall\" that explore rural New",
     "options": [
-     "The three groups are: (1) the city folk/polished traffic — \"The polished traffic passed with a mind ahead, / Or if ever aside a moment",
-     "The poem is narrated in the first person by a speaker who observes the roadside stand and reflects on the scene",
+     "The student can identify the protagonist in \"A Roadside Stand\" (the rural stand-owners as a collective), cite at least three specific textual details (images, diction",
+     "The student can identify at least three distinct secondary themes in \"A Roadside Stand,\" trace each through specific textual evidence across stanzas",
      "Robert Frost (1874–1963), a four-time Pulitzer Prize winner, known for poems like \"Stopping by Woods on a Snowy Evening,\" \"Birches,\" and \"Mending Wall\" that explore rural New"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Roadside Stand' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Wordsworth or Tagore) reveals the student has not read the \"About the poet\" box and lacks basic author recognition — a prerequisite for situating the poem's voice.",
     "id": "gen_c12_eng_f_ch12_q1",
     "nodeId": "c12_eng_f_cbse_12_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are driving on a highway and see a small stall selling mangoes or handicrafts at the roadside.",
-     "Do you notice the person behind the counter?",
-     "Now think: why would a poet like Robert Frost, writing in 1930s America, choose this scene?",
-     "Start by reading the \"About the poet\" note and the \"Before you read\" question in your textbook."
+     "Start with the author of 'A Roadside Stand', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -9251,20 +9268,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary narrative perspective used in \"A Roadside Stand\"? Identify the speaker and describe how the perspective shifts in the poem.",
     "answer": "The poem is narrated in the first person by a speaker who observes the roadside stand and reflects on the scene",
     "options": [
-     "The roles ensure equitable participation, keep the discussion grounded in textual evidence, connect the poem to broader contexts, and synthesise key takeaways",
-     "A secondary theme is a supporting idea that runs parallel to the primary theme, developed through specific images or sub-conflicts rather than dominating the entire work",
+     "The student can independently write a 100-150 word answer to a thematic or analytical question on \"A Roadside Stand\" that includes a clear topic sentence",
+     "The protagonist is the collective group of rural poor who run the roadside stand — the \"pitiful kin\" who wait for city money to alleviate their poverty",
      "The poem is narrated in the first person by a speaker who observes the roadside stand and reflects on the scene"
     ],
-    "hint": "Straight from the 'Plot and Narrative Structure in a' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying it's third-person throughout) reveals the student hasn't noticed the shifting \"I\" and the movement from observation to personal involvement.",
     "id": "gen_c12_eng_f_ch12_q2",
     "nodeId": "c12_eng_f_cbse_12_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are driving past a small roadside stall on a highway — you see a shed, some fruits, a hand-painted sign.",
-     "The poem \"A Roadside Stand\" turns that fleeting glimpse into a story with a beginning, middle, and end.",
-     "To analyze its narrative structure, first read the poem aloud and mark where the scene is set (first stanza), where the conflict appears (city folk's",
-     "Notice how each stanza advances the story: from description to complaint to plea to irony to personal reflection."
+     "Trace 'A Roadside Stand' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -9272,20 +9286,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the physical setting of the roadside stand as described in the first stanza of the poem?",
     "answer": "The physical setting is a little old house with a new shed at the edge of a road where traffic speeds by",
     "options": [
-     "The phrase means that the money earned from rural produce (via the roadside stand) sustains the prosperity (\"flower\") of cities, preventing urban economies from collapsing",
-     "The stand owners plead for \"some city money to feel in hand / To try if it will not make our being expand\"",
+     "The student can independently write a 100-150 word answer to a thematic or analytical question on \"A Roadside Stand\" that includes a clear topic sentence",
+     "The protagonist is the collective group of rural poor who run the roadside stand — the \"pitiful kin\" who wait for city money to alleviate their poverty",
      "The physical setting is a little old house with a new shed at the edge of a road where traffic speeds by"
     ],
-    "hint": "Straight from the 'Setting in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'A Roadside Stand'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a busy city market\" or \"a well-maintained shop\") reveals the student cannot distinguish the rural, makeshift, marginalized location from urban commercial spaces, missing the poem's core contrast between city and country.",
     "id": "gen_c12_eng_f_ch12_q3",
     "nodeId": "c12_eng_f_cbse_12_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving on a highway and see a small, makeshift shed at the roadside with hand-painted signs selling wild berries and squash.",
-     "You speed past without slowing down.",
-     "Now, read the poem aloud and notice how Frost makes you *feel* the weight of that shed's existence.",
-     "First, list every physical detail the poet gives: the \"little old house,\" \"new shed,\" \"traffic sped,\" \"artless paint,\" \"N turned wrong and S turned"
+     "Identify where and when 'A Roadside Stand' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -9293,20 +9304,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the protagonist of \"A Roadside Stand\"? Answer in one sentence.",
     "answer": "The protagonist is the collective group of rural poor who run the roadside stand — the \"pitiful kin\" who wait for city money to alleviate their poverty",
     "options": [
-     "The phrase means that the money earned from rural produce (via the roadside stand) sustains the prosperity (\"flower\") of cities, preventing urban economies from collapsing",
-     "The stand owners plead for \"some city money to feel in hand / To try if it will not make our being expand\"",
+     "The student can independently deconstruct a stanza from \"A Roadside Stand,\" identify the specific poetic devices at work",
+     "The student can independently identify specific images and metaphors in \"A Roadside Stand\", explain how each appeals to a particular sense or creates a comparison",
      "The protagonist is the collective group of rural poor who run the roadside stand — the \"pitiful kin\" who wait for city money to alleviate their poverty"
     ],
-    "hint": "Straight from the 'In poetry, the protagonist' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the poet\" or \"the city folk\") reveals the student is confusing the speaker/observer with the central subject, or misidentifying antagonists as protagonists.",
     "id": "gen_c12_eng_f_ch12_q4",
     "nodeId": "c12_eng_f_cbse_12_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving past a roadside stall selling berries and squash — you see the faded paint, the hopeful jars, the elderly couple waiting.",
-     "Now ask: \"If this stall were the main character of a poem, what would its 'personality' be?\" That's our entry point.",
-     "First, we locate every stanza where the stand or its owners appear (stanzas 1, 2, 3, 4).",
-     "Next, we mark words that show their poverty (\"pathetically pled\", \"artless paint\", \"pitiful kin\") and their yearning (\"trusting sorrow\", \"childish"
+     "Pick the central figure in 'A Roadside Stand' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -9355,10 +9363,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_12_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving on a highway and see a small stall selling local produce.",
-     "Do you notice the sellers' hopeful faces?",
-     "Most urban travellers speed past, annoyed by the \"artless paint\" of the signs.",
-     "That indifference is exactly what Frost captures."
+     "Spot the secondary figures in 'A Roadside Stand' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -9366,20 +9371,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the central plea of the roadside stand owners, as stated in the poem? Answer in one sentence using the poem's exact phrasing or a close paraphrase.",
     "answer": "The stand owners plead for \"some city money to feel in hand / To try if it will not make our being expand\"",
     "options": [
-     "Vocabulary in context is the practice of determining a word's meaning, tone, and function based on how it is used in a specific sentence, stanza, or passage",
-     "The roles ensure equitable participation, keep the discussion grounded in textual evidence, connect the poem to broader contexts, and synthesise key takeaways",
+     "Supporting characters in a poem are figures who are not the central focus but whose actions, attitudes, or presence illuminate the protagonist's situation",
+     "The student can independently identify specific images and metaphors in \"A Roadside Stand\", explain how each appeals to a particular sense or creates a comparison",
      "The stand owners plead for \"some city money to feel in hand / To try if it will not make our being expand\""
     ],
-    "hint": "Straight from the 'primary theme of \"A Roadside' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they want charity\" or \"they want the government to give them houses\") reveals the student confuses the owners' dignity-driven demand for economic inclusion with the government's later patronizing \"benefits.\"",
     "id": "gen_c12_eng_f_ch12_q6",
     "nodeId": "c12_eng_f_cbse_12_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving on a highway and see a small, shabby stall at the roadside selling wild berries or vegetables.",
-     "You speed past, barely noticing it.",
-     "Now, stop the car in your mind.",
-     "Who runs that stall?"
+     "Ask what 'A Roadside Stand' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -9450,10 +9452,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_12_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving past a roadside stall selling wild berries and squash — you're in a hurry, the paint on their sign is crooked, and you barely",
-     "Now ask yourself: what does that stall represent beyond just \"poverty\"?",
-     "The poem forces us to see not just economic lack, but the erosion of dignity through \"beneficent beasts of prey\" who \"soothe them out of their wits.",
-     "Notice how the \"childish longing\" isn't just for money but for recognition."
+     "Look beneath the main theme of 'A Roadside Stand' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -9465,16 +9464,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The interaction creates a pincer movement: false promises *raise* expectations (\"moving-pictures' promise\" = cinematic modernity)",
      "Imagery is language that appeals to the five senses to create a sensory experience; metaphor is a direct comparison between two unlike things without using \"like\" or \"as\""
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'A Roadside Stand'' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the definitions or says metaphor uses \"like/as\" reveals confusion between metaphor and simile, or a failure to grasp that imagery is about sensory evocation, not comparison.",
     "id": "gen_c12_eng_f_ch12_q8",
     "nodeId": "c12_eng_f_cbse_12_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing at a highway dhaba on the outskirts of your city: you see the dusty shelves with packaged snacks, hear the roar of SUVs",
-     "Now ask: which senses does the poet activate to make you *feel* the roadside stand's desperation?",
-     "Begin by reading the poem aloud twice — first for the overall feeling, second with a pencil marking every word that triggers a sense (sight, sound,",
-     "Circle every direct comparison that lacks \"like\" or \"as\"."
+     "Find the lines in 'A Roadside Stand' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -9486,16 +9482,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Frost exposes \"greedy good-doers, beneficent beasts of prey\" who impose top-down \"benefits\" that strip agency (\"won't have to think for themselves\") and destroy traditional",
      "Verbal irony occurs when a speaker says the opposite of what they mean (e.g., \"What a beautiful day\" during a storm)"
     ],
-    "hint": "Straight from the 'Irony in poetry' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses the two or gives only examples without definitions reveals the student cannot distinguish the mechanism of irony — they recognize it only by effect, not by structure.",
     "id": "gen_c12_eng_f_ch12_q9",
     "nodeId": "c12_eng_f_cbse_12_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving on a highway and see a small roadside stall selling wild berries — you speed past, barely noticing.",
-     "Now, read the poem aloud and notice how Frost makes that stall \"pathetically pled\" for city money.",
-     "First, mark every moment where what is said clashes with what is meant (irony) and where an object stands for a larger idea (symbolism).",
-     "Start with the shed's \"artless paint\" — the city folk call it a eyesore, but the poet calls it a plea."
+     "Look in 'A Roadside Stand' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -9503,20 +9496,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Define \"vocabulary in context\" as a literary analysis skill. How does it differ from looking up a word in a dictionary?",
     "answer": "Vocabulary in context is the practice of determining a word's meaning, tone, and function based on how it is used in a specific sentence, stanza, or passage",
     "options": [
-     "The three groups are: (1) the city folk/polished traffic — \"The polished traffic passed with a mind ahead, / Or if ever aside a moment",
-     "The stand owners plead for \"some city money to feel in hand / To try if it will not make our being expand\"",
+     "The student can independently write a 100-150 word answer to a thematic or analytical question on \"A Roadside Stand\" that includes a clear topic sentence",
+     "Setting in poetry refers to the time, place, and social environment where the poem's action occurs, including physical details and historical context",
      "Vocabulary in context is the practice of determining a word's meaning, tone, and function based on how it is used in a specific sentence, stanza, or passage"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer that equates the two reveals the student thinks word meaning is static and ignores authorial craft.",
     "id": "gen_c12_eng_f_ch12_q10",
     "nodeId": "c12_eng_f_cbse_12_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem and stumble on the phrase \"greedy good-doers, beneficent beasts of prey.",
-     "That confusion is exactly where vocabulary-in-context analysis begins.",
-     "First, locate the word in its stanza and note the speaker's tone.",
-     "Second, identify context clues: surrounding words, imagery, and the situation described."
+     "Note the difficult or loaded words in 'A Roadside Stand' — their meaning carries the text's precision."
     ]
    },
    {
@@ -9524,20 +9514,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the part of speech and grammatical function of \"pled\" in the line \"A roadside stand that too pathetically pled.\"",
     "answer": "\"Pled\" is the past tense verb (past participle also possible) functioning as the main verb of the relative clause \"that too pathetically pled",
     "options": [
-     "Vocabulary in context is the practice of determining a word's meaning, tone, and function based on how it is used in a specific sentence, stanza, or passage",
-     "Robert Frost (1874–1963), a four-time Pulitzer Prize winner, known for poems like \"Stopping by Woods on a Snowy Evening,\" \"Birches,\" and \"Mending Wall\" that explore rural New",
+     "The student can independently identify 5-7 key words from the poem, explain their contextual meaning using textual evidence",
+     "The stand owners plead for \"some city money to feel in hand / To try if it will not make our being expand\"",
      "\"Pled\" is the past tense verb (past participle also possible) functioning as the main verb of the relative clause \"that too pathetically pled"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., calling it an adjective) reveals the student cannot distinguish verb forms in inverted syntax where the adverb \"pathetically\" separates the subject and verb.",
     "id": "gen_c12_eng_f_ch12_q11",
     "nodeId": "c12_eng_f_cbse_12_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a social media post where someone writes, \"Never have I seen such beauty\" instead of \"I have never seen such beauty.",
-     "Begin by reading the poem aloud, noticing where the word order feels unusual.",
-     "Mark lines where the subject comes after the verb, where phrases are shortened, or where participles replace full clauses.",
-     "Ask: \"What does this arrangement emphasize?\" Connect each finding to the poem's central contrast between city money and country need."
+     "Read 'A Roadside Stand' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -9549,16 +9536,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The interaction creates a pincer movement: false promises *raise* expectations (\"moving-pictures' promise\" = cinematic modernity)",
      "A literal question asks for information explicitly stated in the poem (e.g., \"What items are sold at the stand?"
     ],
-    "hint": "Straight from the 'Literal comprehension involves' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'A' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses the two reveals the student cannot distinguish surface details from deeper implications, leading to vague or unsupported responses in board exams.",
     "id": "gen_c12_eng_f_ch12_q12",
     "nodeId": "c12_eng_f_cbse_12_012",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are at a roadside tea stall on a highway — you see the owner waiting hopefully for customers, but cars zoom past.",
-     "That scene mirrors the poem's central tension.",
-     "To answer comprehension questions, first read the poem aloud to hear its rhythm and tone.",
-     "Next, mark each stanza's focus: Stanza 1 sets the scene, Stanza 2 reveals the stand owners' plea, Stanza 3 criticizes government schemes, Stanza 4"
+     "Answer 'A Roadside Stand' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -9618,10 +9602,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_12_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist visiting a roadside stall on a highway outside your city: you see the faded paint, the hopeful produce, and the cars",
-     "Now ask: *Why does the poet make the stall \"pathetically pled\" rather than just \"stand\"?",
-     "Next, divide the poem into its three logical movements: the stall's appeal (stanzas 1–2), the systemic betrayal (stanzas 3–4), and the speaker's",
-     "In each movement, trace how Frost shifts from external description to internal moral conflict."
+     "Analyse 'A Roadside Stand' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -9629,21 +9611,18 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "The protagonist is the collective group of rural poor who run the roadside stand — the \"pitiful kin\" who wait for city money to alleviate their poverty",
-     "The phrase means that the money earned from rural produce (via the roadside stand) sustains the prosperity (\"flower\") of cities, preventing urban economies from collapsing",
-     "PEEL stands for Luxury SUVs, Evidence, Explanation, Link",
+     "The student can actively participate in a structured group discussion on \"A Roadside Stand\" by making at least three substantive contributions that reference specific",
+     "Writing skills based on the chapter refers to the ability to compose structured, evidence-based analytical responses to questions on the poem \"A Roadside Stand,\" using the PEEL",
+     "PEEL stands for Marxist, Evidence, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'A Roadside' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student does not know the standard answer-writing framework endorsed by CBSE marking schemes. This leads to unstructured responses that mix summary with analysis, costing marks for coherence and \"interpretation\" — a specific criterion in the",
     "id": "gen_c12_eng_f_ch12_q14",
     "nodeId": "c12_eng_f_cbse_12_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and see: \"How does Frost portray the plight of the rural poor in 'A Roadside Stand'?",
-     "Start by reading the question and circling keywords: *portray*, *plight*, *rural poor*.",
-     "Next, flip through your mental index of the poem — which stanzas show their suffering?",
-     "Stanza 4 (the open window, the squeal of brakes), Stanza 5 (childish longing, moving-pictures' promise), Stanza 3 (greedy good-doers)."
+     "For written answers on 'A Roadside Stand', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -9714,10 +9693,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_12_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are driving on a highway and see a small shack selling berries — do you stop, or speed past?",
-     "That moment mirrors the central tension in Frost's poem.",
-     "Begin by reading the \"Talk about it\" prompt in your textbook: \"The economic well-being of a country depends on a balanced development of the villages",
-     "Then, in groups of four, assign roles: Facilitator (keeps time), Evidence Keeper (notes textual references), Connector (links to real world), and"
+     "Talk through 'A Roadside Stand' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -9786,7 +9762,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Verbal irony occurs when a speaker says the opposite of what they mean (e.g., \"What a beautiful day\" during a storm)",
      "Frost exposes \"greedy good-doers, beneficent beasts of prey\" who impose top-down \"benefits\" that strip agency (\"won't have to think for themselves\") and destroy traditional"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Roadside Stand' — the context' slide -- match the key terms.",
     "misconception": "A student who only lists scheme names without critiquing the loss of autonomy misses the analytical layer.",
     "id": "gen_c12_eng_f_ch12_q17",
     "nodeId": "c12_eng_f_cbse_12_001",
@@ -9801,7 +9777,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The poem uses the stand as a microcosm: the \"polished traffic\" (urban wealth) ignores the \"trusting sorrow\" (rural need)",
      "Example: \"The squeal of brakes — a prayer answered / Then just a U-turn, tyres eating my marigolds / My childish longing wears a faded 'Digital India' sticker / Tomorrow I'll"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''A Roadside Stand' — the context' slide -- match the key terms.",
     "misconception": "A poor answer copies Frost's lines without adaptation; a strong answer transplants the image into a distinctly Indian vendor's voice while retaining the poem's irony.",
     "id": "gen_c12_eng_f_ch12_q18",
     "nodeId": "c12_eng_f_cbse_12_001",
@@ -9810,24 +9786,24 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'a roadside stand' — the context and background to t?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'A Roadside Stand' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_f_ch13",
-  "title": "Before You Read",
+  "title": "'Aunt Jennifer's Tigers'",
   "subtitle": "English · Chapter 13",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read",
+  "topic": "'Aunt Jennifer's Tigers'",
   "chapters": [
-   "English Ch13: Before You Read"
+   "English Ch13: 'Aunt Jennifer's Tigers'"
   ],
   "nodeIds": [
    "c12_eng_f_cbse_13_001",
@@ -9853,103 +9829,103 @@ export const C12_ENG_F_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Before You Read outside the classroom?",
+   "question": "Quick guess -- where do you meet 'Aunt Jennifer's Tigers' outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "Before You Read: Context and Background is a pre-reading pedagogical activity that provides historical, biographical, cultural, and thematic"
+   "hook": "'Aunt Jennifer's Tigers' (Flamingo, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read",
-    "text": "Before You Read: Context and Background is a pre-reading pedagogical activity that provides historical, biographical, cultural, and thematic scaffolding for a literary text, enabling students to activate prior knowledge, set reading purposes, and anticipate",
+    "title": "'Aunt Jennifer's Tigers'",
+    "text": "'Aunt Jennifer's Tigers' (Flamingo, ch. 13) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot And Narrative Structure In a Poem",
-    "text": "Plot and narrative structure in a poem refers to the sequence of events, images, or arguments that unfold across stanzas, creating a deliberate progression from an initial situation through development to a resolution or final insight.",
+    "title": "Plot/narrative Arc Of 'Aunt Jennifer's",
+    "text": "The plot/narrative arc of 'Aunt Jennifer's Tigers' — what happens, in what order, and why the sequence matters.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a poem unfolds, while atmosphere is the emotional mood or feeling created by the poet's choice of imagery, diction, and sensory details.",
+    "title": "Setting Of 'Aunt Jennifer's Tigers'",
+    "text": "The setting of 'Aunt Jennifer's Tigers' — the place, time and atmosphere the text creates.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "In Poetry, The Protagonist",
-    "text": "In poetry, the protagonist is the central figure or collective voice whose perspective, struggle, or experience drives the poem's emotional core; in \"A Roadside Stand,\" the protagonist is the marginalized rural collective — the stand owners — whose silent",
+    "title": "Character Analysis In 'Aunt Jennifer's",
+    "text": "Character analysis in 'Aunt Jennifer's Tigers' — the central figure(s), their traits, and how they develop.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Supporting Characters",
-    "text": "Supporting characters are secondary figures in a literary work who, while not the central focus, shape the protagonist's experiences, reveal thematic tensions, and embody social forces through their actions, presence, or symbolic weight.",
+    "title": "Supporting Characters In 'Aunt Jennifer's",
+    "text": "Supporting characters in 'Aunt Jennifer's Tigers' — the secondary figures who move the story forward.",
     "emoji": "📕",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of a Poem",
-    "text": "The primary theme of a poem is its central, unifying idea — the core insight about human experience that the poet communicates through imagery, tone, and structure.",
+    "title": "Primary Theme Of 'Aunt Jennifer's",
+    "text": "The primary theme of 'Aunt Jennifer's Tigers' — the central idea the whole text returns to.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas or messages in a poem that support, contrast, or add nuance to the primary theme; they emerge through recurring images, contrasts, and shifts in tone, and require the reader to interpret how specific textual details",
+    "title": "Secondary Themes In 'Aunt Jennifer's Tigers'",
+    "text": "Secondary themes in 'Aunt Jennifer's Tigers' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotions.",
+    "title": "Imagery In 'Aunt Jennifer's Tigers'",
+    "text": "Imagery in 'Aunt Jennifer's Tigers' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality, where the intended meaning is opposite to the literal meaning; symbolism is the use of an object, person, or situation to represent a deeper, abstract idea beyond its literal sense.",
+    "title": "Irony And Paradox In 'Aunt Jennifer's",
+    "text": "Irony and paradox in 'Aunt Jennifer's Tigers' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📕",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and thematic function of specific words as they are used within a literary text, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'Aunt Jennifer's Tigers'",
+    "text": "Key vocabulary of 'Aunt Jennifer's Tigers' — the words and phrases you must know to read the text well.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of grammatical choices (tense, voice, sentence structure, word order, punctuation) made by the poet in \"A Roadside Stand\" and how these choices shape meaning, tone, and thematic emphasis.",
+    "title": "Language And Style In 'Aunt Jennifer's",
+    "text": "Language and style in 'Aunt Jennifer's Tigers' — how the writer chose words, sentences and tone.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require retrieving information explicitly stated in the text (who, what, where, when). Inferential comprehension questions require drawing logical conclusions by combining textual evidence with reasoning to understand implied",
+    "title": "Literal Comprehension Of 'Aunt Jennifer's",
+    "text": "Literal comprehension of 'Aunt Jennifer's Tigers' — questions answered straight from the text.",
     "emoji": "📕",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its literal meaning to uncover underlying themes, evaluate the author's choices, interpret symbols, and assess the text's broader implications, using textual evidence to support reasoned",
+    "title": "Critical Thinking On 'Aunt Jennifer's",
+    "text": "Critical thinking on 'Aunt Jennifer's Tigers' — analysing the text to reach evidence-based judgements.",
     "emoji": "📕",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing skills based on the chapter refers to the ability to compose structured, evidence-based analytical responses to questions on the poem \"Aunt Jennifer's Tigers,\" using the PEEL method (Point, Evidence, Explanation, Link) and integrating textual",
+    "title": "Writing Skills From 'Aunt Jennifer's Tigers'",
+    "text": "Writing skills from 'Aunt Jennifer's Tigers' — using the text as a model or springboard for your own writing.",
     "emoji": "📕",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skills where students articulate analytical insights about a literary text, actively listen to peers' interpretations, and collaboratively build deeper understanding through",
+    "title": "Discussion Points On 'Aunt Jennifer's",
+    "text": "Discussion points on 'Aunt Jennifer's Tigers' — speaking and listening around the text.",
     "emoji": "📕",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -9960,20 +9936,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Who is the poet of \"A Roadside Stand\" and what is his primary literary association?",
     "answer": "Robert Frost (1874–1963), an American poet famously associated with rural New England life, using simple language to explore complex human choices and nature",
     "options": [
+     "The primary purpose is to ground interpretive claims in the poem's actual language so that discussion moves beyond subjective opinion to analyzable, verifiable literary analysis",
      "The primary theme is the devastating impact of economic inequality and urban indifference on rural poor",
-     "A secondary theme is a recurring idea that supports or complicates the primary theme; it is not the central message but a layer that adds depth",
      "Robert Frost (1874–1963), an American poet famously associated with rural New England life, using simple language to explore complex human choices and nature"
     ],
-    "hint": "Straight from the 'Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Aunt Jennifer's Tigers'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming an Indian poet or a Romantic poet like Wordsworth) reveals the student hasn't linked the poet to his signature theme — rural realism — which is essential for anticipating the poem's focus on economic marginalization.",
     "id": "gen_c12_eng_f_ch13_q1",
     "nodeId": "c12_eng_f_cbse_13_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're driving on a highway in rural India and see a small stall selling mangoes or handicrafts — you speed past, barely noticing.",
-     "Now, what if that stall represents a family's only hope for cash income?",
-     "That's the emotional entry point for Frost's poem.",
-     "Begin by asking: \"What does a roadside stand symbolize in your experience?\" Then introduce Frost as a poet of rural New England who witnessed the"
+     "Start with the author of 'Aunt Jennifer's Tigers', then the period, then the literary context — background turns a text from a puzzle into a story"
     ]
    },
    {
@@ -9981,20 +9954,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary narrative movement in the first stanza of \"A Roadside Stand\"?",
     "answer": "The first stanza establishes the physical setting — the little old house with a new shed, the roadside stand offering wild berries and golden squash",
     "options": [
-     "The \"polished traffic\" acts as the antagonist force: their speed and indifference (\"do not stop,\" \"complain,\" \"turn away\") crush the sellers' hope introduced in stanza 2",
-     "The poem is set at a roadside stand — a small, newly built shed attached to an old house at the edge of a road, with a mountain in the background",
+     "The protagonist is the rural collective who run the roadside stand; the phrase \"the little old house was out with a little new shed / In front at the edge of the road where the",
+     "The student can independently identify specific images and metaphors in \"A Roadside Stand,\" explain how each sensory detail contributes to the poem's mood and themes",
      "The first stanza establishes the physical setting — the little old house with a new shed, the roadside stand offering wild berries and golden squash"
     ],
-    "hint": "Straight from the 'Plot and narrative structure in a' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Aunt' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it describes the poet's childhood\") reveals the student is importing outside knowledge instead of reading the stanza's actual focus on the stand and its purpose.",
     "id": "gen_c12_eng_f_ch13_q2",
     "nodeId": "c12_eng_f_cbse_13_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving past a small roadside stall on a highway — you see it for a few seconds, but the poem makes you stop and live the",
-     "Begin by reading the poem aloud once, noting where the \"camera\" moves: from the stand itself (stanza 1), to the sellers' inner thoughts (stanza 2),",
-     "Ask: what changes between the first and last stanza?",
-     "The stand hasn't moved, but the speaker's understanding has deepened from observation to complicity."
+     "Trace 'Aunt Jennifer's Tigers' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -10002,20 +9972,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the physical setting of the poem \"A Roadside Stand\"? Describe it in one sentence using specific details from the text.",
     "answer": "The poem is set at a roadside stand — a small, newly built shed attached to an old house at the edge of a road, with a mountain in the background",
     "options": [
-     "The protagonist is the rural collective who run the roadside stand; the phrase \"the little old house was out with a little new shed / In front at the edge of the road where the",
-     "A literal comprehension question asks for information directly stated in the text. Example: \"What is the colour of the tigers?\" Answer: Bright topaz (yellow-gold)",
+     "Secondary themes are the underlying ideas or messages in a poem that support, contrast, or add nuance to the primary theme",
+     "Student can trace the poem's narrative arc across all stanzas, identifying how each stanza advances the argument, shifts tone or perspective",
      "The poem is set at a roadside stand — a small, newly built shed attached to an old house at the edge of a road, with a mountain in the background"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Aunt Jennifer's' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a village market\" or \"a city street\") reveals the student cannot distinguish the specific, isolated roadside location from a general rural or urban setting, missing the poem's emphasis on marginalization and the literal/figurative \"edge.\"",
     "id": "gen_c12_eng_f_ch13_q3",
     "nodeId": "c12_eng_f_cbse_13_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are driving on a highway and see a small, shabby stall at the edge of a field — a hand-painted sign, a few baskets of wild berries, an",
-     "You feel a pang of guilt as you speed past.",
-     "That moment is the heart of this poem.",
-     "Begin by reading the poem aloud, noticing the sounds of the words: the long vowels in \"roadside stand\" and \"polished traffic,\" the harsh consonants"
+     "Identify where and when 'Aunt Jennifer's Tigers' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -10023,20 +9990,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "Identify the collective protagonist in \"A Roadside Stand\" and quote one phrase from stanza 1 that establishes their economic activity.",
     "answer": "The protagonist is the rural collective who run the roadside stand; the phrase \"the little old house was out with a little new shed / In front at the edge of the road where the",
     "options": [
-     "A secondary theme is a recurring idea that supports or complicates the primary theme; it is not the central message but a layer that adds depth",
-     "The first stanza establishes the physical setting — the little old house with a new shed, the roadside stand offering wild berries and golden squash",
+     "Students treat the roadside stand owners as passive victims because they don't speak or rebel",
+     "In poetry, the protagonist is the central figure or collective voice whose perspective, struggle, or experience drives the poem's emotional core",
      "The protagonist is the rural collective who run the roadside stand; the phrase \"the little old house was out with a little new shed / In front at the edge of the road where the"
     ],
-    "hint": "Straight from the 'In poetry, the protagonist' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Aunt' slide -- match the key terms.",
     "misconception": "A wrong answer naming a single individual (e.g., \"the farmer\") reveals the student misses Frost's deliberate collectivisation — the stand represents a class, not a person.",
     "id": "gen_c12_eng_f_ch13_q4",
     "nodeId": "c12_eng_f_cbse_13_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are driving past a makeshift stall on a highway — a few jars of jam, some wild berries, a hand-painted sign — and no one stops.",
-     "That stall is the poem's stage, and the people behind it are our protagonists.",
-     "Begin by reading the poem aloud twice: first for the rhythm of their waiting, second to mark every word that describes *them* (not the city cars).",
-     "Notice how Frost never names them — they are \"the polished traffic,\" \"the country money,\" \"the requisite lift of spirit\" — and ask: what does this"
+     "Pick the central figure in 'Aunt Jennifer's Tigers' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -10096,10 +10060,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_13_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a play where the main character never speaks directly about her husband, yet his wedding ring on her finger tells the whole",
-     "That is how supporting characters work in this poem — Uncle never appears, but his \"massive weight\" presses down on every line.",
-     "Begin by asking: who else inhabits this poem's world?",
-     "Notice the tigers prancing on the screen — they are not just decoration; they are Aunt Jennifer's imagined allies."
+     "Spot the secondary figures in 'Aunt Jennifer's Tigers' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -10107,20 +10068,17 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "question": "What is the primary theme of Robert Frost's \"A Roadside Stand\" in one precise sentence? (Do not list secondary themes.)",
     "answer": "The primary theme is the devastating impact of economic inequality and urban indifference on rural poor",
     "options": [
-     "A secondary theme is a recurring idea that supports or complicates the primary theme; it is not the central message but a layer that adds depth",
-     "The poem is set at a roadside stand — a small, newly built shed attached to an old house at the edge of a road, with a mountain in the background",
+     "Secondary themes are the underlying ideas or messages in a poem that support, contrast, or add nuance to the primary theme",
+     "The student can identify at least three distinct secondary themes in \"A Roadside Stand,\" cite specific lines or images as evidence for each",
      "The primary theme is the devastating impact of economic inequality and urban indifference on rural poor"
     ],
-    "hint": "Straight from the 'primary theme of a poem' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Aunt Jennifer's' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: If a student writes \"poverty\" or \"rural life,\" they confuse *subject* with *theme* — theme is an *assertion about* the subject.",
     "id": "gen_c12_eng_f_ch13_q6",
     "nodeId": "c12_eng_f_cbse_13_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're driving on a highway and see a shabby roadside stall with a hand-painted sign: \"Fresh Berries — 50 Rs.",
-     "The stall owner waves hopefully, but your car is already gone.",
-     "That moment — the silent plea ignored by the rushing world — is the heartbeat of \"A Roadside Stand.",
-     "\"artless paint,\" \"city money\" vs."
+     "Ask what 'Aunt Jennifer's Tigers' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -10180,10 +10138,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_13_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are driving past a small roadside stall on a highway — you see fresh produce, a hand-painted sign, and an old farmer waiting hopefully.",
-     "Now ask: what is the poem really saying about that farmer's hope beyond just \"nobody stops\"?",
-     "Start by re-reading the poem with a pencil, underlining every phrase that shows a contrast (e.g., \"polished traffic\" vs.",
-     "\"artless paint\"), every reference to authority (\"the party in power,\" \"greedy good-doers\"), and every image of waiting or futility."
+     "Look beneath the main theme of 'Aunt Jennifer's Tigers' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -10195,16 +10150,13 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "The first stanza establishes a quiet, observational atmosphere — stillness, simplicity, a touch of pathos in the \"artless paint\" and \"wild berries",
      "A simile compares two things using \"like\" or \"as\" (e.g., \"the traffic moved like a river\"); a metaphor states one thing *is* another (e"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'Aunt Jennifer's' slide -- match the key terms.",
     "misconception": "A wrong answer that confuses the two or cannot find an example reveals the student cannot distinguish the *mechanism* of comparison — they treat all figurative language as \"poetic language\" without analyzing how the comparison works.",
     "id": "gen_c12_eng_f_ch13_q8",
     "nodeId": "c12_eng_f_cbse_13_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at that roadside stand — dust swirling, the smell of wild berries and squash, the roar of polished cars speeding past without",
-     "Frost doesn't just *tell* you the farmers are invisible; he makes you *feel* their invisibility through images: \"the sadness that lurks near the open",
-     "Start by reading the poem aloud twice — first for the story, second with a pencil marking every word that hits a sense.",
-     "Ask: \"Which sense does this word wake up?\" Then hunt for comparisons where Thing A *becomes* Thing B — \"greedy good-doers\" aren't *like* predators;"
+     "Find the lines in 'Aunt Jennifer's Tigers' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -10264,10 +10216,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_13_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are driving past a small roadside stall selling wild berries and squash; the seller waves hopefully, but every car speeds by without",
-     "Begin by reading the poem aloud twice: first for the literal story, then to mark every line where what happens clashes with what the speaker or the",
-     "Next, circle concrete objects (the stand, the money, the cars, the signs) and ask what larger idea each might stand for.",
-     "Finally, connect each device to the poem's message about economic injustice."
+     "Look in 'Aunt Jennifer's Tigers' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -10316,32 +10265,56 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_13_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the poem aloud and you stumble on \"chivalric\" — an old-fashioned word for knights.",
-     "Why would a 20th-century feminist poet use a medieval term to describe tigers?",
-     "Start by reading the poem twice: first for flow, second with a pencil circling every word that feels \"heavy,\" \"odd,\" or \"beautiful.",
-     "(2) What feeling does it evoke (connotation)?"
+     "Note the difficult or loaded words in 'Aunt Jennifer's Tigers' — their meaning carries the text's precision."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Identify the tense of the verb phrase \"are selling\" in the line \"The little old house was out with a little new shed / In front at the edge of the road where the traffic sped, / A roadside stand that too pathetically pled, / It would not be fair to say for a dole of bread, / But for some of the money, the cash, whose",
-    "answer": "Correct: Present continuous (progressive) tense — \"are selling\"",
-    "options": [
-     "The primary theme is the devastating impact of economic inequality and urban indifference on rural poor",
-     "The protagonist is the rural collective who run the roadside stand; the phrase \"the little old house was out with a little new shed / In front at the edge of the road where the",
-     "Correct: Ringed continuous (progressive) tense — \"are selling\"",
-     "Correct: Present continuous (progressive) tense — \"are selling\""
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "quote the exact lines illustrating each",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "identify at least three distinct grammatical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain in 2-3 sentences how each pattern",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"present simple\" or \"past continuous\") reveals the student cannot distinguish aspect, which is crucial because the continuous aspect emphasizes the *ongoing, repetitive, futile* nature of the stand's operation — a key thematic point.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify at least three distinct grammatical patterns in the poem (e.",
     "id": "gen_c12_eng_f_ch13_q11",
     "nodeId": "c12_eng_f_cbse_13_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading \"A Roadside Stand\" aloud and you stumble over the long, winding first sentence that stretches across four lines — why doesn't",
-     "That hesitation is your entry point.",
-     "Step 1: Read the poem *slowly*, marking every end-stopped line and every enjambment with a pencil.",
-     "Step 2: Highlight every verb and note its tense (present, past, modal)."
+     "Read 'Aunt Jennifer's Tigers' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -10390,10 +10363,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_13_012",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are holding a CBSE sample paper and see two questions on this poem: \"What are the tigers doing?",
-     "For the first, you scan the text for keywords — \"prance\", \"screen\", \"topaz\" — and lift the answer directly.",
-     "For the second, you notice the tigers are on a \"screen\" (tapestry), not real, so they *cannot* fear real men; the inference is about Aunt Jennifer's",
-     "The key insight: literal answers live *in* the lines; inferential answers live *between* the lines but must be anchored *to* the lines."
+     "Answer 'Aunt Jennifer's Tigers' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -10442,10 +10412,8 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "nodeId": "c12_eng_f_cbse_13_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"Why did Adrienne Rich choose tigers—fierce, free creatures—to represent a woman's inner world?",
-     "Then, trace the symbols: the wedding band as a physical weight, the tigers as enduring art.",
-     "Ask: What does the poem suggest about art outliving oppression?",
-     "Connect the personal to the political—Rich's feminist lens."
+     "Analyse 'Aunt Jennifer's Tigers' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -10454,39 +10422,66 @@ export const C12_ENG_F_GEN: SimDef[] = [
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
      "The primary purpose is to ground interpretive claims in the poem's actual language so that discussion moves beyond subjective opinion to analyzable, verifiable literary analysis",
-     "The poem is set at a roadside stand — a small, newly built shed attached to an old house at the edge of a road, with a mountain in the background",
-     "PEEL stands for Point, Evidence, Beside, Link",
+     "The student can independently write a 100-150 word analytical answer on the poem's theme or literary devices, using at least two textual references, following PEEL structure",
+     "PEEL stands for Point, Evidence, Before You Read, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'Aunt' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student doesn't know the standard answer structure expected in CBSE board exams.",
     "id": "gen_c12_eng_f_ch13_q14",
     "nodeId": "c12_eng_f_cbse_13_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"How does the poet use contrast to highlight Aunt Jennifer's plight?",
-     "Start by reading the question and underlining keywords (contrast, highlight, plight).",
-     "Then recall the two worlds in the poem: the tigers' green, fearless world vs.",
-     "Aunt Jennifer's trembling fingers and heavy wedding band."
+     "For written answers on 'Aunt Jennifer's Tigers', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary purpose of using textual evidence during a literary discussion about a poem?",
-    "answer": "The primary purpose is to ground interpretive claims in the poem's actual language so that discussion moves beyond subjective opinion to analyzable, verifiable literary analysis",
-    "options": [
-     "The primary theme is the devastating impact of economic inequality and urban indifference on rural poor",
-     "A secondary theme is a recurring idea that supports or complicates the primary theme; it is not the central message but a layer that adds depth",
-     "The primary purpose is to ground interpretive claims in the poem's actual language so that discussion moves beyond subjective opinion to analyzable, verifiable literary analysis"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "responding to a peer's point by either",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "presenting a clear interpretive claim",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "synthesizing the discussion",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"to prove you read the poem\" reveals the student views evidence as performative compliance rather than analytical necessity; they likely treat quotes as decoration instead of as the engine of argument.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can independently initiate and sustain a 5-minute literary discussion on \"Aunt Jennifer's Tigers\" by: (1)",
     "id": "gen_c12_eng_f_ch13_q15",
     "nodeId": "c12_eng_f_cbse_13_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle where three classmates just said: \"The tigers represent freedom,\" \"No, they represent Aunt Jennifer's repressed",
-     "Start by teaching students to *listen for the evidence* first: \"Which line makes you say that?"
+     "Talk through 'Aunt Jennifer's Tigers' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -10612,7 +10607,7 @@ export const C12_ENG_F_GEN: SimDef[] = [
      "Correct: The opening periodic sentence mirrors the speaker's entangled, ambivalent observation — everything is qualified, delayed, held in suspension",
      "\"Polished\" connotes sophistication, smoothness, and artificial shine — contrasting with the rough, weathered stand"
     ],
-    "hint": "Straight from the 'Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Aunt Jennifer's Tigers'' slide -- match the key terms.",
     "misconception": "A wrong analysis (e.g., \"polished means clean cars\") misses the class critique: Frost uses \"polished\" to imply the urban world's superficial refinement that ignores the raw reality of the stand.",
     "id": "gen_c12_eng_f_ch13_q18",
     "nodeId": "c12_eng_f_cbse_13_001",
@@ -10621,11 +10616,11 @@ export const C12_ENG_F_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read?",
+    "What surprised you about 'aunt jennifer's tigers'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read mastered! 🎯",
+  "successLine": "'Aunt Jennifer's Tigers' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

@@ -1779,7 +1779,7 @@ export function C12_HistoryGhana19571966BackgroundSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-                <label htmlFor="sandbox-airlift" className="text-xs font-bold text-blue-400 block">Berlin Airlift Delivery</label>
+                <label htmlFor="sandbox-airlift" className="text-xs font-bold text-gold-400 block">Berlin Airlift Delivery</label>
                 <input
                   id="sandbox-airlift"
                   aria-label="Sandbox Berlin Airlift Daily Supply Tonnage"
@@ -1789,7 +1789,7 @@ export function C12_HistoryGhana19571966BackgroundSim({
                   step={250}
                   value={airliftDailyTonnage}
                   onChange={e => handleAirliftChange(Number(e.target.value))}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
                 <p className="text-[11px] text-slate-400">Supply: {airliftDailyTonnage} tons/day</p>
               </div>
@@ -2192,17 +2192,17 @@ export function C12_HistoryGhana19571966BackgroundSim({
           )}
 
           {/* Spaced Repetition SRS Card */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-500/40 rounded-2xl text-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-500/40 rounded-2xl text-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-xl" aria-hidden="true">📅</span>
-                <p className="font-bold text-indigo-300 text-sm uppercase tracking-wider">Spaced Repetition Review Schedule (SM-2)</p>
+                <p className="font-bold text-gold-300 text-sm uppercase tracking-wider">Spaced Repetition Review Schedule (SM-2)</p>
               </div>
               <p className="text-xs text-slate-300 mt-1">
                 Based on your performance ({errors} error{errors === 1 ? '' : 's'}), your optimal memory retention review is scheduled:
               </p>
-              <div className="mt-2 inline-flex items-center gap-2 px-3 py-1.5 bg-indigo-900/60 border border-indigo-400/50 rounded-xl">
-                <span className="text-xs text-indigo-200">Next Review:</span>
+              <div className="mt-2 inline-flex items-center gap-2 px-3 py-1.5 bg-gold-900/60 border border-gold-400/50 rounded-xl">
+                <span className="text-xs text-gold-200">Next Review:</span>
                 <span className="text-sm font-black text-amber-300">
                   {errors === 0 ? 'Review in 7 Days (Optimal Retention)' : errors <= 3 ? 'Review in 3 Days (Reinforcement Needed)' : 'Review in 1 Day (Immediate Review Recommended)'}
                 </span>

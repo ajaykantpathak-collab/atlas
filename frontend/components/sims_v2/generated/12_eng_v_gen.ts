@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C12_ENG_V_GEN: SimDef[] = [
  {
   "id": "gen_c12_eng_v_ch01",
-  "title": "\"Before You Read\" Section",
+  "title": "'The Third Level' — The Context And Background",
   "subtitle": "English · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read\" Section",
+  "topic": "'The Third Level' — The Context And Background To Th",
   "chapters": [
-   "English Ch1: \"Before You Read\" Section"
+   "English Ch1: 'The Third Level' — The Context And Background To Th"
   ],
   "nodeIds": [
    "c12_eng_v_cbse_01_001",
@@ -42,103 +42,103 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read\" Section more about facts, or about reasoning?",
+   "question": "Is 'The Third Level' — The Context more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "The \"Before You Read\" section is a pre-reading activity that activates prior knowledge, sets historical and psychological context, and introduces the"
+   "hook": "'The Third Level' (Vistas, ch."
   },
   "teaching": [
    {
-    "title": "\"Before You Read\" Section",
-    "text": "The \"Before You Read\" section is a pre-reading activity that activates prior knowledge, sets historical and psychological context, and introduces the central thematic tension of the story — the human desire to escape modern anxiety by retreating into an",
+    "title": "Before You Read: Context and Background",
+    "text": "'The Third Level' (Vistas, ch. 1) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot is the sequence of events that make up a story, while narrative structure refers to how those events are organized and presented to the reader (e.",
+    "title": "Plot/narrative Arc Of 'The Third",
+    "text": "The plot/narrative arc of 'The Third Level' — what happens, in what order, and why the sequence matters.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting is the time, place, and social environment in which a story occurs, while atmosphere is the emotional mood or feeling created by the setting's sensory details, descriptions, and the narrator's perspective.",
+    "title": "Setting Of 'The Third Level'",
+    "text": "The setting of 'The Third Level' — the place, time and atmosphere the text creates.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the main character's personality traits, motivations, conflicts, development, and role in advancing the story's themes, using textual evidence such as actions, dialogue, thoughts, and narrator's",
+    "title": "Character Analysis In 'The Third Level'",
+    "text": "Character analysis in 'The Third Level' — the central figure(s), their traits, and how they develop.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Supporting Character Analysis Examines How",
-    "text": "Supporting character analysis examines how secondary characters (Louisa, Sam Weiner, the 1894 clerk, the newsboy, Charley's grandfather) function in \"The Third Level\" to reveal the protagonist's psyche, advance the plot, embody thematic tensions (escape vs.",
+    "title": "Supporting Characters In 'The Third Level'",
+    "text": "Supporting characters in 'The Third Level' — the secondary figures who move the story forward.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Primary Theme Of \"The Third Level\"",
-    "text": "The primary theme of \"The Third Level\" is the human desire to escape the anxieties of the modern world (insecurity, fear, war, worry) by retreating into an idealized past, blurring the boundary between psychological wish-fulfillment and tangible reality.",
+    "title": "Primary Theme Of 'The Third",
+    "text": "The primary theme of 'The Third Level' — the central idea the whole text returns to.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas that support and enrich the primary theme of a literary work. In \"The Third Level,\" while the primary theme is escapism from modern anxiety, secondary themes include the fluidity of time and space, the psychological",
+    "title": "Secondary Themes In 'The Third Level'",
+    "text": "Secondary themes in 'The Third Level' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures; metaphor is a direct comparison between two unlike things without using \"like\" or \"as,\" transferring qualities from",
+    "title": "Imagery In 'The Third Level'",
+    "text": "Imagery in 'The Third Level' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events differs significantly from their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'The Third Level' —",
+    "text": "Irony and paradox in 'The Third Level' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context: Key Words refers to the skill of determining precise meanings of specific terms by analyzing their usage within the textual environment of \"The Third Level,\" including historical connotations, thematic resonance, and character-revealing",
+    "title": "Key Vocabulary Of 'The Third Level'",
+    "text": "Key vocabulary of 'The Third Level' — the words and phrases you must know to read the text well.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the systematic analysis of the author's grammatical choices — such as tense shifts, sentence structures, narration modes (direct/indirect speech), and syntactic patterns — and how these choices construct meaning, establish",
+    "title": "Language And Style In 'The Third",
+    "text": "Language and style in 'The Third Level' — how the writer chose words, sentences and tone.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Involves Retrieving",
-    "text": "Literal comprehension involves retrieving explicitly stated facts, details, and events from the text (e.g., \"What did Charley wear?\"), while inferential comprehension requires drawing logical conclusions by combining textual clues with reasoning (e.",
+    "title": "Literal Comprehension Of 'The Third Level'",
+    "text": "Literal comprehension of 'The Third Level' — questions answered straight from the text.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis is the disciplined process of actively examining, interpreting, and evaluating a text's deeper meanings by questioning assumptions, weighing textual evidence, and constructing reasoned arguments about themes, narrative",
+    "title": "Critical Thinking On 'The Third Level'",
+    "text": "Critical thinking on 'The Third Level' — analysing the text to reach evidence-based judgements.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on the chapter \"The Third Level\" refers to the ability to compose structured, evidence-based responses (analytical, creative, and comparative) that demonstrate understanding of the text's themes (escapism, time-space intersection, reality",
+    "title": "Writing Skills From 'The Third Level'",
+    "text": "Writing skills from 'The Third Level' — using the text as a model or springboard for your own writing.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Discussion Points",
-    "text": "Discussion points are open-ended, text-grounded questions or prompts designed to stimulate oral expression, critical thinking, and active listening in a group setting, moving beyond factual recall to interpretive analysis, personal connection, and debate",
+    "title": "Discussion Points On 'The Third Level'",
+    "text": "Discussion points on 'The Third Level' — speaking and listening around the text.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    }
@@ -149,20 +149,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the specific question posed in the \"Before You Read\" box of \"The Third Level\"?",
     "answer": "The question is: \"Have you ever had any curious experience which others find hard to believe?\" A wrong answer (e",
     "options": [
-     "Plot is the series of events (e.g., Charley discovers the third level, tries to buy tickets, later receives Sam’s letter)",
-     "The verb phrase \"I've been\" (I have been) is present perfect tense. It connects a past experience (being on the third level) to the present moment of narration",
+     "Strong discussion points include: (1) \"Is the third level a real time portal or a psychological escape mechanism?",
+     "The two primary settings are the modern Grand Central Station (first and second levels) and the Third Level of Grand Central Station set in 1894",
      "The question is: \"Have you ever had any curious experience which others find hard to believe?\" A wrong answer (e"
     ],
-    "hint": "Straight from the '\"Before You Read\" section' slide -- match the key terms.",
+    "hint": "Straight from the ''The Third Level' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"What is the third level?\" or \"Who is Charley?\") shows the student hasn't distinguished the pre-reading prompt from the story's plot. This reveals a failure to recognize the pedagogical purpose of the \"Before You Read\" section — it's not part of the narrative; it's a metacognitive hook.",
     "id": "gen_c12_eng_v_ch01_q1",
     "nodeId": "c12_eng_v_cbse_01_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you tell your friends you saw a dinosaur in your backyard — they'd laugh, right?",
-     "Now think: have you ever experienced something so strange that no one believed you?",
-     "That's exactly the hook Jack Finney uses.",
-     "Before reading, ask yourself: what makes an experience \"curious\" and \"hard to believe\"?"
+     "Start with the author of 'The Third Level', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -170,20 +167,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define \"plot\" and \"narrative structure\" in your own words, and give one example of each from \"The Third Level.\"",
     "answer": "Plot is the series of events (e.g., Charley discovers the third level, tries to buy tickets, later receives Sam’s letter)",
     "options": [
-     "The verb phrase \"I've been\" (I have been) is present perfect tense. It connects a past experience (being on the third level) to the present moment of narration",
      "The psychiatrist means Charley's discovery of the third level is not an objective reality but a hallucinatory projection of his unconscious desire to escape the anxieties of",
+     "The five supporting characters are: (1) Louisa — Charley's wife who initially worries about his obsession but later joins him in searching for the third level",
      "Plot is the series of events (e.g., Charley discovers the third level, tries to buy tickets, later receives Sam’s letter)"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Third' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the two terms shows the student confuses *what happens* with *how it is told*.",
     "id": "gen_c12_eng_v_ch01_q2",
     "nodeId": "c12_eng_v_cbse_01_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are late for an exam and wish a secret doorway would appear to take you to a calm, stress-free yesterday.",
-     "That is exactly what Charley experiences.",
-     "To analyze the plot, first re-read the story and mark every major event on a timeline.",
-     "Next, label each event as exposition (Charley’s ordinary life and the psychiatrist’s theory), rising action (getting lost, finding the third level,"
+     "Trace 'The Third Level' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -243,10 +237,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in a busy metro station today — noise, crowds, digital screens, anxiety about missing your train.",
-     "Now imagine turning a corner and stepping into a 1890s railway platform with gaslights, brass spittoons, and men in derby hats.",
-     "That jarring shift is exactly what Charley experiences.",
-     "To analyze setting and atmosphere, start by listing every concrete detail the narrator gives for each location: architecture, lighting, clothing,"
+     "Identify where and when 'The Third Level' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -254,20 +245,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is Charley's age and occupation as stated in the story?",
     "answer": "Charley is 31 years old and works in an office (he mentions working late at the office)",
     "options": [
-     "The question is: \"Have you ever had any curious experience which others find hard to believe?\" A wrong answer (e",
-     "Literal comprehension retrieves explicitly stated information. Example: \"What was the date on the newspaper Charley saw?\" Answer: June 11, 1894 (stated in para 4)",
+     "The student can identify at least three distinct grammatical features in the story (e.g., past perfect for temporal layering, fragmented sentences for psychological tension",
+     "The student can write a structured character sketch of Charley that identifies at least three distinct personality traits, supports each with specific textual evidence",
      "Charley is 31 years old and works in an office (he mentions working late at the office)"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'The Third' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying he is a student or retired) reveals the student has not read the basic factual details of the protagonist, which are essential for grounding any character analysis.",
     "id": "gen_c12_eng_v_ch01_q4",
     "nodeId": "c12_eng_v_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Start by asking the student: \"Have you ever felt so overwhelmed by modern life that you wished you could just step into a simpler past?",
-     "That's exactly what Charley experiences.\" Then guide them to re-read the first three paragraphs of the story, noting how Charley describes himself",
-     "Ask: \"What does Charley's self-description reveal about his self-perception?\" Then move to his actions: getting lost in Grand Central, discovering",
-     "Have the student list Charley's actions and ask what each reveals."
+     "Pick the central figure in 'The Third Level' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -338,10 +326,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a detective trying to understand why Charley believes in the third level — you wouldn't just interview Charley; you'd talk to his",
-     "Start by listing every character besides Charley who speaks or acts in the story.",
-     "For each, note: (1) what they say/do, (2) how Charley reacts to them, (3) what they represent (escape, reality, past, authority), and (4) whether",
-     "The key insight: supporting characters in this story are not just \"other people\" — they are externalizations of Charley's internal conflict between"
+     "Spot the secondary figures in 'The Third Level' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -390,10 +375,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in a crowded metro after a terrible exam, wishing you could just step onto a train that takes you back to Class 10 when life",
-     "Start by asking: \"What does Charley explicitly say he wants to escape from?\" (Answer: the modern world's insecurity, fear, war, worry).",
-     "Then trace how the third level's physical details (gaslights, 1894 newspaper, Galesburg description) construct that escape.",
-     "Notice the psychiatrist calls it a \"waking-dream wish fulfillment\" — this is the author's direct thematic statement."
+     "Ask what 'The Third Level' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -409,10 +391,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a movie where the main character says they're \"fine\" but their shaking hands, cluttered desk, and late-night scrolling tell a",
-     "The *stated* reason (primary theme) is just the surface; the *real* story lives in the details.",
-     "In \"The Third Level,\" Charley says he just wanted to get home, but his stamp collection, his psychiatrist's diagnosis, Sam's disappearance, and the",
-     "Today we'll learn to spot those currents — the secondary themes — by hunting for recurring patterns, character actions that contradict words, and"
+     "Look beneath the main theme of 'The Third Level' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -420,20 +399,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the definition of imagery in literature, and which five senses does it typically appeal to?",
     "answer": "Imagery is descriptive language that appeals to the five senses — sight, sound, smell, touch, and taste — to create vivid mental pictures for the reader",
     "options": [
-     "Charley is 31 years old and works in an office (he mentions working late at the office)",
-     "The five supporting characters are: (1) Louisa — Charley's wife who initially worries about his obsession but later joins him in searching for the third level",
+     "1. He is \"thirty-one years old\" — a specific, realistic age. 2. He wears a \"tan gabardine suit and a straw hat with a fancy band\" — ordinary 1940s office attire",
+     "The student can explain in their own words how the pre-reading prompt (\"Have you ever had any curious experience which others find hard to believe?",
      "Imagery is descriptive language that appeals to the five senses — sight, sound, smell, touch, and taste — to create vivid mental pictures for the reader"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Third Level'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only \"visual description\" or confuses imagery with \"symbolism\" reveals the student thinks imagery is only about what is seen, missing auditory (hollow roar), tactile (gaslight warmth), and olfactory (cigar smoke) dimensions critical in this story.",
     "id": "gen_c12_eng_v_ch01_q8",
     "nodeId": "c12_eng_v_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in a modern metro station — fluorescent lights, digital screens, crowds rushing — and suddenly a doorway opens onto a",
-     "That jarring sensory shift is exactly what Finney creates through imagery.",
-     "Start by asking: \"Which senses does the author activate when Charley steps onto the third level?",
-     "Then ask: \"What is the third level a metaphor for?\" Trace the psychiatrist's diagnosis (\"waking-dream wish fulfillment\") and Charley's own admission"
+     "Find the lines in 'The Third Level' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -482,10 +458,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Charley, standing in Grand Central Station, late for the train, when a corridor you've never noticed angles downward into gaslit 1894.",
-     "Your psychiatrist calls it \"waking-dream wish fulfillment\" — but then he disappears into that same past.",
-     "That's the hook: irony isn't just a twist; it's the story's engine.",
-     "Start by listing every moment where expectation clashes with outcome (Charley seeks peace in 1894, but 1894 had depression and strikes; Sam diagnoses"
+     "Look in 'The Third Level' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -493,20 +466,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define \"first-day cover\" as used in \"The Third Level\" and state its precise role in the plot's resolution.",
     "answer": "A first-day cover is an envelope bearing a new stamp postmarked on its first day of issue, mailed to oneself and left unopened as a collectible",
     "options": [
+     "Students conflate \"irony\" with \"coincidence\" or \"unexpected event.\" In \"The Third Level,\" they often label Charley's discovery of the corridor as \"ironic\"",
      "The verb phrase \"I've been\" (I have been) is present perfect tense. It connects a past experience (being on the third level) to the present moment of narration",
-     "The psychiatrist means Charley's discovery of the third level is not an objective reality but a hallucinatory projection of his unconscious desire to escape the anxieties of",
      "A first-day cover is an envelope bearing a new stamp postmarked on its first day of issue, mailed to oneself and left unopened as a collectible"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The Third' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"any old envelope with a stamp\") reveals the student misses the philatelic precision that makes the plot's evidence credible — Charley's expertise as a collector is why he recognizes the anomaly, and the specific postmark date anchors the fantasy in verifiable history.",
     "id": "gen_c12_eng_v_ch01_q10",
     "nodeId": "c12_eng_v_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a mystery novel set in 1890s New York and encounter \"gaslights,\" \"spittoons,\" and \"derby hat\" in the same paragraph — you",
-     "That's vocabulary in context doing its work.",
-     "In \"The Third Level,\" Finney doesn't just use old words; he selects terms that simultaneously build the 1894 Galesburg illusion, reveal Charley's",
-     "Start by hunting for three word-clusters in the text: (1) the 1890s material world (gaslights, spittoons, leg-of-mutton sleeves), (2) the philatelic"
+     "Note the difficult or loaded words in 'The Third Level' — their meaning carries the text's precision."
     ]
    },
    {
@@ -514,20 +484,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the tense of the verb phrase \"had been\" in the opening sentence: \"The presidents ... will swear on a stack of timetables that there are only two. But I say there are three, because I’ve been on the third level...\" and explain why this specific tense is used here instead of simple past.",
     "answer": "The verb phrase \"I've been\" (I have been) is present perfect tense. It connects a past experience (being on the third level) to the present moment of narration",
     "options": [
-     "Plot is the series of events (e.g., Charley discovers the third level, tries to buy tickets, later receives Sam’s letter)",
-     "The psychiatrist means Charley's discovery of the third level is not an objective reality but a hallucinatory projection of his unconscious desire to escape the anxieties of",
+     "The student must be able to identify at least three distinct types of irony (situational, dramatic",
+     "Student can independently evaluate competing interpretations of the third level's reality (psychological escape vs",
      "The verb phrase \"I've been\" (I have been) is present perfect tense. It connects a past experience (being on the third level) to the present moment of narration"
     ],
-    "hint": "Straight from the 'Language Usage in the Text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The Third' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"simple past\") reveals the student misses how present perfect anchors the fantastical claim in the narrator's *present reality*, making it a living assertion rather than a completed past action.",
     "id": "gen_c12_eng_v_ch01_q11",
     "nodeId": "c12_eng_v_cbse_01_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a mystery where the narrator suddenly switches from \"I walk\" to \"I had walked\" — you'd instantly sense a time shift.",
-     "That's exactly what Finney does in \"The Third Level.\" Start by asking: \"How does the grammar tell me Charley is moving between 1950s present and 1894",
-     "Next, compare sentence length and structure in the modern office scene vs. the gaslit station scene.",
-     "Then, examine how direct speech (\"That ain't money, mister\") differs from the narrator's indirect reporting."
+     "Read 'The Third Level' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -535,20 +502,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define literal comprehension and give one literal question from \"The Third Level\" with its answer directly from the text.",
     "answer": "Literal comprehension retrieves explicitly stated information. Example: \"What was the date on the newspaper Charley saw?\" Answer: June 11, 1894 (stated in para 4)",
     "options": [
-     "The two primary settings are the modern Grand Central Station (first and second levels) and the Third Level of Grand Central Station set in 1894",
-     "Plot is the series of events (e.g., Charley discovers the third level, tries to buy tickets, later receives Sam’s letter)",
+     "The verb phrase \"I've been\" (I have been) is present perfect tense. It connects a past experience (being on the third level) to the present moment of narration",
+     "The psychiatrist means Charley's discovery of the third level is not an objective reality but a hallucinatory projection of his unconscious desire to escape the anxieties of",
      "Literal comprehension retrieves explicitly stated information. Example: \"What was the date on the newspaper Charley saw?\" Answer: June 11, 1894 (stated in para 4)"
     ],
-    "hint": "Straight from the 'Literal comprehension involves' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"1890s\") shows the student cannot locate exact textual details — a fatal error in 1-mark board questions.",
     "id": "gen_c12_eng_v_ch01_q12",
     "nodeId": "c12_eng_v_cbse_01_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall and see: \"What does the third level refer to?\" (NCERT, p.1).",
-     "First, recall the story's central premise: Charley claims a third level exists at Grand Central.",
-     "Second, scan the text for explicit descriptions — the gaslights, the 1894 newspaper, the archaic clothing.",
-     "Third, distinguish what is directly stated (literal) from what must be inferred (e.g., the third level symbolizes escape)."
+     "Answer 'The Third Level' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -608,10 +572,8 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Charley, standing in a crowded metro station after a terrible day — deadlines, traffic, news alerts about war and inflation — and you",
-     "That impulse is the entry point.",
-     "Now ask: is the third level a real place Charley discovers, or a mental construct his stressed mind builds?",
-     "The psychiatrist says \"waking-dream wish fulfillment\"; Charley produces a first-day cover postmarked 1894 as proof."
+     "Analyse 'The Third Level' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -619,21 +581,18 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What does PEEL stand for in the context of writing structured answers for Class 12 English board exams?",
     "answer": "PEEL stands for Point, Evidence, Explanation, Link",
     "options": [
-     "1. He is \"thirty-one years old\" — a specific, realistic age. 2. He wears a \"tan gabardine suit and a straw hat with a fancy band\" — ordinary 1940s office attire",
-     "Plot is the series of events (e.g., Charley discovers the third level, tries to buy tickets, later receives Sam’s letter)",
-     "PEEL stands for Point, Narrative, Explanation, Link",
+     "Vocabulary in Context: Key Words refers to the skill of determining precise meanings of specific terms by analyzing their usage within the textual environment of \"The Third",
+     "The question is: \"Have you ever had any curious experience which others find hard to believe?\" A wrong answer (e",
+     "PEEL stands for Point, The World, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Third' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Conclusion\") reveals the student lacks the standard answer-writing framework taught in Class 11-12, leading to disorganized responses that lose marks for coherence and textual support in 6-mark questions.",
     "id": "gen_c12_eng_v_ch01_q14",
     "nodeId": "c12_eng_v_cbse_01_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing Question 3: \"'The modern world is full of insecurity, fear, war, worry and stress.",
-     "Start by identifying the core demand: \"ways we attempt to overcome\" (plural, so minimum two distinct methods).",
-     "Next, hunt for textual evidence: Charley's stamps (refuge), the third level itself (physical escape), Sam's letter (fantasy fulfillment).",
-     "Then structure using PEEL: Point (escapism through nostalgia), Evidence (stamp collecting, third level), Explanation (how each works"
+     "For written answers on 'The Third Level', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -682,10 +641,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_01_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a book club where everyone has read \"The Third Level\" but interpretations differ wildly: some say Charley time-traveled, others say",
-     "How do you start a conversation that respects both views and digs deeper?",
-     "First, identify the text's \"hinge moments\" — scenes where meaning is genuinely contested (e.",
-     "Next, convert each hinge moment into an open-ended prompt that cannot be answered with a single fact (e."
+     "Talk through 'The Third Level' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -862,23 +818,25 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read\" section?",
+    "What surprised you about 'the third level' — the context and background to th?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read\" Section mastered! 🎯",
+  "successLine": "'The Third Level' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_v_ch02",
-  "title": "Before You Read: Context and Background",
+  "title": "'The Tiger King' — The Context And Background",
   "subtitle": "English · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch2: Before You Read: Context and Background"],
+  "topic": "'The Tiger King' — The Context And Background To Thi",
+  "chapters": [
+   "English Ch2: 'The Tiger King' — The Context And Background To Thi"
+  ],
   "nodeIds": [
    "c12_eng_v_cbse_02_001",
    "c12_eng_v_cbse_02_002",
@@ -903,127 +861,166 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Before You Read: Context and more about facts, or about reasoning?",
+   "question": "Is 'The Tiger King' — The Context more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "The \"Before You Read: Context and Background\" section for \"The Tiger King\" provides essential historical, biographical, and literary framing to"
+   "hook": "'The Tiger King' (Vistas, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "The \"Before You Read: Context and Background\" section for \"The Tiger King\" provides essential historical, biographical, and literary framing to understand the story's satire.",
+    "text": "'The Tiger King' (Vistas, ch. 2) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refer to the organized sequence of events (plot) and the technique used to present them (narrative structure) in a story.",
+    "title": "Plot/narrative Arc Of 'The Tiger",
+    "text": "The plot/narrative arc of 'The Tiger King' — what happens, in what order, and why the sequence matters.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social-historical context in which a story unfolds; atmosphere is the emotional mood or feeling evoked in the reader through descriptive details of the setting, sensory imagery, and narrative tone.",
+    "title": "Setting Of 'The Tiger King'",
+    "text": "The setting of 'The Tiger King' — the place, time and atmosphere the text creates.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the main character's personality traits, motivations, internal conflicts, development (or lack thereof), and how their actions drive the narrative and embody the story's central themes.",
+    "title": "Character Analysis In 'The Tiger King'",
+    "text": "Character analysis in 'The Tiger King' — the central figure(s), their traits, and how they develop.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the traits, motivations, functions, and development of secondary figures in a narrative to understand how they illuminate the protagonist, advance the plot, reinforce themes, and reflect the",
+    "title": "Supporting Characters In 'The Tiger King'",
+    "text": "Supporting characters in 'The Tiger King' — the secondary figures who move the story forward.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Primary Theme Of \"The Tiger King\"",
-    "text": "The primary theme of \"The Tiger King\" is the futility of human arrogance in attempting to defy destiny, conveyed through satire and irony. The story exposes how those in power delude themselves into believing they can control fate, only to be undone by the",
+    "title": "Primary Theme Of 'The Tiger",
+    "text": "The primary theme of 'The Tiger King' — the central idea the whole text returns to.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, motifs, or messages that run alongside the primary theme in a literary work. They enrich the narrative by adding layers of meaning, often commenting on society, human nature, or specific issues through subplots,",
+    "title": "Secondary Themes In 'The Tiger King'",
+    "text": "Secondary themes in 'The Tiger King' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, touch, taste, smell) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'The Tiger King'",
+    "text": "Imagery in 'The Tiger King' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, creating a contrast between appearance and reality.",
+    "title": "Irony And Paradox In 'The Tiger King' —",
+    "text": "Irony and paradox in 'The Tiger King' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in context is the skill of determining the precise meaning, connotation, and tone of words as they are used in a specific textual environment, rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'The Tiger King'",
+    "text": "Key vocabulary of 'The Tiger King' — the words and phrases you must know to read the text well.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Language Usage In a Text",
-    "text": "Language usage in a text refers to the specific grammatical structures, syntactical patterns, vocabulary choices, and stylistic devices an author employs to convey meaning, create tone, and achieve literary effects.",
+    "title": "Language And Style In 'The Tiger",
+    "text": "Language and style in 'The Tiger King' — how the writer chose words, sentences and tone.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to locate and retrieve information explicitly stated in the text, while inferential comprehension questions demand logical reasoning to derive meaning not directly stated — using textual evidence, context",
+    "title": "Literal Comprehension Of 'The Tiger King'",
+    "text": "Literal comprehension of 'The Tiger King' — questions answered straight from the text.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond surface meaning to evaluate themes, author's purpose, literary devices, and socio-cultural implications through evidence-based reasoning, requiring the student to synthesize textual",
+    "title": "Critical Thinking On 'The Tiger King'",
+    "text": "Critical thinking on 'The Tiger King' — analysing the text to reach evidence-based judgements.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on the chapter \"The Tiger King\" refers to the ability to compose structured, evidence-based responses (analytical paragraphs, character sketches, thematic essays, and critical commentaries) that demonstrate understanding of the story's",
+    "title": "Writing Skills From 'The Tiger King'",
+    "text": "Writing skills from 'The Tiger King' — using the text as a model or springboard for your own writing.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to the structured oral communication skills where students articulate evidence-based interpretations of a literary text, actively listen to peer perspectives, and collaboratively build critical analysis through",
+    "title": "Discussion Points On 'The Tiger King'",
+    "text": "Discussion points on 'The Tiger King' — speaking and listening around the text.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    }
   ],
   "challenges": [
    {
-    "type": "mcq",
-    "question": "Who is the author of \"The Tiger King\" and what was his primary profession besides being a writer?",
-    "answer": "The author is Kalki, the pen name of R. Krishnamurthy (1899–1954), a Tamil writer, journalist, and freedom fighter",
-    "options": [
-     "The astrologers predict the prince will die because he was born in the hour of the Bull, and the Bull and Tiger are enemies — so death will come from a tiger",
-     "The narrator opens by listing the Maharaja's absurdly long titles and immediately states, \"the Tiger King is dead",
-     "The author is Kalki, the pen name of R. Krishnamurthy (1899–1954), a Tamil writer, journalist, and freedom fighter"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "who Kalki was and his significance in Tamil",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "why the story",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "the political relationship between princely",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "how the opening astrological prediction sets",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"R.K. Narayan\" or \"a British officer\") reveals confusion with other Indian English writers or misunderstanding the story's Indian authorship and anti-colonial perspective.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain (1) who Kalki was and his significance in Tamil literature, (2) the political relationship",
     "id": "gen_c12_eng_v_ch02_q1",
     "nodeId": "c12_eng_v_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're about to watch a period drama about a Maharaja who talks as a newborn and spends his life hunting tigers to cheat death.",
-     "Before pressing play, you'd want to know: Is this based on a real king?",
-     "Why are British officers appearing in an Indian kingdom?",
-     "What does \"satire\" mean here?"
+     "Start with the author of 'The Tiger King', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
@@ -1035,16 +1032,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "The astrologers predict the prince will die because he was born in the hour of the Bull, and the Bull and Tiger are enemies — so death will come from a tiger",
      "The narrator opens by listing the Maharaja's absurdly long titles and immediately states, \"the Tiger King is dead"
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., starting with the birth) reveals the student is confusing chronological order with narrative order — a fundamental structural distinction.",
     "id": "gen_c12_eng_v_ch02_q2",
     "nodeId": "c12_eng_v_cbse_02_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are explaining \"The Tiger King\" to a friend who hasn't read it.",
-     "You might start at the beginning — \"A king is told he'll die by a tiger\" — but the story actually opens with the narrator announcing the king is",
-     "That's your first clue: the narrative structure is deliberately out of order.",
-     "To master this, first list every major event in the order they happen in the story world (chronological order)."
+     "Trace 'The Tiger King' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -1056,16 +1050,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "A literal question's answer is explicitly stated in the text (e.g., \"How many tigers did the Maharaja kill?",
      "Setting is the where/when/who-context (Pratibandapuram, colonial era, royal court); atmosphere is the mood created (fable-like, mythic, slightly absurd)"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Tiger King'' slide -- match the key terms.",
     "misconception": "A wrong answer that conflates the two (e.g., \"setting is the mood\") reveals the student cannot separate physical context from emotional effect.",
     "id": "gen_c12_eng_v_ch02_q3",
     "nodeId": "c12_eng_v_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a period drama where the palace glitter hides absurdity — that's the world Kalki builds.",
-     "Begin by asking: \"Where and when does this story happen?\" Mark every place reference: Pratibandapuram palace, its forests, the hillside village, the",
-     "Then ask: \"What historical period?\" Note British officer, durai, duraisani, Court of Wards — this is colonial India.",
-     "Next: \"What social world?\" Astrologers, dewan, hunters, villagers, toy-seller — a feudal hierarchy."
+     "Identify where and when 'The Tiger King' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -1136,10 +1127,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_02_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine a leader so terrified of a prediction that he restructures his entire kingdom — banning hunting, bribing colonial officers, marrying for",
-     "That is the Maharaja.",
-     "Begin by asking: \"What does the infant's growl 'Let tigers beware!' reveal about his core nature?",
-     "The key insight: his every \"victory\" is actually a step toward the prophecy's fulfillment — the ultimate satire on human conceit."
+     "Pick the central figure in 'The Tiger King' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -1147,20 +1135,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "List the six major supporting characters in \"The Tiger King\" and state one defining action or line for each.",
     "answer": "1) Chief Astrologer — predicts death by the hundredth tiger; 2) Dewan — procures the hundredth tiger from Madras; 3) British Officer — wants to hunt tigers for photographs",
     "options": [
+     "The student can independently map the story's events onto Freytag's Pyramid (exposition, rising action, climax, falling action, resolution)",
      "The astrologers predict the prince will die because he was born in the hour of the Bull, and the Bull and Tiger are enemies — so death will come from a tiger",
-     "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)",
      "1) Chief Astrologer — predicts death by the hundredth tiger; 2) Dewan — procures the hundredth tiger from Madras; 3) British Officer — wants to hunt tigers for photographs"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'The' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., missing the duraisani or confusing the dewan with the astrologer) reveals the student cannot distinguish narrative functions: the astrologer sets the prophecy, the dewan executes the cover-up, the British officer represents colonial pressure, the duraisani embodies greed, the hunters represent",
     "id": "gen_c12_eng_v_ch02_q5",
     "nodeId": "c12_eng_v_cbse_02_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective trying to solve why the Maharaja's obsession with killing tigers spirals into absurdity.",
-     "The clues aren't just in his actions — they're in how everyone around him reacts.",
-     "Start by listing every named or distinct supporting figure.",
-     "For each, ask: What do they say?"
+     "Spot the secondary figures in 'The Tiger King' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -1168,20 +1153,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the central prophecy made about the Tiger King at his birth, and how does it drive the plot?",
     "answer": "The chief astrologer predicts the prince will die by a tiger because he was born in the hour of the Bull (enemy of Tiger)",
     "options": [
-     "The story uses a first-person narrative perspective (\"I have come forward to tell you why he came to be known as Tiger King\")",
-     "The wooden tiger (a cheap, poorly carved toy costing two annas) symbolizes the absurdity of the Maharaja's pride: his life's mission — killing 100 real tigers",
+     "The narrator opens by listing the Maharaja's absurdly long titles and immediately states, \"the Tiger King is dead",
+     "The student must be able to identify and explain at least three distinct grammatical or stylistic features in \"The Tiger King\" (e",
      "The chief astrologer predicts the prince will die by a tiger because he was born in the hour of the Bull (enemy of Tiger)"
     ],
-    "hint": "Straight from the 'primary theme of \"The Tiger King\"' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the prophecy was about a war\" or \"he killed tigers for sport\") reveals the student has not grasped the causal link between prediction and action — the *engine* of the story.",
     "id": "gen_c12_eng_v_ch02_q6",
     "nodeId": "c12_eng_v_cbse_02_006",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're a student who stays up all night \"cheating fate\" by memorizing only the predicted exam questions, but the paper comes from a",
-     "That's the Maharaja's story in a nutshell.",
-     "Start by identifying the astrologer's prediction (the \"fate\" card dealt at birth).",
-     "Then trace the Maharaja's counter-strategy: the vow to kill 100 tigers, the marriage alliance for tigers, the ban on others hunting."
+     "Ask what 'The Tiger King' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -1189,20 +1171,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define \"secondary theme\" in the context of a short story and give one example from \"The Tiger King\" with a brief textual reference.",
     "answer": "A secondary theme is a subordinate idea that supports or contrasts with the primary theme, adding complexity",
     "options": [
-     "The astrologers predict the prince will die because he was born in the hour of the Bull, and the Bull and Tiger are enemies — so death will come from a tiger",
-     "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)",
+     "The story uses a first-person narrative perspective (\"I have come forward to tell you why he came to be known as Tiger King\")",
+     "The student can identify all major supporting characters in \"The Tiger King\", cite textual evidence for their key traits, explain each character's narrative function (foil",
      "A secondary theme is a subordinate idea that supports or contrasts with the primary theme, adding complexity"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing the primary theme again or giving a plot summary without thematic labeling) reveals the student confuses plot events with thematic concepts.",
     "id": "gen_c12_eng_v_ch02_q7",
     "nodeId": "c12_eng_v_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in a board exam: \"The story is a satire on the conceit of those in power.",
-     "Discuss with reference to secondary themes.\" A struggling student might only repeat the main plot.",
-     "To begin, ask yourself: \"What else is Kalki criticizing besides the Maharaja's obsession?",
-     "These are entry points to secondary themes."
+     "Look beneath the main theme of 'The Tiger King' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -1251,10 +1230,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a movie adaptation of \"The Tiger King\" — the director must decide how to *show* the Maharaja's obsession without a narrator",
-     "What visual details would the camera linger on?",
-     "The glint of the diamond rings, the rough grain of the wooden tiger, the blood on the Maharaja's hand?",
-     "That is imagery — the \"camera work\" of literature."
+     "Find the lines in 'The Tiger King' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -1262,20 +1238,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define dramatic irony and give one example from \"The Tiger King\" where the reader knows something a character does not.",
     "answer": "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating tension or humor",
     "options": [
-     "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)",
-     "1) Chief Astrologer — predicts death by the hundredth tiger; 2) Dewan — procures the hundredth tiger from Madras; 3) British Officer — wants to hunt tigers for photographs",
+     "Student can independently analyze the story's satirical elements, interpret dramatic irony, evaluate character motivations with textual evidence",
+     "The student can identify all major supporting characters in \"The Tiger King\", cite textual evidence for their key traits, explain each character's narrative function (foil",
      "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks, creating tension or humor"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer that cites the astrologer's prediction as dramatic irony reveals confusion: the prediction is *situational* irony (outcome contradicts expectation), not dramatic irony (reader vs. character knowledge gap).",
     "id": "gen_c12_eng_v_ch02_q9",
     "nodeId": "c12_eng_v_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a politician boast about their \"infallible\" plan on live TV, only to slip on a banana peel seconds later — that gap between",
-     "Now think of a national flag: cloth and dye literally, but it *stands for* sovereignty, sacrifice, unity.",
-     "In \"The Tiger King,\" the Maharaja's title \"Tiger King\" sounds powerful, but the story reveals it as a cruel joke — he dies from a wooden tiger's",
-     "We will trace how every hunt, every prediction, and every \"victory\" layers irony upon irony, and how the tiger transforms from a beast to a symbol of"
+     "Look in 'The Tiger King' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -1335,10 +1308,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the opening paragraph and hit the word \"indomitable\" describing the Tiger King's courage.",
-     "You could skip it, but then you miss the ironic setup: the narrator calls him indomitable while immediately revealing he is dead.",
-     "Start by circling the word, reading the full sentence and the next two sentences.",
-     "Ask: \"What contrast does the author create?\" Notice \"final abode of all living creatures\" — death undermines \"indomitable."
+     "Note the difficult or loaded words in 'The Tiger King' — their meaning carries the text's precision."
     ]
    },
    {
@@ -1346,20 +1316,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the narrative perspective used in \"The Tiger King\" and quote the first sentence that establishes it.",
     "answer": "The story uses a first-person narrative perspective (\"I have come forward to tell you why he came to be known as Tiger King\")",
     "options": [
-     "The narrator opens by listing the Maharaja's absurdly long titles and immediately states, \"the Tiger King is dead",
-     "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)",
+     "Student can initiate and sustain a 5-minute structured discussion on any \"Reading with Insight\" question from The Tiger King, using textual evidence",
+     "The student can identify and classify at least three types of irony (verbal, situational, dramatic) in the text with textual evidence, explain how the central symbols (tiger",
      "The story uses a first-person narrative perspective (\"I have come forward to tell you why he came to be known as Tiger King\")"
     ],
-    "hint": "Straight from the 'Language usage in a text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"third-person omniscient\") reveals the student cannot distinguish the narrator's explicit self-reference (\"I\") from an invisible narrator, missing how the \"I\" creates intimacy and irony by pretending to be an insider revealing secrets.",
     "id": "gen_c12_eng_v_ch02_q11",
     "nodeId": "c12_eng_v_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a WhatsApp forward that sounds formal but is actually mocking someone — you'd notice the mismatch between the fancy words and",
-     "That's exactly what Kalki does in \"The Tiger King.\" Start by reading the opening paragraph aloud: notice how the narrator lists absurdly long royal",
-     "Ask: why pile up titles?",
-     "What tone does this create?"
+     "Read 'The Tiger King' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -1408,10 +1375,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE Board exam hall, staring at a 3-mark question: \"Why did the Maharaja ban tiger hunting by anyone except himself?",
-     "This is the exact dilemma Class 12 students face.",
-     "Start by asking: \"Can I point to a specific sentence that answers this?\" If yes, it's literal — quote the line.",
-     "If no, ask: \"What does the text imply about the Maharaja's obsession and fear of the prophecy?"
+     "Answer 'The Tiger King' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -1460,10 +1424,8 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_02_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine a politician who builds a massive wall to keep out \"dangerous immigrants\" but gets injured by a falling brick from that very wall — what does",
-     "Now connect this to the Maharaja who kills 99 tigers to cheat death but dies from a wooden tiger splinter.",
-     "Begin by identifying the central dramatic irony: the \"hundredth tiger\" that kills him is a cheap toy, not a beast.",
-     "Next, trace the satirical targets — the Maharaja's misplaced priorities (tiger count over governance), the minions' fear-driven compliance, the"
+     "Analyse 'The Tiger King' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -1471,20 +1433,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define the PEEL structure for answering a 5-mark literature question in CBSE Class 12 English.",
     "answer": "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)",
     "options": [
-     "1) Chief Astrologer — predicts death by the hundredth tiger; 2) Dewan — procures the hundredth tiger from Madras; 3) British Officer — wants to hunt tigers for photographs",
-     "The chief astrologer predicts the prince will die by a tiger because he was born in the hour of the Bull (enemy of Tiger)",
+     "Student can initiate and sustain a 5-minute structured discussion on any \"Reading with Insight\" question from The Tiger King, using textual evidence",
+     "The author is Kalki, the pen name of R. Krishnamurthy (1899–1954), a Tamil writer, journalist, and freedom fighter",
      "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"PEEL means writing a long paragraph\") reveals the student confuses structure with length and will produce plot summaries instead of analytical answers.",
     "id": "gen_c12_eng_v_ch02_q14",
     "nodeId": "c12_eng_v_cbse_02_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing Question 3: \"How would you describe the behaviour of the Maharaja's minions towards him?",
-     "Do you find them truly sincere or driven by fear?",
-     "Do we find a similarity in today's political order?\" A struggling student freezes because they try to narrate the story.",
-     "Instead, start by identifying the *core demand*: \"minions' behaviour\" + \"sincerity vs fear\" + \"contemporary parallel\"."
+     "For written answers on 'The Tiger King', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -1492,20 +1451,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define \"dramatic irony\" as it operates in The Tiger King, and give ONE specific instance from the text where the audience knows something the Maharaja does not.",
     "answer": "Dramatic irony occurs when the reader/audience possesses knowledge that a character lacks, creating tension between perception and reality",
     "options": [
-     "The narrator opens by listing the Maharaja's absurdly long titles and immediately states, \"the Tiger King is dead",
      "PEEL stands for Point (one-sentence direct answer to the question), Evidence (a brief quote or specific textual detail)",
+     "Student can initiate and sustain a 5-minute structured discussion on any \"Reading with Insight\" question from The Tiger King, using textual evidence",
      "Dramatic irony occurs when the reader/audience possesses knowledge that a character lacks, creating tension between perception and reality"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'The Tiger' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is when something funny happens\") reveals confusion between situational irony and dramatic irony, and inability to distinguish character knowledge from reader knowledge — a fatal error for Board Q1 (satire/dramatic irony) and CUET literary analysis.",
     "id": "gen_c12_eng_v_ch02_q15",
     "nodeId": "c12_eng_v_cbse_02_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a university admission interview and the panel asks: \"Kalki's Tiger King is a satire — but is the Maharaja purely a villain, or",
-     "Defend your view in two minutes.\" You freeze because you've only written answers, never spoken them aloud under time pressure.",
-     "This node teaches you to convert your written analysis (nodes 006-013) into spoken argument: first, identify the core tension (individual vs.",
-     "The key insight: speaking is not \"talking\" — it's structured thinking made audible."
+     "Talk through 'The Tiger King' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -1660,24 +1616,24 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'the tiger king' — the context and background to thi?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'The Tiger King' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_v_ch03",
-  "title": "\"Before You Read\" Section",
+  "title": "'Journey To The End",
   "subtitle": "English · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "\"Before You Read\" Section",
+  "topic": "'Journey To The End",
   "chapters": [
-   "English Ch3: \"Before You Read\" Section"
+   "English Ch3: 'Journey To The End"
   ],
   "nodeIds": [
    "c12_eng_v_cbse_03_001",
@@ -1703,103 +1659,103 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is \"Before You Read\" Section more about facts, or about reasoning?",
+   "question": "Is 'Journey To The End more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "The \"Before You Read\" section is a pre-reading pedagogical tool that activates prior knowledge, establishes essential historical-geographical context"
+   "hook": "'Journey to the End of the Earth' (Vistas, ch."
   },
   "teaching": [
    {
-    "title": "\"Before You Read\" Section",
-    "text": "The \"Before You Read\" section is a pre-reading pedagogical tool that activates prior knowledge, establishes essential historical-geographical context (Gondwana, Antarctic climate records), and sets a purpose for reading by introducing the central",
+    "title": "'Journey To The End",
+    "text": "'Journey to the End of the Earth' (Vistas, ch. 3) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure in a non-fiction travelogue like \"Journey to the End of the Earth\" refers to the sequence of events (plot) and the artistic arrangement of those events (structure) to convey the author's physical journey, scientific insights, and",
+    "title": "Plot/narrative Arc Of 'Journey",
+    "text": "The plot/narrative arc of 'Journey to the End of the Earth' — what happens, in what order, and why the sequence matters.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment where a narrative unfolds; atmosphere is the emotional mood or feeling created by the author's descriptive details of that setting.",
+    "title": "Setting Of 'Journey",
+    "text": "The setting of 'Journey to the End of the Earth' — the place, time and atmosphere the text creates.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist in a first-person non-fiction travelogue involves examining the narrator's personality traits, motivations, emotional responses, and intellectual growth as revealed through their observations, reflections, and",
+    "title": "Character Analysis In 'Journey",
+    "text": "Character analysis in 'Journey to the End of the Earth' — the central figure(s), their traits, and how they develop.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis: Supporting Characters",
-    "text": "Supporting characters in \"Journey to the End of the Earth\" are the individuals who accompany the narrator on the Antarctic expedition and whose roles, perspectives, and actions illuminate the chapter's central themes of climate change, geological history, and",
+    "title": "Supporting Characters In 'Journey",
+    "text": "Supporting characters in 'Journey to the End of the Earth' — the secondary figures who move the story forward.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Theme: Primary Theme and Message",
-    "text": "The primary theme of \"Journey to the End of the Earth\" is the interconnectedness of Earth's geological history, human impact, and ecological balance as revealed through Antarctica, conveying the message that understanding the planet's past is essential for",
+    "title": "Primary Theme Of 'Journey",
+    "text": "The primary theme of 'Journey to the End of the Earth' — the central idea the whole text returns to.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas that run alongside the primary theme, enriching the text by exploring related concepts such as human-environment interaction, intergenerational responsibility, ecological interconnectedness, and the contrast between",
+    "title": "Secondary Themes In 'Journey",
+    "text": "Secondary themes in 'Journey to the End of the Earth' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke physical sensations in the reader.",
+    "title": "Imagery In 'Journey To The End",
+    "text": "Imagery in 'Journey to the End of the Earth' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or expected meaning, often revealing a deeper truth.",
+    "title": "Irony And Paradox In 'Journey",
+    "text": "Irony and paradox in 'Journey to the End of the Earth' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the meaning of unfamiliar words by analyzing the surrounding text — including synonyms, antonyms, examples, explanations, and the overall tone — rather than relying solely on dictionary definitions.",
+    "title": "Key Vocabulary Of 'Journey",
+    "text": "Key vocabulary of 'Journey to the End of the Earth' — the words and phrases you must know to read the text well.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Language Usage In This Text",
-    "text": "Language usage in this text refers to the deliberate grammatical choices Tishani Doshi makes — tense shifts between past narrative and present reflection, participial phrases for descriptive density, modal verbs for speculative tone, and syntactic patterns",
+    "title": "Language And Style In 'Journey",
+    "text": "Language and style in 'Journey to the End of the Earth' — how the writer chose words, sentences and tone.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated information from the text (facts, details, sequences, vocabulary meanings).",
+    "title": "Literal Comprehension Of 'Journey",
+    "text": "Literal comprehension of 'Journey to the End of the Earth' — questions answered straight from the text.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its surface meaning to evaluate the author's purpose, perspective, and techniques, and to interpret how these elements construct themes and convey insights about the world.",
+    "title": "Critical Thinking On 'Journey",
+    "text": "Critical thinking on 'Journey to the End of the Earth' — analysing the text to reach evidence-based judgements.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter \"Journey to the End of the Earth\" refers to the ability to compose structured, evidence-based texts (articles, speeches, reports, letters, analytical paragraphs) that draw on the chapter's themes — climate change,",
+    "title": "Writing Skills From 'Journey",
+    "text": "Writing skills from 'Journey to the End of the Earth' — using the text as a model or springboard for your own writing.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students engage in group discussions, debates, or presentations based on the chapter's themes, characters, and issues, developing their ability to articulate ideas, listen",
+    "title": "Discussion Points On 'Journey",
+    "text": "Discussion points on 'Journey to the End of the Earth' — speaking and listening around the text.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -1851,10 +1807,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're a student in Chennai (13°N) planning a virtual expedition to the South Pole — what would you need to know before you \"go\"?",
-     "Start by reading the \"Before You Read\" box aloud: it's a one-sentence invitation.",
-     "Then scan the first three pages of the chapter (up to \"Human impact\") and highlight every proper noun that signals a concept: Gondwana, Cordilleran",
-     "These are your context anchors."
+     "Start with the author of 'Journey to the End of the Earth', then the period, then the literary context — background turns a text from a puzzle into a"
     ]
    },
    {
@@ -1936,10 +1889,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are planning a trip to a remote place and want to write about it not just as a diary but as a story that changes how readers see the",
-     "Start by asking: \"What is the *shape* of this journey in the author's mind?\" First, list the physical sequence: Madras → ship → Antarctica.",
-     "Then notice how the author *breaks* that sequence: she inserts 650 million years of geological history before describing the Students on Ice",
-     "Because the structure mimics the book's argument: to understand the present (climate crisis), you must hold deep time and human time together."
+     "Trace 'Journey to the End of the Earth' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the"
     ]
    },
    {
@@ -1988,10 +1938,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine standing on a frozen ocean where the only sounds are your breath and a distant ice shelf cracking — no trees, buildings, or human markers for",
-     "That visceral experience is what Doshi translates into words.",
-     "Begin by asking: \"What sensory details does the author use to make Antarctica feel real?",
-     "Then ask: \"What feeling does each detail create?\" This moves them from listing setting to analyzing atmosphere."
+     "Identify where and when 'Journey to the End of the Earth' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -2051,10 +1998,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you've just returned from a school trip to Ladakh — the freezing wind, the stark mountains, the silence that makes you hear your own",
-     "Now ask: \"If I wrote about this trip, what would my descriptions reveal about ME — my fears, my curiosity, my background?",
-     "Start by marking every \"I\" statement in the text.",
-     "Notice her opening emotion: \"relief, followed up with... profound wonder.\" Why relief?"
+     "Pick the central figure in 'Journey to the End of the Earth' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -2103,10 +2047,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a documentary about a school trip to Antarctica — the narrator is the filmmaker, but the teacher leading the trip, the ship's",
-     "Start by listing every named or clearly described person besides the narrator.",
-     "For each, ask: What do they DO?",
-     "What do they SAY or represent?"
+     "Spot the secondary figures in 'Journey to the End of the Earth' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -2114,20 +2055,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the central geological event referenced in the chapter that explains the historical connection between India and Antarctica?",
     "answer": "The central geological event is the existence and breakup of Gondwana, a southern supercontinent centred around present-day Antarctica",
     "options": [
-     "A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth, nuance, or a different perspective without overtaking the central message",
-     "The primary purpose is to advocate for planetary awareness by showing how Antarctica's geological history and current ecological fragility reveal the consequences of human-induced",
+     "The box reads: \"If you want to know more about the planet's past, present and future, the Antarctica is the place to go to",
+     "The student can identify at least three distinct secondary themes in the chapter, cite specific textual evidence for each",
      "The central geological event is the existence and breakup of Gondwana, a southern supercontinent centred around present-day Antarctica"
     ],
-    "hint": "Straight from the 'primary theme of \"Journey to the' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Journey' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the formation of the Himalayas\" or \"the Ice Age\") reveals the student cannot distinguish between the deep-time geological history (Gondwana) and more recent tectonic events mentioned as consequences of that breakup.",
     "id": "gen_c12_eng_v_ch03_q6",
     "nodeId": "c12_eng_v_cbse_03_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a Class 12 student who has heard \"climate change is real\" a hundred times but feels disconnected from it because you live in a",
-     "Now, open the chapter and ask: \"Why does the author travel 100 hours to a frozen continent to understand our planet?",
-     "Next, trace how the author weaves these strands together through personal experience — the relief of arrival, the wonder at geological time, the",
-     "Then, identify the recurring metaphor: \"take care of the small things and the big things will fall into place."
+     "Ask what 'Journey to the End of the Earth' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -2187,10 +2125,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a detective who has found the main clue (primary theme: Antarctica reveals Earth's climate past/present/future).",
-     "Now you need the *supporting clues* that make the case convincing.",
-     "Start by re-reading the text with a highlighter, marking every passage that feels like a \"lesson within the lesson\" — e.",
-     "Ask: \"What idea is Doshi sneaking in here besides the main warning?\" Group these into 3-4 clusters."
+     "Look beneath the main theme of 'Journey to the End of the Earth' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -2239,10 +2174,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing on a metre-thick ice sheet with 180 metres of freezing ocean beneath your feet — what do you *feel* in your soles, hear in",
-     "That visceral immediacy is what Doshi's imagery achieves.",
-     "Start by rereading the \"Walk on the ocean\" section (paragraphs 12–14 in the textbook) and underline every word that triggers a physical sensation.",
-     "Next, ask: which of these descriptions go beyond literal observation to *mean* something larger?"
+     "Find the lines in 'Journey to the End of the Earth' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -2250,20 +2182,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define irony and symbolism in your own words, then give one example of each from *Journey to the End of the Earth* without looking at the text.",
     "answer": "Irony is a contrast between expectation and reality (e.g., a \"sun-worshipping South Indian\" finding relief in Antarctica's icy expanse)",
     "options": [
-     "The box reads: \"If you want to know more about the planet's past, present and future, the Antarctica is the place to go to",
-     "The climax is the \"walk on the ocean\" at 65.55°S (paragraph starting \"My Antarctic experience was full of such epiphanies",
+     "The student can independently analyze a passage from the text to explain how the author uses narrative structure, language",
+     "The student can identify at least two instances of irony and two symbols in the chapter, explain how each operates in context",
      "Irony is a contrast between expectation and reality (e.g., a \"sun-worshipping South Indian\" finding relief in Antarctica's icy expanse)"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Journey' slide -- match the key terms.",
     "misconception": "A wrong answer that merely quotes the text without explaining the contrast or the representational link shows the student confuses identification with analysis — they can spot the device but not articulate how it works.",
     "id": "gen_c12_eng_v_ch03_q9",
     "nodeId": "c12_eng_v_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a Class 12 student who just read the chapter and noticed the author calls herself a \"sun-worshipping South Indian\" in the coldest",
-     "First, re-read the text marking every moment where what happens differs from what you'd expect (irony) and every concrete object that seems to stand",
-     "Next, categorize each irony by type: situational (outcome vs expectation), dramatic (reader knows more than narrator), or verbal (words mean",
-     "For symbols, ask: what abstract concept does this physical thing represent?"
+     "Look in 'Journey to the End of the Earth' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -2323,10 +2252,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a news article about Antarctica's melting ice shelves and encounter the word \"calving\" — you know it relates to cows giving",
-     "That confusion is exactly why context matters.",
-     "In this chapter, Tishani Doshi uses precise scientific and descriptive language to convey urgency.",
-     "Start by reading the paragraph containing the target word aloud."
+     "Note the difficult or loaded words in 'Journey to the End of the Earth' — their meaning carries the text's precision."
     ]
    },
    {
@@ -2375,10 +2301,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading Doshi's opening paragraph and notice she writes \"I found myself aboard\" (past) but then \"my first emotion.",
-     "Why does she shift?",
-     "Start by marking every verb phrase in the first two pages.",
-     "Group them by tense and aspect."
+     "Read 'Journey to the End of the Earth' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -2427,10 +2350,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing Question 3: \"Why does the author call Antarctica 'a giant ping-pong ball'?\" — your mind blanks.",
-     "Start by asking: *Is the answer directly in the text or must I infer?* For literal questions (e.",
-     "For inferential questions (e.g., \"What does 'ping-pong ball' suggest about Antarctica?",
-     "Practice this on the four NCERT insight questions first, then generate your own inferential variants."
+     "Answer 'Journey to the End of the Earth' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -2438,20 +2358,18 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the primary purpose of Tishani Doshi's narrative in \"Journey to the End of the Earth\"?",
     "answer": "The primary purpose is to advocate for planetary awareness by showing how Antarctica's geological history and current ecological fragility reveal the consequences of human-induced",
     "options": [
-     "The narrator identifies as a \"sun-worshipping South Indian\" and a writer/poet (implied by her reflective",
-     "A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth, nuance, or a different perspective without overtaking the central message",
+     "The student can independently analyze a passage from the text to explain how the author uses narrative structure, language",
+     "The student can map the non-linear narrative structure of the text, identify how the author juxtaposes personal experience with scientific exposition",
      "The primary purpose is to advocate for planetary awareness by showing how Antarctica's geological history and current ecological fragility reveal the consequences of human-induced"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Journey' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"to describe a travel experience\" reveals the student misses the persuasive, argumentative layer beneath the travelogue surface.",
     "id": "gen_c12_eng_v_ch03_q13",
     "nodeId": "c12_eng_v_cbse_03_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a policy-maker reading this travelogue to decide whether to fund Antarctic research.",
-     "You ask: \"How does the author convince me that Antarctica matters?\" Start by identifying the author's central claim (Antarctica holds Earth's climate",
-     "Then trace how she supports it: personal experience, geological facts, scientific warnings, and the phytoplankton metaphor.",
-     "Notice how she moves from \"I\" to \"we\" to implicate the reader."
+     "Analyse 'Journey to the End of the Earth' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -2500,10 +2418,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_03_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you just returned from a school trip to a glacier in Ladakh and your principal asks you to write a speech for the morning assembly on \"Why",
-     "What facts from the chapter do you use?",
-     "How do you structure it so the examiner gives full marks?",
-     "This node teaches you to begin by identifying the *writing purpose* (persuade, inform, report), then select *chapter evidence* (phytoplankton"
+     "For written answers on 'Journey to the End of the Earth', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -2511,20 +2426,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "List two discussion topics from the chapter that relate to climate change.",
     "answer": "(1) The melting of the West Antarctic ice sheet and its impact on sea levels; (2) The effect of ozone depletion on phytoplankton and the global carbon cycle",
     "options": [
-     "(a) L — directly stated: \"Akademik Shokalskiy\". (b) I — requires interpreting \"prognosis\" in context of climate change and geological time",
-     "A metaphor directly equates two unlike things (A *is* B) to transfer qualities; a simile compares them using \"like\" or \"as\" (A *is like* B)",
+     "Student can explain why Antarctica's ice cores are critical for climate science, describe the Gondwana supercontinent's breakup and its geological consequences",
+     "The student can independently identify 5+ unfamiliar words from the chapter, explain their meanings using specific context clues (quote the phrase/clue)",
      "(1) The melting of the West Antarctic ice sheet and its impact on sea levels; (2) The effect of ozone depletion on phytoplankton and the global carbon cycle"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Journey' slide -- match the key terms.",
     "misconception": "A wrong answer that lists generic topics like \"global warming\" without linking to specific chapter content reveals the student cannot distinguish chapter-specific discussion points from general knowledge.",
     "id": "gen_c12_eng_v_ch03_q15",
     "nodeId": "c12_eng_v_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are at a youth climate summit and need to discuss the urgency of protecting Antarctica.",
-     "How would you use Tishani Doshi's experiences to make your point?",
-     "Begin by identifying discussion-worthy moments in the text: the Gondwana supercontinent connection, the carbon dioxide blanket metaphor, the",
-     "Frame open-ended questions that require textual evidence, such as \"How does the author use the phytoplankton metaphor to argue for environmental"
+     "Talk through 'Journey to the End of the Earth' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -2701,24 +2613,24 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about \"before you read\" section?",
+    "What surprised you about 'journey to the end?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "\"Before You Read\" Section mastered! 🎯",
+  "successLine": "'Journey To The End mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_v_ch04",
-  "title": "The \"Before You Read\" Context",
+  "title": "'The Enemy' — The Context And Background",
   "subtitle": "English · Chapter 4",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "The \"Before You Read\" Context",
+  "topic": "'The Enemy' — The Context And Background To This Tex",
   "chapters": [
-   "English Ch4: The \"Before You Read\" Context"
+   "English Ch4: 'The Enemy' — The Context And Background To This Tex"
   ],
   "nodeIds": [
    "c12_eng_v_cbse_04_001",
@@ -2744,103 +2656,103 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses The \"Before You Read\" Context in real working life?",
+   "question": "Who uses 'The Enemy' — The Context And in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "The \"Before You Read\" context provides the historical, cultural, and ethical framework necessary to interpret the story: it establishes the World War"
+   "hook": "'The Enemy' (Vistas, ch."
   },
   "teaching": [
    {
-    "title": "The \"Before You Read\" Context",
-    "text": "The \"Before You Read\" context provides the historical, cultural, and ethical framework necessary to interpret the story: it establishes the World War II Pacific Theater setting, introduces Pearl S.",
+    "title": "Before You Read: Context and Background",
+    "text": "'The Enemy' (Vistas, ch. 4) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the deliberate arrangement of story events — exposition, inciting incident, rising action, climax, falling action, and resolution — and the techniques an author uses (pacing, flashback, parallel plots, narrative",
+    "title": "Plot/narrative Arc Of 'The Enemy'",
+    "text": "The plot/narrative arc of 'The Enemy' — what happens, in what order, and why the sequence matters.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Setting In \"The Enemy\"",
-    "text": "Setting in \"The Enemy\" refers to the specific time (World War II), place (Japanese coastal house on rocks above a narrow beach with bent pines), and social context (wartime Japan with strict nationalism) that frames the narrative.",
+    "title": "Setting Of 'The Enemy'",
+    "text": "The setting of 'The Enemy' — the place, time and atmosphere the text creates.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining Dr. Sadao Hoki's personality traits, motivations, internal conflicts, professional ethics, relationships, and character development across the narrative to understand how he embodies the story's central",
+    "title": "Character Analysis In 'The Enemy'",
+    "text": "Character analysis in 'The Enemy' — the central figure(s), their traits, and how they develop.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters examines how secondary figures — through their actions, dialogue, relationships, and conflicts — reveal the protagonist's traits, advance the plot, and embody the story's themes.",
+    "title": "Supporting Characters In 'The Enemy'",
+    "text": "Supporting characters in 'The Enemy' — the secondary figures who move the story forward.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is the central idea or message that the author conveys through the narrative, characters, and conflicts. In \"The Enemy,\" the primary theme is the conflict between humanitarian duty (medical ethics) and national loyalty",
+    "title": "Primary Theme Of 'The Enemy'",
+    "text": "The primary theme of 'The Enemy' — the central idea the whole text returns to.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas or motifs in a literary work that support, contrast with, or add complexity to the primary theme. In \"The Enemy,\" while the primary theme is the conflict between professional duty and national loyalty, secondary",
+    "title": "Secondary Themes In 'The Enemy'",
+    "text": "Secondary themes in 'The Enemy' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid and descriptive language that appeals to the senses (sight, sound, smell, touch, taste) to create mental pictures. Metaphor is a figure of speech that directly compares two unrelated things by stating one is the other, without",
+    "title": "Imagery In 'The Enemy'",
+    "text": "Imagery in 'The Enemy' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where the intended meaning of words or events is opposite to their literal or surface meaning, creating a contrast between expectation and reality.",
+    "title": "Irony And Paradox In 'The Enemy' — Where",
+    "text": "Irony and paradox in 'The Enemy' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of a word *as it is used in a specific passage*, rather than relying solely on a dictionary definition.",
+    "title": "Key Vocabulary Of 'The Enemy'",
+    "text": "Key vocabulary of 'The Enemy' — the words and phrases you must know to read the text well.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the study of how grammatical structures (tenses, voice, speech, conditionals, modals, clause types) are employed in the narrative to convey meaning, tone, and character perspective.",
+    "title": "Language And Style In 'The Enemy'",
+    "text": "Language and style in 'The Enemy' — how the writer chose words, sentences and tone.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text, while inferential comprehension questions demand students to derive meaning not directly written by using textual evidence, logical reasoning, and context.",
+    "title": "Literal Comprehension Of 'The Enemy'",
+    "text": "Literal comprehension of 'The Enemy' — questions answered straight from the text.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves evaluating a text by questioning assumptions, examining evidence, interpreting authorial choices, and synthesizing multiple perspectives to form an independent, evidence-based judgment about the work's meaning,",
+    "title": "Critical Thinking On 'The Enemy'",
+    "text": "Critical thinking on 'The Enemy' — analysing the text to reach evidence-based judgements.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On \"The Enemy\"",
-    "text": "Writing Skills based on \"The Enemy\" involves crafting structured, evidence-based responses (essays, articles, speeches, diary entries, character sketches) that analyze the chapter's themes, characters, and moral dilemmas using textual evidence, while",
+    "title": "Writing Skills From 'The Enemy'",
+    "text": "Writing skills from 'The Enemy' — using the text as a model or springboard for your own writing.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students articulate interpretations, debate ethical dilemmas, and collaboratively explore themes from the text \"The Enemy\" through guided discussions, role-plays, and",
+    "title": "Discussion Points On 'The Enemy'",
+    "text": "Discussion points on 'The Enemy' — speaking and listening around the text.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -2851,20 +2763,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the specific historical conflict that forms the backdrop of \"The Enemy,\" and which two nations are directly opposed in this setting?",
     "answer": "The story is set during World War II in the Pacific Theater, specifically between Imperial Japan and the United States",
     "options": [
-     "Correct mapping: (1) Exposition — Sadao's childhood memory of his father pointing to islands as \"stepping stones to the future\" (para 2)",
-     "The house is a low, square stone structure built on rocks well above a narrow beach outlined with bent pines",
+     "Setting in \"The Enemy\" refers to the specific time (World War II), place (Japanese coastal house on rocks above a narrow beach with bent pines)",
+     "The student can identify at least three specific setting details from the text, explain how each contributes to the atmosphere",
      "The story is set during World War II in the Pacific Theater, specifically between Imperial Japan and the United States"
     ],
-    "hint": "Straight from the 'The \"Before You Read\" context' slide -- match the key terms.",
+    "hint": "Straight from the ''The Enemy' — the context and' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"World War I\" or \"Japan vs. China\") reveals the student has not grasped the geopolitical context that makes the doctor's dilemma treasonous — Japan and the US were bitter enemies after Pearl Harbor (1941), and helping an American POW was a capital offense under Japanese military law.",
     "id": "gen_c12_eng_v_ch04_q1",
     "nodeId": "c12_eng_v_cbse_04_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are a doctor in a modern conflict zone — say, a surgeon in a war-torn region — and an injured enemy combatant is brought to your clinic.",
-     "Your medical training says \"save the life,\" but the law and your community say \"hand him over or be executed as a traitor.",
-     "To understand his choice, we must first step into 1940s Japan: a militaristic society where surrender was dishonor, Americans were \"devils,\" and",
-     "Buck, an American who grew up in China and knew Japanese culture intimately, wrote this story in 1942 *during* the war, not after — making it a bold"
+     "Start with the author of 'The Enemy', then the period, then the literary context — background turns a text from a puzzle into a story you can read."
     ]
    },
    {
@@ -2946,10 +2855,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a surgical drama where the protagonist must operate on a terrorist — the camera lingers on the doctor's hands trembling over",
-     "\"The Enemy\" uses identical structural pacing: Buck opens with slow, atmospheric exposition (fog, memories, Sadao's past), accelerates through the",
-     "To analyze this, first read the story once for events, then re-read marking only structural signposts: where does the status quo break?",
-     "Where does tension peak?"
+     "Trace 'The Enemy' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -2957,20 +2863,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the specific geographical features of Dr. Sadao's house and its surroundings as described in the opening paragraphs of \"The Enemy.\"",
     "answer": "The house is a low, square stone structure built on rocks well above a narrow beach outlined with bent pines",
     "options": [
-     "A secondary theme is a recurring idea that supports or complicates the main theme. In \"The Enemy,\" one secondary theme is racial prejudice and dehumanization of the enemy",
-     "Correct mapping: (1) Exposition — Sadao's childhood memory of his father pointing to islands as \"stepping stones to the future\" (para 2)",
+     "Setting in \"The Enemy\" refers to the specific time (World War II), place (Japanese coastal house on rocks above a narrow beach with bent pines)",
+     "The student can identify at least three specific setting details from the text, explain how each contributes to the atmosphere",
      "The house is a low, square stone structure built on rocks well above a narrow beach outlined with bent pines"
     ],
-    "hint": "Straight from the 'Setting in \"The Enemy\"' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'The Enemy'' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Students often confuse the house's elevation (\"well above\" the beach) or miss the \"bent pines\" detail, treating the setting as generic \"coastal Japan\" rather than the specific, isolated topography Buck constructs.",
     "id": "gen_c12_eng_v_ch04_q3",
     "nodeId": "c12_eng_v_cbse_04_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing on a rocky Japanese coastline at dusk, thick fog rolling in from the Pacific, hiding everything beyond a few meters — you can",
-     "That's exactly where \"The Enemy\" opens.",
-     "Start by asking: \"What does the fog hide, and what does it reveal?\" First, map the physical geography: the house on rocks, the narrow beach, the bent",
-     "Then track the sensory progression: warmth → fog → mist → complete screening."
+     "Identify where and when 'The Enemy' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -3019,10 +2922,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're a doctor in wartime and an enemy soldier washes up at your doorstep — bleeding, unconscious, and completely at your mercy.",
-     "Your medical training screams \"save him,\" but your country's laws demand \"hand him over.\" This is Dr.",
-     "Sadao's exact predicament.",
-     "To analyze him, start by listing what the text explicitly tells us: his American education, his father's ambitions, his surgical skill, his marriage"
+     "Pick the central figure in 'The Enemy' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -3082,10 +2982,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a juror watching a trial: the protagonist is the defendant, but the witnesses — Hana, the servants, the General, Tom — each give",
-     "Start by listing every supporting character and their key scenes.",
-     "Then ask: \"What does this character *force* the protagonist to confront?\" For Hana, it's her shift from compliance to active participation; for the",
-     "Track each character's arc across the story and note how their presence escalates Sadao's conflict."
+     "Spot the secondary figures in 'The Enemy' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -3093,20 +2990,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the central conflict that drives the primary theme of \"The Enemy\"?",
     "answer": "The central conflict is Dr. Sadao's dilemma between his duty as a doctor to save a wounded enemy soldier and his duty as a Japanese citizen to hand him over to the authorities",
     "options": [
-     "The story is set during World War II in the Pacific Theater, specifically between Imperial Japan and the United States",
-     "Correct mapping: (1) Exposition — Sadao's childhood memory of his father pointing to islands as \"stepping stones to the future\" (para 2)",
+     "The student can independently write a 150-200 word structured response (essay/article/speech/diary entry) on any theme/character from \"The Enemy\" using the PEEL framework",
+     "The primary purpose is to explore multiple perspectives on the story's ethical dilemmas (e.g., humanity vs",
      "The central conflict is Dr. Sadao's dilemma between his duty as a doctor to save a wounded enemy soldier and his duty as a Japanese citizen to hand him over to the authorities"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'The Enemy'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the conflict is between Sadao and the General\") reveals the student is confusing a secondary plot point with the core thematic conflict.",
     "id": "gen_c12_eng_v_ch04_q6",
     "nodeId": "c12_eng_v_cbse_04_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a doctor in a war zone and an enemy soldier is brought to you, bleeding.",
-     "Your country says kill him; your profession says save him.",
-     "This is the exact dilemma Dr.",
-     "To find the primary theme, start by listing the major conflicts: Sadao vs. the servants, Sadao vs. the General, Sadao vs. his own conscience."
+     "Ask what 'The Enemy' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -3155,10 +3049,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a doctor in a war zone and an injured enemy soldier is brought to you.",
-     "Your country says \"let him die,\" but your medical oath says \"save him.\" This real-world dilemma mirrors Dr.",
-     "Sadao's situation.",
-     "To analyze secondary themes, first re-read the story marking every moment where characters express hatred, fear, or prejudice against the \"white man\""
+     "Look beneath the main theme of 'The Enemy' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -3166,20 +3057,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define imagery and metaphor. Give one example of each from \"The Enemy\".",
     "answer": "Imagery: descriptive language appealing to senses. Example: \"The surf beyond the beach was spiked with rocks\" (visual/tactile)",
     "options": [
-     "The story is set during World War II in the Pacific Theater, specifically between Imperial Japan and the United States",
-     "Correct mapping: (1) Exposition — Sadao's childhood memory of his father pointing to islands as \"stepping stones to the future\" (para 2)",
+     "Imagery is the use of vivid and descriptive language that appeals to the senses (sight, sound, smell, touch, taste) to create mental pictures",
+     "The student can independently analyze a complex literary scenario from \"The Enemy\" by identifying conflicting values, evaluating character decisions against textual evidence",
      "Imagery: descriptive language appealing to senses. Example: \"The surf beyond the beach was spiked with rocks\" (visual/tactile)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the 'Imagery in 'The Enemy'' slide -- match the key terms.",
     "misconception": "A wrong answer might confuse metaphor with simile (using 'like' or 'as') or give a generic definition without textual example, showing lack of close reading.",
     "id": "gen_c12_eng_v_ch04_q8",
     "nodeId": "c12_eng_v_cbse_04_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a film director adapting \"The Enemy\" into a movie.",
-     "You need to decide how to visually represent the fog creeping up the beach, the blood on the sand, the surgeon's light on the wound.",
-     "Ask yourself: \"Which words in the text would I use to create these scenes?\" Locate sensory details (e.",
-     "Then ask: \"What deeper comparisons does the author make?\" Point out metaphors like \"stepping stones to the future\", \"the sea caught him and wounded"
+     "Find the lines in 'The Enemy' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -3187,20 +3075,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from \"The Enemy\" where the outcome is the opposite of what the characters or readers expect.",
     "answer": "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended",
     "options": [
+     "Setting in \"The Enemy\" refers to the specific time (World War II), place (Japanese coastal house on rocks above a narrow beach with bent pines)",
      "A secondary theme is a recurring idea that supports or complicates the main theme. In \"The Enemy,\" one secondary theme is racial prejudice and dehumanization of the enemy",
-     "Imagery: descriptive language appealing to senses. Example: \"The surf beyond the beach was spiked with rocks\" (visual/tactile)",
      "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'The Enemy'' slide -- match the key terms.",
     "misconception": "A wrong answer that only defines irony without a text-specific example reveals the student cannot connect the abstract term to concrete textual evidence, a critical gap for board exam answers.",
     "id": "gen_c12_eng_v_ch04_q9",
     "nodeId": "c12_eng_v_cbse_04_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a war film where a doctor saves an enemy soldier — your first thought might be \"traitor,\" but then you realize the doctor's",
-     "That tension is exactly what Pearl S.",
-     "Buck builds through irony and symbolism.",
-     "Begin by re-reading the key scenes: the discovery on the shore, the operation, the General's offer of assassins, and the final escape."
+     "Look in 'The Enemy' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -3212,16 +3097,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "\"February 28. My heart breaks leaving Baby and Mistress. But I cannot stay where a white enemy is sheltered",
      "1. haori – a loose outer garment worn over the kimono (explicitly defined in footnote 1). 2. kimono – traditional Japanese robe; context shows Hana wears it under the haori"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'The Enemy'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student lists \"surgeon,\" \"operation,\" \"bullet,\" they confuse medical terminology (universal) with culturally specific vocabulary. If they cannot distinguish *haori* from *kimono*, they miss the text's attention to cultural detail which frames the conflict between Japanese identity and",
     "id": "gen_c12_eng_v_ch04_q10",
     "nodeId": "c12_eng_v_cbse_04_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the scene where Sadao operates on the American soldier and encounter the word \"stanch\": *\"his trained hands seemed of their",
-     "How do you figure it out *without a dictionary*?",
-     "First, locate the word in the sentence.",
-     "Second, identify the object: \"bleeding.\" Third, note the modifier \"fearful\" and the subject \"trained hands\" — a doctor's hands."
+     "Note the difficult or loaded words in 'The Enemy' — their meaning carries the text's precision."
     ]
    },
    {
@@ -3229,20 +3111,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the tense used in the sentence: \"He had been sent at twenty-two to America to learn all that could be learned of surgery and medicine.\" Name the tense and its form.",
     "answer": "Past perfect passive: \"had been sent\". It indicates an action completed before another past time (his return at thirty)",
     "options": [
-     "The central conflict is Dr. Sadao's dilemma between his duty as a doctor to save a wounded enemy soldier and his duty as a Japanese citizen to hand him over to the authorities",
-     "PEEL stands for Point (topic sentence stating the argument), Evidence (specific textual reference",
+     "The student must be able to identify and explain the function of at least three distinct grammatical structures in the text (e",
+     "The student can identify at least three distinct instances of irony (situational, dramatic, verbal) and three symbols in the text",
      "Past perfect passive: \"had been sent\". It indicates an action completed before another past time (his return at thirty)"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'The Enemy'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., past simple passive \"was sent\") shows the student cannot distinguish between a simple past event and an event prior to the narrative's past reference point.",
     "id": "gen_c12_eng_v_ch04_q11",
     "nodeId": "c12_eng_v_cbse_04_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are writing a diary entry as Dr Sadao the night he finds the wounded soldier.",
-     "Which tenses would you use to describe the events of the day, and which to express your regrets about the past?",
-     "This real-world scenario mirrors the text's own grammatical choices.",
-     "Begin by noticing the narrative tenses: past simple for the main storyline (the fog, the discovery), past perfect for the backstory (his education,"
+     "Read 'The Enemy' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -3291,10 +3170,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE exam hall holding the \"The Enemy\" extract: Sadao finds the wounded American on the shore.",
-     "The first question asks: \"Where was Sadao's house located?\" — a literal question you answer by lifting the phrase \"on a spot of the Japanese coast.",
-     "This node teaches you to instantly tag each question as L or I, then apply the correct retrieval or reasoning strategy.",
-     "We'll start by colour-coding the text: yellow for explicit facts, blue for implied motives."
+     "Answer 'The Enemy' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -3302,20 +3178,18 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the central ethical dilemma Dr. Sadao faces in \"The Enemy,\" and which two roles are in direct conflict?",
     "answer": "The central dilemma is whether to save a wounded enemy soldier (duty as a doctor) or hand him over to authorities (duty as a Japanese citizen)",
     "options": [
-     "The primary purpose is to explore multiple perspectives on the story's ethical dilemmas (e.g., humanity vs",
-     "A secondary theme is a recurring idea that supports or complicates the main theme. In \"The Enemy,\" one secondary theme is racial prejudice and dehumanization of the enemy",
+     "The student can identify the primary theme of \"The Enemy,\" trace its development through at least three key episodes in the story",
+     "The student must be able to identify at least three distinct secondary themes in \"The Enemy,\" provide specific textual evidence for each",
      "The central dilemma is whether to save a wounded enemy soldier (duty as a doctor) or hand him over to authorities (duty as a Japanese citizen)"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'The Enemy'' slide -- match the key terms.",
     "misconception": "A wrong answer that names \"father vs. son\" or \"husband vs. wife\" reveals the student has confused interpersonal conflict with the core ethical tension, indicating they haven't distinguished plot events from thematic structure.",
     "id": "gen_c12_eng_v_ch04_q13",
     "nodeId": "c12_eng_v_cbse_04_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a judge hearing Dr.",
-     "Sadao's case: he saved an enemy soldier, violating wartime law, but upheld his medical oath.",
-     "How do you weigh these competing duties?",
-     "Begin by identifying the core conflict — not just \"doctor vs. patriot\" but the specific moments where Sadao's professional instinct overrides his"
+     "Analyse 'The Enemy' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -3364,10 +3238,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in the exam hall facing a 6-mark question: \"Dr.",
-     "Sadao's decision to save the enemy soldier reveals the conflict between professional duty and national loyalty.",
-     "Discuss.\" Most students freeze — they know the story but don't know how to structure the answer.",
-     "Start by identifying the task type (theme-based essay)."
+     "For written answers on 'The Enemy', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -3416,10 +3287,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_04_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a literature circle discussing whether Dr.",
-     "Sadao betrayed his country or upheld a higher moral law.",
-     "You start by recalling the moment Sadao operates on the enemy soldier.",
-     "First, identify the core conflict: duty as a doctor vs. duty as a citizen."
+     "Talk through 'The Enemy' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -3618,23 +3486,25 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the \"before you read\" context?",
+    "What surprised you about 'the enemy' — the context and background to this tex?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "The \"Before You Read\" Context mastered! 🎯",
+  "successLine": "'The Enemy' — The Context mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_v_ch05",
-  "title": "Before You Read: Context and Background",
+  "title": "'On The Face Of It' — The Context",
   "subtitle": "English · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch5: Before You Read: Context and Background"],
+  "topic": "'On The Face Of It' — The Context And Background To",
+  "chapters": [
+   "English Ch5: 'On The Face Of It' — The Context And Background To"
+  ],
   "nodeIds": [
    "c12_eng_v_cbse_05_001",
    "c12_eng_v_cbse_05_002",
@@ -3659,103 +3529,103 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Before You Read: Context and suddenly stops working?",
+   "question": "What happens if 'On The Face Of It' — The Context suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential information about the author, genre, historical/literary"
+   "hook": "'On the Face of It' (Vistas, ch."
   },
   "teaching": [
    {
     "title": "Before You Read: Context and Background",
-    "text": "\"Before You Read: Context and Background\" is a pre-reading strategy that provides essential information about the author, genre, historical/literary context, setting, main characters, and the central thematic question of a text to activate prior knowledge and",
+    "text": "'On the Face of It' (Vistas, ch. 5) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and narrative structure refers to the organization of events in a literary work, including the sequence of scenes, the arrangement of dialogue and stage directions, and the pacing that shapes the audience's understanding of character transformation and",
+    "title": "Plot/narrative Arc Of 'On",
+    "text": "The plot/narrative arc of 'On the Face of It' — what happens, in what order, and why the sequence matters.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Setting In Drama",
-    "text": "Setting in drama refers to the time, place, and physical environment where the action occurs, including sensory details like sounds, sights, and seasonal indicators.",
+    "title": "Setting Of 'On The Face",
+    "text": "The setting of 'On the Face of It' — the place, time and atmosphere the text creates.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist (Derry) in \"On the Face of It\" involves a systematic examination of his physical traits, psychological state, motivations, internal conflicts, speech patterns, relationships, and transformation across the play, using",
+    "title": "Character Analysis In 'On The Face",
+    "text": "Character analysis in 'On the Face of It' — the central figure(s), their traits, and how they develop.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Supporting Characters In \"On The Face Of It\"",
-    "text": "Supporting characters in \"On the Face of It\" are secondary figures — primarily Mr. Lamb and Derry's mother — who exist to illuminate the protagonist Derry's internal conflict, advance the play's central themes of alienation and acceptance, and provide",
+    "title": "Supporting Characters In 'On The Face",
+    "text": "Supporting characters in 'On the Face of It' — the secondary figures who move the story forward.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or message about life, human nature, or society that the author conveys through plot, character, and setting.",
+    "title": "Primary Theme Of 'On",
+    "text": "The primary theme of 'On the Face of It' — the central idea the whole text returns to.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, messages, or motifs that support, complicate, or run parallel to the primary theme of a literary work.",
+    "title": "Secondary Themes In 'On The Face",
+    "text": "Secondary themes in 'On the Face of It' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotional responses.",
+    "title": "Imagery In 'On The Face",
+    "text": "Imagery in 'On the Face of It' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📘",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony In Literature",
-    "text": "Irony in literature is a contrast between expectation and reality — what appears to be true versus what is actually true, or what is said versus what is meant.",
+    "title": "Irony And Paradox In 'On The Face Of It' —",
+    "text": "Irony and paradox in 'On the Face of It' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of a word or phrase by analyzing its surrounding text — including syntax, tone, imagery, and thematic relevance — rather than relying solely on",
+    "title": "Key Vocabulary Of 'On The Face",
+    "text": "Key vocabulary of 'On the Face of It' — the words and phrases you must know to read the text well.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Language Usage In The Text",
-    "text": "Language Usage in the Text refers to the analysis of grammatical structures, syntactic patterns, and stylistic choices the author employs in dialogue and narrative to reveal character, advance plot, and convey theme.",
+    "title": "Language And Style In 'On",
+    "text": "Language and style in 'On the Face of It' — how the writer chose words, sentences and tone.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (who, what, where, when), while inferential comprehension questions demand logical deductions based on textual evidence, context, and implied meaning (why,",
+    "title": "Literal Comprehension Of 'On The Face",
+    "text": "Literal comprehension of 'On the Face of It' — questions answered straight from the text.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the advanced literary skill of moving beyond literal comprehension to examine how a text constructs meaning through character dynamics, thematic development, dramatic structure, and authorial choices,",
+    "title": "Critical Thinking On 'On The Face",
+    "text": "Critical thinking on 'On the Face of It' — analysing the text to reach evidence-based judgements.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on the chapter \"On the Face of It\" refers to the ability to produce structured, evidence-based written responses (character sketches, theme analyses, diary entries, letters, articles, analytical paragraphs) that demonstrate understanding",
+    "title": "Writing Skills From 'On The Face",
+    "text": "Writing skills from 'On the Face of It' — using the text as a model or springboard for your own writing.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Speaking And Listening Discussion Points",
-    "text": "Speaking and Listening Discussion Points for \"On the Face of It\" are structured prompts and activities that guide students to orally explore the play's themes of disability, alienation, and human connection, while practicing active listening, turn-taking, and",
+    "title": "Discussion Points On 'On The Face",
+    "text": "Discussion points on 'On the Face of It' — speaking and listening around the text.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -3766,42 +3636,67 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the genre of \"On the Face of It\" and who is the author?",
     "answer": "The genre is a one-act play (drama) and the author is Susan Hill",
     "options": [
-     "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes",
-     "A secondary theme is a recurring idea that supports or runs parallel to the primary theme but is not the central message",
-     "The genre is a one-act play (drama) and the author is Weed",
+     "The student can write a structured, evidence-based character analysis of Derry that traces his psychological arc across all three scenes, identifies the catalyst for his change",
+     "The two supporting characters who appear on stage are Mr. Lamb (Scene One and Three) and Derry's mother (Scene Two)",
+     "The genre is a one-act play (drama) and the author is Friends",
      "The genre is a one-act play (drama) and the author is Susan Hill"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''On the Face of It' — the context' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"short story\" or \"poem\") reveals the student cannot distinguish dramatic form from narrative prose, which will hinder understanding of stage directions, dialogue-driven characterisation, and the immediate, present-tense experience of a play.",
     "id": "gen_c12_eng_v_ch05_q1",
     "nodeId": "c12_eng_v_cbse_05_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to meet a new classmate who has a visible facial difference — you might wonder how to act, what to say, or whether to ask about",
-     "That awkwardness is exactly what this play explores.",
-     "Begin by reading the \"Before you read\" box in your textbook (page 48).",
-     "First, identify the author (Susan Hill) and genre (play/drama)."
+     "Start with the author of 'On the Face of It', then the period, then the literary context — background turns a text from a puzzle into a story you can"
     ]
    },
    {
-    "type": "mcq",
-    "question": "What are the three scenes in \"On the Face of It\" and where does each take place?",
-    "answer": "Scene One: Mr Lamb's garden (daytime). Scene Two: Derry's house (interior, same day). Scene Three: Mr Lamb's garden again (evening, later)",
-    "options": [
-     "The two supporting characters who appear on stage are Mr. Lamb (Scene One and Three) and Derry's mother (Scene Two)",
-     "Derry is a 14-year-old boy with one side of his face burned by acid (\"I got acid all down that side of my face and it burned it all away. It ate my face up.\")",
-     "Scene One: Mr Lamb's garden (daytime). Scene Two: Derry's house (interior, same day). Scene Three: Mr Lamb's garden again (evening, later)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "delineate the three scenes",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "trace Derry's psychological progression",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain how the play's structural choices",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Plot and narrative structure' slide -- match the key terms.",
-    "misconception": "A wrong answer that merges Scenes One and Three or misplaces Scene Two reveals the student hasn't grasped the spatial-temporal structure that drives the play's circular motion and the significance of Derry's return journey.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) delineate the three scenes with their distinct settings and dramatic functions, (2)",
     "id": "gen_c12_eng_v_ch05_q2",
     "nodeId": "c12_eng_v_cbse_05_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a theatre director staging this play: you have only two actors, one garden set, and 20 minutes to make the audience care about a boy",
-     "Where do you begin?",
-     "Start by reading the stage directions in Scene One — they tell you the garden is \"empty\" until Derry enters, establishing isolation as the default",
-     "Then track how each scene changes the physical space: Scene One (garden, daytime), Scene Two (Derry's house, interior), Scene Three (garden again,"
+     "Trace 'On the Face of It' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -3850,10 +3745,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_05_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're Derry, fourteen, climbing a garden wall because the world stares at your burned face — what do you notice first?",
-     "The rustling leaves, the crab apples in long grass, an old man's voice saying \"Mind the apples!",
-     "Start by listing every sensory detail in Scene One (sound: birdsong, rustling, bees; sight: apples, grass, screen of bushes; touch: long grass on",
-     "Then trace how each detail shifts in Scene Two (Derry's house: closed, protective, mother's fear) and Scene Three (garden again: ladder crash,"
+     "Identify where and when 'On the Face of It' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -3902,10 +3794,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_05_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you have a visible scar that makes strangers whisper.",
-     "How would you react?",
-     "Derry’s first entrance — climbing a garden wall to hide — shows his instinct to escape stares.",
-     "Start by listing every line Derry speaks in Scene 1; notice how he interrupts Mr Lamb, assumes pity, and reveals his acid injury."
+     "Pick the central figure in 'On the Face of It' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -3914,19 +3803,16 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "answer": "The two supporting characters who appear on stage are Mr. Lamb (Scene One and Three) and Derry's mother (Scene Two)",
     "options": [
      "The three settings are: (1) Mr. Lamb's garden — Scene One and Scene Three; (2) Derry's house (specifically the room where he talks to his mother) — Scene Two",
-     "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes",
+     "The student must be able to: (1) identify each supporting character's distinct function in Derry's character arc using textual evidence",
      "The two supporting characters who appear on stage are Mr. Lamb (Scene One and Three) and Derry's mother (Scene Two)"
     ],
-    "hint": "Straight from the 'Supporting characters in \"On the' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in 'On the' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"the woman at the bus stop\" or \"kids who call him Lamey-Lamb\" as on-stage characters reveals confusion between reported speech and dramatic presence.",
     "id": "gen_c12_eng_v_ch05_q5",
     "nodeId": "c12_eng_v_cbse_05_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching a play where the main character refuses to talk to anyone — how would you understand his mind?",
-     "You'd need other characters to draw him out.",
-     "In \"On the Face of It,\" Derry climbs a garden wall to hide from the world.",
-     "Lamb doesn't pity him; he talks about bees, weeds, and crab apples — forcing Derry to respond."
+     "Spot the secondary figures in 'On the Face of It' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -3935,19 +3821,16 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "answer": "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes",
     "options": [
      "A secondary theme is a recurring idea that supports or runs parallel to the primary theme but is not the central message",
-     "The genre is a one-act play (drama) and the author is Susan Hill",
+     "Secondary themes are the underlying ideas, messages, or motifs that support, complicate, or run parallel to the primary theme of a literary work",
      "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'On' slide -- match the key terms.",
     "misconception": "A wrong answer like \"the play is about a burned boy and a lame man\" confuses subject (what happens) with theme (what it means). Students who give this answer haven't yet learned to distinguish plot from the universal insight the plot illustrates.",
     "id": "gen_c12_eng_v_ch05_q6",
     "nodeId": "c12_eng_v_cbse_05_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you meet someone who avoids eye contact, hunches their shoulders, and expects you to stare — because everyone always has.",
-     "Now imagine an old man who leaves his gate open, talks to bees, and says \"Everything's yours if you want it.\" That's Mr.",
-     "The primary theme isn't just \"don't judge by appearances\" — that's a cliché.",
-     "The deeper message is: alienation is a two-way street."
+     "Ask what 'On the Face of It' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -3955,20 +3838,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define \"secondary theme\" in the context of a play, and distinguish it from the primary theme using one example from \"On the Face of It.\"",
     "answer": "A secondary theme is a recurring idea that supports or runs parallel to the primary theme but is not the central message",
     "options": [
-     "The three settings are: (1) Mr. Lamb's garden — Scene One and Scene Three; (2) Derry's house (specifically the room where he talks to his mother) — Scene Two",
-     "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes",
+     "The student can independently initiate and sustain a 5-minute small-group discussion on a given theme from the play, citing at least two textual evidences",
+     "The student can independently identify at least three distinct secondary themes in the play, provide specific textual evidence (dialogue, stage directions",
      "A secondary theme is a recurring idea that supports or runs parallel to the primary theme but is not the central message"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the 'Secondary themes in 'On the Face' slide -- match the key terms.",
     "misconception": "A wrong answer that lists \"disability\" as a secondary theme reveals confusion between subject matter (what the play is about) and theme (what the play says about it).",
     "id": "gen_c12_eng_v_ch05_q7",
     "nodeId": "c12_eng_v_cbse_05_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to a friend talk about a bad day — they mention the traffic (surface), but underneath they're really saying \"I feel",
-     "Literature works the same way.",
-     "Start by re-reading the play with a highlighter, marking every moment where characters discuss being alone, being judged by looks, choosing to stay",
-     "Each cluster is a potential secondary theme."
+     "Look beneath the main theme of 'On the Face of It' for the recurring secondary ideas that give it layers."
     ]
    },
    {
@@ -4028,10 +3908,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_05_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing in Mr.",
-     "Lamb's garden: you hear bees \"singing,\" see \"orange and golden\" crab apples, feel the \"long grass\" underfoot.",
-     "Now ask yourself: why does Susan Hill make the garden feel so alive when Derry feels half-dead inside?",
-     "Start by listing every sensory detail in Scene One — sounds, sights, textures."
+     "Find the lines in 'On the Face of It' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -4091,10 +3968,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_05_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're scrolling through social media and see a post: \"Just got rejected from my dream college — best day of my life!\" Your brain pauses.",
-     "That's irony — the gap between what's expected (devastation) and what's claimed (joy).",
-     "Now think of a wedding ring: a simple metal band that symbolizes eternal commitment, love, and legal partnership.",
-     "In \"On the Face of It,\" Susan Hill uses both devices masterfully."
+     "Look in 'On the Face of It' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -4143,10 +4017,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_05_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you're reading Scene One and hit the word \"tentatively\" describing Derry's footsteps.",
-     "A dictionary says \"hesitantly,\" but why does Susan Hill choose *this* word over \"slowly\" or \"nervously\"?",
-     "Start by circling every unfamiliar or interesting word in your text.",
-     "Then, for each word: (1) locate its exact sentence, (2) note the speaker/situation, (3) ask \"What does this word *do* here?"
+     "Note the difficult or loaded words in 'On the Face of It' — their meaning carries the text's precision."
     ]
    },
    {
@@ -4154,20 +4025,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the punctuation mark used repeatedly in the play to indicate pauses, hesitation, or trailing thoughts in Derry's speech, and give one example from the text.",
     "answer": "The ellipsis (…) is used repeatedly to show Derry's hesitation, emotional pauses, and incomplete thoughts",
     "options": [
-     "Derry is a 14-year-old boy with one side of his face burned by acid (\"I got acid all down that side of my face and it burned it all away. It ate my face up.\")",
-     "The three settings are: (1) Mr. Lamb's garden — Scene One and Scene Three; (2) Derry's house (specifically the room where he talks to his mother) — Scene Two",
+     "The student can (1) identify 8-10 key vocabulary items from the play, (2) explain each word's contextual meaning with textual evidence",
+     "Scene One: Mr Lamb's garden (daytime). Scene Two: Derry's house (interior, same day). Scene Three: Mr Lamb's garden again (evening, later)",
      "The ellipsis (…) is used repeatedly to show Derry's hesitation, emotional pauses, and incomplete thoughts"
     ],
-    "hint": "Straight from the 'Language Usage in the Text' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'On' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"comma\" or \"dash\") reveals the student hasn't noticed how punctuation maps onto psychological state — a critical skill for drama analysis in board exams.",
     "id": "gen_c12_eng_v_ch05_q11",
     "nodeId": "c12_eng_v_cbse_05_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're overhearing two strangers talk in a park — one speaks in calm, complete sentences; the other answers in sharp, broken fragments.",
-     "That's exactly what Susan Hill does with Mr Lamb and Derry.",
-     "Start by reading a page of dialogue aloud: notice where sentences trail off (…), where questions pile up, where one character repeats the other's",
-     "Mark these patterns."
+     "Read 'On the Face of It' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -4179,16 +4047,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "Scene One: Mr Lamb's garden (daytime). Scene Two: Derry's house (interior, same day). Scene Three: Mr Lamb's garden again (evening, later)",
      "This is a literal question because it asks for a direct quotation or paraphrase of Mr Lamb's explicitly spoken words (\"The gate's always open. All welcome.\")"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the 'Literal comprehension of 'On the' slide -- match the key terms.",
     "misconception": "A wrong answer labeling it inferential reveals the student confuses *topic* (the gate) with *question type* — they see a detail and assume analysis is needed, not realizing the answer is verbatim in the text.",
     "id": "gen_c12_eng_v_ch05_q12",
     "nodeId": "c12_eng_v_cbse_05_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the exam hall and the first question reads: \"Why does Derry climb the garden wall instead of using the gate?",
-     "Start every comprehension task by underlining the question's command word: *state*, *quote*, *explain*, *suggest*, *infer*.",
-     "If it says \"state\" or \"quote\", hunt for the exact sentence.",
-     "If it says \"explain why\" or \"what does this suggest\", you must build an inference chain: quote the clue, name the implication, and tie it to"
+     "Answer 'On the Face of It' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -4237,10 +4102,8 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_05_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked: \"Why does Derry return to Mr Lamb's garden at the end, knowing Mr Lamb might be dead?",
-     "Begin by identifying the central tension: Derry's self-loathing versus Mr Lamb's radical acceptance.",
-     "Trace how this tension evolves across three scenes: Scene One (confrontation), Scene Two (domestic conflict), Scene Three (return and discovery).",
-     "Notice what changes in Derry's language — from \"I'm not afraid\" to \"I want the world."
+     "Analyse 'On the Face of It' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -4248,20 +4111,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the correct structure of a PEEL paragraph for a character sketch answer in the CBSE Class 12 English exam?",
     "answer": "A PEEL paragraph consists of: Point (topic sentence stating a trait), Evidence (textual detail/quote), Explanation (analysis of how evidence proves the trait)",
     "options": [
-     "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes",
-     "The genre is a one-act play (drama) and the author is Susan Hill",
+     "The student must be able to: (1) identify each supporting character's distinct function in Derry's character arc using textual evidence",
+     "The student can independently construct a structured analytical response that: (1) identifies a specific interpretive claim about character motivation, thematic resonance",
      "A PEEL paragraph consists of: Point (topic sentence stating a trait), Evidence (textual detail/quote), Explanation (analysis of how evidence proves the trait)"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing skills from 'On the Face' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"PEEL means Point, Example, Effect, Language\") reveals the student confuses the analytical framework with a generic essay mnemonic, leading to missing the crucial \"Link\" step that connects to the play's central themes — a specific CBSE marking requirement.",
     "id": "gen_c12_eng_v_ch05_q14",
     "nodeId": "c12_eng_v_cbse_05_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open your board exam paper and see: \"Write a character sketch of Derry in 100-120 words.",
-     "Start by recalling the three pillars: Derry's withdrawal (evidence: climbing the wall, \"I don't like being with people\"), his bitterness (evidence:",
-     "Now structure: Point 1 (withdrawn) + Evidence + Explanation + Link to theme of alienation.",
-     "Point 2 (bitter) + Evidence + Explanation + Link."
+     "For written answers on 'On the Face of It', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -4269,20 +4129,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the primary purpose of a 'discussion point' in a speaking and listening activity based on a literary text?",
     "answer": "A discussion point is an open-ended prompt derived from the text that invites multiple perspectives and requires textual evidence, not a factual recall question",
     "options": [
-     "A secondary theme is a recurring idea that supports or runs parallel to the primary theme but is not the central message",
-     "The primary theme is that human connection and self-acceptance can overcome the alienation caused by physical difference, and that isolation is a choice one makes",
+     "A PEEL paragraph consists of: Point (topic sentence stating a trait), Evidence (textual detail/quote), Explanation (analysis of how evidence proves the trait)",
+     "The student can independently initiate and sustain a 5-minute small-group discussion on a given theme from the play, citing at least two textual evidences",
      "A discussion point is an open-ended prompt derived from the text that invites multiple perspectives and requires textual evidence, not a factual recall question"
     ],
-    "hint": "Straight from the 'Speaking and Listening Discussion' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'On the Face' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"To test if students remember the plot\") reveals the student confuses discussion with comprehension testing.",
     "id": "gen_c12_eng_v_ch05_q15",
     "nodeId": "c12_eng_v_cbse_05_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a book club where everyone has read \"On the Face of It\" but interpretations differ — some think Mr Lamb is merely lonely, others",
-     "Start by asking students to recall the most striking moment in the play (e.g., Derry's outburst about his face).",
-     "Then guide them to frame that moment as a discussion question: \"Does Mr Lamb's disability make him more or less empathetic?",
-     "Beauty and the beast.'\")."
+     "Talk through 'On the Face of It' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -4354,55 +4211,130 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
-    "type": "mcq",
-    "question": "Based on the \"Before you read\" box, list three specific details about the setting and the two main characters that you would expect to see developed in the play.",
-    "answer": "Setting: Mr Lamb's garden (outdoors, natural, accessible). Character 1: Mr Lamb — old man, has a tin leg (lost real leg), lives alone in a big house",
-    "options": [
-     "The dramatic irony operates on two levels: (1) Derry believes he has returned in time to help (\"I came back",
-     "Verbal irony: the mother's words (\"I forgive you,\" \"I don't blame you\") superficially express kindness, but their tone and context reveal condescension and pity",
-     "Setting: Mr Lamb's garden (outdoors, natural, accessible). Character 1: Mr Lamb — old man, has a tin leg (lost real leg), lives alone in a big house"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "use 3 words correctly in original sentences",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "distinguish between denotation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain each word's contextual meaning",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "identify 8-10 key vocabulary items",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A wrong answer that omits the tin leg or the burned face misses the physical impairments that drive the play's exploration of alienation vs. connection.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify 8-10 key vocabulary items from the play, (2) explain each word's contextual meaning with",
     "id": "gen_c12_eng_v_ch05_q17",
-    "nodeId": "c12_eng_v_cbse_05_001",
+    "nodeId": "c12_eng_v_cbse_05_010",
     "difficulty": "standard"
    },
    {
-    "type": "mcq",
-    "question": "Compare the description of Derry in the \"Before you read\" box (\"very withdrawn and defiant\") with the actual opening dialogue in Scene One (Derry's first words: \"What? Who's that?",
-    "answer": "The pre-reading label \"withdrawn and defiant\" is an interpretive summary, while the dialogue shows Derry's immediate panic and fear (\"Panic\" stage direction) and his assumption of",
-    "options": [
-     "A literal comprehension question asks \"what happens\" (e.g., \"How does Derry enter the garden?\"), while a critical analysis question asks \"why it matters\" or \"how it works\" (e",
-     "Mr Lamb uses hedging (\"I should say,\" \"to look at it\") and clinical detachment, framing his tin leg as an external fact",
-     "The pre-reading label \"withdrawn and defiant\" is an interpretive summary, while the dialogue shows Derry's immediate panic and fear (\"Panic\" stage direction) and his assumption of"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identifies a specific interpretive claim",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explains how the evidence supports",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "selects and embeds precise textual evidence",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
-    "misconception": "A student who expects only defiance will misread Derry's opening fear as aggression; the pre-reading context must be held lightly and tested against the text.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently construct a structured analytical response that: (1) identifies a specific interpretive",
     "id": "gen_c12_eng_v_ch05_q18",
-    "nodeId": "c12_eng_v_cbse_05_001",
-    "difficulty": "standard"
+    "nodeId": "c12_eng_v_cbse_05_013",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'on the face of it' — the context and background to?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'On The Face Of It' — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_eng_v_ch06",
-  "title": "Before You Read: Context and Background",
+  "title": "'Memories Of Childhood'",
   "subtitle": "English · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "english",
-  "topic": "Before You Read: Context and Background",
-  "chapters": ["English Ch6: Before You Read: Context and Background"],
+  "topic": "'Memories Of Childhood'",
+  "chapters": [
+   "English Ch6: 'Memories Of Childhood'"
+  ],
   "nodeIds": [
    "c12_eng_v_cbse_06_001",
    "c12_eng_v_cbse_06_002",
@@ -4427,103 +4359,103 @@ export const C12_ENG_V_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Before You Read: Context and in real working life?",
+   "question": "Who uses 'Memories Of Childhood' in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "The \"Before You Read: Context and Background\" section for \"Memories of Childhood\" provides the essential historical, cultural, and biographical"
+   "hook": "'Memories of Childhood' (Vistas, ch."
   },
   "teaching": [
    {
-    "title": "Before You Read: Context and Background",
-    "text": "The \"Before You Read: Context and Background\" section for \"Memories of Childhood\" provides the essential historical, cultural, and biographical framework for the two autobiographical narratives.",
+    "title": "'Memories Of Childhood'",
+    "text": "'Memories of Childhood' (Vistas, ch. 6) — the context and background to this text: who wrote it, the period, and the literary movement it belongs to.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and Narrative Structure refers to the sequence of events in a story and the framework used to organize them. In \"Memories of Childhood,\" the narrative structure comprises two distinct first-person autobiographical accounts arranged thematically rather",
+    "title": "Plot/narrative Arc Of 'Memories",
+    "text": "The plot/narrative arc of 'Memories of Childhood' — what happens, in what order, and why the sequence matters.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a narrative occurs, while atmosphere is the emotional mood or feeling created by the setting's sensory details, cultural context, and narrative tone.",
+    "title": "Setting Of 'Memories Of Childhood'",
+    "text": "The setting of 'Memories of Childhood' — the place, time and atmosphere the text creates.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the central character's personality traits, motivations, internal conflicts, and growth across the narrative by closely reading their actions, speech, thoughts, and responses to systemic oppression, and",
+    "title": "Character Analysis: Protagonist",
+    "text": "Character analysis in 'Memories of Childhood' — the central figure(s), their traits, and how they develop.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the traits, actions, dialogues, and narrative functions of characters other than the protagonist to understand how they advance the plot, highlight the protagonist's qualities, and embody the",
+    "title": "Character Analysis: Supporting Characters",
+    "text": "Supporting characters in 'Memories of Childhood' — the secondary figures who move the story forward.",
     "emoji": "📘",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of *Memories Of Childhood*",
-    "text": "The primary theme of *Memories of Childhood* is the systemic oppression of marginalised communities (Native American and Dalit) and the innate human resistance to such injustice, even in childhood.",
+    "title": "Primary Theme Of 'Memories",
+    "text": "The primary theme of 'Memories of Childhood' — the central idea the whole text returns to.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the supporting ideas, motifs, and concerns that run alongside the primary theme in a literary work, enriching its texture and providing multiple layers of meaning; in \"Memories of Childhood,\" they include cultural erasure, childhood",
+    "title": "Secondary Themes In 'Memories Of Childhood'",
+    "text": "Secondary themes in 'Memories of Childhood' — the supporting ideas and motifs that deepen the text.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create a concrete mental picture or physical sensation for the reader.",
+    "title": "Imagery In 'Memories Of Childhood'",
+    "text": "Imagery in 'Memories of Childhood' — the vivid, sensory language that creates word-pictures.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality — what appears to be true differs from what is actually true.",
+    "title": "Irony And Paradox In 'Memories",
+    "text": "Irony and paradox in 'Memories of Childhood' — where opposite things are both true, or meaning contradicts surface.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the meaning of unfamiliar words by analyzing how they are used in the surrounding text — including sentence structure, tone, cultural references, and thematic significance — rather than relying solely on",
+    "title": "Key Vocabulary Of 'Memories Of Childhood'",
+    "text": "Key vocabulary of 'Memories of Childhood' — the words and phrases you must know to read the text well.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical structures — such as tense, voice, sentence types, narration mode, and syntactic patterns — are employed in the autobiographical narratives of Zitkala-Sa and Bama to",
+    "title": "Language And Style In 'Memories",
+    "text": "Language and style in 'Memories of Childhood' — how the writer chose words, sentences and tone.",
     "emoji": "📘",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (e.g., facts, sequences, direct descriptions).",
+    "title": "Comprehension: Literal and Inferential",
+    "text": "Literal comprehension of 'Memories of Childhood' — questions answered straight from the text.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis involves examining a text beyond its literal meaning to evaluate the author's purpose, perspective, and techniques, and to interpret underlying themes, biases, and social contexts by synthesizing evidence from the text",
+    "title": "Critical Thinking On 'Memories Of Childhood'",
+    "text": "Critical thinking on 'Memories of Childhood' — analysing the text to reach evidence-based judgements.",
     "emoji": "📘",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills: Based on the Chapter",
-    "text": "Writing Skills based on \"Memories of Childhood\" refers to the ability to compose structured, evidence-based responses — such as analytical essays, articles, speeches, letters, diary entries, and reports — that draw on the chapter's themes of marginalization,",
+    "title": "Writing Skills From 'Memories Of Childhood'",
+    "text": "Writing skills from 'Memories of Childhood' — using the text as a model or springboard for your own writing.",
     "emoji": "📘",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students articulate evidence-based interpretations, debate thematic connections, and respond to peers' views on the text, using specific textual references from both",
+    "title": "Discussion Points On 'Memories Of Childhood'",
+    "text": "Discussion points on 'Memories of Childhood' — speaking and listening around the text.",
     "emoji": "📘",
     "bgColor": "from-indigo-400 to-blue-500"
    }
@@ -4534,20 +4466,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What are the two marginalized communities represented in \"Memories of Childhood,\" and who are the authors representing them?",
     "answer": "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama",
     "options": [
-     "The central unifying theme is the systemic dehumanisation of marginalised communities (Native American and Dalit) by dominant cultures",
-     "The two essential protocols are: (1) Turn-taking with time awareness — each speaker gets 45-60 seconds without interruption, and (2) Evidence-based claims",
+     "Cultural erasure/loss of identity (hair cutting / caste pollution rules), childhood innocence confronting harsh reality (Zitkala-Sa's confusion at bells / Bama's laughter turning",
+     "The student can independently map the narrative arc of both autobiographical episodes, identify structural parallels (exposition, rising action, climax, resolution)",
      "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Memories of Childhood'' slide -- match the key terms.",
     "misconception": "A wrong answer might confuse the authors or communities, e.g., attributing Zitkala-Sa's experience to the caste system or Bama's to Native American boarding schools, revealing a lack of basic factual recall and an inability to distinguish the two distinct historical oppressions.",
     "id": "gen_c12_eng_v_ch06_q1",
     "nodeId": "c12_eng_v_cbse_06_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are handed a diary entry from a child who was forced to cut their hair, change their name, and stop speaking their language at school.",
-     "To truly understand their pain, you must first know the world they came from and the system that did this to them.",
-     "Similarly, \"Memories of Childhood\" requires us to step into two distinct worlds before reading the narratives.",
-     "Begin by reading the \"Before You Read\" section in your textbook."
+     "Start with the author of 'Memories of Childhood', then the period, then the literary context — background turns a text from a puzzle into a story you"
     ]
    },
    {
@@ -4555,20 +4484,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the narrative point of view used in both episodes of \"Memories of Childhood,\" and how does it affect the reader's experience of the events?",
     "answer": "Both episodes use first-person retrospective narration — the adult narrator looking back at childhood experiences",
     "options": [
-     "PEEL stands for Point (topic sentence stating the main idea), Evidence (specific textual reference or quote), Explanation (analysis of how the evidence supports the point)",
-     "Cultural erasure/loss of identity (hair cutting / caste pollution rules), childhood innocence confronting harsh reality (Zitkala-Sa's confusion at bells / Bama's laughter turning",
+     "Plot and Narrative Structure refers to the sequence of events in a story and the framework used to organize them",
+     "The student can independently identify 8-10 key words from \"Memories of Childhood,\" explain their contextual meanings with textual evidence",
      "Both episodes use first-person retrospective narration — the adult narrator looking back at childhood experiences"
     ],
-    "hint": "Straight from the 'Plot and Narrative Structure' slide -- match the key terms.",
+    "hint": "Straight from the 'plot/narrative arc of 'Memories' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"third-person omniscient\") reveals the student cannot distinguish narrative voice, leading to superficial analysis that misses how the child's limited perspective heightens the emotional impact.",
     "id": "gen_c12_eng_v_ch06_q2",
     "nodeId": "c12_eng_v_cbse_06_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're watching two different movies about childhood injustice — one set in a 19th-century American boarding school, another in a Tamil Nadu",
-     "Both start with a child's ordinary day, then a specific incident shatters their innocence.",
-     "To analyze the plot, first list the key events in each story in order.",
-     "Then ask: where does the tension peak?"
+     "Trace 'Memories of Childhood' from opening to close: how it starts, how events/images build, where it lands — the sequence carries the meaning."
     ]
    },
    {
@@ -4576,20 +4502,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify three sensory details from Zitkala-Sa's description of the dining hall that establish the physical setting of the Carlisle Indian School.",
     "answer": "The \"bitter-cold\" snow-covered ground (tactile/visual), the \"large bell\" with \"loud metallic voice crashing through the belfry\" (auditory)",
     "options": [
-     "The protagonists are Zitkala-Sa (Gertrude Simmons Bonnin), a Native American (Yankton Dakota) woman, and Bama, a Tamil Dalit woman from a Roman Catholic family",
-     "Cultural erasure/loss of identity (hair cutting / caste pollution rules), childhood innocence confronting harsh reality (Zitkala-Sa's confusion at bells / Bama's laughter turning",
+     "Correct: From Part I — Judewin, the paleface woman, the man at the end of the hall, the three young braves (any two)",
+     "The student can identify at least three distinct grammatical features in the prescribed excerpts, provide textual evidence for each",
      "The \"bitter-cold\" snow-covered ground (tactile/visual), the \"large bell\" with \"loud metallic voice crashing through the belfry\" (auditory)"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'setting of 'Memories of Childhood'' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"bells and shoes\" without sensory adjectives reveals the student is identifying objects but not analyzing how sensory language constructs setting. A student who mentions \"Indian girls in stiff shoes\" confuses character description with physical setting.",
     "id": "gen_c12_eng_v_ch06_q3",
     "nodeId": "c12_eng_v_cbse_06_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine walking into a room where you don't know the language, the customs, or even how to use a chair — that is the immediate sensory shock",
-     "Begin by asking: \"What would you see, hear, smell, and feel in the Carlisle Indian School dining hall versus Bama's village bazaar?",
-     "Then show how these details are not just decoration — they construct the atmosphere of alienation in the first narrative and the",
-     "The key insight: setting details are evidence; atmosphere is the interpretation of that evidence."
+     "Identify where and when 'Memories of Childhood' is set, and how the setting shapes its mood and meaning."
     ]
    },
    {
@@ -4597,20 +4520,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the pen names of the two protagonists in \"Memories of Childhood\" and the marginalised communities they belong to.",
     "answer": "The protagonists are Zitkala-Sa (Gertrude Simmons Bonnin), a Native American (Yankton Dakota) woman, and Bama, a Tamil Dalit woman from a Roman Catholic family",
     "options": [
-     "The central unifying theme is the systemic dehumanisation of marginalised communities (Native American and Dalit) by dominant cultures",
-     "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama",
+     "The student can (1) identify specific images and metaphors in both extracts, (2) classify the sensory mode of each image (visual, auditory, tactile, etc",
+     "The student can independently compare the two autobiographical accounts in \"Memories of Childhood,\" identify the distinct forms of oppression (cultural assimilation vs",
      "The protagonists are Zitkala-Sa (Gertrude Simmons Bonnin), a Native American (Yankton Dakota) woman, and Bama, a Tamil Dalit woman from a Roman Catholic family"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the 'Character analysis in 'Memories' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming the authors' birth names only, or confusing the communities) reveals the student has not internalised the \"Before You Read\" context, which is essential for understanding the specific cultural codes (hair significance, caste pollution) that drive each protagonist's conflict.",
     "id": "gen_c12_eng_v_ch06_q4",
     "nodeId": "c12_eng_v_cbse_06_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist interviewing a survivor of a residential school or a Dalit child in 1990s Tamil Nadu — what questions would you ask to",
-     "Begin by re-reading each narrative with a highlighter, marking every verb that shows the protagonist's agency (e.",
-     "Next, cluster these actions into three behavioural patterns per character.",
-     "Then, for each pattern, find a second piece of evidence — a thought, a sensory detail, or a line of dialogue — that confirms the interpretation."
+     "Pick the central figure in 'Memories of Childhood' — track their actions, words and choices to see who they really are."
     ]
    },
    {
@@ -4618,20 +4538,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Name two supporting characters from \"The Cutting of My Long Hair\" and two from \"We Too are Human Beings.\"",
     "answer": "Correct: From Part I — Judewin, the paleface woman, the man at the end of the hall, the three young braves (any two)",
     "options": [
-     "She hides because her friend Judewin warned her that the authorities plan to cut their long hair, which in their culture signifies cowardice or mourning",
-     "For Zitkala-Sa's people, long hair is a sign of bravery and skill; only captured unskilled warriors, mourners, and cowards have short or shingled hair",
+     "Secondary themes are the supporting ideas, motifs, and concerns that run alongside the primary theme in a literary work",
+     "The student can independently compare the two autobiographical accounts in \"Memories of Childhood,\" identify the distinct forms of oppression (cultural assimilation vs",
      "Correct: From Part I — Judewin, the paleface woman, the man at the end of the hall, the three young braves (any two)"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the 'Supporting characters in' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Zitkala-Sa or Bama) reveals confusion between protagonist and supporting characters. Naming only generic \"girls\" or \"people\" shows inability to distinguish significant supporting figures from background.",
     "id": "gen_c12_eng_v_ch06_q5",
     "nodeId": "c12_eng_v_cbse_06_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine a friend who always says \"just let it go\" when you face unfairness, versus a sibling who says \"fight back by excelling.",
-     "To analyze them, first list every named or distinct character besides the narrator.",
-     "For each, note: What do they do?",
-     "What do they say?"
+     "Spot the secondary figures in 'Memories of Childhood' — how do they help, block or reveal the main character?"
     ]
    },
    {
@@ -4639,20 +4556,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the central, unifying theme that connects Zitkala-Sa's experience at the Carlisle Indian School and Bama's experience in her Tamil village?",
     "answer": "The central unifying theme is the systemic dehumanisation of marginalised communities (Native American and Dalit) by dominant cultures",
     "options": [
-     "She hides because her friend Judewin warned her that the authorities plan to cut their long hair, which in their culture signifies cowardice or mourning",
-     "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama",
+     "Secondary themes are the supporting ideas, motifs, and concerns that run alongside the primary theme in a literary work",
+     "The student can explain the specific historical contexts of both narratives (Native American boarding schools and the Indian caste system)",
      "The central unifying theme is the systemic dehumanisation of marginalised communities (Native American and Dalit) by dominant cultures"
     ],
-    "hint": "Straight from the 'primary theme of *Memories of' slide -- match the key terms.",
+    "hint": "Straight from the 'primary theme of 'Memories' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only \"hair cutting\" or \"caste discrimination\" separately shows the student sees the incidents in isolation and misses the comparative analytical lens required for board exams.",
     "id": "gen_c12_eng_v_ch06_q6",
     "nodeId": "c12_eng_v_cbse_06_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in a classroom where a teacher unfairly punishes only the students from one neighbourhood.",
-     "You feel the injustice instantly, even if you cannot name it.",
-     "That is exactly what Zitkala-Sa and Bama experience as children — one in a Carlisle boarding school, the other on a Tamil village street.",
-     "To find the primary theme, first list the major incidents in each account: the cutting of long hair, the forced dining etiquette, the elder carrying"
+     "Ask what 'Memories of Childhood' keeps circling back to — that repeated idea is the primary theme."
     ]
    },
    {
@@ -4712,31 +4626,67 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_06_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the examination hall and the question asks: \"Compare how the theme of 'education as a tool of liberation' appears in both",
-     "First, you recall Annan's words to Bama: \"If you study and make progress, we can throw away these indignities.",
-     "The key insight: secondary themes often appear as contrasts — what is liberation in one context becomes oppression in another.",
-     "Start by listing every idea that recurs across both texts besides the main oppression-resistance arc, then find two pieces of evidence per theme per"
+     "Look beneath the main theme of 'Memories of Childhood' for the recurring secondary ideas that give it layers."
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define \"imagery\" and \"metaphor\" in your own words. Give one example of each from *any* text you have studied previously (Class 6–11).",
-    "answer": "Imagery is descriptive language that appeals to the senses (sight, sound, smell, touch, taste) to create a vivid impression",
-    "options": [
-     "For Zitkala-Sa's people, long hair is a sign of bravery and skill; only captured unskilled warriors, mourners, and cowards have short or shingled hair",
-     "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama",
-     "Imagery is descriptive language that appeals to the senses (sight, sound, smell, touch, taste) to create a vivid impression"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify specific images and metaphors",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "classify the sensory mode of each image",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "explain how the vehicle and tenor of each",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "write a structured PEEL paragraph linking",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals: If the student gives a simile (\"like a thief\") for metaphor, they confuse the two devices. If they say imagery is \"only visual description,\" they have the common misconception that imagery = pictures only.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) identify specific images and metaphors in both extracts, (2) classify the sensory mode of each",
     "id": "gen_c12_eng_v_ch06_q8",
     "nodeId": "c12_eng_v_cbse_06_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film of your own most painful childhood memory — what do you *see* (the colour of the walls), *hear* (the sound of a",
-     "That is imagery.",
-     "Now imagine you describe that memory not as \"I was scared\" but as \"I was a trapped bird.\" That is metaphor.",
-     "In this chapter, both authors do exactly this: Zitkala-Sa uses the \"bedlam\" of sound and the \"cold blades\" of scissors to make us *feel* the Carlisle"
+     "Find the lines in 'Memories of Childhood' that paint pictures — imagery is how the text comes alive."
     ]
    },
    {
@@ -4744,20 +4694,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Define situational irony and give one example from Zitkala-Sa's narrative where the outcome is the opposite of what the character intends or expects.",
     "answer": "Situational irony occurs when actions produce an outcome contrary to what was intended or expected",
     "options": [
-     "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama",
      "The protagonists are Zitkala-Sa (Gertrude Simmons Bonnin), a Native American (Yankton Dakota) woman, and Bama, a Tamil Dalit woman from a Roman Catholic family",
+     "Cultural erasure/loss of identity (hair cutting / caste pollution rules), childhood innocence confronting harsh reality (Zitkala-Sa's confusion at bells / Bama's laughter turning",
      "Situational irony occurs when actions produce an outcome contrary to what was intended or expected"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the 'Irony and paradox in 'Memories' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the hair cutting is sad\") reveals the student confuses irony with mere tragedy or misfortune, missing the structural reversal between intention and result.",
     "id": "gen_c12_eng_v_ch06_q9",
     "nodeId": "c12_eng_v_cbse_06_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading Bama's description of the elder carrying the vadai packet by its string — at first it looks funny, but your brother explains",
-     "That moment, where your laughter turns to anger, is irony in action.",
-     "Start by asking: \"Where does the text set up an expectation and then overturn it?\" For symbolism, ask: \"Which objects (hair, packet, bell, scissors)",
-     "The key insight: irony exposes the absurdity of oppression; symbolism makes that oppression tangible."
+     "Look in 'Memories of Childhood' for moments where the surface meaning hides a deeper opposite — that's irony/paradox."
     ]
    },
    {
@@ -4769,15 +4716,13 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "The theme is cultural erasure through language suppression, paralleling Zitkala-Sa's hair cutting. Evidence: \"Our mothers had taught us that only unskilled warriors who were",
      "B. The context clues are \"loud metallic voice,\" \"annoying clatter,\" \"constant clash of harsh noises,\" and \"many voices murmuring an unknown tongue\""
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'Key vocabulary of 'Memories of' slide -- match the key terms.",
     "misconception": "A wrong answer (A, C, or D) reveals the student is guessing from sound or prior association rather than analyzing the surrounding descriptive details that define the word in this specific passage.",
     "id": "gen_c12_eng_v_ch06_q10",
     "nodeId": "c12_eng_v_cbse_06_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading Bama's description of the elder carrying vadais \"by its string, without touching it\" — you sense the word \"polluted\" carries a",
-     "Then, for each word, ask: \"What does the author's choice of THIS specific word reveal about the character's experience or the society they live in?",
-     "Finally, test your understanding by using the word in a new sentence about a different marginalized community's experience."
+     "Note the difficult or loaded words in 'Memories of Childhood' — their meaning carries the text's precision."
     ]
    },
    {
@@ -4785,20 +4730,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "Identify the tense and voice of the verb phrase \"had been stripped\" in the sentence \"my blanket had been stripped from my shoulders\" from Zitkala-Sa's narrative.",
     "answer": "The verb phrase \"had been stripped\" is in the past perfect passive voice. Past perfect indicates an action completed before another past action (here, before \"I looked\")",
     "options": [
-     "For Zitkala-Sa's people, long hair is a sign of bravery and skill; only captured unskilled warriors, mourners, and cowards have short or shingled hair",
-     "The two communities are Native Americans (represented by Zitkala-Sa, born Gertrude Simmons Bonnin, of the Yankton Dakota Sioux) and Tamil Dalits (represented by Bama",
+     "The student can identify all significant supporting characters in both autobiographical episodes, describe their key characteristics with specific textual evidence",
+     "Student can participate in a 5-minute structured group discussion comparing Zitkala-Sa's and Bama's experiences, citing at least two specific textual details from each narrative",
      "The verb phrase \"had been stripped\" is in the past perfect passive voice. Past perfect indicates an action completed before another past action (here, before \"I looked\")"
     ],
-    "hint": "Straight from the 'Grammar' slide -- match the key terms.",
+    "hint": "Straight from the 'Language and style in 'Memories' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"simple past passive\" or \"past perfect active\") reveals confusion about perfect aspect formation or voice identification, which undermines analysis of how the narration sequences trauma.",
     "id": "gen_c12_eng_v_ch06_q11",
     "nodeId": "c12_eng_v_cbse_06_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Have you ever noticed how a writer's choice of \"I was dragged\" instead of \"They dragged me\" makes you feel the victim's helplessness more sharply?",
-     "That is grammar doing emotional work.",
-     "Begin by reading a short paragraph from Zitkala-Sa's account aloud — notice the rhythm of the sentences.",
-     "Then ask: \"Which verbs are in passive voice?"
+     "Read 'Memories of Childhood' for style: what words did the writer choose, and what effect do they create?"
     ]
    },
    {
@@ -4858,10 +4800,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_06_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you receive a text from a friend: \"I'm fine.\" The literal meaning is exactly those words.",
-     "But if you know they just failed an exam, you infer they are upset.",
-     "Start by asking: \"What does the text actually say?\" — underline explicit facts (bells ringing, hair cutting, elder carrying packet by string).",
-     "Then ask: \"What does the text show but not tell?\" — notice Zitkala-Sa's hiding places, Bama's laughter turning to anger."
+     "Answer 'Memories of Childhood' questions by finding the facts in the text — the answer is on the page."
     ]
    },
    {
@@ -4869,20 +4808,18 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What is the cultural significance of long hair for Zitkala-Sa's people, and what does its cutting symbolize in the context of the boarding school?",
     "answer": "For Zitkala-Sa's people, long hair is a sign of bravery and skill; only captured unskilled warriors, mourners, and cowards have short or shingled hair",
     "options": [
-     "Both are effective but in different ways. Zitkala-Sa's account shows institutionalized, state-sponsored assimilation (bells, formulas, forced haircut)",
-     "She hides because her friend Judewin warned her that the authorities plan to cut their long hair, which in their culture signifies cowardice or mourning",
+     "Student can participate in a 5-minute structured group discussion comparing Zitkala-Sa's and Bama's experiences, citing at least two specific textual details from each narrative",
+     "Students treat vocabulary-in-context questions as \"find the synonym\" exercises",
      "For Zitkala-Sa's people, long hair is a sign of bravery and skill; only captured unskilled warriors, mourners, and cowards have short or shingled hair"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the 'Critical thinking on 'Memories of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it was just a haircut\" or \"it was for hygiene\") reveals the student misses the symbolic violence and views the event through the oppressor's lens rather than the protagonist's cultural framework.",
     "id": "gen_c12_eng_v_ch06_q13",
     "nodeId": "c12_eng_v_cbse_06_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a journalist interviewing both Zitkala-Sa and Bama as adults looking back at their childhood selves.",
-     "What would you ask about the moment they realized the world saw them as \"less than\"?",
-     "Start by identifying the specific incident in each text that marks this realization: for Zitkala-Sa, it is the cutting of her hair; for Bama, it is",
-     "Then trace how each child's initial confusion turns into conscious resistance."
+     "Analyse 'Memories of Childhood' — is the writer's purpose achieved?",
+     "Support your judgement with textual evidence."
     ]
    },
    {
@@ -4942,10 +4879,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "nodeId": "c12_eng_v_cbse_06_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're asked in the board exam: \"Write an article on 'Education as a Tool for Breaking Social Barriers' based on your reading of 'Memories of",
-     "Most students stare at the blank page, recall the stories vaguely, and write generic sentences.",
-     "Instead, start by *listing* two concrete moments: Zitkala-Sa's forced hair-cutting as cultural erasure, and Bama's brother Annan urging her to study",
-     "Next, frame a clear thesis: \"Education restores dignity by enabling marginalized individuals to resist systemic oppression."
+     "For written answers on 'Memories of Childhood', cite the text — evidence-based writing proves your reading."
     ]
    },
    {
@@ -4953,20 +4887,17 @@ export const C12_ENG_V_GEN: SimDef[] = [
     "question": "What are the two essential protocols for a productive literary discussion in a CBSE Class 12 speaking assessment?",
     "answer": "The two essential protocols are: (1) Turn-taking with time awareness — each speaker gets 45-60 seconds without interruption, and (2) Evidence-based claims",
     "options": [
-     "The protagonists are Zitkala-Sa (Gertrude Simmons Bonnin), a Native American (Yankton Dakota) woman, and Bama, a Tamil Dalit woman from a Roman Catholic family",
-     "Correct: From Part I — Judewin, the paleface woman, the man at the end of the hall, the three young braves (any two)",
+     "Secondary themes are the supporting ideas, motifs, and concerns that run alongside the primary theme in a literary work",
+     "Students believe \"discussion points\" means preparing a monologue summarizing each story separately, then stating \"both show discrimination",
      "The two essential protocols are: (1) Turn-taking with time awareness — each speaker gets 45-60 seconds without interruption, and (2) Evidence-based claims"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the 'Discussion points on 'Memories of' slide -- match the key terms.",
     "misconception": "A wrong answer like \"speak loudly and share your opinion\" reveals the student conflates discussion with declamation and misses the CBSE requirement for textual grounding.",
     "id": "gen_c12_eng_v_ch06_q15",
     "nodeId": "c12_eng_v_cbse_06_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're in a university admission group discussion on \"Childhood and Social Injustice\" — the moderator asks: \"What do a Native American girl",
-     "First, recall the two core incidents: hair-cutting as cultural erasure vs. the vadai packet as caste pollution.",
-     "Second, identify the structural parallel: both are institutional rituals that mark the child's body as \"other.",
-     "Bama's intellectual resistance (education as liberation)."
+     "Talk through 'Memories of Childhood' — share your reading, listen to others, and let the text settle the argument."
     ]
    },
    {
@@ -4978,7 +4909,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "Judewin embodies submission (\"We have to submit\"), which provokes Zitkala-Sa to rebel (\"I will struggle first!",
      "Judewin represents submission: she knows English, overhears the plan, and says \"We have to submit"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Memories of Childhood'' slide -- match the key terms.",
     "misconception": "A wrong answer might see both as merely helpers or both as submissive, missing the crucial contrast in their responses to oppression and the thematic significance of education as liberation in Bama's account.",
     "id": "gen_c12_eng_v_ch06_q16",
     "nodeId": "c12_eng_v_cbse_06_001",
@@ -4993,7 +4924,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "Zitkala-Sa hides because in her culture short hair marks a mourner and shingled hair marks a coward; cutting it is a spiritual violation, not just a hairstyle change",
      "Among Zitkala-Sa's people, long hair was a sign of bravery and honor; only unskilled warriors captured by the enemy had their hair shingled"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Memories of Childhood'' slide -- match the key terms.",
     "misconception": "A wrong answer might treat it as merely a school hygiene rule or a minor inconvenience, missing the deep cultural symbolism and the intentionality of the assimilation policy.",
     "id": "gen_c12_eng_v_ch06_q17",
     "nodeId": "c12_eng_v_cbse_06_001",
@@ -5008,7 +4939,7 @@ export const C12_ENG_V_GEN: SimDef[] = [
      "The theme is cultural erasure through language suppression, paralleling Zitkala-Sa's hair cutting. Evidence: \"Our mothers had taught us that only unskilled warriors who were",
      "They should include (1) the specific cultural meaning of the targeted practice (e.g., hair, language, clothing) to show what is being lost"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the ''Memories of Childhood'' slide -- match the key terms.",
     "misconception": "A wrong answer might focus only on the event without cultural context or only on feelings without the systemic reason, resulting in a narrative that evokes sympathy but fails to expose the structural violence.",
     "id": "gen_c12_eng_v_ch06_q18",
     "nodeId": "c12_eng_v_cbse_06_001",
@@ -5017,11 +4948,11 @@ export const C12_ENG_V_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about before you read: context and background?",
+    "What surprised you about 'memories of childhood'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Before You Read: Context mastered! 🎯",
+  "successLine": "'Memories Of Childhood' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

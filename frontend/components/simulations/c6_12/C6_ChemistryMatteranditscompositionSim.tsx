@@ -973,7 +973,7 @@ export default function C6_ChemistryMatteranditscompositionSim(props: SimProps =
                 🧪 {CHALLENGES[currentChallenge].title}
               </h2>
               <span className={`text-xs px-2 py-1 rounded ${
-                getAdaptiveDifficulty() === 'foundation' ? 'bg-blue-900/50 text-blue-300' :
+                getAdaptiveDifficulty() === 'foundation' ? 'bg-gold-900/50 text-gold-300' :
                 getAdaptiveDifficulty() === 'standard' ? 'bg-yellow-900/50 text-yellow-300' :
                 'bg-red-900/50 text-red-300'
               }`}>
@@ -1073,7 +1073,7 @@ export default function C6_ChemistryMatteranditscompositionSim(props: SimProps =
                 <div className="text-xs text-gray-400">Final Score</div>
               </div>
               <div className="bg-gray-700/50 rounded-xl p-4">
-                <div className="text-3xl font-bold text-blue-400">{CHALLENGES.length - errors}</div>
+                <div className="text-3xl font-bold text-gold-400">{CHALLENGES.length - errors}</div>
                 <div className="text-xs text-gray-400">Correct</div>
               </div>
               <div className="bg-gray-700/50 rounded-xl p-4">

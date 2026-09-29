@@ -11,7 +11,7 @@ export const w_c12_psychologypsychotherapypsychoanalysisclientcentredsim: SimDef
     classLevel: 12, subject: 'psychology', topic: 'Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy',
     chapters: [],
     nodeIds: ['c12_psy_cbse_05_010', 'c12_psy_cbse_05_001', 'c12_psy_cbse_05_003', 'c12_psy_cbse_05_006', 'c12_psy_cbse_05_008', 'c12_psy_cbse_05_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a student named Arjun who constantly says "I\'m fine" while clenching his fists and avoiding eye.', goal: 'Master Gestalt Therapy (Perls) and Factors Contributing to Healing in Psychotherapy.' },
     discovery: {
         question: 'A client in Gestalt Therapy says, "I feel angry at my boss but I can\'t show it." The therapist asks the client to imagine the boss sitting in an empty chair.',
@@ -20,7 +20,7 @@ export const w_c12_psychologypsychotherapypsychoanalysisclientcentredsim: SimDef
         hook: 'Students confuse Gestalt\'s "acting out fantasies/conflicts" with Psychodrama (Moreno) or simple role-play.',
     },
     teaching: [
-        { title: 'Gestalt Therapy, developed by Fritz and.', text: 'Gestalt Therapy, developed by Fritz and Laura Perls, is a humanistic-existential approach that aims to increase an individual\'s self-awareness and self-acceptance by helping them recognize blocked.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Gestalt Therapy, developed by Fritz and.', text: 'Gestalt Therapy, developed by Fritz and Laura Perls, is a humanistic-existential approach that aims to increase an individual\'s self-awareness and self-acceptance by helping them recognize blocked.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_psy_cbse_05_010', title: 'Gestalt Therapy, developed by Fritz and.',

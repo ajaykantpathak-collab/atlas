@@ -275,7 +275,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Why Do We Need Machines? 🛠️",
     text: "A machine helps us do work more easily by reducing the effort needed! It changes the size or direction of force so heavy tasks become simple.",
     emoji: "🛠️",
-    bgColor: "from-blue-600 to-indigo-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "A machine helps us do work more easily by reducing the effort needed!",
   },
   {
@@ -296,7 +296,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Class I, II, and III Levers 🎚️",
     text: "Class 1: Fulcrum in middle (seesaw). Class 2: Load in middle (wheelbarrow). Class 3: Effort in middle (tongs). Remember F-L-E for the middle part!",
     emoji: "🎚️",
-    bgColor: "from-purple-600 to-indigo-800",
+    bgColor: "from-purple-600 to-gold-800",
     spoken: "Class 1 has fulcrum in the middle, Class 2 has load in the middle, and Class 3 has effort in the middle!",
   },
   {
@@ -742,7 +742,7 @@ export function SimpleMachinesGame({ width = 720, height = 560, onComplete }: Si
                 setSlideIdx(0);
               }
             }}
-            className="px-3 py-1.5 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-400 hover:to-indigo-500 text-white rounded-xl text-xs font-bold shadow transition transform active:scale-95"
+            className="px-3 py-1.5 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-white rounded-xl text-xs font-bold shadow transition transform active:scale-95"
           >
             {screen === 'teaching' ? 'Play Game 🎮' : 'Review Guide 📖'}
           </button>

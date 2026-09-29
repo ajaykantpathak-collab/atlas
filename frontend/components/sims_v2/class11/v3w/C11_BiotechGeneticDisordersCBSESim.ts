@@ -11,7 +11,7 @@ export const w_c11_biotechgeneticdisorderscbsesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Down Syndrome: Trisomy 21',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_08_006', 'c11_biotech_cbse_08_009', 'c11_biotech_cbse_08_010', 'c11_biotech_cbse_08_008', 'c11_biotech_cbse_06_010', 'c11_biotech_cbse_08_004', 'c11_biotech_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a genetic counselor meeting a 38-year-old expectant mother whose ultrasound shows a thickened.', goal: 'Master Down Syndrome: Trisomy 21.' },
     discovery: {
         question: 'What is the karyotype notation for a male with Down syndrome caused by free trisomy 21?',
@@ -20,7 +20,7 @@ export const w_c11_biotechgeneticdisorderscbsesim: SimDef = {
         hook: 'Students believe Down syndrome is "inherited from parents" like a Mendelian trait.',
     },
     teaching: [
-        { title: 'Down syndrome (Trisomy 21) is a genetic.', text: 'Down syndrome (Trisomy 21) is a genetic disorder caused by the presence of an extra copy of chromosome 21, resulting in a total of 47 chromosomes (karyotype 47,XX,+21 or 47,XY,+21) instead of the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Down syndrome (Trisomy 21) is a genetic.', text: 'Down syndrome (Trisomy 21) is a genetic disorder caused by the presence of an extra copy of chromosome 21, resulting in a total of 47 chromosomes (karyotype 47,XX,+21 or 47,XY,+21) instead of the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_08_006', title: 'Down syndrome (Trisomy 21) is a genetic.',

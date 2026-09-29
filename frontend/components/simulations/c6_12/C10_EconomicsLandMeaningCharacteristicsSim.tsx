@@ -1133,7 +1133,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700/60'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/80 text-blue-300 border-blue-700/60'
+                ? 'bg-gold-950/80 text-gold-300 border-gold-700/60'
                 : 'bg-purple-950/80 text-purple-300 border-purple-700/60'
             }`}
           >
@@ -1154,14 +1154,14 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
       {/* ─── PHASE 1: DISCOVERY & SCENARIO HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2 uppercase tracking-wider">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2 uppercase tracking-wider">
               <span>🚀</span> Narrative Mission Brief
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 bg-indigo-950/40 p-3 rounded-xl border border-indigo-800/30">
-              💡 <span className="font-semibold text-indigo-200">Advisory Scope:</span> {SCENARIO.context}
+            <p className="text-xs text-gold-300/80 mt-3 bg-gold-950/40 p-3 rounded-xl border border-gold-800/30">
+              💡 <span className="font-semibold text-gold-200">Advisory Scope:</span> {SCENARIO.context}
             </p>
           </div>
 
@@ -1189,7 +1189,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       : 'bg-slate-800/90 hover:bg-slate-750 text-slate-200 border-slate-700 hover:border-slate-600'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1287,7 +1287,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1 text-slate-300">
                         <span>Assured Irrigation Coverage (Human)</span>
-                        <span className="text-cyan-400 font-bold">{simIrrigationLevel}%</span>
+                        <span className="text-gold-400 font-bold">{simIrrigationLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1296,7 +1296,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                         value={simIrrigationLevel}
                         onChange={(e) => setSimIrrigationLevel(Number(e.target.value))}
                         aria-label="Irrigation Level Slider"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1392,8 +1392,8 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
               {currentSlide === 1 && (
                 <div className="space-y-6">
                   {!predictionMade && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800">
-                      <div className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">🎯 Step 1: Predict Before Testing</div>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/60 rounded-2xl border border-gold-800">
+                      <div className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">🎯 Step 1: Predict Before Testing</div>
                       <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1413,7 +1413,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                   )}
 
                   {predictionMade && (
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/60 text-xs text-indigo-300 flex items-center justify-between">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/60 text-xs text-gold-300 flex items-center justify-between">
                       <span>✓ Your prediction is locked. Now toggle the mode below to see the proof in action!</span>
                       <span className="font-bold text-emerald-400">Prediction Recorded</span>
                     </div>
@@ -1444,7 +1444,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1 text-slate-300">
                           <span>Vocational Training (Skill India PMKVY)</span>
-                          <span className="text-indigo-400 font-bold">{workerTrainingLevel}%</span>
+                          <span className="text-gold-400 font-bold">{workerTrainingLevel}%</span>
                         </div>
                         <input
                           type="range"
@@ -1453,7 +1453,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                           value={workerTrainingLevel}
                           onChange={(e) => setWorkerTrainingLevel(Number(e.target.value))}
                           aria-label="Worker Training Slider"
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
@@ -1489,7 +1489,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                         </div>
                         <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                           <div className="text-[11px] text-slate-400 font-bold uppercase">Production Cost per Unit</div>
-                          <div className="text-2xl font-black text-cyan-400">₹{calculatedLabourMetrics.unitCost} / shirt</div>
+                          <div className="text-2xl font-black text-gold-400">₹{calculatedLabourMetrics.unitCost} / shirt</div>
                         </div>
                       </div>
                     </div>
@@ -1519,7 +1519,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
 
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <div className="text-xs font-bold text-slate-400 uppercase">Stage 2: Mobilisation</div>
-                      <div className="text-lg font-black text-indigo-400 mt-1">₹{capitalPipelineMetrics.totalMobilised.toLocaleString()}</div>
+                      <div className="text-lg font-black text-gold-400 mt-1">₹{capitalPipelineMetrics.totalMobilised.toLocaleString()}</div>
                       <p className="text-[11px] text-slate-400 mt-1">Deposited into Banks (Jan Dhan / Post Offices)</p>
                       <input
                         type="range"
@@ -1528,14 +1528,14 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                         value={bankingMobilisationRate}
                         onChange={(e) => setBankingMobilisationRate(Number(e.target.value))}
                         aria-label="Mobilisation rate slider"
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
                       <span className="text-[10px] text-slate-400 font-semibold">Banking Efficiency: {bankingMobilisationRate}%</span>
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                       <div className="text-xs font-bold text-slate-400 uppercase">Stage 3: Physical Investment</div>
-                      <div className="text-lg font-black text-cyan-400 mt-1">₹{capitalPipelineMetrics.physicalCapitalFormed.toLocaleString()}</div>
+                      <div className="text-lg font-black text-gold-400 mt-1">₹{capitalPipelineMetrics.physicalCapitalFormed.toLocaleString()}</div>
                       <p className="text-[11px] text-slate-400 mt-1">Spent on CNC Lathes, Tractors & Plant</p>
                       <div className="text-[11px] text-amber-400 font-bold mt-3">
                         ⚠️ Idle Cash (Hoarded): ₹{capitalPipelineMetrics.idleHoardedSavings.toLocaleString()}
@@ -1611,7 +1611,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
                       <div className="text-xs text-slate-400 font-bold uppercase">Resulting Market Quantity Demanded:</div>
-                      <div className="text-3xl font-black text-cyan-400">{currentQuantityDemanded} <span className="text-sm font-medium text-slate-300">kg / month</span></div>
+                      <div className="text-3xl font-black text-gold-400">{currentQuantityDemanded} <span className="text-sm font-medium text-slate-300">kg / month</span></div>
                       <p className="text-xs text-slate-400">
                         {simMarketPrice > 70
                           ? '🔼 High Price -> Contraction of Demand (Income & Substitution effects bite)'
@@ -1676,9 +1676,9 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                         value={simConsumerIncomeLevel}
                         onChange={(e) => setSimConsumerIncomeLevel(Number(e.target.value))}
                         aria-label="Income level shift"
-                        className="w-full mt-2 accent-indigo-500"
+                        className="w-full mt-2 accent-gold-500"
                       />
-                      <span className="text-[11px] text-indigo-400 font-bold">Income Index: {simConsumerIncomeLevel}%</span>
+                      <span className="text-[11px] text-gold-400 font-bold">Income Index: {simConsumerIncomeLevel}%</span>
                     </div>
 
                     <div>
@@ -1786,7 +1786,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       max={100}
                       value={simIrrigationLevel}
                       onChange={(e) => setSimIrrigationLevel(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                     <label className="text-xs text-slate-300 font-semibold block">Fertiliser (kg/ha): {simFertiliserInput}</label>
                     <input
@@ -1815,20 +1815,20 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       max={100}
                       value={workerTrainingLevel}
                       onChange={(e) => setWorkerTrainingLevel(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                     <motion.button
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setDivisionOfLabourActive(!divisionOfLabourActive)}
-                      className="w-full py-2 bg-indigo-900 text-indigo-200 text-xs font-bold rounded-lg"
+                      className="w-full py-2 bg-gold-900 text-gold-200 text-xs font-bold rounded-lg"
                     >
                       Toggle Mode: {divisionOfLabourActive ? 'Complex Assembly Line' : 'Single Artisan'}
                     </motion.button>
                   </div>
                   <div className="text-center p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <div className="text-xs text-slate-400 font-bold uppercase">Daily Output / Unit Cost</div>
-                    <div className="text-2xl font-black text-cyan-400 mt-1">{calculatedLabourMetrics.output} units / ₹{calculatedLabourMetrics.unitCost}</div>
+                    <div className="text-2xl font-black text-gold-400 mt-1">{calculatedLabourMetrics.output} units / ₹{calculatedLabourMetrics.unitCost}</div>
                   </div>
                 </div>
               )}
@@ -1852,7 +1852,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       max={100}
                       value={bankingMobilisationRate}
                       onChange={(e) => setBankingMobilisationRate(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="text-center p-4 bg-slate-900 rounded-xl border border-slate-800">
@@ -1881,12 +1881,12 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       max={180}
                       value={simConsumerIncomeLevel}
                       onChange={(e) => setSimConsumerIncomeLevel(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div className="text-center p-4 bg-slate-900 rounded-xl border border-slate-800">
                     <div className="text-xs text-slate-400 font-bold uppercase">Monthly Quantity Demanded</div>
-                    <div className="text-3xl font-black text-cyan-400 mt-1">{currentQuantityDemanded} kg</div>
+                    <div className="text-3xl font-black text-gold-400 mt-1">{currentQuantityDemanded} kg</div>
                   </div>
                 </div>
               )}
@@ -2108,7 +2108,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add clause ${part}`}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 text-xs font-semibold rounded-lg border border-indigo-700"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-200 text-xs font-semibold rounded-lg border border-gold-700"
                     >
                       + {part}
                     </motion.button>
@@ -2213,7 +2213,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                 errors === 0
                   ? 'text-emerald-400'
                   : errors <= 3
-                  ? 'text-cyan-300'
+                  ? 'text-gold-300'
                   : errors <= 7
                   ? 'text-amber-300'
                   : 'text-purple-300'
@@ -2237,14 +2237,14 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
             <motion.div
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-4 bg-indigo-950/70 border border-indigo-500/50 rounded-2xl max-w-xl mx-auto flex items-center justify-between text-left gap-4 shadow-lg"
+              className="p-4 bg-gold-950/70 border border-gold-500/50 rounded-2xl max-w-xl mx-auto flex items-center justify-between text-left gap-4 shadow-lg"
             >
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-indigo-900/80 border border-indigo-400/40 flex items-center justify-center text-xl flex-shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-gold-900/80 border border-gold-400/40 flex items-center justify-center text-xl flex-shrink-0">
                   📅
                 </div>
                 <div>
-                  <div className="text-xs uppercase font-bold tracking-wider text-indigo-300">
+                  <div className="text-xs uppercase font-bold tracking-wider text-gold-300">
                     Spaced Repetition Schedule (SM-2)
                   </div>
                   <div className="text-sm font-semibold text-white">
@@ -2257,7 +2257,7 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
                 </div>
               </div>
               <div className="text-right flex-shrink-0">
-                <span className="px-3 py-1.5 bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 rounded-xl text-xs font-bold uppercase tracking-wider">
+                <span className="px-3 py-1.5 bg-gold-500/20 text-gold-300 border border-gold-500/40 rounded-xl text-xs font-bold uppercase tracking-wider">
                   {errors === 0 ? '🗓 Next: In 7 Days' : errors <= 3 ? '🗓 Next: In 3 Days' : '🗓 Next: In 1 Day'}
                 </span>
               </div>
@@ -2270,11 +2270,11 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400 uppercase font-bold">Mastery Level</div>
-                <div className="text-2xl font-black text-cyan-400 capitalize">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</div>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400 uppercase font-bold">Questions Solved</div>
-                <div className="text-2xl font-black text-indigo-400">{filteredChallenges.length}</div>
+                <div className="text-2xl font-black text-gold-400">{filteredChallenges.length}</div>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400 uppercase font-bold">Next Review</div>
@@ -2316,8 +2316,8 @@ export function C10_EconomicsLandMeaningCharacteristicsSim({
           </div>
 
           {/* Reflection Section */}
-          <div className="p-6 bg-indigo-950/40 rounded-3xl border border-indigo-800/50 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">🧠 Metacognitive Reflection</h3>
+          <div className="p-6 bg-gold-950/40 rounded-3xl border border-gold-800/50 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">🧠 Metacognitive Reflection</h3>
             <ul className="space-y-2 text-xs text-slate-300">
               <li>1. Why is human capital (irrigation, training, technology) more decisive than raw soil in explaining Indian productivity differences?</li>
               <li>2. How does process-based division of labour make manufactured goods like cars and T-shirts affordable for middle-class consumers?</li>

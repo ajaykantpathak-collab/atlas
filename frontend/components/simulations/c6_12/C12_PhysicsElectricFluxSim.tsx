@@ -839,7 +839,7 @@ function C12_PhysicsElectricFluxSim({
   // Motivational Feedback Message based on error count
   const motivationalMessage = useMemo(() => {
     if (errors === 0) return { title: 'PERFECT SCORE!', color: 'text-emerald-400', desc: 'Flawless mastery! You demonstrated complete conceptual and mathematical precision across all electrostatics domains.' };
-    if (errors <= 3) return { title: 'Great work!', color: 'text-indigo-400', desc: 'High competence achieved! Just a minor slip or two — you have an exceptionally strong foundation in Gauss Theorem.' };
+    if (errors <= 3) return { title: 'Great work!', color: 'text-gold-400', desc: 'High competence achieved! Just a minor slip or two — you have an exceptionally strong foundation in Gauss Theorem.' };
     if (errors <= 7) return { title: 'Good effort!', color: 'text-amber-400', desc: 'Solid conceptual understanding! Review the highlighted misconceptions to cement 100% board-level precision.' };
     return { title: 'Do not give up — You WILL get this!', color: 'text-rose-400', desc: 'Physics takes practice and active exploration. Re-run the interactive labs to visualize the field vectors!' };
   }, [errors]);
@@ -1187,9 +1187,9 @@ function C12_PhysicsElectricFluxSim({
       {/* Header Bar */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-3">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">{subjectConfig.emoji}</span>
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ISC Class 12 • Electrostatics</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">ISC Class 12 • Electrostatics</span>
             <h1 className="text-xl md:text-2xl font-extrabold text-white tracking-tight">{title}</h1>
           </div>
         </div>
@@ -1206,12 +1206,12 @@ function C12_PhysicsElectricFluxSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-indigo-950/70 via-slate-900 to-indigo-950/40 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-r from-gold-950/70 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>⚡</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/70 mt-3 pt-2 border-t border-indigo-900/50">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-200/70 mt-3 pt-2 border-t border-gold-900/50">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1240,7 +1240,7 @@ function C12_PhysicsElectricFluxSim({
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
                 <p className={`text-sm ${discoveryCorrect ? 'text-emerald-300 font-medium' : 'text-amber-300'}`}>
                   {discoveryCorrect ? '✓ Spot on! Zero net charge enclosed means net flux is strictly zero.' : DISCOVERY_QUESTION.hintAfter}
                 </p>
@@ -1248,7 +1248,7 @@ function C12_PhysicsElectricFluxSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Enter Interactive Labs</span>
                   <span>→</span>
@@ -1266,11 +1266,11 @@ function C12_PhysicsElectricFluxSim({
           <div className="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-800">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-slate-400">Step {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
-              <span className="text-sm font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</span>
+              <span className="text-sm font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex gap-1">
               {EXPLORATION_STEPS.map((_, idx) => (
-                <div key={idx} className={`h-1.5 w-6 rounded-full transition-all ${idx === currentSlide ? 'bg-indigo-500 w-8' : idx < currentSlide ? 'bg-indigo-800' : 'bg-slate-800'}`} />
+                <div key={idx} className={`h-1.5 w-6 rounded-full transition-all ${idx === currentSlide ? 'bg-gold-500 w-8' : idx < currentSlide ? 'bg-gold-800' : 'bg-slate-800'}`} />
               ))}
             </div>
           </div>
@@ -1283,7 +1283,7 @@ function C12_PhysicsElectricFluxSim({
               exit={{ opacity: 0, x: -20 }}
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
-              <div className="p-3 bg-indigo-950/40 border border-indigo-900/60 rounded-xl">
+              <div className="p-3 bg-gold-950/40 border border-gold-900/60 rounded-xl">
                 <p className="text-xs text-amber-300 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1298,7 +1298,7 @@ function C12_PhysicsElectricFluxSim({
                         <button
                           key={i}
                           onClick={() => handlePrediction(i)}
-                          className={`p-2 text-xs rounded-lg border text-left transition-all ${predictionIndex === i ? 'bg-indigo-600 border-indigo-400 text-white font-bold' : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-800'}`}
+                          className={`p-2 text-xs rounded-lg border text-left transition-all ${predictionIndex === i ? 'bg-gold-600 border-gold-400 text-white font-bold' : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-800'}`}
                         >
                           {opt}
                         </button>
@@ -1336,7 +1336,7 @@ function C12_PhysicsElectricFluxSim({
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Plate Tilt (theta):</span>
-                            <span className="font-mono text-indigo-400 font-bold">{tiltAngle} deg</span>
+                            <span className="font-mono text-gold-400 font-bold">{tiltAngle} deg</span>
                           </div>
                           <input
                             type="range"
@@ -1345,13 +1345,13 @@ function C12_PhysicsElectricFluxSim({
                             value={tiltAngle}
                             onChange={(e) => handleTiltSliderChange(Number(e.target.value))}
                             aria-label="Adjust plate tilt angle"
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                         <div>
                           <div className="flex justify-between text-xs text-slate-300 mb-1">
                             <span>Electric Field E:</span>
-                            <span className="font-mono text-cyan-400 font-bold">{fieldStrengthE} N/C</span>
+                            <span className="font-mono text-gold-400 font-bold">{fieldStrengthE} N/C</span>
                           </div>
                           <input
                             type="range"
@@ -1361,15 +1361,15 @@ function C12_PhysicsElectricFluxSim({
                             value={fieldStrengthE}
                             onChange={(e) => handleFieldStrengthChange(Number(e.target.value))}
                             aria-label="Adjust field strength"
-                            className="w-full accent-cyan-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                       </div>
 
                       {/* Live Metric HUD */}
-                      <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-2">
+                      <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-2">
                         <div className="flex justify-between items-baseline">
-                          <span className="text-xs text-indigo-200">Electric Flux (Phi_E):</span>
+                          <span className="text-xs text-gold-200">Electric Flux (Phi_E):</span>
                           <span className="text-lg font-mono font-black text-amber-300">{calculatedFlux.toFixed(1)} N m^2/C</span>
                         </div>
                         <div className="text-[11px] font-mono text-slate-300">
@@ -1377,7 +1377,7 @@ function C12_PhysicsElectricFluxSim({
                         </div>
                         <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                           <motion.div
-                            className="h-full bg-gradient-to-r from-indigo-500 to-amber-400"
+                            className="h-full bg-gradient-to-r from-gold-500 to-amber-400"
                             animate={{ width: `${(calculatedFlux / (3000 * 0.5)) * 100}%` }}
                           />
                         </div>
@@ -1431,7 +1431,7 @@ function C12_PhysicsElectricFluxSim({
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => handleEnclosedChargeChange(q)}
-                            className={`flex-1 py-1.5 text-xs font-bold rounded-lg border ${enclosedChargeQ === q ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
+                            className={`flex-1 py-1.5 text-xs font-bold rounded-lg border ${enclosedChargeQ === q ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
                           >
                             {q > 0 ? `+${q}` : q} muC
                           </motion.button>
@@ -1439,9 +1439,9 @@ function C12_PhysicsElectricFluxSim({
                       </div>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-2">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-2">
                       <div className="flex justify-between items-baseline">
-                        <span className="text-xs text-indigo-200">Net Gauss Flux Phi = q_enc / eps_0:</span>
+                        <span className="text-xs text-gold-200">Net Gauss Flux Phi = q_enc / eps_0:</span>
                         <span className="text-base font-mono font-black text-emerald-300">{(calculatedGaussFlux / 1000).toFixed(1)} k V·m</span>
                       </div>
                       <p className="text-[11px] text-slate-300">
@@ -1460,7 +1460,7 @@ function C12_PhysicsElectricFluxSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleGeometrySwitch('line')}
-                      className={`px-4 py-2 text-xs font-bold rounded-xl border ${activeGeometry === 'line' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
+                      className={`px-4 py-2 text-xs font-bold rounded-xl border ${activeGeometry === 'line' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
                     >
                       1D Infinite Line (E ~ 1/r)
                     </motion.button>
@@ -1486,7 +1486,7 @@ function C12_PhysicsElectricFluxSim({
                     <div className="lg:col-span-8 bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <div className="text-xs font-semibold text-slate-400 mb-2 flex justify-between">
                         <span>Electric Field E (kV/m) vs Radial Distance r (cm)</span>
-                        <span className="text-indigo-400 font-mono font-bold">
+                        <span className="text-gold-400 font-mono font-bold">
                           {activeGeometry === 'line' ? 'E = lambda / (2 pi eps0 r)' : activeGeometry === 'sheet' ? 'E = sigma / (2 eps0)' : 'E = kq / r^2 (r >= R)'}
                         </span>
                       </div>
@@ -1521,7 +1521,7 @@ function C12_PhysicsElectricFluxSim({
               {(currentSlide === 3 || currentSlide === 4) && (
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                   <div className="flex justify-between items-center text-xs">
-                    <span className="font-bold text-indigo-300">Dipole & Equipotential Voltage Scanner</span>
+                    <span className="font-bold text-gold-300">Dipole & Equipotential Voltage Scanner</span>
                     <span className="text-slate-400">Probe Position: ({probePos.x}, {probePos.y})</span>
                   </div>
                   <div
@@ -1551,7 +1551,7 @@ function C12_PhysicsElectricFluxSim({
                       <circle cx={probePos.x} cy={probePos.y} r="6" fill="#f59e0b" stroke="white" strokeWidth="2" />
                     </svg>
                   </div>
-                  <div className="flex justify-between items-center text-xs p-2 bg-indigo-950/40 rounded-lg border border-indigo-900">
+                  <div className="flex justify-between items-center text-xs p-2 bg-gold-950/40 rounded-lg border border-gold-900">
                     <span>Electric Potential at cursor: <strong className="text-amber-300 font-mono">{Math.round((250 - probePos.x) * 4)} Volts</strong></span>
                     <span>Work along green line: <strong className="text-emerald-400">Delta V = 0 =&gt; W = 0 J</strong></span>
                   </div>
@@ -1604,7 +1604,7 @@ function C12_PhysicsElectricFluxSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Plate Gap (d):</span>
-                          <span className="font-mono text-cyan-400 font-bold">{(plateDistance * 100).toFixed(1)} cm</span>
+                          <span className="font-mono text-gold-400 font-bold">{(plateDistance * 100).toFixed(1)} cm</span>
                         </div>
                         <input
                           type="range"
@@ -1613,15 +1613,15 @@ function C12_PhysicsElectricFluxSim({
                           step={0.005}
                           value={plateDistance}
                           onChange={(e) => setPlateDistance(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
 
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/60 space-y-2">
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/60 space-y-2">
                       <div className="flex justify-between items-baseline">
-                        <span className="text-xs text-indigo-200">Uniform Field Strength E:</span>
-                        <span className="text-lg font-mono font-black text-cyan-300">{Math.round(plateVoltage / plateDistance).toLocaleString()} V/m</span>
+                        <span className="text-xs text-gold-200">Uniform Field Strength E:</span>
+                        <span className="text-lg font-mono font-black text-gold-300">{Math.round(plateVoltage / plateDistance).toLocaleString()} V/m</span>
                       </div>
                       <p className="text-[11px] text-slate-300">
                         E = Delta V / d = {plateVoltage} V / {plateDistance} m = {Math.round(plateVoltage / plateDistance)} V/m. Field is perfectly uniform between plates!
@@ -1649,7 +1649,7 @@ function C12_PhysicsElectricFluxSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -1672,7 +1672,7 @@ function C12_PhysicsElectricFluxSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex justify-between items-center">
             <div>
-              <h3 className="text-base font-bold text-indigo-300">Free Exploration Sandbox</h3>
+              <h3 className="text-base font-bold text-gold-300">Free Exploration Sandbox</h3>
               <p className="text-xs text-slate-400">Test any variable combinations freely without grading pressure.</p>
             </div>
             <motion.button
@@ -1688,13 +1688,13 @@ function C12_PhysicsElectricFluxSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
               <span className="text-xs font-bold text-slate-400">Field Strength (E)</span>
-              <input type="range" min={500} max={10000} step={500} value={fieldStrengthE} onChange={(e) => setFieldStrengthE(Number(e.target.value))} className="w-full accent-indigo-500" />
-              <div className="text-right font-mono text-xs text-indigo-400">{fieldStrengthE} N/C</div>
+              <input type="range" min={500} max={10000} step={500} value={fieldStrengthE} onChange={(e) => setFieldStrengthE(Number(e.target.value))} className="w-full accent-gold-500" />
+              <div className="text-right font-mono text-xs text-gold-400">{fieldStrengthE} N/C</div>
             </div>
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
               <span className="text-xs font-bold text-slate-400">Surface Area (A)</span>
-              <input type="range" min={0.1} max={2.0} step={0.1} value={sensorAreaA} onChange={(e) => setSensorAreaA(Number(e.target.value))} className="w-full accent-cyan-500" />
-              <div className="text-right font-mono text-xs text-cyan-400">{sensorAreaA.toFixed(1)} m^2</div>
+              <input type="range" min={0.1} max={2.0} step={0.1} value={sensorAreaA} onChange={(e) => setSensorAreaA(Number(e.target.value))} className="w-full accent-gold-500" />
+              <div className="text-right font-mono text-xs text-gold-400">{sensorAreaA.toFixed(1)} m^2</div>
             </div>
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
               <span className="text-xs font-bold text-slate-400">Tilt Angle (theta)</span>
@@ -1712,13 +1712,13 @@ function C12_PhysicsElectricFluxSim({
           <div className="flex flex-wrap items-center justify-between gap-2 p-3 bg-slate-900 rounded-xl border border-slate-800">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-slate-400">Question {currentChallenge + 1} of {filteredChallenges.length}</span>
-              <span className="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-indigo-950 text-indigo-300 border border-indigo-700">
+              <span className="px-2 py-0.5 text-[10px] font-bold uppercase rounded bg-gold-950 text-gold-300 border border-gold-700">
                 NEP Competency: {currentChallengeData.competencyLevel}
               </span>
             </div>
             <div className="w-36 h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1764,7 +1764,7 @@ function C12_PhysicsElectricFluxSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -1790,7 +1790,7 @@ function C12_PhysicsElectricFluxSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                 >
                   Verify Target Mappings
                 </motion.button>
@@ -1815,7 +1815,7 @@ function C12_PhysicsElectricFluxSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-0.5 bg-slate-700 rounded font-mono font-bold text-indigo-300">{idx + 1}</span>
+                      <span className="px-2 py-0.5 bg-slate-700 rounded font-mono font-bold text-gold-300">{idx + 1}</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -1825,7 +1825,7 @@ function C12_PhysicsElectricFluxSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                 >
                   Submit Derivation Order
                 </motion.button>
@@ -1843,7 +1843,7 @@ function C12_PhysicsElectricFluxSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Numeric input value"
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs text-slate-400 font-bold">{currentChallengeData.unit}</span>
                   <motion.button
@@ -1851,7 +1851,7 @@ function C12_PhysicsElectricFluxSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                   >
                     Check Answer
                   </motion.button>
@@ -1869,7 +1869,7 @@ function C12_PhysicsElectricFluxSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -1877,7 +1877,7 @@ function C12_PhysicsElectricFluxSim({
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[50px] flex items-center gap-2 flex-wrap">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-600 text-white font-mono text-xs rounded-md">
+                    <span key={i} className="px-2.5 py-1 bg-gold-600 text-white font-mono text-xs rounded-md">
                       {part}
                     </span>
                   ))}
@@ -1889,7 +1889,7 @@ function C12_PhysicsElectricFluxSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                   >
                     Validate Formula
                   </motion.button>
@@ -1907,8 +1907,8 @@ function C12_PhysicsElectricFluxSim({
 
             {/* Step-by-Step Progressive Disclosure Explanation */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-indigo-950/40 border border-indigo-800 rounded-xl space-y-3">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">Physics Solution Breakdown:</span>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-gold-950/40 border border-gold-800 rounded-xl space-y-3">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-300">Physics Solution Breakdown:</span>
                 <div className="space-y-1.5">
                   {currentChallengeData.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, idx) => (
                     <motion.p key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="text-xs text-slate-300 leading-relaxed">
@@ -1946,7 +1946,7 @@ function C12_PhysicsElectricFluxSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           {/* Motivational Feedback Banner */}
-          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-700/60 text-center space-y-3">
             <span className="text-5xl">🏆</span>
             <h2 className={`text-2xl font-black ${motivationalMessage.color}`}>{motivationalMessage.title}</h2>
             <p className="text-xs text-slate-300 max-w-lg mx-auto">{motivationalMessage.desc}</p>
@@ -1961,7 +1961,7 @@ function C12_PhysicsElectricFluxSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-[11px] text-slate-400 block">BKT Mastery Tier</span>
-                <span className="text-2xl font-black text-indigo-400 uppercase font-mono">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 uppercase font-mono">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -1980,7 +1980,7 @@ function C12_PhysicsElectricFluxSim({
                   placeholder="e.g. Net flux through a closed box with no internal charge is strictly zero..."
                   value={reflectionAnswers.q1}
                   onChange={(e) => setReflectionAnswers(r => ({ ...r, q1: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
               <div>
@@ -1990,7 +1990,7 @@ function C12_PhysicsElectricFluxSim({
                   placeholder="e.g. Equal distance from +q and -q means equal magnitude positive and negative scalars cancel..."
                   value={reflectionAnswers.q2}
                   onChange={(e) => setReflectionAnswers(r => ({ ...r, q2: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
               <div>
@@ -2000,7 +2000,7 @@ function C12_PhysicsElectricFluxSim({
                   placeholder="e.g. Substation grounding grids to eliminate step potential hazards for workers..."
                   value={reflectionAnswers.q3}
                   onChange={(e) => setReflectionAnswers(r => ({ ...r, q3: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-indigo-500 outline-none"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2026,15 +2026,15 @@ function C12_PhysicsElectricFluxSim({
           )}
 
           {/* Real World Substation Activity */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🏗️</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-start gap-2 text-xs text-slate-300">
-                  <span className="font-mono font-bold text-indigo-400">{idx + 1}.</span>
+                  <span className="font-mono font-bold text-gold-400">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}
@@ -2042,11 +2042,11 @@ function C12_PhysicsElectricFluxSim({
           </div>
 
           {/* Spaced Repetition Visibility Card */}
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/50 to-slate-900 rounded-2xl border border-indigo-800/50 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/50 to-slate-900 rounded-2xl border border-gold-800/50 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-2xl p-2 bg-indigo-900/40 rounded-xl border border-indigo-700/50">📅</span>
+              <span className="text-2xl p-2 bg-gold-900/40 rounded-xl border border-gold-700/50">📅</span>
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">SM-2 Spaced Repetition Schedule</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">SM-2 Spaced Repetition Schedule</span>
                 <p className="text-sm font-semibold text-white">
                   Next Review:{' '}
                   <span className="text-amber-300 font-bold">
@@ -2069,7 +2069,7 @@ function C12_PhysicsElectricFluxSim({
                 setPhase('explore');
                 setCurrentSlide(0);
               }}
-              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg whitespace-nowrap"
+              className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg whitespace-nowrap"
             >
               Restart Simulation Labs ↺
             </motion.button>

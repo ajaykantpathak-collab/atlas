@@ -38,8 +38,8 @@ import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/
 
 const TEACHING_SLIDES = [
   { title: 'What is a Pattern? 🎨', text: 'A pattern is a sequence of shapes or colours that follows a rule! The same small group comes back again and again in the exact same order!', emoji: '🎨', bgColor: 'from-pink-400 to-rose-500', spoken: 'A pattern is a sequence of shapes or colours that follows a rule! The same small group comes back again and again in the exact same order!' },
-  { title: 'The Unit of Repeat 🔄', text: 'The smallest block that repeats to build the whole pattern is called the unit of repeat! In red, blue, red, blue, the unit is red and blue!', emoji: '🔄', bgColor: 'from-purple-400 to-indigo-500', spoken: 'The smallest block that repeats to build the whole pattern is called the unit of repeat!' },
-  { title: 'Extending Patterns ➡️', text: 'To extend a pattern, you find the unit of repeat and copy it again and again! After red and yellow comes red, then yellow!', emoji: '➡️', bgColor: 'from-blue-400 to-cyan-500', spoken: 'To extend a pattern, you find the unit of repeat and copy it again and again!' },
+  { title: 'The Unit of Repeat 🔄', text: 'The smallest block that repeats to build the whole pattern is called the unit of repeat! In red, blue, red, blue, the unit is red and blue!', emoji: '🔄', bgColor: 'from-purple-400 to-gold-500', spoken: 'The smallest block that repeats to build the whole pattern is called the unit of repeat!' },
+  { title: 'Extending Patterns ➡️', text: 'To extend a pattern, you find the unit of repeat and copy it again and again! After red and yellow comes red, then yellow!', emoji: '➡️', bgColor: 'from-gold-400 to-gold-500', spoken: 'To extend a pattern, you find the unit of repeat and copy it again and again!' },
   { title: 'Daily Life Patterns 🏠', text: 'Patterns are everywhere around us! Floor tiles, sari borders, necklaces, and even the days of the week from Monday to Sunday follow repeating patterns!', emoji: '🏠', bgColor: 'from-emerald-400 to-teal-500', spoken: 'Patterns are everywhere around us! Floor tiles, sari borders, necklaces, and days of the week follow repeating patterns!' },
   { title: 'Simple Graphs & Charts 📊', text: 'A graph is a picture that shows information clearly! On a bar graph, the tallest bar shows the most popular item, and the shortest bar shows the least!', emoji: '📊', bgColor: 'from-amber-400 to-orange-500', spoken: 'A graph is a picture that shows information clearly! The tallest bar shows the most, and the shortest bar shows the least!' },
 ];
@@ -253,7 +253,7 @@ function DesignStudioScene({ width, height }: { width: number; height: number })
       {/* Warm workshop wall gradient */}
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #FEF3C7 0%, #FDE68A 40%, #FCD34D 100%)' }} />
       {/* Window showing blue sky */}
-      <div className="absolute top-4 left-6 w-32 h-28 rounded-t-full bg-gradient-to-b from-sky-300 to-sky-400 border-4 border-amber-800 shadow-inner flex items-center justify-center overflow-hidden">
+      <div className="absolute top-4 left-6 w-32 h-28 rounded-t-full bg-gradient-to-b from-gold-300 to-gold-400 border-4 border-amber-800 shadow-inner flex items-center justify-center overflow-hidden">
         <motion.div animate={{ y: [0, -5, 0] }} transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}>
           <svg width="60" height="40" viewBox="0 0 60 40" opacity="0.8">
             <ellipse cx="20" cy="20" rx="15" ry="8" fill="white" />

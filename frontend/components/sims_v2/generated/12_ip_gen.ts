@@ -98,7 +98,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Subquery",
+    "title": "A Subquery",
     "text": "A subquery (nested query) is a SELECT statement embedded within another SQL statement's WHERE or HAVING clause, used to return a value or set of values that the outer query uses for filtering; the inner query executes first and its result becomes a condition",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -232,8 +232,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the correct syntax to insert a single row into a table STUDENT(RollNo INT PRIMARY KEY, Name VARCHAR(30), Class INT) when you want to provide values for all columns in the table's defined order?",
     "answer": "INSERT INTO STUDENT VALUES (101, 'Amit', 12); A wrong answer like INSERT INTO STUDENT (101, 'Amit', 12); (missing VALUES keyword) or INSERT INTO STUDENT VALUES ('Amit', 101, 12)",
     "options": [
-     "UPDATE INVENTORY SET Price = Price * 1.10; (no WHERE clause means all rows)",
-     "ROUND(283.2) returns 283 (rounds to nearest integer when D is omitted or 0), while ROUND(283.2, 1) returns 283.2 (rounds to 1 decimal place)",
+     "The student can write correct SELECT queries to retrieve specific columns from a table, apply DISTINCT to remove duplicate rows",
+     "The student can write correct MySQL queries using math, string, and date/time single-row functions in SELECT, WHERE",
      "INSERT INTO STUDENT VALUES (101, 'Amit', 12); A wrong answer like INSERT INTO STUDENT (101, 'Amit', 12); (missing VALUES keyword) or INSERT INTO STUDENT VALUES ('Amit', 101, 12)"
     ],
     "hint": "Straight from the 'INSERT INTO statement in SQL' slide -- match the key terms.",
@@ -253,8 +253,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the exact syntax to display only the CarName and Model columns from the INVENTORY table without showing any other columns?",
     "answer": "SELECT CarName, Model FROM INVENTORY; A wrong answer like SELECT * FROM INVENTORY; reveals the student doesn't understand explicit column selection",
     "options": [
-     "The subquery must return exactly one row (single value). If it returns multiple rows, MySQL throws error 1242: \"Subquery returns more than 1 row\"",
-     "ROUND(283.2) returns 283 (rounds to nearest integer when D is omitted or 0), while ROUND(283.2, 1) returns 283.2 (rounds to 1 decimal place)",
+     "The student can write a SELECT query that sorts results by multiple columns with mixed ASC/DESC order and applies LIMIT with OFFSET to implement pagination",
+     "CREATE TABLE is a DDL command that defines a new relation (table) by specifying column names, data types, and integrity constraints (PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE",
      "SELECT CarName, Model FROM INVENTORY; A wrong answer like SELECT * FROM INVENTORY; reveals the student doesn't understand explicit column selection"
     ],
     "hint": "Straight from the 'SELECT statement retrieves data' slide -- match the key terms.",
@@ -274,8 +274,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "List all comparison operators valid in a MySQL WHERE clause and give a one-line example of each.",
     "answer": "The six comparison operators are: = (equal), != or <> (not equal), > (greater than), < (less than), >= (greater than or equal), <= (less than or equal). Example: Price > 500000",
     "options": [
+     "The student can write a SELECT statement with a WHERE clause that correctly combines at least three conditions using AND/OR/NOT, uses parentheses to override default precedence",
      "The subquery must return exactly one row (single value). If it returns multiple rows, MySQL throws error 1242: \"Subquery returns more than 1 row\"",
-     "UPDATE INVENTORY SET Price = Price * 1.10; (no WHERE clause means all rows)",
      "The six comparison operators are: = (equal), != or <> (not equal), > (greater than), < (less than), >= (greater than or equal), <= (less than or equal). Example: Price > 500000"
     ],
     "hint": "Straight from the 'WHERE clause in SQL filters' slide -- match the key terms.",
@@ -299,7 +299,7 @@ export const C12_IP_GEN: SimDef[] = [
      "SELECT CarId, COUNT(*) AS SaleCount, AVG(SalePrice) AS AvgPrice FROM SALE GROUP BY CarId HAVING COUNT(*) > 1 AND AVG(SalePrice) > 600000",
      "The result is 6 (distinct models: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE)"
     ],
-    "hint": "Straight from the 'SQL aggregate functions (SUM,' slide -- match the key terms.",
+    "hint": "Straight from the 'SQL aggregate functions' slide -- match the key terms.",
     "misconception": "Answering 8 means the student thinks COUNT(DISTINCT Model) counts all rows, ignoring the DISTINCT keyword.",
     "id": "gen_c12_ip_ch01_q6",
     "nodeId": "c12_ip_cbse_01_006",
@@ -399,11 +399,11 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the cardinality requirement for a subquery used with the = operator in a WHERE clause, and what error occurs if it returns more than one row?",
     "answer": "The subquery must return exactly one row (single value). If it returns multiple rows, MySQL throws error 1242: \"Subquery returns more than 1 row\"",
     "options": [
-     "ROUND(283.2) returns 283 (rounds to nearest integer when D is omitted or 0), while ROUND(283.2, 1) returns 283.2 (rounds to 1 decimal place)",
-     "INSERT INTO STUDENT VALUES (101, 'Amit', 12); A wrong answer like INSERT INTO STUDENT (101, 'Amit', 12); (missing VALUES keyword) or INSERT INTO STUDENT VALUES ('Amit', 101, 12)",
+     "Student can write correct UPDATE and DELETE statements for a given scenario, including proper use of WHERE clause to target specific rows",
+     "The student can write a SELECT statement with a WHERE clause that correctly combines at least three conditions using AND/OR/NOT, uses parentheses to override default precedence",
      "The subquery must return exactly one row (single value). If it returns multiple rows, MySQL throws error 1242: \"Subquery returns more than 1 row\""
     ],
-    "hint": "Straight from the 'subquery' slide -- match the key terms.",
+    "hint": "Straight from the 'A subquery' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it returns the first row\") reveals the student thinks SQL implicitly limits results, but SQL standard requires single-row for scalar comparison.",
     "id": "gen_c12_ip_ch01_q9",
     "nodeId": "c12_ip_cbse_01_009",
@@ -441,8 +441,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the syntax to increase the Price of all cars in the INVENTORY table by 10%?",
     "answer": "UPDATE INVENTORY SET Price = Price * 1.10; (no WHERE clause means all rows)",
     "options": [
-     "INSERT INTO STUDENT VALUES (101, 'Amit', 12); A wrong answer like INSERT INTO STUDENT (101, 'Amit', 12); (missing VALUES keyword) or INSERT INTO STUDENT VALUES ('Amit', 101, 12)",
-     "The subquery must return exactly one row (single value). If it returns multiple rows, MySQL throws error 1242: \"Subquery returns more than 1 row\"",
+     "The six comparison operators are: = (equal), != or <> (not equal), > (greater than), < (less than), >= (greater than or equal), <= (less than or equal). Example: Price > 500000",
+     "SELECT CarName, Model FROM INVENTORY; A wrong answer like SELECT * FROM INVENTORY; reveals the student doesn't understand explicit column selection",
      "UPDATE INVENTORY SET Price = Price * 1.10; (no WHERE clause means all rows)"
     ],
     "hint": "Straight from the 'UPDATE statement modifies' slide -- match the key terms.",
@@ -462,11 +462,11 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the output of SELECT ROUND(283.2) in MySQL, and how does it differ from SELECT ROUND(283.2, 1)?",
     "answer": "ROUND(283.2) returns 283 (rounds to nearest integer when D is omitted or 0), while ROUND(283.2, 1) returns 283.2 (rounds to 1 decimal place)",
     "options": [
-     "SELECT CarName, Model FROM INVENTORY; A wrong answer like SELECT * FROM INVENTORY; reveals the student doesn't understand explicit column selection",
-     "INSERT INTO STUDENT VALUES (101, 'Amit', 12); A wrong answer like INSERT INTO STUDENT (101, 'Amit', 12); (missing VALUES keyword) or INSERT INTO STUDENT VALUES ('Amit', 101, 12)",
+     "The student can write correct MySQL queries using math, string, and date/time single-row functions in SELECT, WHERE",
+     "The student can correctly choose the most appropriate MySQL data type for a given real-world attribute (e",
      "ROUND(283.2) returns 283 (rounds to nearest integer when D is omitted or 0), while ROUND(283.2, 1) returns 283.2 (rounds to 1 decimal place)"
     ],
-    "hint": "Straight from the 'SQL single-row functions (also' slide -- match the key terms.",
+    "hint": "Straight from the 'SQL single-row functions' slide -- match the key terms.",
     "misconception": "A wrong answer like \"both return 283\" reveals the student doesn't understand the optional second parameter D in ROUND(N,D) — they're treating it as a single-argument function only, missing that D=0 is the default but D can be any non-negative integer for decimal precision.",
     "id": "gen_c12_ip_ch01_q12",
     "nodeId": "c12_ip_cbse_01_012",
@@ -500,7 +500,7 @@ export const C12_IP_GEN: SimDef[] = [
     "options": [
      "(i) Column-level: ColName TYPE PRIMARY KEY — only for single-column PK. Table-level: PRIMARY KEY (Col1, Col2) — required for composite PK, optional for single-column",
      "The difference of 2 rows (8 - 6 = 2) means exactly 2 duplicate rows exist in the Model column. Since there are 8 total rows and 6 unique values",
-     "Yes: 8 bytes, range '1000-01-01 00:00:00' to '9999-12-31 23:59:59'. TIMESTAMP: 4 bytes, range '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC",
+     "Providing: 8 bytes, range '1000-01-01 00:00:00' to '9999-12-31 23:59:59'. TIMESTAMP: 4 bytes, range '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC",
      "DATETIME: 8 bytes, range '1000-01-01 00:00:00' to '9999-12-31 23:59:59'. TIMESTAMP: 4 bytes, range '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC"
     ],
     "hint": "Straight from the 'MySQL data types define the kind' slide -- match the key terms.",
@@ -556,15 +556,15 @@ export const C12_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Write a CREATE TABLE statement for a table orders with columns: order_id (auto-increment integer, primary key), order_date (date only, no time), amount (up to 9999999.99, exact), status (fixed 1-character code: 'P', 'S', 'C'), and notes (up to 500 characters). Use the most storage-efficient types.",
-    "answer": "CREATE TABLE orders ( order_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, order_date DATE NOT NULL, amount DECIMAL(9,2) NOT NULL, status CHAR(1) NOT NULL, notes VARCHAR(500) )",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can correctly choose the most appropriate MySQL data type for a given real-world attribute (e",
     "options": [
-     "The statement fails with a foreign key constraint violation because CustID = 5 does not exist in the referenced CUSTOMER table",
-     "Scenario: Table STUDENT(RollNo INT PRIMARY KEY, Name VARCHAR(30)) already contains a row with RollNo = 101",
-     "CREATE TABLE orders ( order_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, order_date DATE NOT NULL, amount DECIMAL(9,2) NOT NULL, status CHAR(1) NOT NULL, notes VARCHAR(500) )"
+     "MODIFY COLUMN can safely change a column's data type in any direction (e.g., VARCHAR(20) → VARCHAR(10), DECIMAL(10,2) → INT)",
+     "The student can write a complete CREATE TABLE statement for a given real-world scenario including appropriate data types, a composite primary key",
+     "The student can correctly choose the most appropriate MySQL data type for a given real-world attribute (e"
     ],
     "hint": "Straight from the 'MySQL data types define the kind' slide -- match the key terms.",
-    "misconception": "Wrong answers using FLOAT for amount, DATETIME for order_date, or VARCHAR(1) for status show inability to match type to exact constraints.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can correctly choose the most appropriate MySQL data type for a given real-world attribute (e.",
     "id": "gen_c12_ip_ch01_q18",
     "nodeId": "c12_ip_cbse_01_001",
     "difficulty": "standard"
@@ -576,7 +576,7 @@ export const C12_IP_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "MySQL Data Types Define The mastered! 🎯",
+  "successLine": "MySQL Data Types Define mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -634,7 +634,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Loc",
+    "title": "Loc Is a Label-based Indexer",
     "text": "loc is a label-based indexer for DataFrame that selects rows and columns by their explicit index labels (row index and column names); iloc is an integer-position-based indexer that selects rows and columns by their zero-based positional offsets (like Python",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -646,7 +646,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "The Head(n), Tail(n), And Shape",
+    "title": "The Head , Tail , And Shape",
     "text": "The head(n), tail(n), and shape attributes/methods in Pandas provide quick structural inspection of a DataFrame: head(n) returns the first n rows (default 5), tail(n) returns the last n rows (default 5), and shape returns a tuple (rows, columns) representing",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -670,7 +670,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Filtering a DataFrame Selects Rows That",
+    "title": "Filtering a DataFrame Selects Rows",
     "text": "Filtering a DataFrame selects rows that satisfy one or more logical conditions on column values, producing a subset DataFrame. Sorting arranges rows in ascending or descending order based on one or more column values, optionally handling missing values.",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -740,7 +740,7 @@ export const C12_IP_GEN: SimDef[] = [
      "Excel's default CSV parser expects a comma separator; a pipe-delimited file will not split columns automatically",
      "sales.loc[['Madhu','Kusum'], ['2015','2016']] — note double brackets for lists"
     ],
-    "hint": "Straight from the 'loc' slide -- match the key terms.",
+    "hint": "Straight from the 'loc is a label-based indexer' slide -- match the key terms.",
     "misconception": "A wrong answer like sales.loc['Madhu':'Kusum', '2015':'2016'] uses slices which would include Kinshuk if the index were sorted alphabetically; the question asks for *only* Madhu and Kusum, so a list of labels is required. This tests whether the student distinguishes label *list* from label *slice*.",
     "id": "gen_c12_ip_ch02_q3",
     "nodeId": "c12_ip_cbse_02_003",
@@ -813,7 +813,7 @@ export const C12_IP_GEN: SimDef[] = [
      "df = pd.read_csv(\"sales.txt\", sep=\"|\", names=[\"ID\", \"Product\", \"Price\"], header=N/A) Steps: (1) Identify separator is |, not comma → sep=\"|\"",
      "shape is an attribute (a property), not a method, so it is accessed without parentheses: df.shape. Using parentheses treats it as a callable"
     ],
-    "hint": "Straight from the 'The head(n), tail(n), and shape' slide -- match the key terms.",
+    "hint": "Straight from the 'The head , tail , and shape' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: shape is an attribute (a property), not a method, so it is accessed without parentheses: df.",
     "id": "gen_c12_ip_ch02_q5",
     "nodeId": "c12_ip_cbse_02_005",
@@ -897,7 +897,7 @@ export const C12_IP_GEN: SimDef[] = [
      "import pandas as pd sales = pd.Series([200, 450, 300], index=['Jan', 'Feb', 'Mar']) print(sales['Feb']) # outputs 450 If the student writes sales[1] or sales",
      "sales.loc[sales['Region'] == 'North'].sort_values('Amount', ascending=False).head(3) Steps: filter for North region, sort by Amount descending, take first 3 rows"
     ],
-    "hint": "Straight from the 'Filtering a DataFrame selects' slide -- match the key terms.",
+    "hint": "Straight from the 'Filtering a DataFrame selects rows' slide -- match the key terms.",
     "misconception": "A wrong answer might sort before filtering (inefficient), forget ascending=False, or use nlargest incorrectly (e.g., on the whole DataFrame). This tests ability to chain filter‑sort‑limit correctly.",
     "id": "gen_c12_ip_ch02_q9",
     "nodeId": "c12_ip_cbse_02_010",
@@ -1051,7 +1051,7 @@ export const C12_IP_GEN: SimDef[] = [
      "shape is an attribute (a property), not a method, so it is accessed without parentheses: df.shape. Using parentheses treats it as a callable",
      "The code uses | (OR) instead of & (AND), so it selects all rows because every age is either >18 or <60. The correct version is df[(df['Age'] > 18) & (df['Age'] < 60)]"
     ],
-    "hint": "Straight from the 'Filtering a DataFrame selects' slide -- match the key terms.",
+    "hint": "Straight from the 'Filtering a DataFrame selects rows' slide -- match the key terms.",
     "misconception": "A student who misses the logical error confuses inclusive OR with the required AND for range filtering.",
     "id": "gen_c12_ip_ch02_q16",
     "nodeId": "c12_ip_cbse_02_010",
@@ -1195,7 +1195,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "DNS",
+    "title": "DNS Is a Hierarchical",
     "text": "DNS (Domain Name System) is a hierarchical, distributed naming system that translates human-readable domain names (e.g., www.example.com) into machine-readable IP addresses (e.",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1240,9 +1240,9 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "Which network type typically uses Bluetooth or Zigbee as its primary communication technology and covers a radius of about 10 metres around a person?",
     "answer": "PAN (Personal Area Network)",
     "options": [
-     "A recursive resolver accepts a DNS query from a client (stub resolver) and performs the entire iterative lookup on the client's behalf",
-     "A switch operates at Layer 2 (Data Link Layer) and forwards frames based on destination MAC address",
-     "PAN (HQ)",
+     "Network protocols are standardized rules and conventions that govern how data is formatted, transmitted, and received across a network",
+     "The student must be able to (1) identify each device by its OSI layer and primary function, (2) differentiate between hub and switch, router and gateway, and modem vs",
+     "PAN (VLAN)",
      "PAN (Personal Area Network)"
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
@@ -1331,16 +1331,47 @@ export const C12_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name the OSI layer at which a switch operates and state its primary forwarding criterion.",
-    "answer": "A switch operates at Layer 2 (Data Link Layer) and forwards frames based on destination MAC address",
-    "options": [
-     "PAN (Personal Area Network)",
-     "The three phases are: (1) Connection Setup — a dedicated path is established end-to-end via signaling",
-     "A switch operates at Layer 2 (Data Link Layer) and forwards frames based on destination MAC address"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify each device by its OSI layer",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "select the appropriate device to solve",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "differentiate between hub and switch",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Network devices' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., “Layer 3 / IP address”) reveals confusion between switching and routing — a critical error in board exams where “switch forwards by MAC, router forwards by IP” is a frequent 1‑mark differentiator.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) identify each device by its OSI layer and primary function, (2) differentiate between",
     "id": "gen_c12_ip_ch03_q5",
     "nodeId": "c12_ip_cbse_03_005",
     "difficulty": "standard",
@@ -1371,16 +1402,47 @@ export const C12_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the fundamental difference between how a MAC address and an IP address are assigned to a device?",
-    "answer": "A MAC address is permanently assigned by the hardware manufacturer during production and burned into the NIC's ROM (though software can override it)",
-    "options": [
-     "LAN will complete faster. Latency on LAN is sub-millisecond; on WAN it is tens of milliseconds. Bandwidth is higher on LAN (1 Gbps vs 100 Mbps)",
-     "A modem (Layer 1) converts the ISP’s physical signal (coax/fiber/DSL) to digital Ethernet; a router (Layer 3) performs NAT, DHCP, firewall",
-     "A MAC address is permanently assigned by the hardware manufacturer during production and burned into the NIC's ROM (though software can override it)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "given a scenario",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explain why both addresses",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "distinguish physical vs logical addressing",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'MAC  address' slide -- match the key terms.",
-    "misconception": "A wrong answer — e.g., \"both are assigned by the ISP\" or \"both are configured by the user\" — reveals confusion between hardware-level identity and network-level identity, a common error in board exams where students conflate \"address\" as a single concept.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish physical vs logical addressing by layer, scope, assignment method, and",
     "id": "gen_c12_ip_ch03_q7",
     "nodeId": "c12_ip_cbse_03_007",
     "difficulty": "standard",
@@ -1627,6 +1689,52 @@ export const C12_IP_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "select the most appropriate medium",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify any given transmission medium",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "compare bandwidth",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) classify any given transmission medium as guided or unguided with correct sub-category, (2) compare",
+    "id": "gen_c12_ip_ch03_q14",
+    "nodeId": "c12_ip_cbse_03_004",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A school has 30 standalone PCs. The principal wants to buy a single high-capacity printer for all. List the minimum network components and configuration steps needed to achieve this, and explain how this demonstrates the purpose of resource sharing.",
     "answer": "Components: 30 NICs, a switch, 30 Ethernet cables, printer with network interface or print server. Configuration: assign IP addresses, install printer driver on server",
@@ -1637,7 +1745,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
     "misconception": "A wrong answer listing only cables and switch shows the student focuses on hardware but misses the software/configuration layer that enables sharing.",
-    "id": "gen_c12_ip_ch03_q14",
+    "id": "gen_c12_ip_ch03_q15",
     "nodeId": "c12_ip_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1652,7 +1760,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
     "misconception": "A poor answer showing only a router and devices without protocols (DHCP, NAT, TCP/IP) or streaming protocol reveals a hardware-only mental model, missing the layered protocol architecture that makes sharing work.",
-    "id": "gen_c12_ip_ch03_q15",
+    "id": "gen_c12_ip_ch03_q16",
     "nodeId": "c12_ip_cbse_03_001",
     "difficulty": "standard"
    },
@@ -1667,7 +1775,7 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
     "misconception": "A wrong answer (WAN) indicates the student overestimates the distance threshold for WAN or misses that WANs cross national/regional boundaries using public switched networks.",
-    "id": "gen_c12_ip_ch03_q16",
+    "id": "gen_c12_ip_ch03_q17",
     "nodeId": "c12_ip_cbse_03_002",
     "difficulty": "standard"
    },
@@ -1682,21 +1790,6 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'computer network' slide -- match the key terms.",
     "misconception": "A wrong answer (MAN) shows the student thinks any multi-building network is a MAN, ignoring that MANs usually span a city (5–50 km) and often lease circuits from telecom providers.",
-    "id": "gen_c12_ip_ch03_q17",
-    "nodeId": "c12_ip_cbse_03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the typical latency and bandwidth characteristics of a LAN (1 Gbps Ethernet) and a WAN (leased line 100 Mbps) when transferring a 10 GB dataset between two endpoints. Which will complete faster and why?",
-    "answer": "LAN will complete faster. Latency on LAN is sub-millisecond; on WAN it is tens of milliseconds. Bandwidth is higher on LAN (1 Gbps vs 100 Mbps)",
-    "options": [
-     "Circuit switching: the dedicated path is broken → call drops immediately. Recovery requires new connection setup (signaling, path reservation) — takes seconds",
-     "(a) FTP uses two TCP connections: control (port 21) for commands and data (port 20 or ephemeral) for file transfer",
-     "LAN will complete faster. Latency on LAN is sub-millisecond; on WAN it is tens of milliseconds. Bandwidth is higher on LAN (1 Gbps vs 100 Mbps)"
-    ],
-    "hint": "Straight from the 'computer network' slide -- match the key terms.",
-    "misconception": "A wrong answer (WAN faster) reveals confusion between bandwidth and latency or ignorance of the huge latency penalty in WANs.",
     "id": "gen_c12_ip_ch03_q18",
     "nodeId": "c12_ip_cbse_03_002",
     "difficulty": "standard"
@@ -1758,7 +1851,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Plagiarism",
+    "title": "Plagiarism Is The Act Of Using Someone",
     "text": "Plagiarism is the act of using someone else's work, ideas, expressions, or intellectual property without proper acknowledgment or citation, presenting it as one's own original creation.",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1776,19 +1869,19 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Cyberbullying",
+    "title": "Cyberbullying Is The Deliberate And Repeated",
     "text": "Cyberbullying is the deliberate and repeated use of digital technologies — such as social media, messaging apps, gaming platforms, or email — to harass, threaten, embarrass, or target another person.",
     "emoji": "🗂️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "E-waste",
+    "title": "E-waste Refers To Discarded",
     "text": "E-waste (electronic waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and batteries that have reached the end of their useful life.",
     "emoji": "🗂️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Netiquette",
+    "title": "Netiquette Is a Set",
     "text": "Netiquette (Network Etiquette) is a set of social conventions and best practices that govern respectful, clear, and responsible behavior when communicating or interacting online, including email, social media, forums, and messaging platforms.",
     "emoji": "🗂️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1800,7 +1893,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "E-commerce",
+    "title": "E-commerce Refers To The Buying",
     "text": "E-commerce refers to the buying and selling of goods and services over the internet, involving electronic transactions for payment, order processing, and digital delivery; its benefits include global reach, 24/7 availability, lower operational costs, and",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1837,7 +1930,7 @@ export const C12_IP_GEN: SimDef[] = [
      "Correct explanation: The message explicitly threatens removal from the online group (exclusion) and includes a threat to reveal private location information if the victim speaks",
      "No, this is not plagiarism. The statement describes a well-known, fundamental feature of Python that is considered common knowledge in the programming community"
     ],
-    "hint": "Straight from the 'Plagiarism' slide -- match the key terms.",
+    "hint": "Straight from the 'Plagiarism is the act of using' slide -- match the key terms.",
     "misconception": "A student who flags this as plagiarism misunderstands the boundary between common knowledge and original ideas; they would over-cite, cluttering their report.",
     "id": "gen_c12_ip_ch04_q2",
     "nodeId": "c12_ip_cbse_04_003",
@@ -1900,7 +1993,7 @@ export const C12_IP_GEN: SimDef[] = [
      "For: (1) Basic kindness (don't insult) is intuitive; (2) Many rules mirror offline manners (say please/thank you)",
      "Correct explanation: The message explicitly threatens removal from the online group (exclusion) and includes a threat to reveal private location information if the victim speaks"
     ],
-    "hint": "Straight from the 'Cyberbullying' slide -- match the key terms.",
+    "hint": "Straight from the 'Cyberbullying is the deliberate' slide -- match the key terms.",
     "misconception": "A wrong answer that labels it only “harassment” shows the student cannot differentiate overlapping forms, a skill needed for board case‑study questions where multiple forms co‑occur and each must be named for full marks.",
     "id": "gen_c12_ip_ch04_q5",
     "nodeId": "c12_ip_cbse_04_007",
@@ -2280,7 +2373,7 @@ export const C12_IP_GEN: SimDef[] = [
      "Card-not-present fraud (e-commerce) is easier to scale because stolen card details can be bought in bulk on dark web markets and tested automatically across many sites via bots",
      "Mosaic plagiarism: \"Machine learning models need big datasets to generalise well to new data.\" (Borrows phrase structure and key terms \"large datasets\", \"generalise well\""
     ],
-    "hint": "Straight from the 'Plagiarism' slide -- match the key terms.",
+    "hint": "Straight from the 'Plagiarism is the act of using' slide -- match the key terms.",
     "misconception": "A student who cannot produce both examples likely conflates \"changing words\" with \"original thinking\" — a trap in board exam case studies where they must label a given passage.",
     "id": "gen_c12_ip_ch04_q13",
     "nodeId": "c12_ip_cbse_04_003",
@@ -2295,7 +2388,7 @@ export const C12_IP_GEN: SimDef[] = [
      "No, this is not plagiarism. The statement describes a well-known, fundamental feature of Python that is considered common knowledge in the programming community",
      "1. Source Log: Keep a running document (paper/digital) noting every URL, paper, or person consulted *as you read*, with 1-line summary of what you took"
     ],
-    "hint": "Straight from the 'Plagiarism' slide -- match the key terms.",
+    "hint": "Straight from the 'Plagiarism is the act of using' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 1. Source Log: Keep a running document (paper/digital) noting every URL, paper, or person consulted *as you read*, with",
     "id": "gen_c12_ip_ch04_q14",
     "nodeId": "c12_ip_cbse_04_003",
@@ -2325,7 +2418,7 @@ export const C12_IP_GEN: SimDef[] = [
      "1. Python code → Copyright (automatic, no registration needed for protection). 2. Translation algorithm/method → Patent (registration *mandatory* under Patents Act 1970",
      "Correct critique: The statement is legally unsound. Sections 66C (identity theft), 66D (cheating by personation)"
     ],
-    "hint": "Straight from the 'Cyberbullying' slide -- match the key terms.",
+    "hint": "Straight from the 'Cyberbullying is the deliberate' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with the statement reveals ignorance of mandatory reporting laws, a critical error in board assertion‑reason questions and real‑life decision‑making.",
     "id": "gen_c12_ip_ch04_q16",
     "nodeId": "c12_ip_cbse_04_007",
@@ -2340,7 +2433,7 @@ export const C12_IP_GEN: SimDef[] = [
      "Campaign: \"E-Waste Warriors\". (a) Target: Collect 500 kg e-waste in 4 weeks (2.5 kg/flat). (b) Nudges: (i) \"Green Bin\" at each tower entrance with QR code linking to recycler",
      "The statement is incorrect because e-waste contains concentrated hazardous substances: (1) Lead in solder/CRT glass — causes neurological damage, especially in children"
     ],
-    "hint": "Straight from the 'E-waste' slide -- match the key terms.",
+    "hint": "Straight from the 'E-waste refers to discarded' slide -- match the key terms.",
     "misconception": "A wrong answer that only mentions \"pollution\" or \"heavy metals\" without naming specific substance→effect pairs shows superficial awareness, not mechanistic understanding of toxicity pathways.",
     "id": "gen_c12_ip_ch04_q17",
     "nodeId": "c12_ip_cbse_04_008",
@@ -2355,7 +2448,7 @@ export const C12_IP_GEN: SimDef[] = [
      "- Copyright (literary work): Life of author + 60 years (Section 22, Copyright Act 1957). - Patent: 20 years from filing date (Section 53, Patents Act 1970)",
      "Formal recycling recovers >95% of gold (≈300 g/tonne PCB) via controlled hydrometallurgy; informal acid leaching recovers <30% and releases cyanide/acid effluents"
     ],
-    "hint": "Straight from the 'E-waste' slide -- match the key terms.",
+    "hint": "Straight from the 'E-waste refers to discarded' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"informal recovers more gold because they use strong acid\" confuses reagent strength with process control — uncontrolled acid leaching dissolves gold but fails to precipitate it efficiently, losing most to waste sludge.",
     "id": "gen_c12_ip_ch04_q18",
     "nodeId": "c12_ip_cbse_04_008",
@@ -2374,14 +2467,14 @@ export const C12_IP_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_ip_ch05",
-  "title": "Internet",
+  "title": "The Internet Is The Global Hardware",
   "subtitle": "Informatics Practices · Chapter 5",
   "classLevel": 12,
   "mode": "senior",
   "subject": "informatics practices",
-  "topic": "Internet",
+  "topic": "The Internet Is The Global Hardware",
   "chapters": [
-   "Informatics Practices Ch5: Internet"
+   "Informatics Practices Ch5: The Internet Is The Global Hardware"
   ],
   "nodeIds": [
    "c12_ip_cbse_05_001",
@@ -2404,7 +2497,7 @@ export const C12_IP_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Internet more about facts, or about reasoning?",
+   "question": "Is The Internet Is The Global more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -2415,7 +2508,7 @@ export const C12_IP_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Internet",
+    "title": "The Internet Is The Global Hardware",
     "text": "The Internet is the global hardware infrastructure of interconnected computers and networking devices that enables data transmission, while the World Wide Web (WWW) is an information system of interlinked hypertext documents (web pages) accessed via the",
     "emoji": "🗂️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2493,11 +2586,11 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "Define the Internet and the World Wide Web in one sentence each.",
     "answer": "The Internet is the global network of interconnected computing devices and networking hardware that enables data communication",
     "options": [
-     "The three main parts are: (1) Request Line (method, request-target, HTTP version), (2) Headers (key-value pairs like Host, User-Agent, Content-Type)",
-     "A web crawler systematically browses the World Wide Web by following hyperlinks from known pages to discover new or updated pages, downloading their content (HTML, images, etc",
+     "Email protocols are standardized rules that govern the transmission, retrieval, and management of electronic mail over the Internet",
+     "Students believe that buying a domain name automatically includes web hosting, or that the registrar \"stores\" the website files",
      "The Internet is the global network of interconnected computing devices and networking hardware that enables data communication"
     ],
-    "hint": "Straight from the 'Internet' slide -- match the key terms.",
+    "hint": "Straight from the 'The Internet is the global' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"they are the same thing\" reveals the core misconception that the terms are synonyms. A wrong answer that describes the Web as hardware reveals confusion between infrastructure and service.",
     "id": "gen_c12_ip_ch05_q1",
     "nodeId": "c12_ip_cbse_05_001",
@@ -2603,16 +2696,47 @@ export const C12_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the primary role of a web browser in the client–server model of the World Wide Web?",
-    "answer": "The web browser acts as the client: it initiates communication by sending HTTP/HTTPS requests to a web server, receives the responses, and renders the returned HTML, CSS",
-    "options": [
-     "Web 2.0 enables user-generated content and two-way interaction (read-write), whereas Web 1.0 was primarily read-only static pages",
-     "The Internet is the global network of interconnected computing devices and networking hardware that enables data communication",
-     "The web browser acts as the client: it initiates communication by sending HTTP/HTTPS requests to a web server, receives the responses, and renders the returned HTML, CSS"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how static and dynamic content",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "trace the sequence of events when a user",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "describe the distinct responsibilities",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'web browser' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., “the browser stores website files” or “the browser processes PHP code”) reveals confusion between client-side and server-side responsibilities — the student thinks the browser runs server logic or hosts content.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) describe the distinct responsibilities of a browser and a web server in the request–response cycle,",
     "id": "gen_c12_ip_ch05_q4",
     "nodeId": "c12_ip_cbse_05_004",
     "difficulty": "standard",
@@ -2701,8 +2825,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the primary function of the Domain Name System (DNS) in the context of web hosting?",
     "answer": "The DNS translates a human-readable domain name (e.g., example.com) into the numeric IP address of the web server where the site is hosted",
     "options": [
-     "A packet is a small, fixed-size unit of data that includes a header (with source/destination IP addresses, sequence number, etc",
-     "The three main parts are: (1) Request Line (method, request-target, HTTP version), (2) Headers (key-value pairs like Host, User-Agent, Content-Type)",
+     "The student can distinguish Web 1.0, 2.0, and 3.0 by their core characteristics (read-only vs. read-write vs",
+     "The student can clearly articulate the distinction between the Internet (network infrastructure) and the Web (information service)",
      "The DNS translates a human-readable domain name (e.g., example.com) into the numeric IP address of the web server where the site is hosted"
     ],
     "hint": "Straight from the 'Web hosting' slide -- match the key terms.",
@@ -2722,7 +2846,7 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the primary function of a web crawler (spider) in a search engine?",
     "answer": "A web crawler systematically browses the World Wide Web by following hyperlinks from known pages to discover new or updated pages, downloading their content (HTML, images, etc",
     "options": [
-     "Web 2.0 enables user-generated content and two-way interaction (read-write), whereas Web 1.0 was primarily read-only static pages",
+     "The student can (1) decompose any given URL into its five core components (protocol, subdomain, domain, path, query parameters) and explain the function of each",
      "The DNS translates a human-readable domain name (e.g., example.com) into the numeric IP address of the web server where the site is hosted",
      "A web crawler systematically browses the World Wide Web by following hyperlinks from known pages to discover new or updated pages, downloading their content (HTML, images, etc"
     ],
@@ -2795,8 +2919,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the primary function of SMTP in email communication, and which default port number does it use for unencrypted communication?",
     "answer": "SMTP (Simple Mail Transfer Protocol) is used exclusively for sending emails from a client to a mail server or between mail servers. Its default unencrypted port is 25",
     "options": [
-     "The web browser acts as the client: it initiates communication by sending HTTP/HTTPS requests to a web server, receives the responses, and renders the returned HTML, CSS",
-     "The three main parts are: (1) Request Line (method, request-target, HTTP version), (2) Headers (key-value pairs like Host, User-Agent, Content-Type)",
+     "The student must be able to (1) distinguish FTP, Telnet, and SSH by purpose, port numbers, and security characteristics",
+     "Email protocols are standardized rules that govern the transmission, retrieval, and management of electronic mail over the Internet",
      "SMTP (Simple Mail Transfer Protocol) is used exclusively for sending emails from a client to a mail server or between mail servers. Its default unencrypted port is 25"
     ],
     "hint": "Straight from the 'Email protocols' slide -- match the key terms.",
@@ -2868,8 +2992,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What are the default port numbers for FTP (control connection), Telnet, and SSH?",
     "answer": "FTP control uses TCP port 21, Telnet uses TCP port 23, SSH uses TCP port 22",
     "options": [
-     "The three main parts are: (1) Request Line (method, request-target, HTTP version), (2) Headers (key-value pairs like Host, User-Agent, Content-Type)",
-     "The DNS translates a human-readable domain name (e.g., example.com) into the numeric IP address of the web server where the site is hosted",
+     "The student can explain the end-to-end process of taking a local website live: selecting a hosting provider, registering a domain, uploading files via FTP/SFTP",
+     "The Internet is the global network of interconnected computing devices and networking hardware that enables data communication",
      "FTP control uses TCP port 21, Telnet uses TCP port 23, SSH uses TCP port 22"
     ],
     "hint": "Straight from the 'FTP' slide -- match the key terms.",
@@ -3056,6 +3180,52 @@ export const C12_IP_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "diagram a complete HTTP request and response",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "given a scenario",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain how TLS establishes a secure channel",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can (1) diagram a complete HTTP request and response with all components, (2) explain how TLS establishes a",
+    "id": "gen_c12_ip_ch05_q16",
+    "nodeId": "c12_ip_cbse_05_005",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "A student says: \"I use the Internet to check email, and I use the Web to watch YouTube. So email is not part of the Web.\" Is this statement correct? Justify your answer.",
     "answer": "Yes, the statement is correct. Email uses protocols like SMTP, POP3, IMAP which are distinct from HTTP/HTML that define the Web",
@@ -3064,9 +3234,9 @@ export const C12_IP_GEN: SimDef[] = [
      "Web 3.0 principles align; technologies: blockchain (for decentralized identity/storage) and IPFS (for distributed file storage)",
      "Yes, the statement is correct. Email uses protocols like SMTP, POP3, IMAP which are distinct from HTTP/HTML that define the Web"
     ],
-    "hint": "Straight from the 'Internet' slide -- match the key terms.",
+    "hint": "Straight from the 'The Internet is the global' slide -- match the key terms.",
     "misconception": "A wrong answer that says email is part of the Web because you can check it in a browser reveals confusion between access method and underlying service.",
-    "id": "gen_c12_ip_ch05_q16",
+    "id": "gen_c12_ip_ch05_q17",
     "nodeId": "c12_ip_cbse_05_001",
     "difficulty": "standard"
    },
@@ -3079,23 +3249,8 @@ export const C12_IP_GEN: SimDef[] = [
      "Web 1.0: central server serves static files; trust = server authority. Web 2.0: server processes user data and runs application logic; trust = platform reputation",
      "URL (Uniform Resource Locator) identifies the location of a resource on the Web. HTML (HyperText Markup Language) defines the structure and presentation of the resource (web page)"
     ],
-    "hint": "Straight from the 'Internet' slide -- match the key terms.",
+    "hint": "Straight from the 'The Internet is the global' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps these roles (e.g., HTML transfers, HTTP structures) reveals a lack of understanding of the three distinct functions.",
-    "id": "gen_c12_ip_ch05_q17",
-    "nodeId": "c12_ip_cbse_05_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a real-world analogy (different from the road/vehicle analogy) that explains the relationship between the Internet and the World Wide Web. Explain each component of your analogy.",
-    "answer": "Example analogy: The Internet is the electrical grid (wires, transformers, power plants); the Web is the set of appliances (TV, refrigerator",
-    "options": [
-     "Correct parse table: | Component | Value | Purpose | |-----------|-------|---------| | Protocol | ftp | File Transfer Protocol for file download | | Host | ftp",
-     "Yes, it will work because on shared hosting, the MySQL server typically runs on the same physical machine as the web server, so localhost (or 127",
-     "Example analogy: The Internet is the electrical grid (wires, transformers, power plants); the Web is the set of appliances (TV, refrigerator"
-    ],
-    "hint": "Straight from the 'Internet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Example analogy: The Internet is the electrical grid (wires, transformers, power plants); the Web is the set of",
     "id": "gen_c12_ip_ch05_q18",
     "nodeId": "c12_ip_cbse_05_001",
     "difficulty": "standard"
@@ -3103,11 +3258,11 @@ export const C12_IP_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about internet?",
+    "What surprised you about the internet is the global hardware?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Internet mastered! 🎯",
+  "successLine": "The Internet Is The Global mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3232,8 +3387,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the exact purpose of the <!DOCTYPE html> declaration in an HTML5 document?",
     "answer": "The <!DOCTYPE html> declaration tells the browser to render the page in standards mode (HTML5) rather than quirks mode",
     "options": [
-     "The name attribute is the key under which the input's value is sent to the server during form submission",
-     "h2 { color: red; font-size: 24px; } A wrong answer like h2 { color=red; font-size=24px; } (using = instead of :) or h2 { color: red",
+     "The student must be able to write JavaScript code that selects specific HTML elements using document",
+     "DOM (Document Object Model) manipulation refers to the process of using JavaScript to programmatically access, modify, create, or delete HTML elements and their attributes",
      "The <!DOCTYPE html> declaration tells the browser to render the page in standards mode (HTML5) rather than quirks mode"
     ],
     "hint": "Straight from the 'HTML document' slide -- match the key terms.",
@@ -3272,11 +3427,11 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the correct HTML to create a link that opens https://www.example.com in a new browser tab while preventing the new page from accessing the originating page's window.opener property?",
     "answer": "<a href=\"https://www.example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Example</a> A wrong answer like omitting rel or using target=\"new\" reveals the student doesn't know the",
     "options": [
-     "<link rel=\"stylesheet\" href=\"styles.css\"> placed inside the <head> element",
-     "The viewport meta tag tells the mobile browser to set the layout viewport width equal to the device's physical screen width (in CSS pixels) and set the initial zoom level to 100%",
+     "HTML images, lists, and tables are structural elements used to embed media, organize information sequentially or hierarchically",
+     "Student can write correct anchor tags with href (absolute, relative, fragment, mailto, tel) and target attributes",
      "<a href=\"https://www.example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Example</a> A wrong answer like omitting rel or using target=\"new\" reveals the student doesn't know the"
     ],
-    "hint": "Straight from the 'HTML anchor element  creates' slide -- match the key terms.",
+    "hint": "Straight from the 'HTML anchor element creates' slide -- match the key terms.",
     "misconception": "A wrong answer like omitting rel or using target=\"new\" reveals the student doesn't know the security risk of target=\"_blank\" (the new page can redirect the original page via window.opener.location = '...') or confuses the target keyword _blank with a custom window name.",
     "id": "gen_c12_ip_ch06_q3",
     "nodeId": "c12_ip_cbse_06_003",
@@ -3289,16 +3444,58 @@ export const C12_IP_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the mandatory attribute for the <img> tag that provides alternative text for screen readers and broken images?",
-    "answer": "The mandatory attribute is alt",
-    "options": [
-     "The correct tag is <h1> and HTML provides six levels (<h1> through <h6>)",
-     "The viewport meta tag tells the mobile browser to set the layout viewport width equal to the device's physical screen width (in CSS pixels) and set the initial zoom level to 100%",
-     "The mandatory attribute is alt"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "create nested ordered/unordered lists",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "explain the accessibility purpose of alt",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s2",
+      "label": "build a data table using <table>",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "insert an image with proper src",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'HTML images, lists, and tables' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"src\" or \"title\") reveals the student confuses the image source with accessibility requirement. The alt attribute is required by HTML5 validation and WCAG guidelines; omitting it makes the page inaccessible to visually impaired users.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can independently write valid HTML code to: (1) insert an image with proper src, alt, width, and height",
     "id": "gen_c12_ip_ch06_q4",
     "nodeId": "c12_ip_cbse_06_004",
     "difficulty": "advanced",
@@ -3314,8 +3511,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the purpose of the name attribute on an <input> element, and what happens if you omit it?",
     "answer": "The name attribute is the key under which the input's value is sent to the server during form submission",
     "options": [
-     "<a href=\"https://www.example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Example</a> A wrong answer like omitting rel or using target=\"new\" reveals the student doesn't know the",
-     "The mandatory attribute is alt",
+     "It returns only the first matching element (the first <p class=\"highlight\">), not a list",
+     "<link rel=\"stylesheet\" href=\"styles.css\"> placed inside the <head> element",
      "The name attribute is the key under which the input's value is sent to the server during form submission"
     ],
     "hint": "Straight from the 'HTML form' slide -- match the key terms.",
@@ -3354,7 +3551,7 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What are the four components of the CSS box model, listed from innermost to outermost?",
     "answer": "The four components are: content, padding, border, margin",
     "options": [
-     "<link rel=\"stylesheet\" href=\"styles.css\"> placed inside the <head> element",
+     "DOM (Document Object Model) manipulation refers to the process of using JavaScript to programmatically access, modify, create, or delete HTML elements and their attributes",
      "The viewport meta tag tells the mobile browser to set the layout viewport width equal to the device's physical screen width (in CSS pixels) and set the initial zoom level to 100%",
      "The four components are: content, padding, border, margin"
     ],
@@ -3375,8 +3572,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the correct HTML syntax to link an external stylesheet named styles.css located in the same folder as the HTML file?",
     "answer": "<link rel=\"stylesheet\" href=\"styles.css\"> placed inside the <head> element",
     "options": [
-     "The mandatory attribute is alt",
-     "The name attribute is the key under which the input's value is sent to the server during form submission",
+     "Students believe width and height attributes on <img> resize the image file (reducing bandwidth)",
+     "The student must be able to write JavaScript code that selects specific HTML elements using document",
      "<link rel=\"stylesheet\" href=\"styles.css\"> placed inside the <head> element"
     ],
     "hint": "Straight from the 'CSS can be applied to HTML' slide -- match the key terms.",
@@ -3396,8 +3593,8 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What is the exact purpose of the viewport meta tag <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> in a responsive webpage, and what happens if you omit it on a mobile device?",
     "answer": "The viewport meta tag tells the mobile browser to set the layout viewport width equal to the device's physical screen width (in CSS pixels) and set the initial zoom level to 100%",
     "options": [
-     "The correct tag is <h1> and HTML provides six levels (<h1> through <h6>)",
-     "The name attribute is the key under which the input's value is sent to the server during form submission",
+     "The student must be able to calculate the total rendered dimensions of an element given its content width/height, padding, border, and margin values",
+     "The four components are: content, padding, border, margin",
      "The viewport meta tag tells the mobile browser to set the layout viewport width equal to the device's physical screen width (in CSS pixels) and set the initial zoom level to 100%"
     ],
     "hint": "Straight from the 'Responsive design' slide -- match the key terms.",
@@ -3501,11 +3698,11 @@ export const C12_IP_GEN: SimDef[] = [
     "question": "What does document.querySelector('.highlight') return if there are three <p class=\"highlight\"> elements in the HTML?",
     "answer": "It returns only the first matching element (the first <p class=\"highlight\">), not a list",
     "options": [
-     "h2 { color: red; font-size: 24px; } A wrong answer like h2 { color=red; font-size=24px; } (using = instead of :) or h2 { color: red",
      "The correct tag is <h1> and HTML provides six levels (<h1> through <h6>)",
+     "The student must be able to write JavaScript code that selects specific HTML elements using document",
      "It returns only the first matching element (the first <p class=\"highlight\">), not a list"
     ],
-    "hint": "Straight from the 'DOM  manipulation' slide -- match the key terms.",
+    "hint": "Straight from the 'DOM manipulation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"returns all three\" or \"returns an array\") reveals the student confuses querySelector (single) with querySelectorAll (NodeList of all matches) — a critical distinction because calling .style.color = 'red' on a NodeList throws a TypeError.",
     "id": "gen_c12_ip_ch06_q12",
     "nodeId": "c12_ip_cbse_06_012",
@@ -3579,6 +3776,21 @@ export const C12_IP_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can write a complete, valid HTML5 document skeleton from memory, correctly place essential metadata tags (charset, viewport, title, description) inside <head>",
+    "options": [
+     "The student must be able to write a complete CSS rule set (selector + declaration block) that styles a given HTML structure using at least three different selector types (element",
+     "The correct tag is <h1> and HTML provides six levels (<h1> through <h6>)",
+     "The student can write a complete, valid HTML5 document skeleton from memory, correctly place essential metadata tags (charset, viewport, title, description) inside <head>"
+    ],
+    "hint": "Straight from the 'HTML document' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a complete, valid HTML5 document skeleton from memory, correctly place essential metadata tags",
+    "id": "gen_c12_ip_ch06_q17",
+    "nodeId": "c12_ip_cbse_06_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Write the minimal HTML5 code to set the character encoding to UTF-8, make the page responsive on mobile devices, and set the browser tab title to \"Project Demo\".",
     "answer": "<!DOCTYPE html> <html> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1",
     "options": [
@@ -3588,24 +3800,9 @@ export const C12_IP_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'HTML document' slide -- match the key terms.",
     "misconception": "A wrong answer missing charset or viewport or placing <title> outside <head> shows the student cannot apply the three essential metadata tags together, often because they memorize tags in isolation rather than as a required set for modern web pages.",
-    "id": "gen_c12_ip_ch06_q17",
+    "id": "gen_c12_ip_ch06_q18",
     "nodeId": "c12_ip_cbse_06_001",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A webpage has this structure: <h1>Fruits</h1><h3>Apples</h3><h2>Vegetables</h2><h4>Carrots</h4>. Identify two problems with this heading hierarchy and explain why they hurt accessibility.",
-    "answer": "Problem 1: Skipping from <h1> to <h3> (missing <h2>) breaks the logical outline — screen reader users navigating by headings will jump from level 1 to level 3",
-    "options": [
-     "Proposed tag: <meta name=\"primary-language\" content=\"hi\"> placed in <head>. Unlike lang=\"hi\" on <html> (which declares the document's default language for inheritance)",
-     "The link fails because contact.html is inside the pages subfolder, not the root. The correct href is pages/contact.html (relative path from current file)",
-     "Problem 1: Skipping from <h1> to <h3> (missing <h2>) breaks the logical outline — screen reader users navigating by headings will jump from level 1 to level 3"
-    ],
-    "hint": "Straight from the 'HTML text formatting tags' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Problem 1: Skipping from <h1> to <h3> (missing <h2>) breaks the logical outline — screen reader users navigating by",
-    "id": "gen_c12_ip_ch06_q18",
-    "nodeId": "c12_ip_cbse_06_002",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -3663,7 +3860,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Phishing",
+    "title": "Phishing Is a Cyber Attack Where",
     "text": "Phishing is a cyber attack where attackers impersonate legitimate entities (banks, government portals, popular services) through deceptive emails, messages, or websites to trick victims into revealing sensitive information such as login credentials, OTPs,",
     "emoji": "🗂️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3693,7 +3890,7 @@ export const C12_IP_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Software Updates And Patch Management Refer",
+    "title": "Software Updates And Patch Management",
     "text": "Software updates and patch management refer to the systematic process of identifying, acquiring, testing, and installing code changes (patches) released by software vendors to fix security vulnerabilities, correct bugs, and add new features, thereby reducing",
     "emoji": "🗂️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3767,7 +3964,7 @@ export const C12_IP_GEN: SimDef[] = [
      "The reasoning is flawed because cyber safety risks extend far beyond direct financial loss. Three categories affecting teenagers: (1) Identity theft",
      "HTTPS only encrypts traffic between you and the server; it does not verify the server's legitimacy"
     ],
-    "hint": "Straight from the 'Phishing' slide -- match the key terms.",
+    "hint": "Straight from the 'Phishing is a cyber attack where' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"HTTPS means safe\" reveals the dangerous misconception that encryption equals authenticity — a classic trap in board and competitive exams.",
     "id": "gen_c12_ip_ch07_q2",
     "nodeId": "c12_ip_cbse_07_005",
@@ -3809,7 +4006,7 @@ export const C12_IP_GEN: SimDef[] = [
      "Last incremental was Wednesday 6 PM. Failure Thursday 10 AM → data created between Wed 6 PM and Thu 10 AM is lost (max ~16 hours)",
      "Counterexample 1: Phishing sites routinely use valid HTTPS certificates (Let's Encrypt issues them free for any domain the attacker controls)"
     ],
-    "hint": "Straight from the 'Safe browsing habits refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Safe browsing habits' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Counterexample 1: Phishing sites routinely use valid HTTPS certificates (Let's Encrypt issues them free for any domain",
     "id": "gen_c12_ip_ch07_q4",
     "nodeId": "c12_ip_cbse_07_007",

@@ -805,7 +805,7 @@ const SchoolsOfThoughtSVG: React.FC<{ selectedSchool: string; onSelect: (school:
               onClick={() => onSelect(s.id)}
               className={`cursor-pointer p-3 rounded-xl border transition-all duration-300 transform hover:-translate-y-1 ${
                 isSelected
-                  ? 'bg-slate-800 border-cyan-400 ring-2 ring-cyan-500/50 shadow-lg scale-102'
+                  ? 'bg-slate-800 border-gold-400 ring-2 ring-gold-500/50 shadow-lg scale-102'
                   : 'bg-slate-950/70 border-slate-800 hover:border-slate-600'
               }`}
             >
@@ -900,9 +900,9 @@ const BranchesMapSVG: React.FC<{ activeBranch: string; onSelectBranch: (branch: 
       <h4 className="text-sm font-bold text-slate-300 mb-3 text-center uppercase tracking-wider">Classification of Psychology Branches</h4>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Basic Theoretical Branches */}
-        <div className="bg-slate-950 p-3 rounded-xl border border-blue-900/50">
-          <div className="text-xs font-bold text-blue-400 mb-2 uppercase tracking-wide flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-blue-500"></span>
+        <div className="bg-slate-950 p-3 rounded-xl border border-gold-900/50">
+          <div className="text-xs font-bold text-gold-400 mb-2 uppercase tracking-wide flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-gold-500"></span>
             Basic / Theoretical Psychology (Knowledge Building)
           </div>
           <div className="space-y-2">
@@ -912,11 +912,11 @@ const BranchesMapSVG: React.FC<{ activeBranch: string; onSelectBranch: (branch: 
                 onClick={() => onSelectBranch(b.id)}
                 className={`p-2.5 rounded-lg border text-left cursor-pointer transition-all ${
                   activeBranch === b.id
-                    ? 'bg-blue-950 border-blue-400 text-white shadow'
+                    ? 'bg-gold-950 border-gold-400 text-white shadow'
                     : 'bg-slate-900/60 border-slate-800 text-slate-300 hover:border-slate-700'
                 }`}
               >
-                <div className="font-bold text-sm text-blue-300">{b.label}</div>
+                <div className="font-bold text-sm text-gold-300">{b.label}</div>
                 <div className="text-xs text-slate-400">{b.desc}</div>
               </div>
             ))}
@@ -1196,11 +1196,11 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
       {/* HEADER BAR */}
       <header className="max-w-7xl mx-auto bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl backdrop-blur-md flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-600 flex items-center justify-center text-2xl font-bold shadow-lg shadow-indigo-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 via-gold-500 to-purple-600 flex items-center justify-center text-2xl font-bold shadow-lg shadow-gold-500/30">
             Ψ
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400">
+            <h1 className="text-xl md:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400">
               ISC Class 11: What is Psychology?
             </h1>
             <p className="text-xs text-slate-400">Interactive Mind, Behaviour & Interdisciplinary Observatory</p>
@@ -1211,25 +1211,25 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
         <div className="flex bg-slate-950 p-1.5 rounded-xl border border-slate-800 gap-1 text-xs md:text-sm font-semibold">
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'discovery' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             1. Discovery
           </button>
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'lab' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'lab' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             2. Interactive Labs
           </button>
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'challenges' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             3. Challenges ({completedChallenges.size}/{CHALLENGES.length})
           </button>
           <button
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
-            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'summary' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-4 py-2 rounded-lg transition-all ${activeTab === 'summary' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             4. Real-World Audit
           </button>
@@ -1242,9 +1242,9 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* SCENARIO CARD */}
-            <div className="bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 p-6 rounded-2xl border border-indigo-900/50 shadow-2xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
-              <span className="text-xs font-bold uppercase tracking-widest text-indigo-400 bg-indigo-950/80 px-3 py-1 rounded-full border border-indigo-800">
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 p-6 rounded-2xl border border-gold-900/50 shadow-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+              <span className="text-xs font-bold uppercase tracking-widest text-gold-400 bg-gold-950/80 px-3 py-1 rounded-full border border-gold-800">
                 Observatory Scenario
               </span>
               <h2 className="text-2xl font-bold text-white mt-3 mb-2">{SCENARIO.title}</h2>
@@ -1255,8 +1255,8 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
             {/* DISCOVERY COUNTER-INTUITIVE QUESTION */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl">
               <div className="flex items-center gap-2 mb-4">
-                <span className="w-3 h-3 rounded-full bg-cyan-400 animate-ping"></span>
-                <h3 className="text-lg font-bold text-cyan-300">Initial Discovery Challenge</h3>
+                <span className="w-3 h-3 rounded-full bg-gold-400 animate-ping"></span>
+                <h3 className="text-lg font-bold text-gold-300">Initial Discovery Challenge</h3>
               </div>
               <p className="text-slate-200 font-medium mb-4 text-sm leading-relaxed">{DISCOVERY_QUESTION.question}</p>
 
@@ -1268,11 +1268,11 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                     onClick={() => { setDiscoveryChoice(idx); audioManager.play('tap'); }}
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start gap-3 ${
                       discoveryChoice === idx
-                        ? 'bg-indigo-900/60 border-indigo-400 text-white font-medium shadow-md'
+                        ? 'bg-gold-900/60 border-gold-400 text-white font-medium shadow-md'
                         : 'bg-slate-950/80 border-slate-800 text-slate-300 hover:border-slate-700'
                     }`}
                   >
-                    <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-bold text-cyan-400 shrink-0 mt-0.5">
+                    <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-400 shrink-0 mt-0.5">
                       {String.fromCharCode(65 + idx)}
                     </span>
                     <span>{opt}</span>
@@ -1284,13 +1284,13 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                 <button
                   disabled={discoveryChoice === null}
                   onClick={handleDiscoverySubmit}
-                  className="px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 disabled:opacity-50 transition-all shadow-lg shadow-indigo-500/25"
+                  className="px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 disabled:opacity-50 transition-all shadow-lg shadow-gold-500/25"
                 >
                   Verify Discovery Answer
                 </button>
               ) : (
-                <div className="p-4 rounded-xl bg-slate-950 border border-indigo-800/80 animate-fade-in">
-                  <p className="text-xs font-bold text-indigo-400 mb-1">Scientific Insight:</p>
+                <div className="p-4 rounded-xl bg-slate-950 border border-gold-800/80 animate-fade-in">
+                  <p className="text-xs font-bold text-gold-400 mb-1">Scientific Insight:</p>
                   <p className="text-sm text-slate-200">{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => { setActiveTab('lab'); audioManager.play('whoosh'); }}
@@ -1349,11 +1349,11 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                   onClick={() => { setActiveLabIndex(idx); audioManager.play('pop'); }}
                   className={`p-3 rounded-xl border text-left text-xs font-semibold transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-gradient-to-br from-indigo-900 to-purple-950 border-indigo-400 text-white shadow-lg ring-1 ring-indigo-400/50'
+                      ? 'bg-gradient-to-br from-gold-900 to-purple-950 border-gold-400 text-white shadow-lg ring-1 ring-gold-400/50'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  <div className="text-[10px] text-indigo-400 uppercase font-bold mb-1">Step 0{idx + 1}</div>
+                  <div className="text-[10px] text-gold-400 uppercase font-bold mb-1">Step 0{idx + 1}</div>
                   <div className="line-clamp-2">{step.title.split(':')[1] || step.title}</div>
                 </button>
               ))}
@@ -1366,7 +1366,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                   <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
                   <p className="text-xs text-slate-400 mt-1">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
                 </div>
-                <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-[10px] text-cyan-300 font-mono">
+                <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-[10px] text-gold-300 font-mono">
                   Node: {EXPLORATION_STEPS[activeLabIndex].nodeId}
                 </span>
               </div>
@@ -1417,8 +1417,8 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
               {activeLabIndex === 1 && (
                 <div className="space-y-4">
                   <SchoolsOfThoughtSVG selectedSchool={selectedParadigm} onSelect={(s) => setSelectedParadigm(s)} />
-                  <div className="p-4 rounded-xl bg-slate-950 border border-cyan-900/60">
-                    <h4 className="text-sm font-bold text-cyan-300">Detailed Paradigm Analysis: {selectedParadigm}</h4>
+                  <div className="p-4 rounded-xl bg-slate-950 border border-gold-900/60">
+                    <h4 className="text-sm font-bold text-gold-300">Detailed Paradigm Analysis: {selectedParadigm}</h4>
                     <p className="text-xs text-slate-300 mt-2 leading-relaxed">
                       {selectedParadigm === 'Structuralism' && 'Pioneered by Wilhelm Wundt (1879) & Titchener. Used Introspection under controlled lab conditions to analyze conscious experience into elementary sensory structures.'}
                       {selectedParadigm === 'Functionalism' && 'Founded by William James (1890). Influenced by Darwin, it shifted focus from what mind IS to what mind DOES in adapting organisms to environmental demands.'}
@@ -1469,19 +1469,19 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                         onClick={() => { setSelectedMatrixCase(idx); audioManager.play('tap'); }}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           selectedMatrixCase === idx
-                            ? 'bg-indigo-950 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-950 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
-                        <div className="text-[10px] font-bold text-indigo-400 mb-1">Case 0{idx + 1}</div>
+                        <div className="text-[10px] font-bold text-gold-400 mb-1">Case 0{idx + 1}</div>
                         <div className="text-xs font-semibold line-clamp-2">{c.problem}</div>
                       </button>
                     ))}
                   </div>
 
-                  <div className="p-6 rounded-2xl bg-slate-950 border border-indigo-900/60 space-y-3">
+                  <div className="p-6 rounded-2xl bg-slate-950 border border-gold-900/60 space-y-3">
                     <div className="flex justify-between items-center border-b border-slate-800 pb-2">
-                      <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Applied Case Analysis</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Applied Case Analysis</span>
                       <span className="text-xs px-2 py-1 rounded bg-slate-800 text-slate-300 font-mono">
                         {matrixCases[selectedMatrixCase].branch}
                       </span>
@@ -1490,7 +1490,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                       <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
                         <span className="text-[11px] font-bold text-slate-400 block mb-1">Partner Discipline:</span>
-                        <span className="text-sm font-semibold text-cyan-300">{matrixCases[selectedMatrixCase].discipline}</span>
+                        <span className="text-sm font-semibold text-gold-300">{matrixCases[selectedMatrixCase].discipline}</span>
                       </div>
                       <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
                         <span className="text-[11px] font-bold text-slate-400 block mb-1">Psychological Solution / Protocol:</span>
@@ -1538,7 +1538,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                           <span className="font-bold">Empirical Result: </span>
                           {commonSenseMyths[selectedMythIndex].empiricalResult}
                         </div>
-                        <div className="p-3 rounded-lg bg-indigo-950/40 border border-indigo-800 text-indigo-200 text-xs">
+                        <div className="p-3 rounded-lg bg-gold-950/40 border border-gold-800 text-gold-200 text-xs">
                           <span className="font-bold">Underlying Psychological Principle: </span>
                           {commonSenseMyths[selectedMythIndex].psychologicalPrinciple}
                         </div>
@@ -1551,7 +1551,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
 
             {/* OBSERVATION QUESTIONS (RENDERED MANDATORY SECTION) */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <h3 className="text-base font-bold text-cyan-300 border-b border-slate-800 pb-2">Lab Observation Checkpoint</h3>
+              <h3 className="text-base font-bold text-gold-300 border-b border-slate-800 pb-2">Lab Observation Checkpoint</h3>
               {OBSERVATION_QUESTIONS.map((oq, idx) => (
                 <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <p className="text-xs font-semibold text-slate-200 mb-3">{oq.question}</p>
@@ -1565,7 +1565,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                         }}
                         className={`w-full text-left p-2.5 rounded-lg border text-xs transition-all ${
                           observationAnswers[idx] === oIdx
-                            ? 'bg-cyan-950 border-cyan-400 text-white'
+                            ? 'bg-gold-950 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                         }`}
                       >
@@ -1593,7 +1593,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
               <div className="flex items-center gap-3">
                 <div className="text-right">
                   <span className="text-[10px] text-slate-400 font-bold block">CURRENT SCORE</span>
-                  <span className="text-lg font-black text-cyan-400">{score} PTS</span>
+                  <span className="text-lg font-black text-gold-400">{score} PTS</span>
                 </div>
                 <div className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-xs text-emerald-400">
                   {Math.round(((currentChallengeIndex + 1) / CHALLENGES.length) * 100)}%
@@ -1614,7 +1614,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                     <div className="flex items-center gap-2">
                       <span className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${
                         currentC.difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-300 border border-emerald-800' :
-                        currentC.difficulty === 'standard' ? 'bg-blue-950 text-blue-300 border border-blue-800' :
+                        currentC.difficulty === 'standard' ? 'bg-gold-950 text-gold-300 border border-gold-800' :
                         'bg-purple-950 text-purple-300 border border-purple-800'
                       }`}>
                         {currentC.difficulty}
@@ -1641,7 +1641,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                           btnStyle = 'bg-red-950/90 border-red-500 text-red-200 font-semibold';
                         }
                       } else if (isSelected) {
-                        btnStyle = 'bg-indigo-950 border-indigo-400 text-white font-semibold ring-1 ring-indigo-400';
+                        btnStyle = 'bg-gold-950 border-gold-400 text-white font-semibold ring-1 ring-gold-400';
                       }
 
                       return (
@@ -1656,7 +1656,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                           className={`w-full text-left p-4 rounded-xl border text-sm transition-all duration-200 flex items-start gap-3 ${btnStyle}`}
                         >
                           <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 ${
-                            isSelected ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            isSelected ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}>
                             {String.fromCharCode(65 + optIdx)}
                           </span>
@@ -1676,7 +1676,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                           audioManager.play('hint');
                         }
                       }}
-                      className="text-xs text-indigo-400 hover:text-indigo-300 font-semibold flex items-center gap-1"
+                      className="text-xs text-gold-400 hover:text-gold-300 font-semibold flex items-center gap-1"
                     >
                       💡 {showHint ? 'Hide Hint' : 'Request Hint'}
                     </button>
@@ -1685,7 +1685,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                       <button
                         disabled={selectedOption === null}
                         onClick={handleChallengeSubmit}
-                        className="px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 disabled:opacity-50 transition-all shadow-lg shadow-indigo-500/25"
+                        className="px-6 py-3 rounded-xl font-bold text-white bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 disabled:opacity-50 transition-all shadow-lg shadow-gold-500/25"
                       >
                         Submit Response
                       </button>
@@ -1708,9 +1708,9 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                       </div>
 
                       {currentC.misconceptionIndex !== undefined && (
-                        <div className="p-3 rounded-lg bg-indigo-950/40 border border-indigo-800 text-xs">
-                          <span className="font-bold text-indigo-300 block mb-0.5">Common Misconception Alert:</span>
-                          <span className="text-indigo-200">{MISCONCEPTIONS[currentC.misconceptionIndex].fact}</span>
+                        <div className="p-3 rounded-lg bg-gold-950/40 border border-gold-800 text-xs">
+                          <span className="font-bold text-gold-300 block mb-0.5">Common Misconception Alert:</span>
+                          <span className="text-gold-200">{MISCONCEPTIONS[currentC.misconceptionIndex].fact}</span>
                         </div>
                       )}
                     </div>
@@ -1725,7 +1725,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
         {activeTab === 'summary' && (
           <div className="space-y-6">
             {/* REAL WORLD ACTIVITY CARD (RENDERED MANDATORY SECTION) */}
-            <div className="bg-slate-900 p-6 rounded-2xl border border-indigo-900/60 shadow-2xl space-y-4">
+            <div className="bg-slate-900 p-6 rounded-2xl border border-gold-900/60 shadow-2xl space-y-4">
               <div className="flex items-center gap-2">
                 <span className="px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800 text-xs font-bold uppercase">
                   Real-World Application Activity
@@ -1737,7 +1737,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 space-y-1">
-                    <span className="font-bold text-cyan-400 block">Protocol Step 0{idx + 1}</span>
+                    <span className="font-bold text-gold-400 block">Protocol Step 0{idx + 1}</span>
                     <p className="leading-relaxed">{step}</p>
                   </div>
                 ))}
@@ -1779,7 +1779,7 @@ export const C11_PsyWhatIsPsychologyCBSESim: React.FC<ComponentProps> = ({
                       key={nodeId}
                       className={`px-2 py-1 rounded text-[10px] font-mono border ${
                         level === 'mastered' ? 'bg-emerald-950 text-emerald-300 border-emerald-800' :
-                        level === 'proficient' ? 'bg-blue-950 text-blue-300 border-blue-800' :
+                        level === 'proficient' ? 'bg-gold-950 text-gold-300 border-gold-800' :
                         'bg-slate-950 text-slate-400 border-slate-800'
                       }`}
                     >

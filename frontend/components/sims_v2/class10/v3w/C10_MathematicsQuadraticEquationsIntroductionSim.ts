@@ -11,7 +11,7 @@ export const w_c10_mathematicsquadraticequationsintroductionsim: SimDef = {
     classLevel: 10, subject: 'mathematics', topic: 'Equations Reducible to Pair of Linear Equations (Substitution)',
     chapters: [],
     nodeIds: ['c10_math_cbse_03_008', 'c10_math_cbse_03_009', 'c10_math_cbse_03_010', 'c10_math_cbse_04_001', 'c10_math_cbse_04_002', 'c10_math_cbse_04_003', 'c10_math_cbse_04_004', 'c10_math_cbse_04_005', 'c10_math_cbse_04_006', 'c10_math_cbse_04_007', 'c10_math_cbse_04_008', 'c10_math_cbse_04_009', 'c10_math_cbse_04_010', 'c10_math_cbse_04_011', 'c10_math_cbse_04_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine a carpenter charges ₹500 for making 2 tables and 3 chairs, but ₹700 for 3 tables and 2 chairs — this.', goal: 'Master Equations Reducible to Pair of Linear Equations (Substitution).' },
     discovery: {
         question: 'What are the expressions for downstream speed and upstream speed if the speed of a boat in still water is x km/h and the speed of the stream is y km/h?',
@@ -20,7 +20,7 @@ export const w_c10_mathematicsquadraticequationsintroductionsim: SimDef = {
         hook: 'Students write the equations as: Distance = (x+y) × time_upstream and Distance = (x-y) × time_downstream, swapping the.',
     },
     teaching: [
-        { title: 'Equations reducible to a pair of linear.', text: 'Equations reducible to a pair of linear equations in two variables are non-linear equations (typically involving reciprocals of variables like 1/x, 1/y, or expressions like x+y, x-y in denominators).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Equations reducible to a pair of linear.', text: 'Equations reducible to a pair of linear equations in two variables are non-linear equations (typically involving reciprocals of variables like 1/x, 1/y, or expressions like x+y, x-y in denominators).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_math_cbse_03_008', title: 'Equations reducible to a pair of linear.',

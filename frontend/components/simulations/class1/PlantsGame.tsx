@@ -61,7 +61,7 @@ const TEACHING_SLIDES = [
         title: 'Careful Observation 🔍',
         text: 'Always look closely at height and stem before naming a plant type! Size alone is not enough - a rose plant is small, but it has woody stems so it is a shrub!',
         emoji: '🔍',
-        bgColor: 'from-teal-400 to-cyan-600',
+        bgColor: 'from-teal-400 to-gold-600',
         spoken: 'Always look closely at height and stem before naming a plant type!'
     },
 ];

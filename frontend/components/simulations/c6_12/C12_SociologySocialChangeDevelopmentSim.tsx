@@ -1106,7 +1106,7 @@ function C12_SociologySocialChangeDevelopmentSim({
             key={phase} 
             initial={{ scale: 0.8 }} 
             animate={{ scale: 1 }} 
-            className="px-3 py-1 bg-indigo-950/80 border border-indigo-700 text-indigo-300 text-xs font-bold rounded-xl uppercase tracking-wider"
+            className="px-3 py-1 bg-gold-950/80 border border-gold-700 text-gold-300 text-xs font-bold rounded-xl uppercase tracking-wider"
           >
             Phase: {phase}
           </motion.span>
@@ -1128,13 +1128,13 @@ function C12_SociologySocialChangeDevelopmentSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-semibold mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-semibold mb-2">
               <span>📖 Case Scenario Arc</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 bg-indigo-950/80 p-3 rounded-xl border border-indigo-900">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300 bg-gold-950/80 p-3 rounded-xl border border-gold-900">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800">
@@ -1160,7 +1160,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                       : 'bg-slate-800/90 hover:bg-slate-750 text-slate-200 border border-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1225,13 +1225,13 @@ function C12_SociologySocialChangeDevelopmentSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>Technological Innovation (UPI, 5G, Roadways)</span>
-                        <span className="font-bold text-indigo-400">{techLevel}%</span>
+                        <span className="font-bold text-gold-400">{techLevel}%</span>
                       </div>
                       <input 
                         type="range" min={0} max={100} value={techLevel} 
                         onChange={(e) => handleTechChange(Number(e.target.value))}
                         aria-label="Set Technological Innovation level"
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1303,7 +1303,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                       </div>
                       <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                         <span className="text-[10px] text-slate-400 block">Modernity Index</span>
-                        <span className="text-base font-black text-indigo-400">{traditionVsModernityRatio}%</span>
+                        <span className="text-base font-black text-gold-400">{traditionVsModernityRatio}%</span>
                       </div>
                     </div>
                   </div>
@@ -1354,7 +1354,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                             Shift from handicraft agrarian economy to factory mass production and wage labour. 
                             Examples: Bhilai Steel Plant (1955), Green Revolution in Punjab & Haryana.
                           </p>
-                          <div className="mt-2 text-xs text-indigo-300 font-semibold bg-indigo-950/60 p-2.5 rounded-lg border border-indigo-900">
+                          <div className="mt-2 text-xs text-gold-300 font-semibold bg-gold-950/60 p-2.5 rounded-lg border border-gold-900">
                             Key ISC Marker: Machine application + Division of labour + Growth of secondary sector.
                           </div>
                         </div>
@@ -1366,7 +1366,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                             Rising proportion of national population residing in urban clusters. Census 2011 recorded 31.16% urban (up from 27.81% in 2001). 
                             Distinguished from &apos;Urbanism&apos; (the cultural way of life after Louis Wirth).
                           </p>
-                          <div className="mt-2 text-xs text-indigo-300 font-semibold bg-indigo-950/60 p-2.5 rounded-lg border border-indigo-900">
+                          <div className="mt-2 text-xs text-gold-300 font-semibold bg-gold-950/60 p-2.5 rounded-lg border border-gold-900">
                             Key ISC Marker: Rural-to-urban migration + Informal labour sector + Rise of nuclear households.
                           </div>
                         </div>
@@ -1378,7 +1378,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                             Adoption of rational, scientific, secular, and merit-based values over superstition and ascription. 
                             M.N. Srinivas captured this in India through twin concepts of Sanskritization and Westernization.
                           </p>
-                          <div className="mt-2 text-xs text-indigo-300 font-semibold bg-indigo-950/60 p-2.5 rounded-lg border border-indigo-900">
+                          <div className="mt-2 text-xs text-gold-300 font-semibold bg-gold-950/60 p-2.5 rounded-lg border border-gold-900">
                             Key ISC Marker: Achievement over birth-status + Decline of rigid joint families.
                           </div>
                         </div>
@@ -1390,7 +1390,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                             Interconnectedness of capital, ideas, culture, and labour across sovereign borders. 
                             Anchored in India&apos;s 1991 New Economic Policy (LPG) and the IT corridors of Bengaluru and Hyderabad.
                           </p>
-                          <div className="mt-2 text-xs text-indigo-300 font-semibold bg-indigo-950/60 p-2.5 rounded-lg border border-indigo-900">
+                          <div className="mt-2 text-xs text-gold-300 font-semibold bg-gold-950/60 p-2.5 rounded-lg border border-gold-900">
                             Key ISC Marker: FDI inflow + BPO outsourcing + Exposure to global consumer culture.
                           </div>
                         </div>
@@ -1402,7 +1402,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                             &quot;Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.&quot; 
                             Includes India&apos;s International Solar Alliance, LiFE movement (COP26), and Forest Rights Act 2006.
                           </p>
-                          <div className="mt-2 text-xs text-indigo-300 font-semibold bg-indigo-950/60 p-2.5 rounded-lg border border-indigo-900">
+                          <div className="mt-2 text-xs text-gold-300 font-semibold bg-gold-950/60 p-2.5 rounded-lg border border-gold-900">
                             Key ISC Marker: Intergenerational equity + Social justice + Ecological carrying capacity.
                           </div>
                         </div>
@@ -1416,8 +1416,8 @@ function C12_SociologySocialChangeDevelopmentSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 space-y-3">
-                      <div className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Predict Before You Interact</div>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 space-y-3">
+                      <div className="text-xs font-bold text-gold-300 uppercase tracking-wider">Predict Before You Interact</div>
                       <p className="text-sm text-white font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1534,7 +1534,7 @@ function C12_SociologySocialChangeDevelopmentSim({
               {/* SLIDE 3: EDUCATION (RTE 2009) & SVG DIAGRAM 3 */}
               {currentSlide === 3 && (
                 <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
-                  <div className="flex flex-col md:flex-row items-center justify-between gap-4 p-4 bg-indigo-950/40 rounded-xl border border-indigo-900">
+                  <div className="flex flex-col md:flex-row items-center justify-between gap-4 p-4 bg-gold-950/40 rounded-xl border border-gold-900">
                     <div>
                       <h4 className="text-sm font-bold text-white">Right to Education (RTE Act 2009 / Article 21A)</h4>
                       <p className="text-xs text-slate-300 mt-0.5">Free & compulsory schooling (6-14 years) with 25% EWS private quota.</p>
@@ -1587,7 +1587,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[11px] text-slate-400 block">Total Fertility Rate</span>
-                        <span className="text-lg font-black text-indigo-400">{totalFertilityRate} TFR</span>
+                        <span className="text-lg font-black text-gold-400">{totalFertilityRate} TFR</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[11px] text-slate-400 block">Child Marriage</span>
@@ -1619,7 +1619,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                         aria-label={`Select media format: ${m.label}`}
                         className={`flex-1 p-3 rounded-xl text-left border text-xs font-semibold ${
                           mediaType === m.id 
-                            ? 'bg-indigo-950 border-indigo-500 text-white' 
+                            ? 'bg-gold-950 border-gold-500 text-white' 
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1709,7 +1709,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
                 aria-label="Enter free sandbox"
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-900/40"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/40"
               >
                 Proceed to Free Sandbox →
               </motion.button>
@@ -1786,7 +1786,7 @@ function C12_SociologySocialChangeDevelopmentSim({
               </div>
               <div className="flex justify-between text-xs">
                 <span className="text-slate-400">Tribal Stability:</span>
-                <span className="font-bold text-indigo-400">{100 - Math.min(100, Math.round(tribalDisplacementCount / 60))}%</span>
+                <span className="font-bold text-gold-400">{100 - Math.min(100, Math.round(tribalDisplacementCount / 60))}%</span>
               </div>
             </div>
           </div>
@@ -1796,7 +1796,7 @@ function C12_SociologySocialChangeDevelopmentSim({
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
             aria-label="Ready to start board challenges"
-            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-2xl text-sm font-black tracking-wide shadow-xl shadow-emerald-950/60"
+            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-2xl text-sm font-black tracking-wide shadow-xl shadow-emerald-950/60"
           >
             I Am Ready for Challenges! 🎯
           </motion.button>
@@ -1812,13 +1812,13 @@ function C12_SociologySocialChangeDevelopmentSim({
               <span className="font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-indigo-300 font-semibold border border-slate-700">
+              <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-gold-300 font-semibold border border-slate-700">
                 Competency: {activeChallenge.competencyLevel.toUpperCase()}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1858,7 +1858,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                         : 'bg-slate-800/80 hover:bg-slate-750 text-slate-200 border border-slate-700'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1878,7 +1878,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag item ${item.label}`}
-                      className="px-3.5 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab shadow-sm"
+                      className="px-3.5 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -1911,7 +1911,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify dragged labels"
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mappings ✓
                 </motion.button>
@@ -1942,7 +1942,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                       aria-label={`Sort item ${displayIdx + 1}: ${item}`}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="font-bold text-indigo-400">{displayIdx + 1}.</span>
+                      <span className="font-bold text-gold-400">{displayIdx + 1}.</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -1957,7 +1957,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                   }}
                   disabled={showExplanation}
                   aria-label="Submit sorted sequence"
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Sequence →
                 </motion.button>
@@ -1974,7 +1974,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter precise number"
                     aria-label="Enter numeric answer"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-semibold focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white text-sm font-semibold focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2003,7 +2003,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2039,7 +2039,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Submit constructed chain"
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Chain
                 </motion.button>
@@ -2051,9 +2051,9 @@ function C12_SociologySocialChangeDevelopmentSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-5 bg-indigo-950/50 border border-indigo-800 rounded-2xl space-y-3"
+                className="mt-5 p-5 bg-gold-950/50 border border-gold-800 rounded-2xl space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase tracking-wider">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>�� Sociological Concept Walkthrough</span>
                 </div>
 
@@ -2064,7 +2064,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-xs md:text-sm text-slate-200 leading-relaxed"
                   >
-                    <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span>
+                    <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span>
                     {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2075,7 +2075,7 @@ function C12_SociologySocialChangeDevelopmentSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
                     aria-label="Show next explanation step"
-                    className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-bold rounded-xl"
+                    className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-xl"
                   >
                     Show Next Insight →
                   </motion.button>
@@ -2099,7 +2099,7 @@ function C12_SociologySocialChangeDevelopmentSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD ACTIVITY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-emerald-700 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-emerald-700 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
             <div className="flex justify-center gap-6 text-sm">
@@ -2109,7 +2109,7 @@ function C12_SociologySocialChangeDevelopmentSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">BKT Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
 
@@ -2126,7 +2126,7 @@ function C12_SociologySocialChangeDevelopmentSim({
           <motion.div 
             initial={{ opacity: 0, y: 15 }} 
             animate={{ opacity: 1, y: 0 }} 
-            className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border-2 border-amber-500/70 shadow-lg shadow-amber-950/30"
+            className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 rounded-2xl border-2 border-amber-500/70 shadow-lg shadow-amber-950/30"
           >
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
               <div className="space-y-1">
@@ -2189,20 +2189,20 @@ function C12_SociologySocialChangeDevelopmentSim({
 
           {/* STUDENT SOCIOLOGICAL REFLECTION */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-            <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Student Sociological Reflection</h4>
+            <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Student Sociological Reflection</h4>
             <p className="text-xs text-slate-300 leading-relaxed">
               How does Amartya Sen&apos;s capability perspective change how you evaluate major infrastructural projects like expressways or smart industrial corridors in your home state?
             </p>
           </div>
 
           {/* REAL WORLD ACTIVITY */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800 space-y-3">
+          <div className="p-6 bg-gradient-to-r from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800 space-y-3">
             <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

@@ -282,9 +282,9 @@ function AssignmentCard({
       className="group w-full text-left"
       aria-label={`${a.topicLabel} — ${a.status}`}
     >
-      <div className="glass-card rounded-2xl border border-white/50 p-5 transition-all duration-300 hover:border-indigo-400/40 hover:shadow-xl hover:shadow-indigo-500/10">
+      <div className="glass-card rounded-2xl border border-white/50 p-5 transition-all duration-300 hover:border-gold-400/40 hover:shadow-xl hover:shadow-gold-500/10">
         <div className="mb-3 flex items-center justify-between gap-2">
-          <span className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-500/15 px-3 py-1 text-xs font-semibold text-indigo-300">
+          <span className="inline-flex items-center gap-1.5 rounded-lg bg-gold-500/15 px-3 py-1 text-xs font-semibold text-gold-300">
             <BookOpen className="h-3 w-3" />
             {a.className || a.subject || 'Classwork'}
           </span>
@@ -293,7 +293,7 @@ function AssignmentCard({
           </span>
         </div>
 
-        <h3 className="mb-2 text-lg font-bold text-slate-100 transition-colors group-hover:text-indigo-300">
+        <h3 className="mb-2 text-lg font-bold text-slate-100 transition-colors group-hover:text-gold-300">
           {a.topicLabel}
         </h3>
 
@@ -310,7 +310,7 @@ function AssignmentCard({
           {done && a.scorePct !== null && <span className="font-semibold text-emerald-400">Score {a.scorePct}%</span>}
         </p>
 
-        <div className="flex items-center justify-end gap-1 text-indigo-300">
+        <div className="flex items-center justify-end gap-1 text-gold-300">
           <span className="text-xs font-medium">
             {done ? 'View results' : a.status === 'overdue' ? 'Complete now' : 'Start'}
           </span>
@@ -345,7 +345,7 @@ function QuestionCard({
       aria-label={`Question ${idx + 1} of ${total}`}
     >
       <div className="mb-4 flex items-start gap-3">
-        <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-indigo-500/20 text-sm font-bold text-indigo-300">
+        <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-gold-500/20 text-sm font-bold text-gold-300">
           {idx + 1}
         </span>
         <div className="min-w-0 flex-1">
@@ -363,8 +363,8 @@ function QuestionCard({
               key={oi}
               className={`flex cursor-pointer items-center gap-3 rounded-xl border p-3 transition-all ${
                 answer === opt
-                  ? 'border-indigo-400 bg-indigo-500/15 shadow-sm'
-                  : 'border-slate-700 bg-slate-800/60 hover:border-indigo-400/40'
+                  ? 'border-gold-400 bg-gold-500/15 shadow-sm'
+                  : 'border-slate-700 bg-slate-800/60 hover:border-gold-400/40'
               }`}
             >
               <input
@@ -377,7 +377,7 @@ function QuestionCard({
               />
               <span
                 className={`flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border-2 transition-colors ${
-                  answer === opt ? 'border-indigo-500 bg-indigo-500' : 'border-slate-500'
+                  answer === opt ? 'border-gold-500 bg-gold-500' : 'border-slate-500'
                 }`}
                 aria-hidden="true"
               >
@@ -394,7 +394,7 @@ function QuestionCard({
           disabled={disabled}
           rows={4}
           placeholder="Write your answer — show your working…"
-          className="ml-11 w-[calc(100%-2.75rem)] resize-y rounded-xl border border-slate-700 bg-slate-800/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 transition-all focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500/50 disabled:opacity-60"
+          className="ml-11 w-[calc(100%-2.75rem)] resize-y rounded-xl border border-slate-700 bg-slate-800/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 transition-all focus:border-transparent focus:outline-none focus:ring-2 focus:ring-gold-500/50 disabled:opacity-60"
           aria-label="Long answer"
         />
       ) : (
@@ -404,7 +404,7 @@ function QuestionCard({
           onChange={(e) => onChange(e.target.value)}
           disabled={disabled}
           placeholder="Type your answer…"
-          className="ml-11 w-[calc(100%-2.75rem)] rounded-xl border border-slate-700 bg-slate-800/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 transition-all focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500/50 disabled:opacity-60"
+          className="ml-11 w-[calc(100%-2.75rem)] rounded-xl border border-slate-700 bg-slate-800/80 px-4 py-3 text-sm text-slate-100 placeholder:text-slate-500 transition-all focus:border-transparent focus:outline-none focus:ring-2 focus:ring-gold-500/50 disabled:opacity-60"
           aria-label="Answer"
         />
       )}
@@ -427,7 +427,7 @@ function ResultView({ result }: { result: SubmitResult }) {
       <motion.div
         initial={{ opacity: 0, scale: 0.96 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-600 p-6 text-white shadow-xl"
+        className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-gold-500 via-gold-600 to-purple-600 p-6 text-white shadow-xl"
       >
         <div className="relative">
           <div className="mb-3 flex items-center gap-3">
@@ -436,7 +436,7 @@ function ResultView({ result }: { result: SubmitResult }) {
               <h3 className="text-2xl font-bold">
                 {result.correctCount}/{result.questionCount}
               </h3>
-              <p className="text-sm text-indigo-100">
+              <p className="text-sm text-gold-100">
                 {pct}% · {msg}
               </p>
             </div>
@@ -449,7 +449,7 @@ function ResultView({ result }: { result: SubmitResult }) {
               className="h-full rounded-full bg-gradient-to-r from-emerald-300 to-emerald-100"
             />
           </div>
-          <p className="mt-3 inline-flex items-center gap-1.5 text-sm text-indigo-100">
+          <p className="mt-3 inline-flex items-center gap-1.5 text-sm text-gold-100">
             <Zap className="h-4 w-4" /> +{result.xpEarned} XP earned
           </p>
         </div>
@@ -511,7 +511,7 @@ function SignInPrompt() {
       </p>
       <Link
         href="/login"
-        className="mt-5 inline-block rounded-lg bg-indigo-500 px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-indigo-400"
+        className="mt-5 inline-block rounded-lg bg-gold-500 px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-gold-400"
       >
         Sign in
       </Link>
@@ -621,7 +621,7 @@ export default function HomeworkPage() {
 
         <main className="mx-auto max-w-2xl space-y-5 px-4 pt-6">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-indigo-300">
+            <p className="text-xs font-semibold uppercase tracking-wider text-gold-300">
               {selectedAssignment?.className}
             </p>
             <h1 className="mt-1 font-display text-2xl font-bold text-white">
@@ -634,7 +634,7 @@ export default function HomeworkPage() {
               </span>
             </p>
             {(selectedAssignment?.note || questionSet.data?.note) && (
-              <p className="mt-3 rounded-xl border border-indigo-500/20 bg-indigo-500/10 px-4 py-3 text-sm text-indigo-200">
+              <p className="mt-3 rounded-xl border border-gold-500/20 bg-gold-500/10 px-4 py-3 text-sm text-gold-200">
                 {selectedAssignment?.note || questionSet.data?.note}
               </p>
             )}
@@ -685,7 +685,7 @@ export default function HomeworkPage() {
               <button
                 onClick={handleSubmit}
                 disabled={submitMutation.isPending}
-                className="w-full rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-600 py-4 font-display text-base font-bold text-white shadow-lg shadow-indigo-500/25 transition-all hover:shadow-indigo-500/40 disabled:opacity-60"
+                className="w-full rounded-2xl bg-gradient-to-r from-gold-500 to-purple-600 py-4 font-display text-base font-bold text-white shadow-lg shadow-gold-500/25 transition-all hover:shadow-gold-500/40 disabled:opacity-60"
               >
                 {submitMutation.isPending ? 'Submitting…' : 'Submit answers'}
               </button>
@@ -732,7 +732,7 @@ export default function HomeworkPage() {
                   onClick={() => setTab(key)}
                   className={`rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
                     tab === key
-                      ? 'bg-indigo-500/20 text-indigo-200 shadow-sm ring-1 ring-indigo-400/40'
+                      ? 'bg-gold-500/20 text-gold-200 shadow-sm ring-1 ring-gold-400/40'
                       : 'bg-slate-800/60 text-slate-400 hover:text-slate-200'
                   }`}
                 >
@@ -764,7 +764,7 @@ export default function HomeworkPage() {
             {error instanceof Error && error.message === 'NOT_SIGNED_IN' ? (
               <Link
                 href="/login"
-                className="mt-4 inline-block rounded-lg bg-indigo-500 px-5 py-2 text-xs font-semibold text-white hover:bg-indigo-400"
+                className="mt-4 inline-block rounded-lg bg-gold-500 px-5 py-2 text-xs font-semibold text-white hover:bg-gold-400"
               >
                 Sign in
               </Link>

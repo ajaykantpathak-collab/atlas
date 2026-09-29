@@ -123,7 +123,7 @@ function Slider({ label, value, min, max, step, onChange }:
       <span className="w-20 text-slate-400 font-semibold">{label}</span>
       <input type="range" min={min} max={max} step={step} value={value}
         onChange={e => onChange(Number(e.target.value))}
-        className="flex-1 accent-sky-400" />
+        className="flex-1 accent-gold-400" />
       <span className="w-12 text-right font-mono text-slate-200">{fmt(value)}</span>
     </label>
   )
@@ -198,7 +198,7 @@ export default function MathsSandbox() {
         <div className="flex gap-1.5 flex-wrap mb-1.5">
           {MATHS_SANDBOX_CLASSES.map(b => (
             <button key={b.key} onClick={() => { setBandKey(b.key); setChapterKey(b.chapters[0].key); setTopic(null) }}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {b.label}
             </button>
           ))}
@@ -227,7 +227,7 @@ export default function MathsSandbox() {
       <div className="flex gap-1 px-3 pt-2.5 border-b border-slate-800 bg-slate-900/40 overflow-x-auto">
         {TABS.map(tb => (
           <button key={tb.key} onClick={() => setTab(tb.key)}
-            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === tb.key ? 'border-sky-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
+            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === tb.key ? 'border-gold-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
             <tb.icon className="w-3.5 h-3.5" />
             {tb.label}
           </button>
@@ -283,7 +283,7 @@ function SolveTab({ topic, chapterNodeId }:
       <div className="flex gap-2 mb-2">
         {(['maths', 'applied_maths'] as const).map(s => (
           <button key={s} onClick={() => setSubject(s)}
-            className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${subject === s ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+            className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${subject === s ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
             {s === 'maths' ? 'maths 6-11' : 'applied maths 11-12'}
           </button>
         ))}
@@ -291,9 +291,9 @@ function SolveTab({ topic, chapterNodeId }:
       <div className="flex gap-2">
         <textarea value={text} onChange={e => setText(e.target.value)} rows={2}
           placeholder="Type a textbook-style problem…"
-          className="flex-1 rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-sky-400" />
+          className="flex-1 rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-gold-400" />
         <button onClick={run} disabled={res.loading}
-          className="self-stretch px-4 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-50 text-slate-950 font-black text-sm flex items-center gap-1.5">
+          className="self-stretch px-4 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-50 text-slate-950 font-black text-sm flex items-center gap-1.5">
           <Play className="w-4 h-4" />Solve
         </button>
       </div>
@@ -438,7 +438,7 @@ function GraphTab({ onMisconception }: { onMisconception: (k: string) => void })
         <div className="flex flex-wrap gap-1.5">
           {GRAPH_PRESETS.map(p => (
             <button key={p.key} onClick={() => setPresetKey(p.key)}
-              className={`px-2 py-1 rounded-md text-[11px] font-semibold border ${p.key === presetKey ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2 py-1 rounded-md text-[11px] font-semibold border ${p.key === presetKey ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {p.label}
             </button>
           ))}
@@ -446,7 +446,7 @@ function GraphTab({ onMisconception }: { onMisconception: (k: string) => void })
         <label className="block text-[11px] text-slate-400 font-semibold">
           expression
           <input value={expr} onChange={e => setExpr(e.target.value)}
-            className="mt-1 w-full rounded-lg bg-slate-800/70 border border-slate-600 px-2 py-1.5 text-xs text-white font-mono focus:outline-none focus:border-sky-400" />
+            className="mt-1 w-full rounded-lg bg-slate-800/70 border border-slate-600 px-2 py-1.5 text-xs text-white font-mono focus:outline-none focus:border-gold-400" />
         </label>
         <Slider label="a" value={a} min={-5} max={5} step={0.1} onChange={setA} />
         <Slider label="b" value={b} min={-5} max={5} step={0.1} onChange={setB} />
@@ -577,7 +577,7 @@ function GeometryTab({ nodeId, onMisconception }:
           </p>
         )}
         <button onClick={askHeron} disabled={violated || solver.loading}
-          className="w-full px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+          className="w-full px-3 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
           Ask the solver for this area
         </button>
         <StepsList s={solver} />
@@ -638,7 +638,7 @@ function SequenceTab({ nodeId }: { nodeId?: string }) {
         <div className="flex gap-1.5 mb-3">
           {(['AP', 'GP'] as const).map(m => (
             <button key={m} onClick={() => setMode(m)}
-              className={`px-3 py-1 rounded-lg text-xs font-bold border ${mode === m ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-3 py-1 rounded-lg text-xs font-bold border ${mode === m ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {m === 'AP' ? 'AP (add d)' : 'GP (times r)'}
             </button>
           ))}
@@ -652,7 +652,7 @@ function SequenceTab({ nodeId }: { nodeId?: string }) {
                   <motion.span key={j}
                     initial={{ scale: 0 }} animate={{ scale: 1 }}
                     transition={{ delay: j * 0.008 }}
-                    className="w-2 h-2 rounded-full bg-sky-400/80 inline-block" />
+                    className="w-2 h-2 rounded-full bg-gold-400/80 inline-block" />
                 ))}
                 {Math.round(v) > 60 && (
                   <span className="text-[10px] text-slate-500 ml-1">+{Math.round(v) - 60} more</span>
@@ -673,7 +673,7 @@ function SequenceTab({ nodeId }: { nodeId?: string }) {
           sum of shown terms = <span className="font-mono text-emerald-300">{fmt(terms.reduce((s, v) => s + v, 0))}</span>
         </div>
         <button onClick={askFinite}
-          className="w-full px-3 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs">
+          className="w-full px-3 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-xs">
           Solver: sum of first {n} terms
         </button>
         {mode === 'GP' && (
@@ -761,7 +761,7 @@ function SolidsTab({ nodeId }: { nodeId?: string }) {
         <div className="flex flex-wrap gap-1.5">
           {(Object.keys(SOLID_LABEL) as SolidKind[]).map(k => (
             <button key={k} onClick={() => setSolid(k)}
-              className={`px-2 py-1 rounded-md text-[11px] font-semibold border ${k === solid ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2 py-1 rounded-md text-[11px] font-semibold border ${k === solid ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {SOLID_LABEL[k]}
             </button>
           ))}
@@ -779,7 +779,7 @@ function SolidsTab({ nodeId }: { nodeId?: string }) {
           </div>
           <div className="flex justify-between text-xs">
             <span className="text-slate-400">{solid === 'cylinder' ? 'TSA' : 'Surface area'} (live)</span>
-            <span className="font-mono text-sky-300">{zero ? '—' : fmt(measures.A)}</span>
+            <span className="font-mono text-gold-300">{zero ? '—' : fmt(measures.A)}</span>
           </div>
           {measures.extra.map(([k, v]) => (
             <div key={k} className="flex justify-between text-xs">
@@ -796,7 +796,7 @@ function SolidsTab({ nodeId }: { nodeId?: string }) {
         ) : (
           <div className="flex gap-1.5">
             <button onClick={() => askSolverFor('volume')}
-              className="flex-1 px-2 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-[11px]">
+              className="flex-1 px-2 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-[11px]">
               Solver: volume steps
             </button>
             {(solid === 'cube' || solid === 'cylinder' || solid === 'sphere') && (

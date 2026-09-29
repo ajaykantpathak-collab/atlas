@@ -9,7 +9,7 @@ export const c10_comp_ch93: SimDef = {
     classLevel: 10, subject: 'english-composition', topic: 'Essay — argumentative spine and descriptive craft',
     chapters: ['c10_comp_ch93'],
     nodeIds: ['c10_engl_cbse_93_001', 'c10_engl_cbse_93_002'],
-    emoji: '✒️', theme: { bg: 'from-slate-900 to-violet-950', accent: 'violet', scene: 'senior' },
+    emoji: '✒️', theme: { bg: 'from-slate-900 to-gold-950', accent: 'violet', scene: 'senior' },
 
     scenario: {
         role: 'a columnist whose editor deletes any paragraph that does not advance the argument',
@@ -28,7 +28,7 @@ export const c10_comp_ch93: SimDef = {
         hook: 'A thesis must be arguable — if nobody can disagree, there is nothing to prove and nothing to write.',
     },
     teaching: [
-        { title: 'The spine', text: 'Thesis → three body paragraphs (topic sentence + evidence + link-back) → conclusion answering "so what". The delete test: remove a paragraph; if the argument survives, it was decoration.', emoji: '🦴', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'The spine', text: 'Thesis → three body paragraphs (topic sentence + evidence + link-back) → conclusion answering "so what". The delete test: remove a paragraph; if the argument survives, it was decoration.', emoji: '🦴', bgColor: 'from-gold-500 to-purple-600' },
         { title: 'Show, don\'t tell', text: '"The room was messy" tells. "Books lay spine-cracked on the bed" shows. Swap evaluation for evidence.', emoji: '👁️', bgColor: 'from-purple-500 to-fuchsia-600' },
     ],
 

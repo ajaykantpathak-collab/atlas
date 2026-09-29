@@ -46,14 +46,14 @@ export function DecimalPlaceValue() {
                 onTouchEnd={() => setDragging(false)}
             >
                 {left.map((d, i) => (
-                    <div key={i} className="text-5xl font-black text-blue-600 w-12 text-center">{d}</div>
+                    <div key={i} className="text-5xl font-black text-gold-600 w-12 text-center">{d}</div>
                 ))}
                 <div
                     className="text-5xl font-black text-red-500 w-8 text-center cursor-grab active:cursor-grabbing"
                     style={{ transform: dragging ? 'scale(1.3)' : 'scale(1)' }}
                 >.</div>
                 {right.map((d, i) => (
-                    <div key={i} className="text-5xl font-black text-blue-600 w-12 text-center">{d}</div>
+                    <div key={i} className="text-5xl font-black text-gold-600 w-12 text-center">{d}</div>
                 ))}
             </div>
             <div className="flex flex-col items-center gap-2">
@@ -66,7 +66,7 @@ export function DecimalPlaceValue() {
                 <div className="flex gap-2 mt-2">
                     {[0, 1, 2, 3, 4, 5, 6].map(p => (
                         <button key={p} onClick={() => setPos(p)}
-                            className={`px-3 py-1 rounded-lg text-sm font-bold ${pos === p ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-600'}`}>
+                            className={`px-3 py-1 rounded-lg text-sm font-bold ${pos === p ? 'bg-gold-500 text-white' : 'bg-gray-200 text-gray-600'}`}>
                             {p}
                         </button>
                     ))}
@@ -107,10 +107,10 @@ export function RatioMixer() {
                     <span className="text-sm text-gray-500 w-20">parts red</span>
                 </div>
                 <div className="flex items-center gap-3">
-                    <span className="text-blue-500 font-black text-xl w-8">{blue}</span>
+                    <span className="text-gold-500 font-black text-xl w-8">{blue}</span>
                     <input type="range" min={0} max={10} value={blue}
                         onChange={(e) => setBlue(+e.target.value)}
-                        className="flex-1 accent-blue-500 h-3" />
+                        className="flex-1 accent-gold-500 h-3" />
                     <span className="text-sm text-gray-500 w-20">parts blue</span>
                 </div>
             </div>
@@ -118,7 +118,7 @@ export function RatioMixer() {
             <div className="w-80 h-8 rounded-lg overflow-hidden flex border-2 border-gray-300">
                 <div className="bg-red-500 flex items-center justify-center text-white text-xs font-bold"
                     style={{ width: `${rPct}%` }}>{rPct > 15 && `${rPct.toFixed(0)}%`}</div>
-                <div className="bg-blue-500 flex items-center justify-center text-white text-xs font-bold"
+                <div className="bg-gold-500 flex items-center justify-center text-white text-xs font-bold"
                     style={{ width: `${bPct}%` }}>{bPct > 15 && `${bPct.toFixed(0)}%`}</div>
             </div>
             <div className="text-sm text-gray-600">
@@ -165,7 +165,7 @@ export function NumberPatternBuilder() {
                 {seq.map((n, i) => (
                     <motion.div key={i} initial={{ scale: 0 }} animate={{ scale: 1 }}
                         transition={{ delay: i * 0.1 }}
-                        className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-400 to-indigo-500 text-white font-black text-xl flex items-center justify-center shadow-lg">
+                        className="w-14 h-14 rounded-xl bg-gradient-to-br from-gold-400 to-gold-500 text-white font-black text-xl flex items-center justify-center shadow-lg">
                         {n}
                     </motion.div>
                 ))}
@@ -275,7 +275,7 @@ export function RightsSorter() {
         { id: 'r6', text: 'Right to work', bin: 'economic', emoji: '💼' },
     ];
     const bins = [
-        { id: 'civil', label: 'Civil Rights', color: 'bg-blue-500' },
+        { id: 'civil', label: 'Civil Rights', color: 'bg-gold-500' },
         { id: 'political', label: 'Political Rights', color: 'bg-purple-500' },
         { id: 'economic', label: 'Economic Rights', color: 'bg-emerald-500' },
     ];
@@ -371,8 +371,8 @@ export function TimelineBuilder({ events }: { events?: { id: string; year: strin
                             onDragStart={() => setDragIdx(i)}
                             onDragOver={(e) => e.preventDefault()}
                             onDrop={() => { if (dragIdx !== null) reorder(dragIdx, i); setDragIdx(null); }}
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white border-2 border-gray-200 shadow cursor-grab active:cursor-grabbing hover:border-blue-400">
-                            <span className="w-8 h-8 rounded-full bg-blue-500 text-white font-black flex items-center justify-center text-sm">{i + 1}</span>
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white border-2 border-gray-200 shadow cursor-grab active:cursor-grabbing hover:border-gold-400">
+                            <span className="w-8 h-8 rounded-full bg-gold-500 text-white font-black flex items-center justify-center text-sm">{i + 1}</span>
                             <span className="font-bold text-gray-700">{item.year}</span>
                             <span className="text-gray-500 text-sm">{item.label}</span>
                         </div>
@@ -417,7 +417,7 @@ export function BudgetAllocator() {
             </div>
             <div className="grid grid-cols-2 gap-3 w-full max-w-lg">
                 {categories.map(c => (
-                    <div key={c.id} className={`flex items-center gap-2 p-3 rounded-xl border-2 ${c.need ? 'border-blue-300 bg-blue-50' : 'border-amber-300 bg-amber-50'}`}>
+                    <div key={c.id} className={`flex items-center gap-2 p-3 rounded-xl border-2 ${c.need ? 'border-gold-300 bg-gold-50' : 'border-amber-300 bg-amber-50'}`}>
                         <span className="text-2xl">{c.emoji}</span>
                         <div className="flex-1">
                             <div className="text-sm font-bold text-gray-700">{c.label}</div>
@@ -425,15 +425,15 @@ export function BudgetAllocator() {
                         </div>
                         <input type="range" min={0} max={40} value={alloc[c.id] || 0}
                             onChange={(e) => setAlloc(a => ({ ...a, [c.id]: +e.target.value }))}
-                            className="w-20 accent-blue-500" />
+                            className="w-20 accent-gold-500" />
                         <span className="w-8 text-right font-bold text-gray-700">₹{alloc[c.id] || 0}</span>
                     </div>
                 ))}
             </div>
             <div className="flex gap-4 w-full max-w-lg">
-                <div className="flex-1 bg-blue-100 rounded-xl p-3 text-center">
-                    <div className="text-sm text-blue-600 font-bold">Needs</div>
-                    <div className="text-2xl font-black text-blue-700">₹{needs}</div>
+                <div className="flex-1 bg-gold-100 rounded-xl p-3 text-center">
+                    <div className="text-sm text-gold-600 font-bold">Needs</div>
+                    <div className="text-2xl font-black text-gold-700">₹{needs}</div>
                 </div>
                 <div className="flex-1 bg-amber-100 rounded-xl p-3 text-center">
                     <div className="text-sm text-amber-600 font-bold">Wants</div>
@@ -458,7 +458,7 @@ export function StorySequencer({ events }: { events?: { id: string; label: strin
     ];
     const items = events || defaultEvents;
     const acts = [
-        { id: 'beginning', label: 'Beginning', color: 'bg-blue-500', emoji: '🌅' },
+        { id: 'beginning', label: 'Beginning', color: 'bg-gold-500', emoji: '🌅' },
         { id: 'middle', label: 'Middle', color: 'bg-amber-500', emoji: '⚡' },
         { id: 'end', label: 'End', color: 'bg-emerald-500', emoji: '🏁' },
     ];
@@ -568,7 +568,7 @@ export function NeighbourMap() {
             <div className="flex gap-2 flex-wrap justify-center">
                 {neighbours.filter(n => !placed[n.id]).map(n => (
                     <button key={n.id} onClick={() => setSelected(n.id)}
-                        className={`px-3 py-2 rounded-xl font-bold shadow ${selected === n.id ? 'bg-blue-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
+                        className={`px-3 py-2 rounded-xl font-bold shadow ${selected === n.id ? 'bg-gold-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
                         {n.emoji} {n.label}
                     </button>
                 ))}
@@ -613,14 +613,14 @@ export function BarterMatch() {
                         else if (selected !== p.id) tryMatch(selected, p.id);
                     }}
                         className={`p-4 rounded-2xl border-2 cursor-pointer transition-all
-                            ${matched[p.id] ? 'bg-emerald-100 border-emerald-400' : selected === p.id ? 'bg-blue-100 border-blue-500 scale-105' : 'bg-white border-gray-300 hover:border-blue-300'}`}>
+                            ${matched[p.id] ? 'bg-emerald-100 border-emerald-400' : selected === p.id ? 'bg-gold-100 border-gold-500 scale-105' : 'bg-white border-gray-300 hover:border-gold-300'}`}>
                         <div className="text-sm text-gray-500">Has: <span className="font-bold">{p.has}</span></div>
                         <div className="text-sm text-gray-500">Needs: <span className="font-bold">{p.needs}</span></div>
                         {matched[p.id] && <div className="text-emerald-600 font-bold text-sm mt-1">✓ Matched!</div>}
                     </div>
                 ))}
             </div>
-            {selected && <div className="text-blue-600 font-bold">Now click the person who has what this person needs!</div>}
+            {selected && <div className="text-gold-600 font-bold">Now click the person who has what this person needs!</div>}
         </div>
     );
 }
@@ -637,7 +637,7 @@ export function GovernmentLevels() {
         { id: 'i6', text: 'State education policy', level: 'state', emoji: '🏫' },
     ];
     const levels = [
-        { id: 'central', label: 'Central Govt', color: 'bg-indigo-500' },
+        { id: 'central', label: 'Central Govt', color: 'bg-gold-500' },
         { id: 'state', label: 'State Govt', color: 'bg-purple-500' },
         { id: 'local', label: 'Local Govt', color: 'bg-teal-500' },
     ];
@@ -700,7 +700,7 @@ export function MediaFilter() {
         { id: 'h6', text: 'Homework should be banned', type: 'opinion' },
     ];
     const bins = [
-        { id: 'fact', label: 'Fact', color: 'bg-blue-500' },
+        { id: 'fact', label: 'Fact', color: 'bg-gold-500' },
         { id: 'opinion', label: 'Opinion', color: 'bg-amber-500' },
     ];
     const [placed, setPlaced] = useState<Record<string, string>>({});
@@ -762,7 +762,7 @@ export function WeatherClimateSort() {
         { id: 'w6', text: 'India has tropical climate', type: 'climate' },
     ];
     const bins = [
-        { id: 'weather', label: 'Weather (now)', color: 'bg-sky-500' },
+        { id: 'weather', label: 'Weather (now)', color: 'bg-gold-500' },
         { id: 'climate', label: 'Climate (long-term)', color: 'bg-orange-500' },
     ];
     const [placed, setPlaced] = useState<Record<string, string>>({});

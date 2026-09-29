@@ -54,7 +54,7 @@ export function C7_ScienceTheEverEvolvingWorldOfSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Ever-Evolving World of Science</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Ever-Evolving World of Science</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Timeline strip */}
@@ -68,7 +68,7 @@ export function C7_ScienceTheEverEvolvingWorldOfSim() {
             >
               <div
                 className={`mx-auto w-10 h-10 rounded-full flex items-center justify-center text-xl border-2 ${
-                  stage === i ? 'bg-indigo-600 border-indigo-300 scale-110' : 'bg-slate-800 border-slate-600'
+                  stage === i ? 'bg-gold-600 border-gold-300 scale-110' : 'bg-slate-800 border-slate-600'
                 }`}
                 style={{ transition: 'all 0.25s' }}
               >
@@ -98,7 +98,7 @@ export function C7_ScienceTheEverEvolvingWorldOfSim() {
           <button
             key={p}
             onClick={() => setPhase(p)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${phase === p ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${phase === p ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {i + 1}. {p === 'old' ? 'Old belief' : p === 'evidence' ? 'New evidence' : 'Today'}
           </button>
@@ -126,8 +126,8 @@ export function C7_ScienceTheEverEvolvingWorldOfSim() {
         </div>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Pick any story and retell it in reverse: from Today back to the Old belief. Which step (belief, evidence, today) is the hardest to UNDO?</li>
           <li>Think of one thing you believe about food, weather or space. Design a 3-step test that could prove you wrong -- that is real scientific thinking!</li>

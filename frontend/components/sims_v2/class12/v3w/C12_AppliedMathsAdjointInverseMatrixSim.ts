@@ -11,7 +11,7 @@ export const w_c12_appliedmathsadjointinversematrixsim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Inverse of a Matrix by Elementary Operations',
     chapters: [],
     nodeIds: ['c12_math_cbse_03_011', 'c12_math_cbse_04_001', 'c12_math_cbse_04_003', 'c12_math_cbse_04_005', 'c12_math_cbse_04_006', 'c12_math_cbse_04_007', 'c12_math_cbse_04_008', 'c12_math_cbse_04_010', 'c12_math_cbse_03_004', 'c12_math_cbse_03_005', 'c12_math_cbse_03_006', 'c12_math_cbse_03_010', 'c12_math_cbse_04_009', 'c12_math_cbse_03_001', 'c12_math_cbse_03_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you have ₹500 to split between two investment schemes giving 8% and 10% returns, and you want exactly.', goal: 'Master Inverse of a Matrix by Elementary Operations.' },
     discovery: {
         question: 'State the exact condition for a square matrix A to have an inverse, and write the starting augmented matrix setup for finding A⁻¹ by elementary row operations.',
@@ -20,7 +20,7 @@ export const w_c12_appliedmathsadjointinversematrixsim: SimDef = {
         hook: 'Students frequently make sign errors when eliminating entries above the pivot in the final steps (back-substitution.',
     },
     teaching: [
-        { title: 'The inverse of a square matrix A (denoted.', text: 'The inverse of a square matrix A (denoted A⁻¹) is a square matrix of the same order such that AA⁻¹ = A⁻¹A = I, where I is the identity matrix.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The inverse of a square matrix A (denoted.', text: 'The inverse of a square matrix A (denoted A⁻¹) is a square matrix of the same order such that AA⁻¹ = A⁻¹A = I, where I is the identity matrix.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_03_011', title: 'The inverse of a square matrix A.',

@@ -290,7 +290,7 @@ export default function C11_PhysicsStraightLineMotionSim() {
         <input type="range" min={0} max={20} step={0.5} value={u1} onChange={(e) => setU1(Number(e.target.value))} className="h-11 w-24 accent-amber-400" />
         <span className="text-xs text-surface-400">a</span>
         <input type="range" min={-2} max={5} step={0.1} value={a1} onChange={(e) => setA1(Number(e.target.value))} className="h-11 w-24 accent-amber-400" />
-        <span className="ml-2 flex items-center gap-1.5 text-xs text-surface-400"><Car className="h-3.5 w-3.5 text-blue-400" /> B: u</span>
+        <span className="ml-2 flex items-center gap-1.5 text-xs text-surface-400"><Car className="h-3.5 w-3.5 text-gold-400" /> B: u</span>
         <input type="range" min={0} max={20} step={0.5} value={u2} onChange={(e) => setU2(Number(e.target.value))} className="h-11 w-24 accent-amber-400" />
         <span className="text-xs text-surface-400">a</span>
         <input type="range" min={-2} max={5} step={0.1} value={a2} onChange={(e) => setA2(Number(e.target.value))} className="h-11 w-24 accent-amber-400" />

@@ -11,7 +11,7 @@ export const w_c11_appliedmathssetsrepresentationsemptysim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Introduction to Sets: Definition and Notation',
     chapters: [],
     nodeIds: ['c11_math_cbse_01_001', 'c11_math_cbse_01_010', 'c11_math_cbse_02_002', 'c11_math_cbse_02_003', 'c11_math_cbse_06_005', 'c11_math_cbse_01_002', 'c11_math_cbse_01_004', 'c11_math_cbse_01_006', 'c11_math_cbse_01_007', 'c11_math_cbse_01_008', 'c11_math_cbse_01_009', 'c11_math_cbse_01_011', 'c11_math_cbse_02_001', 'c11_math_cbse_02_004', 'c11_math_cbse_01_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are the class representative tasked with creating a list of students who scored above 90% in the.', goal: 'Master Introduction to Sets: Definition and Notation.' },
     discovery: {
         question: 'State the definition of intersection of two sets A and B using set-builder notation and the symbol ∈.',
@@ -20,7 +20,7 @@ export const w_c11_appliedmathssetsrepresentationsemptysim: SimDef = {
         hook: 'Students incorrectly apply the distributive law as A ∩ (B ∪ C) = (A ∩ B) ∪ C, forgetting that intersection must.',
     },
     teaching: [
-        { title: 'A set is a well-defined collection of.', text: 'A set is a well-defined collection of distinct objects, where "well-defined" means for any given object, we can definitively decide whether it belongs to the collection or not.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A set is a well-defined collection of.', text: 'A set is a well-defined collection of distinct objects, where "well-defined" means for any given object, we can definitively decide whether it belongs to the collection or not.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_01_001', title: 'A set is a well-defined collection of.',

@@ -327,7 +327,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Addition & Subtraction (Up to 4 Digits) ➕➖",
     text: "Always start adding or subtracting from the ONES place on the right and move left! When columns overflow, carry over or borrow carefully.",
     emoji: "🔢",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Always start from the ones place on the right and move left! Carry over and borrow when needed!"
   },
   {
@@ -348,7 +348,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Estimation & Mental Verification 🧠",
     text: "Round numbers to the nearest ten or hundred to estimate sums and products quickly. Verify your answers to check if they are reasonable!",
     emoji: "💡",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Round numbers to estimate quickly, and verify your answers mentally to ensure they are reasonable!"
   },
 ];

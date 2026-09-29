@@ -31,7 +31,7 @@ export function C7_SocialScienceRegionalCulturesSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 7 History - The Making of Regional Cultures</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 History - The Making of Regional Cultures</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Culture Map: Watch a Region Assemble Itself</h1>
         </div>
         <button onClick={reset} className="min-h-11 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold transition-all">Reset</button>
@@ -62,7 +62,7 @@ export function C7_SocialScienceRegionalCulturesSim() {
           <div className="flex flex-wrap gap-1 mt-2">
             {REGIONS.map((g) => (
               <button key={g.id} onClick={() => setSel(g.id)}
-                className={`min-h-11 px-2 rounded-lg text-[10px] font-bold border transition-all ${g.id === sel ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-500'}`}>
+                className={`min-h-11 px-2 rounded-lg text-[10px] font-bold border transition-all ${g.id === sel ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-500'}`}>
                 {g.name}
               </button>
             ))}
@@ -73,10 +73,10 @@ export function C7_SocialScienceRegionalCulturesSim() {
         <div className="md:col-span-2 space-y-4">
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
             <label className="text-xs font-semibold text-slate-400 flex justify-between">
-              <span>Century dial</span><span className="font-mono text-indigo-300">{century} CE</span>
+              <span>Century dial</span><span className="font-mono text-gold-300">{century} CE</span>
             </label>
             <input type="range" min={600} max={1900} step={50} value={century} aria-label="century"
-              onChange={(e) => setCentury(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+              onChange={(e) => setCentury(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             <div className="flex justify-between text-[9px] font-mono text-slate-500 px-0.5">
               {[600, 800, 1000, 1200, 1400, 1600, 1800].map((c) => <span key={c}>{c}</span>)}
             </div>
@@ -88,9 +88,9 @@ export function C7_SocialScienceRegionalCulturesSim() {
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-2">
             <p className="text-sm font-bold text-white">{r.name} in {century} CE <span className="text-[11px] font-normal text-slate-400">({traits} traits visible)</span></p>
-            <div className="p-2 rounded-lg bg-slate-950 border border-slate-800 text-xs"><span className="text-indigo-300 font-bold">Language:</span> {r.lang} <span className="text-slate-500">-- {r.family}</span></div>
+            <div className="p-2 rounded-lg bg-slate-950 border border-slate-800 text-xs"><span className="text-gold-300 font-bold">Language:</span> {r.lang} <span className="text-slate-500">-- {r.family}</span></div>
             <div className="p-2 rounded-lg bg-slate-950 border border-slate-800 text-xs"><span className="text-emerald-300 font-bold">Food:</span> {r.food}</div>
-            <div className="p-2 rounded-lg bg-slate-950 border border-slate-800 text-xs"><span className="text-violet-300 font-bold">Festival:</span> {r.festival} <span className="text-slate-500">-- {r.folk}</span></div>
+            <div className="p-2 rounded-lg bg-slate-950 border border-slate-800 text-xs"><span className="text-gold-300 font-bold">Festival:</span> {r.festival} <span className="text-slate-500">-- {r.folk}</span></div>
             <div className={`p-2 rounded-lg border text-xs transition-all ${show(r.lit.since) ? 'bg-emerald-950/50 border-emerald-800 text-emerald-200' : 'bg-slate-950 border-slate-800 text-slate-500'}`}>
               <span className="font-bold">Literature {r.lit.since} CE:</span> {show(r.lit.since) ? r.lit.name : `not yet born (drag past ${r.lit.since})`}
             </div>
@@ -100,14 +100,14 @@ export function C7_SocialScienceRegionalCulturesSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-400 mb-2">All five regions in {century} CE</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">All five regions in {century} CE</p>
             <table className="w-full text-[11px]">
               <thead><tr className="text-slate-500">
                 <th className="text-left py-1">Region</th><th className="text-left">Language</th><th className="text-left">Literature</th><th className="text-left">Court art</th>
               </tr></thead>
               <tbody>
                 {REGIONS.map((g) => (
-                  <tr key={g.id} className={`border-t border-slate-800 ${g.id === sel ? 'bg-indigo-950/40' : ''}`}>
+                  <tr key={g.id} className={`border-t border-slate-800 ${g.id === sel ? 'bg-gold-950/40' : ''}`}>
                     <td className="py-1 font-bold text-slate-200">{g.name}</td>
                     <td className="text-slate-400">{g.lang.split(' (')[0]}</td>
                     <td className={show(g.lit.since) ? 'text-emerald-300' : 'text-slate-600'}>{show(g.lit.since) ? 'born' : `from ${g.lit.since}`}</td>
@@ -121,7 +121,7 @@ export function C7_SocialScienceRegionalCulturesSim() {
           </div>
 
           <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-            <p className="font-bold text-indigo-300 mb-1">Spot the mix</p>
+            <p className="font-bold text-gold-300 mb-1">Spot the mix</p>
             <p>Bengali = Sanskrit + local speech. Malayalam = Sanskrit + old Tamil (that is what &quot;Manipravalam&quot; means: ruby-coral). Kathak moved from temple storytelling to Mughal-and-Awadh courts. Each row above only EXISTS because different currents met.</p>
             <p className="mt-2">Bengal&apos;s Chaitanya songs came from a Vaishnava wave; Rajasthan&apos;s heroic ballads grew from Rajput court culture; Kerala&apos;s Kathakali fused ritual, Sanskrit drama and local drumming -- region, religion and court braided together.</p>
             <p className="mt-2 text-slate-400">Notice the pattern in the table above: language first, literature centuries later, court art last. A culture builds in layers, like sediment.</p>
@@ -140,7 +140,7 @@ export function C7_SocialScienceRegionalCulturesSim() {
         ))}
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Set the dial to 1400 CE everywhere -- which of the five regions already has its literature, and which is still waiting?</p>
         <p className="mt-1">2. Turn patronage ON for Kerala: what did courts and temples add that folk tradition alone had not, and how many centuries after the language?</p>

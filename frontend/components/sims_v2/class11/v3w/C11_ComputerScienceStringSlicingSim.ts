@@ -11,7 +11,7 @@ export const w_c11_computersciencestringslicingsim: SimDef = {
     classLevel: 11, subject: 'computer_science', topic: 'Introduction to Strings in Python',
     chapters: [],
     nodeIds: ['c11_cs_cbse_06_001', 'c11_cs_cbse_06_002', 'c11_cs_cbse_06_003', 'c11_cs_cbse_06_004', 'c11_cs_cbse_06_008', 'c11_cs_cbse_06_009', 'c11_cs_cbse_06_010', 'c11_cs_cbse_06_014', 'c11_cs_cbse_06_005', 'c11_cs_cbse_06_006', 'c11_cs_cbse_06_007', 'c11_cs_cbse_07_001', 'c11_cs_cbse_07_002', 'c11_cs_cbse_07_003', 'c11_cs_cbse_07_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are building a program to store student details for your school\'s annual day.', goal: 'Master Introduction to Strings in Python.' },
     discovery: {
         question: 'Explain why `word = "EXAM"; print(word[4])` raises an `IndexError` but `print(word[3])` prints `M`. Use the term "valid index range" in your explanation.',
@@ -20,7 +20,7 @@ export const w_c11_computersciencestringslicingsim: SimDef = {
         hook: 'Students consistently treat the first character as index 1 (1-based) because that matches natural language ("first",.',
     },
     teaching: [
-        { title: 'A string in Python is an immutable sequence.', text: 'A string in Python is an immutable sequence of Unicode characters enclosed within single quotes (\' \'), double quotes (" "), or triple quotes (\'\'\' \'\'\' or """ """) used to represent textual data.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A string in Python is an immutable sequence.', text: 'A string in Python is an immutable sequence of Unicode characters enclosed within single quotes (\' \'), double quotes (" "), or triple quotes (\'\'\' \'\'\' or """ """) used to represent textual data.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_cs_cbse_06_001', title: 'A string in Python is an immutable.',

@@ -1236,15 +1236,15 @@ function C12_PhysicsGeneratorSim({
       {/* ─── HEADER BAR ─── */}
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2.5 bg-cyan-950/70 border border-cyan-800/60 rounded-2xl shadow-inner">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2.5 bg-gold-950/70 border border-gold-800/60 rounded-2xl shadow-inner">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 flex items-center gap-2">
               <span>ISC Class 12 Physics</span>
               <span>•</span>
-              <span className="text-cyan-400 font-semibold">10 Verified Syllabus Nodes</span>
+              <span className="text-gold-400 font-semibold">10 Verified Syllabus Nodes</span>
             </p>
           </div>
         </div>
@@ -1262,7 +1262,7 @@ function C12_PhysicsGeneratorSim({
                 audioManager.play('tap');
               }}
               className={`px-3 py-1.5 rounded-xl capitalize transition-all ${
-                phase === p ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30 font-bold' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 font-bold' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1277,13 +1277,13 @@ function C12_PhysicsGeneratorSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mt-6 space-y-6">
           {/* Narrative Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-cyan-950/40 rounded-3xl border border-cyan-800/40 shadow-xl">
-            <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-gold-950/40 rounded-3xl border border-gold-800/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span>🚀 Operational Mission Scenario</span>
             </div>
             <h2 className="text-xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-cyan-300/80 mt-2 bg-cyan-950/40 p-3 rounded-xl border border-cyan-900/50">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2 bg-gold-950/40 p-3 rounded-xl border border-gold-900/50">{SCENARIO.context}</p>
           </div>
 
           {/* Curiosity Question */}
@@ -1310,7 +1310,7 @@ function C12_PhysicsGeneratorSim({
                       ? idx === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-cyan-500/50'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
                   <div className="flex items-start gap-3">
@@ -1334,7 +1334,7 @@ function C12_PhysicsGeneratorSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold rounded-2xl shadow-lg shadow-cyan-600/30 flex items-center gap-2 text-sm"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-2xl shadow-lg shadow-gold-600/30 flex items-center gap-2 text-sm"
                 >
                   <span>Launch Guided Exploration Lab</span>
                   <span>→</span>
@@ -1353,7 +1353,7 @@ function C12_PhysicsGeneratorSim({
           {/* Step Banner */}
           <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                 Interactive Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1380,7 +1380,7 @@ function C12_PhysicsGeneratorSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Rotation Frequency (f)</span>
-                        <span className="text-cyan-400">{genFreq} Hz</span>
+                        <span className="text-gold-400">{genFreq} Hz</span>
                       </div>
                       <input
                         type="range"
@@ -1393,14 +1393,14 @@ function C12_PhysicsGeneratorSim({
                           setGenFreq(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Magnetic Field (B)</span>
-                        <span className="text-cyan-400">{genBField.toFixed(2)} Tesla</span>
+                        <span className="text-gold-400">{genBField.toFixed(2)} Tesla</span>
                       </div>
                       <input
                         type="range"
@@ -1413,14 +1413,14 @@ function C12_PhysicsGeneratorSim({
                           setGenBField(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Armature Turns (N)</span>
-                        <span className="text-cyan-400">{genTurns} turns</span>
+                        <span className="text-gold-400">{genTurns} turns</span>
                       </div>
                       <input
                         type="range"
@@ -1433,14 +1433,14 @@ function C12_PhysicsGeneratorSim({
                           setGenTurns(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     {/* Live Calculated Metric */}
-                    <div className="p-3 bg-cyan-950/40 rounded-xl border border-cyan-800/50 flex items-center justify-between">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 flex items-center justify-between">
                       <span className="text-xs text-slate-300 font-semibold">Peak EMF (ε₀ = NBAω):</span>
-                      <span className="text-sm font-mono font-bold text-cyan-300">{peakEMF.toFixed(1)} Volts</span>
+                      <span className="text-sm font-mono font-bold text-gold-300">{peakEMF.toFixed(1)} Volts</span>
                     </div>
                   </div>
                 </div>
@@ -1473,7 +1473,7 @@ function C12_PhysicsGeneratorSim({
                     </div>
                   ) : (
                     <div className="space-y-2">
-                      <p className="text-xs text-cyan-300 font-medium">✓ {PREDICTION_QUESTIONS[0].verifyInstruction}</p>
+                      <p className="text-xs text-gold-300 font-medium">✓ {PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                       {/* Observation Question */}
                       {!observationAnswered ? (
                         <div className="pt-2 border-t border-slate-800/80 space-y-2">
@@ -1542,7 +1542,7 @@ function C12_PhysicsGeneratorSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                       <span>Rate of Change of Field (dE/dt)</span>
-                      <span className="text-cyan-400">{capDEDt.toFixed(1)} × 10¹¹ V/m·s</span>
+                      <span className="text-gold-400">{capDEDt.toFixed(1)} × 10¹¹ V/m·s</span>
                     </div>
                     <input
                       type="range"
@@ -1552,14 +1552,14 @@ function C12_PhysicsGeneratorSim({
                       value={capDEDt}
                       aria-label="Rate of Change of Electric Field"
                       onChange={(e) => setCapDEDt(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                       <span>Plate Area (A)</span>
-                      <span className="text-cyan-400">{(capArea * 100).toFixed(0)} cm²</span>
+                      <span className="text-gold-400">{(capArea * 100).toFixed(0)} cm²</span>
                     </div>
                     <input
                       type="range"
@@ -1569,14 +1569,14 @@ function C12_PhysicsGeneratorSim({
                       value={capArea}
                       aria-label="Capacitor Plate Area"
                       onChange={(e) => setCapArea(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
-                  <div className="p-3.5 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-1.5">
+                  <div className="p-3.5 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-1.5">
                     <div className="flex justify-between text-xs font-semibold">
                       <span className="text-slate-300">Displacement Current (I_d):</span>
-                      <span className="font-mono font-bold text-cyan-300">{displacementCurrent.toFixed(2)} mA</span>
+                      <span className="font-mono font-bold text-gold-300">{displacementCurrent.toFixed(2)} mA</span>
                     </div>
                     <p className="text-[11px] text-slate-400">
                       Even with ZERO physical electrons crossing vacuum, magnetic field around gap is identical to B around wire!
@@ -1592,7 +1592,7 @@ function C12_PhysicsGeneratorSim({
                 <div className="lg:col-span-8 bg-slate-950 rounded-2xl p-4 border border-slate-800 flex flex-col items-center">
                   <div className="flex items-center justify-between w-full text-xs text-slate-400 px-2 mb-2">
                     <span className="flex items-center gap-1.5">
-                      <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 inline-block" /> Electric Field E_y
+                      <span className="w-2.5 h-2.5 rounded-full bg-gold-400 inline-block" /> Electric Field E_y
                     </span>
                     <span className="flex items-center gap-1.5">
                       <span className="w-2.5 h-2.5 rounded-full bg-pink-500 inline-block" /> Magnetic Field B_z
@@ -1606,7 +1606,7 @@ function C12_PhysicsGeneratorSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                       <span>Peak Electric Field (E₀)</span>
-                      <span className="text-cyan-400">{waveAmpE} V/m</span>
+                      <span className="text-gold-400">{waveAmpE} V/m</span>
                     </div>
                     <input
                       type="range"
@@ -1616,18 +1616,18 @@ function C12_PhysicsGeneratorSim({
                       value={waveAmpE}
                       aria-label="Peak Electric Field amplitude"
                       onChange={(e) => setWaveAmpE(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
-                  <div className="p-3 bg-cyan-950/40 rounded-xl border border-cyan-800/50 space-y-1">
+                  <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-1">
                     <div className="flex justify-between text-xs font-semibold">
                       <span className="text-slate-300">Peak B-Field (B₀ = E₀/c):</span>
                       <span className="font-mono font-bold text-pink-400">{waveBField.toFixed(3)} μT</span>
                     </div>
                     <div className="flex justify-between text-xs font-semibold">
                       <span className="text-slate-300">Wave Speed (c = 1/√(μ₀ε₀)):</span>
-                      <span className="font-mono font-bold text-cyan-300">3.00 × 10⁸ m/s</span>
+                      <span className="font-mono font-bold text-gold-300">3.00 × 10⁸ m/s</span>
                     </div>
                   </div>
                   <p className="text-[11px] text-slate-400 leading-relaxed">
@@ -1722,7 +1722,7 @@ function C12_PhysicsGeneratorSim({
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Critical Angle (θ_c = arcsin(1/n)):</span>
-                      <span className="font-mono font-bold text-cyan-400">{criticalAngle.toFixed(1)}°</span>
+                      <span className="font-mono font-bold text-gold-400">{criticalAngle.toFixed(1)}°</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Optical State:</span>
@@ -1783,7 +1783,7 @@ function C12_PhysicsGeneratorSim({
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Total Deviation (δ = i + e - A):</span>
-                      <span className="font-mono font-bold text-cyan-300">{prismCalc.delta.toFixed(1)}°</span>
+                      <span className="font-mono font-bold text-gold-300">{prismCalc.delta.toFixed(1)}°</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Minimum Deviation (δ_min):</span>
@@ -1822,7 +1822,7 @@ function C12_PhysicsGeneratorSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-cyan-600/30"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1832,7 +1832,7 @@ function C12_PhysicsGeneratorSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-emerald-600/30"
+                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-emerald-600/30"
               >
                 Proceed to Free Sandbox →
               </motion.button>
@@ -1857,7 +1857,7 @@ function C12_PhysicsGeneratorSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white text-sm font-bold rounded-2xl shadow-lg shadow-cyan-600/30"
+              className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white text-sm font-bold rounded-2xl shadow-lg shadow-gold-600/30"
             >
               Start Diagnostic Challenges →
             </motion.button>
@@ -1884,7 +1884,7 @@ function C12_PhysicsGeneratorSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                   activeInteractiveTab === tab.id
-                    ? 'bg-cyan-600 border-cyan-400 text-white shadow-md shadow-cyan-600/30'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1897,7 +1897,7 @@ function C12_PhysicsGeneratorSim({
           <div className="p-6 bg-slate-900/80 rounded-3xl border border-slate-800 shadow-xl">
             {activeInteractiveTab === 'mirror' && (
               <div className="space-y-6">
-                <h3 className="text-sm font-bold text-cyan-300">Spherical Mirror Ray Tracer & Formula Engine (1/v + 1/u = 1/f)</h3>
+                <h3 className="text-sm font-bold text-gold-300">Spherical Mirror Ray Tracer & Formula Engine (1/v + 1/u = 1/f)</h3>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
                   <div className="lg:col-span-7 bg-slate-950 rounded-2xl p-6 border border-slate-800">
                     <svg viewBox="0 0 400 200" className="w-full">
@@ -1963,7 +1963,7 @@ function C12_PhysicsGeneratorSim({
                         aria-label="Select Concave Mirror"
                         onClick={() => setMirrorType('concave')}
                         className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${
-                          mirrorType === 'concave' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                          mirrorType === 'concave' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Concave Mirror (f &lt; 0)
@@ -1972,7 +1972,7 @@ function C12_PhysicsGeneratorSim({
                         aria-label="Select Convex Mirror"
                         onClick={() => setMirrorType('convex')}
                         className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${
-                          mirrorType === 'convex' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                          mirrorType === 'convex' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         Convex Mirror (f &gt; 0)
@@ -1982,7 +1982,7 @@ function C12_PhysicsGeneratorSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Object Distance (|u|)</span>
-                        <span className="text-cyan-400">{mirrorU} cm</span>
+                        <span className="text-gold-400">{mirrorU} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1992,14 +1992,14 @@ function C12_PhysicsGeneratorSim({
                         value={Math.abs(mirrorU)}
                         aria-label="Object Distance in cm"
                         onChange={(e) => setMirrorU(-Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Focal Length Magnitude (|f|)</span>
-                        <span className="text-cyan-400">{mirrorF} cm</span>
+                        <span className="text-gold-400">{mirrorF} cm</span>
                       </div>
                       <input
                         type="range"
@@ -2009,7 +2009,7 @@ function C12_PhysicsGeneratorSim({
                         value={Math.abs(mirrorF)}
                         aria-label="Focal length magnitude in cm"
                         onChange={(e) => setMirrorF(Number(e.target.value))}
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -2020,7 +2020,7 @@ function C12_PhysicsGeneratorSim({
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Magnification (m = -v/u):</span>
-                        <span className="font-mono font-bold text-cyan-300">{mirrorCalc.m.toFixed(2)}</span>
+                        <span className="font-mono font-bold text-gold-300">{mirrorCalc.m.toFixed(2)}</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Image Nature:</span>
@@ -2036,8 +2036,8 @@ function C12_PhysicsGeneratorSim({
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                 <canvas ref={canvasGenRef} width={450} height={180} className="w-full bg-slate-950 rounded-2xl border border-slate-800" />
                 <div className="space-y-3 text-xs text-slate-300">
-                  <h4 className="font-bold text-cyan-300 text-sm">Alternator Physics Formulae:</h4>
-                  <p className="font-mono bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-cyan-400">
+                  <h4 className="font-bold text-gold-300 text-sm">Alternator Physics Formulae:</h4>
+                  <p className="font-mono bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-gold-400">
                     Φ(t) = NBA cos(ωt) <br />
                     ε(t) = -dΦ/dt = NBAω sin(ωt) = ε₀ sin(ωt)
                   </p>
@@ -2048,8 +2048,8 @@ function C12_PhysicsGeneratorSim({
 
             {activeInteractiveTab === 'capacitor' && (
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 text-xs">
-                <h4 className="font-bold text-cyan-300 text-sm">Displacement Current (Maxwell Correction):</h4>
-                <p className="font-mono text-cyan-400 bg-slate-900 p-2.5 rounded-xl border border-slate-800">
+                <h4 className="font-bold text-gold-300 text-sm">Displacement Current (Maxwell Correction):</h4>
+                <p className="font-mono text-gold-400 bg-slate-900 p-2.5 rounded-xl border border-slate-800">
                   I_d = ε₀ (dΦ_E / dt) = ε₀ A (dE / dt) = {displacementCurrent.toFixed(2)} mA
                 </p>
                 <p className="text-slate-400">Restores charge conservation to Ampere’s Law: ∮ B·dl = μ₀ (I_c + I_d).</p>
@@ -2067,16 +2067,16 @@ function C12_PhysicsGeneratorSim({
 
             {activeInteractiveTab === 'snell' && (
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 text-xs">
-                <h4 className="font-bold text-cyan-300 text-sm">Snell’s Law & Critical Angle:</h4>
-                <p className="font-mono text-cyan-400">n₁ sin(θ₁) = n₂ sin(θ₂) &nbsp;⇒&nbsp; sin(θ_c) = n₂ / n₁</p>
+                <h4 className="font-bold text-gold-300 text-sm">Snell’s Law & Critical Angle:</h4>
+                <p className="font-mono text-gold-400">n₁ sin(θ₁) = n₂ sin(θ₂) &nbsp;⇒&nbsp; sin(θ_c) = n₂ / n₁</p>
                 <p className="text-slate-400">Glass-Air (n=1.50): θ_c = {criticalAngle.toFixed(1)}°. If θ &gt; θ_c ⇒ 100% Total Internal Reflection.</p>
               </div>
             )}
 
             {activeInteractiveTab === 'prism' && (
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 text-xs">
-                <h4 className="font-bold text-cyan-300 text-sm">Prism Formula at Minimum Deviation:</h4>
-                <p className="font-mono text-cyan-400 bg-slate-900 p-2 rounded-lg">
+                <h4 className="font-bold text-gold-300 text-sm">Prism Formula at Minimum Deviation:</h4>
+                <p className="font-mono text-gold-400 bg-slate-900 p-2 rounded-lg">
                   n = sin((A + δ_min)/2) / sin(A/2)
                 </p>
                 <p className="text-slate-400">For thin prism (A ≤ 10°): δ ≈ (n - 1) A.</p>
@@ -2099,7 +2099,7 @@ function C12_PhysicsGeneratorSim({
               </span>
               <h2 className="text-base font-bold text-white flex items-center gap-2">
                 <span>Competency Target:</span>
-                <span className="text-cyan-400 capitalize bg-cyan-950/60 px-2 py-0.5 rounded-md border border-cyan-800/50 text-xs">
+                <span className="text-gold-400 capitalize bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800/50 text-xs">
                   {challenge.competencyLevel}
                 </span>
               </h2>
@@ -2115,7 +2115,7 @@ function C12_PhysicsGeneratorSim({
                     ? 'bg-emerald-950/80 text-emerald-400 border border-emerald-700/60'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/80 text-rose-400 border border-rose-700/60'
-                    : 'bg-sky-950/80 text-sky-400 border border-sky-700/60'
+                    : 'bg-gold-950/80 text-gold-400 border border-gold-700/60'
                 }`}
               >
                 {difficulty} Tier
@@ -2126,7 +2126,7 @@ function C12_PhysicsGeneratorSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-sky-400 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2160,7 +2160,7 @@ function C12_PhysicsGeneratorSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/50'
                         : wrongFlash
                         ? 'bg-rose-950/30 border-rose-700 text-rose-300'
-                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-cyan-500/50'
+                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -2187,16 +2187,16 @@ function C12_PhysicsGeneratorSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value..."
                     disabled={showExplanation}
-                    className="flex-1 px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                    className="flex-1 px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
-                  <span className="text-sm font-bold text-cyan-400 min-w-[40px]">{challenge.unit}</span>
+                  <span className="text-sm font-bold text-gold-400 min-w-[40px]">{challenge.unit}</span>
                   <motion.button
                     aria-label="Submit numeric answer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white font-bold rounded-2xl text-sm"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-2xl text-sm"
                   >
                     Submit
                   </motion.button>
@@ -2219,7 +2219,7 @@ function C12_PhysicsGeneratorSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow-md"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2250,7 +2250,7 @@ function C12_PhysicsGeneratorSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Labels
                 </motion.button>
@@ -2292,7 +2292,7 @@ function C12_PhysicsGeneratorSim({
                     const answer = sortArrangement.length > 0 ? sortArrangement : challenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(answer);
                   }}
-                  className="mt-2 px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Confirm Order
                 </motion.button>
@@ -2311,7 +2311,7 @@ function C12_PhysicsGeneratorSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-mono font-bold rounded-lg border border-indigo-600"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs font-mono font-bold rounded-lg border border-gold-600"
                     >
                       + {part}
                     </motion.button>
@@ -2321,7 +2321,7 @@ function C12_PhysicsGeneratorSim({
                 {/* Construction Area */}
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-cyan-950 text-cyan-300 font-mono text-xs font-bold rounded-md border border-cyan-800 flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 text-gold-300 font-mono text-xs font-bold rounded-md border border-gold-800 flex items-center gap-1.5">
                       {part}
                       <button
                         aria-label={`Remove part ${part}`}
@@ -2341,7 +2341,7 @@ function C12_PhysicsGeneratorSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0 || showExplanation}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Construction
                 </motion.button>
@@ -2382,7 +2382,7 @@ function C12_PhysicsGeneratorSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextChallenge}
-                      className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-emerald-600/30"
+                      className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white text-xs font-bold rounded-xl shadow-lg shadow-emerald-600/30"
                     >
                       {currentChallenge + 1 >= filteredChallenges.length ? 'Finalize Masterlab →' : 'Next Challenge →'}
                     </motion.button>
@@ -2400,13 +2400,13 @@ function C12_PhysicsGeneratorSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
           {/* Score & Mastery Banner */}
-          <div className="p-8 bg-gradient-to-br from-slate-900 via-indigo-950/60 to-cyan-950/50 rounded-3xl border border-cyan-800/50 text-center space-y-3">
+          <div className="p-8 bg-gradient-to-br from-slate-900 via-gold-950/60 to-gold-950/50 rounded-3xl border border-gold-800/50 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Diagnostic Calibration Complete!</h2>
             <div className="flex items-center justify-center gap-6 pt-2">
               <div>
                 <p className="text-xs text-slate-400">Final Masterlab Score</p>
-                <p className="text-3xl font-black text-cyan-400">{Math.max(0, 100 - errors * 5)}%</p>
+                <p className="text-3xl font-black text-gold-400">{Math.max(0, 100 - errors * 5)}%</p>
               </div>
               <div className="h-10 w-[1px] bg-slate-800" />
               <div>
@@ -2453,7 +2453,7 @@ function C12_PhysicsGeneratorSim({
 
           {/* Real-World Mission Capstone Activity */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🚀 Capstone Activity:</span>
               <span>{REAL_WORLD_ACTIVITY.title}</span>
             </h3>
@@ -2461,7 +2461,7 @@ function C12_PhysicsGeneratorSim({
             <div className="space-y-1.5">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="text-cyan-400 font-bold">{idx + 1}.</span>
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

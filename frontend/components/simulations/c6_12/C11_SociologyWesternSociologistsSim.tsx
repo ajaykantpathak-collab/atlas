@@ -63,7 +63,7 @@ export function C11_SociologyWesternSociologistsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Durkheim: Division of Labour, Solidarity and Anomie</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Durkheim: Division of Labour, Solidarity and Anomie</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -126,10 +126,10 @@ export function C11_SociologyWesternSociologistsSim() {
           <div>
             <div className="flex justify-between text-xs text-slate-400">
               <span>Collective conscience (shared beliefs)</span>
-              <span className="font-mono text-sky-300">{collectiveConscience}%</span>
+              <span className="font-mono text-gold-300">{collectiveConscience}%</span>
             </div>
             <div className="h-3 bg-slate-800 rounded mt-1">
-              <div className="h-3 bg-sky-500 rounded" style={{ width: `${collectiveConscience}%`, transition: 'width 0.3s' }} />
+              <div className="h-3 bg-gold-500 rounded" style={{ width: `${collectiveConscience}%`, transition: 'width 0.3s' }} />
             </div>
           </div>
           <div>
@@ -161,9 +161,9 @@ export function C11_SociologyWesternSociologistsSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Division of labour (specialisation)</span>
-            <span className="font-mono font-bold text-sky-300">{specialisation}%</span>
+            <span className="font-mono font-bold text-gold-300">{specialisation}%</span>
           </label>
-          <input type="range" aria-label="specialisation" min={0} max={100} step={5} value={specialisation} onChange={(e) => setSpecialisation(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="specialisation" min={0} max={100} step={5} value={specialisation} onChange={(e) => setSpecialisation(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -186,7 +186,7 @@ export function C11_SociologyWesternSociologistsSim() {
               <button
                 key={p}
                 onClick={() => applyPreset(p)}
-                className={`flex-1 min-h-11 rounded-xl text-xs font-semibold capitalize border ${preset === p ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                className={`flex-1 min-h-11 rounded-xl text-xs font-semibold capitalize border ${preset === p ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
               >
                 {p}
               </button>
@@ -207,8 +207,8 @@ export function C11_SociologyWesternSociologistsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Slide specialisation slowly from 0 to 100 with regulation at 90. What type of solidarity appears -- and does anomie ever rise?</li>
           <li>Press &quot;Trigger an anomic shock&quot;. Now raise ONLY the regulation slider. At what regulation % does the anomie warning disappear?</li>

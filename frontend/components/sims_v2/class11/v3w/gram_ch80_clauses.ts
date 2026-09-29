@@ -28,8 +28,8 @@ export const c11_gram_ch80: SimDef = {
         hook: 'Connector-based classification fails — ask what JOB the clause does, not what word opens it.',
     },
     teaching: [
-        { title: 'The substitution tests', text: 'Noun clause — swap it for "it/something" and the sentence survives. Adjective clause — answers "which one?". Adverb clause — answers when/why/how of the verb.', emoji: '🧪', bgColor: 'from-purple-500 to-violet-600' },
-        { title: 'The comma contract', text: 'Defining (which-one) → no commas, "that" allowed. Non-defining (extra info) → commas, only who/which — never "that".', emoji: '📎', bgColor: 'from-violet-500 to-fuchsia-600' },
+        { title: 'The substitution tests', text: 'Noun clause — swap it for "it/something" and the sentence survives. Adjective clause — answers "which one?". Adverb clause — answers when/why/how of the verb.', emoji: '🧪', bgColor: 'from-purple-500 to-gold-600' },
+        { title: 'The comma contract', text: 'Defining (which-one) → no commas, "that" allowed. Non-defining (extra info) → commas, only who/which — never "that".', emoji: '📎', bgColor: 'from-gold-500 to-fuchsia-600' },
     ],
 
     beats: [

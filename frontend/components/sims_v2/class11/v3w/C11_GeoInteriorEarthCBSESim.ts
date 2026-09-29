@@ -11,7 +11,7 @@ export const w_c11_geointeriorearthcbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Sources of Information about Earth\'s Interior: Direct and Indirect',
     chapters: [],
     nodeIds: ['c11_geo_cbse_03_001', 'c11_geo_cbse_03_002', 'c11_geo_cbse_03_003', 'c11_geo_cbse_03_004', 'c11_geo_cbse_03_006', 'c11_geo_cbse_03_008', 'c11_geo_cbse_03_009', 'c11_geo_cbse_06_001', 'c11_geo_cbse_06_003', 'c11_geo_cbse_03_007', 'c11_geo_cbse_10_001', 'c11_geo_cbse_20_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine standing at the Kolar Gold Fields in Karnataka, where mines once reached 3.2 km deep—yet Earth\'s.', goal: 'Master Sources of Information about Earth\'s Interior: Direct and Indirect.' },
     discovery: {
         question: 'State the approximate thickness range of the continental crust and the oceanic crust, and name the dominant rock type in each.',
@@ -20,7 +20,7 @@ export const w_c11_geointeriorearthcbsesim: SimDef = {
         hook: 'Students believe **"the mantle is molten magma"** because textbooks say "magma comes from the mantle." They confuse the.',
     },
     teaching: [
-        { title: 'Direct sources of information about Earth\'s.', text: 'Direct sources of information about Earth\'s interior are materials physically obtained from the crust and upper mantle through mining, deep drilling, and volcanic eruptions.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Direct sources of information about Earth\'s.', text: 'Direct sources of information about Earth\'s interior are materials physically obtained from the crust and upper mantle through mining, deep drilling, and volcanic eruptions.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_03_001', title: 'Direct sources of information about.',

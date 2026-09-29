@@ -11,7 +11,7 @@ export const w_c12_biologysexualreproductionfloweringplantssim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Outbreeding Devices: Preventing Self-Pollination',
     chapters: [],
     nodeIds: ['c12_bio_cbse_02_008', 'c12_bio_cbse_01_003', 'c12_bio_cbse_01_004', 'c12_bio_cbse_02_001', 'c12_bio_cbse_07_007', 'c12_bio_cbse_02_002', 'c12_bio_cbse_02_004', 'c12_bio_cbse_02_010', 'c12_bio_cbse_01_001', 'c12_bio_cbse_01_002', 'c12_bio_cbse_02_003', 'c12_bio_cbse_02_005', 'c12_bio_cbse_02_006', 'c12_bio_cbse_02_007', 'c12_bio_cbse_02_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a mustard field in Punjab where a farmer notices that isolated plants produce very few seeds, but.', goal: 'Master Outbreeding Devices: Preventing Self-Pollination.' },
     discovery: {
         question: 'A plant breeder working with Brassica napus (rapeseed) finds that self-pollination fails to set seeds even though pollen is viable and stigma is receptive.',
@@ -20,7 +20,7 @@ export const w_c12_biologysexualreproductionfloweringplantssim: SimDef = {
         hook: 'Students often think "outbreeding devices" and "pollination agents" are the same thing.',
     },
     teaching: [
-        { title: 'Outbreeding devices are structural,.', text: 'Outbreeding devices are structural, temporal, biochemical, or genetic mechanisms in flowering plants that prevent self-pollination and promote cross-pollination, thereby increasing genetic diversity.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Outbreeding devices are structural,.', text: 'Outbreeding devices are structural, temporal, biochemical, or genetic mechanisms in flowering plants that prevent self-pollination and promote cross-pollination, thereby increasing genetic diversity.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_02_008', title: 'Outbreeding devices are structural,.',

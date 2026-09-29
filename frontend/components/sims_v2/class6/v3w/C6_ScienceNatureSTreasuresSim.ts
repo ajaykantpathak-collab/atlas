@@ -11,7 +11,7 @@ export const w_c6_sciencenaturestreasuressim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Nature as Our Laboratory',
     chapters: [],
     nodeIds: ['c6_physics_ch02_006', 'c6_physics_ch02_008', 'c6_physics_ch02_009', 'c6_physics_ch01_003', 'c6_physics_ch01_001', 'c6_chemistry_ch04_005', 'c6_physics_ch11_036'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why flowers turn toward the sunlight, or why clouds seem to change color just before.', goal: 'Master Nature as Our Laboratory.' },
     discovery: {
         question: 'What is the most important tool for a scientist exploring nature?',
@@ -20,7 +20,7 @@ export const w_c6_sciencenaturestreasuressim: SimDef = {
         hook: 'Students often think that "science" only happens in a lab with professional equipment.',
     },
     teaching: [
-        { title: 'Nature is the primary laboratory where.', text: 'Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Nature is the primary laboratory where.', text: 'Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_physics_ch02_006', title: 'Nature is the primary laboratory where.',

@@ -11,7 +11,7 @@ export const w_c11_accountancytypeserrorsomissionsim: SimDef = {
     classLevel: 11, subject: 'accountancy', topic: 'Errors Disclosed and Not Disclosed by Trial Balance',
     chapters: [],
     nodeIds: ['c11_acc_cbse_06_003', 'c11_acc_cbse_06_006', 'c11_acc_cbse_06_009', 'c11_acc_cbse_05_007', 'c11_acc_cbse_06_004', 'c11_acc_cbse_06_005', 'c11_acc_cbse_05_009', 'c11_acc_cbse_06_001', 'c11_acc_cbse_06_002', 'c11_acc_cbse_06_007', 'c11_acc_cbse_06_008', 'c11_acc_cbse_06_010', 'c11_acc_cbse_05_001', 'c11_acc_cbse_05_002', 'c11_acc_cbse_05_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re an accountant at a Delhi-based trading firm. It\'s March 31st, and you\'ve just prepared the.', goal: 'Master Errors Disclosed and Not Disclosed by Trial Balance.' },
     discovery: {
         question: 'A bookkeeper records a credit purchase of goods worth ₹20,000 from supplier Rahul.',
@@ -20,7 +20,7 @@ export const w_c11_accountancytypeserrorsomissionsim: SimDef = {
         hook: 'Students believe that "Error of Commission always affects trial balance" and "Error of Principle never affects trial.',
     },
     teaching: [
-        { title: 'Errors disclosed by trial balance are.', text: 'Errors disclosed by trial balance are one-sided errors that cause the total debits and total credits to be unequal, making the trial balance disagree.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Errors disclosed by trial balance are.', text: 'Errors disclosed by trial balance are one-sided errors that cause the total debits and total credits to be unequal, making the trial balance disagree.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_acc_cbse_06_003', title: 'Errors disclosed by trial balance are.',

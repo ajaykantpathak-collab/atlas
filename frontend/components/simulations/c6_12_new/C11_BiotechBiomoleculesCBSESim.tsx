@@ -1214,7 +1214,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
       {/* HEADER BAR */}
       <header className="flex flex-col md:flex-row justify-between items-center bg-slate-900 border border-slate-800 rounded-xl p-4 shadow-lg">
         <div>
-          <h1 className="text-xl md:text-2xl font-black text-sky-400 tracking-tight flex items-center gap-2">
+          <h1 className="text-xl md:text-2xl font-black text-gold-400 tracking-tight flex items-center gap-2">
             <span>🧬</span> ISC Biomolecules & Macromolecular Chemistry
           </h1>
           <p className="text-xs md:text-sm text-slate-400">
@@ -1251,7 +1251,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
             }}
             className={`flex-1 py-2.5 px-3 rounded-lg text-xs md:text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white shadow-md'
+                ? 'bg-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
@@ -1268,7 +1268,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Scenario Overview Box */}
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col gap-4">
-            <div className="flex items-center gap-2 text-sky-400 font-bold border-b border-slate-800 pb-3">
+            <div className="flex items-center gap-2 text-gold-400 font-bold border-b border-slate-800 pb-3">
               <span className="text-lg">🧪</span>
               <h2>{SCENARIO.title}</h2>
             </div>
@@ -1278,8 +1278,8 @@ export default function C11_BiotechBiomoleculesCBSESim({
             </p>
 
             {/* Discovery Core Question */}
-            <div className="mt-4 bg-slate-950 border border-sky-900/40 rounded-xl p-4 flex flex-col gap-3">
-              <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Discovery Challenge</span>
+            <div className="mt-4 bg-slate-950 border border-gold-900/40 rounded-xl p-4 flex flex-col gap-3">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Discovery Challenge</span>
               <p className="text-sm font-semibold text-slate-100">{DISCOVERY_QUESTION.question}</p>
 
               <div className="flex flex-col gap-2 mt-2">
@@ -1290,7 +1290,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                     disabled={discoverySubmitted}
                     className={`text-left p-3 rounded-lg text-xs transition-all border ${
                       discoverySelectedOption === idx
-                        ? 'border-sky-500 bg-sky-950/60 text-sky-200'
+                        ? 'border-gold-500 bg-gold-950/60 text-gold-200'
                         : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-850'
                     }`}
                   >
@@ -1303,7 +1303,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={discoverySelectedOption === null}
-                  className="mt-3 py-2 px-4 bg-sky-600 hover:bg-sky-500 disabled:bg-slate-800 text-white rounded-lg text-xs font-bold transition-all shadow"
+                  className="mt-3 py-2 px-4 bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 text-white rounded-lg text-xs font-bold transition-all shadow"
                 >
                   Submit Preconception Answer
                 </button>
@@ -1360,7 +1360,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                   </button>
                 ) : (
                   <div className="text-[11px] text-slate-400 bg-slate-900 p-2 rounded border border-slate-800">
-                    <span className="font-bold text-sky-400">Verification Protocol: </span>
+                    <span className="font-bold text-gold-400">Verification Protocol: </span>
                     {pred.verifyInstruction}
                   </div>
                 )}
@@ -1385,7 +1385,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                 }}
                 className={`text-left p-3 rounded-lg text-xs font-medium border transition-all ${
                   labStep === sIdx
-                    ? 'border-sky-500 bg-sky-950/70 text-sky-200 shadow-sm'
+                    ? 'border-gold-500 bg-gold-950/70 text-gold-200 shadow-sm'
                     : 'border-slate-800 bg-slate-950 text-slate-400 hover:bg-slate-850'
                 }`}
               >
@@ -1398,7 +1398,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
           {/* Interactive Lab Visualizer & Controls Column */}
           <div className="lg:col-span-2 flex flex-col gap-5 bg-slate-900 border border-slate-800 rounded-xl p-5">
             <div className="flex justify-between items-center border-b border-slate-800 pb-3">
-              <h2 className="text-sm font-bold text-sky-400 flex items-center gap-2">
+              <h2 className="text-sm font-bold text-gold-400 flex items-center gap-2">
                 <span>🔬</span> {EXPLORATION_STEPS[labStep].title}
               </h2>
               <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full border border-slate-700">
@@ -1429,7 +1429,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
               <div className="flex flex-col gap-1.5">
                 <div className="flex justify-between text-xs font-semibold">
                   <span className="text-slate-300">Temperature (°C):</span>
-                  <span className="text-sky-400">{temp}°C</span>
+                  <span className="text-gold-400">{temp}°C</span>
                 </div>
                 <input
                   type="range"
@@ -1437,7 +1437,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                   max="100"
                   value={temp}
                   onChange={e => setTemp(Number(e.target.value))}
-                  className="accent-sky-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                 />
               </div>
 
@@ -1578,7 +1578,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col gap-4">
             <div className="flex justify-between items-center border-b border-slate-800 pb-2">
               <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider">Tier Filter</h3>
-              <span className="text-xs font-bold text-sky-400">{filteredChallenges.length} Items</span>
+              <span className="text-xs font-bold text-gold-400">{filteredChallenges.length} Items</span>
             </div>
 
             {/* Filter Buttons */}
@@ -1593,7 +1593,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                   }}
                   className={`flex-1 py-1 px-2 rounded text-[10px] font-bold capitalize transition-all ${
                     difficultyFilter === tier
-                      ? 'bg-sky-600 text-white'
+                      ? 'bg-gold-600 text-white'
                       : 'text-slate-400 hover:bg-slate-800'
                   }`}
                 >
@@ -1616,7 +1616,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                   }}
                   className={`text-left p-2.5 rounded-lg text-xs font-medium border transition-all flex items-center justify-between ${
                     currentChallengeIndex === idx
-                      ? 'border-sky-500 bg-sky-950/80 text-sky-200'
+                      ? 'border-gold-500 bg-gold-950/80 text-gold-200'
                       : 'border-slate-800 bg-slate-950 text-slate-400 hover:bg-slate-850'
                   }`}
                 >
@@ -1643,7 +1643,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
               {/* Question Header */}
               <div className="flex justify-between items-center border-b border-slate-800 pb-3 mb-4">
                 <div className="flex items-center gap-2">
-                  <span className="text-xs bg-sky-950 text-sky-300 px-2.5 py-1 rounded-full border border-sky-800 font-bold">
+                  <span className="text-xs bg-gold-950 text-gold-300 px-2.5 py-1 rounded-full border border-gold-800 font-bold">
                     Challenge {currentChallengeIndex + 1} of {filteredChallenges.length}
                   </span>
                   <span className="text-xs text-slate-400">Node: {activeChallenge.nodeId}</span>
@@ -1664,7 +1664,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
                     onClick={() => handleChallengeAnswer(oIdx)}
                     className={`text-left p-3.5 rounded-xl text-xs md:text-sm font-medium border transition-all ${
                       selectedChallengeOption === oIdx
-                        ? 'border-sky-500 bg-sky-950/60 text-sky-100 shadow-md ring-1 ring-sky-500'
+                        ? 'border-gold-500 bg-gold-950/60 text-gold-100 shadow-md ring-1 ring-gold-500'
                         : 'border-slate-800 bg-slate-950 text-slate-300 hover:bg-slate-850'
                     }`}
                   >
@@ -1715,7 +1715,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Real World Activity Container */}
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col gap-4">
-            <h2 className="text-base font-bold text-sky-400 flex items-center gap-2 border-b border-slate-800 pb-3">
+            <h2 className="text-base font-bold text-gold-400 flex items-center gap-2 border-b border-slate-800 pb-3">
               <span>🏭</span> {REAL_WORLD_ACTIVITY.title}
             </h2>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
@@ -1724,7 +1724,7 @@ export default function C11_BiotechBiomoleculesCBSESim({
               <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Quality Assurance Protocol Steps</h3>
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="bg-sky-950 text-sky-400 font-bold px-2 py-0.5 rounded text-[10px] border border-sky-800">
+                  <span className="bg-gold-950 text-gold-400 font-bold px-2 py-0.5 rounded text-[10px] border border-gold-800">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

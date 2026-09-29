@@ -381,9 +381,9 @@ export function C10_MathematicsRealNumbersSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700">🔗</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🔗</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 10 -- Real Numbers</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 -- Real Numbers</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Euclid&apos;s Ladder and Prime Factories</h1>
         </div>
       </div>
@@ -398,7 +398,7 @@ export function C10_MathematicsRealNumbersSim() {
               {ladder.slice(0, visible).map((s, i) => (
                 <div key={i}
                   className={`flex items-center gap-2 px-3 py-2 rounded-xl border transition-all duration-300 ${
-                    i === visible - 1 ? 'bg-violet-950/60 border-violet-600' : 'bg-slate-950 border-slate-800'
+                    i === visible - 1 ? 'bg-gold-950/60 border-gold-600' : 'bg-slate-950 border-slate-800'
                   }`}>
                   <span className="text-slate-300">
                     {s.dividend} = {s.divisor} x <span className="text-amber-300">{s.q}</span> +{' '}
@@ -417,7 +417,7 @@ export function C10_MathematicsRealNumbersSim() {
             </div>
             <div className="grid grid-cols-3 gap-2 mt-4">
               <button onClick={step} disabled={visible >= ladder.length}
-                className="py-2 rounded-xl text-xs font-bold bg-violet-600 hover:bg-violet-500 disabled:bg-slate-800 disabled:text-slate-600 transition">
+                className="py-2 rounded-xl text-xs font-bold bg-gold-600 hover:bg-gold-500 disabled:bg-slate-800 disabled:text-slate-600 transition">
                 Next step
               </button>
               <button onClick={runAll}
@@ -437,9 +437,9 @@ export function C10_MathematicsRealNumbersSim() {
             )}
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-violet-800/60 p-4 grid grid-cols-2 gap-4 text-sm">
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 grid grid-cols-2 gap-4 text-sm">
             <div>
-              <p className="text-[11px] text-sky-400 font-bold mb-1">Prime factorisation of {a}</p>
+              <p className="text-[11px] text-gold-400 font-bold mb-1">Prime factorisation of {a}</p>
               <p className="font-mono text-slate-200">{formatFactors(fA)}</p>
             </div>
             <div>
@@ -462,7 +462,7 @@ export function C10_MathematicsRealNumbersSim() {
 
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
-            {stepper('Number a', a, setA, 'text-sky-400')}
+            {stepper('Number a', a, setA, 'text-gold-400')}
             {stepper('Number b', b, setB, 'text-pink-400')}
             <button onClick={() => setAutoRun((v) => !v)}
               className={`w-full py-2 rounded-xl text-xs font-bold transition ${autoRun ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
@@ -480,8 +480,8 @@ export function C10_MathematicsRealNumbersSim() {
             </p>
           </div>
 
-          <div className="bg-violet-950/40 rounded-2xl border border-violet-800/50 p-4 text-xs">
-            <p className="font-bold text-violet-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Set a = 867, b = 255 (a classic board question). Predict HCF before running the ladder.</p>
             <p>2. Try a = 6, b = 25 and check HCF x LCM = a x b. Why does the identity still work for co-primes?</p>
           </div>

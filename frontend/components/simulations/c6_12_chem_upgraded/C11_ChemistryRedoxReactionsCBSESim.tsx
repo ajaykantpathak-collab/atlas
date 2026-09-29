@@ -625,7 +625,7 @@ const GalvanicCellDiagram: React.FC<{
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-2xl flex flex-col items-center">
       <div className="text-center mb-2">
-        <span className="text-xs font-mono uppercase tracking-wider text-cyan-400">Interactive Galvanic Cell Architecture</span>
+        <span className="text-xs font-mono uppercase tracking-wider text-gold-400">Interactive Galvanic Cell Architecture</span>
         <h4 className="text-lg font-bold text-white">{anodeMetal} - {cathodeMetal} Cell System</h4>
       </div>
       <svg viewBox="0 0 600 320" className="w-full max-w-lg h-auto">
@@ -817,14 +817,14 @@ const ElectrochemicalSeriesDiagram: React.FC<{ selectedMetal: string }> = ({ sel
               key={item.symbol}
               className={`flex items-center justify-between p-2 rounded-lg text-xs transition-all ${
                 isSelected
-                  ? 'bg-cyan-900/60 border border-cyan-400 text-white font-bold scale-[1.02]'
+                  ? 'bg-gold-900/60 border border-gold-400 text-white font-bold scale-[1.02]'
                   : isSHE
                   ? 'bg-amber-950/40 border border-amber-500/50 text-amber-200'
                   : 'bg-slate-800/80 hover:bg-slate-800 text-slate-300'
               }`}
             >
               <div className="flex items-center space-x-2">
-                <span className="font-mono w-20 text-cyan-300 font-semibold">{item.symbol}</span>
+                <span className="font-mono w-20 text-gold-300 font-semibold">{item.symbol}</span>
                 <span className="text-slate-400 text-[10px] hidden sm:inline">{item.role}</span>
               </div>
               <div className="flex items-center space-x-3">
@@ -1095,7 +1095,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
       {/* HEADER BAR */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 sticky top-0 z-50 shadow-md">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-lg text-white shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center font-bold text-lg text-white shadow-lg shadow-gold-500/20">
             e⁻
           </div>
           <div>
@@ -1115,7 +1115,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
               }}
               className={`px-4 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all ${
                 activeTab === tab
-                  ? 'bg-cyan-500 text-slate-950 shadow-md font-bold'
+                  ? 'bg-gold-500 text-slate-950 shadow-md font-bold'
                   : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
               }`}
             >
@@ -1133,7 +1133,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
           <div className="w-px h-6 bg-slate-800" />
           <div className="text-right">
             <span className="text-[10px] text-slate-400 uppercase tracking-wider block">Solved</span>
-            <span className="text-sm font-mono font-bold text-cyan-400">{completedChallenges.size}/{CHALLENGES.length}</span>
+            <span className="text-sm font-mono font-bold text-gold-400">{completedChallenges.size}/{CHALLENGES.length}</span>
           </div>
         </div>
       </header>
@@ -1145,10 +1145,10 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* Scenario Banner */}
-            <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-cyan-950 border border-slate-700 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute -right-10 -bottom-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-gold-950 border border-slate-700 rounded-2xl p-6 shadow-xl relative overflow-hidden">
+              <div className="absolute -right-10 -bottom-10 w-48 h-48 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
               <div className="max-w-3xl space-y-3">
-                <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
+                <span className="px-3 py-1 bg-gold-500/20 text-gold-300 border border-gold-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
                   Scenario Overview
                 </span>
                 <h2 className="text-2xl font-bold text-white">{SCENARIO.title}</h2>
@@ -1180,7 +1180,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                           ? 'bg-red-950/60 border-red-500 text-red-200'
                           : 'bg-slate-800/40 border-slate-800 text-slate-400'
                         : discoveryAnswer === idx
-                        ? 'bg-cyan-950 border-cyan-400 text-white'
+                        ? 'bg-gold-950 border-gold-400 text-white'
                         : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                     }`}
                   >
@@ -1195,8 +1195,8 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
               </div>
 
               {discoverySubmitted && (
-                <div className="mt-4 p-4 rounded-xl bg-slate-800/90 border border-cyan-500/40 text-sm text-cyan-200 space-y-2">
-                  <span className="font-bold text-cyan-300 block">Scientific Concept Breakdown:</span>
+                <div className="mt-4 p-4 rounded-xl bg-slate-800/90 border border-gold-500/40 text-sm text-gold-200 space-y-2">
+                  <span className="font-bold text-gold-300 block">Scientific Concept Breakdown:</span>
                   <p className="text-xs text-slate-300">{DISCOVERY_QUESTION.hintAfter}</p>
                 </div>
               )}
@@ -1205,13 +1205,13 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
             {/* PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <h3 className="text-lg font-bold text-white border-b border-slate-800 pb-3 flex items-center space-x-2">
-                <span className="text-cyan-400">🔮</span>
+                <span className="text-gold-400">🔮</span>
                 <span>Hypothesis & Prediction Workstation</span>
               </h3>
 
               {PREDICTION_QUESTIONS.map((pred, pIdx) => (
                 <div key={pIdx} className="bg-slate-950/60 border border-slate-800 rounded-xl p-5 space-y-3">
-                  <h4 className="text-sm font-semibold text-cyan-300">{pred.question}</h4>
+                  <h4 className="text-sm font-semibold text-gold-300">{pred.question}</h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {pred.options.map((opt, oIdx) => {
                       const isSelected = predictionAnswers[pIdx] === oIdx;
@@ -1224,7 +1224,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                           }}
                           className={`p-3 rounded-lg text-left text-xs transition-all border ${
                             isSelected
-                              ? 'bg-cyan-950 border-cyan-400 text-white font-bold'
+                              ? 'bg-gold-950 border-gold-400 text-white font-bold'
                               : 'bg-slate-800/60 hover:bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1258,7 +1258,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   }}
                   className={`px-4 py-2.5 rounded-xl text-xs font-semibold shrink-0 transition-all border ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-500 text-slate-950 border-cyan-400 font-bold shadow-lg shadow-cyan-500/20'
+                      ? 'bg-gold-500 text-slate-950 border-gold-400 font-bold shadow-lg shadow-gold-500/20'
                       : 'bg-slate-900 hover:bg-slate-800 border-slate-800 text-slate-300'
                   }`}
                 >
@@ -1269,7 +1269,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
 
             {/* Lab Details Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 text-xs text-slate-300 space-y-1">
-              <span className="font-bold text-cyan-400 uppercase tracking-wider block">Lab Instruction:</span>
+              <span className="font-bold text-gold-400 uppercase tracking-wider block">Lab Instruction:</span>
               <p>{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
             </div>
 
@@ -1310,7 +1310,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                         audioManager.play('pop');
                         setAnodeMetal(e.target.value);
                       }}
-                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-cyan-400"
+                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-gold-400"
                     >
                       {Object.keys(metalPotentials).map((m) => (
                         <option key={m} value={m}>{m} (E° = {metalPotentials[m]} V)</option>
@@ -1326,7 +1326,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                         audioManager.play('pop');
                         setCathodeMetal(e.target.value);
                       }}
-                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-cyan-400"
+                      className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-gold-400"
                     >
                       {Object.keys(metalPotentials).map((m) => (
                         <option key={m} value={m}>{m} (E° = {metalPotentials[m]} V)</option>
@@ -1346,7 +1346,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                     <div className="h-px bg-slate-800 my-1" />
                     <div className="flex justify-between font-bold text-white text-sm">
                       <span>E° Cell EMF:</span>
-                      <span className="font-mono text-cyan-400">{calculatedEMF.toFixed(2)} V</span>
+                      <span className="font-mono text-gold-400">{calculatedEMF.toFixed(2)} V</span>
                     </div>
                     <div className="text-[10px] text-slate-400 mt-2">
                       {calculatedEMF > 0
@@ -1364,10 +1364,10 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4">
                     <div className="flex justify-between items-center border-b border-slate-800 pb-3">
                       <div>
-                        <span className="text-xs font-mono text-cyan-400 block">Compound Formula</span>
+                        <span className="text-xs font-mono text-gold-400 block">Compound Formula</span>
                         <h3 className="text-2xl font-bold text-white">{compoundDetails[selectedCompound].formula}</h3>
                       </div>
-                      <span className="text-xs px-3 py-1 bg-cyan-950 text-cyan-300 rounded-full border border-cyan-700">
+                      <span className="text-xs px-3 py-1 bg-gold-950 text-gold-300 rounded-full border border-gold-700">
                         {compoundDetails[selectedCompound].name}
                       </span>
                     </div>
@@ -1381,7 +1381,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                           {compoundDetails[selectedCompound].oxState}
                         </span>
                       </div>
-                      <div className="bg-slate-900 p-3 rounded-lg font-mono text-xs text-cyan-200 border border-slate-800">
+                      <div className="bg-slate-900 p-3 rounded-lg font-mono text-xs text-gold-200 border border-slate-800">
                         {compoundDetails[selectedCompound].breakDown}
                       </div>
                     </div>
@@ -1411,11 +1411,11 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                         }}
                         className={`w-full p-3 rounded-xl text-left text-xs transition-all border ${
                           selectedCompound === key
-                            ? 'bg-cyan-950 border-cyan-400 text-white font-bold'
+                            ? 'bg-gold-950 border-gold-400 text-white font-bold'
                             : 'bg-slate-800/60 hover:bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
-                        <div className="font-mono text-sm text-cyan-300">{compoundDetails[key].formula}</div>
+                        <div className="font-mono text-sm text-gold-300">{compoundDetails[key].formula}</div>
                         <div className="text-[10px] text-slate-400">{compoundDetails[key].name}</div>
                       </button>
                     ))}
@@ -1438,7 +1438,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                         setSelectedMedium('acidic');
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
-                        selectedMedium === 'acidic' ? 'bg-cyan-500 text-slate-950 border-cyan-400' : 'bg-slate-800 text-slate-400'
+                        selectedMedium === 'acidic' ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Acidic Medium (H⁺)
@@ -1449,7 +1449,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                         setSelectedMedium('basic');
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border ${
-                        selectedMedium === 'basic' ? 'bg-cyan-500 text-slate-950 border-cyan-400' : 'bg-slate-800 text-slate-400'
+                        selectedMedium === 'basic' ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       Basic Medium (OH⁻)
@@ -1473,11 +1473,11 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                       }}
                       className={`p-4 rounded-xl border text-left transition-all ${
                         balancerStep === s.step
-                          ? 'bg-cyan-950 border-cyan-400 text-white font-bold'
+                          ? 'bg-gold-950 border-gold-400 text-white font-bold'
                           : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
-                      <span className="text-[10px] font-mono text-cyan-400 uppercase tracking-wider block mb-1">Step 0{s.step}</span>
+                      <span className="text-[10px] font-mono text-gold-400 uppercase tracking-wider block mb-1">Step 0{s.step}</span>
                       <h4 className="text-xs font-bold text-white mb-1">{s.title}</h4>
                       <p className="text-[11px] text-slate-400">{s.desc}</p>
                     </button>
@@ -1486,7 +1486,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
 
                 {/* Step Demonstration */}
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                  <h4 className="text-sm font-bold text-cyan-300">
+                  <h4 className="text-sm font-bold text-gold-300">
                     Reaction Demonstration: Fe²⁺ + MnO₄⁻ → Fe³⁺ + Mn²⁺ ({selectedMedium} medium)
                   </h4>
 
@@ -1543,7 +1543,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   <h4 className="text-sm font-bold text-white border-b border-slate-800 pb-2">Displacement Experiment</h4>
 
                   <div>
-                    <label className="text-xs font-semibold text-cyan-300 block mb-1">Insert Metal Strip</label>
+                    <label className="text-xs font-semibold text-gold-300 block mb-1">Insert Metal Strip</label>
                     <select
                       value={dippedMetal}
                       onChange={(e) => {
@@ -1559,7 +1559,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   </div>
 
                   <div>
-                    <label className="text-xs font-semibold text-cyan-300 block mb-1">Beaker Solution</label>
+                    <label className="text-xs font-semibold text-gold-300 block mb-1">Beaker Solution</label>
                     <select
                       value={solutionSalt}
                       onChange={(e) => {
@@ -1579,7 +1579,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   }`}>
                     <span className="font-bold block uppercase tracking-wider">Experimental Observation:</span>
                     <p>{displacementResult.text}</p>
-                    <div className="font-mono text-[11px] text-cyan-300">
+                    <div className="font-mono text-[11px] text-gold-300">
                       ΔE° Reaction = {displacementResult.deltaE} V
                     </div>
                   </div>
@@ -1602,7 +1602,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                         setIsTitrating(!isTitrating);
                       }}
                       className={`px-6 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all ${
-                        isTitrating ? 'bg-amber-500 text-slate-950' : 'bg-cyan-500 text-slate-950'
+                        isTitrating ? 'bg-amber-500 text-slate-950' : 'bg-gold-500 text-slate-950'
                       }`}
                     >
                       {isTitrating ? 'Pause Dropwise Addition' : 'Start KMnO₄ Titration'}
@@ -1626,7 +1626,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   <div className="space-y-2 font-mono text-xs">
                     <div className="flex justify-between p-2 bg-slate-950 rounded-lg">
                       <span className="text-slate-400">Buret Reading:</span>
-                      <span className="text-cyan-400 font-bold">{buretVolumeDelivered.toFixed(1)} mL</span>
+                      <span className="text-gold-400 font-bold">{buretVolumeDelivered.toFixed(1)} mL</span>
                     </div>
                     <div className="flex justify-between p-2 bg-slate-950 rounded-lg">
                       <span className="text-slate-400">Analyte Solution:</span>
@@ -1718,7 +1718,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                       completedChallenges.has(ch.id)
                         ? 'bg-emerald-400'
                         : idx === currentChallengeIndex
-                        ? 'bg-cyan-400 ring-2 ring-cyan-400/50'
+                        ? 'bg-gold-400 ring-2 ring-gold-400/50'
                         : 'bg-slate-800'
                     }`}
                   />
@@ -1729,7 +1729,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
             {/* Challenge Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
               <div className="space-y-2">
-                <span className="text-xs font-mono text-cyan-400 uppercase tracking-wider">Subtopic Node: {currentChallenge.nodeId}</span>
+                <span className="text-xs font-mono text-gold-400 uppercase tracking-wider">Subtopic Node: {currentChallenge.nodeId}</span>
                 <h3 className="text-lg font-bold text-white leading-relaxed">{currentChallenge.question}</h3>
               </div>
 
@@ -1744,7 +1744,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Type value..."
-                    className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white font-mono focus:outline-none focus:border-cyan-400"
+                    className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white font-mono focus:outline-none focus:border-gold-400"
                   />
                 </div>
               ) : (
@@ -1767,7 +1767,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                               ? 'bg-red-950/60 border-red-500 text-red-200'
                               : 'bg-slate-800/40 border-slate-800 text-slate-400'
                             : isSelected
-                            ? 'bg-cyan-950 border-cyan-400 text-white'
+                            ? 'bg-gold-950 border-gold-400 text-white'
                             : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1789,7 +1789,7 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={currentChallenge.type === 'numeric' ? !numericInput.trim() : selectedOption === null}
-                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs uppercase tracking-wider transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-slate-950 font-bold text-xs uppercase tracking-wider transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-gold-500/20"
                   >
                     Submit Answer
                   </button>
@@ -1848,10 +1848,10 @@ export default function C11_ChemistryRedoxReactionsCBSESim({
               <p className="text-slate-300 text-sm leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="space-y-3 pt-2">
-                <h4 className="text-xs font-mono text-cyan-400 uppercase tracking-wider">Engineering Calculation Protocol:</h4>
+                <h4 className="text-xs font-mono text-gold-400 uppercase tracking-wider">Engineering Calculation Protocol:</h4>
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex items-start space-x-3 text-xs text-slate-200">
-                    <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-700 flex items-center justify-center font-bold text-xs shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-300 border border-gold-700 flex items-center justify-center font-bold text-xs shrink-0">
                       {idx + 1}
                     </span>
                     <p className="pt-0.5 leading-relaxed">{step}</p>

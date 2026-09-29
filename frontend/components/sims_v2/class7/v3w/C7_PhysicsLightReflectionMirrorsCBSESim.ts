@@ -11,7 +11,7 @@ export const w_c7_physicslightreflectionmirrorscbsesim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Reflection of Light: Laws of Reflection',
     chapters: [],
     nodeIds: ['c7_physics_ch05_006', 'c7_physics_ch05_007', 'c7_physics_ch05_009', 'c7_physics_ch05_011', 'c7_physics_ch05_010', 'c7_physics_ch05_002', 'c7_physics_ch05_003', 'c7_physics_ch05_001', 'c7_physics_ch05_004', 'c7_physics_ch05_005', 'c7_physics_ch05_008', 'c7_physics_ch01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine holding a pocket mirror in the sunlight and bouncing a bright patch of light onto a classroom wall.', goal: 'Master Reflection of Light: Laws of Reflection.' },
     discovery: {
         question: 'What type of reflecting surfaces are used inside a standard school periscope?',
@@ -20,7 +20,7 @@ export const w_c7_physicslightreflectionmirrorscbsesim: SimDef = {
         hook: 'Students often believe that a periscope magnifies distant objects like a telescope or binoculars do.',
     },
     teaching: [
-        { title: 'The laws of reflection state that when light.', text: 'The laws of reflection state that when light falls on a smooth, reflective surface, the angle of reflection equals the angle of incidence, and the incident ray, reflected ray, and normal all lie in.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The laws of reflection state that when light.', text: 'The laws of reflection state that when light falls on a smooth, reflective surface, the angle of reflection equals the angle of incidence, and the incident ray, reflected ray, and normal all lie in.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch05_006', title: 'The laws of reflection state that when.',

@@ -1274,7 +1274,7 @@ const CropRequirementsMatrixSVG: React.FC<{ selectedCrop: string }> = ({ selecte
         </div>
         <div className="bg-slate-800 p-2.5 rounded border border-slate-700">
           <div className="text-xs text-slate-400">Annual Rainfall</div>
-          <div className="text-sm font-bold text-cyan-300 mt-1">{current.rain}</div>
+          <div className="text-sm font-bold text-gold-300 mt-1">{current.rain}</div>
         </div>
         <div className="bg-slate-800 p-2.5 rounded border border-slate-700">
           <div className="text-xs text-slate-400">Soil Requirement</div>
@@ -1530,7 +1530,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
             <span className="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-semibold px-2.5 py-0.5 rounded-full">
               ISC / CBSE Class 12 Geography
             </span>
-            <span className="bg-blue-500/20 text-blue-400 border border-blue-500/30 text-xs font-semibold px-2.5 py-0.5 rounded-full">
+            <span className="bg-gold-500/20 text-gold-400 border border-gold-500/30 text-xs font-semibold px-2.5 py-0.5 rounded-full">
               Chapter 3: Land Resources & Agriculture
             </span>
           </div>
@@ -1803,7 +1803,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
                       <span className="text-slate-300">Rabi Season Sown Area</span>
-                      <span className="text-blue-400 font-bold">{rabiSownArea} M ha</span>
+                      <span className="text-gold-400 font-bold">{rabiSownArea} M ha</span>
                     </div>
                     <input
                       type="range"
@@ -1814,7 +1814,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
                         audioManager.play('tap');
                         setRabiSownArea(parseInt(e.target.value));
                       }}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1899,7 +1899,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
                         setFarmingType('wetland');
                       }}
                       className={`flex-1 py-2 text-xs font-bold rounded-lg border ${
-                        farmingType === 'wetland' ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                        farmingType === 'wetland' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
                       Wetland Farming (&gt;75 cm)
@@ -1919,7 +1919,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs font-semibold mb-1">
                       <span className="text-slate-300">Irrigation Coverage (%)</span>
-                      <span className="text-cyan-400 font-bold">{irrigationLevel}%</span>
+                      <span className="text-gold-400 font-bold">{irrigationLevel}%</span>
                     </div>
                     <input
                       type="range"
@@ -1930,7 +1930,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
                         audioManager.play('tap');
                         setIrrigationLevel(parseInt(e.target.value));
                       }}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -2132,7 +2132,7 @@ export default function C12_GeoLandResourcesAgricultureCBSESim() {
                   <span
                     className={`text-xs font-extrabold uppercase px-3 py-1 rounded-full border ${
                       activeChallenge.difficulty === 'foundation'
-                        ? 'bg-blue-950 text-blue-300 border-blue-700'
+                        ? 'bg-gold-950 text-gold-300 border-gold-700'
                         : activeChallenge.difficulty === 'standard'
                         ? 'bg-amber-950 text-amber-300 border-amber-700'
                         : 'bg-rose-950 text-rose-300 border-rose-700'

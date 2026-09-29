@@ -11,7 +11,7 @@ export const w_c8_mathematicsexponentsandpowerssim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Multiplying Powers with Different Bases: am x bm = (ab)m',
     chapters: [],
     nodeIds: ['c8_math_ch2_10', 'c8_math_ch2_11', 'c8_math_ch2_12', 'c8_math_ch2_3', 'c8_math_ch2_4', 'c8_math_ch2_5', 'c8_math_ch2_7', 'c8_math_ch2_8', 'c8_math_ch2_9', 'c8_math_ch13_6', 'c8_math_ch3_5', 'c8_math_ch2_1', 'c8_math_ch2_2', 'c8_math_ch2_6', 'c8_math_ch13_2'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying 3 boxes of pencils and 3 boxes of pens.', goal: 'Master Multiplying Powers with Different Bases: am x bm = (ab)m.' },
     discovery: {
         question: 'What is the sign of \\((-7)^{12}\\)? Explain your reasoning in one sentence without calculating the actual value.',
@@ -20,7 +20,7 @@ export const w_c8_mathematicsexponentsandpowerssim: SimDef = {
         hook: 'Students frequently confuse \\((-a)^n\\) with \\(-a^n\\). For example, they evaluate \\((-3)^2\\) as \\(-9\\) (treating it as.',
     },
     teaching: [
-        { title: 'When two powers have the same exponent but.', text: 'When two powers have the same exponent but different bases, their product equals the product of the bases raised to that common exponent.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'When two powers have the same exponent but.', text: 'When two powers have the same exponent but different bases, their product equals the product of the bases raised to that common exponent.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch2_10', title: 'When two powers have the same exponent.',

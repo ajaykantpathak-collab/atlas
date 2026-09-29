@@ -11,7 +11,7 @@ export const w_c11_biotechnologychromatographyexchangepapersim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Chromatography: Gel Filtration and Ion Exchange',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_12_004', 'c11_biotech_cbse_03_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you have a crude bacterial lysate containing your target protein (50 kDa, pI 6.5) mixed with larger.', goal: 'Master Chromatography: Gel Filtration and Ion Exchange.' },
     discovery: {
         question: 'A mixture contains Protein A (pI 4.5), Protein B (pI 7.0), and Protein C (pI 9.5).',
@@ -20,7 +20,7 @@ export const w_c11_biotechnologychromatographyexchangepapersim: SimDef = {
         hook: 'Students consistently confuse "molecular weight" with "hydrodynamic size" in gel filtration, believing a 100 kDa.',
     },
     teaching: [
-        { title: 'Chromatography is a separation technique.', text: 'Chromatography is a separation technique where components of a mixture are distributed between a mobile phase (liquid/gas) and a stationary phase (solid/gel) such that each component migrates at a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Chromatography is a separation technique.', text: 'Chromatography is a separation technique where components of a mixture are distributed between a mobile phase (liquid/gas) and a stationary phase (solid/gel) such that each component migrates at a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_12_004', title: 'Chromatography is a separation.',

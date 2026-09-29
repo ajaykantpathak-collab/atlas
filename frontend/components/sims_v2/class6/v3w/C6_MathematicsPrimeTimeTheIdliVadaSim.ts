@@ -11,7 +11,7 @@ export const w_c6_mathematicsprimetimetheidlivadasim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Factors and Multiples',
     chapters: [],
     nodeIds: ['c6_math_ch01_013', 'c6_math_ch01_014', 'c6_math_ch01_015', 'c6_math_ch01_001', 'c6_math_ch01_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you have 12 chocolate bars to share equally among friends.', goal: 'Master Factors and Multiples.' },
     discovery: {
         question: 'Compare the rules for 2 and 5. What do they have in common?',
@@ -20,7 +20,7 @@ export const w_c6_mathematicsprimetimetheidlivadasim: SimDef = {
         hook: 'Students often try to apply the "last digit" rule (used for 2 and 5) to the number 3.',
     },
     teaching: [
-        { title: 'A factor is a whole number that divides.', text: 'A factor is a whole number that divides another number exactly, leaving no remainder. A multiple is the product obtained when you multiply a given whole number by any other whole number.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A factor is a whole number that divides.', text: 'A factor is a whole number that divides another number exactly, leaving no remainder. A multiple is the product obtained when you multiply a given whole number by any other whole number.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch01_013', title: 'A factor is a whole number that divides.',

@@ -11,7 +11,7 @@ export const w_c6_scienceseparationofsubstancessim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Chemical Changes: New Substances Are Born',
     chapters: [],
     nodeIds: ['c6_chemistry_ch05_002', 'c6_chemistry_ch04_001', 'c6_chemistry_ch04_002', 'c6_chemistry_ch04_003', 'c6_chemistry_ch04_009', 'c6_physics_ch02_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a piece of paper turns into ash when it burns, but simply turns into smaller.', goal: 'Master Chemical Changes: New Substances Are Born.' },
     discovery: {
         question: 'What are the two essential characteristics that define anything as "matter"?',
@@ -20,7 +20,7 @@ export const w_c6_scienceseparationofsubstancessim: SimDef = {
         hook: 'Students often confuse "transparent" with "colorless." They might think a colored glass is opaque because it isn\'t.',
     },
     teaching: [
-        { title: 'A chemical change is a process in which one.', text: 'A chemical change is a process in which one or more substances undergo a transformation to create entirely new substances with different properties.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A chemical change is a process in which one.', text: 'A chemical change is a process in which one or more substances undergo a transformation to create entirely new substances with different properties.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_chemistry_ch05_002', title: 'A chemical change is a process in which.',

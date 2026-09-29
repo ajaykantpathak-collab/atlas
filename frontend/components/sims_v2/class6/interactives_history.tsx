@@ -11,7 +11,7 @@ export function DynastyTree() {
     const dynasties = [
         { id: 'mamluk', name: 'Mamluk (Slave)', year: '1206', color: 'bg-red-500' },
         { id: 'khalji', name: 'Khalji', year: '1290', color: 'bg-amber-500' },
-        { id: 'tughlaq', name: 'Tughlaq', year: '1320', color: 'bg-blue-500' },
+        { id: 'tughlaq', name: 'Tughlaq', year: '1320', color: 'bg-gold-500' },
         { id: 'sayyid', name: 'Sayyid', year: '1414', color: 'bg-purple-500' },
         { id: 'lodi', name: 'Lodi', year: '1451', color: 'bg-emerald-500' },
     ];
@@ -53,7 +53,7 @@ export function DynastyTree() {
                     const d = dynasties.find(x => x.id === did)!;
                     return (
                         <button key={did} onClick={() => place(did)}
-                            className="px-3 py-2 rounded-xl bg-white border-2 border-gray-300 font-bold text-sm shadow hover:border-blue-400">
+                            className="px-3 py-2 rounded-xl bg-white border-2 border-gray-300 font-bold text-sm shadow hover:border-gold-400">
                             {d.name} ({d.year})
                         </button>
                     );
@@ -119,7 +119,7 @@ export function VijayanagaraMap() {
             <div className="flex flex-wrap gap-2 justify-center">
                 {locations.filter(l => !placed[l.id]).map(l => (
                     <button key={l.id} onClick={() => setSelected(l.id)}
-                        className={`px-3 py-2 rounded-xl font-bold text-sm shadow ${selected === l.id ? 'bg-blue-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
+                        className={`px-3 py-2 rounded-xl font-bold text-sm shadow ${selected === l.id ? 'bg-gold-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
                         {l.emoji} {l.label}
                     </button>
                 ))}
@@ -159,7 +159,7 @@ export function TradeRouteMap() {
                         }
                     }}
                         className={`p-3 rounded-2xl border-2 cursor-pointer transition-all
-                            ${matched[r.id] ? 'bg-emerald-100 border-emerald-400' : selected === r.id ? 'bg-blue-100 border-blue-500 scale-105' : 'bg-white border-gray-300'}`}>
+                            ${matched[r.id] ? 'bg-emerald-100 border-emerald-400' : selected === r.id ? 'bg-gold-100 border-gold-500 scale-105' : 'bg-white border-gray-300'}`}>
                         <div className="font-bold text-sm text-gray-700">{r.from} → {r.to}</div>
                         <div className="text-xs text-gray-500">{r.explorer} ({r.year})</div>
                         {matched[r.id] && <div className="text-emerald-600 text-xs font-bold mt-1">✓ Matched!</div>}
@@ -206,7 +206,7 @@ export function FreedomLeaderMatcher() {
                     {leaders.filter(l => !matched[l.id]).map(l => (
                         <button key={l.id} onClick={() => setSelLeader(l.id)}
                             className={`w-full px-3 py-2 rounded-xl font-bold text-sm shadow text-left
-                                ${selLeader === l.id ? 'bg-blue-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
+                                ${selLeader === l.id ? 'bg-gold-500 text-white' : 'bg-white border-2 border-gray-300'}`}>
                             {l.emoji} {l.name}
                         </button>
                     ))}

@@ -45,7 +45,7 @@ export function C9_MathematicsOrientingYourselfTheUseOfSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Mathematics - Coordinate Geometry</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Mathematics - Coordinate Geometry</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Orienting Yourself: The Use of Coordinates</h1>
         </div>
         <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-950 border border-emerald-700 text-emerald-300">
@@ -58,18 +58,18 @@ export function C9_MathematicsOrientingYourselfTheUseOfSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>x-coordinate</span>
-            <span className="text-indigo-300 font-mono font-bold">{px}</span>
+            <span className="text-gold-300 font-mono font-bold">{px}</span>
           </label>
           <input type="range" min={-8} max={8} value={px} aria-label="x coordinate"
-            onChange={(e) => setPx(Number(e.target.value))} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => setPx(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>y-coordinate</span>
-            <span className="text-sky-300 font-mono font-bold">{py}</span>
+            <span className="text-gold-300 font-mono font-bold">{py}</span>
           </label>
           <input type="range" min={-8} max={8} value={py} aria-label="y coordinate"
-            onChange={(e) => setPy(Number(e.target.value))} className="w-full mt-2 accent-sky-500" />
+            onChange={(e) => setPy(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
         </div>
         <button
           onClick={() => setShowTriangle(!showTriangle)}
@@ -141,10 +141,10 @@ export function C9_MathematicsOrientingYourselfTheUseOfSim() {
         {/* READOUTS */}
         <div className="md:col-span-2 space-y-3">
           <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 space-y-1 text-sm">
-            <p className="text-xs uppercase font-bold text-indigo-400 tracking-wider">Position report</p>
+            <p className="text-xs uppercase font-bold text-gold-400 tracking-wider">Position report</p>
             <p className="text-slate-300">Location: <span className="font-bold text-white">{quadrant}</span></p>
             <p className="font-mono text-xs text-slate-400">
-              Distance to O: sqrt({px}^2 + {py}^2) = sqrt({px * px + py * py}) = <span className="text-indigo-300 font-bold">{dOrigin.toFixed(2)}</span>
+              Distance to O: sqrt({px}^2 + {py}^2) = sqrt({px * px + py * py}) = <span className="text-gold-300 font-bold">{dOrigin.toFixed(2)}</span>
             </p>
             <p className="font-mono text-xs text-slate-400">
               To target: sqrt({Math.abs(dx)}^2 + {Math.abs(dy)}^2) = <span className="text-amber-300 font-bold">{dTarget.toFixed(2)}</span>
@@ -163,14 +163,14 @@ export function C9_MathematicsOrientingYourselfTheUseOfSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> two numbers fix a position completely. The signs of (x, y) tell you the
+          <span className="font-bold text-gold-300">Big idea:</span> two numbers fix a position completely. The signs of (x, y) tell you the
           quadrant, the axes act as mirrors for reflections, and any gap between two points splits into a horizontal run plus a vertical rise,
           which is all Pythagoras needs to measure the straight-line distance.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Park P at (2, 3), request a new target, and reach it using only reflection buttons - name the rule for each move.</p>
         <p className="mt-1">2. Find a point whose distance from the origin is exactly 5 (there are several integer answers, like (3, 4)).</p>

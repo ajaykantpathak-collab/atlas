@@ -11,7 +11,7 @@ export const w_c11_geographyoceanwatersalinitysim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Evolution of the Hydrosphere and Formation of Oceans',
     chapters: [],
     nodeIds: ['c11_geo_cbse_02_007', 'c11_geo_cbse_12_005', 'c11_geo_cbse_07_004', 'c11_geo_cbse_11_003', 'c11_geo_cbse_02_005', 'c11_geo_cbse_02_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a glass of cold water on a hot Indian summer day — water droplets form on the outside.', goal: 'Master Evolution of the Hydrosphere and Formation of Oceans.' },
     discovery: {
         question: 'Explain why the early oceans were likely more acidic and less saline than modern oceans, linking this to the composition of the primordial atmosphere and the.',
@@ -20,7 +20,7 @@ export const w_c11_geographyoceanwatersalinitysim: SimDef = {
         hook: 'Students often believe oceans formed primarily from comet impacts ("Earth\'s water came from space") and that ocean.',
     },
     teaching: [
-        { title: 'The evolution of the hydrosphere refers to.', text: 'The evolution of the hydrosphere refers to the geological process by which water vapor released through volcanic degassing and delivered by cometary impacts condensed into liquid water as Earth.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The evolution of the hydrosphere refers to.', text: 'The evolution of the hydrosphere refers to the geological process by which water vapor released through volcanic degassing and delivered by cometary impacts condensed into liquid water as Earth.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_02_007', title: 'The evolution of the hydrosphere refers.',

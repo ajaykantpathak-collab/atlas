@@ -432,7 +432,7 @@ const CrystalTypeVisualizer: React.FC<{ type: 'crystalline' | 'amorphous' }> = (
 
   return (
     <div className="w-full h-64 bg-slate-900 rounded-xl p-4 flex flex-col items-center justify-center relative overflow-hidden border border-slate-700">
-      <div className="absolute top-3 left-3 bg-slate-800 text-xs px-2 py-1 rounded text-cyan-400 font-mono">
+      <div className="absolute top-3 left-3 bg-slate-800 text-xs px-2 py-1 rounded text-gold-400 font-mono">
         {type === 'crystalline' ? 'Long-Range Order (Anisotropic)' : 'Short-Range Disorder (Isotropic)'}
       </div>
       <svg className="w-full h-48" viewBox="0 0 340 220">
@@ -725,7 +725,7 @@ const RaoultGraphVisualizer: React.FC<{ xA: number }> = ({ xA }) => {
 
   return (
     <div className="w-full h-64 bg-slate-900 rounded-xl p-4 flex flex-col items-center justify-center relative border border-slate-700">
-      <div className="absolute top-3 left-3 bg-slate-800 text-xs px-2 py-1 rounded text-cyan-400 font-mono">
+      <div className="absolute top-3 left-3 bg-slate-800 text-xs px-2 py-1 rounded text-gold-400 font-mono">
         Vapour Pressure vs Mole Fraction (Ideal Solution)
       </div>
       <svg className="w-full h-48" viewBox="0 0 340 190">
@@ -761,7 +761,7 @@ const RaoultGraphVisualizer: React.FC<{ xA: number }> = ({ xA }) => {
         <text x="295" y="25" textAnchor="start" fill="#38bdf8" fontSize="10">pA° = 100</text>
       </svg>
       <div className="text-xs text-slate-300 font-mono mt-1 flex gap-4">
-        <span className="text-sky-400">pA = {pA.toFixed(1)} mmHg</span>
+        <span className="text-gold-400">pA = {pA.toFixed(1)} mmHg</span>
         <span className="text-rose-400">pB = {pB.toFixed(1)} mmHg</span>
         <span className="text-emerald-400 font-bold">pTotal = {pTotal.toFixed(1)} mmHg</span>
       </div>
@@ -955,7 +955,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
       <header className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 bg-slate-900 border border-slate-800 p-4 rounded-2xl shadow-xl mb-6">
         <div>
           <div className="flex items-center gap-2">
-            <span className="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-2.5 py-1 rounded-full border border-cyan-500/30">
+            <span className="bg-gold-500/20 text-gold-400 text-xs font-bold px-2.5 py-1 rounded-full border border-gold-500/30">
               ISC Class 12 Chemistry
             </span>
             <span className="text-slate-400 text-xs font-mono">10 Key Syllabus Nodes</span>
@@ -969,7 +969,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
         <div className="flex items-center gap-6 bg-slate-950/80 px-4 py-2 rounded-xl border border-slate-800">
           <div className="text-center">
             <div className="text-xs text-slate-400 font-medium">BKT Mastery</div>
-            <div className="text-lg font-bold text-cyan-400">{overallMastery}%</div>
+            <div className="text-lg font-bold text-gold-400">{overallMastery}%</div>
           </div>
           <div className="w-px h-8 bg-slate-800" />
           <div className="text-center">
@@ -996,7 +996,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
             }}
             className={`px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20 font-bold'
+                ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/20 font-bold'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
             }`}
           >
@@ -1018,7 +1018,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
               className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8"
             >
               <div className="max-w-3xl mx-auto">
-                <span className="text-cyan-400 text-xs font-bold uppercase tracking-wider font-mono">
+                <span className="text-gold-400 text-xs font-bold uppercase tracking-wider font-mono">
                   Predict Before You Learn
                 </span>
                 <h2 className="text-2xl font-bold text-slate-100 mt-2 mb-4">
@@ -1054,7 +1054,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-6 p-4 rounded-xl bg-slate-950 border border-slate-800"
                   >
-                    <div className="font-bold text-sm mb-1 text-cyan-400">Scientific Insight:</div>
+                    <div className="font-bold text-sm mb-1 text-gold-400">Scientific Insight:</div>
                     <p className="text-xs text-slate-300 leading-relaxed">
                       {DISCOVERY_QUESTION.options.find((o) => o.id === selectedDiscoveryOpt)?.explanation}
                     </p>
@@ -1063,7 +1063,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                         setActiveTab('teach');
                         audioManager.play('whoosh');
                       }}
-                      className="mt-4 px-5 py-2.5 bg-cyan-500 text-slate-950 rounded-lg text-xs font-bold hover:bg-cyan-400 transition-all"
+                      className="mt-4 px-5 py-2.5 bg-gold-500 text-slate-950 rounded-lg text-xs font-bold hover:bg-gold-400 transition-all"
                     >
                       Continue to Teaching Deck →
                     </button>
@@ -1091,7 +1091,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                         <button
                           onClick={() => setCrystalType('crystalline')}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                            crystalType === 'crystalline' ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                            crystalType === 'crystalline' ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Crystalline (Quartz/Mica)
@@ -1117,7 +1117,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                             key={t}
                             onClick={() => setCellType(t)}
                             className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                              cellType === t ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                              cellType === t ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                             }`}
                           >
                             {t} Unit Cell
@@ -1181,9 +1181,9 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           step="0.05"
                           value={moleFractionA}
                           onChange={(e) => setMoleFractionA(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
-                        <span className="text-xs font-bold text-cyan-400 font-mono">{moleFractionA.toFixed(2)}</span>
+                        <span className="text-xs font-bold text-gold-400 font-mono">{moleFractionA.toFixed(2)}</span>
                       </div>
                       <RaoultGraphVisualizer xA={moleFractionA} />
                     </div>
@@ -1194,7 +1194,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                 <div className="lg:col-span-6 flex flex-col justify-between bg-slate-950 border border-slate-800 p-6 rounded-xl">
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-bold text-cyan-400 uppercase font-mono">
+                      <span className="text-xs font-bold text-gold-400 uppercase font-mono">
                         Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                       </span>
                       <span className="text-xs bg-slate-900 border border-slate-800 px-2.5 py-1 rounded text-slate-400 font-mono">
@@ -1205,7 +1205,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                     <h3 className="text-xl font-bold text-slate-100 mb-1">
                       {TEACHING_SLIDES[currentSlideIndex].title}
                     </h3>
-                    <p className="text-xs text-cyan-300 font-medium mb-4">
+                    <p className="text-xs text-gold-300 font-medium mb-4">
                       {TEACHING_SLIDES[currentSlideIndex].subtitle}
                     </p>
 
@@ -1218,7 +1218,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                     </div>
 
                     {TEACHING_SLIDES[currentSlideIndex].keyFormula && (
-                      <div className="bg-cyan-950/40 border border-cyan-800/60 p-3 rounded-lg text-center font-mono text-sm text-cyan-300 font-bold mb-4">
+                      <div className="bg-gold-950/40 border border-gold-800/60 p-3 rounded-lg text-center font-mono text-sm text-gold-300 font-bold mb-4">
                         Key Equation: {TEACHING_SLIDES[currentSlideIndex].keyFormula}
                       </div>
                     )}
@@ -1249,7 +1249,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           audioManager.play('whoosh');
                         }
                       }}
-                      className="px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 text-xs font-bold hover:bg-cyan-400"
+                      className="px-4 py-2 rounded-lg bg-gold-500 text-slate-950 text-xs font-bold hover:bg-gold-400"
                     >
                       {currentSlideIndex < TEACHING_SLIDES.length - 1 ? 'Next Slide →' : 'Enter Interactive Lab →'}
                     </button>
@@ -1283,7 +1283,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                       audioManager.play('tap');
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                      sandboxMode === m.id ? 'bg-cyan-500 text-slate-950' : 'bg-slate-950 text-slate-400 hover:bg-slate-800'
+                      sandboxMode === m.id ? 'bg-gold-500 text-slate-950' : 'bg-slate-950 text-slate-400 hover:bg-slate-800'
                     }`}
                   >
                     {m.label}
@@ -1302,7 +1302,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                             key={t}
                             onClick={() => setCellType(t)}
                             className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                              cellType === t ? 'bg-cyan-500 text-slate-950' : 'bg-slate-950 text-slate-400'
+                              cellType === t ? 'bg-gold-500 text-slate-950' : 'bg-slate-950 text-slate-400'
                             }`}
                           >
                             {t} Unit Cell
@@ -1353,17 +1353,17 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
 
                   {sandboxMode === 'solutions' && (
                     <div className="w-full h-64 bg-slate-950 rounded-xl p-6 border border-slate-800 flex flex-col justify-between">
-                      <div className="text-xs font-bold text-cyan-400 uppercase font-mono">
+                      <div className="text-xs font-bold text-gold-400 uppercase font-mono">
                         Virtual Solution Beaker Visualizer
                       </div>
                       <div className="flex items-center justify-around my-4">
                         {/* Solute Particles */}
                         <div className="w-28 h-36 bg-slate-900 border-2 border-slate-700 rounded-b-2xl relative overflow-hidden flex flex-col justify-end p-2">
                           <div
-                            className="w-full bg-cyan-500/30 rounded-b-xl transition-all duration-300"
+                            className="w-full bg-gold-500/30 rounded-b-xl transition-all duration-300"
                             style={{ height: `${Math.min(100, (solutionVolumemL / 500) * 100)}%` }}
                           />
-                          <div className="absolute inset-0 flex items-center justify-center font-bold text-xs text-cyan-300">
+                          <div className="absolute inset-0 flex items-center justify-center font-bold text-xs text-gold-300">
                             {soluteMassGrams}g Solute
                           </div>
                         </div>
@@ -1376,7 +1376,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           </div>
                           <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800">
                             <span className="text-slate-400">Molality (m):</span>{' '}
-                            <span className="text-cyan-400 font-bold">{calculatedMolality} mol/kg</span>
+                            <span className="text-gold-400 font-bold">{calculatedMolality} mol/kg</span>
                           </div>
                         </div>
                       </div>
@@ -1394,9 +1394,9 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           step="0.05"
                           value={moleFractionA}
                           onChange={(e) => setMoleFractionA(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
-                        <span className="text-xs font-bold text-cyan-400 font-mono">{moleFractionA.toFixed(2)}</span>
+                        <span className="text-xs font-bold text-gold-400 font-mono">{moleFractionA.toFixed(2)}</span>
                       </div>
                       <RaoultGraphVisualizer xA={moleFractionA} />
                     </div>
@@ -1411,7 +1411,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                     <div className="space-y-2 font-mono text-slate-300">
                       <div>
                         Selected Unit Cell:{' '}
-                        <span className="text-cyan-400 font-bold">
+                        <span className="text-gold-400 font-bold">
                           {cellType === 'SC' ? 'Simple Cubic' : cellType === 'BCC' ? 'Body-Centred Cubic' : 'Face-Centred Cubic'}
                         </span>
                       </div>
@@ -1424,7 +1424,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
 
                   {sandboxMode === 'defects' && (
                     <div className="space-y-2 text-slate-300">
-                      <div className="font-bold text-cyan-400 capitalize">{defectType} Defect Summary:</div>
+                      <div className="font-bold text-gold-400 capitalize">{defectType} Defect Summary:</div>
                       {defectType === 'schottky' && (
                         <p>Equal cation-anion missing pairs. Density DECREASES. Common in ionic solids with similar cation/anion sizes (NaCl, KCl).</p>
                       )}
@@ -1445,7 +1445,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           max="100"
                           value={soluteMassGrams}
                           onChange={(e) => setSoluteMassGrams(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1457,7 +1457,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           step="50"
                           value={solutionVolumemL}
                           onChange={(e) => setSolutionVolumemL(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1469,7 +1469,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                           step="50"
                           value={solventMassGrams}
                           onChange={(e) => setSolventMassGrams(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1477,7 +1477,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
 
                   {sandboxMode === 'raoult' && (
                     <div className="space-y-2 text-slate-300 text-xs">
-                      <p className="font-bold text-cyan-400">Raoult&apos;s Law Principles:</p>
+                      <p className="font-bold text-gold-400">Raoult&apos;s Law Principles:</p>
                       <p>1. Partial pressure of volatile component pA = xA · pA°.</p>
                       <p>2. Total vapour pressure pTotal = xA · pA° + (1-xA) · pB°.</p>
                       <p>3. Relative lowering for non-volatile solute: (p1° - p) / p1° = x2.</p>
@@ -1501,7 +1501,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                 {/* Challenge Header */}
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <span className="text-xs font-bold text-cyan-400 uppercase font-mono">
+                    <span className="text-xs font-bold text-gold-400 uppercase font-mono">
                       Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                     </span>
                     <span className="ml-2 text-xs bg-slate-800 border border-slate-700 px-2 py-0.5 rounded text-slate-400 font-mono">
@@ -1578,7 +1578,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
                   <div className="flex justify-end">
                     <button
                       onClick={handleNextChallenge}
-                      className="px-6 py-2.5 bg-cyan-500 text-slate-950 font-bold rounded-xl text-xs hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-500/20"
+                      className="px-6 py-2.5 bg-gold-500 text-slate-950 font-bold rounded-xl text-xs hover:bg-gold-400 transition-all shadow-lg shadow-gold-500/20"
                     >
                       {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete All Challenges!'}
                     </button>
@@ -1599,7 +1599,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
             >
               <div className="max-w-4xl mx-auto space-y-6">
                 <div>
-                  <span className="text-cyan-400 text-xs font-bold uppercase font-mono">
+                  <span className="text-gold-400 text-xs font-bold uppercase font-mono">
                     Indian Context & Industrial Applications
                   </span>
                   <h2 className="text-2xl font-bold text-slate-100 mt-1">
@@ -1609,7 +1609,7 @@ export function C12_ChemistrySolidstatecharacteristicsSim() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-slate-950 border border-slate-800 p-5 rounded-xl space-y-2">
-                    <h3 className="text-sm font-bold text-cyan-400">1. Koderma Mica Mines (Jharkhand)</h3>
+                    <h3 className="text-sm font-bold text-gold-400">1. Koderma Mica Mines (Jharkhand)</h3>
                     <p className="text-xs text-slate-300 leading-relaxed">
                       Crystalline mica cleaves along thin hexagonal planes due to anisotropic bonding forces (strong covalent within sheets, weak van der Waals between layers).
                     </p>

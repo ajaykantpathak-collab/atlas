@@ -11,7 +11,7 @@ export const w_c8_physicselectricitymagneticheatingcbsesim: SimDef = {
     classLevel: 8, subject: 'physics', topic: 'Applications of Heating Effect: Electric Heater, Iron, Bulb',
     chapters: [],
     nodeIds: ['c8_physics_ch2_8', 'c8_physics_ch2_1', 'c8_physics_ch2_3', 'c8_physics_ch2_4', 'c8_physics_ch2_5', 'c8_physics_ch2_10', 'c8_physics_ch2_6', 'c8_physics_ch2_7', 'c8_physics_ch2_9', 'c8_physics_ch2_2', 'c8_physics_ch2_11', 'c8_physics_ch3_8', 'c8_physics_ch1_3'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Observe a room heater glowing red in winter or an electric iron pressing clothes – both get hot because.', goal: 'Master Applications of Heating Effect: Electric Heater, Iron, Bulb.' },
     discovery: {
         question: 'Name the material commonly used for the heating element in an electric iron and state ONE property that makes it suitable.',
@@ -20,7 +20,7 @@ export const w_c8_physicselectricitymagneticheatingcbsesim: SimDef = {
         hook: 'Students think "thicker wire produces more heat because it has more material" – they confuse the heating element (thin,.',
     },
     teaching: [
-        { title: 'The heating effect of electric current is.', text: 'The heating effect of electric current is utilized in appliances like electric heaters, irons, and incandescent bulbs where electrical energy is converted into heat energy (and light in bulbs) by.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The heating effect of electric current is.', text: 'The heating effect of electric current is utilized in appliances like electric heaters, irons, and incandescent bulbs where electrical energy is converted into heat energy (and light in bulbs) by.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch2_8', title: 'The heating effect of electric current.',

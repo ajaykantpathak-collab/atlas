@@ -11,11 +11,11 @@ export const w_c7_geographytopographicalmapsintroductionsim: SimDef = {
     classLevel: 7, subject: 'geography', topic: 'Physical Divisions of India: Mountains, Plains, Plateaus',
     chapters: [],
     nodeIds: ['c7_geo_ch01_003', 'c7_geo_ch01_006', 'c7_geo_ch05_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you look at a relief map of India, you notice that the country is not a single uniform surface; it.', goal: 'Master Physical Divisions of India: Mountains, Plains, Plateaus.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The physical divisions of India refer to the.', text: 'The physical divisions of India refer to the broad structural landform units—namely the Northern Mountains, the Northern Plains, the Peninsular Plateau, the Indian Desert, the Coastal Plains, and the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The physical divisions of India refer to the.', text: 'The physical divisions of India refer to the broad structural landform units—namely the Northern Mountains, the Northern Plains, the Peninsular Plateau, the Indian Desert, the Coastal Plains, and the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_geo_ch01_003', title: 'The physical divisions of India refer.',

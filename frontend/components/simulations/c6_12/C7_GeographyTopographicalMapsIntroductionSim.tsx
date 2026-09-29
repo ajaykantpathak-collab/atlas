@@ -1208,7 +1208,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
             animate={{ scale: 1, opacity: 1 }}
             className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider border ${
               difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-300 border-emerald-700' :
-              difficulty === 'standard' ? 'bg-indigo-950 text-indigo-300 border-indigo-700' :
+              difficulty === 'standard' ? 'bg-gold-950 text-gold-300 border-gold-700' :
               'bg-amber-950 text-amber-300 border-amber-700'
             }`}
           >
@@ -1227,14 +1227,14 @@ function C7_GeographyTopographicalMapsIntroductionSim({
           animate={{ opacity: 1, scale: 1 }}
           className="space-y-6"
         >
-          <div className="p-5 sm:p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80 shadow-lg">
-            <h3 className="text-lg sm:text-xl font-bold text-indigo-300 mb-2 flex items-center gap-2">
+          <div className="p-5 sm:p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 shadow-lg">
+            <h3 className="text-lg sm:text-xl font-bold text-gold-300 mb-2 flex items-center gap-2">
               🧭 {SCENARIO.title}
             </h3>
             <p className="text-sm sm:text-base text-slate-200 leading-relaxed">
               {SCENARIO.intro}
             </p>
-            <p className="text-xs sm:text-sm text-indigo-200/80 mt-2 font-medium">
+            <p className="text-xs sm:text-sm text-gold-200/80 mt-2 font-medium">
               📍 {SCENARIO.context}
             </p>
           </div>
@@ -1259,10 +1259,10 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                      : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {option}
                 </motion.button>
               ))}
@@ -1392,8 +1392,8 @@ function C7_GeographyTopographicalMapsIntroductionSim({
 
                     {/* Predict-then-check mini hook */}
                     {!predictionMade && (
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-900/60">
-                        <p className="text-xs text-indigo-300 font-bold mb-2">
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/60">
+                        <p className="text-xs text-gold-300 font-bold mb-2">
                           🔍 Predict-Then-Check: {PREDICTION_QUESTIONS[0].question}
                         </p>
                         <div className="space-y-1.5">
@@ -1413,7 +1413,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                     )}
 
                     {predictionMade && (
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-700 text-xs text-slate-300">
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-700 text-xs text-slate-300">
                         <p className="font-bold text-emerald-400">✓ Prediction Verified:</p>
                         <p className="mt-1">
                           Notice on the 2D map how contour spacing directly shrinks when you increase steepness to {hillSlope}°.
@@ -1511,7 +1511,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                         fill="none"
                         stroke="#0284c7"
                         strokeWidth="8"
-                        className="cursor-pointer hover:stroke-cyan-400 transition-colors"
+                        className="cursor-pointer hover:stroke-gold-400 transition-colors"
                         onClick={() => {
                           setSelectedMapFeature('river');
                           audioManager.play('tap');
@@ -1586,8 +1586,8 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                     )}
                     {selectedMapFeature === 'river' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
-                        <div className="w-6 h-6 rounded-md bg-sky-600 border border-sky-400" />
-                        <p className="text-xs font-bold text-sky-300">BLUE = Water Bodies</p>
+                        <div className="w-6 h-6 rounded-md bg-gold-600 border border-gold-400" />
+                        <p className="text-xs font-bold text-gold-300">BLUE = Water Bodies</p>
                         <p className="text-xs text-slate-300">
                           Solid blue lines denote perennial flowing rivers; dashed lines denote seasonal streams; circles mark lined wells.
                         </p>
@@ -1634,7 +1634,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Current Altitude</span>
-                        <strong className="text-sky-400">{simAltitude} km above Sea Level</strong>
+                        <strong className="text-gold-400">{simAltitude} km above Sea Level</strong>
                       </div>
                       <input
                         type="range"
@@ -1647,7 +1647,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                           audioManager.play('count');
                         }}
                         aria-label="Set atmospheric sounding altitude"
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1670,8 +1670,8 @@ function C7_GeographyTopographicalMapsIntroductionSim({
 
                     {/* Observation Question */}
                     {!observationAnswered && (
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-900">
-                        <p className="text-xs text-indigo-300 font-bold mb-2">
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-900">
+                        <p className="text-xs text-gold-300 font-bold mb-2">
                           🧐 {OBSERVATION_QUESTIONS[0].question}
                         </p>
                         <div className="space-y-1">
@@ -1760,7 +1760,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Atmospheric Pressure (Barometer)</span>
-                        <strong className="text-sky-400">{simPressure} mb (Normal: 1013 mb)</strong>
+                        <strong className="text-gold-400">{simPressure} mb (Normal: 1013 mb)</strong>
                       </div>
                       <input
                         type="range"
@@ -1772,14 +1772,14 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                           audioManager.play('count');
                         }}
                         aria-label="Set atmospheric pressure"
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Absolute Moisture Content</span>
-                        <strong className="text-cyan-400">{simMoisture} g/m³</strong>
+                        <strong className="text-gold-400">{simMoisture} g/m³</strong>
                       </div>
                       <input
                         type="range"
@@ -1791,20 +1791,20 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                           audioManager.play('count');
                         }}
                         aria-label="Set absolute moisture content"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="flex justify-between items-center">
                         <span className="text-xs font-bold text-slate-300">Relative Humidity (Hygrometer):</span>
-                        <span className={`text-base font-black ${derivedRelativeHumidity > 75 ? 'text-cyan-400' : 'text-amber-400'}`}>
+                        <span className={`text-base font-black ${derivedRelativeHumidity > 75 ? 'text-gold-400' : 'text-amber-400'}`}>
                           {derivedRelativeHumidity}%
                         </span>
                       </div>
                       <div className="w-full h-2 bg-slate-800 rounded-full mt-2 overflow-hidden">
                         <motion.div
-                          className="h-full bg-gradient-to-r from-amber-500 to-cyan-500"
+                          className="h-full bg-gradient-to-r from-amber-500 to-gold-500"
                           animate={{ width: `${derivedRelativeHumidity}%` }}
                         />
                       </div>
@@ -1883,7 +1883,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={handleTriggerFreezeThaw}
-                        className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                        className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                       >
                         ⚡ Simulate Weathering Cycle (+1 Cycle)
                       </motion.button>
@@ -1956,7 +1956,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                   >
                     Next Lab →
                   </motion.button>
@@ -2006,7 +2006,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
               </p>
             </div>
             <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-indigo-400">2. Stratospheric Ozone</span>
+              <span className="text-xs font-bold text-gold-400">2. Stratospheric Ozone</span>
               <p className="text-xs text-slate-300">
                 Ozone (O₃) sits between 15-35 km, absorbing dangerous UV rays and protecting phytoplankton and human eye lenses.
               </p>
@@ -2032,13 +2032,13 @@ function C7_GeographyTopographicalMapsIntroductionSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-indigo-300 border border-indigo-700 font-mono capitalize">
+              <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-gold-300 border border-gold-700 font-mono capitalize">
                 Competency: {currentChallengeObj.competencyLevel}
               </span>
             </div>
             <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-emerald-500 to-amber-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-emerald-500 to-amber-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2087,10 +2087,10 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                       className={`w-full text-left p-4 rounded-xl border text-sm font-medium transition-all ${
                         showExplanation && i === currentChallengeObj.correctIndex
                           ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 border-slate-700 hover:border-indigo-500 text-slate-200'
+                          : 'bg-slate-800/80 border-slate-700 hover:border-gold-500 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-3 text-indigo-400">
+                      <span className="font-bold mr-3 text-gold-400">
                         {String.fromCharCode(65 + i)}.
                       </span>
                       {option}
@@ -2113,7 +2113,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-4 py-2 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2149,7 +2149,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Colour Assignments →
                 </motion.button>
@@ -2181,7 +2181,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{displayIdx + 1}.</strong> {item}
+                        <strong className="text-gold-400 mr-2">{displayIdx + 1}.</strong> {item}
                       </span>
                       <span className="text-slate-500">≡ Drag</span>
                     </motion.div>
@@ -2192,7 +2192,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Check Layer Hierarchy →
                 </motion.button>
@@ -2208,7 +2208,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-indigo-500 focus:outline-none"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 focus:outline-none"
                   />
                   <span className="text-sm font-bold text-slate-300">
                     {currentChallengeObj.unit}
@@ -2217,7 +2217,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2236,7 +2236,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-indigo-300 rounded-lg text-xs font-semibold border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-semibold border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2247,7 +2247,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                   {constructParts.map((p, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-bold flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-950 text-gold-200 border border-gold-700 rounded-lg text-xs font-bold flex items-center gap-1.5"
                     >
                       {p}
                       <button
@@ -2267,7 +2267,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Assembled Statement →
                 </motion.button>
@@ -2341,7 +2341,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
               errors === 0
                 ? 'bg-emerald-900/80 text-emerald-300 border border-emerald-500'
                 : errors <= 3
-                ? 'bg-indigo-900/80 text-indigo-300 border border-indigo-500'
+                ? 'bg-gold-900/80 text-gold-300 border border-gold-500'
                 : errors <= 7
                 ? 'bg-amber-900/80 text-amber-300 border border-amber-500'
                 : 'bg-rose-900/80 text-rose-300 border border-rose-500'
@@ -2358,17 +2358,17 @@ function C7_GeographyTopographicalMapsIntroductionSim({
           </div>
 
           {/* SPACED REPETITION SCHEDULE VISIBILITY */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800 text-xs text-slate-300 space-y-2">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800 text-xs text-slate-300 space-y-2">
             <div className="flex items-center justify-between">
-              <h4 className="font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-1.5">
+              <h4 className="font-bold text-gold-300 uppercase tracking-wider flex items-center gap-1.5">
                 📅 Spaced Repetition Next Review (SM-2 Algorithm)
               </h4>
-              <span className="px-3 py-1 bg-indigo-900 text-indigo-200 font-bold rounded-lg border border-indigo-700">
+              <span className="px-3 py-1 bg-gold-900 text-gold-200 font-bold rounded-lg border border-gold-700">
                 Review in {srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}
               </span>
             </div>
             <p className="text-slate-300">
-              Based on your score and error count ({errors} {errors === 1 ? 'mistake' : 'mistakes'}), the spaced repetition scheduler recommends revising these concepts in <strong className="text-indigo-300 font-bold">{srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}</strong> to guarantee long-term retention.
+              Based on your score and error count ({errors} {errors === 1 ? 'mistake' : 'mistakes'}), the spaced repetition scheduler recommends revising these concepts in <strong className="text-gold-300 font-bold">{srsIntervalDays} {srsIntervalDays === 1 ? 'day' : 'days'}</strong> to guarantee long-term retention.
             </p>
           </div>
 
@@ -2395,7 +2395,7 @@ function C7_GeographyTopographicalMapsIntroductionSim({
 
           {/* Real World Capstone Assignment */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400">
               🌍 {REAL_WORLD_ACTIVITY.title}
             </h4>
             <p className="text-xs sm:text-sm text-slate-300">

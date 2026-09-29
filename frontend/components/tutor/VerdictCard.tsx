@@ -55,12 +55,12 @@ const OUTCOME_UI: Record<
   },
   self_check: {
     icon: Scale,
-    cls: "border-sky-500/30 bg-sky-500/[0.07]",
+    cls: "border-gold-500/30 bg-gold-500/[0.07]",
     label: "Compare your work",
   },
   ungraded: {
     icon: Compass,
-    cls: "border-sky-500/30 bg-sky-500/[0.07]",
+    cls: "border-gold-500/30 bg-gold-500/[0.07]",
     label: "Let's see the method",
   },
 };

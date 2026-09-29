@@ -964,13 +964,13 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
       {/* ─── HEADER BAR ─── */}
       <header className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 pb-6 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <div className="p-3 bg-cyan-500/10 border border-cyan-500/30 rounded-xl text-cyan-400">
+          <div className="p-3 bg-gold-500/10 border border-gold-500/30 rounded-xl text-gold-400">
             <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
           <div>
-            <span className="text-xs font-semibold tracking-wider text-cyan-400 uppercase">Class 7 CBSE Physics</span>
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase">Class 7 CBSE Physics</span>
             <h1 className="text-2xl font-bold tracking-tight text-white">{SCENARIO.title}</h1>
           </div>
         </div>
@@ -979,31 +979,31 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
         <nav className="flex flex-wrap items-center gap-2 bg-slate-900 p-1.5 rounded-xl border border-slate-800 text-xs md:text-sm">
           <button
             onClick={() => { setActiveTab('intro'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'intro' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'intro' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             Mission Intro
           </button>
           <button
             onClick={() => { setActiveTab('slides'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'slides' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'slides' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             Lessons
           </button>
           <button
             onClick={() => { setActiveTab('lab_pendulum'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'lab_pendulum' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'lab_pendulum' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             Pendulum Lab
           </button>
           <button
             onClick={() => { setActiveTab('lab_race'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'lab_race' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'lab_race' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             Speed Track
           </button>
           <button
             onClick={() => { setActiveTab('lab_graph'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'lab_graph' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg font-medium transition ${activeTab === 'lab_graph' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
           >
             d-t Graph Lab
           </button>
@@ -1029,22 +1029,22 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
               className="space-y-6"
             >
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-4">
-                <h2 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
-                  <span className="w-3 h-3 bg-cyan-400 rounded-full animate-ping" />
+                <h2 className="text-xl font-bold text-gold-400 flex items-center gap-2">
+                  <span className="w-3 h-3 bg-gold-400 rounded-full animate-ping" />
                   Mission Scenario
                 </h2>
                 <p className="text-slate-300 leading-relaxed text-base md:text-lg">
                   {SCENARIO.intro}
                 </p>
-                <div className="p-4 bg-slate-950 border-l-4 border-cyan-500 rounded-r-xl text-slate-400 text-sm">
+                <div className="p-4 bg-slate-950 border-l-4 border-gold-500 rounded-r-xl text-slate-400 text-sm">
                   {SCENARIO.context}
                 </div>
               </div>
 
               {/* Discovery Predict Question */}
-              <div className="bg-gradient-to-br from-slate-900 to-cyan-950/40 border border-cyan-500/30 rounded-2xl p-6 md:p-8 space-y-6 shadow-xl">
+              <div className="bg-gradient-to-br from-slate-900 to-gold-950/40 border border-gold-500/30 rounded-2xl p-6 md:p-8 space-y-6 shadow-xl">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full border border-cyan-500/30">
+                  <span className="text-xs font-semibold px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full border border-gold-500/30">
                     Predict & Explore
                   </span>
                   <span className="text-slate-400 text-xs">Diagnostic Pre-test</span>
@@ -1064,7 +1064,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                           ? idx === DISCOVERY_QUESTION.correctIndex
                             ? 'bg-emerald-900/40 border-emerald-500 text-emerald-200'
                             : 'bg-rose-900/40 border-rose-500 text-rose-200'
-                          : 'bg-slate-900/80 border-slate-800 text-slate-300 hover:border-cyan-500/50 hover:bg-slate-800/60'
+                          : 'bg-slate-900/80 border-slate-800 text-slate-300 hover:border-gold-500/50 hover:bg-slate-800/60'
                       }`}
                     >
                       <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs text-slate-400 shrink-0 mt-0.5">
@@ -1081,12 +1081,12 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                     animate={{ opacity: 1, height: 'auto' }}
                     className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 space-y-3"
                   >
-                    <p className="text-sm text-cyan-300">
+                    <p className="text-sm text-gold-300">
                       {DISCOVERY_QUESTION.hintAfter}
                     </p>
                     <button
                       onClick={() => { setActiveTab('slides'); audioManager.play('swoop'); }}
-                      className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-sm font-semibold transition flex items-center gap-2 shadow-lg"
+                      className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold transition flex items-center gap-2 shadow-lg"
                     >
                       Begin Guided Physics Lessons →
                     </button>
@@ -1107,7 +1107,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
             >
               {/* Slide Navigation Header */}
               <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
-                <span className="text-xs font-semibold text-cyan-400 tracking-wider uppercase">
+                <span className="text-xs font-semibold text-gold-400 tracking-wider uppercase">
                   Lesson {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                 </span>
                 <div className="flex gap-2">
@@ -1127,7 +1127,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                       setCurrentSlideIndex((prev) => prev + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-3 py-1.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-xs rounded-lg font-medium text-white transition"
+                    className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-xs rounded-lg font-medium text-white transition"
                   >
                     Next Lesson →
                   </button>
@@ -1140,14 +1140,14 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 return (
                   <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
                     <h2 className="text-2xl font-bold text-white">{slide.title}</h2>
-                    <div className="p-4 bg-cyan-500/10 border border-cyan-500/30 rounded-xl text-cyan-300 font-medium text-base">
+                    <div className="p-4 bg-gold-500/10 border border-gold-500/30 rounded-xl text-gold-300 font-medium text-base">
                       {slide.concept}
                     </div>
 
                     <div className="space-y-3">
                       {slide.content.map((pt, i) => (
                         <div key={i} className="flex items-start gap-3 text-slate-300 text-sm md:text-base leading-relaxed">
-                          <span className="w-2 h-2 rounded-full bg-cyan-400 shrink-0 mt-2" />
+                          <span className="w-2 h-2 rounded-full bg-gold-400 shrink-0 mt-2" />
                           <span>{pt}</span>
                         </div>
                       ))}
@@ -1156,7 +1156,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                     {slide.formula && (
                       <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-2">
                         <span className="text-xs font-semibold uppercase text-amber-400">Formula Visualization</span>
-                        <div className="text-xl md:text-2xl font-mono text-cyan-300 font-bold">
+                        <div className="text-xl md:text-2xl font-mono text-gold-300 font-bold">
                           {slide.formula}
                         </div>
                         <p className="text-xs text-slate-400">{slide.formulaMeaning}</p>
@@ -1174,7 +1174,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                     <div className="pt-4 flex flex-wrap gap-4">
                       <button
                         onClick={() => { setActiveTab('lab_pendulum'); audioManager.play('whoosh'); }}
-                        className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-sm font-semibold transition"
+                        className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold transition"
                       >
                         Try Pendulum Lab →
                       </button>
@@ -1204,10 +1204,10 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
               <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col items-center justify-between space-y-4">
                 <div className="w-full flex items-center justify-between">
                   <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                    <span className="w-3 h-3 bg-cyan-400 rounded-full" />
+                    <span className="w-3 h-3 bg-gold-400 rounded-full" />
                     Simple Pendulum Simulator
                   </h3>
-                  <div className="text-xs bg-cyan-500/20 border border-cyan-500/30 text-cyan-300 px-3 py-1 rounded-full font-mono">
+                  <div className="text-xs bg-gold-500/20 border border-gold-500/30 text-gold-300 px-3 py-1 rounded-full font-mono">
                     T = 2π√(L/g)
                   </div>
                 </div>
@@ -1223,7 +1223,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 <div className="w-full grid grid-cols-3 gap-3 text-center">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <span className="text-xs text-slate-400 block">Time Period (T)</span>
-                    <span className="text-lg font-bold text-cyan-400 font-mono">
+                    <span className="text-lg font-bold text-gold-400 font-mono">
                       {theoreticalPeriod.toFixed(2)} s
                     </span>
                   </div>
@@ -1252,7 +1252,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs font-semibold">
                     <span className="text-slate-300">Thread Length (L):</span>
-                    <span className="text-cyan-400 font-mono">{pendulumLength.toFixed(2)} m</span>
+                    <span className="text-gold-400 font-mono">{pendulumLength.toFixed(2)} m</span>
                   </div>
                   <input
                     type="range"
@@ -1264,7 +1264,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                       setPendulumLength(parseFloat(e.target.value));
                       audioManager.play('pop');
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1272,7 +1272,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs font-semibold">
                     <span className="text-slate-300">Bob Mass (m):</span>
-                    <span className="text-cyan-400 font-mono">{pendulumMass} g</span>
+                    <span className="text-gold-400 font-mono">{pendulumMass} g</span>
                   </div>
                   <input
                     type="range"
@@ -1284,7 +1284,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                       setPendulumMass(parseFloat(e.target.value));
                       audioManager.play('pop');
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 rounded-lg cursor-pointer"
                   />
                   <span className="text-[11px] text-slate-400 italic block">
                     *Notice how mass changes do NOT affect the swing period!
@@ -1295,7 +1295,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs font-semibold">
                     <span className="text-slate-300">Release Angle (θ):</span>
-                    <span className="text-cyan-400 font-mono">{pendulumAngle}°</span>
+                    <span className="text-gold-400 font-mono">{pendulumAngle}°</span>
                   </div>
                   <input
                     type="range"
@@ -1307,7 +1307,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                       setPendulumAngle(parseFloat(e.target.value));
                       audioManager.play('pop');
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1363,7 +1363,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => setSpeedUnit(speedUnit === 'ms' ? 'kmh' : 'ms')}
-                      className="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-lg text-xs font-mono hover:border-cyan-500"
+                      className="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-300 rounded-lg text-xs font-mono hover:border-gold-500"
                     >
                       Unit: {speedUnit === 'ms' ? 'm/s' : 'km/h'}
                     </button>
@@ -1381,7 +1381,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 <div className="w-full grid grid-cols-3 gap-3 text-center">
                   <div className="bg-slate-950 p-3 rounded-xl border border-slate-800">
                     <span className="text-xs text-slate-400 block">VB-1 Position</span>
-                    <span className="text-lg font-bold text-cyan-400 font-mono">
+                    <span className="text-lg font-bold text-gold-400 font-mono">
                       {carAPos.toFixed(1)} m
                     </span>
                   </div>
@@ -1409,8 +1409,8 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                 {/* Car A Speed Slider */}
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs font-semibold">
-                    <span className="text-cyan-300">VB-1 Speed:</span>
-                    <span className="text-cyan-400 font-mono">
+                    <span className="text-gold-300">VB-1 Speed:</span>
+                    <span className="text-gold-400 font-mono">
                       {speedUnit === 'ms'
                         ? `${carASpeed} m/s`
                         : `${(carASpeed * 3.6).toFixed(0)} km/h`}
@@ -1426,7 +1426,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                       setCarASpeed(parseFloat(e.target.value));
                       audioManager.play('pop');
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1539,7 +1539,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                   </div>
                   <div>
                     <span className="text-slate-400">Calculated Speed = </span>
-                    <span className="font-mono text-cyan-400 font-bold">
+                    <span className="font-mono text-gold-400 font-bold">
                       {graphMode === 'uniform'
                         ? `${graphSpeed} m/s`
                         : graphMode === 'rest'
@@ -1583,7 +1583,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                     onClick={() => { setGraphMode('curved'); audioManager.play('pop'); }}
                     className={`w-full p-3 rounded-xl border text-left text-sm font-semibold transition ${
                       graphMode === 'curved'
-                        ? 'bg-cyan-900/40 border-cyan-500 text-cyan-300'
+                        ? 'bg-gold-900/40 border-gold-500 text-gold-300'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                     }`}
                   >
@@ -1687,7 +1687,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                             placeholder="Type answer..."
                             value={numericAnswer}
                             onChange={(e) => setNumericAnswer(e.target.value)}
-                            className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-cyan-300 font-mono focus:border-amber-500 outline-none"
+                            className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-gold-300 font-mono focus:border-amber-500 outline-none"
                           />
                           <span className="text-sm font-semibold text-slate-400">{ch.unit}</span>
                         </div>
@@ -1925,11 +1925,11 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                         <div className="flex items-center gap-2">
                           <div className="w-20 bg-slate-800 h-2 rounded-full overflow-hidden">
                             <div
-                              className="bg-cyan-400 h-full"
+                              className="bg-gold-400 h-full"
                               style={{ width: `${bkt.pKnown * 100}%` }}
                             />
                           </div>
-                          <span className="font-bold text-cyan-400 w-12 text-right">
+                          <span className="font-bold text-gold-400 w-12 text-right">
                             {(bkt.pKnown * 100).toFixed(0)}%
                           </span>
                         </div>
@@ -1965,7 +1965,7 @@ const C7_PhysicsMotionTimeCBSESim: React.FC = () => {
                     setScore(0);
                     audioManager.play('tap');
                   }}
-                  className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-semibold transition"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-semibold transition"
                 >
                   Restart Diagnostic Test Bench
                 </button>

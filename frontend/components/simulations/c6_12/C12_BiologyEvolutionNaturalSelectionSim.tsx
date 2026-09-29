@@ -76,7 +76,7 @@ export function C12_BiologyEvolutionNaturalSelectionSim() {
         <span className="text-xs text-slate-400 self-center mr-1">Famous episodes:</span>
         {SCENARIOS.map((s) => (
           <button key={s.id} onClick={() => { setRunning(false); setWAA(s.wAA); setWAa(s.wAa); setWaa(s.waa); setP(0.5); setHistory([0.5]); }}
-            className={`min-h-11 px-3 rounded-xl text-xs font-bold border ${wAA === s.wAA && wAa === s.wAa && waa === s.waa ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
+            className={`min-h-11 px-3 rounded-xl text-xs font-bold border ${wAA === s.wAA && wAa === s.wAa && waa === s.waa ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
             {s.label}
           </button>
         ))}
@@ -87,11 +87,11 @@ export function C12_BiologyEvolutionNaturalSelectionSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Start allele A frequency p</span>
-            <span className="text-indigo-300 font-mono font-bold">{p.toFixed(2)}</span>
+            <span className="text-gold-300 font-mono font-bold">{p.toFixed(2)}</span>
           </label>
           <input type="range" min={0.05} max={0.95} step={0.01} value={p} aria-label="allele A frequency"
             onChange={(e) => { setRunning(false); setP(Number(e.target.value)); setHistory([Number(e.target.value)]); }}
-            className="w-full mt-2 min-h-11 accent-indigo-500" />
+            className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 space-y-1">
           {([['w (AA)', wAA, setWAA], ['w (Aa)', wAa, setWAa], ['w (aa)', waa, setWaa]] as [string, number, (v: number) => void][]).map(([lab, val, set]) => (
@@ -129,7 +129,7 @@ export function C12_BiologyEvolutionNaturalSelectionSim() {
         <div className="md:col-span-2 bg-slate-900 rounded-2xl border border-slate-800 p-4 space-y-2 text-sm">
           <p className="text-xs font-bold uppercase tracking-wider text-emerald-400">Population right now</p>
           <div className="flex h-8 rounded-xl overflow-hidden border border-slate-700 font-mono text-xs font-bold">
-            <div className="bg-indigo-500 flex items-center justify-center text-white transition-all" style={{ width: `${p * 100}%` }}>A {Math.round(p * 100)}%</div>
+            <div className="bg-gold-500 flex items-center justify-center text-white transition-all" style={{ width: `${p * 100}%` }}>A {Math.round(p * 100)}%</div>
             <div className="bg-rose-500 flex items-center justify-center text-white transition-all" style={{ width: `${q * 100}%` }}>a {Math.round(q * 100)}%</div>
           </div>
           <p className="font-mono text-xs text-slate-300 p-2 bg-slate-950 rounded-xl border border-slate-800">

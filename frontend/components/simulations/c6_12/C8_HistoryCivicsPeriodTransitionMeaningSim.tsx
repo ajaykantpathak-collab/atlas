@@ -1200,7 +1200,7 @@ function C8_HistoryCivicsPeriodTransitionMeaningSim({
             {/* Scenario Card */}
             <motion.div
               whileHover={{ scale: 1.01 }}
-              className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 border border-amber-500/30 rounded-3xl relative overflow-hidden"
+              className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 border border-amber-500/30 rounded-3xl relative overflow-hidden"
             >
               <div className="relative z-10">
                 <span className="px-3 py-1 bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-black uppercase tracking-widest rounded-full">
@@ -1387,7 +1387,7 @@ function C8_HistoryCivicsPeriodTransitionMeaningSim({
                             <p className="text-slate-400 text-[11px] mt-0.5">{src.author}</p>
                           </div>
                           <span className={`px-2 py-1 rounded-lg text-[10px] font-black uppercase ${
-                            src.type === 'Primary' ? 'bg-emerald-950 text-emerald-400 border border-emerald-600' : 'bg-blue-950 text-blue-400 border border-blue-600'
+                            src.type === 'Primary' ? 'bg-emerald-950 text-emerald-400 border border-emerald-600' : 'bg-gold-950 text-gold-400 border border-gold-600'
                           }`}>
                             {src.type === 'Primary' ? '✓ Primary' : '📘 Secondary'}
                           </span>
@@ -2281,7 +2281,7 @@ function C8_HistoryCivicsPeriodTransitionMeaningSim({
                 errors === 0
                   ? 'bg-emerald-950/40 border-emerald-500/40 text-emerald-300'
                   : errors <= 3
-                  ? 'bg-blue-950/40 border-blue-500/40 text-blue-300'
+                  ? 'bg-gold-950/40 border-gold-500/40 text-gold-300'
                   : errors <= 7
                   ? 'bg-amber-950/40 border-amber-500/40 text-amber-300'
                   : 'bg-rose-950/40 border-rose-500/40 text-rose-300'
@@ -2291,7 +2291,7 @@ function C8_HistoryCivicsPeriodTransitionMeaningSim({
             </div>
 
             {/* Spaced Repetition Schedule (SRS) Card */}
-            <div className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 border-2 border-amber-500/50 rounded-3xl text-slate-200 shadow-xl space-y-3">
+            <div className="p-6 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 border-2 border-amber-500/50 rounded-3xl text-slate-200 shadow-xl space-y-3">
               <div className="flex items-center justify-between flex-wrap gap-2">
                 <div className="flex items-center gap-3">
                   <span className="text-3xl" aria-hidden="true">🔄</span>

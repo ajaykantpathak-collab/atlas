@@ -11,7 +11,7 @@ export const w_c11_geographystructurephysiographysim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Physiographic Divisions of India: Overview and Classification',
     chapters: [],
     nodeIds: ['c11_geo_cbse_09_001', 'c11_geo_cbse_09_008', 'c11_geo_cbse_09_006', 'c11_geo_cbse_13_001', 'c11_geo_cbse_13_002', 'c11_geo_cbse_12_003', 'c11_geo_cbse_09_002', 'c11_geo_cbse_09_005', 'c11_geo_cbse_10_001', 'c11_geo_cbse_10_003', 'c11_geo_cbse_10_004', 'c11_geo_cbse_08_002', 'c11_geo_cbse_08_005', 'c11_geo_cbse_21_001', 'c11_geo_cbse_13_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe a physical relief map of India (or Google Earth terrain view) and.', goal: 'Master Physiographic Divisions of India: Overview and Classification.' },
     discovery: {
         question: 'State the approximate longitudinal extent of the Indian Desert and name the hill range that forms its eastern boundary.',
@@ -20,7 +20,7 @@ export const w_c11_geographystructurephysiographysim: SimDef = {
         hook: 'Students believe the Thar Desert is entirely covered by shifting sand dunes (erg).',
     },
     teaching: [
-        { title: 'Physiographic divisions of India refer to.', text: 'Physiographic divisions of India refer to the classification of the Indian landmass into six major physical units—The Himalayan Mountains, The Northern Plains, The Peninsular Plateau, The Indian.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Physiographic divisions of India refer to.', text: 'Physiographic divisions of India refer to the classification of the Indian landmass into six major physical units—The Himalayan Mountains, The Northern Plains, The Peninsular Plateau, The Indian.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_09_001', title: 'Physiographic divisions of India refer.',

@@ -11,7 +11,7 @@ export const w_c11_sociologysocialprocessessim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction',
     chapters: [],
     nodeIds: ['c11_soc_cbse_06_001', 'c11_soc_cbse_06_002', 'c11_soc_cbse_06_003', 'c11_soc_cbse_06_005', 'c11_soc_cbse_06_006', 'c11_soc_cbse_06_007', 'c11_soc_cbse_07_011', 'c11_soc_cbse_09_001', 'c11_soc_cbse_01_008', 'c11_soc_cbse_01_009', 'c11_soc_cbse_02_006', 'c11_soc_cbse_08_001', 'c11_soc_cbse_05_005', 'c11_soc_cbse_04_001', 'c11_soc_cbse_06_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you walk into your school every morning — you know exactly where to sit, when to speak, how to.', goal: 'Master Social Structure as a Conceptual Framework: Patterned Arrangements of Human Interaction.' },
     discovery: {
         question: 'A student argues: "Caste discrimination is illegal now, so caste stratification no longer exists in India." Using the concept of *life chances*, explain why.',
@@ -20,7 +20,7 @@ export const w_c11_sociologysocialprocessessim: SimDef = {
         hook: '**Misconception**: "Stratification is just about economic inequality — if we fix poverty, caste and gender inequality.',
     },
     teaching: [
-        { title: 'Social structure is the patterned,.', text: 'Social structure is the patterned, relatively stable arrangement of social institutions, statuses, roles, and norms that organises human interaction into predictable regularities across time and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Social structure is the patterned,.', text: 'Social structure is the patterned, relatively stable arrangement of social institutions, statuses, roles, and norms that organises human interaction into predictable regularities across time and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_06_001', title: 'Social structure is the patterned,.',

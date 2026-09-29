@@ -86,7 +86,7 @@ export function C7_MathematicsExpressionsUsingLetterNumbersSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Expressions Using Letter-Numbers</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Expressions Using Letter-Numbers</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="flex flex-wrap gap-2 mt-4">
@@ -94,7 +94,7 @@ export function C7_MathematicsExpressionsUsingLetterNumbersSim() {
           <button
             key={k}
             onClick={() => setPattern(k)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${pattern === k ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${pattern === k ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {PATTERNS[k].name}
           </button>
@@ -128,7 +128,7 @@ export function C7_MathematicsExpressionsUsingLetterNumbersSim() {
         ) : (
           <div className="text-center">
             <p className="text-sm text-slate-300">Can you find the rule connecting n and the stick count? Peek when ready.</p>
-            <button onClick={() => setShowRule(true)} className="mt-2 px-4 py-2 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+            <button onClick={() => setShowRule(true)} className="mt-2 px-4 py-2 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
               Reveal the letter-number rule
             </button>
           </div>
@@ -158,8 +158,8 @@ export function C7_MathematicsExpressionsUsingLetterNumbersSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Use the table trick: write stick counts for n = 1, 2, 3, 4. The differences are constant -- what does that tell you about the rule?</li>
           <li>For the squares pattern, which n needs exactly 100 sticks? Solve 3n + 1 = 100, then check with the slider.</li>

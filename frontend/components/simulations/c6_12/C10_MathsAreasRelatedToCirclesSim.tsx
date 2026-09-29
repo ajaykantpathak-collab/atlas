@@ -360,10 +360,10 @@ export function C10_MathsAreasRelatedToCirclesSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100 shadow-2xl">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-cyan-950/80 rounded-2xl border border-cyan-700">🍩</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🍩</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-cyan-400">Class 10 Maths — Areas Related to Circles</p>
-          <h1 className="text-xl md:text-2xl font-black text-cyan-300">Slices of π: sectors, arcs, chords &amp; segments</h1>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Maths — Areas Related to Circles</p>
+          <h1 className="text-xl md:text-2xl font-black text-gold-300">Slices of π: sectors, arcs, chords &amp; segments</h1>
         </div>
         <div className="text-right">
           <span className="font-mono text-xs text-slate-400 block">A = (θ/360)·πr²</span>
@@ -382,7 +382,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-cyan-600 border-cyan-500 text-white shadow-lg shadow-cyan-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -397,8 +397,8 @@ export function C10_MathsAreasRelatedToCirclesSim() {
       {/* ============================================================ */}
       {tab === 'predict' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-cyan-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-cyan-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               Two sectors, same angle 60°. One comes from r = 5 cm, the other from r = 10 cm. The
               bigger sector&apos;s area is how many times the smaller?
@@ -412,7 +412,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 1;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-cyan-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -446,7 +446,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-cyan-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -465,25 +465,25 @@ export function C10_MathsAreasRelatedToCirclesSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>radius r</span>
-                <span className="font-mono text-cyan-300">{r} cm</span>
+                <span className="font-mono text-gold-300">{r} cm</span>
               </label>
               <input type="range" min={1} max={20} step={0.5} value={r} aria-label="radius"
-                onChange={(e) => setR(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-cyan-500" />
+                onChange={(e) => setR(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>central angle θ</span>
-                <span className="font-mono text-cyan-300">{displayAngle}</span>
+                <span className="font-mono text-gold-300">{displayAngle}</span>
               </label>
               <input type="range" min={1} max={359} step={0.5} value={thetaDeg} aria-label="central angle"
                 onChange={(e) => { setSweeping(false); setThetaDeg(Number(e.target.value)); }}
-                className="w-full mt-1 min-h-11 accent-cyan-500" />
+                className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div className="flex items-end gap-2">
               <button onClick={() => setUnit(unit === 'deg' ? 'rad' : 'deg')} className="min-h-11 px-3 py-2 rounded-xl text-xs font-bold border bg-slate-800 border-slate-700 text-slate-200 transition-all">
                 angle unit: {unit === 'deg' ? 'degrees' : 'radians'}
               </button>
-              <button onClick={() => setSweeping(!sweeping)} className={`min-h-11 px-3 py-2 rounded-xl text-xs font-bold border transition-all ${sweeping ? 'bg-cyan-600 border-cyan-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-200'}`}>
+              <button onClick={() => setSweeping(!sweeping)} className={`min-h-11 px-3 py-2 rounded-xl text-xs font-bold border transition-all ${sweeping ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-200'}`}>
                 {sweeping ? '⏸ stop sweep' : '▶ sweep θ'}
               </button>
             </div>
@@ -513,13 +513,13 @@ export function C10_MathsAreasRelatedToCirclesSim() {
             {/* live readouts */}
             <div className="grid grid-cols-2 gap-2 content-start">
               {[
-                { k: 'arc length l', v: `${arc.toFixed(3)} cm`, c: 'text-cyan-300' },
-                { k: 'sector area (θ/360)πr²', v: `${sectorArea.toFixed(3)} cm²`, c: 'text-cyan-300' },
+                { k: 'arc length l', v: `${arc.toFixed(3)} cm`, c: 'text-gold-300' },
+                { k: 'sector area (θ/360)πr²', v: `${sectorArea.toFixed(3)} cm²`, c: 'text-gold-300' },
                 { k: 'chord = 2r·sin(θ/2)', v: `${chord.toFixed(3)} cm`, c: 'text-rose-300' },
                 { k: 'triangle ½r²·sin θ', v: `${triArea.toFixed(3)} cm²`, c: 'text-amber-300' },
                 { k: 'SEGMENT area = sector − triangle', v: `${segArea.toFixed(3)} cm²`, c: 'text-emerald-300' },
                 { k: 'segment perimeter = l + chord', v: `${segPerimeter.toFixed(3)} cm`, c: 'text-emerald-300' },
-                { k: 'sector perimeter = l + 2r', v: `${sectorPerimeter.toFixed(3)} cm`, c: 'text-cyan-300' },
+                { k: 'sector perimeter = l + 2r', v: `${sectorPerimeter.toFixed(3)} cm`, c: 'text-gold-300' },
                 { k: 'fraction of circle', v: `${(frac * 100).toFixed(2)} %`, c: 'text-slate-300' },
               ].map((x) => (
                 <div key={x.k} className="p-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
@@ -567,19 +567,19 @@ export function C10_MathsAreasRelatedToCirclesSim() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {/* clock module */}
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-cyan-300 uppercase tracking-wider mb-2">Board classic 1 — the clock hand</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Board classic 1 — the clock hand</p>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>hand length</span>
-                <span className="font-mono text-cyan-300">{handLen} cm</span>
+                <span className="font-mono text-gold-300">{handLen} cm</span>
               </label>
               <input type="range" min={2} max={15} step={0.5} value={handLen} aria-label="hand length"
-                onChange={(e) => setHandLen(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-cyan-500" />
+                onChange={(e) => setHandLen(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>minutes elapsed</span>
-                <span className="font-mono text-cyan-300">{minutes} min</span>
+                <span className="font-mono text-gold-300">{minutes} min</span>
               </label>
               <input type="range" min={0} max={60} step={1} value={minutes} aria-label="minutes elapsed"
-                onChange={(e) => setMinutes(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-cyan-500" />
+                onChange={(e) => setMinutes(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
               <div className="bg-slate-950 rounded-xl border border-slate-800 p-1 mt-2">
                 <svg viewBox="0 0 200 200" className="w-full h-44" preserveAspectRatio="xMidYMid meet">
                   <circle cx={100} cy={100} r={80} fill="#0b1526" stroke="#334155" strokeWidth={1.5} />
@@ -613,11 +613,11 @@ export function C10_MathsAreasRelatedToCirclesSim() {
               <div className="grid grid-cols-2 gap-2 mt-2">
                 <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
                   <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">tip path (arc)</p>
-                  <p className="font-mono text-sm font-bold text-cyan-300">{tipArc.toFixed(2)} cm</p>
+                  <p className="font-mono text-sm font-bold text-gold-300">{tipArc.toFixed(2)} cm</p>
                 </div>
                 <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
                   <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">swept area (sector)</p>
-                  <p className="font-mono text-sm font-bold text-cyan-300">{sweepArea.toFixed(2)} cm²</p>
+                  <p className="font-mono text-sm font-bold text-gold-300">{sweepArea.toFixed(2)} cm²</p>
                 </div>
               </div>
               <p className="mt-1.5 text-[11px] text-slate-500 font-mono">({minutes}/60)·360° = {sweepDeg.toFixed(0)}° of sweep</p>
@@ -625,19 +625,19 @@ export function C10_MathsAreasRelatedToCirclesSim() {
 
             {/* goat module */}
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-cyan-300 uppercase tracking-wider mb-2">Board classic 2 — the grazing goat</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Board classic 2 — the grazing goat</p>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>square field side</span>
-                <span className="font-mono text-cyan-300">{fieldSide} m</span>
+                <span className="font-mono text-gold-300">{fieldSide} m</span>
               </label>
               <input type="range" min={5} max={40} step={1} value={fieldSide} aria-label="field side"
-                onChange={(e) => setFieldSide(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-cyan-500" />
+                onChange={(e) => setFieldSide(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>rope length</span>
-                <span className="font-mono text-cyan-300">{ropeLen} m</span>
+                <span className="font-mono text-gold-300">{ropeLen} m</span>
               </label>
               <input type="range" min={1} max={40} step={0.5} value={ropeLen} aria-label="rope length"
-                onChange={(e) => setRopeLen(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-cyan-500" />
+                onChange={(e) => setRopeLen(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
               <button onClick={() => setGoatInside(!goatInside)} className="mt-1 min-h-11 px-3 py-2 rounded-xl text-xs font-bold border bg-slate-800 border-slate-700 text-slate-200 transition-all">
                 goat is {goatInside ? 'INSIDE the field' : 'OUTSIDE the fences'}
               </button>
@@ -668,7 +668,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
               <div className="grid grid-cols-2 gap-2 mt-2">
                 <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
                   <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">grazable angle</p>
-                  <p className="font-mono text-sm font-bold text-cyan-300">{goatAngle}°</p>
+                  <p className="font-mono text-sm font-bold text-gold-300">{goatAngle}°</p>
                 </div>
                 <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
                   <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">grazed area</p>
@@ -707,7 +707,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
             {(['all', 'foundation', 'standard', 'advanced'] as const).map((t) => (
               <button key={t} onClick={() => setTierFilter(t)}
                 className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all capitalize ${
-                  tierFilter === t ? 'bg-cyan-600 border-cyan-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                  tierFilter === t ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                 }`}>
                 {t}
               </button>
@@ -731,7 +731,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {ch.options.map((opt, i) => {
                     const isCorrect = i === ch.correctIndex;
-                    let cls = 'border-slate-700 bg-slate-900 hover:border-cyan-600';
+                    let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                     if (done && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                     else if (done && picked === i) cls = 'border-rose-600 bg-rose-950/40';
                     return (
@@ -793,7 +793,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-cyan-300 uppercase tracking-wider mb-2">Formula sheet (all live in this sim)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Formula sheet (all live in this sim)</p>
               <ul className="text-xs text-slate-300 space-y-1.5 font-mono">
                 <li>circumference C = 2πr · area = πr²</li>
                 <li>arc l = (θ/360)·2πr = rθ (θ rad)</li>
@@ -804,7 +804,7 @@ export function C10_MathsAreasRelatedToCirclesSim() {
               </ul>
             </div>
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-cyan-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
               <ul className="text-xs text-slate-400 space-y-1.5 leading-relaxed">
                 <li>• The Lab computes with true π and even shows the 22/7 answer beside it — you can SEE the approximation cost.</li>
                 <li>• The triangle formula ½r²·sin θ genuinely needs θ in radians; the code converts your degrees first — exactly what your notebook must do.</li>

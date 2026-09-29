@@ -9,7 +9,7 @@ export const c11_gram_ch8283: SimDef = {
     classLevel: 11, subject: 'english-grammar', topic: 'Conditionals, advanced non-finites, sequence of tenses',
     chapters: ['c11_gram_ch82', 'c11_gram_ch83'],
     nodeIds: ['c11_gram_cbse_82_001', 'c11_gram_cbse_82_002', 'c11_gram_cbse_83_001'],
-    emoji: '🪜', theme: { bg: 'from-slate-900 to-blue-950', accent: 'blue', scene: 'senior' },
+    emoji: '🪜', theme: { bg: 'from-slate-900 to-gold-950', accent: 'blue', scene: 'senior' },
 
     scenario: {
         role: 'a probability physicist measuring how far each if-sentence stands from reality',
@@ -28,8 +28,8 @@ export const c11_gram_ch8283: SimDef = {
         hook: '"would" inside the if-clause is the classic half-mix — the two halves of a conditional come as a SET.',
     },
     teaching: [
-        { title: 'The three rungs', text: 'Type 1: if + present, will. Type 2: if + past, would. Type 3: if + past perfect, would have + V3. Never mix halves across types.', emoji: '🪜', bgColor: 'from-blue-500 to-indigo-600' },
-        { title: 'The harmony law', text: 'Past main → past-family subordinates: may→might, will→would. Future-in-time-clause stays present: "when I arrive", never "when I will arrive".', emoji: '🎼', bgColor: 'from-indigo-500 to-violet-600' },
+        { title: 'The three rungs', text: 'Type 1: if + present, will. Type 2: if + past, would. Type 3: if + past perfect, would have + V3. Never mix halves across types.', emoji: '🪜', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'The harmony law', text: 'Past main → past-family subordinates: may→might, will→would. Future-in-time-clause stays present: "when I arrive", never "when I will arrive".', emoji: '🎼', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

@@ -11,7 +11,7 @@ export const w_c12_physicsdualnatureradiationcbsesim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Davisson-Germer Experiment: Electron Diffraction',
     chapters: [],
     nodeIds: ['c12_phy_cbse_11_005', 'c12_phy_cbse_11_006', 'c12_phy_cbse_11_004', 'c12_phy_cbse_11_001', 'c12_phy_cbse_11_003', 'c12_phy_cbse_08_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you shine a laser through a fine mesh and see a diffraction pattern on a wall — that\'s light behaving.', goal: 'Master Davisson-Germer Experiment: Electron Diffraction.' },
     discovery: {
         question: 'State Heisenberg\'s Uncertainty Principle for position and momentum, giving the exact mathematical inequality with the reduced Planck constant ħ.',
@@ -20,7 +20,7 @@ export const w_c12_physicsdualnatureradiationcbsesim: SimDef = {
         hook: 'Students often believe the uncertainty principle arises because the act of measurement (e.g., hitting an electron with.',
     },
     teaching: [
-        { title: 'The Davisson-Germer experiment (1927).', text: 'The Davisson-Germer experiment (1927) demonstrated the wave nature of electrons by observing diffraction patterns when a beam of electrons is scattered off a single crystal of nickel.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Davisson-Germer experiment (1927).', text: 'The Davisson-Germer experiment (1927) demonstrated the wave nature of electrons by observing diffraction patterns when a beam of electrons is scattered off a single crystal of nickel.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_11_005', title: 'The Davisson-Germer experiment (1927).',

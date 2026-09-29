@@ -11,11 +11,11 @@ export const w_c8_historycivicsvicepresidentqualificationselectionsim: SimDef = 
     classLevel: 8, subject: 'history', topic: 'Election Commission of India: Role and Functions',
     chapters: [],
     nodeIds: ['c8_civ_ch1_7', 'c8_civ_ch2_4', 'c8_civ_ch1_6', 'c8_civ_ch2_9'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine watching a school sports day where the teacher who makes the rules also happens to coach one of the.', goal: 'Master Election Commission of India: Role and Functions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The Election Commission of India (ECI) is an.', text: 'The Election Commission of India (ECI) is an autonomous constitutional body established under Article 324 of the Indian Constitution, responsible for administering and overseeing all electoral.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Election Commission of India (ECI) is an.', text: 'The Election Commission of India (ECI) is an autonomous constitutional body established under Article 324 of the Indian Constitution, responsible for administering and overseeing all electoral.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_civ_ch1_7', title: 'The Election Commission of India (ECI).',

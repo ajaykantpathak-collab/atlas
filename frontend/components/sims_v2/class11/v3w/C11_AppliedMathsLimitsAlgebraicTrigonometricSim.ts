@@ -11,7 +11,7 @@ export const w_c11_appliedmathslimitsalgebraictrigonometricsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Intuitive Idea of Limits',
     chapters: [],
     nodeIds: ['c11_math_cbse_13_001', 'c11_math_cbse_13_002', 'c11_math_cbse_13_003', 'c11_math_cbse_13_008', 'c11_math_cbse_03_013', 'c11_math_cbse_13_004', 'c11_math_cbse_13_006', 'c11_math_cbse_13_010', 'c11_math_cbse_02_011', 'c11_math_cbse_13_005', 'c11_math_cbse_03_008', 'c11_math_cbse_03_009', 'c11_math_cbse_13_007', 'c11_math_cbse_13_009', 'c11_math_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re tracking a car approaching a toll booth at exactly 60 km/h.', goal: 'Master Intuitive Idea of Limits.' },
     discovery: {
         question: 'Consider f(x) = { x² if x < 2; 5 if x = 2; x+2 if x > 2 }. A student claims "lim_{x→2} f(x) does not exist because f(2) = 5, not 4." Explain why this reasoning.',
@@ -20,7 +20,7 @@ export const w_c11_appliedmathslimitsalgebraictrigonometricsim: SimDef = {
         hook: 'Students believe that if direct substitution gives 0/0, the limit is 0, or that the limit equals the function value at.',
     },
     teaching: [
-        { title: 'The limit of a function f(x) as x approaches.', text: 'The limit of a function f(x) as x approaches a value \'a\' is the value L that f(x) gets arbitrarily close to as x gets arbitrarily close to a (from both sides), without necessarily equalling a.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The limit of a function f(x) as x approaches.', text: 'The limit of a function f(x) as x approaches a value \'a\' is the value L that f(x) gets arbitrarily close to as x gets arbitrarily close to a (from both sides), without necessarily equalling a.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_13_001', title: 'The limit of a function f(x) as x.',

@@ -175,7 +175,7 @@ function CoderKabir({ mood, speaking }: { mood: MascotMood; speaking: string | n
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-400"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-400"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -280,7 +280,7 @@ function CodingSceneBackground({ width, height }: { width: number; height: numbe
         ))}
       </svg>
       {/* Floating binary / code symbols */}
-      <motion.div className="absolute top-10 left-12 text-blue-300 font-mono text-xs opacity-30" animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>
+      <motion.div className="absolute top-10 left-12 text-gold-300 font-mono text-xs opacity-30" animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>
         FD 100
       </motion.div>
       <motion.div className="absolute top-20 right-20 text-emerald-300 font-mono text-xs opacity-30" animate={{ y: [0, 10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}>
@@ -309,7 +309,7 @@ interface SortCardProps {
 function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: SortCardProps) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-blue-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 42)}
         <span className="text-[10px] font-bold text-gray-700 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -362,14 +362,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "What is Stepwise Thinking? 🧠",
     text: "Stepwise thinking means breaking a big task into small, ordered steps. Just like making a sandwich or getting ready for school, every step must be in the right order!",
     emoji: "🥪",
-    bgColor: "from-blue-600 to-indigo-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "Stepwise thinking means breaking a big task into small, ordered steps. Just like making a sandwich, every step must be in the right order!",
   },
   {
     title: "Algorithms & Flowcharts 📋",
     text: "An algorithm is a step-by-step recipe to solve a problem. A flowchart shows these steps using pictures: ovals for Start and End, rectangles for processes, and diamonds for decisions!",
     emoji: "📊",
-    bgColor: "from-indigo-600 to-purple-700",
+    bgColor: "from-gold-600 to-purple-700",
     spoken: "An algorithm is a step-by-step recipe to solve a problem. A flowchart shows these steps using special shapes and arrows!",
   },
   {
@@ -383,7 +383,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "LOGO Primitives (FD, BK, RT, LT) 🚀",
     text: "Primitives are ready-made commands. FD moves forward and draws a line, BK moves backward. RT turns right by degrees, LT turns left. HT hides the turtle, ST shows it!",
     emoji: "✏️",
-    bgColor: "from-blue-500 to-cyan-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Primitives are ready-made commands. FD moves forward and draws a line, BK moves backward. RT turns right, LT turns left!",
   },
   {
@@ -752,7 +752,7 @@ export function AlgorithmsLogoGame({ width = 720, height = 560, onComplete }: Al
               <span>🐢</span> Algorithms & LOGO Adventure
             </h1>
             <div className="flex items-center gap-3">
-              <span className="text-xs font-bold text-blue-200">
+              <span className="text-xs font-bold text-gold-200">
                 Slide {slideIdx + 1} of {TEACHING_SLIDES.length}
               </span>
               <button
@@ -793,7 +793,7 @@ export function AlgorithmsLogoGame({ width = 720, height = 560, onComplete }: Al
                 }
               }}
               disabled={slideIdx === 0}
-              className={`px-5 py-2 rounded-xl font-bold text-white shadow-md ${slideIdx === 0 ? 'bg-gray-600 opacity-40 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-500'}`}
+              className={`px-5 py-2 rounded-xl font-bold text-white shadow-md ${slideIdx === 0 ? 'bg-gray-600 opacity-40 cursor-not-allowed' : 'bg-gold-600 hover:bg-gold-500'}`}
             >
               Previous
             </button>
@@ -843,7 +843,7 @@ export function AlgorithmsLogoGame({ width = 720, height = 560, onComplete }: Al
               key={challengeIdx}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-5 shadow-2xl border-4 border-blue-400 mb-3"
+              className="w-full max-w-xl bg-white/95 backdrop-blur-md rounded-3xl p-5 shadow-2xl border-4 border-gold-400 mb-3"
             >
               <h3 className="text-lg font-black text-gray-800 text-center mb-4">{currentChallenge.question}</h3>
 
@@ -852,7 +852,7 @@ export function AlgorithmsLogoGame({ width = 720, height = 560, onComplete }: Al
                   {currentChallenge.options.map((opt, i) => {
                     const isSelected = selectedOpt === opt;
                     const isCorrectAnswer = opt === currentChallenge.answer;
-                    let btnStyle = 'bg-blue-50 border-blue-200 text-blue-900 hover:bg-blue-100';
+                    let btnStyle = 'bg-gold-50 border-gold-200 text-gold-900 hover:bg-gold-100';
                     if (selectedOpt) {
                       if (isCorrectAnswer) btnStyle = 'bg-emerald-500 border-emerald-600 text-white';
                       else if (isSelected) btnStyle = 'bg-rose-500 border-rose-600 text-white';
@@ -916,7 +916,7 @@ export function AlgorithmsLogoGame({ width = 720, height = 560, onComplete }: Al
           </div>
 
           <div className="flex justify-between items-center px-2">
-            <span className="text-xs text-blue-200 font-semibold">
+            <span className="text-xs text-gold-200 font-semibold">
               Errors: {errors}
             </span>
             {(selectedOpt || (currentChallenge.type === 'sort' && currentChallenge.sortItems?.every(i => placedItems[i.id]))) && (

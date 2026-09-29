@@ -169,14 +169,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "India - Location & Extent 🇮🇳",
     text: "India is located entirely in the Northern Hemisphere in South Asia. Its mainland extends from 8°4'N to 37°6'N latitude and from 68°7'E to 97°25'E longitude. The Tropic of Cancer (23°30'N) divides India into two temperature zones!",
     emoji: "🇮🇳",
-    bgColor: "from-blue-600 to-indigo-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "India is located entirely in the Northern Hemisphere in South Asia. Its mainland extends from 8°4'N to 37°6'N latitude and from 68°7'E to 97°25'E longitude."
   },
   {
     title: "India's Boundaries & Peninsula 🌊",
     text: "India is surrounded by water on three sides — the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south — making India a peninsula with a coastline of about 7,516 km!",
     emoji: "🌊",
-    bgColor: "from-teal-600 to-cyan-700",
+    bgColor: "from-teal-600 to-gold-700",
     spoken: "India is surrounded by water on three sides, making India a peninsula with a coastline of about 7,516 kilometres!"
   },
   {
@@ -197,7 +197,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Natural Vegetation of India 🌲",
     text: "Because of diverse climates, India has five main vegetation types: Tropical Evergreen rainforests in heavy rain areas, Deciduous forests with trees shedding leaves, Thorn & Scrub in dry deserts, Mountain forests in the Himalayas, and Mangrove tidal forests in deltas!",
     emoji: "🌲",
-    bgColor: "from-purple-600 to-indigo-800",
+    bgColor: "from-purple-600 to-gold-800",
     spoken: "Because of diverse climates, India has five main vegetation types, including tropical evergreen, deciduous, thorn forests, mountain forests, and mangroves."
   }
 ];
@@ -722,7 +722,7 @@ export function IndiaLocationGame({ width = 720, height = 560, onComplete }: Ind
 
   return (
     <div
-      className="relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-sky-400 to-emerald-500 font-sans select-none flex flex-col items-center justify-between"
+      className="relative overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-gold-400 to-emerald-500 font-sans select-none flex flex-col items-center justify-between"
       style={{ width, height }}
     >
       <IndiaGameBackground width={width} height={height} />

@@ -23,7 +23,7 @@ export const c11_gram_ch80: SimDef = {
             { id: 's2', label: 'Relative clauses join with whowhomwhosewhichthat', prompt: 'Which idea is this? — Relative clauses join with who/whom/whose/which/that — and the choice carries meaning.', answer: 'Relative clauses join with whowhomwhosewhichthat', options: ['Relative clauses join with whowhomwhosewhichthat', 'Subordinate clauses are classified by'] }
           ] } },
         { type: 'build', nodeId: 'c11_gram_cbse_80_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Locate the subordinate clause boundaries.', 'Apply the swap tests to confirm.', 'Ask what it does — subject/object of the main verb (noun).'], answer: 'Locate the subordinate clause boundaries. Ask what it does — subject/object of the main verb (noun). Apply the swap tests to confirm.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Locate the subordinate clause boundaries.', 'Ask what it does — subject/object of the main verb (noun).', 'Apply the swap tests to confirm.'], answer: 'Locate the subordinate clause boundaries. Ask what it does — subject/object of the main verb (noun). Apply the swap tests to confirm.' } },
         { type: 'case', nodeId: 'c11_gram_ch80_003', title: 'You made it',
           caseStudy: { intro: 'You finished Subordinate clauses are classified by the JOB. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

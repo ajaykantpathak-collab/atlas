@@ -11,7 +11,7 @@ export const w_c9_physicsinternationalsystemunitssim: SimDef = {
     classLevel: 9, subject: 'physics', topic: 'Measurement: Units and Standards in Science',
     chapters: [],
     nodeIds: ['c9_physics_ch1_5', 'c9_physics_ch4_4', 'c9_physics_ch4_9', 'c9_physics_ch2_5', 'c9_physics_ch3_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are buying cloth for a kurta in a Delhi market: the shopkeeper measures it with a "haath".', goal: 'Master Measurement: Units and Standards in Science.' },
     discovery: {
         question: 'State the SI base unit and its symbol for each of the following quantities: (a) length, (b) mass, (c) time, (d) electric current, (e) thermodynamic temperature.',
@@ -20,7 +20,7 @@ export const w_c9_physicsinternationalsystemunitssim: SimDef = {
         hook: 'Students believe that "metric unit" and "SI unit" are synonyms, so they write "cm" or "g" in final answers thinking.',
     },
     teaching: [
-        { title: 'Measurement in science is the process of.', text: 'Measurement in science is the process of comparing an unknown physical quantity with a known fixed quantity of the same kind called a standard unit.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Measurement in science is the process of.', text: 'Measurement in science is the process of comparing an unknown physical quantity with a known fixed quantity of the same kind called a standard unit.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch1_5', title: 'Measurement in science is the process.',

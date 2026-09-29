@@ -16,19 +16,19 @@ export default function TopicMapPage() {
   const [classLevel, setClassLevel] = useState(1);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-indigo-100 p-6">
+    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-gold-100 p-6">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className="text-3xl font-black text-indigo-700">🗺️ Topic Map</h1>
+            <h1 className="text-3xl font-black text-gold-700">🗺️ Topic Map</h1>
             <p className="text-sm text-gray-500 mt-1">
               Choose what you want to explore next! Master topics to unlock new ones.
             </p>
           </div>
           <Link
             href="/game-test"
-            className="px-4 py-2 rounded-xl bg-indigo-500 text-white font-bold text-sm hover:bg-indigo-600 transition-all"
+            className="px-4 py-2 rounded-xl bg-gold-500 text-white font-bold text-sm hover:bg-gold-600 transition-all"
           >
             ← Back to Games
           </Link>
@@ -42,7 +42,7 @@ export default function TopicMapPage() {
               onClick={() => setClassLevel(cl)}
               className={`px-4 py-2 rounded-xl font-bold text-sm transition-all ${
                 classLevel === cl
-                  ? 'bg-indigo-500 text-white shadow-md'
+                  ? 'bg-gold-500 text-white shadow-md'
                   : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'
               }`}
             >

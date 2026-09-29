@@ -11,7 +11,7 @@ export const w_c9_evsearthenvironmentbioticsim: SimDef = {
     classLevel: 9, subject: 'evs', topic: 'Coastal Landforms and Human-Landform Relationships',
     chapters: [],
     nodeIds: ['c9_geo_ch1_11', 'c9_bio_ch4_6', 'c9_geo_ch1_1', 'c9_geo_ch1_12', 'c9_geo_ch1_2', 'c9_geo_ch1_5', 'c9_geo_ch1_6', 'c9_geo_ch1_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Stand on Marina Beach in Chennai at low tide and observe the wide sandy beach, then walk to the rocky.', goal: 'Master Coastal Landforms and Human-Landform Relationships.' },
     discovery: {
         question: 'Why is the mass nesting (arribada) of Olive Ridley turtles on Odisha\'s Gahirmatha beach considered a behavioural adaptation?',
@@ -20,7 +20,7 @@ export const w_c9_evsearthenvironmentbioticsim: SimDef = {
         hook: 'Students frequently believe adaptations arise because an organism *needs* a trait and *acquires* it during its lifetime.',
     },
     teaching: [
-        { title: 'Coastal landforms are natural features.', text: 'Coastal landforms are natural features shaped by the dynamic interaction of sea waves, currents, tides, and wind along the shoreline, classified as erosional (cliffs, wave-cut platforms, sea caves,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Coastal landforms are natural features.', text: 'Coastal landforms are natural features shaped by the dynamic interaction of sea waves, currents, tides, and wind along the shoreline, classified as erosional (cliffs, wave-cut platforms, sea caves,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_geo_ch1_11', title: 'Coastal landforms are natural features.',

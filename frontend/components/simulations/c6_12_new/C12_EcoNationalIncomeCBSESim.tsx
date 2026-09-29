@@ -610,7 +610,7 @@ const DIAGNOSTIC_QUESTIONS: DiagnosticQuestion[] = [
 const CircularFlowDiagram: React.FC<{ sectors: number; leakage: number; injection: number }> = ({ sectors, leakage, injection }) => {
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-xl flex flex-col items-center">
-      <h4 className="text-sm font-semibold text-cyan-400 mb-2">Interactive Circular Flow Model ({sectors}-Sector Economy)</h4>
+      <h4 className="text-sm font-semibold text-gold-400 mb-2">Interactive Circular Flow Model ({sectors}-Sector Economy)</h4>
       <svg viewBox="0 0 600 360" className="w-full max-w-lg h-64">
         {/* Outer Circular Path */}
         <circle cx="300" cy="180" r="130" fill="none" stroke="#334155" strokeWidth="4" strokeDasharray="6 6" />
@@ -704,9 +704,9 @@ const NationalIncomeAggregatesTree: React.FC<{
       <h4 className="text-sm font-semibold text-emerald-400 mb-3 text-center">Interactive National Income Aggregates Waterfall Bridge</h4>
       <div className="flex flex-col space-y-3 min-w-[600px]">
         {/* GDPmp Row */}
-        <div className="flex items-center justify-between bg-slate-800 p-2.5 rx-lg rounded-lg border-l-4 border-cyan-500">
-          <span className="text-cyan-300 font-bold text-sm">Gross Domestic Product at Market Price (GDPmp)</span>
-          <span className="text-cyan-200 font-mono text-base font-bold">₹{gdpMp.toLocaleString()} Cr</span>
+        <div className="flex items-center justify-between bg-slate-800 p-2.5 rx-lg rounded-lg border-l-4 border-gold-500">
+          <span className="text-gold-300 font-bold text-sm">Gross Domestic Product at Market Price (GDPmp)</span>
+          <span className="text-gold-200 font-mono text-base font-bold">₹{gdpMp.toLocaleString()} Cr</span>
         </div>
 
         {/* Adjustments Level 1 */}
@@ -724,9 +724,9 @@ const NationalIncomeAggregatesTree: React.FC<{
         </div>
 
         {/* NNPmp Row */}
-        <div className="flex items-center justify-between bg-slate-800 p-2.5 rounded-lg border-l-4 border-blue-500 pl-4">
-          <span className="text-blue-300 font-bold text-sm">Net National Product at Market Price (NNPmp)</span>
-          <span className="text-blue-200 font-mono text-base font-bold">₹{nnpMp.toLocaleString()} Cr</span>
+        <div className="flex items-center justify-between bg-slate-800 p-2.5 rounded-lg border-l-4 border-gold-500 pl-4">
+          <span className="text-gold-300 font-bold text-sm">Net National Product at Market Price (NNPmp)</span>
+          <span className="text-gold-200 font-mono text-base font-bold">₹{nnpMp.toLocaleString()} Cr</span>
         </div>
 
         {/* NIT Adjustment */}
@@ -781,8 +781,8 @@ const NominalVsRealGdpChart: React.FC<{ nominal: number; real: number; deflator:
 
         {/* Real Bar */}
         <div className="flex flex-col items-center">
-          <span className="text-xs text-cyan-300 font-mono font-bold mb-1">₹{real.toLocaleString()}</span>
-          <div className="w-16 bg-gradient-to-t from-cyan-600 to-cyan-400 rounded-t-md transition-all duration-500" style={{ height: `${realHeight}px` }}></div>
+          <span className="text-xs text-gold-300 font-mono font-bold mb-1">₹{real.toLocaleString()}</span>
+          <div className="w-16 bg-gradient-to-t from-gold-600 to-gold-400 rounded-t-md transition-all duration-500" style={{ height: `${realHeight}px` }}></div>
           <span className="text-xs text-slate-300 mt-2 font-medium">Real GDP</span>
           <span className="text-[10px] text-slate-400">(Base Year Prices)</span>
         </div>
@@ -981,7 +981,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
       <header className="w-full bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-start md:items-center space-y-4 md:space-y-0">
         <div>
           <div className="flex items-center space-x-3">
-            <span className="bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">
+            <span className="bg-gold-500/10 text-gold-400 border border-gold-500/30 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">
               ISC Class 12 Economics
             </span>
             <span className="text-slate-400 text-xs font-mono">Macroeconomic Accounting Suite</span>
@@ -1010,7 +1010,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
         <button
           onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-            activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
+            activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
           }`}
         >
           1. Concept Discovery & Preconceptions
@@ -1018,7 +1018,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
         <button
           onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-            activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
+            activeTab === 'lab' ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
           }`}
         >
           2. Interactive National Income Labs
@@ -1026,7 +1026,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
         <button
           onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-            activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
+            activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
           }`}
         >
           3. Micro-Challenges ({completedChallengesCount}/{CHALLENGES.length})
@@ -1034,7 +1034,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
         <button
           onClick={() => { setActiveTab('analytics'); audioManager.play('tap'); }}
           className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all ${
-            activeTab === 'analytics' ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
+            activeTab === 'analytics' ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30' : 'bg-slate-900 text-slate-400 hover:text-white'
           }`}
         >
           4. CSO Real-World Audit & Analytics
@@ -1046,9 +1046,9 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Scenario & Context Card */}
           <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col space-y-4">
-            <h2 className="text-xl font-bold text-cyan-400">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-bold text-gold-400">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm">{SCENARIO.intro}</p>
-            <p className="text-slate-400 text-xs bg-slate-800/60 p-3 rounded-lg border-l-2 border-cyan-500">{SCENARIO.context}</p>
+            <p className="text-slate-400 text-xs bg-slate-800/60 p-3 rounded-lg border-l-2 border-gold-500">{SCENARIO.context}</p>
 
             {/* Discovery Question Card */}
             <div className="mt-4 bg-slate-800/80 border border-slate-700 rounded-xl p-5">
@@ -1080,7 +1080,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
               </div>
 
               {discoveryAnswer !== null && (
-                <div className="mt-4 p-3 bg-cyan-950/60 border border-cyan-700/50 rounded-lg text-xs text-cyan-200">
+                <div className="mt-4 p-3 bg-gold-950/60 border border-gold-700/50 rounded-lg text-xs text-gold-200">
                   <span className="font-bold">Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1115,7 +1115,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                       ))}
                     </div>
                     {predictionAnswers[qIdx] !== undefined && (
-                      <p className="text-[11px] text-cyan-300 bg-slate-900 p-2 rounded">
+                      <p className="text-[11px] text-gold-300 bg-slate-900 p-2 rounded">
                         <span className="font-bold">Verification Step: </span>{pq.verifyInstruction}
                       </p>
                     )}
@@ -1130,7 +1130,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
             <h3 className="text-base font-bold text-slate-200 border-b border-slate-800 pb-2">Core Macroeconomic Concepts</h3>
             <div className="space-y-3 text-xs">
               <div className="bg-slate-800/70 p-3 rounded-lg">
-                <span className="text-cyan-400 font-bold block">Factor Payments vs Transfers</span>
+                <span className="text-gold-400 font-bold block">Factor Payments vs Transfers</span>
                 <p className="text-slate-400 mt-1">Factor payments (wages, rent, interest, profit) reward productive services and form NNPfc. Transfers are unilateral gifts/pensions excluded from National Income.</p>
               </div>
               <div className="bg-slate-800/70 p-3 rounded-lg">
@@ -1162,11 +1162,11 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 }}
                 className={`p-3 rounded-xl border text-left transition-all ${
                   currentLabStep === idx
-                    ? 'bg-cyan-950/80 border-cyan-500 text-cyan-200 shadow-md'
+                    ? 'bg-gold-950/80 border-gold-500 text-gold-200 shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
-                <div className="text-[10px] font-bold uppercase text-cyan-400">Step {idx + 1}</div>
+                <div className="text-[10px] font-bold uppercase text-gold-400">Step {idx + 1}</div>
                 <div className="text-xs font-semibold line-clamp-2 mt-0.5">{step.title}</div>
               </button>
             ))}
@@ -1175,7 +1175,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
           {/* Current Step Instruction Banner */}
           <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl flex items-center justify-between">
             <div>
-              <h3 className="text-sm font-bold text-cyan-300">{EXPLORATION_STEPS[currentLabStep].title}</h3>
+              <h3 className="text-sm font-bold text-gold-300">{EXPLORATION_STEPS[currentLabStep].title}</h3>
               <p className="text-xs text-slate-400 mt-0.5">{EXPLORATION_STEPS[currentLabStep].instruction}</p>
             </div>
             <span className="text-[10px] font-mono bg-slate-800 text-slate-400 px-2.5 py-1 rounded border border-slate-700">
@@ -1199,7 +1199,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                         key={s}
                         onClick={() => { setSectorsCount(s); audioManager.play('pop'); }}
                         className={`py-1.5 rounded font-bold transition-all ${
-                          sectorsCount === s ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                          sectorsCount === s ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                         }`}
                       >
                         {s}-Sector
@@ -1257,7 +1257,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
           {currentLabStep === 1 && (
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div className="lg:col-span-2 bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4">
-                <h4 className="font-bold text-cyan-400 text-sm">Value Added Production Chain (Wheat → Flour → Bread)</h4>
+                <h4 className="font-bold text-gold-400 text-sm">Value Added Production Chain (Wheat → Flour → Bread)</h4>
                 
                 <div className="space-y-3 text-xs">
                   {/* Stage 1: Farmer */}
@@ -1273,9 +1273,9 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                   </div>
 
                   {/* Stage 2: Miller */}
-                  <div className="bg-slate-800 p-3 rounded-lg flex justify-between items-center border-l-4 border-blue-500">
+                  <div className="bg-slate-800 p-3 rounded-lg flex justify-between items-center border-l-4 border-gold-500">
                     <div>
-                      <span className="font-bold text-blue-300">Stage 2: Flour Mill (Flour)</span>
+                      <span className="font-bold text-gold-300">Stage 2: Flour Mill (Flour)</span>
                       <p className="text-slate-400 text-[11px]">Output Value = ₹{flourOutput} | Intermediate Wheat Input = ₹{wheatOutput}</p>
                     </div>
                     <div className="text-right font-mono">
@@ -1320,7 +1320,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 </div>
                 <div>
                   <label className="text-slate-400 font-medium block mb-1">Flour Output Price: ₹{flourOutput}</label>
-                  <input type="range" min={wheatOutput + 100} max="1400" step="50" value={flourOutput} onChange={(e) => setFlourOutput(Number(e.target.value))} className="w-full accent-blue-500" />
+                  <input type="range" min={wheatOutput + 100} max="1400" step="50" value={flourOutput} onChange={(e) => setFlourOutput(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-slate-400 font-medium block mb-1">Bread Output Price: ₹{breadOutput}</label>
@@ -1333,12 +1333,12 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
           {currentLabStep === 2 && (
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div className="lg:col-span-2 bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4 text-xs">
-                <h4 className="font-bold text-cyan-400 text-sm">Three Methods Equivalence Proof</h4>
+                <h4 className="font-bold text-gold-400 text-sm">Three Methods Equivalence Proof</h4>
                 <div className="grid grid-cols-3 gap-3">
-                  <div className="bg-slate-800 p-3 rounded-lg border border-cyan-500/30">
-                    <span className="text-cyan-300 font-bold block mb-1">1. Product Method (GVA)</span>
+                  <div className="bg-slate-800 p-3 rounded-lg border border-gold-500/30">
+                    <span className="text-gold-300 font-bold block mb-1">1. Product Method (GVA)</span>
                     <div className="text-slate-400 text-[11px]">GVA at MP = Net Output - Inputs + NIT</div>
-                    <div className="text-cyan-200 font-mono font-bold text-base mt-2">₹{derivedGdpMp.toLocaleString()} Cr</div>
+                    <div className="text-gold-200 font-mono font-bold text-base mt-2">₹{derivedGdpMp.toLocaleString()} Cr</div>
                   </div>
                   <div className="bg-slate-800 p-3 rounded-lg border border-emerald-500/30">
                     <span className="text-emerald-300 font-bold block mb-1">2. Income Method</span>
@@ -1365,7 +1365,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 <h4 className="font-bold text-slate-200 text-sm">Expenditure Components</h4>
                 <div>
                   <label className="text-slate-400 block">Private Consumption (C): ₹{labConsumption}</label>
-                  <input type="range" min="4000" max="12000" step="500" value={labConsumption} onChange={(e) => setLabConsumption(Number(e.target.value))} className="w-full accent-cyan-500" />
+                  <input type="range" min="4000" max="12000" step="500" value={labConsumption} onChange={(e) => setLabConsumption(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-slate-400 block">Gross Capital Formation (I): ₹{labInvestment}</label>
@@ -1378,7 +1378,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 <div>
                   <label className="text-slate-400 block">Exports (X): ₹{labExports} | Imports (M): ₹{labImports}</label>
                   <div className="flex space-x-2 mt-1">
-                    <input type="range" min="200" max="2000" step="100" value={labExports} onChange={(e) => setLabExports(Number(e.target.value))} className="w-full accent-blue-500" />
+                    <input type="range" min="200" max="2000" step="100" value={labExports} onChange={(e) => setLabExports(Number(e.target.value))} className="w-full accent-gold-500" />
                     <input type="range" min="200" max="2000" step="100" value={labImports} onChange={(e) => setLabImports(Number(e.target.value))} className="w-full accent-rose-500" />
                   </div>
                 </div>
@@ -1415,7 +1415,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Real GDP:</span>
-                    <span className="font-mono font-bold text-cyan-300">₹{derivedRealGdp.toLocaleString()} Cr</span>
+                    <span className="font-mono font-bold text-gold-300">₹{derivedRealGdp.toLocaleString()} Cr</span>
                   </div>
                   <div className="flex justify-between border-t border-slate-700 pt-1">
                     <span className="text-slate-400">Inflation Impact:</span>
@@ -1445,7 +1445,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 <h4 className="font-bold text-slate-200 text-sm">National Accounts Bridge Controls</h4>
                 <div>
                   <label className="text-slate-400 block">Depreciation (Fixed Capital): ₹{depreciationVal}</label>
-                  <input type="range" min="500" max="3000" step="100" value={depreciationVal} onChange={(e) => setDepreciationVal(Number(e.target.value))} className="w-full accent-cyan-500" />
+                  <input type="range" min="500" max="3000" step="100" value={depreciationVal} onChange={(e) => setDepreciationVal(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <label className="text-slate-400 block">NFIA (Factor Income Abroad): ₹{nfiaVal}</label>
@@ -1473,7 +1473,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
                 <div key={oIdx} className="bg-slate-800/60 p-4 rounded-lg border border-slate-700 space-y-2">
-                  <p className="text-xs font-semibold text-cyan-300">{oq.question}</p>
+                  <p className="text-xs font-semibold text-gold-300">{oq.question}</p>
                   <div className="space-y-1.5">
                     {oq.observableOptions.map((opt, optIdx) => (
                       <button
@@ -1507,7 +1507,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
           {/* Progress Header */}
           <div className="flex items-center justify-between border-b border-slate-800 pb-4">
             <div>
-              <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest">
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-widest">
                 Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
               </span>
               <h3 className="text-lg font-bold text-white mt-0.5">
@@ -1545,11 +1545,11 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                   }}
                   className={`w-full text-left text-sm p-4 rounded-xl border transition-all ${
                     selectedOption === idx
-                      ? 'bg-cyan-950 border-cyan-500 text-cyan-200 ring-2 ring-cyan-500/20'
+                      ? 'bg-gold-950 border-gold-500 text-gold-200 ring-2 ring-gold-500/20'
                       : 'bg-slate-800/70 border-slate-700 text-slate-300 hover:border-slate-500'
                   }`}
                 >
-                  <span className="font-mono mr-3 text-cyan-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-mono mr-3 text-gold-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
                   {opt}
                 </button>
               ))}
@@ -1564,7 +1564,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 value={numericInput}
                 onChange={(e) => setNumericInput(e.target.value)}
                 placeholder="e.g. 10500"
-                className="w-full bg-slate-800 border border-slate-700 rounded-xl p-4 text-white font-mono text-lg focus:outline-none focus:border-cyan-500"
+                className="w-full bg-slate-800 border border-slate-700 rounded-xl p-4 text-white font-mono text-lg focus:outline-none focus:border-gold-500"
               />
             </div>
           )}
@@ -1602,7 +1602,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
               <button
                 onClick={handleChallengeSubmit}
                 disabled={selectedOption === null && !numericInput}
-                className="bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold px-6 py-2.5 rounded-xl transition-all shadow-lg shadow-cyan-600/30"
+                className="bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold px-6 py-2.5 rounded-xl transition-all shadow-lg shadow-gold-600/30"
               >
                 Submit Answer
               </button>
@@ -1616,7 +1616,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Real World Activity Container */}
           <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col space-y-4">
-            <h3 className="text-xl font-bold text-cyan-400">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-xl font-bold text-gold-400">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="space-y-3 mt-2">
@@ -1654,7 +1654,7 @@ export const C12_EcoNationalIncomeCBSESim: React.FC<typeof DEFAULT_PROPS> = (pro
                 return (
                   <div key={id} className="bg-slate-800/60 p-2.5 rounded border border-slate-700 flex justify-between items-center text-xs">
                     <div>
-                      <span className="font-mono text-cyan-400 text-[11px] block">{id}</span>
+                      <span className="font-mono text-gold-400 text-[11px] block">{id}</span>
                       <span className="text-slate-400 text-[10px]">Probability of Mastery</span>
                     </div>
                     <div className="text-right">

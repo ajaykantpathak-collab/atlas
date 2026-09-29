@@ -1716,7 +1716,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
               difficulty === 'foundation'
                 ? 'bg-emerald-950 text-emerald-300 border-emerald-600'
                 : difficulty === 'standard'
-                ? 'bg-blue-950 text-blue-300 border-blue-600'
+                ? 'bg-gold-950 text-gold-300 border-gold-600'
                 : 'bg-rose-950 text-rose-300 border-rose-600'
             }`}
           >
@@ -1731,11 +1731,11 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+            className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
           >
-            <h2 className="text-xl font-black text-indigo-300 tracking-tight">{SCENARIO.title}</h2>
+            <h2 className="text-xl font-black text-gold-300 tracking-tight">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3.5 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs text-gold-200">
               📌 <strong className="text-white">Your Mission:</strong> {SCENARIO.context}
             </div>
           </motion.div>
@@ -1826,13 +1826,13 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
             <motion.div
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-4 bg-gradient-to-r from-blue-950/60 to-slate-900 rounded-2xl border border-blue-800/50 shadow-md space-y-2.5"
+              className="p-4 bg-gradient-to-r from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/50 shadow-md space-y-2.5"
             >
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 text-[11px] font-extrabold bg-blue-500 text-slate-950 rounded uppercase tracking-wider">
+                <span className="px-2 py-0.5 text-[11px] font-extrabold bg-gold-500 text-slate-950 rounded uppercase tracking-wider">
                   🎯 Step 1: Predict Before You Test
                 </span>
-                <span className="text-xs text-blue-300 font-semibold">Brilliant.org Hypothesis Check</span>
+                <span className="text-xs text-gold-300 font-semibold">Brilliant.org Hypothesis Check</span>
               </div>
               <p className="text-sm font-bold text-white">
                 {PREDICTION_QUESTIONS[currentSlide].question}
@@ -1858,14 +1858,14 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                           : 'bg-slate-900 hover:bg-slate-800 border-slate-750 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-1.5 text-blue-400">{String.fromCharCode(65 + oIdx)}.</span>
+                      <span className="font-bold mr-1.5 text-gold-400">{String.fromCharCode(65 + oIdx)}.</span>
                       {opt}
                     </button>
                   );
                 })}
               </div>
               {predictionAnswers[PREDICTION_QUESTIONS[currentSlide].id] !== undefined && (
-                <div className="p-2.5 bg-blue-900/30 border border-blue-700/40 rounded-xl text-xs text-blue-200 mt-1">
+                <div className="p-2.5 bg-gold-900/30 border border-gold-700/40 rounded-xl text-xs text-gold-200 mt-1">
                   🔍 <strong>Verify Instruction:</strong> {PREDICTION_QUESTIONS[currentSlide].verifyInstruction}
                 </div>
               )}
@@ -1981,7 +1981,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between text-xs font-bold text-slate-300">
                       <span>Simulated Annual Rainfall</span>
-                      <span className="text-blue-400 font-extrabold text-sm">{simRainfall} cm</span>
+                      <span className="text-gold-400 font-extrabold text-sm">{simRainfall} cm</span>
                     </div>
                     <input
                       type="range"
@@ -1990,7 +1990,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                       value={simRainfall}
                       aria-label="Adjust annual rainfall in centimetres"
                       onChange={e => handleRainfallSlider(Number(e.target.value))}
-                      className="w-full accent-blue-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     <div className="pt-2">
@@ -2081,11 +2081,11 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                         onClick={() => handleIndustrySelect(ind.id as 'sugar' | 'cotton' | 'steel' | 'electronics')}
                         className={`p-3 rounded-xl text-left transition-all ${
                           selectedIndustry === ind.id
-                            ? 'bg-indigo-900/80 border-2 border-indigo-400 text-white'
+                            ? 'bg-gold-900/80 border-2 border-gold-400 text-white'
                             : 'bg-slate-950 border border-slate-800 text-slate-300 hover:bg-slate-850'
                         }`}
                       >
-                        <span className="text-xs font-black block text-indigo-300">{ind.badge}</span>
+                        <span className="text-xs font-black block text-gold-300">{ind.badge}</span>
                         <span className="text-xs font-bold block mt-1">{ind.label}</span>
                       </motion.button>
                     ))}
@@ -2102,7 +2102,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                     )}
                     {selectedIndustry === 'cotton' && (
                       <div>
-                        <strong className="text-blue-300 text-sm block mb-1">
+                        <strong className="text-gold-300 text-sm block mb-1">
                           Cotton Textiles (Mumbai, Ahmedabad, Surat):
                         </strong>
                         Raw cotton can be baled and transported without spoilage. Coastal maritime humidity prevents yarn breakage during high-speed spinning. Port access enables raw cotton imports and textile exports.
@@ -2154,7 +2154,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                         onClick={() => handleTransportSelect('rail')}
                         className={`p-2 rounded-lg text-xs font-bold ${
                           activeTransportLayer === 'rail'
-                            ? 'bg-blue-600 text-white'
+                            ? 'bg-gold-600 text-white'
                             : 'bg-slate-800 text-slate-300'
                         }`}
                       >
@@ -2255,9 +2255,9 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => handleWasteDragSortIncrement('recycle')}
-                      className="p-3 bg-blue-950/70 border border-blue-700/50 rounded-xl text-left hover:bg-blue-900"
+                      className="p-3 bg-gold-950/70 border border-gold-700/50 rounded-xl text-left hover:bg-gold-900"
                     >
-                      <span className="text-xs font-bold text-blue-300 block">🔄 3R Recycling</span>
+                      <span className="text-xs font-bold text-gold-300 block">🔄 3R Recycling</span>
                       <span className="text-xs text-slate-400 block mt-1">Paper, Glass, Cans (Count: {wasteBucketCounts.recycle})</span>
                     </motion.button>
                     <motion.button
@@ -2469,7 +2469,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                   onClick={() => setSandboxHydroActive(!sandboxHydroActive)}
                   className={`flex-1 p-2 rounded-xl text-xs font-bold border transition-all ${
                     sandboxHydroActive
-                      ? 'bg-blue-950 border-blue-500 text-blue-200'
+                      ? 'bg-gold-950 border-gold-500 text-gold-200'
                       : 'bg-slate-950 border-slate-800 text-slate-500'
                   }`}
                 >
@@ -2569,7 +2569,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                 )}
               </div>
 
-              <div className="p-2.5 bg-indigo-950/40 border border-indigo-800/40 rounded-xl text-xs text-indigo-300">
+              <div className="p-2.5 bg-gold-950/40 border border-gold-800/40 rounded-xl text-xs text-gold-300">
                 ✨ Ready to demonstrate your geography expertise? Advance to Challenge mode.
               </div>
             </div>
@@ -2595,7 +2595,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
 
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2657,7 +2657,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -2797,7 +2797,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-indigo-900 border border-indigo-600 rounded-lg text-xs font-bold text-white flex items-center gap-1"
+                      className="px-2.5 py-1 bg-gold-900 border border-gold-600 rounded-lg text-xs font-bold text-white flex items-center gap-1"
                     >
                       {p}
                       <motion.button
@@ -2888,7 +2888,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
           <motion.div
             initial={{ y: 20 }}
             animate={{ y: 0 }}
-            className="p-6 bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 rounded-2xl border border-indigo-800/60 text-center space-y-3 shadow-xl"
+            className="p-6 bg-gradient-to-br from-slate-900 via-slate-900 to-gold-950 rounded-2xl border border-gold-800/60 text-center space-y-3 shadow-xl"
           >
             <span className="text-4xl">🎖️</span>
             
@@ -2915,7 +2915,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-slate-400 block">Mastery Status</span>
-                <span className="text-indigo-300 text-lg font-black capitalize">{masteryLevel}</span>
+                <span className="text-gold-300 text-lg font-black capitalize">{masteryLevel}</span>
               </div>
             </div>
           </motion.div>
@@ -2924,7 +2924,7 @@ function C10_GeographyEnergyResourcesConventionalSim(props: Props = DEFAULT_PROP
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-5 bg-gradient-to-r from-amber-950/80 via-slate-900 to-indigo-950/80 border-2 border-amber-500/60 rounded-2xl shadow-xl space-y-2"
+            className="p-5 bg-gradient-to-r from-amber-950/80 via-slate-900 to-gold-950/80 border-2 border-amber-500/60 rounded-2xl shadow-xl space-y-2"
           >
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">

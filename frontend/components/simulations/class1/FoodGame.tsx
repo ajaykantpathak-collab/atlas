@@ -30,7 +30,7 @@ import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/
 const TEACHING_SLIDES = [
     { title: 'Food is Our Fuel! 🍛', text: 'Food gives us energy to play and study, helps our body grow taller and stronger, and protects us from falling ill!', emoji: '🍛', bgColor: 'from-amber-400 to-orange-500', spoken: 'Food gives us energy to play and study, helps our body grow taller, and protects us from falling ill!' },
     { title: 'Energy-Giving Foods 🌾', text: 'Foods like rice, roti, chapati, and potatoes give us energy to run, jump, and think all day long!', emoji: '🍚', bgColor: 'from-yellow-400 to-amber-500', spoken: 'Foods like rice, roti, and potatoes give us energy to run, jump, and think all day long!' },
-    { title: 'Body-Building Foods 🥛', text: 'Milk, dal, eggs, and paneer help our bones and muscles grow strong so we get taller and stronger!', emoji: '🥛', bgColor: 'from-blue-400 to-indigo-500', spoken: 'Milk, dal, eggs, and paneer help our bones and muscles grow strong so we get taller!' },
+    { title: 'Body-Building Foods 🥛', text: 'Milk, dal, eggs, and paneer help our bones and muscles grow strong so we get taller and stronger!', emoji: '🥛', bgColor: 'from-gold-400 to-gold-500', spoken: 'Milk, dal, eggs, and paneer help our bones and muscles grow strong so we get taller!' },
     { title: 'Protective Foods 🍎', text: 'Fruits like apples and oranges, and vegetables like spinach and carrots guard our body against illness!', emoji: '🍎', bgColor: 'from-green-400 to-emerald-500', spoken: 'Fruits and vegetables guard our body against illness and keep us healthy!' },
     { title: 'Healthy Food vs Junk Food 🍫', text: 'Fresh meals give us goodness! Chips, chocolates, and cold drinks are junk food - they taste nice but harm our teeth and body over time if we eat too much!', emoji: '🍫', bgColor: 'from-rose-400 to-red-500', spoken: 'Fresh meals give us goodness! Chips and chocolates are junk food that can harm our body if we eat too much!' },
 ];
@@ -320,8 +320,8 @@ function KitchenScene({ width, height }: {
         <rect width="720" height="560" fill="url(#kitchen-wall)"/>
       </svg>
       {/* Window */}
-      <div className="absolute top-4 left-6 w-32 h-28 bg-sky-200 border-4 border-amber-900 rounded-lg overflow-hidden opacity-80">
-        <div className="absolute inset-0 bg-gradient-to-b from-sky-300 to-sky-100"/>
+      <div className="absolute top-4 left-6 w-32 h-28 bg-gold-200 border-4 border-amber-900 rounded-lg overflow-hidden opacity-80">
+        <div className="absolute inset-0 bg-gradient-to-b from-gold-300 to-gold-100"/>
         {/* Window grid */}
         <div className="absolute inset-0 border-r-2 border-b-2 border-amber-900 left-1/2 top-0 bottom-0"/>
         <div className="absolute inset-0 border-b-2 border-amber-900 top-1/2 left-0 right-0"/>

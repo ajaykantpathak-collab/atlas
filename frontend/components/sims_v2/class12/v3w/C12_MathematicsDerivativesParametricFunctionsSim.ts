@@ -11,7 +11,7 @@ export const w_c12_mathematicsderivativesparametricfunctionssim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Rate of Change of Quantities',
     chapters: [],
     nodeIds: ['c12_math_cbse_06_001', 'c12_math_cbse_06_008', 'c12_math_cbse_05_004', 'c12_math_cbse_05_005', 'c12_math_cbse_05_006', 'c12_math_cbse_05_007', 'c12_math_cbse_05_009', 'c12_math_cbse_05_010', 'c12_math_cbse_05_011', 'c12_math_cbse_06_002', 'c12_math_cbse_06_003', 'c12_math_cbse_06_004', 'c12_math_cbse_06_007', 'c12_math_cbse_07_010', 'c12_math_cbse_06_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling a spherical balloon with helium at a steady rate of 900 cm³/s.', goal: 'Master Rate of Change of Quantities.' },
     discovery: {
         question: 'A cube\'s volume V = x³ where x is the edge length. If the volume increases at 9 cm³/s, a student writes dx/dt = 9 / (3x²) and then substitutes x = 10 to get.',
@@ -20,7 +20,7 @@ export const w_c12_mathematicsderivativesparametricfunctionssim: SimDef = {
         hook: 'Students write dA/dt = 2πr instead of dA/dt = 2πr (dr/dt) when differentiating A = πr² with respect to time.',
     },
     teaching: [
-        { title: 'The rate of change of a quantity y with.', text: 'The rate of change of a quantity y with respect to another quantity x is defined as the derivative dy/dx (or f\'(x)) where y = f(x).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The rate of change of a quantity y with.', text: 'The rate of change of a quantity y with respect to another quantity x is defined as the derivative dy/dx (or f\'(x)) where y = f(x).', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_06_001', title: 'The rate of change of a quantity y with.',

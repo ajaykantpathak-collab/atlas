@@ -1094,13 +1094,13 @@ function C12_MathematicsTypesVectorsequalSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="p-3 bg-blue-900/40 border border-blue-500/30 rounded-2xl text-2xl shadow-inner" aria-hidden="true">
+          <span className="p-3 bg-gold-900/40 border border-gold-500/30 rounded-2xl text-2xl shadow-inner" aria-hidden="true">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30 font-medium">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30 font-medium">
                 ISC Class 12
               </span>
             </h1>
@@ -1123,7 +1123,7 @@ function C12_MathematicsTypesVectorsequalSim({
               }}
               aria-label={`Switch to ${p} phase`}
               className={`px-3 py-1.5 rounded-lg capitalize transition-all ${
-                phase === p ? 'bg-blue-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
+                phase === p ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
               }`}
             >
               {p}
@@ -1135,13 +1135,13 @@ function C12_MathematicsTypesVectorsequalSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-blue-950/60 to-slate-900/80 rounded-2xl border border-blue-800/40 shadow-lg">
-            <div className="flex items-center gap-2 text-blue-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900/80 rounded-2xl border border-gold-800/40 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚀 Mission Briefing</span>
             </div>
             <h2 className="text-lg font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-blue-300/80 mt-3 pt-3 border-t border-blue-900/40">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-3 pt-3 border-t border-gold-900/40">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-xl">
@@ -1164,10 +1164,10 @@ function C12_MathematicsTypesVectorsequalSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-blue-500/50'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
-                  <span className="font-bold text-blue-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 mr-1.5 font-bold">✓</span>}
                   {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="text-slate-500 mr-1.5 font-bold">✗</span>}
                   {opt}
@@ -1185,7 +1185,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Flight Dynamics Labs"
-                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-blue-500/25 flex items-center gap-2"
+                  className="mt-4 px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg hover:shadow-gold-500/25 flex items-center gap-2"
                 >
                   Enter Interactive Flight Dynamics Labs →
                 </motion.button>
@@ -1214,7 +1214,7 @@ function C12_MathematicsTypesVectorsequalSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-blue-600 border-blue-400 text-white shadow-md'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white'
                 }`}
               >
@@ -1232,7 +1232,7 @@ function C12_MathematicsTypesVectorsequalSim({
               className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-                <h3 className="text-lg font-bold text-blue-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <span className="text-xs px-2 py-1 bg-slate-800 rounded-md text-slate-400 font-mono">
                   Node: {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
@@ -1282,7 +1282,7 @@ function C12_MathematicsTypesVectorsequalSim({
                     </svg>
 
                     <div className="flex flex-wrap items-center justify-center gap-3 mt-2 text-xs font-mono">
-                      <span className="text-blue-400">|a| = 5.0 units</span>
+                      <span className="text-gold-400">|a| = 5.0 units</span>
                       <span className="text-amber-400">|b| = {Math.abs(sliderK * 5).toFixed(1)} units</span>
                       <span className="text-purple-400">
                         {sliderK === 1
@@ -1313,7 +1313,7 @@ function C12_MathematicsTypesVectorsequalSim({
                           setSliderK(parseFloat(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-blue-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
 
                       <div className="grid grid-cols-2 gap-2 mt-4 text-xs">
@@ -1325,12 +1325,12 @@ function C12_MathematicsTypesVectorsequalSim({
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <p className="text-slate-400">Unit Vector a^</p>
-                          <p className="font-bold text-blue-300 mt-0.5">0.6i + 0.8j</p>
+                          <p className="font-bold text-gold-300 mt-0.5">0.6i + 0.8j</p>
                         </div>
                       </div>
                     </div>
 
-                    <div className="p-3 bg-blue-950/40 border border-blue-800/40 rounded-xl text-xs text-blue-200">
+                    <div className="p-3 bg-gold-950/40 border border-gold-800/40 rounded-xl text-xs text-gold-200">
                       💡 <strong>Key Rule:</strong> Vectors are equal only when magnitude AND direction match. Parallel vectors satisfy b = k*a.
                     </div>
                   </div>
@@ -1399,8 +1399,8 @@ function C12_MathematicsTypesVectorsequalSim({
                   <div className="lg:col-span-5 space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800 text-xs">
                     <div>
                       <label className="text-slate-300 block">Vector a components: ({vecAx}i + {vecAy}j)</label>
-                      <input aria-label="Vector A X component" type="range" min={1} max={8} value={vecAx} onChange={(e) => setVecAx(parseInt(e.target.value))} className="w-full accent-blue-400 mt-1" />
-                      <input aria-label="Vector A Y component" type="range" min={1} max={8} value={vecAy} onChange={(e) => setVecAy(parseInt(e.target.value))} className="w-full accent-blue-400 mt-1" />
+                      <input aria-label="Vector A X component" type="range" min={1} max={8} value={vecAx} onChange={(e) => setVecAx(parseInt(e.target.value))} className="w-full accent-gold-400 mt-1" />
+                      <input aria-label="Vector A Y component" type="range" min={1} max={8} value={vecAy} onChange={(e) => setVecAy(parseInt(e.target.value))} className="w-full accent-gold-400 mt-1" />
                     </div>
                     <div>
                       <label className="text-slate-300 block">Vector b components: ({vecBx}i + {vecBy}j)</label>
@@ -1430,7 +1430,7 @@ function C12_MathematicsTypesVectorsequalSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400">a . b (Dot)</span>
-                        <p className={`font-bold text-sm ${parseFloat(computedDotProduct) === 0 ? 'text-emerald-400 animate-pulse' : 'text-blue-300'}`}>
+                        <p className={`font-bold text-sm ${parseFloat(computedDotProduct) === 0 ? 'text-emerald-400 animate-pulse' : 'text-gold-300'}`}>
                           {computedDotProduct}
                         </p>
                       </div>
@@ -1613,7 +1613,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   audioManager.play('tap');
                 }}
                 aria-label="Go to next lab"
-                className="px-5 py-2 bg-blue-600 text-white rounded-xl text-xs font-bold shadow-md hover:bg-blue-500"
+                className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md hover:bg-gold-500"
               >
                 Next Lab →
               </motion.button>
@@ -1655,10 +1655,10 @@ function C12_MathematicsTypesVectorsequalSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Controls */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3 text-xs">
-                <h4 className="font-bold text-blue-400 uppercase tracking-wider">Vector Parameters</h4>
+                <h4 className="font-bold text-gold-400 uppercase tracking-wider">Vector Parameters</h4>
                 <div>
                   <label className="text-slate-400">Vector A Magnitude: {magA}</label>
-                  <input aria-label="Vector A magnitude in sandbox" type="range" min={1} max={10} value={magA} onChange={(e) => setMagA(parseInt(e.target.value))} className="w-full accent-blue-400 mt-1" />
+                  <input aria-label="Vector A magnitude in sandbox" type="range" min={1} max={10} value={magA} onChange={(e) => setMagA(parseInt(e.target.value))} className="w-full accent-gold-400 mt-1" />
                 </div>
                 <div>
                   <label className="text-slate-400">Vector B Magnitude: {magB}</label>
@@ -1675,7 +1675,7 @@ function C12_MathematicsTypesVectorsequalSim({
                 <h4 className="font-bold text-emerald-400 uppercase tracking-wider font-sans">Live Flight Telemetry</h4>
                 <div className="p-2 bg-slate-900 rounded border border-slate-800">
                   <span className="text-slate-400">Dot Product (a . b):</span>
-                  <p className="text-blue-300 font-bold text-sm">{computedDotProduct}</p>
+                  <p className="text-gold-300 font-bold text-sm">{computedDotProduct}</p>
                 </div>
                 <div className="p-2 bg-slate-900 rounded border border-slate-800">
                   <span className="text-slate-400">Cross Product Magnitude |a x b|:</span>
@@ -1738,7 +1738,7 @@ function C12_MathematicsTypesVectorsequalSim({
                     ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
-                    : 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                    : 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                 }`}
               >
                 {difficulty}
@@ -1750,14 +1750,14 @@ function C12_MathematicsTypesVectorsequalSim({
 
             <div className="flex items-center gap-2">
               <span className="text-xs text-slate-400">Errors: <strong className="text-rose-400">{errors}</strong></span>
-              <span className="text-xs text-slate-400">Mastery: <strong className="text-blue-400 capitalize">{masteryLevel}</strong></span>
+              <span className="text-xs text-slate-400">Mastery: <strong className="text-gold-400 capitalize">{masteryLevel}</strong></span>
             </div>
           </div>
 
           {/* Progress Bar */}
           <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-blue-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1771,7 +1771,7 @@ function C12_MathematicsTypesVectorsequalSim({
               wrongFlash ? 'bg-rose-950/40 border-rose-500' : 'border-slate-800'
             }`}
           >
-            <div className="flex items-center gap-2 text-xs text-blue-400 font-mono mb-2">
+            <div className="flex items-center gap-2 text-xs text-gold-400 font-mono mb-2">
               <span>ISC Syllabus Node: {challenge.nodeId}</span>
             </div>
             <p className="text-base text-white font-medium mb-6 leading-relaxed">{challenge.question}</p>
@@ -1792,10 +1792,10 @@ function C12_MathematicsTypesVectorsequalSim({
                     className={`p-4 rounded-xl text-left text-sm transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-blue-500/50'
+                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="font-bold text-blue-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {showExplanation && (
                       i === challenge.correctIndex ? (
                         <span className="text-emerald-400 font-bold mr-1.5">✓</span>
@@ -1819,7 +1819,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric answer"
                   aria-label="Numeric answer input"
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-blue-500"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-sm text-slate-400 font-mono">{challenge.unit}</span>
                 <motion.button
@@ -1828,7 +1828,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
                   aria-label="Verify answer button"
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm rounded-xl disabled:opacity-40"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl disabled:opacity-40"
                 >
                   Verify Answer
                 </motion.button>
@@ -1856,9 +1856,9 @@ function C12_MathematicsTypesVectorsequalSim({
                         const fromIdx = parseInt(draggedItem || '0');
                         handleSortMove(fromIdx, displayIdx);
                       }}
-                      className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3 active:cursor-grabbing hover:border-blue-500/50"
+                      className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3 active:cursor-grabbing hover:border-gold-500/50"
                     >
-                      <span className="w-5 h-5 rounded-full bg-blue-900/60 text-blue-300 font-bold flex items-center justify-center text-[10px]">
+                      <span className="w-5 h-5 rounded-full bg-gold-900/60 text-gold-300 font-bold flex items-center justify-center text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -1871,7 +1871,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
                   aria-label="Check sequence order"
-                  className="mt-2 px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-xl"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -1890,7 +1890,7 @@ function C12_MathematicsTypesVectorsequalSim({
                       tabIndex={0}
                       aria-label={`Draggable label: ${item.label}`}
                       onDragStart={() => handleDragStart(item.label)}
-                      className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-500/40 rounded-lg text-xs text-indigo-200 font-semibold cursor-grab"
+                      className="px-3 py-1.5 bg-gold-900/60 border border-gold-500/40 rounded-lg text-xs text-gold-200 font-semibold cursor-grab"
                     >
                       {item.label}
                     </motion.div>
@@ -1920,7 +1920,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
                   aria-label="Check diagram labels"
-                  className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                 >
                   Check Diagram Labels
                 </motion.button>
@@ -1938,7 +1938,7 @@ function C12_MathematicsTypesVectorsequalSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part ${part}`}
-                      className="px-3 py-1.5 bg-blue-900/40 hover:bg-blue-800/60 border border-blue-500/30 text-blue-200 rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-900/40 hover:bg-gold-800/60 border border-gold-500/30 text-gold-200 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -1947,7 +1947,7 @@ function C12_MathematicsTypesVectorsequalSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-blue-700 text-white rounded font-mono text-xs flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-700 text-white rounded font-mono text-xs flex items-center gap-1.5">
                       {part}
                       <button aria-label={`Remove part ${part}`} onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-red-300 hover:text-white">✕</button>
                     </span>
@@ -1961,7 +1961,7 @@ function C12_MathematicsTypesVectorsequalSim({
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
                   aria-label="Verify constructed equation"
-                  className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl"
                 >
                   Verify Equation
                 </motion.button>
@@ -1978,14 +1978,14 @@ function C12_MathematicsTypesVectorsequalSim({
 
             {/* ── STEP-BY-STEP PROGRESSIVE DISCLOSURE EXPLANATION ── */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-blue-950/40 border border-blue-700/50 rounded-2xl space-y-3">
-                <div className="flex items-center gap-2 text-blue-300 font-bold text-xs uppercase tracking-wider">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 bg-gold-950/40 border border-gold-700/50 rounded-2xl space-y-3">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase tracking-wider">
                   <span>📘 Step-by-Step Mathematical Explanation</span>
                 </div>
 
                 {challenge.explanation.split('. ').filter(s => s.trim().length > 0).slice(0, revealedSteps + 1).map((sentence, i) => (
-                  <motion.p key={i} initial={{ opacity: 0, x: -6 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-blue-100 leading-relaxed">
-                    <strong className="text-blue-400 mr-1.5">{i + 1}.</strong>
+                  <motion.p key={i} initial={{ opacity: 0, x: -6 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-gold-100 leading-relaxed">
+                    <strong className="text-gold-400 mr-1.5">{i + 1}.</strong>
                     {sentence}{!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -1997,7 +1997,7 @@ function C12_MathematicsTypesVectorsequalSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
                       aria-label="Show next explanation step"
-                      className="px-4 py-2 bg-blue-800 hover:bg-blue-700 text-white text-xs font-bold rounded-xl"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-xl"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2022,13 +2022,13 @@ function C12_MathematicsTypesVectorsequalSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-blue-950/80 to-slate-900 rounded-3xl border border-blue-800 shadow-2xl text-center">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-3xl border border-gold-800 shadow-2xl text-center">
             <span className="text-4xl" aria-hidden="true">🛰️</span>
             <h2 className="text-2xl md:text-3xl font-black text-white mt-2">Mission Accomplished!</h2>
             <p className="text-slate-300 text-sm mt-1">ISC Class 12 Vector Algebra & 3D Geometry Competency Verified</p>
 
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="my-4 p-4 rounded-2xl bg-blue-900/40 border border-blue-500/40 max-w-xl mx-auto">
+            <div className="my-4 p-4 rounded-2xl bg-gold-900/40 border border-gold-500/40 max-w-xl mx-auto">
               <p className="text-lg font-black text-amber-300">
                 {getMotivationalMessage(errors)}
               </p>
@@ -2045,7 +2045,7 @@ function C12_MathematicsTypesVectorsequalSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">BKT Mastery</span>
-                <p className="text-xl font-bold text-blue-400 capitalize">{masteryLevel}</p>
+                <p className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</p>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Review Due</span>

@@ -11,7 +11,7 @@ export const w_c11_economicshumanwantsclassificationsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Sustainable Development: Definition and Brundtland Report',
     chapters: [],
     nodeIds: ['c11_eco_cbse_07_008', 'c11_eco_cbse_07_009', 'c11_eco_cbse_07_001', 'c11_eco_cbse_07_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a village sarpanch in Rajasthan deciding whether to allow a water-intensive crop (sugarcane).', goal: 'Master Sustainable Development: Definition and Brundtland Report.' },
     discovery: {
         question: 'Compare the Brundtland definition with Edward Barbier\'s definition ("increasing the material standard of living of the poor at the grass root level...',
@@ -20,7 +20,7 @@ export const w_c11_economicshumanwantsclassificationsim: SimDef = {
         hook: 'Students often equate "sustainable development" with "environmental protection" or "green growth," thinking it only.',
     },
     teaching: [
-        { title: 'Sustainable development is a development.', text: 'Sustainable development is a development paradigm that meets the needs of the present generation without compromising the ability of future generations to meet their own needs, as defined by the.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Sustainable development is a development.', text: 'Sustainable development is a development paradigm that meets the needs of the present generation without compromising the ability of future generations to meet their own needs, as defined by the.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_07_008', title: 'Sustainable development is a.',

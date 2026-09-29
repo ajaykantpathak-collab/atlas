@@ -11,7 +11,7 @@ export const w_c12_computersciencejavaprojectbankingsim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Phishing, Identity Theft and Cyberbullying',
     chapters: [],
     nodeIds: ['c12_cs_cbse_12_003', 'c12_cs_cbse_04_006', 'c12_cs_cbse_04_007', 'c12_cs_cbse_13_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you receive an SMS: "Your SBI account will be closed in 2 hours.', goal: 'Master Phishing, Identity Theft and Cyberbullying.' },
     discovery: {
         question: 'A student receives an email claiming to be from "CBSE Board" with sender address "cbse.results@gov.in.biz" and subject "URGENT: Your Class 12 Marksheet Error -.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencejavaprojectbankingsim: SimDef = {
         hook: 'Students believe phishing only happens via email with obvious errors (bad grammar, generic "Dear Customer").',
     },
     teaching: [
-        { title: 'Phishing is a cyber attack where attackers.', text: 'Phishing is a cyber attack where attackers impersonate legitimate entities via deceptive emails, messages, or websites to trick users into revealing sensitive information like passwords, OTPs, or.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Phishing is a cyber attack where attackers.', text: 'Phishing is a cyber attack where attackers impersonate legitimate entities via deceptive emails, messages, or websites to trick users into revealing sensitive information like passwords, OTPs, or.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_12_003', title: 'Phishing is a cyber attack where.',

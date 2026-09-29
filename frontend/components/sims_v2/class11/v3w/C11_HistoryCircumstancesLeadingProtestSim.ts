@@ -11,7 +11,7 @@ export const w_c11_historycircumstancesleadingprotestsim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'The Quran and the Hadith: Sacred Texts and Their Compilation',
     chapters: [],
     nodeIds: ['c11_hist_cbse_04_004', 'c11_hist_cbse_04_008', 'c11_hist_cbse_04_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are visiting the National Museum in New Delhi and see a 7th-century Quranic manuscript on.', goal: 'Master The Quran and the Hadith: Sacred Texts and Their Compilation.' },
     discovery: {
         question: 'A historian finds a 9th-century Hadith collection claiming: "The Prophet said: \'Seek knowledge even unto China.\'" The isnad includes three trustworthy.',
@@ -20,7 +20,7 @@ export const w_c11_historycircumstancesleadingprotestsim: SimDef = {
         hook: 'Students often believe the Quran was written as a complete book during the Prophet\'s lifetime, or that the Hadith are.',
     },
     teaching: [
-        { title: 'The Quran is the central religious text of.', text: 'The Quran is the central religious text of Islam, believed by Muslims to be the verbatim word of God (Allah) revealed to the Prophet Muhammad over 23 years (610–632 CE) in Mecca and Medina, compiled.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Quran is the central religious text of.', text: 'The Quran is the central religious text of Islam, believed by Muslims to be the verbatim word of God (Allah) revealed to the Prophet Muhammad over 23 years (610–632 CE) in Mecca and Medina, compiled.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_04_004', title: 'The Quran is the central religious text.',

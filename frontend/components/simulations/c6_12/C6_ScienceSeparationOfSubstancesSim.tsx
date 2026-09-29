@@ -72,15 +72,15 @@ function C6_ScienceSeparationOfSubstancesSim() {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-indigo-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-indigo-700">Separation of substances -- the property machine</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">Separation of substances -- the property machine</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         A separation method only works if it uses a <b>difference</b>: size, weight, settling, or boiling. Feed
         each mixture to the machine and choose its method. Wrong picks get an explanation, not a punishment!
       </p>
 
       <div className="grid md:grid-cols-[1fr_250px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-indigo-100 bg-indigo-50/40 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/40 overflow-hidden">
           <svg viewBox="0 0 640 300" className="w-full">
             <rect width="640" height="300" fill="#eef2ff" />
             <rect x="30" y="40" width="580" height="180" rx="16" fill="#ffffff" stroke="#a5b4fc" strokeWidth="3" />
@@ -143,7 +143,7 @@ function C6_ScienceSeparationOfSubstancesSim() {
         <div className="space-y-2">
           <div className="p-2 rounded-xl bg-slate-100 text-center">
             <div className="text-[10px] uppercase tracking-wide text-slate-500 font-bold">First-try score</div>
-            <div className="text-lg font-black text-indigo-700">{score} / 5</div>
+            <div className="text-lg font-black text-gold-700">{score} / 5</div>
           </div>
           {m.methods.map((meth, i) => (
             <button key={meth} onClick={() => { if (picked === null) { setPicked(i); if (i === m.correct) setScore(score + 1); } }} className={'w-full text-left px-3 py-2 rounded-xl text-xs font-bold transition-colors ' + (picked === null ? 'bg-slate-100 text-slate-700 hover:bg-slate-200' : picked === i ? (solved ? 'bg-emerald-500 text-white' : 'bg-rose-500 text-white') : i === m.correct ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-400')}>
@@ -156,7 +156,7 @@ function C6_ScienceSeparationOfSubstancesSim() {
             </div>
           )}
           {solved && idx < MIXTURES.length - 1 && (
-            <button onClick={nextMixture} className="w-full min-h-11 px-3 py-2 rounded-xl text-xs font-black bg-indigo-600 text-white hover:bg-indigo-700 transition-colors">
+            <button onClick={nextMixture} className="w-full min-h-11 px-3 py-2 rounded-xl text-xs font-black bg-gold-600 text-white hover:bg-gold-700 transition-colors">
               Load next mixture &gt;
             </button>
           )}
@@ -178,9 +178,9 @@ function C6_ScienceSeparationOfSubstancesSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Score 5/5 on first tries -- and for each mixture write its property word: size, weight, settling, or dissolved.</li>
           <li>Which TWO mixtures could both be cleaned with WATER involved? (Hint: think muddy water and salt water.)</li>
         </ol>

@@ -1137,11 +1137,11 @@ export function C6_PhysicsUniformNonuniformMotionSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/60 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/60 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase">
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase">
               ICSE Class 6 Physics • {subjectConfig.name}
             </span>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1161,7 +1161,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
               }}
               className={`px-3 py-1 text-xs font-bold rounded-xl transition-all capitalize ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-500 to-sky-500 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1181,19 +1181,19 @@ export function C6_PhysicsUniformNonuniformMotionSim({
           exit={{ opacity: 0, y: -20 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-            <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs font-bold uppercase tracking-widest border border-indigo-500/40">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-300 rounded-full text-xs font-bold uppercase tracking-widest border border-gold-500/40">
               Curiosity Hook
             </span>
             <h2 className="text-2xl font-black text-white mt-3">{SCENARIO.title}</h2>
             <p className="text-sm sm:text-base text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs sm:text-sm text-indigo-300/80 mt-2 italic font-mono">{SCENARIO.context}</p>
+            <p className="text-xs sm:text-sm text-gold-300/80 mt-2 italic font-mono">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-lg space-y-4">
             <h3 className="text-base sm:text-lg font-bold text-slate-100 flex items-center gap-2">
-              <span className="text-indigo-400 font-mono">Q:</span> {DISCOVERY_QUESTION.question}
+              <span className="text-gold-400 font-mono">Q:</span> {DISCOVERY_QUESTION.question}
             </h3>
 
             <div className="grid grid-cols-1 gap-3 pt-2">
@@ -1209,7 +1209,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/40 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700/80 hover:border-indigo-500 text-slate-200 hover:bg-slate-800'
+                      : 'bg-slate-800/80 border-slate-700/80 hover:border-gold-500 text-slate-200 hover:bg-slate-800'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
@@ -1232,7 +1232,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-xl font-bold shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Laboratories →
                 </motion.button>
@@ -1251,7 +1251,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
           className="mt-6 space-y-6"
         >
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">
               Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1">
@@ -1259,7 +1259,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                 <div
                   key={idx}
                   className={`h-1.5 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1301,7 +1301,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                           }}
                           className={`py-2 px-3 rounded-lg text-xs font-bold border transition-all ${
                             simMotionMode === 'uniform'
-                              ? 'bg-sky-950 border-sky-500 text-sky-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1327,7 +1327,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       <div className="pt-2">
                         <label className="text-xs text-slate-400 flex justify-between">
                           <span>Target Speed:</span>
-                          <span className="font-mono text-sky-400 font-bold">{simTrainSpeed} m/s ({Math.round(simTrainSpeed * 3.6)} km/h)</span>
+                          <span className="font-mono text-gold-400 font-bold">{simTrainSpeed} m/s ({Math.round(simTrainSpeed * 3.6)} km/h)</span>
                         </label>
                         <input
                           type="range"
@@ -1338,15 +1338,15 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                             setSimTrainSpeed(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full mt-1 accent-sky-500"
+                          className="w-full mt-1 accent-gold-500"
                           aria-label="Adjust target speed"
                         />
                       </div>
                     </div>
 
                     <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 space-y-2 text-xs text-slate-300">
-                      <span className="font-bold text-indigo-300 uppercase tracking-wider block">Live Telemetry</span>
-                      <p>• Distance per 1s: <span className="font-mono text-sky-400 font-bold">{simMotionMode === 'uniform' ? `${simTrainSpeed} m (Constant)` : 'Fluctuating (20m -> 5m -> 0m)'}</span></p>
+                      <span className="font-bold text-gold-300 uppercase tracking-wider block">Live Telemetry</span>
+                      <p>• Distance per 1s: <span className="font-mono text-gold-400 font-bold">{simMotionMode === 'uniform' ? `${simTrainSpeed} m (Constant)` : 'Fluctuating (20m -> 5m -> 0m)'}</span></p>
                       <p>• Rectilinear Status: <span className="font-mono text-emerald-400">Straight Line Path</span></p>
                       <p>• Classification: <span className="font-mono font-bold text-amber-300">{simMotionMode === 'uniform' ? 'Uniform Motion' : 'Non-Uniform Motion'}</span></p>
                     </div>
@@ -1366,7 +1366,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       <div className="w-16 h-20 bg-rose-700 rounded-l-lg flex items-center justify-center font-black text-white shadow-lg">
                         N
                       </div>
-                      <div className="w-16 h-20 bg-blue-700 rounded-r-lg flex items-center justify-center font-black text-white shadow-lg">
+                      <div className="w-16 h-20 bg-gold-700 rounded-r-lg flex items-center justify-center font-black text-white shadow-lg">
                         S
                       </div>
                     </motion.div>
@@ -1376,7 +1376,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       <motion.div
                         animate={{ opacity: [0.3, 0.9, 0.3], scaleX: [0.8, 1.2, 0.8] }}
                         transition={{ repeat: Infinity, duration: 1.5 }}
-                        className="absolute left-1/3 top-1/2 -translate-y-1/2 w-32 h-16 border-2 border-dashed border-sky-400/40 rounded-full pointer-events-none"
+                        className="absolute left-1/3 top-1/2 -translate-y-1/2 w-32 h-16 border-2 border-dashed border-gold-400/40 rounded-full pointer-events-none"
                       />
                     )}
 
@@ -1396,7 +1396,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <label className="text-xs text-slate-400 flex justify-between">
                       <span>Magnet Distance Gap:</span>
-                      <span className="font-mono text-sky-400 font-bold">{magnetDistance} mm (Force Power: {magneticAttractionPower}%)</span>
+                      <span className="font-mono text-gold-400 font-bold">{magnetDistance} mm (Force Power: {magneticAttractionPower}%)</span>
                     </label>
                     <input
                       type="range"
@@ -1407,7 +1407,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                         setMagnetDistance(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                       aria-label="Adjust magnet distance"
                     />
                     <p className="text-xs text-slate-400">
@@ -1422,8 +1422,8 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                 <div className="space-y-4">
                   {/* Predict Then Check Hook */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 border border-indigo-800 rounded-xl space-y-3">
-                      <p className="text-sm font-bold text-indigo-200">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/60 border border-gold-800 rounded-xl space-y-3">
+                      <p className="text-sm font-bold text-gold-200">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1461,7 +1461,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       <div>
                         <label className="text-xs text-slate-400 flex justify-between">
                           <span>Contact Edge Area (A):</span>
-                          <span className="font-mono text-sky-400 font-bold">{(knifeArea * 10000).toFixed(1)} cm² ({knifeArea} m²)</span>
+                          <span className="font-mono text-gold-400 font-bold">{(knifeArea * 10000).toFixed(1)} cm² ({knifeArea} m²)</span>
                         </label>
                         <input
                           type="range"
@@ -1470,7 +1470,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                           step={0.0001}
                           value={knifeArea}
                           onChange={(e) => setKnifeArea(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set contact area"
                         />
                       </div>
@@ -1484,7 +1484,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                         animate={{ scale: 1, color: '#ffffff' }}
                         className="text-3xl sm:text-4xl font-black font-mono text-white"
                       >
-                        {livePressure.toLocaleString()} <span className="text-lg text-sky-400 font-normal">Pa (N/m²)</span>
+                        {livePressure.toLocaleString()} <span className="text-lg text-gold-400 font-normal">Pa (N/m²)</span>
                       </motion.span>
                       <span className={`text-xs font-bold px-3 py-1 rounded-full ${
                         livePressure > 50000 ? 'bg-rose-950 text-rose-300 border border-rose-700' : 'bg-emerald-950 text-emerald-300 border border-emerald-700'
@@ -1622,13 +1622,13 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                             max={20}
                             value={ctrl.val}
                             onChange={(e) => ctrl.setter(Number(e.target.value))}
-                            className="w-full accent-sky-500"
+                            className="w-full accent-gold-500"
                             aria-label={ctrl.label}
                           />
                         </div>
                       ))}
                     </div>
-                    <p className="text-xs text-center font-bold mt-2 text-indigo-300">
+                    <p className="text-xs text-center font-bold mt-2 text-gold-300">
                       {lightPathAligned ? '🌟 Beam Aligned: Light travels in a straight line through all 3 pinholes!' : '⚠️ Beam Blocked: Light cannot curve around unaligned slits!'}
                     </p>
                   </div>
@@ -1660,7 +1660,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs sm:text-sm shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1686,7 +1686,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
           animate={{ opacity: 1 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-slate-800">
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-slate-800">
             <h3 className="text-lg font-black text-white flex items-center gap-2">
               <span>🛠️</span> Multi-Variable Physics Playground
             </h3>
@@ -1698,12 +1698,12 @@ export function C6_PhysicsUniformNonuniformMotionSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Speed & Distance Sandbox */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-sky-400 uppercase tracking-wider block">1. Speed & Average Speed Lab</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">1. Speed & Average Speed Lab</span>
               <p className="text-xs text-slate-300">Set distance legs to compute average speed with stops:</p>
               <div className="space-y-2 text-xs font-mono bg-slate-950 p-3 rounded-xl border border-slate-800">
                 <div className="flex justify-between">
                   <span>Leg 1 (120 km in 2 h):</span>
-                  <span className="text-sky-400">60 km/h</span>
+                  <span className="text-gold-400">60 km/h</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Signal Halt:</span>
@@ -1711,7 +1711,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                 </div>
                 <div className="flex justify-between">
                   <span>Leg 2 (60 km in 1 h):</span>
-                  <span className="text-sky-400">60 km/h</span>
+                  <span className="text-gold-400">60 km/h</span>
                 </div>
                 <div className="border-t border-slate-800 pt-1 flex justify-between font-bold text-emerald-400">
                   <span>Average Speed (180 km / 3.5 h):</span>
@@ -1722,7 +1722,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
 
             {/* Pressure Sandbox */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider block">2. Pressure Calculator (P = F / A)</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block">2. Pressure Calculator (P = F / A)</span>
               <div className="grid grid-cols-2 gap-3 text-xs">
                 <div>
                   <label className="text-slate-400 block mb-1">Force: {knifeForce} N</label>
@@ -1732,7 +1732,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                     max={200}
                     value={knifeForce}
                     onChange={(e) => setKnifeForce(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Sandbox force input"
                   />
                 </div>
@@ -1745,7 +1745,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                     step={0.0002}
                     value={knifeArea}
                     onChange={(e) => setKnifeArea(Number(e.target.value))}
-                    className="w-full accent-sky-500"
+                    className="w-full accent-gold-500"
                     aria-label="Sandbox area input"
                   />
                 </div>
@@ -1791,7 +1791,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
 
             <div className="flex items-center gap-2">
               <span className="text-[11px] text-slate-400 uppercase font-mono tracking-wider">NEP Competency:</span>
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700 capitalize font-bold">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-700 capitalize font-bold">
                 {challenge.competencyLevel}
               </span>
               <motion.span
@@ -1803,7 +1803,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                     ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                    : 'bg-sky-950 text-sky-400 border border-sky-700'
+                    : 'bg-gold-950 text-gold-400 border border-gold-700'
                 }`}
               >
                 {difficulty}
@@ -1814,7 +1814,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-sky-400 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1847,7 +1847,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                     className={`w-full text-left p-4 rounded-xl text-sm font-medium transition-all border ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 border-slate-700/80 hover:border-indigo-500 text-slate-200 hover:bg-slate-800'
+                        : 'bg-slate-800/80 border-slate-700/80 hover:border-gold-500 text-slate-200 hover:bg-slate-800'
                     }`}
                     aria-label={`Option ${i + 1}: ${opt}`}
                   >
@@ -1870,7 +1870,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg cursor-grab font-bold text-xs shadow"
+                      className="px-3.5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg cursor-grab font-bold text-xs shadow"
                       role="button"
                       aria-label={`Draggable label: ${item.label}`}
                     >
@@ -1904,7 +1904,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow"
                 >
                   Verify Mappings
                 </motion.button>
@@ -1933,7 +1933,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs sm:text-sm font-medium flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-950 text-indigo-300 flex items-center justify-center font-mono font-bold text-xs border border-indigo-700">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-300 flex items-center justify-center font-mono font-bold text-xs border border-gold-700">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -1948,7 +1948,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow"
                 >
                   Check Sequence
                 </motion.button>
@@ -1965,7 +1965,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none w-48"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none w-48"
                     aria-label="Enter numeric answer"
                   />
                   <span className="text-slate-400 font-mono text-sm">{challenge.unit}</span>
@@ -1976,7 +1976,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2004,11 +2004,11 @@ export function C6_PhysicsUniformNonuniformMotionSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900/80 border border-indigo-600 rounded-lg text-xs text-indigo-200 flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900/80 border border-gold-600 rounded-lg text-xs text-gold-200 flex items-center gap-1.5">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
-                        className="text-indigo-400 hover:text-rose-400 font-bold"
+                        className="text-gold-400 hover:text-rose-400 font-bold"
                       >
                         ×
                       </button>
@@ -2024,7 +2024,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow"
                 >
                   Verify Assembly
                 </motion.button>
@@ -2094,7 +2094,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
           animate={{ opacity: 1, scale: 1 }}
           className="mt-6 space-y-6"
         >
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Laboratory Exploration Mastered!</h2>
             
@@ -2104,7 +2104,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                 errors === 0
                   ? 'bg-emerald-950/90 text-emerald-300 border-emerald-500/60'
                   : errors <= 3
-                  ? 'bg-sky-950/90 text-sky-300 border-sky-500/60'
+                  ? 'bg-gold-950/90 text-gold-300 border-gold-500/60'
                   : errors <= 7
                   ? 'bg-amber-950/90 text-amber-300 border-amber-500/60'
                   : 'bg-rose-950/90 text-rose-300 border-rose-500/60'
@@ -2130,7 +2130,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-[11px] text-slate-400 uppercase block">Mastery Tier</span>
-                <span className="text-xl font-bold text-sky-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 col-span-2 sm:col-span-1">
                 <span className="text-[11px] text-slate-400 uppercase block">Next Spaced Review</span>
@@ -2162,12 +2162,12 @@ export function C6_PhysicsUniformNonuniformMotionSim({
 
           {/* Real World Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-lg font-black text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-lg font-black text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2.5">
-                  <span className="font-mono text-indigo-400 font-bold">0{i + 1}.</span>
+                  <span className="font-mono text-gold-400 font-bold">0{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}
@@ -2185,7 +2185,7 @@ export function C6_PhysicsUniformNonuniformMotionSim({
                 setErrors(0);
                 audioManager.play('tap');
               }}
-              className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-sky-600 text-white font-bold rounded-2xl shadow-xl"
+              className="px-8 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold rounded-2xl shadow-xl"
             >
               Replay Simulation Laboratory ↻
             </motion.button>

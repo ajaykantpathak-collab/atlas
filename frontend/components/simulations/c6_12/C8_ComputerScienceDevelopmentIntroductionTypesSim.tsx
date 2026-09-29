@@ -1074,11 +1074,11 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
       {/* ─── HEADER BAR ─── */}
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-cyan-950/80 border border-cyan-500/30 flex items-center justify-center text-2xl shadow-inner">
+          <div className="w-12 h-12 rounded-2xl bg-gold-950/80 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-cyan-400">ICSE Class 8 • {subjectConfig.name}</span>
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">ICSE Class 8 • {subjectConfig.name}</span>
             <h1 className="text-lg sm:text-xl font-bold text-white">{title}</h1>
           </div>
         </div>
@@ -1093,14 +1093,14 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300'
                 : difficulty === 'standard'
-                ? 'bg-cyan-950/70 border-cyan-500 text-cyan-300'
+                ? 'bg-gold-950/70 border-gold-500 text-gold-300'
                 : 'bg-purple-950/70 border-purple-500 text-purple-300'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="text-xs bg-slate-900 px-3 py-1.5 rounded-xl border border-slate-800 text-slate-300">
-            Mastery: <span className="font-bold text-cyan-300 capitalize">{masteryLevel}</span>
+            Mastery: <span className="font-bold text-gold-300 capitalize">{masteryLevel}</span>
           </div>
         </div>
       </motion.div>
@@ -1108,10 +1108,10 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-slate-900 to-cyan-950/40 rounded-2xl border border-cyan-800/40">
-            <h2 className="text-xl font-black text-cyan-300 tracking-wide">{SCENARIO.title}</h2>
+          <div className="p-6 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/40">
+            <h2 className="text-xl font-black text-gold-300 tracking-wide">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-cyan-200/70 mt-2 italic">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-200/70 mt-2 italic">{SCENARIO.context}</p>
           </div>
 
           <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-4">
@@ -1143,7 +1143,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                         : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {discoveryAnswered && (
                       <span className="mr-2 font-bold">
                         {isCorrect ? '✓' : isSelected ? '✗' : ''}
@@ -1165,7 +1165,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-900/50 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-900/50 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1192,7 +1192,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
                   currentSlide === idx
-                    ? 'bg-cyan-600 text-white border-cyan-400 shadow-md shadow-cyan-900/50'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-900/50'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                 }`}
               >
@@ -1211,7 +1211,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
             >
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                  <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-amber-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
                 <span className="text-xs font-bold text-slate-500 bg-slate-950 px-2.5 py-1 rounded-lg border border-slate-800">
@@ -1234,7 +1234,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                           audioManager.play('tap');
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all border ${
-                          selectedAppType === t ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                          selectedAppType === t ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
                         {t} App
@@ -1251,7 +1251,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
 
                         {/* Screen Content */}
                         <div className="my-auto text-center space-y-2">
-                          <div className="w-12 h-12 mx-auto rounded-2xl bg-cyan-500/20 border border-cyan-400 flex items-center justify-center text-xl">
+                          <div className="w-12 h-12 mx-auto rounded-2xl bg-gold-500/20 border border-gold-400 flex items-center justify-center text-xl">
                             {selectedAppType === 'native' ? '📱' : selectedAppType === 'web' ? '🌐' : '⚡'}
                           </div>
                           <p className="text-xs font-bold text-white uppercase">{selectedAppType} Model</p>
@@ -1275,7 +1275,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       <div className="space-y-2 text-xs">
                         <div className="flex justify-between p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400">Delivery Model:</span>
-                          <span className="font-bold text-cyan-300">
+                          <span className="font-bold text-gold-300">
                             {selectedAppType === 'web' ? 'Browser URL (No Install)' : 'Google Play / App Store Install'}
                           </span>
                         </div>
@@ -1302,8 +1302,8 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                 <div className="bg-slate-950 rounded-2xl p-4 border border-slate-800 space-y-4">
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade && (
-                    <div className="p-4 bg-cyan-950/40 rounded-xl border border-cyan-800/40 space-y-3">
-                      <p className="text-xs font-bold text-cyan-300">💡 PREDICTION CHECK:</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40 space-y-3">
+                      <p className="text-xs font-bold text-gold-300">💡 PREDICTION CHECK:</p>
                       <p className="text-xs text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1334,7 +1334,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3.5 py-1.5 rounded-xl text-xs font-bold uppercase transition-all border ${
-                          selectedMedia === m ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-900 text-slate-400 border-slate-800'
+                          selectedMedia === m ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
                         {m}
@@ -1355,7 +1355,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       value={emiNoiseLevel}
                       aria-label="Simulated Environmental Electrical Noise percentage"
                       onChange={e => setEmiNoiseLevel(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1400,7 +1400,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       </div>
                       <div className="p-2 bg-slate-950 rounded-lg border border-slate-800 col-span-2">
                         <span className="text-slate-400 block">Typical ICSE Application:</span>
-                        <span className="font-bold text-cyan-300">{mediaSpecs.desc}</span>
+                        <span className="font-bold text-gold-300">{mediaSpecs.desc}</span>
                       </div>
                     </div>
                   </div>
@@ -1420,7 +1420,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                           audioManager.play('tap');
                         }}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold ${
-                          deviceMode === 'switch' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400'
+                          deviceMode === 'switch' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                         }`}
                       >
                         Mode: Intelligent Switch (MAC Unicast)
@@ -1522,7 +1522,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                         whileTap={{ scale: 0.97 }}
                         onClick={handleSendPacket}
                         disabled={isPacketSending}
-                        className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-50 text-white font-bold rounded-xl text-xs"
+                        className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl text-xs"
                       >
                         {isPacketSending ? 'Transmitting Frame...' : `Transmit Frame from A -> ${packetTarget}`}
                       </motion.button>
@@ -1549,7 +1549,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                           audioManager.play('tap');
                         }}
                         className={`p-3 rounded-xl text-left border transition-all ${
-                          selectedCloudTier === tier ? 'bg-cyan-950/80 border-cyan-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                          selectedCloudTier === tier ? 'bg-gold-950/80 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
                         <p className="text-xs font-bold uppercase">{tier}</p>
@@ -1571,7 +1571,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                     ].map((item, idx) => (
                       <div key={idx} className="flex items-center justify-between p-2.5 bg-slate-950 rounded-lg border border-slate-800 text-xs">
                         <span className="font-semibold text-slate-200">{item.layer}</span>
-                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${item.provider ? 'bg-cyan-950 text-cyan-300 border border-cyan-800' : 'bg-purple-950 text-purple-300 border border-purple-800'}`}>
+                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${item.provider ? 'bg-gold-950 text-gold-300 border border-gold-800' : 'bg-purple-950 text-purple-300 border border-purple-800'}`}>
                           {item.provider ? '✓ Managed by Cloud Provider' : '👤 Managed by You / Customer'}
                         </span>
                       </div>
@@ -1591,7 +1591,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-400">Content Width:</span>
-                          <span className="font-bold text-cyan-300">{cssContentWidth}px</span>
+                          <span className="font-bold text-gold-300">{cssContentWidth}px</span>
                         </div>
                         <input
                           type="range"
@@ -1600,7 +1600,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                           value={cssContentWidth}
                           aria-label="Content Width in pixels"
                           onChange={e => setCssContentWidth(Number(e.target.value))}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1673,7 +1673,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       <div className="mt-4 p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-center w-full">
                         <p className="text-[11px] text-slate-400">
                           Total Width = {cssContentWidth} + ({cssPadding}×2) + ({cssBorder}×2) + ({cssMargin}×2) ={' '}
-                          <span className="font-bold text-cyan-300">{totalBoxWidth}px</span>
+                          <span className="font-bold text-gold-300">{totalBoxWidth}px</span>
                         </p>
                       </div>
                     </div>
@@ -1705,7 +1705,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1729,7 +1729,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex justify-between items-center">
             <div>
-              <h3 className="text-base font-bold text-cyan-300">Free Play Sandbox: Digital Engineering Workbench</h3>
+              <h3 className="text-base font-bold text-gold-300">Free Play Sandbox: Digital Engineering Workbench</h3>
               <p className="text-xs text-slate-400 mt-0.5">Manipulate network nodes, test physical media, and live-code CSS with zero grading pressure.</p>
             </div>
             <motion.button
@@ -1773,7 +1773,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                 <button
                   aria-label="Set CSS Theme to Sky Blue"
                   onClick={() => setCssBgColor('#0284c7')}
-                  className="p-1.5 rounded bg-sky-600 text-white font-bold"
+                  className="p-1.5 rounded bg-gold-600 text-white font-bold"
                 >
                   Sky Blue Theme
                 </button>
@@ -1799,13 +1799,13 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-cyan-400 font-semibold uppercase tracking-wider">
+              <span className="text-gold-400 font-semibold uppercase tracking-wider">
                 Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1843,7 +1843,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                           : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                       {showExplanation && (
                         <span className="mr-2 font-bold">
                           {i === activeChallenge.correctIndex ? '✓' : '✗'}
@@ -1869,7 +1869,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-cyan-700 hover:bg-cyan-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -1892,7 +1892,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       className="p-3.5 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex justify-between items-center min-h-[54px]"
                     >
                       <span className="text-xs text-slate-400">{target.desc}</span>
-                      <span className="px-3 py-1 rounded bg-slate-800 font-bold text-xs text-cyan-300">
+                      <span className="px-3 py-1 rounded bg-slate-800 font-bold text-xs text-gold-300">
                         {droppedLabels[target.slot] ? `✓ ${droppedLabels[target.slot]}` : 'Drop Here'}
                       </span>
                     </div>
@@ -1904,7 +1904,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Device Map
                 </motion.button>
@@ -1933,7 +1933,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800/90 rounded-xl border border-slate-700 text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-2"
                   >
-                    <span className="text-cyan-400 font-bold">⋮⋮</span>
+                    <span className="text-gold-400 font-bold">⋮⋮</span>
                     {item}
                   </motion.div>
                 ))}
@@ -1947,7 +1947,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Sequence
                 </motion.button>
@@ -1963,7 +1963,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                   aria-label={`Enter numeric calculation result in ${activeChallenge.unit || 'units'}`}
                   onChange={e => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-cyan-400 outline-none w-48"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:border-gold-400 outline-none w-48"
                 />
                 <span className="text-slate-400 text-xs">{activeChallenge.unit}</span>
                 <motion.button
@@ -1972,7 +1972,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Calculation
                 </motion.button>
@@ -1991,7 +1991,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-cyan-900/60 hover:bg-cyan-800 border border-cyan-700 text-cyan-200 rounded-lg text-xs font-mono"
+                      className="px-3 py-1.5 bg-gold-900/60 hover:bg-gold-800 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2000,7 +2000,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
 
                 <div className="min-h-[50px] p-3 bg-slate-950 rounded-xl border border-slate-700 flex flex-wrap gap-2 items-center font-mono text-xs">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-cyan-600 text-white rounded-lg flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-600 text-white rounded-lg flex items-center gap-1.5">
                       {part}
                       <button
                         aria-label={`Remove syntax token ${part}`}
@@ -2020,7 +2020,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Check Syntax
                 </motion.button>
@@ -2029,15 +2029,15 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
 
             {/* Explanation / Progressive Disclosure */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-cyan-800/60 space-y-3">
-                <p className="text-xs font-bold text-cyan-300 uppercase tracking-wider">Step-by-Step Architectural Solution:</p>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-slate-950 rounded-xl border border-gold-800/60 space-y-3">
+                <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">Step-by-Step Architectural Solution:</p>
                 {activeChallenge.explanation
                   .split('. ')
                   .filter(s => s.trim().length > 0)
                   .slice(0, revealedSteps + 1)
                   .map((sentence, idx) => (
                     <motion.p key={idx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="text-xs sm:text-sm text-slate-300">
-                      <span className="font-bold text-cyan-400">{idx + 1}.</span> {sentence}
+                      <span className="font-bold text-gold-400">{idx + 1}.</span> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2049,7 +2049,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-3 py-1.5 bg-cyan-900/60 text-cyan-200 border border-cyan-700 rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-900/60 text-gold-200 border border-gold-700 rounded-lg text-xs font-bold"
                     >
                       Show Next Detail →
                     </motion.button>
@@ -2078,7 +2078,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
       {/* ─── PHASE 5: COMPLETION & REAL WORLD ACTIVITY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-slate-900 via-cyan-950/50 to-slate-900 rounded-2xl border border-cyan-700 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-slate-900 via-gold-950/50 to-slate-900 rounded-2xl border border-gold-700 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Mission Accomplished!</h2>
             <p className="text-sm text-slate-300">You have completed the full ICSE Class 8 Computer Science Engineering Simulation.</p>
@@ -2089,7 +2089,7 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
               </div>
               <div className="bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
                 <span className="text-slate-400 block">Mastery Rating:</span>
-                <span className="text-lg font-bold text-cyan-400 capitalize">{masteryLevel}</span>
+                <span className="text-lg font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2140,12 +2140,12 @@ export function C8_ComputerScienceDevelopmentIntroductionTypesSim({
 
           {/* Real-World Activity Plan */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-300">
-                  <span className="font-bold text-cyan-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

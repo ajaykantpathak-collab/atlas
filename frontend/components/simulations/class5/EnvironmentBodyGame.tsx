@@ -32,14 +32,14 @@ const TEACHING_SLIDES = [
     title: "Plants vs Animals: Differences 🍃🐰",
     text: "Plants are autotrophic — they make their own food by photosynthesis using sunlight, water, and carbon dioxide. Animals are heterotrophic — they cannot make food and must eat plants or other animals, moving freely!",
     emoji: "🍃",
-    bgColor: "from-teal-400 to-cyan-600",
+    bgColor: "from-teal-400 to-gold-600",
     spoken: "Plants make their own food by photosynthesis using sunlight and chlorophyll. Animals cannot make food and must eat plants or other animals, moving around freely to find food."
   },
   {
     title: "Internal Organs: Lungs, Heart, Stomach 🫁❤️",
     text: "Internal organs are hidden inside our body! Lungs take in oxygen and release carbon dioxide. The heart pumps blood to the whole body day and night. The stomach digests food using digestive juices.",
     emoji: "🫁",
-    bgColor: "from-blue-400 to-indigo-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Internal organs are hidden inside our body! Lungs take in oxygen and release carbon dioxide. The heart pumps blood to the whole body. The stomach digests food using digestive juices."
   },
   {

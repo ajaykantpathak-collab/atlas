@@ -1198,10 +1198,10 @@ function C11_CommerceExportDocumentsDocumentarySim({
       {/* ─── HEADER BAR ─── */}
       <div className="flex flex-col md:flex-row md:items-center justify-between pb-5 border-b border-slate-800 gap-4">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-800">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-800">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/50 px-2.5 py-0.5 rounded-full border border-indigo-800/60">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/50 px-2.5 py-0.5 rounded-full border border-gold-800/60">
                 ISC Class 11 • Commercial Studies
               </span>
               <motion.span
@@ -1236,7 +1236,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                 audioManager.play('tap');
               }}
               className={`px-3 py-1.5 text-xs font-bold rounded-xl capitalize transition-colors ${
-                phase === tab ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                phase === tab ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
               {tab}
@@ -1248,12 +1248,12 @@ function C11_CommerceExportDocumentsDocumentarySim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/80">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/80">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🌐</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 text-xs text-indigo-200">
+            <div className="mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 text-xs text-gold-200">
               <strong>Scenario Backdrop:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1279,7 +1279,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                       : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">
+                  <span className="font-bold mr-2 text-gold-400">
                     {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : discoveryAnswered ? '✗ ' : ''}
                     {String.fromCharCode(65 + i)}.
                   </span>
@@ -1299,7 +1299,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
                   >
                     Enter Interactive Trade & Risk Labs →
                   </motion.button>
@@ -1327,7 +1327,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                 }}
                 className={`px-3 py-2 text-xs font-bold rounded-xl border transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                 }`}
               >
@@ -1345,7 +1345,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wide">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wide">
                   ISC Commerce Interactive Simulation Lab {currentSlide + 1} of 5
                 </span>
                 <h2 className="text-lg font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1358,10 +1358,10 @@ function C11_CommerceExportDocumentsDocumentarySim({
               {currentSlide === 0 && (
                 <div className="space-y-4">
                   {/* Prediction Question 2: Predict-then-Check Pattern */}
-                  <div className="p-4 bg-indigo-950/40 border border-indigo-800/80 rounded-xl space-y-3">
+                  <div className="p-4 bg-gold-950/40 border border-gold-800/80 rounded-xl space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold px-2 py-0.5 bg-indigo-600 text-white rounded-md uppercase">Predict First</span>
-                      <span className="text-xs text-indigo-300 font-semibold">{PREDICTION_QUESTIONS[1].question}</span>
+                      <span className="text-xs font-bold px-2 py-0.5 bg-gold-600 text-white rounded-md uppercase">Predict First</span>
+                      <span className="text-xs text-gold-300 font-semibold">{PREDICTION_QUESTIONS[1].question}</span>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                       {PREDICTION_QUESTIONS[1].options.map((opt, oIdx) => (
@@ -1378,7 +1378,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                               : 'bg-slate-950 hover:bg-slate-800 border-slate-800 text-slate-300'
                           }`}
                         >
-                          <span className="font-bold text-indigo-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span> {opt}
+                          <span className="font-bold text-gold-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span> {opt}
                         </button>
                       ))}
                     </div>
@@ -1464,7 +1464,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Credit Tenor (Usance):</span>
-                        <span className="text-indigo-400">{billType === 'DA' ? `${creditTenorDays} Days` : 'Sight (0 Days)'}</span>
+                        <span className="text-gold-400">{billType === 'DA' ? `${creditTenorDays} Days` : 'Sight (0 Days)'}</span>
                       </div>
                       <input
                         aria-label="Adjust credit tenor days"
@@ -1475,7 +1475,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         disabled={billType === 'DP'}
                         value={creditTenorDays}
                         onChange={e => handleCreditTenorChange(Number(e.target.value))}
-                        className="w-full mt-3 accent-indigo-500 cursor-pointer disabled:opacity-40"
+                        className="w-full mt-3 accent-gold-500 cursor-pointer disabled:opacity-40"
                       />
                     </div>
 
@@ -1487,7 +1487,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         whileTap={{ scale: 0.98 }}
                         onClick={handleEcgcToggle}
                         className={`w-full mt-2 py-2 text-xs font-bold rounded-lg border ${
-                          ecgcCoverActive ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-800 text-slate-400 border-slate-700'
+                          ecgcCoverActive ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-400 border-slate-700'
                         }`}
                       >
                         {ecgcCoverActive ? '🛡️ Active (90% Cover)' : '⚠️ Uninsured (100% Risk)'}
@@ -1531,7 +1531,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         </div>
                         <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                           <motion.div
-                            className="h-full bg-indigo-500"
+                            className="h-full bg-gold-500"
                             animate={{ width: billType === 'DA' ? `${(creditTenorDays / 120) * 100}%` : '15%' }}
                           />
                         </div>
@@ -1564,11 +1564,11 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         onClick={() => handleImportStageClick(i)}
                         className={`p-3 text-left rounded-xl border transition-all ${
                           activeImportStage === i
-                            ? 'bg-indigo-950 border-indigo-500 text-white'
+                            ? 'bg-gold-950 border-gold-500 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
-                        <div className="text-xs font-bold text-indigo-400">{stg.name}</div>
+                        <div className="text-xs font-bold text-gold-400">{stg.name}</div>
                         <div className="text-[11px] text-slate-300 mt-1">{stg.authority}</div>
                         <div className="text-[10px] text-slate-500 mt-0.5">{stg.desc}</div>
                       </motion.button>
@@ -1578,7 +1578,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800">
                     {activeImportStage === 0 && (
                       <div className="space-y-2 text-xs">
-                        <h4 className="font-bold text-indigo-300 text-sm">Stage 1: Import Licence vs IEC Code</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Stage 1: Import Licence vs IEC Code</h4>
                         <p className="text-slate-300">
                           Freely importable goods under Open General Licence (OGL) require only a 10-digit Import Export Code (IEC) from DGFT.
                           Restricted items (like gold or dual-use chemicals) require a specific Import Licence under Sec 7 Foreign Trade Act 1992.
@@ -1587,7 +1587,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     )}
                     {activeImportStage === 1 && (
                       <div className="space-y-2 text-xs">
-                        <h4 className="font-bold text-indigo-300 text-sm">Stage 2: Letter of Credit (L/C)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Stage 2: Letter of Credit (L/C)</h4>
                         <p className="text-slate-300">
                           Opened by the Indian importer’s bank (Authorised Dealer under FEMA). It substitutes the bank’s creditworthiness for the importer’s,
                           promising to pay the foreign supplier upon presentation of compliant shipping documents (Bill of Lading, Invoice, Insurance).
@@ -1596,7 +1596,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     )}
                     {activeImportStage === 2 && (
                       <div className="space-y-2 text-xs">
-                        <h4 className="font-bold text-indigo-300 text-sm">Stage 3: Bill of Entry vs Bill of Sight (Customs Act 1962)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Stage 3: Bill of Entry vs Bill of Sight (Customs Act 1962)</h4>
                         <p className="text-slate-300">
                           <strong>Bill of Entry (Sec 46):</strong> Standard declaration with complete invoice & HS codes for final duty assessment.
                         </p>
@@ -1607,7 +1607,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     )}
                     {activeImportStage === 3 && (
                       <div className="space-y-2 text-xs">
-                        <h4 className="font-bold text-indigo-300 text-sm">Stage 4: Port Trust Dues Receipt</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">Stage 4: Port Trust Dues Receipt</h4>
                         <p className="text-slate-300">
                           Issued by Port Trust (e.g. JNPT, Mumbai Port) after payment of wharfage and handling charges. Customs verifies this receipt before issuing the statutory “Out of Charge” order for physical truck loading.
                         </p>
@@ -1621,10 +1621,10 @@ function C11_CommerceExportDocumentsDocumentarySim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {/* Prediction Question 1: Predict-then-Check Pattern */}
-                  <div className="p-4 bg-indigo-950/40 border border-indigo-800/80 rounded-xl space-y-3">
+                  <div className="p-4 bg-gold-950/40 border border-gold-800/80 rounded-xl space-y-3">
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold px-2 py-0.5 bg-indigo-600 text-white rounded-md uppercase">Predict First</span>
-                      <span className="text-xs text-indigo-300 font-semibold">{PREDICTION_QUESTIONS[0].question}</span>
+                      <span className="text-xs font-bold px-2 py-0.5 bg-gold-600 text-white rounded-md uppercase">Predict First</span>
+                      <span className="text-xs text-gold-300 font-semibold">{PREDICTION_QUESTIONS[0].question}</span>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, oIdx) => (
@@ -1641,7 +1641,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                               : 'bg-slate-950 hover:bg-slate-800 border-slate-800 text-slate-300'
                           }`}
                         >
-                          <span className="font-bold text-indigo-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span> {opt}
+                          <span className="font-bold text-gold-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span> {opt}
                         </button>
                       ))}
                     </div>
@@ -1703,7 +1703,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Actual Property Value:</span>
-                        <span className="text-indigo-400">₹{propertyValueLakh} Lakh</span>
+                        <span className="text-gold-400">₹{propertyValueLakh} Lakh</span>
                       </div>
                       <input
                         aria-label="Adjust actual property value"
@@ -1713,7 +1713,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         step={10}
                         value={propertyValueLakh}
                         onChange={e => handlePropertyValueChange(Number(e.target.value))}
-                        className="w-full mt-3 accent-indigo-500 cursor-pointer"
+                        className="w-full mt-3 accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1732,7 +1732,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         step={5}
                         value={sumInsuredLakh}
                         onChange={e => handleSumInsuredChange(Number(e.target.value))}
-                        className="w-full mt-3 accent-indigo-500 cursor-pointer"
+                        className="w-full mt-3 accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1786,7 +1786,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 pb-3 border-b border-slate-800">
                       <div>
                         <span className="text-xs text-slate-400">Average Clause Formula:</span>
-                        <div className="text-sm font-mono text-indigo-300 font-bold">
+                        <div className="text-sm font-mono text-gold-300 font-bold">
                           Payout = (Sum Insured ÷ Property Value) × Actual Loss
                         </div>
                       </div>
@@ -1853,7 +1853,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>Insurer A (National Ins):</span>
-                        <span className="text-indigo-400">₹{insurerACover} Lakh</span>
+                        <span className="text-gold-400">₹{insurerACover} Lakh</span>
                       </div>
                       <input
                         aria-label="Adjust insurer A cover amount"
@@ -1863,7 +1863,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         step={5}
                         value={insurerACover}
                         onChange={e => handleInsurerACoverChange(Number(e.target.value))}
-                        className="w-full mt-3 accent-indigo-500 cursor-pointer"
+                        className="w-full mt-3 accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1932,9 +1932,9 @@ function C11_CommerceExportDocumentsDocumentarySim({
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <h4 className="text-xs font-bold text-slate-400 uppercase">Rateable Apportionment (Sec 2(11) Insurance Act 1938)</h4>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                      <div className="p-3 bg-indigo-950/50 rounded-lg border border-indigo-800 text-center">
-                        <span className="text-xs text-indigo-300">Insurer A Pays</span>
-                        <div className="text-lg font-mono font-bold text-indigo-200 mt-1">₹{doubleInsurancePayout.insurerA} Lakh</div>
+                      <div className="p-3 bg-gold-950/50 rounded-lg border border-gold-800 text-center">
+                        <span className="text-xs text-gold-300">Insurer A Pays</span>
+                        <div className="text-lg font-mono font-bold text-gold-200 mt-1">₹{doubleInsurancePayout.insurerA} Lakh</div>
                         <span className="text-[10px] text-slate-400 font-mono">({insurerACover}/{insurerACover + insurerBCover}) × Loss</span>
                       </div>
                       <div className="p-3 bg-purple-950/50 rounded-lg border border-purple-800 text-center">
@@ -1959,7 +1959,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300">
                         <span>New India Board Retention Limit:</span>
-                        <span className="text-indigo-400">{retentionPercent}% (₹{reinsuranceCalc.retentionAmt} Cr)</span>
+                        <span className="text-gold-400">{retentionPercent}% (₹{reinsuranceCalc.retentionAmt} Cr)</span>
                       </div>
                       <input
                         aria-label="Adjust retention percent limit"
@@ -1969,7 +1969,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         step={5}
                         value={retentionPercent}
                         onChange={e => handleRetentionPercentChange(Number(e.target.value))}
-                        className="w-full mt-3 accent-indigo-500 cursor-pointer"
+                        className="w-full mt-3 accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1999,9 +1999,9 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         <p className="text-xs text-white font-bold mt-1">Pays ₹{refineryExplosionLoss} Cr to Refinery</p>
                         <p className="text-[10px] text-slate-400 mt-1">Direct privity of contract</p>
                       </div>
-                      <div className="p-3 bg-indigo-950/50 rounded-lg border border-indigo-800">
-                        <span className="text-xs text-indigo-300">2. Recovery from GIC Re:</span>
-                        <p className="text-xs text-indigo-200 font-bold mt-1">Recovers ₹{reinsuranceCalc.recoveryFromGIC} Cr ({100 - retentionPercent}%)</p>
+                      <div className="p-3 bg-gold-950/50 rounded-lg border border-gold-800">
+                        <span className="text-xs text-gold-300">2. Recovery from GIC Re:</span>
+                        <p className="text-xs text-gold-200 font-bold mt-1">Recovers ₹{reinsuranceCalc.recoveryFromGIC} Cr ({100 - retentionPercent}%)</p>
                         <p className="text-[10px] text-slate-400 mt-1">Reinsurance treaty settlement</p>
                       </div>
                       <div className="p-3 bg-emerald-950/50 rounded-lg border border-emerald-800">
@@ -2039,7 +2039,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -2063,7 +2063,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
       {/* ─── PHASE 3: FREE SANDBOX PLAY ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-900/60 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-900/60 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div>
               <span className="text-xs font-bold text-emerald-400 uppercase tracking-wide">Ungraded Exploration Sandbox</span>
               <h2 className="text-lg font-bold text-white mt-1">Multi-Variable Enterprise Risk Console</h2>
@@ -2085,7 +2085,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Left Sandbox Column: Trade & Under-Insurance */}
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-xs font-bold text-indigo-300 uppercase">1. Average Clause Stress Tester</h3>
+              <h3 className="text-xs font-bold text-gold-300 uppercase">1. Average Clause Stress Tester</h3>
               <div>
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Godown Value: ₹{propertyValueLakh}L</span>
@@ -2100,7 +2100,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                   step={5}
                   value={sumInsuredLakh}
                   onChange={e => handleSumInsuredChange(Number(e.target.value))}
-                  className="w-full mt-2 accent-indigo-500"
+                  className="w-full mt-2 accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
@@ -2130,7 +2130,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
               </div>
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
                 <span>GIC Re Recovery:</span>
-                <span className="text-indigo-300 font-mono font-bold text-sm">₹{reinsuranceCalc.recoveryFromGIC} Crore</span>
+                <span className="text-gold-300 font-mono font-bold text-sm">₹{reinsuranceCalc.recoveryFromGIC} Crore</span>
               </div>
             </div>
           </div>
@@ -2147,7 +2147,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-bold text-indigo-400 uppercase bg-indigo-950/60 px-2 py-0.5 rounded-md border border-indigo-800">
+                <span className="text-[10px] font-bold text-gold-400 uppercase bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800">
                   NEP 2020: {challenge.competencyLevel}
                 </span>
                 <span className="font-mono text-slate-400">Score: {Math.max(0, 100 - errors * 5)}%</span>
@@ -2155,7 +2155,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
             </div>
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2190,7 +2190,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                         : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">
+                    <span className="font-bold mr-2 text-gold-400">
                       {showExplanation && i === challenge.correctIndex ? '✓ ' : ''}
                       {String.fromCharCode(65 + i)}.
                     </span>
@@ -2220,7 +2220,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                   transition={{ duration: 0.4 }}
                   disabled={showExplanation || !numericInput}
                   onClick={() => handleAnswer(numericInput)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Calculation
                 </motion.button>
@@ -2249,7 +2249,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 flex items-center gap-3 cursor-grab"
                   >
-                    <span className="font-mono text-indigo-400 font-bold">#{displayIndex + 1}</span>
+                    <span className="font-mono text-gold-400 font-bold">#{displayIndex + 1}</span>
                     <span>{item}</span>
                   </motion.div>
                 ))}
@@ -2267,7 +2267,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="mt-3 px-5 py-2.5 bg-indigo-600 text-white font-bold text-xs rounded-xl"
+                  className="mt-3 px-5 py-2.5 bg-gold-600 text-white font-bold text-xs rounded-xl"
                 >
                   Confirm Procedural Sequence
                 </motion.button>
@@ -2287,7 +2287,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-900 border border-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab"
+                      className="px-3 py-1.5 bg-gold-900 border border-gold-600 rounded-lg text-xs font-bold text-white cursor-grab"
                     >
                       {item.label}
                     </motion.div>
@@ -2322,7 +2322,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="mt-2 px-5 py-2 bg-indigo-600 text-white font-bold text-xs rounded-xl"
+                  className="mt-2 px-5 py-2 bg-gold-600 text-white font-bold text-xs rounded-xl"
                 >
                   Verify Principles Mapping
                 </motion.button>
@@ -2352,7 +2352,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                     <span
                       key={idx}
                       onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
-                      className="px-2.5 py-1 bg-indigo-950 text-indigo-300 border border-indigo-700 rounded-md text-xs font-bold cursor-pointer hover:bg-rose-950 hover:text-rose-300"
+                      className="px-2.5 py-1 bg-gold-950 text-gold-300 border border-gold-700 rounded-md text-xs font-bold cursor-pointer hover:bg-rose-950 hover:text-rose-300"
                     >
                       {p} ✕
                     </span>
@@ -2367,7 +2367,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-5 py-2 bg-indigo-600 text-white font-bold text-xs rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white font-bold text-xs rounded-xl"
                 >
                   Verify Risk Architecture
                 </motion.button>
@@ -2430,10 +2430,10 @@ function C11_CommerceExportDocumentsDocumentarySim({
       {/* ─── PHASE 5: MASTERY COMPLETION & CAPSTONE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Commercial Directorate Certification Complete</h2>
-            <p className="text-sm text-indigo-300">
+            <p className="text-sm text-gold-300">
               Mastery Tier: <strong className="text-white uppercase">{masteryLevel}</strong> • Final Assessment Score:{' '}
               <strong className="text-emerald-400 font-mono">{Math.max(0, 100 - errors * 5)}%</strong>
             </p>
@@ -2457,8 +2457,8 @@ function C11_CommerceExportDocumentsDocumentarySim({
           </div>
 
           {/* REFLECTION SECTION (EXACT REQUIREMENT) */}
-          <div className="p-5 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-3">
-            <h3 className="text-xs font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-2">
+          <div className="p-5 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-3">
+            <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
               <span>💭</span> Post-Simulation Deep Reflection
             </h3>
             <div className="space-y-3 text-xs">
@@ -2506,7 +2506,7 @@ function C11_CommerceExportDocumentsDocumentarySim({
               <span className="font-bold text-slate-300">SM-2 Spaced Repetition Protocol:</span>
               <p className="text-slate-400 mt-0.5">
                 Next automated review scheduled in{' '}
-                <strong className="text-indigo-400 font-mono">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</strong>.
+                <strong className="text-gold-400 font-mono">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</strong>.
               </p>
             </div>
             <span className="text-xl">📅</span>
@@ -2514,12 +2514,12 @@ function C11_CommerceExportDocumentsDocumentarySim({
 
           {/* Real World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300 uppercase">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-2.5 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">#{idx + 1}</span>
+                  <span className="font-bold text-gold-400">#{idx + 1}</span>
                   <span>{step}</span>
                 </div>
               ))}

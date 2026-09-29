@@ -266,7 +266,7 @@ function DetectivePriya({ mood, speaking }: { mood: MascotMood; speaking: string
             initial={{ scale: 0, opacity: 0, y: 10 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
-            className="mb-2 bg-white border-2 border-indigo-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
+            className="mb-2 bg-white border-2 border-gold-400 rounded-2xl px-4 py-3 shadow-xl max-w-[260px]"
           >
             <p className="text-xs font-bold text-gray-800 leading-relaxed">{speaking}</p>
           </motion.div>
@@ -325,7 +325,7 @@ function DetectivePriya({ mood, speaking }: { mood: MascotMood; speaking: string
 
 function StarRow({ count, total }: { count: number; total: number }) {
   return (
-    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-indigo-200">
+    <div className="flex gap-1.5 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-md border border-gold-200">
       {Array.from({ length: total }).map((_, i) => (
         <motion.div
           key={i}
@@ -349,14 +349,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Detective Priya's Number Lab! 🔍",
     text: "Detective Priya investigates numbers! She finds factors (numbers that divide exactly), multiples (products of a number), and classifies numbers as prime or composite. Let's learn to play with numbers like a detective!",
     emoji: "🔍",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "Welcome to Detective Priya's Number Lab! Today we investigate factors, multiples, HCF, LCM, prime and composite numbers, factor trees, and divisibility rules!"
   },
   {
     title: "Factors, Multiples & Prime/Composite 📝",
     text: "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24 (numbers that divide 24 exactly). Multiples of 6: 6, 12, 18, 24, 30... (products of 6). Prime numbers have exactly 2 factors (1 and itself). Composite numbers have more than 2 factors. Twin primes differ by 2 (3,5), (11,13). Co-prime numbers share only factor 1.",
     emoji: "📝",
-    bgColor: "from-blue-500 to-cyan-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Factors divide a number exactly. Multiples are products of a number. Prime numbers have exactly two factors. Composite numbers have more. Twin primes differ by 2. Co-prime numbers share only the factor 1."
   },
   {
@@ -686,9 +686,9 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
 
       <div className="absolute top-4 left-4 right-28 z-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-md border border-indigo-300 flex items-center gap-2">
-            <span className="text-xs font-bold text-indigo-800">Priya&apos;s Number Lab</span>
-            <span className="text-xs bg-indigo-500 text-white px-2 py-0.5 rounded-full font-bold">
+          <div className="bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full shadow-md border border-gold-300 flex items-center gap-2">
+            <span className="text-xs font-bold text-gold-800">Priya&apos;s Number Lab</span>
+            <span className="text-xs bg-gold-500 text-white px-2 py-0.5 rounded-full font-bold">
               {screen === 'teaching' ? 'Intro' : `Q ${challengeIdx + 1}/${CHALLENGES.length}`}
             </span>
           </div>
@@ -699,7 +699,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
             <StarRow count={Math.min(5, Math.floor(score / 15) + 1)} total={5} />
             <button
               onClick={handleShowHint}
-              className="bg-indigo-400 hover:bg-indigo-500 text-indigo-950 font-bold px-3 py-1 rounded-full text-xs shadow-md transition-all flex items-center gap-1 cursor-pointer"
+              className="bg-gold-400 hover:bg-gold-500 text-gold-950 font-bold px-3 py-1 rounded-full text-xs shadow-md transition-all flex items-center gap-1 cursor-pointer"
             >
               💡 Hint
             </button>
@@ -748,7 +748,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
                     audioManager.play('success');
                   }
                 }}
-                className="px-6 py-2 bg-white text-indigo-600 hover:bg-indigo-50 rounded-xl font-black text-sm shadow-lg cursor-pointer transition-all"
+                className="px-6 py-2 bg-white text-gold-600 hover:bg-gold-50 rounded-xl font-black text-sm shadow-lg cursor-pointer transition-all"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next →'}
               </button>
@@ -763,7 +763,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
             key={challengeIdx}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl border-2 border-indigo-300 max-w-xl text-center"
+            className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-xl border-2 border-gold-300 max-w-xl text-center"
           >
             <h3 className="text-base font-black text-gray-800">{currentChallenge.question}</h3>
           </motion.div>
@@ -773,7 +773,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
               {currentChallenge.options.map((opt, i) => {
                 const isSelected = selectedOpt === opt;
                 const isCorrect = opt === currentChallenge.answer;
-                let btnStyle = "bg-white hover:bg-indigo-50 text-gray-800 border-2 border-indigo-200";
+                let btnStyle = "bg-white hover:bg-gold-50 text-gray-800 border-2 border-gold-200";
                 if (selectedOpt) {
                   if (isCorrect) btnStyle = "bg-green-500 text-white border-2 border-green-600 shadow-lg scale-105";
                   else if (isSelected) btnStyle = "bg-red-500 text-white border-2 border-red-600";
@@ -805,7 +805,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
                       key={bin.id}
                       id={`bin-${bin.id}`}
                       className={`flex-1 min-w-[100px] max-w-[160px] h-28 rounded-2xl border-4 border-dashed flex flex-col items-center justify-center p-2 transition-all shadow-md ${
-                        isHover ? 'bg-indigo-100 scale-105' : 'bg-white/90'
+                        isHover ? 'bg-gold-100 scale-105' : 'bg-white/90'
                       }`}
                       style={{ borderColor: bin.color }}
                       onMouseEnter={() => setHoveredBin(bin.id)}
@@ -834,7 +834,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
                         width={110}
                         height={95}
                       >
-                        <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'}`} style={{ width: 110, height: 95 }}>
+                        <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'}`} style={{ width: 110, height: 95 }}>
                           {renderSortIcon(item.icon, 40)}
                           <span className="text-xs font-bold text-gray-700 text-center mt-1">{item.label}</span>
                         </div>
@@ -852,7 +852,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 onClick={advanceChallenge}
-                className="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer"
+                className="bg-gradient-to-r from-gold-500 to-purple-500 hover:from-gold-600 hover:to-purple-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer"
               >
                 {challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Game! 🏆'}
               </motion.button>
@@ -862,7 +862,7 @@ export function FactorsMultiGame({ width = 720, height = 560, onComplete }: Fact
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 onClick={advanceChallenge}
-                className="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer"
+                className="bg-gradient-to-r from-gold-500 to-purple-500 hover:from-gold-600 hover:to-purple-600 text-white font-black px-8 py-3 rounded-2xl shadow-xl text-base cursor-pointer"
               >
                 {challengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Game! 🏆'}
               </motion.button>

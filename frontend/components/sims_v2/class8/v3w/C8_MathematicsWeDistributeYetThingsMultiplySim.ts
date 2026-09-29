@@ -11,7 +11,7 @@ export const w_c8_mathematicswedistributeyetthingsmultiplysim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Distributive Property of Multiplication Over Addition',
     chapters: [],
     nodeIds: ['c8_math_ch6_1', 'c8_math_ch6_10', 'c8_math_ch6_2', 'c8_math_ch6_4', 'c8_math_ch6_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are buying supplies for your classroom: each student needs 1 notebook (₹12) and 1 pen (₹8).', goal: 'Master Distributive Property of Multiplication Over Addition.' },
     discovery: {
         question: 'What is the algebraic expression for the total area of a rectangle divided into four smaller rectangles with dimensions a × c, a × d, b × c, and b × d?',
@@ -20,7 +20,7 @@ export const w_c8_mathematicswedistributeyetthingsmultiplysim: SimDef = {
         hook: 'Students often treat the negative term in a binomial (e.g., x - 3) as a positive length in the area model, drawing a.',
     },
     teaching: [
-        { title: 'The distributive property of multiplication.', text: 'The distributive property of multiplication over addition states that for any three numbers \\(a\\), \\(b\\), and \\(c\\) (integers, fractions, decimals, or algebraic terms), multiplying \\(a\\) by the sum.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The distributive property of multiplication.', text: 'The distributive property of multiplication over addition states that for any three numbers \\(a\\), \\(b\\), and \\(c\\) (integers, fractions, decimals, or algebraic terms), multiplying \\(a\\) by the sum.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch6_1', title: 'The distributive property of.',

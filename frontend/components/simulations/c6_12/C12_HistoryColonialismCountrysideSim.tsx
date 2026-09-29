@@ -106,7 +106,7 @@ export function C12_HistoryColonialismCountrysideSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Normal rent</p>
-              <p className="font-mono font-bold text-sky-300">{(harvestIdx * rentRate / 100).toFixed(0)}</p>
+              <p className="font-mono font-bold text-gold-300">{(harvestIdx * rentRate / 100).toFixed(0)}</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Auction triggered</p>
@@ -130,10 +130,10 @@ export function C12_HistoryColonialismCountrysideSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Rent extraction rate</span><span className="font-mono font-bold text-sky-400">{rentRate}%</span>
+                <span>Rent extraction rate</span><span className="font-mono font-bold text-gold-400">{rentRate}%</span>
               </div>
               <input type="range" min={20} max={90} step={5} value={rentRate} aria-label="rent rate"
-                onChange={(e) => setRentRate(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setRentRate(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">

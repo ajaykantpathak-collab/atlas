@@ -505,7 +505,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
       <header className="bg-slate-900/80 border border-slate-800 rounded-2xl p-4 md:p-6 backdrop-blur-md shadow-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 bg-indigo-500/20 text-indigo-400 text-xs font-semibold rounded-full border border-indigo-500/30">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 text-xs font-semibold rounded-full border border-gold-500/30">
               CBSE Class 11 Chemistry
             </span>
             <span className="text-xs text-slate-400 font-mono">Chapter 1: Basic Concepts</span>
@@ -522,9 +522,9 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
         <div className="flex items-center gap-4 bg-slate-800/80 p-3 rounded-xl border border-slate-700/60">
           <div className="text-right">
             <div className="text-xs text-slate-400 font-medium">Mastery Level</div>
-            <div className="text-xl font-black text-indigo-400">{overallMastery}%</div>
+            <div className="text-xl font-black text-gold-400">{overallMastery}%</div>
           </div>
-          <div className="w-12 h-12 rounded-full border-4 border-indigo-500/30 flex items-center justify-center bg-indigo-950/50">
+          <div className="w-12 h-12 rounded-full border-4 border-gold-500/30 flex items-center justify-center bg-gold-950/50">
             <span className="text-lg">🧪</span>
           </div>
         </div>
@@ -548,7 +548,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
             }}
             className={`px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 flex items-center gap-2 ${
               activeTab === tab.id
-                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30 font-semibold'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 font-semibold'
                 : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800/80 border border-slate-800'
             }`}
           >
@@ -580,7 +580,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                   }}
                   className={`w-full text-left p-3 rounded-xl transition-all flex items-center gap-3 ${
                     currentSlide === idx
-                      ? 'bg-indigo-600/20 border border-indigo-500/50 text-indigo-300 font-semibold'
+                      ? 'bg-gold-600/20 border border-gold-500/50 text-gold-300 font-semibold'
                       : 'bg-slate-950/50 border border-slate-800/80 text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
                   }`}
                 >
@@ -595,8 +595,8 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               {currentSlide === 0 && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
                   <div className="flex justify-between items-start">
-                    <h2 className="text-xl font-bold text-indigo-400">Ancient Indian Chemical Traditions (Rasavidya)</h2>
-                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-indigo-300">
+                    <h2 className="text-xl font-bold text-gold-400">Ancient Indian Chemical Traditions (Rasavidya)</h2>
+                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-gold-300">
                       c11_chem_cbse_002 | c11_chem_cbse_004
                     </span>
                   </div>
@@ -636,8 +636,8 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               {currentSlide === 1 && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
                   <div className="flex justify-between items-start">
-                    <h2 className="text-xl font-bold text-indigo-400">Classification & Nature of Matter</h2>
-                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-indigo-300">
+                    <h2 className="text-xl font-bold text-gold-400">Classification & Nature of Matter</h2>
+                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-gold-300">
                       c11_chem_cbse_008 | c11_chem_cbse_011
                     </span>
                   </div>
@@ -695,8 +695,8 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               {currentSlide === 2 && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
                   <div className="flex justify-between items-start">
-                    <h2 className="text-xl font-bold text-indigo-400">SI Base Quantities & Scientific Units</h2>
-                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-indigo-300">
+                    <h2 className="text-xl font-bold text-gold-400">SI Base Quantities & Scientific Units</h2>
+                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-gold-300">
                       c11_chem_cbse_017 | c11_chem_cbse_018
                     </span>
                   </div>
@@ -706,7 +706,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
 
                   <div className="overflow-x-auto">
                     <table className="w-full text-xs text-left text-slate-300 border border-slate-800">
-                      <thead className="bg-slate-800 text-indigo-300 uppercase">
+                      <thead className="bg-slate-800 text-gold-300 uppercase">
                         <tr>
                           <th className="p-2 border border-slate-700">Base Quantity</th>
                           <th className="p-2 border border-slate-700">SI Unit</th>
@@ -753,14 +753,14 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               {currentSlide === 3 && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
                   <div className="flex justify-between items-start">
-                    <h2 className="text-xl font-bold text-indigo-400">Gay Lussac's & Avogadro's Laws</h2>
-                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-indigo-300">
+                    <h2 className="text-xl font-bold text-gold-400">Gay Lussac's & Avogadro's Laws</h2>
+                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-gold-300">
                       c11_chem_cbse_032 | c11_chem_cbse_033
                     </span>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                      <h4 className="font-bold text-indigo-300 text-sm">Gay Lussac's Law of Gaseous Volumes</h4>
+                      <h4 className="font-bold text-gold-300 text-sm">Gay Lussac's Law of Gaseous Volumes</h4>
                       <p className="text-xs text-slate-400 mt-2 leading-relaxed">
                         When gases react together, they do so in volumes which bear a simple whole-number ratio to one another and to the volume of gaseous products, provided all volumes are measured at same T & P.
                       </p>
@@ -786,18 +786,18 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               {currentSlide === 4 && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
                   <div className="flex justify-between items-start">
-                    <h2 className="text-xl font-bold text-indigo-400">Solution Concentration Units</h2>
-                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-indigo-300">
+                    <h2 className="text-xl font-bold text-gold-400">Solution Concentration Units</h2>
+                    <span className="text-xs font-mono bg-slate-800 px-2 py-1 rounded text-gold-300">
                       c11_chem_cbse_044 | c11_chem_cbse_045 | c11_chem_cbse_046
                     </span>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                      <h4 className="font-bold text-sky-400 text-sm">Molarity ({'$M$'})</h4>
+                      <h4 className="font-bold text-gold-400 text-sm">Molarity ({'$M$'})</h4>
                       <p className="text-xs text-slate-400 mt-1">
                         Moles of solute dissolved per Litre of solution.
                       </p>
-                      <div className="mt-2 bg-slate-900 p-2 rounded text-sky-300 text-xs font-mono">
+                      <div className="mt-2 bg-slate-900 p-2 rounded text-gold-300 text-xs font-mono">
                         {'$M = \\frac{\\text{Moles of Solute}}{\\text{Volume of Solution (L)}}$'}
                       </div>
                       <p className="text-[11px] text-rose-400 mt-1">⚠️ Temperature Dependent (Volume changes with T)</p>
@@ -835,7 +835,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                     <div
                       key={i}
                       className={`w-2.5 h-2.5 rounded-full ${
-                        currentSlide === i ? 'bg-indigo-500 w-6' : 'bg-slate-700'
+                        currentSlide === i ? 'bg-gold-500 w-6' : 'bg-slate-700'
                       } transition-all duration-300`}
                     />
                   ))}
@@ -847,7 +847,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                     playSound('tap');
                     setCurrentSlide((prev) => Math.min(4, prev + 1));
                   }}
-                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 rounded-xl text-xs font-semibold text-white transition-all shadow-lg shadow-indigo-600/30"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 rounded-xl text-xs font-semibold text-white transition-all shadow-lg shadow-gold-600/30"
                 >
                   Next Module →
                 </button>
@@ -864,7 +864,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                 <h3 className="font-bold text-white text-lg flex items-center gap-2">
                   <span>⚛️ Particle Thermal Motion Simulation</span>
                 </h3>
-                <span className="text-xs bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-3 py-1 rounded-full font-mono">
+                <span className="text-xs bg-gold-500/20 text-gold-300 border border-gold-500/30 px-3 py-1 rounded-full font-mono">
                   State: {temperatureK < 273 ? 'SOLID ❄️' : temperatureK < 373 ? 'LIQUID 💧' : 'GAS 💨'}
                 </span>
               </div>
@@ -892,7 +892,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs font-mono">
                     <span className="text-slate-400">Temperature (T):</span>
-                    <span className="text-indigo-400 font-bold">{temperatureK} K ({temperatureK - 273} °C)</span>
+                    <span className="text-gold-400 font-bold">{temperatureK} K ({temperatureK - 273} °C)</span>
                   </div>
                   <input
                     type="range"
@@ -904,7 +904,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       playSound('tap');
                       setTemperatureK(Number(e.target.value));
                     }}
-                    className="w-full accent-indigo-500 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                   />
                   <div className="flex justify-between text-[10px] text-slate-500">
                     <span>100 K (Ice/Solid)</span>
@@ -921,7 +921,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       playSound('tap');
                       setTemperatureK(200);
                     }}
-                    className="p-2 bg-blue-950/60 border border-blue-800/60 hover:bg-blue-900/60 rounded-xl text-xs font-medium text-blue-300"
+                    className="p-2 bg-gold-950/60 border border-gold-800/60 hover:bg-gold-900/60 rounded-xl text-xs font-medium text-gold-300"
                   >
                     Solid (200 K)
                   </button>
@@ -995,7 +995,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       max={60}
                       value={dartSpread}
                       onChange={(e) => setDartSpread(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1009,14 +1009,14 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                         setDartBiasX(Number(e.target.value));
                         setDartBiasY(Number(e.target.value));
                       }}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
 
                 <button
                   onClick={handleThrowDarts}
-                  className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs transition-all shadow-lg shadow-indigo-600/30"
+                  className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs transition-all shadow-lg shadow-gold-600/30"
                 >
                   🎯 Throw 5 Measurement Darts
                 </button>
@@ -1032,7 +1032,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                 <div className="space-y-2">
                   <div className="flex justify-between text-xs">
                     <span className="text-slate-400">Celsius (°C):</span>
-                    <span className="text-indigo-400 font-bold font-mono">{celsiusVal} °C</span>
+                    <span className="text-gold-400 font-bold font-mono">{celsiusVal} °C</span>
                   </div>
                   <input
                     type="range"
@@ -1040,7 +1040,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                     max={150}
                     value={celsiusVal}
                     onChange={(e) => setCelsiusVal(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1071,7 +1071,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       max={200}
                       value={sampleMassG}
                       onChange={(e) => setSampleMassG(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1084,14 +1084,14 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       max={100}
                       value={sampleVolumeCm3}
                       onChange={(e) => setSampleVolumeCm3(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
 
                 <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex justify-between items-center">
                   <span className="text-xs text-slate-300">Calculated Density ($d$):</span>
-                  <span className="text-xl font-black font-mono text-sky-400">{calculatedDensity.toFixed(2)} g/cm³</span>
+                  <span className="text-xl font-black font-mono text-gold-400">{calculatedDensity.toFixed(2)} g/cm³</span>
                 </div>
               </div>
             </div>
@@ -1183,7 +1183,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       step={2}
                       value={h2Moles}
                       onChange={(e) => setH2Moles(Number(e.target.value))}
-                      className="w-full accent-blue-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1203,7 +1203,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
 
                 <div className="mt-6 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2">
                   <div className="font-bold text-amber-400">Gay Lussac Volumetric Ratio:</div>
-                  <div className="font-mono text-center text-indigo-300">
+                  <div className="font-mono text-center text-gold-300">
                     {h2Moles * 50} mL $H_2$ + {o2Moles * 50} mL $O_2$ ➔ {h2Moles * 50} mL $H_2O(g)$
                   </div>
                   <p className="text-[11px] text-slate-400">
@@ -1252,7 +1252,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 w-full mt-6">
                 <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                   <div className="text-[10px] text-slate-400 uppercase font-semibold">Molarity ($M$)</div>
-                  <div className="text-base font-bold text-sky-400 font-mono mt-1">{calculatedMolarity.toFixed(3)} M</div>
+                  <div className="text-base font-bold text-gold-400 font-mono mt-1">{calculatedMolarity.toFixed(3)} M</div>
                   <div className="text-[9px] text-slate-500">mol / L soln</div>
                 </div>
 
@@ -1270,7 +1270,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
 
                 <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-center">
                   <div className="text-[10px] text-slate-400 uppercase font-semibold">Mole Fraction ({'$\\chi$'})</div>
-                  <div className="text-base font-bold text-indigo-400 font-mono mt-1">{calculatedMoleFractionSolute.toFixed(4)}</div>
+                  <div className="text-base font-bold text-gold-400 font-mono mt-1">{calculatedMoleFractionSolute.toFixed(4)}</div>
                   <div className="text-[9px] text-slate-500">Solute ratio</div>
                 </div>
               </div>
@@ -1297,7 +1297,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                       }}
                       className={`p-2 rounded-xl text-[11px] font-medium border transition-all ${
                         soluteType === s.id
-                          ? 'bg-indigo-600 border-indigo-500 text-white font-bold'
+                          ? 'bg-gold-600 border-gold-500 text-white font-bold'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-800'
                       }`}
                     >
@@ -1311,7 +1311,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               <div className="space-y-1">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Solute Mass ($w$):</span>
-                  <span className="text-indigo-400 font-mono font-bold">{soluteMassG} g</span>
+                  <span className="text-gold-400 font-mono font-bold">{soluteMassG} g</span>
                 </div>
                 <input
                   type="range"
@@ -1320,7 +1320,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                   step={0.5}
                   value={soluteMassG}
                   onChange={(e) => setSoluteMassG(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1328,7 +1328,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               <div className="space-y-1">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Solution Volume ($V$):</span>
-                  <span className="text-indigo-400 font-mono font-bold">{solutionVolumeMl} mL</span>
+                  <span className="text-gold-400 font-mono font-bold">{solutionVolumeMl} mL</span>
                 </div>
                 <input
                   type="range"
@@ -1337,7 +1337,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                   step={50}
                   value={solutionVolumeMl}
                   onChange={(e) => setSolutionVolumeMl(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -1345,7 +1345,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               <div className="space-y-1">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Solvent Mass ({'$W_{solvent}$'}):</span>
-                  <span className="text-indigo-400 font-mono font-bold">{solventMassKg} kg</span>
+                  <span className="text-gold-400 font-mono font-bold">{solventMassKg} kg</span>
                 </div>
                 <input
                   type="range"
@@ -1354,7 +1354,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                   step={0.05}
                   value={solventMassKg}
                   onChange={(e) => setSolventMassKg(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             </div>
@@ -1368,11 +1368,11 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
               <div>
                 {/* Progress Header */}
                 <div className="flex justify-between items-center mb-6">
-                  <span className="text-xs font-mono bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-3 py-1 rounded-full">
+                  <span className="text-xs font-mono bg-gold-500/20 text-gold-300 border border-gold-500/30 px-3 py-1 rounded-full">
                     Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                   </span>
                   <span className="text-xs text-slate-400 font-mono">
-                    Score: <strong className="text-indigo-400">{score} pts</strong>
+                    Score: <strong className="text-gold-400">{score} pts</strong>
                   </span>
                 </div>
 
@@ -1394,7 +1394,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                   {/* Options List */}
                   <div className="space-y-2.5 pt-2">
                     {CHALLENGES[currentChallengeIndex].options.map((option, idx) => {
-                      let btnStyle = 'bg-slate-950 border-slate-800 hover:border-indigo-500/50 text-slate-300';
+                      let btnStyle = 'bg-slate-950 border-slate-800 hover:border-gold-500/50 text-slate-300';
                       if (selectedAnswer !== null) {
                         if (idx === CHALLENGES[currentChallengeIndex].correctIndex) {
                           btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-bold';
@@ -1445,7 +1445,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                 {selectedAnswer !== null && (
                   <button
                     onClick={handleNextChallenge}
-                    className="w-full mt-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs transition-all shadow-lg shadow-indigo-600/30"
+                    className="w-full mt-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs transition-all shadow-lg shadow-gold-600/30"
                   >
                     Continue to Next Challenge →
                   </button>
@@ -1456,7 +1456,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                 <div className="text-5xl">🎉</div>
                 <h2 className="text-2xl font-extrabold text-white">Quiz Completed Successfully!</h2>
                 <p className="text-slate-400 text-sm">
-                  You scored <strong className="text-indigo-400">{score} points</strong> and reinforced your knowledge of Chapter 1 Chemistry concepts!
+                  You scored <strong className="text-gold-400">{score} points</strong> and reinforced your knowledge of Chapter 1 Chemistry concepts!
                 </p>
 
                 <button
@@ -1466,7 +1466,7 @@ export const C11_ChemistrySomeBasicConceptsofChemistryCBSESim: React.FC = () => 
                     setSelectedAnswer(null);
                     setScore(0);
                   }}
-                  className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl text-xs hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30"
+                  className="px-6 py-3 bg-gold-600 text-white font-bold rounded-xl text-xs hover:bg-gold-500 transition-all shadow-lg shadow-gold-600/30"
                 >
                   Restart Quiz Practice
                 </button>

@@ -11,7 +11,7 @@ export const w_c9_mathematicssolvingsimultaneouslinearsim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Pair of Linear Equations: Consistent and Inconsistent Systems',
     chapters: [],
     nodeIds: ['c9_math_ch2_9', 'c9_math_ch2_10', 'c9_math_ch2_3', 'c9_math_ch2_5', 'c9_math_ch2_7', 'c9_math_ch2_8', 'c9_math_ch2_1', 'c9_math_ch2_2', 'c9_math_ch2_4', 'c9_math_ch2_6', 'c9_math_ch8_7'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you and your friend go to a stationery shop. You buy 3 pens and 2 notebooks for ₹110, and your friend.', goal: 'Master Pair of Linear Equations: Consistent and Inconsistent Systems.' },
     discovery: {
         question: 'Determine whether the following pair is consistent or inconsistent.',
@@ -20,7 +20,7 @@ export const w_c9_mathematicssolvingsimultaneouslinearsim: SimDef = {
         hook: 'Students often think that if \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2}\\), the system is automatically inconsistent.',
     },
     teaching: [
-        { title: 'A pair of linear equations in two variables.', text: 'A pair of linear equations in two variables is **consistent** if there exists at least one ordered pair (x, y) that satisfies both equations simultaneously; it is **inconsistent** if no such ordered.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A pair of linear equations in two variables.', text: 'A pair of linear equations in two variables is **consistent** if there exists at least one ordered pair (x, y) that satisfies both equations simultaneously; it is **inconsistent** if no such ordered.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch2_9', title: 'A pair of linear equations in two.',

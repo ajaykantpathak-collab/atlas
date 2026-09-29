@@ -11,7 +11,7 @@ export const w_c12_businessstudiescoordinationmeaningcoordinationsim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Management: Meaning, Definition and Characteristics',
     chapters: [],
     nodeIds: ['c12_bs_cbse_01_001', 'c12_bs_cbse_01_008', 'c12_bs_cbse_05_003', 'c12_bs_cbse_05_005', 'c12_bs_cbse_05_006', 'c12_bs_cbse_05_010', 'c12_bs_cbse_08_001', 'c12_bs_cbse_01_002', 'c12_bs_cbse_01_003', 'c12_bs_cbse_01_004', 'c12_bs_cbse_01_005', 'c12_bs_cbse_01_006', 'c12_bs_cbse_01_007', 'c12_bs_cbse_05_004', 'c12_bs_cbse_02_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are Smita Rai from Namchi Designer Candles — you have 20 women workers, limited funds, a Diwali.', goal: 'Master Management: Meaning, Definition and Characteristics.' },
     discovery: {
         question: 'A factory manager achieves the annual production target of 10,000 units but uses 20% more raw material and 30% more labour hours than the industry standard.',
@@ -20,7 +20,7 @@ export const w_c12_businessstudiescoordinationmeaningcoordinationsim: SimDef = {
         hook: 'Students conflate **efficiency** with **effectiveness** and write: "If the target is achieved, management is.',
     },
     teaching: [
-        { title: 'Management is the process of planning,.', text: 'Management is the process of planning, organising, staffing, directing, and controlling organisational resources (human, financial, physical, and informational) to achieve predetermined goals.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Management is the process of planning,.', text: 'Management is the process of planning, organising, staffing, directing, and controlling organisational resources (human, financial, physical, and informational) to achieve predetermined goals.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_01_001', title: 'Management is the process of planning,.',

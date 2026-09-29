@@ -48,7 +48,7 @@ function AdminDashboardContent() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white flex items-center gap-3">
-            <Server className="w-8 h-8 text-indigo-400" />
+            <Server className="w-8 h-8 text-gold-400" />
             Admin Dashboard
           </h1>
           <p className="text-slate-400 mt-1">System analytics and observability</p>
@@ -60,7 +60,7 @@ function AdminDashboardContent() {
             icon={<Activity className="w-5 h-5" />}
             label="Events (24h)"
             value={totalEvents.toString()}
-            color="text-indigo-400"
+            color="text-gold-400"
           />
           <MetricCard
             icon={<DollarSign className="w-5 h-5" />}
@@ -72,7 +72,7 @@ function AdminDashboardContent() {
             icon={<Cpu className="w-5 h-5" />}
             label="LLM Calls (7d)"
             value={totalCalls.toString()}
-            color="text-blue-400"
+            color="text-gold-400"
           />
           <MetricCard
             icon={<AlertTriangle className="w-5 h-5" />}
@@ -91,7 +91,7 @@ function AdminDashboardContent() {
                 .map(([type, count]) => (
                   <div key={type} className="flex items-center justify-between py-2 border-b border-slate-800">
                     <span className="text-sm text-slate-300">{type.replace(/_/g, ' ')}</span>
-                    <span className="text-sm font-mono text-indigo-400">{count}</span>
+                    <span className="text-sm font-mono text-gold-400">{count}</span>
                   </div>
                 ))}
             </div>
@@ -173,7 +173,7 @@ function AdminDashboardContent() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {socratic.map((row, i) => (
                 <div key={i} className="bg-slate-900/50 rounded-lg p-4">
-                  <div className="text-sm font-semibold text-indigo-400 mb-2 uppercase">
+                  <div className="text-sm font-semibold text-gold-400 mb-2 uppercase">
                     {row.pcr_level} mastery
                   </div>
                   <div className="text-2xl font-bold text-white">{row.total_interactions}</div>
@@ -252,7 +252,7 @@ function Card({ title, icon, children }: { title: string; icon: React.ReactNode;
       className="bg-slate-900/50 border border-slate-800 rounded-xl p-6 mb-6"
     >
       <h2 className="text-lg font-semibold text-white flex items-center gap-2 mb-4">
-        <span className="text-indigo-400">{icon}</span>
+        <span className="text-gold-400">{icon}</span>
         {title}
       </h2>
       {children}

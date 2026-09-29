@@ -1257,7 +1257,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/40'
+                : 'bg-gold-500/20 text-gold-400 border border-gold-500/40'
             }`}
           >
             {difficulty} TIER
@@ -1274,7 +1274,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 mt-4">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-amber-950/40 rounded-2xl border border-indigo-800/60 shadow-lg">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-amber-950/40 rounded-2xl border border-gold-800/60 shadow-lg">
             <div className="flex items-center gap-2 text-amber-400 font-bold text-sm mb-2">
               <span>📜</span>
               <span>IMPERIAL CHRONICLE SCENARIO</span>
@@ -1287,7 +1287,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider">
               <span>🎯</span>
               <span>Curiosity Hook (Non-Graded Discovery)</span>
             </div>
@@ -1335,7 +1335,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-amber-600 hover:from-indigo-500 hover:to-amber-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-amber-600 hover:from-gold-500 hover:to-amber-500 text-white font-bold text-sm rounded-xl shadow-lg flex items-center gap-2"
                 >
                   <span>Enter Interactive Lab</span>
                   <span>→</span>
@@ -1547,8 +1547,8 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                           To stop commanders from pocketing treasury salaries for phantom soldiers or inferior horses:
                         </p>
                         <div className="grid grid-cols-2 gap-3">
-                          <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-700">
-                            <p className="text-xs font-bold text-indigo-300">🐎 Dagh (Imperial Brand)</p>
+                          <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-700">
+                            <p className="text-xs font-bold text-gold-300">🐎 Dagh (Imperial Brand)</p>
                             <p className="text-xs text-slate-300 mt-1">
                               Branded horses with imperial royal marks to prevent replacing fine mounts with diseased ponies.
                             </p>
@@ -1592,7 +1592,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                     {/* Tolerance Slider */}
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
-                        <span className="font-bold text-indigo-300">Religious Policy: Sulh-i-Kul</span>
+                        <span className="font-bold text-gold-300">Religious Policy: Sulh-i-Kul</span>
                         <span className="text-amber-400 font-bold">{toleranceSlider}% Tolerance</span>
                       </div>
                       <input
@@ -1660,7 +1660,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                     <motion.div
                       initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700 space-y-3"
+                      className="p-4 bg-gold-950/60 rounded-2xl border border-gold-700 space-y-3"
                     >
                       <p className="text-white text-xs font-bold">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="space-y-1.5">
@@ -1758,7 +1758,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                       onClick={() => handleBhaktiToggle('shankara')}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
                         bhaktiPathToggle === 'shankara'
-                          ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg'
+                          ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                           : 'bg-slate-950 text-slate-400 border-slate-800'
                       }`}
                     >
@@ -1782,8 +1782,8 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                     {bhaktiPathToggle === 'shankara' ? (
                       <div className="space-y-3">
                         <div className="flex items-center justify-between">
-                          <h4 className="text-base font-bold text-indigo-300">Jnana Marga & Advaita Vedanta</h4>
-                          <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700">
+                          <h4 className="text-base font-bold text-gold-300">Jnana Marga & Advaita Vedanta</h4>
+                          <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-700">
                             Language: Sanskrit
                           </span>
                         </div>
@@ -1835,7 +1835,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1856,7 +1856,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
       {/* ─── PHASE 3: FREE PLAY SANDBOX ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6 mt-4">
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-3xl border border-indigo-800 space-y-2">
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 rounded-3xl border border-gold-800 space-y-2">
             <h3 className="text-xl font-black text-amber-300">🏛️ Imperial Strategy Sandbox</h3>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
               Manipulate all historical variables simultaneously with <strong>zero grading pressure</strong>. Observe how tolerance, Dahsala revenue accuracy, and Deccan war duration dictate stability and treasury survival.
@@ -1918,7 +1918,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-black text-sm rounded-2xl shadow-xl flex items-center justify-center gap-2"
+            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-black text-sm rounded-2xl shadow-xl flex items-center justify-center gap-2"
           >
             <span>Ready for ICSE Competency Challenges!</span>
             <span>→</span>
@@ -1935,13 +1935,13 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
               <span className="text-xs font-bold text-amber-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800 uppercase font-bold">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-800 uppercase font-bold">
                 {challenge.competencyLevel}
               </span>
             </div>
             <div className="w-full sm:w-48 h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-amber-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-amber-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2030,7 +2030,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify All Drop Labels
                 </motion.button>
@@ -2066,7 +2066,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Confirm Sorted Order
                 </motion.button>
@@ -2091,7 +2091,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold text-xs rounded-xl shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold text-xs rounded-xl shadow-md"
                   >
                     Check Answer
                   </motion.button>
@@ -2110,7 +2110,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-700 text-indigo-200 rounded-xl text-xs font-bold border border-indigo-700"
+                      className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-700 text-gold-200 rounded-xl text-xs font-bold border border-gold-700"
                     >
                       + {part}
                     </motion.button>
@@ -2142,7 +2142,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold text-xs rounded-xl shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold text-xs rounded-xl shadow-md"
                 >
                   Verify Constructed Statement
                 </motion.button>
@@ -2210,7 +2210,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
       {/* ─── PHASE 5: MASTERY COMPLETE & EXTENDED RETENTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6 mt-4">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-amber-950/70 rounded-3xl border border-amber-500/50 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-amber-950/70 rounded-3xl border border-amber-500/50 shadow-2xl text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               Mastery Certification Achieved!
@@ -2230,7 +2230,7 @@ function C7_HistoryCivicsBaburHumayunFoundingSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                 <p className="text-xs text-slate-400">Total Attempts</p>
-                <p className="text-xl font-black text-indigo-300 mt-1">{scoreBreakdown.total}</p>
+                <p className="text-xl font-black text-gold-300 mt-1">{scoreBreakdown.total}</p>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-2xl border border-slate-800">
                 <p className="text-xs text-slate-400">Errors Logged</p>

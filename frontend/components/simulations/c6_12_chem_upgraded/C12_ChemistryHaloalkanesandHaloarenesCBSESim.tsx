@@ -953,10 +953,10 @@ const PolarimeterSim: React.FC<PolarimeterProps> = ({ concentration, pathLength,
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-5 shadow-xl text-slate-100">
       <div className="flex justify-between items-center mb-4">
-        <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+        <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
           <span>����</span> Interactive Polarimeter & Optical Activity Studio
         </h3>
-        <span className="bg-cyan-950 border border-cyan-500/40 text-cyan-300 text-xs px-3 py-1 rounded-full font-mono">
+        <span className="bg-gold-950 border border-gold-500/40 text-gold-300 text-xs px-3 py-1 rounded-full font-mono">
           Formula: [α] = α / (l × c)
         </span>
       </div>
@@ -1008,7 +1008,7 @@ const PolarimeterSim: React.FC<PolarimeterProps> = ({ concentration, pathLength,
         </div>
         <div>
           <span className="text-xs text-slate-400 block">Specific Rotation [α]</span>
-          <span className="text-xl font-bold text-cyan-400 font-mono">{specificRotation > 0 ? `+${specificRotation}°` : `${specificRotation}°`}</span>
+          <span className="text-xl font-bold text-gold-400 font-mono">{specificRotation > 0 ? `+${specificRotation}°` : `${specificRotation}°`}</span>
         </div>
         <div>
           <span className="text-xs text-slate-400 block">Optical Purity / EE</span>
@@ -1115,7 +1115,7 @@ const ReactionEnergyDiagramSVG: React.FC<{ mechanism: 'SN1' | 'SN2' }> = ({ mech
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-xl">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-bold text-cyan-300">Potential Energy Profile ({mechanism})</h4>
+        <h4 className="text-sm font-bold text-gold-300">Potential Energy Profile ({mechanism})</h4>
         <span className="text-xs text-slate-400 font-mono">
           {mechanism === 'SN1' ? 'Two-step (Carbocation Intermediate)' : 'One-step Concerted (TS‡)'}
         </span>
@@ -1175,7 +1175,7 @@ const AmbidentNucleophileSVG: React.FC<{ mode: 'KCN' | 'AgCN' | 'KNO2' | 'AgNO2'
         )}
         {mode === 'AgCN' && (
           <div>
-            <span className="text-cyan-400">Covalent Compound:</span> Ag - C ≡ N:<br />
+            <span className="text-gold-400">Covalent Compound:</span> Ag - C ≡ N:<br />
             <span className="text-slate-300">Carbon is covalently bonded to Ag. Nitrogen attacks with lone pair!</span><br />
             <span className="text-emerald-400 font-bold text-sm mt-2 block">R-X + AgCN → R-NC (Alkyl Isocyanide / Isonitrile) + AgX</span>
           </div>
@@ -1189,7 +1189,7 @@ const AmbidentNucleophileSVG: React.FC<{ mode: 'KCN' | 'AgCN' | 'KNO2' | 'AgNO2'
         )}
         {mode === 'AgNO2' && (
           <div>
-            <span className="text-cyan-400">Covalent Salt:</span> Ag - O - N = O<br />
+            <span className="text-gold-400">Covalent Salt:</span> Ag - O - N = O<br />
             <span className="text-slate-300">Nitrogen lone pair attacks carbon directly!</span><br />
             <span className="text-emerald-400 font-bold text-sm mt-2 block">R-X + AgNO2 → R-NO2 (Nitroalkane) + AgX</span>
           </div>
@@ -1381,14 +1381,14 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
       <header className="mb-6 bg-slate-900/90 border border-slate-800 rounded-2xl p-4 md:p-6 shadow-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider">
+            <span className="bg-gold-500/10 text-gold-400 border border-gold-500/30 text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wider">
               CISCE Class 12 Chemistry
             </span>
             <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs px-3 py-1 rounded-full font-bold font-mono">
               Score: {score} pts
             </span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-extrabold text-white mt-1 bg-gradient-to-r from-cyan-400 via-amber-300 to-emerald-400 bg-clip-text text-transparent">
+          <h1 className="text-2xl md:text-3xl font-extrabold text-white mt-1 bg-gradient-to-r from-gold-400 via-amber-300 to-emerald-400 bg-clip-text text-transparent">
             Haloalkanes & Haloarenes Interactive Lab
           </h1>
           <p className="text-xs md:text-sm text-slate-400 mt-1">
@@ -1414,7 +1414,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
               }}
               className={`px-3 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
                 activeTab === tab.id
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/20 scale-105'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg shadow-gold-500/20 scale-105'
                   : 'bg-slate-800/80 text-slate-400 hover:text-white hover:bg-slate-800'
               }`}
             >
@@ -1432,9 +1432,9 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
         {activeTab === 'scenario' && (
           <div className="space-y-6 animate-fadeIn">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 mb-4 text-sm leading-relaxed">{SCENARIO.intro}</p>
-              <div className="bg-slate-950 border-l-4 border-cyan-500 p-4 rounded-r-lg text-slate-400 text-xs leading-relaxed">
+              <div className="bg-slate-950 border-l-4 border-gold-500 p-4 rounded-r-lg text-slate-400 text-xs leading-relaxed">
                 {SCENARIO.context}
               </div>
             </div>
@@ -1459,7 +1459,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                           : discoverySelected === idx
                           ? 'bg-rose-950/60 border-rose-500 text-rose-200'
                           : 'bg-slate-950 border-slate-800 opacity-50'
-                        : 'bg-slate-950 border-slate-800 hover:border-cyan-500 text-slate-200'
+                        : 'bg-slate-950 border-slate-800 hover:border-gold-500 text-slate-200'
                     }`}
                   >
                     <div className="flex items-start gap-2">
@@ -1473,8 +1473,8 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-cyan-950/40 border border-cyan-500/40 p-4 rounded-xl text-cyan-200 text-xs leading-relaxed animate-fadeIn">
-                  <span className="font-bold text-cyan-300">Lab Insight: </span>
+                <div className="bg-gold-950/40 border border-gold-500/40 p-4 rounded-xl text-gold-200 text-xs leading-relaxed animate-fadeIn">
+                  <span className="font-bold text-gold-300">Lab Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1482,7 +1482,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
 
             {/* Render Prediction Questions */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔮</span> Mandatory Lab Predictions
               </h3>
               <div className="space-y-6">
@@ -1527,14 +1527,14 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {/* Controls Panel */}
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4">
-                <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+                <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
                   <span>⚙️</span> Reaction Variable Controls
                 </h3>
 
                 {/* Substrate Degree Slider */}
                 <div>
                   <label className="text-xs text-slate-300 font-semibold block mb-1">
-                    Substrate Substitution Degree: <span className="text-cyan-400 font-bold">{substrateDegree}° Haloalkane</span>
+                    Substrate Substitution Degree: <span className="text-gold-400 font-bold">{substrateDegree}° Haloalkane</span>
                   </label>
                   <div className="grid grid-cols-3 gap-2">
                     {(['1', '2', '3'] as const).map((deg) => (
@@ -1548,7 +1548,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                         }}
                         className={`py-2 rounded-lg text-xs font-bold border ${
                           substrateDegree === deg
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1623,7 +1623,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                     <button
                       onClick={() => setMechanism('SN2')}
                       className={`flex-1 py-2 rounded text-xs font-bold border ${
-                        mechanism === 'SN2' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                        mechanism === 'SN2' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
                       SN2 (Bimolecular)
@@ -1646,12 +1646,12 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
 
             {/* Exploration Steps Render */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4">🧪 Mandatory Exploration Modules</h3>
+              <h3 className="text-lg font-bold text-gold-400 mb-4">🧪 Mandatory Exploration Modules</h3>
               <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
                 {EXPLORATION_STEPS.map((step, sIdx) => (
                   <div key={sIdx} className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div>
-                      <span className="text-xs font-mono text-cyan-400 font-bold block mb-1">{step.title}</span>
+                      <span className="text-xs font-mono text-gold-400 font-bold block mb-1">{step.title}</span>
                       <p className="text-[11px] text-slate-300 leading-tight">{step.instruction}</p>
                     </div>
                     <span className="mt-3 text-[9px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded font-mono">
@@ -1711,10 +1711,10 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* Polarimeter Controls */}
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4">
-                <h4 className="text-sm font-bold text-cyan-400">Polarimeter Controls</h4>
+                <h4 className="text-sm font-bold text-gold-400">Polarimeter Controls</h4>
                 <div>
                   <label className="text-xs text-slate-300 block mb-1">
-                    Concentration (c): <span className="text-cyan-400 font-mono font-bold">{concentration.toFixed(2)} g/mL</span>
+                    Concentration (c): <span className="text-gold-400 font-mono font-bold">{concentration.toFixed(2)} g/mL</span>
                   </label>
                   <input
                     type="range"
@@ -1723,13 +1723,13 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                     step="0.01"
                     value={concentration}
                     onChange={(e) => setConcentration(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
                 <div>
                   <label className="text-xs text-slate-300 block mb-1">
-                    Path Length (l): <span className="text-cyan-400 font-mono font-bold">{pathLength.toFixed(1)} dm</span>
+                    Path Length (l): <span className="text-gold-400 font-mono font-bold">{pathLength.toFixed(1)} dm</span>
                   </label>
                   <input
                     type="range"
@@ -1738,7 +1738,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                     step="0.5"
                     value={pathLength}
                     onChange={(e) => setPathLength(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1763,7 +1763,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                 <h4 className="text-sm font-bold text-amber-400">Key Stereochemical Principles</h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="bg-slate-950 p-3 rounded-lg border border-slate-800">
-                    <span className="font-bold text-cyan-400 block mb-1">Walden Inversion (SN2)</span>
+                    <span className="font-bold text-gold-400 block mb-1">Walden Inversion (SN2)</span>
                     Backside attack of nucleophile forces spatial rearrangement of remaining bonds, inverting absolute configuration (e.g. R → S or S → R).
                   </div>
                   <div className="bg-slate-950 p-3 rounded-lg border border-slate-800">
@@ -1811,7 +1811,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
             {/* EWG Effect Simulator */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-md font-bold text-cyan-400 mb-2">
+                <h3 className="text-md font-bold text-gold-400 mb-2">
                   Electron-Withdrawing Group (-NO2) Substitution Effects
                 </h3>
                 <p className="text-xs text-slate-300 mb-4">
@@ -1824,7 +1824,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                       type="checkbox"
                       checked={ewgPositions.para}
                       onChange={(e) => setEwgPositions((prev) => ({ ...prev, para: e.target.checked }))}
-                      className="w-4 h-4 accent-cyan-500"
+                      className="w-4 h-4 accent-gold-500"
                     />
                     <span className="text-xs font-bold text-slate-200">Para-Nitro (-NO2 at Position 4)</span>
                   </label>
@@ -1833,7 +1833,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                       type="checkbox"
                       checked={ewgPositions.ortho}
                       onChange={(e) => setEwgPositions((prev) => ({ ...prev, ortho: e.target.checked }))}
-                      className="w-4 h-4 accent-cyan-500"
+                      className="w-4 h-4 accent-gold-500"
                     />
                     <span className="text-xs font-bold text-slate-200">Ortho-Nitro (-NO2 at Position 2)</span>
                   </label>
@@ -1842,7 +1842,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                       type="checkbox"
                       checked={ewgPositions.meta}
                       onChange={(e) => setEwgPositions((prev) => ({ ...prev, meta: e.target.checked }))}
-                      className="w-4 h-4 accent-cyan-500"
+                      className="w-4 h-4 accent-gold-500"
                     />
                     <span className="text-xs font-bold text-slate-200">Meta-Nitro (-NO2 at Position 3) [No Resonance Effect]</span>
                   </label>
@@ -1860,7 +1860,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                     {requiredTemp === 333 && '2,4,6-Trinitrochlorobenzene hydrolyses with warm water alone at 333 K!'}
                   </p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-slate-800 text-[11px] text-cyan-300">
+                <div className="mt-4 pt-3 border-t border-slate-800 text-[11px] text-gold-300">
                   💡 Resonance delocalisation of negative charge onto oxygen atoms occurs only when -NO2 is at Ortho/Para positions!
                 </div>
               </div>
@@ -1908,7 +1908,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                 </h3>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-xs text-cyan-300 font-mono">
+                <span className="text-xs text-gold-300 font-mono">
                   Mastery: {getMasteryLevel(bktStates[currentChallenge.nodeId] || createBKTState()).toUpperCase()}
                 </span>
                 <button
@@ -1943,7 +1943,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                           : selectedOption === idx
                           ? 'bg-rose-950 border-rose-500 text-rose-200'
                           : 'bg-slate-950 border-slate-800 opacity-40'
-                        : 'bg-slate-950 border-slate-800 hover:border-cyan-500 text-slate-200 hover:bg-slate-900'
+                        : 'bg-slate-950 border-slate-800 hover:border-gold-500 text-slate-200 hover:bg-slate-900'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -1985,7 +1985,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
 
                   <button
                     onClick={handleNextChallenge}
-                    className="w-full py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-sm shadow-lg shadow-cyan-500/20 hover:scale-[1.01] transition-all"
+                    className="w-full py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-500/20 hover:scale-[1.01] transition-all"
                   >
                     {currentChallengeIndex < CHALLENGES.length - 1 ? 'Proceed to Next Challenge →' : 'Complete Assessment & View Summary'}
                   </button>
@@ -2035,7 +2035,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
 
             {/* Polyhalogen Environmental Impact Summary */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-lg font-bold text-cyan-400">Polyhalogen Compounds Summary & Environmental Impact</h3>
+              <h3 className="text-lg font-bold text-gold-400">Polyhalogen Compounds Summary & Environmental Impact</h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-xs">
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -2043,7 +2043,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                   Solvent in paint removers, aerosol propellant. CNS toxicity upon exposure.
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <span className="font-bold text-cyan-400 block mb-1">Chloroform (CHCl3)</span>
+                  <span className="font-bold text-gold-400 block mb-1">Chloroform (CHCl3)</span>
                   Anesthetic historically; oxidises to Phosgene (COCl2). Preserved with 1% ethanol.
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
@@ -2059,7 +2059,7 @@ export default function C12_ChemistryHaloalkanesandHaloarenesCBSESim({
                   Refrigerants. Radical Cl• initiates chain destruction of O3 layer.
                 </div>
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
-                  <span className="font-bold text-blue-400 block mb-1">DDT (p,p'-Dichlorodiphenyltrichloroethane)</span>
+                  <span className="font-bold text-gold-400 block mb-1">DDT (p,p'-Dichlorodiphenyltrichloroethane)</span>
                   Non-biodegradable insecticide. Accumulates in fatty tissues (Bioaccumulation).
                 </div>
               </div>

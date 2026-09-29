@@ -342,10 +342,10 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100 shadow-2xl">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">\u26a1</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">\u26a1</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 10 Chemistry -- Electrolysis</p>
-          <h1 className="text-xl md:text-2xl font-black text-indigo-300">Faraday\u2019s First Law, Live</h1>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Chemistry -- Electrolysis</p>
+          <h1 className="text-xl md:text-2xl font-black text-gold-300">Faraday\u2019s First Law, Live</h1>
         </div>
         <span className="font-mono text-xs text-slate-500">m = QM / nF</span>
       </div>
@@ -358,7 +358,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -373,8 +373,8 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
       {/* ============================================================ */}
       {tab === 'discover' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-indigo-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-indigo-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               One coulomb of charge is passed through each of three cells: AgNO\u2083 (Ag\u207a), CuSO\u2084
               (Cu\u00b2\u207a) and Al\u2082O\u2083 (Al\u00b3\u207a). Which metal is deposited in the LARGEST mass?
@@ -388,7 +388,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 1;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-indigo-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -434,7 +434,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -453,18 +453,18 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Current I</span>
-                <span className="font-mono text-indigo-300">{current.toFixed(1)} A</span>
+                <span className="font-mono text-gold-300">{current.toFixed(1)} A</span>
               </label>
               <input type="range" min={0.1} max={3} step={0.1} value={current} aria-label="current"
-                onChange={(e) => setCurrent(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setCurrent(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Time t</span>
-                <span className="font-mono text-indigo-300">{mins}m {rem}s</span>
+                <span className="font-mono text-gold-300">{mins}m {rem}s</span>
               </label>
               <input type="range" min={10} max={1800} step={10} value={secs} aria-label="time"
-                onChange={(e) => setSecs(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setSecs(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400">Electrolyte</label>
@@ -528,11 +528,11 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               <div className="grid grid-cols-2 gap-2">
                 <div className="p-3 bg-slate-900/70 rounded-xl border border-slate-800">
                   <div className="text-[10px] text-slate-400 uppercase">Charge passed</div>
-                  <div className="font-mono text-indigo-300 font-bold text-lg">{charge.toFixed(0)} C</div>
+                  <div className="font-mono text-gold-300 font-bold text-lg">{charge.toFixed(0)} C</div>
                 </div>
                 <div className="p-3 bg-slate-900/70 rounded-xl border border-slate-800">
                   <div className="text-[10px] text-slate-400 uppercase">Moles of e\u2212</div>
-                  <div className="font-mono text-violet-300 font-bold text-lg">{molE.toFixed(5)} mol</div>
+                  <div className="font-mono text-gold-300 font-bold text-lg">{molE.toFixed(5)} mol</div>
                 </div>
                 <div className="p-3 bg-slate-900/70 rounded-xl border border-slate-800">
                   <div className="text-[10px] text-slate-400 uppercase">Moles of metal</div>
@@ -558,7 +558,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               <div className="flex gap-2">
                 <button
                   onClick={recordRun}
-                  className="min-h-9 flex-1 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold"
+                  className="min-h-9 flex-1 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold"
                 >
                   Log this run
                 </button>
@@ -649,10 +649,10 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               <div>
                 <label className="text-xs font-semibold text-slate-400 flex justify-between">
                   <span>Object surface area</span>
-                  <span className="font-mono text-sky-300">{shopArea} cm\u00b2</span>
+                  <span className="font-mono text-gold-300">{shopArea} cm\u00b2</span>
                 </label>
                 <input type="range" min={10} max={2000} step={10} value={shopArea} aria-label="area"
-                  onChange={(e) => setShopArea(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                  onChange={(e) => setShopArea(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-slate-400 flex justify-between">
@@ -665,10 +665,10 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               <div>
                 <label className="text-xs font-semibold text-slate-400 flex justify-between">
                   <span>Available current</span>
-                  <span className="font-mono text-indigo-300">{shopCurrent.toFixed(1)} A</span>
+                  <span className="font-mono text-gold-300">{shopCurrent.toFixed(1)} A</span>
                 </label>
                 <input type="range" min={0.2} max={10} step={0.1} value={shopCurrent} aria-label="shop current"
-                  onChange={(e) => setShopCurrent(Number(e.target.value))} className="w-full min-h-11 accent-indigo-500" />
+                  onChange={(e) => setShopCurrent(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
               </div>
             </div>
 
@@ -685,7 +685,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
               </p>
               <p className="text-slate-400">
                 charge = mol \u00d7 n \u00d7 F = {shopMol.toFixed(4)} \u00d7 {shopCfg.n} \u00d7 96500 ={' '}
-                <span className="text-indigo-300 font-bold">{shopCharge.toFixed(0)} C</span>
+                <span className="text-gold-300 font-bold">{shopCharge.toFixed(0)} C</span>
               </p>
               <p className="text-slate-400">
                 at {shopCurrent.toFixed(1)} A: time = {shopTime.toFixed(0)} s \u2248{' '}
@@ -771,7 +771,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                   key={t}
                   onClick={() => setTierFilter(t)}
                   className={`min-h-9 px-3 rounded-lg text-[11px] font-bold capitalize transition-all ${
-                    tierFilter === t ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
+                    tierFilter === t ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
                   {t}
@@ -813,7 +813,7 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
                 <p className="text-sm text-slate-200 leading-relaxed mb-2.5">{ch.question}</p>
                 <div className="space-y-1.5">
                   {ch.options.map((opt, i) => {
-                    let cls = 'border-slate-700 bg-slate-950 hover:border-indigo-600';
+                    let cls = 'border-slate-700 bg-slate-950 hover:border-gold-600';
                     if (isRevealed && i === ch.correctIndex) cls = 'border-emerald-600 bg-emerald-950/60';
                     else if (isRevealed && i === chosen) cls = 'border-rose-600 bg-rose-950/60';
                     return (
@@ -886,14 +886,14 @@ export function C10_ChemistryElectrolysisofspecificcompoundsSim() {
           </div>
 
           <div className="p-5 bg-slate-900/70 rounded-2xl border border-slate-800">
-            <p className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-2">If you remember three lines</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">If you remember three lines</p>
             <ol className="space-y-2 text-sm text-slate-300 leading-relaxed list-decimal ml-5">
               <li>Charge (I \u00d7 t) is the only currency: m \u221d Q (Faraday I).</li>
               <li>Same charge, unequal mass: per faraday each metal delivers M/n grams (Faraday II).</li>
               <li>The plated object is the cathode; aqueous baths obey the discharge series -- H\u207a beats Al\u00b3\u207a.</li>
             </ol>
             <div className="mt-3 flex gap-2">
-              <button onClick={() => setTab('cell')} className="min-h-11 px-5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-sm font-bold">
+              <button onClick={() => setTab('cell')} className="min-h-11 px-5 rounded-xl bg-gold-600 hover:bg-gold-500 text-sm font-bold">
                 Back to the Cell
               </button>
               <button onClick={() => { setIon('cuso4'); setCurrent(0.5); setSecs(300); }} className="min-h-11 px-5 rounded-xl bg-slate-800 hover:bg-slate-700 text-sm font-bold">

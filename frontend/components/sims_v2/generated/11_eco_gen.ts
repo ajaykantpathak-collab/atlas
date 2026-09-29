@@ -74,7 +74,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Deindustrialisation",
+    "title": "Deindustrialisation Refers To The Deliberate",
     "text": "Deindustrialisation refers to the deliberate and systematic decline of India's indigenous handicraft and artisan industries under British colonial rule, driven by a two-fold policy: transforming India into a supplier of raw materials (cotton, jute, indigo)",
     "emoji": "📈",
     "bgColor": "from-rose-400 to-pink-500"
@@ -98,7 +98,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Drain Of Wealth Theory",
+    "title": "The Drain Of Wealth Theory, Propounded",
     "text": "The Drain of Wealth theory, propounded by Dadabhai Naoroji in his 1867 work *Poverty and Un-British Rule in India*, refers to the systematic, unilateral transfer of India's national income and resources to Britain during colonial rule without any equivalent",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -242,7 +242,7 @@ export const C11_ECO_GEN: SimDef[] = [
      "Under tinkathia, peasants were legally bound to cultivate indigo on 3/20th of their land for British planters at prices fixed unilaterally by planters",
      "Daccai muslin collapsed because British machine-made cloth entered India duty-free (or at nominal tariffs) while Indian textiles faced 70-80% duties in Britain"
     ],
-    "hint": "Straight from the 'Deindustrialisation' slide -- match the key terms.",
+    "hint": "Straight from the 'Deindustrialisation refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer blaming \"lack of demand\" or \"inferior quality\" reveals the student ignores the asymmetric trade policy — they apply free-market logic to a rigged colonial market.",
     "id": "gen_c11_eco_ch01_q5",
     "nodeId": "c11_eco_cbse_01_006",
@@ -574,7 +574,7 @@ export const C11_ECO_GEN: SimDef[] = [
      "The Coast Canal was built at huge cost, but railways soon ran parallel to it, offering faster, cheaper, and more reliable transport. The canal could not compete and was abandoned",
      "Mechanism: (1) British importers bought Council Bills from London (denominated in sterling) to pay Indian exporters"
     ],
-    "hint": "Straight from the 'The Drain of Wealth theory' slide -- match the key terms.",
+    "hint": "Straight from the 'The Drain of Wealth theory,' slide -- match the key terms.",
     "misconception": "A wrong answer describing Council Bills as \"normal trade finance\" misses that the *Government* was the counterparty, making it a fiscal transfer disguised as commercial transaction.",
     "id": "gen_c11_eco_ch01_q16",
     "nodeId": "c11_eco_cbse_01_009",
@@ -589,7 +589,7 @@ export const C11_ECO_GEN: SimDef[] = [
      "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting",
      "Sample account (all £ millions): Merchandise Exports: 180 Merchandise Imports: 100 Merchandise Trade Balance: +80 Invisible Credits (shipping, insurance"
     ],
-    "hint": "Straight from the 'The Drain of Wealth theory' slide -- match the key terms.",
+    "hint": "Straight from the 'The Drain of Wealth theory,' slide -- match the key terms.",
     "misconception": "A poor answer shows imbalance or omits profit remittances, revealing misunderstanding that drain operated *through* the trade surplus, not alongside it. The key insight: the £80 merchandise surplus financed the £60 invisible debit — the \"surplus\" was the drain's vehicle.",
     "id": "gen_c11_eco_ch01_q17",
     "nodeId": "c11_eco_cbse_01_009",
@@ -629,7 +629,9 @@ export const C11_ECO_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "economics",
   "topic": "Tax Reforms Under Liberalisation",
-  "chapters": ["Economics Ch3: Tax Reforms Under Liberalisation"],
+  "chapters": [
+   "Economics Ch3: Tax Reforms Under Liberalisation"
+  ],
   "nodeIds": [
    "c11_eco_cbse_03_005",
    "c11_eco_cbse_03_008",
@@ -902,7 +904,7 @@ export const C11_ECO_GEN: SimDef[] = [
      "(a) Legal basis: Challenge under GATT Article I (MFN) and III (National Treatment)—CBAM discriminates by origin (no carbon price in EU for domestic steel) and acts as a border tax",
      "Step 1: Original revenue = 2 quintals × ₹7,000 = ₹14,000. Step 2: Original cost = ₹10,000. Step 3: New cost = ₹10,000 + ₹2,000 = ₹12,000"
     ],
-    "hint": "Straight from the 'assessment of LPG reforms on' slide -- match the key terms.",
+    "hint": "Straight from the 'assessment of LPG reforms' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., still showing profit) reveals inability to combine simultaneous cost-push and price-deflation shocks — the dual squeeze reform critics highlight.",
     "id": "gen_c11_eco_ch03_q8",
     "nodeId": "c11_eco_cbse_03_011",
@@ -911,7 +913,7 @@ export const C11_ECO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about tax reforms under liberalisation refer to?",
+    "What surprised you about tax reforms under liberalisation?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1732,6 +1734,52 @@ export const C11_ECO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "calculate the effective interest rate burden",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "diagram the three-tier cooperative credit",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "evaluate why high",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) diagram the three-tier cooperative credit structure with flow of funds and explain the functional",
+    "id": "gen_c11_eco_ch05_q17",
+    "nodeId": "c11_eco_cbse_05_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Compare the recovery performance of Commercial Banks vs RRBs in agriculture loans. Given that RRBs historically show higher recovery rates (85-90%) than Commercial Banks (70-75%) in rural areas, analyse THREE institutional reasons for this difference despite RRBs having weaker capital base.",
     "sortItems": [
      {
@@ -1772,63 +1820,6 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"RRBs lend only to good borrowers\" or \"Commercial Banks are careless\") misses the structural-institutional explanation — it's not about borrower quality but institutional design (local accountability, geographic focus, mandate concentration) that drives recovery incentives.",
-    "id": "gen_c11_eco_ch05_q17",
-    "nodeId": "c11_eco_cbse_05_004",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Critically evaluate the statement: \"High agriculture loan default rates are primarily due to farmers' deliberate refusal to pay back loans.\" Use evidence from rural banking literature and the distinction between \"willful default\" and \"inability to pay.\"",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "crop failure due to monsoon dependence",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "price crashes below MSP",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s2",
-      "label": "rising input costs",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s3",
-      "label": "inadequate insurance coverage",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong evaluation (agreeing with the statement) reflects moral hazard bias — blaming borrowers instead of analysing systemic failures in risk management, insurance, and price support, which is a policy-relevant misconception.",
     "id": "gen_c11_eco_ch05_q18",
     "nodeId": "c11_eco_cbse_05_004",
     "difficulty": "advanced"
@@ -1922,7 +1913,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Unemployment",
+    "title": "Unemployment Refers To a Situation Where",
     "text": "Unemployment refers to a situation where individuals who are willing and able to work at the prevailing wage rate cannot find employment. The four main types are: Frictional unemployment (short-term job search between jobs), Structural unemployment (mismatch",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2358,16 +2349,47 @@ export const C11_ECO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "What is the statutory guarantee provided by the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005, to every rural household whose adult members volunteer to do unskilled manual work?",
-    "answer": "MGNREGA guarantees 100 days of wage employment per household per financial year at the notified minimum wage",
-    "options": [
-     "Real wage = Nominal wage / Consumer Price Index (CPI) × 100 (base year). It measures purchasing power — the quantity of goods/services a wage can buy",
-     "Formula: Annual Growth Rate (%) = [(Workforce_end / Workforce_start)^(1/n) – 1] × 100, where n = number of years. Calculation: (460/400)^(1/5) = 1.0283 → 2.83% per annum",
-     "MGNREGA guarantees 100 days of wage employment per household per financial year at the notified minimum wage"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Analyze the impact",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Explain the legal guarantee and",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Distinguish between wage employment",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Government Employment Generation' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"100 days per person\" or \"guaranteed job for life\") reveals confusion between *household* vs *individual* entitlement and confusion between *guaranteed wage employment* vs *permanent government job*.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Explain the legal guarantee and demand-driven nature of MGNREGA with its key parameters (100 days,",
     "id": "gen_c11_eco_ch06_q10",
     "nodeId": "c11_eco_cbse_06_010",
     "difficulty": "standard",
@@ -2500,6 +2522,52 @@ export const C11_ECO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between labour force",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "calculate WPR from given population",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "classify a worker as self-employed",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) distinguish between labour force, workforce, and unemployed using the \"activity status\" criterion;",
+    "id": "gen_c11_eco_ch06_q13",
+    "nodeId": "c11_eco_cbse_06_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Chart 6.3 shows employment growth exceeded 2% only in 1999–2005 and 2022–23. Analyse why the 1999–2005 period saw a spike. Connect to sectoral data in Table 6.3 and the concept of \"jobless growth\" reversal.",
     "sortItems": [
      {
@@ -2540,7 +2608,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing only \"reforms\" misses the sectoral composition — reforms *enabled* construction/IT, but the *nature* of growth determined jobs.",
-    "id": "gen_c11_eco_ch06_q13",
+    "id": "gen_c11_eco_ch06_q14",
     "nodeId": "c11_eco_cbse_06_004",
     "difficulty": "advanced"
    },
@@ -2586,8 +2654,54 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Refute with nuance: Casualisation *began* in 1970s–80s (pre-reforms), peaking in 1993–94 *before* major labour market",
-    "id": "gen_c11_eco_ch06_q14",
+    "id": "gen_c11_eco_ch06_q15",
     "nodeId": "c11_eco_cbse_06_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "calculate formal/informal sector workforce",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "classify any given enterprise or worker",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain how casualisation and",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) classify any given enterprise or worker into formal/informal sector using the 10-hired-worker",
+    "id": "gen_c11_eco_ch06_q16",
+    "nodeId": "c11_eco_cbse_06_005",
     "difficulty": "advanced"
    },
    {
@@ -2643,43 +2757,31 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer lists generic schemes without mapping to specific vulnerabilities.",
-    "id": "gen_c11_eco_ch06_q15",
+    "id": "gen_c11_eco_ch06_q17",
     "nodeId": "c11_eco_cbse_06_006",
     "difficulty": "advanced"
    },
    {
     "type": "order",
-    "question": "Design a mini-survey questionnaire (5 questions) to identify seasonal unemployment among migrant construction workers in an urban area, ensuring it captures the NSO's Current Weekly Status framework while adding a seasonal dimension. Explain how your questions avoid the \"1-hour criterion\" pitfall.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "\"During months with no work",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "\"In the last 7 days",
+      "label": "Classify a given real-world unemployment",
       "emoji": "📌",
       "correctBin": "o0"
      },
      {
-      "id": "s2",
-      "label": "\"When working",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s3",
-      "label": "\"In the last 365 days",
+      "id": "s1",
+      "label": "Explain how each type responds differently",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
-      "id": "s4",
-      "label": "\"Are you registered with any employment",
+      "id": "s2",
+      "label": "Calculate and interpret the natural rate",
       "emoji": "📌",
-      "correctBin": "o4"
+      "correctBin": "o2"
      }
     ],
     "bins": [
@@ -2697,54 +2799,13 @@ export const C11_ECO_GEN: SimDef[] = [
       "id": "o2",
       "label": "3rd",
       "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A poor answer uses only \"Are you employed?\" binary questions, replicating the Usual Status flaw of masking seasonal joblessness. This tests ability to translate measurement concepts into data collection design.",
-    "id": "gen_c11_eco_ch06_q16",
-    "nodeId": "c11_eco_cbse_06_008",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "APPLY LEVEL: In a hypothetical village of 10,000 people, 4,200 are classified as workers. Of these, 2,500 are self-employed (1,800 men, 700 women), 900 are regular salaried (700 men, 200 women), and 800 are casual wage labourers (500 men, 300 women).",
-    "answer": "with Steps: (a) Worker-population ratio = (4,200 ÷ 10,000) × 100 = 42.0% (b) Female workers = 700 + 200 + 300 = 1,200",
-    "options": [
-     "Case: Ahmedabad mill worker (from Box 6.2) becomes casual construction worker. Vulnerabilities: (1) No PF → no retirement corpus",
-     "(b) Employed. The NSO's Current Weekly Status considers a person employed if they worked for at least 1 hour on any day during the reference week",
-     "with Steps: (a) Jan Dhan ratio = (4,200 ÷ 10,000) × 100 = 42.0% (b) Female workers = 700 + 200 + 300 = 1,200",
-     "with Steps: (a) Worker-population ratio = (4,200 ÷ 10,000) × 100 = 42.0% (b) Female workers = 700 + 200 + 300 = 1,200"
-    ],
-    "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: with Steps: (a) Worker-population ratio = (4,200 ÷ 10,000) × 100 = 42.",
-    "id": "gen_c11_eco_ch06_q17",
-    "nodeId": "c11_eco_cbse_06_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "REMEMBER LEVEL: State the precise NCERT definition of a 'worker' and list the three employment status categories with one example each.",
-    "answer": "A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those temporarily absent due to illness, festivals, etc",
-    "options": [
-     "with Steps: (a) Worker-population ratio = (4,200 ÷ 10,000) × 100 = 42.0% (b) Female workers = 700 + 200 + 300 = 1,200",
-     "Case: Ahmedabad mill worker (from Box 6.2) becomes casual construction worker. Vulnerabilities: (1) No PF → no retirement corpus",
-     "A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those temporarily absent due to illness, festivals, etc"
-    ],
-    "hint": "Straight from the 'Economic activities' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A worker is \"all those who are engaged in economic activities, in whatever capacity — high or low\" including those",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Classify a given real-world unemployment scenario into the correct type with justification",
     "id": "gen_c11_eco_ch06_q18",
-    "nodeId": "c11_eco_cbse_06_001",
-    "difficulty": "standard"
+    "nodeId": "c11_eco_cbse_06_007",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -2799,7 +2860,7 @@ export const C11_ECO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Environment",
+    "title": "Environment Is The Total Planetary",
     "text": "Environment is the total planetary inheritance comprising the totality of all biotic (living: forests, fisheries, animals) and abiotic (non-living: air, water, land, sunlight, minerals) resources and their interrelationships.",
     "emoji": "📈",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2829,7 +2890,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Deforestation",
+    "title": "Deforestation Is The Permanent Conversion",
     "text": "Deforestation is the permanent conversion of forest land to non-forest uses (agriculture, infrastructure, mining, settlements) resulting in a reduction of forest cover below the ecological threshold of 33% of geographical area, while biodiversity loss refers",
     "emoji": "📈",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2871,11 +2932,11 @@ export const C11_ECO_GEN: SimDef[] = [
     "question": "Define \"environment\" in economics and distinguish between biotic and abiotic components with two examples each.",
     "answer": "Environment is the total planetary inheritance and totality of all resources, including biotic (living: e",
     "options": [
-     "\"Development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs",
-     "Carrying capacity is the maximum population size that an environment can sustain indefinitely without degrading its resource base or assimilative capacity",
+     "Student can explain the IPAT identity (Impact = Population × Affluence × Technology) with Indian data, distinguish between poverty-driven degradation (e",
+     "Students believe deforestation and biodiversity loss are primarily driven by \"poor people cutting trees for survival\" (poverty-environment hypothesis)",
      "Environment is the total planetary inheritance and totality of all resources, including biotic (living: e"
     ],
-    "hint": "Straight from the 'Environment' slide -- match the key terms.",
+    "hint": "Straight from the 'Environment is the total' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists \"trees, water, air\" without the \"total planetary inheritance\" phrasing or the interrelationship aspect reveals a middle-school level understanding (Class 6-8 geography) rather than the precise economic definition required for board exams.",
     "id": "gen_c11_eco_ch07_q1",
     "nodeId": "c11_eco_cbse_07_001",
@@ -3389,6 +3450,52 @@ export const C11_ECO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain the opportunity cost of water",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "interpret Central Pollution Control Board",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "calculate the rate of groundwater depletion",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) interpret Central Pollution Control Board (CPCB) water quality data (BOD, DO, coliform counts) to",
+    "id": "gen_c11_eco_ch07_q13",
+    "nodeId": "c11_eco_cbse_07_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the statement: \"India's environmental crisis is primarily a population problem — if population stabilised, degradation would automatically reduce.\" Use the concepts of demographic dividend, affluence elasticity, and technology lock-in.",
     "sortItems": [
      {
@@ -3429,7 +3536,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer agreeing reveals single-factor thinking, ignoring the multiplicative IPAT structure.",
-    "id": "gen_c11_eco_ch07_q13",
+    "id": "gen_c11_eco_ch07_q14",
     "nodeId": "c11_eco_cbse_07_005",
     "difficulty": "advanced"
    },
@@ -3508,7 +3615,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer calculating \"years to reach 33%\" reveals the student treats the threshold as a future target rather than a violated constraint, ignoring the *stock* dimension of environmental crisis.",
-    "id": "gen_c11_eco_ch07_q14",
+    "id": "gen_c11_eco_ch07_q15",
     "nodeId": "c11_eco_cbse_07_006",
     "difficulty": "advanced"
    },
@@ -3565,7 +3672,7 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer claiming \"same area cleared = same impact\" reveals ignorance of *spatial ecology* and the non-linear relationship between habitat configuration and biodiversity persistence.",
-    "id": "gen_c11_eco_ch07_q15",
+    "id": "gen_c11_eco_ch07_q16",
     "nodeId": "c11_eco_cbse_07_006",
     "difficulty": "advanced"
    },
@@ -3611,88 +3718,31 @@ export const C11_ECO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting \"no net loss\" reveals the student treats forests as *fungible timber stocks* rather than *complex adaptive systems* with path-dependent development.",
-    "id": "gen_c11_eco_ch07_q16",
+    "id": "gen_c11_eco_ch07_q17",
     "nodeId": "c11_eco_cbse_07_006",
     "difficulty": "advanced"
    },
    {
     "type": "order",
-    "question": "Evaluate the statement: \"The opportunity cost of environmental degradation is zero for a poor household that relies on firewood for cooking because they have no alternative.\" Use the concept of carrying capacity and intergenerational equity.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Intergenerational equity",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
-      "label": "Carrying capacity",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Social opportunity cost",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "Private opportunity cost",
-      "emoji": "📌",
-      "correctBin": "o0"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer confusing \"no monetary payment\" with \"zero opportunity cost\" reveals a fundamental misunderstanding of economic cost vs. financial outlay.",
-    "id": "gen_c11_eco_ch07_q17",
-    "nodeId": "c11_eco_cbse_07_007",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Compare the Brundtland definition with Edward Barbier's definition (\"increasing the material standard of living of the poor at the grass root level... quantitatively measured in terms of increased income, real income, educational services, health care, sanitation, water supply\").",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "links sustainable development directly",
+      "label": "Evaluate",
       "emoji": "📌",
       "correctBin": "o2"
      },
      {
       "id": "s1",
-      "label": "specifies measurable indicators",
+      "label": "Calculate the annual rate of forest cover",
       "emoji": "📌",
-      "correctBin": "o1"
+      "correctBin": "o0"
      },
      {
       "id": "s2",
-      "label": "targets the poor majority",
+      "label": "Explain the causal chain linking",
       "emoji": "📌",
-      "correctBin": "o0"
+      "correctBin": "o1"
      }
     ],
     "bins": [
@@ -3713,10 +3763,10 @@ export const C11_ECO_GEN: SimDef[] = [
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A student who says \"they are the same\" misses that Barbier translates the abstract \"needs of the present\" into concrete, monitorable development outcomes for the most vulnerable.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) Calculate the annual rate of forest cover loss using Forest Survey of India data and interpret",
     "id": "gen_c11_eco_ch07_q18",
-    "nodeId": "c11_eco_cbse_07_008",
-    "difficulty": "standard"
+    "nodeId": "c11_eco_cbse_07_006",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -3798,7 +3848,7 @@ export const C11_ECO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Great Leap Forward Was",
+    "title": "Great Leap Forward",
     "text": "The Great Leap Forward (1958–1962) was a Chinese state-led campaign to rapidly industrialize and collectivize the economy through backyard steel furnaces and rural people's communes, which collapsed due to resource misallocation and natural disasters.",
     "emoji": "📈",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4004,7 +4054,7 @@ export const C11_ECO_GEN: SimDef[] = [
      "All three ratios below 1,000 indicate son preference — a cultural norm leading to sex-selective abortion, female infanticide, or neglect of girl children",
      "The two main components were the establishment of backyard industries (especially small-scale steel furnaces) and the formation of rural people's communes for collective farming"
     ],
-    "hint": "Straight from the 'Great Leap Forward  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Great Leap Forward' slide -- match the key terms.",
     "misconception": "A wrong answer that mentions \"household responsibility system\" or \"special economic zones\" reveals confusion between the 1958 collectivization drive and the 1978 market-oriented reforms, indicating the student cannot distinguish between the command-economy phase and the reform phase.",
     "id": "gen_c11_eco_ch08_q6",
     "nodeId": "c11_eco_cbse_08_009",
@@ -4172,7 +4222,7 @@ export const C11_ECO_GEN: SimDef[] = [
      "The Green Revolution introduced mechanisation (tubewells, tractors) and high-yielding varieties",
      "The Great Leap Forward diverted labour from agriculture to inefficient backyard steel production, while collective farming weakened work incentives"
     ],
-    "hint": "Straight from the 'Great Leap Forward  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Great Leap Forward' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only drought or the later Cultural Revolution shows a misunderstanding of the policy-induced supply-side collapse and the role of foreign technology dependence in the pre-reform era.",
     "id": "gen_c11_eco_ch08_q16",
     "nodeId": "c11_eco_cbse_08_009",
@@ -4200,7 +4250,614 @@ export const C11_ECO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Economic Reforms Refer To mastered! 🎯",
+  "successLine": "Economic Reforms Refer mastered! 🎯",
+  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
+  "sampleChallenges": 8
+ },
+ {
+  "id": "gen_c11_eco_ch10",
+  "title": "Physical Infrastructure",
+  "subtitle": "Economics · Chapter 10",
+  "classLevel": 11,
+  "mode": "senior",
+  "subject": "economics",
+  "topic": "Physical Infrastructure",
+  "chapters": [
+   "Economics Ch10: Physical Infrastructure"
+  ],
+  "nodeIds": [
+   "c7_eco_ch03_001",
+   "c7_eco_ch03_002",
+   "c7_eco_ch03_003",
+   "c7_eco_ch03_004",
+   "c7_eco_ch03_005",
+   "c7_eco_ch03_006",
+   "c7_eco_ch03_007",
+   "c7_eco_ch03_008",
+   "c7_eco_ch03_009",
+   "c7_eco_ch03_010",
+   "c7_eco_ch03_011"
+  ],
+  "emoji": "📈",
+  "theme": {
+   "bg": "from-emerald-100 to-teal-200",
+   "accent": "emerald",
+   "scene": "lesson"
+  },
+  "discovery": {
+   "question": "What happens if Physical Infrastructure suddenly stops working?",
+   "options": [
+    "Things around us change in noticeable ways",
+    "Absolutely nothing changes",
+    "Only textbooks would change"
+   ],
+   "answer": "Things around us change in noticeable ways",
+   "hook": "Physical infrastructure refers to the foundational tangible structures, facilities, and systems—such as roads, bridges, power grids, and water supply"
+  },
+  "teaching": [
+   {
+    "title": "Physical Infrastructure",
+    "text": "Physical infrastructure refers to the foundational tangible structures, facilities, and systems—such as roads, bridges, power grids, and water supply networks—that enable a society and economy to function, produce goods, and deliver services.",
+    "emoji": "📈",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Transportation Infrastructure: Roads,",
+    "text": "Transportation infrastructure comprises the physical networks—specifically roads, bridges, and railways—that facilitate the movement of people, raw materials, and finished goods across regions, thereby integrating local markets into a national economy.",
+    "emoji": "📈",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Utility Infrastructure",
+    "text": "Utility infrastructure refers to the large-scale physical networks and systems—such as electric power grids and treated water pipeline networks—that deliver essential daily services to households, farms, and businesses.",
+    "emoji": "📈",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Communication Networks Such As The Internet",
+    "text": "Communication networks such as the internet, telecom systems, and telephone lines are vital components of modern infrastructure that enable the instant transmission of information, voice, and data across regional, national, and global markets, thereby",
+    "emoji": "📈",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Energy Infrastructure: Windmills, Solar",
+    "text": "Energy infrastructure comprises the large-scale networks, facilities, and physical assets—such as windmills, solar parks, and oil or gas pipelines—that produce, transport, and distribute power to fuel economic activities across the nation.",
+    "emoji": "📈",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "How Infrastructure Transformed Over",
+    "text": "The transformation of infrastructure over the years in India refers to the historical evolution and modernization of physical, social, and digital assets—such as roads, railways, power grids, telecommunications, and ports—from pre-independence rudimentary",
+    "emoji": "📈",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Impact Of Infrastructure On Quality Of Life",
+    "text": "The impact of infrastructure on quality of life refers to how physical, social, and utility networks—such as all-weather roads, clean drinking water pipelines, electricity grids, schools, and hospitals—directly improve citizens' daily living standards,",
+    "emoji": "📈",
+    "bgColor": "from-emerald-400 to-teal-500"
+   },
+   {
+    "title": "Infrastructure Serves As The Backbone",
+    "text": "Infrastructure serves as the backbone of economic development by providing the essential physical and social structures—such as transportation, energy, water systems, and communication networks—that lower production costs and enable efficient market exchange.",
+    "emoji": "📈",
+    "bgColor": "from-amber-400 to-orange-500"
+   },
+   {
+    "title": "Infrastructure And Employment Generation",
+    "text": "Infrastructure and employment generation refers to how building physical and social projects—like highways, power grids, and hospitals—creates millions of direct and indirect jobs for workers, engineers, and service providers.",
+    "emoji": "📈",
+    "bgColor": "from-indigo-400 to-blue-500"
+   },
+   {
+    "title": "Rural-urban Infrastructure Gap",
+    "text": "The rural-urban infrastructure gap refers to the disparity in the availability, quality, and reliability of physical and social infrastructure—such as all-weather roads, continuous electricity supply, piped drinking water, advanced digital connectivity,",
+    "emoji": "📈",
+    "bgColor": "from-sky-400 to-cyan-500"
+   },
+   {
+    "title": "Sustainable Infrastructure",
+    "text": "Sustainable infrastructure refers to the design, construction, and operation of physical and social public assets—such as roads, power grids, and water systems—in a manner that meets current economic development needs without compromising the environmental",
+    "emoji": "📈",
+    "bgColor": "from-sky-400 to-cyan-500"
+   }
+  ],
+  "challenges": [
+   {
+    "type": "order",
+    "question": "A small manufacturing unit in a rural district of Uttar Pradesh produces 500 units of handmade pottery daily. Due to a poorly maintained dirt road (broken physical infrastructure), delivery trucks take 6 hours to reach the nearest national highway, causing 10% of the pottery to break and delaying shipments.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Identify initial successful deliveries",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "The correct answer",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Identify new successful deliveries",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Calculate the absolute increase in",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s4",
+      "label": "Calculate the percentage increase based",
+      "emoji": "📌",
+      "correctBin": "o4"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     },
+     {
+      "id": "o4",
+      "label": "5th",
+      "color": "#8b5cf6"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer indicates an inability to calculate percentage changes from operational loss data caused by poor infrastructure.",
+    "id": "gen_c11_eco_ch10_q1",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation",
+    "workedExample": [
+     "Imagine walking through a bustling Indian marketplace where farmers sell fresh vegetables, trucks deliver boxes of packaged goods, and shops use",
+     "None of this trade could happen without paved roads for the trucks, power lines for the shops, and water pipes for sanitation.",
+     "When we built upon our Class 6 understanding of basic infrastructure, we saw that physical infrastructure acts as the invisible skeleton supporting",
+     "To begin studying this topic, observe your own neighborhood: count how many physical structures—like electric poles, water pipelines, or paved"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary economic function of transportation infrastructure in a market economy?",
+    "answer": "The correct answer is that it physically connects buyers, sellers, and production centers, reducing the time and cost required to move goods and labor",
+    "options": [
+     "The correct answer is the rural-urban infrastructure gap (or development gap)",
+     "The two primary components are electricity transmission networks (power grids) and water pipeline distribution networks",
+     "The correct answer is that it physically connects buyers, sellers, and production centers, reducing the time and cost required to move goods and labor"
+    ],
+    "hint": "Straight from the 'Transportation infrastructure' slide -- match the key terms.",
+    "misconception": "A wrong answer—such as believing transport infrastructure only provides government jobs—reveals a confusion between short-term employment creation and the long-term structural function of lowering trade barriers and market friction.",
+    "id": "gen_c11_eco_ch10_q2",
+    "nodeId": "c7_eco_ch03_002",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a mango farmer in a remote village in Maharashtra who has harvested 500 kilograms of fresh alphonsos.",
+     "If the local mud road is washed out by monsoon rains and the nearest railway station is 50 kilometers away across an unbridged river, the farmer",
+     "To understand why this happens, we must look back at our Grade 6 studies on how markets require buyers and sellers to meet.",
+     "Without reliable physical paths, exchange becomes impossible or prohibitively expensive."
+    ]
+   },
+   {
+    "type": "math_input",
+    "question": "A small textile weaving workshop in rural Gujarat uses 50 kilowatt-hours (kWh) of electricity per day to run its power looms, costing ₹6 per kWh. If an unexpected power outage cuts their daily operational hours in half, reducing their output to 25 kWh, what is their new daily electricity cost, and how much money do",
+    "answer": "650",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A wrong answer reveals confusion between variable utility expenses and lost output revenue during network failures.",
+    "id": "gen_c11_eco_ch10_q3",
+    "nodeId": "c7_eco_ch03_003",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine turning on a kitchen tap in an Indian household and getting a steady stream of safe, treated drinking water, or switching on a ceiling fan in",
+     "These conveniences depend entirely on invisible underground water pipes and overhead electricity transmission lines that form vital utility",
+     "Building on what you learned in Class 6 about basic physical infrastructure, we now examine how these specific utility networks function as the",
+     "To understand their value, we must observe how a lack of steady power or water halts factory production and ruins perishable agricultural goods."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary economic function of communication networks like telephone lines and the internet within a country's infrastructure?",
+    "answer": "The primary economic function is to enable the fast transmission of information, data, and voice, which reduces transaction costs and links buyers, sellers",
+    "options": [
+     "Infrastructure and employment generation refers to how building physical and social projects—like highways, power grids",
+     "Can analyze how the expansion of telecom and internet networks reduces transaction costs, broadens market access for producers",
+     "The primary economic function is to enable the fast transmission of information, data, and voice, which reduces transaction costs and links buyers, sellers"
+    ],
+    "hint": "Straight from the 'Communication networks such as' slide -- match the key terms.",
+    "misconception": "A wrong answer—such as thinking communication networks only exist for personal entertainment—reveals a fundamental misunderstanding of economic infrastructure as consumer goods rather than foundational production enablers that boost market efficiency and trade.",
+    "id": "gen_c11_eco_ch10_q4",
+    "nodeId": "c7_eco_ch03_004",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a weaver in a small village in Odisha who finishes making traditional sarees and wants to sell them directly to customers in Mumbai or",
+     "By using a smartphone connected to a 4G/5G mobile network and the high-speed internet, she can photograph her products, upload them to an e-commerce",
+     "Previously, farmers and artisans had to travel physically or wait weeks for postal letters to know market prices, leading to massive delays and lost",
+     "Building on our understanding of basic physical infrastructure from Class 6, communication networks act as the \"nervous system\" of the economy,"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Which of the following is a primary economic benefit of establishing large-scale solar parks in remote rural regions of India? A) They completely eliminate the need for financial banking services in rural areas.",
+    "answer": "B) They generate large amounts of clean electricity and create local jobs in construction and maintenance",
+    "options": [
+     "The primary economic function is to enable the fast transmission of information, data, and voice, which reduces transaction costs and links buyers, sellers",
+     "Utility infrastructure refers to the large-scale physical networks and systems—such as electric power grids and treated water pipeline networks—that deliver essential daily",
+     "B) They generate large amounts of clean electricity and create local jobs in construction and maintenance"
+    ],
+    "hint": "Straight from the 'Energy infrastructure comprises' slide -- match the key terms.",
+    "misconception": "A student who picks A, C, or D is confusing energy infrastructure with financial services (c6_economics_ch08_006) or historical exchange mechanisms (c6_economics_ch11_001), showing a fundamental misunderstanding of what physical power assets do in an economy.",
+    "id": "gen_c11_eco_ch10_q5",
+    "nodeId": "c7_eco_ch03_005",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine walking into your kitchen on a hot summer afternoon and turning on the ceiling fan—that electricity travels hundreds of kilometers from a",
+     "When a factory in Ludhiana runs its machines, it relies on a steady supply of power generated from these energy sources and delivered efficiently.",
+     "In Class 6, you learned about basic physical infrastructure like local power lines and water pumps (c6_economics_ch07_002), but now we will examine",
+     "We begin by observing how generating capacity translates into industrial output."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Why did the expansion of the golden quadrilateral and expressways significantly reduce the time it takes to transport goods across Indian states?",
+    "answer": "Because upgraded multilane highways eliminate traffic bottlenecks, bypass congested town centers",
+    "options": [
+     "The correct answer is that highways reduce transportation time and shipping costs for raw materials and finished goods, making those locations attractive for business investment",
+     "A rural road lowers transport costs, allowing farmers to quickly bring perishable goods to larger urban markets without spoilage",
+     "Because upgraded multilane highways eliminate traffic bottlenecks, bypass congested town centers"
+    ],
+    "hint": "Straight from the 'transformation of infrastructure' slide -- match the key terms.",
+    "misconception": "A student who thinks it is solely due to cheaper fuel misses that infrastructure quality itself reduces physical transit friction.",
+    "id": "gen_c11_eco_ch10_q6",
+    "nodeId": "c7_eco_ch03_006",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine you are visiting your grandparents in a village where roads used to be unpaved dirt tracks and letters took a week to arrive, whereas today,",
+     "To understand how this transformation happened, we first observe the gap between old infrastructural limitations and modern technological solutions.",
+     "Connecting back to what you learned about physical and communication networks, infrastructure does not stay the same; it evolves as technology and",
+     "The key economic principle here is that infrastructure modernization reduces transaction costs, increases productivity, and connects remote markets"
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "Which of the following is the most direct benefit of installing piped drinking water inside households in a rural community? A) Increased price of televisions in local markets B) Reduction in time spent fetching water and fewer waterborne illnesses C) Higher export taxes on agricultural goods D) Faster interest rate",
+    "answer": "The correct answer is B. Piped drinking water directly eliminates the hours spent walking to distant wells and reduces illnesses caused by contaminated water sources",
+    "options": [
+     "The correct answer is the rural-urban infrastructure gap (or development gap)",
+     "The two primary components are electricity transmission networks (power grids) and water pipeline distribution networks",
+     "The correct answer is B. Piped drinking water directly eliminates the hours spent walking to distant wells and reduces illnesses caused by contaminated water sources"
+    ],
+    "hint": "Straight from the 'impact of infrastructure on' slide -- match the key terms.",
+    "misconception": "a wrong answer reveals: Choosing an unrelated option like A or D shows that the student is confusing utility infrastructure benefits with market prices or monetary policy, failing to connect household infrastructure directly to daily health and time savings.",
+    "id": "gen_c11_eco_ch10_q7",
+    "nodeId": "c7_eco_ch03_007",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine two villages in rural India: Village A has unpaved mud tracks and gets water from a distant river, while Village B has newly paved",
+     "In Village A, children spend two hours every morning walking to fetch water and carrying heavy pots instead of studying, and buses cannot reach the",
+     "In Village B, clean water arrives directly at the tap, saving hours of labor, and an ambulance can reach the village clinic in minutes.",
+     "By observing these daily changes in health, education time, and travel ease, we see how physical and utility infrastructure directly transforms the"
+    ]
+   },
+   {
+    "type": "math_input",
+    "question": "A state government invests 100 crore rupees to build reliable electricity grids in 50 rural districts, reducing factory power outages from 8 hours to zero daily. If a small textile unit previously produced 100 shirts per day due to shutdowns and now produces 250 shirts per day, calculate the percentage increase in",
+    "answer": "150",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A student who answers \"150 shirts\" has calculated the absolute change instead of the percentage increase, failing to scale the result against the starting production level.",
+    "id": "gen_c11_eco_ch10_q8",
+    "nodeId": "c7_eco_ch03_008",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a mango farmer in a remote village in Maharashtra who has harvested a bumper crop, but the unpaved local road to the nearest town turns into",
+     "When the government builds a paved all-weather road and a nearby cold-storage facility, the farmer can transport produce quickly, reduce wastage, and",
+     "This real-world scenario connects to our prior understanding of physical and social infrastructure from Class 6, showing how physical assets lower",
+     "Economists call this the \"multiplier effect\" of infrastructure, where public investment unlocks private business activity and drives overall economic"
+    ]
+   },
+   {
+    "type": "math_input",
+    "question": "If a government highway project directly employs 500 construction workers and generates an indirect employment multiplier of 1.8 in supporting industries like cement and transport, how many total jobs are created by the project?",
+    "answer": "900",
+    "mathInput": {
+     "tolerance": 0
+    },
+    "hint": "Work it step by step, then enter the final value.",
+    "misconception": "A student who only counts the 500 direct jobs ignores the secondary supply chain jobs created in cement factories, transport services, and equipment maintenance.",
+    "id": "gen_c11_eco_ch10_q9",
+    "nodeId": "c7_eco_ch03_009",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine walking down your street and seeing heavy construction equipment laying down a brand-new, multi-lane highway or building a local power",
+     "To begin understanding this process, observe who is working on the site: construction workers operating cranes, engineers drafting blueprints, and",
+     "In Class 6, you learned about physical infrastructure like roads and power grids as passive networks that move goods and energy.",
+     "Now, we go deeper to see these projects as active engines that hire labor, distribute wages, and stimulate local markets."
+    ]
+   },
+   {
+    "type": "order",
+    "question": "District Alpha (Urban) has 100% of households connected to piped water and paved roads, while District Beta (Rural) has only 20% connected to piped water and unpaved mud roads.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Conclude that District Alpha presents",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "Identify given data",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Analyze operational risk for perishable",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "Calculate percentage point difference",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer usually fails to subtract correctly or ignores how water and roads affect perishable storage, showing a weak grasp of infrastructural risk factors.",
+    "id": "gen_c11_eco_ch10_q10",
+    "nodeId": "c7_eco_ch03_010",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine traveling from a bustling city like Bengaluru where high-speed broadband, 24/7 metro trains, and multi-specialty hospitals are common, to a",
+     "Building on what we learned about physical and social infrastructure in Class 6, we now observe how unevenly these facilities are distributed across",
+     "To begin, examine two data sets: one for a typical urban district and one for a rural district, noting differences in power supply hours and road",
+     "Connect this to our understanding of economic growth, where we know that businesses locate where infrastructure is strong."
+    ]
+   },
+   {
+    "type": "mcq",
+    "question": "What is the primary goal of integrating environmental considerations into infrastructure development?",
+    "answer": "The correct answer is to balance economic growth and public service delivery with the preservation of natural resources and reduction of environmental damage for future",
+    "options": [
+     "Physical infrastructure refers to the foundational tangible structures, facilities, and systems—such as roads, bridges, power grids",
+     "The correct answer is the rural-urban infrastructure gap (or development gap)",
+     "The correct answer is to balance economic growth and public service delivery with the preservation of natural resources and reduction of environmental damage for future"
+    ],
+    "hint": "Straight from the 'Sustainable infrastructure' slide -- match the key terms.",
+    "misconception": "A wrong answer—such as believing sustainable infrastructure means stopping all construction—reveals a common misunderstanding that environmental protection completely opposes economic progress, rather than enhancing its long-term viability.",
+    "id": "gen_c11_eco_ch10_q11",
+    "nodeId": "c7_eco_ch03_011",
+    "difficulty": "advanced",
+    "workedExample": [
+     "Imagine a bustling town in India that wants to build a new highway to connect local factories to national markets, but the shortest path cuts",
+     "To begin understanding sustainable infrastructure, we must observe how traditional building methods focus only on immediate speed and financial cost,",
+     "Connecting to what we learned about physical and energy infrastructure, we realize that building assets without environmental safeguards creates",
+     "Sustainable infrastructure changes this approach by integrating green technologies—such as wildlife corridors over highways, solar-powered street"
+    ]
+   },
+   {
+    "type": "order",
+    "question": "Propose a two-step infrastructure development plan for a landlocked district in central India that has high mineral wealth but low employment and factory presence.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "The correct answer should include",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Build heavy-duty freight rail and road",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Establish a stable industrial power grid",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer would suggest giving loans to citizens without addressing the physical transport and power bottlenecks preventing factories from opening.",
+    "id": "gen_c11_eco_ch10_q12",
+    "nodeId": "c7_eco_ch03_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "Design a simple three-point infrastructure development proposal for a backward rural district to help local farmers sell their vegetables directly in urban markets.",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Constructing all-weather rural roads",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Establishing solar-powered cold-storage",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Setting up rural digital kiosks with",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A poor answer might suggest abstract ideas without specific infrastructure components like roads, electricity, or storage, revealing a lack of understanding of physical and utility networks.",
+    "id": "gen_c11_eco_ch10_q13",
+    "nodeId": "c7_eco_ch03_010",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "A small manufacturing unit in a rural district of Uttar Pradesh produces 500 units of handmade pottery daily. Due to a poorly maintained dirt road (broken physical infrastructure), delivery trucks take 6 hours to reach the nearest national highway, causing 10% of the pottery to break and delaying shipments.",
+    "answer": "The correct answer is B. Step 1: Identify initial successful deliveries: 90% of 500 units = 450 units (since 10% broke)",
+    "options": [
+     "A strong proposal should include: (1) Constructing all-weather rural roads connecting farms to local collection hubs",
+     "The correct answer is B. Projects (1) Electricity Transmission Grid and (3) Paved National Highway Link are foundational physical infrastructure assets",
+     "The correct answer is B. Step 1: Identify initial successful deliveries: 90% of 500 units = 450 units (since 10% broke)"
+    ],
+    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates an inability to calculate percentage changes from operational loss data caused by poor infrastructure.",
+    "id": "gen_c11_eco_ch10_q14",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation"
+   },
+   {
+    "type": "mcq",
+    "question": "Analyze the economic relationship between physical infrastructure and transportation costs. How does upgrading a regional transport network affect the final market price of agricultural goods?",
+    "answer": "The correct answer is B. Upgrading physical infrastructure like roads lowers friction in trade, reducing transportation costs",
+    "options": [
+     "A rural road lowers transport costs, allowing farmers to quickly bring perishable goods to larger urban markets without spoilage",
+     "The correct answer is that highways reduce transportation time and shipping costs for raw materials and finished goods, making those locations attractive for business investment",
+     "The correct answer is B. Upgrading physical infrastructure like roads lowers friction in trade, reducing transportation costs"
+    ],
+    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
+    "misconception": "A wrong answer reveals the misconception that government construction costs directly inflate retail prices, ignoring how lowered transport friction actually decreases operational business expenses.",
+    "id": "gen_c11_eco_ch10_q15",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a basic classification list for a newly planned industrial town in India, dividing 4 proposed projects into \"Physical Infrastructure\" and \"Other Economic Sectors\". Projects: (1) 220kV Electricity Transmission Grid, (2) Private Clothing Retail Outlet, (3) Paved National Highway Link, (4) Commercial Cinema Hall.",
+    "answer": "The correct answer is B. Projects (1) Electricity Transmission Grid and (3) Paved National Highway Link are foundational physical infrastructure assets",
+    "options": [
+     "A good answer proposes a realistic project (e.g., solar micro-grid) and correctly lists direct jobs (solar panel installers, electrical technicians",
+     "A strong answer must propose: 1. Upgrading energy infrastructure (e.g., installing solar micro-grids) to ensure uninterrupted power for cold storage and irrigation pumps",
+     "The correct answer is B. Projects (1) Electricity Transmission Grid and (3) Paved National Highway Link are foundational physical infrastructure assets"
+    ],
+    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
+    "misconception": "A poor answer misclassifies private retail or entertainment as infrastructure, revealing a failure to separate foundational public systems from commercial businesses.",
+    "id": "gen_c11_eco_ch10_q16",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation"
+   },
+   {
+    "type": "mcq",
+    "question": "Evaluate the following statement: \"A developing nation should invest 100% of its budget in building luxury shopping malls and private apartments rather than physical infrastructure like power grids and water pipelines.",
+    "answer": "The correct answer is C. Private commercial ventures like shopping malls and factories cannot function without a stable electricity supply, water pipelines",
+    "options": [
+     "The correct answer is C. Physical infrastructure provides the essential framework that makes all other economic activities—such as manufacturing, farming",
+     "Disagree. While roads and electricity are essential physical infrastructure, modern agricultural and rural economic activity relies heavily on digital access for weather updates",
+     "The correct answer is C. Private commercial ventures like shopping malls and factories cannot function without a stable electricity supply, water pipelines"
+    ],
+    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
+    "misconception": "A wrong answer shows a failure to understand that infrastructure is a prerequisite for all other commercial investments, treating private real estate as self-sustaining.",
+    "id": "gen_c11_eco_ch10_q17",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Physical infrastructure? State the definition given in this lesson.",
+    "answer": "Physical infrastructure refers to the foundational tangible structures, facilities, and systems—such as roads, bridges, power grids",
+    "options": [
+     "Infrastructure and employment generation refers to how building physical and social projects—like highways, power grids",
+     "Students can accurately define physical infrastructure, identify its core components (transport, utilities, energy, communication)",
+     "Physical infrastructure refers to the foundational tangible structures, facilities, and systems—such as roads, bridges, power grids"
+    ],
+    "hint": "Straight from the 'Physical infrastructure' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Physical infrastructure refers to the foundational tangible structures, facilities, and systems—such as roads, bridges,",
+    "id": "gen_c11_eco_ch10_q18",
+    "nodeId": "c7_eco_ch03_001",
+    "difficulty": "foundation"
+   }
+  ],
+  "reflect": {
+   "prompts": [
+    "What surprised you about physical infrastructure?",
+    "Which challenge was hardest -- and why?"
+   ]
+  },
+  "successLine": "Physical Infrastructure mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

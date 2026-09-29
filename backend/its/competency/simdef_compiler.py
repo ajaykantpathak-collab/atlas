@@ -903,6 +903,7 @@ class Compiler:
         if os.path.exists(CAREERS_PATH):
             self.careers = json.load(open(CAREERS_PATH, encoding="utf-8"))
         self.src_topics = {}
+        self.src_chapters = {}                    # node_id -> chapter_name
         if os.path.isdir(SRC_DIR):
             for f in sorted(os.listdir(SRC_DIR)):
                 if not f.endswith(".json"):
@@ -916,6 +917,8 @@ class Compiler:
                         if isinstance(n, dict) and n.get("node_id"):
                             self.src_topics[n["node_id"]] = \
                                 (n.get("topic") or "").strip()
+                            self.src_chapters[n["node_id"]] = \
+                                (n.get("chapter_name") or "").strip()
         self.depth = {}
         for c in classes:
             d = json.load(open(DEPTH_PATHS[c], encoding="utf-8"))
@@ -1177,6 +1180,8 @@ class Compiler:
                 for c in chunk:                   # compiled -> not in review
                     self.review.pop(c[0], None)
 
+        n_repaired = self.repair_shared_titles(compiled_by_file)
+        self.titles_repaired = n_repaired
         self.emit(compiled_by_file, index_clusters)
 
     # -- SimDef assembly ---------------------------------------------------
@@ -1316,6 +1321,55 @@ class Compiler:
             "challenge_types": dict(types),
         }
         return defn, meta
+
+    # -- title repair -------------------------------------------------------
+    @staticmethod
+    def _usable_chapter_name(name: str) -> bool:
+        """A source chapter_name fit to be a sim title: rejects heading-parse
+        debris like the all-caps truncation 'OVERVIEW OF' and dangling-
+        connective cuts -- the classes a book parser leaves behind."""
+        n = (name or "").strip()
+        if len(n) < 3 or _slide_title_mangled(n):
+            return False
+        words = [w for w in n.split() if w.isalpha()]
+        if len(words) >= 2 and all(w.isupper() for w in words):
+            return False
+        return True
+
+    def repair_shared_titles(self, compiled_by_file) -> int:
+        """A sim title shared by >=2 chapters of one class+subject reads as a
+        metadata lie (30 English chapters once compiled as 'Before You
+        Read').  Re-ground every such chapter in its OWN chapter_name from
+        the source layer -- closed world, the corpus's own curriculum
+        naming -- falling back to a chapter-number suffix only when the
+        name itself repeats in-book (two-volume subjects).  Deterministic;
+        touches the title field only (topic/chapters stay head-term based)."""
+        repaired = 0
+        for defs in compiled_by_file.values():
+            chap_of = {}
+            by_title = defaultdict(set)
+            for d in defs:
+                ch = int(d["id"].rsplit("_ch", 1)[1].split("_")[0])
+                chap_of[d["id"]] = ch
+                by_title[d["title"]].add(ch)
+            shared = {t for t, chs in by_title.items() if len(chs) > 1}
+            if not shared:
+                continue
+            seen = {}                         # title casefold -> chapter
+            for d in defs:
+                ch = chap_of[d["id"]]
+                if d["title"] in shared:
+                    cand = non_dangling_trim(
+                        self.src_chapters.get(d["nodeIds"][0], ""), 48)
+                    if self._usable_chapter_name(cand) and cand != d["title"]:
+                        d["title"] = cand
+                        repaired += 1
+                key = d["title"].casefold()
+                if key in seen and seen[key] != ch:
+                    d["title"] = f"{d['title']} · Ch {ch}"
+                    repaired += 1
+                seen.setdefault(key, ch)
+        return repaired
 
     # -- output ------------------------------------------------------------
     def emit(self, compiled_by_file, index_clusters):
@@ -1471,6 +1525,7 @@ def main():
     t = comp.index_doc.get("totals", {})
     print("=== simdef_compiler run ===")
     print("classes:", classes)
+    print("shared titles re-grounded:", getattr(comp, "titles_repaired", 0))
     print("clusters:", t.get("clusters"), " nodes compiled:", t.get("nodes_compiled"),
           " challenges:", t.get("challenges"))
     print("diagnostics compiled / in scope:",

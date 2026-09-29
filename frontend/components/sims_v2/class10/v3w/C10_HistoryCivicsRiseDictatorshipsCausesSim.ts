@@ -11,7 +11,7 @@ export const w_c10_historycivicsrisedictatorshipscausessim: SimDef = {
     classLevel: 10, subject: 'history', topic: 'The Print Revolution and Its Impact on Society',
     chapters: [],
     nodeIds: ['c10_hist_cbse_05_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you see a WhatsApp forward today that changes how thousands think about a law — now ask: how did a.', goal: 'Master The Print Revolution and Its Impact on Society.' },
     discovery: {
         question: 'What was the *first major book* printed by Gutenberg using movable metal type in Mainz, and in approximately what year was it completed?',
@@ -20,7 +20,7 @@ export const w_c10_historycivicsrisedictatorshipscausessim: SimDef = {
         hook: 'Students believe the Print Revolution *instantly* democratized knowledge: "Gutenberg invented the press → suddenly.',
     },
     teaching: [
-        { title: 'The Print Revolution refers to the profound.', text: 'The Print Revolution refers to the profound societal transformation in Europe (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Print Revolution refers to the profound.', text: 'The Print Revolution refers to the profound societal transformation in Europe (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_hist_cbse_05_003', title: 'The Print Revolution refers to the.',

@@ -1410,7 +1410,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                       <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                         <label className="text-xs font-semibold text-slate-400 flex justify-between">
                           <span>💨 Atmospheric CO2</span>
-                          <span className="text-blue-400 font-bold">{co2Level} ppm</span>
+                          <span className="text-gold-400 font-bold">{co2Level} ppm</span>
                         </label>
                         <input
                           type="range"
@@ -1418,7 +1418,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                           max={800}
                           value={co2Level}
                           onChange={e => handleCo2Change(Number(e.target.value))}
-                          className="w-full mt-2 accent-blue-500"
+                          className="w-full mt-2 accent-gold-500"
                           aria-label="Carbon dioxide concentration slider"
                         />
                       </motion.div>
@@ -1426,7 +1426,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                       <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                         <label className="text-xs font-semibold text-slate-400 flex justify-between">
                           <span>💧 Soil Moisture</span>
-                          <span className="text-cyan-400 font-bold">{moistureLevel}%</span>
+                          <span className="text-gold-400 font-bold">{moistureLevel}%</span>
                         </label>
                         <input
                           type="range"
@@ -1434,7 +1434,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                           max={100}
                           value={moistureLevel}
                           onChange={e => setMoistureLevel(Number(e.target.value))}
-                          className="w-full mt-2 accent-cyan-500"
+                          className="w-full mt-2 accent-gold-500"
                           aria-label="Soil moisture percentage slider"
                         />
                       </motion.div>
@@ -1472,9 +1472,9 @@ export function C9_EVSEarthEnvironmentBioticSim({
                       <motion.div
                         initial={{ opacity: 0, y: 5 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800"
+                        className="p-4 bg-gold-950/40 rounded-xl border border-gold-800"
                       >
-                        <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Predict Before Adjusting</h4>
+                        <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Predict Before Adjusting</h4>
                         <p className="text-sm text-white mb-3">{PREDICTION_QUESTIONS[1].question}</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                           {PREDICTION_QUESTIONS[1].options.map((opt, i) => (
@@ -1618,7 +1618,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                       )}
                       {activeCycle === 'nitrogen' && (
                         <div className="space-y-3 text-xs text-slate-300">
-                          <div className="font-bold text-sm text-blue-400">5 Stages of the Nitrogen Cycle</div>
+                          <div className="font-bold text-sm text-gold-400">5 Stages of the Nitrogen Cycle</div>
                           <p>1. <strong>Nitrogen Fixation:</strong> <em>Rhizobium</em> (legume nodules) converts inert N2 into ammonia (NH3).</p>
                           <p>2. <strong>Nitrification:</strong> <em>Nitrosomonas</em> & <em>Nitrobacter</em> oxidize ammonia to nitrites & nitrates.</p>
                           <p>3. <strong>Assimilation:</strong> Plant roots absorb nitrates to synthesize essential proteins and DNA.</p>
@@ -1628,7 +1628,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                       )}
                       {activeCycle === 'water' && (
                         <div className="space-y-3 text-xs text-slate-300">
-                          <div className="font-bold text-sm text-cyan-400">Hydrological (Water) Cycle Mechanics</div>
+                          <div className="font-bold text-sm text-gold-400">Hydrological (Water) Cycle Mechanics</div>
                           <p>1. <strong>Evaporation & Transpiration:</strong> Solar heat lifts water vapour from oceans & Western Ghats canopy.</p>
                           <p>2. <strong>Condensation & Precipitation:</strong> Clouds condense into monsoon rain across the subcontinent.</p>
                           <p>3. <strong>Infiltration & Percolation:</strong> Water penetrates soil to recharge deep aquifers.</p>
@@ -1743,7 +1743,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
               <div className="flex items-center justify-between mb-2">
                 <motion.span
                   whileHover={{ scale: 1.05 }}
-                  className="text-xs font-bold px-3 py-1 bg-cyan-950 text-cyan-400 border border-cyan-800 rounded-full"
+                  className="text-xs font-bold px-3 py-1 bg-gold-950 text-gold-400 border border-gold-800 rounded-full"
                 >
                   Sandbox Mode (Ungraded Exploration)
                 </motion.span>
@@ -1780,7 +1780,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                 <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                   <label className="text-xs font-semibold text-slate-400 flex justify-between">
                     <span>💨 CO2 Level</span>
-                    <span className="text-blue-400 font-bold">{co2Level} ppm</span>
+                    <span className="text-gold-400 font-bold">{co2Level} ppm</span>
                   </label>
                   <input
                     type="range"
@@ -1788,7 +1788,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                     max={800}
                     value={co2Level}
                     onChange={e => handleCo2Change(Number(e.target.value))}
-                    className="w-full mt-2 accent-blue-500"
+                    className="w-full mt-2 accent-gold-500"
                   />
                 </motion.div>
 
@@ -1819,7 +1819,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                   <span className="bg-slate-900/80 px-3 py-1 rounded-lg text-emerald-300 border border-emerald-800">
                     Photosynthesis: {photosynthesisRate} g/m²/d
                   </span>
-                  <span className="bg-slate-900/80 px-3 py-1 rounded-lg text-blue-300 border border-blue-800">
+                  <span className="bg-slate-900/80 px-3 py-1 rounded-lg text-gold-300 border border-gold-800">
                     Herbivore Yield: {trophicLevelsCalc.t2_herbivores} kJ
                   </span>
                   <span className="bg-slate-900/80 px-3 py-1 rounded-lg text-amber-300 border border-amber-800">
@@ -1903,7 +1903,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                       : difficulty === 'standard'
-                      ? 'bg-blue-950 text-blue-400 border-blue-800'
+                      ? 'bg-gold-950 text-gold-400 border-gold-800'
                       : 'bg-rose-950 text-rose-400 border-rose-800'
                   }`}
                 >
@@ -2100,7 +2100,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold shadow"
+                        className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-bold shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2116,7 +2116,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-bold flex items-center gap-2"
+                        className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-700 rounded-lg text-xs font-bold flex items-center gap-2"
                       >
                         {part}
                         <motion.button
@@ -2247,9 +2247,9 @@ export function C9_EVSEarthEnvironmentBioticSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="p-5 bg-gradient-to-r from-indigo-950/60 via-purple-950/60 to-slate-900 rounded-2xl border border-indigo-700/60 max-w-2xl mx-auto mb-6 text-left shadow-lg"
+                className="p-5 bg-gradient-to-r from-gold-950/60 via-purple-950/60 to-slate-900 rounded-2xl border border-gold-700/60 max-w-2xl mx-auto mb-6 text-left shadow-lg"
               >
-                <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider mb-2">
+                <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider mb-2">
                   <span>📅</span> Spaced Repetition (SRS) Review Plan
                 </div>
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
@@ -2261,7 +2261,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                         ? 'Next Review: In 3 Days'
                         : 'Next Review: In 1 Day'}
                     </div>
-                    <p className="text-xs text-indigo-200/80 mt-0.5">
+                    <p className="text-xs text-gold-200/80 mt-0.5">
                       {errors === 0
                         ? 'Zero errors logged — retention interval set to 7 days for maximum memory consolidation.'
                         : errors <= 3
@@ -2269,7 +2269,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                         : 'Immediate reinforcement needed — schedule review in 1 day to lock in core ecological laws.'}
                     </p>
                   </div>
-                  <span className="px-3 py-1.5 bg-indigo-900/80 text-indigo-300 rounded-xl text-xs font-bold border border-indigo-700/50 shrink-0">
+                  <span className="px-3 py-1.5 bg-gold-900/80 text-gold-300 rounded-xl text-xs font-bold border border-gold-700/50 shrink-0">
                     {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
                   </span>
                 </div>
@@ -2284,7 +2284,7 @@ export function C9_EVSEarthEnvironmentBioticSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="text-xs text-slate-500">Mastery Level</div>
-                  <div className="text-xl font-black text-blue-400 mt-1 capitalize">{masteryLevel}</div>
+                  <div className="text-xl font-black text-gold-400 mt-1 capitalize">{masteryLevel}</div>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                   <div className="text-xs text-slate-500">Nodes Covered</div>

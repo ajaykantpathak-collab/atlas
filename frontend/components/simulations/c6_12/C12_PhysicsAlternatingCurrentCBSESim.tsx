@@ -745,11 +745,11 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
       {/* Header Banner */}
       <header className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl backdrop-blur-md">
         <div className="flex items-center space-x-3 mb-3 md:mb-0">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-xl font-black text-white shadow-lg shadow-cyan-500/30">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-xl font-black text-white shadow-lg shadow-gold-500/30">
             AC
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">CBSE Class 12 Physics • Interactive AC Circuit & Electromagnetism Suite</p>
@@ -767,7 +767,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-all ${
                 mode === m
-                  ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md shadow-cyan-500/20'
+                  ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md shadow-gold-500/20'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -786,15 +786,15 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
             animate={{ opacity: 1, y: 0 }}
             className="w-full bg-slate-900/80 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl"
           >
-            <div className="flex items-center space-x-2 text-cyan-400 font-semibold text-xs tracking-wider uppercase mb-2">
-              <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            <div className="flex items-center space-x-2 text-gold-400 font-semibold text-xs tracking-wider uppercase mb-2">
+              <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
               <span>Predict & Discover • Phase 1</span>
             </div>
             <h2 className="text-2xl font-bold text-slate-100 mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm mb-6 leading-relaxed">{SCENARIO.intro}</p>
 
-            <div className="bg-slate-950/70 border border-cyan-900/40 rounded-xl p-5 mb-6">
-              <h3 className="text-base font-semibold text-cyan-300 mb-3 flex items-center">
+            <div className="bg-slate-950/70 border border-gold-900/40 rounded-xl p-5 mb-6">
+              <h3 className="text-base font-semibold text-gold-300 mb-3 flex items-center">
                 <span className="mr-2">⚡</span> Interactive Discovery Question
               </h3>
               <p className="text-slate-200 text-sm mb-4 leading-relaxed">{DISCOVERY_QUESTION.question}</p>
@@ -811,7 +811,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                     }}
                     className={`w-full text-left p-3.5 rounded-xl border transition-all text-sm flex items-start space-x-3 ${
                       discSelected === idx
-                        ? 'border-cyan-500 bg-cyan-950/40 text-cyan-200 shadow-md shadow-cyan-500/10'
+                        ? 'border-gold-500 bg-gold-950/40 text-gold-200 shadow-md shadow-gold-500/10'
                         : 'border-slate-800 bg-slate-900/60 text-slate-300 hover:border-slate-700'
                     } ${discSubmitted && idx === DISCOVERY_QUESTION.correctIndex ? '!border-emerald-500 !bg-emerald-950/50 !text-emerald-200' : ''} ${
                       discSubmitted && discSelected === idx && idx !== DISCOVERY_QUESTION.correctIndex
@@ -831,13 +831,13 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <button
                   disabled={discSelected === null}
                   onClick={submitDiscovery}
-                  className="mt-6 w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold text-white shadow-lg shadow-cyan-500/25 hover:from-cyan-400 hover:to-blue-500 disabled:opacity-50 transition-all"
+                  className="mt-6 w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-white shadow-lg shadow-gold-500/25 hover:from-gold-400 hover:to-gold-500 disabled:opacity-50 transition-all"
                 >
                   Confirm Physics Hypothesis
                 </button>
               ) : (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl bg-slate-900 border border-slate-800">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-cyan-400 mb-1">Physics Explanation</p>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-gold-400 mb-1">Physics Explanation</p>
                   <p className="text-slate-300 text-sm leading-relaxed">{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => {
@@ -862,7 +862,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
             className="w-full bg-slate-900/80 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl flex flex-col"
           >
             <div className="flex items-center justify-between mb-4">
-              <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+              <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">
                 Concept Module {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
               </span>
               <div className="flex space-x-1.5">
@@ -874,7 +874,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                       setCurrentSlideIndex(i);
                     }}
                     className={`h-2 rounded-full cursor-pointer transition-all ${
-                      i === currentSlideIndex ? 'w-8 bg-cyan-400' : 'w-2 bg-slate-800'
+                      i === currentSlideIndex ? 'w-8 bg-gold-400' : 'w-2 bg-slate-800'
                     }`}
                   />
                 ))}
@@ -888,14 +888,14 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                   <div>
                     <h2 className="text-xl font-bold text-slate-100 mb-2">{slide.title}</h2>
-                    <div className="bg-slate-950 border border-cyan-800/50 rounded-xl p-3 mb-4 text-cyan-300 font-mono text-xs md:text-sm">
+                    <div className="bg-slate-950 border border-gold-800/50 rounded-xl p-3 mb-4 text-gold-300 font-mono text-xs md:text-sm">
                       {slide.formula}
                     </div>
                     <p className="text-slate-300 text-sm leading-relaxed mb-4">{slide.explanation}</p>
                     <div className="space-y-2 mb-6">
                       {slide.keyPoints.map((pt, idx) => (
                         <div key={idx} className="flex items-start space-x-2 text-xs text-slate-300">
-                          <span className="text-cyan-400 font-bold">•</span>
+                          <span className="text-gold-400 font-bold">•</span>
                           <span>{pt}</span>
                         </div>
                       ))}
@@ -1015,7 +1015,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                     playSound('tap');
                     setCurrentSlideIndex((i) => i + 1);
                   }}
-                  className="px-5 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl text-xs font-bold hover:from-cyan-400 hover:to-blue-500 shadow-md shadow-cyan-500/20"
+                  className="px-5 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl text-xs font-bold hover:from-gold-400 hover:to-gold-500 shadow-md shadow-gold-500/20"
                 >
                   Next Concept →
                 </button>
@@ -1053,7 +1053,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                   playSound('swoop');
                   setMode('challenge');
                 }}
-                className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold text-xs text-white shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all self-start md:self-auto"
+                className="px-5 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-xs text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all self-start md:self-auto"
               >
                 Start Diagnostic Challenges →
               </button>
@@ -1077,7 +1077,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Sliders Box */}
               <div className="bg-slate-950/70 border border-slate-800 rounded-2xl p-5 space-y-4">
-                <h3 className="text-sm font-semibold text-cyan-400 uppercase tracking-wider flex items-center">
+                <h3 className="text-sm font-semibold text-gold-400 uppercase tracking-wider flex items-center">
                   <span className="mr-2">🎛️</span> Parameter Controls
                 </h3>
 
@@ -1085,7 +1085,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-medium">Resistance (R)</span>
-                    <span className="font-mono text-cyan-400 font-bold">{resistorR} Ω</span>
+                    <span className="font-mono text-gold-400 font-bold">{resistorR} Ω</span>
                   </div>
                   <input
                     type="range"
@@ -1097,7 +1097,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                       handleInteraction();
                       setResistorR(parseFloat(e.target.value));
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1105,7 +1105,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-medium">Inductance (L)</span>
-                    <span className="font-mono text-cyan-400 font-bold">{(inductorL * 1000).toFixed(0)} mH</span>
+                    <span className="font-mono text-gold-400 font-bold">{(inductorL * 1000).toFixed(0)} mH</span>
                   </div>
                   <input
                     type="range"
@@ -1117,7 +1117,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                       handleInteraction();
                       setInductorL(parseFloat(e.target.value));
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1125,7 +1125,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-medium">Capacitance (C)</span>
-                    <span className="font-mono text-cyan-400 font-bold">{capacitorC} μF</span>
+                    <span className="font-mono text-gold-400 font-bold">{capacitorC} μF</span>
                   </div>
                   <input
                     type="range"
@@ -1137,7 +1137,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                       handleInteraction();
                       setCapacitorC(parseFloat(e.target.value));
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1145,7 +1145,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300 font-medium">AC Frequency (f)</span>
-                    <span className="font-mono text-cyan-400 font-bold">{freqF} Hz</span>
+                    <span className="font-mono text-gold-400 font-bold">{freqF} Hz</span>
                   </div>
                   <input
                     type="range"
@@ -1157,7 +1157,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                       handleInteraction();
                       setFreqF(parseFloat(e.target.value));
                     }}
-                    className="w-full accent-cyan-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 bg-slate-800 h-2 rounded-lg cursor-pointer"
                   />
                 </div>
               </div>
@@ -1171,12 +1171,12 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 <div className="grid grid-cols-2 gap-3 text-xs">
                   <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
                     <p className="text-slate-400">Inductive Reactance (XL)</p>
-                    <p className="font-mono text-base font-bold text-cyan-300">{xL.toFixed(2)} Ω</p>
+                    <p className="font-mono text-base font-bold text-gold-300">{xL.toFixed(2)} Ω</p>
                   </div>
 
                   <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
                     <p className="text-slate-400">Capacitive Reactance (XC)</p>
-                    <p className="font-mono text-base font-bold text-cyan-300">{xC.toFixed(2)} Ω</p>
+                    <p className="font-mono text-base font-bold text-gold-300">{xC.toFixed(2)} Ω</p>
                   </div>
 
                   <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
@@ -1202,11 +1202,11 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                   <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800 col-span-2 flex justify-between items-center">
                     <div>
                       <p className="text-slate-400">Resonant Frequency (f0)</p>
-                      <p className="font-mono text-base font-bold text-sky-400">{resonantFreqHz.toFixed(1)} Hz</p>
+                      <p className="font-mono text-base font-bold text-gold-400">{resonantFreqHz.toFixed(1)} Hz</p>
                     </div>
                     <div className="text-right">
                       <p className="text-slate-400">Quality Factor (Q)</p>
-                      <p className="font-mono text-base font-bold text-sky-400">{qFactor.toFixed(2)}</p>
+                      <p className="font-mono text-base font-bold text-gold-400">{qFactor.toFixed(2)}</p>
                     </div>
                   </div>
                 </div>
@@ -1218,7 +1218,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                     setFreqF(Math.round(resonantFreqHz));
                     speak(`Tuned AC frequency to match resonance at ${Math.round(resonantFreqHz)} Hertz!`);
                   }}
-                  className="w-full mt-2 py-2 bg-slate-900 border border-cyan-500/40 hover:bg-cyan-950/30 text-cyan-300 rounded-xl text-xs font-bold transition-all"
+                  className="w-full mt-2 py-2 bg-slate-900 border border-gold-500/40 hover:bg-gold-950/30 text-gold-300 rounded-xl text-xs font-bold transition-all"
                 >
                   🎯 Snap Frequency to Resonance ({Math.round(resonantFreqHz)} Hz)
                 </button>
@@ -1237,7 +1237,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
             {/* Challenge Progress Header */}
             <div className="flex items-center justify-between mb-4">
               <div>
-                <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-semibold text-gold-400 uppercase tracking-wider">
                   Diagnostic Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <p className="text-xs text-slate-400 mt-0.5">
@@ -1272,7 +1272,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                             handleInteraction();
                             setUserNumericInput(e.target.value);
                           }}
-                          className="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono focus:outline-none focus:border-cyan-400"
+                          className="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono focus:outline-none focus:border-gold-400"
                         />
                         {ch.unit && <span className="text-slate-300 font-semibold">{ch.unit}</span>}
                       </div>
@@ -1292,7 +1292,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                           }}
                           className={`w-full text-left p-4 rounded-xl border text-sm transition-all flex items-start space-x-3 ${
                             userSelectedOption === idx
-                              ? 'border-cyan-500 bg-cyan-950/40 text-cyan-200'
+                              ? 'border-gold-500 bg-gold-950/40 text-gold-200'
                               : 'border-slate-800 bg-slate-900/60 text-slate-300 hover:border-slate-700'
                           } ${challengeSubmitted && idx === ch.correctIndex ? '!border-emerald-500 !bg-emerald-950/50 !text-emerald-200' : ''} ${
                             challengeSubmitted && userSelectedOption === idx && idx !== ch.correctIndex
@@ -1323,7 +1323,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                                 playSound('pickup');
                                 // simple assignment helper
                               }}
-                              className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-semibold text-cyan-300 hover:border-cyan-400"
+                              className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-semibold text-gold-300 hover:border-gold-400"
                             >
                               {item.label}
                             </button>
@@ -1336,7 +1336,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                           <div key={targetKey} className="p-4 bg-slate-900 border border-slate-800 rounded-xl flex flex-col space-y-2">
                             <span className="text-xs font-mono text-slate-400">{targetKey}</span>
                             <div className="flex items-center justify-between bg-slate-950 p-2.5 rounded-lg border border-slate-800 min-h-[44px]">
-                              <span className="text-sm text-cyan-200">
+                              <span className="text-sm text-gold-200">
                                 {dragAssignments[targetKey] || 'Unassigned'}
                               </span>
                               {ch.dragItems && (
@@ -1373,7 +1373,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                     <div className="flex items-center space-x-3 mt-6">
                       <button
                         onClick={submitChallenge}
-                        className="flex-1 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold text-white shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all text-sm"
+                        className="flex-1 py-3 bg-gradient-to-r from-gold-500 to-gold-600 rounded-xl font-bold text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all text-sm"
                       >
                         Submit Physics Solution
                       </button>
@@ -1394,7 +1394,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6">
                       <SuccessBanner show={challengeCorrect} text={challengeCorrect ? 'Correct! Physics Validated' : 'Incorrect Solution'} />
                       <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 mt-3">
-                        <p className="text-xs font-semibold uppercase tracking-wide text-cyan-400 mb-1">Detailed Explanation</p>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-gold-400 mb-1">Detailed Explanation</p>
                         <p className="text-slate-300 text-sm leading-relaxed">{ch.explanation}</p>
                       </div>
                       <button
@@ -1430,7 +1430,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-md mb-6">
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
                 <span className="text-xs text-slate-400 uppercase font-semibold">Diagnostic Score</span>
-                <span className="text-3xl font-black text-cyan-400 mt-1">{score} pts</span>
+                <span className="text-3xl font-black text-gold-400 mt-1">{score} pts</span>
               </div>
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
                 <span className="text-xs text-slate-400 uppercase font-semibold">BKT Concept Mastery</span>
@@ -1458,7 +1458,7 @@ export default function C12_PhysicsAlternatingCurrentCBSESim() {
                 playSound('swoop');
                 setMode('lab');
               }}
-              className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-white rounded-xl shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all text-sm"
+              className="px-8 py-3 bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-white rounded-xl shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all text-sm"
             >
               Re-enter Interactive Lab 🧪
             </button>

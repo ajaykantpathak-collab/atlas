@@ -11,7 +11,7 @@ export const w_c6_socialscienceruraladministrationsim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'State Government: Structure and Functions',
     chapters: [],
     nodeIds: ['c6_civics_ch12_019', 'c6_civics_ch12_015', 'c6_civics_ch12_020', 'c6_civics_ch12_018', 'c6_history_ch09_038', 'c6_history_ch09_034', 'c6_history_ch09_035'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine your school needs a new playground, but the local village council doesn\'t have the money to build it.', goal: 'Master State Government: Structure and Functions.' },
     discovery: {
         question: 'Why is it better for a village to decide on fixing a local road rather than waiting for the national government?',
@@ -20,7 +20,7 @@ export const w_c6_socialscienceruraladministrationsim: SimDef = {
         hook: 'Students often think that "Grassroots Democracy" is just about voting for leaders once every five years.',
     },
     teaching: [
-        { title: 'The state government is the administrative.', text: 'The state government is the administrative authority that manages a state\'s affairs, operating between the national (central) government and local rural/urban bodies.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The state government is the administrative.', text: 'The state government is the administrative authority that manages a state\'s affairs, operating between the national (central) government and local rural/urban bodies.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_civics_ch12_019', title: 'The state government is the.',

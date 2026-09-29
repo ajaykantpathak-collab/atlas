@@ -146,7 +146,7 @@ export default function CodeSandbox() {
         <div className="flex gap-1.5 flex-wrap mb-1.5">
           {CODE_SANDBOX_CLASSES.map(b => (
             <button key={b.key} onClick={() => pickBand(b)}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {b.label}
             </button>
           ))}
@@ -173,7 +173,7 @@ export default function CodeSandbox() {
       <div className="flex gap-1 px-3 pt-2.5 border-b border-slate-800 bg-slate-900/40 overflow-x-auto">
         {tabs.map(tb => (
           <button key={tb.key} onClick={() => setTab(tb.key)}
-            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === tb.key ? 'border-sky-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
+            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${tab === tb.key ? 'border-gold-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
             <tb.icon className="w-3.5 h-3.5" />
             {tb.label}
           </button>
@@ -329,7 +329,7 @@ function RunWorkbench({ topic, onExplored }: {
     <div data-testid="code-run-bench">
       <div className="flex items-center gap-2 mb-1.5">
         <button onClick={run}
-          className="px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-sm flex items-center gap-1.5">
+          className="px-4 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-black text-sm flex items-center gap-1.5">
           <Play className="w-4 h-4" />Run
         </button>
         {res && <span className="text-[10px] text-slate-500 font-mono">{res.steps} steps · {rows.length} trace rows</span>}
@@ -337,12 +337,12 @@ function RunWorkbench({ topic, onExplored }: {
       <label className="block text-[10px] uppercase tracking-wider text-slate-500 font-black mb-1">
         program
         <textarea value={code} onChange={e => setCode(e.target.value)} rows={14} spellCheck={false}
-          className="mt-1 w-full rounded-xl bg-slate-950 border border-slate-700 px-3 py-2.5 text-[12px] leading-relaxed font-mono text-slate-100 focus:outline-none focus:border-sky-400 resize-y" />
+          className="mt-1 w-full rounded-xl bg-slate-950 border border-slate-700 px-3 py-2.5 text-[12px] leading-relaxed font-mono text-slate-100 focus:outline-none focus:border-gold-400 resize-y" />
       </label>
       <label className="block text-[10px] uppercase tracking-wider text-slate-500 font-black mb-1">
         sample inputs (one per line — Scanner reads them in order)
         <textarea value={inputs} onChange={e => setInputs(e.target.value)} rows={2} spellCheck={false}
-          className="mt-1 w-full rounded-xl bg-slate-950 border border-slate-700 px-3 py-2 text-[12px] font-mono text-emerald-200 focus:outline-none focus:border-sky-400 resize-y" />
+          className="mt-1 w-full rounded-xl bg-slate-950 border border-slate-700 px-3 py-2 text-[12px] font-mono text-emerald-200 focus:outline-none focus:border-gold-400 resize-y" />
       </label>
 
       {/* output */}
@@ -404,7 +404,7 @@ function RunWorkbench({ topic, onExplored }: {
                   <tr key={i} onClick={() => setStepIdx(i)}
                     className={`${selRow === row ? 'bg-emerald-500/10' : i % 2 ? 'bg-slate-900/40' : ''} cursor-pointer hover:bg-slate-800/60`}>
                     <td className="px-2 py-1 text-slate-500">{i + 1}</td>
-                    <td className="px-2 py-1 text-sky-300">{row.line}</td>
+                    <td className="px-2 py-1 text-gold-300">{row.line}</td>
                     {varNames.map(n => {
                       const v = row.vars.find(v => v.name === n)
                       return (
@@ -482,7 +482,7 @@ function PredictWorkbench({ topic, onExplored }: {
       </p>
       <textarea value={prediction} onChange={e => setPrediction(e.target.value)} rows={6} spellCheck={false}
         placeholder={'e.g.\n3\n3.5'}
-        className="w-full rounded-xl bg-slate-950 border border-slate-700 px-3 py-2.5 text-[12px] font-mono text-slate-100 placeholder:text-slate-600 focus:outline-none focus:border-sky-400 resize-y" />
+        className="w-full rounded-xl bg-slate-950 border border-slate-700 px-3 py-2.5 text-[12px] font-mono text-slate-100 placeholder:text-slate-600 focus:outline-none focus:border-gold-400 resize-y" />
       <button onClick={reveal}
         className="mt-2 px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm">
         Reveal the engine&apos;s answer
@@ -554,7 +554,7 @@ function TraceMiniTable({ rows }: { rows: { line: number; vars: { name: string; 
               {rows.slice(0, 12).map((row, i) => (
                 <tr key={i} className={i % 2 ? 'bg-slate-900/40' : ''}>
                   <td className="px-2 py-1 text-slate-500">{i + 1}</td>
-                  <td className="px-2 py-1 text-sky-300">{row.line}</td>
+                  <td className="px-2 py-1 text-gold-300">{row.line}</td>
                   {names.map(n => (
                     <td key={n} className="px-2 py-1 text-slate-100">{row.vars.find(v => v.name === n)?.value ?? '·'}</td>
                   ))}
@@ -609,7 +609,7 @@ function ClinicList({ topic, band, onExplored }: {
       <div className="flex gap-1.5 flex-wrap mb-2">
         {bugs.map((b, i) => (
           <button key={i} onClick={() => { setIdx(i); setGuess(null); setRevealed(false); setRun(null) }}
-            className={`px-2 py-0.5 rounded-md text-[11px] font-semibold border ${i === idx ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+            className={`px-2 py-0.5 rounded-md text-[11px] font-semibold border ${i === idx ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
             specimen {i + 1}
           </button>
         ))}
@@ -619,7 +619,7 @@ function ClinicList({ topic, band, onExplored }: {
       <div className="flex gap-1.5 flex-wrap mt-1.5">
         {(['compile', 'runtime', 'logical'] as const).map(k => (
           <button key={k} onClick={() => setGuess(k)}
-            className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${guess === k ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+            className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${guess === k ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
             {k}
           </button>
         ))}

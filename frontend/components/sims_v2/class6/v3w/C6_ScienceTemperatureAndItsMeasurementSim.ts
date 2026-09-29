@@ -11,7 +11,7 @@ export const w_c6_sciencetemperatureanditsmeasurementsim: SimDef = {
     classLevel: 6, subject: 'science', topic: 'Heat vs Temperature: Understanding the Difference',
     chapters: [],
     nodeIds: ['c6_physics_ch07_024', 'c6_physics_ch07_019', 'c6_physics_ch07_020', 'c6_physics_ch08_027', 'c6_physics_ch08_033', 'c6_physics_ch08_029'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever wondered why a small cup of tea feels hot enough to burn your tongue, but a giant swimming pool.', goal: 'Master Heat vs Temperature: Understanding the Difference.' },
     discovery: {
         question: 'What is the primary device used to measure the temperature of an object?',
@@ -20,7 +20,7 @@ export const w_c6_sciencetemperatureanditsmeasurementsim: SimDef = {
         hook: 'Students often confuse temperature with heat because they assume "higher temperature" always equals "more heat." They.',
     },
     teaching: [
-        { title: 'Heat is a form of energy related to the.', text: 'Heat is a form of energy related to the total motion of molecules in a substance, while temperature is a measurement indicating how hot or cold an object is based on the average kinetic energy of its.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Heat is a form of energy related to the.', text: 'Heat is a form of energy related to the total motion of molecules in a substance, while temperature is a measurement indicating how hot or cold an object is based on the average kinetic energy of its.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c6_physics_ch07_024', title: 'Heat is a form of energy related to the.',

@@ -11,7 +11,7 @@ export const w_c6_mathematicsnumberlineseeingsim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Polygons: Regular and Irregular',
     chapters: [],
     nodeIds: ['c6_math_ch07_075', 'c6_math_ch01_001', 'c6_math_ch02_016', 'c6_math_ch02_017', 'c6_math_ch02_018', 'c6_math_ch02_019', 'c6_math_ch02_020', 'c6_math_ch02_021'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Have you ever noticed the shape of a street sign or the tiles on your floor?', goal: 'Master Polygons: Regular and Irregular.' },
     discovery: {
         question: 'What do we call a closed figure made of exactly five straight line segments?',
@@ -20,7 +20,7 @@ export const w_c6_mathematicsnumberlineseeingsim: SimDef = {
         hook: 'Students often believe that "regular" just means "symmetric" or "looks normal." For example, they might call a.',
     },
     teaching: [
-        { title: 'A polygon is a simple, closed,.', text: 'A polygon is a simple, closed, two-dimensional figure formed by three or more straight line segments.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A polygon is a simple, closed,.', text: 'A polygon is a simple, closed, two-dimensional figure formed by three or more straight line segments.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch07_075', title: 'A polygon is a simple, closed,.',

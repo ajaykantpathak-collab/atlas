@@ -1453,7 +1453,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
       {/* HEADER SECTION */}
       <header className="w-full max-w-6xl mb-6 bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
-          <span className="text-xs font-mono font-bold px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full">
+          <span className="text-xs font-mono font-bold px-3 py-1 bg-gold-500/10 text-gold-400 border border-gold-500/20 rounded-full">
             CLASS 11 BIOTECHNOLOGY (ISC / CBSE) • GENETIC DISORDERS
           </span>
           <h1 className="text-2xl md:text-3xl font-extrabold text-white mt-2 tracking-tight">
@@ -1470,7 +1470,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
           <div className="h-8 w-px bg-slate-800" />
           <div>
             <div className="text-xs text-slate-400 font-medium">Nodes Mastered</div>
-            <div className="text-lg font-bold text-sky-400 font-mono">
+            <div className="text-lg font-bold text-gold-400 font-mono">
               {Object.values(bktStates).filter((b) => getMasteryLevel(b) === 'mastered').length} / {ALL_NODE_IDS.length}
             </div>
           </div>
@@ -1488,7 +1488,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
             }}
             className={`flex-1 py-3 rounded-lg text-sm font-bold capitalize transition-all duration-200 ${
               activeTab === tab
-                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1506,7 +1506,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-sky-400 mb-3">Clinical Case & Context</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-3">Clinical Case & Context</h2>
               <p className="text-slate-300 text-base leading-relaxed mb-4">{SCENARIO.context}</p>
 
               <div className="bg-slate-950 border border-slate-800 rounded-lg p-5 mb-6">
@@ -1525,11 +1525,11 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                       disabled={discoverySubmitted}
                       className={`w-full text-left p-4 rounded-lg border text-sm transition-all ${
                         discoverySelectedOption === idx
-                          ? 'border-sky-500 bg-sky-500/10 text-white font-medium'
+                          ? 'border-gold-500 bg-gold-500/10 text-white font-medium'
                           : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="inline-block w-6 font-bold text-sky-400">
+                      <span className="inline-block w-6 font-bold text-gold-400">
                         {String.fromCharCode(65 + idx)}.
                       </span>
                       {opt}
@@ -1541,13 +1541,13 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                   <button
                     onClick={handleSubmitDiscovery}
                     disabled={discoverySelectedOption === null}
-                    className="mt-5 px-6 py-3 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold text-sm rounded-lg transition-all"
+                    className="mt-5 px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-sm rounded-lg transition-all"
                   >
                     Submit Clinical Hypothesis
                   </button>
                 ) : (
                   <div className="mt-5 p-4 bg-slate-900 border border-slate-800 rounded-lg">
-                    <p className="text-sm text-sky-300 font-medium">{DISCOVERY_QUESTION.hintAfter}</p>
+                    <p className="text-sm text-gold-300 font-medium">{DISCOVERY_QUESTION.hintAfter}</p>
                   </div>
                 )}
               </div>
@@ -1555,7 +1555,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
 
             {/* PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-sky-400 mb-4">
+              <h2 className="text-xl font-bold text-gold-400 mb-4">
                 Clinical Predictions (Verify in Interactive Labs)
               </h2>
 
@@ -1574,11 +1574,11 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                           disabled={predictionSubmitted[qIdx]}
                           className={`w-full text-left p-3 rounded-md border text-xs transition-all ${
                             predictionAnswers[qIdx] === oIdx
-                              ? 'border-sky-500 bg-sky-500/10 text-white font-medium'
+                              ? 'border-gold-500 bg-gold-500/10 text-white font-medium'
                               : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-800'
                           }`}
                         >
-                          <span className="font-bold mr-2 text-sky-400">
+                          <span className="font-bold mr-2 text-gold-400">
                             {String.fromCharCode(65 + oIdx)}.
                           </span>
                           {opt}
@@ -1590,7 +1590,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                       <button
                         onClick={() => handleSubmitPrediction(qIdx)}
                         disabled={predictionAnswers[qIdx] === null}
-                        className="px-4 py-2 bg-slate-800 hover:bg-slate-700 disabled:opacity-50 text-sky-400 text-xs font-bold rounded-md"
+                        className="px-4 py-2 bg-slate-800 hover:bg-slate-700 disabled:opacity-50 text-gold-400 text-xs font-bold rounded-md"
                       >
                         Confirm Prediction
                       </button>
@@ -1622,7 +1622,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                   }}
                   className={`px-4 py-2.5 rounded-lg text-xs font-bold transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-sky-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-950 text-slate-400 hover:bg-slate-800 border border-slate-800'
                   }`}
                 >
@@ -1633,7 +1633,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
 
             {/* Current Lab Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
-              <h3 className="text-xl font-bold text-sky-400 mb-2">
+              <h3 className="text-xl font-bold text-gold-400 mb-2">
                 {EXPLORATION_STEPS[activeLabIndex].title}
               </h3>
               <p className="text-slate-300 text-sm mb-6">
@@ -1665,7 +1665,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                             }}
                             className={`flex-1 py-2 text-xs font-bold rounded border ${
                               chr21Count === cnt
-                                ? 'bg-sky-600 text-white border-sky-500'
+                                ? 'bg-gold-600 text-white border-gold-500'
                                 : 'bg-slate-900 text-slate-300 border-slate-800'
                             }`}
                           >
@@ -1789,7 +1789,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                         }}
                         className={`py-2 px-3 text-[11px] font-bold rounded border transition-all ${
                           pedigreeMode === mode
-                            ? 'bg-sky-600 text-white border-sky-500'
+                            ? 'bg-gold-600 text-white border-gold-500'
                             : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1810,7 +1810,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                       <label className="text-xs font-bold text-slate-300">
                         Adjust Oxygen Partial Pressure (pO2): {pO2} mmHg
                       </label>
-                      <span className="text-xs font-mono text-sky-400 font-bold">
+                      <span className="text-xs font-mono text-gold-400 font-bold">
                         {pO2 < 40 ? 'Hypoxia Threshold Crossed' : 'Normal Physiological Tension'}
                       </span>
                     </div>
@@ -1820,7 +1820,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                       max="100"
                       value={pO2}
                       onChange={(e) => setPO2(parseInt(e.target.value))}
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1833,7 +1833,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold text-sky-400 uppercase">
+                      <h4 className="text-xs font-bold text-gold-400 uppercase">
                         Polygenic Risk Score Builder (Type 2 Diabetes / CHD)
                       </h4>
                       <div>
@@ -1882,7 +1882,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
 
             {/* OBSERVATION QUESTIONS */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl space-y-6">
-              <h3 className="text-xl font-bold text-sky-400">
+              <h3 className="text-xl font-bold text-gold-400">
                 Interactive Lab Observation Questions
               </h3>
 
@@ -1900,11 +1900,11 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                         disabled={obsSubmitted[qIdx]}
                         className={`w-full text-left p-3 rounded-md border text-xs transition-all ${
                           obsAnswers[qIdx] === oIdx
-                            ? 'border-sky-500 bg-sky-500/10 text-white font-medium'
+                            ? 'border-gold-500 bg-gold-500/10 text-white font-medium'
                             : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
-                        <span className="font-bold mr-2 text-sky-400">
+                        <span className="font-bold mr-2 text-gold-400">
                           {String.fromCharCode(65 + oIdx)}.
                         </span>
                         {opt}
@@ -1916,7 +1916,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                     <button
                       onClick={() => handleSubmitObs(qIdx)}
                       disabled={obsAnswers[qIdx] === null}
-                      className="px-4 py-2 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white text-xs font-bold rounded-md"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-md"
                     >
                       Submit Observation
                     </button>
@@ -1948,7 +1948,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                     }}
                     className={`px-4 py-2 rounded-lg text-xs font-bold capitalize transition-all ${
                       challengeFilter === tier
-                        ? 'bg-sky-600 text-white shadow-md'
+                        ? 'bg-gold-600 text-white shadow-md'
                         : 'bg-slate-950 text-slate-400 hover:bg-slate-800 border border-slate-800'
                     }`}
                   >
@@ -1966,7 +1966,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
             {currentChallenge && (
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
                 <div className="flex justify-between items-center mb-4">
-                  <span className="text-xs font-mono font-bold px-3 py-1 bg-sky-500/10 text-sky-400 border border-sky-500/20 rounded-full uppercase">
+                  <span className="text-xs font-mono font-bold px-3 py-1 bg-gold-500/10 text-gold-400 border border-gold-500/20 rounded-full uppercase">
                     {currentChallenge.difficulty} • {currentChallenge.competencyLevel}
                   </span>
                   <span className="text-xs text-slate-500 font-mono">Node ID: {currentChallenge.nodeId}</span>
@@ -1989,11 +1989,11 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                         disabled={!!challengeFeedback}
                         className={`w-full text-left p-4 rounded-lg border text-sm transition-all ${
                           selectedMcqIndex === idx
-                            ? 'border-sky-500 bg-sky-500/10 text-white font-semibold'
+                            ? 'border-gold-500 bg-gold-500/10 text-white font-semibold'
                             : 'border-slate-800 bg-slate-950 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
-                        <span className="font-bold mr-3 text-sky-400">
+                        <span className="font-bold mr-3 text-gold-400">
                           {String.fromCharCode(65 + idx)}.
                         </span>
                         {opt}
@@ -2014,7 +2014,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                       onChange={(e) => setNumericAnswerInput(e.target.value)}
                       disabled={!!challengeFeedback}
                       placeholder="e.g. 25"
-                      className="w-full bg-slate-950 border border-slate-800 text-white text-base p-4 rounded-lg focus:border-sky-500 focus:outline-none"
+                      className="w-full bg-slate-950 border border-slate-800 text-white text-base p-4 rounded-lg focus:border-gold-500 focus:outline-none"
                     />
                   </div>
                 )}
@@ -2029,7 +2029,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                           ? numericAnswerInput.trim() === ''
                           : selectedMcqIndex === null
                       }
-                      className="px-6 py-3 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold text-sm rounded-lg transition-all"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-sm rounded-lg transition-all"
                     >
                       Submit Answer
                     </button>
@@ -2060,7 +2060,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
 
                     <button
                       onClick={handleNextChallenge}
-                      className="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold text-sm rounded-lg transition-all"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-lg transition-all"
                     >
                       Next Challenge
                     </button>
@@ -2076,7 +2076,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
           <div className="space-y-8">
             {/* REAL WORLD ACTIVITY */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
-              <h2 className="text-xl font-bold text-sky-400 mb-2">
+              <h2 className="text-xl font-bold text-gold-400 mb-2">
                 {REAL_WORLD_ACTIVITY.title}
               </h2>
               <p className="text-slate-300 text-sm mb-6 leading-relaxed">
@@ -2107,7 +2107,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                       <div className="font-mono text-slate-400">{nid}</div>
                       <div className="flex justify-between items-center mt-2">
                         <span className="text-slate-500">P(Mastery):</span>
-                        <span className="font-bold text-sky-400">{(bkt.pKnown * 100).toFixed(0)}%</span>
+                        <span className="font-bold text-gold-400">{(bkt.pKnown * 100).toFixed(0)}%</span>
                       </div>
                       <div className="mt-1 text-right">
                         <span
@@ -2130,7 +2130,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
 
             {/* MISCONCEPTIONS REVIEW */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-sky-400 mb-4">
+              <h3 className="text-lg font-bold text-gold-400 mb-4">
                 Common Misconceptions & Scientific Corrections
               </h3>
 
@@ -2163,7 +2163,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                     }}
                     className={`p-3 rounded-lg text-xs font-bold border text-center ${
                       activeDiagIndex === idx
-                        ? 'bg-sky-600 text-white border-sky-500'
+                        ? 'bg-gold-600 text-white border-gold-500'
                         : 'bg-slate-950 text-slate-400 border-slate-800 hover:bg-slate-800'
                     }`}
                   >
@@ -2185,11 +2185,11 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                         onClick={() => handleSelectDiagOption(oIdx)}
                         className={`w-full text-left p-3 rounded-lg border text-xs transition-all ${
                           diagSelectedOption === oIdx
-                            ? 'border-sky-500 bg-sky-500/10 text-white font-medium'
+                            ? 'border-gold-500 bg-gold-500/10 text-white font-medium'
                             : 'border-slate-800 bg-slate-900 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
-                        <span className="font-bold mr-2 text-sky-400">
+                        <span className="font-bold mr-2 text-gold-400">
                           {String.fromCharCode(65 + oIdx)}.
                         </span>
                         {opt}
@@ -2200,7 +2200,7 @@ export default function C11_BiotechGeneticDisordersCBSESim({
                   <button
                     onClick={() => handleSubmitDiag(activeDiagIndex)}
                     disabled={diagSelectedOption === null}
-                    className="px-4 py-2 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white text-xs font-bold rounded-md"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white text-xs font-bold rounded-md"
                   >
                     Verify Answer
                   </button>

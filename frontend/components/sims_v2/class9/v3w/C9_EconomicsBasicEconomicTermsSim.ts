@@ -11,11 +11,11 @@ export const w_c9_economicsbasiceconomictermssim: SimDef = {
     classLevel: 9, subject: 'economics', topic: 'Public Goods: Characteristics and Government Provision',
     chapters: [],
     nodeIds: ['c9_eco_ch1_10', 'c9_eco_ch1_3'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are walking home at 8 PM in your neighbourhood in Bengaluru.', goal: 'Master Public Goods: Characteristics and Government Provision.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Public goods are goods characterized by.', text: 'Public goods are goods characterized by **non-excludability** (impossible or extremely costly to prevent anyone from using them) and **non-rivalry** (one person\'s consumption does not reduce.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Public goods are goods characterized by.', text: 'Public goods are goods characterized by **non-excludability** (impossible or extremely costly to prevent anyone from using them) and **non-rivalry** (one person\'s consumption does not reduce.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_eco_ch1_10', title: 'Public goods are goods characterized by.',

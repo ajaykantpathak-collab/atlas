@@ -72,8 +72,8 @@ export function C8_ScienceExploringForcesSim() {
             <input type="range" min={0} max={200} value={push} aria-label="applied force" onChange={(e) => setPush(Number(e.target.value))} className="w-full mt-1 accent-orange-600" />
           </div>
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Mass of box (kg)</span><span className="font-mono text-indigo-600">{mass}</span></label>
-            <input type="range" min={1} max={40} value={mass} aria-label="mass" onChange={(e) => { setMass(Number(e.target.value)); }} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Mass of box (kg)</span><span className="font-mono text-gold-600">{mass}</span></label>
+            <input type="range" min={1} max={40} value={mass} aria-label="mass" onChange={(e) => { setMass(Number(e.target.value)); }} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <p className="text-xs font-semibold text-slate-500 mb-1">Surface (sets friction mu)</p>
@@ -96,14 +96,14 @@ export function C8_ScienceExploringForcesSim() {
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             <div>friction to beat: mu x m x g = {mu} x {mass} x 9.8 = <span className="font-bold text-rose-600">{friction} N</span></div>
             <div>net force = {push} - {friction} = <span className="font-bold" style={{ color: netForce > 0 ? '#059669' : '#64748b' }}>{moving ? netForce : Math.min(push, friction)} N</span></div>
-            <div>acceleration a = F/m = <span className="font-bold text-indigo-700">{netForce > 0 ? (Math.round(accel * 100) / 100).toFixed(2) : 0} m/s2</span></div>
+            <div>acceleration a = F/m = <span className="font-bold text-gold-700">{netForce > 0 ? (Math.round(accel * 100) / 100).toFixed(2) : 0} m/s2</span></div>
             <div className="text-xs mt-1" style={{ color: moving ? '#059669' : '#b45309' }}>
               {moving ? `sliding at ${vel.toFixed(2)} m/s` : netForce > 0 ? 'about to slip - press Push it!' : 'stuck: static friction is winning'}
             </div>
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-b from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-b from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 360 220" className="w-full">
             {/* ground */}
             <rect x={10} y={160} width={340} height={26} fill={SURFACES[surface].color} rx={4} style={{ transition: 'fill 300ms' }} />

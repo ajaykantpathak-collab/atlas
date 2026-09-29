@@ -11,7 +11,7 @@ export const w_c12_biologybiodiversityandconservationsim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Abiotic Factors: Temperature, Water, Light',
     chapters: [],
     nodeIds: ['c12_bio_cbse_13_002', 'c12_bio_cbse_06_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine standing in the Thar Desert at noon — the sand burns your feet (temperature), your throat is parched.', goal: 'Master Abiotic Factors: Temperature, Water, Light.' },
     discovery: {
         question: 'Define the term \'stenothermal\' and give one example each of a stenothermal animal and a stenothermal plant from Indian ecosystems.',
@@ -20,7 +20,7 @@ export const w_c12_biologybiodiversityandconservationsim: SimDef = {
         hook: 'Students think "adaptation eliminates the abiotic factor as a limitation." Example: "Camels store water in humps, so.',
     },
     teaching: [
-        { title: 'Abiotic factors are the non-living physical.', text: 'Abiotic factors are the non-living physical and chemical components of an ecosystem — specifically temperature, water availability, and light intensity — that directly determine the survival,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Abiotic factors are the non-living physical.', text: 'Abiotic factors are the non-living physical and chemical components of an ecosystem — specifically temperature, water availability, and light intensity — that directly determine the survival,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_13_002', title: 'Abiotic factors are the non-living.',

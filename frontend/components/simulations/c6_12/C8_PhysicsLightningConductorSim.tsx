@@ -1347,12 +1347,12 @@ function C8_PhysicsLightningConductorSim({
         <div className="flex items-center gap-3">
           <motion.span 
             whileHover={{ rotate: 20, scale: 1.2 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner"
+            className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-sky-300 to-amber-300">
+            <h1 className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-gold-400 via-gold-300 to-amber-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ICSE Class 8 Physics • CISCE Board Certified Curriculum</p>
@@ -1372,7 +1372,7 @@ function C8_PhysicsLightningConductorSim({
               }}
               className={`px-3 py-1 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p 
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-500/30' 
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30' 
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
               }`}
             >
@@ -1392,7 +1392,7 @@ function C8_PhysicsLightningConductorSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/50 shadow-xl">
+            <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/50 shadow-xl">
               <div className="flex items-center gap-2 mb-2">
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
                   Curiosity Scenario
@@ -1401,11 +1401,11 @@ function C8_PhysicsLightningConductorSim({
               </div>
               <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
               <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-300 mt-2 font-semibold">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-300 mt-2 font-semibold">{SCENARIO.context}</p>
             </div>
 
             <div className="p-6 bg-slate-800/60 rounded-2xl border border-slate-700/60">
-              <h3 className="text-base font-bold text-sky-300 mb-4 flex items-center gap-2">
+              <h3 className="text-base font-bold text-gold-300 mb-4 flex items-center gap-2">
                 <span>⚡ Curiosity Challenge:</span>
                 <span className="text-xs font-normal text-slate-400">(No grading — think like a scientist)</span>
               </h3>
@@ -1427,7 +1427,7 @@ function C8_PhysicsLightningConductorSim({
                         : 'bg-slate-900/80 hover:bg-slate-800 border border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1446,7 +1446,7 @@ function C8_PhysicsLightningConductorSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToPredict}
-                    className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                   >
                     Scientific Predictions →
                   </motion.button>
@@ -1477,7 +1477,7 @@ function C8_PhysicsLightningConductorSim({
             </div>
 
             <div className="p-6 bg-slate-800/60 rounded-2xl border border-slate-700/60 space-y-4">
-              <h3 className="text-base font-bold text-sky-300">
+              <h3 className="text-base font-bold text-gold-300">
                 🔮 {PREDICTION_QUESTIONS[predictStep].question}
               </h3>
 
@@ -1515,7 +1515,7 @@ function C8_PhysicsLightningConductorSim({
                     <span className="font-bold text-amber-300">Scientific Rationale: </span>
                     {PREDICTION_QUESTIONS[predictStep].explanation}
                   </p>
-                  <div className="p-3 bg-indigo-950/60 border border-indigo-700/40 rounded-lg text-xs text-indigo-200 font-medium">
+                  <div className="p-3 bg-gold-950/60 border border-gold-700/40 rounded-lg text-xs text-gold-200 font-medium">
                     🔬 <span className="font-bold text-white">How to verify:</span> {PREDICTION_QUESTIONS[predictStep].verifyInstruction}
                   </div>
 
@@ -1539,7 +1539,7 @@ function C8_PhysicsLightningConductorSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleAdvanceToExploration}
-                        className="px-6 py-2 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-indigo-600/30"
+                        className="px-6 py-2 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-gold-600/30"
                       >
                         Enter Interactive Labs to Verify →
                       </motion.button>
@@ -1564,7 +1564,7 @@ function C8_PhysicsLightningConductorSim({
           >
             <div className="flex items-center justify-between bg-slate-950/80 p-3 rounded-2xl border border-slate-800">
               <div className="flex items-center gap-2">
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-gold-500/20 text-gold-400 border border-gold-500/30">
                   Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-sm font-bold text-slate-200 hidden md:inline">{EXPLORATION_STEPS[currentSlide].title}</span>
@@ -1584,7 +1584,7 @@ function C8_PhysicsLightningConductorSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-4 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow-md shadow-indigo-500/20"
+                    className="px-4 py-1.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold text-white shadow-md shadow-gold-500/20"
                   >
                     Next Lab →
                   </motion.button>
@@ -1603,7 +1603,7 @@ function C8_PhysicsLightningConductorSim({
 
             <div className="p-6 bg-slate-800/40 rounded-2xl border border-slate-700/60">
               <div className="mb-4">
-                <h3 className="text-lg font-bold text-sky-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-sm text-amber-300/90 font-medium mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1628,7 +1628,7 @@ function C8_PhysicsLightningConductorSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Spike Sharpness (Action of Points):</span>
-                        <span className="text-sky-400">{rodSharpness}%</span>
+                        <span className="text-gold-400">{rodSharpness}%</span>
                       </div>
                       <input
                         type="range"
@@ -1636,7 +1636,7 @@ function C8_PhysicsLightningConductorSim({
                         max="100"
                         value={rodSharpness}
                         onChange={(e) => setRodSharpness(Number(e.target.value))}
-                        className="w-full accent-sky-400 bg-slate-800"
+                        className="w-full accent-gold-400 bg-slate-800"
                         aria-label="Spike Sharpness"
                       />
                       <p className="text-[11px] text-slate-400 mt-1">
@@ -1663,8 +1663,8 @@ function C8_PhysicsLightningConductorSim({
                       </p>
                     </div>
 
-                    <div className="p-3 bg-slate-950/70 rounded-xl border border-indigo-900/40 text-xs space-y-1">
-                      <p className="font-bold text-indigo-300">Conduction Chain Check:</p>
+                    <div className="p-3 bg-slate-950/70 rounded-xl border border-gold-900/40 text-xs space-y-1">
+                      <p className="font-bold text-gold-300">Conduction Chain Check:</p>
                       <p className="text-slate-300">1. Air Terminal (Sharp copper rod)</p>
                       <p className="text-slate-300">2. External Conductor (Thick copper strip)</p>
                       <p className="text-slate-300">3. Ground Plate (Buried in moist earth)</p>
@@ -1678,12 +1678,12 @@ function C8_PhysicsLightningConductorSim({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   <div className="lg:col-span-7 space-y-3">
                     <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Household Appliance Daily Usage:</h4>
+                      <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Household Appliance Daily Usage:</h4>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>4 × LED Bulbs (40 W total):</span>
-                          <span className="text-sky-400 font-bold">{ledHours} hours/day</span>
+                          <span className="text-gold-400 font-bold">{ledHours} hours/day</span>
                         </div>
                         <input
                           type="range"
@@ -1691,7 +1691,7 @@ function C8_PhysicsLightningConductorSim({
                           max="16"
                           value={ledHours}
                           onChange={(e) => setLedHours(Number(e.target.value))}
-                          className="w-full accent-sky-400 bg-slate-800"
+                          className="w-full accent-gold-400 bg-slate-800"
                           aria-label="LED hours"
                         />
                       </div>
@@ -1699,7 +1699,7 @@ function C8_PhysicsLightningConductorSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>2 × Ceiling Fans (150 W total):</span>
-                          <span className="text-sky-400 font-bold">{fanHours} hours/day</span>
+                          <span className="text-gold-400 font-bold">{fanHours} hours/day</span>
                         </div>
                         <input
                           type="range"
@@ -1707,7 +1707,7 @@ function C8_PhysicsLightningConductorSim({
                           max="24"
                           value={fanHours}
                           onChange={(e) => setFanHours(Number(e.target.value))}
-                          className="w-full accent-sky-400 bg-slate-800"
+                          className="w-full accent-gold-400 bg-slate-800"
                           aria-label="Fan hours"
                         />
                       </div>
@@ -1747,17 +1747,17 @@ function C8_PhysicsLightningConductorSim({
                     </div>
                   </div>
 
-                  <div className="lg:col-span-5 bg-gradient-to-br from-indigo-950/90 to-slate-950 p-5 rounded-2xl border border-indigo-800/60 flex flex-col justify-between">
+                  <div className="lg:col-span-5 bg-gradient-to-br from-gold-950/90 to-slate-950 p-5 rounded-2xl border border-gold-800/60 flex flex-col justify-between">
                     <div>
-                      <div className="flex items-center justify-between border-b border-indigo-800/50 pb-2 mb-3">
-                        <span className="text-xs font-bold text-indigo-300">Smart Energy Meter</span>
+                      <div className="flex items-center justify-between border-b border-gold-800/50 pb-2 mb-3">
+                        <span className="text-xs font-bold text-gold-300">Smart Energy Meter</span>
                         <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full font-mono">220V 50Hz</span>
                       </div>
 
                       <div className="space-y-3 font-mono">
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                           <p className="text-[10px] text-slate-400 uppercase">Daily Consumption:</p>
-                          <p className="text-xl font-black text-sky-400">{dailyKWh} <span className="text-xs">kWh / day</span></p>
+                          <p className="text-xl font-black text-gold-400">{dailyKWh} <span className="text-xs">kWh / day</span></p>
                         </div>
 
                         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1848,8 +1848,8 @@ function C8_PhysicsLightningConductorSim({
                     {inspectedPin === 'neutral' && (
                       <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-2">
                         <div className="flex items-center gap-2">
-                          <span className="w-4 h-4 rounded-full bg-blue-500"></span>
-                          <h4 className="text-base font-bold text-blue-400">Neutral Pin (0 V Return Path)</h4>
+                          <span className="w-4 h-4 rounded-full bg-gold-500"></span>
+                          <h4 className="text-base font-bold text-gold-400">Neutral Pin (0 V Return Path)</h4>
                         </div>
                         <p className="text-xs text-slate-300 leading-relaxed">
                           <span className="font-bold text-white">Colour Code:</span> Blue (New IS) / Black (Old).
@@ -1869,7 +1869,7 @@ function C8_PhysicsLightningConductorSim({
                       </button>
                       <button 
                         onClick={() => setInspectedPin('neutral')}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${inspectedPin === 'neutral' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold ${inspectedPin === 'neutral' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300'}`}
                       >
                         Neutral (Blue)
                       </button>
@@ -1893,13 +1893,13 @@ function C8_PhysicsLightningConductorSim({
                       <div className="flex gap-1.5 bg-slate-900 p-1 rounded-xl border border-slate-800">
                         <button
                           onClick={() => { setFuseType('fuse'); setFuseBlown(false); }}
-                          className={`px-3 py-1 rounded-lg text-xs font-bold ${fuseType === 'fuse' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                          className={`px-3 py-1 rounded-lg text-xs font-bold ${fuseType === 'fuse' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                         >
                           Rewireable Fuse (5A)
                         </button>
                         <button
                           onClick={() => { setFuseType('mcb'); setMcbTripped(false); }}
-                          className={`px-3 py-1 rounded-lg text-xs font-bold ${fuseType === 'mcb' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                          className={`px-3 py-1 rounded-lg text-xs font-bold ${fuseType === 'mcb' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                         >
                           Modern MCB (5A)
                         </button>
@@ -2130,7 +2130,7 @@ function C8_PhysicsLightningConductorSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleAdvanceToSandbox}
-                        className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-emerald-600/30"
+                        className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-emerald-600/30"
                       >
                         Proceed to Free Sandbox →
                       </motion.button>
@@ -2163,7 +2163,7 @@ function C8_PhysicsLightningConductorSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToChallenge}
-                  className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-500/20"
+                  className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-500/20"
                 >
                   Ready for Challenges! →
                 </motion.button>
@@ -2174,7 +2174,7 @@ function C8_PhysicsLightningConductorSim({
                   <div>
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                       <span>Supply Mains Voltage:</span>
-                      <span className="text-sky-400 font-mono">{sandboxVoltage} V</span>
+                      <span className="text-gold-400 font-mono">{sandboxVoltage} V</span>
                     </div>
                     <input
                       type="range"
@@ -2182,7 +2182,7 @@ function C8_PhysicsLightningConductorSim({
                       max="250"
                       value={sandboxVoltage}
                       onChange={(e) => setSandboxVoltage(Number(e.target.value))}
-                      className="w-full accent-sky-400 bg-slate-800"
+                      className="w-full accent-gold-400 bg-slate-800"
                       aria-label="Supply Mains Voltage"
                     />
                   </div>
@@ -2207,8 +2207,8 @@ function C8_PhysicsLightningConductorSim({
 
                 <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 font-mono text-xs">
                   <p className="text-slate-400 uppercase text-[10px]">Calculated Electrical Parameters:</p>
-                  <p className="text-sky-300">Current (I = P/V): <span className="text-base font-bold text-white">{(sandboxLoadWatts / sandboxVoltage).toFixed(2)} A</span></p>
-                  <p className="text-indigo-300">Load Resistance (R = V²/P): <span className="text-base font-bold text-white">{((sandboxVoltage * sandboxVoltage) / sandboxLoadWatts).toFixed(1)} Ω</span></p>
+                  <p className="text-gold-300">Current (I = P/V): <span className="text-base font-bold text-white">{(sandboxLoadWatts / sandboxVoltage).toFixed(2)} A</span></p>
+                  <p className="text-gold-300">Load Resistance (R = V²/P): <span className="text-base font-bold text-white">{((sandboxVoltage * sandboxVoltage) / sandboxLoadWatts).toFixed(1)} Ω</span></p>
                   <p className="text-emerald-300">Recommended Fuse / MCB: <span className="text-base font-bold text-white">{(sandboxLoadWatts / sandboxVoltage) > 5 ? '15 A Power Circuit' : '5 A Lighting Circuit'}</span></p>
                 </div>
               </div>
@@ -2238,7 +2238,7 @@ function C8_PhysicsLightningConductorSim({
                     className={`px-2.5 py-0.5 rounded-full text-[10px] font-black tracking-wider uppercase ${
                       difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' :
                       difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
-                      'bg-sky-500/20 text-sky-300 border border-sky-500/30'
+                      'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                     }`}
                   >
                     {difficulty} TIER
@@ -2252,7 +2252,7 @@ function C8_PhysicsLightningConductorSim({
               <div className="w-full md:w-48">
                 <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700">
                   <motion.div
-                    className="h-full bg-gradient-to-r from-indigo-500 to-sky-400 rounded-full"
+                    className="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full"
                     animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                     transition={{ duration: 0.3 }}
                   />
@@ -2283,7 +2283,7 @@ function C8_PhysicsLightningConductorSim({
                           : 'bg-slate-900/80 hover:bg-slate-800/90 border border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2302,7 +2302,7 @@ function C8_PhysicsLightningConductorSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow-md"
                       >
                         {item.label}
                       </motion.div>
@@ -2318,7 +2318,7 @@ function C8_PhysicsLightningConductorSim({
                         className="p-4 bg-slate-900 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[80px] flex flex-col justify-center items-center"
                       >
                         <span className="text-[10px] text-slate-500 uppercase tracking-wider mb-1">{targetId}</span>
-                        <span className="text-xs font-bold text-sky-300">
+                        <span className="text-xs font-bold text-gold-300">
                           {droppedLabels[targetId] || 'Drop Label Here'}
                         </span>
                       </div>
@@ -2329,7 +2329,7 @@ function C8_PhysicsLightningConductorSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Check Diagram Mapping
                   </motion.button>
@@ -2357,7 +2357,7 @@ function C8_PhysicsLightningConductorSim({
                         whileHover={{ scale: 1.01 }}
                         className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="w-5 h-5 rounded-full bg-indigo-600 text-white font-bold flex items-center justify-center text-[10px]">
+                        <span className="w-5 h-5 rounded-full bg-gold-600 text-white font-bold flex items-center justify-center text-[10px]">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2370,7 +2370,7 @@ function C8_PhysicsLightningConductorSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Check Ordered Sequence
                   </motion.button>
@@ -2387,7 +2387,7 @@ function C8_PhysicsLightningConductorSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer"
-                      className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                      className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     />
                     <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                     <motion.button
@@ -2395,7 +2395,7 @@ function C8_PhysicsLightningConductorSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || !numericInput}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                     >
                       Verify Value
                     </motion.button>
@@ -2427,7 +2427,7 @@ function C8_PhysicsLightningConductorSim({
                         key={i}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-900/80 border border-indigo-700 text-indigo-200 text-xs rounded-lg flex items-center gap-2"
+                        className="px-2.5 py-1 bg-gold-900/80 border border-gold-700 text-gold-200 text-xs rounded-lg flex items-center gap-2"
                       >
                         {part}
                         <button
@@ -2448,7 +2448,7 @@ function C8_PhysicsLightningConductorSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Validate Construction
                   </motion.button>
@@ -2516,11 +2516,11 @@ function C8_PhysicsLightningConductorSim({
             animate={{ opacity: 1, scale: 1 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/60 text-center space-y-3">
+            <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/60 text-center space-y-3">
               <span className="text-4xl">🏆</span>
               <h2 className="text-2xl font-black text-white">Simulation & Challenge Complete!</h2>
               <p className="text-sm text-slate-300">
-                Final Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-sky-300 font-bold uppercase">{masteryLevel}</span>
+                Final Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> | Mastery Tier: <span className="text-gold-300 font-bold uppercase">{masteryLevel}</span>
               </p>
             </div>
 
@@ -2528,16 +2528,16 @@ function C8_PhysicsLightningConductorSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-r from-indigo-950/80 via-slate-900 to-indigo-950/80 rounded-2xl border border-indigo-500/50 shadow-xl flex flex-col md:flex-row items-center justify-between gap-4"
+              className="p-5 bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 rounded-2xl border border-gold-500/50 shadow-xl flex flex-col md:flex-row items-center justify-between gap-4"
             >
               <div className="flex items-center gap-3.5">
-                <div className="p-3 bg-indigo-600/20 rounded-2xl border border-indigo-500/30 text-2xl">
+                <div className="p-3 bg-gold-600/20 rounded-2xl border border-gold-500/30 text-2xl">
                   📅
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <h3 className="text-xs font-black uppercase tracking-wider text-indigo-400">Spaced Repetition Schedule (SRS)</h3>
-                    <span className="text-[10px] bg-indigo-500/20 text-indigo-300 px-2 py-0.5 rounded-full font-bold">SM-2 Algorithm</span>
+                    <h3 className="text-xs font-black uppercase tracking-wider text-gold-400">Spaced Repetition Schedule (SRS)</h3>
+                    <span className="text-[10px] bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded-full font-bold">SM-2 Algorithm</span>
                   </div>
                   <p className="text-sm font-semibold text-white mt-0.5">
                     Recommended Next Review: <span className="text-amber-300 font-black text-base">{errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}</span>
@@ -2553,7 +2553,7 @@ function C8_PhysicsLightningConductorSim({
               </div>
 
               <div className="flex flex-col items-center md:items-end gap-1 shrink-0">
-                <span className="px-3 py-1.5 rounded-xl bg-slate-950 border border-indigo-500/40 text-xs font-mono font-bold text-indigo-200">
+                <span className="px-3 py-1.5 rounded-xl bg-slate-950 border border-gold-500/40 text-xs font-mono font-bold text-gold-200">
                   SRS Interval: {errors === 0 ? '+7 Days (Tier 1)' : errors <= 3 ? '+3 Days (Tier 2)' : '+1 Day (Tier 3)'}
                 </span>
                 <span className="text-[10px] text-slate-500">Node: ICSE-PHY-8-ELEC</span>
@@ -2594,12 +2594,12 @@ function C8_PhysicsLightningConductorSim({
 
             {/* Real World Activity Arc */}
             <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-3">
-              <h3 className="text-sm font-bold text-sky-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs text-slate-400">
                 {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                   <div key={i} className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
-                    <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span>
+                    <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span>
                     {step}
                   </div>
                 ))}
@@ -2607,8 +2607,8 @@ function C8_PhysicsLightningConductorSim({
             </div>
 
             {/* Reflection Questions */}
-            <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-2 text-xs">
-              <h3 className="font-bold text-indigo-300">Post-Lab Scientific Reflection:</h3>
+            <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-2 text-xs">
+              <h3 className="font-bold text-gold-300">Post-Lab Scientific Reflection:</h3>
               <ul className="list-disc list-inside space-y-1 text-slate-300">
                 <li>Why is it impossible for a 5 A fuse alone to protect a human against lethal 100 mA electric shock without earthing?</li>
                 <li>How does calculating daily kWh empower your family to conserve energy and reduce electricity expenses?</li>

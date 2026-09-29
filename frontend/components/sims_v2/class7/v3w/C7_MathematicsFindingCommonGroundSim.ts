@@ -11,7 +11,7 @@ export const w_c7_mathematicsfindingcommongroundsim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Highest Common Factor (HCF): Definition and Methods',
     chapters: [],
     nodeIds: ['c7_math_ch11_002', 'c7_math_ch11_003', 'c7_math_ch11_004', 'c7_math_ch11_005', 'c7_math_ch11_006', 'c7_math_ch11_007', 'c7_math_ch11_008', 'c7_math_ch11_009', 'c7_math_ch11_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are organizing a school cultural fest in Delhi and have 24 red ribbons and 36 blue ribbons.', goal: 'Master Highest Common Factor (HCF): Definition and Methods.' },
     discovery: {
         question: 'What is the mathematical term for the number that is left over when you divide one integer by another during the Euclidean division process?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsfindingcommongroundsim: SimDef = {
         hook: 'Students frequently mistake the final quotient for the HCF instead of taking the final non-zero remainder.',
     },
     teaching: [
-        { title: 'The Highest Common Factor (HCF) of two or.', text: 'The Highest Common Factor (HCF) of two or more numbers is the greatest positive integer that divides each of those numbers completely without leaving any remainder.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Highest Common Factor (HCF) of two or.', text: 'The Highest Common Factor (HCF) of two or more numbers is the greatest positive integer that divides each of those numbers completely without leaving any remainder.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch11_002', title: 'The Highest Common Factor (HCF) of two.',

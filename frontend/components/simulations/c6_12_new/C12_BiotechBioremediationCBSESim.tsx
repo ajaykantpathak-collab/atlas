@@ -1417,7 +1417,7 @@ export default function C12_BiotechBioremediationCBSESim({
         <header className="flex flex-col md:flex-row justify-between items-start md:items-center pb-4 mb-4 border-b border-slate-800 gap-4">
           <div>
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-gold-500/20 text-gold-400 border border-gold-500/30">
                 ISC CLASS 12 BIOTECHNOLOGY
               </span>
               <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
@@ -1448,7 +1448,7 @@ export default function C12_BiotechBioremediationCBSESim({
             onClick={() => { setActiveTab('discovery'); triggerAudioAndSpeech('tap', 'Discovery Scenario'); }}
             className={`flex-1 min-w-[120px] py-2.5 px-4 rounded-xl text-sm font-bold transition-all ${
               activeTab === 'discovery'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1459,7 +1459,7 @@ export default function C12_BiotechBioremediationCBSESim({
             onClick={() => { setActiveTab('lab'); triggerAudioAndSpeech('tap', 'Interactive Simulation Labs'); }}
             className={`flex-1 min-w-[120px] py-2.5 px-4 rounded-xl text-sm font-bold transition-all ${
               activeTab === 'lab'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1470,7 +1470,7 @@ export default function C12_BiotechBioremediationCBSESim({
             onClick={() => { setActiveTab('challenges'); triggerAudioAndSpeech('tap', 'Adaptive Challenges'); }}
             className={`flex-1 min-w-[120px] py-2.5 px-4 rounded-xl text-sm font-bold transition-all ${
               activeTab === 'challenges'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1481,7 +1481,7 @@ export default function C12_BiotechBioremediationCBSESim({
             onClick={() => { setActiveTab('summary'); triggerAudioAndSpeech('tap', 'Summary & Real World'); }}
             className={`flex-1 min-w-[120px] py-2.5 px-4 rounded-xl text-sm font-bold transition-all ${
               activeTab === 'summary'
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800'
             }`}
           >
@@ -1497,9 +1497,9 @@ export default function C12_BiotechBioremediationCBSESim({
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800">
-              <h2 className="text-xl font-bold text-blue-400 mb-2">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="bg-blue-950/40 p-4 rounded-xl border border-blue-800/40 text-blue-200 text-xs">
+              <div className="bg-gold-950/40 p-4 rounded-xl border border-gold-800/40 text-gold-200 text-xs">
                 <strong>Lab Context:</strong> {SCENARIO.context}
               </div>
             </div>
@@ -1542,7 +1542,7 @@ export default function C12_BiotechBioremediationCBSESim({
 
             {/* Prediction Questions Mapping */}
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6">
-              <h3 className="text-lg font-bold text-indigo-400">Pre-Lab Prediction Questions</h3>
+              <h3 className="text-lg font-bold text-gold-400">Pre-Lab Prediction Questions</h3>
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <p className="text-sm font-semibold text-slate-200 mb-3">{pq.question}</p>
@@ -1631,7 +1631,7 @@ export default function C12_BiotechBioremediationCBSESim({
                   <div>
                     <label className="text-xs text-slate-300 font-semibold flex justify-between">
                       <span>Aeration Flow Rate (L/min)</span>
-                      <span className="text-blue-400">{aerationRate} L/min</span>
+                      <span className="text-gold-400">{aerationRate} L/min</span>
                     </label>
                     <input
                       type="range"
@@ -1639,7 +1639,7 @@ export default function C12_BiotechBioremediationCBSESim({
                       max="50"
                       value={aerationRate}
                       onChange={(e) => setAerationRate(Number(e.target.value))}
-                      className="w-full mt-2 accent-blue-500"
+                      className="w-full mt-2 accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1810,7 +1810,7 @@ export default function C12_BiotechBioremediationCBSESim({
               <div className="flex items-center gap-2">
                 <span className={`px-2.5 py-1 rounded-full text-xs font-bold border ${
                   CHALLENGES[currentChallengeIdx].difficulty === 'foundation'
-                    ? 'bg-blue-500/20 text-blue-400 border-blue-500/30'
+                    ? 'bg-gold-500/20 text-gold-400 border-gold-500/30'
                     : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
                     ? 'bg-amber-500/20 text-amber-400 border-amber-500/30'
                     : 'bg-rose-500/20 text-rose-400 border-rose-500/30'
@@ -1872,12 +1872,12 @@ export default function C12_BiotechBioremediationCBSESim({
                       placeholder="Enter numeric result"
                       value={numericInputs[CHALLENGES[currentChallengeIdx].id] || ''}
                       onChange={(e) => setNumericInputs({ ...numericInputs, [CHALLENGES[currentChallengeIdx].id]: e.target.value })}
-                      className="px-4 py-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-blue-500 w-64"
+                      className="px-4 py-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-gold-500 w-64"
                     />
                     <span className="text-sm font-semibold text-slate-400">{CHALLENGES[currentChallengeIdx].unit}</span>
                     <button
                       onClick={handleNumericSubmit}
-                      className="px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 font-bold text-xs text-white shadow-lg transition-all"
+                      className="px-5 py-3 rounded-xl bg-gold-600 hover:bg-gold-500 font-bold text-xs text-white shadow-lg transition-all"
                     >
                       Submit Answer
                     </button>
@@ -1888,7 +1888,7 @@ export default function C12_BiotechBioremediationCBSESim({
               {/* Explanation Text */}
               {challengeAnswers[CHALLENGES[currentChallengeIdx].id] !== undefined && (
                 <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                  <strong className="text-blue-400 block mb-1">Detailed Explanation:</strong>
+                  <strong className="text-gold-400 block mb-1">Detailed Explanation:</strong>
                   {CHALLENGES[currentChallengeIdx].explanation}
                 </div>
               )}
@@ -1917,7 +1917,7 @@ export default function C12_BiotechBioremediationCBSESim({
 
               <button
                 onClick={nextChallenge}
-                className="px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-xs font-bold text-white shadow-md"
+                className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold text-white shadow-md"
               >
                 {currentChallengeIdx === CHALLENGES.length - 1 ? 'Finish & Summary' : 'Next Challenge'}
               </button>
@@ -1941,7 +1941,7 @@ export default function C12_BiotechBioremediationCBSESim({
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((stepText, sIdx) => (
                   <div key={sIdx} className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 flex items-start gap-3">
-                    <span className="w-5 h-5 rounded-full bg-blue-600/30 text-blue-400 font-bold flex items-center justify-center shrink-0 text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-gold-600/30 text-gold-400 font-bold flex items-center justify-center shrink-0 text-[10px]">
                       {sIdx + 1}
                     </span>
                     <span>{stepText}</span>

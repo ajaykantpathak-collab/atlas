@@ -15,7 +15,9 @@ export const C10_MATH_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "maths",
   "topic": "If p Is a Prime Number And p Divides A²",
-  "chapters": ["Mathematics Ch1: If p Is a Prime Number And p Divides A²"],
+  "chapters": [
+   "Mathematics Ch1: If p Is a Prime Number And p Divides A²"
+  ],
   "nodeIds": [
    "c10_math_cbse_01_005",
    "c10_math_cbse_01_008"
@@ -187,7 +189,7 @@ export const C10_MATH_GEN: SimDef[] = [
      "a = 180 = 2² × 3² × 5¹. So a² = 2⁴ × 3⁴ × 5². The primes dividing a² are 2, 3, 5. Each of these divides 180",
      "The reasoning runs: (1) The theorem speaks only of a prime dividing a single perfect square (2) Compute 1 squared plus 2 squared equals 5 (3) The prime 5 divides this sum (4) Yet"
     ],
-    "hint": "Straight from the 'If p' slide -- match the key terms.",
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
     "misconception": "A wrong answer that says yes shows the student has overgeneralised the theorem from a single square to a sum of squares, ignoring that the prime's factors must come from one factorisation.",
     "id": "gen_c10_math_ch01_q3",
     "nodeId": "c10_math_cbse_01_005",
@@ -202,7 +204,7 @@ export const C10_MATH_GEN: SimDef[] = [
      "a = 180 = 2² × 3² × 5¹. So a² = 2⁴ × 3⁴ × 5². The primes dividing a² are 2, 3, 5. Each of these divides 180",
      "The error is that 9 is not a prime number (9 = 3²). The theorem only applies when p is prime. Indeed, 9 divides 225 but 9 does not divide 15"
     ],
-    "hint": "Straight from the 'If p' slide -- match the key terms.",
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
     "misconception": "A wrong answer (not identifying the primality condition) shows the student memorizes the statement without the crucial hypothesis \"p is prime\".",
     "id": "gen_c10_math_ch01_q4",
     "nodeId": "c10_math_cbse_01_005",
@@ -217,7 +219,7 @@ export const C10_MATH_GEN: SimDef[] = [
      "a = 180 = 2² × 3² × 5¹. So a² = 2⁴ × 3⁴ × 5². The primes dividing a² are 2, 3, 5. Each of these divides 180",
      "It is impossible. By the theorem, if p is prime and p|a², then p|a always. Any attempt to find such a pair will fail"
     ],
-    "hint": "Straight from the 'If p' slide -- match the key terms.",
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
     "misconception": "A student who provides an example (e.g., a=6, p=4) has missed the condition that p must be prime.",
     "id": "gen_c10_math_ch01_q5",
     "nodeId": "c10_math_cbse_01_005",
@@ -232,7 +234,7 @@ export const C10_MATH_GEN: SimDef[] = [
      "It is impossible. By the theorem, if p is prime and p|a², then p|a always. Any attempt to find such a pair will fail",
      "a = 180 = 2² × 3² × 5¹. So a² = 2⁴ × 3⁴ × 5². The primes dividing a² are 2, 3, 5. Each of these divides 180"
     ],
-    "hint": "Straight from the 'If p' slide -- match the key terms.",
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
     "misconception": "A wrong answer (missing a prime, or including a non-prime) reveals the student cannot correctly perform prime factorization or does not connect the theorem to the factorization of a.",
     "id": "gen_c10_math_ch01_q6",
     "nodeId": "c10_math_cbse_01_005",
@@ -243,13 +245,43 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "State the theorem: \"If p is a prime number and p divides a², then p divides a.\" Is the converse true? That is, if p divides a, does p always divide a²?",
     "answer": "Yes, the converse is true. If p divides a, then a = p·k for some integer k. Then a² = p²·k² = p·(p·k²), so p divides a²",
     "options": [
-     "If a and b are rational numbers, then a − b is also rational",
      "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This",
+     "If a and b are rational numbers, then a − b is also rational",
      "Yes, the converse is true. If p divides a, then a = p·k for some integer k. Then a² = p²·k² = p·(p·k²), so p divides a²"
     ],
-    "hint": "Straight from the 'If p' slide -- match the key terms.",
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
     "misconception": "A wrong answer (saying converse is false) reveals the student confuses the direction of implication and does not understand that divisibility is preserved under multiplication.",
     "id": "gen_c10_math_ch01_q7",
+    "nodeId": "c10_math_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is If p? State the definition given in this lesson.",
+    "answer": "If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a",
+    "options": [
+     "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This",
+     "The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3",
+     "If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a"
+    ],
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a.",
+    "id": "gen_c10_math_ch01_q8",
+    "nodeId": "c10_math_cbse_01_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can state the theorem precisely, explain why it holds using the Fundamental Theorem of Arithmetic, and apply it to prove that numbers like √2, √3",
+    "options": [
+     "If a and b are rational numbers, then a − b is also rational",
+     "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This",
+     "The student can state the theorem precisely, explain why it holds using the Fundamental Theorem of Arithmetic, and apply it to prove that numbers like √2, √3"
+    ],
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can state the theorem precisely, explain why it holds using the Fundamental Theorem of Arithmetic, and",
+    "id": "gen_c10_math_ch01_q9",
     "nodeId": "c10_math_cbse_01_005",
     "difficulty": "standard"
    },
@@ -258,13 +290,13 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "Why does the theorem require p to be prime? Give a counterexample showing the statement fails if p is composite.",
     "answer": "The theorem fails for composites because a composite number's prime factors can be split between the two factors of a²",
     "options": [
-     "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This",
+     "If a and b are rational numbers, then a − b is also rational",
      "The error is that 9 is not a prime number (9 = 3²). The theorem only applies when p is prime. Indeed, 9 divides 225 but 9 does not divide 15",
      "The theorem fails for composites because a composite number's prime factors can be split between the two factors of a²"
     ],
-    "hint": "Straight from the 'If p' slide -- match the key terms.",
+    "hint": "Straight from the 'If p is a prime number and p' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it works for all numbers\") shows the student has not grasped the role of unique prime factorization and the definition of prime numbers.",
-    "id": "gen_c10_math_ch01_q8",
+    "id": "gen_c10_math_ch01_q10",
     "nodeId": "c10_math_cbse_01_005",
     "difficulty": "standard"
    },
@@ -273,13 +305,13 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "Give the correct order of steps in the contradiction proof that 5 minus √3 is irrational.",
     "answer": "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This",
     "options": [
-     "Yes, the converse is true. If p divides a, then a = p·k for some integer k. Then a² = p²·k² = p·(p·k²), so p divides a²",
      "If a and b are rational numbers, then a − b is also rational",
+     "The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3",
      "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This"
     ],
     "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
     "misconception": "A wrong answer that accepts the slogan that rational and irrational never mix as a proof shows the student has missed that the assertion needs the contradiction argument, not intuition.",
-    "id": "gen_c10_math_ch01_q9",
+    "id": "gen_c10_math_ch01_q11",
     "nodeId": "c10_math_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -294,7 +326,7 @@ export const C10_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"we assumed √3 is irrational so it stays irrational\") misses that the contradiction arises from the assumption, not from an independent fact.",
-    "id": "gen_c10_math_ch01_q10",
+    "id": "gen_c10_math_ch01_q12",
     "nodeId": "c10_math_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -309,7 +341,7 @@ export const C10_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"yes, because addition works the same way\") without the proof shows the student recognises the pattern but cannot formalise it.",
-    "id": "gen_c10_math_ch01_q11",
+    "id": "gen_c10_math_ch01_q13",
     "nodeId": "c10_math_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -324,7 +356,7 @@ export const C10_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"√3 − 5 = −(5 − √3) so it's rational if 5 − √3 is rational\") confuses negation with rationality — the negative of an irrational is still irrational.",
-    "id": "gen_c10_math_ch01_q12",
+    "id": "gen_c10_math_ch01_q14",
     "nodeId": "c10_math_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -335,12 +367,12 @@ export const C10_MATH_GEN: SimDef[] = [
     "options": [
      "It is impossible. By the theorem, if p is prime and p|a², then p|a always. Any attempt to find such a pair will fail",
      "Yes. Assume 5 + √3 = r (rational). Then √3 = r − 5. Since r and 5 are rational, r − 5 is rational, so √3 is rational — contradiction. Hence 5 + √3 is irrational",
-     "Hence 7 − 2√5 = r (rational). Then 2√5 = 7 − r. Since 7 and r are rational, 7 − r is rational, so 2√5 is rational",
+     "Yet 7 − 2√5 = r (rational). Then 2√5 = 7 − r. Since 7 and r are rational, 7 − r is rational, so 2√5 is rational",
      "Assume 7 − 2√5 = r (rational). Then 2√5 = 7 − r. Since 7 and r are rational, 7 − r is rational, so 2√5 is rational"
     ],
     "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
     "misconception": "A poor answer fails to handle the coefficient 2 correctly or forgets that √5 must be proven or assumed irrational.",
-    "id": "gen_c10_math_ch01_q13",
+    "id": "gen_c10_math_ch01_q15",
     "nodeId": "c10_math_cbse_01_008",
     "difficulty": "advanced"
    },
@@ -349,21 +381,36 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "State the closure property of rational numbers under subtraction that is used in this proof.",
     "answer": "If a and b are rational numbers, then a − b is also rational",
     "options": [
-     "Yes, the converse is true. If p divides a, then a = p·k for some integer k. Then a² = p²·k² = p·(p·k²), so p divides a²",
-     "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This",
+     "If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a",
+     "The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3",
      "Yes a and b are rational numbers, then a − b is also rational",
      "If a and b are rational numbers, then a − b is also rational"
     ],
     "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"rational minus irrational is rational\") reveals the student confuses closure (which applies only to operations within the rationals) with cross-set operations.",
-    "id": "gen_c10_math_ch01_q14",
+    "id": "gen_c10_math_ch01_q16",
+    "nodeId": "c10_math_cbse_01_008",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3",
+    "options": [
+     "If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a",
+     "The student can state the theorem precisely, explain why it holds using the Fundamental Theorem of Arithmetic, and apply it to prove that numbers like √2, √3",
+     "The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3"
+    ],
+    "hint": "Straight from the 'number 5 − √3' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3, and invoking the",
+    "id": "gen_c10_math_ch01_q17",
     "nodeId": "c10_math_cbse_01_008",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about if p?",
+    "What surprised you about if p is a prime number and p divides a²?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -480,8 +527,8 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "Compare the elimination method and substitution method for solving the equations from the telephone bill problem. Which is more efficient and why?",
     "answer": "Elimination is more efficient because the coefficients of x are identical (both 1). Subtracting the equations directly eliminates x in one step",
     "options": [
-     "The equations are: x + u1·y = C1 and x + u2·y = C2",
-     "The equations are x + 3y = 50 and x + 8y = 80; subtracting gives 5y = 30 so the per-km charge is 6 rupees, and substituting back: x = 50 - 18 = 32 rupees fixed",
+     "The fixed charge is a one-time constant fee (e.g., base fare, monthly rental) that does not change with usage, so it appears as x in both equations",
+     "Let fixed rental = ₹x, charge per call = ₹y. January: x + 100y = 350 February: x + 150y = 425 Subtract: 50y = 75 → y = 1",
      "Elimination is more efficient because the coefficients of x are identical (both 1). Subtracting the equations directly eliminates x in one step"
     ],
     "hint": "Straight from the 'fixed charge plus variable charge' slide -- match the key terms.",
@@ -495,13 +542,28 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "Explain why the fixed charge remains the same in both equations while the variable charge is multiplied by the number of units.",
     "answer": "The fixed charge is a one-time constant fee (e.g., base fare, monthly rental) that does not change with usage, so it appears as x in both equations",
     "options": [
-     "Let fixed rental = ₹x, charge per call = ₹y. January: x + 100y = 350 February: x + 150y = 425 Subtract: 50y = 75 → y = 1",
-     "The equations are: x + u1·y = C1 and x + u2·y = C2",
+     "The student's claim is incorrect. A valid solution must satisfy both given conditions simultaneously",
+     "The equations are x + 3y = 50 and x + 8y = 80; subtracting gives 5y = 30 so the per-km charge is 6 rupees, and substituting back: x = 50 - 18 = 32 rupees fixed",
      "The fixed charge is a one-time constant fee (e.g., base fare, monthly rental) that does not change with usage, so it appears as x in both equations"
     ],
     "hint": "Straight from the 'fixed charge plus variable charge' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student does not understand the real-world meaning of \"fixed\" versus \"variable\" and may treat both as coefficients of the units.",
     "id": "gen_c10_math_ch03_q6",
+    "nodeId": "c10_math_cbse_03_012",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can translate a word problem involving fixed and variable charges into a pair of linear equations, solve them using any algebraic method (substitution, elimination",
+    "options": [
+     "The equations are x + 3y = 50 and x + 8y = 80; subtracting gives 5y = 30 so the per-km charge is 6 rupees, and substituting back: x = 50 - 18 = 32 rupees fixed",
+     "The equations are: x + u1·y = C1 and x + u2·y = C2",
+     "The student can translate a word problem involving fixed and variable charges into a pair of linear equations, solve them using any algebraic method (substitution, elimination"
+    ],
+    "hint": "Straight from the 'fixed charge plus variable charge' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can translate a word problem involving fixed and variable charges into a pair of linear equations, solve",
+    "id": "gen_c10_math_ch03_q7",
     "nodeId": "c10_math_cbse_03_012",
     "difficulty": "advanced"
    },
@@ -517,7 +579,7 @@ export const C10_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'fixed charge plus variable charge' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., writing u1·x + y = C1) reveals the student confuses which quantity is multiplied by the units — they treat the fixed charge as variable and the variable charge as fixed.",
-    "id": "gen_c10_math_ch03_q7",
+    "id": "gen_c10_math_ch03_q8",
     "nodeId": "c10_math_cbse_03_012",
     "difficulty": "advanced"
    }
@@ -533,14 +595,14 @@ export const C10_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c10_math_ch05",
-  "title": "Word Problems On Arithmetic Progressions Involve",
+  "title": "Word Problems On Arithmetic Progressions",
   "subtitle": "Mathematics · Chapter 5",
   "classLevel": 10,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Word Problems On Arithmetic Progressions Involve",
+  "topic": "Word Problems On Arithmetic Progressions",
   "chapters": [
-   "Mathematics Ch5: Word Problems On Arithmetic Progressions Involve"
+   "Mathematics Ch5: Word Problems On Arithmetic Progressions"
   ],
   "nodeIds": [
    "c10_math_cbse_05_011"
@@ -639,8 +701,8 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "Compare the two problems: (A) \"Find the 10th term of AP: 5, 8, 11, ...\" (B) \"A tree grows 5 cm first year, 8 cm second year, 11 cm third year... Find growth in 10th year.\" Are they mathematically identical? Justify.",
     "answer": "Yes, mathematically identical. Both have a=5, d=3, n=10 → \\(a_{10} = 5 + 9(3) = 32\\). The only difference is context: Problem A is abstract, Problem B is real-life",
     "options": [
-     "Error: Used \\(20d\\) instead of \\((20-1)d = 19d\\) in the sum formula. Correct step: \\(400 = 10[10 + 19d] \\Rightarrow 40 = 10 + 19d \\Rightarrow 19d = 30 \\Rightarrow d = 30/19\\)",
-     "With a = 5 and d = 5, the sum formula gives 275 = n/2 x (10 + 5(n-1)); this simplifies to n squared + n - 110 = 0, whose positive root is n = 10 days",
+     "Heights of students do not necessarily increase by a constant difference; they vary randomly. An AP requires a constant difference between every pair of consecutive terms",
+     "The student can independently read a real-life scenario, verify the constant difference condition, extract a, d, n, select the correct formula (nth term or sum)",
      "Yes, mathematically identical. Both have a=5, d=3, n=10 → \\(a_{10} = 5 + 9(3) = 32\\). The only difference is context: Problem A is abstract, Problem B is real-life"
     ],
     "hint": "Straight from the 'Word problems on Arithmetic' slide -- match the key terms.",
@@ -669,8 +731,8 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "State the two standard formulas used to solve AP word problems and what each variable represents.",
     "answer": "The two formulas are: (1) nth term: \\(a_n = a + (n-1)d\\) where a = first term, d = common difference, n = term number",
     "options": [
+     "The student can independently read a real-life scenario, verify the constant difference condition, extract a, d, n, select the correct formula (nth term or sum)",
      "With a = 5 and d = 5, the sum formula gives 275 = n/2 x (10 + 5(n-1)); this simplifies to n squared + n - 110 = 0, whose positive root is n = 10 days",
-     "Error: Used \\(20d\\) instead of \\((20-1)d = 19d\\) in the sum formula. Correct step: \\(400 = 10[10 + 19d] \\Rightarrow 40 = 10 + 19d \\Rightarrow 19d = 30 \\Rightarrow d = 30/19\\)",
      "The two formulas are: (1) nth term: \\(a_n = a + (n-1)d\\) where a = first term, d = common difference, n = term number"
     ],
     "hint": "Straight from the 'Word problems on Arithmetic' slide -- match the key terms.",
@@ -678,11 +740,26 @@ export const C10_MATH_GEN: SimDef[] = [
     "id": "gen_c10_math_ch05_q7",
     "nodeId": "c10_math_cbse_05_011",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently read a real-life scenario, verify the constant difference condition, extract a, d, n, select the correct formula (nth term or sum)",
+    "options": [
+     "The two formulas are: (1) nth term: \\(a_n = a + (n-1)d\\) where a = first term, d = common difference, n = term number",
+     "With a = 5 and d = 5, the sum formula gives 275 = n/2 x (10 + 5(n-1)); this simplifies to n squared + n - 110 = 0, whose positive root is n = 10 days",
+     "The student can independently read a real-life scenario, verify the constant difference condition, extract a, d, n, select the correct formula (nth term or sum)"
+    ],
+    "hint": "Straight from the 'Word problems on Arithmetic' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently read a real-life scenario, verify the constant difference condition, extract a, d, n,",
+    "id": "gen_c10_math_ch05_q8",
+    "nodeId": "c10_math_cbse_05_011",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about word problems on arithmetic progressions involve?",
+    "What surprised you about word problems on arithmetic progressions?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -887,8 +964,8 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "Give the correct order of volume calculations for the temple kalash built from a cubical base, a cylindrical middle and a conical top.",
     "answer": "The computation runs: (1) The cube of side 20 cm gives 8000 cubic cm (2) The cylinder of radius 7 cm and height 30 cm gives 4620 cubic cm (3) The cone of radius 7 cm and height 24",
     "options": [
+     "The student can independently decompose any combined solid (up to three basic solids) into its components",
      "Step 1: Volume of cylinder = πr²h = (22/7) × (3.5)² × 12 = (22/7) × 12.25 × 12 = 22 × 1.75 × 12 = 462 cm³",
-     "Student A is correct. The solid is a cube + hemisphere, so total volume = cube volume + hemisphere volume = a³ + (2/3)πr³",
      "The computation runs: (1) The cube of side 20 cm gives 8000 cubic cm (2) The cylinder of radius 7 cm and height 30 cm gives 4620 cubic cm (3) The cone of radius 7 cm and height 24"
     ],
     "hint": "Straight from the 'volume of a combination of solids' slide -- match the key terms.",
@@ -911,6 +988,21 @@ export const C10_MATH_GEN: SimDef[] = [
     "id": "gen_c10_math_ch12_q7",
     "nodeId": "c10_math_cbse_12_003",
     "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently decompose any combined solid (up to three basic solids) into its components",
+    "options": [
+     "The computation runs: (1) The cube of side 20 cm gives 8000 cubic cm (2) The cylinder of radius 7 cm and height 30 cm gives 4620 cubic cm (3) The cone of radius 7 cm and height 24",
+     "The student's answer is incorrect. They used the cylinder volume formula πr²h for both the cone and the cylinder",
+     "The student can independently decompose any combined solid (up to three basic solids) into its components"
+    ],
+    "hint": "Straight from the 'volume of a combination of solids' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently decompose any combined solid (up to three basic solids) into its components, select and",
+    "id": "gen_c10_math_ch12_q8",
+    "nodeId": "c10_math_cbse_12_003",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -919,7 +1011,7 @@ export const C10_MATH_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Volume Of a Combination Of mastered! 🎯",
+  "successLine": "Volume Of a Combination mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -1062,8 +1154,8 @@ export const C10_MATH_GEN: SimDef[] = [
     "question": "State the complement rule for probability.",
     "answer": "P(not E) = 1 − P(E), where \"not E\" is the complement of event E",
     "options": [
+     "The student can define the complement of an event, state and derive the formula P(not E) = 1 − P(E), use it to find the probability of the complement when P(E) is known",
      "The partition argument runs: (1) Every outcome of the sample space lies in E or in not E (2) The two events are mutually exclusive with no overlap (3) Their probabilities",
-     "P(defective) = 4/10 = 2/5. P(non-defective) = 1 − 2/5 = 3/5. (Directly: 6 non-defective out of 10, P = 6/10 = 3/5",
      "P(not E) = 1 − P(E), where \"not E\" is the complement of event E"
     ],
     "hint": "Straight from the 'complement of an event E, denoted' slide -- match the key terms.",
@@ -1099,6 +1191,21 @@ export const C10_MATH_GEN: SimDef[] = [
     "hint": "Straight from the 'complement of an event E, denoted' slide -- match the key terms.",
     "misconception": "A wrong answer that treats E and not E as the same event shows the student has missed the partition of the sample space into an event and its complement.",
     "id": "gen_c10_math_ch14_q6",
+    "nodeId": "c10_math_cbse_14_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can define the complement of an event, state and derive the formula P(not E) = 1 − P(E), use it to find the probability of the complement when P(E) is known",
+    "options": [
+     "P(not E) = 1 − P(E), where \"not E\" is the complement of event E",
+     "P(at least one head) = 1 − P(no heads) = 1 − P(TTT) = 1 − 1/8 = 7/8. The complement of \"at least one head\" is \"no heads\" (all tails), which is easier to compute",
+     "The student can define the complement of an event, state and derive the formula P(not E) = 1 − P(E), use it to find the probability of the complement when P(E) is known"
+    ],
+    "hint": "Straight from the 'complement of an event E, denoted' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can define the complement of an event, state and derive the formula P(not E) = 1 − P(E), use it to find the",
+    "id": "gen_c10_math_ch14_q7",
     "nodeId": "c10_math_cbse_14_007",
     "difficulty": "advanced"
    }

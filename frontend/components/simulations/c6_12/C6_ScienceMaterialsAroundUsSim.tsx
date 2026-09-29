@@ -145,9 +145,9 @@ function C6_ScienceMaterialsAroundUsSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Which is the ONLY sample that dissolves in water? Run the stir test on all six to prove it.</li>
           <li>Find the two samples that both shine, then use the scratch test to tell metal from non-metal.</li>
         </ol>

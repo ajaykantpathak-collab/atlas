@@ -1730,14 +1730,14 @@ export function C12_CommerceDirectingMeaningImportanceSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 12, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
             aria-label="Simulation Topic Icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 ISC Class 12 • Commerce
               </span>
               <motion.span
@@ -1749,7 +1749,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
                     : difficulty === 'advanced'
                     ? 'bg-rose-500/20 text-rose-300 border-rose-500/30'
-                    : 'bg-blue-500/20 text-blue-300 border-blue-500/30'
+                    : 'bg-gold-500/20 text-gold-300 border-gold-500/30'
                 }`}
               >
                 <span>✓</span> {difficulty.toUpperCase()} TIER
@@ -1775,7 +1775,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
               }}
               className={`px-3.5 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === tab
-                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1793,8 +1793,8 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           className="mt-6 space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/40 shadow-xl">
-            <div className="flex items-center gap-2.5 text-indigo-400 mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/40 shadow-xl">
+            <div className="flex items-center gap-2.5 text-gold-400 mb-2">
               <span className="text-lg">🏢</span>
               <h2 className="text-base font-bold tracking-wide uppercase">
                 {SCENARIO.title}
@@ -1834,7 +1834,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       : 'bg-slate-900/80 border-slate-700/80 text-slate-200 hover:bg-slate-700/50 hover:border-slate-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">
+                  <span className="font-bold mr-2 text-gold-400">
                     {String.fromCharCode(65 + i)}.
                   </span>
                   {opt}
@@ -1849,7 +1849,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
-                className="mt-5 p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60 flex flex-wrap items-center justify-between gap-3"
+                className="mt-5 p-4 rounded-xl bg-gold-950/40 border border-gold-800/60 flex flex-wrap items-center justify-between gap-3"
               >
                 <p
                   className={`text-sm flex items-center gap-1.5 ${
@@ -1866,7 +1866,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1894,9 +1894,9 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
                     idx === currentSlide
-                      ? 'w-8 bg-indigo-500'
+                      ? 'w-8 bg-gold-500'
                       : idx < currentSlide
-                      ? 'w-3 bg-indigo-800'
+                      ? 'w-3 bg-gold-800'
                       : 'w-3 bg-slate-800'
                   }`}
                 />
@@ -1914,7 +1914,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
             >
               <div>
                 <h3 className="text-lg md:text-xl font-bold text-white flex items-center gap-2">
-                  <span className="text-indigo-400">🔬</span>
+                  <span className="text-gold-400">🔬</span>
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-sm text-amber-300 mt-1 font-medium">
@@ -1933,7 +1933,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       <div>
                         <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="slider-supervision">
                           <span>Supervision Intensity (Floor Oversight):</span>
-                          <span className="text-indigo-400">{supervisionIntensity}%</span>
+                          <span className="text-gold-400">{supervisionIntensity}%</span>
                         </label>
                         <input
                           id="slider-supervision"
@@ -1943,7 +1943,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                           max={100}
                           value={supervisionIntensity}
                           onChange={(e) => setSupervisionIntensity(Number(e.target.value))}
-                          className="w-full accent-indigo-500 mt-1"
+                          className="w-full accent-gold-500 mt-1"
                         />
                       </div>
                       <div>
@@ -1965,7 +1965,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       <div>
                         <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="slider-safety">
                           <span>Factories Act 1948 Safety Gear Compliance:</span>
-                          <span className="text-cyan-400">{safetyGearCompliance}%</span>
+                          <span className="text-gold-400">{safetyGearCompliance}%</span>
                         </label>
                         <input
                           id="slider-safety"
@@ -1975,7 +1975,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                           max={100}
                           value={safetyGearCompliance}
                           onChange={(e) => setSafetyGearCompliance(Number(e.target.value))}
-                          className="w-full accent-cyan-500 mt-1"
+                          className="w-full accent-gold-500 mt-1"
                         />
                       </div>
                     </div>
@@ -1986,12 +1986,12 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                         <p className="text-xs text-slate-400 uppercase font-bold flex items-center justify-center gap-1">
                           <span>✓</span> Assembly Productivity
                         </p>
-                        <p className="text-3xl font-black text-indigo-400 mt-2">
+                        <p className="text-3xl font-black text-gold-400 mt-2">
                           {directingProductivity}%
                         </p>
                         <div className="w-full h-2.5 bg-slate-800 rounded-full mt-3 overflow-hidden">
                           <motion.div
-                            className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                            className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                             animate={{ width: `${directingProductivity}%` }}
                           />
                         </div>
@@ -2045,7 +2045,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                           onClick={() => handleSelectNeedTier(item.tier)}
                           className={`p-3 rounded-xl text-left border transition-all ${
                             activeNeedTier === item.tier
-                              ? 'bg-indigo-600/30 border-indigo-400 text-white shadow-lg'
+                              ? 'bg-gold-600/30 border-gold-400 text-white shadow-lg'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -2081,7 +2081,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                             }}
                             className={`p-2.5 rounded-lg border text-left text-xs ${
                               selectedLeadershipStyle === style.id
-                                ? 'bg-indigo-600 border-indigo-400 text-white'
+                                ? 'bg-gold-600 border-gold-400 text-white'
                                 : 'bg-slate-950 border-slate-800 text-slate-400'
                             }`}
                           >
@@ -2104,7 +2104,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     <div>
                       <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="slider-target">
                         <span>Planned Target (Chassis/Shift):</span>
-                        <span className="text-indigo-400">{productionTarget}</span>
+                        <span className="text-gold-400">{productionTarget}</span>
                       </label>
                       <input
                         id="slider-target"
@@ -2115,7 +2115,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                         step={50}
                         value={productionTarget}
                         onChange={(e) => setProductionTarget(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -2138,7 +2138,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     <div>
                       <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="slider-tolerance">
                         <span>Management by Exception Tolerance:</span>
-                        <span className="text-cyan-400">±{toleranceThreshold}%</span>
+                        <span className="text-gold-400">±{toleranceThreshold}%</span>
                       </label>
                       <input
                         id="slider-tolerance"
@@ -2148,7 +2148,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                         max={15}
                         value={toleranceThreshold}
                         onChange={(e) => setToleranceThreshold(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -2312,7 +2312,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       <div>
                         <label className="text-xs font-bold text-slate-300 flex justify-between" htmlFor="slider-tax">
                           <span>Corporate Tax Rate (Sec 36(1)(iii)):</span>
-                          <span className="text-cyan-400">{corporateTaxRate}%</span>
+                          <span className="text-gold-400">{corporateTaxRate}%</span>
                         </label>
                         <input
                           id="slider-tax"
@@ -2322,7 +2322,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                           max={35}
                           value={corporateTaxRate}
                           onChange={(e) => setCorporateTaxRate(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -2387,7 +2387,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                         <p className="text-[11px] text-slate-400 font-bold uppercase flex items-center justify-center gap-1">
                           <span>✓</span> Estimated ROE
                         </p>
-                        <p className="text-2xl font-black text-indigo-400 mt-1">{estimatedROE}%</p>
+                        <p className="text-2xl font-black text-gold-400 mt-1">{estimatedROE}%</p>
                         <p className="text-[10px] text-slate-400 mt-1">
                           Trading on Equity (Financial Leverage)
                         </p>
@@ -2444,7 +2444,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2492,8 +2492,8 @@ export function C12_CommerceDirectingMeaningImportanceSim({
 
           {/* Predict-Then-Check In Sandbox */}
           {!predictionMade && (
-            <div className="p-4 bg-indigo-950/50 rounded-2xl border border-indigo-800">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 block mb-1">
+            <div className="p-4 bg-gold-950/50 rounded-2xl border border-gold-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 block mb-1">
                 Predict Before Manipulating:
               </span>
               <p className="text-sm font-semibold text-white mb-3">
@@ -2507,7 +2507,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handlePrediction(i)}
-                    className="p-2.5 bg-slate-900 text-left rounded-lg text-xs text-slate-200 border border-slate-800 hover:border-indigo-500"
+                    className="p-2.5 bg-slate-900 text-left rounded-lg text-xs text-slate-200 border border-slate-800 hover:border-gold-500"
                   >
                     {opt}
                   </motion.button>
@@ -2539,7 +2539,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           {/* Multi-Lever Control Deck */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-indigo-400 uppercase">Directing & Supervision</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase">Directing & Supervision</h4>
               <div>
                 <label className="text-[11px] text-slate-300 flex justify-between" htmlFor="sb-supervision">
                   <span>Supervision:</span> <span>{supervisionIntensity}%</span>
@@ -2552,7 +2552,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   max={100}
                   value={supervisionIntensity}
                   onChange={(e) => setSupervisionIntensity(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div>
@@ -2620,7 +2620,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           <div className="flex flex-wrap items-center justify-between gap-3 p-4 bg-slate-800/80 rounded-2xl border border-slate-700">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-slate-900 text-slate-300 border border-slate-700">
@@ -2652,7 +2652,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           {/* Progress Bar */}
           <div className="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-400"
               animate={{
                 width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
               }}
@@ -2662,7 +2662,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           {/* Challenge Box */}
           <div className="p-6 bg-slate-800/90 rounded-2xl border border-slate-700 shadow-xl space-y-4">
             {challenge.scenarioSnippet && (
-              <div className="p-3 bg-slate-950/60 rounded-xl border-l-4 border-indigo-500 text-xs md:text-sm text-slate-300">
+              <div className="p-3 bg-slate-950/60 rounded-xl border-l-4 border-gold-500 text-xs md:text-sm text-slate-300">
                 <strong>Real Indian Context:</strong> {challenge.scenarioSnippet}
               </div>
             )}
@@ -2696,7 +2696,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       }`}
                     >
                       <div>
-                        <span className="font-bold mr-2 text-indigo-400">
+                        <span className="font-bold mr-2 text-gold-400">
                           {String.fromCharCode(65 + i)}.
                         </span>
                         {opt}
@@ -2731,7 +2731,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 rounded-lg bg-gold-600 text-white text-xs font-bold cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2770,7 +2770,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-lg"
                 >
                   Verify Mappings →
                 </motion.button>
@@ -2804,7 +2804,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-900 rounded-xl border border-slate-700 text-xs md:text-sm text-slate-200 flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-gold-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2820,7 +2820,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-lg"
+                  className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-lg"
                 >
                   Check Sequence →
                 </motion.button>
@@ -2838,7 +2838,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical answer"
                     disabled={showExplanation}
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-64"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2849,7 +2849,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2874,7 +2874,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                         setConstructParts((prev) => [...prev, part]);
                         audioManager.play('tap');
                       }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2888,7 +2888,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-indigo-900 border border-indigo-500 text-white text-xs font-bold rounded-lg flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900 border border-gold-500 text-white text-xs font-bold rounded-lg flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2917,7 +2917,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-lg"
                 >
                   Verify Constructed Loop
                 </motion.button>
@@ -3000,7 +3000,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           className="mt-6 space-y-6"
         >
           {/* Hero Score Card */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-indigo-500/40 text-center space-y-3 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-emerald-950/80 rounded-3xl border border-gold-500/40 text-center space-y-3 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">
               Simulation Completed Successfully!
@@ -3014,7 +3014,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
               </div>
               <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 min-w-[130px]">
                 <span className="text-xs text-slate-400 uppercase font-bold block">BKT Mastery</span>
-                <span className="text-3xl font-black text-indigo-400 capitalize">
+                <span className="text-3xl font-black text-gold-400 capitalize">
                   {masteryLevel}
                 </span>
               </div>
@@ -3022,8 +3022,8 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-800/95 rounded-3xl border border-indigo-500/40 shadow-xl space-y-5">
-            <div className="flex items-center gap-2 text-indigo-400 border-b border-slate-700 pb-3">
+          <div className="p-6 bg-slate-800/95 rounded-3xl border border-gold-500/40 shadow-xl space-y-5">
+            <div className="flex items-center gap-2 text-gold-400 border-b border-slate-700 pb-3">
               <span className="text-xl">💭</span>
               <h3 className="text-base md:text-lg font-bold text-white uppercase tracking-wide">
                 Executive Reflection & Synthesis
@@ -3042,7 +3042,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g., How interest tax shields reduce debt cost, or how negative working capital can be a strategic power for Maruti/Railways..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -3057,12 +3057,12 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   value={reflectionAnswers.explanation}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explanation: e.target.value })}
                   placeholder="e.g., Directing is the motor that drives people, while financial management ensures the fuel (capital) is deployed smartly..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div>
-                <label className="text-xs font-bold text-cyan-300 block mb-1.5" htmlFor="refl-3">
+                <label className="text-xs font-bold text-gold-300 block mb-1.5" htmlFor="refl-3">
                   3. Where in real life might you use this?
                 </label>
                 <textarea
@@ -3072,7 +3072,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g., Managing student clubs, evaluating Indian corporate balance sheets before investing, or structuring startup funding..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -3086,7 +3086,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
                     audioManager.play('success');
                     speechManager.speak('Reflections recorded. Excellent synthesis!');
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow"
                 >
                   {reflectionSubmitted ? '✓ Reflections Saved' : 'Save Executive Reflection'}
                 </motion.button>
@@ -3140,7 +3140,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
           )}
 
           {/* ─── ENHANCED SPACED REPETITION VISIBILITY CARD (SRS VISIBILITY) ─── */}
-          <div className="p-6 bg-gradient-to-br from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-3xl border-2 border-amber-500/60 shadow-2xl space-y-4">
+          <div className="p-6 bg-gradient-to-br from-amber-950/50 via-slate-900 to-gold-950/50 rounded-3xl border-2 border-amber-500/60 shadow-2xl space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-700/80 pb-3">
               <div className="flex items-center gap-3">
                 <span className="text-3xl">🗓️</span>
@@ -3249,7 +3249,7 @@ export function C12_CommerceDirectingMeaningImportanceSim({
             <ul className="space-y-1.5 pt-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

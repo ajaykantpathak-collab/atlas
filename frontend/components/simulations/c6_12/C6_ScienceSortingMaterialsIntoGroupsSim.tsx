@@ -82,8 +82,8 @@ function C6_ScienceSortingMaterialsIntoGroupsSim() {
     : 'Only the marble and the plastic bottle let light pass cleanly.';
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-sky-200 shadow-xl font-sans text-slate-800">
-      <h2 className="text-xl md:text-2xl font-black text-sky-700">Sorting materials into groups</h2>
+    <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-white rounded-3xl border-2 border-gold-200 shadow-xl font-sans text-slate-800">
+      <h2 className="text-xl md:text-2xl font-black text-gold-700">Sorting materials into groups</h2>
       <p className="text-sm text-slate-600 mt-1 leading-relaxed">
         Scientists sort things by ONE property at a time. Choose a property and watch all 8 objects rush to
         their bins. Change the property -- the SAME objects make completely NEW groups!
@@ -91,14 +91,14 @@ function C6_ScienceSortingMaterialsIntoGroupsSim() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-1.5 mt-3">
         {(Object.keys(PROPS) as Prop[]).map((p) => (
-          <button key={p} onClick={() => chooseProp(p)} className={'px-2 min-h-11 rounded-xl text-xs font-black transition-colors ' + (prop === p && sorted ? 'bg-sky-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200')}>
+          <button key={p} onClick={() => chooseProp(p)} className={'px-2 min-h-11 rounded-xl text-xs font-black transition-colors ' + (prop === p && sorted ? 'bg-gold-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200')}>
             {PROPS[p].label}
           </button>
         ))}
       </div>
 
       <div className="grid md:grid-cols-[1fr_240px] gap-4 mt-4">
-        <div className="rounded-2xl border-2 border-sky-100 bg-sky-50/40 overflow-hidden">
+        <div className="rounded-2xl border-2 border-gold-100 bg-gold-50/40 overflow-hidden">
           <svg viewBox="0 0 640 300" className="w-full">
             <rect width="640" height="300" fill="#f0f9ff" />
             <text x="320" y="24" textAnchor="middle" fontSize="14" fontWeight="900" fill="#0369a1">{PROPS[prop].question}</text>
@@ -123,7 +123,7 @@ function C6_ScienceSortingMaterialsIntoGroupsSim() {
         </div>
 
         <div className="space-y-3">
-          <div className="p-3 rounded-2xl bg-sky-600 text-white">
+          <div className="p-3 rounded-2xl bg-gold-600 text-white">
             <div className="text-xs uppercase tracking-widest opacity-80">Inspector card</div>
             <div className="text-xl font-black">{o.name}</div>
             <ul className="text-xs mt-1 space-y-0.5">
@@ -148,9 +148,9 @@ function C6_ScienceSortingMaterialsIntoGroupsSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Sort by "See-through", then inspect the plastic bottle: it is see-through like glass -- is it a metal? Which TWO properties agree?</li>
           <li>Find ONE property that puts the iron nail and the wooden block in the SAME group -- or prove none exists.</li>
         </ol>

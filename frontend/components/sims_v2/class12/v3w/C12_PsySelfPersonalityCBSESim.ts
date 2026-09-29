@@ -11,7 +11,7 @@ export const w_c12_psyselfpersonalitycbsesim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Concept of Self: Personal and Social Identity, Self as Subject and Object',
     chapters: [],
     nodeIds: ['c12_psy_cbse_02_001', 'c12_psy_cbse_02_002', 'c12_psy_cbse_02_003', 'c12_psy_cbse_02_006', 'c12_psy_cbse_02_011', 'c12_psy_cbse_02_012', 'c12_psy_cbse_03_009', 'c12_psy_cbse_03_011', 'c12_psy_cbse_03_012', 'c12_psy_cbse_05_001', 'c12_psy_cbse_01_002', 'c12_psy_cbse_07_002', 'c12_psy_cbse_02_004', 'c12_psy_cbse_02_005', 'c12_psy_cbse_02_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are filling out a college application form that asks: "Describe yourself in 50 words." You write:.', goal: 'Master Concept of Self: Personal and Social Identity, Self as Subject and Object.' },
     discovery: {
         question: 'Explain in your own words what it means to say "the self is both a subject and an object." Give a real-life example that shows both roles operating.',
@@ -20,7 +20,7 @@ export const w_c12_psyselfpersonalitycbsesim: SimDef = {
         hook: 'Students conflate "social identity" with "social roles" and treat them as identical.',
     },
     teaching: [
-        { title: 'The self is the totality of an individual\'s.', text: 'The self is the totality of an individual\'s conscious experiences, ideas, thoughts, and feelings regarding themselves, defining their existence at both personal (unique attributes like name,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The self is the totality of an individual\'s.', text: 'The self is the totality of an individual\'s conscious experiences, ideas, thoughts, and feelings regarding themselves, defining their existence at both personal (unique attributes like name,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_psy_cbse_02_001', title: 'The self is the totality of an.',

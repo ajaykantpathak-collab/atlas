@@ -11,11 +11,11 @@ export const w_c11_geographyheatbalancesim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Relation of Geography with Natural Sciences (Physics, Geology)',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Stand on the Marina Beach in Chennai at noon in May and feel the intense heat on your skin — that is solar.', goal: 'Master Relation of Geography with Natural Sciences (Physics, Geology).' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Geography\'s relation with natural sciences.', text: 'Geography\'s relation with natural sciences refers to the interdisciplinary integration where physical geography employs principles of Physics (solar radiation, thermodynamics, atmospheric dynamics,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Geography\'s relation with natural sciences.', text: 'Geography\'s relation with natural sciences refers to the interdisciplinary integration where physical geography employs principles of Physics (solar radiation, thermodynamics, atmospheric dynamics,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'case', nodeId: 'c11_geo_cbse_01_007', title: 'Geography\'s relation with natural.',

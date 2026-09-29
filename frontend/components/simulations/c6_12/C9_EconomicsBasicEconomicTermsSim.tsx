@@ -1179,13 +1179,13 @@ function C9_EconomicsBasicEconomicTermsSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 12, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-emerald-500 flex items-center justify-center text-2xl shadow-lg shadow-indigo-500/20"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-emerald-500 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-800/50">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2.5 py-0.5 rounded-full border border-gold-800/50">
                 Class 9 ICSE • Commerce
               </span>
               <span className="text-xs text-slate-400">c9_econ_011 — 020</span>
@@ -1208,7 +1208,7 @@ function C9_EconomicsBasicEconomicTermsSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1231,15 +1231,15 @@ function C9_EconomicsBasicEconomicTermsSim({
             {/* Narrative Scenario Box */}
             <motion.div
               whileHover={{ scale: 1.005 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-xl relative overflow-hidden"
+              className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-xl relative overflow-hidden"
             >
-              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
               <div className="flex items-start gap-4">
-                <span className="text-3xl p-3 bg-indigo-900/60 rounded-xl border border-indigo-500/30">🏛️</span>
+                <span className="text-3xl p-3 bg-gold-900/60 rounded-xl border border-gold-500/30">🏛️</span>
                 <div>
-                  <h2 className="text-xl font-black text-indigo-300">{SCENARIO.title}</h2>
+                  <h2 className="text-xl font-black text-gold-300">{SCENARIO.title}</h2>
                   <p className="text-sm text-slate-300 mt-1 leading-relaxed">{SCENARIO.intro}</p>
-                  <p className="text-xs text-indigo-400/90 font-semibold mt-3 bg-indigo-950/90 p-2.5 rounded-lg border border-indigo-800/40">
+                  <p className="text-xs text-gold-400/90 font-semibold mt-3 bg-gold-950/90 p-2.5 rounded-lg border border-gold-800/40">
                     💡 Mission: {SCENARIO.context}
                   </p>
                 </div>
@@ -1297,7 +1297,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToPrediction}
-                    className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-purple-600/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-purple-600/30 flex items-center gap-2"
                   >
                     Next: Make Economic Predictions 🔮 →
                   </motion.button>
@@ -1316,7 +1316,7 @@ function C9_EconomicsBasicEconomicTermsSim({
             exit={{ opacity: 0, y: -20 }}
             className="space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-purple-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-purple-700/40 shadow-xl">
+            <div className="p-6 bg-gradient-to-br from-purple-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-purple-700/40 shadow-xl">
               <div className="flex items-center justify-between gap-3 mb-4">
                 <span className="text-xs font-bold text-purple-300 uppercase tracking-widest bg-purple-950/80 px-3 py-1 rounded-full border border-purple-800">
                   Brilliant Predict-Then-Check • Question {currentPredictionIdx + 1} of {PREDICTION_QUESTIONS.length}
@@ -1369,7 +1369,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                   </div>
 
                   <p className="text-xs text-slate-300 leading-relaxed">
-                    <strong className="text-indigo-400">Economic Rationale: </strong>
+                    <strong className="text-gold-400">Economic Rationale: </strong>
                     {PREDICTION_QUESTIONS[currentPredictionIdx].explanation}
                   </p>
 
@@ -1378,7 +1378,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={handleNextPrediction}
-                      className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-xs rounded-xl shadow-lg shadow-purple-600/30 flex items-center gap-2"
+                      className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 text-white font-bold text-xs rounded-xl shadow-lg shadow-purple-600/30 flex items-center gap-2"
                     >
                       {currentPredictionIdx < PREDICTION_QUESTIONS.length - 1 ? 'Next Prediction Question →' : 'Enter Interactive Lab to Verify →'}
                     </motion.button>
@@ -1401,7 +1401,7 @@ function C9_EconomicsBasicEconomicTermsSim({
             {/* Exploration Slide Navigation */}
             <div className="flex items-center justify-between bg-slate-900/90 p-3 rounded-2xl border border-slate-800">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold px-3 py-1 rounded-lg bg-indigo-950 text-indigo-300 border border-indigo-800/60">
+                <span className="text-xs font-bold px-3 py-1 rounded-lg bg-gold-950 text-gold-300 border border-gold-800/60">
                   Lab Step {currentSlide + 1} / {EXPLORATION_STEPS.length}
                 </span>
                 <span className="text-sm font-black text-white hidden sm:inline">
@@ -1429,7 +1429,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       handleAdvanceToSandbox();
                     }
                   }}
-                  className="px-4 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white shadow-md"
+                  className="px-4 py-1.5 rounded-lg bg-gold-600 hover:bg-gold-500 text-xs font-bold text-white shadow-md"
                 >
                   {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Go to Free Sandbox →' : 'Next Step →'}
                 </motion.button>
@@ -1449,7 +1449,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Weekly Work Duration:</span>
-                        <span className="text-indigo-400 font-black">{workHours} hrs / week</span>
+                        <span className="text-gold-400 font-black">{workHours} hrs / week</span>
                       </div>
                       <input
                         type="range"
@@ -1461,7 +1461,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                           setWorkHours(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set weekly work hours"
                       />
                       <span className="text-[11px] text-slate-400">Overworked corporate banker (80+ hrs) vs balanced teacher (35 hrs)</span>
@@ -1495,7 +1495,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       </div>
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Material Welfare Index:</span>
-                        <span className="font-bold text-indigo-300">{calculatedWelfare.materialWellbeing.toFixed(0)} / 100</span>
+                        <span className="font-bold text-gold-300">{calculatedWelfare.materialWellbeing.toFixed(0)} / 100</span>
                       </div>
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Non-Material Welfare Index:</span>
@@ -1511,12 +1511,12 @@ function C9_EconomicsBasicEconomicTermsSim({
                       <div className="space-y-3 mt-4">
                         <div>
                           <div className="flex justify-between text-xs mb-1">
-                            <span className="text-indigo-300 font-semibold">Material (Purchasable Goods)</span>
-                            <span className="text-xs text-indigo-400 font-bold">{calculatedWelfare.materialWellbeing.toFixed(0)}%</span>
+                            <span className="text-gold-300 font-semibold">Material (Purchasable Goods)</span>
+                            <span className="text-xs text-gold-400 font-bold">{calculatedWelfare.materialWellbeing.toFixed(0)}%</span>
                           </div>
                           <div className="h-3 bg-slate-800 rounded-full overflow-hidden">
                             <motion.div
-                              className="h-full bg-gradient-to-r from-indigo-500 to-indigo-400"
+                              className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
                               animate={{ width: `${calculatedWelfare.materialWellbeing}%` }}
                             />
                           </div>
@@ -1542,7 +1542,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                           </div>
                           <div className="h-4 bg-slate-800 rounded-full overflow-hidden p-0.5">
                             <motion.div
-                              className="h-full rounded-full bg-gradient-to-r from-amber-500 via-emerald-500 to-indigo-500"
+                              className="h-full rounded-full bg-gradient-to-r from-amber-500 via-emerald-500 to-gold-500"
                               animate={{ width: `${calculatedWelfare.totalWelfare}%` }}
                             />
                           </div>
@@ -1597,7 +1597,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                           activeEntity === ent.id
-                            ? 'bg-indigo-600 text-white border-indigo-400 shadow-lg'
+                            ? 'bg-gold-600 text-white border-gold-400 shadow-lg'
                             : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                         }`}
                       >
@@ -1675,7 +1675,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                   {/* Entity Focus Details Card */}
                   <div className="p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-xs">
                     {activeEntity === 'households' && (
-                      <p className="text-indigo-200">
+                      <p className="text-gold-200">
                         <strong className="text-white">Households (27+ crore in India):</strong> Primary suppliers of factor inputs (Land, Labour, Capital). They earn factor incomes (wages, rent, dividends), consume goods (ITC, HUL), save in bank FDs (~30.2% saving rate), and pay Income Tax & GST.
                       </p>
                     )}
@@ -1690,7 +1690,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       </p>
                     )}
                     {activeEntity === 'foreign' && (
-                      <p className="text-sky-200">
+                      <p className="text-gold-200">
                         <strong className="text-white">Foreign Sector (Rest of World):</strong> Interacts via Exports ($778B goods & services in 2023-24), Imports ($170B crude oil from Iraq/Saudi), inward NRI Remittances ($125B World Bank #1), and FDI inflows ($71B).
                       </p>
                     )}
@@ -1705,7 +1705,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     <div className="flex justify-between items-center text-xs font-bold text-slate-300 mb-2">
                       <span>Economic Structure Model:</span>
                       <span className={`px-3 py-1 rounded-full text-xs font-black ${
-                        mixedEcoSlider < 30 ? 'bg-blue-950 text-blue-400 border border-blue-800' :
+                        mixedEcoSlider < 30 ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                         mixedEcoSlider > 70 ? 'bg-rose-950 text-rose-400 border border-rose-800' :
                         'bg-emerald-950 text-emerald-400 border border-emerald-800'
                       }`}>
@@ -1723,7 +1723,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                         setMixedEcoSlider(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Set economic systems balance"
                     />
 
@@ -1736,8 +1736,8 @@ function C9_EconomicsBasicEconomicTermsSim({
 
                   {/* Systems Comparison Table */}
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-                    <div className={`p-4 rounded-xl border transition-all ${mixedEcoSlider < 35 ? 'bg-indigo-950/60 border-indigo-500' : 'bg-slate-900/40 border-slate-800 opacity-60'}`}>
-                      <h4 className="font-bold text-indigo-300 text-sm mb-1.5">Capitalism (USA)</h4>
+                    <div className={`p-4 rounded-xl border transition-all ${mixedEcoSlider < 35 ? 'bg-gold-950/60 border-gold-500' : 'bg-slate-900/40 border-slate-800 opacity-60'}`}>
+                      <h4 className="font-bold text-gold-300 text-sm mb-1.5">Capitalism (USA)</h4>
                       <ul className="space-y-1 text-slate-300">
                         <li>• Means of production: <strong>Private Ownership</strong></li>
                         <li>• Driver: <strong>Profit Motive & Consumer Sovereignty</strong></li>
@@ -1776,7 +1776,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>Real GDP Annual Growth Rate:</span>
-                        <span className="text-indigo-400 font-black">{growthGdpRate}%</span>
+                        <span className="text-gold-400 font-black">{growthGdpRate}%</span>
                       </div>
                       <input
                         type="range"
@@ -1788,7 +1788,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                           setGrowthGdpRate(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Set real GDP growth rate"
                       />
                       <span className="text-[11px] text-slate-400">Quantitative increase in goods & services output</span>
@@ -1826,7 +1826,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       </div>
                       <div className="flex justify-between">
                         <span className="text-slate-400">Mean Schooling:</span>
-                        <span className="font-bold text-indigo-300">{calculatedHdiMetrics.meanSchoolingYears} years</span>
+                        <span className="font-bold text-gold-300">{calculatedHdiMetrics.meanSchoolingYears} years</span>
                       </div>
                     </div>
                   </div>
@@ -1850,8 +1850,8 @@ function C9_EconomicsBasicEconomicTermsSim({
                       </div>
                     </div>
 
-                    <div className="p-2.5 bg-indigo-950/40 rounded-lg border border-indigo-800/40 mt-2 text-center">
-                      <span className="text-xs text-indigo-300 font-bold">Simulated HDI Score: {calculatedHdiMetrics.simulatedHdi} (Rank ~{calculatedHdiMetrics.hdiRank}/193)</span>
+                    <div className="p-2.5 bg-gold-950/40 rounded-lg border border-gold-800/40 mt-2 text-center">
+                      <span className="text-xs text-gold-300 font-bold">Simulated HDI Score: {calculatedHdiMetrics.simulatedHdi} (Rank ~{calculatedHdiMetrics.hdiRank}/193)</span>
                     </div>
                   </div>
                 </div>
@@ -1892,7 +1892,7 @@ function C9_EconomicsBasicEconomicTermsSim({
 
                   <div className="p-4 bg-slate-950/70 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between gap-3">
                     <div className="space-y-1">
-                      <span className="text-xs font-bold text-indigo-400">Skill India Mission Simulator:</span>
+                      <span className="text-xs font-bold text-gold-400">Skill India Mission Simulator:</span>
                       <p className="text-xs text-slate-300">Upgrade vocational training percentage from 5% to 40%</p>
                     </div>
                     <div className="flex items-center gap-3">
@@ -1906,10 +1906,10 @@ function C9_EconomicsBasicEconomicTermsSim({
                           setSkilledVocationalShare(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-32 accent-indigo-500 cursor-pointer"
+                        className="w-32 accent-gold-500 cursor-pointer"
                         aria-label="Set vocational skill percentage"
                       />
-                      <span className="text-xs font-bold text-indigo-300 bg-slate-900 px-3 py-1 rounded-lg border border-slate-700">
+                      <span className="text-xs font-bold text-gold-300 bg-slate-900 px-3 py-1 rounded-lg border border-slate-700">
                         {skilledVocationalShare}% Skilled
                       </span>
                     </div>
@@ -1929,7 +1929,7 @@ function C9_EconomicsBasicEconomicTermsSim({
             exit={{ opacity: 0 }}
             className="space-y-6"
           >
-            <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-2xl border border-indigo-700/50 flex flex-wrap items-center justify-between gap-4">
+            <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 rounded-2xl border border-gold-700/50 flex flex-wrap items-center justify-between gap-4">
               <div>
                 <span className="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800">
                   Free Sandbox • Macroeconomic Equilibrium Tester
@@ -1942,7 +1942,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-600/30"
+                className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-sm rounded-xl shadow-lg shadow-emerald-600/30"
               >
                 Ready for Challenges! →
               </motion.button>
@@ -2092,7 +2092,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                 <span className="text-xs font-bold text-slate-400">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-xs font-bold text-indigo-400 bg-indigo-950 px-2.5 py-0.5 rounded-full border border-indigo-800/60 uppercase">
+                <span className="text-xs font-bold text-gold-400 bg-gold-950 px-2.5 py-0.5 rounded-full border border-gold-800/60 uppercase">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2104,7 +2104,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                   animate={{ scale: 1 }}
                   className={`text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider ${
                     difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
-                    difficulty === 'standard' ? 'bg-blue-950 text-blue-400 border border-blue-800' :
+                    difficulty === 'standard' ? 'bg-gold-950 text-gold-400 border border-gold-800' :
                     'bg-purple-950 text-purple-400 border border-purple-800'
                   }`}
                 >
@@ -2117,7 +2117,7 @@ function C9_EconomicsBasicEconomicTermsSim({
             {/* Animated Progress Bar */}
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2177,7 +2177,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                        className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                       >
                         ⠿ {item.label}
                       </motion.div>
@@ -2226,7 +2226,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length < 4}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Entity Placement
                   </motion.button>
@@ -2254,7 +2254,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-between text-xs text-slate-200 cursor-grab"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-bold text-indigo-400">
+                        <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-bold text-gold-400">
                           {displayIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2283,7 +2283,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     whileTap={{ scale: 0.98 }}
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Order
                   </motion.button>
@@ -2299,7 +2299,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter calculation result"
-                      className="px-4 py-2.5 bg-slate-950 rounded-xl border border-slate-700 text-white text-sm focus:outline-none focus:border-indigo-500 w-48"
+                      className="px-4 py-2.5 bg-slate-950 rounded-xl border border-slate-700 text-white text-sm focus:outline-none focus:border-gold-500 w-48"
                       aria-label="Enter numeric answer"
                     />
                     <span className="text-sm font-bold text-slate-300">{challenge.unit}</span>
@@ -2308,7 +2308,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput === ''}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
                     >
                       Verify Calculation
                     </motion.button>
@@ -2345,7 +2345,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                         key={idx}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-900/80 text-indigo-200 border border-indigo-700 rounded-lg text-xs font-semibold flex items-center gap-2"
+                        className="px-3 py-1 bg-gold-900/80 text-gold-200 border border-gold-700 rounded-lg text-xs font-semibold flex items-center gap-2"
                       >
                         {part}
                         <button
@@ -2366,7 +2366,7 @@ function C9_EconomicsBasicEconomicTermsSim({
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Validate Assembly
                   </motion.button>
@@ -2431,7 +2431,7 @@ function C9_EconomicsBasicEconomicTermsSim({
             className="space-y-6"
           >
             {/* Completion Hero Banner */}
-            <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-2xl border border-emerald-600/50 text-center space-y-3">
+            <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-2xl border border-emerald-600/50 text-center space-y-3">
               <span className="text-4xl">🏆</span>
               <h2 className="text-2xl font-black text-white">Mastery Simulation Complete!</h2>
               <p className="text-sm text-emerald-300 font-semibold">
@@ -2499,13 +2499,13 @@ function C9_EconomicsBasicEconomicTermsSim({
             </div>
 
             {/* Real-World Activity Completion Arc */}
-            <div className="p-5 bg-indigo-950/50 rounded-xl border border-indigo-800/60 space-y-2">
-              <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <div className="p-5 bg-gold-950/50 rounded-xl border border-gold-800/60 space-y-2">
+              <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                   <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                    <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                    <span className="text-gold-400 font-bold">{i + 1}.</span>
                     <span>{st}</span>
                   </li>
                 ))}

@@ -11,7 +11,7 @@ export const w_c6_mathematicsconstructionsdrawinglinesim: SimDef = {
     classLevel: 6, subject: 'mathematics', topic: 'Introduction to Geometric Construction',
     chapters: [],
     nodeIds: ['c6_math_ch11_113', 'c6_math_ch11_114', 'c6_math_ch11_115', 'c6_math_ch10_108', 'c6_math_ch07_080', 'c6_math_ch07_081', 'c6_math_ch11_118', 'c6_math_ch11_117', 'c6_math_ch07_070', 'c6_math_ch07_071', 'c6_math_ch07_072', 'c6_math_ch11_116', 'c6_math_ch10_105', 'c6_math_ch10_109'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 6 learner', intro: 'Imagine you are asked to draw a perfect square on a piece of paper; if you just use a pencil, it might look.', goal: 'Master Introduction to Geometric Construction.' },
     discovery: {
         question: 'What is a "line of symmetry" in a paper-cutting activity? [Recall]',
@@ -20,7 +20,7 @@ export const w_c6_mathematicsconstructionsdrawinglinesim: SimDef = {
         hook: 'Students often confuse line symmetry with rotational symmetry.',
     },
     teaching: [
-        { title: 'Geometric construction is the systematic and.', text: 'Geometric construction is the systematic and precise process of drawing figures like lines, angles, and shapes using specific tools such as a ruler, compass, and protractor.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Geometric construction is the systematic and.', text: 'Geometric construction is the systematic and precise process of drawing figures like lines, angles, and shapes using specific tools such as a ruler, compass, and protractor.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c6_math_ch11_113', title: 'Geometric construction is the.',

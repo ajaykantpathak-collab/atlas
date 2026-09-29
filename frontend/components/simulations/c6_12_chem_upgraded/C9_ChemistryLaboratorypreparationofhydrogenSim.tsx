@@ -901,8 +901,8 @@ export const ApparatusSetupDiagram: React.FC<{
   return (
     <div className="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-2xl relative overflow-hidden">
       <div className="flex justify-between items-center mb-2 px-2 border-b border-slate-800 pb-2">
-        <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+        <span className="text-xs font-bold text-gold-400 uppercase tracking-widest flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-gold-400 animate-pulse" />
           Woulfe Bottle Assembly Schematic
         </span>
         <span className="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700 font-mono">
@@ -1265,8 +1265,8 @@ export const PurificationTrainSVG: React.FC<{ activeStage: number }> = ({ active
 export const PopTestDiagramSVG: React.FC<{ gasPure: boolean; testTriggered: boolean }> = ({ gasPure, testTriggered }) => {
   return (
     <div className="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-xl">
-      <div className="text-xs font-bold text-sky-400 uppercase tracking-wider mb-2 flex items-center gap-2">
-        <span className="w-2 h-2 rounded-full bg-sky-400" />
+      <div className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2 flex items-center gap-2">
+        <span className="w-2 h-2 rounded-full bg-gold-400" />
         Combustion Pop Test & Supporter of Combustion Proof
       </div>
       <svg viewBox="0 0 600 220" className="w-full h-auto max-h-[200px]">
@@ -1536,7 +1536,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
       {/* Top Header / Navigation Bar */}
       <header className="w-full bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4 sticky top-0 z-50">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-sky-500/20 border border-sky-400/40 flex items-center justify-center text-sky-400 font-bold text-xl">
+          <div className="w-10 h-10 rounded-lg bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-400 font-bold text-xl">
             🧪
           </div>
           <div>
@@ -1554,7 +1554,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
             <div className="flex items-center gap-2">
               <div className="w-32 h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                 <div
-                  className="h-full bg-gradient-to-r from-sky-500 to-emerald-400 transition-all duration-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 transition-all duration-500"
                   style={{ width: `${globalMasteryPercent}%` }}
                 />
               </div>
@@ -1571,7 +1571,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
               }}
               className={`px-3 py-1.5 text-xs font-semibold rx-md transition-all ${
                 activeTab === 'discovery'
-                  ? 'bg-sky-500 text-white shadow-md'
+                  ? 'bg-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1584,7 +1584,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
               }}
               className={`px-3 py-1.5 text-xs font-semibold rx-md transition-all ${
                 activeTab === 'lab'
-                  ? 'bg-sky-500 text-white shadow-md'
+                  ? 'bg-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1597,7 +1597,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
               }}
               className={`px-3 py-1.5 text-xs font-semibold rx-md transition-all ${
                 activeTab === 'challenges'
-                  ? 'bg-sky-500 text-white shadow-md'
+                  ? 'bg-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1610,7 +1610,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
               }}
               className={`px-3 py-1.5 text-xs font-semibold rx-md transition-all ${
                 activeTab === 'summary'
-                  ? 'bg-sky-500 text-white shadow-md'
+                  ? 'bg-gold-500 text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
@@ -1627,7 +1627,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
           <div className="space-y-6">
             {/* Context & Scenario Intro */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl backdrop-blur-sm">
-              <span className="text-xs font-bold text-sky-400 uppercase tracking-widest px-3 py-1 bg-sky-950/60 rounded-full border border-sky-800/50">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest px-3 py-1 bg-gold-950/60 rounded-full border border-gold-800/50">
                 Interactive Scenario
               </span>
               <h2 className="text-2xl font-bold text-white mt-3 mb-2">{SCENARIO.title}</h2>
@@ -1636,7 +1636,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
             </div>
 
             {/* Discovery Counterintuitive Question */}
-            <div className="bg-gradient-to-br from-slate-900 to-slate-800 border border-sky-500/30 rounded-2xl p-6 shadow-2xl">
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 border border-gold-500/30 rounded-2xl p-6 shadow-2xl">
               <span className="text-xs font-bold text-amber-400 uppercase tracking-widest bg-amber-950/60 px-3 py-1 rounded-full border border-amber-800/50">
                 Discovery Challenge
               </span>
@@ -1648,7 +1648,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                 {DISCOVERY_QUESTION.options.map((option, idx) => {
                   const isSelected = discoverySelectedOption === idx;
                   const isCorrect = idx === DISCOVERY_QUESTION.correctIndex;
-                  let btnStyle = 'bg-slate-800/90 border-slate-700 hover:border-sky-500 text-slate-200';
+                  let btnStyle = 'bg-slate-800/90 border-slate-700 hover:border-gold-500 text-slate-200';
 
                   if (discoverySubmitted) {
                     if (isCorrect) {
@@ -1665,7 +1665,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                       disabled={discoverySubmitted}
                       className={`p-4 rounded-xl border text-left text-sm transition-all duration-200 ${btnStyle} flex items-start gap-3`}
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-700/60 flex items-center justify-center font-bold text-xs text-sky-400 shrink-0 mt-0.5">
+                      <span className="w-6 h-6 rounded-full bg-slate-700/60 flex items-center justify-center font-bold text-xs text-gold-400 shrink-0 mt-0.5">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{option}</span>
@@ -1675,7 +1675,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-sky-950/60 border border-sky-500/40 rounded-xl p-4 text-sky-200 text-sm animate-fade-in">
+                <div className="bg-gold-950/60 border border-gold-500/40 rounded-xl p-4 text-gold-200 text-sm animate-fade-in">
                   <h4 className="font-bold mb-1 flex items-center gap-2">
                     💡 Scientific Discovery Insight
                   </h4>
@@ -1687,17 +1687,17 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
             {/* Mandatory PREDICTION QUESTIONS Rendering */}
             <div className="space-y-4">
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                <span className="text-sky-400">🔮</span> Lab Predictions & Hypothesis Testing
+                <span className="text-gold-400">🔮</span> Lab Predictions & Hypothesis Testing
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {PREDICTION_QUESTIONS.map((pq, idx) => (
                   <div key={idx} className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-3">
-                    <span className="text-xs font-mono text-sky-400 font-bold uppercase">Prediction #{idx + 1}</span>
+                    <span className="text-xs font-mono text-gold-400 font-bold uppercase">Prediction #{idx + 1}</span>
                     <h4 className="text-sm font-semibold text-slate-100">{pq.question}</h4>
                     <ul className="space-y-1.5">
                       {pq.options.map((opt, oIdx) => (
                         <li key={oIdx} className="text-xs text-slate-300 bg-slate-800/60 p-2 rounded border border-slate-700/50">
-                          <strong className="text-sky-400 mr-2">{String.fromCharCode(65 + oIdx)}.</strong>
+                          <strong className="text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</strong>
                           {opt}
                         </li>
                       ))}
@@ -1717,20 +1717,20 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
           <div className="space-y-6">
             {/* EXPLORATION STEPS RENDERER */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-              <h3 className="text-xs font-mono uppercase text-sky-400 font-bold tracking-wider mb-3">
+              <h3 className="text-xs font-mono uppercase text-gold-400 font-bold tracking-wider mb-3">
                 Guided Interactive Modules (5 Exploration Labs)
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
                 {EXPLORATION_STEPS.map((step, idx) => (
                   <div
                     key={idx}
-                    className="bg-slate-800/80 border border-slate-700 rounded-lg p-3 text-left hover:border-sky-500 transition-all cursor-pointer"
+                    className="bg-slate-800/80 border border-slate-700 rounded-lg p-3 text-left hover:border-gold-500 transition-all cursor-pointer"
                     onClick={() => {
                       audioManager.play('tap');
                       speechManager.speak(`Exploring ${step.title}`);
                     }}
                   >
-                    <span className="text-[10px] font-mono text-sky-400 font-bold block mb-1">MODULE 0{idx + 1}</span>
+                    <span className="text-[10px] font-mono text-gold-400 font-bold block mb-1">MODULE 0{idx + 1}</span>
                     <h4 className="text-xs font-bold text-slate-100 mb-1 leading-snug">{step.title}</h4>
                     <p className="text-[11px] text-slate-400 line-clamp-2">{step.instruction}</p>
                   </div>
@@ -1742,7 +1742,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {/* Left Column: Chemical Reactants Selector Controls */}
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-5">
-                <h3 className="text-sm font-bold text-sky-400 uppercase tracking-wider flex items-center gap-2">
+                <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
                   <span>🎛️</span> Chemical Controls
                 </h3>
 
@@ -1755,7 +1755,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                       setSelectedMetal(e.target.value as MetalType);
                       audioManager.play('tap');
                     }}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:border-sky-500 outline-none"
+                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:border-gold-500 outline-none"
                   >
                     {Object.values(METALS_DATA).map((m) => (
                       <option key={m.id} value={m.id}>
@@ -1775,7 +1775,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                       setSelectedAcid(e.target.value as AcidType);
                       audioManager.play('tap');
                     }}
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:border-sky-500 outline-none"
+                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:border-gold-500 outline-none"
                   >
                     {Object.values(ACIDS_DATA).map((a) => (
                       <option key={a.id} value={a.id}>
@@ -1809,7 +1809,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                   {!isReacting ? (
                     <button
                       onClick={handleStartReaction}
-                      className="w-full bg-sky-500 hover:bg-sky-400 text-slate-950 font-extrabold py-2.5 rounded-lg text-xs tracking-wider uppercase shadow-lg transition-all"
+                      className="w-full bg-gold-500 hover:bg-gold-400 text-slate-950 font-extrabold py-2.5 rounded-lg text-xs tracking-wider uppercase shadow-lg transition-all"
                     >
                       ▶ Start Reaction
                     </button>
@@ -1919,7 +1919,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                 {/* Challenge Header & Difficulty Badge */}
                 <div className="flex justify-between items-center mb-4 border-b border-slate-800 pb-3">
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-mono font-bold text-sky-400 bg-sky-950 px-2.5 py-1 rounded border border-sky-800">
+                    <span className="text-xs font-mono font-bold text-gold-400 bg-gold-950 px-2.5 py-1 rounded border border-gold-800">
                       Question {currentChallengeIndex + 1} of {CHALLENGES.length}
                     </span>
                     <span
@@ -1950,7 +1950,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                   {currentChallenge.options.map((option, idx) => {
                     const isSelected = selectedOption === idx;
                     const isCorrect = idx === currentChallenge.correctIndex;
-                    let btnStyle = 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-sky-500';
+                    let btnStyle = 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500';
 
                     if (challengeSubmitted) {
                       if (isCorrect) {
@@ -1959,7 +1959,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                         btnStyle = 'bg-rose-950 border-rose-500 text-rose-200';
                       }
                     } else if (isSelected) {
-                      btnStyle = 'bg-sky-950 border-sky-400 text-sky-100 font-semibold';
+                      btnStyle = 'bg-gold-950 border-gold-400 text-gold-100 font-semibold';
                     }
 
                     return (
@@ -1969,7 +1969,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                         disabled={challengeSubmitted}
                         className={`w-full p-4 rounded-xl border text-left text-sm transition-all duration-200 flex items-start gap-3 ${btnStyle}`}
                       >
-                        <span className="w-6 h-6 rounded-full bg-slate-700/80 flex items-center justify-center font-bold text-xs text-sky-400 shrink-0 mt-0.5">
+                        <span className="w-6 h-6 rounded-full bg-slate-700/80 flex items-center justify-center font-bold text-xs text-gold-400 shrink-0 mt-0.5">
                           {String.fromCharCode(65 + idx)}
                         </span>
                         <span className="flex-1">{option}</span>
@@ -1981,7 +1981,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                 {/* Detailed Explanation Box */}
                 {challengeSubmitted && (
                   <div className="bg-slate-950 border border-slate-800 rounded-xl p-4 text-sm space-y-2 mb-6 animate-fade-in">
-                    <h4 className="font-bold text-sky-400 flex items-center gap-2">
+                    <h4 className="font-bold text-gold-400 flex items-center gap-2">
                       <span>📖</span> Explanation & Reaction Dynamics:
                     </h4>
                     <p className="text-slate-300 leading-relaxed">{currentChallenge.explanation}</p>
@@ -2007,7 +2007,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                     <button
                       onClick={handleChallengeSubmit}
                       disabled={selectedOption === null}
-                      className="bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-extrabold px-6 py-2.5 rounded-lg text-xs uppercase tracking-wider transition-all"
+                      className="bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-extrabold px-6 py-2.5 rounded-lg text-xs uppercase tracking-wider transition-all"
                     >
                       Submit Answer
                     </button>
@@ -2056,7 +2056,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
                     setChallengeScore(0);
                     audioManager.play('tap');
                   }}
-                  className="bg-sky-500 hover:bg-sky-400 text-slate-950 font-extrabold px-8 py-3 rounded-xl text-sm uppercase tracking-wider shadow-xl transition-all"
+                  className="bg-gold-500 hover:bg-gold-400 text-slate-950 font-extrabold px-8 py-3 rounded-xl text-sm uppercase tracking-wider shadow-xl transition-all"
                 >
                   🔄 Retake Lab Assessment
                 </button>
@@ -2069,8 +2069,8 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
         {activeTab === 'summary' && (
           <div className="space-y-6">
             {/* REAL WORLD ACTIVITY SECTION */}
-            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-sky-950 border border-sky-500/40 rounded-2xl p-6 shadow-2xl">
-              <span className="text-xs font-bold text-sky-400 uppercase tracking-widest bg-sky-950 px-3 py-1 rounded-full border border-sky-800">
+            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-gold-950 border border-gold-500/40 rounded-2xl p-6 shadow-2xl">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest bg-gold-950 px-3 py-1 rounded-full border border-gold-800">
                 Industrial Real-World Extension
               </span>
               <h3 className="text-xl font-bold text-white mt-3 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2079,7 +2079,7 @@ export const C9_ChemistryLaboratorypreparationofhydrogenSim: React.FC<SimProps> 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950/80 p-4 rounded-xl border border-slate-800 text-xs text-slate-200 space-y-1">
-                    <span className="font-mono text-sky-400 font-bold block">STEP {idx + 1}</span>
+                    <span className="font-mono text-gold-400 font-bold block">STEP {idx + 1}</span>
                     <p>{step}</p>
                   </div>
                 ))}

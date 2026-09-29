@@ -11,7 +11,7 @@ export const w_c11_ecohumancapitalcbsesim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Human Capital vs Physical Capital: Meaning and Distinction',
     chapters: [],
     nodeIds: ['c11_eco_cbse_04_001', 'c11_eco_cbse_04_002', 'c11_eco_cbse_04_003', 'c11_eco_cbse_04_004', 'c11_eco_cbse_04_005', 'c11_eco_cbse_04_006', 'c11_eco_cbse_04_007', 'c11_eco_cbse_04_008', 'c11_eco_cbse_04_009', 'c11_eco_cbse_04_010', 'c11_eco_cbse_04_011', 'c11_eco_cbse_08_010', 'c11_eco_cbse_08_011', 'c11_eco_cbse_05_001', 'c11_eco_cbse_08_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine two Class 11 students: Rohan\'s father owns a textile factory with power looms worth ₹50 lakh, while.', goal: 'Master Human Capital vs Physical Capital: Meaning and Distinction.' },
     discovery: {
         question: 'Compare the mobility of physical capital and human capital across international borders.',
@@ -20,7 +20,7 @@ export const w_c11_ecohumancapitalcbsesim: SimDef = {
         hook: 'Students think "human capital = educated people" and "physical capital = machines," treating them as *categories of.',
     },
     teaching: [
-        { title: 'Human capital refers to the stock of.', text: 'Human capital refers to the stock of knowledge, skills, competencies, and health attributes embodied in individuals that enhance their productive capacity and future income-generating potential,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Human capital refers to the stock of.', text: 'Human capital refers to the stock of knowledge, skills, competencies, and health attributes embodied in individuals that enhance their productive capacity and future income-generating potential,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_04_001', title: 'Human capital refers to the stock of.',

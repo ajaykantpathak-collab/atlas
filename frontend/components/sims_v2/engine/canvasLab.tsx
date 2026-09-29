@@ -5763,16 +5763,16 @@ export function CanvasLab({ spec, onChange, labels }: { spec: LabSpec; onChange?
 
     const dark = spec.kind === 'scene' || has3d;
     return (
-        <div className={`w-full rounded-3xl p-3 ${dark ? 'bg-gradient-to-b from-slate-900 via-slate-800 to-indigo-950 shadow-[0_12px_40px_-8px_rgba(79,70,229,0.45)]' : ''}`}>
-            <div className={`text-center text-sm font-black mb-2 tracking-wide ${dark ? 'text-sky-200 drop-shadow-[0_0_8px_rgba(56,189,248,0.5)]' : 'text-slate-700'}`}>
+        <div className={`w-full rounded-3xl p-3 ${dark ? 'bg-gradient-to-b from-slate-900 via-slate-800 to-gold-950 shadow-[0_12px_40px_-8px_rgba(79,70,229,0.45)]' : ''}`}>
+            <div className={`text-center text-sm font-black mb-2 tracking-wide ${dark ? 'text-gold-200 drop-shadow-[0_0_8px_rgba(56,189,248,0.5)]' : 'text-slate-700'}`}>
                 {spec.title}
             </div>
-            <div className={`relative rounded-2xl overflow-hidden ${dark ? 'ring-1 ring-sky-400/30 shadow-inner' : ''}`}>
+            <div className={`relative rounded-2xl overflow-hidden ${dark ? 'ring-1 ring-gold-400/30 shadow-inner' : ''}`}>
                 {has3d
                     ? <div className="w-full h-[240px]"><Lab3DBoundary onFail={() => setThreeFailed(true)}><Lab3D scene={scene3d} vals={vals} labels={labels} /></Lab3DBoundary></div>
                     : <canvas ref={ref} width={360} height={200}
                         onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp}
-                        className={`w-full touch-none ${spec.draggable ? (grabbing ? 'cursor-grabbing' : 'cursor-grab') : ''} ${dark ? '' : 'rounded-2xl bg-sky-50 border-2 border-slate-200'}`} />}
+                        className={`w-full touch-none ${spec.draggable ? (grabbing ? 'cursor-grabbing' : 'cursor-grab') : ''} ${dark ? '' : 'rounded-2xl bg-gold-50 border-2 border-slate-200'}`} />}
                 {dark && <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-950/30 to-transparent" />}
             </div>
             {spec.trace && hist.length > 1 && (() => {
@@ -5781,10 +5781,10 @@ export function CanvasLab({ spec, onChange, labels }: { spec: LabSpec; onChange?
                 const pts = hist.map((v, i) => `${xOf(i)},${40 - (v / mx) * 32}`).join(' ');
                 const cur = hist[hist.length - 1];
                 return (
-                    <div className={`mt-2 rounded-xl px-2 py-1 ${dark ? 'bg-slate-800/60 ring-1 ring-sky-400/20' : 'bg-white ring-1 ring-slate-200'}`}>
+                    <div className={`mt-2 rounded-xl px-2 py-1 ${dark ? 'bg-slate-800/60 ring-1 ring-gold-400/20' : 'bg-white ring-1 ring-slate-200'}`}>
                         <div className="flex items-center justify-between">
-                            <span className={`text-[9px] font-black tracking-widest uppercase ${dark ? 'text-sky-300/70' : 'text-slate-400'}`}>{spec.trace!.label}</span>
-                            <span className={`text-[11px] font-black tabular-nums ${dark ? 'text-sky-200' : 'text-slate-700'}`}>{cur.toFixed(2)}{spec.trace!.unit ?? ''}</span>
+                            <span className={`text-[9px] font-black tracking-widest uppercase ${dark ? 'text-gold-300/70' : 'text-slate-400'}`}>{spec.trace!.label}</span>
+                            <span className={`text-[11px] font-black tabular-nums ${dark ? 'text-gold-200' : 'text-slate-700'}`}>{cur.toFixed(2)}{spec.trace!.unit ?? ''}</span>
                         </div>
                         <svg viewBox="0 0 348 44" className="w-full h-9">
                             <polyline points={pts} fill="none" stroke={dark ? '#38bdf8' : '#6366f1'} strokeWidth="2" strokeLinecap="round" />
@@ -5797,17 +5797,17 @@ export function CanvasLab({ spec, onChange, labels }: { spec: LabSpec; onChange?
                 {spec.sliders.map(s => (
                     <div key={s.id} className="flex items-center gap-2">
                         <span className="text-lg w-7 drop-shadow">{s.emoji}</span>
-                        <span className={`text-xs font-bold w-16 ${dark ? 'text-sky-100' : 'text-slate-600'}`}>{s.label}</span>
+                        <span className={`text-xs font-bold w-16 ${dark ? 'text-gold-100' : 'text-slate-600'}`}>{s.label}</span>
                         <input type="range" min={s.min} max={s.max} step={s.step ?? 1} value={vals[s.id]}
                             onChange={e => setVals(v => ({ ...v, [s.id]: Number(e.target.value) }))}
-                            className={`flex-1 h-1.5 rounded-full appearance-none cursor-pointer ${dark ? 'accent-sky-400 bg-slate-700' : 'accent-emerald-500'}`} />
-                        <span className={`text-xs font-black w-8 text-right tabular-nums ${dark ? 'text-sky-200' : 'text-slate-800'}`}>{vals[s.id]}</span>
+                            className={`flex-1 h-1.5 rounded-full appearance-none cursor-pointer ${dark ? 'accent-gold-400 bg-slate-700' : 'accent-emerald-500'}`} />
+                        <span className={`text-xs font-black w-8 text-right tabular-nums ${dark ? 'text-gold-200' : 'text-slate-800'}`}>{vals[s.id]}</span>
                     </div>
                 ))}
             </div>
             {spec.output && (
-                <div className={`mt-2.5 text-center rounded-xl px-3 py-1.5 ${dark ? 'bg-sky-400/10 border border-sky-400/30' : 'bg-emerald-50 border-2 border-emerald-200'}`}>
-                    <span className={`text-sm font-black ${dark ? 'text-sky-100' : 'text-emerald-800'}`}>{spec.output(vals)}{spec.unit ? ` ${spec.unit}` : ''}</span>
+                <div className={`mt-2.5 text-center rounded-xl px-3 py-1.5 ${dark ? 'bg-gold-400/10 border border-gold-400/30' : 'bg-emerald-50 border-2 border-emerald-200'}`}>
+                    <span className={`text-sm font-black ${dark ? 'text-gold-100' : 'text-emerald-800'}`}>{spec.output(vals)}{spec.unit ? ` ${spec.unit}` : ''}</span>
                 </div>
             )}
         </div>

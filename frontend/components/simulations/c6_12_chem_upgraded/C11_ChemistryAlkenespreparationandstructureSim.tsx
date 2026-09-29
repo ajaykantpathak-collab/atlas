@@ -1284,12 +1284,12 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
   const currentCh = CHALLENGES[currentChallengeIndex];
 
   return (
-    <div className="w-full min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-sky-500 selection:text-white">
+    <div className="w-full min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 font-sans selection:bg-gold-500 selection:text-white">
       {/* Top Header Bar */}
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 shadow-2xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="px-3 py-1 bg-sky-500/20 text-sky-400 border border-sky-500/30 text-xs font-semibold rounded-full uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 text-xs font-semibold rounded-full uppercase tracking-wider">
               ISC Class 11 Chemistry
             </span>
             <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded-full uppercase tracking-wider">
@@ -1305,7 +1305,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
         <div className="flex items-center gap-4 bg-slate-950 px-5 py-3 rounded-xl border border-slate-800">
           <div className="text-center">
             <span className="text-xs text-slate-400 uppercase font-bold block">Score</span>
-            <span className="text-xl font-black fill-sky-400 text-sky-400">{score}</span>
+            <span className="text-xl font-black fill-gold-400 text-gold-400">{score}</span>
           </div>
           <div className="w-px h-8 bg-slate-800" />
           <div className="text-center">
@@ -1324,7 +1324,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
           }}
           className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all duration-200 ${
             activeTab === 'discovery'
-              ? 'bg-sky-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1337,7 +1337,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
           }}
           className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all duration-200 ${
             activeTab === 'lab'
-              ? 'bg-sky-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1350,7 +1350,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
           }}
           className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all duration-200 ${
             activeTab === 'challenges'
-              ? 'bg-sky-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1363,7 +1363,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
           }}
           className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all duration-200 ${
             activeTab === 'summary'
-              ? 'bg-sky-600 text-white shadow-lg'
+              ? 'bg-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
           }`}
         >
@@ -1378,10 +1378,10 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
           <div className="space-y-6">
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-              <h2 className="text-xl md:text-2xl font-bold text-sky-400 mb-3">{SCENARIO.title}</h2>
+              <h2 className="text-xl md:text-2xl font-bold text-gold-400 mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-4 bg-slate-950/80 rounded-xl stroke-sky-500/20 border border-sky-900/40 text-sky-200 text-sm">
-                <span className="font-bold text-sky-400">Context: </span>
+              <div className="p-4 bg-slate-950/80 rounded-xl stroke-gold-500/20 border border-gold-900/40 text-gold-200 text-sm">
+                <span className="font-bold text-gold-400">Context: </span>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1407,7 +1407,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                         : discoverySubmitted && discoveryAns === idx
                         ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                         : discoveryAns === idx
-                        ? 'bg-sky-900/60 border-sky-500 text-white'
+                        ? 'bg-gold-900/60 border-gold-500 text-white'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700 hover:bg-slate-800/40'
                     }`}
                   >
@@ -1447,7 +1447,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                             : predictionSubmitted[idx] && predictionAnswers[idx] === optIdx
                             ? 'bg-rose-900/60 border-rose-500 text-rose-200'
                             : predictionAnswers[idx] === optIdx
-                            ? 'bg-sky-900/60 border-sky-500 text-white'
+                            ? 'bg-gold-900/60 border-gold-500 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
@@ -1457,7 +1457,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                   </div>
 
                   {predictionSubmitted[idx] && (
-                    <p className="text-xs text-sky-400 bg-sky-950/40 p-3 rounded-lg border border-sky-900/50">
+                    <p className="text-xs text-gold-400 bg-gold-950/40 p-3 rounded-lg border border-gold-900/50">
                       💡 <span className="font-semibold">Lab Verification Tip:</span> {pq.verifyInstruction}
                     </p>
                   )}
@@ -1481,7 +1481,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                   }}
                   className={`p-3 rounded-xl border text-xs font-bold text-left transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-sky-600 border-sky-400 text-white shadow-lg scale-102'
+                      ? 'bg-gold-600 border-gold-400 text-white shadow-lg scale-102'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                   }`}
                 >
@@ -1494,7 +1494,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
             {/* Active Lab Display Panel */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl space-y-6">
               <div>
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wider block mb-1">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-1">
                   Active Simulation Step {activeLabIndex + 1}
                 </span>
                 <h3 className="text-xl font-bold text-white">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
@@ -1519,7 +1519,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                           }}
                           className={`flex-1 py-2 px-3 rounded-lg border text-xs font-bold transition-all ${
                             hybridType === 'sp2'
-                              ? 'bg-sky-600 border-sky-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1557,7 +1557,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                           audioManager.play('swoop');
                         }}
                         disabled={hybridType === 'sp3'}
-                        className="w-full accent-sky-500 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer"
                       />
                       <span className="text-[11px] text-slate-500 mt-1 block">
                         {hybridType === 'sp3'
@@ -1613,7 +1613,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                     <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2 text-xs">
                       <div className="flex justify-between border-b border-slate-800 pb-1">
                         <span className="text-slate-400">Dipole Moment (μ):</span>
-                        <span className="font-bold text-sky-400">
+                        <span className="font-bold text-gold-400">
                           {isTrans ? '0.00 Debye (Non-polar)' : '0.33 Debye (Polar)'}
                         </span>
                       </div>
@@ -1638,7 +1638,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
               {activeLabIndex === 2 && (
                 <div className="space-y-6">
                   <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-base font-bold text-sky-400">
+                    <h4 className="text-base font-bold text-gold-400">
                       Alkyne Partial Hydrogenation Reactor (2-Butyne + H₂)
                     </h4>
                     <p className="text-xs text-slate-300">
@@ -1653,11 +1653,11 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                         }}
                         className={`p-4 rounded-xl border text-left transition-all ${
                           alkyneReactionType === 'lindlar'
-                            ? 'bg-sky-950 border-sky-400 text-white'
+                            ? 'bg-gold-950 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400'
                         }`}
                       >
-                        <div className="font-bold text-sm text-sky-300">Lindlar’s Catalyst (H₂ / Pd / CaCO₃ + Quinoline)</div>
+                        <div className="font-bold text-sm text-gold-300">Lindlar’s Catalyst (H₂ / Pd / CaCO₃ + Quinoline)</div>
                         <div className="text-xs text-slate-400 mt-1">
                           Mechanism: <span className="text-emerald-400 font-semibold">SYN-ADDITION</span> on heterogenous catalyst surface.
                         </div>
@@ -1723,7 +1723,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                           setDehydrationStep((prev) => prev + 1);
                           audioManager.play('pop');
                         }}
-                        className="px-4 py-2 bg-sky-600 hover:bg-sky-500 disabled:opacity-40 text-xs font-bold rounded-lg transition-all"
+                        className="px-4 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-xs font-bold rounded-lg transition-all"
                       >
                         Next Mechanism Step ▶
                       </button>
@@ -1762,7 +1762,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
 
                   {/* Alkene Stability & Heat of Hydrogenation Table */}
                   <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-base font-bold text-sky-400">
+                    <h4 className="text-base font-bold text-gold-400">
                       Alkene Relative Stability & Hyperconjugation Explorer
                     </h4>
 
@@ -1776,7 +1776,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                           }}
                           className={`p-3 rounded-xl border text-left transition-all ${
                             selectedAlkeneIndex === idx
-                              ? 'bg-sky-600 border-sky-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1801,7 +1801,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                       </div>
                       <div>
                         <span className="text-slate-400 block mb-1">Thermodynamic Stability:</span>
-                        <span className="text-lg font-black text-sky-400">
+                        <span className="text-lg font-black text-gold-400">
                           {selectedAlkeneIndex === 4
                             ? 'Maximum (Tetrasubstituted)'
                             : selectedAlkeneIndex === 0
@@ -1835,7 +1835,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                               : observationSubmitted[idx] && observationAnswers[idx] === optIdx
                               ? 'bg-rose-900/60 border-rose-500 text-rose-200'
                               : observationAnswers[idx] === optIdx
-                              ? 'bg-sky-900/60 border-sky-500 text-white'
+                              ? 'bg-gold-900/60 border-gold-500 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-300 hover:bg-slate-800'
                           }`}
                         >
@@ -1856,7 +1856,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
             {/* Challenge Progress Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
               <div>
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wider block mb-1">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider block mb-1">
                   Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <div className="flex items-center gap-3">
@@ -1885,7 +1885,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                 </div>
                 <div className="w-full h-2.5 bg-slate-950 rounded-full overflow-hidden border border-slate-800">
                   <div
-                    className="h-full bg-gradient-to-r from-sky-500 to-emerald-400 transition-all duration-300"
+                    className="h-full bg-gradient-to-r from-gold-500 to-emerald-400 transition-all duration-300"
                     style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
                   />
                 </div>
@@ -1911,11 +1911,11 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                       }}
                       className={`text-left p-4 rounded-xl border text-sm font-medium transition-all ${
                         selectedOption === idx
-                          ? 'bg-sky-600/30 border-sky-400 text-white shadow-md'
+                          ? 'bg-gold-600/30 border-gold-400 text-white shadow-md'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700 hover:bg-slate-800/40'
                       }`}
                     >
-                      <span className="font-bold mr-3 text-sky-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold mr-3 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {opt}
                     </button>
                   ))}
@@ -1933,7 +1933,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                       onChange={(e) => setNumericAnswer(e.target.value)}
                       disabled={showFeedback}
                       placeholder="e.g. 12"
-                      className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-sky-500"
+                      className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-gold-500"
                     />
                     {currentCh.unit && (
                       <span className="px-4 py-3 bg-slate-800 rounded-xl text-slate-300 text-sm font-semibold flex items-center">
@@ -1949,7 +1949,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
                 <button
                   disabled={selectedOption === null && numericAnswer === ''}
                   onClick={handleChallengeSubmit}
-                  className="w-full py-4 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="w-full py-4 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Submit Answer
                 </button>
@@ -1997,7 +1997,7 @@ export default function C11_ChemistryAlkenespreparationandstructureSim({
               <div className="space-y-3">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex items-start gap-4">
-                    <span className="w-7 h-7 rounded-full bg-sky-600 text-white font-bold text-xs flex items-center justify-center shrink-0">
+                    <span className="w-7 h-7 rounded-full bg-gold-600 text-white font-bold text-xs flex items-center justify-center shrink-0">
                       {idx + 1}
                     </span>
                     <p className="text-slate-300 text-sm">{step}</p>

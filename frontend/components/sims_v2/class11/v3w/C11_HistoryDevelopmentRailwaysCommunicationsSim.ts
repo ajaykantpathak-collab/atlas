@@ -11,7 +11,7 @@ export const w_c11_historydevelopmentrailwayscommunicationssim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'Print Culture: Gutenberg and the Printing Revolution',
     chapters: [],
     nodeIds: ['c11_hist_cbse_07_005', 'c11_hist_cbse_07_004', 'c11_hist_cbse_07_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a 15th-century merchant in Venice: you need a reliable copy of Aristotle\'s *Politics* for.', goal: 'Master Print Culture: Gutenberg and the Printing Revolution.' },
     discovery: {
         question: 'Why did the printing press spread so rapidly across Europe (over 250 cities by 1500) despite high initial capital costs?',
@@ -20,7 +20,7 @@ export const w_c11_historydevelopmentrailwayscommunicationssim: SimDef = {
         hook: 'Students often think "Gutenberg invented printing" — ignoring that woodblock printing existed in China (8th c.) and.',
     },
     teaching: [
-        { title: 'The Printing Revolution refers to the.', text: 'The Printing Revolution refers to the transformative shift in European communication (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Printing Revolution refers to the.', text: 'The Printing Revolution refers to the transformative shift in European communication (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_07_005', title: 'The Printing Revolution refers to the.',

@@ -805,11 +805,11 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
       {/* GLOBAL HEADER */}
       <header className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 pb-6 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-500 via-gold-500 to-purple-600 flex items-center justify-center shadow-lg shadow-gold-500/20">
             <span className="text-2xl font-black text-white">⚛</span>
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-indigo-200 to-purple-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-200 to-purple-300 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">{SCENARIO.targetAudience} • Interactive Chemistry Simulator</p>
@@ -820,7 +820,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
         <div className="flex items-center gap-4 bg-slate-900/80 px-4 py-2 rounded-xl border border-slate-800">
           <div className="text-center">
             <div className="text-xs text-slate-400">Mastery</div>
-            <div className="text-sm font-bold text-cyan-400">{overallMasteryPercent}%</div>
+            <div className="text-sm font-bold text-gold-400">{overallMasteryPercent}%</div>
           </div>
           <div className="w-px h-8 bg-slate-800" />
           <div className="text-center">
@@ -852,7 +852,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
             }}
             className={`px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all flex items-center gap-2 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md shadow-indigo-500/20'
+                ? 'bg-gradient-to-r from-gold-600 to-purple-600 text-white shadow-md shadow-gold-500/20'
                 : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -875,7 +875,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
               exit={{ opacity: 0, y: -15 }}
               className="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 md:p-8 max-w-3xl mx-auto shadow-2xl"
             >
-              <div className="inline-block px-3 py-1 bg-indigo-500/10 border border-indigo-500/30 rounded-full text-indigo-400 text-xs font-semibold mb-4">
+              <div className="inline-block px-3 py-1 bg-gold-500/10 border border-gold-500/30 rounded-full text-gold-400 text-xs font-semibold mb-4">
                 PREDICT BEFORE YOU LEARN
               </div>
               <h2 className="text-lg md:text-xl font-bold text-slate-100 mb-4 leading-relaxed">
@@ -921,7 +921,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                       playSound('tap');
                       setActiveTab('learn');
                     }}
-                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-semibold text-sm shadow-lg shadow-cyan-500/20 hover:brightness-110"
+                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold text-sm shadow-lg shadow-gold-500/20 hover:brightness-110"
                   >
                     Start Visual Guided Theory →
                   </button>
@@ -951,7 +951,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all ${
                         currentSlideIndex === idx
-                          ? 'bg-indigo-600 text-white'
+                          ? 'bg-gold-600 text-white'
                           : 'bg-slate-950 text-slate-400 hover:text-slate-200'
                       }`}
                     >
@@ -978,11 +978,11 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                   </p>
 
                   <div className="bg-slate-950/60 rounded-xl p-4 border border-slate-800/80">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">Key Mastery Points</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">Key Mastery Points</h4>
                     <ul className="space-y-2">
                       {TEACHING_SLIDES[currentSlideIndex].keyPoints.map((pt, i) => (
                         <li key={i} className="text-xs text-slate-300 flex items-start gap-2">
-                          <span className="text-cyan-400 font-bold">•</span>
+                          <span className="text-gold-400 font-bold">•</span>
                           <span>{pt}</span>
                         </li>
                       ))}
@@ -996,7 +996,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                         setActiveLabTab(TEACHING_SLIDES[currentSlideIndex].labTab);
                         setActiveTab('lab');
                       }}
-                      className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-all flex items-center gap-2"
+                      className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-semibold text-xs transition-all flex items-center gap-2"
                     >
                       <span>🧪</span>
                       <span>Open Interactive Visual Lab</span>
@@ -1053,7 +1053,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     }}
                     className={`px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-2 ${
                       activeLabTab === lTab.id
-                        ? 'bg-cyan-600 text-white shadow-md shadow-cyan-500/20'
+                        ? 'bg-gold-600 text-white shadow-md shadow-gold-500/20'
                         : 'bg-slate-900 text-slate-400 hover:text-slate-200 hover:bg-slate-800'
                     }`}
                   >
@@ -1142,7 +1142,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     <div className="grid grid-cols-3 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
                       <div>
                         <span className="text-slate-400">Ray Identity:</span>
-                        <div className="font-bold text-cyan-400">
+                        <div className="font-bold text-gold-400">
                           {rayMode === 'cathode' ? 'Cathode Rays (Electrons)' : `Canal Rays (${gasType}+ ions)`}
                         </div>
                       </div>
@@ -1163,14 +1163,14 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Tube Controls</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Tube Controls</h4>
 
                     <div>
                       <label className="text-xs text-slate-400 block mb-1">Select Ray Beam Type</label>
                       <div className="grid grid-cols-2 gap-2">
                         <button
                           onClick={() => {audioManager.play('tap');  playSound('tap'); setRayMode('cathode'); }}
-                          className={`py-2 rounded-lg text-xs font-semibold border ${rayMode === 'cathode' ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                          className={`py-2 rounded-lg text-xs font-semibold border ${rayMode === 'cathode' ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                         >
                           Cathode (-)
                         </button>
@@ -1190,7 +1190,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                           <button
                             key={g}
                             onClick={() => { playSound('tap'); setGasType(g); }}
-                            className={`py-1.5 rounded-lg text-xs font-medium border ${gasType === g ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                            className={`py-1.5 rounded-lg text-xs font-medium border ${gasType === g ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                           >
                             {g}
                           </button>
@@ -1267,7 +1267,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     <div className="grid grid-cols-3 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-center">
                       <div className="bg-slate-900 p-2 rounded-lg border border-slate-800">
                         <div className="text-slate-400">Undeflected (&lt;1°)</div>
-                        <div className="text-lg font-bold text-cyan-400">{deflectionStats.straight}</div>
+                        <div className="text-lg font-bold text-gold-400">{deflectionStats.straight}</div>
                         <div className="text-[10px] text-slate-500">~99.9% of total</div>
                       </div>
                       <div className="bg-slate-900 p-2 rounded-lg border border-slate-800">
@@ -1285,7 +1285,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Scattering Controls</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Scattering Controls</h4>
 
                     <button
                       onClick={fireAlphaParticles}
@@ -1370,7 +1370,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     <div className="grid grid-cols-3 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
                       <div>
                         <span className="text-slate-400">Photon Energy E = hν:</span>
-                        <div className="font-bold text-cyan-400">{currentPhotonEnergyEv} eV</div>
+                        <div className="font-bold text-gold-400">{currentPhotonEnergyEv} eV</div>
                       </div>
                       <div>
                         <span className="text-slate-400">Metal Work Function Φ:</span>
@@ -1387,7 +1387,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Light & Metal Controls</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Light & Metal Controls</h4>
 
                     <div>
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
@@ -1400,7 +1400,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                         max="750"
                         value={lightWavelength}
                         onChange={e => setLightWavelength(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                         <span>UV (200nm)</span>
@@ -1416,7 +1416,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                           <button
                             key={m}
                             onClick={() => { playSound('tap'); setTargetMetal(m); }}
-                            className={`py-1.5 rounded-lg text-xs font-semibold border ${targetMetal === m ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                            className={`py-1.5 rounded-lg text-xs font-semibold border ${targetMetal === m ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                           >
                             {m} ({workFunctions[m]}eV)
                           </button>
@@ -1448,7 +1448,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                       {/* SPECTRUM BAR */}
                       <div className="w-full h-20 rounded-lg relative overflow-hidden border border-slate-700">
                         {spectrumMode === 'continuous' && (
-                          <div className="w-full h-full bg-gradient-to-r from-purple-600 via-blue-500 via-green-500 via-yellow-400 to-red-600" />
+                          <div className="w-full h-full bg-gradient-to-r from-purple-600 via-gold-500 via-green-500 via-yellow-400 to-red-600" />
                         )}
 
                         {spectrumMode === 'emission' && (
@@ -1457,8 +1457,8 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                             {spectraGas === 'hydrogen' && (
                               <>
                                 <div className="absolute top-0 bottom-0 w-1 bg-red-600 left-[85%]" title="656 nm (H-alpha)" />
-                                <div className="absolute top-0 bottom-0 w-1 bg-cyan-400 left-[55%]" title="486 nm (H-beta)" />
-                                <div className="absolute top-0 bottom-0 w-1 bg-blue-600 left-[35%]" title="434 nm (H-gamma)" />
+                                <div className="absolute top-0 bottom-0 w-1 bg-gold-400 left-[55%]" title="486 nm (H-beta)" />
+                                <div className="absolute top-0 bottom-0 w-1 bg-gold-600 left-[35%]" title="434 nm (H-gamma)" />
                                 <div className="absolute top-0 bottom-0 w-1 bg-purple-600 left-[20%]" title="410 nm (H-delta)" />
                               </>
                             )}
@@ -1469,7 +1469,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                         )}
 
                         {spectrumMode === 'absorption' && (
-                          <div className="w-full h-full bg-gradient-to-r from-purple-600 via-blue-500 via-green-500 via-yellow-400 to-red-600 relative">
+                          <div className="w-full h-full bg-gradient-to-r from-purple-600 via-gold-500 via-green-500 via-yellow-400 to-red-600 relative">
                             {/* Dark absorption lines */}
                             {spectraGas === 'hydrogen' && (
                               <>
@@ -1486,7 +1486,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                         {spectrumMode === 'band' && (
                           <div className="w-full h-full bg-black relative flex items-center justify-around">
-                            <div className="w-16 h-full bg-gradient-to-r from-transparent via-cyan-500/80 to-transparent" />
+                            <div className="w-16 h-full bg-gradient-to-r from-transparent via-gold-500/80 to-transparent" />
                             <div className="w-24 h-full bg-gradient-to-r from-transparent via-red-500/80 to-transparent" />
                           </div>
                         )}
@@ -1503,7 +1503,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Spectrum Type</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Spectrum Type</h4>
 
                     <div className="space-y-2">
                       {[
@@ -1515,7 +1515,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                         <button
                           key={mode.id}
                           onClick={() => { playSound('tap'); setSpectrumMode(mode.id as any); }}
-                          className={`w-full text-left p-2.5 rounded-lg text-xs font-semibold border ${spectrumMode === mode.id ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                          className={`w-full text-left p-2.5 rounded-lg text-xs font-semibold border ${spectrumMode === mode.id ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                         >
                           {mode.label}
                         </button>
@@ -1578,7 +1578,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     <div className="grid grid-cols-3 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-center">
                       <div>
                         <span className="text-slate-400">Radius rn (0.529 · n² Å):</span>
-                        <div className="font-bold text-cyan-400">{bohrRadius} Å</div>
+                        <div className="font-bold text-gold-400">{bohrRadius} Å</div>
                       </div>
                       <div>
                         <span className="text-slate-400">Energy En (-13.6 / n² eV):</span>
@@ -1593,7 +1593,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Select Orbit Level (n)</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Select Orbit Level (n)</h4>
 
                     <div className="grid grid-cols-2 gap-2">
                       {[1, 2, 3, 4].map(n => (
@@ -1601,7 +1601,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                           key={n}
                           onClick={() => triggerBohrTransition(n)}
                           disabled={isElectronTransitioning}
-                          className={`py-3 rounded-xl text-xs font-bold border ${bohrN === n ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                          className={`py-3 rounded-xl text-xs font-bold border ${bohrN === n ? 'bg-gold-600 border-gold-400 text-white shadow-lg' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                         >
                           Jump to n = {n}
                         </button>
@@ -1649,7 +1649,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     <div className="grid grid-cols-2 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
                       <div>
                         <span className="text-slate-400">de Broglie λ = h / (m v):</span>
-                        <div className="font-bold text-cyan-400">
+                        <div className="font-bold text-gold-400">
                           {deBroglieLambda < 1e-15 ? `${deBroglieLambda.toExponential(3)} m (Undetectable)` : `${(deBroglieLambda * 1e10).toFixed(3)} Å (Atomic Scale!)`}
                         </div>
                       </div>
@@ -1664,7 +1664,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Particle Properties</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Particle Properties</h4>
 
                     <div>
                       <label className="text-xs text-slate-400 block mb-1">Particle Mass Scale</label>
@@ -1677,7 +1677,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                           <button
                             key={p.id}
                             onClick={() => { playSound('tap'); setParticleMassType(p.id as any); }}
-                            className={`py-1.5 rounded-lg text-[10px] font-semibold border ${particleMassType === p.id ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
+                            className={`py-1.5 rounded-lg text-[10px] font-semibold border ${particleMassType === p.id ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'}`}
                           >
                             {p.label}
                           </button>
@@ -1727,7 +1727,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Select Orbital State</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Select Orbital State</h4>
                     <div className="grid grid-cols-2 gap-2">
                       {(['1s', '2s', '2p', '3s'] as const).map(st => (
                         <button
@@ -1790,7 +1790,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                     <div className="grid grid-cols-4 gap-2 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-center">
                       <div className="bg-slate-900 p-2 rounded-lg">
                         <span className="text-slate-400">n (Shell)</span>
-                        <div className="text-lg font-bold text-cyan-400">{qnN}</div>
+                        <div className="text-lg font-bold text-gold-400">{qnN}</div>
                       </div>
                       <div className="bg-slate-900 p-2 rounded-lg">
                         <span className="text-slate-400">l (Subshell)</span>
@@ -1809,7 +1809,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
 
                   {/* CONTROLS SIDEBAR */}
                   <div className="lg:col-span-4 bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Configure Subshell</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Configure Subshell</h4>
 
                     <div>
                       <label className="text-xs text-slate-400 block mb-1">Subshell Type l</label>
@@ -1851,7 +1851,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
               </div>
               <div className="w-full h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
                 <div
-                  className="h-full bg-gradient-to-r from-cyan-500 to-indigo-600 transition-all duration-300"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-600 transition-all duration-300"
                   style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -1859,7 +1859,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
               {/* CHALLENGE CARD */}
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl space-y-6">
                 <div>
-                  <div className="inline-block px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-400 text-xs font-semibold mb-2">
+                  <div className="inline-block px-3 py-1 bg-gold-500/10 border border-gold-500/30 rounded-full text-gold-400 text-xs font-semibold mb-2">
                     {CHALLENGES[currentChallengeIndex].subtitle}
                   </div>
                   <h3 className="text-lg md:text-xl font-bold text-slate-100">
@@ -1904,7 +1904,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                 <div className="flex items-center justify-between pt-4 border-t border-slate-800">
                   <button
                     onClick={() => { playSound('hint'); setShowHint(!showHint); }}
-                    className="text-xs text-indigo-400 hover:text-indigo-300 font-medium flex items-center gap-1"
+                    className="text-xs text-gold-400 hover:text-gold-300 font-medium flex items-center gap-1"
                   >
                     <span>💡</span> {showHint ? 'Hide Hint' : 'Show Hint'}
                   </button>
@@ -1912,7 +1912,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                   {challengeSubmitted && (
                     <button
                       onClick={handleNextChallenge}
-                      className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold text-xs shadow-lg hover:brightness-110"
+                      className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-600 to-purple-600 text-white font-semibold text-xs shadow-lg hover:brightness-110"
                     >
                       {currentChallengeIndex < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Complete Module 🎉'}
                     </button>
@@ -1934,7 +1934,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
               className="max-w-4xl mx-auto space-y-6"
             >
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 text-center space-y-6 shadow-2xl">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-600 flex items-center justify-center mx-auto text-4xl shadow-lg shadow-indigo-500/30">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-gold-500 via-gold-500 to-purple-600 flex items-center justify-center mx-auto text-4xl shadow-lg shadow-gold-500/30">
                   🏆
                 </div>
                 <div>
@@ -1945,7 +1945,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                 <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto bg-slate-950 p-4 rounded-xl border border-slate-800">
                   <div>
                     <div className="text-xs text-slate-400">Total Score</div>
-                    <div className="text-xl font-bold text-cyan-400">{score}</div>
+                    <div className="text-xl font-bold text-gold-400">{score}</div>
                   </div>
                   <div>
                     <div className="text-xs text-slate-400">Overall Mastery</div>
@@ -1989,7 +1989,7 @@ export default function C11_ChemistryDiscoveryofsubatomicparticlesSim() {
                       playSound('tap');
                       setActiveTab('lab');
                     }}
-                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-semibold text-xs shadow-lg hover:brightness-110"
+                    className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-semibold text-xs shadow-lg hover:brightness-110"
                   >
                     Open Virtual Sandbox 🧪
                   </button>

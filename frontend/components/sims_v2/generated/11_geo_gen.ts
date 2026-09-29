@@ -55,7 +55,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Biogeography",
+    "title": "Biogeography Is The Study",
     "text": "Biogeography is the study of the geographic distribution of plants and animals (flora and fauna) across the Earth's surface and the ecological, historical, and evolutionary processes that shape these patterns.",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -125,7 +125,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "A historian sequences events chronologically (Meerut → Delhi → Kanpur → Lucknow) focusing on leadership, ideology, and political consequences",
      "The Western Ghats receive high orographic rainfall, have varied altitude creating multiple microclimates, and act as a barrier for species migration, leading to high endemism"
     ],
-    "hint": "Straight from the 'Biogeography' slide -- match the key terms.",
+    "hint": "Straight from the 'Biogeography is the study' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on rainfall without mentioning altitudinal zonation or historical isolation shows incomplete understanding of biogeographic processes.",
     "id": "gen_c11_geo_ch01_q3",
     "nodeId": "c11_geo_cbse_01_006",
@@ -370,7 +370,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Systematic Approach Studies a mastered! 🎯",
+  "successLine": "Systematic Approach Studies mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -441,7 +441,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Lithosphere",
+    "title": "The Lithosphere Is The Rigid Outer",
     "text": "The lithosphere is the rigid outer layer of the Earth comprising the crust and uppermost mantle, formed through planetary differentiation where denser iron-nickel sank to form the core while lighter silicate minerals rose to create a solid crust, a process",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -477,7 +477,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Volcanism",
+    "title": "Volcanism Is The Process By Which Molten",
     "text": "Volcanism is the process by which molten rock (magma), gases, and solid fragments from Earth's mantle and crust are erupted onto the surface, providing direct physical samples of deep interior material that reveal the chemical composition, mineralogy,",
     "emoji": "🌍",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -913,9 +913,9 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the four Eons of the Geological Time Scale in correct chronological order from oldest to youngest.",
     "answer": "Hadean → Archean → Proterozoic → Phanerozoic",
     "options": [
-     "The two primary sources are volcanic degassing from Earth's interior (releasing water vapor trapped in minerals) and extraterrestrial delivery via cometary and carbonaceous",
-     "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow",
-     "Hadean → Archean → CO → Phanerozoic",
+     "Formation of stars and galaxies is the gravitational collapse of primordial hydrogen-helium gas clouds (nebulae) within expanding cosmic matter after the Big Bang",
+     "The student can correctly sequence the four Eons (Hadean, Archean, Proterozoic, Phanerozoic), identify the three Eras of the Phanerozoic (Paleozoic, Mesozoic",
+     "Hadean → Archean → Contrast → Phanerozoic",
      "Hadean → Archean → Proterozoic → Phanerozoic"
     ],
     "hint": "Straight from the 'Geological Time Scale' slide -- match the key terms.",
@@ -1193,8 +1193,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "State the three initial conditions Kant and Laplace assumed for the primordial nebula, and explain why \"cold\" is a critical assumption distinguishing it from later hot-nebula models.",
     "answer": "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow",
     "options": [
-     "The universe is approximately 13.8 billion years old. The Planck satellite (2009–2013) provided the most precise measurement: 13.787 ± 0.020 billion years",
-     "The two primary elements were hydrogen (~75% by mass) and helium (~25% by mass), produced during Big Bang nucleosynthesis",
+     "The student can explain the sequence from chemical evolution (formation of complex organic molecules) to biological evolution (first prokaryotes, photosynthesis, oxygenation",
+     "The student can correctly sequence the four Eons (Hadean, Archean, Proterozoic, Phanerozoic), identify the three Eras of the Phanerozoic (Paleozoic, Mesozoic",
      "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow"
     ],
     "hint": "Straight from the 'Nebular Hypothesis' slide -- match the key terms.",
@@ -1548,7 +1548,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Mineral",
+    "title": "Mineral Is a Naturally Occurring",
     "text": "A mineral is a naturally occurring, inorganic solid substance with a definite chemical composition and an ordered internal atomic structure (crystalline), formed through geological processes.",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1566,7 +1566,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Rocks",
+    "title": "Rocks Are Naturally Occurring Solid",
     "text": "Rocks are naturally occurring solid aggregates of one or more minerals or mineral-like matter, classified into three major groups—igneous, sedimentary, and metamorphic—based on their mode of formation; the rock cycle describes the continuous interconversion",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1596,7 +1596,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Metamorphism",
+    "title": "Metamorphism Is The Solid-state",
     "text": "Metamorphism is the solid-state transformation of pre-existing rocks (protoliths) into new mineral assemblages and textures through the agents of heat, pressure, and chemically active fluids, without melting.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1746,8 +1746,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the anionic complex that defines the silicate mineral group and give its chemical formula. Provide one example of a nesosilicate and one tectosilicate found in India.",
     "answer": "The silicate group is defined by the SiO₄⁴⁻ tetrahedron. Nesosilicate example: olivine (Mg,Fe)₂SiO₄ (found in ultramafic rocks of Karnataka)",
     "options": [
-     "Mechanically formed sedimentary rocks are rocks formed from the lithification of clastic sediments derived from mechanical weathering of pre-existing rocks",
-     "Chemically formed (e.g., limestone, rock salt, gypsum) and organically formed (e.g., coal, chalk, coquina)",
+     "Metamorphism is the solid-state transformation of pre-existing rocks (protoliths) into new mineral assemblages and textures through the agents of heat, pressure",
+     "Student can identify each rock from hand specimen or thin-section description by linking parent rock, metamorphic grade, foliation type, and mineral assemblage",
      "The silicate group is defined by the SiO₄⁴⁻ tetrahedron. Nesosilicate example: olivine (Mg,Fe)₂SiO₄ (found in ultramafic rocks of Karnataka)"
     ],
     "hint": "Straight from the 'Major mineral groups' slide -- match the key terms.",
@@ -1867,16 +1867,47 @@ export const C11_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A student finds a dark-coloured, heavy rock with visible interlocking crystals of pyroxene and plagioclase feldspar (each 3–5 mm) in a road cut in the Deccan Traps. Name the rock and state whether it is intrusive or extrusive.",
-    "answer": "The rock is gabbro — intrusive, coarse-grained (phaneritic), mafic",
-    "options": [
-     "Rock: Vesicular Basalt (Extrusive). Formation: Rapid cooling of low-viscosity mafic lava on the surface",
-     "Texture: porphyritic (bimodal grain size). Rock: granite porphyry (or rhyolite porphyry if groundmass is aphanitic and extrusive",
-     "The rock is gabbro — intrusive, coarse-grained (phaneritic), mafic"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Classify any given igneous rock into the",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Identify granite",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Explain how cooling history",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Igneous rocks' slide -- match the key terms.",
-    "misconception": "A wrong answer of \"basalt\" reveals the student confuses composition with texture: basalt has the same minerals but is fine-grained (aphyric) because it cooled rapidly on the surface. If they say \"extrusive\", they have not linked crystal size to slow cooling at depth.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Identify granite, basalt, and gabbro from hand specimens or photographs using texture and mineral",
     "id": "gen_c11_geo_ch05_q6",
     "nodeId": "c11_geo_cbse_05_006",
     "difficulty": "advanced",
@@ -1955,8 +1986,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the two main sub-categories of non-clastic sedimentary rocks and give one characteristic example of each.",
     "answer": "Chemically formed (e.g., limestone, rock salt, gypsum) and organically formed (e.g., coal, chalk, coquina)",
     "options": [
-     "Slate → shale (foliated); Marble → limestone or dolomite (non-foliated); Quartzite → quartz sandstone (non-foliated); Gneiss → granite or shale (foliated, banded)",
-     "Mechanically formed sedimentary rocks are rocks formed from the lithification of clastic sediments derived from mechanical weathering of pre-existing rocks",
+     "Igneous rocks form by crystallization from magma/lava; sedimentary rocks form by lithification (compaction and cementation) of sediments",
+     "The silicate group is defined by the SiO₄⁴⁻ tetrahedron. Nesosilicate example: olivine (Mg,Fe)₂SiO₄ (found in ultramafic rocks of Karnataka)",
      "Chemically formed (e.g., limestone, rock salt, gypsum) and organically formed (e.g., coal, chalk, coquina)"
     ],
     "hint": "Straight from the 'Chemically formed sedimentary' slide -- match the key terms.",
@@ -1996,8 +2027,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the parent rock for each: slate, marble, quartzite, gneiss. State whether each product is foliated or non-foliated.",
     "answer": "Slate → shale (foliated); Marble → limestone or dolomite (non-foliated); Quartzite → quartz sandstone (non-foliated); Gneiss → granite or shale (foliated, banded)",
     "options": [
-     "Chemically formed (e.g., limestone, rock salt, gypsum) and organically formed (e.g., coal, chalk, coquina)",
-     "The five criteria are: (1) naturally occurring (not human-made), (2) inorganic (not produced by biological processes), (3) solid at standard temperature and pressure",
+     "Student can identify each rock from hand specimen or thin-section description by linking parent rock, metamorphic grade, foliation type, and mineral assemblage",
+     "Student can trace a complete rock cycle pathway (e.g., granite → sand → sandstone → quartzite → melt → rhyolite) identifying the specific geological processes at each transition",
      "Slate → shale (foliated); Marble → limestone or dolomite (non-foliated); Quartzite → quartz sandstone (non-foliated); Gneiss → granite or shale (foliated, banded)"
     ],
     "hint": "Straight from the 'Metamorphic rocks' slide -- match the key terms.",
@@ -2347,7 +2378,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Plan: (1) Texture/Grain Size: Use hand lens (10x) to measure average crystal size. Dyke = medium-grained (dolerite/gabbro); Lava flow = fine-grained/basalt",
      "Color is unreliable because many minerals exhibit wide color variation due to trace impurities (e.g"
     ],
-    "hint": "Straight from the 'mineral' slide -- match the key terms.",
+    "hint": "Straight from the 'mineral is a naturally occurring' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on color or suggesting luster/hardness instead of streak reveals the student has not grasped that streak eliminates the variability of external color and is the primary diagnostic for metallic minerals.",
     "id": "gen_c11_geo_ch05_q17",
     "nodeId": "c11_geo_cbse_05_001",
@@ -2362,7 +2393,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Deccan Traps: rapid cooling of mafic lava at surface (extrusive igneous) yields fine-grained basalt with minerals like plagioclase, pyroxene, olivine",
      "| Property | Calcite | Quartz | |---|---|---| | Hardness (Mohs) | 3 (scratched by copper coin) | 7 (scratches glass) | | Cleavage/Fracture | Three perfect cleavages (rhombohedral)"
     ],
-    "hint": "Straight from the 'mineral' slide -- match the key terms.",
+    "hint": "Straight from the 'mineral is a naturally occurring' slide -- match the key terms.",
     "misconception": "A wrong answer using color or luster reveals the student doesn't understand which properties are diagnostic vs. variable. A correct answer selects tests targeting fundamental crystallographic differences: hardness (bond strength), cleavage (weak planes in structure), and chemical reactivity (carbonate vs. silicate).",
     "id": "gen_c11_geo_ch05_q18",
     "nodeId": "c11_geo_cbse_05_001",
@@ -2381,15 +2412,15 @@ export const C11_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_geo_ch06",
-  "title": "Delta",
+  "title": "A Delta Is a Depositional Landform",
   "subtitle": "Geography · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Delta",
+  "topic": "A Delta Is a Depositional Landform",
   "chapters": [
-   "Geography Ch6: Delta",
-   "Geography Ch7: Delta"
+   "Geography Ch6: A Delta Is a Depositional Landform",
+   "Geography Ch7: A Delta Is a Depositional Landform"
   ],
   "nodeIds": [
    "c11_geo_cbse_07_004",
@@ -2405,7 +2436,7 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Delta suddenly stops working?",
+   "question": "What happens if A Delta Is a Depositional Landform suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -2416,7 +2447,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Delta",
+    "title": "A Delta Is a Depositional Landform",
     "text": "A delta is a depositional landform formed at a river's mouth where sediment-laden water enters a standing water body (sea/lake), loses velocity, and drops its load, creating a branching distributary network; an estuary is a funnel-shaped, tidal river mouth",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2440,7 +2471,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Erosion",
+    "title": "Erosion Is The Detachment",
     "text": "Erosion is the detachment, entrainment, and transport of weathered rock material and regolith by mobile agents (running water, wind, glacial ice, waves) driven by gravity and kinetic energy; deposition is the settling of this transported sediment when the",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2708,7 +2739,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
      "Stream competence (maximum particle size transportable) varies with velocity (∝ V⁶ for bed load), so flood velocities (e"
     ],
-    "hint": "Straight from the 'Erosion' slide -- match the key terms.",
+    "hint": "Straight from the 'Erosion is the detachment' slide -- match the key terms.",
     "misconception": "A wrong answer confusing competence (size) with capacity (quantity) reveals the student cannot distinguish between the *maximum size* a river can move versus the *total volume* it can carry — a fundamental error in fluvial geomorphology.",
     "id": "gen_c11_geo_ch06_q5",
     "nodeId": "c11_geo_cbse_06_009",
@@ -2774,7 +2805,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow",
      "(1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and Srisailam dams came up, an 85 percent cut, (2) Delta damage"
     ],
-    "hint": "Straight from the 'delta' slide -- match the key terms.",
+    "hint": "Straight from the 'A delta is a depositional landform' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and",
     "id": "gen_c11_geo_ch06_q9",
     "nodeId": "c11_geo_cbse_07_004",
@@ -2783,11 +2814,11 @@ export const C11_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about delta?",
+    "What surprised you about a delta is a depositional landform?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Delta mastered! 🎯",
+  "successLine": "A Delta Is a Depositional mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3413,8 +3444,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "State the latitudinal and longitudinal extent of mainland India in degrees and minutes, and name the southernmost point of the Indian union (including islands).",
     "answer": "Mainland India: 8°4'N to 37°6'N latitude, 68°7'E to 97°25'E longitude. Southernmost point of the Indian union: Indira Point (6°45'N), Andaman & Nicobar Islands",
     "options": [
-     "Land neighbours (7): Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, Afghanistan. Maritime neighbours (2): Sri Lanka, Maldives",
-     "The four divisions north to south: (1) Himalayan Mountain System (~30°N–37°N), (2) Indo-Gangetic-Brahmaputra Plains (~23°N–30°N), (3) Peninsular Plateau (~8°N–23°N)",
+     "The student can calculate the time difference between any two Indian longitudes using the 1° = 4 minutes rule",
+     "Indian Standard Time (IST) is the uniform time observed across India, based on the local time of the Standard Meridian at 82°30'E longitude",
      "Mainland India: 8°4'N to 37°6'N latitude, 68°7'E to 97°25'E longitude. Southernmost point of the Indian union: Indira Point (6°45'N), Andaman & Nicobar Islands"
     ],
     "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
@@ -3425,33 +3456,33 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the strategic vulnerability of the \"Chicken's Neck\" (Siliguri Corridor) with that of the \"Siachen Glacier\" sector. Identify the common geographical factor that makes both sectors critical for India's internal connectivity and external defence.",
-    "answer": "The Siliguri Corridor (≈22 km wide) connects the Northeast to mainland India; its narrowness between Nepal and Bangladesh creates a choke point for road/rail links",
+    "question": "What common mix-up does this lesson flag about India's geographical location?",
+    "answer": "Students believe \"Kanyakumari (8°4'N) is India's southernmost point\" and \"the Tropic of Cancer passes through the middle of India",
     "options": [
-     "Mainland India extends from 68°7'E to 97°25'E, a span of ~29°18'. Since 1° longitude = 4 minutes, the time difference is 29.3° × 4 min/° ≈ 117 minutes (1 hour 57 minutes)",
-     "India's range = 29°2' entirely in Northern Hemisphere; Brazil's = 39°1' straddling equator. India's north lies in mid-latitudes (37°N) where seasonal solar altitude variation is",
-     "The Siliguri Corridor (≈22 km wide) connects the Northeast to mainland India; its narrowness between Nepal and Bangladesh creates a choke point for road/rail links"
+     "The student can delineate India's four physiographic divisions on an outline map with correct relative positioning",
+     "The student can state India's total area, land area, and water area; list all 28 states and 8 union territories with their capitals",
+     "Students believe \"Kanyakumari (8°4'N) is India's southernmost point\" and \"the Tropic of Cancer passes through the middle of India"
     ],
-    "hint": "Straight from the 'India shares its land boundary of' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on \"border disputes\" or \"altitude\" misses the geomorphological concept of \"choke points\" taught in Class 9 \"Landforms\" and Class 10 \"Transport Geography\".",
+    "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe \"Kanyakumari (8°4'N) is India's southernmost point\" and \"the Tropic of Cancer passes through the",
     "id": "gen_c11_geo_ch08_q17",
-    "nodeId": "c11_geo_cbse_08_002",
-    "difficulty": "advanced"
+    "nodeId": "c11_geo_cbse_08_001",
+    "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Evaluate the statement: \"The 1974 and 1976 India–Sri Lanka maritime boundary agreements successfully resolved all fishing disputes in the Palk Strait and Gulf of Mannar.\" Provide two pieces of evidence to support your judgement.",
-    "answer": "The statement is not fully correct. Evidence 1: The agreements delimited the International Maritime Boundary Line (IMBL) using the equidistance/median line principle and placed",
+    "question": "What is India's geographical location? State the definition given in this lesson.",
+    "answer": "India's geographical location is defined by its latitudinal extent from 8°4'N (Indira Point, Andaman & Nicobar Islands) to 37°6'N (Indira Col",
     "options": [
-     "The central longitude of India's extent (68°7'E to 97°25'E) is ~82°46'E, but 82°30'E was chosen because it is a multiple of 7°30' (half of 15°)",
-     "India's administrative divisions reflect its immense linguistic, cultural, ethnic, and geographical diversity",
-     "The statement is not fully correct. Evidence 1: The agreements delimited the International Maritime Boundary Line (IMBL) using the equidistance/median line principle and placed"
+     "The student can accurately label all seven land neighbours and two maritime neighbours on an outline map of India, state the approximate boundary length with each country",
+     "The student can accurately state India's latitudinal and longitudinal coordinates with correct degree-minute notation, locate the extreme points on a political map of India",
+     "India's geographical location is defined by its latitudinal extent from 8°4'N (Indira Point, Andaman & Nicobar Islands) to 37°6'N (Indira Col"
     ],
-    "hint": "Straight from the 'India shares its land boundary of' slide -- match the key terms.",
-    "misconception": "A wrong answer that calls the agreements \"fully successful\" ignores the ongoing humanitarian and livelihood dimension—a gap between legal delimitation and resource-use reality studied in Class 10 \"International Trade\" and Class 11 \"India's Coastline\".",
+    "hint": "Straight from the 'India's geographical location' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: India's geographical location is defined by its latitudinal extent from 8°4'N (Indira Point, Andaman & Nicobar Islands)",
     "id": "gen_c11_geo_ch08_q18",
-    "nodeId": "c11_geo_cbse_08_002",
-    "difficulty": "advanced"
+    "nodeId": "c11_geo_cbse_08_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -3751,7 +3782,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "answer": "The two subdivisions are the Central Highlands (north of Narmada-Son) and the Deccan Plateau (south)",
     "options": [
      "The three longitudinal divisions from north to south are: (1) Himadri (Greater Himalaya) — altitude 6,000–8,848 m; (2) Himachal (Lesser Himalaya) — altitude 3,700–4,500 m",
-     "The three divisions are: (1) Indus Plain – Indus River system, (2) Ganga Plain – Ganga River system, (3) Brahmaputra Plain – Brahmaputra River system",
+     "Student can: (1) delineate the six physiographic divisions on an outline map of India with correct spatial extent and boundary transitions",
      "The two subdivisions are the Central Highlands (north of Narmada-Son) and the Deccan Plateau (south)"
     ],
     "hint": "Straight from the 'Peninsular Plateau' slide -- match the key terms.",
@@ -3790,7 +3821,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the four subdivisions of the Western Coastal Plain from north to south and state the approximate width range of this plain.",
     "answer": "Kachchh & Kathiawar, Konkan, Kanara (or Karnataka), Malabar; width 50-60 km on average",
     "options": [
-     "Correct: Indian Plate subducting beneath the Burma Plate (a minor plate of the Eurasian Plate system) at a convergent oceanic-oceanic plate boundary",
+     "Student can: (1) delineate the six physiographic divisions on an outline map of India with correct spatial extent and boundary transitions",
      "The two subdivisions are the Central Highlands (north of Narmada-Son) and the Deccan Plateau (south)",
      "Kachchh & Kathiawar, Konkan, Kanara (or Karnataka), Malabar; width 50-60 km on average"
     ],
@@ -3895,6 +3926,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze how the juxtaposition of these",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "delineate the six physiographic divisions",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the geological criteria",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) delineate the six physiographic divisions on an outline map of India with correct spatial extent and",
+    "id": "gen_c11_geo_ch09_q11",
+    "nodeId": "c11_geo_cbse_09_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Compare the floodplain characteristics of the Ganga Plain (middle Ganga) and the Brahmaputra Plain. Why does the Brahmaputra Plain experience more frequent channel avulsion?",
     "sortItems": [
      {
@@ -3935,7 +4012,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"earthquakes\" as the primary cause misses the dominant fluvial-geomorphological controls.",
-    "id": "gen_c11_geo_ch09_q11",
+    "id": "gen_c11_geo_ch09_q12",
     "nodeId": "c11_geo_cbse_09_004",
     "difficulty": "standard"
    },
@@ -3981,9 +4058,55 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer that ignores the rainfall/alluvium depth difference shows inability to integrate physical and human geography factors.",
-    "id": "gen_c11_geo_ch09_q12",
+    "id": "gen_c11_geo_ch09_q13",
     "nodeId": "c11_geo_cbse_09_004",
     "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "differentiate the geological origin",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain how their distinct origins control",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "correlate island physiography with human",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) differentiate the geological origin, structure, and physiography of both island groups on a map and in",
+    "id": "gen_c11_geo_ch09_q14",
+    "nodeId": "c11_geo_cbse_09_008",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
@@ -3996,7 +4119,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: | Division | Basement Rock Age | Sediment Thickness | Tectonic Setting |",
-    "id": "gen_c11_geo_ch09_q13",
+    "id": "gen_c11_geo_ch09_q15",
     "nodeId": "c11_geo_cbse_09_001",
     "difficulty": "advanced"
    },
@@ -4011,7 +4134,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
     "misconception": "A wrong evaluation treats \"low elevation\" as the sole criterion, ignoring the genetic process-structure-sediment triad that defines physiographic units.",
-    "id": "gen_c11_geo_ch09_q14",
+    "id": "gen_c11_geo_ch09_q16",
     "nodeId": "c11_geo_cbse_09_001",
     "difficulty": "advanced"
    },
@@ -4026,7 +4149,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected cross-section (left to right): 1. Northern Plains: Thick alluvium (8 km) over Precambrian basement (deeply",
-    "id": "gen_c11_geo_ch09_q15",
+    "id": "gen_c11_geo_ch09_q17",
     "nodeId": "c11_geo_cbse_09_001",
     "difficulty": "advanced"
    },
@@ -4041,36 +4164,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates *topographic* classification (elevation-based) with *physiographic* classification (geological structure + relief + evolutionary history).",
-    "id": "gen_c11_geo_ch09_q16",
-    "nodeId": "c11_geo_cbse_09_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "The Aravalli Range is often included in the Peninsular Plateau division, yet it runs northeast-southwest across Rajasthan, separating the Thar Desert from the plateau interior.",
-    "answer": "The Aravallis are a relict fold mountain range composed of Precambrian rocks (Aravalli-Delhi Supergroup) that are an *integral part of the Peninsular shield's northern margin*",
-    "options": [
-     "The Narmada-Son lineament is a Precambrian crustal fracture reactivated as a graben (rift valley) during Himalayan collision, providing a structural low for west-flowing rivers",
-     "Core zone (bustard breeding): no tourism, strict protection. Buffer zone: guided walking/birding trails Oct–Mar (avoid summer heat and monsoon breeding), max 20 visitors/day",
-     "The Aravallis are a relict fold mountain range composed of Precambrian rocks (Aravalli-Delhi Supergroup) that are an *integral part of the Peninsular shield's northern margin*"
-    ],
-    "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates the student mistakes *geomorphic prominence* (ridge line, rain shadow) for *tectonostratigraphic distinctiveness*—a common error when prioritizing current landform expression over geological origin.",
-    "id": "gen_c11_geo_ch09_q17",
-    "nodeId": "c11_geo_cbse_09_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Using the concept of isostatic compensation, explain why the Himalayan Mountains (mean elevation ~6,000 m) and the Peninsular Plateau (mean elevation ~600 m) can both be in gravitational equilibrium despite their vastly different surface elevations. Assume crustal density = 2.8 g/cm³ and mantle density = 3.3 g/cm³.",
-    "answer": "Step 1: Recall Airy's isostasy: mountains have deep roots. Root depth *r* = (ρ_crust / (ρ_mantle - ρ_crust)) × surface height *h*",
-    "options": [
-     "The Narmada-Son lineament is a Precambrian crustal fracture reactivated as a graben (rift valley) during Himalayan collision, providing a structural low for west-flowing rivers",
-     "Error 1: The Brahmaputra Plain does not extend to the Purvanchal hills; it is bounded by the Patkai-Bum hills to the east and the Shillong Plateau to the south",
-     "Step 1: Recall Airy's isostasy: mountains have deep roots. Root depth *r* = (ρ_crust / (ρ_mantle - ρ_crust)) × surface height *h*"
-    ],
-    "hint": "Straight from the 'Physiographic divisions of India' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"Peninsula is denser\") shows confusion between *crustal thickness* and *surface elevation*, ignoring the buoyancy principle.",
     "id": "gen_c11_geo_ch09_q18",
     "nodeId": "c11_geo_cbse_09_001",
     "difficulty": "advanced"
@@ -4653,6 +4746,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain the bio-geographic basis for",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "Analyze the effectiveness of conservation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "Map the core habitats of at least 5",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) Explain the bio-geographic basis for wildlife distribution in India using climate-vegetation-wildlife",
+    "id": "gen_c11_geo_ch10_q10",
+    "nodeId": "c11_geo_cbse_10_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Evaluate the effectiveness of the Pradhan Mantri Fasal Bima Yojana (PMFBY) as a climate risk management tool for smallholders in Marathwada, considering: (i) basis risk from weather station density, (ii) actuarial premium vs.",
     "sortItems": [
      {
@@ -4693,7 +4832,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer citing \"scheme exists therefore works\" ignores implementation geography.",
-    "id": "gen_c11_geo_ch10_q10",
+    "id": "gen_c11_geo_ch10_q11",
     "nodeId": "c11_geo_cbse_10_008",
     "difficulty": "advanced"
    },
@@ -4708,7 +4847,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Indian monsoon' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens.",
-    "id": "gen_c11_geo_ch10_q11",
+    "id": "gen_c11_geo_ch10_q12",
     "nodeId": "c11_geo_cbse_10_002",
     "difficulty": "advanced"
    },
@@ -4723,7 +4862,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Distribution of rainfall in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both get rain from the same monsoon\") reveals the student conflates the two monsoon seasons and ignores the rain-shadow effect of the Western Ghats on the eastern peninsula.",
-    "id": "gen_c11_geo_ch10_q12",
+    "id": "gen_c11_geo_ch10_q13",
     "nodeId": "c11_geo_cbse_10_004",
     "difficulty": "advanced"
    },
@@ -4734,12 +4873,12 @@ export const C11_GEO_GEN: SimDef[] = [
     "options": [
      "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought",
      "LGP = 123 days (June 15 to October 15 inclusive). However, Vertisols have high water holding capacity (200-250 mm/m) but very low infiltration rate when dry and swell-shrink",
-     "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: TEJ squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) =",
+     "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Sundari squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) =",
      "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Deviations squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) ="
     ],
     "hint": "Straight from the 'Distribution of rainfall in India' slide -- match the key terms.",
     "misconception": "A wrong CV (e.g., using n-1 denominator or miscalculating mean) reveals computational error; misinterpreting CV < 10% as \"safe\" reveals ignorance of the threshold for rainfed agriculture.",
-    "id": "gen_c11_geo_ch10_q13",
+    "id": "gen_c11_geo_ch10_q14",
     "nodeId": "c11_geo_cbse_10_004",
     "difficulty": "advanced"
    },
@@ -4748,13 +4887,13 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "State the approximate annual rainfall received at Mawsynram (Meghalaya) and Jaisalmer (Rajasthan), and name the primary physiographic feature responsible for this contrast.",
     "answer": "Mawsynram receives ~2,500–2,600 mm (world's highest average), while Jaisalmer receives ~100–150 mm",
     "options": [
+     "Misconception: \"Wildlife distribution in India follows state boundaries or political maps — e.g., 'Tigers are in Madhya Pradesh, Lions in Gujarat, Rhinos in Assam'",
      "The Asiatic Lion is restricted to the Gujarat-Rajputana bio-geographic zone (specifically the Kathiawar peninsula)",
-     "The statement is incorrect. While the Sundarbans receive ~180 cm rainfall, mangroves occupy the intertidal zone where daily tidal inundation brings saline water (15-35 ppt)",
      "Mawsynram receives ~2,500–2,600 mm (world's highest average), while Jaisalmer receives ~100–150 mm"
     ],
     "hint": "Straight from the 'Distribution of rainfall in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., attributing Jaisalmer's aridity to latitude or distance from sea alone) reveals the student misses the critical role of wind-mountain geometry — the Aravallis run SW-NE, parallel to the Arabian Sea branch, so they do not force uplift.",
-    "id": "gen_c11_geo_ch10_q14",
+    "id": "gen_c11_geo_ch10_q15",
     "nodeId": "c11_geo_cbse_10_004",
     "difficulty": "advanced"
    },
@@ -4769,7 +4908,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Köppen Climate Classification' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Step 1: Coldest month (Jan) = -1.2°C → between -3°C and 18°C → First letter = D (cold/snow climate, not C).",
-    "id": "gen_c11_geo_ch10_q15",
+    "id": "gen_c11_geo_ch10_q16",
     "nodeId": "c11_geo_cbse_10_005",
     "difficulty": "advanced"
    },
@@ -4778,13 +4917,13 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Compare the floristic composition and structural adaptations of Tropical Moist Deciduous and Tropical Dry Deciduous forests. Explain how the difference in dry-season length (2-3 months vs. 4-6 months) selects for different survival strategies in dominant species like Teak (Tectona grandis) and Sal (Shorea robusta).",
     "answer": "Moist Deciduous (100-200 cm, 2-3 dry months): Dominated by Sal (Shorea robusta), Teak, Bamboo; taller canopy (30-45 m), denser understorey",
     "options": [
-     "Mawsynram receives ~2,500–2,600 mm (world's highest average), while Jaisalmer receives ~100–150 mm",
-     "PMFBY has limited effectiveness in Marathwada due to: (i) IMD weather station density ~1 per 500 km² vs",
+     "Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens",
+     "Student can: (1) Explain the bio-geographic basis for wildlife distribution in India using climate-vegetation-wildlife linkages",
      "Moist Deciduous (100-200 cm, 2-3 dry months): Dominated by Sal (Shorea robusta), Teak, Bamboo; taller canopy (30-45 m), denser understorey"
     ],
     "hint": "Straight from the 'Natural vegetation' slide -- match the key terms.",
     "misconception": "A wrong answer listing species without explaining the physiological mechanism (leaf phenology, root architecture, bark thickness as adaptations to water stress duration) shows superficial memorisation without ecological reasoning.",
-    "id": "gen_c11_geo_ch10_q16",
+    "id": "gen_c11_geo_ch10_q17",
     "nodeId": "c11_geo_cbse_10_006",
     "difficulty": "advanced"
    },
@@ -4799,23 +4938,8 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Natural vegetation' slide -- match the key terms.",
     "misconception": "A wrong answer accepting the statement reveals confusion between climatic vegetation (rainfall-driven) and azonal vegetation (edaphic/hydrologic-driven), a critical distinction in vegetation geography.",
-    "id": "gen_c11_geo_ch10_q17",
-    "nodeId": "c11_geo_cbse_10_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Given the following data for a hypothetical Protected Area (PA) in the Western Ghats: - Area: 850 km² - Core Tiger Habitat (Critical Tiger Habitat): 420 km² - Buffer Zone: 430 km² - Tiger density in core: 4.",
-    "answer": "Step 1: Core area = 420 km². Tiger density = 4.2/100 km². Estimated tigers = (420/100) × 4.2 = 17.64 ≈ 18 tigers",
-    "options": [
-     "The Indian Rhino is an obligate grazer adapted to tall, wet alluvial grasslands (Saccharum spontaneum, Phragmites",
-     "Chennai: maritime moderation dominates (small range). Hyderabad: continentality dominates — 600km from sea allows land to heat/cool rapidly",
-     "Step 1: Core area = 420 km². Tiger density = 4.2/100 km². Estimated tigers = (420/100) × 4.2 = 17.64 ≈ 18 tigers"
-    ],
-    "hint": "Straight from the 'Wildlife of India' slide -- match the key terms.",
-    "misconception": "A wrong calculation (e.g., using total PA area 850 km² for density) reveals the student does not distinguish between Core (inviolate) and Buffer (multiple-use) zones in Tiger Reserve design — a critical policy distinction under the Wildlife Protection Act Amendment 2006.",
     "id": "gen_c11_geo_ch10_q18",
-    "nodeId": "c11_geo_cbse_10_007",
+    "nodeId": "c11_geo_cbse_10_006",
     "difficulty": "advanced"
    }
   ],
@@ -4874,31 +4998,31 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Earthquake",
+    "title": "An Earthquake Is a Sudden Release",
     "text": "An earthquake is a sudden release of accumulated strain energy in the Earth's crust that generates seismic waves, caused primarily by tectonic plate movements along faults, volcanic activity, or human-induced factors.",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Tsunami",
+    "title": "Tsunami Is a Series Of Long-wavelength",
     "text": "A tsunami is a series of long-wavelength, long-period ocean waves generated by the sudden vertical displacement of a large volume of water, typically caused by undersea earthquakes at subduction zones, submarine landslides, volcanic eruptions, or meteorite",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Flood",
+    "title": "Flood Is An Overflow Of Water",
     "text": "Flood is an overflow of water onto normally dry land caused by excessive rainfall, river overflow, dam failure, or storm surge, exceeding the carrying capacity of drainage channels and floodplains.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Drought",
+    "title": "Drought Is a Prolonged Period",
     "text": "Drought is a prolonged period of abnormally low precipitation leading to a shortage of water that adversely affects ecosystems, agriculture, and human activities; it is classified into meteorological (deficit in rainfall), hydrological (deficit in",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Landslide",
+    "title": "Landslide Is The Rapid",
     "text": "A landslide is the rapid, gravity-driven downslope movement of a mass of rock, debris, or earth along a distinct failure surface. In the Himalayas, landslides are triggered by the interplay of tectonic activity (active convergence, seismic shaking), steep",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5152,11 +5276,11 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define meteorological drought and state the IMD's criterion for declaring it at the meteorological subdivision level.",
     "answer": "Meteorological drought occurs when seasonal rainfall is significantly below the long-term average",
     "options": [
-     "A natural hazard is a potentially damaging physical event (e.g., earthquake, cyclone); a natural disaster is the severe societal disruption caused when that hazard strikes a",
-     "A seismic zone in India (per IS 1893) is a geographical region classified based on the maximum expected earthquake intensity on the Modified Mercalli Scale",
+     "The student can identify flood-prone regions on an outline map of India, explain the meteorological and anthropogenic causes of flooding in each region",
+     "The student can distinguish between the three drought types using specific indicators (rainfall deficit, reservoir levels, soil moisture)",
      "Meteorological drought occurs when seasonal rainfall is significantly below the long-term average"
     ],
-    "hint": "Straight from the 'Drought' slide -- match the key terms.",
+    "hint": "Straight from the 'Drought is a prolonged period' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing it with water shortage in dams) reveals the student cannot distinguish the atmospheric trigger from its downstream hydrological consequences.",
     "id": "gen_c11_geo_ch11_q5",
     "nodeId": "c11_geo_cbse_11_005",
@@ -5603,8 +5727,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define \"natural hazard\" and \"natural disaster\" in your own words, and state the single most critical factor that converts a hazard into a disaster.",
     "answer": "A natural hazard is a potentially damaging physical event (e.g., earthquake, cyclone); a natural disaster is the severe societal disruption caused when that hazard strikes a",
     "options": [
-     "A seismic zone in India (per IS 1893) is a geographical region classified based on the maximum expected earthquake intensity on the Modified Mercalli Scale",
-     "A tsunami is a series of long-wavelength ocean waves caused by sudden vertical displacement of the water column",
+     "The student can precisely differentiate between a natural hazard and a natural disaster using the vulnerability-exposure framework",
+     "Disaster management is the systematic process of planning, organizing, and implementing measures to mitigate the impact of natural hazards",
      "A natural hazard is a potentially damaging physical event (e.g., earthquake, cyclone); a natural disaster is the severe societal disruption caused when that hazard strikes a"
     ],
     "hint": "Straight from the 'natural hazard' slide -- match the key terms.",
@@ -5675,18 +5799,18 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Analyse the seismic zone map of India and explain why the Indo-Gangetic Plain (Punjab to Assam) falls in Zone IV despite being on thick alluvium far from the Himalayan thrust front.",
-    "answer": "The Indo-Gangetic Plain is Zone IV due to: (1) Proximity to Himalayan thrusts (Main Frontal Thrust) — seismic energy radiates into the foreland basin",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can precisely differentiate between a natural hazard and a natural disaster using the vulnerability-exposure framework",
     "options": [
-     "Kutch lies in Zone V due to intraplate seismicity along the Kutch Rift Basin, a failed Mesozoic rift reactivated by northward compressional stress from the India-Eurasia collision",
-     "Inaccuracies: (1) \"Natural disaster\" implies the disaster itself is natural; correctly, the *cloudburst* was the natural hazard, the *flood* was the resulting disaster",
-     "The Indo-Gangetic Plain is Zone IV due to: (1) Proximity to Himalayan thrusts (Main Frontal Thrust) — seismic energy radiates into the foreland basin"
+     "The student can explain the mechanism of earthquake generation at different plate boundaries, interpret the seismic zone map of India to identify high-risk regions",
+     "A tsunami is a series of long-wavelength ocean waves caused by sudden vertical displacement of the water column",
+     "The student can precisely differentiate between a natural hazard and a natural disaster using the vulnerability-exposure framework"
     ],
-    "hint": "Straight from the 'earthquake' slide -- match the key terms.",
-    "misconception": "A wrong answer citing \"soil type only\" or \"distance from mountains\" misses the combined tectonic proximity, basin amplification, and hidden fault hazards.",
+    "hint": "Straight from the 'natural hazard' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can precisely differentiate between a natural hazard and a natural disaster using the",
     "id": "gen_c11_geo_ch11_q18",
-    "nodeId": "c11_geo_cbse_11_002",
-    "difficulty": "advanced"
+    "nodeId": "c11_geo_cbse_11_001",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -5701,14 +5825,14 @@ export const C11_GEO_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_geo_ch12",
-  "title": "Soil",
+  "title": "Soil Is a Dynamic Natural Body Composed",
   "subtitle": "Geography · Chapter 12",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Soil",
+  "topic": "Soil Is a Dynamic Natural Body Composed Of Mineral P",
   "chapters": [
-   "Geography Ch12: Soil"
+   "Geography Ch12: Soil Is a Dynamic Natural Body Composed Of Mineral P"
   ],
   "nodeIds": [
    "c11_geo_cbse_12_001",
@@ -5728,7 +5852,7 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Soil more about facts, or about reasoning?",
+   "question": "Is Soil Is a Dynamic Natural Body more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -5739,7 +5863,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Soil",
+    "title": "Soil Is a Dynamic Natural Body Composed",
     "text": "Soil is a dynamic natural body composed of mineral particles, organic matter, water, air, and living organisms that forms on the earth's surface through the process of pedogenesis, where weathered parent material is transformed by the combined action of",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -6072,8 +6196,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the parent rock of Black Soil and the specific clay mineral responsible for its swell-shrink behaviour.",
     "answer": "Parent rock: Deccan Trap basalt. Clay mineral: montmorillonite (a smectite group mineral)",
     "options": [
-     "Calcium carbonate (CaCO₃) and gypsum (CaSO₄·2H₂O) accumulate in the Bk horizon due to capillary rise and evaporation exceeding precipitation",
-     "Pedogenesis is the process of soil formation from parent material through the interaction of five factors: Climate (C), Organisms (O), Relief/Topography (R), Parent Material (P)",
+     "Soil is a dynamic natural body composed of mineral particles, organic matter, water, air, and living organisms that forms on the earth's surface through the process of",
+     "Correct sequence: O (organic accumulation — humification), A (mineral-organic mixing — bioturbation/humification), B (illuviation/accumulation",
      "Parent rock: Deccan Trap basalt. Clay mineral: montmorillonite (a smectite group mineral)"
     ],
     "hint": "Straight from the 'Black Soil' slide -- match the key terms.",
@@ -6093,8 +6217,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "State the primary parent rock types and the specific iron oxide minerals responsible for the red and yellow colours in these soils.",
     "answer": "Primary parent rocks: granite, gneiss, schist (crystalline and metamorphic). Red colour: haematite (Fe₂O₃) from oxidation under well-drained conditions",
     "options": [
-     "Pedogenesis is the process of soil formation from parent material through the interaction of five factors: Climate (C), Organisms (O), Relief/Topography (R), Parent Material (P)",
-     "The eight groups are: 1) Alluvial (light grey to ash grey), 2) Black (deep black), 3) Red (red to reddish-brown), 4) Laterite (brick red), 5) Forest/Mountain (dark brown)",
+     "Red and yellow soils are zonal soil groups developed primarily through the weathering of crystalline and metamorphic rocks (granite, gneiss",
+     "Students conflate red soils with laterite soils because both appear reddish",
      "Primary parent rocks: granite, gneiss, schist (crystalline and metamorphic). Red colour: haematite (Fe₂O₃) from oxidation under well-drained conditions"
     ],
     "hint": "Straight from the 'Red and yellow soils' slide -- match the key terms.",
@@ -6653,7 +6777,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Investigation design: Dig 2 m pit, describe horizons at 10 cm intervals. Measure: (1) Particle size distribution (PSD) — abrupt textural change (e",
      "Dominant processes: (1) Weathering of granite releases quartz, feldspar, mica; (2) Humification in wet season creates dark A horizon"
     ],
-    "hint": "Straight from the 'Soil' slide -- match the key terms.",
+    "hint": "Straight from the 'Soil is a dynamic natural body' slide -- match the key terms.",
     "misconception": "A wrong answer missing eluviation/illuviation indicates the student does not grasp vertical material movement as a core pedogenic mechanism.",
     "id": "gen_c11_geo_ch12_q18",
     "nodeId": "c11_geo_cbse_12_001",
@@ -6662,11 +6786,11 @@ export const C11_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about soil?",
+    "What surprised you about soil is a dynamic natural body composed of mineral p?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Soil mastered! 🎯",
+  "successLine": "Soil Is a Dynamic Natural mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6733,7 +6857,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Khadins",
+    "title": "Khadins Are Earthen Embankments Built Across",
     "text": "Khadins are earthen embankments built across sloping plains in the Thar Desert (Jaisalmer, Barmer) to capture monsoon runoff for seasonal agriculture, while Tankas are covered underground cisterns lined with lime plaster in Bikaner and Phalodi regions that",
     "emoji": "🌍",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6751,7 +6875,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Dams",
+    "title": "Dams Are Hydraulic Structures Built Across",
     "text": "Dams are hydraulic structures built across rivers to impound water, creating reservoirs for multipurpose uses including irrigation, hydroelectric power generation, flood control, and water supply.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -6866,8 +6990,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the river on which the Damodar Valley Corporation project is built and state the two Indian states through which this river flows.",
     "answer": "The Damodar Valley Corporation project is built on the Damodar River, which flows through Jharkhand and West Bengal",
     "options": [
-     "River: Sutlej (Indus tributary). Dams: Bhakra Dam (Himachal Pradesh) and Nangal Dam (Punjab). Reservoir: Gobind Sagar",
-     "Major surface water sources: (1) Himalayan rivers (perennial, snow-fed), (2) Peninsular rivers (seasonal, rain-fed), (3) Reservoirs/tanks, (4) Natural lakes and wetlands",
+     "Students believe inter-state water conflicts are primarily caused by \"upstream states stealing water\" — a moral/geopolitical narrative",
+     "The student can evaluate the trade-offs of a specific Indian dam project by quantifying benefits (irrigated area in hectares, installed capacity in MW",
      "The Damodar Valley Corporation project is built on the Damodar River, which flows through Jharkhand and West Bengal"
     ],
     "hint": "Straight from the 'Damodar Valley Corporation' slide -- match the key terms.",
@@ -7152,6 +7276,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate a specific conflict",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify water scarcity into physical",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the constitutional and institutional",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) classify water scarcity into physical and economic types using basin-level data (e.",
+    "id": "gen_c11_geo_ch13_q11",
+    "nodeId": "c11_geo_cbse_13_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Design a rehabilitation and ecological mitigation plan for a proposed 150 m high dam on the Subansiri River (Arunachal Pradesh) that would submerge 3,000 hectares of tropical forest and displace 5,000 Adi tribal families.",
     "sortItems": [
      {
@@ -7214,7 +7384,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer focusing only on cash compensation or ignoring environmental flows shows the student cannot translate geographical concepts (flow regime, tribal tenure, seismic hazard) into actionable policy design.",
-    "id": "gen_c11_geo_ch13_q11",
+    "id": "gen_c11_geo_ch13_q12",
     "nodeId": "c11_geo_cbse_13_008",
     "difficulty": "advanced"
    },
@@ -7260,7 +7430,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., calculating trapped sediment as 15% or confusing outflow with trapped amount) reveals the student cannot apply the sediment trap efficiency concept to quantify downstream geomorphic impact.",
-    "id": "gen_c11_geo_ch13_q12",
+    "id": "gen_c11_geo_ch13_q13",
     "nodeId": "c11_geo_cbse_13_008",
     "difficulty": "advanced"
    },
@@ -7275,7 +7445,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
     "misconception": "A wrong answer treating both basins as similar ignores the fundamental control of river regime on water resource strategy.",
-    "id": "gen_c11_geo_ch13_q13",
+    "id": "gen_c11_geo_ch13_q14",
     "nodeId": "c11_geo_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7290,7 +7460,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
     "misconception": "A poor answer lists techniques without linking to hard rock hydrogeology (low storage, rapid runoff, fracture-dependent recharge) or ignores social governance.",
-    "id": "gen_c11_geo_ch13_q14",
+    "id": "gen_c11_geo_ch13_q15",
     "nodeId": "c11_geo_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7305,7 +7475,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
     "misconception": "A wrong answer blaming only rainfall or only policy shows failure to distinguish between resource endowment and management failure.",
-    "id": "gen_c11_geo_ch13_q15",
+    "id": "gen_c11_geo_ch13_q16",
     "nodeId": "c11_geo_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7320,7 +7490,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
     "misconception": "A wrong answer attributing variation only to rainfall ignores the critical role of geology in controlling extractable groundwater.",
-    "id": "gen_c11_geo_ch13_q16",
+    "id": "gen_c11_geo_ch13_q17",
     "nodeId": "c11_geo_cbse_13_001",
     "difficulty": "standard"
    },
@@ -7329,27 +7499,12 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "List the four major sources of surface water in India and name the two primary sources of groundwater recharge.",
     "answer": "Major surface water sources: (1) Himalayan rivers (perennial, snow-fed), (2) Peninsular rivers (seasonal, rain-fed), (3) Reservoirs/tanks, (4) Natural lakes and wetlands",
     "options": [
-     "Khadins (agricultural runoff farming in Jaisalmer/Barmer) and Tankas (domestic rooftop storage in Bikaner/Phalodi)",
-     "(1) Irrigation — Bhakra-Nangal Dam (Sutlej) enables irrigation of ~1.4 million hectares in Punjab, Haryana, Rajasthan",
+     "Physical water scarcity: demand exceeds renewable freshwater resources due to arid climate or low runoff (e",
+     "Students believe that \"run-of-the-river\" dams have negligible environmental impact because they store little water",
      "Major surface water sources: (1) Himalayan rivers (perennial, snow-fed), (2) Peninsular rivers (seasonal, rain-fed), (3) Reservoirs/tanks, (4) Natural lakes and wetlands"
     ],
     "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
     "misconception": "A wrong answer that includes \"glaciers\" as a direct surface water source (instead of feeding rivers) or misses canal seepage reveals confusion between primary sources and derived flows, or ignorance of human-induced recharge.",
-    "id": "gen_c11_geo_ch13_q17",
-    "nodeId": "c11_geo_cbse_13_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Using the concept of \"utilisable surface water potential\" (690 km³) and \"total surface water potential\" (1,869 km³), calculate the percentage of surface water that is actually utilisable. Then explain why this percentage is low, citing three specific geographical constraints.",
-    "answer": "Step 1: Identify total potential = 1,869 km³, utilisable = 690 km³. Step 2: Calculate (690/1,869) × 100 = 36",
-    "options": [
-     "Steps: 1. Sinuosity Index = Actual Channel Length / Straight-Line Distance = 280 km / 150 km = 1.87",
-     "Canal water reaches only 30% of Thar; tail-end villages get saline water (EC > 4 dS/m) unfit for irrigation",
-     "Step 1: Identify total potential = 1,869 km³, utilisable = 690 km³. Step 2: Calculate (690/1,869) × 100 = 36"
-    ],
-    "hint": "Straight from the 'Surface water in India comprises' slide -- match the key terms.",
-    "misconception": "A wrong calculation or listing only \"lack of dams\" reveals inability to quantify the gap and misunderstanding of physical vs. socio-legal constraints.",
     "id": "gen_c11_geo_ch13_q18",
     "nodeId": "c11_geo_cbse_13_001",
     "difficulty": "standard"
@@ -7446,7 +7601,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Forests",
+    "title": "Forests Are Complex Ecosystems Comprising",
     "text": "Forests are complex ecosystems comprising diverse biotic communities (trees, shrubs, herbs, fauna, microorganisms) and abiotic components (soil, water, climate) that provide indispensable ecological services — carbon sequestration, hydrological regulation,",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -7643,17 +7798,58 @@ export const C11_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "State the exact annual rainfall range (in cm) and mean annual temperature condition (in °C) that define the Tropical Thorn Forest and Scrub zone in India according to NCERT classification.",
-    "answer": "Annual rainfall < 70 cm and mean annual temperature > 25°C. Misconception Diagnosis: If a student answers \"50-100 cm\" or \"25-30°C\"",
-    "options": [
-     "Natural vegetation is plant cover that grows without human aid and remains undisturbed long enough to reach climatic climax",
-     "*Heritiera fomes* (Sundari), *Excoecaria agallocha* (Gewa), *Ceriops decandra* (Goran), *Sonneratia apetala* (Keora). Sundari is the local name for *Heritiera fomes*",
-     "Annual rainfall < 70 cm and mean annual temperature > 25°C. Anthropogenic: If a student answers \"50-100 cm\" or \"25-30°C\"",
-     "Annual rainfall < 70 cm and mean annual temperature > 25°C. Misconception Diagnosis: If a student answers \"50-100 cm\" or \"25-30°C\""
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "identify the core distribution belt",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "list 5+ characteristic genera",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "differentiate",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s3",
+      "label": "delineate the climatic envelope",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
     ],
-    "hint": "Straight from the 'Tropical Thorn Forests and Scrubs' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Annual rainfall < 70 cm and mean annual temperature > 25°C. Misconception Diagnosis: If a student answers \"50-100 cm\"",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) delineate the climatic envelope (rainfall < 70 cm, temperature > 25°C) on a climatic map of India,",
     "id": "gen_c11_geo_ch14_q4",
     "nodeId": "c11_geo_cbse_14_004",
     "difficulty": "standard",
@@ -7806,8 +8002,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "What is the minimum tree canopy density and area required for a land to be classified as 'forest cover' in the India State of Forest Report?",
     "answer": "More than 10% tree canopy density and area more than 1 hectare",
     "options": [
-     "(1) Watershed regulation — forests intercept monsoon rainfall, reduce runoff, and recharge aquifers feeding rivers like Kaveri/Godavari that irrigate plains",
-     "Natural vegetation is plant cover that grows without human aid and remains undisturbed long enough to reach climatic climax",
+     "Minimum 200 cm annual rainfall; maximum 0-1 dry months (no month with <6 cm rainfall); characteristic species: Rosewood (Dalbergia latifolia) or Ebony (Diospyros ebenum) or",
+     "Forest cover in India refers to all lands more than one hectare in area with a tree canopy density of more than 10%, irrespective of ownership and legal status",
      "More than 10% tree canopy density and area more than 1 hectare"
     ],
     "hint": "Straight from the 'Forest cover in India' slide -- match the key terms.",
@@ -8174,6 +8370,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why western and eastern Himalayan",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "annotate a cross-section of the Himalayas",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "calculate the expected temperature at any",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) calculate the expected temperature at any altitude using the normal lapse rate and identify the",
+    "id": "gen_c11_geo_ch14_q15",
+    "nodeId": "c11_geo_cbse_14_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Design a community-led mangrove restoration plan for a 50-ha degraded site in the Sundarbans buffer zone. Specify: species selection criteria, hydrological restoration steps, livelihood integration, and a 5-year monitoring protocol with 3 measurable indicators.",
     "sortItems": [
      {
@@ -8225,7 +8467,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Expected criteria: (1) Species: *Avicennia officinalis* (pioneer, high salinity tolerance), *Excoecaria agallocha*",
-    "id": "gen_c11_geo_ch14_q15",
+    "id": "gen_c11_geo_ch14_q16",
     "nodeId": "c11_geo_cbse_14_006",
     "difficulty": "advanced"
    },
@@ -8282,7 +8524,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer citing \"protection works\" without data reveals uncritical acceptance of policy labels over empirical outcomes — a senior-secondary error.",
-    "id": "gen_c11_geo_ch14_q16",
+    "id": "gen_c11_geo_ch14_q17",
     "nodeId": "c11_geo_cbse_14_006",
     "difficulty": "advanced"
    },
@@ -8350,24 +8592,9 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Wrong answer (e.g., using only timber revenue) ignores that plantations sequester less carbon, increase runoff, and reduce biodiversity — revealing failure to apply full-cost accounting.",
-    "id": "gen_c11_geo_ch14_q17",
+    "id": "gen_c11_geo_ch14_q18",
     "nodeId": "c11_geo_cbse_14_008",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the climatic envelopes of Tropical Dry Deciduous and Tropical Thorn forests. Explain why the latter replaces the former along a rainfall gradient from east to west in the Deccan Plateau.",
-    "answer": "Tropical Dry Deciduous: 75-100 cm rainfall, dry season 5-6 months. Tropical Thorn: <75 cm rainfall, dry season >6 months",
-    "options": [
-     "Western Ghats (8°-21°N) experience orographic rainfall from SW monsoon on windward slopes, creating a narrow belt with strong altitudinal zonation",
-     "The Western Ghats receive heavy orographic rainfall (250-400 cm) from the Southwest Monsoon, have continuous high elevation, and are a biodiversity hotspot with protected areas",
-     "Tropical Dry Deciduous: 75-100 cm rainfall, dry season 5-6 months. Tropical Thorn: <75 cm rainfall, dry season >6 months"
-    ],
-    "hint": "Straight from the 'Natural vegetation' slide -- match the key terms.",
-    "misconception": "A student who attributes the change solely to temperature or soil misses the primary driver: decreasing moisture availability and increasing aridity index.",
-    "id": "gen_c11_geo_ch14_q18",
-    "nodeId": "c11_geo_cbse_14_001",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -8473,8 +8700,9 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "List the four global biodiversity hotspots that extend into India and name one endemic mammal species from each.",
     "answer": "The four hotspots are: 1) Himalaya (e.g., Himalayan musk deer *Moschus leucogaster*), 2) Western Ghats (e",
     "options": [
-     "The three zones are: Core Zone (strictly protected, no human activity), Buffer Zone (surrounds core, allows research, education, limited recreation)",
-     "Poaching is the illegal hunting, capturing, or killing of wild animals protected under the Wildlife Protection Act (1972), including trade in their derivatives",
+     "Student can explain the schedule-wise protection hierarchy of the Wildlife Protection Act (1972) with examples of species under each schedule",
+     "In-situ conservation is the protection of ecosystems, natural habitats, and viable populations of species in their original surroundings",
+     "The four hotspots are: 1) Himalaya (e.g., Himalayan musk deer *IUCN Red List leucogaster*), 2) Western Ghats (e",
      "The four hotspots are: 1) Himalaya (e.g., Himalayan musk deer *Moschus leucogaster*), 2) Western Ghats (e"
     ],
     "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
@@ -8920,6 +9148,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain how habitat fragmentation creates",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate the relative contribution",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "classify the six major drivers of species",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) classify the six major drivers of species decline in India with specific mechanisms for each, (2)",
+    "id": "gen_c11_geo_ch15_q9",
+    "nodeId": "c11_geo_cbse_15_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Design a conservation plan for a hypothetical landscape where a tiger reserve and an elephant reserve overlap partially in central India. Specify three spatial interventions that serve both species and justify each using ecological principles.",
     "sortItems": [
      {
@@ -8960,7 +9234,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer criteria: (1) Identify and legally notify the overlapping zone as a \"core conservation area\" with enhanced",
-    "id": "gen_c11_geo_ch15_q9",
+    "id": "gen_c11_geo_ch15_q10",
     "nodeId": "c11_geo_cbse_15_003",
     "difficulty": "standard"
    },
@@ -9017,7 +9291,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is flawed. Protected areas cover ~5.26% of India's land area; many are small, isolated, and suffer from",
-    "id": "gen_c11_geo_ch15_q10",
+    "id": "gen_c11_geo_ch15_q11",
     "nodeId": "c11_geo_cbse_15_006",
     "difficulty": "advanced"
    },
@@ -9096,7 +9370,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer omits connectivity measures, ignores legal categories, or proposes only enforcement without addressing human needs.",
-    "id": "gen_c11_geo_ch15_q11",
+    "id": "gen_c11_geo_ch15_q12",
     "nodeId": "c11_geo_cbse_15_007",
     "difficulty": "advanced"
    },
@@ -9111,7 +9385,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is misleading. While Protected Areas (PAs) cover ~5% of India's land, many narrow-range endemics",
-    "id": "gen_c11_geo_ch15_q12",
+    "id": "gen_c11_geo_ch15_q13",
     "nodeId": "c11_geo_cbse_15_001",
     "difficulty": "advanced"
    },
@@ -9126,7 +9400,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
     "misconception": "A wrong answer treating both as simply \"isolated\" misses the different mechanisms: dispersal + isolation (islands) vs. vicariance + in-situ radiation (continental fragment).",
-    "id": "gen_c11_geo_ch15_q13",
+    "id": "gen_c11_geo_ch15_q14",
     "nodeId": "c11_geo_cbse_15_001",
     "difficulty": "advanced"
    },
@@ -9141,7 +9415,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
     "misconception": "A poor answer listing only species richness without connectivity or threat reveals a static \"snapshot\" approach ignoring dynamic processes of extinction debt and habitat loss.",
-    "id": "gen_c11_geo_ch15_q14",
+    "id": "gen_c11_geo_ch15_q15",
     "nodeId": "c11_geo_cbse_15_001",
     "difficulty": "advanced"
    },
@@ -9156,54 +9430,38 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The Western Ghats zone (Malabar rainforest province) has the highest endemic bird diversity.",
-    "id": "gen_c11_geo_ch15_q15",
-    "nodeId": "c11_geo_cbse_15_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does the Western Ghats have higher amphibian endemism (over 90%) compared to the Eastern Ghats? Explain using geological history and climate.",
-    "answer": "The Western Ghats are an ancient, stable mountain chain (Gondwanan fragment) with continuous wet evergreen forests acting as a climatic refugium during Pleistocene aridification",
-    "options": [
-     "The higher legislative hurdle for National Parks (State Legislature resolution) reflects their stricter conservation mandate: they are intended to be inviolate core zones where",
-     "Ex-situ conservation acts as an insurance policy against stochastic extinction events (disease, poaching, climate extremes) that can wipe out small, isolated in-situ populations",
-     "The Western Ghats are an ancient, stable mountain chain (Gondwanan fragment) with continuous wet evergreen forests acting as a climatic refugium during Pleistocene aridification"
-    ],
-    "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on current rainfall ignores the critical role of paleo-climatic stability and geological antiquity as evolutionary time machines.",
     "id": "gen_c11_geo_ch15_q16",
     "nodeId": "c11_geo_cbse_15_001",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Compare the primary drivers of decline for the Great Indian Bustard (Ardeotis nigriceps) in the Thar Desert and the Sangai (Rucervus eldii eldii) in Keibul Lamjao National Park, Manipur. How do the *spatial scales* and *reversibility* of these drivers differ?",
-    "answer": "Great Indian Bustard: Primary drivers are habitat loss due to agricultural expansion (irrigation canals converting grasslands to cropland)",
+    "question": "What common mix-up does this lesson flag about Faunal diversity?",
+    "answer": "Students conflate \"endemic\" with \"endangered,\" assuming a species restricted to a small area (endemic) is automatically threatened with extinction",
     "options": [
-     "In Tiger Reserves (Project Tiger), \"Core\" = Critical Tiger Habitat (inviolate, legally notified under Section 38V WLPA)",
-     "Scenario A (National Park) is likely to maintain higher ecological integrity *inside its boundaries* for a tiger because the legal prohibition on all extraction and habitation",
-     "Bishnoi-led: Primary drivers are habitat loss due to agricultural expansion (irrigation canals converting grasslands to cropland)",
-     "Great Indian Bustard: Primary drivers are habitat loss due to agricultural expansion (irrigation canals converting grasslands to cropland)"
+     "Endangered species in India are those wild fauna and flora populations that face a very high risk of extinction in the wild in the near future",
+     "The student can: (1) classify the six major drivers of species decline in India with specific mechanisms for each",
+     "Students conflate \"endemic\" with \"endangered,\" assuming a species restricted to a small area (endemic) is automatically threatened with extinction"
     ],
-    "hint": "Straight from the 'Endangered species in India' slide -- match the key terms.",
-    "misconception": "A student who says \"both are due to habitat loss\" misses the critical difference: bustard decline is driven by diffuse, multi-factor landscape change amenable to targeted interventions, while sangai decline hinges on a single infrastructure decision (dam management) that is politically and technically harder to",
+    "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students conflate \"endemic\" with \"endangered,\" assuming a species restricted to a small area (endemic) is automatically",
     "id": "gen_c11_geo_ch15_q17",
-    "nodeId": "c11_geo_cbse_15_002",
+    "nodeId": "c11_geo_cbse_15_001",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Evaluate the statement: \"Poaching is the biggest threat to India's tigers today.\" Use evidence from the last three tiger estimation cycles (2014, 2018, 2022) and the NTCA's mortality data to support your judgment.",
-    "answer": "The statement is *partially true but incomplete*. NTCA data shows poaching accounts for ~30–40% of recorded tiger deaths annually",
+    "question": "What is Faunal diversity? State the definition given in this lesson.",
+    "answer": "Faunal diversity refers to the variety of animal species—including mammals, birds, reptiles, amphibians, fish",
     "options": [
-     "The statement is false. India has 10 biogeographic zones (Rodgers & Panwar), but the 18 biosphere reserves are concentrated in 7 zones",
-     "The statement is flawed. Protected areas cover ~5.26% of India's land area; many are small, isolated, and suffer from edge effects, invasive species, and human-wildlife conflict",
-     "The statement is *partially true but incomplete*. NTCA data shows poaching accounts for ~30–40% of recorded tiger deaths annually"
+     "Endangered species in India are those wild fauna and flora populations that face a very high risk of extinction in the wild in the near future",
+     "The student can: (1) classify the six major drivers of species decline in India with specific mechanisms for each",
+     "Faunal diversity refers to the variety of animal species—including mammals, birds, reptiles, amphibians, fish"
     ],
-    "hint": "Straight from the 'Endangered species in India' slide -- match the key terms.",
-    "misconception": "A student who says \"poaching is #1\" ignores that habitat connectivity determines whether poaching losses are compensated by dispersal. A student who says \"habitat loss is #1\" ignores that in well-connected landscapes, poaching is the proximate cause of local extirpation.",
+    "hint": "Straight from the 'Faunal diversity' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Faunal diversity refers to the variety of animal species—including mammals, birds, reptiles, amphibians, fish, and",
     "id": "gen_c11_geo_ch15_q18",
-    "nodeId": "c11_geo_cbse_15_002",
+    "nodeId": "c11_geo_cbse_15_001",
     "difficulty": "advanced"
    }
   ],
@@ -9262,7 +9520,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Population Growth Trends Since 1901 Refer",
+    "title": "Population Growth Trends Since 1901",
     "text": "Population growth trends since 1901 refer to the decadal changes in India's total population as recorded by the Census of India, characterized by four distinct phases: stagnant growth (1901-1921), steady growth (1921-1951), rapid growth (1951-1981), and high",
     "emoji": "🌍",
     "bgColor": "from-rose-400 to-pink-500"
@@ -9425,8 +9683,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define sex ratio as used in the Indian Census and state the all-India sex ratio according to Census 2011.",
     "answer": "Sex ratio in Indian Census = (Number of females / Number of males) × 1000. All-India sex ratio (2011) = 943 females per 1000 males",
     "options": [
-     "Stage 1: High Stationary (CBR ~35–40, CDR ~35–40); Stage 2: Early Expanding (CBR ~35–40, CDR falls to ~15–20); Stage 3: Late Expanding (CBR falls to ~15–20, CDR ~10–15)",
-     "A Census Town requires: (1) minimum population of 5,000; (2) population density of at least 400 persons per sq km",
+     "The student can calculate sectoral workforce percentages from Census data, interpret shifts in occupational structure across Indian states using the Clark-Fisher hypothesis",
+     "Population distribution refers to the spatial pattern of where people live across India's territory",
      "Sex ratio in Indian Census = (Number of females / Number of males) × 1000. All-India sex ratio (2011) = 943 females per 1000 males"
     ],
     "hint": "Straight from the 'Population composition' slide -- match the key terms.",
@@ -9945,8 +10203,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define arithmetic population density and state its formula with correct units. Why is it insufficient for comparing agricultural pressure in Punjab versus Rajasthan?",
     "answer": "Arithmetic density = Total Population / Total Area (persons/km²). It is insufficient because it includes uninhabitable desert (Thar) and mountainous areas in Rajasthan's",
     "options": [
-     "The decadal growth rate was about 5.75% (population increased from 238.4 million to 252.1 million)",
-     "The long-term objective is to achieve a stable population by 2045, consistent with the requirements of sustainable economic growth, social development",
+     "Population distribution refers to the spatial pattern of where people live across India's territory",
+     "Student can calculate arithmetic, physiological, and agricultural density for any Indian state using Census data",
      "Arithmetic density = Total Population / Total Area (persons/km²). It is insufficient because it includes uninhabitable desert (Thar) and mountainous areas in Rajasthan's"
     ],
     "hint": "Straight from the 'Population distribution' slide -- match the key terms.",
@@ -10616,6 +10874,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "evaluate the consequences of migration",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "identify and classify infrastructure gaps",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the push-pull factors driving rural",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) identify and classify infrastructure gaps in a given rural region using Census/NFHS indicators,",
+    "id": "gen_c11_geo_ch17_q13",
+    "nodeId": "c11_geo_cbse_17_007",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Critique the statement: \"Smart Cities Mission solves urban problems by importing Western technology; Indian cities just need better apps and sensors.\" Use evidence from at least two Mission components.",
     "sortItems": [
      {
@@ -10656,7 +10960,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer accepting the statement reveals technological determinism misconception — ignoring the Mission's \"people-first, technology-last\" design philosophy.",
-    "id": "gen_c11_geo_ch17_q13",
+    "id": "gen_c11_geo_ch17_q14",
     "nodeId": "c11_geo_cbse_17_008",
     "difficulty": "standard"
    },
@@ -10724,7 +11028,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Good answer criteria: (1) Map Master Plan proposals to smart components (e.",
-    "id": "gen_c11_geo_ch17_q14",
+    "id": "gen_c11_geo_ch17_q15",
     "nodeId": "c11_geo_cbse_17_008",
     "difficulty": "standard"
    },
@@ -10770,7 +11074,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., confusing retrofitting with redevelopment, or giving area in sq km) reveals the student has not internalised the Mission's spatial design flexibility and the scalability logic behind acreage thresholds.",
-    "id": "gen_c11_geo_ch17_q15",
+    "id": "gen_c11_geo_ch17_q16",
     "nodeId": "c11_geo_cbse_17_008",
     "difficulty": "standard"
    },
@@ -10785,7 +11089,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'human settlement' slide -- match the key terms.",
     "misconception": "A wrong answer that classifies the village as urban because of population shows the student incorrectly treats population size as the sole determinant, ignoring the economic and administrative criteria.",
-    "id": "gen_c11_geo_ch17_q16",
+    "id": "gen_c11_geo_ch17_q17",
     "nodeId": "c11_geo_cbse_17_001",
     "difficulty": "standard"
    },
@@ -10800,21 +11104,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'human settlement' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"UN uses same criteria\" shows ignorance of international variation in definitions.",
-    "id": "gen_c11_geo_ch17_q17",
-    "nodeId": "c11_geo_cbse_17_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a decision flowchart (text-based) that a Census enumerator could use to classify any settlement in India as Rural, Statutory Town, or Census Town. Use only the official Census 2011 criteria. Your flowchart must handle the case where a settlement has statutory status but fails the quantitative criteria.",
-    "answer": "START → Does the settlement have a statutory urban local body (Municipal Corp/Council/Nagar Panchayat)?",
-    "options": [
-     "A good answer includes: Base map (ward boundaries), slum layer (Census 2011 slum enumeration blocks or state slum survey)",
-     "Incorrect. Urban problems stem from *unplanned* growth, not growth per se. Evidence: (1) 2011 Census: 31% urban but contributes 63% GDP — cities are productive, not parasitic",
-     "START → Does the settlement have a statutory urban local body (Municipal Corp/Council/Nagar Panchayat)?"
-    ],
-    "hint": "Straight from the 'human settlement' slide -- match the key terms.",
-    "misconception": "A poor answer that puts population check first or omits the statutory town bypass reveals the student doesn't grasp the hierarchical logic: legal status trumps quantitative criteria in Indian Census.",
     "id": "gen_c11_geo_ch17_q18",
     "nodeId": "c11_geo_cbse_17_001",
     "difficulty": "standard"
@@ -10875,7 +11164,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Land Use Categories In India Refer",
+    "title": "Land Use Categories In India",
     "text": "Land use categories in India refer to the systematic classification of the country's total geographical area (328.73 million hectares) into nine distinct functional classes based on primary human activity and natural cover: Forests, Barren and Unculturable",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -10975,16 +11264,47 @@ export const C11_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define the term 'photoperiod sensitivity' and name one Kharif crop and one Rabi crop that are strongly photoperiod-sensitive.",
-    "answer": "Photoperiod sensitivity is the response of a plant's flowering to the length of day/night. Rice (Kharif) and wheat (Rabi) are classic photoperiod-sensitive crops: rice flowers",
-    "options": [
-     "The three core components were: (1) High-Yielding Variety (HYV) seeds of wheat and rice (e.g., Kalyan Sona, IR-8), (2) assured irrigation (especially groundwater via tubewells)",
-     "The four factors are temperature, rainfall, soil type, and season (Kharif/Rabi). Cotton requires 21-30°C",
-     "Photoperiod sensitivity is the response of a plant's flowering to the length of day/night. Rice (Kharif) and wheat (Rabi) are classic photoperiod-sensitive crops: rice flowers"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why the same crop",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "classify any major Indian crop",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "predict cropping pattern shifts if monsoon",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'Cropping pattern' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., naming maize as photoperiod-insensitive for both) reveals confusion between temperature-driven and day-length-driven flowering.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can: (1) classify any major Indian crop into its correct season using temperature, rainfall, and photoperiod",
     "id": "gen_c11_geo_ch18_q4",
     "nodeId": "c11_geo_cbse_18_004",
     "difficulty": "advanced",
@@ -11536,6 +11856,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "compare the climatic and edaphic",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "evaluate how Green Revolution",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "locate the primary growing regions of rice",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) locate the primary growing regions of rice, wheat, and pulses on an outline map of India and",
+    "id": "gen_c11_geo_ch18_q15",
+    "nodeId": "c11_geo_cbse_18_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "What were the three core technological components of the Green Revolution package introduced in India during the mid-1960s?",
     "sortItems": [
      {
@@ -11576,7 +11942,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., mentioning only \"better seeds\" or \"tractors\") reveals that the student views the Green Revolution as a single innovation rather than a synergistic input package where each component amplifies the others — without irrigation, HYV seeds cannot express their yield potential; without fertilizers, the",
-    "id": "gen_c11_geo_ch18_q15",
+    "id": "gen_c11_geo_ch18_q16",
     "nodeId": "c11_geo_cbse_18_007",
     "difficulty": "advanced"
    },
@@ -11644,7 +12010,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer calculating only interest rates misses the bundled nature of informal intermediation.",
-    "id": "gen_c11_geo_ch18_q16",
+    "id": "gen_c11_geo_ch18_q17",
     "nodeId": "c11_geo_cbse_18_008",
     "difficulty": "advanced"
    },
@@ -11659,21 +12025,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Land utilisation pattern in India' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Punjab's flat alluvial plains, assured irrigation (canals/tubewells), and high population density (550/km²) drive",
-    "id": "gen_c11_geo_ch18_q17",
-    "nodeId": "c11_geo_cbse_18_001",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique the statement: \"India's fallow land (current + other) at ~25 million hectares represents a massive reserve for agricultural expansion to meet future food demand.\" Use evidence on soil quality, water availability, and opportunity costs.",
-    "answer": "The statement is flawed. Much fallow land is in rainfed, marginal areas (Rajasthan, Maharashtra, Karnataka) with poor soils (shallow, saline",
-    "options": [
-     "Indicator 1: Real-time mandi arrival vs. MSP procurement gap (source: AGMARKNET + FCI daily reports) — captures price distress",
-     "Kharif: Rice (June–Oct, high rain, 25–30°C). Rabi: Black gram (Nov–Mar, cool 20–25°C, low rain, residual moisture)",
-     "The statement is flawed. Much fallow land is in rainfed, marginal areas (Rajasthan, Maharashtra, Karnataka) with poor soils (shallow, saline"
-    ],
-    "hint": "Straight from the 'Land utilisation pattern in India' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is flawed. Much fallow land is in rainfed, marginal areas (Rajasthan, Maharashtra, Karnataka) with poor",
     "id": "gen_c11_geo_ch18_q18",
     "nodeId": "c11_geo_cbse_18_001",
     "difficulty": "advanced"
@@ -11685,20 +12036,20 @@ export const C11_GEO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Land Utilisation Pattern In mastered! 🎯",
+  "successLine": "Land Utilisation Pattern mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_geo_ch19",
-  "title": "Minerals",
+  "title": "Minerals Are Naturally Occurring Inorganic",
   "subtitle": "Geography · Chapter 19",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Minerals",
+  "topic": "Minerals Are Naturally Occurring Inorganic Substance",
   "chapters": [
-   "Geography Ch19: Minerals"
+   "Geography Ch19: Minerals Are Naturally Occurring Inorganic Substance"
   ],
   "nodeIds": [
    "c11_geo_cbse_19_001",
@@ -11717,7 +12068,7 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Minerals in real working life?",
+   "question": "Who uses Minerals Are Naturally Occurring in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -11728,7 +12079,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Minerals",
+    "title": "Minerals Are Naturally Occurring Inorganic",
     "text": "Minerals are naturally occurring inorganic substances with a definite chemical composition and crystalline structure, found in the Earth's crust.",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -12409,6 +12760,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "correlate coal type distribution",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "locate and label the four major Gondwana",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the geological reason",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) locate and label the four major Gondwana coal basins and three Tertiary coal regions on an outline",
+    "id": "gen_c11_geo_ch19_q15",
+    "nodeId": "c11_geo_cbse_19_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Compare the tectonic origin and hydrocarbon potential of the Rajasthan basin (Barmer sub-basin) with the Assam-Arakan basin. Why has Rajasthan emerged as a major new oil province only in the 2000s despite known sedimentary sequences?",
     "sortItems": [
      {
@@ -12449,7 +12846,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: Rajasthan basin: Late Jurassic-Early Cretaceous rift basin formed during India-Seychelles separation; source rocks are",
-    "id": "gen_c11_geo_ch19_q15",
+    "id": "gen_c11_geo_ch19_q16",
     "nodeId": "c11_geo_cbse_19_006",
     "difficulty": "advanced"
    },
@@ -12495,7 +12892,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is flawed. KG deep-water (e.g., KG-DWN-98/3) has high *resource potential* but: (1) Geological risk:",
-    "id": "gen_c11_geo_ch19_q16",
+    "id": "gen_c11_geo_ch19_q17",
     "nodeId": "c11_geo_cbse_19_006",
     "difficulty": "advanced"
    },
@@ -12552,63 +12949,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer attributing it solely to \"offshore location\" or \"newer technology\" misses the geological controls of sediment thickness, reservoir quality, and trap size.",
-    "id": "gen_c11_geo_ch19_q17",
-    "nodeId": "c11_geo_cbse_19_006",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "order",
-    "question": "Name the four essential geological components of a petroleum system and identify which Indian sedimentary basin hosts the Digboi oil field.",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "Source rock",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s1",
-      "label": "Cap rock",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Reservoir rock",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "Trap",
-      "emoji": "📌",
-      "correctBin": "o3"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer (e.g., listing \"coal\" as source rock or placing Digboi in Gujarat) reveals the student confuses petroleum geology with coal geology or cannot link specific fields to their tectonic basins.",
     "id": "gen_c11_geo_ch19_q18",
     "nodeId": "c11_geo_cbse_19_006",
     "difficulty": "advanced"
@@ -12616,24 +12956,24 @@ export const C11_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about minerals?",
+    "What surprised you about minerals are naturally occurring inorganic substance?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Minerals mastered! 🎯",
+  "successLine": "Minerals Are Naturally mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_geo_ch20",
-  "title": "Manufacturing",
+  "title": "Manufacturing Is The Large-scale Transformation",
   "subtitle": "Geography · Chapter 20",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Manufacturing",
+  "topic": "Manufacturing Is The Large-scale Transformation",
   "chapters": [
-   "Geography Ch20: Manufacturing"
+   "Geography Ch20: Manufacturing Is The Large-scale Transformation"
   ],
   "nodeIds": [
    "c11_geo_cbse_20_001",
@@ -12652,7 +12992,7 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Manufacturing suddenly stops working?",
+   "question": "What happens if Manufacturing Is The Large-scale suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -12663,7 +13003,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Manufacturing",
+    "title": "Manufacturing Is The Large-scale",
     "text": "Manufacturing is the large-scale transformation of raw materials into finished goods through the application of machinery, labor, capital, and technology, adding value at each stage.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -12903,8 +13243,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the eight major industrial regions of India as per NCERT Class 11 and give one distinctive locational factor for each.",
     "answer": "The eight regions: 1) Mumbai-Pune (cotton hinterland + port + capital), 2) Hugli (jute + coal + river transport + Kolkata port), 3) Bangalore-Tamil Nadu (diverse: textiles",
     "options": [
-     "Manufacturing is the secondary economic activity involving mechanical/chemical transformation of raw materials into finished goods of higher value using machinery and labor",
-     "The three stages: (1) Ginning — separates lint from seed, ~65% weight loss (seed + trash removed); (2) Spinning — converts lint to yarn, ~5-8% waste",
+     "Industrial pollution refers to the contamination of air, water, soil, and acoustic environment by harmful substances (pollutants) released during manufacturing processes",
+     "The student can explain the locational factors for any given Indian iron and steel plant using Weber's least-cost theory, compare the advantages of inland vs",
      "The eight regions: 1) Mumbai-Pune (cotton hinterland + port + capital), 2) Hugli (jute + coal + river transport + Kolkata port), 3) Bangalore-Tamil Nadu (diverse: textiles"
     ],
     "hint": "Straight from the 'Industrial regions' slide -- match the key terms.",
@@ -13072,8 +13412,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "What were the three specific industries that remained reserved for the public sector after the 1991 Industrial Policy reforms, and which constitutional schedule originally defined the public sector's dominant role in the 1956 policy?",
     "answer": "The three industries reserved for the public sector post-1991 were atomic energy, railways (transport), and defence equipment",
     "options": [
-     "The eight regions: 1) Mumbai-Pune (cotton hinterland + port + capital), 2) Hugli (jute + coal + river transport + Kolkata port), 3) Bangalore-Tamil Nadu (diverse: textiles",
-     "Air pollution: Sulphur dioxide (SO₂) from thermal power plants burning coal. Water pollution: Chemical Oxygen Demand (COD) from textile dyeing units in Tirupur",
+     "Students treat industrial regions as *static labels* on a map, believing each region specialises in only *one* industry (e",
+     "Student can classify industries into cottage, small, medium, and large scale using investment and employment criteria",
      "The three industries reserved for the public sector post-1991 were atomic energy, railways (transport), and defence equipment"
     ],
     "hint": "Straight from the 'Industrial Policy and' slide -- match the key terms.",
@@ -13632,7 +13972,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Maharashtra: 5,000 × 0.11 × 150 = 82,500 tonnes sugar/year. Uttar Pradesh: 4,000 × 0.105 × 150 = 63,000 tonnes sugar/year",
      "(1) Refining stage — bauxite loses half its weight per tonne of alumina, so the material index is 2 and this stage sits near the bauxite in Region A, (2) Smelting stage"
     ],
-    "hint": "Straight from the 'Manufacturing' slide -- match the key terms.",
+    "hint": "Straight from the 'Manufacturing is the large-scale' slide -- match the key terms.",
     "misconception": "A wrong answer placing the smelter beside the bauxite ignores that multi-stage shift.",
     "id": "gen_c11_geo_ch20_q18",
     "nodeId": "c11_geo_cbse_20_001",
@@ -13641,24 +13981,24 @@ export const C11_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about manufacturing?",
+    "What surprised you about manufacturing is the large-scale transformation?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Manufacturing mastered! 🎯",
+  "successLine": "Manufacturing Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_geo_ch21",
-  "title": "Transport",
+  "title": "Transport Refers To The System Of Moving People",
   "subtitle": "Geography · Chapter 21",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Transport",
+  "topic": "Transport Refers To The System Of Moving People",
   "chapters": [
-   "Geography Ch21: Transport"
+   "Geography Ch21: Transport Refers To The System Of Moving People"
   ],
   "nodeIds": [
    "c11_geo_cbse_21_001",
@@ -13677,7 +14017,7 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Transport in real working life?",
+   "question": "Who uses Transport Refers To The System Of in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -13688,7 +14028,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Transport",
+    "title": "Transport Refers To The System Of Moving",
     "text": "Transport refers to the system of moving people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) over a network of infrastructure; in the Indian context, it is the spatial circulatory system that",
     "emoji": "🌍",
     "bgColor": "from-amber-400 to-orange-500"
@@ -13868,11 +14208,11 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "What are the three gauge systems of Indian Railways and their respective track widths in millimeters?",
     "answer": "The three gauge systems are: Broad Gauge (1676 mm), Meter Gauge (1000 mm), and Narrow Gauge (762 mm and 610 mm)",
     "options": [
-     "Correct order: National Highways (NH) > State Highways (SH) > Major District Roads (MDR) > Other District Roads (ODR) > Village/Rural Roads (VR)",
-     "NW-1 (Ganga-Bhagirathi-Hooghly: Prayagraj-Haldia, 1620 km), NW-2 (Brahmaputra: Sadiya-Dhubri, 891 km), NW-3 (West Coast Canal: Kottapuram-Kollam, 205 km)",
+     "Transport refers to the system of moving people, goods, and services from one location to another using various modes (road, rail, water, air",
+     "Students think 'transport' and 'communication' are interchangeable or that communication (internet, mobile) replaces physical transport",
      "The three gauge systems are: Broad Gauge (1676 mm), Meter Gauge (1000 mm), and Narrow Gauge (762 mm and 610 mm)"
     ],
-    "hint": "Straight from the 'Railways in India refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Railways in India' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., confusing meter gauge with 1000 cm or stating only two gauges) reveals that the student has not memorized the standard gauge dimensions, which are fundamental to understanding gauge conversion and network compatibility.",
     "id": "gen_c11_geo_ch21_q3",
     "nodeId": "c11_geo_cbse_21_003",
@@ -13941,8 +14281,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "What are the two main categories of airports in India based on the nature of flights they handle?",
     "answer": "The two main categories are domestic airports (handling flights within India) and international airports (handling flights to/from other countries). Some airports function as both",
     "options": [
-     "The three gauge systems are: Broad Gauge (1676 mm), Meter Gauge (1000 mm), and Narrow Gauge (762 mm and 610 mm)",
-     "NW-1 (Ganga-Bhagirathi-Hooghly: Prayagraj-Haldia, 1620 km), NW-2 (Brahmaputra: Sadiya-Dhubri, 891 km), NW-3 (West Coast Canal: Kottapuram-Kollam, 205 km)",
+     "Road classification in India is an administrative and functional categorization of roads into National Highways (NH), State Highways (SH), Major District Roads (MDR)",
+     "The student can: (1) trace the route of India's three major trunk pipeline networks (Naharkatiya-Nunmati-Barauni, Salaya-Koyali-Mathura",
      "The two main categories are domestic airports (handling flights within India) and international airports (handling flights to/from other countries). Some airports function as both"
     ],
     "hint": "Straight from the 'Air transport' slide -- match the key terms.",
@@ -14163,6 +14503,63 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "analyze the strategic importance of major",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "classify India's 11 National Waterways",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the physical and economic factors",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s3",
+      "label": "evaluate",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) classify India's 11 National Waterways by their river/canal systems and states traversed, (2)",
+    "id": "gen_c11_geo_ch21_q11",
+    "nodeId": "c11_geo_cbse_21_004",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Name the three major trunk pipeline networks for crude oil and petroleum products in India, and state the terminal points of each.",
     "sortItems": [
      {
@@ -14203,7 +14600,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., confusing HBJ as an oil pipeline or missing the Mathura extension) reveals the student has memorised names without understanding the commodity distinction (crude vs gas) or the demand-centre logic (refineries at Barauni, Mathura, Panipat; fertiliser plants at Bijaipur, Jagdishpur).",
-    "id": "gen_c11_geo_ch21_q11",
+    "id": "gen_c11_geo_ch21_q12",
     "nodeId": "c11_geo_cbse_21_006",
     "difficulty": "advanced"
    },
@@ -14249,7 +14646,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement overemphasises port hardware. Three binding constraints: (1) Inland logistics cost – India's logistics",
-    "id": "gen_c11_geo_ch21_q12",
+    "id": "gen_c11_geo_ch21_q13",
     "nodeId": "c11_geo_cbse_21_008",
     "difficulty": "advanced"
    },
@@ -14317,7 +14714,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong answer includes: (1) Dedicated freight corridor (DFC) spur linking to Western DFC at Vasai for double-stack",
-    "id": "gen_c11_geo_ch21_q13",
+    "id": "gen_c11_geo_ch21_q14",
     "nodeId": "c11_geo_cbse_21_008",
     "difficulty": "advanced"
    },
@@ -14330,9 +14727,9 @@ export const C11_GEO_GEN: SimDef[] = [
      "Salaya–Koyali–Mathura: Originates at Salaya (single-point marine offloading terminal for VLCCs importing crude) → moves inland to Koyali refinery (existing infrastructure",
      "Pipelines carry crude oil and gas continuously (24/7) over long distances (e.g., 1,300 km Hazira-Vijaipur-Jagdishpur) with zero transshipment loss, high capacity"
     ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
+    "hint": "Straight from the 'Transport refers to the system of' slide -- match the key terms.",
     "misconception": "A student who says 'pipelines are faster' confuses speed (fluid velocity ~5 km/hr) with throughput; the key is uninterrupted flow and high capacity utilization.",
-    "id": "gen_c11_geo_ch21_q14",
+    "id": "gen_c11_geo_ch21_q15",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
    },
@@ -14341,13 +14738,13 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define 'transport' in the context of geographical systems and list the five primary modes of transport in India with one key commodity each predominantly carries.",
     "answer": "Transport is the spatial movement of people, goods, and information across a network of nodes and links",
     "options": [
-     "The three gauge systems are: Broad Gauge (1676 mm), Meter Gauge (1000 mm), and Narrow Gauge (762 mm and 610 mm)",
      "The two main categories are domestic airports (handling flights within India) and international airports (handling flights to/from other countries). Some airports function as both",
+     "The student can explain the evolution of Indian railway network, distinguish between the three gauge systems with their respective route lengths",
      "Transport is the spatial movement of people, goods, and information across a network of nodes and links"
     ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
+    "hint": "Straight from the 'Transport refers to the system of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing 'internet' as a mode or assigning coal to airways) reveals confusion between transport and communication, or ignorance of modal characteristics (cost/ton-km vs. speed).",
-    "id": "gen_c11_geo_ch21_q15",
+    "id": "gen_c11_geo_ch21_q16",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
    },
@@ -14360,9 +14757,9 @@ export const C11_GEO_GEN: SimDef[] = [
      "Prioritize: (1) Upgrade critical MDRs to SH standards to connect district HQ to NH (Central funding via CRF)",
      "A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines"
     ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
+    "hint": "Straight from the 'Transport refers to the system of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines.",
-    "id": "gen_c11_geo_ch21_q16",
+    "id": "gen_c11_geo_ch21_q17",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
    },
@@ -14375,23 +14772,8 @@ export const C11_GEO_GEN: SimDef[] = [
      "The statement is largely valid. Speed Post volumes grew 12% CAGR (2015-23) driven by e-commerce logistics, while registered letters declined 8% CAGR",
      "The statement is partially true for last-mile connectivity but flawed as a national priority. Economically: roads have higher variable cost per ton-km (₹2"
     ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
+    "hint": "Straight from the 'Transport refers to the system of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The statement is partially true for last-mile connectivity but flawed as a national priority.",
-    "id": "gen_c11_geo_ch21_q17",
-    "nodeId": "c11_geo_cbse_21_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain why the Northern Plains have the highest density of both road and rail networks in India, while the Northeastern states rely heavily on air transport despite high costs.",
-    "answer": "The Northern Plains offer flat terrain (low construction cost), high population density (high demand), fertile agriculture and industry (high freight generation)",
-    "options": [
-     "The statement is partially true for last-mile connectivity but flawed as a national priority. Economically: roads have higher variable cost per ton-km (₹2",
-     "Pipeline transport achieves the lowest operating cost per tonne-km because: (a) energy consumption is ~1/6th of road and ~1/3rd of rail per tonne-km (electric pumps at intervals",
-     "The Northern Plains offer flat terrain (low construction cost), high population density (high demand), fertile agriculture and industry (high freight generation)"
-    ],
-    "hint": "Straight from the 'Transport' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing only on 'population' or 'money' misses the physical geography constraints (slope, drainage, geology) that make surface transport prohibitively expensive in mountains.",
     "id": "gen_c11_geo_ch21_q18",
     "nodeId": "c11_geo_cbse_21_001",
     "difficulty": "standard"
@@ -14399,24 +14781,24 @@ export const C11_GEO_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about transport?",
+    "What surprised you about transport refers to the system of moving people?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Transport mastered! 🎯",
+  "successLine": "Transport Refers mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_geo_ch22",
-  "title": "Map",
+  "title": "Map Is a Scaled",
   "subtitle": "Geography · Chapter 22",
   "classLevel": 11,
   "mode": "senior",
   "subject": "geography",
-  "topic": "Map",
+  "topic": "Map Is a Scaled",
   "chapters": [
-   "Geography Ch22: Map"
+   "Geography Ch22: Map Is a Scaled"
   ],
   "nodeIds": [
    "c11_geo_cbse_22_001",
@@ -14435,7 +14817,7 @@ export const C11_GEO_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Map actually explain?",
+   "question": "In one line -- what does Map Is a Scaled actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -14446,7 +14828,7 @@ export const C11_GEO_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Map",
+    "title": "Map Is a Scaled",
     "text": "A map is a scaled, symbolized, and generalized representation of the whole or a part of the Earth's surface on a flat plane, showing selected physical and human features using a specific projection system, scale, and conventional signs to convey spatial",
     "emoji": "🌍",
     "bgColor": "from-violet-400 to-purple-500"
@@ -14520,9 +14902,9 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Name the ancient scholar who first systematised the use of latitude and longitude as a coordinate grid for world mapping, and state the title of his seminal work.",
     "answer": "Claudius Ptolemy, *Geographia* (c. 150 CE)",
     "options": [
-     "A developable surface is a geometric form (cylinder, cone, plane) that can be flattened onto a plane without stretching or tearing",
+     "The student can evaluate a mapping scenario (given purpose, area extent, and location) and justify the optimal projection choice by explaining which distortion property is",
      "R.F. is a unitless ratio (e.g., 1:50,000) showing that 1 unit on the map equals 50,000 of the same units on the ground",
-     "Claudius Ptolemy, *Cross* (c. 150 CE)",
+     "Claudius Ptolemy, *Gaussian* (c. 150 CE)",
      "Claudius Ptolemy, *Geographia* (c. 150 CE)"
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
@@ -14752,8 +15134,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define \"developable surface\" in map projections and name the three geometric surfaces used. Why can a sphere not be a developable surface?",
     "answer": "A developable surface is a geometric form (cylinder, cone, plane) that can be flattened onto a plane without stretching or tearing",
     "options": [
-     "Claudius Ptolemy, *Geographia* (c. 150 CE)",
-     "Magnetic declination is the horizontal angle between true north (geographic north) and magnetic north (direction a compass needle points)",
+     "R.F. is a unitless ratio (e.g., 1:50,000) showing that 1 unit on the map equals 50,000 of the same units on the ground",
+     "Map symbols and conventional signs are standardized graphical representations (using specific colours, shapes",
      "A developable surface is a geometric form (cylinder, cone, plane) that can be flattened onto a plane without stretching or tearing"
     ],
     "hint": "Straight from the 'Map projection' slide -- match the key terms.",
@@ -14798,7 +15180,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "A V-shaped valley (fluvial) shows contour lines forming sharp V's pointing uphill (towards higher elevation) with relatively uniform spacing, indicating steady slope",
      "A thematic map is designed to show the distribution of a specific theme (e.g., literacy rates) using symbols, choropleth shading, or isopleths"
     ],
-    "hint": "Straight from the 'map' slide -- match the key terms.",
+    "hint": "Straight from the 'map is a scaled' slide -- match the key terms.",
     "misconception": "If a student chooses the physical map, they confuse the purpose of map types: physical maps depict natural landscape, not socio-economic data.",
     "id": "gen_c11_geo_ch22_q9",
     "nodeId": "c11_geo_cbse_22_001",
@@ -14813,7 +15195,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "The Statement of Scale and R.F. become invalid because the map distances have halved while the statements still claim the original relationship",
      "A good answer: Use a sequential color scheme (light yellow → orange → dark green) for low to high intensity, because it intuitively represents increasing density"
     ],
-    "hint": "Straight from the 'map' slide -- match the key terms.",
+    "hint": "Straight from the 'map is a scaled' slide -- match the key terms.",
     "misconception": "A poor answer uses random colors (red, blue, purple) without order, showing lack of understanding of visual variables in cartography.",
     "id": "gen_c11_geo_ch22_q10",
     "nodeId": "c11_geo_cbse_22_001",
@@ -14828,7 +15210,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "Procedure: 1. Draw line XY on the map; mark every contour crossing and spot height along it. 2. Measure horizontal map distance between X and Y (say 12 cm)",
      "Step 1: RF 1:50,000 means 1 cm on map = 50,000 cm on ground. Step 2: 3.5 cm on map = 3.5 × 50,000 = 175,000 cm on ground"
     ],
-    "hint": "Straight from the 'map' slide -- match the key terms.",
+    "hint": "Straight from the 'map is a scaled' slide -- match the key terms.",
     "misconception": "If a student forgets to convert cm to km, they reveal a gap in metric system conversion, a prerequisite skill from earlier classes.",
     "id": "gen_c11_geo_ch22_q11",
     "nodeId": "c11_geo_cbse_22_001",
@@ -14843,7 +15225,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "(1) Cassini used *ground-based triangulation* (measuring baselines and angles with theodolites) generating primary geometric control",
      "A map has a defined scale that establishes a consistent ratio between map distance and ground distance, whereas a sketch lacks a scale and only shows rough relative positions"
     ],
-    "hint": "Straight from the 'map' slide -- match the key terms.",
+    "hint": "Straight from the 'map is a scaled' slide -- match the key terms.",
     "misconception": "If a student says a sketch is just \"less detailed,\" they miss the critical cartographic distinction: without a scale, distances cannot be measured reliably, making it a sketch, not a map.",
     "id": "gen_c11_geo_ch22_q12",
     "nodeId": "c11_geo_cbse_22_001",
@@ -14911,6 +15293,21 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can sequence five major cartographic revolutions (Ptolemaic coordinates, portolan rhumb lines, Mercator projection, triangulation surveys",
+    "options": [
+     "R.F. is a unitless ratio (e.g., 1:50,000) showing that 1 unit on the map equals 50,000 of the same units on the ground",
+     "Map scale is the precise ratio or relationship between a distance measured on a map and the corresponding actual distance on the Earth's surface",
+     "Student can sequence five major cartographic revolutions (Ptolemaic coordinates, portolan rhumb lines, Mercator projection, triangulation surveys"
+    ],
+    "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can sequence five major cartographic revolutions (Ptolemaic coordinates, portolan rhumb lines, Mercator",
+    "id": "gen_c11_geo_ch22_q17",
+    "nodeId": "c11_geo_cbse_22_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why did portolan charts of the 13th–16th centuries use rhumb lines (lines of constant bearing) instead of a latitude/longitude grid, and what navigational practice did this serve?",
     "answer": "Portolan charts served Mediterranean pilots sailing by compass course; rhumb lines radiate from compass roses showing direct headings between ports",
     "options": [
@@ -14920,33 +15317,18 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'history of map making traces' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"lack of latitude knowledge\" misses that Ptolemaic coordinates existed but were impractical for daily coastal piloting — the charts *chose* utility over mathematical rigour.",
-    "id": "gen_c11_geo_ch22_q17",
+    "id": "gen_c11_geo_ch22_q18",
     "nodeId": "c11_geo_cbse_22_002",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A map has a Statement of Scale: \"2 cm represents 1 km\". If this map is reduced to half its original size during photocopying, what happens to the accuracy of the Statement of Scale, the R.F., and the Graphical Scale? Explain why.",
-    "answer": "The Statement of Scale and R.F. become invalid because the map distances have halved while the statements still claim the original relationship",
-    "options": [
-     "The method is correct in principle but the arithmetic is wrong: 8.5 cm × 50,000 = 425,000 cm = 4.25 km (since 1 km = 100,000 cm)",
-     "Calculation: 2 cm × 50,000 = 100,000 cm = 1 km ground distance. Reasoning: Red is the category colour for public administration / services",
-     "The Statement of Scale and R.F. become invalid because the map distances have halved while the statements still claim the original relationship"
-    ],
-    "hint": "Straight from the 'Map scale' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"all three become wrong\" or \"only R.F. survives\") reveals the student doesn't understand that graphical scale is a visual ratio that scales with the map, while verbal/numeric scales are fixed declarations that don't auto-adjust.",
-    "id": "gen_c11_geo_ch22_q18",
-    "nodeId": "c11_geo_cbse_22_003",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about map?",
+    "What surprised you about map is a scaled?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Map mastered! 🎯",
+  "successLine": "Map Is a Scaled mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -15242,16 +15624,47 @@ export const C11_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define a conical projection and state the geometric condition that defines the 'standard parallel' in the tangent case.",
-    "answer": "A conical projection projects the globe onto a cone tangent along one standard parallel (or secant along two), which is then unfolded",
-    "options": [
-     "(1) Cylindrical – tangent along a great circle (usually equator) or secant along two small circles",
-     "(1) Equidistance — the scale factor equals 1 along specified lines only, h = 1 along chosen meridians or k = 1 along standard parallels, never everywhere at once",
-     "A conical projection projects the globe onto a cone tangent along one standard parallel (or secant along two), which is then unfolded"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "calculate the scale factor along any",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "derive the radius of the standard parallel",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "justify the suitability of a conical",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
     ],
-    "hint": "Straight from the 'conical projection' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"standard parallel is the equator\" or \"cone touches at the poles\") reveals confusion with cylindrical or zenithal projections and misunderstanding of the developable surface geometry.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) derive the radius of the standard parallel and the slant height of the cone for a given Reduced",
     "id": "gen_c11_geo_ch23_q7",
     "nodeId": "c11_geo_cbse_23_007",
     "difficulty": "standard",
@@ -15919,7 +16332,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Statement Scale Expresses The mastered! 🎯",
+  "successLine": "Statement Scale Expresses mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -15968,7 +16381,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Contour",
+    "title": "A Contour Is An Imaginary Line",
     "text": "A contour is an imaginary line on a topographical map joining all points of equal elevation above mean sea level, drawn at a fixed vertical interval known as the contour interval.",
     "emoji": "🌍",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -16079,11 +16492,11 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "What is the contour interval, and where is it typically indicated on a Survey of India 1:50,000 topographical map?",
     "answer": "The contour interval is the fixed vertical distance (in metres) between successive contour lines",
     "options": [
-     "Closely spaced contour lines indicate a steep slope, while widely spaced contour lines indicate a gentle slope",
-     "A 1:250,000 scale toposheet covers exactly 1° of latitude × 1° of longitude",
+     "Can correctly identify gentle, steep, concave, and convex slopes on a Survey of India 1:50,000 topographical map by analyzing contour spacing and pattern",
+     "The student can independently examine a Survey of India 1:50,000 topographical sheet extract, trace the drainage network using blue-line symbols and contour crossings",
      "The contour interval is the fixed vertical distance (in metres) between successive contour lines"
     ],
-    "hint": "Straight from the 'contour' slide -- match the key terms.",
+    "hint": "Straight from the 'A contour is an imaginary line' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"distance between contours on the map in cm\" or \"found in the legend\") reveals confusion between vertical ground distance and horizontal map distance, or inability to locate map metadata.",
     "id": "gen_c11_geo_ch24_q2",
     "nodeId": "c11_geo_cbse_24_002",
@@ -16312,7 +16725,7 @@ export const C11_GEO_GEN: SimDef[] = [
      "A correct legend will draw: (1) a cluster of solid squares for the nucleated pucca village, (2) isolated hollow squares scattered for dispersed kutcha huts",
      "The dashed blue line represents a non-perennial (seasonal) stream or nala that flows only during monsoon"
     ],
-    "hint": "Straight from the 'Standard symbols  on Survey of' slide -- match the key terms.",
+    "hint": "Straight from the 'Standard symbols on Survey of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"both are rivers\") reveals the student misses the critical hydrological distinction between permanent and seasonal water bodies, which affects interpretation of water availability, agriculture potential, and settlement location — a fundamental error in toposheet analysis.",
     "id": "gen_c11_geo_ch24_q7",
     "nodeId": "c11_geo_cbse_24_007",
@@ -16581,6 +16994,63 @@ export const C11_GEO_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "locate it on an index map of India",
+      "emoji": "📌",
+      "correctBin": "o3"
+     },
+     {
+      "id": "s1",
+      "label": "decode its scale",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "calculate its latitudinal/longitudinal",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s3",
+      "label": "determine its parent 1:1M sheet",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Given any SOI toposheet number (e.g., 45D/10 or 56H/3NE), the student can: (1) decode its scale, (2) determine its",
+    "id": "gen_c11_geo_ch24_q12",
+    "nodeId": "c11_geo_cbse_24_008",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "A toposheet is numbered 56H/3. Calculate its latitudinal and longitudinal extent at 1:50,000 scale, and name the 1:1M sheet and 1:250K sheet it belongs to.",
     "answer": "Step 1: Decode 56H/3 → 1:1M sheet = 56, 1:250K sheet = H, 1:50K quadrant = 3. Step 2: 1:1M sheets cover 4°×4°",
@@ -16591,7 +17061,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"1°×1°\") confuses 1:50K with 1:250K scale, revealing scale-hierarchy misunderstanding.",
-    "id": "gen_c11_geo_ch24_q12",
+    "id": "gen_c11_geo_ch24_q13",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -16606,7 +17076,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"more detail\" misses the computational geometry aspect — the hierarchy enables recursive spatial queries (parent/child/neighbor) essential for digital map indexing.",
-    "id": "gen_c11_geo_ch24_q13",
+    "id": "gen_c11_geo_ch24_q14",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -16621,7 +17091,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A poor answer omits the latitude-dependent longitudinal distance calculation or assumes a fixed km² per sheet, revealing ignorance of map projection distortions covered in the sibling chapter (c11_geo_cbse_24_008).",
-    "id": "gen_c11_geo_ch24_q14",
+    "id": "gen_c11_geo_ch24_q15",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -16636,7 +17106,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: True for the numbering convention (1=NW, 2=NE, 3=SW, 4=SE), but the *geographic shape* of each quadrant changes with",
-    "id": "gen_c11_geo_ch24_q15",
+    "id": "gen_c11_geo_ch24_q16",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
@@ -16651,38 +17121,23 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'topographical map' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"topographical maps only show mountains\") reveals confusion between \"topography\" (study of surface features) and \"relief\" (elevation only), and ignorance of the standardized symbol system for cultural features.",
-    "id": "gen_c11_geo_ch24_q16",
-    "nodeId": "c11_geo_cbse_24_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does the SOI numbering system use a hierarchical alphanumeric code (e.g., 45D/10) instead of a simple sequential number (e.g., Sheet 1, Sheet 2, ...)?",
-    "answer": "The hierarchical code embeds spatial relationships: '45' identifies the 1:1M parent sheet (4°×4°), 'D' the 1:250K sub-sheet (1°×1°), and '10' the 1:50K quadrant (15'×15')",
-    "options": [
-     "Nucleated settlements cluster on flat interfluves because gentle slopes (wide contour spacing) allow compact construction, access to water from both rivers",
-     "The filled square conveys solidity, permanence, and greater visual weight matching the physical permanence of pucca construction (brick/concrete)",
-     "The hierarchical code embeds spatial relationships: '45' identifies the 1:1M parent sheet (4°×4°), 'D' the 1:250K sub-sheet (1°×1°), and '10' the 1:50K quadrant (15'×15')"
-    ],
-    "hint": "Straight from the 'topographical map' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"it's just a naming convention\") shows the student misses the GIS-ready spatial indexing logic — each character narrows the location by a factor of 4 or 16, enabling automated sheet adjacency queries.",
     "id": "gen_c11_geo_ch24_q17",
     "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A student argues: \"Closer contours always mean steeper slope, so if I see contours spaced 2 mm apart on a 1:50,000 map, the slope is steeper than where they are 5 mm apart.\" Evaluate this statement.",
-    "answer": "The statement is correct in principle: closer contours indicate steeper slope because horizontal equivalent (HE) is smaller",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can decode any SOI toposheet number (e.g., 45D/10) to identify its scale, parent 1:1M sheet, 1:250K sub-sheet, and 1:50K quadrant",
     "options": [
-     "Map specs: Contour interval = 20 m (steep upper), 10 m (gentle lower); include: perennial/non-perennial streams, spot heights, contour labels, rock outcrop symbol, spring",
-     "A good answer: Terraces appear as closely spaced contour lines at the risers (steep slope) and widely spaced or absent contours on the flat treads (since elevation change is",
-     "The statement is correct in principle: closer contours indicate steeper slope because horizontal equivalent (HE) is smaller"
+     "The student can define contour and contour interval precisely using textbook terminology, identify the contour interval from a toposheet margin",
+     "Closely spaced contour lines indicate a steep slope, while widely spaced contour lines indicate a gentle slope",
+     "The student can decode any SOI toposheet number (e.g., 45D/10) to identify its scale, parent 1:1M sheet, 1:250K sub-sheet, and 1:50K quadrant"
     ],
-    "hint": "Straight from the 'contour' slide -- match the key terms.",
-    "misconception": "A wrong evaluation (e.g., \"false because slope depends on CI only\" or \"true always without exception\") shows inability to link map measurement to ground gradient or to recognise cartographic limitations.",
+    "hint": "Straight from the 'topographical map' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can decode any SOI toposheet number (e.g., 45D/10) to identify its scale, parent 1:1M sheet, 1:250K",
     "id": "gen_c11_geo_ch24_q18",
-    "nodeId": "c11_geo_cbse_24_002",
+    "nodeId": "c11_geo_cbse_24_001",
     "difficulty": "standard"
    }
   ],
@@ -16863,8 +17318,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define a vertical aerial photograph and state the orientation of the camera axis relative to the ground.",
     "answer": "A vertical aerial photograph is taken with the camera axis exactly perpendicular (90°) to the ground surface, pointing directly toward the nadir",
     "options": [
-     "(1) Synoptic view — captures large area (50-100 km² per photo) in a single exposure enabling regional pattern recognition",
      "Relief displacement is the radial shift of an elevated object's image from its true planimetric position on a vertical aerial photograph",
+     "Student can independently analyze an unfamiliar vertical aerial photograph (1:10,000 to 1:50,000 scale) to identify at least five distinct land use/land cover classes (e",
      "A vertical aerial photograph is taken with the camera axis exactly perpendicular (90°) to the ground surface, pointing directly toward the nadir"
     ],
     "hint": "Straight from the 'Vertical aerial photographs' slide -- match the key terms.",
@@ -16971,7 +17426,7 @@ export const C11_GEO_GEN: SimDef[] = [
     "options": [
      "Steps: 1) Place a 1 m scale bar on flat ground. 2) Take a vertical photo (camera pointing straight down) from 10 m height (e",
      "Scale = 152 mm / 3,000,000 mm = 1:19,737. Photo side = 23 cm = 230 mm. Ground side = 230 mm × 19,737 = 4,539,510 mm = 4",
-     "1:13,158 (or 1/13,158). Root Mean Square: S = f / (H - h) = 152 mm / (2500 m - 500 m) = 152 mm / 2000 m = 152 mm / 2,000,000 mm = 1 / 13,158",
+     "1:13,158 (or 1/13,158). Sundarbans: S = f / (H - h) = 152 mm / (2500 m - 500 m) = 152 mm / 2000 m = 152 mm / 2,000,000 mm = 1 / 13,158",
      "1:13,158 (or 1/13,158). Calculation: S = f / (H - h) = 152 mm / (2500 m - 500 m) = 152 mm / 2000 m = 152 mm / 2,000,000 mm = 1 / 13,158"
     ],
     "hint": "Straight from the 'scale of an aerial photograph' slide -- match the key terms.",
@@ -17128,8 +17583,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "List the eight standard elements of aerial photograph interpretation in the correct mnemonic order used by the Survey of India, and give a one-phrase definition for each.",
     "answer": "The eight elements in standard mnemonic order (T-T-P-S-S-S-S-A) are: Tone — average brightness/colour of a feature",
     "options": [
-     "Relief displacement is the radial shift of an elevated object's image from its true planimetric position on a vertical aerial photograph",
-     "A vertical aerial photograph is taken with the camera axis exactly perpendicular (90°) to the ground surface, pointing directly toward the nadir",
+     "The student can correctly identify the principal point on an aerial photograph using fiducial marks, calculate photo scale given focal length and flying height",
+     "Students believe aerial photography is \"just like satellite images but from lower altitude\"",
      "The eight elements in standard mnemonic order (T-T-P-S-S-S-S-A) are: Tone — average brightness/colour of a feature"
     ],
     "hint": "Straight from the 'Interpretation of aerial' slide -- match the key terms.",
@@ -17529,8 +17984,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define aerial photography and state the geometric principle on which it is based.",
     "answer": "Aerial photography is the acquisition of photographs of the Earth's surface from an airborne platform using a precision metric camera",
     "options": [
-     "Focal length (f) is the distance from the camera lens's optical centre to the image plane (film/sensor) when focused at infinity, measured in millimetres (mm)",
-     "The eight elements in standard mnemonic order (T-T-P-S-S-S-S-A) are: Tone — average brightness/colour of a feature",
+     "Students believe aerial photography is \"just like satellite images but from lower altitude\"",
+     "Aerial photography is the technique of capturing photographs of the Earth's surface from an elevated platform (aircraft, drone",
      "Aerial photography is the acquisition of photographs of the Earth's surface from an airborne platform using a precision metric camera"
     ],
     "hint": "Straight from the 'Aerial photography' slide -- match the key terms.",
@@ -17659,8 +18114,8 @@ export const C11_GEO_GEN: SimDef[] = [
     "question": "Define remote sensing in one sentence using the three essential components: object surface, energy waves, and recording device.",
     "answer": "Remote sensing is the acquisition of information about an object's surface properties by a recording device (sensor) not in physical contact",
     "options": [
-     "Spatial resolution is the minimum distance between two adjacent ground features that a sensor can distinguish as separate entities, measured in metres (ground sample distance)",
-     "Bhaskar-1 (launched 1979) and Bhaskar-2 (launched 1981). Bhaskar-1 carried a two-band TV camera and a microwave radiometer to conduct experimental Earth observation and",
+     "Remote sensing platforms are the physical carriers or vehicles that host sensors for acquiring data about Earth's surface without physical contact",
+     "Resolution in remote sensing refers to the ability of a sensor to distinguish and record fine details of the Earth's surface across four dimensions: spatial (smallest detectable",
      "Remote sensing is the acquisition of information about an object's surface properties by a recording device (sensor) not in physical contact"
     ],
     "hint": "Straight from the 'Remote sensing' slide -- match the key terms.",
@@ -17747,16 +18202,47 @@ export const C11_GEO_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Name two active sensors and two passive sensors commonly used in Earth observation satellites, and state the primary energy source for each.",
-    "answer": "Active sensors: Synthetic Aperture Radar (SAR) on Sentinel-1 (microwave pulses generated by the satellite), LiDAR on ICESat-2 (laser pulses generated by the satellite)",
-    "options": [
-     "GIS is a computer-based system for capturing, storing, manipulating, analyzing, managing, and presenting spatial/geographic data",
-     "Bhaskar-1 (launched 1979) and Bhaskar-2 (launched 1981). Bhaskar-1 carried a two-band TV camera and a microwave radiometer to conduct experimental Earth observation and",
-     "Active sensors: Synthetic Aperture Radar (SAR) on Sentinel-1 (microwave pulses generated by the satellite), LiDAR on ICESat-2 (laser pulses generated by the satellite)"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "select the appropriate sensor type",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "clearly distinguish active and passive",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "explain the scanning mechanism of whiskbroom",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Active sensors' slide -- match the key terms.",
-    "misconception": "A wrong answer—e.g., listing Landsat MSS as active—reveals the student thinks any satellite-borne instrument is “active” just because it is on a satellite, confusing platform with sensor energy source.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) clearly distinguish active and passive sensors by energy source, operational constraints",
     "id": "gen_c11_geo_ch26_q4",
     "nodeId": "c11_geo_cbse_26_004",
     "difficulty": "standard",
@@ -17923,6 +18409,52 @@ export const C11_GEO_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "calculate wavelength",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "identify which spectral bands correspond",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "interpret a spectral signature curve",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) calculate wavelength, frequency, or energy of EMR in any spectral region using c = λν and E =",
+    "id": "gen_c11_geo_ch26_q9",
+    "nodeId": "c11_geo_cbse_26_003",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "IRS-1A carried two sensors: LISS-I (spatial resolution 72.5 m, swath 148 km) and LISS-II (spatial resolution 36.25 m, swath 74 km). If a district-level agricultural planner needs to monitor individual crop fields (typical size 2–5 ha), which sensor should they choose and why?",
     "sortItems": [
      {
@@ -17985,7 +18517,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer choosing LISS-I because of wider swath reveals the student confuses coverage with resolution — they don't grasp that spatial resolution determines the smallest mappable unit, not swath width.",
-    "id": "gen_c11_geo_ch26_q9",
+    "id": "gen_c11_geo_ch26_q10",
     "nodeId": "c11_geo_cbse_26_006",
     "difficulty": "standard"
    },
@@ -18053,7 +18585,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer revealing only \"software\" or \"maps\" as components shows the student views GIS as a tool rather than a system, missing the critical role of structured data models and human procedures in geographic analysis.",
-    "id": "gen_c11_geo_ch26_q10",
+    "id": "gen_c11_geo_ch26_q11",
     "nodeId": "c11_geo_cbse_26_008",
     "difficulty": "standard"
    },
@@ -18068,7 +18600,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"microwaves have higher resolution\") reveals confusion between spectral penetration capability and spatial resolution — microwaves generally have coarser resolution but all-weather capability.",
-    "id": "gen_c11_geo_ch26_q11",
+    "id": "gen_c11_geo_ch26_q12",
     "nodeId": "c11_geo_cbse_26_001",
     "difficulty": "standard"
    },
@@ -18083,7 +18615,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing' slide -- match the key terms.",
     "misconception": "A poor answer using only colour or copying Table 6.2 verbatim without synthesizing texture/pattern/association reveals rote memorization without application of interpretation elements to real-world discrimination.",
-    "id": "gen_c11_geo_ch26_q12",
+    "id": "gen_c11_geo_ch26_q13",
     "nodeId": "c11_geo_cbse_26_001",
     "difficulty": "standard"
    },
@@ -18098,7 +18630,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"water is blue so it looks dark\") reveals confusion between true colour and false colour composites, or ignorance of spectral signatures — the student thinks colour in FCC represents natural colour rather than assigned wavelength bands.",
-    "id": "gen_c11_geo_ch26_q13",
+    "id": "gen_c11_geo_ch26_q14",
     "nodeId": "c11_geo_cbse_26_001",
     "difficulty": "standard"
    },
@@ -18113,7 +18645,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
     "misconception": "A wrong choice (e.g., drone) shows the student prioritises resolution over cost-frequency trade-off and fails to match platform capabilities to the user's operational constraints.",
-    "id": "gen_c11_geo_ch26_q14",
+    "id": "gen_c11_geo_ch26_q15",
     "nodeId": "c11_geo_cbse_26_002",
     "difficulty": "standard"
    },
@@ -18128,7 +18660,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student conflates \"remote sensing\" with \"satellite remote sensing\" and has not grasped the platform classification hierarchy.",
-    "id": "gen_c11_geo_ch26_q15",
+    "id": "gen_c11_geo_ch26_q16",
     "nodeId": "c11_geo_cbse_26_002",
     "difficulty": "standard"
    },
@@ -18143,7 +18675,7 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Sun-synchronous (817 km): near-global coverage (81°N–81°S), 14 orbits/day, 5–24 day revisit, 5–23 m spatial resolution",
-    "id": "gen_c11_geo_ch26_q16",
+    "id": "gen_c11_geo_ch26_q17",
     "nodeId": "c11_geo_cbse_26_002",
     "difficulty": "standard"
    },
@@ -18158,21 +18690,6 @@ export const C11_GEO_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer: (1) Spaceborne: Sentinel-2 (10 m, 5-day) for monthly water extent mapping; Landsat-8 (30 m, 16-day) for",
-    "id": "gen_c11_geo_ch26_q17",
-    "nodeId": "c11_geo_cbse_26_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"For landslide early warning in the Himalayas, a network of ground-based GPS stations is more effective than satellite InSAR (Interferometric Synthetic Aperture Radar) because GPS gives real-time point measurements while satellites revisit only every 12 days.",
-    "answer": "The statement is partially valid but incomplete. Ground GPS provides millimetric, real-time point data at ~₹5–10 lakh/station but sparse spatial coverage (tens of km spacing)",
-    "options": [
-     "Georeferencing assigns real-world coordinates (latitude/longitude or projected coordinates) to each pixel of the satellite image",
-     "The radar emits its own 5.6 cm microwave pulses, which penetrate cloud droplets and require no solar illumination",
-     "The statement is partially valid but incomplete. Ground GPS provides millimetric, real-time point data at ~₹5–10 lakh/station but sparse spatial coverage (tens of km spacing)"
-    ],
-    "hint": "Straight from the 'Remote sensing platforms' slide -- match the key terms.",
-    "misconception": "A student who fully agrees ignores InSAR's spatial advantage; one who fully disagrees ignores GPS's temporal advantage.",
     "id": "gen_c11_geo_ch26_q18",
     "nodeId": "c11_geo_cbse_26_002",
     "difficulty": "standard"

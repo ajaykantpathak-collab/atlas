@@ -1004,7 +1004,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
       <header className="max-w-7xl mx-auto mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 bg-cyan-950 text-cyan-400 border border-cyan-700 rounded-full text-xs font-bold uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-950 text-gold-400 border border-gold-700 rounded-full text-xs font-bold uppercase tracking-wider">
               ICSE Class 10 Chemistry
             </span>
             <span className="px-3 py-1 bg-amber-950 text-amber-400 border border-amber-700 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -1025,7 +1025,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               audioManager.play('tap');
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'discovery' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
             }`}
           >
             1. Lab Context & Discovery
@@ -1036,7 +1036,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               audioManager.play('tap');
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'lab' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
             }`}
           >
             2. Interactive Workbench
@@ -1047,7 +1047,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               audioManager.play('tap');
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'challenges' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
             }`}
           >
             3. Adaptive Challenges ({userScore} pts)
@@ -1058,7 +1058,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               audioManager.play('tap');
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
-              activeTab === 'summary' ? 'bg-cyan-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
             }`}
           >
             4. Mastery Summary & SRS
@@ -1074,7 +1074,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-lg">
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">{SCENARIO.title}</h2>
+              <h2 className="text-xl font-bold text-gold-400 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 leading-relaxed mb-4">{SCENARIO.intro}</p>
               <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-slate-400 text-sm">
                 <strong className="text-white">Lab Context: </strong>
@@ -1083,9 +1083,9 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
             </div>
 
             {/* Discovery Question Card */}
-            <div className="bg-slate-900 border border-cyan-900/40 rounded-2xl p-6 shadow-xl">
+            <div className="bg-slate-900 border border-gold-900/40 rounded-2xl p-6 shadow-xl">
               <div className="flex items-center gap-2 mb-4">
-                <span className="w-3 h-3 rounded-full bg-cyan-500 animate-ping"></span>
+                <span className="w-3 h-3 rounded-full bg-gold-500 animate-ping"></span>
                 <h3 className="text-lg font-bold text-white">Pre-Lab Discovery Challenge</h3>
               </div>
               <p className="text-slate-200 text-base font-medium mb-6">{DISCOVERY_QUESTION.question}</p>
@@ -1101,11 +1101,11 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                        : 'bg-slate-950 border-slate-800 hover:border-cyan-700 text-slate-300'
+                        : 'bg-slate-950 border-slate-800 hover:border-gold-700 text-slate-300'
                     }`}
                   >
                     <div className="flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-bold text-cyan-400 shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-400 shrink-0">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{option}</span>
@@ -1115,7 +1115,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-cyan-950/50 border border-cyan-800 rounded-xl p-4 text-cyan-200 text-sm animate-fade-in">
+                <div className="bg-gold-950/50 border border-gold-800 rounded-xl p-4 text-gold-200 text-sm animate-fade-in">
                   <strong className="font-bold">Mechanism Hint: </strong>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1128,7 +1128,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               <div className="space-y-6">
                 {PREDICTION_QUESTIONS.map((pq, idx) => (
                   <div key={idx} className="bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <h4 className="font-semibold text-cyan-300 mb-3">{pq.question}</h4>
+                    <h4 className="font-semibold text-gold-300 mb-3">{pq.question}</h4>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
                       {pq.options.map((opt, oIdx) => (
                         <div
@@ -1167,23 +1167,23 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   }}
                   className={`p-3 rounded-xl border text-left text-xs font-bold transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-cyan-600 border-cyan-400 text-white shadow-lg'
+                      ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                   }`}
                 >
-                  <div className="text-cyan-300 text-[10px] uppercase mb-1">Step {idx + 1}</div>
+                  <div className="text-gold-300 text-[10px] uppercase mb-1">Step {idx + 1}</div>
                   <div className="truncate">{step.title.split(':')[1] || step.title}</div>
                 </button>
               ))}
             </div>
 
             {/* Instruction Banner */}
-            <div className="bg-slate-900 border border-cyan-800/50 rounded-xl p-4 flex items-center justify-between">
+            <div className="bg-slate-900 border border-gold-800/50 rounded-xl p-4 flex items-center justify-between">
               <div>
-                <h3 className="font-bold text-cyan-300 text-sm">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
+                <h3 className="font-bold text-gold-300 text-sm">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
                 <p className="text-slate-300 text-xs mt-0.5">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
               </div>
-              <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-md border border-slate-700 text-cyan-400 font-mono">
+              <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-md border border-slate-700 text-gold-400 font-mono">
                 Node: {EXPLORATION_STEPS[activeLabIndex].nodeId}
               </span>
             </div>
@@ -1197,7 +1197,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   <div className="bg-slate-900 border border-slate-800 rounded-xl p-5">
                     <label className="flex justify-between text-sm font-bold text-white mb-2">
                       <span>Carbon Chain Length (n): {carbonCount}</span>
-                      <span className="text-cyan-400">{alkaneInfo.name}</span>
+                      <span className="text-gold-400">{alkaneInfo.name}</span>
                     </label>
                     <input
                       type="range"
@@ -1208,7 +1208,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                         setCarbonCount(parseInt(e.target.value));
                         audioManager.play('pop');
                       }}
-                      className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer h-2"
+                      className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer h-2"
                     />
                     <div className="flex justify-between text-xs text-slate-500 mt-2 font-mono">
                       <span>C1 (Methane)</span>
@@ -1224,7 +1224,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   <div className="space-y-3 text-sm">
                     <div className="flex justify-between">
                       <span className="text-slate-400">Formula:</span>
-                      <span className="font-mono font-bold text-cyan-400">{alkaneInfo.formula}</span>
+                      <span className="font-mono font-bold text-gold-400">{alkaneInfo.formula}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">State at 25°C:</span>
@@ -1262,7 +1262,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                           setIsHeatingDecarb(false);
                           audioManager.play('pop');
                         }}
-                        className="bg-slate-950 border border-slate-700 text-cyan-400 font-bold text-sm rounded-lg px-3 py-2"
+                        className="bg-slate-950 border border-slate-700 text-gold-400 font-bold text-sm rounded-lg px-3 py-2"
                       >
                         <option value="acetate">Sodium Acetate (CH₃COONa) → Methane</option>
                         <option value="propionate">Sodium Propionate (C₂H₅COONa) → Ethane</option>
@@ -1290,7 +1290,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   <div className="space-y-3 text-xs">
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                       <div className="text-slate-400">Soda Lime Composition:</div>
-                      <div className="text-cyan-400 font-mono font-bold mt-1">NaOH + CaO (Quicklime)</div>
+                      <div className="text-gold-400 font-mono font-bold mt-1">NaOH + CaO (Quicklime)</div>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                       <div className="text-slate-400">Gas Collection Method:</div>
@@ -1345,7 +1345,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                         audioManager.play('balance');
                         setTimeout(() => setIsWurtzReacting(false), 2000);
                       }}
-                      className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2.5 rounded-xl transition-all shadow-lg"
+                      className="w-full bg-gold-600 hover:bg-gold-500 text-white font-bold py-2.5 rounded-xl transition-all shadow-lg"
                     >
                       Trigger Wurtz Coupling Reaction
                     </button>
@@ -1356,7 +1356,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   <h4 className="font-bold text-white border-b border-slate-800 pb-2">Coupling Yield Analysis</h4>
                   <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs">
                     <div className="text-slate-400">Main Product Formula:</div>
-                    <div className="text-cyan-400 font-mono font-bold mt-1">{getWurtzProductText().formula}</div>
+                    <div className="text-gold-400 font-mono font-bold mt-1">{getWurtzProductText().formula}</div>
                   </div>
                   <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs">
                     <div className="text-slate-400">Yield Quality:</div>
@@ -1375,7 +1375,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                 <div className="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6">
                   <div className="bg-slate-950 p-6 rounded-xl border border-slate-800 text-center">
                     <div className="text-xs uppercase text-slate-400 font-bold tracking-wider mb-2">Reactor Catalytic Chamber</div>
-                    <div className="text-2xl font-mono font-bold text-cyan-400 mb-4">
+                    <div className="text-2xl font-mono font-bold text-gold-400 mb-4">
                       {unsaturatedReactant === 'ethene' ? 'CH₂=CH₂ + H₂' : 'HC≡CH + 2H₂'} —({catalyst}, {tempCelsius}°C)→ C₂H₆ (Ethane)
                     </div>
                     <div className="flex justify-center gap-4">
@@ -1422,7 +1422,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                         max="350"
                         value={tempCelsius}
                         onChange={(e) => setTempCelsius(parseInt(e.target.value))}
-                        className="w-full mt-3 accent-cyan-500"
+                        className="w-full mt-3 accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1433,7 +1433,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                       audioManager.play('chime');
                       setTimeout(() => setIsHydrogenating(false), 1500);
                     }}
-                    className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 rounded-xl transition-all shadow-lg"
+                    className="w-full bg-gold-600 hover:bg-gold-500 text-white font-bold py-3 rounded-xl transition-all shadow-lg"
                   >
                     Inject Hydrogen Gas & Heat Reactor
                   </button>
@@ -1444,7 +1444,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   <p className="text-slate-300 text-xs leading-relaxed">
                     Sabatier-Senderens Reaction converts unsaturated hydrocarbons (alkenes & alkynes) into saturated alkanes by adding H₂ across C=C or C≡C bonds.
                   </p>
-                  <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs text-cyan-300">
+                  <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-xs text-gold-300">
                     Stoichiometry: Ethyne (triple bond) requires <strong>2 moles</strong> of H₂ per mole of hydrocarbon!
                   </div>
                 </div>
@@ -1462,7 +1462,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                       {/* Halogenation light slider */}
                       <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                         <label className="text-xs font-bold text-slate-400 uppercase block mb-2">
-                          Light Condition: <span className="text-cyan-400">{lightCondition.toUpperCase()}</span>
+                          Light Condition: <span className="text-gold-400">{lightCondition.toUpperCase()}</span>
                         </label>
                         <div className="flex gap-2">
                           {(['dark', 'diffused', 'direct'] as const).map((mode) => (
@@ -1471,7 +1471,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                               onClick={() => setLightCondition(mode)}
                               className={`flex-1 py-1.5 rounded text-xs font-bold border transition-all ${
                                 lightCondition === mode
-                                  ? 'bg-cyan-600 border-cyan-400 text-white'
+                                  ? 'bg-gold-600 border-gold-400 text-white'
                                   : 'bg-slate-900 border-slate-800 text-slate-400'
                               }`}
                             >
@@ -1481,7 +1481,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                         </div>
                         <button
                           onClick={() => triggerHalogenationOrCombustion('halogenation')}
-                          className="w-full mt-3 bg-cyan-700 hover:bg-cyan-600 text-white text-xs font-bold py-2 rounded-lg"
+                          className="w-full mt-3 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold py-2 rounded-lg"
                         >
                           Run Halogenation (CH₄ + Cl₂)
                         </button>
@@ -1528,7 +1528,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   <div className="space-y-4">
                     {OBSERVATION_QUESTIONS.map((oq, idx) => (
                       <div key={idx} className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-xs">
-                        <div className="text-cyan-300 font-semibold mb-2">{oq.question}</div>
+                        <div className="text-gold-300 font-semibold mb-2">{oq.question}</div>
                         <div className="text-slate-400 italic">
                           Correct Observation: {oq.observableOptions[oq.correctIndex]}
                         </div>
@@ -1569,7 +1569,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                 </h3>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-sm font-bold text-cyan-400 font-mono">Score: {userScore} pts</span>
+                <span className="text-sm font-bold text-gold-400 font-mono">Score: {userScore} pts</span>
                 <button
                   onClick={prevChallenge}
                   disabled={currentChallengeIdx === 0}
@@ -1580,7 +1580,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                 <button
                   onClick={nextChallenge}
                   disabled={currentChallengeIdx === CHALLENGES.length - 1}
-                  className="px-3 py-1.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-xs font-bold rounded-lg text-white"
+                  className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-xs font-bold rounded-lg text-white"
                 >
                   Next
                 </button>
@@ -1611,7 +1611,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                     }`}
                   >
                     <div className="flex items-center gap-3">
-                      <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-bold text-cyan-400">
+                      <span className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-400">
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span>{option}</span>
@@ -1638,7 +1638,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
 
                 {challengeAnswered && (
                   <div className="text-xs text-slate-400 italic">
-                    Node Ref: <span className="text-cyan-400 font-mono">{CHALLENGES[currentChallengeIdx].nodeId}</span>
+                    Node Ref: <span className="text-gold-400 font-mono">{CHALLENGES[currentChallengeIdx].nodeId}</span>
                   </div>
                 )}
               </div>
@@ -1646,7 +1646,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
               {/* Detailed Explanation Banner */}
               {challengeAnswered && (
                 <div className="bg-slate-950 border border-slate-800 rounded-xl p-4 text-xs text-slate-300 space-y-2 animate-fade-in">
-                  <div className="font-bold text-cyan-400 text-sm">Detailed Explanation:</div>
+                  <div className="font-bold text-gold-400 text-sm">Detailed Explanation:</div>
                   <p>{CHALLENGES[currentChallengeIdx].explanation}</p>
 
                   {CHALLENGES[currentChallengeIdx].misconceptionIndex !== undefined && (
@@ -1671,8 +1671,8 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
         {activeTab === 'summary' && (
           <div className="space-y-6">
             {/* Real World Activity Section */}
-            <div className="bg-slate-900 border border-cyan-800/60 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
+            <div className="bg-slate-900 border border-gold-800/60 rounded-2xl p-6 shadow-xl">
+              <h3 className="text-lg font-bold text-gold-400 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-slate-300 text-sm mb-4">{REAL_WORLD_ACTIVITY.description}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
@@ -1696,7 +1696,7 @@ export default function C10_ChemistryAlkanesgeneralformulaandpreparationSim() {
                   return (
                     <div key={nodeId} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col justify-between space-y-2">
                       <div>
-                        <div className="text-[10px] font-mono text-cyan-400 uppercase">{nodeId}</div>
+                        <div className="text-[10px] font-mono text-gold-400 uppercase">{nodeId}</div>
                         <div className="text-xs font-bold text-slate-200 line-clamp-2 mt-1">
                           {nodeId}
                         </div>

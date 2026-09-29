@@ -609,10 +609,10 @@ const MaritimeCanalDiagram: React.FC<{ canalType: 'suez' | 'panama' }> = ({ cana
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-inner">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-bold text-cyan-400">
+        <h4 className="text-sm font-bold text-gold-400">
           {canalType === 'suez' ? 'Suez Canal Profile (Sea-Level Cut)' : 'Panama Canal Profile (Lock System)'}
         </h4>
-        <span className="text-xs bg-cyan-900/60 text-cyan-300 px-2 py-0.5 rounded border border-cyan-700">
+        <span className="text-xs bg-gold-900/60 text-gold-300 px-2 py-0.5 rounded border border-gold-700">
           {canalType === 'suez' ? 'No Locks Needed (Sea Level)' : 'Elevated Gatun Lake (26m ASL)'}
         </span>
       </div>
@@ -746,8 +746,8 @@ const TelecomSatelliteOpticDiagram: React.FC = () => {
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 shadow-inner">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-bold text-indigo-400">Satellite Orbits (INSAT/IRS) & Subsea Optic Fiber System</h4>
-        <span className="text-xs bg-indigo-950 text-indigo-300 px-2 py-0.5 rounded border border-indigo-800">Telecommunication & Remote Sensing</span>
+        <h4 className="text-sm font-bold text-gold-400">Satellite Orbits (INSAT/IRS) & Subsea Optic Fiber System</h4>
+        <span className="text-xs bg-gold-950 text-gold-300 px-2 py-0.5 rounded border border-gold-800">Telecommunication & Remote Sensing</span>
       </div>
       <svg viewBox="0 0 750 240" className="w-full h-auto rounded bg-slate-950">
         {/* Outer Space Background */}
@@ -989,11 +989,11 @@ export default function C12_GeoTransportCommunicationCBSESim({
       {/* ---------------- HEADER BAR ---------------- */}
       <header className="bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-tr from-cyan-600 to-indigo-600 rounded-xl flex items-center justify-center font-black text-2xl text-white shadow-lg">
+          <div className="w-12 h-12 bg-gradient-to-tr from-gold-600 to-gold-600 rounded-xl flex items-center justify-center font-black text-2xl text-white shadow-lg">
             ⚡
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400">
@@ -1007,7 +1007,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
           <button
             onClick={() => { setActiveTab('discovery'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'discovery' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'discovery' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             🔍 1. Scenario & Discovery
@@ -1015,7 +1015,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
           <button
             onClick={() => { setActiveTab('lab'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'lab' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'lab' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             🧪 2. Interactive Labs ({EXPLORATION_STEPS.length})
@@ -1023,7 +1023,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
           <button
             onClick={() => { setActiveTab('challenges'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'challenges' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'challenges' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             🎯 3. Challenges ({totalCorrect}/{CHALLENGES.length})
@@ -1031,7 +1031,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
           <button
             onClick={() => { setActiveTab('summary'); audioManager.play('tap'); }}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
-              activeTab === 'summary' ? 'bg-indigo-600 text-white shadow' : 'text-slate-400 hover:text-white'
+              activeTab === 'summary' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-white'
             }`}
           >
             📊 4. Real-World Audit
@@ -1048,11 +1048,11 @@ export default function C12_GeoTransportCommunicationCBSESim({
           <div className="space-y-6 max-w-5xl mx-auto">
             {/* SCENARIO CARD */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-600/10 rounded-full blur-3xl pointer-events-none" />
-              <h2 className="text-xl font-bold text-cyan-400 mb-2">Operational Context</h2>
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
+              <h2 className="text-xl font-bold text-gold-400 mb-2">Operational Context</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="p-4 bg-slate-950/80 rounded-xl border border-cyan-900/40 text-xs text-slate-300">
-                <span className="font-semibold text-cyan-300">Mandate: </span>
+              <div className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/40 text-xs text-slate-300">
+                <span className="font-semibold text-gold-300">Mandate: </span>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1093,8 +1093,8 @@ export default function C12_GeoTransportCommunicationCBSESim({
               </div>
 
               {discoverySubmitted && (
-                <div className="p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-xl text-xs text-indigo-200 leading-relaxed">
-                  <span className="font-bold text-indigo-300">Insight: </span>
+                <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl text-xs text-gold-200 leading-relaxed">
+                  <span className="font-bold text-gold-300">Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1107,11 +1107,11 @@ export default function C12_GeoTransportCommunicationCBSESim({
               </h3>
               {PREDICTION_QUESTIONS.map((pq, pqIdx) => (
                 <div key={pqIdx} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <p className="text-sm font-semibold text-sky-300">{pq.question}</p>
+                  <p className="text-sm font-semibold text-gold-300">{pq.question}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {pq.options.map((opt, oIdx) => (
                       <div key={oIdx} className="p-3 bg-slate-900 border border-slate-800 rounded-lg text-xs text-slate-300">
-                        <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
+                        <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + oIdx)}.</span>
                         {opt}
                       </div>
                     ))}
@@ -1142,7 +1142,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
                     selectedLabIndex === idx
-                      ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-900/40 border border-cyan-400'
+                      ? 'bg-gold-600 text-white shadow-lg shadow-gold-900/40 border border-gold-400'
                       : 'bg-slate-900 text-slate-400 hover:bg-slate-800 border border-slate-800'
                   }`}
                 >
@@ -1154,7 +1154,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
             {/* CURRENT LAB INSTRUCTION HEADER */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex justify-between items-center">
               <div>
-                <h3 className="text-base font-bold text-cyan-300">
+                <h3 className="text-base font-bold text-gold-300">
                   {EXPLORATION_STEPS[selectedLabIndex].title}
                 </h3>
                 <p className="text-xs text-slate-400">
@@ -1170,11 +1170,11 @@ export default function C12_GeoTransportCommunicationCBSESim({
             {selectedLabIndex === 0 && (
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                 <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
-                  <h4 className="text-sm font-bold text-sky-400">Graph Structure Parameters</h4>
+                  <h4 className="text-sm font-bold text-gold-400">Graph Structure Parameters</h4>
                   
                   <div>
                     <label className="text-xs text-slate-300 block mb-1">
-                      Number of Nodes / Vertices (v): <span className="font-bold text-sky-300">{lab1Nodes}</span>
+                      Number of Nodes / Vertices (v): <span className="font-bold text-gold-300">{lab1Nodes}</span>
                     </label>
                     <input
                       type="range"
@@ -1185,13 +1185,13 @@ export default function C12_GeoTransportCommunicationCBSESim({
                         setLab1Nodes(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 block mb-1">
-                      Number of Links / Edges (e): <span className="font-bold text-sky-300">{lab1Links}</span>
+                      Number of Links / Edges (e): <span className="font-bold text-gold-300">{lab1Links}</span>
                     </label>
                     <input
                       type="range"
@@ -1202,14 +1202,14 @@ export default function C12_GeoTransportCommunicationCBSESim({
                         setLab1Links(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2 text-xs">
                     <div className="flex justify-between border-b border-slate-800 pb-1">
                       <span className="text-slate-400">Beta Index (β = e/v):</span>
-                      <span className="font-mono font-bold text-cyan-400">{lab1Beta}</span>
+                      <span className="font-mono font-bold text-gold-400">{lab1Beta}</span>
                     </div>
                     <div className="flex justify-between border-b border-slate-800 pb-1">
                       <span className="text-slate-400">Alpha Index (α):</span>
@@ -1278,7 +1278,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                   <button
                     onClick={() => { setLab2Canal('suez'); audioManager.play('swoop'); }}
                     className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                      lab2Canal === 'suez' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400'
+                      lab2Canal === 'suez' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                     }`}
                   >
                     Suez Canal Model
@@ -1286,7 +1286,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                   <button
                     onClick={() => { setLab2Canal('panama'); audioManager.play('swoop'); }}
                     className={`px-4 py-2 rounded-xl text-xs font-bold ${
-                      lab2Canal === 'panama' ? 'bg-cyan-600 text-white' : 'bg-slate-900 text-slate-400'
+                      lab2Canal === 'panama' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                     }`}
                   >
                     Panama Canal Model
@@ -1298,7 +1298,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-900 p-5 rounded-2xl border border-slate-800">
                   <div>
                     <label className="text-xs text-slate-300 block mb-1">
-                      Vessel Capacity: <span className="text-cyan-400 font-bold">{lab2VesselSize} TEU</span>
+                      Vessel Capacity: <span className="text-gold-400 font-bold">{lab2VesselSize} TEU</span>
                     </label>
                     <input
                       type="range"
@@ -1307,13 +1307,13 @@ export default function C12_GeoTransportCommunicationCBSESim({
                       step="1000"
                       value={lab2VesselSize}
                       onChange={e => setLab2VesselSize(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
                   <div>
                     <label className="text-xs text-slate-300 block mb-1">
-                      Transit Speed: <span className="text-cyan-400 font-bold">{lab2SpeedKnots} knots</span>
+                      Transit Speed: <span className="text-gold-400 font-bold">{lab2SpeedKnots} knots</span>
                     </label>
                     <input
                       type="range"
@@ -1321,7 +1321,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                       max="22"
                       value={lab2SpeedKnots}
                       onChange={e => setLab2SpeedKnots(Number(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1380,7 +1380,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                     </div>
                     <div className="flex justify-between">
                       <span>Maximum Operational Speed:</span>
-                      <span className="font-bold text-cyan-400">
+                      <span className="font-bold text-gold-400">
                         {lab3Gauge === 'broad' ? '160 km/h (Vande Bharat)' : lab3Gauge === 'meter' ? '75 km/h' : '35 km/h'}
                       </span>
                     </div>
@@ -1407,7 +1407,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                         onClick={() => { setLab4Category(cat.key as 'golden_quad' | 'nh' | 'state_h' | 'bro' | 'pmgsy'); audioManager.play('tap'); }}
                         className={`p-2.5 rounded-xl border text-xs font-bold text-center transition-all ${
                           lab4Category === cat.key
-                            ? 'bg-sky-600 text-white border-sky-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1419,27 +1419,27 @@ export default function C12_GeoTransportCommunicationCBSESim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2">
                     {lab4Category === 'golden_quad' && (
                       <p>
-                        <strong className="text-sky-300">Golden Quadrilateral & Corridors:</strong> 5,846 km express highway system connecting Delhi, Mumbai, Chennai, Kolkata. Managed by NHAI.
+                        <strong className="text-gold-300">Golden Quadrilateral & Corridors:</strong> 5,846 km express highway system connecting Delhi, Mumbai, Chennai, Kolkata. Managed by NHAI.
                       </p>
                     )}
                     {lab4Category === 'nh' && (
                       <p>
-                        <strong className="text-sky-300">National Highways (NH):</strong> Primary road system connecting state capitals and major ports. Account for 2% of total road length but carry ~40% of road traffic.
+                        <strong className="text-gold-300">National Highways (NH):</strong> Primary road system connecting state capitals and major ports. Account for 2% of total road length but carry ~40% of road traffic.
                       </p>
                     )}
                     {lab4Category === 'state_h' && (
                       <p>
-                        <strong className="text-sky-300">State Highways:</strong> Constructed and maintained by State PWD, connecting district headquarters with national highways.
+                        <strong className="text-gold-300">State Highways:</strong> Constructed and maintained by State PWD, connecting district headquarters with national highways.
                       </p>
                     )}
                     {lab4Category === 'bro' && (
                       <p>
-                        <strong className="text-sky-300">Border Roads Organisation (BRO):</strong> Established May 1960 for defense infrastructure and snow clearing along northern/northeastern frontiers.
+                        <strong className="text-gold-300">Border Roads Organisation (BRO):</strong> Established May 1960 for defense infrastructure and snow clearing along northern/northeastern frontiers.
                       </p>
                     )}
                     {lab4Category === 'pmgsy' && (
                       <p>
-                        <strong className="text-sky-300">PMGSY (Pradhan Mantri Gram Sadak Yojana):</strong> 100% centrally sponsored scheme providing all-weather single-lane paved road connectivity to rural habitations.
+                        <strong className="text-gold-300">PMGSY (Pradhan Mantri Gram Sadak Yojana):</strong> 100% centrally sponsored scheme providing all-weather single-lane paved road connectivity to rural habitations.
                       </p>
                     )}
                   </div>
@@ -1453,7 +1453,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                 <TelecomSatelliteOpticDiagram />
 
                 <div className="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-4">
-                  <h4 className="text-sm font-bold text-indigo-400">Communication Network Performance Benchmark</h4>
+                  <h4 className="text-sm font-bold text-gold-400">Communication Network Performance Benchmark</h4>
                   <div className="grid grid-cols-3 gap-3">
                     {[
                       { key: 'sat_geo', label: 'GEO Satellite (INSAT)', latency: '500 ms', capacity: 'Medium' },
@@ -1465,7 +1465,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                         onClick={() => { setLab5System(sys.key as 'sat_geo' | 'sat_leo' | 'optic_subsea'); audioManager.play('pop'); }}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           lab5System === sys.key
-                            ? 'bg-indigo-950/70 border-indigo-500 text-indigo-200'
+                            ? 'bg-gold-950/70 border-gold-500 text-gold-200'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1516,7 +1516,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                   CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-300 border border-emerald-800'
                     : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
-                    ? 'bg-sky-950 text-sky-300 border border-sky-800'
+                    ? 'bg-gold-950 text-gold-300 border border-gold-800'
                     : 'bg-purple-950 text-purple-300 border border-purple-800'
                 }`}>
                   {CHALLENGES[currentChallengeIndex].difficulty}
@@ -1540,7 +1540,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                     setCurrentChallengeIndex(prev => prev + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-3 py-1.5 bg-indigo-600 rounded-lg text-xs text-white font-bold disabled:opacity-40"
+                  className="px-3 py-1.5 bg-gold-600 rounded-lg text-xs text-white font-bold disabled:opacity-40"
                 >
                   Next →
                 </button>
@@ -1556,7 +1556,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
               return (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
                   <div>
-                    <span className="text-xs font-mono text-indigo-400 block mb-1">
+                    <span className="text-xs font-mono text-gold-400 block mb-1">
                       Competency: {ch.competencyLevel} • Node: {ch.nodeId}
                     </span>
                     <h3 className="text-base font-bold text-slate-100">{ch.question}</h3>
@@ -1606,7 +1606,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                               handleChallengeSubmit(ch, (e.target as HTMLInputElement).value);
                             }
                           }}
-                          className="flex-grow p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-indigo-500 font-mono"
+                          className="flex-grow p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-100 focus:outline-none focus:border-gold-500 font-mono"
                         />
                         <button
                           disabled={status === 'correct'}
@@ -1614,7 +1614,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
                             const inputElem = e.currentTarget.previousElementSibling as HTMLInputElement;
                             handleChallengeSubmit(ch, inputElem.value);
                           }}
-                          className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold transition-all"
+                          className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold transition-all"
                         >
                           Submit Answer
                         </button>
@@ -1647,7 +1647,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
             {/* REAL WORLD ACTIVITY SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
               <div className="flex items-center gap-2">
-                <span className="px-3 py-1 bg-indigo-600/30 text-indigo-300 border border-indigo-500/40 rounded-lg text-xs font-bold">
+                <span className="px-3 py-1 bg-gold-600/30 text-gold-300 border border-gold-500/40 rounded-lg text-xs font-bold">
                   Real-World Industry Case Study
                 </span>
               </div>
@@ -1657,7 +1657,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
               <div className="space-y-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <div key={sIdx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
-                    <span className="w-6 h-6 rounded-lg bg-indigo-950 border border-indigo-700 text-indigo-300 flex items-center justify-center font-bold text-xs shrink-0">
+                    <span className="w-6 h-6 rounded-lg bg-gold-950 border border-gold-700 text-gold-300 flex items-center justify-center font-bold text-xs shrink-0">
                       {sIdx + 1}
                     </span>
                     <span>{step}</span>
@@ -1693,7 +1693,7 @@ export default function C12_GeoTransportCommunicationCBSESim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {DIAGNOSTIC_QUESTIONS.map(dq => (
                   <div key={dq.id} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1">
-                    <div className="font-semibold text-sky-300">{dq.question}</div>
+                    <div className="font-semibold text-gold-300">{dq.question}</div>
                     <div className="text-slate-400">{dq.explanation}</div>
                   </div>
                 ))}

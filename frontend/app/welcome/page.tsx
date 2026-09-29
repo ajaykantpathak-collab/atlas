@@ -20,10 +20,10 @@ export default function WelcomePage() {
 
   if (started) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-indigo-100">
+      <div className="min-h-screen flex items-center justify-center bg-gold-100">
         <div className="text-center">
           <div className="text-5xl mb-4 animate-bounce">🚀</div>
-          <p className="text-xl font-bold text-indigo-600">Loading your adventure...</p>
+          <p className="text-xl font-bold text-gold-600">Loading your adventure...</p>
         </div>
       </div>
     );

@@ -11,7 +11,7 @@ export const w_c8_socialscienceculturalcurrentssim: SimDef = {
     classLevel: 8, subject: 'science', topic: 'Colonialism: Definition and Historical Context',
     chapters: [],
     nodeIds: ['c8_hist_ch3_1', 'c8_hist_ch3_10', 'c8_hist_ch5_1', 'c8_hist_ch5_10', 'c8_hist_ch5_11', 'c8_hist_ch5_9', 'c8_hist_ch4_1', 'c8_hist_ch4_5'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are visiting the Basilica of Bom Jesus in Old Goa or St.', goal: 'Master Colonialism: Definition and Historical Context.' },
     discovery: {
         question: 'Compare the *motives* of the East India Company (chartered 1600) and the Mughal emperor Jahangir (who gave them a farman in 1615).',
@@ -20,7 +20,7 @@ export const w_c8_socialscienceculturalcurrentssim: SimDef = {
         hook: 'Students think colonialism *began* with the Battle of Plassey (1757) and was *only* British.',
     },
     teaching: [
-        { title: 'Colonialism is a system where a powerful.', text: 'Colonialism is a system where a powerful country establishes political control over a weaker territory, exploits its resources and labor for economic gain, and imposes its cultural and administrative.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Colonialism is a system where a powerful.', text: 'Colonialism is a system where a powerful country establishes political control over a weaker territory, exploits its resources and labor for economic gain, and imposes its cultural and administrative.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_hist_ch3_1', title: 'Colonialism is a system where a.',

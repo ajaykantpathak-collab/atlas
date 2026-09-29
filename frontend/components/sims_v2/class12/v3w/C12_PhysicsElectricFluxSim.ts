@@ -11,7 +11,7 @@ export const w_c12_physicselectricfluxsim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Electric Field: Definition and Calculation',
     chapters: [],
     nodeIds: ['c12_phy_cbse_01_004', 'c12_phy_cbse_01_006', 'c12_phy_cbse_01_007', 'c12_phy_cbse_01_008', 'c12_phy_cbse_01_009', 'c12_phy_cbse_01_010', 'c12_phy_cbse_08_001', 'c12_phy_cbse_06_005', 'c12_phy_cbse_07_009', 'c12_phy_cbse_11_003', 'c12_phy_cbse_06_001', 'c12_phy_cbse_06_002', 'c12_phy_cbse_06_003', 'c12_phy_cbse_06_007', 'c12_phy_cbse_01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you rub a plastic ruler against your dry hair and hold it near tiny bits of paper — the paper jumps.', goal: 'Master Electric Field: Definition and Calculation.' },
     discovery: {
         question: 'What is the SI unit of electric field, and how is it derived from the definition \\(\\vec{E} = \\vec{F}/q\\)?',
@@ -20,7 +20,7 @@ export const w_c12_physicselectricfluxsim: SimDef = {
         hook: 'Students often think the electric field at a point depends on the test charge used to measure it, writing \\(E = F/q\\).',
     },
     teaching: [
-        { title: 'Electric field at a point in space is.', text: 'Electric field at a point in space is defined as the electrostatic force per unit positive test charge placed at that point, without disturbing the source charge distribution.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Electric field at a point in space is.', text: 'Electric field at a point in space is defined as the electrostatic force per unit positive test charge placed at that point, without disturbing the source charge distribution.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_01_004', title: 'Electric field at a point in space is.',

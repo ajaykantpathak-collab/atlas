@@ -2040,7 +2040,7 @@ function C6_HistoryCivicsHistoryMeaningDefinitionSim({
             </motion.div>
 
             <motion.div whileHover={{ scale: 1.01 }} className="p-5 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-sm font-bold text-blue-300">📐 Harappan Brick Proportions (4 : 2 : 1)</h4>
+              <h4 className="text-sm font-bold text-gold-300">📐 Harappan Brick Proportions (4 : 2 : 1)</h4>
               <div className="flex items-center justify-around p-3 bg-slate-950 rounded-xl border border-slate-800">
                 <motion.div whileHover={{ scale: 1.1 }} className="text-center">
                   <span className="text-[10px] text-slate-500">Length</span>
@@ -2088,7 +2088,7 @@ function C6_HistoryCivicsHistoryMeaningDefinitionSim({
                       difficulty === 'foundation'
                         ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                         : difficulty === 'standard'
-                        ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                        ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                         : 'bg-rose-500/20 text-rose-400 border border-rose-500/30'
                     }`}
                   >

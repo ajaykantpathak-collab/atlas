@@ -59,7 +59,7 @@ export function C7_MathematicsConstructionsAndTilingsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Constructions and Tilings</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Constructions and Tilings</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       <div className="flex flex-wrap gap-2 mt-4">
@@ -68,7 +68,7 @@ export function C7_MathematicsConstructionsAndTilingsSim() {
             key={k}
             onClick={() => setShape(k)}
             className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${
-              shape === k ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'
+              shape === k ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'
             }`}
           >
             {SHAPES[k].name} ({SHAPES[k].angle}°)
@@ -107,9 +107,9 @@ export function C7_MathematicsConstructionsAndTilingsSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Tile size</span>
-            <span className="font-mono font-bold text-sky-300">{size}</span>
+            <span className="font-mono font-bold text-gold-300">{size}</span>
           </label>
-          <input type="range" aria-label="tile size" min={28} max={95} value={size} onChange={(e) => setSize(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="tile size" min={28} max={95} value={size} onChange={(e) => setSize(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 flex items-center justify-between">
           <span className="text-xs text-slate-300">Corner test</span>
@@ -134,8 +134,8 @@ export function C7_MathematicsConstructionsAndTilingsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Test every shape with the corner probe. Which ones read exactly 360°, and what angle does the pentagon fall short by?</li>
           <li>A regular octagon has 135° inside angles. Two octagons cover 270° -- what familiar tile fills the leftover 90°? (This is a real floor pattern!)</li>

@@ -222,9 +222,9 @@ function TimekeeperTara({ mood, speaking }: { mood: MascotMood; speaking: string
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[240px] border-2 border-indigo-200"
+            className="mb-2 bg-white rounded-2xl px-4 py-3 shadow-xl max-w-[240px] border-2 border-gold-200"
           >
-            <p className="text-xs font-bold text-indigo-900">{speaking}</p>
+            <p className="text-xs font-bold text-gold-900">{speaking}</p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -366,14 +366,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Time Units & Conversions ⏰",
     text: "Time is measured in days, hours, and minutes! Remember the golden rules: 1 day = 24 hours, 1 hour = 60 minutes, and 1 minute = 60 seconds. To convert bigger to smaller units, we multiply! To convert smaller to bigger units, we divide!",
     emoji: "⏰",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Time is measured in days, hours, and minutes! 1 day equals 24 hours, 1 hour equals 60 minutes, and 1 minute equals 60 seconds. To convert bigger to smaller units, we multiply!"
   },
   {
     title: "Clock Reading & a.m. / p.m. ☀️🌙",
     text: "A clock has two hands: short hour hand and long minute hand. a.m. stands for hours before noon (from midnight to just before noon), while p.m. stands for hours after noon (from noon to just before midnight). Always write a.m. or p.m.!",
     emoji: "☀️",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "A clock has a short hour hand and a long minute hand. a.m. is before noon, and p.m. is after noon. Always label your times with a.m. or p.m.!"
   },
   {
@@ -723,7 +723,7 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
   };
 
   return (
-    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gradient-to-br from-indigo-50 to-blue-100 flex flex-col items-center justify-between" style={{ width, height }}>
+    <div className="relative overflow-hidden select-none font-sans rounded-3xl shadow-2xl bg-gradient-to-br from-gold-50 to-gold-100 flex flex-col items-center justify-between" style={{ width, height }}>
       <TimeLabScene width={width} height={height} />
       <TimekeeperTara mood={mascotMood} speaking={speakingText} />
 
@@ -733,12 +733,12 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
       {sparklePos && <SparkleBurst x={sparklePos.x} y={sparklePos.y} onComplete={() => setSparklePos(null)} />}
 
       {/* Top Bar */}
-      <div className="w-full px-6 py-3 flex items-center justify-between z-10 bg-white/70 backdrop-blur-md border-b border-indigo-100">
+      <div className="w-full px-6 py-3 flex items-center justify-between z-10 bg-white/70 backdrop-blur-md border-b border-gold-100">
         <div className="flex items-center gap-3">
-          <div className="bg-indigo-600 text-white font-black px-3 py-1 rounded-xl text-sm shadow">
+          <div className="bg-gold-600 text-white font-black px-3 py-1 rounded-xl text-sm shadow">
             Class 4 Math
           </div>
-          <span className="text-sm font-bold text-indigo-900">Time, Data & Patterns</span>
+          <span className="text-sm font-bold text-gold-900">Time, Data & Patterns</span>
         </div>
 
         <div className="flex items-center gap-4">
@@ -765,18 +765,18 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
-            className="bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl max-w-xl w-full flex flex-col items-center text-center border-4 border-indigo-200"
+            className="bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl max-w-xl w-full flex flex-col items-center text-center border-4 border-gold-200"
           >
             <div className={`w-20 h-20 rounded-3xl bg-gradient-to-br ${TEACHING_SLIDES[slideIdx].bgColor} flex items-center justify-center text-4xl shadow-lg mb-4`}>
               {TEACHING_SLIDES[slideIdx].emoji}
             </div>
-            <h2 className="text-2xl font-black text-indigo-950 mb-3">{TEACHING_SLIDES[slideIdx].title}</h2>
+            <h2 className="text-2xl font-black text-gold-950 mb-3">{TEACHING_SLIDES[slideIdx].title}</h2>
             <p className="text-gray-700 text-base leading-relaxed mb-8">{TEACHING_SLIDES[slideIdx].text}</p>
 
             <div className="flex items-center justify-between w-full">
               <div className="flex gap-1.5">
                 {TEACHING_SLIDES.map((_, i) => (
-                  <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-indigo-600' : 'w-2.5 bg-indigo-200'}`} />
+                  <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-600' : 'w-2.5 bg-gold-200'}`} />
                 ))}
               </div>
 
@@ -798,7 +798,7 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
                       setScreen('play');
                     }
                   }}
-                  className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm shadow-lg transition active:scale-95 flex items-center gap-2"
+                  className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-700 text-white font-bold text-sm shadow-lg transition active:scale-95 flex items-center gap-2"
                 >
                   {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➔'}
                 </button>
@@ -810,20 +810,20 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
             key={challengeIdx}
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl max-w-2xl w-full flex flex-col items-center text-center border-4 border-indigo-200 relative"
+            className="bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl max-w-2xl w-full flex flex-col items-center text-center border-4 border-gold-200 relative"
           >
-            <div className="bg-indigo-100 text-indigo-800 font-bold px-4 py-1 rounded-full text-xs mb-3 shadow-inner">
+            <div className="bg-gold-100 text-gold-800 font-bold px-4 py-1 rounded-full text-xs mb-3 shadow-inner">
               Question {challengeIdx + 1} of {CHALLENGES.length}
             </div>
 
-            <h3 className="text-lg font-black text-indigo-950 mb-6">{currentChallenge.question}</h3>
+            <h3 className="text-lg font-black text-gold-950 mb-6">{currentChallenge.question}</h3>
 
             {currentChallenge.type === 'identify' ? (
               <div className="grid grid-cols-3 gap-4 w-full max-w-lg mb-4">
                 {currentChallenge.options.map((opt) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnColor = 'bg-white hover:bg-indigo-50 border-2 border-indigo-200 text-indigo-900';
+                  let btnColor = 'bg-white hover:bg-gold-50 border-2 border-gold-200 text-gold-900';
                   if (selectedOpt) {
                     if (isCorrectAnswer) btnColor = 'bg-emerald-500 border-2 border-emerald-600 text-white shadow-lg scale-105';
                     else if (isSelected) btnColor = 'bg-rose-500 border-2 border-rose-600 text-white';
@@ -854,7 +854,7 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
                       key={bin.id}
                       onMouseEnter={() => setHoveredBin(bin.id)}
                       onMouseLeave={() => setHoveredBin(null)}
-                      className={`border-3 border-dashed rounded-2xl p-4 flex flex-col items-center justify-center shadow-inner transition-all ${hoveredBin === bin.id ? 'scale-105 opacity-90' : 'bg-indigo-50/60 opacity-80'}`}
+                      className={`border-3 border-dashed rounded-2xl p-4 flex flex-col items-center justify-center shadow-inner transition-all ${hoveredBin === bin.id ? 'scale-105 opacity-90' : 'bg-gold-50/60 opacity-80'}`}
                       style={{ borderColor: bin.color, minHeight: '90px' }}
                     >
                       <span className="font-black text-sm" style={{ color: bin.color }}>{bin.label}</span>
@@ -880,7 +880,7 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
                           width={110}
                           height={95}
                         >
-                          <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
+                          <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} p-2`} style={{ width: 110, height: 95 }}>
                             {renderSortIcon(item.icon, 40)}
                             <span className="text-[11px] font-bold text-gray-800 text-center mt-1 truncate max-w-[100px]">{item.label}</span>
                           </div>
@@ -900,7 +900,7 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
                   setIsIncorrect(false);
                   setSelectedOpt(null);
                 }}
-                className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-2 rounded-xl text-sm shadow transition"
+                className="mt-4 bg-gold-600 hover:bg-gold-700 text-white font-bold px-6 py-2 rounded-xl text-sm shadow transition"
               >
                 Try Again 🔄
               </motion.button>
@@ -910,7 +910,7 @@ export function TimeDataPatternsGame({ width = 720, height = 560, onComplete }: 
       </div>
 
       {/* Bottom Bar */}
-      <div className="w-full px-6 py-3 bg-white/70 backdrop-blur-md border-t border-indigo-100 flex items-center justify-between z-10 text-xs text-indigo-900 font-semibold">
+      <div className="w-full px-6 py-3 bg-white/70 backdrop-blur-md border-t border-gold-100 flex items-center justify-between z-10 text-xs text-gold-900 font-semibold">
         <span>CISCE Class 4 Math • Time, Data & Patterns</span>
         <span>Score: {score} pts</span>
       </div>

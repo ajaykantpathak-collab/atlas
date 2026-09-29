@@ -107,7 +107,7 @@ export default function HistCivSandbox() {
           {HISTCIV_SANDBOX_CLASSES.map(b => (
             <button key={b.key}
               onClick={() => { setBandKey(b.key); setChapterKey(b.chapters[0].key); setChapter(b.chapters[0]) }}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${b.key === bandKey ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {b.label}
             </button>
           ))}
@@ -126,7 +126,7 @@ export default function HistCivSandbox() {
       <div className="flex gap-1 px-3 pt-2.5 border-b border-slate-800 bg-slate-900/40 overflow-x-auto">
         {MODES.map(m => (
           <button key={m.key} onClick={() => setMode(m.key)}
-            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${mode === m.key ? 'border-sky-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
+            className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold whitespace-nowrap border-b-2 transition ${mode === m.key ? 'border-gold-400 text-white' : 'border-transparent text-slate-400 hover:text-slate-200'}`}>
             <m.icon className="w-3.5 h-3.5" />
             {m.label}
           </button>

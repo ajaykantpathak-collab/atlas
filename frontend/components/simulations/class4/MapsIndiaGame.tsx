@@ -221,14 +221,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "What is a Map? 🗺️",
     text: "A map is a flat, two-dimensional representation of the Earth or a part of it, drawn on paper. It has length and breadth but no depth, helping us view continents, countries, rivers, and cities all at once!",
     emoji: "🗺️",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "A map is a flat, two-dimensional representation of the Earth or a part of it, drawn on paper. It helps us view continents, countries, rivers, and cities all at once!"
   },
   {
     title: "Types of Maps 🎨",
     text: "There are three main types of maps! Physical maps show natural features like mountains in brown and rivers in blue. Political maps show human-made borders of states and countries. Thematic maps show one specific topic like rainfall or population.",
     emoji: "🌍",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "There are three main types of maps! Physical maps show natural features like mountains in brown and rivers in blue. Political maps show state borders. Thematic maps show specific topics like rainfall."
   },
   {
@@ -242,7 +242,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Globe vs Map & Atlas 📖",
     text: "A globe is a three-dimensional ball model showing the whole Earth. A map is flat, portable, and shows small areas in great detail. Many maps bound together in a book form an atlas with an index to locate places quickly!",
     emoji: "📖",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "A globe is a three dimensional ball model. A map is flat and portable. An atlas is a collection of maps bound together in a book!"
   },
   {

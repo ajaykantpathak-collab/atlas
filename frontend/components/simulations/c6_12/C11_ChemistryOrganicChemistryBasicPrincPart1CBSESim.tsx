@@ -660,11 +660,11 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
             <span className="px-2.5 py-1 text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full">
               CBSE Class 11 Chemistry
             </span>
-            <span className="px-2.5 py-1 text-xs font-semibold bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 rounded-full">
+            <span className="px-2.5 py-1 text-xs font-semibold bg-gold-500/20 text-gold-400 border border-gold-500/30 rounded-full">
               NCERT Ch 12 Part 1
             </span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-300 to-indigo-400 bg-clip-text text-transparent mt-1">
+          <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-emerald-400 via-gold-300 to-gold-400 bg-clip-text text-transparent mt-1">
             Organic Chemistry: Basic Principles & Techniques
           </h1>
         </div>
@@ -698,7 +698,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
             onClick={() => switchTab(t.id as TabType)}
             className={`px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 flex items-center gap-2 ${
               activeTab === t.id
-                ? 'bg-gradient-to-r from-cyan-600 to-emerald-600 text-white shadow-lg shadow-cyan-900/30 font-semibold'
+                ? 'bg-gradient-to-r from-gold-600 to-emerald-600 text-white shadow-lg shadow-gold-900/30 font-semibold'
                 : 'bg-slate-900/80 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800'
             }`}
           >
@@ -718,7 +718,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
           >
             <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl flex flex-col justify-between">
               <div>
-                <h2 className="text-lg font-bold text-cyan-300 mb-2">Tetravalence & Hybridization of Carbon</h2>
+                <h2 className="text-lg font-bold text-gold-300 mb-2">Tetravalence & Hybridization of Carbon</h2>
                 <p className="text-sm text-slate-300 leading-relaxed mb-4">
                   Carbon has electronic configuration 1s² 2s² 2px¹ 2py¹. In excited state, one 2s electron is promoted to 2pz orbital, providing four unpaired electrons for bonding.
                 </p>
@@ -756,7 +756,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                   </div>
                   <div className="flex justify-between border-b border-slate-800 pb-1">
                     <span className="text-slate-400">Bond Angle:</span>
-                    <span className="font-semibold text-cyan-400">
+                    <span className="font-semibold text-gold-400">
                       {selectedHybrid === 'sp3' ? '109.5°' : selectedHybrid === 'sp2' ? '120°' : '180°'}
                     </span>
                   </div>
@@ -768,7 +768,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                   </div>
                   <div className="flex justify-between border-b border-slate-800 pb-1">
                     <span className="text-slate-400">Example Molecule:</span>
-                    <span className="font-semibold text-indigo-300">
+                    <span className="font-semibold text-gold-300">
                       {selectedHybrid === 'sp3' ? 'Methane (CH4), Ethane (C2H6)' : selectedHybrid === 'sp2' ? 'Ethene (C2H4)' : 'Ethyne (C2H2)'}
                     </span>
                   </div>
@@ -930,7 +930,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                     }}
                     className={`py-2 px-3 rounded-lg text-xs font-semibold border transition ${
                       selectedRepMol === m.id
-                        ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                        ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                         : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
                     }`}
                   >
@@ -966,7 +966,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
               {/* Display Canvas Box */}
               <div className="bg-slate-950 border border-slate-800 rounded-xl p-8 flex flex-col items-center justify-center min-h-[220px]">
                 {repType === 'condensed' ? (
-                  <div className="text-2xl font-mono text-cyan-300 font-bold tracking-wider">
+                  <div className="text-2xl font-mono text-gold-300 font-bold tracking-wider">
                     {selectedRepMol === 'ethane' && 'CH₃-CH₃'}
                     {selectedRepMol === 'ethene' && 'CH₂=CH₂'}
                     {selectedRepMol === 'ethyne' && 'HC≡CH'}
@@ -977,7 +977,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                 ) : repType === 'complete' ? (
                   <svg className="w-full h-40 max-w-lg" viewBox="0 0 500 150">
                     {selectedRepMol === 'propanol' && (
-                      <g className="font-mono font-bold text-lg fill-cyan-300 stroke-cyan-300">
+                      <g className="font-mono font-bold text-lg fill-gold-300 stroke-gold-300">
                         {/* Carbon chain C1, C2, C3 */}
                         <text x="100" y="80">C</text>
                         <text x="200" y="80">C</text>
@@ -1121,7 +1121,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                 <div>
                   <div className="flex justify-between text-xs text-slate-400 mb-1">
                     <span>Substituent Position (Locant)</span>
-                    <span className="font-bold text-cyan-400">C-{subPosition}</span>
+                    <span className="font-bold text-gold-400">C-{subPosition}</span>
                   </div>
                   <input
                     type="range"
@@ -1129,7 +1129,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                     max={chainLen}
                     value={subPosition}
                     onChange={(e) => setSubPosition(Number(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer h-2"
+                    className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer h-2"
                   />
                 </div>
               )}
@@ -1149,7 +1149,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                       }}
                       className={`flex-1 py-1.5 text-xs font-bold rounded-lg border transition ${
                         benzeneSub === pos
-                          ? 'bg-indigo-500/20 border-indigo-500 text-indigo-300'
+                          ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                           : 'bg-slate-800 border-slate-700 text-slate-400'
                       }`}
                     >
@@ -1174,14 +1174,14 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                 <div className="mt-6 space-y-3 text-xs text-slate-300 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
                   <h4 className="font-bold text-slate-200 border-b border-slate-800 pb-1">IUPAC Rule Breakdown:</h4>
                   <p>1. <strong className="text-emerald-400">Parent Root Word:</strong> Root prefix for {chainLen} carbons is "{chainLen === 1 ? 'meth' : chainLen === 2 ? 'eth' : chainLen === 3 ? 'prop' : chainLen === 4 ? 'but' : chainLen === 5 ? 'pent' : 'hex'}".</p>
-                  <p>2. <strong className="text-cyan-400">Lowest Locant Rule:</strong> The chain is numbered from the end that gives the principal functional group the lowest possible locant.</p>
+                  <p>2. <strong className="text-gold-400">Lowest Locant Rule:</strong> The chain is numbered from the end that gives the principal functional group the lowest possible locant.</p>
                   <p>3. <strong className="text-amber-400">Suffix Selection:</strong> Primary suffix "-ane" + Secondary suffix for {substituent}.</p>
                 </div>
               </div>
 
               {/* Benzene Name Preview */}
-              <div className="mt-4 p-3 bg-indigo-950/30 border border-indigo-800/50 rounded-xl text-xs flex justify-between items-center">
-                <span className="text-indigo-300">Dimethylbenzene Iso-Pos:</span>
+              <div className="mt-4 p-3 bg-gold-950/30 border border-gold-800/50 rounded-xl text-xs flex justify-between items-center">
+                <span className="text-gold-300">Dimethylbenzene Iso-Pos:</span>
                 <span className="font-bold text-white font-mono">
                   {benzeneSub === 'ortho' && '1,2-dimethylbenzene (o-xylene)'}
                   {benzeneSub === 'meta' && '1,3-dimethylbenzene (m-xylene)'}
@@ -1200,7 +1200,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
             className="grid grid-cols-1 lg:grid-cols-12 gap-6"
           >
             <div className="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4">
-              <h2 className="text-lg font-bold text-indigo-300">Electronic Effects & Resonance</h2>
+              <h2 className="text-lg font-bold text-gold-300">Electronic Effects & Resonance</h2>
               <p className="text-xs text-slate-300 leading-relaxed">
                 Observe curved-arrow notation depicting electron displacement in conjugated systems (+R/-R resonance) and temporary polarization due to attacking reagents (Electromeric effect).
               </p>
@@ -1221,7 +1221,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                     }}
                     className={`py-2 text-xs font-bold rounded-lg border transition ${
                       effectType === eff.id
-                        ? 'bg-indigo-500/20 border-indigo-500 text-indigo-300'
+                        ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                         : 'bg-slate-800 border-slate-700 text-slate-400'
                     }`}
                   >
@@ -1256,7 +1256,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                 )}
                 {effectType === 'E+' && (
                   <>
-                    <h4 className="font-bold text-cyan-400">Electromeric Effect (Temporary):</h4>
+                    <h4 className="font-bold text-gold-400">Electromeric Effect (Temporary):</h4>
                     <p className="text-slate-300">
                       Complete transfer of a shared pair of pi-electrons to one of the bonded atoms in the presence of an attacking electrophile (E+).
                     </p>
@@ -1269,7 +1269,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                   audioManager.play('swoop');
                   setAnimStep((prev) => (prev + 1) % 4);
                 }}
-                className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg transition"
+                className="w-full py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg transition"
               >
                 Trigger Resonance Step ({animStep + 1} / 4)
               </button>
@@ -1330,7 +1330,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
             className="grid grid-cols-1 lg:grid-cols-12 gap-6"
           >
             <div className="lg:col-span-4 bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl space-y-4">
-              <h2 className="text-lg font-bold text-cyan-300">Purification Methods Lab</h2>
+              <h2 className="text-lg font-bold text-gold-300">Purification Methods Lab</h2>
 
               {/* Lab Technique Selector */}
               <div className="space-y-1.5">
@@ -1351,7 +1351,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                     }}
                     className={`w-full text-left px-3 py-2 rounded-lg text-xs font-semibold border transition ${
                       labType === lab.id
-                        ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                        ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                         : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-700'
                     }`}
                   >
@@ -1381,7 +1381,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                   <div>
                     <div className="flex justify-between text-xs text-slate-400 mb-1">
                       <span>Solvent Front Distance (cm)</span>
-                      <span className="font-bold text-cyan-400">{tlcSolventDist} cm</span>
+                      <span className="font-bold text-gold-400">{tlcSolventDist} cm</span>
                     </div>
                     <input
                       type="range"
@@ -1390,7 +1390,7 @@ export default function C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim() {
                       step="0.1"
                       value={tlcSolventDist}
                       onChange={(e) => setTlcSolventDist(Number(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-800 rounded-lg cursor-pointer h-2"
+                      className="w-full accent-gold-500 bg-slate-800 rounded-lg cursor-pointer h-2"
                     />
                   </div>
 

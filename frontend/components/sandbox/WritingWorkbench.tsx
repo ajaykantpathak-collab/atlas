@@ -235,7 +235,7 @@ export default function WritingWorkbench() {
         <div className="flex gap-1.5 flex-wrap mb-1.5">
           {(['en', 'hi'] as const).map(s => (
             <button key={s} onClick={() => { setLang(s); setTaskId(s === 'en' ? 'w_notice' : 'w_notice_hi') }}
-              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${s === lang ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`px-3 py-1 rounded-full text-xs font-bold border transition ${s === lang ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/60 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {s === 'en' ? 'English' : 'हिंदी'}
             </button>
           ))}
@@ -274,11 +274,11 @@ export default function WritingWorkbench() {
           </p>
           <textarea value={draft} onChange={e => { setDraft(e.target.value); setChecked(false) }}
             dir={task.lang === 'hi' ? 'auto' : 'ltr'} rows={12}
-            className="w-full rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white leading-relaxed focus:outline-none focus:border-sky-400"
+            className="w-full rounded-xl bg-slate-800/70 border border-slate-600 px-3 py-2 text-sm text-white leading-relaxed focus:outline-none focus:border-gold-400"
             placeholder={task.lang === 'hi' ? 'यहाँ लिखिए…' : 'write here…'} />
           <div className="flex items-center gap-2 mt-2">
             <button onClick={runCheck} disabled={!draft.trim()}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-400 disabled:opacity-40 text-slate-950 font-black text-xs">
+              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gold-500 hover:bg-gold-400 disabled:opacity-40 text-slate-950 font-black text-xs">
               <Check className="w-3.5 h-3.5" />Check against the mark scheme ({score}/{total})
             </button>
             <span className="text-[10px] text-slate-500">word count: {draft.trim() ? draft.trim().split(/\s+/).length : 0}</span>

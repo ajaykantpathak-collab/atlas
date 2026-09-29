@@ -1258,7 +1258,7 @@ function C9_EVSBiodiversityLossCausesSim({
           animate={{ opacity: 1, scale: 1 }} 
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-indigo-950/50 rounded-2xl border border-emerald-800/60 shadow-xl relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/70 via-slate-900 to-gold-950/50 rounded-2xl border border-emerald-800/60 shadow-xl relative overflow-hidden">
             <div className="relative z-10">
               <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Mission Briefing</span>
               <h2 className="text-2xl font-black text-white mt-1">{SCENARIO.title}</h2>
@@ -1432,7 +1432,7 @@ function C9_EVSBiodiversityLossCausesSim({
                     <span className="text-slate-400 font-bold">Lakshadweep Coral Reef Micro-Aquarium</span>
                     <span className={oceanPH < 8.0 ? 'text-rose-400 font-bold' : 'text-emerald-400 font-bold'}>Seawater pH: {oceanPH}</span>
                   </div>
-                  <svg viewBox="0 0 400 240" className="w-full h-auto rounded-xl bg-sky-950/60 border border-sky-900/50">
+                  <svg viewBox="0 0 400 240" className="w-full h-auto rounded-xl bg-gold-950/60 border border-gold-900/50">
                     <rect x="0" y="0" width="400" height="240" fill={oceanPH < 7.9 ? '#1e293b' : '#0369a1'} opacity="0.4" />
                     
                     <g transform="translate(60, 160)">
@@ -1637,7 +1637,7 @@ function C9_EVSBiodiversityLossCausesSim({
                   <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <label className="text-xs font-bold text-slate-300 flex justify-between">
                       <span>Atmospheric Carbon Dioxide (CO₂):</span>
-                      <span className="text-sky-400 font-mono">{atmosphericCO2Ppm} ppm</span>
+                      <span className="text-gold-400 font-mono">{atmosphericCO2Ppm} ppm</span>
                     </label>
                     <input
                       type="range"
@@ -1646,7 +1646,7 @@ function C9_EVSBiodiversityLossCausesSim({
                       value={atmosphericCO2Ppm}
                       onChange={(e) => setAtmosphericCO2Ppm(Number(e.target.value))}
                       aria-label="Set atmospheric CO2 ppm"
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="grid grid-cols-2 gap-2 text-center text-xs">
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
@@ -1655,7 +1655,7 @@ function C9_EVSBiodiversityLossCausesSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block">Ocean pH</span>
-                        <span className="text-sky-400 font-bold font-mono">{oceanPH}</span>
+                        <span className="text-gold-400 font-bold font-mono">{oceanPH}</span>
                       </div>
                     </div>
                   </div>
@@ -1765,7 +1765,7 @@ function C9_EVSBiodiversityLossCausesSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToSandbox}
                     aria-label="Proceed to Free Sandbox"
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-xs font-bold text-white shadow-lg shadow-indigo-950"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 rounded-xl text-xs font-bold text-white shadow-lg shadow-gold-950"
                   >
                     Try Free Sandbox →
                   </motion.button>
@@ -1779,9 +1779,9 @@ function C9_EVSBiodiversityLossCausesSim({
       {/* PHASE 3: SANDBOX / FREE PLAY */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-800/60 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Unrestricted Biosphere Lab</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Unrestricted Biosphere Lab</span>
               <h2 className="text-xl font-black text-white mt-0.5">Ecological Sandbox & Multi-Variable Simulator</h2>
               <p className="text-xs text-slate-300 mt-1">
                 Freely cross-modulate all 5 planetary drivers. Discover feedback loops before taking the graded challenges!
@@ -1835,7 +1835,7 @@ function C9_EVSBiodiversityLossCausesSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-sky-400">2. Atmosphere & Climate</span>
+              <span className="text-xs font-bold text-gold-400">2. Atmosphere & Climate</span>
               <div>
                 <div className="flex justify-between text-xs text-slate-400 mb-1">
                   <span>Atmospheric CO₂:</span>
@@ -1848,7 +1848,7 @@ function C9_EVSBiodiversityLossCausesSim({
                   value={atmosphericCO2Ppm}
                   onChange={(e) => setAtmosphericCO2Ppm(Number(e.target.value))}
                   aria-label="Sandbox atmospheric CO2"
-                  className="w-full accent-sky-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div>
@@ -1869,7 +1869,7 @@ function C9_EVSBiodiversityLossCausesSim({
             </div>
 
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-indigo-400">3. Handprint Solutions</span>
+              <span className="text-xs font-bold text-gold-400">3. Handprint Solutions</span>
               <div>
                 <div className="flex justify-between text-xs text-slate-400 mb-1">
                   <span>Circular Economy 5Rs:</span>
@@ -1882,7 +1882,7 @@ function C9_EVSBiodiversityLossCausesSim({
                   value={circularEconomyAdoption}
                   onChange={(e) => setCircularEconomyAdoption(Number(e.target.value))}
                   aria-label="Sandbox circular economy"
-                  className="w-full accent-indigo-500 cursor-pointer"
+                  className="w-full accent-gold-500 cursor-pointer"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 text-center">
@@ -1913,7 +1913,7 @@ function C9_EVSBiodiversityLossCausesSim({
                       ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 text-rose-400 border-rose-800'
-                      : 'bg-sky-950 text-sky-400 border-sky-800'
+                      : 'bg-gold-950 text-gold-400 border-gold-800'
                   }`}
                 >
                   {difficulty} Tier
@@ -2129,7 +2129,7 @@ function C9_EVSBiodiversityLossCausesSim({
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2218,7 +2218,7 @@ function C9_EVSBiodiversityLossCausesSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           
-          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-700 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-700 shadow-2xl text-center space-y-3">
             <span className="text-4xl">🌟</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Mission Accomplished!</h2>
             <p className="text-sm text-emerald-300 max-w-xl mx-auto">
@@ -2231,7 +2231,7 @@ function C9_EVSBiodiversityLossCausesSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-2xl border border-emerald-800/80 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -2259,13 +2259,13 @@ function C9_EVSBiodiversityLossCausesSim({
           </div>
 
           {/* SPACED REPETITION SCHEDULE VISIBILITY */}
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950 rounded-2xl border border-indigo-800/60 shadow-lg space-y-3">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950 rounded-2xl border border-gold-800/60 shadow-lg space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📅</span>
                 <span className="font-bold text-white text-sm">Spaced Repetition System (SRS) Schedule</span>
               </div>
-              <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-indigo-900/80 text-indigo-300 border border-indigo-700">
+              <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-gold-900/80 text-gold-300 border border-gold-700">
                 SM-2 Active
               </span>
             </div>
@@ -2312,7 +2312,7 @@ function C9_EVSBiodiversityLossCausesSim({
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-sky-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2320,7 +2320,7 @@ function C9_EVSBiodiversityLossCausesSim({
                   onChange={(e) => setReflectionResponses(r => ({ ...r, explanation: e.target.value }))}
                   placeholder="e.g., Ecological footprint is damage done, while handprint is active healing like composting and solar..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-sky-500 placeholder:text-slate-600"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 placeholder:text-slate-600"
                 />
               </div>
 

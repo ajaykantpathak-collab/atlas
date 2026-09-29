@@ -11,7 +11,7 @@ export const w_c11_physicsmotionstraightlinecbsesim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Position, Path Length and Displacement',
     chapters: [],
     nodeIds: ['c11_phy_cbse_02_001', 'c11_phy_cbse_02_005', 'c11_phy_cbse_02_009', 'c11_phy_cbse_02_011', 'c11_phy_cbse_04_001', 'c11_phy_cbse_04_002', 'c11_phy_cbse_04_007', 'c11_phy_cbse_03_009', 'c11_phy_cbse_05_014', 'c11_phy_cbse_10_015', 'c11_phy_cbse_05_002', 'c11_phy_cbse_05_006', 'c11_phy_cbse_03_002', 'c11_phy_cbse_06_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe an auto-rickshaw moving on a straight Delhi road from Connaught Place (origin) towards India Gate.', goal: 'Master Position, Path Length and Displacement.' },
     discovery: {
         question: 'A ball is thrown vertically upward with initial speed 20 m/s. At the highest point of its motion, what are the values of velocity and acceleration?',
@@ -20,7 +20,7 @@ export const w_c11_physicsmotionstraightlinecbsesim: SimDef = {
         hook: 'Students believe the kinematic equations can be used for ANY motion with acceleration, not realising they are valid.',
     },
     teaching: [
-        { title: 'Position is the location of a point object.', text: 'Position is the location of a point object specified by its coordinate (x) on a chosen axis with respect to a fixed origin, where positions to the right of the origin are positive and to the left are.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Position is the location of a point object.', text: 'Position is the location of a point object specified by its coordinate (x) on a chosen axis with respect to a fixed origin, where positions to the right of the origin are positive and to the left are.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_02_001', title: 'Position is the location of a point.',

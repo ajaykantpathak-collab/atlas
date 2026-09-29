@@ -65,7 +65,7 @@ export function C12_BiotechnologyGeneCloningSim() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
         <div className="flex flex-col gap-2">
           {ENZYMES.map((e) => (
-            <button key={e.id} onClick={() => pick(e.id)} className={`min-h-11 px-3 rounded-xl text-xs font-mono font-bold border ${enzymeId === e.id ? 'bg-indigo-600 text-white border-indigo-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
+            <button key={e.id} onClick={() => pick(e.id)} className={`min-h-11 px-3 rounded-xl text-xs font-mono font-bold border ${enzymeId === e.id ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-900 text-slate-400 border-slate-800'}`}>
               {e.id} site {e.site.slice(0, 1)}^{e.site.slice(1)}
             </button>
           ))}
@@ -74,14 +74,14 @@ export function C12_BiotechnologyGeneCloningSim() {
           <button onClick={() => { setCutDone(true); setLigated(false); }} className="min-h-11 px-4 rounded-2xl text-sm font-bold bg-emerald-600 border border-emerald-500 text-white hover:bg-emerald-500">
             Cut insert with {enzyme.id}
           </button>
-          <button onClick={() => cutDone && setLigated(true)} disabled={!cutDone} className={`min-h-11 px-4 rounded-2xl text-sm font-bold border ${cutDone ? 'bg-violet-600 border-violet-500 text-white hover:bg-violet-500' : 'bg-slate-900 border-slate-800 text-slate-600'}`}>
+          <button onClick={() => cutDone && setLigated(true)} disabled={!cutDone} className={`min-h-11 px-4 rounded-2xl text-sm font-bold border ${cutDone ? 'bg-gold-600 border-gold-500 text-white hover:bg-gold-500' : 'bg-slate-900 border-slate-800 text-slate-600'}`}>
             Open plasmid + ligate insert
           </button>
           <button onClick={reset} className="min-h-11 px-4 rounded-2xl text-sm font-bold bg-slate-900 border border-slate-700 text-slate-300 hover:bg-slate-800">Reset bench</button>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-xs space-y-2">
-          <p className="text-slate-400 flex justify-between"><span>Cut sites found</span><span className="font-mono font-bold text-indigo-300">{cutSites.length} site(s)</span></p>
-          <p className="text-slate-400 flex justify-between"><span>Fragments</span><span className="font-mono font-bold text-indigo-300">{cutDone ? fragments.length : 1}</span></p>
+          <p className="text-slate-400 flex justify-between"><span>Cut sites found</span><span className="font-mono font-bold text-gold-300">{cutSites.length} site(s)</span></p>
+          <p className="text-slate-400 flex justify-between"><span>Fragments</span><span className="font-mono font-bold text-gold-300">{cutDone ? fragments.length : 1}</span></p>
           <p className="text-slate-400 flex justify-between"><span>5&apos; overhang</span><span className="font-mono font-bold text-amber-300">5&apos;-{enzyme.overhang}-3&apos;</span></p>
         </div>
       </div>

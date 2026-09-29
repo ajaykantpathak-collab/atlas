@@ -6,7 +6,7 @@ export const c8_math_ch05_p2: SimDef = {
     id: 'v3_c8_math_ch05_p2',
     title: 'Number Play',
     subtitle: 'Divisibility tricks, digit puzzles, and why some numbers hide patterns in plain sight.',
-    classLevel: 8, subject: 'mathematics', topic: 'Number Play · Part 2/2',
+    classLevel: 8, subject: 'mathematics', topic: 'Number Play',
     chapters: ['c8_math_ch05'],
     nodeIds: ['c8_math_ch5_5', 'c8_math_ch5_6', 'c8_math_ch5_7', 'c8_math_ch5_8', 'c8_math_ch5_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

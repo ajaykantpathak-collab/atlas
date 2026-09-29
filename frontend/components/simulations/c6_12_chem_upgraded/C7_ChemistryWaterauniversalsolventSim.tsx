@@ -1261,7 +1261,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
       <header className="max-w-7xl mx-auto mb-8 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
           <div className="flex items-center gap-3">
-            <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+            <span className="bg-gold-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
               Class 7 ICSE Chemistry
             </span>
             <span className="text-slate-400 text-sm font-semibold">Node Set: c7_chem_017-020</span>
@@ -1294,7 +1294,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
             audioManager.play('tap');
           }}
           className={`px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
-            activeTab === 'discovery' ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
+            activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-lg shadow-gold-500/30' : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
           }`}
         >
           🔬 1. Discovery & Scenario
@@ -1340,8 +1340,8 @@ export default function C7_ChemistryWaterauniversalsolventSim({
       {activeTab === 'discovery' && (
         <div className="max-w-7xl mx-auto space-y-6">
           {/* Scenario Banner */}
-          <div className="bg-gradient-to-r from-blue-900/40 via-slate-900 to-indigo-900/40 border border-blue-800/50 p-6 rounded-2xl shadow-xl">
-            <h2 className="text-xl font-bold text-blue-300 mb-2">📋 Scenario: {SCENARIO.title}</h2>
+          <div className="bg-gradient-to-r from-gold-900/40 via-slate-900 to-gold-900/40 border border-gold-800/50 p-6 rounded-2xl shadow-xl">
+            <h2 className="text-xl font-bold text-gold-300 mb-2">📋 Scenario: {SCENARIO.title}</h2>
             <p className="text-slate-200 text-base leading-relaxed mb-3">{SCENARIO.intro}</p>
             <p className="text-slate-400 text-sm italic">{SCENARIO.context}</p>
           </div>
@@ -1418,7 +1418,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
                     ))}
                   </div>
                   {predictionAnswers[qIdx] !== undefined && (
-                    <div className="text-xs text-blue-300 bg-blue-950/50 p-2.5 rounded border border-blue-800">
+                    <div className="text-xs text-gold-300 bg-gold-950/50 p-2.5 rounded border border-gold-800">
                       🔍 <strong>Verification Instruction:</strong> {pq.verifyInstruction}
                     </div>
                   )}
@@ -1454,7 +1454,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
           <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
               <div>
-                <span className="bg-blue-500/20 text-blue-300 text-xs font-bold px-3 py-1 rounded-full">Lab 1</span>
+                <span className="bg-gold-500/20 text-gold-300 text-xs font-bold px-3 py-1 rounded-full">Lab 1</span>
                 <h3 className="text-xl font-bold text-white mt-1">Molecular Dipole & Particle Simulator</h3>
               </div>
               <div className="flex gap-3">
@@ -1464,7 +1464,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
                     audioManager.play('pop');
                   }}
                   className={`px-4 py-2 rounded-lg text-xs font-bold ${
-                    lab1Substance === 'nacl' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-400'
+                    lab1Substance === 'nacl' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   NaCl (Ionic Salt)
@@ -1489,7 +1489,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
               </div>
               <div className="space-y-4">
                 <div className="bg-slate-800 p-4 rounded-xl border border-slate-700 text-sm">
-                  <h4 className="font-bold text-blue-300 mb-2">Molecular Interaction Insight:</h4>
+                  <h4 className="font-bold text-gold-300 mb-2">Molecular Interaction Insight:</h4>
                   {lab1Substance === 'nacl' ? (
                     <p className="text-slate-300 text-xs leading-relaxed">
                       Water molecules are permanent dipoles. Oxygen attracts positive Sodium ions (Na⁺) while Hydrogens surround negative Chloride ions (Cl⁻). This forms hydration shells that break the NaCl crystal lattice apart!
@@ -1653,7 +1653,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
                       setLab3AddedSoda(true);
                       audioManager.play('chime');
                     }}
-                    className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                   >
                     🧪 Add Washing Soda (Na₂CO₃)
                   </button>
@@ -1895,7 +1895,7 @@ export default function C7_ChemistryWaterauniversalsolventSim({
 
           {/* Diagnostic Review Grid */}
           <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
-            <h3 className="text-lg font-bold text-blue-300 mb-4">📝 Diagnostic Knowledge Check ({DIAGNOSTIC_QUESTIONS.length})</h3>
+            <h3 className="text-lg font-bold text-gold-300 mb-4">📝 Diagnostic Knowledge Check ({DIAGNOSTIC_QUESTIONS.length})</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {DIAGNOSTIC_QUESTIONS.map((dq) => (
                 <div key={dq.id} className="bg-slate-800/40 p-4 rounded-xl border border-slate-700 text-xs space-y-2">

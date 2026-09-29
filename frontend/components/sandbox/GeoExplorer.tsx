@@ -459,7 +459,7 @@ function IndiaLab({ onExplored }: { onExplored: (k: string) => void }) {
         <div className="flex gap-1.5 mb-2 flex-wrap">
           {([['explore', 'Explore features'], ['rivers', 'Locate the rivers'], ['power', 'Power projects']] as const).map(([k, lab]) => (
             <button key={k} onClick={() => { setMode(k); setWrongNode(null); setPowerWrong(null); if (k === 'rivers' && !riverQ) nextRiver(); if (k === 'power') nextPower() }}
-              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${mode === k ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${mode === k ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {lab}
             </button>
           ))}
@@ -481,7 +481,7 @@ function IndiaLab({ onExplored }: { onExplored: (k: string) => void }) {
           <div className="flex flex-wrap gap-1.5 mt-2">
             {INDIA_POWER_PROJECTS.map(p => (
               <button key={p.key} onClick={() => answerPowerDam(p.key)}
-                className={`px-2 py-0.5 rounded-md text-[11px] border ${solvedPower.has(p.key) ? 'bg-emerald-500/15 border-emerald-400/40 text-emerald-200' : 'bg-slate-800/50 border-slate-700 text-slate-300 hover:border-sky-400'}`}>
+                className={`px-2 py-0.5 rounded-md text-[11px] border ${solvedPower.has(p.key) ? 'bg-emerald-500/15 border-emerald-400/40 text-emerald-200' : 'bg-slate-800/50 border-slate-700 text-slate-300 hover:border-gold-400'}`}>
                 {solvedPower.has(p.key) ? '✓ ' : ''}{p.dam}
               </button>
             ))}
@@ -489,7 +489,7 @@ function IndiaLab({ onExplored }: { onExplored: (k: string) => void }) {
         )}
 
         {mode === 'rivers' && riverQ && (
-          <p className="mt-2 text-sm text-sky-200 font-bold">
+          <p className="mt-2 text-sm text-gold-200 font-bold">
             🎯 Click the <span className="underline">{riverQ.label}</span> on the map
             <span className="ml-2 text-[10px] font-normal text-slate-400">tap the blue line</span>
           </p>
@@ -498,13 +498,13 @@ function IndiaLab({ onExplored }: { onExplored: (k: string) => void }) {
 
       <div className="space-y-3">
         {mode === 'power' && powerQ && powerMode === 'river' && (
-          <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 px-3 py-2.5">
-            <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black mb-1">dam → river</p>
+          <div className="rounded-xl border border-gold-500/25 bg-gold-500/5 px-3 py-2.5">
+            <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black mb-1">dam → river</p>
             <p className="text-sm font-bold text-white mb-2">{powerQ.dam} stands on which river?</p>
             <div className="flex flex-wrap gap-1.5">
               {randomOptions(powerQ.river, INDIA_POWER_PROJECTS.map(p => p.river)).map(r => (
                 <button key={r} onClick={() => answerPowerRiver(r)}
-                  className="px-2 py-1 rounded-md text-[11px] border bg-slate-800/60 border-slate-600 text-slate-200 hover:border-sky-400">
+                  className="px-2 py-1 rounded-md text-[11px] border bg-slate-800/60 border-slate-600 text-slate-200 hover:border-gold-400">
                   {r}
                 </button>
               ))}
@@ -512,8 +512,8 @@ function IndiaLab({ onExplored }: { onExplored: (k: string) => void }) {
           </div>
         )}
         {mode === 'power' && powerQ && powerMode === 'site' && (
-          <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 px-3 py-2.5">
-            <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black mb-1">river + state → dam</p>
+          <div className="rounded-xl border border-gold-500/25 bg-gold-500/5 px-3 py-2.5">
+            <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black mb-1">river + state → dam</p>
             <p className="text-sm font-bold text-white">
               Which dam stands on the {powerQ.river} in {powerQ.state}?
             </p>
@@ -531,7 +531,7 @@ function IndiaLab({ onExplored }: { onExplored: (k: string) => void }) {
           <p className="text-[10px] uppercase tracking-wider text-slate-400 font-black mb-1">legend</p>
           <p className="text-[11px] text-slate-300 leading-relaxed">
             △ mountains &nbsp;·&nbsp; ◻ plains &nbsp;·&nbsp; ⁘ deserts &nbsp;·&nbsp; ◯ plateaus &nbsp;·&nbsp;
-            <span className="text-sky-300">— rivers (italic names)</span> &nbsp;·&nbsp; <span className="text-pink-400">--- Tropic of Cancer</span>
+            <span className="text-gold-300">— rivers (italic names)</span> &nbsp;·&nbsp; <span className="text-pink-400">--- Tropic of Cancer</span>
           </p>
         </div>
       </div>
@@ -610,7 +610,7 @@ function WorldLab({ onExplored }: { onExplored: (k: string) => void }) {
         <div className="flex gap-1.5 mb-2 flex-wrap items-center">
           {(Object.keys(CONTINENTS) as ContinentKey[]).map(k => (
             <button key={k} onClick={() => { setCont(k); setSel(null); setQuiz(null); setSolved(new Set()) }}
-              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border capitalize ${cont === k ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border capitalize ${cont === k ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {k}
             </button>
           ))}
@@ -676,7 +676,7 @@ function ContourLab({ onExplored }: { onExplored: (k: string) => void }) {
       <div className="flex gap-1.5 mb-3 flex-wrap">
         {([['identify', 'Identify the landform'], ['steep', 'Steep vs gentle'], ['grid', 'Grid references']] as const).map(([k, lab]) => (
           <button key={k} onClick={() => setDrill(k)}
-            className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${drill === k ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+            className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${drill === k ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
             {lab}
           </button>
         ))}
@@ -709,7 +709,7 @@ function ContourLab({ onExplored }: { onExplored: (k: string) => void }) {
                       setOutcome('bad'); setWrongNode(pat.nodeId)
                     }
                   }}
-                  className="px-2.5 py-1 rounded-md text-[11px] font-semibold border bg-slate-800/60 border-slate-600 text-slate-200 hover:border-sky-400">
+                  className="px-2.5 py-1 rounded-md text-[11px] font-semibold border bg-slate-800/60 border-slate-600 text-slate-200 hover:border-gold-400">
                   {p.label}
                 </button>
               ))}
@@ -736,7 +736,7 @@ function ContourLab({ onExplored }: { onExplored: (k: string) => void }) {
                   setTimeout(() => { setSteepLeft(Math.random() < 0.5); setSteepOut(null) }, 1100)
                 } else setWrongNode('c7_geo_icse_07_003')
               }}
-                className="rounded-xl border border-slate-700 bg-[#0b1226] p-1 hover:border-sky-400">
+                className="rounded-xl border border-slate-700 bg-[#0b1226] p-1 hover:border-gold-400">
                 <svg viewBox="0 0 200 200" className="w-full">
                   {CONTOUR_LEVELS.map(lv => (
                     <path key={lv} d={contourPath(hill(sigma), lv, 200)} fill="none"
@@ -798,7 +798,7 @@ function ContourLab({ onExplored }: { onExplored: (k: string) => void }) {
                     setGItem(randomIn(GRID_REF_QUIZ.items, gItem))
                   } else setGWrong('c10_geo_icse_01_001')
                 }}
-                  className="px-2.5 py-1 rounded-md text-[11px] font-mono border bg-slate-800/60 border-slate-600 text-slate-200 hover:border-sky-400">
+                  className="px-2.5 py-1 rounded-md text-[11px] font-mono border bg-slate-800/60 border-slate-600 text-slate-200 hover:border-gold-400">
                   {ref}
                 </button>
               ))}
@@ -885,7 +885,7 @@ function ClimateLab({ onExplored }: { onExplored: (k: string) => void }) {
         <div className="flex gap-1.5 mb-2">
           {([['identify', 'Identify the region'], ['build', 'Build a climate']] as const).map(([k, lab]) => (
             <button key={k} onClick={() => { setMode(k); setGuess(null); setWrongNode(null) }}
-              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${mode === k ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
+              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border ${mode === k ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400'}`}>
               {lab}
             </button>
           ))}
@@ -912,7 +912,7 @@ function ClimateLab({ onExplored }: { onExplored: (k: string) => void }) {
                 }}
                   className={`px-2.5 py-1 rounded-md text-[11px] font-semibold border ${guess === p.key
                     ? p.key === target.key ? 'bg-emerald-500/20 border-emerald-400/60 text-emerald-200' : 'bg-rose-500/10 border-rose-400/40 text-rose-200'
-                    : 'bg-slate-800/60 border-slate-600 text-slate-200 hover:border-sky-400'}`}>
+                    : 'bg-slate-800/60 border-slate-600 text-slate-200 hover:border-gold-400'}`}>
                   {p.label}
                 </button>
               ))}
@@ -933,17 +933,17 @@ function ClimateLab({ onExplored }: { onExplored: (k: string) => void }) {
               <label key={lab} className="flex items-center gap-2 text-xs">
                 <span className="w-36 text-slate-400 font-semibold">{lab}</span>
                 <input type="range" min={min} max={max} step={st} value={v}
-                  onChange={e => set(Number(e.target.value))} className="flex-1 accent-sky-400" />
+                  onChange={e => set(Number(e.target.value))} className="flex-1 accent-gold-400" />
                 <span className="w-14 text-right font-mono text-slate-200">{v}</span>
               </label>
             ))}
             <label className="flex items-center gap-2 text-xs text-slate-300">
               <input type="checkbox" checked={winterWet} onChange={e => setWinterWet(e.target.checked)}
-                className="accent-sky-400" />
+                className="accent-gold-400" />
               winter-wet regime (Mediterranean-style)
             </label>
-            <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 px-3 py-2">
-              <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black mb-1">solver verdict</p>
+            <div className="rounded-xl border border-gold-500/25 bg-gold-500/5 px-3 py-2">
+              <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black mb-1">solver verdict</p>
               <p className="text-sm font-bold text-white">
                 {ranking[0].label}
                 {tooClose && <span className="text-slate-400 font-normal text-xs"> (leaning — close to {ranking[1].label})</span>}
@@ -1026,17 +1026,17 @@ function MonsoonLab() {
         <div className="flex gap-1 mt-2">
           {MONSOON_PHASES.map((p, i) => (
             <button key={p.key} onClick={() => { setPhaseIdx(i); setPlaying(false) }}
-              className={`flex-1 px-1 py-1.5 rounded-lg text-[10px] font-bold border transition ${i === phaseIdx ? 'bg-sky-500/20 border-sky-400/60 text-sky-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
+              className={`flex-1 px-1 py-1.5 rounded-lg text-[10px] font-bold border transition ${i === phaseIdx ? 'bg-gold-500/20 border-gold-400/60 text-gold-200' : 'bg-slate-800/50 border-slate-700 text-slate-400 hover:text-slate-200'}`}>
               {p.months}
             </button>
           ))}
         </div>
         <div className="flex items-center gap-2 mt-2">
           <button onClick={() => setPlaying(pl => !pl)}
-            className="px-3 py-1 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 text-xs font-black">
+            className="px-3 py-1 rounded-lg bg-gold-500 hover:bg-gold-400 text-slate-950 text-xs font-black">
             {playing ? '❚❚ pause' : '▶ play year'}
           </button>
-          <p className="text-sm font-bold text-sky-200">{phase.label}</p>
+          <p className="text-sm font-bold text-gold-200">{phase.label}</p>
         </div>
       </div>
 
@@ -1068,8 +1068,8 @@ const PHASE_LINES: Record<string, string> = {
 function MonsoonPhaseCard({ nodeId, phaseKey }: { nodeId: string; phaseKey: string }) {
   const enr = useEnrichment(nodeId)
   return (
-    <div className="rounded-xl border border-sky-500/25 bg-sky-500/5 px-3 py-2.5">
-      <p className="text-[10px] uppercase tracking-wider text-sky-300 font-black mb-1">phase brief (schematic step)</p>
+    <div className="rounded-xl border border-gold-500/25 bg-gold-500/5 px-3 py-2.5">
+      <p className="text-[10px] uppercase tracking-wider text-gold-300 font-black mb-1">phase brief (schematic step)</p>
       <p className="text-xs text-slate-200 leading-relaxed">{PHASE_LINES[phaseKey]}</p>
       {enr?.definition ? (
         <p className="mt-2 text-[11px] text-slate-400 leading-relaxed border-t border-slate-700/60 pt-2">

@@ -81,10 +81,10 @@ export function C12_ComputerSciencePacketJourneySim() {
     <div className="w-full max-w-4xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">CBSE Class 12 Computer Science - Computer Networks</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 12 Computer Science - Computer Networks</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Packet Journey: how your file crosses the internet</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300">Network Lab</span>
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">Network Lab</span>
       </header>
 
       {/* CONTROLS */}
@@ -92,10 +92,10 @@ export function C12_ComputerSciencePacketJourneySim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>File to send</span>
-            <span className="text-indigo-300 font-mono font-bold">{fileMB.toFixed(1)} MB = {packetCount} packets</span>
+            <span className="text-gold-300 font-mono font-bold">{fileMB.toFixed(1)} MB = {packetCount} packets</span>
           </label>
           <input type="range" min={0.5} max={6} step={0.5} value={fileMB} aria-label="file size in megabytes"
-            onChange={(e) => setFileMB(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-indigo-500" />
+            onChange={(e) => setFileMB(Number(e.target.value))} className="w-full mt-2 min-h-11 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -115,7 +115,7 @@ export function C12_ComputerSciencePacketJourneySim() {
         </div>
       </div>
       <div className="flex gap-2 mb-4">
-        <button onClick={send} disabled={flying} className={`flex-1 min-h-11 px-4 rounded-2xl text-sm font-bold border ${flying ? 'bg-slate-900 border-slate-800 text-slate-600' : 'bg-sky-600 border-sky-500 text-white hover:bg-sky-500'}`}>
+        <button onClick={send} disabled={flying} className={`flex-1 min-h-11 px-4 rounded-2xl text-sm font-bold border ${flying ? 'bg-slate-900 border-slate-800 text-slate-600' : 'bg-gold-600 border-gold-500 text-white hover:bg-gold-500'}`}>
           {flying ? 'Transmitting...' : 'Send file'}
         </button>
         <button onClick={reset} className="min-h-11 px-4 rounded-2xl text-sm font-bold bg-slate-900 border border-slate-700 text-slate-300 hover:bg-slate-800">Reset</button>
@@ -149,7 +149,7 @@ export function C12_ComputerSciencePacketJourneySim() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Packets dispatched</p>
-          <p className="text-lg font-extrabold text-indigo-300 font-mono">{pkts.length}</p>
+          <p className="text-lg font-extrabold text-gold-300 font-mono">{pkts.length}</p>
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-emerald-800 text-center">
           <p className="text-[10px] uppercase tracking-wider text-slate-400">Delivered</p>
@@ -167,14 +167,14 @@ export function C12_ComputerSciencePacketJourneySim() {
 
       <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed mb-3">
         <p>
-          <span className="font-bold text-sky-300">Big idea:</span> the internet does not send your file whole -- it chops it into
+          <span className="font-bold text-gold-300">Big idea:</span> the internet does not send your file whole -- it chops it into
           fixed-size packets that travel independently and are reassembled at the server. Lost packets are re-requested automatically (that is TCP).
           <span className="font-bold text-amber-300"> Misconception killer:</span> latency (distance, hops) and bandwidth (packets per second) are different
           limits -- a small latency slider change barely moves a big file&apos;s time, but packet size does.
         </p>
       </div>
 
-      <footer className="p-4 rounded-2xl bg-gradient-to-r from-sky-950/60 to-slate-900 border border-sky-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Send a 6 MB file at 5 ms latency, then at 100 ms latency. Compare expected times -- is doubling latency the same as doubling file size?</p>
         <p className="mt-1">2. Set loss to 20% and send twice. Why does the delivered count differ each run, and what must the server do about the missing packets?</p>

@@ -11,7 +11,7 @@ export const w_c8_historycivicsbattleplassey1757sim: SimDef = {
     classLevel: 8, subject: 'history', topic: 'English East India Company: Trading Posts and Expansion',
     chapters: [],
     nodeIds: ['c8_hist_ch3_5', 'c8_hist_ch3_6', 'c8_hist_ch3_7', 'c8_hist_ch4_1', 'c8_hist_ch3_1'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine you are visiting Fort St. George in Chennai today — the first British fortress in India.', goal: 'Master English East India Company: Trading Posts and Expansion.' },
     discovery: {
         question: 'Why did Mughal Emperor Jahangir grant a farman to the English in 1613 allowing them to establish a factory at Surat?',
@@ -20,7 +20,7 @@ export const w_c8_historycivicsbattleplassey1757sim: SimDef = {
         hook: 'Students believe the English East India Company conquered India through superior military technology from the start.',
     },
     teaching: [
-        { title: 'The English East India Company (EIC).', text: 'The English East India Company (EIC) established its first trading posts (factories) in India in the early 17th century, beginning with Surat (1613), and gradually expanded its commercial and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The English East India Company (EIC).', text: 'The English East India Company (EIC) established its first trading posts (factories) in India in the early 17th century, beginning with Surat (1613), and gradually expanded its commercial and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_hist_ch3_5', title: 'The English East India Company (EIC).',

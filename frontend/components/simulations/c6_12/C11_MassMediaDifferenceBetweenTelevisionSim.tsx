@@ -1167,14 +1167,14 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-800'
                 : difficulty === 'standard'
-                ? 'bg-blue-950 text-blue-400 border border-blue-800'
+                ? 'bg-gold-950 text-gold-400 border border-gold-800'
                 : 'bg-rose-950 text-rose-400 border border-rose-800'
             }`}
           >
             {difficulty} Tier
           </motion.span>
           <span className="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-xl border border-slate-700">
-            Phase: <strong className="text-indigo-400 uppercase">{phase}</strong>
+            Phase: <strong className="text-gold-400 uppercase">{phase}</strong>
           </span>
         </div>
       </motion.div>
@@ -1182,12 +1182,12 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-purple-950/80 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-br from-gold-950/80 via-slate-900 to-purple-950/80 rounded-2xl border border-gold-800/60 shadow-xl">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🎯</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-slate-950/70 rounded-xl border border-indigo-900/40 text-xs text-indigo-200">
+            <div className="mt-3 p-3 bg-slate-950/70 rounded-xl border border-gold-900/40 text-xs text-gold-200">
               📌 <strong>Executive Challenge:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1212,7 +1212,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       : 'bg-slate-800/90 hover:bg-slate-750 border border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="inline-block w-6 font-bold text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="inline-block w-6 font-bold text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {option}
                 </motion.button>
               ))}
@@ -1235,7 +1235,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Enter Interactive Media Labs →
                 </motion.button>
@@ -1261,7 +1261,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : idx < currentSlide
                     ? 'bg-slate-800 text-emerald-400 border border-emerald-800'
                     : 'bg-slate-900 text-slate-400 border border-slate-800'
@@ -1297,9 +1297,9 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                     <motion.div
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-800 space-y-3"
+                      className="p-4 bg-gold-950/60 rounded-xl border border-gold-800 space-y-3"
                     >
-                      <p className="text-xs uppercase font-bold text-indigo-300">Prediction 1: Production Economics</p>
+                      <p className="text-xs uppercase font-bold text-gold-300">Prediction 1: Production Economics</p>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <p className="text-[11px] text-amber-300 italic">💡 {PREDICTION_QUESTIONS[0].verifyInstruction}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1325,7 +1325,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
 
                   {/* SVG DIAGRAM 1: TV vs CINEMA MEDIA ARCHITECTURE */}
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-col items-center">
-                    <span className="text-[11px] font-bold text-indigo-300 mb-2 uppercase tracking-wider">
+                    <span className="text-[11px] font-bold text-gold-300 mb-2 uppercase tracking-wider">
                       Technical Architecture: TV Broadcasting vs Cinematic DCP Projection
                     </span>
                     <svg viewBox="0 0 600 130" className="w-full max-w-xl h-auto">
@@ -1359,7 +1359,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       onClick={() => handleTvCinemaToggle('tv')}
                       className={`flex-1 py-2.5 rounded-xl font-bold text-sm transition-all ${
                         simMediaType === 'tv'
-                          ? 'bg-sky-600 text-white shadow-lg'
+                          ? 'bg-gold-600 text-white shadow-lg'
                           : 'bg-slate-800 text-slate-400 hover:bg-slate-750 border border-slate-700'
                       }`}
                     >
@@ -1389,7 +1389,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>{simMediaType === 'tv' ? 'Total Episodes' : 'Production Budget'}</span>
-                        <strong className="text-indigo-300">
+                        <strong className="text-gold-300">
                           {simMediaType === 'tv' ? `${simTvEpisodes} eps` : `₹${simCinemaBudget} Cr`}
                         </strong>
                       </div>
@@ -1404,14 +1404,14 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                           else setSimCinemaBudget(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs text-slate-400 mb-1">
                         <span>{simMediaType === 'tv' ? 'Cost Per Episode' : 'Theatrical Window'}</span>
-                        <strong className="text-indigo-300">
+                        <strong className="text-gold-300">
                           {simMediaType === 'tv' ? `₹${simEpisodeCost} Lakhs` : '8 Weeks Exclusive'}
                         </strong>
                       </div>
@@ -1425,7 +1425,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                           setSimEpisodeCost(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1455,13 +1455,13 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                     <div className="flex gap-2">
                       <button
                         onClick={() => setActiveTabMultiRep('table')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold ${activeTabMultiRep === 'table' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1 rounded-lg text-xs font-bold ${activeTabMultiRep === 'table' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         📊 Parameter Matrix
                       </button>
                       <button
                         onClick={() => setActiveTabMultiRep('venn')}
-                        className={`px-3 py-1 rounded-lg text-xs font-bold ${activeTabMultiRep === 'venn' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                        className={`px-3 py-1 rounded-lg text-xs font-bold ${activeTabMultiRep === 'venn' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                       >
                         ⭕ Venn Diagram
                       </button>
@@ -1471,7 +1471,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   {activeTabMultiRep === 'table' ? (
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
                       <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                        <h4 className="font-bold text-sky-400 mb-1">1. Format</h4>
+                        <h4 className="font-bold text-gold-400 mb-1">1. Format</h4>
                         <p className="text-slate-300">
                           {simMediaType === 'tv'
                             ? 'Episodic, continuous, open-ended narrative designed for daily viewing habits with ad slots.'
@@ -1572,7 +1572,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center text-xs">
                       <span className="font-bold text-rose-400">ADVERTISING (Paid / 1-Way Push)</span>
-                      <span className="font-bold text-indigo-400">SPECTRUM: {prAdSlider}% PR</span>
+                      <span className="font-bold text-gold-400">SPECTRUM: {prAdSlider}% PR</span>
                       <span className="font-bold text-emerald-400">PUBLIC RELATIONS (Earned / 2-Way Trust)</span>
                     </div>
                     <input
@@ -1597,7 +1597,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block text-[10px]">Media Cost Type</span>
-                        <strong className="text-sky-400">{prAdSlider < 50 ? 'Paid Airtime' : 'Earned Editorial'}</strong>
+                        <strong className="text-gold-400">{prAdSlider < 50 ? 'Paid Airtime' : 'Earned Editorial'}</strong>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400 block text-[10px]">Communication</span>
@@ -1725,11 +1725,11 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                         }}
                         className={`p-3 rounded-xl text-left transition-all ${
                           activeRpieStep === st.step
-                            ? 'bg-indigo-600 text-white shadow-lg'
+                            ? 'bg-gold-600 text-white shadow-lg'
                             : 'bg-slate-950 text-slate-400 border border-slate-800 hover:bg-slate-900'
                         }`}
                       >
-                        <span className="text-xs font-black uppercase text-indigo-200">Stage {st.tag}</span>
+                        <span className="text-xs font-black uppercase text-gold-200">Stage {st.tag}</span>
                         <h4 className="font-bold text-xs md:text-sm text-white mt-0.5">{st.name}</h4>
                         <span className="text-[10px] opacity-75 hidden sm:block">{st.desc}</span>
                       </motion.button>
@@ -1740,7 +1740,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     {activeRpieStep === 0 && (
                       <div className="text-xs space-y-2">
-                        <h4 className="font-bold text-indigo-300 text-sm">1. Research (Situation Analysis)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">1. Research (Situation Analysis)</h4>
                         <p className="text-slate-300">
                           Before spending capital, firms like Adfactors PR conduct media sentiment audits, stakeholder surveys, and competitor benchmarking.
                         </p>
@@ -1752,7 +1752,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
 
                     {activeRpieStep === 1 && (
                       <div className="text-xs space-y-2">
-                        <h4 className="font-bold text-indigo-300 text-sm">2. Planning (SMART Goals & Strategy)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">2. Planning (SMART Goals & Strategy)</h4>
                         <p className="text-slate-300">
                           Avoid vague goals like "make people like us." Establish SMART objectives: Specific, Measurable, Achievable, Relevant, and Time-bound.
                         </p>
@@ -1765,7 +1765,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                               audioManager.play('success');
                             }}
                             className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                              smartGoalSet ? 'bg-emerald-600 text-white' : 'bg-slate-800 text-indigo-300 border border-indigo-700'
+                              smartGoalSet ? 'bg-emerald-600 text-white' : 'bg-slate-800 text-gold-300 border border-gold-700'
                             }`}
                           >
                             {smartGoalSet ? '✓ SMART Goal Locked' : '+ Set SMART Objective'}
@@ -1781,7 +1781,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
 
                     {activeRpieStep === 2 && (
                       <div className="text-xs space-y-2">
-                        <h4 className="font-bold text-indigo-300 text-sm">3. Implementation (PR Tools Deployment)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">3. Implementation (PR Tools Deployment)</h4>
                         <p className="text-slate-300">
                           Deploy multi-channel instruments: Press Release (5 Ws), Press Conference, Media Kit, Social Media (X/YouTube/WhatsApp), and On-ground Events.
                         </p>
@@ -1819,7 +1819,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
 
                     {activeRpieStep === 3 && (
                       <div className="text-xs space-y-2">
-                        <h4 className="font-bold text-indigo-300 text-sm">4. Evaluation (Measurement & Review)</h4>
+                        <h4 className="font-bold text-gold-300 text-sm">4. Evaluation (Measurement & Review)</h4>
                         <p className="text-slate-300">
                           Measure results against initial targets: Media impressions, sentiment tone, website traffic uplift, and regulatory compliance.
                         </p>
@@ -1830,7 +1830,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                           </div>
                           <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                             <span className="text-[10px] text-slate-400 block">Sentiment Tone</span>
-                            <strong className="text-sky-400 text-sm">84% Positive</strong>
+                            <strong className="text-gold-400 text-sm">84% Positive</strong>
                           </div>
                           <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                             <span className="text-[10px] text-slate-400 block">SMART Goal Attained</span>
@@ -1856,7 +1856,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       }}
                       className={`flex-1 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all ${
                         selectedRegulator === 'trai'
-                          ? 'bg-blue-600 text-white shadow-lg'
+                          ? 'bg-gold-600 text-white shadow-lg'
                           : 'bg-slate-800 text-slate-400 border border-slate-700'
                       }`}
                     >
@@ -1882,13 +1882,13 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-3">
                     {selectedRegulator === 'trai' ? (
                       <div>
-                        <h4 className="font-bold text-blue-400 text-sm mb-1">
+                        <h4 className="font-bold text-gold-400 text-sm mb-1">
                           Telecom Regulatory Authority of India (Statutory Economic Regulator)
                         </h4>
                         <p className="text-slate-300 leading-relaxed mb-3">
                           Mandate: Fixes tariffs, interconnection charges, Quality of Service (QoS), DTH/cable packaging (2017 Tariff Order), and enforces Net Neutrality across Indian electronic networks.
                         </p>
-                        <div className="p-3 bg-slate-900 rounded-xl border border-blue-900/60 flex items-center justify-between gap-3">
+                        <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/60 flex items-center justify-between gap-3">
                           <div>
                             <span className="font-bold text-slate-200">Test 2017 Cable/DTH Tariff Order:</span>
                             <span className="block text-[11px] text-slate-400">
@@ -1904,7 +1904,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                               setTraiTariffMode(m => (m === 'a_la_carte' ? 'bouquet' : 'a_la_carte'));
                               audioManager.play('tap');
                             }}
-                            className="px-3 py-1.5 bg-blue-700 text-white rounded-lg text-xs font-bold whitespace-nowrap"
+                            className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold whitespace-nowrap"
                           >
                             Switch to {traiTariffMode === 'a_la_carte' ? 'Bouquet' : 'À la Carte'}
                           </motion.button>
@@ -2108,7 +2108,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       setCurrentSlide(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Next Lab →
                   </motion.button>
@@ -2131,7 +2131,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
       {/* ─── PHASE 3: SANDBOX / FREE PLAY ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/70 rounded-2xl border border-indigo-800/50 space-y-2">
+          <div className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/70 rounded-2xl border border-gold-800/50 space-y-2">
             <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">Ungraded Free Play Sandbox</span>
             <h2 className="text-lg font-bold text-white">Apex Media Conglomerate Simulation Deck</h2>
             <p className="text-xs text-slate-300 leading-relaxed">
@@ -2141,11 +2141,11 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-indigo-300">1. Broadcast Economics Workbench</h3>
+              <h3 className="text-sm font-bold text-gold-300">1. Broadcast Economics Workbench</h3>
               <div className="flex gap-2">
                 <button
                   onClick={() => setSimMediaType('tv')}
-                  className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${simMediaType === 'tv' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'}`}
+                  className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${simMediaType === 'tv' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'}`}
                 >
                   TV Serial (Episodic)
                 </button>
@@ -2197,7 +2197,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-extrabold rounded-2xl shadow-xl transition-all"
+            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-extrabold rounded-2xl shadow-xl transition-all"
           >
             I Am Ready for CISCE Examination Challenges! →
           </motion.button>
@@ -2218,14 +2218,14 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   NEP Competency: <strong className="text-purple-400">{challenge.competencyLevel}</strong>
                 </span>
                 <span className="text-slate-400 uppercase tracking-wider text-[10px]">
-                  BKT Mastery: <strong className="text-indigo-400">{masteryLevel}</strong>
+                  BKT Mastery: <strong className="text-gold-400">{masteryLevel}</strong>
                 </span>
               </div>
             </div>
 
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2244,7 +2244,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="text-[10px] uppercase font-bold tracking-widest text-indigo-400 bg-indigo-950/80 px-2.5 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-[10px] uppercase font-bold tracking-widest text-gold-400 bg-gold-950/80 px-2.5 py-0.5 rounded-full border border-gold-800">
                 {challenge.type.toUpperCase()} • {challenge.difficulty.toUpperCase()}
               </span>
               <span className="text-xs text-slate-400">Node ID: {challenge.nodeId}</span>
@@ -2275,7 +2275,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                           : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700'
                       }`}
                     >
-                      <span className="inline-block w-6 font-bold text-indigo-400">
+                      <span className="inline-block w-6 font-bold text-gold-400">
                         {String.fromCharCode(65 + idx)}.
                       </span>
                       {option}
@@ -2296,7 +2296,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2314,7 +2314,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       <span className="text-[10px] text-slate-400 uppercase font-bold tracking-wider">
                         Target Slot: {targetId.replace('box_', '').replace('domain_', '').toUpperCase()}
                       </span>
-                      <strong className="text-xs text-indigo-300 mt-1">
+                      <strong className="text-xs text-gold-300 mt-1">
                         {droppedLabels[targetId] || 'Drop matching label here...'}
                       </strong>
                     </div>
@@ -2328,7 +2328,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   transition={{ duration: 0.4 }}
                   disabled={showExplanation}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Validate Label Placements
                 </motion.button>
@@ -2356,7 +2356,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl text-xs text-slate-200 border border-slate-700 cursor-grab flex items-center gap-2"
                     >
-                      <span className="w-5 h-5 flex items-center justify-center bg-indigo-950 text-indigo-300 rounded font-bold text-[10px]">
+                      <span className="w-5 h-5 flex items-center justify-center bg-gold-950 text-gold-300 rounded font-bold text-[10px]">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -2371,7 +2371,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   transition={{ duration: 0.4 }}
                   disabled={showExplanation}
                   onClick={handleSortSubmit}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Stage Sequence
                 </motion.button>
@@ -2388,7 +2388,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value..."
-                    className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm font-semibold focus:outline-none focus:border-indigo-500"
+                    className="flex-1 p-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm font-semibold focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-300 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2398,7 +2398,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                     transition={{ duration: 0.4 }}
                     disabled={showExplanation || !numericInput}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                    className="px-5 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                   >
                     Check Math
                   </motion.button>
@@ -2421,7 +2421,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                         setConstructParts(prev => [...prev, part]);
                         audioManager.play('tap');
                       }}
-                      className="px-2.5 py-1.5 bg-indigo-900/80 hover:bg-indigo-800 text-indigo-100 rounded-lg text-xs font-medium border border-indigo-700 shadow"
+                      className="px-2.5 py-1.5 bg-gold-900/80 hover:bg-gold-800 text-gold-100 rounded-lg text-xs font-medium border border-gold-700 shadow"
                     >
                       + {part}
                     </motion.button>
@@ -2434,7 +2434,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                     {constructParts.map((part, idx) => (
                       <span
                         key={idx}
-                        className="px-2.5 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 rounded-lg text-xs flex items-center gap-1.5"
+                        className="px-2.5 py-1 bg-gold-950 text-gold-200 border border-gold-700 rounded-lg text-xs flex items-center gap-1.5"
                       >
                         {part}
                         <button
@@ -2458,7 +2458,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                   transition={{ duration: 0.4 }}
                   disabled={showExplanation || constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow-md"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow-md"
                 >
                   Verify Assembly
                 </motion.button>
@@ -2470,10 +2470,10 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-5 p-4 bg-indigo-950/60 border border-indigo-800 rounded-xl space-y-3"
+                className="mt-5 p-4 bg-gold-950/60 border border-gold-800 rounded-xl space-y-3"
               >
                 <div className="flex items-center justify-between">
-                  <h4 className="text-xs uppercase font-bold tracking-wider text-indigo-300">
+                  <h4 className="text-xs uppercase font-bold tracking-wider text-gold-300">
                     Step-by-Step Examiner Explanation:
                   </h4>
                   <span className="text-[10px] text-slate-400">CISCE Marking Scheme</span>
@@ -2490,7 +2490,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400 font-bold mr-1.5">{sIdx + 1}.</strong>
+                      <strong className="text-gold-400 font-bold mr-1.5">{sIdx + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2504,7 +2504,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
                       setRevealedSteps(s => s + 1);
                       audioManager.play('tap');
                     }}
-                    className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                    className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                   >
                     Reveal Next Analytical Step →
                   </motion.button>
@@ -2532,12 +2532,12 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
       {/* ─── PHASE 5: COMPLETION & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 rounded-2xl border border-indigo-800 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-purple-950 rounded-2xl border border-gold-800 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-black text-white">ISC Mass Media Mastery Achieved!</h2>
             
             {/* MOTIVATIONAL FEEDBACK BANNER */}
-            <div className="inline-block px-4 py-1.5 bg-indigo-600 text-white font-extrabold rounded-full text-sm uppercase tracking-wider shadow-lg">
+            <div className="inline-block px-4 py-1.5 bg-gold-600 text-white font-extrabold rounded-full text-sm uppercase tracking-wider shadow-lg">
               {getMotivationalFeedback(errors)}
             </div>
 
@@ -2552,7 +2552,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
               </div>
               <div className="px-4 py-2 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 block uppercase">Adaptive Mastery Level</span>
-                <strong className="text-xl text-indigo-400 uppercase">{masteryLevel}</strong>
+                <strong className="text-xl text-gold-400 uppercase">{masteryLevel}</strong>
               </div>
               <div className="px-4 py-2 bg-slate-950 rounded-xl border border-slate-800">
                 <span className="text-[10px] text-slate-400 block uppercase">Spaced Review Due</span>
@@ -2564,7 +2564,7 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY & SCHEDULE BANNER ─── */}
-          <div className="p-5 bg-gradient-to-r from-purple-950/80 via-slate-900 to-indigo-950/80 border border-purple-800/80 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-purple-950/80 via-slate-900 to-gold-950/80 border border-purple-800/80 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg">
             <div className="space-y-1 text-center sm:text-left">
               <span className="text-xs font-bold text-purple-300 uppercase tracking-widest flex items-center justify-center sm:justify-start gap-1.5">
                 <span>📅</span> Spaced Repetition Schedule (SRS Review Window)
@@ -2608,14 +2608,14 @@ function C11_MassMediaDifferenceBetweenTelevisionSim({
 
           {/* Real World Capstone Project */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> Capstone Real-World Mandate: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{st}</span>
                 </div>
               ))}

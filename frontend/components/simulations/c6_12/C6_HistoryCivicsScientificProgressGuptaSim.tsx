@@ -1224,7 +1224,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
 
           <div className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Curiosity Discovery Hook</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Curiosity Discovery Hook</span>
               <span className="text-xs text-slate-400">Non-graded exploration question</span>
             </div>
             <h3 className="text-lg font-bold text-white leading-snug">{DISCOVERY_QUESTION.question}</h3>
@@ -1436,7 +1436,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                                <span className="font-bold text-sky-400">Aryabhatta (499 CE)</span>
+                                <span className="font-bold text-gold-400">Aryabhatta (499 CE)</span>
                                 <ul className="text-slate-400 mt-1 list-disc list-inside space-y-0.5">
                                   <li>Earth spins on axis</li>
                                   <li>Pi ≈ 3.1416</li>
@@ -1468,7 +1468,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
                                 <p className="text-[11px] text-slate-400">King Dushyanta & Shakuntala; translated by William Jones (1789).</p>
                               </div>
                               <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                                <span className="font-bold text-cyan-400">2. Lyric Poetry: </span>
+                                <span className="font-bold text-gold-400">2. Lyric Poetry: </span>
                                 <span className="text-white font-semibold">Meghaduta (Cloud Messenger)</span>
                                 <p className="text-[11px] text-slate-400">A banished Yaksha sends love messages through a monsoon cloud.</p>
                               </div>
@@ -1600,7 +1600,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
                     </p>
 
                     <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-                      <span className="text-xs font-bold text-sky-400">Dual Executive Architecture</span>
+                      <span className="text-xs font-bold text-gold-400">Dual Executive Architecture</span>
                       <div className="grid grid-cols-2 gap-2 text-xs">
                         <div className="p-2 bg-slate-950 rounded-xl border border-emerald-900/60">
                           <span className="text-[10px] text-emerald-400 font-bold uppercase">Elected Head</span>
@@ -1611,8 +1611,8 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
                           </p>
                           <span className="text-[9px] text-slate-400">Accountable to People</span>
                         </div>
-                        <div className="p-2 bg-slate-950 rounded-xl border border-sky-900/60">
-                          <span className="text-[10px] text-sky-400 font-bold uppercase">Appointed Officer</span>
+                        <div className="p-2 bg-slate-950 rounded-xl border border-gold-900/60">
+                          <span className="text-[10px] text-gold-400 font-bold uppercase">Appointed Officer</span>
                           <p className="font-bold text-white mt-0.5">
                             {selectedTierLevel === 'village' && 'Panchayat Secretary'}
                             {selectedTierLevel === 'block' && 'BDO (Govt Officer)'}
@@ -1781,7 +1781,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
 
                 {/* SVG DIAGRAM 3: Metropolitan India Map */}
                 <div className="md:col-span-6 flex flex-col items-center justify-center bg-slate-900 p-4 rounded-2xl border border-slate-800">
-                  <span className="text-[10px] font-bold text-sky-400 uppercase tracking-widest mb-2">
+                  <span className="text-[10px] font-bold text-gold-400 uppercase tracking-widest mb-2">
                     SVG Diagram 3 • Metropolitan India Map
                   </span>
                   <svg viewBox="0 0 300 320" className="w-full max-w-[260px]">
@@ -1910,7 +1910,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
                 </div>
                 <div>
                   <span className="text-slate-500">SC/ST Reserved (Proportional):</span>
-                  <p className="font-bold text-sky-400 text-sm">{Math.round((panchayatSeats * scPercentage) / 100)} Seats</p>
+                  <p className="font-bold text-gold-400 text-sm">{Math.round((panchayatSeats * scPercentage) / 100)} Seats</p>
                 </div>
               </div>
             </div>
@@ -1918,7 +1918,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
             {/* PREDICTIONS HOOK (2 PREDICTION QUESTIONS WITH verifyInstruction) */}
             <div className="p-5 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-sky-400 uppercase">Prediction Inquiry #{activePredictionIdx + 1}</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">Prediction Inquiry #{activePredictionIdx + 1}</span>
                 <div className="flex gap-1">
                   {PREDICTION_QUESTIONS.map((_, pIdx) => (
                     <button
@@ -1929,7 +1929,7 @@ function C6_HistoryCivicsScientificProgressGuptaSim({
                         setPredictionIndex(-1);
                       }}
                       className={`w-6 h-6 rounded-full text-xs font-bold ${
-                        activePredictionIdx === pIdx ? 'bg-sky-500 text-slate-950' : 'bg-slate-800 text-slate-400'
+                        activePredictionIdx === pIdx ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       {pIdx + 1}

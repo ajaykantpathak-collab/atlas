@@ -1180,11 +1180,11 @@ function C12_AccountancyPastAdjustmentsAfterSim({
       {/* Top Header */}
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-3">
         <div className="flex items-center gap-3">
-          <span className="p-2.5 bg-indigo-900/60 border border-indigo-500/40 rounded-2xl text-2xl shadow-inner">
+          <span className="p-2.5 bg-gold-900/60 border border-gold-500/40 rounded-2xl text-2xl shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">ISC Class 12 Accountancy • Past Adjustments, AS-26 Goodwill &amp; Revaluation</p>
@@ -1198,7 +1198,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
             className={`px-3 py-1 rounded-full text-xs font-black tracking-wider uppercase border ${
               difficulty === 'foundation' ? 'bg-emerald-950/70 border-emerald-500/50 text-emerald-400' :
               difficulty === 'advanced' ? 'bg-rose-950/70 border-rose-500/50 text-rose-400' :
-              'bg-sky-950/70 border-sky-500/50 text-sky-400'
+              'bg-gold-950/70 border-gold-500/50 text-gold-400'
             }`}
           >
             {difficulty} Tier
@@ -1212,14 +1212,14 @@ function C12_AccountancyPastAdjustmentsAfterSim({
       {/* PHASE 1: DISCOVERY */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-5">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/50 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm tracking-wide uppercase">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/50 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wide uppercase">
               <span>🏛️ Real-World Case Scenario</span>
             </div>
             <h2 className="text-lg md:text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/40 text-xs text-slate-300">
-              💡 <span className="text-indigo-300 font-semibold">Audit Findings:</span> {SCENARIO.context}
+            <div className="mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-900/40 text-xs text-slate-300">
+              💡 <span className="text-gold-300 font-semibold">Audit Findings:</span> {SCENARIO.context}
             </div>
           </div>
 
@@ -1245,11 +1245,11 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/40 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-indigo-900/30 border-slate-700 hover:border-indigo-500/50 text-slate-200'
+                      : 'bg-slate-800/80 hover:bg-gold-900/30 border-slate-700 hover:border-gold-500/50 text-slate-200'
                   }`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1265,7 +1265,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 text-white rounded-xl font-bold text-xs md:text-sm shadow-lg shadow-indigo-500/20"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-xs md:text-sm shadow-lg shadow-gold-500/20"
                 >
                   Enter Interactive Accounting Labs →
                 </motion.button>
@@ -1279,7 +1279,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           <div className="flex flex-wrap items-center justify-between bg-slate-900/70 p-3 rounded-xl border border-slate-800">
-            <span className="text-xs text-indigo-400 font-bold uppercase tracking-wider">
+            <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex items-center gap-1.5">
@@ -1287,7 +1287,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                 <button
                   key={i}
                   onClick={() => setCurrentSlide(i)}
-                  className={`h-2 rounded-full transition-all ${currentSlide === i ? 'w-6 bg-indigo-500' : 'w-2 bg-slate-700'}`}
+                  className={`h-2 rounded-full transition-all ${currentSlide === i ? 'w-6 bg-gold-500' : 'w-2 bg-slate-700'}`}
                   aria-label={`Slide ${i + 1}`}
                 />
               ))}
@@ -1303,7 +1303,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs md:text-sm text-amber-300 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1311,8 +1311,8 @@ function C12_AccountancyPastAdjustmentsAfterSim({
               {currentSlide === 0 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
-                      <p className="text-xs font-bold text-indigo-300 mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/40">
+                      <p className="text-xs font-bold text-gold-300 mb-2">🤔 {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1332,15 +1332,15 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 p-4 bg-slate-950/80 rounded-xl border border-slate-800">
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block">Partner A Capital: ₹{capA.toLocaleString('en-IN')}</label>
-                      <input type="range" min={100000} max={1000000} step={50000} value={capA} onChange={e => setCapA(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={100000} max={1000000} step={50000} value={capA} onChange={e => setCapA(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block">Partner B Capital: ₹{capB.toLocaleString('en-IN')}</label>
-                      <input type="range" min={100000} max={1000000} step={50000} value={capB} onChange={e => setCapB(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={100000} max={1000000} step={50000} value={capB} onChange={e => setCapB(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                     <div>
                       <label className="text-xs text-slate-400 font-semibold block">Omitted IOC Rate: {iocRate}%</label>
-                      <input type="range" min={5} max={15} step={1} value={iocRate} onChange={e => setIocRate(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={5} max={15} step={1} value={iocRate} onChange={e => setIocRate(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                   </div>
 
@@ -1367,8 +1367,8 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                           <td className="p-2.5 font-mono text-rose-300">-{analyticalCalc.revProfitB.toLocaleString('en-IN')}</td>
                           <td className="p-2.5 font-mono text-rose-400">-{omittedProfit.toLocaleString('en-IN')}</td>
                         </tr>
-                        <tr className="bg-indigo-950/40 font-bold">
-                          <td className="p-2.5 text-indigo-300">Net Effect (Compound Journal Basis)</td>
+                        <tr className="bg-gold-950/40 font-bold">
+                          <td className="p-2.5 text-gold-300">Net Effect (Compound Journal Basis)</td>
                           <td className={`p-2.5 font-mono ${analyticalCalc.netA >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
                             {analyticalCalc.netA >= 0 ? `Cr ₹${analyticalCalc.netA.toLocaleString('en-IN')}` : `Dr ₹${Math.abs(analyticalCalc.netA).toLocaleString('en-IN')}`}
                           </td>
@@ -1391,7 +1391,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handleObservation(i)}
-                            className="px-3 py-1.5 text-xs bg-slate-800 hover:bg-indigo-900/40 rounded-lg text-slate-300 border border-slate-700"
+                            className="px-3 py-1.5 text-xs bg-slate-800 hover:bg-gold-900/40 rounded-lg text-slate-300 border border-slate-700"
                           >
                             {opt}
                           </motion.button>
@@ -1411,19 +1411,19 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-3 p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs">
                     <div>
                       <label className="text-slate-400 font-semibold block">Avg Maintainable Profit: ₹{gwAvgProfit.toLocaleString('en-IN')}</label>
-                      <input type="range" min={100000} max={500000} step={20000} value={gwAvgProfit} onChange={e => setGwAvgProfit(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={100000} max={500000} step={20000} value={gwAvgProfit} onChange={e => setGwAvgProfit(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                     <div>
                       <label className="text-slate-400 font-semibold block">Capital Employed: ₹{gwCapEmp.toLocaleString('en-IN')}</label>
-                      <input type="range" min={500000} max={3000000} step={100000} value={gwCapEmp} onChange={e => setGwCapEmp(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={500000} max={3000000} step={100000} value={gwCapEmp} onChange={e => setGwCapEmp(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                     <div>
                       <label className="text-slate-400 font-semibold block">Normal Rate (NRR): {gwNrr}%</label>
-                      <input type="range" min={8} max={20} step={1} value={gwNrr} onChange={e => setGwNrr(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={8} max={20} step={1} value={gwNrr} onChange={e => setGwNrr(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                     <div>
                       <label className="text-slate-400 font-semibold block">Years’ Purchase: {gwYearsPurchase}</label>
-                      <input type="range" min={1} max={5} step={1} value={gwYearsPurchase} onChange={e => setGwYearsPurchase(Number(e.target.value))} className="w-full mt-1 accent-indigo-500" />
+                      <input type="range" min={1} max={5} step={1} value={gwYearsPurchase} onChange={e => setGwYearsPurchase(Number(e.target.value))} className="w-full mt-1 accent-gold-500" />
                     </div>
                   </div>
 
@@ -1449,13 +1449,13 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                         <span className="text-slate-400 font-medium block">Super Profit</span>
                         <span className="text-base font-bold text-emerald-300 font-mono">₹{goodwillCalc.superProfit.toLocaleString('en-IN')}</span>
                       </div>
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
-                        <span className="text-indigo-300 font-medium block">Cap. of Avg Profit</span>
-                        <span className="text-base font-bold text-indigo-200 font-mono">₹{goodwillCalc.capAvgProfitGw.toLocaleString('en-IN')}</span>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
+                        <span className="text-gold-300 font-medium block">Cap. of Avg Profit</span>
+                        <span className="text-base font-bold text-gold-200 font-mono">₹{goodwillCalc.capAvgProfitGw.toLocaleString('en-IN')}</span>
                       </div>
-                      <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
-                        <span className="text-indigo-300 font-medium block">Cap. of Super Profit</span>
-                        <span className="text-base font-bold text-indigo-200 font-mono">₹{goodwillCalc.capSuperProfitGw.toLocaleString('en-IN')}</span>
+                      <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
+                        <span className="text-gold-300 font-medium block">Cap. of Super Profit</span>
+                        <span className="text-base font-bold text-gold-200 font-mono">₹{goodwillCalc.capSuperProfitGw.toLocaleString('en-IN')}</span>
                       </div>
                     </div>
                   </div>
@@ -1503,9 +1503,9 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                     </div>
                   </div>
 
-                  <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 flex items-center justify-between">
+                  <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 flex items-center justify-between">
                     <div>
-                      <span className="text-xs text-indigo-300 uppercase font-bold tracking-wider">Computed Tangible Capital Employed</span>
+                      <span className="text-xs text-gold-300 uppercase font-bold tracking-wider">Computed Tangible Capital Employed</span>
                       <p className="text-xs text-slate-400 mt-0.5">Base Assets (₹25L) - Excluded Items - Outside Liab (₹6L)</p>
                     </div>
                     <span className="text-2xl font-black font-mono text-emerald-400">₹{computedCapEmp.toLocaleString('en-IN')}</span>
@@ -1521,18 +1521,18 @@ function C12_AccountancyPastAdjustmentsAfterSim({
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <label className="text-xs text-slate-300 font-semibold block">Incoming Partner Share: {incomingShareFraction}% (1/{100 / incomingShareFraction})</label>
-                    <input type="range" min={10} max={40} step={5} value={incomingShareFraction} onChange={e => setIncomingShareFraction(Number(e.target.value))} className="w-full mt-2 accent-indigo-500" />
+                    <input type="range" min={10} max={40} step={5} value={incomingShareFraction} onChange={e => setIncomingShareFraction(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-center text-xs">
-                    <div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
                       <span className="text-slate-400 font-medium">Partner A New Share</span>
-                      <p className="text-xl font-black text-indigo-300 mt-1">{admissionRatioCalc.newShareA}%</p>
+                      <p className="text-xl font-black text-gold-300 mt-1">{admissionRatioCalc.newShareA}%</p>
                       <span className="text-[10px] text-amber-400 font-semibold">Sacrificed: {admissionRatioCalc.sacrificeA}%</span>
                     </div>
-                    <div className="p-3 bg-sky-950/40 rounded-xl border border-sky-800/40">
+                    <div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40">
                       <span className="text-slate-400 font-medium">Partner B New Share</span>
-                      <p className="text-xl font-black text-sky-300 mt-1">{admissionRatioCalc.newShareB}%</p>
+                      <p className="text-xl font-black text-gold-300 mt-1">{admissionRatioCalc.newShareB}%</p>
                       <span className="text-[10px] text-amber-400 font-semibold">Sacrificed: {admissionRatioCalc.sacrificeB}%</span>
                     </div>
                     <div className="p-3 bg-emerald-950/40 rounded-xl border border-emerald-800/40">
@@ -1550,7 +1550,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
                     {/* Revaluation T-Account */}
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <div className="text-center font-bold text-indigo-300 pb-1 border-b border-slate-800">Dr. Revaluation A/c Cr.</div>
+                      <div className="text-center font-bold text-gold-300 pb-1 border-b border-slate-800">Dr. Revaluation A/c Cr.</div>
                       <div className="grid grid-cols-2 gap-2 mt-2">
                         <div className="border-r border-slate-800 pr-2 space-y-1">
                           <div className="text-rose-400">To Stock (Loss) ₹20k</div>
@@ -1570,13 +1570,13 @@ function C12_AccountancyPastAdjustmentsAfterSim({
 
                     {/* Capital Accounts Adjustment (AS-26) */}
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                      <div className="text-center font-bold text-sky-300 pb-1 border-b border-slate-800">AS-26 Direct Capital Adjustment</div>
+                      <div className="text-center font-bold text-gold-300 pb-1 border-b border-slate-800">AS-26 Direct Capital Adjustment</div>
                       <div className="p-2 mt-2 bg-slate-900 rounded-lg text-slate-300 space-y-1 text-[11px]">
                         <div>🔹 <span className="text-amber-300 font-semibold">No Goodwill A/c is raised</span> per AS-26</div>
                         <div>🔹 Incoming Partner brings ₹50,000 premium in cash:</div>
                         <div className="font-bold text-emerald-400 pl-3">Dr. Cash/Bank A/c ₹50,000</div>
-                        <div className="text-sky-300 pl-6">Cr. A’s Capital (3/5) ₹30,000</div>
-                        <div className="text-sky-300 pl-6">Cr. B’s Capital (2/5) ₹20,000</div>
+                        <div className="text-gold-300 pl-6">Cr. A’s Capital (3/5) ₹30,000</div>
+                        <div className="text-gold-300 pl-6">Cr. B’s Capital (2/5) ₹20,000</div>
                       </div>
                     </div>
                   </div>
@@ -1602,7 +1602,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs md:text-sm shadow-md"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs md:text-sm shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1624,7 +1624,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-lg font-bold text-indigo-300">Free Exploration Sandbox</h3>
+            <h3 className="text-lg font-bold text-gold-300">Free Exploration Sandbox</h3>
             <p className="text-xs text-slate-400 mt-1">Manipulate all accounting variables freely with no grading pressure!</p>
           </div>
 
@@ -1634,11 +1634,11 @@ function C12_AccountancyPastAdjustmentsAfterSim({
               <div className="space-y-2 text-xs">
                 <div>
                   <span className="text-slate-400">Partner A Cap: ₹{capA.toLocaleString('en-IN')}</span>
-                  <input type="range" min={100000} max={1000000} step={50000} value={capA} onChange={e => setCapA(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={100000} max={1000000} step={50000} value={capA} onChange={e => setCapA(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <span className="text-slate-400">Partner B Cap: ₹{capB.toLocaleString('en-IN')}</span>
-                  <input type="range" min={100000} max={1000000} step={50000} value={capB} onChange={e => setCapB(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={100000} max={1000000} step={50000} value={capB} onChange={e => setCapB(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
               </div>
               <div className="p-3 bg-slate-950 rounded-lg text-xs font-mono">
@@ -1651,11 +1651,11 @@ function C12_AccountancyPastAdjustmentsAfterSim({
               <div className="space-y-2 text-xs">
                 <div>
                   <span className="text-slate-400">Avg Profit: ₹{gwAvgProfit.toLocaleString('en-IN')}</span>
-                  <input type="range" min={100000} max={500000} step={20000} value={gwAvgProfit} onChange={e => setGwAvgProfit(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={100000} max={500000} step={20000} value={gwAvgProfit} onChange={e => setGwAvgProfit(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <span className="text-slate-400">Capital Employed: ₹{gwCapEmp.toLocaleString('en-IN')}</span>
-                  <input type="range" min={500000} max={3000000} step={100000} value={gwCapEmp} onChange={e => setGwCapEmp(Number(e.target.value))} className="w-full accent-indigo-500" />
+                  <input type="range" min={500000} max={3000000} step={100000} value={gwCapEmp} onChange={e => setGwCapEmp(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
               </div>
               <div className="p-3 bg-slate-950 rounded-lg text-xs font-mono text-emerald-400">
@@ -1668,7 +1668,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3 bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600 text-white rounded-xl font-bold text-sm shadow-xl"
+            className="w-full py-3 bg-gradient-to-r from-gold-600 via-gold-600 to-emerald-600 text-white rounded-xl font-bold text-sm shadow-xl"
           >
             I am Ready for Board Challenges! →
           </motion.button>
@@ -1683,11 +1683,11 @@ function C12_AccountancyPastAdjustmentsAfterSim({
           {/* Progress & Tier Bar */}
           <div className="flex items-center justify-between text-xs font-bold">
             <span className="text-slate-300">Challenge {currentChallenge + 1} of {filteredChallenges.length}</span>
-            <span className="text-indigo-400 uppercase">Competency: {challenge.competencyLevel}</span>
+            <span className="text-gold-400 uppercase">Competency: {challenge.competencyLevel}</span>
           </div>
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1714,10 +1714,10 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                         ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                         : showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-800/80 hover:bg-indigo-900/30 border-slate-700 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-800/80 hover:bg-gold-900/30 border-slate-700 hover:border-gold-500 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-indigo-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1738,7 +1738,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Draggable item ${item.label}`}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg cursor-grab text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1771,7 +1771,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={wrongShake ? { duration: 0.4 } : {}}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Classification →
                 </motion.button>
@@ -1797,7 +1797,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-xl text-xs flex items-center gap-3 cursor-grab text-slate-200"
                   >
-                    <span className="w-5 h-5 flex items-center justify-center bg-indigo-900 rounded-full font-bold text-indigo-300 text-[10px]">
+                    <span className="w-5 h-5 flex items-center justify-center bg-gold-900 rounded-full font-bold text-gold-300 text-[10px]">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1811,7 +1811,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   transition={wrongShake ? { duration: 0.4 } : {}}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Submit Ordered Sequence →
                 </motion.button>
@@ -1828,7 +1828,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter rupee value"
                     aria-label="Numeric answer input"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-slate-400 text-xs font-bold">{challenge.unit}</span>
                   <motion.button
@@ -1838,7 +1838,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                     transition={wrongShake ? { duration: 0.4 } : {}}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                   >
                     Check Calculation →
                   </motion.button>
@@ -1857,7 +1857,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white rounded-lg text-xs font-medium"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white rounded-lg text-xs font-medium"
                     >
                       + {part}
                     </motion.button>
@@ -1866,7 +1866,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
 
                 <div className="min-h-[70px] p-3 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-600 rounded-lg text-xs text-white font-semibold flex items-center gap-1.5">
+                    <span key={i} className="px-2.5 py-1 bg-gold-600 rounded-lg text-xs text-white font-semibold flex items-center gap-1.5">
                       {part}
                       <button onClick={() => setConstructParts(p => p.filter((_, idx) => idx !== i))} className="text-rose-300 font-bold hover:text-white">✕</button>
                     </span>
@@ -1881,7 +1881,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   transition={wrongShake ? { duration: 0.4 } : {}}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Constructed Statement →
                 </motion.button>
@@ -1937,7 +1937,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
       {/* PHASE 5: COMPLETE & REFLECTION */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-5">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3 shadow-2xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-emerald-500/40 text-center space-y-3 shadow-2xl">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Reconstitution Audit Complete!</h2>
             <p className="text-sm text-emerald-300 font-medium">Final Audit Accuracy Score: {Math.max(0, 100 - errors * 5)}%</p>
@@ -1956,7 +1956,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
           </div>
 
           {/* PROMINENT SPACED REPETITION (SRS) SCHEDULE BANNER */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border-2 border-amber-500/50 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 rounded-2xl border-2 border-amber-500/50 shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-2xl p-2 bg-amber-500/20 rounded-xl border border-amber-400/40">📅</span>
@@ -1994,8 +1994,8 @@ function C12_AccountancyPastAdjustmentsAfterSim({
           </div>
 
           {/* REFLECTION SECTION */}
-          <div className="p-5 bg-slate-900/90 rounded-2xl border border-indigo-500/30 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-500/30 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🧠 Post-Audit Conceptual Reflection</span>
             </h3>
             <p className="text-xs text-slate-400">Deepen your long-term retention by reflecting on key principles:</p>
@@ -2010,7 +2010,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. That past adjustments are strictly zero-sum, and self-generated goodwill can never be placed on the Balance Sheet..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2023,7 +2023,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Instead of opening all closed books, we calculate who received more vs who received less, and pass one net entry between partners' capital..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2036,7 +2036,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   onChange={e => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. When founding a startup, admitting a co-founder with sweat equity, or valuing brand equity during a corporate buyout..."
                   rows={2}
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2053,7 +2053,7 @@ function C12_AccountancyPastAdjustmentsAfterSim({
                   audioManager.play('success');
                   speechManager.speak('Reflection recorded successfully!');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs shadow-md"
               >
                 Save My Reflection →
               </motion.button>
@@ -2078,8 +2078,8 @@ function C12_AccountancyPastAdjustmentsAfterSim({
           )}
 
           {/* Real World Activity */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/40 space-y-3">
-            <h3 className="text-sm md:text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/40 space-y-3">
+            <h3 className="text-sm md:text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1 text-xs text-slate-400 pl-4 list-disc">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (

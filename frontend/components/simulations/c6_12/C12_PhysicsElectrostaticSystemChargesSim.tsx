@@ -1305,13 +1305,13 @@ function C12_PhysicsElectrostaticSystemChargesSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 20, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-cyan-950/80 border border-cyan-500/40 flex items-center justify-center text-2xl shadow-lg shadow-cyan-900/30"
+            className="w-12 h-12 rounded-2xl bg-gold-950/80 border border-gold-500/40 flex items-center justify-center text-2xl shadow-lg shadow-gold-900/30"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">
+              <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-400 border border-gold-500/30">
                 ISC Class 12 Physics
               </span>
               <span className="text-xs text-slate-400 font-mono">Electrostatics & Current</span>
@@ -1331,7 +1331,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                 ? 'bg-emerald-950/60 border-emerald-500 text-emerald-400'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 border-rose-500 text-rose-400'
-                : 'bg-cyan-950/60 border-cyan-500 text-cyan-400'
+                : 'bg-gold-950/60 border-gold-500 text-gold-400'
             }`}
           >
             Tier: {difficulty}
@@ -1346,13 +1346,13 @@ function C12_PhysicsElectrostaticSystemChargesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-500/30 relative overflow-hidden">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-500/30 relative overflow-hidden">
             <div className="absolute top-0 right-0 p-4 text-6xl opacity-10 font-mono">ISRO</div>
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 mt-2 bg-indigo-900/40 p-2.5 rounded-lg border border-indigo-700/30">
+            <p className="text-xs text-gold-200/80 mt-2 bg-gold-900/40 p-2.5 rounded-lg border border-gold-700/30">
               ⚡ <strong>Mission Challenge:</strong> {SCENARIO.context}
             </p>
           </div>
@@ -1405,7 +1405,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="mt-4 px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-900/40 flex items-center gap-2"
+                  className="mt-4 px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/40 flex items-center gap-2"
                 >
                   Enter Interactive Laboratory 🔬 →
                 </motion.button>
@@ -1419,7 +1419,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-4">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
               Interactive Concept Studio ({currentSlide + 1} / {EXPLORATION_STEPS.length})
             </span>
             <span className="text-xs text-slate-400">Step {currentSlide + 1} of 5</span>
@@ -1434,7 +1434,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
               className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div>
-                <h2 className="text-lg font-black text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
+                <h2 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h2>
                 <p className="text-sm text-amber-300/90 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1493,7 +1493,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Charge q₁ (Top):</span>
-                          <span className="font-mono text-cyan-400">{chargeQ1} μC</span>
+                          <span className="font-mono text-gold-400">{chargeQ1} μC</span>
                         </div>
                         <input
                           aria-label="Adjust Charge q1"
@@ -1503,14 +1503,14 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                           step={1}
                           value={chargeQ1}
                           onChange={(e) => setChargeQ1(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Charge q₂ (Left):</span>
-                          <span className="font-mono text-cyan-400">{chargeQ2} μC</span>
+                          <span className="font-mono text-gold-400">{chargeQ2} μC</span>
                         </div>
                         <input
                           aria-label="Adjust Charge q2"
@@ -1520,14 +1520,14 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                           step={1}
                           value={chargeQ2}
                           onChange={(e) => setChargeQ2(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Separation r:</span>
-                          <span className="font-mono text-cyan-400">{chargeDistR} m</span>
+                          <span className="font-mono text-gold-400">{chargeDistR} m</span>
                         </div>
                         <input
                           aria-label="Adjust charge separation distance r"
@@ -1537,18 +1537,18 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                           step={0.05}
                           value={chargeDistR}
                           onChange={(e) => setChargeDistR(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-700 space-y-1">
                         <div className="text-xs text-slate-400">Total Electrostatic Potential Energy:</div>
-                        <div className="text-xl font-mono font-bold text-cyan-300">
+                        <div className="text-xl font-mono font-bold text-gold-300">
                           U = {systemPEJoules.toFixed(3)} Joules
                         </div>
                         <div className="text-xs text-slate-400">
                           Status:{' '}
-                          <span className={systemPEJoules < 0 ? 'text-blue-400 font-bold' : 'text-rose-400 font-bold'}>
+                          <span className={systemPEJoules < 0 ? 'text-gold-400 font-bold' : 'text-rose-400 font-bold'}>
                             {systemPEJoules < 0 ? 'Bound Attractive Configuration (U < 0)' : 'Unbound Repulsive State (U > 0)'}
                           </span>
                         </div>
@@ -1562,8 +1562,8 @@ function C12_PhysicsElectrostaticSystemChargesSim({
               {currentSlide === 1 && (
                 <div className="space-y-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                   {!predictionMade && (
-                    <div className="p-3 bg-indigo-950/60 border border-indigo-700/50 rounded-xl space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Predict Before Manipulating:</p>
+                    <div className="p-3 bg-gold-950/60 border border-gold-700/50 rounded-xl space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Predict Before Manipulating:</p>
                       <p className="text-sm text-white font-semibold">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1641,7 +1641,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Plate Area (A):</span>
-                          <span className="font-mono text-cyan-400">{plateAreaCm2} cm²</span>
+                          <span className="font-mono text-gold-400">{plateAreaCm2} cm²</span>
                         </div>
                         <input
                           aria-label="Plate Area slider"
@@ -1651,14 +1651,14 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                           step={25}
                           value={plateAreaCm2}
                           onChange={(e) => handlePlateAreaChange(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Plate Separation (d):</span>
-                          <span className="font-mono text-cyan-400">{plateGapMm} mm</span>
+                          <span className="font-mono text-gold-400">{plateGapMm} mm</span>
                         </div>
                         <input
                           aria-label="Plate Separation slider"
@@ -1668,14 +1668,14 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                           step={0.5}
                           value={plateGapMm}
                           onChange={(e) => handlePlateGapChange(parseFloat(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div className="grid grid-cols-2 gap-2 pt-1">
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-700 text-center">
                           <div className="text-[10px] text-slate-400">Capacitance (C):</div>
-                          <div className="text-sm font-mono font-bold text-cyan-300">
+                          <div className="text-sm font-mono font-bold text-gold-300">
                             {liveCapacitancePicofarads.toFixed(1)} pF
                           </div>
                         </div>
@@ -1699,7 +1699,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       { name: 'Vacuum / Air', k: 1.0, color: 'border-slate-600' },
                       { name: 'Paper', k: 3.5, color: 'border-amber-600' },
                       { name: 'Mica', k: 6.0, color: 'border-purple-600' },
-                      { name: 'Water (Polar)', k: 80.0, color: 'border-cyan-600' },
+                      { name: 'Water (Polar)', k: 80.0, color: 'border-gold-600' },
                     ].map((mat) => (
                       <motion.button
                         key={mat.name}
@@ -1709,12 +1709,12 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                         onClick={() => handleDielectricChange(mat.k)}
                         className={`p-3 rounded-xl text-left border ${
                           selectedDielectricK === mat.k
-                            ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200'
+                            ? 'bg-gold-950/80 border-gold-400 text-gold-200'
                             : 'bg-slate-900 border-slate-700 text-slate-300'
                         }`}
                       >
                         <div className="text-xs font-bold">{mat.name}</div>
-                        <div className="text-xs font-mono text-cyan-400 mt-1">K = {mat.k}</div>
+                        <div className="text-xs font-mono text-gold-400 mt-1">K = {mat.k}</div>
                       </motion.button>
                     ))}
                   </div>
@@ -1722,7 +1722,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="text-center md:text-left space-y-1">
                       <div className="text-xs text-slate-400">Dielectric Constant Multiplier:</div>
-                      <div className="text-2xl font-black font-mono text-cyan-300">{selectedDielectricK}x Boost</div>
+                      <div className="text-2xl font-black font-mono text-gold-300">{selectedDielectricK}x Boost</div>
                       <div className="text-xs text-slate-400">
                         Opposing Induced Field: $E_b = E_0(1 - 1/K)$
                       </div>
@@ -1737,7 +1737,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       </div>
                       <div className="p-3 bg-slate-950 rounded-xl border border-slate-700 text-center">
                         <div className="text-[10px] text-slate-400">Internal Field E:</div>
-                        <div className="text-lg font-mono font-bold text-cyan-300">
+                        <div className="text-lg font-mono font-bold text-gold-300">
                           {(electricFieldBetweenPlates / 1000).toFixed(1)} kV/m
                         </div>
                       </div>
@@ -1781,7 +1781,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-700 text-center">
                       <div className="text-xs text-slate-400">Voltage Across Plates:</div>
-                      <div className="text-base font-mono font-bold text-cyan-300">
+                      <div className="text-base font-mono font-bold text-gold-300">
                         {effectiveVoltage.toFixed(1)} V
                       </div>
                       <div className="text-[10px] text-slate-500 mt-0.5">
@@ -1843,7 +1843,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 mb-1">
                         <span>Electric Field (E):</span>
-                        <span className="font-mono text-cyan-400">{electricFieldStrength} V/m</span>
+                        <span className="font-mono text-gold-400">{electricFieldStrength} V/m</span>
                       </div>
                       <input
                         aria-label="Electric Field slider"
@@ -1853,7 +1853,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                         step={25}
                         value={electricFieldStrength}
                         onChange={(e) => handleFieldChange(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1861,7 +1861,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 flex flex-wrap items-center justify-between text-xs">
                     <div>
                       <span className="text-slate-400">Relaxation Time (τ): </span>
-                      <span className="font-mono font-bold text-cyan-300">{(relaxationTimeTau * 1e14).toFixed(2)} × 10⁻¹⁴ s</span>
+                      <span className="font-mono font-bold text-gold-300">{(relaxationTimeTau * 1e14).toFixed(2)} × 10⁻¹⁴ s</span>
                     </div>
                     <div>
                       <span className="text-slate-400">Drift Speed (vd): </span>
@@ -1895,7 +1895,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1905,7 +1905,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-emerald-950/50"
+                className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-emerald-950/50"
               >
                 Enter Sandbox Mode 🕹️ →
               </motion.button>
@@ -1919,7 +1919,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-5">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h2 className="text-base font-bold text-cyan-300">Free Exploration Sandbox</h2>
+              <h2 className="text-base font-bold text-gold-300">Free Exploration Sandbox</h2>
               <p className="text-xs text-slate-400">Manipulate all parameters with zero grading pressure to build physical intuition.</p>
             </div>
             <motion.button
@@ -1927,7 +1927,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-indigo-600 text-white font-bold rounded-xl text-xs shadow-lg shadow-cyan-900/40"
+              className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold rounded-xl text-xs shadow-lg shadow-gold-900/40"
             >
               I Am Ready for Challenges! 🎯 →
             </motion.button>
@@ -1935,7 +1935,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-cyan-400 uppercase">Capacitor Bench</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">Capacitor Bench</h3>
               <div className="space-y-2">
                 <div className="flex justify-between text-xs">
                   <span className="text-slate-400">Area: {plateAreaCm2} cm²</span>
@@ -1949,7 +1949,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   max={500}
                   value={plateAreaCm2}
                   onChange={(e) => handlePlateAreaChange(parseFloat(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
                 <input
                   aria-label="Sandbox Plate Gap"
@@ -1959,14 +1959,14 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   step={0.5}
                   value={plateGapMm}
                   onChange={(e) => handlePlateGapChange(parseFloat(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 grid grid-cols-2 gap-2 text-center text-xs">
                 <div>
                   <div className="text-slate-500">Capacitance</div>
-                  <div className="font-mono font-bold text-cyan-300">{liveCapacitancePicofarads.toFixed(1)} pF</div>
+                  <div className="font-mono font-bold text-gold-300">{liveCapacitancePicofarads.toFixed(1)} pF</div>
                 </div>
                 <div>
                   <div className="text-slate-500">Stored Energy</div>
@@ -2000,7 +2000,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   step={25}
                   value={electricFieldStrength}
                   onChange={(e) => handleFieldChange(parseFloat(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
 
@@ -2011,7 +2011,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                 </div>
                 <div>
                   <div className="text-slate-500">Relaxation Time τ</div>
-                  <div className="font-mono font-bold text-cyan-300">{(relaxationTimeTau * 1e14).toFixed(1)} fs</div>
+                  <div className="font-mono font-bold text-gold-300">{(relaxationTimeTau * 1e14).toFixed(1)} fs</div>
                 </div>
               </div>
             </div>
@@ -2027,14 +2027,14 @@ function C12_PhysicsElectrostaticSystemChargesSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-cyan-400 font-mono">
+              <span className="text-gold-400 font-mono">
                 Competency: <strong className="uppercase">{challenge.competencyLevel}</strong>
               </span>
             </div>
 
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2103,7 +2103,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2121,7 +2121,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       <div className="text-[10px] text-slate-500 uppercase tracking-wider mb-1">
                         {slotId.replace('slot_', 'Role: ')}
                       </div>
-                      <div className="text-xs font-bold text-cyan-300">
+                      <div className="text-xs font-bold text-gold-300">
                         {droppedLabels[slotId] ? `✓ ${droppedLabels[slotId]}` : <span className="text-slate-600">Drop Label Here</span>}
                       </div>
                     </div>
@@ -2135,7 +2135,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : {}}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Mapping ✓
                 </motion.button>
@@ -2163,7 +2163,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3 cursor-grab text-xs text-slate-200"
                     >
-                      <span className="w-5 h-5 rounded-md bg-cyan-900/60 text-cyan-400 font-bold flex items-center justify-center text-[10px]">
+                      <span className="w-5 h-5 rounded-md bg-gold-900/60 text-gold-400 font-bold flex items-center justify-center text-[10px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2179,7 +2179,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   transition={{ duration: 0.4 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Order ✓
                 </motion.button>
@@ -2197,7 +2197,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value..."
-                    className="flex-1 px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                    className="flex-1 px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm text-slate-400 font-mono">{challenge.unit}</span>
                   <motion.button
@@ -2208,7 +2208,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                   >
                     Check
                   </motion.button>
@@ -2227,7 +2227,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 font-mono rounded-lg text-xs border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 font-mono rounded-lg text-xs border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2236,7 +2236,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <div key={i} className="px-3 py-1 bg-indigo-900/80 text-white rounded-lg text-xs font-mono flex items-center gap-2">
+                    <div key={i} className="px-3 py-1 bg-gold-900/80 text-white rounded-lg text-xs font-mono flex items-center gap-2">
                       <span>{part}</span>
                       <button
                         aria-label={`Remove part ${part}`}
@@ -2260,7 +2260,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Derivation ✓
                 </motion.button>
@@ -2273,9 +2273,9 @@ function C12_PhysicsElectrostaticSystemChargesSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-700/50 space-y-3"
+              className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-700/50 space-y-3"
             >
-              <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                 <span>💡</span> Methodical Step-by-Step Explanation:
               </h3>
 
@@ -2289,7 +2289,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-xs text-indigo-100 leading-relaxed"
+                      className="text-xs text-gold-100 leading-relaxed"
                     >
                       <span className="font-bold text-amber-400 font-mono">Step {i + 1}: </span>
                       {sentence}
@@ -2305,7 +2305,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-800 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-800 text-white rounded-xl text-xs font-bold"
                   >
                     Reveal Next Step →
                   </motion.button>
@@ -2315,7 +2315,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleNextChallenge}
-                    className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-bold rounded-xl text-xs shadow-lg shadow-emerald-950/50"
+                    className="px-6 py-2.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-xl text-xs shadow-lg shadow-emerald-950/50"
                   >
                     {currentChallenge + 1 >= filteredChallenges.length ? 'Finish Module 🎓 →' : 'Next Challenge →'}
                   </motion.button>
@@ -2345,9 +2345,9 @@ function C12_PhysicsElectrostaticSystemChargesSim({
           </div>
 
           {/* Reflection Section */}
-          <div className="p-5 bg-slate-900/90 rounded-2xl border border-cyan-800/40 space-y-4">
+          <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-800/40 space-y-4">
             <div className="flex items-center gap-2">
-              <span className="text-cyan-400 text-lg">💭</span>
+              <span className="text-gold-400 text-lg">💭</span>
               <h3 className="text-sm font-bold text-white uppercase tracking-wider">Concept Reflection</h3>
             </div>
             <p className="text-xs text-slate-300">
@@ -2356,7 +2356,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
 
             <div className="space-y-3">
               <div>
-                <label className="block text-xs font-semibold text-cyan-300 mb-1">
+                <label className="block text-xs font-semibold text-gold-300 mb-1">
                   1. What was the most surprising thing you learned?
                 </label>
                 <input
@@ -2365,12 +2365,12 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g., How stored energy drops when dielectric is inserted into an isolated capacitor..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-cyan-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-cyan-300 mb-1">
+                <label className="block text-xs font-semibold text-gold-300 mb-1">
                   2. How would you explain this to a friend?
                 </label>
                 <input
@@ -2379,12 +2379,12 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g., Capacitance depends purely on shape and medium, not on how much charge you add..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-cyan-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-cyan-300 mb-1">
+                <label className="block text-xs font-semibold text-gold-300 mb-1">
                   3. Where in real life might you use this?
                 </label>
                 <input
@@ -2393,7 +2393,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g., Designing spacecraft pulse capacitors or temperature sensors..."
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-cyan-500"
+                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2405,7 +2405,7 @@ function C12_PhysicsElectrostaticSystemChargesSim({
                   setReflectionSubmitted(true);
                   audioManager.play('success');
                 }}
-                className="px-4 py-2 bg-cyan-700 hover:bg-cyan-600 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
               >
                 {reflectionSubmitted ? '✓ Reflections Saved' : 'Save Reflections'}
               </motion.button>
@@ -2446,13 +2446,13 @@ function C12_PhysicsElectrostaticSystemChargesSim({
           </div>
 
           {/* Real-World Capstone Activity */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/40 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">🛠️ {REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/40 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300">🛠️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="text-xs text-slate-300 flex items-start gap-2">
-                  <span className="text-cyan-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

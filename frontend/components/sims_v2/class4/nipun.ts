@@ -21,7 +21,7 @@ export const c4HinGrammar: SimDef = {
         { title: 'संज्ञा — नाम 📛', text: 'Words that NAME — लड़का, गाय, शहर, किताब. Person, animal, place, thing — all संज्ञा!', emoji: '📛', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'सर्वनाम — नाम की जगह 🔁', text: 'वह, यह, मैं, तुम replace the name: "राम दौड़ता है" → "वह दौड़ता है"!', emoji: '🔁', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'विशेषण — बताने वाला शब्द 🎨', text: 'Words that DESCRIBE: लाल फूल, बड़ा घर, अच्छा लड़का. विशेषण adds colour to संज्ञा!', emoji: '🎨', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'क्रिया — काम का शब्द 🏃', text: 'Words that DO: दौड़ना, खाना, गाना, पढ़ना. क्रिया is the action!', emoji: '🏃', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'क्रिया — काम का शब्द 🏃', text: 'Words that DO: दौड़ना, खाना, गाना, पढ़ना. क्रिया is the action!', emoji: '🏃', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'match', prompt: 'Match each word to its शब्द-भेद!', labels: ['गाय', 'संज्ञा', 'वह', 'सर्वनाम', 'लाल', 'विशेषण', 'दौड़ना', 'क्रिया'] },
     challenges: [
@@ -65,8 +65,8 @@ export const c4HinSentence: SimDef = {
     teaching: [
         { title: 'ने = करने वाला 💪', text: 'ने marks the DOER: "राम ने किताब पढ़ी" — Ram did the reading!', emoji: '💪', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'को = जिसे काम मिला 🎯', text: 'को marks the RECEIVER: "शिक्षक ने बच्चे को बुलाया" — the child received the call!', emoji: '🎯', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'एकवचन/बहुवचन 🔢', text: 'One = एकवचन (किताब), many = बहुवचन (किताबें). Watch the word-endings!', emoji: '🔢', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'वाक्य का क्रम 🔀', text: 'Hindi order: कर्ता + कर्म + क्रिया. "बिल्ली ने दूध पिया" — who + what + did!', emoji: '🔀', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'एकवचन/बहुवचन 🔢', text: 'One = एकवचन (किताब), many = बहुवचन (किताबें). Watch the word-endings!', emoji: '🔢', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'वाक्य का क्रम 🔀', text: 'Hindi order: कर्ता + कर्म + क्रिया. "बिल्ली ने दूध पिया" — who + what + did!', emoji: '🔀', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'order', prompt: 'Arrange the words into a सही वाक्य!', labels: ['राम', 'ने', 'पत्र', 'लिखा'] },
     challenges: [
@@ -110,7 +110,7 @@ export const c4HinReading: SimDef = {
     teaching: [
         { title: 'धीरे-धीरे पढ़ो 🐢', text: 'Do not rush! Read each वाक्य fully before the next. Understanding beats speed!', emoji: '🐢', bgColor: 'from-teal-400 to-emerald-500' },
         { title: 'कौन, क्या, कहाँ? 🔍', text: 'Every paragraph answers कौन (who), क्या (what), कहाँ (where), क्यों (why). Hunt for them!', emoji: '🔍', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'जवाब टेक्स्ट में ही है ✅', text: 'The answer is always written in the paragraph — point to the words!', emoji: '✅', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'जवाब टेक्स्ट में ही है ✅', text: 'The answer is always written in the paragraph — point to the words!', emoji: '✅', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'order', prompt: 'कहानी के वाक्य सही क्रम में लगाओ!', labels: ['एक गाँव में किसान था', 'वह खेत में मेहनत करता था', 'फसल अच्छी हुई', 'किसान खुश हुआ'] },
     challenges: [
@@ -147,7 +147,7 @@ export const c4EngSentence: SimDef = {
     id: 'c4_eng_sentence', title: 'Sentence Studio', subtitle: 'Statement, Question, Command, Exclaim!',
     classLevel: 4, subject: 'english', topic: 'Sentence Types & Order',
     chapters: ['English grammar: sentence types'],
-    emoji: '🎬', theme: { bg: 'from-purple-100 to-violet-200', accent: 'purple', scene: 'grammar' },
+    emoji: '🎬', theme: { bg: 'from-purple-100 to-gold-200', accent: 'purple', scene: 'grammar' },
     scenario: { role: "a sentence-director", intro: 'Sentences come in four types — statements, questions, commands, exclamations!', goal: 'Direct every sentence to its type.' },
     discovery: {
         question: '"Close the door!" — is this a statement, question, or command?"',
@@ -156,8 +156,8 @@ export const c4EngSentence: SimDef = {
         hook: 'It ORDERS — commands tell someone to do something!',
     },
     teaching: [
-        { title: 'Statement — tells 💬', text: 'Tells a fact: "The sky is blue." Ends with a full stop!', emoji: '💬', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Question — asks ❓', text: 'Asks something: "What is your name?" Ends with a question mark!', emoji: '❓', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Statement — tells 💬', text: 'Tells a fact: "The sky is blue." Ends with a full stop!', emoji: '💬', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Question — asks ❓', text: 'Asks something: "What is your name?" Ends with a question mark!', emoji: '❓', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Command — orders 📣', text: 'Tells someone to DO: "Sit down." Starts with an action word!', emoji: '📣', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'Exclamation — feels! ❗', text: 'Shows strong feeling: "What a beautiful day!" Ends with !', emoji: '❗', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'Word Order 🔀', text: 'English order: WHO + DOES + WHAT. "Sita eats rice" — never "eats Sita rice"!', emoji: '🔀', bgColor: 'from-emerald-400 to-teal-500' },

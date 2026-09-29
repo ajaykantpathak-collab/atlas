@@ -1365,14 +1365,14 @@ export function C11_PhysicsBernoullisTheoremSim({
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-xl bg-cyan-950 border border-cyan-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-xl bg-gold-950 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
             aria-label="Simulation subject icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-400 bg-cyan-950/60 px-2 py-0.5 rounded-md border border-cyan-800">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800">
                 ISC Class 11 Physics
               </span>
               <span className="text-xs text-slate-400">10 Core Units</span>
@@ -1397,7 +1397,7 @@ export function C11_PhysicsBernoullisTheoremSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all border ${
                 phase === pName
-                  ? 'bg-cyan-600 text-white border-cyan-400 shadow-lg shadow-cyan-900/40'
+                  ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-900/40'
                   : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
               }`}
             >
@@ -1410,13 +1410,13 @@ export function C11_PhysicsBernoullisTheoremSim({
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <motion.div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-500/30 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm uppercase tracking-wide mb-2">
+          <motion.div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-500/30 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wide mb-2">
               <span>🚀</span> Narrative Scenario Hook
             </div>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 bg-indigo-950/40 p-3 rounded-xl border border-indigo-900/60">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 bg-gold-950/40 p-3 rounded-xl border border-gold-900/60">{SCENARIO.context}</p>
           </motion.div>
 
           <motion.div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
@@ -1442,7 +1442,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/60 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-cyan-500/50'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
                   <span className="inline-block w-6 text-slate-400 font-mono font-bold">{String.fromCharCode(65 + i)}.</span>
@@ -1473,7 +1473,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Launch interactive laboratories"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-900/40"
+                  className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/40"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1488,7 +1488,7 @@ export function C11_PhysicsBernoullisTheoremSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3 p-3 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-cyan-400 uppercase bg-cyan-950/60 px-3 py-1 rounded-lg border border-cyan-800">
+              <span className="text-xs font-bold text-gold-400 uppercase bg-gold-950/60 px-3 py-1 rounded-lg border border-gold-800">
                 Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <span className="text-sm font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</span>
@@ -1500,7 +1500,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   aria-label={`Jump to lab ${idx + 1}`}
                   onClick={() => setCurrentSlide(idx)}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    currentSlide === idx ? 'bg-cyan-400 scale-125' : 'bg-slate-700 hover:bg-slate-600'
+                    currentSlide === idx ? 'bg-gold-400 scale-125' : 'bg-slate-700 hover:bg-slate-600'
                   }`}
                 />
               ))}
@@ -1508,9 +1508,9 @@ export function C11_PhysicsBernoullisTheoremSim({
           </div>
 
           <motion.div className="p-4 sm:p-6 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-6">
-            <div className="p-3 bg-cyan-950/40 border border-cyan-800/60 rounded-2xl flex items-start gap-3">
+            <div className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-2xl flex items-start gap-3">
               <span className="text-xl">👉</span>
-              <p className="text-sm text-cyan-200 font-medium">{EXPLORATION_STEPS[currentSlide].instruction}</p>
+              <p className="text-sm text-gold-200 font-medium">{EXPLORATION_STEPS[currentSlide].instruction}</p>
             </div>
 
             {/* ─── SLIDE 0: VENTURI SIMULATION ─── */}
@@ -1547,13 +1547,13 @@ export function C11_PhysicsBernoullisTheoremSim({
                 {/* 2D HTML5 Canvas Animation */}
                 <div className="relative rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
                   <canvas ref={canvasRef} width={650} height={200} className="w-full h-[200px] bg-slate-950 block" />
-                  <div className="absolute top-2 left-3 bg-slate-900/80 px-2.5 py-1 rounded-lg border border-slate-700 text-[10px] text-cyan-300 font-mono">
+                  <div className="absolute top-2 left-3 bg-slate-900/80 px-2.5 py-1 rounded-lg border border-slate-700 text-[10px] text-gold-300 font-mono">
                     Entry Area A1 = 0.02 m² | v1 = {fluidParams.v1.toFixed(2)} m/s
                   </div>
                   <div className="absolute top-2 right-3 bg-slate-900/80 px-2.5 py-1 rounded-lg border border-slate-700 text-[10px] text-amber-300 font-mono">
                     Throat A2 = {(0.02 * throatAreaRatio).toFixed(3)} m² | v2 = {fluidParams.v2.toFixed(2)} m/s
                   </div>
-                  <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-slate-900/90 px-3 py-1 rounded-lg border border-cyan-500/50 text-xs font-mono text-cyan-200 shadow-lg">
+                  <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-slate-900/90 px-3 py-1 rounded-lg border border-gold-500/50 text-xs font-mono text-gold-200 shadow-lg">
                     Static Pressure Drop DeltaP = {fluidParams.deltaP.toFixed(0)} Pa (Manometer Delta-h: {fluidParams.deltaH_cm.toFixed(1)} cm)
                   </div>
                 </div>
@@ -1563,7 +1563,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 font-medium mb-1">
                       <span>Flow Velocity (v1):</span>
-                      <span className="text-cyan-400 font-bold">{flowSpeed.toFixed(1)} m/s</span>
+                      <span className="text-gold-400 font-bold">{flowSpeed.toFixed(1)} m/s</span>
                     </div>
                     <input
                       type="range"
@@ -1573,7 +1573,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       value={flowSpeed}
                       aria-label="Adjust fluid flow speed in metres per second"
                       onChange={(e) => handleFlowSpeedChange(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1597,8 +1597,8 @@ export function C11_PhysicsBernoullisTheoremSim({
 
                 {/* OBSERVATION QUESTION */}
                 {flowSpeed > 2.0 && !observationAnswered && (
-                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-2xl border border-cyan-800/80 space-y-2">
-                    <p className="text-xs font-bold text-cyan-400 uppercase">Scientific Observation</p>
+                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 bg-slate-950 rounded-2xl border border-gold-800/80 space-y-2">
+                    <p className="text-xs font-bold text-gold-400 uppercase">Scientific Observation</p>
                     <p className="text-sm text-white font-medium">{OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
@@ -1632,7 +1632,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       onClick={() => handleLiquidSelect(liq)}
                       className={`flex-1 py-2 rounded-xl text-xs font-bold capitalize border ${
                         selectedLiquid === liq
-                          ? 'bg-cyan-600 text-white border-cyan-400'
+                          ? 'bg-gold-600 text-white border-gold-400'
                           : 'bg-slate-950 text-slate-400 border-slate-800'
                       }`}
                     >
@@ -1672,7 +1672,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     <div className="space-y-2 text-xs">
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Surface Tension (T):</span>
-                        <span className="text-cyan-400 font-bold font-mono">{fluidParams.T} N/m</span>
+                        <span className="text-gold-400 font-bold font-mono">{fluidParams.T} N/m</span>
                       </div>
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Angle of Contact (theta):</span>
@@ -1684,7 +1684,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       </div>
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Surface Energy per unit area:</span>
-                        <span className="text-indigo-400 font-bold font-mono">{fluidParams.T} J/m²</span>
+                        <span className="text-gold-400 font-bold font-mono">{fluidParams.T} J/m²</span>
                       </div>
                     </div>
                   </div>
@@ -1748,7 +1748,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       <div className="space-y-1.5 text-xs">
                         <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                           <span className="text-slate-400">Liquid Drop ΔP (2T/R):</span>
-                          <span className="text-cyan-300 font-bold font-mono">{fluidParams.dropLaplacePa.toFixed(1)} Pa</span>
+                          <span className="text-gold-300 font-bold font-mono">{fluidParams.dropLaplacePa.toFixed(1)} Pa</span>
                         </div>
                         <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                           <span className="text-slate-400">Soap Bubble ΔP (4T/R):</span>
@@ -1760,7 +1760,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 font-medium mb-1">
                         <span>Capillary Bore Radius (r):</span>
-                        <span className="text-cyan-400 font-bold">{capillaryRadius.toFixed(2)} mm</span>
+                        <span className="text-gold-400 font-bold">{capillaryRadius.toFixed(2)} mm</span>
                       </div>
                       <input
                         type="range"
@@ -1770,7 +1770,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                         value={capillaryRadius}
                         aria-label="Adjust capillary tube bore radius in millimetres"
                         onChange={(e) => handleCapillaryRadiusChange(parseFloat(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1784,7 +1784,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* Canvas Atomic Jiggle */}
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col items-center">
-                    <h4 className="text-xs font-bold text-cyan-400 uppercase mb-2">Microscopic Interatomic Vibrations</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase mb-2">Microscopic Interatomic Vibrations</h4>
                     <canvas ref={thermalCanvasRef} width={280} height={160} className="rounded-xl border border-slate-800 w-full" />
                     <p className="text-[10px] text-slate-400 mt-2">Atoms vibrate with higher amplitude as temperature rises.</p>
                   </div>
@@ -1811,7 +1811,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     <div className="space-y-1.5 text-xs">
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Linear Expansion (ΔL = α L₀ ΔT):</span>
-                        <span className="text-cyan-400 font-bold font-mono">+{thermalParams.deltaL_mm.toFixed(3)} mm</span>
+                        <span className="text-gold-400 font-bold font-mono">+{thermalParams.deltaL_mm.toFixed(3)} mm</span>
                       </div>
                       <div className="flex justify-between p-2 bg-slate-900 rounded-lg">
                         <span className="text-slate-400">Water Density at {temperatureC}°C:</span>
@@ -1837,7 +1837,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       aria-label={`Select conduction material: ${mat}`}
                       onClick={() => setConductionMaterial(mat)}
                       className={`flex-1 py-2 rounded-xl text-xs font-bold capitalize border ${
-                        conductionMaterial === mat ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-950 text-slate-400 border-slate-800'
+                        conductionMaterial === mat ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-950 text-slate-400 border-slate-800'
                       }`}
                     >
                       {mat} (k = {mat === 'copper' ? '385' : mat === 'aluminium' ? '205' : '0.15'} W/m·K)
@@ -1853,7 +1853,7 @@ export function C11_PhysicsBernoullisTheoremSim({
 
                   <div className="h-6 bg-slate-900 rounded-full overflow-hidden p-1 border border-slate-800">
                     <motion.div
-                      className="h-full bg-gradient-to-r from-blue-500 via-amber-500 to-rose-600 rounded-full"
+                      className="h-full bg-gradient-to-r from-gold-500 via-amber-500 to-rose-600 rounded-full"
                       animate={{ width: `${Math.min(100, (thermalParams.heatFlowWatts / 600) * 100)}%` }}
                     />
                   </div>
@@ -1884,7 +1884,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Go to next lab"
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-900/40"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/40"
               >
                 Next Lab →
               </motion.button>
@@ -1917,7 +1917,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Start graded challenges"
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-emerald-900/40"
+                className="px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-emerald-900/40"
               >
                 Ready for Graded Challenges! 🎯
               </motion.button>
@@ -1926,7 +1926,7 @@ export function C11_PhysicsBernoullisTheoremSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Box 1: Venturi Quick Control */}
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-xs font-bold text-cyan-400 uppercase">Venturi Control</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">Venturi Control</h4>
                 <div>
                   <label className="text-[11px] text-slate-400" htmlFor="sandbox-speed">Flow Speed: {flowSpeed.toFixed(1)} m/s</label>
                   <input
@@ -1938,10 +1938,10 @@ export function C11_PhysicsBernoullisTheoremSim({
                     value={flowSpeed}
                     aria-label="Sandbox flow speed slider"
                     onChange={(e) => setFlowSpeed(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
-                <div className="text-xs text-cyan-300 font-mono">
+                <div className="text-xs text-gold-300 font-mono">
                   ΔP: {fluidParams.deltaP.toFixed(0)} Pa | Δh: {fluidParams.deltaH_cm.toFixed(1)} cm
                 </div>
               </div>
@@ -2020,7 +2020,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   ? 'bg-emerald-950/80 text-emerald-400 border-emerald-600'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-400 border-rose-600'
-                  : 'bg-cyan-950/80 text-cyan-400 border-cyan-600'
+                  : 'bg-gold-950/80 text-gold-400 border-gold-600'
               }`}
             >
               {difficulty}
@@ -2030,7 +2030,7 @@ export function C11_PhysicsBernoullisTheoremSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800" role="progressbar" aria-valuenow={((currentChallenge + 1) / filteredChallenges.length) * 100} aria-valuemin={0} aria-valuemax={100}>
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2054,7 +2054,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                       ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                       : showExplanation && i === challenge.correctIndex
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950'
-                      : 'bg-slate-900/90 hover:bg-slate-850 border-slate-800 text-slate-200 hover:border-cyan-500/50'
+                      : 'bg-slate-900/90 hover:bg-slate-850 border-slate-800 text-slate-200 hover:border-gold-500/50'
                   }`}
                 >
                   <span className="inline-block w-6 text-slate-400 font-mono font-bold">{String.fromCharCode(65 + i)}.</span>
@@ -2081,7 +2081,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   aria-label="Numerical solution input"
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="e.g. 2.0"
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-base font-mono focus:border-cyan-500 outline-none w-48"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-base font-mono focus:border-gold-500 outline-none w-48"
                 />
                 <span className="text-slate-300 font-bold font-mono">{challenge.unit}</span>
                 <motion.button
@@ -2092,7 +2092,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   aria-label="Submit numeric answer"
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-900/40"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/40"
                 >
                   Submit Value
                 </motion.button>
@@ -2117,7 +2117,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-3.5 py-2 bg-indigo-700/80 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow border border-indigo-500/40"
+                    className="px-3.5 py-2 bg-gold-700/80 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow border border-gold-500/40"
                   >
                     {item.label}
                   </motion.div>
@@ -2155,7 +2155,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                 aria-label="Validate diagram labels"
                 onClick={() => handleAnswer(droppedLabels)}
                 disabled={showExplanation}
-                className="mt-4 px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Validate Diagram Labels
               </motion.button>
@@ -2186,7 +2186,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-950 rounded-xl text-xs text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-lg bg-slate-800 text-cyan-400 font-mono font-bold flex items-center justify-center text-xs">
+                    <span className="w-6 h-6 rounded-lg bg-slate-800 text-gold-400 font-mono font-bold flex items-center justify-center text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2202,7 +2202,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                 aria-label="Verify chronological sequence"
                 onClick={handleSortSubmit}
                 disabled={showExplanation}
-                className="mt-2 px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Verify Sequence
               </motion.button>
@@ -2223,7 +2223,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     whileTap={{ scale: 0.95 }}
                     aria-label={`Add equation block ${part}`}
                     onClick={() => handleAddConstructPart(part)}
-                    className="px-3 py-1.5 bg-indigo-900/80 hover:bg-indigo-700 border border-indigo-600/50 rounded-lg text-xs font-mono font-bold text-white"
+                    className="px-3 py-1.5 bg-gold-900/80 hover:bg-gold-700 border border-gold-600/50 rounded-lg text-xs font-mono font-bold text-white"
                   >
                     + {part}
                   </motion.button>
@@ -2237,7 +2237,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     key={i}
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="px-3 py-1 bg-cyan-950 border border-cyan-500 text-cyan-200 font-mono text-xs rounded-lg flex items-center gap-2"
+                    className="px-3 py-1 bg-gold-950 border border-gold-500 text-gold-200 font-mono text-xs rounded-lg flex items-center gap-2"
                   >
                     <span>{part}</span>
                     <button
@@ -2260,7 +2260,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                 aria-label="Verify formula construction"
                 onClick={() => handleAnswer(constructParts.join(' '))}
                 disabled={constructParts.length === 0 || showExplanation}
-                className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Verify Construction
               </motion.button>
@@ -2272,9 +2272,9 @@ export function C11_PhysicsBernoullisTheoremSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-500/40 space-y-3"
+              className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/60 rounded-2xl border border-gold-500/40 space-y-3"
             >
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase">
                 <span>📘</span> Step-by-Step Physical Derivation:
               </div>
 
@@ -2289,7 +2289,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-xs sm:text-sm text-slate-200 leading-relaxed"
                   >
-                    <span className="font-bold text-cyan-400 font-mono">{i + 1}.</span> {sentence}
+                    <span className="font-bold text-gold-400 font-mono">{i + 1}.</span> {sentence}
                     {!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2301,7 +2301,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                     whileTap={{ scale: 0.97 }}
                     aria-label="Show next step of derivation"
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2329,7 +2329,7 @@ export function C11_PhysicsBernoullisTheoremSim({
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Flight Systems Mission Complete!</h2>
             <div className="flex justify-center gap-4 text-sm font-mono">
-              <span className="text-cyan-400 font-bold">Final Score: {Math.max(0, 100 - errors * 5)}%</span>
+              <span className="text-gold-400 font-bold">Final Score: {Math.max(0, 100 - errors * 5)}%</span>
               <span className="text-slate-400">|</span>
               <span className="text-emerald-400 font-bold uppercase">Mastery: {masteryLevel}</span>
             </div>
@@ -2339,7 +2339,7 @@ export function C11_PhysicsBernoullisTheoremSim({
           <div className="p-5 rounded-2xl border transition-all text-center space-y-1 bg-slate-900/90 border-slate-700">
             <h3 className="text-lg font-black tracking-wide">
               {errors === 0 && <span className="text-emerald-400">✓ PERFECT SCORE!</span>}
-              {errors >= 1 && errors <= 3 && <span className="text-cyan-400">✓ Great work!</span>}
+              {errors >= 1 && errors <= 3 && <span className="text-gold-400">✓ Great work!</span>}
               {errors >= 4 && errors <= 7 && <span className="text-amber-400">Good effort!</span>}
               {errors >= 8 && <span className="text-rose-400">Do not give up — You WILL get this!</span>}
             </h3>
@@ -2355,11 +2355,11 @@ export function C11_PhysicsBernoullisTheoremSim({
           </div>
 
           {/* Spaced Repetition Visibility */}
-          <div className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-500/40 flex flex-wrap items-center justify-between gap-4 shadow-lg">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-500/40 flex flex-wrap items-center justify-between gap-4 shadow-lg">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">Spaced Repetition System (SRS)</span>
-                <span className="text-[10px] px-2 py-0.5 bg-indigo-900/60 rounded text-indigo-200 border border-indigo-700">SM-2 Interval</span>
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Spaced Repetition System (SRS)</span>
+                <span className="text-[10px] px-2 py-0.5 bg-gold-900/60 rounded text-gold-200 border border-gold-700">SM-2 Interval</span>
               </div>
               <p className="text-sm font-semibold text-white">
                 Next scheduled review:{' '}
@@ -2380,7 +2380,7 @@ export function C11_PhysicsBernoullisTheoremSim({
 
           {/* REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-cyan-400 font-bold text-sm uppercase">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase">
               <span>🧠</span> Reflection & Synthesis
             </div>
             <div className="space-y-4">
@@ -2395,7 +2395,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   aria-label="What was the most surprising thing you learned?"
                   onChange={(e) => setReflections((prev) => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g. How static pressure drops when fluid speeds up in the throat constriction..."
-                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white placeholder-slate-500 focus:border-cyan-500 outline-none"
+                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2410,7 +2410,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   aria-label="How would you explain this to a friend?"
                   onChange={(e) => setReflections((prev) => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g. Like conserving energy tokens between speed and pressure..."
-                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white placeholder-slate-500 focus:border-cyan-500 outline-none"
+                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
 
@@ -2425,7 +2425,7 @@ export function C11_PhysicsBernoullisTheoremSim({
                   aria-label="Where in real life might you use this?"
                   onChange={(e) => setReflections((prev) => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g. In aerospace wing design, rocket nozzles, or cryogenic fuel tanks..."
-                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white placeholder-slate-500 focus:border-cyan-500 outline-none"
+                  className="w-full p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-white placeholder-slate-500 focus:border-gold-500 outline-none"
                 />
               </div>
             </div>
@@ -2452,14 +2452,14 @@ export function C11_PhysicsBernoullisTheoremSim({
 
           {/* Real-World Activity Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-cyan-400 font-mono font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-mono font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

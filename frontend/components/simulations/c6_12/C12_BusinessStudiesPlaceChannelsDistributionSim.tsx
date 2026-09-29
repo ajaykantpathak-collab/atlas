@@ -1302,11 +1302,11 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-3"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-semibold tracking-wider text-indigo-400 uppercase">
+            <span className="text-xs font-semibold tracking-wider text-gold-400 uppercase">
               ISC Class 12 • {subjectConfig.name}
             </span>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
@@ -1338,10 +1338,10 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-xl font-bold text-indigo-200 mb-2">🎯 Case Scenario: {SCENARIO.title}</h2>
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-xl font-bold text-gold-200 mb-2">🎯 Case Scenario: {SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 font-medium bg-indigo-900/30 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-300/80 mt-3 font-medium bg-gold-900/30 p-3 rounded-xl border border-gold-800/40">
               📌 {SCENARIO.context}
             </p>
           </div>
@@ -1368,11 +1368,11 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && !discoveryCorrect && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-750 text-slate-200 hover:bg-slate-800 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-750 text-slate-200 hover:bg-slate-800 hover:border-gold-500'
                   }`}
                   aria-label={`Option ${i + 1}: ${opt}`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1398,7 +1398,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Guided Labs →
                 </motion.button>
@@ -1414,7 +1414,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
           {/* Real-Time Supply Chain Motion Canvas */}
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
             <div className="flex justify-between items-center text-xs">
-              <span className="font-bold text-indigo-300 flex items-center gap-1.5">
+              <span className="font-bold text-gold-300 flex items-center gap-1.5">
                 <span>⚡ Live Physical Distribution & Channel Pipeline Canvas Animation</span>
               </span>
               <span className="text-[10px] text-slate-400">requestAnimationFrame Engine</span>
@@ -1437,7 +1437,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                 onClick={() => setCurrentSlide(idx)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -1455,7 +1455,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Interactive Exploration {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-lg md:text-xl font-bold text-white mt-1">
@@ -1481,7 +1481,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                         onClick={() => handleChannelSelect(lvl.level as 0 | 1 | 2 | 3)}
                         className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all text-left ${
                           selectedChannelTier === lvl.level
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                         }`}
                       >
@@ -1494,8 +1494,8 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   {/* TOPIC SVG DIAGRAM 1: Channel Level Architecture */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs font-bold text-indigo-300">📊 Diagram 1: Multi-Tier Distribution Pipeline Architecture</span>
-                      <span className="text-xs px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-200 border border-indigo-700/50">
+                      <span className="text-xs font-bold text-gold-300">📊 Diagram 1: Multi-Tier Distribution Pipeline Architecture</span>
+                      <span className="text-xs px-2 py-0.5 rounded bg-gold-900/60 text-gold-200 border border-gold-700/50">
                         {selectedChannelTier} Intermediary Level{selectedChannelTier !== 1 ? 's' : ''}
                       </span>
                     </div>
@@ -1587,7 +1587,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                     </div>
                     <div className="flex justify-between text-slate-300">
                       <span>Estimated Pan-India Market Reach:</span>
-                      <span className="font-bold text-indigo-400">
+                      <span className="font-bold text-gold-400">
                         {selectedChannelTier === 0
                           ? 'D2C Urban Metros (15 Lakh consumers)'
                           : selectedChannelTier === 1
@@ -1605,7 +1605,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
               {currentSlide === 1 && (
                 <div className="space-y-5">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-3">
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-3">
                       <p className="text-xs font-bold text-amber-400 uppercase">Step 1: Make your prediction first!</p>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1615,7 +1615,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 text-left rounded-lg bg-slate-800 border border-slate-700 text-xs hover:border-indigo-500"
+                            className="p-3 text-left rounded-lg bg-slate-800 border border-slate-700 text-xs hover:border-gold-500"
                           >
                             {opt}
                           </motion.button>
@@ -1627,7 +1627,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   {/* Real-time Slider connected to live visualization */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between text-xs text-slate-300">
-                      <span>⚡ Interactive Real-Time Warehouse Slider: <strong className="text-indigo-400 text-sm">{warehouseCount} Regional Depots</strong></span>
+                      <span>⚡ Interactive Real-Time Warehouse Slider: <strong className="text-gold-400 text-sm">{warehouseCount} Regional Depots</strong></span>
                       <span>Restock Lead Time: <strong className="text-emerald-400 text-sm">{logisticsMetrics.deliverySpeedDays} Days</strong></span>
                     </div>
                     <input
@@ -1639,7 +1639,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                         setWarehouseCount(Number(e.target.value));
                         if (predictionMade && !predictionVerified) setPredictionVerified(true);
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                       aria-label="Set number of regional warehouses"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500">
@@ -1652,7 +1652,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   {/* TOPIC SVG DIAGRAM 2: Logistics Cost Optimization Curves */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs font-bold text-indigo-300">📈 Diagram 2: Physical Distribution System Cost Trade-Off Curves</span>
+                      <span className="text-xs font-bold text-gold-300">📈 Diagram 2: Physical Distribution System Cost Trade-Off Curves</span>
                       <span className="text-xs font-bold text-amber-300">Total: ₹{logisticsMetrics.totalCost.toFixed(1)} L</span>
                     </div>
 
@@ -1701,14 +1701,14 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <span className="text-slate-400">Freight Outward</span>
-                      <p className="text-lg font-bold text-cyan-400">₹{logisticsMetrics.freightCost.toFixed(1)} L</p>
+                      <p className="text-lg font-bold text-gold-400">₹{logisticsMetrics.freightCost.toFixed(1)} L</p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
                       <span className="text-slate-400">Stockout Risk Loss</span>
                       <p className="text-lg font-bold text-rose-400">₹{logisticsMetrics.stockoutLoss.toFixed(1)} L</p>
                     </div>
-                    <div className="p-3 bg-indigo-950/60 rounded-xl border border-indigo-700/70">
-                      <span className="text-indigo-300 font-bold">Total Physical Dist.</span>
+                    <div className="p-3 bg-gold-950/60 rounded-xl border border-gold-700/70">
+                      <span className="text-gold-300 font-bold">Total Physical Dist.</span>
                       <p className="text-xl font-black text-white">₹{logisticsMetrics.totalCost.toFixed(1)} L</p>
                     </div>
                   </div>
@@ -1724,7 +1724,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                             whileHover={{ scale: 1.01 }}
                             whileTap={{ scale: 0.99 }}
                             onClick={() => handleObservation(i)}
-                            className="w-full text-left p-2 rounded bg-slate-900 border border-slate-700 text-xs hover:border-indigo-500"
+                            className="w-full text-left p-2 rounded bg-slate-900 border border-slate-700 text-xs hover:border-gold-500"
                           >
                             {opt}
                           </motion.button>
@@ -1740,7 +1740,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                 <div className="space-y-5">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold text-indigo-400 uppercase">Allocate 4P Promotion Budget</h4>
+                      <h4 className="text-xs font-bold text-gold-400 uppercase">Allocate 4P Promotion Budget</h4>
                       <div className="space-y-2 text-xs">
                         <div>
                           <div className="flex justify-between text-slate-300">
@@ -1753,7 +1753,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                             max={60}
                             value={adSpend}
                             onChange={(e) => handlePromoBudgetChange('ad', Number(e.target.value))}
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
 
@@ -1804,12 +1804,12 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       </div>
                     </div>
 
-                    <div className="p-4 bg-gradient-to-br from-indigo-950/40 to-slate-950 rounded-xl border border-indigo-800/50 space-y-3 text-xs">
+                    <div className="p-4 bg-gradient-to-br from-gold-950/40 to-slate-950 rounded-xl border border-gold-800/50 space-y-3 text-xs">
                       <h4 className="text-xs font-bold text-emerald-400 uppercase">Projected Market Communication Impact</h4>
                       <div className="grid grid-cols-2 gap-2">
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400">Mass Awareness</span>
-                          <p className="text-base font-bold text-indigo-300">{promoProjectedReach.massImpressionsM}M Views</p>
+                          <p className="text-base font-bold text-gold-300">{promoProjectedReach.massImpressionsM}M Views</p>
                         </div>
                         <div className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400">Immediate Purchase Push</span>
@@ -1824,7 +1824,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                           <p className="text-base font-bold text-purple-300">{promoProjectedReach.socialEngagementK}K Clicks</p>
                         </div>
                       </div>
-                      <div className="p-2 bg-indigo-900/30 rounded-lg border border-indigo-700/30 text-[11px] text-slate-300">
+                      <div className="p-2 bg-gold-900/30 rounded-lg border border-gold-700/30 text-[11px] text-slate-300">
                         ✨ <strong>Hierarchy:</strong> Digital Marketing ➔ Social Media (Instagram/YouTube) ➔ Influencer Marketing.
                       </div>
                     </div>
@@ -1837,7 +1837,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                 <div className="space-y-5">
                   <div className="flex justify-between items-center">
                     <span className="text-xs font-bold text-slate-300">
-                      Selected PLC Stage: <strong className="text-indigo-400">{PLC_DATA[plcTimeIndex].stage}</strong> ({PLC_DATA[plcTimeIndex].desc})
+                      Selected PLC Stage: <strong className="text-gold-400">{PLC_DATA[plcTimeIndex].stage}</strong> ({PLC_DATA[plcTimeIndex].desc})
                     </span>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
@@ -1846,7 +1846,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
                         plcExtensionActive
                           ? 'bg-emerald-600 border-emerald-400 text-white'
-                          : 'bg-indigo-900/60 border-indigo-500 text-indigo-200 hover:bg-indigo-700'
+                          : 'bg-gold-900/60 border-gold-500 text-gold-200 hover:bg-gold-700'
                       }`}
                     >
                       {plcExtensionActive ? '✓ Extension Strategy Active (Silk/Sachet)' : '+ Apply Extension Strategy'}
@@ -1856,7 +1856,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   {/* TOPIC SVG DIAGRAM 3: Product Life Cycle Stages & Extension Trajectory */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs font-bold text-indigo-300">📊 Diagram 3: Five Stages of PLC & Extension Curve</span>
+                      <span className="text-xs font-bold text-gold-300">📊 Diagram 3: Five Stages of PLC & Extension Curve</span>
                       <span className="text-xs font-semibold text-emerald-400">Green = Profit | Indigo = Sales</span>
                     </div>
 
@@ -1903,7 +1903,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                     </div>
                     <div className="p-2.5 bg-slate-950 rounded-lg border border-slate-800 col-span-2">
                       <span className="text-slate-400">Strategic Rule:</span>
-                      <p className="text-[11px] text-indigo-300">
+                      <p className="text-[11px] text-gold-300">
                         {plcTimeIndex <= 1 ? 'Heavy Promotional Investment' : plcTimeIndex === 2 ? 'Expand Distribution Network' : plcTimeIndex === 3 ? 'Defend Market Share & Modify Formulations' : 'Harvest or Reposition'}
                       </p>
                     </div>
@@ -1916,7 +1916,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                 <div className="space-y-5">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                     <div className="flex justify-between text-xs text-slate-300">
-                      <span>⚡ Interactive Claim Slider: <strong className="text-indigo-400 text-sm">₹{simClaimAmount} Lakhs</strong></span>
+                      <span>⚡ Interactive Claim Slider: <strong className="text-gold-400 text-sm">₹{simClaimAmount} Lakhs</strong></span>
                       <span className="text-slate-400">(Drag to test CPA 2020 pecuniary tier thresholds)</span>
                     </div>
                     <input
@@ -1925,7 +1925,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       max={350}
                       value={simClaimAmount}
                       onChange={(e) => setSimClaimAmount(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
+                      className="w-full accent-gold-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
                       aria-label="Set claim value in Lakhs"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500">
@@ -1939,7 +1939,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   {/* TOPIC SVG DIAGRAM 4: CPA 2019/2020 3-Tier Redressal Hierarchy */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs font-bold text-indigo-300">🏛️ Diagram 4: Statutory 3-Tier Consumer Disputes Redressal Hierarchy</span>
+                      <span className="text-xs font-bold text-gold-300">🏛️ Diagram 4: Statutory 3-Tier Consumer Disputes Redressal Hierarchy</span>
                       <span className="text-xs font-bold text-amber-300">Rule 21 (2020 Revision)</span>
                     </div>
 
@@ -2058,7 +2058,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2079,8 +2079,8 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
       {/* ─── PHASE 3: SANDBOX (Free Play) ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/70 rounded-2xl border border-indigo-800/50">
-            <h2 className="text-lg font-bold text-indigo-300">🧪 Omnichannel Executive Sandbox (Zero Pressure)</h2>
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/70 rounded-2xl border border-gold-800/50">
+            <h2 className="text-lg font-bold text-gold-300">🧪 Omnichannel Executive Sandbox (Zero Pressure)</h2>
             <p className="text-xs md:text-sm text-slate-300 mt-1">
               Test live variables across channels, warehouse counts, promo budgets, and consumer claims.
             </p>
@@ -2100,7 +2100,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   max={30}
                   value={warehouseCount}
                   onChange={(e) => setWarehouseCount(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-lg border border-slate-800 flex justify-between">
@@ -2136,7 +2136,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white rounded-xl font-black text-sm shadow-xl shadow-indigo-600/30 flex items-center justify-center gap-2"
+            className="w-full py-3.5 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white rounded-xl font-black text-sm shadow-xl shadow-gold-600/30 flex items-center justify-center gap-2"
           >
             I Am Ready for Graded Board Challenges! 🚀
           </motion.button>
@@ -2152,7 +2152,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-indigo-950 border border-indigo-700 text-indigo-300 font-semibold uppercase">
+                <span className="px-2 py-0.5 rounded bg-gold-950 border border-gold-700 text-gold-300 font-semibold uppercase">
                   NEP: {currentChallengeObj.competencyLevel}
                 </span>
                 <span className="text-slate-400 font-medium">
@@ -2163,7 +2163,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
 
             <div className="h-2 w-full bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.4 }}
               />
@@ -2201,11 +2201,11 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       className={`text-left p-4 rounded-xl text-sm transition-all border ${
                         showExplanation && i === currentChallengeObj.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 border-slate-700/80 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                          : 'bg-slate-800/80 border-slate-700/80 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                       aria-label={`Option ${i + 1}: ${opt}`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -2223,7 +2223,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2255,7 +2255,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Validate Labels
                 </motion.button>
@@ -2282,7 +2282,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-800 rounded-xl text-xs text-slate-200 border border-slate-700 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-950 border border-indigo-700 flex items-center justify-center font-bold text-indigo-300">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 border border-gold-700 flex items-center justify-center font-bold text-gold-300">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2296,7 +2296,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                     const ans = sortArrangement.length === 4 ? sortArrangement : [0, 1, 2, 3];
                     handleAnswer(ans);
                   }}
-                  className="px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Submit Sequence Order
                 </motion.button>
@@ -2311,15 +2311,15 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-bold w-48 text-sm focus:border-indigo-500 outline-none"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-bold w-48 text-sm focus:border-gold-500 outline-none"
                     aria-label="Enter numeric answer"
                   />
-                  <span className="text-sm text-indigo-300 font-semibold">{currentChallengeObj.unit}</span>
+                  <span className="text-sm text-gold-300 font-semibold">{currentChallengeObj.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-3 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md"
+                    className="px-5 py-3 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md"
                   >
                     Check Figure
                   </motion.button>
@@ -2337,7 +2337,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="p-2 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-200 hover:border-indigo-500"
+                      className="p-2 bg-slate-800 border border-slate-700 rounded-lg text-xs text-slate-200 hover:border-gold-500"
                     >
                       + {part}
                     </motion.button>
@@ -2346,7 +2346,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-300 rounded text-xs flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-300 rounded text-xs flex items-center gap-1">
                       {part}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, idx) => idx !== i))}
@@ -2364,7 +2364,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
+                  className="px-5 py-2 bg-gold-600 disabled:opacity-40 text-white rounded-xl text-xs font-bold"
                 >
                   Check Construction
                 </motion.button>
@@ -2428,7 +2428,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
       {/* ─── PHASE 5: COMPLETE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-emerald-950 rounded-2xl border border-indigo-700 text-center space-y-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-emerald-950 rounded-2xl border border-gold-700 text-center space-y-2">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-black text-white">Boardroom Simulation Mastered!</h2>
             <p className="text-slate-300 text-sm">
@@ -2437,7 +2437,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
           </div>
 
           {/* MOTIVATIONAL FEEDBACK */}
-          <div className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/80 rounded-2xl border border-indigo-600 shadow-xl space-y-2">
+          <div className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/80 rounded-2xl border border-gold-600 shadow-xl space-y-2">
             <div className="flex items-center gap-3">
               <span className="text-3xl">
                 {errors === 0 ? '🏆' : errors <= 3 ? '🌟' : errors <= 7 ? '👍' : '🎯'}
@@ -2486,7 +2486,7 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
 
           {/* Reflection Prompts */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3 text-xs md:text-sm">
-            <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">🧠 Board Exam Synthesis & Reflection:</h3>
+            <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider">🧠 Board Exam Synthesis & Reflection:</h3>
             <ul className="space-y-1.5 text-slate-300 list-disc pl-5 text-xs">
               <li>Why is counting independent intermediary firms the only reliable rule for channel levels?</li>
               <li>How does Section 84 Product Liability protect consumers far beyond simple product replacement?</li>
@@ -2503,13 +2503,13 @@ function C12_BusinessStudiesPlaceChannelsDistributionSim({
           </div>
 
           {/* Real-World Boardroom Activity */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-800 space-y-2">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-800 space-y-2">
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
-                  <span className="font-bold text-indigo-400 mr-1">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400 mr-1">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

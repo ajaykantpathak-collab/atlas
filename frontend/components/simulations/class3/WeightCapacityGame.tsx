@@ -95,14 +95,14 @@ const TEACHING_SLIDES = [
     title: 'Capacity of Containers 🥛',
     text: 'Capacity is how much liquid a container can hold! To measure capacity, we fill a small cup and pour it into a jug, counting how many cups it takes!',
     emoji: '🥛',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Capacity is how much liquid a container can hold! To measure capacity, we fill a small cup and pour it into a jug, counting how many cups it takes!',
   },
   {
     title: 'Compare Capacities 🏺',
     text: 'A mug holds more than a spoon, but less than a bucket! Always use the same measuring unit when comparing two containers so the comparison is fair.',
     emoji: '🏺',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'A mug holds more than a spoon, but less than a bucket! Always use the same measuring unit when comparing two containers so the comparison is fair.',
   },
   {

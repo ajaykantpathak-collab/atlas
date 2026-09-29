@@ -34,7 +34,7 @@ const TEACHING_SLIDES = [
     title: 'Meet Nurse Nisha & Safety! ⛑️',
     text: 'Safety means protecting ourselves! Always walk on the footpath, cross at the zebra crossing, and look left, right, left! Red means STOP, green means GO!',
     emoji: '🚦',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Safety means protecting ourselves! Always walk on the footpath, cross at the zebra crossing, and look left, right, left!',
   },
   {
@@ -555,7 +555,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
   };
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-gradient-to-b from-blue-50 to-indigo-100 z-30">
+    <div className="absolute inset-0 flex flex-col items-center justify-center p-6 bg-gradient-to-b from-gold-50 to-gold-100 z-30">
       <motion.div
         key={currentSlide}
         initial={{ opacity: 0, scale: 0.95, y: 20 }}
@@ -580,7 +580,7 @@ function TeachingScreen({ onStart }: { onStart: () => void }) {
               Back
             </button>
           ) : <div />}
-          <button onClick={handleNext} className="px-8 py-3 rounded-2xl bg-white text-indigo-700 font-black shadow-lg hover:bg-indigo-50 transition-all">
+          <button onClick={handleNext} className="px-8 py-3 rounded-2xl bg-white text-gold-700 font-black shadow-lg hover:bg-gold-50 transition-all">
             {currentSlide === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➔'}
           </button>
         </div>
@@ -784,14 +784,14 @@ export function SafetyCleanGame({ width = 720, height = 560, onComplete }: Safet
           <span className="text-xl">⛑️</span>
           <div>
             <h1 className="text-xs font-black text-gray-800 uppercase tracking-wider">Safety & Cleanliness</h1>
-            <p className="text-[10px] font-bold text-indigo-600">Mission {currentChallenge + 1} of {CHALLENGES.length}</p>
+            <p className="text-[10px] font-bold text-gold-600">Mission {currentChallenge + 1} of {CHALLENGES.length}</p>
           </div>
         </div>
 
         <StarRow count={stars} total={CHALLENGES.length} />
 
-        <div className="flex items-center gap-1 bg-indigo-100 px-3 py-1 rounded-xl">
-          <span className="text-xs font-black text-indigo-700">Score: {score}</span>
+        <div className="flex items-center gap-1 bg-gold-100 px-3 py-1 rounded-xl">
+          <span className="text-xs font-black text-gold-700">Score: {score}</span>
         </div>
       </div>
 
@@ -806,7 +806,7 @@ export function SafetyCleanGame({ width = 720, height = 560, onComplete }: Safet
             key={currentChallenge}
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="w-full bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-indigo-200 mb-6 flex flex-col items-center text-center"
+            className="w-full bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-4 border-gold-200 mb-6 flex flex-col items-center text-center"
           >
             <h2 className="text-lg font-black text-gray-800 mb-6">{challenge.question}</h2>
 
@@ -819,7 +819,7 @@ export function SafetyCleanGame({ width = 720, height = 560, onComplete }: Safet
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={(e) => handleOptionClick(opt, e)}
-                    className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-indigo-500 to-blue-600 text-white font-bold text-base shadow-md hover:from-indigo-600 hover:to-blue-700 transition-all flex items-center justify-center gap-3"
+                    className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-base shadow-md hover:from-gold-600 hover:to-gold-700 transition-all flex items-center justify-center gap-3"
                   >
                     <span>✨</span>
                     <span>{opt}</span>

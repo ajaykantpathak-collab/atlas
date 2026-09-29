@@ -55,7 +55,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Janapadas Were Early Territorial States That",
+    "title": "Janapadas Were Early Territorial",
     "text": "Janapadas were early territorial states that emerged in the Indian subcontinent around the 6th century BCE, representing a major shift from tribal nomadic life to settled, land-based kingdoms ruled by chiefs or kings.",
     "emoji": "🏛️",
     "bgColor": "from-rose-400 to-pink-500"
@@ -121,9 +121,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What major metal technology became widespread around the 6th century BCE and helped clear the dense forests of the Gangetic plains?",
     "answer": "Iron was the metal technology that became widespread during this period",
     "options": [
-     "In a monarchy, a single hereditary king held absolute power, whereas in a Ganasangha, power was shared among a council of nobles or tribal chiefs (ganas) who assembled to make",
-     "Magadha was primarily located in present-day Bihar and parts of Jharkhand",
-     "Rajgir's was the metal technology that became widespread during this period",
+     "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones",
+     "Students can explain the specific geographical and economic factors of the Gangetic basin that enabled Janapadas to grow into powerful Mahajanapadas",
+     "Buddhism was the metal technology that became widespread during this period",
      "Iron was the metal technology that became widespread during this period"
     ],
     "hint": "Straight from the 'Second Urbanisation' slide -- match the key terms.",
@@ -143,8 +143,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What does the literal term *Janapada* mean in ancient Indian history, and how does it reflect a change in human lifestyle compared to earlier hunter-gatherer societies?",
     "answer": "The term *Janapada* translates to \"the land where the *jana* (people or tribe) has set its foot.\" A correct answer shows that unlike mobile hunter-gatherers",
     "options": [
-     "In a monarchy, a single hereditary king held absolute power, whereas in a Ganasangha, power was shared among a council of nobles or tribal chiefs (ganas) who assembled to make",
-     "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones",
+     "Can explain how surplus agricultural production and the use of iron tools led to the rise of new towns and cities in the Gangetic plains during the mid-first millennium BCE",
+     "Can identify the geographical distribution of the sixteen Mahajanapadas, explain the political and economic factors that led to their rise",
      "The term *Janapada* translates to \"the land where the *jana* (people or tribe) has set its foot.\" A correct answer shows that unlike mobile hunter-gatherers"
     ],
     "hint": "Straight from the 'Janapadas were early territorial' slide -- match the key terms.",
@@ -183,8 +183,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What major geographical feature defined the region where the most powerful Mahajanapadas, such as Magadha and Kosala, grew during the first millennium BCE?",
     "answer": "The fertile middle basin of the Ganga river system (Gangetic plains)",
     "options": [
-     "In a monarchy, a single hereditary king held absolute power, whereas in a Ganasangha, power was shared among a council of nobles or tribal chiefs (ganas) who assembled to make",
-     "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones",
+     "Can identify the geographical distribution of the sixteen Mahajanapadas, explain the political and economic factors that led to their rise",
+     "Magadha was primarily located in present-day Bihar and parts of Jharkhand",
      "The fertile middle basin of the Ganga river system (Gangetic plains)"
     ],
     "hint": "Straight from the 'geographical environment of the' slide -- match the key terms.",
@@ -204,8 +204,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What was the primary difference in leadership between a monarchy Mahajanapada and a Ganasangha (oligarchy) Mahajanapada?",
     "answer": "In a monarchy, a single hereditary king held absolute power, whereas in a Ganasangha, power was shared among a council of nobles or tribal chiefs (ganas) who assembled to make",
     "options": [
-     "Iron was the metal technology that became widespread during this period",
-     "The term *Janapada* translates to \"the land where the *jana* (people or tribe) has set its foot.\" A correct answer shows that unlike mobile hunter-gatherers",
+     "Students can analyze how economic changes in the Mahajanapada period influenced the Varna-based social structure",
+     "Can analyze how agricultural surplus in the Gangetic plains stimulated specialized craft production, urban growth, and organized trade networks during the Mahajanapada period",
      "In a monarchy, a single hereditary king held absolute power, whereas in a Ganasangha, power was shared among a council of nobles or tribal chiefs (ganas) who assembled to make"
     ],
     "hint": "Straight from the 'governance systems of the' slide -- match the key terms.",
@@ -225,8 +225,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What major technological shift in tool-making occurred around 600 BCE that transformed agriculture in the Gangetic plains during the Janapada period?",
     "answer": "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones",
     "options": [
-     "The fertile middle basin of the Ganga river system (Gangetic plains)",
-     "Iron was the metal technology that became widespread during this period",
+     "Can analyze how agricultural surplus in the Gangetic plains stimulated specialized craft production, urban growth, and organized trade networks during the Mahajanapada period",
+     "Can explain how surplus agricultural production and the use of iron tools led to the rise of new towns and cities in the Gangetic plains during the mid-first millennium BCE",
      "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones"
     ],
     "hint": "Straight from the 'agricultural and economic' slide -- match the key terms.",
@@ -246,7 +246,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which two modern-day states roughly correspond to the core region of the ancient Mahajanapada of Magadha?",
     "answer": "Magadha was primarily located in present-day Bihar and parts of Jharkhand",
     "options": [
-     "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones",
+     "Iron was the metal technology that became widespread during this period",
      "Punch-marked silver and copper coins were widely used during the Mahajanapada period",
      "Magadha was primarily located in present-day Bihar and parts of Jharkhand"
     ],
@@ -267,8 +267,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What physical geographic feature surrounded Rajgir (Rajagriha), making it an extremely secure capital for the early kings of Magadha?",
     "answer": "Rajgir was naturally protected by a ring of five steep hills",
     "options": [
-     "Iron was the metal technology that became widespread during this period",
-     "The term *Janapada* translates to \"the land where the *jana* (people or tribe) has set its foot.\" A correct answer shows that unlike mobile hunter-gatherers",
+     "Magadha was primarily located in present-day Bihar and parts of Jharkhand",
+     "Can explain the unique geographical, economic, and political factors that enabled Magadha to surpass other Mahajanapadas and achieve imperial dominance",
      "Rajgir was naturally protected by a ring of five steep hills"
     ],
     "hint": "Straight from the 'This topic explores the strategic' slide -- match the key terms.",
@@ -288,9 +288,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What type of coins became widely used for trade during the Mahajanapada period to make buying and selling goods easier than barter?",
     "answer": "Punch-marked silver and copper coins were widely used during the Mahajanapada period",
     "options": [
-     "The fertile middle basin of the Ganga river system (Gangetic plains)",
-     "The adoption and widespread use of heavy iron ploughshares (phala) replaced older wooden ones",
-     "Gangetic Mahajanapadas silver and copper coins were widely used during the Mahajanapada period",
+     "In a monarchy, a single hereditary king held absolute power, whereas in a Ganasangha, power was shared among a council of nobles or tribal chiefs (ganas) who assembled to make",
+     "Can explain how surplus agricultural production and the use of iron tools led to the rise of new towns and cities in the Gangetic plains during the mid-first millennium BCE",
+     "Intensive silver and copper coins were widely used during the Mahajanapada period",
      "Punch-marked silver and copper coins were widely used during the Mahajanapada period"
     ],
     "hint": "Straight from the 'This node explores the vibrant' slide -- match the key terms.",
@@ -310,8 +310,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What type of weapons became widely available and significantly changed warfare during the Mahajanapada period compared to the earlier Vedic period?",
     "answer": "Iron weapons, such as swords, arrowheads, and spearheads, became widely used",
     "options": [
-     "The term *Janapada* translates to \"the land where the *jana* (people or tribe) has set its foot.\" A correct answer shows that unlike mobile hunter-gatherers",
-     "The fertile middle basin of the Ganga river system (Gangetic plains)",
+     "Students can analyze how economic changes in the Mahajanapada period influenced the Varna-based social structure",
+     "Can explain how the transition from tribal militias to permanent standing armies changed the nature of warfare and state administration in early Indian kingdoms",
      "Iron weapons, such as swords, arrowheads, and spearheads, became widely used"
     ],
     "hint": "Straight from the 'development of organized military' slide -- match the key terms.",
@@ -331,8 +331,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What were the four main social divisions or varnas that formed the backbone of the social structure during the Mahajanapada period?",
     "answer": "The four main varnas were the Brahmins, Kshatriyas, Vaishyas, and Shudras",
     "options": [
-     "The term *Janapada* translates to \"the land where the *jana* (people or tribe) has set its foot.\" A correct answer shows that unlike mobile hunter-gatherers",
-     "The fertile middle basin of the Ganga river system (Gangetic plains)",
+     "Can analyze how agricultural surplus in the Gangetic plains stimulated specialized craft production, urban growth, and organized trade networks during the Mahajanapada period",
+     "Iron was the metal technology that became widespread during this period",
      "The four main varnas were the Brahmins, Kshatriyas, Vaishyas, and Shudras"
     ],
     "hint": "Straight from the 'social structure in the' slide -- match the key terms.",
@@ -409,6 +409,21 @@ export const C7_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can explain how surplus agricultural production and the use of iron tools led to the rise of new towns and cities in the Gangetic plains during the mid-first millennium BCE",
+    "options": [
+     "Can explain the socio-economic and political transition from semi-nomadic tribal life (*jana*) to settled territorial kingdoms (*janapadas*)",
+     "Can identify the geographical distribution of the sixteen Mahajanapadas, explain the political and economic factors that led to their rise",
+     "Can explain how surplus agricultural production and the use of iron tools led to the rise of new towns and cities in the Gangetic plains during the mid-first millennium BCE"
+    ],
+    "hint": "Straight from the 'Second Urbanisation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can explain how surplus agricultural production and the use of iron tools led to the rise of new towns and cities in",
+    "id": "gen_c7_hist_ch01_q16",
+    "nodeId": "c7_hist_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why is the re-emergence of towns in ancient India around the 6th century BCE referred to as the 'Second' Urbanisation?",
     "answer": "It is called the 'Second' Urbanisation because the first major urban civilization in the subcontinent—the Harappan Civilisation—had flourished centuries earlier in the Indus",
     "options": [
@@ -418,7 +433,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Second Urbanisation' slide -- match the key terms.",
     "misconception": "A student who thinks cities never existed before this time is unaware of the Harappan urban settlements, missing the chronological sequence of urbanization in Indian history.",
-    "id": "gen_c7_hist_ch01_q16",
+    "id": "gen_c7_hist_ch01_q17",
     "nodeId": "c7_hist_ch01_001",
     "difficulty": "standard"
    },
@@ -428,26 +443,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "Tribal assemblies initially managed affairs collectively, but as land became private property and agricultural surplus grew",
     "options": [
      "Early Janapadas in semi-arid northwest regions relied more on pastoralism and smaller-scale farming, whereas Gangetic Mahajanapadas benefited from high-rainfall",
-     "Rulers built massive walls of stone, brick, or wood to project royal power, display wealth, and protect their populations and treasuries from rival invading kingdoms",
+     "A strong response argues that as tribal communities settled permanently and merged into larger territorial states, specialized occupations emerged",
      "Tribal assemblies initially managed affairs collectively, but as land became private property and agricultural surplus grew"
     ],
     "hint": "Straight from the 'Janapadas were early territorial' slide -- match the key terms.",
     "misconception": "A wrong answer treats Vedic assemblies and Janapada kings as identical democratic setups, ignoring the centralization of power around land and taxation.",
-    "id": "gen_c7_hist_ch01_q17",
-    "nodeId": "c7_hist_ch01_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a historical scenario showing how a pastoral tribal group (*jana*) living on the fringes of a forest gradually transformed into a tax-paying agrarian society under a chieftain in a Janapada. Describe three clear developmental stages.",
-    "answer": "A strong response outlines: Stage 1 (seasonal movement for cattle herding), Stage 2 (adoption of iron tools for clearing land and growing barley/rice near river valleys)",
-    "options": [
-     "The shift shows a transition to sedentism, agricultural surplus, and the need for territorial defense, which are hallmark traits of Janapada state formation",
-     "A strong argument explains that iron ploughshares allowed humans to turn over the heavy clay soil of the Gangetic basin and clear dense forests",
-     "A strong response outlines: Stage 1 (seasonal movement for cattle herding), Stage 2 (adoption of iron tools for clearing land and growing barley/rice near river valleys)"
-    ],
-    "hint": "Straight from the 'Janapadas were early territorial' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong response outlines: Stage 1 (seasonal movement for cattle herding), Stage 2 (adoption of iron tools for",
     "id": "gen_c7_hist_ch01_q18",
     "nodeId": "c7_hist_ch01_002",
     "difficulty": "advanced"
@@ -465,13 +465,15 @@ export const C7_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_hist_ch02",
-  "title": "From Kingdoms to Empires: The Transition",
+  "title": "Transition From Kingdoms",
   "subtitle": "History · Chapter 2",
   "classLevel": 7,
   "mode": "senior",
   "subject": "history",
-  "topic": "From Kingdoms to Empires: The Transition",
-  "chapters": ["History Ch2: From Kingdoms to Empires: The Transition"],
+  "topic": "Transition From Kingdoms",
+  "chapters": [
+   "History Ch2: Transition From Kingdoms"
+  ],
   "nodeIds": [
    "c7_hist_ch02_001",
    "c7_hist_ch02_002",
@@ -492,7 +494,7 @@ export const C7_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet From Kingdoms to Empires: The outside the classroom?",
+   "question": "Quick guess -- where do you meet Transition From Kingdoms outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -575,8 +577,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What political term was used in ancient India to describe the major territorial states that emerged around the 6th century BCE before they grew into large empires?",
     "answer": "The correct term is *mahajanapadas*",
     "options": [
-     "The correct answer is Chanakya (also known as Kautilya or Vishnugupta)",
-     "The correct answer is Kalinga",
+     "The student can analyze the immediate and long-term consequences of the Kalinga War, explain the exact nature of Ashoka's psychological and political transformation",
+     "Can explain the role of political strategy, military expansion, and statecraft in Chandragupta Maurya's foundation of the Mauryan Empire",
      "The correct term is *mahajanapadas*"
     ],
     "hint": "Straight from the 'transition from kingdoms' slide -- match the key terms.",
@@ -596,11 +598,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which river valleys formed the core geographical base of the Magadha Empire, providing it with exceptional fertility and transport routes?",
     "answer": "The correct answer is the Ganga and Son river valleys",
     "options": [
-     "The correct term is *mahajanapadas*",
-     "The correct answer is Chanakya (also known as Kautilya or Vishnugupta)",
+     "The capital city of the Mauryan Empire was Pataliputra",
+     "Can explain the core ethical principles of Ashoka's Dhamma, differentiate it from a specific religious sect",
      "The correct answer is the Ganga and Son river valleys"
     ],
-    "hint": "Straight from the 'Magadha Empire was one of' slide -- match the key terms.",
+    "hint": "Straight from the 'Magadha Empire was one' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the misconception that Magadha was located in the dry northwestern plains or the Deccan plateau, showing a lack of familiarity with ancient Indian river systems and their role in early agrarian expansion.",
     "id": "gen_c7_hist_ch02_q2",
     "nodeId": "c7_hist_ch02_002",
@@ -617,9 +619,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Who was the primary mentor and strategist who helped Chandragupta Maurya overthrow the Nanda dynasty and establish the Maurya Empire?",
     "answer": "The correct answer is Chanakya (also known as Kautilya or Vishnugupta)",
     "options": [
-     "The last ruler of the Maurya Empire was Brihadratha, who was overthrown around 185 BCE by his military commander, Pushyamitra Shunga",
-     "The capital city of the Mauryan Empire was Pataliputra",
-     "The correct answer is Chanakya (also known as India or Vishnugupta)",
+     "The primary source of revenue was agricultural taxation, typically collected as a share of the produce (often one-sixth) from farmers",
+     "The correct term is *mahajanapadas*",
+     "The correct answer is Chanakya (also known as Iron or Vishnugupta)",
      "The correct answer is Chanakya (also known as Kautilya or Vishnugupta)"
     ],
     "hint": "Straight from the 'This topic covers how' slide -- match the key terms.",
@@ -639,9 +641,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What was the name of the coastal region whose conquest caused deep remorse in Emperor Ashoka?",
     "answer": "The correct answer is Kalinga",
     "options": [
-     "The correct answer is Chanakya (also known as Kautilya or Vishnugupta)",
-     "The correct answer is Kharosthi script (written from right to left)",
-     "The correct answer is Indian",
+     "Students can analyze how personal trauma and remorse from warfare caused a fundamental shift in imperial policy",
+     "Can explain the core ethical principles of Ashoka's Dhamma, differentiate it from a specific religious sect",
+     "The correct answer is Students",
      "The correct answer is Kalinga"
     ],
     "hint": "Straight from the 'This node explores the personal' slide -- match the key terms.",
@@ -663,6 +665,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "options": [
      "A successful student response will create a message written in the royal voice of Ashoka, emphasizing non-violence (*ahimsa*), respect for elders and teachers",
      "A correct response must show a hierarchical structure: Emperor at the top -> Provincial governors (Kumaras) -> District officials (Rajukas/Yuktas) -> Village headmen (Gramika)",
+     "Alexander was fought around 261 BCE, in the eighth year of Ashoka's consecration",
      "The Kalinga War was fought around 261 BCE, in the eighth year of Ashoka's consecration"
     ],
     "hint": "Straight from the 'Kalinga War' slide -- match the key terms.",
@@ -682,7 +685,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What was the primary language and script used in most of Ashoka's edicts found in the western and northwestern parts of his empire to communicate the principles of Dhamma?",
     "answer": "In the northwestern regions, Ashoka's edicts were written in Prakrit using Kharosthi script, as well as Greek and Aramaic",
     "options": [
-     "The last ruler of the Maurya Empire was Brihadratha, who was overthrown around 185 BCE by his military commander, Pushyamitra Shunga",
+     "Ashoka's edicts and inscriptions are official royal decrees, moral instructions, and public announcements carved onto massive stone pillars and natural rock faces across the",
      "The capital city of the Mauryan Empire was Pataliputra",
      "In the northwestern regions, Ashoka's edicts were written in Prakrit using Kharosthi script, as well as Greek and Aramaic"
     ],
@@ -703,9 +706,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What script was primarily used to write Ashoka's edicts found in the northwestern part of the Indian subcontinent (modern-day Pakistan and Afghanistan)?",
     "answer": "The correct answer is Kharosthi script (written from right to left)",
     "options": [
-     "In the northwestern regions, Ashoka's edicts were written in Prakrit using Kharosthi script, as well as Greek and Aramaic",
-     "The correct term is *mahajanapadas*",
-     "The correct answer is Dhamma Mahamattas script (written from right to left)",
+     "Can explain the core ethical principles of Ashoka's Dhamma, differentiate it from a specific religious sect",
+     "The student can analyze the immediate and long-term consequences of the Kalinga War, explain the exact nature of Ashoka's psychological and political transformation",
      "The correct answer is Kharosthi script (written from right to left)"
     ],
     "hint": "Straight from the 'Ashoka's edicts and inscriptions' slide -- match the key terms.",
@@ -725,9 +727,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What was the title of the capital city from which the Mauryan emperors ruled their vast empire?",
     "answer": "The capital city of the Mauryan Empire was Pataliputra",
     "options": [
-     "The last ruler of the Maurya Empire was Brihadratha, who was overthrown around 185 BCE by his military commander, Pushyamitra Shunga",
-     "The correct answer is that Mauryan pillars are carved out of single pieces of sandstone (monolithic) and possess a brilliant, mirror-like polish",
-     "The capital city of the Mauryan Empire was Prakrit",
+     "Can explain the role of political strategy, military expansion, and statecraft in Chandragupta Maurya's foundation of the Mauryan Empire",
+     "Students can analyze how surplus agricultural production, taxation, and trade routes sustained the centralized Mauryan administration",
+     "The capital city of the Mauryan Empire was Emperor",
      "The capital city of the Mauryan Empire was Pataliputra"
     ],
     "hint": "Straight from the 'administration of the Maurya' slide -- match the key terms.",
@@ -747,8 +749,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What was the primary source of revenue used by the Mauryan state to finance its vast army and administration?",
     "answer": "The primary source of revenue was agricultural taxation, typically collected as a share of the produce (often one-sixth) from farmers",
     "options": [
-     "The correct answer is Chanakya (also known as Kautilya or Vishnugupta)",
-     "The correct answer is Kalinga",
+     "Students can explain how the Mauryan administrative machinery functioned across different levels—from the central government and provinces down to district administration and",
+     "The capital city of the Mauryan Empire was Pataliputra",
      "The primary source of revenue was agricultural taxation, typically collected as a share of the produce (often one-sixth) from farmers"
     ],
     "hint": "Straight from the 'This topic explores how the' slide -- match the key terms.",
@@ -768,8 +770,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the distinct physical feature characteristic of the stone pillars erected during Emperor Ashoka's reign?",
     "answer": "The correct answer is that Mauryan pillars are carved out of single pieces of sandstone (monolithic) and possess a brilliant, mirror-like polish",
     "options": [
-     "The correct answer is Kalinga",
-     "The correct answer is Kharosthi script (written from right to left)",
+     "Ashoka's edicts and inscriptions are official royal decrees, moral instructions, and public announcements carved onto massive stone pillars and natural rock faces across the",
+     "Can explain the core ethical principles of Ashoka's Dhamma, differentiate it from a specific religious sect",
      "The correct answer is that Mauryan pillars are carved out of single pieces of sandstone (monolithic) and possess a brilliant, mirror-like polish"
     ],
     "hint": "Straight from the 'This topic explores the' slide -- match the key terms.",
@@ -920,6 +922,21 @@ export const C7_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can explain the political, economic, and military factors that enabled small kingdoms to transform into large empires",
+    "options": [
+     "Can explain the role of political strategy, military expansion, and statecraft in Chandragupta Maurya's foundation of the Mauryan Empire",
+     "The correct answer is Kalinga",
+     "Can explain the political, economic, and military factors that enabled small kingdoms to transform into large empires"
+    ],
+    "hint": "Straight from the 'transition from kingdoms' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can explain the political, economic, and military factors that enabled small kingdoms to transform into large empires,",
+    "id": "gen_c7_hist_ch02_q16",
+    "nodeId": "c7_hist_ch02_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why did the growth of iron tool usage directly help in the transition from small kingdoms to massive empires?",
     "answer": "Iron tools like axes allowed people to clear dense forests (such as along the Ganga river valley) to create more agricultural land, while iron plowshares increased food production",
     "options": [
@@ -929,7 +946,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'transition from kingdoms' slide -- match the key terms.",
     "misconception": "A student who thinks iron was only used to make decorative jewelry misses the fundamental economic foundation—agricultural surplus—that was necessary to feed a large imperial army and bureaucracy.",
-    "id": "gen_c7_hist_ch02_q16",
+    "id": "gen_c7_hist_ch02_q17",
     "nodeId": "c7_hist_ch02_001",
     "difficulty": "advanced"
    },
@@ -942,23 +959,8 @@ export const C7_HIST_GEN: SimDef[] = [
      "The correct answer is Seleucus Nicator, the Greek ruler of the territories left behind by Alexander the Great in the northwest",
      "A strong answer must trace the chain: fertile soil -> surplus food production -> ability to feed non-farmers (soldiers, officials"
     ],
-    "hint": "Straight from the 'Magadha Empire was one of' slide -- match the key terms.",
+    "hint": "Straight from the 'Magadha Empire was one' slide -- match the key terms.",
     "misconception": "A poor answer simply lists random facts about kings and wars without showing the economic foundation of state-building.",
-    "id": "gen_c7_hist_ch02_q17",
-    "nodeId": "c7_hist_ch02_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Magadha became an empire solely because of the military genius of King Bimbisara.\" Do you agree or disagree, and why?",
-    "answer": "The correct answer is to disagree, arguing that while Bimbisara's diplomacy and conquests were vital, structural factors like agricultural surplus from the fertile plains",
-    "options": [
-     "The correct answer is that the statement is inaccurate because military force alone could not hold such a vast territory",
-     "The statement is largely accurate. Given the vast size of the empire, poor roads, and diverse regional populations",
-     "The correct answer is to disagree, arguing that while Bimbisara's diplomacy and conquests were vital, structural factors like agricultural surplus from the fertile plains"
-    ],
-    "hint": "Straight from the 'Magadha Empire was one of' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals a \"great man theory\" of history that ignores underlying economic, geographic, and social conditions.",
     "id": "gen_c7_hist_ch02_q18",
     "nodeId": "c7_hist_ch02_002",
     "difficulty": "advanced"
@@ -966,23 +968,25 @@ export const C7_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about from kingdoms to empires: the transition?",
+    "What surprised you about transition from kingdoms?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "From Kingdoms to Empires: mastered! 🎯",
+  "successLine": "Transition From Kingdoms mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_hist_ch03",
-  "title": "Post-Maurya Period: Age of Reorganisation",
+  "title": "Post-Maurya Period",
   "subtitle": "History · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "history",
-  "topic": "Post-Maurya Period: Age of Reorganisation",
-  "chapters": ["History Ch3: Post-Maurya Period: Age of Reorganisation"],
+  "topic": "Post-Maurya Period",
+  "chapters": [
+   "History Ch3: Post-Maurya Period"
+  ],
   "nodeIds": [
    "c7_hist_ch03_001",
    "c7_hist_ch03_002",
@@ -1003,7 +1007,7 @@ export const C7_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Post-Maurya Period: Age of actually explain?",
+   "question": "In one line -- what does Post-Maurya Period actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1086,11 +1090,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What political shift occurred across the Indian subcontinent immediately following the decline of the Mauryan Empire around the 2nd century BCE?",
     "answer": "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest",
     "options": [
-     "The core heartland was the Godavari and Krishna river valleys in the central Deccan plateau",
-     "The correct answer is Kanishka",
+     "Can analyze how political fragmentation and foreign contact during the reorganisation period transformed religious architecture (stupas, chaityas",
+     "Students can analyze how diverse cultural elements—such as Greek artistic techniques and Indian spiritual motifs—interacted and transformed each other",
      "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest"
     ],
-    "hint": "Straight from the 'post-Maurya period (c. 200 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
     "misconception": "A wrong answer usually shows the misconception that India remained politically unified under a single successor dynasty, ignoring how provincial governors and foreign invaders carved out independent states.",
     "id": "gen_c7_hist_ch03_q1",
     "nodeId": "c7_hist_ch03_001",
@@ -1107,9 +1111,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Who was the founder of the Shunga Dynasty, and from which previous empire did he seize power in the 2nd century BCE?",
     "answer": "Pushyamitra Shunga founded the dynasty after ending the Mauryan Empire around 185 BCE",
     "options": [
-     "The correct answer is Kanishka",
-     "The correct answer is Menander I (known as Milinda in Indian texts)",
-     "Deccan founded the dynasty after ending the Mauryan Empire around 185 BCE",
+     "The correct answer is the Kushana dynasty",
+     "He is known as the Buddha, meaning the 'Enlightened One' or the 'Awakened One'",
+     "Indian founded the dynasty after ending the Mauryan Empire around 185 BCE",
      "Pushyamitra Shunga founded the dynasty after ending the Mauryan Empire around 185 BCE"
     ],
     "hint": "Straight from the 'Shunga Dynasty was an ancient' slide -- match the key terms.",
@@ -1129,8 +1133,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which river valley formed the core territorial heartland of the Satavahana kingdom in the Deccan region?",
     "answer": "The core heartland was the Godavari and Krishna river valleys in the central Deccan plateau",
     "options": [
-     "The correct answer is Kanishka",
-     "The correct answer is Menander I (known as Milinda in Indian texts)",
+     "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest",
+     "Students can explain how the collapse of a centralised empire led to the rise of regional powers and foreign rulers",
      "The core heartland was the Godavari and Krishna river valleys in the central Deccan plateau"
     ],
     "hint": "Straight from the 'Satavahana kingdom was a powerful' slide -- match the key terms.",
@@ -1151,7 +1155,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "The correct answer is Kanishka",
     "options": [
      "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest",
-     "The core heartland was the Godavari and Krishna river valleys in the central Deccan plateau",
+     "The correct answer is the Kushana dynasty",
      "The correct answer is Kanishka"
     ],
     "hint": "Straight from the 'Kushana Empire was a powerful' slide -- match the key terms.",
@@ -1171,8 +1175,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Who was the most famous Indo-Greek ruler known for his philosophical discussions with the Buddhist monk Nagasena, as recorded in the text *Milinda Panha*?",
     "answer": "The correct answer is Menander I (known as Milinda in Indian texts)",
     "options": [
-     "Pushyamitra Shunga founded the dynasty after ending the Mauryan Empire around 185 BCE",
-     "The core heartland was the Godavari and Krishna river valleys in the central Deccan plateau",
+     "He is known as the Buddha, meaning the 'Enlightened One' or the 'Awakened One'",
+     "Students can analyze how diverse cultural elements—such as Greek artistic techniques and Indian spiritual motifs—interacted and transformed each other",
      "The correct answer is Menander I (known as Milinda in Indian texts)"
     ],
     "hint": "Straight from the 'Indo-Greek kingdoms were' slide -- match the key terms.",
@@ -1192,12 +1196,12 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which primary material was predominantly used by sculptors of the Gandhara school of art, located in the northwestern frontier of the subcontinent?",
     "answer": "Blue-grey schist and stucco (plaster) were predominantly used by Gandhara artists",
     "options": [
-     "The correct answer is silk",
+     "Can compare the stylistic features, regional materials, and foreign influences of the Gandhara and Mathura art schools while explaining how cross-cultural interactions during the",
      "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest",
-     "Greeks schist and stucco (plaster) were predominantly used by Gandhara artists",
+     "Northwest schist and stucco (plaster) were predominantly used by Gandhara artists",
      "Blue-grey schist and stucco (plaster) were predominantly used by Gandhara artists"
     ],
-    "hint": "Straight from the 'Gandhara and Mathura Schools of' slide -- match the key terms.",
+    "hint": "Straight from the 'Gandhara and Mathura Schools' slide -- match the key terms.",
     "misconception": "A student who answers \"spotted red sandstone\" is confusing the Gandhara school with the Mathura school, failing to recognize how local geology and mineral availability shaped regional artistic styles.",
     "id": "gen_c7_hist_ch03_q6",
     "nodeId": "c7_hist_ch03_006",
@@ -1266,8 +1270,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which foreign dynasty ruling in northwest India famously adopted the title 'Devaputra' (Son of God) while also patronizing Buddhism and Shaivism on their coinage?",
     "answer": "The correct answer is the Kushana dynasty",
     "options": [
-     "The core heartland was the Godavari and Krishna river valleys in the central Deccan plateau",
-     "The correct answer is Kanishka",
+     "Students can explain how the collapse of a centralised empire led to the rise of regional powers and foreign rulers",
+     "Can analyze how political fragmentation and foreign contact during the reorganisation period transformed religious architecture (stupas, chaityas",
      "The correct answer is the Kushana dynasty"
     ],
     "hint": "Straight from the 'process by which foreign ruling' slide -- match the key terms.",
@@ -1287,7 +1291,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the term used to describe the blending of different cultural traditions, beliefs, and artistic styles into a new, combined form?",
     "answer": "The correct term is cultural confluence or syncretism",
     "options": [
-     "Blue-grey schist and stucco (plaster) were predominantly used by Gandhara artists",
+     "Can compare the stylistic features, regional materials, and foreign influences of the Gandhara and Mathura art schools while explaining how cross-cultural interactions during the",
      "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest",
      "The correct term is cultural confluence or syncretism"
     ],
@@ -1308,11 +1312,12 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the primary spiritual title given to Siddhartha Gautama after he attained enlightenment?",
     "answer": "He is known as the Buddha, meaning the 'Enlightened One' or the 'Awakened One'",
     "options": [
-     "Blue-grey schist and stucco (plaster) were predominantly used by Gandhara artists",
-     "The correct answer is that the subcontinent fractured into several smaller regional kingdoms and saw the arrival of foreign ruling groups from the northwest",
+     "Pushyamitra Shunga founded the dynasty after ending the Mauryan Empire around 185 BCE",
+     "Students can explain how the Shunga Dynasty emerged from the decline of the Mauryan Empire, describe Pushyamitra Shunga's role, and evaluate the cultural, artistic",
+     "He is known as the Buddha, meaning the 'South India' or the 'Awakened One'",
      "He is known as the Buddha, meaning the 'Enlightened One' or the 'Awakened One'"
     ],
-    "hint": "Straight from the 'During the 6th century BCE and' slide -- match the key terms.",
+    "hint": "Straight from the 'During the 6th century BCE' slide -- match the key terms.",
     "misconception": "A student who confuses this with Mahavira or Ashoka is mixing up the founders of the two major shramana traditions with later imperial patrons.",
     "id": "gen_c7_hist_ch03_q10",
     "nodeId": "c7_hist_ch03_010",
@@ -1329,11 +1334,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What architectural feature became prominent for Buddhist worship in rock-cut architecture during the post-Maurya period, serving as a large rectangular prayer hall with a stupa at the end?",
     "answer": "The correct answer is a *chaitya* hall",
     "options": [
-     "The correct answer is Kanishka",
-     "The correct answer is Menander I (known as Milinda in Indian texts)",
+     "Cultural confluence during the post-Maurya period refers to the rich blending of indigenous Indian traditions, beliefs, artistic styles",
+     "Can analyze how political fragmentation and foreign contact during the reorganisation period transformed religious architecture (stupas, chaityas",
      "The correct answer is a *chaitya* hall"
     ],
-    "hint": "Straight from the 'art and architecture of the' slide -- match the key terms.",
+    "hint": "Straight from the 'art and architecture' slide -- match the key terms.",
     "misconception": "A student who incorrectly answers *vihara* is confusing the residential monastery (*vihara*) with the assembly/prayer hall (*chaitya*), showing a failure to distinguish between monk living quarters and worship spaces.",
     "id": "gen_c7_hist_ch03_q11",
     "nodeId": "c7_hist_ch03_011",
@@ -1354,7 +1359,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "A strong response will argue that positioned centrally in the Deccan, the Satavahanas adopted elements of northern administrative vocabulary and Sanskrit traditions while",
      "The expected response should argue that political power decentralized into regional units, economic networks expanded through international maritime and overland trade"
     ],
-    "hint": "Straight from the 'post-Maurya period (c. 200 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
     "misconception": "A poor answer simply lists dates of battles or kings without explaining structural economic, social, or cultural transformations.",
     "id": "gen_c7_hist_ch03_q12",
     "nodeId": "c7_hist_ch03_001",
@@ -1369,7 +1374,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "The statement is false; the rise and spread of these religions were deeply intertwined with economic and political changes",
      "The correct answer is that this statement is false; while political unity was lost, the period was actually a golden age of artistic innovation"
     ],
-    "hint": "Straight from the 'post-Maurya period (c. 200 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
     "misconception": "A wrong answer reveals an oversimplified view that equates political fragmentation with total civilisational decline.",
     "id": "gen_c7_hist_ch03_q13",
     "nodeId": "c7_hist_ch03_001",
@@ -1384,7 +1389,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "While Shunga rulers revived Vedic sacrifices, architectural evidence from Buddhist sites like Bharhut and Sanchi shows that Buddhist art and monastic communities continued to",
      "The correct answer is that coins issued by post-Maurya rulers—such as the Indo-Greeks and Kushanas—often featured bilingual inscriptions (e"
     ],
-    "hint": "Straight from the 'post-Maurya period (c. 200 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
     "misconception": "A wrong answer shows the misconception that ancient coins only recorded royal names, overlooking iconographic and linguistic evidence of cultural synthesis.",
     "id": "gen_c7_hist_ch03_q14",
     "nodeId": "c7_hist_ch03_001",
@@ -1399,9 +1404,24 @@ export const C7_HIST_GEN: SimDef[] = [
      "The correct answer involves maritime routes across the Arabian Sea to western Indian ports like Barygaza (Bharuch) or Muziris",
      "The correct answer is that the dynasty would build alliances with powerful merchant guilds (shrenis), protect mountain passes and river valleys"
     ],
-    "hint": "Straight from the 'post-Maurya period (c. 200 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
     "misconception": "A wrong answer reveals a misunderstanding of ancient economics, assuming rulers relied solely on agrarian tribute rather than commercial taxation and guild networks.",
     "id": "gen_c7_hist_ch03_q15",
+    "nodeId": "c7_hist_ch03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can explain how the collapse of a centralised empire led to the rise of regional powers and foreign rulers",
+    "options": [
+     "The correct answer is Menander I (known as Milinda in Indian texts)",
+     "Pushyamitra Shunga founded the dynasty after ending the Mauryan Empire around 185 BCE",
+     "Students can explain how the collapse of a centralised empire led to the rise of regional powers and foreign rulers"
+    ],
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can explain how the collapse of a centralised empire led to the rise of regional powers and foreign rulers,",
+    "id": "gen_c7_hist_ch03_q16",
     "nodeId": "c7_hist_ch03_001",
     "difficulty": "advanced"
    },
@@ -1414,9 +1434,9 @@ export const C7_HIST_GEN: SimDef[] = [
      "Control over lucrative trade routes brought foreign rulers into close, continuous economic contact with Indian merchants, artisans, and religious centers",
      "The correct answer is that regional rulers actively patronised local craft guilds, coinage, and urban markets to legitimise their rule and boost local economies"
     ],
-    "hint": "Straight from the 'post-Maurya period (c. 200 BCE' slide -- match the key terms.",
+    "hint": "Straight from the 'post-Maurya period' slide -- match the key terms.",
     "misconception": "A wrong answer often assumes that a weak central government automatically destroys trade, failing to realise that decentralized competitive states often competed to attract merchants and boost taxation revenue.",
-    "id": "gen_c7_hist_ch03_q16",
+    "id": "gen_c7_hist_ch03_q17",
     "nodeId": "c7_hist_ch03_001",
     "difficulty": "advanced"
    },
@@ -1431,21 +1451,6 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Shunga Dynasty was an ancient' slide -- match the key terms.",
     "misconception": "A wrong answer typically treats geography as irrelevant to political survival, missing how control over river valleys and trade routes sustained the Shunga military.",
-    "id": "gen_c7_hist_ch03_q17",
-    "nodeId": "c7_hist_ch03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Construct a comparative historical argument explaining how the nature of imperial authority changed between the peak of the Mauryan Empire under Ashoka and the regional rule of the Shungas.",
-    "answer": "A strong response contrasts Mauryan universal kingship and vast centralized bureaucracy with Shunga localized authority, alliances",
-    "options": [
-     "A strong response argues that the flexible nature of the evolving social structure allowed incoming foreign ruling elites to be absorbed into the Kshatriya (warrior) category",
-     "A strong argument explains that because literary records for the Indo-Greeks are extremely scarce, coins provide vital data including royal portraits, names, titles",
-     "A strong response contrasts Mauryan universal kingship and vast centralized bureaucracy with Shunga localized authority, alliances"
-    ],
-    "hint": "Straight from the 'Shunga Dynasty was an ancient' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: A strong response contrasts Mauryan universal kingship and vast centralized bureaucracy with Shunga localized",
     "id": "gen_c7_hist_ch03_q18",
     "nodeId": "c7_hist_ch03_002",
     "difficulty": "advanced"
@@ -1453,11 +1458,11 @@ export const C7_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about post-maurya period: age of reorganisation?",
+    "What surprised you about post-maurya period?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Post-Maurya Period: Age mastered! 🎯",
+  "successLine": "Post-Maurya Period mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1469,7 +1474,9 @@ export const C7_HIST_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "history",
   "topic": "Origins And Rise",
-  "chapters": ["History Ch4: Origins And Rise"],
+  "chapters": [
+   "History Ch4: Origins And Rise"
+  ],
   "nodeIds": [
    "c7_hist_ch04_001",
    "c7_hist_ch04_002",
@@ -1574,10 +1581,10 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "Sri Gupta and his son Ghatotkacha are recorded as the earliest known rulers, holding the title of *Maharaja*",
     "options": [
      "The correct answer is the Gupta Empire",
-     "Gupta rulers adopted grand titles such as *Maharajadhiraja* (King of Kings), *Parama-bhattaraka*, and *Vikramaditya*",
+     "Can analyze the political, cultural, and diplomatic relationship between the Vakatakas and the Gupta Empire",
      "Sri Gupta and his son Ghatotkacha are recorded as the earliest known rulers, holding the title of *Maharaja*"
     ],
-    "hint": "Straight from the 'origins and rise of the' slide -- match the key terms.",
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
     "misconception": "A wrong answer usually confuses them with later imperial rulers like Chandragupta I or Samudragupta, revealing a misunderstanding of the distinction between local dynastic founders and full imperial conquerors.",
     "id": "gen_c7_hist_ch04_q1",
     "nodeId": "c7_hist_ch04_001",
@@ -1594,11 +1601,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Who was the first major Gupta ruler to assume the grand title of 'Maharajadhiraja' (King of Kings), and through which important matrimonial alliance did he strengthen his political position?",
     "answer": "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan",
     "options": [
-     "The correct answer is Aryabhata",
+     "Students can trace the geographical and political transition from the decline of the Kushana and Satavahana powers to the rise of the Gupta dynasty in Magadha",
      "Gupta rulers adopted grand titles such as *Maharajadhiraja* (King of Kings), *Parama-bhattaraka*, and *Vikramaditya*",
      "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan"
     ],
-    "hint": "Straight from the 'This topic covers the reigns of' slide -- match the key terms.",
+    "hint": "Straight from the 'This topic covers the reigns' slide -- match the key terms.",
     "misconception": "A student who incorrectly answers that Samudragupta started this title or names a Mauryan ruler confuses the early Gupta genealogy and the critical role of the Licchavi alliance in boosting Gupta prestige in Magadha.",
     "id": "gen_c7_hist_ch04_q2",
     "nodeId": "c7_hist_ch04_002",
@@ -1615,8 +1622,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the primary reason historians refer to the Gupta period as the \"Classical Age\" of ancient India?",
     "answer": "The Gupta period is called the Classical Age because it witnessed remarkable, standard-setting achievements in literature, art, architecture, science, and philosophy",
     "options": [
-     "Gupta rulers adopted grand titles such as *Maharajadhiraja* (King of Kings), *Parama-bhattaraka*, and *Vikramaditya*",
-     "Sri Gupta and his son Ghatotkacha are recorded as the earliest known rulers, holding the title of *Maharaja*",
+     "Can analyze primary aspects of Gupta society (such as the rigidification of the caste system and the status of women) alongside vibrant cultural expressions (such as temple",
+     "Students can examine political stability, economic prosperity, and cultural achievements to construct a reasoned argument explaining why the Gupta period is classified as a",
      "The Gupta period is called the Classical Age because it witnessed remarkable, standard-setting achievements in literature, art, architecture, science, and philosophy"
     ],
     "hint": "Straight from the 'Gupta period' slide -- match the key terms.",
@@ -1636,8 +1643,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What title did Gupta rulers like Samudragupta and Chandragupta II adopt to show their supreme status and power over lesser kings?",
     "answer": "Gupta rulers adopted grand titles such as *Maharajadhiraja* (King of Kings), *Parama-bhattaraka*, and *Vikramaditya*",
     "options": [
-     "The Gupta period is called the Classical Age because it witnessed remarkable, standard-setting achievements in literature, art, architecture, science, and philosophy",
-     "The correct answer is Aryabhata",
+     "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan",
+     "The correct answer is the Gupta Empire",
      "Gupta rulers adopted grand titles such as *Maharajadhiraja* (King of Kings), *Parama-bhattaraka*, and *Vikramaditya*"
     ],
     "hint": "Straight from the 'Administration and governance' slide -- match the key terms.",
@@ -1659,7 +1666,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "options": [
      "A strong response would describe how Kalidasa personified nature—such as trees shedding flowers like tears or rivers acting as companions—to mirror the emotional states of human",
      "It demonstrates advanced intellectual activity, a refined literary language (Sanskrit), and empirical inquiry",
-     "Arab composed his works in Sanskrit",
+     "Classical Age composed his works in Sanskrit",
      "Kalidasa composed his works in Sanskrit"
     ],
     "hint": "Straight from the 'This topic explores the brilliant' slide -- match the key terms.",
@@ -1679,8 +1686,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Who was the famous Gupta-era mathematician and astronomer who calculated the approximate value of pi ($\\pi$) and argued that the Earth rotates on its axis?",
     "answer": "The correct answer is Aryabhata",
     "options": [
-     "Skandagupta was the last major Gupta ruler who successfully repelled the Huna invasions during the 5th century CE",
-     "The Gupta period is called the Classical Age because it witnessed remarkable, standard-setting achievements in literature, art, architecture, science, and philosophy",
+     "Can analyze the political, cultural, and diplomatic relationship between the Vakatakas and the Gupta Empire",
+     "Students can explain the groundbreaking mathematical and astronomical discoveries of the Gupta period",
      "Sri Gupta correct answer is Aryabhata",
      "The correct answer is Aryabhata"
     ],
@@ -1701,8 +1708,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the primary difference in function between a Buddhist *chaitya* cave and a *vihara* cave at sites like Ajanta?",
     "answer": "A *chaitya* is a large prayer hall containing a stupa at one end for congregational worship",
     "options": [
-     "Sri Gupta and his son Ghatotkacha are recorded as the earliest known rulers, holding the title of *Maharaja*",
-     "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan",
+     "Can analyze primary aspects of Gupta society (such as the rigidification of the caste system and the status of women) alongside vibrant cultural expressions (such as temple",
+     "Can explain the multi-factor causes of the Gupta Empire's decline, distinguishing between internal weaknesses like feudalization and external pressures like Huna invasions",
      "A *chaitya* is a large prayer hall containing a stupa at one end for congregational worship"
     ],
     "hint": "Straight from the 'Ajanta Caves and Gupta-era temples' slide -- match the key terms.",
@@ -1722,8 +1729,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What type of coins issued by the Gupta rulers are most famous for reflecting their imperial wealth and artistic excellence?",
     "answer": "The correct answer is gold coins (*dinaras*)",
     "options": [
+     "Can explain how the circulation of gold coins, flourishing guilds (shrenis), and thriving internal and maritime trade routes contributed to the prosperity of the Gupta era",
      "The correct answer is the Gupta Empire",
-     "Skandagupta was the last major Gupta ruler who successfully repelled the Huna invasions during the 5th century CE",
      "The correct answer is gold coins (*dinaras*)"
     ],
     "hint": "Straight from the 'This topic explores the vibrant' slide -- match the key terms.",
@@ -1743,8 +1750,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which prominent Sanskrit poet and dramatist, renowned for works like *Abhijñānaśākuntalam*, lived during the Gupta period and graced the court of Chandragupta II?",
     "answer": "The correct answer is Kalidasa",
     "options": [
-     "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan",
-     "The Gupta period is called the Classical Age because it witnessed remarkable, standard-setting achievements in literature, art, architecture, science, and philosophy",
+     "The correct answer is the Gupta Empire",
+     "Students can explain the groundbreaking mathematical and astronomical discoveries of the Gupta period",
      "The correct answer is Kalidasa"
     ],
     "hint": "Straight from the 'This topic explores the social' slide -- match the key terms.",
@@ -1764,7 +1771,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which major empire were the Vakatakas contemporary to during the 4th and 5th centuries CE?",
     "answer": "The correct answer is the Gupta Empire",
     "options": [
-     "The correct answer is Aryabhata",
+     "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan",
      "Skandagupta was the last major Gupta ruler who successfully repelled the Huna invasions during the 5th century CE",
      "The correct answer is the Gupta Empire"
     ],
@@ -1786,7 +1793,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "Skandagupta was the last major Gupta ruler who successfully repelled the Huna invasions during the 5th century CE",
     "options": [
      "The correct answer is the Gupta Empire",
-     "Chandragupta I was the first major ruler to take the title of Maharajadhiraja, and he strengthened his position by marrying Kumaradevi, a princess of the powerful Licchavi clan",
+     "Can explain the multi-factor causes of the Gupta Empire's decline, distinguishing between internal weaknesses like feudalization and external pressures like Huna invasions",
      "Skandagupta was the last major Gupta ruler who successfully repelled the Huna invasions during the 5th century CE"
     ],
     "hint": "Straight from the 'decline of the Gupta Empire' slide -- match the key terms.",
@@ -1810,7 +1817,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "Land grants created a class of powerful local intermediaries who collected revenues directly from the peasants and held administrative rights over the gifted land",
      "The marriage alliance with the powerful Lichchhavi clan provided Chandragupta I with immense political prestige, military backing, and territorial influence"
     ],
-    "hint": "Straight from the 'origins and rise of the' slide -- match the key terms.",
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
     "misconception": "A wrong answer views the marriage as a purely personal event with no political meaning, failing to understand how matrimonial alliances were key statecraft strategies in ancient India.",
     "id": "gen_c7_hist_ch04_q12",
     "nodeId": "c7_hist_ch04_001",
@@ -1825,7 +1832,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "The correct answer is that it demonstrates active cultural and economic exchange, facilitated by political alliances and open trade routes between the two contemporary powers",
      "A strong answer argues that gold coins depicting Chandragupta I together with his queen Kumaradevi and bearing the name of the Lichchhavis prove the high political value and"
     ],
-    "hint": "Straight from the 'origins and rise of the' slide -- match the key terms.",
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
     "misconception": "A poor answer simply states that they liked making gold coins, showing no awareness of how coins serve as primary historical sources for political legitimation.",
     "id": "gen_c7_hist_ch04_q13",
     "nodeId": "c7_hist_ch04_001",
@@ -1840,7 +1847,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "Political stability under a centralized imperial framework secured trade routes, filled royal treasuries, and allowed emperors to extend generous patronage to scholars, poets",
      "The rise was primarily a result of gradual political consolidation—starting as local chiefs (*Maharajas*), building economic strength in Magadha"
     ],
-    "hint": "Straight from the 'origins and rise of the' slide -- match the key terms.",
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
     "misconception": "A wrong answer argues that the Guptas conquered all of northern India in a single year through war, missing the slow, calculated steps of early state-building.",
     "id": "gen_c7_hist_ch04_q14",
     "nodeId": "c7_hist_ch04_001",
@@ -1855,9 +1862,24 @@ export const C7_HIST_GEN: SimDef[] = [
      "The correct answer is that supporting Brahmanical institutions helped the Gupta rulers legitimize their political authority, foster social order",
      "The absence of a single dominant imperial power left many small, independent regional kingdoms competing with one another"
     ],
-    "hint": "Straight from the 'origins and rise of the' slide -- match the key terms.",
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
     "misconception": "A wrong answer assumes northern India was completely united under one peaceful ruler before the Guptas arrived, ignoring the political vacuum left by post-Mauryan and post-Kushana fragmentation.",
     "id": "gen_c7_hist_ch04_q15",
+    "nodeId": "c7_hist_ch04_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can trace the geographical and political transition from the decline of the Kushana and Satavahana powers to the rise of the Gupta dynasty in Magadha",
+    "options": [
+     "The Gupta period is called the Classical Age because it witnessed remarkable, standard-setting achievements in literature, art, architecture, science, and philosophy",
+     "Students can examine political stability, economic prosperity, and cultural achievements to construct a reasoned argument explaining why the Gupta period is classified as a",
+     "Students can trace the geographical and political transition from the decline of the Kushana and Satavahana powers to the rise of the Gupta dynasty in Magadha"
+    ],
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can trace the geographical and political transition from the decline of the Kushana and Satavahana powers to",
+    "id": "gen_c7_hist_ch04_q16",
     "nodeId": "c7_hist_ch04_001",
     "difficulty": "advanced"
    },
@@ -1870,9 +1892,9 @@ export const C7_HIST_GEN: SimDef[] = [
      "Political stability and surplus wealth from flourishing trade allowed Gupta rulers to become patrons of the arts, funding royal courts where poets, scholars",
      "Magadha offered fertile agricultural land in the Ganga river basin and access to rich iron ore deposits, which allowed for surplus food production and strong iron tools/weapons"
     ],
-    "hint": "Straight from the 'origins and rise of the' slide -- match the key terms.",
+    "hint": "Straight from the 'origins and rise' slide -- match the key terms.",
     "misconception": "A wrong answer might claim that the Guptas rose to power from a desert region, showing a lack of understanding of how geography and resource control drive early state formation.",
-    "id": "gen_c7_hist_ch04_q16",
+    "id": "gen_c7_hist_ch04_q17",
     "nodeId": "c7_hist_ch04_001",
     "difficulty": "advanced"
    },
@@ -1885,23 +1907,8 @@ export const C7_HIST_GEN: SimDef[] = [
      "Historians can infer that Gupta society valued a balance between spiritual asceticism/nature (represented by the hermitage) and refined urban sophistication/courtly duties",
      "A strong response argues that both were complementary: matrimonial alliances (like Chandragupta I with the Licchavis) provided legitimacy, political security"
     ],
-    "hint": "Straight from the 'This topic covers the reigns of' slide -- match the key terms.",
+    "hint": "Straight from the 'This topic covers the reigns' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response argues that both were complementary: matrimonial alliances (like Chandragupta I with the Licchavis)",
-    "id": "gen_c7_hist_ch04_q17",
-    "nodeId": "c7_hist_ch04_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Samudragupta's military strategy was uniform across all regions of the Indian subcontinent.\" Is this statement accurate? Provide your reasoning using historical evidence of his expansion policies.",
-    "answer": "The statement is inaccurate because Samudragupta applied different strategies depending on the region: uprooting northern kings for direct annexation",
-    "options": [
-     "The Allahabad Pillar inscription is vital because it is a contemporary court record detailing Samudragupta's military campaigns, the regions he conquered",
-     "This statement is false because while the Mauryas maintained a massive, salaried, highly centralized bureaucracy spread across every village with state spies",
-     "The statement is inaccurate because Samudragupta applied different strategies depending on the region: uprooting northern kings for direct annexation"
-    ],
-    "hint": "Straight from the 'This topic covers the reigns of' slide -- match the key terms.",
-    "misconception": "A student who argues his strategy was uniform overlooks the complex diplomatic categories recorded in the Prashastis.",
     "id": "gen_c7_hist_ch04_q18",
     "nodeId": "c7_hist_ch04_002",
     "difficulty": "advanced"
@@ -1909,7 +1916,7 @@ export const C7_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about origins and rise of the?",
+    "What surprised you about origins and rise?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -1919,14 +1926,14 @@ export const C7_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c7_hist_ch05",
-  "title": "Sacredness",
+  "title": "Sacredness Is The Cultural And Spiritual",
   "subtitle": "History · Chapter 5",
   "classLevel": 7,
   "mode": "senior",
   "subject": "history",
-  "topic": "Sacredness",
+  "topic": "Sacredness Is The Cultural And Spiritual",
   "chapters": [
-   "History Ch5: Sacredness"
+   "History Ch5: Sacredness Is The Cultural And Spiritual"
   ],
   "nodeIds": [
    "c7_hist_ch05_001",
@@ -1947,7 +1954,7 @@ export const C7_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Sacredness suddenly stops working?",
+   "question": "What happens if Sacredness Is The Cultural And suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1958,7 +1965,7 @@ export const C7_HIST_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Sacredness",
+    "title": "Sacredness Is The Cultural And Spiritual",
     "text": "Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that societies regard as holy, life-giving, or connected to the divine.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1982,7 +1989,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Tirtha",
+    "title": "A Tirtha Is a Sacred Crossing",
     "text": "A tirtha is a sacred crossing point—traditionally a river confluence, ford, or ghat—where travelers and pilgrims transition between the physical world and the spiritual realm.",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2024,11 +2031,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What term is used to describe physical places like rivers, mountains, and forests that societies regard as holy or spiritually significant?",
     "answer": "The correct term is sacred sites or sacred geography",
     "options": [
-     "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
-     "Major rivers were viewed not merely as water sources for irrigation, but as living goddesses and purifying agents whose waters connected diverse spiritual centers across the",
+     "Can explain how physical geography and religious imagination intertwined to transform natural peaks into sacred spaces",
+     "Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that societies regard as holy, life-giving",
      "The correct term is sacred sites or sacred geography"
     ],
-    "hint": "Straight from the 'Sacredness' slide -- match the key terms.",
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
     "misconception": "A student who answers incorrectly or confuses this with modern political borders reveals a misunderstanding of how ancient societies viewed the natural world through a spiritual lens rather than purely administrative ones.",
     "id": "gen_c7_hist_ch05_q1",
     "nodeId": "c7_hist_ch05_001",
@@ -2045,8 +2052,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What role did major rivers like the Ganga and Yamuna play in the conceptualization of India's sacred geography during the ancient and medieval periods?",
     "answer": "Major rivers were viewed not merely as water sources for irrigation, but as living goddesses and purifying agents whose waters connected diverse spiritual centers across the",
     "options": [
-     "Kings built large stone temples primarily to demonstrate their power, wealth, and devotion to deities, thereby legitimizing their right to rule over the kingdom",
-     "The correct answer is a \"crossing place\" or \"ford\" across a river or body of water",
+     "Students can explain how specific physical features like rivers and mountains were integrated into cultural traditions",
+     "Students can explain how physical crossing points (rivers, confluences, mountain passes) transformed into major pilgrimage centres",
      "Major rivers were viewed not merely as water sources for irrigation, but as living goddesses and purifying agents whose waters connected diverse spiritual centers across the"
     ],
     "hint": "Straight from the 'sacred geography of India' slide -- match the key terms.",
@@ -2066,8 +2073,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is a pilgrimage network in the context of the historical Indian subcontinent?",
     "answer": "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
     "options": [
-     "The correct answer is Tirthas (or pilgrimage centers)",
      "Pilgrimage networks facilitated travel across distant regions, allowing people from diverse linguistic and cultural backgrounds to interact, exchange ideas",
+     "Pilgrimage networks are historical and cultural systems of interconnected sacred sites, routes, and shrines across the Indian subcontinent that linked diverse regions",
      "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions"
     ],
     "hint": "Straight from the 'Pilgrimage networks' slide -- match the key terms.",
@@ -2087,8 +2094,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What was the primary political motivation for medieval Indian kings to commission the construction of large stone temples?",
     "answer": "Kings built large stone temples primarily to demonstrate their power, wealth, and devotion to deities, thereby legitimizing their right to rule over the kingdom",
     "options": [
-     "Major rivers were viewed not merely as water sources for irrigation, but as living goddesses and purifying agents whose waters connected diverse spiritual centers across the",
-     "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
+     "Can explain how sacred sites functioned beyond mere places of worship to become economic, political, and cultural centers",
+     "Can explain how pilgrimage networks connected different regions of the Indian subcontinent, trace the movement of cultural ideas across these routes",
      "Kings built large stone temples primarily to demonstrate their power, wealth, and devotion to deities, thereby legitimizing their right to rule over the kingdom"
     ],
     "hint": "Straight from the 'Temples, shrines, and holy places' slide -- match the key terms.",
@@ -2108,11 +2115,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the literal Sanskrit meaning of the word \"tirtha\"?",
     "answer": "The correct answer is a \"crossing place\" or \"ford\" across a river or body of water",
     "options": [
-     "The correct term is sacred sites or sacred geography",
-     "Major rivers were viewed not merely as water sources for irrigation, but as living goddesses and purifying agents whose waters connected diverse spiritual centers across the",
+     "Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that societies regard as holy, life-giving",
+     "Can explain how natural features like rivers and mountains acquire cultural and sacred significance over time",
      "The correct answer is a \"crossing place\" or \"ford\" across a river or body of water"
     ],
-    "hint": "Straight from the 'tirtha' slide -- match the key terms.",
+    "hint": "Straight from the 'A tirtha is a sacred crossing' slide -- match the key terms.",
     "misconception": "A wrong answer shows that the student confuses religious pilgrimage with a permanent temple structure, missing the fundamental geographic origin of tirthas as river crossings.",
     "id": "gen_c7_hist_ch05_q5",
     "nodeId": "c7_hist_ch05_005",
@@ -2130,8 +2137,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "The correct answer is *Tirthas*",
     "options": [
      "The correct term is sacred sites or sacred geography",
-     "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
-     "The correct answer is *Local*",
+     "Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that societies regard as holy, life-giving",
+     "The correct answer is *Indian*",
      "The correct answer is *Tirthas*"
     ],
     "hint": "Straight from the 'process by which shared sacred' slide -- match the key terms.",
@@ -2151,12 +2158,12 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What term describes the sacred crossing points or holy centers located along rivers and mountains that pilgrims travelled to visit across the subcontinent?",
     "answer": "The correct answer is Tirthas (or pilgrimage centers)",
     "options": [
-     "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
-     "The correct term is sacred sites or sacred geography",
-     "The correct answer is Bhakti (or pilgrimage centers)",
+     "Temples, shrines, and holy places are sacred architectural structures and consecrated sites that became focal points of religious devotion, royal patronage",
+     "Can explain how natural features like rivers and mountains acquire cultural and sacred significance over time",
+     "The correct answer is Grand (or pilgrimage centers)",
      "The correct answer is Tirthas (or pilgrimage centers)"
     ],
-    "hint": "Straight from the 'extensive networks of ancient and' slide -- match the key terms.",
+    "hint": "Straight from the 'extensive networks of ancient' slide -- match the key terms.",
     "misconception": "If a student answers with \"capitals\" or \"forts,\" it reveals a confusion between political administrative centers and sacred religious destinations, missing the spiritual and cultural dimension of subcontinental travel.",
     "id": "gen_c7_hist_ch05_q7",
     "nodeId": "c7_hist_ch05_007",
@@ -2174,7 +2181,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "The correct answer is the Saraswati river",
     "options": [
      "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
-     "Kings built large stone temples primarily to demonstrate their power, wealth, and devotion to deities, thereby legitimizing their right to rule over the kingdom",
+     "The correct answer is a \"crossing place\" or \"ford\" across a river or body of water",
      "The correct answer is the Saraswati river"
     ],
     "hint": "Straight from the 'This topic explores the cultural,' slide -- match the key terms.",
@@ -2194,8 +2201,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What term is traditionally used in Indian geography and culture to refer to a sacred crossing point, river ghat, or holy mountain center of pilgrimage?",
     "answer": "The correct answer is a *tirtha*",
     "options": [
-     "The correct answer is the Saraswati river",
-     "The correct answer is Tirthas (or pilgrimage centers)",
+     "Can explain how physical geography and religious imagination intertwined to transform natural peaks into sacred spaces",
+     "Can explain how pilgrimage networks connected different regions of the Indian subcontinent, trace the movement of cultural ideas across these routes",
      "The correct answer is a *tirtha*"
     ],
     "hint": "Straight from the 'This topic explores how mountains' slide -- match the key terms.",
@@ -2215,8 +2222,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What role did pilgrimage networks (tirthas) play in connecting different regions of the Indian subcontinent during the medieval period?",
     "answer": "Pilgrimage networks facilitated travel across distant regions, allowing people from diverse linguistic and cultural backgrounds to interact, exchange ideas",
     "options": [
-     "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
-     "The correct answer is *Tirthas*",
+     "Students can explain how rivers transitioned from physical sources of sustenance in early settlements to sacred entities deeply embedded in religious pilgrimage networks, rituals",
+     "Can explain how pilgrimage networks connected different regions of the Indian subcontinent, trace the movement of cultural ideas across these routes",
      "Pilgrimage networks facilitated travel across distant regions, allowing people from diverse linguistic and cultural backgrounds to interact, exchange ideas"
     ],
     "hint": "Straight from the 'deep integration of sacred' slide -- match the key terms.",
@@ -2240,7 +2247,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "Shared sacred spaces created cultural unity by encouraging people from different kingdoms and backgrounds to travel along common pilgrimage routes",
      "A strong response should argue that natural barriers and river networks naturally drew human settlements together, and as these populations interacted, they shared myths, rituals"
     ],
-    "hint": "Straight from the 'Sacredness' slide -- match the key terms.",
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response should argue that natural barriers and river networks naturally drew human settlements together, and",
     "id": "gen_c7_hist_ch05_q11",
     "nodeId": "c7_hist_ch05_001",
@@ -2255,7 +2262,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "Rivers like the Ganga and Yamuna, along with mountain ranges like the Himalayas and Vindhyas, served as natural navigation axes and sacred landmarks around which shrines",
      "The statement is inaccurate because sacredness is dynamic; while rooted in ancient traditions, the significance of sites evolved as new communities, rulers"
     ],
-    "hint": "Straight from the 'Sacredness' slide -- match the key terms.",
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement misses the historical evolution and continuous human shaping of cultural landscapes over time.",
     "id": "gen_c7_hist_ch05_q12",
     "nodeId": "c7_hist_ch05_001",
@@ -2270,7 +2277,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "Rivers like the Ganga and Yamuna, along with mountain ranges like the Himalayas and Vindhyas, served as natural navigation axes and sacred landmarks around which shrines",
      "Mountains often represented unshakeable spiritual strength, cosmic boundaries, and the abodes of deities, whereas rivers represented flowing life, purification"
     ],
-    "hint": "Straight from the 'Sacredness' slide -- match the key terms.",
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
     "misconception": "A student who treats all sacred geography as having the same symbolic meaning overlooks the distinct ecological and cultural roles different landforms played in human imagination.",
     "id": "gen_c7_hist_ch05_q13",
     "nodeId": "c7_hist_ch05_001",
@@ -2285,9 +2292,39 @@ export const C7_HIST_GEN: SimDef[] = [
      "A strong response should argue that the subcontinent's diverse topography inspired localized and pan-Indian religious frameworks",
      "Shared sacred spaces created cultural unity by encouraging people from different kingdoms and backgrounds to travel along common pilgrimage routes"
     ],
-    "hint": "Straight from the 'Sacredness' slide -- match the key terms.",
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
     "misconception": "A student who thinks political unity was the only way people felt connected fails to recognize how cultural and religious networks transcended political borders.",
     "id": "gen_c7_hist_ch05_q14",
+    "nodeId": "c7_hist_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Sacredness? State the definition given in this lesson.",
+    "answer": "Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that societies regard as holy, life-giving",
+    "options": [
+     "A pilgrimage network is a system of interconnected sacred sites, rivers, and shrines linked by established travel routes across different regions",
+     "Pilgrimage networks are historical and cultural systems of interconnected sacred sites, routes, and shrines across the Indian subcontinent that linked diverse regions",
+     "Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that societies regard as holy, life-giving"
+    ],
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Sacredness is the cultural and spiritual quality attributed to certain landscapes, rivers, mountains, and sites that",
+    "id": "gen_c7_hist_ch05_q15",
+    "nodeId": "c7_hist_ch05_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can explain how natural features like rivers and mountains acquire cultural and sacred significance over time",
+    "options": [
+     "Pilgrimage networks are historical and cultural systems of interconnected sacred sites, routes, and shrines across the Indian subcontinent that linked diverse regions",
+     "Can explain how pilgrimage networks connected different regions of the Indian subcontinent, trace the movement of cultural ideas across these routes",
+     "Can explain how natural features like rivers and mountains acquire cultural and sacred significance over time"
+    ],
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can explain how natural features like rivers and mountains acquire cultural and sacred significance over time, and can",
+    "id": "gen_c7_hist_ch05_q16",
     "nodeId": "c7_hist_ch05_001",
     "difficulty": "standard"
    },
@@ -2300,9 +2337,9 @@ export const C7_HIST_GEN: SimDef[] = [
      "This statement is false because sacred geography is deeply rooted in physical reality; ancient societies settled along fertile river basins like the Ganga and Yamuna first for",
      "Rivers were essential for survival, providing irrigation, fertile soil, and routes for travel, which led communities to venerate them as life-givers and personify them as deities"
     ],
-    "hint": "Straight from the 'Sacredness' slide -- match the key terms.",
+    "hint": "Straight from the 'Sacredness is the cultural and' slide -- match the key terms.",
     "misconception": "A student who believes rivers became sacred solely due to royal decrees misses the deep economic, ecological, and cultural relationship ordinary people had with their environment.",
-    "id": "gen_c7_hist_ch05_q15",
+    "id": "gen_c7_hist_ch05_q17",
     "nodeId": "c7_hist_ch05_001",
     "difficulty": "standard"
    },
@@ -2317,36 +2354,6 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'sacred geography of India' slide -- match the key terms.",
     "misconception": "A poor answer merely lists rivers and mountains without connecting their physical scale to cultural imagination or shared civilizational identity.",
-    "id": "gen_c7_hist_ch05_q16",
-    "nodeId": "c7_hist_ch05_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"The sacred geography of India was created entirely by royal decree and political rulers to unite their empires.\" Is this historically accurate?",
-    "answer": "This statement is inaccurate because while rulers funded temples and patronized tirthas, sacred geography grew organically through folk traditions, oral epics, ascetic wandering",
-    "options": [
-     "Rulers supported tirthas and built temples at these sites to legitimize their rule, display their wealth",
-     "This statement is largely valid because political empires rose and fell, but sacred geography—rooted in enduring rivers, mountains, and pilgrimage routes—provided a continuous",
-     "This statement is inaccurate because while rulers funded temples and patronized tirthas, sacred geography grew organically through folk traditions, oral epics, ascetic wandering"
-    ],
-    "hint": "Straight from the 'sacred geography of India' slide -- match the key terms.",
-    "misconception": "A wrong answer uncritically attributes cultural landscapes solely to political manipulation, ignoring the grassroots and spiritual origins of sacred reverence.",
-    "id": "gen_c7_hist_ch05_q17",
-    "nodeId": "c7_hist_ch05_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "How does the literary tradition of describing forests (such as Naimisharanya or Dandakaranya) as abodes of sages and sites of spiritual transformation alter our understanding of ancient Indian environments?",
-    "answer": "It demonstrates that forests were viewed as centers of higher learning, ascetic practice, and ecological harmony rather than untamed wilderness to be feared or cleared",
-    "options": [
-     "Rulers supported pilgrimage centers to legitimize their political authority, foster economic trade along travel routes",
-     "Rivers like the Ganga and Yamuna, along with mountain ranges like the Himalayas and Vindhyas, served as natural navigation axes and sacred landmarks around which shrines",
-     "It demonstrates that forests were viewed as centers of higher learning, ascetic practice, and ecological harmony rather than untamed wilderness to be feared or cleared"
-    ],
-    "hint": "Straight from the 'sacred geography of India' slide -- match the key terms.",
-    "misconception": "A wrong answer views ancient forests strictly as dangerous or uninhabited zones, missing their central role as intellectual and spiritual incubators in text and tradition.",
     "id": "gen_c7_hist_ch05_q18",
     "nodeId": "c7_hist_ch05_002",
     "difficulty": "advanced"
@@ -2354,11 +2361,11 @@ export const C7_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about sacredness?",
+    "What surprised you about sacredness is the cultural and spiritual?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Sacredness mastered! 🎯",
+  "successLine": "Sacredness Is The Cultural mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2495,7 +2502,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "The correct answer is that Nagara architecture developed in northern river plains with decentralized regional kingdoms",
      "Kannauj was located centrally on the fertile Gangetic plain and sat directly on major river trade routes, giving immense military and economic control"
     ],
-    "hint": "Straight from the 'rule of Harshavardhana in the' slide -- match the key terms.",
+    "hint": "Straight from the 'rule of Harshavardhana' slide -- match the key terms.",
     "misconception": "A wrong answer stating it was famous only for its gold mines reveals a misunderstanding of the agrarian and trade-based economy of early medieval India.",
     "id": "gen_c7_hist_ch06_q2",
     "nodeId": "c7_hist_ch06_002",
@@ -2512,9 +2519,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Who was the most famous Chalukya ruler of Badami who successfully defeated Harshavardhana on the banks of the Narmada River?",
     "answer": "Pulakeshin II was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
     "options": [
+     "Can analyze the structural and artistic features of the Shore Temple, explain its stylistic evolution from rock-cut monoliths to structural masonry",
      "The correct answer is the shikhara",
-     "Narasimhavarman II (also known as Rajasimha)",
-     "Dhamma was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
+     "Sri Lanka was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
      "Pulakeshin II was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward"
     ],
     "hint": "Straight from the 'Chalukya Dynasty was a prominent' slide -- match the key terms.",
@@ -2640,7 +2647,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "The correct answer is the shikhara",
     "options": [
      "Narasimhavarman II (also known as Rajasimha)",
-     "Pulakeshin II was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
+     "Can analyze the structural and artistic features of the Shore Temple, explain its stylistic evolution from rock-cut monoliths to structural masonry",
      "The correct answer is the shikhara"
     ],
     "hint": "Straight from the 'in-depth study of the two' slide -- match the key terms.",
@@ -2685,7 +2692,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "The Narmada River acted as a formidable natural geographic barrier, and Pulakeshin II utilized the rough terrain and well-prepared Deccan cavalry to ambush and halt northern",
      "Royal patronage provided massive land grants, financial endowments, and physical protection, allowing these monastic universities to support thousands of resident scholars"
     ],
-    "hint": "Straight from the 'This node explores the' slide -- match the key terms.",
+    "hint": "Straight from the 'This node explores the development' slide -- match the key terms.",
     "misconception": "A student who assumes these institutions operated independently of state support fails to recognize the interdependent relationship between monastic wealth and imperial authority.",
     "id": "gen_c7_hist_ch06_q9",
     "nodeId": "c7_hist_ch06_010",
@@ -2703,8 +2710,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "answer": "Narasimhavarman II (also known as Rajasimha)",
     "options": [
      "The correct answer is the shikhara",
-     "Pulakeshin II was the most celebrated Chalukya ruler who checked Harshavardhana's expansion southward",
-     "Qasim's (also known as Rajasimha)",
+     "Can analyze the structural and artistic features of the Shore Temple, explain its stylistic evolution from rock-cut monoliths to structural masonry",
+     "Pulakeshin II (also known as Rajasimha)",
      "Narasimhavarman II (also known as Rajasimha)"
     ],
     "hint": "Straight from the 'Shore Temple at Mamallapuram' slide -- match the key terms.",
@@ -2743,7 +2750,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "The Narmada River acted as a formidable natural geographic barrier, and Pulakeshin II utilized the rough terrain and well-prepared Deccan cavalry to ambush and halt northern",
      "Harsha relied heavily on local feudal lords (samantas) who provided military support, similar to the late Gupta system"
     ],
-    "hint": "Straight from the 'rule of Harshavardhana in the' slide -- match the key terms.",
+    "hint": "Straight from the 'rule of Harshavardhana' slide -- match the key terms.",
     "misconception": "A wrong answer claiming Harsha established a centralized bureaucratic salary system like the later Mughals misses the early medieval rise of regional feudatories.",
     "id": "gen_c7_hist_ch06_q12",
     "nodeId": "c7_hist_ch06_002",
@@ -2758,7 +2765,7 @@ export const C7_HIST_GEN: SimDef[] = [
      "Correct — the Arab hold stayed limited to Sindh and southern Punjab while the great northern and southern powers remained untouched",
      "The travel accounts of the Chinese Buddhist pilgrim Hiuen Tsang (Xuanzang), who lived and studied in India during Harsha's reign"
     ],
-    "hint": "Straight from the 'rule of Harshavardhana in the' slide -- match the key terms.",
+    "hint": "Straight from the 'rule of Harshavardhana' slide -- match the key terms.",
     "misconception": "A wrong answer citing Ashoka's edicts shows a chronological confusion between the Maurya Empire and the 7th-century CE.",
     "id": "gen_c7_hist_ch06_q13",
     "nodeId": "c7_hist_ch06_002",
@@ -2927,7 +2934,7 @@ export const C7_HIST_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Assimilation",
+    "title": "Assimilation Refers To The Historical",
     "text": "Assimilation refers to the historical process by which foreign communities migrating into Indian society gradually adopted local languages, customs, and social practices while retaining elements of their distinct cultural and religious identities, thereby",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2957,8 +2964,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What geographical features of the Indian subcontinent naturally encouraged both maritime and land-based migration and trade over thousands of years?",
     "answer": "The correct answer highlights the vast coastline along the Arabian Sea and Indian Ocean, accessible mountain passes in the northwest like the Khyber Pass",
     "options": [
-     "Parsis left Persia primarily due to religious persecution following the Arab-Islamic conquest of the region in the 7th century",
-     "The correct answer is Zoroastrians, commonly known as Parsis",
+     "Can analyze the primary push and pull factors that drove foreign communities to seek sanctuary in the Indian subcontinent",
+     "Students can explain the historical reasons behind the Parsi migration, describe their arrival and integration into Indian society",
      "The correct answer highlights the vast coastline along the Arabian Sea and Indian Ocean, accessible mountain passes in the northwest like the Khyber Pass"
     ],
     "hint": "Straight from the 'historical context of India as a' slide -- match the key terms.",
@@ -2999,9 +3006,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the name of the ancient religious community that migrated from Persia to the western coast of India, and by what regional name are they commonly known?",
     "answer": "The correct answer is Zoroastrians, commonly known as Parsis",
     "options": [
-     "The Parsis (Zoroastrians)",
-     "The phrase originates from the Maha Upanishad",
-     "The correct answer is India, commonly known as Parsis",
+     "Can explain the historical context of the arrival of early Christian communities in India, analyze primary traditions surrounding St",
+     "Students can analyze how Muslim communities integrated into the socio-cultural fabric of India, and can evaluate their multi-faceted contributions to art, language, science",
+     "The correct answer is Judeo-Arabic, commonly known as Parsis",
      "The correct answer is Zoroastrians, commonly known as Parsis"
     ],
     "hint": "Straight from the 'migration and settlement of' slide -- match the key terms.",
@@ -3021,8 +3028,8 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What are the three main Jewish communities that historically settled in India?",
     "answer": "The three main historical Jewish communities in India are the Bene Israel (concentrated around Maharashtra/Konkan coast), the Cochin Jews or Malabar Jews (settled in Kerala)",
     "options": [
-     "Parsis left Persia primarily due to religious persecution following the Arab-Islamic conquest of the region in the 7th century",
-     "The correct answer is Zoroastrians, commonly known as Parsis",
+     "Students can analyze how Muslim communities integrated into the socio-cultural fabric of India, and can evaluate their multi-faceted contributions to art, language, science",
+     "Can explain how migrant communities balanced the adoption of local customs with the preservation of their unique traditions",
      "The three main historical Jewish communities in India are the Bene Israel (concentrated around Maharashtra/Konkan coast), the Cochin Jews or Malabar Jews (settled in Kerala)"
     ],
     "hint": "Straight from the 'history and settlement of Jewish' slide -- match the key terms.",
@@ -3084,11 +3091,11 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What is the primary meaning of cultural assimilation in the context of foreign communities settling in India?",
     "answer": "Cultural assimilation means that migrant communities gradually adopted local languages, dress, and social customs while blending them with their own unique traditions",
     "options": [
-     "The phrase originates from the Maha Upanishad",
-     "The three main historical Jewish communities in India are the Bene Israel (concentrated around Maharashtra/Konkan coast), the Cochin Jews or Malabar Jews (settled in Kerala)",
+     "Can analyze how specific migrant communities blended their cultural heritage with indigenous Indian traditions to create new art forms, architectural styles",
+     "Can explain the historical context of the arrival of early Christian communities in India, analyze primary traditions surrounding St",
      "Cultural assimilation means that migrant communities gradually adopted local languages, dress, and social customs while blending them with their own unique traditions"
     ],
-    "hint": "Straight from the 'Assimilation' slide -- match the key terms.",
+    "hint": "Straight from the 'Assimilation refers to the' slide -- match the key terms.",
     "misconception": "A wrong answer often reveals the misconception that communities either completely abandoned their original culture overnight or lived in absolute isolation without any interaction with local society.",
     "id": "gen_c7_hist_ch08_q7",
     "nodeId": "c7_hist_ch08_007",
@@ -3105,9 +3112,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "Which migrant community is historically credited with introducing Zoroastrian fire-temple traditions and contributing significantly to Indian commerce and shipbuilding?",
     "answer": "The Parsis (Zoroastrians)",
     "options": [
-     "The correct answer highlights the vast coastline along the Arabian Sea and Indian Ocean, accessible mountain passes in the northwest like the Khyber Pass",
-     "Parsis left Persia primarily due to religious persecution following the Arab-Islamic conquest of the region in the 7th century",
-     "European (Zoroastrians)",
+     "Can explain how migrant communities balanced the adoption of local customs with the preservation of their unique traditions",
+     "Can analyze how diverse philosophical, religious, and cultural traditions coexisted and interacted in Indian history",
+     "Maharashtrian (Zoroastrians)",
      "The Parsis (Zoroastrians)"
     ],
     "hint": "Straight from the 'enduring contributions made by' slide -- match the key terms.",
@@ -3127,9 +3134,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What ancient Sanskrit text and Upanishad is the source of the phrase \"Vasudhaiva Kutumbakam\"?",
     "answer": "The phrase originates from the Maha Upanishad",
     "options": [
-     "The three main historical Jewish communities in India are the Bene Israel (concentrated around Maharashtra/Konkan coast), the Cochin Jews or Malabar Jews (settled in Kerala)",
-     "Cultural assimilation means that migrant communities gradually adopted local languages, dress, and social customs while blending them with their own unique traditions",
-     "The phrase originates from the European",
+     "Can analyze the primary push and pull factors that drove foreign communities to seek sanctuary in the Indian subcontinent",
+     "The correct answer is Zoroastrians, commonly known as Parsis",
+     "The phrase originates from the St",
      "The phrase originates from the Maha Upanishad"
     ],
     "hint": "Straight from the 'The ancient Indian philosophical' slide -- match the key terms.",
@@ -3149,9 +3156,9 @@ export const C7_HIST_GEN: SimDef[] = [
     "question": "What ancient philosophical concept, meaning \"the world is one family,\" encapsulates the foundational worldview of Indian tolerance and pluralism?",
     "answer": "The concept is *Vasudhaiva Kutumbakam*",
     "options": [
-     "Cultural assimilation means that migrant communities gradually adopted local languages, dress, and social customs while blending them with their own unique traditions",
-     "The Parsis (Zoroastrians)",
-     "The concept is *Judeo-Arabic*",
+     "Can analyze how specific migrant communities blended their cultural heritage with indigenous Indian traditions to create new art forms, architectural styles",
+     "The correct answer highlights the vast coastline along the Arabian Sea and Indian Ocean, accessible mountain passes in the northwest like the Khyber Pass",
+     "The concept is *Malayalam*",
      "The concept is *Vasudhaiva Kutumbakam*"
     ],
     "hint": "Straight from the 'long-standing civilizational' slide -- match the key terms.",
@@ -3228,6 +3235,21 @@ export const C7_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Can explain how geographical features and cultural openness shaped India's role as a refuge for diverse migrating communities over centuries",
+    "options": [
+     "Students can explain the historical reasons behind the Parsi migration, describe their arrival and integration into Indian society",
+     "The three main historical Jewish communities in India are the Bene Israel (concentrated around Maharashtra/Konkan coast), the Cochin Jews or Malabar Jews (settled in Kerala)",
+     "Can explain how geographical features and cultural openness shaped India's role as a refuge for diverse migrating communities over centuries"
+    ],
+    "hint": "Straight from the 'historical context of India as a' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Can explain how geographical features and cultural openness shaped India's role as a refuge for diverse migrating",
+    "id": "gen_c7_hist_ch08_q15",
+    "nodeId": "c7_hist_ch08_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why did various communities fleeing religious or political persecution in their homelands historically choose India as a safe haven?",
     "answer": "The correct answer is that India possessed a long-established cultural ethos of tolerance, pluralism",
     "options": [
@@ -3237,7 +3259,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'historical context of India as a' slide -- match the key terms.",
     "misconception": "A wrong answer typically claims that migrants came solely to conquer territory or plunder, failing to recognize that many were peaceful refugees seeking permanent sanctuary rather than invaders.",
-    "id": "gen_c7_hist_ch08_q15",
+    "id": "gen_c7_hist_ch08_q16",
     "nodeId": "c7_hist_ch08_001",
     "difficulty": "advanced"
    },
@@ -3252,7 +3274,7 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'socio-political and religious' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong response constructs two distinct profiles—one driven by survival and freedom of worship, the other by",
-    "id": "gen_c7_hist_ch08_q16",
+    "id": "gen_c7_hist_ch08_q17",
     "nodeId": "c7_hist_ch08_002",
     "difficulty": "standard"
    },
@@ -3267,21 +3289,6 @@ export const C7_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'socio-political and religious' slide -- match the key terms.",
     "misconception": "A student who claims it was purely about money ignores the deep-rooted cultural values of hospitality and coexistence documented in inscriptions and literary texts.",
-    "id": "gen_c7_hist_ch08_q17",
-    "nodeId": "c7_hist_ch08_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How do the differing geopolitical conditions of medieval Central Asia help explain why waves of refugees and migrants continuously turned toward the Indian subcontinent?",
-    "answer": "Constant invasions, dynastic collapses, and religious conflicts across Central Asia and the Middle East created waves of displaced populations who looked southward across the",
-    "options": [
-     "Local Indian society was already pluralistic and welcoming of diverse philosophical and spiritual traditions",
-     "The correct answer is that the statement is false; while Parsis adopted local Indian languages (like Gujarati) and attire",
-     "Constant invasions, dynastic collapses, and religious conflicts across Central Asia and the Middle East created waves of displaced populations who looked southward across the"
-    ],
-    "hint": "Straight from the 'socio-political and religious' slide -- match the key terms.",
-    "misconception": "A student who views these migrations as isolated, random events fails to connect regional instability in Eurasia with the perpetual pull of India's wealth and stability.",
     "id": "gen_c7_hist_ch08_q18",
     "nodeId": "c7_hist_ch08_002",
     "difficulty": "standard"

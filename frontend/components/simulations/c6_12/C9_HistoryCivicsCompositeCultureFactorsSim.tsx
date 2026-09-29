@@ -1497,7 +1497,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           {/* Narrative Scenario Box */}
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-amber-700/40 shadow-inner">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-amber-700/40 shadow-inner">
             <div className="flex items-center gap-2 text-amber-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🏛️</span> Historical Investigation Scenario
             </div>
@@ -1511,7 +1511,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
           {/* Curiosity Hook Card */}
           <div className="p-6 bg-slate-800/70 rounded-3xl border border-slate-700 space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-bold px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              <span className="text-xs font-bold px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">
                 Discovery Curiosity Hook
               </span>
               <span className="text-xs text-slate-400">Ungraded • Think & Hypothesize</span>
@@ -1685,7 +1685,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                           max="100"
                           value={manuscriptsSlider}
                           onChange={(e) => setManuscriptsSlider(Number(e.target.value))}
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set Classical Manuscripts"
                         />
                       </div>
@@ -1696,7 +1696,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                       <p className="text-3xl font-black text-amber-400 my-1">{humanistIndex} / 100</p>
                       <div className="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
                         <motion.div
-                          className="h-full bg-gradient-to-r from-indigo-500 via-amber-500 to-emerald-500"
+                          className="h-full bg-gradient-to-r from-gold-500 via-amber-500 to-emerald-500"
                           animate={{ width: `${humanistIndex}%` }}
                         />
                       </div>
@@ -1713,8 +1713,8 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                 {currentSlide === 2 && (
                   <div className="space-y-4">
                     {!predictionMade ? (
-                      <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/50">
-                        <p className="text-xs font-bold text-indigo-300 uppercase mb-2">Predict-Then-Check Hook</p>
+                      <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/50">
+                        <p className="text-xs font-bold text-gold-300 uppercase mb-2">Predict-Then-Check Hook</p>
                         <p className="text-sm text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-2">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1944,7 +1944,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                       setCurrentSlide(s => s + 1);
                       audioManager.play('pop');
                     }}
-                    className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md hover:bg-indigo-500"
+                    className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md hover:bg-gold-500"
                     aria-label="Next Slide"
                   >
                     Next Lab →
@@ -2011,7 +2011,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                   max="100"
                   value={mechanisationLevel}
                   onChange={(e) => setMechanisationLevel(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox Mechanisation"
                 />
                 <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300">
@@ -2059,7 +2059,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                   ? 'bg-emerald-950 text-emerald-400 border-emerald-600'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950 text-rose-400 border-rose-600'
-                  : 'bg-indigo-950 text-indigo-400 border-indigo-600'
+                  : 'bg-gold-950 text-gold-400 border-gold-600'
               }`}
             >
               Tier: {difficulty}
@@ -2069,7 +2069,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-amber-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-amber-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -2126,7 +2126,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-xl cursor-grab active:cursor-grabbing shadow-md"
                       role="button"
                       aria-label={`Drag item ${item.label}`}
                     >
@@ -2251,7 +2251,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-xl"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-xl"
                       aria-label={`Add part ${part}`}
                     >
                       + {part}
@@ -2349,7 +2349,7 @@ function C9_HistoryCivicsCompositeCultureFactorsSim(props: Props = DEFAULT_PROPS
       ────────────────────────────────────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 sm:p-8 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-3xl border border-emerald-500/40 text-center space-y-4">
+          <div className="p-6 sm:p-8 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-500/40 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Epoch Mastery Achieved!</h2>
             

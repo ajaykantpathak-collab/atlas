@@ -11,7 +11,7 @@ export const w_c12_appliedmathsintegrationapplicationssim: SimDef = {
     classLevel: 12, subject: 'science', topic: 'Fundamental Theorem of Calculus: Part 1',
     chapters: [],
     nodeIds: ['c12_math_cbse_07_008', 'c12_math_cbse_07_009', 'c12_math_cbse_07_010', 'c12_math_cbse_08_006', 'c12_math_cbse_02_007', 'c12_math_cbse_02_008', 'c12_math_cbse_05_008', 'c12_math_cbse_07_001', 'c12_math_cbse_07_002', 'c12_math_cbse_07_003', 'c12_math_cbse_07_004', 'c12_math_cbse_07_005', 'c12_math_cbse_07_006', 'c12_math_cbse_07_007', 'c12_math_cbse_07_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are tracking the distance travelled by a car from your home in Delhi to a friend\'s house in.', goal: 'Master Fundamental Theorem of Calculus: Part 1.' },
     discovery: {
         question: 'A student simplifies $\\tan^{-1}\\left(\\sqrt{\\frac{1-\\cos x}{1+\\cos x}}\\right)$ directly to $\\frac{x}{2}$ without any condition on $x$.',
@@ -20,7 +20,7 @@ export const w_c12_appliedmathsintegrationapplicationssim: SimDef = {
         hook: '**The "Range Ignorance" Error:** Students mechanically apply $\\sin^{-1}(\\sin\\theta) = \\theta$, $\\tan^{-1}(\\tan\\theta) =.',
     },
     teaching: [
-        { title: 'The Fundamental Theorem of Calculus (Part 1).', text: 'The Fundamental Theorem of Calculus (Part 1) states that if \\( f \\) is a continuous real-valued function defined on a closed interval \\([a, b]\\), and \\( A(x) \\) is the area function defined by \\(.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Fundamental Theorem of Calculus (Part 1).', text: 'The Fundamental Theorem of Calculus (Part 1) states that if \\( f \\) is a continuous real-valued function defined on a closed interval \\([a, b]\\), and \\( A(x) \\) is the area function defined by \\(.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_07_008', title: 'The Fundamental Theorem of Calculus.',

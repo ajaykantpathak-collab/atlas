@@ -11,7 +11,7 @@ export const w_c11_historywritingcitylifesim: SimDef = {
     classLevel: 11, subject: 'history', topic: 'The Temple and the Palace as Centres of Power',
     chapters: [],
     nodeIds: ['c11_hist_cbse_01_005', 'c11_hist_cbse_01_001', 'c11_hist_cbse_01_004', 'c11_hist_cbse_01_010', 'c11_hist_cbse_01_002', 'c11_hist_cbse_01_003', 'c11_hist_cbse_01_011', 'c11_hist_cbse_01_006', 'c11_hist_cbse_01_009', 'c11_hist_cbse_07_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at the Great Bath of Mohenjo-daro from your Class 6 studies — a massive public.', goal: 'Master The Temple and the Palace as Centres of Power.' },
     discovery: {
         question: 'Why did the temple in southern Mesopotamia gradually take on economic functions like oil pressing, grain grinding, and textile weaving, rather than remaining.',
@@ -20,7 +20,7 @@ export const w_c11_historywritingcitylifesim: SimDef = {
         hook: 'Students believe the temple and palace were separate, competing institutions from the start — like "church vs state" in.',
     },
     teaching: [
-        { title: 'The Temple and the Palace as Centres of.', text: 'The Temple and the Palace as Centres of Power refers to the dual institutional framework in early Mesopotamian city-states (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Temple and the Palace as Centres of.', text: 'The Temple and the Palace as Centres of Power refers to the dual institutional framework in early Mesopotamian city-states (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hist_cbse_01_005', title: 'The Temple and the Palace as Centres of.',

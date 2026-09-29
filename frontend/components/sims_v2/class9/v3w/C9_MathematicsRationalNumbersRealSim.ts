@@ -11,7 +11,7 @@ export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
     classLevel: 9, subject: 'mathematics', topic: 'Natural Numbers and the Discovery of Zero',
     chapters: [],
     nodeIds: ['c9_math_ch3_1', 'c9_math_ch3_2', 'c9_math_ch3_5', 'c9_math_ch3_6', 'c9_math_ch3_9', 'c9_math_ch3_3', 'c9_math_ch3_4', 'c9_math_ch3_7', 'c9_math_ch3_8', 'c9_math_ch3_10', 'c9_math_ch3_11', 'c9_math_ch1_7', 'c9_math_ch4_3', 'c9_math_ch1_3', 'c9_math_ch1_4'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 teacher asks: "If you have ₹50 and spend exactly ₹50, how much money do you have left?" You.', goal: 'Master Natural Numbers and the Discovery of Zero.' },
     discovery: {
         question: 'State the additive inverse of $-17$ and explain what happens when you add an integer to its additive inverse.',
@@ -20,7 +20,7 @@ export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
         hook: 'Students treat subtraction of a negative integer as subtraction of its absolute value.',
     },
     teaching: [
-        { title: 'Natural numbers (denoted by ℕ) are the set.', text: 'Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and quantifying discrete objects.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Natural numbers (denoted by ℕ) are the set.', text: 'Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and quantifying discrete objects.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_math_ch3_1', title: 'Natural numbers (denoted by ℕ) are the.',

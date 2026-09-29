@@ -1094,11 +1094,11 @@ function C12_ComputerScienceBinarySearchTreeSim({
       {/* ─── SYSTEM HEADER ─── */}
       <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 border border-cyan-700 rounded-2xl">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/60 border border-gold-700 rounded-2xl">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-xl font-extrabold text-white tracking-wide">{title}</h1>
-              <span className="px-2 py-0.5 text-xs font-semibold bg-cyan-900/60 text-cyan-300 border border-cyan-700 rounded-md">ISC Class 12</span>
+              <span className="px-2 py-0.5 text-xs font-semibold bg-gold-900/60 text-gold-300 border border-gold-700 rounded-md">ISC Class 12</span>
             </div>
             <p className="text-xs text-slate-400 mt-0.5">NEP 2020 Competency Architecture • 10 Core Syllabus Nodes Covered</p>
           </div>
@@ -1120,7 +1120,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
             Tier: {difficulty}
           </motion.span>
           <span className="text-xs text-slate-400 bg-slate-900 px-3 py-1 rounded-full border border-slate-700">
-            Mastery: <strong className="text-cyan-400">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-400">{masteryLevel}</strong>
           </span>
         </div>
       </div>
@@ -1131,8 +1131,8 @@ function C12_ComputerScienceBinarySearchTreeSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-4 space-y-4">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-cyan-950/60 border border-indigo-700/60 rounded-2xl">
-            <span className="text-xs font-bold text-indigo-400 tracking-wider uppercase">Mission Scenario Hook</span>
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-gold-950/60 border border-gold-700/60 rounded-2xl">
+            <span className="text-xs font-bold text-gold-400 tracking-wider uppercase">Mission Scenario Hook</span>
             <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-xs text-slate-400 mt-2 bg-slate-950/60 p-3 rounded-xl border border-slate-800">
@@ -1164,7 +1164,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       : 'bg-slate-800/80 border-slate-700 hover:bg-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1179,7 +1179,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-cyan-900/40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-900/40"
                 >
                   Launch Interactive Labs →
                 </motion.button>
@@ -1194,7 +1194,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-4 space-y-4">
           <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-cyan-400 font-bold text-sm">Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
+              <span className="text-gold-400 font-bold text-sm">Lab Step {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
               <span className="text-white font-semibold text-sm">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex gap-1.5">
@@ -1202,7 +1202,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                 <div
                   key={idx}
                   onClick={() => setCurrentSlide(idx)}
-                  className={`h-2 rounded-full cursor-pointer transition-all ${idx === currentSlide ? 'w-8 bg-cyan-400' : 'w-2 bg-slate-700'}`}
+                  className={`h-2 rounded-full cursor-pointer transition-all ${idx === currentSlide ? 'w-8 bg-gold-400' : 'w-2 bg-slate-700'}`}
                 />
               ))}
             </div>
@@ -1218,8 +1218,8 @@ function C12_ComputerScienceBinarySearchTreeSim({
               <div className="space-y-4">
                 {/* PREDICTION HOOK */}
                 {!predictionMade && (
-                  <div className="p-4 bg-indigo-950/50 border border-indigo-700 rounded-xl space-y-2">
-                    <p className="text-xs font-bold text-indigo-300 uppercase">Predict-Then-Check</p>
+                  <div className="p-4 bg-gold-950/50 border border-gold-700 rounded-xl space-y-2">
+                    <p className="text-xs font-bold text-gold-300 uppercase">Predict-Then-Check</p>
                     <p className="text-sm text-white">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1240,7 +1240,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                 {/* Real-time Slider */}
                 <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                   <div className="flex justify-between items-center text-xs">
-                    <span className="text-slate-400 font-mono">Move Search Target: <strong className="text-cyan-400 text-sm">{searchTarget}</strong></span>
+                    <span className="text-slate-400 font-mono">Move Search Target: <strong className="text-gold-400 text-sm">{searchTarget}</strong></span>
                     <span className="text-slate-400 font-mono">Traversal Path: <span className="text-emerald-400 font-bold">[{bstSearchPath.join(' -> ')}]</span></span>
                   </div>
                   <input
@@ -1250,7 +1250,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                     value={searchTarget}
                     onChange={(e) => handleSearchTargetChange(Number(e.target.value))}
                     aria-label="Set BST Search Target"
-                    className="w-full accent-cyan-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
                   />
                 </div>
 
@@ -1335,7 +1335,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                         speechManager.speak(`Simulating ${type} imbalance case.`);
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border transition-all ${
-                        avlSequence === type ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                        avlSequence === type ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
                       {type} Case Demo
@@ -1416,7 +1416,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => handleHeapNodeClick(idx)}
                         className={`px-3 py-2 rounded-lg font-mono text-xs border ${
-                          selectedHeapIndex === idx ? 'bg-cyan-600 text-white border-cyan-300 font-bold' : 'bg-slate-800 text-slate-300 border-slate-700'
+                          selectedHeapIndex === idx ? 'bg-gold-600 text-white border-gold-300 font-bold' : 'bg-slate-800 text-slate-300 border-slate-700'
                         }`}
                       >
                         <div className="text-[10px] text-slate-400">i={idx}</div>
@@ -1489,7 +1489,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       audioManager.play('tap');
                     }}
                     className={`px-4 py-2 rounded-xl text-xs font-bold border ${
-                      hashStrategy === 'chaining' ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                      hashStrategy === 'chaining' ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                     }`}
                   >
                     Separate Chaining
@@ -1502,7 +1502,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                     {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((bucket) => {
                       return (
                         <div key={bucket} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
-                          <span className="text-[10px] text-cyan-400 font-mono font-bold block">Bucket {bucket}:</span>
+                          <span className="text-[10px] text-gold-400 font-mono font-bold block">Bucket {bucket}:</span>
                           <div className="mt-1 text-xs font-mono">
                             {hashStrategy === 'linear' ? (
                               bucket === 2 ? (
@@ -1520,11 +1520,11 @@ function C12_ComputerScienceBinarySearchTreeSim({
                               )
                             ) : (
                               bucket === 2 ? (
-                                <span className="text-cyan-300 font-mono text-[11px]">12 → 22 → 32</span>
+                                <span className="text-gold-300 font-mono text-[11px]">12 → 22 → 32</span>
                               ) : bucket === 5 ? (
-                                <span className="text-cyan-300 font-mono">45</span>
+                                <span className="text-gold-300 font-mono">45</span>
                               ) : bucket === 7 ? (
-                                <span className="text-cyan-300 font-mono">67</span>
+                                <span className="text-gold-300 font-mono">67</span>
                               ) : (
                                 <span className="text-slate-600">null</span>
                               )
@@ -1549,7 +1549,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleCitySelect(city)}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border ${
-                        selectedCity === city ? 'bg-cyan-600 text-white border-cyan-400' : 'bg-slate-800 text-slate-300 border-slate-700'
+                        selectedCity === city ? 'bg-gold-600 text-white border-gold-400' : 'bg-slate-800 text-slate-300 border-slate-700'
                       }`}
                     >
                       Route to {city}
@@ -1612,7 +1612,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs rounded-xl shadow-lg shadow-cyan-900/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg shadow-gold-900/30"
               >
                 Next Lab →
               </motion.button>
@@ -1633,14 +1633,14 @@ function C12_ComputerScienceBinarySearchTreeSim({
       {/* ─── PHASE 3: FREE PLAY SANDBOX MODE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-4 space-y-4">
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-700/50 rounded-2xl">
-            <h2 className="text-lg font-bold text-cyan-300">Architect Sandbox & Dynamic Programming Workbench</h2>
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-700/50 rounded-2xl">
+            <h2 className="text-lg font-bold text-gold-300">Architect Sandbox & Dynamic Programming Workbench</h2>
             <p className="text-xs text-slate-300 mt-1">Zero grading pressure. Test bottom-up DP tabulation, Fibonacci memoization tables, and tree branches freely.</p>
           </div>
 
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex justify-between items-center text-xs">
-              <span className="text-slate-300 font-mono">Set DP Fibonacci Target (n): <strong className="text-cyan-400 text-sm">{fibN}</strong></span>
+              <span className="text-slate-300 font-mono">Set DP Fibonacci Target (n): <strong className="text-gold-400 text-sm">{fibN}</strong></span>
               <span className="text-emerald-400 font-mono font-bold">Computed fib({fibN}) = {fibTable[fibN]}</span>
             </div>
             <input
@@ -1650,7 +1650,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
               value={fibN}
               onChange={(e) => setFibN(Number(e.target.value))}
               aria-label="Set Fibonacci N"
-              className="w-full accent-cyan-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
+              className="w-full accent-gold-400 h-2 bg-slate-800 rounded-lg cursor-pointer"
             />
 
             {/* DP Tabulation Table */}
@@ -1660,7 +1660,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                 {fibTable.map((val, idx) => (
                   <div key={idx} className="px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-center font-mono">
                     <span className="text-[10px] text-slate-500 block">i={idx}</span>
-                    <span className="text-xs text-cyan-300 font-bold">{val}</span>
+                    <span className="text-xs text-gold-300 font-bold">{val}</span>
                   </div>
                 ))}
               </div>
@@ -1687,13 +1687,13 @@ function C12_ComputerScienceBinarySearchTreeSim({
               <span className="text-slate-300 font-bold">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2.5 py-0.5 bg-cyan-950 text-cyan-300 border border-cyan-700 rounded-md uppercase font-semibold text-[10px]">
+              <span className="px-2.5 py-0.5 bg-gold-950 text-gold-300 border border-gold-700 rounded-md uppercase font-semibold text-[10px]">
                 NEP Competency: {activeChallenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1724,7 +1724,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                         : 'bg-slate-800/80 border-slate-700 hover:bg-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1743,7 +1743,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing border border-indigo-400 shadow-md"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing border border-gold-400 shadow-md"
                     >
                       :: {item.label}
                     </motion.div>
@@ -1761,7 +1761,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       }`}
                     >
                       <span className="text-xs font-mono text-slate-400 capitalize">{targetId.replace('case_', 'Case: ').replace('ds_', 'Algorithm: ')}</span>
-                      <span className="text-xs font-bold text-cyan-300 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-700">
+                      <span className="text-xs font-bold text-gold-300 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-700">
                         {droppedLabels[targetId] || 'Drop Label Here'}
                       </span>
                     </div>
@@ -1772,7 +1772,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Target Mappings
                 </motion.button>
@@ -1800,7 +1800,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 flex items-center gap-3 cursor-grab text-xs text-slate-200"
                     >
-                      <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-700 flex items-center justify-center font-bold">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-400 border border-gold-700 flex items-center justify-center font-bold">
                         {displayIdx + 1}
                       </span>
                       {item}
@@ -1815,7 +1815,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                     const ans = sortArrangement.length > 0 ? sortArrangement : activeChallenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(ans);
                   }}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl"
                 >
                   Confirm Sorted Sequence
                 </motion.button>
@@ -1831,7 +1831,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-cyan-400 outline-none w-64"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-400 outline-none w-64"
                   />
                   <span className="text-xs text-slate-400 font-bold">{activeChallenge.unit}</span>
                   <motion.button
@@ -1839,7 +1839,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl"
                   >
                     Submit Value
                   </motion.button>
@@ -1858,7 +1858,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-cyan-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -1867,7 +1867,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((p, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-900/60 border border-indigo-500 rounded-md font-mono text-xs text-white flex items-center gap-2">
+                    <span key={idx} className="px-3 py-1 bg-gold-900/60 border border-gold-500 rounded-md font-mono text-xs text-white flex items-center gap-2">
                       {p}
                       <button onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))} className="text-rose-400 hover:text-rose-300 text-xs font-bold">
                         ✕
@@ -1882,7 +1882,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Formula Construction
                 </motion.button>
@@ -1933,7 +1933,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
       {/* ─── PHASE 5: COMPLETION & REAL-WORLD CERTIFICATION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-4 space-y-5">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-cyan-950/80 border border-emerald-600/70 rounded-2xl text-center space-y-2">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-gold-950/80 border border-emerald-600/70 rounded-2xl text-center space-y-2">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Curriculum Certification Achieved!</h2>
             <p className="text-slate-300 text-sm">You have demonstrated ISC Class 12 Computer Science mastery across all 10 Data Structure & Algorithm units.</p>
@@ -1944,11 +1944,11 @@ function C12_ComputerScienceBinarySearchTreeSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Adaptive Tier</span>
-                <span className="text-xl font-bold text-cyan-400 uppercase">{difficulty}</span>
+                <span className="text-xl font-bold text-gold-400 uppercase">{difficulty}</span>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">BKT Mastery</span>
-                <span className="text-xl font-bold text-indigo-300 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-300 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
@@ -1961,7 +1961,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
               </p>
             )}
             {errors >= 1 && errors <= 3 && (
-              <p className="text-cyan-300 font-bold">
+              <p className="text-gold-300 font-bold">
                 🎯 Great work! Outstanding problem-solving intuition across complex tree rotations, graph algorithms, and DP subproblems.
               </p>
             )}
@@ -1978,23 +1978,23 @@ function C12_ComputerScienceBinarySearchTreeSim({
           </div>
 
           {/* Spaced Repetition Schedule (Prominently Visible) */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/80 via-purple-950/60 to-slate-900 border-2 border-indigo-500/80 rounded-2xl shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-r from-gold-950/80 via-purple-950/60 to-slate-900 border-2 border-gold-500/80 rounded-2xl shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2.5">
                 <span className="text-2xl">🧠</span>
                 <div>
-                  <h3 className="text-sm font-bold text-indigo-200 uppercase tracking-wider">Spaced Repetition Schedule</h3>
-                  <p className="text-xs text-indigo-300/80">SM-2 Adaptive Memory Retention Algorithm</p>
+                  <h3 className="text-sm font-bold text-gold-200 uppercase tracking-wider">Spaced Repetition Schedule</h3>
+                  <p className="text-xs text-gold-300/80">SM-2 Adaptive Memory Retention Algorithm</p>
                 </div>
               </div>
-              <span className="px-3.5 py-1 bg-indigo-500/20 text-indigo-300 border border-indigo-400/50 rounded-full text-xs font-extrabold uppercase tracking-wide">
+              <span className="px-3.5 py-1 bg-gold-500/20 text-gold-300 border border-gold-400/50 rounded-full text-xs font-extrabold uppercase tracking-wide">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </span>
             </div>
-            <div className="p-3.5 bg-slate-950/80 rounded-xl border border-indigo-900/50 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-2">
+            <div className="p-3.5 bg-slate-950/80 rounded-xl border border-gold-900/50 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-2">
               <span>
                 Based on your diagnostic score ({errors} error{errors === 1 ? '' : 's'}), your next review is scheduled:{' '}
-                <strong className="text-cyan-400">
+                <strong className="text-gold-400">
                   {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
                 </strong>{' '}
                 to lock in long-term retention.
@@ -2007,7 +2007,7 @@ function C12_ComputerScienceBinarySearchTreeSim({
 
           {/* Reflection Section */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300">🤔 Reflection</h3>
+            <h3 className="text-sm font-bold text-gold-300">🤔 Reflection</h3>
             <div className="space-y-3">
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-1">
                 <p className="font-semibold text-white">What was the most surprising thing you learned?</p>
@@ -2047,12 +2047,12 @@ function C12_ComputerScienceBinarySearchTreeSim({
 
           {/* Real-World Blueprint */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-cyan-300">🏗️ {REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">🏗️ {REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-cyan-400 mr-1.5">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

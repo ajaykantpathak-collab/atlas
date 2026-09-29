@@ -57,7 +57,7 @@ const TEACHING_SLIDES = [
     title: 'Always Start with the Ones! 🥇',
     text: 'When adding or subtracting two-digit numbers, ALWAYS start with the ones column on the right! If ones add up to 10 or more, carry 1 ten over. In subtraction, if top ones is smaller, borrow 1 ten!',
     emoji: '🔢',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Always start with the ones column on the right! Carry over or borrow when needed!',
   },
   {

@@ -113,7 +113,7 @@ export function C7_MathsVisualisingSolidShapesSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <header className="flex flex-wrap justify-between gap-2 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 7 Maths - Visualising Solid Shapes</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 7 Maths - Visualising Solid Shapes</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Net Folder: Flat Sheet to Solid</h1>
         </div>
         <button onClick={() => { setFold(0); setTheta(0.6); setSpin(true); setName('Cube'); }}
@@ -141,16 +141,16 @@ export function C7_MathsVisualisingSolidShapesSim() {
             </select>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
-                <span>Fold</span><span className="font-mono text-indigo-300">{Math.round(fold * 100)}%</span>
+                <span>Fold</span><span className="font-mono text-gold-300">{Math.round(fold * 100)}%</span>
               </label>
               <input type="range" min={0} max={100} value={Math.round(fold * 100)} aria-label="fold"
-                onChange={(e) => setFold(Number(e.target.value) / 100)} className="w-full mt-1 min-h-11 accent-indigo-500" />
+                onChange={(e) => setFold(Number(e.target.value) / 100)} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div className="flex gap-2">
-              <button onClick={() => setFold(fold > 0.5 ? 0 : 1)} className="flex-1 min-h-11 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-xs font-bold transition-all">
+              <button onClick={() => setFold(fold > 0.5 ? 0 : 1)} className="flex-1 min-h-11 rounded-xl bg-gold-600 hover:bg-gold-500 text-xs font-bold transition-all">
                 {fold > 0.5 ? 'Unfold' : 'Snap fold'}
               </button>
-              <button onClick={() => setSpin((s) => !s)} className={`flex-1 min-h-11 rounded-xl text-xs font-bold border transition-all ${spin ? 'bg-violet-600 border-violet-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300'}`}>
+              <button onClick={() => setSpin((s) => !s)} className={`flex-1 min-h-11 rounded-xl text-xs font-bold border transition-all ${spin ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-950 border-slate-700 text-slate-300'}`}>
                 Spin {spin ? 'ON' : 'OFF'}
               </button>
             </div>
@@ -160,7 +160,7 @@ export function C7_MathsVisualisingSolidShapesSim() {
             <div className="grid grid-cols-3 gap-2 text-center">
               <div className="p-2 rounded-xl bg-slate-950 border border-slate-800"><p className="text-[11px] text-slate-400">Faces</p><p className="font-mono text-xl text-amber-300">{solid.F}</p></div>
               <div className="p-2 rounded-xl bg-slate-950 border border-slate-800"><p className="text-[11px] text-slate-400">Edges</p><p className="font-mono text-xl text-emerald-300">{solid.E}</p></div>
-              <div className="p-2 rounded-xl bg-slate-950 border border-slate-800"><p className="text-[11px] text-slate-400">Vertices</p><p className="font-mono text-xl text-indigo-300">{solid.V}</p></div>
+              <div className="p-2 rounded-xl bg-slate-950 border border-slate-800"><p className="text-[11px] text-slate-400">Vertices</p><p className="font-mono text-xl text-gold-300">{solid.V}</p></div>
             </div>
             <p className="text-xs mt-3 font-mono text-slate-200">V - E + F = {solid.V} - {solid.E} + {solid.F} = <span className="text-emerald-400 font-bold">{solid.V - solid.E + solid.F}</span></p>
             <p className="text-xs mt-1 text-slate-400">The flat net shows <span className="font-mono text-amber-300">{netEdges}</span> edge pieces; folded, pairs glue into <span className="font-mono text-emerald-300">{solid.E}</span> true edges.</p>
@@ -172,7 +172,7 @@ export function C7_MathsVisualisingSolidShapesSim() {
         </div>
       </div>
 
-      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200">
+      <footer className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Fold the square pyramid to 100% and read V, E, F -- check by hand that V - E + F still equals 2, then find which face was the base in the net.</p>
         <p className="mt-1">2. Pause spin, fold the triangular prism to 50% and predict: how many edge pairs still need to glue before the net closes?</p>

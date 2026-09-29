@@ -30,10 +30,10 @@ import { Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/
 // ─── Teaching slides (from enrichment DEFINITION + TEXT_WALKTHROUGH) ──
 const TEACHING_SLIDES = [
     { title: 'What is Biology? 🧬', text: 'Biology is the science of LIFE! It studies all living things - from tiny bacteria to tall trees, from small insects to giant elephants. Everything that is alive is part of biology!', emoji: '🧬', bgColor: 'from-green-400 to-emerald-500' },
-    { title: 'Living vs Non-Living 🌿', text: 'Living things GROW, need FOOD, can MOVE, BREATHE, REPRODUCE (make babies), and RESPOND to their surroundings. Non-living things like rocks and tables do not do these things!', emoji: '🌱', bgColor: 'from-teal-400 to-cyan-500' },
+    { title: 'Living vs Non-Living 🌿', text: 'Living things GROW, need FOOD, can MOVE, BREATHE, REPRODUCE (make babies), and RESPOND to their surroundings. Non-living things like rocks and tables do not do these things!', emoji: '🌱', bgColor: 'from-teal-400 to-gold-500' },
     { title: 'Amazing Body Organs 🫀', text: 'Your body has amazing organs! The HEART pumps blood, the LUNGS help you breathe, the BRAIN thinks and controls everything, and the SKIN protects you. There are 206 bones and about 600 muscles!', emoji: '🫀', bgColor: 'from-rose-400 to-pink-500' },
     { title: 'Four Food Groups 🍎', text: 'Food gives us ENERGY! There are FOUR food groups: Carbohydrates (rice, bread) for energy, Proteins (eggs, beans) for growth, Vitamins (fruits, vegetables) for health, and Fats (butter, oil) for warmth!', emoji: '🍎', bgColor: 'from-amber-400 to-orange-500' },
-    { title: 'Health and Hygiene 🧼', text: 'Stay clean and healthy! Brush teeth TWICE daily, wash hands before eating, bathe every day, eat balanced meals, drink clean water, and sleep 8-10 hours. A healthy body learns better!', emoji: '🧼', bgColor: 'from-blue-400 to-indigo-500' },
+    { title: 'Health and Hygiene 🧼', text: 'Stay clean and healthy! Brush teeth TWICE daily, wash hands before eating, bathe every day, eat balanced meals, drink clean water, and sleep 8-10 hours. A healthy body learns better!', emoji: '🧼', bgColor: 'from-gold-400 to-gold-500' },
 ];
 // ─── Types ────────────────────────────────────────────────────
 type GameScreen = 'teaching' | 'play';

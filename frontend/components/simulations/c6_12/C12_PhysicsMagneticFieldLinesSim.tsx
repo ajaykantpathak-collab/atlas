@@ -1136,13 +1136,13 @@ export default function C12_PhysicsMagneticFieldLinesSim({
         <div className="flex items-center gap-3">
           <motion.div 
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-800/60">
+              <span className="text-xs font-semibold uppercase tracking-wider text-gold-400 bg-gold-950/60 px-2.5 py-0.5 rounded-full border border-gold-800/60">
                 ISC Class 12 Physics (Science)
               </span>
               <span className="text-xs text-slate-400">NEP 2020 Competency Aligned</span>
@@ -1163,7 +1163,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-700'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-700'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-700'
               }`}
             >
               Tier: {difficulty}
@@ -1185,13 +1185,13 @@ export default function C12_PhysicsMagneticFieldLinesSim({
           className="mt-6 space-y-6"
         >
           {/* Mission Scenario Banner */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 border border-indigo-800/50 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 border border-gold-800/50 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🚅</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-slate-800 text-xs text-gold-200">
               <strong>Operational Goal:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1217,10 +1217,10 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/40'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
@@ -1240,7 +1240,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Proceed to interactive exploration lab"
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Launch Interactive Physics Labs →
                 </motion.button>
@@ -1266,7 +1266,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   onClick={() => setCurrentSlide(idx)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md'
+                      ? 'bg-gold-600 text-white shadow-md'
                       : 'bg-slate-800 text-slate-400 hover:bg-slate-750'
                   }`}
                 >
@@ -1288,7 +1288,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
               className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+                <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                   <span>🔬</span> {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-xs sm:text-sm text-amber-300 mt-1 font-medium">
@@ -1348,7 +1348,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                           onClick={() => setProbeAxis('axial')}
                           className={`flex-1 py-2 text-xs font-bold rounded-xl border ${
                             probeAxis === 'axial'
-                              ? 'bg-indigo-600 border-indigo-500 text-white'
+                              ? 'bg-gold-600 border-gold-500 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1358,7 +1358,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                           onClick={() => setProbeAxis('equatorial')}
                           className={`flex-1 py-2 text-xs font-bold rounded-xl border ${
                             probeAxis === 'equatorial'
-                              ? 'bg-indigo-600 border-indigo-500 text-white'
+                              ? 'bg-gold-600 border-gold-500 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1377,7 +1377,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                           max={15}
                           value={probeDistance}
                           onChange={(e) => setProbeDistance(Number(e.target.value))}
-                          className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         />
                       </div>
 
@@ -1386,7 +1386,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                         <div className="text-xl font-extrabold text-white">
                           B = {(calculatedDipoleField * 1e6).toFixed(1)} <span className="text-sm font-normal text-slate-400">μT (microteslas)</span>
                         </div>
-                        <div className="text-xs text-indigo-300 font-mono">
+                        <div className="text-xs text-gold-300 font-mono">
                           {probeAxis === 'axial'
                             ? 'B_end = (μ₀/4π) · (2m / r³) [Along dipole moment]'
                             : 'B_broad = (μ₀/4π) · (m / r³) [Opposite to dipole moment]'}
@@ -1397,15 +1397,15 @@ export default function C12_PhysicsMagneticFieldLinesSim({
 
                   {/* Observation hook */}
                   {!observationAnswered && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
+                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
                       <p className="text-sm font-semibold text-white">🔎 Scientific Observation Question:</p>
-                      <p className="text-xs text-indigo-200">{OBSERVATION_QUESTIONS[0].question}</p>
+                      <p className="text-xs text-gold-200">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <button
                             key={i}
                             onClick={() => handleObservation(i)}
-                            className="p-2.5 text-left text-xs bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-xl text-slate-200 hover:border-indigo-400 transition"
+                            className="p-2.5 text-left text-xs bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-xl text-slate-200 hover:border-gold-400 transition"
                           >
                             {opt}
                           </button>
@@ -1445,7 +1445,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                         </motion.div>
 
                         {/* South Pole */}
-                        <div className="w-20 h-28 bg-blue-900 border-2 border-blue-500 rounded-l-2xl flex items-center justify-center text-white font-black text-xl shadow-lg">
+                        <div className="w-20 h-28 bg-gold-900 border-2 border-gold-500 rounded-l-2xl flex items-center justify-center text-white font-black text-xl shadow-lg">
                           S
                         </div>
                       </div>
@@ -1470,7 +1470,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                             onClick={() => setSelectedMaterial(mat)}
                             className={`flex-1 py-2 text-xs font-bold rounded-xl border capitalize ${
                               selectedMaterial === mat
-                                ? 'bg-indigo-600 border-indigo-500 text-white'
+                                ? 'bg-gold-600 border-gold-500 text-white'
                                 : 'bg-slate-800 border-slate-700 text-slate-300'
                             }`}
                           >
@@ -1562,7 +1562,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                       <div>
                         <div className="flex justify-between text-xs text-slate-300 mb-1">
                           <span>Magnetic Field B:</span>
-                          <span className="font-bold text-indigo-400">{magFieldB} Tesla</span>
+                          <span className="font-bold text-gold-400">{magFieldB} Tesla</span>
                         </div>
                         <input
                           type="range"
@@ -1571,7 +1571,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                           step={0.1}
                           value={magFieldB}
                           onChange={(e) => setMagFieldB(Number(e.target.value))}
-                          className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                          className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         />
                       </div>
 
@@ -1580,7 +1580,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                         <div className="text-2xl font-black text-white">
                           Φ = {(calculatedMagneticFlux * 1000).toFixed(1)} <span className="text-sm font-normal text-slate-400">mWb</span>
                         </div>
-                        <div className="text-xs text-indigo-300 font-mono">
+                        <div className="text-xs text-gold-300 font-mono">
                           Φ = B · A · cos(θ) = {magFieldB} × 0.05 × cos({coilAngleDeg}°)
                         </div>
                       </div>
@@ -1711,7 +1711,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                         <div className="text-xl font-black text-white">
                           ε = {calculatedMotionalEMF.toFixed(2)} V | P = {calculatedRailPower.toFixed(2)} W
                         </div>
-                        <div className="text-xs text-indigo-300 font-mono">
+                        <div className="text-xs text-gold-300 font-mono">
                           ε = B · l · v | P = (B l v)² / R (Quadratic in velocity!)
                         </div>
                       </div>
@@ -1737,7 +1737,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold"
+                    className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold"
                   >
                     Next Lab →
                   </motion.button>
@@ -1767,7 +1767,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-6">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div>
-                <h3 className="text-lg font-bold text-indigo-300">🎮 Interactive Physics Sandbox</h3>
+                <h3 className="text-lg font-bold text-gold-300">🎮 Interactive Physics Sandbox</h3>
                 <p className="text-xs text-slate-400 mt-1">
                   Adjust variables simultaneously without test pressure. Observe how motional EMF, magnetic flux, and power change together.
                 </p>
@@ -1785,7 +1785,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
             {/* Combined Interactive Sandbox Panel */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <span className="text-xs font-bold text-indigo-400 uppercase">1. Field Intensity</span>
+                <span className="text-xs font-bold text-gold-400 uppercase">1. Field Intensity</span>
                 <input
                   type="range"
                   min={0.1}
@@ -1793,7 +1793,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   step={0.1}
                   value={magFieldB}
                   onChange={(e) => setMagFieldB(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="text-sm font-bold text-white">B = {magFieldB} T</div>
               </div>
@@ -1844,7 +1844,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
           {/* Challenge Top Bar */}
           <div className="flex items-center justify-between gap-4">
             <div>
-              <span className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+              <span className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                 Question {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <h2 className="text-base sm:text-lg font-bold text-white mt-0.5">
@@ -1855,7 +1855,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
             {/* Progress Pill */}
             <div className="w-32 sm:w-48 bg-slate-800 h-2.5 rounded-full overflow-hidden border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1891,10 +1891,10 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : showExplanation && i !== activeChallenge.correctIndex
                         ? 'bg-slate-950 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -1912,7 +1912,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1941,7 +1941,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify All Targets
                 </motion.button>
@@ -1967,7 +1967,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center font-bold text-indigo-400 text-xs">
+                    <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center font-bold text-gold-400 text-xs">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1979,7 +1979,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(sortArrangement.length ? sortArrangement : activeChallenge.sortItems!.map((_, i) => i))}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Submit Ordered Sequence
                 </motion.button>
@@ -1996,7 +1996,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated numerical value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white text-sm font-medium focus:border-indigo-500 outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white text-sm font-medium focus:border-gold-500 outline-none w-64"
                   />
                   <span className="text-sm font-bold text-slate-400">{activeChallenge.unit}</span>
                   <motion.button
@@ -2004,7 +2004,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-2xl shadow"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-2xl shadow"
                   >
                     Check Answer
                   </motion.button>
@@ -2022,7 +2022,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 rounded-lg text-xs font-bold text-white"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 rounded-lg text-xs font-bold text-white"
                     >
                       + {part}
                     </motion.button>
@@ -2031,7 +2031,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[60px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 rounded-lg text-xs font-bold text-indigo-200 flex items-center gap-1.5">
+                    <span key={idx} className="px-3 py-1 bg-gold-900/80 border border-gold-600 rounded-lg text-xs font-bold text-gold-200 flex items-center gap-1.5">
                       {part}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))} className="text-rose-400 font-bold ml-1">×</button>
                     </span>
@@ -2044,7 +2044,7 @@ export default function C12_PhysicsMagneticFieldLinesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Construction
                 </motion.button>
@@ -2116,9 +2116,9 @@ export default function C12_PhysicsMagneticFieldLinesSim({
             <h2 className="text-2xl font-black text-white">Electromagnetic Suite Completed!</h2>
 
             {/* Motivational Feedback */}
-            <div className="p-4 rounded-2xl bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 border border-indigo-700/60 max-w-md mx-auto">
-              <span className="text-xs uppercase tracking-wider text-indigo-400 font-bold block mb-1">Performance Assessment</span>
-              <p className={`text-xl font-extrabold ${errors === 0 ? 'text-emerald-400' : errors <= 3 ? 'text-indigo-300' : errors <= 7 ? 'text-amber-400' : 'text-rose-400'}`}>
+            <div className="p-4 rounded-2xl bg-gradient-to-r from-gold-950 via-slate-900 to-gold-950 border border-gold-700/60 max-w-md mx-auto">
+              <span className="text-xs uppercase tracking-wider text-gold-400 font-bold block mb-1">Performance Assessment</span>
+              <p className={`text-xl font-extrabold ${errors === 0 ? 'text-emerald-400' : errors <= 3 ? 'text-gold-300' : errors <= 7 ? 'text-amber-400' : 'text-rose-400'}`}>
                 {motivationalMessage}
               </p>
               <p className="text-xs text-slate-400 mt-1">Total errors encountered: {errors}</p>
@@ -2135,14 +2135,14 @@ export default function C12_PhysicsMagneticFieldLinesSim({
               </div>
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block">BKT Mastery Tier</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
             </div>
           </div>
 
           {/* Reflection Section */}
           <div className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Deep Concept Reflection
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -2195,15 +2195,15 @@ export default function C12_PhysicsMagneticFieldLinesSim({
           )}
 
           {/* Real-World Capstone Scenario Completion */}
-          <div className="p-6 bg-indigo-950/40 rounded-3xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gold-950/40 rounded-3xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🚆</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </li>
               ))}
             </ul>

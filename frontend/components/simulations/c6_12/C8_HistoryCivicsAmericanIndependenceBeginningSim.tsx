@@ -1218,7 +1218,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             {difficulty} Tier
@@ -1232,11 +1232,11 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
       {/* ─── PHASE 1: DISCOVERY (CURIOSITY HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Historical Case Arc</span>
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Historical Case Arc</span>
             <h2 className="text-xl font-bold text-white mt-1 mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-slate-900/80 rounded-xl border border-indigo-900/50 text-xs text-indigo-200">
+            <div className="p-3 bg-slate-900/80 rounded-xl border border-gold-900/50 text-xs text-gold-200">
               🎯 <strong>Mission:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1264,10 +1264,10 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-900/60 border-emerald-500 text-emerald-200'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-900 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                      : 'bg-slate-900 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 mr-1.5 font-bold">✓</span>}
                   {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="text-rose-400 mr-1.5 font-bold">✗</span>}
                   {opt}
@@ -1292,7 +1292,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-gradient-to-r from-amber-500 to-indigo-600 text-white font-bold rounded-xl text-sm whitespace-nowrap shadow-lg"
+                  className="px-6 py-2.5 bg-gradient-to-r from-amber-500 to-gold-600 text-white font-bold rounded-xl text-sm whitespace-nowrap shadow-lg"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1441,7 +1441,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                 <div className="space-y-4">
                   {/* PREDICTION HOOK */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/70 border border-indigo-700 rounded-xl space-y-2">
+                    <div className="p-4 bg-gold-950/70 border border-gold-700 rounded-xl space-y-2">
                       <p className="text-xs font-bold text-amber-300">PREDICT-THEN-CHECK:</p>
                       <p className="text-white text-xs font-medium">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
@@ -1496,7 +1496,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex justify-between items-center text-xs">
                       <label htmlFor="tariff-slider" className="text-slate-300">
-                        Protective Import Tariff on Foreign Goods: <strong className="text-indigo-400 font-mono text-sm">{tariffRate}%</strong>
+                        Protective Import Tariff on Foreign Goods: <strong className="text-gold-400 font-mono text-sm">{tariffRate}%</strong>
                       </label>
                       <span className="text-slate-400">Impact on regional economies in real-time</span>
                     </div>
@@ -1508,7 +1508,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                       max={50}
                       value={tariffRate}
                       onChange={(e) => handleTariffSlider(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1528,11 +1528,11 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                       onClick={() => handleCivilWarStateClick('union')}
                       className={`p-3 rounded-xl border text-left transition-all ${
                         selectedCivilWarState === 'union'
-                          ? 'bg-blue-950/80 border-blue-500 text-blue-200'
+                          ? 'bg-gold-950/80 border-gold-500 text-gold-200'
                           : 'bg-slate-900 border-slate-700 text-slate-300'
                       }`}
                     >
-                      <p className="text-xs font-bold text-blue-400">Union North</p>
+                      <p className="text-xs font-bold text-gold-400">Union North</p>
                       <p className="text-[11px] text-slate-400 mt-1">23 States • 110,000 factories • Wage labour</p>
                     </motion.button>
 
@@ -1695,7 +1695,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md"
               >
                 Next Lab →
               </motion.button>
@@ -1730,7 +1730,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-indigo-600 text-white text-xs font-black rounded-xl shadow-lg whitespace-nowrap"
+              className="px-6 py-2.5 bg-gradient-to-r from-emerald-500 to-gold-600 text-white text-xs font-black rounded-xl shadow-lg whitespace-nowrap"
             >
               I Am Ready for Challenges! 🎯
             </motion.button>
@@ -1739,7 +1739,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Box 1: US Tariff & Sectional Tension */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-blue-400">US Sectional Tariff Sandbox</span>
+              <span className="text-xs font-bold text-gold-400">US Sectional Tariff Sandbox</span>
               <div className="flex justify-between text-xs text-slate-300">
                 <span>Tariff Level: {tariffRate}%</span>
                 <span>North Profit: {northernIndustrialProfit}% | South Export: {southernExportMargin}%</span>
@@ -1751,7 +1751,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                 max={50}
                 value={tariffRate}
                 onChange={(e) => setTariffRate(Number(e.target.value))}
-                className="w-full accent-blue-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="p-2 bg-slate-900 rounded-lg text-[11px] text-slate-400">
                 Notice: Higher tariffs protect 110,000 Northern factories but trigger British retaliation on Southern cotton.
@@ -1794,7 +1794,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
               Challenge <strong>{currentChallenge + 1}</strong> of <strong>{filteredChallenges.length}</strong>
             </span>
             <div className="flex items-center gap-2">
-              <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-indigo-300 uppercase font-mono text-[10px]">
+              <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-gold-300 uppercase font-mono text-[10px]">
                 Competency: {challenge.competencyLevel}
               </span>
               <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-amber-300 uppercase font-mono text-[10px]">
@@ -1805,7 +1805,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
 
           <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
             <motion.div
-              className="bg-gradient-to-r from-amber-500 to-indigo-600 h-full rounded-full"
+              className="bg-gradient-to-r from-amber-500 to-gold-600 h-full rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1844,10 +1844,10 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                             ? 'bg-emerald-900/70 border-emerald-500 text-emerald-100 font-bold'
                             : isSelectedAndWrong
                             ? 'bg-rose-950/60 border-rose-800 text-slate-400'
-                            : 'bg-slate-900/90 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                            : 'bg-slate-900/90 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                         }`}
                       >
-                        <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                         {isCorrect && <span className="text-emerald-400 font-bold mr-2">✓</span>}
                         {isSelectedAndWrong && <span className="text-rose-400 font-bold mr-2">✗</span>}
                         {opt}
@@ -1870,7 +1870,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.03 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-semibold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-semibold shadow"
                     >
                       ✥ {item.label}
                     </motion.div>
@@ -1898,7 +1898,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Target Allocations
                 </motion.button>
@@ -1945,7 +1945,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                       sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i);
                     handleAnswer(ans);
                   }}
-                  className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Check Chronological Sequence
                 </motion.button>
@@ -1962,7 +1962,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value..."
-                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none"
+                    className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -1970,7 +1970,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                    className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                   >
                     Check Figure
                   </motion.button>
@@ -2020,7 +2020,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' + '))}
-                  className="px-5 py-2 bg-indigo-600 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Constructed Formula
                 </motion.button>
@@ -2092,7 +2092,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
       {/* ─── PHASE 5: COMPLETION & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 rounded-3xl border border-indigo-800 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 rounded-3xl border border-gold-800 shadow-2xl text-center space-y-3">
             <span className="text-4xl">🏛️</span>
             <h2 className="text-2xl font-black text-white">Module Completed with Distinction!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2112,7 +2112,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
           </div>
 
           {/* Personalized Motivational Feedback */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/60 to-indigo-950/60 rounded-2xl border border-amber-500/50 text-center space-y-1">
+          <div className="p-5 bg-gradient-to-r from-amber-950/60 to-gold-950/60 rounded-2xl border border-amber-500/50 text-center space-y-1">
             <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Performance Assessment</span>
             <h3 className="text-xl font-black text-white">
               {getMotivationalMessage(errors)}
@@ -2160,7 +2160,7 @@ function C8_HistoryCivicsAmericanIndependenceBeginningSim({
 
           {/* Real-World Activity Card */}
           <div className="p-5 bg-slate-800 rounded-2xl border border-slate-700 space-y-3">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Real-World Application</span>
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Real-World Application</span>
             <h3 className="text-sm font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400 pl-4 list-disc">

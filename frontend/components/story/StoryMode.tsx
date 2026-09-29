@@ -59,6 +59,7 @@ import AskResponseCard from '@/components/tutor/AskResponseCard';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { api } from '@/lib/api';
 import { useAuthStore } from '@/stores/authStore';
+import DiagramImage from '@/components/renderers/DiagramImage';
 // types only — the lite registry and the v3 engine load lazily at runtime
 import type { SimMeta } from '@/components/sims_v2/lite';
 import type { SimAnswerEvent, SimDef } from '@/components/sims_v2/engine/types';
@@ -177,7 +178,7 @@ interface PreparedQuestion {
 const SCENE_KICKER: Record<Scene['kind'], { key: 'kickerHook' | 'kickerIdea' | 'kickerExplore' | 'kickerExample' | 'kickerTrap' | 'kickerCheck' | 'kickerFinish'; cls: string }> = {
   hook: { key: 'kickerHook', cls: 'text-gold-300' },
   idea: { key: 'kickerIdea', cls: 'text-brand-300' },
-  explore: { key: 'kickerExplore', cls: 'text-sky-400' },
+  explore: { key: 'kickerExplore', cls: 'text-gold-400' },
   example: { key: 'kickerExample', cls: 'text-mint-300' },
   trap: { key: 'kickerTrap', cls: 'text-red-300' },
   check: { key: 'kickerCheck', cls: 'text-gold-300' },
@@ -925,10 +926,10 @@ function StoryStage({
                 {enrichment.mastery_criteria && (
                   <motion.div
                     variants={riseItem}
-                    className="mb-5 rounded-2xl border border-sky-500/25 bg-sky-500/[0.05] p-4 sm:p-5"
+                    className="mb-5 rounded-2xl border border-gold-500/25 bg-gold-500/[0.05] p-4 sm:p-5"
                     data-testid="feedup-header"
                   >
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-sky-300 mb-1.5">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-300 mb-1.5">
                       Your objective
                     </p>
                     <p className="text-sm sm:text-[15px] leading-relaxed text-slate-200">
@@ -986,14 +987,16 @@ function StoryStage({
               <IdeaScene scene={scene} terms={terms} Diagram={Diagram} diagramKey={`idea-${idx}`} />
             )}
 
-            {/* ── 3 · EXPLORE — feel it: matching sim embedded, or the
-                   node's own diagram enlarged (never a cross-subject sim) ── */}
+            {/* ── 3 · EXPLORE — feel it: matching sim embedded, the node's
+                   sourced diagram, or the node's own walkthrough beats
+                   enlarged (never a cross-subject sim) ── */}
             {scene.kind === 'explore' && (
               <ExploreScene
                 simMeta={simMeta}
                 diagram={heroDiagram}
                 beats={exploreBeats}
                 definition={(enrichment.definition || '').trim()}
+                nodeId={topicId}
                 Diagram={Diagram}
               />
             )}
@@ -1182,7 +1185,7 @@ function StoryStage({
             <button
               onClick={() => setListenMode(m => !m)}
               aria-pressed={listenMode}
-              className={`px-3 py-2.5 rounded-xl text-xs font-semibold transition-colors ${listenMode ? 'bg-indigo-500/25 text-indigo-300 border border-indigo-500/40' : 'bg-white/5 border border-white/10 text-surface-400'}`}
+              className={`px-3 py-2.5 rounded-xl text-xs font-semibold transition-colors ${listenMode ? 'bg-gold-500/25 text-gold-300 border border-gold-500/40' : 'bg-white/5 border border-white/10 text-surface-400'}`}
             >
               {listenMode ? '🔊 listening' : '🔊 listen'}
             </button>
@@ -1653,12 +1656,13 @@ const SimPlayer = dynamic(
 );
 
 function ExploreScene({
-  simMeta, diagram, beats, definition, Diagram,
+  simMeta, diagram, beats, definition, nodeId, Diagram,
 }: {
   simMeta: SimMeta | null | undefined;
   diagram: StoryDiagramSpec;
   beats: string[];
   definition: string;
+  nodeId: string;
   Diagram?: React.ComponentType<StoryDiagramProps>;
 }) {
   const t = useTranslations('story');
@@ -1670,7 +1674,7 @@ function ExploreScene({
           <div className="glass-card rounded-2xl p-6" data-testid="story-explore-loading" role="status">
             <div className="flex items-center gap-3">
               <motion.span
-                className="w-5 h-5 rounded-full border-2 border-sky-400/30 border-t-sky-400"
+                className="w-5 h-5 rounded-full border-2 border-gold-400/30 border-t-gold-400"
                 animate={{ rotate: 360 }}
                 transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
                 aria-hidden="true"
@@ -1683,22 +1687,27 @@ function ExploreScene({
         {simMeta && <SimEmbedCard meta={simMeta} />}
 
         {simMeta === null && (
-          <div className="glass-card rounded-2xl p-5 sm:p-8 border-l-4 border-sky-400/70" data-testid="story-explore-fallback">
+          <div className="glass-card rounded-2xl p-5 sm:p-8 border-l-4 border-gold-400/70" data-testid="story-explore-fallback">
             <p className="font-display text-xl sm:text-2xl font-bold text-white mb-1">
               {t('exploreFallbackTitle')}
             </p>
             <p className="text-xs sm:text-sm text-surface-600 mb-5 leading-relaxed">{t('exploreNoSim')}</p>
-            {Diagram && diagram ? (
-              <VisualBoundary resetKey="explore" fallback={<BeatCards beats={beats} />}>
-                <div className="rounded-2xl bg-white/[0.02] border border-white/[0.06] p-4 sm:p-6">
-                  <Diagram type={diagram.type} data={diagram.data} />
-                </div>
-              </VisualBoundary>
-            ) : beats.length ? (
-              <BeatCards beats={beats} />
-            ) : definition ? (
-              <RichText text={definition} className="text-base sm:text-lg text-slate-100 leading-relaxed" />
-            ) : null}
+            {/* The node's sourced diagram, when the index has one; otherwise
+                the same honest chain as before (engine diagram → beats → definition). */}
+            <DiagramImage
+              nodeId={nodeId}
+              renderFallback={() => (Diagram && diagram ? (
+                <VisualBoundary resetKey="explore" fallback={<BeatCards beats={beats} />}>
+                  <div className="rounded-2xl bg-white/[0.02] border border-white/[0.06] p-4 sm:p-6">
+                    <Diagram type={diagram.type} data={diagram.data} />
+                  </div>
+                </VisualBoundary>
+              ) : beats.length ? (
+                <BeatCards beats={beats} />
+              ) : definition ? (
+                <RichText text={definition} className="text-base sm:text-lg text-slate-100 leading-relaxed" />
+              ) : null)}
+            />
           </div>
         )}
       </motion.div>
@@ -1714,9 +1723,9 @@ function BeatCards({ beats }: { beats: string[] }) {
       {beats.map((b, i) => (
         <li
           key={i}
-          className="flex items-start gap-3 rounded-xl border border-sky-400/20 bg-sky-400/[0.04] px-4 py-3"
+          className="flex items-start gap-3 rounded-xl border border-gold-400/20 bg-gold-400/[0.04] px-4 py-3"
         >
-          <span className="shrink-0 w-7 h-7 rounded-lg bg-sky-400/15 border border-sky-400/30 text-sky-300 text-xs font-bold flex items-center justify-center font-display">
+          <span className="shrink-0 w-7 h-7 rounded-lg bg-gold-400/15 border border-gold-400/30 text-gold-300 text-xs font-bold flex items-center justify-center font-display">
             {i + 1}
           </span>
           <RichText text={b} className="text-sm sm:text-base text-slate-100 leading-relaxed" />
@@ -1782,12 +1791,12 @@ function SimEmbedCard({ meta }: { meta: SimMeta }) {
 
   return (
     <div
-      className="rounded-2xl border border-sky-400/25 bg-sky-400/[0.05] overflow-hidden"
+      className="rounded-2xl border border-gold-400/25 bg-gold-400/[0.05] overflow-hidden"
       data-testid="story-sim-embed"
     >
       <div className="flex items-start justify-between gap-3 px-4 sm:px-5 pt-4">
         <div className="min-w-0">
-          <p className="text-[11px] uppercase tracking-widest text-sky-400 font-semibold mb-1">
+          <p className="text-[11px] uppercase tracking-widest text-gold-400 font-semibold mb-1">
             {t('exploreBadge')}
           </p>
           <p className="font-display text-base sm:text-lg font-bold text-white leading-snug">{meta.t}</p>
@@ -1795,7 +1804,7 @@ function SimEmbedCard({ meta }: { meta: SimMeta }) {
         </div>
         <Link
           href={`/sims-v2/${meta.id}`}
-          className="btn-ghost shrink-0 text-[11px] px-2.5 py-1.5 text-sky-300 hover:text-sky-200 border border-sky-400/30 rounded-lg"
+          className="btn-ghost shrink-0 text-[11px] px-2.5 py-1.5 text-gold-300 hover:text-gold-200 border border-gold-400/30 rounded-lg"
         >
           {t('exploreOpen')} <span aria-hidden="true">↗</span>
         </Link>
@@ -1805,7 +1814,7 @@ function SimEmbedCard({ meta }: { meta: SimMeta }) {
         {def === undefined && (
           <div className="flex items-center justify-center gap-3 py-14" role="status">
             <motion.span
-              className="w-5 h-5 rounded-full border-2 border-sky-400/30 border-t-sky-400"
+              className="w-5 h-5 rounded-full border-2 border-gold-400/30 border-t-gold-400"
               animate={{ rotate: 360 }}
               transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
               aria-hidden="true"
@@ -1827,7 +1836,7 @@ function SimEmbedCard({ meta }: { meta: SimMeta }) {
         {def === null && (
           <div className="rounded-xl border border-amber-500/25 bg-amber-500/[0.06] px-4 py-3">
             <p className="text-xs text-white/85 leading-relaxed mb-2">{t('exploreInlineFail')}</p>
-            <Link href={`/sims-v2/${meta.id}`} className="text-xs font-semibold text-sky-300 hover:text-sky-200 underline underline-offset-2">
+            <Link href={`/sims-v2/${meta.id}`} className="text-xs font-semibold text-gold-300 hover:text-gold-200 underline underline-offset-2">
               {t('exploreOpen')}
             </Link>
           </div>
@@ -2433,10 +2442,10 @@ function TeachItCard({
   return (
     <motion.div
       variants={riseItem}
-      className="rounded-2xl p-5 sm:p-6 max-w-sm mx-auto mb-8 text-left border border-violet-400/30 bg-violet-500/[0.05]"
+      className="rounded-2xl p-5 sm:p-6 max-w-sm mx-auto mb-8 text-left border border-gold-400/30 bg-gold-500/[0.05]"
       data-testid="teach-card"
     >
-      <p className="text-[11px] uppercase tracking-widest text-violet-300 font-semibold mb-2">
+      <p className="text-[11px] uppercase tracking-widest text-gold-300 font-semibold mb-2">
         Make it stick — teach it
       </p>
       <p className="text-sm text-slate-200 leading-relaxed mb-3">
@@ -2470,7 +2479,7 @@ function TeachItCard({
               <ul className="space-y-1.5">
                 {teachQs.map((q, i) => (
                   <li key={i} className="flex items-start gap-2 text-xs text-slate-300 leading-relaxed">
-                    <span className="shrink-0 font-bold text-violet-300">{i + 1}.</span>
+                    <span className="shrink-0 font-bold text-gold-300">{i + 1}.</span>
                     <MdText text={q} />
                   </li>
                 ))}

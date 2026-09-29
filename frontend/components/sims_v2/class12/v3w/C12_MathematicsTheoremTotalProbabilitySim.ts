@@ -11,7 +11,7 @@ export const w_c12_mathematicstheoremtotalprobabilitysim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Conditional Probability: Definition and Formula',
     chapters: [],
     nodeIds: ['c12_math_cbse_13_001', 'c12_math_cbse_13_002', 'c12_math_cbse_13_003', 'c12_math_cbse_13_004', 'c12_math_cbse_13_005', 'c12_math_cbse_13_006', 'c12_math_cbse_13_007', 'c12_math_cbse_13_008', 'c12_math_cbse_13_009', 'c12_math_cbse_13_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student in Delhi preparing for board exams.', goal: 'Master Conditional Probability: Definition and Formula.' },
     discovery: {
         question: 'A bag contains 5 red and 7 blue balls. Two balls are drawn one after another without replacement.',
@@ -20,7 +20,7 @@ export const w_c12_mathematicstheoremtotalprobabilitysim: SimDef = {
         hook: 'The most pervasive error is writing P(E ∩ F) = P(E) × P(F) for sequential draws without replacement — i.e., using the.',
     },
     teaching: [
-        { title: 'Conditional probability of an event E given.', text: 'Conditional probability of an event E given that event F has already occurred, denoted P(E|F), is the probability of E under the condition that the sample space is restricted to outcomes in F.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Conditional probability of an event E given.', text: 'Conditional probability of an event E given that event F has already occurred, denoted P(E|F), is the probability of E under the condition that the sample space is restricted to outcomes in F.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_13_001', title: 'Conditional probability of an event E.',

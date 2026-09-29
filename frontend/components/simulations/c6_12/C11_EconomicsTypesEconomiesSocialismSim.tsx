@@ -1186,7 +1186,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 11 ISC Economics • Types of Economies, Price Mechanism & HDI Systems</p>
@@ -1201,7 +1201,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
             animate={{ scale: 1 }}
             className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
               difficulty === 'foundation' ? 'bg-emerald-950 border border-emerald-600 text-emerald-400' :
-              difficulty === 'standard' ? 'bg-blue-950 border border-blue-600 text-blue-400' :
+              difficulty === 'standard' ? 'bg-gold-950 border border-gold-600 text-gold-400' :
               'bg-purple-950 border border-purple-600 text-purple-400'
             }`}
           >
@@ -1223,13 +1223,13 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-6 bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg"
+            className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg"
           >
-            <h2 className="text-lg md:text-xl font-bold text-indigo-300 flex items-center gap-2">
+            <h2 className="text-lg md:text-xl font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400/90 mt-2 font-mono">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-400/90 mt-2 font-mono">{SCENARIO.context}</p>
           </motion.div>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
@@ -1252,7 +1252,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 ring-2 ring-emerald-500/50'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <span className="font-bold text-slate-400 mr-2">{String.fromCharCode(65 + i)}.</span>
@@ -1346,7 +1346,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                     <div className="flex justify-between text-xs font-semibold">
                       <span className="text-rose-400">Pure Socialism (100% State Gosplan)</span>
                       <span className="text-emerald-400">Mixed Economy ({100 - publicPrivateMix}% Private : {publicPrivateMix}% Public)</span>
-                      <span className="text-cyan-400">Pure Capitalism (100% Free Market)</span>
+                      <span className="text-gold-400">Pure Capitalism (100% Free Market)</span>
                     </div>
                     <input
                       type="range"
@@ -1379,11 +1379,11 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                          'Benefit: Private Innovation (TCS/Jio) + Safety Nets (NFSA 81 Cr)'}
                       </div>
                     </motion.div>
-                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-900/90 rounded-xl border border-cyan-900/40">
-                      <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Private Sector ({100 - publicPrivateMix}%)</h4>
+                    <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-900/90 rounded-xl border border-gold-900/40">
+                      <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Private Sector ({100 - publicPrivateMix}%)</h4>
                       <p className="text-xs text-slate-300 mt-1">Motive: Profit Maximisation & Innovation</p>
                       <p className="text-xs text-slate-400 mt-1">Mechanism: Competitive Demand & Supply Price Signals</p>
-                      <div className="mt-2 text-xs text-cyan-400">Examples: Reliance Jio, HDFC Bank, Tata Steel, 108 Unicorns</div>
+                      <div className="mt-2 text-xs text-gold-400">Examples: Reliance Jio, HDFC Bank, Tata Steel, 108 Unicorns</div>
                     </motion.div>
                   </div>
                 </motion.div>
@@ -1413,7 +1413,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
                     <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="text-xs text-slate-400">Quantity Demanded (Qd)</div>
-                      <div className="text-lg font-bold text-cyan-400 font-mono">{priceMechanismData.qd} units</div>
+                      <div className="text-lg font-bold text-gold-400 font-mono">{priceMechanismData.qd} units</div>
                       <div className="text-[11px] text-slate-500">Qd = 120 - 2P</div>
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1430,7 +1430,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <div className="text-xs text-slate-400">Price Signal Response</div>
-                      <div className="text-sm font-bold text-indigo-300">{priceMechanismData.pricePressure}</div>
+                      <div className="text-sm font-bold text-gold-300">{priceMechanismData.pricePressure}</div>
                       <div className="text-[11px] text-slate-500">Adam Smith's Invisible Hand</div>
                     </motion.div>
                   </div>
@@ -1559,7 +1559,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-300">Expected Schooling (0 - 18 yrs)</span>
-                          <span className="font-mono text-cyan-400 font-bold">{hdiExpSchool} yrs</span>
+                          <span className="font-mono text-gold-400 font-bold">{hdiExpSchool} yrs</span>
                         </div>
                         <input
                           type="range"
@@ -1569,14 +1569,14 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                           value={hdiExpSchool}
                           aria-label="Adjust Expected Schooling for HDI"
                           onChange={(e) => setHdiExpSchool(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span className="text-slate-300">Mean Schooling (0 - 15 yrs)</span>
-                          <span className="font-mono text-cyan-400 font-bold">{hdiMeanSchool} yrs</span>
+                          <span className="font-mono text-gold-400 font-bold">{hdiMeanSchool} yrs</span>
                         </div>
                         <input
                           type="range"
@@ -1586,7 +1586,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                           value={hdiMeanSchool}
                           aria-label="Adjust Mean Schooling for HDI"
                           onChange={(e) => setHdiMeanSchool(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1614,9 +1614,9 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                           <div className="text-[10px] text-slate-400">Health Index</div>
                           <div className="text-sm font-bold text-emerald-400 font-mono">{calculatedHdi.iHealth}</div>
                         </div>
-                        <div className="p-2 bg-slate-950 rounded-lg border border-cyan-900/40">
+                        <div className="p-2 bg-slate-950 rounded-lg border border-gold-900/40">
                           <div className="text-[10px] text-slate-400">Edu Index</div>
-                          <div className="text-sm font-bold text-cyan-400 font-mono">{calculatedHdi.iEdu}</div>
+                          <div className="text-sm font-bold text-gold-400 font-mono">{calculatedHdi.iEdu}</div>
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-amber-900/40">
                           <div className="text-[10px] text-slate-400">Income Index</div>
@@ -1626,9 +1626,9 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
 
                       <motion.div
                         whileHover={{ scale: 1.02 }}
-                        className="p-4 bg-gradient-to-r from-slate-950 via-indigo-950/60 to-slate-950 rounded-xl border border-indigo-700/60 text-center"
+                        className="p-4 bg-gradient-to-r from-slate-950 via-gold-950/60 to-slate-950 rounded-xl border border-gold-700/60 text-center"
                       >
-                        <div className="text-xs text-indigo-300">Final Composite HDI (Geometric Mean)</div>
+                        <div className="text-xs text-gold-300">Final Composite HDI (Geometric Mean)</div>
                         <div className="text-3xl font-extrabold text-white my-1 font-mono">{calculatedHdi.hdi}</div>
                         <div className="text-xs font-semibold text-emerald-400">
                           Category:{' '}
@@ -1665,7 +1665,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                         aria-label={`Select trade bloc ${g.name}`}
                         className={`p-3 text-left rounded-xl border transition-all ${
                           selectedGrouping === g.id
-                            ? 'bg-indigo-950 border-indigo-500 text-white'
+                            ? 'bg-gold-950 border-gold-500 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                         }`}
                       >
@@ -1690,7 +1690,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                     )}
                     {selectedGrouping === 'asean' && (
                       <>
-                        <h5 className="font-bold text-cyan-400 text-sm">ASEAN: Dynamic Regional Free Trade Area</h5>
+                        <h5 className="font-bold text-gold-400 text-sm">ASEAN: Dynamic Regional Free Trade Area</h5>
                         <p className="text-slate-300">Combined GDP $3.6T (5th largest). India signed FTA in 2009; bilateral trade reaches $131B (~12% of India's total global trade).</p>
                       </>
                     )}
@@ -1750,9 +1750,9 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
           <motion.div
             initial={{ scale: 0.98 }}
             animate={{ scale: 1 }}
-            className="p-5 bg-gradient-to-r from-slate-900 to-indigo-950/40 rounded-2xl border border-indigo-800/50"
+            className="p-5 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/50"
           >
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span aria-hidden="true">🧪</span> Free Policy Sandbox (No Grading Pressure)
             </h3>
             <p className="text-xs text-slate-300 mt-1">
@@ -1788,7 +1788,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
 
             {/* HDI Geometric Sandbox Card */}
             <motion.div whileHover={{ scale: 1.01 }} className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h4 className="text-sm font-bold text-cyan-400">HDI Capability Simulator</h4>
+              <h4 className="text-sm font-bold text-gold-400">HDI Capability Simulator</h4>
               <div className="space-y-1">
                 <div className="flex justify-between text-xs text-slate-400">
                   <span>Adult Mean Schooling</span>
@@ -1802,7 +1802,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                   value={hdiMeanSchool}
                   aria-label="Adjust mean schooling for sandbox"
                   onChange={(e) => setHdiMeanSchool(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1 font-mono">
@@ -1859,7 +1859,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
               <motion.span
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
-                className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-indigo-300 font-semibold uppercase"
+                className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-gold-300 font-semibold uppercase"
               >
                 {challenge.type}
               </motion.span>
@@ -1941,7 +1941,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                       aria-label={`Draggable indicator: ${item.label}`}
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-medium text-white cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-medium text-white cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2002,7 +2002,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                       }}
                       whileHover={{ scale: 1.01 }}
                       aria-label={`Step ${displayIdx + 1}: ${item}`}
-                      className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3 hover:border-indigo-500"
+                      className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-200 cursor-grab flex items-center gap-3 hover:border-gold-500"
                     >
                       <span className="w-6 h-6 rounded-full bg-slate-800 text-slate-300 flex items-center justify-center font-mono font-bold text-[10px]">
                         {displayIdx + 1}
@@ -2038,7 +2038,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
                       aria-label={`Toggle reform policy part: ${part}`}
                       className={`px-3 py-1.5 rounded-xl text-xs font-medium border ${
                         constructParts.includes(part)
-                          ? 'bg-indigo-900/80 border-indigo-500 text-indigo-200'
+                          ? 'bg-gold-900/80 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
@@ -2142,7 +2142,7 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500'
                 : errors <= 3
-                ? 'bg-blue-950/60 border-blue-500'
+                ? 'bg-gold-950/60 border-gold-500'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500'
                 : 'bg-rose-950/60 border-rose-500'
@@ -2176,11 +2176,11 @@ export function C11_EconomicsTypesEconomiesSocialismSim({
           )}
 
           {/* Spaced Repetition Schedule */}
-          <motion.div whileHover={{ scale: 1.01 }} className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex items-center justify-between">
+          <motion.div whileHover={{ scale: 1.01 }} className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex items-center justify-between">
             <div>
-              <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">SM-2 Spaced Repetition Protocol</h4>
+              <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">SM-2 Spaced Repetition Protocol</h4>
               <p className="text-xs text-slate-300 mt-1">
-                Next scheduled diagnostic review: <span className="font-bold text-indigo-200">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</span>.
+                Next scheduled diagnostic review: <span className="font-bold text-gold-200">{errors === 0 ? '7 Days' : errors <= 3 ? '3 Days' : '1 Day'}</span>.
               </p>
             </div>
             <span className="text-2xl" aria-hidden="true">📅</span>

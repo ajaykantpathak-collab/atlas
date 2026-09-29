@@ -16,9 +16,9 @@ export const csBasics: SimDef = {
     discovery: { question: 'Is a computer smart — or does it only do what we tell it?', options: ['Only what we tell it!', 'It is smart like us', 'It thinks alone'], answer: 'Only what we tell it!', hook: 'A computer follows our instructions exactly — it is fast, not smart. Let us learn!' },
     teaching: [
         { title: 'A Computer Listens! 💻', text: 'A computer does exactly what we tell it — nothing more. It follows our instructions very fast!', emoji: '💻', bgColor: 'from-slate-400 to-gray-500' },
-        { title: 'Parts of a Computer 🖥️', text: 'Monitor (the screen), keyboard (we type), mouse (we point), CPU (the brain inside)!', emoji: '🖥️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Parts of a Computer 🖥️', text: 'Monitor (the screen), keyboard (we type), mouse (we point), CPU (the brain inside)!', emoji: '🖥️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Input and Output ➡️', text: 'We give INPUT (type, click) and the computer gives OUTPUT (shows, plays)!', emoji: '➡️', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Computers Help Us 🌟', text: 'Computers help us write, draw, learn, and play — but they need our instructions!', emoji: '🌟', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Computers Help Us 🌟', text: 'Computers help us write, draw, learn, and play — but they need our instructions!', emoji: '🌟', bgColor: 'from-gold-400 to-purple-500' },
     ],
     challenges: [
         { type: 'mcq', question: 'Which part is the computer\'s brain?', answer: 'CPU', options: ['Monitor', 'CPU', 'Mouse'],
@@ -52,7 +52,7 @@ export const csFiles: SimDef = {
     discovery: { question: 'How do you keep your toys tidy — thrown everywhere or in boxes?', options: ['In boxes - tidy!', 'Everywhere', 'No toys'], answer: 'In boxes - tidy!', hook: 'Computers keep files tidy in FOLDERS — like boxes for your things!' },
     teaching: [
         { title: 'Files and Folders 📁', text: 'A file is one thing — a picture, a song. A folder holds many files — like a box!', emoji: '📁', bgColor: 'from-amber-400 to-yellow-500' },
-        { title: 'Name Your Files 🏷️', text: 'Every file has a name so you can find it — "mydrawing.png"!', emoji: '🏷️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Name Your Files 🏷️', text: 'Every file has a name so you can find it — "mydrawing.png"!', emoji: '🏷️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Save and Open 💾', text: 'SAVE keeps your work. OPEN brings it back. Always save before you finish!', emoji: '💾', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     challenges: [
@@ -74,12 +74,12 @@ export const csInternet: SimDef = {
     id: 'cs_internet', title: 'The Internet', subtitle: 'Connected world!',
     classLevel: 3, subject: 'cs', topic: 'Internet Basics',
     chapters: ['Computer Skills: Internet'],
-    emoji: '🌐', theme: { bg: 'from-cyan-100 to-blue-200', accent: 'cyan', scene: 'internet' },
+    emoji: '🌐', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'internet' },
     scenario: { role: "a safe-surfer", intro: "The internet connects the world — surf safely!", goal: "Stay safe online." },
     discovery: { question: 'How does a website reach your computer — through wires and air?', options: ['Through wires and signals!', 'Magic', 'By post'], answer: 'Through wires and signals!', hook: 'The internet connects computers all over the world — let us see how!' },
     teaching: [
-        { title: 'The Internet Connects! 🌐', text: 'The internet joins millions of computers — yours can talk to one far away!', emoji: '🌐', bgColor: 'from-cyan-400 to-blue-500' },
-        { title: 'Websites and Browsers 🖱️', text: 'A browser (Chrome, Firefox) opens websites. A website is a page on the internet!', emoji: '🖱️', bgColor: 'from-sky-400 to-indigo-500' },
+        { title: 'The Internet Connects! 🌐', text: 'The internet joins millions of computers — yours can talk to one far away!', emoji: '🌐', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Websites and Browsers 🖱️', text: 'A browser (Chrome, Firefox) opens websites. A website is a page on the internet!', emoji: '🖱️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Be Safe Online! 🛡️', text: 'Never share your name, address, or passwords online. Ask a grown-up first!', emoji: '🛡️', bgColor: 'from-rose-400 to-red-500' },
     ],
     challenges: [
@@ -101,12 +101,12 @@ export const csLogic: SimDef = {
     id: 'cs_logic', title: 'Step-by-Step Thinking', subtitle: 'Algorithms!',
     classLevel: 4, subject: 'cs', topic: 'Algorithms and Logic',
     chapters: ['Computer Skills: Algorithms', 'Computer Skills: Logo'],
-    emoji: '🧩', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'logic' },
+    emoji: '🧩', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'logic' },
     scenario: { role: "a step-planner", intro: "Algorithms are steps in order — plan them!", goal: "Order every algorithm." },
     discovery: { question: 'Can you teach a computer to make a sandwich — does it need every tiny step?', options: ['Yes - every step in order!', 'No - it knows', 'Only the last step'], answer: 'Yes - every step in order!', hook: 'A computer needs exact steps in order — that is an ALGORITHM!' },
     teaching: [
-        { title: 'Steps in Order! 🧩', text: 'An algorithm is steps in order — like a recipe. Computers follow them exactly!', emoji: '🧩', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Order Matters! 🔢', text: '"Put on shoes, then socks" fails — you need socks first! Order matters in algorithms!', emoji: '🔢', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Steps in Order! 🧩', text: 'An algorithm is steps in order — like a recipe. Computers follow them exactly!', emoji: '🧩', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Order Matters! 🔢', text: '"Put on shoes, then socks" fails — you need socks first! Order matters in algorithms!', emoji: '🔢', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Instructions for Computers 💻', text: 'Programs are instructions. Logo lets you draw with commands — FORWARD, RIGHT, LEFT!', emoji: '💻', bgColor: 'from-emerald-400 to-teal-500' },
     ],
     challenges: [
@@ -141,8 +141,8 @@ export const csScratch: SimDef = {
     discovery: { question: 'Can you make a cat dance with just blocks you snap together?', options: ['Yes - code blocks!', 'No', 'Only typing'], answer: 'Yes - code blocks!', hook: 'Scratch lets you snap code blocks like Lego to make things happen!' },
     teaching: [
         { title: 'Snap the Blocks! 🐱', text: 'Scratch uses blocks you snap together — no typing! Move, turn, say, repeat!', emoji: '🐱', bgColor: 'from-orange-400 to-amber-500' },
-        { title: 'Events Start Things ⚡', text: '"When flag clicked" starts your code. Events make things happen!', emoji: '⚡', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Loops Repeat 🔁', text: 'A loop does something again and again — "repeat 4" runs it four times!', emoji: '🔁', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Events Start Things ⚡', text: '"When flag clicked" starts your code. Events make things happen!', emoji: '⚡', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Loops Repeat 🔁', text: 'A loop does something again and again — "repeat 4" runs it four times!', emoji: '🔁', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'Make a Game! 🎮', text: 'With blocks you can make a sprite move, jump, score points — a real game!', emoji: '🎮', bgColor: 'from-rose-400 to-pink-500' },
     ],
     challenges: [

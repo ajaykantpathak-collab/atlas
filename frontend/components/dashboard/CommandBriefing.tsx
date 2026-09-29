@@ -48,12 +48,7 @@ import { GoldNumber } from "./ui";
 
 /** GET /api/dashboard/student/{uid} (subset the briefing reads). */
 interface StudentDetail {
-  streak?: {
-    current_streak?: number;
-    /** null when the backend cannot honestly report a personal best. */
-    longest_streak?: number | null;
-    last_active_date?: string | null;
-  };
+  streak?: { current_streak?: number; longest_streak?: number; last_active_date?: string | null };
   xp?: { total_xp?: number; level?: number };
   mastery_overall?: number | null;
   mastery_by_topic?: TopicMasteryRow[];

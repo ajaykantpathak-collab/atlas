@@ -1167,12 +1167,12 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-indigo-400">
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">
               ISC Class 12 • {subjectConfig.name}
             </span>
             <h1 className="text-xl md:text-2xl font-black text-white">{title}</h1>
@@ -1189,14 +1189,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-500/40'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-500/40'
+                : 'bg-gold-950/60 text-gold-400 border-gold-500/40'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
           <div className="text-right text-xs text-slate-400">
             <div>Mastery: <span className="font-bold text-white capitalize">{masteryLevel}</span></div>
-            <div>Score: <span className="font-bold text-indigo-300">{scoreBreakdown.correct}/{scoreBreakdown.total}</span></div>
+            <div>Score: <span className="font-bold text-gold-300">{scoreBreakdown.correct}/{scoreBreakdown.total}</span></div>
           </div>
         </div>
       </motion.header>
@@ -1210,13 +1210,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
           className="space-y-6"
         >
           {/* Narrative Card */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 border border-indigo-500/30 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-2">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 border border-gold-500/30 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-2">
               <span>🚇</span> NARRATIVE CASE STUDY
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-indigo-200">
+            <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-gold-200">
               💡 {SCENARIO.context}
             </div>
           </div>
@@ -1267,7 +1267,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1295,7 +1295,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                 onClick={() => setCurrentSlide(idx)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white border-indigo-400 shadow-md'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md'
                     : 'bg-slate-900/80 text-slate-400 border-slate-800 hover:text-slate-200'
                 }`}
               >
@@ -1322,13 +1322,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                   {/* Controls */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <div className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+                    <div className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                       Probability Mass Sliders (Normalized automatically)
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>P(X=0) Weight</span>
-                        <span className="font-mono text-indigo-300">{normP0.toFixed(2)}</span>
+                        <span className="font-mono text-gold-300">{normP0.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1337,14 +1337,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.05"
                         value={p0}
                         onChange={e => setP0(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="P0 probability weight"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>P(X=1) Weight</span>
-                        <span className="font-mono text-indigo-300">{normP1.toFixed(2)}</span>
+                        <span className="font-mono text-gold-300">{normP1.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1353,14 +1353,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.05"
                         value={p1}
                         onChange={e => setP1(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="P1 probability weight"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>P(X=2) Weight</span>
-                        <span className="font-mono text-indigo-300">{normP2.toFixed(2)}</span>
+                        <span className="font-mono text-gold-300">{normP2.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1369,14 +1369,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.05"
                         value={p2}
                         onChange={e => setP2(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="P2 probability weight"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>P(X=3) Weight</span>
-                        <span className="font-mono text-indigo-300">{normP3.toFixed(2)}</span>
+                        <span className="font-mono text-gold-300">{normP3.toFixed(2)}</span>
                       </div>
                       <input
                         type="range"
@@ -1385,7 +1385,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.05"
                         value={p3}
                         onChange={e => setP3(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="P3 probability weight"
                       />
                     </div>
@@ -1394,9 +1394,9 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   {/* Visual Balance Beam & Calculations */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between h-full">
                     <div className="grid grid-cols-3 gap-2 text-center mb-4">
-                      <div className="p-3 bg-slate-900 rounded-lg border border-indigo-500/30">
+                      <div className="p-3 bg-slate-900 rounded-lg border border-gold-500/30">
                         <div className="text-xs text-slate-400">Mean E(X)</div>
-                        <div className="text-xl font-mono font-bold text-indigo-400">{rvMean.toFixed(2)}</div>
+                        <div className="text-xl font-mono font-bold text-gold-400">{rvMean.toFixed(2)}</div>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-lg border border-purple-500/30">
                         <div className="text-xs text-slate-400">Variance σ²</div>
@@ -1458,13 +1458,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
               <div className="space-y-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <div className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+                    <div className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                       Convergence Controls: np → λ
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Trials n (Binomial)</span>
-                        <span className="font-mono text-indigo-300">{binomN}</span>
+                        <span className="font-mono text-gold-300">{binomN}</span>
                       </div>
                       <input
                         type="range"
@@ -1473,13 +1473,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="5"
                         value={binomN}
                         onChange={e => setBinomN(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Success Prob p (Binomial)</span>
-                        <span className="font-mono text-indigo-300">{binomP.toFixed(3)}</span>
+                        <span className="font-mono text-gold-300">{binomP.toFixed(3)}</span>
                       </div>
                       <input
                         type="range"
@@ -1488,13 +1488,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.01"
                         value={binomP}
                         onChange={e => setBinomP(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Rate Parameter λ (Poisson)</span>
-                        <span className="font-mono text-indigo-300">{(binomN * binomP).toFixed(2)}</span>
+                        <span className="font-mono text-gold-300">{(binomN * binomP).toFixed(2)}</span>
                       </div>
                       <p className="text-xs text-slate-400">
                         Notice how the product np = {(binomN * binomP).toFixed(2)} acts as the exact Poisson rate λ.
@@ -1503,11 +1503,11 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
 
                     <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1">
                       <div className="flex justify-between">
-                        <span className="text-blue-400 font-bold">■ Binomial Mean (np):</span>
+                        <span className="text-gold-400 font-bold">■ Binomial Mean (np):</span>
                         <span>{(binomN * binomP).toFixed(2)}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-blue-400 font-bold">■ Binomial Variance (npq):</span>
+                        <span className="text-gold-400 font-bold">■ Binomial Variance (npq):</span>
                         <span>{(binomN * binomP * (1 - binomP)).toFixed(2)}</span>
                       </div>
                       <div className="flex justify-between">
@@ -1520,7 +1520,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   {/* SVG Convergence Chart */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs mb-2">
-                      <span className="text-blue-400 font-semibold">■ Binomial B({binomN}, {binomP.toFixed(2)})</span>
+                      <span className="text-gold-400 font-semibold">■ Binomial B({binomN}, {binomP.toFixed(2)})</span>
                       <span className="text-emerald-400 font-semibold">● Poisson(λ={(binomN * binomP).toFixed(2)})</span>
                     </div>
                     <svg viewBox="0 0 350 180" className="w-full bg-slate-900/50 rounded-lg">
@@ -1568,7 +1568,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
               <div className="space-y-6">
                 {/* Predict then Check */}
                 {!predictionMade ? (
-                  <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-500/30">
+                  <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-500/30">
                     <p className="text-sm font-semibold text-white mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1595,7 +1595,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Mean μ</span>
-                        <span className="font-mono text-indigo-300">{normalMu}</span>
+                        <span className="font-mono text-gold-300">{normalMu}</span>
                       </div>
                       <input
                         type="range"
@@ -1604,13 +1604,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="1"
                         value={normalMu}
                         onChange={e => setNormalMu(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Standard Deviation σ</span>
-                        <span className="font-mono text-indigo-300">{normalSigma}</span>
+                        <span className="font-mono text-gold-300">{normalSigma}</span>
                       </div>
                       <input
                         type="range"
@@ -1619,13 +1619,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.5"
                         value={normalSigma}
                         onChange={e => setNormalSigma(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Standard Normal Z cutoff</span>
-                        <span className="font-mono text-indigo-300">Z = {normalZSlider.toFixed(1)}</span>
+                        <span className="font-mono text-gold-300">Z = {normalZSlider.toFixed(1)}</span>
                       </div>
                       <input
                         type="range"
@@ -1634,12 +1634,12 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.1"
                         value={normalZSlider}
                         onChange={e => setNormalZSlider(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg text-xs space-y-1">
-                      <div className="font-bold text-indigo-300">Empirical Rule Boundaries:</div>
+                      <div className="font-bold text-gold-300">Empirical Rule Boundaries:</div>
                       <div>68% Zone: [{normalMu - normalSigma}, {normalMu + normalSigma}] (μ ± 1σ)</div>
                       <div>95% Zone: [{normalMu - 2 * normalSigma}, {normalMu + 2 * normalSigma}] (μ ± 2σ)</div>
                       <div>99.7% Zone: [{normalMu - 3 * normalSigma}, {normalMu + 3 * normalSigma}] (μ ± 3σ)</div>
@@ -1696,13 +1696,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
               <div className="space-y-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <div className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+                    <div className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                       LPP Constraints & Iso-Profit Sweeper
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Labour Capacity C1 (2x + y ≤ C1)</span>
-                        <span className="font-mono text-indigo-300">{lppCapacity1}</span>
+                        <span className="font-mono text-gold-300">{lppCapacity1}</span>
                       </div>
                       <input
                         type="range"
@@ -1711,13 +1711,13 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="5"
                         value={lppCapacity1}
                         onChange={e => setLppCapacity1(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Material Capacity C2 (x + 2y ≤ C2)</span>
-                        <span className="font-mono text-indigo-300">{lppCapacity2}</span>
+                        <span className="font-mono text-gold-300">{lppCapacity2}</span>
                       </div>
                       <input
                         type="range"
@@ -1726,7 +1726,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="5"
                         value={lppCapacity2}
                         onChange={e => setLppCapacity2(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1810,7 +1810,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   {/* Controls */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+                      <span className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                         Perpetuity & Sinking Fund Engine
                       </span>
                       <motion.button
@@ -1827,7 +1827,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Annual Endowment Payment A</span>
-                        <span className="font-mono text-indigo-300">₹{perpPayment.toLocaleString()}</span>
+                        <span className="font-mono text-gold-300">₹{perpPayment.toLocaleString()}</span>
                       </div>
                       <input
                         type="range"
@@ -1836,14 +1836,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="10000"
                         value={perpPayment}
                         onChange={e => setPerpPayment(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Effective Annual Interest Rate r</span>
-                        <span className="font-mono text-indigo-300">{(interestRate * 100).toFixed(1)}%</span>
+                        <span className="font-mono text-gold-300">{(interestRate * 100).toFixed(1)}%</span>
                       </div>
                       <input
                         type="range"
@@ -1852,14 +1852,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="0.005"
                         value={interestRate}
                         onChange={e => setInterestRate(parseFloat(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span>Sinking Fund Target (Machinery Replacement)</span>
-                        <span className="font-mono text-indigo-300">₹{sinkingTarget.toLocaleString()}</span>
+                        <span className="font-mono text-gold-300">₹{sinkingTarget.toLocaleString()}</span>
                       </div>
                       <input
                         type="range"
@@ -1868,7 +1868,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                         step="50000"
                         value={sinkingTarget}
                         onChange={e => setSinkingTarget(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1876,8 +1876,8 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   {/* Visual Output Card */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                     <div className="space-y-4">
-                      <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-500/30">
-                        <div className="text-xs text-indigo-300 font-bold uppercase">Perpetuity Present Value Required Today</div>
+                      <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-500/30">
+                        <div className="text-xs text-gold-300 font-bold uppercase">Perpetuity Present Value Required Today</div>
                         <div className="text-2xl font-mono font-black text-white mt-1">₹{perpPV.toFixed(0).toLocaleString()}</div>
                         <div className="text-xs text-slate-400 mt-1">
                           Formula: {isPerpDue ? 'PV = A(1+r)/r' : 'PV = A/r'}
@@ -1918,7 +1918,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleNextSlide}
-                  className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow-md"
+                  className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow-md"
                 >
                   Next Lab →
                 </motion.button>
@@ -1945,7 +1945,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
           exit={{ opacity: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">
                 Sandbox Mode • Zero Pressure Exploration
@@ -1968,7 +1968,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Sandbox Model 1: Dynamic LPP Solver */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h4 className="text-sm font-bold text-indigo-300">📐 Real-Time LPP Feasible Region</h4>
+              <h4 className="text-sm font-bold text-gold-300">📐 Real-Time LPP Feasible Region</h4>
               <div className="grid grid-cols-2 gap-2 text-xs">
                 <div>
                   <label className="text-slate-400">Labour Limit (C1): {lppCapacity1}</label>
@@ -1978,7 +1978,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     max="100"
                     value={lppCapacity1}
                     onChange={e => setLppCapacity1(parseInt(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div>
@@ -1989,7 +1989,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     max="100"
                     value={lppCapacity2}
                     onChange={e => setLppCapacity2(parseInt(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -2001,7 +2001,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
 
             {/* Sandbox Model 2: Poisson & Normal Evaluator */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-              <h4 className="text-sm font-bold text-indigo-300">📊 Poisson Rate & Normal Evaluator</h4>
+              <h4 className="text-sm font-bold text-gold-300">📊 Poisson Rate & Normal Evaluator</h4>
               <div className="grid grid-cols-2 gap-2 text-xs">
                 <div>
                   <label className="text-slate-400">Poisson Rate λ: {poissonLambda}</label>
@@ -2052,14 +2052,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
               <span className="font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 font-mono uppercase tracking-wider">
+              <span className="text-gold-400 font-mono uppercase tracking-wider">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             {/* Animated Progress Bar */}
             <div className="h-1.5 bg-slate-800 rounded-full mt-2 overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2076,7 +2076,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
             }`}
           >
             <div className="flex items-center justify-between gap-2 mb-3">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
                 Node ID: {challenge.nodeId}
               </span>
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 capitalize">
@@ -2125,7 +2125,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold cursor-grab active:cursor-grabbing shadow-md"
+                      className="px-3 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-semibold cursor-grab active:cursor-grabbing shadow-md"
                     >
                       ⠿ {item.label}
                     </motion.div>
@@ -2141,7 +2141,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                       className="p-4 bg-slate-950 rounded-xl border border-dashed border-slate-700 flex flex-col justify-between min-h-[90px]"
                     >
                       <span className="text-xs text-slate-400">Target Role: {item.targetId.replace('target_', '').toUpperCase()}</span>
-                      <div className="mt-2 text-sm font-mono font-bold text-indigo-300">
+                      <div className="mt-2 text-sm font-mono font-bold text-gold-300">
                         {droppedLabels[item.targetId] ? `✓ ${droppedLabels[item.targetId]}` : 'Drop matching label here'}
                       </div>
                     </div>
@@ -2153,7 +2153,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                 >
                   Verify Dragged Labels
                 </motion.button>
@@ -2181,7 +2181,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-full bg-indigo-600/40 text-indigo-300 flex items-center justify-center font-bold text-[11px]">
+                      <span className="w-6 h-6 rounded-full bg-gold-600/40 text-gold-300 flex items-center justify-center font-bold text-[11px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2198,7 +2198,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2215,7 +2215,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 focus:outline-none w-64"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 focus:outline-none w-64"
                   />
                   <span className="text-xs text-slate-400 font-semibold">{challenge.unit}</span>
                   <motion.button
@@ -2223,7 +2223,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-md disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-md disabled:opacity-50"
                   >
                     Submit Answer
                   </motion.button>
@@ -2244,7 +2244,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-600/70 hover:bg-indigo-600 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-600/70 hover:bg-gold-600 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2258,7 +2258,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                       key={i}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900 border border-indigo-500/40 text-indigo-200 rounded-lg text-xs font-mono font-bold flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900 border border-gold-500/40 text-gold-200 rounded-lg text-xs font-mono font-bold flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2280,7 +2280,7 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                    className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                   >
                     Validate Inequation
                   </motion.button>
@@ -2364,14 +2364,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
           className="space-y-6"
         >
           {/* Score Header */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 border border-indigo-500/40 text-center space-y-2">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 border border-gold-500/40 text-center space-y-2">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Module Mastery Attained!</h2>
             <div className="text-3xl font-mono font-black text-emerald-400">
               {Math.max(0, 100 - errors * 5)}%
             </div>
             <p className="text-xs text-slate-400">
-              Assessed Knowledge Level: <span className="font-bold text-indigo-300 capitalize">{masteryLevel}</span>
+              Assessed Knowledge Level: <span className="font-bold text-gold-300 capitalize">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2434,14 +2434,14 @@ function C12_AppliedMathsRandomVariableProbabilitySim({
 
           {/* Real World Capstone Assignment */}
           <div className="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-3">
-            <div className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <div className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Real-World Capstone Activity: {REAL_WORLD_ACTIVITY.title}
             </div>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span> {step}
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span> {step}
                 </li>
               ))}
             </ul>

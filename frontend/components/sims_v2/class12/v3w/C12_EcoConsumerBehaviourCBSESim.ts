@@ -11,7 +11,7 @@ export const w_c12_ecoconsumerbehaviourcbsesim: SimDef = {
     classLevel: 12, subject: 'economics', topic: 'Relationship Between MPC and MPS',
     chapters: [],
     nodeIds: ['c12_eco_cbse_10_004', 'c12_eco_cbse_01_006', 'c12_eco_cbse_01_004', 'c12_eco_cbse_07_001', 'c12_eco_cbse_07_002', 'c12_eco_cbse_03_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine a farmer in Punjab receives an unexpected ₹10,000 bonus from a bumper wheat harvest.', goal: 'Master Relationship Between MPC and MPS.' },
     discovery: {
         question: 'Explain why the Great Depression of 1929 led to the birth of macroeconomics as a separate branch of economics.',
@@ -20,7 +20,7 @@ export const w_c12_ecoconsumerbehaviourcbsesim: SimDef = {
         hook: 'Students often think the distinction between micro and macro is merely about "small vs.',
     },
     teaching: [
-        { title: 'The relationship between Marginal Propensity.', text: 'The relationship between Marginal Propensity to Consume (MPC) and Marginal Propensity to Save (MPS) is a fundamental macroeconomic identity stating that the sum of MPC and MPS always equals 1 (MPC +.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The relationship between Marginal Propensity.', text: 'The relationship between Marginal Propensity to Consume (MPC) and Marginal Propensity to Save (MPS) is a fundamental macroeconomic identity stating that the sum of MPC and MPS always equals 1 (MPC +.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_eco_cbse_10_004', title: 'The relationship between Marginal.',

@@ -204,7 +204,7 @@ function NavigatorNikhil({ mood, speaking }: { mood: MascotMood; speaking: strin
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white/95 backdrop-blur rounded-xl px-3 py-2 shadow-xl max-w-[220px] border border-blue-200"
+            className="mb-1 bg-white/95 backdrop-blur rounded-xl px-3 py-2 shadow-xl max-w-[220px] border border-gold-200"
           >
             <p className="text-xs font-bold text-slate-800">{speaking}</p>
           </motion.div>
@@ -289,14 +289,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Internet Services — Email & Search 📧",
     text: "Email lets you send and receive electronic messages instantly across the Internet! Search engines like Google help you find information on any topic instantly.",
     emoji: "📧",
-    bgColor: "from-blue-600 to-indigo-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "Email lets you send and receive electronic messages instantly across the Internet! Search engines like Google help you find information on any topic instantly."
   },
   {
     title: "Online Shopping, E-Learning & Cloud 🛒",
     text: "Online shopping lets you buy goods from websites like Amazon and Flipkart. E-learning brings education home via BYJU's or DIKSHA. Cloud storage keeps files safe on remote servers!",
     emoji: "🛒",
-    bgColor: "from-indigo-600 to-purple-700",
+    bgColor: "from-gold-600 to-purple-700",
     spoken: "Online shopping lets you buy goods from websites like Amazon and Flipkart. E-learning brings education home. Cloud storage keeps files safe on remote servers!"
   },
   {
@@ -310,14 +310,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Internet Safety & Strong Passwords 🛡️",
     text: "Never share your full name, home address, phone number, or school name online. Use strong passwords with mixed letters and numbers, and never share them with anyone!",
     emoji: "🛡️",
-    bgColor: "from-blue-500 to-cyan-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Never share your full name, home address, phone number, or school name online. Use strong passwords with mixed letters and numbers, and never share them with anyone!"
   },
   {
     title: "LOGO REPEAT Command & Shapes 🐢",
     text: "The LOGO REPEAT command runs instructions multiple times! A square uses REPEAT 4 [FD 100 RT 90]. The turning angle for any regular polygon is 360 divided by the number of sides.",
     emoji: "🐢",
-    bgColor: "from-cyan-600 to-teal-700",
+    bgColor: "from-gold-600 to-teal-700",
     spoken: "The LOGO REPEAT command runs instructions multiple times! A square uses REPEAT 4 [FD 100 RT 90]. The turning angle for any regular polygon is 360 divided by the number of sides."
   }
 ];
@@ -703,26 +703,26 @@ export function InternetLogoGame({ width = 720, height = 560, onComplete }: Inte
 
   return (
     <div
-      className="relative select-none overflow-hidden font-sans rounded-3xl shadow-2xl border-4 border-indigo-500 bg-slate-900"
+      className="relative select-none overflow-hidden font-sans rounded-3xl shadow-2xl border-4 border-gold-500 bg-slate-900"
       style={{ width, height }}
     >
       <InternetSceneBackground width={width} height={height} />
       <NavigatorNikhil mood={mascotMood} speaking={speakingText} />
 
       {/* TOP HEADER BAR */}
-      <div className="absolute top-0 left-0 right-0 h-14 bg-slate-900/80 backdrop-blur border-b border-indigo-500/30 flex items-center justify-between px-6 z-10">
+      <div className="absolute top-0 left-0 right-0 h-14 bg-slate-900/80 backdrop-blur border-b border-gold-500/30 flex items-center justify-between px-6 z-10">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-indigo-600 rounded-xl shadow-md text-white flex items-center justify-center">
+          <div className="p-2 bg-gold-600 rounded-xl shadow-md text-white flex items-center justify-center">
             <LogoTurtleIcon size={24} />
           </div>
           <div>
             <h1 className="text-sm font-extrabold text-white tracking-wide">Internet & LOGO Adventure</h1>
-            <p className="text-[10px] font-medium text-indigo-300">Class 5 • ICSE Computer Science</p>
+            <p className="text-[10px] font-medium text-gold-300">Class 5 • ICSE Computer Science</p>
           </div>
         </div>
 
         <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1 bg-slate-800/90 px-3 py-1.5 rounded-full border border-indigo-500/40">
+          <div className="flex items-center gap-1 bg-slate-800/90 px-3 py-1.5 rounded-full border border-gold-500/40">
             <span className="text-xs font-bold text-yellow-400">Score: {score}</span>
           </div>
           {screen === 'play' && (
@@ -744,7 +744,7 @@ export function InternetLogoGame({ width = 720, height = 560, onComplete }: Inte
               <div
                 key={i}
                 className={`h-2 rounded-full transition-all duration-300 ${
-                  i === slideIdx ? 'w-8 bg-blue-400' : 'w-2 bg-slate-700'
+                  i === slideIdx ? 'w-8 bg-gold-400' : 'w-2 bg-slate-700'
                 }`}
               />
             ))}
@@ -806,9 +806,9 @@ export function InternetLogoGame({ width = 720, height = 560, onComplete }: Inte
       {screen === 'play' && (
         <div className="absolute inset-0 pt-20 pb-6 px-6 flex flex-col justify-between z-10">
           {/* QUESTION HEADER */}
-          <div className="bg-slate-800/90 backdrop-blur rounded-2xl p-4 shadow-xl border border-indigo-500/40 flex items-center justify-between">
+          <div className="bg-slate-800/90 backdrop-blur rounded-2xl p-4 shadow-xl border border-gold-500/40 flex items-center justify-between">
             <div className="flex items-center gap-3 max-w-xl">
-              <div className="p-2 bg-blue-600/30 rounded-xl border border-blue-400/40">
+              <div className="p-2 bg-gold-600/30 rounded-xl border border-gold-400/40">
                 <SearchEngineIcon size={32} />
               </div>
               <h3 className="text-sm md:text-base font-bold text-white">
@@ -869,9 +869,9 @@ export function InternetLogoGame({ width = 720, height = 560, onComplete }: Inte
                   <div
                     key={bin.id}
                     id={bin.id}
-                    className="h-28 rounded-2xl border-2 border-dashed border-indigo-400/50 bg-slate-800/60 backdrop-blur p-3 flex flex-col items-center justify-center text-center shadow-lg transition-colors"
+                    className="h-28 rounded-2xl border-2 border-dashed border-gold-400/50 bg-slate-800/60 backdrop-blur p-3 flex flex-col items-center justify-center text-center shadow-lg transition-colors"
                   >
-                    <span className="text-xs font-black text-indigo-200">{bin.label}</span>
+                    <span className="text-xs font-black text-gold-200">{bin.label}</span>
                     <span className="text-[10px] text-slate-400 mt-1">Drop item here</span>
                   </div>
                 ))}

@@ -141,7 +141,7 @@ export default function C11_MathsProbabilityDiceTowerSim() {
             {row('sample space |S|', '36 ordered pairs')}
             {row(`cells with sum = ${target}`, `${m.ways} = 6 − |${target} − 7|`, 'text-gold-300')}
             {row(`P(sum = ${target})`, `${m.ways}/36 = ${(m.pEq * 100).toFixed(2)}%`, 'text-gold-300')}
-            {row(`P(sum ≥ ${target})`, `${(m.pGe * 36).toFixed(0)}/36 = ${(m.pGe * 100).toFixed(2)}%`, 'text-cyan-300')}
+            {row(`P(sum ≥ ${target})`, `${(m.pGe * 36).toFixed(0)}/36 = ${(m.pGe * 100).toFixed(2)}%`, 'text-gold-300')}
             {row('P(sum < ' + target + ')', `${((1 - m.pGe) * 100).toFixed(2)}%`)}
             <div className="mt-1 border-t border-white/10 pt-1 text-[10px] text-surface-500">
               each probability is counted from the grid — never memorised

@@ -11,7 +11,7 @@ export const w_c12_biologydrugalcoholabusesim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Drug and Alcohol Abuse: Effects on Health',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a person who consumes alcohol daily: initially they feel relaxed, but over time they need more to get.', goal: 'Master Drug and Alcohol Abuse: Effects on Health.' },
     discovery: {
         question: 'Name the neurotransmitter primarily involved in the brain\'s reward pathway that is hijacked by almost all addictive drugs, and state the specific brain region.',
@@ -20,7 +20,7 @@ export const w_c12_biologydrugalcoholabusesim: SimDef = {
         hook: 'Students often believe "addiction is just a lack of willpower" and that "withdrawal is only psychological." The exact.',
     },
     teaching: [
-        { title: 'Drug and alcohol abuse refers to the.', text: 'Drug and alcohol abuse refers to the chronic, non-medical use of psychoactive substances (such as opioids, cannabinoids, cocaine, barbiturates, amphetamines, and alcohol) that leads to physical.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Drug and alcohol abuse refers to the.', text: 'Drug and alcohol abuse refers to the chronic, non-medical use of psychoactive substances (such as opioids, cannabinoids, cocaine, barbiturates, amphetamines, and alcohol) that leads to physical.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_08_009', title: 'Drug and alcohol abuse refers to the.',

@@ -1119,7 +1119,7 @@ function C12_HistoryFirstGeneralElectionSim({
                 className={`text-xs px-2 py-0.5 rounded-md font-bold uppercase ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
                   difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border border-rose-800' :
-                  'bg-blue-950 text-blue-400 border border-blue-800'
+                  'bg-gold-950 text-gold-400 border border-gold-800'
                 }`}
               >
                 {difficulty}

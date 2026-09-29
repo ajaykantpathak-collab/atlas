@@ -70,7 +70,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "PowerPoint Templates & Themes 🎨",
     text: "A PowerPoint template is a pre-designed slide layout with placeholders for text and images. A theme is a coordinated set of colors, fonts, and effects applied across all slides for a professional look!",
     emoji: "🎨",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "A PowerPoint template is a pre-designed slide layout with placeholders for text and images. A theme is a coordinated set of colors, fonts, and effects applied across all slides!"
   },
   {
@@ -239,7 +239,7 @@ function CoderKavya({ mood, speaking }: { mood: MascotMood; speaking: string | n
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-2xl px-4 py-2.5 shadow-xl max-w-[240px] border-2 border-indigo-300"
+            className="mb-1 bg-white rounded-2xl px-4 py-2.5 shadow-xl max-w-[240px] border-2 border-gold-300"
           >
             <p className="text-xs font-bold text-gray-800 leading-tight">{speaking}</p>
           </motion.div>
@@ -719,7 +719,7 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
 
   return (
     <div
-      className="relative select-none overflow-hidden font-sans bg-slate-900 rounded-3xl shadow-2xl border-4 border-indigo-500"
+      className="relative select-none overflow-hidden font-sans bg-slate-900 rounded-3xl shadow-2xl border-4 border-gold-500"
       style={{ width, height }}
     >
       {/* Background Scene */}
@@ -741,10 +741,10 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
       )}
 
       {/* Top Header Bar */}
-      <div className="absolute top-4 left-4 z-20 flex items-center gap-3 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-lg border border-indigo-200">
+      <div className="absolute top-4 left-4 z-20 flex items-center gap-3 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl shadow-lg border border-gold-200">
         <span className="text-xl">🏆</span>
         <div>
-          <p className="text-[10px] uppercase font-bold text-indigo-600 tracking-wider">Score</p>
+          <p className="text-[10px] uppercase font-bold text-gold-600 tracking-wider">Score</p>
           <p className="text-lg font-extrabold text-gray-800">{score}</p>
         </div>
         <div className="h-6 w-[1px] bg-gray-300 mx-1" />
@@ -798,7 +798,7 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
                     setScreen('play');
                   }
                 }}
-                className="px-6 py-2.5 rounded-xl bg-white text-indigo-900 hover:bg-indigo-50 font-black text-sm shadow-lg transition-all"
+                className="px-6 py-2.5 rounded-xl bg-white text-gold-900 hover:bg-gold-50 font-black text-sm shadow-lg transition-all"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? "Start Play! 🚀" : "Next ➡️"}
               </button>
@@ -811,9 +811,9 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
       {screen === 'play' && (
         <div className="absolute inset-0 z-10 flex flex-col pt-20 px-8 pb-6 justify-between">
           {/* Question Header */}
-          <div className="bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-indigo-200 flex items-center justify-between max-w-2xl mx-auto w-full">
+          <div className="bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border-2 border-gold-200 flex items-center justify-between max-w-2xl mx-auto w-full">
             <div>
-              <span className="text-[10px] font-black uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md">
+              <span className="text-[10px] font-black uppercase tracking-wider text-gold-600 bg-gold-50 px-2 py-0.5 rounded-md">
                 Challenge {challengeIdx + 1} of {CHALLENGES.length}
               </span>
               <h3 className="text-base font-extrabold text-gray-800 mt-1">{currentChallenge.question}</h3>
@@ -833,7 +833,7 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
                 {currentChallenge.options.map((opt, idx) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectAnswer = opt === currentChallenge.answer;
-                  let btnColor = "bg-white hover:bg-indigo-50 text-gray-800 border-indigo-200";
+                  let btnColor = "bg-white hover:bg-gold-50 text-gray-800 border-gold-200";
                   if (selectedOpt) {
                     if (isCorrectAnswer) btnColor = "bg-emerald-500 text-white border-emerald-600 shadow-lg scale-[1.02]";
                     else if (isSelected) btnColor = "bg-rose-500 text-white border-rose-600";
@@ -863,7 +863,7 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
                   {currentChallenge.bins.map((bin) => (
                     <div
                       key={bin.id}
-                      className="w-48 h-28 rounded-2xl border-4 border-dashed border-indigo-300 bg-white/80 backdrop-blur-md flex flex-col items-center justify-center p-3 shadow-lg"
+                      className="w-48 h-28 rounded-2xl border-4 border-dashed border-gold-300 bg-white/80 backdrop-blur-md flex flex-col items-center justify-center p-3 shadow-lg"
                       style={{ borderColor: bin.color }}
                     >
                       <span className="text-xs font-black text-center" style={{ color: bin.color }}>{bin.label}</span>
@@ -900,7 +900,7 @@ export function PowerPointScratchGame({ width = 720, height = 560, onComplete }:
             <div className="flex justify-center pb-2">
               <button
                 onClick={advanceChallenge}
-                className="px-8 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-sm shadow-xl transition-all flex items-center gap-2"
+                className="px-8 py-3 rounded-2xl bg-gold-600 hover:bg-gold-700 text-white font-black text-sm shadow-xl transition-all flex items-center gap-2"
               >
                 Continue 🚀
               </button>

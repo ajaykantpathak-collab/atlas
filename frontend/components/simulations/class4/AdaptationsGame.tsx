@@ -90,7 +90,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Adaptations by Food Habits 🥩",
     text: "Animals are grouped by what they eat! Herbivores eat plants and have flat teeth (cow). Carnivores eat meat and have sharp teeth and claws (tiger). Omnivores eat both (bear, human)!",
     emoji: "🐅",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Animals are grouped by what they eat! Herbivores eat plants, carnivores eat meat, and omnivores eat both!"
   },
   {
@@ -104,7 +104,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Plant Adaptations by Habitat 🌲",
     text: "Desert cactus has spines instead of leaves to save water and a thick stem to store it. Lotus has broad floating leaves for water ponds. Pine trees have needle leaves to shed snow in hills!",
     emoji: "❄️",
-    bgColor: "from-cyan-600 to-blue-700",
+    bgColor: "from-gold-600 to-gold-700",
     spoken: "Desert cactus has spines to save water. Lotus has broad leaves for water ponds. Pine trees have needle leaves to shed snow!"
   },
 ];
@@ -749,7 +749,7 @@ export function AdaptationsGame({ width = 720, height = 560, onComplete }: Adapt
         <div className="flex items-center gap-6">
           {screen === 'play' && (
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-cyan-300 uppercase tracking-wider">Level {challengeIdx + 1}/8</span>
+              <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">Level {challengeIdx + 1}/8</span>
               <StarRow count={Math.floor(score / 15)} total={5} />
             </div>
           )}

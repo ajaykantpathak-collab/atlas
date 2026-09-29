@@ -11,7 +11,7 @@ export const w_c12_biotechnologynucleotidesnucleosidesstructuresim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Bioinformatics: Biological Databases and Analysis Tools',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_05_007', 'c12_biotech_cbse_02_007', 'c12_biotech_cbse_05_005', 'c12_biotech_cbse_05_006', 'c12_biotech_cbse_02_003', 'c12_biotech_cbse_02_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you have just sequenced a novel gene from a drought-tolerant millet variety grown in Rajasthan.', goal: 'Master Bioinformatics: Biological Databases and Analysis Tools.' },
     discovery: {
         question: 'Name the three major primary nucleotide sequence databases that form the International Nucleotide Sequence Database Collaboration (INSDC) and state the.',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologynucleotidesnucleosidesstructuresim: SimDef = {
         hook: 'Students believe that BLAST searches "the entire internet" or "all known sequences" and that a top hit with 99%.',
     },
     teaching: [
-        { title: 'Bioinformatics is the interdisciplinary.', text: 'Bioinformatics is the interdisciplinary science that creates, maintains, and analyses biological databases and computational tools to store, retrieve, and interpret genomic, transcriptomic, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Bioinformatics is the interdisciplinary.', text: 'Bioinformatics is the interdisciplinary science that creates, maintains, and analyses biological databases and computational tools to store, retrieve, and interpret genomic, transcriptomic, and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_05_007', title: 'Bioinformatics is the interdisciplinary.',

@@ -11,7 +11,7 @@ export const w_c11_economicsdefinitioneconomicsadamsim: SimDef = {
     classLevel: 11, subject: 'economics', topic: 'Workers and Employment: Key Definitions and Concepts',
     chapters: [],
     nodeIds: ['c11_eco_cbse_06_001', 'c11_eco_cbse_06_002', 'c11_eco_cbse_06_005', 'c11_eco_cbse_06_006', 'c11_eco_cbse_06_008', 'c11_eco_cbse_06_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are standing at a busy chowk in your town at 8 AM: a vegetable vendor arranging produce.', goal: 'Master Workers and Employment: Key Definitions and Concepts.' },
     discovery: {
         question: '**UNDERSTAND LEVEL:** Explain why the worker-population ratio for rural women (34.8%) is higher than for urban women (20.7%) in 2023-24 (Table 6.1), despite.',
@@ -20,7 +20,7 @@ export const w_c11_economicsdefinitioneconomicsadamsim: SimDef = {
         hook: '**Specific Error:** Students believe "self-employed = entrepreneur with capital and employees" and "casual worker =.',
     },
     teaching: [
-        { title: 'Economic activities are all human endeavours.', text: 'Economic activities are all human endeavours that contribute to the gross national product (GNP) through the production of goods and services for which payment is made or imputed; a worker is any.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Economic activities are all human endeavours.', text: 'Economic activities are all human endeavours that contribute to the gross national product (GNP) through the production of goods and services for which payment is made or imputed; a worker is any.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_eco_cbse_06_001', title: 'Economic activities are all human.',

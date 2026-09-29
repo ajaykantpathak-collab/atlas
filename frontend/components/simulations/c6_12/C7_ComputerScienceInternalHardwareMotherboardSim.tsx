@@ -1218,14 +1218,14 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
           <motion.div
             whileHover={{ rotate: 360, scale: 1.1 }}
             transition={{ duration: 0.6 }}
-            className="w-12 h-12 rounded-2xl bg-cyan-950 border border-cyan-500/30 flex items-center justify-center text-2xl shadow-lg shadow-cyan-950/50"
+            className="w-12 h-12 rounded-2xl bg-gold-950 border border-gold-500/30 flex items-center justify-center text-2xl shadow-lg shadow-gold-950/50"
             aria-label="Computer Science Icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold tracking-widest text-cyan-400 uppercase">ICSE CLASS 7 • COMPUTER SCIENCE</span>
+              <span className="text-xs font-bold tracking-widest text-gold-400 uppercase">ICSE CLASS 7 • COMPUTER SCIENCE</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">CISCE 2026 Ready</span>
             </div>
             <h1 className="text-xl md:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1245,7 +1245,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                 audioManager.play('whoosh');
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                phase === p ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                phase === p ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
               }`}
             >
               {p === 'discovery' ? '💡 Hook' : p === 'explore' ? '🔬 Lab' : p === 'sandbox' ? '🎮 Free Play' : '🎯 Challenges'}
@@ -1262,20 +1262,20 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 rounded-3xl bg-gradient-to-br from-cyan-950/40 via-slate-900 to-indigo-950/40 border border-cyan-800/40 shadow-xl">
-            <div className="flex items-center gap-2 text-cyan-400 font-bold text-sm uppercase tracking-wider mb-2">
+          <div className="p-6 rounded-3xl bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 border border-gold-800/40 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider mb-2">
               <span>🚨 Mission Dispatch</span>
             </div>
             <h2 className="text-2xl font-black text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3.5 bg-slate-950/60 rounded-2xl border border-cyan-900/30 text-xs text-cyan-300/90">
+            <div className="mt-4 p-3.5 bg-slate-950/60 rounded-2xl border border-gold-900/30 text-xs text-gold-300/90">
               ⚡ {SCENARIO.context}
             </div>
           </div>
 
           <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800">
             <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-              <span className="w-7 h-7 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm font-bold">?</span>
+              <span className="w-7 h-7 rounded-lg bg-gold-500/20 text-gold-400 flex items-center justify-center text-sm font-bold">?</span>
               {DISCOVERY_QUESTION.question}
             </h3>
 
@@ -1293,10 +1293,10 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-950 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-cyan-500/40'
+                      : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-gold-500/40'
                   }`}
                 >
-                  <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && <span className="ml-2 text-emerald-400 font-bold">✓</span>}
                   {discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex && <span className="ml-2 text-rose-400 font-bold">✗</span>}
@@ -1314,7 +1314,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   whileTap={{ scale: 0.95 }}
                   aria-label="Enter Interactive Hardware Labs"
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-600 to-indigo-600 text-white font-bold text-sm shadow-lg shadow-cyan-600/30"
+                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold text-sm shadow-lg shadow-gold-600/30"
                 >
                   Enter Hardware Labs →
                 </motion.button>
@@ -1329,7 +1329,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-2 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-widest">Interactive Lab Station {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Interactive Lab Station {currentSlide + 1} of {EXPLORATION_STEPS.length}</span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
             </div>
             <p className="text-xs text-amber-400 bg-amber-950/40 px-3 py-1.5 rounded-xl border border-amber-800/40">
@@ -1455,15 +1455,15 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   <div className="lg:col-span-5 space-y-4">
                     <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Module Inspector</span>
-                        <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800">
+                        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Module Inspector</span>
+                        <span className="text-xs px-2 py-0.5 rounded-full bg-gold-950 text-gold-300 border border-gold-800">
                           {selectedMotherboardPart ? selectedMotherboardPart.toUpperCase() : 'SELECT A CHIP'}
                         </span>
                       </div>
 
                       {selectedMotherboardPart === 'cpu' && (
                         <div>
-                          <h4 className="text-base font-bold text-cyan-300">Central Processing Unit (CPU)</h4>
+                          <h4 className="text-base font-bold text-gold-300">Central Processing Unit (CPU)</h4>
                           <p className="text-xs text-slate-300 mt-1 leading-relaxed">
                             The brain of the computer. Executes binary instructions, performs arithmetic operations via ALU, and coordinates program threads.
                           </p>
@@ -1532,7 +1532,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                           aria-label={`Inspect ${p.toUpperCase()} module`}
                           onClick={() => handleSelectMotherboardPart(p)}
                           className={`flex-1 py-2 rounded-xl text-xs font-bold uppercase transition-all ${
-                            selectedMotherboardPart === p ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                            selectedMotherboardPart === p ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                           }`}
                         >
                           {p}
@@ -1609,8 +1609,8 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
 
                   {/* Observation Question */}
                   {!observationAnswered && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/40">
-                      <p className="text-sm font-bold text-indigo-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="p-4 rounded-2xl bg-gold-950/40 border border-gold-800/40">
+                      <p className="text-sm font-bold text-gold-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1635,8 +1635,8 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                 <div className="space-y-6">
                   {/* PREDICT-THEN-CHECK */}
                   {!predictionMade && (
-                    <div className="p-4 rounded-2xl bg-cyan-950/40 border border-cyan-800/40">
-                      <p className="text-sm font-bold text-cyan-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 rounded-2xl bg-gold-950/40 border border-gold-800/40">
+                      <p className="text-sm font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1645,7 +1645,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                             whileTap={{ scale: 0.95 }}
                             aria-label={`Prediction option ${opt}`}
                             onClick={() => handlePrediction(i)}
-                            className="p-2.5 bg-slate-900 rounded-xl text-xs font-bold text-slate-200 border border-slate-700 hover:border-cyan-400"
+                            className="p-2.5 bg-slate-900 rounded-xl text-xs font-bold text-slate-200 border border-slate-700 hover:border-gold-400"
                           >
                             {opt}
                           </motion.button>
@@ -1715,14 +1715,14 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                       value={calculatedBusValues.dec}
                       aria-label="Decimal Value Bus Slider"
                       onChange={e => handleDecimalSliderChange(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   {/* 8-Bit Interactive Register Buttons */}
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800">
                     <div className="flex items-center justify-between mb-3">
-                      <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Bit Toggle Matrix</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Bit Toggle Matrix</span>
                       <span className="text-xs text-slate-400">Click individual bits to flip values</span>
                     </div>
 
@@ -1737,7 +1737,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                             onClick={() => handleToggleBit(idx)}
                             className={`w-full py-4 rounded-xl text-lg font-black font-mono transition-all border ${
                               activeBits[idx]
-                                ? 'bg-cyan-600 text-white border-cyan-400 shadow-lg shadow-cyan-600/40'
+                                ? 'bg-gold-600 text-white border-gold-400 shadow-lg shadow-gold-600/40'
                                 : 'bg-slate-900 text-slate-500 border-slate-800 hover:border-slate-600'
                             }`}
                           >
@@ -1751,7 +1751,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                     <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-3">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[10px] uppercase font-bold text-slate-400">Binary (Base-2)</span>
-                        <div className="text-lg font-black font-mono text-cyan-400">{calculatedBusValues.binStr}₂</div>
+                        <div className="text-lg font-black font-mono text-gold-400">{calculatedBusValues.binStr}₂</div>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[10px] uppercase font-bold text-slate-400">Decimal (Base-10)</span>
@@ -1791,10 +1791,10 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                         aria-label={`Select ${port.name}`}
                         onClick={() => handleSelectPort(port.id)}
                         className={`w-full p-3 rounded-2xl text-left transition-all border ${
-                          selectedPortId === port.id ? 'bg-cyan-950/80 border-cyan-500 text-white' : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
+                          selectedPortId === port.id ? 'bg-gold-950/80 border-gold-500 text-white' : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                         }`}
                       >
-                        <div className="text-sm font-bold text-cyan-300">{port.name}</div>
+                        <div className="text-sm font-bold text-gold-300">{port.name}</div>
                         <div className="text-xs text-slate-400">{port.desc}</div>
                       </motion.button>
                     ))}
@@ -1911,7 +1911,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   {/* Real-time slider controlling the visualization */}
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800">
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Antivirus Signature Database Age</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Antivirus Signature Database Age</span>
                       <span className="text-xs font-bold text-emerald-400">{antivirusUpdateLevel}% Updated (2026 Definitions)</span>
                     </div>
                     <input
@@ -1921,7 +1921,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                       value={antivirusUpdateLevel}
                       aria-label="Antivirus Signature Database Update Slider"
                       onChange={e => handleAntivirusSlider(Number(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                       <span>0% (Outdated 2021 Signatures)</span>
@@ -1992,7 +1992,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-6 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm shadow-lg shadow-cyan-600/30"
+                className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2025,7 +2025,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                 whileTap={{ scale: 0.95 }}
                 aria-label="Start Diagnostic Challenges"
                 onClick={handleAdvanceToChallenge}
-                className="px-6 py-2.5 rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-bold text-sm shadow-xl shadow-emerald-600/30"
+                className="px-6 py-2.5 rounded-2xl bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold text-sm shadow-xl shadow-emerald-600/30"
               >
                 Start Diagnostic Challenges 🎯 →
               </motion.button>
@@ -2036,7 +2036,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
 
             {/* Sandbox Bit Matrix */}
             <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
-              <span className="text-xs font-bold text-cyan-400 uppercase">Live 8-Bit Bus Controller</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">Live 8-Bit Bus Controller</span>
               <div className="grid grid-cols-8 gap-2">
                 {[128, 64, 32, 16, 8, 4, 2, 1].map((w, i) => (
                   <motion.button
@@ -2046,7 +2046,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                     aria-label={`Toggle Sandbox Bit ${7 - i}`}
                     onClick={() => handleToggleBit(i)}
                     className={`py-3 rounded-xl font-mono font-bold text-sm transition-all border ${
-                      activeBits[i] ? 'bg-cyan-600 border-cyan-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-500'
+                      activeBits[i] ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-900 border-slate-800 text-slate-500'
                     }`}
                   >
                     {activeBits[i] ? '1' : '0'}
@@ -2091,7 +2091,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                     ? 'bg-emerald-950 text-emerald-400 border-emerald-800'
                     : difficulty === 'advanced'
                     ? 'bg-purple-950 text-purple-400 border-purple-800'
-                    : 'bg-cyan-950 text-cyan-400 border-cyan-800'
+                    : 'bg-gold-950 text-gold-400 border-gold-800'
                 }`}
               >
                 {difficulty} TIER
@@ -2112,7 +2112,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
           {/* Animated Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
             />
@@ -2121,7 +2121,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
           {/* Challenge Question Card */}
           <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800">
             <h3 className="text-lg md:text-xl font-bold text-white mb-6 leading-relaxed flex items-start gap-3">
-              <span className="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm font-bold shrink-0 mt-0.5">
+              <span className="w-8 h-8 rounded-xl bg-gold-500/20 text-gold-400 flex items-center justify-center text-sm font-bold shrink-0 mt-0.5">
                 {currentChallenge + 1}
               </span>
               <span>{challenge.question}</span>
@@ -2145,10 +2145,10 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                         ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                         : showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                        : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-cyan-500/40'
+                        : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-gold-500/40'
                     }`}
                   >
-                    <span className="font-bold text-cyan-400 mr-2">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400 mr-2">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                     {showExplanation && i === challenge.correctIndex && <span className="ml-2 text-emerald-400 font-bold">✓ (Correct)</span>}
                   </motion.button>
@@ -2171,7 +2171,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-cyan-700 hover:bg-cyan-600 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold cursor-grab shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2208,7 +2208,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   aria-label="Verify Motherboard Layout"
                   onClick={e => handleAnswer(droppedLabels, e)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-600/30"
                 >
                   Verify Motherboard Layout ✓
                 </motion.button>
@@ -2239,7 +2239,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3.5 bg-slate-950 border border-slate-800 rounded-2xl text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-slate-800 text-cyan-400 flex items-center justify-center font-bold text-xs">
+                      <span className="w-6 h-6 rounded-lg bg-slate-800 text-gold-400 flex items-center justify-center font-bold text-xs">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2253,7 +2253,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   aria-label="Check Sequence Order"
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-600/30"
                 >
                   Check Sequence ✓
                 </motion.button>
@@ -2270,7 +2270,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                     aria-label="Calculated numeric value input"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value..."
-                    className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-4 py-3 text-white font-mono text-base focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-950 border border-slate-700 rounded-2xl px-4 py-3 text-white font-mono text-base focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                 </div>
@@ -2280,7 +2280,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   aria-label="Verify Calculated Number"
                   onClick={e => handleAnswer(numericInput, e)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-600/30"
                 >
                   Verify Number ✓
                 </motion.button>
@@ -2302,7 +2302,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                         aria-label={`Toggle part: ${part}`}
                         onClick={() => handleConstructTogglePart(part)}
                         className={`px-3 py-2 rounded-xl text-xs font-bold transition-all border ${
-                          selected ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800'
+                          selected ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
                         {selected ? '✓ ' : '+ '} {part}
@@ -2311,7 +2311,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   })}
                 </div>
 
-                <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 font-mono text-xs text-cyan-300 min-h-[50px] flex items-center">
+                <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 font-mono text-xs text-gold-300 min-h-[50px] flex items-center">
                   {constructParts.length > 0 ? constructParts.join(' ') : <span className="text-slate-600">Click elements above to assemble construction...</span>}
                 </div>
 
@@ -2321,7 +2321,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   aria-label="Check Assembled Structure"
                   onClick={e => handleAnswer(constructParts.join(' '), e)}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-cyan-600/30"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-600/30"
                 >
                   Check Assembly ✓
                 </motion.button>
@@ -2330,10 +2330,10 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
 
             {/* Progressive Step-by-Step Explanation Reveal */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 rounded-2xl bg-cyan-950/40 border border-cyan-800/60 space-y-3">
+              <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-5 rounded-2xl bg-gold-950/40 border border-gold-800/60 space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-cyan-300 uppercase tracking-wider">Step-by-Step Logic Walkthrough</span>
-                  <span className="text-[10px] text-cyan-400">Step {revealedSteps + 1} of {challenge.explanation.split('. ').filter(s => s.trim().length > 0).length}</span>
+                  <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">Step-by-Step Logic Walkthrough</span>
+                  <span className="text-[10px] text-gold-400">Step {revealedSteps + 1} of {challenge.explanation.split('. ').filter(s => s.trim().length > 0).length}</span>
                 </div>
 
                 {challenge.explanation
@@ -2342,7 +2342,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   .slice(0, revealedSteps + 1)
                   .map((sentence, i) => (
                     <motion.p key={i} initial={{ opacity: 0, x: -8 }} animate={{ opacity: 1, x: 0 }} className="text-xs md:text-sm text-slate-200 leading-relaxed">
-                      <strong className="text-cyan-400 mr-1.5">{i + 1}.</strong>
+                      <strong className="text-gold-400 mr-1.5">{i + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2355,7 +2355,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                       whileTap={{ scale: 0.97 }}
                       aria-label="Show next logic step"
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-xl text-xs font-bold"
+                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-xl text-xs font-bold"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2380,7 +2380,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & AUDIT REPORT ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-cyan-950/60 via-slate-900 to-emerald-950/60 border border-cyan-800/60 text-center space-y-4">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-gold-950/60 via-slate-900 to-emerald-950/60 border border-gold-800/60 text-center space-y-4">
             <div className="w-16 h-16 rounded-3xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-3xl font-black mx-auto">
               🏆
             </div>
@@ -2396,7 +2396,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
               </div>
               <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-[10px] font-bold text-slate-400 uppercase">Mastery Tier</span>
-                <div className="text-2xl font-black text-cyan-400 uppercase">{masteryLevel}</div>
+                <div className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</div>
               </div>
             </div>
           </div>
@@ -2406,7 +2406,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
             errors === 0
               ? 'bg-emerald-950/50 border-emerald-500/50 text-emerald-200'
               : errors <= 3
-              ? 'bg-cyan-950/50 border-cyan-500/50 text-cyan-200'
+              ? 'bg-gold-950/50 border-gold-500/50 text-gold-200'
               : errors <= 7
               ? 'bg-amber-950/50 border-amber-500/50 text-amber-200'
               : 'bg-rose-950/50 border-rose-500/50 text-rose-200'
@@ -2417,7 +2417,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-cyan-400 font-bold text-sm uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider">
               <span>💭 Reflect & Consolidate</span>
             </div>
             <h3 className="text-base font-bold text-white">Engineering Thought Journal</h3>
@@ -2434,7 +2434,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   placeholder="e.g. How polymorphic viruses change their signatures, or how RAM is instantly wiped when power is cut..."
                   rows={2}
                   aria-label="Reflection on the most surprising thing learned"
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-cyan-200 focus:outline-none focus:border-cyan-500 font-sans"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-gold-200 focus:outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
@@ -2449,7 +2449,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   placeholder="e.g. The motherboard is the city's road network, CPU is the brain, RAM is a temporary whiteboard..."
                   rows={2}
                   aria-label="Reflection on explaining concepts to a friend"
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-cyan-200 focus:outline-none focus:border-cyan-500 font-sans"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-gold-200 focus:outline-none focus:border-gold-500 font-sans"
                 />
               </div>
 
@@ -2464,7 +2464,7 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
                   placeholder="e.g. Upgrading my computer GPU for video editing, configuring antivirus updates, or connecting projectors via HDMI..."
                   rows={2}
                   aria-label="Reflection on real life applications"
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-cyan-200 focus:outline-none focus:border-cyan-500 font-sans"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-xs text-gold-200 focus:outline-none focus:border-gold-500 font-sans"
                 />
               </div>
             </div>
@@ -2491,12 +2491,12 @@ function C7_ComputerScienceInternalHardwareMotherboardSim({
 
           {/* Real-World Activity */}
           <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((s, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-cyan-400 font-bold">{i + 1}.</span> {s}
+                  <span className="text-gold-400 font-bold">{i + 1}.</span> {s}
                 </li>
               ))}
             </ul>

@@ -1103,24 +1103,24 @@ function C7_ComputerScienceHtmlTablesTableSim({
   }, [sortArrangement, challenge, handleAnswer]);
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden font-sans selection:bg-cyan-500 selection:text-white">
+    <div className="w-full max-w-6xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden font-sans selection:bg-gold-500 selection:text-white">
       {/* Background Decorative Glow */}
-      <div className="absolute top-0 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Top Header Bar */}
       <header className="mb-6 flex flex-wrap items-center justify-between gap-4 border-b border-slate-800/80 pb-4">
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center text-2xl shadow-lg shadow-cyan-900/30"
+            className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-gold-600 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-900/30"
             aria-label="Computer Science icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-wider px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono">
+              <span className="text-xs uppercase tracking-wider px-2 py-0.5 rounded-full bg-gold-950 text-gold-400 border border-gold-800 font-mono">
                 ICSE Class 7 CS
               </span>
               <span className="text-xs text-slate-400 font-mono">NEP 2020 Aligned</span>
@@ -1137,7 +1137,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
               animate={{ opacity: phase === pName ? 1 : 0.4, scale: phase === pName ? 1.05 : 0.95 }}
               className={`px-3 py-1 rounded-xl text-xs font-bold capitalize transition-all border ${
                 phase === pName
-                  ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/50 shadow-md shadow-cyan-500/10'
+                  ? 'bg-gold-500/20 text-gold-300 border-gold-500/50 shadow-md shadow-gold-500/10'
                   : 'bg-slate-900 text-slate-500 border-slate-800'
               }`}
             >
@@ -1150,14 +1150,14 @@ function C7_ComputerScienceHtmlTablesTableSim({
       {/* ─── PHASE 1: DISCOVERY HOOK & BRILLIANT PREDICTIONS ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-cyan-950/40 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
-              <span className="w-2 h-2 rounded-full bg-indigo-400 animate-ping" />
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
+              <span className="w-2 h-2 rounded-full bg-gold-400 animate-ping" />
               Event Simulation Briefing
             </div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed text-sm md:text-base">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-indigo-900/40 text-xs text-indigo-300">
+            <div className="mt-4 p-3 bg-slate-950/70 rounded-xl border border-gold-900/40 text-xs text-gold-300">
               ⚡ <strong>Your Goal:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1190,7 +1190,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       : 'bg-slate-850 hover:bg-slate-800 border-slate-700/80 text-slate-200'
                   }`}
                 >
-                  <span className="inline-block w-6 h-6 rounded-lg bg-slate-800 text-center leading-6 text-xs font-mono font-bold mr-2 text-cyan-400">
+                  <span className="inline-block w-6 h-6 rounded-lg bg-slate-800 text-center leading-6 text-xs font-mono font-bold mr-2 text-gold-400">
                     {String.fromCharCode(65 + idx)}
                   </span>
                   {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && <span className="text-emerald-400 mr-1.5">✓</span>}
@@ -1217,7 +1217,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Labs"
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-900/40 whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/40 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1226,9 +1226,9 @@ function C7_ComputerScienceHtmlTablesTableSim({
           </div>
 
           {/* Brilliant Predict-Then-Check Section */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-900/50 space-y-4 shadow-xl">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-900/50 space-y-4 shadow-xl">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-mono uppercase text-indigo-400 bg-indigo-950/60 px-2.5 py-1 rounded border border-indigo-800">
+              <span className="text-xs font-mono uppercase text-gold-400 bg-gold-950/60 px-2.5 py-1 rounded border border-gold-800">
                 🔮 Brilliant Predict-Then-Check Hypotheses
               </span>
               <span className="text-xs text-slate-400">Make predictions before testing in the live simulator</span>
@@ -1241,7 +1241,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                 return (
                   <div key={pred.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <p className="text-sm font-bold text-slate-200">
-                      <span className="text-cyan-400 font-mono mr-2">Prediction #{pIdx + 1}:</span>
+                      <span className="text-gold-400 font-mono mr-2">Prediction #{pIdx + 1}:</span>
                       {pred.question}
                     </p>
 
@@ -1261,7 +1261,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                               : 'bg-slate-900 hover:bg-slate-800 border-slate-700/80 text-slate-300'
                           }`}
                         >
-                          <span className="font-mono text-cyan-400 mr-1.5">{String.fromCharCode(65 + optIdx)}.</span>
+                          <span className="font-mono text-gold-400 mr-1.5">{String.fromCharCode(65 + optIdx)}.</span>
                           {opt}
                         </button>
                       ))}
@@ -1273,7 +1273,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           {predictionFeedback[pred.id] ? '✓ Accurate Hypothesis!' : '⚡ Hypothesis Recorded!'}
                         </p>
                         <p className="text-slate-300">{pred.explanation}</p>
-                        <p className="text-cyan-300 font-medium">🔬 <strong>How to Verify:</strong> {pred.verifyInstruction}</p>
+                        <p className="text-gold-300 font-medium">🔬 <strong>How to Verify:</strong> {pred.verifyInstruction}</p>
                       </div>
                     )}
                   </div>
@@ -1303,7 +1303,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   currentSlide === sIdx
-                    ? 'bg-cyan-600 text-white border-cyan-400 shadow-md shadow-cyan-900/30'
+                    ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-900/30'
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-850'
                 }`}
               >
@@ -1321,7 +1321,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
               className="p-5 md:p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-xl space-y-4"
             >
               <div className="flex items-center justify-between">
-                <h3 className="text-lg md:text-xl font-bold text-cyan-300">
+                <h3 className="text-lg md:text-xl font-bold text-gold-300">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <span className="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded">
@@ -1350,7 +1350,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                             setTableBorder(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-40 accent-cyan-500 cursor-pointer"
+                          className="w-40 accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1388,7 +1388,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                             }}
                             className={`px-2.5 py-1 rounded text-xs font-mono ${
                               selectedCity === city
-                                ? 'bg-cyan-600 text-white'
+                                ? 'bg-gold-600 text-white'
                                 : 'bg-slate-800 text-slate-400'
                             }`}
                           >
@@ -1399,7 +1399,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
                       {/* SVG Diagram 1: DOM Tree Representation */}
                       <div className="bg-slate-900 p-3 rounded-lg border border-slate-800">
-                        <p className="text-[11px] font-mono text-cyan-400 mb-2">SVG Diagram 1 • HTML Table Tree Hierarchy:</p>
+                        <p className="text-[11px] font-mono text-gold-400 mb-2">SVG Diagram 1 • HTML Table Tree Hierarchy:</p>
                         <svg viewBox="0 0 360 130" className="w-full" aria-label="HTML Table DOM Tree Diagram" role="img">
                           <rect x="130" y="5" width="100" height="24" rx="4" fill="#0369a1" />
                           <text x="180" y="21" textAnchor="middle" fill="#fff" fontSize="11" fontWeight="bold">&lt;table border="{tableBorder}"&gt;</text>
@@ -1431,7 +1431,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           aria-label="View rendered browser output"
                           onClick={() => setActiveTabVisual('render')}
                           className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                            activeTabVisual === 'render' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeTabVisual === 'render' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           🖥️ Rendered Browser Output
@@ -1440,7 +1440,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           aria-label="View source HTML code"
                           onClick={() => setActiveTabVisual('code')}
                           className={`px-3 py-1 rounded-lg text-xs font-bold ${
-                            activeTabVisual === 'code' ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeTabVisual === 'code' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           📄 Source HTML Code
@@ -1493,10 +1493,10 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           </table>
                         </div>
                       ) : (
-                        <div className="p-4 bg-slate-950 font-mono text-xs rounded-xl border border-slate-800 text-cyan-300 leading-relaxed overflow-x-auto min-h-[190px]">
+                        <div className="p-4 bg-slate-950 font-mono text-xs rounded-xl border border-slate-800 text-gold-300 leading-relaxed overflow-x-auto min-h-[190px]">
                           <p className="text-slate-500">&lt;!-- Valid Nested ICSE HTML Table Structure --&gt;</p>
                           <p className="text-amber-400">&lt;table border="{tableBorder}"&gt;</p>
-                          <p className="pl-4 text-indigo-300">&lt;tr&gt;</p>
+                          <p className="pl-4 text-gold-300">&lt;tr&gt;</p>
                           {tableUseHeaders ? (
                             <>
                               <p className="pl-8 text-emerald-400">&lt;th&gt;Host City&lt;/th&gt;</p>
@@ -1508,11 +1508,11 @@ function C7_ComputerScienceHtmlTablesTableSim({
                               <p className="pl-8 text-rose-400">&lt;td&gt;Exhibition Hall&lt;/td&gt;</p>
                             </>
                           )}
-                          <p className="pl-4 text-indigo-300">&lt;/tr&gt;</p>
-                          <p className="pl-4 text-indigo-300">&lt;tr&gt;</p>
-                          <p className="pl-8 text-sky-300">&lt;td&gt;{selectedCity}&lt;/td&gt;</p>
-                          <p className="pl-8 text-sky-300">&lt;td&gt;Vigyan Bhawan - Hall A&lt;/td&gt;</p>
-                          <p className="pl-4 text-indigo-300">&lt;/tr&gt;</p>
+                          <p className="pl-4 text-gold-300">&lt;/tr&gt;</p>
+                          <p className="pl-4 text-gold-300">&lt;tr&gt;</p>
+                          <p className="pl-8 text-gold-300">&lt;td&gt;{selectedCity}&lt;/td&gt;</p>
+                          <p className="pl-8 text-gold-300">&lt;td&gt;Vigyan Bhawan - Hall A&lt;/td&gt;</p>
+                          <p className="pl-4 text-gold-300">&lt;/tr&gt;</p>
                           <p className="text-amber-400">&lt;/table&gt;</p>
                         </div>
                       )}
@@ -1520,8 +1520,8 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   </div>
 
                   {/* Observation Question #1 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 mt-4 space-y-3">
-                    <span className="text-xs font-mono uppercase text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded border border-indigo-800">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 mt-4 space-y-3">
+                    <span className="text-xs font-mono uppercase text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-800">
                       👁️ Brilliant Observation 1: What do you notice?
                     </span>
                     <p className="text-xs sm:text-sm font-semibold text-slate-200">
@@ -1606,7 +1606,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Live interactive form */}
                     <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                      <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Live HTML Form Render</h4>
+                      <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Live HTML Form Render</h4>
                       <div>
                         <label htmlFor="student-name-input" className="text-xs text-slate-400 block mb-1">Student Name &lt;input type="text"&gt;:</label>
                         <input
@@ -1614,7 +1614,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           type="text"
                           aria-label="Student full name input field"
                           placeholder="e.g. Aarav Sharma"
-                          className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:border-cyan-500 focus:outline-none"
+                          className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:border-gold-500 focus:outline-none"
                         />
                       </div>
 
@@ -1632,7 +1632,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                                 else setRadio1Checked(!radio1Checked);
                                 audioManager.play('tap');
                               }}
-                              className="accent-cyan-500"
+                              className="accent-gold-500"
                             />
                             <span>Junior Category (Class 6-8)</span>
                           </label>
@@ -1647,7 +1647,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                                 else setRadio2Checked(!radio2Checked);
                                 audioManager.play('tap');
                               }}
-                              className="accent-cyan-500"
+                              className="accent-gold-500"
                             />
                             <span>Senior Category (Class 9-10)</span>
                           </label>
@@ -1667,7 +1667,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                                   setCheckboxState(prev => ({ ...prev, [task]: !prev[task] }));
                                   audioManager.play('tap');
                                 }}
-                                className="accent-indigo-500"
+                                className="accent-gold-500"
                               />
                               {task}
                             </label>
@@ -1684,7 +1684,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           speechManager.speak('Form data submitted to virtual server!');
                           setShowSparkle(true);
                         }}
-                        className="w-full py-2 bg-gradient-to-r from-cyan-600 to-indigo-600 rounded-lg text-xs font-bold text-white shadow"
+                        className="w-full py-2 bg-gradient-to-r from-gold-600 to-gold-600 rounded-lg text-xs font-bold text-white shadow"
                       >
                         &lt;input type="submit" value="Register Now"&gt;
                       </motion.button>
@@ -1692,7 +1692,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
                     {/* SVG Diagram 2: Form Input Architecture */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                      <p className="text-[11px] font-mono text-cyan-400">SVG Diagram 2 • Radio vs Checkbox Binding Architecture:</p>
+                      <p className="text-[11px] font-mono text-gold-400">SVG Diagram 2 • Radio vs Checkbox Binding Architecture:</p>
                       <svg viewBox="0 0 340 160" className="w-full" aria-label="Form Input Data Flow Diagram" role="img">
                         <rect x="10" y="10" width="150" height="65" rx="6" fill="#0f172a" stroke={formRadioNameGroup === 'matched' ? '#10b981' : '#f43f5e'} strokeWidth="1.5" />
                         <text x="85" y="28" textAnchor="middle" fill="#38bdf8" fontSize="10" fontWeight="bold">Radio Group (name=cat)</text>
@@ -1730,7 +1730,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 relative">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-xs font-mono text-cyan-400">Scratch 3.0 Stage Simulator</span>
+                        <span className="text-xs font-mono text-gold-400">Scratch 3.0 Stage Simulator</span>
                         <span className="text-xs text-slate-400">Clones on stage: {clonesList.length}</span>
                       </div>
                       <canvas ref={canvasRef} width={340} height={180} className="w-full rounded-lg bg-slate-900 border border-slate-800" />
@@ -1740,7 +1740,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={handleSpawnClone}
-                          className="flex-1 py-2 bg-indigo-600 rounded-lg text-xs font-bold text-white"
+                          className="flex-1 py-2 bg-gold-600 rounded-lg text-xs font-bold text-white"
                         >
                           + [create clone of (myself)]
                         </motion.button>
@@ -1761,14 +1761,14 @@ function C7_ComputerScienceHtmlTablesTableSim({
                         <span className="text-rose-400 font-bold block mb-1">define spawnSpark (speedParam)</span>
                         <p className="text-slate-300 pl-4">go to x: (pick random -200 to 200) y: (150)</p>
                         <p className="text-slate-300 pl-4">repeat until &lt;touching edge?&gt;</p>
-                        <p className="text-cyan-300 pl-8 font-bold">change y by ((0) - (speedParam))</p>
+                        <p className="text-gold-300 pl-8 font-bold">change y by ((0) - (speedParam))</p>
                         <p className="text-slate-300 pl-4">delete this clone</p>
                       </div>
 
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs text-slate-300">
                           <label htmlFor="clone-speed-slider">Parameter (speedParam):</label>
-                          <span className="font-mono text-cyan-400 font-bold">{cloneSpeedParam} steps/tick</span>
+                          <span className="font-mono text-gold-400 font-bold">{cloneSpeedParam} steps/tick</span>
                         </div>
                         <input
                           id="clone-speed-slider"
@@ -1781,7 +1781,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                             setCloneSpeedParam(Number(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                       <p className="text-xs text-slate-400">
@@ -1799,7 +1799,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                     {/* List Data Structure */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <h4 className="text-xs font-bold text-cyan-400 font-mono">List: "MetroCities" (Length: {scratchListItems.length})</h4>
+                        <h4 className="text-xs font-bold text-gold-400 font-mono">List: "MetroCities" (Length: {scratchListItems.length})</h4>
                         <span className="text-[10px] text-amber-400 bg-amber-950 px-2 py-0.5 rounded border border-amber-800">
                           1-Based Indexing
                         </span>
@@ -1813,7 +1813,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                             animate={{ opacity: 1, x: 0 }}
                             className="flex items-center justify-between p-2 bg-slate-900 rounded-lg border border-slate-800 text-xs"
                           >
-                            <span className="font-mono text-cyan-400 font-bold w-6">#{idx + 1}</span>
+                            <span className="font-mono text-gold-400 font-bold w-6">#{idx + 1}</span>
                             <span className="text-slate-200 flex-1 font-medium">{item}</span>
                             <motion.button
                               aria-label={`Delete list item ${idx + 1}`}
@@ -1842,7 +1842,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={handleAddScratchListItem}
-                          className="px-3 py-1.5 bg-cyan-600 text-white rounded-lg text-xs font-bold"
+                          className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold"
                         >
                           Add to List
                         </motion.button>
@@ -1851,7 +1851,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
                     {/* String Operations Lab */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold text-indigo-400 font-mono">String Operations Evaluator</h4>
+                      <h4 className="text-xs font-bold text-gold-400 font-mono">String Operations Evaluator</h4>
                       <div>
                         <label htmlFor="test-string-input" className="text-[11px] text-slate-400 block mb-1">Target String Value:</label>
                         <input
@@ -1867,12 +1867,12 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       <div className="grid grid-cols-2 gap-2 text-xs">
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">length of string:</span>
-                          <span className="text-lg font-mono font-bold text-cyan-300">{testString.length}</span>
+                          <span className="text-lg font-mono font-bold text-gold-300">{testString.length}</span>
                           <span className="text-[10px] text-slate-500 block">(includes spaces)</span>
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">letter #{inspectCharIndex} of string:</span>
-                          <span className="text-lg font-mono font-bold text-indigo-300">
+                          <span className="text-lg font-mono font-bold text-gold-300">
                             {testString[inspectCharIndex - 1] === ' ' ? '[Space]' : testString[inspectCharIndex - 1] || 'None'}
                           </span>
                           <span className="text-[10px] text-slate-500 block">1-based char pos</span>
@@ -1882,7 +1882,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs text-slate-400">
                           <label htmlFor="inspect-index-slider">Inspect Index:</label>
-                          <span className="font-mono text-cyan-400 font-bold">{inspectCharIndex}</span>
+                          <span className="font-mono text-gold-400 font-bold">{inspectCharIndex}</span>
                         </div>
                         <input
                           id="inspect-index-slider"
@@ -1892,15 +1892,15 @@ function C7_ComputerScienceHtmlTablesTableSim({
                           value={inspectCharIndex}
                           aria-label="Character index slider"
                           onChange={(e) => setInspectCharIndex(Number(e.target.value))}
-                          className="w-full accent-indigo-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </div>
                   </div>
 
                   {/* Observation Question #2 */}
-                  <div className="p-4 bg-slate-950 rounded-xl border border-indigo-900/60 mt-3 space-y-3">
-                    <span className="text-xs font-mono uppercase text-indigo-400 bg-indigo-950 px-2 py-0.5 rounded border border-indigo-800">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-gold-900/60 mt-3 space-y-3">
+                    <span className="text-xs font-mono uppercase text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-800">
                       👁️ Brilliant Observation 2: What do you notice?
                     </span>
                     <p className="text-xs sm:text-sm font-semibold text-slate-200">
@@ -1938,7 +1938,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
                   {/* SVG Diagram 3: 1-Based List Indexing Memory Architecture */}
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <p className="text-[11px] font-mono text-cyan-400 mb-2">SVG Diagram 3 • Scratch 1-Based Indexing vs 0-Based Shifting Architecture:</p>
+                    <p className="text-[11px] font-mono text-gold-400 mb-2">SVG Diagram 3 • Scratch 1-Based Indexing vs 0-Based Shifting Architecture:</p>
                     <svg viewBox="0 0 600 90" className="w-full" aria-label="1-Based List Indexing Architecture" role="img">
                       {[0, 1, 2, 3].map((slotIdx) => (
                         <g key={slotIdx} transform={`translate(${slotIdx * 145 + 10}, 10)`}>
@@ -1962,7 +1962,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
               {currentSlide === 4 && (
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <h4 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Scenario Analysis Lab</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Scenario Analysis Lab</h4>
                     <div className="p-3 bg-slate-900 rounded-lg text-sm text-slate-200 border border-slate-800">
                       "A student copies a 2-paragraph excerpt of a scientific article on ISRO Chandrayaan from a news portal into their school presentation slide, puts it in quotation marks, and cites the journalist and publication name."
                     </div>
@@ -2008,7 +2008,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
                     {/* SVG Diagram 4: Cyber Ethics Framework */}
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
-                      <p className="text-[11px] font-mono text-cyan-400 mb-2">SVG Diagram 4 • Intellectual Property & Fair Use Spectrum:</p>
+                      <p className="text-[11px] font-mono text-gold-400 mb-2">SVG Diagram 4 • Intellectual Property & Fair Use Spectrum:</p>
                       <svg viewBox="0 0 450 110" className="w-full" aria-label="Cyber Ethics Framework Diagram" role="img">
                         <rect x="15" y="15" width="125" height="75" rx="8" fill="#1e1b4b" stroke="#6366f1" strokeWidth="1.5" />
                         <text x="77" y="38" textAnchor="middle" fill="#a5b4fc" fontSize="11" fontWeight="bold">Copyright Act 1957</text>
@@ -2053,7 +2053,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-900/30"
+                className="px-5 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30"
               >
                 Next Lab →
               </motion.button>
@@ -2088,7 +2088,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 text-white rounded-xl font-bold text-sm shadow-xl shadow-cyan-900/40 whitespace-nowrap"
+              className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white rounded-xl font-bold text-sm shadow-xl shadow-gold-900/40 whitespace-nowrap"
             >
               Ready for Graded Challenges! →
             </motion.button>
@@ -2097,7 +2097,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
             {/* Table Quick Lab */}
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 font-mono">1. Table Grid Playground</span>
+              <span className="text-xs font-bold text-gold-400 font-mono">1. Table Grid Playground</span>
               <div className="flex justify-between text-xs text-slate-300">
                 <label htmlFor="sandbox-table-border">Border: {tableBorder}</label>
                 <input
@@ -2108,7 +2108,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   value={tableBorder}
                   aria-label="Sandbox table border"
                   onChange={(e) => setTableBorder(Number(e.target.value))}
-                  className="w-24 accent-cyan-500 cursor-pointer"
+                  className="w-24 accent-gold-500 cursor-pointer"
                 />
               </div>
               <table style={{ border: `${tableBorder}px solid #94a3b8`, width: '100%', borderCollapse: 'collapse' }} className="text-xs">
@@ -2129,14 +2129,14 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
             {/* Scratch Clone Particle Canvas */}
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-              <span className="text-xs font-bold text-indigo-400 font-mono">2. Scratch Clone Canvas</span>
+              <span className="text-xs font-bold text-gold-400 font-mono">2. Scratch Clone Canvas</span>
               <canvas ref={canvasRef} width={260} height={100} className="w-full rounded bg-slate-900 border border-slate-800" />
               <div className="flex justify-between items-center text-xs">
                 <span className="text-slate-400">Clones: {cloneCount}</span>
                 <button
                   aria-label="Spawn clone"
                   onClick={handleSpawnClone}
-                  className="px-2 py-1 bg-indigo-600 rounded text-[10px] font-bold text-white"
+                  className="px-2 py-1 bg-gold-600 rounded text-[10px] font-bold text-white"
                 >
                   + Spawn
                 </button>
@@ -2147,7 +2147,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
               <span className="text-xs font-bold text-emerald-400 font-mono">3. String & List Quick Check</span>
               <p className="text-xs text-slate-300">
-                List length: <span className="text-cyan-400 font-bold">{scratchListItems.length}</span> | Index 1: <span className="text-indigo-400 font-bold">{scratchListItems[0] || 'empty'}</span>
+                List length: <span className="text-gold-400 font-bold">{scratchListItems.length}</span> | Index 1: <span className="text-gold-400 font-bold">{scratchListItems[0] || 'empty'}</span>
               </p>
               <p className="text-xs text-slate-400">
                 join ("Jai", "Hind") = <span className="text-emerald-400 font-mono font-bold">JaiHind</span>
@@ -2167,14 +2167,14 @@ function C7_ComputerScienceHtmlTablesTableSim({
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 flex flex-wrap items-center justify-between gap-3">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-mono text-cyan-400 font-bold">
+                <span className="text-xs font-mono text-gold-400 font-bold">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
                 <span className="text-slate-600">•</span>
                 <span className="text-xs uppercase font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">
                   Node: {challenge.nodeId}
                 </span>
-                <span className="text-xs uppercase font-mono px-2 py-0.5 rounded bg-indigo-950 text-indigo-400 border border-indigo-800">
+                <span className="text-xs uppercase font-mono px-2 py-0.5 rounded bg-gold-950 text-gold-400 border border-gold-800">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2192,7 +2192,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                   : difficulty === 'standard'
-                  ? 'bg-cyan-950/80 border-cyan-500 text-cyan-300'
+                  ? 'bg-gold-950/80 border-gold-500 text-gold-300'
                   : 'bg-rose-950/80 border-rose-500 text-rose-300'
               }`}
             >
@@ -2203,7 +2203,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2230,7 +2230,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       : 'bg-slate-900 hover:bg-slate-850 border-slate-800 text-slate-200'
                   }`}
                 >
-                  <span className="inline-block w-6 h-6 rounded-lg bg-slate-800 text-center leading-6 text-xs font-mono font-bold mr-2 text-cyan-400">
+                  <span className="inline-block w-6 h-6 rounded-lg bg-slate-800 text-center leading-6 text-xs font-mono font-bold mr-2 text-gold-400">
                     {String.fromCharCode(65 + i)}
                   </span>
                   {showExplanation && i === challenge.correctIndex && <span className="text-emerald-400 font-bold mr-1.5">✓ </span>}
@@ -2255,7 +2255,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-3 py-1.5 bg-gradient-to-r from-cyan-600 to-indigo-600 rounded-lg text-xs font-mono font-bold text-white cursor-grab shadow"
+                    className="px-3 py-1.5 bg-gradient-to-r from-gold-600 to-gold-600 rounded-lg text-xs font-mono font-bold text-white cursor-grab shadow"
                   >
                     {item.label}
                   </motion.div>
@@ -2297,7 +2297,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleAnswer(droppedLabels)}
-                className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-900/30"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30"
               >
                 Validate Labels
               </motion.button>
@@ -2330,7 +2330,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       handleSortMove(from, displayIdx);
                     }}
                     whileHover={{ scale: 1.01 }}
-                    className="p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-xs text-cyan-300 flex items-center justify-between cursor-grab"
+                    className="p-3 bg-slate-950 border border-slate-800 rounded-xl font-mono text-xs text-gold-300 flex items-center justify-between cursor-grab"
                   >
                     <span>
                       <strong className="text-slate-500 mr-2">Line {displayIdx + 1}:</strong>
@@ -2347,7 +2347,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                 whileTap={{ scale: 0.97 }}
                 onClick={handleSortSubmit}
                 disabled={showExplanation}
-                className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-900/30 mt-3"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30 mt-3"
               >
                 Check Code Sequence
               </motion.button>
@@ -2366,7 +2366,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value..."
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-cyan-500 focus:outline-none"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm w-48 focus:border-gold-500 focus:outline-none"
                 />
                 <span className="text-xs font-mono text-slate-400">{challenge.unit}</span>
                 <motion.button
@@ -2375,7 +2375,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-900/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30"
                 >
                   Verify Number
                 </motion.button>
@@ -2398,7 +2398,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       setConstructParts(prev => [...prev, part]);
                       audioManager.play('pop');
                     }}
-                    className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-cyan-300"
+                    className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono text-gold-300"
                   >
                     + {part}
                   </motion.button>
@@ -2416,7 +2416,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                     key={cIdx}
                     initial={{ scale: 0.8 }}
                     animate={{ scale: 1 }}
-                    className="px-2.5 py-1 bg-cyan-950 border border-cyan-800 rounded text-xs font-mono text-cyan-300 flex items-center gap-1.5"
+                    className="px-2.5 py-1 bg-gold-950 border border-gold-800 rounded text-xs font-mono text-gold-300 flex items-center gap-1.5"
                   >
                     {part}
                     <button
@@ -2440,7 +2440,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-cyan-900/30"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-900/30"
                 >
                   Validate Syntax Construction
                 </motion.button>
@@ -2460,10 +2460,10 @@ function C7_ComputerScienceHtmlTablesTableSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/80 space-y-3"
+              className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/80 space-y-3"
             >
               <div className="flex items-center justify-between">
-                <h4 className="text-sm font-bold text-cyan-300">Detailed Solution Walkthrough:</h4>
+                <h4 className="text-sm font-bold text-gold-300">Detailed Solution Walkthrough:</h4>
                 <span className="text-xs text-slate-400 font-mono">
                   Step {revealedSteps + 1} of {challenge.explanation.split('. ').filter(s => s.trim()).length}
                 </span>
@@ -2481,7 +2481,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <span className="text-cyan-400 font-bold font-mono mr-1.5">{sIdx + 1}.</span>
+                      <span className="text-gold-400 font-bold font-mono mr-1.5">{sIdx + 1}.</span>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2495,7 +2495,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(s => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-700 text-white rounded-xl text-xs font-bold"
                   >
                     Show Next Step →
                   </motion.button>
@@ -2521,7 +2521,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
       {/* ─── PHASE 5: COMPLETION & REFLECTION SECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-cyan-950 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-gold-950 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-4">
             <span className="text-4xl block" aria-hidden="true">🎉</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
             <p className="text-sm text-slate-300 max-w-lg mx-auto">
@@ -2531,7 +2531,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-2xl mx-auto pt-2">
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Final Score</span>
-                <span className="text-xl font-mono font-bold text-cyan-400">{Math.max(0, 100 - errors * 5)}%</span>
+                <span className="text-xl font-mono font-bold text-gold-400">{Math.max(0, 100 - errors * 5)}%</span>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Accuracy</span>
@@ -2541,7 +2541,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">BKT Mastery</span>
-                <span className="text-xl font-mono font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-mono font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Difficulty</span>
@@ -2560,7 +2560,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
           </div>
 
           {/* STRUCTURAL SPACED REPETITION SCHEDULE VISIBILITY */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-amber-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+          <div className="p-5 bg-gradient-to-r from-amber-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-amber-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <span className="font-bold text-amber-300 text-sm">📅 Spaced Repetition (SRS) Review Schedule</span>
@@ -2589,12 +2589,12 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
           {/* STRUCTURAL REFLECTION SECTION */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-cyan-400 font-bold text-sm uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider">
               <span>💭</span> Key Learning Reflections
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="reflection-surprising" className="text-xs font-bold text-indigo-300 block">
+                <label htmlFor="reflection-surprising" className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2604,12 +2604,12 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                   placeholder="e.g., Scratch lists start at index 1 instead of index 0, or spaces count in string length..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <label htmlFor="reflection-explain" className="text-xs font-bold text-cyan-300 block">
+                <label htmlFor="reflection-explain" className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2619,7 +2619,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explain: e.target.value })}
                   placeholder="e.g., Radio buttons are like single-choice quiz questions sharing the same group name..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2634,7 +2634,7 @@ function C7_ComputerScienceHtmlTablesTableSim({
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                   placeholder="e.g., Creating school event registration websites or coding animations for science fairs..."
-                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2661,12 +2661,12 @@ function C7_ComputerScienceHtmlTablesTableSim({
 
           {/* Real-World Capstone Project */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="flex items-center gap-2 text-xs text-slate-400">
-                  <span className="w-5 h-5 rounded-full bg-slate-800 text-cyan-400 font-mono font-bold flex items-center justify-center text-[10px]">
+                  <span className="w-5 h-5 rounded-full bg-slate-800 text-gold-400 font-mono font-bold flex items-center justify-center text-[10px]">
                     {idx + 1}
                   </span>
                   <span>{step}</span>

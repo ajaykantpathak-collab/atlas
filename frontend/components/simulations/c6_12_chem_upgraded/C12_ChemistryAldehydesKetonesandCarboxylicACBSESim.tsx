@@ -490,7 +490,7 @@ const CHALLENGES: Challenge[] = [
 
 // --- SVG DIAGRAM 1: Carbonyl Polarity & Geometry ---
 const CarbonylPolarityDiagram: React.FC = () => (
-  <svg viewBox="0 0 500 240" className="w-full h-auto bg-slate-900 rounded-xl p-4 border border-cyan-500/30 shadow-2xl">
+  <svg viewBox="0 0 500 240" className="w-full h-auto bg-slate-900 rounded-xl p-4 border border-gold-500/30 shadow-2xl">
     <title>Carbonyl Polarity &amp; Geometry</title>
     <defs>
       <radialGradient id="deltaNeg" cx="50%" cy="50%" r="50%">
@@ -507,7 +507,7 @@ const CarbonylPolarityDiagram: React.FC = () => (
       </linearGradient>
     </defs>
 
-    <text x="250" y="25" textAnchor="middle" className="fill-cyan-300 text-sm font-bold tracking-wider">
+    <text x="250" y="25" textAnchor="middle" className="fill-gold-300 text-sm font-bold tracking-wider">
       CARBONYL GROUP ELECTRONIC STRUCTURE &amp; POLARITY
     </text>
 
@@ -524,10 +524,10 @@ const CarbonylPolarityDiagram: React.FC = () => (
     <line x1="200" y1="120" x2="130" y2="170" stroke="#94a3b8" strokeWidth="5" strokeLinecap="round" />
 
     {/* Carbon Atom */}
-    <circle cx="200" cy="120" r="24" className="fill-slate-800 stroke-blue-500" strokeWidth="3" />
-    <text x="200" y="126" textAnchor="middle" className="fill-blue-400 font-extrabold text-lg">C</text>
-    <text x="200" y="85" textAnchor="middle" className="fill-blue-300 font-bold text-xs">δ+</text>
-    <text x="200" y="160" textAnchor="middle" className="fill-blue-400 text-xs font-semibold">sp² (120°)</text>
+    <circle cx="200" cy="120" r="24" className="fill-slate-800 stroke-gold-500" strokeWidth="3" />
+    <text x="200" y="126" textAnchor="middle" className="fill-gold-400 font-extrabold text-lg">C</text>
+    <text x="200" y="85" textAnchor="middle" className="fill-gold-300 font-bold text-xs">δ+</text>
+    <text x="200" y="160" textAnchor="middle" className="fill-gold-400 text-xs font-semibold">sp² (120°)</text>
 
     {/* Oxygen Atom */}
     <circle cx="320" cy="120" r="26" className="fill-slate-800 stroke-red-500" strokeWidth="3" />
@@ -590,7 +590,7 @@ const TollensSilverMirrorDiagram: React.FC<{ progress: number }> = ({ progress }
       {/* Reaction Formula Callout */}
       <g transform="translate(20, 70)">
         <rect x="0" y="0" width="170" height="110" rx="8" fill="#1e293b" stroke="#38bdf8" strokeWidth="1.5" />
-        <text x="85" y="25" textAnchor="middle" className="fill-cyan-300 text-xs font-bold">REACTION STEPS</text>
+        <text x="85" y="25" textAnchor="middle" className="fill-gold-300 text-xs font-bold">REACTION STEPS</text>
         <text x="12" y="50" className="fill-slate-300 text-[11px] font-mono">R-CHO + 2[Ag(NH₃)₂]⁺</text>
         <text x="12" y="70" className="fill-slate-300 text-[11px] font-mono">+ 3OH⁻  ──Δ──→</text>
         <text x="12" y="92" className="fill-emerald-400 text-[11px] font-mono font-bold">R-COO⁻ + 2Ag↓ + 4NH₃</text>
@@ -625,7 +625,7 @@ const CarboxylateResonanceDiagram: React.FC = () => (
       {/* R - C(=O) - O⁻ */}
       <text x="35" y="80" className="fill-amber-400 font-bold text-base">R</text>
       <line x1="52" y1="75" x2="75" y2="75" stroke="#94a3b8" strokeWidth="3" />
-      <text x="80" y="80" className="fill-blue-400 font-bold text-base">C</text>
+      <text x="80" y="80" className="fill-gold-400 font-bold text-base">C</text>
 
       {/* Double bond to top O */}
       <line x1="88" y1="63" x2="110" y2="45" stroke="#ef4444" strokeWidth="3" />
@@ -651,7 +651,7 @@ const CarboxylateResonanceDiagram: React.FC = () => (
       {/* R - C(O⁻) = O */}
       <text x="35" y="80" className="fill-amber-400 font-bold text-base">R</text>
       <line x1="52" y1="75" x2="75" y2="75" stroke="#94a3b8" strokeWidth="3" />
-      <text x="80" y="80" className="fill-blue-400 font-bold text-base">C</text>
+      <text x="80" y="80" className="fill-gold-400 font-bold text-base">C</text>
 
       {/* Single bond to top O⁻ */}
       <line x1="90" y1="65" x2="115" y2="45" stroke="#ef4444" strokeWidth="3" />
@@ -1073,14 +1073,14 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans p-4 md:p-8 flex flex-col items-center">
       {/* Header Banner */}
-      <header className="w-full max-w-6xl mb-6 bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 p-6 rounded-3xl border border-cyan-500/30 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
+      <header className="w-full max-w-6xl mb-6 bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 p-6 rounded-3xl border border-gold-500/30 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
-          <div className="flex items-center gap-2 text-cyan-400 text-xs font-semibold tracking-wider uppercase mb-1">
+          <div className="flex items-center gap-2 text-gold-400 text-xs font-semibold tracking-wider uppercase mb-1">
             <span>ISC Class 12 Chemistry</span>
             <span>•</span>
             <span>Organic Reaction Mechanisms</span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-200 to-amber-300">
+          <h1 className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-200 to-amber-300">
             {SCENARIO.title}
           </h1>
           <p className="text-slate-400 text-sm mt-1 max-w-2xl">{SCENARIO.intro}</p>
@@ -1088,7 +1088,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
         <div className="flex items-center gap-4 bg-slate-900/80 px-4 py-3 rounded-2xl border border-slate-700/60">
           <div className="text-center">
             <span className="text-xs text-slate-400 block font-medium">Lab Score</span>
-            <span className="text-xl font-black text-cyan-400">{challengeScore} pts</span>
+            <span className="text-xl font-black text-gold-400">{challengeScore} pts</span>
           </div>
           <div className="h-8 w-px bg-slate-700" />
           <div className="text-center">
@@ -1114,7 +1114,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
           }}
           className={`flex-1 min-w-[120px] py-3 px-4 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'discovery'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1127,7 +1127,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
           }}
           className={`flex-1 min-w-[120px] py-3 px-4 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'lab'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1140,7 +1140,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
           }}
           className={`flex-1 min-w-[120px] py-3 px-4 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'challenges'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1153,7 +1153,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
           }}
           className={`flex-1 min-w-[120px] py-3 px-4 rounded-xl text-sm font-bold transition-all ${
             activeTab === 'summary'
-              ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+              ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
               : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
           }`}
         >
@@ -1166,7 +1166,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
         <main className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="bg-slate-900 p-6 rounded-3xl border border-slate-800 flex flex-col justify-between">
             <div>
-              <div className="inline-block px-3 py-1 bg-cyan-950 border border-cyan-500/40 text-cyan-300 rounded-full text-xs font-semibold mb-3">
+              <div className="inline-block px-3 py-1 bg-gold-950 border border-gold-500/40 text-gold-300 rounded-full text-xs font-semibold mb-3">
                 Preconception Check
               </div>
               <h2 className="text-xl font-bold text-white mb-3">{DISCOVERY_QUESTION.question}</h2>
@@ -1193,8 +1193,8 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
             </div>
 
             {discoveryAnswer !== null && (
-              <div className="mt-6 p-4 rounded-2xl bg-slate-950 border border-cyan-500/30">
-                <h4 className="text-cyan-300 text-xs font-bold uppercase tracking-wider mb-1">Mechanistic Rationale</h4>
+              <div className="mt-6 p-4 rounded-2xl bg-slate-950 border border-gold-500/30">
+                <h4 className="text-gold-300 text-xs font-bold uppercase tracking-wider mb-1">Mechanistic Rationale</h4>
                 <p className="text-slate-300 text-sm">{DISCOVERY_QUESTION.hintAfter}</p>
               </div>
             )}
@@ -1254,7 +1254,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                 }}
                 className={`p-3 rounded-xl text-xs font-bold transition-all text-center ${
                   selectedLabIndex === idx
-                    ? 'bg-cyan-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-800/60 text-slate-400 hover:text-white'
                 }`}
               >
@@ -1267,7 +1267,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
           <div className="bg-slate-900 p-6 rounded-3xl border border-slate-800 grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="flex flex-col justify-between space-y-4">
               <div>
-                <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+                <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
                   Interactive Experiment {selectedLabIndex + 1}
                 </span>
                 <h3 className="text-xl font-bold text-white mt-1">
@@ -1286,7 +1286,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                     <select
                       value={selectedSubstrate}
                       onChange={(e) => setSelectedSubstrate(e.target.value)}
-                      className="w-full bg-slate-900 border border-slate-700 text-cyan-300 text-xs font-bold p-2.5 rounded-xl"
+                      className="w-full bg-slate-900 border border-slate-700 text-gold-300 text-xs font-bold p-2.5 rounded-xl"
                     >
                       <option value="Formaldehyde">Formaldehyde (HCHO)</option>
                       <option value="Acetaldehyde">Acetaldehyde (CH₃CHO)</option>
@@ -1300,7 +1300,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                     <select
                       value={selectedReagent}
                       onChange={(e) => setSelectedReagent(e.target.value)}
-                      className="w-full bg-slate-900 border border-slate-700 text-cyan-300 text-xs font-bold p-2.5 rounded-xl"
+                      className="w-full bg-slate-900 border border-slate-700 text-gold-300 text-xs font-bold p-2.5 rounded-xl"
                     >
                       <option value="CN⁻ (HCN)">Hydrogen Cyanide (HCN / NaCN)</option>
                       <option value="NaHSO₃">Sodium Hydrogen Sulfite (NaHSO₃)</option>
@@ -1347,7 +1347,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
               {selectedLabIndex === 2 && (
                 <div className="space-y-4 bg-slate-950 p-4 rounded-2xl border border-slate-800">
                   <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-xs">
-                    <span className="font-bold text-cyan-300 block mb-1">Alpha-Hydrogen Rule:</span>
+                    <span className="font-bold text-gold-300 block mb-1">Alpha-Hydrogen Rule:</span>
                     <p className="text-slate-300">
                       Aldehydes with α-H undergo <strong className="text-amber-300">Aldol Condensation</strong> in dilute NaOH. Aldehydes without α-H undergo <strong className="text-emerald-300">Cannizzaro Disproportionation</strong> in concentrated (50%) NaOH.
                     </p>
@@ -1397,7 +1397,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
 
               {/* OBSERVATION QUESTIONS rendered in Lab tab */}
               <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800">
-                <h4 className="text-xs font-bold text-cyan-300 uppercase mb-2">👁️ Lab Observations</h4>
+                <h4 className="text-xs font-bold text-gold-300 uppercase mb-2">👁️ Lab Observations</h4>
                 {OBSERVATION_QUESTIONS.map((oq, oqIdx) => (
                   <div key={oqIdx} className="mb-3">
                     <p className="text-xs text-slate-300 mb-1 font-semibold">{oq.question}</p>
@@ -1460,7 +1460,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                     i < currentChallengeIndex
                       ? 'bg-emerald-500'
                       : i === currentChallengeIndex
-                      ? 'bg-cyan-400 animate-pulse'
+                      ? 'bg-gold-400 animate-pulse'
                       : 'bg-slate-800'
                   }`}
                 />
@@ -1481,7 +1481,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
 
           {/* Question Box */}
           <div className="bg-slate-900 p-6 md:p-8 rounded-3xl border border-slate-800 shadow-2xl relative">
-            <div className="text-xs text-cyan-400 font-bold uppercase tracking-wider mb-2">
+            <div className="text-xs text-gold-400 font-bold uppercase tracking-wider mb-2">
               Competency: {currentC.competencyLevel}
             </div>
             <h3 className="text-lg md:text-xl font-bold text-white mb-6 leading-relaxed">
@@ -1497,7 +1497,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   disabled={isAnswerSubmitted}
-                  className="w-full p-4 rounded-2xl bg-slate-950 border border-slate-700 text-white font-mono text-lg focus:border-cyan-500 focus:outline-none"
+                  className="w-full p-4 rounded-2xl bg-slate-950 border border-slate-700 text-white font-mono text-lg focus:border-gold-500 focus:outline-none"
                   placeholder="e.g. 16"
                 />
               </div>
@@ -1514,13 +1514,13 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                           ? i === currentC.correctIndex
                             ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                             : 'bg-rose-950 border-rose-500 text-rose-200'
-                          : 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                          : 'bg-gold-950 border-gold-500 text-gold-200'
                         : isAnswerSubmitted && i === currentC.correctIndex
                         ? 'bg-emerald-950/60 border-emerald-500/60 text-emerald-200'
                         : 'bg-slate-950/60 border-slate-800 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
-                    <span className="font-bold mr-3 text-cyan-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-3 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </button>
                 ))}
@@ -1546,7 +1546,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
                 <button
                   onClick={handleSubmitChallenge}
                   disabled={selectedOption === null && currentC.type !== 'numeric'}
-                  className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
+                  className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 disabled:opacity-50 text-white font-bold rounded-xl shadow-lg transition-all"
                 >
                   Submit Analysis
                 </button>
@@ -1563,7 +1563,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
             {/* Explanation box after submission */}
             {isAnswerSubmitted && (
               <div className="mt-6 p-4 rounded-2xl bg-slate-950 border border-slate-800 animate-fadeIn">
-                <h4 className="text-xs font-bold text-cyan-300 uppercase tracking-wider mb-1">Detailed Explanation</h4>
+                <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-1">Detailed Explanation</h4>
                 <p className="text-slate-300 text-sm">{currentC.explanation}</p>
               </div>
             )}
@@ -1585,7 +1585,7 @@ export default function C12_ChemistryAldehydesKetonesandCarboxylicACBSESim({ onC
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-start gap-3">
-                  <div className="w-7 h-7 rounded-full bg-cyan-600 text-white font-bold text-xs flex items-center justify-center shrink-0">
+                  <div className="w-7 h-7 rounded-full bg-gold-600 text-white font-bold text-xs flex items-center justify-center shrink-0">
                     {idx + 1}
                   </div>
                   <p className="text-xs text-slate-300 leading-relaxed">{step}</p>

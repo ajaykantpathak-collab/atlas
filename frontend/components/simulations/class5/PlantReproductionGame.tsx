@@ -54,14 +54,14 @@ const TEACHING_SLIDES = [
     title: "Seed Dispersal 🌬️",
     text: "Seed dispersal is spreading seeds away from the parent plant to avoid overcrowding and competition! Wind carries light seeds with wings or hairs (dandelion). Water floats buoyant seeds (coconut). Animals carry hooked seeds or eat fleshy fruits (mango). Pods explode to scatter seeds!",
     emoji: "🌬️",
-    bgColor: "from-cyan-400 to-blue-600",
+    bgColor: "from-gold-400 to-gold-600",
     spoken: "Seed dispersal spreads seeds away from the parent plant. Wind, water, animals, and bursting pods help seeds travel to new places!"
   },
   {
     title: "Vegetative Reproduction 🥔",
     text: "Vegetative reproduction creates new plants from vegetative parts without seeds! Stem tubers (potato eyes), roots (sweet potato), or leaves (Bryophyllum plantlets) use stored food to grow identical clone plants much faster than seeds.",
     emoji: "🥔",
-    bgColor: "from-purple-400 to-indigo-600",
+    bgColor: "from-purple-400 to-gold-600",
     spoken: "Vegetative reproduction creates new plants from stems, roots, or leaves without seeds! Potatoes, carrots, and bryophyllum grow clones using stored food."
   },
 ];

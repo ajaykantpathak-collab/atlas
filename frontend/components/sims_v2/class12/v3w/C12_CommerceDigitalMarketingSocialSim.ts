@@ -11,7 +11,7 @@ export const w_c12_commercedigitalmarketingsocialsim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Technological Environment: Impact on Business Operations',
     chapters: [],
     nodeIds: ['c12_bs_cbse_03_005', 'c12_bs_cbse_10_008', 'c12_bs_cbse_11_008', 'c12_bs_cbse_03_004', 'c12_bs_cbse_03_008', 'c12_bs_cbse_11_001', 'c12_bs_cbse_11_011', 'c12_bs_cbse_03_001', 'c12_bs_cbse_03_002', 'c12_bs_cbse_03_003', 'c12_bs_cbse_03_006', 'c12_bs_cbse_03_010', 'c12_bs_cbse_03_007', 'c12_bs_cbse_03_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you own a small neighbourhood bookstore. A new app-based platform starts delivering books within two.', goal: 'Master Technological Environment: Impact on Business Operations.' },
     discovery: {
         question: 'Compare and contrast: Demat account vs. Trading account vs. Bank account. Which account is debited/credited when you buy shares on the NSE?',
@@ -20,7 +20,7 @@ export const w_c12_commercedigitalmarketingsocialsim: SimDef = {
         hook: 'Students often think a Demat account and a trading account are the same because many brokers offer a "2-in-1" or.',
     },
     teaching: [
-        { title: 'The technological environment comprises.', text: 'The technological environment comprises forces relating to scientific improvements and innovations that provide new methods of producing goods, delivering services, and operating a business,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The technological environment comprises.', text: 'The technological environment comprises forces relating to scientific improvements and innovations that provide new methods of producing goods, delivering services, and operating a business,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_03_005', title: 'The technological environment comprises.',

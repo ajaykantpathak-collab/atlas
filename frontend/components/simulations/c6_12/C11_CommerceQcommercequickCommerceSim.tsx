@@ -870,7 +870,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
       return {
         title: 'Great work!',
         message: 'Impressive analytical acumen across Q-commerce dark stores, wholesale title transfers, and capital markets.',
-        color: 'from-sky-500/20 border-sky-500 text-sky-300',
+        color: 'from-gold-500/20 border-gold-500 text-gold-300',
         badge: 'High Distinction 🌟',
       };
     }
@@ -1264,7 +1264,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
         <motion.div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="text-3xl p-2 bg-indigo-950/80 rounded-xl border border-indigo-700/50 block"
+            className="text-3xl p-2 bg-gold-950/80 rounded-xl border border-gold-700/50 block"
           >
             {subjectConfig.emoji}
           </motion.span>
@@ -1272,7 +1272,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             <motion.h1
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
-              className="text-xl md:text-2xl font-bold bg-gradient-to-r from-indigo-300 via-sky-200 to-emerald-300 bg-clip-text text-transparent"
+              className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-300 via-gold-200 to-emerald-300 bg-clip-text text-transparent"
             >
               {title}
             </motion.h1>
@@ -1290,7 +1290,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 text-rose-400 border border-rose-700'
-                : 'bg-indigo-950 text-indigo-400 border border-indigo-700'
+                : 'bg-gold-950 text-gold-400 border border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1311,7 +1311,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
         className="relative mb-6 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 h-10 flex items-center justify-between px-4"
       >
         <canvas ref={canvasRef} width={600} height={40} className="absolute inset-0 w-full h-full opacity-40 pointer-events-none" />
-        <motion.span className="relative z-10 text-xs font-mono text-cyan-400 flex items-center gap-2">
+        <motion.span className="relative z-10 text-xs font-mono text-gold-400 flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
           NSE / BSE T+1 LIVE FEED • 10-MIN Q-COMMERCE MICRO-STORE SIMULATOR
         </motion.span>
@@ -1323,10 +1323,10 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <motion.div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60">
-            <motion.h2 className="text-xl font-bold text-indigo-200 mb-2">{SCENARIO.title}</motion.h2>
+          <motion.div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60">
+            <motion.h2 className="text-xl font-bold text-gold-200 mb-2">{SCENARIO.title}</motion.h2>
             <motion.p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</motion.p>
-            <motion.p className="text-xs text-indigo-400 font-mono">{SCENARIO.context}</motion.p>
+            <motion.p className="text-xs text-gold-400 font-mono">{SCENARIO.context}</motion.p>
           </motion.div>
 
           <motion.div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
@@ -1348,7 +1348,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                   aria-label={`Discovery option ${i + 1}`}
                 >
@@ -1367,7 +1367,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToPrediction}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Proceed to Predictions Phase →
                 </motion.button>
@@ -1380,12 +1380,12 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
       {/* ─── PHASE: PREDICTION (PREDICT-THEN-CHECK PATTERN) ─── */}
       {phase === 'prediction' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-4 bg-indigo-950/50 border border-indigo-800/60 rounded-2xl flex items-center justify-between">
+          <div className="p-4 bg-gold-950/50 border border-gold-800/60 rounded-2xl flex items-center justify-between">
             <div>
-              <span className="text-xs font-mono text-indigo-400 uppercase tracking-wide">Predict-Then-Check Pattern</span>
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-wide">Predict-Then-Check Pattern</span>
               <h2 className="text-base md:text-lg font-bold text-white">Prediction {currentPredictionIdx + 1} of {PREDICTION_QUESTIONS.length}</h2>
             </div>
-            <span className="text-xs px-3 py-1 rounded-full bg-indigo-900/80 text-indigo-300 border border-indigo-700">
+            <span className="text-xs px-3 py-1 rounded-full bg-gold-900/80 text-gold-300 border border-gold-700">
               Formulate Hypothesis
             </span>
           </div>
@@ -1410,7 +1410,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                         : selectedPrediction === i
                         ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <span className="font-bold mr-2 text-slate-400">{String.fromCharCode(65 + i)}.</span>
@@ -1422,7 +1422,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             {predictionAnswered && (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="pt-4 space-y-4">
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <p className="text-xs font-bold text-indigo-300 uppercase">Predicted Reasoning:</p>
+                  <p className="text-xs font-bold text-gold-300 uppercase">Predicted Reasoning:</p>
                   <p className="text-xs md:text-sm text-slate-300">{PREDICTION_QUESTIONS[currentPredictionIdx].predictionReasoning}</p>
                   <p className="text-xs font-semibold text-amber-300 pt-1">
                     🔍 Verification Task: {PREDICTION_QUESTIONS[currentPredictionIdx].verifyInstruction}
@@ -1433,7 +1433,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextPredictionOrExplore}
-                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 text-sm"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 text-sm"
                 >
                   {currentPredictionIdx + 1 < PREDICTION_QUESTIONS.length ? 'Next Prediction Question →' : 'Launch Visual Lab to Verify Predictions →'}
                 </motion.button>
@@ -1448,7 +1448,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <motion.div className="flex justify-between items-center bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <motion.div>
-              <span className="text-xs font-mono text-indigo-400 uppercase tracking-wide">
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-wide">
                 Interactive Module {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
               <h2 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
@@ -1468,7 +1468,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
-                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Next →
                 </motion.button>
@@ -1477,7 +1477,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToObservation}
-                  className="px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-sm"
+                  className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Proceed to Observation Check →
                 </motion.button>
@@ -1552,8 +1552,8 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       </motion.div>
                     </motion.div>
 
-                    <motion.div className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/50 text-xs text-slate-300 space-y-1">
-                      <p className="font-bold text-indigo-300">💡 Q-Commerce Tradeoff:</p>
+                    <motion.div className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/50 text-xs text-slate-300 space-y-1">
+                      <p className="font-bold text-gold-300">💡 Q-Commerce Tradeoff:</p>
                       <p>High urban rents in residential zones (₹4L/mo) are the price paid for proximity. Only 2,000–3,000 fast-moving SKUs (milk, bread, chips) can justify this space!</p>
                     </motion.div>
                   </motion.div>
@@ -1577,7 +1577,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                         onClick={() => handleChannelStageSelect(stage.id)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           activeChannelStage === stage.id
-                            ? 'bg-indigo-900/60 border-indigo-400 text-white shadow-lg shadow-indigo-950'
+                            ? 'bg-gold-900/60 border-gold-400 text-white shadow-lg shadow-gold-950'
                             : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:border-slate-500'
                         }`}
                       >
@@ -1591,7 +1591,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   <motion.div className="p-6 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     {activeChannelStage === 'factory' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
-                        <h4 className="text-base font-bold text-indigo-300">🏭 Producer / Factory (e.g. HUL Haridwar Plant)</h4>
+                        <h4 className="text-base font-bold text-gold-300">🏭 Producer / Factory (e.g. HUL Haridwar Plant)</h4>
                         <p className="text-sm text-slate-300">Produces millions of units. Cannot economically manage 9 million small kiranas directly. Sells in truckloads to regional wholesalers.</p>
                         <div className="flex gap-4 text-xs font-mono text-slate-400 pt-2">
                           <span>📦 Pack Size: 10,000 Soap Bars</span>
@@ -1621,7 +1621,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                     )}
                     {activeChannelStage === 'consumer' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
-                        <h4 className="text-base font-bold text-sky-300">🏠 Final Consumer (Household / End User)</h4>
+                        <h4 className="text-base font-bold text-gold-300">🏠 Final Consumer (Household / End User)</h4>
                         <p className="text-sm text-slate-300">Consumes the good for personal living. Crucial distinction: If a school canteen resells biscuits to students, the canteen is a reseller (wholesale purchase), NOT the final consumer!</p>
                       </motion.div>
                     )}
@@ -1669,7 +1669,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                         max={90}
                         value={orderDemandIndex}
                         onChange={(e) => handleOrderDemandChange(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Adjust order book demand"
                       />
                       <div className="flex justify-between text-[11px] text-slate-400">
@@ -1703,7 +1703,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                         onClick={() => handleDematStepSelect(item.step)}
                         className={`p-3 rounded-xl border text-left transition-all ${
                           activeDematStep === item.step
-                            ? 'bg-sky-950 border-sky-400 text-sky-200'
+                            ? 'bg-gold-950 border-gold-400 text-gold-200'
                             : 'bg-slate-800/50 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1751,7 +1751,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                         onClick={() => handleSebiPillarSelect(pillar.id)}
                         className={`flex-1 p-3 rounded-xl border text-center font-bold text-xs md:text-sm transition-all ${
                           activeSebiPillar === pillar.id
-                            ? 'bg-indigo-900 border-indigo-400 text-white shadow-lg'
+                            ? 'bg-gold-900 border-gold-400 text-white shadow-lg'
                             : 'bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1802,12 +1802,12 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
       {/* ─── PHASE: OBSERVATION ('WHAT DO YOU NOTICE?') ─── */}
       {phase === 'observation' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-4 bg-sky-950/50 border border-sky-800/60 rounded-2xl flex items-center justify-between">
+          <div className="p-4 bg-gold-950/50 border border-gold-800/60 rounded-2xl flex items-center justify-between">
             <div>
-              <span className="text-xs font-mono text-sky-400 uppercase tracking-wide">Observation & Synthesis</span>
+              <span className="text-xs font-mono text-gold-400 uppercase tracking-wide">Observation & Synthesis</span>
               <h2 className="text-base md:text-lg font-bold text-white">Observation Question {currentObservationIdx + 1} of {OBSERVATION_QUESTIONS.length}</h2>
             </div>
-            <span className="text-xs px-3 py-1 rounded-full bg-sky-900/80 text-sky-300 border border-sky-700">
+            <span className="text-xs px-3 py-1 rounded-full bg-gold-900/80 text-gold-300 border border-gold-700">
               What Do You Notice?
             </span>
           </div>
@@ -1832,7 +1832,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                         : selectedObservation === i
                         ? 'bg-rose-950/60 border-rose-500 text-rose-300'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-sky-500'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <span className="font-bold mr-2 text-slate-400">{String.fromCharCode(65 + i)}.</span>
@@ -1844,7 +1844,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             {observationAnswered && (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="pt-4 space-y-4">
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-                  <p className="text-xs font-bold text-sky-300 uppercase">Analysis:</p>
+                  <p className="text-xs font-bold text-gold-300 uppercase">Analysis:</p>
                   <p className="text-xs md:text-sm text-slate-300">{OBSERVATION_QUESTIONS[currentObservationIdx].explanation}</p>
                 </div>
 
@@ -1852,7 +1852,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleNextObservationOrSandbox}
-                  className="px-6 py-3 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl shadow-lg shadow-sky-600/30 text-sm"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 text-sm"
                 >
                   {currentObservationIdx + 1 < OBSERVATION_QUESTIONS.length ? 'Next Observation Question →' : 'Enter Free Financial Sandbox →'}
                 </motion.button>
@@ -1866,7 +1866,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <motion.div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-            <h2 className="text-lg font-bold text-indigo-200">🧪 Hyperlocal Dark Store Financial Sandbox</h2>
+            <h2 className="text-lg font-bold text-gold-200">🧪 Hyperlocal Dark Store Financial Sandbox</h2>
             <p className="text-xs text-slate-400 mt-1">
               Test real unit economics without grading: Adjust Average Order Value (AOV), daily order density, and commercial rent to simulate store profitability.
             </p>
@@ -1876,7 +1876,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             <motion.div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
               <label className="text-xs text-slate-300 font-semibold flex justify-between">
                 <span>Daily Orders / Store:</span>
-                <span className="text-cyan-400 font-bold">{sandboxDailyOrders} orders</span>
+                <span className="text-gold-400 font-bold">{sandboxDailyOrders} orders</span>
               </label>
               <input
                 type="range"
@@ -1885,7 +1885,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                 step={50}
                 value={sandboxDailyOrders}
                 onChange={(e) => setSandboxDailyOrders(Number(e.target.value))}
-                className="w-full accent-cyan-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
                 aria-label="Sandbox daily orders"
               />
             </motion.div>
@@ -1956,13 +1956,13 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="font-mono text-indigo-400">
+              <span className="font-mono text-gold-400">
                 Competency: <span className="capitalize">{challenge.competencyLevel}</span>
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1995,7 +1995,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                     className={`w-full text-left p-4 rounded-xl border text-sm transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
-                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                     aria-label={`Option ${i + 1}: ${opt}`}
                   >
@@ -2018,7 +2018,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-semibold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2046,7 +2046,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={(e) => handleAnswer(droppedLabels, e)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Hierarchy Mapping
                 </motion.button>
@@ -2075,7 +2075,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       whileTap={{ scale: 0.98 }}
                       className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-sm cursor-grab flex items-center gap-3"
                     >
-                      <span className="font-bold text-indigo-400 font-mono">{displayIdx + 1}.</span>
+                      <span className="font-bold text-gold-400 font-mono">{displayIdx + 1}.</span>
                       <span>{item}</span>
                     </motion.div>
                   ))}
@@ -2084,7 +2084,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Verify Step Order
                 </motion.button>
@@ -2109,7 +2109,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={(e) => handleAnswer(numericInput, e)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Submit Calculation
                 </motion.button>
@@ -2127,7 +2127,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-indigo-700 text-slate-200 hover:text-white rounded-lg text-xs font-mono border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-gold-700 text-slate-200 hover:text-white rounded-lg text-xs font-mono border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2140,7 +2140,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 text-indigo-200 rounded-lg text-xs font-mono flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 text-gold-200 rounded-lg text-xs font-mono flex items-center gap-2"
                     >
                       {part}
                       <motion.button
@@ -2160,7 +2160,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={(e) => handleAnswer(constructParts.join(' '), e)}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm"
                 >
                   Validate Sequence
                 </motion.button>
@@ -2169,12 +2169,12 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
 
             {/* PROGRESSIVE DISCLOSURE EXPLANATION CARD (CLICK-TO-REVEAL) */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-xl space-y-3">
-                <p className="text-xs font-bold uppercase tracking-wider text-indigo-300">Detailed Concept Review (Step-by-Step Breakdown):</p>
+              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl space-y-3">
+                <p className="text-xs font-bold uppercase tracking-wider text-gold-300">Detailed Concept Review (Step-by-Step Breakdown):</p>
                 <div className="space-y-2">
                   {explanationSteps.slice(0, revealedSteps).map((step, sIdx) => (
                     <motion.div key={sIdx} initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="text-sm text-slate-200 leading-relaxed flex items-start gap-2">
-                      <span className="text-indigo-400 font-bold font-mono">Step {sIdx + 1}:</span>
+                      <span className="text-gold-400 font-bold font-mono">Step {sIdx + 1}:</span>
                       <span>{step}</span>
                     </motion.div>
                   ))}
@@ -2185,7 +2185,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setRevealedSteps(r => r + 1)}
-                      className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                      className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                     >
                       Show next step ({revealedSteps}/{explanationSteps.length}) →
                     </motion.button>
@@ -2242,30 +2242,30 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="p-6 bg-slate-900 rounded-2xl border border-indigo-900/60 space-y-4"
+            className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4"
           >
-            <motion.h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <motion.h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Reflection & Deep Processing
             </motion.h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-indigo-400">1. Key Surprise</p>
+                <p className="text-xs font-bold text-gold-400">1. Key Surprise</p>
                 <p className="text-xs text-slate-300 font-medium">What was the most surprising thing you learned?</p>
                 <textarea
                   value={reflection1}
                   onChange={(e) => setReflection1(e.target.value)}
                   placeholder="e.g., How proximity matters more than speed in dark stores..."
-                  className="w-full h-20 p-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-indigo-500"
+                  className="w-full h-20 p-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <p className="text-xs font-bold text-sky-400">2. Peer Explanation</p>
+                <p className="text-xs font-bold text-gold-400">2. Peer Explanation</p>
                 <p className="text-xs text-slate-300 font-medium">How would you explain this to a friend?</p>
                 <textarea
                   value={reflection2}
                   onChange={(e) => setReflection2(e.target.value)}
                   placeholder="e.g., The stock market is just a secondary resale platform..."
-                  className="w-full h-20 p-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-indigo-500"
+                  className="w-full h-20 p-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2275,7 +2275,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   value={reflection3}
                   onChange={(e) => setReflection3(e.target.value)}
                   placeholder="e.g., Opening a Demat account or analyzing local retail udhaar..."
-                  className="w-full h-20 p-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-indigo-500"
+                  className="w-full h-20 p-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 resize-none focus:outline-none focus:border-gold-500"
                 />
               </motion.div>
             </div>
@@ -2322,7 +2322,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             </div>
             <motion.span
               whileHover={{ scale: 1.05 }}
-              className="text-xs font-mono px-3 py-1 bg-indigo-950 text-indigo-300 rounded-lg border border-indigo-800"
+              className="text-xs font-mono px-3 py-1 bg-gold-950 text-gold-300 rounded-lg border border-gold-800"
             >
               Interval: {REVIEW_INTERVAL_DAYS[Math.min(5, 5 - Math.min(4, errors))]} Days
             </motion.span>
@@ -2335,7 +2335,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
             transition={{ delay: 0.5 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3"
           >
-            <motion.h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</motion.h3>
+            <motion.h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</motion.h3>
             <motion.p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</motion.p>
             <ul className="space-y-2 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
@@ -2344,7 +2344,7 @@ function C11_CommerceQcommercequickCommerceSim(props: Props = DEFAULT_PROPS) {
                   whileHover={{ x: 4 }}
                   className="flex gap-2"
                 >
-                  <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold">{i + 1}.</span>
                   <span>{step}</span>
                 </motion.li>
               ))}

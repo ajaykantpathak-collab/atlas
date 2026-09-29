@@ -67,10 +67,10 @@ export function C9_MathematicsIMUpAndDownSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Mathematics - Circles and Patterns</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Mathematics - Circles and Patterns</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Up and Down, Round and Round: The Ferris Wheel</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300">
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300">
           t = {time.toFixed(1)} s
         </span>
       </header>
@@ -80,10 +80,10 @@ export function C9_MathematicsIMUpAndDownSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>Radius R</span>
-            <span className="text-indigo-300 font-mono font-bold">{radius} m</span>
+            <span className="text-gold-300 font-mono font-bold">{radius} m</span>
           </label>
           <input type="range" min={5} max={25} value={radius} aria-label="wheel radius"
-            onChange={(e) => { setRadius(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => { setRadius(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -155,11 +155,11 @@ export function C9_MathematicsIMUpAndDownSim() {
           <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 grid grid-cols-2 gap-2 text-center">
             <div>
               <p className="text-[10px] text-slate-400 uppercase">Angle turned</p>
-              <p className="text-sm font-mono font-bold text-indigo-300">{angleDeg.toFixed(0)} deg</p>
+              <p className="text-sm font-mono font-bold text-gold-300">{angleDeg.toFixed(0)} deg</p>
             </div>
             <div>
               <p className="text-[10px] text-slate-400 uppercase">Full turns</p>
-              <p className="text-sm font-mono font-bold text-sky-300">{turns.toFixed(2)}</p>
+              <p className="text-sm font-mono font-bold text-gold-300">{turns.toFixed(2)}</p>
             </div>
             <div>
               <p className="text-[10px] text-slate-400 uppercase">Circumference</p>
@@ -176,14 +176,14 @@ export function C9_MathematicsIMUpAndDownSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> one full turn covers an arc of 2 x pi x R metres, so the rim speed is
+          <span className="font-bold text-gold-300">Big idea:</span> one full turn covers an arc of 2 x pi x R metres, so the rim speed is
           2 pi R / T. Meanwhile the cabin height rises and falls in a repeating pattern with period T: it is the projection of the turning
           radius on the vertical. Circular motion in one direction becomes up-and-down oscillation in the other.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Predict the cabin height after exactly half a period from the bottom, then pause the wheel and check the readout.</p>
         <p className="mt-1">2. Find the period T that sends a rider over the top exactly 5 times in one minute (rim speed stays under 8 m/s for comfort).</p>

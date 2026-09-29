@@ -288,7 +288,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Push and Pull! 🚪",
     text: "A force is a push or a pull! A push sends things AWAY from you, like pushing a heavy classroom door. A pull brings things CLOSER to you, like pulling a desk drawer out!",
     emoji: "🚪",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "A force is a push or a pull! A push sends things away from you, and a pull brings things closer to you!",
   },
   {
@@ -309,14 +309,14 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Friction as a Force! 🛑",
     text: "Friction is the force that opposes motion when two surfaces rub together. It acts opposite to the direction of motion, which is why a rolling ball gradually slows down and stops!",
     emoji: "🛑",
-    bgColor: "from-purple-500 to-indigo-600",
+    bgColor: "from-purple-500 to-gold-600",
     spoken: "Friction is the force that opposes motion when two surfaces rub together, making a rolling ball slow down and stop!",
   },
   {
     title: "Using Oil and Powder! 🛢️",
     text: "Friction can be useful for walking and braking, but harmful in machines. We use oil, grease, and fine powder to make surfaces smooth and reduce friction so parts move easily!",
     emoji: "🛢️",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "We use oil and powder to make surfaces smooth and reduce friction so machine parts move easily!",
   },
 ];

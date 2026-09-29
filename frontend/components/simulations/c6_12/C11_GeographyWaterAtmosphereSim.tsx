@@ -48,9 +48,9 @@ export function C11_GeographyWaterAtmosphereSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">💧</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">💧</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 11 -- Water in the Atmosphere</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Water in the Atmosphere</span>
           <h1 className="text-xl md:text-2xl font-extrabold">The Shrinking Tank: Dew Point Chamber</h1>
         </div>
       </div>
@@ -106,15 +106,15 @@ export function C11_GeographyWaterAtmosphereSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Water vapour</p>
-              <p className="font-mono font-bold text-sky-300">{water} g/kg</p>
+              <p className="font-mono font-bold text-gold-300">{water} g/kg</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Relative humidity</p>
-              <p className={`font-mono font-bold ${rh >= 100 ? 'text-rose-400' : 'text-cyan-300'}`}>{rh.toFixed(0)}%</p>
+              <p className={`font-mono font-bold ${rh >= 100 ? 'text-rose-400' : 'text-gold-300'}`}>{rh.toFixed(0)}%</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Dew point</p>
-              <p className="font-mono font-bold text-indigo-300">{dewPoint.toFixed(1)} C</p>
+              <p className="font-mono font-bold text-gold-300">{dewPoint.toFixed(1)} C</p>
             </div>
           </div>
         </div>
@@ -130,17 +130,17 @@ export function C11_GeographyWaterAtmosphereSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Water vapour added</span><span className="font-mono font-bold text-sky-400">{water} g/kg</span>
+                <span>Water vapour added</span><span className="font-mono font-bold text-gold-400">{water} g/kg</span>
               </div>
               <input type="range" min={0} max={30} step={1} value={water} aria-label="water vapour"
-                onChange={(e) => setWater(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setWater(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Lift the air parcel</span><span className="font-mono font-bold text-violet-400">{lift.toFixed(1)} km</span>
+                <span>Lift the air parcel</span><span className="font-mono font-bold text-gold-400">{lift.toFixed(1)} km</span>
               </div>
               <input type="range" min={0} max={5} step={0.1} value={lift} aria-label="parcel lift"
-                onChange={(e) => setLift(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setLift(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <button onClick={() => { setTemp(30); setWater(15); setLift(0); }}
               className="min-h-11 w-full rounded-xl text-xs font-bold bg-slate-700 hover:bg-slate-600">Reset</button>
@@ -155,8 +155,8 @@ export function C11_GeographyWaterAtmosphereSim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. At 30 C and 15 g/kg, find the exact lift where the parcel saturates. Predict first: is it near 2 km?</p>
             <p>2. Keep vapour fixed and cool the air from 30 C to 5 C. Watch dew point stay still while RH climbs -- why does only one of them move?</p>
           </div>
